@@ -1,32 +1,30 @@
 ---
-title: "Reverter alterações em um quadro de expedição"
-description: "Este tópico descreve como reverter alterações não salvas feitas em um quadro de expedição."
+title: Reverter alterações em um quadro de expedição
+description: Este tópico descreve como reverter alterações não salvas feitas em um quadro de expedição.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMADispatchBoard
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bc55c1ab0a9ad7af3b55e49079185062fd119cc7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 38995faf7c83af2f2807b700693392540ce5e735
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344814"
 ---
-
-
 # <a name="reverse-changes-in-a-dispatch-board"></a>Reverter alterações em um quadro de expedição 
 
 [!include [banner](../includes/banner.md)]
@@ -51,6 +49,5 @@ Use as etapas a seguir para reverter alterações não salvas em um quadro de ex
 [Atividades de serviço](service-activities.md)
 
  
-
 
 

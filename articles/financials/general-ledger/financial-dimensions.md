@@ -1,13 +1,13 @@
 ---
-title: "Dimensões financeiras"
-description: "Este tópico descreve os vários tipos de dimensões financeiras e como elas são configuradas."
+title: Dimensões financeiras
+description: Este tópico descreve os vários tipos de dimensões financeiras e como elas são configuradas.
 author: aprilolson
 manager: AnnBe
 ms.date: 01/03/2019
 ms.topic: article
-ems.prod: 
+ems.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DimensionDetails, DimensionValueDetails, SysTranslationDetail
 audience: Application User
 ms.reviewer: shylaw
@@ -16,15 +16,14 @@ ms.custom: 25871
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: 92d1f2997ca8ea1bd47dfe47d91bf7f6234833b0
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 2fb325e143eff067e1c9d0f23a1f913fc2dc36f3
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/03/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317536"
 ---
-
 # <a name="financial-dimensions"></a>Dimensões financeiras
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ Use a página **Dimensões financeiras** para criar as dimensões financeiras qu
 
 Depois de ter criado as dimensões financeiras, use a página **Valores de dimensão financeira** para atribuir propriedades adicionais para cada dimensão financeira.
 
-Você pode usar dimensões financeiras para representar entidades legais. Não é necessário criar as entidades legais no Microsoft Dynamics 365 for Finance and Operations. Entretanto, as dimensões financeiras não são criadas para atender aos requisitos comerciais ou operacionais de entidades legais. A funcionalidade de contabilidade interunidade no Finance and Operations foi criada para tratar somente as entradas de contabilidade criadas por cada transação.
+Você pode usar dimensões financeiras para representar entidades legais. Você não precisa criar as entidades legais no Microsoft Dynamics 365 for Finance and Operations. Entretanto, as dimensões financeiras não são criadas para atender aos requisitos comerciais ou operacionais de entidades legais. A funcionalidade de contabilidade interunidade no Finance and Operations foi criada para tratar somente as entradas de contabilidade criadas por cada transação.
 
 Antes de configurar dimensões financeiras como entidades legais, avalie seus processos comerciais nas seguintes áreas para determinar se essa configuração funcionará para a sua organização:
 
@@ -141,4 +140,3 @@ Para obter mais informações, consulte os seguintes tópicos:
 
 - [Definir dimensões financeiras](tasks/define-financial-dimensions.md)
 - [Manter modelos padrão de dimensão financeira](tasks/maintain-financial-dimension-default-templates.md)
-

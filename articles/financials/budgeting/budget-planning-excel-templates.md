@@ -1,13 +1,13 @@
 ---
-title: "Modelos de planejamento de orçamento para Excel"
-description: "Este tópico descreve como criar modelos do Microsoft Excel que podem ser usados com planos de orçamento."
+title: Modelos de plano de orçamento para Excel
+description: Este tópico descreve como criar modelos do Microsoft Excel que podem ser usados com planos de orçamento.
 author: ryansandness
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanSetLayout
 audience: Application User
 ms.reviewer: shylaw
@@ -18,15 +18,14 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 079aa6bb4be020fc050b81c400050ed23d48f6ca
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 156688b705337331e083ebc19fded57b028acb67
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337040"
 ---
-
-# <a name="budget-planning-templates-for-excel"></a>Modelos de planejamento de orçamento para Excel
+# <a name="budget-planning-templates-for-excel"></a>Modelos de plano de orçamento para Excel
 
 [!include [banner](../includes/banner.md)]
 
@@ -61,7 +60,7 @@ O modelo do Excel conterá todos os elementos do layout do documento de plano de
 [![Exemplo](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> Para evitar possíveis problemas com a exibição e edição de dados de plano de orçamento usando o Excel, o mesmo usuário deve estar conectado tanto ao Microsoft Dynamics 365 for Finance and Operations quanto ao Microsoft Dynamics Office Add-in Data Connector.
+> Para evitar possíveis problemas com a exibição e a edição de dados de plano de orçamento usando o Excel, o mesmo usuário deve estar conectado ao Microsoft Dynamics 365 for Finance and Operations e ao Conector de Dados do Suplemento do Office do Microsoft Dynamics.
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>Adicionar um cabeçalho ao modelo de documento de plano de orçamento
 Para adicionar informações de cabeçalho, selecione a linha superior no arquivo do Excel e insira linhas vazias. Clique em **Design** no **Conector de Dados** para adicionar campos de cabeçalho ao arquivo do Excel.
@@ -136,7 +135,6 @@ Sim, a maior parte dos recursos padrão do Excel funcionará nos modelos de plan
 Você também pode criar e usar tabelas e gráficos dinâmicos para mais agrupamentos e visualizações de dados de orçamento. Na guia **Dados**, no grupo **Conexões**, clique em **Atualizar Tudo** e depois clique em **Propriedades da Conexão**. Clique na guia **Uso**. Em **Atualizar**, marque a caixa de seleção **Atualizar dados ao abrir o arquivo**. 
 
 [![bpt17](./media/bpt17-1024x614.png)](./media/bpt17.png)
-
 
 
 

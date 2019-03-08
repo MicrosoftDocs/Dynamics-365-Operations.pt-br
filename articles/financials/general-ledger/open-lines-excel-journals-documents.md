@@ -1,13 +1,13 @@
 ---
-title: "Publicar linhas de diário e documentos do Excel"
-description: "Este tópico explica como inserir e exibir linhas de diários gerais do Microsoft Excel. Inclui informações sobre os vários modelos que podem ser usados, dependendo do tipo de transação que você está inserindo."
+title: Publicar linhas de diário e documentos do Excel
+description: Este tópico explica como inserir e publicar linhas de diários gerais do Microsoft Excel. Inclui informações sobre os vários modelos que podem ser usados, dependendo do tipo de transação que você está inserindo.
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 36eed913e658433b9200043163aad38521381be2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a2da864254efda2621e1b157413a16d251020786
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321032"
 ---
-
 # <a name="publish-journal-lines-and-documents-from-excel"></a>Publicar linhas de diário e documentos do Excel
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como inserir e exibir linhas de diários gerais do Microsoft Excel. Inclui informações sobre os vários modelos que podem ser usados, dependendo do tipo de transação que você está inserindo.
+Este tópico explica como inserir e publicar linhas de diários gerais do Microsoft Excel. Inclui informações sobre os vários modelos que podem ser usados, dependendo do tipo de transação que você está inserindo.
 
 Os usuários podem inserir e publicar linhas para diários financeiros do Microsoft Excel. Depois que um usuário cria um diário, o botão **Abrir linhas no Excel** exibe modelos que estão disponíveis. Os modelos são criados para oferecer suporte a cenários específicos, porém nem todas combinações de tipo de conta são suportadas no diário. A tabela a seguir mostra os modelos disponíveis e os tipos de conta às quais oferecem suporte.
 
@@ -51,7 +50,6 @@ Os usuários podem inserir e publicar linhas para diários financeiros do Micros
 Quando as linhas são publicadas, foram validadas para garantir que elas são compatíveis com as regras definidas nos diários financeiros. Depois que as linhas são publicadas, os usuários podem editar ou lançar os comprovantes do Microsoft Dynamics 365 for Finance and Operations. 
 
 Para adicionar dimensões financeiras a um modelo, alterações adicionais são necessárias. Para obter informações adicionais, consulte [Adicionar dimensões ao modelo do Microsoft Excel](../../dev-itpro/financial/add-dimensions-excel-templates.md). Depois que as dimensões são adicionadas à entidade, estarão disponíveis no designer do Excel e poderão ser adicionadas ao modelo.
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Configurar um item de menu do dispositivo móvel para registrar itens recebidos"
-description: "Esta tarefa tem como foco a configuração de um item de menu de dispositivo móvel."
+---
+title: Configurar um item de menu do dispositivo móvel para registrar itens recebidos
+description: Esta tarefa tem como foco a configuração de um item de menu de dispositivo móvel.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem, WHSRFMenu
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3cab7eced20111b82afabe69b6f994333b16209a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 7b5d757361c1163bbd0300abd3da4e0a2dd6b0e0
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318042"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>Configurar um item de menu do dispositivo móvel para registrar itens recebidos
 
@@ -64,5 +64,4 @@ Você pode usar este guia na empresa USMF de dados de demonstração. Esse proce
 5. Clique na seta que aponta para a direita.
 6. Clique em Salvar.
 7. Feche a página.
-
 

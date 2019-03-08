@@ -1,13 +1,13 @@
---- 
-title: "ER Usar arquivos de gerenciamento de documentos em formato de saída (Parte 1 - Preparar modelo de dados)"
-description: "As etapas a seguir explicam como um usuário atribuído à função de administrador do sistema ou desenvolvedor de relatório eletrônico pode configurar um formato de relatório eletrônico (ER) para usar arquivos de gerenciamento de documentos (anexos) na saída do ER."
+---
+title: ER Usar arquivos de gerenciamento de documentos em formato de saída (Parte 1 - Preparar modelo de dados)
+description: As etapas a seguir explicam como um usuário atribuído à função de administrador do sistema ou desenvolvedor de relatório eletrônico pode configurar um formato de relatório eletrônico (ER) para usar arquivos de gerenciamento de documentos (anexos) na saída do ER.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable, ERSolutionCreateDropDialog
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 00d366e61077e27a13b13e31a55acc89ae2b0cd0
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345228"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-1-prepare-data-model"></a>O ER usar arquivos de gerenciamento de documentos em formato de saída (parte 1: preparar modelo de dados)
 
@@ -31,7 +31,7 @@ As etapas a seguir explicam como um usuário atribuído à função de administr
 
 Para completar essas etapas, você deve primeiro completar as etapas do procedimento “Criar um provedor de configuração e marcá-lo como ativo“.
 
-Este procedimento é para um recurso que foi adicionado à versão 1611 do Dynamics 365 for Operations.
+Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynamics 365 for Operations.
 
 
 ## <a name="get-access-to-the-list-of-configurations-provided-by-microsoft"></a>Obter acesso à lista de configurações fornecidas pela Microsoft
@@ -67,5 +67,4 @@ Este procedimento é para um recurso que foi adicionado à versão 1611 do Dynam
 3. No campo Nome, digite 'Modelo de fatura de cliente (personalizada)'.
     * Modelo de fatura de cliente (personalizada)  
 4. Clique em Criar configuração.
-
 

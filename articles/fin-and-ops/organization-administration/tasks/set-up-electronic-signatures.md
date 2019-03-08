@@ -1,13 +1,13 @@
---- 
-title: "Configurar assinaturas eletrônicas"
-description: "Utilize esse procedimento para configurar assinaturas eletrônicas."
+---
+title: Configurar assinaturas eletrônicas
+description: Utilize esse procedimento para configurar assinaturas eletrônicas.
 author: maertenm
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysConfiguration, SIGParameters, SIGReasonCode, SIGProcSetup
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: eb6bf529b1e94d598e219482f182140402f2928a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 11fee0b2358e6a2b84c221f8eb06e32c888e5f44
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318571"
 ---
 # <a name="set-up-electronic-signatures"></a>Configurar assinaturas eletrônicas
 
@@ -77,5 +77,4 @@ Utilize esse procedimento para configurar assinaturas eletrônicas. Uma assinatu
     * Especifique quando uma assinatura é necessária.     Selecione Sempre se uma assinatura for necessária quando os dados do campo forem alterados.     Selecione Apenas se uma assinatura é necessária somente sob certas condições. Se você selecionar Apenas, você também deverá selecionar uma das seguintes opções: Quando um registro é inserido, Quando um registro é atualizado, ou Quando um registro é excluído.  
 10. Clique em Salvar.
 11. Feche a página.
-
 

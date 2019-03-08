@@ -1,13 +1,13 @@
 ---
 title: Estornar um pagamento do fornecedor
-description: "Este artigo descreve as diferenças entre estornar, excluir, anular e rejeitar um pagamento. Além disso, explica os dois métodos para estornar um cheque de fornecedor."
+description: Este artigo descreve as diferenças entre estornar, excluir, anular e rejeitar um pagamento. Além disso, explica os dois métodos para estornar um cheque de fornecedor.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankChequeTable, LedgerJournalTransBankChequeReversal, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d58aac20f9ef54e4ee41464a30b7c8190ade26b7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 019b765cd1e9fa00078018354f0d0792b97faba6
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329611"
 ---
-
 # <a name="reverse-a-vendor-payment"></a>Estornar um pagamento do fornecedor
 
 [!include [banner](../includes/banner.md)]
@@ -80,7 +79,6 @@ Se o cheque estornado foi emitido para um reembolso de cliente, o seguinte tamb�
 
 -   Uma transação é lançada contra a conta do cliente para o estorno do pagamento e a liquidação entre o pagamento original e o documento contra o qual o pagamento foi liquidado originalmente é estornado (cria-se um pagamento negativo).
 -   Um estorno de pagamento é aplicado ao pagamento original. O campo **Último comprovante de liquidação** na página **Transações do cliente** para o pagamento original ao cliente é atualizado para refletir o número do comprovante da transação estornada.
-
 
 
 

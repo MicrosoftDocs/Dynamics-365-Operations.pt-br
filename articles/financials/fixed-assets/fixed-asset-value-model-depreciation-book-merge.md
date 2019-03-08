@@ -1,13 +1,13 @@
 ---
-title: "Modelo de valor e registro de depreciação de ativo fixo"
-description: "Em versões anteriores, havia dois conceitos de avaliação para ativos fixos: modelos de valor e registros de depreciações. Na versão do Microsoft Dynamics 365 for Operations (1611), as funcionalidades modelo de valor e registro de depreciação foram mescladas em um único conceito que é conhecido como registro."
+title: Modelo de valor e registro de depreciação de ativo fixo
+description: 'Em versões anteriores, havia dois conceitos de avaliação para ativos fixos: modelos de valor e registros de depreciações. Na versão do Microsoft Dynamics 365 for Operations (1611), as funcionalidades modelo de valor e registro de depreciação foram mescladas em um único conceito que é conhecido como registro.'
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 26f4b73f67064a83eb7b3d57f2dc98d90602c254
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8ef31b63dd253ab5b436a65385e248c4753abf1e
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342514"
 ---
-
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Modelo de valor e registro de depreciação de ativo fixo
 
 [!include [banner](../includes/banner.md)]
@@ -69,7 +68,6 @@ Consultas e relatórios suportam todos os registros. Relatórios que não são i
 
 ## <a name="upgrade"></a>Atualizar
 O processo de atualização moverá suas configurações existentes e todas as transações existentes para a nova estrutura de registro. Os modelos de valor permanecerão como no momento, como um registro lançado na contabilidade. Entretanto, os registros de depreciação serão movidos para um registro que tenha a opção **Lançar na contabilidade** definido como **Não**. Os nomes de diário de registro de depreciação serão movidos a um nome de diário de contabilidade com o nível de lançamento definido como **Não**.
-
 
 
 

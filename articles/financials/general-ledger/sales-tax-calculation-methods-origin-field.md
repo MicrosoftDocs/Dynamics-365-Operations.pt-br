@@ -1,13 +1,13 @@
 ---
-title: "Métodos de cálculo de imposto no campo Origem"
-description: "Este artigo explica as opções no campo Origem na página de códigos de imposto e como os impostos são calculados com base na opção selecionada para um código de imposto."
+title: Métodos de cálculo de imposto no campo Origem
+description: Este artigo explica as opções no campo Origem na página de códigos de imposto e como os impostos são calculados com base na opção selecionada para um código de imposto.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: 1473eeb2950296f5ae6250d7a53794af3d9cba81
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330669"
 ---
-
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Métodos de cálculo de imposto no campo Origem
 
 [!include [banner](../includes/banner.md)]
@@ -131,7 +130,6 @@ O documento/diário é definido para Os valores incluem imposto = Não Valor da 
 [Determinando as alíquotas de imposto com base nos campos Base marginal e Método de cálculo](marginal-base-field.md)
 
 [Opções de cálculo de intervalo e valor total para códigos de imposto](whole-amount-interval-options-sales-tax-codes.md)
-
 
 
 

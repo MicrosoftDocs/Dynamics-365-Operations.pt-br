@@ -1,13 +1,13 @@
 ---
 title: Alocar tempo para trabalhos em um pacote de trabalhos
-description: "Em Execução de fabricação, você pode agrupar trabalhos. Você poderá iniciar vários trabalhos ao mesmo tempo na página Lista de trabalhos."
+description: Em Execução de fabricação, você pode agrupar trabalhos. Você poderá iniciar vários trabalhos ao mesmo tempo na página Lista de trabalhos.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgBundleSlize, JmgProdParameters, JmgRegistration
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 33d6bab9beb28d18e2094d7fb5e670e9425aac39
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a5204288ce3eaabb605f136ea788d235f408f349
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329105"
 ---
-
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Alocar tempo para trabalhos em um pacote de trabalhos
 
 [!include [banner](../includes/banner.md)]
@@ -109,7 +108,6 @@ Considere os três trabalhos executados por um trabalhador com um salário por h
 | Trabalho 3 | (3,33 ÷ 5) × BRL 12,00                 | USD 8,00                | 5 horas        | USD 40,00         |
 
 O custo corrigido por hora e o tempo de trabalho são lançados em um diário de produção. **Observação:** se você selecionar a opção **Categoria de custo** na guia **Geral** da página **Padrões da ordem de produção**, o tempo real de cada trabalho será transferido para um diário de produção em que os custos serão aplicados à categoria de custo do trabalho específico.
-
 
 
 

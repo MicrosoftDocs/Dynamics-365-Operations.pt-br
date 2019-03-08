@@ -1,13 +1,13 @@
 ---
-title: "Práticas recomendadas para importar vouchers usando a entidade Diário geral"
-description: "Este tópico fornece dicas para importar dados para o diário geral usando Entidade de diário geral."
+title: Práticas recomendadas para importar vouchers usando a entidade Diário geral
+description: Este tópico fornece dicas para importar dados para o diário geral usando Entidade de diário geral.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 29cb4b940875b96cabaff540360674da528f8f39
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322504"
 ---
-
 # <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>Práticas recomendadas para importar vouchers usando a entidade Diário geral
 
 [!include [banner](../includes/banner.md)]
@@ -67,4 +66,3 @@ As seções a seguir descrevem o efeito dessas configurações e também explica
 - Se o campo **Número do comprovante** é definido como **Gerado automaticamente**, a importação não tem êxito. A configuração **Gerado automaticamente** para o campo **Número do comprovante** não é suportado.
 
 Por padrão, a entidade de diário geral usa processamento baseado em conjunto. Depois de avaliar os requisitos de negócios para sua organização, você pode alterar a configuração **Processamento baseado em conjunto** clicando em **Entidades de dados** no espaço de trabalho **Gerenciamento de dados**. Processamento baseado em conjunto é usado para acelerar o processo de importação. Se você não usar o processamento baseado em conjunto, a importação da importação de entidade diário geral será mais lenta.
-

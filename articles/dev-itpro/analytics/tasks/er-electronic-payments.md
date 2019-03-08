@@ -1,13 +1,13 @@
---- 
-title: "Gerar documentos eletrônicos ER para pagamentos usando uma configuração de formato"
-description: "As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode usar uma nova configuração de formato de Relatório Eletrônico (RE) para gerar documentos eletrônicos para processamento de pagamentos."
+---
+title: Gerar documentos eletrônicos ER para pagamentos usando uma configuração de formato
+description: As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode usar uma nova configuração de formato de Relatório Eletrônico (RE) para gerar documentos eletrônicos para processamento de pagamentos.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: cf2ae8fb451eba1054bb94edbce009dcfa8c872c
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348310"
 ---
 # <a name="er-generate-electronic-documents-for-payments-using-a-format-configuration"></a>Gerar documentos eletrônicos ER para pagamentos usando uma configuração de formato
 
@@ -81,5 +81,4 @@ Para completar essas etapas, você deve primeiro completar as etapas do procedim
 24. Clique em OK.
 25. Clique em OK.
     * Analisar o arquivo de pagamento criada no formato XML. Compare-o com o layout de documento criado e defina atributos da transação de pagamento.  
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Mapear membros de dimensão de elemento de custo para um conjunto comum de membros de dimensão"
-description: "Mapeando membros diferentes de dimensões do elemento de custo estimado na comum conjunto de elementos de custo previsto dimensões membros, você mesclam dados em um formato comum para fins de análise."
+title: Mapear membros de dimensão de elemento de custo para um conjunto comum de membros de dimensão
+description: Mapeando membros diferentes de dimensões do elemento de custo estimado na comum conjunto de elementos de custo previsto dimensões membros, você mesclam dados em um formato comum para fins de análise.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimension, CAMDimensionMember
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e5c9387d74443ec6ca5dc70ad923b67f962181dc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6f2384155a07d17004c640160aee90b1e8bdb9f8
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318134"
 ---
-
 # <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Mapear membros de dimensão de elemento de custo para um conjunto comum de membros de dimensão
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,7 @@ O exemplo a seguir mostra como é, como controlador de custo previsto, pode cria
 |-----------------------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------|
 | Membros importados dimensão de elemento de custo previsto plano de contas dos EUA | Membros importados dimensão de elemento de custo previsto do gráfico de contas Francês. | Mapeamento de membros franceses e dos EUA e dimensão de elemento de custo previsto a um conjunto comuns |
 | 5001: vendas                                                           | 5001: Vendas e propaganda                                               | 5000: Vendas e propaganda                                             |
-| 5030: Publicidade                                                     | 6390: Compra de estoque*\*                                                    | 7000: Limpeza de despesas                                                 |
+| 5030: Publicidade                                                     | 6390: Compra de estoque\*                                                    | 7000: Limpeza de despesas                                                 |
 | 7001: Limpeza de despesas                                               | 7001: Despesa de viagens                                                      | 7001: Despesa de viagens                                                   |
 
 \***O membro francês dimensão de elemento de custo previsto de compra de estoque não é mapeado.
@@ -51,7 +50,6 @@ Vários gráficos de contas usado podem ser definidos para usar moedas diferente
 
 ## <a name="update-mappings-at-any-time"></a>Mapeamentos de atualização a qualquer momento
 Você pode atualizar as definições de mapeamento para uma dimensão de elemento de custo previsto a qualquer momento. Como os mapeamentos não são efetivos data, as alterações são aplicadas na próxima vez que você processa transações de custo estimado ou cálculos de custo estimados executado.
-
 
 
 

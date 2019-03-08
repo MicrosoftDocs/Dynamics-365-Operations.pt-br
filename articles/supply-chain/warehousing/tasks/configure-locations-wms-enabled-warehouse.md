@@ -1,13 +1,13 @@
---- 
-title: "Configurar localizações em um depósito habilitado para WMS"
-description: "Este guia mostra como definir a configuração da localização para um novo depósito habilitado para WMS (um depósito que utiliza processos avançados de gerenciamento de depósito)."
+---
+title: Configurar localizações em um depósito habilitado para WMS
+description: Este guia mostra como definir a configuração da localização para um novo depósito habilitado para WMS (um depósito que utiliza processos avançados de gerenciamento de depósito).
 author: perlynne
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocation, WHSLocationFormat, WHSLocationType, WHSLocationProfile, WHSParameters, WHSZoneGroup, WHSZone, WHSLocationBuild, WHSLocation, WHSPackSizeCategory, WHSLocationLimit, WHSInventFixedLocation, WMSLocationIdLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2be3c7cb33225041872e8b747ba28063f897dae9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1082c86361180db84bb2b5c0b8158816f76a219e
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337316"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Configurar localizações em um depósito habilitado para WMS
 
@@ -193,5 +193,4 @@ Este guia mostra como definir a configuração da localização para um novo dep
 5. No campo Localização, clique no botão suspenso para abrir a pesquisa.
 6. Na lista, clique no link na linha selecionada.
 7. Feche a página.
-
 

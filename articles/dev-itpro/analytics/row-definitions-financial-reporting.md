@@ -1,13 +1,13 @@
 ---
-title: "Definições de linha no designer de relatório financeiro"
-description: "Uma definição de linha é um componente de relatório ou bloco de construção que especifica o conteúdo de cada linha em um relatório financeiro. Uma definição de linha pode ser combinada com as definições de coluna, definições de árvore de relatórios e as definições de relatório para criar um grupo do bloco de construção que possa ser usado por várias empresas."
+title: Definições de linha no designer de relatório financeiro
+description: Uma definição de linha é um componente de relatório ou bloco de construção que especifica o conteúdo de cada linha em um relatório financeiro. Uma definição de linha pode ser combinada com as definições de coluna, definições de árvore de relatórios e as definições de relatório para criar um grupo do bloco de construção que possa ser usado por várias empresas.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: c829af1da1b3109f4687c9a2536dd156339d5c76
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "350426"
 ---
-
 # <a name="row-definitions-in-financial-report-designer"></a>Definições de linha no designer de relatório financeiro
 
 [!include [banner](../includes/banner.md)]
@@ -160,7 +159,7 @@ Você pode criar e modificar estilos de fonte para o relatório. Em seguida, voc
 
 A formatação que é especificada na definição de coluna substitui a formatação que é especificada na definição de relatório. Você pode modificar o formato do texto usando os controles na barra de ferramentas Formatação. Esses controles são controles padrão do Microsoft Windows.
 
-1. No Designer de Relatórios, abra a definição de linha a ser modificada.
+1. No Report Designer, abra a definição de linha a ser modificada.
 2. Selecione as células para formatar. Para selecionar várias células, mantenha pressionada a tecla CTRL enquanto seleciona a célula.
 3. Clique no botão na barra de ferramentas do formato a ser aplicado. Por exemplo, para recuar uma linha, selecione a linha e clique em **Aumentar recuo** ![Aumentar recuo](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "Aumentar recuo") na barra de ferramentas.
 
@@ -189,4 +188,3 @@ Para facilitar a exibição das colunas em que estiver trabalhando na definiçã
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Relatórios financeiros](financial-reporting-intro.md)
-

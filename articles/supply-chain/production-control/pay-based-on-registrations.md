@@ -1,13 +1,13 @@
 ---
 title: Pagamento com base em registros
-description: "Este tópico explica como o pagamento é calculado com base em registros de trabalhador."
+description: Este tópico explica como o pagamento é calculado com base em registros de trabalhador.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 03/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgCalcApproveWeekView
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: f36c411ce24dfd8cceacda3d4659ec9a98fd5aa9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1ae0f142ebd2252b1df414998c153d32127bc1b7
-ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321101"
 ---
-
 # <a name="pay-based-on-registrations"></a>Pagamento com base em registros
 
 [!include [banner](../includes/banner.md)]
@@ -600,4 +599,3 @@ Se o trabalhador não aparece para trabalhar em um dia útil, e não há ausênc
 - Inserção automática de ausência
 
 Quando os registros diários são calculados para um trabalhador que está habilitado para horas flexíveis, o código de ausência especificado no campo **Inserção automática de flex-** é usado como um código de ausência padrão. Se o trabalhador não está habilitado para horas flexíveis, o código de ausência especificado no campo **Inserção automática de ausência** é usado. Se uma empresa tem uma combinação de trabalhadores habilitados para horas flexíveis e trabalhadores não habilitados para horas flexíveis, ambos os parâmetros devem ser definidos.
-

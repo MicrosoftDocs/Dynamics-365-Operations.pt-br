@@ -1,13 +1,13 @@
 ---
-title: "Questionários"
-description: "Este tópico fornece informações gerais sobre questionários e leva a informações mais detalhadas. Um questionário é um conjunto de perguntas que é usado para coletar informações para diversas finalidades. Você pode projetar, criar, distribuir e preencher questionários e, em seguida, analisar os resultados."
+title: Questionários
+description: Este tópico fornece informações gerais sobre questionários e leva a informações mais detalhadas. Um questionário é um conjunto de perguntas que é usado para coletar informações para diversas finalidades. Você pode projetar, criar, distribuir e preencher questionários e, em seguida, analisar os resultados.
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorParameters, KmWorkspace
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: d5c3e02bf5bc17db7232ccbb56e4dfbc062795b4
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303223"
 ---
-
 # <a name="questionnaires"></a>Questionários
 
 [!include [banner](includes/banner.md)]
@@ -35,7 +34,7 @@ Este tópico fornece informações gerais sobre questionários e leva a informa�
 Você pode personalizar um questionário de acordo com as suas necessidades específicas usando diversos recursos disponíveis no Microsoft Dynamics 365 for Finance and Operations. Eis alguns exemplos de como os questionários podem ser usados:
 
 -   Testar as habilidades profissionais de funcionários e candidatos.
--   Avaliar se os participantes do curso aprenderam o material do curso.
+-   Avaliar se os participantes do curso aprenderam o material do curso.
 -   Avaliar um curso (por exemplo, instalações, conteúdo, e instrutor).
 -   Pesquisar a satisfação do funcionário e do cliente.
 -   Avaliar o desempenho profissional de um funcionário.
@@ -58,5 +57,4 @@ A tabela a seguir fornece links para informações sobre as tarefas do question�
 [Distribuindo e preenchendo questionários](distribute-questionnaires.md)
 
 [Exibindo e avaliando os resultados dos questionários](evaluate-questionnaire-results.md)
-
 

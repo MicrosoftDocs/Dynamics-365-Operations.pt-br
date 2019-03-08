@@ -1,13 +1,13 @@
 ---
-title: "Página inicial de compras"
-description: "Este tópico oferece uma lista de tópicos da Ajuda e outros recursos disponíveis para Compras e fornecimento."
+title: Página inicial de compras
+description: Este tópico oferece uma lista de tópicos da Ajuda e outros recursos disponíveis para Compras e fornecimento.
 author: mkirknel
 manager: AnnBe
 ms.date: 09/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 461c89a220ec75f3f693da6f52291ebb498e7a05
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 091b50c26cf596fc03e42f60fc662b8d1f25f06b
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338581"
 ---
-
 # <a name="procurement-and-sourcing-home-page"></a>Página inicial de compras
 
 [!include [banner](../includes/banner.md)]
@@ -58,7 +57,7 @@ A aquisição e o fornecimento abrangem todas as etapas, desde a identificação
 -   [Configurar e manter colaboração de fornecedor](set-up-maintain-vendor-collaboration.md)
 -   [Script de entrada de demonstração de estoque de consignação para o Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(white paper)
 -   [Monitorar o estoque de consignação usando a colaboração de fornecedor](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
--   [Colaboração com fornecedores usando o portal de fornecedor](collaborate-vendors-vendor-portal.md) (versões de fevereiro de 2016 e maio de 2016 do Dynamics AX somente)
+-   [Colaborando com fornecedores por meio do portal do fornecedor](collaborate-vendors-vendor-portal.md)  (versões de fevereiro de 2016 e maio de 2016 do Dynamics AX somente)
 -   [Configuração de segurança para usuários do portal de fornecedor](configure-security-vendor-portal-users.md) (versões de 2016 e maio de 2016 do Finanças e Operações somente)
 -   [Espaço de trabalho móvel de colaboração de fornecedor para o aplicativo Microsoft Dynamics 365 for Finance and Operations](vendor-collaboration-mobile-workspace.md)
 
@@ -102,7 +101,6 @@ A aquisição e o fornecimento abrangem todas as etapas, desde a identificação
 -   [Definir fluxos de trabalho de processos de negócios para requisições de compra](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (white paper)
 -   [Políticas de compras](purchase-policies.md)
 -   [Criar políticas de compras](tasks/create-purchasing-policies.md)
-
 
 
 

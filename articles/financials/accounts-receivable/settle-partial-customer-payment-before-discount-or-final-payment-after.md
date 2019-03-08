@@ -1,13 +1,13 @@
 ---
-title: "Liquidar um pagamento parcial de cliente antes da data do desconto com um pagamento final posterior à data do desconto"
-description: "Este artigo discute o efeito de liquidar pagamentos de faturas de clientes. O cenário se concentra nos efeitos no sub-razão, e não na Contabilidade."
+title: Liquidar um pagamento parcial de cliente antes da data do desconto com um pagamento final posterior à data do desconto
+description: Este artigo discute o efeito de liquidar pagamentos de faturas de clientes. O cenário se concentra nos efeitos no sub-razão, e não na Contabilidade.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 79d252ca04ca9434c10d282722b3e3dec58aab6a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f3843935cf17aeb0fd358398dccbca4cf494b132
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336856"
 ---
-
 # <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Liquidar um pagamento parcial de cliente antes da data do desconto com um pagamento final posterior à data do desconto
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,7 @@ Em 2 de julho, o cliente 4027 faz um pagamento parcial de 297,00 para a fatura. 
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|----------|------------------|
 | Selecionada | Normal            | FTI-10020 | 4027    | 25/6/2015 | 25/7/2015 | 10020   | 1.000,00                             | USD      | 297.00           |
 
-As informações do desconto aparecem na parte inferior da página **Liquidar transações abertas**. Se você não alterar o valor da opção **Valor para liquidar** para 297,00, os valores da opção **Valor de desconto à vista** que aparecem serão diferentes. No entanto, 3,00 serão obtidos como o desconto à vista quando o pagamento for lançado, pois a liquidação é ajustada automaticamente ao Valor a ser liquidado para você.
+As informações do desconto aparecem na parte inferior da página **Liquidar transações abertas**. Se você não alterar o valor da opção **Valor para liquidar** para 297,00, os valores da opção **Valor de desconto à vista** que aparecem serão diferentes. No entanto, 3,00 serão obtidos como o desconto à vista quando o pagamento for lançado, pois a liquidação é ajustada  **automaticamente ao Valor** a ser liquidado para você.
 
 |                              |           |
 |------------------------------|-----------|
@@ -107,7 +106,6 @@ Arnie altera o valor no campo**Usar desconto à vista** novamente para **Normal*
 | ARP-10020  |                  | 01/07/2015  |         |                                      | 297.00                                | 0,00    | USD      |
 | DISC-10020 |                  | 01/07/2015  |         |                                      | 3,00                                  | 0,00    | USD      |
 | ARP-10021  |                  | 11/07/2015 |         |                                      | 700.00                                | 0,00    | USD      |
-
 
 
 

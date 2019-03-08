@@ -1,31 +1,30 @@
 ---
-title: "Ordens de serviço criadas automaticamente"
-description: "Você pode gerar ordens de serviço com base em um contrato de serviço para o período de vigência do contrato de serviço."
+title: Ordens de serviço criadas automaticamente
+description: Você pode gerar ordens de serviço com base em um contrato de serviço para o período de vigência do contrato de serviço.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0189a9f99ffbb6ed2387211ba9e3b9f3bcdb3b52
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2d942d4448e0f792945603d3f5960fb82095be30
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331175"
 ---
-
 # <a name="automatically-create-service-orders"></a>Ordens de serviço criadas automaticamente 
 
 [!include [banner](../includes/banner.md)]
@@ -58,6 +57,5 @@ O contrato de serviço vigora desde de 1º de janeiro de 2012 até 31 de dezembr
 O contrato de serviço vigora desde de 1º de janeiro de 2012 até 31 de dezembro de 2012. Duas linhas de contrato de serviço são anexadas ao contrato. A primeira linha de contrato de serviço tem uma data inicial de 2 de janeiro de 2012 e final de 1º de março de 2012. A segunda linha de contrato de serviço tem uma data inicial de 1º de abril de 2012 e final de 31 de dezembro de 2012. Especifique um período no formulário **Criar ordens de serviço** que é de 1º de outubro de 2012 a 31 de dezembro de 2012. Portanto, as ordens de serviço serão geradas somente para a segunda linha de contrato de serviço porque as datas de início e fim da primeira linha são anteriores ao período especificado para a ordem de serviço.
 
   
-
 
 

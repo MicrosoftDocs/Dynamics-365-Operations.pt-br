@@ -1,31 +1,30 @@
 ---
-title: "Vídeos para o Finance and Operations"
-description: "Essa página lista \"como fazer\" criados pela Microsoft e conversas tecnológicas em vídeos relacionadas ao Dynamics 365 for Finance and Operations que estão disponíveis no YouTube e em outros sites."
+title: Vídeos para o Finance and Operations
+description: Essa página lista "como fazer" criados pela Microsoft e conversas tecnológicas em vídeos relacionadas ao Dynamics 365 for Finance and Operations que estão disponíveis no YouTube e em outros sites.
 author: josaw1
 manager: AnnBe
 ms.date: 05/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
+ms.openlocfilehash: 7675ae79cb1155919f95c7f2ff1d3d72628ab731
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: d22fe0c9a38026350c839d1d7d35835bfc77d995
-ms.openlocfilehash: 7f1fb4d2094076de62873148212c76ae6812d6a2
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/17/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317812"
 ---
-
-# <a name="videos-for-finance-and-operations"></a>Vídeos para o Finance and Operations
+# <a name="videos-for-finance-and-operations"></a>Vídeos do Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
@@ -33,14 +32,14 @@ Essa página lista "como fazer" criados pela Microsoft e conversas tecnológicas
 
 ## <a name="dynamics-365-youtube-channel"></a>Canal do YouTube do Dynamics 365
 
-Em [Canal do YouTube do Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ), você pode localizar os vídeos criados pela Microsoft que demonstram uma ampla gama de soluções empresariais para produtos do Dynamics 365. Esta seção lista vídeos de "como fazer" do Dynamics 365 for Finance and Operations que são armazenados no canal.
+No [canal do Microsoft Dynamics no YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ), você pode localizar os vídeos criados pela Microsoft que demonstram uma ampla gama de soluções empresariais para produtos do Dynamics 365. Esta seção lista vídeos de "como fazer" do Dynamics 365 for Finance and Operations que são armazenados no canal.
 
 Os vídeos são listados por recurso, então deslize para ver a lista completa de conteúdo de vídeo.
 
 #### <a name="data-integration"></a>Integração de dados
 
 - [Integração do cliente potencial ao pagamento à vista](https://youtu.be/AVV9x5x-XCg)
-- [Sincronizar uma ordem de trabalho entre o Dynamics 365 for Field Service e Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [Sincronizar uma ordem de trabalho entre o Dynamics 365 for Field Service e o Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 #### <a name="data-management"></a>Gerenciamento de dados
 
@@ -68,7 +67,7 @@ Os vídeos são listados por recurso, então deslize para ver a lista completa d
 #### <a name="intelligence"></a>Inteligência
 
 - [Traga sua própria base de dados (BYOD) para o Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
-- [Como usar o conteúdo de gerenciamento de custo do Power BI no Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
+- [Como usar o conteúdo do Power BI de gerenciamento de custo no Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 #### <a name="lifecycle-services-lcs"></a>LCS (Lifecycle Services)
 
@@ -80,23 +79,23 @@ Os vídeos são listados por recurso, então deslize para ver a lista completa d
 - [Implantar código em um ambiente de área restrita](https://www.youtube.com/watch?v=5azLeOO078k)
 - [Implantar código em um ambiente de produção](https://www.youtube.com/watch?v=ogXo-saZkmE&t=2s)
 - [Projetos de implementação no Lifecycle Services](https://www.youtube.com/watch?v=V1vVOgcTuw4&t=18s)
-- [Gerenciar a atualização de código e processamento de ferramentas no Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=M-AtR6ocYM8&feature=youtu.be)
+- [Gerencie a atualização de código e o processamento de ferramentas no Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=M-AtR6ocYM8&feature=youtu.be)
 - [Gerenciando bibliotecas do processo comercial no Lifecycle Services](https://www.youtube.com/watch?v=S5msxj-2-x0)
 - [Metodologias no Lifecycle Services](https://www.youtube.com/watch?v=YRMJ15DvgZ8)
-- [Solicitar um ambiente de produção do Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=5j1GapLr3MY&feature=youtu.be)
+- [Solicite um ambiente de produção do Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=5j1GapLr3MY&feature=youtu.be)
 - [Atualizando dados em um ambiente de produção](https://www.youtube.com/watch?v=VCd5SgkYPTw)
-- [Tomar uma nova versão da plataforma do Dynamics 365 for Finance and Operations após atualização 3 do Platform](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
+- [Implante uma nova versão da plataforma do Dynamics 365 for Finance and Operations depois da atualização 3 da Plataforma](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
 - [Use a telemetria para monitorar os contadores de desempenho chave no Dynamics Lifecycle Services](https://www.youtube.com/watch?v=18u6SC8GeFY&feature=youtu.be)
 
 #### <a name="office-integration"></a>Integração do Office
 
-- [Criar um modelo do Excel para cabeçalho e padrões de linha no Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
+- [Crie um modelo do Excel para padrões de cabeçalho e linha no Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
 
 #### <a name="organization-administration"></a>Administração da organização
 
 - [Gerenciamento de documentos](https://www.youtube.com/watch?v=p4rl1CkiLN4&feature=youtu.be)
 
-#### <a name="procurement-and-sourcing"></a>Compras e Fornecimento
+#### <a name="procurement-and-sourcing"></a>Compras
 
 - [Aprovar ordens de compra em um dispositivo móvel](https://youtu.be/gZ-gOlJe7H8)
 - [Onboard de um novo fornecedor](https://www.youtube.com/watch?v=0KUc3AGaTKk&feature=youtu.be)
@@ -136,13 +135,13 @@ Os vídeos são listados por recurso, então deslize para ver a lista completa d
 
 #### <a name="develop-and-customize"></a>Desenvolver e personalizar
 
-- [Ferramentas de integração de Azure para Dynamics 365 for Finance and Operations (DYN386PAL)](https://infopedia.eventbuilder.com/event?eventid=l7f2i9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Ferramentas de integração do Azure para Dynamics 365 for Finance and Operations (DYN386PAL)](https://infopedia.eventbuilder.com/event?eventid=l7f2i9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Extensibilidade (DYN384PAL2)](https://infopedia.eventbuilder.com/event?eventid=e0x4q5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Como estender ou criar novos espaços de trabalho analíticos (DYN321PAL)](https://infopedia.eventbuilder.com/event?eventid=r7z0f5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Abordagem de teste de desempenho (DYN449PAL2)](https://infopedia.eventbuilder.com/event?eventid=k6c6g9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Abordagem de teste de desempenho (DYN449PAL)](https://infopedia.eventbuilder.com/event?eventid=i1u5m9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
-#### <a name="financial-reporting"></a>Relatório financeiro
+#### <a name="financial-reporting"></a>Relatórios financeiros
 
 - [Relatórios financeiros (DYN305PAL)](https://infopedia.eventbuilder.com/event?eventid=s0d0n3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks) 
 - [Opções de relatório no Dynamics 365 for Finance and Operations (VIR810PAL)](https://infopedia.eventbuilder.com/event?eventid=p8x0s5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
@@ -151,7 +150,7 @@ Os vídeos são listados por recurso, então deslize para ver a lista completa d
 
 - [Integrador de dados do CDS (DYN451PAL2)](https://infopedia.eventbuilder.com/event?eventid=i8v2n3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Integração (VIR806PAL)](https://infopedia.eventbuilder.com/event?eventid=y0w0k9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [Integração entre Dynamics 365 for Sales e Dynamics 365 for Finance & Operations por meio do CDS (DYN340PAL)](https://infopedia.eventbuilder.com/event?eventid=d8s3b6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Integração entre o Dynamics 365 for Sales e o Dynamics 365 for Finance and Operations via CDS (DYN340PAL)](https://infopedia.eventbuilder.com/event?eventid=d8s3b6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Estrutura de integração dentro do Dynamics 365 for Finance & Operations (DYN385PAL)](https://infopedia.eventbuilder.com/event?eventid=y4y2v9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Quadro de automação de tarefa para gerenciamento de dados (DYN447PAL2)](https://youtu.be/KqnXjNpR4AY)
 
@@ -172,19 +171,19 @@ Os vídeos são listados por recurso, então deslize para ver a lista completa d
 
 #### <a name="retail"></a>Retail
 
-- [Extensibilidade do Dynamics 365 for Retail POS: Introdução completa (DYN342PAL)](https://infopedia.eventbuilder.com/event?eventid=f4s5w1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [Arquitetura de Retail & Unidade de escala da loja de Retail (DYN307PAL)](https://infopedia.eventbuilder.com/event?eventid=j0j7h2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [O que há de novo sobre extensibilidade do Dynamics 365 for Retail POS (DYN339PAL2)](https://infopedia.eventbuilder.com/event?eventid=h8b0l1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Extensibilidade do POS do Dynamics 365 for Retail: Detalhamento (DYN342PAL)](https://infopedia.eventbuilder.com/event?eventid=f4s5w1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Arquitetura do Retail e Retail Store Scale Unit (DYN307PAL)](https://infopedia.eventbuilder.com/event?eventid=j0j7h2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Novidades na extensibilidade do POS do Dynamics 365 for Retail (DYN339PAL2)](https://infopedia.eventbuilder.com/event?eventid=h8b0l1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="support"></a>Suporte
 
 - [Manutenção (VIR805PAL)](https://infopedia.eventbuilder.com/event?eventid=c2k8k3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
-#### <a name="upgrade-and-migration"></a>Atualização e migração
+#### <a name="upgrade-and-migration"></a>Upgrade e migração
 
-- [Ferramentas de migração AX 2009 a Dynamics 365 for Operations (VIR809PAL)](https://infopedia.eventbuilder.com/event?eventid=c3g5k3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [Ferramentas de migração AX 2009 (DYN306PAL2)](https://infopedia.eventbuilder.com/event?eventid=u3g7s0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [Atualização de AX 2012 a Dynamics 365 for Operations (VIR817PAL2)](https://infopedia.eventbuilder.com/event?eventid=t9e9e5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Ferramentas de migração do AX 2009 para o Dynamics 365 for Operations (VIR809PAL)](https://infopedia.eventbuilder.com/event?eventid=c3g5k3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Ferramentas de migração do AX 2009 (DYN306PAL2)](https://infopedia.eventbuilder.com/event?eventid=u3g7s0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Upgrade do AX 2012 para o Dynamics 365 for Operations (VIR817PAL2)](https://infopedia.eventbuilder.com/event?eventid=t9e9e5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Como atualizar para 7.2 (julho de 2017) de 7.0 (RTW)/7.1 (Versão 1611) (DYN338PAL2)](https://infopedia.eventbuilder.com/event?eventid=q0w9p0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Instalação do Azure DevOps (VIR782PAL)](https://infopedia.eventbuilder.com/event?eventid=g9f8g1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
@@ -196,4 +195,3 @@ Os vídeos são listados por recurso, então deslize para ver a lista completa d
 - [Processo de seleção em etapas (DYN330PAL2)](https://infopedia.eventbuilder.com/event?eventid=u6e0z6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Planejamento visual para ordens de produção e kanbans (DYN328PAL)](https://infopedia.eventbuilder.com/event?eventid=h0o0n0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Integração de depósito com produção (DYN344PAL)](https://infopedia.eventbuilder.com/event?eventid=y8p6o1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks) - [Para armazenar o VIR816PAL descritivo (celular)](https://infopedia.eventbuilder.com/event?eventid=t8t7l8&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-

@@ -1,13 +1,13 @@
 ---
 title: Gerenciamento de turnos e gaveta de dinheiro
-description: "Este tópico explica como configurar e utilizar turnos no ponto de venda (PDV) de varejo."
+description: Este tópico explica como configurar e utilizar turnos no ponto de venda (PDV) de varejo.
 author: jblucher
 manager: AnnBe
 ms.date: 05/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailHardwareProfile, RetailTerminalTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 7ad3c3fd17e88f364be12c122e2f5c155b7b9064
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313005"
 ---
-
 # <a name="shift-and-cash-drawer-management"></a>Gerenciamento de turnos e gaveta de dinheiro
 
 [!include [banner](includes/banner.md)]
@@ -70,7 +69,7 @@ Para que os turnos compartilhados sejam usados em uma loja, a gaveta de dinheiro
 
 ## <a name="shift-and-drawer-operations"></a>Operações de turno e de gaveta
 
-Várias operações podem ser realizadas para alterar o estado de um turno, ou para aumentar ou diminuir a quantidade de dinheiro na gaveta. Esta seção descreve essas operações de turno para PDV Moderno e PDV em Nuvem do Microsoft Dynamics 365 for Retail.
+Várias operações podem ser realizadas para alterar o estado de um turno, ou para aumentar ou diminuir a quantidade de dinheiro na gaveta. Esta seção descreve essas operações de turnos para o Microsoft Dynamics 365 for Retail Modern POS e Cloud POS.
 
 ### <a name="open-shift"></a>Turno aberto
 
@@ -159,4 +158,3 @@ Vá para **Retail \> Canais \> Lojas de varejo \> Todas as lojas de varejo \> De
 Essa configuração ajuda a garantir que os demonstrativos do back office incluam as mesmas transações que os turnos no PDV, e que os dados sejam resumidos por esse turno.
 
 Para obter mais informações sobre métodos de demonstrativo e de fechamento, consulte [Configurações de loja para obter demonstrativo do Retail](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
-

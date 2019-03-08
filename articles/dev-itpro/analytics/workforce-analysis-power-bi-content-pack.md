@@ -1,13 +1,13 @@
 ---
-title: "Conteúdo do Power BI de métricas de força de trabalho"
-description: "Este tópico descreve o Conteúdo do Power BI Métricas de força de trabalho. Ele explica como acessar os relatórios e fornece informações sobre o modelo de dados e as entidades usadas para criar o conteúdo."
+title: Conteúdo do Power BI Métricas de força de trabalho
+description: Este tópico descreve o conteúdo do Power BI Métricas de força de trabalho. Ele explica como acessar os relatórios e fornece informações sobre o modelo de dados e as entidades usadas para criar o conteúdo.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,22 +18,21 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 1bb4b55fd929c105c20a1d4b1086bbb7f07d5eb1
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345780"
 ---
-
-# <a name="workforce-metrics-power-bi-content"></a>Conteúdo do Power BI de métricas de força de trabalho
+# <a name="workforce-metrics-power-bi-content"></a>Conteúdo do Power BI Métricas de força de trabalho
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o Conteúdo do Microsoft Power BI **Métricas de força de trabalho**. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo.
+Este tópico descreve o conteúdo do Power BI **Métricas de força de trabalho**. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que foram usados para criar o conteúdo.
 
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
-O conteúdo do Power BI **Métricas de força de trabalho** aparece no espaço de trabalho **Gerenciamento de pessoal** se você usar um destes produtos:
+O conteúdo **Métricas de força de trabalho** do Power BI aparece no espaço de trabalho **Gerenciamento de pessoal** se você usar um destes produtos:
 
 - Microsoft Dynamics 365 for Finance and Operations
 - Microsoft Dynamics 365 for Talent
@@ -57,9 +56,9 @@ A tabela a seguir lista as métricas mostradas em cada relatório.
 | Aniversários de funcionários                               | Aniversários deste mês, aniversários do mês que vem, aniversários de funcionários e aniversários por mês e departamento |
 | Projetos de contratação em massa                               | Total de projetos de contratação em massa, projetos de contratação em massa por status, projetos de contratação em massa por departamento e proprietário, projetos de contratação em massa por trabalho e projetos de contratação em massa |
 
-Você pode filtrar os gráficos e blocos nesses relatórios e fixá-los no painel. Para saber mais sobre como filtrar e fixar no Power BI, veja [Criar e configurar um painel](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Você pode filtrar os gráficos e blocos nesses relatórios e fixá-los no painel. Para obter mais informações sobre como filtrar e fixar no Power BI, consulte [Criar e configurar um painel](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
-Certifique-se de baixar o conteúdo do Power BI **Métricas de força de trabalho** que se aplica à versão do Microsoft Dynamics 365 que você está usando.
+Certifique-se de baixar o conteúdo do Power BI **Métricas da força de trabalho** que se aplica à versão do Microsoft Dynamics 365 que você está usando.
 
 > [!NOTE]
 > Os arquivos .pbix disponíveis no Lifecycle Services aplicam-se somente ao Finance and Operations.
@@ -88,4 +87,3 @@ A seguinte tabela mostra as entidades nas quais o conteúdo foi baseado.
 | Evolução do funcionário           | Trabalhadores com o tempo, número de funcionários, empresa e posição                                 | Empresa, Localização geográfica, Nome do funcionário, Subordinado a, Calendário de compensação, Data, Cargo do funcionário, Dados demográficos, Emprego, Trabalho |
 | Projeto de contratação em massa        | Número de projetos de contratação em massa, proprietário de projeto e status de projeto                     | Empresa, linha de contratação em massa |
 | Linhas de contratação em massa           | Departamento, tipo de emprego e posição                                           | Data, trabalho, projeto de contratação em massa |
-

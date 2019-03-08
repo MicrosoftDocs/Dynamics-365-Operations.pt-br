@@ -1,32 +1,31 @@
 ---
-title: "Designer de fórmulas"
-description: "Este tópico explica como usar o designer de fórmulas para analisar e manter fórmulas em um modo de exibição de árvore."
+title: Designer de fórmulas
+description: Este tópico explica como usar o designer de fórmulas para analisar e manter fórmulas em um modo de exibição de árvore.
 author: cvocph
 manager: AnnBe
 ms.date: 06/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 31a46230251be3a654092a4acc05a404533001b2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a4cfd017fe10bbda6eda0e3a9a045e0832b08753
-ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348494"
 ---
-
 # <a name="formula-designer"></a>Designer de fórmulas
 
 [!include [banner](../includes/banner.md)]
@@ -68,7 +67,7 @@ O filtro aplicado para que a fórmula e o roteiro sejam exibidos no cabeçalho d
 <tbody>
 <tr class="odd">
 <td>Dimensões do produto</td>
-<td>Se o produto selecionado é um produto mestre, você pode definir as dimensões de produto ativas para a seleção principal. Observe que, se você abrir o designer de fórmulas para um produto que não é um produto mestre, as dimensões do produto não poderão ser selecionadas na caixa de diálogo <strong>Filtro</strong>.</p></td>
+<td>Se o produto selecionado é um produto mestre, você pode definir as dimensões de produto ativas para a seleção principal. Observe que se você abrir o designer de fórmulas para um produto que não é um produto mestre, as dimensões do produto não poderão ser selecionadas na caixa de diálogo <strong>Filtro</strong>.</p></td>
 </tr>
 <tr class="even">
 <td>Site</td>
@@ -121,5 +120,4 @@ Clique em **Configuração** para personalizar as informações mostradas no mod
 |-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |     BOM     | Use as caixas de seleção para marcar os critérios mostrados na estrutura de árvore. O designer de fórmulas mostra os critérios selecionados na parte inferior das duas guias. |
 |    Roteiro    |                                           Use as caixas de seleção para marcar os critérios mostrados nos roteiros.                                           |
-
 

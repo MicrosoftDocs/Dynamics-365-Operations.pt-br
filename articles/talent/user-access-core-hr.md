@@ -1,38 +1,37 @@
 ---
-title: "O usuário pode acessar o Core HR, mas não o aplicativo Onboard ou Attract"
-description: "Este tópico explica como resolver o problema onde um usuário pode acessar o Microsoft Dynamics 365 for Talent Core HR, mas não pode acessar o aplicativo Attract ou Onboard."
+title: O usuário pode acessar o Core HR, mas não o aplicativo Onboard ou Attract
+description: Este tópico explica como resolver o problema onde um usuário pode acessar o Microsoft Dynamics 365 for Talent Core HR, mas não pode acessar o aplicativo Attract ou Onboard.
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: d3f974f94b6c327fd70b8098d24f9e1f1e1e8eeb
 ms.openlocfilehash: 2e5d0b1bf993aec89c7d2c6d4916732f5824310d
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303298"
 ---
-
-# <a name="user-can-access-core-hr-but-not-the-onboard-or-attract-app"></a>O usuário pode acessar o Core HR, mas não o aplicativo Onboard ou Attract
+# <a name="user-can-access-core-hr-but-not-the-onboard-or-attract-app"></a>O usuário pode acessar o aplicativo Core HR mas não o Onboard nem o Attract
 
 [!include [banner](includes/banner.md)]
 
 **Detalhes do ambiente**
 
 - A implantação do Microsoft Dynamics Lifecycle Services (LCS) foi feita pelo usuário A.
-- Usuário A adicionou usuário B como um usuário do Microsoft Dynamics 365 for Talent Core HR.
+- Usuário A adicionou usuário B como um usuário do Dynamics 365 for Talent Core HR.
 
 **Saída**
 
@@ -47,4 +46,3 @@ Para obter informações, consulte a seção "Fornecendo acesso ao ambiente" em 
 **Solução de longo prazo**
 
 Microsoft está considerando atribuir automaticamente os direitos apropriados para Onboard e Attract quando um usuário é adicionado ao Core HR.
-

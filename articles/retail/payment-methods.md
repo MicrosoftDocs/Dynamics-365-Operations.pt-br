@@ -1,13 +1,13 @@
 ---
-title: "Métodos de pagamento"
-description: "Cada tipo de pagamento que o varejista aceita deve ser configurado quando o sistema for configurado. Este artigo descreve os tipos de pagamento que você pode configurar e descreve o processo para defini-los para cima."
+title: Métodos de pagamento
+description: Cada tipo de pagamento que o varejista aceita deve ser configurado quando o sistema for configurado. Este artigo descreve os tipos de pagamento que você pode configurar e descreve o processo para defini-los para cima.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 60f0a2e5fa2dc2bc37a04b159a4834a52117893d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 1ba80e48c8b3b5ed94b9e03302788099a1d31909
-ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328967"
 ---
-
 # <a name="payment-methods"></a>Métodos de pagamento
 
 [!include [banner](includes/banner.md)]
@@ -50,4 +49,3 @@ Para configurar métodos de pagamento, conclua as tarefas a seguir.
 2. Criar tipos e números de cartão no nível da organização. Se cartões de crédito ou de débito forem aceitos, você deve criar um tipo de método de pagamento com cartões e os tipos e números de cartão no nível da organização.
 3. Configurar método de pagamento da loja. Associe métodos de pagamento a cada loja e insira as configurações específicas da loja para cada método de pagamento.
 4. Configurar métodos de pagamento de cartão para lojas. Para todos os métodos de pagamento de cartão que a loja aceita, conclua a configuração do cartão.
-

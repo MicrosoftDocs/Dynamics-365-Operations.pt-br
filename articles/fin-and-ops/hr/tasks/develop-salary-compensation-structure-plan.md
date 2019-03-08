@@ -1,13 +1,13 @@
---- 
-title: "Desenvolver estrutura e plano de remuneração/salário"
-description: "Essa guia da tarefa mostra o processo de criar um plano de remuneração fixa e de habilitar os funcionários a serem inseridos no plano com a qualificação."
+---
+title: Desenvolver estrutura e plano de remuneração/salário
+description: Essa guia da tarefa mostra o processo de criar um plano de remuneração fixa e de habilitar os funcionários a serem inseridos no plano com a qualificação.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 28d044cedbcc9f483a4deb7739aef0f8e3abf9ec
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332762"
 ---
 # <a name="develop-salarycompensation-structure-and-plan"></a>Desenvolver estrutura e plano de remuneração/salário
 
@@ -74,5 +74,4 @@ Essa guia da tarefa mostra o processo de criar um plano de remuneração fixa e 
     * Selecione os critérios que funcionário deve atender aos requisitos a seguir para serem qualificados para a inscrição em um plano de remuneração. Os critérios podem incluir um nível de departamento, associação de trabalhadores, de localização (região de remuneração), trabalhos, função, tipo de trabalho ou de remuneração. O funcionário deve atender todos os requisitos especificados para ser qualificado para a inscrição em um plano de remuneração. Se nenhum critério for especificado, todos os funcionários estão qualificadas para o plano de remuneração. Se um funcionário não atender aos critérios especificados na regra de qualificação, ou uma regra de qualificação não tiver sido especificada para um plano de remuneração, o plano de remuneração não aparece na pesquisa ao criar um registro de compensação fixa para um funcionário.  
 7. Feche a página.
 8. Feche a página.
-
 

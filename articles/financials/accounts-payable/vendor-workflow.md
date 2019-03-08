@@ -1,13 +1,13 @@
 ---
 title: Fluxo de trabalho do fornecedor
-description: "Modifique as informações do fornecedor e o fluxo de trabalho de uso de aprová-las."
+description: Modifique as informações do fornecedor e o fluxo de trabalho de uso de aprová-las.
 author: mikefalkner
 manager: annbe
 ms.date: 08/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Vendor
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
 ms.openlocfilehash: 950a1852acf9f3e4747ce2d55738c0eb3a646897
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/31/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329680"
 ---
-
 # <a name="vendor-workflow"></a>Fluxo de trabalho do fornecedor
 
 [!include [banner](../includes/banner.md)]
@@ -61,5 +60,4 @@ Após de ter pelo menos uma alteração proposta, duas guias adicionais aparecer
 
     O status na página foi alterado para **Alterações com aprovação pendente**.
 
-O fluxo de trabalho segue o processo de fluxo de trabalho padrão do Microsoft Dynamics 365 for Finance and Operations. O aprovador é direcionado à página **Fornecedor**, na qual pode revisar as alterações na página **Alterações propostas** e selecionar **Fluxo de trabalho \> Aprovar** para aprovar o fluxo de trabalho. Depois que todas as aprovações forem concluídas, os campos serão atualizados com os valores que você propôs.
-
+O fluxo de trabalho segue o processo padrão de fluxo de trabalho no Microsoft Dynamics 365 for Finance and Operations. O aprovador é direcionado à página **Fornecedor**, na qual pode revisar as alterações na página **Alterações propostas** e selecionar **Fluxo de trabalho \> Aprovar** para aprovar o fluxo de trabalho. Depois que todas as aprovações forem concluídas, os campos serão atualizados com os valores que você propôs.

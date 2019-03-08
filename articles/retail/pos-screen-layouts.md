@@ -1,13 +1,13 @@
 ---
 title: Layouts de tela para o ponto de venda (PDV)
-description: "Este tópico fornece informações sobre layouts de tela para experiências com o PDV (ponto de venda) do Microsoft Dynamics 365 for Retail."
+description: Este tópico fornece informações sobre layouts de tela para experiências com o PDV (ponto de venda) do Microsoft Dynamics 365 for Retail.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dda9c8cb7f3da99fb2e7df0372e59769cfaf77d1
-ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321883"
 ---
-
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Layouts de tela para o ponto de venda (PDV)
 
 [!include [banner](includes/banner.md)]
@@ -51,7 +50,7 @@ Os perfis visuais são atribuídos às caixas registradoras e usados para especi
 - **Descrição** – você pode especificar um nome significativo que ajudará a identificar o perfil correto de sua situação.
 - **Tema** – os usuários podem selecionar entre os temas de aplicativo Claro ou Escuro. O tema afetará as cores da fonte e o plano de fundo em todo o aplicativo.
 - **Cor de destaque** – a cor de destaque é usada em todo o PDV para diferenciar ou destacar elementos visuais específicos, como blocos, botões de comando e hyperlinks. Normalmente, esses elementos são acionáveis.
-- **Cor do cabeçalho** – você pode configurar a cor do cabeçalho da página para atender aos requisitos de identidade visual do varejista. Este recurso está disponível somente no Microsoft Dynamics 365 for Retail, versão 1611.
+- **Cor do cabeçalho** – você pode configurar a cor do cabeçalho da página para atender aos requisitos de identidade visual do varejista. Este recurso está disponível somente na versão 1611 do Microsoft Dynamics 365 for Retail.
 - **Segundo plano de logon** – você pode especificar uma imagem de plano de fundo para a tela de entrada. O tamanho do arquivo de imagens de plano de fundo deve ser o menor possível, pois armazenar e carregar arquivos grandes pode afetar o comportamento e o desempenho do aplicativo.
 - **Plano de fundo do aplicativo** – você pode especificar uma imagem de plano de fundo para ser usada no lugar da cor sólida do tema no aplicativo. Quanto ao segundo plano de logon, o tamanho do arquivo deve ser o menor possível.
 
@@ -165,7 +164,7 @@ O designer de grade de botões permite que você configure grades de botões que
 - **Propriedades do botão** – você pode configurar as propriedades do botão clicando com o botão direito do mouse no botão e usando o menu de atalho.
 
     > [!IMPORTANT]
-    > Algumas configurações da grade de botões aplicam-se somente ao PDV Empresarial, não ao Retail Modern POS ou ao PDV em Nuvem.
+    > Algumas configurações da grade de botões aplicam-se somente ao PDV Empresarial, não ao Retail Modern POS ou PDV em Nuvem.
 
     ![Propriedades dos botões da grade de botões](../retail/media/Button-grid-button-properties.png)
 
@@ -185,7 +184,7 @@ O designer de grade de botões permite que você configure grades de botões que
     - **Tema personalizado** – por padrão, os botões do PDV usam a cor de destaque do perfil visual. Ao marcar a caixa de seleção **Usar tema personalizado**, você poderá especificar cores adicionais.
 
         > [!NOTE]
-        > O Retail Modern POS e o PDV em Nuvem usam somente os valores **Cor do plano de fundo** e **Cor da fonte**.
+        > O Retail Modern POS e o PDV em Nuvem usam somente os valores **Cor do plano de fundo** e **Cor da fonte**
 
     - **Imagem do botão** – os botões podem incluir imagens ou ícones. Selecione entre as imagens disponíveis especificadas em **Varejo \> Configuração de canal \> Configuração do PDV \> PDV \> Imagens**.
 
@@ -194,4 +193,3 @@ O designer de grade de botões permite que você configure grades de botões que
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Instalar o designer de Layout do Retail POS](install-pos-layout-designer.md)
-

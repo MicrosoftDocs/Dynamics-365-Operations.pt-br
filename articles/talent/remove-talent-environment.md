@@ -1,13 +1,13 @@
 ---
 title: Remover ambientes do Talent
-description: "Este tópico mostra o processo de remoção de um ambiente de produção ou de test drive do Microsoft Dynamics 365 for Talent."
+description: Este tópico mostra o processo de remoção de um ambiente de produção ou de test drive do Microsoft Dynamics 365 for Talent.
 author: rschloma
 manager: AnnBe
 ms.date: 11/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
+ms.openlocfilehash: e0422a5b7ac227ad03ccafb4e34e614dc770a363
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 5080f1ec182b8cbdf281967185a1afeb9887f682
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303343"
 ---
 # <a name="remove-talent-environments"></a>Remover ambientes do Talent
 
@@ -73,5 +73,4 @@ Para remover um ambiente do Talent de um ambiente existente do PowerApps, conclu
 6. Em seu projeto LCS, selecione o bloco **Gerenciamento do Aplicativo Talent**. 
 7. Selecione a instância que você deseja remover, que deve estar marcada com um status de implantação **Reprovado**.
 8. Selecione **Remover instância** e confirme sua decisão. 
-
 

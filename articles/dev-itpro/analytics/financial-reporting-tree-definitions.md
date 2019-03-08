@@ -1,13 +1,13 @@
 ---
-title: "Definições da árvore de relatórios em relatórios financeiros"
-description: "Este artigo fornece informações sobre definições da árvore de relatório. Uma relatório definição de árvore é um componente de relatório ou bloco de construção, que ajuda a definir a estrutura e a hierarquia de sua organização."
+title: Definições da árvore de relatórios em relatórios financeiros
+description: Este artigo fornece informações sobre definições da árvore de relatório. Uma relatório definição de árvore é um componente de relatório ou bloco de construção, que ajuda a definir a estrutura e a hierarquia de sua organização.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 00219f21076af60f8e2f16ca365b1138bb279400
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316938"
 ---
-
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Definições da árvore de relatórios em relatórios financeiros
 
 [!include [banner](../includes/banner.md)]
@@ -49,9 +48,9 @@ Você pode criar um número ilimitado de árvores de relatório para exibir os d
 ## <a name="create-a-reporting-tree-definition"></a> Criar uma definição da árvore de relatório
 A definição da árvore de relatório contém as colunas descritas na tabela a seguir.
 
-| Coluna da árvore de relatório | descrição |
+| Coluna da árvore de relatório | Descrição |
 |-----------------------|-------------|
-| Empresa               | O nome da empresa para a unidade de relatório. O valor **@ANY**, que geralmente é atribuído apenas ao nível de resumo, habilita a árvore de relatório a ser usada para todas as empresas. Todas as ramificações filho que têm uma empresa atribuída a elas. |
+| Empresa               | O nome da empresa para a unidade organizacional. O valor **@ANY**, que geralmente é atribuído apenas ao nível resumido, permite que a hierarquia organizacional seja usada em todas as empresas. Todas as ramificações filho que têm uma empresa atribuída a elas. |
 | Nome da unidade             | O código que identifica esta unidade de relatório na árvore gráfica do relatório. Certifique-se de estabelecer um sistema de codificação exclusivo que é consistente e que seja fácil de entender. |
 | Descrição da Unidade      | O título da unidade de relatório aparece no cabeçalho ou rodapé do relatório se você insere **UnitDesc** como um código na guia **Cabeçalhos e Rodapés** da definição de relatório. O título aparece na descrição da linha do relatório se você insere **UnitDesc** na célula **Descrição** de definição da linha. |
 | Dimensões            | Uma unidade de relatório que obtém informações diretamente dos dados financeiros. Ela define o posicionamento e os comprimentos lógicos da conta e os segmentos relacionados. Cada linha de unidade de relatório deve ter uma dimensão nesta coluna. Você também pode colocar uma dimensão em uma linha de resumo de unidade (por exemplo, para as despesas que estão diretamente relacionadas a essa unidade). Se você inserir uma dimensão em uma linha da unidade de resumo, as contas usadas em unidades pai não deverão ser usadas em unidades filho. Caso contrário, os valores podem ser duplicados. |
@@ -166,9 +165,9 @@ Você pode impedir que certos usuários e grupos acessem uma unidade de relatór
 3. Na caixa de diálogo **Segurança de Unidade**, selecione um nome e clique em **Remover**.
 4. Clique em **OK**.
 
-### <a name="link-to-reports"></a>Link para relatórios
+### <a name="link-toreports"></a>Link para relatórios
 
-Após criar uma coluna **relatório** na definição de linha e especificar o relatório para incluir no relatório, você deve atualizar a árvore de relatório com a coluna vinculada e as informações sobre o relatório. Um relatório pode ser importado para qualquer unidade na árvore de relatório.
+Depois de criar uma coluna **relatório** na definição de linha e especificar o relatório a ser incluído no relatório, você deve atualizar a hierarquia organizacional com a coluna vinculada e as informações sobre o relatório. Um relatório pode ser importado para qualquer unidade na árvore de relatório.
 
 ### <a name="identify-the-report-in-a-reporting-tree"></a>Identificar o relatório em uma árvore de relatório
 
@@ -222,4 +221,3 @@ Os exemplos a seguir mostram informações possíveis usadas em uma definição 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Relatórios financeiros](financial-reporting-intro.md)
-

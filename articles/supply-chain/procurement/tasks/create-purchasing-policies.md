@@ -1,13 +1,13 @@
---- 
-title: "Criar políticas de compras"
-description: "Este procedimento mostra-lhe como criar políticas de compra para alinhar com seus processos de negócios de compra."
+---
+title: Criar políticas de compras
+description: Este procedimento mostra-lhe como criar políticas de compra para alinhar com seus processos de negócios de compra.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicyParameters, SysPolicy, RequisitionPurposeRule
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3bd4d6f8625c91f2190e994f04cbec4548272f04
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c2b3a66443394f5bfbe51b6685513281025d68fd
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312890"
 ---
 # <a name="create-purchasing-policies"></a>Criar políticas de compras
 
@@ -58,5 +58,4 @@ Este procedimento mostra-lhe como criar políticas de compra para alinhar com se
     * Agora você pode estabelecer outras regras da política para a política de compras.   Note que um tipo da regra da política não pode ter as regras de sobreposição que são ativas ao mesmo tempo dentro de uma única política de obtenção.  
 5. Feche a página.
 6. Feche a página.
-
 

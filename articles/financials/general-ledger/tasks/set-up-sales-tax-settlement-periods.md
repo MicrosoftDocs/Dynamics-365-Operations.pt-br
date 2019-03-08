@@ -1,13 +1,13 @@
---- 
-title: "Configurar períodos de liquidação do imposto"
-description: "Períodos de liquidação de impostos contêm informações sobre os intervalos de período para os quais os impostos precisam ser relatados e pagos."
+---
+title: Configurar períodos de liquidação do imposto
+description: Períodos de liquidação de impostos contêm informações sobre os intervalos de período para os quais os impostos precisam ser relatados e pagos.
 author: twheeloc
 manager: AnnBe
 ms.date: 10/15/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
 ms.openlocfilehash: 1087ed78e91b487ca7157bfdac1d72ae3f477875
-ms.contentlocale: pt-br
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326184"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Configurar períodos de liquidação do imposto
 
@@ -60,5 +60,4 @@ Esta tarefa usa a empresa de demonstração USMF.
 20. Clique em Novo intervalo do período.
     * Depois que o primeiro intervalo de período tiver sido inserido, os novos períodos podem ser criados automaticamente. Você pode voltar e adicionar novos intervalos de período conforme necessário.  
 21. Feche a página.
-
 

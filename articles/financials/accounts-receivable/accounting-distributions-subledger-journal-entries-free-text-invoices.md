@@ -1,13 +1,13 @@
 ---
-title: "Distribuições contábeis e entradas no diário-razão auxiliar para faturas de texto livre"
-description: "As distribuições contábeis são usadas para definir como um valor será contabilizado, assim como a receita, os impostos ou os encargos serão contabilizados em uma fatura de texto livre. Cada valor que deve ser contabilizado terá uma ou mais distribuições contábeis quando a fatura de texto livre for lançada no diário."
+title: Distribuições contábeis e entradas no diário-razão auxiliar para faturas de texto livre
+description: As distribuições contábeis são usadas para definir como um valor será contabilizado, assim como a receita, os impostos ou os encargos serão contabilizados em uma fatura de texto livre. Cada valor que deve ser contabilizado terá uma ou mais distribuições contábeis quando a fatura de texto livre for lançada no diário.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5d1546e8537110daec5d6655f68d3328a58ca1cb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d13fbd98597fc8138bfb4d549608d75f790e0e52
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334855"
 ---
-
 # <a name="accounting-distributions-and-subledger-journal-entries-for-free-text-invoices"></a>Distribuições contábeis e entradas no diário-razão auxiliar para faturas de texto livre
 
 [!include [banner](../includes/banner.md)]
@@ -134,7 +133,6 @@ As distribuições contábeis de impostos não podem ser criadas até que os imp
 
 ## <a name="subledger-journals-for-free-text-invoices"></a>Diário-razão auxiliar de faturas de texto livre
 Você pode exibir a entrada contábil total da fatura antes de lançar uma fatura de texto livre, incluindo débitos e créditos, para verificar se a fatura está sendo lançada nas contas corretas. Esta exibição de entrada contábil total é chamada de diário-razão auxiliar. Se a entrada no diário-razão auxiliar estiver incorreta quando você exibi-la antes de lançar em diário a fatura de texto livre, não será possível alterar a entrada no diário-razão auxiliar. Em vez de isso, você deve alterar as distribuições contábeis ou o perfil de lançamento. As distribuições contábeis são usadas para definir um lado de entrada contábil, de débito ou de crédito. A entrada de conta no diário-razão auxiliar de compensação é criada a partir dos perfis de lançamento, como a conta de cliente ou imposto.
-
 
 
 

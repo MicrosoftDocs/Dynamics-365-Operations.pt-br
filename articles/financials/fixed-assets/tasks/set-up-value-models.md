@@ -1,13 +1,13 @@
---- 
-title: "Configurar modelos de depreciação"
-description: "Este procedimento mostra a você como criar um novo registro de ativos fixos e associá-lo a um grupo de ativos fixos."
+---
+title: Configurar modelos de depreciação
+description: Este procedimento mostra a você como criar um novo registro de ativos fixos e associá-lo a um grupo de ativos fixos.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBookTable, AssetGroupBookSetup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: e067173b27488422fd05ad45f37528f00f04a2bd
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311786"
 ---
 # <a name="set-up-value-models"></a>Configurar modelos de depreciação
 
@@ -53,5 +53,4 @@ Este procedimento mostra a você como criar um novo registro de ativos fixos e a
 3. No campo Vida útil, insira um número.
     * Observe que os períodos de depreciação são calculados depois de definir a vida útil.  
     * Você pode definir a convenção de depreciação conforme necessário para fins tributários.  
-
 

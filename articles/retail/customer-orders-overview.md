@@ -1,13 +1,13 @@
 ---
 title: Ordens de cliente no Retail Modern POS (MPOS)
-description: "Este tópico fornece informações sobre ordens de cliente no Retail Modern POS (MPOS). Ordens de cliente também são conhecidas como ordens especiais O tópico inclui uma discussão sobre parâmetros relacionados e fluxos de transação."
+description: Este tópico fornece informações sobre ordens de cliente no Retail Modern POS (MPOS). Ordens de cliente também são conhecidas como ordens especiais O tópico inclui uma discussão sobre parâmetros relacionados e fluxos de transação.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: b54f39cc7896871d77f9371e6197bf6dbaac51de
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336603"
 ---
-
 # <a name="customer-orders-in-retail-modern-pos-mpos"></a>Ordens de cliente no Retail Modern POS (MPOS)
 
 [!include [banner](includes/banner.md)]
@@ -97,9 +96,8 @@ Ordens de cliente podem ser criadas do cliente do ponto de venda (PDV) em modo s
 1. Clique em **Varejo** &gt; **Configuração de canal** &gt; **Configuração de PDV** &gt; **Perfil de PDV** &gt; **Perfis de funcionalidade**.
 2. Na Guia Rápida **Geral**, defina a opção **Criar ordem do cliente no modo assíncrono** como **Sim**.
 
-Quando a opção **Criar ordem do cliente no modo assíncrono** for definida como **Sim**, as ordens de cliente sempre serão criadas em modo assíncrono, mesmo se o Retail Transaction Service (RTS) estiver disponível. Se você definir essa opção como **Não**, as ordens de cliente sempre serão criadas em modo síncrono por meio de RTS. Quando ordens de cliente são criadas em modo assíncrono, elas são retiradas e inseridas no Retail por trabalhos de pull (P). As ordens de venda correspondentes são criadas no Retail quando **Sincronizar ordens** é executado manualmente ou por meio de um processo de lote.
+Quando a opção **Criar ordem do cliente no modo assíncrono** é definida como **Sim**, as ordens de cliente sempre são criadas no modo assíncrono, mesmo se o Retail Transaction Service (RTS) está disponível. Se você definir essa opção como **Não**, as ordens de cliente sempre serão criadas em modo síncrono por meio de RTS. Quando ordens de cliente são criadas em modo assíncrono, elas são retiradas e inseridas no Retail por trabalhos de pull (P). As ordens de venda correspondentes são criadas no Retail quando **Sincronizar ordens** é executado manualmente ou por meio de um processo de lote.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Ordens híbridas de cliente](hybrid-customer-orders.md)
-

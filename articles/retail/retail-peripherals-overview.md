@@ -1,13 +1,13 @@
 ---
-title: "Periféricos para varejo"
-description: "Este tópico explica os conceitos relacionados aos periféricos de varejo."
+title: Periféricos para varejo
+description: Este tópico explica os conceitos relacionados aos periféricos de varejo.
 author: rubencdelgado
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 01/16/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 8fa2be91db8213845c2be16b1cc0a0f5457a708b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: c2539af8a29b580a10002bc8648505d42c7b8456
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347850"
 ---
-
 # <a name="retail-peripherals"></a>Periféricos para varejo
 
 [!include [banner](includes/banner.md)]
@@ -40,9 +39,9 @@ Navegação: Clique em **Varejo** &gt; **Configuração do canal** &gt; **Config
 
 ### <a name="devices"></a>Dispositivos
 
-Navegação: Clique em **Varejo** &gt; **Configuração do canal** &gt; **Configuração do PDV** &gt; **Dispositivos**. Um dispositivo é uma entidade que representa uma instância física de um dispositivo que é mapeado para um registro de POS. Quando um dispositivo é criado, ele é mapeado para um registro de POS. A entidade de dispositivo controla informações sobre quando uma registradora de POS é ativada, o tipo de cliente que está sendo usado e o pacote de aplicativo que foi implantado para um dispositivo específico. Os dispositivos podem ser mapeados nos seguintes tipos de aplicativo: PDV moderno de varejo, PDV de nuvem de varejo, PDV moderno de varejo – Windows Phone, PDV moderno de varejo – Android, e PDV moderno de varejo – iOS.
+Navegação: Clique em **Varejo** &gt; **Configuração do canal** &gt; **Configuração do PDV** &gt; **Dispositivos**. Um dispositivo é uma entidade que representa uma instância física de um dispositivo que é mapeado para um registro de POS. Quando um dispositivo é criado, ele é mapeado para um registro de POS. A entidade de dispositivo controla informações sobre quando uma registradora de POS é ativada, o tipo de cliente que está sendo usado e o pacote de aplicativo que foi implantado para um dispositivo específico. Os dispositivos podem ser mapeados nos seguintes tipos de aplicativo: Retail Modern POS, PDV de nuvem de varejo, Retail Modern POS – Windows Phone, Retail Modern POS – Android e Retail Modern POS – iOS.
 
-### <a name="retail-modern-pos"></a>PDV do Retail Modern
+### <a name="retail-modern-pos"></a>Retail Modern POS
 
 O PDV moderno é o programa de PDV para Microsoft Windows. Pode ser implantado em sistemas operacionais Windows 10 (OSs).
 
@@ -54,7 +53,7 @@ O PDV de nuvem é uma versão baseada em navegador do programa de PDV moderno qu
 
 O PDV moderno para iOS é uma versão baseada em iOS do programa de PDV moderno que pode ser implantada em dispositivos iOS.
 
-### <a name="modern-pos-for-android"></a>PDV moderno para Android
+### <a name="modern-pos-for-android"></a>POS moderno para Android
 
 O PDV moderno para Android é uma versão baseada em Android do programa de PDV moderno que pode ser implantada em dispositivos Android.
 
@@ -75,7 +74,7 @@ Os periféricos de PDV normalmente são divididos em classes. Esta seção descr
 
 ### <a name="printer"></a>Impressora
 
-As impressoras incluem impressoras tradicionais de recibo de PDV e impressoras de página inteira. As impressoras são suportadas por meio da fixação e incorporação de objetos para PDV moderno (OPOS) e interfaces de driver do Microsoft Windows. Até duas impressoras podem ser usadas ao mesmo tempo. Este recurso suporta cenários onde os recebimentos de cliente pague-e-leve são impressos em impressoras de recebimento, enquanto que as ordens de cliente, que têm mais informações, são impressas em uma impressora de página inteira. As impressoras de recebimento podem estar associadas diretamente a um computador via USB, conectadas à rede via Ethernet, ou conectadas via Bluetooth.
+As impressoras incluem impressoras tradicionais de recibo de PDV e impressoras de página inteira. As impressoras são suportadas por meio da fixação e incorporação de objetos para Retail POS (OPOS) e interfaces de driver do Microsoft Windows. Até duas impressoras podem ser usadas ao mesmo tempo. Este recurso suporta cenários onde os recebimentos de cliente pague-e-leve são impressos em impressoras de recebimento, enquanto que as ordens de cliente, que têm mais informações, são impressas em uma impressora de página inteira. As impressoras de recebimento podem estar associadas diretamente a um computador via USB, conectadas à rede via Ethernet, ou conectadas via Bluetooth.
 
 ### <a name="scanner"></a>Scanner
 
@@ -117,9 +116,9 @@ O suporte a dispositivos de pagamento foi implementado pelo conector de pagament
 
 ### <a name="opos"></a>OPOS
 
-Para ajudar a garantir que uma gama maior de dispositivos possa ser usada com o Microsoft Dynamics 365 para Varejo, o OLE para PDV padrão da indústria é a plataforma de dispositivo periférico de varejo primária suportada no Microsoft Dynamics 365 para Varejo. O OLE para PDV padrão foi produzido pela Federação Nacional do Varejo (NRF), que estabelece os protocolos de comunicação padrão da indústria para dispositivos periféricos de varejo. O OPOS é uma implementação amplamente adotada do OLE para PDV padrão. Foi desenvolvido em meados dos anos 90 e foi atualizado diversas vezes desde então. O OPOS fornece uma arquitetura de driver de dispositivo que permite a integração simples de hardware PDV com sistemas baseados em Windows. O OPOS controla a comunicação entre o hardware compatível e o software PDV. Um controle OPOS consiste em duas partes:
+Para ajudar a garantir que uma gama maior de dispositivos possa ser usada com o Microsoft Dynamics 365 for Retail, o OLE para PDV padrão da indústria é a plataforma de dispositivo periférico de varejo primária suportada no Microsoft Dynamics 365 for Retail. O OLE para PDV padrão foi produzido pela Federação Nacional do Varejo (NRF), que estabelece os protocolos de comunicação padrão da indústria para dispositivos periféricos de varejo. O OPOS é uma implementação amplamente adotada do OLE para PDV padrão. Foi desenvolvido em meados dos anos 90 e foi atualizado diversas vezes desde então. O OPOS fornece uma arquitetura de driver de dispositivo que permite a integração simples de hardware PDV com sistemas baseados em Windows. O OPOS controla a comunicação entre o hardware compatível e o software PDV. Um controle OPOS consiste em duas partes:
 
-- **Objeto de controle** – O objeto de controle para uma classe de dispositivo (como as exibições de linha) fornece a interface para o programa de software. A Monroe Serviços de Consultoria ([www.monroecs.com](http://www.monroecs.com/)) fornece um conjunto padronizado de objetos de controle OPOS que são conhecidos como objetos de controle (CCOs). Os CCOs são usados para testar o componente de PDV do Microsoft Dynamics 365 para Varejo. Portanto, o teste ajuda a garantir que, se o Microsoft Dynamics 365 para Varejo oferecer suporte a uma classe de dispositivo através do OPOS, muitos tipos de dispositivo podem ser suportados, dado que o fabricante fornece um objeto de servido que é desenvolvido para OPOS. Você não precisa explicitamente testar cada tipo do dispositivo.
+- **Objeto de controle** – O objeto de controle para uma classe de dispositivo (como as exibições de linha) fornece a interface para o programa de software. A Monroe Serviços de Consultoria ([www.monroecs.com](http://www.monroecs.com/)) fornece um conjunto padronizado de objetos de controle OPOS que são conhecidos como objetos de controle (CCOs). Os CCOs são usados para testar o componente de PDV do Microsoft Dynamics 365 for Retail. Portanto, o teste ajuda a garantir que, se o Microsoft Dynamics 365 for Retail oferecer suporte a uma classe de dispositivo através do OPOS, muitos tipos de dispositivo podem ser suportados, dado que o fabricante fornece um objeto de servido que é desenvolvido para OPOS. Você não precisa explicitamente testar cada tipo do dispositivo.
 - **Objeto de serviço** – O objeto de serviço fornece comunicação entre o objeto de controle (CCO) e o dispositivo. Normalmente, o objeto de serviço para um dispositivo é fornecido pelo fabricante do dispositivo. Entretanto, em alguns casos, pode ser necessário baixar o objeto de serviço do site do fabricante. Por exemplo, um objeto mais recente de serviço pode estar disponível. Para localizar o endereço do site do fabricante, consulte a documentação do hardware.
 
 [![Objeto de controle e objeto de serviço](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)
@@ -127,7 +126,7 @@ Para ajudar a garantir que uma gama maior de dispositivos possa ser usada com o 
 O suporte à implementação de OPOS do OLE para PDV ajuda a garantir que, se os fabricantes de dispositivos e publicadores de PDV implementarem o padrão corretamente, os sistemas de PDV e dispositivos suportados podem trabalhar juntos, mesmo que não tenham sido testados anteriormente.
 
 > [!NOTE]
-> O suporte do OPOS não garante suporte para todos os dispositivos com drivers OPOS. O Microsoft Dynamics 365 para Varejo deve primeiro oferecer suporte a esse tipo ou classe de dispositivo através do OPOS. Além disso, os objetos de serviço nem sempre podem estar atualizados com a versão mais recente dos CCOs. Você também deve estar ciente de que, em geral, a qualidade dos objetos de serviço é diferente.
+> O suporte do OPOS não garante suporte para todos os dispositivos com drivers OPOS. Microsoft Dynamics 365 for Retail deve primeiro oferecer suporte a esse tipo ou classe de dispositivo através do OPOS. Além disso, os objetos de serviço nem sempre podem estar atualizados com a versão mais recente dos CCOs. Você também deve estar ciente de que, em geral, a qualidade dos objetos de serviço é diferente.
 
 ### <a name="windows"></a>Windows
 
@@ -137,7 +136,7 @@ A impressão de recibo no PDV é otimizada para OPOS. O OPOS tende a ser muito m
 - Os dispositivos conectados através da impressora ("encadeado") podem não funcionar corretamente quando os drivers do Windows forem utilizados. Por exemplo, a caixa registradora pode não abrir, a impressora de guia pode não escrever como você espera.
 - O OPOS também oferece suporte a um conjunto de variáveis mais amplo que são específicas para as impressoras de recibo de varejo, como corte de papéis ou impressão de guias.
 
-Se os controles OPOS estiverem disponíveis para a impressora do Windows que você está utilizando, a impressora ainda deve funcionar corretamente com o Microsoft Dynamics 365 para Varejo.
+Se os controles OPOS estiverem disponíveis para a impressora do Windows que você está utilizando, a impressora ainda deve funcionar corretamente com o Microsoft Dynamics 365 for Retail.
 
 ### <a name="universal-windows-platform"></a>Plataforma de universal do Windows
 
@@ -203,7 +202,7 @@ Para obter informações, consulte [Configuração e instalação da estação d
 
 ### <a name="modern-pos-for-windows-setup-and-configuration"></a>Instalação e configuração do PDV moderno para Windows
 
-Para obter informações, consulte [Instalação e configuração do PDV moderno de varejo](retail-modern-pos-device-activation.md).
+Para obter informações, consulte [Instalação e configuração do Retail Modern POS](retail-modern-pos-device-activation.md).
 
 ### <a name="opos-device-setup-and-configuration"></a>Instalação e configuração do dispositivo OPOS
 
@@ -296,7 +295,7 @@ Os periféricos de rede podem ser suportados diretamente através da estação d
 <ul>
 <li>OPOS</li>
 <li>Rede
-<blockquote>[!NOTE] Somente uma caixa registradora poderá ser configurada se <strong>Usar turno compartilhado</strong> estiver configurado na caixa registradora.</blockquote>
+<blockquote>OBSERVAÇÃO: Somente uma caixa registradora poderá ser configurada se <strong>Usar turno compartilhado</strong> estiver configurado na caixa registradora.</blockquote>
 </li>
 </ul>
 </td>
@@ -307,7 +306,7 @@ Os periféricos de rede podem ser suportados diretamente através da estação d
 <ul>
 <li>OPOS</li>
 <li>Rede
-<blockquote>[!NOTE] Somente uma caixa registradora poderá ser configurada se <strong>Usar turno compartilhado</strong> estiver configurado na caixa registradora.</blockquote>
+<blockquote>OBSERVAÇÃO: Somente uma caixa registradora poderá ser configurada se <strong>Usar turno compartilhado</strong> estiver configurado na caixa registradora.</blockquote>
 </li>
 </ul>
 </td>
@@ -375,7 +374,7 @@ Os periféricos de rede podem ser suportados diretamente através da estação d
 <ul>
 <li>OPOS</li>
 <li>Driver do Windows
-<blockquote>[!NOTE] Para as impressoras do Windows em uma rede, o usuário da estação de hardware deve ter permissão para acessar a impressora.</blockquote>
+<blockquote>OBSERVAÇÃO: Para as impressoras do Windows em uma rede, o usuário da estação de hardware deve ter permissão para acessar a impressora.</blockquote>
 </li>
 <li>Rede</li>
 </ul>
@@ -405,7 +404,7 @@ Os periféricos de rede podem ser suportados diretamente através da estação d
 <ul>
 <li>OPOS</li>
 <li>Rede
-<blockquote>[!NOTE] Somente uma caixa registradora por perfil de hardware poderá ser configurada se <strong>Usar turno compartilhado</strong> estiver configurado na caixa registradora.</blockquote>
+<blockquote>OBSERVAÇÃO: Somente uma caixa registradora por perfil de hardware poderá ser configurada se <strong>Usar turno compartilhado</strong> estiver configurado na caixa registradora.</blockquote>
 </li>
 </ul>
 </td>
@@ -470,7 +469,7 @@ Os periféricos de rede podem ser suportados diretamente através da estação d
 <ul>
 <li>OPOS</li>
 <li>Driver do Windows
-<blockquote>[!NOTE] Para as impressoras do Windows em uma rede, o usuário da estação de hardware deve ter permissão para acessar a impressora.</blockquote>
+<blockquote>OBSERVAÇÃO: Para as impressoras do Windows em uma rede, o usuário da estação de hardware deve ter permissão para acessar a impressora.</blockquote>
 </li>
 <li>Rede</li>
 </ul>
@@ -492,7 +491,7 @@ Os periféricos de rede podem ser suportados diretamente através da estação d
 <ul>
 <li>OPOS</li>
 <li>Rede
-<blockquote>[!NOTE] Somente uma caixa registradora por perfil de hardware poderá ser configurada se <strong>Usar turno compartilhado</strong> estiver configurado na caixa registradora.</blockquote>
+<blockquote>OBSERVAÇÃO: Somente uma caixa registradora por perfil de hardware poderá ser configurada se <strong>Usar turno compartilhado</strong> estiver configurado na caixa registradora.</blockquote>
 </li>
 </ul>
 </td>
@@ -564,7 +563,7 @@ Essa configuração pode ser usada para todos os clientes de PDV moderno que pos
 5. Selecione a agenda de distribuição **1090** para sincronizar o novo perfil de hardware com a loja. Clique em **Executar agora** para sincronizar as alterações do PDV.
 6. Selecione a agenda de distribuição **1040** para sincronizar a nova estação de hardware com a loja. Clique em **Executar agora** para sincronizar as alterações do PDV.
 7. Instale a estação de hardware. Para mais informações sobre como instalar a estação de hardware, consulte [Instalação de configuração da estação de hardware de varejo](retail-hardware-station-configuration-installation.md).
-8. Instale e ative o PDV moderno. Para obter mais informações sobre como instalar o PDV moderno, consulte [Instalação e configuração do PDV moderno de varejo](retail-modern-pos-device-activation.md).
+8. Instale e ative o PDV moderno. Para obter mais informações sobre como instalar o PDV moderno, consulte [Instalação e configuração do Retail Modern POS](retail-modern-pos-device-activation.md).
 9. Entre no PDV moderno e selecione **Realizar operações que não são de gaveta**.
 10. Inicie a operação **Gerenciar estações de hardware**.
 11. Clique em **Gerenciar**.
@@ -593,7 +592,7 @@ Essa configuração pode ser usada para todos os clientes de PDV moderno que com
 6. Selecione a agenda de distribuição **1090** para sincronizar o novo perfil de hardware com a loja. Clique em **Executar agora** para sincronizar as alterações do PDV.
 7. Selecione a agenda de distribuição **1040** para sincronizar a nova estação de hardware com a loja. Clique em **Executar agora** para sincronizar as alterações do PDV.
 8. Instale a estação de hardware em cada computador host que é configurado nas etapas 2 e 3. Para mais informações sobre como instalar a estação de hardware, consulte [Instalação de configuração da estação de hardware de varejo](retail-hardware-station-configuration-installation.md).
-9. Instale e ative o PDV moderno. Para obter mais informações sobre como instalar o PDV moderno, consulte [Instalação e configuração do PDV moderno de varejo](retail-modern-pos-device-activation.md).
+9. Instale e ative o PDV moderno. Para obter mais informações sobre como instalar o PDV moderno, consulte [Instalação e configuração do Retail Modern POS](retail-modern-pos-device-activation.md).
 10. Entre no PDV moderno e selecione **Realizar operações que não são de gaveta**.
 11. Inicie a operação **Gerenciar estações de hardware**.
 12. Clique em **Gerenciar**.
@@ -743,7 +742,6 @@ Os periféricos a seguir foram estados usando uma estação de hardware IIS dedi
 | Epson        | TM-T88V  | OPOS      |                           |
 | Star         | TSP650II | OPOS      |                           |
 | Star         | TSP650II | Personalizado    | Conectado via rede     |
-| Star         | TSP100   | OPOS      | Requer drivers do TSP650II |
 | HP           | F7M67AA  | OPOS      | Powered USB               |
 
 #### <a name="bar-code-scanner"></a>Scanner de código de barras
@@ -818,7 +816,6 @@ Os periféricos a seguir foram estados usando uma estação de hardware IIS comp
 | Epson        | TM-T88V  | OPOS      |                           |
 | Star         | TSP650II | OPOS      |                           |
 | Star         | TSP650II | Personalizado    | Conectado via rede     |
-| Star         | TSP100   | OPOS      | Requer drivers do TSP650II |
 | HP           | F7M67AA  | OPOS      | Powered USB               |
 
 #### <a name="payment-terminal"></a>Terminal de pagamento
@@ -894,4 +891,3 @@ Os periféricos a seguir foram estados usando uma estação de hardware IIS comp
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Simulador de periférico de varejo](dev-itpro/retail-peripheral-simulator.md)
-

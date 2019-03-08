@@ -1,13 +1,13 @@
 ---
-title: "Definir descontos específicos do canal"
-description: "Os fornecedores geralmente definem descontos diferentes em canais diferentes. Este tópico examina os conceitos que você precisa saber para criar um desconto para um canal específico."
+title: Definir descontos específicos do canal
+description: Os fornecedores geralmente definem descontos diferentes em canais diferentes. Este tópico examina os conceitos que você precisa saber para criar um desconto para um canal específico.
 author: scott-tucker
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailAffiliationPriceGroup, RetailCatalogPriceGroup, RetailChannelPriceGroup, RetailDiscountPriceGroup, RetailDiscountPricingWorkspace, RetailPeriodicDiscount, RetailStoreItemPriceList, RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: a136e245beaf8dfd8bcf19d49f8a355c8871cde7
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318594"
 ---
-
 # <a name="define-channel-specific-discounts"></a>Definir descontos específicos do canal
 
 [!include [banner](includes/banner.md)]
@@ -37,7 +36,7 @@ Os fornecedores geralmente definem descontos diferentes em canais diferentes. Es
 
 Os fornecedores geralmente oferecem descontos diferentes em canais diferentes. Isso pode ser feito para lidar com as condições dos mercados locais ou com os varejistas concorrentes.
 
-O Microsoft Dynamics 365 for Retail usa grupos de preços para definir descontos específicos do canal. Grupos de preços podem ser atribuídos a uma ou mais das seguintes entidades: canais, catálogos, afiliações e programas de fidelidade. Este artigo aborda canais, mas os mesmos conceitos se aplicam a descontos de catálogo, descontos de afiliações e descontos de fidelidade.
+O Microsoft Dynamics 365 for Retail usa grupos de preços para definir descontos específicos de canal. Grupos de preços podem ser atribuídos a uma ou mais das seguintes entidades: canais, catálogos, afiliações e programas de fidelidade. Este artigo aborda canais, mas os mesmos conceitos se aplicam a descontos de catálogo, descontos de afiliações e descontos de fidelidade.
 
 ## <a name="price-groups"></a>Grupos de preços
 
@@ -63,4 +62,3 @@ O exemplo a seguir ilustra as tarefas envolvidas na configuração de um descont
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Ajustes de preços e descontos](price-adjustments-discounts.md)
-

@@ -1,13 +1,13 @@
 ---
 title: Configurar canais de call center
-description: "Este tópico oferece informações sobre como processar ordens de call centers usando o Microsoft Dynamics 365 for Retail."
+description: Este tópico oferece informações sobre como processar ordens de call centers usando o Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCROrderParameters, MCRSalesTableOrderHistory, SalesOrderProcessingWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 0bfbb763b8ded2a0ce90b66eb686379b1dc92a6d
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334832"
 ---
-
 # <a name="set-up-call-center-channels"></a>Configurar canais de call center
 
 [!include [banner](includes/banner.md)]
@@ -80,4 +79,3 @@ Por padrão, o sinalizador **Venda de varejo** no cabeçalho da ordem de venda e
 Os usuários que não estiverem vinculados a um canal de call center usarão os recursos padrão de entradas de ordem do Microsoft Dynamics 365 for Finance and Operations. As ordens inseridas por esses usuários por meio do formulário de entrada de ordem de venda não serão sistematicamente identificadas como Ordens de varejo. Adicionalmente, essas ordens inseridas por esses usuários não estarão sujeitas a qualquer uma das regras de processamento de conclusão de ordem, lógica de preços de varejo ou outras validações de ordem que possam ser definidas na configuração do canal de call center ou nos parâmetros do sistema de call center.
 
 Depois de concluir a configuração do canal call center e de definir os usuários de canal, para ajudar a garantir o comportamento do sistema desejado, verifique se todos os Parâmetros de call center necessários foram definidos em **Retail** \> **Configuração de canal** \> **Configuração de call center** \> **Parâmetros de call center**. Verifique se as sequências numéricas relacionadas também foram definidas.
-

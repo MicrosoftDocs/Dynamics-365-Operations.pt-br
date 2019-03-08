@@ -1,13 +1,13 @@
 ---
-title: "Aprovações de fatura móvel"
-description: "Este tópico tem como objetivo fornecer uma abordagem prática para criar cenários móveis no Dynamics 365 for Finance and Operations tirando aprovações da fatura de fornecedor do celular como um caso de uso."
+title: Aprovações de fatura móvel
+description: Este tópico tem como objetivo fornecer uma abordagem prática para criar cenários móveis no Dynamics 365 for Finance and Operations tirando aprovações da fatura de fornecedor do celular como um caso de uso.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e39d81b0d600012f936865b53f8556eb3ef0a3d9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fc1483285d6ec675637c013af4949b9c7acf92b3
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314385"
 ---
-
 # <a name="mobile-invoice-approvals"></a>Aprovações de fatura móvel
 
 [!include [banner](../includes/banner.md)]
 
-Os recursos móveis no Microsoft Dynamics 365 for Finance and Operations permitem que um usuário de negócios crie experiências móveis. Para cenários avançados, a plataforma também permite que os desenvolvedores estendam as funcionalidades que desejam. A maneira mais eficaz de aprender alguns dos novos conceitos em dispositivo móvel é passar pelo processo de desenvolvimento de alguns cenários. Este tópico tem como objetivo fornecer uma abordagem prática para criar cenários móveis tirando aprovações da fatura de fornecedor do celular como um caso de uso. Esse tópico deve ajudá-lo a criar outras variações de cenários e também pode ser aplicado a outros cenários que não são relacionados a faturas de fornecedor.
+Os recursos móveis no Microsoft Dynamics 365 for Finance and Operations permitem que um usuário comercial crie experiências móveis.  Para cenários avançados, a plataforma também permite que os desenvolvedores estendam as funcionalidades que desejam. A maneira mais eficaz de aprender alguns dos novos conceitos em dispositivo móvel é passar pelo processo de desenvolvimento de alguns cenários. Este tópico tem como objetivo fornecer uma abordagem prática para criar cenários móveis tirando aprovações da fatura de fornecedor do celular como um caso de uso. Esse tópico deve ajudá-lo a criar outras variações de cenários e também pode ser aplicado a outros cenários que não são relacionados a faturas de fornecedor.
 
 <a name="prerequisites"></a>Pré-requisitos
 -------------
@@ -37,11 +36,11 @@ Os recursos móveis no Microsoft Dynamics 365 for Finance and Operations permite
 | Pré-requisito                                                                                            | descrição                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Pré-leitura do manual móvel                                                                                |[Plataforma móvel](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
-| Dynamics 365 for Finance and Operations                                                                             | Um ambiente com a versão 1611 do Microsoft Dynamics 365 for Operations e a atualização 3 da plataforma do Microsoft Dynamics for Operations (novembro de 2016)                   |
+| Dynamics 365 for Finance and Operations                                                                             | Um ambiente com a versão 1611 do Microsoft Dynamics 365 for Operations e a atualização 3 da plataforma do Microsoft Dynamics for Operations (Novembro de 2016)                   |
 | Instalar hotfix KB 3204341.                                                                              | O gravador de tarefas pode registrar erroneamente dois comandos próximos para caixas de diálogo suspensas incluídas na plataforma do Dynamics 365 for Operations, atualização 3 (atualização de novembro de 2016) |
 | Instalar hotfix KB 3207800.                                                                              | Este hotfix habilita a exibição de anexos no cliente móvel incluído na plataforma do Microsoft Dynamics 365 for Operations, atualização 3 (atualização de novembro de 2016).           |
-| Instalar hotfix KB 3208224.                                                                              | O código do aplicativo para o aplicativo móvel de aprovação de fatura de fornecedor está incluído no aplicativo do Microsoft Dynamics AX 7.0.1 (maio de 2016).                          |
-| Um dispositivo Android ou iOS ou um dispositivo Windows que tem o aplicativo móvel instalado para Microsoft Dynamics 365 for Finance and Operations | Procurar pelo aplicativo na loja de aplicativo apropriada.                                                                                                                     |
+| Instalar hotfix KB 3208224.                                                                              | O código do aplicativo para o aplicativo móvel de aprovação de fatura de fornecedor está incluído no aplicativo do Microsoft Dynamics AX 7.0.1 (Maio de 2016).                          |
+| Um dispositivo Android ou iOS que tem o aplicativo móvel instalado para Finance and Operations | Procurar pelo aplicativo na loja de aplicativo apropriada.                                                                                                                     |
 
 ## <a name="introduction"></a>Introdução
 Aprovações móveis para faturas de fornecedor exigem os três hotfixes mencionados na seção "Pré-requisitos". Esses hotfixes não fornecem um espaço de trabalho para as aprovações de fatura. Para saber o que é um espaço de trabalho no contexto de dispositivo móvel, leia o manual do dispositivo mencionado na seção “Pré-requisitos”. O espaço de trabalho das aprovações de fatura deve ser criado. 
@@ -126,7 +125,7 @@ Como regra geral, ao trabalhar com o designer móvel, certifique-se de “public
 ### <a name="create-the-workspace"></a>Criar o espaço de trabalho
 
 1.  Em um navegador, abra o Finance and Operations e faça login.
-2.  Depois de fazer login, anexe **&mode=mobile** à URL como exibido no exemplo a seguir e atualize a página: https://&lt;yoururl&gt;/?cmp=usmf&mi=DefaultDashboard **&mode=mobile**
+2.  Após entrar, anexe, append **&mode=mobile** à URL, conforme mostrado no seguinte exemplo e atualize a página: https://&lt;yoururl&gt;/?cmp=usmf&mi=DefaultDashboard **&mode=mobile**
 3.  Clique no botão **Configurações** (imagem) na parte superior direita da página e clique em **Aplicativo móvel**. O designer de aplicativo móvel deve aparecer apenas enquanto o gravador de tarefas é exibido.
 4.  Clique em **Adicionar** para criar um novo espaço de trabalho. Por exemplo, nomeie o espaço de trabalho **Minhas aprovações**.
 5.  Insira uma descrição.
@@ -139,7 +138,7 @@ Como regra geral, ao trabalhar com o designer móvel, certifique-se de “public
 
 A primeira página móvel que você deve criar pela lista de faturas atribuídas ao usuário para revisão. Para criar esta página móvel, use a página **VendMobileInvoiceAssignedToMeListPage** no Finance and Operations. Para concluir esse procedimento, certifique-se de que pelo menos uma fatura de fornecedor está atribuída a você para revisão e que a linha de fatura tem duas distribuições. Essa configuração atende aos requisitos desse cenário.
 
-1.  Na URL do Finance and Operations, substitua o nome do item de menu por **VendMobileInvoiceAssignedToMeListPage** para abrir a versão móvel da página de lista **Faturas de fornecedor pendentes atribuídas a mim** no módulo **Contas a pagar**. Dependendo do número de faturas atribuídas a você no sistema, esta página mostrará essas faturas. Para encontrar uma fatura específica, você pode usar o filtro à esquerda. Entretanto, não exigimos uma fatura específica para este exemplo. Nós exigimos apenas algumas faturas atribuídas a você que permitirão que você crie a página móvel. Novas páginas disponíveis foram criadas especificamente para desenvolvimento de cenários móveis para fatura de fornecedor. Portanto, você deve usar essas páginas. A URL deve parecer com a URL a seguir, e após inseri-la, a página exibida na ilustração deve ser semelhante a: https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile [![Faturas de fornecedor pendentes atribuídas a mim](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+1.  Na URL do Finance and Operations, substitua o nome do item de menu por **VendMobileInvoiceAssignedToMeListPage** para abrir a versão móvel da página de lista **Faturas de fornecedor pendentes atribuídas a mim** no módulo **Contas a pagar**. Dependendo do número de faturas atribuídas a você no sistema, esta página mostrará essas faturas. Para encontrar uma fatura específica, você pode usar o filtro à esquerda. Entretanto, não exigimos uma fatura específica para este exemplo. Nós exigimos apenas algumas faturas atribuídas a você que permitirão que você crie a página móvel. Novas páginas disponíveis foram criadas especificamente para desenvolvimento de cenários móveis para fatura de fornecedor. Portanto, você deve usar essas páginas. A URL deve parecer com a seguinte URL e depois de inserida, a página que é exibida na ilustração deverá ser semelhante a: https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile [![Faturas de fornecedor pendentes atribuídas a mim](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
 2.  Clique no botão **Configurações** (imagem) na parte superior à direita da página e clique em **Aplicativo móvel**
 3.  Selecione seu espaço de trabalho e clique em **Editar**
 4.  Clique em **Adicionar página** para criar a primeira página móvel.
@@ -222,7 +221,7 @@ Para adicionar as ações de fluxo de trabalho, use a página **VendMobileInvoic
 12. Repita as etapas anteriores para registrar todas as ações necessárias do fluxo de trabalho. 
 
 #### <a name="create-a-js-file"></a>Crie um arquivo .js
-1. Abra o Bloco de Notas ou Microsoft Visual Studio e cole o código a seguir. Salve o arquivo como .js. Este código faz o seguinte:
+1. Abra o Bloco de Notas ou Visual Studio e cole o código a seguir. Salve o arquivo como .js. Este código faz o seguinte:
     - Oculta colunas relacionadas a fluxo de trabalho extra que foram adicionadas anteriormente na página de listagem móvel. Nós adicionamos essas colunas de forma que o aplicativo tenha essas informações no contexto e possa executar a próxima etapa.
     - Com a etapa do fluxo de trabalho ativa, aplique a lógica para mostrar somente aquelas ações.
 
@@ -488,7 +487,6 @@ As variações a seguir podem ser realizadas para o cenário 1, com base nos req
     3.  Idealmente, as distribuições devem ser mostradas no contexto de uma linha de fatura neste cenário. Portanto, certifique-se de que o usuário pode entrar em uma linha para exibir a página de distribuições. Use o recurso de link de página para estabelecer a entrada, assim como fez no cabeçalho e nas páginas de detalhes no cenário 1.
 
 2.  Como mais de um tipo de valor é esperado nas distribuições no cenário 2 (impostos, cobranças e assim por diante), será útil exibir a descrição do tipo de valor. (Omitimos estas informações no cenário 1.)
-
 
 
 

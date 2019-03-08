@@ -1,37 +1,36 @@
 ---
-title: "Orientador de otimização"
-description: "Este tópico descreve como você pode usar o Orientador de otimização para ajudar a garantir a configuração ideal do Microsoft Dynamics 365 Finance and Operations."
+title: Orientador de otimização
+description: Este tópico descreve como você pode usar o Assistente de otimização para ajudar a garantir a configuração ideal do Microsoft Dynamics 365 Finance and Operations.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 206b8a23a52d412d1810b8a355b09ecc461f00b3
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335614"
 ---
-
-# <a name="optimization-advisor"></a>Orientador de otimização
+# <a name="optimization-advisor"></a>Assistente de otimização
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como você pode usar o Orientador de otimização para ajudar a garantir a configuração ideal do Microsoft Dynamics 365 Finance and Operations.
+Este tópico descreve como você pode usar o Assistente de otimização para ajudar a garantir a configuração ideal do Microsoft Dynamics 365 Finance and Operations.
 
 ## <a name="overview"></a>Visão Geral
 
@@ -39,7 +38,7 @@ A definição e a configuração incorretas de um módulo podem afetar de forma 
 
 O espaço de trabalho **Orientador de otimização** é uma ferramenta que permite que os usuários avançados, analistas comerciais, consultores funcionais e funções de suporte de TI identifiquem problemas na configuração do módulo e nos dados de negócios. O orientador de otimização sugere práticas recomendadas para a configuração do módulo e identifica os dados corporativos que estão obsoletos ou são incorretos.
 
-O orientador de otimização executa periodicamente um conjunto de regras de prática recomendada. Um conjunto de regras padrão é liberado com o Microsoft Dynamics 365 for Finance and Operations, versão 8.0 (abril 2018). Entretanto, os usuários também podem criar regras específicas às personalizações, soluções de fornecedores independentes de software (ISVs) e dados corporativos. Para obter mais informações sobre como criar regras, consulte [Criar novas regras](./create-rules-optimization-advisor.md).
+O orientador de otimização executa periodicamente um conjunto de regras de prática recomendada. Um conjunto de regras padrão foi liberado com a versão 8.0 do Microsoft Dynamics 365 for Finance and Operations (Abril de 2018). Entretanto, os usuários também podem criar regras específicas às personalizações, soluções de fornecedores independentes de software (ISVs) e dados corporativos. Para obter mais informações sobre como criar regras, consulte [Criar novas regras](./create-rules-optimization-advisor.md).
 
 Quando for detectada uma violação de regra, uma oportunidade de otimização será gerada e aparecerá no espaço de trabalho **Orientador de otimização**. Um usuário pode executar a ação corretiva adequada diretamente do espaço de trabalho **Orientador de otimização** .
 
@@ -49,7 +48,7 @@ As políticas de segurança padrão se aplicam às oportunidades de otimização
 
 Quando você toma a ação em algumas oportunidades de otimização, o sistema calcula o impacto de oportunidade em termos de redução no tempo de execução de processos comerciais. Infelizmente, este recurso não está disponível para todas as oportunidades de otimização.
 
-Para saber mais sobre o Orientador de otimização, assista ao vídeo curto [Orientador de otimização no Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
+Para saber mais sobre o Assistente de otimização, assista ao vídeo curto [Assistente de otimização no Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
 
 ## <a name="optimization-rules"></a>Regras de otimização
 
@@ -95,5 +94,4 @@ Para desativar a avaliação de regras específicas, selecione a oportunidade qu
 
 [Criar novas regras](./create-rules-optimization-advisor.md)
 
-[Orientador de otimização no Dynamics 365 for Finance and Operations (Vídeo)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
-
+[Assistente de otimização no Dynamics 365 for Finance and Operations (Vídeo)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)

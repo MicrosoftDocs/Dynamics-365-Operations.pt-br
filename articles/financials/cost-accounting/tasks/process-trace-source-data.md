@@ -1,13 +1,13 @@
---- 
+---
 title: Processar e rastrear dados de origem
-description: "Todo o processamento de dados é executado por trabalhos."
+description: Todo o processamento de dados é executado por trabalhos.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e476416420875ba0f2401cf251d34977ae84b8f5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7093338fd306e90df79a787f9de9861b3fe49dd5
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322596"
 ---
 # <a name="process-and-trace-source-data"></a>Processar e rastrear dados de origem
 
@@ -44,5 +44,4 @@ Todo o processamento de dados é executado por trabalhos. Para cada trabalho e p
 13. No campo Período do calendário fiscal, insira ou selecione um valor.
     * Para este exemplo, selecione 9, Período Fiscal 2017.  
 14. Clique em OK.
-
 

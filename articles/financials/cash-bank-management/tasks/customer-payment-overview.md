@@ -1,13 +1,13 @@
---- 
-title: "Visão geral de pagamentos do cliente"
-description: "Este guia de tarefas apresenta vários métodos utilizados para inserir pagamentos de clientes."
+---
+title: Visão geral de pagamentos do cliente
+description: Este guia de tarefas apresenta vários métodos utilizados para inserir pagamentos de clientes.
 author: kweekley
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, CustPaymEntry, CustTableLookup, LedgerJournalTransCustPaym, CustOpenTrans, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6e82be0d68165f62bbdc72a70b0675c7418b14ae
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e6e10d0d0a05b0594ba5cf6a77f474b461bd9dca
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317398"
 ---
 # <a name="customer-payment-overview"></a>Visão geral de pagamentos do cliente
 
@@ -62,5 +62,4 @@ Este guia de tarefas apresenta vários métodos utilizados para inserir pagament
 21. No campo Referência de pagamento, insira uma referência de pagamento. .
     * A referência do pagamento é necessária somente se você marcar para incluir o pagamento em uma guia de depósito.  
 22. Lance os pagamentos do cliente. 
-
 

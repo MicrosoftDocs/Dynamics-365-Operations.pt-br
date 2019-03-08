@@ -1,13 +1,13 @@
 ---
-title: "Contagem cíclica"
-description: "Este artigo descreve como você pode usar a contagem cíclica com a solução de armazenamento disponível no Gerenciamento de depósito. Este artigo não se aplica à solução de armazenamento disponível no Gerenciamento de estoque."
+title: Contagem cíclica
+description: Este artigo descreve como você pode usar a contagem cíclica com a solução de armazenamento disponível no Gerenciamento de depósito. Este artigo não se aplica à solução de armazenamento disponível no Gerenciamento de estoque.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSCycleCountThreshold, WHSWorkTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3a76082a7aa375424e6f118744e2f63600a8cbda
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 9da40e90982d9d4aca38890ed121782f4236712d
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323217"
 ---
-
 # <a name="cycle-counting"></a>Contagem cíclica
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ Este artigo descreve como você pode usar a contagem cíclica com a solução de
 A contagem cíclica é um processo de depósito que você pode usar para auditar itens de estoque disponíveis. O processo de contagem cíclica pode ser descrito em três etapas:
 
 1.  **Criar o trabalho de contagem cíclica** ─ o trabalho de contagem cíclica pode ser criado automaticamente com base nos parâmetros de limite para itens ou usando um plano de contagem cíclica. Como alternativa, você pode criar o trabalho de contagem cíclica manualmente usando os parâmetros do item ou do depósito na página **Trabalho de contagem cíclica por item** ou na página **Trabalho de contagem cíclica por local**.
-2.  **Processar contagem cíclica** ─ após a criação do trabalho de contagem cíclica, você executa o trabalho de contagem cíclica contando os itens em um local de depósito e depois usando um dispositivo móvel para inserir o resultado no Microsoft Dynamics 365 for Finance and Operations. Como alternativa, você pode contar itens em um local de depósito sem criar o trabalho de contagem cíclica. Esse processo é conhecido como *contagem cíclica de ponto*.
+2.  **Processar contagem cíclica** ─ depois que o trabalho de contagem cíclica é criado, para executá-lo você deve contar os itens em um local de depósito e usar um dispositivo móvel para inserir o resultado no Microsoft Dynamics 365 for Finance and Operations. Como alternativa, você pode contar itens em um local de depósito sem criar o trabalho de contagem cíclica. Esse processo é conhecido como *contagem cíclica de ponto*.
 3.  **Resolver uma diferença no valor contado do ciclo** ─ após uma contagem cíclica, todos os itens que possuem diferenças no valor contado terão um status do trabalho **Revisão pendente** na página **Todos os trabalhos**. Você pode resolver essas diferenças na página **Revisão de trabalho restante do ciclo de contagem**.
 
 A ilustração a seguir mostra o processo de contagem cíclica. ![Fluxo de processo para contagem cíclica](./media/performcyclecountinginawarehouselocation.jpg)
@@ -138,7 +137,6 @@ Você pode ajustar as diferenças no valor contado e aceitar o valor contado na 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 [Configurar dispositivos móveis para trabalho de depósito](configure-mobile-devices-warehouse.md)
-
 
 
 

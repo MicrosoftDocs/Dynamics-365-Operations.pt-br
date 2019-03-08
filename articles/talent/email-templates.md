@@ -1,14 +1,14 @@
 ---
 title: Modelos de email
-description: "Este tópico fornece informações sobre os modelos de email que você pode criar e usar no Microsoft Dynamics 365 for Talent - Attract."
+description: Este tópico fornece informações sobre os modelos de email que você pode criar e usar no Microsoft Dynamics 365 for Talent - Attract.
 author: josaw
 manager: AnnBe
 ms.date: 10/19/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,25 +18,24 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
 ms.openlocfilehash: e02912ad242186fe3e2dd8d7a4cc7312aec6015e
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303305"
 ---
-
 # <a name="email-templates"></a>Modelos de email
 [!include[banner](../includes/banner.md)]
 
-Ao usar a biblioteca de modelos de email, os administradores podem criar um tema uniforme e marcas para todos os emails enviados com o Microsoft Dynamics 365 for Talent: Attract. Os administradores também podem coletar um conjunto de modelos de conteúdo de email que outros usuários podem consumir. A equipe de contratação pode usar esses modelos no fluxo de trabalho para enviar emails com maior eficiência. Alguns emails do Attract são configurados para serem enviados automaticamente. O administrador pode usar a biblioteca de modelos de email para personalizar o conteúdo desses emails.
+Usando a biblioteca de modelos de email, os administradores podem criar um tema uniforme e marcas para todos os emails enviados com o Microsoft Dynamics 365 for Talent: Attract. Os administradores também podem coletar um conjunto de modelos de conteúdo de email que outros usuários podem consumir. A equipe de contratação pode usar esses modelos no fluxo de trabalho para enviar emails com maior eficiência. Alguns emails do Attract são configurados para serem enviados automaticamente. O administrador pode usar a biblioteca de modelos de email para personalizar o conteúdo desses emails.
 
 > [!NOTE]
 > Para usar modelos de email, sua organização deve ter o complemento Contratação Abrangente.
 
 ## <a name="global-template-configurations"></a>Configurações do modelo global
 
-Para criar marcas consistentes para todas as comunicações por email, o administrador deve primeiro definir o cabeçalho e rodapé globais para todos os modelos de email. No Centro de administração, na guia **Configurações de modelo de email**, na seção **Cabeçalho** , o administrador pode carregar uma imagem para usar como o cabeçalho ou a faixa para todos os emails. A imagem pode ser um logotipo da empresa, um timbre ou qualquer outra imagem representativa. É recomendável que a largura seja entre 25 e 800 pixels, e a altura entre 25 e 150 pixels, pois essas dimensões são ideais para a maioria dos clientes de email, como o Microsoft Outlook. A imagem deve ser um arquivo JPEG, JPG, PNG ou SVG. O tamanho do arquivo deve ser inferior a 1 megabyte (MB). Após uma imagem ser carregada, uma exibição do cabeçalho será gerada e mostrada. Se a imagem do cabeçalho precisar ser removida ou substituída, o administrador poderá usar a opção **Remover** acima da exibição.
+Para criar marcas consistentes para todas as comunicações por email, o administrador deve primeiro definir o cabeçalho e rodapé globais para todos os modelos de email. No Centro de administração, na guia **Configurações de modelo de email**, na seção **Cabeçalho** , o administrador pode carregar uma imagem para usar como o cabeçalho ou a faixa para todos os emails. A imagem pode ser um logotipo da empresa, um timbre ou qualquer outra imagem representativa. É recomendável que a largura tenha entre 25 e 800 pixels e a altura entre 25 e 150 pixels, pois essas dimensões são ideais para a maioria dos clientes de email, como o Microsoft Outlook. A imagem deve ser um arquivo JPEG, JPG, PNG ou SVG. O tamanho do arquivo deve ser inferior a 1 megabyte (MB). Após uma imagem ser carregada, uma exibição do cabeçalho será gerada e mostrada. Se a imagem do cabeçalho precisar ser removida ou substituída, o administrador poderá usar a opção **Remover** acima da exibição.
 
 Na seção **Rodapé**, o administrador pode fornecer links para a política de privacidade da empresa para comunicação, além dos termos e condições. Esses links são inseridos em um rodapé que é gerado automaticamente. Uma visualização deste rodapé é exibida.
 
@@ -69,7 +68,7 @@ O campo **Para** de um modelo não pode ser editado, pois você já selecionou o
 
 Você pode adicionar personas como **Recrutador** ou **Gerente de contratação** à linha de cópia carbono (Cc). Quando o email for enviado, essas funções serão substituídas automaticamente pelos usuários apropriados, com base no contexto do trabalho.
 
-A linha do assunto e o conteúdo do corpo dão suporte a espaços reservados. Você poderá inserir espaços reservados digitando **\#** e selecionando o espaço reservado apropriado na lista suspensa de preenchimento automático. A lista dos espaços reservados disponíveis aparece no lado direito da página. Quando o email for enviado, os espaços reservados serão substituídos automaticamente, com base no contexto do trabalho e no destinatário. Por exemplo, um modelo para um email que é enviado a candidatos contém o espaço reservado \#{Candidate\_Name}. Quando o email for enviado a um candidato chamado Cameron, esse espaço reservado será substituído pelo nome Cameron.
+A linha do assunto e o conteúdo do corpo dão suporte a espaços reservados. Você poderá inserir espaços reservados digitando **\#** e selecionando o espaço reservado apropriado na lista suspensa de preenchimento automático. A lista dos espaços reservados disponíveis aparece no lado direito da página. Quando o email for enviado, os espaços reservados serão substituídos automaticamente, com base no contexto do trabalho e no destinatário. Por exemplo, o modelo de um email que é enviado para candidatos contém o espaço reservado \#{Candidate\_Name}. Quando o email for enviado a um candidato chamado Cameron, esse espaço reservado será substituído pelo nome Cameron.
 
 O editor de conteúdo do corpo é um editor de rich text que permite definir o estilo e o formato do texto. Ele também permite inserir hiperlinks e âncoras.
 
@@ -81,4 +80,3 @@ Quando a equipe de contratação envia um email, ela pode usar modelos criados p
 
 > [!NOTE] 
 > Para os emails que são enviados automaticamente, vários modelos podem ser criados. Porém, apenas um modelo pode ser definido como o modelo ativo. Como esse processo é disparado por eventos, somente o administrador pode determinar que modelo será usado, com base na combinação de selos **Padrão** e **Enviado automaticamente** na biblioteca de modelos.
-

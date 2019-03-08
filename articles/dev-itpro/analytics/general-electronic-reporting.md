@@ -1,13 +1,13 @@
 ---
-title: "Relatório eletrônico (RE)"
-description: "Este tópico oferece uma visão geral da ferramenta ER (Relatório eletrônico). Ele inclui informações sobre os principais conceitos, os cenários com suporte do ER e uma lista de formatos projetados e liberados como parte da solução ER."
+title: Relatório eletrônico (RE)
+description: Este tópico oferece uma visão geral da ferramenta ER (Relatório eletrônico). Ele inclui informações sobre os principais conceitos, os cenários com suporte do ER e uma lista de formatos projetados e liberados como parte da solução ER.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 67dc5b5cdec797f19a742addd05c6002aa31cf15
 ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/03/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310797"
 ---
-
 # <a name="electronic-reporting-er"></a>Relatório eletrônico (RE)
 
 [!include [banner](../includes/banner.md)]
@@ -36,16 +35,16 @@ O ER é uma ferramenta que você pode usar para configurar formatos de documento
 
 O mecanismo de ER se destina a usuários de negócios e não aos desenvolvedores. Como você configura formatos, em vez de códigos, os processos de criação e ajuste de formatos para documentos eletrônicos são mais rápidos e mais fáceis.
 
-ER atualmente suporta os formatos de planilha texto, XML, documento do Microsoft Word e OPENXML. No entanto, uma interface de extensão oferece suporte a formatos adicionais.
+O ER atualmente suporta os formatos de planilha texto, XML, documento do Microsoft Word e OPENXML. No entanto, uma interface de extensão oferece suporte a formatos adicionais.
 
 ## <a name="capabilities"></a>Capacidades
 O mecanismo ER tem os seguintes recursos:
 
-- Ele representa uma única ferramenta compartilhada para relatórios eletrônicos em domínios diferentes, e substitui mais de 20 mecanismos diferentes que fazem algum tipo de relatório eletrônico para o Microsoft Dynamics 365 for Finance and Operations.
+- Ele representa uma única ferramenta compartilhada para relatórios eletrônicos em domínios diferentes, e substitui mais de 20 mecanismos diferentes que fazem algum tipo de relatório eletrônico para Microsoft Dynamics 365 for Finance and Operations.
 - Isso torna o formato do relatório isolado da implementação atual do Finance and Operations. Em outras palavras, o formato é aplicável para versões diferentes do Finance and Operations.
 - Ele suporta a criação de um formato personalizado que é baseado no formato original. Ele também inclui recursos para atualizar automaticamente o formato personalizado quando o formato original é alterado devido aos requisitos de localização/personalização.
 - Ele se torna o padrão principal de suporte de requisitos de localização no relatório eletrônico para a Microsoft e parceiros da Microsoft.
-- Ele oferece suporte à capacidade de formatos distribuídos para clientes e parceiros através do Microsoft Dynamics Lifecycle Services (LCS).
+- Ele oferece suporte à capacidade de distribuir formatos a parceiros e clientes através do Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="key-concepts"></a>Conceitos principais
 ### <a name="components"></a>Componentes
@@ -100,7 +99,7 @@ Um componente de formato suporta as seguintes funções:
 Um componente de formato permite anexar arquivos específicos que podem ser usados na saída do relatório da seguinte maneira:
 
 - Contendo pastas de trabalho da planilha do Excel como um modelo para saídas no formato de planilha OPENXML;
-- Arquivos de Word contendo um documento que pode ser usado como modelo para saída no formato de documento do Microsoft Word;
+- Arquivos de Word contendo um documento que pode ser usado como modelo para saída no formato de documento do Microsoft Word
 - Os arquivos que podem ser incorporados na saída do formato como arquivos predefinidos
 
 A ilustração a seguir mostra como os dados fluem para esses formatos.
@@ -170,7 +169,7 @@ Um repositório de **Recursos de operações** fornece acesso à lista de config
 
 Um repositório de **projeto do LCS** fornece acesso à lista de configurações de projeto do LCS (biblioteca de ativos do projeto do LCS) que foi selecionado na fase de registro do repositório. O ER permite carregar configurações compartilhadas da instância atual do Finance and Operations para um repositório específico do **Projeto do LCS**. Você também pode importar configurações do repositório de um **Projeto LCS** na instância do Finance and Operations atual.
 
-Um repositório do **Sistema de arquivos** fornece acesso à lista de definições que estão localizadas como arquivos xml na pasta específica do sistema de arquivos local do computador onde o serviço AOS está hospedado. A pasta necessária está selecionada no estágio de registro do armazenamento. Você também pode importar configurações de um repositório de **Sistema de arquivos** na instância do Finance and Operations atual. Note que esse tipo de armazenamento está acessível nos ambientes a seguir Dynamics 365 for Finance and Operations:
+Um repositório do **Sistema de arquivos** fornece acesso à lista de definições que estão localizadas como arquivos xml na pasta específica do sistema de arquivos local do computador onde o serviço AOS está hospedado. A pasta necessária está selecionada no estágio de registro do armazenamento. Você também pode importar configurações de um repositório de **Sistema de arquivos** na instância do Finance and Operations atual. Note que esse tipo de armazenamento está disponível nos seguintes ambientes do Dynamics 365 for Finance and Operations:
 - ambientes armazenados em nuvem implantados para fins de desenvolvimento (contendo modelos de teste de pacotes integrados)
 - ambientes localmente implantados (implantação LBD ou no local)
 
@@ -381,4 +380,3 @@ O ER permite adotar automaticamente alterações na última versão do component
 [Requisitos de localização – criar uma configuração de relatórios eletrônica](electronic-reporting-configuration.md)
 
 [Gerenciar o ciclo de vida da configuração de relatório eletrônico](general-electronic-reporting-manage-configuration-lifecycle.md)
-

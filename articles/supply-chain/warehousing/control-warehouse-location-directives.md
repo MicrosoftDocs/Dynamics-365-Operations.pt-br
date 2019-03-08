@@ -1,13 +1,13 @@
 ---
-title: "Controlar o trabalho do depósito por meio de modelos de trabalho e diretivas de localização"
-description: "Este tópico descreve como usar modelos de trabalho e diretivas de localização para determinar como e onde o trabalho será executado no depósito."
+title: Controlar o trabalho do depósito por meio de modelos de trabalho e diretivas de localização
+description: Este tópico descreve como usar modelos de trabalho e diretivas de localização para determinar como e onde o trabalho será executado no depósito.
 author: perlynne
 manager: AnnBe
 ms.date: 09/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSLocDirFailure, WHSLocDirHint, WHSLocDirTable, WHSLocDirTableUOM, WHSRFMenuItem, WHSWork, WHSWorkClass, WHSWorkPool, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: c4428613441424c81f4fd7dd92bbf842c62ce860
 ms.openlocfilehash: 74e7c36fb912f35252d6e40d17477ac2962cbc23
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325402"
 ---
-
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Controlar o trabalho do depósito por meio de modelos de trabalho e diretivas de localização
 
 [!include [banner](../includes/banner.md)]
 
 Este tópico descreve como usar modelos de trabalho e diretivas de localização para determinar como e onde o trabalho será executado no depósito.
 
-As instruções que os trabalhadores de depósito recebem em um dispositivo móvel são determinadas pelos modelos de trabalho configurados no Microsoft Dynamics 365 for Finance and Operations para definir os vários processos e tarefas do depósito. Os modelos de trabalho determinam como o trabalho será executado em cada processo de depósito. Ao vincular uma diretiva de localização a modelos de trabalho, você garantirá que o trabalho ocorrerá em áreas específicas dos depósitos.
+As instruções recebidas pelos funcionários do depósito em um dispositivo móvel são determinadas pelos modelos de trabalho configurados no Microsoft Dynamics 365 for Finance and Operations para definir os vários processos e tarefas do depósito. Os modelos de trabalho determinam como o trabalho será executado em cada processo de depósito. Ao vincular uma diretiva de localização a modelos de trabalho, você garantirá que o trabalho ocorrerá em áreas específicas dos depósitos.
 
 ## <a name="work-templates"></a>Modelos do trabalho
 A página **Modelos de trabalho** permite definir quais operações de trabalho devem ser executadas no depósito. Normalmente, as operações de trabalho de depósito consistem em duas ações: um trabalhador do depósito coleta o estoque disponível em um local e descarrega o estoque coletado em outro local. 
@@ -163,4 +162,3 @@ Selecione para usar estratégias de lote para os itens habilitados para lotes. S
 Neste exemplo, consideraremos um processo de ordem de compra em que a diretiva de localização deve encontrar capacidade livre em um depósito para itens do estoque que acabaram de ser registrados na doca de recebimento. Primeiro, você precisa localizar a capacidade livre no depósito, consolidando o estoque disponível existente. Se a consolidação não for possível, você precisará encontrar um local vazio. 
 
 Nesse cenário, você deve definir duas ações de diretiva de localização. A primeira ação na sequência deve usar a estratégia **Consolidar** e a segunda deve usar a estratégia **Local vazio sem trabalho de entrada**. A menos que você defina uma terceira ação para lidar com um cenário de estouro de capacidade, dois resultados serão possíveis quando não houver mais capacidade no depósito: o trabalho pode ser criado mesmo que nenhum local seja definido ou o processo de criação de trabalho pode falhar. O resultado é determinado pela configuração na página **Falhas na diretiva de localização**, na qual você pode decidir se selecionará a opção **Parar de trabalhar em falha de diretiva de localização** para cada tipo de ordem de trabalho.
-

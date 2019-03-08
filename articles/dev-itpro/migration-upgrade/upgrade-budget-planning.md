@@ -1,13 +1,13 @@
 ---
-title: "Atualizar planejamento de orçamento"
-description: "Há diferenças significativas no planejamento de orçamento entre o Microsoft Dynamics AX 2012 e o Microsoft Dynamics 365 for Finance and Operations. Alguns recursos não foram atualizados e, portanto, não requerem reconfiguração. Este tópico explica o que deve ser reconfigurado e também descreve os novos recursos que devem ser considerados após a conclusão da atualização."
+title: Atualizar planejamento de orçamento
+description: Há diferenças significativas no planejamento do orçamento entre o Microsoft Dynamics AX 2012 e o Microsoft Dynamics 365 for Finance and Operations. Alguns recursos não foram atualizados e, portanto, não requerem reconfiguração. Este tópico explica o que deve ser reconfigurado e também descreve os novos recursos que devem ser considerados após a conclusão da atualização.
 author: ryansandness
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: robinr
 ms.search.scope: Core, Operations
@@ -17,31 +17,30 @@ ms.search.region: Global
 ms.author: ryansand
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 3d57419ca5c59be185c87b869302b41bef05a3c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a39f516bb6d023ea18492ba3dfe721bd1127c60e
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342951"
 ---
-
 # <a name="upgrade-budget-planning"></a>Atualizar planejamento de orçamento
 
 [!include [banner](../includes/banner.md)]
 
-Há diferenças significativas no planejamento de orçamento entre o Microsoft Dynamics AX 2012 e o Microsoft Dynamics 365 for Finance and Operations. Alguns recursos não foram atualizados e, portanto, não requerem reconfiguração. Este tópico explica o que deve ser reconfigurado e também descreve os novos recursos que devem ser considerados após a conclusão da atualização.  
+Há diferenças significativas no planejamento do orçamento entre o Microsoft Dynamics AX 2012 e o Microsoft Dynamics 365 for Finance and Operations. Alguns recursos não foram atualizados e, portanto, não requerem reconfiguração. Este tópico explica o que deve ser reconfigurado e também descreve os novos recursos que devem ser considerados após a conclusão da atualização.  
 
-O planejamento de orçamento do Microsoft Dynamics 365 for Finance and Operations apresenta várias melhorias que não estavam disponíveis no Microsoft Dynamics AX 2012. Este tópico explica as alterações a serem feitas pelos clientes que estão realizando a atualização. Também indica os novos recursos que devem ser considerados no processo de atualização. Por causa da extensão das alterações, os planos de orçamento existentes não poderão ser abertos até que sejam realizadas as alterações descritas neste tópico. No entanto, os relatórios devem continuar a funcionar e não requerem alterações adicionais.
+O planejamento de orçamento no Microsoft Dynamics 365 for Finance and Operations tem vários aprimoramentos que não estavam disponíveis no Microsoft Dynamics AX 2012. Este tópico explica as alterações a serem feitas pelos clientes que estão realizando a atualização. Também indica os novos recursos que devem ser considerados no processo de atualização. Por causa da extensão das alterações, os planos de orçamento existentes não poderão ser abertos até que sejam realizadas as alterações descritas neste tópico. No entanto, os relatórios devem continuar a funcionar e não requerem alterações adicionais.
 
 ## <a name="overview-of-changes"></a>Visão geral das alterações
-Alterações significativas foram realizadas no orçamento do Dynamics 365 for Finance and Operations. Essas alterações devem fazer com que o planejamento de orçamento seja mais fácil de configurar e mais reutilizável, de modo a reduzir a configuração e manutenção anual. As seguintes áreas no AX 2012 não existem mais no Dynamics 365 for Finance and Operations:
+Alterações significativas foram realizadas no orçamento do Dynamics 365 for Finance and Operations. Essas alterações devem fazer com que o planejamento de orçamento seja mais fácil de configurar e mais reutilizável, de modo a reduzir a configuração e manutenção anual. As seguintes áreas no AX 2012 não existem mais no Finance and Operations:
 
 -   Modelos de plano de orçamento (configuração de planejamento de orçamento)
 -   Pastas de plano de orçamento (configuração de planejamento de orçamento)
 -   Restrições ao cenário (configuração de planejamento de orçamento)
 -   Modelos para regras de fase e modelos de planejamento de orçamento (processo de planejamento de orçamento)
 -   Campos de matriz dos modelos de planilha
--   Assistente de modelo do Microsoft Excel para plano de orçamento
+-   Assistente de modelo do Microsoft Excel de plano de orçamento
 
 Alguns novos conceitos não podem ser diretamente atualizados da funcionalidade anterior. Portanto, é preciso concluir alguma reconfiguração para tratar esses conceitos novos. As seções a seguir descrevem os conceitos que substituíram os itens na lista precedente.
 
@@ -51,7 +50,7 @@ As colunas são um novo conceito que substitui partes do modelo do Excel e campo
 
 ### <a name="layouts"></a>Layouts
 
-Os layouts são um novo conceito que substitui o modelo do Excel. Os layouts contêm as colunas que definem quais períodos e dados de orçamento ou valores reais devem ser mostrados. Os layouts também são compartilhados entre o cliente e o suplemento do Excel. Sendo assim, a experiência do usuário ao inserir ou exibir dados no cliente do Dynamics 365 for Finance and Operations é melhor que a experiência do usuário no AX 2012. Para inserir dados no cliente do Dynamics 365 for Finance and Operations, você não estará mais limitado a exibir e inserir um único cenário em uma exibição de transação. Em vez disso, uma exibição de comparação permite exibir e inserir facilmente valores para vários períodos e contas ao mesmo tempo. Os layouts também podem ser definidos para que você possa inserir e exibir a moeda, comentários e outros dados opcionais. Os layouts também permitem definir quais dimensões contábeis e descrições de dimensão devem ser exibidas. Além disso, os layouts incorporam restrições ao cenário para definir quais colunas em um modelo podem ser editadas e quais colunas devem estar disponíveis no Excel. Após a definição de um layout, um modelo é gerado para ele. Esse modelo, por sua vez, cria o modelo correspondente do Excel. Com isso, você pode editar o modelo do Excel para incorporar mais fórmulas e formatações e, depois, carregá-lo novamente. Os layouts são atribuídos a cada regra de fase na página **Processo de planejamento de orçamento**. Portanto, os layouts substituem os modelos, que foram atribuídos e usados de forma semelhante.
+Os layouts são um novo conceito que substitui o modelo do Excel. Os layouts contêm as colunas que definem quais períodos e dados de orçamento ou valores reais devem ser mostrados. Os layouts também são compartilhados entre o cliente e o suplemento do Excel. Sendo assim, a experiência do usuário ao inserir ou exibir dados no cliente Finance and Operations é melhor que a experiência do usuário no AX 2012. Para inserir dados no cliente do Dynamics 365 for Finance and Operations, você não estará mais limitado a exibir e inserir um único cenário em uma exibição de transação. Em vez disso, uma exibição de comparação permite exibir e inserir facilmente valores para vários períodos e contas ao mesmo tempo. Os layouts também podem ser definidos para que você possa inserir e exibir a moeda, comentários e outros dados opcionais. Os layouts também permitem definir quais dimensões contábeis e descrições de dimensão devem ser exibidas. Além disso, os layouts incorporam restrições ao cenário para definir quais colunas em um modelo podem ser editadas e quais colunas devem estar disponíveis no Excel. Após a definição de um layout, um modelo é gerado para ele. Esse modelo, por sua vez, cria o modelo correspondente do Excel. Com isso, você pode editar o modelo do Excel para incorporar mais fórmulas e formatações e, depois, carregá-lo novamente. Os layouts são atribuídos a cada regra de fase na página **Processo de planejamento de orçamento**. Portanto, os layouts substituem os modelos, que foram atribuídos e usados de forma semelhante.
 
 ### <a name="budget-planning-processes"></a>Processos de planejamento de orçamento
 
@@ -160,7 +159,6 @@ Várias entidades de dados foram adicionadas para permitir a rápida implementa�
 -   Prioridades do plano de orçamento
 -   Colunas do plano de orçamento
 -   Elementos de layouts do plano de orçamento
-
 
 
 

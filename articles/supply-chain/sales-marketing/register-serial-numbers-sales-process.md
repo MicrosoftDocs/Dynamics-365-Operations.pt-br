@@ -1,13 +1,13 @@
 ---
-title: "Registrar números de série no processo de venda"
-description: "Este tópico explica como você pode registrar números de série em guias de remessa ou em faturas durante o processo de vendas. Essa funcionalidade será útil se uma empresa quiser capturar números de série para fins de serviço e de garantia, e não precisa manter os números de série no estoque do recebimento até a saída."
+title: Registrar números de série no processo de venda
+description: Este tópico explica como você pode registrar números de série em guias de remessa ou em faturas durante o processo de vendas. Essa funcionalidade será útil se uma empresa quiser capturar números de série para fins de serviço e de garantia, e não precisa manter os números de série no estoque do recebimento até a saída.
 author: omulvad
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResTrackingDimensionGroup, InventTrackingRegisterTrans, SalesEditLines, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e86c2f8d1d5920198db74dc3b64f2393c5e13ff7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 62f59c857980932f4cf75d928deb0f89fae2f8eb
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350403"
 ---
-
 # <a name="register-serial-numbers-in-the-sales-process"></a>Registrar números de série no processo de venda
 
 [!include [banner](../includes/banner.md)]
@@ -58,8 +57,8 @@ Se um número de série não puder ser lido ou digitalizado, você poderá criar
 
 ## <a name="can-i-correct-or-change-the-serial-numbers-that-i-have-registered-for-a-sales-order"></a>Posso corrigir ou alterar os números de série registrados para uma ordem de venda?
 Sim, você pode corrigir números de série se as seguintes condições forem atendidas:
--   **Faturas** – você pode alterar os números de série para os itens que ainda não foram faturados. A guia de remessa também é atualizada. Entretanto, se uma linha da ordem de venda tiver sido corrigida para registrar uma quantidade negativa, não será possível alterar números de série para a linha da ordem de venda.
--   **Guias de remessa** – não é possível corrigir parcialmente uma linha de guia de remessa que contém itens serializados. É preciso reverter a quantidade total para a linha. Se uma guia de remessa foi cancelada ou corrigida, não será necessário registrar os números de série revertidos novamente ao criar uma nova guia de remessa para os mesmos itens serializados. Os números que foram registrados serão usados.
+-   **Faturas** – você pode alterar os números de série para os itens que ainda não foram faturados. A guia de remessa também é atualizada. Entretanto, se uma linha da ordem de venda tiver sido corrigida para registrar uma quantidade negativa, não será possível alterar números de série para a linha da ordem de venda.
+-   **Guias de remessa** – não é possível corrigir parcialmente uma linha de guia de remessa que contém itens serializados. É preciso reverter a quantidade total para a linha. Se uma guia de remessa foi cancelada ou corrigida, não será necessário registrar os números de série revertidos novamente ao criar uma nova guia de remessa para os mesmos itens serializados. Os números que foram registrados serão usados.
 
 ## <a name="can-i-view-the-serial-numbers-that-were-shipped-together-with-a-specific-packing-slip-or-that-were-included-on-an-invoice"></a>Posso exibir os números de série que foram enviados junto com uma guia de remessa específica ou que foram incluídos em uma fatura?
 Sim, você pode executar uma consulta na linha do diário da guia de remessa ou na linha do diário de faturas para exibir uma lista de todos os números de série que foram incluídos no documento.
@@ -72,13 +71,12 @@ Não, você não pode registrar números de série para itens de peso variável 
 
 ## <a name="can-i-register-serial-numbers-at-the-retail-pos"></a>Posso registrar números de série no retail POS?
 
-Sim, o Retail POS solicitará a inserção de um número de série quando o usuário vender um item que esteja atribuído a um grupo de dimensões de rastreamento configurado para usar números de série apenas durante o processo de venda.
+Sim, o Retail POS solicitará a inserção de um número de série quando o usuário vender um item que esteja atribuído a um grupo de dimensões de rastreamento configurado para usar números de série apenas durante o processo de venda.
 
 ## <a name="what-security-roles-are-required-in-order-to-register-serial-numbers-during-the-sales-process"></a>Quais funções de segurança são necessárias para registrar números de série durante o processo de venda?
 Essa funcionalidade está disponível em todas as funções que podem atualizar as guias de remessa e as faturas de venda. Os seguintes impostos permitem que trabalhadores corrijam números de série e registrem entradas em branco para números de série que não podem ser lidos ou verificados:
 -   Manter correções de número de série
 -   Manter registro de números de série ilegíveis
-
 
 
 

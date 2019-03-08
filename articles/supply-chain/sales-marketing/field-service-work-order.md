@@ -1,37 +1,36 @@
 ---
 title: Sincronizar ordens de trabalho no Field Service com ordens de venda no Finance and Operations
-description: "Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar ordens de trabalho no Field Service com ordens de venda no Finance and Operations."
+description: Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar ordens de trabalho no Field Service com ordens de venda no Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
+ms.openlocfilehash: 49cb5942532e4feab64aa271ebfecf5cb60b1c61
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 8914723f6ef436bfc9e3a98cc82d5486042b0761
-ms.openlocfilehash: 250b7caa1e1495140d0d4f688ecae4acb8814467
-ms.contentlocale: pt-br
-ms.lasthandoff: 06/07/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324091"
 ---
-
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-finance-and-operations"></a>Sincronizar ordens de trabalho no Field Service com ordens de venda no Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar ordens de trabalho no Microsoft Dynamics 365 for Field Service com ordens de venda no Microsoft Dynamics 365 for Finance and Operations.
+Este tópico discute os modelos e as tarefas subjacentes que são usados para sincronizar ordens de trabalho no Microsoft Dynamics 365 for Field Service com ordens de venda no Microsoft Dynamics 365 for Finance and Operations.
 
 [![Sincronização de processos empresariais entre o Finance and Operations e o Field Service](./media/field-service-integration.png)](./media/field-service-integration.png)
 
@@ -273,4 +272,3 @@ Filtro: (msdynce_headersystemstatus ne 690970005) e (msdynce_headersystemstatus 
 Filtro: (msdynce_headersystemstatus ne 690970005) e (msdynce_headersystemstatus ne 690970000) e (msdynce_orderhasexternalmaintainedproductsonly eq true) e ((msdyn_linestatus eq 690970001) ou (msdynce_headersystemstatus eq 690970004) ou (msdyn_allocated ne true))
 
 [![Mapeamento de modelo na Integração de dados](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
-

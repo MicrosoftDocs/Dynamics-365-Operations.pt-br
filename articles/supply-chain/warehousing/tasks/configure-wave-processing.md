@@ -1,13 +1,13 @@
---- 
+---
 title: Configurar processamento da onda
-description: "Este guia descreve como configurar os critérios que determinam que trabalho será gerado para um depósito quando uma onda for processada, e se as ondas são processadas manual ou automaticamente."
+description: Este guia descreve como configurar os critérios que determinam que trabalho será gerado para um depósito quando uma onda for processada, e se as ondas são processadas manual ou automaticamente.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSParameters, ProdParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 399146d35388a0151abb23e57bc36ec0173be928
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f7a6db585468c235e07c4a0117a83995ec93f4b0
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337500"
 ---
 # <a name="configure-wave-processing"></a>Configurar processamento da onda
 
@@ -68,5 +68,4 @@ Este guia descreve como configurar os critérios que determinam que trabalho ser
 24. No campo Liberar para depósito, selecione uma opção.
     * Para ordens de venda e ordens de kanban, o estoque será reservado antes de a ordem ser liberada para o depósito. Caso contrário, os itens ou as linhas de alocação não poderão ser processadas em uma onda. Para ordens de produção, você também terá a opção de seleção para permitir reserva parcial. Por exemplo, isso será útil se você tiver o material necessário para iniciar uma produção, e puder aguardar até que o material adicional seja disponibilizado para finalizar o processo. Se você selecionar esta opção, repita manualmente a liberação para o processo de armazém quando o material adicional for disponibilizado.  
 25. Feche a página.
-
 

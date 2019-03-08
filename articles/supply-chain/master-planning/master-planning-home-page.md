@@ -1,32 +1,31 @@
 ---
 title: Home page do planejamento mestre
-description: "O Planejamento mestre permite que as empresas determinem e equilibrem a necessidade futura de matérias-primas e a capacidade de cumprir as metas da empresa."
+description: O Planejamento mestre permite que as empresas determinem e equilibrem a necessidade futura de matérias-primas e a capacidade de cumprir as metas da empresa.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 12/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
 ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314776"
 ---
-
 # <a name="master-planning-home-page"></a>Home page do planejamento mestre
 
 [!include [banner](../includes/banner.md)]
@@ -44,7 +43,7 @@ Os três processos de planejamento principais são:
 
 -  **Planejamento de previsão** - O Plano de previsão calcula os requisitos brutos. Ele se baseia em projeções futuras (ou previsões) e permite que as empresas realizem o planejamento de materiais e capacidade a longo prazo. Para obter mais informações, consulte [Planejamento de previsão](introduction-demand-forecasting.md). 
 
--  **Planejamento mestre intercompanhia** - O plano mestre intercompanhia calcula requisições líquidas entre entidades legais. Ele conecta demanda e fornecimento entre as empresas, não apenas em demanda e fornecimento de confirmação em curto prazo, mas também em demanda e fornecimento planejado a longo prazo. Para obter mais informações, consulte [Planejamento mestre intercompanhia](https://mbspartner.microsoft.com/AX/CourseOverview/1276)  (eLearning) (requer uma conta do CustomerSource). 
+-  **Planejamento mestre intercompanhia** - O plano mestre intercompanhia calcula requisições líquidas entre entidades legais. Ele conecta demanda e fornecimento entre as empresas, não apenas em demanda e fornecimento de confirmação em curto prazo, mas também em demanda e fornecimento planejado a longo prazo. Para obter mais informações, consulte [Planejamento mestre intercompanhia](https://mbspartner.microsoft.com/AX/CourseOverview/1276)  (eLearning) (requer conta do CustomerSource). 
 
 As empresas podem alterar a saída do plano. Elas podem realizar alteração líquida, regenerativa ou ambas. Planos regenerativos atualizam todos os requisitos, enquanto planos de alteração líquida atualizam apenas o plano nos itens com novos requisitos que entraram desde a última execução do agendamento.
 
@@ -72,7 +71,7 @@ O mapa de aprendizado a seguir mostra os principais conceitos e tarefas que comp
 Visite o [Roteiro do Microsoft Dynamics 365](https://roadmap.dynamics.com/) para conferir os novos recursos que foram lançados e os novos recursos em desenvolvimento.
 
 ### <a name="blogs"></a>Blogs
-Você encontra opiniões, notícias e outras informações sobre Planejamento mestre e outras soluções no [Blog da equipe de P&D de fabricação do Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) e no [Blog da equipe de P&D de Gerenciamento da Cadeia de Fornecedores no Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).
+Você encontra opiniões, notícias e outras informações sobre Planejamento mestre e outras soluções no [Blog da Equipe Dynamics AX Manufacturing R&D](https://blogs.msdn.microsoft.com/axmfg) e no [Blog da equipe do Supply Chain Management no Dynamics AX R&D](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>Guias de tarefas
 Há ajuda adicional disponível como guias de tarefas dentro do Finance and Operations. Para acessar os guias de tarefas, clique no botão **Ajuda** em qualquer página.
@@ -84,7 +83,6 @@ Há ajuda adicional disponível como guias de tarefas dentro do Finance and Oper
 -  [Estender a funcionalidade de previsão de demanda](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
 -  [Planejamento mestre – dicas e truques para solucionar problemas de desempenho](https://youtu.be/7v8BPmEs9Dg)
 -  [Ajuda! O MRP está lento!](https://youtu.be/RLXybx20B5o)
-
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: Configurar fluxos de trabalho de item de linha
-description: "Este tópico explica como configurar um elemento do fluxo de trabalho de item de linha."
+description: Este tópico explica como configurar um elemento do fluxo de trabalho de item de linha.
 author: sericks007
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 66e79389bba4566176330914ace462110cd0aa22
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 0a57baa3ecae727721f62477cfc5fa41f60ad06d
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336097"
 ---
-
 # <a name="configure-line-item-workflows"></a>Configurar fluxos de trabalho de item de linha
 
 [!include [banner](../includes/banner.md)]
@@ -56,4 +55,3 @@ Siga estas etapas para especificar se o mesmo fluxo de trabalho será usado para
     6. Para verificar se o conjunto de condições que você inseriu está configurado corretamente, clique em **Teste**. Na página **Testar condição de fluxo de trabalho**, na área **Validar condição**, selecione um registro e clique em **Teste**. O sistema avaliará o registro para determinar se ele atende às condições definidas. Clique em **OK** ou **Cancelar** para retornar à página **Propriedades**.
 
     Na guia **Fluxo de trabalho**, selecione o fluxo de trabalho no fluxo de trabalho a ser usado para processar as linhas de item que atenderem o conjunto de condições definidas.
-

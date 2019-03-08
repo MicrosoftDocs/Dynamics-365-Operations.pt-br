@@ -1,13 +1,13 @@
 ---
 title: Demonstrativos de varejo
-description: "Este tópico descreve como os demonstrativos são criados e lançados."
+description: Este tópico descreve como os demonstrativos são criados e lançados.
 author: ashishmsft
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 9e88a8b22b73aca5c2cee6984ecad3c62e597102
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347689"
 ---
-
 # <a name="retail-statements"></a>Demonstrativos de varejo
 
 [!include [banner](includes/banner.md)]
@@ -86,7 +85,6 @@ Se a caixa de seleção **Lançar como dia útil** for desmarcada para a mesma l
 Quando você lançar um demonstrativo, as ordens de venda e faturas são criadas para as vendas de varejo no demonstrativo.
 
 - As vendas à vista e realizadas são agregadas em ordens de venda e são faturadas para o cliente padrão que está atribuído à loja.
-- As vendas de varejo para as quais um cliente foi adicionado à transação no Microsoft Dynamics 365 for Retail POS geram ordens de venda e faturas separadas, uma para cada cliente exclusivo.
+- As vendas de varejo para as quais um cliente foi adicionado à transação no PDV do Microsoft Dynamics 365 for Retail geram ordens de venda e faturas separadas, uma para cada cliente exclusivo.
 
 Os diários de pagamentos são criados automaticamente para os pagamentos no demonstrativo e o estoque é atualizado para a loja POS.
-

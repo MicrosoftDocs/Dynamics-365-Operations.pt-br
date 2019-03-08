@@ -1,13 +1,13 @@
---- 
+---
 title: Criar um modelo de fatura de texto livre
 description: Este procedimento demonstra como criar um modelo de fatura de texto livre.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 05/29/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 91f2ec2f8ab21616c6a1b886ee89d6faf84023e4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f69505f0c6137121cae92d42d052b244326c8436
-ms.openlocfilehash: 9b7ce8ba180f67c4a52439f4e03b59f07a71323d
-ms.contentlocale: pt-br
-ms.lasthandoff: 06/28/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310774"
 ---
 # <a name="create-a-free-text-invoice-template"></a>Criar um modelo de fatura de texto livre
 
@@ -68,4 +68,3 @@ Para este passo a passo, use a empresa de demonstração USMF. Este procedimento
 
 ## <a name="save-a-free-text-invoice-as-a-template"></a>Salvar uma fatura de texto livre como modelo
 Você também pode salvar uma fatura de texto livre existente como um modelo. Quando selecionar Salvar no modelo na guia Fatura, forneça um nome e uma descrição para o modelo. Se um modelo com o nome já existir, uma notificação de que um modelo com esse nome já existe será exibida. Você ainda poderá clicar em OK para substituí-lo. 
-

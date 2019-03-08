@@ -1,13 +1,13 @@
 ---
-title: "Local de saída de produção"
-description: "Este tópico descreve a hierarquia usada para identificar o local de saída de produção."
+title: Local de saída de produção
+description: Este tópico descreve a hierarquia usada para identificar o local de saída de produção.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 9445db6d78d46831ed961977d6041459f118fee9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b1d6d1270dcbdf3baff63b2ccf300d6195329b41
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315765"
 ---
-
 # <a name="production-output-location"></a>Local de saída de produção
 
 [!include [banner](../includes/banner.md)]
@@ -41,4 +40,3 @@ Um local de saída de produção padrão é definido quando as mercadorias concl
 4. Se não houver uma localização ali, use o local de saída definido no depósito definido na ordem de produção.
 
 Um local de saída de produção padrão é definido apenas para os produtos configurados usando os processos avançados de depósito. Quando esse tipo de item for relatado como concluída, será criado o trabalho de depósito do tipo **Mercadorias concluídas armazenadas** ou **Co-produto e subproduto armazenados**. Esse tipo de trabalho usa o local de saída de produção como o local de separação. O local de armazenamento é determinado pelas diretivas de local.
-

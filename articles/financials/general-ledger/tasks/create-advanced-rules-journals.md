@@ -1,13 +1,13 @@
---- 
-title: "Criar regras avançadas para diários"
-description: "Este procedimento aborda a criação de regras avançadas para diários."
+---
+title: Criar regras avançadas para diários
+description: Este procedimento aborda a criação de regras avançadas para diários.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalControl, CompanyLookup, LedgerJournalPostControl
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e3fc764a6fa92a050084ae610a11acac46995d2a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1bb1663b0f5d7e6a550e1ffd2ee2edf3771a13b3
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326161"
 ---
 # <a name="create-advanced-rules-for-journals"></a>Criar regras avançadas para diários
 
@@ -57,5 +57,4 @@ Este procedimento aborda a criação de regras avançadas para diários. Inclui 
 3. No Como deseja configurar as restrições de lançamento, selecione Por grupo de usuários.
 4. Na árvore, verifique 'o grupo do qual deseja permitir o lançamento para o nome desse diário'.
 5. Clique em OK.
-
 

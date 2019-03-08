@@ -1,13 +1,13 @@
 ---
-title: "Reavaliação de moeda estrangeira da Contabilidade"
-description: "Este tópico fornece uma visão geral dos seguintes procedimentos para o processo de reavaliação de moeda estrangeira da contabilidade: instalação, execução do processo, cálculo do processo e como reverter transações de reavaliação, se necessário."
+title: Reavaliação de moeda estrangeira da Contabilidade
+description: 'Este tópico fornece uma visão geral dos seguintes procedimentos para o processo de reavaliação de moeda estrangeira da contabilidade: instalação, execução do processo, cálculo do processo e como reverter transações de reavaliação, se necessário.'
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CurrencyLedgerGainLossAccount
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bb04c5a9e7db1a6c6a8d8c7126bfa80208d1fd53
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f967854e9a39c7b2d76559744bbc1e16a53d7f6a
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315535"
 ---
-
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Reavaliação de moeda estrangeira da Contabilidade
 
 [!include [banner](../includes/banner.md)]
@@ -68,7 +67,7 @@ O processo de reavaliação pode ser executado para uma ou mais entidades legais
 
 Reavaliação pode ser realizado para uma ou mais moedas estrangeiras. A pesquisa incluirá todas as moedas lançadas no intervalo de data relevante para o tipo de conta principal (balanço ou lucros e perdas), para as entidades legais selecionadas para reavaliação. A moeda contábil será incluída na lista, mas nada será reavaliado, se a moeda contábil estiver selecionada. 
 
-Defina **Visualizar antes do lançamento** como **Sim** se quiser revisar o resultado da reavaliação da Contabilidade. A exibição na contabilidade é diferente da simulação na reavaliação de moeda estrangeira de AR e AP. A simulação em AR e AP é um relatório, mas a contabilidade tem uma visualização que pode ser lançada, sem precisar executar novamente o processo de reavaliação. Os resultados de exibição podem ser exportados para o Microsoft Excel para manter o histórico como os valores forem calculados. Você não pode usar o processamento em lotes se você deseja visualizar os resultados de reavaliação. Visualização, o usuário tem a opção de lançar os resultados de todas as entidades legais usando **Lançar** o botão. Se houver um problema com os resultados de uma entidade legal, o usuário também tem a opção de lançar um subconjunto entidades legais usando **Entidades legais no lançamento** o botão. 
+Defina **Visualizar antes do lançamento** como **Sim** se quiser revisar o resultado da reavaliação da Contabilidade. A exibição na contabilidade é diferente da simulação na reavaliação de moeda estrangeira de AR e AP. A simulação em AR e AP é um relatório, mas a contabilidade tem uma visualização que pode ser lançada, sem precisar executar novamente o processo de reavaliação. Os resultados de exibição podem ser exportados para o Microsoft Excel para manter o histórico como os valores foram calculados. Você não pode usar o processamento em lotes se você deseja visualizar os resultados de reavaliação. Visualização, o usuário tem a opção de lançar os resultados de todas as entidades legais usando **Lançar** o botão. Se houver um problema com os resultados de uma entidade legal, o usuário também tem a opção de lançar um subconjunto entidades legais usando **Entidades legais no lançamento** o botão. 
 
 Depois que o processo de reavaliação de moeda estrangeira for concluído, será criado um registro para controlar o histórico de cada execução.  Um registro separado será criado para cada entidade legal e nível de lançamento.
 
@@ -116,7 +115,6 @@ A entrada de contabilidade a seguir será criada.
 Se você precisa reverter a transação de reavaliação, selecione o botão **Transação revertida** na página **Reavaliação de moeda estrangeira**. Histórico de um registro novo reavaliação de moeda estrangeira será criado para manter o histórico trilha de auditoria de reavaliação quando ocorreu ou foi revertida. 
 
 Você pode reverter os resultados da ordem de reavaliação desatualizada, mas também pode ser necessário reverter uma reavaliação mais atual para garantir os saldos corretos para cada conta principal reavaliada. As reversões podem ocorrer com a ordem desatualizada porque não há como controlar quais contas principais são reavaliadas e frequência na qual são reavaliadas. Por exemplo, uma empresa pode optar para reavaliar trimestralmente sua principais contas de caixa, e mensalmente todas as contas principais restantes.
-
 
 
 

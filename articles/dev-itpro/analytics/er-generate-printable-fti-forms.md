@@ -1,13 +1,13 @@
 ---
-title: "Gerar formulários de FTI imprimíveis"
-description: "Este tópico explica como usar a estrutura de relatório eletrônico (ER) para gerar formulários de fatura de texto livre (FTI) imprimíveis como documentos do Microsoft Office."
+title: Gerar formulários de FTI imprimíveis
+description: Este tópico explica como usar a estrutura de relatório eletrônico (ER) para gerar formulários de fatura de texto livre (FTI) imprimíveis como documentos do Microsoft Office.
 author: NickSelin
 manager: AnnBe
 ms.date: 07/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: d27a11a0d925b0f1164578f9c04e6abd4736b2b2
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325517"
 ---
-
 # <a name="generate-printable-fti-forms"></a>Gerar formulários de FTI imprimíveis
 
 [!include[banner](../includes/banner.md)]
@@ -33,7 +32,7 @@ A estrutura de relatório eletrônico (ER) permite gerar formulários de fatura 
 
 ## <a name="overview"></a>Visão Geral
 
-Além da capacidade existente de gerar formulários de FTI imprimíveis usando o Microsoft SQL Server Reporting Services (SSRS), agora é possível usar a estrutura de ER. Você pode gerenciar os formulários de FTI imprimíveis no Microsoft Office Excel e Word. Você também pode modificar o layout, o fluxo de dados e a formatação para atender a requisitos específicos sem fazer alterações no código.
+Além da capacidade existente de gerar formulários de FTI imprimíveis usando o Microsoft SQL Server Reporting Services (SSRS), agora é possível usar a estrutura de ER. Você pode gerenciar os formulários de FTI imprimíveis no Microsoft Office Excel e no Word. Você também pode modificar o layout, o fluxo de dados e a formatação para atender a requisitos específicos sem fazer alterações no código.
 
 > [!NOTE]
 > Para começar com uma visão geral das configurações de ER existentes para este exemplo de solução de formulários de FTI imprimíveis, você pode acessar diretamente a seção **Baixar modelo de configurações de ER para gerar formulários de FTI imprimíveis** posteriormente neste tópico.
@@ -112,16 +111,16 @@ Você também pode gerar formulários de FTI ao lançar um FTI, ativando **Impri
 A estrutura de ER é compatível com os seguintes destinos para documentos gerados:
 
 - **Arquivo baixado** – Os formulários gerados são oferecidos como downloads que você pode salvar usando o navegador.
-- **Tela** – O Microsoft Office 365 Excel é usado para visualizar formulários de FTI gerados no formato Excel.
-- **Pasta do SharePoint** – Os formulários gerados são armazenados com base nas configurações da estrutura de gerenciamento de documentos.
-- **Arquivo do aplicativo** – Os formulários gerados são armazenados como anexos de registros de log de execução no armazenamento do Microsoft Azure.
+- **Tela** – o Microsoft Office 365 é usado para visualizar os formulários de FTI gerados no formato do Excel.
+- Pasta do **SharePoint** – os formulários gerados são armazenados com base nas configurações da estrutura de gerenciamento de documentos.
+- **Arquivo do aplicativo** – os formulários gerados são armazenados como anexos de registros de log de execução no Armazenamento do Microsoft Azure.
 - **Email** – Os formulários gerados são enviados como anexos de email.
 
 > [!NOTE]
 > Você não pode enviar os formulários de FTI gerados diretamente para a impressora, porque atualmente não há suporte para a impressão direta que usa o Dynamics Printer Routing Agent.
 
 ## <a name="download-sample-er-configurations-to-generate-printable-fti-forms"></a>Baixar exemplo de configurações de ER para gerar formulários de FTI imprimíveis
-Você pode baixar exemplos de configurações de ER para usar como um modelo para sua solução de FTI. As configurações são armazenadas na biblioteca de ativos compartilhados no Microsoft Dynamics Lifecycle Services (LCS). As configurações incluem:
+Você pode baixar exemplos de configurações de ER para usar como um modelo para sua solução de FTI. As configurações são armazenadas na biblioteca de ativos compartilhados do Microsoft Dynamics Lifecycle Services (LCS). As configurações incluem:
 
 - A configuração **Modelo de faturamento do cliente** contém o mapeamento exigido do modelo de dados e do modelo.
 - A configuração **Relatório de FTI do cliente (GER)** contém o formato de exemplo.
@@ -226,4 +225,3 @@ A expressão **Emailing.TxtToUse.Body** do exemplo do formato está configurada 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 [Visão geral de Relatório eletrônico](general-electronic-reporting.md)
-

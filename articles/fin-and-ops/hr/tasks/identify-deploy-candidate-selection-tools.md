@@ -1,13 +1,13 @@
---- 
-title: "Identificar e implantar ferramentas de seleção de candidato"
-description: "Localizar um grupo de candidatos qualificado para preencher vagas pode ser difícil, principalmente quando uma posição requer um conjunto exclusivo de habilidades."
+---
+title: Identificar e implantar ferramentas de seleção de candidato
+description: Localizar um grupo de candidatos qualificado para preencher vagas pode ser difícil, principalmente quando uma posição requer um conjunto exclusivo de habilidades.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmSkillMapping, HcmJobLookup, HcmSkillMappingLine, HcmPersonCertificate, CCHTMLPrintPreview
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: df7956cfdc3c470b5e652b62e659060120cdd770
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1eb6e6121d39f9fc089afe38354b96eb88e5501d
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332716"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Identificar e implantar ferramentas de seleção de candidato
 
@@ -57,5 +57,4 @@ Localizar um grupo de candidatos qualificado para preencher vagas pode ser difí
     * O relatório listará os melhores resultados na parte superior do relatório.  Você pode ver se há um elemento do intervalo listado.  Esta é a diferença entre o nível que foi listado no mapeamento de habilidades e o nível de habilidade que é atribuído à pessoa.  
 24. Feche a página.
 25. Clique em Salvar.
-
 

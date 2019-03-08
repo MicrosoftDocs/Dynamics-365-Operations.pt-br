@@ -1,13 +1,13 @@
 ---
-title: "Visão geral das competências"
-description: "Este artigo descreve competências, e fornece informações sobre como configurá-las e criar transações."
+title: Visão geral das competências
+description: Este artigo descreve competências, e fornece informações sobre como configurá-las e criar transações.
 author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerAccuralTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 23c6a3402e4bc4a22d764017ba56554001300a67
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 00ecc493e6dcf59ab61e7082297c95516a248b58
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339685"
 ---
-
 # <a name="accruals-overview"></a>Visão geral das competências
 
 [!include [banner](../includes/banner.md)]
@@ -47,4 +46,3 @@ Quando você insere um diário, é possível clicar em **Competências do razão
 
 
 Para obter mais informações, consulte [Criar esquemas de competência](tasks/create-accrual-schemes.md) e [Criar transações de competências do razão](tasks/create-ledger-accrual-transactions.md).
-

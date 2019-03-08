@@ -1,13 +1,13 @@
---- 
+---
 title: Definir mapeamentos do modelo de ER e selecionar fontes de dados para eles
-description: "As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode selecionar fontes de dados para um modelo de dados do Relatório eletrônico."
+description: As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode selecionar fontes de dados para um modelo de dados do Relatório eletrônico.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b5f2f2c699514d723f42f5d1fb25724f46dfc4f4
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348862"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>Definir mapeamentos do modelo de ER e selecionar fontes de dados para eles
 
@@ -51,7 +51,7 @@ As etapas a seguir explicam como um usuário no papel de Administrador do Sistem
 
 ## <a name="define-required-data-sources-for-the-current-model-mapping"></a>Defina as fontes de dados necessárias para mapeamento de modelo atual
 1. Clique em Designer.
-2. Na árvore, selecione "Dynamics 365 for Operations\Registros da tabela".
+2. Na árvore, selecione 'Dynamics 365 for Operations\Registros da tabela'.
 3. Clique em Adicionar raiz.
     * Insira essa fonte de dados para acessar as transações de pagamento.  
 4. No campo Nome, digite 'Transações'.
@@ -110,7 +110,7 @@ As etapas a seguir explicam como um usuário no papel de Administrador do Sistem
 41. Na árvore, expanda 'Transações'.
 42. Na árvore, expanda ou recolha "Transações\$Valor".
 43. Na árvore, expanda ou recolha "Transações".
-44. Na árvore, selecione "Dynamics 365 for Operations\Registros da tabela".
+44. Na árvore, selecione 'Dynamics 365 for Operations\Registros da tabela'.
 45. Clique em Adicionar raiz.
     * Insira essa fonte de dados para acessar os detalhes da conta bancária da empresa.  
 46. No campo Nome, digite 'BankAccount'.
@@ -157,5 +157,4 @@ As etapas a seguir explicam como um usuário no papel de Administrador do Sistem
 70. Feche a página.
 71. Feche a página.
 72. Feche a página.
-
 

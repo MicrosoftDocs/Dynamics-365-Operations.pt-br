@@ -1,13 +1,13 @@
---- 
-title: "Estabelecer condições de pagamento de cliente"
-description: "Este procedimento define uma configuração de desconto à vista e a data de vencimento."
+---
+title: Estabelecer condições de pagamento de cliente
+description: Este procedimento define uma configuração de desconto à vista e a data de vencimento.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PaymDay, PaymTerm, CashDisc
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 49f4047ab4bff6bdfbe8326a6680f9d8f9762c95
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4e0e43962bea3ff1c3adafa73da4ce3862963a51
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312476"
 ---
 # <a name="establish-customer-payment-terms"></a>Estabelecer condições de pagamento de cliente
 
@@ -66,5 +66,4 @@ Este procedimento define uma configuração de desconto à vista e a data de ven
     * Se você selecionar 'Contas nas linhas da nota fiscal', o desconto à vista será lançado na mesma conta principal do ativo/despesa nas linhas da nota fiscal do fornecedor. Se você selecionar 'Usar conta principal para faturas de fornecedor', o desconto à vista lançará na conta principal definida por você em 'Conta principal para faturas de fornecedor'. Neste exemplo, selecione 'Usar conta principal para faturas de fornecedor'.  
 26. Insira a conta principal a qual o desconto à vista será lançado para as notas fiscais do fornecedor.
 27. Clique em Salvar.
-
 

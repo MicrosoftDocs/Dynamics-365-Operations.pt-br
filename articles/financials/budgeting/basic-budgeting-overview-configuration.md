@@ -1,13 +1,13 @@
 ---
-title: "Visão geral de orçamento"
-description: "Quase todas as companhias que usam a funcionalidade Finanças no Microsoft Dynamics 365 for Finance and Operations precisarão ser capazes de criar relatórios de orçamento em comparação a reais. Este artigo explica a configuração mínima necessária para criar orçamentos no Finance and Operations ou carregá-los no programa de um terceiro."
+title: Visão geral de orçamento
+description: Quase todas as empresas que usam a funcionalidade Finanças no Microsoft Dynamics 365 for Finance and Operations precisarão ser capazes de criar relatórios de orçamento versus valores reais. Este artigo explica a configuração mínima necessária para criar orçamentos no Finance and Operations ou carregá-los no programa de um terceiro.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 01b7970119b9abb26570c19162e159dd05496168
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1d768ee6d2244a237972f7183f27a60b93eea819
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332302"
 ---
-
 # <a name="budgeting-overview"></a>Visão geral de orçamento 
 
 [!include [banner](../includes/banner.md)]
 
-Quase todas as companhias que usam a funcionalidade Finanças no Microsoft Dynamics 365 for Finance and Operations precisarão ser capazes de criar relatórios de orçamento em comparação a reais. Este artigo explica a configuração mínima necessária para criar orçamentos no Finance and Operations ou carregá-los no programa de um terceiro.
+Quase todas as empresas que usam a funcionalidade Finanças no Microsoft Dynamics 365 for Finance and Operations precisarão ser capazes de criar relatórios de orçamento versus valores reais. Este artigo explica a configuração mínima necessária para criar orçamentos no Finance and Operations ou carregá-los no programa de um terceiro.
 
 <a name="overview"></a>Visão Geral
 --------
@@ -80,7 +79,6 @@ O gerente de orçamento pode analisar o estado atual de um orçamento no espaço
 A página de consulta **Valor real versus orçamento** permite analisar nos detalhes do orçamento versus valores reais. Selecione uma linha na página de consulta e clique em **Saldos do período** para ver o orçamento e os valores reais em períodos fiscais. A página **Entradas de conta de orçamento** oferece uma análise dos detalhes do valor de orçamento em entradas de registro de orçamento. A página **Entradas de diário geral** abre as transações do razão que estão incluídas no valor calculado **Valores reais**. 
 
 Uma empresa que está usando a funcionalidade de planejamento de orçamento pode criar e usar *previsões de orçamento* no espaço de trabalho **Orçamentos e previsões do razão**.
-
 
 
 

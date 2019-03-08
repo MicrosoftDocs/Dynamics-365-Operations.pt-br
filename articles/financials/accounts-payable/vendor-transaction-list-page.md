@@ -1,13 +1,13 @@
 ---
-title: "Página da lista de transações de fornecedor"
-description: "Este tópico fornece informações sobre a página de listagem Transações de fornecedor para o Microsoft Dynamics 365 for Finance and Operations."
+title: Página da lista de transações de fornecedor
+description: Este tópico fornece informações sobre a página Lista de transações de fornecedor para o Microsoft Dynamics 365 for Finance and Operations.
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
+ms.dyn365.ops.version: 8.0999999999999996
+ms.openlocfilehash: 99a169bd51e14f15c085f7547ec240b2787258cc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
-ms.openlocfilehash: 45033b8b015d468b7ee0f6c3fba5e6fb6201433e
-ms.contentlocale: pt-br
-ms.lasthandoff: 10/12/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341732"
 ---
-
 # <a name="vendor-transactions-list-page"></a>Página da lista de transações de fornecedor
 
 [!include [banner](../includes/banner.md)]
@@ -40,10 +39,10 @@ O botão **Exibir liquidações** no Painel de Ação fornece acesso rápido ao 
 
 4. Na caixa de diálogo, você pode executar várias tarefas. Selecione um ou mais comprovantes e, em seguida, selecione um dos seguintes botões:
 
-    - **Exibir relacionado** – Mostra todas as transações do diário de pagamento criadas no diário de pagamento relacionado ao documento selecionado. Além disso, todas as liquidações relacionadas a esses pagamentos são exibidas. Quando você exibe os pagamentos relacionados, o rótulo desse botão é alterado para **Exibir liquidações**. Selecione **Exibir liquidações** para mostrar apenas as transações que foram exibidas quando você abriu a caixa de diálogo **Exibir liquidações**.
+    - **Exibição relacionada** – Mostrar todas as transações de diário de pagamento e transações de diário geral do fornecedor que foram criadas em diários nos quais os documentos exibidos na lista foram criados. Por exemplo, se um pagamento for mostrado, serão mostrados todos os pagamentos no diário de pagamento no qual ele foi criado. Se uma nota fiscal ou um pagamento forem mostrados e se eles foram criados em um diário geral, serão mostrados todos os documentos no diário geral em que eles foram criados. Todas as liquidações relacionadas à lista de documentos também são exibidas. Quando você exibe os pagamentos relacionados, o rótulo desse botão é alterado para **Exibir liquidações**. Selecione **Exibir liquidações** para mostrar apenas as transações que foram exibidas quando você abriu a caixa de diálogo **Exibir liquidações**.
     - **Exibir histórico** – Exibe o histórico de liquidação dos comprovantes. Selecione **Fechar** para fechar a caixa de diálogo.
     - **Exibir contabilidade** – Mostra todos os comprovantes relacionados aos documentos selecionados. Selecione **Fechar** para fechar a caixa de diálogo.
-    - **Exportar** – Exportar os comprovantes selecionados para o Microsoft Excel.
+    - **Exportar** – exporte os comprovantes selecionados para o Microsoft Excel.
     - **Liquidar transações** – Este botão aparece somente se o documento original que foi selecionado não foi totalmente liquidado. Ao selecioná-lo, é exibida a caixa de diálogo **Liquidar transações**, na qual você pode selecionar transações para liquidação.
     - **Desfazer liquidações** – Este botão aparece somente se o documento original selecionado foi totalmente liquidado. Ao selecioná-lo, é exibida a caixa de diálogo **Desfazer liquidações**, na qual você pode desfazer as liquidações que foram feitas para esse documento.
 
@@ -98,4 +97,3 @@ Cada campo tem um efeito diferente na transação ao editá-lo:
 - **Editar as condições de desconto à vista** - os descontos à vista são alterados, com base na data base e nas condições de desconto à vista.
 
 Quando você terminar de editar as configurações de pagamento, selecione **Fechar** para salvar as alterações.
-

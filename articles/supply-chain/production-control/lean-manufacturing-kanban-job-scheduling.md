@@ -1,13 +1,13 @@
 ---
 title: Agendamento do trabalho kanban para lean manufacturing
-description: "Este artigo fornece informações sobre o controle visual sobre a programação de trabalhos kanban e várias formas agendar trabalhos kanban."
+description: Este artigo fornece informações sobre o controle visual sobre a programação de trabalhos kanban e várias formas agendar trabalhos kanban.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardScheduleJobForward, KanbanBoardShowJobs, KanbanJobSchedulingListPage
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 52e69ed130f28701e6e393327f9bd634eacd3b1f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5f1044e6731fd757532e34292109b9d81ca38719
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315926"
 ---
-
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Agendamento do trabalho kanban para lean manufacturing
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,7 @@ O planejamento pode ser disparado automaticamente se você definir o parâmetro 
 Este conceito permite a redução de tamanhos do kanban abaixo dos tamanhos reais do lote econômico. Por exemplo, o tamanho de lote econômico para um item específico (ou a família de itens) é 30. Em vez de criar os kanbans que usam a quantidade de produto 30, você pode configurar a regra kanban, de forma que ela tenha uma quantidade de produtos igual a 10 e um valor de **3** para **Quantidade de planejamento automático**. Embora o planejamento automático agende os trabalhos kanban para a célula de trabalho somente quando existem três trabalhos não planejados, é totalmente transparente para o planejador e o supervisor de chão de fábrica que dois trabalhos não planejados podem estar aguardando execução. O planejador ou gerente de chão de fábrica pode executar esses dois trabalhos na produção, planejando-os manualmente ou criando kanbans adicionais.
 
 ## <a name="manual-scheduling"></a>Agendamento manual
-Para o agendamento manual, o Microsoft Dynamics AX 2012 apresenta o quadro de agendamento kanban. O agendamento manual pode ser combinado com o agendamento automático. O quadro de agendamento kanban permite que você planeje e cancele o planejamento de trabalhos, mova-os em sequência ou mova-os de período para período. Os trabalhos se baseiam em uma regra kanban onde o valor de **Planejamento automático** é maior que **0** e pode ser definido manualmente como não planejado. No entanto, esses trabalhos serão replanejados quando o próximo evento de planejamento automático ocorrer (isto é, quando um novo kanban for criado). As seguintes opções estão disponíveis para o agendamento manual:
+Para agendamento manual, o Microsoft Dynamics AX 2012 apresentou o quadro de agendamento kanban. O agendamento manual pode ser combinado com o agendamento automático. O quadro de agendamento kanban permite que você planeje e cancele o planejamento de trabalhos, mova-os em sequência ou mova-os de período para período. Os trabalhos se baseiam em uma regra kanban onde o valor de **Planejamento automático** é maior que **0** e pode ser definido manualmente como não planejado. No entanto, esses trabalhos serão replanejados quando o próximo evento de planejamento automático ocorrer (isto é, quando um novo kanban for criado). As seguintes opções estão disponíveis para o agendamento manual:
 
 -   **Agenda** agenda os trabalhos selecionados de acordo com a data de vencimento. (Esta opção é semelhante ao planejamento automático.)
 -   **Agendar a partir da data** tenta agendar os trabalhos selecionados de acordo com a data de vencimento, mas restringe o resultado usando a data de início mais próxima especificada.
@@ -71,7 +70,6 @@ A página de listagem **Agendamento do trabalho kanban** contém um Quadro de Fa
 
 <a name="additional-resources"></a>Recursos adicionais
 --------
-
 
 
 

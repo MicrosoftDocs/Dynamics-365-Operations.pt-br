@@ -1,13 +1,13 @@
 ---
-title: "Visão geral da liquidação"
-description: "Este artigo oferece informações gerais sobre o processo de liquidação. Ele descreve os tipos de transações que podem ser liquidadas, quando e como as transações podem ser liquidadas e os resultados do processo de liquidação."
+title: Visão geral da liquidação
+description: Este artigo oferece informações gerais sobre o processo de liquidação. Ele descreve os tipos de transações que podem ser liquidadas, quando e como as transações podem ser liquidadas e os resultados do processo de liquidação.
 author: kweekley
 manager: AnnBe
 ms.date: 12/06/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -17,15 +17,14 @@ ms.assetid: 0968fa71-5984-415b-8689-759a0136d5d1
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 9b82c6afa2812344ff8200e227ee8c5f2451584f
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/06/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338282"
 ---
-
 # <a name="settlement-overview"></a>Visão geral da liquidação
 
 [!include [banner](../includes/banner.md)]
@@ -55,5 +54,4 @@ Se um pagamento [for menor do que o valor da fatura](../accounts-payable/vendor-
 
 ## <a name="additional-resources"></a>Recursos adicionais
 - [Liquidar pendências](settle-remainder.md)
-
 

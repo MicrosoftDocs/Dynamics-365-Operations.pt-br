@@ -1,13 +1,13 @@
 ---
-title: "Perguntas frequentes sobre transações relacionadas ao produto"
-description: "Este tópico descreve como gerenciar traduções para produtos, valores de dimensão de produto e atributos de produto."
+title: Perguntas frequentes sobre transações relacionadas ao produto
+description: Este tópico descreve como gerenciar traduções para produtos, valores de dimensão de produto e atributos de produto.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysTranslationDetail, SysTranslationLanguage, SysTranslationList
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Product information
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d124e2608f01878487bc8fc9af2e27d143c8ae9e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 87dfdf7085e185b3e0467088118838eb832546d7
-ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342859"
 ---
-
 # <a name="product-related-translations-faq"></a>Perguntas frequentes sobre transações relacionadas ao produto
 
 [!include [banner](../includes/banner.md)]
@@ -124,7 +123,6 @@ Para gerenciar traduções para valores em um grupo de valores de dimensão, sig
 
 ## <a name="when-can-translations-of-product-related-information-be-managed"></a>Quando as traduções de informações relacionadas ao produto podem ser gerenciadas?
 As traduções de informações relacionadas ao produto podem ser gerenciadas em qualquer ocasião. Quando as traduções são atualizadas para um valor de dimensão associado a um produto, as informações sobre o produto são atualizadas, independentemente de o produto ter ou não transações.
-
 
 
 

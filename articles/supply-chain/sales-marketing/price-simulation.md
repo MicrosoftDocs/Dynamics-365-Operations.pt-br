@@ -1,13 +1,13 @@
 ---
-title: "Simulação de preço"
-description: "Este artigo fornece informações sobre a simulação de preço para cotações. A simulação de preço ajuda a avaliar o efeito de deduções no preço de venda futuro durante o processo de cotação, para que você confirme a um preço específico."
+title: Simulação de preço
+description: Este artigo fornece informações sobre a simulação de preço para cotações. A simulação de preço ajuda a avaliar o efeito de deduções no preço de venda futuro durante o processo de cotação, para que você confirme a um preço específico.
 author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesQuotationPriceSimulation
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0369c1a4bbc893a86cf14bd59a2d28a7bbca15c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6df840de688975b9fa11b866361d88a730426bd0
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316524"
 ---
-
 # <a name="price-simulation"></a>Simulação de preço
 
 [!include [banner](../includes/banner.md)]
@@ -143,7 +142,6 @@ Você executa uma simulação de preços e aplica um desconto total de 10 por ce
 | Novo índice total de contribuição                      | \[(302,88 – 184,96) ÷ 302,88\] × 100    | 38,93%   |
 
 A simulação de preço afeta somente a linha na qual ela é aplicada e reduz o total dessa linha.
-
 
 
 

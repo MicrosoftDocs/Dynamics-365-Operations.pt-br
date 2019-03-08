@@ -1,13 +1,13 @@
---- 
-title: "Desativar uma versão de fluxo de produção"
-description: "Quando uma versão ativa de fluxo de produção não é mais necessária, ela pode ser desativada."
+---
+title: Desativar uma versão de fluxo de produção
+description: Quando uma versão ativa de fluxo de produção não é mais necessária, ela pode ser desativada.
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 091cafd02bd568323e586373fc8b0f983afee343
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 4a7eee6617e12d59a3d06207f5f6b58c93e28240
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340743"
 ---
 # <a name="deactivate-a-production-flow-version"></a>Desativar uma versão de fluxo de produção
 
@@ -45,5 +45,4 @@ Para este procedimento, é necessário um fluxo de produção com uma versão qu
 5. Clique em Desativar.
     * Não continue se não estiver totalmente certo de que esta versão do fluxo de produção esteja obsoleta. Clicar em OK expirará todas as regras kanban ativas e interromperá instantaneamente todas as atividades de produção e de reabastecimento desta versão de fluxo de produção.  
 6. Clique em OK.
-
 

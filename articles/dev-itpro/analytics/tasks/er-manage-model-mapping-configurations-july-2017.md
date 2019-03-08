@@ -1,13 +1,13 @@
---- 
-title: "Gerenciar o mapeamento do modelo de ER em configurações de ER separadas"
-description: "As etapas a seguir explicam como um usuário atribuído ao Administrador do sistema ou Desenvolvedor de relatório eletrônico pode gerenciar mapeamentos de modelo de Relatório eletrônico (RE) em configurações de ER separadas."
+---
+title: Gerenciar o mapeamento do modelo de ER em configurações de ER separadas
+description: As etapas a seguir explicam como um usuário atribuído ao Administrador do sistema ou Desenvolvedor de relatório eletrônico pode gerenciar mapeamentos de modelo de Relatório eletrônico (RE) em configurações de ER separadas.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 24ca4124d190df94e7ca9ac31c2ea757fe9ff242
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349138"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>Gerenciar o mapeamento do modelo de ER em configurações de ER separadas
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 08/09/2018
 
 As etapas a seguir explicam como um usuário atribuído ao Administrador do sistema ou Desenvolvedor de relatório eletrônico pode gerenciar mapeamentos de modelo de Relatório eletrônico (RE) em configurações de ER separadas. Nesta guia de tarefas, você criará as configurações de ER necessárias para a empresa exemplo, Litware, Inc. Para concluir este guia de tarefas, você deverá primeiramente concluir as etapas no guia de tarefas, "ER Criar um provedor configuração" e marcá-lo como ativo. 
 
-Como as configurações de ER são compartilhadas entre empresas, você pode concluir este guia de tarefas usando o conjunto de dados da empresa de sua escolha. A funcionalidade deste guia de tarefas está disponível se você tiver instalado um dos seguintes hotfixes: https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012872 para a versão 7.0 do Dynamics AX ou https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 para a versão Dynamics 365 for Operations.
+Como as configurações de ER são compartilhadas entre empresas, você pode concluir este guia de tarefas usando o conjunto de dados da empresa de sua escolha. A funcionalidade deste guia de tarefas estará disponível se você tiver instalado um dos seguintes hotfixes: https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012872 para a versão 7.0 do Dynamics AX ou https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 para a versão Dynamics 365 for Operations.
 
 1. Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.
     * Verifique se o provedor de configuração para a empresa exemplo Litware, Inc. está disponível e marcado como ativo. Se não visualizar este provedor de configuração, você deverá concluir primeiro as etapas na guia de tarefas, Criar um provedor de configuração e marcá-lo como ativo.   
@@ -70,7 +70,7 @@ Como as configurações de ER são compartilhadas entre empresas, você pode con
 6. Clique em Designer.
     * Observe que a configuração de mapeamento modelo criada contém um novo mapeamento em branco com o mesmo nome da configuração criada. Lembre-se que quando uma configuração de modelo pai selecionada contiver mapeamentos de modelo, eles serão copiados para uma configuração de mapeamento do novo modelo.   
 7. Clique em Designer.
-8. Na árvore, selecione "Dynamics 365 for Operations\Tabela".
+8. Na árvore, selecione 'Dynamics 365 for Operations\Tabela'.
 9. Clique em Adicionar raiz.
 10. No campo Nome, digite 'Empresa'.
     * Empresa  
@@ -123,7 +123,7 @@ Como as configurações de ER são compartilhadas entre empresas, você pode con
 5. Clique em Criar configuração.
 6. Clique em Designer.
 7. Clique em Designer.
-8. Na árvore, selecione "Dynamics 365 for Operations\Tabela".
+8. Na árvore, selecione 'Dynamics 365 for Operations\Tabela'.
 9. Clique em Adicionar raiz.
 10. No campo Nome, digite 'Empresa'.
     * Empresa  
@@ -161,5 +161,4 @@ Como as configurações de ER são compartilhadas entre empresas, você pode con
 6. Clique em Executar.
 7. Clique em OK.
     * Observe que a configuração de mapeamento de modelo padrão será usada por essa configuração de formato para gerar o documento eletrônico (a saída criada contêm o código da empresa).  
-
 

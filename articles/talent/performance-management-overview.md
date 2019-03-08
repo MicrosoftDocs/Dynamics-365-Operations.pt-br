@@ -1,13 +1,13 @@
 ---
 title: Gerenciamento de desempenho
-description: "O processo de gerenciamento de desempenho permite que os funcionários documentem e discutam seu desempenho com os gerentes. Por sua vez, os gerentes podem fornecer comentários e orientações aos funcionários."
+description: O processo de gerenciamento de desempenho permite que os funcionários documentem e discutam seu desempenho com os gerentes. Por sua vez, os gerentes podem fornecer comentários e orientações aos funcionários.
 author: mikefalkner
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 67da25514edc6b27f8478a7b317f6690720ab592
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: e7621b4c1358d1ecd6ff1c9ce2f1de08766a4bf6
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303206"
 ---
-
 # <a name="performance-management"></a>Gerenciamento de desempenho
 
 [!include [banner](includes/banner.md)]
@@ -56,9 +55,9 @@ Quando acessado por meio do espaço de trabalho **ESS**, a página do **diário 
 
 Você também pode vincular o diário de desempenho a um site externo armazenando a URL desse site. Se o diário estiver relacionado a metas ou revisões de desempenho, você também poderá vinculá-lo a uma ou mais delas. Quando o diário de desempenho é acessado da página **MSS**, é possível inserir as mesmas informações que podem ser inseridas no diário do funcionário. Além disso, você pode especificar o funcionário para o qual o diário está sendo criado. Você pode optar por compartilhar o diário do gerente com seu funcionário.
 
-### <a name="praise"></a>Elogio
+### <a name="send-feedback"></a>Enviar comentários
 
-O diário de desempenho contém um recurso adicional chamado Elogio. Ao clicar em **Enviar elogio**, você pode selecionar um funcionário e fornecer comentários a ele por email. A mensagem é enviada ao funcionário que está sendo elogiado, ao gerente desse funcionário, ao funcionário que está enviando o elogio e ao gerente desse funcionário. Uma entrada no diário de desempenho é criada para cada pessoa que recebe a mensagem de elogio.
+O diário de desempenho contém um recurso adicional chamado Comentário. Ao clicar em **Enviar comentário**, você pode selecionar um funcionário e fornecer comentários a ele por email. A mensagem é enviada ao funcionário que está recebendo o comentário, ao gerente desse funcionário, ao funcionário que está enviando o comentário e ao gerente desse funcionário. Uma entrada no diário de desempenho é criada para cada pessoa que recebe a mensagem do comentário.
 
 ## <a name="goals"></a>Metas
 A página **metas de desempenho** ajuda a monitorar as metas que você e seu gerente criaram para você. Você pode criar várias metas, e essas metas podem abranger períodos e revisões de desempenho diferentes. Você também pode criar metas simples ou complexas, dependendo da quantidade de informações que quiser inserir sobre a meta. As metas não são exigidas para as revisões de desempenho. 
@@ -151,7 +150,6 @@ Os tipos de origem do diário de desempenho descrevem de onde os diários de des
 ### <a name="review-types"></a>Tipos de revisão
 
 Os tipos de revisão de desempenho ajudam você a controlar o comportamento de uma revisão. Você pode habilitar ou desabilitar o fluxo de trabalho para uma revisão. Se a revisão não usar o fluxo de trabalho, você poderá definir o status padrão que será usado quando a revisão for criada. Também pode decidir se o funcionário, o gerente ou ambos são necessários para a aprovação da revisão.
-
 
 
 

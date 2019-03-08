@@ -1,13 +1,13 @@
---- 
-title: "Configuração de transferência de crédito ISO20022 de importação"
-description: "Este procedimento mostra como importar uma configuração de relatório eletrônico de pagamento de fornecedor."
+---
+title: Configuração de transferência de crédito ISO20022 de importação
+description: Este procedimento mostra como importar uma configuração de relatório eletrônico de pagamento de fornecedor.
 author: mrolecki
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3fbd2e39f488696ebe8db5579ed88595e246ce97
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 71c0175178203006e297466c4a37cd3e6319b6ea
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337339"
 ---
 # <a name="import-iso20022-credit-transfer-configuration"></a>Configuração de transferência de crédito ISO20022 de importação
 
@@ -31,7 +31,7 @@ Este procedimento mostra como importar uma configuração de relatório eletrôn
 
 Esta tarefa foi criada usando a empresa de dados de demonstração DEMF, mas você pode usar qualquer empresa de dados de demonstração para concluir a tarefa.
 
-Esta é a primeira de cinco tarefas que, juntas, ilustram o processo de pagamento de fornecedores usando as configurações de relatório eletrônico. Este procedimento é para um recurso que foi adicionado à versão 1611 do Dynamics 365 for Operations.
+Esta é a primeira de cinco tarefas que, juntas, ilustram o processo de pagamento de fornecedores usando as configurações de relatório eletrônico. Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynamics 365 for Operations.
 
 1. Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.
 2. Na lista de provedores de configuração disponíveis, selecione Microsoft.
@@ -44,5 +44,4 @@ Esta é a primeira de cinco tarefas que, juntas, ilustram o processo de pagament
 8. Clique em Importar.
     * Se o botão Importar não estiver disponível, significa que a configuração já foi importada.  
 9. Clique em Sim.
-
 

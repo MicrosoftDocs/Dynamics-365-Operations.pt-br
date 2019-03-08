@@ -1,13 +1,13 @@
---- 
-title: "Criar uma ordem de reabastecimento de consignação"
+---
+title: Criar uma ordem de reabastecimento de consignação
 description: Este procedimento mostra como criar uma ordem de reabastecimento de remessa que possa acompanhar a entrega esperada de um fornecedor no estoque de remessa.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple
 audience: Application User
 ms.reviewer: shylaw
@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9d3e33008d04ea8bb7d145c7b63cec23a4a45dd2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f7f8005ec9e723c94d53e6ab81f04ee388c83faa
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315489"
 ---
 # <a name="create-a-consignment-replenishment-order"></a>Criar uma ordem de reabastecimento de consignação
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimento mostra como criar uma ordem de reabastecimento de remessa que possa acompanhar a entrega esperada de um fornecedor no estoque de remessa. Também mostra como registrar o recebimento de produtos de modo que o estoque da remessa esteja registrado em um inventário disponível pertencido ao fornecedor. Esse procedimento seria feito normalmente por um profissional de compras. Você pode usar este guia na empresa USMF de dados de demonstração. Este procedimento é para um recurso que foi adicionado à versão 1611 do Dynamics 365 for Operations.
+Este procedimento mostra como criar uma ordem de reabastecimento de remessa que possa acompanhar a entrega esperada de um fornecedor no estoque de remessa. Também mostra como registrar o recebimento de produtos de modo que o estoque da remessa esteja registrado em um inventário disponível pertencido ao fornecedor. Esse procedimento seria feito normalmente por um profissional de compras. Você pode usar este guia na empresa USMF de dados de demonstração. Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynamics 365 for Operations.
 
 
 
@@ -71,5 +71,4 @@ Este procedimento mostra como criar uma ordem de reabastecimento de remessa que 
     * Os itens recebidos como o estoque de remessa possuído por fornecedor disponíveis disponível. A quantidade pendente na ordem de reabastecimento de remessa é mostrada no campo total de Solicitado.  
 4. Feche a página.
 5. Clique em Fechar.
-
 

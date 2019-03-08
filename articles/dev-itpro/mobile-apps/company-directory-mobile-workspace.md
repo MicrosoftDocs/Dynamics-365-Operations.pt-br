@@ -1,13 +1,13 @@
 ---
-title: "Espaço de trabalho móvel do diretório da empresa"
-description: "Este tópico fornece informações sobre o espaço de trabalho móvel do diretório da empresa, que permite exibir e contatar outros funcionários em sua organização."
+title: Espaço de trabalho móvel do diretório da empresa
+description: Este tópico fornece informações sobre o espaço de trabalho móvel do diretório da empresa, que permite exibir e contatar outros funcionários em sua organização.
 author: jcart1106
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
 ms.openlocfilehash: 527d40452bcf52875e3f7b04d328110147417072
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/29/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308612"
 ---
-
 # <a name="company-directory-mobile-workspace"></a>Espaço de trabalho móvel do diretório da empresa
 
 [!include [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre a área de trabalho móvel **diretório da empresa**. Este espaço de trabalho permite que os usuários exibam e entrem em contato com outros funcionários em sua organização.
 
-Este espaço de trabalho móvel pode ser usado com o Microsoft Dynamics 365 do aplicativo móvel Operações Unificadas.
+Este espaço de trabalho móvel pode ser usado com o Microsoft Dynamics 365 para o app Unified Operations Mobile.
 
 ## <a name="overview"></a>Visão Geral
 O espaço de trabalho móvel **Diretório da empresa** permite que os usuários executem estas tarefas:
@@ -58,7 +57,7 @@ Antes de usar este espaço de trabalho móvel, os seguintes pré-requisitos deve
 </ul>
 </td>
 <td>Administrador do sistema</td>
-<td>Se você não tiver o Finance and Operations implantado em sua organização, consulte <a href="../deployment/deploy-demo-environment.md">Implantar um ambiente de demonstração</a>. Se você ainda não tiver o Talent implantado em sua organização, o administrador do sistema poderá acessar uma versão de avaliação na <a href="https://www.microsoft.com/en-us/dynamics365/talent">página da Web do Talent</a>.
+<td>Se o Finance and Operations ainda não está implantado na organização, consulte <a href="../deployment/deploy-demo-environment.md">Implantar um ambiente de demonstração</a>. Se o Talent ainda não está implantado na organização, o administrador do sistema pode acessar uma versão de avaliação na <a href="https://www.microsoft.com/en-us/dynamics365/talent">página da Web do Talent</a>.
 </td>
 </tr>
 <tr class="even">
@@ -77,7 +76,7 @@ Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
 
 ## <a name="sign-in-to-the-mobile-app"></a>Entrar no aplicativo móvel
 1.  Inicie o aplicativo móvel no seu dispositivo.
-2.  Insira sua URL do Microsoft Dynamics 365.
+2.  Insira a URL do Microsoft Dynamics 365.
 3.  Na primeira vez que você iniciar a sessão, será solicitado o nome de usuário e a senha. Insira suas credenciais.
 4.  Depois de entrar, serão exibidos os espaços de trabalho disponíveis da sua empresa. Observe que se o seu administrador de sistema publica um novo espaço de de trabalho depois, você terá que atualizar a lista dos espaços de trabalho móveis.
 
@@ -91,4 +90,3 @@ Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
 1.  No aplicativo móvel, selecione o espaço de trabalho **Diretório da empresa**.
 2.  No campo **Pesquisar**, insira nome, sobrenome, título ou departamento de um funcionário para iniciar a pesquisa.
 3.  Selecione um funcionário. A página **Perfil do funcionário** será exibida. Informações nesta página incluem nome, sobrenome, título e o departamento do funcionário.
-

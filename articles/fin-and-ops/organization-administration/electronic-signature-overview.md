@@ -1,13 +1,13 @@
 ---
-title: "Assinaturas eletrônicas"
-description: "Este artigo oferece uma visão geral de assinaturas eletrônicas e descreve como elas podem ser usadas no Microsoft Dynamics 365 for Finance and Operations."
+title: Assinaturas eletrônicas
+description: Este artigo oferece uma visão geral das assinaturas eletrônicas e descreve como usá-las no Microsoft Dynamics 365 for Finance and Operations.
 author: maertenm
 manager: AnnBe
 ms.date: 08/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SIGParameters, SIGProcSetup, SIGReasonCode
 audience: Application User
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 676510ef503d51d914ba762e7ac15e2c4811c6ba
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325655"
 ---
-
 # <a name="electronic-signatures"></a>Assinaturas eletrônicas
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo oferece uma visão geral de assinaturas eletrônicas e descreve como elas podem ser usadas no Microsoft Dynamics 365 for Finance and Operations.
+Este artigo oferece uma visão geral das assinaturas eletrônicas e descreve como usá-las no Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="what-is-an-electronic-signature"></a>O que é uma assinatura eletrônica?
 
@@ -111,4 +110,3 @@ Para designar aprovadores, siga estas etapas.
 1. Na página **Opções**, na guia **Contas**, clique em **Designar aprovação**.
 2. No campo **ID de usuário aprovador**, selecione a ID do usuário que deve assinar as alterações de outro usuário.
 3. No campo **Atribuir para ID de usuário**, selecione a ID do usuário cujas alterações devem ser assinadas.
-

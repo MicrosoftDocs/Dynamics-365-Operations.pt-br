@@ -1,13 +1,13 @@
 ---
-title: "Registro para execução de fabricação"
-description: "Este tópico descreve termos e conceitos importantes que você precisará compreender para configurar e usar a execução de fabricação."
+title: Registro para execução de fabricação
+description: Este tópico descreve termos e conceitos importantes que você precisará compreender para configurar e usar a execução de fabricação.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgRegistration
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1bbcd7ebea869f921c2eadd05e64509ff9246aa4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e5d4ee2fb1cd58107043939c3721fd857909f16b
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318157"
 ---
-
 # <a name="registration-for-manufacturing-execution"></a>Registro para execução de fabricação
 
 [!include [banner](../includes/banner.md)]
@@ -59,7 +58,6 @@ Os trabalhadores podem fazer vários tipos de registros na execução de fabrica
 -   **Registrar interrupções** (disponível com Horário e presença) – durante o dia de trabalho, os trabalhadores pode registrar que estão saindo da estação de trabalho para fazer uma interrupção. Vários tipos de interrupções podem ser configurados. Quando um trabalhador retorna e faz logon novamente, o sistema registra que o trabalhador voltou e o registro de interrupção é encerrado.
 -   **Registrar atividades indiretas** (disponível com Horário e presença) – as atividades indiretas são atividades não produtivas em que os trabalhadores podem se envolver durante um dia de trabalho, como uma reunião de departamento, uma reunião de equipe ou um trabalho de manutenção executado no chão de fábrica. Os trabalhadores podem fazer registros em atividades indiretas configuradas.
 -   **Registrar hora extra** (disponível com Horário e presença) – os trabalhadores que tiveram de trabalhar mais horas podem selecionar se as horas extras deverão ser registradas como horário flexível ou como horas extras.
-
 
 
 

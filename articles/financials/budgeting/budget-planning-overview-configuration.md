@@ -1,13 +1,13 @@
 ---
-title: "Visão geral do planejamento de orçamento"
-description: "Este artigo apresenta planejamento de orçamento e contém informações para ajudar a configurar o planejamento de orçamento e a definir os processos de planejamento de orçamento."
+title: Visão geral do planejamento de orçamento
+description: Este artigo apresenta planejamento de orçamento e contém informações para ajudar a configurar o planejamento de orçamento e a definir os processos de planejamento de orçamento.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8a262b5200c8071bec78ff6d3ed7976d4b2057ea
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b008e70c7d834c6aacad7aef4987e60b12ed8a6d
-ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329910"
 ---
-
 # <a name="budget-planning-overview"></a>Visão geral do planejamento de orçamento
 
 [!include [banner](../includes/banner.md)]
@@ -37,7 +36,7 @@ Este artigo apresenta planejamento de orçamento e contém informações para aj
 
 Você realizará o planejamento do orçamento ao preparar os orçamentos que serão implementados por uma organização. Uma organização pode configurar o planejamento de orçamento e, em seguida, definir os processos de planejamento de orçamento para atender às políticas, procedimentos e aos requisitos para preparação do orçamento. 
 
-Quando você compreende os conceitos e a terminologia usados no Microsoft Dynamics 365 for Finance and Operations, será mais fácil implementar o plano de orçamento na sua organização.
+Quando você compreender os conceitos e a terminologia usados no Microsoft Dynamics 365 for Finance and Operations, será mais fácil implementar o planejamento de orçamento na organização.
 
 ### <a name="key-terms"></a>Condições principais
 
@@ -58,7 +57,7 @@ Você pode usar o planejamento de orçamento para realizar estas tarefas:
 -   Em seguida, Encaminhe os planos do orçamento, com planilhas, documentos de justificativa e outros anexos, para revisão e aprovação.
 -   Consolidar vários planos de orçamento de um nível mais baixo da organização em um único plano de orçamento pai em um nível mais alto da organização. Também é possível desenvolver um único plano de orçamento em um nível mais alto da organização e alocar o orçamento para os níveis mais baixos da organização.
 
-O planejamento de orçamento é integrado a outros módulos do Microsoft Dynamics 365 for Finance and Operations. Consequentemente, você poderá exibir as informações de orçamento anteriores, despesa atuais, ativos fixos e recursos humanos. Como o plano do orçamento também é integrado ao Microsoft Excel e ao Microsoft Word, é possível usar esses programas para trabalhar com os dados do planejamento do orçamento. Por exemplo, um gerente de orçamento pode importar a solicitação de orçamento de um cenário do plano de orçamento na planilha do Excel. Os dados podem ser analisados, atualizados e representados em gráfico na planilha e, em seguida, publicados de volta nas linhas do plano de orçamento.
+O planejamento de orçamento é integrado a outros módulos do Microsoft Dynamics 365 for Finance and Operations. Consequentemente, você poderá exibir as informações de orçamento anteriores, despesa atuais, ativos fixos e recursos humanos. Como o planejamento de orçamento também é integrado ao Microsoft Excel e ao Microsoft Word, você pode usar esses programas para trabalhar com os dados pertinentes. Por exemplo, um gerente de orçamento pode importar a solicitação de orçamento de um cenário do plano de orçamento na planilha do Excel. Os dados podem ser analisados, atualizados e representados em gráfico na planilha e, em seguida, publicados de volta nas linhas do plano de orçamento.
 
 ## <a name="configuring-budget-planning"></a>Configurando o planejamento de orçamento
 A página **Configuração do planejamento do orçamento** contém a maioria das configurações exigidas para configurar um plano de orçamento. As seções a seguir descrevem alguns fatores que devem ser considerados ao configurar o planejamento do orçamento. Depois de concluir a configuração, configure os processos do plano do orçamento.
@@ -188,7 +187,6 @@ No menu **Ações**, você também pode criar um novo processo ao copiar um proc
 Outro comando útil no menu **Ações** é **Visualizar processo do orçamento**. Este comando exibe graficamente os planos de orçamento em um processo, junto com os dados relevantes, como o status do fluxo de trabalho de planos, resumos pelo valor e por unidade, e navegação de único clique para os planos do orçamento.
 
 [![Status de processo de planejamento de orçamento](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
-
 
 
 

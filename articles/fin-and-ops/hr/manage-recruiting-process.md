@@ -1,13 +1,13 @@
 ---
 title: Gerenciar processos de recrutamento
-description: "Este artigo descreve um conceito que os recrutadores podem usar para controlar as etapas do processo de recrutamento, incluindo os esforços para anunciar posições em aberto e para recrutar candidatos, rastrear informações sobre o candidato e sobre a solicitação de emprego, entrevistar candidatos e selecionar um ou mais candidatos para preencher as vagas em sua organização."
+description: Este artigo descreve um conceito que os recrutadores podem usar para controlar as etapas do processo de recrutamento, incluindo os esforços para anunciar posições em aberto e para recrutar candidatos, rastrear informações sobre o candidato e sobre a solicitação de emprego, entrevistar candidatos e selecionar um ou mais candidatos para preencher as vagas em sua organização.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMApplication, HRMRecruitingTable
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 9695a7a3f98220f48627e85a51bc6dae5adb35c2
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345665"
 ---
-
 # <a name="manage-recruiting-processes"></a>Gerenciar processos de recrutamento
 
 [!include [banner](../includes/banner.md)]
@@ -105,4 +104,3 @@ As **Entrevistas de candidatos** podem ser agendadas na página **Solicitações
 ## <a name="hiring-applicants"></a>Candidatos de contratação
 
 Use a página **Solicitações de emprego** para contratar um candidato. Quando você contratar um candidato, o registro de solicitação de emprego terá o status **Empregado** e o registro pessoal no catálogo de endereços global do candidato será associado ao registro do novo trabalhador. As alterações nas informações do catálogo de endereços global para o registro de novos funcionários também são exibidos no registro do candidato. Isso pode ajudar a reduzir a entrada de dados se o novo trabalhador se candidatar a um trabalho diferente dentro de sua empresa. Para contratar um trabalhador existente em uma nova posição, clique em **Alterar posição** na lista suspensa **Status da solicitação de emprego** para iniciar o processo de transferência.
-

@@ -1,32 +1,31 @@
 ---
-title: "Página inicial de gerenciamento de custos"
-description: "O gerenciamento de custos permite que você lide com a avaliação e a contabilidade de materiais não processados, bens não concluídos, bens concluídos e ativos em progresso."
+title: Página inicial de gerenciamento de custos
+description: O gerenciamento de custos permite que você lide com a avaliação e a contabilidade de materiais não processados, bens não concluídos, bens concluídos e ativos em progresso.
 author: AndersGirke
 manager: AnnBe
 ms.date: 04/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fd94ae4c5ea855139fd1c41060de7db455ffab06
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
-ms.openlocfilehash: b1513e5a7cb3a19fd3743a5aac8efd211aa02ce8
-ms.contentlocale: pt-br
-ms.lasthandoff: 02/21/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333935"
 ---
-
 # <a name="cost-management-home-page"></a>Página inicial de gerenciamento de custos
 
 [!include [banner](../includes/banner.md)]
@@ -46,13 +45,13 @@ Você pode acessar a Contabilidade de estoque e a Contabilidade de fabricação 
 
 A Contabilidade de fabricação permite que você lide com [Custos de ordem de produção](production-order-cost-analysis.md) em ordens de produção e de lote, assim como [Custos de fluxo inverso](backflush-costing.md) em lean manufacturing.
 
-O [conteúdo do Power BI Gerenciamento de custo](../../dev-itpro/analytics/cost-management-content-pack.md) fornece uma visão administrativa sobre o estoque e estoque WIP (work-in-progress, trabalho em progresso) e como o custo flui por meio deles por categoria com o passar do tempo. As informações também podem ser usadas como um suplemento detalhado para o demonstrativo financeiro.
+O conteúdo de [Gerenciamento de custos do Power BI](../../dev-itpro/analytics/cost-management-content-pack.md) mostra uma visão administrativa sobre o estoque e o estoque WIP (trabalho em andamento) e como é o fluxo de custos por categoria ao longo do tempo. As informações também podem ser usadas como um suplemento detalhado para o demonstrativo financeiro.
 
 ### <a name="additional-resources"></a>Recursos adicionais
 
 #### <a name="whats-new-and-in-development"></a>Novidades e o que está em desenvolvimento
 
-Visite o [Roteiro do Microsoft Dynamics 365](https://roadmap.dynamics.com/) para conferir os novos recursos que foram liberados e os novos recursos em desenvolvimento. 
+Visite o [Roteiro do Microsoft Dynamics 365](https://roadmap.dynamics.com/) para conferir os novos recursos que foram lançados e os novos recursos em desenvolvimento. 
 
 #### <a name="white-paper"></a>White paper
 [Cálculo de BOM usando uma folha de custos](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet) descreve como definir uma folha de contabilidade que inclua material e fabricação, e como a configuração afeta os resultados de cálculo do BOM. Para explicar de uma melhor forma os tópicos, ele fornece cenários concretos e dados que demonstram o efeito de várias definições e configurações. Nós não esperamos que você siga todos esses cenários, porque este documento não fornece detalhes o suficiente para configurá-los. No entanto, se você tiver o conhecimento básico, poderá tentar executar as guias de tarefa listadas abaixo na ordem em que elas aparecem. Use o conhecimento obtido com a leitura desse documento para realizar a análise de cálculo de bom. 
@@ -67,9 +66,8 @@ Visite o [Roteiro do Microsoft Dynamics 365](https://roadmap.dynamics.com/) para
 
 
 #### <a name="blogs"></a>Blogs
-Você encontra opiniões, notícias e outras informações sobre Gerenciamento de custo no [Blog da equipe de P&D de fabricação do Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) e no [Blog da equipe de P&D de Gerenciamento da Cadeia de Fornecedores no Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). Embora algumas dessas postagens tenham sido escritas para a versão anterior de Gerenciamento de custo, os mesmos conceitos ainda se aplicam, e os procedimentos também são semelhantes na versão atual.
+Você encontra opiniões, notícias e outras informações sobre gerenciamento de custos no [blog da equipe de P&D de Manufacturing do Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) e no [blog da equipe de P&D de Supply Chain Management do Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). Embora algumas dessas postagens tenham sido escritas para a versão anterior de Gerenciamento de custo, os mesmos conceitos ainda se aplicam, e os procedimentos também são semelhantes na versão atual.
 
 #### <a name="task-guides"></a>Guias de tarefas
 Há ajuda adicional disponível como guias de tarefas dentro do Finance and Operations. Para acessar os guias de tarefas, clique no botão Ajuda em qualquer página.
-
 

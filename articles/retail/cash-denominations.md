@@ -1,13 +1,13 @@
 ---
-title: "Configurar denominações de pagamento à vista para o PDV (ponto de venda)"
-description: "Denominações de pagamento à vista para moedas e notas podem ser definidas no back office que será usado pelos caixas, vendedores e gerentes da loja no PDV."
+title: Configurar denominações de pagamento à vista para o PDV (ponto de venda)
+description: Denominações de pagamento à vista para moedas e notas podem ser definidas no back office que será usado pelos caixas, vendedores e gerentes da loja no PDV.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreCashDeclarationTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 24775044e5a502a5615392a6a8c4030bdfafb0ab
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343503"
 ---
-
 # <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>Configurar denominações de pagamento à vista para o PDV (ponto de venda)
 
 [!include [banner](includes/banner.md)]
@@ -53,4 +52,3 @@ Ao pagar em dinheiro no PDV, o usuário pode usar as denominações de nota para
 
 - **Maior ou igual ao valor devido** – Por padrão, o PDV só mostrará as denominações de notas maiores do que o valor devido, permitindo o pagamento com um toque. Por exemplo, se o valor devido fosse de US$ 7,50, o PDV mostraria as seguintes denominações: US$ 10, US$ 20, US$ 50 e US$ 100. Ao tocar em qualquer um desses valores, o pagamento será feito automaticamente para esse valor. As notas de US$ 1 e US$ 5 não são mostradas, pois esses valores são menores que o valor devido.
 - **Todas as denominações** – Selecione esta opção para sempre mostrar todas as denominações de notas em PDV, seja qual for o valor devido. Isso significa que o usuário poderá usar uma combinação de notas para atingir o valor devido. Por exemplo, se o valor devido for US$ 25,00, o usuário poderá usar notas de US$ 20 e US$ 5 para concluir a venda.
-

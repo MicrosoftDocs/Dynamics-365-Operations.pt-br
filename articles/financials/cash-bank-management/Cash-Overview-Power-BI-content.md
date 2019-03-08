@@ -1,13 +1,13 @@
 ---
-title: "Visão geral do conteúdo de caixa do Power BI"
-description: "Este tópico descreve a visão geral do conteúdo de caixa do Power BI. Ele explica como acessar os relatórios incluídos no conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar o conteúdo."
+title: Conteúdo de visão geral do caixa do Power BI
+description: Este tópico descreve o conteúdo de Visão geral do caixa do Power BI. Ele explica como acessar os relatórios incluídos no conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar o conteúdo.
 author: saraschi2
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: sericks
@@ -16,34 +16,33 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 5dccb5c5c6c336607603dfc7a935c039e5ac4aa5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 5d02a009ca988f91a212e467d4f9784248bbae76
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/19/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318640"
 ---
-
-# <a name="cash-overview-power-bi-content"></a>Visão geral do conteúdo de caixa do Power BI
+# <a name="cash-overview-power-bi-content"></a>Conteúdo de visão geral do caixa do Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o conteúdo da **Visão geral de caixa** do Microsoft Power BI. Ele explica como acessar os relatórios incluídos no conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar o conteúdo.
+Este tópico descreve o conteúdo de **Visão geral do caixa** do Microsoft Power BI. Ele explica como acessar os relatórios incluídos no conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar o conteúdo.
 
 ## <a name="overview"></a>Visão Geral
 
-O conteúdo **Visão geral do caixa** do Power BI foi criado para pessoas que são responsáveis por dinheiro em sua organização. O conteúdo **Visão geral do caixa** do Power BI fornece visibilidade para seu fluxo de caixa. Também fornece as previsões que podem ajudá-lo a tomar as melhores decisões e melhorar a integridade de seu fluxo de caixa. Você pode analisar o caixa por entidade legal, por moeda e por conta bancária para obter melhor o conhecimento de pontos fracos ou deficiências.
+O conteúdo de **Visão geral do caixa** do Power BI foi criado para as pessoas que são responsáveis pelo dinheiro em suas organizações. O conteúdo de **Visão geral do caixa** do Power BI dá visibilidade ao fluxo de caixa. Também fornece as previsões que podem ajudá-lo a tomar as melhores decisões e melhorar a integridade de seu fluxo de caixa. Você pode analisar o caixa por entidade legal, por moeda e por conta bancária para obter melhor o conhecimento de pontos fracos ou deficiências.
 
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
 
-Relatórios do conteúdo do Power BI para **Visão geral do caixa** são exibidos nos espaços de trabalho **Visão geral do caixa** e **Gerenciamento bancário**.
+Relatórios do conteúdo de **Visão geral do caixa** do Power BI são exibidos nos espaços de trabalho **Visão geral do caixa** e **Gerenciamento bancário**.
 
 Para exibir os relatórios de previsão de fluxo de caixa com dados, primeiro é preciso executar o processo de cálculo de previsão usando a função **Calcular previsões de fluxo de caixa** na área Gerenciamento de caixa e bancos.  Isso precisa ser concluído para cada empresa incluída na previsão.  Depois, é preciso atualizar a medida agregada LedgerCovLiquidityMeasurement na página **Repositório de Entidades**.  
 
 Para fins de demonstração, você pode adicionar os dados de demonstração de previsão de fluxo de caixa usando a página **Gerar dados** no módulo Dados de demonstração.  Este script inserirá os dados nas tabelas de previsão de fluxo de caixa para que as informações necessárias aos relatórios sejam preenchidas rapidamente.  Este módulo só estará disponível se você tiver o modelo de conjunto Dados de demonstração implantado no ambiente. 
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Relatórios incluídos no conteúdo do Power BI
-A tabela a seguir fornece detalhes sobre as métricas encontradas em cada página de relatório no conteúdo **Visão geral de caixa** do Power BI.
+A tabela a seguir fornece detalhes sobre as métricas encontradas em cada página de relatório no conteúdo de **Visão geral do caixa** do Power BI.
 
 | Relatório                                | Conteúdo |
 |---------------------------------------|----------|
@@ -57,7 +56,7 @@ A tabela a seguir fornece detalhes sobre as métricas encontradas em cada págin
 
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
 
-A seguinte tabela mostra as entidades nas quais o conteúdo **Visão geral de caixa** do Power BI foi baseado.
+A próxima tabela mostra as entidades nas quais foi baseado o conteúdo de **Visão geral do caixa** do Power BI.
 
 | Entidade                                                                          | Conteúdo |
 |---------------------------------------------------------------------------------|----------|
@@ -68,6 +67,5 @@ A seguinte tabela mostra as entidades nas quais o conteúdo **Visão geral de ca
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | Entradas, saídas e saldo resumido usando cada moeda contábil da empresa |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | Entradas, saídas e saldo resumido usando a moeda do sistema de todas as empresas |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | Valor da transação e saldo de moeda líquida resumidos usando a moeda da transação |
-
 
 

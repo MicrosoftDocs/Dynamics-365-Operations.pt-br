@@ -1,13 +1,13 @@
---- 
+---
 title: Configurar categorias de conta principal
-description: "Categorias de conta principal são usadas para os relatórios padrão em relatórios financeiros e no Power BI."
+description: Categorias de conta principal são usadas para os relatórios padrão em relatórios financeiros e no Power BI.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: MainAccountCategory, MainAccountCategoryLink
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e46c7c86b93a3471ba10ec7ae6789f227bc9779c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 94e17d7cbcc8f826e806a8d4bc026a9d7844e910
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311441"
 ---
 # <a name="set-up-main-account-categories"></a>Configurar categorias de conta principal
 
@@ -44,5 +44,4 @@ Categorias de conta principal são usadas para os relatórios padrão em relató
 3. Marque ou desmarque a opção Vinculada para escolher as contas principais.
 4. Clique em OK.
 5. Clique em Sim.
-
 

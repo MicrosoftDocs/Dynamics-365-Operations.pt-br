@@ -1,13 +1,13 @@
---- 
+---
 title: Auditar faturas e dados-chave no sistema de AP
-description: "Ao receber uma fatura de um fornecedor para bens em uma ordem de compra, seus processos de negócios podem necessitar que os bens ou serviços sejam recebidos antes que a nota fiscal possa ser aprovada para pagamento."
+description: Ao receber uma fatura de um fornecedor para bens em uma ordem de compra, seus processos de negócios podem necessitar que os bens ou serviços sejam recebidos antes que a nota fiscal possa ser aprovada para pagamento.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog,  VendJournalMatch_PackingSlip, VendInvoiceMatchingDetails
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: cc995b474e86272b49629f97e1b4d4b4fb597b9d
 ms.openlocfilehash: 946076d682a10becdc2c4a8baff7f52de7893119
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331520"
 ---
 # <a name="audit-invoices-and-key-data-in-ap-system"></a>Auditar faturas e dados-chave no sistema de AP
 
@@ -61,5 +61,4 @@ Este procedimento usa a empresa de dados de demonstração USMF. A função gere
 8. Clique em **OK**.
 9. No Painel de Ação, clique em **Revisar**.
 10. Clique em **Detalhes da conciliação**.
-
 

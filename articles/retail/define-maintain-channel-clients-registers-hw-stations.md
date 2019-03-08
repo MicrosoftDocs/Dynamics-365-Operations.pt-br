@@ -1,13 +1,13 @@
 ---
-title: "Conectar periféricos ao ponto de venda (PDV)"
-description: "O tópico aborda como conectar periféricos ao seu Retail POS."
+title: Conectar periféricos ao ponto de venda (PDV)
+description: O tópico aborda como conectar periféricos ao seu Retail POS.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 544f109a4f46bd7511ee564902f627beddd29f15
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308773"
 ---
-
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Conectar periféricos ao ponto de venda (PDV)
 
 [!include [banner](includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 01/04/2019
 O tópico aborda como conectar periféricos ao seu Retail POS.
 
 > [!NOTE]
-> Para obter instruções específicas de instalação, consulte [Configuração e instalação da estação de hardware de varejo](retail-hardware-station-configuration-installation.md) e [Download/instalação de autoatendimento do Retail Modern POS e ativação de dispositivo do do Modern POS e do PDV em Nuvem](retail-modern-pos-device-activation.md).
+> Para obter instruções de instalação específicas, consulte [Configuração e instalação da estação de hardware de varejo](retail-hardware-station-configuration-installation.md) e [Download/instalação de autoatendimento do Retail Modern POS e ativação de dispositivo do Modern POS e do Cloud POS](retail-modern-pos-device-activation.md).
 
 ## <a name="key-components"></a>Componentes da chave
 
@@ -188,4 +187,3 @@ Informações adicionais relacionadas à ativação incluem o trabalhador que al
 ### <a name="client-data-synchronization"></a>Sincronização de dados do cliente
 
 Todas as alterações em um cliente de POS, exceto as alterações no status de ativação do dispositivo, devem ser sincronizadas no banco de dados do canal entrem em vigor. Para sincronizar as alterações feitas no banco de dados, navegue até **Varejo** &gt; **TI de Varejo** &gt; **Agenda de distribuição** e execute a agenda de distribuição necessária. Para alterações de cliente, você deve executar as agendas de distribuição "Registros" e "Configuração do canal".
-

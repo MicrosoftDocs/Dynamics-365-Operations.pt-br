@@ -1,13 +1,13 @@
 ---
 title: Antes de comprar
-description: "Diretrizes passo a passo a serem usadas quando você estiver considerando comprar o Dynamics 365 for Finance and Operations."
+description: Orientações passo a passo que você poderá usar quando estiver considerando a compra do Dynamics 365 for Finance and Operations.
 author: kfend
 manager: AnnBe
 ms.date: 01/04/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
 ms.search.scope: Core, Operations
@@ -16,23 +16,22 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.translationtype: HT
-ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
 ms.openlocfilehash: 7aed6895d526011e353eef7b85e4e2f096a25e5a
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345458"
 ---
-
-# <a name="before-you-buy"></a>Antes de comprar
+# <a name="before-you-buy"></a>​Antes de comprar​
 
 [!include [banner](../includes/banner.md)]
 
-Novo no Dynamics 365 for Finance and Operations? Reunimos diretrizes passo a passo adequadas para a avaliação do Finance and Operations ou para quando você estiver pronto para fazer uma compra.
+Novidade no Dynamics 365 for Finance and Operations Reunimos diretrizes passo a passo adequadas para a avaliação do Finance and Operations ou para quando você estiver pronto para fazer uma compra.
 
 ## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Etapa um: Teste gratuitamente o Finance and Operations por 30 dias
 
-Você pode testar o Dynamics 365 for Finance and Operations por 30 dias por meio de uma assinatura de email simples. A versão de avaliação do Finance and Operations inclui guias de tarefas de introdução que fornecem instruções passo a passo que permitem a exibição de cenários específicos em ação. O produto está disponível para os cenários de exploração e de exercícios, mas não pode ser personalizado. Dados de demonstração são incluídos para facilitar o uso do produto e tornar a experiência mais significativa. Um lembrete por email será enviado 3 dias antes da expiração da versão de avaliação. Obtenha detalhes em [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations).
+Você poderá experimentar o Dynamics 365 for Finance and Operations por 30 dias fazendo uma inscrição simples por e-mail. A versão de avaliação do Finance and Operations inclui guias de tarefas de introdução que fornecem instruções passo a passo que permitem a exibição de cenários específicos em ação. O produto está disponível para os cenários de exploração e de exercícios, mas não pode ser personalizado. Dados de demonstração são incluídos para facilitar o uso do produto e tornar a experiência mais significativa. Um lembrete por email será enviado 3 dias antes da expiração da versão de avaliação. Obtenha detalhes em [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Etapa dois: Escolher uma opção de implantação
 
@@ -41,12 +40,12 @@ Agora você pode implantar o Microsoft Dynamics 365 for Finance and Operations n
 As seguintes considerações devem ser executadas quando você escolhe locais como uma opção de implantação:
 
 - Necessidades regulatórias e de conformidade não estão disponíveis nas [certificações em nuvem](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities)
-- O processo de negócios desconectado com conectividade de internet intermitente necessário para acessar o Microsoft Dynamics Lifecycle Services (LCS) para o gerenciamento do ciclo de vida do aplicativo
+- Processo de negócios desconectado com conectividade de internet intermitente necessária para acessar o Microsoft Dynamics Lifecycle Services (LCS) para o gerenciamento do ciclo de vida do aplicativo
 - [Recursos não implementados atualmente em implantações locais](features-not-implemented-on-prem.md)
 - [Requisitos mínimos de infraestrutura](system-requirements-on-prem.md#minimum-infrastructure-requirements)
 
 > [!IMPORTANT]
-> As implantações locais do Microsoft Dynamics 365 for Finance and Operations não são suportadas em nenhuma infraestrutura de nuvem pública, incluindo o Azure.
+> Implantações locais do Microsoft Dynamics 365 for Finance and Operations não são suportadas em nenhuma infraestrutura de nuvem pública, incluindo o Azure.
 
 Para obter mais informações, consulte [Opções de implantação](../../dev-itpro/deployment/choose-deployment-type.md).
 
@@ -54,7 +53,7 @@ Para obter mais informações, consulte [Opções de implantação](../../dev-it
 
 Para explorar opções de subscrição, acesse a página de preços do [Dynamics 365](https://www.microsoft.com/dynamics365/pricing). Esta página inclui vários planos diferentes para atender às necessidades da sua organização.
 
-Há várias formas de adquirir uma subscrição do Dynamics 365 for Finance and Operations:
+Há várias maneiras de adquirir uma assinatura do Dynamics 365 for Finance and Operations:
 
 - Comprar por meio de um parceiro e usar licenciamento por volume (na nuvem ou localmente)
 - Comprar por meio de um provedor de soluções na nuvem (apenas na nuvem)
@@ -88,7 +87,7 @@ A Microsoft fornece suporte, serviços e recursos flexíveis líderes de setor q
 Mais informações:
 
 - [Suporte do Dynamics 365](https://www.microsoft.com/dynamics365/support)
-- [Guia de início rápido para os benefícios de suporte do serviço em nuvem no Microsoft Dynamics](http://go.microsoft.com/fwlink/?LinkId=530335) (PDF)
+- [Guia de início rápido para os benefícios de suporte do serviço em nuvem do Microsoft Dynamics](http://go.microsoft.com/fwlink/?LinkId=530335) (PDF)
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Etapa quatro: Saiba mais sobre o FastTrack e planeje sua implantação
 
@@ -96,5 +95,4 @@ O Microsoft FastTrack for Dynamics 365 é nosso serviço de cliente bem-sucedido
 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Se estiver atualizando do Dynamics AX 2012 ou migrando do AX 2009
 
-Se for um cliente que está atualizando do Microsoft Dynamics AX 2012 ou migrando do Microsoft Dynamics AX 2009, pode ser que você esteja qualificado para uma versão de avaliação mais longa. Entre em contato com <daxcf@microsoft.com> para obter mais informações.
-
+Se você é um cliente que está atualizando do Microsoft Dynamics AX 2012 ou migrando do Microsoft Dynamics AX 2009, pode estar qualificado para uma avaliação mais longa. Entre em contato com <daxcf@microsoft.com> para obter mais informações.

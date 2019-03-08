@@ -1,13 +1,13 @@
 ---
 title: Instalar o designer de layout do Retail POS (ponto de venda)
-description: "Você pode usar o designer de um clique para criar diferentes layouts de Retail Modern POS (MPOS) e PDV em Nuvem, no modo Paisagem ou modo Retrato, para lojas, registradoras, caixas e gerentes."
+description: Você pode usar o designer de um clique para criar diferentes layouts de Retail Modern POS (MPOS) e PDV em Nuvem, no modo Paisagem ou modo Retrato, para lojas, registradoras, caixas e gerentes.
 author: athinesh99
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 7fc5b48b71816b662f016f4a2d909526da0595f4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 4c647f49101dcbbe7dd1feac2dd9aad5c6dd5bcc
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327633"
 ---
-
 # <a name="install-the-retail-point-of-sale-pos-layout-designer"></a>Instalar o designer de layout do Retail POS (ponto de venda)
 
 [!include [banner](includes/banner.md)]
@@ -37,11 +36,11 @@ O design gráfico da interface do MPOS ou PDV em Nuvem é controlado pelo layout
 
 ## <a name="install-the-one-click-designer"></a>Instalar o designer de um clique
 
-1. No Microsoft Dynamics 365 for Retail, use o menu na parte superior esquerda para navegar para **Varejo** **e comércio** &gt; **Configuração de canal** &gt; **Configuração de PDV** &gt; **PDV** &gt; **Layouts de tela**.
+1. No Microsoft Dynamics 365 for Retail, use o menu na parte superior esquerda para navegar para o **Retail** **e comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **PDV** &gt; **Layouts de tela**.
 2. Selecione qualquer layout que tenha um tipo de aplicativo **Modern POS para Windows** ou **PDV em nuvem**, em seguida clique em **Designer do layout**.
 3. Na barra de notificação exibida na parte inferior da janela do Internet Explorer, clique em **Abrir** para instalar o designer de um clique. (A barra de notificação pode aparecer em um local diferente em outros navegadores).
 4. Na caixa de mensagem que aparece **Execução de Aplicativo - Aviso de Segurança**, clique em **Executar** para instalar o host designer varejista. O indicador de progresso mostra o progresso do processo de instalação.
-5. Depois que a instalação for concluída, na página **Entrar**, insira seu nome de usuário e senha do Microsoft Dynamics 365 for Retail, e clique em **Entrar** para iniciar o designer.
+5. Depois que a instalação for concluída, na página **Entrar**, insira seu nome de usuário e senha do Microsoft Dynamics 365 for Retail e clique em **Entrar** para iniciar o designer.
 6. Depois que suas credenciais forem validadas e o designer for iniciado, você poderá criar o seu próprio layout ou modificar o formato existente.
 
     [![Layout no designer de um clique](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
@@ -52,16 +51,15 @@ O design gráfico da interface do MPOS ou PDV em Nuvem é controlado pelo layout
 
     **Soluções:**
 
-    - Internet Explorer, verifique se o bloqueador de pop-ups está desabilitado para esse site. Clique em **Configurações** &gt; **Opções** &gt; **Privacidade** &gt; **Localizar bloqueador de pop-up** e altere a configuração se necessário.
-    - No Internet Explorer, adicione a URL do Dynamics 365 for Retail aos seus sites confiáveis. Clique em **Configurações** &gt; **Opções** &gt; **Segurança** &gt; **Sites confiáveis** &gt; **Sites** &gt; **Adicionar**.
+    - No Internet Explorer, verifique se o bloqueador de pop-ups está desabilitado para esse site. Clique em **Configurações** &gt; **Opções** &gt; **Privacidade** &gt; **Localizar bloqueador de pop-up** e altere a configuração se necessário.
+    - No Internet Explorer, adicionar a URL do Dynamics 365 for Retail para seus sites confiáveis. Clique em **Configurações** &gt; **Opções** &gt; **Segurança** &gt; **Sites confiáveis** &gt; **Sites** &gt; **Adicionar**.
 
 - O programa não é iniciado, e você é orientado a entrar em contato com o fornecedor.
 
-    **Solução:** No Internet Explorer, adicione a URL do Dynamics 365 for Retail aos seus sites confiáveis. Clique em **Configurações** &gt; **Opções** &gt; **Segurança** &gt; **Sites confiáveis** &gt; **Sites** &gt; **Adicionar**.
+    **Solução:** No Internet Explorer, adicione o URL do Dynamics 365 for Retail para seus sites confiáveis. Clique em **Configurações** &gt; **Opções** &gt; **Segurança** &gt; **Sites confiáveis** &gt; **Sites** &gt; **Adicionar**.
 
 **Problema conhecido:** O designer não funciona corretamente em navegadores Google Chrome e Mozilla Firefox. Estamos trabalhando para solucionar o problema.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Configurar, baixar, instalar e ativar o Retail Modern POS](retail-modern-pos-device-activation.md)
-

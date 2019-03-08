@@ -1,13 +1,13 @@
 ---
-title: "Processo de saída"
-description: "Este tópico fornece uma visão geral do processo de saída no gerenciamento de estoque."
+title: Processo de saída
+description: Este tópico fornece uma visão geral do processo de saída no gerenciamento de estoque.
 author: perlynne
 manager: AnnBe
 ms.date: 10/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WMSOrder, WMSShipment, MCRPickingWorkbench, WMSPickingRegistration, CustomFilterGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
+ms.openlocfilehash: 5ac3260f128acbc819d7207f68f17adb085da11c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: f2cae64263769b5168d2bb9614d6388b42e23b49
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334372"
 ---
-
 # <a name="outbound-process"></a>Processo de saída
 
 [!include [banner](../includes/banner.md)]
@@ -86,4 +85,3 @@ O estoque que ainda não foi reservado é reservado durante a geração da lista
 Assim que todas as linhas de separação forem separadas na página **Registro de lista de separação**, a remessa associada será concluída. O processo para guias de remessa de ordem de venda pode ser inicializado com base em estoque separado.
 
 [![Atualizar remessas de saída](./media/outbound-shipments.png)](./media/outbound-shipments.png)
-

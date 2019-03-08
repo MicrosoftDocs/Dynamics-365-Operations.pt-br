@@ -1,13 +1,13 @@
 ---
 title: Promessa de ordem
-description: "Este artigo oferece informações sobre promessas de ordem. As promessas de ordem ajudam você a prometer, com segurança, datas de entrega aos clientes e lhe fornece flexibilidade para que possa atender a essas datas."
+description: Este artigo oferece informações sobre promessas de ordem. As promessas de ordem ajudam você a prometer, com segurança, datas de entrega aos clientes e lhe fornece flexibilidade para que possa atender a essas datas.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesATP, SalesAvailableDlvDates
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ad70e94521fdb8c6d3f9a76a84aa9da5759fcf89
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 039bc5c572d204d9fa3e10a9f33cb4f4eb00b31c
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312338"
 ---
-
 # <a name="order-promising"></a>Promessa de ordem
 
 [!include [banner](../includes/banner.md)]
@@ -71,7 +70,6 @@ Crie uma linha de ordem de venda para o produto e insira **150** como quantidade
 Como o método de controle da data de entrega é ATP, os dados ATP são calculados para localizar a data de remessa mais próxima possível. Com base nas configurações, são consideradas ordem de compra e ordem de venda que estão atrasadas e a quantidade ATP resultante para a data atual é 0. Amanhã, quando a ordem de compra atrasada tiver que ser recebida, a quantidade ATP é calculada como mais de 0 (nesse caso, calculada como 125). Entretanto, em 10 dias, quando a ordem de compra adicional de 100 peças tiver que ser recebida, a quantidade ATP se tornará mais de 150.  
 
 Portanto, a data de remessa é definida para 10 dias, a contar de hoje, com base no cálculo ATP. Sendo assim, você informa ao cliente que a quantidade solicitada pode ser entregue em 10 dias, a contar de hoje.
-
 
 
 

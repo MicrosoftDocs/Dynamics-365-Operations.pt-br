@@ -1,13 +1,13 @@
---- 
+---
 title: Crie uma ordem de compra
 description: Este procedimento mostra como criar uma ordem de compra manualmente.
 author: FrankDahl
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventDimParmFixed, InventItemIdLookupPurchase, InventProductDimensionLookup, PurchTotals
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 50bf9927626a2a78a5f007b0b73d338585bbf9ab
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 27ed15e6d9a376c4203e5446d056f221bd3eb730
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330899"
 ---
 # <a name="create-a-purchase-order"></a>Crie uma ordem de compra
 
@@ -75,5 +75,4 @@ Este procedimento mostra como criar uma ordem de compra manualmente. É mais com
     * Esta caixa de diálogo mostra os totais da ordem inteira.  
     * O campo Seleção permite que você altere a base de como os totais são calculados. Por exemplo, você pode escolher a quantidade de recebimento de produtos para mostrar os totais relacionados à quantidade de produtos que foram recebidos, ou a quantidade encomendada para mostrar o valor dos produtos que foram encomendados.  
 2. Clique em OK.
-
 

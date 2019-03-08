@@ -1,37 +1,36 @@
 ---
-title: "Criar, aprovar e lançar trabalhos no Attract"
-description: "Este tópico descreve os elementos de um trabalho no Attract. Ele também explica como criar um trabalho."
+title: Criar, aprovar e lançar trabalhos no Attract
+description: Este tópico descreve os elementos de um trabalho no Attract. Ele também explica como criar um trabalho.
 author: josaw
 manager: AnnBe
 ms.date: 12/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 95031534c43dc0578e258bc3e5376c429d72b0ab
 ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/23/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303285"
 ---
-
 # <a name="create-approve-and-post-jobs-in-attract"></a>Criar, aprovar e lançar trabalhos no Attract
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve os elementos de um trabalho no Microsoft Dynamics 365 for Talent: Attract. Ele também explica como criar um trabalho.
+Este tópico descreve os elementos de um trabalho no Microsoft Dynamics 365 for Talent Attract. Ele também explica como criar um trabalho.
 
 ## <a name="job-creation"></a>Criação do trabalho
 
@@ -45,7 +44,7 @@ A guia **Detalhes do trabalho** contém detalhes sobre as responsabilidades e os
 
 Por padrão, o campo **Número de aberturas** é definido como **1**. No entanto, você pode alterar o valor. Quando uma oferta for preparada para um trabalho, o valor do campo **Número de aberturas disponíveis** será reduzido.
 
-Se o gerenciamento de cargos estiver ativado no Centro de administração, a pesquisa **Atualizar posições** estará disponível. Esta pesquisa lê a entidade JobPosition em Common Data Service para Aplicativos e retorna uma lista de posições que podem ser selecionadas para o trabalho. Se o número de posições selecionado exceder o número de posições abertas, você receberá um aviso. Você também receberá um aviso se uma posição for usada em vários trabalhos.
+Se o gerenciamento de cargos estiver ativado no Centro de administração, a pesquisa **Atualizar posições** estará disponível. Esta pesquisa lê a entidade JobPosition no Common Data Service para Aplicativos e retorna uma lista de cargos que podem ser selecionados para o trabalho. Se o número de posições selecionado exceder o número de posições abertas, você receberá um aviso. Você também receberá um aviso se uma posição for usada em vários trabalhos.
 
 > [!NOTE]
 > O gerenciamento de posições está disponível com o Complemento de Contratação Abrangente.
@@ -127,7 +126,7 @@ Após ser salvo, um trabalho pode ser enviado para aprovação. A tabela a segui
 
 Na lista de trabalhos, você pode filtrar o status dos trabalhos.
 
-As aprovações podem ser enviadas a qualquer usuário do Microsoft Azure Active Directory (Azure AD) na empresa. As aprovações são enviadas em paralelo a todas as pessoas listadas como aprovadores. Após um trabalho ser aprovado, ele poderá ser ativado.
+As aprovações podem ser enviadas para qualquer usuário do Microsoft Azure Active Directory (Azure AD) na empresa. As aprovações são enviadas em paralelo a todas as pessoas listadas como aprovadores. Após um trabalho ser aprovado, ele poderá ser ativado.
 
 As pessoas listadas como aprovadores receberão uma notificação no Attract para informá-las de que têm um item a ser aprovado. Um item de aprovação também aparecerá na seção **Atribuído a você** no painel. Após alguém aceitar ou aprovar um trabalho, a equipe de contratação receberá uma notificação. Finalmente, a equipe de contratação receberá uma notificação quando o trabalho for aprovado.
 
@@ -162,11 +161,10 @@ Siga estas etapas para criar um trabalho.
 11. Selecione **Salvar**.
 12. Se você optou por usar um processo de aprovação, siga estas etapas:
 
-    1. Selecione **+ Adicionar aprovador** e digite um usuário com uma conta do Azure AD. Você pode adicionar vários aprovadores.
+    1. Selecione **+ Adicionar aprovador** e insira um usuário que tem uma conta do Azure AD. Você pode adicionar vários aprovadores.
     2. Selecione **Enviar para aprovadores**.
 
     O campo **Status do trabalho** do trabalho é definido como **Pendente**. Depois que o campo **Status do trabalho** mudar para **Aprovado**, o trabalho poderá ser ativado.
 
 13. Para ativar o trabalho, selecione **Ativar**.
 14. Para lançar o trabalho, vá para **Lançamentos** e selecione **Lançar Agora** site do Talent Careers ou no LinkedIn.
-

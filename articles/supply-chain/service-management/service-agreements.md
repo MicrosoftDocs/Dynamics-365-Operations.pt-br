@@ -1,31 +1,30 @@
 ---
-title: "Contratos de serviço"
-description: "Os contratos de serviço permitem definir os recursos usados em uma típica visita de serviços e como esses recursos são faturados para o cliente."
+title: Contratos de serviço
+description: Os contratos de serviço permitem definir os recursos usados em uma típica visita de serviços e como esses recursos são faturados para o cliente.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/19/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c6425dcf1c89f625d997be0dd4a52aaecb6e6d65
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: bf9df2a31c758ba6b63ac7952e00065df04552dc
-ms.openlocfilehash: aaff0c1d71fcf2656d5d6e76a2bf4b7b3a699281
-ms.contentlocale: pt-br
-ms.lasthandoff: 02/19/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315029"
 ---
-
 # <a name="service-agreements"></a>Contratos de serviço
 
 [!include [banner](../includes/banner.md)]
@@ -80,4 +79,3 @@ Cada linha do contrato de serviço descreve em detalhes o conteúdo do trabalho 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Criar contratos de serviço](create-service-agreements.md)
-

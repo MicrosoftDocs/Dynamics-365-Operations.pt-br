@@ -1,13 +1,13 @@
---- 
-title: "Ativar uma versão de fluxo de produção"
-description: "Antes que os trabalhos de kanban possam ser criados e as atividades possam ser processadas para uma versão do fluxo da produção, você deve ativar a versão."
+---
+title: Ativar uma versão de fluxo de produção
+description: Antes que os trabalhos de kanban possam ser criados e as atividades possam ser processadas para uma versão do fluxo da produção, você deve ativar a versão.
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 909ed89cfd498f69ed99cd9642bbd9fab698dbb7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7f081d9d591c71cbe02e25bbdb50aa999b558ffa
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339087"
 ---
 # <a name="activate-a-production-flow-version"></a>Ativar uma versão de fluxo de produção
 
@@ -40,5 +40,4 @@ Antes que os trabalhos de kanban possam ser criados e as atividades possam ser p
     * Selecione uma versão do fluxo da produção que tenha o Esboço no campo Status do plano.  
 5. Clique em Ativar.
 6. Clique em OK.
-
 

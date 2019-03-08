@@ -1,13 +1,13 @@
---- 
-title: "Manter informações de ferimentos e doenças de funcionários"
-description: "É recomendável concluir a primeira guia de tarefas 'Configuração de lesões e doenças', pois algumas informações de configuração são usadas aqui."
+---
+title: Manter informações de ferimentos e doenças de funcionários
+description: É recomendável concluir a primeira guia de tarefas 'Configuração de lesões e doenças', pois algumas informações de configuração são usadas aqui.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMInjuryIncident, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 03d1e7f7b648e65cbe628aa4ff8b39dfa03ce96b
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332601"
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Manter informações de ferimentos e doenças de funcionários
 
@@ -92,5 +92,4 @@ Essa gravação de tarefa abrange as etapas básicas para criar um caso de ferim
     * Exemplo: O raio X confirma a fratura, usar tala  
 36. Clique em Salvar.
     * O status do caso pode ser atualizado a qualquer momento.  Defina o caso para em andamento, se o processamento do ferimento ou da doença estiver em andamento.  Depois que fechar o incidente, você só poderá adicionar ou remover custos, tratamentos ou arquivamentos relacionados ao incidente.  Para alterar outras informações, reabra o caso.  
-
 

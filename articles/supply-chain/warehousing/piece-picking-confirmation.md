@@ -1,13 +1,13 @@
 ---
-title: "Confirmação de separação de peças"
-description: "Este tópico descreve como configurar e aplicar a confirmação de separação de peças de um dispositivo móvel."
+title: Confirmação de separação de peças
+description: Este tópico descreve como configurar e aplicar a confirmação de separação de peças de um dispositivo móvel.
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFAutoConfirm, WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9b85414dd1385dc3d8c97632eaaeb252759590ff
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5ef9ab68c20ae095de03b0a0e05aa15ef5bf8a5d
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349621"
 ---
-
 # <a name="piece-picking-confirmation"></a>Confirmação de separação de peças
 
 [!include [banner](../includes/banner.md)]
@@ -51,5 +50,4 @@ As seguintes opções tornam-se disponíveis para seleção quando o tipo de tra
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Confirmação de separação de peças | Disponível para tipos de trabalho de separação e contagem. A confirmação de produto é selecionada automaticamente. Permite a você confirmar cada peça de estoque do dispositivo móvel. |
 |  Número máximo de peças  |                   Disponível para trabalho de separação se a confirmação de separação de peças estiver habilitada. Define um limite para o número de peças que você deve confirmar.                   |
-
 

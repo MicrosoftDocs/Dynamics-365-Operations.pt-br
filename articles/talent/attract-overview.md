@@ -1,13 +1,13 @@
 ---
 title: Recursos e funcionalidades do Attract
-description: "Este tópico descreve os recursos que o Attract fornece para gerenciar o processo de contratação de novo talento."
+description: Este tópico descreve os recursos que o Attract fornece para gerenciar o processo de contratação de novo talento.
 author: rschloma
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
 ms.openlocfilehash: dd65def0006445da1a8d07577cf5ef05178c19bd
-ms.contentlocale: pt-br
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303264"
 ---
 # <a name="attract-features-and-capabilities"></a>Recursos e funcionalidades do Attract
 
@@ -33,7 +33,7 @@ O Attract fornece recursos para gerenciar o processo de contratação de novo ta
 Este tópico descreve os recursos oferecidos pelo Attract.
 
 ## <a name="attract-dashboard"></a>Painel do Attract
-No painel, os membros da equipe de contratação podem exibir os detalhes dos trabalhos dos quais participam. No painel, um gerente de contratação ou recrutador também pode adicionar trabalhos para o Attract, criando-os individualmente ou importando vários ao mesmo tempo de uma planilha do Microsoft Excel.
+No painel, os membros da equipe de contratação podem exibir os detalhes dos trabalhos dos quais participam. No painel, um gerente de contratação ou recrutador também pode adicionar trabalhos ao Attract, criando-os individualmente ou importando vários ao mesmo tempo de uma planilha do Microsoft Excel.
 
 ## <a name="jobs"></a>Trabalhos
 Na página **Trabalho**, detalhes como a descrição e o local de trabalho podem ser visualizados e editados. Na página **Trabalho**, a equipe de contratação também é reunida e você pode adicionar ou alterar os recrutadores e entrevistadores da equipe. Os novos candidatos também podem ser adicionados à página **Trabalho**.
@@ -46,4 +46,3 @@ O Attract fornece um processo de contratação predefinido com quatro estágios 
 
 ## <a name="candidate-app"></a>Aplicativo do candidato
 Logo após serem adicionados a um trabalho, os candidatos recebem um email que inclui um link para obter o aplicativo da Web. O aplicativo fornece detalhes do trabalho e é usado na comunicação com a equipe de contratação. Os candidatos também podem usá-lo para enviar sua disponibilidade para entrevistas.
-

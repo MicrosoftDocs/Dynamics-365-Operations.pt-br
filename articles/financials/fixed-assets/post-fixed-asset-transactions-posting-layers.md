@@ -1,13 +1,13 @@
 ---
-title: "Lançar transações de ativo fixo em níveis de lançamento"
-description: "Este artigo oferece uma visão geral da funcionalidade de nível de lançamento para transações de ativo fixo."
+title: Lançar transações de ativo fixo em níveis de lançamento
+description: Este artigo oferece uma visão geral da funcionalidade de nível de lançamento para transações de ativo fixo.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBookTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 22feb15a1891c57576a5809f4ff3f4d089c6dfa4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b210bddf640dff2d65e2aec63a18c27acebdc5a8
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323332"
 ---
-
 # <a name="post-fixed-asset-transactions-to-posting-layers"></a>Lançar transações de ativo fixo em níveis de lançamento
 
 [!include [banner](../includes/banner.md)]
@@ -44,7 +43,6 @@ Fixo diários de ativos são definidos usando a página Nomes de diários em Con
 > O uso de registros derivados permite que você lance, ao mesmo tempo, as transações em diferentes níveis de lançamento. Você cria as transações do registro primário em um diário com o nível de lançamento correspondente ao nível de lançamento do registro. Durante o lançamento, as transações do registro derivado serão lançadas em seus respectivos níveis de lançamento.
 
 Para obter mais informações, consulte [Registros derivados](derived-books.md) e [Lançar com registros de depreciações derivados](post-derived-value-models.md).
-
 
 
 

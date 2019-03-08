@@ -1,13 +1,13 @@
 ---
 title: Pagamentos centralizados para Contas a pagar
-description: "As organizações que incluem várias entidades legais podem criar e gerenciar pagamentos usando uma entidade legal única que trate todos os pagamentos. Consequentemente, os mesmos pagamentos não precisam ser inseridos para várias entidade legais. Este artigo fornece exemplos que mostram como a postagem de pagamentos centralizados é feita em vários cenários."
+description: As organizações que incluem várias entidades legais podem criar e gerenciar pagamentos usando uma entidade legal única que trate todos os pagamentos. Consequentemente, os mesmos pagamentos não precisam ser inseridos para várias entidade legais. Este artigo fornece exemplos que mostram como a postagem de pagamentos centralizados é feita em vários cenários.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e6744aae97499385405e192cd6d6cb8590dd79b7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 54329582abd36a8ca896ce731ce06ca4de58bbb0
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327058"
 ---
-
 # <a name="centralized-payments-for-accounts-payable"></a>Pagamentos centralizados para Contas a pagar
 
 [!include [banner](../includes/banner.md)]
@@ -297,7 +296,6 @@ A Fabrikam gera um pagamento de 75,00 para o fornecedor 3004, Fourth Coffee. O p
 | Devido à Fabrikam (Fabrikam Oeste)      |              | 75,00         |
 | Contas a pagar (Fabrikam Oeste)     | 25,00        |               |
 | Devido à Fabrikam Leste (Fabrikam Oeste) |              | 25,00         |
-
 
 
 

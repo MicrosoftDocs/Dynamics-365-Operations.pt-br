@@ -1,13 +1,13 @@
 ---
 title: Obter suporte para o Finance and Operations ou o Lifecycle Services (LCS)
-description: Este artigo explica como obter ajuda com o Microsoft Dynamics 365 for Finance and Operations ou com o LCS (Microsoft Dynamics Lifecycle Services).
+description: Este artigo explica como obter ajuda com o Microsoft Dynamics 365 for Finance and Operations ou Microsoft Dynamics Lifecycle Services (LCS).
 author: kfend
 manager: AnnBe
 ms.date: 08/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: IT Pro, Developer, Application user
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: c4428613441424c81f4fd7dd92bbf842c62ce860
 ms.openlocfilehash: 4ad96a3aa3ac80045345b839ea8a923884061aeb
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334763"
 ---
-
 # <a name="get-support-for-finance-and-operations-or-lifecycle-services-lcs"></a>Obter suporte para o Finance and Operations ou o Lifecycle Services (LCS)
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo explica como obter ajuda com o Finance and Operations ou com o LCS (Microsoft Dynamics Lifecycle Services). 
+Este artigo explica como obter ajuda com o Finance and Operations ou com o Microsoft Dynamics Lifecycle Services (LCS). 
 
-## <a name="contact-support"></a>Contate o suporte
+## <a name="contact-support"></a>Entrar em contato com o suporte
 
-Use as informações neste artigo para contatar a Microsoft se você tiver dúvidas técnicas sobre o Finance and Operations ou se precisar ajuda para acessar o LCS (Microsoft Dynamics Lifecycle Services).
+Use as informações neste artigo para contatar a Microsoft se você tiver dúvidas técnicas sobre o Finance and Operations ou se precisar ajuda para acessar o Microsoft Dynamics Lifecycle Services (LCS).
 
 ### <a name="finance-and-operations-support"></a>Suporte do Finance and Operations
 
@@ -53,7 +52,7 @@ Para obter suporte para o Finance and Operations ou o LCS, use os recursos na ta
 <tbody>
 <tr class="odd">
 <td>Pergunte à comunidade.</td>
-<td>Vá para a página <a href="https://go.microsoft.com/fwlink/?linkid=2013438"><span style="color: #0066cc;">Comunidade do Dynamics 365 for Finance and Operations</span></a> para ter ajuda da comunidade do Dynamics com suas dúvidas.</td>
+<td>Vá para a página da comunidade do <a href="https://go.microsoft.com/fwlink/?linkid=2013438"><span style="color: #0066cc;">Dynamics 365 for Finance and Operations</span></a> para esclarecer dúvidas da comunidade do Dynamics.</td>
 </tr>
 <tr class="even">
 <td>Use a ferramenta de Pesquisa de problemas.</td>
@@ -70,12 +69,12 @@ Observação: os clientes e parceiros Premier da Microsoft também podem enviar 
 </tr>
 <tr class="even">
 <td>Abra um tíquete de suporte com a equipe de suporte do Finance and Operations.</td>
-<td>Se você tiver problemas ao tentar enviar um tíquete para a Microsoft do bloco <strong>Suporte</strong> no LCS, consulte <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng"><span style="color: #0066cc;">Contatar o suporte do Microsoft Business Solutions</span></a> para obter informações sobre como contatar um Centro de Operações Regional do Microsoft Dynamics. A equipe de suporte pode ajudar você a resolver os seguintes tipos de problemas técnicos:
+<td>Se tiver problemas ao tentar enviar um tíquete para a Microsoft do bloco de <strong>Suporte</strong> no LCS, consulte <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng"><span style="color: #0066cc;">Contatar o suporte do Microsoft Business Solutions</span></a> para obter informações sobre como contatar um Centro de Operações Regional do Microsoft Dynamics. A equipe de suporte pode ajudar você a resolver os seguintes tipos de problemas técnicos:
 <ul>
 <li>Erros que ocorrem quando você usa o LCS ou problemas que surgem quando você tentar acessar o LCS.</li>
 <li>Erros que ocorrem quando você usa o Finance and Operations.</li>
 </ul>
-Para questões técnicas relacionadas à conexão e o acesso ao CustomerSource, e-learning, Pesquisa, Base de dados de Conhecimento, download de arquivos e erros de página ou do sistema, acesse <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx"><span style="color: #0066cc;">Suporte do site</span></a>.</td>
+Para questões técnicas relacionadas à entrada e ao acesso ao CustomerSource, e-learning, Pesquisa, Base de Dados de Conhecimento, download de arquivos e erros de página ou do sistema, acesse <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx"><span style="color: #0066cc;">Suporte do Site</span></a>.</td>
 </tr>
 <tr class="odd">
 <td>Obtenha ajuda com dúvidas sobre o licenciamento do Finance and Operations.</td>
@@ -90,8 +89,7 @@ Para questões técnicas relacionadas à conexão e o acesso ao CustomerSource, 
 
 
 ## <a name="additional-resources"></a>Recursos adicionais
-- [Obter suporte para Dynamics 365 for Retail](../../retail/retail-support.md)
-- [Obter suporte para Dynamics 365 for Talent](../../talent/talent-support.md)
+- [Obter suporte para o Dynamics 365 for Retail](../../retail/retail-support.md)
+- [Obter suporte para o Dynamics 365 for Talent](../../talent/talent-support.md)
 - Para saber mais sobre as ofertas de suporte do Microsoft Dynamics, consulte [Suporte online do Microsoft Dynamics](https://www.microsoft.com/en-us/dynamics/dynamics-online-support.aspx).
-
 

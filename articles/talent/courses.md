@@ -1,13 +1,13 @@
 ---
 title: Configurar cursos de treinamento
-description: "Os administradores e gerentes de recursos humanos podem usar os recursos dos cursos para manter informações sobre o treinamento que é oferecido aos funcionários."
+description: Os administradores e gerentes de recursos humanos podem usar os recursos dos cursos para manter informações sobre o treinamento que é oferecido aos funcionários.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: 3e0a13d0b1882e6160a05925d97ecd85f1edfbaa
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 27fbc54afca384b804f2b0468206242ff89d4031
-ms.contentlocale: pt-br
-ms.lasthandoff: 02/23/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303265"
 ---
-
 # <a name="set-up-training-courses"></a>Configurar cursos de treinamento
 
 [!include [banner](includes/banner.md)]
@@ -135,7 +134,6 @@ Os participantes de curso são funcionários, candidatos ou pessoas de contato q
 --------
 
 Os funcionários que se registrarem em um curso na página **Autoatendimento para funcionários** podem ter seu registro roteado com o fluxo de trabalho para aprovação.  Um fluxo de trabalho pode ser atribuído a um curso na Guia Rápida **Geral** na página **Cursos**.
-
 
 
 

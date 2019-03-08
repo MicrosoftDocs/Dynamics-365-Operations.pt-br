@@ -1,13 +1,13 @@
 ---
-title: "Espaço de trabalho móvel de gerenciamento de despesas"
-description: "Este tópico fornece informações sobre o espaço de trabalho móvel Gerenciamento de despesas. Este espaço de trabalho permite que os usuários capturem e carreguem um recibo, para que possam anexá-lo a um relatório de despesas posteriormente. Os usuários também podem criar rapidamente uma linha de despesa usando um recibo anexado, além de criar e gerenciar seus relatórios de despesas."
+title: Espaço de trabalho móvel de gerenciamento de despesas
+description: Este tópico fornece informações sobre o espaço de trabalho móvel Gerenciamento de despesas. Este espaço de trabalho permite que os usuários capturem e carreguem um recibo, para que possam anexá-lo a um relatório de despesas posteriormente. Os usuários também podem criar rapidamente uma linha de despesa usando um recibo anexado, além de criar e gerenciar seus relatórios de despesas.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 6ec9966826830e9ceaa3ed7e1b06e2cb89e8a780
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6f6add07a2426b1846cbeb9dee149a63f66f779e
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344331"
 ---
-
 # <a name="expense-management-mobile-workspace"></a>Espaço de trabalho móvel de gerenciamento de despesas
 
 [!include [banner](../includes/banner.md)]
@@ -32,7 +31,7 @@ ms.lasthandoff: 03/26/2018
 Este tópico fornece informações sobre o espaço de trabalho móvel **Gerenciamento de despesas**. Este espaço de trabalho permite que os usuários capturem e carreguem um recibo, para que possam anexá-lo a um relatório de despesas posteriormente. Os usuários também podem criar rapidamente uma linha de despesa usando um recibo anexado, além de criar e gerenciar seus relatórios de despesas. Adicionalmente, os aprovadores podem usar o espaço de trabalho móvel **Gerenciamento de despesas** para exibir os relatórios de despesas atribuídos a eles, e aprová-los ou rejeitá-los.
 
 
-O espaço de trabalho móvel é destinado a ser usado com o Microsoft Dynamics 365 do aplicativo móvel Operações Unificadas.
+Este espaço de trabalho móvel deve ser usado com o Microsoft Dynamics 365 do aplicativo Unified Operations Mobile.
 
 
 ## <a name="overview"></a>Visão Geral
@@ -42,11 +41,11 @@ Muitas organizações exigem que uma cópia do recibo seja anexada a um relatór
 
 Especificamente, o espaço de trabalho móvel **Gerenciamento de despesas** permite que os usuários executem estas tarefas:
 
-- Tirar uma foto de um recibo e carregá-lo no Microsoft Dynamics 365 for Finance and Operations. Você poderá anexar essa foto a um relatório de despesas posteriormente.
+- Tirar foto de um recebimento e carregá-lo no Microsoft Dynamics 365 for Finance and Operations. Você poderá anexar essa foto a um relatório de despesas posteriormente.
 - Carregar um arquivo como um recibo capturado. Você poderá anexar esse arquivo a um relatório de despesas posteriormente.
 - Criar uma nova linha despesa usando um recibo anexado. Você poderá adicionar o item de linha a um relatório de despesas posteriormente, e enviá-lo para aprovação e reembolso.
 
-Se estiver usando o Microsoft Dynamics 365 for Finance and Operations, você também poderá usar estes recursos:
+Se você está usando o Microsoft Dynamics 365 for Finance and Operations, também pode utilizar estes recursos:
 
 - Crie um novo relatório de despesas.
 - Anexe transações de cartão de crédito e outras despesas anteriormente criadas a um relatório de despesas.
@@ -58,13 +57,13 @@ Se estiver usando o Microsoft Dynamics 365 for Finance and Operations, você tam
 - Aprove ou rejeite os relatórios de despesas dos quais você é um aprovador.
 
 ## <a name="prerequisites"></a>Pré-requisitos
-Os pré-requisitos variam com base na versão do Microsoft Dynamics 365 implantada para sua organização.
+Os pré-requisitos variam conforme a versão do Microsoft Dynamics 365 implantada na organização.
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Pré-requisitos se você usa o Microsoft Dynamics 365 for Finance and Operations 
-Se o Microsoft Dynamics 365 for Finance and Operations tiver sido implantado em sua organização, o administrador do sistema deverá publicar o espaço de trabalho móvel **Gerenciamento de despesas**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Se o Microsoft Dynamics 365 for Finance and Operations foi implantado na organização, o administrador do sistema deverá publicar o espaço de trabalho móvel **Gerenciamento de despesas**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Pré-requisitos se você usar o Microsoft Dynamics 365 for Operations versão 1611 com a atualização da plataforma 3 ou posterior
-Se o Microsoft Dynamics 365 for Operations versão 1611 com a atualização da plataforma 3 ou posterior tiver sido implantado em sua organização, o administrador do sistema deve completar os seguintes pré-requisitos. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Pré-requisitos se você usa a versão 1611 do Microsoft Dynamics 365 for Operations com a atualização de plataforma 3 ou posterior
+Se o Microsoft Dynamics 365 for Operations versão 1611 com a atualização de plataforma 3 ou posterior foi implantado na organização, o administrador do sistema deverá atender aos pré-requisitos a seguir. 
 
 <table>
 <thead>
@@ -94,7 +93,7 @@ Se o Microsoft Dynamics 365 for Operations versão 1611 com a atualização da p
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Baixe e instale o aplicativo móvel Dynamics 365 for Operations
+## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Baixe e instale o aplicativo móvel Dynamics 365 for Operations.
 Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
 
 - [Para telefones Android](https://go.microsoft.com/fwlink/?linkid=850662)
@@ -243,4 +242,3 @@ Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
 22. Selecione **Enviar**.
 23. Insira comentários para o aprovador.
 24. Selecione **Concluído**.
-

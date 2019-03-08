@@ -1,13 +1,13 @@
---- 
-title: "Carregamento ER de uma configuração no Lifecycle Services"
-description: "As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar uma nova configuração do Relatório eletrônico (RE) e carregá-la ao Microsoft Lifecycle Services (LCS)."
+---
+title: Carregamento ER de uma configuração no Lifecycle Services
+description: As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar uma nova configuração do Relatório eletrônico (RE) e carregá-la ao Microsoft Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 19ae8820e5d4a798a5789e9632edb431fe9fede4
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335085"
 ---
 # <a name="er-upload-a-configuration-into-lifecycle-services"></a>Carregamento ER de uma configuração no Lifecycle Services
 
@@ -93,6 +93,5 @@ Neste exemplo, você criará e carregará uma configuração para o LCS (Lifecyc
 10. Clique em Abrir.
     * Selecione a loja de LCS e a abra.  
     * Observe que a configuração selecionada será mostrada como um ativo do projeto selecionado de LCS.  
-    * Abra LCS usando https://lcs.dynamics.com. Abra um projeto que tenha sido usado anteriormente para registro do repositório, abra a "Biblioteca de ativo" deste projeto, e expanda o conteúdo do tipo de ativo "Configuração GER"! - a configuração ER carregada estará disponível. Observe que a configuração do LCS carregada pode ser importada para outra instância do Microsoft Dynamics 365 for Finance and Operations, edição Enterprise se os fornecedores tiverem acesso a este projeto do LCS.  
-
+    * Abra LCS usando https://lcs.dynamics.com. Abra um projeto que tenha sido usado anteriormente para registro do repositório, abra a "Biblioteca de ativo" deste projeto, e expanda o conteúdo do tipo de ativo "Configuração GER"! - a configuração ER carregada estará disponível. Observe que a configuração carregada de LCS pode ser importada para outra instância do Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, se os provedores tiverem acesso a este projeto LCS.  
 

@@ -1,32 +1,31 @@
 ---
-title: "Atendimento de estoque de segurança para itens"
-description: "Este tópico discute o atendimento de estoque de segurança e como configurar a quantidade de estoque de segurança para itens."
+title: Atendimento de estoque de segurança para itens
+description: Este tópico discute o atendimento de estoque de segurança e como configurar a quantidade de estoque de segurança para itens.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 11/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqSafetyKey, ReqItemTableSetup, ReqItemJournalName, ReqItemTable, EcoResProductDetailsExtended
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
+ms.openlocfilehash: 147cc3984e6dc641209beefdb3545615b42767a2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: d6ecb346f7bfa54a4e16307f623c82acb3a86892
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341525"
 ---
-
 # <a name="safety-stock-fulfillment-for-items"></a>Atendimento de estoque de segurança para itens
 
 [!include [banner](../includes/banner.md)]
@@ -117,4 +116,3 @@ O atendimento da transação de requisito de estoque de segurança tem a priorid
 Durante a fase de cobertura de planejamento mestre, o reabastecimento do estoque de segurança não terá mais a prioridade cancelada. O estoque disponível poderá ser usado antes de qualquer outro tipo de demanda. Durante o cálculo de atraso, uma nova lógica será adicionada para verificar as linhas de vendas em atraso, os requisitos da linha de BOM e todos os outros tipos de demanda para determinar se podem ser enviadas no prazo, considerando que este estoque de segurança será usado. Se o sistema identificar que isso pode minimizar atrasos usando o estoque de segurança, então as linhas de vendas ou as linhas da BOM substituirão a cobertura inicial com o estoque de segurança, e o sistema acionará o reabastecimento do estoque de segurança.
 
 Se plano ou item não for configurado para o cálculo atrasado, então a restrição de estoque de segurança terá a mesma prioridade que outros tipos de demanda. Isso significa que há uma reserva de disponível e de outro estoque disponível antes de outros tipos de demanda.
-

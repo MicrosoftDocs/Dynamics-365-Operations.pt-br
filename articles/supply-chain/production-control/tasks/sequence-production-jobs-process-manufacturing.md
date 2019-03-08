@@ -1,13 +1,13 @@
---- 
-title: "Trabalhos de produção sequencial para manufatura de processos"
+---
+title: Trabalhos de produção sequencial para manufatura de processos
 description: Este procedimento usa produtos de pintura como um exemplo para mostrar como sequenciar ordens planejadas de acordo com a prioridade de cor e de tamanho de pacote.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqTransPo, PMFSeqReqRouteChangesListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4e064f55ed451d44f58e60ba0aa722166981c129
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a25a4575ca1600b07b2dac5949c8775bcd162650
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312246"
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a>Trabalhos de produção sequencial para manufatura de processos
 
@@ -70,5 +70,4 @@ Este procedimento usa produtos de pintura como um exemplo para mostrar como sequ
 7. Na lista, clique no link na linha selecionada.
 8. Use o Filtro Rápido para filtrar o campo Número do item com o valor 'P300'.
     * Observe que as ordens são arranjadas agora na sequência de acordo com a prioridade de cor e tamanho e as ordens planejadas se iniciam na data de ordem mais antiga e data de entrega. Validar a data da coluna da ordem ou a data de início em FactBbox detalhes do plano.  
-
 

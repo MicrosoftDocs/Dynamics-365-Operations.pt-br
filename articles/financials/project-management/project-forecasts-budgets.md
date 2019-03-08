@@ -1,13 +1,13 @@
 ---
-title: "Previsões e orçamentos de projeto"
-description: "O Microsoft Dynamics 365 for Finance and Operations fornece previsões e orçamentos de projetos para gerenciar e controlar seus projetos."
+title: Previsões e orçamentos de projeto
+description: O Microsoft Dynamics 365 for Finance and Operations fornece previsões e orçamentos de projetos para gerenciar e controlar seus projetos.
 author: KimANelson
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ForecastModel, ProjYearEndProcess
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 530a2717427c540d80509c4862e6fb8ea7c5694a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e31a013d6bf33b92b02bd9645a19380ba07f4a05
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310383"
 ---
-
 # <a name="project-forecasts-and-budgets"></a>Previsões e orçamentos de projeto
 
 [!include [banner](../includes/banner.md)]
 
-O Microsoft Dynamics 365 for Finance and Operations fornece duas maneiras de gerenciar e controlar seus projetos: previsões e orçamentos de projetos. 
+O Microsoft Dynamics 365 for Finance and Operations fornece duas maneiras de gerenciar e controlar seus projetos: previsões e orçamentos de projeto. 
 
 Use a previsão de projeto se sua organização tiver uma perspectiva operacional e focar em receitas e custos derivados de transações específicas. Use o orçamento de projeto se a sua organização for mais focada nos valores financeiros. 
 
@@ -80,7 +79,6 @@ Os orçamentos do projeto são associados automaticamente a dois modelos de prev
 Os modelos de previsão tem uma hierarquia de uma única camada. Isso significa que uma previsão de projeto deve estar associada a um modelo de previsão.
 
 Se você usar a previsão de projeto, pode identificar modelos como submodelos. Você pode então criar previsões por departamento, período de tempo ou região. Por exemplo, você pode criar um modelo de previsão para um ano e, em seguida, criar submodelos para as previsões das regiões nordeste, sudeste, noroeste e sudoeste enviadas pelos chefes regionais. Ao selecionar opções diferentes nos relatórios disponíveis, você pode ver informações pela previsão total ou por submodelo.
-
 
 
 

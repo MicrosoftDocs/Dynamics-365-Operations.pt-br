@@ -1,13 +1,13 @@
---- 
-title: "Revisar configurações para criar relatórios em formatos do Office com imagens incorporadas"
-description: "Para concluir essas etapas, primeiro você deve concluir as etapas no guia de tarefas \"ER Criar relatórios nos formatos do MS Office com imagens incorporadas (Parte 1 – Configurar parâmetros)\"."
+---
+title: Revisar configurações para criar relatórios em formatos do Office com imagens incorporadas
+description: Para concluir essas etapas, primeiro você deve concluir as etapas no guia de tarefas "ER Criar relatórios nos formatos do MS Office com imagens incorporadas (Parte 1 – Configurar parâmetros)".
 author: NickSelin
 manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 8f3462f16ad7638071ab0aa2175d0bc291eeae89
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331405"
 ---
 # <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Revisar configurações para criar relatórios em formatos do Office com imagens incorporadas
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 08/09/2018
 
 Para completar essas etapas, primeiro você deve concluir as etapas no guia de tarefas "ER Fazer relatórios nos formatos do MS Office com imagens incorporadas (Parte 1: Configurar parâmetros)".
 
-Este procedimento mostra como criar configurações do relatório eletrônico (ER) para gerar documentos eletrônicos que contêm imagens incorporadas no Microsoft Excel e no Microsoft Word. Neste exemplo, você revisará as configurações de ER para a empresa exemplo, Litware, Inc. 
+Este procedimento mostra como criar configurações de relatório eletrônico (ER) para gerar documentos eletrônicos contendo imagens incorporadas no Microsoft Excel e no Microsoft Word. Neste exemplo, você revisará as configurações de ER para a empresa exemplo, Litware, Inc. 
 
 Esse procedimento é destinado a usuários com a função de Administrador do sistema ou Desenvolvedor de relatório eletrônico. As etapas podem ser concluídas usando o conjunto de dados de USMF.
 
@@ -91,5 +91,4 @@ Esse procedimento é destinado a usuários com a função de Administrador do si
 14. Na árvore, expanda “rótulos: Contêiner”.
     * Alguns rótulos que são apresentados no formulário pré-impresso do cheque serão incluídos no relatório quando ele for criado para fins de teste. Entretanto, esses rótulos não serão impressos durante a impressão real porque o formulário pré-impresso já os inclui.  
 15. Feche a página.
-
 

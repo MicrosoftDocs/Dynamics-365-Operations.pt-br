@@ -1,13 +1,13 @@
 ---
 title: Configurar tarefas manuais em um fluxo de trabalho
-description: "Este tópico explica como configurar as propriedades de uma tarefa manual."
+description: Este tópico explica como configurar as propriedades de uma tarefa manual.
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 669fce3ddade4d6e0a130da2420ab33ca4ff4671
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309739"
 ---
-
 # <a name="configure-manual-tasks-in-a-workflow"></a>Configurar tarefas manuais em um fluxo de trabalho
 
 [!include [banner](../includes/banner.md)]
@@ -136,7 +135,7 @@ Siga estas etapas para especificar a quem a tarefa manual deve ser atribuída.
     </tr>
     <tr>
     <td>Usuário</td>
-    <td>Especificar usuários do Microsoft Dynamics 365 for Finance and Operations</td>
+    <td>Usuários específicos do Microsoft Dynamics 365 for Finance and Operations</td>
     <td>
     <ol>
     <li>Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</li>
@@ -383,4 +382,3 @@ Quando a tarefa manual for atribuída a um usuário, este deverá executar uma a
 5. Marque a caixa de seleção **Delegar** se o usuário puder atribuir a tarefa a outro usuário.
 6. Marque a caixa de seleção **Reatribuir** se o usuário puder reatribuir a tarefa a outro usuário na fila de itens de trabalho.
 7. Marque a caixa de seleção **Liberar** se o usuário puder reatribuir a tarefa na fila de itens de trabalho. Assim, outro usuário poderá concluir a tarefa.
-

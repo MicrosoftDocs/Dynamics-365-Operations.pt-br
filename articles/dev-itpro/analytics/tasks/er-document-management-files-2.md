@@ -1,13 +1,13 @@
---- 
-title: "ER Usar arquivos de gerenciamento de documentos em formato de saída (Parte 2 - Estender modelo de dados)"
-description: "As etapas a seguir explicam como um usuário atribuído à função de administrador do sistema ou desenvolvedor de relatório eletrônico pode configurar um formato de relatório eletrônico (ER) para usar arquivos de gerenciamento de documentos (anexos) na saída do ER."
+---
+title: ER Usar arquivos de gerenciamento de documentos em formato de saída (Parte 2 - Estender modelo de dados)
+description: As etapas a seguir explicam como um usuário atribuído à função de administrador do sistema ou desenvolvedor de relatório eletrônico pode configurar um formato de relatório eletrônico (ER) para usar arquivos de gerenciamento de documentos (anexos) na saída do ER.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: cb4c58dc86a159a70634c05408a8db471ebcae4c
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320940"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-2-extend-data-model"></a>O ER usar arquivos de gerenciamento de documentos em formato de saída (parte 2: estender modelo de dados)
 
@@ -31,7 +31,7 @@ As etapas a seguir explicam como um usuário atribuído à função de administr
 
 Para concluir estas etapas, primeiramente você deve concluir as etapas no guia de tarefas "ER Usar arquivos de gerenciamento de documentos em formatos de saída (Parte 1: preparar modelo de dados)".
 
-Este procedimento é para um recurso que foi adicionado à versão 1611 do Dynamics 365 for Operations.
+Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynamics 365 for Operations.
 
 
 ## <a name="extend-data-model-to-present-the-document-management-files-in-it"></a>Estender o modelo de dados para apresentar os arquivos de gerenciamento de documentos nele
@@ -58,7 +58,7 @@ Este procedimento é para um recurso que foi adicionado à versão 1611 do Dynam
 17. No campo Tipo de item, selecione 'String'.
 18. Clique em Adicionar.
 
-## <a name="map-new-data-model-elements-to-dynamics-365-for-finance-and-operations-enterprise-edition-data-sources"></a>Mapeie os novos elementos do modelo de dados para as fontes de dados do Dynamics 365 for Finance and Operations, edição Enterprise.
+## <a name="map-new-data-model-elements-to-dynamics-365-for-finance-and-operations-enterprise-edition-data-sources"></a>Mapear novos elementos do modelo para fontes de dados do Dynamics 365 for Finance and Operations, Enterprise edition
 1. Clique em Mapear modelo para fonte de dados.
 2. Use o Filtro Rápido para filtrar no campo Definição com um valor de 'InvoiceCustomer'.
     * InvoiceCustomer  
@@ -91,5 +91,4 @@ Este procedimento é para um recurso que foi adicionado à versão 1611 do Dynam
 25. Clique em Alterar status.
 26. Clique em Concluir.
 27. Clique em OK.
-
 

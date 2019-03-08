@@ -1,28 +1,27 @@
 ---
-title: "Informações de pagamento do cliente (visualização)"
-description: "Este tópico descreve como as informações de pagamento do cliente podem ajudar a prever quando uma fatura será paga e ajudar as organizações a criar estratégias de otimização que melhorem a probabilidade de serem pagas no prazo."
+title: Informações de pagamento do cliente (visualização)
+description: Este tópico descreve como as informações de pagamento do cliente podem ajudar a prever quando uma fatura será paga e ajudar as organizações a criar estratégias de otimização que melhorem a probabilidade de serem pagas no prazo.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 07/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: 
+ms.search.scope: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-04-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 841ea53f754f61c2930e77fdafc85eac72f47d7a
 ms.openlocfilehash: 9e722db6302d7ef51c01601cde245d4f4a333eba
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344653"
 ---
-
 # <a name="customer-payment-insights-preview"></a>Informações de pagamento do cliente (visualização)
 
 [!include[banner](../includes/banner.md)]
@@ -77,5 +76,4 @@ Se estiver interessado em experimentar informações de pagamento do cliente (vi
 
 ## <a name="privacy-statement"></a>Política de Privacidade
 
-As visualizações armazenam dados de clientes nos Estados Unidos. Além disso, as visualizações (1) podem utilizar menos medidas de privacidade e segurança que o serviço do Dynamics 365 for Finance and Operations, (2) não estão incluídas no contrato de nível de serviço para esse serviço, (3) não devem ser usadas para processar dados pessoais ou outros dados que estão sujeitos a requisitos de conformidade legais ou regulatórios e (4) que têm suporte limitado.
-
+As visualizações armazenam dados de clientes nos Estados Unidos. Além disso, as visualizações (1) podem utilizar menos medidas de privacidade e segurança que o serviço do Dynamics 365 for Finance and Operations, (2) não estão incluídas no contrato de nível de serviço desse serviço, (3) não devem ser usadas para processar dados pessoais ou outros dados sujeitos a requisitos de conformidade legais ou regulatórios e (4) têm suporte limitado.

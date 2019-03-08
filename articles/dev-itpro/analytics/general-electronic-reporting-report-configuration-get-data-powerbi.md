@@ -1,13 +1,13 @@
 ---
-title: "Configurar relatório eletrônico (ER) para efetuar pull de dados no Power BI"
-description: "Este tópico explica como você pode usar suas configurações de ER (Relatório eletrônico) para organizar a transferência de dados da sua instância do Finance and Operations para os serviços do Power BI."
+title: Configurar ER (Relatório eletrônico) para efetuar pull de dados no Power BI
+description: Este tópico explica como você pode usar suas configurações de ER (Relatório eletrônico) para organizar a transferência de dados da sua instância do Finance and Operations para os serviços do Power BI.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: e2d3c03a75fd03dfd3a96a181eff20f934546ec4
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335775"
 ---
-
-# <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Configurar relatório eletrônico (ER) para efetuar pull de dados no Power BI
+# <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Configurar ER (Relatório eletrônico) para efetuar pull de dados no Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como você pode usar suas configurações de ER (Relatório eletrônico) para organizar a transferência de dados da sua instância do Finance and Operations para os serviços do Power BI. Como exemplo, este tópico usa transações intrastat como os dados comerciais que devem ser transferidos. A visualização de mapa do Power BI usa esses dados de transação intrastat para apresentar uma exibição para a análise das atividades de importação/exportação da empresa no relatório do Power BI.
+Este tópico explica como você pode usar suas configurações de ER (Relatório eletrônico) para organizar a transferência de dados da sua instância do Finance and Operations para os serviços do Power BI. Como exemplo, este tópico usa transações intrastat como os dados comerciais que devem ser transferidos. A visualização de mapa do Power BI usa esses dados de transação Intrastat para apresentar uma exibição para a análise das atividades de importação/exportação da empresa no relatório do Power BI.
 
 ## <a name="overview"></a>Visão Geral
 
-O Microsoft Power BI é uma coleção de serviços de software, aplicativos e conectores que funcionam juntos para transformar fontes externas de dados em informações coerentes, visualmente imersivas e interativas. O ER (Relatório eletrônico) permite que os usuários do Microsoft Dynamics 365 for Finance and Operations configurem fontes de dados e organizem a transferência de dados do Dynamics 365 for Finance and Operations para o Power BI com facilidade. Os dados são transferidos como arquivos no formato de planilha OpenXML (arquivo de pasta de trabalho do Microsoft Excel). Os arquivos transferidos são armazenados em um Microsoft SharePoint Server configurado para essa finalidade. Os arquivos armazenados são usados no Power BI para criar relatórios que incluem visualizações (tabelas, gráficos, mapas, etc.). Os relatórios do Power BI são compartilhados com os usuários do Power BI e são acessados nos painéis do Power BI e nas páginas do Finance and Operations. Este tópico explica as seguintes tarefas:
+O Microsoft Power BI é uma coleção de serviços de software, aplicativos e conectores que funcionam juntos para transformar fontes externas de dados em informações coerentes, visualmente imersivas e interativas. O ER (Relatório eletrônico) permite que os usuários do Microsoft Dynamics 365 for Finance and Operations configurem de forma fácil fontes de dados e organizam a transferência de dados financeiros e de operações do Finance and Operations para o Power BI. Os dados são transferidos como arquivos no formato de planilha OpenXML (arquivo de pasta de trabalho do Microsoft Excel). Os arquivos transferidos são armazenados em um Microsoft SharePoint Server configurado para essa finalidade. Os arquivos armazenados são usados no Power BI para criar relatórios que incluem visualizações (tabelas, gráficos, mapas, etc.). Os relatórios do Power BI são compartilhados com os usuários do Power BI e são acessados nos painéis do Power BI e nas páginas do Finance and Operations. Este tópico explica as seguintes tarefas:
 
 - Configurar o Finance and Operations
 - Preparar sua configuração de formato ER para obter dados do Finance and Operations.
@@ -54,13 +53,13 @@ Para concluir os exemplos neste tópico, você deve ter:
 - Acesso à estrutura do Power BI
 
 ## <a name="configure-document-management-parameters"></a>Configurar parâmetros de gerenciamento de documentos
-1. Na página **Parâmetros de gerenciamento de documentos**, configure o acesso ao SharePoint Server que será usado na empresa à qual você está conectado (a empresa de DEMF neste exemplo.)
+1. Na página **Parâmetros de gerenciamento de documentos**, configure o acesso ao SharePoint Server que será usado na empresa à qual você está conectado (a empresa de DEMF neste exemplo).
 2. Teste a conexão com o SharePoint Server para certificar-se de que você tem acesso.
 
     [![Página Parâmetros de gerenciamento de documentos](./media/ger-power-bi-sharepoint-server-setting-1024x369.png)](./media/ger-power-bi-sharepoint-server-setting.png)
 
-3. Abra o site do SharePoint configurado. Crie uma nova pasta onde o ER armazenará os arquivos do Excel com os dados comerciais que os relatórios do Power BI exigem como uma fonte de conjunto de dados do Power BI.
-4. No Finance and Operations, na página **Tipos de documento**, crie um novo tipo de documento que será usado para acessar a pasta do SharePoint que você acabou de criar. Insira **Arquivo** no campo **Grupo** e **SharePoint** no campo **Localização** e, em seguida, insira o endereço da pasta do SharePoint.
+3. Abra o site configurado do SharePoint. Crie uma nova pasta onde o ER armazenará os arquivos do Excel com os dados comerciais que os relatórios do Power BI exigem como uma fonte de conjunto de dados do Power BI.
+4. No Finance and Operations, na página **Tipos de documento**, crie um novo tipo de documento que será usado para acessar a pasta do SharePoint que você acabou de criar. Insira **Arquivo** no campo **Grupo** e **SharePoint** no campo **Local** e, em seguida, insira o endereço da pasta do SharePoint.
 
     [![Página Tipos de documento](./media/ger-power-bi-sharepoint-document-type-1024x485.png)](./media/ger-power-bi-sharepoint-document-type.png)
 
@@ -124,7 +123,7 @@ Na página **Relatório eletrônico** (**Administração da organização** &gt;
 Clique no botão **Configurações** para o novo registro de destino. Em seguida, na caixa de diálogo **Configurações de destino**, siga estas etapas:
 
 1. Na guia **Power BI**, defina a opção **Habilitado** como **Sim**.
-2. No campo **SharePoint**, selecione o tipo de documento **Compartilhado** que você criou anteriormente.
+2. No campo **SharePoint**, selecione o tipo de documento **Compartilhado** criado anteriormente.
 
 ## <a name="schedule-execution-of-the-configured-er-format"></a>Programar a execução do formato ER configurado
 1. Na página **Configurações** (**Administração da organização** &gt; **Relatório eletrônico** &gt; **Configurações**), na árvore de configurações, selecione a configuração **Atividades de importação/exportação** que você criou anteriormente.
@@ -187,7 +186,7 @@ Clique no botão **Configurações** para o novo registro de destino. Em seguida
 ## <a name="access-power-bi-report-in-finance-and-operations"></a>Acessar o relatório do Power BI no Finance and Operations.
 Configurar a integração entre o Finance and Operations e o Power BI. Para saber mais, consulte [Configurando a integração do Power BI para espaços de trabalho](configure-power-bi-integration.md).
 
-1. Na página do espaço de trabalho **Relatório eletrônico** que suporta integração do Power BI (**Administração da organização** &gt; **Espaços de trabalho** &gt; **Espaço de trabalho do relatório eletrônico**), clique em **Opções** &gt; **Abrir catálogo de relatórios**.
+1. Na página de espaço de trabalho do **Relatório eletrônico** que oferece suporte à integração do Power BI (**Administração da organização** &gt; **Espaços de trabalho** &gt; **Espaço de trabalho do Relatório eletrônico**), clique em **Opções** &gt; **brir catálogo de relatórios**.
 2. Selecione o relatório do Power BI **Detalhes de importação e exportação** que você criou para mostrar esse relatório como um item de ação na página selecionada.
 3. Clique no item de ação para abrir a página do Finance and Operations que mostra o relatório que você criou no Power BI.
 
@@ -198,4 +197,3 @@ Configurar a integração entre o Finance and Operations e o Power BI. Para sabe
 [Destinos de Relatório eletrônico](electronic-reporting-destinations.md)
 
 [Visão geral de Relatório eletrônico](general-electronic-reporting.md)
-

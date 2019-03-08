@@ -1,13 +1,13 @@
 ---
-title: "Colaboração de fornecedores com fornecedores externos"
-description: "Este tópico explica como os agentes de compras podem colaborar com os fornecedores externos na troca de informações sobre ordens de compra e estoque de consignação."
+title: Colaboração de fornecedores com fornecedores externos
+description: Este tópico explica como os agentes de compras podem colaborar com os fornecedores externos na troca de informações sobre ordens de compra e estoque de consignação.
 author: mkirknel
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 65624ce5e668a506ae23b302559d8d0bf4141a12
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 961f0bbc4bb66536d953fa5103f98fcd6924adba
-ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350012"
 ---
-
 # <a name="vendor-collaboration-with-external-vendors"></a>Colaboração de fornecedores com fornecedores externos
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ O módulo **Colaboração do fornecedor** é destinado a fornecedores que não t
 Para saber mais sobre o que os fornecedores externos podem fazer na interface de colaboração do fornecedor, consulte [Colaboração do fornecedor com clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
-> As informações sobre a colaboração de fornecedor neste tópico se aplicam apenas à versão atual do Finance and Operations. A versão 7.0.1 no aplicativo do Microsoft Dynamics AX 7.0 (em fevereiro de 2016) e do Microsoft Dynamics AX (em maio de 2016), você colabora com fornecedores usando o módulo **Portal do fornecedor**. Para obter informações sobre o módulo **Portal do fornecedor**, consulte [Colaborar com fornecedores usando o Portal do fornecedor](collaborate-vendors-vendor-portal.md).
+> As informações sobre a colaboração de fornecedor neste tópico se aplicam apenas à versão atual do Finance and Operations. No Microsoft Dynamics AX 7.0. (fevereiro de 2016) e no aplicativo do Microsoft Dynamics AX versão 7.0.1 (maio de 2016), você colabora com fornecedores usando o módulo **Portal do fornecedor**. Para obter informações sobre o módulo **Portal do fornecedor**, consulte [Colaborar com fornecedores usando o Portal do fornecedor](collaborate-vendors-vendor-portal.md).
 
 Para saber mais sobre como os fornecedores podem usar a colaboração do fornecedor nos processos de faturamento, consulte [Espaço de trabalho de faturamento de colaboração do fornecedor](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Para saber mais sobre como provisionar novos usuários de colaboração do fornecedor, consulte [Gerenciar usuários de colaboração do fornecedor](manage-vendor-collaboration-users.md).
 
@@ -94,19 +93,19 @@ A tabela a seguir mostra a troca comum de informações, dependendo da resposta 
 <tbody>
 <tr class="even">
 <td>O fornecedor <strong>aceita</strong> a ordem e o Finance and Operations é definido para confirmar OCs automaticamente que o fornecedor aceita.</td>
-<td>O status da ordem é atualizado para <strong>Confirmada</strong>. Se a ordem não puder ser atualizada por algum motivo, a resposta do fornecedor ainda é registrada como <strong>Aceita</strong>, mas o status da OC permanecerá <strong>Em Revisão Externa</strong>. 
+<td>O status da ordem é atualizado para <strong>Confirmada</strong>. Se a ordem não puder ser atualizada por algum motivo, a resposta do fornecedor ainda é registrada como <strong>Aceita</strong>, mas o status da OC permanecerá <strong>Em Revisão externa</strong>. 
 
 A OC que foi enviada ao fornecedor e que tem um status de <strong>Em revisão externa</strong> é atualizada com datas de entrega confirmadas nas linhas. Esta atualização inicia uma nova versão que é automaticamente definida para o status <strong>Confirmado</strong>. Quando a OC é confirmada, ela aparecerá na interface de colaboração do fornecedor.</td>
 </tr>
 <tr class="odd">
-<td>O fornecedor <strong>aceita</strong> a ordem, mas o Finance and Operations não está configurado para confirmar automaticamente as OCs aceitas pelo fornecedor.</td>
+<td>O fornecedor <strong>aceita</strong> a ordem, mas o Finance and Operations não está definido para confirmar automaticamente as OCs que o fornecedor aceita.</td>
 <td>A resposta do fornecedor é registrada como <strong>Aceita</strong>, mas o status da OC permanece <strong>Em Revisão externa</strong>.
 
 A OC que foi enviada ao fornecedor e que tem um status de <strong>Em revisão externa</strong> é atualizada com datas de entrega confirmadas nas linhas. Esta atualização inicia uma nova versão que é automaticamente definida para o status <strong>Em revisão externa</strong>. Em seguida, você poderá confirmar a OC manualmente.</td>
 </tr>
 <tr class="even">
 <td>O fornecedor <strong>rejeita</strong> a ordem.</td>
-<td>A resposta do fornecedor é registrada como <strong>Rejeitada</strong> e o status da OC permanece <strong>Em Revisão Externa</strong>. A rejeição é recebida junto com as anotações do fornecedor.</td>
+<td>A resposta do fornecedor é registrada como <strong>Rejeitada</strong> e o status da OC permanece <strong>Em Revisão Externa</strong>. A rejeição é recebida junto com as anotações do fornecedor.</td>
 </tr>
 <tr class="odd">
 <td>O fornecedor <strong>aceita</strong> a ordem <strong>com alterações</strong>. As alterações são sugeridas em nível de linha. O fornecedor pode aceitar ou rejeitar linhas individuais. Eis algumas outras alterações que o fornecedor pode sugerir:
@@ -115,7 +114,7 @@ A OC que foi enviada ao fornecedor e que tem um status de <strong>Em revisão ex
 <li>Dividir linhas para datas de entrega ou quantidades diferentes.</li>
 <li>Substituir um item.</li>
 </ul>
-O fornecedor não pode alterar as informações sobre preços e encargos. Entretanto, o fornecedor pode sugerir essas alterações usando notas.</td>
+O fornecedor não pode alterar as informações sobre preços e os encargos. Entretanto, o fornecedor pode sugerir essas alterações usando notas.</td>
 <td>A resposta do fornecedor é registrada como <strong>Aceita com alterações</strong>, e o status da PO permanece <strong>Em revisão externa</strong>. Os status mostram os tipos de alterações que o fornecedor sugeriu. Para obter informações sobre o consumo automático das alterações, consulte a seção &quot;Atualizar a OC quando um fornecedor sugerir mudanças&quot; posteriormente neste tópico. </td>
 </tr>
 </tbody>
@@ -260,4 +259,3 @@ O usuário que configura os parâmetros para o processo de RFQ pode criar vário
 - %createddate%
 
 Se uma alteração for necessária e for enviada após a RFQ ser enviada, a RFQ será enviada novamente a todos os fornecedores convidados. O documento publicado também será atualizado na página **Abrir solicitações publicadas para cotações**.
-

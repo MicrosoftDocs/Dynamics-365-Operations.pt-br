@@ -1,13 +1,13 @@
 ---
-title: "Espaço de trabalho de gerenciamento bancário"
-description: "Este tópico fornece informações sobre o espaço de trabalho de gerenciamento de banco. Este espaço de trabalho mostra informações relacionadas às contas bancárias da empresa, e inclui uma exibição de Resumo e uma pagina de análise. A exibição de Resumo mostra quadros resumidos, informações de conta bancária, um gráfico do saldo e informações relacionadas. A página Análise usa recursos do Microsoft Power BI para mostrar os visuais relacionados a saldos da conta bancária."
+title: Espaço de trabalho de gerenciamento bancário
+description: Este tópico fornece informações sobre o espaço de trabalho de gerenciamento de banco. Este espaço de trabalho mostra informações relacionadas às contas bancárias da empresa, e inclui uma exibição de Resumo e uma pagina de análise. A exibição de Resumo mostra quadros resumidos, informações de conta bancária, um gráfico do saldo e informações relacionadas. A página de análise usa os recursos do Microsoft Power BI para mostrar os visuais relacionados a saldos da conta bancária.
 author: saraschi2
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: fdc0d1e5ea02cdcff9f7f5ede4ab685f54365698
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 3c38807e9ed3b2ced37ada35b72e388c125bd654
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/05/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348356"
 ---
-# <a name="bank-management-workspace"></a>Espaço de trabalho de gerenciamento bancário
+# <a name="bank-management-workspace"></a>​Espaço de trabalho de gerenciamento bancário​
 
 [!include [banner](../includes/banner.md)]
 
-O espaço de trabalho **Gerenciamento de banco** mostra informações relacionadas a contas bancárias da empresa. Esta área de trabalho inclui uma visualização **Resumo** e uma página **Análise**. A exibição **Resumo** mostra quadros resumidos, informações de conta bancária, um gráfico do saldo e informações relacionadas. A página **Análise** usa recursos do Microsoft Power BI para mostrar os visuais relacionados a saldos da conta bancária.
+O espaço de trabalho **Gerenciamento de banco** mostra informações relacionadas a contas bancárias da empresa. Esta área de trabalho inclui uma visualização **Resumo** e uma página **Análise**. A exibição **Resumo** mostra quadros resumidos, informações de conta bancária, um gráfico do saldo e informações relacionadas. A página **Análise** usa os recursos do Microsoft Power BI para mostrar os visuais relacionados a saldos da conta bancária.
 
 ## <a name="summary-view"></a>Exibição de resumo
 
@@ -64,4 +64,3 @@ A página **Análise** fornece métricas importante sobre contas bancárias da e
 -   Saldo por moeda
 
 Você pode exibir a análise do banco em todas as empresas do espaço trabalho **Visão geral de caixa – todas as empresas**.
-

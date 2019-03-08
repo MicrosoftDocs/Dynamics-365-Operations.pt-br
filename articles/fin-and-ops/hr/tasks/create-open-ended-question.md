@@ -1,13 +1,13 @@
---- 
+---
 title: Criar uma pergunta aberta
-description: "As perguntas abertas permitem que os respondentes forneçam suas próprias respostas."
+description: As perguntas abertas permitem que os respondentes forneçam suas próprias respostas.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KMQuestion
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 51d238e41e1c89211d158bd4aee958a85bec772d
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347896"
 ---
 # <a name="create-an-open-ended-question"></a>Criar uma pergunta aberta
 
@@ -37,5 +37,4 @@ As perguntas abertas permitem que os respondentes forneçam suas próprias respo
 5. No campo Tipo de entrada, selecione uma opção.
     * Um tipo de entrada ou de nota de texto é usado para uma pergunta em aberto.  
 6. No campo Texto, digite sua pergunta.
-
 

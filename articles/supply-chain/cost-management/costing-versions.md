@@ -1,13 +1,13 @@
 ---
-title: "Versões de custos"
-description: "Este artigo fornece informações sobre versões de custos, como mantê-las e os tipos de dados que podem estar incluídos nelas. A finalidade principal de uma versão de custo é conter registros de custo sobre itens, categorias de custo e fórmulas de cálculo para custos indiretos."
+title: Versões de custos
+description: Este artigo fornece informações sobre versões de custos, como mantê-las e os tipos de dados que podem estar incluídos nelas. A finalidade principal de uma versão de custo é conter registros de custo sobre itens, categorias de custo e fórmulas de cálculo para custos indiretos.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a73be45d183f3cbdc19efbb9ee29fa621a113c66
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: cb8e8193b3312a63042a44cb082a33a196cbc1be
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330140"
 ---
-
 # <a name="costing-versions"></a>Versões de custos
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,6 @@ O principal motivo para habilitar os dados de preço de compra é definir regist
 Para habilitar o conteúdo de preço de compra, você primeiro define um grupo de cálculos de BOM que contenha um modelo de preço de custo para o preço de compra do item e atribui o grupo de cálculos de BOM aos itens comprados. Você deve usar um modelo de preço de custo para o grupo de cálculos de BOM ao executar cálculos de BOM que usem custos planejados para calcular o preço de venda de itens fabricados. 
 
 Os registros de preço de compra de itens também são usados para informações de referência. Alterando o status do registro de preço de compra de um item de **Pendente** para **Ativo**, você pode atualizar o preço de compra base do item. No entanto, o preço de compra base não é específico para o lugar e pode ser substituído manualmente. O preço de compra base do item é usado como o preço de compra padrão nas ordens de compra.
-
 
 
 

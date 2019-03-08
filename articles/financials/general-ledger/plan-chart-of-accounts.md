@@ -1,13 +1,13 @@
 ---
 title: Planejar seu plano de contas
-description: "Este tópico fornece informações que o ajudarão a planejar o plano de contas para sua organização."
+description: Este tópico fornece informações que o ajudarão a planejar o plano de contas para sua organização.
 author: aprilolson
 manager: AnnBe
 ms.date: 04/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DimensionConfigureAccountStructure, LedgerChartOfAccounts
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 93d5ef19a4b1cb2885c611c8675ac06fd841ac56
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3f8d97fc42cde9053b0552fc1dfe8e6de0f5e03b
-ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337569"
 ---
-
 # <a name="plan-your-chart-of-accounts"></a>Planejar seu plano de contas
 
 [!include [banner](../includes/banner.md)]
@@ -47,7 +46,7 @@ Veja alguns dos fatores que você deve considerar ao planejar a estrutura do pla
 Você cria o plano de contas na página **Plano de contas**. Você pode criar as contas principais na página **Plano de contas** ou na página **Contas principais**. Suas contas principais não devem usar caracteres especiais que são utilizados como delimitadores do plano de contas. Caso contrário, você pode se deparar com instabilidade, ou pode ser necessário sempre usar pesquisas ou a caixa de diálogo, ao inserir combinações de contas e dimensões. Para saber mais, consulte [Criar uma conta principal](tasks/create-main-account.md).
 
 > [!NOTE]
-> No Microsoft Dynamics for Finance and Operations versão 8.0 (Abril 2018), você pode modificar o delimitador de plano de contas da página **Parâmetros de contabilidade** .
+> No Microsoft Dynamics for Finance and Operations versão 8.0 (Abril 2018), você pode modificar o delimitador de plano de contas da página **Parâmetros de contabilidade**.
 
 É recomendável vincular as contas principais a categorias de conta principal, de forma que você possa aproveitar as vantagens dos relatórios financeiros padrão sem ter que fazer modificações. Consequentemente, você poderá projetar e manter relatórios de forma mais rápida e fácil.
 
@@ -61,4 +60,3 @@ Para obter mais informações, consulte os seguintes tópicos:
 
 - [Dimensões financeiras](financial-dimensions.md)
 - [Criar e atribuir estruturas de regras avançadas](tasks/create-assign-advanced-rule-structures.md)
-

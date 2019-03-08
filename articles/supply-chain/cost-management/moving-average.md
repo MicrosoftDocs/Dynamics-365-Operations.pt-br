@@ -1,13 +1,13 @@
 ---
-title: "Média de movimentos"
-description: "A média de movimentos é um método de avaliação de custo perpétuo baseado no princípio da média, no qual os custos das saídas de estoque não são alterados quando os custos de compra mudam. A diferença é capitalizada e baseia-se em um cálculo proporcional. O valor restante é despesa."
+title: Média de movimentos
+description: A média de movimentos é um método de avaliação de custo perpétuo baseado no princípio da média, no qual os custos das saídas de estoque não são alterados quando os custos de compra mudam. A diferença é capitalizada e baseia-se em um cálculo proporcional. O valor restante é despesa.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0befa0e31347c9ee15ac0426fa3314b151a0200d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c1f8a8cf4a58177d423709f245760a5ba9ca7e4e
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348057"
 ---
-
 # <a name="moving-average"></a>Média de movimentos
 
 [!include [banner](../includes/banner.md)]
@@ -113,8 +112,7 @@ Neste exemplo de média móvel, o relatório de valor de estoque é impresso par
 | 8 de outubro        | 8 de outubro    | Reavaliação da média de movimentos |          | 4,00   | 16,00             |
 |                  | 31 de outubro   | Total                      | 2        | 32,00  | 16,00             |
 
- **Observação:** Não é possível reconciliar a contabilidade com o estoque usando a opção **Classificação de tempo da transação**. O relatório deve ser impresso usando a opção **Data de lançamento**.
-
+ **Observação:** Não é possível reconciliar a contabilidade com o estoque usando a opção **Classificação de tempo da transação**. O relatório deve ser impresso usando a opção **Data de lançamento**.
 
 
 

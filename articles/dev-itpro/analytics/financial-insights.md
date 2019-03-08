@@ -1,13 +1,13 @@
 ---
 title: Insights financeiros
-description: "Os insights financeiros usam o Microsoft Power BI para reunir indicadores chave de desempenho (KPIs) financeiros, gráficos e demonstrativos financeiros."
+description: Os Insights Financeiros usam o Microsoft Power BI para reunir indicadores chave de desempenho (KPIs) financeiros, gráficos e demonstrativos financeiros.
 author: kweekley
 manager: AnnBe
 ms.date: 08/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,20 +16,19 @@ ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 4f4cb254ad2d4328e146f5dba471aafb21660986
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 2c261d2aea66b578bc976a66b6184384f0a5bf5d
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308842"
 ---
-
 # <a name="financial-insights"></a>Insights financeiros
 
 [!include [banner](../includes/banner.md)]
 
-Os **Insights Financeiros** usam o Microsoft Power BI para reunir indicadores chave de desempenho (KPIs) financeiros, gráficos e demonstrativos financeiros. O Power BI está incorporado no Microsoft Dynamics 365 Finance and Operations. O foco dos **Insights Financeiros** é o relatório analítico. As pessoas de uma organização podem exibir, pesquisar, entender e atuar. 
+Os **Insights Financeiros** usam o Microsoft Power BI para reunir indicadores chave de desempenho (KPIs) financeiros, gráficos e demonstrativos financeiros. O Power BI é incorporado ao Microsoft Dynamics 365 Finance and Operations. O foco dos **Insights Financeiros** é o relatório analítico. As pessoas de uma organização podem exibir, pesquisar, entender e atuar. 
 
 Os **Financial Insights** combinam dados da contabilidade e dos razões auxiliares para fornecer uma visão mais completa da saúde financeira de uma organização.
 
@@ -40,7 +39,7 @@ Os **Financial Insights** combinam dados da contabilidade e dos razões auxiliar
 > - **Página** – Uma guia em um arquivo .pbix único. Cada página pode conter um ou mais recursos visuais.
 > - **Recurso Visual** – Uma única fonte de dados, como um cartão, um KPI, um gráfico, um gráfico, uma matriz ou um demonstrativo financeiro. Uma página que tem um demonstrativo financeiro como um recurso visual não pode ter outros recursos visuais devido ao volume de dados que está sendo reportado.
 
-Atualmente, os **Insights Financeiros** são usados para exibir dados para a entidade legal ativa ou para todas as entidades legais. Em versões futuras, o espaço de trabalho se expandirá para o local no qual você poderá usar o Power BI para editar e criar recursos visuais.
+Atualmente, os **Insights Financeiros** são usados para exibir dados para a entidade legal ativa ou para todas as entidades legais. Em versões futuras, o espaço de trabalho se transformará no lugar onde você poderá usar o Power BI para editar e criar visuais.
 
 O espaço de trabalho **Visão geral de CFO** mostra os mesmos recursos visuais dos **Insights Financeiros**, mas está focado em permitir que você visualize e filtre os dados em relatórios existentes. Em versões futuras você poderá adicionar novos recursos visuais ao espaço de trabalho **Insights financeiros**. Os novos recursos visuais também podem estar disponíveis nos espaços de trabalho que estão concentrados em outras funções, como gerentes de projeto ou gerentes de contas a pagar. O espaço de trabalho **visão geral de CFO** continua mostrando dados de todas as entidades legais, independentemente das entidades legais às quais a função tem acesso.
 
@@ -81,13 +80,13 @@ Nas versões anteriores, as entidades LedgerActivityMeasure e VendPaymentBIMeasu
 Você pode definir um lote recorrente para atualizar regularmente os dados nas entidades. Como cada entidade é recriada completamente durante uma atualização, selecione a hora e frequência de atualizações da entidade cuidadosamente. A entidade principal usada para demonstrativos financeiros é a entidade FinancialReportingTransactionData. Portanto, você pode decidir atualizar essa entidade com mais frequência.
 
 ## <a name="security"></a>Segurança
-Atualmente, os dados nos relatórios do Power BI incorporados não podem ser limitados às entidades legais às quais o usuário tem acesso. Portanto, os relatórios do Power BI incorporados são controlados através de direitos na configuração de segurança. Os direitos definidos permitem acesso a dados de todas as entidades legais ou somente à empresa ativa. A tabela a seguir mostra os direitos que existem e as funções às quais eles estão atribuídos. Os direitos podem ser removidos ou atribuídos a diferentes funções, com base nos requisitos de sua organização.
+No momento, os dados nos relatórios incorporados do Power BI não podem ser limitados às entidades legais às quais o usuário tem acesso. Por isso os relatórios incorporados do Power BI são controlados por meio de direitos na configuração de segurança. Os direitos definidos permitem acesso a dados de todas as entidades legais ou somente à empresa ativa. A tabela a seguir mostra os direitos que existem e as funções às quais eles estão atribuídos. Os direitos podem ser removidos ou atribuídos a diferentes funções, com base nos requisitos de sua organização.
 
 | Direitos                                    | Funções | Descrição |
 |-----------------------------------------|-------|------------|
 | Exibir espaço de trabalho de Visão geral do CFO             | Diretor financeiro | Esta obrigação fornece acesso ao espaço de trabalho visão geral de CFO. Por padrão, a empresa ativa é usada como um filtro. Entretanto, você pode adicionar todas as entidades legais, independentemente de o usuário ter acesso às outras entidades legais. |
 | Exibir insights financeiros da empresa atual | <ul><li>Contador</li><li>Gerente de contabilidade</li><li>Supervisor de contabilidade</li><li>Auditor</li><li>Gerente de orçamentos</li><li>Diretor executivo</li><li>Diretor financeiro</li><li>Controlador financeiro</li></ul> | Esta obrigação fornece acesso aos Insights financeiros. Por padrão, a empresa ativa é usada como um filtro. Você não pode adicionar outras entidades legais. |
-| Exibir insights financeiros interempresariais   | No Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3, esta obrigação não está atribuída a uma função. Na próxima versão, essa obrigação será atribuída à função Diretor financeiro. | Esta obrigação fornece acesso ao item de menu do espaço de trabalho visão geral de CFO. Por padrão, a empresa ativa é usada como um filtro. Entretanto, você pode adicionar todas as entidades legais, independentemente de o usuário ter acesso às outras entidades legais. |
+| Exibir insights financeiros interempresariais   | No Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3, esse direito não é atribuído a uma função. Na próxima versão, essa obrigação será atribuída à função Diretor financeiro. | Esta obrigação fornece acesso ao item de menu do espaço de trabalho visão geral de CFO. Por padrão, a empresa ativa é usada como um filtro. Entretanto, você pode adicionar todas as entidades legais, independentemente de o usuário ter acesso às outras entidades legais. |
 
 
 ## <a name="financial-reporting-vs-finanical-insights"></a>Relatório financeiro em comparação com Insights financeiros
@@ -123,10 +122,10 @@ Além dos elementos de interface do usuário no espaço de trabalho **Visão ger
 - Vendas por cliente
 
 ## <a name="edit-visuals"></a>Editar elementos visuais
-Na versão inicial dos **Insights financeiros**, nenhum elemento visual pode ser editado. Nas versões futuras, os usuários que têm a segurança apropriada poderão criar novos elementos visuais, copiar elementos visuais existentes e editar elementos visuais. Embora os arquivos de .pbix que contêm os relatórios estejam disponíveis como recursos, não recomendamos que você edite os relatórios padrão. Alterações adicionais serão feitas no modelo de dados, relatórios padrão e no elemento visual do demonstrativo financeiro que são usados para criar os demonstrativos financeiros. Assim, para tirar vantagens dos novos recursos e alterações do modelo de dados na próxima versão, você terá que refazer todas as alterações executadas nos relatórios padrão através da área de trabalho do Microsoft Power BI.
+Na versão inicial dos **Insights financeiros**, nenhum elemento visual pode ser editado. Nas versões futuras, os usuários que têm a segurança apropriada poderão criar novos elementos visuais, copiar elementos visuais existentes e editar elementos visuais. Embora os arquivos de .pbix que contêm os relatórios estejam disponíveis como recursos, não recomendamos que você edite os relatórios padrão. Alterações adicionais serão feitas no modelo de dados, relatórios padrão e no elemento visual do demonstrativo financeiro que são usados para criar os demonstrativos financeiros. Assim, para aproveitar os novos recursos e as alterações feitas no modelo de dados na próxima versão, você terá que refazer todas as alterações feitas nos relatórios padrão via Microsoft Power BI Desktop.
 
 ## <a name="filtering"></a>Filtragem
-Os usuários podem filtrar o relatório usando o painel **Filtro** à esquerda. Esse painel é igual ao painel que está disponível na área de trabalho do Power BI. Há vários níveis de filtragem, algumas talvez não estejam disponíveis, dependendo do que você selecionou em uma página (guia) ou se você está usando os recursos de análise.
+Os usuários podem filtrar o relatório usando o painel **Filtro** à esquerda. Esse painel é igual ao painel que está disponível por meio do Power BI Desktop. Há vários níveis de filtragem, algumas talvez não estejam disponíveis, dependendo do que você selecionou em uma página (guia) ou se você está usando os recursos de análise.
 
 - **Filtros de nível do relatório** – Esses filtros são aplicados a todos os elementos visuais em todas as páginas (guias).
 - **Filtros do nível de página** – Esses filtros são aplicados a todos os elementos visuais na guia ativa. Esses filtros são aplicados na parte superior dos filtros em nível de relatório.
@@ -174,13 +173,13 @@ As seguintes dimensões são usadas nos relatórios padrão. Nenhuma dessas dime
 
 ## <a name="drill-on-data"></a>Consultar dados
 
-Vários níveis de detalhamento estão disponíveis no Power BI. Cada nível tem um nome e funcionalidade diferente. Você também pode detalhar linhas e colunas. Esta seção discute várias opções usando o demonstrativo financeiro **Balancete** como um exemplo e mostrando como você pode detalhar as linhas. A mesma funcionalidade existe para as colunas. Você apenas deve alterar a configuração **Detalhar**.
+Há vários níveis de análise disponíveis no Power BI. Cada nível tem um nome e funcionalidade diferente. Você também pode detalhar linhas e colunas. Esta seção discute várias opções usando o demonstrativo financeiro **Balancete** como um exemplo e mostrando como você pode detalhar as linhas. A mesma funcionalidade existe para as colunas. Você apenas deve alterar a configuração **Detalhar**.
 
 Na ilustração a seguir, o demonstrativo **Balancete** é recolhido para o nível mais alto da hierarquia de linha, o tipo de conta principal.
 
 ![Balanço ou Balancete](./media/trial-balance.png)
 
-Para exibir o próximo nível da hierarquia, as categorias de conta principal, você pode definir o campo **Detalhar** para **Linhas** e selecionar o botão **Expandir** (o terceiro botão após o campo Detalhar). Agora você verá todas as categorias contábeis principais expandidas. Atualmente, o Power BI não permite expandir somente uma linha ou coluna, mas ver todas as outras linhas ou colunas.
+Para exibir o próximo nível da hierarquia, as categorias de conta principal, você pode definir o campo **Detalhar** para **Linhas** e selecionar o botão **Expandir** (o terceiro botão após o campo Detalhar). Agora você verá todas as categorias contábeis principais expandidas. No momento, o Power BI não permite expandir somente uma linha ou coluna, mas ver todas as outras linhas ou colunas.
 
 ![Balanço ou Balancete](./media/trial-balance2.png)
 
@@ -194,7 +193,7 @@ Depois de fazer busca detalhada em uma única linha, vários cliques são necess
 
 Você pode continuar usando o botão **Fazer drill up** para retornar ao mais alto nível de resumo das linhas.
 
-O Power BI também tem um botão que permite que você vá para o próximo nível na hierarquia (o segundo botão após o campo **Detalhar**). O efeito deste botão difere do efeito do botão **Expandir** (o terceiro botão após o campo **Detalhar**), que é usado para expandir a hierarquia. Quando você expande a hierarquia, ela é mantida no relatório. Por exemplo, como mostrado anteriormente, se expandir o tipo de conta principal, você ainda verá o tipo de conta principal no relatório. Porém, quando você avançar para o próximo nível da hierarquia, o relatório não mostrará mais o pai na hierarquia, conforme mostrado na seguinte ilustração.
+O Power BI também tem um botão que permite ir para o próximo nível na hierarquia (o segundo botão após o campo **Detalhar**). O efeito deste botão difere do efeito do botão **Expandir** (o terceiro botão após o campo **Detalhar**), que é usado para expandir a hierarquia. Quando você expande a hierarquia, ela é mantida no relatório. Por exemplo, como mostrado anteriormente, se expandir o tipo de conta principal, você ainda verá o tipo de conta principal no relatório. Porém, quando você avançar para o próximo nível da hierarquia, o relatório não mostrará mais o pai na hierarquia, conforme mostrado na seguinte ilustração.
 
 ![Balanço ou Balancete](./media/trial-balance5.png)
 
@@ -240,14 +239,13 @@ Os elementos visuais do demonstrativo financeiro têm um limite em relação ao 
 Se o máximo for excedido, os totais que aparecem no demonstrativo financeiro estarão incorretos, pois nem todas as linhas foram carregadas para o elemento visual.
 
 ### <a name="empty-rows"></a>Linhas vazias
-O Power BI não fornece uma opção para ocultar e mostrar linhas vazias. Se uma linha não tiver dados, a linha não aparecerá no elemento visual.
+O Power BI não tem uma opção para ocultar e mostrar linhas vazias. Se uma linha não tiver dados, a linha não aparecerá no elemento visual.
 
 
-## <a name="additional-resources-for-power-bi"></a>Recursos adicionais para o Power BI
+## <a name="additional-resources-for-power-bi"></a>Recursos adicionais para Power BI
 
-As informações nos seguintes recursos não são necessárias para habilitar relatórios incorporados para o espaço de trabalho **Visão geral de CFO** ou **Insights financeiros** em um ambiente de produção. Em vez disso, elas são úteis para as caixas de colaborador e se você quiser incorporar em seus próprios relatórios do Power BI para Finance and Operations.
+As informações nos seguintes recursos não são necessárias para habilitar relatórios incorporados para o espaço de trabalho **Visão geral de CFO** ou **Insights financeiros** em um ambiente de produção. Em vez disso, elas são úteis para caixas de desenvolvimento e se você quiser incorporar seus relatórios do Power BI ao Finance and Operations.
 
 - <https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/>
 
 - <https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces>
-

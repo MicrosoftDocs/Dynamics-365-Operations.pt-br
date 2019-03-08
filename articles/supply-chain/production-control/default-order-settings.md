@@ -1,13 +1,13 @@
 ---
-title: "Configurações de ordem padrão para dimensões e variantes de produto"
-description: "As configurações de ordem padrão definem o local e o depósito de onde os itens serão originários ou armazenados, as quantidades mínima, máxima, múltiplas e padrão que serão usadas para a comercialização ou o gerenciamento de estoque, os prazos de entrega, o sinalizador de parada e o método de promessa de ordens."
+title: Configurações de ordem padrão para dimensões e variantes de produto
+description: As configurações de ordem padrão definem o local e o depósito de onde os itens serão originários ou armazenados, as quantidades mínima, máxima, múltiplas e padrão que serão usadas para a comercialização ou o gerenciamento de estoque, os prazos de entrega, o sinalizador de parada e o método de promessa de ordens.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventItemOrderSetup
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: b7c36553c9ad5bf4b061285d617be85ce77d0fcd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: d0e8d1ac8b775f9c728d6bfa6ba219dd889bf8a2
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326368"
 ---
-
-# <a name="default-order-settings-for-dimensions-and-product-variants"></a>Configurações de ordem padrão para dimensões e grades de produtos
+# <a name="default-order-settings-for-dimensions-and-product-variants"></a>​Configurações de ordem padrão para dimensões e grades de produtos​
 
 [!include [banner](../includes/banner.md)]
 
 [!include [retail name](../includes/retail-name.md)]
 
-As configurações de ordem padrão no Microsoft Dynamics 365 for Finance and Operations definem o local e o depósito de onde os itens serão originários ou armazenados, as quantidades mínima, máxima, múltiplas e padrão que serão usadas para a comercialização ou o gerenciamento de estoque, os prazos de entrega, o sinalizador de parada e o método de promessa de ordens. As configurações de ordem padrão são usadas durante a criação de ordens de compra, ordens de venda, ordens de transferência, diários de estoque e pelo planejamento mestre para a geração de ordens planejadas. As configurações de ordem padrão podem ser específicas por item, local, grade de produto ou dimensão de produto.
+As configurações de ordem padrão no Microsoft Dynamics 365 for Finance and Operations definem o local e o depósito de onde os itens serão originários ou armazenados, as quantidades mínima, máxima, múltipla e padrão que serão usadas para a comercialização ou o gerenciamento de estoque, os prazos de entrega, o sinalizador de parada e o método de promessa de ordens. As configurações de ordem padrão são usadas durante a criação de ordens de compra, ordens de venda, ordens de transferência, diários de estoque e pelo planejamento mestre para a geração de ordens planejadas. As configurações de ordem padrão podem ser específicas por item, local, grade de produto ou dimensão de produto.
 
 Você pode definir as configurações de ordem padrão na página **Configurações de ordem padrão**. Para abrir esta página, vá para **Gerenciamento de informações do produto** &gt; **Produtos** &gt; **Produtos liberados** &gt; **Selecione um produto liberado** &gt; no Painel de Ação **Plano** ou  **Gerenciar estoque** &gt; **Configurações da ordem** &gt; **Configurações padrão da ordem**.
 
@@ -170,7 +169,6 @@ Se o sistema de regras para as configurações de ordem padrão for muito compli
 | 0    |      |               |       |                                      | 5                  |                    |                                   |                 |
 
 A classificação nesse caso não tem importância, portanto você pode optar por ocultá-la. Esta solução apresenta potencialmente um problema de manutenção. No entanto, você pode querer usar esta configuração se estiver considerando a integração com sistemas PLM (Gerenciamento do Ciclo de Vida do Produto).
-
 
 
 

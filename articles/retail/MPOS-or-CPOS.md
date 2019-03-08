@@ -1,32 +1,31 @@
 ---
-title: Escolher entre Retail Modern POS (MPOS) e Cloud POS
-description: "Este tópico explica as principais diferenças entre o Retail Modern POS e o PDV em Nuvem. Ele também descreve os vários fatores que os varejistas que estão implementando o Microsoft Dynamics 365 for Retail devem considerar para ajudá-los a fazer a melhor escolha de acordo com suas necessidades."
+title: Escolher entre Retail Modern POS (MPOS) e PDV em Nuvem
+description: Este tópico explica as principais diferenças entre o Retail Modern POS e o PDV em Nuvem. Ele também descreve os vários fatores que os varejistas que estão implementando o Microsoft Dynamics 365 for Retail devem considerar para ajudá-los a fazer a melhor escolha de acordo com suas necessidades.
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 0b137a21a610a8bffc10b03067b429995e8e0662
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336235"
 ---
-
-# <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>Escolher entre Retail Modern POS (MPOS) e Cloud POS
+# <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>Escolher entre Retail Modern POS (MPOS) e PDV em Nuvem
 
 [!include [banner](includes/banner.md)]
 
@@ -40,10 +39,10 @@ O Retail fornece uma ampla variedade de opções de implantação e de topologia
 
 O Retail oferece suporte às seguintes opções de PDV:
 
-- Retail Modern POS (MPOS) do Microsoft Windows
-- MPOS para Microsoft Windows Phone
+- Retail Modern POS (MPOS) para Microsoft Windows
+- MPOS para Telefone do Microsoft Windows
 - MPOS para tablet Apple iPad ou Google Android
-- PDV em Nuvem (CPOS) que oferece suporte aos navegadores Microsoft Edge, Internet Explorer e Google Chrome
+- PDV em Nuvem (CPOS) que oferece suporte aos navegadores do Microsoft Edge, Internet Explorer e Google Chrome
 
 Em todos os casos, o PDV (MPOS e CPOS) compartilha o mesmo código básico de aplicativo. Este ponto é importante pelos seguintes motivos:
 
@@ -58,10 +57,10 @@ Embora o MPOS e o CPOS sejam em grande parte os mesmos, existem algumas diferen�
 
 #### <a name="mpos"></a>MPOS
 
-O MPOS em um dispositivo Windows, iOS ou Android é um aplicativo que é empacotado, instalado e passa por manutenção no dispositivo.
+O MPOS em um dispositivo Windows, iOS ou Android é um aplicativo que é empacotado, instalado e atendido no dispositivo.
 
 - **Windows** – O MPOS para aplicativos do Windows contém todos os códigos do aplicativo e o tempo de execução de comércio inserido (CRT). 
-- **iOS/Android** – Nessas plataformas, o aplicativo funciona como um host para o código do aplicativo de CPOS. Em outras palavras, o código do aplicativo vem do servidor do CPOS no Microsoft Azure ou da Unidade de escala do Retail Store (RSSU). Para obter mais informações, consulte [Visão geral da Unidade de escala do Retail Store](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
+- **iOS/Android** – Nessas plataformas, o aplicativo funciona como um host para o código do aplicativo de CPOS. Em outras palavras, o código do aplicativo será obtido do servidor CPOIS no Microsoft Azure ou no Retail Store Scale Unit (RSSU). Para obter mais informações, consulte [visão geral do Retail Store Scale Unit](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
 
 #### <a name="cpos"></a>CPOS
 
@@ -77,7 +76,7 @@ Além de uma plataforma e um fator forma, os varejistas também devem escolher u
 | MPOS para iOS ou Android | Nuvem ou RSSU | Não                |
 | PDV em Nuvem               | Nuvem ou RSSU | Não                |
 
-#### <a name="retail-server"></a>Servidor de varejo
+#### <a name="retail-server"></a>Retail Server
 
 O servidor do Retail é um componente que hospeda o CRT. O CRT contém toda a lógica comercial que o PDV usa e fornece acesso ao banco de dados do canal. Enquanto estão online, todos os clientes de PDV na loja usam o servidor do Retail. O servidor do Retail pode ser implantado na nuvem ou na loja (RSSU).
 
@@ -106,4 +105,3 @@ Considere as seguintes informações enquanto planeja sua implementação de PDV
 - **Dispositivos de hardware/periféricos** – Um aspecto importante de um sistema Retail POS é sua capacidade de usar periféricos de PDV, como impressoras, caixas registradoras e terminais de pagamento. Embora todas as opções disponíveis de PDV possam usar dispositivos periféricos, somente o MPOS para Windows pode suportá-las diretamente. Para todos os outros aplicativos, uma ou mais estações de hardware são necessárias. Embora essa abordagem adicione flexibilidade, componentes adicionais devem ser implantados, configurados e ter manutenção.
 - **Requisitos do sistema** – Os requisitos do sistema para o aplicativo de PDV variam. Lembre-se de verificar as informações mais recentes antes de fazer sua escolha. Por exemplo, como o CPOS é executado em um navegador, ele oferece suporte a uma ampla variedade de sistemas operacionais. Para obter mais informações sobre os requisitos do sistema, consulte [Requisitos de sistema para implantações na nuvem](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/system-requirements).
 - **Implantação e manutenção** – A complexidade dos requisitos de implantação e manutenção pode variar, dependendo das escolhas de aplicativos e implantação. Por exemplo, para uma implementação de CPOS hospedada em nuvem, não é necessário instalação e atualização em cada dispositivo. Portanto, essa abordagem reduz muito a complexidade e os custos. No entanto, se você implantar o MPOS em cada registro e habilitar o modo offline, e também implantar estações de hardware compartilhadas, aumentará muito o número de pontos de extremidade que devem ser gerenciados.
-

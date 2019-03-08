@@ -1,13 +1,13 @@
 ---
-title: "Alinhe habilidades de força de trabalho com as necessidades comerciais"
-description: "Você pode rastrear as habilidades que os trabalhadores, candidatos ou pessoas de contato têm ou devem ter, para atender suas funções efetivamente. Você também pode especificar as habilidades necessárias para um trabalho específico."
+title: Alinhe habilidades de força de trabalho com as necessidades comerciais
+description: Você pode rastrear as habilidades que os trabalhadores, candidatos ou pessoas de contato têm ou devem ter, para atender suas funções efetivamente. Você também pode especificar as habilidades necessárias para um trabalho específico.
 author: kherr75
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmSkill, HcmSkillGapProfile, HcmSkillMapping, HcmSkillType
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: 0b86a8d134ef553db6719f4cefb02e4acfc00ae5
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303241"
 ---
-
 # <a name="align-workforce-skills-with-business-needs"></a>Alinhe habilidades de força de trabalho com as necessidades comerciais
 
 [!include [banner](includes/banner.md)]
@@ -70,7 +69,6 @@ Você pode criar uma análise de perfil de habilidades para exibir uma lista de 
 --------
 
 [Recursos humanos](index.md)
-
 
 
 

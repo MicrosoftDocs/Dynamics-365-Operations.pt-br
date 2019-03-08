@@ -1,13 +1,13 @@
 ---
 title: Grupos de custos
-description: "Os grupos de custos fornecem a base para a segmentação e análise de contribuições de custo no custo calculado de um item fabricado, como as contribuições de custo para materiais, trabalho e custos gerais indiretos. A segmentação de grupos de custo tem vários sinônimos dentro dos ambientes de fabricação, como divisão de custo, decomposição de custo ou classificação de custo."
+description: Os grupos de custos fornecem a base para a segmentação e análise de contribuições de custo no custo calculado de um item fabricado, como as contribuições de custo para materiais, trabalho e custos gerais indiretos. A segmentação de grupos de custo tem vários sinônimos dentro dos ambientes de fabricação, como divisão de custo, decomposição de custo ou classificação de custo.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCostGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1f1f97981c33c72c71e055848e874002dad73813
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f44099c2ce30d917838733af072721dd79148d27
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337408"
 ---
-
 # <a name="cost-groups"></a>Grupos de custos
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ A um grupo de custo pode ser atribuído um tipo de grupo de custo e um comportam
 
 -   **Tipo de grupo de custos** − A cada grupo de custo deve ser atribuído um tipo de grupo de custo para indicar que o grupo de custos é aplicado a material direto, fabricação direta, terceirização direta ou para designá-lo como indireto ou indefinido. Um grupo de custo designado como material direto pode ser atribuído a itens. Um grupo de custo de fabricação direta pode ser atribuído a categorias de custo. Um grupo de custos de terceirização direta pode ser atribuído a um tipo de produto de serviço, de forma que você possa classificar os custos associados com a compra de serviço para atividades de subcontratação. Um grupo de custo indireto pode ser atribuído a custos indiretos para sobretaxas ou taxas. Um grupo de custo designado como indefinido pode ser atribuído para itens, categorias de custo ou custos indiretos. A atribuição de um tipo de grupo de custo serve para várias finalidades. Primeiro, ele restringe a capacidade de atribuir um grupo de custo e exibir uma lista suspensa de grupos de custos aplicáveis. Segundo, esta fornece segmentação completar para finalidade de relatório. Terceiro, esta pode ser usada para atribuir contas contábeis para variações.
 -   **Comportamento** − Cada grupo de custos pode, opcionalmente, ser atribuído um comportamento para indicar se o grupo de custos é aplicado a custos fixos ou variáveis. Um grupo de custo com um valor nulo para comportamento é tratado como um custo variável. A atribuição de um comportamento serve somente para a finalidade de relatório. Por exemplo, os custos podem ser exibidos com segmentação de custos fixos e variáveis na folha de custos e na página**Acúmulo de custo por grupo de custo**. Se você atribuir uma porcentagem de definição de lucro para cada grupo de custo, o cálculo da lista de materiais (BOM) fornece um preço de venda sugerido com base em uma abordagem custo mais marcação.
-
 
 
 

@@ -1,32 +1,31 @@
 ---
 title: Sincronizar produtos diretamente do Finance and Operations com produtos no Sales
-description: "Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar produtos do Microsoft Dynamics 365 for Finance and Operations para o Microsoft Dynamics 365 for Sales."
+description: Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar produtos do Microsoft Dynamics 365 for Finance and Operations para o Microsoft Dynamics 365 for Sales.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: feb9fbc066162e2caa9fc5dbaeec2c063ae23060
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348241"
 ---
-
 # <a name="synchronize-products-directly-from-finance-and-operations-to-products-in-sales"></a>Sincronizar produtos diretamente do Finance and Operations com produtos do Sales
 
 [!include [banner](../includes/banner.md)]
@@ -120,7 +119,6 @@ A ilustração a seguir mostra um exemplo de um mapeamento de modelo na Integra�
 [Sincronizar cabeçalhos e linhas de ordem de venda diretamente do Finance and Operations com o Sales](sales-order-template-mapping-direct-two-ways.md)
 
 [Sincronizar cabeçalhos e linhas de fatura diretamente do Finance and Operations com o Sales](sales-invoice-template-mapping-direct.md)
-
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: Reservar o mesmo lote para uma ordem de venda
-description: "Este artigo explica como configurar um produto para permitir a reserva de estoque em relação a um único lote de estoque."
+description: Este artigo explica como configurar um produto para permitir a reserva de estoque em relação a um único lote de estoque.
 author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResStorageDimensionGroup, EcoResTrackingDimensionGroup, InventBatch, InventModelGroup, PdsAskSameLotForm, PdsCustSellableDays
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2d6089d07b0f8bc1a36703b5b1c2f24af72770d5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: aef3a52f4cb2d5af47a8c25a67e6c2076fa1ff03
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309532"
 ---
-
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>Reservar o mesmo lote para uma ordem de venda
 
 [!include [banner](../includes/banner.md)]
@@ -44,7 +43,6 @@ Ao reservar estoque para um produto em uma linha da ordem de venda configurada p
 -   O código de disposição do lote tem **Bloquear reserva** da venda sinalizado como **Bloqueado**.
 -   O lote expirou com base na data de vencimento e nos dias comercializáveis aplicáveis do cliente. O item ainda poderá ser considerado para reserva se o grupo de modelos de item for controlado pela data FEFO (primeiro a vencer, primeiro a sair) e se a data de validade for selecionada como critério de separação.
 -   O lote não tem dias restantes de validade suficientes com base na data de vencimento e na data de validade, mais os dias comercializáveis do cliente.
-
 
 
 

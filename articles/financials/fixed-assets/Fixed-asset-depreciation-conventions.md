@@ -1,13 +1,13 @@
 ---
-title: "Convenções de depreciação de ativos fixos"
-description: "Este tópico oferece uma visão geral das convenções de depreciação de ativos fixos."
+title: Convenções de depreciação de ativos fixos
+description: Este tópico oferece uma visão geral das convenções de depreciação de ativos fixos.
 author: saraschi2
 manager: AnnBe
 ms.date: 03/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ff8575749a33321450ea61fe1f01105c005e9092
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c69fd798c2e978935a63b079fb11c68d8555594c
-ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337431"
 ---
-
 # <a name="fixed-asset-depreciation-conventions"></a>Convenções de depreciação de ativos fixos
 
 [!include [banner](../includes/banner.md)]
@@ -45,5 +44,4 @@ As convenções de depreciação podem ser atribuídas à configuração de um r
 | Meio do mês (Décimo quinto dia do Mês) |                                                                                                                                                        Para calcular a dedução de depreciação para o ano quando você coloca a propriedade em serviço, multiplique a depreciação de um ano inteiro por uma fração. O numerador (número superior) dessa fração é o número de meses completos no ano em que a propriedade esteve em serviço, mais 1/2 ou (0,5). O denominador (número inferior) é 12. Se você descartar a propriedade antes do final do período de recuperação, use o mesmo método para calcular a dedução de depreciação para o ano de descarte.                                                                                                                                                        |
 | Semestre (início do ano) |                                                                                                                                                                                                                                                          Os ativos com uma data <strong>Colocado em serviço</strong> na primeira metade do ano começam a ser depreciados no primeiro dia do ano (ano inteiro). Os ativos com uma data <strong>Colocado em serviço</strong> na segunda metade do ano começam a ser depreciados na metade do ano.                                                                                                                                                                                                                                                          |
 |   Semestre (próximo ano)   |                                                            Os ativos com uma data <strong>Colocado em serviço</strong> na primeira metade do ano começam a ser depreciados no primeiro dia do ano (ano inteiro). Os ativos com uma data <strong>Colocado em serviço</strong> na segunda metade do ano começam a ser depreciados no primeiro dia do próximo ano. Os ativos desativados na primeira metade do ano são considerados desativados para fins de depreciação no último dia do ano anterior. Qualquer depreciação lançada no ano atual deve ser revertida ou ajustada. Os ativos desativados na segunda metade do ano são considerados desativados para fins de depreciação no último dia do ano de desativação.                                                            |
-
 

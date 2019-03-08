@@ -1,14 +1,14 @@
 ---
-title: "Configurações de Administração no Attract"
-description: "Este tópico explica como habilitar a funcionalidade de recursos para organizações e usuários no Attract."
-author: 
+title: Configurações de Administração no Attract
+description: Este tópico explica como habilitar a funcionalidade de recursos para organizações e usuários no Attract.
+author: ''
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,15 +18,14 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
 ms.openlocfilehash: fb7b5e5b98ddb8e0e44fccbb0ddbb05199265414
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303251"
 ---
-
-# <a name="admin-settings-in-attract"></a>Configurações de Administração no Attract
+# <a name="admin-settings-in-attract"></a>Configurações do administrador no Attract
 [!include[banner](../includes/banner.md)]
 
 O Centro de administração no Microsoft Dynamics 365 for Talent: Attract contém definições de configurações, opções de integração e opções de instalação para o aplicativo Attract.
@@ -69,4 +68,3 @@ Você também pode configurar opções relacionadas à experiência do candidato
 Também é possível definir e impor uma data de vencimento para as ofertas. Se você definir a opção **Requer uma data de vencimento para todas as ofertas** como **Sim**, a oferta expirará após o número de horas ou de dias especificado.
 
 Para obter mais informações sobre o gerenciamento de ofertas, consulte [Configurar o gerenciamento de ofertas](./offer-setup.md).
-

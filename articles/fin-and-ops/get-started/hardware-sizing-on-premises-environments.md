@@ -1,30 +1,29 @@
 ---
 title: Requisitos de dimensionamento de hardware para ambientes locais
-description: "Este tópico lista os requisitos de dimensionamento de hardware para um ambiente local."
+description: Este tópico lista os requisitos de dimensionamento de hardware para um ambiente local.
 author: kfend
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 55651
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: d277bc4c4c815317bade8a04b9111232fb707086
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340720"
 ---
-
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Requisitos de dimensionamento de hardware para ambientes locais
 
 [!include [banner](../includes/banner.md)]
@@ -120,7 +119,7 @@ A [planilha de dimensionamento](http://adfsdocs.blob.core.windows.net/adfs/ADFSC
     - 1 a 4 threads de lote por núcleo
     - Tamanho baseado na caracterização de janela de lote
 
-- Observe que o AOS, o Gerenciamento de Dados e o Lote estão na mesma função no Service Fabric. Você precisa dimensionar para estas três cargas de trabalho combinadas e não deve separá-las como no Microsoft Dynamics AX 2012.
+- Observe que o AOS, o Gerenciamento de Dados e o Lote estão na mesma função no Service Fabric. É necessário dimensionar para estas três cargas de trabalho combinadas e você não precisa separá-las como no Microsoft Dynamics AX 2012.
 - Aplicam-se aqui os mesmos fatores de variação para o SQL Server
 
 ### <a name="high-availability"></a>Alta disponibilidade
@@ -143,4 +142,3 @@ O serviço Orchestrator é o serviço que gerencia sua implantação e a comunic
 ## <a name="virtualization-and-oversubscription"></a>Virtualização e excesso de subscrição
 
 Os serviços de missão crítica como o AOS devem ser hospedados em Hosts virtuais com recursos dedicados - núcleos, memória e disco.
-

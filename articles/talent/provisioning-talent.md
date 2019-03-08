@@ -1,13 +1,13 @@
 ---
 title: Provisionar o Talent
-description: "Este tópico o orienta através do processo de provisionar um novo ambiente para Microsoft Dynamics 365 for Talent."
+description: Este tópico o orienta através do processo de provisionar um novo ambiente para Microsoft Dynamics 365 for Talent.
 author: rschloma
 manager: AnnBe
 ms.date: 09/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: 6fb41a8c1ff4ce95bab5b169256955f244e66071
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303310"
 ---
 # <a name="provision-talent"></a>Provisionar o Talent
 
 [!include [banner](includes/banner.md)]
 
-Este tópico mostra o processo de provisionamento de um novo ambiente de produção para o Microsoft Dynamics 365 for Talent. Este tópico pressupõe que você adquiriu o Talent por meio do Provedor de Soluções na Nuvem ou do contrato de arquitetura da empresa (EA). Se você tiver uma licença existente do Microsoft Dynamics 365 que já inclua o plano do serviço do Talent e não puder concluir as etapas deste tópico, entre em contato com o Suporte.
+Este tópico o orienta através do processo de provisionar um novo ambiente de produção para Microsoft Dynamics 365 for Talent. Este tópico pressupõe que você adquiriu o Talent por meio do Provedor de Soluções na Nuvem ou do contrato de arquitetura da empresa (EA). Se você tiver uma licença existente do Microsoft Dynamics 365 que já inclua o plano do serviço do Talent e não puder concluir as etapas deste tópico, entre em contato com o Suporte.
 
 Para começar, o administrador global deve entrar no [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) e criar um novo projeto Talent. A assistência dos representantes de Suporte ou do Dynamics Service Engineering (DSE) não é necessária, a menos que um problema de licença o impeça de provisionar o Talent
 
@@ -38,7 +38,7 @@ Para usar o LCS para gerenciar seus ambientes do Talent, você deve criar primei
 1. Entre no [LCS](https://lcs.dynamics.com/Logon/Index) usando a conta utilizada para inscrever-se no Talent.
 2. Selecione o sinal de adição (**+**) para criar um projeto.
 3. Selecione **Microsoft Dynamics 365 for Talent** como o nome do produto e a versão do produto.
-4. Selecione a metodologia **Dynamics 365 for Talent**.
+4. Selecione a metodologia do **Dynamics 365 for Talent**.
 5. Selecione **Criar**.
 
 Para obter informações sobre como começar a usar o Talent, consulte a metodologia do **Talent** que você criou em seu novo projeto. Após finalizar a criação do projeto, conclua o seguinte procedimento para provisionar seu ambiente do Talent.
@@ -87,5 +87,4 @@ Use as seguintes orientações ao determinar para qual ambiente do PowerApps o T
  
 ## <a name="grant-access-to-the-environment"></a>Conceder acesso ao ambiente
 Por padrão, o administrador global que criou o ambiente tem acesso a ele. Entretanto, os usuários adicionais do aplicativo devem ter acesso explicitamente. Para conceder acesso, [adicione usuários](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) e [atribua as funções adequadas a eles](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles) no ambiente do Core HR. O administrador global que implantou Talent também deve iniciar os aplicativos Attract and Onboard para concluir a inicialização e habilitar o acesso para outros usuários do locatário.  Até que isso ocorra, outros usuários não poderão acessar os aplicativos Attract and Onboard e receberão erros de violação.
-
 

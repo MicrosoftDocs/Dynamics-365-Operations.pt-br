@@ -1,13 +1,13 @@
 ---
-title: "Cotações do projeto"
-description: "Este artigo introduz o conceito de cotações de projeto, que pode ser usado para fazer uma atraente oferta a um cliente como primeira etapa da fase do projeto. Uma cotação de projeto pode incluir os itens e os serviços que são cotados, informações básicas de contato, contratos comerciais especiais, descontos e possíveis taxas e subtaxas."
+title: Cotações do projeto
+description: Este artigo introduz o conceito de cotações de projeto, que pode ser usado para fazer uma atraente oferta a um cliente como primeira etapa da fase do projeto. Uma cotação de projeto pode incluir os itens e os serviços que são cotados, informações básicas de contato, contratos comerciais especiais, descontos e possíveis taxas e subtaxas.
 author: KimANelson
 manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesQuotationProjTable
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bdfb1b0702ed59127e2e26589ea8e44837e81756
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c7de1d7e57a2a32c339bc576f929958b9de91fcc
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343227"
 ---
-
 # <a name="project-quotations"></a>Cotações do projeto
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,6 @@ Em uma cotação de projeto, você insere os serviços, informações básicas d
 A cotação do projeto é uma previsão não vinculativa do trabalho que deve ser executado. No entanto, quando as informações da cotação são copiadas para um projeto que está associado a um contrato de projeto, elas se tornam parte obrigatória de um contrato vinculante entre dois participantes. 
 
 Se o cliente aprovar a cotação do projeto, será possível copiar informações da cotação do projeto em um projeto. Também é possível copiar, ao mesmo tempo, informações da cotação do projeto em uma previsão de projeto.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Visualização geral da requisição de compra"
-description: "Este tópico descreve o fluxo de trabalho de requisição de compra e os diferentes status que uma requisição de compra pode ter."
+title: Visualização geral da requisição de compra
+description: Este tópico descreve o fluxo de trabalho de requisição de compra e os diferentes status que uma requisição de compra pode ter.
 author: mkirknel
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f279474d4a1e2f76e810b0df80c8d91171352c17
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 942693ed3d2d54c6e973e5d3f86454b195f0fdee
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309831"
 ---
-
 # <a name="purchase-requisition-overview"></a>Visualização geral da requisição de compra
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ Depois que uma requisição de compra for aprovada, ela poderá ser usada para g
 ## <a name="creating-purchase-requisitions"></a>Criar requisições de compra
 Você pode criar uma requisição de compra na página **Minhas requisições de compra** e selecione os itens e os serviços exigidos. Você pode selecionar itens de um catálogo de compras que sua organização criou ou pode solicitar os itens que não estejam localizados em um catálogo ao selecionar uma categoria de compras e inserir os detalhes do produto.  
 
-Antes que você possa enviar uma requisição de compra para revisão, os fluxos de trabalho deverão ser configurados no cliente do Microsoft Dynamics 365 for Finance and Operations. Use um sistema de fluxo de trabalho para mover uma requisição de compra por um processo de revisão com um status inicial **Rascunho** para um status final **Aprovado**.
+Antes que você possa enviar uma requisição de compra para revisão, os fluxos de trabalho deverão ser configurados no Microsoft Dynamics 365 for Finance and Operations. Use um sistema de fluxo de trabalho para mover uma requisição de compra por um processo de revisão com um status inicial **Rascunho** para um status final **Aprovado**.
 
 ### <a name="purchase-requisition-statuses"></a>Status de requisições de compra
 
@@ -142,7 +141,7 @@ Nas políticas de compras, você pode controlar os objetivos da requisição que
 
 ### <a name="requisitions-that-have-a-purpose-of-consumption"></a>Requisições que têm um objetivo de consumo
 
-Uma requisição com o objetivo de consumo representa a demanda para itens e serviços que serão usados internamente pela organização. A demanda criada com esse tipo de requisição é sempre cumprida por uma ordem de compra. Se o Microsoft Dynamics 365 for Finance and Operations for configurado para gerar automaticamente as ordens de compra, as ordens de compra são criadas após a requisição de compra ter sido aprovada.
+Uma requisição com o objetivo de consumo representa a demanda para itens e serviços que serão usados internamente pela organização. A demanda criada com esse tipo de requisição é sempre cumprida por uma ordem de compra. Se o Microsoft Dynamics 365 for Finance and Operations estiver configurado para gerar automaticamente ordens de compra, ordens de compra serão criadas após a requisição de compra ser aprovada.
 
 ### <a name="requisitions-that-have-a-purpose-of-replenishment"></a>Requisições que têm um objetivo de reabastecimento
 
@@ -198,7 +197,6 @@ Para consolidar linhas de requisição de compra aprovadas, siga estas etapas:
 [Criar uma requisição para consumo (Guia de tarefas)](tasks/create-requisition-consumption.md)
 
 [Fluxo de trabalho de requisição de compra](purchase-requisitions-workflow.md)
-
 
 
 

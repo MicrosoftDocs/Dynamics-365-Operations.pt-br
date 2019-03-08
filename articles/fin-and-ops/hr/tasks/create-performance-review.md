@@ -1,13 +1,13 @@
---- 
-title: "Criar uma avaliação de desempenho"
-description: "Este procedimento mostra como criar uma previsão dos resultados e descreve a finalidade de cada seção de revisão."
+---
+title: Criar uma avaliação de desempenho
+description: Este procedimento mostra como criar uma previsão dos resultados e descreve a finalidade de cada seção de revisão.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd
 audience: Application User
 ms.reviewer: rschloma
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
 ms.openlocfilehash: 437a63159f0333434175acce081fa4ff417c334b
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338466"
 ---
 # <a name="create-a-performance-review"></a>Criar uma avaliação de desempenho
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimento mostra como criar uma previsão dos resultados e descreve a finalidade de cada seção de revisão. Este procedimento foi criado usando a empresa de dados de demonstração USMF. Este procedimento é para um recurso que foi adicionado à versão 1611 do Dynamics 365 for Operations.
+Este procedimento mostra como criar uma previsão dos resultados e descreve a finalidade de cada seção de revisão. Este procedimento foi criado usando a empresa de dados de demonstração USMF. Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynamics 365 for Operations.
 
 1. Clique em Autoatendimento para funcionários.
 2. Clique em Nova revisão para criar nova revisão.
@@ -79,5 +79,4 @@ Este procedimento mostra como criar uma previsão dos resultados e descreve a fi
     * Como revisão se move com o status, o funcionário e gerente podem adicionar comentários ou para cada meta competência.  
 42. Clique na guia Desconexões.
     * O trabalhador e gerente podem se desconectar da revisão. Quando todos os prazos de conexão exigidos for concluído, o status será alterado para concluído e não poderá mais alteração ser feita.  
-
 

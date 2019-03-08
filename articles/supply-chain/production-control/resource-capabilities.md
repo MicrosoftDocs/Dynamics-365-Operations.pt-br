@@ -1,13 +1,13 @@
 ---
 title: Capacidades do recurso
-description: "Este artigo fornece informações sobre os recursos de recurso. Um recurso é a capacidade de um recurso de operações de executar uma atividade específica. O artigo explica como os recursos e os conceitos relacionados, como o nível de proficiência e a prioridade, são usados para selecionar recursos apropriados para uma atividade."
+description: Este artigo fornece informações sobre os recursos de recurso. Um recurso é a capacidade de um recurso de operações de executar uma atividade específica. O artigo explica como os recursos e os conceitos relacionados, como o nível de proficiência e a prioridade, são usados para selecionar recursos apropriados para uma atividade.
 author: sorenva
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WrkCtrCapability, WrkCtrTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 567b4c5544f2a58801fefb1aa9d4c72815913910
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 533faf78e4cc9a091d64f7c6a0f82d14158710c8
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319284"
 ---
-
 # <a name="resource-capabilities"></a>Capacidades do recurso
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ Neste exemplo, a duas máquinas podem ser selecionadas pelo mecanismo de agendam
 
 ## <a name="competencies-for-human-resources"></a>Competências de recursos humanos
 Quando você tem os recursos operacionais do tipo **Recursos humanos** que estão vinculados a trabalhadores de RH, também pode aproveitar as competências de trabalhadores quando define os requisitos de recursos para um roteiro de produção. Ou seja, você também pode especificar requisitos para habilidades, cursos, certificados ou títulos específicos. O mecanismo de agendamento pode selecionar os recursos que estão vinculados a trabalhadores. A seleção se baseará nas competências desses trabalhadores. As competências são configuradas em Recursos humanos, e não na página **Capacidades do recurso**. Quando você define habilidades, cursos, certificados ou títulos como requisitos de recurso, deve usar a funcionalidade Recursos humanos e vincular cada recurso do tipo **Recursos humanos** a um trabalhador correspondente. Se não estiver usando a funcionalidade Recursos humanos, você poderá definir capacidades na página **Capacidades do recurso** que lembrem ou dupliquem as competências de Recursos humanos. No entanto, a página **Capacidades do recurso** não contém a funcionalidade necessária para manter habilidades, cursos, certificações ou títulos.
-
 
 
 

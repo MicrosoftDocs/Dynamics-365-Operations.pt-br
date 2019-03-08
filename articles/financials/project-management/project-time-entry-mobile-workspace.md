@@ -1,13 +1,13 @@
 ---
-title: "Espaço de trabalho móvel de entrada de tempo do projeto"
-description: "Este tópico fornece informações sobre o espaço de trabalho móvel de entrada de tempo do projeto. Este espaço de trabalho permite que os usuários insiram e economizem tempo com um projeto usando seu dispositivo móvel."
+title: Espaço de trabalho móvel de entrada de tempo do projeto
+description: Este tópico fornece informações sobre o espaço de trabalho móvel de entrada de tempo do projeto. Este espaço de trabalho permite que os usuários insiram e economizem tempo com um projeto usando seu dispositivo móvel.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -18,21 +18,20 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: e671fe6e7c99bfb6d66f3b00560c3b0c404d2343
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9bf79af6eea6f899158fc3c8d523587cb11c90ad
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332992"
 ---
-
 # <a name="project-time-entry-mobile-workspace"></a>Espaço de trabalho móvel de entrada de tempo do projeto
 
 [!include [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre a área de trabalho móvel de **Entrada de tempo do projeto**. Este espaço de trabalho permite que os usuários insiram e economizem tempo com um projeto usando seu dispositivo móvel.
 
-O espaço de trabalho móvel é destinado a ser usado com o Microsoft Dynamics 365 do aplicativo móvel Operações Unificadas. 
+Este espaço de trabalho móvel deve ser usado com o Microsoft Dynamics 365 do aplicativo Unified Operations Mobile. 
 
 ## <a name="overview"></a>Visão Geral
 Como parte do trabalho diário, os recursos de projetos são frequentemente no local ou em trânsito. O espaço de trabalho móvel **Entrada de tempo de projeto** permite que os usuários insiram tempo faturável ou não faturável em um projeto no dispositivo móvel de sua escolha. Portanto, recursos do projeto podem gravar entradas de tempo a qualquer momento e em qualquer lugar. Também podem exibir as entradas de horas que já foram registradas. 
@@ -46,13 +45,13 @@ Especificamente, na área de trabalho móvel **Entrada de tempo do projeto**, os
 -   Opcionalmente insira comentários internos ou externos.
 
 ## <a name="prerequisites"></a>Pré-requisitos
-Os pré-requisitos diferem, com base da versão do Microsoft Dynamics 365 que foi implantada para sua organização.
+Os pré-requisitos variam conforme a versão do Microsoft Dynamics 365 implantada na organização.
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Pré-requisitos se você usa o Microsoft Dynamics 365 for Finance and Operations
-Se o Microsoft Dynamics 365 for Finance and Operations foi implantado em sua organização, o administrador do sistema deve publicar o espaço de trabalho móvel **Entrada de hora de projeto**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Se o Microsoft Dynamics 365 for Finance and Operations foi implantado na organização, o administrador do sistema deverá publicar o espaço de trabalho móvel **Entrada de hora de projeto**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Pré-requisitos se você usar o Microsoft Dynamics 365 for Operations versão 1611 com a atualização da plataforma 3 ou posterior
-Se o Microsoft Dynamics 365 for Operations versão 1611 com a atualização da plataforma 3 ou posterior tiver sido implantado em sua organização, o administrador do sistema deve completar os seguintes pré-requisitos. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Pré-requisitos se você usa a versão 1611 do Microsoft Dynamics 365 for Operations com a atualização de plataforma 3 ou posterior
+Se o Microsoft Dynamics 365 for Operations versão 1611 com a atualização de plataforma 3 ou posterior foi implantado na organização, o administrador do sistema deverá atender aos pré-requisitos a seguir. 
 
 <table>
 <thead>
@@ -114,4 +113,3 @@ Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
 11. Selecionar a propriedade da linha.
 12. Opcional: insira comentários internos ou externos.
 13. Selecione **Concluído**.
-

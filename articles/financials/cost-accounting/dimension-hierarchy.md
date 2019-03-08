@@ -1,32 +1,31 @@
 ---
-title: "Hierarquia de dimensões"
-description: "Este tópico fornece informações sobre hierarquias de dimensões. As hierarquias de dimensões são usadas para definir a estrutura de relatórios, as políticas de custo e a configuração de segurança na Contabilização de Custos."
+title: Hierarquia de dimensões
+description: Este tópico fornece informações sobre hierarquias de dimensões. As hierarquias de dimensões são usadas para definir a estrutura de relatórios, as políticas de custo e a configuração de segurança na Contabilização de Custos.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 55d567eb3b4ad6746f39118b575457bb00fe0a47
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 40a4a1d7549876b72186f30a9c0089f0d27cf3b6
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320204"
 ---
-
 # <a name="dimension-hierarchy"></a>Hierarquia de dimensões
 
 [!include [banner](../includes/banner.md)]
@@ -54,7 +53,7 @@ Uma hierarquia de dimensões pode ser criada para os seguintes tipos de dimensõ
 > [!NOTE]
 > - Você pode criar várias hierarquias de dimensões para a mesma dimensão caso sejam necessárias perspectivas diferentes.
 > - Uma hierarquia de dimensões pode ser associada a uma única dimensão.
-> - Uma hierarquia de dimensões pode ter níveis ilimitados em sua estrutura. Todos os níveis serão disponibilizados no espaço de trabalho **Controle de custos**. Ao usar o Microsoft Excel ou Microsoft Power BI para fins de relatório, somente os primeiros 15 níveis da hierarquia de dimensões são exportados. Essa limitação existe porque ambos, Excel e Power BI, exigem um esquema fixo.
+> - Uma hierarquia de dimensões pode ter níveis ilimitados em sua estrutura. Todos os níveis serão disponibilizados no espaço de trabalho **Controle de custos**. Quando você usa o Microsoft Excel ou Microsoft Power BI para fins de relatório, somente os 15 primeiros níveis da hierarquia de dimensões são exportados. Essa limitação existe porque tanto Excel quanto o Power BI exigem um esquema fixo.
 > - Uma hierarquia de dimensões não é efetiva com relação à data. Portanto, qualquer alteração a uma hierarquia de dimensões é salva imediatamente no registro, e você não pode comparar as datas anterior e posterior.
 
 ## <a name="dimension-hierarchy-type"></a>Tipo de hierarquia de dimensões
@@ -172,7 +171,7 @@ Você move um nó para uma nova localização na hierarquia selecionando o nó d
 - **Mover após** – Mova o nó selecionado da sua posição atual na hierarquia, e insira-o **após** o nó de destino selecionado, no seu nível hierárquico.
 
 > [!NOTE] 
-> A ordem dos nós não é mantida quando você exporta dados para o Excel ou o Power BI, pois essas ferramentas usam uma ordem de classificação alfanumérica por padrão. Você deve reorganizar manualmente a ordem.
+> A ordem dos nós não é mantida quando você exporta dados para o Excel ou para o Power BI porque, por padrão, essas ferramentas usam uma ordem de classificação alfanumérica. Você deve reorganizar manualmente a ordem.
 
 ## <a name="define-dimension-hierarchies-for-reporting"></a>Definir hierarquias de dimensões para relatórios
 
@@ -328,10 +327,9 @@ As configurações da hierarquia da lista de acesso são usadas para controlar o
 
 - Power BI:
 
-    - Dados mostrados nas visualizações do Power BI
-    - Visualizações de Dados do Power BI inseridos no cliente Microsoft Dynamics 365 for Finance and Operations
+    - Dados mostrados em visualizações do Power BI
+    - Visualizações de dados do Power BI incorporadas no cliente do Microsoft Dynamics 365 for Finance and Operations
 
 > [!NOTE] 
-> - Antes que a hierarquia da lista de acesso possa afetar os dados no Power BI, a hierarquia da lista de acesso e a segurança em nível de linha no Power BI devem ser emparelhadas. Para obter mais informações, consulte [Configurar segurança para o pacote de conteúdo de contabilização de custo](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
+> - Antes que a hierarquia da lista de acesso possa afetar os dados no Power BI, a hierarquia da lista de acesso e a segurança no nível de linha do Power BI devem ser emparelhadas. Para obter mais informações, consulte [Configurar segurança para o pacote de conteúdo de contabilização de custo](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - A hierarquia da lista de acesso não ajuda a garantir a exportação de dados para o Excel. Portanto, essa ferramenta de relatório deve ser usada somente por contadores e gerentes que devem ter acesso total aos dados.
-

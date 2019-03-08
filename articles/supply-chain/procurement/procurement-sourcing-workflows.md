@@ -1,13 +1,13 @@
 ---
 title: Fluxos de trabalho de Compras
-description: "Algumas organizações exigem que as requisições de compra e as ordens de compra sejam aprovadas por um usuário diferente daquele que iniciou a transação. Para configurar um processo de aprovação, você pode criar um fluxo de trabalho."
+description: Algumas organizações exigem que as requisições de compra e as ordens de compra sejam aprovadas por um usuário diferente daquele que iniciou a transação. Para configurar um processo de aprovação, você pode criar um fluxo de trabalho.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowTableListPageRnr
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d25ca64fb6a3fa7d7898ec68568703f3de7b1595
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 75daeed0d0e979165d3669e83e98cf278d7fb736
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330071"
 ---
-
 # <a name="procurement-and-sourcing-workflows"></a>Fluxos de trabalho de compras
 
 [!include [banner](../includes/banner.md)]
@@ -76,5 +75,4 @@ Você pode atribuir uma etapa de aprovação aos grupos de participantes a segui
 - [Fluxo de trabalho de requisição de compra](purchase-requisitions-workflow.md)
 
 - [Integração de fornecedores](vendor-onboarding.md)
-
 

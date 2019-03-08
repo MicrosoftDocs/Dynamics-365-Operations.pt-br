@@ -1,13 +1,13 @@
 ---
-title: "Visão geral dos modelos de configuração de produto"
-description: "Esse artigo define condições e conceitos que são relevantes para configuração de produtos. Modelos de configuração de produto permitem criar uma estrutura de produtos genérica que pode ser usada para definir diversas variantes de produto para um único produto."
+title: Visão geral dos modelos de configuração de produto
+description: Esse artigo define condições e conceitos que são relevantes para configuração de produtos. Modelos de configuração de produto permitem criar uma estrutura de produtos genérica que pode ser usada para definir diversas variantes de produto para um único produto.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails, PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d908b9e58da06646e07ddc5fc4d937cc1f1849cd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0ddc9d43f62df937a6fb18e15c718c37442bb9b4
-ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313948"
 ---
-
 # <a name="product-configuration-models-overview"></a>Visão geral dos modelos de configuração de produto
 
 [!include [banner](../includes/banner.md)]
@@ -141,7 +140,7 @@ Uma restrição de tabela definida pelo sistema representa um mapeamento entre u
 </tr>
 <tr class="even">
 <td>Linhas de BOM</td>
-<td>As linhas da BOM representam os materiais individuais dos componentes do modelo de configuração de produto. Na página <strong>Detalhes da linha de BOM</strong>, todos os itens estão disponíveis para seleção. Uma condição pode ser adicionada à linha de BOM para que as linhas de BOM selecionadas para uma variante de produto distinta possam variar, com base na seleção do usuário quando o modelo de configuração de produto for configurado. Condições são expressões que devem ser atendidas para os atributos, linhas da BOM, e as operações de roteiro a serem incluídas em um modelo de configuração de produto. Na página <strong>Detalhes da linha de BOM</strong>, selecione um valor distinto. Como alternativa, é possível mapear para um atributo para o qual o valor é selecionado quando o modelo de configuração de produto é configurado.</td>
+<td>As linhas da BOM representam os materiais individuais dos componentes do modelo de configuração de produto. Na página <strong>Detalhes da linha de BOM</strong>, todos os itens estão disponíveis para seleção. Uma condição pode ser adicionada à linha de BOM para que as linhas de BOM selecionadas para uma variante de produto distinta possam variar, com base na seleção do usuário quando o modelo de configuração de produto é configurado. Condições são expressões que devem ser atendidas para os atributos, linhas da BOM, e as operações de roteiro a serem incluídas em um modelo de configuração de produto. Na página <strong>Detalhes da linha de BOM</strong>, selecione um valor distinto. Como alternativa, é possível mapear para um atributo para o qual o valor é selecionado quando o modelo de configuração de produto é configurado.</td>
 </tr>
 <tr class="odd">
 <td>Operações de roteiro</td>
@@ -149,7 +148,6 @@ Uma restrição de tabela definida pelo sistema representa um mapeamento entre u
 </tr>
 </tbody>
 </table>
-
 
 
 

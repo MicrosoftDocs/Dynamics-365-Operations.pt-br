@@ -1,13 +1,13 @@
---- 
+---
 title: Criar grades de produtos predefinidas
-description: "Este procedimento mostra como criar variantes de produto para um produto mestre que usam as combinações de dimensões do produto."
+description: Este procedimento mostra como criar variantes de produto para um produto mestre que usam as combinações de dimensões do produto.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductMasterDimension, EcoResProductVariants, EcoResProductVariantSuggestions
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: ab4f43957f7c661349714dbb0933ac3c1d19ab0e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c49d25004b19084276404cf887188e89200afa32
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349805"
 ---
 # <a name="create-predefined-product-variants"></a>Criar grades de produtos predefinidas
 
@@ -71,5 +71,4 @@ Este procedimento mostra como criar variantes de produto para um produto mestre 
 4. Clique em Criar.
     * Você pode gerar descrições de todas as grades com base na combinação de valores de dimensão de produto. As descrições são opcionais.  
 5. Clique em Salvar.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Recrutamento de conteúdo do Power BI"
-description: "Este tópico descreve o conteúdo de recrutamento do Power BI. Ele explica como acessar os relatórios e fornece informações sobre o modelo de dados e as entidades usadas para criar o conteúdo."
+title: Conteúdo de recrutamento do Power BI
+description: Este tópico descreve o conteúdo de recrutamento do Power BI. Ele explica como acessar os relatórios e fornece informações sobre o modelo de dados e as entidades usadas para criar o conteúdo.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmRecruitmentWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,25 +18,24 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 2d8c0e0e52a8dba2a1ea5bf330cdea01e3cfb60d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 0d6bc8584d202810ed14367d36d113d9b109ea7a
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/19/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347988"
 ---
-
-# <a name="recruiting-power-bi-content"></a>Recrutamento de conteúdo do Power BI
+# <a name="recruiting-power-bi-content"></a>Conteúdo de recrutamento do Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o conteúdo de **Recrutamento** do Microsoft Power BI. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo.
+Este tópico descreve o conteúdo de **Recrutamento** do Microsoft Power BI. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que foram usados para criar o conteúdo.
 
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
 O **Recrutamento** de conteúdo do Power BI é exibido no espaço de trabalho **Gerenciamento de recrutamento**.
 
 ## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a>Relatórios e visuais na área de trabalho de gerenciamento de recrutamento
-O espaço de trabalho **Gerenciamento de recrutamento** contém uma guia **Análise** . Esta guia contém o conteúdo embutido do Power BI para recrutamento. O conteúdo consiste em uma guia visão geral e guias adicionais que contém detalhes. A tabela a seguir descreve os relatórios em cada guia.
+O espaço de trabalho **Gerenciamento de recrutamento** contém uma guia **Análise**. Esta guia contém o conteúdo embutido do Power BI para recrutamento. O conteúdo consiste em uma guia visão geral e guias adicionais que contém detalhes. A tabela a seguir descreve os relatórios em cada guia.
 
 | Relatório               | Conteúdo |
 |----------------------|----------|
@@ -46,7 +45,7 @@ O espaço de trabalho **Gerenciamento de recrutamento** contém uma guia **Anál
 | Análise de recrutamento  | Taxa de aluguel líquido, dias médios de contratação, porcentagem de contratações ruins, custos de recrutamento, número de projetos de recrutamento, contratações de candidatos e candidatos versus aberturas por projeto de recrutamento |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
-Você pode filtrar os gráficos e blocos nesses relatórios e fixá-los no painel. Para obter mais informações sobre como filtrar e fixar no Power BI, consulte [Criar e configurar um painel](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Você pode filtrar os gráficos e blocos nesses relatórios e fixá-los no painel. Para obter mais informações sobre como filtrar e fixar no Power BI, consulte [Criar e Configurar um Painel](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 A seguinte tabela mostra as entidades nas quais o conteúdo do Power BI de **Recrutamento** foi baseado.
 
@@ -66,4 +65,3 @@ A seguinte tabela mostra as entidades nas quais o conteúdo do Power BI de **Rec
 | Desempenho          | Classificação, descrição e modelo de classificação                            | Candidato, candidato empregado, candidato demitido |
 | Projeto de recrutamento  | Descrição do projeto, status do projeto e aberturas                | Candidato, candidato empregado, candidato demitido |
 | Candidato demitido | Candidatos finalizados, desempenho e data de demissão | Companhia, compensação de calendário, data, localização geográfica, desempenho, demografia, emprego, mídia, projeto de recrutamento, nome do candidato |
-

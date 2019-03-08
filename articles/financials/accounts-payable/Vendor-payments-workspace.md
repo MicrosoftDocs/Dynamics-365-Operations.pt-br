@@ -1,30 +1,29 @@
 ---
-title: "Espaço de trabalho de pagamentos dos fornecedores"
-description: "Este tópico fornece informações sobre a área de trabalho móvel de pagamentos de fornecedor. A área de trabalho de pagamentos de fornecedor mostra informações relacionadas ao processamento de pagamentos de fornecedores."
+title: Espaço de trabalho de pagamentos dos fornecedores
+description: Este tópico fornece informações sobre a área de trabalho móvel de pagamentos de fornecedor. A área de trabalho de pagamentos de fornecedor mostra informações relacionadas ao processamento de pagamentos de fornecedores.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPaymentWorkspace
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 03fd290f8ad780e740a8fe6552c7a64c44b65a67
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cb5a674472936a52b624c548fd37079d57eb6cb7
-ms.openlocfilehash: fa8ddf52d34c3662e120509156ab0b343bb4cc16
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346102"
 ---
-
 # <a name="vendor-payments-workspace"></a>Espaço de trabalho de pagamentos dos fornecedores
 
 [!include [banner](../includes/banner.md)]
@@ -69,5 +68,4 @@ A tabela a seguir mostra as visualizações disponíveis em cada página de rela
 |         Fluxo de trabalho de pagamento          |                                                                                <ul><li>Instâncias de fluxo de trabalho de pagamento do fornecedor</li><li>Instâncias de fluxo de trabalho de pagamento de fornecedores por aprovador</li><li>Instâncias de fluxo de trabalho de pagamento do fornecedor por empresa</li><li>Média de dias no fluxo de trabalho por aprovador</li></ul>                                                                                |
 |    Fornecedor para o saldo de cliente     |                                                                                                                   <ul><li>Fornecedor para o saldo de cliente</li><li>Vendedor para o saldo de cliente por empresa</li><li>Detalhes do saldo do fornecedor para o cliente</li></ul>                                                                                                                    |
 |    Faturas com retenção de pagamento     |                                                                                         <ul><li>Faturas com retenção de pagamento</li><li>Faturas com detalhes de retenção de pagamento</li><li>Faturas com retenção de pagamento por empresa</li><li>Faturas com retenção de pagamento por grupo de fornecedores</li></ul>                                                                                          |
-
 

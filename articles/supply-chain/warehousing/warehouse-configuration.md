@@ -1,13 +1,13 @@
 ---
-title: "Configuração de depósito"
-description: "Este artigo explica como configurar um depósito. Ele inclui informações sobre como habilitar um layout de depósito e processos de depósito."
+title: Configuração de depósito
+description: Este artigo explica como configurar um depósito. Ele inclui informações sobre como habilitar um layout de depósito e processos de depósito.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7e50d03718234748d9ad5092500b970216c40284
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 79e0ce728cb3c1eec450d0814d0a3aeda131fe89
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318433"
 ---
-
 # <a name="warehouse-configuration"></a>Configuração de depósito
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ Este artigo explica como configurar um depósito. Ele inclui informações sobre
 **Observação:** Este artigo se aplica aos recursos no módulo de **Gerenciamento de depósito** (estoque avançado). Não se aplica aos recursos de depósito no módulo de **Gerenciamento de depósito**.
 
 ## <a name="warehouse-layout"></a>Layout do depósito
-O sistema de gerenciamento de depósito no Microsoft Dynamics 365 for Finance and Operations fornece uma maneira flexível de definir o layout de depósito para atender às necessidades de modificação, para que você possa obter uma ótima eficiência de depósito.
+O sistema de gerenciamento de depósito no Microsoft Dynamics 365 for Finance and Operations proporciona uma maneira flexível de definir o layout de depósito para atender às necessidades em constante mudança, de forma que você possa obter uma ótima eficiência de depósito.
 
 -   Você pode liquidar áreas de armazenamento de alta e baixa prioridade para o posicionamento ideal de mercadorias.
 -   Você pode dividir o depósito em zonas para acomodar várias necessidades de armazenamento, como requisitos de temperatura, ou várias taxas de devolução de itens.
@@ -116,7 +115,6 @@ Para facilitar e agilizar a definição de ações associadas a cada linha de di
 --------
 
 [Configurar localizações em um depósito habilitado para WMS (guia de tarefas)](tasks/configure-locations-wms-enabled-warehouse.md)
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Configurar códigos de disposições"
-description: "Este procedimento se concentra na configuração de um código de disposição que pode ser usado em um dispositivo móvel para o processo de recebimento da ordem de devolução."
+---
+title: Configurar códigos de disposições
+description: Este procedimento se concentra na configuração de um código de disposição que pode ser usado em um dispositivo móvel para o processo de recebimento da ordem de devolução.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 85402e05d55367da5fe89b242ad8eafc727b441e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c004543188656dfd53d7539717cd6e93d0b9f47a
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324114"
 ---
 # <a name="set-up-dispositions-codes"></a>Configurar códigos de disposições
 
@@ -39,5 +39,4 @@ Este procedimento se concentra na configuração de um código de disposição q
     * Opcional: Selecione um código de modelo de trabalho associado a uma ordem de devolução. Se nenhum valor for fornecido, o modelo de trabalho será resolvido usando as regras padrão configuradas no sistema. Selecionar um modelo de trabalho irá limitar os processos para os quais este código de disposição pode ser usado. Por exemplo, se um código de disposição tem um modelo de trabalho com uma ordem de trabalho do tipo ordem de compra, ele não poderá ser usado para registrar os itens que são devolvidos por clientes.  
 6. No campo Código de disposição de devolução, digite um valor.
     * O código de disposição de devolução determina o restante do processo da ordem de devolução para os itens registrados. Neste exemplo, o cliente deve receber uma nota de crédito. Adicione um código de disposição de devoluções que contenha uma ação de Crédito.  
-
 

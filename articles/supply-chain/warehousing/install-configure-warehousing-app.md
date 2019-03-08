@@ -1,13 +1,13 @@
 ---
-title: "Instalação e configuração do Microsoft Dynamics 365 for Finance and Operations &#8211; Warehousing"
-description: "Este tópico descreve como instalar e configurar o Microsoft Dynamics 365 for Finance and Operations - Warehousing."
+title: Instalar e configurar o Microsoft Dynamics 365 for Finance and Operations &#8211; Warehousing
+description: Este tópico descreve como instalar e configurar o Microsoft Dynamics 365 for Finance and Operations - Warehousing.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 11/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -19,15 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: f5e99351d79cb5898c6d5565d3d3197a8fe860df
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 0967b10c2037c24c044f38c49b1b998f6771c66b
-ms.openlocfilehash: a1f3cb65e370154e8f3f94780ffb5cab223c85f8
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316110"
 ---
-
-# <a name="install-and-configure-microsoft-dynamics-365-for-finance-and-operations-8211-warehousing"></a>Instalação e configuração do Microsoft Dynamics 365 for Finance and Operations &#8211; Warehousing
+# <a name="install-and-configure-microsoft-dynamics-365-for-finance-and-operations-8211-warehousing"></a>Instalar e configurar o Microsoft Dynamics 365 for Finance and Operations &#8211; Warehousing
 
 [!include [banner](../includes/banner.md)]
 
@@ -47,17 +46,19 @@ O aplicativo está disponível em sistemas operacionais Android e Windows. Para 
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Android                     | 4.4, 5.0, 6.0, 7.0, 8.0                                                                                                                                                     |
 | Windows (UWP)               | Windows 10 (todas as versões)                                                                                                                                                   |
-| Finance and Operations | Microsoft Dynamics 365 for Operations, versão 1611 <br>- ou - <br>Microsoft Dynamics AX versão 7.0/7.0.1 e atualização 2 da plataforma do Microsoft Dynamics AX atualização com hotfix KB 3210014 |
+| Finance and Operations | Microsoft Dynamics 365 for Operations, versão 1611 <br>- ou - <br>Microsoft Dynamics AX versão 7.0/7.0.1 e atualização 2 da plataforma do Microsoft Dynamics AX com hotfix KB 3210014 |
 
 ## <a name="get-the-app"></a>Obter o aplicativo
 -   Windows (UWP)
      - [Finance and Operations - Warehousing na Windows Store](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 -   Android
     - [Finance and Operations - Warehousing na Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
-    - [Finance and Operations - Warehousing na Zebra App Gallery](https://appgallery.zebra.com/showcase/apps/146?type=showcase)
+
+> [!NOTE]
+> A Zebra App Gallery foi desativada, o que significa que o aplicativo Finance and Operations - Warehousing não está mais disponível para download nesse local.
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a>Criar um aplicativo de serviço Web no Azure Active Directory
-Para habilitar o aplicativo a interagir com o servidor específico do Finance and Operations, registre o aplicativo de serviço Web em um Azure Active Directory para o inquilino do Finance and Operations. Por motivo de segurança, recomendamos que você crie um aplicativo de serviço Web para cada dispositivo que você usar. Para criar um aplicativo de serviço Web no Azure Active Directory (Azure AD), conclua as seguintes etapas:
+Para habilitar o aplicativo para interagir com o servidor específico do Finance and Operations, registre o aplicativo de serviço Web em um Azure Active Directory para o locatário do Finance and Operations. Por motivo de segurança, recomendamos que você crie um aplicativo de serviço Web para cada dispositivo que você usar. Para criar uma solicitação de serviço da Web no Azure Active Directory (Azure AD), conclua as seguintes etapas:
 
 1.  Em um navegador da Web, vá para <https://portal.azure.com>.
 2.  Insira o nome e a senha do usuário que tem acesso à assinatura do Azure.
@@ -80,7 +81,7 @@ Para habilitar o Finance and Operations para usar o aplicativo Azure AD, é nece
     3.  Atribua o usuário do dispositivo móvel do Warehouse, conforme mostrado na seguinte captura de tela. [![wh-09-add-user-security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
 
 2.  Associe o aplicativo Azure Active Directory ao usuário do aplicativo Warehousing.
-    1.  No Finance and Operations, vá para **Administração do sistema** &gt; **Configurar** &gt; **aplicativos Azure Active Directory**.
+    1.  No Finance and Operations, vá para os aplicativos **Administração do sistema** &gt; **Configuração** &gt; **Azure Active Directory**.
     2.  Crie uma nova linha.
     3.  Insira o **ID do Cliente** (obtido na última seção), forneça um nome e selecione o usuário criado anteriormente. Recomendamos que você marque todos os dispositivos, de forma que você possa remover facilmente o acesso ao Finance and Operations desta página, em caso de perda. [![wh-10-ad-applications-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)
 
@@ -92,18 +93,18 @@ Para habilitar o Finance and Operations para usar o aplicativo Azure AD, é nece
 3.  Digite as seguintes informações: 
     + **ID do cliente do Azure Active Directory** - A ID do cliente é obtida na etapa 9 em "Criar um aplicativo de serviço Web no Active Directory". 
     + **Segredo do cliente do Azure Active Directory** - O segredo do cliente é obtido na etapa 11 em "Criar um aplicativo de serviços Web no Active Directory". 
-    + **Recurso do Azure Active directory** - O recurso do Azure AD directory mostra a URL da raiz do Finance and Operations. **Nota**: Este campo não termina com um caractere de barra (/). 
-    + **Locatário do Azure Active Directory** - O locatário do Azure AD Directory usado com o servidor do Finance and Operations: `https://login.windows.net/your-AD-tenant-ID`. Por exemplo: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
+    + **Recurso do Azure Active Directory** - O recurso do do Azure AD Directory exibe o URL raiz do Finance and Operations. **Nota**: Este campo não termina com um caractere de barra (/). 
+    + **Locatário do Azure Active directory** - O locatário do Azure AD directory usado com o servidor Finance and Operations: `https://login.windows.net/your-AD-tenant-ID`. Por exemplo: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
     <br>**Nota**: Este campo não termina com um caractere de barra (/). 
     + **Empresa** - Insira a entidade legal no Finance and Operations para a qual você quer conectar o aplicativo. <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  Selecione o botão **Voltar** no canto superior esquerdo do aplicativo. O aplicativo agora conectará seu servidor do Finance and Operations e a tela de logon do trabalhador do warehouse será exibida. <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
 
-Para obter informações sobre como configurar o Dynamics 365 for Finance and Operations – Warehousing para digitalizar códigos de barras usando uma câmera em um dispositivo móvel, consulte [Digitalizar códigos de barras usando uma câmera no Dynamics 365 for Finance and Operations – Warehousing](scan-bar-codes-using-a-camera.md)
+Para obter informações sobre como configurar o Dynamics 365 for Finance and Operations – Warehousing para verificar códigos de barras com uma câmera em um dispositivo móvel, consulte [Verificar códigos de barras com uma câmera no Dynamics 365 for Finance and Operations – Warehousing](scan-bar-codes-using-a-camera.md)
 
 ## <a name="remove-access-for-a-device"></a>Remover acesso de um dispositivo
 Em caso de perda ou comprometimento do dispositivo, será necessário remover o acesso do dispositivo ao Finance and Operations. Estas etapas a seguir descrevem o processo recomendado para remover o acesso.
 
-1.  No Finance and Operations, vá para **Administração do sistema** &gt; **Configurar** &gt; **aplicativos Azure Active Directory**.
+1.  No Finance and Operations, vá para os aplicativos **Administração do sistema** &gt; **Configuração** &gt; **Azure Active Directory**.
 2.  Exclua a linha que corresponde ao dispositivo para o qual você deseja remover o acesso. Lembre-se da **ID do cliente** usada para o dispositivo removido, você precisará dela posteriormente.
 3.  Entre no portal do Azure em <https://portal.azure.com>.
 4.  Clique no ícone **Active Directory** no menu esquerdo e verifique se está no diretório correto.
@@ -111,4 +112,3 @@ Em caso de perda ou comprometimento do dispositivo, será necessário remover o 
 6.  Verifique se a **ID do Cliente** do aplicativo é igual à da etapa 2 nesta seção.
 7.  Clique no botão **Excluir** no painel superior.
 8.  Clique em **Sim** na mensagem de confirmação.
-

@@ -1,13 +1,13 @@
 ---
-title: "Sequências numéricas"
-description: "As sequências numéricas são usadas para gerar identificadores exclusivos legíveis para registros de dados mestres e registros de transações que exigem identificadores."
+title: Sequências numéricas
+description: As sequências numéricas são usadas para gerar identificadores exclusivos legíveis para registros de dados mestres e registros de transações que exigem identificadores.
 author: MargoC
 manager: AnnBe
 ms.date: 08/17/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceConfiguration
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7dadbe811e385ea6d5802c03381093d6693b23ba
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5f4ff7eb8ee9b87b9d90af4d215743596555fd73
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328438"
 ---
-
 # <a name="number-sequences"></a>Sequências numéricas
 
 [!include [banner](../includes/banner.md)]
@@ -117,4 +116,3 @@ A menos que haja um requisito de regulamentação para usar sequências numéric
 No caso de uma falha de energia, de um erro de aplicativo ou de outra falha inesperada, o sistema não pode reciclar números automaticamente para sequências numéricas contínuas. Você pode executar o processo de limpeza de forma manual ou automática para recuperar os números perdidos.
 
 Considere cuidadosamente o uso do servidor ao planejar o processo de limpeza. Recomendamos que você execute a limpeza como um trabalho em lotes fora do horário de pico.
-

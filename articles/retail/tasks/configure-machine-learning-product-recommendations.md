@@ -1,13 +1,13 @@
---- 
-title: "Configurar recomendações de produto fornecidas pelo aprendizado de máquina"
-description: "Este processo atualiza os dados no Repositório de Entidades que é usado pelo sistema de aprendizado de máquina que fornece recomendações de produto e habilita as recomendações de produto nos PDV clientes."
+---
+title: Configurar recomendações de produto fornecidas pelo aprendizado de máquina
+description: Este processo atualiza os dados no Repositório de Entidades que é usado pelo sistema de aprendizado de máquina que fornece recomendações de produto e habilita as recomendações de produto nos PDV clientes.
 author: ashishmsft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BIMeasurementDeployManagementEntityStore, RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 700af913f18e23c66db53a92033def06818af1ec
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 277ffb879b80fe57deeaa2b52c1543baaf820274
-ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348517"
 ---
 # <a name="configure-machine-learning-powered-product-recommendations"></a>Configurar recomendações de produto fornecidas pelo aprendizado de máquina
 
@@ -41,5 +41,4 @@ Este processo atualiza os dados no Repositório de Entidades que é usado pelo s
     * Se você receber a mensagem "Não foi possível recuperar os modelos de recomendações", é porque você atualizou o Repositório de Entidades muito recentemente e o sistema pode não ter finalizado a assimilação dos novos dados. Aguarde duas a três horas e tente novamente.  
 9. Clique em Salvar.
 10. Feche a página.
-
 

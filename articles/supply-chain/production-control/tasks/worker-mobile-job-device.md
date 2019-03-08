@@ -1,13 +1,13 @@
---- 
-title: "Configurar um trabalhador usando um dispositivo de trabalho móvel"
-description: "Este procedimento mostra como atribuir as funções corretas na conta de usuário de um trabalhador e, em seguida, habilitá-lo para fazer registros de chão de fábrica."
+---
+title: Configurar um trabalhador usando um dispositivo de trabalho móvel
+description: Este procedimento mostra como atribuir as funções corretas na conta de usuário de um trabalhador e, em seguida, habilitá-lo para fazer registros de chão de fábrica.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserManagement, HcmWorker, JmgRegistrationSetupTouch, JmgRegistrationSetupAssignUsers
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1bb4d806810660e55ef13a9ff21c07e0ce194496
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
-ms.openlocfilehash: f9de2f79c68fead5ede714ff05bba97118874aad
-ms.contentlocale: pt-br
-ms.lasthandoff: 02/06/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327380"
 ---
 # <a name="configure-a-worker-using-the-mobile-job-device"></a>Configurar um trabalhador usando um dispositivo de trabalho móvel
 
@@ -69,5 +69,4 @@ Este procedimento mostra como atribuir as funções corretas na conta de usuári
 5. Clique em Editar.
 6. No campo Unidade de Produção, você pode definir o filtro padrão para o trabalhador. Isso garantirá que somente os trabalhos de produção da unidade de produção selecionada serão exibidos quando o trabalhador fizer logon no dispositivo.
 7. Feche a página.
-
 

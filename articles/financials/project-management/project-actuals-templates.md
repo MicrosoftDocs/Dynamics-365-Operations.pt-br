@@ -1,13 +1,13 @@
 ---
-title: "Sincronize valores reais do projeto do Project Service Automation diretamente para o diário de integração do projeto para lançamento no Finance and Operations."
-description: "Este tópico descreve os modelos e as tarefas subjacentes usadas para sincronizar valores reais do projeto diretamente do Microsoft Dynamics 365 for Project Service Automation para o Microsoft Dynamics 365 for Finance and Operations."
+title: Sincronize valores reais do projeto do Project Service Automation diretamente para o diário de integração do projeto para lançamento no Finance and Operations.
+description: Este tópico descreve os modelos e as tarefas subjacentes usadas para sincronizar valores reais do projeto diretamente do Microsoft Dynamics 365 for Project Service Automation para o Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 0a965e8de596decf39a15977e6df8a6aa9dd35b0
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343342"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronize valores reais do projeto do Project Service Automation diretamente para o diário de integração do projeto para lançamento no Finance and Operations.
 
@@ -33,7 +33,7 @@ Este tópico descreve os modelos e as tarefas subjacentes usadas para sincroniza
 O modelo sincroniza transações do Project Service Automation para uma tabela de preparo no Finance and Operations. Após a sincronização ser concluída, você **deverá** importar os dados da tabela de preparo para o diário de integração.
 
 > [!NOTE]
-> - A integração de valores reais do projeto está disponível no Microsoft Dynamics 365 for Finance and Operations versão 8.0.1 ou posterior.
+> - A integração de valores reais do projeto está disponível no Microsoft Dynamics 365 for Finance and Operations versão 8.01.
 > - Se estiver usando o Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0, após instalar o KB 4132657 e o KB 4132660, você poderá usar os modelos para integrar tarefas de projeto, categorias de transação de despesa, estimativas de horas, estimativas de despesas e números reais e para configurar o bloqueio de funcionalidade. Se você precisar redefinir as distribuições contábeis, é recomendável também instalar o KB 4131710.
 > - Se você estiver usando o Finance and Operations 7.3.0 e estiver transferindo as transações de taxa do Project Service Automation, instale o KB 4345320 para incluir essas taxas na fatura do projeto.
 > - Se estiver inserindo valores de impostos em transações de tempo ou de despesas no Project Service Automation, instale a atualização 7 do Project Service Automation. Caso contrário, os valores reais de impostos não serão vinculados aos valores reais associados de tempo ou de despesas, bem como não serão sincronizados com o Finance and Operations. Para obter mais informações, entre em contato com o suporte.
@@ -50,7 +50,7 @@ A ilustração a seguir mostra como os dados são sincronizados entre o Project 
 
 ### <a name="template-and-tasks"></a>Modelo e tarefas
 
-Para acessar os modelos disponíveis, no centro de administração do Microsoft PowerApps, selecione **Projetos** e, no canto superior direito, marque **Novo projeto** para selecionar modelos públicos.
+Para acessar os modelos disponíveis, no Centro de administração do Microsoft PowerApps, selecione **Projetos** e, no canto superior direito, marque **Novo projeto** para selecionar modelos públicos.
 
 O seguinte modelo e as tarefas subjacentes são usados para sincronizar valores reais do projeto do Project Service Automation para o Finance and Operations:
 
@@ -140,4 +140,3 @@ A ilustração a seguir mostra exemplos de mapeamentos da tarefa de modelo na In
 [![Mapeamento de modelo](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Mapeamento de modelo](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
-

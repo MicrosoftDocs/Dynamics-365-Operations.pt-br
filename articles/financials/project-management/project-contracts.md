@@ -1,13 +1,13 @@
 ---
 title: Contratos do projeto
-description: "Este tópico fornece exemplos dos contratos de projeto que você pode criar para vários tipos de projetos e fontes de financiamento, e de como gerenciar contratos e enviar faturas a clientes do projeto no Microsoft Dynamics 365 for Finance and Operations."
+description: Este tópico fornece exemplos de contratos de projeto que você pode criar para vários tipos de projetos e de fontes de financiamento, e como você pode gerenciar contratos e clientes do projeto de fatura no Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0f0fcec64ce03c6e1d877fb1c8d004bb416bd95
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e46393b9ac8797bf12cca12099d177980b75ba38
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310360"
 ---
-
 # <a name="project-contracts"></a>Contratos do projeto
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo fornece exemplos dos contratos de projeto que você pode criar para vários tipos de projetos e fontes de financiamento, e de como gerenciar contratos e enviar faturas a clientes do projeto no Microsoft Dynamics 365 for Finance and Operations.
+Este artigo fornece exemplos de contratos de projeto que você pode criar para vários tipos de projetos e de fontes de financiamento, e como você pode gerenciar contratos e clientes do projeto de fatura no Microsoft Dynamics 365 for Finance and Operations.
 
 O tipo de projeto que você cria para um contrato de projeto determina o método de faturamento que é usado para os clientes de projeto. Você pode modificar um contrato de projeto e o projeto relacionado, mas não é possível alterar o tipo de projeto. 
 
@@ -342,7 +341,6 @@ Quando você configura o contrato de projeto, você concorda em cobrar o cliente
 -   Você cria uma fatura de cliente no final de cada mês do calendário durante o projeto.
 
 Durante o primeiro mês, um total de 800 horas são registradas pelos consultores no projeto. O custo dos materiais de escritório cobrados no projeto é de 2.000. Sendo assim, no final do mês, você cria uma fatura para 122.000, calculado como 800 horas a 150 por hora mais 2.000 para suprimentos de escritório.
-
 
 
 

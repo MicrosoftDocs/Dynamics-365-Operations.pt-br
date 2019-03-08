@@ -1,13 +1,13 @@
 ---
-title: "Configurando consignação"
-description: "Este tópico explica como configurar operações de estoque de entrada de consignação."
+title: Configurando consignação
+description: Este tópico explica como configurar operações de estoque de entrada de consignação.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirPartyTable, EcoResTrackingDimensionGroup, InventJournalName, InventJournalOwnershipChange, InventOwner, InventTableInventoryDimensionGroups, VendTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 24500ff46cc77ca8fa59c0c16427d9f05f33a87e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 758ea8b658693910edeada3a4c27c34ae187b28c
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308704"
 ---
-
 # <a name="set-up-consignment"></a>Configurando consignação
 
 [!include [banner](../includes/banner.md)]
@@ -51,4 +50,3 @@ O diário **Alteração de propriedade de estoque**é usado para registrar a tra
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Colaboração de fornecedor em processos de consignação
 Se os fornecedores serão usando a interface de colaboração de fornecedor, pode usar isso para monitorar o consumo de estoque no site. Para obter mais informações sobre fornecedores de configuração para usar a colaboração de fornecedor, [Configuração de segurança para usuários de colaboração de fornecedor](../procurement/configure-security-vendor-portal-users.md).
-

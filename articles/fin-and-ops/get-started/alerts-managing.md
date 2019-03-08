@@ -1,13 +1,13 @@
 ---
 title: Processamento de lotes de alertas
-description: "Este tópico fornece informações sobre o processamento em lotes de alertas no Microsoft Dynamics 365 for Finance and Operations."
+description: Este tópico fornece informações sobre o processamento em lotes de alertas no Microsoft Dynamics 365 for Finance and Operations.
 author: tjvass
 manager: AnnBe
 ms.date: 06/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
+ms.openlocfilehash: 482cf30b4f82e8801ebc12e3925c1efb09f7eb1e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 74db212b2086bd7c94825d8a52d9a8b86ea7b739
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341916"
 ---
-
-# <a name="batch-processing-of-alerts"></a>Processamento de lotes de alertas
+# <a name="batch-processing-of-alerts"></a>Processamento em lotes de alertas
 
 [!include [banner](../includes/banner.md)]
 
-Os alertas são processados pela funcionalidade processamento em lotes no Microsoft Dynamics 365 for Finance and Operations. É necessário configurar o processamento em lotes antes dos alertas serem emitidos.
+Os alertas são processados pela funcionalidade de processamento em lotes no Microsoft Dynamics 365 for Finance and Operations. É necessário configurar o processamento em lotes antes dos alertas serem emitidos.
 
 O Finance and Operations suporta dois tipos de eventos:
 
@@ -84,4 +83,3 @@ Se você configurar uma janela de processamento em lotes, um alerta será enviad
 
 1. Vá para **Administração do sistema** &gt; **Tarefas periódicas** &gt; **Alertas** &gt; **Alertas de data de vencimento**.
 2. Na caixa de diálogo **Alertas de data de vencimento** , insira as informações apropriadas.
-

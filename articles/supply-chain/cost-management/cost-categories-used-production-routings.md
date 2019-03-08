@@ -1,13 +1,13 @@
 ---
-title: "Categorias de custo usadas em roteiros de produção"
-description: "Este artigo oferece informações sobre as categorias de custo que se aplicam aos ambientes de fabricação que usam o roteiro."
+title: Categorias de custo usadas em roteiros de produção
+description: Este artigo oferece informações sobre as categorias de custo que se aplicam aos ambientes de fabricação que usam o roteiro.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjCategory, RouteCostCategoryPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 90177a6b8dd277ba1180073c9cf416f857c5d730
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 53e038183a10b8732a9a5e0f25aac440c224400e
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315788"
 ---
-
 # <a name="cost-categories-used-in-production-routing"></a>Categorias de custo usadas em roteiros de produção
 
 [!include [banner](../includes/banner.md)]
@@ -54,7 +53,6 @@ O registro de custo para uma categoria de custo pode ser específico ao site ou 
 Uma operação de roteiro geralmente herda as categorias de custo atribuídas ao recurso de operações ou à operação principal. Quando uma ordem de produção é criada, as operações de roteiro no roteiro de produção refletem a versão do roteiro selecionada. Você pode substituir as categorias de custo que são atribuídas às operações no roteiro de produção. 
 
 Alguns tipos de trabalho de produção podem ser aplicados a estimativas de tempo de projeto e a relatórios. Nesse caso, uma categoria de custo é necessária para fins de produção e de projeto. Você deve definir outras informações relacionadas ao projeto quando uma categoria de custo é sinalizada para uso em projetos.
-
 
 
 

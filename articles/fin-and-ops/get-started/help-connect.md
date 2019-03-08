@@ -1,13 +1,13 @@
 ---
 title: Conectar o sistema de Ajuda
-description: "Este tópico descreve os componentes do sistema de Ajuda do Microsoft Dynamics 365 for Finance and Operations, fornecendo uma visão geral de como conectá-los e um resumo de como criar a ajuda personalizada."
+description: Este tópico descreve os componentes do sistema de ajuda do Microsoft Dynamics 365 for Finance and Operations e fornece uma visão geral de como conectá-los e um resumo de como criar a ajuda personalizada.
 author: margoc
 manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 673b01648127fe1d19fb3c75c4d6812c4f22c761
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317720"
 ---
-
 # <a name="connect-the-help-system"></a>Conectar o sistema de Ajuda
 
 [!include [banner](../includes/banner.md)]
@@ -44,7 +43,7 @@ A ilustração a seguir mostra as partes do sistema de Ajuda do Finance and Oper
 ## <a name="connecting-the-help-system"></a>Conectando o sistema de Ajuda
 
 > [!NOTE]
-> A guia **Guias de tarefas** não está disponível no Microsoft Dynamics 365 for Talent e no Microsoft Dynamics 365 for Retail. Estamos trabalhando atualmente para habilitar essa funcionalidade em uma versão futura. As guias de tarefas da experiência de Introdução ao Talent permanecerão disponíveis para a funcionalidade básica. A ajuda de procedimento também está disponível no site docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) para ambos, Retail e Talent.
+> A guia **Guias de tarefa** não está disponível atualmente no Microsoft Dynamics 365 for Talent e no Microsoft Dynamics 365 for Retail. Estamos trabalhando atualmente para habilitar essa funcionalidade em uma versão futura. As guias de tarefas da experiência de Introdução ao Talent permanecerão disponíveis para a funcionalidade básica. A ajuda de procedimento também está disponível no site docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) para ambos, Retail e Talent.
 
 Usando a página de **Parâmetros do Sistema**, os administradores de sistema conectam as partes do sistema de Ajuda para uma implementação.
 
@@ -102,4 +101,3 @@ A Microsoft fornece um white paper e um código de amostra que descreve como cri
 [Visão geral do Gravador de tarefas](../../dev-itpro/user-interface/task-recorder.md)
 
 [Como criar um registro de tarefa para usar como documentação ou treinamento](../../dev-itpro/user-interface/task-recorder-training-docs.md)
-

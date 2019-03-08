@@ -1,13 +1,13 @@
 ---
 title: Configurar contas de fornecedor
-description: "Este tópico descreve os tipos de informações que você deve especificar quando cria uma nova conta de fornecedor."
+description: Este tópico descreve os tipos de informações que você deve especificar quando cria uma nova conta de fornecedor.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7653b01a8d5b80d3026a04d9979906d9ddae5d27
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4a20fca7420e7bd546e29278b40046d69a81aac6
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329128"
 ---
-
 # <a name="set-up-vendor-accounts"></a>Configurar contas de fornecedor
 
 [!include [banner](../includes/banner.md)]
@@ -67,7 +66,7 @@ Você pode criar contatos de fornecedor a partir do zero. Se desejar, você pode
 
 Você não poderá excluir um registro pessoal de contato quando o contato for referenciado em um documento. Em vez disso, poderá desativar o contato.  
 
-Você pode adicionar contatos de fornecedor para seus contatos pessoais no Microsoft Office 365. Entretanto, primeiro configure a sincronização entre o Dynamics 365 for Finance and Operations e o Office 365 na sincronização do Microsoft Exchange Server e no assistente de instalação do Microsoft Outlook.
+Você pode adicionar contatos de fornecedor a seus contatos pessoais no Microsoft Office 365. Entretanto, primeiro configure a sincronização entre o Finance and Operations e o Office 365 na sincronização do Microsoft Exchange Server e no assistente de instalação do Microsoft Outlook.
 
 ## <a name="vendors-in-different-legal-entities"></a>Fornecedores em entidades legais diferentes
 Se um fornecedor estiver registrado para apenas uma entidade legal em sua organização, e outras entidades legais precisarem registrar o mesmo fornecedor, use a página **Adicionar fornecedor a outra entidade legal** para configurar o fornecedor de modo que ele faça negócios com outra entidade legal. Você deve selecionar um grupo de fornecedores, uma moeda e um status de suspensão para o fornecedor na entidade legal selecionada.  
@@ -116,7 +115,6 @@ Se você precisar fazer pagamentos para uma conta bancária de fornecedor, poder
 Você pode especificar as contas padrão que aparecerão automaticamente nos diários de fatura do fornecedor especificado. Essa funcionalidade poderá ser útil se você normalmente pagar pelos mesmos tipos de itens ou serviços dos mesmos fornecedores ao longo do tempo. Ao especificar uma conta padrão, você poderá inserir entradas no diário de fatura com rapidez e eficiência. As contas padrão que você especificar não são usadas para ordens de compra, ou para faturas de fornecedor inseridas na página **Fatura de fornecedor**.  
 
 Selecione contas padrão na página **Configuração de conta padrão**, que você pode abrir na guia **Fatura** no registro de fornecedor. As contas selecionadas aqui aparecem na lista de contas filtrada para a conta de fornecedor quando você insere uma entrada de diário. Você pode definir uma das contas como conta padrão.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: Configurar modos de entrega e encargos do call center
-description: "Este tópico descreve como configurar modos de entrega e encargos para uma ordem de call center no Microsoft Dynamics 365 for Retail."
+description: Este tópico descreve como configurar modos de entrega e encargos para uma ordem do call center no Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
@@ -17,19 +17,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 2571b4ffd6c13dbf755ef2dfa93b757822890d96
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dc2ab66bf6e3195e1ebf394f99182f59c3ee2125
-ms.openlocfilehash: ebc8ee52da7d10ca18147684a0190e52a495ad5a
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328415"
 ---
-
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Configurar modos de entrega e encargos do call center
 
 [!INCLUDE [banner](includes/banner.md)]
 
-Quando uma ordem de venda é feita no Microsoft Dynamics 365 for Retail, se a pessoa que inseriu a ordem de venda estiver vinculada a um canal do call center, a lógica e as regras serão usadas para validar o modo de entrega e calcular os encargos da ordem.
+Quando uma ordem de venda é feita no Microsoft Dynamics 365 for Retail, se a pessoa que inseriu a ordem de venda está vinculada a um canal do call center, a lógica e as regras são usadas para validar o modo de entrega e calcular os encargos da ordem.
 
 Quando você cria uma ordem de venda, é possível selecionar um modo de entrega no cabeçalho de ordem de venda e nas linhas de ordem de venda. Por padrão, o modo de entrega selecionado no cabeçalho é usado para todas as linhas de ordem de venda. Entretanto, você pode substituir o modo padrão de entrega nas linhas individuais de venda, como necessário. Você também pode definir um modo de entrega de um registro de cliente. Então, quando as ordens são criadas para o cliente, esse modo de entrega é usado por padrão no cabeçalho da ordem de venda.
 
@@ -96,4 +95,3 @@ Você também pode vincular um código de expedição a qualquer modo de entrega
 Por exemplo, para ordens que serão enviadas pelo ar no dia seguinte, a separação deverá ser feita no depósito às 13h todos os dias. Neste caso, um código de expedição pode ser criado, e o código pode ser vinculado no dia seguinte ao modo de entrega que é configurado no sistema. Quando o depósito criar sua onda de separação, o código de expedição apropriado no campo **Expedir** pode ser usado como filtro, de forma que a separação seja executada somente para ordens que tenham os modos de entrega vinculados ao código.
 
 Além disso, quando uma ordem de call center é inserida, um código de expedição pode ser aplicado manualmente ao cabeçalho de ordem de venda ou linha de ordem de venda individual. Novamente, o código pode ser usado para fins de classificação ou relatório. Às vezes, uma ordem deve ser tratada cuidadosamente devido a uma emissão de serviço do cliente. Neste caso, um código de expedição específico pode ser aplicado ao cabeçalho ou a linhas de ordem para ajudar a identificar e priorizar a ordem durante o processo de atendimento.
-

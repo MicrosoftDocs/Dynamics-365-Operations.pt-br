@@ -1,13 +1,13 @@
 ---
-title: "Modificar células de definição de linha"
-description: "Este artigo descreve as informações que são necessárias para cada célula em uma definição de linha em um relatório financeiro e explica como inserir essas informações."
+title: Modificar células de definição de linha
+description: Este artigo descreve as informações que são necessárias para cada célula em uma definição de linha em um relatório financeiro e explica como inserir essas informações.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6193d70c53ee09a28aa8763cb625b315ec180b95
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323631"
 ---
-
 # <a name="modify-row-definition-cells"></a>Modificar células de definição de linha
 
 [!include [banner](../includes/banner.md)]
@@ -387,10 +386,10 @@ Você pode limitar uma linha a um código de livro existente. A definição de c
 Alguns sistemas contábeis oferecem suporte para atributos de contas e de transações nos dados financeiros. Esses atributos funcionam como segmentos virtuais da conta, e podem conter informações adicionais sobre a conta ou transação. Essas informações adicionais podem ser IDs de contas, IDs do lote, CEP ou outros atributos. Se seu sistema contábil oferece suporte para atributos, você pode usar atributos de contas ou de transações como modificadores de linha na definição de linha. Para obter informações sobre como substituir informações de linha, consulte a seção "Substituir definição de coluna" exibida anteriormente neste artigo.
 
 ## <a name="specify-a-link-to-financial-dimensions-cell"></a>Especificar uma célula Link para Dimensões Financeiras
-A célula **Link para Dimensões Financeiras** contém links para os dados financeiros que devem ser incluídos em cada linha de um relatório. Essa célula contém um valor de dimensão, mas você pode especificar células em uma planilha de Microsoft Excel em vez de ou além de valores de segmento ou de dimensão. Para abrir a caixa de diálogo **Dimensões**, clique duas vezes na célula **Link para Dimensões Financeiras**.
+A célula **Link para Dimensões Financeiras** contém links para os dados financeiros que devem ser incluídos em cada linha de um relatório. Essa célula contém um valor de dimensão, mas você pode especificar células em uma planilha do Microsoft Excel, ou segmentar valores ou valores de dimensão. Para abrir a caixa de diálogo **Dimensões**, clique duas vezes na célula **Link para Dimensões Financeiras**.
 
 > [!NOTE]
-> O Designer de Relatórios não pode selecionar contas, dimensões ou campos do sistema Microsoft Dynamics ERP que incluam qualquer um dos seguintes caracteres reservados: &, \*, \[, \], {, ou }. Para especificar informações sobre uma linha que já esteja na definição de linha, adicione as informações na célula **Link para Dimensões Financeiras**. Para adicionar novas linhas que sejam vinculadas aos dados financeiros, use a caixa de diálogo **Inserir Linhas de** para criar novas linhas na definição de relatório. O título de coluna é alterado de acordo com a forma na qual as colunas são configuradas, conforme exibido na tabela a seguir.
+> O Designer de Relatórios não pode selecionar contas, dimensões ou campos do sistema ERP no Microsoft Dynamics que incluam qualquer um dos seguintes caracteres reservados: &, \*, \[, \], {, ou }. Para especificar informações para uma linha que já está na definição de linha, adiciona e informação na célula **Vincular a dimensões financeiras**. Para adicionar novas linhas que sejam vinculadas aos dados financeiros, use a caixa de diálogo **Inserir Linhas de** para criar novas linhas na definição de relatório. O título de coluna é alterado de acordo com a forma na qual as colunas são configuradas, conforme exibido na tabela a seguir.
 
 | Tipo de link selecionado       | A descrição na coluna do link é alterada para |
 |----------------------------------|----------------------------------------------------|
@@ -429,14 +428,14 @@ Ao inserir um valor de segmento natural na caixa de diálogo **Dimensões**, voc
 É possível especificar um intervalo de valores de segmento ou de valores de dimensão. A vantagem de especificar um intervalo é não precisar atualizar a definição de linha sempre que um novo valor de segmento ou valor de dimensão é adicionado aos dados financeiros. Por exemplo, o intervalo **+Account=\[6100:6900\]** recebe os valores da conta 6100 até 6900 para o valor da linha. Quando um intervalo inclui um caractere curinga (?), o designer de relatórios não avalia o intervalo caractere por caractere. As extremidades inferior e superior do intervalo são determinadas. Depois, os valores finais e todos os valores entre eles são incluídos.
 
 > [!NOTE]
-> O Designer de Relatórios não pode selecionar contas, dimensões ou campos do sistema Microsoft Dynamics ERP que incluam qualquer um dos seguintes caracteres reservados: &, \*, \[, \], {, ou }. Você pode adicionar um E comercial (&) somente quando cria automaticamente definições de linha usando a caixa de diálogo **Inserir Linhas de Dimensões**.
+> O Designer de Relatórios não pode selecionar contas, dimensões ou campos do sistema ERP no Microsoft Dynamics que incluam qualquer um dos seguintes caracteres reservados: &, \*, \[, \], {, ou }. Você pode adicionar um E comercial (&) somente quando cria automaticamente definições de linha usando a caixa de diálogo **Inserir Linhas de Dimensões**.
 
 ### <a name="multiple-segment-or-multiple-dimension-ranges"></a>Intervalos de vários segmentos ou de várias dimensões
 
 Quando você insere um intervalo usando várias combinações de valores de dimensão, a comparação de intervalo é feita em uma base de ..\\dimensões financeiras\\dimensão por dimensão. A comparação de intervalo não pode ser feita caractere por caractere ou com base em segmento parcial. Por exemplo, o intervalo **+Account=\[5000:6000\], Department=\[1000:2000\], Cost center=\[00\]** inclui apenas as contas que correspondem a cada segmento. Neste cenário, a primeira dimensão deve estar no intervalo de 5000 a 6000, a segunda dimensão deve estar no intervalo de 1000 até 2000, e a última deve ser 00. Por exemplo, **+Account=\[5100\], Department=\[1100\], Cost center=\[01\]** não está incluído no relatório porque o último segmento está fora da variação especificada. Se um valor de segmento incluir espaços, coloque esse valor entre colchetes (\[ \]). Os seguintes valores são válidos para um segmento de quatro caracteres: **\[ 234\], \[123 \], \[1 34\]**. Os valores de dimensão devem ser colocados entre colchetes (\[ \]), e o designer de relatórios adiciona esses colchetes para você. Quando um intervalo de vários segmentos ou de várias dimensões contém caracteres curingas (? ou \*), as extremidades inferior e superior do intervalo de segmento múltiplo completo ou dimensão múltipla são determinadas. Depois, os valores finais e todos os valores entre eles são incluídos. Se tiver um grande intervalo, como o intervalo de todas as contas de 40000 a 99999, procure especificar uma conta inicial e uma conta final válidas, sempre que possível.
 
 > [!NOTE] 
-> O Designer de Relatórios não pode selecionar contas, dimensões ou campos do sistema Microsoft Dynamics ERP que incluam qualquer um dos seguintes caracteres reservados: &, \*, \[, \], {, ou }. Você pode adicionar um E comercial (&) somente quando cria automaticamente definições de linha usando a caixa de diálogo **Inserir Linhas de Dimensões**.
+> O Designer de Relatórios não pode selecionar contas, dimensões ou campos do sistema ERP no Microsoft Dynamics que incluam qualquer um dos seguintes caracteres reservados: &, \*, \[, \], {, ou }. Você pode adicionar um E comercial (&) somente quando cria automaticamente definições de linha usando a caixa de diálogo **Inserir Linhas de Dimensões**.
 
 ## <a name="add-or-subtract-from-other-accounts-in-a-row-definition"></a>Adicionar ou subtrair de outras contas em uma definição de linha
 Para adicionar ou subtrair os valores monetários em uma conta dos valores monetários em outra conta, você pode usar o sinal de adição (+) e o sinal de subtração (-) na célula **Link para Dimensões Financeiras**. A tabela a seguir mostra formatos aceitáveis para adicionar e subtrair links para dados financeiros.
@@ -456,7 +455,7 @@ Para adicionar ou subtrair os valores monetários em uma conta dos valores monet
 | Subtrair um intervalo de valores de segmento.                                                     | -Account=\[1200:1205\]                                                                                       |
 | Subtrair um intervalo de valores de segmento que incluam caracteres curinga.                    | -Account=\[120?:130?\]                                                                                       |
 
-Embora você possa mudar as contas diretamente, também pode usar a caixa de diálogo **Dimensões** para aplicar a formatação correta aos links de dados financeiros. Qualquer um dos valores podem incluir caracteres curinga (? ou \*). No entanto, o Designer de Relatórios não pode selecionar contas, dimensões ou campos do sistema ERP do Microsoft Dynamics que incluam os seguintes caracteres reservados: &, \*, \[, \], {, ou }.
+Embora você possa mudar as contas diretamente, também pode usar a caixa de diálogo **Dimensões** para aplicar a formatação correta aos links de dados financeiros. Qualquer um dos valores podem incluir caracteres curinga (? ou \*). Porém, o Designer de Relatórios não pode selecionar contas, dimensões ou campos do sistema ERP no Microsoft Dynamics que incluam qualquer um dos seguintes caracteres reservados: &, \*, \[, \], {, ou }.
 
 > [!NOTE]
 > Para subtrair valores, você deve colocar esses valores entre parênteses. Por exemplo, se você insere **450?-(4509)**, ele é exibido como **+Account=\[4509\]-Account=\[450?\]**, e você está orientando o designer de relatórios a subtrair o valor do segmento de conta 4509 do valor de qualquer segmento de conta que inicie com 450.
@@ -533,4 +532,3 @@ Um conjunto de valores de dimensão é um grupo nomeado de valores de dimensão.
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Relatórios financeiros](financial-reporting-intro.md)
-

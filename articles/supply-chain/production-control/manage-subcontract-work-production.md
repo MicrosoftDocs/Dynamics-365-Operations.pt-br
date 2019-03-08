@@ -1,13 +1,13 @@
 ---
-title: "Gerenciar trabalhos de subcontratação na produção"
-description: "Este tópico explica como operações subcontratadas são gerenciadas no Microsoft Dynamics 365 for Finance and Operations. Em outras palavras, explica como as operações de produção que são alocadas para um recurso são gerenciadas por um fornecedor."
+title: Gerenciar trabalhos de subcontratação na produção
+description: Este tópico explica como operações subcontratadas são gerenciadas no Microsoft Dynamics 365 for Finance and Operations. Em outras palavras, explica como as operações de produção que são alocadas para um recurso são gerenciadas por um fornecedor.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f41f13bf1b587cb802579cc3b27ef4eea70a0380
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 26feea4d86cf8b976f41342c8543594593c4b135
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326575"
 ---
-
 # <a name="manage-subcontracting-work-in-production"></a>Gerenciar trabalhos de subcontratação na produção
 
 [!include [banner](../includes/banner.md)]
@@ -101,7 +100,6 @@ Os produtos semiacabados são exceção a esta regra. Para transferir bens semia
 **Observação:** Um roteiro de produção de uma ordem de produção única não pode passar por vários sites. Essa regra também se aplica para trabalho subcontratado. Portanto, os depósitos que representam as localizações de materiais gerenciadas pelo fornecedor devem ser definidas no mesmo site como recursos internos usados no roteiro. Embora os fluxos de produção possam passar pelos sites, eles não podem transportar produtos semiacabados de um site para outro, porque essa operação implica em uma alteração do contexto do custo previsto.  
 
 Normalmente, o depósito de saída e o local de um grupo de recursos subcontratado são alocados diretamente ao depósito e ao local da próxima etapa de operação no roteiro ou no fluxo de produção. Essa configuração ajuda a reduzir o valor do relatório de trabalho que ocorre ou o número de transferência adicionais que deve ser modelado.
-
 
 
 

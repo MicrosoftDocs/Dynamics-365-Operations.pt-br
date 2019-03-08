@@ -1,13 +1,13 @@
---- 
+---
 title: ER Mapear modelo de dados para fontes de dados selecionadas
-description: "As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatórios Eletrônicos pode mapear um modelo de dados de ER a fontes de dados selecionadas do Dynamics 365 for Finance and Operations, edição Enterprise."
+description: As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode mapear um modelo de dados de Relatório eletrônico (RE) a fontes de dados selecionadas do Dynamics 365 for Finance and Operations, Enterprise edition.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner
 audience: Application User
 ms.reviewer: kfend
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 249bf3f3806ed43eccf39086bdf9697a3e879c27
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331543"
 ---
 # <a name="er-map-data-model-to-selected-data-sources"></a>ER Mapear modelo de dados para fontes de dados selecionadas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatórios Eletrônicos pode mapear um modelo de dados de ER a fontes de dados selecionadas do Dynamics 365 for Finance and Operations, edição Enterprise. Esse mapeamento de modelo será usado posteriormente como uma fonte de dados em uma configuração de formato que será usada para gerenciar documentos de pagamento eletrônico. Neste exemplo, você mapeia um modelo de dados para a empresa exemplo, Litware, Inc., em fontes de dados. Para concluir essas etapas, você deve primeiro concluir as etapas do procedimento 'Selecionar fontes de dados para mapeamento de modelo'.
+As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode mapear um modelo de dados de Relatório eletrônico (RE) a fontes de dados selecionadas do Dynamics 365 for Finance and Operations, Enterprise edition. Esse mapeamento de modelo será usado posteriormente como uma fonte de dados em uma configuração de formato que será usada para gerenciar documentos de pagamento eletrônico. Neste exemplo, você mapeia um modelo de dados para a empresa exemplo, Litware, Inc., em fontes de dados. Para concluir essas etapas, você deve primeiro concluir as etapas do procedimento 'Selecionar fontes de dados para mapeamento de modelo'.
 
 
 ## <a name="open-er-configurations-tree"></a>Abra a árvore de Configurações de ER
@@ -146,5 +146,4 @@ As etapas a seguir explicam como um usuário no papel de Administrador do Sistem
 4. Clique em OK.
 5. Selecione a versão concluída da configuração atual.
     * Observe que a configuração criada será salva como versão 1 concluída.  
-
 

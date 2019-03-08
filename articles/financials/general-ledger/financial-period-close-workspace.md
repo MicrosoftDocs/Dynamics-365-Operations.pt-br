@@ -1,13 +1,13 @@
 ---
-title: "Espaço de trabalho de fechamento do período financeiro"
-description: "Este artigo fornece uma visão geral do espaço de trabalho financeiro final do período e a configuração associada."
+title: Espaço de trabalho de fechamento do período financeiro
+description: Este artigo fornece uma visão geral do espaço de trabalho financeiro final do período e a configuração associada.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/29/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e9c3c7f00d0a0e4379547edc5199f4a9a6727f3c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b999fd3c26304b81f24389a83faf73e1658c39b3
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326897"
 ---
-
 # <a name="financial-period-close-workspace"></a>Espaço de trabalho de fechamento do período financeiro
 
 [!include [banner](../includes/banner.md)]
@@ -53,17 +52,17 @@ Dois indicadores são usados para tarefas:
 -   Um ícone de ponto de exclamação indica que a tarefa está atrasada. Para as tarefas que estão atrasadas, a data de vencimento também está realçada em vermelho.
 -   Um ícone de cadeado vermelho indica que a tarefa depende de outras tarefas que ainda não foram concluídas. Uma tarefa que será bloqueada por dependências não pode ser marcada como concluída. Você pode definir dependências de uma tarefa usando a ação **Definir dependência**.
 
-O nome da tarefa é um hiperlink para a página do Microsoft Dynamics 365 for Operations ou outra página da web onde o usuário deve ir para concluir o trabalho Você pode definir o hiperlink usando o campo **Link de tarefa** ao editar ou criar uma tarefa. 
+O nome da tarefa é um hiperlink para a página do Microsoft Dynamics 365 for Operations ou outra página da Web que o usuário deve acessar para concluir o trabalho. Você pode definir o hiperlink usando o campo **Link de tarefa** ao editar ou criar uma tarefa. 
 
 Você pode anexar arquivos, notas, imagens e URLs a uma tarefa ao usar a ação **Anexos**. Por exemplo, você pode indicar os números de diários usados como parte de uma tarefa, adicionar comentários sobre uma tarefa específica, ou anexar um arquivo de relatório que foi impresso para uma tarefa. Um ícone será exibido na coluna **Anexo** para a tarefa se um anexo estiver presente. 
 
 A opção **Conclusão da tarefa** deve ser selecionada manualmente depois que a tarefa for concluída. Quando uma tarefa é marcada como concluída, o campo **Data de conclusão** é atualizado automaticamente para a data e hora atuais. Os indicadores de dependência também são atualizados conforme apropriado.
 
 ## <a name="all-financial-period-close-tasks-list-page"></a>Página da lista de todas as tarefas de fechamento do período financeiro
-Você pode exibir todas as tarefas do fechamento do período anterior ou atual na página de listagem **Todas as tarefas de fechamento**. Esta página de listagem é usada para análise histórica de seu processo de fechamento, pois inclui informações sobre a data de vencimento programada, a data de conclusão real e a pessoa que concluiu a tarefa. Você pode facilmente exportar informações nesta página de listagem para o Microsoft Excel para fins de relatórios e de auditoria.
+Você pode exibir todas as tarefas do fechamento do período anterior ou atual na página de listagem **Todas as tarefas de fechamento**. Esta página de listagem é usada para análise histórica de seu processo de fechamento, pois inclui informações sobre a data de vencimento programada, a data de conclusão real e a pessoa que concluiu a tarefa. Você pode exportar facilmente as informações nesta página de lista para o Microsoft Excel para fins de relatórios e auditoria.
 
 ## <a name="financial-period-close-configuration-page"></a>Página de configuração do fechamento do período financeiro
-Antes que possa usar o espaço de trabalho **Fechamento do período financeiro**, você deve configurar o processo no Microsoft Dynamics 365 for Finance and Operations usando a página **Configuração do fechamento do período financeiro**. (Clique em **Contabilidade** &gt; **Fechamento do período** &gt; **Configuração do fechamento no período financeiro**.)
+Para poder usar o espaço de trabalho **Fechamento do período financeiro**, você deve configurar o processo no Microsoft Dynamics 365 for Finance and Operations usando a página **Configuração de fechamento do período financeiro**. (Clique em **Contabilidade** &gt; **Fechamento do período** &gt; **Configuração do fechamento no período financeiro**.)
 
 ### <a name="resources"></a>Recursos
 
@@ -88,7 +87,7 @@ Use um modelo de fechamento financeiro para definir todas as tarefas que fazem p
 
 Você pode atribuir uma tarefa no modelo a uma ou mais empresas às quais essa tarefa se aplica. Se uma pessoa diferente é atribuída para concluir o compromisso de trabalho em cada empresa, talvez seja útil criar várias tarefas para o mesmo compromisso de trabalho. Crie uma tarefa para cada empresa. 
 
-O item de menu **Link da tarefa** é associado ao compromisso de trabalho da tarefa e pode ser usado para ir diretamente à página associada no link da tarefa no espaço de trabalho. Por exemplo, uma tarefa de fechamento para executar o processo de reavaliação da moeda para contas a pagar pode ser vinculada à página **Reavaliação de moeda estrangeira** no Microsoft Dynamics 365 for Finance and Operations. É possível também vincular a um URL externo. 
+O item de menu **Link da tarefa** é associado ao compromisso de trabalho da tarefa e pode ser usado para ir diretamente à página associada no link da tarefa no espaço de trabalho. Por exemplo, uma tarefa de fechamento para executar o processo de reavaliação da moeda para Contas a pagar pode ser vinculada à página **Reavaliação de moeda estrangeira** no Microsoft Dynamics 365 for Finance and Operations. É possível também vincular a um URL externo. 
 
 > [!TIP]
 > Se deseja vincular um relatório específico do Management Reporter a uma tarefa de fechamento do período financeiro, use a URL do relatório. Para acessar a URL do relatório, abra o relatório no criador de relatórios e clique em **Arquivo** &gt; **Relatório de exibição** para abrir o relatório em um navegador. É possível copiar a URL na barra de endereços do navegador e colá-la no campo **URL** do **Link da tarefa**. 
@@ -106,7 +105,6 @@ Atribua o calendário apropriado para a agenda de fechamento, para indicar os di
 Você também deve definir as empresas que serão associadas à agenda de fechamento. Se as tarefas do modelo forem atribuídas a várias empresas, as tarefas separadas serão criadas para cada companhia que estiver na agenda de fechamento e estiverem atribuídas às tarefas do modelo. 
 
 Depois que uma agenda de fechamento for concluída, selecione a opção **Fechada** para ela. O histórico da tarefa ainda estará disponível na página de listagem **Todas as tarefas de fechamento do período financeiro**, mas a agenda de fechamento será removida do espaço de trabalho. Depois que uma agenda de fechamento for marcada como **Fechada**, não será possível adicionar tarefas, editar tarefas, nem removê-las.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Item e rastreamento de matérias-primas em estoque, em produção e em vendas"
-description: "Este tópico descreve como você pode usar o rastreamento de item para identificar onde os itens ou as matérias-primas foram usados, onde estão sendo usados ou onde serão usados em processos de produção e de vendas."
+title: Item e rastreamento de matérias-primas em estoque, em produção e em vendas
+description: Este tópico descreve como você pode usar o rastreamento de item para identificar onde os itens ou as matérias-primas foram usados, onde estão sendo usados ou onde serão usados em processos de produção e de vendas.
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f45c39769b71832afe531db8a55097ede8a3c769
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 60edc05bb45db973eb2e16dd833015c9a4873918
-ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310061"
 ---
-
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Item e rastreamento de matérias-primas em estoque, em produção e em vendas
 
 [!include [banner](../includes/banner.md)]
@@ -131,7 +130,7 @@ Se você desejar usar a opção **Novo recuo** ou **Novo avanço**, deverá usar
 Você pode salvar as informações na guia <strong>Detalhes</strong> como um arquivo XML, clicando em <strong>Exportar</strong> abaixo da ação *<strong><em>Rastreamento</em></strong>* no Painel de Ação. Além dos detalhes de rastreamento, o arquivo XML inclui os critérios do rastreamento, o nó pai e a quantidade disponível. A capacidade de salvar os detalhes de um rastreamento será útil se, por exemplo, você quiser anexar informações a uma ordem de qualidade ou a outra documentação de conformidade. Você pode especificar onde o arquivo será salvo. Para exibir o arquivo imediatamente, marque a caixa de seleção <strong>Mostrar documento</strong>. <strong>Observação:</strong> o arquivo será sempre salvo, mesmo se você só quiser exibi-lo. Por padrão, o arquivo XML abre em uma janela do navegador. No entanto, você pode clicar com o botão direito do mouse no arquivo, selecionar <strong>Abrir com</strong> e selecionar o programa a ser usado para exibir o conteúdo.
 
 ## <a name="can-i-calculate-a-balance-for-a-particular-item-or-ingredient"></a>Posso calcular um saldo para um item ou ingrediente em particular?
-Você pode exportar as informações das páginas de resumo para o Microsoft Excel. Abra a página relevante, clique no ícone **Abrir no Microsoft Office** e selecione **Exportar para o Microsoft Excel**. Essa funcionalidade é especialmente útil quando você deseja calcular um saldo em massa para um item ou um ingrediente da página **Resumo de transações**. Na página **Resumo de transações**, você pode filtrar pelo item ou ingrediente e, opcionalmente, por lote e então exportar as informações para o Excel. No Excel, você pode isolar, por exemplo, a quantidade disponível, a quantidade vendida e a quantidade usada em produção.
+Você pode exportar as informações de páginas resumidas para o Microsoft Excel. Abra a página relevante, clique no ícone **Abrir no Microsoft Office** e selecione **Exportar para o Microsoft Excel**. Essa funcionalidade é especialmente útil quando você deseja calcular um saldo em massa para um item ou um ingrediente da página **Resumo de transações**. Na página **Resumo de transações**, você pode filtrar pelo item ou ingrediente e, opcionalmente, por lote e então exportar as informações para o Excel. No Excel, você pode isolar, por exemplo, a quantidade disponível, a quantidade vendida e a quantidade usada em produção.
 
 ## <a name="can-i-investigate-whether-there-is-a-history-of-issues-with-items-or-raw-materials"></a>Posso investigar se há um histórico de problemas com itens ou matérias-primas?
 Os detalhes de rastreamento incluem informações sobre ordens de qualidade e não conformidades que envolvam o item ou a matéria-prima. Para exibir um resumo de ordens de qualidade e não conformidades, clique em **Ordens de qualidade** ou em **Não conformidades** no Painel de Ação. **Observação:** as ordens de qualidade destrutivas podem aparecer mais de uma vez nos detalhes de rastreamento. Quando uma ordem de qualidade destrutiva é criada para um documento, como uma ordem de compra, ela aparece para cada transação desse documento.
@@ -141,4 +140,3 @@ Você pode gerar o relatório **Remetido aos clientes** para identificar o valor
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>Posso monitorar coprodutos e subprodutos?
 Você pode rastrear coprodutos, mas não é possível rastrear um subproduto porque as dimensões de rastreamento normalmente não são atribuídas por produtos. Quando você rastreia um item, os detalhes do rastreamento incluem todos os coprodutos relacionados. Um nó que contém um coproduto inclui a palavra "coproduto" nos detalhes. Você também pode exibir detalhes sobre um coproduto selecionando o nó nos detalhes de rastreamento e então clicando na Guia Rápida **Produção**.
-

@@ -1,13 +1,13 @@
 ---
-title: "Visão geral de fidelidade"
-description: "Este tópico descreve os recursos de fidelidade no Microsoft Dynamics 365 for Retail e as etapas de instalação correspondentes para oferecer ao fornecedor uma introdução aos programas programas de fidelidade."
+title: Visão geral de fidelidade
+description: Este tópico descreve os recursos de fidelidade no Microsoft Dynamics 365 for Retail e as etapas de instalação correspondentes para oferecer ao fornecedor uma introdução aos programas programas de fidelidade.
 author: scott-tucker
 manager: AnnBe
-ms.date: 10/24/2018
+ms.date: 01/08/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailLoyaltyPrograms, RetailPriceDiscGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: bb1a1ff28c846a35858df971e29bb7a551c8012a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: 09d4e46694e89b648981352f64da4a43ab1522e1
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320112"
 ---
-
 # <a name="loyalty-overview"></a>Visão geral de fidelidade
 
 [!include [banner](includes/banner.md)]
 
-Os programas de fidelidade podem ajudar a aumentar a fidelidade do cliente ao recompensarem os clientes por suas interações com a marca do Varejista. No Microsoft Dynamics 365 para Varejo, você pode configurar programas de fidelidade simples ou complexos que se apliquem a suas entidades legais em qualquer canal de varejo. Este tópico descreve os recursos de fidelidade no Microsoft Dynamics 365 for Retail e as etapas de instalação correspondentes para oferecer ao fornecedor uma introdução aos programas programas de fidelidade.
+Os programas de fidelidade podem ajudar a aumentar a fidelidade do cliente ao recompensarem os clientes por suas interações com a marca do Varejista. No Microsoft Dynamics 365 for Retail, você pode configurar programas de fidelidade simples ou complexos que se apliquem a suas entidades legais em qualquer canal de varejo. Este tópico descreve os recursos de fidelidade no Microsoft Dynamics 365 for Retail e as etapas de instalação correspondentes para oferecer ao fornecedor uma introdução aos programas programas de fidelidade.
 
 Você pode configurar o programa de fidelidade de modo que ele tenha as opções a seguir.
 
@@ -43,7 +42,7 @@ Você pode configurar o programa de fidelidade de modo que ele tenha as opções
 
 ## <a name="setting-up-loyalty-programs"></a>Configurando programas de fidelidade
 
-Você deve configurar vários componentes para habilitar o recurso de fidelidade no Dynamics 365 para Varejo. O diagrama a seguir ilustra os componentes do programa de fidelidade e como eles se relacionam uns com os outros.
+Você deve configurar vários componentes para habilitar o recurso de fidelidade no Dynamics 365 for Retail. O diagrama a seguir ilustra os componentes do programa de fidelidade e como eles se relacionam uns com os outros.
 
 ![Fluxo de processo de configuração de fidelidade](./media/loyaltyprocess.gif "Componentes de fidelidade e como se relacionam entre si")
 
@@ -70,7 +69,7 @@ A tabela a seguir descreve os processos que devem ser executados para enviar as 
 
 | Nome do processo                         | Descrição | Nome da página |
 |--------------------------------------|-------------|-----------|
-| 1050 (informações de fidelidade)           | Execute este processo para enviar os dados do programa de fidelidade do Dynamics 365 para Varejo para as lojas de varejo. É recomendável agendar este processo para ser executado frequentemente, de modo que os dados do programa de fidelidade sejam transmitidos a todas as lojas. | Agenda de distribuição |
+| 1050 (informações de fidelidade)           | Execute este processo para enviar os dados do programa de fidelidade do Dynamics 365 for Retail para as lojas de varejo. É recomendável agendar este processo para ser executado frequentemente, de modo que os dados do programa de fidelidade sejam transmitidos a todas as lojas. | Agenda de distribuição |
 | Processar esquemas de fidelidade              | Execute este processo para associar os esquemas de fidelidade aos canais de varejo aos quais o esquema de fidelidade foi atribuído. Esse processo pode ser agendado para execução como um processo em lote. Você deve executar esse processo se alterar dados de configuração do programa de fidelidade, como esquemas de fidelidade, programas de fidelidade ou pontos de recompensa do programa de fidelidade. | Processar esquemas de fidelidade |
 | Processar transações de fidelidade offline | Execute este processo para atualizar cartões-fidelidade, de forma que eles incluam transações processadas offline. Esse processo será aplicável somente se a caixa de seleção **Obter offline** for selecionada na página **Parâmetros compartilhados do Retail**, de tal modo que as recompensas possam ser obtidas offline. | Processar transações de fidelidade offline |
 | Atualizar camadas de cartão-fidelidade            | Execute este processo para avaliar a atividade de ganhos do cliente em relação às regras de camada para um programa de fidelidade e para atualizar o status de camada do cliente. Este processo só será necessário se você alterar as regras da camada em programas de fidelidade e quiser que as regras atualizadas sejam aplicadas retroativamente aos cartões-fidelidade já emitidos. Este processo pode ser agendado como um processo em lote ou para cartões individuais. | Atualizar camadas de cartão-fidelidade |
@@ -118,12 +117,29 @@ O Retail tem uma nova funcionalidade de fidelidade como parte da versão de outu
 
     ![Pontos a expirar](./media/Expiring%20points.png "Exibir pontos a expirar")
     
-## <a name="upcoming-enhancements"></a>Próximos aprimoramentos
 
-Os seguintes recursos estarão disponíveis nas futuras atualizações mensais do Dynamics 365 for Retail.
-    
-- Os clientes desejam a capacidade de exibir os detalhes do saldo de fidelidade nos canais voltados ao consumidor. Da mesma forma, é importante que os caixas exibam o histórico de pontos de fidelidade do cliente no MPOS/CPOS para responderem com rapidez às dívidas do cliente. Na próxima versão mensal, os clientes e os caixas poderão ver detalhes do histórico de fidelidade.
-- Muitos varejistas podem conceder os pontos de fidelidade com base apenas em transações de vendas, mas os varejistas centrados nos clientes desejam recompensá-los por qualquer atividade de envolvimento com a marca. Por exemplo, eles desejam oferecer recompensas pelo preenchimento de uma pesquisa online, pela visita a uma loja, por curtidas no Facebook, tweets sobre o varejista e muito mais. Futuramente, nós adicionaremos a capacidade de conceder pontos de fidelidade para qualquer atividade de cliente. Para isso, o varejista poderá definir "Outro tipo de atividade" e definir as regras de ganhos para essas atividades. Nós também vamos expor uma API do Retail Server que poderá ser chamada quando uma atividade for identificada e que usará a regra de ganhos para conceder os pontos de fidelidade necessários.
-- Para habilitarmos uma verdadeira experiência de varejo de omni-canal, permitiremos que os clientes ganhem e resgatem pontos de fidelidade em todos os canais.
-- A remessa grátis ou com desconto é um dos maiores fatores de motivação para os clientes comprarem online. Para habilitar os varejistas a configurar promoções de remessa, nós introduziremos um novo tipo de promoção em que o varejista pode definir os limites que, quando atendidos, qualificarão os clientes à remessa gratuita ou com desconto.
+- Com a versão 8.1.3, habilitamos a opção "pagar por fidelidade" no canal do call center. Para habilitar essa opção, crie um tipo de concurso de fidelidade e associe-o ao call center. 
 
+>[!NOTE]
+> Como os pagamentos de fidelidade são configurados como pagamentos de cartão, você terá que selecionar um cartão na página **Configuração do cartão**. 
+
+![Configuração de cartão-fidelidade](./media/LoyaltyCardSetup.png "Configuração de cartão-fidelidade")
+
+Depois da configuração, os clientes podem resgatar seus pontos de fidelidade no call center. Além disso, estamos aprimorando ainda mais a experiência do usuário para mostrar o "Valor coberto por pontos de fidelidade", para que os usuários do call center não precisem navegar para uma tela diferente para visualizar o saldo de fidelidade.
+
+- Muitos varejistas concedem os pontos de fidelidade com base apenas em transações de vendas, mas os varejistas centrados nos clientes desejam recompensá-los por qualquer atividade de envolvimento com a marca. Por exemplo, eles desejam oferecer recompensas pelo preenchimento de uma pesquisa online, pela visita a uma loja, por curtidas no Facebook ou tweets sobre o varejista. Para isso, o varejista poderá definir qualquer número de "Outro tipo de atividade" e definir as regras de ganhos correspondentes para essas atividades. Há também uma API de servidor de varejo exposta "PostNonTransactionalActivityLoyaltyPoints" que pode ser chamada quando uma atividade é identificada e deve recompensar o cliente com pontos de fidelidade. Essa API espera a ID do cartão-fidelidade, a ID do canal e a ID do outro tipo de atividade para que o cliente a ser recompensado possa ser localizado e a regra de ganho para a atividade possa ser identificada. 
+
+    A atribuição de pontos para atividades sem transação geralmente tem duas etapas principais:
+    - Identificação de uma atividade que deve ser recompensada.
+    - Atribuição dos pontos apropriados.
+
+    A primeira etapa é externa ao Microsoft Dynamics 365 for Retail, como tweets sobre a marca ou curtidas da marca no Facebook. Depois que essa atividade for reconhecida, os varejistas poderão chamar a API do servidor de varejo mencionada acima e conceder pontos de fidelidade em tempo real. Em tais cenários, não há necessidade de uma etapa de revisão porque uma atividade ocorreu e pontos correspondentes devem ser concedidos. Contudo, há cenários em que o varejista gostaria de revisar os registros antes de conceder os pontos. Por exemplo, o varejista configurou um workshop na loja para o qual os clientes se inscrevem no site de comércio eletrônico ou qualquer outro aplicativo de registro de eventos. No entanto, apenas os clientes presentes devem ganhar pontos de fidelidade. Para tais cenários, na versão 10.0, introduzimos uma entidade de dados denominada **Linhas de tipo de outra atividade de fidelidade de varejo**. Essa entidade de dados permite que os varejistas usem a Estrutura de Importação/Exportação de Dados (DIXF) ou a API OData para registrar as atividades que devem conceder aos clientes pontos de fidelidade. A entidade de dados armazena as atividades em um diário chamado **Linhas de fidelidade para outras atividades**, que pode ser usado para fins de revisão e modificação. Após a revisão dos dados, o usuário de TI pode postar manualmente as linhas de atividade ou executar um trabalho chamado **Processar outro tipo de atividade para linhas de fidelidade**, que publicará todas as linhas de atividade não publicadas e atribuirá os pontos aos clientes com base nas regras de ganho. No cenário acima, o aplicativo de registro de eventos chamaria a API OData para enviar as informações do cliente para o Dynamics 365 for Retail. No entanto, o usuário de TI pode postar as linhas de atividade apenas para os clientes que participaram do workshop e excluir as linhas de atividade dos outros clientes. 
+
+> [!NOTE]
+> Atualmente, o sistema obriga os usuários a configurar uma sequência numérica para "outros tipos de atividade", mas isso não será uma etapa obrigatória em versões futuras. Para configurar uma sequência numérica, acesse **Parâmetros compartilhados de varejo > Sequências numéricas** e selecione uma sequência numérica para **Outra ID de tipo de atividade de fidelidade**.
+
+- Para fornecer um bom atendimento ao cliente e resolver efetivamente as consultas dos clientes, é importante que os caixas tenham acesso ao perfil completo do cliente. Com a versão 10.0, os caixas poderão ver os detalhes do histórico de fidelidade juntamente com o programa de fidelidade associado e as informações sobre o PDV.
+- A remessa grátis ou com desconto é um dos maiores fatores de motivação para os clientes comprarem online. Para habilitar os varejistas a configurar promoções de remessa, com a versão 10.0, introduzimos um novo tipo de promoção chamado “Desconto de limite de remessa”, em que o varejista pode definir os limites que, quando atendidos, qualificarão os clientes à remessa gratuita ou com desconto. Por exemplo, gaste US$ 35 para “Remessa de dois dias” gratuita ou “Remessa de dois dias” gratuita para todos os clientes do programa de fidelidade. Esses descontos são aplicados apenas às despesas de envio aplicadas aos pedidos. Como um varejista pode configurar vários tipos de encargo, como manuseio ou instalação, o varejista precisa especificar qual encargo é considerado como encargo de remessa. Essa configuração é chamada de “Código do encargo de remessa” e está disponível na guia **Ordens do cliente** na página **Parâmetros de varejo**. Esse desconto respeita todos os recursos de desconto padrão existentes, como permitir que o varejista restrinja esses descontos com os cupons, para que apenas os clientes com cupons possam obter esses descontos. Além disso, esses descontos utilizam o recurso de grupos de preços para determinar a qualificação de tais descontos. Por exemplo, o varejista pode optar por executar essas promoções apenas nos canais online e/ou em canais para determinados grupos de clientes, como clientes do programa de fidelidade. Depois que as linhas da ordem com o modo de entrega especificado atendem ao limite definido, o desconto de remessa é aplicado e reduz o encargo de remessa com base na configuração do desconto. 
+
+> [!NOTE]
+> Diferentemente de outros descontos periódicos, como descontos por quantidade, simples, de compra combinada e de limite, o desconto de remessa não cria linhas de desconto; as edições do encargo de remessa precisam ser feitas diretamente.

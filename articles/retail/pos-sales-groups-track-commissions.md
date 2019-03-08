@@ -1,13 +1,13 @@
 ---
-title: "Acompanhar comissões no POS (ponto de venda) usando grupos de vendas"
-description: "É uma prática comum de varejo rastrear as vendas associadas pelo associado que trabalhou com o cliente, fornecendo ajuda, venda direta, venda cruzada e processamento da transação."
+title: Acompanhar comissões no POS (ponto de venda) usando grupos de vendas
+description: É uma prática comum de varejo rastrear as vendas associadas pelo associado que trabalhou com o cliente, fornecendo ajuda, venda direta, venda cruzada e processamento da transação.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -18,14 +18,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: ed4f9b3055e164600827b62d57b7a5068edb3b1a
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325103"
 ---
-
 # <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>Acompanhar comissões no POS (ponto de venda) usando grupos de vendas
 
 [!include [banner](includes/banner.md)]
@@ -89,4 +88,3 @@ O PDV permite ao usuário configurar grades de botão, que são incluídas em la
 ## <a name="calculating-commissions"></a>Como calcular comissões
 
 A comissão é calculada para os trabalhadores nos grupos de vendas específicos no momento lançamento de demonstrativo ou lançamento de ordem de venda.O valor da comissão é determinado com base no compartilhamento de comissões de trabalhador, conforme definido no grupo de vendas e nas configurações de cálculo de comissão associadas ao cliente e/ou a produtos da transação.
-

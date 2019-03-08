@@ -1,37 +1,36 @@
 ---
-title: "Evite texto truncado na hierarquia de posição e exporte para Visio"
-description: "Este tópico explica como resolver um problema onde os nomes de indivíduos e posições estejam truncados quando clientes exibem a hierarquia da posição no Microsoft Dynamics 365 for Talent. Texto truncado pode tornar difícil realizar um screenshot ou imprimir a hierarquia."
+title: Evite texto truncado na hierarquia de posição e exporte para Visio
+description: Este tópico explica como resolver um problema em que os nomes de pessoas e cargos estão truncados quando os clientes exibem a hierarquia de cargos no Microsoft Dynamics 365 for Talent. Texto truncado pode tornar difícil realizar um screenshot ou imprimir a hierarquia.
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: d3f974f94b6c327fd70b8098d24f9e1f1e1e8eeb
 ms.openlocfilehash: b688a396e3b384aedb06c470b1634150ae7aa038
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303230"
 ---
-
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Evite texto truncado na hierarquia de posição e exporte para Visio
 
 [!include [banner](includes/banner.md)]
 
 **Saída**
 
-Quando um cliente exibe a hierarquia da posição no Microsoft Dynamics 365 for Talent, os nomes de indivíduos e posições são truncados. Portanto, pode ser difícil realizar uma captura de tela, ou imprimir e distribuir a hierarquia.
+Quando um cliente exibe a hierarquia de cargos no Microsoft Dynamics 365 for Talent, os nomes de pessoas e cargos estão truncados. Portanto, pode ser difícil realizar uma captura de tela, ou imprimir e distribuir a hierarquia.
 
 ![Hierarquia de posições](media/position-h.png)
 
@@ -41,7 +40,7 @@ Esse comportamento é por design.
 
 **Resolução**
 
-Infelizmente, os usuários não podem alterar facilmente o tamanho do texto. Entretanto, você pode exportar uma hierarquia de posição de fora do Talent e depois importá-lo no Microsoft Visio. Embora o artigo a seguir seja escrito para Microsoft Dynamics AX 2012, o processo ainda aplica-se ao Talent: [Exportar uma hierarquia de posição para Microsoft Visio](https://docs.microsoft.com/en-us/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).
+Infelizmente, os usuários não podem alterar facilmente o tamanho do texto. Entretanto, você pode exportar uma hierarquia de posição de fora do Talent e depois importá-lo no Microsoft Visio. Embora o artigo a seguir tenha sido escrito para o Microsoft Dynamics AX 2012, o processo ainda se aplica ao Talent: [Exportar uma hierarquia de cargos para o Microsoft Visio](https://docs.microsoft.com/en-us/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).
 
 Rastrear essas etapas para exportar para Visio.
 
@@ -49,7 +48,7 @@ Rastrear essas etapas para exportar para Visio.
 
     Para incluir mais informações no diagrama de estrutura organizacional, adicione os campos à lista **Posições**, de forma que esteja disponível quando você usar o assistente posteriormente neste procedimento.
 
-2. No painel de ações, selecione o botão **Abrir no Microsoft Office**, e depois, em **Exportar para Excel**, selecione **Posições**. Alternativamente, pressione Ctrl+T.
+2. No Painel de Ação, selecione o botão **Abrir no Microsoft Office** e, em **Exportar para o Excel**, selecione **Cargos**. Alternativamente, pressione Ctrl+T.
 
     ![Exporte a página de lista de Posições para Excel](media/org-admin.png)
 
@@ -107,4 +106,3 @@ Com base nos campos que você selecionou para incluir no diagrama, cada nó most
 **Opção adicional**
 
 Em Talent, você também pode usar o espaço de trabalho **Pessoas** para exibir algumas informações relacionadas de hierarquia.
-

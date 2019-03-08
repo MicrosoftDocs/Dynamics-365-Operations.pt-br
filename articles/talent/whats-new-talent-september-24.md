@@ -1,31 +1,31 @@
 ---
-title: "Novidades ou alterações no Dynamics 365 for Talent: Core HR (24 de setembro de 2018)"
-description: "Este tópico descreve os recursos novos ou alterados na versão atual do Core HR do Microsoft Dynamics 365 for Talent."
+title: Novidades ou alterações no Dynamics 365 for Talent Core HR (24 de setembro de 2018)
+description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 for Talent Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: 92cd1ea0a6ab6039da7074e032e0f78dd7443cba
 ms.openlocfilehash: aeb75fe4c775b9003c6429de536498f495224098
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/24/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303273"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-24-2018"></a>Novidades ou alterações no Dynamics 365 for Talent: Core HR (24 de setembro de 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-24-2018"></a>Novidades ou alterações no Dynamics 365 for Talent Core HR (24 de setembro de 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -48,4 +48,3 @@ Esta versão inclui várias correções de bug adicionais.
 ## <a name="known-issue"></a>Problema conhecido
 
 -   **Problema:** ao adicionar um novo anexo a um trabalhador, os botões **Novo** e **Editar** são esmaecidos. **Solução alternativa:** antes de abrir a página do anexo, verifique se os quadros de fatos na página **Trabalhador** estão fechados. Se os quadros de fatos estiverem fechados quando a página **Trabalhador** for carregada, os botões de anexos serão habilitados. (Esse problema será corrigido na próxima atualização de plataforma.)
-

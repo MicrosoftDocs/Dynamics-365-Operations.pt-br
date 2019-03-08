@@ -1,13 +1,13 @@
---- 
-title: "Configurar códigos de relatório de imposto"
-description: "Os códigos de relatório de imposto fazem referência a um número em um relatório de imposto."
+---
+title: Configurar códigos de relatório de imposto
+description: Os códigos de relatório de imposto fazem referência a um número em um relatório de imposto.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxReportCollection
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4543cf7eaa0b1ef8e32d3fdafa2c354cd3739256
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: fa32a12e49b6578c41ceb8991237a19ae3f77e17
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335660"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Configurar códigos de relatório de imposto
 
@@ -41,5 +41,4 @@ Este registro usa a empresa de dados de demonstração DEMF.
 5. No campo de texto Relatório, insira uma descrição para a exibição nos relatórios.
 6. No campo Descrição breve, digite uma descrição para fins internos.
 7. Clique em Salvar.
-
 

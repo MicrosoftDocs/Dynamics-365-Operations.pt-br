@@ -1,13 +1,13 @@
 ---
-title: "Cartas de crédito e coleções de importações"
-description: "Este artigo fornece informações gerais sobre letras de crédito e de conjuntos de importação. Ambos tipos de documento bancário são frequentemente usados para compra e venda de mercadorias entre as fronteiras internacionais."
+title: Cartas de crédito e coleções de importações
+description: Este artigo fornece informações gerais sobre letras de crédito e de conjuntos de importação. Ambos tipos de documento bancário são frequentemente usados para compra e venda de mercadorias entre as fronteiras internacionais.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankLCImport
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2b5deef65cc4af2fdfee6549660527007c3bed3a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ebabff4d467df54b2e79485ba3a16344435140e6
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323033"
 ---
-
 # <a name="letters-of-credit-and-import-collections"></a>Cartas de crédito e coleções de importações
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,6 @@ Uma nota de crédito pode ser **revogável** ou **irrevogável**. A natureza de 
 Uma coleção de importação é um contrato entre o banco e o exportador (vendedor), em que o banco concorda em entregar a documentação de remessa ao importador internacional (comprador). O banco deve entregar a documentação de remessa após o recebimento do pagamento em dinheiro das mercadorias enviadas ou no recebimento de uma ordem de pagamento assinada mediante o pagamento. 
 
 Uma coleção de importação garante o vendedor será pago quando o comprador recolhe os documentos de remessa para receber as mercadorias importadas.
-
 
 
 

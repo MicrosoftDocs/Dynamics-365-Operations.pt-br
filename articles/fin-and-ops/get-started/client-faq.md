@@ -1,13 +1,13 @@
 ---
 title: Perguntas frequentes de clientes do Finance and Operations
-description: "Este artigo dá respostas às perguntas frequentes sobre o cliente do Microsoft Dynamics 365 for Finance and Operations."
+description: Este artigo contém respostas a perguntas frequentes sobre o cliente do Microsoft Dynamics 365 for Finance and Operations.
 author: jasongre
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,28 +17,27 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 74f85f7a1c390d1f21d0423a794ff16c7250d9fa
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316708"
 ---
-
 # <a name="finance-and-operations-client-faq"></a>Perguntas frequentes de clientes do Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo dá respostas às perguntas frequentes sobre o cliente do Microsoft Dynamics 365 for Finance and Operations.
+Este artigo contém respostas a perguntas frequentes sobre o cliente do Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="why-arent-symbols-loaded-when-i-use-finance-and-operations"></a>Por que os símbolos não são carregados quando uso o Finance and Operations?
 
 As configurações de segurança em seu navegador podem impedir que os símbolos sejam carregados corretamente. Para resolver esse problema, siga as etapas a seguir:
 
-- Se você estiver passando por esse problema no Internet Explorer, clique em **Ferramentas** e depois clique em **Opções de Internet**. Na caixa de diálogo Opções da Internet, na guia **Privacidade**, clique em **Nível de personalização**, e certifique-se de que a opção **Download de fonte** está selecionada.
+- Se você tiver esse problema no Internet Explorer, clique em **Ferramentas** e **Opções de Internet**. Na caixa de diálogo Opções da Internet, na guia **Privacidade**, clique em **Nível de personalização**, e certifique-se de que a opção **Download de fonte** está selecionada.
 - Caso contrário, talvez seja necessário adicionar o site do Finance and Operations à lista de sites confiáveis.
 
-## <a name="i-miss-the-ribbon-from-dynamics-ax-2012-can-i-keep-action-pane-tabs-open-all-the-time"></a>Não vejo a barra do Dynamics AX 2012. Posso manter as guias do Painel de Ação abertas a todo momento?
+## <a name="i-miss-the-ribbon-from-dynamics-ax-2012-can-i-keep-action-pane-tabs-open-all-the-time"></a>Não vejo a faixa de opções do Dynamics AX 2012. Posso manter as guias do Painel de Ação abertas a todo momento?
 
 Planejamos implementar esse recurso em breve. Os usuários poderão optar por manter as guias do Painel de Ação abertas a todo momento. Caso contrário, as guias serão recolhidas quando não estiverem sendo usadas, para obter mais espaço de tela para a página.
 
@@ -56,4 +55,3 @@ A opção **Exibir detalhes** está disponível de algumas formas:
 
 - Se um controle tiver os recursos de **Exibir detalhes**, e se o controle tiver um valor, esse valor será exibido como um hiperlink. Você pode clicar no hiperlink para abrir uma página que contém detalhes adicionais.
 - **Exibir detalhes** também é uma opção nos menus de atalho do Finance and Operations. Para obter mais informações sobre quando os menus de atalho do Finance and Operations são exibidos quando você clica com o botão direito do mouse, consulte a seção anterior.
-

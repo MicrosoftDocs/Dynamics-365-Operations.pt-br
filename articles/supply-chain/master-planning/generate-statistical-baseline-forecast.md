@@ -1,13 +1,13 @@
 ---
-title: "Gerar uma previsão estatística"
-description: "Este artigo fornece informações sobre os parâmetros e filtros usados no cálculo da previsão de demanda."
+title: Gerar uma previsão estatística
+description: Este artigo fornece informações sobre os parâmetros e filtros usados no cálculo da previsão de demanda.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 30f2ccb8c0b4d7c4755e0b8dc66539e165265090
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 42ea3a6cf85802fc42c53111d17afbce042a6d44
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326414"
 ---
-
 # <a name="generate-a-statistical-baseline-forecast"></a>Gerar uma previsão estatística
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,7 @@ Quando a estratégia de previsão é definida para **Copiar sobre demanda histó
 
 Para evitar confusão nos planos de produção, um determinado número de classificações de previsão pode ser congelado. Esse número é definido no campo **Congelar limite de tempo**. Na página **Previsão de demanda ajustada**, as células das classificações congeladas são desabilitadas para fornecer uma indicação visual de que esses valores não devem ser alterados. 
 
-A data inicial da previsão de demanda de linha de base não precisa ser a data atual ou uma data futura. Para definir uma data inicial diferente, use **Data de início de previsão de linha de base - Data inicial**. Por exemplo, em junho, os usuários poderão gerar uma previsão para o próximo ano. Como as classificações de previsão entre o fim da demanda histórica e o início da linha de base estão ausentes, as previsões podem não ser precisas. Se você estiver usando o serviço de previsão de demanda do Microsoft Dynamics 365 for Finance and Operations, há quatro maneiras para você preencher as lacunas ausentes. Você pode escolher o método que deseja definindo o parâmetro MISSING\_VALUE\_SUBSTITUTION na página **Parâmetros de previsão de demanda**. 
+A data inicial da previsão de demanda de linha de base não precisa ser a data atual ou uma data futura. Para definir uma data inicial diferente, use **Data de início de previsão de linha de base - Data inicial**. Por exemplo, em junho, os usuários poderão gerar uma previsão para o próximo ano. Como as classificações de previsão entre o fim da demanda histórica e o início da linha de base estão ausentes, as previsões podem não ser precisas. Se você estiver usando o serviço de previsão de demanda do Microsoft Dynamics 365 for Finance and Operations, há quatro maneiras para você preencher as lacunas ausentes. Você pode escolher o método que deseja definindo o parâmetro MISSING\_VALUE\_SUBSTITUTION na página **Parâmetros de previsão de demanda**. 
 
 O campo **Data de início de previsão de linha de base** - **Data inicial** deve ser definido como o início de uma classificação de previsão, por exemplo, nos Estados Unidos, um domingo, se a previsão for semanal. O sistema ajusta automaticamente o campo **Data de início de previsão de linha de base** - **Data inicial** de modo que corresponda ao início de uma classificação de previsão. 
 
@@ -72,7 +71,6 @@ Se a previsão não for gerada para um grande conjunto de itens, mas, por exempl
 [Ajustes manuais na previsão estatística](manual-adjustments-baseline-forecast.md)
 
 [Autorizando a previsão ajustada](authorize-adjusted-forecast.md)
-
 
 
 

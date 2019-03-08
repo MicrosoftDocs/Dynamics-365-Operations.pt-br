@@ -1,13 +1,13 @@
 ---
-title: "Configurar parâmetros de RH específicos da empresa"
-description: "As configurações de alguns parâmetros de Recursos humanos (RH) são compartilhadas entre empresas, enquanto as configurações de outros parâmetros são específicas. Este artigo explica como configurar parâmetros de RH específicos da empresa."
+title: Configurar parâmetros de RH específicos da empresa
+description: As configurações de alguns parâmetros de Recursos humanos (RH) são compartilhadas entre empresas, enquanto as configurações de outros parâmetros são específicas. Este artigo explica como configurar parâmetros de RH específicos da empresa.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMParameters
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: f7ecd72a2a6ba4ba15e412e40508462f6ef0d218
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303326"
 ---
-
 # <a name="set-up-company-specific-human-resources-hr-parameters"></a>Configurar parâmetros de RH específicos da empresa
 
 [!include [banner](includes/banner.md)]
@@ -50,7 +49,7 @@ As configurações na guia **Compensação** definem se os usuários devem confi
 ### <a name="previously-released-functionality"></a>Funcionalidade liberada anteriormente
 As configurações na guia **Sequência numérica** determinam as sequências usadas para atribuir automaticamente IDs a itens em Recursos humanos, como solicitações de emprego, registros de ausência, resultados do processo de remuneração, números de casos, cursos e agendas de curso. Para manter referências e códigos de sequência de números, use a página de listagem **Sequências numéricas** (clique em **Administração organizacional** &gt; **Sequências numéricas** &gt; **Sequências numéricas**).
 
-### <a name="if-youre-using-dynamics-365-for-talent"></a>Se estiver usando o Dynamics 365 for Talent
+### <a name="if-youre-using-dynamics-365-for-talent"></a>Se você estiver usando o Dynamics 365 for Talent
 As configurações na guia **Sequência numérica** determinam as sequências usadas para atribuir automaticamente IDs a itens em Recursos humanos, como solicitações de emprego, registros de ausência, resultados do processo de remuneração, números de casos, cursos e agendas de curso. Para manter referências e códigos de sequência de números, use a página de listagem **Sequências numéricas** (clique em **Administração do sistema** &gt; **Guia de links** &gt; **Sequências numéricas** &gt; **Sequências numéricas**). 
 
 As configurações na guia **FMLA** definem quantas horas um funcionário deve trabalhar para se qualificar para os benefícios de FMLA, o tempo de emprego necessário para a qualificação e a data de início do emprego usada para determinar o tempo do emprego. As configurações também definem o número de horas de FMLA aos quais os funcionários têm direito e o calendário de licenças do FMLA usado para calcular quantas horas de FMLA os funcionários usaram. A guia **FMLA** só estará disponível para empresas nos Estados Unidos. 
@@ -61,7 +60,6 @@ As configurações na guia **FMLA** definem quantas horas um funcionário deve t
 --------
 
 [Configurar parâmetros de RH entre entidades legais](set-up-hr-parameters-across-legal-entities.md)
-
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: Fluxo de trabalho de despesas
-description: "Este tópico explica como você pode usar o sistema fluxo de trabalho no Microsoft Dynamics 365 for Finance and Operations, para configurar um processo de revisão para despesas relatório no gerenciamento de despesas."
+description: Este tópico explica como usar o sistema de fluxo de trabalho do Microsoft Dynamics 365 for Finance and Operations para configurar um processo de revisão de relatórios de despesas no Gerenciamento de despesas.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/13/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowtableListPageRnr
 audience: Application User
 ms.reviewer: shylaw
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 037a6ae00b7d559f79860901f0cb2ad6ddddd7aa
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6ee607f723659a5b6ecd655ba4fdfca35a4c582d
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310107"
 ---
-
 # <a name="expense-workflow"></a>Fluxo de trabalho de despesas
 
 [!include [banner](../includes/banner.md)]
 
-Você pode usar o sistema de fluxo de trabalho no Microsoft Dynamics 365 for Finance and Operations para configurar um processo de revisão para relatório de despesas no gerenciamento de despesas. É possível configurar um fluxo de trabalho que usa os seguintes critérios para determinar quem aprova os relatórios de despesas:
+Você pode usar o sistema de fluxo de trabalho do Microsoft Dynamics 365 for Finance and Operations para configurar um processo de revisão de relatórios de despesas no Gerenciamento de despesas. É possível configurar um fluxo de trabalho que usa os seguintes critérios para determinar quem aprova os relatórios de despesas:
 
 - A hierarquia de relatórios de funcionários e os limites de aprovação predefinidos
 - Aprovação de vários níveis que suporta aprovadores provisórios e um aprovador final
@@ -58,4 +57,3 @@ O processo a seguir é um exemplo do fluxo de trabalho de gerenciamento de despe
 Após a verificação desses requisitos, o relatório de despesas será lançado.
 
 Após o lançamento do relatório de despesas, o pagamento do relatório é autorizado e o funcionário é reembolsado.
-

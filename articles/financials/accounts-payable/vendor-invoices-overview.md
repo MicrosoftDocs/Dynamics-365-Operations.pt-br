@@ -1,13 +1,13 @@
 ---
-title: "Visão geral das faturas de fornecedor"
-description: "Este artigo fornece informações gerais sobre notas fiscais de fornecedor. As notas fiscais de fornecedor são solicitações para pagamento dos produtos e serviços recebidos. As notas fiscais do fornecedor podem representar uma conta para serviços em andamento, ou podem se basear em ordens de compra para itens específicos e serviços."
+title: Visão geral das faturas de fornecedor
+description: Este artigo fornece informações gerais sobre notas fiscais de fornecedor. As notas fiscais de fornecedor são solicitações para pagamento dos produtos e serviços recebidos. As notas fiscais do fornecedor podem representar uma conta para serviços em andamento, ou podem se basear em ordens de compra para itens específicos e serviços.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 01/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e563688b46c556ffbf46f9d20d9b9f248d26e02c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cb5a674472936a52b624c548fd37079d57eb6cb7
-ms.openlocfilehash: 8368d67efb8483ab6f447fbfcbfda45c1aa14f8d
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329749"
 ---
-
 # <a name="vendor-invoices-overview"></a>Visão geral das faturas de fornecedor
 
 [!include [banner](../includes/banner.md)]
@@ -92,5 +91,4 @@ Para obter mais informações, consulte:
  - [Dados-chave de fatura no sistema de AP usando grupo de faturas](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
 
  - [Registrar uma fatura de fornecedor no diário de faturas](tasks/record-vendor-invoice-invoice-journal.md)
-
 

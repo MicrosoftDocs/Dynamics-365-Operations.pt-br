@@ -1,32 +1,31 @@
 ---
-title: "Fórmulas e versões de fórmulas"
-description: "Este tópico fornece informações sobre fórmulas e versões da fórmula. Uma fórmula define materiais, ingredientes e os resultados de um processo específico na fabricação de processo. As fórmulas são usados para planejar e produzir produtos na manufatura de processos."
+title: Fórmulas e versões de fórmulas
+description: Este tópico fornece informações sobre fórmulas e versões da fórmula. Uma fórmula define materiais, ingredientes e os resultados de um processo específico na fabricação de processo. As fórmulas são usados para planejar e produzir produtos na manufatura de processos.
 author: cvocph
 manager: AnnBe
 ms.date: 09/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bbffc298ff5d2442092f8f0c987b7e79a7934a84
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4475695b1a00213ab7e3b5060fd38cc71883d2bd
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350104"
 ---
-
 # <a name="formulas-and-formula-versions"></a>Fórmulas e versões de fórmulas
 
 [!include [banner](../includes/banner.md)]
@@ -72,4 +71,3 @@ O recurso Escalonável estará disponível somente se todos os componentes do it
 
 ## <a name="use-step-consumption"></a>Usar consumo em etapas
 O consumo em etapas elimina a necessidade de inserir uma quantidade na guia **Linha da fórmula** de um ingrediente. Em vez de isso, o consumo da etapa é configurado para ter um valor **Da série** e **Quantidade**. As informações do registro de Consumo da etapa por série que atendem à quantidade na ordem do lote são selecionadas. O consumo da etapa é útil quando a taxa de consumo não é linear em relação ao tamanho da ordem de lote, e somente aumenta a necessidade quando um determinado limite de quantidade é atingido. Para habilitar esse recurso para uma nova fórmula, no grupo **Cálculo de consumo**, altere a configuração da fórmula para o ingrediente aplicável de  **Padrão** para **Etapa**. Você especifica esse método de consumo na guia **Configuração** da página **Linha da fórmula**.
-

@@ -1,13 +1,13 @@
---- 
+---
 title: Criar uma unidade operacional
-description: "Uma unidade operacional é uma organização usada para dividir o controle de recursos econômicos e os processos operacionais em uma empresa."
+description: Uma unidade operacional é uma organização usada para dividir o controle de recursos econômicos e os processos operacionais em uma empresa.
 author: sericks007
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMOperatingUnit, OMInternalOrganizationSelector
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9c49000b09fdbac10dfa952718453bf82cbb1498
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 838d1c2d5d1ab2524e9f4be423fbf529b89f5f59
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332624"
 ---
 # <a name="create-an-operating-unit"></a>Criar uma unidade operacional
 
@@ -42,5 +42,4 @@ Uma unidade operacional é uma organização usada para dividir o controle de re
     * Expanda a seção Informação de contato, se necessário.  
     * Insira informação sobre métodos de comunicação, como endereços de e-mail, URLs, e números de telefone. Para inserir um novo registro de comunicação, clique em Novo. Para modificar um registro de comunicação existente, clique em Mais opções > Avançado.   
 6. Clique em Salvar.
-
 

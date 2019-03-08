@@ -1,13 +1,13 @@
---- 
-title: "Configurar restrições de transporte para um item"
-description: "Este procedimento configurará uma restrição de transporte para impedir que um item selecionado seja enviado por meio de um hub selecionado."
+---
+title: Configurar restrições de transporte para um item
+description: Este procedimento configurará uma restrição de transporte para impedir que um item selecionado seja enviado por meio de um hub selecionado.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSConstraint, InventLocationIdLookup, InventItemIdLookupSimple
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 900ea1476c95d295a151125afe46aebd9642630e
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338121"
 ---
 # <a name="set-up-transportation-constraints-for-an-item"></a>Configurar restrições de transporte para um item
 
@@ -43,5 +43,4 @@ Este procedimento configurará uma restrição de transporte para impedir que um
 9. No campo Ação de restrição, selecione uma opção.
 10. Clique em Salvar.
 11. Feche a página.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Perguntas frequentes sobre ações de pessoal"
-description: "Este tópico contém respostas para as perguntas que você pode ter se a sua organização utilizar ações de pessoal. As ações de pessoal são etapas adicionais que devem ser concluídas quando você executa algumas tarefas relacionadas a pessoal."
+title: Perguntas frequentes sobre ações de pessoal
+description: Este tópico contém respostas para as perguntas que você pode ter se a sua organização utilizar ações de pessoal. As ações de pessoal são etapas adicionais que devem ser concluídas quando você executa algumas tarefas relacionadas a pessoal.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: 0e68154ec70fdf26d1d783de29a386a336fff92f
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303260"
 ---
-
 # <a name="personnel-actions-faq"></a>Perguntas frequentes sobre ações de pessoal
 
 [!include [banner](includes/banner.md)]
@@ -94,5 +93,4 @@ Por exemplo:
 - A data de vigência no cabeçalho de uma ação **Demitir um trabalhador** é a data que você inseriu no campo **Data da rescisão**.
 - A data de vigência de uma ação **Contratar um trabalhador** é a data que você inseriu no campo **Data de início do funcionário**.
 - A data de vigência de uma ação **Transferir um trabalhador** é a data que você inseriu no campo **Data inicial da atribuição** para o trabalhador.
-
 

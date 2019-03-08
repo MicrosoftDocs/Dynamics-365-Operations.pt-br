@@ -1,13 +1,13 @@
---- 
+---
 title: Gerar e processar reembolsos de cliente
-description: "Este procedimento demonstra como processar reembolsos de cliente desde a geração da reivindicação até o momento de passá-las como provisões para Contas a receber."
+description: Este procedimento demonstra como processar reembolsos de cliente desde a geração da reivindicação até o momento de passá-las como provisões para Contas a receber.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PdsRebateAgreement, SalesTableListPage, SalesCreateOrder, SalesTable, MCRPriceHistory, SalesEditLines,  PdsRebateTableListPage
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5afe2fa73e218aa9eb21aff866baa509860a83cb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 348793abc6d219f38bcdc2629b77343d93927005
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336442"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Gerar e processar reembolsos de cliente
 
@@ -83,5 +83,4 @@ Este procedimento demonstra como processar reembolsos de cliente desde a geraç�
 9. No campo Cliente, insira ou selecione um valor.
 10. Clique em OK.
     * Uma mensagem mostra que o reembolso foi processado com êxito, e o status das reivindicações foi alterado para Marcar. Isso significa que como resultado do lançamento de um Diário de provisão de reembolso: a) as reivindicações foram transferidas para o saldo temporário do cliente como deduções; b) a Conta de provisão de reembolso foi creditada para representar a dívida futura com o cliente; c) a Conta de despesas do reembolso foi debitada, em reconhecimento dos custos contraídos em conexão com as vendas.   
-
 

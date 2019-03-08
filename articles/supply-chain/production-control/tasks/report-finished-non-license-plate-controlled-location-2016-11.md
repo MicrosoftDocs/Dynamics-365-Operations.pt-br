@@ -1,13 +1,13 @@
---- 
-title: "Relatar como concluído para um local não controlado por placa de licença (solicitação de emprego, maio de 2016)"
-description: "Esta guia mostra um exemplo de tarefas do relatório de conclusão para um local que não seja controlado por placa de licença."
+---
+title: Relatar como concluído para um local não controlado por placa de licença (solicitação de emprego, maio de 2016)
+description: Esta guia mostra um exemplo de tarefas do relatório de conclusão para um local que não seja controlado por placa de licença.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WrkCtrResourceGroup, ProdTableListPage, ProdTableCreate, InventItemIdLookupPurchase, ProdParmCostEstimation, ProdParmStartUp, ProdParmReportFinished, WHSWorkTable
 audience: Application User
 ms.reviewer: shylaw
@@ -17,18 +17,18 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 4da6868a2184a76c435efe824f4670504e1134e7
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344538"
 ---
 # <a name="report-as-finished-to-a-non-license-plate-controlled-location--application-may-2016"></a>Relatar como concluído para um local não controlado por placa de licença (solicitação de emprego, maio de 2016)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Esta guia mostra um exemplo de tarefas do relatório de conclusão para um local que não seja controlado por placa de licença. Uma diretiva de trabalho aplicável é o pré-requisito para esta tarefa. Uma guia anterior da tarefa mostrou da instalação da diretiva de trabalho. Essa guia da tarefa requer a aplicação 7.0.1 do Dynamics AX ou posterior.
+Esta guia mostra um exemplo de tarefas do relatório de conclusão para um local que não seja controlado por placa de licença. Uma diretiva de trabalho aplicável é o pré-requisito para esta tarefa. Uma guia anterior da tarefa mostrou da instalação da diretiva de trabalho. Essa guia da tarefa requer o aplicativo do Dynamics AX 7.0.1 ou posterior.
 
 
 
@@ -61,5 +61,4 @@ Esta guia mostra um exemplo de tarefas do relatório de conclusão para um local
 17. No Painel de Ação, clique em Depósito.
 18. Clique em Detalhes do trabalho.
     * Quando a ordem de produção foi informada como concluída, nenhum trabalho foi gerado para ser colocado de lado. Isso ocorre porque uma diretiva de trabalho que é definida impede que o trabalho seja gerado quando o produto L0101 é relatado como concluídos no local 001.  
-
 

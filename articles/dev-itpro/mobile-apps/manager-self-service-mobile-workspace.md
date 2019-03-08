@@ -1,13 +1,13 @@
 ---
-title: "Meu espaço de trabalho móvel em equipe"
-description: "Este tópico fornece informações sobre o meu espaço de trabalho móvel em equipe, que permite aos gerentes visualizar os seus subordinados diretos e a sua equipe estendida. Os usuários também podem enviar elogios a indivíduos em sua cadeia de subordinação."
+title: Meu espaço de trabalho móvel em equipe
+description: Este tópico fornece informações sobre o meu espaço de trabalho móvel em equipe, que permite aos gerentes visualizar os seus subordinados diretos e a sua equipe estendida. Os usuários também podem enviar elogios a indivíduos em sua cadeia de subordinação.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: fccbedea611228cc57531c89406f72a6664153c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d049c55a40761d0663e3d558b47b4840e5db9bf1
-ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346907"
 ---
-
 # <a name="my-team-mobile-workspace"></a>Meu espaço de trabalho móvel em equipe
 
 [!include [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre a área de trabalho móvel **Minha equipe**. Esse espaço de trabalho permite que gerentes visualizem os seus subordinados diretos e a sua equipe estendida. Eles também podem enviar elogios a indivíduos em sua cadeia de subordinação.
 
-O espaço de trabalho móvel é destinado a ser usado com o Microsoft Dynamics 365 do aplicativo móvel Operações Unificadas.
+Este espaço de trabalho móvel deve ser usado com o Microsoft Dynamics 365 do aplicativo Unified Operations Mobile.
 
 ## <a name="overview"></a>Visão Geral 
 O espaço de trabalho móvel **Minha equipe** permite que os gerentes executem as seguintes tarefas:
@@ -58,7 +57,7 @@ Antes de usar este espaço de trabalho móvel, os seguintes pré-requisitos deve
 </ul>
 </td>
 <td>Administrador do sistema</td>
-<td>Se você não tiver o Finance and Operations implantado em sua organização, consulte <a href="../deployment/deploy-demo-environment.md">Implantar um ambiente de demonstração</a>. Se você ainda não tiver o Talent implantado em sua organização, o administrador do sistema poderá acessar uma versão de avaliação na <a href="https://www.microsoft.com/en-us/dynamics365/talent">página da Web do Talent</a>.
+<td>Se o Finance and Operations ainda não está implantado na organização, consulte <a href="../deployment/deploy-demo-environment.md">Implantar um ambiente de demonstração</a>. Se o Talent ainda não está implantado na organização, o administrador do sistema pode acessar uma versão de avaliação na <a href="https://www.microsoft.com/en-us/dynamics365/talent">página da Web do Talent</a>.
 </td>
 </tr>
 <tr class="even">
@@ -78,7 +77,7 @@ Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
 
 ## <a name="sign-in-to-the-mobile-app"></a>Entrar no aplicativo móvel
 1.  Inicie o aplicativo móvel no seu dispositivo.
-2.  Insira sua URL do Microsoft Dynamics 365.
+2.  Insira a URL do Microsoft Dynamics 365.
 3.  Na primeira vez que você iniciar a sessão, será solicitado o nome de usuário e a senha. Insira suas credenciais.
 4.  Depois de entrar, serão exibidos os espaços de trabalho disponíveis da sua empresa. Observe que se o seu administrador de sistema publica um novo espaço de de trabalho depois, você terá que atualizar a lista dos espaços de trabalho móveis.
 
@@ -99,4 +98,3 @@ Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
 1.  Selecione **Enviar elogio**. 
 1. Insira o texto de elogio que deseja enviar. 
 1. Selecione **Concluído**.
-

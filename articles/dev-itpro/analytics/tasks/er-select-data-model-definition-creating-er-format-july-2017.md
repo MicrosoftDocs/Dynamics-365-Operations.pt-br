@@ -1,13 +1,13 @@
---- 
-title: "Selecionar definições de modelo de dados ao criar formatos"
-description: "Para completar as etapas, neste procedimento você deve primeiro concluir o procedimento, ER Criar um provedor de configuração e marcá-lo como ativo."
+---
+title: Selecionar definições de modelo de dados ao criar formatos
+description: Para completar as etapas, neste procedimento você deve primeiro concluir o procedimento, ER Criar um provedor de configuração e marcá-lo como ativo.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: dc357db8acbdb98741a694a8a9d3c0c0625c50e4
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334487"
 ---
 # <a name="select-data-model-definitions-when-you-create-formats"></a>Selecionar definições de modelo de dados ao criar formatos
 
@@ -81,7 +81,7 @@ Esse procedimento é destinado a usuários com a função de Administrador do si
     * Use o designer de ER para especificar os mapeamentos de modelo para os itens raiz necessários.  
 2. Clique em Designer.
     * Simule a definição de mapeamento de modelo selecionado para o item da raiz do modelo selecionado.  
-3. Na árvore, selecione "Dynamics 365 for Operations\Registros da tabela".
+3. Na árvore, selecione 'Dynamics 365 for Operations\Registros da tabela'.
 4. Clique em Adicionar raiz.
 5. No campo Nome, digite 'Razão'.
 6. No campo Tabela, digite 'LedgerJournalTrans'.
@@ -98,5 +98,4 @@ Esse procedimento é destinado a usuários com a função de Administrador do si
 4. No campo Definição do modelo de dados, insira ou selecione um valor.
     * Observe que agora um só item raiz está disponível para mapear fontes de dados do aplicativo. Quando pelo menos um mapeamento de modelo foi introduzido, somente os itens raiz de modelo que são mapeados para fontes de dados do aplicativo poderão ser selecionados como uma definição modelo, quando o formato de ER for adicionado.   
 5. Feche a página.
-
 

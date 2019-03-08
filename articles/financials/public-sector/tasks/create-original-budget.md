@@ -1,13 +1,13 @@
---- 
-title: "Criar um orçamento original e depois reverter entradas de orçamento preliminar no setor público"
-description: "Quando você cria uma entrada de orçamento original e usa o modelo de orçamento e os valores de dimensão que contêm valores de orçamento preliminar, os valores de orçamento preliminar podem ser revertidos."
+---
+title: Criar um orçamento original e depois reverter entradas de orçamento preliminar no setor público
+description: Quando você cria uma entrada de orçamento original e usa o modelo de orçamento e os valores de dimensão que contêm valores de orçamento preliminar, os valores de orçamento preliminar podem ser revertidos.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetTransaction, BudgetAccountStructureLookup, BudgetTransactionMultiPost
 audience: Application User
 ms.reviewer: twheeloc
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 9d1c34ac2bd94196b7bad599e9aca7ed942ae9c8
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344929"
 ---
 # <a name="create-an-original-budget-and-then-reverse-preliminary-budget-entries-in-the-public-sector"></a>Criar um orçamento original e depois reverter entradas de orçamento preliminar no setor público
 
@@ -50,5 +50,4 @@ Quando você cria uma entrada de orçamento original e usa o modelo de orçament
     * Opcionais: Você pode selecionar a opção Reverter orçamento preliminar. Observe que você pode reverter todas as entradas de orçamento preliminar, ou somente as entradas de orçamento preliminar com o código de orçamento que você especificar.  
     * Para fazer seleções opcionais, clique no ícone Desbloquear na parte superior da página.  
 18. Clique em Atualizar.
-
 

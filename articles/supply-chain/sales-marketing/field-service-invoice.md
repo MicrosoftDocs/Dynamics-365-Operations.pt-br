@@ -1,37 +1,36 @@
 ---
 title: Sincronizar faturas de contrato do Field Service com faturas de texto livre no Finance and Operations
-description: "Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar faturas de contrato no Microsoft Dynamics 365 for Field Service com faturas de texto livre no Microsoft Dynamics 365 for Finance and Operations."
+description: Este tópico discute os modelos e as tarefas subjacentes usados para sincronizar faturas de contrato no Microsoft Dynamics 365 for Field Service às notas fiscais de texto livre no Microsoft Dynamics 365 for Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
+ms.openlocfilehash: 55301ba39dd28fbae5b6c21b1da3c3d9cf6afd8a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
-ms.openlocfilehash: 6672e283a5e56b068e3494d53a0fd6dd08253ba9
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333245"
 ---
-
-# <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-finance-and-operations"></a>Sincronizar faturas de contrato do Field Service com faturas de texto livre no Finance and Operations
+# <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-finance-and-operations"></a>Sincronizar faturas de contrato no Field Service com faturas de texto livre no Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar faturas de contrato no Microsoft Dynamics 365 for Field Service com faturas de texto livre no Microsoft Dynamics 365 for Finance and Operations.
+Este tópico discute os modelos e as tarefas subjacentes usados para sincronizar faturas de contrato no Microsoft Dynamics 365 for Field Service às notas fiscais de texto livre no Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="templates-and-tasks"></a>Modelos e tarefas
 
@@ -59,7 +58,7 @@ As sincronização a seguir é necessária antes que a sincronização de fatura
 
 ## <a name="entity-flow"></a>Fluxo de entidades
 
-As faturas criadas a partir de um contrato no Field Service podem ser sincronizadas com o Finance and Operations por um projeto de Integração de dados de CDS (Common Data Service). As atualizações dessas faturas serão sincronizadas com as faturas de texto livre no Finance and Operations se o status de contabilidade das faturas de texto livre for **Em processamento**. Depois que as faturas de texto livre forem lançadas no Finance and Operations e o status da contabilidade for atualizado para **Concluído**, você não poderá mais sincronizar atualizações do Field Service.
+As faturas criadas a partir de um contrato no Field Service podem ser sincronizadas com o Finance and Operations por um projeto de Integração de dados do Common Data Service (CDS). As atualizações dessas faturas serão sincronizadas com as faturas de texto livre no Finance and Operations se o status de contabilidade das faturas de texto livre for **Em processamento**. Depois que as faturas de texto livre forem lançadas no Finance and Operations e o status da contabilidade for atualizado para **Concluído**, você não poderá mais sincronizar atualizações do Field Service.
 
 ## <a name="field-service-crm-solution"></a>Solução Field Service CRM
 
@@ -107,4 +106,3 @@ As ilustrações a seguir mostram um mapeamento de modelo na Integração de dad
 ### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-lines"></a>Faturas de contrato (Field Service com o Fin and Ops): Linhas de fatura
 
 [![Mapeamento de modelo na Integração de dados](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
-

@@ -1,13 +1,13 @@
 ---
-title: "Definir políticas de despesas"
-description: "Você pode definir políticas de despesas que seus trabalhadores devem seguir ao inserir e enviar relatórios de despesas e requisições de viagem no Microsoft Dynamics 365 for Finance and Operations."
+title: Definir políticas de despesas
+description: Você pode definir políticas de despesas que seus trabalhadores devem seguir ao inserir e enviar relatórios de despesas e requisições de viagem no Microsoft Dynamics 365 for Finance and Operations.
 author: saraschi2
 manager: AnnBe
 ms.date: 02/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysPolicyListPage, TrvPolicyRule
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 04eaff110fea021ddee32be650be540894eb703b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3b2a28fe6acf03e52c292048a797ce997f58bcce
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342422"
 ---
-
 # <a name="expense-policies"></a>Diretivas de despesas
 
 [!include [banner](../includes/banner.md)]
@@ -49,4 +48,3 @@ Você pode definir três tipos de política:
   e a cidade de Nova Iorque podem ser dispendiosas durante a estação de pico de viagens de férias. É possível definir uma regra de despesas com voos que restrinja o      
   custo dos voos para a cidade de Nova Iorque a um limite de DKK 5000, e você pode especificar que essa regra esteja em vigor entre 15 de março e      
   15 de setembro.
-

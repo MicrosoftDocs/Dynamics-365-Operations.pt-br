@@ -1,13 +1,13 @@
 ---
-title: "Criar questionários"
-description: "Este tópico descreve o processo para criar um questionário. A primeira etapa é criar o questionário. Ao criar um questionário, você grava não apenas as perguntas e respostas, mas também pode criar a estrutura que permite que as respostas sejam registradas e tabuladas."
+title: Criar questionários
+description: Este tópico descreve o processo para criar um questionário. A primeira etapa é criar o questionário. Ao criar um questionário, você grava não apenas as perguntas e respostas, mas também pode criar a estrutura que permite que as respostas sejam registradas e tabuladas.
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: cd13fa1c424d1769b356d90012b187a77473473d
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303270"
 ---
-
 # <a name="design-questionnaires"></a>Criar questionários
 
 [!include [banner](includes/banner.md)]
@@ -94,7 +93,7 @@ Os códigos de sequência numérica que são usados para organizar perguntas e r
 É preciso definir todos os parâmetros antes de começar a criar seus dados. Você pode alterar as configurações de parâmetros de questionário a qualquer momento.
 
 ## <a name="questionnaire-components"></a>Componentes do questionário
-Os questionários compõem três principais elementos: grupos de respostas que contêm as respostas para questões de múltipla escolha, perguntas e o questionário em si. Se preferir, você pode agrupar as perguntas de um questionário em grupos de resultados. Os grupos de resultados permitem categorizar perguntas e fornecer uma análise mais detalhada do questionário. 
+Os questionários compõem três principais elementos: grupos de respostas que contêm as respostas para questões de múltipla escolha, perguntas e o questionário em si. Se preferir, você pode agrupar as perguntas de um questionário em grupos de resultados. Os grupos de resultados permitem categorizar perguntas e fornecer uma análise mais detalhada do questionário. 
 
 [![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
@@ -111,7 +110,7 @@ Os grupos de respostas e as respostas são componentes que compõem o corpo prin
 
 Um grupo de respostas pode ser usado para mais de uma pergunta no mesmo questionário e em mais de uma questionário. 
 
-**Observação:** Se você alterar o texto de resposta nos grupos de respostas que já foram usados em questionários preenchidos, os dados podem se tornar difíceis de avaliar, e os resultados do questionário podem não mais ser válidos. Se você precisar alterar um grupo de respostas, considere criar um novo grupo de respostas em vez de alterar o existente. Não é possível excluir grupos de resposta anexados a uma pergunta ou a uma resposta, ou que foram respondidos.
+**Observação:** Se você alterar o texto de resposta nos grupos de respostas que já foram usados em questionários preenchidos, os dados podem se tornar difíceis de avaliar, e os resultados do questionário podem não mais ser válidos. Se você precisar alterar um grupo de respostas, considere criar um novo grupo de respostas em vez de alterar o existente. Não é possível excluir grupos de resposta anexados a uma pergunta ou a uma resposta, ou que foram respondidos.
 
 ### <a name="questions"></a>Perguntas
 
@@ -160,7 +159,7 @@ Você pode concluir as seguintes tarefas na página **Questionários**:
 -   Excluir e adicionar perguntas.
 -   Fazer alterações nos grupos de resultados e no número de seqüência. 
 
-**Atenção:** Tenha cuidado ao alterar os questionários já respondidos. As alterações podem reduzir a precisão da estatísticas e, consequentemente, torná-las uma base insuficiente para a avaliação. Considere a criação de uma nova pergunta em vez de alterar uma pergunta que foi respondida anteriormente.
+**Atenção:** Tenha cuidado ao alterar os questionários já respondidos. As alterações podem reduzir a precisão da estatísticas e, consequentemente, torná-las uma base insuficiente para a avaliação. Considere a criação de uma nova pergunta em vez de alterar uma pergunta que foi respondida anteriormente.
 
 Em um questionário, você não pode excluir os seguintes tipos de pergunta:
 
@@ -238,5 +237,4 @@ Como alternativa, você pode definir um questionário para que se um participant
 [Distribuindo e preenchendo questionários](distribute-questionnaires.md)
 
 [Exibindo e avaliando os resultados dos questionários](evaluate-questionnaire-results.md)
-
 

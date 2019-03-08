@@ -1,13 +1,13 @@
 ---
-title: "Confirmação de lote e placa de licença"
-description: "Este tópico descreve como configurar e aplicar a confirmação de lote e placa de licença de um dispositivo móvel."
+title: Confirmação de lote e placa de licença
+description: Este tópico descreve como configurar e aplicar a confirmação de lote e placa de licença de um dispositivo móvel.
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFAutoConfirm
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: efab5b11782fd2344fb5f532272007d187c1465b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0444caa0f1cc176153c322b8619db65bd377ddd0
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344216"
 ---
-
 # <a name="batch-and-license-plate-confirmation"></a>Confirmação de lote e placa de licença
 
 [!include [banner](../includes/banner.md)]
@@ -43,4 +42,3 @@ A confirmação aplica-se nos seguintes cenários:
 Você pode configurar a confirmação de lote e de placa de licença dos itens de menu de dispositivo móvel.  
 1.  Dos itens de menu de dispositivo móvel, insira a configuração de confirmação de trabalho.  
 2.  Selecione a opção para o lote ou a confirmação da placa de licença. As duas opções disponíveis para as separações por tipo de trabalho que não têm uma confirmação automática ativada.  
-

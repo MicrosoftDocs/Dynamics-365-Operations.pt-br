@@ -1,13 +1,13 @@
 ---
 title: Europa
-description: "Este tópico fornece links para os recursos de documentação do Microsoft Dynamics 365 for Finance and Operations para o Europa."
+description: Este tópico fornece links para recursos da documentação do Microsoft Dynamics 365 for Finance and Operations para a Europa.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,19 +15,18 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
 ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321722"
 ---
-
 # <a name="europe"></a>Europa 
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico inclui informações e links para recursos que podem ajudá-lo a configurar o Dynamics 365 for Finance and Operations para entidades legais com endereço principal na Europa. 
+Este tópico inclui informações e links para recursos que podem ajudar você a configurar o Dynamics 365 for Finance and Operations para entidades legais com endereço principal na Europa. 
 
 - [Titulares avançados](emea-advance-holders.md)
  - [Transações de titulares avançados](emea-advance-holders-transactions.md)
@@ -43,7 +42,7 @@ Este tópico inclui informações e links para recursos que podem ajudá-lo a co
 - [​Ajustes cambiais​](emea-exchange-rate-adjustments.md)
 - [Formatos de arquivo para métodos de pagamento](emea-select-file-formats-for-the-method-of-payments.md)
 - [Integração do serviço fiscal (ESR)](emea-fiscal-service-integration.md)
-- [Alienação de ativos fixos da Estônia e da Lituânia](emea-credit-note-reverse-fixed-asset-sale.md)
+- [​Alienação de ativos fixos da Estônia e da Lituânia​](emea-credit-note-reverse-fixed-asset-sale.md)
 - [Gerar um documento de transferência para uma transferência interna de estoque](tasks/transfer-document-internal-inventory-transfer.md)
 - [Gerar um relatório de lista de vendas da UE](tasks/eur-00011-eu-sales-list-report.md)
 - Arquivos ISO20022
@@ -99,5 +98,4 @@ Este tópico inclui informações e links para recursos que podem ajudá-lo a co
 
 - [Visão geral de Relatório eletrônico](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Baixar configurações de Relatório eletrônico do Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-
 

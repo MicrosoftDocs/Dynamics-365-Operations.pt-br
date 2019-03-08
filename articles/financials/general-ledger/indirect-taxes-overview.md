@@ -1,13 +1,13 @@
 ---
-title: "Visão geral de imposto"
-description: "Este tópico fornece uma visão geral do sistema de imposto. Explica os elementos da configuração do imposto sobre vendas e como trabalham em conjunto."
+title: Visão geral de imposto
+description: Este tópico fornece uma visão geral do sistema de imposto. Explica os elementos da configuração do imposto sobre vendas e como trabalham em conjunto.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 11fe694af6180419460ba5dbf4c55f760a38f987
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 02d28aef2316d7cfe5ad4eb45272dc1a22c96789
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311349"
 ---
-
 # <a name="sales-tax-overview"></a>Visão geral de imposto
 
 [!include [banner](../includes/banner.md)]
@@ -97,4 +96,3 @@ Entretanto, usando o imposto condicional, você liquida a dívida com a autorida
 
 
 Para saber mais, consulte [Configurar imposto retido na fonte](tasks/set-up-withholding-tax.md).
-
