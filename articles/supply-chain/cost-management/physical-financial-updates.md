@@ -1,13 +1,13 @@
 ---
-title: "Atualizações físicas e financeiras"
-description: "Este tópico fornece uma visão geral dos tipos de transação que aumentam ou diminuem quantidades em estoque."
+title: Atualizações físicas e financeiras
+description: Este tópico fornece uma visão geral dos tipos de transação que aumentam ou diminuem quantidades em estoque.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventTrans, InventTransVoucher
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9ba628dbf63d3b124583e6b873530f1459b07562
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e62bdbfb7b88f66ea1f6e4d57b6150c8b0bffb04
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322573"
 ---
-
 # <a name="physical-and-financial-updates"></a>Atualizações físicas e financeiras
 
 [!include [banner](../includes/banner.md)]
@@ -72,7 +71,6 @@ Quando uma transação financeira é lançada, o status do registro da transaç�
 -   Diários de estoque de quantidade negativa, como movimento, lucros e perdas, contagem, lista de materiais e transferência
 
 As transações que diminuem a quantidade são lançadas ao preço de custo médio. Portanto, o procedimento de fechamento de estoque é necessário para liquidar transações de saída para transações de recebimento com base no modelo de estoque atribuído a cada item.
-
 
 
 

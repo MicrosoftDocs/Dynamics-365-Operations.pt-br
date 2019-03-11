@@ -1,31 +1,30 @@
 ---
-title: "Integração dos contratos de serviço e projetos"
-description: "Quando você trabalha com contratos de serviço e linhas de contrato de serviço, usa os dados configurados nas áreas em Gerenciamento e contabilidade do projeto."
+title: Integração dos contratos de serviço e projetos
+description: Quando você trabalha com contratos de serviço e linhas de contrato de serviço, usa os dados configurados nas áreas em Gerenciamento e contabilidade do projeto.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6bd2fb1f54a3decb77f019db6b2016cebdcaddb9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 9f2640eae299411d633c68795bc16883dbb5eeaf
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323194"
 ---
-
 # <a name="integration-for-service-agreements-and-projects"></a>Integração dos contratos de serviço e projetos 
 
 [!include [banner](../includes/banner.md)]
@@ -79,7 +78,6 @@ Você também poderá habilitar os campos **Hora de início** e **Hora de térmi
 
 > [!NOTE]
 > <P>Selecione o nome do diário para a ordem de serviço no campo <STRONG>Hora</STRONG> na guia <STRONG>Diários</STRONG> do formulário <STRONG>Parâmetros de gerenciamento de serviços</STRONG>.</P>
-
 
 
 

@@ -1,13 +1,13 @@
---- 
+---
 title: Criar uma meta
-description: "Você pode criar metas, adicionar atividades a meta, rastrear, medições e vincular metas a revisão."
+description: Você pode criar metas, adicionar atividades a meta, rastrear, medições e vincular metas a revisão.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EssWorkspace, HcmGoal, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmGoalChangeSettings
 audience: Application User
 ms.reviewer: rschloma
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
 ms.openlocfilehash: e3f3bc01113099c5b28f10e702ebf981e26c196a
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350702"
 ---
 # <a name="create-a-goal"></a>Criar uma meta
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Você pode criar metas, adicionar atividades a meta, rastrear, medições e vincular metas a revisão. Este procedimento foi criado usando a empresa de dados de demonstração USMF. Este procedimento é para um recurso que foi adicionado à versão 1611 do Dynamics 365 for Operations.
+Você pode criar metas, adicionar atividades a meta, rastrear, medições e vincular metas a revisão. Este procedimento foi criado usando a empresa de dados de demonstração USMF. Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynamics 365 for Operations.
 
 1. Vá para Todos os espaços de trabalho > Autoatendimento para funcionários.
 2. Clique em Exibir todas as metas.
@@ -59,5 +59,4 @@ Você pode criar metas, adicionar atividades a meta, rastrear, medições e vinc
     * Há que frequência as metas que são iguais ou semelhantes para membro de equipe ou todos os funcionários.     Seu administrador ou gerente de horas podem criar modelos de meta para as metas. Você pode adicionar um meta de um modelo, e em altera-o para corresponder as linhas de tempo.  
     * Há frequentemente várias metas que são as mesmas ou semelhantes para os membros da equipe ou todos funcionários.     Seu administrador ou gerente de horas podem criar grupos de metas que contêm um ou mais modelos de meta. Você pode adicionar um meta de um grupo de meta, e em altere-o para corresponder as linhas de tempo.  
     * Quando você cria uma revisão, você pode adicionar a meta a revisão. Consulte o guia de tarefa para revisões para verificar como você pode adicionar suas revisões a meta.  
-
 

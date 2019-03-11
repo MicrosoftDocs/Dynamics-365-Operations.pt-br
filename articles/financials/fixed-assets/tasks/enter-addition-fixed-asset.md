@@ -1,13 +1,13 @@
---- 
-title: "Digitar um acréscimo a um ativo fixo"
-description: "Este procedimento mostra como adicionar um acréscimo a um ativo fixo existente."
+---
+title: Digitar um acréscimo a um ativo fixo
+description: Este procedimento mostra como adicionar um acréscimo a um ativo fixo existente.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, AssetAddition
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3c9733f07f995dd37669f3c33fd0f082daa34dd2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 3579148033023f648e1a78a3dd009018f153fdad
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324413"
 ---
 # <a name="enter-an-addition-to-a-fixed-asset"></a>Digitar um acréscimo a um ativo fixo
 
@@ -47,5 +47,4 @@ O procedimento usa a função de contador e os dados de demonstração da entida
 11. Clique na guia Geral.
     * Defina Aumento da vida útil se a adição aumentar a vida útil do ativo.  
     * Este campo serve somente para informar. Para aumentar a vida útil, modifique a vida útil nos métodos de depreciação e/ou registros de depreciações para o ativo.  
-
 

@@ -1,13 +1,13 @@
 ---
 title: Configurar e criar formatos de recibo
-description: "Este artigo descreve como modificar layouts de formulário para controlar como os recibos, as notas fiscais e outros documentos serão impressos. Microsoft Dynamics 365 para Varejo inclui um designer do layout de formulário que você pode usar para criar e modificar de modo fácil e gráfico diversos tipos de layouts de formulário."
+description: Este artigo descreve como modificar layouts de formulário para controlar como os recibos, as notas fiscais e outros documentos serão impressos. O Microsoft Dynamics 365 for Retail inclui um designer do layout de formulário que você pode usar para criar e modificar de modo fácil e gráfico diversos tipos de layouts de formulário.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailFormLayout
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 13249e1b109586b2c520a1be30c47ac4393abe49
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357809"
 ---
-
 # <a name="set-up-and-design-receipt-formats"></a>Configurar e criar formatos de recibo
 
 [!include [banner](includes/banner.md)]
 
-Este artigo descreve como modificar layouts de formulário para controlar como os recibos, as notas fiscais e outros documentos serão impressos. Microsoft Dynamics 365 para Varejo inclui um designer do layout de formulário que você pode usar para criar e modificar de modo fácil e gráfico diversos tipos de layouts de formulário.
+Este artigo descreve como modificar layouts de formulário para controlar como os recibos, as notas fiscais e outros documentos serão impressos. O Microsoft Dynamics 365 for Retail inclui um designer do layout de formulário que você pode usar para criar e modificar de modo fácil e gráfico diversos tipos de layouts de formulário.
 
 > [!IMPORTANT]
 > Você deve configurar layouts de formulário e perfis de recibo para imprimir recibos e outros documentos no Retail Modern POS e no Cloud POS. Você pode incluir vários layouts de formulário em um perfil de recibo. Em seguida, você pode atribuir o perfil de recibo a uma impressora modificando um perfil de hardware.
@@ -56,7 +55,7 @@ Use o designer de layout de formulário para criar graficamente o layout do docu
 2. Na página **Formato de recibo**, selecione um layout de formulário e clique em **Designer**.
 3. Clique em **Executar** para começar a instalar o host de designer Retail.
 4. Na barra de notificação exibida na parte inferior da janela do Internet Explorer, clique em **Abrir** para começar a instalação do designer de um clique. (A barra de notificação poderá aparecer em um outro local em outros browsers.) O indicador de progresso mostra o progresso do processo de instalação.
-5. Depois que a instalação for concluída, insira seu nome de usuário e senha do Microsoft Dynamics 365 para Varejo, e clique em **Entrar** para iniciar o designer.
+5. Depois que a instalação for concluída, insira seu nome de usuário e senha do Dynamics 365 for Retail, e clique em **Entrar** para iniciar o designer.
 6. Depois que suas credenciais forem validadas e o designer for iniciado, você poderá começar a criar o formato de recibo ou modificar um formato existente.
 7. Para criar os elementos do formulário, selecione a seção **Cabeçalho**, **Linhas** ou **Rodapé** e arraste um elemento dessa seção para o espaço de trabalho. A maioria dos elementos contém variáveis que são preenchidas automaticamente com dados do banco de dados. Outros elementos, como **Texto**, permitem imprimir texto personalizado no recibo.
 
@@ -83,4 +82,3 @@ Os perfis de recibo são atribuídos diretamente às impressoras por meio do per
 
 > [!NOTE]
 > Se duas impressoras forem usadas, uma delas poderá ser usada para imprimir recibos térmicos padrão de 40 colunas. A segunda normalmente é usada para imprimir tipos de recibo de página inteira que requerem mais informações. Esses tipos de recibo incluem recibos de ordens de clientes e faturas de clientes.
-

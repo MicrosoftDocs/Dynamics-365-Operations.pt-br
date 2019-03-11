@@ -1,13 +1,13 @@
---- 
+---
 title: Criar uma conta principal
-description: "Este guia de tarefas aborda a adição de uma conta principal a um plano de contas existente."
+description: Este guia de tarefas aborda a adição de uma conta principal a um plano de contas existente.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: MainAccount, CompanyInfoList
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5fd332121bae2be55ada39b33e5f381096c9b74d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: db813353eef97375451e78320d6d14de74292309
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331566"
 ---
 # <a name="create-a-main-account"></a>Criar uma conta principal
 
@@ -35,7 +35,7 @@ Este guia de tarefas aborda a adição de uma conta principal a um plano de cont
 4. No campo Nome, digite um valor.
 5. No campo Conta principal, selecione o tipo que melhor representa o saldo de contas e a localização nos demonstrativos financeiros.
 6. Na lista, selecione a categoria de conta à qual a conta principal pertence.
-    * Categoria de conta é usada em relatórios financeiros padrão e no conteúdo do painel Power BI.  
+    * A categoria de conta é usada em relatórios financeiros padrão e no conteúdo do painel do Power BI.  
 7. Na lista, clique no link na linha selecionada.
     * Altere o saldo padrão de débito ou crédito.  
 8. No campo Moeda padrão, selecione um valor na lista de moedas.
@@ -53,5 +53,4 @@ Este guia de tarefas aborda a adição de uma conta principal a um plano de cont
 20. Na lista, clique no link na linha selecionada.
 21. No campo Tipo de conversão de moeda, selecione o método de cálculo das taxas de câmbio da conta.
 22. Feche a página.
-
 

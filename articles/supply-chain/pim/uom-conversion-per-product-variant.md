@@ -1,14 +1,14 @@
 ---
-title: "Conversão de unidade de medida por variante de produto"
-description: "Este tópico explica como as conversões de unidade de medida podem ser configuradas em grades do produto."
+title: Conversão de unidade de medida por variante de produto
+description: Este tópico explica como as conversões de unidade de medida podem ser configuradas em grades do produto.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 12/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.translationtype: HT
-ms.sourcegitcommit: 8c6cb481f1a3fe48d329c5936118d8df88a4175b
 ms.openlocfilehash: 9d5d6fd65717cd886f1c6576aabf2bc59ca4fcaf
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/20/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345918"
 ---
-
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Conversão de unidade de medida por variante de produto
 
 [!include [banner](../includes/banner.md)]
@@ -94,4 +93,3 @@ As variantes de produtos liberados pequena, médio e grande têm a mesma unidade
 Se um produto tiver muitas grades de produtos com conversões de unidade diferentes, será aconselhável exportar as conversões de unidades da página **Conversão de unidades** para uma planilha do Excel, atualizar as conversões e publicá-las novamente no Finance and Operations.
 
 A opção para exportar para o Excel e publicar as edições no Finance and Operations é habilitada do item de menu **Abra no Microsoft Office** no painel de ações na página **Conversão de unidade**.
-

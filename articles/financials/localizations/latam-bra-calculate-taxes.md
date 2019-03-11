@@ -1,13 +1,13 @@
 ---
 title: Impostos brasileiros
-description: "O Microsoft Dynamics 365 for Finance and Operations calcula os impostos brasileiros com base no tipo de imposto especificado para o código do imposto. É possível configurar e calcular os impostos sobre vendas nas vendas, nas compras, nas transferências entre estabelecimentos fiscais, na entrega de itens a um terceiro, ou no recebimento de itens de um terceiro."
+description: O Microsoft Dynamics 365 for Finance and Operations calcula os impostos brasileiros com base no tipo de imposto especificado para o código do imposto sobre vendas. É possível configurar e calcular os impostos sobre vendas nas vendas, nas compras, nas transferências entre estabelecimentos fiscais, na entrega de itens a um terceiro, ou no recebimento de itens de um terceiro.
 author: sndray
 manager: AnnBe
 ms.date: 08/11/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 8538bd33a54984e30483f8685d36575c6c3fe97c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 075356e1f5589c9e48bb99e4b3ba1bca7f4af57e
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371544"
 ---
-
 # <a name="brazilian-taxes"></a>Impostos brasileiros
 
 [!include [banner](../includes/banner.md)]
@@ -60,7 +59,7 @@ Os seguintes tipos de imposto estão disponíveis na configuração de código d
     -   A nota fiscal é recebida em um estado diferente. Aplicável para ativos fixos e itens de uso e consumo.
 
 ## <a name="examples"></a>Exemplos
-Para o valor de uma transação de base de R$ 1.000,00 e uma taxa de imposto de 18%, o Microsoft Dynamics 365 for Finance and Operations calcula os impostos da seguinte maneira para valores fiscais diferentes.
+Para o valor de uma transação de base de R$ 1.000,00 e uma taxa de imposto de 18%, o Microsoft Dynamics 365 for Finance and Operations calcula o imposto da seguinte maneira para valores fiscais diferentes.
 
 | Valor fiscal                                    | Origem do valor | Valor real do imposto | Valor base de isenção | Outro valor base | Outro valor de imposto |
 |-------------------------------------------------|---------------|-------------------------|--------------------|-------------------|------------------|
@@ -82,6 +81,5 @@ Para transações de venda com códigos de tributação que têm um valor fiscal
 -   [Atributos de impostos brasileiros](latam-bra-tax-attributes.md)
 -   [Pagamentos de impostos brasileiros](latam-bra-tax-payments.md)
 -   [Impostos retidos na fonte no Brasil ](tasks/br-00009-brazilian-withholding-taxes.md)
-
 
 

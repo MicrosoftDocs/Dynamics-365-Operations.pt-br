@@ -1,13 +1,13 @@
 ---
-title: "Planejar rotas de transporte de frete com várias paradas"
-description: "Este artigo descreve os vários elementos que você usa para planejar rotas de transporte no Dynamics 365 for Finance and Operations."
+title: Planejar rotas de transporte de frete com várias paradas
+description: Este artigo descreve os vários elementos que você usa para planejar rotas de transporte no Dynamics 365 for Finance and Operations.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSRouteGuide, TMSRoutePlan, TMSRouteWorkbench, WHSLoadTemplate
 audience: Application User
 ms.reviewer: josaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 36cb454477c0d296246c061d2573954a81c9efd7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 16255e812773ed35c0e34ec26a8a689ea09632bd
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328300"
 ---
-
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Planejar rotas de transporte de frete com várias paradas
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo descreve os vários elementos usados para planejar rotas de transporte no Microsoft Dynamics 365 for Finance and Operations.
+Este artigo descreve os vários elementos que você usa para planejar rotas de transporte no Microsoft Dynamics 365 for Finance and Operations.
 
 Você pode usar guias de rota e planos de rota para rotas de transporte complexos que têm várias paradas. Se o mesmo roteiro for usado regularmente, você pode configurar uma rota programada.
 
@@ -51,7 +50,6 @@ Uma rota programada é um plano de rota predefinida que tem uma agenda para as d
 
 ## <a name="load-building-workbench"></a>Bancada de criação de carga
 A Bancada de trabalho de criação de carga utiliza os endereços de clientes e datas de entrega de ordens de venda e as rotas agendadas que estão disponíveis para propor uma carga. Por padrão, os valores do roteiro são inseridos sobre a bancada de trabalho. No entanto, você pode selecionar uma data "de" que é anterior à data "de" no roteiro. Quando uma carga é proposta, o endereço de entrega e a data de entrega de todas as ordens de venda são verificadas. Se o código postal do endereço de entrega corresponde ao código postal de um hub no plano de rota e a data de entrega está dentro do intervalo selecionado nos critérios, a ordem de venda é proposta para o carregamento. A capacidade de carregar modelo também é considerada. Apenas uma carga é proposta ao mesmo tempo. Se você tiver uma ordem de venda que não será incluída, você terá que usar um modelo de carga diferente (por exemplo, um modelo de carga de um caminhão ou contêiner) ou planejar uma entrega extra.
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Definir modelos de fluxo de produção"
-description: "Os modelos de fluxo de produção descrevem como capacidade das células de trabalho de lean manufacturing é calculada e atualizada."
+---
+title: Definir modelos de fluxo de produção
+description: Os modelos de fluxo de produção descrevem como capacidade das células de trabalho de lean manufacturing é calculada e atualizada.
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlowModel
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e410928bc850e1f3427c9536e9943d1196be7a05
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7850a121ca06f25f6c532e49e18c0b6811bd7455
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336718"
 ---
 # <a name="define-production-flow-models"></a>Definir modelos de fluxo de produção
 
@@ -45,5 +45,4 @@ Os modelos de fluxo de produção descrevem como capacidade das células de trab
     * O limite de tempo de planejamento descreve o número de dias que as reservas de capacidade podem ser feitas para as células de trabalho relacionadas. No limite de tempo de Planejamento, insira o número de dias.   Os trabalhos de processo kanban fora deste período não são planejados com planejamento automático. O limite de tempo de planejamento normalmente é duas vezes o prazo de entrega médio de estoque dos produtos gerados em um fluxo de produção ou em uma célula de trabalho. O Ciclo de EPE não deve ser maior do que a metade do limite de tempo de planejamento.     
 8. No campo Reação de escassez de capacidade, selecione uma opção.
     * As opções incluem: Adiar - adia a demanda completa do evento de agendamento no próximo dia disponível de produção, com a produtividade disponível. Cancelar - finaliza o planejamento automático para o evento de agendamento e deixa os trabalhos relacionados sem planejamento.   Adicionar ao dia solicitado - planeja os trabalhos solicitados para o período solicitado. Isso sobrecarrega a célula para esse dia e requer que o planejador revise e faça uma interação manual.   Distribuir entre períodos disponíveis - distribui os diferentes trabalhos do evento de agendamento em todos os dias disponíveis de produção, começando pelo primeiro dia disponível. A quantidade mínima de distribuição é a quantidade de trabalhos kanban. A distribuição atribui a quantidade mínima de planejamento (quantidade de kanbans) a cada dia com produtividade suficiente disponível.  
-
 

@@ -1,31 +1,30 @@
 ---
 title: Pesquisa de produto e de cliente no ponto de venda (PDV)
-description: "Este tópico fornece uma visão geral de melhorias feitas à funcionalidade de pesquisa de produto e cliente no Microsoft Dynamics 365 for Retail."
+description: Este tópico fornece uma visão geral de melhorias feitas à funcionalidade de pesquisa de produto e cliente no Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 03/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
 ms.custom: 141393
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
+ms.openlocfilehash: 1fa38002377fac24a5f3e25bd5924ecb23fec70a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 50b0cec27e343b3b6aba464a04c9883160ab263a
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313580"
 ---
-
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Pesquisa de produto e de cliente no ponto de venda (PDV)
 
 [!include [banner](includes/banner.md)]
@@ -91,7 +90,7 @@ A busca tradicional do cliente pode levar muito tempo porque ela faz a pesquisa 
 
 ![Atalhos de pesquisa de cliente](./media/SearchShortcutsPOS.png "Atalhos de pesquisa de cliente")
 
-Para definir os critérios de pesquisa como atalhos, o administrador deve abrir a página **Parâmetros de varejo** no Microsoft Dynamics 365 for Finance and Operation, em seguida, na guia **Critérios de pesquisa de PDV** , selecione os critérios a serem mostrados como atalhos.
+Para definir os critérios de pesquisa como atalhos, o administrador deve abrir a página **Parâmetros de varejo** no Microsoft Dynamics 365 for Finance and Operations,, em seguida, na guia **Critérios de pesquisa de PDV**, selecione os critérios a serem mostrados como atalhos.
 
 ![Configurar atalhos de pesquisa](./media/ConfigureShortcutsAX.png "Configurar atalhos de pesquisa")
 
@@ -102,4 +101,3 @@ O campo **Ordem de exibição** determina a ordem em que os atalhos são exibido
 
 > [!NOTE]
 > Uma propriedade personalizada que é adicionada à enumeração não afeta o algoritmo de pesquisa do cliente padrão. Em outras palavras, o algoritmo de pesquisa do cliente não pesquisará a propriedade personalizada. Os usuários podem usar uma propriedade personalizado somente para pesquisas se essa propriedade personalizada for adicionada como um atalho, ou se o algoritmo de pesquisa padrão for substituído.
-

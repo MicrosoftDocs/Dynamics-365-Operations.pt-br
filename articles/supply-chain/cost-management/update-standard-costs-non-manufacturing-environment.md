@@ -1,13 +1,13 @@
 ---
-title: "Atualizar custos padrão em um ambiente que não seja de manufatura"
-description: "Este artigo oferece diretrizes para a atualização de custos padrão em um ambiente que não seja de fabricação."
+title: Atualizar custos padrão em um ambiente que não seja de manufatura
+description: Este artigo oferece diretrizes para a atualização de custos padrão em um ambiente que não seja de fabricação.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion, InventItemPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4fa545aa6903bd6f789dda20ab5755ffe9a12b88
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0386ca1e5e7bf6e578ba2abf1b2c9eefe4dd2a02
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323010"
 ---
-
 # <a name="update-standard-costs-in-a-non-manufacturing-environment"></a>Atualizar custos padrão em um ambiente que não seja de manufatura
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ Para corrigir, ajustar ou atualizar os custos padrão para novos itens, siga est
 4.  Use a página **Manutenção de versão de avaliação de custo** para alterar o sinalizador de bloqueio para permitir a ativação dos registros de custos pendentes incluídos na segunda versão de avaliação de custo.
 5.  Use a página **Preços ativos** (aberta da página **Manutenção de versão de avaliação de custo**) para ativar todos os registros de custos pendentes incluídos na segunda versão de avaliação de custo. Você também pode ativar os registros de custo pendente para itens individuais clicando no botão **Ativar preço pendente** na página **Preço de item**.
 6.  Use a página **Configuração de versão de avaliação de custo** para alterar os sinalizadores de bloqueio incluídos na segunda versão de avaliação de custo para impedir a manutenção adicional de dados. As diretivas de bloqueio impedem a entrada de novos custos pendentes e a ativação de custos pendentes.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "​Configurar dispositivos móveis para trabalho de depósito​"
-description: "Este tópico descreve como configurar os itens de menu que os trabalhadores de depósito usam para executar o trabalho em um dispositivo móvel."
+title: ​Configurar dispositivos móveis para trabalho de depósito​
+description: Este tópico descreve como configurar os itens de menu que os trabalhadores de depósito usam para executar o trabalho em um dispositivo móvel.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 09/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 74522c97716238b62af3d65a1c23ba9e5e60a68b
 ms.openlocfilehash: cc21b62026403e37dbcb90c24dd239d295f0e04e
-ms.contentlocale: pt-br
-ms.lasthandoff: 10/03/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347942"
 ---
-
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>​Configurar dispositivos móveis para trabalho de depósito​
 
 [!include [banner](../includes/banner.md)]
@@ -174,7 +173,7 @@ Você pode configurar um item de menu que cria trabalho para outro trabalhador, 
 </tr>
 <tr>
 <td>Carregamento da placa de licença:</td>
-<td>Use essa opção quando você estiver configurando seu depósito pela primeira vez. Verifique todas as placas de licença em todos os locais do depósito. Os locais devem ser controlados por placa de licença. Não é possível usar essa opção se <strong>Número de série</strong> ou <strong>Número de lote</strong> estiver listado acima de <strong>Localização</strong> na hierarquia de reserva de estoque.</td>
+<td>Use esta opção quando estiver configurando o depósito pela primeira vez. Verifique todas as placas de licença em todos os locais do depósito. Os locais devem ser controlados por placa de licença. Não é possível usar esta opção se <strong>Número de série</strong> ou <strong>Número de lote</strong> está acima de <strong>Local</strong> na hierarquia de reserva de estoque.</td>
 </tr>
 <tr>
 <td>Contagem cíclica</td>
@@ -208,12 +207,12 @@ Além de configurar itens de menu para criar o trabalho de depósito, você pode
 </thead>
 <tbody>
 <tr class="odd">
-<td>Nenhum(a)</td>
-<td>Esse valor padrão não processa o trabalho.</td>
+<td>Nenhuma</td>
+<td>Este valor padrão não processa trabalho.</td>
 </tr>
 <tr class="even">
 <td>Sistema direcionado</td>
-<td>O Microsoft Dynamics 365 for Finance and Operations controla o tipo de trabalho que é atribuído a um trabalhador e a ordem na qual o trabalhador executa o trabalho. Ao selecionar essa opção, você pode clicar em <strong>Trabalho direcionado pelo sistema</strong> no Painel de Ação para abrir a página <strong>Ordem de classificação direcionada pelo sistema</strong>, na qual você pode configurar critérios de classificação para o trabalho. Os critérios de classificação controlam a ordem na qual o trabalhador executa o trabalho. Você pode adicionar quantos critérios forem necessários.</td>
+<td>O Microsoft Dynamics 365 for Finance and Operations controla o tipo de trabalho atribuído a um trabalhador e a ordem em que ele executa o trabalho. Ao selecionar essa opção, você pode clicar em <strong>Trabalho direcionado pelo sistema</strong> no Painel de Ação para abrir a página <strong>Ordem de classificação direcionada pelo sistema</strong>, na qual você pode configurar critérios de classificação para o trabalho. Os critérios de classificação controlam a ordem na qual o trabalhador executa o trabalho. Você pode adicionar quantos critérios forem necessários.</td>
 </tr>
 <tr class="odd">
 <td>Usuário direcionado</td>
@@ -238,7 +237,7 @@ Além de configurar itens de menu para criar o trabalho de depósito, você pode
 <li><strong>Campo Direcionado do Usuário Validado</strong> – Selecione o campo que o trabalhador pesquisa para agrupar o trabalho.</li>
 <li><strong>Etiqueta Direcionada do Usuário Validado</strong> – Insira o texto que informará ao trabalhador sobre o que verificar quando o trabalho de separação for agrupado pelo sistema.</li>
 </ul>
-Esta opção será útil quando, por exemplo, vários paletes foram preparados para uma carga. Se você selecionar <strong>LoadId</strong> no campo <strong>Direcionado do Usuário Validado</strong>, o trabalhador poderá escolher qualquer palete que esteja associado à carga. O trabalhador receberá uma mensagem de erro se ele verificar um item que não esteja associado à carga.</td>
+Esta opção será útil quando, por exemplo, vários paletes foram preparados para uma carga. Se você selecionar <strong>LoadId</strong> no campo <strong>Direcionado do Usuário Validado</strong>, o trabalhador poderá escolher qualquer palete que esteja associado à carga. O trabalhador receberá uma mensagem de erro se verificar um item não associado à carga.</td>
 </tr>
 <tr class="odd">
 <td>Separação de cluster</td>
@@ -246,7 +245,7 @@ Esta opção será útil quando, por exemplo, vários paletes foram preparados p
 </tr>
 <tr class="even">
 <td>Agrupamento de contagens cíclicas</td>
-<td>O trabalhador seleciona uma zona, pool de trabalho ou local e o Microsoft Dynamics 365 for Finance and Operations atribuirá o trabalho com base na seleção. Se selecionar esta opção, você poderá clicar em <strong>Contagem cíclica</strong> para especificar informações adicionais a serem exibidas, além de especificar o número de vezes que o trabalhador deverá repetir a contagem caso seja encontrada uma diferença</td>
+<td>O trabalhador seleciona uma zona, um pool de trabalho ou um local e o Microsoft Dynamics 365 for Finance and Operations atribui o trabalho com base na seleção. Se selecionar esta opção, você poderá clicar em <strong>Contagem cíclica</strong> para especificar informações adicionais a serem exibidas, além de especificar o número de vezes que o trabalhador deverá repetir a contagem caso seja encontrada uma diferença</td>
 </tr>
  <tr class="odd">
 <td>Carga de transporte</td>
@@ -282,7 +281,7 @@ A seguinte tabela descreve as opções.
 </tr>
 <tr class="odd">
 <td>Ancorar em</td>
-<td>Se estiver usando a ancoragem, você deverá especificar se deseja ancorar por remessa ou por carga.</td>
+<td>Se você estiver usando a ancoragem, deverá especificar se quer ancorar por remessa ou por carga.</td>
 </tr>
 <tr class="even">
 <td>ID do modelo de auditoria</td>
@@ -306,11 +305,11 @@ A seguinte tabela descreve as opções.
 </tr>
 <tr class="odd">
 <td>Desabilitar restrições de contagem cíclica</td>
-<td>Marque esta opção para ignorar os limites de contagem cíclica. Se você marcar essa opção, o trabalho de contagem cíclica não será criado quando os valores de limite forem excedidos.</td>
+<td>Marque esta opção para ignorar os limites de contagem cíclica. Se você selecionar esta opção, o trabalho de contagem cíclica não será criado quando os valores limite forem excedidos.</td>
 </tr>
 <tr class="even">
 <td>Exibir código de disposição em lotes</td>
-<td>Selecione esta opção para exibir códigos de disposição de lote. Por exemplo, você pode exibir códigos de disposição de lote quando receber um lote devolvido. Os trabalhadores podem então avaliar o status ou a qualidade de um lote e selecionar o código adequado. As regras no código de disposição de lote determinam se o lote estará disponível para outros processos do depósito. Se você não selecionar esta opção, um dos seguintes códigos de disposição do lote será usado:
+<td>Selecione esta opção para exibir códigos de disposição de lote. Por exemplo, você pode exibir códigos de disposição de lote quando receber um lote devolvido. Os trabalhadores podem então avaliar o status ou a qualidade de um lote e selecionar o código adequado. As regras no código de disposição de lote determinam se o lote estará disponível para outros processos do depósito. Se você não selecionar esta opção, será usado um dos seguintes códigos de disposição do lote:
 <ul>
 <li>Se você receber um novo número de lote, o código de disposição de lote padrão será especificado no grupo de modelos de item.</li>
 <li>O código de disposição de lote que já foi atribuído ao lote</li>
@@ -334,7 +333,7 @@ A seguinte tabela descreve as opções.
 </tr>
 <tr class="odd">
 <td>Armazenamento de grupo</td>
-<td>Marque essa opção para agrupar o trabalho de armazenamento. Essa opção estará disponível quando o trabalho tiver sido agrupado pelo trabalhador ou pelo Microsoft Dynamics 365 for Finance and Operations. Quando o trabalhador tiver concluído todo o trabalho de separação no grupo, o trabalho de armazenamento será criado para o mesmo grupo.</td>
+<td>Marque essa opção para agrupar o trabalho de armazenamento. Esta opção estará disponível quando o trabalho tiver sido agrupado pelo trabalhador ou pelo Microsoft Dynamics 365 for Finance and Operations. Quando o trabalhador tiver concluído todo o trabalho de separação no grupo, o trabalho de armazenamento será criado para o mesmo grupo.</td>
 </tr>
 <tr class="even">
 <td>Tipos de ajuste de estoque</td>
@@ -357,7 +356,7 @@ A seguinte tabela descreve as opções.
 <td>Indique se o trabalhador deve separar o lote mais antigo em um local primeiro. As opções a seguir estão disponíveis:
 <ul>
 <li><strong>Nenhum</strong> – O trabalhador pode separar qualquer lote no local. O trabalhador não recebe nenhuma mensagem.</li>
-<li><strong>Aviso</strong> – O trabalhador pode separar qualquer lote no local, mas uma mensagem de aviso será exibida se um lote não for o mais antigo.</li>
+<li><strong>Aviso</strong> – o trabalhador pode separar qualquer lote no local, mas receberá uma mensagem de aviso se um lote não for o mais antigo.</li>
 <li><strong>Forçar</strong> – O trabalhador deve separar o lote mais antigo no local. O trabalhador receberá uma mensagem de erro se um lote não for o lote mais antigo. <strong>Observação:</strong> Esta opção é relevante somente se o <strong>Número do lote</strong> for menor do que a <strong>Localização</strong> na hierarquia de reserva atribuída ao item.</li>
 </ul></td>
 </tr>
@@ -367,11 +366,11 @@ A seguinte tabela descreve as opções.
 </tr>
 <tr class="even">
 <td>Campo de agrupamento do sistema</td>
-<td>Selecione o campo que determinará como o Microsoft Dynamics 365 for Finance and Operations agrupará o trabalho de separação para os trabalhadores. Por exemplo, se você selecionar o campo <strong>ShipmentId</strong>, o trabalhador verificará a ID da remessa para agrupar o trabalho de separação. Todo o trabalho para a remessa será então atribuído ao trabalhador. Este campo requer que você crie um item de menu para usar o trabalho existente agrupado pelo sistema. Você também deve inserir texto no campo <strong>Etiqueta de agrupamento do sistema</strong> para instruir o trabalhador sobre o que verificar.</td>
+<td>Selecione o campo que determina como o Microsoft Dynamics 365 for Finance and Operations agrupará o trabalho de separação para os trabalhadores. Por exemplo, se você selecionar o campo <strong>ShipmentId</strong>, o trabalhador verificará a ID da remessa para agrupar o trabalho de separação. Todo o trabalho para a remessa será então atribuído ao trabalhador. Este campo requer que você crie um item de menu para usar o trabalho existente agrupado pelo sistema. Você também deve inserir texto no campo <strong>Etiqueta de agrupamento do sistema</strong> para instruir o trabalhador sobre o que verificar.</td>
 </tr>
 <tr class="odd">
 <td>Etiqueta de agrupamento do sistema</td>
-<td>Insira o texto que informará ao trabalhador sobre o que verificar quando o trabalho de separação for agrupado pelo Microsoft Dynamics 365 for Finance and Operations. Por exemplo, se você estiver usando o campo <strong>ShipmentId</strong> para agrupar o trabalho de separação por remessa, poderá inserir <strong>ID da Remessa</strong> no campo. Este campo requer que você crie um item de menu para usar o trabalho existente agrupado pelo sistema. Você também deverá selecionar o campo para agrupar no campo <strong>Campo de agrupamento do sistema</strong>.</td>
+<td>Insira o texto que informará ao trabalhador o que ele deverá verificar quando o trabalho de separação for agrupado pelo Microsoft Dynamics 365 for Finance and Operations. Por exemplo, se você estiver usando o campo <strong>ShipmentId</strong> para agrupar o trabalho de separação por remessa, poderá inserir <strong>ID da remessa</strong> no campo. Este campo requer que você crie um item de menu para usar o trabalho existente agrupado pelo sistema. Você também deverá selecionar o campo para agrupar no campo <strong>Campo de agrupamento do sistema</strong>.</td>
 </tr>
 <tr class="even">
 <td>Usar dados padrão</td>
@@ -387,7 +386,7 @@ A seguinte tabela descreve as opções.
 </tr>
 <tr class="odd">
 <td>Código do modelo de trabalho</td>
-<td>Selecione o modelo de trabalho que criará o trabalho para um processo. Por exemplo, se você receber um item para uma ordem de compra, o trabalho de armazenamento será gerado com base no modelo de trabalho. Se você não selecionar um modelo de trabalho, o Microsoft Dynamics 365 for Finance and Operations atribuirá um modelo, com base nos critérios de consulta. Para obter mais informações sobre modelos de trabalho, consulte <a href="control-warehouse-location-directives.md">Controlando o trabalho do depósito com modelos de trabalho e diretivas de localização</a>.</td>
+<td>Selecione o modelo de trabalho que criará o trabalho para um processo. Por exemplo, se você receber um item para uma ordem de compra, o trabalho de armazenamento será gerado com base no modelo de trabalho. Se você não selecionar um modelo de trabalho, o Microsoft Dynamics 365 for Finance and Operations atribuirá um com base nos critérios de consulta. Para obter mais informações sobre modelos de trabalho, consulte <a href="control-warehouse-location-directives.md">Controlando o trabalho do depósito com modelos de trabalho e diretivas de localização</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -420,6 +419,5 @@ A tabela a seguir descreve os vários tipos de trabalho que você pode usar em c
 
 [Configurar um item de menu de dispositivo móvel para registrar itens recebidos (Guia de tarefa)](tasks/set-up-mobile-device-menu-item-register-received-items.md)
 [Vantagens em usar status de estoque](../inventory/inventory-statuses.md)
-
 
 

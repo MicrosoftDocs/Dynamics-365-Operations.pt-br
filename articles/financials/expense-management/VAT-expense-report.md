@@ -1,13 +1,13 @@
 ---
-title: "Restituição do IVA no gerenciamento de despesas"
-description: "Este tópico explica como receber reembolsos em transações de IVA (imposto sobre valor agregado) qualificadas."
+title: Restituição do IVA no gerenciamento de despesas
+description: Este tópico explica como receber reembolsos em transações de IVA (imposto sobre valor agregado) qualificadas.
 author: saraschi2
 manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8bc9e533de40aa8fe8ddfe422cfe0f4078a360c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: d1c9357f8f51e1a87aebeb8f802dbe3b5fdd5aa0
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359557"
 ---
-
 # <a name="vat-recovery-in-expense-management"></a>Restituição do IVA no gerenciamento de despesas
 
 [!include [banner](../includes/banner.md)]
@@ -75,4 +74,3 @@ Quando Arnie está pronto para enviar os dados do relatório de despesas ao outr
 Arnie deve verificar se as transações dos relatórios de despesas estão qualificadas para restituição de IVA e se os recibos digitalizados estão anexados aos relatórios. Para começar a processar as despesas qualificadas para restituição doméstica, Arnie abre a página **Restituição de imposto de despesa** e seleciona o relatório de despesas que exige verificação. Ele verifica se os recibos estão no nome da empresa em vez do funcionário. Para restituição de IVA, os recibos devem estar no nome da empresa. Em seguida, Arnie confirma que o grupo de imposto e os códigos de imposto do item corretos foram aplicados.
 
 Quando Arnie recebe os recibos em papel, ele altera o status do relatório de despesas para **Pronto para recuperação**. Assim, ele pode arquivar a devolução com a autoridade fiscal apropriada. Nesse caso, a autoridade fiscal apropriada nos EUA é a Administração Fiscal (IRS).
-

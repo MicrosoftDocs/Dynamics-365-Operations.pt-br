@@ -1,13 +1,13 @@
---- 
-title: "Operações não fiscais (Brasil)"
-description: "Use este procedimento para criar transações não fiscais de documentos que serão incluídas no arquivo de texto do Sistema Público de Escrituração Fiscal Digital (SPED EFD)."
+---
+title: Operações não fiscais (Brasil)
+description: Use este procedimento para criar transações não fiscais de documentos que serão incluídas no arquivo de texto do Sistema Público de Escrituração Fiscal Digital (SPED EFD).
 author: sndray
 manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f79560d81f7ba531ccae76a71f5d524085759cf7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 26d9739a1cad3bba2bfd7cb1539c9b78a55b3f03
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371645"
 ---
 # <a name="non-fiscal-operations-brazil"></a>Operações não fiscais (Brasil)
 
@@ -63,5 +63,4 @@ Use este procedimento para criar transações não fiscais de documentos que ser
 32. Clique em OK.
 33. Clique em Sincronizar.
 34. Clique em OK.
-
 

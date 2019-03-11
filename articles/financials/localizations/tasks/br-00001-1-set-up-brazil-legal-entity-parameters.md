@@ -1,13 +1,13 @@
---- 
-title: "Configurar parâmetros de entidade legal (Brasil)"
-description: "Configurar parâmetros de entidade legal do Brasil."
+---
+title: Configurar parâmetros de entidade legal (Brasil)
+description: Configurar parâmetros de entidade legal do Brasil.
 author: sndray
 manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 327051aba5f4ae00b446a0b1fea4e25aaf9b512d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 24c0de366a38a73fe8a5d5cfa43640a063491fc0
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371619"
 ---
 # <a name="set-up-legal-entity-parameters-brazil"></a>Configurar parâmetros de entidade legal (Brasil)
 
@@ -78,5 +78,4 @@ Configurar parâmetros de entidade legal do Brasil. Esta tarefa usa a empresa de
 48. Marque a caixa de seleção Obrigatório.
 49. Clique em Salvar.
 50. Feche a página.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Começar uma ordem de produção"
-description: "Esse procedimento mostra como iniciar uma ordem de produção no chão de fábrica."
+title: Começar uma ordem de produção
+description: Esse procedimento mostra como iniciar uma ordem de produção no chão de fábrica.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f83091a9f3e96a9176860bd16fa5969507488a25
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
-ms.openlocfilehash: 3b5657e5eb2719702eae3a3c5178b3a04f7545e3
-ms.contentlocale: pt-br
-ms.lasthandoff: 02/06/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346217"
 ---
 # <a name="start-a-production-order"></a>Começar uma ordem de produção
 
@@ -70,4 +70,3 @@ Esse procedimento mostra como iniciar uma ordem de produção no chão de fábri
 7. Clique em Lançar.
 8. Clique em OK.
     * No diário de cartão de roteiro, é registrado o tempo gasto em operações individuais. A quantidade de erros e acertos também pode ser informada.  
-

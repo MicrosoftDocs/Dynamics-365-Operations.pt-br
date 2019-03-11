@@ -1,13 +1,13 @@
 ---
-title: "Dimensões financeiras e lançamento"
-description: "Ao planejar e configurar seu plano de contas, você deve considerar como os diversos componentes funcionarão em conjunto quando você lançar um documento ou um diário. Esses componentes incluem estruturas de conta, regras avançadas e dimensões fixas e de balanceamento. Este tópico explica o que cada componente é e como eles funcionam em conjunto."
+title: Dimensões financeiras e lançamento
+description: Ao planejar e configurar seu plano de contas, você deve considerar como os diversos componentes funcionarão em conjunto quando você lançar um documento ou um diário. Esses componentes incluem estruturas de conta, regras avançadas e dimensões fixas e de balanceamento. Este tópico explica o que cada componente é e como eles funcionam em conjunto.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerChartofAccounts,DimensionDetails
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 89bc6f1f01f77dac4c24419705737783b07e4ac7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a0530a569978bafffcdcc63c8d502b9bfa645bc5
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327932"
 ---
-
 # <a name="financial-dimensions-and-posting"></a>Dimensões financeiras e lançamento 
 
 [!include [banner](../includes/banner.md)]
@@ -123,9 +122,8 @@ Alguns dos recursos a seguir referem-se a uma versão anterior do Finance and Op
 
 [Planejar seu plano de contas](plan-chart-of-accounts.md) 
 
-[Planejando o plano de contas no AX 2012 (blog)](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/): esse link conduz à parte 1 de uma série de sete partes.
+[Planejando o plano de contas no AX 2012 (blog)](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) – esse link dá acesso à parte 1 de uma série formada por sete partes.
 
 [Padronização de dimensão em distribuições contábeis](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
 
 [Padronização de dimensão na estrutura Dimensões](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2014/09/)
-

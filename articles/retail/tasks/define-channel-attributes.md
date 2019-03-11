@@ -1,13 +1,13 @@
---- 
+---
 title: Definir atributos do canal
-description: "Enriqueça o canal, adicionando o canal e os atributos do produto."
+description: Enriqueça o canal, adicionando o canal e os atributos do produto.
 author: jashanno
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailInternalOrganization, EcoResAttributeGroup, EcoResAttributeGroupAttribute, RetailAddChannelItems, RetailCatalogProductAttributeValue, RetailMedia
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5115cc0a902fc23f943700c245fbf08cdb10060c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 06bccae2908255db8b41816f243eb57194b4c11f
-ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343687"
 ---
 # <a name="define-channel-attributes"></a>Definir atributos do canal
 
@@ -71,5 +71,4 @@ Enriqueça o canal, adicionando o canal e os atributos do produto. Você deve ad
     * Após a publicação, os dados estarão prontos para sincronização com as tabelas do canal. Se você não publicou os dados alterados não serão sincronizados com as tabelas do canal.  
 33. Clique em OK.
 34. Clique em Salvar.
-
 

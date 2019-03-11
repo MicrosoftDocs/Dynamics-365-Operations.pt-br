@@ -1,13 +1,13 @@
 ---
-title: "Regras de eliminação"
-description: "Este tópico fornece informações sobre regras de eliminação e as diversas opções para relatórios sobre eliminações."
+title: Regras de eliminação
+description: Este tópico fornece informações sobre regras de eliminação e as diversas opções para relatórios sobre eliminações.
 author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0736d63c9a582948d197dc267f9941cbbd3e3c6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 882b8f21be94b8cbb0c162c965ffc129b47d7edf
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333084"
 ---
-
 # <a name="elimination-rules"></a>Regras de eliminação
 
 [!include [banner](../includes/banner.md)]
@@ -153,7 +152,6 @@ Há duas maneiras de processar transações de eliminação, durante o processo 
 Em uma empresa definida como empresa de eliminação, selecione **Diário de eliminação** no módulo Consolidações. Depois de selecionado o nome do diário, clique em **Linhas**. Você pode executar a proposta selecionando o menu **Propostas** e depois selecionando a **Proposta de eliminação**.
 
 Selecione a empresa que é a origem de dados consolidados e escolha a regra que deseja processar. Insira uma data de início para iniciar a pesquisa dos valores de eliminação e a data de término para encerrar a data de pesquisa para valores de eliminação. O campo **Data de lançamento GL** é a data usada para lançar o diário na contabilidade. Após clicar em **OK**, você pode revisar os valores e lançar no diário.
-
 
 
 

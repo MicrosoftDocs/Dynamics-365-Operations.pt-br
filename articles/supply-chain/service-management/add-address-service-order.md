@@ -1,37 +1,36 @@
 ---
-title: "Adicionar um endereço a uma ordem de serviço"
-description: "Este tópico descreve como adicionar um endereço do cliente em uma ordem de serviço."
+title: Adicionar um endereço a uma ordem de serviço
+description: Este tópico descreve como adicionar um endereço do cliente em uma ordem de serviço.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 58188be6f82b6587011188379e5370b81f8fd114
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e6dfa27b2101e84fbab678e781c26126cf1db898
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311901"
 ---
-
 # <a name="add-an-address-to-a-service-order"></a>Adicionar um endereço a uma ordem de serviço    
 
 [!include [banner](../includes/banner.md)]
 
 
-Este tópico descreve como adicionar um endereço do cliente em uma ordem de serviço. Ao criar uma ordem de serviço, as informações de endereço são transferidas do projeto ao qual a ordem de serviço está anexada. No entanto, você pode selecionar um local alternativo de endereços que já foi inserido no Microsoft Dynamics AX para clientes, fornecedores, sites, depósitos, ordens de serviço e projetos.
+Este tópico descreve como adicionar um endereço do cliente em uma ordem de serviço. Ao criar uma ordem de serviço, as informações de endereço são transferidas do projeto ao qual a ordem de serviço está anexada. No entanto, você pode selecionar um local alternativo a partir dos endereços que já foram inseridos no Microsoft Dynamics AX para clientes, fornecedores, sites, depósitos, ordens de serviço e projetos.
 
 Também é possível criar um novo endereço. Por padrão, o novo endereço é transferido para o projeto. No entanto, você pode especificar que o novo endereço é relevante apenas para essa instância de serviço. Se fizer isso, o novo endereço não será transferido para o projeto.
 
@@ -74,6 +73,5 @@ Para adicionar um endereço alternativo em uma ordem de serviço, siga estas eta
 
 
   
-
 
 

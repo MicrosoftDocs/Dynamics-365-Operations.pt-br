@@ -1,13 +1,13 @@
---- 
-title: "Configurar informações de ferimentos e doenças"
-description: "Os empregadores precisam saber quando os funcionários se ferem ou ficam doentes devido a perigos no local de trabalho."
+---
+title: Configurar informações de ferimentos e doenças
+description: Os empregadores precisam saber quando os funcionários se ferem ou ficam doentes devido a perigos no local de trabalho.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMInjurySetup
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 9fcc924e11ac17b561c5f5840a4fe1b183a8232d
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316018"
 ---
 # <a name="set-up-injury-and-illness-information"></a>Configurar informações de ferimentos e doenças
 
@@ -64,5 +64,4 @@ Os empregadores precisam saber quando os funcionários se ferem ou ficam doentes
 22. Clique na guia das agências de Informações.
     * As agências de informações são as agências ao qual o incidente precisa ser informado. Marque a caixa de seleção padrão para a agência que é a agência padrão para relatar lesão e doença.  
 23. Clique em Salvar.
-
 

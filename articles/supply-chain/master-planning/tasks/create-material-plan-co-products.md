@@ -1,13 +1,13 @@
---- 
+---
 title: Criar um plano de materiais para coprodutos
-description: "O planejador de produção planeja os requisitos de materiais para itens que são coprodutos de fórmula."
+description: O planejador de produção planeja os requisitos de materiais para itens que são coprodutos de fórmula.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, SalesOrderProcessingWorkspace, SalesCreateOrder, SalesTable, ReqCreatePlanWorkspace, ReqTransPlanCard, SysQueryForm, ReqTransPo
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 2958f1e5c2e8a0cfa9cc6312f688d3b11b8e013c
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337132"
 ---
 # <a name="create-a-material-plan-for-co-products"></a>Criar um plano de materiais para coprodutos
 
@@ -110,5 +110,4 @@ O planejador de produção planeja os requisitos de materiais para itens que sã
 18. Vá para Planejamento mestre > Configurar > Parâmetros de planejamento mestre.
 19. Selecione Não no campo Desabilitar todos os processos de planejamento.
 20. Feche a página.
-
 

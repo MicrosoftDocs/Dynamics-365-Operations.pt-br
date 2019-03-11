@@ -1,13 +1,13 @@
 ---
-title: "Versão do lote de ordens de transferência parcialmente reservadas"
-description: "Este tópico descreve como configurar e aplicar liberação de lote das ordens de transferência reservadas parcialmente de um dispositivo móvel."
+title: Versão do lote de ordens de transferência parcialmente reservadas
+description: Este tópico descreve como configurar e aplicar liberação de lote das ordens de transferência reservadas parcialmente de um dispositivo móvel.
 author: pjacobse
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 578b9875deec077a077b54a9227815e2c4fd3b2d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: 4477749c721cf8c8bd244f551d9eca7ec9449fd1
-ms.contentlocale: pt-br
-ms.lasthandoff: 02/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343710"
 ---
-
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Versão do lote de ordens de transferência parcialmente reservadas
 
 [!include [banner](../includes/banner.md)]
@@ -65,4 +64,3 @@ O parâmetro **Quantidade** especifica se toda a quantidade ou a quantidade fisi
 -   Para definir parâmetros **Quantidade** e **Permitir a liberação de ordens parcialmente liberada** para ordens de transferência, clique em **Permitir a liberação de ordens parcialmente liberada** \> **Liberar para o depósito** \> **Liberação automática de ordens de transferência**.
 
 -   Para definir os parâmetros **Quantidade** e **Permitir a liberação de ordens parcialmente liberadas** para ordens de venda, clique em **Gerenciamento de depósito** \> **Liberar para o depósito** \> **Liberação automática de ordens de venda**.
-

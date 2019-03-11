@@ -1,13 +1,13 @@
 ---
-title: "Importar e manter transações de cartão de crédito"
-description: "Este tópico explica como importar e manter as transações de cartão de crédito relacionadas a despesa. Essas transações podem ser configuradas de forma que sejam importadas automaticamente em uma agenda recorrente ou podem ser importadas manualmente, conforme necessário."
+title: Importar e manter transações de cartão de crédito
+description: Este tópico explica como importar e manter as transações de cartão de crédito relacionadas a despesa. Essas transações podem ser configuradas de forma que sejam importadas automaticamente em uma agenda recorrente ou podem ser importadas manualmente, conforme necessário.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 9674cf495b7fdd40d8672580b9d10e9ebe626bb0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e640c9e44add5599be4a2e381b4ffd81f212889c
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322642"
 ---
-
 # <a name="import-and-maintain-credit-card-transactions"></a>Importar e manter transações de cartão de crédito
 
 [!include [banner](../includes/banner.md)]
@@ -53,4 +52,3 @@ Para obter mais informações sobre as entidades de dados, consulte [Entidades d
 Depois que um registro de funcionário foi finalizado, a conta Serviços de domínio Active Directory (AD DS) do funcionário é desativada. Porém, pode haver transações de cartão de crédito ativa que ainda devem ser despendidas e reembolsadas. Na página **Crédito e transações**, é possível reatribuir o funcionário de qualquer transação de cartão de crédito na qual o funcionário associado foi demitido.
 
 Selecione uma ou mais transações de cartão de crédito e depois selecione **Reatribuir transações**. Você pode selecionar outro funcionário para atribuir as transações do cartão de crédito. Depois que as transações do cartão de crédito forem reatribuídas, elas poderão ser selecionadas de um relatório de despesas e pagas pelo processo comum para reembolso do relatório de despesas.
-

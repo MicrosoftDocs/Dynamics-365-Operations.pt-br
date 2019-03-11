@@ -1,13 +1,13 @@
---- 
-title: "Configurar a validação da conciliação de faturas de contas a pagar"
-description: "Este registro usa a empresa de dados de demonstração USMF."
+---
+title: Configurar a validação da conciliação de faturas de contas a pagar
+description: Este registro usa a empresa de dados de demonstração USMF.
 author: abruer
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendParameters
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 7a26a057b524f162e4b288b88e8c30f7c5db7a45
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346838"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Configurar a validação da conciliação de faturas de contas a pagar
 
@@ -50,5 +50,4 @@ Este registro usa a empresa de dados de demonstração USMF. A função gerente 
 11. Alternar a expansão da seção Correspondência de cobrança.
 12. Para conciliar os encargos reais com os encargos esperados, com base nas informações nas ordens de compra, selecione a caixa de seleção Corresponder cobranças.
 13. Feche a página.
-
 

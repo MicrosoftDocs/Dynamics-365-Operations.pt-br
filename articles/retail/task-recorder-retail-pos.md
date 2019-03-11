@@ -1,13 +1,13 @@
 ---
-title: Gravador de tarefas e ajuda para Retail Modern POS (MPOS) e Cloud POS
-description: "Este tópico descreve como utilizar o Gravador de tarefas no no Retail Modern POS e no Cloud POS."
+title: Gravador de tarefa e Ajuda do Retail Modern POS (MPOS) e Cloud POS
+description: Este tópico descreve como utilizar o Gravador de tarefas no Retail Modern POS e no Cloud POS.
 author: mugunthanm
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable, SystemParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: a74a1275f08e3dba60a1002a102e143eb37fcd9a
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345987"
 ---
-
-# <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Gravador de tarefas e ajuda para Retail Modern POS (MPOS) e Cloud POS
+# <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Gravador de tarefa e Ajuda do Retail Modern POS (MPOS) e Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como utilizar o Gravador de tarefas no no Retail Modern POS e no Cloud POS.
+Este tópico descreve como utilizar o Gravador de tarefas no Retail Modern POS e no Cloud POS.
 
 ## <a name="overview"></a>Visão Geral
 
@@ -137,14 +136,13 @@ O texto inserido no campo **Texto** aparece *acima* do texto da etapa no Guia de
 
 O texto inserido no campo **Notas** aparece *abaixo* do texto da etapa no Guia de tarefas. Para ler o texto da nota, o usuário deverá expandir o texto da etapa na janela pop-up. Essa localização é apropriada para o material de leitura opcional ou para outras informações que possam ser úteis para o usuário, mas que não são obrigatórias para a conclusão da ação.
 
-## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Ajuda no Retail Modern POS e no Cloud POS
+## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Ajuda do Retail Modern POS e do Cloud POS
 
-Para mostrar suas próprias gravações de tarefas personalizadas no painel da Ajuda do Retail Modern POS e do Cloud POS para que possam ser executadas novamente como guias de tarefas ou exibidas como texto, você deverá salvar suas gravações de tarefas à sua própria biblioteca do BPM, e então atualizar os parâmetros do seu sistema de ajuda para que ele aponte para sua biblioteca do BPM. Para obter mais informações, consulte [Conectando o sistema de ajuda.](../fin-and-ops/get-started/help-connect.md) A Ajuda do Retail Modern POS e do Cloud POS pesquisa o LCS em tempo real. Ela pesquisa em todas as bibliotecas BPM selecionadas nos parâmetros do sistema de ajuda do Microsoft Dynamics 365 para Varejo e mostra os resultados relevantes. Para acessar o menu **Ajuda**, clique no botão **Ajuda** (ponto de interrogação) na parte superior da tela e, na caixa de pesquisa, digite o nome do processo e pressione o botão de pesquisa.
+Para mostrar suas próprias gravações de tarefas personalizadas no painel da Ajuda do Retail Modern POS e do Cloud BPM para que possam ser executadas novamente como guias de tarefas ou exibidas como texto, você deverá salvar suas gravações de tarefas em sua própria biblioteca do BPM, e então atualizar os parâmetros do seu sistema de ajuda para que ele aponte para sua biblioteca do BPM. Para obter mais informações, consulte [Conectando o sistema de ajuda.](../fin-and-ops/get-started/help-connect.md) A Ajuda do Retail Modern POS e do Cloud POS pesquisa o LCS em tempo real. Ela pesquisa em todas as bibliotecas BPM selecionadas nos parâmetros do sistema da Ajuda do Microsoft Dynamics 365 for Retail e mostra os resultados relevantes. Para acessar o menu **Ajuda**, clique no botão **Ajuda** (ponto de interrogação) na parte superior da tela e, na caixa de pesquisa, digite o nome do processo e pressione o botão de pesquisa.
 
 [![Botão Ajuda](./media/help.jpg)](./media/help.jpg)
 
 Quando você clicar em uma Guia de tarefas nos resultados da pesquisa, poderá exibir as etapas como um tópico da Ajuda ou exportar as etapas para um documento do Word.
 
 > [!NOTE]
-> A ajuda no Retail Modern POS e Cloud POS não exibirá guias de tarefas de acordo com a forma em que você está ou a operação que está fazendo. É necessário digitar o nome do processo na caixa de pesquisa e clique em **Pesquisar**.
-
+> A ajuda no Retail Modern POS e Cloud POS não exibirá guias de tarefas de acordo com o formulário em que você está ou a operação que está fazendo. É necessário digitar o nome do processo na caixa de pesquisa e clique em **Pesquisar**.

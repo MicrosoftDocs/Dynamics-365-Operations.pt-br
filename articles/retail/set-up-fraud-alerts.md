@@ -1,13 +1,13 @@
 ---
 title: Configurar e trabalhar com alertas de fraude de call center
-description: "Este tópico explica como configurar regras para alertar representantes de atendimento ao cliente sobre informações potencialmente fraudulentas quando as ordens são processadas. Você também pode especificar os códigos que são usados para colocar ordens suspeitas automaticamente ou manualmente em espera."
+description: Este tópico explica como configurar regras para alertar representantes de atendimento ao cliente sobre informações potencialmente fraudulentas quando as ordens são processadas. Você também pode especificar os códigos que são usados para colocar ordens suspeitas automaticamente ou manualmente em espera.
 author: josaw1
 manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesPostingHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 13b6a18750e79a17c7f6034780922c64b12390e2
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361489"
 ---
-
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Configurar e trabalhar com alertas de fraude de call center
 
 [!include [banner](includes/banner.md)]
@@ -69,4 +68,3 @@ A ordem foi salva, mas o sinalizador **Não processar** está definido nela. Ess
 Para exibir e gerenciar as ordens que estão em espera para a revisão de fraude, vá para **Varejo** \> **Clientes** \> **Bloqueios da ordem**. Na página **Bloqueios da ordem**, selecione uma entrada na lista e clique em **Bloqueio da ordem** para ver uma exibição mais detalhada que inclui informações sobre o motivo do bloqueio. No FastTab **Detalhes da fraude**, você pode visualizar os critérios sistemáticos de fraude que foram considerados uma correspondência com a ordem e as pontuações aplicadas. Se a ordem foi colocada em bloqueio manual, você poderá revisar os comentários inseridos pelo usuário que colocou a ordem em espera consultando a seção **Anotações de fraude** no FastTab **Anotações** .
 
 Para obter mais informações sobre como trabalhar com o bloqueio de ordens, consulte [Bloqueios da ordem](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
-

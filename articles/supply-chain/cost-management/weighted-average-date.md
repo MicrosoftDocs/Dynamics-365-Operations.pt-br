@@ -1,13 +1,13 @@
 ---
-title: "Data de média ponderada"
-description: "Data de média ponderada é um modelo de estoque baseado no princípio da média ponderada, onde saídas do estoque são avaliados no valor médio dos itens recebidos no estoque para cada dia separado do período de fechamento do estoque."
+title: Data de média ponderada
+description: Data de média ponderada é um modelo de estoque baseado no princípio da média ponderada, onde saídas do estoque são avaliados no valor médio dos itens recebidos no estoque para cada dia separado do período de fechamento do estoque.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9963c17d8ac1854a42cac2a0e19615f13e8cc006
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a258c7d6314546262a3f9d07d06da5cad797d99b
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355394"
 ---
-
 # <a name="weighted-average-date"></a>Data de média ponderada
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,7 @@ Se somente um recebimento tiver ocorrido até a data, não será necessário ava
 
 A seguinte fórmula é usada para calcular o método de avaliação de custo de data de média ponderada: 
 
-Média ponderada = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q*n* × P*n*\]) ÷ (Q1 + Q2 + Q*n*) 
+Média ponderada = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q*n* × P*n*\]) ÷ (Q1 + Q2 + Q*n*) 
 
 Durante o fechamento do estoque, o cálculo é executado diariamente ao longo do período de fechamento como mostrado na ilustração a seguir. 
 
@@ -54,7 +53,7 @@ As transações de estoque que deixam o estoque, como ordens de venda, diários 
 
 As liquidações são lançamentos de fechamento de estoque que ajustam as saídas para a média ponderada correta a partir da data de fechamento. 
 
-**Observação:** Para obter mais informações sobre liquidações, consulte o artigo sobre o encerramento do estoque. Os seguintes exemplos ilustram o efeito do uso da média ponderada com cinco configurações:
+**Observação:** para obter mais informações sobre liquidações, consulte o artigo sobre o encerramento do estoque. Os seguintes exemplos ilustram o efeito do uso da média ponderada com cinco configurações:
 
 -   Liquidação direta de data de média ponderada quando a opção **Incluir valor físico** não é usada
 -   Liquidação resumida de data de média ponderada quando a opção **Incluir valor físico** não é usada
@@ -195,7 +194,6 @@ O novo preço de custo médio reflete a média das transações atualizadas fina
 -   Cada seta vertical é rotulada com um identificador sequencial, como *1a*. Os identificadores indicam a seqüência de lançamentos de transação de estoque na linha do tempo.
 -   Os fechamentos de estoque são representados por uma linha tracejada vertical vermelha e a etiqueta *Fechamento de Estoque*.
 -   As liquidações executadas pelo fechamento de estoque são representadas por linhas tracejadas vermelhas pontilhadas na diagonal de um recebimento para uma saída.
-
 
 
 

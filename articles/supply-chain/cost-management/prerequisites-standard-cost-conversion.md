@@ -1,13 +1,13 @@
 ---
-title: "Pré-requisitos para uma conversão em custo padrão"
-description: "Este tópico descreve as tarefas executadas antes da execução de uma conversão em custo padrão."
+title: Pré-requisitos para uma conversão em custo padrão
+description: Este tópico descreve as tarefas executadas antes da execução de uma conversão em custo padrão.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventStdCostConv
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 955191a32165a32c455d0dba7424a82eb2559399
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 65844bd78363dc6638b16b3fd4ca163a3fde6a23
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351921"
 ---
-
 # <a name="prerequisites-for-a-standard-cost-conversion"></a>Pré-requisitos para uma conversão em custo padrão
 
 [!include [banner](../includes/banner.md)]
@@ -50,7 +49,6 @@ Antes de executar uma conversão de custo padrão, siga estas etapas:
 
         Uma divisão de custo ativa significa que se você habilitar o custo de um item fabricado, o resultado será armazenado na segmentação do grupo de custos no registro de custo do item. Se nenhum valor for especificado no campo **Divisão de custo**, a segmentação do grupo de custos não será mantida para itens de custo padrão. Isso é, o custo padrão de um item fabricado será calculado e mantido como um valor único sem a segmentação de grupo de custo e as contribuições de custo de componentes fabricados será agregada no valor único.
     -   Use o campo **Variações do Padrão** para selecionar o grupo resumido ou por custo. A seleção de grupo por custo permite identificar variações de preço de compra e variações de produção por grupo de custos. Isso permite identificar os quatro tipos de variações de produção (o tamanho do lote, a quantidade, o preço e as variações de substituição). Se a seleção for resumida, não será possível identificar variações por grupo de custo e você não poderá identificar os quatro tipos de variações de produção. É possível visualizar somente a variação de produção resumida. A política sobre variação de padrão é independente da política de divisão de custo. Isso é, você pode selecione uma política de divisão de custo de nenhuma e selecionar variações por grupo de custo de forma que as variações de produção por grupo de custo ainda seja capturada.
-
 
 
 

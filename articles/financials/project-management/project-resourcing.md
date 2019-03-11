@@ -1,13 +1,13 @@
 ---
 title: Recursos do projeto
-description: "Este tópico fornece informações sobre recursos de projeto."
+description: Este tópico fornece informações sobre recursos de projeto.
 author: KimANelson
 manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 34f80d283bb710d7db3137a439dbe8dc67d22682
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2d31a5dfd16a4404e19c6c9693dacecff6f2f064
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351645"
 ---
-
 # <a name="project-resourcing"></a>Recursos do projeto
 
 [!include [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre recursos de projeto.
 
-Um desafio para gerentes de projeto e gerentes de recursos durante a fase de planejamento do projeto é a atribuição de recursos, onde eles devem determinar e reservar o recurso correto para o trabalho em um projeto. No Microsoft Dynamics 365 for Finance and Operations, os recursos para projetos permitem definir as funções tratadas como recursos temporários que podem ser reservados para um compromisso específico ou parte de um compromisso. Esse tipo de recurso permite que os gerentes de projeto e gerentes de recursos concluam as seguintes tarefas:
+Um desafio para gerentes de projeto e gerentes de recursos durante a fase de planejamento do projeto é a atribuição de recursos, onde eles devem determinar e reservar o recurso correto para o trabalho em um projeto. No Microsoft Dynamics 365 for Finance and Operations, os recursos para projetos permitem definir as funções que são tratadas como recursos temporários que podem ser reservados para compromisso específico ou parte de um compromisso. Esse tipo de recurso permite que os gerentes de projeto e gerentes de recursos concluam as seguintes tarefas:
 
 - Definir uma função que tenha as competências necessárias para facilitar a correspondência de recursos.
 - Usar funções para definir uma agenda de compromisso inicial baseada em recursos reservados.
@@ -351,4 +350,3 @@ Depois que as tarefas precedentes forem concluídas, você pode completar estas 
 ## <a name="monitor-project-teams"></a>Monitorar equipes de projeto
 1. Na página **Todos os projetos**, selecione o link **ID do projeto** para o projeto **Fase de atualização 2 de XYZ**.
 2. Na Guia Rápida **Equipe de projeto e agendamento**, verifique se os recursos de projetos listados estão corretos.
-

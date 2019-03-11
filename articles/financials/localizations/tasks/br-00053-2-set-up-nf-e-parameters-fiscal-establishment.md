@@ -1,13 +1,13 @@
---- 
-title: "Configurar parâmetros de NF-e para um estabelecimento fiscal (Brasil)"
-description: "Use o procedimento a seguir para configurar os parâmetros para uma Nota Fiscal eletrônica (NF-e) e para um estabelecimento fiscal."
+---
+title: Configurar parâmetros de NF-e para um estabelecimento fiscal (Brasil)
+description: Use o procedimento a seguir para configurar os parâmetros para uma Nota Fiscal eletrônica (NF-e) e para um estabelecimento fiscal.
 author: sndray
 manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2921ffeb23c02dfd7d928569c082029a263a73f3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a2c5c135d6681702a6b7e4652aeea191b9a0757e
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371709"
 ---
 # <a name="set-up-nf-e-parameters-for-a-fiscal-establishment-brazil"></a>Configurar parâmetros de NF-e para um estabelecimento fiscal (Brasil)
 
@@ -54,5 +54,4 @@ Use o procedimento a seguir para configurar os parâmetros para uma Nota Fiscal 
     * Selecione esta opção se uma nota fiscal de fornecedor não tiver que ser lançada se o XML de NF-e de fornecedor não corresponder à ordem.  
 18. Clique em Salvar.
 19. Feche a página.
-
 

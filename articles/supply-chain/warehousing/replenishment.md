@@ -1,13 +1,13 @@
 ---
 title: Reabastecimento
-description: "Este tópico descreve as estratégias de reabastecimento que estão disponíveis para os depósitos que usam a funcionalidade que está disponível no Gerenciamento de depósito."
+description: Este tópico descreve as estratégias de reabastecimento que estão disponíveis para os depósitos que usam a funcionalidade que está disponível no Gerenciamento de depósito.
 author: Mirzaab
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 37a5509b6161caffa8f3ab65f1fd8378966c2c30
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 41f77a837f446e0ef263f1554a333d6e48248a0e
-ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344515"
 ---
-
 # <a name="replenishment"></a>Reabastecimento
 
 [!include [banner](../includes/banner.md)]
@@ -77,5 +76,4 @@ Em vez de ter que somar a demanda no final de um processo de alocação e fazer 
 |    Perfis de localização    |                                                                                                        Perfis de local são necessários para criar locais.                                                                                                        |
 |   Diretivas de localização   |                                                       Diretivas de localização são necessárias para orientar o trabalho para os locais onde o reabastecimento é necessário e para os locais de onde o estoque é originário.                                                        |
 |     Modelos do trabalho      |                                                   Modelos de trabalho do tipo <strong>Reabastecimento</strong> são necessários para criar o trabalho de reabastecimento para que o estoque possa ser movido para os locais desejados.                                                    |
-
 

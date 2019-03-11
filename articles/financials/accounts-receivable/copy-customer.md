@@ -1,13 +1,13 @@
 ---
-title: "Copiar clientes usando sequências numéricas compartilhadas"
-description: "Este tópico explica como usar sequências numéricas compartilhadas para copiar um cliente para outra entidade legal mantendo a mesma ID."
+title: Copiar clientes usando sequências numéricas compartilhadas
+description: Este tópico explica como usar sequências numéricas compartilhadas para copiar um cliente para outra entidade legal mantendo a mesma ID.
 author: mikefalkner
 manager: aolson
 ms.date: 08/31/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable
 audience: Application User
 ms.reviewer: shylaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: c093c9af7184d93b1200a8bcab16573f2bb4be09
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 7a1e6c6e3a995ad745522d58960e850d72c2ee57
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/03/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301887"
 ---
-
 # <a name="copy-customers-by-using-shared-number-sequences"></a>Copiar clientes usando sequências numéricas compartilhadas
 
 [!include [banner](../includes/banner.md)]
@@ -66,4 +65,3 @@ Você também pode copiar clientes usando o recurso de pesquisa do número de is
 
 1. A opção **Copiar cliente** é exibida. Por padrão, essa opção é definida como **Não**. Para copiar o cliente para a entidade legal atual, defina-a como **Sim**. 
 2. Escolha **Selecionar**. O cliente foi criado.
-

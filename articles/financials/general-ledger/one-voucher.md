@@ -1,14 +1,14 @@
 ---
-title: "Um comprovante único"
-description: "Um comprovante único para diários financeiros (diário geral, diário de ativo fixo, diário de pagamentos do fornecedor etc) permite que você insira várias transações do razão auxiliar no contexto de apenas um comprovante."
+title: Um comprovante único
+description: Um comprovante único para diários financeiros (diário geral, diário de ativo fixo, diário de pagamentos do fornecedor etc) permite que você insira várias transações do razão auxiliar no contexto de apenas um comprovante.
 author: kweekley
 manager: AnnBe
 ms.date: 11/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
+ms.openlocfilehash: ada04948c4775091091cc30664dd7d9405b4f9da
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 26ae31efe55eeaf6d09ef14112811ea8977bfb0a
-ms.openlocfilehash: 62c30ea748c49b0a3cfe544c7ba10eb52389c50a
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/05/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308543"
 ---
-
 # <a name="one-voucher"></a>Um comprovante
 
 [!include [banner](../includes/banner.md)]
@@ -69,7 +68,7 @@ Devido às saídas que foram anteriormente indicadas, a funcionalidade Um compro
 - **Versão do começo de 2018** – Por padrão, a funcionalidade será desligada por padrão por meio do parâmetro **Permitir múltiplas transações dentro de um comprovante** na guia **Geral** da página **Parâmetros da contabilidade**. Porém, você pode ativar a funcionalidade, se sua organização tiver um cenário que esteja em uma das lacunas funcionais de negócios listadas posteriormente neste tópico.
 
     - Se os clientes tiverem um cenário de negócios que não requer Um comprovante único, eles não devem ativer a funcionalidade. A Microsoft não corrige "bugs" nas áreas que são identificadas antes neste tópico, se essa funcionalidade for usada, mesmo se houver outra solução.
-    - Pare de usar Um comprovante único para integrações no Microsoft Dynamics 365 Finance and Operations, a menos que a funcionalidade seja obrigatória para uma das lacunas funcionais.
+    - Pare de usar Um comprovante único para integrações no Microsoft Dynamics 365 for Finance and Operations, a menos que a funcionalidade seja obrigatória para uma das lacunas funcionais.
 
 - **Versões posteriores** – Todas as lacunas funcionais serão preenchidas. **Depois que os intervalos funcionais são preenchidos e os novos recursos são entregues, demorará pelo menos um ano antes da funcionalidade de Um comprovante ser permanentemente desligada**, pois os clientes e os provedores de software independentes (ISVs) devem ter tempo suficiente para reagir a nova funcionalidade. Por exemplo, pode ser necessário atualizar seus processos comerciais, integrações e entidades.
 

@@ -1,13 +1,13 @@
 ---
-title: "Depreciação de ativo fixo"
-description: "Este tópico oferece uma visão geral da depreciação de ativos fixos."
+title: Depreciação de ativo fixo
+description: Este tópico oferece uma visão geral da depreciação de ativos fixos.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBonus, AssetBookTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a82e14e12cbde29e5619518481d0c22f6fa1a37a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e362d80f5c4a33ad604c717333777e7c5fdef489
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332785"
 ---
-
 # <a name="fixed-asset-depreciation"></a>Depreciação de ativo fixo
 
 [!include [banner](../includes/banner.md)]
@@ -55,7 +54,6 @@ Cada livro tiver um calendário usado quando depreciar ativos fixos. O método u
 Você pode criar calendários compartilhados usando a página **Calendários fiscais** na Contabilidade.
 
 Para obter mais informações, consulte [Métodos e convenções de depreciação](depreciation-methods-conventions.md).
-
 
 
 

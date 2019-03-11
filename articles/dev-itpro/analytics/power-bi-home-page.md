@@ -1,13 +1,13 @@
 ---
-title: "Home page de soluções do PowerBI.com"
-description: "Este tópico lista soluções do PowerBI.com que estão disponíveis e indica os recursos onde você pode aprender mais sobre as soluções."
+title: Home page de soluções do PowerBI.com
+description: Este tópico lista soluções do PowerBI.com que estão disponíveis e indica os recursos onde você pode aprender mais sobre as soluções.
 author: sericks007
 manager: AnnBe
 ms.date: 05/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: PowerBIPbixDeployForm
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 64b1c09b781b7bdbaf01a374e321b8dd9418f3da
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 1a391c0111ad39cb8c4ec809eccb3eb7cfb18687
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316685"
 ---
-
 # <a name="powerbicom-solutions-home-page"></a>Home page de soluções do PowerBI.com
 
 [!include [banner](../includes/banner.md)]
 
-As soluções do PowerBI.com a seguir estão disponíveis para os ambientes do Dynamics 365 for Finance and Operations.
+As soluções de PowerBI.com a seguir estão disponíveis para os ambientes do Dynamics 365 for Finance and Operations .
 
 ## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a>Soluções do PowerBI.com disponíveis no Lifecycle Services (LCS)
 
@@ -59,12 +58,11 @@ As soluções do PowerBI.com a seguir estão disponíveis na biblioteca de ativo
 
 ## <a name="powerbicom-solutions-available-from-appsource"></a>Soluções do PowerBI.com disponíveis no AppSource
 
-As soluções do PowerBI.com a seguir estão disponíveis no [Microsoft AppSource](https://appsource.microsoft.com).
+As soluções de PowerBI.com a seguir estão disponíveis em [Microsoft AppSource](https://appsource.microsoft.com).
 
 > [!NOTE]
-> Essas soluções foram substituídas, conforme documentado nos [Pacotes de conteúdo do Power BI disponíveis no AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Essas soluções foram substituídas, conforme documentado nos [pacotes de conteúdo do Power BI disponíveis em AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 - Gerenciamento de custo
 - [Desempenho financeiro](financial-performance-power-bi-content-pack.md)
 - [Desempenho do canal de varejo ](retail-channel-performance-dashboard-power-bi-data.md)
-

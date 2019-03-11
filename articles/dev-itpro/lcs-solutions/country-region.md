@@ -1,13 +1,13 @@
 ---
-title: "Recursos de localização e regulatórios"
-description: "Este tópico inclui listas de recursos que podem ajudar você a aprender mais sobre funcionalidades específicas ao país/região."
+title: Recursos regulatórios e de localização
+description: Este tópico inclui listas de recursos que podem ajudar você a aprender mais sobre funcionalidades específicas de país/região.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/30/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a8207af4dc9d5059d487bda97959eff559b7ca06
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: e74ad4442e1b6851812f889e79f2fb09060fb87a
-ms.contentlocale: pt-br
-ms.lasthandoff: 10/16/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301927"
 ---
-
-# <a name="localization-and-regulatory-features"></a>Recursos de localização e regulatórios
+# <a name="localization-and-regulatory-features"></a>Recursos regulatórios e de localização
 
 [!include [banner](../includes/banner.md)]
 
-O Microsoft Dynamics 365 for Finance and Operations inclui funcionalidade para o país/regiões documentadas no [Guia de disponibilidade de tradução e localização de produtos](https://aka.ms/ax-availabilityguide). Essa funcionalidade é habilitada com base no endereço principal da entidade legal ativa. 
+O Microsoft Dynamics 365 for Finance and Operations inclui funcionalidade para o país/regiões documentadas no [Guia de disponibilidade de tradução e localização de produtos](https://aka.ms/dynamics_365_international_availability_deck). Essa funcionalidade é habilitada com base no endereço principal da entidade legal ativa. 
 
 Este tópico inclui lista de recursos que podem ajudar a fazer o seguinte: 
 - aprender mais sobre como desenvolver soluções específicas para um país/região em vias de desenvolvimento
@@ -43,14 +42,15 @@ Os recursos a seguir fornecem orientação e informações que podem ajudar dese
 -   [Aplicar contexto de país/região](apply-country-context.md)
 -   [Certificações regulatórias](regulatory-certifications.md)
 -   [Classificar recursos de localização](classify-localization-features.md)
--   [Códigos de país - ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
+-   [Códigos de país – ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
-## <a name="localization-updates-and-communication"></a>Atualizações e comunicação de localização
-Os recursos a seguir fornecem informações sobre recursos planejados e novas localizações. 
+## <a name="regulatory-updates-and-communication"></a>Comunicação e atualizações regulatórias
+Os recursos a seguir fornecem informações sobre recursos de localização novos e planejados. 
 
-### <a name="localization-updates"></a>Atualizações de localização
+### <a name="regulatory-updates"></a>Atualizações regulatórias
+-   [Atualizações regulatórias](../../financials/localizations/regulatory-updates.md)
 -   [Portal de localização](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (atualizado semanalmente)
--   [Pesquisa de problema de LCS](../lifecycle-services/issue-search-lcs.md) (atualizada diariamente)
+-   [Pesquisa de problemas de LCS](../lifecycle-services/issue-search-lcs.md) (atualizada diariamente)
 
 ### <a name="communication-and-alerts"></a>Comunicação e alertas
 -   [Observação regulatória e comunicação de atualização regulatória](regulatory-watch-communication.md)
@@ -67,12 +67,12 @@ A ferramenta ER (Relatório eletrônico) permite configurar formatos para docume
 -   [Estender a lista de funções de Relatório eletrônico](../analytics/general-electronic-reporting-formulas-list-extension.md)
 -   [Destinos de Relatório eletrônico](../analytics/electronic-reporting-destinations.md)
 -   [Baixar configurações de Relatório eletrônico do Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
--   [Importar configurações de Relatório eletrônico](../analytics/electronic-reporting-import-ger-configurations.md)
+-   [​Importar configurações de Relatório eletrônico​](../analytics/electronic-reporting-import-ger-configurations.md)
 -   [Configurar Relatório eletrônico para efetuar pull de dados no Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [Gerar documentos eletrônicos e atualizar dados do aplicativo com a ferramenta de Relatórios eletrônico](../analytics/generate-electronic-documents-update-application-data.md)
+-   [Gerar documentos eletrônicos e atualizar dados do aplicativo com a ferramenta de Relatório eletrônico](../analytics/generate-electronic-documents-update-application-data.md)
 
 ## <a name="task-guides"></a>Guias de tarefas
-Os guias de tarefas estão disponíveis no painel da ajuda do produto e oferecem um guia passo a passo dos principais processos de negócios. Você pode abrir um guia de tarefas para ler as etapas de um processo de negócios, ou pode executar um guia de tarefas para seguir as etapas de um processo de negócios e inserir dados.
+Os guias de tarefas estão disponíveis no painel da ajuda do produto e oferecem um guia passo a passo dos principais processos de negócios. Você pode abrir um guia de tarefas para ler as etapas de um processo de negócios ou executá-lo para seguir as etapas de um processo de negócios e inserir dados.
 
 Para localizar os guias de tarefas, navegue até uma página no Microsoft Dynamics 365 for Finance and Operations e clique em Ajuda. Os guias de tarefas que usam a página são listados no painel de ajuda. Você também pode usar o painel de ajuda para procurar guias de tarefas por título.
 
@@ -118,7 +118,6 @@ Para saber mais, consulte [Guias de tarefas](../../fin-and-ops/get-started/help-
         - [Estados Unidos](../../financials/localizations/united-states.md)
     :::column-end:::
 :::row-end:::
-
 
 
 

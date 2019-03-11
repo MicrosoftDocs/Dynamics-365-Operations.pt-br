@@ -1,13 +1,13 @@
 ---
 title: Planejar sua hierarquia organizacional
-description: "Antes de configurar organizações e hierarquias da organização, entenda como modelar melhor sua empresa."
+description: Antes de configurar organizações e hierarquias da organização, entenda como modelar melhor sua empresa.
 author: sericks007
 manager: AnnBe
 ms.date: 08/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
 ms.reviewer: sericks
@@ -18,23 +18,22 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 633d85333a510cec9cee2721e6e2330a47b6c78c
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331980"
 ---
-
 # <a name="plan-your-organizational-hierarchy"></a>Planejar sua hierarquia organizacional
 
 [!include [banner](../includes/banner.md)]
 
-Antes de configurar organizações e hierarquias da organização no Microsoft Dynamics 365 for Finance and Operations, certifique-se de planejar a forma como sua empresa será modelada. O modelo da organização tem efeito significativo na implementação do Finance and Operations e em processos comerciais.
+Antes de configurar organizações e hierarquias organizacionais no Microsoft Dynamics 365 for Finance and Operations, certifique-se de planejar a forma como sua empresa será modelada. O modelo da organização tem efeito significativo na implementação do Finance and Operations e em processos comerciais.
 
 As hierarquias organizacionais representam os relacionamentos entre as organizações que compõem uma empresa. Portanto, a consideração mais importante ao modelar organizações é a estrutura de sua empresa. Recomendamos que você defina as estruturas da organização com base nos comentários de executivos e gerentes seniores das áreas funcionais, como finanças e contabilidade, recursos humanos, operações, compras, vendas e marketing.
 
-Quando estiver planejando hierarquias, também é importante considerar a relação entre a hierarquia organizacional e as dimensões financeiras. É possível configurar várias hierarquias organizacionais para representar diferentes visões do negócio. Usando dimensões financeiras, é possível criar relatórios com base nas exibições. Trabalhe com o seu parceiro do Microsoft Dynamics 365 for Finance and Operations para criar hierarquias que tratam as necessidades da organização e dos relatórios de impostos.
+Quando estiver planejando hierarquias, também é importante considerar a relação entre a hierarquia organizacional e as dimensões financeiras. É possível configurar várias hierarquias organizacionais para representar diferentes visões do negócio. Usando dimensões financeiras, é possível criar relatórios com base nas exibições. Trabalhe com seu parceiro do Microsoft Dynamics 365 for Finance and Operations para criar hierarquias que tratam as necessidades da organização e dos relatórios de impostos.
 
 > [!NOTE]
 > Embora seja possível usar dimensões financeiras para representar entidades legais sem criar entidades legais no Finance and Operations, as dimensões financeiras não são criadas para atender às necessidades comerciais ou operacionais de entidades legais. A funcionalidade de contabilidade interunidade no Finance and Operations foi criada para tratar somente as entradas de contabilidade criadas por cada transação.
@@ -168,7 +167,7 @@ As unidades operacionais usam o contexto de país da entidade legal primária. A
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Se a organização for modelada como uma entidade legal
 
-Para os países/regiões com suporte do Finance and Operations, a maioria dos relatórios de impostos podem ser criados. Para obter informações sobre quais relatórios estão disponíveis para cada país/região, consulte [Portal de localização do Microsoft Dynamics](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) para o Finance and Operations. (Um logon de CustomerSource é necessário.)
+Para os países/regiões com suporte do Finance and Operations, a maioria dos relatórios de impostos podem ser criados. Para obter informações sobre quais relatórios estão disponíveis para cada país/região, consulte [Portal de Localização do Microsoft Dynamics](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) para Finance and Operations. (Um logon do CustomerSource é necessário.)
 
 > [!NOTE]
 > No Finance and Operations, um nível de lançamento na contabilidade permite que você faça entradas de ajuste em uma empresa pai que usa um padrão de contabilidade diferente da empresa filha. Por exemplo, para uma empresa que usa as práticas contábeis geralmente aceitas no Reino Unido (GAAP BRITÂNICO), é possível criar entradas de ajuste no nível de lançamento. Essas entradas podem ser consolidadas em uma empresa primária que usa os princípios contábeis geralmente aceitos (GAAP) nos Estados Unidos. As entradas de ajuste não afetam os relatórios de GAAP BRITÂNICOS.
@@ -243,4 +242,3 @@ Considere estas práticas recomendadas quando implementar uma hierarquia organiz
 - Antes que você modele grandes cenários de reestruturação, use as datas efetivas da hierarquia para realizar uma análise de impacto e um teste de validação.
 - Use o modo de rascunho para alterar uma hierarquia antes de publicar uma nova versão em um ambiente de produção.
 - Limite o número de pessoas que têm permissões para adicionar ou remover organizações de uma hierarquia em um ambiente de produção. Um número menor reduz a chance de ocorrência de erros e a necessidade de correções.
-

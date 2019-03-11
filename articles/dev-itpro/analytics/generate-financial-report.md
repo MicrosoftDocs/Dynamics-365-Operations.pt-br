@@ -1,13 +1,13 @@
 ---
-title: "Gerar relatórios financeiros"
-description: "Este tópico fornece informações sobre gerar um relatório financeiro."
+title: Gerar relatórios financeiros
+description: Este tópico fornece informações sobre gerar um relatório financeiro.
 author: aprilolson
 manager: AnnBe
 ms.date: 09/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
 ms.openlocfilehash: 70fa1298c3af43f62b8fa0b833fa817f17858c47
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/27/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340881"
 ---
-
 # <a name="generate-financial-reports"></a>Gerar relatórios financeiros
 
 [!include [banner](../includes/banner.md)]
@@ -115,7 +114,7 @@ As contas ausentes são determinadas usando os valores inferiores e superiores d
 > [!TIP]
 > Para fins de validação, esse processo deve ser executado antes de gerar os relatórios mensais e ao criar novos blocos de construção.
 
-Relatórios com intervalos de valores têm menor probabilidade de ter contas ausentes. Quando possível, use intervalos no bloco de construção para incluir novas contas ao criá-las. Se qualquer definição de relatório for definida como @ANY, você poderá fazer logon em uma empresa específica e executar uma análise de conta ausente para essa empresa.
+Relatórios com intervalos de valores têm menor probabilidade de ter contas ausentes. Quando possível, use intervalos no bloco de construção para incluir as contas novas quando elas forem criadas. Se qualquer definição de relatório estiver definida como empresa @ANY, você pode fazer logon em uma empresa específica e executar uma análise de conta ausente para essa empresa.
 
 > [!NOTE]
 > Se uma nova empresa for adicionada, adicione a nova empresa às árvores de relatório em todos os relatórios existentes; senão, a empresa não será incluída na análise de conta ausente.
@@ -158,4 +157,3 @@ Quando você executa uma análise de conta ausente, os atalhos de teclado a segu
 [Relatórios financeiros](financial-reporting-intro.md)
 
 [Interface do Report Designer](report-designer-interface.md)
-

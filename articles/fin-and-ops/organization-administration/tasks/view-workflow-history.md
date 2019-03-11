@@ -1,13 +1,13 @@
---- 
-title: "Exibir histórico do fluxo de trabalho"
-description: "Use estas etapas para exibir o status de um documento que foi enviado ao sistema de fluxo de trabalho para processamento e aprovação."
+---
+title: Exibir histórico do fluxo de trabalho
+description: Use estas etapas para exibir o status de um documento que foi enviado ao sistema de fluxo de trabalho para processamento e aprovação.
 author: jasongre
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowStatus
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a40fe377322e2d64b751f6cace3eda20736cd321
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 212f9fe8bc7807b9209523564ead716959875241
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309647"
 ---
 # <a name="view-workflow-history"></a>Exibir histórico do fluxo de trabalho
 
@@ -46,5 +46,4 @@ Use estas etapas para exibir o status de um documento que foi enviado ao sistema
     * Certifique-se de que a seção Itens de trabalho está expandida.    Nesta seção você pode exibir os itens de trabalho associados ao documento selecionado. Por exemplo, uma tarefa pode precisar ser concluída ou o documento pode precisar de aprovação.  
     * O botão Reatribuir abre uma caixa de diálogo na qual é possível reatribuir um item de trabalho a outro usuário.  
     * Certifique-se de que a seção Detalhes do rastreamento está expandida.    Nesta seção você pode exibir o histórico de fluxo de trabalho do documento selecionado.  
-
 

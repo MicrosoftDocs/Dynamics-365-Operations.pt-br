@@ -1,33 +1,32 @@
 ---
 title: Recursos de acessibilidade
-description: "Este tópico descreve a funcionalidade desenvolvida para ajudar usuários com diversas deficiências a usarem o Dynamics 365 for Finance and Operations, Dynamics 365 for Retail e Dynamics 365 for Talent."
+description: Este tópico descreve a funcionalidade desenvolvida para ajudar usuários com diversas deficiências a usar o Dynamics 365 for Finance and Operations, Dynamics 365 for Retail e o Dynamics 365 for Talent.
 author: TLeforMicrosoft
 manager: AnnBe
 ms.date: 11/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: f88b485b0bdbf66532adff530e399bdd9d5b0ed5
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363398"
 ---
-
 # <a name="accessibility-features"></a>Recursos de acessibilidade
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve a funcionalidade desenvolvida para ajudar usuários com diversas deficiências a usarem o Dynamics 365 for Finance and Operations, Dynamics 365 for Retail e Dynamics 365 for Talent. Por exemplo, há recursos para pessoas que usam tecnologias adaptativas visuais, como o Narrador do Microsoft Windows.
+Este tópico descreve a funcionalidade desenvolvida para ajudar usuários com diversas deficiências a usar o Dynamics 365 for Finance and Operations, Dynamics 365 for Retail e o Dynamics 365 for Talent. Por exemplo, há recursos para pessoas que usam tecnologias assistivas visuais, como o Narrador do Microsoft Windows.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Acesso exclusivo pelo teclado e Narrador do Windows
 
@@ -97,4 +96,3 @@ O produto foi desenvolvido para funcionar em vários dispositivos e fatores form
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Orientações para ajudar os desenvolvedores e clientes a incorporar pensamento acessível em suas personalizações
 
 Para saber mais sobre as práticas recomendadas da Microsoft para ativar a acessibilidade, consulte [Acessibilidade em formulários, produtos e controles](../../dev-itpro/user-interface/enable-accessibility.md).
-

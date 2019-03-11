@@ -1,13 +1,13 @@
---- 
+---
 title: Modificar formatos ao reaplicar modelos do Excel
-description: "Para completar as etapas deste procedimento, primeiro você deve concluir o procedimento ER - Criar uma configuração para gerar relatórios no formato OPENXML."
+description: Para completar as etapas deste procedimento, primeiro você deve concluir o procedimento ER - Criar uma configuração para gerar relatórios no formato OPENXML.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 3d5752caba9327475bb28c7bc6b0ee7e072f44f3
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327104"
 ---
 # <a name="modify-formats-by-reapplying-excel-templates"></a>Modificar formatos ao reaplicar modelos do Excel
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 08/09/2018
 
 Para completar as etapas deste procedimento, primeiro você deve concluir o procedimento ER - Criar uma configuração para gerar relatórios no formato OPENXML.
 
-Este procedimento explica como modificar uma configuração de formato de relatório eletrônico (ER), reutilizando um modelo do Microsoft Excel que foi modificado. Nesse procedimento, você importará um modelo do Excel modificado para configurações de formato de ER que foi criado para a empresa exemplo, Litware, Inc., e depois gerará documentos eletrônicos. Esse procedimento é destinado a usuários com a função de administrador do sistema ou desenvolvedor de relatório eletrônico. Estas etapas podem ser concluídas usando o conjunto de dados de GBSI. Antes de começar, faça download e salve o arquivo SampleVendPaymWsReport2.xlsx que é listado no tópico de Ajuda. Modifique o formato de relatório eletrônico reaplicando um modelo do Excel (modify-electronic-reporting-format-reapply-excel-template/).
+Este procedimento explica como modificar uma configuração de formato de relatório eletrônico (ER) reaplicando um modelo modificado do Microsoft Excel. Nesse procedimento, você importará um modelo do Excel modificado para configurações de formato de ER que foi criado para a empresa exemplo, Litware, Inc., e depois gerará documentos eletrônicos. Esse procedimento é destinado a usuários com a função de administrador do sistema ou desenvolvedor de relatório eletrônico. Estas etapas podem ser concluídas usando o conjunto de dados de GBSI. Antes de começar, faça download e salve o arquivo SampleVendPaymWsReport2.xlsx que é listado no tópico de Ajuda. Modifique o formato de relatório eletrônico reaplicando um modelo do Excel (modify-electronic-reporting-format-reapply-excel-template/).
 
 1. Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.
     * Verifique se o provedor de configuração da empresa exemplo, Litware, Inc., está disponível e marcado como Ativo. Se não visualizar este provedor de configuração, conclua as etapas no procedimento Criar um provedor de configuração e marcá-lo como ativo.  
@@ -83,5 +83,4 @@ Este procedimento explica como modificar uma configuração de formato de relat�
 
 ## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>Use a versão de rascunho alterada do formato de ER para processamento do diário de pagamento
     * Revise a planilha criada, incluindo novos detalhes de linhas de pagamento – data de pagamento.  
-
 

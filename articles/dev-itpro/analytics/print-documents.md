@@ -1,13 +1,13 @@
 ---
-title: "Impressão de documento"
-description: "No Microsoft Dynamics 365 for Finance and Operations, você pode imprimir documentos usando uma impressora local ou um dispositivo conectado na rede. Este artigo fornece uma visão geral de como os documentos são impressos."
+title: Impressão de documento
+description: No Microsoft Dynamics 365 for Finance and Operations, você pode imprimir documentos usando uma impressora local ou um dispositivo conectado em rede. Este artigo fornece uma visão geral de como os documentos são impressos.
 author: TJVass
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: IT Pro, Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Core
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 4fd20022ff91fedb6d0323e82fbe3c1acae38e48
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362041"
 ---
-
 # <a name="document-printing"></a>Impressão de documento
 
 [!include [banner](../includes/banner.md)]
 
-No Microsoft Dynamics 365 for Finance and Operations, você pode imprimir documentos usando uma impressora local ou um dispositivo conectado na rede. Este artigo fornece uma visão geral de como os documentos são impressos.
+No Microsoft Dynamics 365 for Finance and Operations, você pode imprimir documentos usando uma impressora local ou um dispositivo conectado em rede. Este artigo fornece uma visão geral de como os documentos são impressos.
 
 ## <a name="printing-overview"></a>Visão geral de impressão
 
@@ -76,4 +75,3 @@ O diagrama a seguir exibe os componentes básicos que ajudam a suportar operaç�
 [![componentes de serviço para impressão de rede\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 Observe que uma única impressora pode ser registrada em vários Agentes de Roteamento de Documentos. Para resolver as preferências de impressora, o serviço hospedado usa o caminho de rede que identifica exclusivamente cada impressora de rede. Como consequência, mesmo quando uma impressora é registrada por vários clientes, ela aparece como uma seleção única na lista de impressoras disponíveis nos aplicativos Finance and Operations.
-

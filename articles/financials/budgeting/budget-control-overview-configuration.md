@@ -1,13 +1,13 @@
 ---
-title: "Visão geral do controle de orçamento"
-description: "Este artigo introduz o controle de orçamento e fornece informações para ajudá-lo na configuração do controle de orçamento no Microsoft Dynamics 365 for Finance and Operations, de forma que você possa gerenciar recursos financeiros."
+title: Visão geral do controle de orçamento
+description: Este artigo apresenta o controle de orçamento e contém informações para ajudar você a configurar esse recurso no Microsoft Dynamics 365 for Finance and Operations para gerenciar recursos financeiros.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetControlConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,24 +18,23 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4dbbbdf403c3e3f7c1bfa391cc32f80505098db9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e77760d6729b8faf3099590c60ea7673cfcb18ec
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308520"
 ---
-
-# <a name="budget-control-overview"></a>Visão geral de controle de orçamento 
+# <a name="budget-control-overview"></a>​Visão geral de controle de orçamento ​
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo introduz o controle de orçamento e fornece informações para ajudá-lo na configuração do controle de orçamento no Microsoft Dynamics 365 for Finance and Operations, de forma que você possa gerenciar recursos financeiros.
+Este artigo apresenta o controle de orçamento e contém informações para ajudar você a configurar esse recurso no Microsoft Dynamics 365 for Finance and Operations para gerenciar recursos financeiros.
 
 <a name="overview"></a>Visão Geral
 --------
 
-O controle de orçamento no Microsoft Dynamics 365 for Finance and Operations oferece suporte ao gerenciamento dos recursos financeiros de uma organização por meio de plano de contas, fluxo de trabalho, grupos de usuários, documentos de origem e diários, cálculo disponível de fundos configuráveis, ciclos orçamentários e limites. Quando os controles estão em vigor, uma organização pode planejar, medir, gerenciar e prever os recursos financeiros ao longo do ano fiscal. 
+O controle de orçamento no Microsoft Dynamics 365 for Finance and Operations oferece suporte ao gerenciamento dos recursos financeiros de uma organização através do plano de contas, de fluxos de trabalho, grupos de usuários, documentos de origem e diários, cálculo configurável de fundos disponíveis, ciclos orçamentários e limites. Quando os controles estão em vigor, uma organização pode planejar, medir, gerenciar e prever os recursos financeiros ao longo do ano fiscal. 
 
 Depois que os orçamentos foram aprovados no Finance and Operations, você pode usar planos de orçamento para gerar entradas de registro de orçamento para registrar o orçamento de despesas para uma organização. Como alternativa, você pode criar ou importar entradas de registro de orçamento de um programa de terceiros em vez de usar a funcionalidade de planejamento de orçamento. 
 
@@ -53,7 +52,7 @@ Você pode configurar o controle de orçamento de acordo com diversos fatores:
 -   **Cálculo de fundos disponíveis** - Documentos como requisições de compra (pré-ônus) e ordens de compra (ônus) devem ser considerados no cálculo de fundos disponíveis? Os documentos que têm um status de rascunho devem ser considerados no cálculo?
 -   **Permissão de substituição** - Quem tem permissão para exceder o orçamento disponível?
 
-O controle de orçamento é integrado totalmente com dados do Finance and Operations. Consequentemente, você pode classificar o orçamento disponível para compras planejadas e compras reais. Consultas de orçamento e relatórios estão disponíveis. Portanto, os usuários podem avaliar o orçamento por meio do ciclo de orçamento, e podem fazer quaisquer ajustes que são necessários, na forma de revisões de orçamento ou transferências. Um gerente de orçamento pode exportar o orçamento e os valores reais para o Microsoft Excel para fazer análises melhores e previsões, quando necessário.
+O controle de orçamento é integrado totalmente com dados do Finance and Operations. Consequentemente, você pode classificar o orçamento disponível para compras planejadas e compras reais. Consultas de orçamento e relatórios estão disponíveis. Portanto, os usuários podem avaliar o orçamento por meio do ciclo de orçamento, e podem fazer quaisquer ajustes que são necessários, na forma de revisões de orçamento ou transferências. Um gerente de orçamento também pode exportar o orçamento e os valores reais para o Microsoft Excel para fazer análises e previsões mais precisas, conforme necessário.
 
 ## <a name="configuring-budget-control"></a>Configuração do controle de orçamento
 ### <a name="budget-cycle-time-span"></a>Período de tempo do ciclo orçamentário
@@ -128,4 +127,3 @@ Depois que o controle de orçamento é ativado, os usuários recebem o aviso do 
 Nesta página, os usuários podem entrar na página **Estatísticas de controle de orçamento por período** para ver os detalhes de disponibilidade de orçamento e reservas para uma combinação de dimensão de controle de orçamento selecionado. Os usuários podem também entrar na página **Estatística de controle de orçamento** exibir a disponibilidade de orçamento para todas as combinações de dimensões financeiras que são usadas no controle de orçamento. 
 
 Se o controle de orçamento for ligado nas ordens de compra, o gerente do orçamento pode usar a área de trabalho **Orçamentos razão e previsões** a revisar a fila de todas as ordens de compra não confirmadas que foram verificadas com avisos de orçamento e erros. Se a gerente de orçamento tem permissões de orçamento excedido configuradas, ela pode confirmar a ordem de compra diretamente no espaço de trabalho.    
-

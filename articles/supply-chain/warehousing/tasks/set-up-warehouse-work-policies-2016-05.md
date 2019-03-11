@@ -1,13 +1,13 @@
---- 
-title: "Diretivas de instalação do trabalho de depósito (solicitação de emprego, maio de 2016)"
-description: "Os processos de depósito nem sempre incluem o trabalho do depósito."
+---
+title: Diretivas de instalação do trabalho de depósito (solicitação de emprego, maio de 2016)
+description: Os processos de depósito nem sempre incluem o trabalho do depósito.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWorkPolicy, WMSLocationIdLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 34b4255c85bb53f7e238b60559890571070953a6
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335315"
 ---
 # <a name="set-up-warehouse-work-policies-application-may-2016"></a>Diretivas de instalação do trabalho de depósito (solicitação de emprego, maio de 2016)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Os processos de depósito nem sempre incluem o trabalho do depósito. Ao definir uma diretiva de trabalho, você pode impedir a criação de trabalho para a separação de matéria-prima e o separar as mercadorias concluídas para um conjunto de produtos em locais específicos. A empresa de dados demo USMF foi usada para criar este registro. Essa guia da tarefa requer a aplicação 7.0.1 do Dynamics AX ou posterior.
+Os processos de depósito nem sempre incluem o trabalho do depósito. Ao definir uma diretiva de trabalho, você pode impedir a criação de trabalho para a separação de matéria-prima e o separar as mercadorias concluídas para um conjunto de produtos em locais específicos. A empresa de dados demo USMF foi usada para criar este registro. Essa guia da tarefa requer o aplicativo do Dynamics AX 7.0.1 ou posterior.
 
 1. Vá para Gerenciamento de depósito > Configuração > Políticas de trabalho.
 2. Clique em Novo.
@@ -51,5 +51,4 @@ Os processos de depósito nem sempre incluem o trabalho do depósito. Ao definir
 19. Na lista, marque a linha selecionada.
 20. No campo Número do item, insira ou selecione "L0101".
 21. Clique em Salvar.
-
 

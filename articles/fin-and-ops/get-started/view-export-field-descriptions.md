@@ -1,13 +1,13 @@
 ---
-title: "Exibir e exportar descrições de campos"
-description: "Este artigo descreve como exibir descrições dos campos e como usar a página de descrições de campo para exportação de descrições."
+title: Exibir e exportar descrições de campos
+description: Este artigo descreve como exibir descrições dos campos e como usar a página de descrições de campo para exportação de descrições.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FieldDescriptions
 audience: Application User, Developer, IT Pro
 ms.reviewer: rschloma
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7be1495fc42b5f19884a7d9df747f6bec9b64680
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359327"
 ---
-
 # <a name="view-and-export-field-descriptions"></a>Exibir e exportar descrições de campos
 
 [!include [banner](../includes/banner.md)]
 
 Este artigo descreve como exibir descrições dos campos e como usar a página de descrições de campo para exportação de descrições.
 
-O Microsoft Dynamics 365 for Finance and Operations tem descrições para alguns dos mais complexos campos. Essas descrições aparecem ao passar o mouse sobre um campo. Você também pode exibir e exportar descrições na página **Descrições de campo**.
+O Microsoft Dynamics 365 for Finance and Operations tem descrições para alguns dos campos mais complexos. Essas descrições aparecem ao passar o mouse sobre um campo. Você também pode exibir e exportar descrições na página **Descrições de campo**.
 
 Nem todas as páginas têm descrições de campo. Pretendemos fornecer descrições apenas dos campos mais complexos, e não daqueles cujo uso é evidente. Portanto, algumas páginas não têm todas as descrições de campo, algumas páginas possuem algumas descrições e algumas das páginas mais complexas, como muitas das páginas de parâmetros, há muitas descrições.
 
@@ -70,7 +69,7 @@ Se você definir a opção **Incluir campos sem uma descrição** para **Sim**, 
 Para exportar as descrições para uma página, siga estas etapas.
 
 1. No campo **Selecionar uma página**, selecione uma página.
-2. Clique no botão **Abrir Microsoft Office** no canto superior direito e então clique em **FieldDescriptionTmp**.
+2. Clique no botão **Abrir no Microsoft Office** no canto superior direito e, depois, clique em **FieldDescriptionTmp**.
 
 ### <a name="searching-for-a-page"></a>Procurar uma página
 
@@ -109,4 +108,3 @@ Para obter informações sobre as várias maneiras de filtrar a lista de página
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Personalizar campo de ajuda](../../dev-itpro/user-interface/customize-field-help.md)
-

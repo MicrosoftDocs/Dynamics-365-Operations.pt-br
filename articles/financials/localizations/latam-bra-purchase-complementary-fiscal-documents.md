@@ -1,13 +1,13 @@
 ---
 title: Notas fiscais de compra complementares do Brasil
-description: "Este tópico descreve o conceito de uma fatura complementar de compras da localização brasileira."
+description: Este tópico descreve o conceito de uma fatura complementar de compras da localização brasileira.
 author: sndray
 manager: AnnBe
 ms.date: 08/08/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BrazilParameters, FBFiscalDocument_BR, PurchComplementaryInvoice, PurchComplementaryInvoiceCancel_BR, PurchComplementaryInvoiceListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: b7d1ec340ecfcee9f42da0279d645c21b37caf3d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b094d2549661520d2bef6b2c6a2b682868438b32
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371649"
 ---
-
 # <a name="purchase-complementary-fiscal-documents-for-brazil"></a>Notas fiscais de compra complementares do Brasil
 
 [!include [banner](../includes/banner.md)]
@@ -66,5 +65,4 @@ Para obter mais informações, consulte os seguintes tópicos:
 [Criar e lançar uma nota fiscal complementar de compra (Brasil)](tasks/br-00026-1-create-post-purchase-complementary-fiscal-document.md)
 
 [Cancelar uma nota fiscal complementar de compra (Brasil)](tasks/br-00026-2-cancel-purchase-complementary-fiscal-document.md)
-
 

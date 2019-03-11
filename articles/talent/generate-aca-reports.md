@@ -1,13 +1,13 @@
 ---
-title: "Gerar relatórios segundo a Lei de Serviços de Saúde Acessíveis (ACA)"
-description: "Esta funcionalidade está disponível para auxiliar empregadores que precisam rastrear as informações relatadas nos formulários 1095-B e 1095-C, em apoio à parte do Mandato do Empregador da Lei de Serviços de Saúde Acessíveis. Observe que esta funcionalidade está habilitada somente para entidades legais nos Estados Unidos."
+title: Gerar relatórios segundo a Lei de Serviços de Saúde Acessíveis (ACA)
+description: Esta funcionalidade está disponível para auxiliar empregadores que precisam rastrear as informações relatadas nos formulários 1095-B e 1095-C, em apoio à parte do Mandato do Empregador da Lei de Serviços de Saúde Acessíveis. Observe que esta funcionalidade está habilitada somente para entidades legais nos Estados Unidos.
 author: kherr75
 manager: AnnBe
 ms.date: 12/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: f1456b91d6fc29ec65d0e9382d3f5f7682a8b516
 ms.openlocfilehash: 0ea2824093d33b9f233cd992399de22198bfc27a
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303256"
 ---
 # <a name="generate-affordable-care-act-aca-reports"></a>Gerar relatórios segundo a Lei de Serviços de Saúde Acessíveis (ACA)
 
@@ -70,4 +70,3 @@ Você pode exportar listas de funcionários que foram geradas usando qualquer um
 Caso seja necessário relatar pessoas cobertas porque, como empregador, você fornece cobertura auto-segurada, você também pode exibir todos os dependentes cobertos por planos de benefícios que foram marcadas como **Pode ser relatado segundo a ACA**, selecionando a ação de cobertura Exibir Dependente na faixa do painel de ação.
 
 **Observação:** Somente benefícios cujo plano foi marcado como **Pode ser relatado segundo a ACA** serão exibidos na janela de consulta.
-

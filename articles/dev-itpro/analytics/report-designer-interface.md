@@ -1,13 +1,13 @@
 ---
-title: "Interface do Designer de Relatórios"
-description: "Este artigo explica como navegar através do Designer de relatórios e como usar as diversas opções para atender a necessidades específicas."
+title: Interface do Designer de Relatórios
+description: Este artigo explica como navegar através do Designer de relatórios e como usar as diversas opções para atender a necessidades específicas.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: e9b77e2b510a72d1e3fe3c68c997d58245a86a27
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "368021"
 ---
-
 # <a name="report-designer-interface"></a>Interface do Designer de Relatórios
 
 [!include [banner](../includes/banner.md)]
@@ -139,7 +138,7 @@ O menu **Ferramentas** está disponível para todos os usuários, mas alguns com
 |-------------------------------|-------------|
 | Proteger                       | Aplicar uma senha para o bloco de construção atual. Este comando está disponível para usuários com a função **Designer** ou **Administrador**. |
 | Status da Fila de Relatórios           | Abra a caixa de diálogo **Status da Fila de Relatórios**, na qual você pode ver todos os relatórios gerados recentemente e os detalhes de cada relatório. |
-| Informações do Sistema de Origem     | Exibe as configurações para o sistema Microsoft Dynamics ERP. Este comando está disponível para usuários com a função **Designer** ou **Administrador**. |
+| Informações do Sistema de Origem     | Mostrar as configurações do sistema ERP do Microsoft Dynamics. Este comando está disponível para usuários com a função **Designer** ou **Administrador**. |
 | Itens com Check-out             | Exibe as definições de linha, de coluna, de hierarquia organizacional e de relatório que estão abertas no momento. Este comando está disponível para usuários com a função **Designer** ou **Administrador**. |
 | Atualizar Dados Financeiros Armazenados em Cache | Atualiza os dados na coluna de dimensões financeiras. |
 | Opções                       | Abra a caixa de diálogo **Opções**, na qual você pode mudar as preferências de usuário para o Designer de Relatórios. |
@@ -229,4 +228,3 @@ A barra de ferramentas do designer de relatórios fornece acesso rápido aos com
 [Relatórios financeiros](financial-reporting-intro.md)
 
 [Gerar um relatório financeiro](generate-financial-report.md)
-

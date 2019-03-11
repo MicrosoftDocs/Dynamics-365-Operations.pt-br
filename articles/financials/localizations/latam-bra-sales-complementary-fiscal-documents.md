@@ -1,13 +1,13 @@
 ---
 title: Notas fiscais complementares de vendas para o Brasil
-description: "Este tópico descreve a fatura complementar de vendas da localização brasileira."
+description: Este tópico descreve a fatura complementar de vendas da localização brasileira.
 author: sndray
 manager: AnnBe
 ms.date: 08/08/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BrazilParameters, FBFiscalDocument_BR, SalesComplementaryInvoice, SalesComplementaryInvoiceCancel_BR, SalesComplementaryInvoiceListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 574f06392f8cf83d51c9b3e92e7ce3bdea83026b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: cbac2aafeea5cff41531d18af383e6cb10b4a7e2
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371581"
 ---
-
 # <a name="sales-complementary-fiscal-documents-for-brazil"></a>Notas fiscais complementares de vendas para o Brasil
 
 [!include [banner](../includes/banner.md)]
@@ -70,6 +69,5 @@ Para obter mais informações, consulte os seguintes tópicos:
  - [Emitir notas fiscais para clientes (para usuários finais)](tasks/br-00087-issuing-customer-fiscal-documents-end-user.md)
  - [Emitir notas fiscais para clientes (para clientes SUFRAMA)](tasks/br-00088-issuing-customer-fiscal-documents-suframa-customers.md)
  - [Cancelar uma nota fiscal para cliente (projeto)](tasks/br-00092-cancel-customer-fiscal-document-project.md)
-
 
 

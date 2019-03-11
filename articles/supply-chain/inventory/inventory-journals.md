@@ -1,13 +1,13 @@
 ---
-title: "Diários de estoque"
-description: "Este tópico descreve como você pode usar diários de estoque para lançar vários tipos de transações de estoque físico."
+title: Diários de estoque
+description: Este tópico descreve como você pode usar diários de estoque para lançar vários tipos de transações de estoque físico.
 author: perlynne
 manager: AnnBe
 ms.date: 04/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 39d66bb9fd2e121b7ce842d869c2a0a0fa5fa8a5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7e6ac46cc4d4961cdd76f6127d8900a9b3d13a39
-ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361673"
 ---
-
 # <a name="inventory-journals"></a>Diários de estoque
 
 [!include [banner](../includes/banner.md)]
@@ -120,4 +119,3 @@ Esses dois diários de estoque suportam somente o cenário *Inicializar estoque*
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Entidades de dados](../../dev-itpro/data-entities/data-entities.md)
-

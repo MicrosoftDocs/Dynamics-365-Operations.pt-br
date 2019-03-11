@@ -1,13 +1,13 @@
 ---
 title: Analisar desempenho da loja
-description: "Este artigo explica como você pode usar a análise na memória e em tempo real para acessar, explorar e obter informações sobre o desempenho do armazenamento, com base nos dados do Microsoft Dynamics 365 para Varejo."
+description: Este artigo explica como você pode usar a análise na memória e em tempo real para acessar, explorar e obter informações sobre o desempenho da loja, com base nos dados do Microsoft Dynamics 365 for Retail.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailChannelReport, RetailChannelManagementWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: c975c021b6db49d1e25fd036f4955c7223e438ea
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6d9e116725d19804a22428a35d25c8b1b0d70952
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346171"
 ---
-
 # <a name="analyze-store-performance"></a>Analisar o desempenho da loja
 
 [!include [banner](includes/banner.md)]
 
-Este artigo explica como você pode usar a análise na memória e em tempo real para acessar, explorar e obter informações sobre o desempenho do armazenamento, com base nos dados do Microsoft Dynamics 365 para Varejo.
+Este artigo explica como você pode usar a análise na memória e em tempo real para acessar, explorar e obter informações sobre o desempenho da loja, com base nos dados do Microsoft Dynamics 365 for Retail.
 
-Como parte do Dynamics 365 para Varejo, os usuários podem estudar o desempenho da loja em tempo real nos diferentes níveis da hierarquia organizacional durante um período selecionado, abrindo o relatório predefinido **Resumo do canal** em qualquer um deste locais:
+Como parte do Dynamics 365 for Retail, os usuários podem estudar o desempenho da loja em tempo real nos diferentes níveis da hierarquia da organização durante um período selecionado, abrindo o relatório predefinido **Resumo do canal** em qualquer um deste locais:
 
 - Área de trabalho **Gerenciamento de loja de varejo** &gt; **Varejo** &gt; **Canais** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios** &gt; **Relatório de resumo de canal**
 - Área de trabalho **Finanças da loja de varejo** &gt; **Varejo** &gt; **Canais** &gt; **Finanças da loja de varejo** &gt; **Relatórios** &gt; **Relatório de resumo de canal**
@@ -46,4 +45,3 @@ Este relatório apresenta um instantâneo dos seguintes resumos como parte do de
 - Resumo do imposto
 - Resumo de substituições de preço
 - Resumo de descontos
-

@@ -1,13 +1,13 @@
---- 
-title: "Modificar as relações de subordinação de uma posição"
-description: "Este procedimento mostra como alterar a relação de subordinação de um funcionário."
+---
+title: Modificar as relações de subordinação de uma posição
+description: Este procedimento mostra como alterar a relação de subordinação de um funcionário.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmPosition, HcmPositionReportsToDialog, HcmPositionLookup
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: e779a337ff8f8e0199a60e094f4bec9eba49e701
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322688"
 ---
 # <a name="modify-reporting-relationships-for-a-position"></a>Modificar as relações de subordinação de uma posição
 
@@ -43,5 +43,4 @@ Este procedimento mostra como alterar a relação de subordinação de um funcio
     * Exemplo: Projeto  
 12. No campo Relatórios para posição, insira ou selecione um valor.  Exemplo: 000437
 13. Clique em Salvar.
-
 

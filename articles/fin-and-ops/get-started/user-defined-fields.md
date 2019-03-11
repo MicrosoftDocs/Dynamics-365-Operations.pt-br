@@ -1,13 +1,13 @@
 ---
-title: Criar e trabalhar com campos personalizados
-description: "Este tópico mostra como o Microsoft Dynamics 365 for Finance and Operations permite que alguns usuários criem campos personalizados para adequar o aplicativo à sua empresa."
+title: Criar e trabalhar com dados personalizados
+description: Este tópico mostra como o Microsoft Dynamics 365 for Finance and Operations permite que alguns usuários criem campos personalizados para adequar o aplicativo à sua empresa.
 author: jasongre
 manager: AnnBe
 ms.date: 07/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysCustomFieldManageFields
 audience: Application User
 ms.reviewer: sericks
@@ -16,15 +16,14 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 18402579789c17de7b46dd7a013b3b6327ea5d4f
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348011"
 ---
-
-# <a name="create-and-work-with-custom-fields"></a>Criar e trabalhar com campos personalizados
+# <a name="create-and-work-with-custom-fields"></a>Criar e trabalhar com dados personalizados
 
 [!include [banner](../includes/banner.md)]
 
@@ -32,7 +31,7 @@ Embora o Microsoft Dynamics 365 for Finance and Operations forneça um conjunto 
 
 A capacidade de adicionar campos personalizados está disponível na atualização 13 da plataforma e posteriores.
 
-Este vídeo mostra como é fácil adicionar um campo personalizado a uma página: [Como adicionar campos personalizados no Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
+Este vídeo mostra como é fácil adicionar um campo personalizado a uma página: [Adicionando campos personalizados no Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
 
 ## <a name="creating-custom-fields"></a>Criando campos personalizados
 
@@ -160,4 +159,3 @@ Por motivos técnicos e de desempenho, apenas as tabelas que atendem às seguint
 - A tabela não pode estender outra tabela.
 - A tabela não pode ser marcada como uma tabela de sistema.
 - A tabela não pode ser uma tabela temporária.
-

@@ -1,13 +1,13 @@
 ---
-title: "Configurar um modelo de configuração do produto"
-description: "Este artigo descreve as etapas para configurar e criar um modelo de configuração do produto."
+title: Configurar um modelo de configuração do produto
+description: Este artigo descreve as etapas para configurar e criar um modelo de configuração do produto.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 10faa26a53b026a70487124d696b0313d1f5814d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 8504eb789b0d449cf2e29d4314d189dc0b8a6b43
-ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360661"
 ---
-
 # <a name="set-up-a-product-configuration-model"></a>Configurar um modelo de configuração do produto
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ Este artigo descreve as etapas para configurar e criar um modelo de configuraç�
 | Testar um modelo de configuração do produto.                         | Teste o modelo de configuração do produto da página **Detalhes do modelo de configuração do produto baseada em restrições** ou na página **Lista de modelos de configuração do produto**. O teste dos modelos de configuração de produtos simula o processo de configuração de modelo do produto que ocorre durante o manuseio da ordem.                                                                                                |
 | Criar um modelo do modelo de configuração de produto.                | Crie um modelo do modelo de configuração do produto na página **Modelos de configuração**. Um modelo de configuração inclui valores de atributos no modelo de configuração de produtos. Selecione os valores de atributo na página **Configurar linha**. Você pode optar por carregar um modelo de configuração do modelo do produto durante a configuração do modelo do produto.                                                   |
 | Configurar um item.                                          | Os modelos de configuração do produto podem ser configurados a partir de uma ordem de venda, cotação de venda, ordem de compra ou ordem de produção.                                                                                                                                                                                                                                                                           |
-
 
 
 

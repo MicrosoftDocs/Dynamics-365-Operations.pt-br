@@ -1,13 +1,13 @@
 ---
 title: Criar pagamentos de fornecedor usando uma proposta de pagamento
-description: "Este tópico oferece uma visão geral das opções de proposta de pagamento e inclui alguns exemplos que mostram como as propostas de pagamento funcionam."
+description: Este tópico oferece uma visão geral das opções de proposta de pagamento e inclui alguns exemplos que mostram como as propostas de pagamento funcionam.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 04/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 332a18eb98811505b38c023c97c22b86a9367af1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5afdace14d1db4b36027634b3af3df1029ae12a2
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327403"
 ---
-
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Criar pagamentos de fornecedores usando uma proposta de pagamento
 
 [!include [banner](../includes/banner.md)]
@@ -70,7 +69,7 @@ Em 1º de julho, April paga os fornecedores. Ela usa uma proposta de pagamento p
 
 ### <a name="option-1-by-cash-discount"></a>Opção 1: Por desconto à vista
 
-Alice seleciona **Desconto à vista** como o tipo de proposta. Ela insere um intervalo de datas de pagamento de 26 de junho a 10 de julho. As seguintes faturas são incluídas na proposta:
+April seleciona **Desconto à vista** como o tipo de proposta. Ela insere um intervalo de datas de 26 de junho a 10 de julho. As seguintes faturas são incluídas na proposta:
 
 -   1002, porque a data de desconto de 4 de julho está no intervalo de datas de pagamento.
 -   1004, porque a data de desconto de 1º de julho está no intervalo de datas de pagamento.
@@ -82,7 +81,7 @@ As faturas a seguir não são incluídas na proposta:
 
 ### <a name="option-2-by-due-date"></a>Opção 2: Por data de vencimento
 
-Alice seleciona **Por data de vencimento** como o tipo de proposta. Ela insere um intervalo de datas de pagamento de 26 de junho a 10 de julho. As seguintes faturas são incluídas na proposta:
+Alice seleciona **Por data de vencimento** como o tipo de proposta. Ela insere um intervalo de datas de 26 de junho a 10 de julho. As seguintes faturas são incluídas na proposta:
 
 -   1003, porque a data de vencimento de 29 de junho está no intervalo de datas de pagamento.
 
@@ -94,7 +93,7 @@ As faturas a seguir não são incluídas na proposta:
 
 ### <a name="option-3-by-due-date-and-cash-discount"></a>Opção 3: Por data de vencimento e desconto à vista
 
-Alice seleciona **Data de vencimento e desconto à vista** como o tipo de proposta. Ela insere um intervalo de datas de pagamento de 26 de junho a 10 de julho. As seguintes faturas são incluídas na proposta:
+Alice seleciona **Data de vencimento e desconto à vista** como o tipo de proposta. Ela insere um intervalo de datas de 26 de junho a 10 de julho. As seguintes faturas são incluídas na proposta:
 
 -   1003, porque a data de vencimento de 29 de junho está no intervalo de datas de pagamento.
 -   1002, porque a data de desconto de 4 de julho está no intervalo de datas de pagamento.
@@ -109,7 +108,7 @@ As faturas a seguir não são incluídas na proposta:
 
 #### <a name="dimension-control"></a>Controle de dimensão
 
-O controle de dimensão permite que você controle ao agrupar linhas gerados por meio de pagamento e define as dimensões baseadas padrão usadas dimensões financeiras das faturas aplicadas. No contexto norueguês de país para cada método de pagamento da guia dimensão financeira que você poderá ativar o controle de dimensão e para habilitar o agrupamento para cada dimensão. As opções disponíveis são:
+O controle de dimensão permite que você controle ao agrupar linhas gerados por meio de pagamento e define as dimensões baseadas padrão usadas dimensões financeiras das faturas aplicadas. No contexto norueguês de país para cada método de pagamento da guia dimensão financeira que você poderá ativar o controle de dimensão e para habilitar o agrupamento para cada dimensão. As opções disponíveis são:
 
 -   O campo **Controle de dimensão** é desabilitado. A proposta de pagamento comporta-se quanto para qualquer outro país.
 -   O campo **Controle de dimensão** é ativado sem definir ainda mais as dimensões. A proposta de pagamento será criada sem levar em consideração dimensões. A transação não será herdado criada nenhuma dimensão de entrada aplicada.
@@ -120,8 +119,7 @@ O controle de dimensão permite que você controle ao agrupar linhas gerados por
 
 #### <a name="bank-account-selection"></a>Seleção de conta bancária
 
-Você pode definir um padrão que debita a conta de pagamento por método de indiferente contexto do país de pagamento. Isso será definida nas linhas de pagamento geradas pela proposta. Com o recurso de conta bancária, você pode definir o múltiplo que debita contas bancárias gerenciadas por dimensão e a moeda ou uma combinação desses usar contas bancárias de débito diferentes, dependendo cada combinação. Configure essas combinações na página **Métodos de pagamento** usando o botão **Contas bancárias** disponível para cada método de pagamento com **Tipo de postagem de conta** = **Banco**.
-
+Você pode definir um padrão que debita a conta de pagamento por método de indiferente contexto do país de pagamento. Isso será definida nas linhas de pagamento geradas pela proposta. Com o recurso de conta bancária, você pode definir o múltiplo que debita contas bancárias gerenciadas por dimensão e a moeda ou uma combinação desses usar contas bancárias de débito diferentes, dependendo cada combinação. Configure essas combinações na página **Métodos de pagamento** usando o botão  **Contas bancárias** disponível para cada método de pagamento com **Tipo de conta de lançamento** = **Bancária**.
 
 
 

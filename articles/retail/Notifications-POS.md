@@ -1,13 +1,13 @@
 ---
-title: "Mostrar notificações de ordem no ponto de venda (PDV)"
-description: "Este tópico descreve como habilitar notificações de ordem no ponto de venda e a estrutura de notificação. Com o tempo, os desenvolvedores poderão estender essas notificações a operações além das operações de atendimento da ordem."
+title: Mostrar notificações de ordem no ponto de venda (PDV)
+description: Este tópico descreve como habilitar notificações de ordem no ponto de venda e a estrutura de notificação. Com o tempo, os desenvolvedores poderão estender essas notificações a operações além das operações de atendimento da ordem.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 03/13/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailOperations, RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
@@ -16,20 +16,19 @@ ms.search.region: Global
 ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: 41f16d13051f6095bdb04af1586ec06fe0ce93f6
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361328"
 ---
-
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Mostrar notificações de ordem no ponto de venda (PDV)
 
 [!include [banner](includes/banner.md)]
 
-No ambiente de varejo moderno, são atribuídas várias tarefas aos associados da loja, como auxiliar os clientes, inserir transações, executar contagens de estoque e receber ordens na loja. O cliente do ponto de venda (PDV) fornece um único aplicativo no qual os associados podem executar todas essas tarefas e muitas outras. Como várias tarefas devem ser executadas durante o dia, os associados talvez precisem ser notificados quando algo exigir sua atenção. A estrutura de notificação no PDV ajuda, permitindo que os varejistas configurem notificações baseadas em funções. No Microsoft Dynamics 365 for Retail com atualização de aplicativo 5, essas notificações podem ser configuradas somente para operações de PDV.
+No ambiente de varejo moderno, são atribuídas várias tarefas aos associados da loja, como auxiliar os clientes, inserir transações, executar contagens de estoque e receber ordens na loja. O cliente do ponto de venda (PDV) fornece um único aplicativo no qual os associados podem executar todas essas tarefas e muitas outras. Como várias tarefas devem ser executadas durante o dia, os associados talvez precisem ser notificados quando algo exigir sua atenção. A estrutura de notificação no PDV ajuda, permitindo que os varejistas configurem notificações baseadas em funções. No Microsoft Dynamics 365 for Retail com a atualização do aplicativo 5, essas notificações podem ser configuradas somente para operações de PDV.
 
 No momento, o sistema pode mostrar notificações somente para operações de atendimento da ordem. No entanto, como a estrutura é criada para ser extensível, os desenvolvedores poderão gravar um manipulador de notificação para qualquer operação e mostrar as notificações para essa operação no PDV.
 
@@ -72,4 +71,3 @@ A ilustração a seguir mostra as configurações de conteúdo ao vivo no design
 A ilustração a seguir mostra o efeito de selecionar **Superior direito** versus **Centralizado** no campo **Alinhamento de conteúdo** para botões de vários tamanhos.
 
 ![Conteúdo ao vivo nos botões do PDV](./media/ButtonsWithLiveContent.png "Conteúdo ao vivo nos botões do PDV")
-

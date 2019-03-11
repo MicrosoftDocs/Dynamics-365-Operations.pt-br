@@ -1,13 +1,13 @@
 ---
-title: "Designer de fórmulas no relatório eletrônico (ER)"
-description: "Este tópico explica como usar o designer de fórmulas no ER (Relatório Eletrônico)."
+title: Designer de fórmulas no relatório eletrônico (ER)
+description: Este tópico explica como usar o designer de fórmulas no ER (Relatório Eletrônico).
 author: NickSelin
 manager: AnnBe
 ms.date: 10/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: f0ded563ecf0b6d0ce67f046f631d8c4dcfc7802
 ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
-ms.contentlocale: pt-br
-ms.lasthandoff: 10/23/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331267"
 ---
-
 # <a name="formula-designer-in-electronic-reporting-er"></a>Designer de fórmulas no relatório eletrônico (ER)
 
 [!include [banner](../includes/banner.md)]
@@ -36,7 +35,7 @@ Este tópico explica como usar o designer de fórmulas no ER (Relatório Eletrô
 
 O relatório eletrônico (RE) suporta o designer de fórmulas. Consequentemente, no tempo de design, você pode configurar as expressões que podem ser usadas para as seguintes tarefas no momento da execução:
 
-- Transformar dados que são recebidos de um banco de dados do Microsoft Dynamics 365 for Finance and Operations e que devem ser inseridos em um modelo de dados de ER que foi desenvolvido para ser uma fonte de dados para formatos de ER. (Por exemplo, essas transformações podem incluir a filtragem, o agrupamento e a conversão de tipo de dados).
+- Transformar os dados que são recebidos de um banco de dados do Microsoft Dynamics 365 for Finance and Operations , e que devem ser inseridos em um modelo de dados de ER criado para ser uma fonte de dados para formatos ER. (Por exemplo, essas transformações podem incluir a filtragem, o agrupamento e a conversão de tipo de dados).
 - Formatar os dados que devem ser enviados para gerar um documento eletrônico, de acordo com o layout e as condições de um formato de ER específico. (Por exemplo, a formatação pode ser feita de acordo com o idioma ou cultura solicitados, ou a codificação).
 - Controlar o processo de criar documentos eletrônicos. (Por exemplo, as expressões pode habilitar ou desabilitar a saída de elementos específicos do formato de dados, dependendo dos dados de processamento. Também pode interromper o processo de criação do documento ou enviar mensagens para os usuários.)
 
@@ -731,7 +730,7 @@ Quando essas fontes de dados forem definidas, você pode usar uma expressão com
 | FA\_BALANCE (código do ativo fixo, código de modelo de depreciação, ano do relatório, data do relatório) | Retorna o contêiner de dados preparados do saldo do ativo fixo. O ano do relatório deve ser especificado como um valor de enumeração **AssetYear** no Finance and Operations. | **FA\_SUM ("COMP-000001", "Current", AxEnumAssetYear.ThisYear, SESSIONTODAY ())** retorna o contêiner de dados preparado dos saldos para o ativo fixo **"COMP-000001"** que tem o modelo de valor **"Atual"** na data da sessão atual do Finance and Operations. |
 | TABLENAME2ID (cadeia de caracteres) | Retorna uma representação de inteiro de uma ID de tabela para o nome da tabela especificada. | **TABLENAME2ID ("Intrastat")** retorna **1510**. |
 | ISVALIDCHARACTERISO7064 (cadeia de caracteres) | Retorna o valor booliano **TRUE** quando a sequência de caracteres especificada representa um IBAN (número de conta de banco internacional) válido. Caso contrario, retorna um valor booliano **FALSE**. | **ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")** retorna **TRUE**. **ISVALIDCHARACTERISO7064 ("AT61")** retorna **FALSE**. |
-| NUMSEQVALUE (código de sequência numérica, escopo, ID do escopo) | Retorna o novo valor gerado de uma sequência numérica, com base no código de sequência numérica, no escopo e na ID do escopo especificada. O escopo deve ser especificado como um valor da enumeração **ERExpressionNumberSequenceScopeType** (**Compartilhado**, **Entidade legal** ou **Empresa**). Para o escopo **Compartilhado**, especifique uma cadeia de caracteres vazia como a ID do escopo. Para os escopos **Empresa** e **Entidade legal**, especifique o código da empresa como a ID do escopo. Para os escopos **Empresa** e **Entidade legal**, se você especificar uma cadeia de caracteres vazia como a ID do escopo, o código atual da empresa será usado. | Você define as seguintes fontes de dados no mapeamento de modelo:<ul><li>**enumScope** (tipo **enumeração do Dynamics 365 for Operations**), que se refere à enumeração **ERExpressionNumberSequenceScopeType**</li><li>**NumSeq** (tipo **Campo calculado**), que contém a expressão **NUMSEQVALUE ("Gene\_1", enumScope.Company, "")**</li></ul>Quando a fonte de dados **NumSeq** é chamada, ela retorna o novo valor gerado da sequência numérica **Gene\_1** que foi configurado para a empresa que fornece o contexto no qual o formato ER é executado. |
+| NUMSEQVALUE (código de sequência numérica, escopo, ID do escopo) | Retorna o novo valor gerado de uma sequência numérica, com base no código de sequência numérica, no escopo e na ID do escopo especificada. O escopo deve ser especificado como um valor da enumeração **ERExpressionNumberSequenceScopeType** (**Compartilhado**, **Entidade legal** ou **Empresa**). Para o escopo **Compartilhado**, especifique uma cadeia de caracteres vazia como a ID do escopo. Para os escopos **Empresa** e **Entidade legal**, especifique o código da empresa como a ID do escopo. Para os escopos **Empresa** e **Entidade legal**, se você especificar uma cadeia de caracteres vazia como a ID do escopo, o código atual da empresa será usado. | Você define as seguintes fontes de dados no mapeamento de modelo:<ul><li>**enumScope** (tipo **enumeração do Dynamics 365 for Operations**), que refere-se à enumeração **ERExpressionNumberSequenceScopeType**</li><li>**NumSeq** (tipo **Campo calculado**), que contém a expressão **NUMSEQVALUE ("Gene\_1", enumScope.Company, "")**</li></ul>Quando a fonte de dados **NumSeq** é chamada, ela retorna o novo valor gerado da sequência numérica **Gene\_1** que foi configurado para a empresa que fornece o contexto no qual o formato ER é executado. |
 | NUMSEQVALUE (código de sequência numérica) | Retorna o novo valor gerado de uma sequência numérica, com base na sequência numérica especificada, no escopo **Empresa** e (como a ID do escopo) no código da empresa que fornece o contexto em que o formato ER é executado. | Você define a seguinte fonte de dados no seu mapeamento de modelo: **NumSeq** (tipo de **Campo calculado**). Essa fonte de dados contém a expressão **NUMSEQVALUE ("Gene\_1")**. Quando a fonte de dados **NumSeq** é chamada, ela retorna o novo valor gerado da sequência numérica **Gene\_1** que foi configurado para a empresa que fornece o contexto no qual o formato ER é executado. |
 | NUMSEQVALUE (ID do registro de sequência numérica) | Retorna o novo valor gerado de uma sequência numérica, com base na ID do registro de sequência numérica especificada. | Você define as seguintes fontes de dados no mapeamento de modelo:<ul><li>**LedgerParms** (tipo **Tabela**), que se refere à tabela LedgerParameters</li><li>**NumSeq** (tipo **Campo calculado**), que contém a expressão **NUMSEQVALUE (LedgerParameters.'numRefJournalNum()'.NumberSequenceId)**</li></ul>Quando a fonte de dados **NumSeq** é chamada, ela retorna o novo valor gerado da sequência numérica que foi configurado em parâmetros de contabilidade para a empresa que fornece o contexto no qual o formato ER é executado. Esta sequência numérica identifica exclusivamente diários e funciona como o número de lote que vincula as transações juntas. |
 
@@ -743,4 +742,3 @@ ER deixa você estender a lista de funções que são usadas em expressões ER. 
 
 - [Visão geral do Relatório Eletrônico](general-electronic-reporting.md)
 - [Estender a lista de funções do ER (Relatório eletrônico)](general-electronic-reporting-formulas-list-extension.md)
-

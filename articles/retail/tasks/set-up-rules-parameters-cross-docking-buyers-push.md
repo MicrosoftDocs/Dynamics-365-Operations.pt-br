@@ -1,13 +1,13 @@
---- 
-title: "Configurar regras e parâmetros para a distribuição integrada e a compra centralizada"
+---
+title: Configurar regras e parâmetros para a distribuição integrada e a compra centralizada
 description: Este procedimento demonstra as etapas para criar regras de reabastecimento.
 author: josaw1
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailReplenishmentRuleTable, RetailReplenishmentTreeLookup
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a22756279ba316a7efd4d09c48c55e8cc98ba29d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: f3a20b7bf476cae854c7f7c86d89d73e44b6749b
-ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366319"
 ---
 # <a name="set-up-rules-and-parameters-for-cross-docking-and-buyers-push"></a>Configurar regras e parâmetros para a distribuição integrada e a compra centralizada
 
@@ -47,5 +47,4 @@ Este procedimento demonstra as etapas para criar regras de reabastecimento. As r
 13. No campo Nome, insira ou selecione um valor.
 14. No campo Peso, insira um número.
 15. Clique em Salvar.
-
 

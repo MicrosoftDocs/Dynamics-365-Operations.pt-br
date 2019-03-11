@@ -1,13 +1,13 @@
 ---
-title: "Personalizar a experiência do usuário"
-description: "Este tópico explica como é possível personalizar o Microsoft Dynamics 365 for Finance and Operations."
+title: Personalizar a experiência do usuário
+description: Este tópico explica como você pode personalizar o Microsoft Dynamics 365 for Finance and Operations.
 author: TLeforMicrosoft
 manager: AnnBe
 ms.date: 09/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserSetup, DefaultDashboard
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 53aff09746b92372bb38908a526942ebe9bb4c52
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7344f460fcb443a78b254e2387fbf5c9134bf674
-ms.openlocfilehash: 1860b603f789aabca1ca58848a88e11a6e08e31f
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363467"
 ---
-
 # <a name="personalize-the-user-experience"></a>Personalizar a experiência do usuário
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como é possível personalizar o Microsoft Dynamics 365 for Finance and Operations.
+Este tópico explica como você pode personalizar o Microsoft Dynamics 365 for Finance and Operations.
 
 Há três classes básicas de personalizações no Finance and Operations.
 
@@ -171,4 +170,3 @@ Quando você personalizar a configuração de dimensões de estoque em uma pági
 As configurações de **Exibição de dimensão** se aplicam a todas as páginas e substituem qualquer configuração personalizada de campos de dimensão de estoque em páginas individuais.
 
 Como resultado, no exemplo anterior, se você não deseja que a coluna da dimensão de estoque do número de lote seja exibida, limpe essa dimensão como parte da opção **Exibir dimensões** da tabela. Com o tempo, essa alteração se aplicará não apenas a uma página específica mas a todas as páginas.
-

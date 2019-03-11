@@ -1,13 +1,13 @@
 ---
-title: "Reavaliação de moeda estrangeira para Contas a pagar e Contas a receber"
-description: "As flutuações nas taxas de câmbio fazem com que o valor teórico (valor contábil) de transações abertas em moedas estrangeiras varie ao longo do tempo. Este artigo oferece informações sobre o processo de reavaliação de moeda estrangeira executado para atualizar o valor de transação abertas em Contas a pagar e em Contas a receber."
+title: Reavaliação de moeda estrangeira para Contas a pagar e Contas a receber
+description: As flutuações nas taxas de câmbio fazem com que o valor teórico (valor contábil) de transações abertas em moedas estrangeiras varie ao longo do tempo. Este artigo oferece informações sobre o processo de reavaliação de moeda estrangeira executado para atualizar o valor de transação abertas em Contas a pagar e em Contas a receber.
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustExchRateAdjustment, VendExchRateAdjustment
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: da1aee4c678cb4786d52abc81b787edceaa5aa38
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 259b487b0f11b19af9609d63f12114dcaa61be52
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341318"
 ---
-
 # <a name="foreign-currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Reavaliação de moeda estrangeira para Contas a pagar e Contas a receber
 
 [!include [banner](../includes/banner.md)]
@@ -63,7 +62,6 @@ Um registro é mantido sempre que você execute uma reavaliação de moeda estra
     -   **Nenhuma** – nenhuma dimensão financeira é lançada. Se você tiver uma dimensão financeira exigida na estrutura da conta, o processo de reavaliação ainda será executado e criará as entradas contábeis sem dimensões financeiras. Você receberá uma mensagem de aviso primeiro para depois poder cancelar a reavaliação.
     -   **Tabela** – as dimensões financeiras da conta do cliente ou na conta do fornecedor são lançadas nas transações de reavaliação de moeda estrangeira.
     -   **Lançamento** – as dimensões financeiras da transação que estão sendo reavaliadas são lançadas nas transações de reavaliação de moeda estrangeira. Por padrão, as dimensões financeiras da conta contábil AR/AP da transação original serão usadas para a conta principal AR/AP da transação de reavaliação, e as dimensões financeiras da conta contábil de despesa/ativo/receita da transação original serão usadas para a conta principal de lucros/perdas não realizados da transação de reavaliação.
-
 
 
 

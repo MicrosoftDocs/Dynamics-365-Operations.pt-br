@@ -1,13 +1,13 @@
 ---
-title: "Opções avançadas de formatação no relatório financeiro"
-description: "Quando você cria um relatório no relatório financeiro, funções adicionais de formatação são disponibilizadas, incluindo filtros de dimensões, restrições de colunas e unidades de relatório, linhas não imprimíveis, e instruções IF/THEN/ELSE nos cálculos."
+title: Opções avançadas de formatação no relatório financeiro
+description: Quando você cria um relatório no relatório financeiro, funções adicionais de formatação são disponibilizadas, incluindo filtros de dimensões, restrições de colunas e unidades de relatório, linhas não imprimíveis, e instruções IF/THEN/ELSE nos cálculos.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 8c95f3bfc33730fcf03bd65cd1e66ec104f1e236
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335568"
 ---
-
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Opções avançadas de formatação no relatório financeiro
 
 [!include [banner](../includes/banner.md)]
@@ -209,14 +208,14 @@ Neste exemplo, a fórmula de cálculo **@100+@330** significa que o valor da lin
 
 | Código de Linha | Descrição                 | Código de Formato | Fórmulas/Linhas/Unidades Relacionadas | Controle de impressão | Modificador de linha | Link para Dimensões Financeiras |
 |----------|-----------------------------|-------------|----------------------------|---------------|--------------|------------------------------|
-| 340      | Dinheiro no Início do Período |             |                            | NP            | BB           | +Account=\[1100:1110\]       |
-| 370      | Dinheiro no Início do Ano   | CAL         | @100+@330                  | NP            |              |                              |
-| 400      | Dinheiro no Início do Período | TOT         | 340+370                    |               |              |                              |
+| 340      | Dinheiro no início do período |             |                            | NP            | BB           | +Account=\[1100:1110\]       |
+| 370      | Dinheiro no início do ano   | CAL         | @100+@330                  | NP            |              |                              |
+| 400      | Dinheiro no início do período | TOT         | 340+370                    |               |              |                              |
 
 Quando a linha em uma definição de linha tem um código de formato **CAL**, e você insere um cálculo matemático na célula **Fórmulas/Linhas/Unidades Relacionadas**, também deve inserir a letra da coluna e da linha associadas no relatório. Por exemplo, insira **A.120** para representar a coluna A, linha 120. Outra alternativa é usar um arroba (@) para indicar todas as colunas. Por exemplo, insira **@120** para representar todas as colunas da linha 120. Qualquer cálculo matemático sem uma letra de coluna ou um arroba (@) é considerado como um número real.
 
 > [!NOTE]
-> Se você usar um código da linha de rótulo para referenciar uma linha, use um ponto (.) como separador entre a letra da coluna e o rótulo (por exemplo, **A.GROSS\_MARGIN/A.SALES**). Se você usa um arroba (a), um separador não é necessário (por exemplo, **@GROSS\_MARGIN/@SALES**).
+> Se você usar um código da linha de rótulo para referenciar uma linha, use um ponto (.) como separador entre a letra da coluna e o rótulo (por exemplo, **A.GROSS\_MARGIN/A.SALES**). Se você usar um sinal de arroba (@), um separador não será necessário (por exemplo, **@GROSS\_MARGIN/@SALES**)
 
 ### <a name="example-of-a-calculation-formula-for-a-specific-column"></a>Exemplo de uma fórmula de cálculo para uma coluna específica
 
@@ -281,7 +280,7 @@ A linha de cálculo pode se referir a uma linha de cálculo ou a uma linha de da
 
 - Inserir um nome de unidade para incluir unidades que coincidam. Por exemplo, **IF @Unit(SALES)** permite que o cálculo para cada unidade seja chamado de SALES, mesmo que existam várias unidades SALES na árvore de relatório.
 - Insira a empresa e o nome da unidade para restringir o cálculo a unidades específicas em uma empresa específica. Por exemplo, insira **IF @Unit(ACME:SALES**) para restringir o cálculo a unidades SALES na empresa ACME.
-- Insira o código completo da hierarquia de hierarquia organizacional para restringir o cálculo a uma unidade específica. Por exemplo, insira **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**.
+- Insira o código completo da hierarquia da árvore de relatório para restringir o cálculo a uma unidade específica. Por exemplo, insira **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**.
 
 > [!NOTE]
 > Para localizar o código completo da hierarquia, clique com o botão direito do mouse na definição da hierarquia organizacional e selecione **Copiar identificador da unidade organizacional (código H)**.
@@ -298,4 +297,3 @@ Uma instrução **IF/THEN/ELSE** permite que o cálculo dependa dos resultados d
 
 > [!NOTE]
 > Você não pode inserir os resultados de um cálculo em outra coluna. Os resultados devem estar na coluna que contém a fórmula.
-

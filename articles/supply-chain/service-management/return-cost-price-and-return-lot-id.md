@@ -1,31 +1,30 @@
 ---
-title: "Devolução do preço de custo e do ID do lote"
-description: "Talvez você queira que o custo dos produtos devolvidos seja igual ao custo dos produtos no momento em que você os vende ao cliente. Você pode fazer isso usando **Retornar a ID de lote**."
+title: Devolução do preço de custo e do ID do lote
+description: Talvez você queira que o custo dos produtos devolvidos seja igual ao custo dos produtos no momento em que você os vende ao cliente. Você pode fazer isso usando **Retornar a ID de lote**.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/30/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 33cd3d50fe342ba12a17419f4e759c243a60b3e0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: aeba56128ab6c9ab7d244bdf153faba8e96069d6
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335131"
 ---
-
 # <a name="return-cost-price-and-return-lot-id"></a>Devolução do preço de custo e do ID do lote        
 
 [!include [banner](../includes/banner.md)]
@@ -109,7 +108,6 @@ Quando você usa o campo **ID do lote devolvido** em uma linha da ordem de devol
 10. No Gerenciamento de estoque e depósito, use o formulário **Fechamento e ajuste** para executar o procedimento **3. Fechar**.
     
     Essa ação ajusta o custo na linha de venda original que foi orçado a -35,00 (5 peças \* 7,00) para -30,00 (5 peças \* 6,00). Isso porque o grupo de modelos de estoque usa o processo FIFO (primeiro a entrar, primeiro a sair) e 6,00 por peça é o custo FIFO a partir da primeira ordem de compra. Além disso, a ação ajusta o custo na linha de venda de devolução para corresponder ao custo por peça na linha de venda original. Portanto, o custo da linha de devolução é ajustado de 35,00 para 30,00.
-
 
 
 

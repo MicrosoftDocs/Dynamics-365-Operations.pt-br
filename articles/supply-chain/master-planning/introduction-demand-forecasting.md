@@ -1,13 +1,13 @@
 ---
-title: "Visão geral da previsão de demanda"
-description: "A previsão de demanda é usada para prever a demanda independente nas ordens de venda e a demanda dependente em qualquer ponto de dissociação das ordens dos clientes. As regras aprimoradas de redução de previsão de demanda oferecem uma solução ideal para a personalização em massa."
+title: Visão geral da previsão de demanda
+description: A previsão de demanda é usada para prever a demanda independente nas ordens de venda e a demanda dependente em qualquer ponto de dissociação das ordens dos clientes. As regras aprimoradas de redução de previsão de demanda oferecem uma solução ideal para a personalização em massa.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a645ee6f7e6085abc6e872d490b078f512c15aa1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 20eb67a341f462328bc73907fb3052b3405190d4
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309992"
 ---
-
 # <a name="demand-forecasting-overview"></a>Visão geral da previsão de demanda
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,7 @@ Os três temas principais são implementados na previsão de demanda:
 -   **Reutilização da pilha da Microsoft** – O Microsoft iniciou a plataforma Aprendizado de Máquina em fevereiro de 2015. O Aprendizado de Máquina, que agora faz parte da Microsoft Cortana Analytics Suite, permite criar rápida e facilmente experimentos de análise preditiva, como experiências de estimativa de demanda, usando linguagens de programação R ou Python e uma interface simples de arrastar e soltar.
     -   Você pode baixar experimentos de previsão de demanda do Finance and Operations, alterá-los para atender às suas necessidades de negócios, publicá-los como um serviço Web no Azure e usá-los para gerar previsões de demanda. Os experimentos estarão disponíveis para download se você tiver adquirido uma assinatura do Finance and Operations para um planejador de produção como usuário em nível empresarial.
     -   Você pode baixar qualquer experimento de previsão de demanda atualmente disponível na [Galeria de Análise da Cortana](https://gallery.cortanaanalytics.com/). Desde que os experimentos de previsão de demanda do Finance and Operations sejam automaticamente integrados ao Finance and Operations, os clientes e parceiros devem tratar a integração dos experimentos baixados da [Galeria de Análise da Cortana](https://gallery.cortanaanalytics.com/). Portanto, os experimentos da [Galeria de Análise da Cortana](https://gallery.cortanaanalytics.com/) não são tão simples de usar quanto os experimentos de previsão de demanda do Finance and Operations. Você deve modificar o código dos experimentos de modo que eles usem a API (interface de programação de aplicativo) do Finance and Operations.
-    -   Você pode criar seus próprios experimentos no Estúdio de Aprendizado de Máquina do Microsoft Azure, publicá-los como serviços no Azure e usá-los para gerar previsões de demanda.
+    -   Você pode criar seus próprios experimentos no Machine Learning Studio do Microsoft Azure , publicá-los como serviços no Azure e usá-los para gerar previsões de demanda.
     -   Se você não precisar de alto desempenho ou que uma grande quantidade de dados seja processada, use a camada gratuita do Aprendizado de Máquina. É recomendável que você sempre comece nessa camada, especialmente durante as fases de implementação e de teste. Se você precisar de desempenho mais alto e de armazenamento adicional, poderá usar a camada padrão do Aprendizado de Máquina. Essa camada requer uma assinatura do Azure e envolve custos adicionais. Para obter detalhes sobre os preços do Aprendizado de Máquina, consulte <http://aka.ms/machine-learning-price-info>.
 -   **Redução de previsão em qualquer ponto de dissociação** – A previsão de demanda no Finance and Operations baseia-se nessa funcionalidade, que permite prever a demanda dependente e independente em qualquer ponto de dissociação.
 
@@ -61,7 +60,7 @@ O diagrama a seguir mostra o fluxo básico da previsão de demanda.
 
 [![diagrama de introdução da previsão de demanda](./media/demand-forecasting-introduction.png)](./media/demand-forecasting-introduction.png)
 
-A geração de previsão de demanda começa no Finance and Operations. Os dados transacionais históricos do banco de dados transacional do Finance and Operations são coletados e preenchem uma tabela de preparo. Essa tabela de preparo é alimentada posteriormente em um serviço de Aprendizado de Máquina. Ao executar um mínimo de personalização, você pode obstruir várias fontes de dados na tabela de preparo. As fontes de dados podem incluir arquivos do Microsoft Excel, arquivos CSV (valores separados por vírgulas) e dados do Microsoft Dynamics AX 2009 e Microsoft Dynamics AX 2012. Portanto, você pode gerar as previsões de demanda que considera os dados históricos que são difundidos entre vários sistemas. No entanto, os dados mestres, como nomes de itens e unidades de medida, devem ser iguais nas várias fontes de dados.
+A geração de previsão de demanda começa no Finance and Operations. Os dados transacionais históricos do banco de dados transacional do Finance and Operations são coletados e preenchem uma tabela de preparo. Essa tabela de preparo é alimentada posteriormente em um serviço de Aprendizado de Máquina. Ao executar um mínimo de personalização, você pode obstruir várias fontes de dados na tabela de preparo. As fontes de dados podem incluir arquivos do Microsoft Excel , arquivos (CSV) de valores separados por vírgulas e dados do Microsoft Dynamics AX 2009 e Microsoft Dynamics AX 2012. Portanto, você pode gerar as previsões de demanda que considera os dados históricos que são difundidos entre vários sistemas. No entanto, os dados mestres, como nomes de itens e unidades de medida, devem ser iguais nas várias fontes de dados.
 
 Se você usar os experimentos de Aprendizado de Máquina da previsão de demanda do Finance and Operations, eles procurarão um melhor ajuste entre cinco métodos de previsão de série de tempo para calcular uma previsão estatística. Os parâmetros desses métodos de previsão são gerenciados no Finance and Operations. 
 
@@ -88,7 +87,6 @@ A previsão de demanda no Finance and Operations é uma ferramenta que ajuda os
 [Remover exceções de dados históricos de transação ao calcular uma previsão de demanda](remove-historical-outliers-calculating-demand-forecast.md)
 
 [Estender a funcionalidade de previsão de demanda](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "ER Usar dimensões financeiras como uma fonte de dados (Parte 2 - Mapeamento de modelo)"
-description: "As etapas a seguir explicam como um usuário atribuído ao administrador do sistema ou função do desenvolvedor de relatório eletrônico pode configurar um modelo de relatório eletrônico (ER) para usar dimensões financeiras como uma fonte de dados para relatórios ER."
+---
+title: ER Usar dimensões financeiras como uma fonte de dados (Parte 2 - Mapeamento de modelo)
+description: As etapas a seguir explicam como um usuário atribuído ao administrador do sistema ou função do desenvolvedor de relatório eletrônico pode configurar um modelo de relatório eletrônico (ER) para usar dimensões financeiras como uma fonte de dados para relatórios ER.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 92efd6a0b36471286c292a80542b81cd14a8eff3
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319583"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2-model-mapping"></a>O ER usa dimensões financeiras como uma fonte de dados (parte 2: mapeamento de modelo)
 
@@ -43,7 +43,7 @@ Para concluir essas etapas, você deve primeiro concluir as etapas no procedimen
 8. No campo Descrição, digite "Mapeamento de dados de dimensão".
 9. Clique em Salvar.
 10. Clique em Designer.
-11. Na árvore, selecione "Dynamics 365 for Operations\Tabela".
+11. Na árvore, selecione 'Dynamics 365 for Operations\Tabela'.
 12. Clique em Adicionar raiz.
 13. No campo Nome, digite 'Empresa'.
 14. No campo Tabela, digite 'CompanyInfo'.
@@ -59,7 +59,7 @@ Para concluir essas etapas, você deve primeiro concluir as etapas no procedimen
 21. Selecione Sim no campo Pedir conta principal.
     * Defina "Pedir para conta principal" como Sim para permitir que os usuários selecionem a conta principal como parte da lista de dimensões.   Se definido como Não, a conta principal não será incluída na lista de dimensões e a opção "Conta principal obrigatória" é ativada. Se "Conta principal obrigatória" é definido como Sim, inclui a conta principal na lista de dimensões independentemente da seleção do usuário.  
 22. Clique em OK.
-23. Na árvore, selecione "Dynamics 365 for Operations\Registros da tabela".
+23. Na árvore, selecione 'Dynamics 365 for Operations\Registros da tabela'.
 24. Clique em Adicionar raiz.
 25. No campo Nome, digite "LedgerJournal".
 26. Selecione Sim no campo Pedir consulta.
@@ -143,5 +143,4 @@ Para concluir essas etapas, você deve primeiro concluir as etapas no procedimen
 3. Clique em Alterar status.
 4. Clique em Concluir.
 5. Clique em OK.
-
 

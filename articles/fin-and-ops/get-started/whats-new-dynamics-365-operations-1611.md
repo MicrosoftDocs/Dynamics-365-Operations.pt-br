@@ -1,13 +1,13 @@
 ---
-title: "Novidades ou alterações na versão 1611 do Dynamics 365 for Operations (novembro de 2016)"
-description: "Este tópico descreve os recursos novos ou alterados na versão 1611 do Dynamics 365 for Operations."
+title: Novidades ou alterações no Dynamics 365 for Operations versão 1611 (novembro de 2016)
+description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 for Operations versão 1611.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7e907813323ef6b1c8b83675be75456f5844fa0a
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339064"
 ---
-
-# <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Novidades ou alterações na versão 1611 do Dynamics 365 for Operations (novembro de 2016)
+# <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Novidades ou alterações no Dynamics 365 for Operations versão 1611 (novembro de 2016)
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve os recursos novos ou alterados na versão 1611 do Dynamics 365 for Operations.
+Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 for Operations versão 1611.
 
 ## <a name="cost-accounting"></a>Contabilização de custos
 
@@ -101,7 +100,7 @@ Este tópico descreve os recursos novos ou alterados na versão 1611 do Dynamics
 </tr>
 <tr>
 <td>Criar relatórios usando o Excel.
-<blockquote>[!NOTE] É necessário executar o Microsoft Excel 2016.</blockquote>
+<blockquote>[!NOTE] Você deve executar o Microsoft Excel 2016.</blockquote>
 </td>
 <td>Você pode exportar dados de contabilização de custos diretamente para o Excel por meio das entidades de dados e usar a Microsoft PivotTable para criar relatórios.</td>
 </tr>
@@ -621,17 +620,17 @@ Este tópico descreve os recursos novos ou alterados na versão 1611 do Dynamics
 | O que você pode fazer | Por que isso é importante |
 |-----------------|-----------------------|
 | Configurar relatórios de ER para inserir dados, em vários formatos, de armazenamento de gerenciamento de documentos para mensagens eletrônicas geradas. | Os relatórios de ER inserem dados nas mensagens eletrônicas que são geradas no armazenamento de gerenciamento de documentos. Portanto, os anexos de um documento comercial podem ser adicionados às mensagens eletrônicas geradas para esse documento, de acordo com os requisitos legais. Atualmente, esses anexos podem ser adicionados no formato MIME para uma mensagem XML que foi gerada. Como alternativa, os anexos podem ser adicionados no formato Base64 a uma mensagem binária gerada. |
-| Configurar relatórios de ER para gerar documentos eletrônicos em Excel, Microsoft Word ou formato PDF. | Uma configuração habilita relatórios de ER a gerar documentos eletrônicos em três diferentes formatos: planilha OpenXML (Excel), Word e formato de dados de formulários XML (XFDF) (PDF). Os usuários podem selecionar um formato adicionando um modelo de formato a uma relatório de ER como documento do Excel, Word ou em PDF. |
+| Configurar relatórios de ER para gerar documentos eletrônicos em formato Excel, Microsoft Word ou PDF. | Uma configuração habilita relatórios de ER a gerar documentos eletrônicos em três diferentes formatos: planilha OpenXML (Excel), Word e formato de dados de formulários XML (XFDF) (PDF). Os usuários podem selecionar um formato adicionando um modelo de formato a uma relatório de ER como documento do Excel, Word ou em PDF. |
 | Configurar relatórios de ER para inserir dados nos cabeçalhos e rodapés de documentos eletrônicos de uma página gerados no formato de uma planilha OpenXML, além de controlar quebras de página. | Relatórios de ER podem inserir dados comerciais nos cabeçalhos e rodapés de uma página, bem como controlar onde ocorrem quebras de página. Sendo assim, os relatórios podem permitir seções estáticas nas partes superior e inferior dos documentos eletrônicos que são gerados. Também podem permitir paginação específica desses documentos para estarem em conformidade com os requisitos legais. |
 | Configurar o destino dos relatórios de ER para que a saída seja enviada como email e para que os dados comerciais e a lógica de ER (expressões) possam ser usados para especificar, no momento da execução, o endereço de email a ser usado. | Anteriormente, ao configurar um destino de ER, era possível definir o endereço de email do destinatário de saída no momento da criação. Agora é possível configurar uma expressão no formato de ER. Essa expressão pode ser selecionada em um destino como a origem do endereço de email de cada configuração de formato e componente de saída (pasta ou arquivo) separadamente. Portanto, durante a execução de um relatório de ER, cada arquivo gerado pode ser enviado para um destinatário diferente, e o endereço de email pode ser definido com base na lógica e nos dados comerciais de ER. |
-| Configurar o destino dos relatórios de ER para que a saída seja enviada para a pasta do Microsoft SharePoint como um novo arquivo nomeado ou uma nova versão do arquivo existente e para que os dados comerciais possam ser usados na estrutura do Microsoft Power BI como um conjunto de dados ou um relatório. | Atualmente, ao configurar relatórios de ER, é possível preparar facilmente (em codificação) os dados comerciais solicitados para que possam ser usados pela estrutura do Power BI. Ao executar esses relatórios de ER, é possível fornecer à estrutura do Power BI os dados comerciais apropriados e/ou relatórios do Excel que já estão disponíveis. Ao programar as execuções de relatório de modo recorrente, você pode estabelecer o envio agendado de dados comerciais do Dynamics 365 for Operations para o Power BI para permitir o agendamento de atualização dos relatórios baseados no Power BI. |
+| Configurar o destino dos relatórios de ER para que a saída seja enviada para a pasta do Microsoft SharePoint como um novo arquivo nomeado ou uma nova versão do arquivo existente e para que os dados comerciais possam ser usados na estrutura do Microsoft Power BI como um conjunto de dados ou um relatório. | Atualmente, ao configurar relatórios de ER, é possível preparar facilmente (sem codificação) os dados comerciais solicitados para que possam ser usados pela estrutura do Power BI. Ao executar esses relatórios de ER, é possível fornecer à estrutura do Power BI os dados comerciais apropriados e/ou relatórios do Excel que já estão disponíveis. Ao programar as execuções de relatório de modo recorrente, você pode estabelecer o envio agendado de dados comerciais do Dynamics 365 for Operations para o Power BI para permitir o agendamento de atualização dos relatórios baseados no Power BI. |
 | Configurar relatórios de ER para usar a parte do documento eletrônico que já foi gerado como uma fonte de dados para gerar o restante desse documento. | Você pode configurar relatórios de ER que criam a saída no formato de texto para fazer a contagem de linhas do documento. Depois, as informações podem ser usadas em outras partes do documento para criar linhas incluindo detalhes de resumo. As informações de resumo (totais e números) podem ser computadas e impressas nos documentos eletrônicos gerados, sem a necessidade de transformações adicionais dos dados. Portanto, esse recurso melhora o desempenho da execução do relatório e permite que a manutenção futura do formato de ER configurado continue mais fácil. |
 | Configurar relatórios de ER para especificar a extensão de nome de arquivo dos documentos eletrônicos gerados no formato do texto. | Você pode configurar relatórios de ER para criar a saída em formato de texto para que ela possa ser salva como um arquivo com uma extensão específica. Além da extensão .txt padrão, é possível configurar extensões como .csv e .prn, de acordo com a especificação de formato. |
 | Criar relatórios de ER baseados em uma versão específica de um modelo de ER. | Anteriormente, durante a criação de um formato de ER, só era possível usar a versão mais recente do modelo de ER selecionado como local de origem dos dados do formato. Agora é possível selecionar qualquer versão disponível do modelo de ER selecionado. Esse recurso permite que você mantenha relatórios de ER do ano atual e crie paralelamente uma versão do modelo de ER do próximo ano. |
 | Pesquisar fontes de dados e formatos/modelos por texto ou artefato selecionado com apenas um clique. Resolver proativamente conflitos de rebase e conflitos entre configurações. Configurar relatórios de ER para criar várias mensagens de validação para erros descobertos até a execução de relatório ser interrompida. | Várias melhorias na experiência de usuário (UX) na estrutura de ER ajudam os usuários a trabalhar com ER de forma mais eficiente e fácil. |
-| Mostrar o espaço de trabalho **ER** no relatórios do Power BI. | Os usuários podem configurar a página **Espaço de trabalho ER** para que ela inclua novos itens de menu e blocos dinâmicos que executem relatórios baseados no Power BI. |
+| Mostrar o espaço de trabalho **ER** em relatórios do Power BI. | Os usuários podem configurar a página **Espaço de trabalho ER** para que ela inclua novos itens de menu e blocos dinâmicos que executem relatórios baseados no Power BI. |
 
-## <a name="payroll"></a>Folha de pagamento
+## <a name="payroll"></a>Folha de Pagamento
 
 <table>
 <thead>
@@ -657,7 +656,7 @@ Este tópico descreve os recursos novos ou alterados na versão 1611 do Dynamics
 </tr>
 <tr>
 <td>Gerar arquivos de pagamento positivo para verificações de folha de pagamento.</td>
-<td>Há uma nova extensão para a funcionalidade de pagamento positivo de gerenciamento de caixa e bancos para pagamentos da folha de pagamento. Itens de menu separados foram adicionados por meio do processo principal para permitir configuração isolada específica para folha de pagamento. A funcionalidade é idêntica ao recurso de pagamento positivo principal que foi liberado na versão de aplicativo 7.0.1 do Microsoft Dynamics AX (maio de 2016). Por causa dessa extensão, os dados de folha de pagamento são totalmente isolados do resto das suas transações de pagamento positivo. Tal isolamento ajuda a garantir que somente usuários de folha de pagamento possam acessar e verificar os dados relacionados à folha de pagamento.</td>
+<td>Há uma nova extensão para a funcionalidade de pagamento positivo de gerenciamento de caixa e bancos para pagamentos da folha de pagamento. Itens de menu separados foram adicionados por meio do processo principal para permitir configuração isolada específica para folha de pagamento. A funcionalidade é idêntica ao recurso de pagamento positivo principal que foi liberado no aplicativo do Microsoft Dynamics AX versão 7.0.1 (maio de 2016). Por causa dessa extensão, os dados de folha de pagamento são totalmente isolados do resto das suas transações de pagamento positivo. Tal isolamento ajuda a garantir que somente usuários de folha de pagamento possam acessar e verificar os dados relacionados à folha de pagamento.</td>
 </tr>
 <tr>
 <td>Importar linhas de demonstrativo de ganhos de uma fonte externa utilizando a nova entidade de dados de linhas do demonstrativo de ganhos.</td>
@@ -748,7 +747,7 @@ Comércio de canal omni completo refere-se a gerenciamento e processamento de or
 |-----------------|-----------------------|
 | Consumidor: a versão atual do aplicativo para dispositivo móvel voltado ao consumidor permite que os recursos (pesquisa de produto e procura por categoria) adicionem ao carrinho e finalizem compras como convidado. Os varejistas também podem aplicar as marcas das suas empresas ao aplicativo e depois disponibilizá-lo nas lojas de aplicativos do Android e iOS. | Os varejistas podem criar facilmente aplicativos voltados para o consumidor que permitem ao cliente procurar produtos e remetê-los como convidado em seus dispositivos móveis. |
 | Listas de desejo do cliente para lojas online de comércio colaborativo | Os fornecedores de software independentes (ISVs) podem usar o controle de listas de desejo para permitir que os usuários criem e gerenciem várias listas na sua loja online, além de exibir/usar essas listas no PDV. |
-| Criação assíncrona de cliente por meio de lojas online de comércio eletrônico | Os ISVs agora podem criar contas de clientes mesmo quando o Commerce Data Exchange: Real-time Service está indisponível. |
+| Criação assíncrona de cliente por meio de lojas online de comércio eletrônico | Os ISVs agora podem criar contas de clientes mesmo quando o Commerce Data Exchange: Real-time Service não está indisponível. |
 | Publicar produtos de canal do Retail Server para lojas de terceiros. | Atualmente, o Retail Server é compatível com a autenticação de serviço a serviço. Os ISVs podem aproveitar a publicação de produtos do canal do Retail Server para lojas de terceiros. |
 
 ### <a name="extensibility"></a>Extensibilidade
@@ -764,7 +763,7 @@ Comércio de canal omni completo refere-se a gerenciamento e processamento de or
 
 | O que você pode fazer | Por que isso é importante |
 |-----------------|-----------------------|
-| Visualize recomendações personalizadas de produtos em vários pontos de contato no ponto de venda (PDV) para determinar o que um cliente pode estar interessado, com base em seu histórico de compras, itens na lista de desejos e itens que outros clientes compraram online e em lojas físicas. | Para os varejistas com grandes catálogos, recomendações personalizadas ajudam o cliente com a descoberta de produtos e capacitam os associados da loja com clientela inteligente. Ao exibir produtos voltados aos interesses e hábitos de compra de determinado público, as recomendações do produto podem ajudar os varejistas com a venda adicional e podem aumentar a retenção de cliente. No Microsoft Dynamics 365 for Retail, recomendações de produto são suportadas por serviços cognitivos e aprendizagem de máquina do Microsoft Azure. |
+| Visualize recomendações personalizadas de produtos em vários pontos de contato no ponto de venda (PDV) para determinar o que um cliente pode estar interessado, com base em seu histórico de compras, itens na lista de desejos e itens que outros clientes compraram online e em lojas físicas. | Para os varejistas com grandes catálogos, recomendações personalizadas ajudam o cliente com a descoberta de produtos e capacitam os associados da loja com clientela inteligente. Ao exibir produtos voltados aos interesses e hábitos de compra de determinado público, as recomendações do produto podem ajudar os varejistas com a venda adicional e podem aumentar a retenção de cliente. No Microsoft Dynamics 365 for Retail, as recomendações do produto são habilitadas pelos serviços cognitivos e aprendizado de máquina do Microsoft Azure. |
 
 ### <a name="pos-task-recorder"></a>Gravador de tarefas do PDV
 
@@ -783,9 +782,9 @@ O sistema de armazenamento é uma opção de implantação para varejistas que a
 - O Retail Server e o banco de dados da loja estão na loja, juntamente com o serviço Async Client.
 - O Retail Server na loja comunica-se diretamente com o Application Object Server (AOS) na matriz para o sistema de armazenamento.
 - Suportar vários cenários entre terminais quando não há conectividade com a matriz.
-- O Retail Modern POS e o PDV em Nuvem sempre se comunicam com o Retail Server na loja.
-- Suportar o Retail Modern POS e o PDV em Nuvem quando não há conectividade com a matriz.
-- Suportar um banco de dados offline específico do Retail Modern POS (isolado para cada instância do Retail Modern POS) quando não há conectividade com a matriz.
+- O Retail Modern POS e o Cloud POS sempre se comunicam com o Retail Server na loja.
+- Dar suporte ao Retail Modern POS e o Cloud POS quando não houver conectividade com a matriz.
+- Dar suporte a um banco de dados offline específico do Retail Modern POS (isolado para cada instância do Retail Modern POS) quando não houver conectividade com a matriz.
 - A autenticação é baseada apenas em serviço a serviço para o sistema de armazenamento.
 - As chamadas de serviços em tempo real não são suportadas se não houver conectividade com a Internet.
 - A conectividade de banco de dados direta do Retail Modern POS com o banco de dados do canal não é suportada.
@@ -796,14 +795,14 @@ O sistema de armazenamento é uma opção de implantação para varejistas que a
 | Um varejista baixa o instalador do serviço de autoatendimento do sistema de armazenamento da página do banco de dados do canal na matriz do Dynamics AX e depois o arquivo de configuração. | O varejista pode baixar facilmente o pacote de autoatendimento. |
 | Uma varejista instala o sistema de armazenamento usando o instalador de autoatendimento. | O varejista pode instalar o sistema de armazenamento usando o pacote de autoatendimento. |
 | O gerente de TI configura o sistema de armazenamento no Dynamics 365 for Operations (banco de dados do canal, perfil do canal, armazenamento e pacote implantável). | O gerente de TI pode configurar o armazenamento de forma fácil e eficiente. |
-| O varejista opera o Retail Modern POS na armazenamento local e pode realizar operações em tempo real, como emissão de vale presente, quando há conectividade. | O varejista pode realizar ações em tempo real no sistema de armazenamento quando há conectividade. |
+| O varejista opera o Retail Modern POS no armazenamento local e pode realizar operações em tempo real, como emissão de vale presente, quando há conectividade. | O varejista pode realizar ações em tempo real no sistema de armazenamento quando há conectividade. |
 | O varejista pode sincronizar os dados no sistema de armazenamento local com a matriz sempre que houver conectividade. | O varejista pode sincronizar com e no sistema de armazenamento quando há conectividade. |
 | O varejista pode ter comunicação segura entre o sistema de armazenamento local e a matriz. | O varejista pode se comunicar de forma segura a partir do sistema de armazenamento quando há conectividade. |
 | O gerente de TI e o Microsoft Operations podem monitorar e fazer relatórios sobre o sistema de armazenamento local (diagnósticos e alterações de relatórios). | O gerente de TI e o Microsoft Operations podem monitorar o sistema de armazenamento e solucionar problemas de forma eficiente. |
 
-### <a name="universal-windows-platform-app-for-retail-modern-pos"></a>Aplicativo da Plataforma Universal do Windows para Retail Modern POS
+### <a name="universal-windows-platform-app-for-retail-modern-pos"></a>Aplicativo da plataforma universal do Windows do Retail Modern POS
 
-Atualmente, o Retail Modern POS está disponível apenas como um aplicativo do Windows 8.1 para computadores desktop e tablets e como PDV em Nuvem para navegadores de desktop ou tablet. Nessa versão, o Retail Modern POS está sendo convertido para o aplicativo do Plataforma Universal do Windows. Essa alteração permitirá que o Retail Modern POS seja executado em qualquer dispositivo do Windows 10 (desktop, tablet ou telefone) e até mesmo alterne entre exibições de dispositivos habilitado para Continuum.
+Atualmente, o Retail Modern POS está disponível apenas como um aplicativo do Windows 8.1 para computadores desktop e tablets e como Cloud POS para navegadores de desktop ou tablet. Nessa versão, o Retail Modern POS está sendo convertido para o aplicativo do Plataforma Universal do Windows. Essa alteração permitirá que o Retail Modern POS seja executado em qualquer dispositivo do Windows 10 (desktop, tablet ou telefone) e até mesmo alterne entre exibições de dispositivos habilitado para Continuum.
 
 | O que você pode fazer | Por que isso é importante |
 |-----------------|-----------------------|
@@ -819,7 +818,7 @@ Atualmente, o Retail Modern POS está disponível apenas como um aplicativo do W
 | Como fornecedor, obter informações sobre a quantidade de estoque em consignação que é transferido para o cliente. | Para cobrar um cliente, o fornecedor precisa de informações sobre as matérias-primas que foram compradas do estoque em consignação e sobre a data da compra. O fornecedor também pode monitorar o estoque disponível no site do cliente usando a interface de colaboração de fornecedor. |
 | Mover o estoque de propriedade do fornecedor usando um diário de transferência. | Para rastrear a posição física do estoque de propriedade do fornecedor, você deve ser capaz de registrar a posição no sistema. Usando um diário de transferência, você pode registrar a movimentação física do estoque, como a movimentação de um local em um depósito para outro local nesse depósito. |
 | Ajustar o estoque de propriedade do fornecedor usando o diário de contagem. | É importante que você mantenha o estoque de sistema disponível em sincronia com o estoque físico real. O estoque de propriedade do fornecedor pode ser ajustado interna e externamente por meio de processos de contagem, como ajuste de quantidade e processos de diário de contagem. |
-| Saiba mais sobre suporte de consignação no Dynamics 365 for Operations | Para obter mais informações sobre o suporte para processos de consignação, consulte [Consignação](../../supply-chain/inventory/consignment.md), [Configurando consignação](../../supply-chain/inventory/set-up-consignment.md), [Criar uma ordem de reabastecimento de consignação (guia de tarefas)](../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) e [Alterar a propriedade de estoque de remessa com base na demanda de produção (guia de tarefas)](../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
+| Saiba mais sobre o suporte de consignação no Dynamics 365 for Operations | Para obter mais informações sobre o suporte para processos de consignação, consulte [Consignação](../../supply-chain/inventory/consignment.md), [Configurando consignação](../../supply-chain/inventory/set-up-consignment.md), [Criar uma ordem de reabastecimento de consignação (guia de tarefas)](../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) e [Alterar a propriedade de estoque de remessa com base na demanda de produção (guia de tarefas)](../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
 
 ### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>Colaboração do fornecedor (antes conhecida como o portal do fornecedor)
 
@@ -828,7 +827,7 @@ Atualmente, o Retail Modern POS está disponível apenas como um aplicativo do W
 | Habilitar fornecedores para responder a cada linha de ordem de compra e sugerir alterações. | Em alguns casos, os fornecedores desejam aceitar algumas linhas de ordem de compra, mas rejeitar outras. Agora os fornecedores podem gerenciar individualmente linhas de ordem de compra. Cada linha pode ser rejeitada, aceita ou aceita com alterações. Por exemplo, os fornecedores podem alterar a data de entrega, dividir a entrega e a quantidade ou sugerir um item alternativo. |
 | Habilitar fornecedores para gerenciar informações pessoais de contato. | Os fornecedores podem manter informações pessoais de contato da sua empresa. Essas informações incluem nomes, endereços de email e números de telefone. O acesso a esse recurso é concedido por meio de uma função de segurança exclusiva. |
 | Compartilhar documentos que estão relacionados a ordens de compra com fornecedores. | Quando é preciso compartilhar um documento com um fornecedor, como um documento sobre requisitos, é conveniente vincular o documento à ordem de compra relevante. O fornecedor pode então compartilhar observações e anexos com o cliente vinculando o documento à resposta deste para a ordem de compra. O gerenciamento de documentos é a estrutura de suporte subjacente, e somente observações e anexos que são classificados como "externos" podem ser compartilhados com fornecedores. |
-| Provisionar novos usuários fornecedores. | Se seus fornecedores usarem a interface de colaboração de fornecedor, eles terão um meio perfeito de solicitar novas contas de usuários quando os novos contatos precisarem de acesso para colaboração de fornecedor. Os profissionais de compras podem enviar uma solicitação para uma conta de usuário de uma pessoa de contato na organização do fornecedor. Uma pessoa de contato do fornecedor que já é um usuário da colaboração de fornecedor também pode enviar esse tipo de solicitação. Por fim, essa solicitação criará um usuário no Dynamics 365 for Operations com funções de segurança específicas para fornecedores. Também permitira que a solicitação para o portal do Microsoft Azure B2B provisione facilmente o usuário com uma nova conta de usuário do Azure Active Directory (Azure AD). Os fornecedores também podem solicitar que as contas do usuário fornecedor sejam desativadas ou que as funções de segurança sejam modificadas. |
+| Provisionar novos usuários fornecedores. | Se seus fornecedores usarem a interface de colaboração de fornecedor, eles terão um meio perfeito de solicitar novas contas de usuários quando os novos contatos precisarem de acesso para colaboração de fornecedor. Os profissionais de compras podem enviar uma solicitação para uma conta de usuário de uma pessoa de contato na organização do fornecedor. Uma pessoa de contato do fornecedor que já é um usuário da colaboração de fornecedor também pode enviar esse tipo de solicitação. Por fim, essa solicitação criará um usuário no Dynamics 365 for Operations com funções de segurança específicas para fornecedores. Isso também facilita uma solicitação para o portal B2B do Microsoft Azure provisionar o usuário com uma nova conta de usuário do Azure Active Directory (Azure AD). Os fornecedores também podem solicitar que as contas do usuário fornecedor sejam desativadas ou que as funções de segurança sejam modificadas. |
 | Saiba mais sobre suporte para colaboração de fornecedor no Dynamics 365 for Operations. | Para obter mais informações sobre colaboração de fornecedor, consulte [Colaboração de fornecedores com fornecedores externos](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md), [Colaboração do fornecedor com clientes](../../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md), [Gerenciar usuários de colaboração do fornecedor](../../supply-chain/procurement/manage-vendor-collaboration-users.md), [Configurar e manter colaboração de fornecedor](../../supply-chain/procurement/set-up-maintain-vendor-collaboration.md) e [Espaço de trabalho de faturamento de colaboração do fornecedor](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). |
 
 ### <a name="intercompany-order-processing"></a>Processamento de ordens intercompanhia
@@ -884,8 +883,8 @@ Atualmente, o Retail Modern POS está disponível apenas como um aplicativo do W
 
 | O que você pode fazer | Por que isso é importante |
 |-----------------|-----------------------|
-| Modelar tipos diferentes de contêiner. | Você pode usar tipos diferentes de contêiner no depósito para otimizar o armazenamento e por outras razões. A nova entidade Tipo de contêiner apresenta as características físicas dos tipos de contêiner. Agora é possível associar placas de licença com um tipo de contêiner específico e usar limites de estoque de local. Por exemplo, você pode usar esse recurso para controlar quantos paletes (ou outros tipos de contêiner) você permite em um local específico. Os tipos de contêiner já foram adicionados aos grupos de sequências de unidade para adição de tipos de contêiner para o processo de recebimento. Os tipos de contêiner podem ser usados com diretivas de local de entrada e saída. Eles também podem ser usados na exibição de estoque disponível para ajudar a determinar quantos tipos de contêiner estão atualmente armazenados e à disposição. Para obter mais informações, consulte a postagem de blog [Uso das placas de licença associado com um tipo de contêiner para orientar processos de gerenciamento de depósito](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/06/20/use-of-license-plates-associated-with-a-container-type-to-drive-warehouse-management-processes/). Embora essa postagem de blog descreva uma atualização para o Microsoft Dynamics AX 2012, agora o mesmo suporte foi adicionado ao Dynamics 365 for Operations. |
-| Reverter remessas. | Em um depósito, você deve ser capaz de lidar com alterações tardias. Por exemplo, algumas mercadorias talvez estejam danificadas, razão pela qual você não pode enviá-las. Como alternativa, uma cliente pode fazer uma solicitação atrasada de cancelamento ou alteração de uma ordem. O Dynamics 365 for Operations agora permite que você reverta um remessa. Portanto, é possível cancelar uma guia de remessa e atualizá-la com as quantidades corretas posteriormente. De forma semelhante, no fluxo de entrada, é possível cancelar recibos de produtos para que uma versão atualizada possa ser criada. |
+| Modelar tipos diferentes de contêiner. | Você pode usar tipos diferentes de contêiner no depósito para otimizar o armazenamento e por outras razões. A nova entidade Tipo de contêiner apresenta as características físicas dos tipos de contêiner. Agora é possível associar placas de licença com um tipo de contêiner específico e usar limites de estoque de local. Por exemplo, você pode usar esse recurso para controlar quantos paletes (ou outros tipos de contêiner) você permite em um local específico. Os tipos de contêiner já foram adicionados aos grupos de sequências de unidade para adição de tipos de contêiner para o processo de recebimento. Os tipos de contêiner podem ser usados com diretivas de local de entrada e saída. Eles também podem ser usados na exibição de estoque disponível para ajudar a determinar quantos tipos de contêiner estão atualmente armazenados e à disposição. Para obter mais informações, consulte a postagem de blog [Uso das placas de licença associado com um tipo de contêiner para orientar processos de gerenciamento de depósito](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/06/20/use-of-license-plates-associated-with-a-container-type-to-drive-warehouse-management-processes/). Embora essa postagem de blog descreva uma atualização para o Microsoft Dynamics AX 2012, o mesmo suporte foi adicionado agora ao Dynamics 365 for Operations. |
+| Reverter remessas. | Em um depósito, você deve ser capaz de lidar com alterações tardias. Por exemplo, algumas mercadorias talvez estejam danificadas, razão pela qual você não pode enviá-las. Como alternativa, uma cliente pode fazer uma solicitação atrasada de cancelamento ou alteração de uma ordem. O Dynamics 365 for Operations agora permite reverter uma remessa. Portanto, é possível cancelar uma guia de remessa e atualizá-la com as quantidades corretas posteriormente. De forma semelhante, no fluxo de entrada, é possível cancelar recibos de produtos para que uma versão atualizada possa ser criada. |
 | Usar paletes com itens mistos. | Agora é possível receber e registrar um palete "misto". Um palete misto consiste em diferentes itens que são montados em um palete para uma ou várias linhas ou ordens de compra. Todos os registros podem ser resumidos em uma placa de licença de destino. Esse processo é habilitado por meio do dispositivo móvel do depósito. Por exemplo, quando o palete de itens mistos chega ao depósito, o responsável pelo recebimento identifica os itens e as quantidades no palete antes de este ser movido para um local de armazenamento exclusivo. Os locais de armazenamento são identificados por modelos de trabalho e diretivas de local. Se os locais de armazenamento forem disseminados para vários itens com locais fixos, esse recurso criará tantas linhas de trabalho de armazenamento quantos itens diferentes existirem no palete misto. Esse recurso torna o registro e o armazenamento dos paletes de itens mistos recebidos mais rápidos e flexíveis. Para obter mais informações, consulte a postagem de blog [Receber e registrar um palete com linhas do documento de origem misto usando uma placa](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/13/receive-and-register-a-pallet-with-mixed-source-document-lines-using-1-license-plate-purchase-order-matching/) e as informações sobre suporte para palete misto no [anúncio de nossa recente atualização cumulativa](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/06/30/whats-new-in-cu11-for-wms-and-tms/). Embora essa postagem de blog descreva uma atualização para o AX 2012, o mesmo suporte foi adicionado agora ao Dynamics 365 for Operations. |
 
 ### <a name="minor-feature-enhancements-in-supply-chain-management"></a>Melhorias de recurso menores no gerenciamento da cadeia de suprimentos
@@ -946,4 +945,3 @@ Atualmente, o Retail Modern POS está disponível apenas como um aplicativo do W
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Novidades ou alterações](whats-new-changed.md)
-

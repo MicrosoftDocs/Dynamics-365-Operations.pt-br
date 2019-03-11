@@ -1,13 +1,13 @@
 ---
-title: "Remover exceções de dados históricos de transação ao calcular uma previsão de demanda"
-description: "Este artigo descreve como excluir exceções dos dados históricos que são usados para calcular uma previsão de demanda. Ao excluir as exceções, você pode aumentar a precisão de previsão."
+title: Remover exceções de dados históricos de transação ao calcular uma previsão de demanda
+description: Este artigo descreve como excluir exceções dos dados históricos que são usados para calcular uma previsão de demanda. Ao excluir as exceções, você pode aumentar a precisão de previsão.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanForecastParameters, ReqDemPlanOutlierQuerySetup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7ce8ebaf32b30c57b307f0d8799660ba6b42365a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: b4805d343518a880ad0d6e6568c5493583a17783
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323608"
 ---
-
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>Remover exceções de dados históricos de transação ao calcular uma previsão de demanda
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ Você pode excluir exceções para melhorar a precisão de previsão. Esta é um
 [Introdução à previsão de demanda](introduction-demand-forecasting.md)
 
 [Monitorando a precisão da previsão](monitor-forecast-accuracy.md)
-
 
 
 

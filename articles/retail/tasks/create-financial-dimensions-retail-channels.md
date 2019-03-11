@@ -1,13 +1,13 @@
---- 
-title: "Criar dimensões financeiras para canais de varejo e configurar valores de dimensão em lojas"
-description: "Este procedimento mostra a criação de uma dimensão financeira de canal de varejo com os valores de dimensão e as etapas para configurar valores de dimensão financeira em lojas de varejo."
+---
+title: Criar dimensões financeiras para canais de varejo e configurar valores de dimensão em lojas
+description: Este procedimento mostra a criação de uma dimensão financeira de canal de varejo com os valores de dimensão e as etapas para configurar valores de dimensão financeira em lojas de varejo.
 author: jashanno
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations, Retail
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
 ms.openlocfilehash: cf32d17a36fd699141ce697d23e20b2eb5cbfa54
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354520"
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a>Criar dimensões financeiras para canais de varejo e configurar valores de dimensão em lojas
 
@@ -54,5 +54,4 @@ Este procedimento mostra a criação de uma dimensão financeira de canal de var
 23. Na lista, localize e selecione o registro desejado.
 24. Na lista, clique no link na linha selecionada.
 25. Clique em Salvar.
-
 

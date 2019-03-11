@@ -1,13 +1,13 @@
 ---
-title: "Chaves de configuração e entidades de dados"
-description: "Este tópico descreve o relacionamento entre as chaves de configuração e as entidades de dados no Microsoft Dynamics 365 for Finance and Operations."
+title: Chaves de configuração e entidades de dados
+description: Este tópico descreve a relação entre chaves de configuração e entidades de dados no Microsoft Dynamics 365 for Finance and Operations.
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 8d07a0572e56e97d42c0e1b841905f828edc6f51
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336465"
 ---
-
 # <a name="configuration-keys-and-data-entities"></a>Chaves de configuração e entidades de dados
 
 [!include [banner](../includes/banner.md)]
@@ -96,4 +95,3 @@ Usando os metadados da chave de configuração criados durante a lista de atuali
 A qualquer momento que você atualizar as chaves de configuração na entidade, tabela ou nível de campo, a lista de entidades na estrutura de gerenciamento de dados deve ser atualizada. Este procedimento garante que a estrutura selecionará as definições de chave de configuração mais recentes. Até a lista de entidades ser atualizada, a seguinte advertência será mostrada na página de listagem da entidade. As alterações da chave de configuração atualizadas terão efeito imediatamente após a lista de entidades ser atualizada. Recomendamos que você valide os projetos e trabalhos de dados existentes para certificar-se de que eles funcionam como esperado, depois que as alterações das chaves de configuração entrarem em vigor.
 
 ![Campos de destino](./media/Target_fields_3.png)
-

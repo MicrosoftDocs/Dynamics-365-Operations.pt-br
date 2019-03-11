@@ -1,13 +1,13 @@
---- 
-title: "ER Criar uma configuração de formato (Novembro de 2016)"
-description: "As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar uma configuração de formato para Relatório eletrônico (RE)."
+---
+title: ER Criar uma configuração de formato (Novembro de 2016)
+description: As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar uma configuração de formato para Relatório eletrônico (RE).
 author: NickSelin
 manager: AnnBe
 ms.date: 11/27/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 582e1a2baee805fe6770465edc7958954f638f1c
+ms.sourcegitcommit: 29e19b6d91e5761178627ef2051f3385f5d7cfe5
 ms.translationtype: HT
-ms.sourcegitcommit: 13469aad7fdcefb3a1706eec0527f29968e007eb
-ms.openlocfilehash: 10511fe5b936135471b522fc7152a54686a3be87
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/18/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "377540"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>ER Criar uma configuração de formato (Novembro de 2016)
 
@@ -35,8 +35,10 @@ As etapas a seguir explicam como um usuário no papel de Administrador do Sistem
 2. Clique em **Configurações de relatórios**.
 3. Na árvore, selecione **Pagamentos (modelo simplificado)**.
 4. Clique em **Criar configuração** para abrir a caixa de diálogo suspensa.
+
  > [!NOTE]
  > Se não aparecer **Criar configuração**, você deverá habilitar o modo de design na página **Parâmetros de relatório eletrônico**. 
+ 
 5. No campo **Novo**, insira **Formato baseado no modelo de dados PaymentModel**.
 6. No campo **Nome**, digite **BACS (Reino Unido fictício)**.
 7. No campo **Descrição**, digite **Formato de pagamento de fornecedor BACS (Reino Unido fictício)**.
@@ -44,9 +46,6 @@ As etapas a seguir explicam como um usuário no papel de Administrador do Sistem
     * Um formato específico de documento eletrônico pode ser definido. Deixe este campo em branco se desejar selecionar um formato durante a execução.  
 8. No campo **Definição do modelo de dados**, insira ou selecione um valor.
 9. Clique em **Criar configuração**. Uma nova configuração foi criada. A versão de rascunho pode ser usada para armazenar o formato de design para gerenciar documentos eletrônicos.  
- > [!NOTE]
- > Se não aparecer **Criar configuração**, você deverá habilitar o modo de design na página **Parâmetros de relatório eletrônico**.
-
 
 ## <a name="design-the-format-of-an-electronic-document"></a>Projetar o formato de um documento eletrônico
 1. Clique em **Designer**.
@@ -159,5 +158,4 @@ As etapas a seguir explicam como um usuário no papel de Administrador do Sistem
 41. Clique em **OK**.
 42. Clique em **Salvar**.
 43. Feche a página.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Gerenciar a validação da conta do IBAN (número de conta bancária internacional)"
-description: "Este tópico explica como gerenciar a validação da conta do IBAN (número de conta bancária internacional)."
+title: Gerenciar a validação da conta do IBAN (número de conta bancária internacional)
+description: Este tópico explica como gerenciar a validação da conta do IBAN (número de conta bancária internacional).
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
 ms.openlocfilehash: 19e0528b95952de8e5503c361efcfeca4c529caf
-ms.contentlocale: pt-br
-ms.lasthandoff: 10/12/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359994"
 ---
-
 # <a name="manage-international-bank-account-number-iban-validation"></a>Gerenciar a validação do IBAN (número de conta bancária internacional)
 
 [!include [banner](../includes/banner.md)]
@@ -49,4 +48,3 @@ As informações sobre a estrutura do IBAN são armazenadas no Microsoft Dynamic
     A validação também verifica se o número da conta bancária corresponde à parte do IBAN que representa o número da conta bancária. Se o número da conta bancária não coincidir, você receberá uma mensagem de aviso. Essa mensagem é apenas um aviso. Você poderá continuar mesmo se o número da conta bancária não corresponder.
 
     A validação também verifica se o número de roteamento do banco corresponde à parte do IBAN que representa o número de roteamento do banco. O número de roteamento inclui um número de banco e, em geral, uma agência bancária adicional. Se o número de roteamento do banco não coincidir, você receberá uma mensagem de aviso. Essa mensagem é apenas um aviso. Você poderá continuar mesmo se o número da roteamento do banco não coincidir.
-

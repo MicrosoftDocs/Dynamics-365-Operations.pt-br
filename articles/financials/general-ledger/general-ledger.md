@@ -1,13 +1,13 @@
 ---
-title: "Página inicial da contabilidade e relatórios financeiros"
+title: Página inicial da contabilidade e relatórios financeiros
 description: Use a Contabilidade para definir e gerenciar os registros financeiros da entidade legal.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 85afebcc88ad1c087d5f1dabaac56f694534cf98
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
-ms.openlocfilehash: 9ee3f73cd11b38ed2237ea3fe08db18000e55f07
-ms.contentlocale: pt-br
-ms.lasthandoff: 06/25/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363352"
 ---
-
 # <a name="general-ledger"></a>Contabilidade 
 
 [!include [banner](../includes/banner.md)]
@@ -68,10 +67,9 @@ Você encontra opiniões, notícias, além de informações sobre Contas a pagar
 
 Há muitas postagens sobre Contabilidade no [blog da equipe do produto Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Embora algumas dessas postagens tenham sido escritas para a versão anterior de Contabilidade, os mesmos conceitos ainda se aplicam, e os procedimentos também são semelhantes na versão atual.
 
-O [blog da Comunidade de Parceiros do Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) fornece aos Parceiros do Microsoft Dynamics um recurso único por meio do qual podem saber mais sobre as novidades e as tendências do MBS Operations.
+O [Blog da Comunidade de Parceiros do Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) oferece aos Parceiros do Microsoft Dynamics um recurso único para que eles saibam mais sobre as novidades e tendências do MBS Operations.
 
 #### <a name="community-blogs"></a>Blogs da comunidade
 
 - [O que você deve saber sobre o razão no Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
-
 

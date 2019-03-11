@@ -1,13 +1,13 @@
---- 
-title: "Criar uma ordem de liberação de compra de um contrato de compra"
-description: "Este procedimento mostra como utilizar um contrato de compra quando você cria uma ordem de compra."
+---
+title: Criar uma ordem de liberação de compra de um contrato de compra
+description: Este procedimento mostra como utilizar um contrato de compra quando você cria uma ordem de compra.
 author: mkirknel
 manager: AnnBe
 ms.date: 12/04/2015
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c45db4ac01be831c0c75f888d313d61d934fc33f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: cecda03dd4d224d4319f2b0b196560389bb54195
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328875"
 ---
 # <a name="create-a-purchase-release-order-from-a-purchase-agreement"></a>Criar uma ordem de liberação de compra de um contrato de compra
 
@@ -63,5 +63,4 @@ Este procedimento mostra como utilizar um contrato de compra quando você cria u
 2. Clique em Contrato de compra.
 3. Feche a página.
 4. Feche a página.
-
 

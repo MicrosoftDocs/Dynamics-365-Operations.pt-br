@@ -1,13 +1,13 @@
---- 
-title: "Configurar sequências numéricas em uma base individual"
-description: "Sequências numéricas são usadas para gerar identificadores exclusivos e legíveis para registros de dados mestres e registros de transações que os exigirem."
+---
+title: Configurar sequências numéricas em uma base individual
+description: Sequências numéricas são usadas para gerar identificadores exclusivos e legíveis para registros de dados mestres e registros de transações que os exigirem.
 author: sericks007
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceDetails
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6734d66a06f8a8dc90a48bd68b7b4e22177b4672
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4e2808e57dc8d137fac892d48e99d7687ff1bf81
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362202"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Configurar sequências numéricas em uma base individual
 
@@ -43,5 +43,4 @@ Sequências numéricas são usadas para gerar identificadores exclusivos e legí
 8. Expanda a seção Geral.
     * Na Guia Rápida Geral, especifique se a sequência numérica é manual e se é contínua ou não contínua. Além disso, insira os números mais baixos e mais altos que podem ser usados na sequência numérica.     Não recomendamos alterar uma sequência numérica não contínua a uma sequência numérica contínua. A sequência numérica não será verdadeiramente contínua. Essa alteração também pode causar violações de chave duplicada no banco de dados. Além disso, as sequências numéricas contínuas têm um efeito maior no desempenho.   
 9. Clique em Salvar.
-
 

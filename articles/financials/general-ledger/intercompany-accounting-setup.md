@@ -1,13 +1,13 @@
 ---
-title: "Configuração de contabilidade intercompanhia"
-description: "Este tópico explica como configurar a contabilidade intercompanhia, de forma que você possa usar diários intercompanhia para alocações do razão e diários financeiros, como diários, diários de fatura de fornecedor e diários de pagamento."
+title: Configuração de contabilidade intercompanhia
+description: Este tópico explica como configurar a contabilidade intercompanhia, de forma que você possa usar diários intercompanhia para alocações do razão e diários financeiros, como diários, diários de fatura de fornecedor e diários de pagamento.
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ce07a29d7aa5057d0b61c7fcc6bb87a0a2755fc9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 48e0b00e2a9bd1a1387780747e1976bd386200eb
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363973"
 ---
-
 # <a name="intercompany-accounting-setup"></a>Configuração de contabilidade intercompanhia
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ Selecione a **Conta de débito (Devido por)** e **Conta de crédito (Devido para
 Por fim, selecione qual entidade legal receberá os valores contábeis para suporte, como o desconto à vista ou ganhos/perdas realizados para pagamentos centralizados. 
 
 Um relacionamento recíproco pode ser configurado facilmente na página **Contabilidade intercompanhia** usando o botão **Criar relacionamento recíproco** depois que o primeiro par de entidade legal for criado. Quando o par recíproco for criado, as informações da empresa de destino serão copiadas para a empresa de origem e vice-versa. O diário definido para a empresa de destino permanecerá. A maioria de organizações usa a mesma convenção de nomenclatura para os nomes de diário, de forma que o nome do diário seja igual. Se o nome do diário for diferente, um aviso aparecerá no campo para notificá-lo de que o diário não existe e um diário diferente poderá ser selecionado.
-
 
 
 

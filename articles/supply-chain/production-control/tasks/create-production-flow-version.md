@@ -1,13 +1,13 @@
---- 
-title: "Criar uma versão de fluxo de produção"
-description: "Esse procedimento tem como foco a criação de uma versão de fluxo de produção."
+---
+title: Criar uma versão de fluxo de produção
+description: Esse procedimento tem como foco a criação de uma versão de fluxo de produção.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9a76e5bb6f63f793e4644c2ccf70cef21785ff10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8903e618a35e66742b5c2ebcb5b6f0da3853fcaf
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320664"
 ---
 # <a name="create-a-production-flow-version"></a>Criar uma versão de fluxo de produção
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Esse procedimento tem como foco a criação de uma versão de fluxo de produção. Nesse procedimento, os parâmetros de produção para lean manufacturing e as unidades de medida para tempo de classe devem ser definidos. Também pode ser necessário definir um fluxo de valor e um perfil de produção. Para saber mais sobre fluxos de produção e atividades em lean manufacturing, consulte os white papers sobre lean manufacturing para Microsoft Dynamics AX. A empresa de dados demo usada para criar este procedimento é USMF.
+Esse procedimento tem como foco a criação de uma versão de fluxo de produção. Nesse procedimento, os parâmetros de produção para lean manufacturing e as unidades de medida para tempo de classe devem ser definidos. Também pode ser necessário definir um fluxo de valor e um perfil de produção. Para saber mais sobre fluxos e atividades de produção em lean manufacturing, consulte os white papers a respeito de Lean manufacturing para Microsoft Dynamics AX. A empresa de dados demo usada para criar este procedimento é USMF.
 
 
 ## <a name="create-a-production-flow"></a>Criar um fluxo de produção
@@ -63,5 +63,4 @@ Esse procedimento tem como foco a criação de uma versão de fluxo de produçã
 12. No campo Período para tempo de ciclo real (dias), insira um número.
     * Insira o número de dias no Período para tempo de ciclo real. O período para tempo de ciclo real é o número de dias em que os trabalhos são agregados do minuto real regressivamente para calcular o tempo de ciclo real. O valor pode ser alterado a qualquer momento e só é usado para o cálculo dos tempos de ciclo reais.  
 13. Clique em Salvar.
-
 

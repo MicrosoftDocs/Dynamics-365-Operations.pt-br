@@ -1,13 +1,13 @@
---- 
-title: " Configurações de pagamento para obter demonstrativos de varejo"
-description: "Este procedimento demonstra configurações para os métodos de pagamento da loja de varejo que afetam como as instruções de varejo foram criadas e lançadas."
+---
+title: Configurações de pagamento para obter demonstrativos de varejo
+description: Este procedimento demonstra configurações para os métodos de pagamento da loja de varejo que afetam como as instruções de varejo foram criadas e lançadas.
 author: jashanno
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,14 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8f49a3ae05d35b0f0ca6a08007f5b05321c1f5ab
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f12d8ac9be11b92eaef4acce094ae183906278d4
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314454"
 ---
-# <a name="payment-configurations-for-retail-statements"></a> Configurações de pagamento para obter demonstrativos de varejo
+# <a name="payment-configurations-for-retail-statements"></a>Configurações de pagamento para obter demonstrativos de varejo
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
@@ -52,5 +52,4 @@ Este registro usa a empresa de dados de demonstração USRT.
     * Selecione se os valores de depósito bancário protegidos devem ser lançados em uma conta contábil ou na conta bancária.  
     * Selecione a conta para lançar valores de depósito bancário protegidos.  
 8. Clique em Salvar.
-
 

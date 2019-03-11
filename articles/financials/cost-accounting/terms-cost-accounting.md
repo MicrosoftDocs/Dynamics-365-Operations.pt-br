@@ -1,13 +1,13 @@
 ---
 title: Terminologia de contabilidade de custos
-description: "Este tópico define os principais termos usados na contabilização de custos."
+description: Este tópico define os principais termos usados na contabilização de custos.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostAccountingLedger
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 702fa3cb4219aecd95a74d3c225e104be5f281fc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365928"
 ---
-
 # <a name="cost-accounting-terminology"></a>Terminologia de contabilidade de custos
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ A base de alocação é usada para medir e quantificar atividades, como as horas
 
 **Contabilização de custos**
 
-A contabilização de custos permite que você colete dados de várias fontes, como contabilidade, razões auxiliares, orçamentos e informações estatísticas. Com isso, é possível analisar, resumir e avaliar dados de custo a fim de que o gerenciamento possa tomar as melhores decisões possíveis em termos de atualização de preços, orçamentos, controle de custos etc. Os dados de origem usados na análise de custos são tratados de forma independente na contabilização de custos. Portanto, atualizações na contabilização de custos não afetam os dados de origem. No entanto, ao coletar dados de custo de várias fontes, e especialmente ao importar as contas principais a partir da contabilidade no Microsoft Dynamics 365 for Finance and Operations como elementos de custo, haverá redundância de dados, já que os mesmos dados existem tanto na contabilidade quanto na contabilização de custos. Essa redundância é necessária porque você usa gerenciamento financeiro para relatórios externos e contabilidade de custos para relatórios internos.
+A contabilização de custos permite que você colete dados de várias fontes, como contabilidade, razões auxiliares, orçamentos e informações estatísticas. Com isso, é possível analisar, resumir e avaliar dados de custo a fim de que o gerenciamento possa tomar as melhores decisões possíveis em termos de atualização de preços, orçamentos, controle de custos etc. Os dados de origem usados na análise de custos são tratados de forma independente na contabilização de custos. Portanto, atualizações na contabilização de custos não afetam os dados de origem. No entanto, ao coletar dados de custo de várias origens, e especialmente ao importar as contas principais a partir da contabilidade no Microsoft Dynamics 365 for Finance and Operations como elementos de custo, haverá redundância de dados, já que os mesmos dados existem tanto na contabilidade quanto na contabilização de custos. Essa redundância é necessária porque você usa gerenciamento financeiro para relatórios externos e contabilidade de custos para relatórios internos.
 
 **Razão de contabilização de custos**
 
@@ -204,6 +203,5 @@ Demonstrativos são exibições para os gerentes responsáveis pelo controle de 
 **Versão**
 
 As versões são usadas para simular, exibir e comparar vários resultados. Por padrão, todos os custos reais são exibidos em uma versão base que é conhecida como *real*. No tocante a orçamentos e cálculos, é possível trabalhar com quantas versões forem necessárias. Por exemplo, você pode importar dados orçamentários para uma versão original e depois revisar o orçamento em uma versão revisada. Para cálculos, você pode criar várias versões. Nessas versões, é possível criar os cálculos usando diferentes regras de cálculo que serão aplicadas na alocação de custos.
-
 
 

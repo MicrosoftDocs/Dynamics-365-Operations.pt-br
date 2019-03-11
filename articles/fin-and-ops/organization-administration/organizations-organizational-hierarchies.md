@@ -1,13 +1,13 @@
 ---
-title: "Organizações e hierarquias da organização"
-description: "Uma organização é um grupo da pessoas que está trabalhando em conjunto para realizar um processo comercial ou atingir uma meta. As hierarquias da organização representam os relacionamentos entre as organizações que compõem sua empresa."
+title: Organizações e hierarquias da organização
+description: Uma organização é um grupo da pessoas que está trabalhando em conjunto para realizar um processo comercial ou atingir uma meta. As hierarquias da organização representam os relacionamentos entre as organizações que compõem sua empresa.
 author: sericks007
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMHierarchyManager, OMOperatingUnit,
 audience: Application User
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 72834769e393382ac511ad3af21544efddb049d3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4f8afc37e8d69b06622176d4f6cfb3ff06a0ab54
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322228"
 ---
-
 # <a name="organizations-and-organizational-hierarchies"></a>Organizações e hierarquias da organização
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ Uma organização é um grupo da pessoas que está trabalhando em conjunto para 
 
 ## <a name="organizations"></a>Organizações
 
-No Microsoft Dynamics 365 for Finance and Operations, é possível definir os seguintes tipos de organizações internas: entidades legais, unidades operacionais e equipes.
+No Microsoft Dynamics 365 for Finance and Operations é possível definir os seguintes tipos de organizações internas, entidades legais, unidades operacionais e equipes.
 
 Todas as organizações internas são tipos de entidades **participantes**. Portanto, essas organizações usam o catálogo de endereços para armazenar endereços e informações de contato. Um participante, que pode ser uma pessoa ou uma organização, pode pertencer a um ou mais catálogos de endereços.
 
@@ -64,9 +63,8 @@ Uma equipe é uma organização cujos membros compartilham uma responsabilidade,
 
 ## <a name="organizational-hierarchies"></a>Hierarquias organizacionais
 
-Configure as hierarquias organizacionais para exibir e fazer relatório da empresa sob perspectivas diferentes. Por exemplo, você pode configurar uma hierarquia de entidades legais para relatórios de impostos, legais ou estatutários. Configure uma hierarquia com base em unidades operacionais para relatar informações financeiras que não são necessárias legalmente, mas que são usadas para o controle interno. Por exemplo, é possível criar uma hierarquia de compra para controlar políticas de compras, regras e processos comerciais.
+Configure as hierarquias organizacionais para exibir e fazer relatório da empresa sob perspectivas diferentes. Por exemplo, você pode configurar uma hierarquia de entidades legais para relatórios de impostos, legais ou estatutários. Configure uma hierarquia com base em unidades operacionais para relatar informações financeiras que não são necessárias legalmente, mas que são usadas para o controle interno. Por exemplo, é possível criar uma hierarquia de compra para controlar as diretivas de compras, regras e processos comerciais.
 
 A cada hierarquia é atribuída uma finalidade no Microsoft Dynamics 365 for Finance and Operations. A finalidade de uma hierarquia determina os tipos de organizações que podem ser incluídos na hierarquia. A finalidade também define os cenários de aplicativo nos quais a hierarquia pode ser usada.
 
 As organizações em uma hierarquia podem compartilhar parâmetros, políticas e transações. Uma organização pode herdar ou substituir os parâmetros de sua organização primária. No entanto, os dados mestres compartilhados, como produtos e catálogos de endereços, aplicam-se à organização inteira e não podem ser substituídos para organizações individuais. A criação de organizações e hierarquias exigem planejamento cuidadoso. Para obter mais informações, consulte [Planejar a hierarquia organizacional](plan-organizational-hierarchy.md).
-

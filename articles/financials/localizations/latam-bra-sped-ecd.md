@@ -1,28 +1,27 @@
 ---
 title: SPED ECD
-description: "Este tópico explica como configurar e gerar arquivos de texto do SPED ECD."
+description: Este tópico explica como configurar e gerar arquivos de texto do SPED ECD.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: shylaw
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 679c4d1c3c5489cc6169be76d22ec33a9ea01440
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371569"
 ---
-
 # <a name="sped-ecd"></a>SPED ECD
 
 [!include [banner](../includes/banner.md)]
@@ -124,4 +123,3 @@ Para gerar e validar o arquivo de texto para o demonstrativo SPED ECD, siga esta
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Gerar a obrigação de imposto Sintegra](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/bra-parameters-tax/articles/financials/localizations/latam-bra-set-up-parameters-for-tax-statements.md)
-

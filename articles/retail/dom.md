@@ -1,29 +1,29 @@
 ---
-title: "Gerenciamento de ordem distribuído (GOD)"
-description: "Este tópico descreve a funcionalidade Gerenciamento de ordem distribuído (GOD) do Microsoft Dynamics 365 for Retail."
+title: Gerenciamento de ordem distribuído (GOD)
+description: Este tópico descreve a funcionalidade Gerenciamento de ordem distribuído (GOD) do Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 11/15/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 3331b984693c58c6ee8c49b98ed7d3a8df5b79ff
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: 8f1b07243ec2d42e47073d8d90f00ea563020d82
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301917"
 ---
 # <a name="distributed-order-management-dom"></a>Gerenciamento de ordem distribuído (GOD)
 
@@ -59,9 +59,9 @@ A ilustração a seguir mostra o ciclo de vida de uma ordem de venda em um siste
 
     - **Máximo de tentativas de atendimento automático** – Especifique quantas vezes o mecanismo de GOD tentará agenciar uma linha da ordem para um local. Se o mecanismo de GOD não conseguir agenciar uma linha da ordem para um local em determinando número de tentativas, marcará a linha da ordem como uma exceção. Ele vai ignorar essa linha nas execuções futuras até que o status seja redefinido manualmente.
     - **Raio de lojas locais na região** – Insira um valor. Este campo ajuda a determinar como os locais são agrupados e considerados iguais em termos de distância. Por exemplo, se você inserir **161**, todas as loja ou centros de distribuição no raio do 161 km do endereço de atendimento serão considerados iguais em termos da distância.
-    - **Tipo de agente de resolução** - Selecione um valor. Dois tipos de agentes da resolução são liberados com Retail: **Agente de Resolução de Produção** e **Agente de Resolução Simplificado**. Para todos os computadores que executarão o GOD (ou seja, todos os servidores que fazem parte do grupo DOMBatch), o **Agente de Resolução de Produção** deve estar selecionado. O Agente de Resolução de Produção exige a chave de licença especial que, por padrão, é licenciada e implantada em ambientes de produção. Para ambientes de não produção, esta chave de licença deve ser implantada manualmente. Para implantar manualmente a chave de licença, siga estas etapas:
+    - **Tipo de agente de resolução** – Selecione um valor. Dois tipos de agentes da resolução são liberados com Retail: **Agente de Resolução de Produção** e **Agente de Resolução Simplificado**. Para todos os computadores que executarão o GOD (ou seja, todos os servidores que fazem parte do grupo DOMBatch), o **Agente de Resolução de Produção** deve estar selecionado. O Agente de Resolução de Produção exige a chave de licença especial que, por padrão, é licenciada e implantada em ambientes de produção. Para ambientes de não produção, essa chave de licença deve ser implantada manualmente. Para implantar manualmente a chave de licença, siga estas etapas:
 
-        1. Em Microsoft Dynamics Lifecycle Services, abra a Biblioteca de ativos compartilhados, selecione **Modelo** como o tipo de ativo, e baixe o arquivo **Licença do GOD**.
+        1. No Microsoft Dynamics Lifecycle Services, abra a Biblioteca de ativos compartilhados, selecione **Modelo** como o tipo de ativo e baixe o arquivo **Licença do GOD**.
         2. Inicie o gerenciador dos Serviços de Informações da Internet da Microsoft, clique com o botão direito do mouse no **Site de Serviço do AOS** e selecione **Explorar**. Uma janela do Windows Explorer é aberta na **\<Raiz do Serviço do AOS\>\\webroot**. Anote o caminho da \<Raiz do Serviço do AOS\>, para usar na próxima etapa.
         3. Copie o arquivo de configuração no diretório **\<Raiz do Serviço do AOS\>\\PackagesLocalDirectory\\GOD\\compartimento**.
         4. Vá para o cliente do Retail Headquarters e abra a página **Parâmetros de GOD**. Na guia **Agente de Resolução**, no campo **Tipo de Agente de Resolução**, selecione **Agente de Resolução de Produção** e confirme que nenhuma mensagem de erro aparecerá.
@@ -175,7 +175,7 @@ No momento do processamento, o GOD considerará a ordem e as linhas da ordem con
 
 Depois que são aplicadas as regras, as restrições de estoque e a otimização, o GOD escolhe o local mais próximo do endereço de entrega do cliente.
 
-![Critérios da ordem de venda](./media/ordercriteria.png "Critérios ordem de venda")
+![Critérios da ordem de venda](./media/ordercriteria.png "Critérios da ordem de venda")
 
 ## <a name="results-of-dom-runs"></a>Resultados de execuções de GOD
 
@@ -229,4 +229,3 @@ Veja aqui alguns aspectos a serem considerados ao usar o recurso do GOD:
 - Atualmente, o GOD examina apenas ordens criadas em canais de varejo. As ordens de venda serão identificadas como ordens de venda de varejo quando a opção **Venda de varejo** for definida como **Sim**.
 - A Microsoft não testou o GOD com recursos avançados de gerenciamento de depósito. Clientes e parceiros devem ser cuidadosos para determinar se o GOD é compatível com os recursos e os processos avançados de gerenciamento de depósito que são relevantes para eles.
 - O GOD está disponível apenas na versão da nuvem do Retail. Não é compatível com implantações locais.
-

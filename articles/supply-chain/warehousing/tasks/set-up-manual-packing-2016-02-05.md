@@ -1,13 +1,13 @@
---- 
+---
 title: Configurar embalagem manual (fevereiro de 2016 e maio de 2016)
-description: "O processo de embalagem permite que você valide e empacote produtos em contêineres."
+description: O processo de embalagem permite que você valide e empacote produtos em contêineres.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSParameters, WHSContainerType, WHSPackProfile, WHSCloseContainerProfile, InventLocationIdLookup, UnitOfMeasureLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b90b4a71e2447e942dbb4a9645ef93064da630d3
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347712"
 ---
 # <a name="set-up-manual-packing-february-2016--may-2016"></a>Configurar embalagem manual (fevereiro de 2016 e maio de 2016)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-O processo de embalagem permite que você valide e empacote produtos em contêineres. Nesse processo, os trabalhadores do depósito escolhem produtos dos locais de depósito e os movem para uma estação de embalagem onde eles podem verificar as quantidades e tipos, e atribuí-los aos contêineres apropriados. Quando um contêiner é embalado totalmente, poderá fechá-lo e movê-lo para as docas de saída, e o produto está pronto para ser enviado. Este procedimento usa a empresa de dados de demonstração USMF. Este procedimento é somente para as versões de fevereiro de 2016 e de maio de 2016 do Dynamics 365 for Operations.
+O processo de embalagem permite que você valide e empacote produtos em contêineres. Nesse processo, os trabalhadores do depósito escolhem produtos dos locais de depósito e os movem para uma estação de embalagem onde eles podem verificar as quantidades e tipos, e atribuí-los aos contêineres apropriados. Quando um contêiner é embalado totalmente, poderá fechá-lo e movê-lo para as docas de saída, e o produto está pronto para ser enviado. Este procedimento usa a empresa de dados de demonstração USMF. Este procedimento é válido apenas para as versões de fevereiro de 2016 e maio de 2016 do Dynamics 365 for Operations.
 
 
 ## <a name="set-up-location-profiles"></a>Configurar perfis de localização
@@ -94,5 +94,4 @@ O processo de embalagem permite que você valide e empacote produtos em contêin
     * Esse será o local para o qual os produtos serão movidos depois que os contêineres são fechados. Esta localização deve ter um perfil de local definido nos Parâmetros de depósito.  
 8. No campo Unidade de peso, insira ou selecione um valor.
 9. Clique em Salvar.
-
 

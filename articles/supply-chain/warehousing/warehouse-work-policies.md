@@ -1,13 +1,13 @@
 ---
-title: "Políticas de trabalho de depósito"
-description: "As políticas de trabalho de depósito determinam se o trabalho de depósito é criado por processos de depósito na fabricação, com base em tipo de ordem de trabalho, local do estoque e produto."
+title: Políticas de trabalho de depósito
+description: As políticas de trabalho de depósito determinam se o trabalho de depósito é criado por processos de depósito na fabricação, com base em tipo de ordem de trabalho, local do estoque e produto.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWorkPolicy
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 0710eac8daba7f51f6b5d1522476b812a130960d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c2d72509b0dc4d0cea5b4f2478ae7f8fc163e78c
-ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325586"
 ---
-
 # <a name="warehouse-work-policies"></a>Políticas de trabalho de depósito
 
 [!include [banner](../includes/banner.md)]
@@ -126,7 +125,7 @@ ETAPAS (25)
 <tr>
 <td></td>
 <td>2.</td>
-<td>Na lista, selecione grupo de recursos &#39;5102&#39;.</td>
+<td>Na lista, selecione grupo de recurso &#39;5102&#39;.</td>
 </tr>
 <tr>
 <td></td>
@@ -146,7 +145,7 @@ ETAPAS (25)
 <tr>
 <td></td>
 <td>6.</td>
-<td>O local 001 não é um local controlado por código de licença. Você pode configurar um local de saída em branco da licença não aplicável somente se uma diretiva de trabalho existir para o local.</td>
+<td>O local 001 não é um local controlado por placa de licença. Você pode configurar um local de saída em branco da licença não aplicável somente se uma diretiva de trabalho existir para o local.</td>
 </tr>
 <tr>
 <td colspan="3"><strong>Subtarefa: Criar uma ordem de produção e relatar como concluída.</strong></td>
@@ -248,7 +247,6 @@ ETAPAS (25)
 </tr>
 </tbody>
 </table>
-
 
 
 

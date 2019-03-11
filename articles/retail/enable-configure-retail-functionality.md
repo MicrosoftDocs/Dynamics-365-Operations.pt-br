@@ -1,13 +1,13 @@
 ---
 title: Inicialize dados semente em novos ambientes de varejo
-description: "Este artigo descreve os dados que são criados como parte do processo de inicialização para o Microsoft Dynamics 365 for Retail."
+description: Este artigo descreve os dados que são criados como parte do processo de inicialização do Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,28 +19,27 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327886"
 ---
-
-# <a name="initialize-seed-data-in-new-retail-environments"></a>Inicialize dados semente em novos ambientes de varejo
+# <a name="initialize-seed-data-in-new-retail-environments"></a>Inicializar dados de propagação em novos ambientes do Retail
 
 [!include [banner](includes/banner.md)]
 
-Este artigo descreve os dados que são criados como parte do processo de inicialização para o Microsoft Dynamics 365 for Retail.
+Este artigo descreve os dados que são criados como parte do processo de inicialização do Microsoft Dynamics 365 for Retail.
 
-Depois que a solução Retail for implantada no Microsoft Dynamics Lifecycle Services (LCS), você deverá inicializar a configuração de varejo para criar os dados básicos de configuração.
+Depois que a solução Retail for implantada por meio do Microsoft Dynamics Lifecycle Services (LCS), você deverá inicializar a configuração de Retail para criar os dados básicos de configuração.
 
 > [!IMPORTANT]
 > Antes de inicializar a configuração de varejo, verifique se você especificou um idioma e um endereço postal para cada entidade legal em que configurará lojas de varejo. Essa etapa deve ser concluída para cada entidade legal usada no varejo.
 
 Para inicializar a configuração de varejo, execute estas etapas:
 
-1. Inicie o cliente do Dynamics 365 for Retail.
+1. Inicie o cliente Dynamics 365 for Retail.
 2. Clique em **Varejo** &gt; **Configuração da sede** &gt; **Parâmetros** &gt; **Parâmetros de varejo**.
 3. Clique em **Inicializar**.
 
@@ -56,7 +55,7 @@ A inicialização cria os seguintes dados de configuração padrão:
 - Relatórios do canal
 - Metadados de atributo
 - Modelos de validação de entidade
-- Trabalhos em lotes para limpar o histórico da sessão do Commerce Data Exchange
+- Trabalho em lotes para limpar o histórico da sessão do Commerce Data Exchange
 
 Além disso, os registros relacionados à PCI (indústria de pagamento por cartão) estão habilitados para o banco de dados do Dynamics 365 for Retail.
 
@@ -70,4 +69,3 @@ Depois que a inicialização for concluída, você deve configurar os dados adic
 - Canais de varejo
 - Registros e dispositivos
 - Sortimentos
-

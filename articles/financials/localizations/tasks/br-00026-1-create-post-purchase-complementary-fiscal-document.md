@@ -1,13 +1,13 @@
---- 
-title: "Criar e lançar uma nota fiscal complementar de compra (Brasil)"
-description: "Use este procedimento para criar uma nota fiscal complementar de compra para ajustar uma nota fiscal de compra que foi gerada por um preço ou valor incorreto de IPI (Imposto Sobre Produtos Industrializados) ou de ICMS (Imposto Sobre Circulação de Mercadorias e Serviços)."
+---
+title: Criar e lançar uma nota fiscal complementar de compra (Brasil)
+description: Use este procedimento para criar uma nota fiscal complementar de compra para ajustar uma nota fiscal de compra que foi gerada por um preço ou valor incorreto de IPI (Imposto Sobre Produtos Industrializados) ou de ICMS (Imposto Sobre Circulação de Mercadorias e Serviços).
 author: sndray
 manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 88377889f6fdca194716aecc62d8b4f6e2bc9b70
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fec18d75d93d40feba9e2a9e1fbf4b8d7e2d0024
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371677"
 ---
 # <a name="create-and-post-a-purchase-complementary-fiscal-document-brazil"></a>Criar e lançar uma nota fiscal complementar de compra (Brasil)
 
@@ -45,5 +45,4 @@ Use este procedimento para criar uma nota fiscal complementar de compra para aju
 13. Feche a página.
 14. Feche a página.
 15. Feche a página.
-
 

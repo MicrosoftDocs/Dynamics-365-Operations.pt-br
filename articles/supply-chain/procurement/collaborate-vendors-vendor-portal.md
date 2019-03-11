@@ -1,13 +1,13 @@
 ---
 title: Colaborar com fornecedores por meio do portal do fornecedor
-description: "Este tópico descreve como os agentes de compras podem usar o portal do fornecedor para colaborar com os fornecedores externos durante o processo de confirmação da ordem de compra. Estas informações só se aplicam a versões de fevereiro de 2016 &amp; maio de 2016 do Dynamics AX."
+description: Este tópico descreve como os agentes de compras podem usar o portal do fornecedor para colaborar com os fornecedores externos durante o processo de confirmação da ordem de compra. Estas informações se aplicam somente às versões de fevereiro de 2016 &amp; maio de 2016 do Dynamics AX.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: josaw
@@ -18,23 +18,22 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 07fbc5fea1fd44769a29bcc40297ffd02812a1e5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2fa152c5586a1122a109762780d23fd8c2240702
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339869"
 ---
-
-# <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Colaborar com fornecedores por meio do portal do fornecedor
+# <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Colaborar com fornecedores usando o Portal do fornecedor
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como os agentes de compras podem usar o portal do fornecedor para colaborar com os fornecedores externos durante o processo de confirmação da ordem de compra. Estas informações só se aplicam a versões de fevereiro de 2016 &amp; maio de 2016 do Dynamics AX.
+Este tópico descreve como os agentes de compras podem usar o portal do fornecedor para colaborar com os fornecedores externos durante o processo de confirmação da ordem de compra. Estas informações se aplicam somente às versões de fevereiro de 2016 &amp; maio de 2016 do Dynamics AX.
 
-As informações neste tópico se aplicam somente versões de fevereiro de 2016 e maio de 2016 do Dynamics AX. A funcionalidade de portal do fornecedor foi substituída por uma funcionalidade estendida de colaboração do fornecedor na versão 1611 do Dynamics 365 for Operations. Para obter mais informações sobre a nova funcionalidade de colaboração do fornecedor, consulte [Usando colaboração do fornecedor para trabalhar com fornecedores externos](vendor-collaboration-work-external-vendors.md).  
+As informações neste tópico se aplicam somente às versões de fevereiro de 2016 e maio de 2016 do Dynamics AX. A funcionalidade de portal do fornecedor foi substituída por uma funcionalidade estendida de colaboração do fornecedor na versão 1611 do Dynamics 365 for Operations. Para obter mais informações sobre a nova funcionalidade de colaboração do fornecedor, consulte [Usando colaboração do fornecedor para trabalhar com fornecedores externos](vendor-collaboration-work-external-vendors.md).  
 
-O portal do Fornecedor destina-se aos fornecedores que não têm a integração EDI (intercâmbio eletrônico de dados) com o Microsoft Dynamics AX para trocar informações de ordens de compra (OC). O portal permite que os agentes de compras enviem uma OC ao fornecedor e recebam a resposta Confirmada ou Rejeitada diretamente no Dynamics AX.  
+O portal do fornecedor destina-se aos fornecedores que não têm a integração EDI (intercâmbio eletrônico de dados) com o Microsoft Dynamics AX para trocar informações de ordens de compra (OC). O portal permite que os agentes de compras enviem uma OC ao fornecedor e recebam a resposta Confirmada ou Rejeitada diretamente no Dynamics AX.  
 
 O processo pode ser configurado de modo que uma confirmação do fornecedor confirme automaticamente a ordem. Nesse caso, o acompanhamento só será necessário ocasionalmente, quando uma ordem for rejeitada ou se a confirmação do fornecedor for registrada como uma resposta, mas o status da OC não for atualizado para **Confirmada** devido a um problema durante processo de confirmação.
 
@@ -75,7 +74,7 @@ As ordens que foram enviadas ao fornecedor para a obtenção de uma resposta e c
 
 Os fornecedores não precisam confirmar a OC no portal do fornecedor. Eles também podem enviar uma mensagem de email ou comunicar a aceitação de uma OC por meio de outro canais. É possível confirmar a ordem manualmente no Dynamics AX. Nesse caso, você receberá um aviso de que a ordem está sendo confirmada mesmo que não haja nenhuma resposta do fornecedor. A OC aparece no histórico de confirmação no portal do fornecedor como uma ordem confirmada aberta que não tem nenhuma resposta. Além disso, o fornecedor não terá mais a opção de confirmar ou rejeitar a OC.  
 
-**Observação:** a versão da OC disponível para outros processos no Dynamics AX sempre será a última versão, mesmo se essa versão ainda não tiver sido registrada.
+**Observação:** a versão da OC disponível para outros processos no Dynamics AX sempre será a versão mais recente, mesmo que essa versão ainda não tenha sido registrada.
 
 ### <a name="change-management"></a>Gerenciamento de alterações
 
@@ -102,7 +101,6 @@ A tabela a seguir mostra um exemplo das alterações de status e versão pelas q
 [Configurando a segurança dos usuários de colaboração do fornecedor](configure-security-vendor-portal-users.md)
 
 [Espaço de trabalho de faturamento de colaboração do fornecedor](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
-
 
 
 

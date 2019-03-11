@@ -1,13 +1,13 @@
 ---
-title: "Integração de fornecedores"
-description: "Este tópico descreve o processo de integração de novos fornecedores. Explica as ações necessárias para várias funções durante este processo."
+title: Integração de fornecedores
+description: Este tópico descreve o processo de integração de novos fornecedores. Explica as ações necessárias para várias funções durante este processo.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests,SysUserRequestListPage
 audience: Application User
 ms.reviewer: josaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 5fda191a41300eea7f3036af54852857d8ff653d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: f831d986d7b534bf030bee0fa0c5dcb97af03289
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322136"
 ---
-
 # <a name="onboard-vendors"></a>Integração de fornecedores
 [!include [banner](../includes/banner.md)]
 
@@ -46,10 +45,10 @@ A tabela a seguir mostra as etapas e funções que são envolvidas no processo.
 |--------------------------|---|---|---|---|---|---|
 | System                   | A solicitação de um novo fornecedor é importada. | | | | | Depois que a solicitação do fornecedor for aceita, o registro do fornecedor será criado. |
 | Profissional de compras | | Inicie o processo de integração. | | | Revise e aceite ou rejeite a solicitação do fornecedor. | |
-| Administrador            | | | Crie um usuário no Finance and Operations e Microsoft Azure. | | | |
+| Administrador            | | | Crie um usuário no Finance and Operations e no Microsoft Azure. | | | |
 | Pessoa de contato do fornecedor    | | | Envie email à pessoa de contato. | Registre informações do fornecedor. | | |
 
-Para obter uma rápida demonstração do processo de integração do fornecedor, assista a este vídeo curto no YouTube: [Integrar um novo fornecedor no Dynamics 365 for Finance and Operations] (https://www.youtube.com/watch?v=0KUc3AGaTKk}.
+Para uma demonstração rápida do processo de integração do fornecedor, assista a este breve vídeo no YouTube: [Integrar um novo fornecedor no Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk}.
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>Importando a solicitação de inscrição do fornecedor potencial
 
@@ -66,7 +65,7 @@ A tabela a seguir mostra as informações que esta entidade contém e que pode s
 | O nome da pessoa de contato.  | O nome da pessoa que será convidada para registrar informações de fornecedor. |
 | Nome do meio da pessoa de contato. | O nome do meio da pessoa que será convidada para registrar informações de fornecedor. |
 | O sobrenome da pessoa de contato.   | O sobrenome da pessoa que será convidada para registrar informações de fornecedor. |
-| Email da pessoa de contato       | O endereço de email que será usado para criar um novo usuário no Finance and Operations e que será registrado na conta do Azure Active Directory (Azure AD) account do inquilino. |
+| Email da pessoa de contato       | O endereço de email que será usado para criar um novo usuário no Finance and Operations e que será registrado na conta do Azure Active Directory (Azure AD) do inquilino. |
 | Data de envio               | A data em que a solicitação foi criada em um sistema externo. |
 | Pessoa jurídica em geral                 | A entidade legal na qual o fornecedor deseja se tornar um fornecedor. Esse valor deve ser um código da entidade legal que foi registrado no Finance and Operations. Se nenhum valor for recebido através do processo de importação, um valor dos parâmetros de Compras será aplicado. |
 | Tipo de fornecedor                  | O fornecedor pode ser uma organização ou uma pessoa. O tipo de fornecedor determina como o fornecedor será finalmente criado. |
@@ -77,7 +76,7 @@ Depois que a solicitação de inscrição do fornecedor potencial for importada,
 
 A finalidade de uma solicitação de usuário do fornecedor potencial é provisionar a pessoa que enviou a solicitação inicial, de forma que ela possa entrar no Finance and Operations usando a conta de email fornecida na solicitação de registro do fornecedor potencial.
 
-A solicitação do usuário fornecedor potencial é processada pelo fluxo de solicitações de usuários. Este fluxo de trabalho se comunica com a colaboração do B2B do Azure AD. Ele cria um usuário no Finance and Operations que tem as configurações de segurança apropriadas.
+A solicitação do usuário fornecedor potencial é processada pelo fluxo de solicitações de usuários. Este fluxo de trabalho se comunica por meio da colaboração do B2B do Azure AD. Ele cria um usuário no Finance and Operations que tem as configurações de segurança apropriadas.
 
 Os novos usuários que são configurados têm as seguintes funções de segurança:
 
@@ -174,5 +173,4 @@ Usando a ação **Excluir** da solicitação de registro do fornecedor potencial
 |  Solicitação de fornecedor criada  |                                                                     O assistente de registro de fornecedor foi concluído.                                                                      | Uma solicitação para desativar o usuário foi criada, e a solicitação de registro do fornecedor potencial, os dados que foram inseridos no assistente de registro do fornecedor e a solicitação de fornecedor foram excluídos.<blockquote>[!NOTE]<br>Você não pode usar a ação <strong>Excluir</strong> quando a solicitação do fornecedor estiver em um processo de revisão no fluxo de trabalho.</blockquote> |
 |         Aprovada         |                                                                               A solicitação do fornecedor foi aprovada.                                                                               |                                                                                                   A solicitação de registro do fornecedor potencial, os dados que foram inseridos no assistente de registro do fornecedor e a solicitação do fornecedor foram excluídos.                                                                                                    |
 |         Rejeitada         |                                                                               A solicitação do fornecedor foi rejeitada.                                                                               |                                                                                                   A solicitação de registro do fornecedor potencial, os dados que foram inseridos no assistente de registro do fornecedor e a solicitação do fornecedor foram excluídos.                                                                                                    |
-
 

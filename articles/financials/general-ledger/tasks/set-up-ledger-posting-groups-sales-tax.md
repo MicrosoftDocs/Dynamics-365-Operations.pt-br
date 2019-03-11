@@ -1,13 +1,13 @@
---- 
-title: "Configurar grupos de lançamento contábil do imposto"
-description: "Os impostos sobre vendas são calculados e lançados nas contas principais que são especificadas nos grupos de lançamentos contábeis."
+---
+title: Configurar grupos de lançamento contábil do imposto
+description: Os impostos sobre vendas são calculados e lançados nas contas principais que são especificadas nos grupos de lançamentos contábeis.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxAccountGroup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 15421da6f325dfee22a303e9fe83a0e72895fa08
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308336"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Configurar grupos de lançamento contábil do imposto
 
@@ -48,5 +48,4 @@ Os impostos sobre vendas são calculados e lançados nas contas principais que s
 11. No campo Desconto de caso de cliente, selecione a conta principal para lançar o desconto à vista para os códigos de impostos sobre vendas associados a esse grupo de lançamentos contábeis.
     * Isso é opcional e se nenhuma conta for inserida, a conta principal nos Códigos de desconto à vista será usada. Pode ser útil usar contas diferentes para o grupo de lançamentos contábeis se usar os impostos sobre vendas que podem ser revertidos na opção de desconto à vista em grupos de impostos sobre vendas.  
 12. Clique em Salvar.
-
 

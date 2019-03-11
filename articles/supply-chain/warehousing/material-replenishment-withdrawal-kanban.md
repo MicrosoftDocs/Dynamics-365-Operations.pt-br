@@ -1,32 +1,31 @@
 ---
 title: Reabastecimento com kanbans de retirada
-description: "Este tópico descreve como o kanban de retirada é usado para o reabastecimento de material para atividades de fabricação."
+description: Este tópico descreve como o kanban de retirada é usado para o reabastecimento de material para atividades de fabricação.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7fe3ebe3c27c380d95cbc12b864264e9538d433f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 011da8cd894cc044b6af8b740e49ed8d7c3c0c67
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320917"
 ---
-
 # <a name="replenishment-with-withdrawal-kanbans"></a>Reabastecimento com kanbans de retirada
 
 [!include [banner](../includes/banner.md)]
@@ -87,5 +86,4 @@ No cenário a seguir, a atividade de transferência do kanban de retirada é con
 6.  Processo de fabricação
 
 Depois de consumido em um local de entrada de produção, o kanban é relatado como vazio, e um novo kanban é adicionado ao fluxo. Quando o kanban é criado, uma linha de onda é adicionada a uma onda kanban. Quando a onda kanban é processada, o trabalho de depósito para a separação kanban é criado. O trabalhador do depósito processa o trabalho para a separação kanban e é direcionado pelo trabalho a separar o material para o kanban em um local de depósito. Na medida em que esse trabalhador do depósito confirma a separação, o kanban é concluído automaticamente, e o trabalhador do depósito é orientado a atrelar o material ao local de entrada de produção.
-
 

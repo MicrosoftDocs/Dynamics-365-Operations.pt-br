@@ -1,13 +1,13 @@
 ---
 title: Configurar livros fiscais
-description: "Este tópico explica como configurar livros fiscais. Eles ajudam a consolidar livros fiscais e estatutários em arquivos eletrônicos para que você possa atender aos requisitos do SPED."
+description: Este tópico explica como configurar livros fiscais. Eles ajudam a consolidar livros fiscais e estatutários em arquivos eletrônicos para que você possa atender aos requisitos do SPED.
 author: v-gonode
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FBTaxStatement_BR
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Brazil
 ms.author: v-gonode
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: d8f984a53aa6557676fc82db702495011eab65fa
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8550cf268e85007d9785fe76a0759c29ba37c3e4
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371577"
 ---
-
 # <a name="configure-fiscal-books"></a>Configurar livros fiscais
 
 [!include [banner](../includes/banner.md)]
@@ -174,4 +173,3 @@ Na página **Grupos de ativos fixos**, você pode configurar um grupo de ativos 
 > Os campos para as etapas 8, 9 e 10 não estão disponíveis quando a versão 3.0 for selecionada. Essas informações foram alteradas e incluídas na configuração da organização fiscal.
 
 Na página **Detalhes do contador**, você pode configurar informações de contador para a escrituração de imposto.
-

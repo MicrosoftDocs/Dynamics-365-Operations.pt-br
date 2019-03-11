@@ -1,13 +1,13 @@
 ---
-title: "Home page de BI (business intelligence) e relatórios"
-description: "Este tópico indica os recursos que você poderá usar para saber mais sobre as ferramentas de business intelligence e de relatório que estão disponíveis no Microsoft Dynamics 365 for Finance and Operations."
+title: Home page de BI (business intelligence) e relatórios
+description: Este tópico indica os recursos que você poderá usar para saber mais sobre as ferramentas de business intelligence e de relatório que estão disponíveis no Microsoft Dynamics 365 for Finance and Operations.
 author: sericks007
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 372113f019cbce790dcd3e356a14a7bb49b8afd7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: bd3704f3b51aad7292571e5c4e6de7b93cf9529f
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301895"
 ---
-
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>Home page de BI (business intelligence) e relatórios
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico indica os recursos que você poderá usar para saber mais sobre as ferramentas de BI (business intelligence) e de relatório que estão disponíveis no Microsoft Dynamics 365 for Finance and Operations.
+Este tópico indica os recursos que você poderá usar para saber mais sobre as ferramentas de business intelligence (BI) e de relatório que estão disponíveis no Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="get-started"></a>Introdução
 - [Acesso a informações e relatório](information-access-reporting.md)
@@ -47,7 +46,7 @@ Para saber mais, consulte os seguintes tópicos:
 
 - [Power BI Embedded em espaços de trabalho](embed-power-bi-workspaces.md)
 - [Integração do Power BI Embedded](power-bi-embedded-integration.md)
-- [Adicionar análise a espaços de trabalho usando o Power BI Embedded](add-analytics-tab-workspaces.md)
+- [​Adicionar análise a espaços de trabalho usando o Power BI Embedded](add-analytics-tab-workspaces.md)
 - [Ajudar a proteger espaços de trabalho analíticos e relatórios usando o Power BI Embedded](secure-analytical-workspaces.md)
 - [Conteúdo do Power BI para o Finance and Operations](power-bi-home-page.md)
 
@@ -73,7 +72,7 @@ Para saber mais, consulte os seguintes tópicos:
 - [Gerenciar o ciclo de vida da configuração de Relatório eletrônico](general-electronic-reporting-manage-configuration-lifecycle.md)
 - [Criar uma configuração de Relatório eletrônico](electronic-reporting-configuration.md)
 
-## <a name="financial-reporting"></a>Relatório financeiro
+## <a name="financial-reporting"></a>Relatórios financeiros
 São fornecidos relatórios financeiros padrão que usam as categorias de conta principal padrão no Finance and Operations. Você pode usar o designer de relatórios para criar ou modificar demonstrativos financeiros tradicionais, como declarações de renda e balanços. Você poderá então compartilhar os resultados com outros membros de sua organização. Exemplos de relatório financeiro incluem balanços, fluxo de caixa e balancete de resumo ano a ano.
 
 [![Exemplo de relatório financeiro](./media/financial-reporting-example.png)](./media/financial-reporting-example.png)
@@ -91,4 +90,3 @@ Os seguintes relatórios fornecem informações de referência sobre os objetos 
 - [Relatório de códigos de licença e chaves de configuração](../sysadmin/license-codes-configuration-keys-report.md)
 - [Relatório de relatórios do SQL Server Reporting Services](SSRS-report.md)
 - [Relatório de tipos de fluxo de trabalho](../../fin-and-ops/organization-administration/workflow-types-report.md)
-

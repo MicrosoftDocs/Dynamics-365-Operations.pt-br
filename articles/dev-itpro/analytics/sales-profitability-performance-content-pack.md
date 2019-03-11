@@ -1,13 +1,13 @@
 ---
-title: "Conteúdo de desempenho de lucratividade e vendas para Power BI"
-description: "Este tópico descreve o que está incluído no conteúdo do Power BI Desempenho de vendas e lucratividade. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo."
+title: Conteúdo de desempenho de vendas e de lucratividade do Power BI
+description: Este tópico descreve o que está incluído no conteúdo do Power BI Desempenho de vendas e lucratividade. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que são usados para criar o conteúdo.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesProfitabilityPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: cf4d3e12d33b67158ff4f96580b4ac2eb903bb93
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360408"
 ---
-
-# <a name="sales-and-profitability-performance-power-bi-content"></a>Conteúdo de desempenho de lucratividade e vendas para Power BI
+# <a name="sales-and-profitability-performance-power-bi-content"></a>Conteúdo de desempenho de vendas e de lucratividade do Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o que está incluído no conteúdo do Microsoft Power BI **Desempenho de vendas e lucratividade**. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo.
+Este tópico descreve o que está incluído no conteúdo do Microsoft Power BI **Desempenho de vendas e lucratividade**. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que são usados para criar o conteúdo.
 
 ## <a name="overview"></a>Visão Geral
 
@@ -52,8 +51,8 @@ A lucratividade pode ser analisado das seguintes formas:
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
 O conteúdo do Power BI **Desempenho de vendas e de lucratividade** é exibido na página **Desempenho de vendas e de lucratividade** (**Vendas e marketing** \> **Consultas e relatórios** \> **Análise de desempenho de vendas** \> **Desempenho de vendas e de lucratividade**).
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas incluídas no conteúdo do Power BI
-O conteúdo do Power BI **Desempenho de lucratividade e vendas** inclui um relatório que consiste em um conjunto de métricas. Estas métricas são visualizadas como gráficos, blocos e tabelas. A tabela a seguir fornece uma visão geral das visualizações no conteúdo.
+## <a name="metricsthat-are-included-in-the-power-bi-content"></a>Métricas incluídas no conteúdo do Power BI
+O conteúdo do Power BI **Desempenho de lucratividade** e vendas inclui um relatório que consiste em um conjunto de métricas. Estas métricas são visualizadas como gráficos, blocos e tabelas. A tabela a seguir fornece uma visão geral das visualizações no conteúdo.
 
 | Página de relatório            | Gráficos                                     | Blocos                                                   |
 |------------------------|--------------------------------------------|---------------------------------------------------------|
@@ -78,7 +77,7 @@ O conteúdo do Power BI **Desempenho de lucratividade e vendas** inclui um relat
 \* Receita este ano e último ano, e crescimento por categoria de vendas.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
-Os seguintes dados são usados para preencher o relatório no conteúdo do Power BI **Desempenho de lucratividade e vendas**. Esses dados são representadas como medições agregadas que foram preparadas no Repositório de entidades. O Repositório de entidades é um banco de dados do Microsoft SQL Server otimizado para análise. Para obter mais informações, consulte [Visão geral da integração do Power BI com a loja Entidade](power-bi-integration-entity-store.md).
+Os seguintes dados são usados para preencher o relatório no conteúdo do Power BI **Desempenho de lucratividade e vendas**. Esses dados são representadas como medições agregadas que foram preparadas no Repositório de entidades. O Repositório de entidades é um banco de dados do Microsoft SQL Server otimizado para análise. Para obter mais informações, consulte [Visão geral da integração do Power BI com o repositório de entidades](power-bi-integration-entity-store.md).
 
 As medidas agregadas neste conteúdo são o subconjunto de medidas agregadas que estavam disponíveis no Cubo de Vendas no Microsoft Dynamics AX 2012 e no Microsoft Dynamics AX 2012 R3. Para preparar as medidas agregadas do cubo na loja Entidade, você deve torná-las implementáveis. Para obter mais informações, consulte o procedimento sobre como preparar medidas agregadas na loja Entidade na postagem do blog [Integração do Power BI com a loja Entidade no Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/).
 
@@ -109,4 +108,3 @@ As dimensões-chave a seguir no Cubo de Vendas são usadas como filtros para cor
 | Datas            | Datas                                                |
 
 Por padrão, o conteúdo exibe dados do ano atual. Entretanto, poderá modificar o filtro de data na seção filtros de relatório. Você também pode alterar o filtro da empresa.
-

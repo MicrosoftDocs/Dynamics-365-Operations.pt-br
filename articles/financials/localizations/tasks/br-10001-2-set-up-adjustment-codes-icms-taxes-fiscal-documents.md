@@ -1,13 +1,13 @@
---- 
-title: "Configurar códigos de ajuste para impostos ICMS em notas fiscais (Brasil)"
-description: "Você pode criar códigos de ajuste de imposto para ajustar manualmente valores do ICMS em notas fiscais."
+---
+title: Configurar códigos de ajuste para impostos ICMS em notas fiscais (Brasil)
+description: Você pode criar códigos de ajuste de imposto para ajustar manualmente valores do ICMS em notas fiscais.
 author: sndray
 manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: eb9eb2a9015c65f042611eb4ed9d8e8f39a45396
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 1a4a7ca6de4849ab373d494e84a7318f0b22f43b
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371668"
 ---
 # <a name="set-up-adjustment-codes-for-icms-taxes-on-fiscal-documents-brazil"></a>Configurar códigos de ajuste para impostos ICMS em notas fiscais (Brasil)
 
@@ -50,5 +50,4 @@ Quando o arquivo fiscal SPED é gerado, o registro C197 inclui informações sob
 18. No campo Conta principal, especifique os valores desejados.
 19. Clique em Salvar.
 20. Feche a página.
-
 

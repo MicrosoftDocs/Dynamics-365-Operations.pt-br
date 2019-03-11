@@ -1,29 +1,29 @@
 ---
-title: "Novidades ou alterações no Dynamics 365 for Talent Core HR (31 de outubro de 2018)"
-description: "Este tópico descreve os recursos novos ou alterados na versão atual do Core HR do Microsoft Dynamics 365 for Talent."
+title: Novidades ou alterações no Dynamics 365 for Talent Core HR (31 de outubro de 2018)
+description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 for Talent Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 10/31/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: c5acd09e25ecd5fefa637342f83d0ee0f1891402
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303274"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-31-2018"></a>Novidades ou alterações no Dynamics 365 for Talent Core HR (31 de outubro de 2018)
 
@@ -99,4 +99,3 @@ A entidade de Data Management Framework (DMF) HcmPersonalContactPersonEntity foi
 ## <a name="known-issue"></a>Problema conhecido
 - **Erro**: Ao adicionar um novo anexo a um trabalhador, os botões **Novo** e **Editar** são esmaecidos. 
 - **Solução alternativa:** Antes de abrir a página do anexo, garante que os caixas de dados na página **Trabalhador** estejam fechadas. Se os Quadros de Fatos estiverem fechados quando a página **Trabalhador** for carregada, os botões Anexos serão habilitados. (Esse problema será corrigido na próxima atualização de plataforma.)
-

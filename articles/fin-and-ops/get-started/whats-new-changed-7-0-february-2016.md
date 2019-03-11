@@ -1,13 +1,13 @@
 ---
-title: "O que há de novo ou diferente no Dynamics AX 7.0 (fevereiro de 2016)"
-description: "Este artigo descreve os recursos novos ou alterados na versão 7.0 do Microsoft Dynamics. Esta versão contém recursos de plataforma e aplicativos e foi lançada em fevereiro de 2016."
+title: Novidades ou alterações no Dynamics AX 7.0 (fevereiro de 2016)
+description: Este artigo descreve os recursos novos ou alterados no Microsoft Dynamics AX 7.0. Esta versão contém recursos de plataforma e aplicativos e foi lançada em fevereiro de 2016.
 author: sericks007
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: cdd8acea22fb3298d1d0e7ccce0ca42c1427fe80
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334878"
 ---
-
-# <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>O que há de novo ou diferente no Dynamics AX 7.0 (fevereiro de 2016)
+# <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Novidades ou alterações no Dynamics AX 7.0 (fevereiro de 2016)
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo descreve os recursos novos ou alterados na versão 7.0 do Microsoft Dynamics. Esta versão contém recursos de plataforma e aplicativos e foi lançada em fevereiro de 2016.
+Este artigo descreve os recursos novos ou alterados no Microsoft Dynamics AX 7.0. Esta versão contém recursos de plataforma e aplicativos e foi lançada em fevereiro de 2016.
 
 ## <a name="cost-management"></a>Gerenciamento de custo
 
@@ -62,7 +61,7 @@ Este artigo descreve os recursos novos ou alterados na versão 7.0 do Microsoft 
 <td>É mais fácil configurar o sistema, já que os novos rótulos estão relacionados aos eventos operacionais que usam esse tipo de lançamento.</td>
 </tr>
 <tr>
-<td>Importar/exportar o preço de compra, custo, ou preço de venda do Microsoft Excel para ou de uma versão de avaliação de custo.</td>
+<td>Importe/exporte o preço de compra, o custo ou os preços de venda do Microsoft Excel para ou de uma versão de avaliação de custo.</td>
 <td>Você não consegue importar preços ou custos corretamente para uma versão de avaliação de custo, pois o modelo de dados requer uma ID de InventDim.</td>
 <td>A introdução das entidades de dados possibilita a implementação de um recurso de exportação/importação. Esse recurso permite aos usuários importar/exportar preços ou custos para uma versão de avaliação de custo.
 <ul>
@@ -116,13 +115,13 @@ Esse recurso funciona independentemente dos métodos de avaliação de custo atr
 | O que você pode fazer? | Dynamics AX 2012 | Dynamics AX 7.0 | Por que isso é importante? |
 |------------------|------------------|-----------------|------------------------|
 | Crie soluções baseadas na Web na nuvem que possam ser acessadas em muitos dispositivos. | Não disponível | A versão atual do Dynamics AX baseia-se em um novo cliente baseado na Web e estrutura de cliente. | Você pode fornecer a próxima geração de soluções a seus usuários finais. |
-| Use o Microsoft Visual Studio para desenvolver suas soluções. | O Microsoft MorphX é o principal ambiente de desenvolvimento, mas uma parte do desenvolvimento pode ser feita no Visual Studio. | O Visual Studio é o único ambiente de desenvolvimento. | Mantém conceitos familiares do Dynamics AX 2012, adaptando-os perfeitamente à estrutura e aos paradigmas do Visual Studio. Permite a interoperabilidade padrão com outros projetos e linguagens .NET. |
+| Use o Microsoft Visual Studio para desenvolver suas soluções. | O Microsoft MorphX é o principal ambiente de desenvolvimento, mas uma parte do desenvolvimento ocorre no Visual Studio. | Visual Studio é o único ambiente de desenvolvimento. | Ele mantém conceitos familiares ao DynamicsAX 2012, adaptando-os perfeitamente à estrutura e aos paradigmas do Visual Studio. Permite a interoperabilidade padrão com outros projetos e linguagens .NET. |
 | Compile o CIL (Common Intermediate Language) para outros recursos. | X++ é compilado para p-code. | O novo compilador X++ gera CIL para todos os recursos. A CIL é a mesma linguagem intermediária usada por outras linguagens baseadas em .NET. | A CIL é mais rápida, pode referenciar eficientemente as classes nas bibliotecas de link dinâmico (DLLs) gerenciadas e pode ser executada em uma ampla base de ferramentas de utilitários .NET. |
 | Relatórios e visualizações de BI integrados no cliente do Microsoft Dynamics AX. | Não disponível | Crie visualizações altamente intuitivas e fluidas. | Fornece informações para tomada de decisão baseadas em BI. |
-| Integra-se com o Microsoft Office. | Não disponível | Os novos recursos incluem o aplicativo Excel Data Connector, a página **Designer de pastas de trabalho**, Export API e Gerenciamento de documentos. | É possível criar soluções de produtividade para seus usuários finais. |
+| Integrar ao Microsoft Office. | Não disponível | Os novos recursos incluem o aplicativo Excel Data Connector, a página **Designer de pastas de trabalho**, Export API e Gerenciamento de documentos. | É possível criar soluções de produtividade para seus usuários finais. |
 | Automatize a criação, teste e implantação. | Parcialmente disponível | Implante a Topologia do desenvolvedor usando Desenvolvedor e Criar VM. Configure automaticamente Criar VM para fazer descobertas, criar módulos no Visual Studio Online (VSO) e executar testes. Compilação e referências do módulo C\# e X++ são compatíveis. | Aumenta a produtividade do desenvolvedor reduzindo custos e esforços em testes e validações. |
 | Faça personalizações com sobreposições e extensões. | As extensões não estão disponíveis. | A versão atual do Dynamics AX apresenta um novo modelo de personalização. | Você pode personalizar o código-fonte e os metadados dos elementos do modelo que são emitidos pela Microsoft ou por parceiros terceirizados da Microsoft. |
-| Crie novos controles e elementos de interface de usuário usando X++ e uma estrutura da Web moderna. | Controles personalizados dependem de estruturas externas, como o Microsoft ActiveX e Windows Presentation Foundation (WPF). | É mais fácil criar controles na versão atual. A estrutura X++ pode ser usada em comportamento de aplicativo e lógica comercial, e um cliente baseado em HTML/JavaScript permite visualizações modernas. | Seus controles podem ser projetados para ter aparência e comportamento semelhantes aos controles fora-da-caixa (OOB) do Dynamics AX. |
+| Crie novos controles e elementos de interface de usuário usando X++ e uma estrutura da Web moderna. | Controles personalizados dependem de estruturas externas, como o Microsoft ActiveX e Windows Presentation Foundation (WPF). | É mais fácil criar controles na versão atual. A estrutura X++ pode ser usada em comportamento de aplicativo e lógica comercial, e um cliente baseado em HTML/JavaScript permite visualizações modernas. | Seus controles podem ser projetados para ter aparência e comportamento semelhantes aos controles prontos para uso do Dynamics AX. |
 | Avalie e ajuste o desempenho usando novas ferramentas. | PerfSDK, Kit de Ferramentas de Expansão de Dados, aplicativo Web Trace Parser e PerfTimer não estão disponíveis. | PerfSDK, Kit de Ferramentas de Expansão de Dados, aplicativo Web Trace Parser e PerfTimer são novos. | O SDK (Software Development Kit) permite testar e validar processos de negócios para desempenho em uma execução de teste de usuário único e, se aplicável, de vários usuários. O Kit de Ferramentas de Expansão de Dados permite que você expanda corretamente todos os testes de desempenho que precisam ter dados mestres e dados transacionais corretamente expandidos. O Trace Parser permite validar execuções de teste de desempenho de um único usuário ou de vários usuários. O PerfTimer permite verificar se qualquer consulta ou chamada de método específica está causando problemas de desempenho. Portanto, não é necessário acompanhar e analisar tudo detalhadamente. |
 | Exponha uma exibição atualizável usando OData. | Não disponível | A versão atual do Dynamics AX apresenta um ponto de extremidade do serviço OData que permite acesso a dados do Dynamics AX de forma consistente em vários clientes. | Suas soluções podem interagir com os serviços RESTful, compartilhar dados de forma perceptível e permitir uma ampla integração usando a pilha de protocolos HTTP. |
 | Aproveite o business connector para criar lógica de negócios e oferecer suporte a cenários de integração. | O conector de negócios está disponível para chamar o código X ++ do código gerenciado. Recomendamos que você use o conector de negócios somente para criar a lógica comercial no C\#, não para cenários de integração. | O business connector não é mais compatível. O requerimento de criação é fornecido pelo fato de que o X++ é compilado no código gerenciado. Portanto, o interop será mais fácil. Os cenários de integração são atendidos por meio de OData. | Você não pode usar o business connector daqui para a frente. |
@@ -141,7 +140,7 @@ Esse recurso funciona independentemente dos métodos de avaliação de custo atr
 </thead>
 <tbody>
 <tr>
-<td>Exporte as estruturas de conta para o Microsoft Excel.</td>
+<td>Exportar estruturas de conta para o Microsoft Excel.</td>
 <td>Não disponível</td>
 <td>Agora é possível selecionar uma estrutura de conta e exportá-la para o Excel.</td>
 <td>Muitos clientes solicitaram a capacidade de exportar estruturas de conta para o Excel para tornar a filtragem mais fácil.</td>
@@ -207,21 +206,21 @@ Esse recurso funciona independentemente dos métodos de avaliação de custo atr
 <td>Usuários de relatórios financeiros podem aplicar diferentes filtros para dimensões, datas, atributos e cenários sem a necessidade de atualizações para designs de relatório.</td>
 </tr>
 <tr>
-<td>Exiba relatórios financeiros (Relator de Gerenciamento) dentro do cliente do Microsoft Dynamics AX.</td>
+<td>Exiba relatórios financeiros (Management Reporter) dentro do cliente do Microsoft Dynamics AX.</td>
 <td>Um cliente web à parte foi usado para exibir os relatórios do Management Reporter.</td>
 <td>Todos os relatórios financeiros podem ser acessados no cliente do Dynamics AX. O usuário seleciona um relatório que será exibido no cliente.</td>
 <td>Agora você pode exibir relatórios financeiros sem a necessidade de acesso a um cliente/aplicativo diferente.</td>
 </tr>
 <tr>
-<td>Imprima relatórios financeiros (Relator de Gerenciamento) a partir do cliente do Microsoft Dynamics AX.</td>
+<td>Imprima relatórios financeiros (Management Reporter) do cliente do Microsoft Dynamics AX.</td>
 <td>Imprimir um relatório utilizaria as opções de impressão do navegador para impressões e imprimiria apenas o que o usuário visualiza na tela.</td>
 <td>O usuário pode escolher o nível de detalhamento e a configuração de página para um relatório utilizando a opção Imprimir do relatório financeiro no cliente do Dynamics AX.</td>
 <td>Os relatórios impressos são gerados de acordo com a expectativa do usuário, ao invés de imprimir uma página da web.</td>
 </tr><tr>
-<td>Analise os dados financeiros utilizando o conteúdo do pagamento à vista "Monitorar desempenho financeiro" do Power BI.</td>
+<td>Analise os dados financeiros utilizando o conteúdo do Power BI "Monitorar desempenho financeiro".</td>
 <td>Não disponível</td>
-<td>Em PowerBI.com, selecione <strong>Obter Dados</strong>, e depois selecione o pacote de conteúdo <strong>Dynamics AX – Desempenho financeiro</strong>. Insira a URL para seu ponto de extremidade do Dynamics AX para ver seus dados refletidos no painel.</td>
-<td>Com três ou quatro cliques, as empresas podem implantar um painel Power BI que contém dados financeiros importantes. O conteúdo pode ser personalizado pela organização.</td>
+<td>Em PowerBI.com, selecione <strong>Obter Dados</strong> e depois selecione o pacote de conteúdo <strong>Dynamics AX – Desempenho financeiro</strong>. Insira a URL para seu ponto de extremidade do Dynamics AX para ver seus dados refletidos no painel.</td>
+<td>Com três ou quatro cliques, as organizações podem implantar um painel Power BI que contém dados financeiros importantes. O conteúdo pode ser personalizado pela organização.</td>
 </tr>
 <tr>
 <td>Rastreie processos de fechamento de período financeiro.</td>
@@ -276,7 +275,7 @@ Esse recurso funciona independentemente dos métodos de avaliação de custo atr
 <tbody>
 <tr>
 <td>Acesse o cliente a qualquer momento, em qualquer lugar.</td>
-<td>O cliente de desktop do AX 2012 fornece um conjunto completo de formulários, mas só pode ser executado em um computador com Microsoft Windows e precisa de instalação. O Terminal Server é frequentemente utilizado com o cliente da área de trabalho para habilitar o acesso em uma ampla área de rede (WAN). O cliente web do portal empresarial fornece um conjunto reduzido de formulários.</td>
+<td>O cliente de desktop do AX 2012 fornece um conjunto completo de formulários, mas só pode ser executado em computadores que executam o Microsoft Windows e precisa de instalação. O Terminal Server é frequentemente utilizado com o cliente da área de trabalho para habilitar o acesso em uma ampla área de rede (WAN). O cliente web do portal empresarial fornece um conjunto reduzido de formulários.</td>
 <td>Os dois clientes do AX 2012 foram substituídos por um único cliente web baseado em padrões que fornece o conjunto completo de funcionalidade do cliente de área de trabalho juntamente com o alcance do cliente do portal empresarial.</td>
 <td>Evita que esforços de desenvolvimento sejam divididos entre duas plataformas de interface do usuário. Usando interfaces da Web padrão, elimina a necessidade de Terminal Server.</td>
 </tr>
@@ -289,12 +288,12 @@ Esse recurso funciona independentemente dos métodos de avaliação de custo atr
 <tr>
 <td>Ajuda os usuários a compreender melhor seu trabalho futuro com espaços de trabalho.</td>
 <td>Os centros de funções fornecem uma visão geral das informações que pertencem à função de trabalho de um usuário na empresa ou organização.</td>
-<td>Espaços de trabalho são um novo conceito no Dynamics AX que devem substituir centros de funções como a principal maneira de navegar para tarefas e páginas específicas Eles fornecem uma visão geral em uma página sobre uma atividade empresarial e ajudam usuários a entender o status atual, a carga de trabalho futura e o desempenho do processo ou usuário. Espaços de trabalho são mais granulares que os centros de funções do AX 2012, e um usuário pode ter acesso a diversos espaços de trabalho.</td>
+<td>Espaços de trabalho são um novo conceito no Dynamics AX que devem substituir centros de funções como a principal maneira de navegar para tarefas e páginas específicas. Eles fornecem uma visão geral em uma página sobre uma atividade empresarial e ajudam usuários a entender o status atual, a carga de trabalho futura e o desempenho do processo ou usuário. Espaços de trabalho são mais granulares que os centros de funções do AX 2012, e um usuário pode ter acesso a diversos espaços de trabalho.</td>
 <td>Espaços de trabalho foram criados para aumentar a produtividade do usuário. Os desenvolvedores precisarão criar um espaço de trabalho para cada "atividade" significativa com suporte no produto. Um centro de funções herdado do AX 2012 normalmente será substituído por vários espaços de trabalho na versão atual do Dynamics AX.</td>
 </tr>
 <tr>
 <td>Tornar os formulários sensíveis à área de exibição do navegador ou tamanho do dispositivo.</td>
-<td>No AX 2012, o conteúdo de formulário estava rigidamente estabelecido usando colunas, e a altura/largura geral da forma era amplamente determinada com base nos controles do formulário.</td>
+<td>No AX 2012, o conteúdo de formulário estava rigidamente estabelecido usando colunas, e a altura/largura geral do formulário era amplamente determinada com base nos controles do formulário.</td>
 <td>Com a mudança para a web no Dynamics AX mais recente, as dimensões do formulário agora são baseadas no tamanho da janela do navegador ou dispositivo. Os parâmetros de layout e controles foram modificados ou adicionados para responder melhor às alterações no tamanho da área de exibição.</td>
 <td>O conteúdo do formulário precisa ser mais sensível para otimizar o uso da altura/largura disponível no navegador ou dispositivo. Alcançar a capacidade de resposta pode exigir alterações no modo como um formulário é modelado.</td>
 </tr>
@@ -322,7 +321,7 @@ Esse recurso funciona independentemente dos métodos de avaliação de custo atr
 <tr>
 <td>Acesse a Ajuda de procedimentos guiados (guias de tarefas) e tópicos conceituais clicando em <strong>Ajuda</strong>.</td>
 <td>O sistema de ajuda do AX 2012 indica os tópicos de HTML que estão armazenados em um servidor web local. Clientes e parceiros podem criar sua própria ajuda.</td>
-<td>O sistema de ajuda na versão atual do Dynamics AX mostra os guias de tarefas que estão armazenados no BPM do Microsoft Dynamics Lifecycle Services (LCS). O sistema de ajuda também mostra tópicos do site de documentos da Microsoft. Para obter mais informações, consulte <a href="help-overview.md" data-raw-source="[Dynamics AX Help - Getting Started](help-overview.md)">Ajuda do Dynamics AX - Introdução</a> e <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides available (February 2016)](new-task-guides-available-february-2016.md)">Novos guias de tarefa disponíveis (fevereiro de 2016)</a>.</td>
+<td>O sistema de ajuda na versão atual do Dynamics AX mostra as guias de tarefas que estão armazenadas no BPM do Microsoft Dynamics Lifecycle Services (LCS). O sistema de ajuda também mostra tópicos do site de documentos da Microsoft. Para obter mais informações, consulte <a href="help-overview.md" data-raw-source="[Dynamics AX Help - Getting Started](help-overview.md)">Ajuda do Dynamics AX - Introdução</a> e <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides available (February 2016)](new-task-guides-available-february-2016.md)">Novas guias de tarefa disponíveis (fevereiro de 2016)</a>.</td>
 <td>Guias de tarefa fornecem uma experiência controlada, guiada, interativa que servirá de norte durante as etapas de uma tarefa ou processo comercial. Você pode baixar e personalizar os guias de tarefas que a Microsoft fornece. O tópico fornece uma maneira mais rápida e mais flexível para criar, entregar e atualizar a documentação do produto. Portanto, ajuda a garantir que você tenha acesso às informações técnicas mais recentes.</td>
 </tr>
 </tbody>
@@ -427,8 +426,8 @@ Não foram adicionados novos recursos.
 <tbody>
 <tr>
 <td>Configure e gere documentos eletrônicos para atender às exigências legais de vários países/regiões.</td>
-<td>Documentos eletrônicos são de difícil codificação em X++ ou como XSLTs (Extensible Stylesheet Language Transformations). Qualquer ajuste de formato exige esforços de desenvolvimento. Acesso a dados e formatação não são isolados. Um desenvolvimento de formato ajustado requer um novo pacote de hotfix do Microsoft Dynamics AX que substitua a formato existente. As modificações personalizadas de cada formato devem ser transferidas para o código-fonte de um novo pacote de hotfix do Microsoft Dynamics AX.</td>
-<td>O Relatório Eletrônico (RE) é uma nova ferramenta para configurar e gerar documentos eletrônicos que têm como alvo um usuário empresarial ao invés de um desenvolvedor. O RE permite que você configure modelos de dados que são de domínio específico e independente da base de dados do Microsoft Dynamics AX como fontes de dados para formatos de documento. Um usuário comercial pode configurar os formatos, com base nesses modelos de dados específicos do domínio (por exemplo, para pagamentos, relatórios Intrastat ou relatórios de imposto). O usuário configura os formatos usando ferramentas visuais simples que são semelhantes ao Excel. O RE é atualmente compatível com a geração de documentos eletrônicos nos formatos texto, XML e Excel. Esses documentos podem ser gerados simultaneamente e comprimidos em arquivos ZIP. Modelos e formatos de dados são compatíveis com controle de versão. Versões de formato podem ter períodos vigentes. Cada modelo de dados ou versão de formato é armazenado em uma configuração separada e distribuído a parceiros e clientes por meio de LCS. Parceiros e clientes podem personalizar modelos e formatos de dados da Microsoft ou criar os seus próprios. O RE salva as alterações nas configurações de parceiros e clientes como deltas nas configurações da Microsoft, o que simplifica as atualizações para novas versões de configurações da Microsoft. Ao utilizar LCS, os parceiros também podem compartilhar seus modelos de dados e suas configurações de formato com outros parceiros e clientes, que podem personalizá-las e compartilhá-las. A personalização e fácil atualização de delta recebem suporte em toda a cadeia de personalização.</td>
+<td>Documentos eletrônicos são de difícil codificação em X++ ou como XSLTs (Extensible Stylesheet Language Transformations). Qualquer ajuste de formato exige esforços de desenvolvimento. Acesso a dados e formatação não são isolados. Um desenvolvimento de formato ajustado requer um novo pacote de hotfix do Microsoft Dynamics AX que substitua a formato existente. As modificações personalizadas de cada formato devem ser transferidas manualmente para o código-fonte de um novo pacote de hotfix do Microsoft Dynamics AX.</td>
+<td>O Relatório Eletrônico (RE) é uma nova ferramenta para configurar e gerar documentos eletrônicos que têm como alvo um usuário empresarial ao invés de um desenvolvedor. O RE permite que você configure modelos de dados que são específicos de domínio e independentes da base de dados do Microsoft Dynamics AX como fontes de dados para formatos de documento. Um usuário comercial pode configurar os formatos, com base nesses modelos de dados específicos do domínio (por exemplo, para pagamentos, relatórios Intrastat ou relatórios de imposto). O usuário configura os formatos usando ferramentas visuais simples que são semelhantes ao Excel. O RE é atualmente compatível com a geração de documentos eletrônicos nos formatos texto, XML e Excel. Esses documentos podem ser gerados simultaneamente e comprimidos em arquivos ZIP. Modelos e formatos de dados são compatíveis com controle de versão. Versões de formato podem ter períodos vigentes. Cada modelo de dados ou versão de formato é armazenado em uma configuração separada e distribuído a parceiros e clientes por meio de LCS. Parceiros e clientes podem personalizar modelos e formatos de dados da Microsoft ou criar os seus próprios. O RE salva as alterações nas configurações de parceiros e clientes como deltas nas configurações da Microsoft, o que simplifica as atualizações para novas versões de configurações da Microsoft. Ao utilizar LCS, os parceiros também podem compartilhar seus modelos de dados e suas configurações de formato com outros parceiros e clientes, que podem personalizá-las e compartilhá-las. A personalização e fácil atualização de delta recebem suporte em toda a cadeia de personalização.</td>
 <td>O RE simplifica a criação, manutenção e atualização de formatos de documentos eletrônicos visando atender as exigências legais em diversos países/regiões. O RE torna o processo de criação ou alteração de formatos de documentos eletrônicos mais rápido e fácil. Essas alterações podem ser feitas por usuários comerciais em vez de desenvolvedores. O RE torna mais rápido e fácil para parceiros e clientes atualizarem suas personalizações de formato para novas versões de formatos que são lançadas pela Microsoft ou outros parceiros. O RE oferece uma maneira comum (por meio do LCS) para que a Microsoft e os parceiros distribuam configurações de documento eletrônico para outros parceiros e clientes. O RE também facilita para que parceiros e clientes personalizem, atualizem e distribuam formatos de documento eletrônico de acordo com suas necessidades comerciais específicas.</td>
 </tr>
 <tr>
@@ -559,7 +558,7 @@ Não foram adicionados novos recursos.
 |------------------|------------------|-----------------|------------------------|
 | Use o espaço de trabalho **Preparação da ordem de compra** para obter informações rápidas sobre o status das ordens de compra que estão sendo preparadas. | Sem suporte | O espaço de trabalho **Preparação da ordem de compra** oferece uma visão geral das ordens do momento em que são criadas como um rascunho e rastreadas, passando pelos estados de aprovação de fluxo de trabalho, até a confirmação. | O departamento de compras não precisa mais procurar informações em várias páginas, pois agora ele se beneficia da visão geral que o espaço de trabalho fornece. |
 | Use o espaço de trabalho **Recebimento e acompanhamento da ordem de compra** para obter informações rápidas sobre ordens de compra com recebimento pendente, para auxiliar no acompanhamento. | Sem suporte | O espaço de trabalho **Recebimento e acompanhamento da ordem de compra** oferece uma visão geral das ordens de compra confirmadas com recebimento ou envio pendente. O espaço de trabalho inclui listas de recebimentos pós-vencimento e recebimentos pendentes para ajudar com revisão e acompanhamento proativos pelo fornecedor. O espaço de trabalho também lista ordens de compra cujo registro de entrada ocorreu no depósito, para ajudar a garantir que o recebimento será lançado. As devoluções de ordens de compra que ainda não foram emitidas também estão disponíveis para análise. | O departamento de compras aproveita a visão geral que o espaço de trabalho fornece. As informações relevantes são reunidas para orientar o acompanhamento e ajudar a melhorar a produtividade. |
-| Envie as ordens de compra para confirmação a um portal de fornecedor hospedado no cliente do Dynamics AX. Deixe que o fornecedor confirme ou rejeite. | Sem suporte | A interface do portal do fornecedor permite que fornecedores recebam ordens de compra para serem confirmadas ou rejeitadas. Também permite que o fornecedor tenha uma visão geral de todas as ordens de compra confirmadas para uma conta. O agente de compras pode enviar uma ordem de compra solicitando a confirmação do fornecedor. O fornecedor precisa ser um usuário registrado do Microsoft Azure Active Directory (Azure AD) no Dynamics AX, uma pessoa de contato para o fornecedor, e possuir uma função de segurança exclusiva. | O departamento de compras beneficia-se da redução da papelada e rastreamento manual de respostas em ordens de compra, uma vez que entram diretamente no sistema. Ter uma só fonte de verdade reduz os mal-entendidos entre cliente e fornecedor. |
+| Envie as ordens de compra para confirmação a um portal de fornecedor hospedado no cliente do Dynamics AX. Deixe que o fornecedor confirme ou rejeite. | Sem suporte | A interface do portal do fornecedor permite que fornecedores recebam ordens de compra para serem confirmadas ou rejeitadas. Também permite que o fornecedor tenha uma visão geral de todas as ordens de compra confirmadas para uma conta. O agente de compras pode enviar uma ordem de compra solicitando a confirmação do fornecedor. O fornecedor precisa ser um usuário registrado do Microsoft Azure Active Directory (Azure AD) no Dynamics AX, uma pessoa de contato do fornecedor e ter uma função de segurança exclusiva. | O departamento de compras beneficia-se da redução da papelada e rastreamento manual de respostas em ordens de compra, uma vez que entram diretamente no sistema. Ter uma só fonte de verdade reduz os mal-entendidos entre cliente e fornecedor. |
 
 ## <a name="projects"></a>Projetos
 
@@ -571,7 +570,7 @@ Não foram adicionados novos recursos.
 
 ### <a name="retail-hq"></a>Matriz de varejo
 
-O Microsoft Azure-hosted Retail HQ oferece gerenciamento centralizado e visibilidade completa de todos os aspectos das operações comerciais através de um cliente web.
+A matriz de varejo hospedada no Microsoft Azure oferece gerenciamento centralizado e completa visibilidade de todos os aspectos das operações comerciais por meio do cliente web.
 
 <table>
 <thead>
@@ -624,7 +623,7 @@ O espaço de trabalho <strong>Gerenciamento de catálogo</strong> habilita as se
 <ul>
 <li>Crie e configure canais e entidades relacionadas.</li>
 <li>Gerencie atividades de armazenamento diário.</li>
-<li>Processe transações de varejo no Microsoft Dynamics AX, gere declarações de varejo e atualize o estoque e as finanças do Microsoft Dynamics AX.</li>
+<li>Processe transações de varejo no Microsoft Dynamics AX, gere extratos de varejo e atualize o estoque e as finanças do Microsoft Dynamics AX.</li>
 </ul>
 </td>
 <td>O espaço de trabalho <strong>Desenvolvimento de canal</strong> permite realizar as seguintes tarefas:
@@ -655,7 +654,7 @@ O espaço de trabalho <strong>Gerenciamento de catálogo</strong> habilita as se
 <tr>
 <td>Gerencie operações de TI de varejo.</td>
 <td>O usuário deve acessar vários formulários.</td>
-<td>O espaço de trabalho <strong>TI de varejo</strong> habilita consultas do Commerce Data Exchange em um único lugar para um determinado canal, para que você possa realizar as seguintes tarefas:
+<td>O espaço de trabalho <strong>TI do varejo</strong> habilita consultas do Commerce Data Exchange em um único lugar para um canal particular, para que você possa realizar as seguintes tarefas:
 <ul>
 <li>Sessões de download.</li>
 <li>Sessões de upload.</li>
@@ -671,16 +670,16 @@ O espaço de trabalho <strong>Gerenciamento de catálogo</strong> habilita as se
 <td>Entidades de dados permitem que clientes realizem importação e exportação de dados orientadas por metadados. Entidades do OData também permitem que clientes integrem o Dynamics AX com programas de terceiros.</td>
 </tr>
 <tr>
-<td>Realize análises inteligentes usando relatórios de BI do Dynamics Microsoft AX e cliente de PDV.</td>
+<td>Realize análises inteligentes usando relatórios de BI do Dynamics Microsoft AX e cliente do POS.</td>
 <td>Mais de 25 relatórios de back office e cinco relatórios de canal estão disponíveis.</td>
 <td>Mais de 30 relatórios de apoio e 10 relatórios de canal estão disponíveis.</td>
 <td>Esses relatórios permitem que clientes tenham mais BI para prever tendências, obter informações e operar com máximo desempenho e de forma contínua.</td>
 </tr>
 <tr>
-<td>Analise dados de vendas de canais de varejo usando o conteúdo “Retail Channel Performance" do Power BI.</td>
+<td>Analise dados de vendas de canais de varejo usando o conteúdo do Power BI "Monitor Retail Channel performance".</td>
 <td>Não disponível</td>
-<td>Em PowerBI.com, selecione <strong>Obter dados</strong> e depois selecione o pacote de conteúdo <strong>Dynamics AX – Desempenho dos canais de venda</strong>. Insira a URL para seu ponto de extremidade do Dynamics AX para ver seus dados refletidos no painel.</td>
-<td>Com três ou quatro cliques, as empresas podem implantar um painel Power BI que contém dados financeiros importantes. O conteúdo pode ser personalizado pela organização. Além disso, usuários podem incorporar blocos do painel Power BI nos espaços de trabalho personalizados do Dynamics AX, para que possam ver as informações analíticas rapidamente.</td>
+<td>Em PowerBI.com, selecione <strong>Obter dados</strong> e então selecione o pacote de conteúdo do <strong>Dynamics AX – Retail Channel performance</strong>. Insira a URL para seu ponto de extremidade do Dynamics AX para ver seus dados refletidos no painel.</td>
+<td>Com três ou quatro cliques, as organizações podem implantar um painel Power BI que contém dados financeiros importantes. O conteúdo pode ser personalizado pela organização. Além disso, usuários podem incorporar blocos do painel do Power BI nos espaços de trabalho personalizados do Dynamics AX, para que possam ver as informações analíticas rapidamente.</td>
 </tr>
 <tr>
 <td>Configure as permissões do cliente.</td>
@@ -734,16 +733,16 @@ Com o gerenciamento de Servidor de Varejo e dados, clientes e empresas podem cri
 <td>Fornece serviços de comércio eletrônico hospedados e escalonáveis que podem ser usados com lojas online de terceiros.</td>
 </tr>
 <tr>
-<td>Mova os dados entre o back office e os canais do Microsoft Dynamics AX usando o Commerce Data Exchange.</td>
-<td>O Commerce Data Exchange é um sistema que transfere dados entre o Microsoft Dynamics AX e os canais de varejo, como lojas online ou lojas físicas. Para obter mais informações, acesse <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>.</td>
-<td>Há uma paridade funcional com o Microsoft Dynamics AX 2012 CU8. No entanto, observe os seguintes detalhes:
+<td>Migre dados entre o back-office e os canais do Microsoft Dynamics AX usando o Commerce Data Exchange.</td>
+<td>O Commerce Data Exchange é um sistema que transfere dados entre o Microsoft Dynamics AX e os canais de varejo, como lojas online ou lojas físicas. Para obter mais informações, consulte <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>.</td>
+<td>Há uma paridade funcional com o CU8 do Microsoft Dynamics AX 2012. No entanto, observe os seguintes detalhes:
 <ul>
 <li>O Commerce Data Exchange foi reprojetado para a nuvem.</li>
 <li>O serviço Async usa acesso de banco de dados direto para o banco de dados do canal.</li>
-<li>Commerce Data Exchange: serviço em tempo real é hospedado como um serviço personalizado do Microsoft Dynamics AX.</li>
+<li>O Commerce Data Exchange: Real-time Service está hospedado como um serviço personalizado do Microsoft Dynamics AX.</li>
 <li>O MPOS gerencia a sincronização entre banco de dados offline e o Servidor de Varejo.</li>
 </ul></td>
-<td>O Commerce Data Exchange foi reprojetado para a plataforma de nuvem. Continua a gerenciar a transferência de dados entre o Microsoft Dynamics AX e os canais de varejo, como lojas online ou lojas físicas.</td>
+<td>O Commerce Data Exchange foi reprojetado para a plataforma na nuvem. Continua a gerenciar a transferência de dados entre o Microsoft Dynamics AX e os canais de varejo, como lojas online ou lojas físicas.</td>
 </tr>
 <tr>
 <td>Forneça suporte a plug and play, pagamento de canal cruzado semi-integrado usando o SDK de pagamento.</td>
@@ -758,11 +757,11 @@ Com o gerenciamento de Servidor de Varejo e dados, clientes e empresas podem cri
 <td>Permite que o cliente processe transações de cartão de crédito/débito para pagamentos.</td>
 </tr>
 <tr>
-<td>Ativar os dispositivos usando uma conta da Microsoft (Microsoft Azure Active Directory (Azure AD)).</td>
+<td>Ative dispositivos usando uma conta da Microsoft (Microsoft Azure Active Directory (Azure AD)).</td>
 <td>Não disponível</td>
 <td>A seguinte funcionalidade é fornecida:
 <ul>
-<li>Segurança avançada pela ativação para a nuvem com base no Azure AD.</li>
+<li>Segurança avançada pela ativação com base no Azure AD para a nuvem.</li>
 <li>Segurança avançada para gerenciamento de token.</li>
 <li>Confiabilidade, solução de problemas e mensagens de erro durante a ativação aprimoradas</li>
 <li>Tarefas de administração de TI simplificadas que estão relacionadas à ativação.</li>
@@ -770,7 +769,7 @@ Com o gerenciamento de Servidor de Varejo e dados, clientes e empresas podem cri
 </ul></td>
 <td>Proporciona os seguintes benefícios:
 <ul>
-<li>A segurança é aprimorada por meio do Azure AD e token/ID do dispositivo (chamadas RS que usam um token, armazenamento de aplicativos de usuário específico).</li>
+<li>A segurança é aprimorada por meio do Azure AD e token/ID de dispositivos (chamadas de RS que usam um token, armazenamento de aplicativos específico de usuário).</li>
 <li>Impede o uso remoto não autorizado do MPOS (dispositivo de bloco)</li>
 <li>Rastreia dispositivos MPOS para fins de conformidade de PCI.</li>
 <li>Mapeia dispositivos físicos com uma entidade comercial (registro) usando um token de dispositivo.</li>
@@ -823,7 +822,7 @@ O varejo oferece experiências móveis imersivas em qualquer lugar, a qualquer m
 <li>Separe e receba ordens e realize contagens de estoque.</li>
 <li>Exiba relatórios na loja.</li>
 </ul></td>
-<td>É fornecida paridade funcional com AX 2012 MPOS. Inclui a seguinte funcionalidade:
+<td>É fornecida paridade funcional com o AX 2012 MPOS. Inclui a seguinte funcionalidade:
 <ul>
 <li>Pesquisa de cliente em lojas/canais.</li>
 <li>A capacidade de criar ordens de cliente sem acessar o Serviço em Tempo Real.</li>
@@ -879,7 +878,7 @@ Uma opção de configuração com foco em varejo e comércio ajuda a simplificar
 | Use o painel Fundamentos de comércio. | Uma página da área com links para itens de menu está disponível. | O painel Fundamentos de comércio fornece links para tarefas frequentes, incluindo links para espaços de trabalho, controle da Web do Power BI, favoritos, páginas recentes e itens de trabalho atuais. | O painel aprimorado capacita os trabalhadores tornando-os mais eficientes e fornecendo um ponto de partida flexível para qualquer tarefa específica de varejo. |
 | Use as entidades de dados para acessar as alterações da conta. | As alterações da conta são exportadas para uma pasta no sistema de arquivos. | As alterações da conta são acessíveis por meio das entidades de dados. | Este recurso fornece maior flexibilidade ao movimentar dados entre sistemas distintos. Este recurso também pode ser aperfeiçoado por meio de aplicativos de OData. |
 | Use PDV e MPDV em nuvem. | Somente o Enterprise POS (EPOS) é compatível de imediato. | MPOS e PDV em nuvem substituem o cliente (EPOS). O canal de comércio eletrônico também foi adicionado aos Fundamentos de comércio por padrão. | Este recurso habilita o suporte a canais imediatos maiores com clientes de ponto de venda de rápido implantação. |
-| Implementa e mantém arquitetura de dois níveis. | A estrutura de importação/exportação de dados fornece a capacidade de movimentar dados entre o AX 2012 e sistemas de terceiros. | Entidades de dados criadas para aprimorar o suporte a arquitetura de dois níveis. | Entidades de dados e aplicativos de OData fornecem camada de abstração para produzir cenários de dois níveis mais fáceis de serem implantados e mantidos. |
+| Implementa e mantém arquitetura de dois níveis. | A estrutura de importação/exportação de dados fornece a capacidade de migrar dados entre o AX 2012 e sistemas de terceiros. | Entidades de dados criadas para aprimorar o suporte a arquitetura de dois níveis. | Entidades de dados e aplicativos de OData fornecem camada de abstração para produzir cenários de dois níveis mais fáceis de serem implantados e mantidos. |
 | Simplifique formulários. | Códigos personalizados são necessários para simplificar a interface de usuário. | As extensões de formulário e menu fornecem simplificação padronizada da interface do usuário. | Com este recurso, é mais fácil e rápido ajustar formulários com base nas necessidades do varejista. |
 
 ### <a name="pos-task-recorder"></a>Gravador de tarefas do PDV
@@ -959,20 +958,20 @@ O Lifecycle Services (LCS) fornece um conjunto de serviços que os clientes e pa
 </ul>
 Há um aprimoramento da instalação do componente do cliente "de baixo contato" por meio da instalação do autoatendimento:
 <ul>
-<li>PDV Moderno do Varejo.</li>
+<li>Retail Modern POS.</li>
 <li>Estação de Hardware do Varejo.</li>
 <li>Suporte para o upload e distribuição de pacotes personalizados por meio da instalação de autoatendimento.</li>
 </ul></td>
 <td>Os serviços de implantação de nuvem proporcionam os seguintes benefícios:
 <ul>
 <li>Redução significativa do esforço e da complexidade de implantação para componentes da Matriz de Varejo.</li>
-<li>Implantação nativa à nuvem pública do Microsoft Azure.</li>
+<li>Implantação nativa na nuvem pública do Microsoft Azure.</li>
 <li>Instalação de autoatendimento aprimorada de componentes na loja para tornar a configuração mais fácil e intuitiva</li>
 </ul></td>
 </tr>
 <tr>
 <td>Monitore a saúde do sistema e faça um diagnóstico dos erros e problemas</td>
-<td>Esta funcionalidade requer <a href="http://www.microsoft.com/download/details.aspx?id=42636">System Center 2012 Management Pack for Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
+<td>Esta funcionalidade requer <a href="http://www.microsoft.com/download/details.aspx?id=42636">System Center 2012 Management Pack para Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
 <td>O monitoramento e diagnóstico de componentes de varejo agora é disponibilizado por meio do painel <strong>Informações operacionais</strong> no LCS.</td>
 <td>O painel <strong>Informações operacionais</strong> é um portal de monitoramento baseado em nuvem que substitui a necessidade de instalar a infraestrutura do System Center Operations Manager (SCOM)</td>
 </tr>
@@ -985,7 +984,7 @@ Há um aprimoramento da instalação do componente do cliente "de baixo contato"
 </tbody>
 </table>
 
-## <a name="sales"></a>Venda
+## <a name="sales"></a>Vendas
 
 <table>
 <thead>
@@ -1034,4 +1033,3 @@ Não foram adicionados novos recursos.
 [Novidades ou alterações](whats-new-changed.md)
 
 [Novas guias de tarefas disponíveis (fevereiro de 2016)](new-task-guides-available-february-2016.md)
-

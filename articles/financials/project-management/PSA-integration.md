@@ -1,13 +1,13 @@
 ---
 title: Project Service Automation
-description: "Este tópico fornece informações sobre a solução de integração do Project Service Automation para o Finance and Operations. Esta solução de integração usa o recurso Integração de dados para sincronizar dados em instâncias do Microsoft Dynamics 365 for Finance and Operations e do Microsoft Dynamics 365 for Project Service Automation por meio do Common Data Service."
+description: Este tópico fornece informações sobre a solução de integração do Project Service Automation para o Finance and Operations. Esta solução de integração usa o recurso Integração de dados para sincronizar dados em instâncias do Microsoft Dynamics 365 for Finance and Operations e do Microsoft Dynamics 365 for Project Service Automation por meio do Common Data Service.
 author: KimANelson
 manager: AnnBe
 ms.date: 06/29/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 841ea53f754f61c2930e77fdafc85eac72f47d7a
 ms.openlocfilehash: 4b1d2ae69899a2937d47f6547ee4ba72b2d1ece4
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335683"
 ---
-
 # <a name="project-service-automation"></a>Project Service Automation
 
 [!include[banner](../includes/banner.md)]
@@ -70,10 +69,9 @@ Para usar a solução do Project Service Automation para o Finance and Operation
 Para usar a solução de integração do Project Service Automation para o Finance and Operations, você deve instalar os seguintes componentes:
 
 - Microsoft Dynamics 365 for Project Service Automation versão 9.0.0.0 ou posterior
-- Solução Prospect to cash para Microsoft Dynamics 365 for Sales, versão 1.14.0.0 (v14) ou posterior
+- Solução Prospect to cash para o Microsoft Dynamics 365 for Sales, versão 1.14.0.0 (v14) ou posterior.
 - O Project Service Automation para a solução Finance and Operations do Microsoft Dynamics 365 for Project Service Automation versão 1.0.0.0 ou posterior
 
 ## <a name="install-the-project-service-automation-to-finance-and-operations-integration-solution-in-your-project-service-automation-instance"></a>Instale o Project Service Automation para a solução de integração Finance and Operations na sua instância do Project Service Automation
 
 Baixe a solução de integração do Project Service Automation para o Finance and Operations em [Centro de Download Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=57016) e siga as instruções incluídas na solução.
-

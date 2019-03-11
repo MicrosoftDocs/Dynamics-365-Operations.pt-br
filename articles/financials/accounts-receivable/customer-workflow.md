@@ -1,13 +1,13 @@
 ---
 title: Fluxo de trabalho de cliente
-description: "Este tópico fornece informações sobre o fluxo de trabalho do cliente. Você altera campos específicos de um cliente e envia as alterações para a aprovação usando o fluxo de trabalho antes de que eles sejam adicionados ao cliente."
+description: Este tópico fornece informações sobre o fluxo de trabalho do cliente. Você altera campos específicos de um cliente e envia essas alterações para aprovação usando o fluxo de trabalho antes que elas sejam adicionadas ao cliente.
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: shylaw
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
 ms.openlocfilehash: 1b0e1621b256e6bbb42f97134b87dd65fa146193
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/31/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301913"
 ---
-
 # <a name="customer-workflow"></a>Fluxo de trabalho de cliente
 
 [!include [banner](../includes/banner.md)]
 
-O fluxo de trabalho do cliente foi adicionado ao Microsoft Dynamics 365 for Finance and Operations versão 8.0.4. Você pode alterar campos específicos de um cliente e enviar as alterações para a aprovação usando o fluxo de trabalho antes de que eles sejam adicionados ao cliente.
+O fluxo de trabalho de cliente foi adicionado ao Microsoft Dynamics 365 for Finance and Operations versão 8.0.4. Você pode alterar campos específicos de um cliente e enviar essas alterações para aprovação usando o fluxo de trabalho antes que elas sejam adicionadas ao cliente.
 
 ## <a name="set-up-the-customer-workflow"></a>Configurar o fluxo de trabalho de cliente
 
@@ -62,4 +61,3 @@ Após haver pelo menos uma alteração proposta, dois menus adicionais aparecer�
     O status na página foi alterado para **Alterações com aprovação pendente**.
 
 O fluxo de trabalho segue o processo de fluxo de trabalho padrão do Finance and Operations. O aprovador é direcionado à página **Cliente**, na qual pode revisar as alterações na página **Alterações propostas** e selecionar **Fluxo de trabalho \> Aprovar** para aprovar o fluxo de trabalho. Depois que todas as aprovações forem concluídas, os campos serão atualizados com os valores que você propôs.
-

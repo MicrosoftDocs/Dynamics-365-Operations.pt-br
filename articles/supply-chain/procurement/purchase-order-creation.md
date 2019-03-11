@@ -1,13 +1,13 @@
 ---
 title: Criar ordens de compra
-description: "Este artigo descreve o processo e as opções quando você criar manualmente uma ordem de compra."
+description: Este artigo descreve o processo e as opções quando você criar manualmente uma ordem de compra.
 author: FrankDahl
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cb703ff7419a59aa174e16d8d988a96814e4fec6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c71ce3045bd91a136288016cb55b460f7ac787ae
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350081"
 ---
-
 # <a name="create-purchase-orders"></a>Criar ordens de compra
 
 [!include [banner](../includes/banner.md)]
@@ -96,7 +95,6 @@ Talvez seja necessário atrasar a conclusão de uma ordem de compra. Por exemplo
 [Recebimento de produtos contra ordens de compra](product-receipt-against-purchase-orders.md)
 
 [Visão geral de faturas de fornecedor](../../financials/accounts-payable/vendor-invoices-overview.md)
-
 
 
 

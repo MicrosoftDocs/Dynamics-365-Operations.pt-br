@@ -1,13 +1,13 @@
 ---
-title: "Lançamento de produção"
-description: "Este artigo fornece informações sobre tipos diferentes de lançamento no processo de produção."
+title: Lançamento de produção
+description: Este artigo fornece informações sobre tipos diferentes de lançamento no processo de produção.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventItemGroup, ProjCategory, WrkCtrResourceGroup, WrkCtrTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0b44d57fe89ef7ae3def835865e4da80c260f907
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 413bf76b40ec1e6d00322605900a71f163c9396c
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332394"
 ---
-
 # <a name="production-posting"></a>Lançamento de produção
 
 [!include [banner](../includes/banner.md)]
@@ -55,7 +54,6 @@ Em **Parâmetros de controle de produção**, você pode usar o campo **Lançame
 -   **Grupos de produção** – use as contas contábeis configuradas nos grupos de produção para o consumo de materiais e de tempo. Os grupos de produção estão associados aos produtos liberados e copiados para as ordens de produção quando as ordens são criadas. O lançamento nas ordens de produção seguirão os grupos de produção associados à ordem de produção.
 
 **Observação:** se o método padrão para calcular o custo do item finalizado tiver sido utilizado, as transações finais também refletirão esse fato. Se os custos reais e os custos calculados utilizando o método padrão forem diferentes, essa diferença será lançada na conta que mostra lucros ou perdas.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Visão geral do gerenciamento de qualidade"
-description: "Este tópico descreve como você pode usar o gerenciamento de qualidade no Microsoft Dynamics 365 for Finance and Operations para ajudar a melhorar a qualidade do produto na sua cadeia de suprimentos."
+title: Visão geral do gerenciamento de qualidade
+description: Este tópico descreve como usar o gerenciamento de qualidade no Microsoft Dynamics 365 for Finance and Operations para ajudar a melhorar a qualidade do produto na cadeia de suprimentos.
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1630d13437d7e930fdf32ed5fdc61fc62bc33817
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 79b3127f726a08cc24c20145b5ad9969157a899c
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338305"
 ---
-
 # <a name="quality-management-overview"></a>Visão geral do gerenciamento de qualidade
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como você pode usar o gerenciamento de qualidade no Microsoft Dynamics 365 for Finance and Operations para ajudar a melhorar a qualidade do produto na sua cadeia de suprimentos.
+Este tópico descreve como usar o gerenciamento de qualidade no Microsoft Dynamics 365 for Finance and Operations para ajudar a melhorar a qualidade do produto na cadeia de suprimentos.
 
-O gerenciamento de qualidade pode ajudar a gerenciar o tempo de resposta ao lidar com produtos fora de conformidade, independentemente do ponto de origem. Como os tipos de diagnóstico são vinculados ao relatório de correção, o Microsoft Dynamics 365 for Finance and Operations pode planejar tarefas para corrigir as saídas e impedir a recorrência.
+O gerenciamento de qualidade pode ajudar a gerenciar o tempo de resposta ao lidar com produtos fora de conformidade, independentemente do ponto de origem. Como os tipos de diagnóstico são vinculados ao relatório de correção, o Microsoft Dynamics 365 for Finance and Operations pode agendar tarefas para corrigir problemas e impedir que eles ocorram novamente.
 
 Além da funcionalidade para gerenciar a não conformidade, o gerenciamento de qualidade inclui a função de rastrear saídas por tipo de problema (até mesmo problemas internos), e para identificar soluções como a curto prazo ou a longo prazo. As estatísticas sobre os principais indicadores de desempenho (KPIs) fornecem ideias sobre o histórico de saídas anteriores de não conformidade e as soluções que foram usadas para corrigi-los. Você pode usar dados históricos para revisar a eficácia das medidas de qualidade anteriores e determinar as medidas apropriadas a serem usadas no futuro.
 
@@ -260,7 +259,7 @@ A tabela a seguir fornece mais informações sobre como as ordens de qualidade p
 <tr>
 <td>Ordem de quarentena</td>
 <td>Antes ou depois, a ordem de quarentena é relatada como concluída ou terminada</td>
-<td>Não é possível gerar ordens de qualidade que exigem testes destrutivos. Presume-se que a funcionalidade de quarentena da ordem cuide do descarte do material que for destruído.</td>
+<td>Ordens de qualidade que exigem testes destrutivos não podem ser geradas. Presume-se que a funcionalidade de ordem de quarentena controla o descarte do material destruído.</td>
 <td>O requisito para uma ordem de qualidade pode refletir um site, item ou fornecedores específicos ou uma combinação destas condições.</td>
 <td>Uma ordem de qualidade gerada manualmente que se refere a uma ordem de quarentena pode usar as informações em um registro de associação, como o planejamento de amostragem de teste.</td>
 </tr>
@@ -290,7 +289,7 @@ A tabela a seguir fornece mais informações sobre como as ordens de qualidade p
 <td>Uma ordem de qualidade não pode ser gerada automaticamente para uma transação em um diário de estoque ou para a transação de ordem de transferências.</td>
 <td></td>
 <td></td>
-<td>Uma ordem de qualidade deve ser criada manualmente para a quantidade do estoque de um item. O estoque físico disponível do item é necessário.</td>
+<td>Uma ordem de qualidade deve ser criada manualmente para a quantidade em estoque de um item. O estoque físico disponível do item é necessário.</td>
 </tr>
 </tbody>
 </table>
@@ -338,7 +337,7 @@ A tabela a seguir fornece mais informações sobre como as ordens de qualidade p
 </tr>
 <tr class="even">
 <td>Grupos de qualidade de item</td>
-<td>Use esta página para configurar, editar e exibir os itens atribuídos a um grupo de qualidade ou os grupos de qualidade atribuídos a um item. Um grupo de qualidade representa requisitos de teste comuns para itens. Após definir os requisitos de teste da página <strong>Grupos de teste</strong>, você pode definir as regras para gerar automaticamente as ordens de qualidade. Para simplificar o processo, não é necessário definir regras para itens individuais. Em vez disso, defina regras para um grupo de qualidade, usando a página <strong>Associações de qualidade</strong>. Você também pode usar a página <strong>Grupos de qualidade de item</strong> para que um grupo de qualidade selecionado atribua itens relevantes ao grupo. Você também pode usar a página <strong>Grupos de qualidade de item</strong> para que um item selecionado atribua grupos de qualidade relevantes ao item.</td>
+<td>Use esta página para configurar, editar e exibir os itens atribuídos a um grupo de qualidade ou os grupos de qualidade atribuídos a um item. Um grupo de qualidade representa requisitos de teste comuns para itens. Após definir os requisitos de teste da página <strong>Grupos de teste</strong>, você pode definir as regras para gerar automaticamente as ordens de qualidade. Para simplificar o processo, você não define regras para itens individuais. Em vez disso, defina regras para um grupo de qualidade, usando a página <strong>Associações de qualidade</strong>. Você também pode usar a página <strong>Grupos de qualidade de item</strong> para que um grupo de qualidade selecionado atribua itens relevantes ao grupo. Você também pode usar a página <strong>Grupos de qualidade de item</strong> para que um item selecionado atribua grupos de qualidade relevantes ao item.</td>
 <td>Uma fábrica compra diversas matérias-primas que têm os mesmos requisitos de teste para inspeção de entrada. A empresa define um grupo de qualidade e então atribui os números de item associados com as matérias-primas ao grupo. Posteriormente, a empresa compra um novo tipo de matéria-prima que têm os mesmos requisitos de teste. Em vez de configurar novos requisitos de teste para o novo material, a empresa adiciona o número do item para o novo material no grupo de qualidade existente. A mesma fábrica também produz itens com os mesmos requisitos de teste de produção e remete os itens com o mesmo requisito para a execução de testes antes da remessa. A fábrica define dois grupos de qualidade adicionais e então atribui os números de item relevantes a cada grupo.</td>
 </tr>
 <tr class="odd">
@@ -362,4 +361,3 @@ A tabela a seguir fornece mais informações sobre como as ordens de qualidade p
 [Processos de gerenciamento de qualidade](quality-management-processes.md)
 
 [Habilitando o gerenciamento de não conformidade](enable-nonconformance-management.md)
-

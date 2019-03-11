@@ -1,13 +1,13 @@
---- 
-title: "Criar, calcular e lançar uma declaração para uma loja de varejo"
-description: "Este procedimento orienta nas etapas manuais para criar, calcular e lançar um demonstrativo para uma loja."
+---
+title: Criar, calcular e lançar uma declaração para uma loja de varejo
+description: Este procedimento orienta nas etapas manuais para criar, calcular e lançar um demonstrativo para uma loja.
 author: jashanno
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailChannelOperationsWorkspace, RetailStatementTable
 audience: Application User
 ms.reviewer: josaw
@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9ea30e7e008bfcce77a7ee2f4d7d01a6cf1ababc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 33ebb28196baa9ae944dbd124274b05cb587fea4
-ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354382"
 ---
 # <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a>Criar, calcular e lançar uma declaração para uma loja de varejo
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Este procedimento orienta nas etapas manuais para criar, calcular e lançar um demonstrativo para uma loja. Há também os trabalhos em lotes que podem ser configurados para as mesmas tarefas. As etapas para configurar e executar os trabalhos em lote podem ser encontradas em outros tópicos. Para concluir este procedimento, você deve ter transações que foram concluídas no PDV e recebidas pelo Dynamics AX. Esta gravação usa a empresa USRT nos dados de demonstração. Este procedimento pode fazer referência ao Microsoft Dynamics AX. Observe que o Dynamics AX agora se chama Microsoft Dynamics 365 for Operations.
+Este procedimento orienta nas etapas manuais para criar, calcular e lançar um demonstrativo para uma loja. Há também os trabalhos em lotes que podem ser configurados para as mesmas tarefas. As etapas para configurar e executar os trabalhos em lote podem ser encontradas em outros tópicos. Para realizar este procedimento, você deve ter transações que foram executadas no PDV e inseridas no Dynamics AX. Esta gravação usa a empresa USRT nos dados de demonstração. Este procedimento pode fazer referência ao Microsoft Dynamics AX. Observe que agora o Dynamics AX se chama Microsoft Dynamics 365 for Operations.
 
 1. Vá para Todos os espaços de trabalho > .. > Finanças da loja de varejo.
 2. Clique em Novo demonstrativo.
@@ -47,5 +47,4 @@ Este procedimento orienta nas etapas manuais para criar, calcular e lançar um d
 10. Clique em Fechar.
 11. Vá para Varejo e comércio > Canais > Finanças da loja de varejo.
 12. Clique na guia Demonstrativos lançados.
-
 

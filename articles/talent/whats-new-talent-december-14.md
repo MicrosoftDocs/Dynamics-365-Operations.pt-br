@@ -1,29 +1,29 @@
 ---
-title: "Novidades ou alterações no Dynamics 365 for Talent Core HR (14 de dezembro de 2018)"
-description: "Este tópico descreve os recursos novos ou alterados na versão atual do Core HR do Microsoft Dynamics 365 for Talent."
+title: Novidades ou alterações no Dynamics 365 for Talent Core HR (14 de dezembro de 2018)
+description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 for Talent Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: 844c23fc908c962203e644f1154cc480425d830b
 ms.openlocfilehash: 7d2866923efd7f115ad5290f35ed4fcac5e47573
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303188"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>Novidades ou alterações no Dynamics 365 for Talent Core HR (14 de dezembro de 2018)
 
@@ -61,7 +61,7 @@ Uma alteração foi feita que corrige o erro "Referência nula” ao usar o espa
 
 ### <a name="workforce-power-bi-report-shows-error-when-worker-seniority-date-is-a-leap-day"></a>O relatório de força de trabalho do Power BI mostra o erro quando a data de aniversário de tempo de serviço do trabalhador é dia 29 de fevereiro
 
-Com esta alteração, o dia 29 de fevereiro agora tem suporte agora no Power BI.
+Com esta alteração, o dia 29 de fevereiro agora tem suporte no Power BI.
 
 ### <a name="integration-between-core-hr-and-attract"></a>Integração entre o Core HR e o Attract
 
@@ -151,4 +151,3 @@ Os mapeamentos atualizados devem ser semelhantes às imagens a seguir.
 ![Tarefa Trabalhadores para o Trabalho](./media/WorkerMapping.png)
 
 ![Transformação do campo Sexo](./media/WorkerTransform.png)
-

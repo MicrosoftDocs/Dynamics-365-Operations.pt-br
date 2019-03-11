@@ -1,35 +1,34 @@
 ---
-title: "Espaço de trabalho de gerenciamento de ativos fixos"
-description: "Este tópico fornece informações sobre o Espaço de trabalho de gerenciamento de ativos fixos Este espaço de trabalho mostra informações relacionadas a ativos fixos inseridos no sistema. Inclui uma exibição resumida e uma exibição de análise."
+title: Espaço de trabalho de gerenciamento de ativos fixos
+description: Este tópico fornece informações sobre o Espaço de trabalho de gerenciamento de ativos fixos Este espaço de trabalho mostra informações relacionadas a ativos fixos inseridos no sistema. Inclui uma exibição resumida e uma exibição de análise.
 author: saraschi2
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 1e8e02bf308b5506aef41d302755911f6a9ce3e4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 8425387d4004e02e9b8adf9ba3b31a0b4e02b6e9
-ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352312"
 ---
-
 # <a name="fixed-asset-management-workspace"></a>Espaço de trabalho de gerenciamento de ativos fixos
 
 [!include [banner](../includes/banner.md)]
 
-O espaço de trabalho de **Gerenciamento de ativos fixos** mostra informações relacionadas a ativos fixos inseridos no sistema. Este espaço de trabalho inclui uma exibição resumida e uma exibição de análise. A guia **Meu trabalho** mostra os blocos de resumo, detalhes de ativos fixos e informações relacionadas sobre os ativos fixos na empresa atual. Você também pode adicionar análise à seção de análise do Power BI diretamente no espaço de trabalho. A guia **Análise – todas as empresas** usa recursos do Microsoft Power BI para mostrar os visuais relacionados a ativos fixos em todas as empresas.
+O espaço de trabalho de **Gerenciamento de ativos fixos** mostra informações relacionadas a ativos fixos inseridos no sistema. Este espaço de trabalho inclui uma exibição resumida e uma exibição de análise. A guia **Meu trabalho** mostra os blocos de resumo, detalhes de ativos fixos e informações relacionadas sobre os ativos fixos na empresa atual. Você também pode adicionar análise à seção de análise do Power BI diretamente no espaço de trabalho. A guia **Análises - todas as empresas** usa recursos do Microsoft Power BI para mostrar os recursos visuais relacionados a ativos fixos em todas as empresas.
 
 ## <a name="my-work"></a>Meu trabalho
 
@@ -75,4 +74,3 @@ A tabela a seguir mostra as visualizações disponíveis em cada página de rela
 | Mapas de Avaliações        | Detalhes do Ativo Fixo |
 
 Para exibir a análise com os dados, primeiro você deve atualizar a medida agregada AssetTransactionMeasure na página **Repositório de Entidades**.
-

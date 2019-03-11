@@ -1,13 +1,13 @@
 ---
-title: "Gerenciar trabalhadores de depósito"
-description: "Este artigo descreve como você pode usar o Dynamics 365 for Finance and Operations para controlar e monitorar o trabalho realizado por funcionários em depósitos."
+title: ​Gerenciar trabalhadores de depósito​
+description: Este artigo descreve como você pode usar o Dynamics 365 for Finance and Operations para ajudar a controlar e monitorar o trabalho realizado por funcionários em seus depósitos.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b5a35d0a52d6f5bf995ce54f10eab92147b0e76a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 211ced007e7729265621a05c2162a228eb0023c2
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310981"
 ---
-
-# <a name="manage-warehouse-workers"></a>Gerenciar trabalhadores de depósito
+# <a name="manage-warehouse-workers"></a>​Gerenciar trabalhadores de depósito​
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo descreve como você pode usar o Microsoft Dynamics 365 for Finance and Operations para controlar e monitorar o trabalho realizado por funcionários em depósitos.
+Este artigo descreve como você pode usar o Microsoft Dynamics 365 for Finance and Operations para ajudar a controlar e monitorar o trabalho realizado por funcionários em seus depósitos.
 
 Se você estiver usando a funcionalidade no Gerenciamento de depósito, todas as operações do trabalhador do depósito serão referenciadas como *trabalho*. Trabalhos como separação, movimentação e contagem de estoque disponível são registrados por meio de dispositivos móveis. Para que um trabalhador do depósito possa executar um trabalho, ele deve estar associado a um trabalhador do departamento de recursos humanos. Cada conta de **Trabalhador** pode ter vários usuários de trabalho de depósito associados a ela. Esses usuários podem trabalhar em depósitos diferentes e podem ter diferentes níveis de acesso aos vários menus de dispositivos móveis. Considere os usuários de trabalho de depósito como vários logons do trabalhador selecionado. Cada usuário de trabalho tem um depósito padrão; e os fluxos de trabalho específicos são expostos pelos itens de menus que estão disponíveis para esse usuário de trabalho. 
 
@@ -54,7 +53,6 @@ A análise do tempo utilizado para processar itens de trabalho pode ajudar a mel
 
 -   **Mão de obra por usuário** – Este relatório mostra a produtividade do trabalhador com base no tempo real em comparação com o tempo previsto.
 -   **Mão de obra por tipo de transação de trabalho** – Você pode usar este relatório para investigar ineficiências em processos específicos do depósito. Por exemplo, você observa que as separações de ordens de transferência estão demorando mais nesta semana do que nas semanas anteriores. Você então pode usar essas informações para futuras investigações.
-
 
 
 

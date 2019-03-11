@@ -1,13 +1,13 @@
 ---
-title: "Lançar com registros de depreciações derivados"
+title: Lançar com registros de depreciações derivados
 description: Este artigo descreve como usar registros de registros derivadas.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBookTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ff1dbf67a53a5639e448da707898b55cd00cba94
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 94eb82936da2a51a25105b26723088fb7dee9ae5
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339133"
 ---
-
 # <a name="post-with-derived-books"></a>Lançar com registros de depreciações derivados
 
 [!include [banner](../includes/banner.md)]
@@ -57,7 +56,6 @@ Quando uma aquisição for lançada para um ativo fixo com o livro VM 1, a aquis
 > Se você não usar registros derivados, será necessário lançar a aquisição do ativo fixo tanto para o método VM 1 como para o registro VM 2.
 
 Para obter mais informações, consulte [Registros derivados](derived-books.md).
-
 
 
 

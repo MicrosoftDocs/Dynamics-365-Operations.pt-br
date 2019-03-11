@@ -1,13 +1,13 @@
 ---
-title: "Criar planos de remuneração fixa."
-description: "A remuneração fixa se refere ao salário bruto normal ou ao salário de um funcionário. Este artigo descreve os componentes que devem ser configurados antes de criar um plano de remuneração fixa e inserir os funcionários."
+title: Criar planos de remuneração fixa.
+description: A remuneração fixa se refere ao salário bruto normal ou ao salário de um funcionário. Este artigo descreve os componentes que devem ser configurados antes de criar um plano de remuneração fixa e inserir os funcionários.
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRCCompGrid, HRCCompRefPointSetup, HRMCompEligibility, HRMCompEvent, HRMFixedCompPlanTable
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: cea4aec80bc0b519a6b393724835555b4d0937a8
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303339"
 ---
-
 # <a name="create-fixed-compensation-plans"></a>Criar planos de remuneração fixa.
 
 [!include [banner](includes/banner.md)]
@@ -105,7 +104,6 @@ O sistema verifica se o valor de remuneração especificado para um plano de rem
 --------
 
 [Planos de remuneração](compensation-plans.md)
-
 
 
 

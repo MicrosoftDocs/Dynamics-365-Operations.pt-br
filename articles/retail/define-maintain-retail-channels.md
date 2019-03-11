@@ -1,13 +1,13 @@
 ---
 title: Definir e manter canais de varejo
-description: "Este tópico fornece uma visão geral do processo para a configuração de lojas físicas, que são referidas como lojas de varejo no Microsoft Dynamics 365 for Retail. Inclui informações sobre as tarefas que devem ser concluídas antes e depois de você configurar uma loja de varejo."
+description: Este tópico oferece uma visão geral do processo de configurar lojas tradicionais, chamadas de lojas de varejo no Microsoft Dynamics 365 for Retail. Inclui informações sobre as tarefas que devem ser concluídas antes e depois de você configurar uma loja de varejo.
 author: mugunthanm
 manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreTableListPagePreviewPane
 audience: Application User
 ms.reviewer: josaw
@@ -19,25 +19,24 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 53ba6cdb2378ce9011c6e7e3ce4e67c789adb1e6
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318617"
 ---
-
 # <a name="define-and-maintain-retail-channels"></a>Definir e manter canais de varejo
 
 [!include [banner](includes/banner.md)]
 
-Este tópico fornece uma visão geral do processo para a configuração de lojas físicas, que são referidas como lojas de varejo no Microsoft Dynamics 365 for Retail. Inclui informações sobre as tarefas que devem ser concluídas antes e depois de você configurar uma loja de varejo.
+Este tópico oferece uma visão geral do processo de configurar lojas tradicionais, chamadas de lojas de varejo no Microsoft Dynamics 365 for Retail. Inclui informações sobre as tarefas que devem ser concluídas antes e depois de você configurar uma loja de varejo.
 
 O Dynamics 365 for Retail dá suporte a vários canais de varejo, como lojas online, call centers e lojas tradicionais. Uma loja física é chamada de loja de varejo. Cada loja de varejo pode ter seus próprios métodos de pagamento, grupos de preços, terminais de pontos de venda (PDV), contas de receita e despesa e equipe. Você deve configurar todos esses elementos para uma loja de varejo antes de criá-la. Depois de criar a loja de varejo, você atribui os produtos que deseja que a loja contenha. Você também atribui funcionários, registradoras e clientes à loja. Por fim, você adiciona a nova loja a uma hierarquia da organização.
 
 ## <a name="setting-up-retail-stores"></a>Configurando lojas de varejo
 
-Antes de configurar uma loja de varejo no Dynamics 365 for Retail, você deve concluir algumas tarefas necessárias. É possível criar a loja de varejo e adicionar detalhes.
+Para configurar uma loja de varejo no Dynamics 365 for Retail, você deve executar algumas tarefas necessárias. É possível criar a loja de varejo e adicionar detalhes.
 
 ### <a name="prerequisites"></a>Pré-requisitos
 
@@ -56,7 +55,7 @@ Você deve concluir as seguintes tarefas antes de poder configurar uma loja de v
 11. Configurar membros da equipe.
 
     > [!NOTE]
-    > Você também deve atribuir permissões apropriadas para os trabalhadores de modo que eles possam entrar e executar as tarefas por meio do Dynamics 365 for Retail para o sistema Retail POS.
+    > Você também deve atribuir permissões apropriadas para os funcionários para que eles possam se conectar e executar as tarefas usando o Dynamics 365 for Retail para o sistema Retail POS.
 
 12. Configure os perfis do Retail POS a serem atribuídos à loja. Essa tarefa inclui várias tarefas como configurar registros, perfis offline e formatos e perfis de recebimento.
 
@@ -86,4 +85,3 @@ Depois de inserir os detalhes da loja de varejo, conclua estas tarefas para envi
 ## <a name="organization-hierarchies"></a>Hierarquias da organização
 
 O Retail usa hierarquias da organização para estruturar canais de varejo. As hierarquias da organização representam os relacionamentos entre as organizações que compõem sua empresa. Ao configurar lojas, você pode adicioná-las a uma hierarquia da organização. As lojas compartilham dados usados para classificações, reabastecimento e relatórios.
-

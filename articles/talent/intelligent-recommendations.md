@@ -1,14 +1,14 @@
 ---
-title: "Recomendações inteligentes"
-description: "Este tópico explica como machine learning pode ser usado para fornecer recomendações para trabalhos e candidatos a trabalhos."
+title: Recomendações inteligentes
+description: Este tópico explica como machine learning pode ser usado para fornecer recomendações para trabalhos e candidatos a trabalhos.
 author: josaw
 manager: AnnBe
 ms.date: 10/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: c6225a311f5ba0b65b45092a1f626b9d6aff3f5e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: fea36661c65739ef09261c82ec44e16c29fad0e7
-ms.contentlocale: pt-br
-ms.lasthandoff: 10/22/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303269"
 ---
-
 # <a name="intelligent-recommendations"></a>Recomendações inteligentes
 
 [!include[banner](../includes/banner.md)]
@@ -45,4 +44,3 @@ Para qualquer candidato recomendado, selecione **Exibir candidato** no cartão d
 ## <a name="job-recommendations"></a>Recomendações de trabalho 
 
 Quando um funcionário em potencial usa o site de carreira para se candidatar a um trabalho, outras posições abertas são recomendadas na organização. Estas recomendações são baseadas nas aplicações passadas do candidato em potencial e no seu currículo ou perfil de candidato. Portanto, recomendações de trabalho ajudam os candidatos a identificarem rapidamente os trabalhos que são melhores para eles. As recomendações de trabalho são fornecidas a candidatos se mais de dez trabalhos são postados no site de carreira. Os candidatos podem abrir os detalhes de um anúncio do cartão da recomendação. Também podem fornecer comentários sobre uma recomendação para ajudar a melhorar as recomendações futuras.
-

@@ -1,13 +1,13 @@
---- 
-title: "Configurar método de pagamento para transferência de crédito de ISO20022"
-description: "Este procedimento mostra como configurar o método de pagamento de fornecedor da transferência de crédito ISO20022 ou de qualquer outro tipo de pagamento usando o relatório eletrônico para gerar um arquivo."
+---
+title: Configurar método de pagamento para transferência de crédito de ISO20022
+description: Este procedimento mostra como configurar o método de pagamento de fornecedor da transferência de crédito ISO20022 ou de qualquer outro tipo de pagamento usando o relatório eletrônico para gerar um arquivo.
 author: mrolecki
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPaymMode
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: c9209006074fb9da2c3c2ffaa2af4adecfcc1aa9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: bed51f8749dfa0264ad39f51f9ceb295ac46fe93
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311809"
 ---
 # <a name="set-up-method-of-payment-for-iso20022-credit-transfer"></a>Configurar método de pagamento para transferência de crédito de ISO20022
 
@@ -33,7 +33,7 @@ Antes de concluir esta tarefa, você deve exportar as configurações de formato
 
 Essa tarefa foi criada usando a empresa de dados demonstrativos DEMF.
 
-Este é o terceiro dos cinco procedimentos que ilustram o processo de pagamento de fornecedores usando as configurações de relatório eletrônico. Este procedimento é para um recurso que foi adicionado à versão 1611 do Dynamics 365 for Operations.
+Este é o terceiro dos cinco procedimentos que ilustram o processo de pagamento de fornecedores usando as configurações de relatório eletrônico. Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynamics 365 for Operations.
 
 1. Vá para Contas a pagar > Configurar pagamento > Métodos de pagamento.
 2. Use o Filtro Rápido para localizar registros. Por exemplo, filtre o campo Método de pagamento com um valor de 'SEPA CT'.
@@ -47,5 +47,4 @@ Este é o terceiro dos cinco procedimentos que ilustram o processo de pagamento 
 9. No campo Tipo de conta, selecione 'Banco'.
 10. No campo Conta de pagamento, especifique os valores 'DEMF OPER'.
 11. Clique em Salvar.
-
 

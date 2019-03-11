@@ -1,13 +1,13 @@
---- 
-title: "Criar expressões de ER para chamar métodos de classe de aplicativo"
-description: "Este guia fornece informações sobre como reutilizar a lógica de aplicativo existente em configurações de ER (relatório eletrônico) chamando métodos necessários de classes de aplicativos em expressões de ER."
+---
+title: Criar expressões de ER para chamar métodos de classe de aplicativo
+description: Este guia fornece informações sobre como reutilizar a lógica de aplicativo existente em configurações de ER (relatório eletrônico) chamando métodos necessários de classes de aplicativos em expressões de ER.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: fdacd852eeed33b443a3c79b96fc4c4af04bb6b2
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357234"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Criar expressões de ER para chamar métodos de classe de aplicativo
 
@@ -34,10 +34,10 @@ Para concluir essas etapas, você deve primeiro concluir as etapas do procedimen
 
 1. Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.
     * Verifique se o provedor de configuração da empresa exemplo, Litware, Inc., está disponível e marcado como ativo. Se não visualizar esse provedor de configuração, você deve primeiro concluir as etapas do procedimento "Criar um provedor de configuração e marcá-lo como ativo".   
-    * Suponhamos que você esteja criando um processo para analisar extratos bancários de entrada para uma atualização de dados do aplicativo. Você receberá os extratos bancários de entrada como arquivos TXT que contêm códigos IBAN. Como parte do processo de importação de extratos bancários, você precisará validar a exatidão desses códigos IBAN usando a lógica que já está disponível no Dynamics 365 for Finance and Operations.   
+    * Suponhamos que você esteja criando um processo para analisar extratos bancários de entrada para uma atualização de dados do aplicativo. Você receberá os extratos bancários de entrada como arquivos TXT que contêm códigos IBAN. Como parte do processo de importação de extratos bancários, você precisa validar a exatidão desses códigos IBAN usando a lógica que já está disponível no Dynamics 365 for Finance and Operations.   
 
 ## <a name="import-a-new-er-model-configuration"></a>Importar uma nova configuração de modelo de ER
-1. Na lista, localize e selecione o PDV desejado.
+1. Na lista, localize e selecione o registro desejado.
     * Selecione o bloco do provedor Microsoft.  
 2. Clique em Repositórios.
 3. Clique em Mostrar filtros.
@@ -103,7 +103,7 @@ Para concluir essas etapas, você deve primeiro concluir as etapas do procedimen
     * Mapeamento para modelo de dados  
 6. Clique em Salvar.
 7. Clique em Designer.
-8. Na árvore, selecione "Dynamics 365 for Operations\Classe".
+8. Na árvore, selecione 'Dynamics 365 for Operations\Classe'.
 9. Clique em Adicionar raiz.
     * Adicionar uma nova fonte de dados para chamar a lógica de aplicativo existente para validação de códigos IBAN.  
 10. No campo Nome, digite 'check_codes'.
@@ -157,5 +157,4 @@ Para fins de teste, execute o mapeamento de formato usando o arquivo SampleIncom
     * Clique em Procurar e navegue até o arquivo SampleIncomingMessage.txt, que foi baixado anteriormente.  
 2. Clique em OK.
     * Examine a saída no formato XML, que representa os dados que foram importados do arquivo selecionado e transferidos para o modelo de dados. Observe que apenas 3 linhas do arquivo TXT importado foram processadas. O código IBAN na linha 4, que não é válido, foi ignorado e uma mensagem de erro é fornecida no Log de informações.  
-
 

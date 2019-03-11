@@ -1,13 +1,13 @@
 ---
-title: "O que há de novo ou diferente no Dynamics AX versão 7.0.1 (maio de 2016)"
-description: "Este artigo descreve os recursos novos ou alterados na versão 7.0.1 do Microsoft Dynamics AX. Esta versão foi lançada em maio de 2016 e tem um número de compilação 7.0.1265.23014."
+title: Novidades ou alterações no aplicativo Dynamics AX versão 7.0.1 (maio de 2016)
+description: Este artigo descreve os recursos novos ou alterados no aplicativo Microsoft Dynamics AX versão 7.0.1. Esta versão foi lançada em maio de 2016 e tem um número de compilação 7.0.1265.23014.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: c830952b5d9e4887a816b5ab66d0944bddf5b505
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314500"
 ---
-
-# <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>O que há de novo ou diferente no Dynamics AX versão 7.0.1 (maio de 2016)
+# <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Novidades ou alterações no aplicativo Dynamics AX versão 7.0.1 (maio de 2016)
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo descreve os recursos novos ou alterados na versão 7.0.1 do Microsoft Dynamics AX. Esta versão foi lançada em maio de 2016 e tem um número de compilação 7.0.1265.23014.
+Este artigo descreve os recursos novos ou alterados no aplicativo Microsoft Dynamics AX versão 7.0.1. Esta versão foi lançada em maio de 2016 e tem um número de compilação 7.0.1265.23014.
 
 ## <a name="electronic-reporting-er"></a>Relatório eletrônico (RE)
 
@@ -38,20 +37,20 @@ Este artigo descreve os recursos novos ou alterados na versão 7.0.1 do Microsof
 | Configure uma caixa de diálogo de tempo de execução para a criação de relatórios através do Relatório Eletrônico (RE), para que os usuários possam selecionar as dimensões financeiras desejadas. | Em tempo de execução, na caixa de diálogo para executar um relatório de RE, os usuários podem selecionar várias dimensões financeiras. Os detalhes das dimensões financeiras selecionadas serão exibidos no documento eletrônico gerado. |
 | Configure o acesso a múltiplas dimensões financeiras durante o design de um relatório de RE, através de um único mapeamento para a fonte de dados desejada. | A mesma configuração de relatório de ER pode ser usada para gerar documentos eletrônicos que apresentam dados transacionais com detalhes de dimensões financeiras, independentemente do número de dimensões financeiras que são selecionadas tanto pelo usuário quanto configuradas para a entidade legal atual ou instância. |
 | Configure um relatório do RE para inserir dados em colunas geradas dinamicamente de um documento eletrônico que é criado no formato de planilha OPENXML. | Um relatório de RE pode inserir dados em uma planilha OPENXML gerada, por meio de replicação horizontal de colunas. Portanto, a mesma configuração de relatório de RE pode ser reutilizada para gerar documentos eletrônicos que possuem um número diferente de colunas geradas dinamicamente. |
-| Configure destinos do RE para que o resultado de saída de um formato seja direcionado para um destino específico: arquivo, e-mail ou arquivamento (pasta Microsoft SharePoint ou Microsoft Azure Storage). | Anteriormente, ao executar uma configuração de RE, uma caixa de mensagem aparecia, solicitando uma ação de usuário para salvar ou abrir um arquivo. Agora é possível pré-configurar um destino para cada configuração de formato e para cada componente de saída (uma pasta ou um arquivo) separadamente. Os usuários que têm direitos de acesso apropriados também podem modificar as configurações de destino em tempo de execução. |
+| Configure destinos do RE para que o resultado de saída de um formato seja direcionado para um destino específico: arquivo, e-mail ou arquivamento (pasta do Microsoft SharePoint ou Microsoft Azure Storage). | Anteriormente, ao executar uma configuração de RE, uma caixa de mensagem aparecia, solicitando uma ação de usuário para salvar ou abrir um arquivo. Agora é possível pré-configurar um destino para cada configuração de formato e para cada componente de saída (uma pasta ou um arquivo) separadamente. Os usuários que têm direitos de acesso apropriados também podem modificar as configurações de destino em tempo de execução. |
 
-## <a name="pos--microsoft-dynamics-ax-retail"></a>PDV – Microsoft Dynamics AX Retail
+## <a name="pos--microsoft-dynamics-ax-retail"></a>POS – Microsoft Dynamics AX Retail
 
 | O que você pode fazer? | Por que isso é importante? |
 |------------------|------------------------|
-| Use o navegador Google Chrome. | Os varejistas agora podem iniciar o Cloud POS através do navegador Chrome, podendo desfrutar de todas as funcionalidades disponíveis nas versões do Cloud POS para Microsoft Edge e Internet Explorer. |
+| Use o navegador Google Chrome. | Os varejistas agora podem iniciar o Cloud POS através do navegador Chrome, podendo desfrutar de todas as funcionalidades disponíveis nas versões do Microsoft Edge e Internet Explorer do Cloud POS. |
 
 ## <a name="financial-reporting"></a>Relatórios financeiros
 
 | O que você pode fazer? | Por que isso é importante? |
 |------------------|------------------------|
 | Reconstrua o mercado de dados de Relatórios financeiros. | Quando você move bancos de dados do Dynamics AX entre ambientes ou faz outras alterações invasivas ao ambiente, o banco de dados de relatórios financeiros pode ter que ser reconstruído. Um script do Windows PowerShell agora é fornecido para reconstruir o banco de dados para você. |
-| Não é mais possível selecionar opções de designer de relatório que não são válidas. | Diversas opções de designer de relatório que foram usadas nas versões de mercado do Relator de gerenciamento não se aplicam a esta versão do Dynamics AX. Essas opções estavam relacionadas ao projeto, saída e vinculação do relatório financeiro. Essas opções foram removidas do designer de relatório financeiro para evitar erros de usuário. |
+| Não é mais possível selecionar opções de designer de relatório que não são válidas. | Diversas opções de designer de relatório que foram usadas nas versões de mercado do Management reporter não se aplicam a esta versão do Dynamics AX. Essas opções estavam relacionadas ao projeto, saída e vinculação do relatório financeiro. Essas opções foram removidas do designer de relatório financeiro para evitar erros de usuário. |
 
 ## <a name="financial-management"></a>Gerenciamento financeiro
 
@@ -107,4 +106,3 @@ Este artigo descreve os recursos novos ou alterados na versão 7.0.1 do Microsof
 [Novidades ou alterações](whats-new-changed.md)
 
 [Guias de tarefas novos ou atualizados (maio de 2016)](new-updated-task-guides-available-may-2016.md)
-

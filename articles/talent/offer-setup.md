@@ -1,34 +1,34 @@
 ---
 title: Configurar o gerenciamento de ofertas
-description: "Este tópico descreve como configurar as ofertas no Talent."
+description: Este tópico descreve como configurar as ofertas no Talent.
 author: josaw
 manager: AnnBe
-ms.date: 12/07/2018
+ms.date: 02/04/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fa6c8c80870dd7bd06498c7571ba8a110be85c86
+ms.sourcegitcommit: 3b12ff5ca81650ae666ff443b0bc998182f3931e
 ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
-ms.openlocfilehash: bb90f0a3c87c64a74ca63610105abfeb8223900a
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/07/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "376498"
 ---
 # <a name="set-up-offer-management"></a>Configurar o gerenciamento de ofertas 
 
 [!include [banner](includes/banner.md)]
 
-Quando o candidato é movido para o estágio de oferta no Dynamics 365 for Talent: Attract, você precisará garantir que as ofertas possam ser rapidamente criadas, aprovadas como necessário e enviadas para o candidato. Como a maioria de ofertas é padrão, elas podem ser criadas desde modelos reutilizáveis. No Attract, todas as ofertas são agrupadas em um pacote de oferta, que é uma coleção de um ou mais documentos de oferta. 
+Quando o candidato for movido para o estágio de oferta no Dynamics 365 for Talent: Attract, você precisará garantir que as ofertas podem ser rapidamente criadas, aprovadas, conforme necessário e enviadas para o candidato. Como a maioria de ofertas é padrão, elas podem ser criadas desde modelos reutilizáveis. No Attract, todas as ofertas são agrupadas em um pacote de oferta, que é uma coleção de um ou mais documentos de oferta. 
 
 Este tópico lista todas as etapas que um administrador do Attract deve seguir para configurar diferentes modelos de pacote de oferta como parte do recurso de gerenciamento de ofertas no Attract. Os usuários com funções não administrativas não terão acesso a esses recursos.
 
@@ -80,7 +80,7 @@ Para preparar o arquivo CSV de regras de dados, faça o seguinte.
 
 1.  Para carregar um valor de intervalo, crie as colunas 3 e 4 **Salário Anual**. Para carregar um valor específico em vez de um intervalo, crie somente a coluna 3 **Salário Anual**
 
-1.  Popule o arquivo do Microsoft Excel com base nas funções necessárias.
+1.  Preencha o arquivo do Microsoft Excel com base nas funções necessárias.
 
 1.  Verifique se cada linha é uma combinação exclusiva de todos os valores.
 
@@ -203,5 +203,7 @@ Há várias partes do processo de criação da oferta que podem ser configuradas
 
     - ESign - esta é a opção padrão, pronta para usar, em que o usuário pode assinar uma oferta digitando seu nome e iniciais.
 
-Para saber mais sobre o processo de criação da oferta, consulte [Criação, aprovação, e ofertas de assinatura](./creating-offers.md).
+>[!NOTE]
+> Para obter licenças e uma versão de avaliação gratuita do Adobe Sign, visite este [link](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html).
 
+Para saber mais sobre o processo de criação da oferta, consulte [Criação, aprovação, e ofertas de assinatura](./creating-offers.md).

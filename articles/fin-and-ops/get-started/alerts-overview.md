@@ -1,13 +1,13 @@
 ---
 title: Alertas
-description: "Este tópico fornece informações gerais sobre alertas no Microsoft Dynamics 365 for Finance and Operations. Você pode usar alertas para manter-se informado sobre os eventos que deseja acompanhar durante o dia útil."
+description: Este tópico fornece informações gerais sobre alertas no Microsoft Dynamics 365 for Finance and Operations. Você pode usar alertas para manter-se informado sobre os eventos que deseja acompanhar durante o dia útil.
 author: tjvass
 manager: AnnBe
 ms.date: 07/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
@@ -16,20 +16,19 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
+ms.openlocfilehash: 28ee34cd9133c634af98a50168e22efd0f74abce
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 38309e986c1d284ed63be760745b20a5415adb4c
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367446"
 ---
-
 # <a name="alerts"></a>Alertas
 
 [!include [banner](../includes/banner.md)]
 
 ## <a name="about-alerts"></a>Sobre alertas
-Alertas de um sistema de notificação para eventos críticos no Microsoft Dynamics 365 for Finance and Operations. Você pode usar alertas para manter-se informado sobre os eventos que deseja acompanhar durante o dia útil. Você pode criar facilmente seu próprio conjunto de regras de alerta para ser alertado sobre entregas atrasadas, ordens excluídas, preços alterados ou outros eventos pelos quais você deve ser o responsável.
+Os alertas formam um sistema de notificação para eventos críticos no Microsoft Dynamics 365 for Finance and Operations. Você pode usar alertas para manter-se informado sobre os eventos que deseja acompanhar durante o dia útil. Você pode criar facilmente seu próprio conjunto de regras de alerta para ser alertado sobre entregas atrasadas, ordens excluídas, preços alterados ou outros eventos pelos quais você deve ser o responsável.
 
 No planejamento de recursos empresariais (ERP), há vários cenários típicos no qual o recurso de alertas no Finance and Operations pode ser usado. Aqui estão alguns exemplos.
 
@@ -78,4 +77,3 @@ Uma regra de alerta tem cinco componentes:
 ## <a name="email-notifications-from-alerts"></a>Notificações por email de alertas
 
 As notificações por email de alertas ainda não estão habilitadas. Isso será habilitado em uma atualização futura.
-

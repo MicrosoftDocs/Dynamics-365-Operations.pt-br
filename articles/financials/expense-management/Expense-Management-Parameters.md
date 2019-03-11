@@ -1,13 +1,13 @@
 ---
-title: "Parâmetros de gerenciamento de despesas"
-description: "Os parâmetros a seguir controlam o comportamento no Gerenciamento de despesas."
+title: Parâmetros de gerenciamento de despesas
+description: Os parâmetros a seguir controlam o comportamento no Gerenciamento de despesas.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: b6f67d44e0c64c145bb6d477c83d5a245b1682d4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 22f766b780d10d4fc615660990729f008007787a
-ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355923"
 ---
-
 # <a name="expense-management-parameters"></a>Parâmetros de gerenciamento de despesas
 
 [!include [banner](../includes/banner.md)]
@@ -92,5 +91,4 @@ Os parâmetros controlam o comportamento geral no Gerenciamento de despesas.
 |  <strong>Exibir atestado de anticorrupção</strong>  | Selecione essa opção para exibir o texto anticorrupção ao criar um novo relatório de despesas. As categorias de despesa específicas poderão então ser habilitadas e isso exigirá que o atestado de anticorrupção esteja selecionado no relatório de despesas. Por exemplo, uma categoria de presentes relacionada a uma despesa de autoridade do governo pode exigir que o funcionário confirme se a despesa atende à política da empresa relacionada a autoridades do governo. |
 | <strong>Mensagem de anticorrupção para emissor</strong> |                                                                                             Insira texto que será exibido ao funcionário quando ele estiver criando um novo relatório de despesas. Clique no botão <strong>Traduções</strong> para inserir o texto do idioma específico que será exibido com base no idioma do usuário.                                                                                             |
 | <strong>Mensagem de anticorrupção para aprovador</strong>  |                                                                                             Insira texto que será exibido ao aprovador quando ele estiver criando um novo relatório de despesas. Clique no botão <strong>Traduções</strong> para inserir o texto do idioma específico que será exibido com base no idioma do usuário.                                                                                             |
-
 

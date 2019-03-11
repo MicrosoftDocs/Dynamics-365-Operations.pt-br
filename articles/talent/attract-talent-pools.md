@@ -1,31 +1,30 @@
 ---
 title: Candidatos de origem usando grupos de talento
-description: "Este tópico explica como criar e configurar os grupos de talentos no Attract."
-author: 
+description: Este tópico explica como criar e configurar os grupos de talentos no Attract.
+author: ''
 manager: AnnBe
 ms.date: 10/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 2eb46f436305a4c81ea99553e4dc07288ee74008
 ms.openlocfilehash: cac68799ee5b6e2c8f864acf6d1677a7213b4aaf
-ms.contentlocale: pt-br
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303253"
 ---
-
 # <a name="source-candidates-by-using-talent-pools"></a>Candidatos de origem usando grupos de talento
 
 [!include[banner](../includes/banner.md)]
@@ -71,7 +70,7 @@ O proprietário e os colaboradores do grupo de talentos podem adicionar candidat
 
     - Para adicionar um candidato interno, você poderá pesquisar a pessoa por endereço de email. Depois que uma busca bem-sucedida, o endereço de email do candidato, o nome e o sobrenome serão preenchidos. Se você tiver o currículo ou qualquer documento relacionado do candidato, poderá carregá-los neste momento. Em seguida, selecione **Adicionar** para adicionar o candidato ao grupo de talentos.
     - Para adicionar um candidato externo, insira manualmente seu endereço de email, nome e sobrenome. Se você tiver o currículo ou qualquer documento relacionado do candidato, poderá carregá-los neste momento. Em seguida, selecione **Adicionar** para adicionar o candidato ao grupo de talentos.
-    - Para adicionar vários candidatos, selecione a guia **Do Excel**. Você poderá então baixar o modelo apropriado do Microsoft Excel, inserir os detalhes dos candidatos, salvar a planilha do Excel e carregá-la no aplicativo.
+    - Para adicionar vários candidatos, selecione a guia **Do Excel**. Você poderá baixar o modelo apropriado do Microsoft Excel, inserir os detalhes dos candidatos, salvar a planilha e carregá-la no aplicativo.
 
         Se algum erro for encontrado na planilha, você receberá mensagens sobre eles. Você poderá corrigir os erros e tentar carregar a planilha novamente. Quando nenhum outro erro for encontrado, selecione **Adicionar** para carregar a planilha. A planilha é processada em segundo plano e você será notificado quando todos os candidatos tiverem sido adicionados ao grupo de talentos.
 
@@ -139,4 +138,3 @@ Geralmente, vários bons candidatos para um trabalho não são selecionados, mas
 1. Na página de solicitação de emprego, selecione **Adicionar a grupo de talentos**. Uma lista de grupos de talentos aos quais você tem acesso é mostrada.
 
 1. Selecione ou pesquise o grupo de talentos e então selecione **Adicionar** para adicionar o candidato a ele.
-

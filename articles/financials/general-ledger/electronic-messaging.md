@@ -1,33 +1,32 @@
 ---
-title: "Sistema de mensagens eletrônicas"
-description: "Este tópico fornece uma visão geral e as informações de instalação para sistema de mensagens eletrônicas no Microsoft Dynamics 365 para finanças e operações."
+title: Sistema de mensagens eletrônicas
+description: Este tópico contém uma visão geral e informações de configuração de mensagens eletrônicas no Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: 232398a6c4193d0074881e26fff361deb9784bf2
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 082ad886f40a52457900523f44158da3ed939458
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357924"
 ---
-
-# <a name="electronic-messaging"></a>Sistema de mensagens eletrônicas
+# <a name="electronic-messaging"></a>Mensagens eletrônicas
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece uma visão geral e as informações de instalação para sistema de mensagens eletrônicas no Microsoft Dynamics 365 para finanças e operações.
+Este tópico contém uma visão geral e informações de configuração de mensagens eletrônicas no Microsoft Dynamics 365 for Finance and Operations.
 
 Recentemente, as instituições governamentais e as autoridades legislativas de vários países e regiões do mundo implementaram requisitos de relatório para as empresas registradas nesses países ou regiões. A finalidade de requisitos é habilitar os dados que devem ser obtidos das empresas no formato eletrônico, diretamente dos sistemas onde foram contabilizados, armazenados e processados.
 
@@ -39,7 +38,7 @@ O sistema de mensagens eletrônicas se baseia nestas entidades:
 
 - **Mensagem eletrônica** – um relatório ou uma declaração que deve ser relatados e/ou transmitido internamente. Um exemplo é um relatório que foi enviado para a Secretaria da Receita Federal.
 - **Itens da mensagem eletrônica** – os registros a serem incluídos na mensagem que é relatada.
-- **Processamento de mensagens eletrônicas** – uma cadeia de ações vinculadas, ou desvinculadas, que devem ser executadas para coletar dados necessários, para gerar relatórios, para armazenar dados em armazenamento de Blobs do Microsoft Azure, para transmitir relatórios para fora do sistema, para obter as respostas de fora d sistema e para atualizar o banco de dados com base nas informações recebidas.
+- **Processamento de mensagens eletrônicas** – uma cadeia de ações, vinculadas ou desvinculadas, que devem ser executadas para coletar os dados necessários, gerar relatórios, armazenar dados no armazenamento de Blob do Microsoft Azure, transmitir relatórios para fora do sistema, obter respostas de fora do sistema e atualizar o banco de dados com base nas informações recebidas.
 
 A ilustração a seguir mostra o fluxo de dados do sistema de mensagens eletrônicas.
 
@@ -47,7 +46,7 @@ A ilustração a seguir mostra o fluxo de dados do sistema de mensagens eletrôn
 
 A funcionalidade Mensagens eletrônicas dá suporte aos seguintes cenários:
 
-- Crie manualmente mensagens e gere relatórios baseados em formatos de ER de exportação associados de vários tipos: Microsoft Excel, XML, JavaScript Object Notation (JSON), PDF, texto e o Microsoft Word.
+- Crie mensagens manualmente e gere relatórios com base em formatos de ER de exportação associados de vários tipos: Microsoft Excel, XML, JavaScript Object Notation (JSON), PDF, texto e Microsoft Word.
 - Criar e processar automaticamente as mensagens baseadas em informações solicitadas e obtidas de uma autoridade em um formato de ER de importação associado.
 - Colete e processe informações de uma fonte de dados (tabela do Finance and Operations) como itens da mensagem.
 - Armazene informações adicionais e avalie diversos valores ao chamar as classes executáveis definidas especificamente em relação a mensagens ou a itens de mensagem.
@@ -452,4 +451,3 @@ Agora você pode excluir ou atualizar o status da mensagem. Para atualizar o sta
 ![Atualizar o status da mensagem](media/update-status.png)
 
 O status da mensagem é atualizado para **Preparado** e agora você pode gerar o relatório ao selecionar **Gerar relatório**. O relatório é gerado, e o status da mensagem e o log de ação são atualizados. Para exibir o relatório gerado, selecione o o botão **Anexo** no Painel de Ações.
-

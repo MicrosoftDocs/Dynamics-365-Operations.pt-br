@@ -1,13 +1,13 @@
---- 
-title: "Criar regras de configuração"
-description: "Esse procedimento cria regras de configuração que podem ser usadas na configuração baseada em dimensão para forçar ou evitar certas combinações de linhas da Lista de Materiais."
+---
+title: Criar regras de configuração
+description: Esse procedimento cria regras de configuração que podem ser usadas na configuração baseada em dimensão para forçar ou evitar certas combinações de linhas da Lista de Materiais.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMTable, BOMConfigRule, ConfigItemIdLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a315ddecd2e10f508b86ac8ea18a36df71616963
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 71f429d3aba1b5c51b35b0d08337f69094d0b135
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314730"
 ---
 # <a name="create-configuration-rules"></a>Criar regras de configuração
 
@@ -54,5 +54,4 @@ Esse procedimento cria regras de configuração que podem ser usadas na configur
 17. Na lista, clique no link na linha selecionada.
     * Selecione o número de item que será selecionado ou desmarcado de acordo com o método escolhido.  
 18. Feche a página.
-
 

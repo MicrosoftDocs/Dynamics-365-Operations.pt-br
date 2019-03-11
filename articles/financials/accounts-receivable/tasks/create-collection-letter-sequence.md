@@ -1,13 +1,13 @@
---- 
-title: "Criar uma sequência de cartas de cobrança"
-description: "Use esta guia para criar uma tarefa de sequência de cartas de cobrança."
+---
+title: Criar uma sequência de cartas de cobrança
+description: Use esta guia para criar uma tarefa de sequência de cartas de cobrança.
 author: mikefalkner
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CollectionLetterCourse
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: db5264f6d8d7723ff01d13e99728c2bfebcb4515
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6331c3680169b305c4bfbfada4ba106b619be092
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311556"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Criar uma sequência de cartas de cobrança
 
@@ -65,5 +65,4 @@ Use esta guia para criar uma tarefa de sequência de cartas de cobrança. Esta t
 26. Expanda guia rápida Nota.
 27. Digite o texto a ser exibido na carta de cobrança para o código de carta de cobrança selecionado.
     * Você pode traduzir esse texto nos vários idiomas usando o menu das traduções acima da caixa da nota.  
-
 

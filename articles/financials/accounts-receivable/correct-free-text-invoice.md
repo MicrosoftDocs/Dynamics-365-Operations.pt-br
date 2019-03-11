@@ -1,13 +1,13 @@
 ---
 title: Corrigir uma fatura de texto livre
-description: "Este artigo explica como corrigir uma nota fiscal de texto livre que foi lançada e emiti-la novamente como uma nota fiscal corrigida."
+description: Este artigo explica como corrigir uma nota fiscal de texto livre que foi lançada e emiti-la novamente como uma nota fiscal corrigida.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c8c1b90b7b2c02a53e53cc13d70445a237b126d4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: cbae4c444db29a8dc7f3040aa78e45c0da092efd
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364594"
 ---
-
 # <a name="correct-a-free-text-invoice"></a>Corrigir uma fatura de texto livre
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ Você pode identificar faturas de correção e cancelamento de duas maneiras:
 
 > [!NOTE]
 > Este recurso está disponível somente se a chave de configuração **Correção de fatura de texto livre** estiver selecionada.
-
 
 
 

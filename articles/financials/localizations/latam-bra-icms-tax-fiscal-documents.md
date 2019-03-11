@@ -1,13 +1,13 @@
 ---
-title: "Notas fiscais de transferência ou apropriação de imposto ICMS para o Brasil"
-description: "Este tópico explica o conceito de notas fiscais de transferência ou apropriação de imposto e descreve os requisitos para gerá-las."
+title: Notas fiscais de transferência ou apropriação de imposto ICMS para o Brasil
+description: Este tópico explica o conceito de notas fiscais de transferência ou apropriação de imposto e descreve os requisitos para gerá-las.
 author: sndray
 manager: AnnBe
 ms.date: 08/08/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxFiscalDocument_BR, TaxFiscalDocumentCancel_BR, TaxFiscalDocumentListPage_BR, TaxFiscalDocumentPost_BR
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e6b2792d645a42a616439a143550250a7c5019c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b3499d074d7f762bcc3b7851fd0df06f872c32d4
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371541"
 ---
-
 # <a name="icms-tax-fiscal-documents-for-brazil"></a>Notas fiscais de transferência ou apropriação de imposto ICMS para o Brasil
 
 [!include [banner](../includes/banner.md)]
@@ -67,7 +66,7 @@ De acordo com a lei brasileira nº 102/2000, a partir de 1º de janeiro de 2001,
 
 No Microsoft Dynamics 365 for Operations, as entradas são as seguintes:
 
-**Compra de ativo fixo** **Microsoft Dynamics 365 for Finance and Operations: Fatura de compra de ativo de recebimento**
+**Compra de Ativo Fixo** **Microsoft Dynamics 365 for Finance and Operations: Fatura de Compra do Ativo de Recebimento**
 
 **Ajuste de ICMS do ano** **Finance and Operations: Comprovante de diário manual** **(R$ 12.000,00 / 48 parcelas) \* 12 (meses)**
 
@@ -139,7 +138,6 @@ Para obter mais informações, consulte os seguintes tópicos:
 [Inserir e lançar transações de ajuste de imposto (Brasil)](tasks/br-10001-3-enter-post-tax-adjustment-transactions.md)
 
 [Criar uma apuração de imposto – ICMS (Brasil)](tasks/br-10001-4-create-tax-assessment-icms.md)
-
 
 
 

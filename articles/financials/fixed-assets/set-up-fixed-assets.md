@@ -1,13 +1,13 @@
 ---
 title: Configurar ativos fixos
-description: "Este tópico fornece uma visão geral da configuração do módulo de ativos fixos."
+description: Este tópico fornece uma visão geral da configuração do módulo de ativos fixos.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 126d011301fbc6e228a9824929e559984e0e56cc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 8810c131adf35ecc58f74c1d232a028f82ad3ccc
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/17/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311878"
 ---
-
 # <a name="set-up-fixed-assets"></a>Configurar ativos fixos
 
 [!include [banner](../includes/banner.md)]
@@ -85,4 +84,3 @@ Você pode configurar códigos razão que são necessários para alterações em
 Por fim, na guia **Sequências numéricas**, defina sequências numéricas para ativos fixos. A sequência numérica do **Ativo fixo** pode ser substituída pela sequência numérica do **Grupo de ativos fixos** se tiver sido especificada.
 
 Para saber mais, consulte [Criar um ativo fixo](tasks/create-fixed-asset.md).
-

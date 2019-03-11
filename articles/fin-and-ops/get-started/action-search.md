@@ -1,13 +1,13 @@
 ---
-title: "Pesquisa de ação"
-description: "Este artigo descreve a funcionalidade de pesquisa de ação no Microsoft Dynamics 365 for Finance and Operations. A pesquisa de ação ajudará a encontrar e executar ações em uma página."
+title: Pesquisa de ação
+description: Este artigo descreve a funcionalidade de pesquisa de ação no Microsoft Dynamics 365 for Finance and Operations. A pesquisa de ação ajudará a encontrar e executar ações em uma página.
 author: jasongre
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 960c715c487fbda5d93630327f07380e6d8fbd3c
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317490"
 ---
-
 # <a name="action-search"></a>Pesquisa de ação
 
 [!include [banner](../includes/banner.md)]
@@ -33,7 +32,7 @@ Este artigo descreve a funcionalidade de pesquisa de ação no Microsoft Dynamic
 
 ## <a name="introduction"></a>Introdução
 
-As páginas no Microsoft Dynamics 365 for Finance and Operations expõem principalmente comandos em Painéis de Ação: o Painel de Ação padrão que aparece na parte superior da página e as barras de ferramentas que aparecem em várias seções da página. Em versões anteriores, um recurso Dicas de Tecla permitia acessar rapidamente qualquer botão de um Painel de Ação pressionando a tecla Alt e depois uma série de letras.
+As páginas no Microsoft Dynamics 365 for Finance and Operations expõem principalmente comandos em Painéis de Ação: o Painel de Ação padrão que aparece na parte superior de uma página e as barras de ferramentas que aparecem em várias seções da página. Em versões anteriores, um recurso Dicas de Tecla permitia acessar rapidamente qualquer botão de um Painel de Ação pressionando a tecla Alt e depois uma série de letras.
 
 [![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png)
 

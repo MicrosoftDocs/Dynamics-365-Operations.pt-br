@@ -1,37 +1,36 @@
 ---
 title: Gerenciar produtos e categorias de produtos de varejo
-description: "Este tópico descreve como gerentes de mercadoria podem usar categorias de produtos de varejo para gerenciar relacionamentos entre a hierarquia de produtos de varejo e os detalhes de produtos liberados."
+description: Este tópico descreve como gerentes de mercadoria podem usar categorias de produtos de varejo para gerenciar relacionamentos entre a hierarquia de produtos de varejo e os detalhes de produtos liberados.
 author: ashishmsft
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
-ms.custom: 
+ms.custom: ''
 ms.assetid: c7ed2ba5-87c6-4d99-9728-2a83e6d95ca9
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 0bcc5989edd9913fce414c0c24068f111d8c1aeb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 19c972164474c972aab642c3cccc67cf396a6cb2
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344676"
 ---
-
 # <a name="manage-retail-product-categories-and-products"></a>Gerenciar produtos e categorias de produtos de varejo
 
 [!include [banner](./includes/banner.md)]
 
-Este tópico descreve um modo avançado de gerenciar produtos e categorias de produtos de varejo no Microsoft Dynamics 365 for Retail. Os aprimoramentos permitem que os gerentes de mercadoria visualizem uma estrutura de propriedades de produtos que é compartilhada entre a hierarquia de produtos de varejo e os detalhes de produtos liberados.
+Este tópico descreve um modo avançado de gerenciar categorias de produtos de varejo e produtos no Microsoft Dynamics 365 for Retail. Os aprimoramentos permitem que os gerentes de mercadoria visualizem uma estrutura de propriedades de produtos que é compartilhada entre a hierarquia de produtos de varejo e os detalhes de produtos liberados.
 
 Para saber mais sobre como gerenciar categorias de produtos de varejo, no espaço de trabalho **Gerenciamento de categorias e produtos** , selecione o bloco **Hierarquia de produtos de varejo** .
 
@@ -58,4 +57,3 @@ Além disso, na estrutura de categorias de produto de varejo aprimorada, um gere
 Você pode usar a nova estrutura aprimorada das propriedades de produtos para selecionar as propriedades de produto que devem ser enviadas aos produtos associados. Na página **Hierarquia de produtos de varejo**, no Painel de Ação, selecione **Categoria** e depois selecione **Atualizar produtos** para abrir a caixa de diálogo **Atualizar produtos** .
 
 ![Caixa de diálogo Atualizar produtos](media/NewUpdateProductsEnhancedView.PNG)
-

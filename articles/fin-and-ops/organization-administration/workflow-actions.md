@@ -1,13 +1,13 @@
 ---
-title: "Ações nos processos de aprovação de fluxo de trabalho"
-description: "Este artigo explica as ações que cada participante em um processo de aprovação de fluxo de trabalho pode executar."
+title: Ações nos processos de aprovação de fluxo de trabalho
+description: Este artigo explica as ações que cada participante em um processo de aprovação de fluxo de trabalho pode executar.
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 829ee16b8fd72a0808a657419524487d9c1b3123
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361742"
 ---
-
 # <a name="actions-in-workflow-approval-processes"></a>Ações nos processos de aprovação de fluxo de trabalho
 
 [!include [banner](../includes/banner.md)]
@@ -143,4 +142,3 @@ Quando um aprovador solicita uma alteração em um documento, o documento é env
 Por exemplo, suponha que Samuel tenha enviado um relatório de despesas de R$ 12,000, que é atribuído a Manuela. Se Suzana solicitar uma alteração, o relatório de despesas é enviado de volta para Samuel.
 
 Samuel poderá reenviar o relatório de despesas. Ele pode fazer as alterações solicitadas primeiro ou pode reenviar a versão original do relatório de despesas. Se Samuel reenviar o relatório de despesas, ele será enviado a Fábio para aprovação, pois Fábio é o primeiro aprovador do processo de aprovação.
-

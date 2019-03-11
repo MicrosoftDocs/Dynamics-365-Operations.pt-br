@@ -1,13 +1,13 @@
 ---
-title: "​Organizar sua força de trabalho usando departamentos, trabalhos e posições"
-description: "Departamentos, trabalhos e cargos são elementos organizacionais mantidos dentro da área de Recursos Humanos. Este tópico descreve informações conceituais sobre esses elementos."
+title: ​Organizar sua força de trabalho usando departamentos, trabalhos e posições
+description: Departamentos, trabalhos e cargos são elementos organizacionais mantidos dentro da área de Recursos Humanos. Este tópico descreve informações conceituais sobre esses elementos.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit
 audience: Application User
 ms.reviewer: rschloma
@@ -18,19 +18,17 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: 8b74542b85810409e062a42e323c0527711d562f
+ms.sourcegitcommit: 49a642cd5e0519e381ff558f59c993ee77f55108
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b2a79c42b67621272af8107661202ea2ce092193
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "374388"
 ---
-
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>​Organizar sua força de trabalho usando departamentos, trabalhos e posições
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 Departamentos, trabalhos e cargos são elementos organizacionais mantidos dentro da área de Recursos Humanos. Este tópico descreve informações conceituais sobre esses elementos. 
 
@@ -165,7 +163,6 @@ Para alguns registros, é possível especificar futuras alterações no registro
 </table>
 
 Você pode modificar as informações mencionadas na tabela anterior para um cargo ou um trabalho e especificar uma data em que as modificações feitas no cargo ou no trabalho entrarão em vigor. Por exemplo, um cargo só pode ser atribuído a um trabalhador, mas Sanjay Patel, que está atribuído ao cargo Contador-A, sairá em duas semanas. Joe Healy substituirá Sanjay Patel quando ele sair. Mesmo que Sanjay ainda esteja atribuído ao cargo, você poderá atribuir Joe Healy ao mesmo cargo de forma que a atribuição entre em vigor somente após o último dia de Sanjay.
-
 
 
 

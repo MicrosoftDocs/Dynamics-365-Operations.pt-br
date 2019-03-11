@@ -1,13 +1,13 @@
 ---
-title: "Liquidação e priorização automáticas"
-description: "Este tópico descreve como as transações serão liquidadas se você selecionar a Liquidação automática na página de parâmetros de Contas a receber. Também explica como a liquidação automática pode ser usada em combinação com a prioridade de pagamento."
+title: Liquidação e priorização automáticas
+description: Este tópico descreve como as transações serão liquidadas se você selecionar a Liquidação automática na página de parâmetros de Contas a receber. Também explica como a liquidação automática pode ser usada em combinação com a prioridade de pagamento.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 775ce10cdba5e38fbb5fc058c6df297143229f79
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fc091e401f84ce2ac425897ad6cbd92fd7399736
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318962"
 ---
-
 # <a name="automatic-settlement-and-prioritization"></a>Liquidação e priorização automáticas
 
 [!include [banner](../includes/banner.md)]
 
 Este tópico descreve como as transações serão liquidadas se você selecionar a Liquidação automática na página de parâmetros de Contas a receber. Também explica como a liquidação automática pode ser usada em combinação com a prioridade de pagamento.
 
-Você tem duas opções quando liquida pagamentos com faturas e outras transações. Você pode selecionar manualmente as transações a serem liquidadas ou o Microsoft Dynamics 365 for Finance and Operations pode selecionar as transações automaticamente usando a funcionalidade de liquidação automática. Você também pode personalizar como as liquidações automáticas são processadas usando a opção **Priorizar liquidação**. Todas essas opções são parte dos parâmetros de liquidação que são definidos na página **Parâmetros de contas a receber**. O modo como as transações são liquidadas automaticamente pode ser diferente, dependendo do método usado para a liquidação automática. Os seguintes métodos estão disponíveis:
+Você tem duas opções quando liquida pagamentos com faturas e outras transações. Você pode selecionar manualmente as transações a serem liquidadas ou o Microsoft Dynamics 365 for Finance and Operations pode selecioná-las automaticamente usando a funcionalidade de liquidação automática. Você também pode personalizar como as liquidações automáticas são processadas usando a opção **Priorizar liquidação**. Todas essas opções são parte dos parâmetros de liquidação que são definidos na página **Parâmetros de contas a receber**. O modo como as transações são liquidadas automaticamente pode ser diferente, dependendo do método usado para a liquidação automática. Os seguintes métodos estão disponíveis:
 
 -   Prioridade de liquidação definida pelo usuário
 -   Liquidação automática padrão
@@ -44,8 +43,8 @@ Os exemplos de liquidações posteriormente neste artigo se baseiam nas transaç
 
 | Transação   | Data        | Valor | Condições de desconto à vista | Data do desconto à vista | Comentários                                                                                                                                                                                      |
 |---------------|-------------|--------|---------------------|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Fatura 1     | 15 de agosto   | 100,00 | 2%14, Líquido 30        | 29 de agosto          |                                                                                                                                                                                               |
-| Fatura 2     | 1 de setembro | 250,00 | 2%14, Líquido 30        | 15 de setembro       |                                                                                                                                                                                               |
+| Fatura 1     | 15 de agosto   | 100,00 | 2%14, líquido 30        | 29 de agosto          |                                                                                                                                                                                               |
+| Fatura 2     | 1 de setembro | 250,00 | 2%14, líquido 30        | 15 de setembro       |                                                                                                                                                                                               |
 | Fatura 3     | 15 de outubro  | 500,00 | 2% 14/Líquido 30        | 29 de outubro         |                                                                                                                                                                                               |
 | Nota de juros | 15 de outubro  | 7:00   |                     |                    | Esta nota de juros destina-se à fatura 1 e à fatura 2. O valor é calculado como 2% de juros em valores devidos com 30 ou mais dias de atraso. Por exemplo, 0,02 × (100,00 + 250,00) = 7,00. |
 
@@ -79,7 +78,6 @@ Se não houver nenhuma prioridade de liquidação definida pelo usuário, as tra
 | Fatura 2     | 01/09/2015   | 10002   | 250,00                         | 250,00           | 0,00    | USD      |
 | Fatura 3     | 15/10/2015 |         | 500,00                         | 350,00           | 150.00  | USD      |
 | Nota de juros | 15/10/2015 |         | 7:00                           | 0,00             | 0,00    | USD      |
-
 
 
 

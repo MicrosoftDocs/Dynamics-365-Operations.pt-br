@@ -1,13 +1,13 @@
 ---
-title: "Amortização de custos constantes para um item fabricado"
-description: "Os custos constantes de um item fabricado refletem os tempos de preparação da operação e os componentes com uma quantidade constante ou um valor de sucata constante."
+title: Amortização de custos constantes para um item fabricado
+description: Os custos constantes de um item fabricado refletem os tempos de preparação da operação e os componentes com uma quantidade constante ou um valor de sucata constante.
 author: AndersGirke
 manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, BOMCalcTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
+ms.openlocfilehash: 7ccd5ce3e2ed58db8f13eebbcfa6fe5fb544d6c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 75c0f5bcff0aae63aa8c7dae9b0767f8c7e6a81c
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329450"
 ---
-
 # <a name="amortize-constant-costs-for-a-manufactured-item"></a>Amortização de custos constantes para um item fabricado
 
 [!include [banner](../includes/banner.md)]
@@ -43,7 +42,6 @@ A quantidade de um tamanho de lote de avaliação de custo para um item fabricad
 -   A quantidade de cálculo especificada em um cálculo de BOM específico a uma ordem − um cálculo de BOM específico a uma ordem pode ser realizado para um item de linha em uma ordem de venda, cotação de venda ou ordem de serviço. A quantidade de cálculo especificada usa como padrão a quantidade no item de linha de origem, mas a quantidade padrão pode ser substituída. Você pode selecionar se deseja que o cálculo de BOM específico a uma ordem use um modo de detalhamento de marca a ser solicitada ou de vários níveis.
 
 O valor calculado dos custos constantes amortizados de um item fabricado é denominado encargos.
-
 
 
 

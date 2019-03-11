@@ -1,13 +1,13 @@
 ---
 title: Taxas e materiais de embalagem
-description: "As taxas de material de embalagem são pagas a uma empresa de reciclagem em determinados intervalos. Um valor é pago por unidade de peso para cada material com o qual a unidade de embalagem é feita. As taxas de material de embalagem são calculadas e relatadas, mas nenhuma transação do razão é lançada, pois essas taxas não são consideradas como taxas que devam ser pagas a uma autoridade."
+description: As taxas de material de embalagem são pagas a uma empresa de reciclagem em determinados intervalos. Um valor é pago por unidade de peso para cada material com o qual a unidade de embalagem é feita. As taxas de material de embalagem são calculadas e relatadas, mas nenhuma transação do razão é lançada, pois essas taxas não são consideradas como taxas que devam ser pagas a uma autoridade.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventPackagingGroup, InventPackagingMaterialCode, InventPackagingMaterialFee, InventPackagingMaterialTrans, InventPackagingMaterialTransPurch, InventPackagingUnit
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c188651fe8ba3fe3f9678f36ab11ae886ef6f1cf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b131cdfa2f0e3b6a8f116464323d49eaa4584634
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312292"
 ---
-
 # <a name="packing-materials-and-fees"></a>Taxas e materiais de embalagem
 
 [!include [banner](../includes/banner.md)]
@@ -62,7 +61,6 @@ Se as taxas de material de embalagem forem pagas pela sua empresa, não especifi
 
 ## <a name="print-packaging-material-weights-on-invoices"></a>Imprimir os pesos do material de embalagem nas notas fiscais
 Você pode imprimir os pesos do material de embalagem na fatura e indicar quem está pagando as taxas de material de embalagem. Os pesos são resumidos por código de embalagem.
-
 
 
 

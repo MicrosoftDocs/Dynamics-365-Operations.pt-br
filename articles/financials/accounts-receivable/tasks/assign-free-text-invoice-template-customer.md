@@ -1,13 +1,13 @@
---- 
+---
 title: Atribuir um modelo de fatura de texto livre a um cliente
 description: Essa tarefa demonstra como atribuir um modelo de nota fiscal de texto livre a um cliente.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable, CustRecurrenceInvoice
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 317b3bd4c1f395987ef3dbbd268c40be5c688320
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318916"
 ---
 # <a name="assign-free-text-invoice-template-to-a-customer"></a>Atribuir um modelo de fatura de texto livre a um cliente
 
@@ -48,5 +48,4 @@ Essa tarefa demonstra como atribuir um modelo de nota fiscal de texto livre a um
 10. Selecione o padrão de recorrência.
     * Diário – Escolha esta opção e insira o número de dias no campo Por. Por exemplo, se você inserir 15, uma fatura será gerada a cada 15 dias para esse cliente.  Semanal - Escolha essa opção e insira o número de semanas no campo Por. Por exemplo, se você inserir 2, uma fatura será gerada a cada duas semanas para esse cliente.  Mensal - Escolha essa opção e insira o número de meses no campo Por. Por exemplo, se você inserir 6, uma fatura será gerada a cada seis meses para esse cliente.  Anual - Escolha essa opção e insira o número de anos no campo Por. Por exemplo, se você inserir 2, uma fatura será gerada a cada dois anos para esse cliente.  
 11. No campo Por, insira um número.
-
 

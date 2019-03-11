@@ -1,13 +1,13 @@
 ---
 title: Pagamentos de impostos no Brasil
-description: "Este tópico fornece informações sobre pagamentos de impostos no Brasil. No Brasil, os usuários podem registrar e lançar pagamentos de impostos junto com as informações fiscais relacionadas que será reportadas às autoridades fiscais."
+description: Este tópico fornece informações sobre pagamentos de impostos no Brasil. No Brasil, os usuários podem registrar e lançar pagamentos de impostos junto com as informações fiscais relacionadas que será reportadas às autoridades fiscais.
 author: sndray
 manager: AnnBe
 ms.date: 10/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FBTaxAssessmentPayment_BR, FBTaxAssessmentPaymentOtherDebits_BR
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 8b71024327b2a7a69230b5eb924b0122b47f8d0c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6073bb9fcd7d9e37307acabb6e664f21202745ff
-ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371713"
 ---
-
 # <a name="tax-payments-in-brazil"></a>Pagamentos de impostos no Brasil
 
 [!include [banner](../includes/banner.md)]
@@ -67,7 +66,7 @@ A diferença entre o valor do imposto arrecadado em vendas de mercadorias e o va
 <td>Tipo de Pagamento</td>
 <td>Selecione uma das seguintes opções:
 <ul>
-<li><strong>Periódico</strong> – Cria um pagamento periódico mensal (regular). Todas as transações de impostos geradas de notas fiscais, e todos ajustes de transação (geral ou por documento fiscal) em que a configurações especiais do débito de ajuste não são marcadas, são resumidas para gerar pagamento periódico.</li>
+<li><strong>Periódico</strong> – Cria um pagamento periódico mensal (regular). Todas as transações de impostos geradas de notas fiscais, e todos ajustes de transação (geral ou por nota fiscal) em que a configurações especiais do débito de ajuste não são marcadas, são resumidas para gerar pagamento periódico.</li>
 <li><strong>Outros débitos</strong> – Faz um pagamento específico de ICMS fora do processo normal, porque o pagamento é solicitado por lei. Os exemplos incluem diferencial % do ICMS e Importação de mercadorias. Todas as transações de ajuste marcadas como <strong>Pagamento de outros débitos</strong> na configuração são resumidas para gerar um pagamento.</li>
 </ul></td>
 </tr>
@@ -163,6 +162,5 @@ Para obter mais informações, consulte os seguintes tópicos:
  - [Calcular juros e multas sobre pagamentos de fornecedores](tasks/br-00065-2-calculate-interest-fines-vendor-payments.md)
  - [Configurar juros e multas em pagamentos de clientes](tasks/br-00066-1-set-up-interest-fines-customer-payments.md)
  - [Calcular juros e multas em pagamentos de clientes](tasks/br-00066-2-calculate-interest-fines-customer-payments.md)
-
 
 

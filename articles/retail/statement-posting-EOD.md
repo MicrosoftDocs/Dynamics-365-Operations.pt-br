@@ -1,13 +1,13 @@
 ---
 title: Aprimoramentos na funcionalidade de postagem de demonstrativo
-description: "Este tópico descreve as melhorias feitas no recurso de postagem do demonstrativo."
+description: Este tópico descreve as melhorias feitas no recurso de postagem do demonstrativo.
 author: josaw1
 manager: AnnBe
 ms.date: 04/26/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -16,14 +16,13 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 3e8c5466a68fa87326c46a4e36bf7399be1279c6
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321423"
 ---
-
 # <a name="improvements-to-statement-posting-functionality"></a>Aprimoramentos na funcionalidade de postagem de demonstrativo
 
 [!include[banner](includes/banner.md)]
@@ -171,4 +170,3 @@ Além disso, melhorias finais que os usuários podem ver foram feitas no recurso
 
     - Vá para **Varejo** \> **Configuração da sede** \> **Parâmetros** \> **Parâmetros de Retail**. Depois, na guia **Lançamento**, na Guia Rápida **Atualização de estoque**, no campo **Nível de detalhes**, selecione **Resumo**.
     - Vá para **Varejo** \> **Configuração da sede** \> **Parâmetros** \> **Parâmetros de Retail**. Em seguida, na guia **Lançamento**, na guia Rápida **Agregação**, defina a opção **Transações de comprovante** como **Sim**.
-

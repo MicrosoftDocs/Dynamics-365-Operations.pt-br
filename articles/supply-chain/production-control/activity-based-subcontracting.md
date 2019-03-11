@@ -1,13 +1,13 @@
 ---
-title: "Subcontratação baseada em atividade"
-description: "Este tópico descreve detalhadamente como usar atividades subcontratadas em um fluxo de produção para lean manufacturing."
+title: Subcontratação baseada em atividade
+description: Este tópico descreve detalhadamente como usar atividades subcontratadas em um fluxo de produção para lean manufacturing.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c219208c7ba5dd3686473d094658ab7f4c1b2b59
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 59b41b31931a128898ee70a583bfb9c515f90abc
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350035"
 ---
-
 # <a name="activity-based-subcontracting"></a>Subcontratação baseada em atividade
 
 [!include [banner](../includes/banner.md)]
@@ -89,7 +88,7 @@ Em relação a atividades de processo, você deve configurar um serviço padrão
 ## <a name="service-quantity-calculation"></a>Cálculo da quantidade de serviços
 Todo o processo de compra é baseado em uma referência de item para um serviço. Essa referência de item é medida em uma unidade de medida de um serviço. Serviços são geralmente medidos no número de serviços (unidades) ou no tempo. Para calcular a quantidade de serviços, com base na conclusão registrada de trabalhos kanban, você pode usar os seguintes métodos:
 
--   **Cálculo baseado no número de trabalhos** – um trabalho kanban é igual a *n* unidades de serviço, independentemente da quantidade de produtos fornecidos. Em lean manufacturing, um trabalho corresponde a uma unidade de manuseio de material. Esse método de cálculo aplica-se a todos os serviços com um preço fixo por unidade de manuseio de material. Portanto, esse método geralmente se aplica a atividades de transferência. Contudo, também pode se aplicar a atividades de processo que processam as unidades de manuseio de material por completo.
+-   **Cálculo que é baseado no número de trabalhos** – Um trabalho kanban é igual a *n* unidades de serviço, independentemente da quantidade de produtos fornecidos. Em lean manufacturing, um trabalho corresponde a uma unidade de manuseio de material. Esse método de cálculo aplica-se a todos os serviços com um preço fixo por unidade de manuseio de material. Portanto, esse método geralmente se aplica a atividades de transferência. Contudo, também pode se aplicar a atividades de processo que processam as unidades de manuseio de material por completo.
 -   **Cálculo que é baseado na quantidade de produtos** – A quantidade de serviço é relativa à quantidade de produtos programados/fornecidos. Quando a quantidade de produtos fornecidos é calculada, as quantidades de erro podem ser incluídas ou excluídas. Esse método de cálculo aplica-se a todos os casos nos quais o preço do serviço por unidade de produto processado é acordado.
 -   **Cálculo que é baseado no tempo de atividade** – Os tempos de atividade teórica são calculados com base no tempo de processamento da atividade, na quantidade total processada e na taxa de produtividade do produto processado. Esse método de cálculo aplica-se a serviços que são pagos por hora e apresentam uma variação no tempo por produto processado.
 
@@ -104,7 +103,6 @@ As pessoas geralmente consideram transporte como não produtivo e acham que ele 
 A subcontratação baseada em atividade em lean manufacturing permite integrar transportadoras e fornecedores de transporte que movem materiais e produtos entre os locais de um fluxo de produção. Ao moldar uma atividade de transferência, você pode atribuir uma transportadora ou um fornecedor. Trabalho/atividades de transferência são baseados em um contrato de serviço e compra, e você pode criar ordens de compra e avisos de recebimento de acordo com os trabalhos de transferência reais. Essa funcionalidade é a mesma das atividades de processo subcontratadas.  
 
 Portanto, o Finance and Operations agora tem suporte para cálculo da BOM que inclui serviços de transporte, criação de ordens de compra selecionadas, registro de recebimento integrado e integração de custos de serviços de transporte na avaliação de custo de fluxo de produção.
-
 
 
 

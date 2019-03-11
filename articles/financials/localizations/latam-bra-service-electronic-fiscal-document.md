@@ -1,13 +1,13 @@
 ---
-title: "Nota fiscal eletrônica para serviços do Brasil"
-description: "Este tópico oferece uma visão geral da nota fiscal eletrônica de serviço."
+title: Nota fiscal eletrônica para serviços do Brasil
+description: Este tópico oferece uma visão geral da nota fiscal eletrônica de serviço.
 author: sndray
 manager: AnnBe
 ms.date: 10/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BrazilParameters, ConfDefGroups_BR, ConfDefGroupWizard_BR, ConfDefLayout_BR, ConfExportDialog_BR, FiscalDocumentType_BR, RPSExport_BR, RPSImport_BR, TaxServiceCode_BR
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 8fc23480c7adba08276eea122de95e8ade41a7e0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6d23c1ea23696feedfc9b9f41de3b3c0c09e1f17
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371557"
 ---
-
 # <a name="electronic-fiscal-document-for-services"></a>Nota fiscal eletrônica para serviços
 
 [!include [banner](../includes/banner.md)]
@@ -100,7 +99,6 @@ Na página **Importar arquivo RPS**, insira as seguintes informações:
 -   **Tipo de documento fiscal** - Selecione o tipo de documento fiscal para a nota fiscal eletrônica de serviços.
 
 Quando você importa uma nota fiscal eletrônica para serviços, as informações sobre essa nota fiscal, como a data de importação de RPS, o número da nota fiscal, a data da nota fiscal e o número de validação, são atualizadas com base no grupo do layout de arquivo de retorno especificado no campo **Grupo de layouts de arquivo de retorno** na página **Tipos de documento fiscal**.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Exportar e importar transações da consolidação de contabilidade para o Brasil"
-description: "Você pode transferir as transações de contabilidade da empresa de origem para a conta consolidada na empresa consolidada sem consolidar as transações."
+title: Exportar e importar transações da consolidação de contabilidade para o Brasil
+description: Você pode transferir as transações de contabilidade da empresa de origem para a conta consolidada na empresa consolidada sem consolidar as transações.
 author: v-gonode
 manager: AnnBe
 ms.date: 10/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerConsolidate
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Brazil
 ms.author: v-gonode
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 695fd595efaf3352c8e34feca751d64f694fe847
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: bdc02db694255faba75deab97b44dd4eaea4a8bb
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/05/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371614"
 ---
 # <a name="export-and-import-transactions-for-general-ledger-consolidation-for-brazil"></a>Exportar e importar transações da consolidação de contabilidade para o Brasil
 
@@ -43,4 +43,3 @@ Você pode transferir transações de contabilidade da empresa de origem para a 
 15. No campo **Entidade legal de origem**, selecione uma entidade legal. 
 16. No campo **Nome do arquivo**, insira ou selecione um valor. 
 17. Clique em **OK**. 
-

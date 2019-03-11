@@ -1,13 +1,13 @@
 ---
 title: Formalizar processos empresariais
-description: "Este tópico explica como você pode usar o recurso Processo comercial para criar um modelo de processo comercial para processos que devem ser concluídos na sua organização."
+description: Este tópico explica como você pode usar o recurso Processo comercial para criar um modelo de processo comercial para processos que devem ser concluídos na sua organização.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 01/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: PersonnelBusinessProcessGenericWorkspace, BusinessProcessGenericTemplateListpage, BusinessProcessGenericMyTemplates, BusinessProcessGroupAssignment
 audience: Application User
 ms.reviewer: rschloma
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShielaS
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: ee4035f3156a91faecdecba45289dbb1ca6e947a
 ms.openlocfilehash: fd538677d897c1e7d3103cd714c688373aab8d29
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303321"
 ---
 # <a name="formalize-business-processes"></a>Formalizar processos empresariais
 
@@ -74,5 +74,4 @@ Para criar ou copiar um modelo de processo comercial, ou iniciar um processo com
 - Selecionar **Iniciar processo** para iniciar o processo comercial selecionado, atribuir tarefas e calcular as datas de vencimento.
 
 Para exibir os processos ativos e as tarefas associadas, abra o espaço de trabalho **Processos comerciais**.
-
 

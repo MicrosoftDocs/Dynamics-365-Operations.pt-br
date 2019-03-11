@@ -1,13 +1,13 @@
 ---
 title: Configurar gerenciamento de despesas
-description: "Este artigo descreve as considerações a serem feitas e as decisões a serem tomadas durante o processo de planejamento, antes de configurar o Gerenciamento de despesas no Microsoft Dynamics 365 for Finance and Operations."
+description: Este artigo descreve as considerações e as decisões que você deve tomar durante o processo de planejamento, antes de configurar o gerenciamento de Despesa no Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 08/29/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: GlobalCategory, ProjCategory, TrvLocations, TrvParameters, TrvPaymethod, TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5ac9959a4ee66e52ead5050897403602e407ca10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c87909d9eb3a4d717e0c40289353da0267a51f60
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322021"
 ---
-
 # <a name="configure-expense-management"></a>Configurar gerenciamento de despesas
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve as considerações a serem feitas e as decisões a serem tomadas durante o processo de planejamento, antes de configurar o Gerenciamento de despesas no Microsoft Dynamics 365 for Finance and Operations. No gerenciamento de Despesa, é possível armazenar informações sobre métodos de pagamento, requisições de viagem, relatórios de despesas, políticas etc.
+Este tópico descreve as considerações e as decisões que você deve tomar durante o processo de planejamento, antes de configurar o gerenciamento de Despesa no Microsoft Dynamics 365 for Finance and Operations. No gerenciamento de Despesa, é possível armazenar informações sobre métodos de pagamento, requisições de viagem, relatórios de despesas, políticas etc.
 
 Como muitas das decisões que você toma ao planejar sua configuração do gerenciamento de despesas são baseadas na hierarquia da sua organização e na estrutura financeira, você deve consultar os documentos de planejamento para essas áreas.
 
@@ -163,4 +162,3 @@ Criando políticas do relatório de despesa, você pode ajudar sua organização
 - Quando a política expira?
 - Qual é a regra de política?
 - Qual é o resultado da regra de política?
-

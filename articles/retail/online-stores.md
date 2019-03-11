@@ -1,13 +1,13 @@
 ---
 title: Configurar lojas online
-description: "Este artigo oferece informações sobre lojas online de Varejo e como configurá-las no Microsoft Dynamics 365 for Retail."
+description: Este artigo oferece informações sobre lojas online de Varejo e como configurá-las no Microsoft Dynamics 365 for Retail.
 author: kfend
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailChannelManagementWorkspace, RetailOnlineStoreList
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Retail
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 2b736b5e5ce5b5b384181a73c72bbb89b072a284
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324919"
 ---
-
 # <a name="set-up-online-stores"></a>Configurar lojas online
 
 [!include [banner](includes/banner.md)]
 
 Este artigo oferece informações sobre lojas online de Varejo e como configurá-las no Microsoft Dynamics 365 for Retail.
 
-O Dynamics 365 for Retail dá suporte a vários canais de varejo. Esses canais de varejo incluem lojas online, call centers e lojas de varejo (também chamadas de lojas tradicionais). As lojas online oferecem ao varejista uma presença online, de modo que os clientes possam comprar produtos na loja online do varejista, bem como nas lojas físicas. Se os clientes comprarem produtos da loja online, esses produtos podem ser enviados para eles ou os clientes podem retirar os produtos em uma loja de varejo local. Crie uma loja online no cliente do Dynamics 365 for Retail. Esta loja online é publicada em uma loja online de terceiros que é integrada ao Dynamics 365 for Retail. A loja online de terceiros serve como uma vitrine (interface do usuário) da loja online e fornece uma opção do sistema de gerenciamento do cliente (CMS) e recursos da interface do usuário. Várias integrações deste tipo estão disponíveis no Dynamics 365 for Retail. As propriedades definidas para a loja online controlam o comportamento da loja online. Por exemplo, você define a hierarquia de categoria de navegação no Dynamics 365 for Retail e a atribui para a loja online. Quando você publica a loja online em uma loja online de terceiros, a hierarquia da categoria de navegação aparece na versão online da loja. Os clientes usam a hierarquia de categoria de navegação para pesquisar a loja online e para procurar produtos. Para criar uma loja online, você deve configurar os componentes que permitem que as transações sejam processadas para a loja. Por exemplo, você deve adicionar classificações, aplicar atributos e configurar métodos de pagamento e métodos de remessa. Você também pode definir preços, promoções, descontos, contratos comerciais e condições de remessa específicos da loja online. Depois que publicar a loja online na loja online de terceiros, você poderá criar catálogos de produtos de varejo para a loja online. Os produtos do catálogo se transformam em listagens de produtos na loja online. Quando um cliente compra produtos da loja online, o estoque disponível é atualizado e sincronizado no cliente. Além de isso, as ordens de venda são geradas para as compras e enviadas ao cliente para preenchimento e processamento.
+O Dynamics 365 for Retail oferece suporte a vários canais de varejo. Esses canais de varejo incluem lojas online, call centers e lojas de varejo (também chamadas de lojas tradicionais). As lojas online oferecem ao varejista uma presença online, de modo que os clientes possam comprar produtos na loja online do varejista, bem como nas lojas físicas. Se os clientes comprarem produtos da loja online, esses produtos podem ser enviados para eles ou os clientes podem retirar os produtos em uma loja de varejo local. Você pode criar uma loja online no cliente Dynamics 365 for Retail. Esta loja online é publicada em uma loja online de terceiros que é integrada ao Dynamics 365 for Retail. A loja online de terceiros serve como uma vitrine (interface do usuário) da loja online e fornece uma opção do sistema de gerenciamento do cliente (CMS) e recursos da interface do usuário. Várias integrações deste tipo estão disponíveis para Dynamics 365 for Retail. As propriedades definidas para a loja online controlam o comportamento da loja online. Por exemplo, você define a hierarquia da categoria de navegação no Dynamics 365 for Retail e a atribui para a loja online. Quando você publica a loja online em uma loja online de terceiros, a hierarquia da categoria de navegação aparece na versão online da loja. Os clientes usam a hierarquia de categoria de navegação para pesquisar a loja online e para procurar produtos. Para criar uma loja online, você deve configurar os componentes que permitem que as transações sejam processadas para a loja. Por exemplo, você deve adicionar classificações, aplicar atributos e configurar métodos de pagamento e métodos de remessa. Você também pode definir preços, promoções, descontos, contratos comerciais e condições de remessa específicos da loja online. Depois que publicar a loja online na loja online de terceiros, você poderá criar catálogos de produtos de varejo para a loja online. Os produtos do catálogo se transformam em listagens de produtos na loja online. Quando um cliente compra produtos da loja online, o estoque disponível é atualizado e sincronizado no cliente. Além de isso, as ordens de venda são geradas para as compras e enviadas ao cliente para preenchimento e processamento.
 
 ## <a name="set-up-an-online-store"></a>Configurar uma loja online
 
@@ -60,4 +59,3 @@ Antes de criar uma loja online, você deve definir a hierarquia de navegação d
 ## <a name="organization-hierarchies"></a>Hierarquias da organização
 
 As hierarquias da organização são usadas para estruturar canais de varejo. As hierarquias da organização representam os relacionamentos entre as organizações que compõem sua empresa. Ao configurar lojas online, você pode adicioná-las a uma hierarquia da organização. Então, as lojas compartilham os dados usados para classificações, reabastecimento e relatórios. Ao criar uma hierarquia da organização, você atribui uma finalidade a ela. A finalidade indica como a hierarquia é usada na estrutura de negócios. Você pode criar uma hierarquia da organização para as operações da sua loja, e usar essa hierarquia para classificações, reabastecimento e relatórios. Como alternativa, você pode criar uma hierarquia da organização separada para cada finalidade. Você também pode criar várias hierarquias com a mesma finalidade e atribuir um canal separado a cada uma delas. Se você pretende publicar catálogos de produtos de varejo na loja online, deve, no mínimo, adicionar a loja online a uma hierarquia da organização para classificações. Os produtos de um catálogo são selecionados das classificações atribuídas à loja online. Quando o catálogo é publicado, o processo de publicação compara as datas efetivas da classificação atribuída à loja online com os produtos incluídos no catálogo para determinar quais produtos devem ser disponibilizados na loja online.
-

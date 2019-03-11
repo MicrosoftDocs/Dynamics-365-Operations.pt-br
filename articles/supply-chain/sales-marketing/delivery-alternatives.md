@@ -1,13 +1,13 @@
 ---
 title: Alternativas de entrega
-description: "Os tomadores de ordem de venda podem usar a página de Alternativas de entrega para descobrir opções alternativos de preenchimento da ordem."
+description: Os tomadores de ordem de venda podem usar a página de Alternativas de entrega para descobrir opções alternativos de preenchimento da ordem.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesLineDeliveryDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 1fbf8f08322c954a482777abcf041ff0b9d8fb77
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 855fdd0e57a7001628b715038785379d5a986789
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328369"
 ---
-
 # <a name="delivery-alternatives"></a>Alternativas de entrega
 
 [!include [banner](../includes/banner.md)]
@@ -60,9 +59,9 @@ O método de controle de data de entrega determina como o sistema estabelece as 
 <td><strong>Descrição</strong></td>
 </tr>
 <tr class="even">
-<td><strong>Nenhum</strong></td>
+<td><strong>Nenhuma</strong></td>
 <td><ul>
-<li>As alternativas de entrega para as linhas de venda não têm suporte. Esta opção desativa o controle de dados da entrega.</li>
+<li>Alternativas de entrega para linhas de venda não são suportadas. Esta opção desativa o controle de dados da entrega.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -150,7 +149,6 @@ Esta guia destaca o impacto da alternativa de entrega selecionada. Se você clic
 --------
 
 [Promessa de ordem](delivery-dates-available-promise-calculations.md)
-
 
 
 

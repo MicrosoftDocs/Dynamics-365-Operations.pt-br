@@ -1,13 +1,13 @@
---- 
-title: "Processar cartas de cobrança"
-description: "Este procedimento mostra como criar, imprimir e lançar cartas de cobrança."
+---
+title: Processar cartas de cobrança
+description: Este procedimento mostra como criar, imprimir e lançar cartas de cobrança.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 12/04/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustPosting, CustCollectionLetterNote
 audience: Application User
 ms.reviewer: shylaw
@@ -16,17 +16,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
+ms.openlocfilehash: 8a3f74d2891c050294e089eae14ba2386449d7c9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
-ms.openlocfilehash: 33d9fd62a780ab109474eefa9e322a9c529f9e72
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/06/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358844"
 ---
 # <a name="process-collection-letters"></a>Processar cartas de cobrança
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../../includes/preview-banner.md)]
 
 Este procedimento mostra como criar, imprimir e lançar cartas de cobrança. Esta tarefa usa a empresa de demonstração USMF.
 
@@ -81,4 +80,3 @@ Se você incluir pagamentos e memorandos de crédito nas transações que serão
 Para ignore pagamentos e memorandos de crédito ao calcular o código da carta de cobrança, faça o seguinte:
 1. Vá para **Crédito e cobranças > Configuração > Parâmetros de contas a receber** e clique na guia **Cobranças**. 
 2. Altere o valor de **Ignore pagamentos e memorandos de crédito ao calcular o código da carta de cobrança** para **Sim**.
-

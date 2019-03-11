@@ -1,13 +1,13 @@
---- 
+---
 title: Impostos retidos na fonte em pagamentos de fornecedores (Brasil)
-description: "Você pode usar a página Comprovante de diário para inserir e lançar pagamentos que você fizer a um fornecedor para a compra de itens ou serviços."
+description: Você pode usar a página Comprovante de diário para inserir e lançar pagamentos que você fizer a um fornecedor para a compra de itens ou serviços.
 author: sndray
 manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 850d0bb4896517df2f95e0a9c711988f184fb487
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f4b000ab87f398633aa5dbd2075c1976c5dd9acd
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371639"
 ---
 # <a name="withholding-taxes-on-vendor-payments-brazil"></a>Impostos retidos na fonte em pagamentos de fornecedores (Brasil)
 
@@ -92,5 +92,4 @@ Você pode usar a página Comprovante de diário para inserir e lançar pagament
 61. Clique em Lançar.
 62. Feche a página.
 63. Feche a página.
-
 

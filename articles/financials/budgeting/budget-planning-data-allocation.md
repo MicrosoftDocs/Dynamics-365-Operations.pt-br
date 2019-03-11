@@ -1,13 +1,13 @@
 ---
-title: "Alocação de dados do planejamento de orçamento"
-description: "Este artigo descreve os vários métodos de alocação disponíveis no Microsoft Dynamics 365 for Finance and Operations e como podem ser usados."
+title: Alocação de dados do planejamento de orçamento
+description: Este artigo descreve os vários métodos de alocação disponíveis no Microsoft Dynamics 365 for Finance and Operations e como eles podem ser usados.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 430040f7b3706aa1ad913d70c0dbcab9249ea222
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b5f262318b4defb941f1216d0bfe06961f62bad4
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352496"
 ---
-
-# <a name="budget-planning-data-allocation"></a>Alocação de dados do plano de orçamento
+# <a name="budget-planning-data-allocation"></a>Alocação de dados do planejamento de orçamento
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo descreve os vários métodos de alocação disponíveis no Microsoft Dynamics 365 for Finance and Operations e como podem ser usados.  
+Este artigo descreve os vários métodos de alocação disponíveis no Microsoft Dynamics 365 for Finance and Operations e como eles podem ser usados.  
 
 Você pode distribuir os dados em um plano de orçamento de várias formas para retratar com precisão os valores projetados.
 
@@ -72,7 +71,6 @@ Em seguida, crie uma alocação de fase na página **Configuração de planejame
 Por fim, adicione uma tarefa automatizada para alocação de fase de planejamento de orçamento na fase de fluxo de trabalho desejada. No exemplo a seguir, duas alocações de fase de planejamento de orçamento (delineadas em vermelho) foram inseridas no fluxo de trabalho.
 
 [![BudgetPlanningStageAllocations](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
-
 
 
 

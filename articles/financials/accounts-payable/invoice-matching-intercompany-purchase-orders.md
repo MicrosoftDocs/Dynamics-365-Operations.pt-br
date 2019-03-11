@@ -1,13 +1,13 @@
 ---
-title: "Conciliação de faturas e ordens de compra intercompanhia"
-description: "A entidade legal da compra envolvida em uma transação de comércio intercompanhia pode ser configurada para usar a conciliação de faturas de contas a pagar. Nesse caso, os requisitos de lançamento para o comércio intercompanhia e a conciliação de faturas de contas a pagar devem ser atendidos para que as faturas de fornecedor intercompanhia sejam lançadas."
+title: Conciliação de faturas e ordens de compra intercompanhia
+description: A entidade legal da compra envolvida em uma transação de comércio intercompanhia pode ser configurada para usar a conciliação de faturas de contas a pagar. Nesse caso, os requisitos de lançamento para o comércio intercompanhia e a conciliação de faturas de contas a pagar devem ser atendidos para que as faturas de fornecedor intercompanhia sejam lançadas.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 68b586f8afe7557bf6edee3eca0261d1e9cac0f2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3d0eb5c19c07313f4d4c0bac1b9c48375446afd9
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357556"
 ---
-
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Conciliação de faturas e ordens de compra intercompanhia
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,6 @@ Por exemplo, siga estas etapas.
 2.  Na Fabrikam Vendas, realize uma atualização de fatura para OVIC999. O lançamento não foi feito com êxito, pois o item está esgotado e ainda não foi recebido. Portanto, as informações financeiras não podem ser atualizadas.
 3.  Na Fabrikam Vendas, registre que os itens foram recebidos e lance uma guia de remessa para OVIC999. Um recebimento de produtos para a OCIC333 é lançado automaticamente na Fabrikam Compras. Na Fabrikam Compras, a quantidade recebida do item B-R14 muda para 100.
 4.  Na Fabrikam Vendas, realize uma atualização de fatura para OVIC999. O lançamento foi feito com êxito nas duas entidades legais. Na Fabrikam Compras, a quantidade comprada do item B-R14 muda para 100.
-
 
 
 

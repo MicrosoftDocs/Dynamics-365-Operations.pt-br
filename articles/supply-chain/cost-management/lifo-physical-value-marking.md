@@ -1,13 +1,13 @@
 ---
-title: "UEPS com marcação e valor físico"
-description: "Último a entrar, Primeiro a sair (UEPS) é um modelo de estoque no qual os últimos (mais recentes) recebimentos são emitidos primeiro. As saídas do estoque são liquidadas em relação aos últimos recebimentos do estoque com base na data da transação de estoque."
+title: UEPS com marcação e valor físico
+description: Último a entrar, Primeiro a sair (UEPS) é um modelo de estoque no qual os últimos (mais recentes) recebimentos são emitidos primeiro. As saídas do estoque são liquidadas em relação aos últimos recebimentos do estoque com base na data da transação de estoque.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0ea2c71458f92d048706a6e263d0da1830bdcde
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: db6d04a64821b3b02679056f787092dc40ef4423
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344193"
 ---
-
 # <a name="lifo-with-physical-value-and-marking"></a>UEPS com marcação e valor físico
 
 [!include [banner](../includes/banner.md)]
@@ -64,7 +63,7 @@ O novo preço de custo médio reflete a média de transações atualizadas finan
 - As transações de estoque são representadas por setas verticais.
 - Os recebimentos no estoque são representados por setas verticais sobre a linha do tempo.
 - Saídas fora do estoque são representadas por setas verticais abaixo da linha do tempo.
-- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato Quantity@Unit price.
+- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato Quantidade ao preço unitário.
 - Um valor de transação de estoque entre parênteses indica que a transação de estoque é lançada fisicamente no estoque.
 - Um valor de transação de estoque que não estiver entre parênteses indica que a transação de estoque é lançada financeiramente no estoque.
 - Cada nova transação de recebimento ou saída é designada por uma nova etiqueta.
@@ -98,7 +97,7 @@ A ilustração a seguir mostra os efeitos do modelo de estoque UEPS nesta série
 - As transações de estoque são representadas por setas verticais.
 - Os recebimentos no estoque são representados por setas verticais sobre a linha do tempo.
 - Saídas fora do estoque são representadas por setas verticais abaixo da linha do tempo.
-- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato Quantity@Unit price.
+- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato Quantidade ao preço unitário.
 - Um valor de transação de estoque entre parênteses indica que a transação de estoque é lançada fisicamente no estoque.
 - Um valor de transação de estoque que não estiver entre parênteses indica que a transação de estoque é lançada financeiramente no estoque.
 - Cada nova transação de recebimento ou saída é designada por uma nova etiqueta.
@@ -140,14 +139,13 @@ A ilustração a seguir mostra os efeitos do modelo de estoque UEPS nesta série
 - As transações de estoque são representadas por setas verticais.
 - Os recebimentos no estoque são representados por setas verticais sobre a linha do tempo.
 - Saídas fora do estoque são representadas por setas verticais abaixo da linha do tempo.
-- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato Quantity@Unit price.
+- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato Quantidade ao preço unitário.
 - Um valor de transação de estoque entre parênteses indica que a transação de estoque é lançada fisicamente no estoque.
 - Um valor de transação de estoque que não estiver entre parênteses indica que a transação de estoque é lançada financeiramente no estoque.
 - Cada nova transação de recebimento ou saída é designada por uma nova etiqueta.
 - Cada seta vertical é rotulada com um identificador sequencial, como *1a*. Os identificadores indicam a ordem de lançamentos de transação de estoque na linha do tempo.
 - Os fechamentos de estoque são representados por uma linha tracejada vertical vermelha e a etiqueta *Fechamento de Estoque*.
 - As liquidações executadas pelo fechamento de estoque são representadas por linhas tracejadas diagonais de um recebimento para uma saída.
-
 
 
 

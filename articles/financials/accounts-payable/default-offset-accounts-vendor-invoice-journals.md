@@ -1,13 +1,13 @@
 ---
-title: "Contrapartidas padrão para diários de faturas de fornecedor e diários de aprovação de faturas"
-description: "Este tópico ajudará você a decidir onde deve atribuir contas padrão para diários de fatura."
+title: Contrapartidas padrão para diários de faturas de fornecedor e diários de aprovação de faturas
+description: Este tópico ajudará você a decidir onde deve atribuir contas padrão para diários de fatura.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f876e5dfdab67dd98b2449993c3ba2baacde1587
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 90b24e8e00a78c122e0f7c712a694c9c62bd4824
-ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320250"
 ---
-
 # <a name="default-offset-accounts-for-vendor-invoice-journals-and-invoice-approval-journals"></a>Contrapartidas padrão para diários de faturas de fornecedor e diários de aprovação de faturas
 
 [!include [banner](../includes/banner.md)]
@@ -69,7 +68,7 @@ Use a tabela a seguir para ajudar a decidir onde você deve atribuir contas padr
 <td>Use esta opção se você normalmente pagar pelos mesmos tipos de itens dos mesmos fornecedores ao longo do tempo.</td>
 </tr>
 <tr class="odd">
-<td><strong>Nomes de diário</strong> – configure as contrapartidas padrão para diários na página <strong>Nomes de diário</strong>. Selecione a opção <strong>Contrapartida fixa</strong>. Observe que não será possível especificar contrapartidas padrão em nomes de diário se o tipo de diário dos nomes de diário for <strong>Registro de fatura</strong> ou <strong>Aprovação</strong>.</td>
+<td><strong>Nomes de diário</strong> – configure as contrapartidas padrão para diários na página <strong>Nomes de diário</strong>. Selecione a opção <strong>Contrapartida fixa</strong>. Observe que não é possível especificar contrapartidas padrão em nomes de diário se o tipo de diário dos nomes de diário é <strong>Registro de fatura</strong> ou <strong>Aprovação</strong>.</td>
 <td><ul>
 <li>Cabeçalho de diário que usa o nome do diário</li>
 <li>Entradas de diário em diários que usam o nome do diário</li>
@@ -78,23 +77,22 @@ Use a tabela a seguir para ajudar a decidir onde você deve atribuir contas padr
 <td>Use essa opção para configurar diários para os custos e despesas específicos cobrados de contas específicas, independentemente do fornecedor ou do grupo de fornecedores do qual o fornecedor faz parte.</td>
 </tr>
 <tr class="even">
-<td><strong>Nomes de diário</strong> – configure as contrapartidas padrão para diários na página <strong>Nomes de diário</strong>. Desmarque a opção <strong>Contrapartida fixa</strong>. Observe que não será possível especificar contrapartidas padrão em nomes de diário se o tipo de diário dos nomes de diário for <strong>Registro de fatura</strong> ou <strong>Aprovação</strong>.</td>
+<td><strong>Nomes de diário</strong> – configure as contrapartidas padrão para diários na página <strong>Nomes de diário</strong>. Desmarque a opção <strong>Contrapartida fixa</strong>. Observe que não é possível especificar contrapartidas padrão em nomes de diário se o tipo de diário dos nomes de diário é <strong>Registro de fatura</strong> ou <strong>Aprovação</strong>.</td>
 <td><ul>
 <li>Cabeçalho do diário</li>
 <li>Entradas de diário em diários que usam o nome do diário</li>
 </ul></td>
 <td>Essas entradas padrão são usadas em páginas de cabeçalho de diário, e a contrapartida na página de cabeçalho de diário é usada como uma entrada padrão nas páginas de comprovante de diário. As contas padrão da página <strong>Nomes de diário </strong>só serão usadas se as contas padrão não tiverem sido configuradas para a conta de fornecedor.</td>
-<td>Use esta opção para configurar contas padrão usadas quando uma contrapartida padrão de fornecedor não tiver sido atribuída.</td>
+<td>Use esta opção para configurar contas padrão usadas quando uma contrapartida de fornecedor padrão não foi atribuída.</td>
 </tr>
 <tr class="odd">
-<td><strong>Cabeçalho do diário</strong> – configure uma contrapartida padrão para um diário como uma entrada padrão nas páginas de comprovante de diário. Observe que não será possível especificar contrapartidas padrão no cabeçalho do diário se o tipo de diário do nome do diário for <strong>Registro de fatura</strong> ou <strong>Aprovação</strong>.</td>
+<td><strong>Cabeçalho do diário</strong> – configure uma contrapartida padrão para um diário como uma entrada padrão nas páginas de comprovante de diário. Observe que não é possível especificar contrapartidas padrão no cabeçalho do diário se o tipo de diário dos nomes de diário é <strong>Registro de fatura</strong> ou <strong>Aprovação</strong>.</td>
 <td>Entradas de diário no diário</td>
 <td>A contrapartida padrão para um diário é usada como a entrada padrão nas páginas de comprovante de diário.</td>
 <td>Use esta opção para ajudar a acelerar a entrada de dados caso a maioria das entradas de um diário tenha a mesma contrapartida.</td>
 </tr>
 </tbody>
 </table>
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Previsão de posição"
-description: "As despesas relacionadas a trabalhadores costumam constituir uma grande proporção dos custos de uma organização. A previsão de posição permite planejar as despesas e incluí-las no planejamento de orçamentos."
+title: Previsão de posição
+description: As despesas relacionadas a trabalhadores costumam constituir uma grande proporção dos custos de uma organização. A previsão de posição permite planejar as despesas e incluí-las no planejamento de orçamentos.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmPositionForecast
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bcd7363ba50f1c3a20d9823333df65eab9868d67
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a44b3d2ee6e47e71103c7be04b731d4faa79c448
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356153"
 ---
-
 # <a name="position-forecasting"></a>Previsão de posição
 
 [!include [banner](../includes/banner.md)]
@@ -216,7 +215,6 @@ Para o processo de geração e o processo de seleção, a data inicial na linha 
 As linhas do plano de orçamento mostram a origem dos valores de orçamento (o número da previsão de posição), mas não estão vinculadas. Portanto, as alterações na previsão de posição não são mostradas na linha do plano de orçamento, e as alterações na linha do plano de orçamento são mostradas na previsão de posição. Se você alterar uma previsão de posição e desejar que as atualizações sejam incluídas em um plano de orçamento, traga a previsão de posição para o plano novamente. No entanto, lembre-se de que esse processo remove todas as linhas onde essa previsão de posição é atribuída. Consequentemente, quaisquer alterações feitas nessas linhas são removidas. 
 
 Para ver em que planos de orçamento uma previsão de posição foi incluída, você pode gerar o relatório **Previsão de posições por plano de orçamento**. Como alternativa, na previsão de posição, você pode abrir o Quadro de Fatos **Planos de orçamento associados** para exibir os planos.
-
 
 
 

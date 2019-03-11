@@ -1,13 +1,13 @@
 ---
-title: "Conteúdo do Power BI para gerenciamento de crédito e cobranças"
-description: "Este tópico descreve o que está incluído no conteúdo do Power BI para gerenciamento de crédito e cobranças. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo."
+title: Conteúdo de gerenciamento de crédito e cobranças do Power BI
+description: Este tópico descreve o que está incluído no conteúdo de gerenciamento de crédito e cobranças do Power BI. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que são usados para criar o conteúdo.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,25 +16,24 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a80a180623d1cca77c633f12bcd92a088e089ee5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 6ce0b7b35264c05555d8b3a18e70484202a289d6
-ms.openlocfilehash: 3832cabb11d67eda7afd7f3d5322c005b36dc1f5
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/07/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325172"
 ---
-
-# <a name="credit-and-collections-management-power-bi-content"></a>Conteúdo do Power BI para gerenciamento de crédito e cobranças
+# <a name="credit-and-collections-management-power-bi-content"></a>Conteúdo de gerenciamento de crédito e cobranças do Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o que está incluído no conteúdo do Microsoft Power BI para **Gerenciamento de crédito e cobranças**. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo.
+Este tópico descreve o que está incluído no conteúdo de **Gerenciamento de crédito e cobranças** do Microsoft Power BI. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que foram usados para criar o conteúdo.
 
 ## <a name="overview"></a>Visão Geral
 
-O conteúdo do Power BI para **Gerenciamento de crédito e cobranças** foi criado para gerentes de crédito e cobranças e auxiliares de cobrança. Ele fornece as métricas de cobrança e de crédito chave, como vendas diárias pendentes, saldo atrasado, exposição de crédito e clientes que estão acima de seus limites de crédito. Ele usa dados transacionais e fornece exibições agregadas de crédito e cobranças entre todas as empresas. Também fornece uma divisão pela empresa, grupo de clientes e o cliente.
+O conteúdo de **Gerenciamento de crédito e cobranças** do Power BI foi criado para gerentes de crédito e cobranças e auxiliares de cobrança. Ele fornece as métricas de cobrança e de crédito chave, como vendas diárias pendentes, saldo atrasado, exposição de crédito e clientes que estão acima de seus limites de crédito. Ele usa dados transacionais e fornece exibições agregadas de crédito e cobranças entre todas as empresas. Também fornece uma divisão pela empresa, grupo de clientes e o cliente.
 
-Este conteúdo do Power BI consiste em 10 páginas do relatório:
+Este conteúdo do Power BI consiste em 10 páginas de relatório:
 
 - Duas páginas de visão geral (páginas para uma visão geral de crédito e páginas para uma visão geral das cobranças)
 - Oito páginas de detalhes que fornecem detalhes de crédito e métricas de cobrança que são divididos entre várias dimensões
@@ -44,11 +43,11 @@ Todos os valores são mostrados na moeda do sistema. Você pode definir a moeda 
 Por padrão, são mostrados o crédito e os dados de cobrança da empresa atual. Para ver os dados entre todas as empresas, atribua o direito **CustCollectionsBICrossCompany** à função.
 
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
-O conteúdo do Power BI para **Gerenciamento de crédito e cobranças** é exibido no espaço de trabalho **Crédito e cobranças de clientes**.
+O conteúdo de **Gerenciamento de crédito e cobranças** do Power BI é exibido no espaço de trabalho **Crédito e cobranças de clientes**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Relatórios incluídos no conteúdo do Power BI
 
-O conteúdo **CustCollectionsBICrossCompany** do Power BI tem um relatório que consiste em um conjunto de métricas. Estas métricas são visualizadas como gráficos, blocos e tabelas. A tabela a seguir fornece uma visão geral das visualizações do conteúdo **CustCollectionsBICrossCompany** do Power BI.
+O conteúdo de **CustCollectionsBICrossCompany** do Power BI tem um relatório que consiste em um conjunto de métricas. Estas métricas são visualizadas como gráficos, blocos e tabelas. A próxima tabela oferece uma visão geral das visualizações no conteúdo de **CustCollectionsBICrossCompany** do Power BI.
 
 | Página de relatório                 | Visualização |
 |-----------------------------|---------------|
@@ -63,11 +62,11 @@ O conteúdo **CustCollectionsBICrossCompany** do Power BI tem um relatório que 
 | Status das cobranças          | <ul><li>Contestado</li><li>Promessa de pagamento quebrada</li><li>Promessa de pagamento</li><li>Detalhes do status de cobranças</li><li>Valores de status de cobranças</li><li>Casos abertos</li><li>Atividades abertas</li></ul> |
 | Cartas de cobranças         | <ul><li>Valores de código de cobrança</li><li>Detalhes do valor do código de cobrança</li><li>Valor da cartas de cobrança por empresa</li><li>Valor da carta de cobrança por grupo de clientes</li><li>Valor da carta de cobrança por região</li></ul> |
 
-Os gráficos e os blocos em todos esses relatórios podem ser filtrados e fixados no painel. Para obter mais informações sobre como filtrar e fixar no Power BI, consulte [Criar e configurar um painel](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Você também pode usar a funcionalidade Exportar dados subjacentes para exportar os dados subjacentes resumidos em uma visualização.
+Os gráficos e os blocos em todos esses relatórios podem ser filtrados e fixados no painel. Para obter mais informações sobre como filtrar e fixar no Power BI, consulte [Criar e configurar um dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Você também pode usar a funcionalidade Exportar dados subjacentes para exportar os dados subjacentes resumidos em uma visualização.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
 
-Os seguintes dados são usados para preencher o relatório no conteúdo do Power BI **Gerenciamento de crédito e cobranças**. Esses dados são representadas como medições agregadas que foram preparadas no Repositório de entidades. O Repositório de entidades é um banco de dados do Microsoft SQL Server otimizado para análise. Para obter mais informações, consulte [Visão geral da integração do Power BI com a loja Entidade](../../dev-itpro/analytics/power-bi-integration-entity-store.md).
+Os dados a seguir são usados para preencher o relatório no conteúdo de **Gerenciamento de crédito e cobranças** do Power BI. Esses dados são representadas como medições agregadas que foram preparadas no Repositório de entidades. O Repositório de entidades é um banco de dados do Microsoft SQL Server otimizado para análise. Para obter mais informações, consulte [Visão geral da integração do Power BI com o repositório de entidades](../../dev-itpro/analytics/power-bi-integration-entity-store.md).
 
 
 |                   Entidade                    |      Principais medidas agregadas      |             Fonte de dados              |                           Campo                            |                                    descrição                                     |
@@ -88,5 +87,4 @@ Os seguintes dados são usados para preencher o relatório no conteúdo do Power
 |        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                O número de notas de juros que foram criadas.                |
 |        CustCollectionsBISalesOnHold         |               SalesId                |              SalesTable              |                       Count(SalesId)                       |                 O número total de ordens de venda que estão em espera.                 |
 |          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                A soma das transações que foram baixadas.                 |
-
 

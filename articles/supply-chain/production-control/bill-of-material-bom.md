@@ -1,13 +1,13 @@
 ---
-title: "Listas de materiais e fórmulas"
-description: "Este tópico fornece informações sobre listas de materiais (BOMs) e fórmulas, que são uma parte central da definição de produtos e grades de produtos."
+title: Listas de materiais e fórmulas
+description: Este tópico fornece informações sobre listas de materiais (BOMs) e fórmulas, que são uma parte central da definição de produtos e grades de produtos.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMConsistOf, BOMDesigner, BOMTable, EcoResProductProcessManufacturingWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0833143722df5402a17e4f8f456a923792c478a5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 430e2ab0c4438222ceb9102c011940af803acfbc
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317099"
 ---
-
 # <a name="bills-of-materials-and-formulas"></a>Listas de materiais e fórmulas
 
 [!include [banner](../includes/banner.md)]
@@ -116,7 +115,6 @@ Selecione o tipo de linha **Fornecimento vinculado** quando desejar criar uma su
 Selecione o tipo de linha **Fornecedor** se o processo de produção utiliza um subempreiteiro, e você desejar que uma subprodução ou ordem de compra seja criada automaticamente para o subempreiteiro.  
 
 **Observação sobre operações terceirizadas em uma BOM:** O serviço ou trabalho executado pelo subempreiteiro deve ser criado como item de serviço rastreado no estoque. Você deve anexar o item de serviço ao item pai como uma linha da BOM. O roteiro deverá conter uma operação atribuída ao recurso de operações do subcontratado.
-
 
 
 

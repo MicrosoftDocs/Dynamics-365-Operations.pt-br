@@ -1,13 +1,13 @@
 ---
-title: "Organizar componentes do relatório no designer de relatórios"
-description: "Depois que você tiver desenvolvido blocos de construção e relatórios gerados, é útil organizar esses objetos para que fiquem mais fácil para os usuários a localizar. Este artigo explica como organizar objetos no report designer, blocos de construção e relatórios existentes."
+title: Organizar componentes do relatório no designer de relatórios
+description: Depois que você tiver desenvolvido blocos de construção e relatórios gerados, é útil organizar esses objetos para que fiquem mais fácil para os usuários a localizar. Este artigo explica como organizar objetos no report designer, blocos de construção e relatórios existentes.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
 ms.openlocfilehash: 3f2b34cccfd84a9e4bb76e7a1da64e5cefa9982e
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/27/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323930"
 ---
-
 # <a name="organize-report-components-in-report-designer"></a>Organizar componentes do relatório no designer de relatórios
 
 [!include [banner](../includes/banner.md)]
@@ -117,7 +116,7 @@ A tabela a seguir descreve os controles na guia **Grupo de relatórios**.
 </tr>
 <tr>
 <td>Incluir todas as moedas de relatório</td>
-<td>Se as moedas de relatório adicionais estiverem configuradas no sistema ERP do Microsoft Dynamics, elas serão listadas aqui. Selecione esta caixa de seleção para que os relatórios adicionais sejam gerados nas moedas indicadas. Para exibir esses relatórios no Visualizador da Web, clique no botão <strong>Moeda</strong> e selecione uma moeda.</td>
+<td>Todas as moedas de relatório adicionais estiverem configuradas no sistema ERP do Microsoft Dynamics serão listadas aqui. Selecione esta caixa de seleção para que os relatórios adicionais sejam gerados nas moedas indicadas. Para exibir esses relatórios no Visualizador da Web, clique no botão <strong>Moeda</strong> e selecione uma moeda.</td>
 </tr>
 <tr>
 <td>Informações de data não salvas com a definição de relatório</td>
@@ -150,4 +149,3 @@ Somente as configurações do Período Base Padrão são salvas com a definiçã
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Relatórios financeiros](financial-reporting-intro.md)
-

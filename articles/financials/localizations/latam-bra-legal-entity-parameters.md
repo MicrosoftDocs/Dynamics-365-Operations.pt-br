@@ -1,13 +1,13 @@
 ---
-title: "Parâmetros para entidades legais no Brasil"
-description: "Para coletar e enviar demonstrativos de imposto que relatem o desempenho, uma entidade legal brasileira requer informações fiscais específicas. Este tópico explica como definir os parâmetros para especificar estas informações."
+title: Parâmetros para entidades legais no Brasil
+description: Para coletar e enviar demonstrativos de imposto que relatem o desempenho, uma entidade legal brasileira requer informações fiscais específicas. Este tópico explica como definir os parâmetros para especificar estas informações.
 author: sndray
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Accountant_BR, AccountantElectronicAddress_BR, AccountantPostalAddress_BR, BrazilParameters, FiscalEstablishment_BR, FiscalEstablishmentGroup_BR
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 0c0ce441d83722792f9069ac5eefd7165756a9a7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b8df297120541138ec189d84425b84d51ac7fbe2
-ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371692"
 ---
-
 # <a name="parameters-for-legal-entities-in-brazil"></a>Parâmetros para entidades legais no Brasil
 
 [!include [banner](../includes/banner.md)]
@@ -223,10 +222,10 @@ Configurar texto padrão e tipos de produto e documento, das notas fiscais que s
 </tr>
 <tr class="even">
 <td><strong>Tipo de documento</strong></td>
-<td>Selecione a ID do tipo de documento padrão para textos das notas fiscais. É possível selecionar um tipo de documento que não é atribuído ao texto de nota fiscal que é associado a uma nota fiscal. <strong>Observação:</strong> Se um texto da nota fiscal estiver associado a um documento fiscal, não será possível modificar o tipo de documento.</td>
+<td>Selecione a ID do tipo de documento padrão para textos das notas fiscais. É possível selecionar um tipo de documento que não é atribuído ao texto de nota fiscal que está associado a uma nota fiscal. <strong>Observação:</strong> Se um texto da nota fiscal estiver associado a um documento fiscal, não será possível modificar o tipo de documento.</td>
 </tr>
 <tr class="odd">
-<td><strong>Item</strong></td>
+<td><strong>Item </strong></td>
 <td>Selecione a ID de item usada para criar notas fiscais de transferência ou apropriação de imposto.</td>
 </tr>
 <tr class="even">
@@ -317,7 +316,6 @@ No Brasil, é necessário especificar os detalhes do contador para o relatório 
 | **CRC**                 | O número de registro de contador no Conselho Regional de Contabilidade (CRC). |
 | **Estado emissor do CRC**    | O estado no qual o documento CRC foi emitido.                                                                               |
 | **Data de validade do CRC** | A data de validade do documento CRC.                                                                                   |
-
 
 
 

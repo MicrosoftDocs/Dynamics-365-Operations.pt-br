@@ -1,13 +1,13 @@
 ---
-title: "Gerar relatórios adicionando conteúdo como XML bruto"
-description: "Você pode criar os formatos de relatórios eletrônicos (ER) que geram de documentos de saída no formato XML."
+title: Gerar relatórios adicionando conteúdo como XML bruto
+description: Você pode criar os formatos de relatórios eletrônicos (ER) que geram de documentos de saída no formato XML.
 author: NickSelin
 manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
+ms.openlocfilehash: 39503d051e3b4686bbaa0130fe5be7cb980fbcb4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 56a5f53e1d3da8aa57e98e7d34fbc9c4005b6df8
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312177"
 ---
-
 # <a name="generate-reports-by-adding-content-as-raw-xml"></a>Gerar relatórios adicionando conteúdo como XML bruto
 
 [!include[banner](../includes/banner.md)]
@@ -39,4 +38,3 @@ Você pode usar o novo elemento de formato **XML BRUTO** para criar formatos os 
 > Saiba que a estrutura não é controlada se o conteúdo XML colocado para o documento gerado usando o elemento do formato **RAW XML** estiver correto.
 
 Para saber mais sobre este recurso, execute os guias de tarefas **ER - Usar dados XML brutos para gerar relatórios XML (Parte 1: Criar modelo de dados)** e **ER - Usar dados XML brutos para gerar relatórios XML (Parte 2: Criar e executar relatório)** que fazem parte do processo empresarial **7.5.4.3 Adquirir/Desenvolver componentes de serviço/solução de TI (10677)** e podem ser baixadas no [Centro de Download da Microsoft](https://go.microsoft.com/fwlink/?linkid=874684). Esses guias de tarefas o conduzem pelo processo de configuração de um formato de ER para inserir dados de XML brutos em arquivos gerados.
-

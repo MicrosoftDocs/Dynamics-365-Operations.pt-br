@@ -1,13 +1,13 @@
---- 
-title: "Adicionar uma atividade existente a uma versão de fluxo de produção"
-description: "Ao criar novas versões de fluxos de produção, você pode escolher adicionar atividades criadas para as versões anteriores à nova versão."
+---
+title: Adicionar uma atividade existente a uma versão de fluxo de produção
+description: Ao criar novas versões de fluxos de produção, você pode escolher adicionar atividades criadas para as versões anteriores à nova versão.
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityAddExisting, PlanActivityAddExistingLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 032855125ccd14fbdc1e1bdb735c92ce70853fb0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: a74fb34db71ba4b539c1b6ede361329aaeb94920
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313603"
 ---
 # <a name="add-an-existing-activity-to-a-production-flow-version"></a>Adicionar uma atividade existente a uma versão de fluxo de produção
 
@@ -55,5 +55,4 @@ Esta tarefa requer o fluxo de produção com a versão e as atividades já criad
     * Localizar e selecionar uma atividade existente que será adicionada à nova versão do fluxo de produção  Observe que a lista mostra todas as atividades criadas para este fluxo de produção para todas as versões anteriores do fluxo.  
 3. No campo Atividade, insira ou selecione um valor.
 4. Clique em OK.
-
 

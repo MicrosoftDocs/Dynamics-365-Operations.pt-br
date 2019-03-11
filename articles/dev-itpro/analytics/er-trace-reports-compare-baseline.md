@@ -1,13 +1,13 @@
 ---
-title: "Rastrear resultados gerados de relatórios e compará-los com os valores de linha de base"
-description: "Este tópico fornece informações sobre como você pode comparar os resultados de relatórios de ER gerados com os valores de relatório da linha de base."
+title: Rastrear resultados gerados de relatórios e compará-los com os valores de linha de base
+description: Este tópico fornece informações sobre como você pode comparar os resultados de relatórios de ER gerados com os valores de relatório da linha de base.
 author: NickSelin
 manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
+ms.openlocfilehash: 7f7877ccaa0c45ab5f0032d6808280e3c47a43ca
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
-ms.openlocfilehash: 1a598d0bd053c60c3f8df6b05ecb7ff15addfaa3
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317927"
 ---
-
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Rastrear resultados gerados de relatórios e compará-los com os valores de linha de base
 
 [!include[banner](../includes/banner.md)]
@@ -40,4 +39,3 @@ Você pode armazenar arquivos de aplicativo de linhas de base individuais para q
 Você pode avaliar o rastreamento para analisar se os documentos eletrônicos gerados têm o conteúdo esperado. Você pode fazer essa avaliação em um ambiente de teste de aceitação do usuário (UAT) quando a base do código for alterada (por exemplo, quando você tiver migrado para uma nova instância do aplicativo, instalado pacotes de hotfix ou implantado modificações de código). Assim, você pode garantir que a avaliação não afeta a execução de relatórios de ER usados. Para muitos relatórios de ER, a avaliação poderá ser feita em modo automático.
 
 Para saber mais sobre este recurso, execute as guias de tarefas **ER Gerar relatórios e comparar resultados (Parte 1)** e **ER Gerar relatórios e comparar resultados (Parte 2)**, que fazem parte do processo de negócios **7.5.4.3 Testar serviços/soluções de TI (10679)** e podem ser baixados do [Centro de Download Microsoft](https://go.microsoft.com/fwlink/?linkid=874684). Essas guias de tarefas o direcionam pelo processo de configuração da estrutura de ER para usar arquivos da linha de base para avaliar documentos eletrônicos gerados.
-

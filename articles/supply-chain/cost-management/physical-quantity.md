@@ -1,13 +1,13 @@
 ---
 title: Valores de objeto de estoque
-description: "Este artigo fornece informações sobre como os valores de um objeto do estoque são calculados."
+description: Este artigo fornece informações sobre como os valores de um objeto do estoque são calculados.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventCostOnhandItem
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e92c7889b11208c4d2b48eb279a104a7c226f904
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 60f39b19a627e9c3288f30872d237b8c0ccd8ac4
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319123"
 ---
-
 # <a name="inventory-object-values"></a>Valores de objeto de estoque
 
 [!include [banner](../includes/banner.md)]
@@ -145,7 +144,6 @@ A tabela a seguir mostra o resultado do cálculo para um objeto de estoque. Voc�
 [Entradas de custo](cost-entries.md)
 
 [Novidades e alterações](../../fin-and-ops/get-started/whats-new-changed.md)
-
 
 
 

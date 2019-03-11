@@ -1,13 +1,13 @@
---- 
-title: "Impostos brasileiros nas cotações de venda"
-description: "Use este procedimento para criar uma cotação de venda que usa impostos brasileiros."
+---
+title: Impostos brasileiros nas cotações de venda
+description: Use este procedimento para criar uma cotação de venda que usa impostos brasileiros.
 author: sndray
 manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: daae08668198c7f053853f7a2715e829684fbf3b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 567cfc24f81f6a8355c9e8b6e2bd334587c618f5
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371691"
 ---
 # <a name="brazilian-tax-in-sales-quotations"></a>Impostos brasileiros nas cotações de venda
 
@@ -67,5 +67,4 @@ Use este procedimento para criar uma cotação de venda que usa impostos brasile
 34. Feche a página.
 35. Feche a página.
 36. Feche a página.
-
 

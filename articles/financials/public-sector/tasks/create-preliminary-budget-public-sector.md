@@ -1,13 +1,13 @@
---- 
-title: "Criar um orçamento preliminar para o setor público"
-description: "Você pode criar entradas de registro de orçamento preliminar para um modelo de orçamento específico e valores de dimensão."
+---
+title: Criar um orçamento preliminar para o setor público
+description: Você pode criar entradas de registro de orçamento preliminar para um modelo de orçamento específico e valores de dimensão.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetTransaction, BudgetAccountStructureLookup, BudgetTransactionMultiPost
 audience: Application User
 ms.reviewer: twheeloc
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 98968b0025ff5c3b9723dc6cc8a8eae799a4eb43
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317122"
 ---
 # <a name="create-a-preliminary-budget-for-public-sector"></a>Criar um orçamento preliminar para o setor público
 
@@ -52,5 +52,4 @@ Você pode criar entradas de registro de orçamento preliminar para um modelo de
 18. Clique em Atualizar saldos de orçamentos.
 19. Clique em Atualizar.
     * Para ver os resultados da atualização, clique em Detalhes da mensagem na barra azul.  
-
 

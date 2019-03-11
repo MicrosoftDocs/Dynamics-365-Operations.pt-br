@@ -1,13 +1,13 @@
---- 
-title: "Criar configurações ER para analisar documentos recebidos"
-description: "Este procedimento mostra como criar configurações de ER (relatório eletrônico) para analisar um documento eletrônico."
+---
+title: Criar configurações ER para analisar documentos recebidos
+description: Este procedimento mostra como criar configurações de ER (relatório eletrônico) para analisar um documento eletrônico.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326092"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>Criar configurações ER para analisar documentos recebidos
 
@@ -35,7 +35,7 @@ Estas etapas podem ser concluídas usando qualquer conjunto de dados. Antes de c
 1. Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.
     * Verifique se o provedor de configuração da empresa exemplo, Litware, Inc., está disponível e marcado como Ativo. Se não visualizar esse provedor de configuração, conclua as etapas do procedimento “Criar um provedor de configuração e marcá-lo como ativo“.  
 2. Clique em Configurações de relatórios.
-    * O cenário a seguir será usado para mostrar os recursos de análise de documentos eletrônicos de entrada no formato XML: o aplicativo ERP (Dynamics 365 for Finance and Operations) solicita dados do serviço Web (como o serviço fiscal EFSTA http://efsta.org/) e analisa as respostas de entrada para atualizar os dados do aplicativo adequadamente. Para a maneira mais eficiente de analisar, um único formato de ER é usado apesar da estrutura diferente dos documentos de entrada esperados em formato XML.   
+    * O cenário a seguir será usado para mostrar os recursos de análise de documentos eletrônicos de entrada no formato XML: o aplicativo de ERP (Dynamics 365 for Finance and Operations) solicita dados do serviço Web (como o serviço fiscal EFSTA http://efsta.org/) e analisa as respostas recebidas para atualizar os dados do aplicativo adequadamente. Para a maneira mais eficiente de analisar, um único formato de ER é usado apesar da estrutura diferente dos documentos de entrada esperados em formato XML.   
 
 ## <a name="import-and-review-er-configurations"></a>Importar e examinar configurações de ER
 Importe a configuração de modelo de ER que contém o modelo de dados de exemplo criado para armazenar os detalhes do arquivo de entrada.  
@@ -110,5 +110,4 @@ Você executará o mapeamento de modelo criado para fins de teste para ver como 
     * Clique em Procurar e selecione o arquivo Response4.xml.  
 16. Clique em OK.
     * Revise a saída gerada. Observe que o tipo de resposta agora foi corretamente reconhecido como igual para o arquivo Response1.xml.  
-
 

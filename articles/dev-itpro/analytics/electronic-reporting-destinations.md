@@ -1,13 +1,13 @@
 ---
-title: "Destinos de relatório eletrônico (ER)"
-description: "Você pode configurar uma meta para cada configuração de formato de relatório eletrônico (ER)e seu componente de saída (uma pasta ou um arquivo). Os usuários que têm direitos de acesso apropriados também podem modificar as configurações de destino em tempo de execução. Este artigo explica gerenciamento de destino do ER, os tipos de destinos que têm suporte e considerações de segurança."
+title: Destinos de relatório eletrônico (ER)
+description: Você pode configurar uma meta para cada configuração de formato de relatório eletrônico (ER)e seu componente de saída (uma pasta ou um arquivo). Os usuários que têm direitos de acesso apropriados também podem modificar as configurações de destino em tempo de execução. Este artigo explica gerenciamento de destino do ER, os tipos de destinos que têm suporte e considerações de segurança.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 301dccaf154c3c12bcc4d611a147cdef03b8f851
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314914"
 ---
-
 # <a name="electronic-reporting-er-destinations"></a>Destinos de relatório eletrônico (ER)
 
 [!include [banner](../includes/banner.md)]
@@ -35,9 +34,9 @@ Você pode configurar uma meta para cada configuração de formato de relatório
 Configurações de formato (ER) geralmente contêm pelo menos um componente de saída de relatório eletrônico: um arquivo. Normalmente, as configurações contém vários componentes de saída de arquivos de tipos diferentes (por exemplo, XML, TXT ou XLSX) que são agrupados em uma única pasta ou várias pastas. Gerenciamento de destino do ER permite pré-configurar o que ocorre quando cada componente é executado. Por padrão, quando uma configuração é executada, uma caixa de diálogo é exibida que permite que o usuário salve ou abra o arquivo. O mesmo comportamento também é usado quando você importar uma configuração de ER e não configurar os destinos específicos para ele. Após a criação de um destino para um componente de saída principal, esse destino substitui o comportamento padrão e a pasta ou o arquivo é enviado de acordo com as configurações do destino.
 
 ## <a name="availability-and-general-prerequisites"></a>Disponibilidade e pré-requisitos gerais
-A funcionalidade de destinos de ER não está disponível no Microsoft Dynamics AX 7.0 (fevereiro de 2016). Portanto, você deve instalar o Microsoft Dynamics 365 for Operations, versão 1611, (novembro de 2016) para usar todas as funções que serão descritas neste tópico. Se preferir,, você pode instalar um dos seguintes pré-requisitos. Entretanto, note que essa alternativa permite uma experiência de destino de ER mais limitada.
+A funcionalidade de destinos de ER não está disponível no Microsoft Dynamics AX 7.0 (fevereiro de 2016). Portanto, você deve instalar o Microsoft Dynamics 365 for Operations versão 1611 (novembro de 2016) para usar todas as funções descritas neste tópico. Se preferir,, você pode instalar um dos seguintes pré-requisitos. Entretanto, note que essa alternativa permite uma experiência de destino de ER mais limitada.
 
-- Aplicativo Microsoft Dynamics AX versão 7.0.1 (maio de 2016)
+- Versão 7.0.1 do aplicativo Microsoft Dynamics AX (maio de 2016)
 - Gerenciamento de destino do ER [hotfix do aplicativo](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
 
 Você pode configurar destinos somente para configurações de ER que foram importadas e para os formatos que estão disponíveis na página **Configurações de relatório eletrônicas**.
@@ -94,7 +93,7 @@ Use este tipo de email se a configuração que você usar tiver um nó nas fonte
 
 ### <a name="archive-destination"></a>Local do arquivo morto
 
-Você pode usar esta opção para enviar a saída para uma pasta do Microsoft SharePoint ou Microsoft Azure Storage. Definir **Habilitado** para **Sim** para enviar a saída para um destino que é definido pelo tipo de documento selecionado. Somente tipos de documento onde o grupo está definido para **Arquivo** estão disponíveis para seleção. Você define os tipos de documentos em **Administração da organização** &gt; **Gerenciamento de documentos** &gt; **Tipos de documentos**. A configuração de destinos de ER é o mesma que a configuração para o sistema de gerenciamento de documentos.
+Você pode usar esta opção para enviar a saída para uma pasta do Microsoft SharePoint ou para o Armazenamento do Microsoft Azure. Definir **Habilitado** para **Sim** para enviar a saída para um destino que é definido pelo tipo de documento selecionado. Somente tipos de documento onde o grupo está definido para **Arquivo** estão disponíveis para seleção. Você define os tipos de documentos em **Administração da organização** &gt; **Gerenciamento de documentos** &gt; **Tipos de documentos**. A configuração de destinos de ER é o mesma que a configuração para o sistema de gerenciamento de documentos.
 
 [![Página Tipos de documento](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg)
 
@@ -105,7 +104,7 @@ O local determina onde o arquivo foi salvo. Depois que o destino do **Arquivo** 
 
 #### <a name="sharepoint"></a>SharePoint
 
-Você pode salvar um arquivo em uma pasta designada do SharePoint. Você define o servidor padrão do SharePoint em **Administração da organização** &gt; **Gerenciamento de documentos** &gt; **Parâmetros de gerenciamento de documentos** na guia **SharePoint**. Depois que a pasta do SharePoint for configurada, você pode selecioná-la como a pasta onde a saída ER será salva para o tipo de documento.
+Você pode salvar um arquivo em uma pasta designada do SharePoint. Você define o servidor padrão do SharePoint em **Administração da organização** &gt; **Gerenciamento de documentos** &gt; **Parâmetros de gerenciamento de documentos** na guia **SharePoint**. Depois que a pasta do SharePoint for configurada, você poderá selecioná-la como a pasta onde a saída de ER será salva para o tipo de documento.
 
 [![Selecionando uma pasta do SharePoint](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg)
 
@@ -119,11 +118,11 @@ Se você definir **Ativado** como **Sim**, uma caixa de diálogo abrir ou salvar
 
 ### <a name="screen-destination"></a>Destino da tela
 
-Se você definir **Ativado** como **Sim**, será criada uma visualização da saída. Você pode exibir alguns tipos de arquivo, como o XML, TXT, ou PDF diretamente em uma janela do navegador. Para outros tipos de arquivos, como Microsoft Excel ou Word, o serviço do Microsoft Office Online será usado.
+Se você definir **Ativado** como **Sim**, será criada uma visualização da saída. Você pode exibir alguns tipos de arquivo, como o XML, TXT, ou PDF diretamente em uma janela do navegador. Para outros tipos de arquivos, como Microsoft Excel ou Word, é usado o serviço do Microsoft Office Online.
 
 ### <a name="power-bi-destination"></a>Destino do Power BI
 
-Defina **Ativado** como **Sim** para usar sua configuração de ER para organizar a transferência de dados da sua instância do Finance and Operations para os serviços do Microsoft Power BI. Os arquivos transferidos são armazenados em uma instância do Microsoft SharePoint Server que deve ser configurada para esse fim. Para obter mais informações, consulte [Usar uma configuração de relatório eletrônico para fornecer o Power BI com dados do Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md).
+Defina **Ativado** como **Sim** para usar a configuração de ER para organizar a transferência de dados da instância do Finance and Operations para os serviços do Microsoft Power BI. Os arquivos transferidos são armazenados em uma instância do Microsoft SharePoint Server que deve ser configurada para essa finalidade. Para obter mais informações, consulte [Usar uma configuração de relatório eletrônico para fornecer dados do Finance and Operations ao Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md).
 
 > [!TIP]
 > Para substituir o comportamento padrão (ou seja, a caixa de diálogo para uma configuração), você pode criar uma referência de destino e um destino de arquivo para o componente de saída principal e, em seguida, desabilitar todos os destinos.
@@ -158,11 +157,10 @@ O destino **Arquivo** é usado para controlar uma caixa de diálogo. Se você ha
 
 A fórmula é específica da configuração de ER. Por exemplo, se você usa a configuração de transferência de crédito ISO 20022, você pode usar **'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID** ou **model.Payments.Creditor.Identification.SourceID** para obter uma conta de fornecedor associada.
 
-### <a name="one-of-my-format-configurations-contains-multiple-files-that-are-group-into-one-folder-for-example-folder1-contains-file1-file2-and-file3-how-do-i-set-up-destinations-so-that-folder1zip-isnt-created-at-all-file1-is-sent-by-email-file2-is-sent-to-sharepoint-and-i-can-open-file3-immediately-after-the-configuration-is-run"></a>Uma das minhas configurações de formato contém vários arquivos de grupo em uma pasta (por exemplo, Pasta1 contém Arquivo1, Arquivo2 e Arquivo3). Como posso configurar destinos de forma que a Pasta1.zip não seja criada, o Arquivo1 seja enviado por email, o Arquivo2 seja enviado ao SharePoint e eu possa abrir o Arquivo3 imediatamente depois que a configuração for executada?
+### <a name="one-of-my-format-configurations-contains-multiple-files-that-are-group-into-one-folder-for-example-folder1-contains-file1-file2-and-file3-how-do-i-set-up-destinations-so-that-folder1zip-isnt-created-at-all-file1-is-sent-by-email-file2-is-sent-to-sharepoint-and-i-can-open-file3-immediately-after-the-configuration-is-run"></a>Uma das minhas configurações de formato contém vários arquivos de grupo em uma pasta (por exemplo, Pasta1 contém Arquivo1, Arquivo2 e Arquivo3). Como posso configurar destinos de forma que a Pasta1.zip não seja criada, o Arquivo1 seja enviado por email, o Arquivo2 seja enviado ao SharePoint e eu possa abrir o Arquivo3 logo depois que a configuração for executada?
 
 O pré-requisito é que o formato deve estar disponível nas configurações de ER. Se você tiver o formato, abra a página **Destino de relatórios eletrônico** e crie uma nova referência para esta configuração. Em seguida, você deve ter quatro destinos de arquivo, um para cada componente de saída. Crie o destino do arquivo primeiro, dê a ele um nome como **Pasta** e selecione um nome de arquivo que representa uma pasta na sua configuração. Em seguida, clique em **Configurações** e certifique-se de que todos os destinos estão desativados. Para este destino do arquivo, a pasta não será criada. Por padrão, por causa das dependências hierárquicas entre os arquivos e pastas pai, os arquivos irão se comportar da mesma maneira. Em outras palavras, eles não serão enviados em qualquer lugar. Para substituir esse comportamento padrão, você deve criar três destinos mais de arquivo, um para cada arquivo. Nas configurações de destino de cada um, você deve habilitar o destino em que o arquivo deve ser enviado para.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral de Relatório eletrônico](general-electronic-reporting.md)
-

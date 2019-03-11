@@ -1,13 +1,13 @@
 ---
-title: "Restrições de expressão e restrições de tabela nos modelos de configuração do produto"
-description: "Este tópico descreve o uso de restrições de expressão e de tabela. As restrições controlam os valores de atributo que podem ser selecionados quando você configura produtos para uma ordem de venda, cotação de venda, ordem de compra, ou uma ordem de produção. É possível usar restrições de expressão ou de tabela, dependendo de como você preferir criar as restrições."
+title: Restrições de expressão e restrições de tabela nos modelos de configuração do produto
+description: Este tópico descreve o uso de restrições de expressão e de tabela. As restrições controlam os valores de atributo que podem ser selecionados quando você configura produtos para uma ordem de venda, cotação de venda, ordem de compra, ou uma ordem de produção. É possível usar restrições de expressão ou de tabela, dependendo de como você preferir criar as restrições.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 88d52031f4c916f5ec3e970f38864977e69a9d9a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: b6b5b7e7894cb74e33e08893934b3eaede957556
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356636"
 ---
-
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Restrições de expressão e restrições de tabela nos modelos de configuração do produto
 
 [!include [banner](../includes/banner.md)]
@@ -223,7 +222,7 @@ Os exemplos na tabela a seguir mostram como gravar uma notação de infixo.
 |        (x)        |                           Precedência padrão de sobreposição de parênteses.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Por que minhas restrições de expressão não são validadas corretamente?
-Não é possível usar palavras-chave reservadas como nomes de atributos, componentes ou subcomponentes em um modelo de configuração de produto. Veja agora uma lista de palavras-chave reservadas que você não deve usar:
+Não é possível usar palavras-chave reservadas como nomes de atributos, componentes ou subcomponentes em um modelo de configuração de produto. Veja uma lista das palavras-chave reservadas que você não pode usar:
 
 -   Teto
 -   Elemento
@@ -252,7 +251,6 @@ Não é possível usar palavras-chave reservadas como nomes de atributos, compon
 [Crie uma expressão de restrição (Guia de tarefas)](tasks/add-expression-constraint-product-configuration-model.md)
 
 [Adicionar um cálculo a um modelo de configuração de produto (Guia de tarefas)](tasks/add-calculation-product-configuration-model.md)
-
 
 
 

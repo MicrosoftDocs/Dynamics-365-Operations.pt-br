@@ -1,30 +1,29 @@
 ---
-title: "Criar uma ordem de substituição de item"
-description: "Em geral, as ordens de substituição de item são criadas após um produto ser devolvido e inspecionado."
+title: Criar uma ordem de substituição de item
+description: Em geral, as ordens de substituição de item são criadas após um produto ser devolvido e inspecionado.
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 784a2522c27e8131f211ffc52319552b3b928cc3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1f0cd629658972f98e2233dfa287940c4444b82a
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355003"
 ---
-
 # <a name="create-an-item-replacement-order"></a>Criar uma ordem de substituição de item 
 
 [!include [banner](../includes/banner.md)]
@@ -36,7 +35,7 @@ Em geral, as ordens de substituição de item são criadas após um produto ser 
 
 1.  Clique em **Vendas e marketing** \> **Comum** \> **Ordens de devolução** \> **Todas as ordens de devolução**.
 
-2.  Crie uma nova ordem de devolução ou selecione uma ordem de devolução na lista para abrir o formulário **Ordem de devolução - Número RMA %1, %2**.
+2.  Crie uma nova ordem de devolução ou selecione uma ordem devolvida na lista para abrir o formulário **Ordem de devolução - Número de ADM: %1, %2**.
 
 3.  Clique em **Linha de devolução** e depois selecione **Item de substituição**.
 
@@ -50,13 +49,13 @@ Em geral, as ordens de substituição de item são criadas após um produto ser 
 
 1.  Clique em **Vendas e marketing** \> **Comum** \> **Ordens de devolução** \> **Todas as ordens de devolução**.
 
-2.  Crie uma nova ordem de devolução ou selecione uma ordem de devolução na lista para abrir o formulário **Ordem de devolução - Número RMA: %1, %2**.
+2.  Crie uma nova ordem de devolução ou selecione uma na lista para abrir o formulário **Ordem de devolução - Número de ADM: %1, %2**.
 
-3.  Clique em **Localizar ordem de venda** se quiser identificar a ordem de venda para o item devolvido. Complete o formulário **Localizar ordem de venda** e depois clique em **OK** para fechar o formulário e volte para o formulário **Ordem de devolução - Número RMA: %1, %2**. A linha da ordem de venda para o item devolvido é copiado na ordem de devolução.
+3.  Clique em **Localizar ordem de venda** se quiser identificar a ordem de venda para o item devolvido. Preencha o formulário **Localizar ordem de venda** e clique em **OK** para fechá-lo e voltar ao formulário **Ordem de devolução - Número de ADM: %1, %2**. A linha da ordem de venda para o item devolvido é copiado na ordem de devolução.
 
 4.  Clique em **Ordem de substituição** para abrir o formulário **Criar ordem de venda**.
 
-5.  Marque a caixa de seleção **Copiar linhas de ordem de devolução** para transferir detalhes da ordem de devolução selecionada no formulário **Ordem de devolução - Número RMA: %1, %2** para esta ordem de venda.
+5.  Marque a caixa de seleção **Copiar linhas de ordem de devolução** para transferir detalhes da ordem de devolução selecionada no formulário **Ordem de devolução - Número de ADM: %1, %2** para esta ordem de venda.
 
 6.  Insira ou modifique os detalhes, conforme a necessidade.
     
@@ -66,6 +65,5 @@ Em geral, as ordens de substituição de item são criadas após um produto ser 
     
     Se o identificador do contrato de venda for exibido automaticamente no campo **ID do contrato de venda**, então o contrato de venda foi vinculado ao cabeçalho da ordem de venda para a ordem de substituição do item. Se houver um compromisso aplicável no contrato de venda que ainda não tenha sido preenchido, e a ordem de venda foi criada antes da expiração do contrato de venda, um link será estabelecido entre a linha do contrato de venda e a linha da ordem de venda. Consequentemente, as informações do contrato de venda, como o preço do item, serão copiadas na nova linha da ordem de venda. 
   
-
 
 

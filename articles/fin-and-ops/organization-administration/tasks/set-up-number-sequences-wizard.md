@@ -1,13 +1,13 @@
---- 
-title: "Configurar sequências numéricas usando um assistente"
-description: "Sequências numéricas são usadas para gerar identificadores exclusivos e legíveis para registros de dados mestres e registros de transações que os exigirem."
+---
+title: Configurar sequências numéricas usando um assistente
+description: Sequências numéricas são usadas para gerar identificadores exclusivos e legíveis para registros de dados mestres e registros de transações que os exigirem.
 author: sericks007
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceWizard
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1808ab9240ab291f9d203893a634bd390f16e2e7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 96c1bc711350b447611977c3f2070fbc08fbae0f
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328231"
 ---
 # <a name="set-up-number-sequences-by-using-a-wizard"></a>Configurar sequências numéricas usando um assistente
 
@@ -36,5 +36,4 @@ Sequências numéricas são usadas para gerar identificadores exclusivos e legí
     * Não selecione a opção Contínuo se for necessário alocar antecipadamente os números para a sequência numérica.     Para adicionar um segmento de escopo ao formato de uma sequência numérica, selecione o formato na lista, e então clique em Incluir escopo ao formato.     Para remover um segmento de escopo do formato de uma sequência numérica, selecione o formato na lista, e então clique em Remover escopo do formato.     Para excluir uma sequência numérica da geração automática, selecione a sequência numérica na lista, e então clique em Excluir.  
 4. Clique em Avançar.
 5. Clique em Finish (Concluir).
-
 

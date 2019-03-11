@@ -1,37 +1,36 @@
 ---
 title: Atributos e grupos de atributos
-description: "Este tópico descreve como usar atributos para fornecer uma forma de descrever um produto e suas características por meio de campos definidos pelo usuário."
+description: Este tópico descreve como usar atributos para fornecer uma forma de descrever um produto e suas características por meio de campos definidos pelo usuário.
 author: ashishmsft
 manager: AnnBe
 ms.date: 04/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326230"
 ---
-
 # <a name="attributes-and-attribute-groups"></a>Atributos e grupos de atributos
 
 [!include [banner](includes/banner.md)]
 
-Os *Atributos* fornecem uma maneira de descrever melhor um produto e suas características por meio de campos definidos pelo usuário (como **Tamanho da memória**, **Capacidade do disco rígido**, **Compatível com Energy Star** etc). No Microsoft Dynamics 365 for Finance and Operations, os atributos podem ser associados a várias entidades do Retail, como categorias de produto e canais de varejo; além disso, é possível definir valores padrão para eles. Os produtos então herdam os atributos e os valores padrão quando são associados às categorias de produto ou aos canais de varejo. Os valores padrão podem ser substituídos no nível do produto individual, do canal de varejo ou em um catálogo de varejo.
+Os *Atributos* fornecem uma maneira de descrever melhor um produto e suas características por meio de campos definidos pelo usuário (como **Tamanho da memória**, **Capacidade do disco rígido**, **Compatível com Energy Star** etc). No Microsoft Dynamics 365 for Finance and Operations, os atributos podem ser associados a várias entidades de Retail, como categorias de produto e canais de varejo, e valores padrão podem ser definidos para eles. Os produtos então herdam os atributos e os valores padrão quando são associados às categorias de produto ou aos canais de varejo. Os valores padrão podem ser substituídos no nível do produto individual, do canal de varejo ou em um catálogo de varejo.
 
 Por exemplo, uma televisão típica pode ter os seguintes atributos.
 
@@ -104,7 +103,7 @@ Estas são as outras opções de metadados de atributo na página **Atributos**:
 
 Essas opções foram originalmente destinadas a melhorar a funcionalidade de pesquisa da vitrine online. Embora o Finance and Operations não inclua a vitrine online pronta para uso, ele inclui o Software Development Kit (SDK) para publicação de comércio eletrônico. Os clientes podem usar esse SDK para colocar produtos em um índice de pesquisa de sua escolha. Embora os dados do produto sejam importados, os clientes ainda poderão distinguir dados pesquisáveis, dados que podem ser consultados e assim por diante. Dessa forma, eles podem construir um índice ideal para garantir que indexem somente os atributos que, *em sua opinião*, devem ser indexados.
 
-Para obter informações sobre a finalidade dessas opções restantes, consulte [Visão geral do esquema de pesquisa no SharePoint Server 2013](https://technet.microsoft.com/library/jj219669.aspx).
+Para obter informações sobre a finalidade dessas outras opções, consulte [Visão geral do esquema de pesquisa no SharePoint Server 2013](https://technet.microsoft.com/library/jj219669.aspx).
 
 ## <a name="filter-settings-for-attributes"></a>Configurações de filtro para atributos
 
@@ -257,4 +256,3 @@ Os valores padrão de atributos podem ser substituídos para produtos individuai
 
     > [!NOTE]
     > Se a mídia de produto e os atributos de produto compartilhados forem criados no Finance and Operations, se aplicarão a todos os produtos de varejo.
-

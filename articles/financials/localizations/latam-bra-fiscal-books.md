@@ -1,13 +1,13 @@
 ---
 title: Livros fiscais para o Brasil
-description: "Este tópico fornece informações sobre livros fiscais. Os livros fiscais trata-se de um dos três os projetos que compõem o SPED (Public Digital Bookkeeping System). Eles podem ajudá-lo consolidar livros fiscais e estatutários em arquivos eletrônicos para atender aos requisitos do SPED."
+description: Este tópico fornece informações sobre livros fiscais. Os livros fiscais trata-se de um dos três os projetos que compõem o SPED (Public Digital Bookkeeping System). Eles podem ajudá-lo consolidar livros fiscais e estatutários em arquivos eletrônicos para atender aos requisitos do SPED.
 author: sndray
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FBBookingPeriodCreate_BR, FBBookingPeriodListPage_BR, FBBookingPeriodLookup_BR, FBBookingPeriodWizard_BR
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: c04642358daafd27ae924b7839b1be8244819559
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 537bdfafe75c023c4a9623856342e28c21294669
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371631"
 ---
-
 # <a name="fiscal-books-for-brazil"></a>Livros fiscais para o Brasil
 
 [!include [banner](../includes/banner.md)]
@@ -54,6 +53,5 @@ O SPED (Public Digital Bookkeeping System) ou Sistema Público de Escrituração
 -   [Notas fiscais referenciadas](latam-bra-referenced-fiscal-documents.md)         
 -   [Notas fiscais complementares de venda](latam-bra-sales-complementary-fiscal-documents.md)
 -   [Nota fiscal eletrônica para serviços](latam-bra-service-electronic-fiscal-document.md)   
-
 
 

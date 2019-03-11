@@ -1,13 +1,13 @@
 ---
-title: "Catálogos do call center"
-description: "Este tópico descreve a funcionalidade específica do call center para catálogos no Microsoft Dynamics 365 for Retail."
+title: Catálogos do call center
+description: Este tópico descreve a funcionalidade específica de call center para catálogos no Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 05/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, RetailCatalogDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,25 +19,24 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 65c1c3070aa48bf7a2016534071693716fabe831
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322734"
 ---
-
 # <a name="call-center-catalogs"></a>Catálogos do call center
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve a funcionalidade específica do call center vinculada a capacidades do catálogos no Microsoft Dynamics 365 for Retail.
+Este tópico descreve a funcionalidade específica de call center vinculada a recursos de catálogo no Microsoft Dynamics 365 for Retail.
 
-Os recursos do catálogo localizados no Dynamics 365 for Retail podem ser usados para várias finalidades. Os recursos de catálogo foram inicialmente criados para dar suporte a integrações de comércio eletrônico de terceiros. O catálogo permitiu às empresas a criação de um agrupamento de produtos e atributos que podem ser publicados externamente para o consumo por uma solução de comércio eletrônico de terceiros.
+Os recursos de catálogo encontrados no Dynamics 365 for Retail podem ser usados para várias finalidades. Os recursos de catálogo foram inicialmente criados para dar suporte a integrações de comércio eletrônico de terceiros. O catálogo permitiu às empresas a criação de um agrupamento de produtos e atributos que podem ser publicados externamente para o consumo por uma solução de comércio eletrônico de terceiros.
 
-Quando o suporte do canal de call center foi adicionado ao Dynamics 365 for Retail, o conceito de catálogo foi expandido para adicionar recursos adicionais para dar suporte e gerenciar recursos relacionados aos catálogos de marketing direto ao consumidor tradicional. Uma empresa direta ao consumidor frequentemente produzirá catálogos impressos, enviados por email a um ou mais segmentos de clientes. Esses catálogos normalmente têm promoções ou ofertas específicas que somente serão liquidadas se o cliente fornecer um código de identificação do catálogo no momento da criação da ordem.
+Quando o suporte do canal de call center foi adicionado ao Dynamics 365 for Retail, o conceito de catálogo se expandiu para adicionar mais funcionalidades de suporte e gerenciamento de recursos relacionadas aos catálogos tradicionais de marketing direto ao consumidor. Uma empresa direta ao consumidor frequentemente produzirá catálogos impressos, enviados por email a um ou mais segmentos de clientes. Esses catálogos normalmente têm promoções ou ofertas específicas que somente serão liquidadas se o cliente fornecer um código de identificação do catálogo no momento da criação da ordem.
 
-As empresas de marketing direto ao consumidor são muito focadas no rastreamento de resposta para esses catálogos para garantir que os custos para produzir e enviar e-mail para eles sejam justificados. Para rastrear a resposta, um código é impresso na parte de trás do catálogo e esse código é solicitado e aplicado quando o destinatário do catálogo ligar para fazer um pedido por telefone (ou agora o código pode ser inserido quando o cliente fizer um pedido online). Quando houver condições diferentes da indústria que foram usadas para identificar o código de rastreamento do catálogo (incluindo o código principal, o código da promoção, o código de catálogo, o código-fonte), mencionamos o código no Dynamics 365 for Retail como o **ID do código-fonte**.
+As empresas de marketing direto ao consumidor são muito focadas no rastreamento de resposta para esses catálogos para garantir que os custos para produzir e enviar e-mail para eles sejam justificados. Para rastrear a resposta, um código é impresso na parte de trás do catálogo e esse código é solicitado e aplicado quando o destinatário do catálogo ligar para fazer um pedido por telefone (ou agora o código pode ser inserido quando o cliente fizer um pedido online). Embora existam diferentes termos do setor que foram usados para identificar esse código de rastreamento de catálogo (incluindo código de tecla, código promocional, código de catálogo, código-fonte), nos referimos ao código no Dynamics 365 for Retail como a **ID do código-fonte**.
 
 ## <a name="basic-catalog-setup"></a>Configuração básica do catálogo
 
@@ -102,4 +101,3 @@ Na guia **Catálogos**, as opções para configurar uma **Agenda de pagamento** 
 ## <a name="additional-notes"></a>Notas adicionais
 
 Atualmente, quando uma ID de código-fonte é aplicada a uma ordem de venda no call center, ela é usada para impulsionar preços, promoções, scripts e vendas/vendas cruzadas específicas do catálogo. O sistema não proibirá nem impedirá que um produto que não esteja no catálogo seja solicitado na ordem de venda. Se um item for ordenado e não fizer parte do catálogo, o sistema primeiro usará o **Grupo de preços** definido no canal de call center (**Varejo** \> **Canais** \> **Call centers** \> **Todos os call centers**) para o preço de item ou promoções. Se nenhum preço de canal específico for encontrado, o preço de venda base do item será usado.
-

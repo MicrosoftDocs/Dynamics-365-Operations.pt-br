@@ -1,13 +1,13 @@
 ---
-title: "Reverter status de ordem de produção"
-description: "Este tópico descreve como reverter o status da ordem de produção."
+title: Reverter status de ordem de produção
+description: Este tópico descreve como reverter o status da ordem de produção.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdParmStatusDecrease
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7ca5a62b4509f0c7e49da94128e72eae5f35829e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4761e44b6bbc93ebf4a395948f42c2a73013ecb9
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367308"
 ---
-
 # <a name="reverse-the-production-order-status"></a>Reverter status de ordem de produção
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Quando você reverte o status de uma ordem de produção de **Liberado** para **
 
 ## <a name="from-started-to-released"></a>De Iniciado para Liberado
 Quando você reverte o status de uma ordem de produção de **Iniciado** para **Liberado**, todos os itens que foram reportados como concluídos são revertidos. Caso o material tenha sido separado, ou se as entregas de entrada e de saída tiverem sido feitas para a produção, essas configurações também são revertidas. O campo **Status pendente** nas linhas BOM da ordem de produção é alterado de **Finalizado** para **Consumo de material**. Se a hora foi registrada, ou se as quantidades foram relatadas como concluídas para as operações no roteiro de produção, essas configurações serão revertidas. O campo **Status pendente** é alterado de **Finalizado** para **Consumo de roteiros** na rota de produção. As configurações de todos os itens são lançadas como em andamento ou o trabalho em andamento são revertidas. Na página **Detalhes da ordem de produção**, os campos que mostram uma quantidade que foi iniciada ou reportada como finalizada são redefinidos. As datas dessas transações também são redefinidas.
-
 
 
 

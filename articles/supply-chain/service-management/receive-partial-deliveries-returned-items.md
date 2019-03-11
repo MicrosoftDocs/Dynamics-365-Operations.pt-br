@@ -1,31 +1,30 @@
 ---
 title: Receber entregas parciais de itens devolvidos
-description: "As entregas parciais são definidas em termos de linhas de ordem de devolução, não nas remessas de ordem de devolução."
+description: As entregas parciais são definidas em termos de linhas de ordem de devolução, não nas remessas de ordem de devolução.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e2b7bfad1e0d80675848353d4118960d44f2dc01
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f9f596d31f2438a353b02bf939786b284937db86
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363904"
 ---
-
 # <a name="receive-partial-deliveries-of-returned-items"></a>Receber entregas parciais de itens devolvidos    
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ Se uma remessa de devolução contém menos do que a quantidade total de uma lin
 
 ## <a name="register-and-post-a-partial-quantity"></a>Registrar e lançar uma quantidade parcial
 
-1.  Depois de selecionar uma ordem de devolução para entrada no formulário **Visão geral de entrada - Depósito: %1, Doca: %2, Nome do diário: %3**, clique em **Iniciar entrara** para criar o diário de entrada, e clique em **Diários** \> **Exibir entradas de serviço** para abrir o formulário **Diário de localização**.
+1.  Depois de selecionar uma ordem de devolução para entrada no formulário **Visão geral de entrada - Depósito: %1, Doca: %2, Nome do diário: %3**, clique em **Iniciar entrada** para criar o diário de entrada, e clique em **Diários** \> **Mostrar entradas a partir de recebimentos** para abrir o formulário **Diário de localização**.
 
 2.  Selecione a linha do diário com o qual deseja trabalhar e clique em **Linhas** para abrir o formulário **Linhas de diário, locais**.
 
@@ -48,7 +47,6 @@ Se uma remessa de devolução contém menos do que a quantidade total de uma lin
 4.  No campo **Separar quantidade**, insira a quantidade do número total de itens recebidos e, em seguida, clique em **OK**.
 
 5.  No formulário **Linhas de diário, local**, selecione a linha para a quantidade de itens recebidos e clique em **Lançar**. É possível lançar a linha para a quantidade adicional após os itens chegarem.
-
 
 
 

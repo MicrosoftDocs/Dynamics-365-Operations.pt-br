@@ -1,13 +1,13 @@
---- 
+---
 title: Definir agendas de continuidade
-description: "Este tópico aborda a configuração de um programa de continuidade (também conhecido como pedidos recorrentes)."
+description: Este tópico aborda a configuração de um programa de continuidade (também conhecido como pedidos recorrentes).
 author: josaw1
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCRContinuitySchedule, EcoResProductDetailsExtended
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: dd70780927bb9aaa19c196705d6e8fa1c247ea66
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 5ac333989dd987fd3cb1d2b2769fbcdb93bdb4bd
-ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330508"
 ---
 # <a name="define-continuity-schedules"></a>Definir agendas de continuidade
 
@@ -63,5 +63,4 @@ Este tópico aborda a configuração de um programa de continuidade (também con
 6. Aqui você inserirá o programa de continuidade que esse item representa. Digite a ID da agenda criada anteriormente.
     * Quando esse item é vendido em um call center, a lógica comercial adicional é aplicada a partir do programa de continuidade selecionado.  
 7. Clique em Salvar.
-
 

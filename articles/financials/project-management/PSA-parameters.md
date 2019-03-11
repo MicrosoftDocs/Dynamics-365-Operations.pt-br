@@ -1,13 +1,13 @@
 ---
-title: "Parâmetros de integração do Project Service Automation"
-description: "Este tópico explica a forma de configurar como os dados padrão são inseridos durante a integração do Microsoft Dynamics 365 for Project Service Automation com o Microsoft Dynamics 365 for Finance and Operations."
+title: Parâmetros de integração do Project Service Automation
+description: Este tópico explica a forma de configurar como os dados padrão são inseridos durante a integração do Microsoft Dynamics 365 for Project Service Automation com o Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 33960a97f69d6bcc70a3035d4d68095ca6993a10
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347045"
 ---
-
 # <a name="project-service-automation-integration-parameters"></a>Parâmetros de integração do Project Service Automation
 
 [!include[banner](../includes/banner.md)]
@@ -46,4 +45,3 @@ Na página **Parâmetros de integração do Project Service Automation**, você 
 | Padrões de tipo de cobrança  | Tipo de cobrança         | Clique em **Novo** para adicionar uma linha na qual você possa selecionar o tipo de cobrança para o qual definirá a propriedade de linha padrão. Um tipo de cobrança específico pode ser selecionado apenas uma vez na configuração. |
 |                        | Propriedade da linha        | Selecione a propriedade de linha padrão para o tipo de cobrança selecionado. Quando novas previsões de horas, novas previsões de despesas ou os novos valores reais forem sincronizados a partir do Project Service Automation, o campo **Propriedade da linha** é definido com o valor padrão para o tipo de cobrança. |
 | Bloqueio de funcionalidade  | Não Aplicável       | Selecione a funcionalidade para desabilitar no Finance and Operations para projetos e contratos originados no Project Service Automation. Por exemplo, você pode desativar a capacidade de editar contratos e projetos, criar estruturas de detalhamento de trabalho e inserir folhas de ponto no Finance and Operations. Os campos relacionados à contabilidade continuarão habilitados, mesmo se a configuração do parâmetro torná-los indisponíveis. Por padrão, todas as funcionalidades estão habilitadas. |
-

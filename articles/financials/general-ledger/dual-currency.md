@@ -1,29 +1,28 @@
 ---
 title: Moeda dupla
-description: "Este tópico fornece informações sobre a moeda dupla, em que a moeda de relatório é usada como uma segunda moeda contábil para o Microsoft Dynamics 365 for Finance and Operations."
+description: Este tópico fornece informações sobre moeda dupla, em que a moeda de relatório é usada como uma segunda moeda contábil para o Microsoft Dynamics 365 for Finance and Operations.
 author: kweekley
 manager: AnnBe
 ms.date: 10/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: 
+ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330301"
 ---
-
 # <a name="dual-currency"></a>Moeda dupla
 
 [!include [banner](../includes/banner.md)]
@@ -184,4 +183,3 @@ Além disso, foram feitas alterações importantes no processo de depreciação.
     - Se um tipo de transação de depreciação for inserido no Diário de ativo fixo, os valores na moeda de relatório aparecerão nas novas colunas. Esses valores podem ser alterados.
     - Se a moeda contábil e as moedas de relatório no razão forem iguais, os valores serão mantidos na sincronização. Se você alterar o valor de **Crédito**, o valor de **Crédito na moeda de relatório** será alterado automaticamente para corresponder a ele.
     - Se qualquer outro tipo de transação for inserido no Diário de ativo fixo, os valores de **Débito na moeda de relatório** e de **Crédito na moeda de relatório** nunca são mostrados, antes ou depois do lançamento. Os valores de moeda contábil e de moeda de relatório ainda estarão disponíveis no comprovante que lança na contabilidade.
-

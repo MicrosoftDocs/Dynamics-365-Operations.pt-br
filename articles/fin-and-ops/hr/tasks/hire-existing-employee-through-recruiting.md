@@ -1,13 +1,13 @@
---- 
-title: "Contratar funcionários existentes por meio de recrutamento"
-description: "As vezes, posições abertas podem ser preenchidas por candidatos que já são empregados da sua organização."
+---
+title: Contratar funcionários existentes por meio de recrutamento
+description: As vezes, posições abertas podem ser preenchidas por candidatos que já são empregados da sua organização.
 author: rschloma
 manager: AnnBe
 ms.date: 02/10/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
 ms.openlocfilehash: 71793ce48142b19b288e2315dcd44a07d8e39f90
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365376"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Contratar funcionários existentes por meio de recrutamento
 
@@ -40,5 +40,4 @@ As vezes, posições abertas podem ser preenchidas por candidatos que já são e
 8. Opcionalmente, você pode selecionar um código de motivo. Exemplo: Reorganização
 9. Clique em Alterar cargo.
     * Você também pode alterar a remuneração neste momento. Se você não atribuir remuneração neste momento, você pode alterar indo ao formulário do trabalhador, selecionando a aba Remuneração, e escolhendo 'Plano Fixo'. Depois que você selecionar 'Trocar de cargo', o status da solicitação de emprego será atualizado para 'Empregado'.  
-
 

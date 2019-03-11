@@ -1,13 +1,13 @@
 ---
-title: "Espaço de trabalho de faturamento de colaboração do fornecedor"
-description: "Este tópico explica como podem exibir faturas de fornecedor e enviar notas fiscais de colaboração de fornecedor que ao espaço de trabalho."
+title: Espaço de trabalho de faturamento de colaboração do fornecedor
+description: Este tópico explica como podem exibir faturas de fornecedor e enviar notas fiscais de colaboração de fornecedor que ao espaço de trabalho.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 5520012a00e918e8748b974773eeaf2450f0c55e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2368fae3913f67d9d2ce0bbe6b2e0bee7968bb15
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340513"
 ---
-
 # <a name="vendor-collaboration-invoicing-workspace"></a>Espaço de trabalho de faturamento de colaboração do fornecedor
 
 [!include [banner](../includes/banner.md)]
 
 Este tópico explica como podem exibir faturas de fornecedor e enviar notas fiscais de colaboração de fornecedor que ao espaço de trabalho.
 
-O espaço de trabalho **Faturamento da colaboração de fornecedores** pode ser usado para exibir informações de fatura de fornecedor e enviar faturas ao Microsoft Dynamics 365 for Finance and Operations usando recursos de fluxo de trabalho.
+O espaço de trabalho **Faturamento de colaboração de fornecedor**pode ser usado para exibir informações de fatura de fornecedor e enviar faturas ao Microsoft Dynamics 365 for Finance and Operations usando recursos de fluxo de trabalho.
 
 
 <a name="vendor-collaboration-invoicing-workspace"></a>Espaço de trabalho de faturamento da colaboração de fornecedores
@@ -60,7 +59,6 @@ Criar uma nova fatura a partir de uma ordem de compra
 Você pode criar uma nova nota fiscal do fornecedor selecionando **Novo** a ação **Faturamento de colaboração de fornecedor** no espaço de trabalho. A ordem de compra e o número de nota fiscal devem ser fornecidos pelo fornecedor. Por padrão, todas as linhas de ordem de compra de fornecedores aparecerão em nova nota fiscal. A quantidade e as informações de custo podem ser editadas antes de enviar a nota fiscal de fornecedor para o fluxo de trabalho. Você pode anexar arquivos, notas, imagens e URLs a uma nota fiscal antes enviá-la.
 
 Para obter mais informações, consulte [Colaboração de fornecedores com fornecedores externos](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
-
 
 
 

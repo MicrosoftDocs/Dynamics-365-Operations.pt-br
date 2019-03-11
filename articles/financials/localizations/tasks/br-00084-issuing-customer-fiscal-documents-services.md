@@ -1,13 +1,13 @@
---- 
-title: "Emitir notas fiscais para clientes (serviços) (Brasil)"
-description: "É possível emitir uma nota fiscal de serviço a um cliente que adquiriu serviços do estabelecimento fiscal."
+---
+title: Emitir notas fiscais para clientes (serviços) (Brasil)
+description: É possível emitir uma nota fiscal de serviço a um cliente que adquiriu serviços do estabelecimento fiscal.
 author: sndray
 manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: eec373838a2ff89e5685bdb86bd5ff2a6b3a808e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 036d2467f1b7c7f2a8f4806042928d91f9efc05a
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371562"
 ---
 # <a name="issue-customer-fiscal-documents-services-brazil"></a>Emitir notas fiscais para clientes (serviços) (Brasil)
 
@@ -51,5 +51,4 @@ ms.lasthandoff: 09/29/2017
 20. Feche a página.
 21. Feche a página.
 22. Feche a página.
-
 

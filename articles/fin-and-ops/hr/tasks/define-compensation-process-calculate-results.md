@@ -1,13 +1,13 @@
---- 
-title: "Definir processo de remuneração e calcular resultados"
-description: "Os processos de remuneração são usados para determinar os novos valores e prêmios de remuneração para os funcionários inscritos em planos de remuneração fixos e variáveis."
+---
+title: Definir processo de remuneração e calcular resultados
+description: Os processos de remuneração são usados para determinar os novos valores e prêmios de remuneração para os funcionários inscritos em planos de remuneração fixos e variáveis.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMCompProcess, HRMCompProcessLine, HRMCompEvent, HRMCompEventEmpl
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5e5b0bb5558a8b71d02b5988c6f82f53f4f42646
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ba28cf1fa6a8e9a4497d3bac1a2161098ec53db1
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325724"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Definir processo de remuneração e calcular resultados
 
@@ -101,5 +101,4 @@ Os processos de remuneração são usados para determinar os novos valores e pr�
 9. Clique em Alterar status.
 10. Clique em Aprovado.
     * Depois que o registro for aprovado, ele poderá ser carregado para o registro oficial de remuneração do funcionário. A nova remuneração será efetiva a partir da data da transação definida no processo de remuneração.  
-
 

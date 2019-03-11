@@ -1,13 +1,13 @@
 ---
 title: Faturas de pagamento antecipado versus pagamentos antecipados
-description: "Este tópico descreve e compara os dois métodos que as organizações podem usar para pagamentos antecipados. Em um método, você cria uma fatura de pagamento antecipado que esteja associada a uma ordem de compra. No outro método, é possível criar comprovantes de diário de pagamentos antecipados criando entradas de diário e marcando-as como comprovantes de diário de pagamentos antecipados."
+description: Este tópico descreve e compara os dois métodos que as organizações podem usar para pagamentos antecipados. Em um método, você cria uma fatura de pagamento antecipado que esteja associada a uma ordem de compra. No outro método, é possível criar comprovantes de diário de pagamentos antecipados criando entradas de diário e marcando-as como comprovantes de diário de pagamentos antecipados.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, PurchTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c81045b72d15f4474d82040d7725740cff5eba91
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c1f30e375b759641875ed6a5a7d2f77132715c57
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310130"
 ---
-
 # <a name="prepayment-invoices-vs-prepayments"></a>Faturas de pagamento antecipado versus pagamentos antecipados
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ As organizações podem emitir pagamentos antecipados a fornecedores para mercad
 | Faturamento de pagamento antecipado                                                                | Pagamentos Antecipados                                                              |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | Defina um valor de pagamento antecipado na ordem de compra.                                    | Nenhum valor de pagamento antecipado é definido na ordem de compra.                    |
-| Chave: uma fatura de pagamento antecipado e uma fatura final devem ser lançadas.                       | Nenhuma fatura de pagamento antecipado deve ser lançada.                                    |
+| Chave: uma fatura de pagamento antecipado e uma fatura final devem ser lançadas.                       | Nenhuma fatura de pagamento antecipado deve ser lançada.                                    |
 | A responsabilidade do pagamento antecipado é mantida na conta de pagamento antecipado e não na conta AP. | A responsabilidade do pagamento antecipado é mantida na conta AP.                  |
 | O saldo de fornecedor não reflete o valor do pagamento antecipado durante o processo.     | O saldo de fornecedor reflete o valor do pagamento antecipado durante o processo. |
 | A faturação de pagamento antecipado está disponível apenas em Contas a pagar.                         | Os pagamentos antecipados estão disponíveis em Contas a pagar e em Contas a receber.    |
@@ -52,8 +51,8 @@ As práticas contábeis em muitos países/regiões exigem que os pagamentos ante
 3.  Crie um diário de pagamentos e crie o novo pagamento.
 4.  Você pode sinalizar o pagamento como um pagamento antecipado. Se um pagamento for sinalizado como um pagamento antecipado, o pagamento será lançado nas contas contábeis definidas no perfil de lançamento configurado nas etapas 1 e 2. Além disso, se o pagamento for sinalizado como um pagamento antecipado, os impostos serão calculados. Alguns governos exigem que os impostos sejam pagos quando um pagamento antecipado é registrado, mesmo se não houver uma fatura.
 5.  Lance o pagamento antecipado.
-6.  Opcional: Você pode liquidar o pagamento antecipado na ordem de compra ou ordem de venda antes de criar a fatura. Na página da ordem de venda ou ordem de compra, no painel de ações, use **Transações de acordo**.
-7.  Depois que o fornecedor entregar as mercadorias ou os serviços, registre a fatura. Se você tiver liquidado o pagamento antecipado em relação à ordem de compra ou à ordem de venda na etapa 6, o pagamento antecipado será automaticamente liquidado em relação à fatura que você criou. Se você não tiver liquidado o pagamento antecipado em relação à ordem de compra ou à ordem de venda, poderá liquidá-lo manualmente na fatura usando **Liquidar transações** na página do cliente ou do fornecedor. O valor do pagamento antecipado é revertido temporariamente fora da conta contábil AP/AR. Além disso, se os impostos forem calculados, eles são revertidos, pois a fatura tem os impostos reais.
+6.  Opcional: Você pode liquidar o pagamento antecipado na ordem de compra ou ordem de venda antes de criar a fatura. Na página da ordem de venda ou ordem de compra, no painel de ações, use **Transações de acordo**.
+7.  Depois que o fornecedor entregar as mercadorias ou os serviços, registre a fatura. Se você tiver liquidado o pagamento antecipado em relação à ordem de compra ou à ordem de venda na etapa 6, o pagamento antecipado será automaticamente liquidado em relação à fatura que você criou. Se você não tiver liquidado o pagamento antecipado em relação à ordem de compra ou à ordem de venda, poderá liquidá-lo manualmente na fatura usando **Liquidar transações** na página do cliente ou do fornecedor. O valor do pagamento antecipado é revertido temporariamente fora da conta contábil AP/AR. Além disso, se os impostos forem calculados, eles são revertidos, pois a fatura tem os impostos reais.
 
 ## <a name="overview-of-the-prepayment-invoicing-process"></a>Visão geral do processo de faturamento de pagamento antecipado
 As faturas de pagamento antecipado são uma prática empresarial comum. Um fornecedor emite faturas de pagamento antecipado para exigir um depósito na compra antes do atendimento da ordem de compra. Por exemplo, alguns fornecedores exigem um pagamento antecipado por mercadorias ou serviços específicos. Se um fornecedor emitir uma fatura que solicite pagamento antecipado, você poderá usar o recurso de faturamento de pagamento antecipado. Um valor do pagamento antecipado pode ser definido na ordem de compra, uma fatura de pagamento antecipado é registrada e paga, e a fatura de pagamento antecipado é aplicada à fatura final. Siga estas etapas para criar um pagamento antecipado.
@@ -63,7 +62,6 @@ As faturas de pagamento antecipado são uma prática empresarial comum. Um forne
 3.  O coordenador de Contas a pagar registra a fatura de pagamento antecipado em relação à ordem de compra e então a fatura de pagamento antecipado é paga.
 4.  Após o fornecedor entregar as mercadorias ou serviços e as faturas relacionadas ao fornecedor forem recebidas, o coordenador de Contas a pagar aplica o valor do pagamento antecipado que já foi pago na fatura.
 5.  O coordenador de Contas a pagar paga e liquida o valor restante da fatura.
-
 
 
 

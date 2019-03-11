@@ -1,13 +1,13 @@
 ---
-title: "Resolver discrepâncias durante conciliação de totais de fatura"
-description: "Você pode usar a conciliação de totais de fatura para ajudar a garantir que os valores totais de fatura não desviem dos valores esperados por mais de uma variação aceitável."
+title: Resolver discrepâncias durante conciliação de totais de fatura
+description: Você pode usar a conciliação de totais de fatura para ajudar a garantir que os valores totais de fatura não desviem dos valores esperados por mais de uma variação aceitável.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTotalPriceTolerance
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 67aa0b89eed1f82290659029dfcce92ca3710aea
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 18250a735d0421daa90b923504aeb94b5003a6a7
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331497"
 ---
-
 # <a name="resolve-discrepancies-during-invoice-totals-matching"></a>Resolver discrepâncias durante conciliação de totais de fatura
 
 [!include [banner](../includes/banner.md)]
@@ -43,6 +42,5 @@ Após identificar uma discrepância, talvez você precise contatar o fornecedor 
 -   Solicitar um crédito completo de uma nova fatura corrigida do fornecedor.
 
 Para saber mais, consulte [Pesquisar ou resolver exceções](tasks/research-resolve-exceptions.md).
-
 
 

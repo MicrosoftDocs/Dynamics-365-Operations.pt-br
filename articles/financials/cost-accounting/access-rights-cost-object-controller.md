@@ -1,32 +1,31 @@
 ---
 title: Definir direitos de acesso para controladores do objeto de custo
-description: "Este tópico fornece informações sobre direitos de acesso para controladores do objeto de custo."
+description: Este tópico fornece informações sobre direitos de acesso para controladores do objeto de custo.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 290b16eeb99ac7ddb9b552b289215c99a0451660
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1cac3c3b724dda4ab39a65aa5221eda427767eb8
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355532"
 ---
-
 # <a name="access-rights-of-a-cost-object-controller"></a>Direitos de acesso de um controlador de objeto de custo
 
 [!include [banner](../includes/banner.md)]
@@ -95,8 +94,8 @@ As configurações da hierarquia da lista de acesso são usadas para controlar o
 
 - Microsoft Power BI:
 
-    - Dados mostrados nas visualizações do Power BI
-    - Visualizações de Dados do Power BI inseridos no cliente Microsoft Dynamics 365 for Finance and Operations
+    - Dados mostrados em visualizações do Power BI
+    - Visualizações de dados do Power BI que estão incorporados no Microsoft Dynamics 365 for Finance and Operations, cliente
 
 > [!IMPORTANT]
 > - Antes que a hierarquia da lista de acesso possa afetar os dados no Power BI, a hierarquia da lista de acesso e a segurança em nível de linha no Power BI devem ser emparelhadas. Para obter mais informações, consulte [Configurar segurança para o pacote de conteúdo de contabilização de custo](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
@@ -107,4 +106,3 @@ Recursos adicionais
 - [Espaço de trabalho de controle de custos](cost-control-workspace.md)
 - [Hierarquia da dimensão](dimension-hierarchy.md)
 - [Configurar segurança para o pacote de conteúdo de contabilização de custo](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
-

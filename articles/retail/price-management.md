@@ -1,14 +1,14 @@
 ---
-title: "Gerenciamento de preços de vendas para varejo"
-description: "Este tópico descreve os conceitos para criar e gerenciar os preços de venda do Microsoft Dynamics 365 for Retail."
+title: Gerenciamento de preços de vendas para varejo
+description: Este tópico descreve os conceitos para criar e gerenciar os preços de venda do Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 04/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -17,15 +17,14 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 28a095588bd3c312a2d1c4b83e668487a209077f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6da38f69abe72665fc79a43e0e163a856f9ee34d
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362133"
 ---
-
-# <a name="retail-sales-price-management"></a>Gerenciamento de preços de vendas para varejo
+# <a name="retail-sales-price-management"></a>Gerenciamento de preços de vendas de varejo
 
 [!include [banner](includes/banner.md)]
 
@@ -149,7 +148,7 @@ Embora a unidade de preço não esteja em um cenário de varejo comum, o mecanis
 
 ### <a name="sales-price-trade-agreement"></a>Contrato comercial do preço de venda
 
-Usando o diário de contrato comercial, você pode criar contratos comerciais de preço de vendas para cada produto. No Microsoft Dynamics 365, há três escopos de contratos comerciais de preço de venda: **Tabela**, **Grupo**, e **Tudo**. O escopo do cliente determina os clientes aos quais um contrato comercial do preço de venda é aplicado.
+Usando o diário de contrato comercial, você pode criar contratos comerciais de preço de vendas para cada produto. No Microsoft Dynamics 365, há três escopos de contratos comerciais de preço de venda: **Tabela**, **Grupo** e **Tudo**. O escopo do cliente determina os clientes aos quais um contrato comercial do preço de venda é aplicado.
 
 Um contrato comercial do preço de venda de **Tabela** é para um cliente único que é definido diretamente no contrato comercial. Esse cenário não é um cenário típico de business-to-consumer (B2C) de varejo. Porém, se ocorrer, o mecanismo do preço de varejo usa os contratos comerciais da **Tabela** ao determinar o preço.
 
@@ -232,4 +231,3 @@ Além disso, **somente** o mecanismo de preço de varejo suporta os seguintes re
 
 - O preço está baseado em dimensões do produto, na ordem do preço da grade mais específica para o preço da grade menos específico para o preço do produto mestre. Um preço definido com duas dimensões de produtos (por exemplo, cor e tamanho) é usado antes de um preço definido usando somente uma dimensão de produtos (por exemplo, por tamanho.)
 - O mesmo grupo de preços pode ser usado para controlar a definição de preços e descontos.
-

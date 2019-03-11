@@ -1,13 +1,13 @@
---- 
-title: "Definir a dependência de configurações de ER em outros componentes"
-description: "Para concluir essas etapas, primeiro você deve concluir as etapas na guia de tarefas, ER Gerenciar configurações de mapeamento de modelo, e você deverá ter acesso ao Microsoft Dynamics Lifecycle Services (LCS)."
+---
+title: Definir a dependência de configurações de ER em outros componentes
+description: Para executar estas etapas, primeiro você deve executar as etapas no guia de tarefas, ER Gerenciar configurações do mapeamento de modelo, e deve ter acesso ao Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 18eb8de7c851e5477d93a00f744fe56929c43ca2
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365077"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Definir a dependência de configurações de ER em outros componentes
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Para concluir essas etapas, primeiro você deve concluir as etapas na guia de tarefas, ER Gerenciar configurações de mapeamento de modelo, e você deverá ter acesso ao Microsoft Dynamics Lifecycle Services (LCS).
+Para executar estas etapas, primeiro você deve executar as etapas no guia de tarefas, ER Gerenciar configurações do mapeamento de modelo, e deve ter acesso ao Microsoft Dynamics Lifecycle Services (LCS).
 
-Este procedimento mostra como criar uma configuração do Relatório eletrônico (ER) e especificar sua dependência de outros componentes de software, para que você possa ajudar a garantir que a configuração seja baixada corretamente para uma versão específica do Microsoft Dynamics 365 for Finance and Operations. Neste exemplo, você criará as configurações de ER necessárias para a empresa exemplo, Litware, Inc. 
+Este procedimento mostra como criar uma configuração de relatório eletrônico (ER) e especificar sua dependência de outros componentes de software, para ajudar a garantir que a configuração seja baixada corretamente para uma versão específica do Microsoft Dynamics 365 for Finance and Operations. Neste exemplo, você criará as configurações de ER necessárias para a empresa exemplo, Litware, Inc. 
 
 Esse procedimento é destinado a usuários com a função de Administrador do sistema ou Desenvolvedor de relatório eletrônico. As etapas podem ser realizadas em qualquer empresa, porque as configurações de ER são compartilhadas entre as empresas. 
 
@@ -62,7 +62,7 @@ Esse procedimento é destinado a usuários com a função de Administrador do si
 18. Selecione Microsoft Dynamics AX 7.0 RTW.
 19. No campo Versão, digite '[7.0.1265.3015,7.1)'.
     * [7.0.1265.3015,7.1)  
-    * As dependências serão avaliadas quando a configuração for baixada de um repositório de ER. Esta versão da configuração será baixada do repositório de ER quando a versão 1 da configuração do "Modelo de dados de amostra" já estiver em vigor ou baixada previamente. Se tiver sido baixada com antecedência, ela deverá ser concluída no Microsoft Dynamics 365 for Finance and Operations, edição Enterprise, cuja versão deve ser 7.0.1265.3015 ou posterior, mas não deve exceder a versão secundária 1.   
+    * As dependências serão avaliadas quando a configuração for baixada de um repositório de ER. Esta versão da configuração será baixada do repositório de ER quando a versão 1 da configuração do "Modelo de dados de amostra" já estiver em vigor ou baixada previamente. Se tiver sido baixada com antecedência, deverá ser executada no Microsoft Dynamics 365 for Finance and Operations Enterprise Edition, cuja versão deve ser 7.0.1265.3015 ou posterior, mas não pode exceder a versão secundária 1.   
 20. Clique em Salvar.
 21. Feche a página.
 22. Clique em Alterar status.
@@ -139,6 +139,5 @@ Esse procedimento é destinado a usuários com a função de Administrador do si
 25. Vá para Administração da organização > Relatório eletrônico > Configurações.
 26. Na árvore, expanda 'Modelo de dados de amostra'.
     * Observe que a configuração de mapeamento do modelo 'Mapeamento de amostra' foi baixada com a configuração selecionada do modelo de dados. Os dois arquivos são baixados juntos porque o “Mapeamento de amostra” foi definido como implementação do modelo de dados selecionado e porque é aplicável para Finanças e Operações. A configuração 'Mapeamento de amostra (alternativo)' não foi baixada porque a condição para a versão do aplicativo necessária não foi satisfeita.   
-    * Se você entrar no Dynamics 365 for Finance and Operations, edição Enterprise, registre o mesmo provedor, acesse o mesmo projeto do LCS e baixe a mesma configuração do modelo de dados. A configuração "Mapeamento de amostra (alternativo)" será baixada, enquanto a configuração "Mapeamento de amostra" será ignorada.  
-
+    * Se você se conectar ao Dynamics 365 for Finance and Operations, Enterprise edition, registrar o mesmo fornecedor, acessar o mesmo projeto de LCS e baixar a mesma configuração do modelo de dados, a configuração Mapeamento de amostra (alternativo) será baixada, enquanto a configuração 'Mapeamento de amostra' será ignorada.  
 

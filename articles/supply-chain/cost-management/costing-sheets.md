@@ -1,13 +1,13 @@
 ---
 title: Folhas de custos
-description: "A configuração da folha de custos envolve dois objetivos. Como primeiro objetivo, você define o formato para exibir as informações de custo de bens vendidos sobre um item manufaturado ou ordem de produção. A exibição formatada é nomeada folha de custos. Como segundo objetivo, você define a base para calcular custos indiretos. A configuração de folha de custo cria no recurso de grupo de custo para exibir informações e para as fórmulas de cálculo de custo indireto. Os dois objetivos da configuração de folha de custos são descritos neste artigo."
+description: A configuração da folha de custos envolve dois objetivos. Como primeiro objetivo, você define o formato para exibir as informações de custo de bens vendidos sobre um item manufaturado ou ordem de produção. A exibição formatada é nomeada folha de custos. Como segundo objetivo, você define a base para calcular custos indiretos. A configuração de folha de custo cria no recurso de grupo de custo para exibir informações e para as fórmulas de cálculo de custo indireto. Os dois objetivos da configuração de folha de custos são descritos neste artigo.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostSheetDesigner
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1421049adb86916202ad6f7ee748c8525fd55fa8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3988bd478cfad791b5d4c73d28a86c9cfb68288f
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312752"
 ---
-
 # <a name="costing-sheets"></a>Folhas de custos
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,6 @@ Duas políticas de bloqueio para uma versão de avaliação de custo determinam 
 Após definir o formato de folha de custos e os cálculos para os custos indiretos, você deverá executar uma etapa separada para validar e salvar as informações. A folha de custos representa um formato de toda a empresa para exibir consistentemente as informações de custos de produtos vendidos. 
 
 A folha de custos é exibida como parte da página **Calcular custo do item**. A folha de custos pode ser exibida para um registro de custo calculado do item manufaturado na página **Preço de item** ou para um registro de cálculo específico da ordem na página **Resultados de cálculo de BOM**. Ela também pode ser exibida como parte da página **Cálculo de preço** de uma ordem de produção.
-
 
 
 

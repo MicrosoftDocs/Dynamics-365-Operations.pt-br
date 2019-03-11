@@ -1,13 +1,13 @@
 ---
-title: "Método de alocação de custo total"
-description: "Este tópico oferece diretrizes para usar a alocação de custo total (TCA). A TCA é um método de cálculo de custos entre o item de fórmula principal para uma ordem de lote e os coprodutos definidos para a fórmula."
+title: Método de alocação de custo total
+description: Este tópico oferece diretrizes para usar a alocação de custo total (TCA). A TCA é um método de cálculo de custos entre o item de fórmula principal para uma ordem de lote e os coprodutos definidos para a fórmula.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMConsistOf, PmfFormulaCoBy
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cda1c5251b81a3bb73d4d8703d7c3fa1ab4e9c16
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4f3d75411e8c99365f1aba8214c78e93b4741871
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341571"
 ---
-
 # <a name="total-cost-allocation-method"></a>Método de alocação de custo total
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,6 @@ O campo **Alocação de custo de subproduto** na página **Coprodutos** é um ca
 -   **Percentual**: o valor de custo é calculado como uma porcentagem do custo total de matérias-primas que são consumidas na produção. A porcentagem usada para o cálculo é inserida no campo.
 -   **Por série**: o valor de custo é calculado como um valor pelo tamanho de lote padrão da ordem de produção. Esse valor é independente da quantidade relatada na produção. O valor usado para o cálculo é inserido no campo.
 -   **Por quantidade** ─ o valor de custo é calculado como um valor por quantidade relatada do item de fórmula na produção. O valor usado para o cálculo é inserido no campo.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: IDs de Registro
-description: "Este tópico fornece informações sobre configuração e uso das IDs de registro."
+description: Este tópico fornece informações sobre configuração e uso das IDs de registro.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/08/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirPartTaxRegistrationSearch, LogisticsPostalAddress, TaxRegistrationLegislationTypes, TaxRegistrationType
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 7b663b9a72afdd3c2e2dcf503152f02e0b7861fd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 978c6c6f2a3de803f252e93040d2d7eb2bc4a793
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350495"
 ---
-
 # <a name="registration-ids"></a>IDs de Registro
 
 [!include [banner](../includes/banner.md)]
@@ -55,7 +54,7 @@ A categoria de registro é o identificador de registro do país/região aprovado
 |-----------------------|----------------|
 | Tipo de registro     | O tipo de registro em determinado país/região.|
 | Restrito a         | O tipo de restrição que se aplica ao tipo de registro de imposto: Nenhum, pessoa, organização.|
-| Categoria de registro | O identificador exclusivo do registro aprovado para uso no país. Consta abaixo a lista completa de categorias suportadas no Microsoft Dynamics 365 for Finance and Operations. |
+| Categoria de registro | O identificador exclusivo do registro aprovado para uso no país. Veja abaixo a lista completa de categorias com suporte no Microsoft Dynamics 365 for Finance and Operations. |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Insira IDs de registro para registros de catálogo de endereços global
 
@@ -89,19 +88,19 @@ A tabela a seguir lista os tipos de registros suportados no Finance and Operatio
 | ID da unidade                                                     | Bélgica            | Número da matriz (BranchNumber)|
 | Značka de Spisová (número de registro, agência emissora, seção) | República Tcheca     | Inserir número (CommercialRegisterInsetNumber) Mantido em registro comercial (CommercialRegister) Seção de registro comercial (CommercialRegisterSection)|
 | ID de cliente personalizada                                           | Finlândia | Número alfandegário do cliente (CustomsCustomerNumber\_FI)|
-| INN                                                           | Federação Russa| INN (INN do tipo legislativo em AX 2012 R3)|
-| RRC                                                           | Federação Russa| RRC (RRC do tipo legislativo em AX 2012 R3)|
-| OKDP                                                          | Federação Russa| OKDP (OKDP do tipo legislativo em AX 2012 R3)|
-| OKPO                                                          | Federação Russa| OKPO (OKPO do tipo legislativo em AX 2012 R3)|
-| RCOAD                                                         | Federação Russa| RCOAD (RCOAD do tipo legislativo em AX 2012 R3)|
-| OGRN                                                          | Federação Russa| OGRN (OGRN do tipo legislativo em AX 2012 R3) |
-| SNILS                                                         | Federação Russa| SNILS (SNILS do tipo legislativo em AX 2012 R3)|
-| CIFTS                                                         | Federação Russa| CIFTS (CIFTS do tipo legislativo em AX 2012 R3)|
+| INN                                                           | Federação Russa| INN (INN do tipo legislativo no AX 2012 R3)|
+| RRC                                                           | Federação Russa| RRC (RRC do tipo legislativo no AX 2012 R3)|
+| OKDP                                                          | Federação Russa| OKDP (OKDP do tipo legislativo no AX 2012 R3)|
+| OKPO                                                          | Federação Russa| OKPO (OKPO do tipo legislativo no AX 2012 R3)|
+| RCOAD                                                         | Federação Russa| RCOAD (RCOAD do tipo legislativo no AX 2012 R3)|
+| OGRN                                                          | Federação Russa| OGRN (OGRN do tipo legislativo no AX 2012 R3) |
+| SNILS                                                         | Federação Russa| SNILS (SNILS do tipo legislativo no AX 2012 R3)|
+| CIFTS                                                         | Federação Russa| CIFTS (CIFTS do tipo legislativo no AX 2012 R3)|
 | Passaporte                                                      | Espanha             | Passaporte|
 | Documento de identificação oficial                              | Espanha             | Documento de identificação oficial|
 | Certificado de residência                                         | Espanha             | Certificado de residência|
 | Outro documento de identificação                                 | Espanha             | Outro documento de identificação|
-| Sem censo                                                  | Espanha             | Não disponível no AX 2012 R3|
+| Não censurado                                                  | Espanha             | Não disponível no AX 2012 R3|
 
 
 Para obter mais informações sobre processamento de IDs de registro, incluindo os pré-requisitos obrigatórios, consulte os seguintes registros de tarefas para a ID do IVA no Lifecycle Services (LCS):
@@ -109,7 +108,6 @@ Para obter mais informações sobre processamento de IDs de registro, incluindo 
 -   Configurar a ID do IVA
 -   Registro de ID do IVA do fornecedor
 -   Pesquisa de participante usando a ID do IVA
-
 
 
 

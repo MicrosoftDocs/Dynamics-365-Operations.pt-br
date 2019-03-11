@@ -1,13 +1,13 @@
 ---
-title: "Processar remuneração"
-description: "O processamento de remuneração permite calcular novos valores de remuneração básica para seus funcionários com base em ajustes de capital, metas de aumento de mérito e desempenho."
+title: Processar remuneração
+description: O processamento de remuneração permite calcular novos valores de remuneração básica para seus funcionários com base em ajustes de capital, metas de aumento de mérito e desempenho.
 author: kherr75
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: 3ecadaf20ea82cd1328b266907d2ba43515d76c6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 0886f60dbdfc531893cd2c1b23df5b52a4a2f4b6
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303282"
 ---
-
 # <a name="process-compensation"></a>Processar remuneração
 
 [!include [banner](includes/banner.md)]
@@ -80,4 +79,3 @@ Quando os valores de remuneração tiverem sido revisados ​​para um funcion�
 Quando um ou mais eventos de funcionário tiverem seu status atualizado para Aprovado, eles podem ser carregados nos registros de remuneração fixa dos funcionários. Faça isso selecionando cada evento de funcionário por vez e clicando no botão **Carregar remuneração de funcionário** na página **Resultados do funcionário** ou clicando em **Carregar remuneração** na página **Resultados do processo** para carregar todos os eventos de funcionário aprovados de uma só vez.
 
 Clicar em **OK** na caixa de diálogo **Carregar remuneração** adicionará as linhas de ação de compensação não-zero à página **Remuneração fixa do funcionário**.
-

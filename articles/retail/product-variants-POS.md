@@ -1,32 +1,31 @@
 ---
 title: Pesquisa de estoque no ponto de venda (PDV)
-description: "Este tópico descreve as opções disponíveis para exibir informações de estoque no ponto de venda (PDV)."
+description: Este tópico descreve as opções disponíveis para exibir informações de estoque no ponto de venda (PDV).
 author: ashishmsft
 manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314408"
 ---
-
 # <a name="inventory-lookup-in-the-point-of-sale-pos"></a>Pesquisa de estoque no ponto de venda (PDV)
 
 [!include [banner](includes/banner.md)]
@@ -116,4 +115,3 @@ A tabela a seguir fornece mais informações sobre ações adicionais disponíve
 | Disponibilidade         | Mostra as informações de ATP para a combinação de grade selecionada para o local selecionado. |
 | Mostrar todos os locais   | Alterne para as informações de exibição padrão de pesquisa de estoque e de disponibilidade de estoque de destaque para a grade de item em todas as lojas no grupo de localizador de loja e, também em centros de distribuição do tipo **Padrão/padrão**. |
 | Exibir detalhes do produto | Redirecionar o usuário para a página **Detalhes do produto** do produto mestre associado. |
-

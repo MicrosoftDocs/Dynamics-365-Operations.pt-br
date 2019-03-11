@@ -1,13 +1,13 @@
 ---
-title: "Espaço de trabalho móvel de colaboração de fornecedores"
-description: "Este tópico fornece informações sobre a área de trabalho móvel de colaboração de fornecedor. Esta área de trabalho ajuda seus fornecedores a se manter atualizados sobre as ordens de compra que foram enviadas para aprovação. Eles também podem visualizar informações sobre contatos e ordens de compra novos e atualizados."
+title: Espaço de trabalho móvel de colaboração de fornecedores
+description: Este tópico fornece informações sobre a área de trabalho móvel de colaboração de fornecedor. Esta área de trabalho ajuda seus fornecedores a se manter atualizados sobre as ordens de compra que foram enviadas para aprovação. Eles também podem visualizar informações sobre contatos e ordens de compra novos e atualizados.
 author: mkirknel
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,24 +17,23 @@ ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: df27ff3477443611278436a680d70ea81a21763e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 83fcf1d0432d5afa71d6f9d7d22cea5a583777bf
-ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358637"
 ---
-
 # <a name="vendor-collaboration-mobile-workspace"></a>Espaço de trabalho móvel de colaboração de fornecedores
 
 [!include [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre a área de trabalho móvel **Colaboração de fornecedor**. Esta área de trabalho ajuda seus fornecedores a se manter atualizados sobre as ordens de compra que foram enviadas para aprovação. Eles também podem visualizar informações sobre contatos e ordens de compra novos e atualizados.
 
-O espaço de trabalho móvel é destinado a ser usado com o Microsoft Dynamics 365 do aplicativo móvel Operações Unificadas.
+Este espaço de trabalho móvel deve ser usado com o Microsoft Dynamics 365 do aplicativo Unified Operations Mobile.
 
 ## <a name="overview"></a>Visão Geral 
-O espaço de trabalho móvel **Colaboração do fornecedor** mantém os fornecedores informados sobre novas ordens de compra, para que possam visualizá-las e depois respondê-las no cliente Web do Microsoft Dynamics 365 for Finance and Operations. 
+O espaço de trabalho móvel de **Colaboração de fornecedor** mantém os fornecedores informados sobre novas ordens de compra para que eles possam ver e responder a ordens de compra no cliente Web do Microsoft Dynamics 365 for Finance and Operations. 
 
 >[!NOTE]
 > O espaço de trabalho móvel deve ser usado como um suplemento para a interface da Web de colaboração do fornecedor, não como uma substituição. 
@@ -58,13 +57,13 @@ A área de trabalho móvel **Colaboração de fornecedor** permite ao fornecedor
 -   Exiba as informações sobre um pedido de usuário que foi enviado pelo fornecedor e siga o status da solicitação. (Esta tarefa requer uma função de segurança adicional.)
 
 ## <a name="prerequisites"></a>Pré-requisitos
-Os pré-requisitos variam, dependendo da versão do Microsoft Dynamics 365 que foi implantada para sua organização.
+Os pré-requisitos variam conforme a versão do Microsoft Dynamics 365 implantada na organização.
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Pré-requisitos se você usa o Microsoft Dynamics 365 for Finance and Operations 
-Se o Microsoft Dynamics 365 for Finance and Operations foi implantado em sua organização, o administrador do sistema deve publicar o espaço de trabalho móvel **Colaboração do fornecedor**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Se o Microsoft Dynamics 365 for Finance and Operations foi implantado na organização, o administrador do sistema deverá publicar o espaço de trabalho móvel **Colaboração do fornecedor**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Pré-requisitos se você usar o Microsoft Dynamics 365 for Operations versão 1611 com a atualização da plataforma 3 ou posterior
-Se o Microsoft Dynamics 365 for Operations versão 1611 com a atualização da plataforma 3 ou posterior tiver sido implantado em sua organização, o administrador do sistema deve completar os seguintes pré-requisitos. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Pré-requisitos se você usa a versão 1611 do Microsoft Dynamics 365 for Operations com a atualização de plataforma 3 ou posterior
+Se o Microsoft Dynamics 365 for Operations versão 1611 com a atualização de plataforma 3 ou posterior foi implantado na organização, o administrador do sistema deverá atender aos pré-requisitos a seguir. 
 
 <table>
 <thead>
@@ -76,11 +75,11 @@ Se o Microsoft Dynamics 365 for Operations versão 1611 com a atualização da p
 </thead>
 <tbody>
 <tr class="odd">
-<td>O KB 3216943 deve ser implementado se você estiver usando a atualização da Plataforma 3.</td>
+<td>O KB 3216943 deve ser implementado se você estiver usando a atualização da plataforma 3.</td>
 <td>Administrador do sistema</td>
-<td>KB 3216943 é uma atualização binária que é necessária se você estiver usando a atualização da Plataforma 3. Para implementar este KB, o administrador do sistema deve seguir estas etapas.
+<td>KB 3216943 é uma atualização binária que é necessária se você estiver usando a atualização da plataforma 3. Para implementar este KB, o administrador do sistema deve seguir estas etapas.
 <ol>
-<li>Baixar o KB 3216943 do Microsoft Dynamics Lifecycle Services (LCS).</li>
+<li>Baixe o KB 3216943 do Microsoft Dynamics Lifecycle Services (LCS).</li>
 <li>Instale a atualização binária, que é entregue como um pacote implantável. Para obter informações sobre como aplicar um pacote implantável, consulte<a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Aplicar um pacote implantável</a>.</li>
 </ol></td>
 </tr>
@@ -120,7 +119,7 @@ Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
 
 ## <a name="sign-in-to-the-mobile-app"></a>Entrar no aplicativo móvel
 1.  Inicie o aplicativo móvel no seu dispositivo.
-2.  Insira sua URL do Microsoft Dynamics 365.
+2.  Insira a URL do Microsoft Dynamics 365.
 4.  Na primeira vez que você iniciar a sessão, será solicitado a você o nome de usuário e senha. Insira suas credenciais.
 5.  Depois de entrar, serão exibidos os espaços de trabalho disponíveis da sua empresa. Observe que se o seu administrador de sistema publica um novo espaço de de trabalho depois, você terá que atualizar a lista dos espaços de trabalho móveis.
 
@@ -171,4 +170,3 @@ Todas as alterações feitas na resposta da linha de ordem são mostradas. No en
 
 ### <a name="open-confirmed-orders"></a>Abrir ordens confirmadas
 Quando a ordem de compra é confirmada pelo cliente (ou seja, o status da ordem de compra é alterado para **Confirmado**), ela aparece na ordem confirmada aberta. Ela permanecerá na lista até que seja registrado como recebido pelo cliente.
-

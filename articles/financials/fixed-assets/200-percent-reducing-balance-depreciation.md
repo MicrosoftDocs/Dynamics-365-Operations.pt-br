@@ -1,13 +1,13 @@
 ---
-title: "depreciação com declínio de 200%"
-description: "Este artigo oferece uma visão geral do método de saldo de reduzem de 200 de porcentagem de depreciação."
+title: depreciação com declínio de 200%
+description: Este artigo oferece uma visão geral do método de saldo de reduzem de 200 de porcentagem de depreciação.
 author: saraschi2
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ec51f9e12e31e81c56fab9e82d0fc18d45beb5e6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 24f677cd3b416c6301a664629cb73e3cbae9f457
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322711"
 ---
-
 # <a name="200-percent-reducing-balance-depreciation"></a>depreciação com declínio de 200%
 
 [!include [banner](../includes/banner.md)]
@@ -82,13 +81,12 @@ O método por declínio de 200% divide 200% pelos anos de vida útil. Essa porce
 
 | Período | Cálculo do valor de depreciação anual | Valor Contábil             | Valor líquido contábil no final do ano |
 |--------|-----------------------------------------------|------------------------|---------------------------------------|
-| Ano 1 | (11.000 – 1.000) × 40% = 4.000                | 11.000 – 4.000 = 7.000 | 11.000 – 1.000 – 4.000 = 6.000        |
-| Ano 2 | 6.000 × 40% = 2.400                           | 7.000 – 2.400 = 4.600  | 6.000 – 2.400 = 3.600                 |
-| Ano 3 | 3.600 × 40% = 1.440                           | 4.600 – 1.440 = 3.160  | 3.600 – 1.440 = 2.160                 |
+| Ano 1 | (11.000 – 1.000) × 40% = 4.000                | 11.000 – 4.000 = 7.000 | 11.000 – 1.000 – 4.000 = 6.000        |
+| Ano 2 | 6.000 × 40% = 2.400                           | 7.000 – 2.400 = 4.600  | 6.000 – 2.400 = 3.600                 |
+| Ano 3 | 3.600 × 40% = 1.440                           | 4.600 – 1.440 = 3.160  | 3.600 – 1.440 = 2.160                 |
 
 > [!NOTE] 
-> Normalmente, quando o valor que é calculado usando o método de depreciação por declínio de 200% se torna menor do que o valor que será calculado usando o método linear, há uma conversão para o método linear método para a vida restante.
-
+> Normalmente, quando o valor que é calculado usando o método de depreciação por declínio de 200%, ele se torna menor do que o valor que será calculado usando o método linear. Há uma conversão para o método linear método para a vida restante.
 
 
 

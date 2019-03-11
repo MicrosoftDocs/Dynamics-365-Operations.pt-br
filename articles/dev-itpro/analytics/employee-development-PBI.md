@@ -1,13 +1,13 @@
 ---
-title: "Conteúdo do Power BI para desenvolvimento do funcionário"
-description: "Este tópico descreve o Conteúdo do Power BI para desenvolvimento do funcionário."
+title: Conteúdo de desenvolvimento de funcionários do Power BI
+description: Este tópico descreve o conteúdo de desenvolvimento de funcionários do Power BI.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations, Talent
@@ -15,22 +15,21 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6b934b87cb5098641fba8c5b9214a0b2b6cde40d
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347160"
 ---
-
-# <a name="employee-development-power-bi-content"></a>Conteúdo do Power BI para desenvolvimento do funcionário
+# <a name="employee-development-power-bi-content"></a>Conteúdo de desenvolvimento de funcionários do Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o conteúdo Microsoft Power BI para **Desenvolvimento do funcionário**.
+Este tópico descreve o conteúdo de **Desenvolvimento de funcionários** do Microsoft Power BI.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Relatórios incluídos no conteúdo do Power BI
-Os relatórios incluídos no conteúdo de **Desenvolvimento do funcionário** do Power BI têm gráficos e tabelas que contêm informações adicionais. A tabela a seguir descreve os relatórios.
+Os relatórios incluídos no conteúdo de **Desenvolvimento de funcionários** do Power BI têm gráficos e tabelas que contêm informações adicionais. A tabela a seguir descreve os relatórios.
 
 | Relatório                        | Conteúdo |
 |-------------------------------|----------|
@@ -42,7 +41,7 @@ Os relatórios incluídos no conteúdo de **Desenvolvimento do funcionário** do
 | Análise de avaliação de desempenho   | Funcionários por classificação mais alta ou mais baixa por trabalho, classificação do funcionário por departamento, funcionários por tipo de posição e classificação, e mais alta ou mais baixa classificação por cargo |
 | Análise de desempenho do funcionário | Classificações do funcionário sobre classificação selecionada pelo gerente |
 
-Você pode filtrar os gráficos e blocos nesses relatórios e fixá-los no painel. Para obter mais informações sobre como filtrar e fixar no Power BI, consulte [Criar e configurar um painel](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Você pode filtrar os gráficos e blocos nesses relatórios e fixá-los no painel. Para obter mais informações sobre como filtrar e fixar no Power BI, consulte [Criar e Configurar um Painel](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
 
@@ -70,4 +69,3 @@ Você pode filtrar os gráficos e blocos nesses relatórios e fixá-los no paine
 | Análise de habilidades do funcionário  | Certificado, nível, data do nível e habilidade                                                                    | Nome do funcionário, Habilidade |
 | Desempenho              | Classificação, descrição e modelo de classificação                                                                      | Funcionário atual, Posição atual, Evolução do funcionário, Habilidade preferencial no trabalho, Atribuição da última posição, Tendência da posição, Funcionário demitido |
 | Habilidade                    | Habilidade, tipo de habilidade e classificação                                                                              | Análise de habilidades do funcionário, Habilidade preferencial no trabalho |
-

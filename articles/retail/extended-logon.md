@@ -1,13 +1,13 @@
 ---
 title: Configurar a funcionalidade de logon estendido para MPOS e Cloud POS
-description: "Este tópico aborda as opções para configurar o logon estendido para Cloud POS e Retail Modern POS (MPOS)."
+description: Este tópico aborda as opções para configurar o logon estendido para Cloud POS e Retail Modern POS (MPOS).
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
@@ -19,15 +19,14 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: c5771146723b791eb0b3eb5f571ef012cfaadcb9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 4e3f8042871e5e423b559bb0e0dae0006af00194
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317904"
 ---
-
-# <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>Configurar a funcionalidade de logon estendido para MPOS e Cloud POS
+# <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>Configurar a funcionalidade de logon estendido para MPOS e PDV em Nuvem
 
 [!include [banner](includes/banner.md)]
 
@@ -68,4 +67,3 @@ O serviço de logon pode ser estendido para oferecer suporte a dispositivos de l
 ## <a name="using-extended-logon"></a>Usando o logon estendido
 
 Quando o logon estendido for configurado, e um trabalhador receber um código de barras ou uma tarja magnética, o trabalhador precisará apenas passar o dedo ou digitalizar o cartão enquanto a página de logon é exibida. Se for necessário também uma senha para que o logon possa continuar, o trabalhador será solicitado a inserir a senha.
-

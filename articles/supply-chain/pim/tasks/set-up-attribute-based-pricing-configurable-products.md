@@ -1,13 +1,13 @@
---- 
-title: "Configurar definição de preços com base no atributo para os produtos configuráveis"
-description: "Este procedimento mostra como configurar preços baseados em atributos."
+---
+title: Configurar definição de preços com base no atributo para os produtos configuráveis
+description: Este procedimento mostra como configurar preços baseados em atributos.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCPriceModelList, PCPriceModel, PCConstraintEditor
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8568b5f4933ae58bc2d55a169c798668e03bed2a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 88402bef6fd5dad38a74795cd31a4046085d6db7
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333774"
 ---
 # <a name="set-up-attribute-based-pricing-for-configurable-products"></a>Configurar definição de preços com base no atributo para os produtos configuráveis
 
@@ -58,5 +58,4 @@ Este procedimento mostra como configurar preços baseados em atributos. Como pr�
     * Por exemplo, digite 50.  
 9. Feche a página.
 10. Feche a página.
-
 

@@ -1,13 +1,13 @@
---- 
-title: "Criar e enviar um relatório IVA"
-description: "Este procedimento explica como criar e enviar o relatório de IVA para a autoridade alemã."
+---
+title: Criar e enviar um relatório IVA
+description: Este procedimento explica como criar e enviar o relatório de IVA para a autoridade alemã.
 author: mrolecki
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b678e6bc8c5f077e17a5f8df868ea771336e25d7
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340996"
 ---
-
 # <a name="create-and-submit-vat-report"></a>Criar e enviar um relatório de IVA
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
@@ -35,5 +34,4 @@ Este procedimento explica como criar e enviar o relatório de IVA para a autorid
 4. Clique em OK.
 5. Selecione Sim no campo Criar documento eletrônico de impostos.
 6. Clique em OK.
-
 

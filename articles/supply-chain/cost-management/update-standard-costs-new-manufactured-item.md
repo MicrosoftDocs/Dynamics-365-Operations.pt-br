@@ -1,13 +1,13 @@
 ---
-title: "Atualizar custos padrão para um novo item fabricado"
-description: "Este artigo oferece diretrizes para a atualização de custos padrão para um novo item fabricado."
+title: Atualizar custos padrão para um novo item fabricado
+description: Este artigo oferece diretrizes para a atualização de custos padrão para um novo item fabricado.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bc8725bcab61fa20a4c35a83473b00e54cf0bf28
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1cfb04a98f7d01f7766bea97157ca3c44c51e326
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325494"
 ---
-
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>Atualizar custos padrão para um novo item fabricado
 
 [!include [banner](../includes/banner.md)]
@@ -50,7 +49,6 @@ Para adicionar novos itens de fabricação por todo o período de congelamento, 
 5.  Use a página **Configuração de versão de avaliação de custo** para alterar o sinalizador de bloqueio para permitir a ativação dos registros de custos pendentes na segunda versão de avaliação de custo.
 6.  Use a página **Preços ativos** (aberta da página **Manutenção de versão de avaliação de custo**) para habilitar todos os registros de custos pendentes na segunda versão de avaliação de custo. Você também pode habilitar os registros de custo pendente para itens individuais clicando no botão **Ativar** na página **Preço de item**.
 7.  Use a página **Configuração de versão de avaliação de custo** para alterar os sinalizadores de bloqueio incluídos na segunda versão de avaliação de custo para impedir a manutenção adicional de dados. As diretivas de bloqueio impedem a entrada de novos custos pendentes e a ativação de custos pendentes.
-
 
 
 

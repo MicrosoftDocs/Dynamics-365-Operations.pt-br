@@ -1,13 +1,13 @@
---- 
-title: "Inserir e lançar transações de ajuste de imposto (Brasil)"
-description: "Use este procedimento para criar e lançar transações de ajuste de impostos."
+---
+title: Inserir e lançar transações de ajuste de imposto (Brasil)
+description: Use este procedimento para criar e lançar transações de ajuste de impostos.
 author: sndray
 manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2a9b730ec09412b52aaac0d7f7ad9cb995559c56
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d1f1c47bab00818f82de2aab8131bc622e6915cf
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371593"
 ---
 # <a name="enter-and-post-tax-adjustment-transactions-brazil"></a>Inserir e lançar transações de ajuste de imposto (Brasil)
 
@@ -49,5 +49,4 @@ Use este procedimento para criar e lançar transações de ajuste de impostos. E
 19. Clique em Ajuste.
 20. Feche a página.
 21. Feche a página.
-
 

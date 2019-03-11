@@ -1,13 +1,13 @@
---- 
-title: "Revisar informações sobre cobranças"
-description: "Este procedimento mostra como revisar a informações de cobranças, bem como várias opções de instalação e transações de cobranças."
+---
+title: Revisar informações sobre cobranças
+description: Este procedimento mostra como revisar a informações de cobranças, bem como várias opções de instalação e transações de cobranças.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustCollectionsPool, SysQueryForm, CustCollectionsAgent, OMTeamSelectMemberDialog, CustVendReportInterval, CustParameters, CustAgingSnapshot, CustVendAgingBucketLookUp, CustCollectionsPoolsListPage, CustCollectionsContactPart, CustCollections
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 44d89d2bacc8f301a19bfd09d229809d492a55fb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: eb0866505702ec5d047b6c8f3f0657aae787bedc
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349092"
 ---
 # <a name="review-collections-information"></a>Revisar informações sobre cobranças
 
@@ -131,5 +131,4 @@ Este procedimento mostra como revisar a informações de cobranças, bem como v�
     * Marque uma caixa de cobrança que seja atribuída ao cliente ou deixe este campo em branco. Se uma caixa for selecionada, somente as transações e as atividades associadas ao caso serão exibidas neste formulário.  
 8. Clique em Mostrar lista.
     * Selecione um conta do cliente ou aceite a entrada padrão. Por padrão, esta é a conta de cliente selecionada na página de lista ou no formulário no qual você abriu este formulário. Se você tiver aberto o formulário de uma página de lista, os clientes na lista são os clientes que estão incluídos no grupo de cobranças que é usado na página de lista.  
-
 

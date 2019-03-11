@@ -1,13 +1,13 @@
 ---
 title: Recursos humanos
-description: "O módulo de Recursos humanos simplifica muitas tarefas de manutenção de registros e automatiza vários processos relacionados ao recrutamento de sua organização. Também fornece uma estrutura para a equipe de recursos humanos gerenciar áreas de supervisão. Essas áreas incluem recrutamento e retenção de funcionários, administração de benefícios, treinamento, avaliações de desempenho e gerenciamento de alterações."
+description: O módulo de Recursos humanos simplifica muitas tarefas de manutenção de registros e automatiza vários processos relacionados ao recrutamento de sua organização. Também fornece uma estrutura para a equipe de recursos humanos gerenciar áreas de supervisão. Essas áreas incluem recrutamento e retenção de funcionários, administração de benefícios, treinamento, avaliações de desempenho e gerenciamento de alterações.
 author: rschloma
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: faf9b9a70d959719f381ec5171e4fb96af208478
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341755"
 ---
-
 # <a name="human-resources"></a>Recursos humanos
 
 [!include [banner](../includes/banner.md)]
@@ -81,7 +80,7 @@ Além de remunerar sua equipe com salários e bônus, você pode desenvolver pro
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Manter a segurança e a conformidade do local de trabalho
 
-O Microsoft Dynamics AX pode ajudá-lo a manter um ambiente de trabalho seguro em conformidade com a legislação aplicável, incluindo a Lei de Americanos Portadores de Deficiências e as leis de imigração e naturalização, entre outras. Por exemplo, você pode gerenciar os requisitos físicos de trabalhos específicos, bem como acompanhar solicitações para acomodações que podem ajudar sua organização a otimizar as habilidades de sua força de trabalho.
+O Microsoft Dynamics AX pode ajudá-lo a manter um ambiente de trabalho seguro que é compatível com a legislação aplicável, incluindo a Lei de Americanos Portadores de Deficiências e as leis de imigração e naturalização, entre outras. Por exemplo, você pode gerenciar os requisitos físicos de trabalhos específicos, bem como acompanhar solicitações para acomodações que podem ajudar sua organização a otimizar as habilidades de sua força de trabalho.
 
 - [Verificação de emprego do formulário I-9](localizations/noam-usa-form-i-9-verification.md)
 - [Seguir a Lei de Americanos Portadores de Deficiências](localizations/noam-usa-comply-ada.md)
@@ -95,4 +94,3 @@ Você pode criar e administrar questionários para coletar informações que sã
 - [Criar um questionário](../../talent/design-questionnaires.md)
 - [Distribuir e preencher um questionário](../../talent/distribute-questionnaires.md)
 - [Exibir e avaliar os resultados de um questionário](../../talent/evaluate-questionnaire-results.md)
-

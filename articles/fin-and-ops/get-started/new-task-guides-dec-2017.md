@@ -1,33 +1,32 @@
 ---
 title: Guias de tarefas novos ou atualizados (Dezembro de 2017)
-description: "Este tópico lista os Guias de tarefas novos ou atualizados que foram lançados na Biblioteca Unificada APQC (Dezembro de 2016 - todos idiomas) da Microsoft para Microsoft Dynamics 365 for Operations. Nenhuma nova biblioteca Introdução foi lançada."
+description: Este tópico lista os Guias de tarefas novos ou atualizados que foram lançados para a Biblioteca Unificada APQC (dezembro de 2016 - todos idiomas) para o Microsoft Dynamics 365 for Operations. Nenhuma nova biblioteca Introdução foi lançada.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 101eb8fd03303eb590dfef6f598ca507dc8f5548
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319629"
 ---
-
 # <a name="new-or-updated-task-guides-december-2017"></a>Guias de tarefas novos ou atualizados (Dezembro de 2017)
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico lista os Guias de tarefas novos ou atualizados que foram lançados na Biblioteca Unificada APQC (Dezembro de 2016 - todos idiomas) da Microsoft para Microsoft Dynamics 365 for Operations.
+Este tópico lista os Guias de tarefas novos ou atualizados que foram lançados para a Biblioteca Unificada APQC (dezembro de 2016 - todos idiomas) para o Microsoft Dynamics 365 for Operations.
 
 ## <a name="new-task-guides"></a>Novas guias de tarefas
 
@@ -370,4 +369,3 @@ Quando uma linha de BPM for excluída, qualquer guia da tarefa associada à linh
 **Linha da BPM excluída**
 
 - Mover trabalhos kanban agendados
-

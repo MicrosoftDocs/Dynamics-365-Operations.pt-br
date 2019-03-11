@@ -1,13 +1,13 @@
 ---
 title: Mesclar lotes de estoque
-description: "Este artigo fornece informações sobre como consolidar dois ou mais lotes de estoque em um lote mesclado."
+description: Este artigo fornece informações sobre como consolidar dois ou mais lotes de estoque em um lote mesclado.
 author: pjacobse
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 00ec888600dedbc740be0efc64cddf37c5c6f558
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f118ef38e88171ad1eac463078acf37ba4390e57
-ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319813"
 ---
-
 # <a name="merge-inventory-batches"></a>Mesclar lotes de estoque
 
 [!include [banner](../includes/banner.md)]
@@ -62,7 +61,7 @@ Sim, há alguns aspectos que você deve configurar antes que seja possível usar
 <td>Veja as configurações recomendadas para o item:
 <ul>
 <li>Para gerar automaticamente números de lote para os lotes mesclados, é necessário atribuir os produtos liberados a um grupo de números de lote. Também é possível inserir um número de lote manualmente ao criar um lote mesclado, ou selecionar um número de lote existente. Se você selecionar um número de lote existente, verifique se o lote selecionado não foi incluído em nenhuma transação de estoque.</li>
-<li>Se você estiver usando as datas de validade para o produto liberado, as datas de um lote mesclado serão calculadas com base na seleção do campo <strong>Cálculo de data da mesclagem de lotes</strong>. As opções a seguir estão disponíveis:
+<li>Se você estiver usando a validade ou datas de validade para os produtos liberados, as datas de um lote mesclado serão calculadas com base na seleção do campo <strong>Cálculo de data da mesclagem de lotes</strong>. As opções a seguir estão disponíveis:
 <ul>
 <li><strong>Mais anterior</strong> - o cálculo se baseia na primeira data especificada para um lote de origem que é selecionado para a mesclagem de lotes.</li>
 <li><strong>Mais recente</strong> - o cálculo se baseia na data mais recente especificada para um lote de origem que é selecionado para a mesclagem de lotes.</li>
@@ -141,4 +140,3 @@ O lançamento trabalha de duas maneiras, dependendo se você usar um processo de
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Após mesclar um item de peso variável, por que eu não consigo ver as informações de peso variável no diário de estoque?
 Você pode mesclar lotes de itens de peso variável da mesma maneira que todos os outros itens. Entretanto, as informações de peso variável não aparecem no diário de estoque. Recomendamos que você verifique as informações de peso variável antes de transferir a mesclagem de lotes para o diário de estoque.
-

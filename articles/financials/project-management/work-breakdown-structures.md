@@ -1,13 +1,13 @@
 ---
 title: Estruturas de detalhamento de trabalho
-description: "Uma estrutura de detalhamento de trabalho (WBS) é uma descrição do trabalho que será feito para um projeto. É uma hierarquia de tarefas que representa a compreensão da equipe do projeto da composição do trabalho, e do tamanho, custo, e duração de cada componente ou tarefa."
+description: Uma estrutura de detalhamento de trabalho (WBS) é uma descrição do trabalho que será feito para um projeto. É uma hierarquia de tarefas que representa a compreensão da equipe do projeto da composição do trabalho, e do tamanho, custo, e duração de cada componente ou tarefa.
 author: KimANelson
 manager: AnnBe
 ms.date: 06/05/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: df4bc39f8df80580261102941712622ed59262bd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8bc3d23fac6112622e722e57b61fdb686f5a98ed
-ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358890"
 ---
-
 # <a name="work-breakdown-structures"></a>Estruturas de detalhamento de trabalho
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ O nível de detalhe em uma WBS depende do nível de precisão exigido em estimat
 
 Por outro lado, os projetos em setores como mídia e propaganda, software, e infraestrutura de TI tendem a ser de um tipo único, e a produtividade é relativa à experiência e competência do indivíduo que está executando a tarefa. Consequentemente, essas indústrias utilizam uma WBS para obter uma aproximação do tamanho de um projeto, ao invés de acompanhar o progresso do projeto em detalhes. 
 
-Construir uma WBS é um processo intensivo que geralmente é feito durante um longo período de tempo, e que requer colaborações e informações de diversas pessoas. Este tópico descreve como você pode usar aprimoramentos de WBS no Microsoft Dynamics 365 for Finance and Operations para atender os requisitos de estimativas e acompanhamento.
+Construir uma WBS é um processo intensivo que geralmente é feito durante um longo período de tempo, e que requer colaborações e informações de diversas pessoas. Este tópico descreve como você pode usar aprimoramentos de WBS no Microsoft Dynamics 365 for Finance and Operations para atender os requisitos de estimativas e acompanhamento.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Pré-requisitos para criação de uma WBS
 Para criar uma WBS, você deve ser capaz de criar um plano de trabalho e estimar os custos de trabalho.
@@ -103,10 +102,10 @@ No momento, você não pode personalizar o sistema de numeração da WBS.
 
 ### <a name="schedule-estimation"></a>Estimativa de planejamento
 
-Estimativa de planejamento é, geralmente, a segunda etapa da criação de uma WBS. Como prática recomendada, você deve concluir a estimativa do planejamento depois de criar as tarefas. A página **Estrutura de detalhamento de trabalho** no Finance and Operations tem duas seções. O painel superior é destinado à estimativa de planejamento, e o painel inferior inclui uma aba **Custos e receitas estimados** que você pode utilizar na estimativa de custos. 
+Estimativa de planejamento é, geralmente, a segunda etapa da criação de uma WBS. Como prática recomendada, você deve concluir a estimativa do planejamento depois de criar as tarefas. A página **Estrutura de detalhamento de trabalho** no Finance and Operations tem duas seções. O painel superior é destinado à estimativa de planejamento, e o painel inferior inclui uma aba **Custos e receitas estimados** que você pode utilizar na estimativa de custos. 
 **Dependências da tarefa** Em uma WBS, você pode criar uma relação de antecessor entre tarefas. Ao atribuir tarefas de antecessor a uma tarefa, aquela tarefa só poderá ser iniciada depois que todas suas tarefas de antecessor forem completadas. A data planejada de início da tarefa é automaticamente definida como a data mais distante entre todas suas antecessores. 
 
-**Planejamento de tarefa no Microsoft Dynamics 365 for Finance and Operations** Os seguintes fatores determinam o planejamento das tarefas do nó folha:
+**Planejamento de tarefa no Microsoft Dynamics 365 for Finance and Operations** Os seguintes fatores determinam o planejamento das tarefas do nó folha:
 
 -   Predecessores
 -   Esforço
@@ -167,7 +166,7 @@ O custo e o preço de venda de cada linha de estimativa de mão-de-obra ou despe
 ## <a name="tracking-progress-on-the-wbs"></a>Acompanhando progresso na WBS
 Algumas indústrias acompanham o andamento de um projeto em relação a uma WBS a um nível muito granular, enquanto outras acompanham o progresso a um nível superior da WBS. Esta seção descreve como você pode utilizar o acompanhamento da WBS para os seus requisitos de projeto. 
 
-Finance and Operations tem três exibições para a WBS de um projeto: a Exibição de planejamento, a Exibição do rastreamento do esforço, e a Exibição do rastreamento do custo.
+Finance and Operations tem três exibições para a WBS de um projeto: a Exibição de planejamento, a Exibição do rastreamento do esforço, e a Exibição do rastreamento do custo.
 
 ### <a name="planning-view"></a>Exibição de Planejamento
 
@@ -243,13 +242,13 @@ A fase de tempo no gráfico de valor obtido é exibida por semana ou por mês. E
 
 **Valor planejado** A teoria do EVM afirma que o gráfico do valor planejado representa a taxa com a qual a equipe de projeto planejou obter valor no projeto. 
 
-O Finance and Operations usa a regra de ganho 0:100 quando traça o valor planejado. Sob essa regra, o valor da tarefa é lançado na tarefa a partir da sua data final. Nenhum valor é lançado até que a tarefa esteja 100 por cento completa. 
+O Finance and Operations usa a regra de ganho 0:100 quando traça o valor planejado. Sob essa regra, o valor da tarefa é lançado na tarefa a partir da sua data final. Nenhum valor é lançado até que a tarefa esteja 100 por cento completa. 
 
 Em Gerenciamento de projetos e contabilidade, insira a data final dos nós folha e o custo planejado para eles. Quando o gráfico do valor planejado é exibido por semana, o valor planejado é resumido por semana em todas as tarefas do nó folha durante a duração do projeto. 
 
 **Valor obtido** A teoria do EVM afirma que o gráfico do valor obtido representa a taxa em que a equipe de projeto está realmente obtendo valor no projeto. 
 
-O Finance and Operations usa a regra de ganho 0:100 quando traça o valor obtido. Sob essa regra, o valor da tarefa é lançado na tarefa a partir da sua data final. Nenhum valor é lançado até que a tarefa esteja 100 por cento completa. 
+O Finance and Operations usa a regra de ganho 0:100 quando traça o valor obtido. Sob essa regra, o valor da tarefa é lançado na tarefa a partir da sua data final. Nenhum valor é lançado até que a tarefa esteja 100 por cento completa. 
 
 Quando o valor obtido é calculado, a porcentagem do progresso de cada tarefa é considerada. Sob a regra de ganho 0:100, apenas as tarefas que são concluídas em um período especificado são consideradas no cálculo de valor obtido a partir do final daquele período. O valor obtido no projeto é calculado para todas as tarefas que foram concluídas quando o gráfico for criado. 
 
@@ -314,7 +313,6 @@ Esforço = Número de recursos × Duração × Número de horas em um dia útil 
 Você pode corrigir erros de plano ao mesmo tempo clicando **Corrigir erros de plano**. 
 
 Como alternativa, você pode corrigir erros de planejamento individualmente clicando no ícone de aviso de cada tarefa.
-
 
 
 

@@ -1,13 +1,13 @@
---- 
+---
 title: Emitir notas fiscais para clientes (ativos fixos) (Brasil)
-description: "É possível emitir uma nota fiscal a um cliente que adquiriu ativo fixo do estabelecimento fiscal."
+description: É possível emitir uma nota fiscal a um cliente que adquiriu ativo fixo do estabelecimento fiscal.
 author: sndray
 manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: da4b043c725f786af59b3fb266d4102170d4ea36
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 29ced986f60fa463c10882b6c8b3b82934cc53be
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371667"
 ---
 # <a name="issue-customer-fiscal-documents-fixed-assets-brazil"></a>Emitir notas fiscais para clientes (ativos fixos) (Brasil)
 
@@ -58,5 +58,4 @@ ms.lasthandoff: 09/29/2017
 27. Feche a página.
 28. Vá para Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.
 29. Clique em OK.
-
 

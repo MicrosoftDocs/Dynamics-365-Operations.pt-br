@@ -1,13 +1,13 @@
---- 
+---
 title: Configurar um formato da guia de pagamento para faturas de projeto
-description: "Geralmente, as empresas anexam guias de pagamento impressas a faturas para ajudar os clientes e fornecer uma referência de pagamento para lançamento e liquidação."
+description: Geralmente, as empresas anexam guias de pagamento impressas a faturas para ajudar os clientes e fornecer uma referência de pagamento para lançamento e liquidação.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMLegalEntity, CustFormletterParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b365585e884749bb73f8ba9054e446f210e10f37
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 9700571110a1b488e250dd8ee7b8c5c8f15cbc01
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345596"
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a>Configurar um formato da guia de pagamento para faturas de projeto
 
@@ -65,5 +65,4 @@ Esta funcionalidade está disponível para entidades legais cujo endereço princ
     * Nenhum – Não imprime uma guia de pagamento. Escolha esta opção se o valor do pagamento estiver em uma moeda diferente da coroa dinamarquesa (DKK).   FIK 751 – Imprime uma guia de pagamento FIK 751, se você pretende gravar o valor de pagamento e a data de vencimento na guia de pagamento manualmente.   FIK 752 – imprime uma guia de pagamento FIK 752, se você pretende usar uma guia de pagamento gerada pelo computador com um valor de pagamento e uma data de vencimento pré-impressos.  
 16. Clique em Salvar.
 17. Feche a página.
-
 

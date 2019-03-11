@@ -1,13 +1,13 @@
 ---
-title: "PEPS com marcação e valor físico"
-description: "Primeiro a entrar, Primeiro a sair (PEPS) é um modelo de estoque em que os primeiros recebimentos obtidos são emitidos primeiro. As saídas atualizadas financeiramente do estoque são liquidadas contra os primeiros recebimentos atualizados financeiramente no estoque, com base na data financeira da transação de estoque."
+title: PEPS com marcação e valor físico
+description: Primeiro a entrar, Primeiro a sair (PEPS) é um modelo de estoque em que os primeiros recebimentos obtidos são emitidos primeiro. As saídas atualizadas financeiramente do estoque são liquidadas contra os primeiros recebimentos atualizados financeiramente no estoque, com base na data financeira da transação de estoque.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c24ce4dab179f439521c22e196b0b190821bc60f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2d3a6c412e497952c0c7f5b113990bbe693b0f22
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348816"
 ---
-
 # <a name="fifo-with-physical-value-and-marking"></a>PEPS com marcação e valor físico
 
 [!include [banner](../includes/banner.md)]
@@ -62,7 +61,7 @@ O novo preço de custo médio reflete a média de transações atualizadas finan
 - As transações de estoque são representadas por setas verticais.
 - Os recebimentos no estoque são representados por setas verticais sobre a linha do tempo.
 - Saídas fora do estoque são representadas por setas verticais abaixo da linha do tempo.
-- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato Quantity@Unitprice.
+- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato de quantidade x preço unitário.
 - Um valor de transação de estoque entre parênteses indica que a transação de estoque é lançada fisicamente no estoque.
 - Um valor de transação de estoque que não estiver entre parênteses indica que a transação de estoque é lançada financeiramente no estoque.
 - Cada nova transação de recebimento ou saída é designada por uma nova etiqueta.
@@ -92,7 +91,7 @@ A transação 5b será liquidada na transação de recebimento 1b. Haverá um aj
 - As transações de estoque são representadas por setas verticais.
 - Os recebimentos no estoque são representados por setas verticais sobre a linha do tempo.
 - Saídas fora do estoque são representadas por setas verticais abaixo da linha do tempo.
-- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato Quantity@Unitprice.
+- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato de quantidade x preço unitário.
 - Um valor de transação de estoque entre parênteses indica que a transação de estoque é lançada fisicamente no estoque.
 - Um valor de transação de estoque que não estiver entre parênteses indica que a transação de estoque é lançada financeiramente no estoque.
 - Cada nova transação de recebimento ou saída é designada por uma nova etiqueta.
@@ -122,14 +121,13 @@ O novo preço de custo médio reflete a média das transações atualizadas fina
 - As transações de estoque são representadas por setas verticais.
 - Os recebimentos no estoque são representados por setas verticais sobre a linha do tempo.
 - Saídas fora do estoque são representadas por setas verticais abaixo da linha do tempo.
-- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato Quantity@Unitprice.
+- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato de quantidade x preço unitário.
 - Um valor de transação de estoque entre parênteses indica que a transação de estoque é lançada fisicamente no estoque.
 - Um valor de transação de estoque que não estiver entre parênteses indica que a transação de estoque é lançada financeiramente no estoque.
 - Cada nova transação de recebimento ou saída é designada por uma nova etiqueta.
 - Cada seta vertical é rotulada com um identificador sequencial, como *1a*. Os identificadores indicam a ordem de lançamentos de transação de estoque na linha do tempo.
 - Os fechamentos de estoque são representados por uma linha tracejada vertical vermelha e a etiqueta *Fechamento de Estoque*.
 - As liquidações executadas pelo fechamento de estoque são representadas por linhas tracejadas diagonais de um recebimento para uma saída.
-
 
 
 

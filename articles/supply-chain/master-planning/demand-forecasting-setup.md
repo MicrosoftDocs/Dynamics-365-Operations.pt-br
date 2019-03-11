@@ -1,13 +1,13 @@
 ---
-title: "Configuração da previsão de demanda"
-description: "Este tópico descreve as tarefas de configuração que devem ser executadas para preparar a previsão de demanda."
+title: Configuração da previsão de demanda
+description: Este tópico descreve as tarefas de configuração que devem ser executadas para preparar a previsão de demanda.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanDefaultAlgorithmParameters, ReqDemPlanForecastParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 59fb8938720ce1634735dd728eee3874660a4289
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: be962bffd9dfe756b444f6946990058971896a27
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330439"
 ---
-
 # <a name="demand-forecasting-setup"></a>Configuração da previsão de demanda
 
 [!include [banner](../includes/banner.md)]
@@ -43,11 +42,11 @@ Um item e suas dimensões devem ser parte de apenas uma chave de alocação de i
 Para adicionar uma SKU (unidade de manutenção de estoque) a uma chave de alocação de item, vá para **Planejamento mestre** &gt; **Configuração** &gt; **Previsão de demanda** &gt; **Chaves de alocação de itens**. Use a página **Atribuir itens** para atribuir um item a uma chave de alocação.
 
 ## <a name="intercompany-planning-groups"></a>Grupos de planejamento intercompanhia
-A previsão de demanda gera previsões interempresariais. No Microsoft Dynamics 365 for Finance and Operations, as empresas que são planejadas juntas são mantidas em um grupo de planejamento intercompanhia. Para especificar, por empresa, quais chaves de alocação de item devem ser consideradas para previsão de demanda, associe uma chave de alocação de item ao membro do grupo de planejamento intercompanhia, acessando **Planejamento mestre** &gt; **Configuração** &gt; **Grupos de planejamento intercompanhia**. 
+A previsão de demanda gera previsões interempresariais. No Microsoft Dynamics 365 for Finance and Operations, as empresas que são planejadas juntas são colocadas em um grupo de planejamento intercompanhia. Para especificar, por empresa, quais chaves de alocação de item devem ser consideradas para previsão de demanda, associe uma chave de alocação de item ao membro do grupo de planejamento intercompanhia, acessando **Planejamento mestre** &gt; **Configuração** &gt; **Grupos de planejamento intercompanhia**. 
 
 Por padrão, se nenhuma chave de alocação de item for atribuída aos membros do grupo de planejamento intercompanhia, uma previsão de demanda será calculada para todos os itens atribuídos a todas as chaves de alocação de itens de todas as empresas do Finance and Operations. Outras opções de filtragem para empresas e chaves de alocação de itens estão disponíveis na página **Gerar previsão estatística**. 
 
-Analise o número de itens previstos. Itens desnecessários podem ocasionar o aumento dos custos quando você usar o Aprendizado de Máquina do Microsoft Azure.
+Analise o número de itens previstos. Itens desnecessários podem ocasionar o aumento dos custos quando você usa o Aprendizado de Máquina do Microsoft Azure.
 
 ## <a name="demand-forecasting-parameters"></a>Parâmetros de previsão de demanda
 Para configurar os parâmetros de previsão de demanda, vá para **Planejamento mestre** &gt; **Configuração** &gt; **Parâmetros de previsão de demanda**. Como a previsão de demanda é realizada entre empresas, a configuração é global. Em outras palavras, a configuração se aplica a todas as empresas. 
@@ -64,7 +63,7 @@ A qualquer momento, você pode adicionar dimensões de previsão à lista de dim
 
 Nem todos os itens se comportam da mesma forma sob uma perspectiva de previsão de demanda. Os itens semelhantes podem ser agrupados em uma única chave de alocação de item, e os parâmetros, como os tipos de transação e as configurações de método de previsão, podem ser definidos por chave de alocação de item. Clique em **Chaves de alocação de itens** no painel esquerdo da página **Parâmetros de previsão de demanda**. 
 
-Para gerar a previsão, o Finance and Operations usa um serviço Web de Aprendizado de Máquina. Para se conectar ao serviço, você deve fornecer ao Finance and Operations as seguintes informações se entrar no Estúdio de Aprendizado de Máquina do Microsoft Azure:
+Para gerar a previsão, o Finance and Operations usa um serviço Web de Aprendizado de Máquina. Para se conectar ao serviço, você deve fornecer as seguintes informações ao Finance and Operations se entrar no Microsoft Azure Machine Learning Studio:
 
 -   Chave da API (interface de programação de aplicativos) do serviço Web
 -   URL do ponto de extremidade do serviço Web
@@ -86,7 +85,6 @@ Para exibir os parâmetros que podem ser configurados para o serviço de previs�
 [Gerando uma previsão estatística](generate-statistical-baseline-forecast.md)
 
 [Ajustes manuais na previsão estatística](manual-adjustments-baseline-forecast.md)
-
 
 
 

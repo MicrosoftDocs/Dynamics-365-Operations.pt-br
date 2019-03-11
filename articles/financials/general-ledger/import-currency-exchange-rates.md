@@ -1,13 +1,13 @@
 ---
-title: "Importar taxas de câmbio de moeda"
-description: "Se uma entidade legal recebeu faturas em moedas estrangeiras, é necessário converter a moeda estrangeira em moeda local. Isso significa que as taxas de câmbio atualizadas para diferentes moedas são necessárias. Este tópico fornece uma visão geral das definições e de processamento necessários para importar as taxas de referência da moeda estrangeira publicadas na Internet pelos provedores de taxa de câmbio, como o Banco Central Europeu e o Banco Central da Rússia."
+title: Importar taxas de câmbio de moeda
+description: Se uma entidade legal recebeu faturas em moedas estrangeiras, é necessário converter a moeda estrangeira em moeda local. Isso significa que as taxas de câmbio atualizadas para diferentes moedas são necessárias. Este tópico fornece uma visão geral das definições e de processamento necessários para importar as taxas de referência da moeda estrangeira publicadas na Internet pelos provedores de taxa de câmbio, como o Banco Central Europeu e o Banco Central da Rússia.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: edd72b48a640126577dd7a2add3a4891ae505fdf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: df07066371cb7d9c69976c9714b6d2fe456a0308
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333383"
 ---
-
 # <a name="import-currency-exchange-rates"></a>Importar taxas de câmbio de moeda
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ Se uma entidade legal recebeu faturas em moedas estrangeiras, é necessário con
 As seções a seguir descrevem o fluxo de informações usadas para configurar e processar a importação de taxas de câmbio.
 
 ## <a name="configure-an-exchange-rate-provider"></a>Configurar um provedor de taxa de câmbio
-Antes de importar taxas de câmbio, você deve configurar as informações necessárias para configurar os provedores que fornecem as taxas de câmbio. Use a página **Configurar provedores de taxa de câmbio** para selecionar os provedores de taxa de câmbio. Alguns provedores de taxa de câmbio estão incluídos nos dados de demonstração no Microsoft Dynamics 365 for Finance and Operations. A tabela a seguir fornece descrições dos controles desta página.
+Antes de importar taxas de câmbio, você deve configurar as informações necessárias para configurar os provedores que fornecem as taxas de câmbio. Use a página **Configurar provedores de taxa de câmbio** para selecionar os provedores de taxa de câmbio. Alguns provedores de taxa de câmbio são incluídos com dados de demonstração no Microsoft Dynamics 365 for Finance and Operations. A tabela a seguir fornece descrições dos controles desta página.
 
 |           |                                                                                                                                                                                                                             |
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -56,7 +55,6 @@ Você pode importar taxas de câmbio de origem de provedores da taxa de câmbio,
 | **Criar os pares de moedas necessários**    | Esta caixa de seleção gerencia a criação automática dos pares de moeda, se os pares de moeda que são importados não existirem. Esta opção talvez não esteja disponível para alguns provedores.                                                                                                                                                                                               |
 | **Substituir taxas de câmbio existentes**   | Esta caixa de seleção gerencia a atualização da taxa de câmbio existente para um par de moedas quando já existir a taxa de câmbio para uma data específica. Se você não marcar esta caixa de seleção, a taxa de câmbio para as datas específicas não será importada, se já existir outra taxa de câmbio.                                                                                       |
 | **Evitar importação em feriado nacional** | Esta caixa de seleção gerencia a importação da taxa de câmbio para uma data que seja um feriado. Por exemplo, se você marcar esta caixa de seleção e usar o Banco Central Europeu como o provedor da taxa de câmbio, o sistema não atualizará a taxa de câmbio em um feriado que é relacionado à entidade legal atual. Esta opção talvez não esteja disponível para alguns provedores. |
-
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: Gerenciamento e contabilidade de projeto
-description: "A funcionalidade de gerenciamento de projetos e da contabilidade pode ser usada em várias indústrias para proporcionar um serviço, para produzir um produto, ou para obter um resultado."
+description: A funcionalidade de gerenciamento de projetos e da contabilidade pode ser usada em várias indústrias para proporcionar um serviço, para produzir um produto, ou para obter um resultado.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c21587499a68143d403760ad32bea65948d7fbc9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: e927e45511c5e6c232457a76b2d1fab160fe0f5a
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311326"
 ---
-
 # <a name="project-management-and-accounting"></a>Gerenciamento e contabilidade de projeto
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ A funcionalidade de gerenciamento de projetos e de contabilidade pode ser usada 
 
 [![Projetos entre indústrias](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-Em um call center, um bilhete pode ser usado para descrever o conjunto de ações que são necessárias para resolver uma chamada. As empresas de consultoria, como organizações de gerenciamento ou consulta técnica, ou agências de publicidade, referem-se a suas atividades como projetos. Em marketing, uma campanha representa um conjunto de trabalho que deve ser entregue. Na fabricação baseada em projeto, uma ordem de produção relaciona diversos trabalhos que devem ser feitos para gerar alguns bens acabados. Seja qual for o nome usado para eles, esses projetos envolvem recursos, planejamentos e custos, e a funcionalidade de gerenciamento de projeto e contabilidade do Microsoft Dynamics 365 for Finance and Operations pode ajudar no planejamento, execução e análise desses projetos.
+Em um call center, um bilhete pode ser usado para descrever o conjunto de ações que são necessárias para resolver uma chamada. As empresas de consultoria, como organizações de gerenciamento ou consulta técnica, ou agências de publicidade, referem-se a suas atividades como projetos. Em marketing, uma campanha representa um conjunto de trabalho que deve ser entregue. Na fabricação baseada em projeto, uma ordem de produção relaciona diversos trabalhos que devem ser feitos para gerar alguns bens acabados. Seja qual for o nome usado para eles, esses projetos envolvem recursos, agendamentos e custos, e a funcionalidade de gerenciamento de projeto e de contabilidade do Microsoft Dynamics 365 for Finance and Operations pode ajudar no planejamento, execução e análise desses projetos.
 
 ## <a name="project-phases"></a>Fases do projeto
 Embora o seguinte fluxo de processo destine-se a projetos externos ou projetos que são concluídos para um ou mais clientes, a funcionalidade também se aplica a projetos internos, apenas de custo. 
@@ -129,7 +128,7 @@ Veja a seguir algumas das formas que você pode usar a funcionalidade de program
 -   Modifique as atribuições de recursos para diversas unidades de tempo, como dia, semana ou mês, a fim de otimizar como os trabalhadores são usados.
 
 ## <a name="execute-the-project"></a>Executar o projeto
-Durante a execução do projeto, os membros da equipe ou gestores registram o trabalho e as despesas que foram incorridos, usando a folha de ponto, relatórios de despesas, e outros documentos comerciais. Os gerentes de projeto têm as ferramentas que permitem monitorar o consumo dos valores orçados para o projeto. Os gerentes de projeto também podem solicitar, separar, ou obter materiais para projetos usando ordens de compra e outros documentos comerciais. As faturas são preparadas e aprovadas, de forma que os clientes possam ser cobrados pelo trabalho em andamento. Além disso, a receita é reconhecida durante esse processo para afetar as finanças da organização.
+Durante a execução do projeto, os membros da equipe ou gestores registram o trabalho e as despesas que foram incorridos, usando a folha de ponto, relatórios de despesas, e outros documentos comerciais. Os gerentes de projeto têm as ferramentas que permitem monitorar o consumo dos valores orçados para o projeto. Os gerentes de projeto também podem solicitar, separar, ou obter materiais para projetos usando ordens de compra e outros documentos comerciais. As faturas são preparadas e aprovadas, de forma que os clientes possam ser cobrados pelo trabalho em andamento. Além disso, a receita é reconhecida durante esse processo para afetar as finanças da organização.
 
 ### <a name="manage-work-breakdown-structures"></a>Gerenciar estruturas de detalhamento de trabalho
 
@@ -301,7 +300,7 @@ Com base na sua configuração, é possível prever as entradas de pagamento à 
 -   **Data do projeto:** 5 de março de 2012.
 -   **Data da fatura:** 31 de março de 2012. Esta data é determinada com base na frequência da fatura. Neste exemplo, você pode definir a frequência da fatura para o mês atual. Isso significa que todas as transações lançadas no mês de março são faturadas no último dia do mês.
 -   **Data de vencimento:** 14 de abril de 2012. Esta data é determinada com base nos termos do pagamento definidos para o projeto. Para este exemplo, você selecionou uma condições de pagamento de 14 dias. Sendo assim, 14 dias são adicionados à data da fatura para chegar em uma data de vencimento de 14 de abril de 2012.
--   **Data de pagamento de vendas estimado:** 27 de abril de 2012. Essa data é calculada adicionando o número de dias no campo **Dias do buffer geral** na página **Gerenciamento de projeto** e parâmetros de contabilidade ao número de dias no campo **Dias do buffer individual** na página **Contratos de projeto** e, em seguida, adicionando o total ao número de dias no campo **Data de vencimento**. Neste exemplo, você inseriu **3** no campo **Dias do buffer geral** e **10** no campo **Dias do buffer individual**. Sendo assim, 13 dias são adicionados à data de vencimento para chegar a uma data de pagamento de vendas esperada de 27 de abril de 2012.
+-   **Data de pagamento de vendas estimado:** 27 de abril de 2012. Essa data é calculada adicionando o número de dias no campo **Dias de buffer gerais** na página **Gerenciamento de projeto e parâmetros de contabilidade**  ao número de dias no campo **Dias do buffer individual** na página **Contratos de projeto** e, em seguida, adicionando o total ao número de dias no campo **Data de vencimento**. Neste exemplo, você inseriu **3** no campo **Dias do buffer geral** e **10** no campo **Dias do buffer individual**. Sendo assim, 13 dias são adicionados à data de vencimento para chegar a uma data de pagamento de vendas esperada de 27 de abril de 2012.
 
 Os dias de buffer geral dos podem substituir os dias de buffer ou serem adicionados aos dias de buffer individual:
 
@@ -372,7 +371,7 @@ Se **Orçamento restante** for selecionado como o método de controle de custos 
 -   **Orçamento restante** – O valor orçado original que ainda está disponível para a linha de custo selecionada. O valor do orçamento restante é calculado na página **Exibição de contabilidade**.
 -   **Custo total** – A soma dos valores de custo real, custo comprometido, e orçamento restante.
 
-Na página **Controle de custos**, na guia **Desvio**, você pode exibir uma comparação do custo total esperado com o orçamento original. Essa comparação mostra todas as diferenças entre esses valores. Consequentemente, você pode ver onde os dados não coincidem. Os valores dos desvios são calculados destas maneiras:
+Na página **Controle de custos**, na guia **Desvio**, você pode exibir uma comparação do custo total esperado com o orçamento original. Essa comparação mostra todas as diferenças entre esses valores. Consequentemente, você pode ver onde os dados não coincidem. Os valores dos desvios são calculados destas maneiras:
 
 -   **Orçamento original** – O valor orçados originalmente para a linha de custo selecionada. O valor do orçamento original é calculado na página **Exibição de contabilidade**.
 -   **Custo total** – A soma do custo real, do custo comprometido e do orçamento restante, conforme relatada na guia **Geral**.
@@ -419,7 +418,7 @@ Na página **Utilização de horas**, junto com a porcentagem da taxa de utiliza
 
 -   **Horas não inclusas** – Essas horas não estão inclusas na taxa de utilização de horas.
 -   **Horas inclusas** – Essas horas são calculadas adicionando as horas de utilização e horas de carga. Essas horas são incluídas na taxa de utilização.
--   **Horas de carga** – Se você estiver calculando uma taxa faturável, essas horas são as mesmas que as horas não passíveis de cobrança. Se você estiver calculando uma taxa de eficiência, essas horas são as mesmas que as horas não produtivas.
+-   **Horas de carga** – Se você estiver calculando uma taxa faturável, essas horas são as mesmas que as horas não passíveis de cobrança. Se você estiver calculando uma taxa de eficiência, essas horas são as mesmas que as horas não produtivas.
 -   **Horas de utilização** – Se você estiver calculando uma taxa faturável, essas horas são as mesmas que as horas passíveis de cobrança. Se você estiver calculando uma taxa de eficiência, essas horas são as mesmas que as horas produtivas.
 
 A o calcular a taxa de utilização para um funcionário, você pode usar horas normais ou horas incluídas. Se você usar horas incluídas, será necessário garantir que os funcionários registrem todo o horário de trabalho para os períodos de folha de ponto, pois o cálculo é expresso como uma porcentagem das horas inseridas. A o calcular a taxa de utilização de horas para um projeto, um contrato de projeto, um registro de cliente, ou uma categoria, você deve usar horas incluídas para o cálculo.
@@ -441,4 +440,3 @@ Depois que o demonstrativo for calculado, você pode exibir as seguintes informa
 -   **Consumo** – Informações sobre o consumo de horas, itens, despesas, e de transações de folha de pagamento.
 -   **Fatura** – Informações sobre faturas e faturamento por conta.
 -   **Taxa horária** – Taxas horárias das horas lançadas nas contas de receita e custo.
-

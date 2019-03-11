@@ -1,13 +1,13 @@
 ---
-title: "Depreciação manual"
-description: "Este artigo fornece uma visão geral do método de depreciação manual."
+title: Depreciação manual
+description: Este artigo fornece uma visão geral do método de depreciação manual.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 14e385e60e10146a0855a467af57a0a31fcc53bd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5081b3ff940167f305a6e17f97e246e5f8000185
-ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330991"
 ---
-
 # <a name="manual-depreciation"></a>Depreciação manual
 
 [!include [banner](../includes/banner.md)]
@@ -74,7 +73,6 @@ Se você selecionar <strong>Semestral</strong> no campo *<strong><em>Frequência
 | 31 de dezembro | (11.000 – 1.000) × 50% = 5.000 |
 
 O total de porcentagens para todos os intervalos não precisa ser 100. Entretanto, você receberá uma mensagem se o valor no campo **Porcentagem cumulativa** na página **Planos de perfil de depreciação de ativo fixo** não for **100**.
-
 
 
 

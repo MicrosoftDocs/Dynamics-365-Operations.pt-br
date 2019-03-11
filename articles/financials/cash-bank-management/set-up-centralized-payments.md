@@ -1,13 +1,13 @@
 ---
 title: Configurar pagamentos centralizados
-description: "Siga essas etapas para se preparar para processar pagamentos em uma entidade legal em nome de outras entidades legais na sua organização."
+description: Siga essas etapas para se preparar para processar pagamentos em uma entidade legal em nome de outras entidades legais na sua organização.
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bb0769d605b831da09046a1e7bf0c2a704dba398
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2e309655bbc1d0fe7a088062b90fab34c642ab29
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361903"
 ---
-
 # <a name="set-up-centralized-payments"></a>Configurar pagamentos centralizados
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ Quando você cria um pagamento em uma entidade legal que liquida faturas em outr
 
 ## <a name="set-up-default-descriptions"></a>Configurar descrições padrão
 É possível definir as descrições padrão para comprovantes de liquidação intercompanhia. A descrição padrão é incluída nas transações a vencer e vencidas durante o processo de liquidação entre empresas. Na página **Descrições padrão**, você pode criar novas descrições para **Liquidação do cliente intercompanhia** and **Liquidação do fornecedor intercompanhia** ao selecionar um idioma ao inserir texto.
-
 
 
 

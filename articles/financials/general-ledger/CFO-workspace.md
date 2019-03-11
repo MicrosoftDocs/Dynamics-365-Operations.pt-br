@@ -1,14 +1,14 @@
 ---
-title: "Adicionar dimensões financeiras ao espaço de trabalho do CFO"
-description: "Este tópico explica como adicionar dimensões financeiras ao espaço de trabalho do CFO, para que possam ser usadas para relatórios do razão e de orçamento."
+title: Adicionar dimensões financeiras ao espaço de trabalho do CFO
+description: Este tópico explica como adicionar dimensões financeiras ao espaço de trabalho do CFO, para que possam ser usadas para relatórios do razão e de orçamento.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -18,24 +18,23 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a15414eff99751d4e77e5b3bf315a556efb7ad5d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5faefe5da8c3a64987a38ebef92eb87049ebe874
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332670"
 ---
-
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Adicionar dimensões financeiras ao espaço de trabalho do CFO
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como adicionar dimensões financeiras ao espaço de trabalho do CFO, para que possam ser usadas para relatórios do razão e de orçamento. O espaço de trabalho CFO tem uma guia **Visão geral** e uma guia **Financeiro**. Os relatórios dessas duas guias são apoiadas por duas medidas: LedgerActivityMeasure e BudgetActivityMeasure. No Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (julho 2017), há uma relação entre essas duas medidas e a entidade DimensionCombinationEntity. Portanto, você pode selecionar dimensões.
+Este tópico explica como adicionar dimensões financeiras ao espaço de trabalho do CFO, para que possam ser usadas para relatórios do razão e de orçamento. O espaço de trabalho CFO tem uma guia **Visão geral** e uma guia **Financeiro**. Os relatórios dessas duas guias são apoiadas por duas medidas: LedgerActivityMeasure e BudgetActivityMeasure. No Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (julho de 2017), há uma relação entre essas duas medidas e a entidade DimensionCombinationEntity. Portanto, você pode selecionar dimensões.
 
 1. No Finance and Operations, na página **Repositório de Entidades**, atualize as medidas **LedgerActivityMeasure** e **BudgetActivityMeasure**.
 2. No Microsoft Visual Studio, abra o Explorador de Aplicativos e pesquise por **LedgerCFO**.
 3. Em **Recursos**, abra **LedgerCFOWorkspacePBIX**.
-4. Quando o recurso for aberto na área de trabalho do Microsoft Power BI, selecione **Obter Dados**, **Banco de dados do SQL Server** e, em seguida, **Conectar**.
+4. Quando o recurso for aberto na área de trabalho do Microsoft Power BI, selecione **Obter dados**, **Banco de dados do SQL Server** e, em seguida, **Conectar**.
 5. Insira o nome do servidor e insira **AxDW** como o banco de dados. Selecione **DirectQuery** e, em seguida, selecione **OK**.
 6. Procure e selecione **LedgerActivityMeasure\_DimensionCombination** e, em seguida, selecione **Carregar**.
 
@@ -57,4 +56,3 @@ Este tópico explica como adicionar dimensões financeiras ao espaço de trabalh
 16. Crie o projeto e abra o aplicativo para exibir os resultados.
 
     [![Espaço de trabalho concluído](./media/workspace.png)](./media/workspace.png)
-

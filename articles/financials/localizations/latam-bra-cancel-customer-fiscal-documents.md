@@ -1,28 +1,27 @@
 ---
 title: Cancelar uma nota fiscal do cliente (Brasil)
-description: "Este tópico fornece informações sobre como cancelar uma nota fiscal do cliente para o Brasil."
+description: Este tópico fornece informações sobre como cancelar uma nota fiscal do cliente para o Brasil.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: shylaw
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 1be08d285044ee8d530cffae6aaa603d63c46810
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "371658"
 ---
-
 # <a name="cancel-a-customer-fiscal-document-brazil"></a>Cancelar uma nota fiscal do cliente (Brasil)
 
 [!include [banner](../includes/banner.md)]
@@ -61,4 +60,3 @@ Você pode cancelar uma nota fiscal de cliente incorreta usando a página **Canc
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Cancelar uma nota fiscal de fornecedor](latam-bra-cancel-vendor-fiscal-documents.md)
-

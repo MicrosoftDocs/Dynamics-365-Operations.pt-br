@@ -1,13 +1,13 @@
 ---
 title: Configurar propriedades do fluxo de trabalho
-description: "Este tópico explica como configurar as várias propriedades de um fluxo de trabalho."
+description: Este tópico explica como configurar as várias propriedades de um fluxo de trabalho.
 author: sericks007
 manager: AnnBe
 ms.date: 07/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 576ce368b2a8672aa39116eb0cc6e3d3f2a06bb3
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328461"
 ---
-
 # <a name="configure-workflow-properties"></a>Configurar propriedades do fluxo de trabalho
 
 [!include [banner](../includes/banner.md)]
@@ -184,4 +183,3 @@ Para inserir comentários sobre as alterações feitas no fluxo de trabalho, sig
 2. No campo **Inserir comentários sobre o fluxo de trabalho**, insira seus comentários.
 3. Revise seus comentários. Depois que você adicionar comentários, não poderá modificá-los.
 4. Clique em **Adicionar** para adicionar comentários à área **Histórico de comentários**.
-

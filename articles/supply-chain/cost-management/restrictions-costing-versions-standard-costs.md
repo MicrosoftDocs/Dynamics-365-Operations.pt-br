@@ -1,33 +1,31 @@
 ---
-title: "Restrições em versões de avaliação de custo para custos padrão"
-description: "Este tópico descreve as restrições que se aplicam a uma versão de avaliação de custo para custos padrão."
+title: Restrições em versões de avaliação de custo para custos padrão
+description: Este tópico descreve as restrições que se aplicam a uma versão de avaliação de custo para custos padrão.
 author: AndersGirke
 manager: AnnBe
 ms.date: 01/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0383f78ea5cfa42183e0bfe8a96d7d3866766e7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e14d5d11e987d2dbc841f86c39fc7e94864144d3
-ms.openlocfilehash: 658575492597eed91509561f4710f07e271c53c8
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/17/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309785"
 ---
-
-
 #  <a name="restrictions-on-costing-versions-for-standard-costs"></a>Restrições em versões de avaliação de custo para custos padrão
 
 [!include [banner](../includes/banner.md)]
@@ -52,5 +50,4 @@ Os dados de custo de item para custos padrão podem ser copiados em outra versã
 [Atualizar custos padrão em um ambiente que não seja de manufatura](update-standard-costs-non-manufacturing-environment.md)
 
 [Preparar para manter custos padrão para itens fabricados](update-standard-costs-manufacturing-environment.md)
-
 

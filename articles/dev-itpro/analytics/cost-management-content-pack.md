@@ -1,13 +1,13 @@
 ---
-title: "Conteúdo do BI Gerenciamento de custo"
-description: "Este tópico descreve o que está incluído no conteúdo do Power BI Gerenciamento de custo."
+title: Conteúdo de gerenciamento de custos do Power BI
+description: Este tópico descreve o que está incluído no conteúdo de gerenciamento de custos do Power BI.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -19,55 +19,54 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f67b1c901267bdf79c94e4f4c698c8731c515bb4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: caf1c13d48d1f8af5c88927ccb23118e99cb38e0
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327794"
 ---
-
-# <a name="cost-management-power-bi-content"></a>Conteúdo do BI Gerenciamento de custo
+# <a name="cost-management-power-bi-content"></a>Conteúdo de gerenciamento de custos do Power BI
 
 [!include [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>Visão Geral
 
-O conteúdo de **Gerenciamento de custo** Microsoft do Power BI é adequado para contadores ou pessoas na organização que sejam responsáveis ou tenham interesse no status do estoque ou do WIP (trabalho em andamento) ou que sejam responsáveis ou tenham interesse na análise das variações de custo padrão.
+O conteúdo de **Gerenciamento de custos** do Microsoft Power BI destina-se a contadores de estoque ou às pessoas da organização responsáveis ou interessadas pelo status do estoque ou do WIP (trabalho em andamento) ou ainda a pessoas que sejam responsáveis ou tenham interesse na análise de variações de custo padrão.
 
 > [!NOTE]
-> O conteúdo de **Gerenciamento custo** do Power BI descrito neste tópico se aplica ao Dynamics 365 Finance and Operations 8.0.
+> O conteúdo de **Gerenciamento de custos** do Power BI descrito neste tópico aplica-se ao Dynamics 365 for Finance and Operations 8.0.
 > 
-> O pacote de conteúdo do Power BI de**Gerenciamento de custo**, disponível no site do AppSource, foi substituído. Para obter mais informações sobre essa substituição, consulte [Pacotes de conteúdo do Power BI disponíveis no AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> O pacote de conteúdo de **Gerenciamento de custos** do Power BI disponível no site do AppSource foi substituído. Para obter mais informações sobre essa substituição, consulte [os pacotes de conteúdo do Power BI disponíveis no AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
-Este conteúdo do Power BI fornece um formato categorizado que ajuda você a monitorar o desempenho dos estoques e visualizar como os custos fluem por eles. Você pode ganhar insights gerenciais, como o índice de giro, o número de dias que o estoque está disponível, a precisão, e a "classificação ABC" ao nível agregado preferido (empresa, item, grupo de itens, ou o site). As informações disponibilizadas também podem ser usadas como um suplemento detalhado para o demonstrativo financeiro.
+Este conteúdo do Power BI fornece um formato categorizado que ajuda a monitorar o desempenho dos estoques e visualizar o fluxo de custos. Você pode ganhar insights gerenciais, como o índice de giro, o número de dias que o estoque está disponível, a precisão, e a "classificação ABC" ao nível agregado preferido (empresa, item, grupo de itens, ou o site). As informações disponibilizadas também podem ser usadas como um suplemento detalhado para o demonstrativo financeiro.
 
-O conteúdo do Power BI é criado na medida agregada **CostObjectStatementCacheMonthly** , que tem a tabela **CostObjectStatementCache** como a fonte de dados principal. Essa tabela é gerenciada pela estrutura de cache de conjunto de dados. Por padrão, ela é atualizada a cada 24 horas, mas você pode alterar a frequência ou habilitar atualizações manuais na configuração do cache de conjunto de dados. Atualizações manuais podem ser feitas no espaço trabalho **Administração de custo** ou no espaço de trabalho **Análise de custo** .
+O conteúdo do Power BI é criado com base na medida agregada **CostObjectStatementCacheMonthly**, que tem a tabela **CostObjectStatementCache** como principal fonte de dados. Essa tabela é gerenciada pela estrutura de cache de conjunto de dados. Por padrão, ela é atualizada a cada 24 horas, mas você pode alterar a frequência ou habilitar atualizações manuais na configuração do cache de conjunto de dados. Atualizações manuais podem ser feitas no espaço trabalho **Administração de custo** ou no espaço de trabalho **Análise de custo** .
 
-Após cada atualização da tabela **CostObjectStatementCache**, a medida agregada **CostObjectStatementCacheMonthly** deve ser atualizada antes que os dados nas visualizações do Power BI sejam atualizados.
+Após cada atualização da tabela **CostObjectStatementCache**, a medida agregada **CostObjectStatementCacheMonthly** deve ser atualizada antes da atualização dos dados nas visualizações do Power BI.
 
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
 
-O conteúdo de **Gerenciamento de custo** do Power BI é mostrado nos espaços trabalho **Administração de custo** e **Análise de custo** .
+O conteúdo de **Gerenciamento de custos** do Power BI é mostrado nos espaços trabalho **Administração de custos** e **Análise de custos**.
 
 O espaço de trabalho **Administração de custo** contém as seguintes guias:
 
 - **Visão geral** – esta guia mostra os dados do aplicativo.
-- **Status da contabilização de estoque** – esta guia mostra o conteúdo do Power BI.
-- **Status da contabilização de fabricação** – esta guia mostra o conteúdo do Power BI.
+- **Status da contabilidade de estoque** – esta guia mostra o conteúdo do Power BI.
+- **Status da contabilidade de fabricação** – esta guia mostra o conteúdo do Power BI.
 
 O espaço de trabalho **Análise de custo** contém as seguintes guias:
 
 - **Visão geral** – esta guia mostra os dados do aplicativo.
-- **Análise da contabilização de estoque** – esta guia mostra o conteúdo do Power BI.
-- **Análise da contabilização de fabricação** – esta guia mostra o conteúdo do Power BI.
-- **Análise da variação de custo padrão** – esta guia mostra o conteúdo do Power BI.
+- **Análise da contabilidade de estoque** – esta guia mostra o conteúdo do Power BI.
+- **Análise da contabilidade de fabricação** – esta guia mostra o conteúdo do Power BI.
+- **Análise da variação de custos padrão** – esta guia mostra o conteúdo do Power BI.
 
-## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>As páginas de relatórios que estão incluídas no conteúdo do Power BI
+## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>Páginas de relatório incluídas no conteúdo do Power BI
 
-O conteúdo de **Gerenciamento de custo** do Power BI inclui um conjunto de páginas de relatórios que consiste em um conjunto de métricas. Estas métricas são visualizadas como gráficos, blocos e tabelas. 
+O conteúdo de **Gerenciamento de custos** do Power BI inclui um conjunto de páginas de relatório formadas por um conjunto de métricas. Estas métricas são visualizadas como gráficos, blocos e tabelas. 
 
-As tabelas a seguir fornecem uma visão geral das visualizações no conteúdo de **Gerenciamento de custo** do Power BI.
+As tabelas a seguir mostram uma visão geral das visualizações no conteúdo de **Gerenciamento de custos** do Power BI.
 
 ### <a name="inventory-accounting-status"></a>Status da contabilidade de estoque
 
@@ -173,7 +172,7 @@ As tabelas a seguir fornecem uma visão geral das visualizações no conteúdo d
 
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
 
-Os dados do Microsoft Dynamics 365 for Finance and Operations são usados para preencher as páginas de relatório no conteúdo de **Gerenciamento de custo** do Power BI. Esses dados são representados como medidas agregadas que são preparadas no repositório de entidades, que é um banco de dados do Microsoft SQL Server otimizado para análise. Para obter mais informações, consulte [Integração do Power BI com o repositório de entidades](power-bi-integration-entity-store.md).
+Os dados do Microsoft Dynamics 365 for Finance and Operations são usados para preencher as páginas de relatório no conteúdo de **Gerenciamento de custos** do Power BI. Esses dados são representados como medidas agregadas que são preparadas no repositório de entidades, que é um banco de dados do Microsoft SQL Server otimizado para análise. Para obter mais informações, consulte [Integração do Power BI com o repositório de entidades](power-bi-integration-entity-store.md).
 
 As principais medidas agregadas dos objetos a seguir são usadas como base do conteúdo do Power BI.
 
@@ -209,4 +208,3 @@ As principais dimensões a seguir são usadas como filtros para dividir as medid
 | Entidades legais                                          | Nomes de entidade legal                              |
 | Calendários fiscais                                        | Calendário fiscal, Ano, Trimestre, Período, Mês   |
 | Site                                                    | ID, Nome, Endereço, Estado, País               |
-

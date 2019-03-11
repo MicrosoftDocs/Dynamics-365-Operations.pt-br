@@ -1,13 +1,13 @@
 ---
-title: "Unidade de medida e políticas de estoque"
-description: "Este artigo descreve como as unidades padrão, as sequências de unidade e as conversões de unidade são usadas em processos de depósito."
+title: Unidade de medida e políticas de estoque
+description: Este artigo descreve como as unidades padrão, as sequências de unidade e as conversões de unidade são usadas em processos de depósito.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetails, EcoResProductDetailsExtended, EcoResStorageDimensionGroup, InventItemOrderSetup, UnitOfMeasureConversion, WHSRFMenuItem, WHSUOMSeqGroupTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c484f814d9f1e726fd326e1cd0ea8fe694f797b9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e0a22e07f5a0e5bc30c8ad9dc87c5a506d62847d
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318088"
 ---
-
 # <a name="unit-of-measure-and-stocking-policies"></a>Unidade de medida e políticas de estoque
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ Para definir as unidades padrão que devem ser usadas para processos de recebime
 
 ## <a name="default-order-settings"></a>Configurações Padrão da Ordem
 Como parte da criação de produtos liberados, você deve selecionar unidades padrão para compras, vendas e estoque para processar as diversas ordens. Você pode definir as unidades e as quantidades padrão para vários documentos de origem usando as páginas **Configurações padrão da ordem** e **Configurações de ordem específicas do local**. Você pode acessar as páginas da página **Produtos liberados**.
-
 
 
 

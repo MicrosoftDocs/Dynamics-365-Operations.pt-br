@@ -1,13 +1,13 @@
 ---
-title: "Agendar utilização da carga"
-description: "Este tópico explica como configurar e agendar o carregamento para um depósito."
+title: Agendar utilização da carga
+description: Este tópico explica como configurar e agendar o carregamento para um depósito.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WMSSpaceUtilSetup
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 15f3735f79671ac41789d39a5473722a5f35fde0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: d52ad452c615a61739582431fcd100a7efa3d93a
-ms.openlocfilehash: 350666cee8f2643c53e9eed8ee73299bbea1e757
-ms.contentlocale: pt-br
-ms.lasthandoff: 04/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332026"
 ---
-
 # <a name="schedule-load-utilization"></a>Agendar utilização da carga
 
 [!include[banner](../includes/banner.md)]
@@ -73,4 +72,3 @@ Você pode projetar a utilização do espaço gerando o relatório **Utilizaçã
 
 4. No campo **Carregar tipo**, selecione **Volume** ou **Peso** para especificar o depósito operando a unidade para a qual você projeta espaço.
 5. No campo **Configuração de utilização de espaço**, selecione a configuração de utilização de espaço na qual a projeção deve ser baseada.
-

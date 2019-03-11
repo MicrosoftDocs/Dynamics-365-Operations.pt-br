@@ -1,13 +1,13 @@
---- 
+---
 title: Criar um plano intercompanhia
 description: Este procedimento mostra como criar um plano intercompanhia.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqIntercompanyPlanningGroupSetup,  ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: d378a89bbb4de6d67db0019dc72a27945d50c4e9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: da186f7ad74bb607fd6e7220d77c2f414789f29c
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333728"
 ---
 # <a name="create-an-intercompany-plan"></a>Criar um plano intercompanhia
 
@@ -60,5 +60,4 @@ Este procedimento mostra como criar um plano intercompanhia. A empresa de dados 
 2. Na lista, clique no link na linha selecionada.
     * Clique no link para StaticPlan. Você precisa estar na empresa USMF.  
 3. Clique em Ordens planejadas.
-
 

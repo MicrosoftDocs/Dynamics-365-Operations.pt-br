@@ -1,13 +1,13 @@
 ---
-title: "Configurar decisões manuais em um fluxo de trabalho"
-description: "Este tópico explica como configurar as propriedades de uma decisão manual."
+title: Configurar decisões manuais em um fluxo de trabalho
+description: Este tópico explica como configurar as propriedades de uma decisão manual.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: d09e99a5bf99593a8fa7682f9d4f29eaa4e7c836
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341387"
 ---
-
 # <a name="configure-manual-decisions-in-a-workflow"></a>Configurar decisões manuais em um fluxo de trabalho
 
 [!include [banner](../includes/banner.md)]
@@ -164,7 +163,7 @@ Você pode enviar notificações às pessoas quando uma decisão é tomada, dele
     </tr>
     <tr>
     <td>Usuário</td>
-    <td>Especificar usuários do Microsoft Dynamics 365 for Finance and Operations</td>
+    <td>Usuários específicos do Microsoft Dynamics 365 for Finance and Operations</td>
     <td>
     <ol>
     <li>Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</li>
@@ -372,4 +371,3 @@ Siga estas etapas caso a decisão deva ser tomada em um horário específico.
     - **Anos** – Selecione o dia, a semana e o mês até quando a decisão deve ser tomada. Por exemplo, você talvez queira que a decisão seja tomada até a sexta-feira da terceira semana de dezembro.
 
 4. Se o limite de tempo for excedido, o sistema tomará a decisão. Na lista **Ação**, selecione a opção que o sistema deve selecionar.
-

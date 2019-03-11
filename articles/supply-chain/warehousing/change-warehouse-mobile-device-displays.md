@@ -1,13 +1,13 @@
 ---
-title: "Configurações de exibição de dispositivo móvel de depósito"
-description: "Este artigo descreve como configurar a aparência de uma exibição do dispositivo móvel e como controlar teclas de atalho do teclado, como botões."
+title: Configurações de exibição de dispositivo móvel de depósito
+description: Este artigo descreve como configurar a aparência de uma exibição do dispositivo móvel e como controlar teclas de atalho do teclado, como botões.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFColor, WHSRFColorPicker, WHSWorkUserDisplaySettings
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 16f332da00d2230ecb4cebc526b6456314564e55
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a1413337888c8e2da95e33ebee6528f228ad3972
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328024"
 ---
-
 # <a name="warehouse-mobile-device-display-settings"></a>Configurações de exibição de dispositivo móvel de depósito
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ Como parte da configuração do dispositivo móvel, você pode definir layouts d
 -    No campo **Arquivo CSS**, insira o nome do arquivo CSS. Inclua a extensão de nome de arquivo .css.
 -   No campo **Exibição das configurações de exibição do dispositivo móvel**, especifique o arquivo ASPX. **Não** inclua a extensão de nome de arquivo .aspx.
 
-Os arquivos CSS e ASPX devem estar localizados em um diretório específico; assim, o aplicativo IIS (Serviços de Informações da Internet) pode carregá-los. Talvez seja útil definir arquivos CSS diferentes se você estiver executando a funcionalidade do dispositivo móvel em diferentes navegadores ou em tipos diferentes de hardware que exijam um outro controle de layout. As configurações simples como a cor do plano de fundo, a fonte e o tamanho da fonte do texto, e a largura e o comportamento de botões, podem ser facilmente controlados com o uso diferente de arquivos CSS. O arquivo ASPX é usado para exibir o site móvel do aplicativo ASP.NET do servidor. O arquivo controla como a estrutura geral do HTML é apresentada. Convém personalizar esta funcionalidade só se tiver problemas estruturais sérios com HTML e o JavaScript, e é necessário alterar este código para seus dispositivos específicos. Para mapear os controles HTML na página do dispositivo móvel para os atalhos de teclado, na página **Configurações de exibição do dispositivo móvel**, no campo **Atalho de teclado**, atribua os códigos numéricos para as teclas. Você pode usar o menu **Exibir códigos para atalhos de teclado** no dispositivo móvel para localizar os códigos de caracteres numéricos. Observe que os mapeamentos podem variar, dependendo do hardware empregado. Você deve usar a seguinte sintaxe para criar o mapeamento:
+Os arquivos CSS e ASPX devem estar localizados em um diretório específico; assim, o aplicativo IIS (Serviços de Informações da Internet) pode carregá-los. Talvez seja útil definir arquivos CSS diferentes se você estiver executando a funcionalidade do dispositivo móvel em diferentes navegadores ou em tipos diferentes de hardware que exijam um outro controle de layout. As configurações simples como a cor do plano de fundo, a fonte e o tamanho da fonte do texto, e a largura e o comportamento de botões, podem ser facilmente controlados com o uso diferente de arquivos CSS. O arquivo ASPX é usado para exibir o site móvel no aplicativo ASP.NET de servidor. O arquivo controla como a estrutura geral do HTML é apresentada. Convém personalizar esta funcionalidade só se tiver problemas estruturais sérios com HTML e o JavaScript, e é necessário alterar este código para seus dispositivos específicos. Para mapear os controles HTML na página do dispositivo móvel para os atalhos de teclado, na página **Configurações de exibição do dispositivo móvel**, no campo **Atalho de teclado**, atribua os códigos numéricos para as teclas. Você pode usar o menu **Exibir códigos para atalhos de teclado** no dispositivo móvel para localizar os códigos de caracteres numéricos. Observe que os mapeamentos podem variar, dependendo do hardware empregado. Você deve usar a seguinte sintaxe para criar o mapeamento:
 
 &lt;nome do controle&gt;(&lt;nome da tecla&gt;)=&lt;código da tecla&gt;;
 
@@ -87,7 +86,7 @@ Você pode usar a página **Cores do texto do dispositivo móvel** para controla
 Para selecionar a cor, na página **Selecionar cor**, clique na paleta ou digite um código de cor hexadecimal.
 
 ## <a name="define-the-date-format-to-use-on-mobile-devices"></a>Definir o formato de data a ser usado em dispositivos móveis
-Você pode estender a lista de formatos de data aceitos para cada instalação. Esta capacidade pode ser útil, por exemplo, se você deseja fornecer um formato que facilite a inserção por um trabalhador de datas em um dispositivo móvel. O formato padrão é determinado pelo idioma padrão do usuário, que é especificado no campo **Idioma** na página **Opções do usuário**. (A mesma página também é usada para associar um funcionário a um usuário de trabalho de depósito específico.) **Observação:** O Portal de Dispositivos Móveis de Depósito não usa a configuração do campo **Formato de data, hora e número** na página **Preferências de idioma e região**. Para alterar um formato de data, você deve estar familiarizado com as expressões regulares no Microsoft .NET Framework. Para obter mais informações, consulte [Expressões regulares do .NET Framework](http://go.microsoft.com/fwlink/?LinkId=391260). Para definir formatos de data, edite o arquivo Dates.ini que está localizado em Content\\Settings\\Dates.ini no servidor do Portal de Dispositivos Móveis de Depósito. Esse arquivo usa expressões regulares do .NET para especificar o formato de data. A expressão regular deve conter subexpressões que criam grupos nomeados para dia, mês e ano (DDMMAA), conforme mostrado no seguinte exemplo:
+Você pode estender a lista de formatos de data aceitos para cada instalação. Esta capacidade pode ser útil, por exemplo, se você deseja fornecer um formato que facilite a inserção por um trabalhador de datas em um dispositivo móvel. O formato padrão é determinado pelo idioma padrão do usuário, que é especificado no campo **Idioma** na página **Opções do usuário**. (A mesma página também é usada para associar um funcionário a um usuário de trabalho de depósito específico.) **Observação:** O Portal de Dispositivos Móveis de Depósito não usa a configuração do campo **Formato de data, hora e número** na página **Preferências de idioma e região**. Para alterar um formato de data, você deve estar familiarizado com as expressões regulares do Microsoft .NET Framework. Para obter mais informações, consulte [Expressões regulares do .NET Framework](http://go.microsoft.com/fwlink/?LinkId=391260). Para definir formatos de data, edite o arquivo Dates.ini que está localizado em Content\\Settings\\Dates.ini no servidor do Portal de Dispositivos Móveis de Depósito. Esse arquivo usa expressões regulares do .NET para especificar o formato de data. A expressão regular deve conter subexpressões que criam grupos nomeados para dia, mês e ano (DDMMAA), conforme mostrado no seguinte exemplo:
 
 ^(?&lt;dia&gt;\\d{2})(?&lt;mês&gt;\\d{2})(?&lt;ano&gt;\\d{2})$
 
@@ -101,7 +100,6 @@ Você pode especificar mais de uma expressão no mesmo arquivo. Cada expressão 
 --------
 
 [Configuração de dispositivos móveis para trabalho de depósito](configure-mobile-devices-warehouse.md)
-
 
 
 

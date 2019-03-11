@@ -1,13 +1,13 @@
 ---
-title: "Políticas de compra"
-description: "Este artigo fornece informações sobre diretivas de compras. Uma política de compra é um conjunto de regras que controlam o processo da requisição. As políticas de compra ajudam administradores de compras a implementar sua estratégia de compras criando uma estrutura de política alinhada às necessidades de compras estratégicas da organização."
+title: Políticas de compra
+description: Este artigo fornece informações sobre diretivas de compras. Uma política de compra é um conjunto de regras que controlam o processo da requisição. As políticas de compra ajudam administradores de compras a implementar sua estratégia de compras criando uma estrutura de política alinhada às necessidades de compras estratégicas da organização.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a16f365fa5a8b39dddac2886c36a8231de745a37
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 675a7a8b0da228e789ee37ca8fe1d0c0ea01c283
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358752"
 ---
-
 # <a name="purchasing-policies"></a>Políticas de compra
 
 [!include [banner](../includes/banner.md)]
@@ -148,7 +147,6 @@ A regra de consolidação de criação e a demanda de ordem de compra define as 
     -   **Não permitir a consolidação de demanda** – nenhuma linha de requisição de compra aprovada estará qualificada para a consolidação de demanda. Essa opção é selecionada por padrão e se aplica somente às linhas de requisição de compra que exigem processamento manual para a criação da ordem de compra.
     -   **Sempre permitir a consolidação de demanda** – todas as linhas de requisição de compra aprovadas estarão qualificadas para a consolidação de demanda. **Observação:** se você selecionar a opção **Sempre permitir consolidação de demanda** na guia **Consolidação de demanda**, mas se selecionar a opção **Criar automaticamente ordens de compra** na guia**Criação manual da ordem de compra**, todas as requisições de compra serão mantidas para processamento manual.
     -   **Permitir a consolidação de demanda sob estas condições** – defina os critérios que determinam se as linhas de requisição de compra aprovadas estão qualificadas para a consolidação de demanda. Para cada tipo de linha de requisição de compra, você pode definir os critérios por categoria de compras e fornecedor. Se você selecionar **Permitir consolidação de demanda sob estas condições**, poderá definir os critérios por categoria de compras e fornecedor para cada tipo de linha de requisição de compra. Quando você seleciona uma categoria de compras, todas as subcategorias dessa categoria de compras também são selecionadas. Se você selecionar a opção **Todas** para um tipo de linha específica, todas as linhas de requisição de compra daquele tipo de linha estarão qualificadas para consolidação de demanda.
-
 
 
 
