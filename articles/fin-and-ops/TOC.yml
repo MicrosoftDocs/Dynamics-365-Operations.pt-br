@@ -35,12 +35,6 @@ items:
     - name: Novidades ou alterações
       href: get-started/whats-new-changed.md
       items:
-      - name: Perguntas frequentes sobre as atualizações do serviço One Version
-        href: get-started/one-version.md
-      - name: Política de ciclo de vida do software e versões de nuvem
-        href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
-      - name: Política de ciclo de vida do software e versões locais
-        href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json
       - name: Término do suporte base do Microsoft Dynamics AX 2009 e 2012
         href: get-started/mainstream-support-ax-2009-2012.md
       - name: Recursos removidos ou obsoletos
@@ -49,10 +43,14 @@ items:
         href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
       - name: Recursos não implementados em implantações locais
         href: get-started/features-not-implemented-on-prem.md
+      - name: Recursos de visualização no Finance and Operations versão 10.0.1 (abril de 2019)
+        href: get-started/whats-new-changed-10-0-1.md
       - name: Finance and Operations versão 10.0 (abril de 2019)
         href: get-started/whats-new-changed-10.md
       - name: Finance and Operations versão 8.1.3 (janeiro de 2019)
         href: get-started/whats-new-changed-8-1-3.md
+      - name: Recursos de visualização no Finance and Operations platform update 25 (abril de 2019)
+        href: get-started/whats-new-platform-25.md
       - name: Platform update 24 (março de 2019)
         href: get-started/whats-new-platform-update-24.md
       - name: Platform update 23 (janeiro de 2019)
@@ -202,6 +200,29 @@ items:
       href: get-started/move-lcs-implementation-project-tenant.md
     - name: Vários ambientes de produção e projetos do LCS em um locatário do Azure AD
       href: get-started/implement-multiple-projects-aad-tenant.md
+  - name: Atualizações do serviço One Version
+    href: ../dev-itpro/lifecycle-services/oneversion-overview.md
+    items:
+    - name: Perguntas frequentes sobre as atualizações do serviço One Version
+      href: get-started/one-version.md
+    - name: Política de ciclo de vida do software — Nuvem
+      href: ../dev-itpro/migration-upgrade/versions-update-policy.md
+    - name: Política de ciclo de vida do software — Locais
+      href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md
+    - name: Atualizações padrão e de primeira versão do serviço
+      href: get-started/public-preview-releases.md
+    - name: Aplicar atualizações a ambientes de nuvem
+      href: ../dev-itpro/deployment/apply-deployable-package-system.md
+    - name: Configurar atualizações de serviço
+      href: ../dev-itpro/lifecycle-services/configure-service-updates.md
+    - name: Pausar atualizações de serviço
+      href: ../dev-itpro/lifecycle-services/pause-service-updates.md
+    - name: Ser notificado sobre atualizações de serviço
+      href: ../dev-itpro/lifecycle-services/notifications-service-updates.md
+    - name: Automação de tarefa de dados
+      href: ../dev-itpro/data-entities/data-task-automation.md
+    - name: Regression Suite Automation Tool
+      href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
   - name: Eventos de negócios
     href: ../dev-itpro/business-events/home-page.md
     items:
@@ -401,7 +422,7 @@ items:
             href: ../supply-chain/sales-marketing/synchronize-project-list.md
           - name: Sincronizar depósitos do Finance and Operations no Field Service
             href: ../supply-chain/sales-marketing/synchronize-warehouse.md
-          - name: Sincronizar ordens de trabalho do Finance and Operations no Field Service
+          - name: Sincronizar ordens de trabalho com o projeto do Field Service no Finance and Operations
             href: ../supply-chain/sales-marketing/synchronize-work-orders.md
         - name: Configurar integração do Project Service Automation
           href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
@@ -497,7 +518,7 @@ items:
   - name: Gerenciamento financeiro
     href: ../financials/index.md
     items:
-    - name: Contas a Pagar
+    - name: Contas a pagar
       href: ../financials/accounts-payable/accounts-payable.md
       items:
       - name: ​Visão geral de faturas de fornecedor​
@@ -1416,7 +1437,9 @@ items:
           href: ../financials/localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
         - name: Configurar parâmetros de NF-e para um estabelecimento fiscal
           href: ../financials/localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
-      - name: SPED-Reinf declaração de imposto
+      - name: SPED ECD
+        href: ../financials/localizations/latam-bra-sped-ecd.md
+      - name: Declaração de imposto SPED-Reinf
         href: ../financials/localizations/latam-bra-sped-reinf.md
       - name: Parâmetros para entidades legais
         href: ../financials/localizations/latam-bra-legal-entity-parameters.md
@@ -2232,10 +2255,12 @@ items:
           href: ../financials/localizations/rus-tax-agent.md
         - name: Declaração de IVA
           href: ../financials/localizations/rus-VAT-declaration.md
-        - name: Registros de venda, registros de compra e diários de factures e faturas
+        - name: Registros de venda, registros de compra e diários de faturas
           href: ../financials/localizations/rus-sales-books-purchase-books.md
       - name: Ativos fixos
         items:
+        - name: Configurar ativos fixos
+          href: ../financials/localizations/rus-set-up-fixed-assets.md
         - name: Adquirir ativos fixos e colocá-los em operação
           href: ../financials/localizations/rus-fixed-asset-acquisition.md
         - name: Registrar aquisições de ativos fixos
@@ -2266,6 +2291,18 @@ items:
           href: ../financials/localizations/rus-bonus-depreciation.md
         - name: Calcular depreciação
           href: ../financials/localizations/rus-depreciation-calculation.md
+      - name: Contas a pagar e a receber
+        items:
+        - name: Faturas para pagamento
+          href: ../financials/localizations/rus-invoice-payment.md
+        - name: Configurar controle de dimensão para liquidações
+          href: ../financials/localizations/rus-transactions-settlement-date.md
+        - name: Gerenciamento de fluxo de caixa
+          href: ../financials/localizations/rus-cash-flow.md
+      - name: Relatórios
+        items:
+        - name: Relatórios financeiros
+          href: ../financials/localizations/rus-financial-reports.md
       - name: Divisões da empresa
         href: ../financials/localizations/rus-company-divisions.md
       - name: Configurar taxas de câmbio para transações em moeda
@@ -2280,8 +2317,10 @@ items:
         href: ../financials/localizations/rus-invoice-payment.md
       - name: Relatórios financeiros
         href: ../financials/localizations/rus-financial-reports.md
-      - name: Criar um registro de compras
-        href: ../financials/localizations/rus-sales-books-purchase-books.md
+      - name: Relatório contábil no formato eletrônico
+        href: ../financials/localizations/rus-accounting-reporting.md
+      - name: Gerenciamento de fluxo de caixa
+        href: ../financials/localizations/rus-cash-flow.md
     - name: Arábia Saudita
       href: ../financials/localizations/saudi-arabia.md
       items:
@@ -2367,10 +2406,12 @@ items:
         href: ../financials/localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
       - name: Configurar grupos de impostos para IVA de encargos revertidos
         href: ../financials/localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
+      - name: Tornar o imposto digital para IVA
+        href: ../financials/localizations/emea-gbr-mtd-vat-integration.md
     - name: Estados Unidos
       href: ../financials/localizations/united-states.md
       items:
-      - name: ​Relatório 1099 do exercício dos Estados Unidos​
+      - name: Relatório 1099 do exercício dos Estados Unidos
         href: ../financials/localizations/noam-usa-year-end-1099-reporting.md
       - name: Formulário 1099 para o setor público
         href: ../financials/localizations/noam-usa-form-1099-public-sector.md
@@ -2827,9 +2868,11 @@ items:
           href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
         - name: Alterações na API da estrutura do relatório eletrônico para Atualização de aplicativo 7.3
           href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
+        - name: Especificar um armazenamento personalizado para os documentos gerados
+          href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
     - name: Soluções analíticas incorporadas
       items:
-      - name: Power BI Embedded em espaços de trabalho
+      - name: Power BI inserido em espaços de trabalho
         href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/fin-and-ops/toc.json
       - name: Integração do Power BI Embedded
         href: ../dev-itpro/analytics/power-bi-embedded-integration.md?toc=/fin-and-ops/toc.json
@@ -3281,6 +3324,8 @@ items:
         href: organization-administration/tasks/users-receive-workflow-related-email-messages.md
       - name: Relatório de tipos de fluxo de trabalho
         href: organization-administration/workflow-types-report.md
+      - name: Perguntas frequentes sobre fluxo de trabalho
+        href: organization-administration/workflow-FAQ.md
     - name: Alertas
       href: get-started/alerts-overview.md
       items:
@@ -3799,8 +3844,6 @@ items:
         href: ../supply-chain/sales-marketing/tasks/enter-sales-agreements.md
       - name: Cumprir contratos de venda
         href: ../supply-chain/sales-marketing/tasks/fulfill-sales-agreements.md
-      - name: Criar um novo contrato comercial
-        href: ../supply-chain/sales-marketing/tasks/create-new-trade-agreement.md
       - name: Gerar e processar reembolsos de cliente
         href: ../supply-chain/sales-marketing/tasks/process-customer-rebates.md
       - name: Processar reembolsos para pagamento
@@ -3827,6 +3870,8 @@ items:
         href: ../supply-chain/sales-marketing/tasks/set-up-sales-commission-rules.md
     - name: Bonificação comercial
       href: ../supply-chain/sales-marketing/trade-allowance.md
+    - name: Criar um novo contrato comercial
+      href: ../supply-chain/sales-marketing/tasks/create-new-trade-agreement.md
   - name: Gerenciamento de serviços
     href: ../supply-chain/service-management/service-management-home-page.md
     items:
@@ -4241,9 +4286,9 @@ items:
   href: ../dev-itpro/toc.yml
 - name: Dynamics 365 for Retail
   href: ../retail/toc.yml
-ms.openlocfilehash: cb58a9f8fa8305a3d8b956804ef74bef86ca04b9
-ms.sourcegitcommit: 7e0097bdd835e04521bffbce2fd802e6381dde0d
+ms.openlocfilehash: a1c64fd645063db11c632b34e8e0b934c97f2251
+ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "376909"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836387"

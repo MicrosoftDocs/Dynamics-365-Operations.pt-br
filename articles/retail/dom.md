@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8f1b07243ec2d42e47073d8d90f00ea563020d82
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 4f682e0c98ff70d526648bc50f8a5d6cb884ac93
+ms.sourcegitcommit: ca4562fafa33b3512f0a5e246b15545fcf53e834
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "301917"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "380007"
 ---
 # <a name="distributed-order-management-dom"></a>Gerenciamento de ordem distribuído (GOD)
 
@@ -63,8 +63,8 @@ A ilustração a seguir mostra o ciclo de vida de uma ordem de venda em um siste
 
         1. No Microsoft Dynamics Lifecycle Services, abra a Biblioteca de ativos compartilhados, selecione **Modelo** como o tipo de ativo e baixe o arquivo **Licença do GOD**.
         2. Inicie o gerenciador dos Serviços de Informações da Internet da Microsoft, clique com o botão direito do mouse no **Site de Serviço do AOS** e selecione **Explorar**. Uma janela do Windows Explorer é aberta na **\<Raiz do Serviço do AOS\>\\webroot**. Anote o caminho da \<Raiz do Serviço do AOS\>, para usar na próxima etapa.
-        3. Copie o arquivo de configuração no diretório **\<Raiz do Serviço do AOS\>\\PackagesLocalDirectory\\GOD\\compartimento**.
-        4. Vá para o cliente do Retail Headquarters e abra a página **Parâmetros de GOD**. Na guia **Agente de Resolução**, no campo **Tipo de Agente de Resolução**, selecione **Agente de Resolução de Produção** e confirme que nenhuma mensagem de erro aparecerá.
+        3. Copie o arquivo de configuração no diretório **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin**.
+        4. Acesse o cliente do Retail Headquarters e abra a página **Parâmetros do DOM**. Na guia **Agente de Resolução**, no campo **Tipo de Agente de Resolução**, selecione **Agente de Resolução de Produção** e confirme que nenhuma mensagem de erro aparecerá.
 
         > [!NOTE]
         > O Agente de Resolução Simplificado é fornecido para que os varejistas possam experimentar o recurso GOD sem precisarem implantar a licença especial. As organizações não devem usar o Agente de Resolução Simplificado em ambientes de produção.

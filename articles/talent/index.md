@@ -1,29 +1,25 @@
 ---
+# required metadata
 title: Bem-vindo ao Dynamics 365 for Talent
-description: O Talent simplifica muitas tarefas rotineiras de manutenção de registros e automatiza vários processos relacionados ao recrutamento na sua organização. Esses processos incluem retenção de funcionários, administração de benefícios, treinamento, avaliações de desempenho e gerenciamento de alterações.
+description: 'O Talent simplifica muitas tarefas rotineiras de manutenção de registros e automatiza vários processos relacionados ao recrutamento na sua organização. Esses processos incluem retenção de funcionários, administração de benefícios, treinamento, avaliações de desempenho e gerenciamento de alterações.'
 author: josaw
 manager: AnnBe
 ms.date: 06/04/2018
 ms.topic: index-page
-ms.prod: ''
+ms.prod: null
 ms.service: dynamics-365-talent
-ms.technology: ''
+ms.technology: null
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, Operations, Talent
+ms.search.scope: 'Core, Operations, Talent'
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: rschloma
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: e31cd1e0acc8f3ab450ec4acda62b88b189f036d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "301893"
+ms.search.validFrom: '2016-02-28'
+ms.dyn365.ops.version: 'AX 7.0.0, Talent July 2017 update'
 ---
+
 # <a name="welcome-to-dynamics-365-for-talent"></a>Bem-vindo ao Dynamics 365 for Talent
 
 [!include [banner](includes/banner.md)]
@@ -79,7 +75,7 @@ O Dynamics 365 for Talent inclui o aplicativo Attract, que pode ajudá-lo a iden
 
 ## <a name="develop-and-train-employees"></a>Desenvolver e treinar funcionários
 
-Para ajudar os funcionários a atingir seus objetivos de carreira e, ao mesmo tempo, atender às necessidades críticas dos negócios, você pode definir metas, criar avaliações de desempenho e rastrear os comentários. Para ajudar os funcionários a desenvolver as habilidades necessárias, você também pode definir instrutores, tipos de cursos, cursos, descrições de cursos, agendas, acompanhamentos e sessões antes de atribuir um instrutor a um curso ou inscrever alguém em um. Os instrutores já devem existir como trabalhadores, candidatos ou contatos.
+Para ajudar os funcionários a atingir seus objetivos de carreira e, ao mesmo tempo, atender necessidades comerciais críticas, você pode configurar metas, criar avaliações de desempenho e acompanhar comentários. Para ajudar os funcionários a desenvolver as habilidades necessárias, você também pode configurar instrutores, tipos de cursos, cursos, descrições do curso, agendas, acompanhamentos e sessões antes de atribuir um instrutor a um curso ou inscrever alguém em um curso. Os instrutores já devem existir como trabalhadores, candidatos ou contatos.
 
 -   [Gerenciamento de desempenho](performance-management-overview.md)
 -   [Alinhar habilidades da força de trabalho e necessidades do negócio](skills.md)
