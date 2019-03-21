@@ -1,9 +1,9 @@
 ---
 title: Exibir relatórios financeiros
-description: Este artigo descreve como visualizar e explorar relatórios financeiros no Microsoft Dynamics 365 for Finance and Operations. Ele inclui informações sobre as várias opções que você pode aplicar a relatórios financeiros para alterar sua aparência e os dados que eles incluem.
+description: Este tópico descreve como visualizar e explorar relatórios financeiros no Microsoft Dynamics 365 for Finance and Operations. Ele inclui informações sobre as várias opções que você pode aplicar a relatórios financeiros para alterar sua aparência e os dados que eles incluem.
 author: kweekley
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a939ce2f43645963392363fc6452f8bc55bd963
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ecdd2dd9d1eff0af358a458171ce151c9c14c71c
+ms.sourcegitcommit: 78bd8119b9fe967ba4d0adaacaf2d2227e567a91
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "312936"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "791432"
 ---
 # <a name="view-financial-reports"></a>Exibir relatórios financeiros
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo descreve como visualizar e explorar relatórios financeiros no Microsoft Dynamics 365 for Finance and Operations. Ele inclui informações sobre as várias opções que você pode aplicar a relatórios financeiros para alterar sua aparência e os dados que eles incluem.
+Este tópico descreve como visualizar e explorar relatórios financeiros no Microsoft Dynamics 365 for Finance and Operations. Ele inclui informações sobre as várias opções que você pode aplicar a relatórios financeiros para alterar sua aparência e os dados que eles incluem.
 
 <a name="financial-reporting-overview"></a>Visão geral de relatórios financeiros
 ----------------------------
@@ -67,18 +67,15 @@ Um relatório financeiro pode ser exibido em qualquer moeda a qualquer momento. 
 ## <a name="display-a-summarized-view-of-the-financial-report"></a>Exibir uma visualização resumida do relatório financeiro
 Um relatório financeiro pode conter linhas de detalhe e de resumo. Linhas de detalhe são linhas que contêm contas principais ou dimensões. Linhas de resumo são linhas de descrição, de total e de cálculo. Para exibir apenas as linhas de resumo de um relatório, clique em **Mostrar**, e então clique em **Apenas linhas de resumo**. O relatório é recolhido e passa a exibir somente as linhas de resumo. Para exibir as linhas de detalhe juntamente com as linhas de resumo, clique em **Mostrar**, e então clique novamente em **Apenas linhas de resumo**.
 
-## <a name="open-a-financial-report-from-a-previous-month"></a>Abrir um relatório financeiro de um mês anterior
-Você pode visualizar relatórios do mês atual ou de meses anteriores sem gerar novamente o relatório. Para abrir o relatório para um mês anterior, clique em **Mostrar** e, em seguida, clique em **Relatórios anteriores**. Aparece uma lista dos meses anteriores em que o relatório foi gerado. Expanda o mês para o qual visualizar o relatório, selecione a data, e então clique em **OK**. A relatório do mês anterior é exibido. Para retornar ao relatório do mês atual, clique em **Cancelar**.
-
 ## <a name="print-a-financial-report"></a>Imprimir um relatório financeiro
-Para imprimir um relatório financeiro, no Painel de Ação, clique em **Imprimir**, e então siga uma ou mais dessas etapas para definir as opções de impressão:
+Imprimir um relatório financeiro criará um arquivo PDF que pode ser impresso manualmente. Para criar um relatório financeiro imprimível, no Painel de Ação, clique em **Imprimir**, e então siga uma ou mais dessas etapas para definir as opções de impressão:
 
 -   Para incluir os diversos níveis de detalhe no relatório impresso, defina o controle deslizante como **Sim** ou **Não**. Se um relatório utiliza uma árvore de relatório, você pode optar por incluir todas as unidades de relatório ou apenas a unidade de relatório atual.
 -   Para definir o tamanho da página, selecione um tamanho de página na lista.
 -   Para definir o layout da página, selecione um layout na lista. Se desejar que o conteúdo do relatório se ajuste à largura que você selecionou, defina o controle deslizante como **Sim**.
 -   Para definir as margens da página, digite o tamanho das margens superior, inferior, esquerda e direita em polegadas.
 
-Após concluir a definição das opções de impressão, clique em **Imprimir** para imprimir o relatório. Se decidir que não deseja imprimir o relatório, clique em **Cancelar**. Uma pré-visualização do relatório impresso é exibida. Você pode selecionar a impressora para a qual enviar o relatório, e também pode ajustar as opções de impressão.
+Depois de concluir as configurações das opções de impressão, clique em **Imprimir** para continuar e ser avisado se deseja baixar o arquivo ou salvá-lo no OneDrive ou SharePoint. Se decidir que não deseja continuar, clique em **Cancelar**. Depois de continuar, o relatório começará a ser renderizado no servidor e você será avisado para baixar o relatório no formato de PDF. Agora você pode exibir o relatório na exibição de PDF e, a partir daí, você pode selecionar a impressora para onde enviar o relatório, e realizar quaisquer ajustes adicionais para as opções de impressão.
 
 ## <a name="export-a-financial-report"></a>Exportar um relatório financeiro
 Para exportar um relatório financeiro, no Painel de Ação, clique em **Exportar**. O relatório é exportado para o Microsoft Excel, e o navegador solicitará que você abra ou salve o arquivo exportado. As configurações de exportação que estão definidas no design do relatório são aplicadas ao relatório exportado.    
@@ -86,7 +83,7 @@ Para exportar um relatório financeiro, no Painel de Ação, clique em **Exporta
 <a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Relatórios financeiros do Microsoft Dynamics AX](../../dev-itpro/analytics/financial-reporting-intro.md)
+[Relatórios financeiros](../../dev-itpro/analytics/financial-reporting-intro.md)
 
 
 

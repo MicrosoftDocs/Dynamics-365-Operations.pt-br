@@ -3,7 +3,7 @@ title: Pesquisa de produto e de cliente no ponto de venda (PDV)
 description: Este tópico fornece uma visão geral de melhorias feitas à funcionalidade de pesquisa de produto e cliente no Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/28/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 1fa38002377fac24a5f3e25bd5924ecb23fec70a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a1593445af41cba30bdc35933302d0873e313585
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313580"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789860"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Pesquisa de produto e de cliente no ponto de venda (PDV)
 
@@ -69,7 +69,7 @@ A experiência de pesquisas locais de produto agora é feita de forma mais amig�
 
 ## <a name="customer-search"></a>Pesquisa de Cliente
 
-A pesquisa de cliente será usada para localizar clientes para várias finalidades. Por exemplo, os caixas podem querer ver uma lista de desejos do cliente ou o histórico de vendas, ou adicionar o cliente a uma transação. No caso de pesquisas de várias palavras-chave, o algoritmo de pesquisa do cliente retorna todos os clientes que correspondem a qualquer uma das palavras-chave pesquisadas. Porém, os clientes correspondentes à maioria de palavras-chave aparecem na parte superior dos resultados. Esse comportamento é análogo a forma como outros mecanismos pesquisa mostram a resultados. Primeiro eles mostram os resultados que correspondem aos termos mais pesquisados e depois, eles mostram os resultados que correspondem parcialmente às palavras-chave da pesquisa. Esse comportamento ajuda os caixas em situações que eles usam várias palavras-chave para suas pesquisas, mas uma das palavras-chave tem um erro de ortografia.
+A pesquisa de cliente será usada para localizar clientes para várias finalidades. Por exemplo, os caixas podem querer ver uma lista de desejos do cliente ou o histórico de vendas, ou adicionar o cliente a uma transação. O algoritmo de pesquisa corresponde aos termos de pesquisa contra os valores presentes nas propriedades de cliente a seguir: nome, email, telefone, número do cartão fidelidade, endereço e número da conta. Entre eles, a propriedade do nome fornece maior flexibilidade quando trata-se de várias buscas de palavras-chave conforme o algoritmo retorna todos os cliente que correspondem a quaisquer palavras-chave pesquisadas e os clientes que correspondem ao maior número de palavras-chave, aparecem na parte superior dos resultados. Esse comportamento ajuda os caixas em situações onde eles estão buscando digitando o nome completo, mas o último nome e o primeiro nome foram trocados durante a entrada de dados inicial. No entanto, por motivos de desempenho, todas as outras propriedades mantêm a ordem das palavras-chave de busca, para que se a busca pelas palavras-chave não corresponder à ordem na qual os dados são armazenados, nenhum resultado será retornado.
 
 Por padrão, uma pesquisa de cliente é feita em catálogos de endereços do cliente associados ao armazenamento. Este tipo de pesquisa é conhecido como *pesquisa local do cliente*. Porém, os funcionários também podem pesquisar os clientes globalmente. Em outras palavras, eles podem pesquisar nos armazenamentos da empresa e em outras entidades legais. Este tipo de pesquisa é conhecido como *pesquisa remota do cliente*.
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7eb6d743131937081ce83b31988d792185cb28b2
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a35184a48eff9e320087cb9390a0f1eed1e7ba19
+ms.sourcegitcommit: 9a723737565ac78c884e40f7129d0f5aad747524
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "308635"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "773079"
 ---
 # <a name="workflow-system"></a>Sistema do fluxo de trabalho
 
@@ -71,3 +71,4 @@ O uso do sistema de fluxo de trabalho em sua organização traz vários benefíc
 + [Configurar uma atividade paralela em um fluxo de trabalho](configure-parallel-activity-workflow.md)
 + [Configurar uma ramificação paralela em um fluxo de trabalho](configure-parallel-branch-workflow.md)
 + [Configurar um fluxo de trabalho de item de linha](configure-line-item-workflow.md)
++ [Perguntas frequentes sobre fluxo de trabalho](workflow-FAQ.md)

@@ -1,9 +1,9 @@
 ---
 title: Configurar e gerar arquivos de pagamento positivo
-description: Este artigo explica como configurar o pagamento positivo e gerar arquivos de pagamento positivo.
+description: Este tópico explica como configurar o pagamento positivo e gerar arquivos de pagamento positivo.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 03/06/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0a15669c477223b922d8892d675eaa1df2563714
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: dbc512c6d214dc8cf2527ac23103529111896ec5
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "346079"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778169"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>Configurar e gerar arquivos de pagamento positivo
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo explica como configurar o pagamento positivo e gerar arquivos de pagamento positivo. 
+Este tópico explica como configurar o pagamento positivo e gerar arquivos de pagamento positivo. 
 
 Configure o pagamento positivo para gerar uma lista eletrônica de cheques que é fornecida ao banco. Então, quando o cheque é apresentado ao banco, o banco o compara à lista de cheques. Se o cheque corresponder a um cheque na lista, o banco o liberará. Se o cheque não corresponder a um cheque na lista, o banco o reterá para revisão.
 
@@ -94,7 +94,7 @@ Os arquivos de pagamento positivo são criados usando entidades de dados. Antes 
           <xsl:value-of select="'
     '" />
           <!--Header End-->
-          <xsl:for-each select="Document/BankPositivePayExportEntity">
+          <xsl:for-each select="Document/BANKPOSITIVEPAYEXPORTENTITY">
             <!--Cheque Detail begin-->
             <xsl:value-of select='RECIPIENTACCOUNTNUM/text()'/>
             <xsl:value-of select="','" />

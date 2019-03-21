@@ -3,7 +3,7 @@ title: Integração de ativos fixos
 description: Ativos fixos podem ser integrados à Contabilidade, ao Gerenciamento de estoque, a Contas a receber e a Contas a pagar. Você também pode configurar os Ativos fixos para que sejam integrados às ordens de compra.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af5d33de3af05668bc9aedc94894b12d16daf78e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 2023d68a1455c6bb5ec569b6ae19fc3268f8769d
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "336971"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778146"
 ---
 # <a name="fixed-assets-integration"></a>Integração de ativos fixos
 
@@ -41,7 +41,7 @@ Na página **Perfis de lançamentos de ativo fixo**, você define as contas prin
 ## <a name="inventory-management"></a>Gerenciamento de estoque
 No diário de estoque para ativos fixos, você pode inserir a aquisição de ativos fixos que a entidade legal gerou ou construiu para si própria. Você pode então transferir itens de estoque para ativos fixos como uma aquisição ou como parte de uma aquisição. 
 
-Também é possível adquirir ativos usando ordens de compra. Quando as ordens de compra contêm itens de estoque designados como ativos fixos, a configuração da opção **Permitir a aquisição de ativos de Compras** na página **Parâmetros de ativos fixos** determina se uma aquisição é lançada para o ativo fixo quando a fatura é lançada. O impacto que a aquisição de ativos fixos tem no estoque depende da configuração da entidade legal. 
+Também é possível adquirir ativos usando ordens de compra. Quando as ordens de compra contêm itens de estoque designados como ativos fixos, a configuração da opção **Permitir a aquisição de ativos de Compras** na página **Parâmetros de ativos fixos** determina se uma aquisição é lançada para o ativo fixo quando a fatura é lançada. Uma linha de compras criará um ativo fixo, independentemente da quantidade. O impacto que a aquisição de ativos fixos tem no estoque depende da configuração da entidade legal. 
 
 Quando um item de estoque se torna uma aquisição de ativo fixo, por meio do diário de estoque, uma ordem de compra ou uma proposta de aquisição, é criada uma transação de aquisição de registros de ativo fixo. Se uma aquisição de registros incluir um registro de depreciações derivado, também será criada uma transação de aquisição de registro de depreciações. 
 

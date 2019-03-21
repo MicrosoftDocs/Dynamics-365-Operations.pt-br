@@ -3,7 +3,7 @@ title: Estratégia do agente de resolução para configuração de produto
 description: Este tópico descreve como você pode usar a estratégia do agente de resolução para melhorar o desempenho da configuração de produto.
 author: cvocph
 manager: AnnBe
-ms.date: 01/02/2018
+ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0abb9313ec62cfdfe3bf7c810e2143dcf502bf9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 16a11c5030f5641abb87830f5221ded5bb7ac038
+ms.sourcegitcommit: 0ceee30a60468a01db6f5b3526dcb9c6abc9d4dc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "351139"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "403907"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Estratégia do agente de resolução para configuração de produto
 
@@ -62,8 +62,8 @@ A tabela a seguir fornece recomendações sobre qual estratégia do agente de re
 | Estratégia do agente de resolução      | Use a estratégia neste cenário |
 |----------------------|-----------------------------------|
 | Padrão              | A estratégia **Padrão** foi otimizada para resolver modelos que dependem de restrições de tabela. Estudos de implementação do cliente mostraram que essa estratégia é a mais eficiente em cenários em que as restrições de tabela são usadas extensivamente. |
-| Domínio mínimo primeiro | As estratégias **Domínio mínimo primeiro** e **De cima para baixo** estão estreitamente relacionadas. Estudos de implementação do cliente mostraram que a estratégia **De cima para baixo**, que foi introduzida na CU8, tem um desempenho melhor do que a estratégia **Domínio mínimo primeiro**. No entanto, a estratégia **Domínio mínimo primeiro** é mantida no produto para compatibilidade com versões anteriores. Essas duas estratégias do agente de resolução mostraram-se mais eficientes na resolução de modelos que contêm várias expressões aritméticas onde nenhuma restrição de tabela é usada. No entanto, em alguns casos, a estratégia **Padrão** tem um desempenho melhor do que essas duas estratégias. Portanto, lembre-se de testar cada estratégia. |
-| De cima para baixo             | As estratégias **Domínio mínimo primeiro** e **De cima para baixo** estão estreitamente relacionadas. Estudos de implementação do cliente mostraram que a estratégia **De cima para baixo**, que foi introduzida na CU8, tem um desempenho melhor do que a estratégia **Domínio mínimo primeiro**. No entanto, a estratégia **Domínio mínimo primeiro** é mantida no produto para compatibilidade com versões anteriores. Essas duas estratégias do agente de resolução mostraram-se mais eficientes na resolução de modelos que contêm várias expressões aritméticas onde nenhuma restrição de tabela é usada. No entanto, em alguns casos, a estratégia **Padrão** tem um desempenho melhor do que essas duas estratégias. Portanto, lembre-se de testar cada estratégia. |
+| Domínios mínimos primeiro | As estratégias **Domínios mínimos primeiro** e **De cima para baixo** estão estreitamente relacionadas. Estudos de implementação do cliente mostraram que a estratégia **De cima para baixo**, tem um desempenho melhor do que a estratégia **Domínios mínimos primeiro**. No entanto, a estratégia **Domínios mínimos primeiro** é mantida no produto para compatibilidade com versões anteriores. Essas duas estratégias do agente de resolução mostraram-se mais eficientes na resolução de modelos que contêm várias expressões aritméticas onde nenhuma restrição de tabela é usada. No entanto, em alguns casos, a estratégia **Padrão** tem um desempenho melhor do que essas duas estratégias. Portanto, lembre-se de testar cada estratégia. |
+| De cima para baixo             | As estratégias **Domínios mínimos primeiro** e **De cima para baixo** estão estreitamente relacionadas. Estudos de implementação do cliente mostraram que a estratégia **De cima para baixo**, tem um desempenho melhor do que a estratégia **Domínios mínimos primeiro**. No entanto, a estratégia **Domínios mínimos primeiro** é mantida no produto para compatibilidade com versões anteriores. Essas duas estratégias do agente de resolução mostraram-se mais eficientes na resolução de modelos que contêm várias expressões aritméticas onde nenhuma restrição de tabela é usada. No entanto, em alguns casos, a estratégia **Padrão** tem um desempenho melhor do que essas duas estratégias. Portanto, lembre-se de testar cada estratégia. |
 | Z3                   | Recomendamos o uso da estratégia **Z3** como a estratégia do agente de resolução padrão. Se estiver preocupado com o desempenho e a escalabilidade, você pode avaliar as outras estratégias. |
 
 ## <a name="additional-resources"></a>Recursos adicionais

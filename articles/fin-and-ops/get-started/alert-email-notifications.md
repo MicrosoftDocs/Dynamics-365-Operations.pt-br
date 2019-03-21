@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 314f04eec04a75aed058c9c38066738e8758f653
-ms.sourcegitcommit: 440ebe14ad26574ba227d23ee8370f6b6110645b
+ms.openlocfilehash: 9545731af20a96c322b4e92c17f3a46b7077295b
+ms.sourcegitcommit: a13f44549ab402cfd04b600f6097ba179915f233
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "373734"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "775055"
 ---
 # <a name="client-alert-notifications-by-email"></a>Notificações de alerta do cliente por email
 
@@ -48,7 +48,7 @@ A imagem a seguir mostra a caixa de diálogo **Criar regra de alerta**, que agor
 
 ## <a name="alert-notification-email-templates"></a>Modelos de email de notificação de alerta
 
-O serviço envia notificações por email usando modelos predefinidos de email que fornecem os detalhes básicos da notificação de alerta. Esses detalhes incluem um link direta para a página na qual a regra de alerta foi definida.
+O serviço envia notificações por email usando modelos predefinidos de email que fornecem os detalhes básicos da notificação de alerta.
 
 A imagem a seguir mostra a estrutura das notificações de alerta quando elas são recebidas por email.
 

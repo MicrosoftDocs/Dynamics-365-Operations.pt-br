@@ -3,7 +3,7 @@ title: Calendários fiscais, anos fiscais e períodos
 description: Este artigo discute calendários fiscais, períodos fiscais e anos e como utilizá-los para a pessoa jurídica, ativos fixos e o orçamento.
 author: aprilolson
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 360695ddfbcf1eab62dd5087e1b5bb34ccaf7c7f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 01f8f939079d55d5a75d1a4b1fd718bf2a3f9700
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "361650"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778192"
 ---
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Calendários fiscais, anos fiscais e períodos
 
@@ -43,7 +43,7 @@ Um período de fechamento é usado para separar as transações da contabilidade
 Ao criar um período de fechamento, selecione um período que tenha um status Aberto e com as datas que deseja usar. O novo período de fechamento copiará as datas inicial e final do período existente. O período original continuará a existir. Por exemplo, você seleciona p Período 12, que é o último período no ano fiscal e que tem datas de 1º de agosto a 31 de agosto. Você digita um nome para o período de fechamento, como Fechamento. Depois de criar o novo período de fechamento, você terá o período original e o período de fechamento. Os dois têm as datas que iniciam em 1º de agosto e terminam em 31 de agosto.
 
 ## <a name="select-fiscal-calendars-for-ledgers-fixed-assets-and-budget-cycles"></a>Selecionar calendários fiscais para razões, ativos fixos e ciclos orçamentários
-Os calendários fiscais são usados com depreciação de ativo fixo, transações financeiras e ciclos orçamentários. Quando você cria um calendário fiscal, você pode usá-lo para várias finalidades. Você pode selecionar um calendário fiscal para um modelo de valor ou registro de depreciação para torná-lo um calendário de ativos fixos. Você pode selecionar um calendário fiscal para um razão para torná-lo um calendário do razão. E você pode selecionar um calendário fiscal para um ciclo orçamentário para torná-lo um calendário de orçamento. Você pode usar o mesmo calendário fiscal para todos eles.
+Os calendários fiscais são usados com depreciação de ativo fixo, transações financeiras e ciclos orçamentários. Quando você cria um calendário fiscal, você pode usá-lo para várias finalidades. Você pode selecionar um calendário fiscal para um registro de ativo fixo para torná-lo um calendário de ativos fixos. Você pode selecionar um calendário fiscal para um razão para torná-lo um calendário do razão. E você pode selecionar um calendário fiscal para um ciclo orçamentário para torná-lo um calendário de orçamento. Você pode usar o mesmo calendário fiscal para todos eles.
 
 ### <a name="select-a-fiscal-calendar-for-your-legal-entity"></a>Selecionar um calendário fiscal para sua entidade legal
 
@@ -51,7 +51,7 @@ Selecione o calendário fiscal que você deseja usar para o razão de sua entida
 
 ### <a name="select-a-fiscal-calendar-for-fixed-assets"></a>Selecionar um calendário fiscal para ativos fixos
 
-Você pode selecionar um calendário fiscal para um modelo de valor ou registro de depreciação, e esse calendário fiscal será usado pelos ativos fixos que usam o modelo de valor ou o registro de depreciação selecionado. Você pode selecionar qualquer calendário fiscal que esteja definido na página Calendários fiscais.
+Você pode selecionar um calendário fiscal para um registro de ativo fixo, e esse calendário fiscal será usado pelos ativos fixos que usam o registro selecionado. Você pode selecionar qualquer calendário fiscal que esteja definido na página Calendários fiscais.
 
 ### <a name="define-budget-cycle-time-spans"></a>Definir períodos de tempo do ciclo orçamentário
 

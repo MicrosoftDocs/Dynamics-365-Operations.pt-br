@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 082ad886f40a52457900523f44158da3ed939458
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 5326642553c7efcebc6c6af953e2dafe9e62e9ec
+ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "357924"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832186"
 ---
 # <a name="electronic-messaging"></a>Mensagens eletrônicas
 
@@ -69,6 +69,7 @@ Se não importar um pacote de entidades de dados, você poderá configurar manua
 - [Campos adicionais](#additional-fields)
 - [Configurações de classe executável](#executable-class-settings)
 - [Ações de preencher registros](#populate-records-actions)
+- [Aplicativos Web](#web-applications)
 - [Configurações de serviço Web](#web-service-settings)
 - [Ações de processamento de mensagens](#message-processing-actions)
 - [Processamento de mensagem eletrônica](#electronic-message-processing)
@@ -85,27 +86,49 @@ Os tipos de item de mensagem identificam os tipos de registros que serão usados
 
 Os status de item de mensagem identificam os status que se aplicarão a itens de mensagem no processamento que você está configurando. Você pode configurar tipos de item de mensagem na página **Status de itens de mensagem** (**Imposto** \> **Configuração** \> **Mensagens eletrônicas** \> **Status de itens de mensagem**).
 
+O parâmetro **Permitir exclusão** de status de um item de mensagem define se o usuário terá permissão para excluir um item de mensagem nesse status por meio do formulário **Mensagens eletrônicas** ou do formulário **Itens de mensagem eletrônica**. 
+
 ### <a name="message-statuses"></a>Status de mensagens
 
 Configure os status de mensagens que devem estar disponíveis no processamento de mensagens. Você pode configurar status de mensagens na página **Status de itens de mensagem** (**Imposto** \> **Configuração** \> **Mensagens eletrônicas** \> **Status de mensagens**).
+
+Descrição dos campos:
+
+| Nome do campo           | Descrição |
+|----------------------|-------------|
+|Status da Mensagem        | Nome exclusivo de um status de mensagem eletrônica que caracteriza o estado de uma mensagem em cada momento. Este nome é mostrado no formulário Mensagens eletrônicas e em um log relacionado à mensagem eletrônica. |
+|Descrição           | Descrição relacionada ao status da mensagem eletrônica      |
+|Tipo de resposta         | Algumas ações em um processamento podem resultar em mais de um tipo de resposta. Como exemplo, a ação de tipo **Serviço Web** pode resultar no tipo de resposta **Execução bem-sucedida** ou **Erro técnico** dependendo do resultado de sua execução. Nesse caso, o status da mensagem para os dois tipos de resposta deve ser definido. Consulte [Tipos de ação de processamento de mensagens](#message-processing-action-types) para obter mais informações sobre tipos de ação e tipos de resposta. |
+|Status de item de mensagem   |Há casos em que o status da mensagem eletrônica deve influenciar, respectivamente, o status dos itens de mensagem relacionados. Associe esse status de item de mensagem nesse campo selecionando-o na pesquisa. |
+|Permitir exclusão          | O parâmetro **Permitir exclusão** de status de mensagem eletrônica define se o usuário poderá excluir uma mensagem eletrônica nesse status por meio do formulário **Mensagens eletrônicas**.            |
 
 ### <a name="additional-fields"></a>Campos adicionais
 
 A funcionalidade Mensagens eletrônicas permite que você popule registros de uma tabela transacional. Assim, você pode preparar os registros para relatórios e então relatá-los. Ocasionalmente, não há informações suficientes na tabela transacional para relatar um registro de acordo com os requisitos de relatório. Você pode preencher todas as informações que devem ser relatadas para um registro configurando campos adicionais. Os campos adicionais podem ser associados a mensagens e a itens de mensagem. Você pode configurar os campos adicionais na página **Campos adicionais** (**Imposto** \> **Configuração** \> **Mensagens eletrônicas** \> **Campos adicionais**).
 
-A tabela a seguir descreve os campos da página **Campos adicionais**.
+A tabela a seguir descreve os campos gerais da página **Campos adicionais**:
 
-| Campo                | descrição |
+| Campo                | Descrição |
 |----------------------|-------------|
 | Nome do campo           | Insira o nome de um atributo adicional de itens de mensagem relacionados ao processo. Este nome será mostrado na interface de usuário enquanto você trabalha com o processo. Também pode ser usado nas configurações de ER relacionadas ao processo. |
 | descrição          | Insira uma descrição do atributo adicional de itens de mensagem relacionados ao processo. |
-| Valor do campo          | Insira o valor de campo a ser usado em relação a um item de mensagem durante o relatório. |
-| Descrição do campo    | Insira uma descrição do valor de campo a ser usado em relação a um item de mensagem durante o relatório. |
+| Edição do usuário            | Em um caso em que um usuário deve poder alterar o valor do campo adicional da interface do usuário, marque esta caixa de seleção como **Sim**; caso contrário, como **Não**. |
+| Contador              | Quando o campo adicional precisar conter um número de sequência dentro de uma mensagem eletrônica, marque essa caixa de seleção. Os valores do campo adicional serão preenchidos automaticamente durante a execução de uma ação do tipo “Exportação de relatório eletrônico”.  |
+| Oculto               | Quando o campo adicional precisar estar oculto na interface do usuário, marque essa caixa de seleção.  |
+
+Cada campo adicional pode ter valores diferentes para o processamento. Você pode definir esses valores na guia rápida Valores:
+
+| Campo                | Descrição |
+|----------------------|-------------|
+| Valor do campo          | Insira o valor de campo a ser usado em relação a uma mensagem ou item de mensagem durante o relatório. |
+| Descrição do campo    | Insira uma descrição do valor de campo a ser usado em relação a uma mensagem ou um item de mensagem durante o relatório. |
 | Tipo de conta         | Alguns valores dos campos adicionais podem ser limitados a tipos de conta específicos. Selecione um destes valores: **Tudo**, **Cliente** ou **Fornecedor**. |
 | Código da conta         | Se você tiver selecionado **Cliente** ou **Fornecedor** no campo **Tipo de conta** , poderá limitar ainda mais o uso de valores de campo a um grupo ou a uma tabela específica. |
 | Número de conta/grupo | Se você tiver selecionado **Cliente** ou **Fornecedor** no campo **Tipo de conta** e se tiver inserido um grupo ou uma tabela no campo **Código de conta**, poderá inserir um grupo ou uma contramedida específico nesse campo. |
 | Efetivação            | Especifique a data em que o valor deve começar a ser considerado. |
 | Vencimento           | Especifique a data em que o valor deve parar a ser considerado. |
+
+Combinações de critérios definidos em **Número de conta/grupo**, **Código da conta**, **Efetivação**, **Vencimento** não influenciam por padrão na seleção de valor para o campo adicional, mas podem ser usadas na classe executável para implementar alguma lógica específica de cálculo de um valor de campo adicional.
 
 ### <a name="executable-class-settings"></a>Configurações de classe executável
 
@@ -120,6 +143,8 @@ Você pode configurar manualmente uma classe executável na página **Configura�
 | Nome de classe executável | Selecione uma classe executável X++. |
 | Nível de execução       | Esse campo é automaticamente configurado porque o valor deve ser predefinido para a classe executável selecionada. Esse campo limita o nível em que a avaliação relacionada é executada. |
 | Descrição da classe     | Esse campo é automaticamente configurado porque o valor deve ser predefinido para a classe executável selecionada. |
+
+Algumas classes executáveis podem ter parâmetros obrigatórios que devem ser definidos antes que a classe executável seja executada pela primeira vez. Para definir esses parâmetros, clique no botão **Parâmetros** no painel Ação, configure os valores correspondentes e os campos na janela de diálogo e clique no botão **OK**. É importante clicar no botão **OK** aqui; caso contrário, os parâmetros não serão salvos na base e a classe executável não será chamada corretamente.
 
 ### <a name="populate-records-actions"></a>Ações de preencher registros
 
@@ -143,6 +168,37 @@ Na FastTab **Configuração de fontes de dados**, adicione uma linha para cada f
 | Campo de conta do documento | Selecione o campo de onde a conta de documento deve ser retirada na tabela selecionada. |
 | Consulta do usuário             | Se essa caixa de seleção estiver marcada, você poderá configurar uma consulta selecionando **Editar consulta** acima da grade. Caso contrário, todos os registros serão preenchidos desde a fonte de dados. |
 
+### <a name="web-applications"></a>Aplicativos Web
+
+Use a página de aplicativos Web para configurar parâmetros de um aplicativo Web para oferecer suporte ao OAuth 2.0 padrão aberto que permite aos usuários conceder "acesso delegado seguro" ao aplicativo em seu nome, sem compartilhar suas credenciais de acesso. Nesta página, você também pode passar pelo processo de autorização obtendo um código de autorização e um token de acesso. Você pode definir configurações de aplicativo Web na página **Aplicativos Web** (**Imposto** \> **Configuração** \> **Mensagens eletrônicas** \> **Aplicativos Web**).
+
+A tabela a seguir descreve os campos da página **Aplicativos Web**.
+
+| Campo                         | Descrição |
+|-------------------------------|-------------|
+| Nome do aplicativo              | Insira um nome para o aplicativo Web. |
+| Descrição                   | Insira uma descrição do aplicativo Web. |
+| URL base                      | Insira o endereço de internet básico do aplicativo Web. |
+| Caminho da URL de autorização        | Especifique o caminho para compor a URL para autorização.  |
+| Caminho da URL do token                | Especifique o caminho para compor a URL para token.  |
+| URL de redirecionamento                  | Insira a URL de redirecionamento.  |
+| ID do cliente                     | Insira a ID do cliente do aplicativo Web.  |
+| Segredo do cliente                 | Insira o segredo do cliente do aplicativo Web.  |
+| Token do servidor                  | Insira o token do servidor do aplicativo Web.  |
+| Mapeamento do formato da autorização  | Selecione um formato ER (Relatório eletrônico) a ser usado para gerar a solicitação de autorização.   |
+| Importar mapeamento do modelo do token    | Selecione um mapeamento de modelo de importação ER a ser usado para armazenar o token de acesso.  |
+| Escopo concedido      O token de acesso expirará em  | Este campo será atualizado automaticamente. Seu valor mostra o escopo concedido de solicitações para o aplicativo Web.  |
+| Aceitar                        | Especifique a propriedade de aceitação da solicitação Web. Por exemplo, "application/vnd.hmrc.1.0+json".  |
+| Tipo de conteúdo           | Especifique o tipo de conteúdo. Por exemplo, "application/json".  |
+
+As seguintes funções estão disponíveis na página **Aplicativos Web** para oferecer suporte ao processo de autorização:
+-   **Obter código de autorização** - para inicializar a autorização do aplicativo Web.
+-   **Obter token de acesso** - para inicializar a obtenção de um token de acesso.
+-   **Atualizar token de acesso** - para atualizar um token de acesso.
+
+Quando um token de acesso a um aplicativo Web é armazenado na base de dados do sistema em formato criptografado, ele pode ser usado para solicitações a um serviço Web. Para fins de segurança, o acesso ao token de acesso deve ser restrito apenas às funções de segurança que devem ter permissão para atender a essas solicitações. Quando um usuário fora do grupo de segurança está tentando endereçar uma solicitação, uma exceção informará ao usuário que ele não tem permissão para interoperação por meio do aplicativo Web selecionado.
+Use a tabela rápida **Funções de segurança** da página Imposto > Configuração > Mensagens eletrônicas > Aplicativos Web para configurar funções que devem ter acesso ao token de acesso. Quando as funções de segurança não estão definidas para um aplicativo Web, um administrador do sistema só poderá interoperar por meio desse aplicativo Web.
+
 ### <a name="web-service-settings"></a>Configurações de serviço Web
 
 Você usa configurações de serviço Web para configurar a transmissão de dados direta para um serviço Web. Você pode definir configurações de serviço Web na página **Configurações do serviço Web** (**Imposto** \> **Configuração** \> **Mensagens eletrônicas** \> **Configurações do serviço Web**).
@@ -153,13 +209,17 @@ A tabela a seguir descreve os campos da página **Configurações do serviço We
 |-------------------------|-------------|
 | Serviço Web             | Insira um nome para o serviço Web. |
 | descrição             | Insira uma descrição do serviço Web. |
-| Endereço na Internet        | Insira o endereço da internet do serviço Web. |
+| Endereço na Internet        | Insira o endereço da internet do serviço Web. Se um aplicativo Web for especificado para um serviço Web e o endereço na Internet for o mesmo que o definido para o aplicativo Web selecionado, clique no botão **Copiar URL base** para copiar a **URL base** do aplicativo Web no campo **Endereço na Internet** do serviço Web.  |
 | Certificado             | Selecione um certificado do Key Vault previamente configurado. |
+| Aplicativo Web         | Selecione um certificado do Key Vault previamente configurado. |
 | O tipo de resposta - XML | Defina essa opção como **Sim** se o tipo de resposta for XML. |
 | Método de solicitação          | Especifique o método da solicitação. O HTTP define um conjunto de métodos de solicitação que indicam a ação que deve ser executada para um recurso específico. O método pode ser **GET**, **POST** ou outro método HTTP. |
 | Cabeçalhos de solicitação         | Especifique cabeçalhos de solicitação. Um cabeçalho de solicitação é um cabeçalho HTTP que pode ser usado em uma solicitação HTTP, e que não está relacionado ao conteúdo da mensagem. |
+| Aceitar                  | Especifique a propriedade de aceitação da solicitação Web. |
 | Aceitar codificação         | Especifique a Accept-Encoding. O cabeçalho HTTP da solicitação Accept-Encoding anuncia a codificação de conteúdo que o cliente pode compreender. Geralmente, a codificação de conteúdo é um algoritmo de compactação. |
 | Tipo de conteúdo            | Especifique o tipo de conteúdo. O cabeçalho da entidade Content-Type indica o tipo de mídia do recurso. |
+| Código de resposta bem-sucedida   | Especifique o código de status HTTP indicando que a solicitação foi bem-sucedida. |
+| Mapeamento do formato dos cabeçalhos de solicitação  | Selecione o formato ER para geração de cabeçalhos de solicitação Web. |
 
 ### <a name="message-processing-actions"></a>Ações de processamento de mensagens
 
@@ -172,17 +232,21 @@ As tabelas a seguir descrevem os campos da página **Ações de processamento de
 | Campo                   | descrição |
 |-------------------------|-------------|
 | Tipo de ação             | Selecione o tipo de ação. Para obter informações sobre as opções disponíveis, consulte a seção [Tipos de ação de processamento de mensagens](#message-processing-action-types). |
-| Mapeamento de formato          | Selecione o formato de ER a ser chamado para a ação. Esse campo só está disponível para ações dos tipos **Exportação de relatórios eletrônicos**, **Importação de relatórios eletrônicos** e **Mensagem de exportação de relatórios eletrônicos** . |
-| Tipo de item de mensagem       | Selecione o tipo de registros para os quais a ação deve ser avaliada. Esse campo está disponível para ações dos tipos **Nível de execução de item de mensagem**, **Exportação de relatórios eletrônicos** e **Importação de relatórios eletrônicos** e também para alguns outros tipos. Se deixar esse campo em branco, todos os tipos de item da mensagem definidos para o processamento de mensagens são avaliados. |
+| Mapeamento de formato          | Selecione o formato de ER a ser chamado para a ação. Esse campo só está disponível para ações dos tipos **Exportação de relatórios eletrônicos**, **Importação de relatórios eletrônicos** e **Mensagem de exportação de relatórios eletrônicos**. |
+| Mapeamento do formato para caminho da URL | Selecione o formato de ER a ser chamado para a ação. Este campo está disponível apenas para ações dos tipos **Serviço Web** e é usado para compor o caminho do endereço da URL que será adicionado ao endereço de Internet básico especificado para o servidor Web selecionado. |
+| Tipo de item de mensagem       | Selecione o tipo de registros para os quais a ação deve ser avaliada. Esse campo está disponível para ações dos tipos **Nível de execução de item de mensagem**, **Exportação de relatórios eletrônicos**, **Importação de relatórios eletrônicos**, **Serviço Web** e também para alguns outros tipos. Se deixar esse campo em branco, todos os tipos de item da mensagem definidos para o processamento de mensagens são avaliados. |
 | Classe executável        | Selecione as configurações de classe executável previamente criadas. Este campo só está disponível para ações dos tipos **Nível de execução de item de mensagem** e **Nível de execução de item de mensagem** . |
 | Ação de preencher registros | Selecione uma ação de preencher registros previamente configurada. Esse campo só está disponível para ações do tipo **Preencher registros**. |
+| Serviço Web  | Selecione um serviço Web previamente configurado. Esse campo só está disponível para ações do tipo **Serviço Web**.  |
+| Nome do arquivo  | Especifique o nome do arquivo que resultará na ação como uma resposta do servidor Web ou geração de um relatório. Este campo só está disponível para ações do tipo **Serviço Web** e **Mensagem de exportação de relatório eletrônico**.   |
+| Mostrar caixa de diálogo  | Marque esta caixa de seleção se uma caixa de diálogo deve ser mostrada para um usuário antes da geração do relatório. Este campo só está disponível para ações do tipo **Mensagem de exportação de relatório eletrônico**.   |
 
 ##### <a name="message-processing-action-types"></a>Tipos de ação de processamento de mensagens
 
 As seguintes opções estão disponíveis no campo **Tipo de ação**:
 
-- **Preencher registros** – a ação **Preencher registros** deve ser previamente configurada. Associe-a a uma ação do tipo **Preencher registros** para permitir que ela seja incluída no processamento. Presume-se que esse tipo de ação será usado para a primeira ação no processamento de mensagens. Portanto, somente um status de resultado pode ser configurado para uma ação desse tipo. Um status inicial não pode ser configurado.
 - **Criar mensagem** – use esse tipo para permitir que os usuários criem manualmente mensagens na página **Mensagem eletrônica**. Um status inicial não pode ser configurado para uma ação desse tipo.
+- **Preencher registros** – a ação **Preencher registros** deve ser previamente configurada. Associe-a a uma ação do tipo **Preencher registros** para permitir que ela seja incluída no processamento. Presume-se que esse tipo de ação seja usado para a primeira ação no processamento de mensagens (quando nenhuma mensagem eletrônica é criada antecipadamente) ou como uma ação que inclui itens de mensagens em uma mensagem criada anteriormente (por uma ação do tipo**Criar mensagem**). Portanto, o status de resultado de apenas itens de mensagens pode ser configurado para uma ação desse tipo. Um status inicial pode ser configurado apenas para mensagem.
 - **Nível de execução da mensagem** – use esse tipo para configurar uma classe executável que deve ser avaliada no nível da mensagem.
 - **Nível de execução de item de mensagem** – use esse tipo para configurar uma classe executável que deve ser avaliada no nível do item de mensagem.
 - **Exportação de relatórios eletrônicos** – use esse tipo para as ações que devem gerar um relatório com base em uma configuração de ER de exportação no nível do item da mensagem.
@@ -190,15 +254,15 @@ As seguintes opções estão disponíveis no campo **Tipo de ação**:
 - **Importação de relatórios eletrônicos** – use esse tipo para as ações que devem gerar um relatório com base em uma configuração de ER de exportação no nível do item da mensagem.
 - **Processamento de usuário no nível da mensagem** – use esse tipo para as ações que supõem algumas ações manuais do usuário. Por exemplo, o usuário pode atualizar o status de mensagens.
 - **Processamento de usuário** – use esse tipo para as ações que supõem alguma ação manual do usuário. Por exemplo, o usuário pode atualizar o status de itens de mensagem.
-- **Serviço Web** – use esse tipo para as ações que devem transmitir um relatório gerado para um serviço Web. Esse tipo de ação não é usado para o relatório de comunicação de faturas de compra e venda italiano.
+- **Serviço Web** – use esse tipo para as ações que devem transmitir um relatório gerado para um serviço Web. Esse tipo de ação não é usado para o relatório de comunicação de faturas de compra e venda italiano. Para ações de tipo **Serviço Web**, você pode especificar um **Texto de confirmação** na guia rápida **Detalhes diversos** de **Ações de processamento de mensagens**. Este texto de confirmação será mostrado ao usuário antes que a solicitação para o serviço Web selecionado seja endereçada.
 - **Verificação de solicitação** – use esse tipo para solicitar a verificação de um servidor.
 
 #### <a name="initial-statuses-fasttab"></a>FastTab Status iniciais
 
 > [!NOTE]
-> A FastTab **Status iniciais** não está disponível para ações com um tipo inicial **Preencher registros** ou **Criar mensagem**.
+> A FastTab **Status iniciais** não está disponível para ações que têm um tipo inicial de **Criar mensagem**.
 
-| Campo               | descrição                                                                                         |
+| Campo               | Descrição                                                                                         |
 |---------------------|-----------------------------------------------------------------------------------------------------|
 | Status de item de mensagem | Selecione o status do item de mensagem para o qual a ação de processamento de mensagens deve ser avaliada. |
 | descrição         | Uma descrição do status do item de mensagem selecionado.                                                  |
@@ -212,11 +276,29 @@ As seguintes opções estão disponíveis no campo **Tipo de ação**:
 | Tipo de resposta       | O tipo de resposta do status da mensagem selecionada. |
 | Status de item de mensagem | Selecione os status resultantes que devem estar disponíveis após a avaliação da ação de processamento de mensagens. Esse campo só está disponível para ações de processamento de mensagens que são avaliadas no nível de item de mensagem. Por exemplo, está disponível para as ações dos tipos **Processamento de usuário** e **Nível de execução de item de mensagem**. Para ações de processamento de mensagens que são avaliadas no nível da mensagem, esse campo mostra o status do item de mensagem que foi configurado para o status da mensagem selecionado. |
 
+A tabela a seguir ilustra quais status de resultados devem ser configurados em relação aos tipos de ações:
+
+| Tipo de ação/resposta de mensagem eletrônica  | Execução bem-sucedida  | Erro de negócios  | Erro técnico  | Definido pelo Usuário  | Cancelar  |
+|-------------------------------------------------|--------------|---------|-------|-----|-----------------|
+| Criar mensagem                                  | X            |         |       |     |                 |
+| Exportação de relatório eletrônico                     | X            |         |       |     |                 |
+| Importação de relatório eletrônico                     |              |         |       |     |                 |
+| Serviço Web                                     | X            |         | X     |     |                 |
+| Processamento do usuário                                 |              |         |       |     |                 |
+| Nível de execução da mensagem                         |              |         |       |     |                 |
+| Preencher registros                                |              |         |       |     |                 |
+| Nível de execução do item da mensagem                    |              |         |       |     |                 |
+| Verificação da solicitação                            | X            |  X      | X     |     |                 |
+| Mensagem de exportação de relatório eletrônico             | X            |         |       |     |                 |
+| Processamento de usuário de nível de mensagem                   |              |         |       |     |                 |
+
 ### <a name="electronic-message-processing"></a>Processamento de mensagem eletrônica
 
-O processamento de mensagens eletrônicas é um conceito básico da funcionalidade Mensagens eletrônicas. Agrega ações que devem ser avaliadas para a mensagem eletrônica. As ações que podem ser vinculadas por meio de um status inicial e um status de resultado. Alternativamente, as ações do tipo **Processamento de usuário** podem ser iniciadas de forma independente. Na página **Processamento de mensagens eletrônica** (**Imposto** \> **Configuração** \> **Mensagens eletrônicas** \> **Processamento de mensagens eletrônicas**), é possível selecionar os campos adicionais que devem ter suporte para o processamento.
+O processamento de mensagens eletrônicas é um conceito básico da funcionalidade Mensagens eletrônicas. Agrega ações que devem ser avaliadas para a mensagem eletrônica. As ações que podem ser vinculadas por meio de um status inicial e um status de resultado. Alternativamente, as ações do tipo **Processamento de usuário** podem ser iniciadas de forma independente. Na página **Processamento de mensagens eletrônica** (**Imposto** \> **Configuração** \> **Mensagens eletrônicas** \> **Processamento de mensagens eletrônicas**), é possível selecionar os campos adicionais que devem ter suporte para o processamento no nível da mensagem ou no nível dos itens da mensagem.
 
-A FastTab **Ação** permite adicionar ações predefinidas ao processamento. Você pode especificar se uma ação deve ser executada separadamente, ou pode ser iniciada pelo processamento. (As ações do usuário deve ser executadas separadamente).
+A FastTab **Ação** permite adicionar ações predefinidas ao processamento. Você pode especificar se uma ação deve ser executada separadamente, ou pode ser iniciada pelo processamento. Para definir se a ação pode ser inicializada apenas por um usuário, marque a caixa de seleção **Executar separadamente** para a ação no processamento. Desmarque o parâmetro **Executar separadamente** para que a ação seja iniciada por processamento em caso de mensagens ou itens de mensagem no status definido como status inicial para tal ação. A ação do tipo **Ação do usuário** só deverá ser executada separadamente. 
+
+Às vezes, pode ser necessário agregar várias ações em uma sequência, mesmo quando a primeira delas é definida para ser executada separadamente. Por exemplo, quando é necessário que a geração de relatórios seja inicializada por um usuário, mas, uma vez gerado, o relatório deve ser enviado imediatamente para um serviço Web e a resposta do serviço Web deve ser refletida no sistema. Você pode usar para esta finalidade: **Sequência inseparável**. Para fazer isso, clique no botão **Sequência inseparável** no Painel de Ação da guia rápida **Ação** da página **Processamento de mensagem eletrônica**, crie uma sequência e selecione-a na coluna **Sequência inseparável** para as ações que devem ser executadas sempre juntas. A primeira ação nesse caso pode ser configurada como **Executar separadamente**, mas todas as outras não.
 
 A FastTab **Campos adicionais do item de mensagem** permite adicionar os campos adicionais predefinidos relacionados a itens de mensagem. Você deve adicionar outros campos para cada tipo de item de mensagem ao qual os campos estão relacionados.
 
@@ -238,16 +320,22 @@ A FastTab **Mensagens** mostra mensagens eletrônicas para o processamento selec
 
 - **Novo** – esse botão está associado a ações do tipo **Criar mensagem**.
 - **Excluir** – esse botão estará disponível se a caixa de seleção **Permitir exclusão** estiver marcada para o status atual da mensagem selecionada.
+- **Coletar dados** - Este botão está associado à ação do tipo **Preencher registros**.
 - **Gerar relatório** – esse botão está associado a ações do tipo **Mensagem de exportação de relatórios eletrônicos**.
 - **Enviar relatório** – esse botão está associado a ações do tipo **Serviço Web**.
+- **Importar resposta** - Este botão está associado a ações do tipo **Importação de relatório eletrônico**.
 - **Status da atualização** – esse botão está associado a ações do tipo **Processamento de usuário no nível da mensagem**.
 - **Itens de mensagem** – abra a página **Itens de mensagem eletrônica**.
 
-A FastTab **Log de ação** mostra informações sobre todas as ações executadas para a mensagem selecionada.
+A FastTab **Log de ação** mostra informações sobre todas as ações executadas para a mensagem selecionada. Se uma ação resultou em um erro, as informações sobre o erro serão anexadas à linha de log de ação relacionada. Selecione a linha e clique no botão **clip** no canto superior direito da página para analisar as informações sobre o erro.
 
 A FastTab **Campos adicionais da mensagem** mostra todos os campos adicionais definidos para mensagens na configuração de processamento. Também mostra os valores desses campos adicionais.
 
-A FastTab **Itens de mensagem** mostra todos os itens de mensagem relacionados à mensagem selecionada.
+A FastTab **Itens de mensagem** mostra todos os itens de mensagem relacionados à mensagem selecionada. Para cada um dos itens de mensagem, a função seguinte pode ser usada dependendo do status desse item de mensagem:
+
+- **Excluir** – Este botão estará disponível se a caixa de seleção **Permitir exclusão** estiver marcada para o o status atual do item de mensagem selecionado.
+- **Status da atualização** – Este botão está associado a ações do tipo **Processamento do usuário**.
+- **Documento original** - Este botão permite ao usuário abrir uma página com o documento original da mensagem selecionada.
 
 Você pode examinar todos os anexos para a mensagem selecionada. Os anexos são relatórios que já foram já gerados e recebidos. Selecione a mensagem cujos anexos serão examinados e então selecione o botão **Anexo** no Painel de Ações.
 

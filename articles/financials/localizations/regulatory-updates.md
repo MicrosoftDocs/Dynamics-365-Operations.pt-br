@@ -3,7 +3,7 @@ title: Atualizações regulatórias
 description: Este tópico fornece uma lista de atualizações regulatórias planejadas e liberadas para o Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 01/25/2019
+ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 9dcf958165cffa3e3cd62b88a71295eefae9cf8f
-ms.sourcegitcommit: f004451a260b5be6c15c3975cd9e63ba9c1a7a2e
+ms.openlocfilehash: 3beeb77819661de3f6b55766a1f8a5bd1fe023ba
+ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "375981"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832092"
 ---
 # <a name="regulatory-updates"></a>Atualizações regulatórias
 
@@ -40,6 +40,14 @@ Quando um mês é usado na coluna Data, a atualização regulatória é planejad
 |      2019 de março          |   10.0.0      | Áustria      |   Alterações no Kammerumlage 2019 (Imposto de compra)    |
 |      2019 de março          |   10.0.0      |   Brasil    |     Contribuições EFD SPED - Layout 004 e 005  |
 |      2019 de março          |   10.0.0      |    Malásia     |A Malásia substitui GST por imposto sobre vendas e serviços de SST        |
+|      2019 de abril          |   10.0.1      |    Áustria     |Retail -Integração fiscal         |
+|      2019 de abril          |   10.0.1      |    Europa     |Faturamento eletrônico - Exportação de faturas de cliente no formato PEPPOL BIS 3         |
+|      2019 de abril          |   10.0.1      |    Europa     |Faturamento eletrônico - Importação de faturas de fornecedores no formato PEPPOL BIS 3         |
+|      2019 de abril          |   10.0.1      |   Alemanha     |Faturamento eletrônico - Exportação de faturas de cliente no formato xRechnung 1.1         |
+|      2019 de abril          |   10.0.1      |    Reino Unido     |[Alterações de envio da declaração IVA (Declaração de impostos digital)](emea-gbr-mtd-vat-integration.md)    |    
+|      2019 de abril          |   10.0.1      |    Brasil     |Nova NF-e NT 2018.005         |
+|      2019 de abril          |   10.0.1      |    Rússia     |Alterações do formato da declaração IVA de 2019         |
+|      2019 de abril          |   10.0.1      |    Rússia     |Alterações de formato de declaração IVA de 2019 (Formatos de venda e compra de livros)  |
 
 ## <a name="additional-resources"></a>Recursos adicionais
 - Encontre todas as atualizações regulatórias planejadas e divulgadas [Lifecycle Service - Pesquisa de problemas](https://lcs.dynamics.com/Logon/Index) (logon necessário).

@@ -1,98 +1,114 @@
 ---
 title: A funcionalidade do site de carreiras no Attract
-description: "Este artigo fornece uma visão geral da funcionalidade do site de carreiras voltada para o candidato no Microsoft Dynamics 365 for Talent - Attract. Ele também explica como configurar esta funcionalidade."
-author: josaw
+description: Este tópico fornece uma visão geral da funcionalidade do site de carreiras voltada para o candidato no Attract.
+author: josaw1
 manager: AnnBe
-ms.date: 10/18/2018
+ms.date: 02/12/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Talent
-ms.custom: 
-ms.assetid: 
+ms.search.scope: Talent, Core
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.author: rschloma
-ms.search.validFrom: 2018-10-18
-ms.dyn365.ops.version: AX 7.0.0
+ms.author: josaw
+ms.search.validFrom: 2019-02-12
+ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
+ms.openlocfilehash: 087ab4034a1e601e7f3514c77d56ef54b0c5c52d
+ms.sourcegitcommit: 1ee613a88edddab036d145f27f19d071a4b8ad24
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: 452e3e92ea32ab5f1e3720ab81ff2f7ea18b2a06
-ms.contentlocale: pt-br
-ms.lasthandoff: 10/22/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "389948"
 ---
 # <a name="career-site-functionality-in-attract"></a>A funcionalidade do site de carreiras no Attract
 
-[!include [banner](includes/banner.md)]
+[!include[banner](../includes/banner.md)]
 
-Este artigo fornece uma visão geral da funcionalidade do site de carreiras voltada para o candidato no Microsoft Dynamics 365 for Talent: Attract. Ele também explica como configurar esta funcionalidade.
+Este tópico fornece uma visão geral da funcionalidade do site de carreiras voltada para o candidato no Microsoft Dynamics 365 for Talent: Attract. Ele também explica como configurar esta funcionalidade.
 
-## <a name="overview"></a>Visão Geral
-
-O Attract fornece um site de carreiras para cada ambiente em um locatário. Por exemplo, se uma organização tiver um ambiente de desenvolvimento e um ambiente de teste, um site de carreiras será provisionado para o ambiente de desenvolvimento e outro site de carreiras será provisionado para o ambiente de teste. Cada site de carreiras é **totalmente isolado** e tem seu próprio mecanismo de autenticação. Os trabalhos e os perfis do candidato não são compartilhados entre sites de carreiras.
+O Attract fornece um site de carreiras para cada ambiente em um locatário. Por exemplo, se uma organização tiver um ambiente de desenvolvimento e um ambiente de teste, um site de carreiras será provisionado para o ambiente de desenvolvimento e outro site de carreiras será provisionado para o ambiente de teste. Cada site de carreiras é totalmente isolado e tem seu próprio mecanismo de autenticação. Os trabalhos e os perfis do candidato não são compartilhados entre sites de carreiras.
 
 Por padrão, o site de carreiras é público. Portanto, os candidatos podem exibir todos os trabalhos que estão marcados como externos sem precisar fazer logon. Entretanto, todas a outras ações exigem que os candidatos façam logon.
 
 ## <a name="career-site-management"></a>Gerenciamento do site de carreiras
 
-Os seguintes itens no site de carreiras são controlados por configurações:
+Para definir os valores dos itens a seguir, entre no Attract como administrador, selecione **Centro de Administração** no menu **Configurações** (o símbolo de engrenagem) e selecione a guia **Informações sobre a empresa**.
 
-- **Nome da organização:** o nome da organização aparece na barra de navegação na parte superior do site de carreiras. Ao selecionar o nome da organização, os candidatos vão para uma página que lista todos os trabalhos abertos.
-- **Logotipo organizacional:** uma imagem do logotipo organizacional aparece na parte superior esquerda do site de carreiras. Ao selecionar a imagem do logotipo, os candidatos vão para uma página que lista todos os trabalhos abertos.
+-   **Nome da organização** - O nome da organização aparece na barra de navegação na parte superior do site de carreiras. Ao selecionar o nome da organização, os candidatos vão para uma página que lista todos os trabalhos abertos.
 
-Para definir os valores do nome e do logotipo da organização, entre no Attract como administrador, selecione **Centro de Administração** no menu **Configurações** (o símbolo de engrenagem) e selecione a guia **Informações sobre a empresa**.
+-   **Logotipo organizacional** - Uma imagem do logotipo organizacional aparece na parte superior esquerda do site de carreiras. Ao selecionar a imagem do logotipo, os candidatos vão para uma página que lista todos os trabalhos abertos.
 
-> [!NOTE]
-> A imagem de logotipo que aparece no site de carreiras tem uma altitude fixa de 20 pixels (px). A imagem que você adiciona no Centro de administração é ajustada. Portanto, dependendo da imagem, a largura pode mudar.
+    >   [!NOTE] 
+    >   A imagem de logotipo que aparece no site de carreiras tem uma altitude fixa de 20 pixels (px). A imagem que você adiciona no Centro de administração é ajustada. Portanto, dependendo da imagem, a largura pode mudar.
+ 
+Para definir os valores dos itens a seguir, entre no Attract como administrador, selecione **Centro de Administração** no menu **Configurações** e selecione a guia **Gerenciamento do site de carreiras**.
 
-## <a name="career-site-url"></a>URL do site de carreiras
+-   **Otimização do mecanismo de pesquisa** - Quando habilitada, todos os trabalhos públicos postados para o site de carreiras do Attract serão pesquisados usando mecanismos de pesquisa, como o Bing e o Google.
 
-Ao [lançar um trabalho externo](./Creating-jobs-Attract.md#postings) pela primeira vez, você pode copiar o link **Solicitar** da solicitação de emprego do Attract. A URL para esse link estará neste formato: `https://jobs.talent.dynamics.com/jobs/<company_name>/<environment_number>/<job_number>/apply`
+    >   [!NOTE] 
+    >   Pode haver um atraso entre ativar essa configuração e os resultados da pesquisa, dependendo do mecanismo de pesquisa que você está usando.
+         
+## <a name="career-site-urls"></a>URLs do site de carreiras
 
-A URL do site de carreiras é uma subcadeia de caracteres da URL **Solicitar**. Ela consiste em tudo até o nome da empresa. Assim, para a URL **Solicitar** precedente, a URL do site de carreiras é `https://jobs.talent.dynamics.com/jobs/<company_name>/`.
+A lista a seguir contém as URLs do site de carreiras comumente usadas e como acessá-las.
+
+-   **URL da página inicial do site de carreira** - Para visualizar a URL da página inicial do site de carreira, entre no Attract como administrador, selecione **Centro de administração** no menu **Configurações** e selecione a guia **Gerenciamento do site de carreiras**.
+
+-   **URL da solicitação de lançamento de trabalho individual** - Ao [postar um trabalho externo](Creating-jobs-Attract.md#postings) pela primeira vez, você pode copiar o link **Solicitar** da solicitação de emprego do Attract. A URL para esse link estará neste formato: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
+
+-   **URL de lançamento de trabalho individual** - A URL de lançamento de trabalho é uma subsequência da URL de solicitação. Ela consiste em tudo até o número de trabalho. Assim, para a URL de solicitação precedente, a URL de lançamento de trabalho é [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e)
 
 ## <a name="authentication-options"></a>Opções de autenticação
 
 Os candidatos têm as seguintes opções de logon para um site de carreiras do Attract:
 
-- Conta pessoal:
+-   Conta pessoal:
 
-    - LinkedIn
-    - Microsoft
-    - Google
-    - Facebook
+    -   LinkedIn
 
-- Conta corporativa ou de estudante:
+    -   Microsoft
 
-    - Microsoft Azure Active Directory (Azure AD)
+    -   Google
 
-O logon do Azure AD se destina somente a candidatos internos. Portanto, ele só funciona para candidatos internos que usam suas credenciais do Azure AD da empresa. Por exemplo, um candidato que no momento é um funcionário da Contoso Ltd deseja candidatar-se a um trabalho em uma empresa não relacionada, a Alpine Ski House. Nesse caso, o logon será malsucedido se o funcionário tentar usar suas credenciais do Azure AD da Contoso Ltd.
+    -   Facebook
+
+-   Conta corporativa ou de estudante:
+
+    -   Microsoft Azure Active Directory (Azure AD)
+
+O logon do Azure AD se destina somente a candidatos internos. Portanto, ele só funciona para candidatos internos que usam suas credenciais do Azure AD da empresa. Por exemplo, um candidato que no momento é um funcionário da Contoso Ltd deseja candidatar-se a um trabalho em uma empresa não relacionada, a Alpine Ski House. Nesse caso, o logon será malsucedido se o funcionário tentar usar as credenciais do Azure AD da Contoso Ltd.
 
 ## <a name="create-and-maintain-a-profile"></a>Criar e manter um perfil
 
-Após os candidatos entrarem no site de carreiras, eles podem selecionar **Meu perfil** na barra de navegação na parte superior da página para criar e manter o perfil. O perfil inclui informações pessoais, informações sobre a experiência de trabalho, detalhes de formação educacional, documentos, links e informações sobre os conjuntos de habilidades. Após um perfil ser criado, ele pode ser usado para candidatar-se a posições de interesse do candidato. Os perfis também ajudam o Attract a recomendar os trabalhos certos para candidatos.
+Após os candidatos entrarem no site de carreiras, eles podem selecionar **Meu perfil** na barra de navegação na parte superior da página para criar e manter o perfil.
+O perfil inclui informações pessoais, informações sobre a experiência de trabalho, detalhes de formação educacional, documentos, links e informações sobre os conjuntos de habilidades. Após um perfil ser criado, ele pode ser usado para candidatar-se a posições de interesse do candidato. Os perfis também ajudam o Attract a recomendar os trabalhos certos para candidatos.
 
-## <a name="find-the-right-job"></a>Localize o trabalho certo
+>   [!NOTE]
+>   Se um candidato usar uma ID de email para fazer logon usando um dos provedores de autenticação listados acima, essa ID de email será padronizado para a ID de email de contato associada ao perfil. No entanto, esse última pode ser alterada a qualquer momento e é completamente independente da primeira. O Attract sempre usará a ID de email de contato para associar ao seu perfil para todas as comunicações por email.
+
+## <a name="find-the-right-job"></a>Localizar o trabalho certo
 
 Na página de listas de trabalho, os candidatos podem procurar para um trabalho específico inserindo termos da pesquisa. A funcionalidade de pesquisa procura os termos da pesquisa em cargos e descrições de trabalho e mostra os trabalhos relevantes como resultados. Os candidatos podem filtrar os resultados a qualquer momento, com base no local de trabalho ou na função de trabalho.
 
 Os candidatos também podem exibir um conjunto de trabalhos recomendados no site de carreiras. Os trabalhos que são recomendados para um um candidato se baseiam nas solicitações de emprego, nos perfis e nos currículos anteriores do candidato.
 
-> [!NOTE]
-> As recomendações de trabalho só serão mostradas se pelo menos 10 trabalhos forem lançados no site de carreiras e se o candidato preencher o perfil.
+>   [!NOTE] 
+>   As recomendações de trabalho só serão mostradas se pelo menos 10 trabalhos forem lançados no site de carreiras e se o candidato preencher um perfil.
 
 ## <a name="apply-for-jobs"></a>Candidatar-se a empregos
 
-Após os candidatos encontrarem o trabalho certo, eles podem candidatar-se usando o botão **Solicitar** na página de detalhes do trabalho. Nesse ponto, os candidatos podem criar um novo perfil ou revisar as informações do perfil existente. Os candidatos também podem carregar um currículo, conforme necessário, e enviar a solicitação de emprego.
+Após os candidatos encontrarem o trabalho certo, eles podem se candidatar usando o botão **Solicitar** na página **Detalhes do trabalho**. Nesse ponto, os candidatos podem criar um novo perfil ou revisar as informações do perfil existente.
+Os candidatos também podem carregar um currículo, conforme necessário, e enviar a solicitação de emprego.
 
 ## <a name="check-application-status"></a>Verificar o status da solicitação de emprego
 
-Após os candidatos se candidatarem a um ou mais empregos, eles podem selecionar **Solicitações de emprego** na barra de navegação na parte superior da página para exibir as solicitações de emprego abertas e fechadas. Quando os candidatos abrem uma de suas solicitações de emprego, eles veem o estágio atual e os itens de ação pendentes que precisam concluir. Por exemplo, se um candidato precisar fornecer datas potenciais para uma entrevista pessoal, a página mostrará suas opções.
+Após os candidatos se candidatarem a um ou mais empregos, eles podem selecionar **Solicitações de emprego** na barra de navegação na parte superior da página para exibir as solicitações de emprego abertas e fechadas. Quando os candidatos abrem uma de suas solicitações de emprego, eles veem o estágio atual e os itens de ação pendentes que precisam concluir. Por exemplo, se um candidato precisar fornecer datas potenciais para uma entrevista pessoal, a página mostrará as opções disponíveis.
 
 ## <a name="internal-jobs"></a>Cargos internos
 
 No momento, os cargos marcados como internos e lançados no site de carreiras do Attract não aparecem no site de carreiras. Eles só podem ser acessados por meio da URL **Solicitar** direta que pode ser copiada do aplicativo Attract.
-

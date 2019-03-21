@@ -3,7 +3,7 @@ title: Adquirir ativos por meio de compra
 description: Este tópico descreve como configurar a integração entre Ativos fixos e Contas a pagar para criar automaticamente ativos fixos de ordens ou faturas de fornecedor ou lançar automaticamente transações de aquisições e de ajuste de aquisições para ativos fixos.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/27/2017
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eef69de1c93de5c19b9f197838f1f2d3eb2e7645
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ba3484e62caa790a5b05ae0693f69926514f6425
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "355785"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778215"
 ---
 # <a name="acquire-assets-through-procurement"></a>Adquirir ativos por meio de compra
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como configurar a integração entre Ativos fixos e Contas a pagar para criar automaticamente ativos fixos de ordens ou faturas de fornecedor ou lançar automaticamente transações de aquisições e de ajuste de aquisições para ativos fixos.
+Este tópico descreve como configurar a integração entre Ativos fixos e Contas a pagar para criar automaticamente ativos fixos de ordens ou faturas de fornecedor ou lançar automaticamente transações de aquisições e de ajuste de aquisições para ativos fixos. Uma linha de compras criará um ativo, independentemente da quantidade na linha de compras. Se precisar criar vários ativos fixos, você deverá criar várias linhas de compras.
 
  Os seguintes métodos estão disponíveis para integrar Ativos fixos e Contas a pagar, e você deve usar o mesmo método para todos os ativos fixos:
 -   Crie manualmente um ativo fixo antes de adicionar o número do ativo fixo à linha na ordem de compra ou na fatura de fornecedor. Uma transação de aquisição é lançada automaticamente para o ativo quando você lança a fatura de fornecedor. Esse é o método padrão.

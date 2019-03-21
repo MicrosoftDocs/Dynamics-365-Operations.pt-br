@@ -3,7 +3,7 @@ title: Brasil
 description: Este tópico fornece links para recursos da documentação do Microsoft Dynamics 365 for Finance and Operations para o Brasil.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 07/17/2018
+ms.date: 02/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Brazil
 ms.author: shylaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 1052947fdcece2bded9e7313e51252ca9a17a4f7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 7906c79c1cbab2d6eb7c2f637619fbb9e41f282e
+ms.sourcegitcommit: ca1a472a670393f7aa208189dc8964c9691e2cdc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371701"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "390132"
 ---
 # <a name="brazil"></a>Brasil 
 
@@ -49,15 +49,15 @@ Este tópico inclui informações e links para recursos que podem ajudar você a
    - [Certificados de NF-e](latam-bra-nfe-certs.md)
    - [Configurar, importar e verificar documentos XML de NF-e e DANFE](latam-bra-set-up-import-nfe.md)
    - [Configurar parâmetros de NF-e federais](tasks/br-00053-1-set-up-nf-e-federal-parameters.md)
-   - [Configurar parâmetros de NF-e para estabelecimento fiscal](tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md)
-- [​Parâmetros para entidades legais​](latam-bra-legal-entity-parameters.md)
-- [​Adquirir um ativo fixo CIAP​](latam-bra-ciap-fixed-asset.md)
-- [​Alienar um ativo fixo CIAP​](latam-bra-ciap-fixed-asset.md)
+   - [Configurar parâmetros de NF-e para um estabelecimento fiscal](tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md)
+- [Parâmetros para entidades legais](latam-bra-legal-entity-parameters.md)
+- [Adquirir e alienar um ativo fixo do CIAP](latam-bra-ciap-fixed-asset.md)
+- [SPED ECD](latam-bra-sped-ecd.md)
 - [Impostos](latam-bra-calculate-taxes.md)
   - [Calcular impostos em cotações de compra](tasks/br-00031-tax-calculation-purchase-quotation.md)
-  - [Criar apuração de imposto - ICMS](tasks/br-10001-4-create-tax-assessment-icms.md)
-  - [Criar apuração de imposto - imposto IPI](tasks/br-10004-2-create-tax-assessment-ipi-tax.md)
-  - [Criar apuração de imposto - PIS e COFINS](tasks/br-10006-4-create-tax-assessment-pis-cofins-tax.md)
+  - [Criar apuração de imposto – ICMS](tasks/br-10001-4-create-tax-assessment-icms.md)
+  - [Criar apuração de imposto – imposto IPI](tasks/br-10004-2-create-tax-assessment-ipi-tax.md)
+  - [Criar apuração de imposto – PIS e COFINS](tasks/br-10006-4-create-tax-assessment-pis-cofins-tax.md)
   - [Inserir e lançar transações de ajuste de imposto](tasks/br-10001-3-enter-post-tax-adjustment-transactions.md)
   - [Inserir transações de ajuste de imposto PIS e COFINS](tasks/br-10006-3-enter-pis-cofins-tax-adjustment-transactions.md)
   - [Atributos de imposto de estabelecimento fiscal](tasks/br-00002-fiscal-establishment-tax-attributes.md)
@@ -72,7 +72,7 @@ Este tópico inclui informações e links para recursos que podem ajudar você a
   - [​Atributos de impostos​](latam-bra-tax-attributes.md)
   - [​Pagamentos de impostos​](latam-bra-tax-payments.md)
   - [Impostos nas cotações de venda](tasks/br-00057-brazilian-taxes-sales-quotation.md)
-  - [Impostos retidos na fonte ](tasks/br-00009-brazilian-withholding-taxes.md)
+  - [Impostos retidos na fonte](tasks/br-00009-brazilian-withholding-taxes.md)
     - [Impostos retidos na fonte em pagamentos de clientes](tasks/br-00042-withholding-taxes-customers-payments.md)
     - [Impostos retidos na fonte em pagamentos de fornecedores](tasks/br-00061-withholding-taxes-vendors-payments.md)
 - Tarefas para o Brasil

@@ -3,7 +3,7 @@ title: Conciliação de faturas de contas a pagar
 description: A conciliação de faturas de contas a pagar é o processo de conciliar as informações da fatura do fornecedor e do recebimento do produto.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 02/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11cc2d4ddbd30ff4d010f6b34119a7ad96d5aecb
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6d1582d268be759cd1f1686c9e80f6cf7eeb2da8
+ms.sourcegitcommit: 1ee613a88edddab036d145f27f19d071a4b8ad24
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "310268"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "389924"
 ---
 # <a name="accounts-payable-invoice-matching"></a>Conciliação de faturas de contas a pagar
 
@@ -49,7 +49,7 @@ Você pode usar os seguintes tipos de conciliação de faturas de contas a pagar
 
 A conciliação dupla e a conciliação tripla conciliam as informações de preço pelo preço da unidade. Você também pode configurar essas políticas de conciliação para informações de preço de conciliação pelo preço total.
 -   Conciliação de preço líquido unitário - Concilia as informações de preço para conciliações duplas ou triplas comparando o preço líquido unitário para cada linha na fatura com o preço líquido unitário na ordem de compra. O preço líquido unitário é determinado pela seguinte fórmula: Valor líquido da linha / Quantidade da linha
--   Conciliação dos totais de preço - Concilia as informações de preço para conciliações duplas ou triplas comparando o valor líquido (total do preço) para cada linha na fatura com o valor líquido na ordem de compra. O valor líquido é determinado pela seguinte fórmula: (Preço unitário \* Quantidade da linha) + Encargos da linha - Descontos da linha
+-   Conciliação dos totais de preço - Concilia as informações de preço para conciliações duplas ou triplas comparando o valor líquido (total do preço) para cada linha na fatura com o valor líquido na ordem de compra. O valor líquido é determinado pela seguinte fórmula: *(Preço unitário \* Quantidade da linha) + Encargos da linha - Descontos da linha*. Ao combinar os totais de preços por porcentagem, o sistema compara os valores usando a moeda da transação. Ao combinar totais de preço por valor, o sistema compara os valores usando a moeda contábil.
 
 Normalmente, os cálculos de conciliação de fatura são executados automaticamente quando você edita as faturas de fornecedor na página Fatura de fornecedor. Como alternativa, a conciliação de faturas pode ser executada sob demanda, conforme necessário. A conciliação de faturas sob demanda é controlada para a entidade legal pela função Atualizar automaticamente o status do cabeçalho da fatura para na página Parâmetros de contas a pagar na guia Validação de fatura. A conciliação de faturas também pode ser realizada como parte de um processo de revisão de fatura. Você pode exibir os resultados da conciliação de faturas na página Fatura de fornecedor e nas páginas de conciliação de faturas relacionadas.
 

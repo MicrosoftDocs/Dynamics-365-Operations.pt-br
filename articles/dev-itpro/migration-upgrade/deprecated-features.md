@@ -3,7 +3,7 @@ title: Recursos removidos ou obsoletos
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção.
 author: sericks007
 manager: AnnBe
-ms.date: 12/10/2018
+ms.date: 03/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f4413573f2e269e5a523940fbb841358e178d10
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a4dc8f11cfef7c0f42c62c42cd984438a3e119a5
+ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329243"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836339"
 ---
 # <a name="removed-or-deprecated-features"></a>Recursos removidos ou preteridos
 
@@ -35,11 +35,77 @@ Este tópico descreve os recursos que foram removidos ou substituídos do Dynami
 
 Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovações para seu próprio planejamento. 
 
-> [!Note]
+> [!NOTE]
 > A partir da versão de julho de 2017 do Dynamics 365 for Finance and Operations com a atualização 8 da plataforma, os tipos de implantações são observados para cada recurso removido ou substituído. Todas as versões anteriores mencionadas neste tópico ofereciam suporte apenas a implantações em nuvem.
 
-> [!Note]
+> [!NOTE]
 > Informações detalhadas sobre objetos no Finance and Operations podem ser encontradas nos [Relatórios de referência técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations.
+
+## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a>Dynamics 365 for Finance and Operations 10.0.1 com atualização de plataforma 25
+
+> [!IMPORTANT]
+> O Dynamics 365 for Finance and Operations 10.0.1 com a atualização 25 da plataforma está disponível para usuários direcionados como parte de uma versão prévia. O conteúdo e as funcionalidades estão sujeitos a alteração. Para obter informações sobre as versões prévias, consulte [Perguntas frequentes sobre as atualizações de serviço padrão e antecipada](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
+### <a name="deprecated-apis-and-potential-breaking-changes"></a>APIs preteridas e alterações significativas possíveis
+
+#### <a name="deriving-from-internal-classes-is-deprecated"></a>A derivação de classes internas é obsoleta
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Em versões anteriores à atualização 25 da plataforma, era possível criar uma classe ou tabela derivada de uma classe/tabela interna definida em outro pacote/módulo. Esta não é uma prática de codificação segura. A partir da atualização 25 da plataforma, o compilador exibirá uma mensagem de aviso se você tentar fazer isso.|
+| **Substituída por outro recurso?**   | O aviso do compilador será substituído por um erro em uma atualização de plataforma futura. Essa alteração é compatível com versões anteriores no tempo de execução, significando que, se você estiver executando a atualização 25 ou posterior da plataforma, ela poderá ser implantada em qualquer ambiente de área restrita ou de produção sem a necessidade de modificar o código personalizado. Essa alteração afeta apenas o tempo de desenvolvimento e compilação. |
+| **Áreas afetadas do produto**         | Ferramentas de desenvolvimento do Visual Studio. |
+| **Opção de implantação**              | Todas |
+| **Status**                         | Preterido - O aviso se tornará um erro de compilação em uma atualização de plataforma futura. |
+
+#### <a name="overriding-internal-methods-is-deprecated"></a>A substituição de métodos internos está obsoleta
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Em versões anteriores à atualização 25 da plataforma, era possível substituir um método interno em uma classe derivada definida em outro pacote/módulo. Esta não é uma prática de codificação segura. A partir da atualização 25 da plataforma, o compilador exibirá uma mensagem de aviso se você tentar fazer isso.|
+| **Substituída por outro recurso?**   | Esse aviso será substituído por um erro de compilação em uma atualização de plataforma futura. Essa alteração é compatível com versões anteriores no tempo de execução, significando que, se você estiver executando a atualização 25 ou posterior da plataforma, ela poderá ser implantada em qualquer ambiente de área restrita ou de produção sem a necessidade de modificar o código personalizado. Essa alteração afeta apenas o tempo de desenvolvimento e compilação. |
+| **Áreas afetadas do produto**         | Ferramentas de desenvolvimento do Visual Studio. |
+| **Opção de implantação**              | Todas |
+| **Status**                         | Preterido - O aviso se tornará um erro de compilação em uma atualização de plataforma futura. |
+
+## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>Dynamics 365 for Finance and Operations 8.1.3 com atualização de plataforma 23
+
+### <a name="print-to-screen-functionality"></a>Funcionalidade Imprimir na tela
+Os clientes podem usar a ação **Importar** fornecida pelo controle visualizador de relatórios para baixar documentos produzidos por aplicativos do Finance and Operations. Essa apresentação baseada em HTML do relatório oferece aos usuários uma visualização não paginada do documento.
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | A natureza não paginada da experiência de visualização baseada em HTML **não** oferece fidelidade aos documentos físicos produzidos pelo Finance and Operations. Ao adotar completamente o PDF como o formato padrão para operações de negócios, podemos simplificar drasticamente as opções do usuário para interagir com relatórios de aplicativos e agilizar o processo de renderização de documentos. |
+| **Substituída por outro recurso?**   | A partir de agora, os documentos PDF serão o formato padrão para relatórios renderizados pelo Finance and Operations.   |
+| **Áreas afetadas do produto**         | Essa mudança **não** afeta os cenários do cliente em que os relatórios são distribuídos eletronicamente ou enviados diretamente para as impressoras.    |
+| **Opção de implantação**              | Todas  |
+| **Status**                         | Preterido: Uma data de remoção não foi definida para esse recurso. A funcionalidade para baixar automaticamente os relatórios de aplicativos para o navegador como documentos PDF é planejada para a atualização da plataforma de maio de 2019. <br><br>**Importante:** os clientes existentes que dependem do recurso Imprimir na tela são aconselhados a notificar o [Suporte](../lifecycle-services/lcs-support.md) antes de atualizar para a atualização 26 da plataforma. |
+
+### <a name="client-kpi-controls"></a>Controles do KPI do cliente
+Os principais indicadores de desempenho (KPIs) incorporados podem ser modelados no Visual Studio por um desenvolvedor e ainda personalizados pelo usuário final.
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Os controles de clientes nativos usados para definir KPIs têm baixa aceitação do cliente e contam com um desenvolvedor para adicionar métricas rastreáveis. |
+| **Substituída por outro recurso?**   | O serviço PowerBI.com oferece ferramentas de primeira classe para definir e gerenciar KPIs com base em dados de fontes externas.  Em uma próxima versão, planejamos permitir que você incorpore soluções hospedadas no PowerBI.com em espaços de trabalho de aplicativos.   |
+| **Áreas afetadas do produto**         | Essa atualização impedirá os desenvolvedores de introduzir novos controles de KPI no designer do Visual Studio.    |
+| **Opção de implantação**              | Todas  |
+| **Status**                         | Preterido: Uma data de remoção não foi definida para esse recurso. |
+
+### <a name="deprecated-apis-and-future-breaking-changes"></a>APIs preteridas e alterações significativas futuras
+
+#### <a name="field-groups-containing-invalid-field-references"></a>Grupos de campos contendo referências de campo inválidas
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | É possível que as definições de metadados de tabela tenham grupos de campos contendo referências de campo inválidas. Esse problema é atualmente classificado como um *aviso do compilador* em vez de um *erro*, ou seja, a implantação e a criação de pacote implantável podem continuar sem corrigir o problema. Se implantada, ela pode causar falhas de tempo de execução no Financial Reporting e no SQL Server Reporting Services (SSRS). Para corrigir esse problema:<br><br>1. Remova a referência de campo inválida da definição do grupo de campos da tabela.<br><br>2. Recompile.<br><br>3. Certifique-se de que qualquer aviso ou erro seja tratado. |
+| **Substituída por outro recurso?**   | Esse aviso será substituído por um erro de compilação no futuro.  |
+| **Áreas afetadas do produto**         | Ferramentas de desenvolvimento do Visual Studio. |
+| **Opção de implantação**              | Tudo. |
+| **Status**                         | Preterido - O aviso se tornará um erro de tempo de compilação no futuro. No momento, estamos segmentando a atualização 30 da plataforma. |
+
+#### <a name="complete-list"></a>Lista completa
+Para acessar a lista completa de APIs que estão sendo reprovadas, consulte [Substituição de métodos e elementos de metadados](deprecation-deletion-apis.md).
 
 ## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1 com atualização de plataforma 20
 
@@ -51,8 +117,8 @@ O modo de transferência Síncrono está ficando obsoleto nos parâmetros da Con
 | **Motivo para a reprovação/remoção** | Estamos removendo a opção síncrona devido ao impacto de desempenho ao sistema. |
 | **Substituída por outro recurso?**   | Lote assíncrono e programado são opções a serem usadas no lugar de Síncrona.   |
 | **Áreas afetadas do produto**         | Contabilidade, Contas a Pagar, Contas a Receber, Compras, Despesa    |
-| **Opção de implantação**              | Tudo  |
-| **Status**                         | Preterido - o período determinado para a funcionalidade ser removida é a versão 10.0.|
+| **Opção de implantação**              | Todas  |
+| **Status**                         | Preterido: o período determinado para a funcionalidade ser removida é a versão 10.0.|
 
 ### <a name="electronic-reporting-for-russia"></a>Relatório eletrônico da Rússia
 Recurso para configurar formatos de arquivo .txt e .xml de declarações. 
@@ -243,7 +309,7 @@ O portal de dispositivos móveis de depósito (WMDP) é um componente autônomo 
 |   |  |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Funcionalidade duplicada.       |
-| **Substituída por outro recurso?**   | Sim. Este recurso foi substituído pelo Finance and Operations - Warehousing. Para obter mais informações sobre a configuração e os pré-requisitos, consulte [ Instalação e configuração do Microsoft Dynamics 365 for Finance and Operations - Warehousing](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Substituída por outro recurso?**   | Sim. Este recurso foi substituído pelo Finance and Operations - Warehousing. Para obter mais informações sobre a configuração e os pré-requisitos, consulte [Instalação e configuração do Microsoft Dynamics 365 for Finance and Operations - Warehousing](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
 | **Áreas afetadas do produto**         | Gerenciamento de depósito, Gerenciamento de transporte     |
 | **Opção de implantação**              | O portal de dispositivos móveis de depósito (WMDP) é um componente autônomo que foi criado para auto-implantação local.               |
 | **Status**                         | Preterido: o período determinado para a remoção da funcionalidade é o T4 de 2019.   |
