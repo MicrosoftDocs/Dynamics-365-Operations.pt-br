@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2dc977e3c53b1f15b41b095f586861b67c973a6d
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: c6fcc93cfed35d73ae749856f33857ba84dbfd82
+ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377126"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "773268"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Visão geral da integração fiscal dos Canais de varejo
 
@@ -30,7 +30,7 @@ ms.locfileid: "377126"
 
 ## <a name="introduction"></a>Introdução
 
-Este tópico é uma visão geral dos recursos de integração fiscal disponíveis no Microsoft Dynamics 365 for Retail. A integração fiscal inclui a integração com vários serviços e dispositivos fiscais que permitem o registro fiscal de vendas de varejo de acordo com as leis fiscais locais, destinadas a impedir fraudes fiscais no setor de varejo. Estes são alguns cenários típicos que podem ser cobertos usando a integração fiscal: 
+Este tópico é uma visão geral dos recursos de integração fiscal disponíveis no Microsoft Dynamics 365 for Retail. A integração fiscal inclui a integração com vários serviços e dispositivos fiscais que permitem o registro fiscal de vendas de varejo de acordo com as leis fiscais locais, destinadas a impedir fraudes fiscais no setor de varejo. Estes são alguns cenários típicos que podem ser cobertos usando a integração fiscal:
 
 - Registrar uma venda de varejo em um dispositivo fiscal conectado ao ponto de venda (PDV) do Retail, como uma impressora fiscal, e imprimir um recibo fiscal para o cliente.
 - Enviar com segurança informações relacionadas a vendas e devoluções concluídas no Retail POS a um serviço Web externo operado pela autoridade fiscal.
@@ -87,6 +87,7 @@ Quando o registro fiscal de um evento ou uma transação é bem-sucedido, uma tr
 
 As transações fiscais são transferidas para a Sede de Varejo pelo *trabalho P*, juntamente com as transações de varejo. Na FastTab **Transações fiscais** da página **Transações da loja de varejo**, você pode visualizar as transações fiscais vinculadas a transações de varejo.
 
+
 Uma transação fiscal armazena os seguintes detalhes:
 
 - Detalhes do processo de registro fiscal (processo, grupo do conector, conector etc.). Ela também armazena o número de série do dispositivo fiscal no campo **Número do registro**, se essa informação estiver incluída na resposta fiscal.
@@ -115,4 +116,5 @@ A seguinte funcionalidade de integração fiscal também está disponível no SD
 
 - [Assinatura digital para a França](emea-fra-cash-registers.md)
 - [Assinatura digital para a Noruega](emea-nor-cash-registers.md)
-- [Exemplo de integração da unidade de controle para a Suécia](../dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
+- [Exemplo de integração da unidade de controle para a Suécia](./retail-sdk-control-unit-sample.md)
+

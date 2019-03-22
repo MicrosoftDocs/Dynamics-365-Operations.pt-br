@@ -1,29 +1,25 @@
 ---
+# required metadata
 title: Documentação do Microsoft Dynamics 365 for Finance and Operations
 description: Documentação do Microsoft Dynamics 365 for Finance and Operations.
 author: margoc
 manager: AnnBe
-ms.date: 08/30/2018
+ms.date: 03/08/2019
 ms.topic: index-page
-ms.prod: ''
+ms.prod: null
 ms.service: dynamics-ax-applications
-ms.technology: ''
+ms.technology: null
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: margoc
-ms.search.scope: Core, Operations
+ms.search.scope: 'Core, Operations'
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b9921883d952ebc42eff9f678bb300d8304e379
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "301897"
 ---
+
 # <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Documentação do Microsoft Dynamics 365 for Finance and Operations
 
 [!include [banner](includes/banner.md)]
@@ -44,21 +40,35 @@ Grande parte desse conteúdo também se aplica aos produtos relacionados: Micros
 <h3><a href="get-started/before-you-buy.md">Antes de comprar</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Inscrever-se em uma assinatura de versão prévia</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Escolher uma opção de implantação</a></p>
- <p><a href="get-started/purchase-on-premises.md">Comprar o Finance and Operations (local)</a></p>
+ <p><a href="get-started/purchase-on-premises.md">Comprar o Finance and Operations (on-premises)</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">Ciclo de vida da implementação</a></h3>
-<p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack para o Dynamics 365</a></p>
+<p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">Integrando um projeto</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Preparando para ativação</a></p>
 
+<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">Atualizações do serviço One Version</a></h3>
+<p><a href="get-started/one-version.md">Perguntas frequentes sobre as atualizações do serviço One Version</a></p>
+<p><a href="../dev-itpro/migration-upgrade/versions-update-policy.md">Política de ciclo de vida do software: Nuvem</a></p>
+<p><a href="../dev-itpro/migration-upgrade/on-prem-version-update-policy.md">Política de ciclo de vida do software: Locais</a></p>
+<p><a href="get-started/public-preview-releases.md">Atualizações padrão e de primeira versão do serviço</a></p>
+<p><a href="get-started/whats-new-changed.md">Novidades ou alterações</a></p>
+<p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Atualizações e hotfixes</a></p>
+<p><a href="../dev-itpro/deployment/apply-deployable-package-system.md">Aplicar atualizações a ambientes de nuvem</a></p>
+<p><a href="../dev-itpro/lifecycle-services/configure-service-updates.md">Configurar atualizações de serviço</a></p>
+<p><a href="../dev-itpro/lifecycle-services/pause-service-updates.md">Pausar atualizações de serviço</a></p>
+<p><a href="../dev-itpro/lifecycle-services/notifications-service-updates.md">Ser notificado sobre atualizações de serviço</a></p>
+<p><a href="../dev-itpro/data-entities/data-task-automation.md">Automação de tarefa de dados</a></p>
+<p><a href="../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md">Regression Suite Automation Tool</a></p>
+
 <h3><a href="../financials/index.md">Gerenciamento financeiro</a></h3>
-<p><a href="../financials/accounts-payable/accounts-payable.md">Contas a Pagar</a></p>
-<p><a href="../financials/accounts-receivable/accounts-receivable.md">Contas a Receber</a></p>
+<p><a href="../financials/accounts-payable/accounts-payable.md">Contas a pagar</a></p>
+<p><a href="../financials/accounts-receivable/accounts-receivable.md">Contas a receber</a></p>
 <p><a href="../financials/budgeting/budgeting-overview.md">Orçamento</a></p>
 <p><a href="../financials/cash-bank-management/cash-bank-management.md">Gerenciamento de caixa e bancos</a></p>
 <p><a href="../financials/general-ledger/audit-policy-rules.md">Conformidade</a></p>
 <p><a href="../financials/cost-accounting/cost-accounting-home-page.md">Contabilidade de custos</a></p>
-<p><a href="../financials/fixed-assets/fixed-assets.md">Ativos Fixos</a></p>
+<p><a href="../financials/fixed-assets/fixed-assets.md">Ativos fixos</a></p>
 <p><a href="../financials/general-ledger/general-ledger.md">Contabilidade</a></p>
 <p><a href="../financials/project-management/overview-project-management-accounting.md">Gerenciamento de projetos</a></p>
 <p><a href="../financials/public-sector/public-sector-functionality.md">Setor público</a></p>
@@ -71,6 +81,8 @@ Grande parte desse conteúdo também se aplica aos produtos relacionados: Micros
 <p><a href="hr/manage-recruiting-process.md">Recrutamento</a></p>
 <p><a href="hr/localizations/noam-usa-payroll.md">Folha de pagamento dos EUA</a></p>
 
+</td>
+<td>
 <h3><a href="../supply-chain/index.md">Gerenciamento da cadeia de fornecimento</a></h3>
 <p><a href="../supply-chain/cost-management/costing-sheets.md">Gerenciamento de custos</a></p>
 <p><a href="../supply-chain/inventory/inventory-home-page.md">Gerenciamento de estoque</a></p>
@@ -82,8 +94,7 @@ Grande parte desse conteúdo também se aplica aos produtos relacionados: Micros
 <p><a href="../supply-chain/transportation/transportation-management-overview.md">Gerenciamento de transporte</a></p>
 <p><a href="../supply-chain/warehousing/warehouse-configuration.md">Gerenciamento de depósito</a></p>
 
-</td>
-<td>
+
 <h3><a href="../dev-itpro/analytics/bi-reporting-home-page.md">Inteligência</a></h3>
 <p><a href="../dev-itpro/analytics/analytics.md">Análise</a></p>
  <p><a href="../dev-itpro/analytics/document-reporting-services.md">Documentos comerciais</a></p>

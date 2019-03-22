@@ -3,7 +3,7 @@ title: Processamento de produtos de peso variável com gerenciamento de depósit
 description: Este tópico descreve como usar modelos de trabalho e diretivas de localização para determinar como e onde o trabalho é realizado no depósito.
 author: perlynne
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 5161860e3b1c5b0ae795d109159268be085ec5af
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ced22a144e57b624ceacb8bb5c3032218db3a0eb
+ms.sourcegitcommit: bacec397ee48ac583596be156c87ead474ee07df
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "334050"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "777263"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Processamento de produtos de peso variável com gerenciamento de depósito
-[!include [preview banner](../../includes/preview-banner.md)]
+
 [!include [banner](../includes/banner.md)]
 
-**Exposição de recurso**
+## <a name="feature-exposure"></a>Exposição de recurso
 
 Para usar o gerenciamento de depósito para processar produtos de peso variável, você deve usar uma chave de configuração de licença para ativar a funcionalidade. (Vá para **Administração do sistema \> Configuração \> Configuração da licença**. Em seguida, na guia **Chaves de configuração**, expanda **Comércio \> Gerenciamento de Depósito e Transporte** e marque a caixa de seleção para **Peso variável para depósito**).
 
 > [!NOTE]
-> Tanto a chave de configuração de licença de **Gerenciamento de Depósito e Transporte** quanto as chaves de configuração de licença de **Peso variável da distribuição de processos** também devem ser ativadas.
+> Tanto a chave de configuração de licença de **Gerenciamento de Depósito e Transporte** quanto as chaves de configuração de licença de **Peso variável \> da distribuição de processos** também devem ser ativadas.
 
 Depois que a chave de configuração de licença está ativada, ao criar um produto liberado, você pode selecionar **Peso variável**. Você também pode associar o produto liberado a um grupo de dimensões de armazenamento para o qual o parâmetro **Usar processos de gerenciamento de depósito** foi selecionado.
 

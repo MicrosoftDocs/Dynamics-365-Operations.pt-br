@@ -3,7 +3,7 @@ title: Pagamentos centralizados para Contas a receber
 description: As organizações que incluem várias entidades legais podem criar e gerenciar pagamentos usando uma entidade legal única que trate todos os pagamentos. Consequentemente, a mesma transação não precisa ser inserida em várias entidade legais. Este artigo fornece exemplos que mostram como a postagem de pagamentos centralizados é feita em vários cenários.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 02/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9eb935d32e61b2cf0ec8710f6c2cfb18ecfe034
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: f6b8b1548bf70363431ad58482ba82cf11017332
+ms.sourcegitcommit: ca1a472a670393f7aa208189dc8964c9691e2cdc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330738"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "390134"
 ---
 # <a name="centralized-payments-for-accounts-receivable"></a>Pagamentos centralizados para Contas a receber
 
@@ -33,7 +33,7 @@ As organizações que incluem várias entidades legais podem criar e gerenciar p
 
 As organizações que incluem várias entidades legais podem criar e gerenciar pagamentos usando uma entidade legal que trate todos os pagamentos. Consequentemente, a mesma transação não precisa ser inserida em várias entidade legais. Além disso, a organização economiza tempo, pois os processos para propostas de pagamento, liquidações e transações de edição abertas e fechadas para os pagamentos centralizados são simplificados. 
 
-Em uma organização de pagamentos centralizados, existem muitas entidades legais para operações, e cada entidade operante gerencia as próprias informações de faturas a receber. Os pagamentos para todas as entidades legais operantes são recebidos por uma única entidade legal, conhecida como entidade legal de pagamento. Durante o processo de liquidação, as transações a vencer ou vencidas aplicáveis são geradas. Você pode especificar qual entidade legal da organização recebe as transações de ganho ou perda realizada e como são tratadas as transações com desconto à vista relacionadas a um pagamento centralizado. 
+Em uma organização de pagamentos centralizados, existem muitas entidades legais para operações, e cada entidade operante gerencia as próprias informações de faturas a receber. Os pagamentos para todas as entidades legais operantes são recebidos por uma única entidade legal, conhecida como entidade legal de pagamento. Durante o processo de liquidação, as transações a vencer ou vencidas aplicáveis são geradas. Você pode especificar qual entidade legal da organização recebe as transações de ganho ou perda realizada e como são tratadas as transações com desconto à vista relacionadas a um pagamento centralizado. Na linha do diário de pagamentos centralizado, o **Tipo de conta** deve ser definido como cliente. O **Tipo de contrapartida** deve ser definido como banco ou razão. A conta bancária deve estar na empresa atual. 
 
 Os exemplos a seguir ilustram como o lançamento é tratado em vários cenários. Esta configuração é presumida para todos esses exemplos:
 
@@ -296,8 +296,3 @@ A Fabrikam recebe um pagamento de 75,00 do cliente 4000, a Northwind Traders. O 
 | Contas a receber (Fabrikam Oeste)    |              | 75,00         |
 | Devido pela Fabrikam Leste (Fabrikam Oeste) | 25,00        |               |
 | Contas a receber (Fabrikam Oeste)    |              | 25,00         |
-
-
-
-
-

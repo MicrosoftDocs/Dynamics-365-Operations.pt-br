@@ -3,7 +3,7 @@ title: Criar, aprovar e assinar ofertas
 description: Este tópico detalha como criar, aprovar e assinar uma oferta para um candidato usando o Dynamics 365 for Talent.
 author: josaw
 manager: AnnBe
-ms.date: 12/07/2018
+ms.date: 02/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: f189df052ef299a2cca1d92065a7a4d377d25399
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 5ad7ce1e089d2a8b5c52e7cd01bb3d89070004b1
+ms.sourcegitcommit: ea17d2e35c24a141c20ab429897eebf9fa186f61
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303307"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768896"
 ---
 # <a name="creating-approving-and-signing-offers"></a>Criando, aprovando e assinando ofertas
 
@@ -104,15 +104,20 @@ Há várias medidas que você pode adotar antes de enviar a oferta ao candidato.
 
 -  Talvez existam documentos adicionais a serem incluídos no processo de aceitação da oferta. Você terá a opção de listar o tipo de documento necessário.
 
-- Opção de assinatura eletrônica: Se o Adobe Sign foi escolhido como o método preferencial de assinatura eletrônica, os criadores de oferta precisam conectar a licença do Adobe Sign. Há duas maneiras de fazer isso. Vá para **Configurações** do Usuário em **Oferta**, em **Conexões** conectadas ao **Adobe Sign**. Como alternativa, você será solicitado a conectar-se à tela Enviar a oferta para o candidato se a conexão ainda não tiver sido estabelecida com base nas configurações do usuário. 
+- Opção de assinatura eletrônica: há duas maneiras de conectar o provedor de assinatura eletrônica de sua escolha. Vá para **Configurações de usuário** em **Oferta**, em **Conexões**, e conecte-se a **Adobe Sign** ou **DocuSign**. Como alternativa, você será solicitado a se conectar à página **Enviar a oferta para o candidato** se a conexão ainda não tiver sido estabelecida com base nas configurações do usuário. A conta de assinatura eletrônica só precisa ser conectada uma vez. A mesma licença de usuário é usada para todos os pacotes de oferta futuros que serão enviados pelo mesmo usuário. 
 
-> [!NOTE]
-> Os usuários só precisam conectar suas contas do Adobe Sign uma vez. A mesma licença de usuário é usada para todos os pacotes de oferta futuros que serão enviados pelo mesmo usuário. 
+### <a name="adobe-sign"></a>Adobe Sign
+Se o Adobe Sign foi escolhido como o método preferencial de assinatura eletrônica, os criadores de oferta precisam conectar a licença do Adobe Sign nesta etapa. 
+
+### <a name="docusign"></a>DocuSign
+Se o DocuSign foi escolhido como o método preferencial de assinatura eletrônica, os criadores de oferta precisam conectar a licença do DocuSign. Depois de entrar, a conta padrão e as permissões associadas ao perfil do DocuSign do usuário são conectadas ao Talent Attract. 
 
 -  Você pode exibir e editar o modelo de email conforme necessário.
 
 Quando a oferta estiver pronta e você clicar em **Enviar para candidato**, o candidato receberá um email avisando que uma oferta está aguardando revisão.
 
+>[!NOTE]
+> Se você estiver usando o Adobe Sign ou DocuSign e tiver um erro ao enviar a oferta para o candidato, tente desconectar e reconectar a conta de usuário da assinatura eletrônica de **Configurações de usuário**. Se o problema persistir, entre em contato com nosso suporte usando o link **Relatar um problema**.
 
 ## <a name="candidates-actions-after-receiving-an-offer"></a>Ações do candidato após receber uma oferta
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e92d50828f6511329401b43154895da1244788cd
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 872e7c833416f0f7d9aa0c55aadf72aec65ddaab
+ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "356337"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832139"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Definições de coluna nos relatórios financeiros
 
@@ -62,7 +62,7 @@ Uma definição de coluna pode conter duas a 255 colunas.
 Uma definição de coluna inclui as seguintes informações:
 
 - Uma coluna das descrições da definição de linha
-- Colunas de valores que mostram dados financeiros, de uma planilha do Microsoft Excel ou cálculos que são baseados em outros dados na definição de coluna.
+- Colunas de valores que mostram dados financeiros ou cálculos que são baseados em outros dados na definição de coluna.
 - Colunas de formatação
 - Colunas de atributos
 
@@ -170,7 +170,7 @@ Você pode usar a caixa de diálogo **Cabeçalho da coluna** para adicionar, mod
 
 ### <a name="create-an-automatically-generated-header"></a>Criar uma cabeçalho gerado automaticamente
 
-O designer de relatórios pode gerar automaticamente cabeçalhos de coluna, com base em códigos de AutoTexto. Os códigos de Autotexto são variáveis atualizadas sempre que um relatório é gerado. Qualquer cabeçalho de coluna pode incluir esses códigos para especificar informações, como número de data ou do período, que podem variar para os relatórios. Consequentemente, você pode usar uma definição de coluna para várias definições de relatório, períodos de tempo hierarquias organizacionais. Como os códigos de AutoTexto dependem de informações do calendário das linhas de detalhe da coluna de definição, eles são compatíveis apenas para as colunas **CALC**, **FD** e **WKS**. A maneira que um código de autotexto é exibida na célula do cabeçalho da coluna afeta como essas informações são exibidas no relatório. Na caixa de diálogo **Cabeçalho de coluna**, os códigos de AutoTexto aparecem em letras maiúsculas e minúsculas. Consequentemente, o texto será exibido em minúscula no relatório. Por exemplo, em um ano civil padrão, **@CalMonthLong** converte o mês **7** em **julho**. Se o nome do mês precisar estar em maiúscula (por exemplo **JULHO**), insira o código do autotexto em caracteres maiúsculos no campo **Texto do cabeçalho da coluna**. Por exemplo, insira **@CALMONTHLONG**. Você pode misturar códigos e texto. Por exemplo, você insere o seguinte texto de cabeçalho: **Period @FiscalPeriod-@FiscalYear de @StartDate para @EndDate**. O título do relatório que é gerado se parece com o seguinte texto: **Período 1-02 de 01/01/02 a 31/01/02**.
+O designer de relatórios pode gerar automaticamente cabeçalhos de coluna, com base em códigos de AutoTexto. Os códigos de Autotexto são variáveis atualizadas sempre que um relatório é gerado. Qualquer cabeçalho de coluna pode incluir esses códigos para especificar informações, como número de data ou do período, que podem variar para os relatórios. Consequentemente, você pode usar uma definição de coluna para várias definições de relatório, períodos de tempo hierarquias organizacionais. Como os códigos de AutoTexto dependem de informações do calendário das linhas de detalhe da coluna de definição, eles são compatíveis apenas para as colunas **CALC** e **FD**. A maneira que um código de autotexto é exibida na célula do cabeçalho da coluna afeta como essas informações são exibidas no relatório. Na caixa de diálogo **Cabeçalho de coluna**, os códigos de AutoTexto aparecem em letras maiúsculas e minúsculas. Consequentemente, o texto será exibido em minúscula no relatório. Por exemplo, em um ano civil padrão, **@CalMonthLong** converte o mês **7** em **julho**. Se o nome do mês precisar estar em maiúscula (por exemplo **JULHO**), insira o código do autotexto em caracteres maiúsculos no campo **Texto do cabeçalho da coluna**. Por exemplo, insira **@CALMONTHLONG**. Você pode misturar códigos e texto. Por exemplo, você insere o seguinte texto de cabeçalho: **Period @FiscalPeriod-@FiscalYear de @StartDate para @EndDate**. O título do relatório que é gerado se parece com o seguinte texto: **Período 1-02 de 01/01/02 a 31/01/02**.
 
 > [!NOTE]
 > O formato de alguns textos, como o de data completa, depende das configurações regionais no servidor do Finance and Operations. Para alterar essas configurações, clique no botão **Início**, em **Painel de controle** e depois em **Região e idioma**. A tabela a seguir lista as opções disponíveis de autotexto para cabeçalhos da coluna.
@@ -291,7 +291,7 @@ A célula **Espaços adicionais antes da coluna** especifica a largura do separa
 1. No Report Designer, abra a definição de coluna a ser modificada.
 2. Na célula **Espaços adicionais antes da coluna**, insira o número dos espaços que serão colocados entre as colunas.
 
-### <a name="specify-a-currency"></a>Especificar uma moeda
+### <a name="specify-a-format-currency-override"></a>Especificar uma substituição de moeda de formato
 
 A célula **Substituição de formato/moeda** especifica a formatação dos valores decimais, monetários e percentuais na coluna. Essa formatação substitui qualquer formatação que esteja especificada na definição de relatório ou padrões de sistema.
 
@@ -361,7 +361,7 @@ O tipo de informações que cada coluna em um relatório inclui é especificado 
     <tbody>
     <tr>
     <td>FD</td>
-    <td>Exibe dados financeiros ou para exibir dados de uma planilha do Excel quando você usa uma coluna <strong>Vincular a dimensões financeiras</strong> ou uma coluna <strong>Vincular à planilha</strong> na definição da linha. Quando você seleciona o tipo de coluna <strong>FD</strong>, as configurações padrão são especificadas automaticamente nas linhas a seguir: <ul>
+    <td>Exiba dados financeiros quando ao usar uma coluna <strong>Link para Dimensões Financeiras</strong> na definição da linha. Quando você seleciona o tipo de coluna <strong>FD</strong>, as configurações padrão são especificadas automaticamente nas linhas a seguir: <ul>
     <li><strong>Código do cenário/Categoria de atributo:</strong> ACTUAL</li>
     <li><strong>Código do cenário/Categoria de atributo:</strong> ACTUAL</li>
     <li><strong>Ano fiscal:</strong> BASE</li>
@@ -394,14 +394,6 @@ Essas configurações padrão podem ser alteradas.</td>
     <tr>
     <td>PAGE</td>
     <td>Insere uma quebra de página vertical no relatório. As colunas que estão à direita da coluna <strong>PAGE</strong> aparecem na coluna em uma página diferente.</td>
-    </tr>
-    <tr>
-    <td>WKS</td>
-    <td>Exibe os dados que são recebidos de uma planilha do Excel. Quando você seleciona o tipo de coluna <strong>WKS</strong>, as configurações padrão são especificadas automaticamente nas linhas a seguir: <ul>
-    <li><strong>Ano Fiscal:</strong> PERIODIC</li>
-    <li><strong>Período:</strong> BASE</li>
-    </ul>
-Essas configurações padrão podem ser alteradas.</td>
     </tr>
     <tr>
     <td>ATTR</td>
@@ -518,13 +510,13 @@ Você também pode usar qualquer combinação de caracteres alfanuméricos para 
 
 ### <a name="format-a-multiple-currency-report-in-a-column-definition"></a>Formatar um relatório de várias moedas em uma definição de coluna
 
-Um relatório de várias moedas pode exibir os valores na moeda natural (local), funcional (padrão), ou de relatório. A moeda funcional de uma empresa é definida no sistema ERP Microsoft Dynamics. Não confunda essa configuração de ERP com a configuração das opções regionais do sistema operacional onde você pode configurar os símbolos de moeda padrão que são usados nos relatórios. As células relacionadas a moeda a seguir estão disponíveis na definição de coluna:
+Um relatório de várias moedas pode exibir valores na moeda contábil do razão, nos relatórios do razão, na moeda da transação de origem ou na moeda do relatório traduzido. A moeda contábil de uma empresa é definida na configuração dos razões. Não confunda essa configuração com a configuração das opções regionais do sistema operacional onde você pode configurar os símbolos de moeda padrão que são usados nos relatórios. As células relacionadas a moeda a seguir estão disponíveis na definição de coluna:
 
-- **Exibição da moeda** – Especifique o tipo de moeda (natural, funcional ou de relatório) na qual as transações são exibidas. Às vezes, essa funcionalidade é chamada de "conversão de moeda". Conversão de moeda é a capacidade de relatar valores da contabilidade em uma moeda que não seja a moeda funcional da empresa, nem a moeda na qual a transação foi inserida.
+- **Exibição da moeda** – Especifique o tipo de moeda (contabilidade, relatório, transação ou relatório convertido) em que as transações são exibidas. Às vezes, a funcionalidade Convertida para uma moeda de relatório é chamada de conversão de moeda. Conversão de moeda é a capacidade de relatar valores da contabilidade em uma moeda que não seja a moeda funcional ou de relatório da empresa, nem a moeda na qual a transação foi inserida.
 - **Filtro de moeda** – Especifique um filtro de moeda. Apenas as transações inseridas na moeda selecionada são mostradas no relatório.
 
-> [!NOTE]
-> Para criar relatórios que usam várias moedas, você deve selecionar a caixa de seleção **Incluir todas as moedas de relatório** na guia **Relatório** da definição de relatório. Para determinar a moeda funcional de uma empresa, faça o seguinte:
+> 
+Para determinar a moeda contábil de uma empresa, faça o seguinte:
 
 1. No Report Designer, no menu **Empresa**, clique em **Empresas**.
 2. Na caixa de diálogo **Empresas**, selecione uma empresa e depois clique em **Exibir**.
@@ -533,20 +525,18 @@ Um relatório de várias moedas pode exibir os valores na moeda natural (local),
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>Especificar a moeda em um relatório de várias moedas
 
 1. No Report Designer, abra a definição de coluna a ser modificada.
-2. Clique duas vezes na célula **Exibição da moeda** na coluna **FD** apropriada e depois selecione a opção de exibição das informações da moeda: **Moeda natural/de origem**, **Moeda funcional das informações da empresa** e moeda do relatório.
+2. Clique duas vezes na célula **Exibição da moeda** na coluna apropriada **FD** e selecione a opção para exibir as informações da moeda: **Moeda contábil do razão**, **Relatório do razão**, moeda da transação ou selecione para converter para uma moeda de relatório diferente.
 3. Clique duas vezes na célula **Filtro de moeda** na coluna **FD** apropriada e depois selecione o código de moeda adequado na lista. Apenas as transações inseridas nessa moeda serão mostradas no relatório.
 
-> [!NOTE]
-> As opções descritas aqui podem variar, dependendo do sistema ERP. Para obter mais informações, consulte [Documentação do sistema ERP da Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
 
 ### <a name="example-for-currency-display-and-currency-filter-cells"></a>Exemplo de células Exibição de Moeda e Filtro de Moeda
 
 Phyllis fez as seguintes seleções de moeda em sua definição de coluna:
 
 - **Filtro de moeda:** ienes
-- **Exibição de moeda:** funcional (dólares norte-americanos)
+- **Exibição da moeda:** moeda contábil do razão (dólares americanos)
 
-Devido à seleção de filtro de moeda que Phyllis fez, o relatório inclui apenas as transações que foram inseridas em iene japonês (JPY). Devido à seleção de exibição da moeda, o relatório exibe as transações na moeda funcional, dólares americanos (USD).
+Devido à seleção de filtro de moeda que Phyllis fez, o relatório inclui apenas as transações que foram inseridas em iene japonês (JPY). Por causa da seleção de exibição da moeda, o relatório exibe as transações na moeda contábil, dólares americanos (USD).
 
 #### <a name="currency-filter-and-currency-display-combinations"></a>Combinações de Filtro de Moeda e Exibição de Moeda
 
@@ -555,10 +545,10 @@ A seguinte tabela mostra os resultados do relatório que podem ocorrer em vária
 
 | Célula Exibição de Moeda                        | Célula Filtro de Moeda | Resultado do relatório |
 |----------------------------------------------|----------------------|---------------|
-| Moeda natural/original                 | **YEN**              | **Ұ6.000** – O resultado mostra apenas transações que foram inseridas em JPY. |
-| Moeda funcional com base nas informações da empresa | **YEN**              |**US$60** – O resultado mostra apenas transações que foram inseridas em JPY e exibe as transações em USD.<blockquote>[!NOTE] A taxa de conversão é de aproximadamente 100 JPY por USD.</blockquote> |
-| Moeda funcional com base nas informações da empresa | Vazio                | **US$ 2.310** – O resultado mostra todos os dados na moeda funcional que é especificada nas informações da empresa.<blockquote>[!NOTE] Este valor é a soma de todas as transações na moeda funcional.</blockquote> |
-| Moeda natural/original                 | Vazio                | **US$2.250** – O resultado mostra todos os valores na moeda na qual a transação foi realizada. |
+| Moeda da transação                 | **YEN**              | **Ұ6.000** – O resultado mostra apenas transações que foram inseridas em JPY. |
+| Moeda contábil do razão | **YEN**              |**US$60** – O resultado mostra apenas transações que foram inseridas em JPY e exibe as transações em USD.<blockquote>[!NOTE] A taxa de conversão é de aproximadamente 100 JPY por USD.</blockquote> |
+| Moeda contábil do razão | Vazio                | **US$ 2.310** – O resultado mostra todos os dados na moeda contábil que é especificada no razão.<blockquote>[!NOTE] Este valor é a soma de todas as transações na moeda contábil.</blockquote> |
+| Moeda da transação                 | Vazio                | **US$2.250** – O resultado mostra todos os valores na moeda na qual a transação foi realizada. Isso significa que o total está adicionando valores de diferentes moedas. |
 
 ### <a name="calculation-column-in-a-column-definition"></a>Coluna de cálculo em uma definição de coluna
 

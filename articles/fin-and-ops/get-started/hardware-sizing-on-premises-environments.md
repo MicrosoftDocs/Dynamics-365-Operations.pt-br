@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: d277bc4c4c815317bade8a04b9111232fb707086
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e11742c62ea8d10f391ed2d417024f9c80e39591
+ms.sourcegitcommit: 21bbdac152e0cbb0576df9d5e6e90283175834ef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "340720"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768405"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Requisitos de dimensionamento de hardware para ambientes locais
 
@@ -86,7 +86,7 @@ Para compreender seus requisitos de dimensionamento, você precisará saber o vo
     - Uso de funcionalidade adicional, como log e alertas de banco de dados. O registro de logs de banco de dados extremo reduzirá ainda mais a taxa de transferência por hora, por núcleo, para abaixo das três mil linhas.
     - Complexidade de composição de dados – um plano de contas simples versus um plano de contas refinado detalhado tem implicações na taxa de transferência (como um exemplo).
     - Caracterização de transações.
-    - De 2 GB a 4 GB de memória para cada núcleo.
+    - De 2 GB a 16 GB de memória para cada núcleo.
     - Bancos de dados auxiliares no servidor de banco de dados, como os bancos de dados do Management reporter e do SSRS.
     - Temp DB = 15% do tamanho do banco de dados, com a quantidade de arquivos igual ao de processadores físicos.
     - Tamanho e taxa de transferência de SAN com base no volume/uso total de transações simultâneas.

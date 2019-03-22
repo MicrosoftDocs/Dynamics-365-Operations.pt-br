@@ -3,7 +3,7 @@ title: Importar carta de crédito
 description: Este procedimento apresenta o processo de importação de uma carta de crédito.
 author: kweekley
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 02/28/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c1768494182a79d7a33044498c1e768e61d937d1
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3d5539fbd17c880d8bbadd47444c9cc53fce039c
+ms.sourcegitcommit: 0c1deb100d0bf6dacd14b328968bbc7a9d92583a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313557"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "771222"
 ---
 # <a name="import-letter-of-credit"></a>Importar carta de crédito
 
@@ -111,8 +111,7 @@ Este procedimento usa a empresa de dados de demonstração USMF.
 1. Vá para Gerenciamento de caixa e bancos > Cartas de crédito > Importar carta de crédito e importar coleção.
 2. Na lista, localize e selecione o PDV desejado.
 3. Na lista, clique no link na linha selecionada.
-    * O status de Importar Carta de crédito.    
-    *   
+    * O status de Importar Carta de crédito.     
 4. Feche a página.
 5. Feche a página.
 

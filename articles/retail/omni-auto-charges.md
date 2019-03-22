@@ -3,7 +3,7 @@ title: Encargos automáticos avançados de omni-channel
 description: Este tópico descreve recursos para gerenciar encargos adicionais da ordem para ordens do canal do Retail usando recursos avançados de encargos automáticos.
 author: hhaines
 manager: annbe
-ms.date: 01/22/2019
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,16 +19,15 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a980ae9571fb47522d3966dc172b2343641b827e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6b63a1bb8791ab3f0c71a2fd03677e7d0bf71e62
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "345550"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789762"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Encargos automáticos avançados de omni-channel
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Este tópico fornece informações sobre a configuração e a implementação de recurso avançado da encargos disponíveis na versão 10.0 do Dynamics 365 for Retail.
@@ -67,6 +66,8 @@ As novas operações são as seguintes.
 - **143 - Calcular encargos** - Use esta operação para executar o recálculo completo de encargos para a transação de vendas. Todos os encargos automáticos substituídos pelo usuário serão recalculados com base na configuração atual do carrinho.  
 
 Como todas as operações com PDV, as configurações de segurança podem ser feitas para exigir aprovação do gerente para executar a operação.
+
+É importante observar que as operações de PDV listadas acima também podem ser adicionadas ao layout do PDV, mesmo se o parâmetro **Usar encargos automáticos avançados** estiver desabilitado. Nesse cenário, as organizações ainda terão benefícios adicionais de poder visualizar as cobranças adicionadas manualmente e editá-las usando a operação **Gerenciar encargos**. Os usuários também podem usar as operações **Adicionar encargos de cabeçalho** e **Adicionar encargos de linha** para transações de PDV mesmo quando o parâmetro **Usar encargos automáticos avançados** está desabilitado. A operação **Calcular encargos** tem menos funcionalidade se usada quando **Usar encargos automáticos avançados** está desabilitado. Nesse cenário, nada seria recalculado e todos os encargos adicionados manualmente à transação seriam redefinidos para US $ 0,00.
 
 ## <a name="use-case-examples"></a>Exemplos de caso de uso
 Nesta seção, exemplos de casos de uso são apresentados para ajudar a entender a configuração e o uso de encargos automáticos e encargos diversos dentro do contexto de ordens do canal do Retail. Estes exemplos mostram o comportamento de aplicativo quando o parâmetro **Usar Encargos Automáticos Avançados** for habilitado.
@@ -207,3 +208,7 @@ Recomendamos que a organização também adicione campos de texto livre no rodap
 ### <a name="preventing-charges-from-being-calculated-until-the-pos-order-is-completed"></a>Impedindo que os encargos sejam calculados até que a ordem de PDV seja concluída
 
 Algumas organizações pode preferir aguardar até que o usuário conclua a adição de todas as linhas de venda na transação de PDV antes de calcular os encargos. Para evitar o cálculo de encargos, conforme os itens são adicionadas à transação PDV, ative o parâmetro **Cálculo de encargo manual** no parâmetro **Perfil de funcionalidade** usado pela loja. Habilitar esse parâmetro exigirá que o usuário do PDV use a operação **Calcular totais** quando terminarem de adicionar os produtos à transação de PDV. A operação **Calcular totais** disparará o cálculo de encargos automáticos para o cabeçalho ou linha da ordem, conforme aplicável.
+
+### <a name="charges-override-reports"></a>Relatórios de substituições de encargos
+
+Se os usuários substituírem manualmente os encargos calculados ou adicionarem um encargo manual à transação, esses dados estarão disponíveis para auditoria no relatório **Histórico de substituições de encargos**. O relatório pode ser acessado de **Varejo \> Consultas e relatórios \> Histórico de substituições de encargos**.  É importante observar que os dados necessários para esse relatório são importados do banco de dados do canal para a matriz por meio dos trabalhos de agendamento da distribuição "P". Portanto, as informações sobre substituições executadas apenas no PDV podem não estar imediatamente disponíveis nesse relatório até que esse trabalho tenha carregado os dados da transação da loja na matriz. 

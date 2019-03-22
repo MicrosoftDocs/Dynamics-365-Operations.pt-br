@@ -3,7 +3,7 @@ title: Sincronizar produtos com unidade de estoque do Finance and Operations no 
 description: Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar produtos com unidades de estoque do Microsoft Dynamics 365 for Finance and Operations para o Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 12/20/2018
+ms.date: 03/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 5d3767c1a499f3d888d8fc2ce06c2837442e39f0
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 8e421be79fde6103be6344040b6ae6cda0626c5a
+ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "359235"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836293"
 ---
 # <a name="synchronize-products-with-inventory-unit-from-finance-and-operations-to-field-service"></a>Sincronizar produtos com unidade de estoque do Finance and Operations no Field Service
 
@@ -34,9 +34,11 @@ Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar
 
 [![Sincronização de processos empresariais entre o Finance and Operations e o Field Service](./media/FSProductsOW.png)](./media/FSProductsOW.png)
 
-O modelo usado **Produtos do Field Service (Finance and Operations para o Field Service)** é baseado no modelo **Produtos (Finance and Operations para o Sales) – Direto** do Prospect to Cash. Para obter mais informações, consulte [Produtos (Finance and Operations para o Sales) – Direto](products-template-mapping-direct.md).
+O modelo **Produtos do Field Service com unidade de estoque (Finance and Operations para Field Service)** usado é baseado no modelo **Produtos do Field Service (Finance and Operations para Field Service)**. Para obter mais informações, consulte [Produtos do Field Service (Finance and Operations para Field Service)](field-service-product.md).
 
-Este tópico descreve somente as diferenças entre os modelos **Produtos do Field Service (Finance and Operations para Field Service)** e **Produtos do Field Service (Finance and Operations para Field Service)**.
+Este tópico descreve apenas as diferenças entre os dois métodos: 
+- **Produtos do Field Service com unidade de estoque (Finance and Operations para Sales)**
+- **Produtos do Field Service (Finance and Operations para Field Service)**. 
 
 ## <a name="templates-and-tasks"></a>Modelos e tarefas
 

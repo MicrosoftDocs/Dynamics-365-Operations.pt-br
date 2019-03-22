@@ -3,7 +3,7 @@ title: Criar, aprovar e lançar trabalhos no Attract
 description: Este tópico descreve os elementos de um trabalho no Attract. Ele também explica como criar um trabalho.
 author: josaw
 manager: AnnBe
-ms.date: 12/21/2018
+ms.date: 02/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 2f7e0ec7d33579f213909ff9ad911d26800c2b76
+ms.sourcegitcommit: ceef0ee77ffc245e57637e2ea84e1a71a214b3d7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303285"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "772802"
 ---
 # <a name="create-approve-and-post-jobs-in-attract"></a>Criar, aprovar e lançar trabalhos no Attract
 
@@ -76,8 +76,23 @@ Para obter mais informações sobre as atividades que podem ser adicionadas ao p
 
 Após um trabalho ser ativado, ele poderá ser lançado. Somente os recrutadores e os administradores podem lançar trabalhos. O trabalho pode ser lançado no Talent Careers (site de carreiras do Microsoft Dynamics 365 for Talent) ou no LinkedIn. 
 
+A equipe do Attract trabalha continuamente para fazer parceria com os agregadores do quadro de trabalho. Essa lista se expandirá com o tempo.
+
+Para obter mais informações sobre lançamentos de trabalho, consulte [Funcionalidade do site de carreiras no Attract](career-site.md).
+
 > [!NOTE]
-> Há três aspectos importantes a serem notados sobre o processo de lançamento de trabalho no LinkedIn.
+> A funcionalidade do lançamento de trabalho está disponível apenas com o Complemento de Contratação Abrangente para o Attract.
+
+### <a name="posting-jobs-to-linkedin"></a>Lançar trabalhos no LinkedIn 
+
+Antes de lançar um trabalho do Attract no LinkedIn, o administrador deve adicionar a ID da empresa no LinkedIn e o nome da empresa no LinkedIn nas **Configurações de Administração**. A ID da empresa no LinkedIn é necessária para garantir que os trabalhos lançados no Attract sejam mapeados para a página da empresa correta.
+
+A ID da sua empresa no LinkedIn é uma sequência de números que identifica exclusivamente sua empresa no LinkedIn. Para obter mais informações sobre como encontrar a ID da empresa no LinkedIn, visite o [site do LinkedIn](https://aka.ms/findID).
+
+Para atualizar sua empresa no LinkedIn, selecione **Centro de administração** no menu **Configurações**  (símbolo de engrenagem) e depois selecione a guia **Integração com o LinkedIn** . Na seção **Conectar-se ao LinkedIn**, insira o nome da empresa no LinkedIn e a ID da empresa e salve as configurações.
+
+> [!NOTE]
+> Há quatros aspectos importantes a serem notados sobre o processo de lançamento de trabalho no LinkedIn.
 > 1. Os trabalhos lançados no LinkedIn são lançados como trabalhos de "Listagens Limitadas". Os trabalhos de listagens limitadas não podem ser promovidos no site do LinkedIn. Se desejar promover trabalhos de listagens limitadas lançados no LinkedIn a partir do Attract, você deverá trabalhar com o LinkedIn para habilitar a "Disposição de Trabalho". Consulte os links abaixo e contate o suporte do LinkedIn para obter mais detalhes.
 >
 >    [Listagens limitadas versus Slots de Trabalho de Gratificação para Disposição de Trabalho](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
@@ -90,14 +105,10 @@ Após um trabalho ser ativado, ele poderá ser lançado. Somente os recrutadores
 >
 >    Se tiver problemas após esta etapa, entre em contato com o suporte do LinkedIn. 
 > 
+> 1. Os trabalhos lançados no LinkedIn aparecem no site do LinkedIn ao vivo. Não há ambiente de teste para lançar trabalhos no LinkedIn. 
+>
 > 1. Pode levar até 24 horas para os trabalhos lançados no LinkedIn ficarem visíveis para os candidatos no LinkedIn, devido ao processo atual de lançamento de trabalhos em lotes do LinkedIn.
 
-A equipe do Attract trabalha continuamente para fazer parceria com os agregadores do quadro de trabalho. Essa lista se expandirá com o tempo.
-
-Para obter mais informações sobre lançamentos de trabalho, consulte [Funcionalidade do site de carreiras no Attract](./career-site.md).
-
-> [!NOTE]
-> A funcionalidade do lançamento de trabalho está disponível apenas com o Complemento de Contratação Abrangente para o Attract.
 
 ## <a name="activate"></a>Ativar
 

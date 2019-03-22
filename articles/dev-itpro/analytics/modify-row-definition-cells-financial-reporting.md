@@ -1,9 +1,9 @@
 ---
 title: Modificar células de definição de linha
-description: Este artigo descreve as informações que são necessárias para cada célula em uma definição de linha em um relatório financeiro e explica como inserir essas informações.
+description: Este tópico descreve as informações que são necessárias para cada célula em uma definição de linha em um relatório financeiro e explica como inserir essas informações.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6193d70c53ee09a28aa8763cb625b315ec180b95
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: d6f6e94fd8e7ddf92e89fedfab09ef0684505819
+ms.sourcegitcommit: eb24b63b10c4d06f7550bba9fbd1910ba2719b0a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "323631"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "379655"
 ---
 # <a name="modify-row-definition-cells"></a>Modificar células de definição de linha
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo descreve as informações que são necessárias para cada célula em uma definição de linha em um relatório financeiro e explica como inserir essas informações.
+Este tópico descreve as informações que são necessárias para cada célula em uma definição de linha em um relatório financeiro e explica como inserir essas informações.
 
 ## <a name="specify-a-row-code-in-a-row-definition"></a>Especifique um código de linha em uma definição de linha
 
@@ -386,21 +386,19 @@ Você pode limitar uma linha a um código de livro existente. A definição de c
 Alguns sistemas contábeis oferecem suporte para atributos de contas e de transações nos dados financeiros. Esses atributos funcionam como segmentos virtuais da conta, e podem conter informações adicionais sobre a conta ou transação. Essas informações adicionais podem ser IDs de contas, IDs do lote, CEP ou outros atributos. Se seu sistema contábil oferece suporte para atributos, você pode usar atributos de contas ou de transações como modificadores de linha na definição de linha. Para obter informações sobre como substituir informações de linha, consulte a seção "Substituir definição de coluna" exibida anteriormente neste artigo.
 
 ## <a name="specify-a-link-to-financial-dimensions-cell"></a>Especificar uma célula Link para Dimensões Financeiras
-A célula **Link para Dimensões Financeiras** contém links para os dados financeiros que devem ser incluídos em cada linha de um relatório. Essa célula contém um valor de dimensão, mas você pode especificar células em uma planilha do Microsoft Excel, ou segmentar valores ou valores de dimensão. Para abrir a caixa de diálogo **Dimensões**, clique duas vezes na célula **Link para Dimensões Financeiras**.
+A célula **Link para Dimensões Financeiras** contém links para os dados financeiros que devem ser incluídos em cada linha de um relatório. Esta célula contém valores de dimensão. Para abrir a caixa de diálogo **Dimensões**, clique duas vezes na célula **Link para Dimensões Financeiras**.
 
 > [!NOTE]
 > O Designer de Relatórios não pode selecionar contas, dimensões ou campos do sistema ERP no Microsoft Dynamics que incluam qualquer um dos seguintes caracteres reservados: &, \*, \[, \], {, ou }. Para especificar informações para uma linha que já está na definição de linha, adiciona e informação na célula **Vincular a dimensões financeiras**. Para adicionar novas linhas que sejam vinculadas aos dados financeiros, use a caixa de diálogo **Inserir Linhas de** para criar novas linhas na definição de relatório. O título de coluna é alterado de acordo com a forma na qual as colunas são configuradas, conforme exibido na tabela a seguir.
 
 | Tipo de link selecionado       | A descrição na coluna do link é alterada para |
 |----------------------------------|----------------------------------------------------|
-| Dimensões Financeiras             | Vincular a Dimensões Financeiras                       |
-| Planilha Externa               | Vincular a planilha                                  |
-| Dimensões financeiras + Planilha | Vincular a Dimensões financeiras + Planilha           |
-| Relatório de Management Reporter       | Relatório de Management Reporter                         |
+| Dimensões Financeiras             | Link para Dimensões Financeiras                       |
+| Planilha de relatório                 | Relatório Relatórios Financeiros                         |
 
 ### <a name="specify-a-dimension-or-range"></a>Especifique uma dimensão ou intervalo.
 
-1. No Report Designer, abra a definição de linha a ser modificada.
+1. No Designer de Relatórios, abra a definição de linha a ser modificada.
 2. Clique duas vezes na coluna **Vincular a dimensões financeiras**.
 3. Na caixa de diálogo **Dimensões**, clique duas vezes na célula no nome da dimensão.
 4. Na caixa de diálogo da dimensão, selecione **Individual ou intervalo**.
