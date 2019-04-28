@@ -1,7 +1,7 @@
 ---
 title: Aprovações de fatura móvel
 description: Este tópico tem como objetivo fornecer uma abordagem prática para criar cenários móveis no Dynamics 365 for Finance and Operations tirando aprovações da fatura de fornecedor do celular como um caso de uso.
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e39d81b0d600012f936865b53f8556eb3ef0a3d9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 5a48ea7b0c1faf5726de21a246e3d8b4d98f166a
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "314385"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "897169"
 ---
 # <a name="mobile-invoice-approvals"></a>Aprovações de fatura móvel
 
@@ -38,7 +38,7 @@ Os recursos móveis no Microsoft Dynamics 365 for Finance and Operations permite
 | Pré-leitura do manual móvel                                                                                |[Plataforma móvel](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 for Finance and Operations                                                                             | Um ambiente com a versão 1611 do Microsoft Dynamics 365 for Operations e a atualização 3 da plataforma do Microsoft Dynamics for Operations (Novembro de 2016)                   |
 | Instalar hotfix KB 3204341.                                                                              | O gravador de tarefas pode registrar erroneamente dois comandos próximos para caixas de diálogo suspensas incluídas na plataforma do Dynamics 365 for Operations, atualização 3 (atualização de novembro de 2016) |
-| Instalar hotfix KB 3207800.                                                                              | Este hotfix habilita a exibição de anexos no cliente móvel incluído na plataforma do Microsoft Dynamics 365 for Operations, atualização 3 (atualização de novembro de 2016).           |
+| Instalar hotfix KB 3207800.                                                                              | Este hotfix habilita a exibição de anexos no cliente móvel incluído na plataforma do Dynamics 365 for Operations, atualização 3 (atualização de novembro de 2016).           |
 | Instalar hotfix KB 3208224.                                                                              | O código do aplicativo para o aplicativo móvel de aprovação de fatura de fornecedor está incluído no aplicativo do Microsoft Dynamics AX 7.0.1 (Maio de 2016).                          |
 | Um dispositivo Android ou iOS que tem o aplicativo móvel instalado para Finance and Operations | Procurar pelo aplicativo na loja de aplicativo apropriada.                                                                                                                     |
 

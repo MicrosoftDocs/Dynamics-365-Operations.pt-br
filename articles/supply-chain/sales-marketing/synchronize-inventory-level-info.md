@@ -3,7 +3,7 @@ title: Sincronizar informações em nível de estoque do Finance and Operations 
 description: Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar informações no nível do estoque do Microsoft Dynamics 365 for Finance and Operations com o Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: b81694f1ed56d8542de46203ac5faf5fae2b6645
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6b2bdf1ca6f6ae43cd85c8a1353ee8305052761d
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "356774"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842547"
 ---
 # <a name="synchronize-inventory-level-information-from-finance-and-operations-to-field-service"></a>Sincronizar informações do nível de estoque do Finance and Operations no Field Service 
 
@@ -38,14 +38,14 @@ Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar
 O modelo a seguir e as tarefas subjacentes são usados para executar a sincronização dos níveis de estoque disponível do Microsoft Dynamics 365 for Finance and Operations com o Microsoft Dynamics 365 for Field Service.
 
 **Modelo na integração de dados**
-- Estoque de produtos (Finance and Operations para Field Service)
+- Inventário de Produtos (Fin and Ops com o Field Service)
   
 **Tarefas no projeto de integração de dados**
 - Estoque de produtos
 
 As seguintes tarefas de sincronização são necessárias antes da sincronização de níveis de estoque:
-- Depósitos (Finance and Operations para Field Service) 
-- Produtos do Field Service com unidade de estoque (Finance and Operations para Sales) 
+- Depósitos (Fin and Ops com o Field Service) 
+- Produtos do Field Service com Unidade de estoque (Fin and Ops com o Sales) 
 
 ## <a name="entity-set"></a>Conjunto de entidades
 
@@ -80,6 +80,6 @@ Você pode aplicar filtros com a Filtragem e Consulta Avançada para que somente
 
 ## <a name="template-mapping-in-data-integration"></a>Mapeamento de modelo na Integração de dados
 
-### <a name="product-inventory-finance-and-operations-to-field-service-product-inventory"></a>Estoque de produtos (Finance and Operations para Field Service): estoque de produtos
+### <a name="product-inventory-fin-and-ops-to-field-service-product-inventory"></a>Inventário de produtos (Fin and Ops com o Field Service): Inventário de produtos
 
 [![Mapeamento de modelo na Integração de dados](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)

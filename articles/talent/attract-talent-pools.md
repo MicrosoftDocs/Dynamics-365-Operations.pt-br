@@ -1,29 +1,29 @@
 ---
 title: Candidatos de origem usando grupos de talento
 description: Este tópico explica como criar e configurar os grupos de talentos no Attract.
-author: ''
+author: andreabichsel
 manager: AnnBe
-ms.date: 10/22/2018
+ms.date: 04/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: cac68799ee5b6e2c8f864acf6d1677a7213b4aaf
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 13b5e3091a4bcdbf1bfbe077ffb04ec8d08a0911
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303253"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949335"
 ---
 # <a name="source-candidates-by-using-talent-pools"></a>Candidatos de origem usando grupos de talento
 
@@ -44,7 +44,7 @@ Siga as etapas abaixo para criar e compartilhar um grupo de talentos.
 
     A guia **Meus de grupos de talentos** mostram todos os grupos de talentos aos quais você tem acesso, com detalhes sobre cada um. Os detalhes incluem o proprietário do grupo e o número de candidatos nele.
 
-1. No canto superior direito, selecione **+ Novo** para abrir a caixa de diálogo **Criar grupo de talentos**.
+1. No canto superior direito da página, selecione **Novo** para abrir a caixa de diálogo **Criar grupo de talentos**.
 1. Insira um nome exclusivo para o grupo de talentos.
 1. Para adicionar pessoas como colaboradores ao grupo, encontre seus nomes usando o seletor de pessoas e então adicione-as à lista. Você só pode compartilhar um grupo de talentos com os usuários que tenham a função recrutador, gerente de contratação ou administrador do Attract.
 1. Selecione **Adicionar** para criar o grupo de talentos.
@@ -78,26 +78,35 @@ O proprietário e os colaboradores do grupo de talentos podem adicionar candidat
 
 ## <a name="search-and-view-candidate-profiles"></a>Pesquisar e exibir perfis do candidato
 
-Os usuários de um grupo de talentos podem exibir o perfil de um candidato, suas informações do LinkedIn, os documentos relacionados ou o histórico completo da solicitação de emprego do candidato. Você também pode pesquisar o banco de dados de candidatos em busca de um candidato que já tenha feito uma solicitação de emprego em sua organização ou que já tenha sido adicionado a qualquer grupo de talentos.
+> [!NOTE] 
+> Este recurso está atualmente em visualização. Se quiser experimentá-lo, você deverá [ativá-lo nas configurações do administrador do Attract](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
 
-1. Use o campo de pesquisa na parte superior da guia **Meus grupos de talentos** para pesquisar seu banco de dados de candidatos.
-1. Pesquise entre diversos atributos do perfil. Selecione a categoria de atributo de pesquisa, crie uma consulta de pesquisa, selecione o botão de seta para a direita (**-\>**) para executar a pesquisa.
+Os grupos de talentos permitem a você exibir o perfil, as informações do LinkedIn, os documentos relacionados e o histórico de solicitação de emprego do candidato. Você pode pesquisar todo o banco de dados de todos os candidatos adicionados a qualquer grupo de talentos, inclusive candidatos fechados e ativos.
 
-    Você pode pesquisar candidatos pelo nome, pela organização para a qual trabalham, por suas habilidades, por seu histórico de formação educacional, pelo cargo atual ou por seus diplomas, caso essas informações tenham sido incluídas no perfil.
+>[!NOTE]
+> Quando você adiciona novos candidatos, as novas adições podem levar 15 minutos até serem indexadas para pesquisa.
 
-    Você também pode criar uma consulta de pesquisa que use dois ou mais desses atributos como critérios. Combine os critérios usando um operador **and**.
+Com a experiência de pesquisa aprimorada, você pode pesquisar todos os documentos dos candidatos e filtrar por medalhistas de prata, origens, habilidades, formação educacional e muito mais. Em versões anteriores, era necessário especificar a entidade a ser pesquisada. Agora, o Attract pode pesquisar todos os campos relacionados a candidatos e classificar os resultados.
 
-    Se um candidato corresponder à consulta de pesquisa, será listado nos resultados da pesquisa.
+1. Para iniciar uma nova pesquisa pelo banco de dados de candidatos, digite o texto que deseja pesquisar na caixa de pesquisa, na guia **Grupos de talentos**. 
 
-1. Para restringir seus resultados, você poderá atualizar a consulta de pesquisa usando o campo de pesquisa na parte superior.
+Você pode digitar o nome do candidato ou quaisquer atributos que esteja procurando. Para separar atributos, use um espaço.
 
-    Como alternativa, use a lista dos filtros inteligentes à direita. Esses filtros inteligentes são usados dinamicamente, com base nos resultados da pesquisa.
+Você pode restringir os resultados, alterando sua consulta de pesquisa ou usando os filtros inteligentes no lado esquerdo da página.
 
-    Os resultados da pesquisa mostram as 20 principais habilidades, escolas, organizações e assim por diante encontradas com mais frequência na lista de candidatos. Você pode adicionar mais filtros para qualquer um desses atributos para restringir ainda mais os resultados da pesquisa.
+Os resultados da pesquisa mostram os destaques dos vários atributos que correspondem à sua consulta de pesquisa. Selecione qualquer candidato no qual esteja interessado para exibir seu perfil.
 
-1. Depois de identificar um candidato, selecione a linha dele para exibir seu perfil.
+### <a name="syntax-highlights"></a>Destaques de sintaxe 
 
-Todas os usuários têm uma exibição comum dos perfis de candidato. Selecione a linha de um candidato em um conjunto de resultados da pesquisa ou de um grupo de talentos para exibir o perfil. A guia **Perfil** mostra todas informações sobre habilidades, experiência de trabalho e formação educacional que o candidato atualizou no portal de carreiras.
+| Operador | Utilização                                                      | Exemplo              |
+|----------|------------------------------------------------------------|----------------------|
+| \*       | Pesquisas de subcadeias; podem ser usadas para fornecer todos os registros | Entrada: Mi\* <br></br> Resultado: todos os registros contendo campos que começam com "Mi", como Microsoft, Micro Systems, Midtown Enterprises ou Middleton <br></br>Entrada: \* <br></br> Resultado: todos os registros no banco de dados |
+| ""       | Pesquisas de correspondência exata                                | Entrada: "Microsoft" <br></br> Resultado: todos os registros que contenham "Microsoft"                    |
+
+>[!WARNING]
+> Não desative a pesquisa por relevância para sua instância do Common Data Service. Isso desabilitará a experiência de pesquisa no Attract.
+
+Todas os usuários têm uma exibição comum dos perfis de candidato. A guia **Perfil** mostra todas as informações sobre habilidades, experiência profissional e formação educacional que o candidato forneceu como parte de sua solicitação de emprego usando o portal de carreiras.
 
 - Você pode exibir os detalhes de contato do candidato. Você também pode editar ou atualizar as informações conforme o necessário usando o botão **Editar detalhes**.
 
@@ -117,7 +126,7 @@ Dos resultados da pesquisa ou de um grupo de talentos, você pode enviar por pus
 
 1. Localize o candidato usando a opção de pesquisa e então abra seu perfil. Como alternativa, abra o pool de talentos da guia **Meus grupos de talentos**, procure o candidato no seu grupo de talentos e então abra o perfil dele.
 
-1. Na página do perfil do candidato, selecione **+ Adicionar a trabalho** no canto superior direito. 
+1. Na página do perfil do candidato, selecione **Adicionar ao trabalho** no canto superior direito. 
      
      Uma lista de trabalhos para os quais você faz parte da equipe de contratação, como recrutador ou como gerente de contratação, é mostrada.
 

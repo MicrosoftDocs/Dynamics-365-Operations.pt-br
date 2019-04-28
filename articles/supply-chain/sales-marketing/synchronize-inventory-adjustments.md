@@ -3,7 +3,7 @@ title: Sincronizar transferências e ajustes de estoque do Field Service para o 
 description: Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar ajustes e transferências de estoque do Microsoft Dynamics 365 for Finance and Operations com o Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: aa54945cea5821da163e1f6ea1747ac29b31a3ce
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 75181661c41d238cdc06ffbb6969a2efd7d88d46
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "308359"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842406"
 ---
 # <a name="synchronize-inventory-adjustments-from-field-service-to-finance-and-operations"></a>Sincronizar ajustes de estoque do Field Service para o Finance and Operations
 
@@ -38,8 +38,8 @@ Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar
 O modelo a seguir e as tarefas subjacentes são usados para executar a sincronização dos ajustes e transferências de estoque do Microsoft Dynamics 365 for Field Service com o Microsoft Dynamics 365 for Finance and Operations.
 
 **Modelo na integração de dados**
-- Ajuste de inventário (Field Service para Finance and Operations)
-- Transferências de inventário (Field Service para Finance and Operations)
+- Ajuste de Estoque (Field Service para Fin and Ops)
+- Transferências de Estoque (Field Service para Fin and Ops)
 
 **Tarefas nos projetos de integração de dados**
 - Ajustes de estoque
@@ -71,11 +71,11 @@ Os diários de estoque de integração gerados pela integração podem ser lanç
 
 As ilustrações a seguir mostram um mapeamento de modelo na Integração de dados.
 
-### <a name="inventory-adjustment-field-service-to-finance-and-operations-inventory-adjustment"></a>Ajuste de estoque (Field Service para Finance and Operations): ajuste de estoque
+### <a name="inventory-adjustment-field-service-to-fin-and-ops-inventory-adjustment"></a>Ajuste de estoque (Field Service para Fin and Ops): Ajuste de estoque
 
 [![Mapeamento de modelo na Integração de dados](./media/FSAdj1.png)](./media/FSAdj1.png)
 
 
-### <a name="inventory-transfer-field-service-to-finance-and-operations-inventory-transfer"></a>Transferência de estoque (Field Service para Finance and Operations): transferência de estoque
+### <a name="inventory-transfer-field-service-to-fin-and-ops-inventory-transfer"></a>Transferência de estoque (Field Service para Fin and Ops): Transferência de estoque
 
 [![Mapeamento de modelo na Integração de dados](./media/FSTrans1.png)](./media/FSTrans1.png)

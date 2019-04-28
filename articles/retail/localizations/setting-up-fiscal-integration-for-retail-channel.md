@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 685340141ed35f4a2b57742328c69d3bbf9a73d2
-ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
+ms.openlocfilehash: 060075757dec64e83c46498380a920d580ac09e4
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "773318"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "898968"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Configurar a integração fiscal para canais de varejo
 
@@ -60,7 +60,7 @@ Antes de usar a funcionalidade de integração fiscal, você deve definir as con
 2. Carregue configurações de conectores fiscais e provedores de documentos fiscais.
 
     Um provedor de documentos fiscais é responsável por gerar documentos fiscais que representam transações e eventos de varejo registrados no PDV em um formato que também é usado para a interação com um dispositivo ou serviço fiscal. Por exemplo, um provedor de documentos fiscais pode gerar uma representação de um recibo fiscal em um formato XML.
-    
+
     Um conector fiscal é responsável pela comunicação com um dispositivo ou serviço fiscal. Por exemplo, um conector fiscal pode enviar um recibo fiscal que um provedor de documentos fiscais criou em um formato XML para uma impressora fiscal. Para obter mais detalhes sobre componentes de integração fiscal, consulte [Processo de registro fiscal e exemplos de integração fiscal para dispositivos fiscais](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
 
     1. Na página **Conectores fiscais** (**Varejo \> Configuração de canal \> Integração fiscal \> Conectores fiscais**), carregue uma configuração XML para cada dispositivo ou serviço que você planeja usar para fins de integração fiscal.
@@ -150,7 +150,7 @@ Antes de usar a funcionalidade de integração fiscal, você deve definir as con
     - Depois de fazer alterações em um processo de registro fiscal existente, essas alterações podem fazer com que um conector fiscal diferente seja selecionado no tempo de execução (por exemplo, se você alterar o grupo de conectores para uma etapa do processo de registro fiscal, habilite um perfil funcional de conector em um grupo de conectores ou adicione um novo perfil funcional do conector a um grupo de conectores).
     - Depois de fazer alterações na atribuição de perfis técnicos de conectores a perfis de hardware.
 
-8. Na página **Agendador de distribuição**, execute os trabalhos **1070** e **1090** para transferir dados para o banco de dados do canal.
+8. Na página **Agenda de distribuição**, execute os trabalhos **1070** e **1090** para transferir dados para o banco de dados do canal.
 
 ## <a name="set-up-fiscal-texts-for-discounts"></a>Configurar textos fiscais para descontos
 
@@ -185,8 +185,12 @@ As opções de tratamento de erros disponíveis na integração fiscal são defi
 
     - **Permitir ignorar** – Este parâmetro habilita a opção **Ignorar** na caixa de diálogo de tratamento de erros.
     - **Permitir marcar como registrado** – Este parâmetro habilita a opção **Marcar como registrado** na caixa de diálogo de tratamento de erros.
+    - **Continuar se houver erro** – Se este parâmetro estiver habilitado, o processo de registro fiscal poderá continuar no terminal de PDV em caso de falha no registro de uma transação ou de um evento. Do contrário, para executar o registro fiscal da próxima transação ou evento, o operador deve repetir o registro fiscal com falha, ignorá-lo ou marcar a transação ou ao evento como registrados. Para obter mais informações, consulte [Registro fiscal opcional](fiscal-integration-for-retail-channel.md#optional-fiscal-registration).
 
-2. As opções **Ignorar** e **Marcar como registrado** na caixa de diálogo de tratamento de erros requerem a permissão **Permitir ignorar ou marcar como registrado**. Portanto, na página **Grupos de permissões** (**Varejo \> Funcionários \> Grupos de permissões**), habilite a permissão **Permitir ignorar ou marcar como registrado**.
+    > [!NOTE]
+    > Se o parâmetro **Continuar se houver erro** for habilitado, os parâmetros **Permitir ignorar** e **Permitir marcar como registrado** serão desabilitados automaticamente.
+
+2. As opções **Ignorar** e **Marcar como registrado** na caixa de diálogo de tratamento de erros exigem a permissão **Permitir ignorar o registro ou marcar como registrado**. Por isso, na página **Grupos de permissões** (**Varejo \> Funcionários \> Grupos de permissões**), habilite a permissão **Permitir ignorar o registro ou marcar como registrado**.
 3. As opções **Ignorar** e **Marcar como registrado** permitem que os operadores insiram informações adicionais quando o registro fiscal falha. Para disponibilizar essa funcionalidade, você deve especificar os códigos de informações **Ignorar** e **Marcar como registrado** em um grupo de conectores fiscais. As informações inseridas pelos operadores são salvas como uma transação de código de informação vinculada à transação fiscal. Para obter mais detalhes sobre códigos de informação, consulte [Códigos informativos e grupos de códigos informativos](../info-codes-retail.md).
 
     > [!NOTE]
@@ -200,6 +204,8 @@ As opções de tratamento de erros disponíveis na integração fiscal são defi
     > - **Nota fiscal** – Um documento obrigatório que deve ser registrado com sucesso (por exemplo, um recibo fiscal).
     > - **Documento não fiscal** – Um documento suplementar para a transação ou evento (por exemplo, um comprovante de cartão de presente).
 
+4. Se o operador deve poder continuar a processar a operação atual (por exemplo, criar ou finalizar uma transação) após um erro de verificação de integridade, você deve habilitar a permissão **Permitir ignorar o erro de verificação de integridade** na página **Grupos de permissões** (**Varejo \> Funcionários \> Grupos de permissões**). Para obter mais informações sobre o procedimento de verificação de integridade, consulte [Verificação de integridade do registro fiscal](fiscal-integration-for-retail-channel.md#fiscal-registration-health-check).
+
 ## <a name="set-up-fiscal-xz-reports-from-the-pos"></a>Configurar relatórios fiscais X/Z a partir do PDV
 
 Para permitir que os relatórios fiscais X/Z sejam executados a partir do PDV, você deve adicionar novos botões a um layout de PDV.
@@ -211,3 +217,12 @@ Para permitir que os relatórios fiscais X/Z sejam executados a partir do PDV, v
     3. Adicione um novo botão e defina a propriedade do botão **Redução Z**.
     4. Na página **Agenda de distribuição**, execute o trabalho **1090** para transferir as alterações para o banco de dados do canal.
 
+## <a name="enable-manual-execution-of-postponed-fiscal-registration"></a>Habilitar a execução manual do registro fiscal adiado
+
+Para habilitar a execução manual de um registro fiscal adiado, você deve adicionar um novo botão a um layout do PDV.
+
+- Na página **Grades de botões**, siga as instruções em [Adicionar um botão de operação personalizada ao layout do PDV na sede do varejo](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) para instalar o designer e atualizar um layout de PDV.
+
+    1. Selecione o layout para atualizar.
+    2. Adicione um novo botão e defina a propriedade do botão **Concluir processo de registro fiscal**.
+    3. Na página **Agenda de distribuição**, execute o trabalho **1090** para transferir suas alterações para o banco de dados do canal.

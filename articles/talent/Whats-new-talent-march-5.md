@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e6b490a696dc0a00c47e56f57373f330d0e53dde
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: e4ad32ef71c87f52e59959d80c21ae7fcd6d6524
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "782785"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949796"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>Novidades ou alterações no Dynamics 365 for Talent (5 de março de 2019)
 
@@ -35,7 +35,7 @@ Este tópico descreve os recursos novos ou alterados no Talent
 
 ### <a name="extending-option-sets-in-attract"></a>Extensão dos conjuntos de opção no Attract
 
-Em Attract, há vários campos que são conjuntos de opção dentro do Common Data Service (CDS). Novas funcionalidades foram apresentadas para estender os conjuntos de opção, começando com os campos Motivo de **Rejeição**, **Tipo de emprego** e **Tipo de senioridade**.
+No Attract, há vários campos que são conjuntos de opções dentro do Common Data Service. Novas funcionalidades foram apresentadas para estender os conjuntos de opção, começando com os campos Motivo de **Rejeição**, **Tipo de emprego** e **Tipo de senioridade**.
 
 > [!IMPORTANT]
 > A postagem de trabalho na funcionalidade do LinkedIn requer o uso de campos **Tipo de emprego** e **Tipo de senioridade** na página **Detalhes de trabalho**. Os valores padrão nesses campos são compatíveis com LinkedIn e são exibidos quando o trabalho é postado. Se estiver postando trabalhos no LinkedIn e modificar os valores de conjunto de opção existentes para esses campos, o trabalho será postado, mas o LinkedIn não exibirá os valores **Tipo de trabalho** e **Tipo de senioridade** personalizados.
@@ -70,8 +70,8 @@ Com esta alteração, ao solicitar alterações a posições existentes, os camp
 ### <a name="other-miscellaneous-bug-fixes"></a>Outras correções de bugs diversos
 Outras correções de bugs diversos estão incluídas nesta versão.
 
-### <a name="upgrade-to-cds-for-apps"></a>Atualizar para o CDS para aplicativos
-Os prazos finais para atualizar para CDS de Aplicativos estão se aproximando rapidamente. Entre na central de administração do PowerApps para determinar se sua base de dados precisa ser atualizada. Para obter mais informações sobre os prazos finais e etapas necessárias para atualização, consulte [Atualizar para Common Data Service para Aplicativos](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+### <a name="upgrade-to-common-data-service"></a>Fazer upgrade para o Common Data Service
+Os prazos finais para atualizar para o Common Data Service se aproximam rapidamente. Entre na central de administração do PowerApps para determinar se sua base de dados precisa ser atualizada. Para obter mais informações sobre os prazos finais e as etapas necessárias para atualizar, consulte [Fazer upgrade para o Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="coming-soon"></a>Em breve
 

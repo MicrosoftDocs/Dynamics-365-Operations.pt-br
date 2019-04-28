@@ -1,29 +1,29 @@
 ---
 title: Recomendações inteligentes
 description: Este tópico explica como machine learning pode ser usado para fornecer recomendações para trabalhos e candidatos a trabalhos.
-author: josaw
+author: andreabichsel
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c6225a311f5ba0b65b45092a1f626b9d6aff3f5e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: fb31b413cfe3cd168bbb12ce6070325ff5f736da
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303269"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "896548"
 ---
 # <a name="intelligent-recommendations"></a>Recomendações inteligentes
 
@@ -32,8 +32,9 @@ ms.locfileid: "303269"
 Machine learning pode ajudar a recrutar e contratar gerentes rapidamente a identificar os candidatos principais para uma posição. Também pode ajudar os clientes potenciais a encontrar a posição que melhor atenda seu perfil e juros. Conforme esses recursos são usados e comentários são fornecidos, recomendações são melhoradas.
 
 > [!NOTE] 
-> - Os recursos de recomendação inteligente estão disponíveis apenas com o suplemento de contratação abrangente.
-> - Para habilitar os recursos de recomendação de candidato e trabalho, um administrador deve ativar as opções de visualização deles. No centro de administrações, na guia **Gerenciamento de recursos**, garanta que a opção **Recursos de visualização** está definida como **Ativado**. Certifique-se de que as opções **Recomendação de candidato** individual e **Job recommendation** estão definidas como **Ativado**.
+> - Os recursos de recomendação inteligente estão disponíveis somente com o [complemento de Contratação abrangente](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> - A funcionalidade observada neste tópico está disponível para usuários como parte de uma revisão de versão prévia. O conteúdo e as funcionalidades estão sujeitos a alteração. Para usar o recurso, peça ao administrador habilitá-lo usando as **Configurações do administrador** no Attract. Defina **Recomendação de candidato**, **Recomendação de trabalho**, **Recomendação de colaborador potencial** como **Ativado**. Para obter mais informações, consulte [Acessar os recursos de visualização no Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
+
 
 ## <a name="candidate-recommendations"></a>Recomendações de candidato
 
@@ -43,4 +44,15 @@ Para qualquer candidato recomendado, selecione **Exibir candidato** no cartão d
 
 ## <a name="job-recommendations"></a>Recomendações de trabalho 
 
-Quando um funcionário em potencial usa o site de carreira para se candidatar a um trabalho, outras posições abertas são recomendadas na organização. Estas recomendações são baseadas nas aplicações passadas do candidato em potencial e no seu currículo ou perfil de candidato. Portanto, recomendações de trabalho ajudam os candidatos a identificarem rapidamente os trabalhos que são melhores para eles. As recomendações de trabalho são fornecidas a candidatos se mais de dez trabalhos são postados no site de carreira. Os candidatos podem abrir os detalhes de um anúncio do cartão da recomendação. Também podem fornecer comentários sobre uma recomendação para ajudar a melhorar as recomendações futuras.
+Quando um funcionário em potencial usa o site de carreiras para se candidatar a um trabalho, o Attract recomenda outras posições abertas na organização. Essas recomendações são baseadas nas nas solicitações de emprego anteriores, no perfil e no currículo do candidato. Portanto, recomendações de trabalho ajudam os candidatos a identificarem rapidamente os trabalhos que são melhores para eles. As recomendações de trabalho são fornecidas a candidatos se mais de dez trabalhos são postados no site de carreira. Os candidatos podem abrir os detalhes de um anúncio do cartão da recomendação. Também podem fornecer comentários sobre uma recomendação para ajudar a melhorar as recomendações futuras.
+
+## <a name="prospect-recommendations"></a>Recomendação de candidato ao trabalho 
+
+Quando uma nova posição torna-se disponível, avaliar todos os candidatos anteriores e todas a sua rede talentos pode levar algum tempo. Para que o Attract o ajude a fazer isso, você pode usar os algoritmos inteligentes de machine learning. Isso significa que Attract revisará todos os candidatos e fará sugestões daqueles que são uma boa correspondência assim que você criar os trabalhos. Para exibir essas recomendações, habilite o estágio **Colaborador potencial** para o trabalho. Podem levar até um minuto para que o Attract verifique o todo o banco de dados de candidatos para fazer recomendações.
+
+As recomendações serão exibidas como cartões na guia **Colaboradores potenciais** de todos os trabalhos que tenha o estágio **Colaborador potencial** habilitado. Esses cartões listam as habilidades encontradas no perfil do colaborador potencial, bem como todas as informações de qualificação de educação. Se encontrar uma recomendação da qual goste, você poderá adicionar o candidato como um colaborador potencial para esse trabalho.
+
+> [!NOTE]
+> Se você começou a usar o Attract recentemente, será necessário esperar até que tenha 10 ou mais candidatos com perfis ou currículos completos para usar esse recurso.
+
+Para evitar possíveis parcialidades nas recomendações, o Attract somente verifica os perfis dos candidatos para habilidades, qualificações e outras palavras-chave que correspondam à descrição do trabalho. Além disso, o Attract remove informações de identificação pessoal dos perfis dos candidatos antes da avaliação.

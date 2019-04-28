@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9354e0dbf8bed9383a9dfcc383a2c9db57457dd0
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 85708c7197a71e6ad9b814e2e63d62122c8890f6
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353807"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842713"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operações de ponto de venda (PDV) online e offline
 
@@ -93,8 +93,8 @@ As seguintes colunas especificam onde as operações podem ser invocados:
 | 614 | Editar ordem do cliente | Cancelar a ordem selecionada para que possa ser alterada no PDV. | Não | Não | Não | Não | Não |
 | 615 | Editar cotação | Cancelar a cotação selecionada para que possa ser alterada no PDV. | Não | Não | Não | Não | Não |
 | 518 | Contas de Despesa | Registrar dinheiro que é removido da caixa registradora para despesas ocasionais. | Sim | Sim | Sim | Sim | Não |
-| 919 | Logon estendido | Atribuir ou remover permissão para entrar digitalizando um código de barras ou passando um cartão. | Sim | Sim | Sim | Não | Não |
-| 1201 | Entrada de flutuação | Esta operação permite que o usuário adicione dinheiro na gaveta ou turno atual. | Sim | Sim | Sim | Sim | Não |
+| 919 | Logon estendido | Atribuir ou remover permissão para entrar digitalizando um código de barras ou passando um cartão. | Sim | Sim | Sim | Sim | Não |
+| 1201 | Suprimento | Esta operação permite que o usuário adicione dinheiro na gaveta ou turno atual. | Sim | Sim | Sim | Sim | Não |
 | 1218 | Forçar desbloqueio de periférico | O sistema usa essa operação internamente para desbloquear periféricos PDV. | Não Aplicável | Não Aplicável | Não Aplicável | Não Aplicável | Não |
 | 520 | Saldo do cartão-presente | Mostrar o saldo de um vale-presente. | Sim | Sim | Não | Não | Não |
 | 708 | Desativar dispositivo | Desativar o dispositivo atual, de modo que não possa ser usado como um registro PDV. | Não | Não | Não | Não | Não |

@@ -1,7 +1,7 @@
 ---
 title: Gerenciamento de segurança e funções no Attract
 description: Este tópico fornece informações sobre a função de segurança no Microsoft Dynamics 365 for Talent - Attract.
-author: josaw1
+author: andreabichsel
 manager: AnnBe
 ms.date: 03/08/2019
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: josaw1
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: bb313c489a3bdaa71f8db870cab729d86088f4db
-ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
+ms.openlocfilehash: 9c0f9d3304b1b15aa84fd1a296267d606bf9c59d
+ms.sourcegitcommit: 1653d1e28d02f8a9a4bea8df562ac98d7a350ed1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "789688"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "993682"
 ---
 # <a name="security-and-role-management-in-attract"></a>Gerenciamento de segurança e funções no Attract
 
@@ -70,6 +70,16 @@ Qualquer usuário que tenha uma conta do Microsoft Azure Active Directory (Azure
 
 Os usuários atribuídos à função somente leitura têm acesso somente leitura a todos os dados no ambiente do Attract. Entretanto, eles não podem criar ou editar os dados.
 
+## <a name="find-out-which-roles-you-have"></a>Descubra quais funções você tem
+
+1.  No Attract, clique no ponto de interrogação (**?**) no canto superior direito da página.
+
+2.  Clique em **Sobre**.
+
+    Você verá quais funções tem no Attract na janela exibida:
+
+    ![Exibir seu tipo de licença do Attract](media/attract-license-types.png)
+    
 ## <a name="delegated-roles"></a>Funções delegadas
 
 Para cada trabalho no qual estiverem na equipe de contratação, os recrutadores e gerentes de contratação podem designar um ou mais destinados para eles mesmos. Entretanto, não podem designar destinados para outros contratos de contratação em equipe.

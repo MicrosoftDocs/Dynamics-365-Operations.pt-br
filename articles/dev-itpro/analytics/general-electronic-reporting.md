@@ -3,14 +3,14 @@ title: Relatório eletrônico (RE)
 description: Este tópico oferece uma visão geral da ferramenta ER (Relatório eletrônico). Ele inclui informações sobre os principais conceitos, os cenários com suporte do ER e uma lista de formatos projetados e liberados como parte da solução ER.
 author: NickSelin
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
-ms.reviewer: kfend
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 58941
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: bc544211891c19104b2b3cb704b55a074784d608
+ms.sourcegitcommit: b95bc0f81bd3bb3d9ec4c61f64f93b5c2bef9e05
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "310797"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "902951"
 ---
 # <a name="electronic-reporting-er"></a>Relatório eletrônico (RE)
 
@@ -163,21 +163,33 @@ Para aprender a registrar um novo provedor de ER, execute a guia de tarefas **ER
 
 #### <a name="repository"></a>Repositório
 
-Um repositório armazena as configurações de RE. Quatro tipos de repositórios ER são atualmente compatíveis: **Recursos de operação**, **Projeto LCS (LCS)**, **Sistema de arquivo** e **Serviços de configuração regulatório (RCS)**.
+Um repositório armazena as configurações de RE. Os tipos de repositórios de ER a seguir têm suporte no momento: 
 
-Um repositório de **Recursos de operações** fornece acesso à lista de configurações que a Microsoft, como provedora de configuração do ER, libera como parte da solução Finance and Operations. Essas configurações podem ser importadas para a instância atual do Finance and Operations e usadas para relatórios eletrônicos. Elas também podem ser usadas para localizações e personalizações adicionais.
+- Biblioteca compartilhada do LCS
+- Projeto do LCS
+- Sistema de arquivos
+- Serviços de configuração regulatória (RCS)
+- Recursos de operações
+
+
+Um repositório da **biblioteca compartilhada do LCS** fornece acesso à lista de configurações na biblioteca de ativos compartilhados no Lifecycle Services (LCS). Esse tipo repositório de ER só pode ser registrado para o provedor Microsoft. A partir da biblioteca de ativos compartilhados do LCS, você pode importar as versões mais recentes das configurações de ER para a instância atual do Finance and Operations.
 
 Um repositório de **projeto do LCS** fornece acesso à lista de configurações de projeto do LCS (biblioteca de ativos do projeto do LCS) que foi selecionado na fase de registro do repositório. O ER permite carregar configurações compartilhadas da instância atual do Finance and Operations para um repositório específico do **Projeto do LCS**. Você também pode importar configurações do repositório de um **Projeto LCS** na instância do Finance and Operations atual.
 
-Um repositório do **Sistema de arquivos** fornece acesso à lista de definições que estão localizadas como arquivos xml na pasta específica do sistema de arquivos local do computador onde o serviço AOS está hospedado. A pasta necessária está selecionada no estágio de registro do armazenamento. Você também pode importar configurações de um repositório de **Sistema de arquivos** na instância do Finance and Operations atual. Note que esse tipo de armazenamento está disponível nos seguintes ambientes do Dynamics 365 for Finance and Operations:
-- ambientes armazenados em nuvem implantados para fins de desenvolvimento (contendo modelos de teste de pacotes integrados)
-- ambientes localmente implantados (implantação LBD ou no local)
+Um repositório do **Sistema de arquivos** fornece acesso à lista de definições que estão localizadas como arquivos xml na pasta específica do sistema de arquivos local do computador onde o serviço AOS está hospedado. A pasta necessária está selecionada no estágio de registro do armazenamento. Você também pode importar configurações de um repositório de **Sistema de arquivos** na instância do Finance and Operations atual. 
 
-Visite a página [Configurações de Importação de relatório eletrônico (ER)](./electronic-reporting-import-ger-configurations.md) para obter mais detalhes sobre isso.
+Note que esse tipo de armazenamento está disponível nos seguintes ambientes do Dynamics 365 for Finance and Operations:
 
-Um repositório de **Instância do RCS** fornece acesso à lista de configurações de uma instância RCS específica que foi selecionada na fase de registro do repositório. O ER permite a importação concluída ou configurações compartilhadas da instância selecionada de RCS na instância Finance and Operations e usado para relatório eletrônico.
+- Ambientes hospedados na nuvem implantados para fins de desenvolvimento (contendo modelos de teste de pacotes integrados)
+- Ambientes implantados localmente (on-premises)
 
-Visite a página [Configurações de Importação de relatório eletrônico (ER) de Serviços de Configuração Regulatória (RCS)](./rcs-download-configurations.md) para obter mais detalhes sobre isso.
+Para obter mais informações, consulte [Importar configurações do ER (Relatório eletrônico)](./electronic-reporting-import-ger-configurations.md).
+
+Um repositório de **Instância do RCS** fornece acesso à lista de configurações de uma instância RCS específica que foi selecionada na fase de registro do repositório. O ER permite que você importe configurações concluídas ou compartilhadas da instância selecionada do RCS para a instância do Finance and Operations para que possa usá-las para relatórios eletrônicos.
+
+Para obter mais informações, consulte [Importar configurações do ER (Relatório eletrônico) dos RCS (Serviços de configuração regulatória)](./rcs-download-configurations.md).
+
+Um repositório de **Recursos de operações** fornece acesso à lista de configurações que a Microsoft, como provedora de configuração de ER, libera inicialmente como parte da solução Finance and Operations. Essas configurações podem ser importadas para a instância atual do Finance and Operations e usadas para relatórios eletrônicos ou para a reprodução de exemplos de guias da tarefa. Elas também podem ser usadas para localizações e personalizações adicionais. Observe que as versões mais recentes fornecidas pelas configurações de Relatórios eletrônicos da Microsoft devem ser importadas da biblioteca de ativos compartilhados do LCS usando o repositório de ER correspondente.
 
 Os repositórios de **Projeto LCS**, **Sistema de arquivo** e **Serviços de configuração regulatória (RCS)** podem ser registrados individualmente para cada provedor de configuração da instância atual do Finance and Operations. Cada repositório pode ser dedicado a um provedor de configuração específico.
 
@@ -218,7 +230,7 @@ ER fornece um designer de mapeamento do modelo que permite que os usuários mape
 
 ### <a name="storing-a-designed-model-component-as-a-model-configuration"></a>Armazenamento do componente de modelo designado como uma configuração de modelo
 
-O ER pode armazenar um modelo de dados designado, junto com os mapeamentos de dados associados, como uma configuração de modelo da instância atual do Dynamics 365 for Finance and Operations. A ilustração a seguir mostra um exemplo desse tipo de configuração do modelo de dados (o pagamento dados do modelo de configuração).
+O ER pode armazenar um modelo de dados designado, junto com os mapeamentos de dados associados, como uma configuração de modelo da instância atual do Finance and Operations. A ilustração a seguir mostra um exemplo desse tipo de configuração do modelo de dados (o pagamento dados do modelo de configuração).
 
 Para se familiarizar com os detalhes deste cenário, rode o guia de tarefa **ER Mapear modelo de dados para fontes de dados selecionadas** (parte do processo de negócio **7.5.4.3 Adquirir/Desenvolver componentes de solução/serviço de TI (10677)**).
 
@@ -377,6 +389,5 @@ O ER permite adotar automaticamente alterações na última versão do component
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Requisitos de localização – criar uma configuração de relatórios eletrônica](electronic-reporting-configuration.md)
-
-[Gerenciar o ciclo de vida da configuração de relatório eletrônico](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [Requisitos de localização – criar uma configuração de relatórios eletrônica](electronic-reporting-configuration.md)
+- [Gerenciar o ciclo de vida da configuração de relatório eletrônico](general-electronic-reporting-manage-configuration-lifecycle.md)

@@ -3,7 +3,7 @@ title: Roteiros e operações
 description: Este tópico fornece informações sobre roteiros e operações.
 author: sorenva
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 417fd960a43ad3fd023ea0c4a17be735b69743de
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 961cc6fe5bd1bfbb0f5c9116024415a5d53f569e
+ms.sourcegitcommit: dc90d56050d7353930d048476451542cce147e37
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "333337"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "850659"
 ---
 # <a name="routes-and-operations"></a>Roteiros e operações
 
@@ -57,13 +57,12 @@ Se você habilitar apenas roteiros simples nos parâmetros de Controle de produ�
 
 Se você habilitar as redes de roteiros mais complexas nos parâmetros de Controle de produção, você pode definir roteiros com múltiplos pontos de início e operações que podem acontecer em paralelo.  
 
-[![Rede de roteiros](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![Rede de roteiro](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
-**Observações:**
-
--   Cada operação pode ter apenas uma operação sucessora, e todo o roteiro deve terminar em uma única operação.
--   Não há garantia de que múltiplas operações que possuam a mesma operação sucessora (por exemplo, as operações 30 e 40 na ilustração anterior) serão executadas em paralelo. A disponibilidade e a capacidade de recursos pode colocar restrições no modo como as operações são agendadas.
--   Você não pode usar 0 (zero) como número de operação. Esse número é reservado e utilizado para especificar que a última operação do roteiro não possui uma operação sucessora.
+> [!NOTE]
+> -   Cada operação pode ter apenas uma operação sucessora, e todo o roteiro deve terminar em uma única operação.
+> -   Isso não garante que várias operações que tenham a mesma operação sucessora (por exemplo, as operações 30 e 40 na ilustração anterior) sejam executadas em paralelo. A disponibilidade e a capacidade de recursos pode colocar restrições no modo como as operações são agendadas.
+> -   Você não pode usar 0 (zero) como número de operação. Esse número é reservado e utilizado para especificar que a última operação do roteiro não possui uma operação sucessora.
 
 ### <a name="parallel-operations"></a>Operações paralelas
 
@@ -122,7 +121,8 @@ Você também pode especificar se uma relação de operação é específica a u
 
 As relações de operações oferecem muita flexibilidade ao definir seus roteiros. Adicionalmente, a capacidade de definir propriedades padrão ajuda a reduzir a quantidade de dados mestre que você deve manter. No entanto, essa flexibilidade também significa que você deve estar ciente sobre o contexto no qual uma operação é modificada.  
 
-**Observação:** Pelo fato das propriedades operacionais serem armazenadas nas relações de operações por operação, por roteiro, todas as ocorrências da mesma operação (por exemplo, Montagem) possuem os mesmos tempo de configuração, tempo de execução, requisitos de recursos, e assim por diante. Portanto, se duas ocorrências de uma operação devem acontecer no mesmo roteiro mas possuem tempos de execução diferentes, você deve criar duas operações distintas, por exemplo Montagem1 e Montagem2.
+> [!NOTE]
+> Pelo fato de as propriedades operacionais serem armazenadas nas relações de operações por operação para cada roteiro, todas as ocorrências da mesma operação (por exemplo, Montagem) possuem os mesmos tempo de configuração, tempo de execução e requisitos de recursos. Portanto, se duas ocorrências de uma operação devem acontecer no mesmo roteiro, mas possuem tempos de execução diferentes, você deve criar duas operações separadas, por exemplo Montagem1 e Montagem2.
 
 ### <a name="modifying-product-specific-routes"></a>Modificando roteiros de produtos específicos
 
@@ -132,7 +132,8 @@ Na página **Roteiro**, você pode modificar as propriedades operacionais da ope
 
 Também é possível criar manualmente uma operação específica a um roteiro e a um produto lançado utilizando a função **Copiar e editar relação**.  
 
-**Observação:** Se você adicionar uma nova operação em um roteiro na página **Roteiro**, uma relação de operação é criada apenas para o produto lançado atual. Portanto, se o roteiro também é usado para produzir outros produtos, não existirá uma relação de operação aplicável para esses produtos e o roteiro não poderá mais ser utilizado para esses produtos.
+> [!NOTE]
+> Se você adicionar uma nova operação em um roteiro na página **Roteiro**, uma relação de operação será criada apenas para o produto liberado atual. Portanto, se o roteiro também é usado para produzir outros produtos, não existirá uma relação de operação aplicável para esses produtos e o roteiro não poderá mais ser utilizado para esses produtos.
 
 ### <a name="maintaining-operation-relations-per-route"></a>Mantendo as relações de operações por roteiro
 
@@ -148,7 +149,7 @@ Se sua empresa utiliza operações padrão, e se os parâmetros operacionais sã
 
 ### <a name="applying-operation-relations"></a>Aplicando relações de operações
 
-Em alguns casos, o Finance and Operations deve encontrar as propriedades operacionais para uma operação. Por exemplo, quando uma ordem de compra é criada, as propriedades operacionais de cada operação devem ser copiadas das relações de operações para o roteiro de produção. Nessas situações, o Dynamics 365 for Finance and Operations busca as relações de operações relevantes desde a combinação mais específica até a menos específica.  
+Em alguns casos, o Finance and Operations deve encontrar as propriedades operacionais para uma operação. Por exemplo, quando uma ordem de compra é criada, as propriedades operacionais de cada operação devem ser copiadas das relações de operações para o roteiro de produção. Nessas situações, o Finance and Operations busca as relações de operações relevantes desde a combinação mais específica até a menos específica.  
 
 Quando o Finance and Operations busca a relação de operação mais relevante para um produto lançado, uma relação de operação com o mesmo ID do item do produto lançado tem a preferência sobre uma relação de operação com o mesmo ID do grupo de itens. Por sua vez, uma relação de operação com o mesmo ID do grupo de itens é preferida ao invés da relação de operação padrão. A busca é realizada na seguinte ordem:
 
@@ -228,17 +229,32 @@ Se você não especificar um recurso de operações ou um grupo de recursos como
 -   **Lote** – Uma capacidade de lote é calculada utilizando informação da relação de operações. O número de lotes e, consequentemente, o tempo de processo podem então ser calculados com base na quantidade da ordem.
 -   **Lote de recursos** – Essa opção é basicamente a mesma opção que **Lote**. No entanto, o cálculo inclui o campo **Capacidade de lote** do recurso de operações. Portanto, o tempo depende do recurso.
 
+### <a name="set-up-route-groups"></a>Configurar grupos de roteiros
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+Você pode definir os grupos de roteiro e a configuração para os tipos de roteiro ou de trabalho em **Controle de produção > Configuração > Roteiros > Grupos de roteiros**. Para cada tipo de roteiro/trabalho no grupo de roteiros, você pode selecionar ou desmarcar as seguintes opções:
 
-[Listas de materiais e fórmulas](bill-of-material-bom.md)
+- **Ativação** - Selecione esta opção para permitir cálculos e planejamento referentes ao tipo de trabalho selecionado e para receber comentários sobre o trabalho quando você executar o planejamento de trabalho. Você precisa selecionar esta opção para habilitar o tipo de trabalho e, em seguida, selecionar o restante das opções desse tipo de trabalho. Se a ativação não for selecionada, esse tipo de trabalho não será habilitado, independentemente da seleção das outras opções. 
+- **Gerenciamento de trabalho** - Selecione esta opção para incluir o tipo de trabalho no gerenciamento de trabalho ao executar o planejamento de trabalho. 
+- **Horário de trabalho** - Selecione esta opção para agendar o tipo de trabalho de acordo com o calendário de horário de trabalho definido para o recurso de operações; do contrário, será usado o calendário gregoriano. O horário de trabalho pode ser planejado de acordo com o calendário gregoriano ou com o calendário de trabalho definido. Se você selecionar esta opção, o planejamento será baseado no calendário de horário de trabalho definido. Além disso, o tipo de trabalho é planejado a partir da meia-noite na data que é definida como a data de início do trabalho.
+- **Capacidade** - Selecione esta opção para reservar capacidade para o tipo de trabalho ao executar o planejamento de trabalho. Se você selecionar esta opção, a capacidade será reservada quando o planejamento for executado para o tipo de trabalho selecionado. Isso fornece uma visão geral de quais tipos de trabalho em cada grupo de roteiros usam os recursos de operações. Por exemplo, em uma situação na qual recursos de secagem são recursos de afunilamento, esses recursos devem ser especificados como afunilamentos. As operações de secagem atribuídas aos tipos de trabalho com tempo de espera permitirão recursos de secagem. 
 
-[Categorias de custo usadas no roteiro de produção](../cost-management/cost-categories-used-production-routings.md)
+Para cada um dos tipos de trabalho, primeiro você precisa ativá-lo ou desativá-lo. Quando desativados, nenhuma outra configuração (Gerenciamento de trabalho, Horário de trabalho e Capacidade) será considerada, porque o tipo de trabalho não estará ativo. 
 
-[Capacidades de recurso](resource-capabilities.md)
+Entre os tipos de trabalho está Sobreposição. A sobreposição permite que diferentes trabalhos sejam executados ao mesmo tempo. Quando trabalhos se sobrepõem, os recursos podem ser usados, mas não podem ser reservados para trabalhos específicos.
+Portanto, quando a ativação é selecionada para sobreposição, o restante das configurações (Gerenciamento de trabalho, Horário de trabalho e Capacidade) não afetam o grupo de roteiros. 
 
-[Visão geral das assinaturas eletrônicas](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+> [!NOTE]
+> Quando você atualiza versões, pode se deparar com o seguinte erro: **“Erro de CRL ao invocar o mecanismo de planejamento”**. Se você receber esse erro, vá para a página **Grupos de roteiros** e, para todos os roteiros nos quais ativou **Sobreposição**, desmarque as opções **Gerenciamento de trabalho**, **Horário de trabalho** e **Capacidade**. 
+
+## <a name="additional-resources"></a>Recursos adicionais
+
+- [Listas de materiais e fórmulas](bill-of-material-bom.md)
+
+- [Categorias de custo usadas no roteiro de produção](../cost-management/cost-categories-used-production-routings.md)
+
+- [Capacidades de recurso](resource-capabilities.md)
+
+- [Visão geral das assinaturas eletrônicas](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
 
 
 

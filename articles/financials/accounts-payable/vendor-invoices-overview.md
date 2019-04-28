@@ -1,9 +1,9 @@
 ---
 title: Visão geral das faturas de fornecedor
 description: Este artigo fornece informações gerais sobre notas fiscais de fornecedor. As notas fiscais de fornecedor são solicitações para pagamento dos produtos e serviços recebidos. As notas fiscais do fornecedor podem representar uma conta para serviços em andamento, ou podem se basear em ordens de compra para itens específicos e serviços.
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 03/29/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,24 +15,24 @@ ms.search.scope: Core, Operations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
 ms.search.region: Global
-ms.author: shpandey
+ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e563688b46c556ffbf46f9d20d9b9f248d26e02c
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 1d7cec48b1e01d308cfc67260ac82a50a8d76844
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329749"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "975793"
 ---
 # <a name="vendor-invoices-overview"></a>Visão geral das faturas de fornecedor
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Este artigo fornece informações gerais sobre notas fiscais de fornecedor. As notas fiscais de fornecedor são solicitações para pagamento dos produtos e serviços recebidos. As notas fiscais do fornecedor podem representar uma conta para serviços em andamento, ou podem se basear em ordens de compra para itens específicos e serviços. 
 
-<a name="vendor-invoices"></a>Faturas de fornecedor
----------------
+## <a name="vendor-invoices"></a>Faturas de fornecedor
 
 Uma fatura de fornecedor de uma ordem de compra é uma fatura que é gerada quando produtos ou serviços são recebidos de acordo com uma ordem de compra que foi criada com um fornecedor. A fatura do fornecedor contém um cabeçalho e uma ou mais linhas para itens ou serviços. Uma fatura do fornecedor completa o ciclo da ordem de compra para a nota fiscal do fornecedor. 
 
@@ -79,10 +79,17 @@ Para saber mais, consulte [Registrar fatura de fornecedor e corresponder com a q
 
 Você pode trabalhar com várias faturas e lançá-las ao mesmo tempo. Se você precisar criar várias faturas, use a página **Faturas de fornecedor pendentes**. Se você precisar lançar e imprimir várias faturas de fornecedor, use a página do diário de aprovação de faturas. Se você estiver usando o diário de aprovação de fatura, pelo menos um recebimento de produtos deve ser lançado para a ordem de compra, e uma fatura para a ordem de compra deve ser lançada em um registro de fatura. As informações financeiras para a nota fiscal vêm da nota fiscal que foi lançada no registro.
 
+## <a name="recovering-vendor-invoices-that-are-in-use"></a>Recuperando faturas de fornecedor em uso
 
-Para obter mais informações, consulte: 
+Quando uma fatura de fornecedor está sendo usada, ela não pode ser editada por outro usuário. Porém, às vezes o estado de uma fatura pode indicar que ela está em uso, mesmo que não esteja sendo ativamente editada. Por exemplo, o aplicativo pode ter parado de responder enquanto a fatura estava sendo editada ou um usuário pode ter deixado a fatura aberta inadvertidamente no aplicativo.
 
- - [Configurar políticas de fatura de fornecedores](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
+Você pode usar a página **Recuperar faturas de fornecedor** para recuperar ou liberar faturas de fornecedor que estiveram em uso por mais de quatro horas, para que possam ser editadas. É possível abrir essa página na navegação **Tarefa periódica** ou em um bloco no espaço de trabalho **Entrada de fatura de fornecedor**. Depois que uma fatura for recuperada, estará disponível para edição na página **Fatura de fornecedor**.
+
+Você pode acessar a página **Recuperar faturas de fornecedor** somente se o direito e o privilégio de segurança **Recuperar faturas de fornecedor em uso** estão atribuídos a você. Além disso, o parâmetro **Permitir recuperação de fatura de fornecedor** na página **Parâmetros de contas a pagar** deve ser ativado.
+
+## <a name="additional-resources"></a>Recursos adicionais
+
+ - [Configurar políticas de fatura de fornecedor](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
 
  - [Dados-chave de fatura em contas a pagar usando uma fatura de fornecedor](tasks/key-invoice-data-ap-system-vendor-invoice.md)
 

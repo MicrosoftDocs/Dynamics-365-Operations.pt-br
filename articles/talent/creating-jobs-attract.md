@@ -1,30 +1,30 @@
 ---
 title: Criar, aprovar e lançar trabalhos no Attract
 description: Este tópico descreve os elementos de um trabalho no Attract. Ele também explica como criar um trabalho.
-author: josaw
+author: hasrivas
 manager: AnnBe
-ms.date: 02/26/2019
+ms.date: 03/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: josaw
+ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 2f7e0ec7d33579f213909ff9ad911d26800c2b76
-ms.sourcegitcommit: ceef0ee77ffc245e57637e2ea84e1a71a214b3d7
+ms.openlocfilehash: 1e76572c1a843fe7abd515333d5b7cb03b91eb11
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "772802"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "969340"
 ---
 # <a name="create-approve-and-post-jobs-in-attract"></a>Criar, aprovar e lançar trabalhos no Attract
 
@@ -44,7 +44,7 @@ A guia **Detalhes do trabalho** contém detalhes sobre as responsabilidades e os
 
 Por padrão, o campo **Número de aberturas** é definido como **1**. No entanto, você pode alterar o valor. Quando uma oferta for preparada para um trabalho, o valor do campo **Número de aberturas disponíveis** será reduzido.
 
-Se o gerenciamento de cargos estiver ativado no Centro de administração, a pesquisa **Atualizar posições** estará disponível. Esta pesquisa lê a entidade JobPosition no Common Data Service para Aplicativos e retorna uma lista de cargos que podem ser selecionados para o trabalho. Se o número de posições selecionado exceder o número de posições abertas, você receberá um aviso. Você também receberá um aviso se uma posição for usada em vários trabalhos.
+Se o gerenciamento de cargos estiver ativado no Centro de administração, a pesquisa **Atualizar posições** estará disponível. Essa pesquisa lê a entidade JobPosition no Common Data Service e retorna uma lista de posições que podem ser selecionadas para o trabalho. Se o número de posições selecionado exceder o número de posições abertas, você receberá um aviso. Você também receberá um aviso se uma posição for usada em vários trabalhos.
 
 > [!NOTE]
 > O gerenciamento de posições está disponível com o Complemento de Contratação Abrangente.
@@ -74,9 +74,7 @@ Para obter mais informações sobre as atividades que podem ser adicionadas ao p
 
 ## <a name="postings"></a>Lançamentos
 
-Após um trabalho ser ativado, ele poderá ser lançado. Somente os recrutadores e os administradores podem lançar trabalhos. O trabalho pode ser lançado no Talent Careers (site de carreiras do Microsoft Dynamics 365 for Talent) ou no LinkedIn. 
-
-A equipe do Attract trabalha continuamente para fazer parceria com os agregadores do quadro de trabalho. Essa lista se expandirá com o tempo.
+Após um trabalho ser ativado, ele poderá ser lançado. Somente os recrutadores e os administradores podem lançar trabalhos. O trabalho pode ser lançado no Talent Careers (site de carreiras do Microsoft Dynamics 365 for Talent) ou no LinkedIn. A equipe do Attract trabalha continuamente para fazer parceria com os agregadores do quadro de trabalho. Essa lista se expandirá com o tempo. Quando um trabalho é lançado como somente interno, os candidatos precisam de uma conta do AAD para visualizar e se candidatar ao trabalho. Se o trabalho é listado como público, os candidatos podem visualizar e se candidatar ao trabalho usando todas as opções de autenticação. 
 
 Para obter mais informações sobre lançamentos de trabalho, consulte [Funcionalidade do site de carreiras no Attract](career-site.md).
 
@@ -137,9 +135,14 @@ Após ser salvo, um trabalho pode ser enviado para aprovação. A tabela a segui
 
 Na lista de trabalhos, você pode filtrar o status dos trabalhos.
 
-As aprovações podem ser enviadas para qualquer usuário do Microsoft Azure Active Directory (Azure AD) na empresa. As aprovações são enviadas em paralelo a todas as pessoas listadas como aprovadores. Após um trabalho ser aprovado, ele poderá ser ativado.
+As aprovações podem ser enviadas para qualquer usuário do Microsoft Azure Active Directory (Azure AD) na empresa. As aprovações são enviadas em paralelo a todas as pessoas listadas como aprovadores. Todos os aprovadores devem aprovar o trabalho antes que ele possa avançar. Se um único aprovador rejeitar o trabalho, o status **Rejeitado** será exibido no trabalho. Após um trabalho ser aprovado, ele poderá ser ativado.
 
-As pessoas listadas como aprovadores receberão uma notificação no Attract para informá-las de que têm um item a ser aprovado. Um item de aprovação também aparecerá na seção **Atribuído a você** no painel. Após alguém aceitar ou aprovar um trabalho, a equipe de contratação receberá uma notificação. Finalmente, a equipe de contratação receberá uma notificação quando o trabalho for aprovado.
+Se um usuário editar o trabalho depois que ele for aprovado, mas não ativado, o status do trabalho será redefinido como **Rascunho** e o trabalho deverá ser enviado novamente para aprovação. Depois que um trabalho aprovado for ativado, não será possível editá-lo.
+
+As pessoas listadas como aprovadores receberão uma notificação no Attract e um email para informá-las de que há um item a ser aprovado.  No email, os aprovadores podem clicar no link para para abrir o trabalho, examinar os detalhes e aprová-lo ou rejeitá-lo. Depois que o status do trabalho for definido como **Aprovado** ou **Rejeitado**, o emissor será notificado no Attract e receberá um email. Além disso, os aprovadores receberão um email de lembrete se eles não responderem à solicitação de aprovação dentro de 24 horas.
+
+> [!NOTE]
+> Você pode criar modelos de email personalizados para Emails de aprovação. Para obter mais informações, consulte [Criando e gerenciando modelos de email](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/email-templates).
 
 ## <a name="create-a-job"></a>Criar um trabalho
 

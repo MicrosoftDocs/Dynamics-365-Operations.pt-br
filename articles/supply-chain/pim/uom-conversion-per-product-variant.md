@@ -18,10 +18,10 @@ ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
 ms.openlocfilehash: 9d5d6fd65717cd886f1c6576aabf2bc59ca4fcaf
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: a47f705976b7a5b34492294e28aa8cd47ea38825
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
+ms.lasthandoff: 03/22/2019
 ms.locfileid: "345918"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Conversão de unidade de medida por variante de produto
@@ -92,4 +92,4 @@ As variantes de produtos liberados pequena, médio e grande têm a mesma unidade
 
 Se um produto tiver muitas grades de produtos com conversões de unidade diferentes, será aconselhável exportar as conversões de unidades da página **Conversão de unidades** para uma planilha do Excel, atualizar as conversões e publicá-las novamente no Finance and Operations.
 
-A opção para exportar para o Excel e publicar as edições no Finance and Operations é habilitada do item de menu **Abra no Microsoft Office** no painel de ações na página **Conversão de unidade**.
+A opção para exportar para o Excel e publicar as edições no Finance and Operations é habilitada do item de menu **Abrir no Microsoft Office** no painel de ações na página **Conversão de unidade**.

@@ -3,7 +3,7 @@ title: Processamento de produtos de peso variável com gerenciamento de depósit
 description: Este tópico descreve como usar modelos de trabalho e diretivas de localização para determinar como e onde o trabalho é realizado no depósito.
 author: perlynne
 manager: AnnBe
-ms.date: 03/05/2019
+ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: ced22a144e57b624ceacb8bb5c3032218db3a0eb
-ms.sourcegitcommit: bacec397ee48ac583596be156c87ead474ee07df
+ms.openlocfilehash: d4082464dafebfcadd02425081f5f9b5716af01a
+ms.sourcegitcommit: 118cd383a327519a266dfe27720b12e9bbfbac14
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "777263"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "946424"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Processamento de produtos de peso variável com gerenciamento de depósito
 
@@ -97,7 +97,9 @@ Por exemplo, **Caixa** é a unidade de peso variável, e você recebe um palete 
 
 Quando o rastreamento de marcas de peso variável não é usado, é possível capturar o peso para cada dimensão definida (por exemplo, para cada placa de licença e dimensão de rastreamento.) Como alternativa, o peso pode ser capturado com base em um nível agregado, como cinco placas de licença (paletes).
 
-Quanto aos métodos para capturar o peso de saída, é possível definir se a pesagem é feita para cada unidade de peso variável (isto é, por caixa) ou se o peso é capturado com base na quantidade a ser separada (por exemplo, três caixas). Lembre-se de que, para o processo de separação de linha de produção, o peso médio será usado se a opção **Não capturado** for escolhida.
+Quanto aos métodos para capturar o peso de saída, é possível definir se a pesagem é feita para cada unidade de peso variável (isto é, por caixa) ou se o peso é capturado com base na quantidade a ser separada (por exemplo, três caixas). Observe que, para os processos de separação de linha de produção e movimentação interna, o peso médio será usado se a opção **Não capturado** for usada.
+
+Para restringir os processos de separação do gerenciamento de depósito de capturar pesos que resultam em ajustes de lucros/perdas do peso variável, o método de saída de variação de peso poderá ser usado.
 
 ## <a name="supported-scenarios"></a>Cenários com suporte
 
@@ -121,14 +123,12 @@ Nem todos os fluxos de trabalho dão suporte ao processamento de produtos de pes
  
 ### <a name="order-processing"></a>Processamento de ordens
 
-- O processamento de ordens intercompanhia não tem suporte.
 - A criação do aviso de embarque (ASN/estruturas de embalagem) não oferece suporte para informações de peso.
 - A quantidade da ordem deve ser mantida com base na unidade de peso variável.
  
 ### <a name="inbound-warehouse-processing"></a>Processamento de depósito de entrada
 
 - Para receber placas de licença. é preciso que os pesos sejam atribuídos durante o registro, pois as informações de peso não têm suporte como parte do aviso de embarque. Quando processos de marca de peso variável são usados, o número da marca deve ser atribuído manualmente por unidade de peso variável.
-- O recebimento de placas de licença mistas não tem suporte para produtos de peso variável.
  
 ### <a name="inventory-and-warehouse-operations"></a>Operações de estoque e depósito
 
@@ -169,7 +169,6 @@ Nem todos os fluxos de trabalho dão suporte ao processamento de produtos de pes
  
 ### <a name="other-restrictions-and-behaviors-for-catch-weight-product-processing-with-warehouse-management"></a>Outras restrições e comportamentos para o processamento de produtos de peso variável com gerenciamento de depósito
 
-- Quando as marcas de peso variável são capturadas como parte do processamento do app de depósito, o usuário não pode cancelar o fluxo de trabalho.
 - Durante os processos de separação nos quais o usuário não é solicitado a identificar dimensões de rastreamento, a atribuição de peso é feita com base no peso médio. Esse comportamento ocorre quando, por exemplo, uma combinação de dimensões de rastreamento é usada no mesmo local e, depois que um usuário processa a separação, somente um valor de dimensão de rastreamento permanece no local.
 - Quando o estoque é reservado para um produto de peso variável configurado para processos de gerenciamento de depósito, a reserva é feita com base no peso mínimo definido, mesmo se essa quantidade for a última quantidade de manuseio disponível. Esse comportamento difere do comportamento de itens que não estão configurados para processos de gerenciamento de depósito.
 - Os processos que usam o peso como parte dos cálculos de capacidade (limites de onda, máximo de divisões de trabalho, máximos de contêineres, capacidades de carga da localização, entre outros) não usam o peso real do estoque. Em vez disso, os processos são baseados no peso de manuseio físico definido para o produto.
@@ -193,3 +192,5 @@ No momento, a funcionalidade de marcas de peso variável tem suporte apenas como
 - Quando os contêineres são reabertos.
 - Quando produtos de fórmula são relatados como concluídos usando o app de depósito.
 - Quando cargas de transporte são processadas usando o app de depósito.
+
+Uma etiqueta de peso variável que pode ser criada usando um processo de aplicativo de depósito, criada manualmente no formulário ou criada usando um processo de entidade de dados. Se a etiqueta de peso variável for associada a uma linha do documentos de origem de entrada, como a linha de ordem de compra, a etiqueta será registrada. Se a linha for usada para processamento de saída. A etiqueta será atualizada conforme enviada.
