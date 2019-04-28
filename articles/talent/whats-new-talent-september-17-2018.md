@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 6586761fc62c13c701e8a8f61e15eedc66e2f751
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 213324f9074f88d9fdc8efdfa46bc3ed7817d1e8
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303279"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "856798"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-17-2018"></a><span data-ttu-id="4bb24-103">Novidades ou alterações no Dynamics 365 for Talent Core HR (17 de setembro de 2018)</span><span class="sxs-lookup"><span data-stu-id="4bb24-103">What's new or changed in Dynamics 365 for Talent Core HR (September 17, 2018)</span></span>
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-17-2018"></a><span data-ttu-id="2ff07-103">Novidades ou alterações no Dynamics 365 for Talent Core HR (17 de setembro de 2018)</span><span class="sxs-lookup"><span data-stu-id="2ff07-103">What's new or changed in Dynamics 365 for Talent Core HR (September 17, 2018)</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="4bb24-104">**Compilação 8.1.154.0**</span><span class="sxs-lookup"><span data-stu-id="4bb24-104">**Build 8.1.154.0**</span></span>
+<span data-ttu-id="2ff07-104">**Compilação 8.1.154.0**</span><span class="sxs-lookup"><span data-stu-id="2ff07-104">**Build 8.1.154.0**</span></span>
 
-<span data-ttu-id="4bb24-105">Este tópico descreve os recursos novos ou alterados no Core HR.</span><span class="sxs-lookup"><span data-stu-id="4bb24-105">This topic describes features that are either new or changed in Core HR.</span></span>
+<span data-ttu-id="2ff07-105">Este tópico descreve os recursos novos ou alterados no Core HR.</span><span class="sxs-lookup"><span data-stu-id="2ff07-105">This topic describes features that are either new or changed in Core HR.</span></span>
 
-## <a name="leave-and-absence--accrue-time-based-on-hours-worked"></a><span data-ttu-id="4bb24-106">Licença e ausências – Acúmulo de tempo com base nas horas trabalhadas</span><span class="sxs-lookup"><span data-stu-id="4bb24-106">Leave and Absence – Accrue time based on hours worked</span></span>
+## <a name="leave-and-absence--accrue-time-based-on-hours-worked"></a><span data-ttu-id="2ff07-106">Licença e ausências – Acúmulo de tempo com base nas horas trabalhadas</span><span class="sxs-lookup"><span data-stu-id="2ff07-106">Leave and Absence – Accrue time based on hours worked</span></span>
 
-<span data-ttu-id="4bb24-107">Um novo tipo de competência foi adicionado aos planos de licença.</span><span class="sxs-lookup"><span data-stu-id="4bb24-107">A new accrual type has been added to Leave plans.</span></span> <span data-ttu-id="4bb24-108">A agenda de competência agora pode ser baseada em meses de serviço ou horas trabalhadas.</span><span class="sxs-lookup"><span data-stu-id="4bb24-108">The accrual schedule can now be based on months of service or hours worked.</span></span> <span data-ttu-id="4bb24-109">Para obter mais informações, consulte [Acumular folga com base nas horas trabalhadas](leave-accrue-hours-worked.md).</span><span class="sxs-lookup"><span data-stu-id="4bb24-109">For more information, see [Accrue time off based on hours worked](leave-accrue-hours-worked.md).</span></span>
+<span data-ttu-id="2ff07-107">Um novo tipo de competência foi adicionado aos planos de licença.</span><span class="sxs-lookup"><span data-stu-id="2ff07-107">A new accrual type has been added to Leave plans.</span></span> <span data-ttu-id="2ff07-108">A agenda de competência agora pode ser baseada em meses de serviço ou horas trabalhadas.</span><span class="sxs-lookup"><span data-stu-id="2ff07-108">The accrual schedule can now be based on months of service or hours worked.</span></span> <span data-ttu-id="2ff07-109">Para obter mais informações, consulte [Acumular folga com base nas horas trabalhadas](leave-accrue-hours-worked.md).</span><span class="sxs-lookup"><span data-stu-id="2ff07-109">For more information, see [Accrue time off based on hours worked](leave-accrue-hours-worked.md).</span></span>
 
-## <a name="platform-update-18"></a><span data-ttu-id="4bb24-110">Update 18 para plataforma</span><span class="sxs-lookup"><span data-stu-id="4bb24-110">Platform update 18</span></span>
+## <a name="platform-update-18"></a><span data-ttu-id="2ff07-110">Update 18 para plataforma</span><span class="sxs-lookup"><span data-stu-id="2ff07-110">Platform update 18</span></span>
 
-<span data-ttu-id="4bb24-111">A atualização de plataforma 18 agora faz parte da versão do Talent.</span><span class="sxs-lookup"><span data-stu-id="4bb24-111">Platform update 18 is now part of the Talent release.</span></span> 
+<span data-ttu-id="2ff07-111">A atualização de plataforma 18 agora faz parte da versão do Talent.</span><span class="sxs-lookup"><span data-stu-id="2ff07-111">Platform update 18 is now part of the Talent release.</span></span> 
 
--   <span data-ttu-id="4bb24-112">Os campos obrigatórios e outros podem ser ocultos por meio da personalização.</span><span class="sxs-lookup"><span data-stu-id="4bb24-112">Mandatory and other fields can be hidden via personalization.</span></span> <span data-ttu-id="4bb24-113">Isso permite que um usuário uma experiência simplificada em que os campos obrigatórios definidos como padrão pela lógica comercial não são mostrados.</span><span class="sxs-lookup"><span data-stu-id="4bb24-113">This allows a user to create a simplified experience where mandatory fields that are defaulted by business logic are not shown.</span></span> <span data-ttu-id="4bb24-114">Os campos obrigatórios ocultos também ficam temporariamente visíveis se estiverem vazios ao tentar salvá-los.</span><span class="sxs-lookup"><span data-stu-id="4bb24-114">Hidden mandatory fields are also temporarily made visible if they are empty when a save is attempted.</span></span>
+-   <span data-ttu-id="2ff07-112">Os campos obrigatórios e outros podem ser ocultos por meio da personalização.</span><span class="sxs-lookup"><span data-stu-id="2ff07-112">Mandatory and other fields can be hidden via personalization.</span></span> <span data-ttu-id="2ff07-113">Isso permite que um usuário uma experiência simplificada em que os campos obrigatórios definidos como padrão pela lógica comercial não são mostrados.</span><span class="sxs-lookup"><span data-stu-id="2ff07-113">This allows a user to create a simplified experience where mandatory fields that are defaulted by business logic are not shown.</span></span> <span data-ttu-id="2ff07-114">Os campos obrigatórios ocultos também ficam temporariamente visíveis se estiverem vazios ao tentar salvá-los.</span><span class="sxs-lookup"><span data-stu-id="2ff07-114">Hidden mandatory fields are also temporarily made visible if they are empty when a save is attempted.</span></span>
 
--   <span data-ttu-id="4bb24-115">Na atualização de plataforma 18, o cliente Web do Talent agora alinha seus elementos visuais com o Design Fluente da Microsoft.</span><span class="sxs-lookup"><span data-stu-id="4bb24-115">In Platform update 18, the Talent web client now aligns its visuals with Microsoft Fluent Design.</span></span>
+-   <span data-ttu-id="2ff07-115">Na atualização de plataforma 18, o cliente Web do Talent agora alinha seus elementos visuais com o Design Fluente da Microsoft.</span><span class="sxs-lookup"><span data-stu-id="2ff07-115">In Platform update 18, the Talent web client now aligns its visuals with Microsoft Fluent Design.</span></span>
 
-    -   <span data-ttu-id="4bb24-116">Quando os campos estão em “modo de leitura”, basta selecionar a opção de edição nos campos para alternar o formulário para edição.</span><span class="sxs-lookup"><span data-stu-id="4bb24-116">When fields are in “read mode”, you can simply select the edit option in the fields to switch the form to edit.</span></span>
+    -   <span data-ttu-id="2ff07-116">Quando os campos estão em “modo de leitura”, basta selecionar a opção de edição nos campos para alternar o formulário para edição.</span><span class="sxs-lookup"><span data-stu-id="2ff07-116">When fields are in “read mode”, you can simply select the edit option in the fields to switch the form to edit.</span></span>
 
-    -   <span data-ttu-id="4bb24-117">As alterações na maneira que os campos são exibidos no modo de leitura.</span><span class="sxs-lookup"><span data-stu-id="4bb24-117">Changes in how fields display when in read mode.</span></span>
+    -   <span data-ttu-id="2ff07-117">As alterações na maneira que os campos são exibidos no modo de leitura.</span><span class="sxs-lookup"><span data-stu-id="2ff07-117">Changes in how fields display when in read mode.</span></span>
 
-    -   <span data-ttu-id="4bb24-118">Os títulos em espaços de trabalho e páginas estão em negrito.</span><span class="sxs-lookup"><span data-stu-id="4bb24-118">Headings in workspaces and pages are bold.</span></span>
+    -   <span data-ttu-id="2ff07-118">Os títulos em espaços de trabalho e páginas estão em negrito.</span><span class="sxs-lookup"><span data-stu-id="2ff07-118">Headings in workspaces and pages are bold.</span></span>
 
--   <span data-ttu-id="4bb24-119">O comportamento de pesquisas de não substituição foi aprimorado.</span><span class="sxs-lookup"><span data-stu-id="4bb24-119">The behavior of non-replacing lookups has been improved.</span></span> <span data-ttu-id="4bb24-120">Para obter mais informações, consulte [Comportamento aprimorado para pesquisas de não substituição](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fbusiness-applications-release-notes%2FOctober18%2Fdynamics365-finance-operations%2Fnon-replacing-lookups&data=02%7C01%7C%7Ce0b3b3bee47b4424aaa208d619ce86f2%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636724772137980342&sdata=RN1qjtZSLtS010zgs0KlcwFrrB8Z7uWWGtFjdxdaamg%3D&reserved=0).</span><span class="sxs-lookup"><span data-stu-id="4bb24-120">For more information, see [Improved behavior for non-replacing lookups](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fbusiness-applications-release-notes%2FOctober18%2Fdynamics365-finance-operations%2Fnon-replacing-lookups&data=02%7C01%7C%7Ce0b3b3bee47b4424aaa208d619ce86f2%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636724772137980342&sdata=RN1qjtZSLtS010zgs0KlcwFrrB8Z7uWWGtFjdxdaamg%3D&reserved=0).</span></span>
+-   <span data-ttu-id="2ff07-119">O comportamento de pesquisas de não substituição foi aprimorado.</span><span class="sxs-lookup"><span data-stu-id="2ff07-119">The behavior of non-replacing lookups has been improved.</span></span> <span data-ttu-id="2ff07-120">Para obter mais informações, consulte [Comportamento aprimorado para pesquisas de não substituição](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fbusiness-applications-release-notes%2FOctober18%2Fdynamics365-finance-operations%2Fnon-replacing-lookups&data=02%7C01%7C%7Ce0b3b3bee47b4424aaa208d619ce86f2%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636724772137980342&sdata=RN1qjtZSLtS010zgs0KlcwFrrB8Z7uWWGtFjdxdaamg%3D&reserved=0).</span><span class="sxs-lookup"><span data-stu-id="2ff07-120">For more information, see [Improved behavior for non-replacing lookups](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fbusiness-applications-release-notes%2FOctober18%2Fdynamics365-finance-operations%2Fnon-replacing-lookups&data=02%7C01%7C%7Ce0b3b3bee47b4424aaa208d619ce86f2%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636724772137980342&sdata=RN1qjtZSLtS010zgs0KlcwFrrB8Z7uWWGtFjdxdaamg%3D&reserved=0).</span></span>
 
-## <a name="bug-fixes"></a><span data-ttu-id="4bb24-121">Correções de bug</span><span class="sxs-lookup"><span data-stu-id="4bb24-121">Bug fixes</span></span>
+## <a name="bug-fixes"></a><span data-ttu-id="2ff07-121">Correções de bug</span><span class="sxs-lookup"><span data-stu-id="2ff07-121">Bug fixes</span></span>
 
-<span data-ttu-id="4bb24-122">Esta versão inclui várias correções de bug adicionais, incluindo que referências a ACA, ADA e I9 serão habilitadas somente em empresas dos Estados Unidos.</span><span class="sxs-lookup"><span data-stu-id="4bb24-122">This release includes several additional bug fixes, including references to ACA, ADA, and I9 now will only be enabled in US companies.</span></span>
+<span data-ttu-id="2ff07-122">Esta versão inclui várias correções de bug adicionais, incluindo que referências a ACA, ADA e I9 serão habilitadas somente em empresas dos Estados Unidos.</span><span class="sxs-lookup"><span data-stu-id="2ff07-122">This release includes several additional bug fixes, including references to ACA, ADA, and I9 now will only be enabled in US companies.</span></span>
