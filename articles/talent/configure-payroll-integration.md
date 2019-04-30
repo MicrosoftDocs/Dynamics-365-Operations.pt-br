@@ -1,26 +1,26 @@
 ---
 title: Configurar a integração da folha de pagamento entre o Talent e o Dayforce
 description: Este tópico explica como configurar a integração entre o Microsoft Dynamics 365 for Talent e o Ceridian Dayforce para processar um ciclo de pagamento.
-author: jcart1106
+author: andreabichsel
 manager: AnnBe
-ms.date: 07/10/2018
+ms.date: 03/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations, Talent
 ms.search.region: Global
-ms.author: jcart
+ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fcddf82cffb9f0ba94b83eb21809b810585ebc9e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 9a88bf61dbb12520b555ceb7363b1c646d95386e
+ms.sourcegitcommit: 204e4554e409c39fbbf7b273ad138ce2809931a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303235"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "898435"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>Configurar a integração da folha de pagamento entre o Talent e o Dayforce
 
@@ -357,6 +357,9 @@ Se você está gerando pagamento para funcionários nos Estados Unidos e no Cana
 
 - Departamentos são necessários em posições.
 - Os centros de custo devem ser definidos como dimensões financeiras e ser o primeiro elemento na sequência de dimensão financeira padrão.
+
+> [!NOTE] 
+> Você pode configurar o Talent para exigir que Posições especifique um Departamento. Para isso, acesse **Posições Compartilhadas de Recursos Humanos > Posições > Exigir departamentos nas posições**. Recomendamos que esta configuração seja imposta para a integração.
 
 ### <a name="job-types"></a>Tipos de trabalho
 

@@ -3,7 +3,7 @@ title: Sincronizar depósitos do Finance and Operations para o Field Service
 description: Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar depósitos do Microsoft Dynamics 365 for Finance and Operations com o Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 34cd18a18715d12d4002e6dbeee047467ed2a5ad
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 7e6d7626c00b9d7d98ce872652653c36ce7bc975
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "340306"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842524"
 ---
 # <a name="synchronize-warehouses-from-finance-and-operations-to-field-service"></a>Sincronizar depósitos do Finance and Operations no Field Service
 
@@ -38,7 +38,7 @@ Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar
 O modelo a seguir e as tarefas subjacentes são usados para executar a sincronização de depósitos do Microsoft Dynamics 365 for Finance and Operations com o Microsoft Dynamics 365 for Field Service.
 
 **Modelo na integração de dados**
-- Depósitos (Finance and Operations para Field Service)
+- Depósitos (Fin and Ops com o Field Service)
 
 **Tarefas no projeto de integração de dados**
 - Depósito
@@ -76,6 +76,6 @@ Para garantir que a **Chave de integração** exista para **msdyn_warehouses**:
 
 As ilustrações a seguir mostram um mapeamento de modelo na Integração de dados.
 
-### <a name="warehouses-finance-and-operations-to-field-service-warehouse"></a>Depósitos (Finance and Operations para Field Service): Depósito
+### <a name="warehouses-fin-and-ops-to-field-service-warehouse"></a>Depósitos (Fin and Ops com o Field Service): Depósito
 
 [![Mapeamento de modelo na Integração de dados](./media/Warehouse1.png)](./media/Warehouse1.png)

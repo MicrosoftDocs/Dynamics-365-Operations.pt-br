@@ -1,29 +1,29 @@
 ---
 title: A funcionalidade do site de carreiras no Attract
 description: Este tópico fornece uma visão geral da funcionalidade do site de carreiras voltada para o candidato no Attract.
-author: josaw1
+author: hasrivas
 manager: AnnBe
-ms.date: 02/12/2019
+ms.date: 03/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: josaw
+ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 087ab4034a1e601e7f3514c77d56ef54b0c5c52d
-ms.sourcegitcommit: 1ee613a88edddab036d145f27f19d071a4b8ad24
+ms.openlocfilehash: a56f162ccc6b6099fd62e0cb7e10076368d8e653
+ms.sourcegitcommit: 063a9296e645e0da182241941869d8102954540a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "389948"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "898922"
 ---
 # <a name="career-site-functionality-in-attract"></a>A funcionalidade do site de carreiras no Attract
 
@@ -43,15 +43,15 @@ Para definir os valores dos itens a seguir, entre no Attract como administrador,
 
 -   **Logotipo organizacional** - Uma imagem do logotipo organizacional aparece na parte superior esquerda do site de carreiras. Ao selecionar a imagem do logotipo, os candidatos vão para uma página que lista todos os trabalhos abertos.
 
-    >   [!NOTE] 
-    >   A imagem de logotipo que aparece no site de carreiras tem uma altitude fixa de 20 pixels (px). A imagem que você adiciona no Centro de administração é ajustada. Portanto, dependendo da imagem, a largura pode mudar.
+    > [!NOTE] 
+    > A imagem de logotipo que aparece no site de carreiras tem uma altitude fixa de 20 pixels (px). A imagem que você adiciona no Centro de administração é ajustada. Portanto, dependendo da imagem, a largura pode mudar.
  
 Para definir os valores dos itens a seguir, entre no Attract como administrador, selecione **Centro de Administração** no menu **Configurações** e selecione a guia **Gerenciamento do site de carreiras**.
 
 -   **Otimização do mecanismo de pesquisa** - Quando habilitada, todos os trabalhos públicos postados para o site de carreiras do Attract serão pesquisados usando mecanismos de pesquisa, como o Bing e o Google.
 
-    >   [!NOTE] 
-    >   Pode haver um atraso entre ativar essa configuração e os resultados da pesquisa, dependendo do mecanismo de pesquisa que você está usando.
+    > [!NOTE] 
+    > Pode haver um atraso entre ativar essa configuração e os resultados da pesquisa, dependendo do mecanismo de pesquisa que você está usando.
          
 ## <a name="career-site-urls"></a>URLs do site de carreiras
 
@@ -81,15 +81,17 @@ Os candidatos têm as seguintes opções de logon para um site de carreiras do A
 
     -   Microsoft Azure Active Directory (Azure AD)
 
-O logon do Azure AD se destina somente a candidatos internos. Portanto, ele só funciona para candidatos internos que usam suas credenciais do Azure AD da empresa. Por exemplo, um candidato que no momento é um funcionário da Contoso Ltd deseja candidatar-se a um trabalho em uma empresa não relacionada, a Alpine Ski House. Nesse caso, o logon será malsucedido se o funcionário tentar usar as credenciais do Azure AD da Contoso Ltd.
+O logon do Azure AD se destina somente a candidatos internos. Portanto, ele só funciona para candidatos internos que usam suas credenciais do Azure AD da empresa. Por exemplo, um candidato que no momento é um funcionário da Contoso Ltd deseja candidatar-se a um trabalho em uma empresa não relacionada, a Alpine Ski House. Nesse caso, o logon será malsucedido se o funcionário tentar usar as credenciais do Azure AD da Contoso Ltd. 
+
+Os candidatos deverão entrar usando o Azure AD se o trabalho que estão visualizando ou para o qual estão se candidatando estiver listado como somente interno.
 
 ## <a name="create-and-maintain-a-profile"></a>Criar e manter um perfil
 
 Após os candidatos entrarem no site de carreiras, eles podem selecionar **Meu perfil** na barra de navegação na parte superior da página para criar e manter o perfil.
 O perfil inclui informações pessoais, informações sobre a experiência de trabalho, detalhes de formação educacional, documentos, links e informações sobre os conjuntos de habilidades. Após um perfil ser criado, ele pode ser usado para candidatar-se a posições de interesse do candidato. Os perfis também ajudam o Attract a recomendar os trabalhos certos para candidatos.
 
->   [!NOTE]
->   Se um candidato usar uma ID de email para fazer logon usando um dos provedores de autenticação listados acima, essa ID de email será padronizado para a ID de email de contato associada ao perfil. No entanto, esse última pode ser alterada a qualquer momento e é completamente independente da primeira. O Attract sempre usará a ID de email de contato para associar ao seu perfil para todas as comunicações por email.
+> [!NOTE]
+> Se um candidato usar uma ID de email para fazer logon usando um dos provedores de autenticação listados acima, essa ID de email será padronizado para a ID de email de contato associada ao perfil. No entanto, esse última pode ser alterada a qualquer momento e é completamente independente da primeira. O Attract sempre usará a ID de email de contato para associar ao seu perfil para todas as comunicações por email.
 
 ## <a name="find-the-right-job"></a>Localizar o trabalho certo
 
@@ -97,13 +99,38 @@ Na página de listas de trabalho, os candidatos podem procurar para um trabalho 
 
 Os candidatos também podem exibir um conjunto de trabalhos recomendados no site de carreiras. Os trabalhos que são recomendados para um um candidato se baseiam nas solicitações de emprego, nos perfis e nos currículos anteriores do candidato.
 
->   [!NOTE] 
->   As recomendações de trabalho só serão mostradas se pelo menos 10 trabalhos forem lançados no site de carreiras e se o candidato preencher um perfil.
+> [!NOTE] 
+> As recomendações de trabalho só serão mostradas se pelo menos 10 trabalhos forem lançados no site de carreiras e se o candidato preencher um perfil.
+
+Os candidatos internos também podem ver quem o é gerente de contratação e/ou o recrutador para um trabalho, caso eles queiram contatar esses membros da equipe de contratação. No entanto, os candidatos externos não têm visibilidade dos membros da equipe de contratação para nenhum trabalho.
+
+## <a name="contact-the-hiring-team"></a>Entrar em contato com a equipe de contratação
+Somente os candidatos internos podem contatar a equipe de contratação. Essa limitação se aplica a todos os trabalhos, independentemente se são somente internos ou se foram lançados publicamente.
+
+Os candidatos podem querer contatar a equipe de contratação para expressar interesse em um trabalho que foi lançado ou para saber mais sobre ele. Eles podem contatar um membro da equipe de contratação que esteja listado (gerente de contratação ou recrutadores). Opcionalmente, eles também podem anexar um currículo à mensagem ou podem selecionar um currículo existente carregado anteriormente como parte do perfil.
+
+Depois que um candidato interno seleciona o membro da equipe de contratação para contatar, o Attract envia um email a essas pessoas em nome do candidato. Ao mesmo tempo, o perfil do candidato será adicionado ao estágio **Colaborador potencial** , se esse estágio estiver disponível para o trabalho. No estágio **Colaborador potencial**, os recrutadores ou gerentes da contratação podem exibir os candidatos que entraram em contato com eles. Eles também podem examinar os perfis dos candidatos e convidar candidatos potenciais para se candidatar.
+
+Os candidatos podem se candidatar ao trabalho sobre o qual já contataram membros da equipe de contratação. Depois que se candidatarem, eles não poderão mais contatar a equipe de contratação pelo site de carreiras.
 
 ## <a name="apply-for-jobs"></a>Candidatar-se a empregos
 
-Após os candidatos encontrarem o trabalho certo, eles podem se candidatar usando o botão **Solicitar** na página **Detalhes do trabalho**. Nesse ponto, os candidatos podem criar um novo perfil ou revisar as informações do perfil existente.
+Depois que os candidatos encontrarem o trabalho certo, eles poderão se candidatar usando o botão  **Candidatar-se**  na página **Detalhes do trabalho**. Nesse ponto, os candidatos podem criar um novo perfil ou revisar as informações do perfil existente.
 Os candidatos também podem carregar um currículo, conforme necessário, e enviar a solicitação de emprego.
+
+### <a name="enable-applying-for-jobs-with-linkedin-profiles"></a>Habilitar a possibilidade de candidatar-se a trabalhos com perfis do LinkedIn
+
+Você pode facilitar para que os candidatos se candidatem às posições configurando o Attract para permitir que façam isso pelo LinkedIn.
+
+> [!NOTE] 
+> É necessário ter uma ou mais licenças de recrutador do LinkedIn antes que possa permitir que os candidatos se candidatem com o LinkedIn.
+
+1. Entre no Attract como administrador.
+2. Selecione o botão **Configurações** (o símbolo de engrenagem) no canto superior direito da página e selecione **Centro de administração**.
+3. Selecione a guia **Integração com o LinkedIn** e conecte-se com uma conta do LinkedIn Recruiter.
+4. Na seção **Integração do LinkedIn Recruiter System Connect**, selecione **Habilitado** para a configuração **Candidatar-se com o LinkedIn**.
+
+Depois que habilitar a configuração, os candidatos poderão se candidatar usando os dados existentes de seu perfil do LinkedIn. Quando os candidatos optarem por usar o botão **Candidatar-se com o LinkedIn**, será solicitado que façam a autenticação com o LinkedIn se ainda não estiverem conectados. Após a autenticação, o perfil do LinkedIn substituirá os dados de perfil existentes mostrados na página do aplicativo. Os candidatos podem editar as informações conforme necessário e enviar a solicitação de emprego. Se um candidato navegar para outra página sem se candidatar ao trabalho, os dados do perfil não serão atualizados no Attract.
 
 ## <a name="check-application-status"></a>Verificar o status da solicitação de emprego
 

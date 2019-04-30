@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b622276000c56a5af1bb258dbc3c6c4a56af4d20
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: d8e6a02b43ad60e3a0c4382f98cb808066587da7
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "782786"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949888"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-27-2019"></a>Novidades ou alterações no Dynamics 365 for Talent (27 de fevereiro de 2019)
 
@@ -85,9 +85,9 @@ Para obter mais informações sobre atualização da Plataforma 24 do Microsoft 
 
 É normal que funcionários que entrem em uma organização tenham uma data de início futura. Esta alteração permitirá que a remuneração fixa seja definida para funcionários que possuem atribuições de cargo futuras.
 
-## <a name="known-issues"></a>Problemas conhecidos
+## <a name="known-issues"></a>​Problemas conhecidos​
 
-### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-for-apps-to-finance-and-operations"></a>Alterações no modelo de integração do Core HR (Talent Common Data Service para Aplicativos para Finance and Operations)
+### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance-and-operations"></a>Alterações no modelo de integração do Core HR (Talent Common Data Service para Finance and Operations)
 O modelo para Core HR foi atualizado em um "modelo de consulta avançado". Portanto, por padrão, a consulta avançada estará disponível para projetos criados usando esse modelo. Além disso, todas as funções de mapeamentos padrão estarão visíveis apenas no editor de consulta anterior. (As funções de mapeamento padrão aparecem como "FN" nos mapeamentos.)
 
 Para obter mais informações sobre os erros de mapeamento, consulte [O que há de novo e o que mudou no Dynamics 365 for Talent Core HR (14 de dezembro de 2018)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
@@ -100,19 +100,19 @@ Para atualizar o seu modelo existente, rastreie essas etapas.
 
     - **Cargos a cargos de trabalho:** Remova esse mapeamento.
     - **Atribuição de trabalho pai dos cargos a cargos de trabalho:** Remova esse mapeamento.
-    - **Cargo de trabalho a posição base:** Adicione um novo mapeamento de **Cargos de trabalho** Common Data Service de entidade de Aplicativos para a entidade **Posição base** Finance and Operations. Mova-o para a posição 7 na sequência.
+    - **Cargos de Trabalho a Posição Base:** Adicione um novo mapeamento da entidade **Cargos de Trabalho** do Common Data Service à entidade **Posição Base** do Finance and Operations. Mova-o para a posição 7 na sequência.
 
         [![Cargos de trabalho a mapeamento de cargo base](./media/CDS-Mapping1.png)](./media/CDS-Mapping1.png)
 
-    - **Detalhes de cargo de trabalho a posição:** Adicione um novo mapeamento de **Cargos de trabalho** Common Data Service de entidade de Aplicativos para a entidade **Detalhes da posição** Finance and Operations. Mova-o para a posição 8 na sequência.
+    - **Cargos de Trabalho a Detalhes da Posição:** Adicione um novo mapeamento da entidade **Cargos de Trabalho** do Common Data Service para a entidade **Detalhes da Posição** do Finance and Operations. Mova-o para a posição 8 na sequência.
 
         [![Detalhes de cargos de trabalho a mapeamento de cargo](./media/CDS-Mapping2.png)](./media/CDS-Mapping2.png)
 
-    - **Duração de cargo de trabalho a posição:** Adicione um novo mapeamento de **Cargos de trabalho** Common Data Service de entidade de Aplicativos para a entidade **Duração da posição** Finance and Operations.
+    - **Cargos de Trabalho a Durações da Posição:** Adicione um novo mapeamento da entidade **Cargos de Trabalho** do Common Data Service para a entidade **Durações da Posição** do Finance and Operations.
 
         [![Duração de cargos de trabalho a mapeamento de cargo](./media/CDS-Mapping3.png)](./media/CDS-Mapping3.png)
 
-    - **Hierarquias de cargo de trabalho a posição:** Adicione um novo mapeamento de **Cargos de trabalho** Common Data Service de entidade de Aplicativos para a entidade **Hierarquias da posição** Finance and Operations. Selecione **Consulta avançada** para deixar sua consulta avançada disponível para seu projeto.
+    - **Cargos de Trabalho a Hierarquias do Cargo:** Adicione um novo mapeamento da entidade **Cargos de Trabalho** do Common Data Service para a entidade **Hierarquias do Cargo** do Finance and Operations. Selecione **Consulta avançada** para deixar sua consulta avançada disponível para seu projeto.
 
        [![Botão de consulta avançada](./media/CDS-Advanced-Query.png)](./media/CDS-Advanced-Query.png)
 

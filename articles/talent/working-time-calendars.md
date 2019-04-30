@@ -1,7 +1,7 @@
 ---
 title: Calendários de horário de trabalho
 description: Este tópico descreve os calendários de produção no Dynamics 365 for Talent - Core HR e como configurar calendários.
-author: jcart1106
+author: andreabichsel
 manager: AnnBe
 ms.date: 09/12/2018
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations, Talent
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jcart
+ms.author: anbichse
 ms.search.validFrom: 2018-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 2465065d7db18a5468d7c979e0d6cb9c7e76f969
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a1e7bc0098556f42321b6a8883b59aa4fd9a8abd
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303219"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859358"
 ---
 # <a name="working-time-calendars"></a>Calendários de horário de trabalho
 

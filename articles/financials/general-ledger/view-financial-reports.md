@@ -3,7 +3,7 @@ title: Exibir relatórios financeiros
 description: Este tópico descreve como visualizar e explorar relatórios financeiros no Microsoft Dynamics 365 for Finance and Operations. Ele inclui informações sobre as várias opções que você pode aplicar a relatórios financeiros para alterar sua aparência e os dados que eles incluem.
 author: kweekley
 manager: AnnBe
-ms.date: 02/11/2019
+ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ecdd2dd9d1eff0af358a458171ce151c9c14c71c
-ms.sourcegitcommit: 78bd8119b9fe967ba4d0adaacaf2d2227e567a91
+ms.openlocfilehash: 0ba92ab4f751758c4adf26885ebb7b2c5290ecac
+ms.sourcegitcommit: 1e8dfa62989dbd7601bafdc933558f6bea1638ae
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "791432"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "894579"
 ---
 # <a name="view-financial-reports"></a>Exibir relatórios financeiros
 
@@ -46,12 +46,11 @@ Os relatórios financeiros podem incluir vários níveis de detalhe. O nível fi
 Se os dados são dados do orçamento, você pode escolher abrir entradas da conta de orçamento. Para fechar qualquer nível do relatório e retornar ao início, você pode pressionar a tecla Esc ou clicar no botão **Fechar** (**X**) no canto superior direito.
 
 ## <a name="change-report-options"></a>Alterar opções de relatório
-Você pode alterar a data do relatório, aplicar filtros de atributo e dimensão, ou alterar o cenário de orçamento em um relatório **Real versus orçamento**. No Painel de Ação, clique em **Opções de relatório**, e então siga uma ou mais das etapas abaixo:
+Você pode aplicar filtros de atributo e dimensão ou alterar o cenário de orçamento em um relatório **Real versus orçamento**. No Painel de Ação, clique em **Opções de relatório**, e então siga uma ou mais das etapas abaixo:
 
--   Para alterar o período base e o ano base de um relatório, selecione um período base e um ano base, e clique em **OK**.
 -   Para aplicar filtros de atributo em um relatório, selecione **Adicionar um filtro de atributo**. Selecione o atributo, digite o valor do atributo, e clique em **OK**. Por exemplo, se você selecionar o atributo **Categoria da Conta**, insira **VENDAS** como valor de atributo. Para remover um filtro de atributo, clique em **Limpar**.
 -   Para aplicar filtros de dimensão em um relatório, selecione **Adicionar um filtro de dimensão**. Selecione a dimensão e, em seguida, digite o ID de dimensão ou selecione a dimensão na lista. Para remover um filtro de dimensão, clique em **Limpar**.
--   Para alterar o cenário em um relatório **Real versus orçamento**, selecione um novo cenário, e clique em **OK**. Se o cenário selecionado for para um ano diferente, lembre de atualizar o ano base. Por exemplo, se o cenário atual é para FY2015, e você selecionou um novo cenário que é para FY2016, você deve alterar o ano base para **2016**.
+-   Para alterar o cenário em um relatório **Real versus orçamento**, selecione um novo cenário, e clique em **OK**. Se o cenário selecionado for de um ano fiscal diferente, nenhum resultado será retornado. Por exemplo, se for gerado um relatório para FY2015, o cenário atual for de FY2015 e o novo cenário selecionado for relativo a FY2016, nenhum resultado será retornado. Se for necessário um novo cenário para outro ano fiscal, gere uma nova versão do relatório para o ano fiscal relacionado ao cenário.
 
 Quando você clica em **OK**, todas as opções selecionadas serão aplicadas ao relatório. Se você decidir que não deseja aplicar as opções selecionadas, clique em **Cancelar**.
 

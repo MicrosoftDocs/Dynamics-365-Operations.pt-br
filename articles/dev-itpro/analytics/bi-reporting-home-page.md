@@ -3,7 +3,7 @@ title: Home page de BI (business intelligence) e relatórios
 description: Este tópico indica os recursos que você poderá usar para saber mais sobre as ferramentas de business intelligence e de relatório que estão disponíveis no Microsoft Dynamics 365 for Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 12/18/2017
+ms.date: 03/27/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 372113f019cbce790dcd3e356a14a7bb49b8afd7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: efd96759c5fb50e30d213e9e5d58a22fd77bc7a2
+ms.sourcegitcommit: b95bc0f81bd3bb3d9ec4c61f64f93b5c2bef9e05
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "301895"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "902833"
 ---
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>Home page de BI (business intelligence) e relatórios
 
@@ -33,7 +33,7 @@ Este tópico indica os recursos que você poderá usar para saber mais sobre as 
 ## <a name="get-started"></a>Introdução
 - [Acesso a informações e relatório](information-access-reporting.md)
 - [Conversa com especialista: opções de relatório](https://www.youtube.com/watch?v=NzZONjKs5xA) (vídeo)
-- [Finance and Operations: business intelligence](https://blogs.msdn.microsoft.com/dynamicsaxbi/) (blog)
+- [Finance and Operations: blog de análise e serviços de relatório do Power BI](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (blog)
 
 ## <a name="analytical-workspaces"></a>Espaços de trabalho analíticos
 O Finance and Operations oferece relatórios interativos que se integram perfeitamente a espaços de trabalho do aplicativo. Os espaços de trabalho podem usar infográficos e recursos visuais sofisticados compatíveis com o Microsoft Power BI. Esses infográficos e recursos visuais incluem muitos controles fornecidos por terceiros. Portanto, os espaços de trabalho podem proporcionar uma experiência altamente visual e interativa aos usuários.
@@ -44,7 +44,7 @@ Os usuários podem interagir com os dados clicando ou tocando em recursos visuai
 
 Para saber mais, consulte os seguintes tópicos:
 
-- [Power BI Embedded em espaços de trabalho](embed-power-bi-workspaces.md)
+- [Power BI incorporado em espaços de trabalho](embed-power-bi-workspaces.md)
 - [Integração do Power BI Embedded](power-bi-embedded-integration.md)
 - [​Adicionar análise a espaços de trabalho usando o Power BI Embedded](add-analytics-tab-workspaces.md)
 - [Ajudar a proteger espaços de trabalho analíticos e relatórios usando o Power BI Embedded](secure-analytical-workspaces.md)

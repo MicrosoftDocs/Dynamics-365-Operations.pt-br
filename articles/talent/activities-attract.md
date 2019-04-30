@@ -1,29 +1,29 @@
 ---
 title: Atividades nos processos
 description: Este tópico fornece informações sobre os vários tipos de atividades que podem ser usadas no processo de contratação.
-author: ''
+author: hasrivas
 manager: AnnBe
-ms.date: 02/04/2018
+ms.date: 04/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: rschloma
+ms.author: shielas
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c32db1f563466f05b9fef1a03578392888c0b7e6
-ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
+ms.openlocfilehash: c975b95e4195c795ec4c816b1f3a50461715feea
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "374748"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "989905"
 ---
 # <a name="activities-in-the-hiring-processes"></a>Atividades nos processos de contratação
 
@@ -32,7 +32,7 @@ ms.locfileid: "374748"
 As atividades podem ser adicionados como parte do processo de contratação no Microsoft Dynamics 365 for Talent: Attract. As atividades podem ser adicionadas a um modelo de processo ou podem ser adicionadas diretamente ao processo de contratação no trabalho. Quando um trabalho é definidos, um modelo de processo é selecionado e as atividades que estão incluídas no modelo são aplicadas ao trabalho. Se um modelo não for selecionado, o modelo padrão será usado. O processo de contratação também poderá ser modificado no trabalho depois que o modelo for aplicado.
 
 > [!NOTE] 
-> Os modelos de processo estão disponíveis com o complemento de Contratação abrangente.
+> Os modelos de processo estão disponíveis com o complemento de Contratação abrangente. Para obter mais informações, consulte [Recursos do complemento de contratação abrangente do Attract](./attract-comprehensive-hiring.md).
 
 ## <a name="prospect-activity"></a>Atividade do candidato ao trabalho
 
@@ -48,34 +48,43 @@ Essa atividade tem três componentes: solicitação de disponibilidade do candid
 
 ## <a name="powerapps-activity"></a>Atividade do PowerApps
 
-A atividade de PowerApps permite que você incorpore um aplicativo do Microsoft PowerApps no processo de contratação. O aplicativo poderá ser necessário para todos os candidatos, candidatos internos somente, candidatos externos somente, ou nenhum candidato. Se o aplicativo for marcado como necessário, ele deve ser concluído antes que se possa avançar para outro estágio. Se o aplicativo não for marcado como necessário, a atividade será uma etapa opcional e será possível avançar para outro estágio mesmo que o aplicativo não tenha sido concluído.
+A atividade de PowerApps permite que você incorpore um aplicativo do Microsoft PowerApps no processo de contratação. O aplicativo poderá ser necessário para todos os candidatos, candidatos internos somente, candidatos externos somente, ou nenhum candidato. Se o aplicativo for marcado como necessário, ele deve ser concluído antes que se possa avançar para outro estágio. Para ser considerado concluído, o campo **Status da solicitação de emprego** deve ser definido como **Concluído**. Este campo está localizado na entidade Atividade da solicitação de emprego, de modo que o aplicativo PowerApps precisará atualizar este campo antes que se possa avançar o estágio. Se o aplicativo não for marcado como necessário, a atividade será uma etapa opcional e será possível avançar para outro estágio mesmo que o aplicativo não tenha sido concluído.
 
 Para salvar a atividade do PowerApps no processo de contratação, você deve inserir um ID do PowerApps. Para encontrar a ID do PowerApps, acesse [PowerApps](https://web.powerapps.com), selecione **Aplicativos** e, em seguida, selecione **Detalhes**.
 
-Se você selecionar a opção **Permitir a adição de participantes a esta atividade** , outros colaboradores poderão ser adicionados a uma solicitação de emprego que use a atividade de PowerApps. Por exemplo, uma organização criou um aplicativo do PowerApps que é uma biblioteca de perguntas de entrevista para funções técnicas. A organização está agora contratando um novo desenvolvedor de software e adicionou a atividade de PowerApps ao processo de contratação para a função de desenvolvedor de software. Se a opção **Permitir a adição de participantes a esta atividade** estiver selecionada, um recrutador ou gerente de contratação que esteja exibindo um candidato para a função do desenvolvedor de software poderá adicionar pessoas à atividade de PowerApps. Essas pessoas poderão então exibir o aplicativo que tem as perguntas de entrevista.
+Por padrão, a atividade do PowerApps estará disponível para o Gerente de contratação, o Recrutador e seus representantes. Se você selecionar a opção **Permitir a adição de participantes a esta atividade**, outros participantes da equipe de contratação poderão ser adicionados a um aplicativo que use a atividade do PowerApps. Por exemplo, uma organização criou um aplicativo do PowerApps que é uma biblioteca de perguntas de entrevista para funções técnicas. A organização está agora contratando um novo desenvolvedor de software e adicionou a atividade de PowerApps ao processo de contratação para a função de desenvolvedor de software. Se a opção **Permitir a adição de participantes a esta atividade** estiver selecionada, um recrutador ou gerente de contratação que esteja exibindo um candidato para a função do desenvolvedor de software poderá adicionar entrevistadores à atividade do PowerApps. Essas pessoas poderão então exibir o aplicativo que tem as perguntas de entrevista.
 
 > [!NOTE]
-> A atividade de PowerApps está disponível somente com o complemento de Contratação abrangente.
+> A atividade de PowerApps está disponível somente com o complemento de Contratação abrangente. Para obter mais informações, consulte [Recursos do complemento de contratação abrangente do Attract](./attract-comprehensive-hiring.md).
 
 ## <a name="youtube-activity"></a>Atividade de YouTube
 
-A atividade de YouTube permite que você compartilhe um vídeo do YouTube como parte do processo de contratação. Para salvar a atividade de YouTube no processo de contratação, você deve especificar a URL do vídeo do YouTube. Quanto à atividade de PowerApps, você pode permitir que os participantes sejam adicionados à atividade. Se você selecionar a opção **Mostrar somente para o candidato**, o vídeo será exibido somente como parte da experiência do candidato. Ele não será exibido no processo de contratação no Attract.
+A atividade de YouTube permite que você compartilhe um vídeo do YouTube como parte do processo de contratação. Para salvar a atividade de YouTube no processo de contratação, você deve especificar a URL do vídeo do YouTube. Você pode optar por exibir o conteúdo para a **Equipe de contratação**, os **Candidatos internos somente**, os **Candidatos externos somente** ou **Todos os candidatos**. Como no caso da atividade do PowerApps, você pode permitir que os participantes da equipe de contratação sejam adicionados à atividade. Se optar por exibir o conteúdo aos candidatos, o vídeo será exibido somente como parte da experiência do candidato e não no processo de contratação.
 
 > [!NOTE]
-> A atividade de YouTube está disponível somente com o complemento de Contratação abrangente.
+> A atividade de YouTube está disponível somente com o complemento de Contratação abrangente. Para obter mais informações, consulte [Recursos do complemento de contratação abrangente do Attract](./attract-comprehensive-hiring.md).
 
 ## <a name="web-content-activity"></a>Atividade de conteúdo da Web
 
-A atividade de conteúdo da Web permite que você incorpore conteúdo online no processo de contratação. Para salvar a atividade de conteúdo da Web no processo de contratação, você deve especificar a URL do conteúdo. Quanto às atividade de PowerApps e de YouTube, você pode permitir que os participantes sejam adicionados à atividade. Se você selecionar a opção **Mostrar somente para o candidato**, o conteúdo será exibido somente como parte da experiência do candidato. Ele não será exibido no processo de contratação no Attract. É possível selecionar o tamanho do conteúdo exibido.
+A atividade de conteúdo da Web permite que você incorpore conteúdo online no processo de contratação. Para salvar a atividade de conteúdo da Web no processo de contratação, você deve especificar a URL do conteúdo. Você pode optar por exibir o conteúdo para a **Equipe de contratação**, os **Candidatos internos somente**, os **Candidatos externos somente** ou **Todos os candidatos**. Como no caso das atividades do PowerApps e do YouTube, você pode permitir que os participantes da equipe de contratação sejam adicionados à atividade. Se escolher exibir o conteúdo aos candidatos, o conteúdo da Web será exibido apenas como parte da experiência do candidato e não no processo de contratação. É possível escolher o tamanho do conteúdo exibido.
 
 > [!NOTE]
-> A atividade de conteúdo da Web está disponível somente com o complemento de Contratação abrangente.
+> A atividade de conteúdo da Web está disponível somente com o complemento de Contratação abrangente. Para obter mais informações, consulte [Recursos do complemento de contratação abrangente do Attract](./attract-comprehensive-hiring.md).
 
 ## <a name="microsoft-forms-activity"></a>Atividade de Microsoft Forms
 
-A atividade de Microsoft Forms permite que você incorpore um formulário do Microsoft Forms no processo de contratação. Os Microsoft Forms permite que você crie testes, pesquisas, e sondagens. Para salvar a atividade de Microsoft Forms no processo de contratação, você deve especificar a URL do formulário. Quanto às atividade de PowerApps, de YouTubee de conteúdo da Web, você pode permitir que os participantes sejam adicionados à atividade. Se você selecionar a opção **Mostrar somente para o candidato**, o formulário será exibido somente como parte da experiência do candidato. Ele não será exibido no processo de contratação no Attract.
+A atividade do Microsoft Forms permite que você incorpore uma atividade do Microsoft Forms no processo de contratação. Os Microsoft Forms permite que você crie testes, pesquisas, e sondagens. Para salvar a atividade do Microsoft Forms no processo de contratação, você deve especificar a URL do formulário. Você pode optar por exibir o conteúdo para a **Equipe de contratação**, os **Candidatos internos somente**, os **Candidatos externos somente** ou **Todos os candidatos**. Como no caso das atividades do PowerApps, do YouTube e do conteúdo da Web, você pode permitir que os participantes da equipe de contratação sejam adicionados à atividade. Se escolher exibir o conteúdo aos candidatos, o formulário será exibido apenas como parte da experiência do candidato e não no processo de contratação.
 
 No Microsoft Forms, os autores podem alterar as configurações para permitir que os usuários fora da organização respondam à pesquisa ou teste. Nesse caso, os usuários enviam as respostas de forma anônima. Se quiser ver quem preencheu a pesquisa ou teste, você poderá exigir que os entrevistados insiram seus nomes como parte da pesquisa ou do teste.
 
 > [!NOTE]
-> A atividade de Microsoft Forms está disponível somente com o complemento de Contratação abrangente.
+> A atividade de Microsoft Forms está disponível somente com o complemento de Contratação abrangente. Para obter mais informações, consulte [Recursos do complemento de contratação abrangente do Attract](./attract-comprehensive-hiring.md).
+
+## <a name="offer-activity"></a>Atividade Oferta
+
+O modelo de processo e contratação requer a atividade Oferta. Para usar o aplicativo Gerenciamento de Ofertas integrado, defina **Iniciar Aplicativo Gerenciamento de Ofertas em Preparar Oferta** como **Ativado**. Se esta configuração estiver desativada, o candidato não aparecerá no aplicativo Oferta, portanto será necessário rastrear as atualizações à atividade da oferta de um candidato manualmente. Para definir se os gerentes de contratação podem preparar a oferta do candidato no aplicativo Oferta, defina **Os gerentes de contratação podem preparar a oferta** como **Ativado**. Se o trabalho tiver várias posições associadas a ele, você poderá decidir se deseja preparar várias ofertas em relação ao mesmo número de posição. Se quiser permitir somente uma oferta por posição por trabalho, defina **Permitir que as posições sejam reutilizadas no trabalho** como **Desativado**.
+
+> [!NOTE]
+> O aplicativo Gerenciamento de Ofertas integrado está disponível somente com o complemento de Contratação abrangente. Para obter mais informações, consulte [Recursos do complemento de contratação abrangente do Attract](./attract-comprehensive-hiring.md).
+
+

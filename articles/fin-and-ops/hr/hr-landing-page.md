@@ -1,7 +1,7 @@
 ---
 title: Recursos humanos
 description: O módulo de Recursos humanos simplifica muitas tarefas de manutenção de registros e automatiza vários processos relacionados ao recrutamento de sua organização. Também fornece uma estrutura para a equipe de recursos humanos gerenciar áreas de supervisão. Essas áreas incluem recrutamento e retenção de funcionários, administração de benefícios, treinamento, avaliações de desempenho e gerenciamento de alterações.
-author: rschloma
+author: andreabichsel
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations
 ms.custom: 20931
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: faf9b9a70d959719f381ec5171e4fb96af208478
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c8b743e667413dfc263fe640b4c6c7350e887142
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "341755"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859796"
 ---
 # <a name="human-resources"></a>Recursos humanos
 
@@ -64,7 +64,7 @@ Depois de contratar pessoal, você pode configurar planos para gerenciar a remun
 
 ## <a name="develop-and-train-employees"></a>Desenvolver e treinar funcionários
 
-Para ajudar os funcionários a atingirem seus objetivos de carreira e, ao mesmo tempo atender necessidades críticas dos negócios, você pode configurar metas, criar avaliações de desempenho e rastrear comentários. Para ajudar funcionários a desenvolverem habilidades necessárias, você também pode configurar instrutores, tipos de cursos, cursos, descrições do curso, agendas, rastreamentos e sessões antes de atribuir um instrutor a um curso ou inscrever alguém em um curso. Os instrutores já devem existir como trabalhadores, candidatos ou contatos.
+Para ajudar os funcionários a atingirem seus objetivos de carreira e, ao mesmo tempo atender necessidades críticas dos negócios, você pode configurar metas, criar avaliações de desempenho e rastrear comentários. Para ajudar os funcionários a desenvolver as habilidades necessárias, você também pode configurar instrutores, tipos de cursos, cursos, descrições do curso, agendas, acompanhamentos e sessões antes de atribuir um instrutor a um curso ou inscrever alguém em um curso. Os instrutores já devem existir como trabalhadores, candidatos ou contatos.
 
 - [Gerenciamento de desempenho](../../talent/performance-management-overview.md)
 - [Alinhar habilidades da força de trabalho e necessidades dos negócios](../../talent/skills.md)

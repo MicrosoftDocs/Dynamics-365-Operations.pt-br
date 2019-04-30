@@ -3,7 +3,7 @@ title: Atualizações regulatórias
 description: Este tópico fornece uma lista de atualizações regulatórias planejadas e liberadas para o Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 02/19/2019
+ms.date: 04/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3beeb77819661de3f6b55766a1f8a5bd1fe023ba
-ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
+ms.openlocfilehash: 0bd72bb5bebed84c092142b2b18f8fbbc3d4f711
+ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "832092"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "992827"
 ---
 # <a name="regulatory-updates"></a>Atualizações regulatórias
 
@@ -28,12 +28,18 @@ ms.locfileid: "832092"
 
 Este tópico lista as atualizações regulatórias planejadas para liberação em localizações com suporte para o Microsoft Dynamics 365 for Finance and Operations. Os cronogramas de entrega podem mudar e a funcionalidade projetada pode mudar ou não ser liberada. Leia [Política da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2007332) para obter mais informações. 
 
-Atualizações regulatórias são diferentes dos recursos regulatórios. Para saber mais sobre recursos regulatórios planejados ou liberados, consulte os recursos a seguir.
+Atualizações regulatórias são recursos implementados para oferecer suporte a uma legislação nova ou modificada específica de um país. Para saber mais sobre outros recursos planejados ou liberados específicos de um país, consulte os seguintes recursos:
 
-- [Notas de versão do Dynamics 365 e Power Platform](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Notas de versão do Dynamics 365 e da Power Platform](https://docs.microsoft.com/business-applications-release-notes/index)
 - [Novidades para o Microsoft Dynamics 365 for Finance and Operations](../../fin-and-ops/get-started/whats-new-changed.md)
 
-Quando um mês é usado na coluna Data, a atualização regulatória é planejada para ser entregue em algum momento desse mês. A data de entrega pode ser qualquer dia desse mês, não apenas no primeiro dia do mês.
+A Microsoft se esforça para implementar novos requisitos regulatórios o mais cedo possível. A data de entrega real depende da data de anúncio da legislação, da disponibilidade dos detalhes da requisição por parte das autoridades locais, da disponibilidade de ferramentas de validação e do tamanho e da complexidade das alterações. 
+
+Nós planejamos entregar atualizações regulatórias em atualizações do serviço One Version que são liberadas a tempo para os clientes atualizarem e se prepararem para a data de aplicação (no caso de atualizações regulatórias transacionais) ou para o primeiro prazo de relatórios obrigatórios (no caso de atualizações regulatórias de relatórios.) Os clientes e parceiros podem visualizar as novas atualizações regulatórias no PEAP (Preview Early Adoption Program, prévia do programa de adoção antecipada).
+
+Em caso de datas de anúncio tardias, do atraso na disponibilidade dos detalhes da requisição ou de ferramentas de validação ou se houver alterações excepcionalmente grandes e complexas, pode não ser possível disponibilizar uma atualização regulatória até a data de disponibilidade geral de uma atualização mensal. Nesses casos, a atualização regulatória será enviada como hot fixes para algumas atualizações mensais disponíveis.
+
+Para obter informações sobre os planos de atualizações regulatórias mais recentes, consulte a tabela a seguir. 
 
 |Data de lançamento planejada|Versão de lançamento|País/região|Atualização regulatória|
 |--------------------|---------------|-------|-------|
@@ -47,7 +53,9 @@ Quando um mês é usado na coluna Data, a atualização regulatória é planejad
 |      2019 de abril          |   10.0.1      |    Reino Unido     |[Alterações de envio da declaração IVA (Declaração de impostos digital)](emea-gbr-mtd-vat-integration.md)    |    
 |      2019 de abril          |   10.0.1      |    Brasil     |Nova NF-e NT 2018.005         |
 |      2019 de abril          |   10.0.1      |    Rússia     |Alterações do formato da declaração IVA de 2019         |
-|      2019 de abril          |   10.0.1      |    Rússia     |Alterações de formato de declaração IVA de 2019 (Formatos de venda e compra de livros)  |
+|      2019 de abril          |   10.0.1      |    Rússia     |Alterações no formato da declaração de IVA de 2019 (registros de vendas e compras) 
+|      Maio de 2019            |   10.0.2      | Brasil      |   Layout 7 de SPED ECD   |
+
 
 ## <a name="additional-resources"></a>Recursos adicionais
 - Encontre todas as atualizações regulatórias planejadas e divulgadas [Lifecycle Service - Pesquisa de problemas](https://lcs.dynamics.com/Logon/Index) (logon necessário).

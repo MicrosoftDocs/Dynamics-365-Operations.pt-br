@@ -1,9 +1,9 @@
 ---
 title: Atrasos
-description: Este artigo fornece informações sobre as datas em atraso no planejamento mestre. Uma data posterior é uma data de vencimento realista que uma transação recebe se a data de preenchimento mais recente que o planejamento mestre calcula é posterior a data solicitada.
+description: Este tópico fornece informações sobre as datas em atraso no planejamento mestre. Uma data posterior é uma data de vencimento realista que uma transação recebe se a data de preenchimento mais recente que o planejamento mestre calcula é posterior a data solicitada.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a87b19732f413aa2844101f76dea83535da86599
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 7c26fedf15118a304469604527c33a25871356be
+ms.sourcegitcommit: 8eac5eee94bb32143df44c82a2dfdbe903967af8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "359603"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "878301"
 ---
 # <a name="delays"></a>Atrasos
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo fornece informações sobre as datas em atraso no planejamento mestre. Uma data posterior é uma data de vencimento realista que uma transação recebe se a data de preenchimento mais recente que o planejamento mestre calcula é posterior a data solicitada.
+Este tópico fornece informações sobre as datas em atraso no planejamento mestre. Uma data posterior é uma data de vencimento realista que uma transação recebe se a data de preenchimento mais recente que o planejamento mestre calcula é posterior a data solicitada.
 
 O planejamento mestre pode calcular a data de término de vigência mais antiga para uma transação com base nos prazos de entrega, na disponibilidade material, na disponibilidade de capacidade e em vários parâmetros de planejamento. 
 
@@ -42,12 +42,13 @@ Você pode configurar como os atrasos são calculados para um grupo de cobertura
 
 Na página **Parâmetros de planejamento mestre**, você pode definir a hora de início para o cálculo de atrasos. Se uma ordem for atendida após esse horário, um atraso de um dia será adicionado à data de atraso da ordem. 
 
-**Observação:** em versões anteriores, os atrasos calculados eram conhecidos como *mensagens futuras*, a data atrasada era conhecida como as *datas futuras* e uma transação atrasada foi mencionada como *uma transação definida no futuro*.
+> [!OBSERVAÇÃO} Nas versões anteriores, os atrasos calculados eram conhecidos como *mensagens futuras*, a data atrasada era conhecida como *datas futuras* e uma transação atrasada foi mencionada como *uma transação definida no futuro*.
+
+## <a name="desired-date"></a>Data desejada
+
+Na página **Ordem planejada**, a guia **Atrasos** mostra a **Data desejada** da ordem planejada. A data desejada de uma ordem planejada é a data base para atrasos, que é uma data calculada equivalente à **Data da solicitação** calculada com base na **Necessidade Líquida**. Se a ordem planejada for uma linha de BOM, linha de produção ou linha kanban, a data desejada será baseada na **Data da necessidade** e a data desejada não será exibida na página **Ordem planejada**.
 
 <a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Configurações de cobertura](coverage-settings.md)
-
-
-
+[​Configurações de cobertura​](coverage-settings.md)
