@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.openlocfilehash: 39133474b4a66e53a5525e7c90216342a6f9ed34
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "859865"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517003"
 ---
 # <a name="welcome-to-dynamics-365-for-talent"></a>Bem-vindo ao Dynamics 365 for Talent
 
@@ -99,7 +99,7 @@ Além de remunerar sua equipe com salários e bônus, você pode desenvolver pro
 
 O Talent pode ajudar você a manter um ambiente de trabalho seguro em conformidade com a legislação aplicável, incluindo a Lei de Americanos Portadores de Deficiências e as leis de imigração e naturalização, entre outras. Por exemplo, você pode gerenciar os requisitos físicos de trabalhos específicos, bem como acompanhar solicitações para acomodações que podem ajudar sua organização a otimizar as habilidades de sua força de trabalho.
 
--   [Verificação de emprego do formulário I-9](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
+-   [Verificação de emprego — Formulário I-9](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
 -   [Seguir a Lei de Americanos Portadores de Deficiências](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md)
 
 ## <a name="gather-information-using-questionnaires"></a>Coletar informações por meio de questionários

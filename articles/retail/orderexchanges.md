@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 43571099727830e81c41416b6fe250dba398b3f8
-ms.sourcegitcommit: ca4562fafa33b3512f0a5e246b15545fcf53e834
+ms.openlocfilehash: 5a0a6a060a1b4a4d5a80c797f61b212a828d2f04
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "379915"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517002"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>Configurar e processar uma troca em uma ordem de devolução
 
 [!include [banner](includes/banner.md)]
 
-Em versões anteriores do Microsoft Dynamics 365 for Retail, as devoluções em relação a ordens de clientes foram processadas usando o documento de ordem de devolução no Retail Headquarters. No entanto, o documento de ordem de devolução pode ser usado para processar somente os produtos que estão sendo devolvidos. Os produtos devolvidos são indicados por uma quantidade negativa nas linhas da ordem de devolução. Em contraste, as vendas são indicadas por uma quantidade positiva. Entretanto, o documento de ordem de devolução não suporta quantidades positivas. Devido a essa limitação, versões anteriores do Retail não oferecem suporte aos cenários em que trocas de produto são feitas usando o documento de ordem de devolução.
+Em versões anteriores do Microsoft Dynamics 365 for Retail, as devoluções de ordens de clientes eram processadas usando-se o documento de ordem de devolução no Retail Headquarters. No entanto, o documento de ordem de devolução pode ser usado para processar somente os produtos que estão sendo devolvidos. Os produtos devolvidos são indicados por uma quantidade negativa nas linhas da ordem de devolução. Em contraste, as vendas são indicadas por uma quantidade positiva. Entretanto, o documento de ordem de devolução não suporta quantidades positivas. Devido a essa limitação, versões anteriores do Retail não oferecem suporte aos cenários em que trocas de produto são feitas usando o documento de ordem de devolução.
 
 Entretanto, a funcionalidade foi adicionada para dar suporte a cenários em que as trocas são feitas sobre ordens de devolução. O Retail agora usa o documento da ordem de venda em vez do documento da ordem de devolução para processar esses tipos de transações.
 
@@ -44,7 +44,7 @@ Siga as etapas a seguir para configurar o sistema para dar suporte a trocas sobr
 
 Depois que o sistema for configurado como descrito na seção anterior, o usuário do PDV (ponto de venda) ainda selecionará uma ordem de venda ou fatura de venda para processar uma devolução, como em versões anteriores do Retail. No entanto, depois que os itens de devolução forem adicionados ao carrinho, o usuário poderá adicionar novas linhas de venda ao carrinho.
 
-Para essas novas linhas de venda, o usuário deve definir todos os atributos necessários para processar uma linha da ordem de cliente. Esses atributos incluem o método de entrega e o local de atendimento. O pagamento que é devido para a transação será um pagamento líquido das linhas da ordem de devolução e das linhas da ordem de venda. Quando o pagamento for proposto para a transação, a ordem de devolução será lançada como um documento de ordem de venda no Retail Headquarters, e o sistema vai cobrar imediatamente as linhas de devolução.
+Para essas novas linhas de venda, o usuário deve definir todos os atributos necessários para processar uma linha da ordem de cliente. Esses atributos incluem o método de entrega e o local de atendimento. O pagamento que é devido para a transação será um pagamento líquido das linhas da ordem de devolução e das linhas da ordem de venda. Quando o pagamento for proposto para a transação, a ordem de devolução será lançada como um documento de ordem de venda no Retail Headquarters, e o sistema fará imediatamente o faturamento das linhas de devolução.
 
 Para fornecer uma melhor visibilidade dos vários valores do carrinho, três novos campos de valores foram adicionados ao carrinho. Você pode usar o designer de tela para disponibilizar esses novos campos na IU (interface de usuário) do POS.
 

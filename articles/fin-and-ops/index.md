@@ -1,25 +1,29 @@
 ---
-# required metadata
 title: Documentação do Microsoft Dynamics 365 for Finance and Operations
 description: Documentação do Microsoft Dynamics 365 for Finance and Operations.
 author: margoc
 manager: AnnBe
-ms.date: 03/08/2019
+ms.date: 04/11/2019
 ms.topic: index-page
-ms.prod: null
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: null
+ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: margoc
-ms.search.scope: 'Core, Operations'
+ms.search.scope: Core, Operations
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: '2016-02-28'
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4547a0c8d43584e4cb8981e0a055c514c184f6dd
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1507580"
 ---
-
 # <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Documentação do Microsoft Dynamics 365 for Finance and Operations
 
 [!include [banner](includes/banner.md)]
@@ -53,13 +57,18 @@ Grande parte desse conteúdo também se aplica aos produtos relacionados: Micros
 <p><a href="../dev-itpro/migration-upgrade/on-prem-version-update-policy.md">Política de ciclo de vida do software: Locais</a></p>
 <p><a href="get-started/public-preview-releases.md">Atualizações padrão e de primeira versão do serviço</a></p>
 <p><a href="get-started/whats-new-changed.md">Novidades ou alterações</a></p>
-<p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Atualizações e hotfixes</a></p>
+<p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Upgrades, atualizações e hotfixes</a></p>
 <p><a href="../dev-itpro/deployment/apply-deployable-package-system.md">Aplicar atualizações a ambientes de nuvem</a></p>
 <p><a href="../dev-itpro/lifecycle-services/configure-service-updates.md">Configurar atualizações de serviço</a></p>
 <p><a href="../dev-itpro/lifecycle-services/pause-service-updates.md">Pausar atualizações de serviço</a></p>
-<p><a href="../dev-itpro/lifecycle-services/notifications-service-updates.md">Ser notificado sobre atualizações de serviço</a></p>
+<p><a href="../dev-itpro/lifecycle-services/notifications-service-updates.md">Receber notificações sobre atualizações de serviço</a></p>
 <p><a href="../dev-itpro/data-entities/data-task-automation.md">Automação de tarefa de dados</a></p>
 <p><a href="../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md">Regression Suite Automation Tool</a></p>
+
+<h3><a href="../dev-itpro/data-entities/integration-overview.md">Integrações</a></h3>
+<p><a href="../dev-itpro/business-events/home-page.md">Eventos de negócios</a></p>
+<p><a href="../dev-itpro/data-entities/data-entities.md">Entidades de dados</a></p>
+<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">Integração com o uso do Microsoft Flow</a></p>
 
 <h3><a href="../financials/index.md">Gerenciamento financeiro</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">Contas a pagar</a></p>
@@ -105,10 +114,6 @@ Grande parte desse conteúdo também se aplica aos produtos relacionados: Micros
 
 <h3><a href="../dev-itpro/dev-tools/developer-home-page.md">Desenvolvimento</h3>
 <p><a href="../dev-itpro/extensibility/extensibility-home-page.md">Extensibilidade</a></p>
-
-<p><a href="../dev-itpro/data-entities/integration-overview.md">Integração de dados</a></p>
-<p><a href="../dev-itpro/data-entities/data-entities.md">Gerenciamento de dados</a></p>
-
 <p><a href="../dev-itpro/office-integration/office-integration.md">Integração do Office</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md">Fornecimento contínuo</a></p>
 <p><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">Plataforma móvel</a></p>
@@ -119,7 +124,6 @@ Grande parte desse conteúdo também se aplica aos produtos relacionados: Micros
 <p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">Implantação local</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Atualização</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">Manutenção</a></p>
-<p><a href="../dev-itpro/data-entities/data-entities.md">Estrutura de gerenciamento de dados</a></p>
 <p><a href="../dev-itpro/lifecycle-services/lcs.md">Lifecycle Services</a></p>
 <p><a href="organization-administration/organization-administration-home-page.md">Administração da organização</a></p>
 </td>
