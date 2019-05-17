@@ -18,129 +18,129 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: f1acf2bade2bb279a35fdf4689bbbcc49e64101f
-ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
+ms.openlocfilehash: 39187cf900624c5fbc7e811f0ee9632355688ba4
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "403276"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1507464"
 ---
-# <a name="accounts-payable-home-page"></a><span data-ttu-id="b10eb-103">Home page de Contas a pagar</span><span class="sxs-lookup"><span data-stu-id="b10eb-103">Accounts payable home page</span></span>
+# <a name="accounts-payable-home-page"></a><span data-ttu-id="39708-103">Home page de Contas a pagar</span><span class="sxs-lookup"><span data-stu-id="39708-103">Accounts payable home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="b10eb-104">Este tópico oferece uma visão geral de contas a pagar.</span><span class="sxs-lookup"><span data-stu-id="b10eb-104">This topic provides an overview of Accounts payable.</span></span> 
+<span data-ttu-id="39708-104">Este tópico oferece uma visão geral de contas a pagar.</span><span class="sxs-lookup"><span data-stu-id="39708-104">This topic provides an overview of Accounts payable.</span></span> 
 
-<span data-ttu-id="b10eb-105">Você pode inserir faturas de fornecedor manualmente ou recebê-las eletronicamente por uma entidade de dados.</span><span class="sxs-lookup"><span data-stu-id="b10eb-105">You can enter vendor invoices manually or receive them electronically through a data entity.</span></span> <span data-ttu-id="b10eb-106">Depois que as faturas são lançadas ou recebidas, você pode revisar e aprovar as faturas usando um diário de aprovação de faturas ou a página **Fatura de fornecedor**.</span><span class="sxs-lookup"><span data-stu-id="b10eb-106">After the invoices are entered or received, you can review and approve the invoices by using an invoice approval journal or the **Vendor invoice** page.</span></span> <span data-ttu-id="b10eb-107">Você pode usar a conciliação de faturas, as políticas de faturas de fornecedor e o fluxo de trabalho para automatizar o processo de revisão, para que as faturas que atenderem a certos critérios sejam aprovadas automaticamente, e as faturas restantes sejam sinalizadas para revisão por um usuário autorizado.</span><span class="sxs-lookup"><span data-stu-id="b10eb-107">You can use invoice matching, vendor invoice policies, and workflow to automate the review process so that invoices that meet certain criteria are automatically approved, and the remaining invoices are flagged for review by an authorized user.</span></span>
+<span data-ttu-id="39708-105">Você pode inserir faturas de fornecedor manualmente ou recebê-las eletronicamente por uma entidade de dados.</span><span class="sxs-lookup"><span data-stu-id="39708-105">You can enter vendor invoices manually or receive them electronically through a data entity.</span></span> <span data-ttu-id="39708-106">Depois que as faturas são lançadas ou recebidas, você pode revisar e aprovar as faturas usando um diário de aprovação de faturas ou a página **Fatura de fornecedor**.</span><span class="sxs-lookup"><span data-stu-id="39708-106">After the invoices are entered or received, you can review and approve the invoices by using an invoice approval journal or the **Vendor invoice** page.</span></span> <span data-ttu-id="39708-107">Você pode usar a conciliação de faturas, as políticas de faturas de fornecedor e o fluxo de trabalho para automatizar o processo de revisão, para que as faturas que atenderem a certos critérios sejam aprovadas automaticamente, e as faturas restantes sejam sinalizadas para revisão por um usuário autorizado.</span><span class="sxs-lookup"><span data-stu-id="39708-107">You can use invoice matching, vendor invoice policies, and workflow to automate the review process so that invoices that meet certain criteria are automatically approved, and the remaining invoices are flagged for review by an authorized user.</span></span>
 
-<span data-ttu-id="b10eb-108">**Processos de negócios**</span><span class="sxs-lookup"><span data-stu-id="b10eb-108">**Business processes**</span></span>
+<span data-ttu-id="39708-108">**Processos de negócios**</span><span class="sxs-lookup"><span data-stu-id="39708-108">**Business processes**</span></span>
 
-<span data-ttu-id="b10eb-109">[![Processo de negócios](./media/AP-process.PNG)](./media/AP-process.PNG)</span><span class="sxs-lookup"><span data-stu-id="b10eb-109">[![Business process](./media/AP-process.PNG)](./media/AP-process.PNG)</span></span>
+<span data-ttu-id="39708-109">[![Processo de negócios](./media/AP-process.PNG)](./media/AP-process.PNG)</span><span class="sxs-lookup"><span data-stu-id="39708-109">[![Business process](./media/AP-process.PNG)](./media/AP-process.PNG)</span></span>
 
-## <a name="set-up-accounts-payable"></a><span data-ttu-id="b10eb-110">Configurar Contas a pagar</span><span class="sxs-lookup"><span data-stu-id="b10eb-110">Set up Accounts payable</span></span>
+## <a name="set-up-accounts-payable"></a><span data-ttu-id="39708-110">Configurar Contas a pagar</span><span class="sxs-lookup"><span data-stu-id="39708-110">Set up Accounts payable</span></span>
 
-<span data-ttu-id="b10eb-111">Configure grupos de fornecedores, fornecedores, perfis de lançamento, várias opções de pagamento e parâmetros relacionados a fornecedores, encargos, entregas e destinos, notas promissórias e outros tipos de informações de Contas a pagar.</span><span class="sxs-lookup"><span data-stu-id="b10eb-111">Set up vendor groups, vendors, posting profiles, various payment options, and parameters regarding vendors, charges, deliveries and destinations, promissory notes, and other types of Accounts payable information.</span></span> 
+<span data-ttu-id="39708-111">Configure grupos de fornecedores, fornecedores, perfis de lançamento, várias opções de pagamento e parâmetros relacionados a fornecedores, encargos, entregas e destinos, notas promissórias e outros tipos de informações de Contas a pagar.</span><span class="sxs-lookup"><span data-stu-id="39708-111">Set up vendor groups, vendors, posting profiles, various payment options, and parameters regarding vendors, charges, deliveries and destinations, promissory notes, and other types of Accounts payable information.</span></span> 
 
-[<span data-ttu-id="b10eb-112">Configurar Contas a pagar</span><span class="sxs-lookup"><span data-stu-id="b10eb-112">Configure Accounts payable</span></span>](accounts-payable-overview.md)
+[<span data-ttu-id="39708-112">Configurar Contas a pagar</span><span class="sxs-lookup"><span data-stu-id="39708-112">Configure Accounts payable</span></span>](accounts-payable-overview.md)
 
-[<span data-ttu-id="b10eb-113">Distribuições contábeis e entradas no diário-razão auxiliar para faturas de fornecedor</span><span class="sxs-lookup"><span data-stu-id="b10eb-113">Accounting distributions and subledger journal entries for vendor invoices</span></span>](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
+[<span data-ttu-id="39708-113">Distribuições contábeis e entradas no diário-razão auxiliar para faturas de fornecedor</span><span class="sxs-lookup"><span data-stu-id="39708-113">Accounting distributions and subledger journal entries for vendor invoices</span></span>](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
 
-[<span data-ttu-id="b10eb-114">Reavaliação de moeda estrangeira para Contas a pagar e Contas a receber</span><span class="sxs-lookup"><span data-stu-id="b10eb-114">Foreign currency revaluation for Accounts payable and Accounts receivable</span></span>](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
+[<span data-ttu-id="39708-114">Reavaliação de moeda estrangeira para Contas a pagar e Contas a receber</span><span class="sxs-lookup"><span data-stu-id="39708-114">Foreign currency revaluation for Accounts payable and Accounts receivable</span></span>](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
 
-## <a name="configure-vendor-invoices"></a><span data-ttu-id="b10eb-115">Configurar faturas de fornecedor</span><span class="sxs-lookup"><span data-stu-id="b10eb-115">Configure vendor invoices</span></span>
+## <a name="configure-vendor-invoices"></a><span data-ttu-id="39708-115">Configurar faturas de fornecedor</span><span class="sxs-lookup"><span data-stu-id="39708-115">Configure vendor invoices</span></span>
 
-<span data-ttu-id="b10eb-116">Use Contas a pagar para rastrear faturas e despesas de saída para fornecedores.</span><span class="sxs-lookup"><span data-stu-id="b10eb-116">Use Accounts payable to track invoices and outgoing expenditures to vendors.</span></span>
+<span data-ttu-id="39708-116">Use Contas a pagar para rastrear faturas e despesas de saída para fornecedores.</span><span class="sxs-lookup"><span data-stu-id="39708-116">Use Accounts payable to track invoices and outgoing expenditures to vendors.</span></span>
 
-[<span data-ttu-id="b10eb-117">Conciliação de faturas de contas a pagar</span><span class="sxs-lookup"><span data-stu-id="b10eb-117">Accounts payable invoice matching</span></span>](accounts-payable-invoice-matching.md)
+[<span data-ttu-id="39708-117">Conciliação de faturas de contas a pagar</span><span class="sxs-lookup"><span data-stu-id="39708-117">Accounts payable invoice matching</span></span>](accounts-payable-invoice-matching.md)
 
-[<span data-ttu-id="b10eb-118">Perfis de lançamentos de fornecedores</span><span class="sxs-lookup"><span data-stu-id="b10eb-118">Vendor posting profiles</span></span>](vendor-posting-profiles.md)
+[<span data-ttu-id="39708-118">Perfis de lançamentos de fornecedores</span><span class="sxs-lookup"><span data-stu-id="39708-118">Vendor posting profiles</span></span>](vendor-posting-profiles.md)
 
-[<span data-ttu-id="b10eb-119">Configurar a validação de conciliação de faturas de contas a pagar</span><span class="sxs-lookup"><span data-stu-id="b10eb-119">Set up accounts payable invoice matching validation</span></span>](tasks/set-up-accounts-payable-invoice-matching-validation.md)
+[<span data-ttu-id="39708-119">Configurar a validação de conciliação de faturas de contas a pagar</span><span class="sxs-lookup"><span data-stu-id="39708-119">Set up accounts payable invoice matching validation</span></span>](tasks/set-up-accounts-payable-invoice-matching-validation.md)
 
-[<span data-ttu-id="b10eb-120">Políticas de conciliação tripla</span><span class="sxs-lookup"><span data-stu-id="b10eb-120">Three-way matching policies</span></span>](three-way-matching-policies.md)
+[<span data-ttu-id="39708-120">Políticas de conciliação tripla</span><span class="sxs-lookup"><span data-stu-id="39708-120">Three-way matching policies</span></span>](three-way-matching-policies.md)
 
-[<span data-ttu-id="b10eb-121">Conciliação de faturas e ordens de compra intercompanhia</span><span class="sxs-lookup"><span data-stu-id="b10eb-121">Invoice matching and intercompany purchase orders</span></span>](invoice-matching-intercompany-purchase-orders.md)
+[<span data-ttu-id="39708-121">Conciliação de faturas e ordens de compra intercompanhia</span><span class="sxs-lookup"><span data-stu-id="39708-121">Invoice matching and intercompany purchase orders</span></span>](invoice-matching-intercompany-purchase-orders.md)
 
-[<span data-ttu-id="b10eb-122">Resolver discrepâncias durante a conciliação de totais de fatura</span><span class="sxs-lookup"><span data-stu-id="b10eb-122">Resolve discrepancies during invoice totals matching</span></span>](resolve-invoice-totals-invoice-matching-discrepancies.md)
+[<span data-ttu-id="39708-122">Resolver discrepâncias durante a conciliação de totais de fatura</span><span class="sxs-lookup"><span data-stu-id="39708-122">Resolve discrepancies during invoice totals matching</span></span>](resolve-invoice-totals-invoice-matching-discrepancies.md)
 
-[<span data-ttu-id="b10eb-123">Contrapartidas padrão para diários de faturas de fornecedor e diários de aprovações de faturas</span><span class="sxs-lookup"><span data-stu-id="b10eb-123">Default offset accounts for vendor invoice journals and invoice approval journals</span></span>](default-offset-accounts-vendor-invoice-journals.md)
+[<span data-ttu-id="39708-123">Contrapartidas padrão para diários de faturas de fornecedor e diários de aprovações de faturas</span><span class="sxs-lookup"><span data-stu-id="39708-123">Default offset accounts for vendor invoice journals and invoice approval journals</span></span>](default-offset-accounts-vendor-invoice-journals.md)
 
-[<span data-ttu-id="b10eb-124">Aprovações de faturas móveis</span><span class="sxs-lookup"><span data-stu-id="b10eb-124">Mobile invoice approvals</span></span>](mobile-invoice-approvals.md)
+[<span data-ttu-id="39708-124">Aprovações de faturas móveis</span><span class="sxs-lookup"><span data-stu-id="39708-124">Mobile invoice approvals</span></span>](mobile-invoice-approvals.md)
 
-[<span data-ttu-id="b10eb-125">Espaço de trabalho de faturamento da colaboração de fornecedores</span><span class="sxs-lookup"><span data-stu-id="b10eb-125">Vendor collaboration invoicing workspace</span></span>](vendor-portal-invoicing-workspace.md)
+[<span data-ttu-id="39708-125">Espaço de trabalho de faturamento da colaboração de fornecedores</span><span class="sxs-lookup"><span data-stu-id="39708-125">Vendor collaboration invoicing workspace</span></span>](vendor-portal-invoicing-workspace.md)
 
-[<span data-ttu-id="b10eb-126">Automação de faturas de fornecedores</span><span class="sxs-lookup"><span data-stu-id="b10eb-126">Vendor invoice automation</span></span>](vendor-invoice-automation.md)
+[<span data-ttu-id="39708-126">Automação de faturas de fornecedores</span><span class="sxs-lookup"><span data-stu-id="39708-126">Vendor invoice automation</span></span>](vendor-invoice-automation.md)
 
-## <a name="configure-vendor-payments"></a><span data-ttu-id="b10eb-127">Configurar pagamentos de fornecedores</span><span class="sxs-lookup"><span data-stu-id="b10eb-127">Configure vendor payments</span></span> 
+## <a name="configure-vendor-payments"></a><span data-ttu-id="39708-127">Configurar pagamentos de fornecedores</span><span class="sxs-lookup"><span data-stu-id="39708-127">Configure vendor payments</span></span> 
 
-<span data-ttu-id="b10eb-128">Atribua um tipo de pagamento definido pelo sistema, como cheque, pagamento eletrônico ou nota promissória, a qualquer método de pagamento definido pelo usuário.</span><span class="sxs-lookup"><span data-stu-id="b10eb-128">Assign a system-defined payment type, such as check, electronic payment, or promissory note, to any user-defined method of payment.</span></span> <span data-ttu-id="b10eb-129">Os tipos de pagamentos são opcionais, mas são úteis quando você valida pagamentos eletrônicos e quer ter a possibilidade de determinar rapidamente o tipo de um pagamento.</span><span class="sxs-lookup"><span data-stu-id="b10eb-129">Payment types are optional, but they are useful when you validate electronic payments and want to be able to quickly determine which payment type a payment uses.</span></span> 
+<span data-ttu-id="39708-128">Atribua um tipo de pagamento definido pelo sistema, como cheque, pagamento eletrônico ou nota promissória, a qualquer método de pagamento definido pelo usuário.</span><span class="sxs-lookup"><span data-stu-id="39708-128">Assign a system-defined payment type, such as check, electronic payment, or promissory note, to any user-defined method of payment.</span></span> <span data-ttu-id="39708-129">Os tipos de pagamentos são opcionais, mas são úteis quando você valida pagamentos eletrônicos e quer ter a possibilidade de determinar rapidamente o tipo de um pagamento.</span><span class="sxs-lookup"><span data-stu-id="39708-129">Payment types are optional, but they are useful when you validate electronic payments and want to be able to quickly determine which payment type a payment uses.</span></span> 
 
-[<span data-ttu-id="b10eb-130">Espaço de trabalho de pagamentos de fornecedores</span><span class="sxs-lookup"><span data-stu-id="b10eb-130">Vendor payments workspace</span></span>](vendor-payments-workspace.md)
+[<span data-ttu-id="39708-130">Espaço de trabalho de pagamentos de fornecedores</span><span class="sxs-lookup"><span data-stu-id="39708-130">Vendor payments workspace</span></span>](vendor-payments-workspace.md)
 
-[<span data-ttu-id="b10eb-131">Definir taxas de pagamento de fornecedor</span><span class="sxs-lookup"><span data-stu-id="b10eb-131">Define vendor payment fees</span></span>](tasks/define-vendor-payment-fees.md)
+[<span data-ttu-id="39708-131">Definir taxas de pagamento de fornecedor</span><span class="sxs-lookup"><span data-stu-id="39708-131">Define vendor payment fees</span></span>](tasks/define-vendor-payment-fees.md)
 
-[<span data-ttu-id="b10eb-132">Definir condições de pagamento de fornecedor</span><span class="sxs-lookup"><span data-stu-id="b10eb-132">Define vendor payment terms</span></span>](tasks/define-vendor-payment-terms.md)
+[<span data-ttu-id="39708-132">Definir condições de pagamento de fornecedor</span><span class="sxs-lookup"><span data-stu-id="39708-132">Define vendor payment terms</span></span>](tasks/define-vendor-payment-terms.md)
 
-[<span data-ttu-id="b10eb-133">Visão geral de pagamento positivo</span><span class="sxs-lookup"><span data-stu-id="b10eb-133">Positive pay overview</span></span>](positive-pay-overview.md)
+[<span data-ttu-id="39708-133">Visão geral de pagamento positivo</span><span class="sxs-lookup"><span data-stu-id="39708-133">Positive pay overview</span></span>](positive-pay-overview.md)
 
-[<span data-ttu-id="b10eb-134">Configurar e gerar arquivos de pagamento positivo</span><span class="sxs-lookup"><span data-stu-id="b10eb-134">Set up and generate positive pay files</span></span>](set-up-generate-positive-pay-files.md)
+[<span data-ttu-id="39708-134">Configurar e gerar arquivos de pagamento positivo</span><span class="sxs-lookup"><span data-stu-id="39708-134">Set up and generate positive pay files</span></span>](set-up-generate-positive-pay-files.md)
 
-[<span data-ttu-id="b10eb-135">Criar pagamentos de fornecedores usando uma proposta de pagamento</span><span class="sxs-lookup"><span data-stu-id="b10eb-135">Create vendor payments by using a payment proposal</span></span>](create-vendor-payments-payment-proposal.md)
+[<span data-ttu-id="39708-135">Criar pagamentos de fornecedores usando uma proposta de pagamento</span><span class="sxs-lookup"><span data-stu-id="39708-135">Create vendor payments by using a payment proposal</span></span>](create-vendor-payments-payment-proposal.md)
 
-[<span data-ttu-id="b10eb-136">Pagamentos de fornecedores para um valor parcial</span><span class="sxs-lookup"><span data-stu-id="b10eb-136">Vendor payments for a partial amount</span></span>](vendor-payments-partial-amount.md)
+[<span data-ttu-id="39708-136">Pagamentos de fornecedores para um valor parcial</span><span class="sxs-lookup"><span data-stu-id="39708-136">Vendor payments for a partial amount</span></span>](vendor-payments-partial-amount.md)
 
-[<span data-ttu-id="b10eb-137">Obter um desconto maior que o desconto calculado para um pagamento de fornecedor</span><span class="sxs-lookup"><span data-stu-id="b10eb-137">Take a discount that is more than the calculated discount for a vendor payment</span></span>](take-discount-more-calculated-discount-vendor-payment.md)
+[<span data-ttu-id="39708-137">Obter um desconto maior que o desconto calculado para um pagamento de fornecedor</span><span class="sxs-lookup"><span data-stu-id="39708-137">Take a discount that is more than the calculated discount for a vendor payment</span></span>](take-discount-more-calculated-discount-vendor-payment.md)
 
-[<span data-ttu-id="b10eb-138">Obter um desconto à vista fora do período de desconto à vista</span><span class="sxs-lookup"><span data-stu-id="b10eb-138">Take a cash discount outside the cash discount period</span></span>](take-cash-discount-outside-cash-discount-timeframe.md)
+[<span data-ttu-id="39708-138">Obter um desconto à vista fora do período de desconto à vista</span><span class="sxs-lookup"><span data-stu-id="39708-138">Take a cash discount outside the cash discount period</span></span>](take-cash-discount-outside-cash-discount-timeframe.md)
 
-[<span data-ttu-id="b10eb-139">Relatório eletrônico para cheques de fornecedores</span><span class="sxs-lookup"><span data-stu-id="b10eb-139">Electronic reporting for vendor checks</span></span>](electronic-reporting-sample-vendor-checks.md)
+[<span data-ttu-id="39708-139">Relatório eletrônico para cheques de fornecedores</span><span class="sxs-lookup"><span data-stu-id="39708-139">Electronic reporting for vendor checks</span></span>](electronic-reporting-sample-vendor-checks.md)
 
-[<span data-ttu-id="b10eb-140">Reverter um pagamento de fornecedor</span><span class="sxs-lookup"><span data-stu-id="b10eb-140">Reverse a vendor payment</span></span>](reverse-vendor-payment.md)
+[<span data-ttu-id="39708-140">Reverter um pagamento de fornecedor</span><span class="sxs-lookup"><span data-stu-id="39708-140">Reverse a vendor payment</span></span>](reverse-vendor-payment.md)
 
-[<span data-ttu-id="b10eb-141">Visão geral de faturas de pagamento antecipado e de pagamentos antecipados</span><span class="sxs-lookup"><span data-stu-id="b10eb-141">Prepayment invoices and prepayments overview</span></span>](prepayments-invoices-vs-prepayments.md)
+[<span data-ttu-id="39708-141">Visão geral de faturas de pagamento antecipado e de pagamentos antecipados</span><span class="sxs-lookup"><span data-stu-id="39708-141">Prepayment invoices and prepayments overview</span></span>](prepayments-invoices-vs-prepayments.md)
 
-[<span data-ttu-id="b10eb-142">Pagamentos centralizados de Contas a pagar</span><span class="sxs-lookup"><span data-stu-id="b10eb-142">Centralized payments for Accounts payable</span></span>](centralized-payments-accounts-payable.md)
+[<span data-ttu-id="39708-142">Pagamentos centralizados de Contas a pagar</span><span class="sxs-lookup"><span data-stu-id="39708-142">Centralized payments for Accounts payable</span></span>](centralized-payments-accounts-payable.md)
 
-## <a name="settlements"></a><span data-ttu-id="b10eb-143">Liquidações</span><span class="sxs-lookup"><span data-stu-id="b10eb-143">Settlements</span></span>
+## <a name="settlements"></a><span data-ttu-id="39708-143">Liquidações</span><span class="sxs-lookup"><span data-stu-id="39708-143">Settlements</span></span>
 
-<span data-ttu-id="b10eb-144">Os seguintes tópicos fornecem informações sobre liquidações.</span><span class="sxs-lookup"><span data-stu-id="b10eb-144">The following topics provide information about settlements.</span></span> <span data-ttu-id="b10eb-145">A liquidação é o processo de liquidar pagamentos com faturas.</span><span class="sxs-lookup"><span data-stu-id="b10eb-145">Settlement is the process of settling payments with invoices.</span></span> 
+<span data-ttu-id="39708-144">Os seguintes tópicos fornecem informações sobre liquidações.</span><span class="sxs-lookup"><span data-stu-id="39708-144">The following topics provide information about settlements.</span></span> <span data-ttu-id="39708-145">A liquidação é o processo de liquidar pagamentos com faturas.</span><span class="sxs-lookup"><span data-stu-id="39708-145">Settlement is the process of settling payments with invoices.</span></span> 
 
-[<span data-ttu-id="b10eb-146">Configurar liquidação</span><span class="sxs-lookup"><span data-stu-id="b10eb-146">Configure settlement</span></span>](../cash-bank-management/configure-settlement.md)
+[<span data-ttu-id="39708-146">Configurar liquidação</span><span class="sxs-lookup"><span data-stu-id="39708-146">Configure settlement</span></span>](../cash-bank-management/configure-settlement.md)
 
-[<span data-ttu-id="b10eb-147">Liquidar um pagamento parcial de fornecedor antes da data do desconto</span><span class="sxs-lookup"><span data-stu-id="b10eb-147">Settle a partial vendor payment before the discount date</span></span>](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+[<span data-ttu-id="39708-147">Liquidar um pagamento parcial de fornecedor antes da data do desconto</span><span class="sxs-lookup"><span data-stu-id="39708-147">Settle a partial vendor payment before the discount date</span></span>](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
 
-[<span data-ttu-id="b10eb-148">Liquidar um pagamento parcial de fornecedor que tem descontos sobre notas de crédito de fornecedor</span><span class="sxs-lookup"><span data-stu-id="b10eb-148">Settle a partial vendor payment that has discounts on vendor credit notes</span></span>](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
+[<span data-ttu-id="39708-148">Liquidar um pagamento parcial de fornecedor que tem descontos sobre notas de crédito de fornecedor</span><span class="sxs-lookup"><span data-stu-id="39708-148">Settle a partial vendor payment that has discounts on vendor credit notes</span></span>](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
 
-[<span data-ttu-id="b10eb-149">Liquidar um pagamento parcial de fornecedor que tem vários períodos de desconto</span><span class="sxs-lookup"><span data-stu-id="b10eb-149">Settle a partial vendor payment that has multiple discount periods</span></span>](settle-partial-vendor-payment-multiple-discount-periods.md)
+[<span data-ttu-id="39708-149">Liquidar um pagamento parcial de fornecedor que tem vários períodos de desconto</span><span class="sxs-lookup"><span data-stu-id="39708-149">Settle a partial vendor payment that has multiple discount periods</span></span>](settle-partial-vendor-payment-multiple-discount-periods.md)
 
-[<span data-ttu-id="b10eb-150">Liquidar um pagamento parcial ou pagamento final de fornecedor antes do desconto</span><span class="sxs-lookup"><span data-stu-id="b10eb-150">Settle a partial vendor payment or final payment before discount</span></span>](settle-partial-vendor-payment-or-final-payment-before-discount.md)
+[<span data-ttu-id="39708-150">Liquidar um pagamento parcial ou pagamento final de fornecedor antes do desconto</span><span class="sxs-lookup"><span data-stu-id="39708-150">Settle a partial vendor payment or final payment before discount</span></span>](settle-partial-vendor-payment-or-final-payment-before-discount.md)
 
-[<span data-ttu-id="b10eb-151">Comprovante único com vários registros de cliente ou de fornecedor</span><span class="sxs-lookup"><span data-stu-id="b10eb-151">Single voucher with multiple customer or vendor records</span></span>](single-voucher-multiple-customer-vendor-records.md)
+[<span data-ttu-id="39708-151">Comprovante único com vários registros de cliente ou de fornecedor</span><span class="sxs-lookup"><span data-stu-id="39708-151">Single voucher with multiple customer or vendor records</span></span>](single-voucher-multiple-customer-vendor-records.md)
 
 
 
-### <a name="additional-resources"></a><span data-ttu-id="b10eb-152">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="b10eb-152">Additional resources</span></span>
+### <a name="additional-resources"></a><span data-ttu-id="39708-152">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="39708-152">Additional resources</span></span>
 
-#### <a name="whats-new-and-in-development"></a><span data-ttu-id="b10eb-153">Novidades e o que está em desenvolvimento</span><span class="sxs-lookup"><span data-stu-id="b10eb-153">What's new and in development</span></span>
+#### <a name="whats-new-and-in-development"></a><span data-ttu-id="39708-153">Novidades e o que está em desenvolvimento</span><span class="sxs-lookup"><span data-stu-id="39708-153">What's new and in development</span></span>
 
-<span data-ttu-id="b10eb-154">Acesse as [Notas de versão do Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) para ver quais novos recursos estão planejados.</span><span class="sxs-lookup"><span data-stu-id="b10eb-154">Go to the [Microsoft Dynamics 365 Release Notes](https://go.microsoft.com/fwlink/?linkid=2010158) to see what new features are planned.</span></span> 
+<span data-ttu-id="39708-154">Acesse as [Notas de versão do Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) para ver quais novos recursos estão planejados.</span><span class="sxs-lookup"><span data-stu-id="39708-154">Go to the [Microsoft Dynamics 365 Release Notes](https://go.microsoft.com/fwlink/?linkid=2010158) to see what new features are planned.</span></span> 
 
-#### <a name="blogs"></a><span data-ttu-id="b10eb-155">Blogs</span><span class="sxs-lookup"><span data-stu-id="b10eb-155">Blogs</span></span>
+#### <a name="blogs"></a><span data-ttu-id="39708-155">Blogs</span><span class="sxs-lookup"><span data-stu-id="39708-155">Blogs</span></span>
 
-<span data-ttu-id="b10eb-156">Você encontra opiniões, notícias, além de informações sobre Contas a pagar e outras soluções no [blog do Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)e no [blog de finanças do Microsoft Dynamics 365 Finance and Operations](https://community.dynamics.com/365/financeandoperations/b/financials).</span><span class="sxs-lookup"><span data-stu-id="b10eb-156">You can find opinions, news, and other information about Accounts payable and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)and the [Microsoft Dynamics 365 Finance and Operations - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).</span></span>
+<span data-ttu-id="39708-156">Você encontra opiniões, notícias, além de informações sobre Contas a pagar e outras soluções no [blog do Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)e no [blog de finanças do Microsoft Dynamics 365 Finance and Operations](https://community.dynamics.com/365/financeandoperations/b/financials).</span><span class="sxs-lookup"><span data-stu-id="39708-156">You can find opinions, news, and other information about Accounts payable and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)and the [Microsoft Dynamics 365 Finance and Operations - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).</span></span>
 
-<span data-ttu-id="b10eb-157">O [Blog da Comunidade de Parceiros do Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) fornece aos Parceiros do Microsoft Dynamics um recurso único para saberem mais sobre as novidades e as tendências do MBS Operations.</span><span class="sxs-lookup"><span data-stu-id="b10eb-157">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</span></span>
+<span data-ttu-id="39708-157">O [Blog da Comunidade de Parceiros do Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) fornece aos Parceiros do Microsoft Dynamics um recurso único para saberem mais sobre as novidades e as tendências do MBS Operations.</span><span class="sxs-lookup"><span data-stu-id="39708-157">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</span></span>
 
-#### <a name="community-blogs"></a><span data-ttu-id="b10eb-158">Blogs da comunidade</span><span class="sxs-lookup"><span data-stu-id="b10eb-158">Community blogs</span></span>
+#### <a name="community-blogs"></a><span data-ttu-id="39708-158">Blogs da comunidade</span><span class="sxs-lookup"><span data-stu-id="39708-158">Community blogs</span></span>
 
-[<span data-ttu-id="b10eb-159">Como gerenciar contas a pagar no Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="b10eb-159">How to manage payables in Dynamics 365 for Finance and Operations</span></span>](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)
+[<span data-ttu-id="39708-159">Como gerenciar contas a pagar no Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="39708-159">How to manage payables in Dynamics 365 for Finance and Operations</span></span>](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)
 
-#### <a name="task-guides"></a><span data-ttu-id="b10eb-160">Guias de tarefas</span><span class="sxs-lookup"><span data-stu-id="b10eb-160">Task guides</span></span>
-<span data-ttu-id="b10eb-161">Há ajuda adicional disponível como guias de tarefas dentro do Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="b10eb-161">Additional help is available as task guides inside Finance and Operations.</span></span> <span data-ttu-id="b10eb-162">Para acessar os guias de tarefas, clique no botão Ajuda em qualquer página.</span><span class="sxs-lookup"><span data-stu-id="b10eb-162">To access task guides, click the Help button on any page.</span></span>
+#### <a name="task-guides"></a><span data-ttu-id="39708-160">Guias de tarefas</span><span class="sxs-lookup"><span data-stu-id="39708-160">Task guides</span></span>
+<span data-ttu-id="39708-161">Há ajuda adicional disponível como guias de tarefas dentro do Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="39708-161">Additional help is available as task guides inside Finance and Operations.</span></span> <span data-ttu-id="39708-162">Para acessar os guias de tarefas, clique no botão Ajuda em qualquer página.</span><span class="sxs-lookup"><span data-stu-id="39708-162">To access task guides, click the Help button on any page.</span></span>
 
-#### <a name="videos"></a><span data-ttu-id="b10eb-163">Vídeos</span><span class="sxs-lookup"><span data-stu-id="b10eb-163">Videos</span></span>
+#### <a name="videos"></a><span data-ttu-id="39708-163">Vídeos</span><span class="sxs-lookup"><span data-stu-id="39708-163">Videos</span></span>
 
-<span data-ttu-id="b10eb-164">Confira os vídeos de instruções que agora estão disponíveis no [canal do Microsoft Dynamics 365 no YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="b10eb-164">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
+<span data-ttu-id="39708-164">Confira os vídeos de instruções que agora estão disponíveis no [canal do Microsoft Dynamics 365 no YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="39708-164">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
 
 
 
