@@ -3,7 +3,7 @@ title: Designer de fórmulas no relatório eletrônico (ER)
 description: Este tópico explica como usar o designer de fórmulas no ER (Relatório Eletrônico).
 author: NickSelin
 manager: AnnBe
-ms.date: 10/03/2018
+ms.date: 05/14/2014
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: dc02d51cedc7f732601c77c0ba5b473272fbccb4
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "331267"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "1541259"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Designer de fórmulas no relatório eletrônico (ER)
 
@@ -440,12 +440,17 @@ IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 <td>Retorna a lista especificada depois que a consulta foi modificada para filtrar a condição especificada. Esta função difere da função <strong>WHERE</strong> porque a condição especificada é aplicada à fonte de dados do ER do tipo de <strong>Registros da tabela</strong> em nível de banco de dados. A lista e a condição podem ser definidas usando tabelas e relações.</td>
 <td>Se <strong>Fornecedor</strong> for configurado como uma fonte de dados de ER que se refere à tabela VendTable, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> retorna uma lista de fornecedores que pertencem ao grupo do fornecedor 40. Se <strong>Fornecedor</strong> estiver configurado como uma fonte de dados de ER que se refira à tabela VendTable e se <strong>parmVendorBankGroup</strong> estiver configurado como uma fonte de dados de ER que retorne um valor do tipo de dados <strong>String</strong>, <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> retornará uma lista com apenas as contas de fornecedor que pertençam a um grupo de bancos específico.</td>
 </tr>
+<tr>
+<td>ÍNDICE (lista, índice)</td>
+<td>Essa função retorna um registro que é selecionado por um índice numérico específico na lista. A exceção é jogada se o índice estiver fora do intervalo dos registros na lista.</td>
+<td>Se você inserir as fontes de dados <strong>DS</strong> para o tipo <strong>Campo calculado</strong> e ele conter a expressão <strong>SPLIT ("A|B|C", “|”), 2)</strong>, a expressão <strong>DS.Value</strong> retorna o valor de texto, “B”. A expressão <strong>INDEX (SPLIT ("A|B|C", “|”), 2).Value</strong> também retorna o valor de texto “B”.</td>
+</tr>
 </tbody>
 </table>
 
 ### <a name="logical-functions"></a>Funções lógicas
 
-| Função | descrição | Exemplo |
+| Função | Descrição | Exemplo |
 |----------|-------------|---------|
 | CASE (expression, option 1, result 1 \[, option 2, result 2\] … \[, default result\]) | Avalia o valor especificado da expressão com as opções alternativas especificadas. Devolve o resultado da opção que é igual ao valor da expressão. Caso contrário, retorna o resultado padrão opcional, se um resultado padrão for especificado. (O resultado padrão é o último parâmetro que não é precedido por uma opção.) | **CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")** devolve a cadeia de caracteres **"WINTER"** quando a data da sessão atual do Finance and Operations está entre outubro e dezembro. Caso contrário, retorna uma cadeia de caracteres em branco. |
 | IF (condição, valor 1, valor 2) | Retorna o primeiro valor especificado quando a condição especificada é atendida. Caso contrário, retorna o segundo valor especificado. Se o valor 1 e o valor 2 são registros ou listas de registro, o resultado tem somente os campos que existem em ambas as listas. | **IF (1=2, "condição é alcançada", "condição não é alcançada")** devolve a cadeia **"condição não é alcançada"**. |

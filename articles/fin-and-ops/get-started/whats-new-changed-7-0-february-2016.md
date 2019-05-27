@@ -18,11 +18,11 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cdd8acea22fb3298d1d0e7ccce0ca42c1427fe80
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "334878"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561800"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Novidades ou alterações no Dynamics AX 7.0 (fevereiro de 2016)
 
@@ -115,7 +115,7 @@ Esse recurso funciona independentemente dos métodos de avaliação de custo atr
 | O que você pode fazer? | Dynamics AX 2012 | Dynamics AX 7.0 | Por que isso é importante? |
 |------------------|------------------|-----------------|------------------------|
 | Crie soluções baseadas na Web na nuvem que possam ser acessadas em muitos dispositivos. | Não disponível | A versão atual do Dynamics AX baseia-se em um novo cliente baseado na Web e estrutura de cliente. | Você pode fornecer a próxima geração de soluções a seus usuários finais. |
-| Use o Microsoft Visual Studio para desenvolver suas soluções. | O Microsoft MorphX é o principal ambiente de desenvolvimento, mas uma parte do desenvolvimento ocorre no Visual Studio. | Visual Studio é o único ambiente de desenvolvimento. | Ele mantém conceitos familiares ao DynamicsAX 2012, adaptando-os perfeitamente à estrutura e aos paradigmas do Visual Studio. Permite a interoperabilidade padrão com outros projetos e linguagens .NET. |
+| Use o Microsoft Visual Studio para desenvolver suas soluções. | O Microsoft MorphX é o principal ambiente de desenvolvimento, mas uma parte do desenvolvimento ocorre no Visual Studio. | Visual Studio é o único ambiente de desenvolvimento. | Ele mantém conceitos familiares ao Dynamics AX 2012, adaptando-os perfeitamente à estrutura e aos paradigmas do Visual Studio. Permite a interoperabilidade padrão com outros projetos e linguagens .NET. |
 | Compile o CIL (Common Intermediate Language) para outros recursos. | X++ é compilado para p-code. | O novo compilador X++ gera CIL para todos os recursos. A CIL é a mesma linguagem intermediária usada por outras linguagens baseadas em .NET. | A CIL é mais rápida, pode referenciar eficientemente as classes nas bibliotecas de link dinâmico (DLLs) gerenciadas e pode ser executada em uma ampla base de ferramentas de utilitários .NET. |
 | Relatórios e visualizações de BI integrados no cliente do Microsoft Dynamics AX. | Não disponível | Crie visualizações altamente intuitivas e fluidas. | Fornece informações para tomada de decisão baseadas em BI. |
 | Integrar ao Microsoft Office. | Não disponível | Os novos recursos incluem o aplicativo Excel Data Connector, a página **Designer de pastas de trabalho**, Export API e Gerenciamento de documentos. | É possível criar soluções de produtividade para seus usuários finais. |
