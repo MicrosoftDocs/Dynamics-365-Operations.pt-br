@@ -17,33 +17,33 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9e3b945b9b2c00ac4ec703db4fdafdcfb13b3412
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "335016"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1571598"
 ---
-# <a name="create-consolidation-groups-and-additional-consolidation-accounts"></a><span data-ttu-id="69c20-103">Criar grupos de consolidação e contas de consolidação adicionais</span><span class="sxs-lookup"><span data-stu-id="69c20-103">Create consolidation groups and additional consolidation accounts</span></span>
+# <a name="create-consolidation-groups-and-additional-consolidation-accounts"></a><span data-ttu-id="dce46-103">Criar grupos de consolidação e contas de consolidação adicionais</span><span class="sxs-lookup"><span data-stu-id="dce46-103">Create consolidation groups and additional consolidation accounts</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="69c20-104">Este procedimento mostra como criar um grupo de contas de consolidação e depois adicionar contas ao grupo.</span><span class="sxs-lookup"><span data-stu-id="69c20-104">This procedure shows how to create a consolidation account group and then add accounts to the group.</span></span> <span data-ttu-id="69c20-105">Este procedimento usa a empresa de dados de demonstração USMF.</span><span class="sxs-lookup"><span data-stu-id="69c20-105">This procedure uses the demo data company USMF.</span></span>
+<span data-ttu-id="dce46-104">Este procedimento mostra como criar um grupo de contas de consolidação e depois adicionar contas ao grupo.</span><span class="sxs-lookup"><span data-stu-id="dce46-104">This procedure shows how to create a consolidation account group and then add accounts to the group.</span></span> <span data-ttu-id="dce46-105">Este procedimento usa a empresa de dados de demonstração USMF.</span><span class="sxs-lookup"><span data-stu-id="dce46-105">This procedure uses the demo data company USMF.</span></span>
 
 
-## <a name="create-a-consolidation-account-group"></a><span data-ttu-id="69c20-106">Criar um grupo de contas de consolidação</span><span class="sxs-lookup"><span data-stu-id="69c20-106">Create a consolidation account group</span></span>
-1. <span data-ttu-id="69c20-107">Vá para Contabilidade > Plano de contas > Contas > Grupos de contas de consolidação.</span><span class="sxs-lookup"><span data-stu-id="69c20-107">Go to General ledger > Chart of accounts > Accounts > Consolidation account groups.</span></span>
-2. <span data-ttu-id="69c20-108">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="69c20-108">Click New.</span></span>
-3. <span data-ttu-id="69c20-109">No campo Grupo de contas de consolidação, insira um identificador exclusivo para o grupo de contas de consolidação.</span><span class="sxs-lookup"><span data-stu-id="69c20-109">In the Consolidation account group field, enter a unique identifier for the consolidation account group.</span></span>
-4. <span data-ttu-id="69c20-110">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="69c20-110">In the Name field, type a value.</span></span>
+## <a name="create-a-consolidation-account-group"></a><span data-ttu-id="dce46-106">Criar um grupo de contas de consolidação</span><span class="sxs-lookup"><span data-stu-id="dce46-106">Create a consolidation account group</span></span>
+1. <span data-ttu-id="dce46-107">Vá para Contabilidade > Plano de contas > Contas > Grupos de contas de consolidação.</span><span class="sxs-lookup"><span data-stu-id="dce46-107">Go to General ledger > Chart of accounts > Accounts > Consolidation account groups.</span></span>
+2. <span data-ttu-id="dce46-108">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="dce46-108">Click New.</span></span>
+3. <span data-ttu-id="dce46-109">No campo Grupo de contas de consolidação, insira um identificador exclusivo para o grupo de contas de consolidação.</span><span class="sxs-lookup"><span data-stu-id="dce46-109">In the Consolidation account group field, enter a unique identifier for the consolidation account group.</span></span>
+4. <span data-ttu-id="dce46-110">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="dce46-110">In the Name field, type a value.</span></span>
 
-## <a name="add-accounts-to-consolidation-account-group"></a><span data-ttu-id="69c20-111">Adicionar contas ao grupo de contas de consolidação</span><span class="sxs-lookup"><span data-stu-id="69c20-111">Add accounts to consolidation account group</span></span>
-1. <span data-ttu-id="69c20-112">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="69c20-112">Close the page.</span></span>
-2. <span data-ttu-id="69c20-113">Vá para Contabilidade > Plano de contas > Contas > Contas de consolidação adicionais.</span><span class="sxs-lookup"><span data-stu-id="69c20-113">Go to General ledger > Chart of accounts > Accounts > Additional consolidation accounts.</span></span>
-3. <span data-ttu-id="69c20-114">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="69c20-114">Click New.</span></span>
-4. <span data-ttu-id="69c20-115">No campo Conta principal, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="69c20-115">In the Main account field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="69c20-116">Na lista, clique na conta principal que deseja mapear.</span><span class="sxs-lookup"><span data-stu-id="69c20-116">In the list, click the main account that you want to map.</span></span>
-6. <span data-ttu-id="69c20-117">No campo Grupo de contas de consolidação, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="69c20-117">In the Consolidation account group field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="69c20-118">Na lista, clique no grupo de contas de consolidação.</span><span class="sxs-lookup"><span data-stu-id="69c20-118">In the list, click the consolidation account group.</span></span>
-8. <span data-ttu-id="69c20-119">No campo Conta de consolidação, insira um valor.</span><span class="sxs-lookup"><span data-stu-id="69c20-119">In the Consolidation account field, type a value.</span></span>
-9. <span data-ttu-id="69c20-120">No campo Nome da conta de consolidação, insira um valor.</span><span class="sxs-lookup"><span data-stu-id="69c20-120">In the Consolidation account name field, type a value.</span></span>
+## <a name="add-accounts-to-consolidation-account-group"></a><span data-ttu-id="dce46-111">Adicionar contas ao grupo de contas de consolidação</span><span class="sxs-lookup"><span data-stu-id="dce46-111">Add accounts to consolidation account group</span></span>
+1. <span data-ttu-id="dce46-112">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="dce46-112">Close the page.</span></span>
+2. <span data-ttu-id="dce46-113">Vá para Contabilidade > Plano de contas > Contas > Contas de consolidação adicionais.</span><span class="sxs-lookup"><span data-stu-id="dce46-113">Go to General ledger > Chart of accounts > Accounts > Additional consolidation accounts.</span></span>
+3. <span data-ttu-id="dce46-114">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="dce46-114">Click New.</span></span>
+4. <span data-ttu-id="dce46-115">No campo Conta principal, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="dce46-115">In the Main account field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="dce46-116">Na lista, clique na conta principal que deseja mapear.</span><span class="sxs-lookup"><span data-stu-id="dce46-116">In the list, click the main account that you want to map.</span></span>
+6. <span data-ttu-id="dce46-117">No campo Grupo de contas de consolidação, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="dce46-117">In the Consolidation account group field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="dce46-118">Na lista, clique no grupo de contas de consolidação.</span><span class="sxs-lookup"><span data-stu-id="dce46-118">In the list, click the consolidation account group.</span></span>
+8. <span data-ttu-id="dce46-119">No campo Conta de consolidação, insira um valor.</span><span class="sxs-lookup"><span data-stu-id="dce46-119">In the Consolidation account field, type a value.</span></span>
+9. <span data-ttu-id="dce46-120">No campo Nome da conta de consolidação, insira um valor.</span><span class="sxs-lookup"><span data-stu-id="dce46-120">In the Consolidation account name field, type a value.</span></span>
 
