@@ -18,44 +18,44 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 8d252982cf1e4fa2f06646d0909e6f82d16f4cfc
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "355509"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1548499"
 ---
-# <a name="category-pricing-rules-to-create-trade-agreements"></a><span data-ttu-id="f3327-103">Regras de preços de categoria para criar contratos comerciais</span><span class="sxs-lookup"><span data-stu-id="f3327-103">Category pricing rules to create trade agreements</span></span>
+# <a name="category-pricing-rules-to-create-trade-agreements"></a><span data-ttu-id="1ff81-103">Regras de preços de categoria para criar contratos comerciais</span><span class="sxs-lookup"><span data-stu-id="1ff81-103">Category pricing rules to create trade agreements</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="f3327-104">Este procedimento mostra como criar contratos comerciais de preço de vendas usando uma regra de definição de preços de categoria.</span><span class="sxs-lookup"><span data-stu-id="f3327-104">This procedure demonstrates how to create sales price trade agreements using a category pricing rule.</span></span> <span data-ttu-id="f3327-105">A empresa de dados de demonstração usada para criar esta tarefa é USRT.</span><span class="sxs-lookup"><span data-stu-id="f3327-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="f3327-106">Esta tarefa é destinada à função de gerente de mercadorias de varejo.</span><span class="sxs-lookup"><span data-stu-id="f3327-106">This task is intended for the Retail merchandising manager role.</span></span>
+<span data-ttu-id="1ff81-104">Este procedimento mostra como criar contratos comerciais de preço de vendas usando uma regra de definição de preços de categoria.</span><span class="sxs-lookup"><span data-stu-id="1ff81-104">This procedure demonstrates how to create sales price trade agreements using a category pricing rule.</span></span> <span data-ttu-id="1ff81-105">A empresa de dados de demonstração usada para criar esta tarefa é USRT.</span><span class="sxs-lookup"><span data-stu-id="1ff81-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="1ff81-106">Esta tarefa é destinada à função de gerente de mercadorias de varejo.</span><span class="sxs-lookup"><span data-stu-id="1ff81-106">This task is intended for the Retail merchandising manager role.</span></span>
 
-1. <span data-ttu-id="f3327-107">Clique em Gerenciamento de preços e descontos.</span><span class="sxs-lookup"><span data-stu-id="f3327-107">Click Pricing and discount management.</span></span>
-2. <span data-ttu-id="f3327-108">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="f3327-108">Click New.</span></span>
-3. <span data-ttu-id="f3327-109">Clique em Regra de preço de categoria.</span><span class="sxs-lookup"><span data-stu-id="f3327-109">Click Category price rule.</span></span>
-4. <span data-ttu-id="f3327-110">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="f3327-110">In the list, mark the selected row.</span></span>
-5. <span data-ttu-id="f3327-111">No campo Código da conta, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="f3327-111">In the Account code field, select an option.</span></span>
-    * <span data-ttu-id="f3327-112">Um código de conta do tipo "Grupo" é usado para configurar contratos comerciais de preço de venda específicos para Canais, programas de Fidelidade, Catálogos e Afiliações.</span><span class="sxs-lookup"><span data-stu-id="f3327-112">A "Group" type account code is used to set up sales price trade agreements that are specific for Channels, Loyalty programs, Catalogs, and Affiliations.</span></span>  
-6. <span data-ttu-id="f3327-113">No campo Seleção de contas, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="f3327-113">In the Account selection field, enter or select a value.</span></span>
-7. <span data-ttu-id="f3327-114">No campo Categoria, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="f3327-114">In the Category field, enter or select a value.</span></span>
-8. <span data-ttu-id="f3327-115">No campo Valor/Percentual, insira um número.</span><span class="sxs-lookup"><span data-stu-id="f3327-115">In the Amount/Percent field, enter a number.</span></span>
-9. <span data-ttu-id="f3327-116">No campo Versão de arredondamento, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="f3327-116">In the Rounding version field, enter or select a value.</span></span>
-10. <span data-ttu-id="f3327-117">Clique em Gerar contratos comerciais.</span><span class="sxs-lookup"><span data-stu-id="f3327-117">Click Generate trade agreements.</span></span>
-11. <span data-ttu-id="f3327-118">Clique em Avançar.</span><span class="sxs-lookup"><span data-stu-id="f3327-118">Click Next.</span></span>
-12. <span data-ttu-id="f3327-119">No campo De data, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="f3327-119">In the From date field, enter a date.</span></span>
-13. <span data-ttu-id="f3327-120">No campo Para data, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="f3327-120">In the To date field, enter a date.</span></span>
-14. <span data-ttu-id="f3327-121">Selecione Sim no campo Localizar próximo.</span><span class="sxs-lookup"><span data-stu-id="f3327-121">Select Yes in the Find next field.</span></span>
-15. <span data-ttu-id="f3327-122">Clique em Avançar.</span><span class="sxs-lookup"><span data-stu-id="f3327-122">Click Next.</span></span>
-16. <span data-ttu-id="f3327-123">Clique em Finish (Concluir).</span><span class="sxs-lookup"><span data-stu-id="f3327-123">Click Finish.</span></span>
-    * <span data-ttu-id="f3327-124">Isso cria e abre um diário de contrato comercial para revisão.</span><span class="sxs-lookup"><span data-stu-id="f3327-124">This creates a Trade agreement journal and opens it for your review.</span></span>  
-17. <span data-ttu-id="f3327-125">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="f3327-125">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="f3327-126">Os diários de contratos comerciais criados das regras de definição de preços de categoria não são lançados.</span><span class="sxs-lookup"><span data-stu-id="f3327-126">The trade agreement journals created from the Category pricing rules aren't posted.</span></span> <span data-ttu-id="f3327-127">Você pode revisar e editar os preços produzidos antes de lançá-los.</span><span class="sxs-lookup"><span data-stu-id="f3327-127">You can  review and edit the prices generated before posting them.</span></span>  
-18. <span data-ttu-id="f3327-128">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="f3327-128">Click Edit.</span></span>
-19. <span data-ttu-id="f3327-129">No campo Valor em moeda, insira um número.</span><span class="sxs-lookup"><span data-stu-id="f3327-129">In the Amount in currency field, enter a number.</span></span>
-20. <span data-ttu-id="f3327-130">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="f3327-130">Click Post.</span></span>
-21. <span data-ttu-id="f3327-131">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="f3327-131">Click OK.</span></span>
-22. <span data-ttu-id="f3327-132">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="f3327-132">Close the page.</span></span>
-23. <span data-ttu-id="f3327-133">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="f3327-133">Close the page.</span></span>
-24. <span data-ttu-id="f3327-134">Clique na guia Regras de preço de categoria.</span><span class="sxs-lookup"><span data-stu-id="f3327-134">Click the Category price rules tab.</span></span>
-    * <span data-ttu-id="f3327-135">As regras de definição de preços específicas da categoria do canal serão mostradas nesta lista.</span><span class="sxs-lookup"><span data-stu-id="f3327-135">Channel specific Category pricing rules will show in this list.</span></span>  
+1. <span data-ttu-id="1ff81-107">Clique em Gerenciamento de preços e descontos.</span><span class="sxs-lookup"><span data-stu-id="1ff81-107">Click Pricing and discount management.</span></span>
+2. <span data-ttu-id="1ff81-108">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="1ff81-108">Click New.</span></span>
+3. <span data-ttu-id="1ff81-109">Clique em Regra de preço de categoria.</span><span class="sxs-lookup"><span data-stu-id="1ff81-109">Click Category price rule.</span></span>
+4. <span data-ttu-id="1ff81-110">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="1ff81-110">In the list, mark the selected row.</span></span>
+5. <span data-ttu-id="1ff81-111">No campo Código da conta, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="1ff81-111">In the Account code field, select an option.</span></span>
+    * <span data-ttu-id="1ff81-112">Um código de conta do tipo "Grupo" é usado para configurar contratos comerciais de preço de venda específicos para Canais, programas de Fidelidade, Catálogos e Afiliações.</span><span class="sxs-lookup"><span data-stu-id="1ff81-112">A "Group" type account code is used to set up sales price trade agreements that are specific for Channels, Loyalty programs, Catalogs, and Affiliations.</span></span>  
+6. <span data-ttu-id="1ff81-113">No campo Seleção de contas, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="1ff81-113">In the Account selection field, enter or select a value.</span></span>
+7. <span data-ttu-id="1ff81-114">No campo Categoria, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="1ff81-114">In the Category field, enter or select a value.</span></span>
+8. <span data-ttu-id="1ff81-115">No campo Valor/Percentual, insira um número.</span><span class="sxs-lookup"><span data-stu-id="1ff81-115">In the Amount/Percent field, enter a number.</span></span>
+9. <span data-ttu-id="1ff81-116">No campo Versão de arredondamento, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="1ff81-116">In the Rounding version field, enter or select a value.</span></span>
+10. <span data-ttu-id="1ff81-117">Clique em Gerar contratos comerciais.</span><span class="sxs-lookup"><span data-stu-id="1ff81-117">Click Generate trade agreements.</span></span>
+11. <span data-ttu-id="1ff81-118">Clique em Avançar.</span><span class="sxs-lookup"><span data-stu-id="1ff81-118">Click Next.</span></span>
+12. <span data-ttu-id="1ff81-119">No campo De data, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="1ff81-119">In the From date field, enter a date.</span></span>
+13. <span data-ttu-id="1ff81-120">No campo Para data, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="1ff81-120">In the To date field, enter a date.</span></span>
+14. <span data-ttu-id="1ff81-121">Selecione Sim no campo Localizar próximo.</span><span class="sxs-lookup"><span data-stu-id="1ff81-121">Select Yes in the Find next field.</span></span>
+15. <span data-ttu-id="1ff81-122">Clique em Avançar.</span><span class="sxs-lookup"><span data-stu-id="1ff81-122">Click Next.</span></span>
+16. <span data-ttu-id="1ff81-123">Clique em Finish (Concluir).</span><span class="sxs-lookup"><span data-stu-id="1ff81-123">Click Finish.</span></span>
+    * <span data-ttu-id="1ff81-124">Isso cria e abre um diário de contrato comercial para revisão.</span><span class="sxs-lookup"><span data-stu-id="1ff81-124">This creates a Trade agreement journal and opens it for your review.</span></span>  
+17. <span data-ttu-id="1ff81-125">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="1ff81-125">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="1ff81-126">Os diários de contratos comerciais criados das regras de definição de preços de categoria não são lançados.</span><span class="sxs-lookup"><span data-stu-id="1ff81-126">The trade agreement journals created from the Category pricing rules aren't posted.</span></span> <span data-ttu-id="1ff81-127">Você pode revisar e editar os preços produzidos antes de lançá-los.</span><span class="sxs-lookup"><span data-stu-id="1ff81-127">You can  review and edit the prices generated before posting them.</span></span>  
+18. <span data-ttu-id="1ff81-128">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="1ff81-128">Click Edit.</span></span>
+19. <span data-ttu-id="1ff81-129">No campo Valor em moeda, insira um número.</span><span class="sxs-lookup"><span data-stu-id="1ff81-129">In the Amount in currency field, enter a number.</span></span>
+20. <span data-ttu-id="1ff81-130">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="1ff81-130">Click Post.</span></span>
+21. <span data-ttu-id="1ff81-131">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="1ff81-131">Click OK.</span></span>
+22. <span data-ttu-id="1ff81-132">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="1ff81-132">Close the page.</span></span>
+23. <span data-ttu-id="1ff81-133">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="1ff81-133">Close the page.</span></span>
+24. <span data-ttu-id="1ff81-134">Clique na guia Regras de preço de categoria.</span><span class="sxs-lookup"><span data-stu-id="1ff81-134">Click the Category price rules tab.</span></span>
+    * <span data-ttu-id="1ff81-135">As regras de definição de preços específicas da categoria do canal serão mostradas nesta lista.</span><span class="sxs-lookup"><span data-stu-id="1ff81-135">Channel specific Category pricing rules will show in this list.</span></span>  
 

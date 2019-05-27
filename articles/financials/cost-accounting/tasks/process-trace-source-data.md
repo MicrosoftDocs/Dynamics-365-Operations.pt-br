@@ -16,32 +16,32 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e476416420875ba0f2401cf251d34977ae84b8f5
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "322596"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1546515"
 ---
-# <a name="process-and-trace-source-data"></a><span data-ttu-id="cc093-103">Processar e rastrear dados de origem</span><span class="sxs-lookup"><span data-stu-id="cc093-103">Process and trace source data</span></span>
+# <a name="process-and-trace-source-data"></a><span data-ttu-id="0f061-103">Processar e rastrear dados de origem</span><span class="sxs-lookup"><span data-stu-id="0f061-103">Process and trace source data</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="cc093-104">Todo o processamento de dados é executado por trabalhos.</span><span class="sxs-lookup"><span data-stu-id="cc093-104">All data processing is run by jobs.</span></span> <span data-ttu-id="cc093-105">Para cada trabalho e provedor de dados, é criado um diário para documentar que o processo foi executado, e que as entradas foram processadas no trabalho atual.</span><span class="sxs-lookup"><span data-stu-id="cc093-105">For each job and data provider, a journal is created to document that the process has been run, and that the entries were processed in the current job.</span></span> <span data-ttu-id="cc093-106">Use este procedimento para configurar uma fonte de dados e para rastrear a origem de uma entrada de custos específica.</span><span class="sxs-lookup"><span data-stu-id="cc093-106">Use this procedure to set up a data source and then  trace the origin of a specific cost entry.</span></span> <span data-ttu-id="cc093-107">Esta gravação usa os dados da empresa de demonstração USP2.</span><span class="sxs-lookup"><span data-stu-id="cc093-107">This recording uses the USP2 demo data company USP2.</span></span> <span data-ttu-id="cc093-108">Antes de concluir esta tarefa, certifique-se de que executou os guias de tarefas "Criar um razão de contabilização de custos" e "Definir unidades de controle de custos".</span><span class="sxs-lookup"><span data-stu-id="cc093-108">Before you complete this task, make sure that you play the following task guides: "Create a cost accounting ledger," "Define cost control units," and "Manage data source for the cost accounting ledger."</span></span>
+<span data-ttu-id="0f061-104">Todo o processamento de dados é executado por trabalhos.</span><span class="sxs-lookup"><span data-stu-id="0f061-104">All data processing is run by jobs.</span></span> <span data-ttu-id="0f061-105">Para cada trabalho e provedor de dados, é criado um diário para documentar que o processo foi executado, e que as entradas foram processadas no trabalho atual.</span><span class="sxs-lookup"><span data-stu-id="0f061-105">For each job and data provider, a journal is created to document that the process has been run, and that the entries were processed in the current job.</span></span> <span data-ttu-id="0f061-106">Use este procedimento para configurar uma fonte de dados e para rastrear a origem de uma entrada de custos específica.</span><span class="sxs-lookup"><span data-stu-id="0f061-106">Use this procedure to set up a data source and then  trace the origin of a specific cost entry.</span></span> <span data-ttu-id="0f061-107">Esta gravação usa os dados da empresa de demonstração USP2.</span><span class="sxs-lookup"><span data-stu-id="0f061-107">This recording uses the USP2 demo data company USP2.</span></span> <span data-ttu-id="0f061-108">Antes de concluir esta tarefa, certifique-se de que executou os guias de tarefas "Criar um razão de contabilização de custos" e "Definir unidades de controle de custos".</span><span class="sxs-lookup"><span data-stu-id="0f061-108">Before you complete this task, make sure that you play the following task guides: "Create a cost accounting ledger," "Define cost control units," and "Manage data source for the cost accounting ledger."</span></span>
 
-1. <span data-ttu-id="cc093-109">Vá para Contabilização de custos > Configuração do razão > Razões de contabilização de custos.</span><span class="sxs-lookup"><span data-stu-id="cc093-109">Go to Cost accounting > Ledger setup > Cost accounting ledgers.</span></span>
-2. <span data-ttu-id="cc093-110">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="cc093-110">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="cc093-111">Selecione o razão de contabilização de custo criado anteriormente.</span><span class="sxs-lookup"><span data-stu-id="cc093-111">Select the cost accounting ledger that you created earlier.</span></span>  
-3. <span data-ttu-id="cc093-112">Clique em Versões reais.</span><span class="sxs-lookup"><span data-stu-id="cc093-112">Click Actual versions.</span></span>
-4. <span data-ttu-id="cc093-113">No Painel de Ação, clique em Processamento de dados de origem.</span><span class="sxs-lookup"><span data-stu-id="cc093-113">On the Action Pane, click Source data processing.</span></span>
-5. <span data-ttu-id="cc093-114">Clique em Diários de transferência de entradas de contabilidade.</span><span class="sxs-lookup"><span data-stu-id="cc093-114">Click General ledger entry transfer journals.</span></span>
-6. <span data-ttu-id="cc093-115">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="cc093-115">In the list, find and select the desired record.</span></span>
-7. <span data-ttu-id="cc093-116">Clique em Entradas de Diário.</span><span class="sxs-lookup"><span data-stu-id="cc093-116">Click Journal entries.</span></span>
-8. <span data-ttu-id="cc093-117">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="cc093-117">In the list, mark the selected row.</span></span>
-9. <span data-ttu-id="cc093-118">Clique em Entradas de custo.</span><span class="sxs-lookup"><span data-stu-id="cc093-118">Click Cost entries.</span></span>
-10. <span data-ttu-id="cc093-119">Clique em Entrada de origem.</span><span class="sxs-lookup"><span data-stu-id="cc093-119">Click Source entry.</span></span>
-11. <span data-ttu-id="cc093-120">No Painel de Ação, clique em Processamento de dados de origem.</span><span class="sxs-lookup"><span data-stu-id="cc093-120">On the Action Pane, click Source data processing.</span></span>
-12. <span data-ttu-id="cc093-121">Clique em Contabilidade.</span><span class="sxs-lookup"><span data-stu-id="cc093-121">Click General ledger.</span></span>
-13. <span data-ttu-id="cc093-122">No campo Período do calendário fiscal, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="cc093-122">In the Fiscal calendar period field, enter or select a value.</span></span>
-    * <span data-ttu-id="cc093-123">Para este exemplo, selecione 9, Período Fiscal 2017.</span><span class="sxs-lookup"><span data-stu-id="cc093-123">For this example, select Fiscal 2017 Period 9.</span></span>  
-14. <span data-ttu-id="cc093-124">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="cc093-124">Click OK.</span></span>
+1. <span data-ttu-id="0f061-109">Vá para Contabilização de custos > Configuração do razão > Razões de contabilização de custos.</span><span class="sxs-lookup"><span data-stu-id="0f061-109">Go to Cost accounting > Ledger setup > Cost accounting ledgers.</span></span>
+2. <span data-ttu-id="0f061-110">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="0f061-110">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="0f061-111">Selecione o razão de contabilização de custo criado anteriormente.</span><span class="sxs-lookup"><span data-stu-id="0f061-111">Select the cost accounting ledger that you created earlier.</span></span>  
+3. <span data-ttu-id="0f061-112">Clique em Versões reais.</span><span class="sxs-lookup"><span data-stu-id="0f061-112">Click Actual versions.</span></span>
+4. <span data-ttu-id="0f061-113">No Painel de Ação, clique em Processamento de dados de origem.</span><span class="sxs-lookup"><span data-stu-id="0f061-113">On the Action Pane, click Source data processing.</span></span>
+5. <span data-ttu-id="0f061-114">Clique em Diários de transferência de entradas de contabilidade.</span><span class="sxs-lookup"><span data-stu-id="0f061-114">Click General ledger entry transfer journals.</span></span>
+6. <span data-ttu-id="0f061-115">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="0f061-115">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="0f061-116">Clique em Entradas de Diário.</span><span class="sxs-lookup"><span data-stu-id="0f061-116">Click Journal entries.</span></span>
+8. <span data-ttu-id="0f061-117">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="0f061-117">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="0f061-118">Clique em Entradas de custo.</span><span class="sxs-lookup"><span data-stu-id="0f061-118">Click Cost entries.</span></span>
+10. <span data-ttu-id="0f061-119">Clique em Entrada de origem.</span><span class="sxs-lookup"><span data-stu-id="0f061-119">Click Source entry.</span></span>
+11. <span data-ttu-id="0f061-120">No Painel de Ação, clique em Processamento de dados de origem.</span><span class="sxs-lookup"><span data-stu-id="0f061-120">On the Action Pane, click Source data processing.</span></span>
+12. <span data-ttu-id="0f061-121">Clique em Contabilidade.</span><span class="sxs-lookup"><span data-stu-id="0f061-121">Click General ledger.</span></span>
+13. <span data-ttu-id="0f061-122">No campo Período do calendário fiscal, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="0f061-122">In the Fiscal calendar period field, enter or select a value.</span></span>
+    * <span data-ttu-id="0f061-123">Para este exemplo, selecione 9, Período Fiscal 2017.</span><span class="sxs-lookup"><span data-stu-id="0f061-123">For this example, select Fiscal 2017 Period 9.</span></span>  
+14. <span data-ttu-id="0f061-124">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="0f061-124">Click OK.</span></span>
 

@@ -18,79 +18,79 @@ ms.author: sarvanis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.openlocfilehash: 166d419f16866f699b96013222ce8da147a5ec21
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "315121"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1548710"
 ---
-# <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a><span data-ttu-id="ad834-103">Configurar o SQL Server Reporting Services para implantações locais</span><span class="sxs-lookup"><span data-stu-id="ad834-103">Configure SQL Server Reporting Services for on-premises deployments</span></span>
+# <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a><span data-ttu-id="77bae-103">Configurar o SQL Server Reporting Services para implantações locais</span><span class="sxs-lookup"><span data-stu-id="77bae-103">Configure SQL Server Reporting Services for on-premises deployments</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="ad834-104">Siga as etapas deste tópico para configurar o SSRS (SQL Server Reporting Services) para uma implantação local do Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="ad834-104">Use the steps in this topic to configure SQL Server Reporting Services (SSRS) for your Microsoft Dynamics 365 for Finance and Operations (on-premises) deployment.</span></span>
+<span data-ttu-id="77bae-104">Siga as etapas deste tópico para configurar o SSRS (SQL Server Reporting Services) para uma implantação local do Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="77bae-104">Use the steps in this topic to configure SQL Server Reporting Services (SSRS) for your Microsoft Dynamics 365 for Finance and Operations (on-premises) deployment.</span></span>
 
-1. <span data-ttu-id="ad834-105">Abra o aplicativo Gerenciador de configuração dos serviços de relatório.</span><span class="sxs-lookup"><span data-stu-id="ad834-105">Open the Reporting Services Configuration Manager application.</span></span>
-2. <span data-ttu-id="ad834-106">Deixe o **Nome do servidor** padrão, que deve ser o nome da máquina atual, e a **Instância do servidor de relatório**, **MSSQLSERVER**.</span><span class="sxs-lookup"><span data-stu-id="ad834-106">Leave the default **Server name**, which should be the name of the current machine, and the **Report Server Instance**, **MSSQLSERVER**.</span></span>
-3. <span data-ttu-id="ad834-107">Clique em **Conectar**.</span><span class="sxs-lookup"><span data-stu-id="ad834-107">Click **Connect**.</span></span>
+1. <span data-ttu-id="77bae-105">Abra o aplicativo Gerenciador de configuração dos serviços de relatório.</span><span class="sxs-lookup"><span data-stu-id="77bae-105">Open the Reporting Services Configuration Manager application.</span></span>
+2. <span data-ttu-id="77bae-106">Deixe o **Nome do servidor** padrão, que deve ser o nome da máquina atual, e a **Instância do servidor de relatório**, **MSSQLSERVER**.</span><span class="sxs-lookup"><span data-stu-id="77bae-106">Leave the default **Server name**, which should be the name of the current machine, and the **Report Server Instance**, **MSSQLSERVER**.</span></span>
+3. <span data-ttu-id="77bae-107">Clique em **Conectar**.</span><span class="sxs-lookup"><span data-stu-id="77bae-107">Click **Connect**.</span></span>
 
-    <span data-ttu-id="ad834-108">[![Conexão de configuração dos serviços de relatório](./media/ssrs-config-manager-01.png)](./media/ssrs-config-manager-01.png)</span><span class="sxs-lookup"><span data-stu-id="ad834-108">[![Reporting services configuration connection](./media/ssrs-config-manager-01.png)](./media/ssrs-config-manager-01.png)</span></span>
+    <span data-ttu-id="77bae-108">[![Conexão de configuração dos serviços de relatório](./media/ssrs-config-manager-01.png)](./media/ssrs-config-manager-01.png)</span><span class="sxs-lookup"><span data-stu-id="77bae-108">[![Reporting services configuration connection](./media/ssrs-config-manager-01.png)](./media/ssrs-config-manager-01.png)</span></span>
 
-4. <span data-ttu-id="ad834-109">Clique na guia **Conta de serviços** e verifique se as configurações correspondem ao gráfico a seguir.</span><span class="sxs-lookup"><span data-stu-id="ad834-109">Click the **Service Account** tab and verify that the settings match the following graphic.</span></span>
+4. <span data-ttu-id="77bae-109">Clique na guia **Conta de serviços** e verifique se as configurações correspondem ao gráfico a seguir.</span><span class="sxs-lookup"><span data-stu-id="77bae-109">Click the **Service Account** tab and verify that the settings match the following graphic.</span></span>
 
-    <span data-ttu-id="ad834-110">[![Guia de conta de serviços](./media/ssrs-config-manager-02.png)](./media/ssrs-config-manager-02.png)</span><span class="sxs-lookup"><span data-stu-id="ad834-110">[![Service account tab](./media/ssrs-config-manager-02.png)](./media/ssrs-config-manager-02.png)</span></span>
+    <span data-ttu-id="77bae-110">[![Guia de conta de serviços](./media/ssrs-config-manager-02.png)](./media/ssrs-config-manager-02.png)</span><span class="sxs-lookup"><span data-stu-id="77bae-110">[![Service account tab](./media/ssrs-config-manager-02.png)](./media/ssrs-config-manager-02.png)</span></span>
 
-5. <span data-ttu-id="ad834-111">Clique na guia **URL de Serviço Web** e verifique se as configurações correspondem ao gráfico a seguir.</span><span class="sxs-lookup"><span data-stu-id="ad834-111">Click the **Web Service URL** tab and verify that the settings match the following graphic.</span></span>
+5. <span data-ttu-id="77bae-111">Clique na guia **URL de Serviço Web** e verifique se as configurações correspondem ao gráfico a seguir.</span><span class="sxs-lookup"><span data-stu-id="77bae-111">Click the **Web Service URL** tab and verify that the settings match the following graphic.</span></span>
 
-    <span data-ttu-id="ad834-112">[![Guia da URL do serviço Web](./media/ssrs-config-manager-03.png)](./media/ssrs-config-manager-03.png)</span><span class="sxs-lookup"><span data-stu-id="ad834-112">[![Web service URL tab](./media/ssrs-config-manager-03.png)](./media/ssrs-config-manager-03.png)</span></span>
+    <span data-ttu-id="77bae-112">[![Guia da URL do serviço Web](./media/ssrs-config-manager-03.png)](./media/ssrs-config-manager-03.png)</span><span class="sxs-lookup"><span data-stu-id="77bae-112">[![Web service URL tab](./media/ssrs-config-manager-03.png)](./media/ssrs-config-manager-03.png)</span></span>
 
-6. <span data-ttu-id="ad834-113">Clique na guia **Banco de dados** e verifique se o **Nome do banco de dados** e as **Configurações credenciais** correspondem ao gráfico a seguir.</span><span class="sxs-lookup"><span data-stu-id="ad834-113">Click the **Database** tab and verify that the **Database Name** and **Credential settings** match the following graphic.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="ad834-114">Será necessário criar um novo banco de dados.</span><span class="sxs-lookup"><span data-stu-id="ad834-114">You will need to create a new database.</span></span> <span data-ttu-id="ad834-115">Para fazê-lo, clique em **Alterar Banco de Dados** e depois verifique se o nome do novo banco de dados é: **DynamicsAxReportServer**.</span><span class="sxs-lookup"><span data-stu-id="ad834-115">To do this, click **Change Database**, and then verify that the new database name is: **DynamicsAxReportServer**.</span></span>
-
-    <span data-ttu-id="ad834-116">[![Guia de banco de dados](./media/ssrs-config-manager-04.png)](./media/ssrs-config-manager-04.png)</span><span class="sxs-lookup"><span data-stu-id="ad834-116">[![database tab](./media/ssrs-config-manager-04.png)](./media/ssrs-config-manager-04.png)</span></span>
-
-7. <span data-ttu-id="ad834-117">Clique na guia **URL do Portal Web** e verifique se as configurações correspondem ao gráfico a seguir.</span><span class="sxs-lookup"><span data-stu-id="ad834-117">Click the **Web Portal URL** tab and verify that the settings match the following graphic.</span></span>
+6. <span data-ttu-id="77bae-113">Clique na guia **Banco de dados** e verifique se o **Nome do banco de dados** e as **Configurações credenciais** correspondem ao gráfico a seguir.</span><span class="sxs-lookup"><span data-stu-id="77bae-113">Click the **Database** tab and verify that the **Database Name** and **Credential settings** match the following graphic.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="ad834-118">Você deve clicar em **Aplicar** para criar e configurar adequadamente o portal.</span><span class="sxs-lookup"><span data-stu-id="ad834-118">You must click **Apply** to create and properly configure the Portal.</span></span>
+    > <span data-ttu-id="77bae-114">Será necessário criar um novo banco de dados.</span><span class="sxs-lookup"><span data-stu-id="77bae-114">You will need to create a new database.</span></span> <span data-ttu-id="77bae-115">Para fazê-lo, clique em **Alterar Banco de Dados** e depois verifique se o nome do novo banco de dados é: **DynamicsAxReportServer**.</span><span class="sxs-lookup"><span data-stu-id="77bae-115">To do this, click **Change Database**, and then verify that the new database name is: **DynamicsAxReportServer**.</span></span>
 
-    <span data-ttu-id="ad834-119">[![Guia da URL do Portal Web](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)</span><span class="sxs-lookup"><span data-stu-id="ad834-119">[![web portal url tab](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)</span></span>
+    <span data-ttu-id="77bae-116">[![Guia de banco de dados](./media/ssrs-config-manager-04.png)](./media/ssrs-config-manager-04.png)</span><span class="sxs-lookup"><span data-stu-id="77bae-116">[![database tab](./media/ssrs-config-manager-04.png)](./media/ssrs-config-manager-04.png)</span></span>
 
-    <span data-ttu-id="ad834-120">Após a configuração do portal, a guia **Portal da Web** corresponderá ao gráfico a seguir.</span><span class="sxs-lookup"><span data-stu-id="ad834-120">After the Portal is configured, the **Web Portal** tab will match the following graphic.</span></span>
+7. <span data-ttu-id="77bae-117">Clique na guia **URL do Portal Web** e verifique se as configurações correspondem ao gráfico a seguir.</span><span class="sxs-lookup"><span data-stu-id="77bae-117">Click the **Web Portal URL** tab and verify that the settings match the following graphic.</span></span>
 
-    <span data-ttu-id="ad834-121">[![guia do portal web](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)</span><span class="sxs-lookup"><span data-stu-id="ad834-121">[![web portal tab](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)</span></span>
+    > [!NOTE]
+    > <span data-ttu-id="77bae-118">Você deve clicar em **Aplicar** para criar e configurar adequadamente o portal.</span><span class="sxs-lookup"><span data-stu-id="77bae-118">You must click **Apply** to create and properly configure the Portal.</span></span>
 
-8. <span data-ttu-id="ad834-122">Clique na URL dos relatórios para exibir o portal Web SQL Server Reporting Services.</span><span class="sxs-lookup"><span data-stu-id="ad834-122">Click the reports URL to view the SQL Server Reporting Services web portal.</span></span>
-9. <span data-ttu-id="ad834-123">Quando estiver no portal, crie uma pasta nomeada **Dynamics**.</span><span class="sxs-lookup"><span data-stu-id="ad834-123">When you are in the portal, create a new folder named **Dynamics**.</span></span>
+    <span data-ttu-id="77bae-119">[![Guia da URL do Portal Web](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)</span><span class="sxs-lookup"><span data-stu-id="77bae-119">[![web portal url tab](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)</span></span>
 
-    <span data-ttu-id="ad834-124">[![pasta do Dynamics](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)</span><span class="sxs-lookup"><span data-stu-id="ad834-124">[![dynamics folder](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)</span></span>
+    <span data-ttu-id="77bae-120">Após a configuração do portal, a guia **Portal da Web** corresponderá ao gráfico a seguir.</span><span class="sxs-lookup"><span data-stu-id="77bae-120">After the Portal is configured, the **Web Portal** tab will match the following graphic.</span></span>
 
-10. <span data-ttu-id="ad834-125">No **Gerenciador de configuração dos serviços de relatório**, clique na guia **Configurações de Email** e verifique se as configurações correspondem ao gráfico a seguir.</span><span class="sxs-lookup"><span data-stu-id="ad834-125">In the **Reporting Services Configuration Manager**, click the **E-mail Settings** tab and verify that the settings match the following graphic.</span></span>
+    <span data-ttu-id="77bae-121">[![guia do portal web](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)</span><span class="sxs-lookup"><span data-stu-id="77bae-121">[![web portal tab](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)</span></span>
 
-    <span data-ttu-id="ad834-126">[![guia de configurações de email](./media/ssrs-config-manager-08.png)](./media/ssrs-config-manager-08.png)</span><span class="sxs-lookup"><span data-stu-id="ad834-126">[![email settings tab](./media/ssrs-config-manager-08.png)](./media/ssrs-config-manager-08.png)</span></span>
+8. <span data-ttu-id="77bae-122">Clique na URL dos relatórios para exibir o portal Web SQL Server Reporting Services.</span><span class="sxs-lookup"><span data-stu-id="77bae-122">Click the reports URL to view the SQL Server Reporting Services web portal.</span></span>
+9. <span data-ttu-id="77bae-123">Quando estiver no portal, crie uma pasta nomeada **Dynamics**.</span><span class="sxs-lookup"><span data-stu-id="77bae-123">When you are in the portal, create a new folder named **Dynamics**.</span></span>
 
-11. <span data-ttu-id="ad834-127">Clique na guia **Conta de execução** e verifique se as configurações correspondem ao gráfico a seguir.</span><span class="sxs-lookup"><span data-stu-id="ad834-127">Click the **Execution Account** tab and verify that the settings match the following graphic.</span></span>
+    <span data-ttu-id="77bae-124">[![pasta do Dynamics](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)</span><span class="sxs-lookup"><span data-stu-id="77bae-124">[![dynamics folder](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)</span></span>
 
-    <span data-ttu-id="ad834-128">[![guia da conta de execução](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)</span><span class="sxs-lookup"><span data-stu-id="ad834-128">[![execution account tab](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)</span></span>
+10. <span data-ttu-id="77bae-125">No **Gerenciador de configuração dos serviços de relatório**, clique na guia **Configurações de Email** e verifique se as configurações correspondem ao gráfico a seguir.</span><span class="sxs-lookup"><span data-stu-id="77bae-125">In the **Reporting Services Configuration Manager**, click the **E-mail Settings** tab and verify that the settings match the following graphic.</span></span>
 
-    <span data-ttu-id="ad834-129">Não altere as configurações padrão na guia **Chaves de Criptografia**.</span><span class="sxs-lookup"><span data-stu-id="ad834-129">Don't change the default settings on the **Encryption Keys** tab.</span></span>
+    <span data-ttu-id="77bae-126">[![guia de configurações de email](./media/ssrs-config-manager-08.png)](./media/ssrs-config-manager-08.png)</span><span class="sxs-lookup"><span data-stu-id="77bae-126">[![email settings tab](./media/ssrs-config-manager-08.png)](./media/ssrs-config-manager-08.png)</span></span>
 
-    <span data-ttu-id="ad834-130">[![guia de chaves de criptografia](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)</span><span class="sxs-lookup"><span data-stu-id="ad834-130">[![encryption keys tab](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)</span></span>
+11. <span data-ttu-id="77bae-127">Clique na guia **Conta de execução** e verifique se as configurações correspondem ao gráfico a seguir.</span><span class="sxs-lookup"><span data-stu-id="77bae-127">Click the **Execution Account** tab and verify that the settings match the following graphic.</span></span>
 
-12. <span data-ttu-id="ad834-131">Clique na guia **Configurações da assinatura** e verifique se as configurações correspondem ao gráfico a seguir.</span><span class="sxs-lookup"><span data-stu-id="ad834-131">Click the **Subscription Settings** tab, and verify that the settings match the following graphic.</span></span>
+    <span data-ttu-id="77bae-128">[![guia da conta de execução](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)</span><span class="sxs-lookup"><span data-stu-id="77bae-128">[![execution account tab](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)</span></span>
 
-    <span data-ttu-id="ad834-132">[![guia de configurações da assinatura](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)</span><span class="sxs-lookup"><span data-stu-id="ad834-132">[![subscription settings tab](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)</span></span>
+    <span data-ttu-id="77bae-129">Não altere as configurações padrão na guia **Chaves de Criptografia**.</span><span class="sxs-lookup"><span data-stu-id="77bae-129">Don't change the default settings on the **Encryption Keys** tab.</span></span>
 
-    <span data-ttu-id="ad834-133">Não altere as configurações padrão na guia **Implantação em Expansão**.</span><span class="sxs-lookup"><span data-stu-id="ad834-133">Don't change the default settings on the **Scale-out Deployment** tab.</span></span>
+    <span data-ttu-id="77bae-130">[![guia de chaves de criptografia](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)</span><span class="sxs-lookup"><span data-stu-id="77bae-130">[![encryption keys tab](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)</span></span>
 
-    <span data-ttu-id="ad834-134">[![guia de implantação em expansão](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)</span><span class="sxs-lookup"><span data-stu-id="ad834-134">[![scale-out deployment tab](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)</span></span>
+12. <span data-ttu-id="77bae-131">Clique na guia **Configurações da assinatura** e verifique se as configurações correspondem ao gráfico a seguir.</span><span class="sxs-lookup"><span data-stu-id="77bae-131">Click the **Subscription Settings** tab, and verify that the settings match the following graphic.</span></span>
 
-    <span data-ttu-id="ad834-135">Não altere as configurações padrão na guia **Integração do Power BI**.</span><span class="sxs-lookup"><span data-stu-id="ad834-135">Don't change the default settings on the **Power BI Integration** tab.</span></span>
+    <span data-ttu-id="77bae-132">[![guia de configurações da assinatura](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)</span><span class="sxs-lookup"><span data-stu-id="77bae-132">[![subscription settings tab](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)</span></span>
 
-    <span data-ttu-id="ad834-136">[![guia de integração do power bi](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)</span><span class="sxs-lookup"><span data-stu-id="ad834-136">[![power bi integration tab](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)</span></span>
+    <span data-ttu-id="77bae-133">Não altere as configurações padrão na guia **Implantação em Expansão**.</span><span class="sxs-lookup"><span data-stu-id="77bae-133">Don't change the default settings on the **Scale-out Deployment** tab.</span></span>
 
-13. <span data-ttu-id="ad834-137">Clique em **Sair** para fechar o **Gerenciador de configuração dos serviços de relatório**.</span><span class="sxs-lookup"><span data-stu-id="ad834-137">Click **Exit** to close the **Reporting Services Configuration Manager**.</span></span>
+    <span data-ttu-id="77bae-134">[![guia de implantação em expansão](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)</span><span class="sxs-lookup"><span data-stu-id="77bae-134">[![scale-out deployment tab](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)</span></span>
 
-    <span data-ttu-id="ad834-138">[![fechar o gerenciador de configuração dos serviços de relatório](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)</span><span class="sxs-lookup"><span data-stu-id="ad834-138">[![close reporting services configuration manager](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)</span></span>
+    <span data-ttu-id="77bae-135">Não altere as configurações padrão na guia **Integração do Power BI**.</span><span class="sxs-lookup"><span data-stu-id="77bae-135">Don't change the default settings on the **Power BI Integration** tab.</span></span>
+
+    <span data-ttu-id="77bae-136">[![guia de integração do power bi](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)</span><span class="sxs-lookup"><span data-stu-id="77bae-136">[![power bi integration tab](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)</span></span>
+
+13. <span data-ttu-id="77bae-137">Clique em **Sair** para fechar o **Gerenciador de configuração dos serviços de relatório**.</span><span class="sxs-lookup"><span data-stu-id="77bae-137">Click **Exit** to close the **Reporting Services Configuration Manager**.</span></span>
+
+    <span data-ttu-id="77bae-138">[![fechar o gerenciador de configuração dos serviços de relatório](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)</span><span class="sxs-lookup"><span data-stu-id="77bae-138">[![close reporting services configuration manager](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)</span></span>

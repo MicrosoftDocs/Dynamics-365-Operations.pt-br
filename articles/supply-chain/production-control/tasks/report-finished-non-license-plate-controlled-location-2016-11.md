@@ -18,47 +18,47 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 4da6868a2184a76c435efe824f4670504e1134e7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "344538"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1562918"
 ---
-# <a name="report-as-finished-to-a-non-license-plate-controlled-location--application-may-2016"></a><span data-ttu-id="772eb-103">Relatar como concluído para um local não controlado por placa de licença (solicitação de emprego, maio de 2016)</span><span class="sxs-lookup"><span data-stu-id="772eb-103">Report as finished to a non-license plate controlled location  (Application, May 2016)</span></span>
+# <a name="report-as-finished-to-a-non-license-plate-controlled-location--application-may-2016"></a><span data-ttu-id="bdd11-103">Relatar como concluído para um local não controlado por placa de licença (solicitação de emprego, maio de 2016)</span><span class="sxs-lookup"><span data-stu-id="bdd11-103">Report as finished to a non-license plate controlled location  (Application, May 2016)</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="772eb-104">Esta guia mostra um exemplo de tarefas do relatório de conclusão para um local que não seja controlado por placa de licença.</span><span class="sxs-lookup"><span data-stu-id="772eb-104">This task guide shows an example of reporting as finished to a location that isn't license plate–controlled.</span></span> <span data-ttu-id="772eb-105">Uma diretiva de trabalho aplicável é o pré-requisito para esta tarefa.</span><span class="sxs-lookup"><span data-stu-id="772eb-105">An applicable work policy is the prerequisite for this task.</span></span> <span data-ttu-id="772eb-106">Uma guia anterior da tarefa mostrou da instalação da diretiva de trabalho.</span><span class="sxs-lookup"><span data-stu-id="772eb-106">A previous task guide showed the setup of the work policy.</span></span> <span data-ttu-id="772eb-107">Essa guia da tarefa requer o aplicativo do Dynamics AX 7.0.1 ou posterior.</span><span class="sxs-lookup"><span data-stu-id="772eb-107">This task guide requires Dynamics AX application 7.0.1 or later.</span></span>
+<span data-ttu-id="bdd11-104">Esta guia mostra um exemplo de tarefas do relatório de conclusão para um local que não seja controlado por placa de licença.</span><span class="sxs-lookup"><span data-stu-id="bdd11-104">This task guide shows an example of reporting as finished to a location that isn't license plate–controlled.</span></span> <span data-ttu-id="bdd11-105">Uma diretiva de trabalho aplicável é o pré-requisito para esta tarefa.</span><span class="sxs-lookup"><span data-stu-id="bdd11-105">An applicable work policy is the prerequisite for this task.</span></span> <span data-ttu-id="bdd11-106">Uma guia anterior da tarefa mostrou da instalação da diretiva de trabalho.</span><span class="sxs-lookup"><span data-stu-id="bdd11-106">A previous task guide showed the setup of the work policy.</span></span> <span data-ttu-id="bdd11-107">Essa guia da tarefa requer o aplicativo do Dynamics AX 7.0.1 ou posterior.</span><span class="sxs-lookup"><span data-stu-id="bdd11-107">This task guide requires Dynamics AX application 7.0.1 or later.</span></span>
 
 
 
 
-## <a name="set-up-an-output-location"></a><span data-ttu-id="772eb-108">Configurar uma localização de saída</span><span class="sxs-lookup"><span data-stu-id="772eb-108">Set up an output location</span></span>
-1. <span data-ttu-id="772eb-109">Vá para Administração da organização > Recursos > Grupos de recursos.</span><span class="sxs-lookup"><span data-stu-id="772eb-109">Go to Organization administration > Resources > Resource groups.</span></span>
-2. <span data-ttu-id="772eb-110">Na lista, selecione grupo de recurso "5102".</span><span class="sxs-lookup"><span data-stu-id="772eb-110">In the list, select resource group '5102'.</span></span>
-3. <span data-ttu-id="772eb-111">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="772eb-111">Click Edit.</span></span>
-4. <span data-ttu-id="772eb-112">No campo Depósito de saída, insira "51".</span><span class="sxs-lookup"><span data-stu-id="772eb-112">In the Output warehouse field, enter '51'.</span></span>
-5. <span data-ttu-id="772eb-113">No campo Local de saída, insira "001".</span><span class="sxs-lookup"><span data-stu-id="772eb-113">In the Output location field, enter '001'.</span></span>
-    * <span data-ttu-id="772eb-114">O local 001 não é um local controlado por placa de licença.</span><span class="sxs-lookup"><span data-stu-id="772eb-114">Location 001 isn't a license plate–controlled location.</span></span> <span data-ttu-id="772eb-115">Você pode configurar um local de saída em branco da licença não aplicável somente se uma diretiva de trabalho existir para o local.</span><span class="sxs-lookup"><span data-stu-id="772eb-115">You can set up a non–license plate output location only if an applicable work policy exists for the location.</span></span>  
+## <a name="set-up-an-output-location"></a><span data-ttu-id="bdd11-108">Configurar uma localização de saída</span><span class="sxs-lookup"><span data-stu-id="bdd11-108">Set up an output location</span></span>
+1. <span data-ttu-id="bdd11-109">Vá para Administração da organização > Recursos > Grupos de recursos.</span><span class="sxs-lookup"><span data-stu-id="bdd11-109">Go to Organization administration > Resources > Resource groups.</span></span>
+2. <span data-ttu-id="bdd11-110">Na lista, selecione grupo de recurso "5102".</span><span class="sxs-lookup"><span data-stu-id="bdd11-110">In the list, select resource group '5102'.</span></span>
+3. <span data-ttu-id="bdd11-111">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="bdd11-111">Click Edit.</span></span>
+4. <span data-ttu-id="bdd11-112">No campo Depósito de saída, insira "51".</span><span class="sxs-lookup"><span data-stu-id="bdd11-112">In the Output warehouse field, enter '51'.</span></span>
+5. <span data-ttu-id="bdd11-113">No campo Local de saída, insira "001".</span><span class="sxs-lookup"><span data-stu-id="bdd11-113">In the Output location field, enter '001'.</span></span>
+    * <span data-ttu-id="bdd11-114">O local 001 não é um local controlado por placa de licença.</span><span class="sxs-lookup"><span data-stu-id="bdd11-114">Location 001 isn't a license plate–controlled location.</span></span> <span data-ttu-id="bdd11-115">Você pode configurar um local de saída em branco da licença não aplicável somente se uma diretiva de trabalho existir para o local.</span><span class="sxs-lookup"><span data-stu-id="bdd11-115">You can set up a non–license plate output location only if an applicable work policy exists for the location.</span></span>  
 
-## <a name="create-a-production-order-and-report-it-as-finished"></a><span data-ttu-id="772eb-116">Criar uma ordem de produção e relatar quando estiver concluída</span><span class="sxs-lookup"><span data-stu-id="772eb-116">Create a production order and report it as finished</span></span>
-1. <span data-ttu-id="772eb-117">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="772eb-117">Close the page.</span></span>
-2. <span data-ttu-id="772eb-118">Vá para Controle de produção > Ordens de produção > Todas as ordens de produção.</span><span class="sxs-lookup"><span data-stu-id="772eb-118">Go to Production control > Production orders > All production orders.</span></span>
-3. <span data-ttu-id="772eb-119">Clique em Nova ordem de produção.</span><span class="sxs-lookup"><span data-stu-id="772eb-119">Click New production order.</span></span>
-4. <span data-ttu-id="772eb-120">No campo Número do item, insira "L0101".</span><span class="sxs-lookup"><span data-stu-id="772eb-120">In the Item number field, enter 'L0101'.</span></span>
-5. <span data-ttu-id="772eb-121">Clique em Criar.</span><span class="sxs-lookup"><span data-stu-id="772eb-121">Click Create.</span></span>
-6. <span data-ttu-id="772eb-122">No Painel de Ação, clique em Ordem de produção.</span><span class="sxs-lookup"><span data-stu-id="772eb-122">On the Action Pane, click Production order.</span></span>
-7. <span data-ttu-id="772eb-123">Clique em Estimar.</span><span class="sxs-lookup"><span data-stu-id="772eb-123">Click Estimate.</span></span>
-8. <span data-ttu-id="772eb-124">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="772eb-124">Click OK.</span></span>
-9. <span data-ttu-id="772eb-125">Clique em Iniciar.</span><span class="sxs-lookup"><span data-stu-id="772eb-125">Click Start.</span></span>
-10. <span data-ttu-id="772eb-126">Clique na guia Geral.</span><span class="sxs-lookup"><span data-stu-id="772eb-126">Click the General tab.</span></span>
-11. <span data-ttu-id="772eb-127">No campo Consumo automático de BOM, selecione 'Nunca'.</span><span class="sxs-lookup"><span data-stu-id="772eb-127">In the Automatic BOM consumption field, select 'Never'.</span></span>
-12. <span data-ttu-id="772eb-128">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="772eb-128">Click OK.</span></span>
-13. <span data-ttu-id="772eb-129">Clique em Relatório de conclusão.</span><span class="sxs-lookup"><span data-stu-id="772eb-129">Click Report as finished.</span></span>
-14. <span data-ttu-id="772eb-130">Clique na guia Geral.</span><span class="sxs-lookup"><span data-stu-id="772eb-130">Click the General tab.</span></span>
-15. <span data-ttu-id="772eb-131">Selecione Sim no campo Aceitar erro.</span><span class="sxs-lookup"><span data-stu-id="772eb-131">Select Yes in the Accept error field.</span></span>
-16. <span data-ttu-id="772eb-132">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="772eb-132">Click OK.</span></span>
-17. <span data-ttu-id="772eb-133">No Painel de Ação, clique em Depósito.</span><span class="sxs-lookup"><span data-stu-id="772eb-133">On the Action Pane, click Warehouse.</span></span>
-18. <span data-ttu-id="772eb-134">Clique em Detalhes do trabalho.</span><span class="sxs-lookup"><span data-stu-id="772eb-134">Click Work details.</span></span>
-    * <span data-ttu-id="772eb-135">Quando a ordem de produção foi informada como concluída, nenhum trabalho foi gerado para ser colocado de lado.</span><span class="sxs-lookup"><span data-stu-id="772eb-135">When the production order was reported as finished, no work was generated for put-away.</span></span> <span data-ttu-id="772eb-136">Isso ocorre porque uma diretiva de trabalho que é definida impede que o trabalho seja gerado quando o produto L0101 é relatado como concluídos no local 001.</span><span class="sxs-lookup"><span data-stu-id="772eb-136">This occurs because a work policy is defined that prevents work from being generated when product L0101 is reported as finished to location 001.</span></span>  
+## <a name="create-a-production-order-and-report-it-as-finished"></a><span data-ttu-id="bdd11-116">Criar uma ordem de produção e relatar quando estiver concluída</span><span class="sxs-lookup"><span data-stu-id="bdd11-116">Create a production order and report it as finished</span></span>
+1. <span data-ttu-id="bdd11-117">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="bdd11-117">Close the page.</span></span>
+2. <span data-ttu-id="bdd11-118">Vá para Controle de produção > Ordens de produção > Todas as ordens de produção.</span><span class="sxs-lookup"><span data-stu-id="bdd11-118">Go to Production control > Production orders > All production orders.</span></span>
+3. <span data-ttu-id="bdd11-119">Clique em Nova ordem de produção.</span><span class="sxs-lookup"><span data-stu-id="bdd11-119">Click New production order.</span></span>
+4. <span data-ttu-id="bdd11-120">No campo Número do item, insira "L0101".</span><span class="sxs-lookup"><span data-stu-id="bdd11-120">In the Item number field, enter 'L0101'.</span></span>
+5. <span data-ttu-id="bdd11-121">Clique em Criar.</span><span class="sxs-lookup"><span data-stu-id="bdd11-121">Click Create.</span></span>
+6. <span data-ttu-id="bdd11-122">No Painel de Ação, clique em Ordem de produção.</span><span class="sxs-lookup"><span data-stu-id="bdd11-122">On the Action Pane, click Production order.</span></span>
+7. <span data-ttu-id="bdd11-123">Clique em Estimar.</span><span class="sxs-lookup"><span data-stu-id="bdd11-123">Click Estimate.</span></span>
+8. <span data-ttu-id="bdd11-124">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="bdd11-124">Click OK.</span></span>
+9. <span data-ttu-id="bdd11-125">Clique em Iniciar.</span><span class="sxs-lookup"><span data-stu-id="bdd11-125">Click Start.</span></span>
+10. <span data-ttu-id="bdd11-126">Clique na guia Geral.</span><span class="sxs-lookup"><span data-stu-id="bdd11-126">Click the General tab.</span></span>
+11. <span data-ttu-id="bdd11-127">No campo Consumo automático de BOM, selecione 'Nunca'.</span><span class="sxs-lookup"><span data-stu-id="bdd11-127">In the Automatic BOM consumption field, select 'Never'.</span></span>
+12. <span data-ttu-id="bdd11-128">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="bdd11-128">Click OK.</span></span>
+13. <span data-ttu-id="bdd11-129">Clique em Relatório de conclusão.</span><span class="sxs-lookup"><span data-stu-id="bdd11-129">Click Report as finished.</span></span>
+14. <span data-ttu-id="bdd11-130">Clique na guia Geral.</span><span class="sxs-lookup"><span data-stu-id="bdd11-130">Click the General tab.</span></span>
+15. <span data-ttu-id="bdd11-131">Selecione Sim no campo Aceitar erro.</span><span class="sxs-lookup"><span data-stu-id="bdd11-131">Select Yes in the Accept error field.</span></span>
+16. <span data-ttu-id="bdd11-132">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="bdd11-132">Click OK.</span></span>
+17. <span data-ttu-id="bdd11-133">No Painel de Ação, clique em Depósito.</span><span class="sxs-lookup"><span data-stu-id="bdd11-133">On the Action Pane, click Warehouse.</span></span>
+18. <span data-ttu-id="bdd11-134">Clique em Detalhes do trabalho.</span><span class="sxs-lookup"><span data-stu-id="bdd11-134">Click Work details.</span></span>
+    * <span data-ttu-id="bdd11-135">Quando a ordem de produção foi informada como concluída, nenhum trabalho foi gerado para ser colocado de lado.</span><span class="sxs-lookup"><span data-stu-id="bdd11-135">When the production order was reported as finished, no work was generated for put-away.</span></span> <span data-ttu-id="bdd11-136">Isso ocorre porque uma diretiva de trabalho que é definida impede que o trabalho seja gerado quando o produto L0101 é relatado como concluídos no local 001.</span><span class="sxs-lookup"><span data-stu-id="bdd11-136">This occurs because a work policy is defined that prevents work from being generated when product L0101 is reported as finished to location 001.</span></span>  
 
