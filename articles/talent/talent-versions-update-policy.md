@@ -3,7 +3,7 @@ title: Requisitos do sistema e política de atualização do Talent
 description: Este tópico lista os requisitos do Dynamics 365 for Talent. A política de atualização também está descrita.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 05/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2389f00b22ec3b5284eeffb2c015533b7a3d13e0
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.openlocfilehash: ea8b7485b142245a359648a2a85d2a3e2a6d6629
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "856292"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517345"
 ---
 # <a name="talent-system-requirements-and-update-policy"></a>Requisitos do sistema e política de atualização do Talent
 
 [!include [banner](includes/banner.md)]
 
-Este tópico lista os requisitos do Microsoft Dynamics 365 for Talent. A política de atualização também está descrita.
+Este tópico descreve os requisitos do Microsoft Dynamics 365 for Talent, incluindo Attract, Onboard e Core HR. Ele também destaca os países e regiões onde Talent está disponível, além de informações sobre idiomas e localização dos dados do Talent. Além disso, este tópico fornece a política atualizada para o Talent.
 
 ## <a name="supported-web-browsers"></a>Navegadores da web suportados
 
@@ -57,8 +57,17 @@ Para localizar a versão mais recente de cada navegador, vá para o site do fabr
 * Para executar os suplementos do Microsoft Excel e Word, você deve ter o Microsoft Office 2016 para Windows ou Mac instalado. Para obter mais detalhes sobre requisitos de versão, consulte [Solução de problemas de integração do Office](../dev-itpro/office-integration/office-integration-troubleshooting.md "Solução de problemas de integração do Office").
 * Para exibir documentos que são gerados pela funcionalidade Exportar para o Excel ou Exportar para o Word, você deve ter o Microsoft Office 2007 ou posterior instalado.
 
+## <a name="regional-availability-languages-and-localization"></a>Disponibilidade regional, idiomas e localização
+
+Você pode baixar um arquivo PDF dos países, regiões e idiomas para os quais Talent oferece suporte em [Disponibilidade internacional do Microsoft Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/availability). 
+
+> [!NOTE]
+> Por mais que a interface de usuário esteja localizada em outros idiomas, todos os dados do usuário são armazenados no idioma no qual foi inserido. Você pode criar e-mails e modelos em outros idiomas, mas os dados como informações de agendamento só estão disponíveis em Inglês no momento.
+
+Se você é um desenvolvedor interessado na criação de personalizações específicas do país ou região, ou em criar uma solução para um país ou região não suportado atualmente pela Microsoft, consulte [Globalização](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
+
 ## <a name="update-policy"></a>Política de atualização
 
 O Dynamics 365 for Talent é apresentado como uma oferta da nuvem. As atualizações do Dynamics 365 for Talent são contínuas e são aplicadas automaticamente pela Microsoft.
 
-As atualizações são liberadas em uma cadência normal e serão feitas em todos os ambientes.  O Dynamics 365 for Talent é compatível de acordo com a [política de Ciclo de Vida de Suporte da Microsoft](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Ciclo de Vida de Suporte da Microsoft"), que oferece diretrizes consistentes e previsíveis para a disponibilidade do suporte a produtos.
+As atualizações são liberadas em uma cadência normal e serão feitas em todos os ambientes. O Dynamics 365 for Talent é compatível de acordo com a [política de Ciclo de Vida de Suporte da Microsoft](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Ciclo de Vida de Suporte da Microsoft"), que oferece diretrizes consistentes e previsíveis para a disponibilidade do suporte a produtos.

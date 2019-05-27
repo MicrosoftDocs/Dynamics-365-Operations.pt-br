@@ -3,14 +3,14 @@ title: Estender o Talent usando o PowerApps e o Microsoft Flow — cenários de 
 description: Este tópico descreve alguns exemplos de cenários de extensibilidade para o Microsoft Dynamics 365 for Talent que usam o Microsoft PowerApps e o Microsoft Flow.
 author: negudava
 manager: Annbe
-ms.date: 03/04/2018
+ms.date: 05/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: Dynamics 365 for Talent;PowerApps;Flow;Common Data Service
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent;Core;Experience Apps
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0aa3578047b9397682a7039d0dbcc05cc1b167e4
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: c113b0f4ab2c8e44d00fcfca3f0a6ca828a854ae
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "949911"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517314"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Estender o Talent usando o PowerApps e o Microsoft Flow — cenários de exemplo
 
@@ -101,7 +101,21 @@ Esse modelo pode ser estendido para que possa ser usado para qualquer cenário q
 
 Para baixar o modelo **Flow — Integração do SharePoint**, acesse [Flow — Integração do SharePoint](https://go.microsoft.com/fwlink/?linkid=2082109) no Centro de Download da Microsoft.
 
+## <a name="admin-console-to-manage-talent-pools"></a>Administração de console para gerenciar grupos do Talent
 
+Ao habilitar a integração com LinkedIn, Attract cria automaticamente um grupo do Talent no LinkedIn. Quando um recrutador troca InMail com um recruta por meio do LinkedIn, Attract cria um perfil para o recruta, e o recruta se torna membro de um grupo do Talent do LinkedIn. Este aplicativo do PowerApps é útil para reorganizar candidatos em grupos do Talent com base em habilidades.
+
+Execute esse aplicativo do PowerApps como um console do administrador para realizar as tarefas a seguir:
+
+- Listar candidatos em um grupo de talentos
+- Adicionar e remover candidatos de um grupo de talentos
+- Mova candidatos de um grupo do Talent para outro
+- Determine se os candidatos já são parte de um grupo do Talent antes de movê-los
+- Verifique as habilidades dos candidatos antes de movê-los para outros grupos do Talent
+
+Esse aplicativo do PowerApps usa relacionamentos muitos para muitos, então você pode usá-lo como um modelo para outros cenários onde você precisa extrair registros que têm relacionamentos muitos para muitos.
+
+Para baixar o modelo **Console de administrador para gerenciar grupos do Talent**, acesse [Console de administração para gerenciar grupos do Talent](http://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) no Microsoft Download Center.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

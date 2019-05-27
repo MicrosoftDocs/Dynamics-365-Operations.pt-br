@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.openlocfilehash: f03e414683465e7275d6c48a843306abefbacaf0
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "859450"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1505832"
 ---
 # <a name="generate-affordable-care-act-aca-reports"></a>Gerar relatórios segundo a Lei de Serviços de Saúde Acessíveis (ACA)
 

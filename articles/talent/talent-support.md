@@ -1,9 +1,9 @@
 ---
 title: Obter suporte para o Talent
-description: Este tópico explica como obter ajuda com o Dynamics 365 for Talent.
+description: Este tópico explica como obter ajuda com o Microsoft Dynamics 365 for Talent.
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/18/2018
+ms.date: 05/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -15,32 +15,38 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.openlocfilehash: 39aadda6e4c221e243d55e2fd60bbc8484d3b21d
-ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
+ms.openlocfilehash: 9895ae8bdc6326b3863585d77b93576fe5fddcb4
+ms.sourcegitcommit: ab88de98a1958734213eb9d9b1988508b055f748
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "992803"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "1538764"
 ---
 # <a name="get-support-for-talent"></a>Obter suporte para o Talent
 
 [!include [banner](includes/banner.md)]
 
-Este tópico explica como obter ajuda com o Talent: Core HR, Attract e Onboard.
+Este tópico explica como obter ajuda com o Microsoft Dynamics 365 for Talent Core HR, Dynamics 365 Talent: Attract e Dynamics 365 Talent: Onboard.
 
-<a name="contact-support"></a>Contate o suporte
----------------
-
-Use as informações neste tópico para contatar a Microsoft se você tiver dúvidas técnicas sobre o Talent.
-
-### <a name="talent-support"></a>Suporte do Talent 
+## <a name="support-for-talent"></a>Suporte para o Talent
 
 Para obter suporte para o Talent, use os recursos na tabela a seguir. Esses recursos estão listados na ordem que recomendamos ser seguida quando você estiver solucionando problemas.
 
-| **Tarefa**                                                | **Mais informações**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|---------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Perguntar à comunidade                                      | Vá para a página [Perguntar à comunidade](https://community.dynamics.com/365/talent) para encontrar ajuda com suas dúvidas e use a opção "Ajuda" para pesquisar tópicos no Core HR.                                                                                                                                                                                                                                                                                                                                                                                  |
-| Usar a ferramenta de suporte habilitado para a nuvem                     | No [Lifecycle Services (LCS)](https://lcs.dynamics.com/), o bloco **Suporte** é uma ferramenta que ajuda você a gerenciar incidentes de suporte. Para enviar problemas diretamente para a Microsoft, vá para o bloco **Suporte** em seu projeto do LCS ou use a **seção de tíquetes de suporte** no LCS e clique em **Suporte habilitado para a nuvem**. Ali, é possível enviar problemas de duas maneiras. 1: Ao enviar um problema por meio do LCS, na guia **Problema ativo**, selecione o problema e clique em **Enviar para a Microsoft**. 2: Na guia **Enviado à Microsoft**, clique em **Enviar um novo incidente** para enviar novos problemas.  |
-| No suporte do aplicativo                                 | Selecione o ícone **?** no menu e selecione **Suporte (Core HR) Relatar um problema (Attract, Onboard)**. Os problemas serão informados na guia **Problemas ativos** do LCS. Observe que, se você adquiriu a versão autônoma do OnBoard, os problemas em Relatar um problema serão enviados à Microsoft.  |
-| Obter ajuda com dúvidas sobre o licenciamento do Talent         | Contate seu parceiro ou representante de vendas da Microsoft.     |
-| Solicitar novos recursos e funcionalidades no Talent | Na página principal do Talent no aplicativo, selecione o ícone **?** e selecione **Ideias** ou use o link [Ideias](https://experience.dynamics.com/ideas/) para exibir, pesquisar, votar ou adicionar novas ideias.          |                                                                                                                                                                                                                                                                                           
+| Tarefa | Mais informações |
+|------|------------------|
+| Pergunte à comunidade. | Vá para a [Comunidade do Dynamics 365 for Talent](https://community.dynamics.com/365/talent) para obter ajuda com suas dúvidas. Para encontrar respostas, insira uma pergunta no campo de pesquisa próximo a **Tenho uma pergunta**. Para fazer uma pergunta, selecione **Fazer uma pergunta**. |
+| Usar a ferramenta de suporte habilitado para a nuvem. | No [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/), vá para seu projeto e selecione o bloco **Suporte**. Ali, é possível enviar problemas de duas maneiras:<ul><li>Na guia **Problemas ativos**, selecione o problema que deseja enviar e depois selecione **Enviar para a Microsoft**.</li><li>Na guia **Enviado à Microsoft**, selecione **Enviar um novo incidente** para enviar um novo problema.</li></ul> |
+| Obter suporte no aplicativo. | Selecione o botão **Ajuda** (**?**) no canto superior direito da página. Em seguida, se estiver no Core HR, selecione **Suporte**. Se estiver no Attract ou Onboard, selecione **Reportar um problema**. Problemas são reportados na guia **Problemas ativos** no LCS, quando um administrador pode determinar se deseja fornecer suporte em casa ou enviar os problemas para a Microsoft. (Se você tem a versão autônoma do Onboard, os problemas são enviadas diretamente a Microsoft.) |
+| Obter ajuda com dúvidas sobre o licenciamento do Talent. | Contate seu parceiro ou representante de vendas da Microsoft. |
+| Solicitar novos recursos e funcionalidades no Talent. | Na página principal do Talent no aplicativo, selecione o botão **Ajuda** (**?**), e depois selecione **Ideias**. Você também pode acessar [Ideias de aplicação do Dynamics 365](https://experience.dynamics.com/ideas/) para exibir, buscar ou votar em ideias existentes, ou para adicionar novas ideias. |
+
+## <a name="support-for-the-onboard-stand-alone-app"></a>Suporte para o aplicativo autônomo do Onboard
+
+Para obter suporte para o aplicativo Onboard autônomo, use os recursos na tabela a seguir. Esses recursos estão listados na ordem que recomendamos ser seguida quando você estiver solucionando problemas. Você pode encontrar todas essas opções de suporte selecionando o botão **Ajuda** (**?**) no canto superior direito da página.
+
+| Tarefa | Mais informações |
+|------|------------------|
+| Pergunte à comunidade. | Vá para a [Comunidade do Dynamics 365 for Talent](https://community.dynamics.com/365/talent) para obter ajuda. Para encontrar respostas, insira uma pergunta no campo de pesquisa próximo a **Tenho uma pergunta**. Para fazer uma pergunta, selecione **Fazer uma pergunta**. |
+| Relatar um problema. | Selecione o botão **Ajuda** (**?**) no canto superior direito da página, e depois selecione **Reportar um problema**. Insira uma descrição do problema e inclua um endereço de e-mail se quiser acompanhar o problema. |
+| Obter ajuda com dúvidas sobre o licenciamento do Talent. | Contate seu parceiro ou representante de vendas da Microsoft. |
+| Solicitar novos recursos e funcionalidades no Onboard. | Selecione o botão **Ajuda** (**?**), e depois selecione **Ideias**. Você também pode acessar [Dynamics 365 for Talent: Ideias do Onboard](https://experience.dynamics.com/ideas/categories/?forum=569a7fb2-8327-e911-a95a-000d3a4f3883&forumName=Dynamics%20365%20for%20Talent%3A%20Onboard) para exibir, procurar ou votar em ideias existentes, ou para adicionar novas ideias. |

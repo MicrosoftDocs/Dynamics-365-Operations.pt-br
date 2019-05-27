@@ -3,7 +3,7 @@ title: Conteúdo de análise de gastos em compras do Power BI
 description: Este tópico descreve o que está incluído no conteúdo do Power BI de análise de gastos da compra. Ele explica como acessar os relatórios incluídos no conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar o conteúdo.
 author: FrankDahl
 manager: AnnBe
-ms.date: 12/18/2017
+ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 069c4dc21959ab603ba6ca3da0ac68ef20325265
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3206573022c0f843b07a468987a112ca6ac435ef
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313833"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1527708"
 ---
 # <a name="purchase-spend-analysis-power-bi-content"></a>Conteúdo de análise de gastos em compras do Power BI
 
@@ -33,7 +33,7 @@ Este tópico descreve o que está incluído no conteúdo do Microsoft Power BI d
 
 ## <a name="overview"></a>Visão Geral
 
-O conteúdo do Power BI de **Análise de gastos da compra** foi desenvolvido para ajudar os gerentes de compras e os gerentes responsáveis por orçamentos a ficar de olho nos gastos de compra. Os gerentes podem analisar os gastos de compra das seguintes maneiras:
+O conteúdo do Power BI de **Análise de gastos da compra** foi desenvolvido para ajudar os gerentes de compras e os gerentes responsáveis por orçamentos a acompanhar os gastos de compra. Os gerentes podem analisar os gastos de compra das seguintes maneiras:
 
 - Compra de um ano atrás até agora (por grupo de fornecedor e fornecedores individuais, categoria de compras e produtos individuais e local de fornecedor)
 - Alteração de compra de um ano atrás até agora (por grupo de fornecedor e categoria de compras)
@@ -44,88 +44,88 @@ O conteúdo usa dados transacionais de compra e fornece uma visão agregada dos 
 O conteúdo do Power BI de **Análise de gasto em compras** é exibido na página **Análise de compra e de gastos** (**Compras e fornecimento** \> **Consultas e relatórios** \> **Análise de desempenho de compra** \> **Análise de compra e de gastos**).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas incluídas no conteúdo do Power BI
-O conteúdo de Power BI de **Análise de gastos da compra** inclui um relatório que consiste em um grupo de métricas. Estas métricas são visualizadas como gráficos, blocos e tabelas. A tabela a seguir fornece uma visão geral das visualizações.
+O conteúdo de Power BI de **Análise de gastos da compra** inclui um relatório que consiste em um grupo de métricas. Estas métricas são visualizadas como gráficos, blocos e tabelas. 
 
-<table>
-<thead>
-<tr>
-<th>Página de relatório</th>
-<th>Gráficos</th>
-<th>Blocos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Venda por fornecedor</td>
-<td><ul>
-<li>10 principais fornecedores por compra (gráfico de barra empilhada)</li>
-<li>Compra total por grupo de fornecedor/país/nome (gráfico de pizza)</li>
-<li>Compra por grupo de fornecedor/país/nome (gráfico de coluna)</li>
-<li>Compra média por grupo de fornecedor/país/nome (gráfico de coluna)</li>
-</ul></td>
-<td><ul>
-<li>Total da Compra</li>
-<li>Crescimento de compra de YOY</li>
-<li>Número total de fornecedores</li>
-<li>Número total de fornecedores ativos</li>
-</ul></td>
-</tr>
-<tr>
-<td>Compra por produto</td>
-<td><ul>
-<li>Compra por categoria de itens/nome do produto (gráfico de coluna)</li>
-<li>Compra total por categoria de itens/nome do produto (gráfico de pizza)</li>
-<li>10 principais produtos por compra (gráfico de barra empilhada)</li>
-</ul></td>
-<td><ul>
-<li>Número total de produtos</li>
-<li>Porcentagem de produtos ativos total do número total de produtos</li>
-<li>Número da contabilidade de produtos para compra de 80%</li>
-</ul></td>
-</tr>
-<tr>
-<td>Compra por período*</td>
-<td><ul>
-<li>Compra por mês/dia (gráfico de coluna)</li>
-<li>Variação de YOY de compra cumulativa (gráfico de cascata)</li>
-<li>Crescimento de YOY total da compra (gráfico de coluna)</li>
-<li>Demonstrativo de compras (matriz)</li>
-</ul></td>
-<td><ul>
-<li>Crescimento de compra de YOY</li>
-<li>Porcentagem de crescimento de compra de YOY</li>
-</ul></td>
-</tr>
-<tr>
-<td>Compra por local de fornecedor</td>
-<td><ul>
-<li>Compra por cidade</li>
-<li>Porcentagem de crescimento de YOY de compra</li>
-<li>Compra por país</li>
-</ul></td>
-<td></td>
-</tr>
-<tr>
-<td>Análise de gastos de compra por hora</td>
-<td><ul>
-<li>Ano atual de compra em mês/dia (gráfico de linha)</li>
-<li>Compra atual e do último ano (gráfico de linha e coluna)</li>
-</ul></td>
-<td></td>
-</tr>
-<tr>
-<td>Análise de gastos de compra por fornecedor</td>
-<td><ul>
-<li>10 principais porcentagens de compra de fornecedor (funil)</li>
-<li>10 principais fornecedores com gasto elevado de YOY</li>
-<li>10 principais fornecedores com gasto diminuído de YOY</li>
-</ul></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+As seções a seguir fornecem uma visão geral das visualizações.
 
-\* Compras este ano e no ano passado e crescimento por categoria de compra
+### <a name="purchase-by-vendor-report-page"></a>Compra por página de relatórios de fornecedor
+**Gráficos**
+- 10 principais fornecedores por compra (gráfico de barra empilhada)
+- Compra total por grupo de fornecedor/país/nome (gráfico de pizza)
+- Compra por grupo de fornecedor/país/nome (gráfico de coluna)
+- Compra média por grupo de fornecedor/país/nome (gráfico de coluna)
+
+**Blocos**
+- Total da Compra
+- Crescimento de compra de YOY
+- Número total de fornecedores
+- Número total de fornecedores ativos
+
+**Exemplo**
+<img src="media/spend1.PNG" alt="Purchase by vendor">
+
+### <a name="purchase-by-product-report-page"></a>Compra por página de relatórios de produto
+
+**Gráficos**
+- Compra por categoria de itens/nome do produto (gráfico de coluna)
+- Compra total por categoria de itens/nome do produto (gráfico de pizza)
+- 10 principais produtos por compra (gráfico de barra empilhada)
+
+**Blocos**
+- Número total de produtos</li>
+- Porcentagem de produtos ativos total do número total de produtos
+- Número da contabilidade de produtos para compra de 80%
+
+**Exemplo**
+
+
+<img src="media/purchaseByProduct.PNG" alt="Purchase by Product">
+
+### <a name="purchase-by-period-report-page"></a>Compra por página de relatórios de período
+Essa página exibe compras este ano e no ano passado e crescimento por categoria de compra.
+
+**Gráficos** 
+- Compra por mês/dia (gráfico de coluna)
+- Variação de YOY de compra cumulativa (gráfico de cascata)
+- Crescimento de YOY total da compra (gráfico de coluna)
+- Demonstrativo de compras (matriz)
+
+**Blocos**
+- Crescimento de compra de YOY
+- Porcentagem de crescimento de compra de YOY
+
+**Exemplo**
+<img src="media/purchaseByPeriod.PNG" alt="Purchase by Period">
+
+### <a name="purchase-by-vendor-location-report-page"></a>Compra por página de relatórios locais de fornecedor
+
+**Gráficos**
+- Compra por cidade
+- Porcentagem de crescimento de YOY de compra
+- Compra por país
+
+**Exemplo**
+<img src="media/purchByVendorLocation.PNG" alt="Purchase by Vendor Location">
+
+### <a name="purchase-spend-analysis-by-time-report-page"></a>Análise de gastos de compra por página de relatório de hora
+
+**Gráficos** 
+- Ano atual de compra em mês/dia (gráfico de linha)
+- Compra atual e do último ano (gráfico de linha e coluna)
+
+**Exemplo**
+<img src="media/PurchByTIme.PNG" alt="Purchase by Time">
+
+### <a name="purchase-spend-analysis-by-vendor-report-page"></a>Análise de gastos de compra por página de relatório de fornecedor
+
+**Gráficos** 
+- 10 principais porcentagens de compra de fornecedor (funil)
+- 10 principais fornecedores com gasto elevado de YOY
+- 10 principais fornecedores com gasto diminuído de YOY
+
+**Exemplo** 
+<img src="media/PurchSpendAnalysisByVendor.PNG" alt="Purchase spend by vendor">
+
 
 ## <a name="data-model-and-entities"></a>Modelo de dados e entidades
 Os seguintes dados são usados para preencher as páginas de relatório no conteúdo do Power BI **Análise de gastos da compra**. Esses dados são representadas como medições agregadas que foram preparadas no Repositório de entidades. O Repositório de entidades é um banco de dados do Microsoft SQL Server otimizado para análise. Para obter mais informações, consulte [Visão geral da integração do Power BI com o repositório de entidades](power-bi-integration-entity-store.md).

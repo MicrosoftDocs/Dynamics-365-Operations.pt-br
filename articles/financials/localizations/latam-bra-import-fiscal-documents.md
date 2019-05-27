@@ -18,12 +18,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f9411ca32f104fa45754c9f05ecf1db2bd438f60
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 2a2d239b25c7340f54c681b1fe7f27c8e620a98f
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371636"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1513021"
 ---
 # <a name="import-fiscal-documents-for-brazil"></a>Importar notas fiscais do Brasil
 

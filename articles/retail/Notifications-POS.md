@@ -1,9 +1,9 @@
 ---
 title: Mostrar notificações de ordem no ponto de venda (PDV)
-description: Este tópico descreve como habilitar notificações de ordem no ponto de venda e a estrutura de notificação. Com o tempo, os desenvolvedores poderão estender essas notificações a operações além das operações de atendimento da ordem.
+description: Este tópico descreve como habilitar notificações de ordem no ponto de venda e a estrutura de notificação.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/13/2018
+ms.date: 04/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 41f16d13051f6095bdb04af1586ec06fe0ce93f6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e7aceed380f6722353574470d6dee75ebe105c18
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "361328"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1530261"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Mostrar notificações de ordem no ponto de venda (PDV)
 
@@ -67,6 +67,10 @@ Os botões do PDV agora podem mostrar uma contagem para ajudar os trabalhadores 
 A ilustração a seguir mostra as configurações de conteúdo ao vivo no designer da grade de botões.
 
 ![Configurações de conteúdo ao vivo no designer da grade de botões](./media/ButtonGridDesigner.png "Configurações de conteúdo ao vivo no designer da grade de botões")
+
+Para mostrar a contagem de notificação em um botão, você deve garantir que o layout de tela correto está sendo atualizado. Para determinar o layout de tela que está sendo usado pelo POS, selecione o ícone **Configurações** no canto superior direito e anote a **ID de layout de tela** e **Resolução de tela**. Agora, usando o navegador Edge, vá para a página **Layout de tela** no Dynamics 365 for Finance and Operations, encontre a **ID de layout de tela** e **Resolução de layout** identificadas acima e marque a caixa de seleção **Habilitar conteúdo ao vivo**. Vá para **Varejo > TI de Varejo > Agenda de distribuição** e execute o trabalho 1090 (Registros) para sincronizar as alterações de layout. 
+
+![Encontrar o layout de tela usado pelo POS](./media/Choose_screen_layout.png "Encontrar o layout de tela")
 
 A ilustração a seguir mostra o efeito de selecionar **Superior direito** versus **Centralizado** no campo **Alinhamento de conteúdo** para botões de vários tamanhos.
 

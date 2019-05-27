@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 85708c7197a71e6ad9b814e2e63d62122c8890f6
-ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
+ms.openlocfilehash: 44a2ec48f868c803c80c8df8eb809bc2254e63da
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "842713"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1505087"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operações de ponto de venda (PDV) online e offline
 
@@ -71,7 +71,9 @@ As seguintes colunas especificam onde as operações podem ser invocados:
 | 640 | Limpar representante de vendas na linha | Remover o grupo de vendas por comissão (representante de venda) da linha selecionada no momento. | Sim | Sim | Não | Sim | Não |
 | 121 | Limpar Vendedor | Esta operação não tem suporte. | Não Aplicável | Não Aplicável | Não Aplicável | Não Aplicável | Não |
 | 1055 | Fechar turno | Fechar o turno atual, imprimir um relatório Z e desconectar o usuário do sistema. | Sim | Sim | Sim | Não | Não |
-| 925 | Copiar o cheque bancário | Esta operação não tem suporte. | Não Aplicável | Não Aplicável | Não Aplicável | Não Aplicável | Sim |
+| 139 | Concluir transação | Pede ao usuário para selecionar o método do pagamento | Sim | Sim | Não | Sim | Não |
+| 620 | Criar ordem do cliente | Converter a transação de PDV em uma ordem de cliente. | Sim | Sim | Não | Sim\* | Não |
+| 925 | Copiar o cheque bancário | Esta operação não tem suporte. | Não aplicável | Não Aplicável | Não Aplicável | Não Aplicável | Sim |
 | 620 | Criar ordem do cliente | Converter a transação de PDV em uma ordem de cliente. | Sim | Sim | Não | Sim\* | Não |
 | 621 | Criar cotação | Converter a transação de PDV em uma cotação de venda. | Sim | Sim | Não | Sim\* | Não |
 | 636 | Criar transação de varejo | Esta operação permite que o usuário crie uma transação de venda padrão quando o comportamento padrão de PDV é criar ordens de cliente. | Sim | Sim | Não | Sim | Não |

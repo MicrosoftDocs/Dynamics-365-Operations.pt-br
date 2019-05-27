@@ -3,7 +3,7 @@ title: Sincronizar informações em nível de estoque do Finance and Operations 
 description: Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar informações no nível do estoque do Microsoft Dynamics 365 for Finance and Operations com o Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 03/13/2019
+ms.date: 05/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 6b2bdf1ca6f6ae43cd85c8a1353ee8305052761d
-ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
+ms.openlocfilehash: c7dce4427810b93e0ee4f1a27881c2b1b04fb125
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "842547"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1535689"
 ---
 # <a name="synchronize-inventory-level-information-from-finance-and-operations-to-field-service"></a>Sincronizar informações do nível de estoque do Finance and Operations no Field Service 
 
@@ -75,6 +75,14 @@ A entidade **Estoque externo de produtos** é usada apenas para o back-end na in
 
 ## <a name="prerequisites-and-mapping-setup"></a>Pré-requisitos e configuração de mapeamento
 
+### <a name="data-integration"></a>Integração de dados
+Para que o projeto funcione, você precisa garantir que a chave de integração está atualizada para msdynce_externalproductinventories.
+1.  Acesse **Integração de dados > Conjuntos de conexão**.
+2.  Selecione o Conjunto de conexão usado.
+3.  Na guia **Chave de integração**, certifique-se de que as chaves a seguir são adicionadas ao msdynce_externalproductinventories:
+      - msdynce_productnumber (Número do produto)
+      - msdynce_warehouseid (ID do depósito)
+      
 ### <a name="data-integration-project"></a>Projeto de integração de dados
 Você pode aplicar filtros com a Filtragem e Consulta Avançada para que somente determinados produtos e depósitos enviem informações em nível de estoque do Finance and Operations para o Field Service.
 

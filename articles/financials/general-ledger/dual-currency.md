@@ -3,7 +3,7 @@ title: Moeda dupla
 description: Este tópico fornece informações sobre moeda dupla, em que a moeda de relatório é usada como uma segunda moeda contábil para o Microsoft Dynamics 365 for Finance and Operations.
 author: kweekley
 manager: AnnBe
-ms.date: 10/10/2018
+ms.date: 05/06/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3665ec1cb15fc63e5707a4721699872fe81424a0
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330301"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1532239"
 ---
 # <a name="dual-currency"></a>Moeda dupla
 
@@ -61,6 +61,9 @@ Em vários relatórios e consultas, a lógica também foi adicionada para suprim
 ## <a name="financial-journals"></a>Diários financeiros
 
 Os diários financeiros, como o diário geral e o diário de fatura de fornecedor, foram atualizados de forma que incluíssem informações adicionais sobre a moeda de relatório. Os totais para o comprovante e o diário agora são mostrados na moeda de relatório. Além disso, as informações sobre a taxa de câmbio da moeda de relatório aparecem agora na guia **Geral** das linhas do diário. Portanto, é possível substituir a taxa de câmbio da moeda de relatório quando você insere transações.
+
+## <a name="vendor-invoices-sales-orders-and-sales-agreements"></a>Faturas de fornecedores, ordens de vendas e contratos de vendas
+Faturas do fornecedor, ordens de venda e contratos de vendas foram atualizados para incluir uma taxa de câmbio fixa para a moeda do relatório. Uma taxa de câmbio fixa pode ser definida tanto para a moeda contábil quanto para a moeda de relatório quando a moeda da transação é diferente. Quando a moeda contábil e a moeda de relatório são as mesmas, a taxa de câmbio fixa será mantida em sincronia usando a taxa fixa da moeda contábil como a taxa fixa da moeda de relatório. A taxa de câmbio fixa da moeda de relatório não pode ser alterada para essa configuração. Quando a moeda contábil e a moeda de relatório são diferentes, uma taxa de câmbio fixa pode ser definida para a moeda contábil e a moeda de relatório durante a entrada da transação. Se a moeda de relatório não tiver sido definida no razão, o campo **Taxa de câmbio fixa da moeda de relatório** não está habilitado e nenhum valor de moeda de relatório é calculado.
 
 ## <a name="module-changes"></a>Alterações de módulo
 

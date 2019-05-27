@@ -16,12 +16,12 @@ ms.search.region: Brazil
 ms.author: v-gonode
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: d8f984a53aa6557676fc82db702495011eab65fa
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 9dbf2b03ebbd2d0514b17cc82b511d09c5a3295a
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371577"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1513019"
 ---
 # <a name="configure-fiscal-books"></a>Configurar livros fiscais
 

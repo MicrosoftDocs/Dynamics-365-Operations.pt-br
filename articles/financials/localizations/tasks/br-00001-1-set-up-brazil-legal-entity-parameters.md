@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 327051aba5f4ae00b446a0b1fea4e25aaf9b512d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: faa9d4ec990d07c41be5a68bf772d58f259aad5a
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371619"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538278"
 ---
 # <a name="set-up-legal-entity-parameters-brazil"></a>Configurar parâmetros de entidade legal (Brasil)
 

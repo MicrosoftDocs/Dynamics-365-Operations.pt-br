@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa01297e5f8f987db8f2ce1b8abff6f76d59bd0b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ec4bb77cecf5c413c3d61405e4ce9d1ce97d0b3c
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371685"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538288"
 ---
 # <a name="set-up-interest-and-fines-on-customer-payments-brazil"></a>Configurar juros e multas em pagamentos de clientes (Brasil)
 

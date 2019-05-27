@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6995cb412fb9a857daf916a5a35b6b4a4bace084
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 9e842754737097b8013174b6f1b2319b48eb30e1
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371539"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538300"
 ---
 # <a name="set-up-nf-e-federal-parameters-brazil"></a>Configurar parâmetros federais de NF-e (Brasil)
 

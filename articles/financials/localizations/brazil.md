@@ -16,12 +16,12 @@ ms.search.region: Brazil
 ms.author: shylaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7906c79c1cbab2d6eb7c2f637619fbb9e41f282e
-ms.sourcegitcommit: ca1a472a670393f7aa208189dc8964c9691e2cdc
+ms.openlocfilehash: 00140804a6a2ad7657b6b716ad2cf91b68e820cf
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "390132"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538328"
 ---
 # <a name="brazil"></a>Brasil 
 
@@ -72,7 +72,7 @@ Este tópico inclui informações e links para recursos que podem ajudar você a
   - [​Atributos de impostos​](latam-bra-tax-attributes.md)
   - [​Pagamentos de impostos​](latam-bra-tax-payments.md)
   - [Impostos nas cotações de venda](tasks/br-00057-brazilian-taxes-sales-quotation.md)
-  - [Impostos retidos na fonte](tasks/br-00009-brazilian-withholding-taxes.md)
+  - [Impostos retidos na fonte ](tasks/br-00009-brazilian-withholding-taxes.md)
     - [Impostos retidos na fonte em pagamentos de clientes](tasks/br-00042-withholding-taxes-customers-payments.md)
     - [Impostos retidos na fonte em pagamentos de fornecedores](tasks/br-00061-withholding-taxes-vendors-payments.md)
 - Tarefas para o Brasil

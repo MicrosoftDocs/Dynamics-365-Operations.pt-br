@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9fd56794652bd2f6eb4b193479417d532ebe55c3
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 1070562f91d43a730b9d9010c034ad96a72138cf
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371706"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538308"
 ---
 # <a name="set-up-fiscal-document-source-text-brazil"></a>Configurar texto de origem da nota fiscal (Brasil)
 

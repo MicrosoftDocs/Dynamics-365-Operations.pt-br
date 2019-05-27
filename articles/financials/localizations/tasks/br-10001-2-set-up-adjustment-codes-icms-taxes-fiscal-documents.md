@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb9eb2a9015c65f042611eb4ed9d8e8f39a45396
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 9aee30c32d155585561d31a716aa905326a7c863
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371668"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1512992"
 ---
 # <a name="set-up-adjustment-codes-for-icms-taxes-on-fiscal-documents-brazil"></a>Configurar códigos de ajuste para impostos ICMS em notas fiscais (Brasil)
 

@@ -1,12 +1,12 @@
 ---
 title: Acessar os recursos de visualização no Talent
 description: Este tópico descreve como um administrador poderá habilitar os recursos de exibição, e listar os recursos que estão habilitados atualmente para visualização.
-author: andreabichsel
+author: tracykeya
 manager: AnnBe
-ms.date: 04/17/2018
+ms.date: 04/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,15 +15,15 @@ ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: trkeya
 ms.search.validFrom: 2018-04-30
-ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 060a36185641d5bb7912631b7c857c5c4331c8b7
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
+ms.openlocfilehash: 72e2a3c62c7aab0f5cf8900c540a22d91be00609
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "856315"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517372"
 ---
 # <a name="access-preview-features-in-talent"></a>Acessar os recursos de visualização no Talent
 
@@ -72,6 +72,7 @@ Você pode usar a configuração **Recursos de Visualização** no centro de adm
 
 - **Aplicação de candidato** – Os candidatos internos e externos agora podem se candidatar diretamente da página de trabalho no site de carreira.
 - **Gerenciamento de oferta** – Os usuários agora podem criar cartas de oferta de modelos que incluam espaços reservados. Conforme os candidatos avançam para o estágio de oferta, os gerentes de recrutadores e contratantes podem usar a ferramenta de oferta para preparar uma oferta formal de candidato por meio de templates, enviar a oferta para aprovação interna, e, finalmente, enviar a oferta para o candidato para assinatura. Muitos recursos novos serão adicionados à ferramenta de oferta ao longo do tempo, e o recurso de exibição será atualizado com essas funcionalidades quando estivermos prontos para o liberar para visualização.
+- **[Relatórios analíticos](analytic-reports.md)** – As equipes de contratação podem visualizar as principais métricas para um único trabalho com a Análise de trabalho ou métricas agregadas em todos os trabalhos no Hub de análise.
 
 ### <a name="core-hr"></a>Core HR
 

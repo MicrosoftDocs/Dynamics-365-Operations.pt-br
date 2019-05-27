@@ -1,16 +1,16 @@
 ---
 title: Opções avançadas de formatação no relatório financeiro
 description: Quando você cria um relatório no relatório financeiro, funções adicionais de formatação são disponibilizadas, incluindo filtros de dimensões, restrições de colunas e unidades de relatório, linhas não imprimíveis, e instruções IF/THEN/ELSE nos cálculos.
-author: ShylaThompson
+author: ryansandness
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 106571
 ms.assetid: 895b5127-01d6-4495-b127-343387b743aa
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8c95f3bfc33730fcf03bd65cd1e66ec104f1e236
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 70f69fdad3d9186886190c62fba08af06d2a24d6
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "335568"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1502556"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Opções avançadas de formatação no relatório financeiro
 
@@ -41,6 +41,7 @@ A tabela a seguir explica as funções avançadas de formatação disponíveis q
 | Restrição de coluna         | A restrição de coluna na definição de linha é útil para ocultar os valores relevantes apenas em algumas linhas do relatório. Quando os cálculos de porcentagem são executados em uma linha, a restrição da coluna impede que o total de colunas ou outras colunas sejam impressas quando esses números não se aplicam. |
 | Quebra de coluna               | Você pode adicionar quebras de coluna em uma definição de linha para mostrar informações do relatório lado a lado. Você pode adicionar várias quebras de coluna em uma única definição de linha, e os cabeçalhos de coluna são repetidos na parte superior de cada coluna após a quebra de coluna. Os comentários de um relatório são mostrados entre as quebras de coluna. |
 | Instrução IF/THEN/ELSE     | Você pode modificar os cálculos em uma definição de linha ou definição de coluna. |
+| Use aspas simples ('') e um E comercial (&) para valores de dimensão | Você pode usar valores de dimensão, incluindo o caractere E comercial para o design do relatório. |
 
 ## <a name="advanced-cell-placement"></a>Posicionamento de célula avançado
 O posicionamento de célula avançado, ou *forçamento*, envolve o posicionamento de valores específicos em células específicas. Por exemplo, o forçamento costuma ser usado para mover o saldo correto em um demonstrativo de fluxo de caixa. Você pode usar o forçamento para:
@@ -297,3 +298,9 @@ Uma instrução **IF/THEN/ELSE** permite que o cálculo dependa dos resultados d
 
 > [!NOTE]
 > Você não pode inserir os resultados de um cálculo em outra coluna. Os resultados devem estar na coluna que contém a fórmula.
+
+#### <a name="use-single-quotes-and-an-ampersand-for-dimension-values-in-a-row-column-or-tree"></a>Use aspas simples e um E comercial para valores de dimensão em uma linha, coluna ou árvore
+
+É possível criar relatórios usando valores de dimensão que contenham um E comercial (&). 
+
+Em qualquer campo **Link para Dimensões Financeiras**, você poderá inserir um valor como **'P&L'**. A inclusão de aspas simples ('') em ambos os lados do valor da dimensão indica que você está usando o valor literal, como incluir o caractere E comercial (&). 

@@ -1,5 +1,5 @@
 ---
-title: Declaração de imposto de SPED-Reinf (Brasil)
+title: Declaração de imposto do SPED-Reinf (Brasil)
 description: Este tópico fornece informações sobre a configuração de eventos do SPED-Reinf usando Livros fiscais e a estrutura de registro de relatórios SII no Microsoft Dynamics 365 for Finance and Operations para o Brasil.
 author: sndray
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e5e5fa94b639a6b36749d6792819fa52614dad44
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 97201e419eff65ce1821e544bb4d7519c7305a40
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371572"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1516941"
 ---
-# <a name="sped-reinf-tax-statement-brazil"></a>Declaração de imposto de SPED-Reinf (Brasil)
+# <a name="sped-reinf-tax-statement-brazil"></a>Declaração de imposto do SPED-Reinf (Brasil)
 
 [!include [banner](../includes/banner.md)]
 
@@ -36,7 +36,7 @@ O Microsoft Dynamics oferece suporte à geração de eventos do SPED-Reinf por m
 
 **Escopo**
 
--   Versão do SPED-Reinf com suporte: 1.3.
+-   Versão do SPED-Reinf compatível: 1.3.
 
 -   Versões com suporte: Microsoft Dynamics AX 2012 R3 e Microsoft Dynamics 365 for Finance and Operations.
 
@@ -262,7 +262,7 @@ Vá para **Livros fiscais \> Configuração \> Parâmetros de livros fiscais** e
 
 -   **Área:** Livros fiscais
 
--   **Referência:** ID de evento do SPED-Reinf
+-   **Referência**: ID de evento do SPED-Reinf
 
 **Eventos do SPED-Reinf**
 
@@ -320,7 +320,7 @@ Os eventos no SPED-Reinf devem ser transmitidos usando um certificado digital v�
 
 2.  O serviço Web da autoridade fiscal recebe o lote e valida seu conteúdo.
 
-3.  O serviço Web retorna o resultado do processamento. Se os eventos ou o lote de eventos forem recebidos com êxito, um protocolo de recebimento será retornado. Caso contrário, uma mensagem de erro será retornada. Nesse caso, o contribuinte pode resolver os erros e reenviar o evento por meio de um novo lote.
+3.  O serviço Web retorna o resultado do processamento. Se os eventos ou o lote de eventos forem recebidos com êxito, um protocolo de recebimento será retornado. Caso contrário, uma mensagem de erro será retornada. Nesse caso, o contribuinte pode resolver os erros e renviar o evento por meio de um novo lote.
 
 ![Texto alternativo gerado por máquina: Contribuinte Eventos Gera Evento XML Assina Digitalmente & 80 T rata Rsultados Lote de Ev Clialte Notificaqäo de Retomo EFD-REINF Rec.cäo e Val idacäo (Lotede Eventosi BD Controle ](media/bra-general-process.png)
 
@@ -383,7 +383,7 @@ O evento R-1000 é usado para entregar informações sobre a empresa. Esse event
 
 Portanto, sempre que qualquer atributo do contribuinte ou a data válida de informações que foi fornecida anteriormente precisarem ser alterados, o evento R-1000 deve ser entregue novamente. Quando for entregue novamente, o grupo de marcas correto para a ação desejada deve ser especificado.
 
-Como as comunicações podem falhar devido a problemas técnicos, como tempo limite ou falhas de Internet, o contador tributário deve ser capaz de reenviar o evento. Além disso, como a validação do arquivo pelo serviço Web pode falhar, o contador tributário deve ser capaz de visualizar os detalhes e corrigir os erros relacionados. Após a validação do arquivo, o protocolo de recebimento que é retornado pelo serviço Web deve ser salvo e o contador tributário deve ser capaz de visualizar seus detalhes, como o número e o carimbo de data/hora.
+Como as comunicações podem falhar devido a problemas técnicos, como tempo limite ou falhas de Internet, o contador tributário deve ser capaz de renviar o evento. Além disso, como a validação do arquivo pelo serviço Web pode falhar, o contador tributário deve ser capaz de visualizar os detalhes e corrigir os erros relacionados. Após a validação do arquivo, o protocolo de recebimento que é retornado pelo serviço Web deve ser salvo e o contador tributário deve ser capaz de visualizar seus detalhes, como o número e o carimbo de data/hora.
 
 #### <a name="repro-step--insertion"></a>**Etapa de reprodução – Inserção**
 
