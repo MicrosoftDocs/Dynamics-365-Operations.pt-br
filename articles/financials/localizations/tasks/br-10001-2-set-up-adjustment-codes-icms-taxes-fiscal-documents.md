@@ -15,39 +15,39 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb9eb2a9015c65f042611eb4ed9d8e8f39a45396
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 9aee30c32d155585561d31a716aa905326a7c863
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371668"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1512992"
 ---
-# <a name="set-up-adjustment-codes-for-icms-taxes-on-fiscal-documents-brazil"></a><span data-ttu-id="72835-103">Configurar códigos de ajuste para impostos ICMS em notas fiscais (Brasil)</span><span class="sxs-lookup"><span data-stu-id="72835-103">Set up adjustment codes for ICMS taxes on fiscal documents (Brazil)</span></span>
+# <a name="set-up-adjustment-codes-for-icms-taxes-on-fiscal-documents-brazil"></a><span data-ttu-id="aef8c-103">Configurar códigos de ajuste para impostos ICMS em notas fiscais (Brasil)</span><span class="sxs-lookup"><span data-stu-id="aef8c-103">Set up adjustment codes for ICMS taxes on fiscal documents (Brazil)</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="72835-104">Você pode criar códigos de ajuste de imposto para ajustar manualmente valores do ICMS em notas fiscais.</span><span class="sxs-lookup"><span data-stu-id="72835-104">You can create tax adjustment codes to manually adjust ICMS tax amounts on fiscal documents.</span></span>
+<span data-ttu-id="aef8c-104">Você pode criar códigos de ajuste de imposto para ajustar manualmente valores do ICMS em notas fiscais.</span><span class="sxs-lookup"><span data-stu-id="aef8c-104">You can create tax adjustment codes to manually adjust ICMS tax amounts on fiscal documents.</span></span>
 
-<span data-ttu-id="72835-105">Quando o arquivo fiscal SPED é gerado, o registro C197 inclui informações sobre ajustes manuais de impostos sobre valor do ICMS do documento fiscal.</span><span class="sxs-lookup"><span data-stu-id="72835-105">When the SPED Fiscal file is generated, record C197 includes the information about manual tax adjustments over the fiscal document's ICMS tax amount.</span></span> <span data-ttu-id="72835-106">Esses ajustes em notas fiscais podem ser necessários devido a um adiamento, suspensão, diferenças em taxas de impostos, antecipação e outras situações de exceção do imposto ICMS.</span><span class="sxs-lookup"><span data-stu-id="72835-106">These adjustments on fiscal documents might be required because of deferral, suspension, differences in tax rates, anticipation, and other situations of exception in ICMS tax.</span></span> <span data-ttu-id="72835-107">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="72835-107">This task uses the BRMF demo company.</span></span>
+<span data-ttu-id="aef8c-105">Quando o arquivo fiscal SPED é gerado, o registro C197 inclui informações sobre ajustes manuais de impostos sobre valor do ICMS do documento fiscal.</span><span class="sxs-lookup"><span data-stu-id="aef8c-105">When the SPED Fiscal file is generated, record C197 includes the information about manual tax adjustments over the fiscal document's ICMS tax amount.</span></span> <span data-ttu-id="aef8c-106">Esses ajustes em notas fiscais podem ser necessários devido a um adiamento, suspensão, diferenças em taxas de impostos, antecipação e outras situações de exceção do imposto ICMS.</span><span class="sxs-lookup"><span data-stu-id="aef8c-106">These adjustments on fiscal documents might be required because of deferral, suspension, differences in tax rates, anticipation, and other situations of exception in ICMS tax.</span></span> <span data-ttu-id="aef8c-107">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="aef8c-107">This task uses the BRMF demo company.</span></span>
 
-1. <span data-ttu-id="72835-108">Vá para Livros fiscais > Configuração > Códigos de ajuste de imposto > Ajuste e informações para documentos fiscais.</span><span class="sxs-lookup"><span data-stu-id="72835-108">Go to Fiscal books > Setup > Tax adjustment codes > Adjustment and information for fiscal documents.</span></span>
-2. <span data-ttu-id="72835-109">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="72835-109">Click New.</span></span>
-3. <span data-ttu-id="72835-110">No campo Identificação, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="72835-110">In the Identification field, type a value.</span></span>
-4. <span data-ttu-id="72835-111">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="72835-111">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="72835-112">No campo Tipo de imposto, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="72835-112">In the Tax type field, select an option.</span></span>
-6. <span data-ttu-id="72835-113">No campo Estado, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="72835-113">In the State field, enter or select a value.</span></span>
-7. <span data-ttu-id="72835-114">No campo Classificação, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="72835-114">In the Classification field, select an option.</span></span>
-8. <span data-ttu-id="72835-115">No campo Tipo de apuração, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="72835-115">In the Assessment type field, select an option.</span></span>
-9. <span data-ttu-id="72835-116">No campo Responsabilidade, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="72835-116">In the Responsibility field, select an option.</span></span>
-10. <span data-ttu-id="72835-117">No campo Tipo de pagamento de imposto, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="72835-117">In the Tax payment type field, select an option.</span></span>
-11. <span data-ttu-id="72835-118">No campo Código de ocorrência, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="72835-118">In the Occurrence code field, type a value.</span></span>
-12. <span data-ttu-id="72835-119">No campo Válido a Partir da Data, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="72835-119">In the Valid From Date field, enter a date.</span></span>
-13. <span data-ttu-id="72835-120">Expanda a seção Lançamento.</span><span class="sxs-lookup"><span data-stu-id="72835-120">Expand the Posting section.</span></span>
-14. <span data-ttu-id="72835-121">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="72835-121">Click New.</span></span>
-15. <span data-ttu-id="72835-122">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="72835-122">In the list, mark the selected row.</span></span>
-16. <span data-ttu-id="72835-123">No campo Contas da empresa, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="72835-123">In the Company accounts field, enter or select a value.</span></span>
-17. <span data-ttu-id="72835-124">No campo Código de impostos sobre vendas, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="72835-124">In the Sales tax code field, enter or select a value.</span></span>
-18. <span data-ttu-id="72835-125">No campo Conta principal, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="72835-125">In the Main account field, specify the desired values.</span></span>
-19. <span data-ttu-id="72835-126">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="72835-126">Click Save.</span></span>
-20. <span data-ttu-id="72835-127">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="72835-127">Close the page.</span></span>
+1. <span data-ttu-id="aef8c-108">Vá para Livros fiscais > Configuração > Códigos de ajuste de imposto > Ajuste e informações para documentos fiscais.</span><span class="sxs-lookup"><span data-stu-id="aef8c-108">Go to Fiscal books > Setup > Tax adjustment codes > Adjustment and information for fiscal documents.</span></span>
+2. <span data-ttu-id="aef8c-109">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="aef8c-109">Click New.</span></span>
+3. <span data-ttu-id="aef8c-110">No campo Identificação, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="aef8c-110">In the Identification field, type a value.</span></span>
+4. <span data-ttu-id="aef8c-111">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="aef8c-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="aef8c-112">No campo Tipo de imposto, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="aef8c-112">In the Tax type field, select an option.</span></span>
+6. <span data-ttu-id="aef8c-113">No campo Estado, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="aef8c-113">In the State field, enter or select a value.</span></span>
+7. <span data-ttu-id="aef8c-114">No campo Classificação, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="aef8c-114">In the Classification field, select an option.</span></span>
+8. <span data-ttu-id="aef8c-115">No campo Tipo de apuração, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="aef8c-115">In the Assessment type field, select an option.</span></span>
+9. <span data-ttu-id="aef8c-116">No campo Responsabilidade, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="aef8c-116">In the Responsibility field, select an option.</span></span>
+10. <span data-ttu-id="aef8c-117">No campo Tipo de pagamento de imposto, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="aef8c-117">In the Tax payment type field, select an option.</span></span>
+11. <span data-ttu-id="aef8c-118">No campo Código de ocorrência, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="aef8c-118">In the Occurrence code field, type a value.</span></span>
+12. <span data-ttu-id="aef8c-119">No campo Válido a Partir da Data, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="aef8c-119">In the Valid From Date field, enter a date.</span></span>
+13. <span data-ttu-id="aef8c-120">Expanda a seção Lançamento.</span><span class="sxs-lookup"><span data-stu-id="aef8c-120">Expand the Posting section.</span></span>
+14. <span data-ttu-id="aef8c-121">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="aef8c-121">Click New.</span></span>
+15. <span data-ttu-id="aef8c-122">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="aef8c-122">In the list, mark the selected row.</span></span>
+16. <span data-ttu-id="aef8c-123">No campo Contas da empresa, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="aef8c-123">In the Company accounts field, enter or select a value.</span></span>
+17. <span data-ttu-id="aef8c-124">No campo Código de impostos sobre vendas, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="aef8c-124">In the Sales tax code field, enter or select a value.</span></span>
+18. <span data-ttu-id="aef8c-125">No campo Conta principal, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="aef8c-125">In the Main account field, specify the desired values.</span></span>
+19. <span data-ttu-id="aef8c-126">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="aef8c-126">Click Save.</span></span>
+20. <span data-ttu-id="aef8c-127">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="aef8c-127">Close the page.</span></span>
 
