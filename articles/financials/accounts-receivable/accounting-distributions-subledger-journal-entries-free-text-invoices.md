@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5d1546e8537110daec5d6655f68d3328a58ca1cb
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "334855"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1571179"
 ---
 # <a name="accounting-distributions-and-subledger-journal-entries-for-free-text-invoices"></a>Distribuições contábeis e entradas no diário-razão auxiliar para faturas de texto livre
 

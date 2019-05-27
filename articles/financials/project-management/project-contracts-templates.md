@@ -18,11 +18,11 @@ ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
 ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "312108"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561453"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizar contratos de projeto e projetos diretamente no Project Service Automation para o Finance and Operations
 
@@ -102,7 +102,7 @@ Quando a solução de integração do Project Service Automation para o Finance 
     | Alíquota | descrição   |
     |-------|---------------|
     | 1     | Líquido 30        |
-    | 2     | 2%10, Líquido 30 |
+    | 2     | 2% 10, Líquido 30 |
     | 3     | Líquido 45        |
     | 4     | Líquido 60        |
 
