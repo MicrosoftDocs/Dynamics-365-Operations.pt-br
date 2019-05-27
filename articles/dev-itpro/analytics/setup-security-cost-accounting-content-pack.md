@@ -18,11 +18,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: d1cd378a58d4a4fe4388238f97e84a8e2b07937b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "352864"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1551451"
 ---
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Configurar segurança do conteúdo do Power BI da análise de Contabilidade de custos
 
@@ -57,7 +57,7 @@ Os usuários que forem adicionados à função **Controlador de objeto de custo*
 > A segurança em nível de linha aplica-se a blocos e relatórios no Microsoft Dynamics 365 for Finance and Operations que são incorporados pelo Power BI.
 
 ## <a name="updating-security"></a>Atualizando a segurança
-Se forem feitas atualizações na segurança de nível de acesso na Contabilidade de custos e você desejar que o Power BI reflita essas atualizações, você deve atualizar o conteúdo de **Análise de contabilidade de custos** do Power BI. Depois de concluir a atualização de armazenamento de entidade do Dynamics 365 for Finance and Operations, você deve atualizar os artefatos no PowerBI.com. Para obter mais informações sobre como fazer uma atualização de armazenamento de entidade, consulte [Atualizar armazenamento da entidade](power-bi-integration-entity-store.md#update-entity-store). O proprietário do conteúdo de **Análise de contabilidade de custos** do Power BI também deve fazer uma atualização de armazenamento de entidade se novos usuários tiverem acesso concedido à hierarquia organizacional. Além disso, o proprietário deve adicionar os novos usuários à função **Controlador do objeto de custo** em PowerBI.com, de modo que a segurança em nível de linha seja aplicada a eles.
+Se forem feitas atualizações na segurança de nível de acesso na Contabilidade de custos e você desejar que o Power BI reflita essas atualizações, você deve atualizar o conteúdo de **Análise de contabilidade de custos** do Power BI. Depois de concluir a atualização de armazenamento de entidade do Finance and Operations, você deve atualizar os artefatos no PowerBI.com. Para obter mais informações sobre como fazer uma atualização de armazenamento de entidade, consulte [Atualizar armazenamento da entidade](power-bi-integration-entity-store.md#update-entity-store). O proprietário do conteúdo de **Análise de contabilidade de custos** do Power BI também deve fazer uma atualização de armazenamento de entidade se novos usuários tiverem acesso concedido à hierarquia organizacional. Além disso, o proprietário deve adicionar os novos usuários à função **Controlador do objeto de custo** em PowerBI.com, de modo que a segurança em nível de linha seja aplicada a eles.
 
 ## <a name="disabling-security"></a>Desabilitando a segurança
 Suponhamos que sua organização deseja restringir o acesso aos dados. Se, por algum motivo, os parâmetros de segurança estiverem desativados quando você executar Contabilidade de custos, o proprietário deverá adicionar usuários à função **Contador de custos** do Power BI. Se você alterar a segurança de um estado ativado para um estado desativado, é uma boa ideia remover usuários da função **Controlador de objetos de custo**. E vice-versa se você reativar a segurança. Os usuários podem pertencer a ambas funções. O acesso conjunto é a união de ambas as funções. No caso do conteúdo de **Análise de contabilidade de custos** do Power BI, os usuários que têm acesso conjunto têm acesso a dados sem restrições. Se o seu objetivo é aplicar acesso restrito, os usuários devem ser atribuídos somente à função **Controlador de objetos de custo**. Essas atualizações em nível de linha de segurança são efetivadas imediatamente. Os usuários devem afetados atualizam seus navegadores.

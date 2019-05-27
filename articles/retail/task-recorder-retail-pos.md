@@ -20,11 +20,11 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: a74a1275f08e3dba60a1002a102e143eb37fcd9a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "345987"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1548545"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Gravador de tarefa e Ajuda do Retail Modern POS (MPOS) e Cloud POS
 
@@ -34,11 +34,11 @@ Este tópico descreve como utilizar o Gravador de tarefas no Retail Modern POS e
 
 ## <a name="overview"></a>Visão Geral
 
-O Gravador de tarefas do Retail Modern POS ou do PDV em Nuvem é uma nova solução que foi criada com foco na alta capacidade de resposta. Ele oferece uma API (interface de programa aplicativo) flexível para extensibilidade e integração direta com os registros dos consumidores do processo de negócios. Além disso, a integração do Gravador de tarefas com a ferramenta BPM (Modelador de processo de negócios) no Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) foi apresentada. Portanto, os usuários podem continuar a gerar diagramas sofisticados de processo de negócios a partir de gravações para analisar e projetar seus aplicativos.
+O Gravador de tarefas do Retail Modern POS ou do PDV em Nuvem é uma nova solução que foi criada com foco na alta capacidade de resposta. Ele oferece uma API (interface de programa aplicativo) flexível para extensibilidade e integração direta com os registros dos consumidores do processo de negócios. Além disso, a integração do Gravador de tarefas com a ferramenta BPM (Modelador de processo de negócios) no Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) foi apresentada. Portanto, os usuários podem continuar a gerar diagramas sofisticados de processo de negócios a partir de gravações para analisar e projetar seus aplicativos.
 
 ## <a name="architecture"></a>Arquitetura
 
-O Gravador de tarefas pode registrar ações de usuário no cliente com fidelidade precisa. Cada controle é instrumentado para notificar o Gravador de tarefas sobre a execução de uma ação de usuário. O controle notifica o Gravador de tarefas sobre a ocorrência de um evento e passa adiante todas as informações pertinentes sobre a ação de usuário correspondente em tempo real. Com essas informações, o Gravador de tarefas pode capturar o tipo de ação de usuário (como um clique de botão, uma entrada de valor ou a navegação) e quaisquer dados relacionados à ação de usuário (como o valor e o tipo dos dados de entrada, o contexto de formulário ou o contexto de registro). O Gravador de tarefas mantém as informações com detalhes suficientes para ajudar a garantir que a reprodução da gravação possa executar as ações gravadas exatamente como o usuário as executaria. (O recurso de reprodução ainda não foi implementado no Retail Modern POS ou no Cloud POS).
+O Gravador de tarefas pode registrar ações de usuário no cliente com fidelidade precisa. Cada controle é instrumentado para notificar o Gravador de tarefas sobre a execução de uma ação de usuário. O controle notifica o Gravador de tarefas sobre a ocorrência de um evento e passa adiante todas as informações pertinentes sobre a ação de usuário correspondente em tempo real. Com essas informações, o Gravador de tarefas pode capturar o tipo de ação de usuário (como um clique de botão, uma entrada de valor ou a navegação) e quaisquer dados relacionados à ação de usuário (como o valor e o tipo dos dados de entrada, o contexto de formulário ou o contexto de registro). O Gravador de tarefas mantém as informações com detalhes suficientes para ajudar a garantir que a reprodução da gravação possa executar as ações gravadas exatamente como o usuário as executaria. (O recurso de reprodução ainda não foi implementado no Retail Modern POS ou no PDV em Nuvem).
 
 ## <a name="basic-configuration"></a>Configuração básica
 

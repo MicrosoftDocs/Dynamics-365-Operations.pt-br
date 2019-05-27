@@ -17,17 +17,17 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 83c6b8db609b83f94b51800616976eb9ce08d79b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "309854"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1544854"
 ---
 # <a name="er-configure-destinations"></a>Configurar destinos ER
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimento demonstra como configurar e usar os diferentes componentes de saída para eletrônicos (ER), como uma pasta ou um arquivo. A empresa de dados demonstrativos utilizada para criar esse procedimento é a DEMF. Alemanha é o país\região de endereço principal da entidade legal; porém, você pode usar todas as entidade legais para este procedimento. 
+Este procedimento demonstra como configurar e usar os diferentes componentes de saída para eletrônicos (ER), como uma pasta ou um arquivo. A empresa de dados demonstrativos utilizada para criar esse procedimento é a DEMF. Alemanha é o país/região de endereço principal da entidade legal; porém, você pode usar todas as entidade legais para este procedimento. 
 
 O formato usado nesse exemplo é a transferência de crédito ISO20022, mas você pode usar qualquer formato que você já importou. Observe que esse procedimento é um exemplo de uma configuração de arquivo e de destino únicos. Mais informações sobre o Gerenciamento do destino de relatório eletrônico podem ser encontradas na ajuda do Dynamics 365 for Finance and Operations.
 

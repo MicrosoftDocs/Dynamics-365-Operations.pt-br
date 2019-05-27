@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 23bf579c1a4a315d0c12f848a71f89fc297c8625
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 17697677e0264c98088d5803e867e78ff3fdb5de
+ms.sourcegitcommit: 86d48d077589470bd1ea23b9c6fe01835088b6ae
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "350725"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "1538947"
 ---
 # <a name="finance-and-operations-help-system"></a>Sistema de ajuda do Finance and Operations
 
@@ -90,8 +90,6 @@ Gostamos de saber a opinião dos clientes. Você pode fazer comentários, ou sug
 Se você tiver dúvidas ou comentários sobre um tópico, deixe-nos um comentário na parte inferior da página.
 
 1. Clique em **Comentários** para chegar aos comentários na parte inferior da página e depois clique em **Comentários sobre o produto** ou **Entre para fazer comentários sobre a documentação**.
-
-    ![Comentários](./media/comments.png)
 
 2. Comece a digitar seu comentário e clique em **Enviar comentários**.
 

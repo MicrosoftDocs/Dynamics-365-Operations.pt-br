@@ -3,7 +3,7 @@ title: Chaves de configuração e entidades de dados
 description: Este tópico descreve a relação entre chaves de configuração e entidades de dados no Microsoft Dynamics 365 for Finance and Operations.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 01/01/2018
+ms.date: 05/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 8d07a0572e56e97d42c0e1b841905f828edc6f51
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: bf2bdd2eaf406750c885a151aa09468df8a5f4b7
+ms.sourcegitcommit: fd3db9f2052c76a5d906b9ec23cb16222452a362
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "336465"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "1539935"
 ---
 # <a name="configuration-keys-and-data-entities"></a>Chaves de configuração e entidades de dados
 
@@ -86,7 +86,7 @@ Usando os metadados da chave de configuração criados durante a lista de atuali
 - Quando o usuário carregar um modelo para um projeto de dados
 - Quando um projeto de dados existente for carregado
 - Quando um modelo é carregado para um projeto de dados
-- Antes que o trabalho de exportação/importação seja executado, (lote, não lote, recorrente, Odata)
+- Antes que o trabalho de exportação/importação seja executado, (lote, não lote, recorrente, OData)
 - Quando o usuário gera o mapeamento
 - Quando o usuário mapeia os campos na interface do mapeamento
 - Quando o usuário adiciona somente 'campos importáveis'

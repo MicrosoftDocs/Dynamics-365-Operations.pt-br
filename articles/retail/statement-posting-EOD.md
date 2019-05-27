@@ -3,7 +3,7 @@ title: Aprimoramentos na funcionalidade de postagem de demonstrativo
 description: Este tópico descreve as melhorias feitas no recurso de postagem do demonstrativo.
 author: josaw1
 manager: AnnBe
-ms.date: 04/26/2016
+ms.date: 05/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 3e8c5466a68fa87326c46a4e36bf7399be1279c6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 02880edda6c34c24f8dad8cc8cbeafe215f46896
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321423"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "1541282"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Aprimoramentos na funcionalidade de postagem de demonstrativo
 
@@ -43,7 +43,7 @@ Finance and Operations inclui as seguintes validações relacionadas às chaves 
 - As mesmas chaves de configuração devem ser usadas para todas as operações executadas em um demonstrativo específico durante o ciclo de vida, (Criar, Calcular, Limpar, Lançar e etc.) Por exemplo, você não pode criar e calcular o demonstrativo quando a chave de configuração **Demonstrativos de Retail (herdados)** está ativada, e depois tentar lançá-la ao mesmo demonstrativo quando a chave de configuração **Demonstrativos de Retail** estiver ativada.
 
 > [!NOTE]
-> Recomenda-se usar a chave de configuração **Demonstrativos de Retail** para o recurso aprimorado de postagem do demonstrativo, a menos que você tenha motivos plausíveis para usar a chave de configuração **Demonstrativos de Retail (herdados)** em vez disso. A Microsoft continuará a investir em recursos novos e aprimoradas de postagem de demonstrativo, e é importante que você troque para ele assim que puder para receber seus benefícios. O recurso herdado de postagem do demonstrativo será substituído em uma versão futura.
+> Recomenda-se usar a chave de configuração **Demonstrativos de Retail** para o recurso aprimorado de postagem do demonstrativo, a menos que você tenha motivos plausíveis para usar a chave de configuração **Demonstrativos de Retail (herdados)** em vez disso. A Microsoft continuará a investir em recursos novos e aprimoradas de postagem de demonstrativo, e é importante que você troque para ele assim que puder para receber seus benefícios. O recurso herdado de postagem do demonstrativo fica obsoleto a partir da versão 8.0.
 
 ## <a name="setup"></a>Configurar
 
@@ -56,11 +56,15 @@ Como parte das melhorias ao recurso de lançamento do demonstrativo, os três pa
 
 - **Desabilitar contagem necessária** – Quando esta opção está definida como **Sim**, o processo de postagem de uma instrução continua, mesmo que a diferença entre o valor contado e o valor de transação no extrato esteja fora do limite definido na Guia Rápida do **Demonstrativo** para Lojas do Retail.
 
-Além disso, o campo **Número máximo de lançamentos paralelos de demonstrativos** foi apresentado na Guia Rápida **Processamento em lotes**. Este campo define o número de tarefas de lote que deve ser executado ao mesmo tempo. Atualmente, você deve definir manualmente o valor deste campo.
+Além disso, os parâmetros a seguir foram introduzidos na Guia Rápida **Processamento de lote** na guia **Postagem** da página **Parâmetros de varejo**: 
 
-Além disso, com o novo processo de lançamento, é necessário definir um **Produto para o cartão-presente**​​ na Guia Rápida **Cartão-presente** na guia **Lançamento** da página **Parâmetros de varejo**. Isso se aplica mesmo que nenhum Cartão-presente seja usado pela organização.
+- **Número máximo de lançamentos paralelos de demonstrativos** - Esse campo define o número de tarefas de lote que serão usados para postar múltiplos demonstrativos. 
+- **Thread máximo para processamento de pedido por demonstrativo** - Esse campo representa o número máximo de threads usado por um trabalho de lote de postagem de demonstrativo para criar e faturar ordens de venda para um único demonstrativo. O número total de threads que serão usados pelo processo de postagem de demonstrativo serão computador com base no valor nesse parâmetro multiplicado pelo valor no parâmetro **Número máximo de lançamentos paralelos de demonstrativos**. Definir o valor desse parâmetro muito alto pode afetar negativamente o desempenho do processo de postagem do demonstrativo.
+- **Linhas de transação máxima incluída na agregação** - Esse campo define o número de linhas de transação que serão incluídas em uma única transação agregada antes de uma nova ser criada. As transações agregadas são criadas com base em critérios de agregação diferentes como cliente, data do negócio ou dimensões financeiras. É importante observar que as linhas de uma única transação de varejo não serão divididas entre transações agregadas diferentes. Isso significa que há uma possibilidade de que o número de linhas em uma transação agregada é levemente maior ou menor com base nos fatores como o número de produtos distintos.
+- **Número máximo de threads para validar transações de loja** - Esse campo define o número de threads que serão usados para validar transações de varejo. Validar transações de varejo é uma etapa obrigatória que precisa acontecer antes das transações serem recebidas nos demonstrativos. Você também precisa definir um **Produto para o cartão-presente** na Guia Rápida **Cartão-presente** na guia **Lançamento** da página **Parâmetros de varejo**. Isso precisa ser definido até se cartões-presente não forem usados pela organização.
 
-Observe que todas as configurações e os parâmetros relacionados às postagens de demonstrativo, e definidos em lojas de Retail na página **Parâmetros de Retail**, são aplicáveis ao recurso aprimorado de postagem do demonstrativo.
+> [!NOTE]
+> Todas as configurações e os parâmetros relacionados às postagens de demonstrativo, e definidos em lojas de Varejo na página **Parâmetros de Varejo**, são aplicáveis ao recurso aprimorado de postagem do demonstrativo.
 
 ## <a name="processing"></a>Processando
 
