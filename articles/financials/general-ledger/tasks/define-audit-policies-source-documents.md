@@ -17,11 +17,11 @@ ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: a82c3e8e8787beb309b75b73cda36f4ca8031d6f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "336787"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1558874"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Definir políticas de auditoria para documentos de origem
 
@@ -72,7 +72,7 @@ Este procedimento mostra como configurar e executar regras de diretiva de audito
 41. Selecione o valor da transação
 42. No campo Campo, insira ou selecione um valor.
 43. No campo de AggregateFunction, selecione 'Soma'.
-44. No campo Critérios, digite ">2000".
+44. No campo Critérios, digite '>2000'.
 45. Clique em OK.
 46. Clique em Teste.
 47. No campo Data de início da seleção do documento, insira uma data e hora.

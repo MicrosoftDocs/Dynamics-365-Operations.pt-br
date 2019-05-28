@@ -3,7 +3,7 @@ title: Reavaliação de moeda estrangeira do banco
 description: Este tópico fornece uma visão geral do processo de reavaliação bancária de moeda estrangeira. Ele inclui informações sobre a configuração, a execução do processo, os cálculos do processo e a reversão das transações de reavaliação.
 author: mikefalkner
 manager: AnnBe
-ms.date: 03/27/2019
+ms.date: 04/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3aed5a6c12e8dd39956f906f922bfbed1b8fb680
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: 4ec9814a4a35a1b3ba7ba05a04b53e5b150f4a04
+ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "976629"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "1538623"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Reavaliação de moeda estrangeira do banco
 
@@ -52,7 +52,7 @@ Você deve ativar o recurso de reavaliação bancária de moeda estrangeira ante
 3. Na guia **Sequências numéricas**, adicione uma sequência numérica para a reavaliação de moeda estrangeira.
 4. Atualize o navegador para ver **Reavaliação de moeda estrangeira** na seção **Tarefas periódicas** da página da área.
 
-Você deve ativar o recurso para todas as entidades legais que usarão a reavaliação de moeda estrangeira.
+Você deve ativar o recurso para todas as entidades legais que usarão a reavaliação de moeda estrangeira. Se estiver atribuído à função Administrador do Sistema ou à função Gerenciador de recursos, você poderá eliminar essa etapa habilitando o recurso chamado **Habilitar a reavaliação bancária sem um parâmetro** no espaço de trabalho **Gerenciamento de recursos**.
 
 > [!NOTE]
 > Se a sua entidade legal usar um código de país/região russo, polonês ou húngaro, você já poderá fazer a reavaliação de moeda estrangeira. Não será possível usar a reavaliação de moeda estrangeira que é usada por outros países ou regiões.

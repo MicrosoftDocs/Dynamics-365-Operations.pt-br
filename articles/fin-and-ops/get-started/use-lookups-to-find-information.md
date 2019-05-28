@@ -18,11 +18,11 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0a0722f057c1613fdc03281ca68a90608a701aef
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "328346"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561728"
 ---
 # <a name="find-information-by-using-lookups"></a>Localizar informações usando pesquisas
 
@@ -32,7 +32,7 @@ No Microsoft Dynamics 365 for Finance and Operations, vários campos têm pesqui
 
 ## <a name="responsive-lookups"></a>Pesquisas adequadas
 
-Em versões anteriores do Dynamics 365 for Finance and Operations, ao interagir com um controle da pesquisa, um usuário precisava realizar uma ação explícita para abrir o menu suspenso. Isso poderia ser digitando um asterisco (\*) no controle para filtrar a pesquisa com base no valor atual do controle, clicando no botão suspenso ou utilizando o atalho **Alt**+**Seta para baixo**. Os controles da pesquisa foram modificados das seguintes maneiras para melhor se alinhar às práticas atuais da web:
+Em versões anteriores do Finance and Operations, ao interagir com um controle da pesquisa, um usuário precisava realizar uma ação explícita para abrir o menu suspenso. Isso poderia ser digitando um asterisco (\*) no controle para filtrar a pesquisa com base no valor atual do controle, clicando no botão suspenso ou utilizando o atalho **Alt**+**Seta para baixo**. Os controles da pesquisa foram modificados das seguintes maneiras para melhor se alinhar às práticas atuais da web:
 
 - Os menus suspensos da pesquisa agora abrirão automaticamente após uma breve pausa na digitação, com o conteúdo do menu suspenso filtrado com base no valor do controle da pesquisa.
 
@@ -59,7 +59,7 @@ Ainda que o foco continue no controle da pesquisa, você também pode utilizar a
 
 ## <a name="typing-in-more-than-ids"></a>Digitando mais que IDs
 
-Ao inserir dados, é natural que os usuários tentem identificar uma entidade, como um cliente ou fornecedor, em termos do nome em vez de um identificador que represente a entidade. Na versão atual do Dynamics 365 for Finance and Operations, muitas (mas não todas) pesquisas permitem a entrada de dados contextuais. Este recurso poderoso permite que o usuário digite o ID ou o nome correspondente no controle da pesquisa.
+Ao inserir dados, é natural que os usuários tentem identificar uma entidade, como um cliente ou fornecedor, em termos do nome em vez de um identificador que represente a entidade. Na versão atual do Finance and Operations, muitas (mas não todas) pesquisas permitem a entrada de dados contextuais. Este recurso poderoso permite que o usuário digite o ID ou o nome correspondente no controle da pesquisa.
 
 Por exemplo, considere o campo **Conta do cliente** ao criar uma ordem de venda. Esse campo mostra o **ID da conta** do cliente, mas um usuário iria tipicamente preferir inserir um **Nome da conta** em vez do **ID da conta** para esse campo ao criar uma ordem de venda, como "Forest Wholesales" em vez de "US-003."
 

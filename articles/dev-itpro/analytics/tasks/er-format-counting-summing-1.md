@@ -17,11 +17,11 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: d1f925ef8d772189a505f2793de1176756866bf4
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "362248"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1544624"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-1-create-format"></a>O ER configurar o formato da contagem e soma (Parte 1: criar formato)
 

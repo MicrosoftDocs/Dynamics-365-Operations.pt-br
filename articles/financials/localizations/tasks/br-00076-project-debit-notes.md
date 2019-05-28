@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e11973d884274ad853628e4d45ed80af6ff56b17
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 21e42fa5ebaae6ab123e4b07d2146bcd7bdaa938
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371652"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538283"
 ---
 # <a name="project-debit-notes-brazil"></a>Notas de débito do projeto (Brasil)
 

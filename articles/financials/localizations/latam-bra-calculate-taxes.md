@@ -16,12 +16,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8538bd33a54984e30483f8685d36575c6c3fe97c
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a4edebbac0011e117ed0429639efcf884410ba22
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371544"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538324"
 ---
 # <a name="brazilian-taxes"></a>Impostos brasileiros
 

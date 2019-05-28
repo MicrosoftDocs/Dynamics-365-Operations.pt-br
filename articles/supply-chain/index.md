@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 391f63fba2916b613f66bfd36cfbd3a052cbc8fe
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: b46b95a10d257c56fdf20b016fbb598225d1f930
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "301923"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1516998"
 ---
 # <a name="supply-chain-management-home-page"></a>Home page do Gerenciamento da cadeia de fornecedores
 
@@ -59,7 +59,7 @@ Estes vídeos curtos ajudam você a conhecer os novos recursos incluídos no Mic
 Estes vídeos curtos ajudam você a conhecer os novos recursos incluídos no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (dezembro de 2017).
 
 -  [Integração do cliente potencial ao pagamento à vista](https://youtu.be/AVV9x5x-XCg) 
--  [Orientador de otimização](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+-  [Consultor de otimização](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 -  [Usar modelo do depósito para copiar a configuração](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
 Estes vídeos curtos ajudam você a conhecer os novos recursos incluídos no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (julho de 2017).

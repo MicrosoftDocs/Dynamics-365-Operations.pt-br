@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 477918f94d31a9181582bc823207a47c47c23940
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 51a58e26309251264710bbd461f9586a7ffd7714
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371597"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538264"
 ---
 # <a name="enter-a-ciap-transaction-brazil"></a>Inserir uma transação CIAP (Brasil)
 

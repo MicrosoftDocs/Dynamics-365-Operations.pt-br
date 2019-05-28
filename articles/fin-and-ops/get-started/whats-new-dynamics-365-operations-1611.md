@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações no Dynamics 365 for Operations versão 1611 (novembro de 2016)
-description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 for Operations versão 1611.
+description: Este tópico descreve os recursos novos ou alterados no Dynamics 365 for Operations versão 1611.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,17 +18,17 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 7e907813323ef6b1c8b83675be75456f5844fa0a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "339064"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1548023"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Novidades ou alterações no Dynamics 365 for Operations versão 1611 (novembro de 2016)
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 for Operations versão 1611.
+Este tópico descreve os recursos novos ou alterados no  Dynamics 365 for Operations versão 1611.
 
 ## <a name="cost-accounting"></a>Contabilização de custos
 
@@ -802,7 +802,7 @@ O sistema de armazenamento é uma opção de implantação para varejistas que a
 
 ### <a name="universal-windows-platform-app-for-retail-modern-pos"></a>Aplicativo da plataforma universal do Windows do Retail Modern POS
 
-Atualmente, o Retail Modern POS está disponível apenas como um aplicativo do Windows 8.1 para computadores desktop e tablets e como Cloud POS para navegadores de desktop ou tablet. Nessa versão, o Retail Modern POS está sendo convertido para o aplicativo do Plataforma Universal do Windows. Essa alteração permitirá que o Retail Modern POS seja executado em qualquer dispositivo do Windows 10 (desktop, tablet ou telefone) e até mesmo alterne entre exibições de dispositivos habilitado para Continuum.
+Atualmente, o Retail Modern POS está disponível apenas como um aplicativo do Windows 8.1 para computadores desktop e tablets e como Cloud POS para navegadores de desktop ou tablet. Nessa versão, o Retail Moderns POS está sendo convertido para o aplicativo do Plataforma Universal do Windows. Essa alteração permitirá que o Retail Modern POS seja executado em qualquer dispositivo do Windows 10 (desktop, tablet ou telefone) e até mesmo alterne entre exibições de dispositivos habilitado para Continuum.
 
 | O que você pode fazer | Por que isso é importante |
 |-----------------|-----------------------|

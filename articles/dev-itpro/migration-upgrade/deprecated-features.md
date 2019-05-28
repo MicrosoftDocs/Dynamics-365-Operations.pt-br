@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7201397cd839048465ee0cd8e97c267ab8cbfeb7
-ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
+ms.openlocfilehash: 7afe26b535ca2578d2db17f676c3cae4bafc355f
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "992874"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1527662"
 ---
 # <a name="removed-or-deprecated-features"></a>Recursos removidos ou preteridos
 
@@ -66,26 +66,6 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 | **Áreas afetadas do produto**         | Cliente web |
 | **Opção de implantação**              | Todas |
 | **Status**                         | Preterido: a partir de abril de 2020, a experiência aprimorada "é um de" será o comportamento padrão, sem um mecanismo para reverter ao comportamento herdado. |
-
-### <a name="deriving-from-internal-classes-is-deprecated"></a>A derivação de classes internas é obsoleta
-
-|   |  |
-|------------|--------------------|
-| **Motivo para a reprovação/remoção** | Antes da Platform update 25, era possível criar uma classe ou tabela derivada de uma classe/tabela interna definida em outro pacote/módulo. Esta não é uma prática de codificação segura. A partir da Platform update 25, o compilador exibirá um aviso. |
-| **Substituída por outro recurso?**   | O aviso do compilador será substituído por um erro na Platform update 26. Essa alteração é compatível com versões anteriores no tempo de execução, significando que, a Platform update 25 ou mais recente poderá ser implantada em qualquer ambiente de área restrita ou de produção sem a necessidade de modificar o código personalizado. Essa alteração afeta apenas o tempo de desenvolvimento e compilação.|
-| **Áreas afetadas do produto**         | Ferramentas de desenvolvimento do Visual Studio |
-| **Opção de implantação**              | Todas |
-| **Status**                         | Preterido: o aviso se tornará um erro de compilação na Platform update 26. |
-
-### <a name="overriding-internal-methods-is-deprecated"></a>A substituição de métodos internos está obsoleta
-
-|   |  |
-|------------|--------------------|
-| **Motivo para a reprovação/remoção** | Antes da Platform update 25, era possível substituir um método interno em uma classe derivada definida em outro pacote/módulo. Esta não é uma prática de codificação segura. A partir da Platform update 25, o compilador exibirá um aviso. |
-| **Substituída por outro recurso?**   | Esse aviso será substituído por um erro do compilador na Platform update 26. Essa alteração é compatível com versões anteriores no tempo de execução, significando que, a Platform update 25 ou mais recente poderá ser implantada em qualquer ambiente de área restrita ou de produção sem a necessidade de modificar o código personalizado. Essa alteração afeta apenas o tempo de desenvolvimento e compilação. |
-| **Áreas afetadas do produto**         | Ferramentas de desenvolvimento do Visual Studio |
-| **Opção de implantação**              | Todas |
-| **Status**                         | Preterido: o aviso se tornará um erro de compilação na Platform update 26. |
 
 ### <a name="parameter-to-enable-sales-orders-with-multiple-project-contract-funding-sources"></a>Parâmetro para permitir ordens de venda com várias fontes de financiamento do contrato de projeto
 Suporte à criação de ordens de venda baseadas no projeto em que o contrato de projeto com várias fontes de financiamento está habilitado com a configuração **Parâmetros de gerenciamento do projeto** e **Permitir ordens de venda para projetos com várias fontes de financiamento**. Por padrão, esse parâmetro não está habilitado. 

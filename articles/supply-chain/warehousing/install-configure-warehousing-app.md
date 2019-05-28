@@ -20,11 +20,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: f5e99351d79cb5898c6d5565d3d3197a8fe860df
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "316110"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1559177"
 ---
 # <a name="install-and-configure-microsoft-dynamics-365-for-finance-and-operations-8211-warehousing"></a>Instalar e configurar o Microsoft Dynamics 365 for Finance and Operations &#8211; Warehousing
 
@@ -93,7 +93,7 @@ Para habilitar o Finance and Operations para usar o aplicativo Azure AD, é nece
 3.  Digite as seguintes informações: 
     + **ID do cliente do Azure Active Directory** - A ID do cliente é obtida na etapa 9 em "Criar um aplicativo de serviço Web no Active Directory". 
     + **Segredo do cliente do Azure Active Directory** - O segredo do cliente é obtido na etapa 11 em "Criar um aplicativo de serviços Web no Active Directory". 
-    + **Recurso do Azure Active Directory** - O recurso do do Azure AD Directory exibe o URL raiz do Finance and Operations. **Nota**: Este campo não termina com um caractere de barra (/). 
+    + **Recurso do Azure Active Directory** - O recurso do Azure AD exibe a URL raiz do Finance and Operations. **Nota**: Este campo não termina com um caractere de barra (/). 
     + **Locatário do Azure Active directory** - O locatário do Azure AD directory usado com o servidor Finance and Operations: `https://login.windows.net/your-AD-tenant-ID`. Por exemplo: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
     <br>**Nota**: Este campo não termina com um caractere de barra (/). 
     + **Empresa** - Insira a entidade legal no Finance and Operations para a qual você quer conectar o aplicativo. <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)

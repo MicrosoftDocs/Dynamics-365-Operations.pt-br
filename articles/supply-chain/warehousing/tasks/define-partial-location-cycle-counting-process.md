@@ -16,11 +16,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 3aafb42cea1664b0629f57fe4492736601902cc1
-ms.sourcegitcommit: bacad87e2b9146e08e6fe16af01356954eb90574
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "373384"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1568249"
 ---
 # <a name="define-partial-location-cycle-counting-process"></a>Definir processo de contagem cíclica de localização parcial  
 

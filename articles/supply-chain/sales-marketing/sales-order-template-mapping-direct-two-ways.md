@@ -3,7 +3,7 @@ title: Sincronização de ordens de venda diretamente entre o Sales e o Finance 
 description: O tópico discute os modelos e as tarefas subjacentes que são usados para executar a sincronização de ordens de venda diretamente entre o Microsoft Dynamics 365 for Sales e o Microsoft Dynamics 365 for Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/11/2018
+ms.date: 05/09/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 985a5a908308bc2268b80e8eef7117fdd6d54af6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a427bff3cd07adbf4d3d81f98bdf7f85a194730b
+ms.sourcegitcommit: 3f02d8a874d1696cbf21d100f1ad205c57224e4b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "339110"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "1539105"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Sincronização de ordens de venda diretamente entre o Sales e o Finance and Operations
 
@@ -146,6 +146,16 @@ Antes de sincronizar ordens de venda, é importante atualizar as configurações
 ### <a name="setup-in-finance-and-operations"></a>Configuração no Finance and Operations
 
 - Vá para **Vendas e marketing** &gt; **Tarefas periódicas** &gt; **Calcular totais de vendas**, e configure o trabalho para ser executado como um trabalho em lotes. Defina a opção **Calcular totais de ordens de venda** como **Sim**. Esta etapa é importante, pois somente as ordens de venda em que os totais de vendas são calculados serão sincronizadas para o Sales. A frequência do trabalho em lotes deve ser alinhada à frequência de sincronização da ordem de venda.
+
+Se você também usa a integração da ordem de trabalho, você precisa configurar a origem de venda. A origem de venda é usada para diferenciar as ordens de venda no Finance and Operations criadas a a partir de ordens de trabalho no Field Service. Quando uma ordem de venda tiver uma origem de venda do tipo **Integração de ordem de trabalho**, o campo **Status de ordens de trabalho externas** será exibido no cabeçalho da ordem de venda. Além disso, a origem de venda garante que as ordens de venda criadas a partir de ordens de trabalho no Field Service sejam filtradas durante a sincronização da ordem de venda do Finance and Operations com o Field Service.
+
+1. Acesse **Vendas e marketing** \> **Configurar** \> **Ordens de venda** \> **Origem de venda**.
+2. Selecione **Nova** para criar uma nova origem de venda.
+3. No campo **Origem de venda**, insira um nome para a origem de venda, como **SalesOrder**.
+4. No campo **Descrição** insira uma descrição, como **Ordem de vendas a partir de Vendas**.
+5. Marque a caixa de seleção **Atribuição do tipo de origem** .
+6. Defina o campo **Tipo de origem de vendas** como **Integração da ordem de vendas**.
+7. Selecione **Salvar**.
 
 ### <a name="setup-in-the-sales-orders-sales-to-fin-and-ops---direct-data-integration-project"></a>Configuração de Ordens de venda (Sales para Fin and Ops) - Projeto de integração de dados diretos
 

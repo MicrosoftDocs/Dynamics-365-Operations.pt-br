@@ -1,9 +1,9 @@
 ---
-title: Visão geral da liquidação
-description: Este artigo oferece informações gerais sobre o processo de liquidação. Ele descreve os tipos de transações que podem ser liquidadas, quando e como as transações podem ser liquidadas e os resultados do processo de liquidação.
+title: Visão geral de liquidação
+description: Este tópico oferece informações gerais sobre o processo de liquidação. Ele descreve os tipos de transações que podem ser liquidadas, quando e como as transações podem ser liquidadas e os resultados do processo de liquidação.
 author: kweekley
 manager: AnnBe
-ms.date: 12/06/2018
+ms.date: 05/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9b82c6afa2812344ff8200e227ee8c5f2451584f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e13bdcdcf6dac68a95e6c2759a66bc59013464cb
+ms.sourcegitcommit: fd3db9f2052c76a5d906b9ec23cb16222452a362
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "338282"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "1539958"
 ---
-# <a name="settlement-overview"></a>Visão geral da liquidação
+# <a name="settlement-overview"></a>Visão geral de liquidação
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo oferece informações gerais sobre o processo de liquidação. Ele descreve os tipos de transações que podem ser liquidadas, quando e como as transações podem ser liquidadas e os resultados do processo de liquidação.
+Este tópico oferece informações gerais sobre o processo de liquidação. Ele descreve os tipos de transações que podem ser liquidadas, quando e como as transações podem ser liquidadas e os resultados do processo de liquidação.
 
 Durante a liquidação, as transações de um documento são aplicadas a transações em outro documento para aumentar ou diminuir o saldo de cada documento. Por exemplo, um pagamento pode ser aplicado a uma fatura. Vários tipos de transação podem ser resolvidos, em momentos diferentes e através de vários métodos. A liquidação também pode fazer com que novas transações sejam geradas.
 
@@ -40,7 +40,7 @@ A liquidação dentro do Contas a pagar e do Contas a receber pode ocorrer entre
 As transações podem ser liquidadas no momento da entrada de pagamento. Por exemplo, quando você faz um pagamento para um fornecedor, normalmente você seleciona as faturas a serem pagas. Ao selecionar faturas, você as marca para liquidação contra o pagamento. Quando os auxiliares de pagamento do Contas a Receber registram um pagamento de cliente, eles podem marcar as faturas apropriadas para liquidação, com base nas informações incluídas no pagamento do cliente. A página **Transações de liquidação** é usada para marcar transações para liquidação. Esta página pode ser aberta a partir de qualquer fatura ou pagamento não lançado. Quando a transação é lançada, a liquidação também é lançada. As transações também podem ser liquidadas depois de serem lançadas. Você pode inserir e lançar um pagamento de cliente sem liquidá-lo em todas as faturas. No entanto, você pode ter que fazer primeiro a pesquisa, para garantir que o pagamento é liquidado na fatura correta. A página **Liquidar transações** pode ser aberta na página **Todos os clientes** ou **Todos os fornecedores** ou na página **Transações** de qualquer cliente ou fornecedor. Você também pode reservar pagamentos antecipados lançados para uma fatura marcando o pagamento de uma liquidação contra uma ordem de compra ou de venda. Neste caso, o pagamento ainda terá um saldo em aberto, mas não pode ser liquidado contra outra fatura. O pagamento será automaticamente compensado com a fatura criada a partir da ordem de compra ou da ordem do cliente.
 
 ## <a name="how-to-settle-transactions"></a>Como liquidar transações
-As transações podem ser liquidadas manualmente, automaticamente, ou usando uma combinação dos métodos. A opção de um método de liquidação depende dos processos comerciais, que podem então ser implementado através da configuração da liquidação nos parâmetros de Contas a pagar e de Contas a receber. Você pode criar pagamentos de fornecedor e pagamentos de débito direto do cliente usando uma proposta de pagamento, que pode ser usada para selecionar faturas a serem pagas. A proposta de pagamento é iniciada manualmente, mas, em seguida, o Microsoft Dynamics 365 for Finance and Operations marca automaticamente as faturas selecionadas para liquidação quando os pagamentos são criados. Se os pagamentos forem criados manualmente, você pode usar a página **Transações de liquidação** para selecionar faturas para liquidação. Também é possível selecionar manualmente as faturas ou você pode usar a opção **Marcar por prioridade** para que as faturas sejam marcadas automaticamente para liquidação. A opção **Marcar por prioridade** fica disponível somente para Contas a receber. Para habilitar esta opção, use **Prioridade de liquidação** nos Parâmetros de contas a receber. Se um auxiliar de pagamento inserir um pagamento, mas não liquidar esse pagamento antes de lançá-lo, o pagamento poderá ser liquidado automaticamente. Você pode ativar a liquidação automática em Parâmetros de contas a receber e Parâmetros de contas a pagar. Quando você utiliza a liquidação automática, pode utilizar a ordem de liquidação predefinida ou pode definir a sua própria ordem de prioridade de liquidação em Parâmetros de contas a receber. Essa funcionalidade só estará disponível para Contas a receber.
+As transações podem ser liquidadas manualmente, automaticamente, ou usando uma combinação dos métodos. A opção de um método de liquidação depende dos processos comerciais, que podem então ser implementado através da configuração da liquidação nos parâmetros de Contas a pagar e de Contas a receber. Você pode criar pagamentos de fornecedor e pagamentos de débito direto do cliente usando uma proposta de pagamento, que pode ser usada para selecionar faturas a serem pagas. A proposta de pagamento é iniciada manualmente e, em seguida, o Dynamics 365 for Finance and Operations marca automaticamente as faturas selecionadas para liquidação quando os pagamentos são criados. Se os pagamentos forem criados manualmente, você pode usar a página **Transações de liquidação** para selecionar faturas para liquidação. Também é possível selecionar manualmente as faturas ou você pode usar a opção **Marcar por prioridade** para que as faturas sejam marcadas automaticamente para liquidação. A opção **Marcar por prioridade** fica disponível somente para Contas a receber. Para habilitar esta opção, use **Prioridade de liquidação** nos Parâmetros de contas a receber. Se um auxiliar de pagamento inserir um pagamento, mas não liquidar esse pagamento antes dele ser postado, o pagamento poderá ser liquidado automaticamente. Você pode ativar a liquidação automática em Parâmetros de contas a receber e Parâmetros de contas a pagar. A liquidação automática liquida transações dentro da mesma entidade legal e não liquida entre múltiplas entidades legais. Quando você utiliza a liquidação automática, pode utilizar a ordem de liquidação predefinida ou pode definir a sua própria ordem de prioridade de liquidação em Parâmetros de contas a receber. Essa funcionalidade só estará disponível para Contas a receber.
 
 ## <a name="results-of-settlement"></a>Os resultados da liquidação
 Quando as transações são liquidadas, o saldo pendente de cada transação é aumentado ou diminuído, conforme apropriado. Em um cenário típico, no qual uma fatura e um pagamento são liquidados, o status e um saldo de cada transação será atualizado de acordo com as regras a seguir:

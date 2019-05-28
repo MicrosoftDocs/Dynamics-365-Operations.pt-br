@@ -1,6 +1,6 @@
 ---
-title: Configurações de cobertura
-description: O planejamento mestre usa configurações de cobertura para calcular requisitos de itens.
+title: ​Configurações de cobertura​
+description: Este tópico fornece informações sobre as configurações de cobertura que o agendamento do planejamento mestre usa para calcular os requisitos do item.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,39 +19,37 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 50f47394a4d4e95b4e158ea42a630d9e6e91f05b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 99e094a7131b6d3a299fc72abd0141529908ddd2
+ms.sourcegitcommit: 9e50bee6a67f0fe2fa6f86e02c7e8de16d0e2482
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "322550"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "1538885"
 ---
-# <a name="coverage-settings"></a>Configurações de cobertura
+# <a name="coverage-settings"></a>​Configurações de cobertura​
 
 [!include [banner](../includes/banner.md)]
 
-O planejamento mestre usa configurações de cobertura para calcular requisitos de itens. 
+O planejamento mestre usa configurações de cobertura para calcular requisitos de itens.
 
 Você pode especificar as configurações de cobertura de várias formas:
 
--   Especifique as configurações de cobertura para um grupo de cobertura. Você pode criar um grupo de cobertura que contém configurações para todos os produtos vinculados ao grupo de cobertura. Clique em **Planejamento mestre &gt; Configuração &gt; Cobertura &gt; Grupos de cobertura** para criar um grupo de cobertura. Você pode vincular um grupo de cobertura a um produto. Se o link for específico de um site, um depósito ou uma dimensão de produto, use o campo **Grupo de cobertura** na página **Cobertura de item**. Se o link for genérico, independentemente das dimensões do produto, use o **Grupo de cobertura** na Guia Rápida **Plano** na página **Detalhes do produto** Se você não vincular um grupo de cobertura a um produto, o planejamento mestre usará como padrão o **Grupo de cobertura geral** especificado nos **Parâmetros de planejamento mestre** como o padrão.
+- Especifique as configurações de cobertura para um grupo de cobertura.
 
--   Especificar configurações de cobertura para um produto. Você pode criar configurações de cobertura para um produto específico. Clique em **Gerenciamento de informações do produto &gt; Produtos &gt; Produtos liberados**. Selecione o produto, no **Painel de Ação**, na guia **Plano**, no **Grupo de cobertura**, clique em **Cobertura de item** para abrir a página **Cobertura de item**. Se o produto já estiver vinculado a um grupo de cobertura, você poderá substituir as configurações do grupo de cobertura usando o campo **Substituir**. As configurações de cobertura na página**Cobertura de item** têm precedência sobre as configurações da página **Grupo de cobertura**.
+    Você pode criar um grupo de cobertura que contém configurações para todos os produtos vinculados ao grupo de cobertura. Para criar um grupo de cobertura, vá para **Planejamento mestre &gt; Configuração &gt; Cobertura &gt; Grupos de cobertura**. Você pode vincular um grupo de cobertura a um produto. Se o link for específico de um site, um depósito ou uma dimensão de produto, use o campo **Grupo de cobertura** na página **Cobertura de item**. Se o link for genérico, independentemente das dimensões do produto, use o campo **Grupo de cobertura** na Guia Rápida **Plano** da página **Detalhes do produto** Por padrão, se você não vincular um grupo de cobertura a um produto, o planejamento mestre usará o grupo de cobertura geral especificado na página **Parâmetros de planejamento mestre**.
 
-<!-- -->
+- Especificar configurações de cobertura para um produto.
 
--   Especificar as configurações de cobertura para um produto usando um assistente. O assistente é um guia passo a passo que o ajuda a configurar os parâmetros principais de cobertura de item. Na página **Cobertura de item**, clique em **Assistente** para abrir o **Assistente de Cobertura de Item**.
+    Você pode criar configurações de cobertura para um produto específico. Vá para **Gerenciamento de informações do produto &gt; Produtos &gt; Produtos liberados**. Selecione o produto e, no Painel de Ação, na guia **Plano**, no grupo **Cobertura**, selecione **Cobertura de item** para abrir a página **Cobertura de item**. Se o produto já estiver vinculado a um grupo de cobertura, você poderá substituir as configurações do grupo de cobertura usando o campo **Substituir**. As configurações de cobertura na página**Cobertura de item** têm precedência sobre as configurações da página **Grupo de cobertura**.
 
-<!-- -->
+- Especificar as configurações de cobertura para um produto usando um assistente.
 
-- Especifique as configurações de cobertura para um grupo de dimensões. Clique em **Gerenciamento de informações do produto &gt; Comum &gt; Produtos liberados**. Na página **Detalhes do produto liberado**, na guia **Geral**, no grupo **Administração**, clique no link **Grupo de dimensões de armazenamento**. Na página **Grupo de dimensões de armazenamento**, selecione o campo **Plano de cobertura por dimensão** para criar as configurações de cobertura de uma dimensão no grupo de dimensão de armazenamento. Todas as dimensões do produto, como a configuração, a cor, o tamanho, o estilo devem ter o campo **Plano de cobertura por dimensão** selecionado.
+    O assistente guia você passo a passo ao longo do processo de configuração dos principais parâmetros de cobertura do item. Na página **Cobertura de item**, no Painel de Ação, selecione **Assistente** para abrir o **Assistente de Cobertura de Item**.
 
+- Especifique as configurações de cobertura para um grupo de dimensões.
 
+    Vá para **Gerenciamento de informações do produto &gt; Produtos &gt; Produtos liberados**. Na página **Detalhes do produto liberado**, na Guia Rápida **Geral**, na seção **Administração**, selecione o link no campo **Grupo de dimensões de armazenamento**. Na página **Grupos de dimensões de armazenamento**, marque a caixa de seleção **Plano de cobertura por dimensão** para criar as configurações de cobertura de uma dimensão no grupo de dimensão de armazenamento. O campo **Plano de cobertura por dimensão** deve ser selecionado para todas as dimensões do produto, como configuração, cor, tamanho e estilo.
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Planos mestres](master-plans.md)
-
-
-

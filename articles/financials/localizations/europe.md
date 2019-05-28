@@ -16,11 +16,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321722"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545453"
 ---
 # <a name="europe"></a>Europa 
 
@@ -75,7 +75,7 @@ Este tópico inclui informações e links para recursos que podem ajudar você a
 - [Receber um certificado de entrada da UE](tasks/eur-00012-receive-eu-entry-certificate.md)
 - [IDs de Registro](emea-registration-ids.md)
 - [​Encargos revertidos​](emea-reverse-charge.md)
-- [Visão geral de transferência de crédito SEPA](../accounts-payable/sepa-credit-transfer.md)
+- [​Visão geral de transferência de crédito SEPA​](../accounts-payable/sepa-credit-transfer.md)
 - [​Visão geral de débito direto SEPA​](../accounts-receivable/sepa-direct-debit-overview.md)
 - [​Configurar remuneração de cliente e fornecedor​](emea-compensation-customer-vendor-transactions.md)
 - [Configurar relatórios da lista de vendas do UE](tasks/eur-00011-eu-sales-list-reporting.md)
@@ -90,7 +90,7 @@ Este tópico inclui informações e links para recursos que podem ajudar você a
   - [Taxas de câmbio de IVA](emea-vat-exchange-rate.md)
   - [Relatório de reconciliação de IVA](tasks/eur-00018-vat-reconciliation-report.md)
   - [​Transações de registro de IVA para a Europa Oriental​](emea-vat-register-transactions.md)
-  - [Relatório IVA](emea-vat-reporting.md)
+  - [Relatório de IVA](emea-vat-reporting.md)
   - [Criar e enviar um relatório de IVA](tasks/create-submit-vat-report.md)
   - [Exibir transações sobre liquidação](emea-transactions-settlement-form.md)
 

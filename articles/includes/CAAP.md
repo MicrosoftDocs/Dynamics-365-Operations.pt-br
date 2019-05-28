@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> Alguns aprimoramentos mostrados neste tópico estão disponíveis a usuários de destino que aceitaram o Continuous Auto-update Advantage Program (CAAP) para atualizações da plataforma. Para obter mais informações sobre versões padrão e direcionada, consulte [Versões de plataforma padrão e direcionada](../fin-and-ops/get-started/public-preview-releases.md).
+> Alguns aprimoramentos mostrados neste tópico estão disponíveis a usuários direcionados que optaram pelo CAAP (Continuous Auto-update Advantage Program) para receberem atualizações da plataforma. Para obter mais informações sobre versões padrão e direcionadas, consulte [Versões padrão e direcionadas da plataforma](../fin-and-ops/get-started/public-preview-releases.md).

@@ -18,11 +18,11 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: efd96759c5fb50e30d213e9e5d58a22fd77bc7a2
-ms.sourcegitcommit: b95bc0f81bd3bb3d9ec4c61f64f93b5c2bef9e05
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "902833"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1504093"
 ---
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>Home page de BI (business intelligence) e relatórios
 
@@ -44,7 +44,7 @@ Os usuários podem interagir com os dados clicando ou tocando em recursos visuai
 
 Para saber mais, consulte os seguintes tópicos:
 
-- [Power BI incorporado em espaços de trabalho](embed-power-bi-workspaces.md)
+- [Power BI inserido em espaços de trabalho](embed-power-bi-workspaces.md)
 - [Integração do Power BI Embedded](power-bi-embedded-integration.md)
 - [​Adicionar análise a espaços de trabalho usando o Power BI Embedded](add-analytics-tab-workspaces.md)
 - [Ajudar a proteger espaços de trabalho analíticos e relatórios usando o Power BI Embedded](secure-analytical-workspaces.md)

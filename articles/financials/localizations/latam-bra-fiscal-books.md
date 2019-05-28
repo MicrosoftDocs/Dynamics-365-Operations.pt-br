@@ -17,12 +17,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c04642358daafd27ae924b7839b1be8244819559
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: b15491bd4bca71a3e2d47c7556d341eb17e0c864
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371631"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1513017"
 ---
 # <a name="fiscal-books-for-brazil"></a>Livros fiscais para o Brasil
 

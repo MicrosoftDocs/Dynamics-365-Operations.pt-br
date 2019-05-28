@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: shylaw
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: da583d4848dcdd3363b98fd42e54dde93dd8f41e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: eb11a0f2da66698cae1fc0ebf3672a0cbee1547a
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371547"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538315"
 ---
 # <a name="sped-fiscal-files"></a>Arquivos fiscais SPED 
 

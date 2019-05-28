@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: v-gonode
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4ecf4c40fc95605ee3bd53ba081ebf79fa3543c0
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 5501c5ccd61230ec9c1ff26b93e81535dccdc65d
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371606"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1513012"
 ---
 # <a name="process-electronic-payment-remittances-for-brazil"></a>Processar remessas de pagamento eletrônico para o Brasil
 

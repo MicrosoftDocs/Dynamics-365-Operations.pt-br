@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 20a7781486c6e0612c27af02a1bccbc48c55a932
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c5cfe92b8733a0a6d76e074cc31eec3f3935b512
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353784"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1530859"
 ---
 # <a name="define-financial-dimensions"></a>Definir dimensões financeiras
 
@@ -47,7 +47,7 @@ Este guia de tarefas demonstra como adicionar uma dimensão financeira apoiada p
 ## <a name="create-a-custom-financial-dimension"></a>Criar uma dimensão financeira personalizada
 1. Feche a página.
 2. Clique em Novo.
-3. No campo Usar valores de, selecione <Custom dimension>.
+3. No campo Usar valores de, selecione Dimensão personalizada.
 4. No campo Nome de dimensão, digite um valor para descrever a dimensão financeira.
     * O nome não pode conter espaços ou caracteres especiais.  
     * Você também pode especificar uma máscara de conta para limitar o valor e o tipo de informação que é possível inserir para valores de dimensão.   

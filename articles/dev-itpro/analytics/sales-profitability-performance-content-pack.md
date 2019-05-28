@@ -19,11 +19,11 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: cf4d3e12d33b67158ff4f96580b4ac2eb903bb93
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "360408"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1551428"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Conteúdo de desempenho de vendas e de lucratividade do Power BI
 

@@ -16,12 +16,12 @@ ms.search.region: Brazil
 ms.author: v-gonode
 ms.search.validFrom: ''
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6f4cc45b388e35626a8d98bbf9d2e2ad323de163
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 06d292b4fc9789e9a1e40a302df4e492a37248bd
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371704"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538316"
 ---
 # <a name="set-up-import-and-verify-nf-e-xml-documents-and-danfe"></a>Configurar, importar e verificar documentos XML de NF-e e de DANFE
 

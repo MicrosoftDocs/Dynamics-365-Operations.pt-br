@@ -1,27 +1,27 @@
 ---
 title: Definir políticas de despesas
 description: Você pode definir políticas de despesas que seus trabalhadores devem seguir ao inserir e enviar relatórios de despesas e requisições de viagem no Microsoft Dynamics 365 for Finance and Operations.
-author: saraschi2
+author: ryansandness
 manager: AnnBe
-ms.date: 02/23/2018
+ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, TrvPolicyRule
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04eaff110fea021ddee32be650be540894eb703b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 9f0ff56f0ff106bc168b6a27612e08743a539a07
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "342422"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1514430"
 ---
 # <a name="expense-policies"></a>Diretivas de despesas
 
@@ -42,9 +42,13 @@ Você pode definir três tipos de política:
 
 - Erro – exige que o trabalhador revise a despesa para cumprimento da política antes do envio do relatório de despesas ou da requisição de viagem.       
  
-  - Justificativa – exige que o trabalhador ou um gerente insira uma justificativa para o excedente do valor da política antes do envio do relatório de despesas ou da requisição de viagem.        
- 
-  Você também pode configurar um intervalo de datas no qual as políticas de despesas estão em vigor. Por exemplo, tarifas aéreas para voos entre a Dinamarca      
-  e a cidade de Nova Iorque podem ser dispendiosas durante a estação de pico de viagens de férias. É possível definir uma regra de despesas com voos que restrinja o      
-  custo dos voos para a cidade de Nova Iorque a um limite de DKK 5000, e você pode especificar que essa regra esteja em vigor entre 15 de março e      
-  15 de setembro.
+ - Justificativa – exige que o trabalhador ou um gerente insira uma justificativa para o excedente do valor da política antes do envio do relatório de despesas ou da requisição de viagem.        
+
+# <a name="policy-tips"></a>Dicas de política
+Aqui estão algumas sugestões que podem ajudá-lo ao criar novas políticas para gerenciamento de despesas. 
+* As políticas têm data de efetivação e não começarão a valer se a política for cria com uma data após a data que a despesa ocorreu. Por exemplo, se você estiver criando uma nova política hoje para reforçar uma despesa de refeição máxima de $50, então qualquer despesas existentes inseridas a partir de ontem não serão verificadas contra esta política.
+* Ao criar uma política para uma categoria de despesa que pode ser especificada, considere adicionar uma condição para tipo de linha de despesa. Algumas políticas, como a necessidade de um recibo pode não fazer sentido para linhas especificadas e deve ser aplicado apenas a linha do cabeçalho ou a uma linha não especificada. 
+
+# <a name="when-to-evaluate-policies"></a>Quando avaliar políticas
+
+Nos parâmetros de gerenciamento de despesas, há uma opção para avaliar as políticas de gerenciamento de despesas quando uma linha é salva ou quando um relatório de despesa é enviado. Se você optar por avaliar quando uma linha é salva, isso garante que os usuários tenham uma visibilidade antecipada sobre o que precisam fazer para concluir seu relatório de despesas de uma só vez. Caso contrário, você pode atrasar a avaliação de política e economizar tempo se a validação ocorrer no final, durante envio ao fluxo de trabalho.
