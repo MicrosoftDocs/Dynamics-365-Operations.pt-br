@@ -1,67 +1,192 @@
----
-title: Copiar clientes usando sequências numéricas compartilhadas
-description: Este tópico explica como usar sequências numéricas compartilhadas para copiar um cliente para outra entidade legal mantendo a mesma ID.
-author: mikefalkner
-manager: aolson
-ms.date: 08/31/2018
-ms.topic: index-page
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: CustTable
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.search.region: Global
-ms.author: mikefalkner
-ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a92110cdbe58e2dbb913596ba08780ac3a6b50a7
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1507035"
----
-# <a name="copy-customers-by-using-shared-number-sequences"></a><span data-ttu-id="dba57-103">Copiar clientes usando sequências numéricas compartilhadas</span><span class="sxs-lookup"><span data-stu-id="dba57-103">Copy customers by using shared number sequences</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="dba57-104">Você pode usar sequências numéricas compartilhadas para atribuir IDs de cliente.</span><span class="sxs-lookup"><span data-stu-id="dba57-104">You can use shared number sequences to assign customer IDs.</span></span> <span data-ttu-id="dba57-105">As sequências numéricas compartilhadas também permitem copiar clientes de uma entidade legal para outra mantendo as mesmas IDs em ambas.</span><span class="sxs-lookup"><span data-stu-id="dba57-105">Shared number sequences also let you copy customers from one legal entity to another legal entity but use the same customer IDs in both legal entities.</span></span>
-
-## <a name="setup"></a><span data-ttu-id="dba57-106">Configurar</span><span class="sxs-lookup"><span data-stu-id="dba57-106">Setup</span></span>
-
-<span data-ttu-id="dba57-107">O recurso é ativado quando você usa uma sequência numérica compartilhada para atribuir IDs de cliente.</span><span class="sxs-lookup"><span data-stu-id="dba57-107">The feature is activated when you use a shared number sequence to assign customer IDs.</span></span> <span data-ttu-id="dba57-108">Você deve usar a mesma sequência numérica em cada entidade legal para a qual deseja copiar um cliente.</span><span class="sxs-lookup"><span data-stu-id="dba57-108">You must use the same number sequence in every legal entity that you want to copy a customer to.</span></span> <span data-ttu-id="dba57-109">É possível alterar a sequência numérica do cliente na página **Parâmetros de contas a receber** para cada entidade legal.</span><span class="sxs-lookup"><span data-stu-id="dba57-109">You change the customer number sequence on the **Accounts receivable parameters** page for each legal entity.</span></span> <span data-ttu-id="dba57-110">Escolha **Contas a receber** \> **Parâmetros** e depois a guia **Sequências numéricas**.</span><span class="sxs-lookup"><span data-stu-id="dba57-110">Select **Accounts receivable** \> **Parameters**, and then select the **Number sequences** tab.</span></span>
-
-<span data-ttu-id="dba57-111">Você também pode configurar sequências numéricas de cliente para cada grupo de clientes.</span><span class="sxs-lookup"><span data-stu-id="dba57-111">You can also set up customer number sequences for each customer group.</span></span> <span data-ttu-id="dba57-112">Essas sequências numéricas também devem ser compartilhadas.</span><span class="sxs-lookup"><span data-stu-id="dba57-112">These number sequences must also be shared.</span></span> <span data-ttu-id="dba57-113">A sequência numérica é usada primeiro para um grupo de clientes.</span><span class="sxs-lookup"><span data-stu-id="dba57-113">The number sequence for a customer group is used first.</span></span> <span data-ttu-id="dba57-114">Se nenhuma sequência numérica for especificada para um grupo de clientes, será usada a sequência especificada na página **Parâmetros de contas a receber**.</span><span class="sxs-lookup"><span data-stu-id="dba57-114">If no number sequence is specified for a customer group, the number sequence that is specified on the **Accounts receivable parameters** page is used.</span></span>
-
-<span data-ttu-id="dba57-115">Você também pode copiar clientes entre entidades legais se usar as IDs manuais.</span><span class="sxs-lookup"><span data-stu-id="dba57-115">You can also copy customers between legal entities if you use manual customer IDs.</span></span> <span data-ttu-id="dba57-116">Entretanto, se você tentar copiar um cliente para uma entidade legal em que a ID já existe, o processo de cópia não será iniciado.</span><span class="sxs-lookup"><span data-stu-id="dba57-116">However, if you try to copy a customer to a legal entity where the customer ID already exists, the copy process won't be started.</span></span>
-
-## <a name="copy-a-customer"></a><span data-ttu-id="dba57-117">Copiar um cliente</span><span class="sxs-lookup"><span data-stu-id="dba57-117">Copy a customer</span></span>
-
-<span data-ttu-id="dba57-118">Para copiar um cliente, escolha **Novo** na página **Todos os clientes**. Depois, será aberta a caixa de diálogo **Criar cliente**.</span><span class="sxs-lookup"><span data-stu-id="dba57-118">To copy a customer, select **New** on the **All customers** list page to open the **Create customer** dialog box.</span></span> <span data-ttu-id="dba57-119">Observe que a nova ID de cliente não é atribuída imediatamente.</span><span class="sxs-lookup"><span data-stu-id="dba57-119">Notice that the new customer ID isn't assigned immediately.</span></span> <span data-ttu-id="dba57-120">Esse comportamento difere do comportamento de versões anteriores do Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="dba57-120">This behavior differs from the behavior in previous versions of Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="dba57-121">Como você ainda não escolheu o grupo de clientes, o sistema não pode determinar a sequência numérica correta a ser usada.</span><span class="sxs-lookup"><span data-stu-id="dba57-121">Because you haven't yet selected the customer group, the system can't determine the correct number sequence to use.</span></span> <span data-ttu-id="dba57-122">Além disso, ele não consegue determinar se você está tentando criar um cliente ou copiar um já existente.</span><span class="sxs-lookup"><span data-stu-id="dba57-122">Additionally, it can't determine whether you're trying to create a new customer or copy a customer.</span></span> <span data-ttu-id="dba57-123">Portanto, a ID de cliente não é atribuída até que você escolha **Salvar** na parte inferior da caixa de diálogo.</span><span class="sxs-lookup"><span data-stu-id="dba57-123">Therefore, the customer ID isn't assigned until you select **Save** at the bottom of the dialog box.</span></span>
-
-<span data-ttu-id="dba57-124">Se você estiver criando um cliente, continue preenchendo todos os campos da forma usual.</span><span class="sxs-lookup"><span data-stu-id="dba57-124">If you're creating a new customer, you can continue to fill in all the fields as you usually do.</span></span> <span data-ttu-id="dba57-125">Depois que terminar e **Salvar**, você verá que a ID de cliente foi atribuída automaticamente.</span><span class="sxs-lookup"><span data-stu-id="dba57-125">When you've finished, and you select **Save**, you will see that the customer ID was assigned automatically.</span></span> <span data-ttu-id="dba57-126">No caso das sequências numéricas manuais, você verá que a ID manual do cliente foi usada.</span><span class="sxs-lookup"><span data-stu-id="dba57-126">Alternatively, for manual number sequences, you will see that your manual customer ID was used.</span></span>
-
-<span data-ttu-id="dba57-127">Para copiar um cliente, insira no campo **Nome** um ou mais caracteres que representam o cliente que você está procurando.</span><span class="sxs-lookup"><span data-stu-id="dba57-127">To copy a customer, in the **Name** field, enter one or more characters that represent the customer that you're looking for.</span></span> <span data-ttu-id="dba57-128">Uma caixa de diálogo de pesquisa mostra uma lista de participantes que podem ser o cliente que você procura.</span><span class="sxs-lookup"><span data-stu-id="dba57-128">A search dialog box shows a list of parties that might represent the customer that you're looking for.</span></span> <span data-ttu-id="dba57-129">Quando você selecionar um dos participantes, informações adicionais aparecerão no lado direito da caixa de diálogo:</span><span class="sxs-lookup"><span data-stu-id="dba57-129">When you select one of the parties, additional information appears on the right side of the dialog box:</span></span>
-
-- <span data-ttu-id="dba57-130">A guia **Geral** mostra o número de telefone e o endereço do participante.</span><span class="sxs-lookup"><span data-stu-id="dba57-130">The **General** tab shows the party's phone number and address.</span></span>
-- <span data-ttu-id="dba57-131">A guia **Funções** mostra as funções que o participante selecionado pode ter e as entidades legais correspondentes a cada uma delas.</span><span class="sxs-lookup"><span data-stu-id="dba57-131">The **Roles** tab shows the roles that the selected party can have and the legal entity where it has each role.</span></span>
-- <span data-ttu-id="dba57-132">A guia **ID do registro de imposto** mostra as IDs de registros de imposto atribuídas ao participante.</span><span class="sxs-lookup"><span data-stu-id="dba57-132">**Tax registration ID** tab shows the tax registration IDs that are assigned to the party.</span></span>
-
-<span data-ttu-id="dba57-133">Você pode copiar um participante somente se ele tiver uma função de cliente e se tiver essa função em outra entidade legal que não a atual.</span><span class="sxs-lookup"><span data-stu-id="dba57-133">You can copy a party only if it has a customer role, and if it has that role in a legal entity that isn't the current legal entity.</span></span> <span data-ttu-id="dba57-134">Quando você encontrar um participante que atenda a esses critérios, realize as etapas a seguir.</span><span class="sxs-lookup"><span data-stu-id="dba57-134">When you find a party that meets these criteria, follow these steps.</span></span>
-
-1. <span data-ttu-id="dba57-135">A opção **Copiar cliente** é exibida.</span><span class="sxs-lookup"><span data-stu-id="dba57-135">A **Copy customer** option appears.</span></span> <span data-ttu-id="dba57-136">Por padrão, essa opção é definida como **Não**.</span><span class="sxs-lookup"><span data-stu-id="dba57-136">By default, this option is set to **No**.</span></span> <span data-ttu-id="dba57-137">Para copiar o cliente para a entidade legal atual, defina-a como **Sim**.</span><span class="sxs-lookup"><span data-stu-id="dba57-137">To copy the customer to the current legal entity, set the option to **Yes**.</span></span> 
-2. <span data-ttu-id="dba57-138">O campo **Entidade legal** é exibido.</span><span class="sxs-lookup"><span data-stu-id="dba57-138">A **Legal entity** field appears.</span></span> <span data-ttu-id="dba57-139">Selecione a entidade legal da qual o cliente será copiado.</span><span class="sxs-lookup"><span data-stu-id="dba57-139">Select the legal entity to copy the customer from.</span></span> <span data-ttu-id="dba57-140">Se o cliente existir apenas em uma entidade legal, o campo estará definido como a entidade legal correspondente por padrão.</span><span class="sxs-lookup"><span data-stu-id="dba57-140">If the customer exists in only one legal entity, the field is set to that legal entity by default.</span></span>
-3. <span data-ttu-id="dba57-141">Escolha **Selecionar**.</span><span class="sxs-lookup"><span data-stu-id="dba57-141">Select **Select**.</span></span> <span data-ttu-id="dba57-142">O cliente foi criado.</span><span class="sxs-lookup"><span data-stu-id="dba57-142">The new customer is created.</span></span>
-
-## <a name="validation"></a><span data-ttu-id="dba57-143">Validação</span><span class="sxs-lookup"><span data-stu-id="dba57-143">Validation</span></span>
-
-<span data-ttu-id="dba57-144">Ao copiar um cliente, o sistema tenta salvar as novas informações dele.</span><span class="sxs-lookup"><span data-stu-id="dba57-144">When you copy a customer, the system tries to save the new customer information.</span></span> <span data-ttu-id="dba57-145">São executadas validações para verificar se os dados que foram copiados estão corretos.</span><span class="sxs-lookup"><span data-stu-id="dba57-145">Validations are run to verify that the data that was copied is good.</span></span> <span data-ttu-id="dba57-146">Você receberá uma mensagem de erro para que cada validação com falha.</span><span class="sxs-lookup"><span data-stu-id="dba57-146">You receive an error message for every validation that fails.</span></span> <span data-ttu-id="dba57-147">As mensagens de erro mostram quais informações devem ser atualizadas.</span><span class="sxs-lookup"><span data-stu-id="dba57-147">The error messages explain what information must be updated.</span></span> <span data-ttu-id="dba57-148">A cópia do cliente não pode ser salva até que você corrija os erros de validação.</span><span class="sxs-lookup"><span data-stu-id="dba57-148">The copy of the customer can't be saved until you fix all the validation errors.</span></span>
-
-## <a name="copy-a-customer-by-using-tax-exempt-number-search-feature"></a><span data-ttu-id="dba57-149">Copiar um cliente usando o recurso de pesquisa do número de isenção de imposto</span><span class="sxs-lookup"><span data-stu-id="dba57-149">Copy a customer by using tax exempt number search feature</span></span>
-
-<span data-ttu-id="dba57-150">Você também pode copiar clientes usando o recurso de pesquisa do número de isenção de imposto, que é encontrado no grupo **Registro** da guia **Cliente**, no Painel de Ações da página **Todos os clientes**.</span><span class="sxs-lookup"><span data-stu-id="dba57-150">You can also copy customers by using the Tax exempt number search feature that is in the **Registration** group on the **Customer** tab on the Action Pane of the **All customers** page.</span></span> <span data-ttu-id="dba57-151">A caixa de diálogo **Pesquisa de número de isenção de imposto** exibida mostra os números de isenção de imposto, a ID e o nome do cliente, e a entidade legal em que a ID de isenção de imposto é usada.</span><span class="sxs-lookup"><span data-stu-id="dba57-151">The **Tax exempt number search** dialog box that appears shows tax exempt numbers, the customer ID, the customer name, and the legal entity where the tax exempt ID is used.</span></span> <span data-ttu-id="dba57-152">Você pode copiar um cliente somente se ele estiver em uma entidade legal que não a atual.</span><span class="sxs-lookup"><span data-stu-id="dba57-152">You can copy a customer only if it's in a legal entity that isn't the current legal entity.</span></span> <span data-ttu-id="dba57-153">Após selecionar um cliente que atende a esse critério, realize as etapas a seguir.</span><span class="sxs-lookup"><span data-stu-id="dba57-153">After you select a customer that meets this criterion, follow these steps.</span></span>
-
-1. <span data-ttu-id="dba57-154">A opção **Copiar cliente** é exibida.</span><span class="sxs-lookup"><span data-stu-id="dba57-154">A **Copy customer** option appears.</span></span> <span data-ttu-id="dba57-155">Por padrão, essa opção é definida como **Não**.</span><span class="sxs-lookup"><span data-stu-id="dba57-155">By default, this option is set to **No**.</span></span> <span data-ttu-id="dba57-156">Para copiar o cliente para a entidade legal atual, defina-a como **Sim**.</span><span class="sxs-lookup"><span data-stu-id="dba57-156">To copy the customer to the current legal entity, set the option to **Yes**.</span></span> 
-2. <span data-ttu-id="dba57-157">Escolha **Selecionar**.</span><span class="sxs-lookup"><span data-stu-id="dba57-157">Select **Select**.</span></span> <span data-ttu-id="dba57-158">O cliente foi criado.</span><span class="sxs-lookup"><span data-stu-id="dba57-158">The new customer is created.</span></span>
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="copy-customer.md" target-language="pt-BR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>copy-customer.99fcbb.7a1e6c6e3a995ad745522d58960e850d72c2ee57.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>7a1e6c6e3a995ad745522d58960e850d72c2ee57</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\accounts-receivable\copy-customer.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Copy customers by using shared number sequences</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Copiar clientes usando sequências numéricas compartilhadas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic explains how to use shared number sequences to copy a customer to another legal entity but keep the same customer ID.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este tópico explica como usar sequências numéricas compartilhadas para copiar um cliente para outra entidade legal mantendo a mesma ID.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Copy customers by using shared number sequences</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Copiar clientes usando sequências numéricas compartilhadas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>You can use shared number sequences to assign customer IDs.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você pode usar sequências numéricas compartilhadas para atribuir IDs de cliente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>Shared number sequences also let you copy customers from one legal entity to another legal entity but use the same customer IDs in both legal entities.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As sequências numéricas compartilhadas também permitem copiar clientes de uma entidade legal para outra mantendo as mesmas IDs em ambas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Setup</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configurar</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>The feature is activated when you use a shared number sequence to assign customer IDs.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O recurso é ativado quando você usa uma sequência numérica compartilhada para atribuir IDs de cliente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>You must use the same number sequence in every legal entity that you want to copy a customer to.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você deve usar a mesma sequência numérica em cada entidade legal para a qual deseja copiar um cliente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>You change the customer number sequence on the <bpt id="p1">**</bpt>Accounts receivable parameters<ept id="p1">**</ept> page for each legal entity.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">É possível alterar a sequência numérica do cliente na página <bpt id="p1">**</bpt>Parâmetros de contas a receber<ept id="p1">**</ept> para cada entidade legal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Select <bpt id="p1">**</bpt>Accounts receivable<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Parameters<ept id="p2">**</ept>, and then select the <bpt id="p3">**</bpt>Number sequences<ept id="p3">**</ept> tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Escolha <bpt id="p1">**</bpt>Contas a receber<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Parâmetros<ept id="p2">**</ept> e depois a guia <bpt id="p3">**</bpt>Sequências numéricas<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>You can also set up customer number sequences for each customer group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você também pode configurar sequências numéricas de cliente para cada grupo de clientes.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>These number sequences must also be shared.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Essas sequências numéricas também devem ser compartilhadas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>The number sequence for a customer group is used first.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A sequência numérica é usada primeiro para um grupo de clientes.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>If no number sequence is specified for a customer group, the number sequence that is specified on the <bpt id="p1">**</bpt>Accounts receivable parameters<ept id="p1">**</ept> page is used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se nenhuma sequência numérica for especificada para um grupo de clientes, será usada a sequência especificada na página <bpt id="p1">**</bpt>Parâmetros de contas a receber<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>You can also copy customers between legal entities if you use manual customer IDs.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você também pode copiar clientes entre entidades legais se usar as IDs manuais.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>However, if you try to copy a customer to a legal entity where the customer ID already exists, the copy process won't be started.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entretanto, se você tentar copiar um cliente para uma entidade legal em que a ID já existe, o processo de cópia não será iniciado.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Copy a customer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Copiar um cliente</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>To copy a customer, select <bpt id="p1">**</bpt>New<ept id="p1">**</ept> on the <bpt id="p2">**</bpt>All customers<ept id="p2">**</ept> list page to open the <bpt id="p3">**</bpt>Create customer<ept id="p3">**</ept> dialog box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para copiar um cliente, escolha <bpt id="p1">**</bpt>Novo<ept id="p1">**</ept> na página <bpt id="p2">**</bpt>Todos os clientes<ept id="p2">**</ept>. Depois, será aberta a caixa de diálogo <bpt id="p3">**</bpt>Criar cliente<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Notice that the new customer ID isn't assigned immediately.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Observe que a nova ID de cliente não é atribuída imediatamente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>This behavior differs from the behavior in previous versions of Microsoft Dynamics 365 for Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esse comportamento difere do comportamento de versões anteriores do Microsoft Dynamics 365 for Finance and Operations.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Because you haven't yet selected the customer group, the system can't determine the correct number sequence to use.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Como você ainda não escolheu o grupo de clientes, o sistema não pode determinar a sequência numérica correta a ser usada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Additionally, it can't determine whether you're trying to create a new customer or copy a customer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Além disso, ele não consegue determinar se você está tentando criar um cliente ou copiar um já existente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Therefore, the customer ID isn't assigned until you select <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> at the bottom of the dialog box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Portanto, a ID de cliente não é atribuída até que você escolha <bpt id="p1">**</bpt>Salvar<ept id="p1">**</ept> na parte inferior da caixa de diálogo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>If you're creating a new customer, you can continue to fill in all the fields as you usually do.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se você estiver criando um cliente, continue preenchendo todos os campos da forma usual.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>When you've finished, and you select <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>, you will see that the customer ID was assigned automatically.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Depois que terminar e <bpt id="p1">**</bpt>Salvar<ept id="p1">**</ept>, você verá que a ID de cliente foi atribuída automaticamente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Alternatively, for manual number sequences, you will see that your manual customer ID was used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No caso das sequências numéricas manuais, você verá que a ID manual do cliente foi usada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>To copy a customer, in the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> field, enter one or more characters that represent the customer that you're looking for.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para copiar um cliente, insira no campo <bpt id="p1">**</bpt>Nome<ept id="p1">**</ept> um ou mais caracteres que representam o cliente que você está procurando.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>A search dialog box shows a list of parties that might represent the customer that you're looking for.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uma caixa de diálogo de pesquisa mostra uma lista de participantes que podem ser o cliente que você procura.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>When you select one of the parties, additional information appears on the right side of the dialog box:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando você selecionar um dos participantes, informações adicionais aparecerão no lado direito da caixa de diálogo:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>The <bpt id="p1">**</bpt>General<ept id="p1">**</ept> tab shows the party's phone number and address.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A guia <bpt id="p1">**</bpt>Geral<ept id="p1">**</ept> mostra o número de telefone e o endereço do participante.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>The <bpt id="p1">**</bpt>Roles<ept id="p1">**</ept> tab shows the roles that the selected party can have and the legal entity where it has each role.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A guia <bpt id="p1">**</bpt>Funções<ept id="p1">**</ept> mostra as funções que o participante selecionado pode ter e as entidades legais correspondentes a cada uma delas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source><bpt id="p1">**</bpt>Tax registration ID<ept id="p1">**</ept> tab shows the tax registration IDs that are assigned to the party.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A guia <bpt id="p1">**</bpt>ID do registro de imposto<ept id="p1">**</ept> mostra as IDs de registros de imposto atribuídas ao participante.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>You can copy a party only if it has a customer role, and if it has that role in a legal entity that isn't the current legal entity.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você pode copiar um participante somente se ele tiver uma função de cliente e se tiver essa função em outra entidade legal que não a atual.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>When you find a party that meets these criteria, follow these steps.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando você encontrar um participante que atenda a esses critérios, realize as etapas a seguir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>A <bpt id="p1">**</bpt>Copy customer<ept id="p1">**</ept> option appears.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A opção <bpt id="p1">**</bpt>Copiar cliente<ept id="p1">**</ept> é exibida.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>By default, this option is set to <bpt id="p1">**</bpt>No<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Por padrão, essa opção é definida como <bpt id="p1">**</bpt>Não<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>To copy the customer to the current legal entity, set the option to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para copiar o cliente para a entidade legal atual, defina-a como <bpt id="p1">**</bpt>Sim<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>A <bpt id="p1">**</bpt>Legal entity<ept id="p1">**</ept> field appears.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O campo <bpt id="p1">**</bpt>Entidade legal<ept id="p1">**</ept> é exibido.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>Select the legal entity to copy the customer from.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione a entidade legal da qual o cliente será copiado.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>If the customer exists in only one legal entity, the field is set to that legal entity by default.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se o cliente existir apenas em uma entidade legal, o campo estará definido como a entidade legal correspondente por padrão.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>Select <bpt id="p1">**</bpt>Select<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Escolha <bpt id="p1">**</bpt>Selecionar<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>The new customer is created.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O cliente foi criado.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>Validation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Validação</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>When you copy a customer, the system tries to save the new customer information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ao copiar um cliente, o sistema tenta salvar as novas informações dele.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Validations are run to verify that the data that was copied is good.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">São executadas validações para verificar se os dados que foram copiados estão corretos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>You receive an error message for every validation that fails.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você receberá uma mensagem de erro para que cada validação com falha.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>The error messages explain what information must be updated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As mensagens de erro mostram quais informações devem ser atualizadas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>The copy of the customer can't be saved until you fix all the validation errors.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A cópia do cliente não pode ser salva até que você corrija os erros de validação.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Copy a customer by using tax exempt number search feature</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Copiar um cliente usando o recurso de pesquisa do número de isenção de imposto</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>You can also copy customers by using the Tax exempt number search feature that is in the <bpt id="p1">**</bpt>Registration<ept id="p1">**</ept> group on the <bpt id="p2">**</bpt>Customer<ept id="p2">**</ept> tab on the Action Pane of the <bpt id="p3">**</bpt>All customers<ept id="p3">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você também pode copiar clientes usando o recurso de pesquisa do número de isenção de imposto, que é encontrado no grupo <bpt id="p1">**</bpt>Registro<ept id="p1">**</ept> da guia <bpt id="p2">**</bpt>Cliente<ept id="p2">**</ept>, no Painel de Ações da página <bpt id="p3">**</bpt>Todos os clientes<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>The <bpt id="p1">**</bpt>Tax exempt number search<ept id="p1">**</ept> dialog box that appears shows tax exempt numbers, the customer ID, the customer name, and the legal entity where the tax exempt ID is used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A caixa de diálogo <bpt id="p1">**</bpt>Pesquisa de número de isenção de imposto<ept id="p1">**</ept> exibida mostra os números de isenção de imposto, a ID e o nome do cliente, e a entidade legal em que a ID de isenção de imposto é usada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>You can copy a customer only if it's in a legal entity that isn't the current legal entity.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você pode copiar um cliente somente se ele estiver em uma entidade legal que não a atual.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>After you select a customer that meets this criterion, follow these steps.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Após selecionar um cliente que atende a esse critério, realize as etapas a seguir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>A <bpt id="p1">**</bpt>Copy customer<ept id="p1">**</ept> option appears.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A opção <bpt id="p1">**</bpt>Copiar cliente<ept id="p1">**</ept> é exibida.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>By default, this option is set to <bpt id="p1">**</bpt>No<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Por padrão, essa opção é definida como <bpt id="p1">**</bpt>Não<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>To copy the customer to the current legal entity, set the option to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para copiar o cliente para a entidade legal atual, defina-a como <bpt id="p1">**</bpt>Sim<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>Select <bpt id="p1">**</bpt>Select<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Escolha <bpt id="p1">**</bpt>Selecionar<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>The new customer is created.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O cliente foi criado.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
