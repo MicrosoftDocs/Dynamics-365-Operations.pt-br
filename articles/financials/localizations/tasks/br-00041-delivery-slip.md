@@ -1,73 +1,168 @@
----
-title: Guias de entrega (Brasil)
-description: Você pode lançar uma guia de entrega para uma ordem de venda com várias linhas de ordem de venda com um código CFOP (Código Fiscal de Operações e Prestações).
-author: sndray
-manager: AnnBe
-ms.date: 06/24/2017
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
-ms.search.region: Brazil
-ms.search.industry: Manufacturing;Distribution;Service industries
-ms.author: sndray
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33feafa88ed478e8b722200a0350e22b8cc80758
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538313"
----
-# <a name="delivery-slips-brazil"></a><span data-ttu-id="d9ac0-103">Guias de entrega (Brasil)</span><span class="sxs-lookup"><span data-stu-id="d9ac0-103">Delivery slips (Brazil)</span></span>
-
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
-<span data-ttu-id="d9ac0-104">Você pode lançar uma guia de entrega para uma ordem de venda com várias linhas de ordem de venda com um código CFOP (Código Fiscal de Operações e Prestações).</span><span class="sxs-lookup"><span data-stu-id="d9ac0-104">You can post a delivery slip for a sales order that has multiple sales order lines that have a delivery Código Fiscal de Operações e Prestações (CFOP) code.</span></span> <span data-ttu-id="d9ac0-105">Para cada linha de ordem de venda, você deve especificar o código CFOP que tem um código CFOP de entrega atribuído a ele.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-105">For each sales order line, you must specify the CFOP code that has a delivery CFOP code assigned to it.</span></span> <span data-ttu-id="d9ac0-106">Uma guia de entrega é usada quando o cliente para o qual você entrega itens difere do cliente que é faturado.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-106">A delivery slip is used when the customer that you deliver items to differs from the customer that is invoiced.</span></span> <span data-ttu-id="d9ac0-107">(Ou seja, a conta do cliente e a conta da fatura diferem.) As guias de entrega são lançadas em ordem cronológica.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-107">(In other words, the customer account and invoice account differ.) Delivery slips are posted in chronological order.</span></span> <span data-ttu-id="d9ac0-108">É preciso anexar referências fiscais a guias de entrega antes de lançá-las.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-108">You must attach fiscal references to delivery slips before you post them.</span></span> <span data-ttu-id="d9ac0-109">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-109">This task uses the BRMF demo company.</span></span>
-
-1. <span data-ttu-id="d9ac0-110">Vá para Vendas e marketing > Ordens de venda > Todas as ordens de venda.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-110">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
-2. <span data-ttu-id="d9ac0-111">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-111">Click New.</span></span>
-3. <span data-ttu-id="d9ac0-112">No campo Conta de cliente, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-112">In the Customer account field, enter or select a value.</span></span>
-4. <span data-ttu-id="d9ac0-113">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-113">Click OK.</span></span>
-5. <span data-ttu-id="d9ac0-114">No campo Linhas ou cabeçalho, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-114">In the Lines or header field, select an option.</span></span>
-6. <span data-ttu-id="d9ac0-115">No campo Conta de fatura, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-115">In the Invoice account field, enter or select a value.</span></span>
-    * <span data-ttu-id="d9ac0-116">Selecione o cliente que encomendou mercadorias.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-116">Select the customer that ordered the goods.</span></span>  
-7. <span data-ttu-id="d9ac0-117">No campo Linhas ou cabeçalho, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-117">In the Lines or header field, select an option.</span></span>
-8. <span data-ttu-id="d9ac0-118">Clique em Adicionar linha.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-118">Click Add line.</span></span>
-9. <span data-ttu-id="d9ac0-119">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-119">In the list, mark the selected row.</span></span>
-10. <span data-ttu-id="d9ac0-120">No campo Número do item, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-120">In the Item number field, enter or select a value.</span></span>
-11. <span data-ttu-id="d9ac0-121">No campo Quantidade, insira um número.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-121">In the Quantity field, enter a number.</span></span>
-12. <span data-ttu-id="d9ac0-122">No campo Local, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-122">In the Site field, enter or select a value.</span></span>
-13. <span data-ttu-id="d9ac0-123">No campo Depósito, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-123">In the Warehouse field, enter or select a value.</span></span>
-14. <span data-ttu-id="d9ac0-124">No campo CFOP, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-124">In the CFOP field, enter or select a value.</span></span>
-    * <span data-ttu-id="d9ac0-125">Os códigos de CFOP disponíveis dependem do estabelecimento fiscal do site, tipo de ordem, tipo de operação, localização do cliente e endereço de entrega do cliente.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-125">The CFOP codes that are available depend on the fiscal establishment of the site, order type, operation type, location of the customer, and delivery address of the customer.</span></span>  
-15. <span data-ttu-id="d9ac0-126">Expanda a seção Detalhes da linha.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-126">Expand the Line details section.</span></span>
-16. <span data-ttu-id="d9ac0-127">Clique na guia Configuração.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-127">Click the Setup tab.</span></span>
-17. <span data-ttu-id="d9ac0-128">No campo Grupo de imposto do item de entrega, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-128">In the Delivery item sales tax group field, enter or select a value.</span></span>
-    * <span data-ttu-id="d9ac0-129">Insira o grupo de impostos sobre vendas do item para a nota fiscal de entrega.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-129">Enter the item sales tax group for the delivery fiscal document.</span></span>  
-18. <span data-ttu-id="d9ac0-130">No campo Grupo de imposto de entrega, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-130">In the Delivery sales tax group field, enter or select a value.</span></span>
-    * <span data-ttu-id="d9ac0-131">Insira o grupo de impostos sobre vendas para a nota fiscal de entrega.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-131">Enter the sales tax group for the delivery fiscal document.</span></span>  
-19. <span data-ttu-id="d9ac0-132">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-132">Click Save.</span></span>
-20. <span data-ttu-id="d9ac0-133">No Painel de Ação, clique em Separar e empacotar.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-133">On the Action Pane, click Pick and pack.</span></span>
-21. <span data-ttu-id="d9ac0-134">Clique em Guia de entrega.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-134">Click Delivery slip.</span></span>
-22. <span data-ttu-id="d9ac0-135">Clique em Referência fiscal.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-135">Click Fiscal reference.</span></span>
-23. <span data-ttu-id="d9ac0-136">No campo Modelo do documento, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-136">In the Document model field, enter or select a value.</span></span>
-24. <span data-ttu-id="d9ac0-137">No campo Chave de acesso, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-137">In the Access key field, type a value.</span></span>
-    * <span data-ttu-id="d9ac0-138">Insira a chave de acesso da NF-e que foi emitida pelo cliente que encomendou mercadoria e ao qual as vendas devem ser faturadas.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-138">Enter the access key from the NF-e that was issued by the customer that ordered to goods and that the sales must be invoiced to.</span></span>  
-25. <span data-ttu-id="d9ac0-139">No campo Data, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-139">In the Date field, enter a date.</span></span>
-26. <span data-ttu-id="d9ac0-140">No campo Direção, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-140">In the Direction field, select an option.</span></span>
-27. <span data-ttu-id="d9ac0-141">No campo Conta, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-141">In the Account field, enter or select a value.</span></span>
-    * <span data-ttu-id="d9ac0-142">Selecione a conta do cliente que gerou a nota fiscal.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-142">Select the customer account that generated the fiscal document.</span></span>  
-28. <span data-ttu-id="d9ac0-143">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-143">Click Save.</span></span>
-29. <span data-ttu-id="d9ac0-144">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-144">Close the page.</span></span>
-30. <span data-ttu-id="d9ac0-145">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-145">Click OK.</span></span>
-31. <span data-ttu-id="d9ac0-146">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-146">Click OK.</span></span>
-32. <span data-ttu-id="d9ac0-147">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-147">Close the page.</span></span>
-33. <span data-ttu-id="d9ac0-148">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-148">Close the page.</span></span>
-34. <span data-ttu-id="d9ac0-149">Vá para Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-149">Go to Accounts receivable > Fiscal documents > Electronic fiscal documents > Export/import NF-e process.</span></span>
-35. <span data-ttu-id="d9ac0-150">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="d9ac0-150">Click OK.</span></span>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="br-00041-delivery-slip.md" target-language="pt-BR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>br-00041-delivery-slip.12d0c1.431c987d07aff30f709e867f4689a779259beed9.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>431c987d07aff30f709e867f4689a779259beed9</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\br-00041-delivery-slip.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Delivery slips (Brazil)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Guias de entrega (Brasil)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>You can post a delivery slip for a sales order that has multiple sales order lines that have a delivery Código Fiscal de Operações e Prestações (CFOP) code.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você pode lançar uma guia de entrega para uma ordem de venda com várias linhas de ordem de venda com um código CFOP (Código Fiscal de Operações e Prestações).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Delivery slips (Brazil)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Guias de entrega (Brasil)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>You can post a delivery slip for a sales order that has multiple sales order lines that have a delivery Código Fiscal de Operações e Prestações (CFOP) code.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você pode lançar uma guia de entrega para uma ordem de venda com várias linhas de ordem de venda com um código CFOP (Código Fiscal de Operações e Prestações).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>For each sales order line, you must specify the CFOP code that has a delivery CFOP code assigned to it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para cada linha de ordem de venda, você deve especificar o código CFOP que tem um código CFOP de entrega atribuído a ele.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>A delivery slip is used when the customer that you deliver items to differs from the customer that is invoiced.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uma guia de entrega é usada quando o cliente para o qual você entrega itens difere do cliente que é faturado.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>(In other words, the customer account and invoice account differ.) Delivery slips are posted in chronological order.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Ou seja, a conta do cliente e a conta da fatura diferem.) As guias de entrega são lançadas em ordem cronológica.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>You must attach fiscal references to delivery slips before you post them.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">É preciso anexar referências fiscais a guias de entrega antes de lançá-las.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>This task uses the BRMF demo company.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta tarefa usa a empresa de demonstração BRMF.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Go to Sales and marketing &gt; Sales orders &gt; All sales orders.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Vendas e marketing &gt; Ordens de venda &gt; Todas as ordens de venda.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>In the Customer account field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Conta de cliente, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>In the Lines or header field, select an option.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Linhas ou cabeçalho, selecione uma opção.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>In the Invoice account field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Conta de fatura, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Select the customer that ordered the goods.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione o cliente que encomendou mercadorias.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>In the Lines or header field, select an option.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Linhas ou cabeçalho, selecione uma opção.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Click Add line.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Adicionar linha.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>In the list, mark the selected row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, marque a linha selecionada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>In the Item number field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Número do item, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>In the Quantity field, enter a number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Quantidade, insira um número.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>In the Site field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Local, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>In the Warehouse field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Depósito, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>In the CFOP field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo CFOP, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>The CFOP codes that are available depend on the fiscal establishment of the site, order type, operation type, location of the customer, and delivery address of the customer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os códigos de CFOP disponíveis dependem do estabelecimento fiscal do site, tipo de ordem, tipo de operação, localização do cliente e endereço de entrega do cliente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Expand the Line details section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Expanda a seção Detalhes da linha.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Click the Setup tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique na guia Configuração.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>In the Delivery item sales tax group field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Grupo de imposto do item de entrega, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>Enter the item sales tax group for the delivery fiscal document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Insira o grupo de impostos sobre vendas do item para a nota fiscal de entrega.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>In the Delivery sales tax group field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Grupo de imposto de entrega, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Enter the sales tax group for the delivery fiscal document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Insira o grupo de impostos sobre vendas para a nota fiscal de entrega.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>On the Action Pane, click Pick and pack.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No Painel de Ação, clique em Separar e empacotar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>Click Delivery slip.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Guia de entrega.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>Click Fiscal reference.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Referência fiscal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>In the Document model field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Modelo do documento, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>In the Access key field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Chave de acesso, digite um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>Enter the access key from the NF-e that was issued by the customer that ordered to goods and that the sales must be invoiced to.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Insira a chave de acesso da NF-e que foi emitida pelo cliente que encomendou mercadoria e ao qual as vendas devem ser faturadas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>In the Date field, enter a date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Data, insira uma data.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>In the Direction field, select an option.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Direção, selecione uma opção.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>In the Account field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Conta, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>Select the customer account that generated the fiscal document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione a conta do cliente que gerou a nota fiscal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Go to Accounts receivable &gt; Fiscal documents &gt; Electronic fiscal documents &gt; Export/import NF-e process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Contas a receber &gt; Notas fiscais &gt; Notas fiscais eletrônicas &gt; Exportar/importar processo de NF-e.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

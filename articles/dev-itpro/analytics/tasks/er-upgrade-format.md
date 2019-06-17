@@ -1,202 +1,576 @@
----
-title: ER Atualize seu formato adotando uma nova versão com base nesse formato
-description: As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode manter uma configuração de formato de Relatório eletrônico (RE).
-author: NickSelin
-manager: AnnBe
-ms.date: 08/29/2018
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ERWorkspace, ERVendorPart, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
-audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
-ms.search.region: Global
-ms.author: nselin
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 040505f567b9db1a5987e4ada38d46f919440c96
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544440"
----
-# <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a><span data-ttu-id="0fc03-103">ER Atualize seu formato adotando uma nova versão com base nesse formato</span><span class="sxs-lookup"><span data-stu-id="0fc03-103">ER Upgrade your format by adopting a new, base version of that format</span></span>
-
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
-<span data-ttu-id="0fc03-104">As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode manter uma configuração de formato de Relatório eletrônico (RE).</span><span class="sxs-lookup"><span data-stu-id="0fc03-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can maintain an Electronic reporting (ER) format configuration.</span></span> <span data-ttu-id="0fc03-105">Este processo explica como uma versão personalizada de um formato pode ser criada com base no formato recebido de um fornecedor de configuração (CP).</span><span class="sxs-lookup"><span data-stu-id="0fc03-105">This procedure explains how a custom version of a format can be created based on the format received from a configuration provider (CP).</span></span> <span data-ttu-id="0fc03-106">Também explica como adotar uma nova versão de base desse formato.</span><span class="sxs-lookup"><span data-stu-id="0fc03-106">It also explains how to adopt a new, base version of that format.</span></span>
-
-
-
-<span data-ttu-id="0fc03-107">Para executar estas etapas, primeiro você deve concluir as etapas "Criar um provedor de configuração e marcá-lo como ativo" e procedimentos "Usar o formato criado para gerar documentos eletrônicos para os pagamentos".</span><span class="sxs-lookup"><span data-stu-id="0fc03-107">To complete these steps, you must first complete the steps in the “Create a configuration provider and mark it as active” and “Use created format to generate electronic documents for payments” procedures.</span></span> <span data-ttu-id="0fc03-108">Essas etapas podem ser executadas na empresa GBSI.</span><span class="sxs-lookup"><span data-stu-id="0fc03-108">These steps can be performed in the GBSI company.</span></span>
-
-
-## <a name="select-format-configuration-for-customization"></a><span data-ttu-id="0fc03-109">Selecione a configuração de formato para a personalização</span><span class="sxs-lookup"><span data-stu-id="0fc03-109">Select format configuration for customization</span></span>
-1. <span data-ttu-id="0fc03-110">Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.</span><span class="sxs-lookup"><span data-stu-id="0fc03-110">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-    * <span data-ttu-id="0fc03-111">Neste exemplo, a empresa exemplo, Litware, Inc. (http://www.litware.com), atuará como um provedor de configuração que oferece suporte a configurações de formato para pagamentos eletrônicos de um país específico.</span><span class="sxs-lookup"><span data-stu-id="0fc03-111">In this example, sample company Litware, Inc. (http://www.litware.com) will act as a configuration provider that supports format configurations for electronic payments for a particular country.</span></span>    <span data-ttu-id="0fc03-112">A empresa exemplo, Proseware, Inc (http://www.proseware.com), atuará como um consumidor da configuração do formato fornecida pela Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="0fc03-112">Sample company Proseware, Inc. (http://www.proseware.com) will act as a consumer of the format configuration that Litware, Inc. provided.</span></span> <span data-ttu-id="0fc03-113">A Proseware, Inc. usa formatos em determinadas regiões desse país.</span><span class="sxs-lookup"><span data-stu-id="0fc03-113">Proseware, Inc. uses formats in certain regions of that country.</span></span>  
-2. <span data-ttu-id="0fc03-114">Clique em Configurações de relatórios.</span><span class="sxs-lookup"><span data-stu-id="0fc03-114">Click Reporting configurations.</span></span>
-3. <span data-ttu-id="0fc03-115">Clique em Mostrar filtros.</span><span class="sxs-lookup"><span data-stu-id="0fc03-115">Click Show filters.</span></span>
-4. <span data-ttu-id="0fc03-116">Aplique os seguintes filtros: insira um valor de filtro de "BACS (fictício do Reino Unido)", no campo "Nome" usando o operador de filtro "começa com"</span><span class="sxs-lookup"><span data-stu-id="0fc03-116">Apply the following filters: Enter a filter value of "BACS (UK fictitious)" on the "Name" field using the "begins with" filter operator</span></span>
-    * <span data-ttu-id="0fc03-117">BACS (Reino Unido fictício)</span><span class="sxs-lookup"><span data-stu-id="0fc03-117">BACS (UK fictitious)</span></span>  
-    * <span data-ttu-id="0fc03-118">A configuração de formato selecionada BACS (fictício do Reino Unido) pertence ao fornecedor Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="0fc03-118">The selected format configuration BACS (UK fictitious) is owned by provider Litware, Inc.</span></span>  
-5. <span data-ttu-id="0fc03-119">Clique em Mostrar filtros.</span><span class="sxs-lookup"><span data-stu-id="0fc03-119">Click Show filters.</span></span>
-6. <span data-ttu-id="0fc03-120">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="0fc03-120">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="0fc03-121">A versão do formato com o status de Concluído será usada pela Proseware, Inc. para personalização.</span><span class="sxs-lookup"><span data-stu-id="0fc03-121">The version of the format with the status of Completed will be used by Proseware, Inc. for customization.</span></span>  
-
-## <a name="create-a-new-configuration-for-your-custom-format-of-electronic-document"></a><span data-ttu-id="0fc03-122">Crie uma nova configuração para o formato de documento personalizado eletrônico</span><span class="sxs-lookup"><span data-stu-id="0fc03-122">Create a new configuration for your custom format of electronic document</span></span>
-    * <span data-ttu-id="0fc03-123">A Proseware, Inc. recebeu a configuração da versão 1.1 de BACS (fictício do Reino Unido) que contém o formato inicial para gerar documentos de pagamento eletrônico da Litware, Inc. em conformidade com a subscrição de serviço.</span><span class="sxs-lookup"><span data-stu-id="0fc03-123">Proseware, Inc. received version 1.1 of BACS (UK fictitious) configuration that contains the initial format to generate electronic payment documents from Litware, Inc. in accordance to their service subscription.</span></span> <span data-ttu-id="0fc03-124">A Proseware, Inc. deseja começar a usá-la como um padrão para seu país, mas algumas personalizações são necessárias para oferecer suporte a requisitos regionais específicos.</span><span class="sxs-lookup"><span data-stu-id="0fc03-124">Proseware, Inc. wants to start using this as a standard for their country but some customization is required to support specific regional requirements.</span></span> <span data-ttu-id="0fc03-125">A Proseware, Inc. também deseja manter a capacidade de atualizar um formato personalizado assim que uma nova versão dele (com alterações para oferecer suporte a novos requisitos específicos do país) venha da Litware, Inc. e desejam fazer essa atualização com o menor custo possível.</span><span class="sxs-lookup"><span data-stu-id="0fc03-125">Proseware, Inc. also wants to keep the ability to upgrade a custom format as soon as a new version of it (with changes to support new country-specific requirements) comes from Litware, Inc. and they want to perform this upgrade with the lowest cost.</span></span>  <span data-ttu-id="0fc03-126">Para isso, a Proseware, Inc. precisa criar uma configuração usando configuração BACS (fictício do Reino Unido) da Litware, Inc. como base.</span><span class="sxs-lookup"><span data-stu-id="0fc03-126">To do this, Proseware, Inc. needs to create a configuration using the Litware, Inc. configuration BACS (UK fictitious) as a base.</span></span>  
-1. <span data-ttu-id="0fc03-127">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="0fc03-127">Close the page.</span></span>
-2. <span data-ttu-id="0fc03-128">Selecione a Proseware, Inc. para torná-la um provedor ativo.</span><span class="sxs-lookup"><span data-stu-id="0fc03-128">Select Proseware, Inc. to make it an active provider.</span></span>
-3. <span data-ttu-id="0fc03-129">Clique em Definir como ativo.</span><span class="sxs-lookup"><span data-stu-id="0fc03-129">Click Set active.</span></span>
-4. <span data-ttu-id="0fc03-130">Clique em Configurações de relatórios.</span><span class="sxs-lookup"><span data-stu-id="0fc03-130">Click Reporting configurations.</span></span>
-5. <span data-ttu-id="0fc03-131">Na árvore, expanda "Pagamentos (modelo simplificado)".</span><span class="sxs-lookup"><span data-stu-id="0fc03-131">In the tree, expand 'Payments (simplified model)'.</span></span>
-6. <span data-ttu-id="0fc03-132">Na árvore, selecione "Pagamentos (modelo simplificado)\BACS (Reino Unido fictício)".</span><span class="sxs-lookup"><span data-stu-id="0fc03-132">In the tree, select 'Payments (simplified model)\BACS (UK fictitious)'.</span></span>
-    * <span data-ttu-id="0fc03-133">Selecione a configuração BACS (fictício do Reino Unido) da Litware, Inc. A Proseware, Inc. usará a versão 1.1 como uma base para a versão personalizada.</span><span class="sxs-lookup"><span data-stu-id="0fc03-133">Select the BACS (UK fictitious) configuration from Litware, Inc.     Proseware, Inc. will use version 1.1 as a base for the custom version.</span></span>  
-7. <span data-ttu-id="0fc03-134">Clique em Criar configuração para abrir a caixa de diálogo suspensa.</span><span class="sxs-lookup"><span data-stu-id="0fc03-134">Click Create configuration to open the drop dialog.</span></span>
-    * <span data-ttu-id="0fc03-135">Isso permite criar uma nova configuração para um formato de pagamento personalizado.</span><span class="sxs-lookup"><span data-stu-id="0fc03-135">This lets you create a new configuration for a custom payment format.</span></span>  
-8. <span data-ttu-id="0fc03-136">No campo Novo, insira "Derivar do Nome: BACS (fictício do Reino Unido), Litware, Inc.'.</span><span class="sxs-lookup"><span data-stu-id="0fc03-136">In the New field, enter 'Derive from Name: BACS (UK fictitious), Litware, Inc.'.</span></span>
-    * <span data-ttu-id="0fc03-137">Selecione Opção de derivação para confirmar o uso de BACS (fictício do Reino Unido) como base para criar a versão personalizada.</span><span class="sxs-lookup"><span data-stu-id="0fc03-137">Select the Derive option to confirm the usage of BACS (UK fictitious) as the base for creating the custom version.</span></span>  
-9. <span data-ttu-id="0fc03-138">No campo Nome, digite 'BACS (Reino Unido personalizado)'.</span><span class="sxs-lookup"><span data-stu-id="0fc03-138">In the Name field, type 'BACS (UK fictitious custom)'.</span></span>
-    * <span data-ttu-id="0fc03-139">BACS (personalizado fictício do Reino Unido)</span><span class="sxs-lookup"><span data-stu-id="0fc03-139">BACS (UK fictitious custom)</span></span>  
-10. <span data-ttu-id="0fc03-140">No campo Descrição, digite "Formato de pagamento de fornecedor BACS (personalizado fictício do Reino Unido)".</span><span class="sxs-lookup"><span data-stu-id="0fc03-140">In the Description field, type 'BACS vendor payment (UK fictitious custom)'.</span></span>
-    * <span data-ttu-id="0fc03-141">Pagamento de fornecedor BACS (personalizado fictício do Reino Unido)</span><span class="sxs-lookup"><span data-stu-id="0fc03-141">BACS vendor payment (UK fictitious custom)</span></span>  
-    * <span data-ttu-id="0fc03-142">O provedor de configuração ativo (Proseware, Inc.) é automaticamente inserido aqui.</span><span class="sxs-lookup"><span data-stu-id="0fc03-142">The active configuration provider (Proseware, Inc.) is automatically entered here.</span></span> <span data-ttu-id="0fc03-143">Este provedor será capaz de manter essa configuração.</span><span class="sxs-lookup"><span data-stu-id="0fc03-143">This provider will be able to maintain this configuration.</span></span> <span data-ttu-id="0fc03-144">Outros provedores podem usar esta configuração, mas não poderão mantê-la.</span><span class="sxs-lookup"><span data-stu-id="0fc03-144">Other providers can use this configuration, but will not be able to maintain it.</span></span>  
-11. <span data-ttu-id="0fc03-145">Clique em Criar configuração.</span><span class="sxs-lookup"><span data-stu-id="0fc03-145">Click Create configuration.</span></span>
-
-## <a name="customize-your-format-for-the-electronic-document"></a><span data-ttu-id="0fc03-146">Personalizar o formato do documento eletrônico</span><span class="sxs-lookup"><span data-stu-id="0fc03-146">Customize your format for the electronic document</span></span>
-1. <span data-ttu-id="0fc03-147">Clique em Designer.</span><span class="sxs-lookup"><span data-stu-id="0fc03-147">Click Designer.</span></span>
-2. <span data-ttu-id="0fc03-148">Clique em Expandir/recolher.</span><span class="sxs-lookup"><span data-stu-id="0fc03-148">Click Expand/collapse.</span></span>
-3. <span data-ttu-id="0fc03-149">Clique em Expandir/recolher.</span><span class="sxs-lookup"><span data-stu-id="0fc03-149">Click Expand/collapse.</span></span>
-4. <span data-ttu-id="0fc03-150">Na árvore, selecione "Xml\Mensagem\Pagamentos\Item\Fornecedor\Banco".</span><span class="sxs-lookup"><span data-stu-id="0fc03-150">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank'.</span></span>
-5. <span data-ttu-id="0fc03-151">Clique em Adicionar para abrir a caixa de diálogo suspensa.</span><span class="sxs-lookup"><span data-stu-id="0fc03-151">Click Add to open the drop dialog.</span></span>
-6. <span data-ttu-id="0fc03-152">Na árvore, selecione 'XML\Elemento'.</span><span class="sxs-lookup"><span data-stu-id="0fc03-152">In the tree, select 'XML\Element'.</span></span>
-7. <span data-ttu-id="0fc03-153">No campo Nome, digite 'IBAN'.</span><span class="sxs-lookup"><span data-stu-id="0fc03-153">In the Name field, type 'IBAN'.</span></span>
-    * <span data-ttu-id="0fc03-154">IBAN</span><span class="sxs-lookup"><span data-stu-id="0fc03-154">IBAN</span></span>  
-8. <span data-ttu-id="0fc03-155">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="0fc03-155">Click OK.</span></span>
-9. <span data-ttu-id="0fc03-156">Na árvore, selecione "Xml\Mensagem\Pagamentos\Item\Fornecedor\Banco\IBAN".</span><span class="sxs-lookup"><span data-stu-id="0fc03-156">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\IBAN'.</span></span>
-10. <span data-ttu-id="0fc03-157">Clique em Adicionar para abrir a caixa de diálogo suspensa.</span><span class="sxs-lookup"><span data-stu-id="0fc03-157">Click Add to open the drop dialog.</span></span>
-11. <span data-ttu-id="0fc03-158">Na árvore, selecione 'Texto\Cadeia de caracteres'.</span><span class="sxs-lookup"><span data-stu-id="0fc03-158">In the tree, select 'Text\String'.</span></span>
-12. <span data-ttu-id="0fc03-159">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="0fc03-159">Click OK.</span></span>
-13. <span data-ttu-id="0fc03-160">Na árvore, selecione "Xml\Mensagem\Pagamentos\Item\Fornecedor\Nome\String".</span><span class="sxs-lookup"><span data-stu-id="0fc03-160">In the tree, select 'Xml\Message\Payments\Item\Vendor\Name\String'.</span></span>
-14. <span data-ttu-id="0fc03-161">No campo Comprimento máximo, insira "60".</span><span class="sxs-lookup"><span data-stu-id="0fc03-161">In the Maximum length field, enter '60'.</span></span>
-15. <span data-ttu-id="0fc03-162">Clique na aba Mapeamento.</span><span class="sxs-lookup"><span data-stu-id="0fc03-162">Click the Mapping tab.</span></span>
-16. <span data-ttu-id="0fc03-163">Na árvore, expanda 'modelo'.</span><span class="sxs-lookup"><span data-stu-id="0fc03-163">In the tree, expand 'model'.</span></span>
-17. <span data-ttu-id="0fc03-164">Na árvore, expanda 'modelo\Pagamentos'.</span><span class="sxs-lookup"><span data-stu-id="0fc03-164">In the tree, expand 'model\Payments'.</span></span>
-18. <span data-ttu-id="0fc03-165">Na árvore, expanda 'modelo\Pagamentos\Credor'.</span><span class="sxs-lookup"><span data-stu-id="0fc03-165">In the tree, expand 'model\Payments\Creditor'.</span></span>
-19. <span data-ttu-id="0fc03-166">Na árvore, expanda 'modelo\Pagamentos\Credor\Conta'.</span><span class="sxs-lookup"><span data-stu-id="0fc03-166">In the tree, expand 'model\Payments\Creditor\Account'.</span></span>
-20. <span data-ttu-id="0fc03-167">Na árvore, selecione "modelo\Pagamentos\Credor\Conta\IBAN".</span><span class="sxs-lookup"><span data-stu-id="0fc03-167">In the tree, select 'model\Payments\Creditor\Account\IBAN'.</span></span>
-21. <span data-ttu-id="0fc03-168">Na árvore, selecione "Xml\Mensagem\Pagamentos\Item = modelo.Pagamentos\Fornecedor\Banco\IBAN\String".</span><span class="sxs-lookup"><span data-stu-id="0fc03-168">In the tree, select 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\IBAN\String'.</span></span>
-22. <span data-ttu-id="0fc03-169">Clique em Associar.</span><span class="sxs-lookup"><span data-stu-id="0fc03-169">Click Bind.</span></span>
-23. <span data-ttu-id="0fc03-170">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="0fc03-170">Click Save.</span></span>
-
-## <a name="validate-the-customized-format"></a><span data-ttu-id="0fc03-171">Validar o formato personalizado</span><span class="sxs-lookup"><span data-stu-id="0fc03-171">Validate the customized format</span></span>
-1. <span data-ttu-id="0fc03-172">Clique em Validar.</span><span class="sxs-lookup"><span data-stu-id="0fc03-172">Click Validate.</span></span>
-    * <span data-ttu-id="0fc03-173">Valide o layout do formato personalizado e as alterações de projeção de dados para garantir que todas as associações são aprovadas.</span><span class="sxs-lookup"><span data-stu-id="0fc03-173">Validate the customized format layout and data mapping changes to make sure that all bindings are okay.</span></span>  
-2. <span data-ttu-id="0fc03-174">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="0fc03-174">Close the page.</span></span>
-
-## <a name="change-the-status-of-the-current-version-of-the-custom-format-configuration"></a><span data-ttu-id="0fc03-175">Alterar o status da versão atual da configuração de formato personalizado</span><span class="sxs-lookup"><span data-stu-id="0fc03-175">Change the status of the current version of the custom format configuration</span></span>
-    * <span data-ttu-id="0fc03-176">Altere o status da configuração do formato criado de Rascunho para Concluído para torná-lo disponível e gerar documentação de pagamento.</span><span class="sxs-lookup"><span data-stu-id="0fc03-176">Change the status of the designed format configuration from Draft to Completed to make it available for payment document generation.</span></span>  
-1. <span data-ttu-id="0fc03-177">Clique em Alterar status.</span><span class="sxs-lookup"><span data-stu-id="0fc03-177">Click Change status.</span></span>
-    * <span data-ttu-id="0fc03-178">Observe que a versão atual da configuração selecionada está no status Rascunho.</span><span class="sxs-lookup"><span data-stu-id="0fc03-178">Note that the current version of the selected configuration is in Draft status.</span></span>  
-2. <span data-ttu-id="0fc03-179">Clique em Concluir.</span><span class="sxs-lookup"><span data-stu-id="0fc03-179">Click Complete.</span></span>
-3. <span data-ttu-id="0fc03-180">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="0fc03-180">In the Description field, type a value.</span></span>
-4. <span data-ttu-id="0fc03-181">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="0fc03-181">Click OK.</span></span>
-5. <span data-ttu-id="0fc03-182">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="0fc03-182">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="0fc03-183">Observe que a configuração criada será salva como versão 1.1.1 concluída.</span><span class="sxs-lookup"><span data-stu-id="0fc03-183">Note that the created configuration is saved as completed version 1.1.1.</span></span> <span data-ttu-id="0fc03-184">Isso significa que é a versão 1 do formato de costume BACS (personalizado fictício do Reino Unido), que se baseia na versão 1 do formato de BACS (fictício do Reino Unido), que se baseia na versão 1 do modelo de dados de pagamentos (modelo simplificado).</span><span class="sxs-lookup"><span data-stu-id="0fc03-184">This means it is version 1 of the custom BACS (UK fictitious custom) format, which is based on version 1 of the BACS (UK fictitious) format, which is based on version 1 of the Payments (simplified model) data model.</span></span>  
-
-## <a name="test-the-customized-format-to-generate-payment-files"></a><span data-ttu-id="0fc03-185">Testar o formato personalizado para gerar arquivos de pagamento</span><span class="sxs-lookup"><span data-stu-id="0fc03-185">Test the customized format to generate payment files</span></span>
-    * <span data-ttu-id="0fc03-186">Conclua as etapas no procedimento "Usar formato criado para gerar documentos eletrônicos para pagamentos" em uma sessão do Dynamics 365 for Finance and Operations, Enterprise edition paralela.</span><span class="sxs-lookup"><span data-stu-id="0fc03-186">Complete the steps in the “Use created format to generate electronic documents for payments” procedure in a parallel Dynamics 365 for Finance and Operations, Enterprise edition session.</span></span> <span data-ttu-id="0fc03-187">Selecione o formato BACS (personalizado fictício do Reino Unido) nos parâmetros de método de pagamento eletrônico.</span><span class="sxs-lookup"><span data-stu-id="0fc03-187">Select the BACS (UK fictitious custom) format in electronic payment method parameters.</span></span> <span data-ttu-id="0fc03-188">Verifique se o arquivo de pagamento criado contém o nó recentemente introduzido ao XML que apresenta o código de IBAN no acordo das exigências regionais.</span><span class="sxs-lookup"><span data-stu-id="0fc03-188">Make sure that the created payment file contains the recently introduced XML node presenting IBAN code in accordance to regional requirements.</span></span>  
-
-## <a name="update-the-existing-country-specific-configuration"></a><span data-ttu-id="0fc03-189">Atualizar a configuração específica existente do país</span><span class="sxs-lookup"><span data-stu-id="0fc03-189">Update the existing country-specific configuration</span></span>
-    * <span data-ttu-id="0fc03-190">A Litware, Inc. precisa atualizar a configuração BACS (fictício do Reino Unido) e adotar novos requisitos de país para o gerenciamento do formato do documento eletrônico.</span><span class="sxs-lookup"><span data-stu-id="0fc03-190">Litware, Inc. needs to update the BACS (UK fictitious) configuration and adopt new country requirements for managing the format of the electronic document.</span></span> <span data-ttu-id="0fc03-191">Posteriormente, isso será incluído em uma nova versão dessa configuração que será oferecida para assinantes de serviço, incluindo Proseware, Inc.</span><span class="sxs-lookup"><span data-stu-id="0fc03-191">Later, this will be enclosed in a new version of this configuration that will be offered for service subscribers, including Proseware, Inc.</span></span>  
-    * <span data-ttu-id="0fc03-192">Nos processos relacionados de provisão de serviço reais, cada nova versão de BACS (fictício do Reino Unido) pode ser importada pela Proseware, Inc. do repositório LCS das configurações da Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="0fc03-192">In real service provision related processes, each new version of BACS (UK fictitious) can be imported by Proseware, Inc. from Litware, Inc. configurations’ LCS repository.</span></span> <span data-ttu-id="0fc03-193">Nesse procedimento, simularemos isso atualizando BACS (fictício do Reino Unido) em nome de um prestador de serviço.</span><span class="sxs-lookup"><span data-stu-id="0fc03-193">In this procedure we will simulate this by updating BACS (UK fictitious) on behalf of a service provider.</span></span>  
-1. <span data-ttu-id="0fc03-194">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="0fc03-194">Close the page.</span></span>
-2. <span data-ttu-id="0fc03-195">Selecione o fornecedor "Litware, Inc.".</span><span class="sxs-lookup"><span data-stu-id="0fc03-195">Select Litware, inc. provider.</span></span>
-3. <span data-ttu-id="0fc03-196">Clique em Definir como ativo.</span><span class="sxs-lookup"><span data-stu-id="0fc03-196">Click Set active.</span></span>
-4. <span data-ttu-id="0fc03-197">Clique em Configurações de relatórios.</span><span class="sxs-lookup"><span data-stu-id="0fc03-197">Click Reporting configurations.</span></span>
-5. <span data-ttu-id="0fc03-198">Na árvore, expanda "Pagamentos (modelo simplificado)".</span><span class="sxs-lookup"><span data-stu-id="0fc03-198">In the tree, expand 'Payments (simplified model)'.</span></span>
-6. <span data-ttu-id="0fc03-199">Na árvore, selecione "Pagamentos (modelo simplificado)\BACS (Reino Unido fictício)".</span><span class="sxs-lookup"><span data-stu-id="0fc03-199">In the tree, select 'Payments (simplified model)\BACS (UK fictitious)'.</span></span>
-    * <span data-ttu-id="0fc03-200">A versão de rascunho de propriedade do provedor BACS (fictício do Reino Unido) da Litware, Inc. é selecionada para trazer alterações para oferecer suporte aos requisitos específicos do país.</span><span class="sxs-lookup"><span data-stu-id="0fc03-200">The draft version owned by Litware, Inc. provider BACS (UK fictitious) is selected to bring in changes to support new country-specific requirements.</span></span>  
-
-## <a name="localize-the-base-format-of-the-electronic-document"></a><span data-ttu-id="0fc03-201">Localizar o formato base do documento eletrônico</span><span class="sxs-lookup"><span data-stu-id="0fc03-201">Localize the base format of the electronic document</span></span>
-    * <span data-ttu-id="0fc03-202">Suponha que haja novos requisitos específicos do país a serem aceitos pela Litware, Inc.: – um valor para o código SWIFT do banco do credor em cada transação de pagamento.</span><span class="sxs-lookup"><span data-stu-id="0fc03-202">Assume that there are new country-specific requirements to be supported by Litware, Inc.:  - A value for the creditor’s bank SWIFT code in each payment transaction.</span></span>  <span data-ttu-id="0fc03-203">- Um limite de 100 caracteres para o comprimento do texto para o nome do fornecedor no arquivo de geração.</span><span class="sxs-lookup"><span data-stu-id="0fc03-203">- A limit of 100 characters for the length of text for the vendor’s name in a generating file.</span></span>  
-    * <span data-ttu-id="0fc03-204">Novos requisitos específicos do país</span><span class="sxs-lookup"><span data-stu-id="0fc03-204">New country-specific requirements</span></span>  
-    * <span data-ttu-id="0fc03-205">Selecione a versão de rascunho de configuração selecionada para apresentar alterações necessárias.</span><span class="sxs-lookup"><span data-stu-id="0fc03-205">Select the draft version of the desired configuration to introduce required changes.</span></span>  
-1. <span data-ttu-id="0fc03-206">Clique em Designer.</span><span class="sxs-lookup"><span data-stu-id="0fc03-206">Click Designer.</span></span>
-2. <span data-ttu-id="0fc03-207">Clique em Expandir/recolher.</span><span class="sxs-lookup"><span data-stu-id="0fc03-207">Click Expand/collapse.</span></span>
-3. <span data-ttu-id="0fc03-208">Clique em Expandir/recolher.</span><span class="sxs-lookup"><span data-stu-id="0fc03-208">Click Expand/collapse.</span></span>
-4. <span data-ttu-id="0fc03-209">Na árvore, selecione "Xml\Mensagem\Pagamentos\Item\Fornecedor\Banco".</span><span class="sxs-lookup"><span data-stu-id="0fc03-209">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank'.</span></span>
-5. <span data-ttu-id="0fc03-210">Clique em Adicionar para abrir a caixa de diálogo suspensa.</span><span class="sxs-lookup"><span data-stu-id="0fc03-210">Click Add to open the drop dialog.</span></span>
-6. <span data-ttu-id="0fc03-211">Na árvore, selecione 'XML\Elemento'.</span><span class="sxs-lookup"><span data-stu-id="0fc03-211">In the tree, select 'XML\Element'.</span></span>
-7. <span data-ttu-id="0fc03-212">No campo Nome, digite 'SWIFT'.</span><span class="sxs-lookup"><span data-stu-id="0fc03-212">In the Name field, type 'SWIFT'.</span></span>
-    * <span data-ttu-id="0fc03-213">SWIFT</span><span class="sxs-lookup"><span data-stu-id="0fc03-213">SWIFT</span></span>  
-8. <span data-ttu-id="0fc03-214">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="0fc03-214">Click OK.</span></span>
-9. <span data-ttu-id="0fc03-215">Na árvore, selecione "Xml\Mensagem\Pagamentos\Item\Fornecedor\Banco\SWIFT".</span><span class="sxs-lookup"><span data-stu-id="0fc03-215">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\SWIFT'.</span></span>
-10. <span data-ttu-id="0fc03-216">Clique em Adicionar para abrir a caixa de diálogo suspensa.</span><span class="sxs-lookup"><span data-stu-id="0fc03-216">Click Add to open the drop dialog.</span></span>
-11. <span data-ttu-id="0fc03-217">Na árvore, selecione 'Texto\Cadeia de caracteres'.</span><span class="sxs-lookup"><span data-stu-id="0fc03-217">In the tree, select 'Text\String'.</span></span>
-12. <span data-ttu-id="0fc03-218">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="0fc03-218">Click OK.</span></span>
-13. <span data-ttu-id="0fc03-219">Na árvore, selecione "Xml\Mensagem\Pagamentos\Item\Fornecedor\Nome\String".</span><span class="sxs-lookup"><span data-stu-id="0fc03-219">In the tree, select 'Xml\Message\Payments\Item\Vendor\Name\String'.</span></span>
-14. <span data-ttu-id="0fc03-220">No campo Comprimento máximo, insira "100".</span><span class="sxs-lookup"><span data-stu-id="0fc03-220">In the Maximum length field, enter '100'.</span></span>
-15. <span data-ttu-id="0fc03-221">Clique na aba Mapeamento.</span><span class="sxs-lookup"><span data-stu-id="0fc03-221">Click the Mapping tab.</span></span>
-16. <span data-ttu-id="0fc03-222">Na árvore, expanda 'modelo'.</span><span class="sxs-lookup"><span data-stu-id="0fc03-222">In the tree, expand 'model'.</span></span>
-17. <span data-ttu-id="0fc03-223">Na árvore, expanda 'modelo\Pagamentos'.</span><span class="sxs-lookup"><span data-stu-id="0fc03-223">In the tree, expand 'model\Payments'.</span></span>
-18. <span data-ttu-id="0fc03-224">Na árvore, expanda 'modelo\Pagamentos\Credor'.</span><span class="sxs-lookup"><span data-stu-id="0fc03-224">In the tree, expand 'model\Payments\Creditor'.</span></span>
-19. <span data-ttu-id="0fc03-225">Na árvore, expanda 'modelo\Pagamentos\Credor\Agente'.</span><span class="sxs-lookup"><span data-stu-id="0fc03-225">In the tree, expand 'model\Payments\Creditor\Agent'.</span></span>
-20. <span data-ttu-id="0fc03-226">Na árvore, selecione "modelo\Pagamentos\Credor\Agente\SWIFT".</span><span class="sxs-lookup"><span data-stu-id="0fc03-226">In the tree, select 'model\Payments\Creditor\Agent\SWIFT'.</span></span>
-21. <span data-ttu-id="0fc03-227">Na árvore, selecione "Xml\Mensagem\Pagamentos\Item = modelo.Pagamentos\Fornecedor\Banco\SWIFT\String".</span><span class="sxs-lookup"><span data-stu-id="0fc03-227">In the tree, select 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\SWIFT\String'.</span></span>
-22. <span data-ttu-id="0fc03-228">Clique em Associar.</span><span class="sxs-lookup"><span data-stu-id="0fc03-228">Click Bind.</span></span>
-23. <span data-ttu-id="0fc03-229">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="0fc03-229">Click Save.</span></span>
-
-## <a name="validate-the-localized-format"></a><span data-ttu-id="0fc03-230">Validar o formato localizado</span><span class="sxs-lookup"><span data-stu-id="0fc03-230">Validate the localized format</span></span>
-1. <span data-ttu-id="0fc03-231">Clique em Validar.</span><span class="sxs-lookup"><span data-stu-id="0fc03-231">Click Validate.</span></span>
-2. <span data-ttu-id="0fc03-232">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="0fc03-232">Close the page.</span></span>
-
-## <a name="change-the-status-of-the-current-version-of-the-base-format-configuration"></a><span data-ttu-id="0fc03-233">Altere o status da versão atual da configuração do formato base</span><span class="sxs-lookup"><span data-stu-id="0fc03-233">Change the status of the current version of the base format configuration</span></span>
-    * <span data-ttu-id="0fc03-234">Altere o status da configuração básica atualizada no formato de Rascunho para Concluído para tornar disponível a geração de documentos do pagamento e de atualizações das configurações do formato derivadas dela.</span><span class="sxs-lookup"><span data-stu-id="0fc03-234">Change the status of the updated base format configuration from Draft to Completed to make it available for generation of payment documents and updates of format configurations derived from it.</span></span>  
-1. <span data-ttu-id="0fc03-235">Clique em Alterar status.</span><span class="sxs-lookup"><span data-stu-id="0fc03-235">Click Change status.</span></span>
-    * <span data-ttu-id="0fc03-236">Observe que a versão atual da configuração selecionada está no status Rascunho.</span><span class="sxs-lookup"><span data-stu-id="0fc03-236">Note that the current version of the selected configuration is in Draft status.</span></span>  
-2. <span data-ttu-id="0fc03-237">Clique em Concluir.</span><span class="sxs-lookup"><span data-stu-id="0fc03-237">Click Complete.</span></span>
-3. <span data-ttu-id="0fc03-238">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="0fc03-238">In the Description field, type a value.</span></span>
-4. <span data-ttu-id="0fc03-239">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="0fc03-239">Click OK.</span></span>
-5. <span data-ttu-id="0fc03-240">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="0fc03-240">In the list, find and select the desired record.</span></span>
-
-## <a name="change-the-base-version-for-the-custom-format-configuration"></a><span data-ttu-id="0fc03-241">Versão da alteração para a configuração do formato personalizado</span><span class="sxs-lookup"><span data-stu-id="0fc03-241">Change the base version for the custom format configuration</span></span>
-    * <span data-ttu-id="0fc03-242">A Proseware, Inc. é informada que uma nova versão 1.2 da configuração BACS (fictício do Reino Unido) está disponível para gerar documentos de pagamento eletrônico de acordo com os novos requisitos específicos anunciados.</span><span class="sxs-lookup"><span data-stu-id="0fc03-242">Proseware, Inc. is informed that a new version 1.2 of BACS (UK fictitious) configuration is available to generate electronic payment documents in accordance to recently announced country-specific requirements.</span></span> <span data-ttu-id="0fc03-243">A Proseware, Inc. deseja começar a usá-la como padrão para o país.</span><span class="sxs-lookup"><span data-stu-id="0fc03-243">Proseware, Inc. wants to start using it as a standard for the country.</span></span>  <span data-ttu-id="0fc03-244">Para isso, a Proseware, Inc. precisa alterar a versão da configuração base para a configuração personalizada BACS (Reino Unido fictício personalizado).</span><span class="sxs-lookup"><span data-stu-id="0fc03-244">To do this, Proseware, Inc. needs to change the base configuration version for the custom configuration BACS (UK fictitious custom).</span></span> <span data-ttu-id="0fc03-245">Em vez da versão 1.1 de BACS (fictício do Reino Unido) use a nova versão 1.2.</span><span class="sxs-lookup"><span data-stu-id="0fc03-245">Instead of version 1.1 of BACS (UK fictitious) use new version 1.2.</span></span>  
-1. <span data-ttu-id="0fc03-246">Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.</span><span class="sxs-lookup"><span data-stu-id="0fc03-246">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-2. <span data-ttu-id="0fc03-247">Selecione o provedor da Proseware, Inc. para marcá-lo como ativo.</span><span class="sxs-lookup"><span data-stu-id="0fc03-247">Select the Proseware, Inc. provider to mark it as active.</span></span>
-3. <span data-ttu-id="0fc03-248">Clique em Definir como ativo.</span><span class="sxs-lookup"><span data-stu-id="0fc03-248">Click Set active.</span></span>
-4. <span data-ttu-id="0fc03-249">Clique em Configurações de relatórios.</span><span class="sxs-lookup"><span data-stu-id="0fc03-249">Click Reporting configurations.</span></span>
-5. <span data-ttu-id="0fc03-250">Na árvore, expanda "Pagamentos (modelo simplificado)".</span><span class="sxs-lookup"><span data-stu-id="0fc03-250">In the tree, expand 'Payments (simplified model)'.</span></span>
-6. <span data-ttu-id="0fc03-251">Na árvore, expanda "Pagamentos (modelo simplificado)\BACS (Reino Unido fictício)".</span><span class="sxs-lookup"><span data-stu-id="0fc03-251">In the tree, expand 'Payments (simplified model)\BACS (UK fictitious)'.</span></span>
-7. <span data-ttu-id="0fc03-252">Na árvore, selecione "Pagamentos (modelo simplificado)\BACS (Reino Unido fictício)\BACS (Reino Unido personalizado fictício)".</span><span class="sxs-lookup"><span data-stu-id="0fc03-252">In the tree, select 'Payments (simplified model)\BACS (UK fictitious)\BACS (UK fictitious custom)'.</span></span>
-    * <span data-ttu-id="0fc03-253">Selecione a configuração de BACS (personalizado fictício do Reino Unido), que pertence ao Proseware, Inc.</span><span class="sxs-lookup"><span data-stu-id="0fc03-253">Select the BACS (UK fictitious custom) configuration, which is owned by Proseware, Inc.</span></span>  
-    * <span data-ttu-id="0fc03-254">Use a versão de rascunho de configuração selecionada para apresentar alterações necessárias.</span><span class="sxs-lookup"><span data-stu-id="0fc03-254">Use the draft version of the selected configuration to introduce required changes.</span></span>  
-8. <span data-ttu-id="0fc03-255">Clique em Trocar base.</span><span class="sxs-lookup"><span data-stu-id="0fc03-255">Click Rebase.</span></span>
-    * <span data-ttu-id="0fc03-256">Selecione a nova versão 1.2 da configuração base a ser aplicada como uma nova base para atualização da configuração.</span><span class="sxs-lookup"><span data-stu-id="0fc03-256">Select the new version 1.2 of the base configuration to be applied as a new base for updating the configuration.</span></span>  
-9. <span data-ttu-id="0fc03-257">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="0fc03-257">Click OK.</span></span>
-    * <span data-ttu-id="0fc03-258">Observe que alguns conflitos foram descobertos entre mesclar a versão personalizada e uma nova versão base que representam as alterações do formato que não podem ser mescladas automaticamente.</span><span class="sxs-lookup"><span data-stu-id="0fc03-258">Note that some conflicts have been discovered between merging the custom version and a new base version representing some format changes that can’t be merged automatically.</span></span>  
-
-## <a name="resolve-rebase-conflicts"></a><span data-ttu-id="0fc03-259">Resolver conflitos de rebase</span><span class="sxs-lookup"><span data-stu-id="0fc03-259">Resolve rebase conflicts</span></span>
-1. <span data-ttu-id="0fc03-260">Clique em Designer.</span><span class="sxs-lookup"><span data-stu-id="0fc03-260">Click Designer.</span></span>
-    * <span data-ttu-id="0fc03-261">Observe que as alterações no limite do tamanho do texto do nome do fornecedor não podem ser resolvidas automaticamente.</span><span class="sxs-lookup"><span data-stu-id="0fc03-261">Note that changes to the vendor’s name text length limit couldn’t be resolved automatically.</span></span> <span data-ttu-id="0fc03-262">Consequentemente, é apresentado em uma lista de conflitos.</span><span class="sxs-lookup"><span data-stu-id="0fc03-262">Therefore, this is presented in a conflicts list.</span></span> <span data-ttu-id="0fc03-263">Para cada conflito do tipo Atualização, as opções a seguir estão disponíveis: – aplicar um valor de base anterior (botão no topo da grade) para trazer o valor da versão base anterior (0 em nosso caso).</span><span class="sxs-lookup"><span data-stu-id="0fc03-263">For each conflict of type Update, the following options are available:  - Apply a prior base value (button on top of the grid) to bring in the previous base version value (0 in our case).</span></span>  <span data-ttu-id="0fc03-264">- Aplicar um valor de base (botão no topo da grade) para trazer no novo valor da versão base (100 em nosso caso).</span><span class="sxs-lookup"><span data-stu-id="0fc03-264">- Apply a base value (button on top of the grid) to bring in the new base version value (100 in our case).</span></span>  <span data-ttu-id="0fc03-265">- Mantenha seu próprio valor (personalizado) (60 em nosso caso).</span><span class="sxs-lookup"><span data-stu-id="0fc03-265">- Keep your own (custom) value (60 in our case).</span></span>  <span data-ttu-id="0fc03-266">Clique em aplica o valor de base para a aplicação do limite do país específico de 100 caracteres de comprimento de texto para nomes do fornecedor.</span><span class="sxs-lookup"><span data-stu-id="0fc03-266">Click Apply base value to apply a country-specific limit of 100 characters for vendor’s name text length.</span></span>  
-    * <span data-ttu-id="0fc03-267">Observe que a Proseware, Inc. e a Litware, Inc. têm versões personalizadas e locais deste formato usando códigos IBAN e SWIFT com componentes relacionados que são automaticamente mesclados no formato gerenciado.</span><span class="sxs-lookup"><span data-stu-id="0fc03-267">Note that Proseware, Inc. and Litware, Inc. have custom and local versions of this format using IBAN and SWIFT codes with related components that are automatically merged in the managing format.</span></span>  
-2. <span data-ttu-id="0fc03-268">Clique em Aplicar valor base.</span><span class="sxs-lookup"><span data-stu-id="0fc03-268">Click Apply base value.</span></span>
-    * <span data-ttu-id="0fc03-269">Clique em Aplicar o valor de base para aplicar o limite do país específico de 100 caracteres para os nomes dos fornecedores.</span><span class="sxs-lookup"><span data-stu-id="0fc03-269">Click Apply base value to apply the country-specific limit of 100 characters for vendor names.</span></span>  
-3. <span data-ttu-id="0fc03-270">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="0fc03-270">Click Save.</span></span>
-    * <span data-ttu-id="0fc03-271">Salvar o formato removerá conflitos resolvidos da lista de conflitos.</span><span class="sxs-lookup"><span data-stu-id="0fc03-271">Saving the format will remove resolved conflicts from the conflicts list.</span></span>  
-4. <span data-ttu-id="0fc03-272">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="0fc03-272">Close the page.</span></span>
-
-## <a name="change-the-status-of-the-new-version-of-the-custom-format-configuration"></a><span data-ttu-id="0fc03-273">Altere o status da versão nova da configuração do formato personalizado</span><span class="sxs-lookup"><span data-stu-id="0fc03-273">Change the status of the new version of the custom format configuration</span></span>
-1. <span data-ttu-id="0fc03-274">Clique em Alterar status.</span><span class="sxs-lookup"><span data-stu-id="0fc03-274">Click Change status.</span></span>
-    * <span data-ttu-id="0fc03-275">Altere o status da configuração atualizada, formato personalizado de Rascunho para Concluído.</span><span class="sxs-lookup"><span data-stu-id="0fc03-275">Change the status of the updated, custom format configuration from Draft to Completed.</span></span> <span data-ttu-id="0fc03-276">Isso criará a configuração de formato disponível para a geração de documentos de pagamento.</span><span class="sxs-lookup"><span data-stu-id="0fc03-276">This will make the format configuration available for generating payment documents.</span></span> <span data-ttu-id="0fc03-277">Observe que a versão atual da configuração selecionada está no status Rascunho.</span><span class="sxs-lookup"><span data-stu-id="0fc03-277">Note that the current version of the selected configuration is in Draft status.</span></span>  
-2. <span data-ttu-id="0fc03-278">Clique em Concluir.</span><span class="sxs-lookup"><span data-stu-id="0fc03-278">Click Complete.</span></span>
-3. <span data-ttu-id="0fc03-279">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="0fc03-279">In the Description field, type a value.</span></span>
-4. <span data-ttu-id="0fc03-280">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="0fc03-280">Click OK.</span></span>
-    * <span data-ttu-id="0fc03-281">Observe que a configuração criada é salva como uma versão completa 1.2.2: versão 2 do formato da base BACS (personalizado fictício do Reino Unido), que é baseado na versão 2 do formato da base BACS (fictício do Reino Unido), que é baseada na versão 1 do modelo de dados de Pagamentos (modelo simplificado).</span><span class="sxs-lookup"><span data-stu-id="0fc03-281">Note that the created configuration is saved as completed version 1.2.2: version 2 of base BACS (UK fictitious custom) format, which is based on version 2 of base BACS (UK fictitious) format, which is based on version 1 of Payments (simplified model) data model.</span></span>  
-
-## <a name="test-the-customized-format-for-payment-files-generation"></a><span data-ttu-id="0fc03-282">Teste o formato personalizado para gerar arquivos de pagamento</span><span class="sxs-lookup"><span data-stu-id="0fc03-282">Test the customized format for payment files generation</span></span>
-    * <span data-ttu-id="0fc03-283">Conclua as etapas no procedimento "Usar formato criado para gerar documentos eletrônicos para pagamentos" em uma sessão do Dynamics 365 for Finance and Operations, Enterprise edition paralela.</span><span class="sxs-lookup"><span data-stu-id="0fc03-283">Complete the steps in the “Use created format to generate electronic documents for payments” procedure in parallel Dynamics 365 for Finance and Operations, Enterprise edition session.</span></span> <span data-ttu-id="0fc03-284">Selecione o "formato BACS criado (personalizado fictício do Reino Unido)" nos parâmetros de método de pagamento eletrônico.</span><span class="sxs-lookup"><span data-stu-id="0fc03-284">Select the created ‘BACS (UK fictitious custom)’ format in electronic payment method parameters.</span></span> <span data-ttu-id="0fc03-285">Verifique se o arquivo de pagamento criado contém o nó XML recentemente introduzido pela Proseware, Inc. que apresenta o código de conta IBAN de acordo com as exigências regionais.</span><span class="sxs-lookup"><span data-stu-id="0fc03-285">Make sure that the created payment file contains recently introduced by Proseware, Inc. XML node presenting IBAN account code in accordance to regional requirements.</span></span> <span data-ttu-id="0fc03-286">O arquivo também deve conter o nó XML introduzido recentemente pela Litware, Inc. que apresenta o código bancário SWIFT de acordo os requisitos do país.</span><span class="sxs-lookup"><span data-stu-id="0fc03-286">The file also should contain the recently introduced by Litware, Inc. XML node presenting SWIFT bank code in accordance to country requirements.</span></span>  
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="er-upgrade-format.md" target-language="pt-BR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>er-upgrade-format.32ec25.151b8936a46a1945e98bfe0ed040ca50c93db4b0.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>151b8936a46a1945e98bfe0ed040ca50c93db4b0</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>574d4dda83dcab94728a3d35fc53ee7e2b90feb0</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/22/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\dev-itpro\analytics\tasks\er-upgrade-format.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>ER Upgrade your format by adopting a new, base version of that format</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ER Atualize seu formato adotando uma nova versão com base nesse formato</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can maintain an Electronic reporting (ER) format configuration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode manter uma configuração de formato de Relatório eletrônico (RE).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>ER Upgrade your format by adopting a new, base version of that format</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ER Atualize seu formato adotando uma nova versão com base nesse formato</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can maintain an Electronic reporting (ER) format configuration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode manter uma configuração de formato de Relatório eletrônico (RE).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>This procedure explains how a custom version of a format can be created based on the format received from a configuration provider (CP).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este processo explica como uma versão personalizada de um formato pode ser criada com base no formato recebido de um fornecedor de configuração (CP).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>It also explains how to adopt a new, base version of that format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Também explica como adotar uma nova versão de base desse formato.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>To complete these steps, you must first complete the steps in the “Create a configuration provider and mark it as active” and “Use created format to generate electronic documents for payments” procedures.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para executar estas etapas, primeiro você deve concluir as etapas "Criar um provedor de configuração e marcá-lo como ativo" e procedimentos "Usar o formato criado para gerar documentos eletrônicos para os pagamentos".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>These steps can be performed in the GBSI company.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Essas etapas podem ser executadas na empresa GBSI.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Select format configuration for customization</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione a configuração de formato para a personalização</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Go to Organization administration &gt; Workspaces &gt; Electronic reporting.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ir para Administração da organização &gt; Espaços de trabalho &gt; Relatório eletrônico.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>In this example, sample company Litware, Inc. (<ph id="ph1">https://www.litware.com)</ph> will act as a configuration provider that supports format configurations for electronic payments for a particular country.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Neste exemplo, a empresa exemplo, Litware, Inc. (<ph id="ph1">https://www.litware.com)</ph>, atuará como um provedor de configuração que oferece suporte a configurações de formato para pagamentos eletrônicos de um país específico.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Sample company Proseware, Inc. (<ph id="ph1">http://www.proseware.com)</ph> will act as a consumer of the format configuration that Litware, Inc. provided.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A empresa exemplo, Proseware, Inc (<ph id="ph1">http://www.proseware.com)</ph>, atuará como um consumidor da configuração do formato fornecida pela Litware, Inc.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Proseware, Inc. uses formats in certain regions of that country.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A Proseware, Inc. usa formatos em determinadas regiões desse país.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Click Reporting configurations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Configurações de relatórios.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Click Show filters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Mostrar filtros.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Apply the following filters: Enter a filter value of "BACS (UK fictitious)" on the "Name" field using the "begins with" filter operator</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aplique os seguintes filtros: insira um valor de filtro de "BACS (fictício do Reino Unido)", no campo "Nome" usando o operador de filtro "começa com"</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>BACS (UK fictitious)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BACS (Reino Unido fictício)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>The selected format configuration BACS (UK fictitious) is owned by provider Litware, Inc.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A configuração de formato selecionada BACS (fictício do Reino Unido) pertence ao fornecedor Litware, Inc.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Click Show filters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Mostrar filtros.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>In the list, find and select the desired record.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, localize e selecione o PDV desejado.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>The version of the format with the status of Completed will be used by Proseware, Inc. for customization.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A versão do formato com o status de Concluído será usada pela Proseware, Inc. para personalização.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Create a new configuration for your custom format of electronic document</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Crie uma nova configuração para o formato de documento personalizado eletrônico</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Proseware, Inc. received version 1.1 of BACS (UK fictitious) configuration that contains the initial format to generate electronic payment documents from Litware, Inc. in accordance to their service subscription.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A Proseware, Inc. recebeu a configuração da versão 1.1 de BACS (fictício do Reino Unido) que contém o formato inicial para gerar documentos de pagamento eletrônico da Litware, Inc. em conformidade com a subscrição de serviço.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Proseware, Inc. wants to start using this as a standard for their country but some customization is required to support specific regional requirements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A Proseware, Inc. deseja começar a usá-la como um padrão para seu país, mas algumas personalizações são necessárias para oferecer suporte a requisitos regionais específicos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>Proseware, Inc. also wants to keep the ability to upgrade a custom format as soon as a new version of it (with changes to support new country-specific requirements) comes from Litware, Inc. and they want to perform this upgrade with the lowest cost.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A Proseware, Inc. também deseja manter a capacidade de atualizar um formato personalizado assim que uma nova versão dele (com alterações para oferecer suporte a novos requisitos específicos do país) venha da Litware, Inc. e desejam fazer essa atualização com o menor custo possível.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>To do this, Proseware, Inc. needs to create a configuration using the Litware, Inc. configuration BACS (UK fictitious) as a base.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para isso, a Proseware, Inc. precisa criar uma configuração usando configuração BACS (fictício do Reino Unido) da Litware, Inc. como base.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>Select Proseware, Inc. to make it an active provider.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione a Proseware, Inc. para torná-la um provedor ativo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>Click Set active.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Definir como ativo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>Click Reporting configurations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Configurações de relatórios.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>In the tree, expand 'Payments (simplified model)'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, expanda "Pagamentos (modelo simplificado)".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>In the tree, select 'Payments (simplified model)\BACS (UK fictitious)'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, selecione "Pagamentos (modelo simplificado)\BACS (Reino Unido fictício)".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>Select the BACS (UK fictitious) configuration from Litware, Inc.     Proseware, Inc. will use version 1.1 as a base for the custom version.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione a configuração BACS (fictício do Reino Unido) da Litware, Inc. A Proseware, Inc. usará a versão 1.1 como uma base para a versão personalizada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>Click Create configuration to open the drop dialog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Criar configuração para abrir a caixa de diálogo suspensa.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>This lets you create a new configuration for a custom payment format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Isso permite criar uma nova configuração para um formato de pagamento personalizado.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>In the New field, enter 'Derive from Name: BACS (UK fictitious), Litware, Inc.'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Novo, insira "Derivar do Nome: BACS (fictício do Reino Unido), Litware, Inc.'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>Select the Derive option to confirm the usage of BACS (UK fictitious) as the base for creating the custom version.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione Opção de derivação para confirmar o uso de BACS (fictício do Reino Unido) como base para criar a versão personalizada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>In the Name field, type 'BACS (UK fictitious custom)'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Nome, digite 'BACS (Reino Unido personalizado)'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>BACS (UK fictitious custom)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BACS (personalizado fictício do Reino Unido)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>In the Description field, type 'BACS vendor payment (UK fictitious custom)'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Descrição, digite "Formato de pagamento de fornecedor BACS (personalizado fictício do Reino Unido)".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>BACS vendor payment (UK fictitious custom)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pagamento de fornecedor BACS (personalizado fictício do Reino Unido)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>The active configuration provider (Proseware, Inc.) is automatically entered here.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O provedor de configuração ativo (Proseware, Inc.) é automaticamente inserido aqui.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>This provider will be able to maintain this configuration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este provedor será capaz de manter essa configuração.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Other providers can use this configuration, but will not be able to maintain it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Outros provedores podem usar esta configuração, mas não poderão mantê-la.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Click Create configuration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Criar configuração.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Customize your format for the electronic document</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Personalizar o formato do documento eletrônico</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Click Designer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Designer.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Click Expand/collapse.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Expandir/recolher.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Click Expand/collapse.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Expandir/recolher.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, selecione "Xml\Mensagem\Pagamentos\Item\Fornecedor\Banco".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>Click Add to open the drop dialog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Adicionar para abrir a caixa de diálogo suspensa.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>In the tree, select 'XML\Element'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, selecione 'XML\Elemento'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>In the Name field, type 'IBAN'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Nome, digite 'IBAN'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>IBAN</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IBAN</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\IBAN'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, selecione "Xml\Mensagem\Pagamentos\Item\Fornecedor\Banco\IBAN".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>Click Add to open the drop dialog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Adicionar para abrir a caixa de diálogo suspensa.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>In the tree, select 'Text\String'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, selecione 'Texto\Cadeia de caracteres'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>In the tree, select 'Xml\Message\Payments\Item\Vendor\Name\String'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, selecione "Xml\Mensagem\Pagamentos\Item\Fornecedor\Nome\String".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>In the Maximum length field, enter '60'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Comprimento máximo, insira "60".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>Click the Mapping tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique na aba Mapeamento.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>In the tree, expand 'model'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, expanda 'modelo'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>In the tree, expand 'model\Payments'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, expanda 'modelo\Pagamentos'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>In the tree, expand 'model\Payments\Creditor'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, expanda 'modelo\Pagamentos\Credor'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>In the tree, expand 'model\Payments\Creditor\Account'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, expanda 'modelo\Pagamentos\Credor\Conta'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>In the tree, select 'model\Payments\Creditor\Account\IBAN'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, selecione "modelo\Pagamentos\Credor\Conta\IBAN".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>In the tree, select 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\IBAN\String'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, selecione "Xml\Mensagem\Pagamentos\Item = modelo.Pagamentos\Fornecedor\Banco\IBAN\String".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>Click Bind.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Associar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>Validate the customized format</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Validar o formato personalizado</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>Click Validate.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Validar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>Validate the customized format layout and data mapping changes to make sure that all bindings are okay.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valide o layout do formato personalizado e as alterações de projeção de dados para garantir que todas as associações são aprovadas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>Change the status of the current version of the custom format configuration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alterar o status da versão atual da configuração de formato personalizado</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>Change the status of the designed format configuration from Draft to Completed to make it available for payment document generation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Altere o status da configuração do formato criado de Rascunho para Concluído para torná-lo disponível e gerar documentação de pagamento.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source>Click Change status.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Alterar status.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>Note that the current version of the selected configuration is in Draft status.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Observe que a versão atual da configuração selecionada está no status Rascunho.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>Click Complete.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Concluir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>In the Description field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Descrição, digite um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>In the list, find and select the desired record.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, localize e selecione o PDV desejado.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>Note that the created configuration is saved as completed version 1.1.1.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Observe que a configuração criada será salva como versão 1.1.1 concluída.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>This means it is version 1 of the custom BACS (UK fictitious custom) format, which is based on version 1 of the BACS (UK fictitious) format, which is based on version 1 of the Payments (simplified model) data model.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Isso significa que é a versão 1 do formato de costume BACS (personalizado fictício do Reino Unido), que se baseia na versão 1 do formato de BACS (fictício do Reino Unido), que se baseia na versão 1 do modelo de dados de pagamentos (modelo simplificado).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>Test the customized format to generate payment files</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Testar o formato personalizado para gerar arquivos de pagamento</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>Complete the steps in the “Use created format to generate electronic documents for payments” procedure in a parallel Dynamics 365 for Finance and Operations, Enterprise edition session.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Conclua as etapas no procedimento "Usar formato criado para gerar documentos eletrônicos para pagamentos" em uma sessão do Dynamics 365 for Finance and Operations, Enterprise edition paralela.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>Select the BACS (UK fictitious custom) format in electronic payment method parameters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione o formato BACS (personalizado fictício do Reino Unido) nos parâmetros de método de pagamento eletrônico.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>Make sure that the created payment file contains the recently introduced XML node presenting IBAN code in accordance to regional requirements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verifique se o arquivo de pagamento criado contém o nó recentemente introduzido ao XML que apresenta o código de IBAN no acordo das exigências regionais.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source>Update the existing country-specific configuration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atualizar a configuração específica existente do país</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>Litware, Inc. needs to update the BACS (UK fictitious) configuration and adopt new country requirements for managing the format of the electronic document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A Litware, Inc. precisa atualizar a configuração BACS (fictício do Reino Unido) e adotar novos requisitos de país para o gerenciamento do formato do documento eletrônico.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source>Later, this will be enclosed in a new version of this configuration that will be offered for service subscribers, including Proseware, Inc.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Posteriormente, isso será incluído em uma nova versão dessa configuração que será oferecida para assinantes de serviço, incluindo Proseware, Inc.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source>In real service provision related processes, each new version of BACS (UK fictitious) can be imported by Proseware, Inc. from Litware, Inc. configurations’ LCS repository.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nos processos relacionados de provisão de serviço reais, cada nova versão de BACS (fictício do Reino Unido) pode ser importada pela Proseware, Inc. do repositório LCS das configurações da Litware, Inc.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>In this procedure we will simulate this by updating BACS (UK fictitious) on behalf of a service provider.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nesse procedimento, simularemos isso atualizando BACS (fictício do Reino Unido) em nome de um prestador de serviço.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source>Select Litware, inc. provider.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione o fornecedor "Litware, Inc.".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source>Click Set active.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Definir como ativo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source>Click Reporting configurations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Configurações de relatórios.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source>In the tree, expand 'Payments (simplified model)'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, expanda "Pagamentos (modelo simplificado)".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>In the tree, select 'Payments (simplified model)\BACS (UK fictitious)'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, selecione "Pagamentos (modelo simplificado)\BACS (Reino Unido fictício)".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source>The draft version owned by Litware, Inc. provider BACS (UK fictitious) is selected to bring in changes to support new country-specific requirements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A versão de rascunho de propriedade do provedor BACS (fictício do Reino Unido) da Litware, Inc. é selecionada para trazer alterações para oferecer suporte aos requisitos específicos do país.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source>Localize the base format of the electronic document</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Localizar o formato base do documento eletrônico</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source>Assume that there are new country-specific requirements to be supported by Litware, Inc.:  - A value for the creditor’s bank SWIFT code in each payment transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Suponha que haja novos requisitos específicos do país a serem aceitos pela Litware, Inc.: – um valor para o código SWIFT do banco do credor em cada transação de pagamento.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>- A limit of 100 characters for the length of text for the vendor’s name in a generating file.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">- Um limite de 100 caracteres para o comprimento do texto para o nome do fornecedor no arquivo de geração.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>New country-specific requirements</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novos requisitos específicos do país</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>Select the draft version of the desired configuration to introduce required changes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione a versão de rascunho de configuração selecionada para apresentar alterações necessárias.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source>Click Designer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Designer.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>Click Expand/collapse.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Expandir/recolher.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>Click Expand/collapse.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Expandir/recolher.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, selecione "Xml\Mensagem\Pagamentos\Item\Fornecedor\Banco".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source>Click Add to open the drop dialog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Adicionar para abrir a caixa de diálogo suspensa.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>In the tree, select 'XML\Element'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, selecione 'XML\Elemento'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source>In the Name field, type 'SWIFT'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Nome, digite 'SWIFT'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>SWIFT</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SWIFT</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source>In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\SWIFT'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, selecione "Xml\Mensagem\Pagamentos\Item\Fornecedor\Banco\SWIFT".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source>Click Add to open the drop dialog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Adicionar para abrir a caixa de diálogo suspensa.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source>In the tree, select 'Text\String'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, selecione 'Texto\Cadeia de caracteres'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="218">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="219">
+          <source>In the tree, select 'Xml\Message\Payments\Item\Vendor\Name\String'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, selecione "Xml\Mensagem\Pagamentos\Item\Fornecedor\Nome\String".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="220">
+          <source>In the Maximum length field, enter '100'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Comprimento máximo, insira "100".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="221">
+          <source>Click the Mapping tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique na aba Mapeamento.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="222">
+          <source>In the tree, expand 'model'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, expanda 'modelo'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="223">
+          <source>In the tree, expand 'model\Payments'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, expanda 'modelo\Pagamentos'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="224">
+          <source>In the tree, expand 'model\Payments\Creditor'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, expanda 'modelo\Pagamentos\Credor'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="225">
+          <source>In the tree, expand 'model\Payments\Creditor\Agent'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, expanda 'modelo\Pagamentos\Credor\Agente'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="226">
+          <source>In the tree, select 'model\Payments\Creditor\Agent\SWIFT'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, selecione "modelo\Pagamentos\Credor\Agente\SWIFT".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="227">
+          <source>In the tree, select 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\SWIFT\String'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, selecione "Xml\Mensagem\Pagamentos\Item = modelo.Pagamentos\Fornecedor\Banco\SWIFT\String".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="228">
+          <source>Click Bind.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Associar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="229">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="230">
+          <source>Validate the localized format</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Validar o formato localizado</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="231">
+          <source>Click Validate.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Validar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="232">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="233">
+          <source>Change the status of the current version of the base format configuration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Altere o status da versão atual da configuração do formato base</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="234">
+          <source>Change the status of the updated base format configuration from Draft to Completed to make it available for generation of payment documents and updates of format configurations derived from it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Altere o status da configuração básica atualizada no formato de Rascunho para Concluído para tornar disponível a geração de documentos do pagamento e de atualizações das configurações do formato derivadas dela.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="235">
+          <source>Click Change status.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Alterar status.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="236">
+          <source>Note that the current version of the selected configuration is in Draft status.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Observe que a versão atual da configuração selecionada está no status Rascunho.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="237">
+          <source>Click Complete.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Concluir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="238">
+          <source>In the Description field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Descrição, digite um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="239">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="240">
+          <source>In the list, find and select the desired record.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, localize e selecione o PDV desejado.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="241">
+          <source>Change the base version for the custom format configuration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Versão da alteração para a configuração do formato personalizado</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="242">
+          <source>Proseware, Inc. is informed that a new version 1.2 of BACS (UK fictitious) configuration is available to generate electronic payment documents in accordance to recently announced country-specific requirements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A Proseware, Inc. é informada que uma nova versão 1.2 da configuração BACS (fictício do Reino Unido) está disponível para gerar documentos de pagamento eletrônico de acordo com os novos requisitos específicos anunciados.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="243">
+          <source>Proseware, Inc. wants to start using it as a standard for the country.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A Proseware, Inc. deseja começar a usá-la como padrão para o país.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="244">
+          <source>To do this, Proseware, Inc. needs to change the base configuration version for the custom configuration BACS (UK fictitious custom).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para isso, a Proseware, Inc. precisa alterar a versão da configuração base para a configuração personalizada BACS (Reino Unido fictício personalizado).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="245">
+          <source>Instead of version 1.1 of BACS (UK fictitious) use new version 1.2.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Em vez da versão 1.1 de BACS (fictício do Reino Unido) use a nova versão 1.2.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="246">
+          <source>Go to Organization administration &gt; Workspaces &gt; Electronic reporting.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ir para Administração da organização &gt; Espaços de trabalho &gt; Relatório eletrônico.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="247">
+          <source>Select the Proseware, Inc. provider to mark it as active.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione o provedor da Proseware, Inc. para marcá-lo como ativo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="248">
+          <source>Click Set active.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Definir como ativo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="249">
+          <source>Click Reporting configurations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Configurações de relatórios.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="250">
+          <source>In the tree, expand 'Payments (simplified model)'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, expanda "Pagamentos (modelo simplificado)".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="251">
+          <source>In the tree, expand 'Payments (simplified model)\BACS (UK fictitious)'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, expanda "Pagamentos (modelo simplificado)\BACS (Reino Unido fictício)".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="252">
+          <source>In the tree, select 'Payments (simplified model)\BACS (UK fictitious)\BACS (UK fictitious custom)'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na árvore, selecione "Pagamentos (modelo simplificado)\BACS (Reino Unido fictício)\BACS (Reino Unido personalizado fictício)".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="253">
+          <source>Select the BACS (UK fictitious custom) configuration, which is owned by Proseware, Inc.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione a configuração de BACS (personalizado fictício do Reino Unido), que pertence ao Proseware, Inc.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="254">
+          <source>Use the draft version of the selected configuration to introduce required changes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Use a versão de rascunho de configuração selecionada para apresentar alterações necessárias.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="255">
+          <source>Click Rebase.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Trocar base.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="256">
+          <source>Select the new version 1.2 of the base configuration to be applied as a new base for updating the configuration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione a nova versão 1.2 da configuração base a ser aplicada como uma nova base para atualização da configuração.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="257">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="258">
+          <source>Note that some conflicts have been discovered between merging the custom version and a new base version representing some format changes that can’t be merged automatically.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Observe que alguns conflitos foram descobertos entre mesclar a versão personalizada e uma nova versão base que representam as alterações do formato que não podem ser mescladas automaticamente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="259">
+          <source>Resolve rebase conflicts</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Resolver conflitos de rebase</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="260">
+          <source>Click Designer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Designer.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="261">
+          <source>Note that changes to the vendor’s name text length limit couldn’t be resolved automatically.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Observe que as alterações no limite do tamanho do texto do nome do fornecedor não podem ser resolvidas automaticamente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="262">
+          <source>Therefore, this is presented in a conflicts list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Consequentemente, é apresentado em uma lista de conflitos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="263">
+          <source>For each conflict of type Update, the following options are available:  - Apply a prior base value (button on top of the grid) to bring in the previous base version value (0 in our case).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para cada conflito do tipo Atualização, as opções a seguir estão disponíveis: – aplicar um valor de base anterior (botão no topo da grade) para trazer o valor da versão base anterior (0 em nosso caso).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="264">
+          <source>- Apply a base value (button on top of the grid) to bring in the new base version value (100 in our case).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">- Aplicar um valor de base (botão no topo da grade) para trazer no novo valor da versão base (100 em nosso caso).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="265">
+          <source>- Keep your own (custom) value (60 in our case).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">- Mantenha seu próprio valor (personalizado) (60 em nosso caso).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="266">
+          <source>Click Apply base value to apply a country-specific limit of 100 characters for vendor’s name text length.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em aplica o valor de base para a aplicação do limite do país específico de 100 caracteres de comprimento de texto para nomes do fornecedor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="267">
+          <source>Note that Proseware, Inc. and Litware, Inc. have custom and local versions of this format using IBAN and SWIFT codes with related components that are automatically merged in the managing format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Observe que a Proseware, Inc. e a Litware, Inc. têm versões personalizadas e locais deste formato usando códigos IBAN e SWIFT com componentes relacionados que são automaticamente mesclados no formato gerenciado.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="268">
+          <source>Click Apply base value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Aplicar valor base.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="269">
+          <source>Click Apply base value to apply the country-specific limit of 100 characters for vendor names.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Aplicar o valor de base para aplicar o limite do país específico de 100 caracteres para os nomes dos fornecedores.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="270">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="271">
+          <source>Saving the format will remove resolved conflicts from the conflicts list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Salvar o formato removerá conflitos resolvidos da lista de conflitos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="272">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="273">
+          <source>Change the status of the new version of the custom format configuration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Altere o status da versão nova da configuração do formato personalizado</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="274">
+          <source>Click Change status.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Alterar status.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="275">
+          <source>Change the status of the updated, custom format configuration from Draft to Completed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Altere o status da configuração atualizada, formato personalizado de Rascunho para Concluído.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="276">
+          <source>This will make the format configuration available for generating payment documents.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Isso criará a configuração de formato disponível para a geração de documentos de pagamento.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="277">
+          <source>Note that the current version of the selected configuration is in Draft status.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Observe que a versão atual da configuração selecionada está no status Rascunho.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="278">
+          <source>Click Complete.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Concluir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="279">
+          <source>In the Description field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Descrição, digite um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="280">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="281">
+          <source>Note that the created configuration is saved as completed version 1.2.2: version 2 of base BACS (UK fictitious custom) format, which is based on version 2 of base BACS (UK fictitious) format, which is based on version 1 of Payments (simplified model) data model.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Observe que a configuração criada é salva como uma versão completa 1.2.2: versão 2 do formato da base BACS (personalizado fictício do Reino Unido), que é baseado na versão 2 do formato da base BACS (fictício do Reino Unido), que é baseada na versão 1 do modelo de dados de Pagamentos (modelo simplificado).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="282">
+          <source>Test the customized format for payment files generation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Teste o formato personalizado para gerar arquivos de pagamento</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="283">
+          <source>Complete the steps in the “Use created format to generate electronic documents for payments” procedure in parallel Dynamics 365 for Finance and Operations, Enterprise edition session.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Conclua as etapas no procedimento "Usar formato criado para gerar documentos eletrônicos para pagamentos" em uma sessão do Dynamics 365 for Finance and Operations, Enterprise edition paralela.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="284">
+          <source>Select the created ‘BACS (UK fictitious custom)’ format in electronic payment method parameters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione o "formato BACS criado (personalizado fictício do Reino Unido)" nos parâmetros de método de pagamento eletrônico.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="285">
+          <source>Make sure that the created payment file contains recently introduced by Proseware, Inc. XML node presenting IBAN account code in accordance to regional requirements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verifique se o arquivo de pagamento criado contém o nó XML recentemente introduzido pela Proseware, Inc. que apresenta o código de conta IBAN de acordo com as exigências regionais.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="286">
+          <source>The file also should contain the recently introduced by Litware, Inc. XML node presenting SWIFT bank code in accordance to country requirements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O arquivo também deve conter o nó XML introduzido recentemente pela Litware, Inc. que apresenta o código bancário SWIFT de acordo os requisitos do país.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

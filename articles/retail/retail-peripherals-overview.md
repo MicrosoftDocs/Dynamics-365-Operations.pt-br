@@ -1,893 +1,2610 @@
----
-title: Periféricos para varejo
-description: Este tópico explica os conceitos relacionados aos periféricos de varejo.
-author: rubencdelgado
-manager: AnnBe
-ms.date: 01/16/2019
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-365-retail
-ms.technology: ''
-ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
-audience: Application User, IT Pro
-ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.custom: 268444
-ms.search.region: global
-ms.search.industry: Retail
-ms.author: rubendel
-ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8fa2be91db8213845c2be16b1cc0a0f5457a708b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571549"
----
-# <a name="retail-peripherals"></a><span data-ttu-id="34f73-103">Periféricos para varejo</span><span class="sxs-lookup"><span data-stu-id="34f73-103">Retail peripherals</span></span>
-
-[!include [banner](includes/banner.md)]
-
-<span data-ttu-id="34f73-104">Este tópico explica os conceitos relacionados aos periféricos de varejo.</span><span class="sxs-lookup"><span data-stu-id="34f73-104">This topic explains the concepts that are related to retail peripherals.</span></span> <span data-ttu-id="34f73-105">Descreve as várias formas que os periféricos podem ser conectados ao ponto de venda (PDV) e os componentes responsáveis por gerenciar a conexão com o PDV.</span><span class="sxs-lookup"><span data-stu-id="34f73-105">It describes the various ways that peripherals can be connected to the point of sale (POS) and the components that are responsible for managing the connection with the POS.</span></span>
-
-## <a name="concepts"></a><span data-ttu-id="34f73-106">Conceitos</span><span class="sxs-lookup"><span data-stu-id="34f73-106">Concepts</span></span>
-
-### <a name="pos-registers"></a><span data-ttu-id="34f73-107">Terminais de PDV</span><span class="sxs-lookup"><span data-stu-id="34f73-107">POS registers</span></span>
-
-<span data-ttu-id="34f73-108">Navegação: Clique em **Varejo** &gt; **Configuração do canal** &gt; **Configuração do PDV** &gt; **Registros**.</span><span class="sxs-lookup"><span data-stu-id="34f73-108">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Registers**.</span></span> <span data-ttu-id="34f73-109">O registro de ponto de venda (PDV) é uma entidade usada para definir as características de uma instância específica do PDV.</span><span class="sxs-lookup"><span data-stu-id="34f73-109">The point of sale (POS) register is an entity that is used to define the characteristics of a specific instance of the POS.</span></span> <span data-ttu-id="34f73-110">Essas características incluem o perfil ou configuração de hardware para os periféricos de varejo que serão usados no registro, a loja em que o registro está mapeado, e a experiência visual para o usuário que se conecta ao registro.</span><span class="sxs-lookup"><span data-stu-id="34f73-110">These characteristics include the hardware profile or setup for retail peripherals that will be used at the register, the store that the register is mapped to, and the visual experience for the user who signs in to that register.</span></span>
-
-### <a name="devices"></a><span data-ttu-id="34f73-111">Dispositivos</span><span class="sxs-lookup"><span data-stu-id="34f73-111">Devices</span></span>
-
-<span data-ttu-id="34f73-112">Navegação: Clique em **Varejo** &gt; **Configuração do canal** &gt; **Configuração do PDV** &gt; **Dispositivos**.</span><span class="sxs-lookup"><span data-stu-id="34f73-112">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Devices**.</span></span> <span data-ttu-id="34f73-113">Um dispositivo é uma entidade que representa uma instância física de um dispositivo que é mapeado para um registro de POS.</span><span class="sxs-lookup"><span data-stu-id="34f73-113">A device is an entity that represents a physical instance of a device that is mapped to a POS register.</span></span> <span data-ttu-id="34f73-114">Quando um dispositivo é criado, ele é mapeado para um registro de POS.</span><span class="sxs-lookup"><span data-stu-id="34f73-114">When a device is created, it's mapped to a POS register.</span></span> <span data-ttu-id="34f73-115">A entidade de dispositivo controla informações sobre quando uma registradora de POS é ativada, o tipo de cliente que está sendo usado e o pacote de aplicativo que foi implantado para um dispositivo específico.</span><span class="sxs-lookup"><span data-stu-id="34f73-115">The device entity tracks information about when a POS register is activated, the type of client that is being used, and the application package that has been deployed to a specific device.</span></span> <span data-ttu-id="34f73-116">Os dispositivos podem ser mapeados nos seguintes tipos de aplicativo: Retail Modern POS, PDV de nuvem de varejo, Retail Modern POS – Windows Phone, Retail Modern POS – Android e Retail Modern POS – iOS.</span><span class="sxs-lookup"><span data-stu-id="34f73-116">Devices can be mapped to the following application types: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android, and Retail Modern POS – iOS.</span></span>
-
-### <a name="retail-modern-pos"></a><span data-ttu-id="34f73-117">Retail Modern POS</span><span class="sxs-lookup"><span data-stu-id="34f73-117">Retail Modern POS</span></span>
-
-<span data-ttu-id="34f73-118">O PDV moderno é o programa de PDV para Microsoft Windows.</span><span class="sxs-lookup"><span data-stu-id="34f73-118">Modern POS is the POS program for Microsoft Windows.</span></span> <span data-ttu-id="34f73-119">Pode ser implantado em sistemas operacionais Windows 10 (OSs).</span><span class="sxs-lookup"><span data-stu-id="34f73-119">It can be deployed on Windows 10 operating systems (OSs).</span></span>
-
-### <a name="cloud-pos"></a><span data-ttu-id="34f73-120">PDV em Nuvem</span><span class="sxs-lookup"><span data-stu-id="34f73-120">Cloud POS</span></span>
-
-<span data-ttu-id="34f73-121">O PDV de nuvem é uma versão baseada em navegador do programa de PDV moderno que pode ser acessada em um navegador de Web.</span><span class="sxs-lookup"><span data-stu-id="34f73-121">Cloud POS is a browser-based version of the Modern POS program that can be accessed in a web browser.</span></span>
-
-### <a name="modern-pos-for-ios"></a><span data-ttu-id="34f73-122">POS moderno para iOS</span><span class="sxs-lookup"><span data-stu-id="34f73-122">Modern POS for iOS</span></span>
-
-<span data-ttu-id="34f73-123">O PDV moderno para iOS é uma versão baseada em iOS do programa de PDV moderno que pode ser implantada em dispositivos iOS.</span><span class="sxs-lookup"><span data-stu-id="34f73-123">Modern POS for iOS is an iOS-based version of the Modern POS program that can be deployed on iOS devices.</span></span>
-
-### <a name="modern-pos-for-android"></a><span data-ttu-id="34f73-124">POS moderno para Android</span><span class="sxs-lookup"><span data-stu-id="34f73-124">Modern POS for Android</span></span>
-
-<span data-ttu-id="34f73-125">O PDV moderno para Android é uma versão baseada em Android do programa de PDV moderno que pode ser implantada em dispositivos Android.</span><span class="sxs-lookup"><span data-stu-id="34f73-125">Modern POS for Android is an Android-based version of the Modern POS program that can be deployed on Android devices.</span></span>
-
-### <a name="pos-peripherals"></a><span data-ttu-id="34f73-126">Periféricos de PDV</span><span class="sxs-lookup"><span data-stu-id="34f73-126">POS peripherals</span></span>
-
-<span data-ttu-id="34f73-127">Os periféricos de PDV são dispositivos suportados explicitamente para funções de PDV.</span><span class="sxs-lookup"><span data-stu-id="34f73-127">POS peripherals are devices that are explicitly supported for POS functions.</span></span> <span data-ttu-id="34f73-128">Esses periféricos normalmente são divididos em classes específicas.</span><span class="sxs-lookup"><span data-stu-id="34f73-128">These peripherals are typically divided into specific classes.</span></span> <span data-ttu-id="34f73-129">Para obter mais informações sobre essas classes, consulte a seção "Classes de dispositivo" deste tópico.</span><span class="sxs-lookup"><span data-stu-id="34f73-129">For more information about these classes, see the "Device classes" section of this topic.</span></span>
-
-### <a name="hardware-station"></a><span data-ttu-id="34f73-130">Hardware Station</span><span class="sxs-lookup"><span data-stu-id="34f73-130">Hardware station</span></span>
-
-<span data-ttu-id="34f73-131">Navegação: Clique em **Varejo** &gt; **Canais** &gt; **Lojas de varejo** &gt; **Todas as lojas de varejo**.</span><span class="sxs-lookup"><span data-stu-id="34f73-131">Navigation: Click **Retail** &gt; **Channels** &gt; **Retail stores** &gt; **All retail stores**.</span></span> <span data-ttu-id="34f73-132">Selecione uma loja e clique na Guia Rápida **Estações de hardware**.</span><span class="sxs-lookup"><span data-stu-id="34f73-132">Select a store, and then click the **Hardware stations** FastTab.</span></span> <span data-ttu-id="34f73-133">A configuração **Estação de hardware** é uma configuração a nível de canal utilizada para definir instâncias onde a lógica de periférico de varejo será implantada.</span><span class="sxs-lookup"><span data-stu-id="34f73-133">The **Hardware station** setting is a channel-level setting that is used to define instances where the retail peripheral logic will be deployed.</span></span> <span data-ttu-id="34f73-134">Esta configuração a nível de canal é usada para determinar as características da estação de hardware.</span><span class="sxs-lookup"><span data-stu-id="34f73-134">This setting at the channel level is used to determine characteristics of the hardware station.</span></span> <span data-ttu-id="34f73-135">Também é usada para listar as estações de hardware disponíveis para uma instância de PDV moderno em uma loja específica.</span><span class="sxs-lookup"><span data-stu-id="34f73-135">It's also used to list hardware stations that are available for a Modern POS instance in a given store.</span></span> <span data-ttu-id="34f73-136">A estação de hardware é criada no programa de PDV moderno para o Windows.</span><span class="sxs-lookup"><span data-stu-id="34f73-136">The hardware station is built into the Modern POS program for Windows.</span></span> <span data-ttu-id="34f73-137">A estação de hardware também pode ser implantada independentemente como um programa autônomo do Microsoft Internet Information Services (IIS).</span><span class="sxs-lookup"><span data-stu-id="34f73-137">The hardware station can also be deployed independently as a stand-alone Microsoft Internet Information Services (IIS) program.</span></span> <span data-ttu-id="34f73-138">Nesse caso, pode ser acessada pela rede.</span><span class="sxs-lookup"><span data-stu-id="34f73-138">In this case, it can be accessed via a network.</span></span>
-
-### <a name="hardware-profile"></a><span data-ttu-id="34f73-139">Perfil de hardware</span><span class="sxs-lookup"><span data-stu-id="34f73-139">Hardware profile</span></span>
-
-<span data-ttu-id="34f73-140">Navegação: Clique em **Varejo** &gt; **Configuração de canal** &gt; **Configuração de PDV** &gt; **Perfis de PDV** &gt; **Perfis de hardware**.</span><span class="sxs-lookup"><span data-stu-id="34f73-140">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Hardware profiles**.</span></span> <span data-ttu-id="34f73-141">O perfil de hardware é uma lista de dispositivos que são configurados para um registro de PDV ou estação de hardware.</span><span class="sxs-lookup"><span data-stu-id="34f73-141">The hardware profile is a list of devices that are configured for a POS register or a hardware station.</span></span> <span data-ttu-id="34f73-142">O perfil de hardware pode ser mapeado diretamente em um registro de PDV ou estação de hardware.</span><span class="sxs-lookup"><span data-stu-id="34f73-142">The hardware profile can be mapped directly to a POS register or a hardware station.</span></span>
-
-## <a name="devices-classes"></a><span data-ttu-id="34f73-143">Classes de dispositivos</span><span class="sxs-lookup"><span data-stu-id="34f73-143">Devices classes</span></span>
-<span data-ttu-id="34f73-144">Os periféricos de PDV normalmente são divididos em classes.</span><span class="sxs-lookup"><span data-stu-id="34f73-144">POS peripherals are typically divided into classes.</span></span> <span data-ttu-id="34f73-145">Esta seção descreve e dá uma visão geral dos dispositivos suportados pelo PDV moderno.</span><span class="sxs-lookup"><span data-stu-id="34f73-145">This section describes and gives an overview of the devices that Modern POS supports.</span></span>
-
-### <a name="printer"></a><span data-ttu-id="34f73-146">Impressora</span><span class="sxs-lookup"><span data-stu-id="34f73-146">Printer</span></span>
-
-<span data-ttu-id="34f73-147">As impressoras incluem impressoras tradicionais de recibo de PDV e impressoras de página inteira.</span><span class="sxs-lookup"><span data-stu-id="34f73-147">Printers include traditional POS receipt printers and full-page printers.</span></span> <span data-ttu-id="34f73-148">As impressoras são suportadas por meio da fixação e incorporação de objetos para Retail POS (OPOS) e interfaces de driver do Microsoft Windows.</span><span class="sxs-lookup"><span data-stu-id="34f73-148">Printer are supported through Object Linking and Embedding for Retail POS (OPOS) and Microsoft Windows driver interfaces.</span></span> <span data-ttu-id="34f73-149">Até duas impressoras podem ser usadas ao mesmo tempo.</span><span class="sxs-lookup"><span data-stu-id="34f73-149">Up to two printers can be used at the same time.</span></span> <span data-ttu-id="34f73-150">Este recurso suporta cenários onde os recebimentos de cliente pague-e-leve são impressos em impressoras de recebimento, enquanto que as ordens de cliente, que têm mais informações, são impressas em uma impressora de página inteira.</span><span class="sxs-lookup"><span data-stu-id="34f73-150">This capability supports scenarios where cash-and-carry customer receipts are printed on receipt printers, whereas customer orders, which carry more information, are printed on a full-page printer.</span></span> <span data-ttu-id="34f73-151">As impressoras de recebimento podem estar associadas diretamente a um computador via USB, conectadas à rede via Ethernet, ou conectadas via Bluetooth.</span><span class="sxs-lookup"><span data-stu-id="34f73-151">Receipt printers can be connected directly to a computer via USB, connected to a network via Ethernet, or connected via Bluetooth.</span></span>
-
-### <a name="scanner"></a><span data-ttu-id="34f73-152">Scanner</span><span class="sxs-lookup"><span data-stu-id="34f73-152">Scanner</span></span>
-
-<span data-ttu-id="34f73-153">Até duas impressoras de código de barras podem ser usadas ao mesmo tempo.</span><span class="sxs-lookup"><span data-stu-id="34f73-153">Up to two bar code scanners can be used at the same time.</span></span> <span data-ttu-id="34f73-154">Este recurso suporta cenários onde um scanner mais compatível com dispositivos é necessário para digitalizar itens grandes ou pesados, enquanto um scanner fixo inserido é usado para a maioria dos itens de dimensão padrão, para acelerar os tempos de checkout.</span><span class="sxs-lookup"><span data-stu-id="34f73-154">This capability supports scenarios where a scanner that is more mobile is required in order to scan large or heavy items, whereas a fixed embedded scanner is used for most standard-sized items, to speed up checkout times.</span></span> <span data-ttu-id="34f73-155">Os scanners podem ser suportados pelo OPOS, plataforma universal do Windows (UWP) ou interfaces de teclado.</span><span class="sxs-lookup"><span data-stu-id="34f73-155">Scanners can be supported through OPOS, Universal Windows Platform (UWP), or keyboard wedge interfaces.</span></span> <span data-ttu-id="34f73-156">O USB ou Bluetooth podem ser usados para conectar um scanner a um computador.</span><span class="sxs-lookup"><span data-stu-id="34f73-156">USB or Bluetooth can be used to connect a scanner to a computer.</span></span>
-
-### <a name="msr"></a><span data-ttu-id="34f73-157">LTM</span><span class="sxs-lookup"><span data-stu-id="34f73-157">MSR</span></span>
-
-<span data-ttu-id="34f73-158">Um leitor de tarja magnética (MSR) USB pode ser configurado usando drivers OPOS.</span><span class="sxs-lookup"><span data-stu-id="34f73-158">One USB magnetic stripe reader (MSR) can be set up by using OPOS drivers.</span></span> <span data-ttu-id="34f73-159">Se desejar usar um MSR autônomo para transações de pagamento de transferência eletrônica de fundos (TEF), o MSR deve ser gerenciado por um conector de pagamento.</span><span class="sxs-lookup"><span data-stu-id="34f73-159">If you want to use a stand-alone MSR for electronic funds transfer (EFT) payment transactions, the MSR must be managed by a payment connector.</span></span> <span data-ttu-id="34f73-160">Os MSRs autônomos podem ser usados para a entrada de fidelidade do cliente, o logon de funcionário, e entrada de vale-presente, independentemente do conector de pagamento.</span><span class="sxs-lookup"><span data-stu-id="34f73-160">Stand-alone MSRs can be used for customer loyalty entry, employee sign-in, and gift card entry, independently of the payment connector.</span></span>
-
-### <a name="cash-drawer"></a><span data-ttu-id="34f73-161">Gaveta de caixa</span><span class="sxs-lookup"><span data-stu-id="34f73-161">Cash drawer</span></span>
-
-<span data-ttu-id="34f73-162">Duas gavetas de caixa podem ser suportadas pelo perfil de hardware.</span><span class="sxs-lookup"><span data-stu-id="34f73-162">Two cash drawers can be supported per hardware profile.</span></span> <span data-ttu-id="34f73-163">Este recurso permite que dois turnos ativos estejam disponíveis ao mesmo tempo por registradora.</span><span class="sxs-lookup"><span data-stu-id="34f73-163">This capability enables two active shifts per register to be available at the same time.</span></span> <span data-ttu-id="34f73-164">No caso de um turno compartilhado, ou uma caixa registradora usada por vários dispositivos móveis PDV ao mesmo tempo, apenas uma caixa registradora será permitida por perfil de hardware.</span><span class="sxs-lookup"><span data-stu-id="34f73-164">In the case of a shared shift, or a cash drawer that is used by multiple mobile POS devices at the same time, only one cash drawer is allowed per hardware profile.</span></span> <span data-ttu-id="34f73-165">As caixas registradores podem ser conectadas diretamente a um computador via USB, a uma rede, ou a uma impressora de recibos através de uma interface RJ12.</span><span class="sxs-lookup"><span data-stu-id="34f73-165">Cash drawers can be connected directly to a computer via USB, connected to a network, or connected to a receipt printer via an RJ12 interface.</span></span> <span data-ttu-id="34f73-166">Em alguns casos, as caixas registradoras também podem ser conectadas por meio de Bluetooth.</span><span class="sxs-lookup"><span data-stu-id="34f73-166">In some cases, cash drawers can also be connected via Bluetooth.</span></span>
-
-### <a name="line-display"></a><span data-ttu-id="34f73-167">Display LCD de linhas</span><span class="sxs-lookup"><span data-stu-id="34f73-167">Line display</span></span>
-
-<span data-ttu-id="34f73-168">As exibições de linha são usadas para mostrar produtos, saldos da transação, e outras informações úteis ao cliente durante uma transação.</span><span class="sxs-lookup"><span data-stu-id="34f73-168">Line displays are used to show products, transaction balances, and other useful information to the customer during a transaction.</span></span> <span data-ttu-id="34f73-169">A exibição de uma linha pode ser vinculada ao computador via USB usando drivers OPOS.</span><span class="sxs-lookup"><span data-stu-id="34f73-169">One line display can be connected to the computer via USB by using OPOS drivers.</span></span>
-
-### <a name="signature-capture"></a><span data-ttu-id="34f73-170">Assinatura</span><span class="sxs-lookup"><span data-stu-id="34f73-170">Signature capture</span></span>
-
-<span data-ttu-id="34f73-171">Os dispositivos de captura de assinatura podem ser vinculados diretamente a um computador via USB ou usando drivers OPOS.</span><span class="sxs-lookup"><span data-stu-id="34f73-171">Signature capture devices can be connected directly to a computer via USB by using OPOS drivers.</span></span> <span data-ttu-id="34f73-172">Quando a captura de assinatura for configurada, o cliente receberá uma solicitação para efetuar login no dispositivo.</span><span class="sxs-lookup"><span data-stu-id="34f73-172">When signature capture is configured, the customer is prompted to sign on the device.</span></span> <span data-ttu-id="34f73-173">Depois que a assinatura for fornecida, ela é mostrada ao caixa para aceitação.</span><span class="sxs-lookup"><span data-stu-id="34f73-173">After the signature is provided, it's shown to the cashier for acceptance.</span></span>
-
-### <a name="scale"></a><span data-ttu-id="34f73-174">Balança</span><span class="sxs-lookup"><span data-stu-id="34f73-174">Scale</span></span>
-
-<span data-ttu-id="34f73-175">As escalas podem ser conectadas ao computador via USP usando drivers OPOS.</span><span class="sxs-lookup"><span data-stu-id="34f73-175">Scales can be connected to the computer via USP by using OPOS drivers.</span></span> <span data-ttu-id="34f73-176">Quando um produto que está marcado como um produto "ponderado" é adicionado a uma transação, o PDV lê o peso da escala, adiciona o produto à transação e usa a quantidade fornecida pela escala.</span><span class="sxs-lookup"><span data-stu-id="34f73-176">When a product that is marked as a "Weighed" product is added to a transaction, the POS reads the weight from the scale, adds the product to the transaction, and uses the quantity that the scale provided.</span></span>
-
-### <a name="pin-pad"></a><span data-ttu-id="34f73-177">Teclado do PIN</span><span class="sxs-lookup"><span data-stu-id="34f73-177">PIN pad</span></span>
-
-<span data-ttu-id="34f73-178">Os teclados de número de identificação pessoal (PIN) são suportados no OPOS, mas devem ser gerenciados através de um conector de pagamento.</span><span class="sxs-lookup"><span data-stu-id="34f73-178">Personal identification number (PIN) pads are supported through OPOS, but they must be managed via a payment connector.</span></span>
-
-### <a name="secondary-display"></a><span data-ttu-id="34f73-179">Exibição secundária</span><span class="sxs-lookup"><span data-stu-id="34f73-179">Secondary display</span></span>
-
-<span data-ttu-id="34f73-180">Quando uma exibição secundária for configurada, a exibição do Windows de número 2 será usada para mostrar informações básicas.</span><span class="sxs-lookup"><span data-stu-id="34f73-180">When a secondary display is configured, the number 2 Windows display is used to show basic information.</span></span> <span data-ttu-id="34f73-181">A finalidade da exibição secundária é suportar uma extensão de fornecedor de software independente (ISV), pois fora do conjunto, a exibição secundária não pode ser configurada e apresenta conteúdo limitado.</span><span class="sxs-lookup"><span data-stu-id="34f73-181">The purpose of the secondary display is to support independent software vendor (ISV) extension, because out of the box, the secondary display isn't configurable and shows limited content.</span></span>
-
-### <a name="payment-device"></a><span data-ttu-id="34f73-182">Dispositivo de pagamento</span><span class="sxs-lookup"><span data-stu-id="34f73-182">Payment device</span></span>
-
-<span data-ttu-id="34f73-183">O suporte a dispositivos de pagamento foi implementado pelo conector de pagamento.</span><span class="sxs-lookup"><span data-stu-id="34f73-183">Payment device support is implemented through the payment connector.</span></span> <span data-ttu-id="34f73-184">Os dispositivos de pagamento podem realizar uma ou muitas das funções que outras classes de dispositivo fornecem.</span><span class="sxs-lookup"><span data-stu-id="34f73-184">Payment devices can perform one or many of the functions that other device classes provide.</span></span> <span data-ttu-id="34f73-185">Por exemplo, um dispositivo de pagamento pode funcionar como um leitor de cartão/MSR, exibição de linha, dispositivo de captura de assinatura, ou teclado do PIN.</span><span class="sxs-lookup"><span data-stu-id="34f73-185">For example, a payment device can function as an MSR/card reader, line display, signature capture device, or PIN pad.</span></span> <span data-ttu-id="34f73-186">O suporte a dispositivos de pagamento é implementado independentemente do suporte de dispositivo autônomo que é fornecido para outros dispositivos que estão inclusos no perfil de hardware.</span><span class="sxs-lookup"><span data-stu-id="34f73-186">Support for payment devices is implemented independently of the stand-alone device support that is provided for other devices that are included in the hardware profile.</span></span>
-
-## <a name="supported-interfaces"></a><span data-ttu-id="34f73-187">Interfaces suportadas</span><span class="sxs-lookup"><span data-stu-id="34f73-187">Supported interfaces</span></span>
-
-### <a name="opos"></a><span data-ttu-id="34f73-188">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-188">OPOS</span></span>
-
-<span data-ttu-id="34f73-189">Para ajudar a garantir que uma gama maior de dispositivos possa ser usada com o Microsoft Dynamics 365 for Retail, o OLE para PDV padrão da indústria é a plataforma de dispositivo periférico de varejo primária suportada no Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="34f73-189">To help guarantee that the largest range of devices can be used with Microsoft Dynamics 365 for Retail, the OLE for POS industry standard is the primary retail peripheral device platform that is supported in Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="34f73-190">O OLE para PDV padrão foi produzido pela Federação Nacional do Varejo (NRF), que estabelece os protocolos de comunicação padrão da indústria para dispositivos periféricos de varejo.</span><span class="sxs-lookup"><span data-stu-id="34f73-190">The OLE for POS standard was produced by the National Retail Federation (NRF), which establishes industry-standard communication protocols for retail peripheral devices.</span></span> <span data-ttu-id="34f73-191">O OPOS é uma implementação amplamente adotada do OLE para PDV padrão.</span><span class="sxs-lookup"><span data-stu-id="34f73-191">OPOS is a widely adopted implementation of the OLE for POS standard.</span></span> <span data-ttu-id="34f73-192">Foi desenvolvido em meados dos anos 90 e foi atualizado diversas vezes desde então.</span><span class="sxs-lookup"><span data-stu-id="34f73-192">It was developed in the mid-1990s and has been updated several times since then.</span></span> <span data-ttu-id="34f73-193">O OPOS fornece uma arquitetura de driver de dispositivo que permite a integração simples de hardware PDV com sistemas baseados em Windows.</span><span class="sxs-lookup"><span data-stu-id="34f73-193">OPOS provides a device driver architecture that enables easy integration of POS hardware with Windows–based POS systems.</span></span> <span data-ttu-id="34f73-194">O OPOS controla a comunicação entre o hardware compatível e o software PDV.</span><span class="sxs-lookup"><span data-stu-id="34f73-194">OPOS controls handle communication between compatible hardware and the POS software.</span></span> <span data-ttu-id="34f73-195">Um controle OPOS consiste em duas partes:</span><span class="sxs-lookup"><span data-stu-id="34f73-195">An OPOS control consists of two parts:</span></span>
-
-- <span data-ttu-id="34f73-196">**Objeto de controle** – O objeto de controle para uma classe de dispositivo (como as exibições de linha) fornece a interface para o programa de software.</span><span class="sxs-lookup"><span data-stu-id="34f73-196">**Control object** – The control object for a device class (such as line displays) provides the interface for the software program.</span></span> <span data-ttu-id="34f73-197">A Monroe Serviços de Consultoria ([www.monroecs.com](http://www.monroecs.com/)) fornece um conjunto padronizado de objetos de controle OPOS que são conhecidos como objetos de controle (CCOs).</span><span class="sxs-lookup"><span data-stu-id="34f73-197">Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) provides a standardized set of OPOS control objects that are known as the common control objects (CCOs).</span></span> <span data-ttu-id="34f73-198">Os CCOs são usados para testar o componente de PDV do Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="34f73-198">The CCOs are used to test the POS component of Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="34f73-199">Portanto, o teste ajuda a garantir que, se o Microsoft Dynamics 365 for Retail oferecer suporte a uma classe de dispositivo através do OPOS, muitos tipos de dispositivo podem ser suportados, dado que o fabricante fornece um objeto de servido que é desenvolvido para OPOS.</span><span class="sxs-lookup"><span data-stu-id="34f73-199">Therefore, the testing helps guarantee that, if Microsoft Dynamics 365 for Retail supports a device class through OPOS, many device types can be supported, provided that the manufacturer provides a service object that is built for OPOS.</span></span> <span data-ttu-id="34f73-200">Você não precisa explicitamente testar cada tipo do dispositivo.</span><span class="sxs-lookup"><span data-stu-id="34f73-200">You don't have to explicitly test each device type.</span></span>
-- <span data-ttu-id="34f73-201">**Objeto de serviço** – O objeto de serviço fornece comunicação entre o objeto de controle (CCO) e o dispositivo.</span><span class="sxs-lookup"><span data-stu-id="34f73-201">**Service object** – The service object provides communication between the control object (CCO) and the device.</span></span> <span data-ttu-id="34f73-202">Normalmente, o objeto de serviço para um dispositivo é fornecido pelo fabricante do dispositivo.</span><span class="sxs-lookup"><span data-stu-id="34f73-202">Typically, the service object for a device is provided by the device manufacturer.</span></span> <span data-ttu-id="34f73-203">Entretanto, em alguns casos, pode ser necessário baixar o objeto de serviço do site do fabricante.</span><span class="sxs-lookup"><span data-stu-id="34f73-203">However, in some cases, you might have to download the service object from the manufacturer's website.</span></span> <span data-ttu-id="34f73-204">Por exemplo, um objeto mais recente de serviço pode estar disponível.</span><span class="sxs-lookup"><span data-stu-id="34f73-204">For example, a more recent service object might be available.</span></span> <span data-ttu-id="34f73-205">Para localizar o endereço do site do fabricante, consulte a documentação do hardware.</span><span class="sxs-lookup"><span data-stu-id="34f73-205">To find the address of the manufacturer's website, see your hardware documentation.</span></span>
-
-<span data-ttu-id="34f73-206">[![Objeto de controle e objeto de serviço](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)</span><span class="sxs-lookup"><span data-stu-id="34f73-206">[![Control object and service object](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)</span></span>
-
-<span data-ttu-id="34f73-207">O suporte à implementação de OPOS do OLE para PDV ajuda a garantir que, se os fabricantes de dispositivos e publicadores de PDV implementarem o padrão corretamente, os sistemas de PDV e dispositivos suportados podem trabalhar juntos, mesmo que não tenham sido testados anteriormente.</span><span class="sxs-lookup"><span data-stu-id="34f73-207">Support for the OPOS implementation of OLE for POS helps guarantee that, if the device manufacturers and POS publishers implement the standard correctly, POS systems and supported devices can work together, even if they weren't previously tested together.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="34f73-208">O suporte do OPOS não garante suporte para todos os dispositivos com drivers OPOS.</span><span class="sxs-lookup"><span data-stu-id="34f73-208">OPOS support doesn't guarantee support for all devices that have OPOS drivers.</span></span> <span data-ttu-id="34f73-209">Microsoft Dynamics 365 for Retail deve primeiro oferecer suporte a esse tipo ou classe de dispositivo através do OPOS.</span><span class="sxs-lookup"><span data-stu-id="34f73-209">Microsoft Dynamics 365 for Retail must first support that device type, or class, through OPOS.</span></span> <span data-ttu-id="34f73-210">Além disso, os objetos de serviço nem sempre podem estar atualizados com a versão mais recente dos CCOs.</span><span class="sxs-lookup"><span data-stu-id="34f73-210">In addition, service objects might not always be up to date with the latest version of the CCOs.</span></span> <span data-ttu-id="34f73-211">Você também deve estar ciente de que, em geral, a qualidade dos objetos de serviço é diferente.</span><span class="sxs-lookup"><span data-stu-id="34f73-211">You should also be aware that, in general, the quality of service objects varies.</span></span>
-
-### <a name="windows"></a><span data-ttu-id="34f73-212">Windows</span><span class="sxs-lookup"><span data-stu-id="34f73-212">Windows</span></span>
-
-<span data-ttu-id="34f73-213">A impressão de recibo no PDV é otimizada para OPOS.</span><span class="sxs-lookup"><span data-stu-id="34f73-213">Receipt printing at the POS is optimized for OPOS.</span></span> <span data-ttu-id="34f73-214">O OPOS tende a ser muito mais rápido que a impressão com Windows.</span><span class="sxs-lookup"><span data-stu-id="34f73-214">OPOS tends to be much faster than printing through Windows.</span></span> <span data-ttu-id="34f73-215">Portanto, é recomendável usar o OPOS, especialmente em ambientes varejistas onde recibos de 40 colunas são impressos e os tempos de transação devem ser curtos.</span><span class="sxs-lookup"><span data-stu-id="34f73-215">Therefore, it's a good idea to use OPOS, especially in retail environments where 40-column receipts are printed and transaction times must be fast.</span></span> <span data-ttu-id="34f73-216">Para a maioria de dispositivos, você usará controles OPOS.</span><span class="sxs-lookup"><span data-stu-id="34f73-216">For most devices, you will use OPOS controls.</span></span> <span data-ttu-id="34f73-217">Entretanto, algumas impressoras de recibo OPOS também oferece suporte a drivers do Windows.</span><span class="sxs-lookup"><span data-stu-id="34f73-217">However, some OPOS receipt printers also support Windows drivers.</span></span> <span data-ttu-id="34f73-218">Usando um driver do Windows, você pode acessar as fontes mais recentes e vincular uma impressora para várias registradoras.</span><span class="sxs-lookup"><span data-stu-id="34f73-218">By using a Windows driver, you can access the latest fonts and network one printer for multiple registers.</span></span> <span data-ttu-id="34f73-219">Contudo, há inconvenientes em usar os drivers do Windows.</span><span class="sxs-lookup"><span data-stu-id="34f73-219">However, there are drawbacks to using Windows drivers.</span></span> <span data-ttu-id="34f73-220">Veja aqui alguns exemplos desses inconvenientes:</span><span class="sxs-lookup"><span data-stu-id="34f73-220">Here are some examples of these drawbacks:</span></span>
-
-- <span data-ttu-id="34f73-221">Quando os drivers do Windows são usados, imagens são renderizadas antes que a impressão ocorra.</span><span class="sxs-lookup"><span data-stu-id="34f73-221">When Windows drivers are used, images are rendered before printing occurs.</span></span> <span data-ttu-id="34f73-222">Portanto, a impressão tende a ser mais lenta do que em impressoras que utilizam controles OPOS.</span><span class="sxs-lookup"><span data-stu-id="34f73-222">Therefore, printing tends to be slower than it is on printers that use OPOS controls.</span></span>
-- <span data-ttu-id="34f73-223">Os dispositivos conectados através da impressora ("encadeado") podem não funcionar corretamente quando os drivers do Windows forem utilizados.</span><span class="sxs-lookup"><span data-stu-id="34f73-223">Devices that are connected through the printer ("daisy-chained") might not work correctly when Windows drivers are used.</span></span> <span data-ttu-id="34f73-224">Por exemplo, a caixa registradora pode não abrir, a impressora de guia pode não escrever como você espera.</span><span class="sxs-lookup"><span data-stu-id="34f73-224">For example, the cash drawer might not open, or the slip printer might not word as you expect.</span></span>
-- <span data-ttu-id="34f73-225">O OPOS também oferece suporte a um conjunto de variáveis mais amplo que são específicas para as impressoras de recibo de varejo, como corte de papéis ou impressão de guias.</span><span class="sxs-lookup"><span data-stu-id="34f73-225">OPOS also supports a more extensive set of variables that are specific to retail receipt printers, such as paper cutting or slip printing.</span></span>
-
-<span data-ttu-id="34f73-226">Se os controles OPOS estiverem disponíveis para a impressora do Windows que você está utilizando, a impressora ainda deve funcionar corretamente com o Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="34f73-226">If OPOS controls are available for the Windows printer that you're using, the printer should still work correctly with Microsoft Dynamics 365 for Retail.</span></span>
-
-### <a name="universal-windows-platform"></a><span data-ttu-id="34f73-227">Plataforma de universal do Windows</span><span class="sxs-lookup"><span data-stu-id="34f73-227">Universal Windows Platform</span></span>
-
-<span data-ttu-id="34f73-228">A UWP, em caso de periféricos de varejo, é relacionada ao suporte do Windows para dispositivos Plug and Play.</span><span class="sxs-lookup"><span data-stu-id="34f73-228">UWP, in the case of retail peripherals, is related to Windows support for Plug and Play devices.</span></span> <span data-ttu-id="34f73-229">Quando um dispositivo Plug and Play é conectado a uma versão do Windows que oferece suporte a esse tipo de dispositivo, nenhum driver é necessário para que o dispositivo seja usado conforme pretendido.</span><span class="sxs-lookup"><span data-stu-id="34f73-229">When a Plug and Play device is connected to a Windows OS version that supports that type of device, no driver is required for the device to be used as intended.</span></span> <span data-ttu-id="34f73-230">Por exemplo, se o Windows detectar um dispositivo de alto-falante Bluetooth, o sistema operacional sabe que o dispositivo tem o tipo de classe **Alto-falante**.</span><span class="sxs-lookup"><span data-stu-id="34f73-230">For example, if Windows detects a Bluetooth speaker device, the OS knows that the device has the **Speaker** class type.</span></span> <span data-ttu-id="34f73-231">Portanto, ele gerencia esse dispositivo como um alto-falante.</span><span class="sxs-lookup"><span data-stu-id="34f73-231">Therefore, and it treats that device as a speaker.</span></span> <span data-ttu-id="34f73-232">Nenhuma configuração adicional é necessária.</span><span class="sxs-lookup"><span data-stu-id="34f73-232">No additional setup is required.</span></span> <span data-ttu-id="34f73-233">No caso de dispositivos PDV, vários dispositivos USB podem ser conectados, e o Windows irá reconhecê-los dispositivos (HIDs) de interface humana.</span><span class="sxs-lookup"><span data-stu-id="34f73-233">In the case of POS devices, many USB devices can be plugged in, and Windows will recognize them as Human Interface Devices (HIDs).</span></span> <span data-ttu-id="34f73-234">Entretanto, ele não consegue determinar os recursos que o dispositivo fornece, pois o dispositivo não especifica a classe ou tipo do dispositivo.</span><span class="sxs-lookup"><span data-stu-id="34f73-234">However, it might not be able to determine the capabilities that the device provides, because the device doesn't specify the class, or type, of device.</span></span> <span data-ttu-id="34f73-235">No Windows 10, classes de dispositivo para scanner de código de barras e MSRs foram adicionados.</span><span class="sxs-lookup"><span data-stu-id="34f73-235">In Windows 10, device classes for bar code scanners and MSRs have been added.</span></span> <span data-ttu-id="34f73-236">Portanto, se um dispositivo se declarar para o Windows 10 como um dispositivo de uma dessas classes, o Windows escutará eventos do dispositivo em horários apropriados.</span><span class="sxs-lookup"><span data-stu-id="34f73-236">Therefore, if a device declares itself to Windows 10 as a device of one of these classes, Windows will listen for events from the device at the appropriate times.</span></span> <span data-ttu-id="34f73-237">O PDV moderno oferece suporte a MSRs e scanners UWP.</span><span class="sxs-lookup"><span data-stu-id="34f73-237">Modern POS supports UWP MSRs and scanners.</span></span> <span data-ttu-id="34f73-238">Portanto, quando estiver pronto para entrada de um desses dispositivos, e um dispositivo que pertence a uma dessas classes é conectado, o dispositivo pode ser usado.</span><span class="sxs-lookup"><span data-stu-id="34f73-238">Therefore, when it's ready for input from one of these devices, and a device that belongs to one of these classes is connected, the device can be used.</span></span> <span data-ttu-id="34f73-239">Por exemplo, se um scanner de código de barras UWP for conectado a um computador com Windows 10, e o logon de código de barras estiver configurado para o PDV moderno, o scanner de código de barras ficará ativo na tela de logon.</span><span class="sxs-lookup"><span data-stu-id="34f73-239">For example, if a UWP bar code scanner is plugged into a Windows 10 computer, and bar code sign-in is configured for Modern POS, the bar code scanner will become active on the sign-in screen.</span></span> <span data-ttu-id="34f73-240">Nenhuma configuração adicional é necessária.</span><span class="sxs-lookup"><span data-stu-id="34f73-240">No additional setup is required.</span></span> <span data-ttu-id="34f73-241">As classes adicionais de dispositivos UWP de ponto de serviço estão sendo adicionadas ao Windows.</span><span class="sxs-lookup"><span data-stu-id="34f73-241">Additional classes of point of service UWP devices are being added to Windows.</span></span> <span data-ttu-id="34f73-242">Essas classes incluem classes para caixas registradoras e impressoras de recibo.</span><span class="sxs-lookup"><span data-stu-id="34f73-242">These classes include classes for cash drawers and receipt printers.</span></span> <span data-ttu-id="34f73-243">O suporte para essas novas classes de dispositivo no PDV moderno está pendente.</span><span class="sxs-lookup"><span data-stu-id="34f73-243">Support for these new device classes in Modern POS is pending.</span></span>
-
-### <a name="keyboard-wedge"></a><span data-ttu-id="34f73-244">Leitor de cartão de crédito do teclado</span><span class="sxs-lookup"><span data-stu-id="34f73-244">Keyboard wedge</span></span>
-
-<span data-ttu-id="34f73-245">Os leitores de cartão de crédito do teclado enviam dados para o computador como se os dados tivessem sido digitados em um teclado.</span><span class="sxs-lookup"><span data-stu-id="34f73-245">Keyboard wedge devices send data to the computer as if that data were typed on a keyboard.</span></span> <span data-ttu-id="34f73-246">Portanto, por padrão, o campo que fica ativo no PDV receberá os dados digitalizados ou lidos.</span><span class="sxs-lookup"><span data-stu-id="34f73-246">Therefore, by default, the field that is active at the POS will receive the data that is scanned or swiped.</span></span> <span data-ttu-id="34f73-247">Em alguns casos, este comportamento pode fazer com que o tipo errado de dado seja digitalizado no campo errado.</span><span class="sxs-lookup"><span data-stu-id="34f73-247">In some cases, this behavior can cause the wrong type of data to be scanned into the wrong field.</span></span> <span data-ttu-id="34f73-248">Por exemplo, um código de barras pode ser digitalizado em um campo que foi criado para a entrada de dados de cartão de crédito.</span><span class="sxs-lookup"><span data-stu-id="34f73-248">For example, a bar code might be scanned into a field that is intended for input of credit card data.</span></span> <span data-ttu-id="34f73-249">Em muitos casos, há uma lógica no PDV que determina se os dados que são digitalizados ou lidos são um código de barras ou faixa de cartão.</span><span class="sxs-lookup"><span data-stu-id="34f73-249">In many cases, there is logic at the POS that determines whether the data that is scanned or swiped is a bar code or card swipe.</span></span> <span data-ttu-id="34f73-250">Portanto, os dados são controlados corretamente.</span><span class="sxs-lookup"><span data-stu-id="34f73-250">Therefore, the data is handled correctly.</span></span> <span data-ttu-id="34f73-251">Entretanto, quando dispositivos são configurados como OPOS em vez de leitores de cartão de crédito do teclado, há mais controle sobre a forma como os dados desses dispositivos podem ser consumidos, pois o dispositivo de origem dos dados é mais "conhecido".</span><span class="sxs-lookup"><span data-stu-id="34f73-251">However, when devices are set up as OPOS instead of keyboard wedge devices, there is more control over how the data from those devices can be consumed, because more is "known" about the device that the data originates from.</span></span> <span data-ttu-id="34f73-252">Por exemplo, os dados de um scanner de código de barras são reconhecidos automaticamente como um código de barras, e o registro associado no banco de dados é encontrado com mais facilidade e rapidez do que se uma pesquisa de cadeia de caracteres genérica fosse utilizada, como no caso dos leitores de cartão de crédito de teclado.</span><span class="sxs-lookup"><span data-stu-id="34f73-252">For example, data from a bar code scanner is automatically recognized as a bar code, and the associated record in the database is found more easily and faster than if a generic string search were used, as in the case of keyboard wedge devices.</span></span>
-
-### <a name="native-printer"></a><span data-ttu-id="34f73-253">Impressora nativa</span><span class="sxs-lookup"><span data-stu-id="34f73-253">Native printer</span></span>
-
-<span data-ttu-id="34f73-254">As impressoras nativas (ou "dispositivo", uma vez que o tipo é nomeado no perfil de hardware) podem ser configuradas para que solicitam ao usuário que selecione uma impressora que está configurada para o computador.</span><span class="sxs-lookup"><span data-stu-id="34f73-254">Native (or "Device" as the type is named in the hardware profile) printers can be configured to prompt the user to select a printer that is configured for the computer.</span></span> <span data-ttu-id="34f73-255">Quando uma impressora do tipo **Dispositivo** é configurada, se o PDV moderno encontrar um comando de impressão, é solicitado ao usuário que selecione uma impressora em uma lista.</span><span class="sxs-lookup"><span data-stu-id="34f73-255">When a printer of the **Device** type is configured, if Modern POS encounters a print command, the user is prompted to select a printer in a list.</span></span> <span data-ttu-id="34f73-256">Esse comportamento difere do comportamento dos drivers do Windows, pois o tipo de impressora do **Windows** no perfil de hardware não mostra uma lista de impressoras.</span><span class="sxs-lookup"><span data-stu-id="34f73-256">This behavior differs from the behavior for Windows drivers, because the **Windows** printer type in the hardware profile doesn't show a list of printers.</span></span> <span data-ttu-id="34f73-257">Em vez disso, ele exige que uma impressora nomeada seja fornecida no campo **Nome do dispositivo**.</span><span class="sxs-lookup"><span data-stu-id="34f73-257">Instead, it requires that a named printer be provided in the **Device name** field.</span></span>
-
-### <a name="windows"></a><span data-ttu-id="34f73-258">Windows</span><span class="sxs-lookup"><span data-stu-id="34f73-258">Windows</span></span>
-
-<span data-ttu-id="34f73-259">O tipo de dispositivo **Windows** é usado somente para impressoras.</span><span class="sxs-lookup"><span data-stu-id="34f73-259">The **Windows** device type is used for printers only.</span></span> <span data-ttu-id="34f73-260">Quando uma impressora do Windows é configurada no perfil de hardware, o nome da impressora específica deve ser fornecido.</span><span class="sxs-lookup"><span data-stu-id="34f73-260">When a Windows printer is configured in the hardware profile, the specific printer name must be provided.</span></span> <span data-ttu-id="34f73-261">Quando o PDV moderno encontra eventos de impressão, se uma impressora do Windows estiver configurada, o evento será passado para a impressora específica do Windows.</span><span class="sxs-lookup"><span data-stu-id="34f73-261">When Modern POS encounters print events, if a Windows printer is configured, the event will be passed to the specified Windows printer.</span></span> <span data-ttu-id="34f73-262">Não será solicitado ao usuário que selecione uma impressora.</span><span class="sxs-lookup"><span data-stu-id="34f73-262">The user won't be prompted to select a printer.</span></span>
-
-### <a name="network"></a><span data-ttu-id="34f73-263">Rede</span><span class="sxs-lookup"><span data-stu-id="34f73-263">Network</span></span>
-
-<span data-ttu-id="34f73-264">As caixas registradoras endereçáveis por rede, impressoras de recibo e terminais de pagamento podem ser usados em uma rede, seja diretamente através da estação de hardware de Comunicação Interprocesso (IPC) integrada no PDV moderno para Windows ou através da estação de hardware IIS para outros clientes de PDV moderno.</span><span class="sxs-lookup"><span data-stu-id="34f73-264">Network-addressable cash drawers, receipt printers, and payment terminals can be used over a network, either directly through the Interprocess Communications (IPC) hardware station that is built into the Modern POS for Windows application or through the IIS hardware station for other Modern POS clients.</span></span>
-
-## <a name="hardware-station-deployment-options"></a><span data-ttu-id="34f73-265">Opções de implantação de estação de hardware</span><span class="sxs-lookup"><span data-stu-id="34f73-265">Hardware station deployment options</span></span>
-
-### <a name="ipc-built-in"></a><span data-ttu-id="34f73-266">IPC (integrado)</span><span class="sxs-lookup"><span data-stu-id="34f73-266">IPC (built-in)</span></span>
-
-<span data-ttu-id="34f73-267">A estação de hardware de Comunicação Interprocesso (IPC) é integrada no PDV moderno para Windows.</span><span class="sxs-lookup"><span data-stu-id="34f73-267">The Interprocess Communications (IPC) hardware station is built into the Modern POS for Windows application.</span></span> <span data-ttu-id="34f73-268">Para usar a estação de hardware IPC, atribua um perfil de hardware a um registro que usará o PDV moderno para Windows.</span><span class="sxs-lookup"><span data-stu-id="34f73-268">To use the IPC hardware station, assign a hardware profile to a register that will use the Modern POS for Windows application.</span></span> <span data-ttu-id="34f73-269">Em seguida, crie uma estação de hardware do tipo **Dedicada** para a loja onde a registradora será utilizada.</span><span class="sxs-lookup"><span data-stu-id="34f73-269">Then create a hardware station of the **Dedicated** type for the store where the register will be used.</span></span> <span data-ttu-id="34f73-270">Quando você iniciar o PDV moderno, a estação de hardware IPC estará ativa, e os periféricos de PDV que foram configurados estarão prontos para uso.</span><span class="sxs-lookup"><span data-stu-id="34f73-270">When you start Modern POS, the IPC hardware station will be active, and the POS peripherals that have been configured will be ready to use.</span></span> <span data-ttu-id="34f73-271">Se você temporariamente não exigir o hardware local por algum motivo, use a operação **Gerenciar estações de hardware** para desativar os recursos da estação de hardware.</span><span class="sxs-lookup"><span data-stu-id="34f73-271">If you temporarily don't require the local hardware for some reason, use the **Manage hardware stations** operation to turn off the hardware station capabilities.</span></span> <span data-ttu-id="34f73-272">O PDV moderno também pode usar a estação de hardware IPC para se comunicar diretamente com os periféricos de rede.</span><span class="sxs-lookup"><span data-stu-id="34f73-272">Modern POS can also use the IPC hardware station to communicate directly with network peripherals.</span></span>
-
-### <a name="iis"></a><span data-ttu-id="34f73-273">IIS</span><span class="sxs-lookup"><span data-stu-id="34f73-273">IIS</span></span>
-
-<span data-ttu-id="34f73-274">Você pode usar o IIS ou a versão autônoma da estação de hardware de duas formas.</span><span class="sxs-lookup"><span data-stu-id="34f73-274">You can use the IIS or stand-alone version of the hardware station in two ways.</span></span> <span data-ttu-id="34f73-275">A sigla "IIS" implica que o aplicativo PDV se conecta à estação de hardware por meio do Microsoft Internet Information Services.</span><span class="sxs-lookup"><span data-stu-id="34f73-275">The descriptor "IIS" implies that the POS application connects to the hardware station via Microsoft Internet Information Services.</span></span> <span data-ttu-id="34f73-276">O aplicativo PDV se conecta à estação de hardware IIS através dos serviços de web que estão sendo executados em um computador onde os dispositivos estão conectados.</span><span class="sxs-lookup"><span data-stu-id="34f73-276">The POS application connects to the IIS hardware station via web services that run on a computer where the devices are connected.</span></span> <span data-ttu-id="34f73-277">Quando o IIS é utilizado, os periféricos de varejo que estiverem conectados à uma estação de hardware podem ser usados por qualquer registradora PDV que estiver na mesma rede que a estação de hardware IIS.</span><span class="sxs-lookup"><span data-stu-id="34f73-277">When IIS is used, the retail peripherals that are connected to a hardware station can be used by any POS register that is on the same network as the IIS hardware station.</span></span> <span data-ttu-id="34f73-278">Embora apenas o PDV moderno para Windows inclua suporte integrado para periféricos de varejo, todos os demais aplicativos de PDV moderno devem usar a estação de hardware IIS para se comunicar com os periféricos de PDV que estão configurados no perfil de hardware.</span><span class="sxs-lookup"><span data-stu-id="34f73-278">Because only Modern POS for Windows includes built-in support for retail peripherals, all other Modern POS applications must use the IIS hardware station to communicate with POS peripherals that are configured in the hardware profile.</span></span> <span data-ttu-id="34f73-279">Portanto, cada instância da estação de hardware IIS requer um computador que execute o serviço e o aplicativo de Web que se comunica com os dispositivos.</span><span class="sxs-lookup"><span data-stu-id="34f73-279">Therefore, each instance of the IIS hardware station requires a computer that runs the web service and application that communicates with the devices.</span></span> <span data-ttu-id="34f73-280">A estação de hardware IIS é exigida para todos os aplicativos de PDV modernos não Windows.</span><span class="sxs-lookup"><span data-stu-id="34f73-280">The IIS hardware station is required for all non-Windows Modern POS applications.</span></span>
-
-#### <a name="dedicated"></a><span data-ttu-id="34f73-281">Dedicado</span><span class="sxs-lookup"><span data-stu-id="34f73-281">Dedicated</span></span>
-
-<span data-ttu-id="34f73-282">O PDV moderno utiliza estações de hardware do tipo **Dedicada** para detectar os periféricos que estão diretamente conectados ao computador onde o aplicativo está sendo utilizado.</span><span class="sxs-lookup"><span data-stu-id="34f73-282">Modern POS uses hardware stations of the **Dedicated** type to detect that peripherals are directly connected to the computer where the app is being used.</span></span> <span data-ttu-id="34f73-283">No entanto, o tipo **Dedicado** também pode ser usado para estações de hardware IIS.</span><span class="sxs-lookup"><span data-stu-id="34f73-283">However, the **Dedicated** type can also be used for IIS hardware stations.</span></span> <span data-ttu-id="34f73-284">Em um cenário tradicional de PDV fixo que utiliza PDV de nuvem como aplicativo PDV, o tipo de estação de hardware **Dedicada** é usado para as estações de hardware IIS que estão implantadas no mesmo computador que está executando o PDV de nuvem.</span><span class="sxs-lookup"><span data-stu-id="34f73-284">In a traditional, fixed POS scenario that uses Cloud POS as the POS application, the **Dedicated** hardware station type is used for IIS hardware stations that are deployed on the same computer that is running Cloud POS.</span></span> <span data-ttu-id="34f73-285">De uma perspectiva de periféricos de varejo, a estação de hardware IIS dedicada possui um suporte melhor a periféricos de varejo para cenários tradicionais de PDV fixo.</span><span class="sxs-lookup"><span data-stu-id="34f73-285">From a retail peripherals perspective, the dedicated IIS hardware station has better retail peripheral support for traditional, fixed POS scenarios.</span></span> <span data-ttu-id="34f73-286">As estações de hardware dedicadas suportam os periféricos que são suportados no perfil de hardware.</span><span class="sxs-lookup"><span data-stu-id="34f73-286">Dedicated hardware stations support all peripherals that are supported in the hardware profile.</span></span>
-
-#### <a name="shared"></a><span data-ttu-id="34f73-287">Compartilhado</span><span class="sxs-lookup"><span data-stu-id="34f73-287">Shared</span></span>
-
-<span data-ttu-id="34f73-288">As estações compartilhadas de hardware devem ser usadas para vários dispositivos PDV no curso do dia.</span><span class="sxs-lookup"><span data-stu-id="34f73-288">Shared hardware stations are intended to be used by multiple POS devices through the course of the day.</span></span> <span data-ttu-id="34f73-289">As estações compartilhadas de hardware são otimizadas para oferecer suporte apenas a caixa registradoras, impressoras de recibo, e terminais de pagamento.</span><span class="sxs-lookup"><span data-stu-id="34f73-289">Shared hardware stations are optimized to support only cash drawers, receipt printers, and payment terminals.</span></span> <span data-ttu-id="34f73-290">Você não pode conectar diretamente scanners de código de barras autônomos, MSRs, exibições de linha, escalas ou outros dispositivos.</span><span class="sxs-lookup"><span data-stu-id="34f73-290">You can't directly connect stand-alone bar code scanners, MSRs, line displays, scales, or other devices.</span></span> <span data-ttu-id="34f73-291">Caso contrário, conflitos ocorrerão quando vários dispositivos PDV tentam reivindicar simultaneamente os periféricos.</span><span class="sxs-lookup"><span data-stu-id="34f73-291">Otherwise, conflicts will occur when multiple POS devices try to claim those peripherals at the same time.</span></span> <span data-ttu-id="34f73-292">Veja como os conflitos são gerenciados para os dispositivos com suporte:</span><span class="sxs-lookup"><span data-stu-id="34f73-292">Here is how conflicts are managed for supported devices:</span></span>
-
-- <span data-ttu-id="34f73-293">**Caixa registradora** – A caixa registradora é aberta através de um evento que é enviado ao dispositivo.</span><span class="sxs-lookup"><span data-stu-id="34f73-293">**Cash drawer** – The cash drawer is opened via an event that is sent to the device.</span></span> <span data-ttu-id="34f73-294">O único problema que pode ocorrer quando a caixa registradora é chamada ocorre se ela já estiver aberta.</span><span class="sxs-lookup"><span data-stu-id="34f73-294">The only issue that can occur when a cash drawer is called occurs if the cash drawer is already open.</span></span> <span data-ttu-id="34f73-295">No caso de estações de hardware compartilhadas, a caixa registradora deve ser definida como **Compartilhada** no perfil de hardware.</span><span class="sxs-lookup"><span data-stu-id="34f73-295">In the case of shared hardware stations, the cash drawer should be set to **Shared** in the hardware profile.</span></span> <span data-ttu-id="34f73-296">Essa configuração impede que o PDV verifique se a caixa registradora já está aberta ao enviar comandos de abertura.</span><span class="sxs-lookup"><span data-stu-id="34f73-296">This setting prevents the POS from checking whether the cash drawer is already open when it sends open commands.</span></span>
-- <span data-ttu-id="34f73-297">**Impressora de recibo** – Se dois comandos de impressão de recibo forem enviados para a estação de hardware ao mesmo tempo, um dos comandos poderá ser perdido dependendo do dispositivo.</span><span class="sxs-lookup"><span data-stu-id="34f73-297">**Receipt printer** – If two receipt printing commands are sent to the hardware station at the same time, one of the commands can be lost, depending on the device.</span></span> <span data-ttu-id="34f73-298">Alguns dispositivos têm memória interna ou agrupamento que pode impedir esse problema.</span><span class="sxs-lookup"><span data-stu-id="34f73-298">Some devices have internal memory or pooling that can prevent this issue.</span></span> <span data-ttu-id="34f73-299">Se um comando de impressão não tiver êxito, o caixa receberá uma mensagem de erro e poderá tentar novamente o comando de impressão no PDV.</span><span class="sxs-lookup"><span data-stu-id="34f73-299">If a print command isn't successful, the cashier receives an error message and can retry the print command from the POS.</span></span>
-- <span data-ttu-id="34f73-300">**Terminal de pagamento** – Se um caixa tentar realizar uma transação em um terminal de pagamento que já está sendo utilizado, uma mensagem notificará o caixa de que o terminal está sendo usado e pedirá ao caixa que tente novamente mais tarde.</span><span class="sxs-lookup"><span data-stu-id="34f73-300">**Payment terminal** – If a cashier tries to tender a transaction on a payment terminal that is already being used, a message notifies the cashier that the terminal is being used and asks the cashier to try again later.</span></span> <span data-ttu-id="34f73-301">Geralmente, os caixas podem consultar um terminal que já está sendo usado e aguardarão até que outra transação seja concluída antes que tentem novamente.</span><span class="sxs-lookup"><span data-stu-id="34f73-301">Usually, cashiers can see that a terminal is already being used and will wait until the other transaction is completed before they try to tender again.</span></span>
-
-<span data-ttu-id="34f73-302">A validação é planejada para uma versão futura, para detectar se dispositivos sem suporte estão configurados para um perfil de hardware que está mapeado para uma estação compartilhada de hardware.</span><span class="sxs-lookup"><span data-stu-id="34f73-302">Validation is planned for a future release, to detect whether unsupported devices are set up for a hardware profile that is mapped to a shared hardware station.</span></span> <span data-ttu-id="34f73-303">Se qualquer dispositivo sem suporte for detectado, o usuário receberá uma mensagem que indica que os dispositivos não são aceitos para estações compartilhadas de hardware.</span><span class="sxs-lookup"><span data-stu-id="34f73-303">If any unsupported devices are detected, the user will receive a message that states that the devices aren't supported for shared hardware stations.</span></span> <span data-ttu-id="34f73-304">No caso de estações compartilhadas de hardware, a opção **Selecionar após pagamento** é definida para **Sim** em nível de registro.</span><span class="sxs-lookup"><span data-stu-id="34f73-304">In the case of shared hardware stations, the **Select upon tendering** option is set to **Yes** at the register level.</span></span> <span data-ttu-id="34f73-305">Em seguida, é solicitado ao usuário do PDV que selecione uma estação de hardware quando uma proposta for selecionada para uma transação no PDV.</span><span class="sxs-lookup"><span data-stu-id="34f73-305">The POS user is then prompted to select a hardware station when a tender is selected for a transaction at the POS.</span></span> <span data-ttu-id="34f73-306">Quando a estação de hardware é selecionada somente no momento de proposta, a seleção de estação de hardware é adicionada diretamente ao fluxo de trabalho do PDV para os cenários móveis.</span><span class="sxs-lookup"><span data-stu-id="34f73-306">When the hardware station is selected only at the time of tender, the hardware station selection is added directly to the POS workflow for mobile scenarios.</span></span> <span data-ttu-id="34f73-307">Como um benefício adicional, a exibição de linha no terminal de pagamento não é utilizada para cenários compartilhados.</span><span class="sxs-lookup"><span data-stu-id="34f73-307">As an additional benefit, the line display on the payment terminal isn't used for shared scenarios.</span></span> <span data-ttu-id="34f73-308">Se o terminal de pagamento for usado como exibição de linha, outros usuários podem ser impedidos de usar esse terminal até que a transação esteja concluída.</span><span class="sxs-lookup"><span data-stu-id="34f73-308">If the payment terminal is used as a line display, other users might be blocked from using that terminal until the transaction is completed.</span></span> <span data-ttu-id="34f73-309">Em cenários móveis, as linhas podem ser adicionadas em uma transação durante um período mais longo.</span><span class="sxs-lookup"><span data-stu-id="34f73-309">In mobile scenarios, lines might be added to a transaction over a longer period.</span></span> <span data-ttu-id="34f73-310">Portanto, a opção **Selecionar após proposta** é necessária para garantir uma disponibilidade ideal do dispositivo.</span><span class="sxs-lookup"><span data-stu-id="34f73-310">Therefore, the **Select upon tendering** option is required in order to ensure optimum device availability.</span></span>
-
-### <a name="network-peripherals"></a><span data-ttu-id="34f73-311">Periféricos de rede</span><span class="sxs-lookup"><span data-stu-id="34f73-311">Network peripherals</span></span>
-
-<span data-ttu-id="34f73-312">A designação de rede para dispositivos no perfil de hardware permite que caixas registradoras, impressoras de recibo e terminais de pagamento sejam conectados através de uma conexão de rede.</span><span class="sxs-lookup"><span data-stu-id="34f73-312">The network designation for devices in the hardware profile enables cash drawers, receipt printers, and payment terminals to be connected via a network connection.</span></span>
-
-#### <a name="modern-pos-for-windows"></a><span data-ttu-id="34f73-313">PDV moderno para Windows</span><span class="sxs-lookup"><span data-stu-id="34f73-313">Modern POS for Windows</span></span>
-
-<span data-ttu-id="34f73-314">Você pode especificar o endereço IP de periféricos de rede em dois locais.</span><span class="sxs-lookup"><span data-stu-id="34f73-314">You can specify IP addresses for network peripherals in two places.</span></span> <span data-ttu-id="34f73-315">Se o cliente do PDV moderno do Windows estiver usando um conjunto único de periféricos de rede, você deverá definir os endereços IP para esses dispositivos usando a opção **Configuração de IP** no painel de ação para o registro em si.</span><span class="sxs-lookup"><span data-stu-id="34f73-315">If the Modern POS Windows client is using a single set of network peripherals, you should set the IP addresses for those devices by using the **IP configuration** option on the Action Pane for the register itself.</span></span> <span data-ttu-id="34f73-316">No caso de dispositivos de rede que serão compartilhados entre registradoras de PDV, um perfil de hardware que possui dispositivos de rede atribuídos a ele poderá ser mapeado diretamente a uma estação de hardware compartilhada.</span><span class="sxs-lookup"><span data-stu-id="34f73-316">In the case of network devices that will be shared among POS registers, a hardware profile that has network devices assigned to it can be mapped directly to a shared hardware station.</span></span> <span data-ttu-id="34f73-317">Para atribuir endereços IP, selecione a estação de hardware na página **Lojas de varejo**, e então use a opção **Configuração de IP** na seção **Estações de hardware** para especificar os dispositivos de rede que estão atribuídos à estação de hardware.</span><span class="sxs-lookup"><span data-stu-id="34f73-317">To assign IP addresses, select that hardware station on the **Retail stores** page, and then use the **IP configuration** option in the **Hardware stations** section to specify the network devices that are assigned to that hardware station.</span></span> <span data-ttu-id="34f73-318">Para as estações de hardware que possuem somente dispositivos de rede, você não precisa implantar a estação de hardware.</span><span class="sxs-lookup"><span data-stu-id="34f73-318">For hardware stations that have only network devices, you don't have to deploy the hardware station itself.</span></span> <span data-ttu-id="34f73-319">Nesse caso, a estação de hardware é necessária somente para agrupar de forma conceitual os dispositivos endereçáveis de rede de acordo com sua localização na loja de varejo.</span><span class="sxs-lookup"><span data-stu-id="34f73-319">In this case, the hardware station is required only in order to conceptually group network-addressable devices according to their location in the retail store.</span></span>
-
-#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a><span data-ttu-id="34f73-320">PDV de nuvem, PDV moderno para iOS, e PDV moderno para Android</span><span class="sxs-lookup"><span data-stu-id="34f73-320">Cloud POS, Modern POS for iOS, and Modern POS for Android</span></span>
-
-<span data-ttu-id="34f73-321">A lógica que controla os periféricos endereçáveis por rede e conectados fisicamente está contida na estação de hardware.</span><span class="sxs-lookup"><span data-stu-id="34f73-321">The logic that drives physically connected and network-addressable peripherals is contained in the hardware station.</span></span> <span data-ttu-id="34f73-322">Portanto, para todos os clientes PDV, exceto o PDV moderno para Windows, uma estação de hardware IIS deve estar implantada e ativa para permitir que o PDV se comunique com os periféricos, independentemente dos periféricos estarem conectados fisicamente à uma estação de hardware ou endereçados pela rede.</span><span class="sxs-lookup"><span data-stu-id="34f73-322">Therefore, for all POS clients except Modern POS for Windows, an IIS hardware station must be deployed and active to enable the POS to communicate with peripherals, regardless of whether those peripherals are physically connected to a hardware station or addressed over the network.</span></span>
-
-## <a name="setup-and-configuration"></a><span data-ttu-id="34f73-323">Instalação e configuração</span><span class="sxs-lookup"><span data-stu-id="34f73-323">Setup and configuration</span></span>
-
-### <a name="hardware-station-installation"></a><span data-ttu-id="34f73-324">Instalação da estação de hardware</span><span class="sxs-lookup"><span data-stu-id="34f73-324">Hardware station installation</span></span>
-
-<span data-ttu-id="34f73-325">Para obter informações, consulte [Configuração e instalação da estação de hardware de varejo](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="34f73-325">For information, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
-
-### <a name="modern-pos-for-windows-setup-and-configuration"></a><span data-ttu-id="34f73-326">Instalação e configuração do PDV moderno para Windows</span><span class="sxs-lookup"><span data-stu-id="34f73-326">Modern POS for Windows setup and configuration</span></span>
-
-<span data-ttu-id="34f73-327">Para obter informações, consulte [Instalação e configuração do Retail Modern POS](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="34f73-327">For information, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
-
-### <a name="opos-device-setup-and-configuration"></a><span data-ttu-id="34f73-328">Instalação e configuração do dispositivo OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-328">OPOS device setup and configuration</span></span>
-
-<span data-ttu-id="34f73-329">Para obter mais informações sobre os componentes do OPOS, consulte a seção "Interfaces suportadas" deste documento.</span><span class="sxs-lookup"><span data-stu-id="34f73-329">For more information about OPOS components, see the "Supported interfaces" section of this document.</span></span> <span data-ttu-id="34f73-330">Normalmente, os drivers OPOS são fornecidos pelo fabricante do dispositivo.</span><span class="sxs-lookup"><span data-stu-id="34f73-330">Typically, OPOS drivers are provided by the device manufacturer.</span></span> <span data-ttu-id="34f73-331">Quando um driver de dispositivo OPOS é instalado, ele adiciona uma chave ao registro do Windows em um dos seguintes locais:</span><span class="sxs-lookup"><span data-stu-id="34f73-331">When an OPOS device driver is installed, it adds a key to the Windows registry in one of the following locations:</span></span>
-
-- <span data-ttu-id="34f73-332">**Sistema de 32 bits:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-332">**32-bit system:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS</span></span>
-- <span data-ttu-id="34f73-333">**Sistema de 64 bits:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-333">**64-bit system:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</span></span>
-
-<span data-ttu-id="34f73-334">Dentro no local de registro ServiceOPOS, os dispositivos configurados são organizados de acordo com a classe de dispositivo OPOS.</span><span class="sxs-lookup"><span data-stu-id="34f73-334">Within the ServiceOPOS registry location, configured devices are organized according to the OPOS device class.</span></span> <span data-ttu-id="34f73-335">Vários drivers de dispositivo são salvos.</span><span class="sxs-lookup"><span data-stu-id="34f73-335">Multiple device drivers are saved.</span></span>
-
-## <a name="supported-scenarios-by-hardware-station-type"></a><span data-ttu-id="34f73-336">Cenários suportados pelo tipo de estação de hardware</span><span class="sxs-lookup"><span data-stu-id="34f73-336">Supported scenarios by hardware station type</span></span>
-
-### <a name="client-support--ipc-hardware-station-vs-iis-hardware-station"></a><span data-ttu-id="34f73-337">Suporte do cliente - Estação de hardware IPC vs. estação de hardware IIS</span><span class="sxs-lookup"><span data-stu-id="34f73-337">Client support – IPC hardware station vs. IIS hardware station</span></span>
-
-<span data-ttu-id="34f73-338">A tabela a seguir mostra as topologias e cenários de implantação suportados.</span><span class="sxs-lookup"><span data-stu-id="34f73-338">The following table shows the topologies and deployment scenarios that are supported.</span></span>
-
-| <span data-ttu-id="34f73-339">Cliente</span><span class="sxs-lookup"><span data-stu-id="34f73-339">Client</span></span>      | <span data-ttu-id="34f73-340">Estação de hardware IPC</span><span class="sxs-lookup"><span data-stu-id="34f73-340">IPC hardware station</span></span> | <span data-ttu-id="34f73-341">Estação de hardware IIS</span><span class="sxs-lookup"><span data-stu-id="34f73-341">IIS hardware station</span></span> |
-|-------------|----------------------|----------------------|
-| <span data-ttu-id="34f73-342">App do Windows</span><span class="sxs-lookup"><span data-stu-id="34f73-342">Windows app</span></span> | <span data-ttu-id="34f73-343">Sim</span><span class="sxs-lookup"><span data-stu-id="34f73-343">Yes</span></span>                  | <span data-ttu-id="34f73-344">Sim</span><span class="sxs-lookup"><span data-stu-id="34f73-344">Yes</span></span>                  |
-| <span data-ttu-id="34f73-345">PDV em Nuvem</span><span class="sxs-lookup"><span data-stu-id="34f73-345">Cloud POS</span></span>   | <span data-ttu-id="34f73-346">Não</span><span class="sxs-lookup"><span data-stu-id="34f73-346">No</span></span>                   | <span data-ttu-id="34f73-347">Sim</span><span class="sxs-lookup"><span data-stu-id="34f73-347">Yes</span></span>                  |
-| <span data-ttu-id="34f73-348">Android</span><span class="sxs-lookup"><span data-stu-id="34f73-348">Android</span></span>     | <span data-ttu-id="34f73-349">Não</span><span class="sxs-lookup"><span data-stu-id="34f73-349">No</span></span>                   | <span data-ttu-id="34f73-350">Sim</span><span class="sxs-lookup"><span data-stu-id="34f73-350">Yes</span></span>                  |
-| <span data-ttu-id="34f73-351">iOS</span><span class="sxs-lookup"><span data-stu-id="34f73-351">iOS</span></span>         | <span data-ttu-id="34f73-352">Não</span><span class="sxs-lookup"><span data-stu-id="34f73-352">No</span></span>                   | <span data-ttu-id="34f73-353">Sim</span><span class="sxs-lookup"><span data-stu-id="34f73-353">Yes</span></span>                  |
-
-### <a name="network-peripherals"></a><span data-ttu-id="34f73-354">Periféricos de rede</span><span class="sxs-lookup"><span data-stu-id="34f73-354">Network peripherals</span></span>
-
-<span data-ttu-id="34f73-355">Os periféricos de rede podem ser suportados diretamente através da estação de hardware integrada no PDV moderno para o aplicativo do Windows.</span><span class="sxs-lookup"><span data-stu-id="34f73-355">Network peripherals can be supported directly through the hardware station that is built into the Modern POS for Windows application.</span></span> <span data-ttu-id="34f73-356">Para todos os outros clientes, você deve implantar uma estação de hardware IIS.</span><span class="sxs-lookup"><span data-stu-id="34f73-356">For all other clients, you must deploy an IIS hardware station.</span></span>
-
-| <span data-ttu-id="34f73-357">Cliente</span><span class="sxs-lookup"><span data-stu-id="34f73-357">Client</span></span>      | <span data-ttu-id="34f73-358">Estação de hardware IPC</span><span class="sxs-lookup"><span data-stu-id="34f73-358">IPC hardware station</span></span> | <span data-ttu-id="34f73-359">Estação de hardware IIS</span><span class="sxs-lookup"><span data-stu-id="34f73-359">IIS hardware station</span></span> |
-|-------------|----------------------|----------------------|
-| <span data-ttu-id="34f73-360">App do Windows</span><span class="sxs-lookup"><span data-stu-id="34f73-360">Windows app</span></span> | <span data-ttu-id="34f73-361">Sim</span><span class="sxs-lookup"><span data-stu-id="34f73-361">Yes</span></span>                  | <span data-ttu-id="34f73-362">Sim</span><span class="sxs-lookup"><span data-stu-id="34f73-362">Yes</span></span>                  |
-| <span data-ttu-id="34f73-363">PDV em Nuvem</span><span class="sxs-lookup"><span data-stu-id="34f73-363">Cloud POS</span></span>   | <span data-ttu-id="34f73-364">Não</span><span class="sxs-lookup"><span data-stu-id="34f73-364">No</span></span>                   | <span data-ttu-id="34f73-365">Sim</span><span class="sxs-lookup"><span data-stu-id="34f73-365">Yes</span></span>                  |
-| <span data-ttu-id="34f73-366">Android</span><span class="sxs-lookup"><span data-stu-id="34f73-366">Android</span></span>     | <span data-ttu-id="34f73-367">Não</span><span class="sxs-lookup"><span data-stu-id="34f73-367">No</span></span>                   | <span data-ttu-id="34f73-368">Sim</span><span class="sxs-lookup"><span data-stu-id="34f73-368">Yes</span></span>                  |
-| <span data-ttu-id="34f73-369">iOS</span><span class="sxs-lookup"><span data-stu-id="34f73-369">iOS</span></span>         | <span data-ttu-id="34f73-370">Não</span><span class="sxs-lookup"><span data-stu-id="34f73-370">No</span></span>                   | <span data-ttu-id="34f73-371">Sim</span><span class="sxs-lookup"><span data-stu-id="34f73-371">Yes</span></span>                  |
-
-## <a name="supported-device-types-by-hardware-station-type"></a><span data-ttu-id="34f73-372">Tipos de dispositivo suportados pelo tipo de estação de hardware</span><span class="sxs-lookup"><span data-stu-id="34f73-372">Supported device types by hardware station type</span></span>
-
-### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a><span data-ttu-id="34f73-373">PDV moderno para Windows com uma estação de hardware IPC (integrada)</span><span class="sxs-lookup"><span data-stu-id="34f73-373">Modern POS for Windows with an IPC (built-in) hardware station</span></span>
-
-<table>
-<thead>
-<tr>
-<th><span data-ttu-id="34f73-374">Classe de dispositivo suportada</span><span class="sxs-lookup"><span data-stu-id="34f73-374">Supported device class</span></span></th>
-<th><span data-ttu-id="34f73-375">Interfaces suportadas</span><span class="sxs-lookup"><span data-stu-id="34f73-375">Supported interfaces</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span data-ttu-id="34f73-376">Impressora</span><span class="sxs-lookup"><span data-stu-id="34f73-376">Printer</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="34f73-377">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-377">OPOS</span></span></li>
-<li><span data-ttu-id="34f73-378">Driver do Windows</span><span class="sxs-lookup"><span data-stu-id="34f73-378">Windows driver</span></span></li>
-<li><span data-ttu-id="34f73-379">Dispositivo</span><span class="sxs-lookup"><span data-stu-id="34f73-379">Device</span></span></li>
-<li><span data-ttu-id="34f73-380">Rede</span><span class="sxs-lookup"><span data-stu-id="34f73-380">Network</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="34f73-381">Impressora 2</span><span class="sxs-lookup"><span data-stu-id="34f73-381">Printer 2</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="34f73-382">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-382">OPOS</span></span></li>
-<li><span data-ttu-id="34f73-383">Driver do Windows</span><span class="sxs-lookup"><span data-stu-id="34f73-383">Windows driver</span></span></li>
-<li><span data-ttu-id="34f73-384">Dispositivo</span><span class="sxs-lookup"><span data-stu-id="34f73-384">Device</span></span></li>
-<li><span data-ttu-id="34f73-385">Rede</span><span class="sxs-lookup"><span data-stu-id="34f73-385">Network</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="34f73-386">Display LCD de linhas</span><span class="sxs-lookup"><span data-stu-id="34f73-386">Line display</span></span></td>
-<td><span data-ttu-id="34f73-387">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-387">OPOS</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="34f73-388">Exibição dual</span><span class="sxs-lookup"><span data-stu-id="34f73-388">Dual display</span></span></td>
-<td><span data-ttu-id="34f73-389">Driver do Windows</span><span class="sxs-lookup"><span data-stu-id="34f73-389">Windows driver</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="34f73-390">LTM</span><span class="sxs-lookup"><span data-stu-id="34f73-390">MSR</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="34f73-391">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-391">OPOS</span></span></li>
-<li><span data-ttu-id="34f73-392">UWP (nenhuma configuração é necessária.)</span><span class="sxs-lookup"><span data-stu-id="34f73-392">UWP (No setup is required.)</span></span></li>
-<li><span data-ttu-id="34f73-393">Leitor de cartão no teclado (nenhuma configuração é necessária.)</span><span class="sxs-lookup"><span data-stu-id="34f73-393">Keyboard wedge (No setup is required.)</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="34f73-394">Sacador</span><span class="sxs-lookup"><span data-stu-id="34f73-394">Drawer</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="34f73-395">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-395">OPOS</span></span></li>
-<li><span data-ttu-id="34f73-396">Rede</span><span class="sxs-lookup"><span data-stu-id="34f73-396">Network</span></span>
-<blockquote><span data-ttu-id="34f73-397">OBSERVAÇÃO: Somente uma caixa registradora poderá ser configurada se <strong>Usar turno compartilhado</strong> estiver configurado na caixa registradora.</span><span class="sxs-lookup"><span data-stu-id="34f73-397">NOTE: Only one drawer can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></blockquote>
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="34f73-398">Gaveta 2</span><span class="sxs-lookup"><span data-stu-id="34f73-398">Drawer 2</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="34f73-399">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-399">OPOS</span></span></li>
-<li><span data-ttu-id="34f73-400">Rede</span><span class="sxs-lookup"><span data-stu-id="34f73-400">Network</span></span>
-<blockquote><span data-ttu-id="34f73-401">OBSERVAÇÃO: Somente uma caixa registradora poderá ser configurada se <strong>Usar turno compartilhado</strong> estiver configurado na caixa registradora.</span><span class="sxs-lookup"><span data-stu-id="34f73-401">NOTE: Only one drawer can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></blockquote>
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="34f73-402">Scanner</span><span class="sxs-lookup"><span data-stu-id="34f73-402">Scanner</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="34f73-403">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-403">OPOS</span></span></li>
-<li><span data-ttu-id="34f73-404">UWP (nenhuma configuração é necessária.)</span><span class="sxs-lookup"><span data-stu-id="34f73-404">UWP (No setup is required.)</span></span></li>
-<li><span data-ttu-id="34f73-405">Leitor de cartão no teclado (nenhuma configuração é necessária.)</span><span class="sxs-lookup"><span data-stu-id="34f73-405">Keyboard wedge (No setup is required.)</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="34f73-406">Scanner 2</span><span class="sxs-lookup"><span data-stu-id="34f73-406">Scanner 2</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="34f73-407">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-407">OPOS</span></span></li>
-<li><span data-ttu-id="34f73-408">UWP (nenhuma configuração é necessária.)</span><span class="sxs-lookup"><span data-stu-id="34f73-408">UWP (No setup is required.)</span></span></li>
-<li><span data-ttu-id="34f73-409">Leitor de cartão no teclado (nenhuma configuração é necessária.)</span><span class="sxs-lookup"><span data-stu-id="34f73-409">Keyboard wedge (No setup is required.)</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="34f73-410">Balança</span><span class="sxs-lookup"><span data-stu-id="34f73-410">Scale</span></span></td>
-<td><span data-ttu-id="34f73-411">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-411">OPOS</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="34f73-412">Teclado do PIN</span><span class="sxs-lookup"><span data-stu-id="34f73-412">PIN pad</span></span></td>
-<td><span data-ttu-id="34f73-413">OPOS (o suporte é fornecido através da personalização do conector de pagamento.)</span><span class="sxs-lookup"><span data-stu-id="34f73-413">OPOS (Support is provided through customization of the payment connector.)</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="34f73-414">Assinatura</span><span class="sxs-lookup"><span data-stu-id="34f73-414">Signature capture</span></span></td>
-<td><span data-ttu-id="34f73-415">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-415">OPOS</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="34f73-416">Terminal de pagamento</span><span class="sxs-lookup"><span data-stu-id="34f73-416">Payment terminal</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="34f73-417">Suporte personalizado de dispositivo</span><span class="sxs-lookup"><span data-stu-id="34f73-417">Custom device support</span></span></li>
-<li><span data-ttu-id="34f73-418">Rede (para mais informações, consulte a documentação do conector de pagamento.)</span><span class="sxs-lookup"><span data-stu-id="34f73-418">Network (For more information, see the payment connector documentation.)</span></span></li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a><span data-ttu-id="34f73-419">Todos os clientes de PDV modernos que possuem uma estação de hardware IIS dedicada</span><span class="sxs-lookup"><span data-stu-id="34f73-419">All Modern POS clients that have a dedicated IIS hardware station</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="34f73-420">Quando a estação de hardware IIS é "dedicada", há uma relação de um para um entre o cliente PDV e a estação de hardware.</span><span class="sxs-lookup"><span data-stu-id="34f73-420">When the IIS hardware station is "dedicated," there is a one-to-one relationship between the POS client and the hardware station.</span></span>
-
-<table>
-<thead>
-<tr>
-<th><span data-ttu-id="34f73-421">Classe de dispositivo suportada</span><span class="sxs-lookup"><span data-stu-id="34f73-421">Supported device class</span></span></th>
-<th><span data-ttu-id="34f73-422">Interfaces suportadas</span><span class="sxs-lookup"><span data-stu-id="34f73-422">Supported interfaces</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span data-ttu-id="34f73-423">Impressora</span><span class="sxs-lookup"><span data-stu-id="34f73-423">Printer</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="34f73-424">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-424">OPOS</span></span></li>
-<li><span data-ttu-id="34f73-425">Driver do Windows</span><span class="sxs-lookup"><span data-stu-id="34f73-425">Windows driver</span></span>
-<blockquote><span data-ttu-id="34f73-426">OBSERVAÇÃO: Para as impressoras do Windows em uma rede, o usuário da estação de hardware deve ter permissão para acessar a impressora.</span><span class="sxs-lookup"><span data-stu-id="34f73-426">NOTE: For Windows printers on a network, the user of the hardware station must have permission to access the printer.</span></span></blockquote>
-</li>
-<li><span data-ttu-id="34f73-427">Rede</span><span class="sxs-lookup"><span data-stu-id="34f73-427">Network</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="34f73-428">Impressora 2</span><span class="sxs-lookup"><span data-stu-id="34f73-428">Printer 2</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="34f73-429">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-429">OPOS</span></span></li>
-<li><span data-ttu-id="34f73-430">Driver do Windows</span><span class="sxs-lookup"><span data-stu-id="34f73-430">Windows driver</span></span></li>
-<li><span data-ttu-id="34f73-431">Rede</span><span class="sxs-lookup"><span data-stu-id="34f73-431">Network</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="34f73-432">Display LCD de linhas</span><span class="sxs-lookup"><span data-stu-id="34f73-432">Line display</span></span></td>
-<td><span data-ttu-id="34f73-433">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-433">OPOS</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="34f73-434">LTM</span><span class="sxs-lookup"><span data-stu-id="34f73-434">MSR</span></span></td>
-<td><span data-ttu-id="34f73-435">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-435">OPOS</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="34f73-436">Sacador</span><span class="sxs-lookup"><span data-stu-id="34f73-436">Drawer</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="34f73-437">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-437">OPOS</span></span></li>
-<li><span data-ttu-id="34f73-438">Rede</span><span class="sxs-lookup"><span data-stu-id="34f73-438">Network</span></span>
-<blockquote><span data-ttu-id="34f73-439">OBSERVAÇÃO: Somente uma caixa registradora por perfil de hardware poderá ser configurada se <strong>Usar turno compartilhado</strong> estiver configurado na caixa registradora.</span><span class="sxs-lookup"><span data-stu-id="34f73-439">NOTE: Only one drawer per hardware profile can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></blockquote>
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="34f73-440">Gaveta 2</span><span class="sxs-lookup"><span data-stu-id="34f73-440">Drawer 2</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="34f73-441">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-441">OPOS</span></span></li>
-<li><span data-ttu-id="34f73-442">Rede</span><span class="sxs-lookup"><span data-stu-id="34f73-442">Network</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="34f73-443">Scanner</span><span class="sxs-lookup"><span data-stu-id="34f73-443">Scanner</span></span></td>
-<td><span data-ttu-id="34f73-444">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-444">OPOS</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="34f73-445">Scanner 2</span><span class="sxs-lookup"><span data-stu-id="34f73-445">Scanner 2</span></span></td>
-<td><span data-ttu-id="34f73-446">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-446">OPOS</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="34f73-447">Balança</span><span class="sxs-lookup"><span data-stu-id="34f73-447">Scale</span></span></td>
-<td><span data-ttu-id="34f73-448">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-448">OPOS</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="34f73-449">Teclado do PIN</span><span class="sxs-lookup"><span data-stu-id="34f73-449">PIN pad</span></span></td>
-<td><span data-ttu-id="34f73-450">OPOS (o suporte é fornecido através da personalização do conector de pagamento.)</span><span class="sxs-lookup"><span data-stu-id="34f73-450">OPOS (Support is provided through customization of the payment connector.)</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="34f73-451">Sig.</span><span class="sxs-lookup"><span data-stu-id="34f73-451">Sig.</span></span> <span data-ttu-id="34f73-452">captura</span><span class="sxs-lookup"><span data-stu-id="34f73-452">capture</span></span></td>
-<td><span data-ttu-id="34f73-453">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-453">OPOS</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="34f73-454">Terminal de pagamento</span><span class="sxs-lookup"><span data-stu-id="34f73-454">Payment terminal</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="34f73-455">Suporte personalizado de dispositivo</span><span class="sxs-lookup"><span data-stu-id="34f73-455">Custom device support</span></span></li>
-<li><span data-ttu-id="34f73-456">Rede (para mais informações, consulte a documentação do conector de pagamento.)</span><span class="sxs-lookup"><span data-stu-id="34f73-456">Network (For more information, see the payment connector documentation.)</span></span></li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a><span data-ttu-id="34f73-457">Todos os clientes de PDV modernos que possuem uma estação de hardware IIS compartilhada</span><span class="sxs-lookup"><span data-stu-id="34f73-457">All Modern POS clients that have a shared IIS hardware station</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="34f73-458">Quando a estação de hardware IIS é "compartilhada", vários dispositivos podem usar a estação de hardware ao mesmo tempo.</span><span class="sxs-lookup"><span data-stu-id="34f73-458">When the IIS hardware station is "shared," multiple devices can use the hardware station at the same time.</span></span> <span data-ttu-id="34f73-459">Para esse cenário, você deve usar apenas os dispositivos listados na tabela.</span><span class="sxs-lookup"><span data-stu-id="34f73-459">For this scenario, you should use only the devices that are listed in the following table.</span></span> <span data-ttu-id="34f73-460">Se você tentar compartilhar dispositivos que não estão listados aqui, como scanners de código de barras e MSRs, erros ocorrerão quando vários dispositivos tentarem reivindicar o mesmo periférico.</span><span class="sxs-lookup"><span data-stu-id="34f73-460">If you try to share devices that aren't listed here, such as bar code scanners and MSRs, errors will occur when multiple devices try to claim the same peripheral.</span></span> <span data-ttu-id="34f73-461">Futuramente, tal configuração será impedida explicitamente.</span><span class="sxs-lookup"><span data-stu-id="34f73-461">In the future, such a configuration will be explicitly prevented.</span></span>
-
-<table>
-<thead>
-<tr>
-<th><span data-ttu-id="34f73-462">Classe de dispositivo suportada</span><span class="sxs-lookup"><span data-stu-id="34f73-462">Supported device class</span></span></th>
-<th><span data-ttu-id="34f73-463">Interfaces suportadas</span><span class="sxs-lookup"><span data-stu-id="34f73-463">Supported interfaces</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span data-ttu-id="34f73-464">Impressora</span><span class="sxs-lookup"><span data-stu-id="34f73-464">Printer</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="34f73-465">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-465">OPOS</span></span></li>
-<li><span data-ttu-id="34f73-466">Driver do Windows</span><span class="sxs-lookup"><span data-stu-id="34f73-466">Windows driver</span></span>
-<blockquote><span data-ttu-id="34f73-467">OBSERVAÇÃO: Para as impressoras do Windows em uma rede, o usuário da estação de hardware deve ter permissão para acessar a impressora.</span><span class="sxs-lookup"><span data-stu-id="34f73-467">NOTE: For Windows printers on a network, the user of the hardware station must have permission to access the printer.</span></span></blockquote>
-</li>
-<li><span data-ttu-id="34f73-468">Rede</span><span class="sxs-lookup"><span data-stu-id="34f73-468">Network</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="34f73-469">Impressora 2</span><span class="sxs-lookup"><span data-stu-id="34f73-469">Printer 2</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="34f73-470">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-470">OPOS</span></span></li>
-<li><span data-ttu-id="34f73-471">Driver do Windows</span><span class="sxs-lookup"><span data-stu-id="34f73-471">Windows driver</span></span></li>
-<li><span data-ttu-id="34f73-472">Rede</span><span class="sxs-lookup"><span data-stu-id="34f73-472">Network</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="34f73-473">Sacador</span><span class="sxs-lookup"><span data-stu-id="34f73-473">Drawer</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="34f73-474">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-474">OPOS</span></span></li>
-<li><span data-ttu-id="34f73-475">Rede</span><span class="sxs-lookup"><span data-stu-id="34f73-475">Network</span></span>
-<blockquote><span data-ttu-id="34f73-476">OBSERVAÇÃO: Somente uma caixa registradora por perfil de hardware poderá ser configurada se <strong>Usar turno compartilhado</strong> estiver configurado na caixa registradora.</span><span class="sxs-lookup"><span data-stu-id="34f73-476">NOTE: Only one drawer per hardware profile can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></blockquote>
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="34f73-477">Gaveta 2</span><span class="sxs-lookup"><span data-stu-id="34f73-477">Drawer 2</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="34f73-478">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-478">OPOS</span></span></li>
-<li><span data-ttu-id="34f73-479">Rede</span><span class="sxs-lookup"><span data-stu-id="34f73-479">Network</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="34f73-480">Terminal de pagamento</span><span class="sxs-lookup"><span data-stu-id="34f73-480">Payment terminal</span></span></td>
-<td>
-<ul>
-<li><span data-ttu-id="34f73-481">Suporte personalizado de dispositivo</span><span class="sxs-lookup"><span data-stu-id="34f73-481">Custom device support</span></span></li>
-<li><span data-ttu-id="34f73-482">Rede (para mais informações, consulte a documentação do conector de pagamento.)</span><span class="sxs-lookup"><span data-stu-id="34f73-482">Network (For more information, see the payment connector documentation.)</span></span></li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-## <a name="configuration-for-supported-scenarios"></a><span data-ttu-id="34f73-483">Configuração para cenários suportados</span><span class="sxs-lookup"><span data-stu-id="34f73-483">Configuration for supported scenarios</span></span>
-
-<span data-ttu-id="34f73-484">Para obter mais informações sobre como criar perfis de hardware, consulte [Definir e manter clientes de canal, incluindo registros e estações de hardware](define-maintain-channel-clients-registers-hw-stations.md).</span><span class="sxs-lookup"><span data-stu-id="34f73-484">For more information about how to create hardware profiles, see [Define and maintain channel clients, including registers and hardware stations](define-maintain-channel-clients-registers-hw-stations.md).</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="34f73-485">Para o Microsoft Dynamics 365 for Retail versão 1611, o perfil da estação de hardware não é mais usado.</span><span class="sxs-lookup"><span data-stu-id="34f73-485">For Microsoft Dynamics 365 for Retail version 1611, the hardware station profile is no longer used.</span></span> <span data-ttu-id="34f73-486">Os atributos configurados anteriormente no perfil de estação de hardware agora são parte da estação de hardware.</span><span class="sxs-lookup"><span data-stu-id="34f73-486">Attributes that you previously set up in the hardware station profile are now part of the hardware station itself.</span></span>
-
-### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a><span data-ttu-id="34f73-487">PDV moderno para Windows com uma estação de hardware IPC (integrada)</span><span class="sxs-lookup"><span data-stu-id="34f73-487">Modern POS for Windows with an IPC (built-in) hardware station</span></span>
-
-<span data-ttu-id="34f73-488">Esta configuração é a configuração mais típica para as registradoras PDV fixas tradicionais.</span><span class="sxs-lookup"><span data-stu-id="34f73-488">This configuration is the most typical configuration for traditional, fixed POS registers.</span></span> <span data-ttu-id="34f73-489">Para esse cenário, as informações de perfil de hardware são mapeadas diretamente na registradora.</span><span class="sxs-lookup"><span data-stu-id="34f73-489">For this scenario, the hardware profile information is mapped directly to the register itself.</span></span> <span data-ttu-id="34f73-490">O número do terminal de TEF também pode ser configurado na registradora.</span><span class="sxs-lookup"><span data-stu-id="34f73-490">The EFT terminal number should also be set on the register itself.</span></span> <span data-ttu-id="34f73-491">Para fazer essa configuração, siga essas etapas.</span><span class="sxs-lookup"><span data-stu-id="34f73-491">To set up this configuration, follow these steps.</span></span>
-
-1. <span data-ttu-id="34f73-492">Crie um perfil de hardware onde todos os periféricos necessários são configurados.</span><span class="sxs-lookup"><span data-stu-id="34f73-492">Create a hardware profile where all the required peripherals are configured.</span></span>
-2. <span data-ttu-id="34f73-493">Mapeie o perfil de hardware na registradora de PDV.</span><span class="sxs-lookup"><span data-stu-id="34f73-493">Map the hardware profile to the POS register.</span></span>
-3. <span data-ttu-id="34f73-494">Crie uma estação de hardware do tipo **Dedicada** para a loja de varejo onde a registradora PDV será utilizada.</span><span class="sxs-lookup"><span data-stu-id="34f73-494">Create a hardware station of the **Dedicated** type for the retail store where the POS register will be used.</span></span> <span data-ttu-id="34f73-495">Uma descrição é opcional.</span><span class="sxs-lookup"><span data-stu-id="34f73-495">A description is optional.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="34f73-496">Você não precisa definir outras propriedades na estação de hardware.</span><span class="sxs-lookup"><span data-stu-id="34f73-496">You don't have to set any other properties on the hardware station.</span></span> <span data-ttu-id="34f73-497">Todas as outras informações necessárias, como perfil de hardware, serão provenientes da registradora.</span><span class="sxs-lookup"><span data-stu-id="34f73-497">All other required information, such as the hardware profile, will come from the register itself.</span></span>
-
-4. <span data-ttu-id="34f73-498">Clique em **Varejo** &gt; **TI de varejo** &gt; **Agenda de distribuição**.</span><span class="sxs-lookup"><span data-stu-id="34f73-498">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
-5. <span data-ttu-id="34f73-499">Selecione a agenda de distribuição **1090** para sincronizar o novo perfil de hardware com a loja.</span><span class="sxs-lookup"><span data-stu-id="34f73-499">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="34f73-500">Clique em **Executar agora** para sincronizar as alterações do PDV.</span><span class="sxs-lookup"><span data-stu-id="34f73-500">Click **Run now** to sync changes to the POS.</span></span>
-6. <span data-ttu-id="34f73-501">Selecione a agenda de distribuição **1040** para sincronizar a nova estação de hardware com a loja.</span><span class="sxs-lookup"><span data-stu-id="34f73-501">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="34f73-502">Clique em **Executar agora** para sincronizar as alterações do PDV.</span><span class="sxs-lookup"><span data-stu-id="34f73-502">Click **Run now** to sync changes to the POS.</span></span>
-7. <span data-ttu-id="34f73-503">Instale e ative o PDV moderno para Windows.</span><span class="sxs-lookup"><span data-stu-id="34f73-503">Install and activate Modern POS for Windows.</span></span>
-8. <span data-ttu-id="34f73-504">Inicie o PDV moderno para Windows, e comece a usar os dispositivos periféricos conectados.</span><span class="sxs-lookup"><span data-stu-id="34f73-504">Start Modern POS for Windows, and begin to use the connected peripheral devices.</span></span>
-
-### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a><span data-ttu-id="34f73-505">Todos os clientes de PDV modernos que possuem uma estação de hardware IIS dedicada</span><span class="sxs-lookup"><span data-stu-id="34f73-505">All Modern POS clients that have a dedicated IIS hardware station</span></span>
-
-<span data-ttu-id="34f73-506">Essa configuração pode ser usada para todos os clientes de PDV moderno que possuem uma estação de hardware usada exclusivamente por uma registradora de PDV.</span><span class="sxs-lookup"><span data-stu-id="34f73-506">This configuration can be used for all Modern POS clients that have a hardware station that is used exclusively by one POS register.</span></span> <span data-ttu-id="34f73-507">Para fazer essa configuração, siga essas etapas.</span><span class="sxs-lookup"><span data-stu-id="34f73-507">To set up this configuration, follow these steps.</span></span>
-
-1. <span data-ttu-id="34f73-508">Crie um perfil de hardware onde todos os periféricos necessários são configurados.</span><span class="sxs-lookup"><span data-stu-id="34f73-508">Create a hardware profile where all the required peripherals are configured.</span></span>
-2. <span data-ttu-id="34f73-509">Crie uma estação de hardware do tipo **Dedicada** para a loja de varejo onde a registradora PDV será utilizada.</span><span class="sxs-lookup"><span data-stu-id="34f73-509">Create a hardware station of the **Dedicated** type for the retail store where the POS register will be used.</span></span>
-3. <span data-ttu-id="34f73-510">Na estação dedicada de hardware, defina as seguintes propriedades:</span><span class="sxs-lookup"><span data-stu-id="34f73-510">On the dedicated hardware station, set the following properties:</span></span>
-
-    - <span data-ttu-id="34f73-511">**Nome do host** – O nome do computador host onde a estação de hardware será executada.</span><span class="sxs-lookup"><span data-stu-id="34f73-511">**Host name** – The name of the host computer where the hardware station will run.</span></span>
-
-        > [!NOTE]
-        > <span data-ttu-id="34f73-512">O PDV de nuvem pode resolver o **localhost** para determinar o computador local onde o PDV de Nuvem está sendo executado.</span><span class="sxs-lookup"><span data-stu-id="34f73-512">Cloud POS can resolve **localhost** to determine the local computer where Cloud POS is running.</span></span> <span data-ttu-id="34f73-513">No entanto, o certificado necessário para emparelhar o PDV de nuvem com a estação de hardware também deve ter "Localhost" como nome de computador.</span><span class="sxs-lookup"><span data-stu-id="34f73-513">However, the certificate that is required in order to pair Cloud POS with the hardware station must also have "Localhost" as the computer name.</span></span> <span data-ttu-id="34f73-514">Para evitar problemas, recomendamos que você liste uma instância de cada estação dedicada de hardware para a loja, conforme necessário.</span><span class="sxs-lookup"><span data-stu-id="34f73-514">To avoid issues, we recommend that you list an instance of each dedicated hardware station for the store, as required.</span></span> <span data-ttu-id="34f73-515">Para cada estação de hardware, o nome do host deve ser o nome do computador específico onde a estação de hardware será implantada.</span><span class="sxs-lookup"><span data-stu-id="34f73-515">For each hardware station, the host name should be the specific computer name where the hardware station will be deployed.</span></span>
-
-    - <span data-ttu-id="34f73-516">**Porta** – A porta a ser usada para a estação de hardware se comunicar com o cliente de PDV moderno.</span><span class="sxs-lookup"><span data-stu-id="34f73-516">**Port** – The port to use for the hardware station to communicate with the Modern POS client.</span></span>
-    - <span data-ttu-id="34f73-517">**Perfil de hardware** – Se o perfil de hardware não for fornecido na estação de hardware, o perfil de hardware atribuído à registradora será usado.</span><span class="sxs-lookup"><span data-stu-id="34f73-517">**Hardware profile** – If the hardware profile isn't provided on the hardware station itself, the hardware profile that is assigned to the register will be used.</span></span>
-    - <span data-ttu-id="34f73-518">**Número de PDV da TEF** – A ID do terminal de TEF a ser usado quando autorizações de TEF forem enviadas.</span><span class="sxs-lookup"><span data-stu-id="34f73-518">**EFT POS number** – The EFT terminal ID to use when EFT authorizations are sent.</span></span> <span data-ttu-id="34f73-519">Essa ID é fornecida pelo processador de cartão de crédito.</span><span class="sxs-lookup"><span data-stu-id="34f73-519">This ID is provided by the credit card processor.</span></span>
-    - <span data-ttu-id="34f73-520">**Nome do pacote** – O pacote de estação de hardware a ser usado quando a estação de hardware é implantada.</span><span class="sxs-lookup"><span data-stu-id="34f73-520">**Package name** – The hardware station package to use when the hardware station is deployed.</span></span>
-
-4. <span data-ttu-id="34f73-521">Clique em **Varejo** &gt; **TI de varejo** &gt; **Agenda de distribuição**.</span><span class="sxs-lookup"><span data-stu-id="34f73-521">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
-5. <span data-ttu-id="34f73-522">Selecione a agenda de distribuição **1090** para sincronizar o novo perfil de hardware com a loja.</span><span class="sxs-lookup"><span data-stu-id="34f73-522">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="34f73-523">Clique em **Executar agora** para sincronizar as alterações do PDV.</span><span class="sxs-lookup"><span data-stu-id="34f73-523">Click **Run now** to sync changes to the POS.</span></span>
-6. <span data-ttu-id="34f73-524">Selecione a agenda de distribuição **1040** para sincronizar a nova estação de hardware com a loja.</span><span class="sxs-lookup"><span data-stu-id="34f73-524">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="34f73-525">Clique em **Executar agora** para sincronizar as alterações do PDV.</span><span class="sxs-lookup"><span data-stu-id="34f73-525">Click **Run now** to sync changes to the POS.</span></span>
-7. <span data-ttu-id="34f73-526">Instale a estação de hardware.</span><span class="sxs-lookup"><span data-stu-id="34f73-526">Install the hardware station.</span></span> <span data-ttu-id="34f73-527">Para mais informações sobre como instalar a estação de hardware, consulte [Instalação de configuração da estação de hardware de varejo](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="34f73-527">For more information about how to install the hardware station, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
-8. <span data-ttu-id="34f73-528">Instale e ative o PDV moderno.</span><span class="sxs-lookup"><span data-stu-id="34f73-528">Install and activate Modern POS.</span></span> <span data-ttu-id="34f73-529">Para obter mais informações sobre como instalar o PDV moderno, consulte [Instalação e configuração do Retail Modern POS](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="34f73-529">For more information about how to install Modern POS, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
-9. <span data-ttu-id="34f73-530">Entre no PDV moderno e selecione **Realizar operações que não são de gaveta**.</span><span class="sxs-lookup"><span data-stu-id="34f73-530">Sign in to Modern POS, and select **Perform non-drawer operations**.</span></span>
-10. <span data-ttu-id="34f73-531">Inicie a operação **Gerenciar estações de hardware**.</span><span class="sxs-lookup"><span data-stu-id="34f73-531">Start the **Manage hardware stations** operation.</span></span>
-11. <span data-ttu-id="34f73-532">Clique em **Gerenciar**.</span><span class="sxs-lookup"><span data-stu-id="34f73-532">Click **Manage**.</span></span>
-12. <span data-ttu-id="34f73-533">Na página de gerenciamento da estação de hardware, defina a opção para ativar a estação de hardware.</span><span class="sxs-lookup"><span data-stu-id="34f73-533">On the hardware station management page, set the option to turn on the hardware station.</span></span>
-13. <span data-ttu-id="34f73-534">Selecione a estação de hardware a ser usada e, em seguida, clique em **Emparelhar**.</span><span class="sxs-lookup"><span data-stu-id="34f73-534">Select the hardware station to use, and then click **Pair**.</span></span>
-14. <span data-ttu-id="34f73-535">Após a estação de hardware ser emparelhada, clique em **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="34f73-535">After the hardware station is paired, click **Close**.</span></span>
-15. <span data-ttu-id="34f73-536">Na página de seleção da estação de hardware, clique na estação de hardware selecionada recentemente para ativá-la.</span><span class="sxs-lookup"><span data-stu-id="34f73-536">On the hardware station selection page, click the recently selected hardware station to make it active.</span></span>
-
-### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a><span data-ttu-id="34f73-537">Todos os clientes de PDV modernos que possuem uma estação de hardware IIS compartilhada</span><span class="sxs-lookup"><span data-stu-id="34f73-537">All Modern POS clients that have a shared IIS hardware station</span></span>
-
-<span data-ttu-id="34f73-538">Essa configuração pode ser usada para todos os clientes de PDV moderno que compartilham estações de hardware com outros dispositivos.</span><span class="sxs-lookup"><span data-stu-id="34f73-538">This configuration can be used for all Modern POS clients that share hardware stations with other devices.</span></span> <span data-ttu-id="34f73-539">Para fazer essa configuração, siga essas etapas.</span><span class="sxs-lookup"><span data-stu-id="34f73-539">To set up this configuration, follow these steps.</span></span>
-
-1. <span data-ttu-id="34f73-540">Crie um perfil de hardware onde os periféricos necessários são configurados.</span><span class="sxs-lookup"><span data-stu-id="34f73-540">Create a hardware profile where the required peripherals are configured.</span></span>
-2. <span data-ttu-id="34f73-541">Crie uma estação de hardware do tipo **Compartilhada** para a loja de varejo onde a registradora PDV será utilizada.</span><span class="sxs-lookup"><span data-stu-id="34f73-541">Create a hardware station of the **Shared** type for the retail store where the POS register will be used.</span></span>
-3. <span data-ttu-id="34f73-542">Na estação compartilhada de hardware, defina as seguintes propriedades:</span><span class="sxs-lookup"><span data-stu-id="34f73-542">On the shared hardware station, set the following properties:</span></span>
-
-    - <span data-ttu-id="34f73-543">**Nome do host** – O nome do computador host onde a estação de hardware será executada.</span><span class="sxs-lookup"><span data-stu-id="34f73-543">**Host name** – The name of the host computer where the hardware station will run.</span></span>
-    - <span data-ttu-id="34f73-544">**Descrição** – Texto que ajudará a identificar a estação de hardware, como **Devoluções** ou **Vitrine da loja**.</span><span class="sxs-lookup"><span data-stu-id="34f73-544">**Description** – Text that will help identify the hardware station, such as **Returns** or **Front of store**.</span></span>
-    - <span data-ttu-id="34f73-545">**Porta** – A porta a ser usada para a estação de hardware se comunicar com o cliente de PDV moderno.</span><span class="sxs-lookup"><span data-stu-id="34f73-545">**Port** – The port to use for the hardware station to communicate with the Modern POS client.</span></span>
-    - <span data-ttu-id="34f73-546">**Perfil de hardware** – Para as estações de hardware compartilhadas, cada estação de hardware deve ter um perfil de hardware.</span><span class="sxs-lookup"><span data-stu-id="34f73-546">**Hardware profile** – For shared hardware stations, each hardware station should have a hardware profile.</span></span> <span data-ttu-id="34f73-547">Os perfis de hardware podem ser compartilhados entre as estações de hardware, mas devem ser mapeados em cada estação de hardware.</span><span class="sxs-lookup"><span data-stu-id="34f73-547">Hardware profiles can be shared among hardware stations, but they must be mapped to each hardware station.</span></span> <span data-ttu-id="34f73-548">Além disso, recomendamos que você use turnos compartilhados quando vários dispositivos usarem a mesma estação de hardware compartilhada.</span><span class="sxs-lookup"><span data-stu-id="34f73-548">In addition, we recommend that you use shared shifts when multiple devices use the same shared hardware station.</span></span> <span data-ttu-id="34f73-549">Para configurar um turno compartilhado, clique em **Varejo** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Perfis de PDV** &gt; **Perfis de hardware**.</span><span class="sxs-lookup"><span data-stu-id="34f73-549">To set up a shared shift, click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Hardware profiles**.</span></span> <span data-ttu-id="34f73-550">Para cada perfil de hardware compartilhado, selecione a caixa registradora, e defina a opção **Gaveta de turno compartilhado** para **Sim**.</span><span class="sxs-lookup"><span data-stu-id="34f73-550">For each shared hardware profile, select the cash drawer, and set the **Shared shift drawer** option to **Yes**.</span></span>
-    - <span data-ttu-id="34f73-551">**Número de PDV da TEF** – A ID do terminal de TEF a ser usado quando autorizações de TEF forem enviadas.</span><span class="sxs-lookup"><span data-stu-id="34f73-551">**EFT POS number** – The EFT terminal ID to use when EFT authorizations are sent.</span></span> <span data-ttu-id="34f73-552">Essa ID é fornecida pelo processador de cartão de crédito.</span><span class="sxs-lookup"><span data-stu-id="34f73-552">This ID is provided by the credit card processor.</span></span>
-    - <span data-ttu-id="34f73-553">**Nome do pacote** – O pacote de estação de hardware a ser usado quando a estação de hardware é implantada.</span><span class="sxs-lookup"><span data-stu-id="34f73-553">**Package name** – The hardware station package to use when the hardware station is deployed.</span></span>
-
-4. <span data-ttu-id="34f73-554">Repita as etapas 2 e 3 para cada estação de hardware adicional necessária na loja.</span><span class="sxs-lookup"><span data-stu-id="34f73-554">Repeat steps 2 and 3 for each additional hardware station that is required in the store.</span></span>
-5. <span data-ttu-id="34f73-555">Clique em **Varejo** &gt; **TI de varejo** &gt; **Agenda de distribuição**.</span><span class="sxs-lookup"><span data-stu-id="34f73-555">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
-6. <span data-ttu-id="34f73-556">Selecione a agenda de distribuição **1090** para sincronizar o novo perfil de hardware com a loja.</span><span class="sxs-lookup"><span data-stu-id="34f73-556">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="34f73-557">Clique em **Executar agora** para sincronizar as alterações do PDV.</span><span class="sxs-lookup"><span data-stu-id="34f73-557">Click **Run now** to sync changes to the POS.</span></span>
-7. <span data-ttu-id="34f73-558">Selecione a agenda de distribuição **1040** para sincronizar a nova estação de hardware com a loja.</span><span class="sxs-lookup"><span data-stu-id="34f73-558">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="34f73-559">Clique em **Executar agora** para sincronizar as alterações do PDV.</span><span class="sxs-lookup"><span data-stu-id="34f73-559">Click **Run now** to sync changes to the POS.</span></span>
-8. <span data-ttu-id="34f73-560">Instale a estação de hardware em cada computador host que é configurado nas etapas 2 e 3.</span><span class="sxs-lookup"><span data-stu-id="34f73-560">Install the hardware station on each host computer that you set up in steps 2 and 3.</span></span> <span data-ttu-id="34f73-561">Para mais informações sobre como instalar a estação de hardware, consulte [Instalação de configuração da estação de hardware de varejo](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="34f73-561">For more information about how to install the hardware station, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
-9. <span data-ttu-id="34f73-562">Instale e ative o PDV moderno.</span><span class="sxs-lookup"><span data-stu-id="34f73-562">Install and activate Modern POS.</span></span> <span data-ttu-id="34f73-563">Para obter mais informações sobre como instalar o PDV moderno, consulte [Instalação e configuração do Retail Modern POS](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="34f73-563">For more information about how to install Modern POS, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
-10. <span data-ttu-id="34f73-564">Entre no PDV moderno e selecione **Realizar operações que não são de gaveta**.</span><span class="sxs-lookup"><span data-stu-id="34f73-564">Sign in to Modern POS, and select **Perform non-drawer operations**.</span></span>
-11. <span data-ttu-id="34f73-565">Inicie a operação **Gerenciar estações de hardware**.</span><span class="sxs-lookup"><span data-stu-id="34f73-565">Start the **Manage hardware stations** operation.</span></span>
-12. <span data-ttu-id="34f73-566">Clique em **Gerenciar**.</span><span class="sxs-lookup"><span data-stu-id="34f73-566">Click **Manage**.</span></span>
-13. <span data-ttu-id="34f73-567">Na página de gerenciamento da estação de hardware, defina a opção para ativar a estação de hardware.</span><span class="sxs-lookup"><span data-stu-id="34f73-567">On the hardware station management page, set the option to turn on the hardware station.</span></span>
-14. <span data-ttu-id="34f73-568">Selecione a estação de hardware a ser usada e, em seguida, clique em **Emparelhar**.</span><span class="sxs-lookup"><span data-stu-id="34f73-568">Select the hardware station to use, and then click **Pair**.</span></span>
-15. <span data-ttu-id="34f73-569">Repita a etapa 14 para cada estação de hardware que o PDV moderno usará.</span><span class="sxs-lookup"><span data-stu-id="34f73-569">Repeat step 14 for each hardware station that Modern POS will use.</span></span>
-16. <span data-ttu-id="34f73-570">Após todas as estações de hardware necessárias serem emparelhadas, clique em **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="34f73-570">After all the required hardware stations are paired, click **Close**.</span></span>
-17. <span data-ttu-id="34f73-571">Na página de seleção da estação de hardware, clique na estação de hardware selecionada recentemente para ativá-la.</span><span class="sxs-lookup"><span data-stu-id="34f73-571">On the hardware station selection page, click the recently selected hardware station to make it active.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="34f73-572">Se dispositivos usarem frequentemente diferentes estações de hardware, é recomendável configurar o PDV moderno para solicitar aos caixas que selecionem uma estação de hardware quando começarem o processo de meio de pagamento.</span><span class="sxs-lookup"><span data-stu-id="34f73-572">If devices often use different hardware stations, we recommend that you configure Modern POS to prompt cashiers to select a hardware station when they begin the tender process.</span></span> <span data-ttu-id="34f73-573">Clique em **Varejo** &gt; **Configuração do canal** &gt; **Configuração do PDV** &gt; **Registros**.</span><span class="sxs-lookup"><span data-stu-id="34f73-573">Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Registers**.</span></span> <span data-ttu-id="34f73-574">Selecione a registradora e, em seguida, defina a opção **Selecionar após proposta** para **Sim**.</span><span class="sxs-lookup"><span data-stu-id="34f73-574">Select the register, and then set the **Select upon tender** option to **Yes**.</span></span> <span data-ttu-id="34f73-575">Use a agenda de distribuição **1090** para sincronizar alterações no banco de dados do canal.</span><span class="sxs-lookup"><span data-stu-id="34f73-575">Use the **1090** distribution schedule to sync changes to the channel database.</span></span>
-
-## <a name="extensibility"></a><span data-ttu-id="34f73-576">Extensibilidade</span><span class="sxs-lookup"><span data-stu-id="34f73-576">Extensibility</span></span>
-
-<span data-ttu-id="34f73-577">Para obter informações sobre cenários de extensibilidade da estação de hardware, consulte [Extensibilidade da estação de hardware](dev-itpro/hardware-station-extensibility.md).</span><span class="sxs-lookup"><span data-stu-id="34f73-577">For information about extensibility scenarios for the hardware station, see [Hardware Station extensibility](dev-itpro/hardware-station-extensibility.md).</span></span>
-
-## <a name="security"></a><span data-ttu-id="34f73-578">Segurança</span><span class="sxs-lookup"><span data-stu-id="34f73-578">Security</span></span>
-
-<span data-ttu-id="34f73-579">De acordo com os padrões de segurança atuais, as seguintes configurações devem ser usadas em um ambiente de produção:</span><span class="sxs-lookup"><span data-stu-id="34f73-579">According to current security standards, the following settings should be used in a production environment:</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="34f73-580">O instalador da estação de hardware fará automaticamente essas edições de registro como parte da instalação no autoatendimento.</span><span class="sxs-lookup"><span data-stu-id="34f73-580">The hardware station installer will automatically make these registry edits as part of the installation through self-service.</span></span>
-
-- <span data-ttu-id="34f73-581">O SSL (Secure Sockets Layer) deve ser desabilitado.</span><span class="sxs-lookup"><span data-stu-id="34f73-581">Secure Sockets Layer (SSL) should be disabled.</span></span>
-- <span data-ttu-id="34f73-582">Somente o TLS (Transport Layer Security) versão 1.2 (ou versão mais atual) deve ser habilitado e usado.</span><span class="sxs-lookup"><span data-stu-id="34f73-582">Only Transport Layer Security (TLS) version 1.2 (or the current highest version) should be enabled and used.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="34f73-583">Por padrão, o SSL e todas as versões do TLS, exceto TLS 1.2, estão desabilitados.</span><span class="sxs-lookup"><span data-stu-id="34f73-583">By default, SSL and all versions of TLS except TLS 1.2 are disabled.</span></span>
-
-    <span data-ttu-id="34f73-584">Para editar ou habilitar esses valores, siga estas etapas:</span><span class="sxs-lookup"><span data-stu-id="34f73-584">To edit or enable these values, follow these steps:</span></span>
-
-    1. <span data-ttu-id="34f73-585">Pressione a tecla de logotipo do Windows+R para abrir uma janela de **Execução**.</span><span class="sxs-lookup"><span data-stu-id="34f73-585">Press the Windows logo key+R to open a **Run** window.</span></span>
-    2. <span data-ttu-id="34f73-586">No campo **Abrir**, digite **Regedit** e, em seguida, clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="34f73-586">In the **Open** field, type **Regedit**, and then click **OK**.</span></span>
-    3. <span data-ttu-id="34f73-587">Se uma caixa de mensagem **Controle de conta de usuário** for exibida, clique em **Sim**.</span><span class="sxs-lookup"><span data-stu-id="34f73-587">If a **User Account Control** message box appears, click **Yes**.</span></span>
-    4. <span data-ttu-id="34f73-588">Na janela do **Editor de registro**, navegue até **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**.</span><span class="sxs-lookup"><span data-stu-id="34f73-588">In the **Registry Editor** window, navigate to **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**.</span></span> <span data-ttu-id="34f73-589">As seguintes chaves foram inseridas automaticamente para permitir somente o TLS 1.2:</span><span class="sxs-lookup"><span data-stu-id="34f73-589">The following keys have been automatically entered to allow for TLS 1.2 only:</span></span>
-
-        - <span data-ttu-id="34f73-590">TLS 1.2Server:Enabled=1</span><span class="sxs-lookup"><span data-stu-id="34f73-590">TLS 1.2Server:Enabled=1</span></span>
-        - <span data-ttu-id="34f73-591">TLS 1.2Server:DisabledByDefault=0</span><span class="sxs-lookup"><span data-stu-id="34f73-591">TLS 1.2Server:DisabledByDefault=0</span></span>
-        - <span data-ttu-id="34f73-592">TLS 1.2Client:Enabled=1</span><span class="sxs-lookup"><span data-stu-id="34f73-592">TLS 1.2Client:Enabled=1</span></span>
-        - <span data-ttu-id="34f73-593">TLS 1.2Client:DisabledByDefault=0</span><span class="sxs-lookup"><span data-stu-id="34f73-593">TLS 1.2Client:DisabledByDefault=0</span></span>
-        - <span data-ttu-id="34f73-594">TLS 1.1Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="34f73-594">TLS 1.1Server:Enabled=0</span></span>
-        - <span data-ttu-id="34f73-595">TLS 1.1Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="34f73-595">TLS 1.1Client:Enabled=0</span></span>
-        - <span data-ttu-id="34f73-596">TLS 1.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="34f73-596">TLS 1.0Server:Enabled=0</span></span>
-        - <span data-ttu-id="34f73-597">TLS 1.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="34f73-597">TLS 1.0Client:Enabled=0</span></span>
-        - <span data-ttu-id="34f73-598">SSL 3.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="34f73-598">SSL 3.0Server:Enabled=0</span></span>
-        - <span data-ttu-id="34f73-599">SSL 3.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="34f73-599">SSL 3.0Client:Enabled=0</span></span>
-        - <span data-ttu-id="34f73-600">SSL 2.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="34f73-600">SSL 2.0Server:Enabled=0</span></span>
-        - <span data-ttu-id="34f73-601">SSL 2.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="34f73-601">SSL 2.0Client:Enabled=0</span></span>
-
-- <span data-ttu-id="34f73-602">Nenhuma porta de rede adicional deve ser aberta, a menos que seja necessário por motivos específicos e conhecidos.</span><span class="sxs-lookup"><span data-stu-id="34f73-602">No additional network ports should be open, unless they are required for known, specified reasons.</span></span>
-- <span data-ttu-id="34f73-603">O compartilhamento de recurso entre origens deve ser desabilitado e deve especificar as origens permitidas que são aceitas.</span><span class="sxs-lookup"><span data-stu-id="34f73-603">Cross-origin resource sharing must be disabled and must specify the allowed origins that are accepted.</span></span>
-- <span data-ttu-id="34f73-604">Somente as autoridades de certificação de confiança podem ser usadas para obter os certificados que serão usados nos computadores que executam a estação de hardware.</span><span class="sxs-lookup"><span data-stu-id="34f73-604">Only trusted certificate authorities should be used to obtain certificates that will be used on computers that run the hardware station.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="34f73-605">É muito importante que você examine as diretrizes de segurança para os requisitos de IIS e PCI (Payment Card Industry).</span><span class="sxs-lookup"><span data-stu-id="34f73-605">It's very important that you review security guidelines for IIS and the Payment Card Industry (PCI) requirements.</span></span>
-
-## <a name="peripheral-simulator"></a><span data-ttu-id="34f73-606">Simulador periférico</span><span class="sxs-lookup"><span data-stu-id="34f73-606">Peripheral simulator</span></span>
-
-<span data-ttu-id="34f73-607">Para obter informações, consulte [Simulador de periféricos de varejo](dev-itpro/retail-peripheral-simulator.md).</span><span class="sxs-lookup"><span data-stu-id="34f73-607">For information, see [Retail peripheral simulator](dev-itpro/retail-peripheral-simulator.md).</span></span>
-
-## <a name="microsoft-tested-peripheral-devices"></a><span data-ttu-id="34f73-608">Dispositivos periféricos testados pela Microsoft</span><span class="sxs-lookup"><span data-stu-id="34f73-608">Microsoft-tested peripheral devices</span></span>
-
-### <a name="ipc-built-in-hardware-station"></a><span data-ttu-id="34f73-609">Estação de hardware IPC (integrada)</span><span class="sxs-lookup"><span data-stu-id="34f73-609">IPC (built-in) hardware station</span></span>
-
-<span data-ttu-id="34f73-610">Estes periféricos foram testados usando a estação de hardware IPC que é integrada no PDV moderno para Windows.</span><span class="sxs-lookup"><span data-stu-id="34f73-610">The following peripherals were tested by using the IPC hardware station that is built into Modern POS for Windows.</span></span>
-
-#### <a name="printer"></a><span data-ttu-id="34f73-611">Impressora</span><span class="sxs-lookup"><span data-stu-id="34f73-611">Printer</span></span>
-
-| <span data-ttu-id="34f73-612">Fabricante</span><span class="sxs-lookup"><span data-stu-id="34f73-612">Manufacturer</span></span> | <span data-ttu-id="34f73-613">Modelo</span><span class="sxs-lookup"><span data-stu-id="34f73-613">Model</span></span>    | <span data-ttu-id="34f73-614">Interface</span><span class="sxs-lookup"><span data-stu-id="34f73-614">Interface</span></span> | <span data-ttu-id="34f73-615">Comentários</span><span class="sxs-lookup"><span data-stu-id="34f73-615">Comments</span></span>                |
-|--------------|----------|-----------|-------------------------|
-| <span data-ttu-id="34f73-616">Epson</span><span class="sxs-lookup"><span data-stu-id="34f73-616">Epson</span></span>        | <span data-ttu-id="34f73-617">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="34f73-617">Tm-T88IV</span></span> | <span data-ttu-id="34f73-618">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-618">OPOS</span></span>      |                         |
-| <span data-ttu-id="34f73-619">Epson</span><span class="sxs-lookup"><span data-stu-id="34f73-619">Epson</span></span>        | <span data-ttu-id="34f73-620">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="34f73-620">TM-T88V</span></span>  | <span data-ttu-id="34f73-621">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-621">OPOS</span></span>      |                         |
-| <span data-ttu-id="34f73-622">Star</span><span class="sxs-lookup"><span data-stu-id="34f73-622">Star</span></span>         | <span data-ttu-id="34f73-623">TSP650II</span><span class="sxs-lookup"><span data-stu-id="34f73-623">TSP650II</span></span> | <span data-ttu-id="34f73-624">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-624">OPOS</span></span>      |                         |
-| <span data-ttu-id="34f73-625">Star</span><span class="sxs-lookup"><span data-stu-id="34f73-625">Star</span></span>         | <span data-ttu-id="34f73-626">TSP650II</span><span class="sxs-lookup"><span data-stu-id="34f73-626">TSP650II</span></span> | <span data-ttu-id="34f73-627">Personalizado</span><span class="sxs-lookup"><span data-stu-id="34f73-627">Custom</span></span>    | <span data-ttu-id="34f73-628">Conectado via rede</span><span class="sxs-lookup"><span data-stu-id="34f73-628">Connected via network</span></span>   |
-| <span data-ttu-id="34f73-629">Star</span><span class="sxs-lookup"><span data-stu-id="34f73-629">Star</span></span>         | <span data-ttu-id="34f73-630">mPOP</span><span class="sxs-lookup"><span data-stu-id="34f73-630">mPOP</span></span>     | <span data-ttu-id="34f73-631">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-631">OPOS</span></span>      | <span data-ttu-id="34f73-632">Conectado via Bluetooth</span><span class="sxs-lookup"><span data-stu-id="34f73-632">Connected via Bluetooth</span></span> |
-| <span data-ttu-id="34f73-633">HP</span><span class="sxs-lookup"><span data-stu-id="34f73-633">HP</span></span>           | <span data-ttu-id="34f73-634">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="34f73-634">F7M67AA</span></span>  | <span data-ttu-id="34f73-635">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-635">OPOS</span></span>      | <span data-ttu-id="34f73-636">Porta USB</span><span class="sxs-lookup"><span data-stu-id="34f73-636">Powered USB</span></span>             |
-
-#### <a name="bar-code-scanner"></a><span data-ttu-id="34f73-637">Scanner de código de barras</span><span class="sxs-lookup"><span data-stu-id="34f73-637">Bar code scanner</span></span>
-
-| <span data-ttu-id="34f73-638">Fabricante</span><span class="sxs-lookup"><span data-stu-id="34f73-638">Manufacturer</span></span>  | <span data-ttu-id="34f73-639">Modelo</span><span class="sxs-lookup"><span data-stu-id="34f73-639">Model</span></span>         | <span data-ttu-id="34f73-640">Interface</span><span class="sxs-lookup"><span data-stu-id="34f73-640">Interface</span></span> | <span data-ttu-id="34f73-641">Comentários</span><span class="sxs-lookup"><span data-stu-id="34f73-641">Comments</span></span> |
-|---------------|---------------|-----------|----------|
-| <span data-ttu-id="34f73-642">Motorola</span><span class="sxs-lookup"><span data-stu-id="34f73-642">Motorola</span></span>      | <span data-ttu-id="34f73-643">DS9208</span><span class="sxs-lookup"><span data-stu-id="34f73-643">DS9208</span></span>        | <span data-ttu-id="34f73-644">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-644">OPOS</span></span>      |          |
-| <span data-ttu-id="34f73-645">Honeywell</span><span class="sxs-lookup"><span data-stu-id="34f73-645">Honeywell</span></span>     | <span data-ttu-id="34f73-646">1900</span><span class="sxs-lookup"><span data-stu-id="34f73-646">1900</span></span>          | <span data-ttu-id="34f73-647">UWP</span><span class="sxs-lookup"><span data-stu-id="34f73-647">UWP</span></span>       |          |
-| <span data-ttu-id="34f73-648">Símbolo</span><span class="sxs-lookup"><span data-stu-id="34f73-648">Symbol</span></span>        | <span data-ttu-id="34f73-649">LS2208</span><span class="sxs-lookup"><span data-stu-id="34f73-649">LS2208</span></span>        | <span data-ttu-id="34f73-650">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-650">OPOS</span></span>      |          |
-| <span data-ttu-id="34f73-651">HP Integrated</span><span class="sxs-lookup"><span data-stu-id="34f73-651">HP Integrated</span></span> | <span data-ttu-id="34f73-652">E1L07AA</span><span class="sxs-lookup"><span data-stu-id="34f73-652">E1L07AA</span></span>       | <span data-ttu-id="34f73-653">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-653">OPOS</span></span>      |          |
-| <span data-ttu-id="34f73-654">Datalogic</span><span class="sxs-lookup"><span data-stu-id="34f73-654">Datalogic</span></span>     | <span data-ttu-id="34f73-655">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="34f73-655">Magellan 8400</span></span> | <span data-ttu-id="34f73-656">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-656">OPOS</span></span>      |          |
-
-#### <a name="pin-pad"></a><span data-ttu-id="34f73-657">Teclado do PIN</span><span class="sxs-lookup"><span data-stu-id="34f73-657">PIN pad</span></span>
-
-| <span data-ttu-id="34f73-658">Fabricante</span><span class="sxs-lookup"><span data-stu-id="34f73-658">Manufacturer</span></span> | <span data-ttu-id="34f73-659">Modelo</span><span class="sxs-lookup"><span data-stu-id="34f73-659">Model</span></span>  | <span data-ttu-id="34f73-660">Interface</span><span class="sxs-lookup"><span data-stu-id="34f73-660">Interface</span></span> | <span data-ttu-id="34f73-661">Comentários</span><span class="sxs-lookup"><span data-stu-id="34f73-661">Comments</span></span>                                        |
-|--------------|--------|-----------|-------------------------------------------------|
-| <span data-ttu-id="34f73-662">VeriFone</span><span class="sxs-lookup"><span data-stu-id="34f73-662">VeriFone</span></span>     | <span data-ttu-id="34f73-663">1000SE</span><span class="sxs-lookup"><span data-stu-id="34f73-663">1000SE</span></span> | <span data-ttu-id="34f73-664">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-664">OPOS</span></span>      | <span data-ttu-id="34f73-665">Requer personalização do conector de pagamento</span><span class="sxs-lookup"><span data-stu-id="34f73-665">Requires customization of the payment connector</span></span> |
-
-#### <a name="payment-terminal"></a><span data-ttu-id="34f73-666">Terminal de pagamento</span><span class="sxs-lookup"><span data-stu-id="34f73-666">Payment terminal</span></span>
-
-| <span data-ttu-id="34f73-667">Fabricante</span><span class="sxs-lookup"><span data-stu-id="34f73-667">Manufacturer</span></span> | <span data-ttu-id="34f73-668">Modelo</span><span class="sxs-lookup"><span data-stu-id="34f73-668">Model</span></span> | <span data-ttu-id="34f73-669">Interface</span><span class="sxs-lookup"><span data-stu-id="34f73-669">Interface</span></span> | <span data-ttu-id="34f73-670">Comentários</span><span class="sxs-lookup"><span data-stu-id="34f73-670">Comments</span></span>                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| <span data-ttu-id="34f73-671">Equinox</span><span class="sxs-lookup"><span data-stu-id="34f73-671">Equinox</span></span>      | <span data-ttu-id="34f73-672">L5300</span><span class="sxs-lookup"><span data-stu-id="34f73-672">L5300</span></span> | <span data-ttu-id="34f73-673">Personalizado</span><span class="sxs-lookup"><span data-stu-id="34f73-673">Custom</span></span>    | <span data-ttu-id="34f73-674">Requer personalização do conector de pagamento</span><span class="sxs-lookup"><span data-stu-id="34f73-674">Requires customization of the payment connector</span></span>                                |
-| <span data-ttu-id="34f73-675">VeriFone</span><span class="sxs-lookup"><span data-stu-id="34f73-675">VeriFone</span></span>     | <span data-ttu-id="34f73-676">MX925</span><span class="sxs-lookup"><span data-stu-id="34f73-676">MX925</span></span> | <span data-ttu-id="34f73-677">Personalizado</span><span class="sxs-lookup"><span data-stu-id="34f73-677">Custom</span></span>    | <span data-ttu-id="34f73-678">Requer personalização do conector de pagamento; conectado via rede e USB</span><span class="sxs-lookup"><span data-stu-id="34f73-678">Requires customization of the payment connector; connected via network and USB</span></span> |
-| <span data-ttu-id="34f73-679">VeriFone</span><span class="sxs-lookup"><span data-stu-id="34f73-679">VeriFone</span></span>     | <span data-ttu-id="34f73-680">MX915</span><span class="sxs-lookup"><span data-stu-id="34f73-680">MX915</span></span> | <span data-ttu-id="34f73-681">Personalizado</span><span class="sxs-lookup"><span data-stu-id="34f73-681">Custom</span></span>    | <span data-ttu-id="34f73-682">Requer personalização do conector de pagamento; conectado via rede e USB</span><span class="sxs-lookup"><span data-stu-id="34f73-682">Requires customization of the payment connector; connected via network and USB</span></span> |
-
-#### <a name="cash-drawer"></a><span data-ttu-id="34f73-683">Gaveta de caixa</span><span class="sxs-lookup"><span data-stu-id="34f73-683">Cash drawer</span></span>
-
-| <span data-ttu-id="34f73-684">Fabricante</span><span class="sxs-lookup"><span data-stu-id="34f73-684">Manufacturer</span></span> | <span data-ttu-id="34f73-685">Modelo</span><span class="sxs-lookup"><span data-stu-id="34f73-685">Model</span></span>     | <span data-ttu-id="34f73-686">Interface</span><span class="sxs-lookup"><span data-stu-id="34f73-686">Interface</span></span> | <span data-ttu-id="34f73-687">Comentários</span><span class="sxs-lookup"><span data-stu-id="34f73-687">Comments</span></span>                |
-|--------------|-----------|-----------|-------------------------|
-| <span data-ttu-id="34f73-688">Star</span><span class="sxs-lookup"><span data-stu-id="34f73-688">Star</span></span>         | <span data-ttu-id="34f73-689">mPOP</span><span class="sxs-lookup"><span data-stu-id="34f73-689">mPOP</span></span>      | <span data-ttu-id="34f73-690">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-690">OPOS</span></span>      | <span data-ttu-id="34f73-691">Conectado via Bluetooth</span><span class="sxs-lookup"><span data-stu-id="34f73-691">Connected via Bluetooth</span></span> |
-| <span data-ttu-id="34f73-692">APG</span><span class="sxs-lookup"><span data-stu-id="34f73-692">APG</span></span>          | <span data-ttu-id="34f73-693">Atwood</span><span class="sxs-lookup"><span data-stu-id="34f73-693">Atwood</span></span>    | <span data-ttu-id="34f73-694">Personalizado</span><span class="sxs-lookup"><span data-stu-id="34f73-694">Custom</span></span>    | <span data-ttu-id="34f73-695">Conectado via rede</span><span class="sxs-lookup"><span data-stu-id="34f73-695">Connected via network</span></span>   |
-| <span data-ttu-id="34f73-696">Star</span><span class="sxs-lookup"><span data-stu-id="34f73-696">Star</span></span>         | <span data-ttu-id="34f73-697">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="34f73-697">SMD2-1317</span></span> | <span data-ttu-id="34f73-698">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-698">OPOS</span></span>      |                         |
-| <span data-ttu-id="34f73-699">HP</span><span class="sxs-lookup"><span data-stu-id="34f73-699">HP</span></span>           | <span data-ttu-id="34f73-700">QT457AA</span><span class="sxs-lookup"><span data-stu-id="34f73-700">QT457AA</span></span>   | <span data-ttu-id="34f73-701">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-701">OPOS</span></span>      |                         |
-
-#### <a name="line-display"></a><span data-ttu-id="34f73-702">Display LCD de linhas</span><span class="sxs-lookup"><span data-stu-id="34f73-702">Line display</span></span>
-
-| <span data-ttu-id="34f73-703">Fabricante</span><span class="sxs-lookup"><span data-stu-id="34f73-703">Manufacturer</span></span>  | <span data-ttu-id="34f73-704">Modelo</span><span class="sxs-lookup"><span data-stu-id="34f73-704">Model</span></span>   | <span data-ttu-id="34f73-705">Interface</span><span class="sxs-lookup"><span data-stu-id="34f73-705">Interface</span></span> | <span data-ttu-id="34f73-706">Comentários</span><span class="sxs-lookup"><span data-stu-id="34f73-706">Comments</span></span> |
-|---------------|---------|-----------|----------|
-| <span data-ttu-id="34f73-707">HP integrated</span><span class="sxs-lookup"><span data-stu-id="34f73-707">HP integrated</span></span> | <span data-ttu-id="34f73-708">G6U79AA</span><span class="sxs-lookup"><span data-stu-id="34f73-708">G6U79AA</span></span> | <span data-ttu-id="34f73-709">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-709">OPOS</span></span>      |          |
-| <span data-ttu-id="34f73-710">Epson</span><span class="sxs-lookup"><span data-stu-id="34f73-710">Epson</span></span>         | <span data-ttu-id="34f73-711">M58DC</span><span class="sxs-lookup"><span data-stu-id="34f73-711">M58DC</span></span>   | <span data-ttu-id="34f73-712">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-712">OPOS</span></span>      |          |
-
-#### <a name="signature-capture"></a><span data-ttu-id="34f73-713">Assinatura</span><span class="sxs-lookup"><span data-stu-id="34f73-713">Signature capture</span></span>
-
-| <span data-ttu-id="34f73-714">Fabricante</span><span class="sxs-lookup"><span data-stu-id="34f73-714">Manufacturer</span></span> | <span data-ttu-id="34f73-715">Modelo</span><span class="sxs-lookup"><span data-stu-id="34f73-715">Model</span></span>  | <span data-ttu-id="34f73-716">Interface</span><span class="sxs-lookup"><span data-stu-id="34f73-716">Interface</span></span> | <span data-ttu-id="34f73-717">Comentários</span><span class="sxs-lookup"><span data-stu-id="34f73-717">Comments</span></span> |
-|--------------|--------|-----------|----------|
-| <span data-ttu-id="34f73-718">Scriptel</span><span class="sxs-lookup"><span data-stu-id="34f73-718">Scriptel</span></span>     | <span data-ttu-id="34f73-719">ST1550</span><span class="sxs-lookup"><span data-stu-id="34f73-719">ST1550</span></span> | <span data-ttu-id="34f73-720">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-720">OPOS</span></span>      |          |
-
-#### <a name="scale"></a><span data-ttu-id="34f73-721">Balança</span><span class="sxs-lookup"><span data-stu-id="34f73-721">Scale</span></span>
-
-| <span data-ttu-id="34f73-722">Fabricante</span><span class="sxs-lookup"><span data-stu-id="34f73-722">Manufacturer</span></span> | <span data-ttu-id="34f73-723">Modelo</span><span class="sxs-lookup"><span data-stu-id="34f73-723">Model</span></span>         | <span data-ttu-id="34f73-724">Interface</span><span class="sxs-lookup"><span data-stu-id="34f73-724">Interface</span></span> | <span data-ttu-id="34f73-725">Comentários</span><span class="sxs-lookup"><span data-stu-id="34f73-725">Comments</span></span> |
-|--------------|---------------|-----------|----------|
-| <span data-ttu-id="34f73-726">Datalogic</span><span class="sxs-lookup"><span data-stu-id="34f73-726">Datalogic</span></span>    | <span data-ttu-id="34f73-727">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="34f73-727">Magellan 8400</span></span> | <span data-ttu-id="34f73-728">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-728">OPOS</span></span>      |          |
-
-#### <a name="msr"></a><span data-ttu-id="34f73-729">LTM</span><span class="sxs-lookup"><span data-stu-id="34f73-729">MSR</span></span>
-
-| <span data-ttu-id="34f73-730">Fabricante</span><span class="sxs-lookup"><span data-stu-id="34f73-730">Manufacturer</span></span> | <span data-ttu-id="34f73-731">Modelo</span><span class="sxs-lookup"><span data-stu-id="34f73-731">Model</span></span>       | <span data-ttu-id="34f73-732">Interface</span><span class="sxs-lookup"><span data-stu-id="34f73-732">Interface</span></span> | <span data-ttu-id="34f73-733">Comentários</span><span class="sxs-lookup"><span data-stu-id="34f73-733">Comments</span></span> |
-|--------------|-------------|-----------|----------|
-| <span data-ttu-id="34f73-734">Magtek</span><span class="sxs-lookup"><span data-stu-id="34f73-734">Magtek</span></span>       | <span data-ttu-id="34f73-735">21073075</span><span class="sxs-lookup"><span data-stu-id="34f73-735">21073075</span></span>    | <span data-ttu-id="34f73-736">UWP</span><span class="sxs-lookup"><span data-stu-id="34f73-736">UWP</span></span>       |          |
-| <span data-ttu-id="34f73-737">Magtek</span><span class="sxs-lookup"><span data-stu-id="34f73-737">Magtek</span></span>       | <span data-ttu-id="34f73-738">21073062</span><span class="sxs-lookup"><span data-stu-id="34f73-738">21073062</span></span>    | <span data-ttu-id="34f73-739">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-739">OPOS</span></span>      |          |
-| <span data-ttu-id="34f73-740">HP</span><span class="sxs-lookup"><span data-stu-id="34f73-740">HP</span></span>           | <span data-ttu-id="34f73-741">IDRA-334133</span><span class="sxs-lookup"><span data-stu-id="34f73-741">IDRA-334133</span></span> | <span data-ttu-id="34f73-742">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-742">OPOS</span></span>      |          |
-
-### <a name="dedicated-iis-hardware-station"></a><span data-ttu-id="34f73-743">Estação de hardware IIS dedicada</span><span class="sxs-lookup"><span data-stu-id="34f73-743">Dedicated IIS hardware station</span></span>
-
-<span data-ttu-id="34f73-744">Os periféricos a seguir foram estados usando uma estação de hardware IIS dedicada (não compartilhada), junto com o PDV moderno para Windows e PDV de nuvem.</span><span class="sxs-lookup"><span data-stu-id="34f73-744">The following peripherals were tested by using a dedicated (not shared) IIS hardware station together with Modern POS for Windows and Cloud POS.</span></span>
-
-#### <a name="printer"></a><span data-ttu-id="34f73-745">Impressora</span><span class="sxs-lookup"><span data-stu-id="34f73-745">Printer</span></span>
-
-| <span data-ttu-id="34f73-746">Fabricante</span><span class="sxs-lookup"><span data-stu-id="34f73-746">Manufacturer</span></span> | <span data-ttu-id="34f73-747">Modelo</span><span class="sxs-lookup"><span data-stu-id="34f73-747">Model</span></span>    | <span data-ttu-id="34f73-748">Interface</span><span class="sxs-lookup"><span data-stu-id="34f73-748">Interface</span></span> | <span data-ttu-id="34f73-749">Comentários</span><span class="sxs-lookup"><span data-stu-id="34f73-749">Comments</span></span>                  |
-|--------------|----------|-----------|---------------------------|
-| <span data-ttu-id="34f73-750">Epson</span><span class="sxs-lookup"><span data-stu-id="34f73-750">Epson</span></span>        | <span data-ttu-id="34f73-751">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="34f73-751">Tm-T88IV</span></span> | <span data-ttu-id="34f73-752">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-752">OPOS</span></span>      |                           |
-| <span data-ttu-id="34f73-753">Epson</span><span class="sxs-lookup"><span data-stu-id="34f73-753">Epson</span></span>        | <span data-ttu-id="34f73-754">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="34f73-754">TM-T88V</span></span>  | <span data-ttu-id="34f73-755">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-755">OPOS</span></span>      |                           |
-| <span data-ttu-id="34f73-756">Star</span><span class="sxs-lookup"><span data-stu-id="34f73-756">Star</span></span>         | <span data-ttu-id="34f73-757">TSP650II</span><span class="sxs-lookup"><span data-stu-id="34f73-757">TSP650II</span></span> | <span data-ttu-id="34f73-758">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-758">OPOS</span></span>      |                           |
-| <span data-ttu-id="34f73-759">Star</span><span class="sxs-lookup"><span data-stu-id="34f73-759">Star</span></span>         | <span data-ttu-id="34f73-760">TSP650II</span><span class="sxs-lookup"><span data-stu-id="34f73-760">TSP650II</span></span> | <span data-ttu-id="34f73-761">Personalizado</span><span class="sxs-lookup"><span data-stu-id="34f73-761">Custom</span></span>    | <span data-ttu-id="34f73-762">Conectado via rede</span><span class="sxs-lookup"><span data-stu-id="34f73-762">Connected via network</span></span>     |
-| <span data-ttu-id="34f73-763">HP</span><span class="sxs-lookup"><span data-stu-id="34f73-763">HP</span></span>           | <span data-ttu-id="34f73-764">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="34f73-764">F7M67AA</span></span>  | <span data-ttu-id="34f73-765">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-765">OPOS</span></span>      | <span data-ttu-id="34f73-766">Powered USB</span><span class="sxs-lookup"><span data-stu-id="34f73-766">Powered USB</span></span>               |
-
-#### <a name="bar-code-scanner"></a><span data-ttu-id="34f73-767">Scanner de código de barras</span><span class="sxs-lookup"><span data-stu-id="34f73-767">Bar code scanner</span></span>
-
-| <span data-ttu-id="34f73-768">Fabricante</span><span class="sxs-lookup"><span data-stu-id="34f73-768">Manufacturer</span></span>  | <span data-ttu-id="34f73-769">Modelo</span><span class="sxs-lookup"><span data-stu-id="34f73-769">Model</span></span>   | <span data-ttu-id="34f73-770">Interface</span><span class="sxs-lookup"><span data-stu-id="34f73-770">Interface</span></span> | <span data-ttu-id="34f73-771">Comentários</span><span class="sxs-lookup"><span data-stu-id="34f73-771">Comments</span></span> |
-|---------------|---------|-----------|----------|
-| <span data-ttu-id="34f73-772">Motorola</span><span class="sxs-lookup"><span data-stu-id="34f73-772">Motorola</span></span>      | <span data-ttu-id="34f73-773">DS9208</span><span class="sxs-lookup"><span data-stu-id="34f73-773">DS9208</span></span>  | <span data-ttu-id="34f73-774">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-774">OPOS</span></span>      |          |
-| <span data-ttu-id="34f73-775">Símbolo</span><span class="sxs-lookup"><span data-stu-id="34f73-775">Symbol</span></span>        | <span data-ttu-id="34f73-776">LS2208</span><span class="sxs-lookup"><span data-stu-id="34f73-776">LS2208</span></span>  | <span data-ttu-id="34f73-777">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-777">OPOS</span></span>      |          |
-| <span data-ttu-id="34f73-778">HP Integrated</span><span class="sxs-lookup"><span data-stu-id="34f73-778">HP Integrated</span></span> | <span data-ttu-id="34f73-779">E1L07AA</span><span class="sxs-lookup"><span data-stu-id="34f73-779">E1L07AA</span></span> | <span data-ttu-id="34f73-780">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-780">OPOS</span></span>      |          |
-
-#### <a name="pin-pad"></a><span data-ttu-id="34f73-781">Teclado do PIN</span><span class="sxs-lookup"><span data-stu-id="34f73-781">PIN pad</span></span>
-
-| <span data-ttu-id="34f73-782">Fabricante</span><span class="sxs-lookup"><span data-stu-id="34f73-782">Manufacturer</span></span> | <span data-ttu-id="34f73-783">Modelo</span><span class="sxs-lookup"><span data-stu-id="34f73-783">Model</span></span>  | <span data-ttu-id="34f73-784">Interface</span><span class="sxs-lookup"><span data-stu-id="34f73-784">Interface</span></span> | <span data-ttu-id="34f73-785">Comentários</span><span class="sxs-lookup"><span data-stu-id="34f73-785">Comments</span></span>                                        |
-|--------------|--------|-----------|-------------------------------------------------|
-| <span data-ttu-id="34f73-786">VeriFone</span><span class="sxs-lookup"><span data-stu-id="34f73-786">VeriFone</span></span>     | <span data-ttu-id="34f73-787">1000SE</span><span class="sxs-lookup"><span data-stu-id="34f73-787">1000SE</span></span> | <span data-ttu-id="34f73-788">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-788">OPOS</span></span>      | <span data-ttu-id="34f73-789">Requer personalização do conector de pagamento</span><span class="sxs-lookup"><span data-stu-id="34f73-789">Requires customization of the payment connector</span></span> |
-
-#### <a name="payment-terminal"></a><span data-ttu-id="34f73-790">Terminal de pagamento</span><span class="sxs-lookup"><span data-stu-id="34f73-790">Payment terminal</span></span>
-
-| <span data-ttu-id="34f73-791">Fabricante</span><span class="sxs-lookup"><span data-stu-id="34f73-791">Manufacturer</span></span> | <span data-ttu-id="34f73-792">Modelo</span><span class="sxs-lookup"><span data-stu-id="34f73-792">Model</span></span> | <span data-ttu-id="34f73-793">Interface</span><span class="sxs-lookup"><span data-stu-id="34f73-793">Interface</span></span> | <span data-ttu-id="34f73-794">Comentários</span><span class="sxs-lookup"><span data-stu-id="34f73-794">Comments</span></span>                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| <span data-ttu-id="34f73-795">Equinox</span><span class="sxs-lookup"><span data-stu-id="34f73-795">Equinox</span></span>      | <span data-ttu-id="34f73-796">L5300</span><span class="sxs-lookup"><span data-stu-id="34f73-796">L5300</span></span> | <span data-ttu-id="34f73-797">Personalizado</span><span class="sxs-lookup"><span data-stu-id="34f73-797">Custom</span></span>    | <span data-ttu-id="34f73-798">Requer personalização do conector de pagamento</span><span class="sxs-lookup"><span data-stu-id="34f73-798">Requires customization of the payment connector</span></span>                                |
-| <span data-ttu-id="34f73-799">VeriFone</span><span class="sxs-lookup"><span data-stu-id="34f73-799">VeriFone</span></span>     | <span data-ttu-id="34f73-800">MX925</span><span class="sxs-lookup"><span data-stu-id="34f73-800">MX925</span></span> | <span data-ttu-id="34f73-801">Personalizado</span><span class="sxs-lookup"><span data-stu-id="34f73-801">Custom</span></span>    | <span data-ttu-id="34f73-802">Requer personalização do conector de pagamento; conectado via rede e USB</span><span class="sxs-lookup"><span data-stu-id="34f73-802">Requires customization of the payment connector; connected via network and USB</span></span> |
-| <span data-ttu-id="34f73-803">VeriFone</span><span class="sxs-lookup"><span data-stu-id="34f73-803">VeriFone</span></span>     | <span data-ttu-id="34f73-804">MX915</span><span class="sxs-lookup"><span data-stu-id="34f73-804">MX915</span></span> | <span data-ttu-id="34f73-805">Personalizado</span><span class="sxs-lookup"><span data-stu-id="34f73-805">Custom</span></span>    | <span data-ttu-id="34f73-806">Requer personalização do conector de pagamento; conectado via rede e USB</span><span class="sxs-lookup"><span data-stu-id="34f73-806">Requires customization of the payment connector; connected via network and USB</span></span> |
-
-#### <a name="cash-drawer"></a><span data-ttu-id="34f73-807">Gaveta de caixa</span><span class="sxs-lookup"><span data-stu-id="34f73-807">Cash drawer</span></span>
-
-| <span data-ttu-id="34f73-808">Fabricante</span><span class="sxs-lookup"><span data-stu-id="34f73-808">Manufacturer</span></span> | <span data-ttu-id="34f73-809">Modelo</span><span class="sxs-lookup"><span data-stu-id="34f73-809">Model</span></span>     | <span data-ttu-id="34f73-810">Interface</span><span class="sxs-lookup"><span data-stu-id="34f73-810">Interface</span></span> | <span data-ttu-id="34f73-811">Comentários</span><span class="sxs-lookup"><span data-stu-id="34f73-811">Comments</span></span>              |
-|--------------|-----------|-----------|-----------------------|
-| <span data-ttu-id="34f73-812">APG</span><span class="sxs-lookup"><span data-stu-id="34f73-812">APG</span></span>          | <span data-ttu-id="34f73-813">Atwood</span><span class="sxs-lookup"><span data-stu-id="34f73-813">Atwood</span></span>    | <span data-ttu-id="34f73-814">Personalizado</span><span class="sxs-lookup"><span data-stu-id="34f73-814">Custom</span></span>    | <span data-ttu-id="34f73-815">Conectado via rede</span><span class="sxs-lookup"><span data-stu-id="34f73-815">Connected via network</span></span> |
-| <span data-ttu-id="34f73-816">Star</span><span class="sxs-lookup"><span data-stu-id="34f73-816">Star</span></span>         | <span data-ttu-id="34f73-817">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="34f73-817">SMD2-1317</span></span> | <span data-ttu-id="34f73-818">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-818">OPOS</span></span>      |                       |
-| <span data-ttu-id="34f73-819">HP</span><span class="sxs-lookup"><span data-stu-id="34f73-819">HP</span></span>           | <span data-ttu-id="34f73-820">QT457AA</span><span class="sxs-lookup"><span data-stu-id="34f73-820">QT457AA</span></span>   | <span data-ttu-id="34f73-821">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-821">OPOS</span></span>      |                       |
-
-#### <a name="line-display"></a><span data-ttu-id="34f73-822">Display LCD de linhas</span><span class="sxs-lookup"><span data-stu-id="34f73-822">Line display</span></span>
-
-| <span data-ttu-id="34f73-823">Fabricante</span><span class="sxs-lookup"><span data-stu-id="34f73-823">Manufacturer</span></span>  | <span data-ttu-id="34f73-824">Modelo</span><span class="sxs-lookup"><span data-stu-id="34f73-824">Model</span></span>   | <span data-ttu-id="34f73-825">Interface</span><span class="sxs-lookup"><span data-stu-id="34f73-825">Interface</span></span> | <span data-ttu-id="34f73-826">Comentários</span><span class="sxs-lookup"><span data-stu-id="34f73-826">Comments</span></span> |
-|---------------|---------|-----------|----------|
-| <span data-ttu-id="34f73-827">HP integrated</span><span class="sxs-lookup"><span data-stu-id="34f73-827">HP integrated</span></span> | <span data-ttu-id="34f73-828">G6U79AA</span><span class="sxs-lookup"><span data-stu-id="34f73-828">G6U79AA</span></span> | <span data-ttu-id="34f73-829">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-829">OPOS</span></span>      |          |
-| <span data-ttu-id="34f73-830">Epson</span><span class="sxs-lookup"><span data-stu-id="34f73-830">Epson</span></span>         | <span data-ttu-id="34f73-831">M58DC</span><span class="sxs-lookup"><span data-stu-id="34f73-831">M58DC</span></span>   | <span data-ttu-id="34f73-832">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-832">OPOS</span></span>      |          |
-
-#### <a name="signature-capture"></a><span data-ttu-id="34f73-833">Assinatura</span><span class="sxs-lookup"><span data-stu-id="34f73-833">Signature capture</span></span>
-
-| <span data-ttu-id="34f73-834">Fabricante</span><span class="sxs-lookup"><span data-stu-id="34f73-834">Manufacturer</span></span> | <span data-ttu-id="34f73-835">Modelo</span><span class="sxs-lookup"><span data-stu-id="34f73-835">Model</span></span>  | <span data-ttu-id="34f73-836">Interface</span><span class="sxs-lookup"><span data-stu-id="34f73-836">Interface</span></span> | <span data-ttu-id="34f73-837">Comentários</span><span class="sxs-lookup"><span data-stu-id="34f73-837">Comments</span></span> |
-|--------------|--------|-----------|----------|
-| <span data-ttu-id="34f73-838">Scriptel</span><span class="sxs-lookup"><span data-stu-id="34f73-838">Scriptel</span></span>     | <span data-ttu-id="34f73-839">ST1550</span><span class="sxs-lookup"><span data-stu-id="34f73-839">ST1550</span></span> | <span data-ttu-id="34f73-840">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-840">OPOS</span></span>      |          |
-
-#### <a name="scale"></a><span data-ttu-id="34f73-841">Balança</span><span class="sxs-lookup"><span data-stu-id="34f73-841">Scale</span></span>
-
-| <span data-ttu-id="34f73-842">Fabricante</span><span class="sxs-lookup"><span data-stu-id="34f73-842">Manufacturer</span></span> | <span data-ttu-id="34f73-843">Modelo</span><span class="sxs-lookup"><span data-stu-id="34f73-843">Model</span></span>         | <span data-ttu-id="34f73-844">Interface</span><span class="sxs-lookup"><span data-stu-id="34f73-844">Interface</span></span> | <span data-ttu-id="34f73-845">Comentários</span><span class="sxs-lookup"><span data-stu-id="34f73-845">Comments</span></span> |
-|--------------|---------------|-----------|----------|
-| <span data-ttu-id="34f73-846">Datalogic</span><span class="sxs-lookup"><span data-stu-id="34f73-846">Datalogic</span></span>    | <span data-ttu-id="34f73-847">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="34f73-847">Magellan 8400</span></span> | <span data-ttu-id="34f73-848">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-848">OPOS</span></span>      |          |
-
-#### <a name="msr"></a><span data-ttu-id="34f73-849">LTM</span><span class="sxs-lookup"><span data-stu-id="34f73-849">MSR</span></span>
-
-| <span data-ttu-id="34f73-850">Fabricante</span><span class="sxs-lookup"><span data-stu-id="34f73-850">Manufacturer</span></span> | <span data-ttu-id="34f73-851">Modelo</span><span class="sxs-lookup"><span data-stu-id="34f73-851">Model</span></span>       | <span data-ttu-id="34f73-852">Interface</span><span class="sxs-lookup"><span data-stu-id="34f73-852">Interface</span></span> | <span data-ttu-id="34f73-853">Comentários</span><span class="sxs-lookup"><span data-stu-id="34f73-853">Comments</span></span> |
-|--------------|-------------|-----------|----------|
-| <span data-ttu-id="34f73-854">Magtek</span><span class="sxs-lookup"><span data-stu-id="34f73-854">Magtek</span></span>       | <span data-ttu-id="34f73-855">21073075</span><span class="sxs-lookup"><span data-stu-id="34f73-855">21073075</span></span>    | <span data-ttu-id="34f73-856">UWP</span><span class="sxs-lookup"><span data-stu-id="34f73-856">UWP</span></span>       |          |
-| <span data-ttu-id="34f73-857">Magtek</span><span class="sxs-lookup"><span data-stu-id="34f73-857">Magtek</span></span>       | <span data-ttu-id="34f73-858">21073062</span><span class="sxs-lookup"><span data-stu-id="34f73-858">21073062</span></span>    | <span data-ttu-id="34f73-859">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-859">OPOS</span></span>      |          |
-| <span data-ttu-id="34f73-860">HP</span><span class="sxs-lookup"><span data-stu-id="34f73-860">HP</span></span>           | <span data-ttu-id="34f73-861">IDRA-334133</span><span class="sxs-lookup"><span data-stu-id="34f73-861">IDRA-334133</span></span> | <span data-ttu-id="34f73-862">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-862">OPOS</span></span>      |          |
-
-### <a name="shared-iis-hardware-station"></a><span data-ttu-id="34f73-863">Estação de hardware IIS compartilhada</span><span class="sxs-lookup"><span data-stu-id="34f73-863">Shared IIS hardware station</span></span>
-
-<span data-ttu-id="34f73-864">Os periféricos a seguir foram estados usando uma estação de hardware IIS compartilhada, junto com o PDV moderno para Windows e PDV de nuvem.</span><span class="sxs-lookup"><span data-stu-id="34f73-864">The following peripherals were tested by using a shared IIS hardware station together with Modern POS for Windows and Cloud POS.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="34f73-865">Apenas uma impressora, terminal de pagamento e caixa registradora são suportados.</span><span class="sxs-lookup"><span data-stu-id="34f73-865">Only a printer, payment terminal, and cash drawer are supported.</span></span>
-
-#### <a name="printer"></a><span data-ttu-id="34f73-866">Impressora</span><span class="sxs-lookup"><span data-stu-id="34f73-866">Printer</span></span>
-
-| <span data-ttu-id="34f73-867">Fabricante</span><span class="sxs-lookup"><span data-stu-id="34f73-867">Manufacturer</span></span> | <span data-ttu-id="34f73-868">Modelo</span><span class="sxs-lookup"><span data-stu-id="34f73-868">Model</span></span>    | <span data-ttu-id="34f73-869">Interface</span><span class="sxs-lookup"><span data-stu-id="34f73-869">Interface</span></span> | <span data-ttu-id="34f73-870">Comentários</span><span class="sxs-lookup"><span data-stu-id="34f73-870">Comments</span></span>                  |
-|--------------|----------|-----------|---------------------------|
-| <span data-ttu-id="34f73-871">Epson</span><span class="sxs-lookup"><span data-stu-id="34f73-871">Epson</span></span>        | <span data-ttu-id="34f73-872">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="34f73-872">Tm-T88IV</span></span> | <span data-ttu-id="34f73-873">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-873">OPOS</span></span>      |                           |
-| <span data-ttu-id="34f73-874">Epson</span><span class="sxs-lookup"><span data-stu-id="34f73-874">Epson</span></span>        | <span data-ttu-id="34f73-875">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="34f73-875">TM-T88V</span></span>  | <span data-ttu-id="34f73-876">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-876">OPOS</span></span>      |                           |
-| <span data-ttu-id="34f73-877">Star</span><span class="sxs-lookup"><span data-stu-id="34f73-877">Star</span></span>         | <span data-ttu-id="34f73-878">TSP650II</span><span class="sxs-lookup"><span data-stu-id="34f73-878">TSP650II</span></span> | <span data-ttu-id="34f73-879">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-879">OPOS</span></span>      |                           |
-| <span data-ttu-id="34f73-880">Star</span><span class="sxs-lookup"><span data-stu-id="34f73-880">Star</span></span>         | <span data-ttu-id="34f73-881">TSP650II</span><span class="sxs-lookup"><span data-stu-id="34f73-881">TSP650II</span></span> | <span data-ttu-id="34f73-882">Personalizado</span><span class="sxs-lookup"><span data-stu-id="34f73-882">Custom</span></span>    | <span data-ttu-id="34f73-883">Conectado via rede</span><span class="sxs-lookup"><span data-stu-id="34f73-883">Connected via network</span></span>     |
-| <span data-ttu-id="34f73-884">HP</span><span class="sxs-lookup"><span data-stu-id="34f73-884">HP</span></span>           | <span data-ttu-id="34f73-885">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="34f73-885">F7M67AA</span></span>  | <span data-ttu-id="34f73-886">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-886">OPOS</span></span>      | <span data-ttu-id="34f73-887">Powered USB</span><span class="sxs-lookup"><span data-stu-id="34f73-887">Powered USB</span></span>               |
-
-#### <a name="payment-terminal"></a><span data-ttu-id="34f73-888">Terminal de pagamento</span><span class="sxs-lookup"><span data-stu-id="34f73-888">Payment terminal</span></span>
-
-| <span data-ttu-id="34f73-889">Fabricante</span><span class="sxs-lookup"><span data-stu-id="34f73-889">Manufacturer</span></span> | <span data-ttu-id="34f73-890">Modelo</span><span class="sxs-lookup"><span data-stu-id="34f73-890">Model</span></span> | <span data-ttu-id="34f73-891">Interface</span><span class="sxs-lookup"><span data-stu-id="34f73-891">Interface</span></span> | <span data-ttu-id="34f73-892">Comentários</span><span class="sxs-lookup"><span data-stu-id="34f73-892">Comments</span></span>                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| <span data-ttu-id="34f73-893">VeriFone</span><span class="sxs-lookup"><span data-stu-id="34f73-893">VeriFone</span></span>     | <span data-ttu-id="34f73-894">MX925</span><span class="sxs-lookup"><span data-stu-id="34f73-894">MX925</span></span> | <span data-ttu-id="34f73-895">Personalizado</span><span class="sxs-lookup"><span data-stu-id="34f73-895">Custom</span></span>    | <span data-ttu-id="34f73-896">Requer personalização do conector de pagamento; conectado via rede e USB</span><span class="sxs-lookup"><span data-stu-id="34f73-896">Requires customization of the payment connector; connected via network and USB</span></span> |
-| <span data-ttu-id="34f73-897">VeriFone</span><span class="sxs-lookup"><span data-stu-id="34f73-897">VeriFone</span></span>     | <span data-ttu-id="34f73-898">MX915</span><span class="sxs-lookup"><span data-stu-id="34f73-898">MX915</span></span> | <span data-ttu-id="34f73-899">Personalizado</span><span class="sxs-lookup"><span data-stu-id="34f73-899">Custom</span></span>    | <span data-ttu-id="34f73-900">Requer personalização do conector de pagamento; conectado via rede e USB</span><span class="sxs-lookup"><span data-stu-id="34f73-900">Requires customization of the payment connector; connected via network and USB</span></span> |
-
-#### <a name="cash-drawer"></a><span data-ttu-id="34f73-901">Gaveta de caixa</span><span class="sxs-lookup"><span data-stu-id="34f73-901">Cash drawer</span></span>
-
-| <span data-ttu-id="34f73-902">Fabricante</span><span class="sxs-lookup"><span data-stu-id="34f73-902">Manufacturer</span></span> | <span data-ttu-id="34f73-903">Modelo</span><span class="sxs-lookup"><span data-stu-id="34f73-903">Model</span></span>     | <span data-ttu-id="34f73-904">Interface</span><span class="sxs-lookup"><span data-stu-id="34f73-904">Interface</span></span> | <span data-ttu-id="34f73-905">Comentários</span><span class="sxs-lookup"><span data-stu-id="34f73-905">Comments</span></span>              |
-|--------------|-----------|-----------|-----------------------|
-| <span data-ttu-id="34f73-906">APG</span><span class="sxs-lookup"><span data-stu-id="34f73-906">APG</span></span>          | <span data-ttu-id="34f73-907">Atwood</span><span class="sxs-lookup"><span data-stu-id="34f73-907">Atwood</span></span>    | <span data-ttu-id="34f73-908">Personalizado</span><span class="sxs-lookup"><span data-stu-id="34f73-908">Custom</span></span>    | <span data-ttu-id="34f73-909">Conectado via rede</span><span class="sxs-lookup"><span data-stu-id="34f73-909">Connected via network</span></span> |
-| <span data-ttu-id="34f73-910">Star</span><span class="sxs-lookup"><span data-stu-id="34f73-910">Star</span></span>         | <span data-ttu-id="34f73-911">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="34f73-911">SMD2-1317</span></span> | <span data-ttu-id="34f73-912">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-912">OPOS</span></span>      |                       |
-| <span data-ttu-id="34f73-913">HP</span><span class="sxs-lookup"><span data-stu-id="34f73-913">HP</span></span>           | <span data-ttu-id="34f73-914">QT457AA</span><span class="sxs-lookup"><span data-stu-id="34f73-914">QT457AA</span></span>   | <span data-ttu-id="34f73-915">OPOS</span><span class="sxs-lookup"><span data-stu-id="34f73-915">OPOS</span></span>      |                       |
-
-## <a name="troubleshooting"></a><span data-ttu-id="34f73-916">Solução de problemas</span><span class="sxs-lookup"><span data-stu-id="34f73-916">Troubleshooting</span></span>
-
-### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a><span data-ttu-id="34f73-917">O PDV moderno pode detectar a estação de hardware em sua lista para seleção, mas não pode concluir o emparelhamento</span><span class="sxs-lookup"><span data-stu-id="34f73-917">Modern POS can detect the hardware station in its list for selection, but it can't complete the pairing</span></span>
-
-<span data-ttu-id="34f73-918">**Solução:** Verifique a lista a seguir com os possíveis pontos de falha:</span><span class="sxs-lookup"><span data-stu-id="34f73-918">**Solution:** Verify the following list of potential failure points:</span></span>
-
-- <span data-ttu-id="34f73-919">O computador que esta executando o PDV moderno confia no certificado usado no computador que executa a estação de hardware.</span><span class="sxs-lookup"><span data-stu-id="34f73-919">The computer that is running Modern POS trusts the certificate that is used on the computer that runs the hardware station.</span></span>
-
-    - <span data-ttu-id="34f73-920">Para verificar esta configuração em um navegador da Web, vá para a seguinte URL: `https://<Computer Name>:<Port Number>/HardwareStation/ping`.</span><span class="sxs-lookup"><span data-stu-id="34f73-920">To verify this setup, in a web browser, go to the following URL: `https://<Computer Name>:<Port Number>/HardwareStation/ping`.</span></span>
-    - <span data-ttu-id="34f73-921">Este URL usa um ping para verificar se o computador pode ser acessado, o navegador e indica se o certificado é confiável.</span><span class="sxs-lookup"><span data-stu-id="34f73-921">This URL uses a ping to verify that the computer can be accessed, and the browser indicates whether the certificate is trusted.</span></span> <span data-ttu-id="34f73-922">(Por exemplo, no Internet Explorer, um ícone de bloqueio é exibido na barra de endereços.</span><span class="sxs-lookup"><span data-stu-id="34f73-922">(For example, in Internet Explorer, a lock icon appears in the address bar.</span></span> <span data-ttu-id="34f73-923">Quando você clica nesse ícone, o Internet Explorer verifica se o certificado é confiável atualmente.</span><span class="sxs-lookup"><span data-stu-id="34f73-923">When you click this icon, Internet Explorer verifies whether the certificate is currently trusted.</span></span> <span data-ttu-id="34f73-924">Você pode instalar o certificado no computador local exibindo os detalhes do certificado que será exibido.)</span><span class="sxs-lookup"><span data-stu-id="34f73-924">You can install the certificate on the local computer by viewing the details of the certificate that is shown.)</span></span>
-
-- <span data-ttu-id="34f73-925">No computador que executa a estação de hardware, a porta que será usada pela estação de hardware é aberta no firewall.</span><span class="sxs-lookup"><span data-stu-id="34f73-925">On the computer that runs the hardware station, the port that will be used by the hardware station is opened in the firewall.</span></span>
-- <span data-ttu-id="34f73-926">A estação de hardware instalou corretamente as informações de conta mercante através da ferramenta de instalação de informações de mercante que é executada no final do instalador de estação de hardware.</span><span class="sxs-lookup"><span data-stu-id="34f73-926">The hardware station has correctly installed merchant account information through the Install merchant information tool that runs at the end of the hardware station installer.</span></span>
-
-### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a><span data-ttu-id="34f73-927">O PDV moderno não pode detectar a estação de hardware em sua lista para seleção</span><span class="sxs-lookup"><span data-stu-id="34f73-927">Modern POS can't detect the hardware station in its list for selection</span></span>
-
-<span data-ttu-id="34f73-928">**Solução:** Um dos seguintes fatores podem causar este problema:</span><span class="sxs-lookup"><span data-stu-id="34f73-928">**Solution:** Either of the following factors can cause this issue:</span></span>
-
-- <span data-ttu-id="34f73-929">A estação de hardware não foi configurada corretamente na sede.</span><span class="sxs-lookup"><span data-stu-id="34f73-929">The hardware station hasn't been set up correctly in headquarters.</span></span> <span data-ttu-id="34f73-930">Use as etapas anteriormente neste tópico para verificar se o perfil da estação de hardware e a estação de hardware foram inseridos corretamente.</span><span class="sxs-lookup"><span data-stu-id="34f73-930">Use the steps earlier in this topic to verify that the hardware station profile and the hardware station are correctly entered.</span></span>
-- <span data-ttu-id="34f73-931">Os trabalhos não foram executados para atualizar a configuração de canal.</span><span class="sxs-lookup"><span data-stu-id="34f73-931">The jobs haven't been run to update the channel configuration.</span></span> <span data-ttu-id="34f73-932">Neste caso, execute o trabalho 1070 para a configuração de canal.</span><span class="sxs-lookup"><span data-stu-id="34f73-932">In this case, run the 1070 job for channel configuration.</span></span>
-
-### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a><span data-ttu-id="34f73-933">O PDV moderno não reflete as novas configurações da caixa registradora.</span><span class="sxs-lookup"><span data-stu-id="34f73-933">Modern POS doesn't reflect new cash drawer settings</span></span>
-
-<span data-ttu-id="34f73-934">**Solução:** Feche o lote atual.</span><span class="sxs-lookup"><span data-stu-id="34f73-934">**Solution:** Close the current batch.</span></span> <span data-ttu-id="34f73-935">As alterações na caixa registradora não são atualizadas para o PDV moderno até que o lote atual seja fechado.</span><span class="sxs-lookup"><span data-stu-id="34f73-935">Changes to the cash drawer aren't updated to Modern POS until the current batch is closed.</span></span>
-
-### <a name="modern-pos-is-reporting-an-issue-with-a-retail-peripheral"></a><span data-ttu-id="34f73-936">O PDV moderno está relatando um problema com um periférico de varejo</span><span class="sxs-lookup"><span data-stu-id="34f73-936">Modern POS is reporting an issue with a retail peripheral</span></span>
-
-<span data-ttu-id="34f73-937">**Solução:** Eis algumas causas típicas deste problema:</span><span class="sxs-lookup"><span data-stu-id="34f73-937">**Solution:** Here are some typical causes of this issue:</span></span>
-
-- <span data-ttu-id="34f73-938">Certifique-se de que outros utilitários de configuração de driver de dispositivo estejam fechados.</span><span class="sxs-lookup"><span data-stu-id="34f73-938">Make sure that other device driver configuration utilities are closed.</span></span> <span data-ttu-id="34f73-939">Se esses utilitários estiverem abertos, poderão impedir que o PDV moderno ou a estação de hardware reivindiquem o dispositivo.</span><span class="sxs-lookup"><span data-stu-id="34f73-939">If these utilities are open, they might prevent Modern POS or the hardware station from claiming the device.</span></span>
-- <span data-ttu-id="34f73-940">Se o periférico de varejo for compartilhado com vários dispositivos PDV, garanta que ele pertença a uma das seguintes categorias:</span><span class="sxs-lookup"><span data-stu-id="34f73-940">If the retail peripheral is shared with multiple POS devices, make sure that it belongs to one of the following categories:</span></span>
-
-    - <span data-ttu-id="34f73-941">Caixa registradora</span><span class="sxs-lookup"><span data-stu-id="34f73-941">Cash drawer</span></span>
-    - <span data-ttu-id="34f73-942">Impressora de recibo</span><span class="sxs-lookup"><span data-stu-id="34f73-942">Receipt printer</span></span>
-    - <span data-ttu-id="34f73-943">Terminal de pagamento</span><span class="sxs-lookup"><span data-stu-id="34f73-943">Payment terminal</span></span>
-
-    <span data-ttu-id="34f73-944">Se o periférico não pertencer a uma dessas categorias, a estação de hardware não será designada para permitir que o periférico seja compartilhado entre vários dispositivos PDV.</span><span class="sxs-lookup"><span data-stu-id="34f73-944">If the peripheral doesn't belong to one of these categories, the hardware station isn't designed to enable the peripheral to be shared among multiple POS devices.</span></span>
-
-- <span data-ttu-id="34f73-945">Às vezes, os drivers de dispositivo pode fazer com que objetos comuns de controle (CCOs) parem de funcionar corretamente.</span><span class="sxs-lookup"><span data-stu-id="34f73-945">Sometimes, device drivers can cause the common control objects (CCOs) to stop working correctly.</span></span> <span data-ttu-id="34f73-946">Se um dispositivo tiver sido instalado recentemente, mas não estiver funcionando corretamente ou você notar outros problemas, normalmente é possível resolver o problema reinstalando os CCOs.</span><span class="sxs-lookup"><span data-stu-id="34f73-946">If a device has recently been installed, but it isn't working properly or you notice other issues, you can often resolve the issue by reinstalling the CCOs.</span></span> <span data-ttu-id="34f73-947">Para baixar os CCOs, acesse <http://monroecs.com/oposccos_current.htm>.</span><span class="sxs-lookup"><span data-stu-id="34f73-947">To download the CCOs, visit <http://monroecs.com/oposccos_current.htm>.</span></span>
-- <span data-ttu-id="34f73-948">Se você fizer alterações periféricas frequentes durante os testes ou solução de problemas, você pode ter de redefinir o IIS em vez de esperar cache atualizar-se.</span><span class="sxs-lookup"><span data-stu-id="34f73-948">If you make frequent peripheral changes during testing or troubleshooting, you might have to reset IIS instead of waiting for the cache to refresh itself.</span></span> <span data-ttu-id="34f73-949">Para redefinir o IIS, siga estas etapas:</span><span class="sxs-lookup"><span data-stu-id="34f73-949">To reset IIS, follow these steps:</span></span>
-
-    1. <span data-ttu-id="34f73-950">No menu **Iniciar**, digite **CMD**.</span><span class="sxs-lookup"><span data-stu-id="34f73-950">From the **Start** menu, type **CMD**.</span></span>
-    2. <span data-ttu-id="34f73-951">Em resultados de pesquisa, clique com o botão direito em **Prompt de comando** e, em seguida, clique em **Executar como administrador**.</span><span class="sxs-lookup"><span data-stu-id="34f73-951">In the search results, right-click **Command prompt**, and then click **Run as administrator**.</span></span>
-    3. <span data-ttu-id="34f73-952">Na janela do **Prompt de comando**, digite **iisreset /Restart** e pressione Enter.</span><span class="sxs-lookup"><span data-stu-id="34f73-952">In the **Command prompt** window, type **iisreset /Restart** and then press Enter.</span></span>
-    4. <span data-ttu-id="34f73-953">Depois que o IIS reiniciar, reinicie o PDV moderno.</span><span class="sxs-lookup"><span data-stu-id="34f73-953">After IIS has restarted, restart Modern POS.</span></span>
-
-- <span data-ttu-id="34f73-954">Enquanto você estiver fazendo alterações frequentes nos dispositivos periféricos, se você também iniciar e sair do cliente PDV com frequência, o processo de dllhost da sessão de PDV anterior poderá interferir na sessão atual.</span><span class="sxs-lookup"><span data-stu-id="34f73-954">While you're making frequent changes to peripheral devices, if you also frequently start and exit the POS client, the dllhost process from a previous POS session can interfere with the current session.</span></span> <span data-ttu-id="34f73-955">Neste caso, um dispositivo não pode ser útil até você feche o host (DLL) da biblioteca de link dinâmico que está gerenciando a sessão anterior.</span><span class="sxs-lookup"><span data-stu-id="34f73-955">In this case, a device might not be usable until you close the dynamic-link library (DLL) host that is managing the previous session.</span></span> <span data-ttu-id="34f73-956">Para fechar o host de DLL, siga essas etapas:</span><span class="sxs-lookup"><span data-stu-id="34f73-956">To close the DLL host, follow these steps:</span></span>
-
-    1. <span data-ttu-id="34f73-957">No menu **Iniciar**, digite **Gerenciador de tarefas**.</span><span class="sxs-lookup"><span data-stu-id="34f73-957">From the **Start** menu, type **Task manager**.</span></span>
-    2. <span data-ttu-id="34f73-958">Em resultados da pesquisa, clique em **Gerenciador de tarefas**.</span><span class="sxs-lookup"><span data-stu-id="34f73-958">In the search results, click **Task manager**.</span></span>
-    3. <span data-ttu-id="34f73-959">No Gerenciador de tarefas, na guia **Detalhes**, clique no cabeçalho de coluna que está rotulado como **Nome** para classificar a tabela em ordem alfabética.</span><span class="sxs-lookup"><span data-stu-id="34f73-959">In Task manager, on the **Details** tab, click the column header that is labeled **Name** to sort the table alphabetically by name.</span></span>
-    4. <span data-ttu-id="34f73-960">Rolar para baixo até você encontrar dllhost.exe.</span><span class="sxs-lookup"><span data-stu-id="34f73-960">Scroll down until you find dllhost.exe.</span></span>
-    5. <span data-ttu-id="34f73-961">Selecione cada host de DLL e, em seguida, clique em **Encerrar tarefa**.</span><span class="sxs-lookup"><span data-stu-id="34f73-961">Select each DLL host, and then click **End task**.</span></span>
-    6. <span data-ttu-id="34f73-962">Depois que os hosts de DLL tiverem sido fechados, reinicie o PDV moderno.</span><span class="sxs-lookup"><span data-stu-id="34f73-962">After the DLL hosts have been closed, restart Modern POS.</span></span>
-
-## <a name="additional-resources"></a><span data-ttu-id="34f73-963">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="34f73-963">Additional resources</span></span>
-
-[<span data-ttu-id="34f73-964">Simulador de periférico de varejo</span><span class="sxs-lookup"><span data-stu-id="34f73-964">Retail peripheral simulator</span></span>](dev-itpro/retail-peripheral-simulator.md)
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="retail-peripherals-overview.md" target-language="pt-BR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>retail-peripherals-overview.3a1cbf.a9fa49d0b3553ae70547aeea19d14bc6e6e08983.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>a9fa49d0b3553ae70547aeea19d14bc6e6e08983</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>ffc37f7c2a63bada3055f37856a30424040bc9a3</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/16/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\retail\retail-peripherals-overview.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Retail peripherals</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Periféricos para varejo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic explains the concepts that are related to retail peripherals.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este tópico explica os conceitos relacionados aos periféricos de varejo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Retail peripherals</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Periféricos para varejo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic explains the concepts that are related to retail peripherals.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este tópico explica os conceitos relacionados aos periféricos de varejo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>It describes the various ways that peripherals can be connected to the point of sale (POS) and the components that are responsible for managing the connection with the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Descreve as várias formas que os periféricos podem ser conectados ao ponto de venda (PDV) e os componentes responsáveis por gerenciar a conexão com o PDV.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Concepts</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Conceitos</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>POS registers</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Terminais de PDV</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Navigation: Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channel setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>POS setup<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Registers<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Navegação: Clique em <bpt id="p1">**</bpt>Varejo<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Configuração do canal<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Configuração do PDV<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Registros<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>The point of sale (POS) register is an entity that is used to define the characteristics of a specific instance of the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O registro de ponto de venda (PDV) é uma entidade usada para definir as características de uma instância específica do PDV.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>These characteristics include the hardware profile or setup for retail peripherals that will be used at the register, the store that the register is mapped to, and the visual experience for the user who signs in to that register.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Essas características incluem o perfil ou configuração de hardware para os periféricos de varejo que serão usados no registro, a loja em que o registro está mapeado, e a experiência visual para o usuário que se conecta ao registro.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Devices</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dispositivos</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Navigation: Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channel setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>POS setup<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Devices<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Navegação: Clique em <bpt id="p1">**</bpt>Varejo<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Configuração do canal<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Configuração do PDV<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Dispositivos<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>A device is an entity that represents a physical instance of a device that is mapped to a POS register.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Um dispositivo é uma entidade que representa uma instância física de um dispositivo que é mapeado para um registro de POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>When a device is created, it's mapped to a POS register.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando um dispositivo é criado, ele é mapeado para um registro de POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>The device entity tracks information about when a POS register is activated, the type of client that is being used, and the application package that has been deployed to a specific device.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A entidade de dispositivo controla informações sobre quando uma registradora de POS é ativada, o tipo de cliente que está sendo usado e o pacote de aplicativo que foi implantado para um dispositivo específico.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Devices can be mapped to the following application types: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android, and Retail Modern POS – iOS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os dispositivos podem ser mapeados nos seguintes tipos de aplicativo: Retail Modern POS, PDV de nuvem de varejo, Retail Modern POS – Windows Phone, Retail Modern POS – Android e Retail Modern POS – iOS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Retail Modern POS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Modern POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Modern POS is the POS program for Microsoft Windows.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O PDV moderno é o programa de PDV para Microsoft Windows.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>It can be deployed on Windows 10 operating systems (OSs).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pode ser implantado em sistemas operacionais Windows 10 (OSs).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Cloud POS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PDV em Nuvem</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Cloud POS is a browser-based version of the Modern POS program that can be accessed in a web browser.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O PDV de nuvem é uma versão baseada em navegador do programa de PDV moderno que pode ser acessada em um navegador de Web.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Modern POS for iOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS moderno para iOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Modern POS for iOS is an iOS-based version of the Modern POS program that can be deployed on iOS devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O PDV moderno para iOS é uma versão baseada em iOS do programa de PDV moderno que pode ser implantada em dispositivos iOS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Modern POS for Android</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS moderno para Android</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>Modern POS for Android is an Android-based version of the Modern POS program that can be deployed on Android devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O PDV moderno para Android é uma versão baseada em Android do programa de PDV moderno que pode ser implantada em dispositivos Android.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>POS peripherals</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Periféricos de PDV</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>POS peripherals are devices that are explicitly supported for POS functions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os periféricos de PDV são dispositivos suportados explicitamente para funções de PDV.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>These peripherals are typically divided into specific classes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esses periféricos normalmente são divididos em classes específicas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>For more information about these classes, see the "Device classes" section of this topic.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para obter mais informações sobre essas classes, consulte a seção "Classes de dispositivo" deste tópico.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>Hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hardware Station</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Navigation: Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channels<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Retail stores<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>All retail stores<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Navegação: Clique em <bpt id="p1">**</bpt>Varejo<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Canais<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Lojas de varejo<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Todas as lojas de varejo<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>Select a store, and then click the <bpt id="p1">**</bpt>Hardware stations<ept id="p1">**</ept> FastTab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione uma loja e clique na Guia Rápida <bpt id="p1">**</bpt>Estações de hardware<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>The <bpt id="p1">**</bpt>Hardware station<ept id="p1">**</ept> setting is a channel-level setting that is used to define instances where the retail peripheral logic will be deployed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A configuração <bpt id="p1">**</bpt>Estação de hardware<ept id="p1">**</ept> é uma configuração a nível de canal utilizada para definir instâncias onde a lógica de periférico de varejo será implantada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>This setting at the channel level is used to determine characteristics of the hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta configuração a nível de canal é usada para determinar as características da estação de hardware.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>It's also used to list hardware stations that are available for a Modern POS instance in a given store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Também é usada para listar as estações de hardware disponíveis para uma instância de PDV moderno em uma loja específica.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>The hardware station is built into the Modern POS program for Windows.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A estação de hardware é criada no programa de PDV moderno para o Windows.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>The hardware station can also be deployed independently as a stand-alone Microsoft Internet Information Services (IIS) program.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A estação de hardware também pode ser implantada independentemente como um programa autônomo do Microsoft Internet Information Services (IIS).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>In this case, it can be accessed via a network.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nesse caso, pode ser acessada pela rede.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>Hardware profile</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perfil de hardware</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>Navigation: Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channel setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>POS setup<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>POS profiles<ept id="p4">**</ept> <ph id="ph4">&amp;gt;</ph> <bpt id="p5">**</bpt>Hardware profiles<ept id="p5">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Navegação: Clique em <bpt id="p1">**</bpt>Varejo<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Configuração de canal<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Configuração de PDV<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Perfis de PDV<ept id="p4">**</ept> <ph id="ph4">&amp;gt;</ph> <bpt id="p5">**</bpt>Perfis de hardware<ept id="p5">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>The hardware profile is a list of devices that are configured for a POS register or a hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O perfil de hardware é uma lista de dispositivos que são configurados para um registro de PDV ou estação de hardware.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>The hardware profile can be mapped directly to a POS register or a hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O perfil de hardware pode ser mapeado diretamente em um registro de PDV ou estação de hardware.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>Devices classes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Classes de dispositivos</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>POS peripherals are typically divided into classes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os periféricos de PDV normalmente são divididos em classes.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>This section describes and gives an overview of the devices that Modern POS supports.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta seção descreve e dá uma visão geral dos dispositivos suportados pelo PDV moderno.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Printer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impressora</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Printers include traditional POS receipt printers and full-page printers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As impressoras incluem impressoras tradicionais de recibo de PDV e impressoras de página inteira.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Printer are supported through Object Linking and Embedding for Retail POS (OPOS) and Microsoft Windows driver interfaces.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As impressoras são suportadas por meio da fixação e incorporação de objetos para Retail POS (OPOS) e interfaces de driver do Microsoft Windows.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Up to two printers can be used at the same time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Até duas impressoras podem ser usadas ao mesmo tempo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>This capability supports scenarios where cash-and-carry customer receipts are printed on receipt printers, whereas customer orders, which carry more information, are printed on a full-page printer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este recurso suporta cenários onde os recebimentos de cliente pague-e-leve são impressos em impressoras de recebimento, enquanto que as ordens de cliente, que têm mais informações, são impressas em uma impressora de página inteira.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>Receipt printers can be connected directly to a computer via USB, connected to a network via Ethernet, or connected via Bluetooth.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As impressoras de recebimento podem estar associadas diretamente a um computador via USB, conectadas à rede via Ethernet, ou conectadas via Bluetooth.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>Scanner</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Scanner</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>Up to two bar code scanners can be used at the same time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Até duas impressoras de código de barras podem ser usadas ao mesmo tempo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>This capability supports scenarios where a scanner that is more mobile is required in order to scan large or heavy items, whereas a fixed embedded scanner is used for most standard-sized items, to speed up checkout times.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este recurso suporta cenários onde um scanner mais compatível com dispositivos é necessário para digitalizar itens grandes ou pesados, enquanto um scanner fixo inserido é usado para a maioria dos itens de dimensão padrão, para acelerar os tempos de checkout.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Scanners can be supported through OPOS, Universal Windows Platform (UWP), or keyboard wedge interfaces.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os scanners podem ser suportados pelo OPOS, plataforma universal do Windows (UWP) ou interfaces de teclado.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>USB or Bluetooth can be used to connect a scanner to a computer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O USB ou Bluetooth podem ser usados para conectar um scanner a um computador.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>MSR</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LTM</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>One USB magnetic stripe reader (MSR) can be set up by using OPOS drivers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Um leitor de tarja magnética (MSR) USB pode ser configurado usando drivers OPOS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>If you want to use a stand-alone MSR for electronic funds transfer (EFT) payment transactions, the MSR must be managed by a payment connector.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se desejar usar um MSR autônomo para transações de pagamento de transferência eletrônica de fundos (TEF), o MSR deve ser gerenciado por um conector de pagamento.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Stand-alone MSRs can be used for customer loyalty entry, employee sign-in, and gift card entry, independently of the payment connector.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os MSRs autônomos podem ser usados para a entrada de fidelidade do cliente, o logon de funcionário, e entrada de vale-presente, independentemente do conector de pagamento.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>Cash drawer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gaveta de caixa</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>Two cash drawers can be supported per hardware profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Duas gavetas de caixa podem ser suportadas pelo perfil de hardware.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>This capability enables two active shifts per register to be available at the same time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este recurso permite que dois turnos ativos estejam disponíveis ao mesmo tempo por registradora.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>In the case of a shared shift, or a cash drawer that is used by multiple mobile POS devices at the same time, only one cash drawer is allowed per hardware profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No caso de um turno compartilhado, ou uma caixa registradora usada por vários dispositivos móveis PDV ao mesmo tempo, apenas uma caixa registradora será permitida por perfil de hardware.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>Cash drawers can be connected directly to a computer via USB, connected to a network, or connected to a receipt printer via an RJ12 interface.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As caixas registradores podem ser conectadas diretamente a um computador via USB, a uma rede, ou a uma impressora de recibos através de uma interface RJ12.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>In some cases, cash drawers can also be connected via Bluetooth.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Em alguns casos, as caixas registradoras também podem ser conectadas por meio de Bluetooth.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>Line display</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Display LCD de linhas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>Line displays are used to show products, transaction balances, and other useful information to the customer during a transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As exibições de linha são usadas para mostrar produtos, saldos da transação, e outras informações úteis ao cliente durante uma transação.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>One line display can be connected to the computer via USB by using OPOS drivers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A exibição de uma linha pode ser vinculada ao computador via USB usando drivers OPOS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>Signature capture</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Assinatura</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>Signature capture devices can be connected directly to a computer via USB by using OPOS drivers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os dispositivos de captura de assinatura podem ser vinculados diretamente a um computador via USB ou usando drivers OPOS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>When signature capture is configured, the customer is prompted to sign on the device.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando a captura de assinatura for configurada, o cliente receberá uma solicitação para efetuar login no dispositivo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>After the signature is provided, it's shown to the cashier for acceptance.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Depois que a assinatura for fornecida, ela é mostrada ao caixa para aceitação.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source>Scale</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Balança</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>Scales can be connected to the computer via USP by using OPOS drivers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As escalas podem ser conectadas ao computador via USP usando drivers OPOS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>When a product that is marked as a "Weighed" product is added to a transaction, the POS reads the weight from the scale, adds the product to the transaction, and uses the quantity that the scale provided.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando um produto que está marcado como um produto "ponderado" é adicionado a uma transação, o PDV lê o peso da escala, adiciona o produto à transação e usa a quantidade fornecida pela escala.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source>PIN pad</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Teclado do PIN</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>Personal identification number (PIN) pads are supported through OPOS, but they must be managed via a payment connector.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os teclados de número de identificação pessoal (PIN) são suportados no OPOS, mas devem ser gerenciados através de um conector de pagamento.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>Secondary display</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Exibição secundária</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>When a secondary display is configured, the number 2 Windows display is used to show basic information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando uma exibição secundária for configurada, a exibição do Windows de número 2 será usada para mostrar informações básicas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>The purpose of the secondary display is to support independent software vendor (ISV) extension, because out of the box, the secondary display isn't configurable and shows limited content.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A finalidade da exibição secundária é suportar uma extensão de fornecedor de software independente (ISV), pois fora do conjunto, a exibição secundária não pode ser configurada e apresenta conteúdo limitado.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>Payment device</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dispositivo de pagamento</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>Payment device support is implemented through the payment connector.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O suporte a dispositivos de pagamento foi implementado pelo conector de pagamento.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>Payment devices can perform one or many of the functions that other device classes provide.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os dispositivos de pagamento podem realizar uma ou muitas das funções que outras classes de dispositivo fornecem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>For example, a payment device can function as an MSR/card reader, line display, signature capture device, or PIN pad.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Por exemplo, um dispositivo de pagamento pode funcionar como um leitor de cartão/MSR, exibição de linha, dispositivo de captura de assinatura, ou teclado do PIN.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>Support for payment devices is implemented independently of the stand-alone device support that is provided for other devices that are included in the hardware profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O suporte a dispositivos de pagamento é implementado independentemente do suporte de dispositivo autônomo que é fornecido para outros dispositivos que estão inclusos no perfil de hardware.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>Supported interfaces</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interfaces suportadas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source>To help guarantee that the largest range of devices can be used with Microsoft Dynamics 365 for Retail, the OLE for POS industry standard is the primary retail peripheral device platform that is supported in Microsoft Dynamics 365 for Retail.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para ajudar a garantir que uma gama maior de dispositivos possa ser usada com o Microsoft Dynamics 365 for Retail, o OLE para PDV padrão da indústria é a plataforma de dispositivo periférico de varejo primária suportada no Microsoft Dynamics 365 for Retail.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>The OLE for POS standard was produced by the National Retail Federation (NRF), which establishes industry-standard communication protocols for retail peripheral devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O OLE para PDV padrão foi produzido pela Federação Nacional do Varejo (NRF), que estabelece os protocolos de comunicação padrão da indústria para dispositivos periféricos de varejo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source>OPOS is a widely adopted implementation of the OLE for POS standard.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O OPOS é uma implementação amplamente adotada do OLE para PDV padrão.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source>It was developed in the mid-1990s and has been updated several times since then.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Foi desenvolvido em meados dos anos 90 e foi atualizado diversas vezes desde então.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>OPOS provides a device driver architecture that enables easy integration of POS hardware with Windows–based POS systems.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O OPOS fornece uma arquitetura de driver de dispositivo que permite a integração simples de hardware PDV com sistemas baseados em Windows.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source>OPOS controls handle communication between compatible hardware and the POS software.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O OPOS controla a comunicação entre o hardware compatível e o software PDV.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source>An OPOS control consists of two parts:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Um controle OPOS consiste em duas partes:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source><bpt id="p1">**</bpt>Control object<ept id="p1">**</ept> – The control object for a device class (such as line displays) provides the interface for the software program.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Objeto de controle<ept id="p1">**</ept> – O objeto de controle para uma classe de dispositivo (como as exibições de linha) fornece a interface para o programa de software.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source>Monroe Consulting Services (<bpt id="p1">[</bpt>www.monroecs.com<ept id="p1">](http://www.monroecs.com/)</ept>) provides a standardized set of OPOS control objects that are known as the common control objects (CCOs).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A Monroe Serviços de Consultoria (<bpt id="p1">[</bpt>www.monroecs.com<ept id="p1">](http://www.monroecs.com/)</ept>) fornece um conjunto padronizado de objetos de controle OPOS que são conhecidos como objetos de controle (CCOs).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source>The CCOs are used to test the POS component of Microsoft Dynamics 365 for Retail.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os CCOs são usados para testar o componente de PDV do Microsoft Dynamics 365 for Retail.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>Therefore, the testing helps guarantee that, if Microsoft Dynamics 365 for Retail supports a device class through OPOS, many device types can be supported, provided that the manufacturer provides a service object that is built for OPOS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Portanto, o teste ajuda a garantir que, se o Microsoft Dynamics 365 for Retail oferecer suporte a uma classe de dispositivo através do OPOS, muitos tipos de dispositivo podem ser suportados, dado que o fabricante fornece um objeto de servido que é desenvolvido para OPOS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source>You don't have to explicitly test each device type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você não precisa explicitamente testar cada tipo do dispositivo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source><bpt id="p1">**</bpt>Service object<ept id="p1">**</ept> – The service object provides communication between the control object (CCO) and the device.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Objeto de serviço<ept id="p1">**</ept> – O objeto de serviço fornece comunicação entre o objeto de controle (CCO) e o dispositivo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source>Typically, the service object for a device is provided by the device manufacturer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Normalmente, o objeto de serviço para um dispositivo é fornecido pelo fabricante do dispositivo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>However, in some cases, you might have to download the service object from the manufacturer's website.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entretanto, em alguns casos, pode ser necessário baixar o objeto de serviço do site do fabricante.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>For example, a more recent service object might be available.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Por exemplo, um objeto mais recente de serviço pode estar disponível.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>To find the address of the manufacturer's website, see your hardware documentation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para localizar o endereço do site do fabricante, consulte a documentação do hardware.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Control object and service object<ept id="p1">](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt><ph id="ph1">![</ph>Objeto de controle e objeto de serviço<ept id="p1">](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>Support for the OPOS implementation of OLE for POS helps guarantee that, if the device manufacturers and POS publishers implement the standard correctly, POS systems and supported devices can work together, even if they weren't previously tested together.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O suporte à implementação de OPOS do OLE para PDV ajuda a garantir que, se os fabricantes de dispositivos e publicadores de PDV implementarem o padrão corretamente, os sistemas de PDV e dispositivos suportados podem trabalhar juntos, mesmo que não tenham sido testados anteriormente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>OPOS support doesn't guarantee support for all devices that have OPOS drivers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O suporte do OPOS não garante suporte para todos os dispositivos com drivers OPOS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>Microsoft Dynamics 365 for Retail must first support that device type, or class, through OPOS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Retail deve primeiro oferecer suporte a esse tipo ou classe de dispositivo através do OPOS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source>In addition, service objects might not always be up to date with the latest version of the CCOs.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Além disso, os objetos de serviço nem sempre podem estar atualizados com a versão mais recente dos CCOs.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>You should also be aware that, in general, the quality of service objects varies.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você também deve estar ciente de que, em geral, a qualidade dos objetos de serviço é diferente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source>Windows</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>Receipt printing at the POS is optimized for OPOS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A impressão de recibo no PDV é otimizada para OPOS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source>OPOS tends to be much faster than printing through Windows.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O OPOS tende a ser muito mais rápido que a impressão com Windows.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source>Therefore, it's a good idea to use OPOS, especially in retail environments where 40-column receipts are printed and transaction times must be fast.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Portanto, é recomendável usar o OPOS, especialmente em ambientes varejistas onde recibos de 40 colunas são impressos e os tempos de transação devem ser curtos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source>For most devices, you will use OPOS controls.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para a maioria de dispositivos, você usará controles OPOS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source>However, some OPOS receipt printers also support Windows drivers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entretanto, algumas impressoras de recibo OPOS também oferece suporte a drivers do Windows.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="218">
+          <source>By using a Windows driver, you can access the latest fonts and network one printer for multiple registers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Usando um driver do Windows, você pode acessar as fontes mais recentes e vincular uma impressora para várias registradoras.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="219">
+          <source>However, there are drawbacks to using Windows drivers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Contudo, há inconvenientes em usar os drivers do Windows.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="220">
+          <source>Here are some examples of these drawbacks:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veja aqui alguns exemplos desses inconvenientes:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="221">
+          <source>When Windows drivers are used, images are rendered before printing occurs.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando os drivers do Windows são usados, imagens são renderizadas antes que a impressão ocorra.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="222">
+          <source>Therefore, printing tends to be slower than it is on printers that use OPOS controls.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Portanto, a impressão tende a ser mais lenta do que em impressoras que utilizam controles OPOS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="223">
+          <source>Devices that are connected through the printer ("daisy-chained") might not work correctly when Windows drivers are used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os dispositivos conectados através da impressora ("encadeado") podem não funcionar corretamente quando os drivers do Windows forem utilizados.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="224">
+          <source>For example, the cash drawer might not open, or the slip printer might not word as you expect.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Por exemplo, a caixa registradora pode não abrir, a impressora de guia pode não escrever como você espera.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="225">
+          <source>OPOS also supports a more extensive set of variables that are specific to retail receipt printers, such as paper cutting or slip printing.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O OPOS também oferece suporte a um conjunto de variáveis mais amplo que são específicas para as impressoras de recibo de varejo, como corte de papéis ou impressão de guias.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="226">
+          <source>If OPOS controls are available for the Windows printer that you're using, the printer should still work correctly with Microsoft Dynamics 365 for Retail.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se os controles OPOS estiverem disponíveis para a impressora do Windows que você está utilizando, a impressora ainda deve funcionar corretamente com o Microsoft Dynamics 365 for Retail.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="227">
+          <source>Universal Windows Platform</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Plataforma de universal do Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="228">
+          <source>UWP, in the case of retail peripherals, is related to Windows support for Plug and Play devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A UWP, em caso de periféricos de varejo, é relacionada ao suporte do Windows para dispositivos Plug and Play.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="229">
+          <source>When a Plug and Play device is connected to a Windows OS version that supports that type of device, no driver is required for the device to be used as intended.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando um dispositivo Plug and Play é conectado a uma versão do Windows que oferece suporte a esse tipo de dispositivo, nenhum driver é necessário para que o dispositivo seja usado conforme pretendido.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="230">
+          <source>For example, if Windows detects a Bluetooth speaker device, the OS knows that the device has the <bpt id="p1">**</bpt>Speaker<ept id="p1">**</ept> class type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Por exemplo, se o Windows detectar um dispositivo de alto-falante Bluetooth, o sistema operacional sabe que o dispositivo tem o tipo de classe <bpt id="p1">**</bpt>Alto-falante<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="231">
+          <source>Therefore, and it treats that device as a speaker.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Portanto, ele gerencia esse dispositivo como um alto-falante.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="232">
+          <source>No additional setup is required.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nenhuma configuração adicional é necessária.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="233">
+          <source>In the case of POS devices, many USB devices can be plugged in, and Windows will recognize them as Human Interface Devices (HIDs).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No caso de dispositivos PDV, vários dispositivos USB podem ser conectados, e o Windows irá reconhecê-los dispositivos (HIDs) de interface humana.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="234">
+          <source>However, it might not be able to determine the capabilities that the device provides, because the device doesn't specify the class, or type, of device.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entretanto, ele não consegue determinar os recursos que o dispositivo fornece, pois o dispositivo não especifica a classe ou tipo do dispositivo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="235">
+          <source>In Windows 10, device classes for bar code scanners and MSRs have been added.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No Windows 10, classes de dispositivo para scanner de código de barras e MSRs foram adicionados.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="236">
+          <source>Therefore, if a device declares itself to Windows 10 as a device of one of these classes, Windows will listen for events from the device at the appropriate times.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Portanto, se um dispositivo se declarar para o Windows 10 como um dispositivo de uma dessas classes, o Windows escutará eventos do dispositivo em horários apropriados.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="237">
+          <source>Modern POS supports UWP MSRs and scanners.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O PDV moderno oferece suporte a MSRs e scanners UWP.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="238">
+          <source>Therefore, when it's ready for input from one of these devices, and a device that belongs to one of these classes is connected, the device can be used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Portanto, quando estiver pronto para entrada de um desses dispositivos, e um dispositivo que pertence a uma dessas classes é conectado, o dispositivo pode ser usado.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="239">
+          <source>For example, if a UWP bar code scanner is plugged into a Windows 10 computer, and bar code sign-in is configured for Modern POS, the bar code scanner will become active on the sign-in screen.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Por exemplo, se um scanner de código de barras UWP for conectado a um computador com Windows 10, e o logon de código de barras estiver configurado para o PDV moderno, o scanner de código de barras ficará ativo na tela de logon.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="240">
+          <source>No additional setup is required.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nenhuma configuração adicional é necessária.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="241">
+          <source>Additional classes of point of service UWP devices are being added to Windows.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As classes adicionais de dispositivos UWP de ponto de serviço estão sendo adicionadas ao Windows.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="242">
+          <source>These classes include classes for cash drawers and receipt printers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Essas classes incluem classes para caixas registradoras e impressoras de recibo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="243">
+          <source>Support for these new device classes in Modern POS is pending.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O suporte para essas novas classes de dispositivo no PDV moderno está pendente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="244">
+          <source>Keyboard wedge</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Leitor de cartão de crédito do teclado</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="245">
+          <source>Keyboard wedge devices send data to the computer as if that data were typed on a keyboard.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os leitores de cartão de crédito do teclado enviam dados para o computador como se os dados tivessem sido digitados em um teclado.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="246">
+          <source>Therefore, by default, the field that is active at the POS will receive the data that is scanned or swiped.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Portanto, por padrão, o campo que fica ativo no PDV receberá os dados digitalizados ou lidos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="247">
+          <source>In some cases, this behavior can cause the wrong type of data to be scanned into the wrong field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Em alguns casos, este comportamento pode fazer com que o tipo errado de dado seja digitalizado no campo errado.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="248">
+          <source>For example, a bar code might be scanned into a field that is intended for input of credit card data.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Por exemplo, um código de barras pode ser digitalizado em um campo que foi criado para a entrada de dados de cartão de crédito.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="249">
+          <source>In many cases, there is logic at the POS that determines whether the data that is scanned or swiped is a bar code or card swipe.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Em muitos casos, há uma lógica no PDV que determina se os dados que são digitalizados ou lidos são um código de barras ou faixa de cartão.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="250">
+          <source>Therefore, the data is handled correctly.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Portanto, os dados são controlados corretamente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="251">
+          <source>However, when devices are set up as OPOS instead of keyboard wedge devices, there is more control over how the data from those devices can be consumed, because more is "known" about the device that the data originates from.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entretanto, quando dispositivos são configurados como OPOS em vez de leitores de cartão de crédito do teclado, há mais controle sobre a forma como os dados desses dispositivos podem ser consumidos, pois o dispositivo de origem dos dados é mais "conhecido".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="252">
+          <source>For example, data from a bar code scanner is automatically recognized as a bar code, and the associated record in the database is found more easily and faster than if a generic string search were used, as in the case of keyboard wedge devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Por exemplo, os dados de um scanner de código de barras são reconhecidos automaticamente como um código de barras, e o registro associado no banco de dados é encontrado com mais facilidade e rapidez do que se uma pesquisa de cadeia de caracteres genérica fosse utilizada, como no caso dos leitores de cartão de crédito de teclado.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="253">
+          <source>Native printer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impressora nativa</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="254">
+          <source>Native (or "Device" as the type is named in the hardware profile) printers can be configured to prompt the user to select a printer that is configured for the computer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As impressoras nativas (ou "dispositivo", uma vez que o tipo é nomeado no perfil de hardware) podem ser configuradas para que solicitam ao usuário que selecione uma impressora que está configurada para o computador.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="255">
+          <source>When a printer of the <bpt id="p1">**</bpt>Device<ept id="p1">**</ept> type is configured, if Modern POS encounters a print command, the user is prompted to select a printer in a list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando uma impressora do tipo <bpt id="p1">**</bpt>Dispositivo<ept id="p1">**</ept> é configurada, se o PDV moderno encontrar um comando de impressão, é solicitado ao usuário que selecione uma impressora em uma lista.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="256">
+          <source>This behavior differs from the behavior for Windows drivers, because the <bpt id="p1">**</bpt>Windows<ept id="p1">**</ept> printer type in the hardware profile doesn't show a list of printers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esse comportamento difere do comportamento dos drivers do Windows, pois o tipo de impressora do <bpt id="p1">**</bpt>Windows<ept id="p1">**</ept> no perfil de hardware não mostra uma lista de impressoras.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="257">
+          <source>Instead, it requires that a named printer be provided in the <bpt id="p1">**</bpt>Device name<ept id="p1">**</ept> field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Em vez disso, ele exige que uma impressora nomeada seja fornecida no campo <bpt id="p1">**</bpt>Nome do dispositivo<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="258">
+          <source>Windows</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="259">
+          <source>The <bpt id="p1">**</bpt>Windows<ept id="p1">**</ept> device type is used for printers only.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O tipo de dispositivo <bpt id="p1">**</bpt>Windows<ept id="p1">**</ept> é usado somente para impressoras.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="260">
+          <source>When a Windows printer is configured in the hardware profile, the specific printer name must be provided.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando uma impressora do Windows é configurada no perfil de hardware, o nome da impressora específica deve ser fornecido.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="261">
+          <source>When Modern POS encounters print events, if a Windows printer is configured, the event will be passed to the specified Windows printer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando o PDV moderno encontra eventos de impressão, se uma impressora do Windows estiver configurada, o evento será passado para a impressora específica do Windows.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="262">
+          <source>The user won't be prompted to select a printer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Não será solicitado ao usuário que selecione uma impressora.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="263">
+          <source>Network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rede</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="264">
+          <source>Network-addressable cash drawers, receipt printers, and payment terminals can be used over a network, either directly through the Interprocess Communications (IPC) hardware station that is built into the Modern POS for Windows application or through the IIS hardware station for other Modern POS clients.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As caixas registradoras endereçáveis por rede, impressoras de recibo e terminais de pagamento podem ser usados em uma rede, seja diretamente através da estação de hardware de Comunicação Interprocesso (IPC) integrada no PDV moderno para Windows ou através da estação de hardware IIS para outros clientes de PDV moderno.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="265">
+          <source>Hardware station deployment options</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Opções de implantação de estação de hardware</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="266">
+          <source>IPC (built-in)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IPC (integrado)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="267">
+          <source>The Interprocess Communications (IPC) hardware station is built into the Modern POS for Windows application.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A estação de hardware de Comunicação Interprocesso (IPC) é integrada no PDV moderno para Windows.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="268">
+          <source>To use the IPC hardware station, assign a hardware profile to a register that will use the Modern POS for Windows application.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para usar a estação de hardware IPC, atribua um perfil de hardware a um registro que usará o PDV moderno para Windows.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="269">
+          <source>Then create a hardware station of the <bpt id="p1">**</bpt>Dedicated<ept id="p1">**</ept> type for the store where the register will be used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Em seguida, crie uma estação de hardware do tipo <bpt id="p1">**</bpt>Dedicada<ept id="p1">**</ept> para a loja onde a registradora será utilizada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="270">
+          <source>When you start Modern POS, the IPC hardware station will be active, and the POS peripherals that have been configured will be ready to use.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando você iniciar o PDV moderno, a estação de hardware IPC estará ativa, e os periféricos de PDV que foram configurados estarão prontos para uso.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="271">
+          <source>If you temporarily don't require the local hardware for some reason, use the <bpt id="p1">**</bpt>Manage hardware stations<ept id="p1">**</ept> operation to turn off the hardware station capabilities.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se você temporariamente não exigir o hardware local por algum motivo, use a operação <bpt id="p1">**</bpt>Gerenciar estações de hardware<ept id="p1">**</ept> para desativar os recursos da estação de hardware.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="272">
+          <source>Modern POS can also use the IPC hardware station to communicate directly with network peripherals.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O PDV moderno também pode usar a estação de hardware IPC para se comunicar diretamente com os periféricos de rede.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="273">
+          <source>IIS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IIS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="274">
+          <source>You can use the IIS or stand-alone version of the hardware station in two ways.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você pode usar o IIS ou a versão autônoma da estação de hardware de duas formas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="275">
+          <source>The descriptor "IIS" implies that the POS application connects to the hardware station via Microsoft Internet Information Services.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A sigla "IIS" implica que o aplicativo PDV se conecta à estação de hardware por meio do Microsoft Internet Information Services.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="276">
+          <source>The POS application connects to the IIS hardware station via web services that run on a computer where the devices are connected.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O aplicativo PDV se conecta à estação de hardware IIS através dos serviços de web que estão sendo executados em um computador onde os dispositivos estão conectados.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="277">
+          <source>When IIS is used, the retail peripherals that are connected to a hardware station can be used by any POS register that is on the same network as the IIS hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando o IIS é utilizado, os periféricos de varejo que estiverem conectados à uma estação de hardware podem ser usados por qualquer registradora PDV que estiver na mesma rede que a estação de hardware IIS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="278">
+          <source>Because only Modern POS for Windows includes built-in support for retail peripherals, all other Modern POS applications must use the IIS hardware station to communicate with POS peripherals that are configured in the hardware profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Embora apenas o PDV moderno para Windows inclua suporte integrado para periféricos de varejo, todos os demais aplicativos de PDV moderno devem usar a estação de hardware IIS para se comunicar com os periféricos de PDV que estão configurados no perfil de hardware.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="279">
+          <source>Therefore, each instance of the IIS hardware station requires a computer that runs the web service and application that communicates with the devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Portanto, cada instância da estação de hardware IIS requer um computador que execute o serviço e o aplicativo de Web que se comunica com os dispositivos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="280">
+          <source>The IIS hardware station is required for all non-Windows Modern POS applications.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A estação de hardware IIS é exigida para todos os aplicativos de PDV modernos não Windows.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="281">
+          <source>Dedicated</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dedicado</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="282">
+          <source>Modern POS uses hardware stations of the <bpt id="p1">**</bpt>Dedicated<ept id="p1">**</ept> type to detect that peripherals are directly connected to the computer where the app is being used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O PDV moderno utiliza estações de hardware do tipo <bpt id="p1">**</bpt>Dedicada<ept id="p1">**</ept> para detectar os periféricos que estão diretamente conectados ao computador onde o aplicativo está sendo utilizado.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="283">
+          <source>However, the <bpt id="p1">**</bpt>Dedicated<ept id="p1">**</ept> type can also be used for IIS hardware stations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No entanto, o tipo <bpt id="p1">**</bpt>Dedicado<ept id="p1">**</ept> também pode ser usado para estações de hardware IIS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="284">
+          <source>In a traditional, fixed POS scenario that uses Cloud POS as the POS application, the <bpt id="p1">**</bpt>Dedicated<ept id="p1">**</ept> hardware station type is used for IIS hardware stations that are deployed on the same computer that is running Cloud POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Em um cenário tradicional de PDV fixo que utiliza PDV de nuvem como aplicativo PDV, o tipo de estação de hardware <bpt id="p1">**</bpt>Dedicada<ept id="p1">**</ept> é usado para as estações de hardware IIS que estão implantadas no mesmo computador que está executando o PDV de nuvem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="285">
+          <source>From a retail peripherals perspective, the dedicated IIS hardware station has better retail peripheral support for traditional, fixed POS scenarios.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De uma perspectiva de periféricos de varejo, a estação de hardware IIS dedicada possui um suporte melhor a periféricos de varejo para cenários tradicionais de PDV fixo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="286">
+          <source>Dedicated hardware stations support all peripherals that are supported in the hardware profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As estações de hardware dedicadas suportam os periféricos que são suportados no perfil de hardware.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="287">
+          <source>Shared</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Compartilhado</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="288">
+          <source>Shared hardware stations are intended to be used by multiple POS devices through the course of the day.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As estações compartilhadas de hardware devem ser usadas para vários dispositivos PDV no curso do dia.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="289">
+          <source>Shared hardware stations are optimized to support only cash drawers, receipt printers, and payment terminals.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As estações compartilhadas de hardware são otimizadas para oferecer suporte apenas a caixa registradoras, impressoras de recibo, e terminais de pagamento.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="290">
+          <source>You can't directly connect stand-alone bar code scanners, MSRs, line displays, scales, or other devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você não pode conectar diretamente scanners de código de barras autônomos, MSRs, exibições de linha, escalas ou outros dispositivos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="291">
+          <source>Otherwise, conflicts will occur when multiple POS devices try to claim those peripherals at the same time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Caso contrário, conflitos ocorrerão quando vários dispositivos PDV tentam reivindicar simultaneamente os periféricos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="292">
+          <source>Here is how conflicts are managed for supported devices:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veja como os conflitos são gerenciados para os dispositivos com suporte:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="293">
+          <source><bpt id="p1">**</bpt>Cash drawer<ept id="p1">**</ept> – The cash drawer is opened via an event that is sent to the device.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Caixa registradora<ept id="p1">**</ept> – A caixa registradora é aberta através de um evento que é enviado ao dispositivo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="294">
+          <source>The only issue that can occur when a cash drawer is called occurs if the cash drawer is already open.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O único problema que pode ocorrer quando a caixa registradora é chamada ocorre se ela já estiver aberta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="295">
+          <source>In the case of shared hardware stations, the cash drawer should be set to <bpt id="p1">**</bpt>Shared<ept id="p1">**</ept> in the hardware profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No caso de estações de hardware compartilhadas, a caixa registradora deve ser definida como <bpt id="p1">**</bpt>Compartilhada<ept id="p1">**</ept> no perfil de hardware.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="296">
+          <source>This setting prevents the POS from checking whether the cash drawer is already open when it sends open commands.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Essa configuração impede que o PDV verifique se a caixa registradora já está aberta ao enviar comandos de abertura.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="297">
+          <source><bpt id="p1">**</bpt>Receipt printer<ept id="p1">**</ept> – If two receipt printing commands are sent to the hardware station at the same time, one of the commands can be lost, depending on the device.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Impressora de recibo<ept id="p1">**</ept> – Se dois comandos de impressão de recibo forem enviados para a estação de hardware ao mesmo tempo, um dos comandos poderá ser perdido dependendo do dispositivo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="298">
+          <source>Some devices have internal memory or pooling that can prevent this issue.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alguns dispositivos têm memória interna ou agrupamento que pode impedir esse problema.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="299">
+          <source>If a print command isn't successful, the cashier receives an error message and can retry the print command from the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se um comando de impressão não tiver êxito, o caixa receberá uma mensagem de erro e poderá tentar novamente o comando de impressão no PDV.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="300">
+          <source><bpt id="p1">**</bpt>Payment terminal<ept id="p1">**</ept> – If a cashier tries to tender a transaction on a payment terminal that is already being used, a message notifies the cashier that the terminal is being used and asks the cashier to try again later.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Terminal de pagamento<ept id="p1">**</ept> – Se um caixa tentar realizar uma transação em um terminal de pagamento que já está sendo utilizado, uma mensagem notificará o caixa de que o terminal está sendo usado e pedirá ao caixa que tente novamente mais tarde.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="301">
+          <source>Usually, cashiers can see that a terminal is already being used and will wait until the other transaction is completed before they try to tender again.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Geralmente, os caixas podem consultar um terminal que já está sendo usado e aguardarão até que outra transação seja concluída antes que tentem novamente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="302">
+          <source>Validation is planned for a future release, to detect whether unsupported devices are set up for a hardware profile that is mapped to a shared hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A validação é planejada para uma versão futura, para detectar se dispositivos sem suporte estão configurados para um perfil de hardware que está mapeado para uma estação compartilhada de hardware.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="303">
+          <source>If any unsupported devices are detected, the user will receive a message that states that the devices aren't supported for shared hardware stations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se qualquer dispositivo sem suporte for detectado, o usuário receberá uma mensagem que indica que os dispositivos não são aceitos para estações compartilhadas de hardware.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="304">
+          <source>In the case of shared hardware stations, the <bpt id="p1">**</bpt>Select upon tendering<ept id="p1">**</ept> option is set to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> at the register level.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No caso de estações compartilhadas de hardware, a opção <bpt id="p1">**</bpt>Selecionar após pagamento<ept id="p1">**</ept> é definida para <bpt id="p2">**</bpt>Sim<ept id="p2">**</ept> em nível de registro.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="305">
+          <source>The POS user is then prompted to select a hardware station when a tender is selected for a transaction at the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Em seguida, é solicitado ao usuário do PDV que selecione uma estação de hardware quando uma proposta for selecionada para uma transação no PDV.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="306">
+          <source>When the hardware station is selected only at the time of tender, the hardware station selection is added directly to the POS workflow for mobile scenarios.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando a estação de hardware é selecionada somente no momento de proposta, a seleção de estação de hardware é adicionada diretamente ao fluxo de trabalho do PDV para os cenários móveis.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="307">
+          <source>As an additional benefit, the line display on the payment terminal isn't used for shared scenarios.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Como um benefício adicional, a exibição de linha no terminal de pagamento não é utilizada para cenários compartilhados.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="308">
+          <source>If the payment terminal is used as a line display, other users might be blocked from using that terminal until the transaction is completed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se o terminal de pagamento for usado como exibição de linha, outros usuários podem ser impedidos de usar esse terminal até que a transação esteja concluída.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="309">
+          <source>In mobile scenarios, lines might be added to a transaction over a longer period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Em cenários móveis, as linhas podem ser adicionadas em uma transação durante um período mais longo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="310">
+          <source>Therefore, the <bpt id="p1">**</bpt>Select upon tendering<ept id="p1">**</ept> option is required in order to ensure optimum device availability.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Portanto, a opção <bpt id="p1">**</bpt>Selecionar após proposta<ept id="p1">**</ept> é necessária para garantir uma disponibilidade ideal do dispositivo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="311">
+          <source>Network peripherals</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Periféricos de rede</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="312">
+          <source>The network designation for devices in the hardware profile enables cash drawers, receipt printers, and payment terminals to be connected via a network connection.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A designação de rede para dispositivos no perfil de hardware permite que caixas registradoras, impressoras de recibo e terminais de pagamento sejam conectados através de uma conexão de rede.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="313">
+          <source>Modern POS for Windows</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PDV moderno para Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="314">
+          <source>You can specify IP addresses for network peripherals in two places.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você pode especificar o endereço IP de periféricos de rede em dois locais.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="315">
+          <source>If the Modern POS Windows client is using a single set of network peripherals, you should set the IP addresses for those devices by using the <bpt id="p1">**</bpt>IP configuration<ept id="p1">**</ept> option on the Action Pane for the register itself.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se o cliente do PDV moderno do Windows estiver usando um conjunto único de periféricos de rede, você deverá definir os endereços IP para esses dispositivos usando a opção <bpt id="p1">**</bpt>Configuração de IP<ept id="p1">**</ept> no painel de ação para o registro em si.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="316">
+          <source>In the case of network devices that will be shared among POS registers, a hardware profile that has network devices assigned to it can be mapped directly to a shared hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No caso de dispositivos de rede que serão compartilhados entre registradoras de PDV, um perfil de hardware que possui dispositivos de rede atribuídos a ele poderá ser mapeado diretamente a uma estação de hardware compartilhada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="317">
+          <source>To assign IP addresses, select that hardware station on the <bpt id="p1">**</bpt>Retail stores<ept id="p1">**</ept> page, and then use the <bpt id="p2">**</bpt>IP configuration<ept id="p2">**</ept> option in the <bpt id="p3">**</bpt>Hardware stations<ept id="p3">**</ept> section to specify the network devices that are assigned to that hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para atribuir endereços IP, selecione a estação de hardware na página <bpt id="p1">**</bpt>Lojas de varejo<ept id="p1">**</ept>, e então use a opção <bpt id="p2">**</bpt>Configuração de IP<ept id="p2">**</ept> na seção <bpt id="p3">**</bpt>Estações de hardware<ept id="p3">**</ept> para especificar os dispositivos de rede que estão atribuídos à estação de hardware.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="318">
+          <source>For hardware stations that have only network devices, you don't have to deploy the hardware station itself.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para as estações de hardware que possuem somente dispositivos de rede, você não precisa implantar a estação de hardware.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="319">
+          <source>In this case, the hardware station is required only in order to conceptually group network-addressable devices according to their location in the retail store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nesse caso, a estação de hardware é necessária somente para agrupar de forma conceitual os dispositivos endereçáveis de rede de acordo com sua localização na loja de varejo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="320">
+          <source>Cloud POS, Modern POS for iOS, and Modern POS for Android</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PDV de nuvem, PDV moderno para iOS, e PDV moderno para Android</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="321">
+          <source>The logic that drives physically connected and network-addressable peripherals is contained in the hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A lógica que controla os periféricos endereçáveis por rede e conectados fisicamente está contida na estação de hardware.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="322">
+          <source>Therefore, for all POS clients except Modern POS for Windows, an IIS hardware station must be deployed and active to enable the POS to communicate with peripherals, regardless of whether those peripherals are physically connected to a hardware station or addressed over the network.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Portanto, para todos os clientes PDV, exceto o PDV moderno para Windows, uma estação de hardware IIS deve estar implantada e ativa para permitir que o PDV se comunique com os periféricos, independentemente dos periféricos estarem conectados fisicamente à uma estação de hardware ou endereçados pela rede.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="323">
+          <source>Setup and configuration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Instalação e configuração</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="324">
+          <source>Hardware station installation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Instalação da estação de hardware</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="325">
+          <source>For information, see <bpt id="p1">[</bpt>Retail hardware station configuration and installation<ept id="p1">](retail-hardware-station-configuration-installation.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para obter informações, consulte <bpt id="p1">[</bpt>Configuração e instalação da estação de hardware de varejo<ept id="p1">](retail-hardware-station-configuration-installation.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="326">
+          <source>Modern POS for Windows setup and configuration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Instalação e configuração do PDV moderno para Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="327">
+          <source>For information, see <bpt id="p1">[</bpt>Retail Modern POS configuration and installation<ept id="p1">](retail-modern-pos-device-activation.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para obter informações, consulte <bpt id="p1">[</bpt>Instalação e configuração do Retail Modern POS<ept id="p1">](retail-modern-pos-device-activation.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="328">
+          <source>OPOS device setup and configuration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Instalação e configuração do dispositivo OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="329">
+          <source>For more information about OPOS components, see the "Supported interfaces" section of this document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para obter mais informações sobre os componentes do OPOS, consulte a seção "Interfaces suportadas" deste documento.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="330">
+          <source>Typically, OPOS drivers are provided by the device manufacturer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Normalmente, os drivers OPOS são fornecidos pelo fabricante do dispositivo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="331">
+          <source>When an OPOS device driver is installed, it adds a key to the Windows registry in one of the following locations:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando um driver de dispositivo OPOS é instalado, ele adiciona uma chave ao registro do Windows em um dos seguintes locais:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="332">
+          <source><bpt id="p1">**</bpt>32-bit system:<ept id="p1">**</ept> HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINESOFTWAREOLEforRetailServiceOPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Sistema de 32 bits:<ept id="p1">**</ept> HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINESOFTWAREOLEforRetailServiceOPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="333">
+          <source><bpt id="p1">**</bpt>64-bit system:<ept id="p1">**</ept> HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Sistema de 64 bits:<ept id="p1">**</ept> HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="334">
+          <source>Within the ServiceOPOS registry location, configured devices are organized according to the OPOS device class.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dentro no local de registro ServiceOPOS, os dispositivos configurados são organizados de acordo com a classe de dispositivo OPOS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="335">
+          <source>Multiple device drivers are saved.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vários drivers de dispositivo são salvos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="336">
+          <source>Supported scenarios by hardware station type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cenários suportados pelo tipo de estação de hardware</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="337">
+          <source>Client support – IPC hardware station vs. IIS hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Suporte do cliente - Estação de hardware IPC vs. estação de hardware IIS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="338">
+          <source>The following table shows the topologies and deployment scenarios that are supported.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A tabela a seguir mostra as topologias e cenários de implantação suportados.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="339">
+          <source>Client</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliente</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="340">
+          <source>IPC hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Estação de hardware IPC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="341">
+          <source>IIS hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Estação de hardware IIS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="342">
+          <source>Windows app</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">App do Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="343">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sim</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="344">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sim</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="345">
+          <source>Cloud POS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PDV em Nuvem</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="346">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Não</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="347">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sim</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="348">
+          <source>Android</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Android</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="349">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Não</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="350">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sim</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="351">
+          <source>iOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">iOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="352">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Não</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="353">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sim</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="354">
+          <source>Network peripherals</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Periféricos de rede</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="355">
+          <source>Network peripherals can be supported directly through the hardware station that is built into the Modern POS for Windows application.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os periféricos de rede podem ser suportados diretamente através da estação de hardware integrada no PDV moderno para o aplicativo do Windows.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="356">
+          <source>For all other clients, you must deploy an IIS hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para todos os outros clientes, você deve implantar uma estação de hardware IIS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="357">
+          <source>Client</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliente</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="358">
+          <source>IPC hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Estação de hardware IPC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="359">
+          <source>IIS hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Estação de hardware IIS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="360">
+          <source>Windows app</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">App do Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="361">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sim</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="362">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sim</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="363">
+          <source>Cloud POS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PDV em Nuvem</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="364">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Não</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="365">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sim</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="366">
+          <source>Android</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Android</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="367">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Não</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="368">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sim</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="369">
+          <source>iOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">iOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="370">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Não</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="371">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sim</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="372">
+          <source>Supported device types by hardware station type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tipos de dispositivo suportados pelo tipo de estação de hardware</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="373">
+          <source>Modern POS for Windows with an IPC (built-in) hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PDV moderno para Windows com uma estação de hardware IPC (integrada)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="374">
+          <source>Supported device class</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Classe de dispositivo suportada</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="375">
+          <source>Supported interfaces</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interfaces suportadas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="376">
+          <source>Printer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impressora</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="377">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="378">
+          <source>Windows driver</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Driver do Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="379">
+          <source>Device</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dispositivo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="380">
+          <source>Network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rede</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="381">
+          <source>Printer 2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impressora 2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="382">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="383">
+          <source>Windows driver</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Driver do Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="384">
+          <source>Device</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dispositivo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="385">
+          <source>Network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rede</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="386">
+          <source>Line display</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Display LCD de linhas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="387">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="388">
+          <source>Dual display</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Exibição dual</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="389">
+          <source>Windows driver</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Driver do Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="390">
+          <source>MSR</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LTM</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="391">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="392">
+          <source>UWP (No setup is required.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UWP (nenhuma configuração é necessária.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="393">
+          <source>Keyboard wedge (No setup is required.)</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Leitor de cartão no teclado (nenhuma configuração é necessária.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="394">
+          <source>Drawer</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Sacador</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="395">
+          <source>OPOS</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="396">
+          <source>Network</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Rede</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="397">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> Only one drawer can be set up if <bpt id="p2">&lt;strong&gt;</bpt>Use shared shift<ept id="p2">&lt;/strong&gt;</ept> is configured on the drawer.</source><target logoport:matchpercent="90" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">&lt;strong&gt;</bpt>Observação:<ept id="p1">&lt;/strong&gt;</ept> Somente uma caixa registradora poderá ser configurada se <bpt id="p2">&lt;strong&gt;</bpt>Usar turno compartilhado<ept id="p2">&lt;/strong&gt;</ept> estiver configurado na caixa registradora.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="398">
+          <source>Drawer 2</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Gaveta 2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="399">
+          <source>OPOS</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="400">
+          <source>Network</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Rede</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="401">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> Only one drawer can be set up if <bpt id="p2">&lt;strong&gt;</bpt>Use shared shift<ept id="p2">&lt;/strong&gt;</ept> is configured on the drawer.</source>
+        <target logoport:matchpercent="90" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">&lt;strong&gt;</bpt>Observação:<ept id="p1">&lt;/strong&gt;</ept> Somente uma caixa registradora poderá ser configurada se <bpt id="p2">&lt;strong&gt;</bpt>Usar turno compartilhado<ept id="p2">&lt;/strong&gt;</ept> estiver configurado na caixa registradora.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="402">
+          <source>Scanner</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Scanner</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="403">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="404">
+          <source>UWP (No setup is required.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UWP (nenhuma configuração é necessária.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="405">
+          <source>Keyboard wedge (No setup is required.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Leitor de cartão no teclado (nenhuma configuração é necessária.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="406">
+          <source>Scanner 2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Scanner 2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="407">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="408">
+          <source>UWP (No setup is required.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UWP (nenhuma configuração é necessária.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="409">
+          <source>Keyboard wedge (No setup is required.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Leitor de cartão no teclado (nenhuma configuração é necessária.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="410">
+          <source>Scale</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Balança</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="411">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="412">
+          <source>PIN pad</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Teclado do PIN</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="413">
+          <source>OPOS (Support is provided through customization of the payment connector.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS (o suporte é fornecido através da personalização do conector de pagamento.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="414">
+          <source>Signature capture</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Assinatura</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="415">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="416">
+          <source>Payment terminal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Terminal de pagamento</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="417">
+          <source>Custom device support</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Suporte personalizado de dispositivo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="418">
+          <source>Network (For more information, see the payment connector documentation.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rede (para mais informações, consulte a documentação do conector de pagamento.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="419">
+          <source>All Modern POS clients that have a dedicated IIS hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todos os clientes de PDV modernos que possuem uma estação de hardware IIS dedicada</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="420">
+          <source>When the IIS hardware station is "dedicated," there is a one-to-one relationship between the POS client and the hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando a estação de hardware IIS é "dedicada", há uma relação de um para um entre o cliente PDV e a estação de hardware.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="421">
+          <source>Supported device class</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Classe de dispositivo suportada</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="422">
+          <source>Supported interfaces</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Interfaces suportadas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="423">
+          <source>Printer</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Impressora</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="424">
+          <source>OPOS</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="425">
+          <source>Windows driver</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Driver do Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="426">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> For Windows printers on a network, the user of the hardware station must have permission to access the printer.</source><target logoport:matchpercent="91" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">&lt;strong&gt;</bpt>Observação:<ept id="p1">&lt;/strong&gt;</ept> Para as impressoras do Windows em uma rede, o usuário da estação de hardware deve ter permissão para acessar a impressora.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="427">
+          <source>Network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rede</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="428">
+          <source>Printer 2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impressora 2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="429">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="430">
+          <source>Windows driver</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Driver do Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="431">
+          <source>Network</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Rede</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="432">
+          <source>Line display</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Display LCD de linhas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="433">
+          <source>OPOS</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="434">
+          <source>MSR</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">LTM</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="435">
+          <source>OPOS</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="436">
+          <source>Drawer</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Sacador</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="437">
+          <source>OPOS</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="438">
+          <source>Network</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Rede</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="439">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> Only one drawer per hardware profile can be set up if <bpt id="p2">&lt;strong&gt;</bpt>Use shared shift<ept id="p2">&lt;/strong&gt;</ept> is configured on the drawer.</source><target logoport:matchpercent="91" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">&lt;strong&gt;</bpt>Observação:<ept id="p1">&lt;/strong&gt;</ept> Somente uma caixa registradora por perfil de hardware poderá ser configurada se <bpt id="p2">&lt;strong&gt;</bpt>Usar turno compartilhado<ept id="p2">&lt;/strong&gt;</ept> estiver configurado na caixa registradora.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="440">
+          <source>Drawer 2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gaveta 2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="441">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="442">
+          <source>Network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rede</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="443">
+          <source>Scanner</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Scanner</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="444">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="445">
+          <source>Scanner 2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Scanner 2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="446">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="447">
+          <source>Scale</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Balança</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="448">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="449">
+          <source>PIN pad</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Teclado do PIN</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="450">
+          <source>OPOS (Support is provided through customization of the payment connector.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS (o suporte é fornecido através da personalização do conector de pagamento.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="451">
+          <source>Sig.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sig.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="452">
+          <source>capture</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">captura</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="453">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="454">
+          <source>Payment terminal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Terminal de pagamento</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="455">
+          <source>Custom device support</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Suporte personalizado de dispositivo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="456">
+          <source>Network (For more information, see the payment connector documentation.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rede (para mais informações, consulte a documentação do conector de pagamento.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="457">
+          <source>All Modern POS clients that have a shared IIS hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todos os clientes de PDV modernos que possuem uma estação de hardware IIS compartilhada</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="458">
+          <source>When the IIS hardware station is "shared," multiple devices can use the hardware station at the same time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando a estação de hardware IIS é "compartilhada", vários dispositivos podem usar a estação de hardware ao mesmo tempo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="459">
+          <source>For this scenario, you should use only the devices that are listed in the following table.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para esse cenário, você deve usar apenas os dispositivos listados na tabela.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="460">
+          <source>If you try to share devices that aren't listed here, such as bar code scanners and MSRs, errors will occur when multiple devices try to claim the same peripheral.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se você tentar compartilhar dispositivos que não estão listados aqui, como scanners de código de barras e MSRs, erros ocorrerão quando vários dispositivos tentarem reivindicar o mesmo periférico.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="461">
+          <source>In the future, such a configuration will be explicitly prevented.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Futuramente, tal configuração será impedida explicitamente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="462">
+          <source>Supported device class</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Classe de dispositivo suportada</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="463">
+          <source>Supported interfaces</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Interfaces suportadas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="464">
+          <source>Printer</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Impressora</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="465">
+          <source>OPOS</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="466">
+          <source>Windows driver</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Driver do Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="467">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> For Windows printers on a network, the user of the hardware station must have permission to access the printer.</source>
+        <target logoport:matchpercent="91" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">&lt;strong&gt;</bpt>Observação:<ept id="p1">&lt;/strong&gt;</ept> Para as impressoras do Windows em uma rede, o usuário da estação de hardware deve ter permissão para acessar a impressora.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="468">
+          <source>Network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rede</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="469">
+          <source>Printer 2</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Impressora 2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="470">
+          <source>OPOS</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="471">
+          <source>Windows driver</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Driver do Windows</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="472">
+          <source>Network</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Rede</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="473">
+          <source>Drawer</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Sacador</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="474">
+          <source>OPOS</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="475">
+          <source>Network</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Rede</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="476">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> Only one drawer per hardware profile can be set up if <bpt id="p2">&lt;strong&gt;</bpt>Use shared shift<ept id="p2">&lt;/strong&gt;</ept> is configured on the drawer.</source>
+        <target logoport:matchpercent="91" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">&lt;strong&gt;</bpt>Observação:<ept id="p1">&lt;/strong&gt;</ept> Somente uma caixa registradora por perfil de hardware poderá ser configurada se <bpt id="p2">&lt;strong&gt;</bpt>Usar turno compartilhado<ept id="p2">&lt;/strong&gt;</ept> estiver configurado na caixa registradora.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="477">
+          <source>Drawer 2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gaveta 2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="478">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="479">
+          <source>Network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rede</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="480">
+          <source>Payment terminal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Terminal de pagamento</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="481">
+          <source>Custom device support</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Suporte personalizado de dispositivo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="482">
+          <source>Network (For more information, see the payment connector documentation.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rede (para mais informações, consulte a documentação do conector de pagamento.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="483">
+          <source>Configuration for supported scenarios</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configuração para cenários suportados</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="484">
+          <source>For more information about how to create hardware profiles, see <bpt id="p1">[</bpt>Define and maintain channel clients, including registers and hardware stations<ept id="p1">](define-maintain-channel-clients-registers-hw-stations.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para obter mais informações sobre como criar perfis de hardware, consulte <bpt id="p1">[</bpt>Definir e manter clientes de canal, incluindo registros e estações de hardware<ept id="p1">](define-maintain-channel-clients-registers-hw-stations.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="485">
+          <source>For Microsoft Dynamics 365 for Retail version 1611, the hardware station profile is no longer used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para o Microsoft Dynamics 365 for Retail versão 1611, o perfil da estação de hardware não é mais usado.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="486">
+          <source>Attributes that you previously set up in the hardware station profile are now part of the hardware station itself.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os atributos configurados anteriormente no perfil de estação de hardware agora são parte da estação de hardware.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="487">
+          <source>Modern POS for Windows with an IPC (built-in) hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PDV moderno para Windows com uma estação de hardware IPC (integrada)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="488">
+          <source>This configuration is the most typical configuration for traditional, fixed POS registers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta configuração é a configuração mais típica para as registradoras PDV fixas tradicionais.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="489">
+          <source>For this scenario, the hardware profile information is mapped directly to the register itself.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para esse cenário, as informações de perfil de hardware são mapeadas diretamente na registradora.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="490">
+          <source>The EFT terminal number should also be set on the register itself.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O número do terminal de TEF também pode ser configurado na registradora.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="491">
+          <source>To set up this configuration, follow these steps.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para fazer essa configuração, siga essas etapas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="492">
+          <source>Create a hardware profile where all the required peripherals are configured.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Crie um perfil de hardware onde todos os periféricos necessários são configurados.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="493">
+          <source>Map the hardware profile to the POS register.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mapeie o perfil de hardware na registradora de PDV.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="494">
+          <source>Create a hardware station of the <bpt id="p1">**</bpt>Dedicated<ept id="p1">**</ept> type for the retail store where the POS register will be used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Crie uma estação de hardware do tipo <bpt id="p1">**</bpt>Dedicada<ept id="p1">**</ept> para a loja de varejo onde a registradora PDV será utilizada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="495">
+          <source>A description is optional.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uma descrição é opcional.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="496">
+          <source>You don't have to set any other properties on the hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você não precisa definir outras propriedades na estação de hardware.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="497">
+          <source>All other required information, such as the hardware profile, will come from the register itself.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todas as outras informações necessárias, como perfil de hardware, serão provenientes da registradora.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="498">
+          <source>Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Retail IT<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Distribution schedule<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em <bpt id="p1">**</bpt>Varejo<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>TI de varejo<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Agenda de distribuição<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="499">
+          <source>Select the <bpt id="p1">**</bpt>1090<ept id="p1">**</ept> distribution schedule to sync the new hardware profile to the store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione a agenda de distribuição <bpt id="p1">**</bpt>1090<ept id="p1">**</ept> para sincronizar o novo perfil de hardware com a loja.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="500">
+          <source>Click <bpt id="p1">**</bpt>Run now<ept id="p1">**</ept> to sync changes to the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em <bpt id="p1">**</bpt>Executar agora<ept id="p1">**</ept> para sincronizar as alterações do PDV.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="501">
+          <source>Select the <bpt id="p1">**</bpt>1040<ept id="p1">**</ept> distribution schedule to sync the new hardware station to the store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione a agenda de distribuição <bpt id="p1">**</bpt>1040<ept id="p1">**</ept> para sincronizar a nova estação de hardware com a loja.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="502">
+          <source>Click <bpt id="p1">**</bpt>Run now<ept id="p1">**</ept> to sync changes to the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em <bpt id="p1">**</bpt>Executar agora<ept id="p1">**</ept> para sincronizar as alterações do PDV.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="503">
+          <source>Install and activate Modern POS for Windows.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Instale e ative o PDV moderno para Windows.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="504">
+          <source>Start Modern POS for Windows, and begin to use the connected peripheral devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Inicie o PDV moderno para Windows, e comece a usar os dispositivos periféricos conectados.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="505">
+          <source>All Modern POS clients that have a dedicated IIS hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todos os clientes de PDV modernos que possuem uma estação de hardware IIS dedicada</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="506">
+          <source>This configuration can be used for all Modern POS clients that have a hardware station that is used exclusively by one POS register.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Essa configuração pode ser usada para todos os clientes de PDV moderno que possuem uma estação de hardware usada exclusivamente por uma registradora de PDV.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="507">
+          <source>To set up this configuration, follow these steps.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para fazer essa configuração, siga essas etapas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="508">
+          <source>Create a hardware profile where all the required peripherals are configured.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Crie um perfil de hardware onde todos os periféricos necessários são configurados.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="509">
+          <source>Create a hardware station of the <bpt id="p1">**</bpt>Dedicated<ept id="p1">**</ept> type for the retail store where the POS register will be used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Crie uma estação de hardware do tipo <bpt id="p1">**</bpt>Dedicada<ept id="p1">**</ept> para a loja de varejo onde a registradora PDV será utilizada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="510">
+          <source>On the dedicated hardware station, set the following properties:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na estação dedicada de hardware, defina as seguintes propriedades:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="511">
+          <source><bpt id="p1">**</bpt>Host name<ept id="p1">**</ept> – The name of the host computer where the hardware station will run.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Nome do host<ept id="p1">**</ept> – O nome do computador host onde a estação de hardware será executada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="512">
+          <source>Cloud POS can resolve <bpt id="p1">**</bpt>localhost<ept id="p1">**</ept> to determine the local computer where Cloud POS is running.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O PDV de nuvem pode resolver o <bpt id="p1">**</bpt>localhost<ept id="p1">**</ept> para determinar o computador local onde o PDV de Nuvem está sendo executado.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="513">
+          <source>However, the certificate that is required in order to pair Cloud POS with the hardware station must also have "Localhost" as the computer name.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No entanto, o certificado necessário para emparelhar o PDV de nuvem com a estação de hardware também deve ter "Localhost" como nome de computador.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="514">
+          <source>To avoid issues, we recommend that you list an instance of each dedicated hardware station for the store, as required.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para evitar problemas, recomendamos que você liste uma instância de cada estação dedicada de hardware para a loja, conforme necessário.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="515">
+          <source>For each hardware station, the host name should be the specific computer name where the hardware station will be deployed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para cada estação de hardware, o nome do host deve ser o nome do computador específico onde a estação de hardware será implantada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="516">
+          <source><bpt id="p1">**</bpt>Port<ept id="p1">**</ept> – The port to use for the hardware station to communicate with the Modern POS client.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Porta<ept id="p1">**</ept> – A porta a ser usada para a estação de hardware se comunicar com o cliente de PDV moderno.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="517">
+          <source><bpt id="p1">**</bpt>Hardware profile<ept id="p1">**</ept> – If the hardware profile isn't provided on the hardware station itself, the hardware profile that is assigned to the register will be used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Perfil de hardware<ept id="p1">**</ept> – Se o perfil de hardware não for fornecido na estação de hardware, o perfil de hardware atribuído à registradora será usado.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="518">
+          <source><bpt id="p1">**</bpt>EFT POS number<ept id="p1">**</ept> – The EFT terminal ID to use when EFT authorizations are sent.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Número de PDV da TEF<ept id="p1">**</ept> – A ID do terminal de TEF a ser usado quando autorizações de TEF forem enviadas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="519">
+          <source>This ID is provided by the credit card processor.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Essa ID é fornecida pelo processador de cartão de crédito.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="520">
+          <source><bpt id="p1">**</bpt>Package name<ept id="p1">**</ept> – The hardware station package to use when the hardware station is deployed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Nome do pacote<ept id="p1">**</ept> – O pacote de estação de hardware a ser usado quando a estação de hardware é implantada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="521">
+          <source>Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Retail IT<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Distribution schedule<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em <bpt id="p1">**</bpt>Varejo<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>TI de varejo<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Agenda de distribuição<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="522">
+          <source>Select the <bpt id="p1">**</bpt>1090<ept id="p1">**</ept> distribution schedule to sync the new hardware profile to the store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione a agenda de distribuição <bpt id="p1">**</bpt>1090<ept id="p1">**</ept> para sincronizar o novo perfil de hardware com a loja.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="523">
+          <source>Click <bpt id="p1">**</bpt>Run now<ept id="p1">**</ept> to sync changes to the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em <bpt id="p1">**</bpt>Executar agora<ept id="p1">**</ept> para sincronizar as alterações do PDV.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="524">
+          <source>Select the <bpt id="p1">**</bpt>1040<ept id="p1">**</ept> distribution schedule to sync the new hardware station to the store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione a agenda de distribuição <bpt id="p1">**</bpt>1040<ept id="p1">**</ept> para sincronizar a nova estação de hardware com a loja.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="525">
+          <source>Click <bpt id="p1">**</bpt>Run now<ept id="p1">**</ept> to sync changes to the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em <bpt id="p1">**</bpt>Executar agora<ept id="p1">**</ept> para sincronizar as alterações do PDV.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="526">
+          <source>Install the hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Instale a estação de hardware.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="527">
+          <source>For more information about how to install the hardware station, see <bpt id="p1">[</bpt>Retail hardware station configuration and installation<ept id="p1">](retail-hardware-station-configuration-installation.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para mais informações sobre como instalar a estação de hardware, consulte <bpt id="p1">[</bpt>Instalação de configuração da estação de hardware de varejo<ept id="p1">](retail-hardware-station-configuration-installation.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="528">
+          <source>Install and activate Modern POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Instale e ative o PDV moderno.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="529">
+          <source>For more information about how to install Modern POS, see <bpt id="p1">[</bpt>Retail Modern POS configuration and installation<ept id="p1">](retail-modern-pos-device-activation.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para obter mais informações sobre como instalar o PDV moderno, consulte <bpt id="p1">[</bpt>Instalação e configuração do Retail Modern POS<ept id="p1">](retail-modern-pos-device-activation.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="530">
+          <source>Sign in to Modern POS, and select <bpt id="p1">**</bpt>Perform non-drawer operations<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entre no PDV moderno e selecione <bpt id="p1">**</bpt>Realizar operações que não são de gaveta<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="531">
+          <source>Start the <bpt id="p1">**</bpt>Manage hardware stations<ept id="p1">**</ept> operation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Inicie a operação <bpt id="p1">**</bpt>Gerenciar estações de hardware<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="532">
+          <source>Click <bpt id="p1">**</bpt>Manage<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em <bpt id="p1">**</bpt>Gerenciar<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="533">
+          <source>On the hardware station management page, set the option to turn on the hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na página de gerenciamento da estação de hardware, defina a opção para ativar a estação de hardware.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="534">
+          <source>Select the hardware station to use, and then click <bpt id="p1">**</bpt>Pair<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione a estação de hardware a ser usada e, em seguida, clique em <bpt id="p1">**</bpt>Emparelhar<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="535">
+          <source>After the hardware station is paired, click <bpt id="p1">**</bpt>Close<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Após a estação de hardware ser emparelhada, clique em <bpt id="p1">**</bpt>Fechar<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="536">
+          <source>On the hardware station selection page, click the recently selected hardware station to make it active.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na página de seleção da estação de hardware, clique na estação de hardware selecionada recentemente para ativá-la.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="537">
+          <source>All Modern POS clients that have a shared IIS hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todos os clientes de PDV modernos que possuem uma estação de hardware IIS compartilhada</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="538">
+          <source>This configuration can be used for all Modern POS clients that share hardware stations with other devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Essa configuração pode ser usada para todos os clientes de PDV moderno que compartilham estações de hardware com outros dispositivos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="539">
+          <source>To set up this configuration, follow these steps.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para fazer essa configuração, siga essas etapas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="540">
+          <source>Create a hardware profile where the required peripherals are configured.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Crie um perfil de hardware onde os periféricos necessários são configurados.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="541">
+          <source>Create a hardware station of the <bpt id="p1">**</bpt>Shared<ept id="p1">**</ept> type for the retail store where the POS register will be used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Crie uma estação de hardware do tipo <bpt id="p1">**</bpt>Compartilhada<ept id="p1">**</ept> para a loja de varejo onde a registradora PDV será utilizada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="542">
+          <source>On the shared hardware station, set the following properties:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na estação compartilhada de hardware, defina as seguintes propriedades:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="543">
+          <source><bpt id="p1">**</bpt>Host name<ept id="p1">**</ept> – The name of the host computer where the hardware station will run.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Nome do host<ept id="p1">**</ept> – O nome do computador host onde a estação de hardware será executada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="544">
+          <source><bpt id="p1">**</bpt>Description<ept id="p1">**</ept> – Text that will help identify the hardware station, such as <bpt id="p2">**</bpt>Returns<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Front of store<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Descrição<ept id="p1">**</ept> – Texto que ajudará a identificar a estação de hardware, como <bpt id="p2">**</bpt>Devoluções<ept id="p2">**</ept> ou <bpt id="p3">**</bpt>Vitrine da loja<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="545">
+          <source><bpt id="p1">**</bpt>Port<ept id="p1">**</ept> – The port to use for the hardware station to communicate with the Modern POS client.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Porta<ept id="p1">**</ept> – A porta a ser usada para a estação de hardware se comunicar com o cliente de PDV moderno.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="546">
+          <source><bpt id="p1">**</bpt>Hardware profile<ept id="p1">**</ept> – For shared hardware stations, each hardware station should have a hardware profile.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Perfil de hardware<ept id="p1">**</ept> – Para as estações de hardware compartilhadas, cada estação de hardware deve ter um perfil de hardware.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="547">
+          <source>Hardware profiles can be shared among hardware stations, but they must be mapped to each hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os perfis de hardware podem ser compartilhados entre as estações de hardware, mas devem ser mapeados em cada estação de hardware.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="548">
+          <source>In addition, we recommend that you use shared shifts when multiple devices use the same shared hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Além disso, recomendamos que você use turnos compartilhados quando vários dispositivos usarem a mesma estação de hardware compartilhada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="549">
+          <source>To set up a shared shift, click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channel setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>POS setup<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>POS profiles<ept id="p4">**</ept> <ph id="ph4">&amp;gt;</ph> <bpt id="p5">**</bpt>Hardware profiles<ept id="p5">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para configurar um turno compartilhado, clique em <bpt id="p1">**</bpt>Varejo<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Configuração de canal<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Configuração do PDV<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Perfis de PDV<ept id="p4">**</ept> <ph id="ph4">&amp;gt;</ph> <bpt id="p5">**</bpt>Perfis de hardware<ept id="p5">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="550">
+          <source>For each shared hardware profile, select the cash drawer, and set the <bpt id="p1">**</bpt>Shared shift drawer<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para cada perfil de hardware compartilhado, selecione a caixa registradora, e defina a opção <bpt id="p1">**</bpt>Gaveta de turno compartilhado<ept id="p1">**</ept> para <bpt id="p2">**</bpt>Sim<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="551">
+          <source><bpt id="p1">**</bpt>EFT POS number<ept id="p1">**</ept> – The EFT terminal ID to use when EFT authorizations are sent.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Número de PDV da TEF<ept id="p1">**</ept> – A ID do terminal de TEF a ser usado quando autorizações de TEF forem enviadas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="552">
+          <source>This ID is provided by the credit card processor.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Essa ID é fornecida pelo processador de cartão de crédito.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="553">
+          <source><bpt id="p1">**</bpt>Package name<ept id="p1">**</ept> – The hardware station package to use when the hardware station is deployed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Nome do pacote<ept id="p1">**</ept> – O pacote de estação de hardware a ser usado quando a estação de hardware é implantada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="554">
+          <source>Repeat steps 2 and 3 for each additional hardware station that is required in the store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Repita as etapas 2 e 3 para cada estação de hardware adicional necessária na loja.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="555">
+          <source>Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Retail IT<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Distribution schedule<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em <bpt id="p1">**</bpt>Varejo<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>TI de varejo<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Agenda de distribuição<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="556">
+          <source>Select the <bpt id="p1">**</bpt>1090<ept id="p1">**</ept> distribution schedule to sync the new hardware profile to the store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione a agenda de distribuição <bpt id="p1">**</bpt>1090<ept id="p1">**</ept> para sincronizar o novo perfil de hardware com a loja.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="557">
+          <source>Click <bpt id="p1">**</bpt>Run now<ept id="p1">**</ept> to sync changes to the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em <bpt id="p1">**</bpt>Executar agora<ept id="p1">**</ept> para sincronizar as alterações do PDV.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="558">
+          <source>Select the <bpt id="p1">**</bpt>1040<ept id="p1">**</ept> distribution schedule to sync the new hardware station to the store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione a agenda de distribuição <bpt id="p1">**</bpt>1040<ept id="p1">**</ept> para sincronizar a nova estação de hardware com a loja.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="559">
+          <source>Click <bpt id="p1">**</bpt>Run now<ept id="p1">**</ept> to sync changes to the POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em <bpt id="p1">**</bpt>Executar agora<ept id="p1">**</ept> para sincronizar as alterações do PDV.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="560">
+          <source>Install the hardware station on each host computer that you set up in steps 2 and 3.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Instale a estação de hardware em cada computador host que é configurado nas etapas 2 e 3.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="561">
+          <source>For more information about how to install the hardware station, see <bpt id="p1">[</bpt>Retail hardware station configuration and installation<ept id="p1">](retail-hardware-station-configuration-installation.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para mais informações sobre como instalar a estação de hardware, consulte <bpt id="p1">[</bpt>Instalação de configuração da estação de hardware de varejo<ept id="p1">](retail-hardware-station-configuration-installation.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="562">
+          <source>Install and activate Modern POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Instale e ative o PDV moderno.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="563">
+          <source>For more information about how to install Modern POS, see <bpt id="p1">[</bpt>Retail Modern POS configuration and installation<ept id="p1">](retail-modern-pos-device-activation.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para obter mais informações sobre como instalar o PDV moderno, consulte <bpt id="p1">[</bpt>Instalação e configuração do Retail Modern POS<ept id="p1">](retail-modern-pos-device-activation.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="564">
+          <source>Sign in to Modern POS, and select <bpt id="p1">**</bpt>Perform non-drawer operations<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entre no PDV moderno e selecione <bpt id="p1">**</bpt>Realizar operações que não são de gaveta<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="565">
+          <source>Start the <bpt id="p1">**</bpt>Manage hardware stations<ept id="p1">**</ept> operation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Inicie a operação <bpt id="p1">**</bpt>Gerenciar estações de hardware<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="566">
+          <source>Click <bpt id="p1">**</bpt>Manage<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em <bpt id="p1">**</bpt>Gerenciar<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="567">
+          <source>On the hardware station management page, set the option to turn on the hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na página de gerenciamento da estação de hardware, defina a opção para ativar a estação de hardware.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="568">
+          <source>Select the hardware station to use, and then click <bpt id="p1">**</bpt>Pair<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione a estação de hardware a ser usada e, em seguida, clique em <bpt id="p1">**</bpt>Emparelhar<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="569">
+          <source>Repeat step 14 for each hardware station that Modern POS will use.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Repita a etapa 14 para cada estação de hardware que o PDV moderno usará.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="570">
+          <source>After all the required hardware stations are paired, click <bpt id="p1">**</bpt>Close<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Após todas as estações de hardware necessárias serem emparelhadas, clique em <bpt id="p1">**</bpt>Fechar<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="571">
+          <source>On the hardware station selection page, click the recently selected hardware station to make it active.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na página de seleção da estação de hardware, clique na estação de hardware selecionada recentemente para ativá-la.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="572">
+          <source>If devices often use different hardware stations, we recommend that you configure Modern POS to prompt cashiers to select a hardware station when they begin the tender process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se dispositivos usarem frequentemente diferentes estações de hardware, é recomendável configurar o PDV moderno para solicitar aos caixas que selecionem uma estação de hardware quando começarem o processo de meio de pagamento.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="573">
+          <source>Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channel setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>POS setup<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Registers<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em <bpt id="p1">**</bpt>Varejo<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Configuração do canal<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Configuração do PDV<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Registros<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="574">
+          <source>Select the register, and then set the <bpt id="p1">**</bpt>Select upon tender<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione a registradora e, em seguida, defina a opção <bpt id="p1">**</bpt>Selecionar após proposta<ept id="p1">**</ept> para <bpt id="p2">**</bpt>Sim<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="575">
+          <source>Use the <bpt id="p1">**</bpt>1090<ept id="p1">**</ept> distribution schedule to sync changes to the channel database.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Use a agenda de distribuição <bpt id="p1">**</bpt>1090<ept id="p1">**</ept> para sincronizar alterações no banco de dados do canal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="576">
+          <source>Extensibility</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Extensibilidade</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="577">
+          <source>For information about extensibility scenarios for the hardware station, see <bpt id="p1">[</bpt>Hardware Station extensibility<ept id="p1">](dev-itpro/hardware-station-extensibility.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para obter informações sobre cenários de extensibilidade da estação de hardware, consulte <bpt id="p1">[</bpt>Extensibilidade da estação de hardware<ept id="p1">](dev-itpro/hardware-station-extensibility.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="578">
+          <source>Security</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Segurança</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="579">
+          <source>According to current security standards, the following settings should be used in a production environment:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De acordo com os padrões de segurança atuais, as seguintes configurações devem ser usadas em um ambiente de produção:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="580">
+          <source>The hardware station installer will automatically make these registry edits as part of the installation through self-service.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O instalador da estação de hardware fará automaticamente essas edições de registro como parte da instalação no autoatendimento.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="581">
+          <source>Secure Sockets Layer (SSL) should be disabled.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O SSL (Secure Sockets Layer) deve ser desabilitado.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="582">
+          <source>Only Transport Layer Security (TLS) version 1.2 (or the current highest version) should be enabled and used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Somente o TLS (Transport Layer Security) versão 1.2 (ou versão mais atual) deve ser habilitado e usado.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="583">
+          <source>By default, SSL and all versions of TLS except TLS 1.2 are disabled.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Por padrão, o SSL e todas as versões do TLS, exceto TLS 1.2, estão desabilitados.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="584">
+          <source>To edit or enable these values, follow these steps:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para editar ou habilitar esses valores, siga estas etapas:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="585">
+          <source>Press the Windows logo key+R to open a <bpt id="p1">**</bpt>Run<ept id="p1">**</ept> window.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pressione a tecla de logotipo do Windows+R para abrir uma janela de <bpt id="p1">**</bpt>Execução<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="586">
+          <source>In the <bpt id="p1">**</bpt>Open<ept id="p1">**</ept> field, type <bpt id="p2">**</bpt>Regedit<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo <bpt id="p1">**</bpt>Abrir<ept id="p1">**</ept>, digite <bpt id="p2">**</bpt>Regedit<ept id="p2">**</ept> e, em seguida, clique em <bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="587">
+          <source>If a <bpt id="p1">**</bpt>User Account Control<ept id="p1">**</ept> message box appears, click <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se uma caixa de mensagem <bpt id="p1">**</bpt>Controle de conta de usuário<ept id="p1">**</ept> for exibida, clique em <bpt id="p2">**</bpt>Sim<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="588">
+          <source>In the <bpt id="p1">**</bpt>Registry Editor<ept id="p1">**</ept> window, navigate to <bpt id="p2">**</bpt>HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na janela do <bpt id="p1">**</bpt>Editor de registro<ept id="p1">**</ept>, navegue até <bpt id="p2">**</bpt>HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="589">
+          <source>The following keys have been automatically entered to allow for TLS 1.2 only:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As seguintes chaves foram inseridas automaticamente para permitir somente o TLS 1.2:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="590">
+          <source>TLS 1.2Server:Enabled=1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.2Server:Enabled=1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="591">
+          <source>TLS 1.2Server:DisabledByDefault=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.2Server:DisabledByDefault=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="592">
+          <source>TLS 1.2Client:Enabled=1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.2Client:Enabled=1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="593">
+          <source>TLS 1.2Client:DisabledByDefault=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.2Client:DisabledByDefault=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="594">
+          <source>TLS 1.1Server:Enabled=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.1Server:Enabled=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="595">
+          <source>TLS 1.1Client:Enabled=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.1Client:Enabled=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="596">
+          <source>TLS 1.0Server:Enabled=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.0Server:Enabled=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="597">
+          <source>TLS 1.0Client:Enabled=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.0Client:Enabled=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="598">
+          <source>SSL 3.0Server:Enabled=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SSL 3.0Server:Enabled=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="599">
+          <source>SSL 3.0Client:Enabled=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SSL 3.0Client:Enabled=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="600">
+          <source>SSL 2.0Server:Enabled=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SSL 2.0Server:Enabled=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="601">
+          <source>SSL 2.0Client:Enabled=0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SSL 2.0Client:Enabled=0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="602">
+          <source>No additional network ports should be open, unless they are required for known, specified reasons.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nenhuma porta de rede adicional deve ser aberta, a menos que seja necessário por motivos específicos e conhecidos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="603">
+          <source>Cross-origin resource sharing must be disabled and must specify the allowed origins that are accepted.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O compartilhamento de recurso entre origens deve ser desabilitado e deve especificar as origens permitidas que são aceitas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="604">
+          <source>Only trusted certificate authorities should be used to obtain certificates that will be used on computers that run the hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Somente as autoridades de certificação de confiança podem ser usadas para obter os certificados que serão usados nos computadores que executam a estação de hardware.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="605">
+          <source>It's very important that you review security guidelines for IIS and the Payment Card Industry (PCI) requirements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">É muito importante que você examine as diretrizes de segurança para os requisitos de IIS e PCI (Payment Card Industry).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="606">
+          <source>Peripheral simulator</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Simulador periférico</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="607">
+          <source>For information, see <bpt id="p1">[</bpt>Retail peripheral simulator<ept id="p1">](dev-itpro/retail-peripheral-simulator.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para obter informações, consulte <bpt id="p1">[</bpt>Simulador de periféricos de varejo<ept id="p1">](dev-itpro/retail-peripheral-simulator.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="608">
+          <source>Microsoft-tested peripheral devices</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dispositivos periféricos testados pela Microsoft</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="609">
+          <source>IPC (built-in) hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Estação de hardware IPC (integrada)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="610">
+          <source>The following peripherals were tested by using the IPC hardware station that is built into Modern POS for Windows.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Estes periféricos foram testados usando a estação de hardware IPC que é integrada no PDV moderno para Windows.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="611">
+          <source>Printer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impressora</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="612">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fabricante</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="613">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="614">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interface</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="615">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comentários</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="616">
+          <source>Epson</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="617">
+          <source>Tm-T88IV</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tm-T88IV</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="618">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="619">
+          <source>Epson</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="620">
+          <source>TM-T88V</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TM-T88V</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="621">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="622">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="623">
+          <source>TSP650II</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TSP650II</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="624">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="625">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="626">
+          <source>TSP650II</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TSP650II</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="627">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Personalizado</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="628">
+          <source>Connected via network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Conectado via rede</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="629">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="630">
+          <source>mPOP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">mPOP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="631">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="632">
+          <source>Connected via Bluetooth</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Conectado via Bluetooth</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="633">
+          <source>HP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="634">
+          <source>F7M67AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">F7M67AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="635">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="636">
+          <source>Powered USB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Porta USB</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="637">
+          <source>Bar code scanner</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Scanner de código de barras</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="638">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fabricante</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="639">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="640">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interface</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="641">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comentários</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="642">
+          <source>Motorola</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Motorola</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="643">
+          <source>DS9208</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DS9208</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="644">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="645">
+          <source>Honeywell</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Honeywell</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="646">
+          <source>1900</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1900</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="647">
+          <source>UWP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UWP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="648">
+          <source>Symbol</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Símbolo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="649">
+          <source>LS2208</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LS2208</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="650">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="651">
+          <source>HP Integrated</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP Integrated</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="652">
+          <source>E1L07AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">E1L07AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="653">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="654">
+          <source>Datalogic</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Datalogic</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="655">
+          <source>Magellan 8400</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magellan 8400</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="656">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="657">
+          <source>PIN pad</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Teclado do PIN</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="658">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fabricante</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="659">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="660">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interface</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="661">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comentários</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="662">
+          <source>VeriFone</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VeriFone</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="663">
+          <source>1000SE</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1000SE</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="664">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="665">
+          <source>Requires customization of the payment connector</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Requer personalização do conector de pagamento</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="666">
+          <source>Payment terminal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Terminal de pagamento</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="667">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fabricante</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="668">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="669">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interface</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="670">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comentários</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="671">
+          <source>Equinox</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Equinox</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="672">
+          <source>L5300</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L5300</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="673">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Personalizado</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="674">
+          <source>Requires customization of the payment connector</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Requer personalização do conector de pagamento</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="675">
+          <source>VeriFone</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VeriFone</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="676">
+          <source>MX925</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MX925</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="677">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Personalizado</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="678">
+          <source>Requires customization of the payment connector; connected via network and USB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Requer personalização do conector de pagamento; conectado via rede e USB</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="679">
+          <source>VeriFone</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VeriFone</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="680">
+          <source>MX915</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MX915</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="681">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Personalizado</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="682">
+          <source>Requires customization of the payment connector; connected via network and USB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Requer personalização do conector de pagamento; conectado via rede e USB</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="683">
+          <source>Cash drawer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gaveta de caixa</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="684">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fabricante</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="685">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="686">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interface</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="687">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comentários</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="688">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="689">
+          <source>mPOP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">mPOP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="690">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="691">
+          <source>Connected via Bluetooth</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Conectado via Bluetooth</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="692">
+          <source>APG</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">APG</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="693">
+          <source>Atwood</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atwood</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="694">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Personalizado</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="695">
+          <source>Connected via network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Conectado via rede</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="696">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="697">
+          <source>SMD2-1317</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SMD2-1317</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="698">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="699">
+          <source>HP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="700">
+          <source>QT457AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">QT457AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="701">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="702">
+          <source>Line display</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Display LCD de linhas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="703">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fabricante</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="704">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="705">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interface</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="706">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comentários</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="707">
+          <source>HP integrated</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP integrated</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="708">
+          <source>G6U79AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">G6U79AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="709">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="710">
+          <source>Epson</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="711">
+          <source>M58DC</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">M58DC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="712">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="713">
+          <source>Signature capture</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Assinatura</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="714">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fabricante</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="715">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="716">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interface</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="717">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comentários</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="718">
+          <source>Scriptel</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Scriptel</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="719">
+          <source>ST1550</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ST1550</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="720">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="721">
+          <source>Scale</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Balança</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="722">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fabricante</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="723">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="724">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interface</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="725">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comentários</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="726">
+          <source>Datalogic</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Datalogic</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="727">
+          <source>Magellan 8400</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magellan 8400</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="728">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="729">
+          <source>MSR</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LTM</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="730">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fabricante</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="731">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="732">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interface</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="733">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comentários</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="734">
+          <source>Magtek</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magtek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="735">
+          <source>21073075</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">21073075</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="736">
+          <source>UWP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UWP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="737">
+          <source>Magtek</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magtek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="738">
+          <source>21073062</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">21073062</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="739">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="740">
+          <source>HP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="741">
+          <source>IDRA-334133</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IDRA-334133</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="742">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="743">
+          <source>Dedicated IIS hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Estação de hardware IIS dedicada</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="744">
+          <source>The following peripherals were tested by using a dedicated (not shared) IIS hardware station together with Modern POS for Windows and Cloud POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os periféricos a seguir foram estados usando uma estação de hardware IIS dedicada (não compartilhada), junto com o PDV moderno para Windows e PDV de nuvem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="745">
+          <source>Printer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impressora</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="746">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fabricante</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="747">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="748">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interface</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="749">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comentários</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="750">
+          <source>Epson</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="751">
+          <source>Tm-T88IV</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tm-T88IV</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="752">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="753">
+          <source>Epson</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="754">
+          <source>TM-T88V</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TM-T88V</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="755">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="756">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="757">
+          <source>TSP650II</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TSP650II</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="758">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="759">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="760">
+          <source>TSP650II</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TSP650II</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="761">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Personalizado</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="762">
+          <source>Connected via network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Conectado via rede</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="763">
+          <source>HP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="764">
+          <source>F7M67AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">F7M67AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="765">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="766">
+          <source>Powered USB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Powered USB</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="767">
+          <source>Bar code scanner</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Scanner de código de barras</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="768">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fabricante</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="769">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="770">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interface</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="771">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comentários</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="772">
+          <source>Motorola</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Motorola</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="773">
+          <source>DS9208</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DS9208</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="774">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="775">
+          <source>Symbol</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Símbolo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="776">
+          <source>LS2208</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LS2208</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="777">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="778">
+          <source>HP Integrated</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP Integrated</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="779">
+          <source>E1L07AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">E1L07AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="780">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="781">
+          <source>PIN pad</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Teclado do PIN</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="782">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fabricante</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="783">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="784">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interface</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="785">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comentários</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="786">
+          <source>VeriFone</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VeriFone</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="787">
+          <source>1000SE</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1000SE</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="788">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="789">
+          <source>Requires customization of the payment connector</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Requer personalização do conector de pagamento</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="790">
+          <source>Payment terminal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Terminal de pagamento</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="791">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fabricante</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="792">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="793">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interface</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="794">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comentários</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="795">
+          <source>Equinox</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Equinox</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="796">
+          <source>L5300</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L5300</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="797">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Personalizado</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="798">
+          <source>Requires customization of the payment connector</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Requer personalização do conector de pagamento</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="799">
+          <source>VeriFone</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VeriFone</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="800">
+          <source>MX925</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MX925</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="801">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Personalizado</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="802">
+          <source>Requires customization of the payment connector; connected via network and USB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Requer personalização do conector de pagamento; conectado via rede e USB</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="803">
+          <source>VeriFone</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VeriFone</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="804">
+          <source>MX915</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MX915</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="805">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Personalizado</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="806">
+          <source>Requires customization of the payment connector; connected via network and USB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Requer personalização do conector de pagamento; conectado via rede e USB</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="807">
+          <source>Cash drawer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gaveta de caixa</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="808">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fabricante</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="809">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="810">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interface</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="811">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comentários</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="812">
+          <source>APG</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">APG</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="813">
+          <source>Atwood</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atwood</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="814">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Personalizado</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="815">
+          <source>Connected via network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Conectado via rede</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="816">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="817">
+          <source>SMD2-1317</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SMD2-1317</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="818">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="819">
+          <source>HP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="820">
+          <source>QT457AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">QT457AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="821">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="822">
+          <source>Line display</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Display LCD de linhas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="823">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fabricante</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="824">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="825">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interface</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="826">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comentários</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="827">
+          <source>HP integrated</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP integrated</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="828">
+          <source>G6U79AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">G6U79AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="829">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="830">
+          <source>Epson</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="831">
+          <source>M58DC</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">M58DC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="832">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="833">
+          <source>Signature capture</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Assinatura</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="834">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fabricante</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="835">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="836">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interface</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="837">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comentários</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="838">
+          <source>Scriptel</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Scriptel</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="839">
+          <source>ST1550</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ST1550</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="840">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="841">
+          <source>Scale</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Balança</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="842">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fabricante</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="843">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="844">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interface</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="845">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comentários</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="846">
+          <source>Datalogic</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Datalogic</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="847">
+          <source>Magellan 8400</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magellan 8400</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="848">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="849">
+          <source>MSR</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LTM</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="850">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fabricante</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="851">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="852">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interface</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="853">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comentários</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="854">
+          <source>Magtek</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magtek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="855">
+          <source>21073075</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">21073075</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="856">
+          <source>UWP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UWP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="857">
+          <source>Magtek</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magtek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="858">
+          <source>21073062</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">21073062</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="859">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="860">
+          <source>HP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="861">
+          <source>IDRA-334133</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IDRA-334133</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="862">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="863">
+          <source>Shared IIS hardware station</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Estação de hardware IIS compartilhada</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="864">
+          <source>The following peripherals were tested by using a shared IIS hardware station together with Modern POS for Windows and Cloud POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os periféricos a seguir foram estados usando uma estação de hardware IIS compartilhada, junto com o PDV moderno para Windows e PDV de nuvem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="865">
+          <source>Only a printer, payment terminal, and cash drawer are supported.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Apenas uma impressora, terminal de pagamento e caixa registradora são suportados.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="866">
+          <source>Printer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impressora</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="867">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fabricante</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="868">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="869">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interface</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="870">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comentários</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="871">
+          <source>Epson</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="872">
+          <source>Tm-T88IV</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tm-T88IV</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="873">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="874">
+          <source>Epson</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="875">
+          <source>TM-T88V</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TM-T88V</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="876">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="877">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="878">
+          <source>TSP650II</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TSP650II</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="879">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="880">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="881">
+          <source>TSP650II</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TSP650II</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="882">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Personalizado</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="883">
+          <source>Connected via network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Conectado via rede</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="884">
+          <source>HP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="885">
+          <source>F7M67AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">F7M67AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="886">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="887">
+          <source>Powered USB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Powered USB</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="888">
+          <source>Payment terminal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Terminal de pagamento</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="889">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fabricante</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="890">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="891">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interface</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="892">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comentários</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="893">
+          <source>VeriFone</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VeriFone</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="894">
+          <source>MX925</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MX925</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="895">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Personalizado</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="896">
+          <source>Requires customization of the payment connector; connected via network and USB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Requer personalização do conector de pagamento; conectado via rede e USB</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="897">
+          <source>VeriFone</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VeriFone</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="898">
+          <source>MX915</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MX915</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="899">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Personalizado</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="900">
+          <source>Requires customization of the payment connector; connected via network and USB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Requer personalização do conector de pagamento; conectado via rede e USB</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="901">
+          <source>Cash drawer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gaveta de caixa</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="902">
+          <source>Manufacturer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fabricante</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="903">
+          <source>Model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modelo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="904">
+          <source>Interface</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interface</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="905">
+          <source>Comments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comentários</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="906">
+          <source>APG</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">APG</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="907">
+          <source>Atwood</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atwood</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="908">
+          <source>Custom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Personalizado</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="909">
+          <source>Connected via network</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Conectado via rede</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="910">
+          <source>Star</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="911">
+          <source>SMD2-1317</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SMD2-1317</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="912">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="913">
+          <source>HP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="914">
+          <source>QT457AA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">QT457AA</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="915">
+          <source>OPOS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="916">
+          <source>Troubleshooting</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Solução de problemas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="917">
+          <source>Modern POS can detect the hardware station in its list for selection, but it can't complete the pairing</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O PDV moderno pode detectar a estação de hardware em sua lista para seleção, mas não pode concluir o emparelhamento</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="918">
+          <source><bpt id="p1">**</bpt>Solution:<ept id="p1">**</ept> Verify the following list of potential failure points:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Solução:<ept id="p1">**</ept> Verifique a lista a seguir com os possíveis pontos de falha:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="919">
+          <source>The computer that is running Modern POS trusts the certificate that is used on the computer that runs the hardware station.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O computador que esta executando o PDV moderno confia no certificado usado no computador que executa a estação de hardware.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="920">
+          <source>To verify this setup, in a web browser, go to the following URL: <ph id="ph1">`https://&lt;Computer Name&gt;:&lt;Port Number&gt;/HardwareStation/ping`</ph>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para verificar esta configuração em um navegador da Web, vá para a seguinte URL: <ph id="ph1">`https://&lt;Computer Name&gt;:&lt;Port Number&gt;/HardwareStation/ping`</ph>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="921">
+          <source>This URL uses a ping to verify that the computer can be accessed, and the browser indicates whether the certificate is trusted.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este URL usa um ping para verificar se o computador pode ser acessado, o navegador e indica se o certificado é confiável.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="922">
+          <source>(For example, in Internet Explorer, a lock icon appears in the address bar.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Por exemplo, no Internet Explorer, um ícone de bloqueio é exibido na barra de endereços.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="923">
+          <source>When you click this icon, Internet Explorer verifies whether the certificate is currently trusted.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando você clica nesse ícone, o Internet Explorer verifica se o certificado é confiável atualmente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="924">
+          <source>You can install the certificate on the local computer by viewing the details of the certificate that is shown.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você pode instalar o certificado no computador local exibindo os detalhes do certificado que será exibido.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="925">
+          <source>On the computer that runs the hardware station, the port that will be used by the hardware station is opened in the firewall.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No computador que executa a estação de hardware, a porta que será usada pela estação de hardware é aberta no firewall.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="926">
+          <source>The hardware station has correctly installed merchant account information through the Install merchant information tool that runs at the end of the hardware station installer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A estação de hardware instalou corretamente as informações de conta mercante através da ferramenta de instalação de informações de mercante que é executada no final do instalador de estação de hardware.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="927">
+          <source>Modern POS can't detect the hardware station in its list for selection</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O PDV moderno não pode detectar a estação de hardware em sua lista para seleção</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="928">
+          <source><bpt id="p1">**</bpt>Solution:<ept id="p1">**</ept> Either of the following factors can cause this issue:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Solução:<ept id="p1">**</ept> Um dos seguintes fatores podem causar este problema:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="929">
+          <source>The hardware station hasn't been set up correctly in headquarters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A estação de hardware não foi configurada corretamente na sede.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="930">
+          <source>Use the steps earlier in this topic to verify that the hardware station profile and the hardware station are correctly entered.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Use as etapas anteriormente neste tópico para verificar se o perfil da estação de hardware e a estação de hardware foram inseridos corretamente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="931">
+          <source>The jobs haven't been run to update the channel configuration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os trabalhos não foram executados para atualizar a configuração de canal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="932">
+          <source>In this case, run the 1070 job for channel configuration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Neste caso, execute o trabalho 1070 para a configuração de canal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="933">
+          <source>Modern POS doesn't reflect new cash drawer settings</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O PDV moderno não reflete as novas configurações da caixa registradora.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="934">
+          <source><bpt id="p1">**</bpt>Solution:<ept id="p1">**</ept> Close the current batch.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Solução:<ept id="p1">**</ept> Feche o lote atual.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="935">
+          <source>Changes to the cash drawer aren't updated to Modern POS until the current batch is closed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As alterações na caixa registradora não são atualizadas para o PDV moderno até que o lote atual seja fechado.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="936">
+          <source>Modern POS is reporting an issue with a retail peripheral</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O PDV moderno está relatando um problema com um periférico de varejo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="937">
+          <source><bpt id="p1">**</bpt>Solution:<ept id="p1">**</ept> Here are some typical causes of this issue:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Solução:<ept id="p1">**</ept> Eis algumas causas típicas deste problema:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="938">
+          <source>Make sure that other device driver configuration utilities are closed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Certifique-se de que outros utilitários de configuração de driver de dispositivo estejam fechados.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="939">
+          <source>If these utilities are open, they might prevent Modern POS or the hardware station from claiming the device.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se esses utilitários estiverem abertos, poderão impedir que o PDV moderno ou a estação de hardware reivindiquem o dispositivo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="940">
+          <source>If the retail peripheral is shared with multiple POS devices, make sure that it belongs to one of the following categories:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se o periférico de varejo for compartilhado com vários dispositivos PDV, garanta que ele pertença a uma das seguintes categorias:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="941">
+          <source>Cash drawer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Caixa registradora</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="942">
+          <source>Receipt printer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impressora de recibo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="943">
+          <source>Payment terminal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Terminal de pagamento</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="944">
+          <source>If the peripheral doesn't belong to one of these categories, the hardware station isn't designed to enable the peripheral to be shared among multiple POS devices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se o periférico não pertencer a uma dessas categorias, a estação de hardware não será designada para permitir que o periférico seja compartilhado entre vários dispositivos PDV.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="945">
+          <source>Sometimes, device drivers can cause the common control objects (CCOs) to stop working correctly.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Às vezes, os drivers de dispositivo pode fazer com que objetos comuns de controle (CCOs) parem de funcionar corretamente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="946">
+          <source>If a device has recently been installed, but it isn't working properly or you notice other issues, you can often resolve the issue by reinstalling the CCOs.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se um dispositivo tiver sido instalado recentemente, mas não estiver funcionando corretamente ou você notar outros problemas, normalmente é possível resolver o problema reinstalando os CCOs.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="947">
+          <source>To download the CCOs, visit <ph id="ph1">&lt;http://monroecs.com/oposccos_current.htm&gt;</ph>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para baixar os CCOs, acesse <ph id="ph1">&lt;http://monroecs.com/oposccos_current.htm&gt;</ph>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="948">
+          <source>If you make frequent peripheral changes during testing or troubleshooting, you might have to reset IIS instead of waiting for the cache to refresh itself.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se você fizer alterações periféricas frequentes durante os testes ou solução de problemas, você pode ter de redefinir o IIS em vez de esperar cache atualizar-se.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="949">
+          <source>To reset IIS, follow these steps:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para redefinir o IIS, siga estas etapas:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="950">
+          <source>From the <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> menu, type <bpt id="p2">**</bpt>CMD<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No menu <bpt id="p1">**</bpt>Iniciar<ept id="p1">**</ept>, digite <bpt id="p2">**</bpt>CMD<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="951">
+          <source>In the search results, right-click <bpt id="p1">**</bpt>Command prompt<ept id="p1">**</ept>, and then click <bpt id="p2">**</bpt>Run as administrator<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Em resultados de pesquisa, clique com o botão direito em <bpt id="p1">**</bpt>Prompt de comando<ept id="p1">**</ept> e, em seguida, clique em <bpt id="p2">**</bpt>Executar como administrador<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="952">
+          <source>In the <bpt id="p1">**</bpt>Command prompt<ept id="p1">**</ept> window, type <bpt id="p2">**</bpt>iisreset /Restart<ept id="p2">**</ept> and then press Enter.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na janela do <bpt id="p1">**</bpt>Prompt de comando<ept id="p1">**</ept>, digite <bpt id="p2">**</bpt>iisreset /Restart<ept id="p2">**</ept> e pressione Enter.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="953">
+          <source>After IIS has restarted, restart Modern POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Depois que o IIS reiniciar, reinicie o PDV moderno.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="954">
+          <source>While you're making frequent changes to peripheral devices, if you also frequently start and exit the POS client, the dllhost process from a previous POS session can interfere with the current session.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Enquanto você estiver fazendo alterações frequentes nos dispositivos periféricos, se você também iniciar e sair do cliente PDV com frequência, o processo de dllhost da sessão de PDV anterior poderá interferir na sessão atual.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="955">
+          <source>In this case, a device might not be usable until you close the dynamic-link library (DLL) host that is managing the previous session.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Neste caso, um dispositivo não pode ser útil até você feche o host (DLL) da biblioteca de link dinâmico que está gerenciando a sessão anterior.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="956">
+          <source>To close the DLL host, follow these steps:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para fechar o host de DLL, siga essas etapas:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="957">
+          <source>From the <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> menu, type <bpt id="p2">**</bpt>Task manager<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No menu <bpt id="p1">**</bpt>Iniciar<ept id="p1">**</ept>, digite <bpt id="p2">**</bpt>Gerenciador de tarefas<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="958">
+          <source>In the search results, click <bpt id="p1">**</bpt>Task manager<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Em resultados da pesquisa, clique em <bpt id="p1">**</bpt>Gerenciador de tarefas<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="959">
+          <source>In Task manager, on the <bpt id="p1">**</bpt>Details<ept id="p1">**</ept> tab, click the column header that is labeled <bpt id="p2">**</bpt>Name<ept id="p2">**</ept> to sort the table alphabetically by name.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No Gerenciador de tarefas, na guia <bpt id="p1">**</bpt>Detalhes<ept id="p1">**</ept>, clique no cabeçalho de coluna que está rotulado como <bpt id="p2">**</bpt>Nome<ept id="p2">**</ept> para classificar a tabela em ordem alfabética.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="960">
+          <source>Scroll down until you find dllhost.exe.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rolar para baixo até você encontrar dllhost.exe.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="961">
+          <source>Select each DLL host, and then click <bpt id="p1">**</bpt>End task<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione cada host de DLL e, em seguida, clique em <bpt id="p1">**</bpt>Encerrar tarefa<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="962">
+          <source>After the DLL hosts have been closed, restart Modern POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Depois que os hosts de DLL tiverem sido fechados, reinicie o PDV moderno.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="963">
+          <source>Additional resources</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Recursos adicionais</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="964">
+          <source><bpt id="p1">[</bpt>Retail peripheral simulator<ept id="p1">](dev-itpro/retail-peripheral-simulator.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Simulador de periférico de varejo<ept id="p1">](dev-itpro/retail-peripheral-simulator.md)</ept></target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

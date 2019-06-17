@@ -1,51 +1,105 @@
----
-title: Configurar texto de origem da nota fiscal (Brasil)
-description: Você pode anexar textos de nota fiscal à ordem de venda, ordem de compra ou fatura de texto livre.
-author: sndray
-manager: AnnBe
-ms.date: 06/26/2017
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
-ms.search.region: Brazil
-ms.author: sndray
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1070562f91d43a730b9d9010c034ad96a72138cf
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538308"
----
-# <a name="set-up-fiscal-document-source-text-brazil"></a><span data-ttu-id="3b691-103">Configurar texto de origem da nota fiscal (Brasil)</span><span class="sxs-lookup"><span data-stu-id="3b691-103">Set up fiscal document source text (Brazil)</span></span>
-
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
-<span data-ttu-id="3b691-104">Você pode anexar textos de nota fiscal à ordem de venda, ordem de compra ou fatura de texto livre.</span><span class="sxs-lookup"><span data-stu-id="3b691-104">You can attach fiscal document texts to a sales order, purchase order, or free text invoice.</span></span> <span data-ttu-id="3b691-105">Os textos de nota fiscal anexados à ordem de venda, ordem de compra ou fatura de texto livre são impressos na nota fiscal.</span><span class="sxs-lookup"><span data-stu-id="3b691-105">The fiscal document texts that are attached to the sales order, purchase order, or free text invoice are printed on the fiscal document.</span></span> <span data-ttu-id="3b691-106">Os textos de nota fiscal fornecem informações adicionais sobre os impostos e as leis que são aplicados à nota fiscal.</span><span class="sxs-lookup"><span data-stu-id="3b691-106">The fiscal document texts provide additional information about the taxes and laws that are applied to the fiscal document.</span></span> <span data-ttu-id="3b691-107">Também é possível incluir os espaços reservados no texto de origem da nota fiscal.</span><span class="sxs-lookup"><span data-stu-id="3b691-107">You can also include placeholders in the fiscal document source text.</span></span> <span data-ttu-id="3b691-108">Os espaços reservados serão substituídos pelo texto predefinido quando você lança o documento fiscal ao qual o texto da nota fiscal está anexado.</span><span class="sxs-lookup"><span data-stu-id="3b691-108">The placeholders are replaced by predefined text when you post the fiscal document that the fiscal document text is attached to.</span></span> <span data-ttu-id="3b691-109">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="3b691-109">This task uses the BRMF demo company.</span></span>
-
-1. <span data-ttu-id="3b691-110">Vá para Administração da organização > Gerenciamento de documentos > Tipos de documento.</span><span class="sxs-lookup"><span data-stu-id="3b691-110">Go to Organization administration > Document management > Document types.</span></span>
-2. <span data-ttu-id="3b691-111">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="3b691-111">Click New.</span></span>
-3. <span data-ttu-id="3b691-112">No campo Tipo, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="3b691-112">In the Type field, type a value.</span></span>
-4. <span data-ttu-id="3b691-113">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="3b691-113">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="3b691-114">Selecione Nota simples.</span><span class="sxs-lookup"><span data-stu-id="3b691-114">Select Simple note.</span></span>
-6. <span data-ttu-id="3b691-115">Selecione Banco de Dados.</span><span class="sxs-lookup"><span data-stu-id="3b691-115">Select Database.</span></span>
-7. <span data-ttu-id="3b691-116">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="3b691-116">Click Save.</span></span>
-8. <span data-ttu-id="3b691-117">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="3b691-117">Close the page.</span></span>
-9. <span data-ttu-id="3b691-118">Vá para Administração da organização > Configuração > Parâmetros brasileiros.</span><span class="sxs-lookup"><span data-stu-id="3b691-118">Go to Organization administration > Setup > Brazilian parameters.</span></span>
-10. <span data-ttu-id="3b691-119">Clique na guia Nota fiscal.</span><span class="sxs-lookup"><span data-stu-id="3b691-119">Click the Fiscal document tab.</span></span>
-11. <span data-ttu-id="3b691-120">No campo Tipo de documento, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="3b691-120">In the Document type field, enter or select a value.</span></span>
-12. <span data-ttu-id="3b691-121">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="3b691-121">Click Save.</span></span>
-13. <span data-ttu-id="3b691-122">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="3b691-122">Close the page.</span></span>
-14. <span data-ttu-id="3b691-123">Vá para Administração da organização > Configuração > Textos de origem da nota fiscal.</span><span class="sxs-lookup"><span data-stu-id="3b691-123">Go to Organization administration > Setup > Fiscal document source texts.</span></span>
-15. <span data-ttu-id="3b691-124">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="3b691-124">Click New.</span></span>
-16. <span data-ttu-id="3b691-125">No campo Texto da nota fiscal, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="3b691-125">In the Fiscal document text field, type a value.</span></span>
-17. <span data-ttu-id="3b691-126">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="3b691-126">In the Description field, type a value.</span></span>
-18. <span data-ttu-id="3b691-127">No campo Texto, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="3b691-127">In the Text field, type a value.</span></span>
-19. <span data-ttu-id="3b691-128">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="3b691-128">Click Save.</span></span>
-20. <span data-ttu-id="3b691-129">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="3b691-129">Close the page.</span></span>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="br-00001-2-set-up-fiscal-document-source-text.md" target-language="pt-BR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>br-00001-2-set-up-fiscal-document-source-text.dde9e3.9fd56794652bd2f6eb4b193479417d532ebe55c3.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>9fd56794652bd2f6eb4b193479417d532ebe55c3</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\br-00001-2-set-up-fiscal-document-source-text.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Set up fiscal document source text (Brazil)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configurar texto de origem da nota fiscal (Brasil)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>You can attach fiscal document texts to a sales order, purchase order, or free text invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você pode anexar textos de nota fiscal à ordem de venda, ordem de compra ou fatura de texto livre.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Set up fiscal document source text (Brazil)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configurar texto de origem da nota fiscal (Brasil)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>You can attach fiscal document texts to a sales order, purchase order, or free text invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você pode anexar textos de nota fiscal à ordem de venda, ordem de compra ou fatura de texto livre.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>The fiscal document texts that are attached to the sales order, purchase order, or free text invoice are printed on the fiscal document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os textos de nota fiscal anexados à ordem de venda, ordem de compra ou fatura de texto livre são impressos na nota fiscal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>The fiscal document texts provide additional information about the taxes and laws that are applied to the fiscal document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os textos de nota fiscal fornecem informações adicionais sobre os impostos e as leis que são aplicados à nota fiscal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>You can also include placeholders in the fiscal document source text.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Também é possível incluir os espaços reservados no texto de origem da nota fiscal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>The placeholders are replaced by predefined text when you post the fiscal document that the fiscal document text is attached to.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os espaços reservados serão substituídos pelo texto predefinido quando você lança o documento fiscal ao qual o texto da nota fiscal está anexado.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>This task uses the BRMF demo company.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta tarefa usa a empresa de demonstração BRMF.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Go to Organization administration &gt; Document management &gt; Document types.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Administração da organização &gt; Gerenciamento de documentos &gt; Tipos de documento.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>In the Type field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Tipo, digite um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>In the Name field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Nome, digite um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Select Simple note.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione Nota simples.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Select Database.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione Banco de Dados.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Go to Organization administration &gt; Setup &gt; Brazilian parameters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Administração da organização &gt; Configuração &gt; Parâmetros brasileiros.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Click the Fiscal document tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique na guia Nota fiscal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>In the Document type field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Tipo de documento, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Go to Organization administration &gt; Setup &gt; Fiscal document source texts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Administração da organização &gt; Configuração &gt; Textos de origem da nota fiscal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>In the Fiscal document text field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Texto da nota fiscal, digite um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>In the Description field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Descrição, digite um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>In the Text field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Texto, digite um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,71 +1,147 @@
----
-title: Visão geral do processo de NF-e para o Brasil
-description: Este tópico fornece uma visão geral do processo para configurar e enviar uma Nota fiscal eletrônica de (NF-e) para registrar a movimentação de itens e de serviço entre duas partes.
-author: sndray
-manager: AnnBe
-ms.date: 08/08/2017
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: EFDocContingencyMode_BR, EFDocContingencyModeHistory_BR, EFDocCorrectionLetter_BR, EFDocEmailAccountConfiguration_BR, EFDocEmailStatus_BR, EFDocHist_BR, EFDocParameters_BR, EFDocServiceInquire_BR, FiscalDocument_BR
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.custom: 269114
-ms.assetid: 7cb522a4-2f84-4399-a60d-8692df6e08f3
-ms.search.region: Brazil
-ms.author: sndray
-ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1b8a29e73044461438467e9276176616bed358be
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1513013"
----
-# <a name="nf-e-process-overview-for-brazil"></a><span data-ttu-id="d9f65-103">Visão geral do processo de NF-e para o Brasil</span><span class="sxs-lookup"><span data-stu-id="d9f65-103">NF-e process overview for Brazil</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="d9f65-104">Este tópico fornece uma visão geral do processo para configurar e enviar uma Nota fiscal eletrônica de (NF-e) para registrar a movimentação de itens e de serviço entre duas partes.</span><span class="sxs-lookup"><span data-stu-id="d9f65-104">This topic provides an overview of the process for setting up and submitting a Nota fiscal eletrônica (NF-e) to register the movement of items and services between two parties.</span></span>
-
-<span data-ttu-id="d9f65-105">Você pode usar uma Nota Fiscal eletrônica (NF-e) para registrar a movimentação de itens e serviços entre dois participantes.</span><span class="sxs-lookup"><span data-stu-id="d9f65-105">You can use a Nota fiscal eletrônica (NF-e) to register the movement of items and services between two parties.</span></span> <span data-ttu-id="d9f65-106">Você pode gerar uma NF-e de qualquer uma das seguintes notas fiscais:</span><span class="sxs-lookup"><span data-stu-id="d9f65-106">You can generate an NF-e from any of the following fiscal documents:</span></span>
-
--   <span data-ttu-id="d9f65-107">Ordens de venda</span><span class="sxs-lookup"><span data-stu-id="d9f65-107">Sales orders</span></span>
--   <span data-ttu-id="d9f65-108">Ordens de compra para fornecedores não contribuinte</span><span class="sxs-lookup"><span data-stu-id="d9f65-108">Purchase orders for non-taxpayer vendors</span></span>
--   <span data-ttu-id="d9f65-109">Faturas de projeto</span><span class="sxs-lookup"><span data-stu-id="d9f65-109">Project invoices</span></span>
--   <span data-ttu-id="d9f65-110">Notas fiscais de transferência ou apropriação de imposto</span><span class="sxs-lookup"><span data-stu-id="d9f65-110">Tax fiscal documents</span></span>
--   <span data-ttu-id="d9f65-111">Faturas de texto livre</span><span class="sxs-lookup"><span data-stu-id="d9f65-111">Free text invoices</span></span>
-
-<span data-ttu-id="d9f65-112">Antes de gerar uma NF-e, você deve concluir as seguintes tarefas:</span><span class="sxs-lookup"><span data-stu-id="d9f65-112">Before you can generate an NF-e, you must complete the following tasks:</span></span>
-
--   <span data-ttu-id="d9f65-113">Configure serviços da Web, códigos de rejeição e esquemas para um domínio.</span><span class="sxs-lookup"><span data-stu-id="d9f65-113">Set up web services, rejection codes, and schemas for a domain.</span></span>
--   <span data-ttu-id="d9f65-114">Para cada estabelecimento fiscal configure um ambiente, uma versão de NF-e, uma autoridade, um modelo, validação de esquema e um modo de contingência para NF-e.</span><span class="sxs-lookup"><span data-stu-id="d9f65-114">For each fiscal establishment, set up a certificate, an environment, an NF-e version, an authority, a template, schema validation, and a contingency mode for NF-e.</span></span> <span data-ttu-id="d9f65-115">Além disso, configure a impressão automática do Documento auxiliar da Nota fiscal eletrônica (DANFE), de forma que o DANFE seja impresso automaticamente após a aprovação da NF-e.</span><span class="sxs-lookup"><span data-stu-id="d9f65-115">Additionally, set up automatic printing of the Documento auxiliar da Nota fiscal eletrônica (DANFE), so that the DANFE is automatically printed after NF-e approval.</span></span>
--   <span data-ttu-id="d9f65-116">Configure os serviços da Web relacionados a uma autoridade fiscal.</span><span class="sxs-lookup"><span data-stu-id="d9f65-116">Set up web services that are related to a fiscal authority.</span></span>
--   <span data-ttu-id="d9f65-117">Configure um tipo de documento fiscal para uma NF-e.</span><span class="sxs-lookup"><span data-stu-id="d9f65-117">Set up a fiscal document type for an NF-e.</span></span>
-
-<span data-ttu-id="d9f65-118">Depois que você gera uma NF-e, pode enviar a NF-e assinada digitalmente para a Secretaria da Fazenda (SEFAZ) em uma mensagem XML.</span><span class="sxs-lookup"><span data-stu-id="d9f65-118">After you generate an NF-e, you can submit the digitally signed NF-e to the Secretaria da Fazenda (SEFAZ) in an XML message.</span></span> <span data-ttu-id="d9f65-119">Os itens poderão ser entregues depois que a NF-e for aprovada eletronicamente pela SEFAZ.</span><span class="sxs-lookup"><span data-stu-id="d9f65-119">The items can be delivered after the NF-e is electronically approved by SEFAZ.</span></span> <span data-ttu-id="d9f65-120">O processo da NF-e inclui as seguintes etapas:</span><span class="sxs-lookup"><span data-stu-id="d9f65-120">The NF-e process includes the following steps:</span></span>
-
-1.  <span data-ttu-id="d9f65-121">O estabelecimento fiscal lança uma nota fiscal usando um tipo de nota fiscal que é configurado para o modelo de nota fiscal 55 para gerar uma NF-e.</span><span class="sxs-lookup"><span data-stu-id="d9f65-121">The fiscal establishment posts a fiscal document by using a fiscal document type that is set up for fiscal document model 55 to generate an NF-e.</span></span>
-2.  <span data-ttu-id="d9f65-122">O processo de exportação ou de importação detecta a nota fiscal lançada para o modelo de nota fiscal 55 e gera uma mensagem XML no formato especificado.</span><span class="sxs-lookup"><span data-stu-id="d9f65-122">The NF-e export or import process detects the posted fiscal document for the fiscal document model 55 and generates an XML message in the specified format.</span></span> <span data-ttu-id="d9f65-123">Uma mensagem XML separada é gerada para cada NF-e.</span><span class="sxs-lookup"><span data-stu-id="d9f65-123">A separate XML message is generated for each NF-e.</span></span> <span data-ttu-id="d9f65-124">A mensagem XML é transmitida à SEFAZ.</span><span class="sxs-lookup"><span data-stu-id="d9f65-124">The XML message is transmitted to SEFAZ.</span></span>
-3.  <span data-ttu-id="d9f65-125">A SEFAZ processa a mensagem XML e retorna um protocolo e um status para cada NF-e.</span><span class="sxs-lookup"><span data-stu-id="d9f65-125">SEFAZ processes the XML message and returns a protocol and status for each NF-e.</span></span> <span data-ttu-id="d9f65-126">O status da NF-e e o protocolo são então atribuídos à NF-e que é usada no processo de exportação ou importação de NF-e.</span><span class="sxs-lookup"><span data-stu-id="d9f65-126">The NF-e status and protocol are then assigned to the NF-e that is used in the NF-e export or import process.</span></span> <span data-ttu-id="d9f65-127">O status que é retornado pode ser **Aprovado**, **Negado**, **Rejeitado**, **Cancelado**, **Rejeitado sem correção** ou **Rejeitado**.</span><span class="sxs-lookup"><span data-stu-id="d9f65-127">The status that is returned can be **Approved**, **Denied**, **Discarded**, **Canceled**, **Rejected non fixable**, or **Rejected**.</span></span> <span data-ttu-id="d9f65-128">Essas informações são usadas para atualizar o status da nota fiscal no Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="d9f65-128">This information is used to update the fiscal document status in Microsoft Dynamics 365 for Finance and Operations.</span></span>
-
-<span data-ttu-id="d9f65-129">Depois que o status da NF-e for recebido da SEFAZ, você poderá executar as seguintes tarefas, dependendo do status:</span><span class="sxs-lookup"><span data-stu-id="d9f65-129">After the status of the NF-e is received from SEFAZ, you can perform the following tasks, depending on the status:</span></span>
-
--   <span data-ttu-id="d9f65-130">Se a NF-e for aprovada, você poderá imprimir o DANFE.</span><span class="sxs-lookup"><span data-stu-id="d9f65-130">If the NF-e is approved, you can print the DANFE.</span></span> <span data-ttu-id="d9f65-131">Como alternativa, se a opção **Imprimir DANFE quando NF-e for aprovada** for selecionada na FastTab **NF-e federal** da página **Estabelecimentos fiscais**, o DANFE será impresso automaticamente.</span><span class="sxs-lookup"><span data-stu-id="d9f65-131">Alternatively, if the **Print DANFE when NF-e is approved** option is selected on the **NF-e federal** FastTab of the **Fiscal establishments** page, the DANFE is printed automatically.</span></span>
--   <span data-ttu-id="d9f65-132">Se a NF-e for negada, será necessário cancelá-la.</span><span class="sxs-lookup"><span data-stu-id="d9f65-132">If the NF-e is denied, you must cancel the NF-e.</span></span>
--   <span data-ttu-id="d9f65-133">Se a NF-e for rejeitada e puder ser corrigida, você poderá corrigir as informações incorretas e depois poderá clicar em **Reenviar** na guia **NF-e federal** da página **Documento fiscal** para reenviar a NF-e à SEFAZ.</span><span class="sxs-lookup"><span data-stu-id="d9f65-133">If the NF-e is rejected and can be fixed, you can correct the incorrect information, and then click **Resend** on the **NF-e federal** tab of the **Fiscal document** page to resend the NF-e to SEFAZ.</span></span>
--   <span data-ttu-id="d9f65-134">Se a NF-e for rejeitada e não puder ser corrigida, você deverá cancelar a NF-e descartada que tem o número descartado.</span><span class="sxs-lookup"><span data-stu-id="d9f65-134">If the NF-e is rejected and can't be fixed, you must cancel the discarded NF-e that has discarded number.</span></span> <span data-ttu-id="d9f65-135">O processo de exportação ou de importação da NF-e detecta a nota fiscal lançada e marcada para descarte e então gera uma mensagem XML no formato especificado para o número da NF-e descartada.</span><span class="sxs-lookup"><span data-stu-id="d9f65-135">The NF-e export or import process detects the fiscal document that is posted and marked for discard, and then generates an XML message in the specified format for the discarded NF-e number.</span></span> <span data-ttu-id="d9f65-136">Esta mensagem XML é transmitida à SEFAZ, e o status da nota fiscal é definido é como **Rejeitado**</span><span class="sxs-lookup"><span data-stu-id="d9f65-136">This XML message is then transmitted to SEFAZ, and the fiscal document status is set to **Discarded**.</span></span>
-
-
-## <a name="additional-resources"></a><span data-ttu-id="d9f65-137">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="d9f65-137">Additional resources</span></span>
-
- - [<span data-ttu-id="d9f65-138">Certificação de NF-e</span><span class="sxs-lookup"><span data-stu-id="d9f65-138">NF-e certification</span></span>](latam-bra-nfe-certs.md)
- - [<span data-ttu-id="d9f65-139">Configurar parâmetros federais de NF-e (Brasil)</span><span class="sxs-lookup"><span data-stu-id="d9f65-139">Set up NF-e federal parameters (Brazil)</span></span>](tasks/br-00053-1-set-up-nf-e-federal-parameters.md)
- - [<span data-ttu-id="d9f65-140">Configurar parâmetros de NF-e para um estabelecimento fiscal (Brasil)</span><span class="sxs-lookup"><span data-stu-id="d9f65-140">Set up NF-e parameters for a fiscal establishment (Brazil)</span></span>](tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md)
- - [<span data-ttu-id="d9f65-141">Gerar emails para NF-e aprovada e anexar arquivos PDF do DANFE e arquivos XML da NF-e aos emails (Brasil)</span><span class="sxs-lookup"><span data-stu-id="d9f65-141">Generate emails for approved NF-e and attach DANFE PDF files and NF-e XML files to the emails (Brazil)</span></span>](tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md)
- - [<span data-ttu-id="d9f65-142">NF-e 3.10 (Brasil)</span><span class="sxs-lookup"><span data-stu-id="d9f65-142">NF-e 3.10 (Brazil)</span></span>](tasks/br-00053-nf-e-3-10.md)
- - [<span data-ttu-id="d9f65-143">Transmissão automática de notas fiscais eletrônicas (Brasil)</span><span class="sxs-lookup"><span data-stu-id="d9f65-143">Automatic transmission of NF-e fiscal documents (Brazil)</span></span>](tasks/br-00058-automatic-transmission-nf-e-fiscal-documents.md)
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="latam-bra-nf-e-process.md" target-language="pt-BR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>latam-bra-nf-e-process.7ed454.b3ac0f793228df14efa632135d2c855cae465e56.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>b3ac0f793228df14efa632135d2c855cae465e56</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\latam-bra-nf-e-process.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>NF-e process overview for Brazil</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visão geral do processo de NF-e para o Brasil</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic provides an overview of the process for setting up and submitting a Nota fiscal eletrônica (NF-e) to register the movement of items and services between two parties.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este tópico fornece uma visão geral do processo para configurar e enviar uma Nota fiscal eletrônica de (NF-e) para registrar a movimentação de itens e de serviço entre duas partes.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>NF-e process overview for Brazil</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visão geral do processo de NF-e para o Brasil</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic provides an overview of the process for setting up and submitting a Nota fiscal eletrônica (NF-e) to register the movement of items and services between two parties.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este tópico fornece uma visão geral do processo para configurar e enviar uma Nota fiscal eletrônica de (NF-e) para registrar a movimentação de itens e de serviço entre duas partes.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>You can use a Nota fiscal eletrônica (NF-e) to register the movement of items and services between two parties.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você pode usar uma Nota Fiscal eletrônica (NF-e) para registrar a movimentação de itens e serviços entre dois participantes.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>You can generate an NF-e from any of the following fiscal documents:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você pode gerar uma NF-e de qualquer uma das seguintes notas fiscais:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Sales orders</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ordens de venda</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Purchase orders for non-taxpayer vendors</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ordens de compra para fornecedores não contribuinte</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Project invoices</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Faturas de projeto</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Tax fiscal documents</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Notas fiscais de transferência ou apropriação de imposto</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Free text invoices</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Faturas de texto livre</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Before you can generate an NF-e, you must complete the following tasks:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Antes de gerar uma NF-e, você deve concluir as seguintes tarefas:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Set up web services, rejection codes, and schemas for a domain.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configure serviços da Web, códigos de rejeição e esquemas para um domínio.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>For each fiscal establishment, set up a certificate, an environment, an NF-e version, an authority, a template, schema validation, and a contingency mode for NF-e.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para cada estabelecimento fiscal configure um ambiente, uma versão de NF-e, uma autoridade, um modelo, validação de esquema e um modo de contingência para NF-e.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Additionally, set up automatic printing of the Documento auxiliar da Nota fiscal eletrônica (DANFE), so that the DANFE is automatically printed after NF-e approval.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Além disso, configure a impressão automática do Documento auxiliar da Nota fiscal eletrônica (DANFE), de forma que o DANFE seja impresso automaticamente após a aprovação da NF-e.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Set up web services that are related to a fiscal authority.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configure os serviços da Web relacionados a uma autoridade fiscal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Set up a fiscal document type for an NF-e.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configure um tipo de documento fiscal para uma NF-e.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>After you generate an NF-e, you can submit the digitally signed NF-e to the Secretaria da Fazenda (SEFAZ) in an XML message.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Depois que você gera uma NF-e, pode enviar a NF-e assinada digitalmente para a Secretaria da Fazenda (SEFAZ) em uma mensagem XML.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>The items can be delivered after the NF-e is electronically approved by SEFAZ.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os itens poderão ser entregues depois que a NF-e for aprovada eletronicamente pela SEFAZ.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>The NF-e process includes the following steps:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O processo da NF-e inclui as seguintes etapas:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>The fiscal establishment posts a fiscal document by using a fiscal document type that is set up for fiscal document model 55 to generate an NF-e.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O estabelecimento fiscal lança uma nota fiscal usando um tipo de nota fiscal que é configurado para o modelo de nota fiscal 55 para gerar uma NF-e.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>The NF-e export or import process detects the posted fiscal document for the fiscal document model 55 and generates an XML message in the specified format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O processo de exportação ou de importação detecta a nota fiscal lançada para o modelo de nota fiscal 55 e gera uma mensagem XML no formato especificado.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>A separate XML message is generated for each NF-e.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uma mensagem XML separada é gerada para cada NF-e.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>The XML message is transmitted to SEFAZ.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A mensagem XML é transmitida à SEFAZ.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>SEFAZ processes the XML message and returns a protocol and status for each NF-e.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A SEFAZ processa a mensagem XML e retorna um protocolo e um status para cada NF-e.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>The NF-e status and protocol are then assigned to the NF-e that is used in the NF-e export or import process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O status da NF-e e o protocolo são então atribuídos à NF-e que é usada no processo de exportação ou importação de NF-e.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>The status that is returned can be <bpt id="p1">**</bpt>Approved<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Denied<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Discarded<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Canceled<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Rejected non fixable<ept id="p5">**</ept>, or <bpt id="p6">**</bpt>Rejected<ept id="p6">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O status que é retornado pode ser <bpt id="p1">**</bpt>Aprovado<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Negado<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Rejeitado<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Cancelado<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Rejeitado sem correção<ept id="p5">**</ept> ou <bpt id="p6">**</bpt>Rejeitado<ept id="p6">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>This information is used to update the fiscal document status in Microsoft Dynamics 365 for Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Essas informações são usadas para atualizar o status da nota fiscal no Microsoft Dynamics 365 for Finance and Operations.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>After the status of the NF-e is received from SEFAZ, you can perform the following tasks, depending on the status:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Depois que o status da NF-e for recebido da SEFAZ, você poderá executar as seguintes tarefas, dependendo do status:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>If the NF-e is approved, you can print the DANFE.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se a NF-e for aprovada, você poderá imprimir o DANFE.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Alternatively, if the <bpt id="p1">**</bpt>Print DANFE when NF-e is approved<ept id="p1">**</ept> option is selected on the <bpt id="p2">**</bpt>NF-e federal<ept id="p2">**</ept> FastTab of the <bpt id="p3">**</bpt>Fiscal establishments<ept id="p3">**</ept> page, the DANFE is printed automatically.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Como alternativa, se a opção <bpt id="p1">**</bpt>Imprimir DANFE quando NF-e for aprovada<ept id="p1">**</ept> for selecionada na FastTab <bpt id="p2">**</bpt>NF-e federal<ept id="p2">**</ept> da página <bpt id="p3">**</bpt>Estabelecimentos fiscais<ept id="p3">**</ept>, o DANFE será impresso automaticamente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>If the NF-e is denied, you must cancel the NF-e.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se a NF-e for negada, será necessário cancelá-la.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>If the NF-e is rejected and can be fixed, you can correct the incorrect information, and then click <bpt id="p1">**</bpt>Resend<ept id="p1">**</ept> on the <bpt id="p2">**</bpt>NF-e federal<ept id="p2">**</ept> tab of the <bpt id="p3">**</bpt>Fiscal document<ept id="p3">**</ept> page to resend the NF-e to SEFAZ.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se a NF-e for rejeitada e puder ser corrigida, você poderá corrigir as informações incorretas e depois poderá clicar em <bpt id="p1">**</bpt>Reenviar<ept id="p1">**</ept> na guia <bpt id="p2">**</bpt>NF-e federal<ept id="p2">**</ept> da página <bpt id="p3">**</bpt>Documento fiscal<ept id="p3">**</ept> para reenviar a NF-e à SEFAZ.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>If the NF-e is rejected and can't be fixed, you must cancel the discarded NF-e that has discarded number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se a NF-e for rejeitada e não puder ser corrigida, você deverá cancelar a NF-e descartada que tem o número descartado.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>The NF-e export or import process detects the fiscal document that is posted and marked for discard, and then generates an XML message in the specified format for the discarded NF-e number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O processo de exportação ou de importação da NF-e detecta a nota fiscal lançada e marcada para descarte e então gera uma mensagem XML no formato especificado para o número da NF-e descartada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>This XML message is then transmitted to SEFAZ, and the fiscal document status is set to <bpt id="p1">**</bpt>Discarded<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta mensagem XML é transmitida à SEFAZ, e o status da nota fiscal é definido é como <bpt id="p1">**</bpt>Rejeitado<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>Additional resources</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Recursos adicionais</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source><bpt id="p1">[</bpt>NF-e certification<ept id="p1">](latam-bra-nfe-certs.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Certificação de NF-e<ept id="p1">](latam-bra-nfe-certs.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source><bpt id="p1">[</bpt>Set up NF-e federal parameters (Brazil)<ept id="p1">](tasks/br-00053-1-set-up-nf-e-federal-parameters.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Configurar parâmetros federais de NF-e (Brasil)<ept id="p1">](tasks/br-00053-1-set-up-nf-e-federal-parameters.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source><bpt id="p1">[</bpt>Set up NF-e parameters for a fiscal establishment (Brazil)<ept id="p1">](tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Configurar parâmetros de NF-e para um estabelecimento fiscal (Brasil)<ept id="p1">](tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source><bpt id="p1">[</bpt>Generate emails for approved NF-e and attach DANFE PDF files and NF-e XML files to the emails (Brazil)<ept id="p1">](tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Gerar emails para NF-e aprovada e anexar arquivos PDF do DANFE e arquivos XML da NF-e aos emails (Brasil)<ept id="p1">](tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source><bpt id="p1">[</bpt>NF-e 3.10 (Brazil)<ept id="p1">](tasks/br-00053-nf-e-3-10.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>NF-e 3.10 (Brasil)<ept id="p1">](tasks/br-00053-nf-e-3-10.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source><bpt id="p1">[</bpt>Automatic transmission of NF-e fiscal documents (Brazil)<ept id="p1">](tasks/br-00058-automatic-transmission-nf-e-fiscal-documents.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Transmissão automática de notas fiscais eletrônicas (Brasil)<ept id="p1">](tasks/br-00058-automatic-transmission-nf-e-fiscal-documents.md)</ept></target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

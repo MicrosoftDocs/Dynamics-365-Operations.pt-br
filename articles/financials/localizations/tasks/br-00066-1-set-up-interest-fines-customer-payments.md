@@ -1,80 +1,189 @@
----
-title: Configurar juros e multas em pagamentos de clientes (Brasil)
-description: Use este procedimento para configurar juros e multas em pagamentos de clientes.
-author: sndray
-manager: AnnBe
-ms.date: 06/26/2017
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
-ms.search.region: Brazil
-ms.author: sndray
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec4bb77cecf5c413c3d61405e4ce9d1ce97d0b3c
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538288"
----
-# <a name="set-up-interest-and-fines-on-customer-payments-brazil"></a><span data-ttu-id="4733d-103">Configurar juros e multas em pagamentos de clientes (Brasil)</span><span class="sxs-lookup"><span data-stu-id="4733d-103">Set up interest and fines on customer payments (Brazil)</span></span>
-
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
-<span data-ttu-id="4733d-104">Use este procedimento para configurar juros e multas em pagamentos de clientes.</span><span class="sxs-lookup"><span data-stu-id="4733d-104">Use this procedure to set up interest and fines on customer payments.</span></span> <span data-ttu-id="4733d-105">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="4733d-105">This task uses the BRMF demo company.</span></span>
-
-1. <span data-ttu-id="4733d-106">Vá para Contas a receber > Configuração > Perfis de lançamento do cliente.</span><span class="sxs-lookup"><span data-stu-id="4733d-106">Go to Accounts receivable > Setup > Customer posting profiles.</span></span>
-2. <span data-ttu-id="4733d-107">Clique para seguir o link no campo Perfil de lançamentos.</span><span class="sxs-lookup"><span data-stu-id="4733d-107">Click to follow the link in the Posting profile field.</span></span>
-3. <span data-ttu-id="4733d-108">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="4733d-108">Click Edit.</span></span>
-4. <span data-ttu-id="4733d-109">No campo Juros financeiros, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="4733d-109">In the Financial interest field, specify the desired values.</span></span>
-5. <span data-ttu-id="4733d-110">No campo Multa, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="4733d-110">In the Fine field, specify the desired values.</span></span>
-6. <span data-ttu-id="4733d-111">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="4733d-111">Click Save.</span></span>
-7. <span data-ttu-id="4733d-112">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="4733d-112">Close the page.</span></span>
-8. <span data-ttu-id="4733d-113">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="4733d-113">Close the page.</span></span>
-9. <span data-ttu-id="4733d-114">Vá para Contas a receber > Configuração de pagamentos > Calendário de pagamentos.</span><span class="sxs-lookup"><span data-stu-id="4733d-114">Go to Accounts receivable > Payments setup > Payment calendar.</span></span>
-10. <span data-ttu-id="4733d-115">Use o Filtro Rápido para localizar registros.</span><span class="sxs-lookup"><span data-stu-id="4733d-115">Use the Quick Filter to find records.</span></span> <span data-ttu-id="4733d-116">Por exemplo, filtre o campo Calendário de pagamentos com um valor de 'Brasil'.</span><span class="sxs-lookup"><span data-stu-id="4733d-116">For example, filter on the Payment calendar field with a value of 'Brazil'.</span></span>
-11. <span data-ttu-id="4733d-117">Clique em feriados do estado/província.</span><span class="sxs-lookup"><span data-stu-id="4733d-117">Click State/province holidays.</span></span>
-12. <span data-ttu-id="4733d-118">Use o Filtro Rápido para localizar registros.</span><span class="sxs-lookup"><span data-stu-id="4733d-118">Use the Quick Filter to find records.</span></span> <span data-ttu-id="4733d-119">Por exemplo, filtre o campo Estado/província com um valor de 'SP'.</span><span class="sxs-lookup"><span data-stu-id="4733d-119">For example, filter on the State/province field with a value of 'SP'.</span></span>
-13. <span data-ttu-id="4733d-120">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="4733d-120">Click New.</span></span>
-14. <span data-ttu-id="4733d-121">No campo Data, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="4733d-121">In the Date field, enter a date.</span></span>
-15. <span data-ttu-id="4733d-122">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="4733d-122">In the Description field, type a value.</span></span>
-16. <span data-ttu-id="4733d-123">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="4733d-123">Click Save.</span></span>
-17. <span data-ttu-id="4733d-124">Clique em Feriados municipais.</span><span class="sxs-lookup"><span data-stu-id="4733d-124">Click City holidays.</span></span>
-18. <span data-ttu-id="4733d-125">Use o Filtro Rápido para localizar registros.</span><span class="sxs-lookup"><span data-stu-id="4733d-125">Use the Quick Filter to find records.</span></span> <span data-ttu-id="4733d-126">Por exemplo, filtre no campo Cidade com um valor de 'São Paulo'.</span><span class="sxs-lookup"><span data-stu-id="4733d-126">For example, filter on the City field with a value of 'São Paulo'.</span></span>
-19. <span data-ttu-id="4733d-127">Clique em Adicionar.</span><span class="sxs-lookup"><span data-stu-id="4733d-127">Click Add.</span></span>
-20. <span data-ttu-id="4733d-128">No campo Data, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="4733d-128">In the Date field, enter a date.</span></span>
-21. <span data-ttu-id="4733d-129">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="4733d-129">In the Description field, type a value.</span></span>
-22. <span data-ttu-id="4733d-130">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="4733d-130">Click Save.</span></span>
-23. <span data-ttu-id="4733d-131">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="4733d-131">Close the page.</span></span>
-24. <span data-ttu-id="4733d-132">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="4733d-132">Close the page.</span></span>
-25. <span data-ttu-id="4733d-133">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="4733d-133">Close the page.</span></span>
-26. <span data-ttu-id="4733d-134">Vá para Contas a receber > Configuração de pagamentos > Códigos de multa.</span><span class="sxs-lookup"><span data-stu-id="4733d-134">Go to Accounts receivable > Payments setup > Fine codes.</span></span>
-27. <span data-ttu-id="4733d-135">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="4733d-135">Click New.</span></span>
-28. <span data-ttu-id="4733d-136">No campo Código de multa, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="4733d-136">In the Fine code field, type a value.</span></span>
-29. <span data-ttu-id="4733d-137">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="4733d-137">In the Description field, type a value.</span></span>
-30. <span data-ttu-id="4733d-138">No campo % de multa, digite um número.</span><span class="sxs-lookup"><span data-stu-id="4733d-138">In the Fine % field, enter a number.</span></span>
-31. <span data-ttu-id="4733d-139">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="4733d-139">Click Save.</span></span>
-32. <span data-ttu-id="4733d-140">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="4733d-140">Close the page.</span></span>
-33. <span data-ttu-id="4733d-141">Vá para Contas a receber > Configuração de pagamentos > Códigos de juros.</span><span class="sxs-lookup"><span data-stu-id="4733d-141">Go to Accounts receivable > Payments setup > Interest codes.</span></span>
-34. <span data-ttu-id="4733d-142">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="4733d-142">Click New.</span></span>
-35. <span data-ttu-id="4733d-143">No campo Código de juros, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="4733d-143">In the Interest code field, type a value.</span></span>
-36. <span data-ttu-id="4733d-144">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="4733d-144">In the Description field, type a value.</span></span>
-37. <span data-ttu-id="4733d-145">No campo % de juros, insira um número.</span><span class="sxs-lookup"><span data-stu-id="4733d-145">In the Interest % field, enter a number.</span></span>
-38. <span data-ttu-id="4733d-146">No campo Cálculo de juros por campo, insira um número.</span><span class="sxs-lookup"><span data-stu-id="4733d-146">In the Interest calculation per field, enter a number.</span></span>
-39. <span data-ttu-id="4733d-147">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="4733d-147">Click Save.</span></span>
-40. <span data-ttu-id="4733d-148">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="4733d-148">Close the page.</span></span>
-41. <span data-ttu-id="4733d-149">Ir para Contas recebíveis > Clientes > Todos os clientes.</span><span class="sxs-lookup"><span data-stu-id="4733d-149">Go to Accounts receivable > Customers > All customers.</span></span>
-42. <span data-ttu-id="4733d-150">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="4733d-150">In the list, click the link in the selected row.</span></span>
-43. <span data-ttu-id="4733d-151">Expanda a seção de padrões de pagamento.</span><span class="sxs-lookup"><span data-stu-id="4733d-151">Expand the Payment defaults section.</span></span>
-44. <span data-ttu-id="4733d-152">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="4733d-152">Click Edit.</span></span>
-45. <span data-ttu-id="4733d-153">No campo Código de juros, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="4733d-153">In the Fine code field, enter or select a value.</span></span>
-46. <span data-ttu-id="4733d-154">No campo Código de juros, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="4733d-154">In the Interest code field, enter or select a value.</span></span>
-47. <span data-ttu-id="4733d-155">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="4733d-155">Click Save.</span></span>
-48. <span data-ttu-id="4733d-156">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="4733d-156">Close the page.</span></span>
-49. <span data-ttu-id="4733d-157">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="4733d-157">Close the page.</span></span>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="br-00066-1-set-up-interest-fines-customer-payments.md" target-language="pt-BR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>br-00066-1-set-up-interest-fines-customer-payments.7cdd7a.fa01297e5f8f987db8f2ce1b8abff6f76d59bd0b.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>fa01297e5f8f987db8f2ce1b8abff6f76d59bd0b</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\br-00066-1-set-up-interest-fines-customer-payments.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Set up interest and fines on customer payments (Brazil)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configurar juros e multas em pagamentos de clientes (Brasil)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>Use this procedure to set up interest and fines on customer payments.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Use este procedimento para configurar juros e multas em pagamentos de clientes.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Set up interest and fines on customer payments (Brazil)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configurar juros e multas em pagamentos de clientes (Brasil)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>Use this procedure to set up interest and fines on customer payments.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Use este procedimento para configurar juros e multas em pagamentos de clientes.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>This task uses the BRMF demo company.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta tarefa usa a empresa de demonstração BRMF.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Go to Accounts receivable &gt; Setup &gt; Customer posting profiles.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Contas a receber &gt; Configuração &gt; Perfis de lançamento do cliente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Click to follow the link in the Posting profile field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique para seguir o link no campo Perfil de lançamentos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Click Edit.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Editar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>In the Financial interest field, specify the desired values.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Juros financeiros, especifique os valores desejados.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>In the Fine field, specify the desired values.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Multa, especifique os valores desejados.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Go to Accounts receivable &gt; Payments setup &gt; Payment calendar.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Contas a receber &gt; Configuração de pagamentos &gt; Calendário de pagamentos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Use the Quick Filter to find records.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Use o Filtro Rápido para localizar registros.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>For example, filter on the Payment calendar field with a value of 'Brazil'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Por exemplo, filtre o campo Calendário de pagamentos com um valor de 'Brasil'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Click State/province holidays.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em feriados do estado/província.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Use the Quick Filter to find records.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Use o Filtro Rápido para localizar registros.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>For example, filter on the State/province field with a value of 'SP'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Por exemplo, filtre o campo Estado/província com um valor de 'SP'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>In the Date field, enter a date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Data, insira uma data.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>In the Description field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Descrição, digite um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Click City holidays.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Feriados municipais.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>Use the Quick Filter to find records.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Use o Filtro Rápido para localizar registros.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>For example, filter on the City field with a value of 'São Paulo'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Por exemplo, filtre no campo Cidade com um valor de 'São Paulo'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Click Add.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Adicionar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>In the Date field, enter a date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Data, insira uma data.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>In the Description field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Descrição, digite um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>Go to Accounts receivable &gt; Payments setup &gt; Fine codes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Contas a receber &gt; Configuração de pagamentos &gt; Códigos de multa.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>In the Fine code field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Código de multa, digite um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>In the Description field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Descrição, digite um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>In the Fine % field, enter a number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo % de multa, digite um número.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>Go to Accounts receivable &gt; Payments setup &gt; Interest codes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Contas a receber &gt; Configuração de pagamentos &gt; Códigos de juros.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>In the Interest code field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Código de juros, digite um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>In the Description field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Descrição, digite um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>In the Interest % field, enter a number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo % de juros, insira um número.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>In the Interest calculation per field, enter a number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Cálculo de juros por campo, insira um número.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Go to Accounts receivable &gt; Customers &gt; All customers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ir para Contas recebíveis &gt; Clientes &gt; Todos os clientes.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>In the list, click the link in the selected row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, clique no link na linha selecionada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>Expand the Payment defaults section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Expanda a seção de padrões de pagamento.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>Click Edit.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Editar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>In the Fine code field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Código de juros, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>In the Interest code field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Código de juros, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

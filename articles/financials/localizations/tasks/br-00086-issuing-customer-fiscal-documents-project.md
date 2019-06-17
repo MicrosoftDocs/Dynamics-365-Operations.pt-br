@@ -1,78 +1,174 @@
----
-title: Emitir notas fiscais para clientes (projeto) (Brasil)
-description: É possível emitir uma nota fiscal para um projeto.
-author: sndray
-manager: AnnBe
-ms.date: 06/24/2017
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
-ms.search.region: Brazil
-ms.search.industry: Manufacturing;Distribution;Service industries
-ms.author: sndray
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22dcdfe240f8d67de3227ab834b94b0dde81b85b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538280"
----
-# <a name="issue-customer-fiscal-documents-project-brazil"></a><span data-ttu-id="3eae0-103">Emitir notas fiscais para clientes (projeto) (Brasil)</span><span class="sxs-lookup"><span data-stu-id="3eae0-103">Issue customer fiscal documents (project) (Brazil)</span></span>
-
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
-<span data-ttu-id="3eae0-104">É possível emitir uma nota fiscal para um projeto.</span><span class="sxs-lookup"><span data-stu-id="3eae0-104">You can issue a fiscal document for a project.</span></span> <span data-ttu-id="3eae0-105">A nota fiscal pode ser uma nota fiscal de serviço ou uma nota fiscal eletrônica.</span><span class="sxs-lookup"><span data-stu-id="3eae0-105">The fiscal document can be either a service fiscal document or an electronic fiscal document.</span></span> <span data-ttu-id="3eae0-106">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="3eae0-106">This task uses the BRMF demo company.</span></span>
-
-1. <span data-ttu-id="3eae0-107">Vá para Gerenciamento e contabilidade de projeto > Projetos > Contratos do projeto.</span><span class="sxs-lookup"><span data-stu-id="3eae0-107">Go to Project management and accounting > Projects > Project contracts.</span></span>
-2. <span data-ttu-id="3eae0-108">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="3eae0-108">Click New.</span></span>
-3. <span data-ttu-id="3eae0-109">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="3eae0-109">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="3eae0-110">No campo Fonte de financiamento, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="3eae0-110">In the Funding source field, enter or select a value.</span></span>
-5. <span data-ttu-id="3eae0-111">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="3eae0-111">Click OK.</span></span>
-6. <span data-ttu-id="3eae0-112">No campo Grupo de impostos sobre vendas, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="3eae0-112">In the Sales tax group field, enter or select a value.</span></span>
-7. <span data-ttu-id="3eae0-113">Expanda a seção Informações fiscais.</span><span class="sxs-lookup"><span data-stu-id="3eae0-113">Expand the Fiscal information section.</span></span>
-8. <span data-ttu-id="3eae0-114">Selecione Sim no campo Serviço no endereço de entrega.</span><span class="sxs-lookup"><span data-stu-id="3eae0-114">Select Yes in the Service on delivery address field.</span></span>
-9. <span data-ttu-id="3eae0-115">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="3eae0-115">Click Save.</span></span>
-10. <span data-ttu-id="3eae0-116">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="3eae0-116">Close the page.</span></span>
-11. <span data-ttu-id="3eae0-117">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="3eae0-117">Close the page.</span></span>
-12. <span data-ttu-id="3eae0-118">Vá para Gerenciamento e contabilidade de projeto > Projetos > Todos os projetos.</span><span class="sxs-lookup"><span data-stu-id="3eae0-118">Go to Project management and accounting > Projects > All projects.</span></span>
-13. <span data-ttu-id="3eae0-119">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="3eae0-119">Click New.</span></span>
-14. <span data-ttu-id="3eae0-120">No campo Tipo de projeto, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="3eae0-120">In the Project type field, select an option.</span></span>
-15. <span data-ttu-id="3eae0-121">No campo Nome do projeto, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="3eae0-121">In the Project name field, type a value.</span></span>
-16. <span data-ttu-id="3eae0-122">No campo Grupo de projetos, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="3eae0-122">In the Project group field, enter or select a value.</span></span>
-17. <span data-ttu-id="3eae0-123">No campo ID do contrato de projeto, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="3eae0-123">In the Project contract ID field, enter or select a value.</span></span>
-18. <span data-ttu-id="3eae0-124">Clique em Criar projeto.</span><span class="sxs-lookup"><span data-stu-id="3eae0-124">Click Create project.</span></span>
-19. <span data-ttu-id="3eae0-125">No Painel de Ação, clique em Gerenciar.</span><span class="sxs-lookup"><span data-stu-id="3eae0-125">On the Action Pane, click Manage.</span></span>
-20. <span data-ttu-id="3eae0-126">Clique em Proposta de fatura.</span><span class="sxs-lookup"><span data-stu-id="3eae0-126">Click Invoice proposal.</span></span>
-21. <span data-ttu-id="3eae0-127">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="3eae0-127">Click OK.</span></span>
-22. <span data-ttu-id="3eae0-128">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="3eae0-128">In the list, mark the selected row.</span></span>
-23. <span data-ttu-id="3eae0-129">No campo Preço venda, insira um número.</span><span class="sxs-lookup"><span data-stu-id="3eae0-129">In the Sales price field, enter a number.</span></span>
-24. <span data-ttu-id="3eae0-130">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="3eae0-130">Click Post.</span></span>
-25. <span data-ttu-id="3eae0-131">No Painel de Ação, clique em Projeto.</span><span class="sxs-lookup"><span data-stu-id="3eae0-131">On the Action Pane, click Project.</span></span>
-26. <span data-ttu-id="3eae0-132">Clique em Hora.</span><span class="sxs-lookup"><span data-stu-id="3eae0-132">Click Hour.</span></span>
-27. <span data-ttu-id="3eae0-133">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="3eae0-133">Click New.</span></span>
-28. <span data-ttu-id="3eae0-134">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="3eae0-134">In the list, mark the selected row.</span></span>
-29. <span data-ttu-id="3eae0-135">No campo Nome, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="3eae0-135">In the Name field, enter or select a value.</span></span>
-30. <span data-ttu-id="3eae0-136">Clique em Linhas.</span><span class="sxs-lookup"><span data-stu-id="3eae0-136">Click Lines.</span></span>
-31. <span data-ttu-id="3eae0-137">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="3eae0-137">Click New.</span></span>
-32. <span data-ttu-id="3eae0-138">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="3eae0-138">In the list, mark the selected row.</span></span>
-33. <span data-ttu-id="3eae0-139">No campo Categoria, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="3eae0-139">In the Category field, enter or select a value.</span></span>
-34. <span data-ttu-id="3eae0-140">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="3eae0-140">In the Description field, type a value.</span></span>
-35. <span data-ttu-id="3eae0-141">No campo Horas, insira um número.</span><span class="sxs-lookup"><span data-stu-id="3eae0-141">In the Hours field, enter a number.</span></span>
-36. <span data-ttu-id="3eae0-142">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="3eae0-142">Click Post.</span></span>
-37. <span data-ttu-id="3eae0-143">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="3eae0-143">Click OK.</span></span>
-38. <span data-ttu-id="3eae0-144">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="3eae0-144">Close the page.</span></span>
-39. <span data-ttu-id="3eae0-145">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="3eae0-145">Close the page.</span></span>
-40. <span data-ttu-id="3eae0-146">Selecione Sim no campo Imprimir fatura.</span><span class="sxs-lookup"><span data-stu-id="3eae0-146">Select Yes in the Print invoice field.</span></span>
-41. <span data-ttu-id="3eae0-147">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="3eae0-147">Click OK.</span></span>
-42. <span data-ttu-id="3eae0-148">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="3eae0-148">Click OK.</span></span>
-43. <span data-ttu-id="3eae0-149">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="3eae0-149">Close the page.</span></span>
-44. <span data-ttu-id="3eae0-150">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="3eae0-150">Close the page.</span></span>
-45. <span data-ttu-id="3eae0-151">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="3eae0-151">Close the page.</span></span>
-46. <span data-ttu-id="3eae0-152">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="3eae0-152">Close the page.</span></span>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="br-00086-issuing-customer-fiscal-documents-project.md" target-language="pt-BR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>br-00086-issuing-customer-fiscal-documents-project.bb194f.11d9f82f057cae2b363b1c43a0cf85fa6692003e.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>11d9f82f057cae2b363b1c43a0cf85fa6692003e</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\br-00086-issuing-customer-fiscal-documents-project.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Issue customer fiscal documents (project) (Brazil)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Emitir notas fiscais para clientes (projeto) (Brasil)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>You can issue a fiscal document for a project.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">É possível emitir uma nota fiscal para um projeto.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Issue customer fiscal documents (project) (Brazil)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Emitir notas fiscais para clientes (projeto) (Brasil)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>You can issue a fiscal document for a project.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">É possível emitir uma nota fiscal para um projeto.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>The fiscal document can be either a service fiscal document or an electronic fiscal document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A nota fiscal pode ser uma nota fiscal de serviço ou uma nota fiscal eletrônica.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>This task uses the BRMF demo company.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta tarefa usa a empresa de demonstração BRMF.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Go to Project management and accounting &gt; Projects &gt; Project contracts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Gerenciamento e contabilidade de projeto &gt; Projetos &gt; Contratos do projeto.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>In the Name field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Nome, digite um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>In the Funding source field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Fonte de financiamento, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>In the Sales tax group field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Grupo de impostos sobre vendas, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Expand the Fiscal information section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Expanda a seção Informações fiscais.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Select Yes in the Service on delivery address field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione Sim no campo Serviço no endereço de entrega.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Go to Project management and accounting &gt; Projects &gt; All projects.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Gerenciamento e contabilidade de projeto &gt; Projetos &gt; Todos os projetos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>In the Project type field, select an option.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Tipo de projeto, selecione uma opção.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>In the Project name field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Nome do projeto, digite um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>In the Project group field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Grupo de projetos, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>In the Project contract ID field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo ID do contrato de projeto, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Click Create project.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Criar projeto.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>On the Action Pane, click Manage.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No Painel de Ação, clique em Gerenciar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Click Invoice proposal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Proposta de fatura.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>In the list, mark the selected row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, marque a linha selecionada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>In the Sales price field, enter a number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Preço venda, insira um número.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>Click Post.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Lançar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>On the Action Pane, click Project.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No Painel de Ação, clique em Projeto.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>Click Hour.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Hora.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>In the list, mark the selected row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, marque a linha selecionada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>In the Name field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Nome, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>Click Lines.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Linhas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>In the list, mark the selected row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, marque a linha selecionada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>In the Category field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Categoria, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>In the Description field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Descrição, digite um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>In the Hours field, enter a number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Horas, insira um número.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>Click Post.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Lançar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Select Yes in the Print invoice field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione Sim no campo Imprimir fatura.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

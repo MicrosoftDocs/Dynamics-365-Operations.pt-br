@@ -1,54 +1,99 @@
----
-title: Emitir notas fiscais para clientes (serviços) (Brasil)
-description: É possível emitir uma nota fiscal de serviço a um cliente que adquiriu serviços do estabelecimento fiscal.
-author: sndray
-manager: AnnBe
-ms.date: 06/24/2017
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
-ms.search.region: Brazil
-ms.search.industry: Manufacturing;Distribution;Service industries
-ms.author: sndray
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 778197695374ba204e65998d142df8230780692b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538282"
----
-# <a name="issue-customer-fiscal-documents-services-brazil"></a><span data-ttu-id="25f56-103">Emitir notas fiscais para clientes (serviços) (Brasil)</span><span class="sxs-lookup"><span data-stu-id="25f56-103">Issue customer fiscal documents (services) (Brazil)</span></span>
-
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
-<span data-ttu-id="25f56-104">É possível emitir uma nota fiscal de serviço a um cliente que adquiriu serviços do estabelecimento fiscal.</span><span class="sxs-lookup"><span data-stu-id="25f56-104">You can issue a service fiscal document for a customer who bought services from the fiscal establishment.</span></span> <span data-ttu-id="25f56-105">Este registro usa a empresa de dados de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="25f56-105">This recording uses the BRMF demo company.</span></span>
-
-1. <span data-ttu-id="25f56-106">Vá para Vendas e marketing > Ordens de venda > Todas as ordens de venda.</span><span class="sxs-lookup"><span data-stu-id="25f56-106">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
-2. <span data-ttu-id="25f56-107">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="25f56-107">Click New.</span></span>
-3. <span data-ttu-id="25f56-108">No campo Conta de cliente, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="25f56-108">In the Customer account field, enter or select a value.</span></span>
-4. <span data-ttu-id="25f56-109">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="25f56-109">Click OK.</span></span>
-5. <span data-ttu-id="25f56-110">Clique em Adicionar nova linha.</span><span class="sxs-lookup"><span data-stu-id="25f56-110">Click Add line.</span></span>
-6. <span data-ttu-id="25f56-111">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="25f56-111">In the list, mark the selected row.</span></span>
-7. <span data-ttu-id="25f56-112">No campo Número do item, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="25f56-112">In the Item number field, enter or select a value.</span></span>
-8. <span data-ttu-id="25f56-113">No campo Quantidade, insira um número.</span><span class="sxs-lookup"><span data-stu-id="25f56-113">In the Quantity field, enter a number.</span></span>
-9. <span data-ttu-id="25f56-114">No campo Local, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="25f56-114">In the Site field, enter or select a value.</span></span>
-10. <span data-ttu-id="25f56-115">Expanda a seção Detalhes da linha.</span><span class="sxs-lookup"><span data-stu-id="25f56-115">Expand the Line details section.</span></span>
-11. <span data-ttu-id="25f56-116">Clique na guia Informações fiscais.</span><span class="sxs-lookup"><span data-stu-id="25f56-116">Click the Fiscal information tab.</span></span>
-12. <span data-ttu-id="25f56-117">No campo Nota fiscal, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="25f56-117">In the Fiscal document type field, enter or select a value.</span></span>
-13. <span data-ttu-id="25f56-118">No campo Código de serviço, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="25f56-118">In the Service code field, enter or select a value.</span></span>
-14. <span data-ttu-id="25f56-119">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="25f56-119">Click Save.</span></span>
-15. <span data-ttu-id="25f56-120">Clique em Fatura.</span><span class="sxs-lookup"><span data-stu-id="25f56-120">Click Invoice.</span></span>
-16. <span data-ttu-id="25f56-121">No campo Quantidade, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="25f56-121">In the Quantity field, select an option.</span></span>
-17. <span data-ttu-id="25f56-122">Selecione Sim no campo Imprimir fatura.</span><span class="sxs-lookup"><span data-stu-id="25f56-122">Select Yes in the Print invoice field.</span></span>
-18. <span data-ttu-id="25f56-123">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="25f56-123">Click OK.</span></span>
-19. <span data-ttu-id="25f56-124">Clique em Sim.</span><span class="sxs-lookup"><span data-stu-id="25f56-124">Click Yes.</span></span>
-20. <span data-ttu-id="25f56-125">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="25f56-125">Close the page.</span></span>
-21. <span data-ttu-id="25f56-126">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="25f56-126">Close the page.</span></span>
-22. <span data-ttu-id="25f56-127">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="25f56-127">Close the page.</span></span>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="br-00084-issuing-customer-fiscal-documents-services.md" target-language="pt-BR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>br-00084-issuing-customer-fiscal-documents-services.a7aadd.eec373838a2ff89e5685bdb86bd5ff2a6b3a808e.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>eec373838a2ff89e5685bdb86bd5ff2a6b3a808e</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\br-00084-issuing-customer-fiscal-documents-services.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Issue customer fiscal documents (services) (Brazil)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Emitir notas fiscais para clientes (serviços) (Brasil)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>You can issue a service fiscal document for a customer who bought services from the fiscal establishment.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">É possível emitir uma nota fiscal de serviço a um cliente que adquiriu serviços do estabelecimento fiscal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Issue customer fiscal documents (services) (Brazil)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Emitir notas fiscais para clientes (serviços) (Brasil)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>You can issue a service fiscal document for a customer who bought services from the fiscal establishment.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">É possível emitir uma nota fiscal de serviço a um cliente que adquiriu serviços do estabelecimento fiscal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>This recording uses the BRMF demo company.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este registro usa a empresa de dados de demonstração BRMF.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Go to Sales and marketing &gt; Sales orders &gt; All sales orders.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Vendas e marketing &gt; Ordens de venda &gt; Todas as ordens de venda.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>In the Customer account field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Conta de cliente, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Click Add line.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Adicionar nova linha.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>In the list, mark the selected row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, marque a linha selecionada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>In the Item number field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Número do item, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>In the Quantity field, enter a number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Quantidade, insira um número.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>In the Site field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Local, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Expand the Line details section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Expanda a seção Detalhes da linha.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Click the Fiscal information tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique na guia Informações fiscais.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>In the Fiscal document type field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Nota fiscal, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>In the Service code field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Código de serviço, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Click Invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Fatura.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>In the Quantity field, select an option.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Quantidade, selecione uma opção.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Select Yes in the Print invoice field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione Sim no campo Imprimir fatura.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Click Yes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Sim.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

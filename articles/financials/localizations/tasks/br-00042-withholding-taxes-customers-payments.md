@@ -1,85 +1,195 @@
----
-title: Impostos retidos na fonte em pagamentos de clientes (Brasil)
-description: Use a página Comprovante de diário para inserir e lançar pagamentos recebidos de clientes pela venda de itens ou serviços.
-author: sndray
-manager: AnnBe
-ms.date: 06/27/2017
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
-ms.search.region: Brazil
-ms.search.industry: Manufacturing;Distribution;Service industries
-ms.author: sndray
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8daabada431e803958f701e7b38ef11e330d867a
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538301"
----
-# <a name="withholding-taxes-on-customer-payments-brazil"></a><span data-ttu-id="aaa83-103">Impostos retidos na fonte em pagamentos de clientes (Brasil)</span><span class="sxs-lookup"><span data-stu-id="aaa83-103">Withholding taxes on customer payments (Brazil)</span></span>
-
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
-<span data-ttu-id="aaa83-104">Use a página Comprovante de diário para inserir e lançar pagamentos recebidos de clientes pela venda de itens ou serviços.</span><span class="sxs-lookup"><span data-stu-id="aaa83-104">You use the Journal voucher page to enter and post payments that you receive from customers for the sale of items or services.</span></span> <span data-ttu-id="aaa83-105">Quando você lança um diário de pagamento de cliente, o grupo de impostos retidos na fonte que está configurado para o cliente é usado para calcular o imposto retido na fonte na transação.</span><span class="sxs-lookup"><span data-stu-id="aaa83-105">When you post a customer payment journal, the withholding tax group that is set up for the customer is used to calculate the withholding tax on the transaction.</span></span> <span data-ttu-id="aaa83-106">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="aaa83-106">This task uses the BRMF demo company.</span></span>
-
-1. <span data-ttu-id="aaa83-107">Ir para Contas recebíveis > Clientes > Todos os clientes.</span><span class="sxs-lookup"><span data-stu-id="aaa83-107">Go to Accounts receivable > Customers > All customers.</span></span>
-2. <span data-ttu-id="aaa83-108">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="aaa83-108">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="aaa83-109">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="aaa83-109">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="aaa83-110">Expanda a seção Fatura e entrega.</span><span class="sxs-lookup"><span data-stu-id="aaa83-110">Expand the Invoice and delivery section.</span></span>
-5. <span data-ttu-id="aaa83-111">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="aaa83-111">Click Edit.</span></span>
-6. <span data-ttu-id="aaa83-112">Selecione Sim no campo Calcular imposto retido na fonte.</span><span class="sxs-lookup"><span data-stu-id="aaa83-112">Select Yes in the Calculate withholding tax field.</span></span>
-7. <span data-ttu-id="aaa83-113">No campo Grupo de impostos retidos na fonte, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="aaa83-113">In the Withholding tax group field, enter or select a value.</span></span>
-8. <span data-ttu-id="aaa83-114">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="aaa83-114">Click Save.</span></span>
-9. <span data-ttu-id="aaa83-115">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="aaa83-115">Close the page.</span></span>
-10. <span data-ttu-id="aaa83-116">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="aaa83-116">Close the page.</span></span>
-11. <span data-ttu-id="aaa83-117">Vá para Vendas e marketing > Ordens de venda > Todas as ordens de venda.</span><span class="sxs-lookup"><span data-stu-id="aaa83-117">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
-12. <span data-ttu-id="aaa83-118">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="aaa83-118">Click New.</span></span>
-13. <span data-ttu-id="aaa83-119">No campo Conta de cliente, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="aaa83-119">In the Customer account field, enter or select a value.</span></span>
-14. <span data-ttu-id="aaa83-120">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="aaa83-120">Click OK.</span></span>
-15. <span data-ttu-id="aaa83-121">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="aaa83-121">In the list, mark the selected row.</span></span>
-16. <span data-ttu-id="aaa83-122">No campo Número do item, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="aaa83-122">In the Item number field, enter or select a value.</span></span>
-17. <span data-ttu-id="aaa83-123">No campo Quantidade, insira um número.</span><span class="sxs-lookup"><span data-stu-id="aaa83-123">In the Quantity field, enter a number.</span></span>
-18. <span data-ttu-id="aaa83-124">No campo Local, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="aaa83-124">In the Site field, enter or select a value.</span></span>
-19. <span data-ttu-id="aaa83-125">Expanda a seção Detalhes da linha.</span><span class="sxs-lookup"><span data-stu-id="aaa83-125">Expand the Line details section.</span></span>
-20. <span data-ttu-id="aaa83-126">Clique na guia Configuração.</span><span class="sxs-lookup"><span data-stu-id="aaa83-126">Click the Setup tab.</span></span>
-21. <span data-ttu-id="aaa83-127">No campo Grupo de impostos retidos na fonte do item, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="aaa83-127">In the Item withholding tax group field, enter or select a value.</span></span>
-22. <span data-ttu-id="aaa83-128">No campo Grupo de impostos retidos na fonte, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="aaa83-128">In the Withholding tax group field, enter or select a value.</span></span>
-23. <span data-ttu-id="aaa83-129">Clique na guia Informações fiscais.</span><span class="sxs-lookup"><span data-stu-id="aaa83-129">Click the Fiscal information tab.</span></span>
-24. <span data-ttu-id="aaa83-130">No campo Nota fiscal, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="aaa83-130">In the Fiscal document type field, enter or select a value.</span></span>
-25. <span data-ttu-id="aaa83-131">No campo Código de serviço, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="aaa83-131">In the Service code field, enter or select a value.</span></span>
-26. <span data-ttu-id="aaa83-132">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="aaa83-132">Click Save.</span></span>
-27. <span data-ttu-id="aaa83-133">Clique em Fatura.</span><span class="sxs-lookup"><span data-stu-id="aaa83-133">Click Invoice.</span></span>
-28. <span data-ttu-id="aaa83-134">No campo Quantidade, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="aaa83-134">In the Quantity field, select an option.</span></span>
-29. <span data-ttu-id="aaa83-135">Selecione Sim no campo Imprimir fatura.</span><span class="sxs-lookup"><span data-stu-id="aaa83-135">Select Yes in the Print invoice field.</span></span>
-30. <span data-ttu-id="aaa83-136">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="aaa83-136">Click OK.</span></span>
-31. <span data-ttu-id="aaa83-137">Clique em Sim.</span><span class="sxs-lookup"><span data-stu-id="aaa83-137">Click Yes.</span></span>
-32. <span data-ttu-id="aaa83-138">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="aaa83-138">Close the page.</span></span>
-33. <span data-ttu-id="aaa83-139">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="aaa83-139">Close the page.</span></span>
-34. <span data-ttu-id="aaa83-140">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="aaa83-140">Close the page.</span></span>
-35. <span data-ttu-id="aaa83-141">Vá para Contas a receber > Pagamentos > Diário de pagamentos.</span><span class="sxs-lookup"><span data-stu-id="aaa83-141">Go to Accounts receivable > Payments > Payment journal.</span></span>
-36. <span data-ttu-id="aaa83-142">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="aaa83-142">Click New.</span></span>
-37. <span data-ttu-id="aaa83-143">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="aaa83-143">In the list, mark the selected row.</span></span>
-38. <span data-ttu-id="aaa83-144">No campo Nome, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="aaa83-144">In the Name field, enter or select a value.</span></span>
-39. <span data-ttu-id="aaa83-145">Clique em Linhas.</span><span class="sxs-lookup"><span data-stu-id="aaa83-145">Click Lines.</span></span>
-40. <span data-ttu-id="aaa83-146">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="aaa83-146">In the list, mark the selected row.</span></span>
-41. <span data-ttu-id="aaa83-147">No campo Conta, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="aaa83-147">In the Account field, specify the desired values.</span></span>
-42. <span data-ttu-id="aaa83-148">Clique em Liquidar transações.</span><span class="sxs-lookup"><span data-stu-id="aaa83-148">Click Settle transactions.</span></span>
-43. <span data-ttu-id="aaa83-149">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="aaa83-149">In the list, find and select the desired record.</span></span>
-44. <span data-ttu-id="aaa83-150">Marque a caixa de seleção Marcar.</span><span class="sxs-lookup"><span data-stu-id="aaa83-150">Select the Mark check box.</span></span>
-45. <span data-ttu-id="aaa83-151">Marque a caixa de seleção Marcar.</span><span class="sxs-lookup"><span data-stu-id="aaa83-151">Select the Mark check box.</span></span>
-46. <span data-ttu-id="aaa83-152">Clique na guia Imposto retido na fonte.</span><span class="sxs-lookup"><span data-stu-id="aaa83-152">Click the Withholding tax tab.</span></span>
-47. <span data-ttu-id="aaa83-153">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="aaa83-153">Click OK.</span></span>
-48. <span data-ttu-id="aaa83-154">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="aaa83-154">In the list, mark the selected row.</span></span>
-49. <span data-ttu-id="aaa83-155">No campo Descrição, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="aaa83-155">In the Description field, enter or select a value.</span></span>
-50. <span data-ttu-id="aaa83-156">No campo Contrapartida, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="aaa83-156">In the Offset account field, specify the desired values.</span></span>
-51. <span data-ttu-id="aaa83-157">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="aaa83-157">Click Post.</span></span>
-52. <span data-ttu-id="aaa83-158">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="aaa83-158">Close the page.</span></span>
-53. <span data-ttu-id="aaa83-159">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="aaa83-159">Close the page.</span></span>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="br-00042-withholding-taxes-customers-payments.md" target-language="pt-BR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>br-00042-withholding-taxes-customers-payments.552f4f.a43c68b4067850cea8ca78c2cf1c03d6ee82bb8c.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>a43c68b4067850cea8ca78c2cf1c03d6ee82bb8c</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\br-00042-withholding-taxes-customers-payments.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Withholding taxes on customer payments (Brazil)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impostos retidos na fonte em pagamentos de clientes (Brasil)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>You use the Journal voucher page to enter and post payments that you receive from customers for the sale of items or services.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Use a página Comprovante de diário para inserir e lançar pagamentos recebidos de clientes pela venda de itens ou serviços.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Withholding taxes on customer payments (Brazil)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impostos retidos na fonte em pagamentos de clientes (Brasil)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>You use the Journal voucher page to enter and post payments that you receive from customers for the sale of items or services.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Use a página Comprovante de diário para inserir e lançar pagamentos recebidos de clientes pela venda de itens ou serviços.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>When you post a customer payment journal, the withholding tax group that is set up for the customer is used to calculate the withholding tax on the transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando você lança um diário de pagamento de cliente, o grupo de impostos retidos na fonte que está configurado para o cliente é usado para calcular o imposto retido na fonte na transação.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>This task uses the BRMF demo company.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta tarefa usa a empresa de demonstração BRMF.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Go to Accounts receivable &gt; Customers &gt; All customers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ir para Contas recebíveis &gt; Clientes &gt; Todos os clientes.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>In the list, find and select the desired record.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, localize e selecione o PDV desejado.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>In the list, click the link in the selected row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, clique no link na linha selecionada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Expand the Invoice and delivery section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Expanda a seção Fatura e entrega.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Click Edit.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Editar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Select Yes in the Calculate withholding tax field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione Sim no campo Calcular imposto retido na fonte.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>In the Withholding tax group field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Grupo de impostos retidos na fonte, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Go to Sales and marketing &gt; Sales orders &gt; All sales orders.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Vendas e marketing &gt; Ordens de venda &gt; Todas as ordens de venda.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>In the Customer account field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Conta de cliente, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>In the list, mark the selected row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, marque a linha selecionada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>In the Item number field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Número do item, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>In the Quantity field, enter a number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Quantidade, insira um número.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>In the Site field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Local, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>Expand the Line details section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Expanda a seção Detalhes da linha.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Click the Setup tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique na guia Configuração.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>In the Item withholding tax group field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Grupo de impostos retidos na fonte do item, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>In the Withholding tax group field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Grupo de impostos retidos na fonte, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>Click the Fiscal information tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique na guia Informações fiscais.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>In the Fiscal document type field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Nota fiscal, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>In the Service code field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Código de serviço, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>Click Invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Fatura.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>In the Quantity field, select an option.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Quantidade, selecione uma opção.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>Select Yes in the Print invoice field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione Sim no campo Imprimir fatura.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>Click Yes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Sim.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>Go to Accounts receivable &gt; Payments &gt; Payment journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Contas a receber &gt; Pagamentos &gt; Diário de pagamentos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>In the list, mark the selected row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, marque a linha selecionada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>In the Name field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Nome, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Click Lines.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Linhas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>In the list, mark the selected row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, marque a linha selecionada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>In the Account field, specify the desired values.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Conta, especifique os valores desejados.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Click Settle transactions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Liquidar transações.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>In the list, find and select the desired record.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, localize e selecione o PDV desejado.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>Select the Mark check box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Marque a caixa de seleção Marcar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>Select the Mark check box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Marque a caixa de seleção Marcar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>Click the Withholding tax tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique na guia Imposto retido na fonte.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>In the list, mark the selected row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, marque a linha selecionada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>In the Description field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Descrição, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>In the Offset account field, specify the desired values.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Contrapartida, especifique os valores desejados.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>Click Post.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Lançar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

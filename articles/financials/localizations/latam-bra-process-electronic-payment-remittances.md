@@ -1,46 +1,72 @@
----
-title: Processar remessas de pagamento eletrônico
-description: Você pode criar instruções para o pagamento eletrônico de faturas do fornecedor que devem ser enviadas ao banco.
-author: v-gonode
-manager: AnnBe
-ms.date: 06/20/2017
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.search.region: Brazil
-ms.author: v-gonode
-ms.search.validFrom: 2017-06-30
-ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5501c5ccd61230ec9c1ff26b93e81535dccdc65d
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1513012"
----
-# <a name="process-electronic-payment-remittances-for-brazil"></a><span data-ttu-id="ef0a3-103">Processar remessas de pagamento eletrônico para o Brasil</span><span class="sxs-lookup"><span data-stu-id="ef0a3-103">Process electronic payment remittances for Brazil</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="ef0a3-104">Utilize esta funcionalidade para criar o arquivo que deve ser enviado ao banco com as instruções para o pagamento eletrônico de faturas do fornecedor.</span><span class="sxs-lookup"><span data-stu-id="ef0a3-104">Use this functionality to create the file that must be sent to the bank with the instructions for electronic payment of vendor invoices.</span></span>
-
-1.  <span data-ttu-id="ef0a3-105">Na página **Diário de pagamentos**, clique em **Novo**.</span><span class="sxs-lookup"><span data-stu-id="ef0a3-105">On the **Payment journal** page, click **New**.</span></span>
-3.  <span data-ttu-id="ef0a3-106">No campo Nome, insira um nome para o diário de pagamentos.</span><span class="sxs-lookup"><span data-stu-id="ef0a3-106">In the Name field, enter a name of the payment journal.</span></span>
-4.  <span data-ttu-id="ef0a3-107">Clique em **Linhas**.</span><span class="sxs-lookup"><span data-stu-id="ef0a3-107">Click **Lines**.</span></span>
-5.  <span data-ttu-id="ef0a3-108">No campo **Conta**, selecione a conta.</span><span class="sxs-lookup"><span data-stu-id="ef0a3-108">In the **Account** field, select the account.</span></span>
-6.  <span data-ttu-id="ef0a3-109">No campo **Descrição**, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="ef0a3-109">In the **Description** field, enter or select a value.</span></span>
-7.  <span data-ttu-id="ef0a3-110">Clique em **Liquidar transações** e, na lista, encontre e selecione as transações a liquidar.</span><span class="sxs-lookup"><span data-stu-id="ef0a3-110">Click **Settle transactions** and in the list, find and select the transactions to settle.</span></span>
-8.  <span data-ttu-id="ef0a3-111">Clique na guia **Pagamento** e no campo **Método de pagamento** selecione um método de pagamento.</span><span class="sxs-lookup"><span data-stu-id="ef0a3-111">Click the **Payment** tab and in the **Method of payment** field, select a method of payment.</span></span>
-9.  <span data-ttu-id="ef0a3-112">No campo **Especificação de Pagamento**, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="ef0a3-112">In the **Payment specification** field, enter or select a value.</span></span>
-10. <span data-ttu-id="ef0a3-113">No campo **Código de barras**, digite um valor</span><span class="sxs-lookup"><span data-stu-id="ef0a3-113">In the **Bar code** field, type a value.</span></span>
-11. <span data-ttu-id="ef0a3-114">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="ef0a3-114">Click **OK**.</span></span>
-12. <span data-ttu-id="ef0a3-115">Clique em **Gerar pagamentos** e, no campo **Método de pagamento**, selecione um método de pagamento.</span><span class="sxs-lookup"><span data-stu-id="ef0a3-115">Click **Generate payments** and in the **Method of payment** field, select a method of payment.</span></span>
-13. <span data-ttu-id="ef0a3-116">No campo **Conta bancária**, insira ou selecione uma conta bancária.</span><span class="sxs-lookup"><span data-stu-id="ef0a3-116">In the **Bank account** field, enter or select a bank account.</span></span>
-14. <span data-ttu-id="ef0a3-117">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="ef0a3-117">Click **OK**.</span></span>
-15. <span data-ttu-id="ef0a3-118">Clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="ef0a3-118">Click **Save**.</span></span>
-
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="latam-bra-process-electronic-payment-remittances.md" target-language="pt-BR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>latam-bra-process-electronic-payment-remittances.be0dfd.4ecf4c40fc95605ee3bd53ba081ebf79fa3543c0.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>4ecf4c40fc95605ee3bd53ba081ebf79fa3543c0</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\latam-bra-process-electronic-payment-remittances.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Process electronic payment remittances</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Processar remessas de pagamento eletrônico</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>You can create the instructions for electronic payment of vendor invoices that must be sent to the bank.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você pode criar instruções para o pagamento eletrônico de faturas do fornecedor que devem ser enviadas ao banco.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Process electronic payment remittances for Brazil</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Processar remessas de pagamento eletrônico para o Brasil</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>Use this functionality to create the file that must be sent to the bank with the instructions for electronic payment of vendor invoices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Utilize esta funcionalidade para criar o arquivo que deve ser enviado ao banco com as instruções para o pagamento eletrônico de faturas do fornecedor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>On the <bpt id="p1">**</bpt>Payment journal<ept id="p1">**</ept> page, click <bpt id="p2">**</bpt>New<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na página <bpt id="p1">**</bpt>Diário de pagamentos<ept id="p1">**</ept>, clique em <bpt id="p2">**</bpt>Novo<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>In the Name field, enter a name of the payment journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Nome, insira um nome para o diário de pagamentos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Click <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em <bpt id="p1">**</bpt>Linhas<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>In the <bpt id="p1">**</bpt>Account<ept id="p1">**</ept> field, select the account.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo <bpt id="p1">**</bpt>Conta<ept id="p1">**</ept>, selecione a conta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>In the <bpt id="p1">**</bpt>Description<ept id="p1">**</ept> field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo <bpt id="p1">**</bpt>Descrição<ept id="p1">**</ept>, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Click <bpt id="p1">**</bpt>Settle transactions<ept id="p1">**</ept> and in the list, find and select the transactions to settle.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em <bpt id="p1">**</bpt>Liquidar transações<ept id="p1">**</ept> e, na lista, encontre e selecione as transações a liquidar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Click the <bpt id="p1">**</bpt>Payment<ept id="p1">**</ept> tab and in the <bpt id="p2">**</bpt>Method of payment<ept id="p2">**</ept> field, select a method of payment.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique na guia <bpt id="p1">**</bpt>Pagamento<ept id="p1">**</ept> e no campo <bpt id="p2">**</bpt>Método de pagamento<ept id="p2">**</ept> selecione um método de pagamento.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>In the <bpt id="p1">**</bpt>Payment specification<ept id="p1">**</ept> field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo <bpt id="p1">**</bpt>Especificação de Pagamento<ept id="p1">**</ept>, insira ou selecione um valor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>In the <bpt id="p1">**</bpt>Bar code<ept id="p1">**</ept> field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo <bpt id="p1">**</bpt>Código de barras<ept id="p1">**</ept>, digite um valor</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Click <bpt id="p1">**</bpt>Generate payments<ept id="p1">**</ept> and in the <bpt id="p2">**</bpt>Method of payment<ept id="p2">**</ept> field, select a method of payment.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em <bpt id="p1">**</bpt>Gerar pagamentos<ept id="p1">**</ept> e, no campo <bpt id="p2">**</bpt>Método de pagamento<ept id="p2">**</ept>, selecione um método de pagamento.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>In the <bpt id="p1">**</bpt>Bank account<ept id="p1">**</ept> field, enter or select a bank account.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo <bpt id="p1">**</bpt>Conta bancária<ept id="p1">**</ept>, insira ou selecione uma conta bancária.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Click <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em <bpt id="p1">**</bpt>Salvar<ept id="p1">**</ept>.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
