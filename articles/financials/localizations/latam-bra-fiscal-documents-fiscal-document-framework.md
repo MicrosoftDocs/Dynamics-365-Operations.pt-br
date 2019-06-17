@@ -1,72 +1,177 @@
----
-title: Notas fiscais e suas estruturas para o Brasil
-description: Este tópico descreve as notas fiscais do Brasil.
-author: sndray
-manager: AnnBe
-ms.date: 06/20/2017
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: FiscalDocument_BR, FiscalDocumentAmounts_BR, FiscalDocumentChargesTotals_BR, FiscalDocumentElectronic_BR
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.custom: 269094
-ms.search.region: Brazil
-ms.author: sndray
-ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: aa0ed93c2f0d1eb4d81b852947de6e7873e96bd4
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1513003"
----
-# <a name="fiscal-documents-and-fiscal-document-framework-for-brazil"></a>Notas fiscais e suas estruturas para o Brasil
-
-[!include [banner](../includes/banner.md)]
-
-Este tópico descreve as notas fiscais do Brasil.
-
-<a name="overview"></a>Visão Geral
---------
-
-Nota fiscal é um documento legal que registra a transferência de propriedade de um item ou serviço fornecido por um estabelecimento fiscal (emissor) para uma pessoa ou outro estabelecimento fiscal (cliente, fornecedor, subsidiária ou filial). Uma nota fiscal é usada para registrar impostos. Cada estabelecimento fiscal emite e recebe notas fiscais para todas as transações, incluindo vendas, compras, ajustes de impostos e transferências de item ou ativo. As notas fiscais podem ser geradas usando os seguintes formatos:
--   Nota fiscal impressa – a nota fiscal é impressa em papel.
--   Nota fiscal eletrônica – uma nota fiscal digital é emitida e recebida em formato eletrônico. Uma nota fiscal eletrônica pode ser uma NF-e (nota fiscal eletrônica) federal, que é gerada para itens e relatada no nível estadual ou federal pode ser uma NF-e municipal, que é gerada para serviços e relatada no nível municipal.
-
-Todas as notas fiscais emitidas ou recebidas por um estabelecimento fiscal devem ser relatadas no nível de autoridade federal, estadual ou municipal. As notas fiscais devem ser relatadas em formatos específicos, como relatório fiscal do SPED (Sistema Público de Escrituração Digital) ou livros fiscais, PIS/COFINS (Programa de Integração Social/Contribuição para o Financiamento da Seguridade Social) do SPED ou SINTEGRA (Sistema Integrado de Informações sobre Operações Interestaduais com Mercadorias e Serviços). A estrutura da nota fiscal é usada para garantir que todos os documentos fiscais lançados estejam em conformidade com uma estrutura específica, independentemente do processo que é usado para gerar o documento fiscal. Você pode revisar as notas fiscais lançadas na página de listagem **Todas as notas fiscais**. Você pode verificar as transações de nota fiscal, os impostos lançados, os encargos lançados, os documentos fiscais referenciados e o texto da nota fiscal de uma nota fiscal lançada. A estrutura da nota fiscal também garante que todas as informações relacionadas usem o formato correto. As informações relacionadas incluem:
--   Relações entre notas fiscais e seus documentos de origem.
--   Texto da nota fiscal, processos referenciados, referências fiscais, faturas e prestações, imposto lançado e encargos lançados.
-
-## <a name="view-and-print-fiscal-documents"></a>Exibir e imprimir as notas fiscais.
-Você pode exibir e imprimir todas as notas fiscais das seguintes páginas:
--   **Contas a receber** &gt; **Notas fiscais** &gt; **Todas as notas fiscais**
--   **Contas a pagar** &gt; **Notas fiscais** &gt; **Todas as notas fiscais**
--   **Contabilidade** &gt; **Consulta e relatórios** &gt; **Notas fiscais** &gt; **Todas as notas fiscais**
--   **Gerenciamento de estoque** &gt; **Ordens de entradas** &gt; **Todas as notas fiscais**
--   **Gerenciamento de estoque** &gt; **Ordens de saída** &gt; **Todas as notas fiscais**
--   **Gerenciamento e contabilidade de projeto** &gt; **Nota fiscal** &gt; **Todas as notas fiscais**
--   **Livros fiscais** &gt; **Período de escrituração**
-
-## <a name="actions"></a>Ações
-Depois que uma nota fiscal for lançada, o usuário poderá ver as informações a seguir.
-
-| **Botão de ação**                 | **Descrição**                                                                                                                                                                                                                                                                                                                                                      |
-|-----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Nota fiscal complementar** | Na página **Nota fiscal complementar de compra** ou na página **Nota fiscal complementar de venda** você pode criar uma nota fiscal complementar de compra ou de venda. A página **Nota fiscal complementar de compra** ou a página **Nota fiscal complementar de venda** é determinada pelo tipo de nota fiscal (fornecedor ou cliente) selecionada. |
-| **Totais**                        | Exibe os totais da nota fiscal.                                                                                                                                                                                                                                                                                                                             |
-| **Comprovante**                       | Exibe as transações do comprovante da nota fiscal.                                                                                                                                                                                                                                                                                                               |
-| **Encargos**                       | Exibe os encargos da nota fiscal.                                                                                                                                                                                                                                                                                                                            |
-| **Imposto sobre vendas**              | Exibe o impostos sobre vendas lançado para a nota fiscal.                                                                                                                                                                                                                                                                                                                   |
-| **Documento original**             | Exibe a transação lançada na qual a nota fiscal é gerada.                                                                                                                                                                                                                                                                                               |
-| **Textos das notas fiscais**         | Exibe os textos das notas fiscais associados à nota fiscal.                                                                                                                                                                                                                                                                                             |
-| **Referência fiscal**              | Exibe as referências fiscais associadas à nota fiscal.                                                                                                                                                                                                                                                                                                 |
-| **Declaração de importação**            | Exibe informações de declaração de importação para a nota fiscal.                                                                                                                                                                                                                                                                                                     |
-
-
-
-
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="latam-bra-fiscal-documents-fiscal-document-framework.md" target-language="pt-BR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>latam-bra-fiscal-documents-fiscal-document-framework.5a1525.e20c020be3e95612c7a6f556fe0993ddb45d14bd.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>e20c020be3e95612c7a6f556fe0993ddb45d14bd</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\latam-bra-fiscal-documents-fiscal-document-framework.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Fiscal documents and fiscal document framework for Brazil</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Notas fiscais e suas estruturas para o Brasil</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic describes fiscal documents for Brazil.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este tópico descreve as notas fiscais do Brasil.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Fiscal documents and fiscal document framework for Brazil</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Notas fiscais e suas estruturas para o Brasil</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic describes fiscal documents for Brazil.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este tópico descreve as notas fiscais do Brasil.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>Overview</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visão Geral</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>A fiscal document is a legal document that registers the transfer of ownership of an item or service that is provided by a fiscal establishment (issuer) to a person or another fiscal establishment (customer, vendor, subsidiary, or branch).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nota fiscal é um documento legal que registra a transferência de propriedade de um item ou serviço fornecido por um estabelecimento fiscal (emissor) para uma pessoa ou outro estabelecimento fiscal (cliente, fornecedor, subsidiária ou filial).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>A fiscal document is used to register taxes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uma nota fiscal é usada para registrar impostos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Fiscal documents are issued and received by each fiscal establishment for all transactions, including sales, purchases, tax adjustments, and item or asset transfers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cada estabelecimento fiscal emite e recebe notas fiscais para todas as transações, incluindo vendas, compras, ajustes de impostos e transferências de item ou ativo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Fiscal documents can be generated by using the following formats:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As notas fiscais podem ser geradas usando os seguintes formatos:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Printed fiscal document – The fiscal document is printed on paper.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nota fiscal impressa – a nota fiscal é impressa em papel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Electronic fiscal document – A digital fiscal document is issued and received in an electronic format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nota fiscal eletrônica – uma nota fiscal digital é emitida e recebida em formato eletrônico.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>An electronic fiscal document can be a federal electronic fiscal document (NF-e), which is generated for items and reported at the state or federal level, or it can be a municipal NF-e, which is generated for services and reported at the municipal level.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uma nota fiscal eletrônica pode ser uma NF-e (nota fiscal eletrônica) federal, que é gerada para itens e relatada no nível estadual ou federal pode ser uma NF-e municipal, que é gerada para serviços e relatada no nível municipal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>All fiscal documents that are issued or received by a fiscal establishment must be reported at the federal, state, or municipal authority level.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todas as notas fiscais emitidas ou recebidas por um estabelecimento fiscal devem ser relatadas no nível de autoridade federal, estadual ou municipal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>The fiscal documents must be reported in specific formats, such as Sistema Público de Escrituração Digital (SPED) fiscal or fiscal books, SPED Programa de Integração Social/Contribuição para o financiamente da securidade social (SPED PIS/COFINS), or Sistema Integrado de Informações sobre Operações Interestaduais com Mercadorias e Serviços (SINTEGRA).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As notas fiscais devem ser relatadas em formatos específicos, como relatório fiscal do SPED (Sistema Público de Escrituração Digital) ou livros fiscais, PIS/COFINS (Programa de Integração Social/Contribuição para o Financiamento da Seguridade Social) do SPED ou SINTEGRA (Sistema Integrado de Informações sobre Operações Interestaduais com Mercadorias e Serviços).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>The fiscal document framework is used to ensure that all of the posted fiscal documents conform to a specific structure, regardless of the process that is used to generate the fiscal document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A estrutura da nota fiscal é usada para garantir que todos os documentos fiscais lançados estejam em conformidade com uma estrutura específica, independentemente do processo que é usado para gerar o documento fiscal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>You can review the posted fiscal documents on the <bpt id="p1">**</bpt>All fiscal documents<ept id="p1">**</ept> list page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você pode revisar as notas fiscais lançadas na página de listagem <bpt id="p1">**</bpt>Todas as notas fiscais<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>You can review the fiscal document transactions, posted sales taxes, posted charges, referenced fiscal documents, and fiscal document text for a posted fiscal document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você pode verificar as transações de nota fiscal, os impostos lançados, os encargos lançados, os documentos fiscais referenciados e o texto da nota fiscal de uma nota fiscal lançada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>The fiscal document framework also ensures that all related information uses the correct format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A estrutura da nota fiscal também garante que todas as informações relacionadas usem o formato correto.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Related information includes:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As informações relacionadas incluem:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Relationships between fiscal documents and their source documents.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Relações entre notas fiscais e seus documentos de origem.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Fiscal document text, referenced processes, fiscal references, invoices and installments, posted sales tax, and posted charges.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Texto da nota fiscal, processos referenciados, referências fiscais, faturas e prestações, imposto lançado e encargos lançados.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>View and print fiscal documents</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Exibir e imprimir as notas fiscais.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>You can view and print all fiscal documents from the following pages:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você pode exibir e imprimir todas as notas fiscais das seguintes páginas:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source><bpt id="p1">**</bpt>Accounts receivable<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Fiscal documents<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>All fiscal documents<ept id="p3">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Contas a receber<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Notas fiscais<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Todas as notas fiscais<ept id="p3">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source><bpt id="p1">**</bpt>Accounts payable<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Fiscal documents<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>All fiscal documents<ept id="p3">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Contas a pagar<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Notas fiscais<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Todas as notas fiscais<ept id="p3">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source><bpt id="p1">**</bpt>General ledger<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Inquire and reports<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Fiscal documents<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>All fiscal documents<ept id="p4">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Contabilidade<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Consulta e relatórios<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Notas fiscais<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Todas as notas fiscais<ept id="p4">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source><bpt id="p1">**</bpt>Inventory management<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Inbound orders<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>All fiscal documents<ept id="p3">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Gerenciamento de estoque<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Ordens de entradas<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Todas as notas fiscais<ept id="p3">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source><bpt id="p1">**</bpt>Inventory management<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Outbound orders<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>All fiscal documents<ept id="p3">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Gerenciamento de estoque<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Ordens de saída<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Todas as notas fiscais<ept id="p3">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source><bpt id="p1">**</bpt>Project management and accounting<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Fiscal document<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>All fiscal documents<ept id="p3">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Gerenciamento e contabilidade de projeto<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Nota fiscal<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Todas as notas fiscais<ept id="p3">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source><bpt id="p1">**</bpt>Fiscal books<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Booking period<ept id="p2">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Livros fiscais<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Período de escrituração<ept id="p2">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Actions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ações</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>After a fiscal document is posted, the user can see the following information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Depois que uma nota fiscal for lançada, o usuário poderá ver as informações a seguir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source><bpt id="p1">**</bpt>Action button<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Botão de ação<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source><bpt id="p1">**</bpt>Description<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Descrição<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source><bpt id="p1">**</bpt>Complementary fiscal document<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Nota fiscal complementar<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>On the <bpt id="p1">**</bpt>Purchase complementary fiscal document<ept id="p1">**</ept> page or the <bpt id="p2">**</bpt>Sales complementary fiscal document<ept id="p2">**</ept> page you can create a purchase or sales complementary fiscal document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na página <bpt id="p1">**</bpt>Nota fiscal complementar de compra<ept id="p1">**</ept> ou na página <bpt id="p2">**</bpt>Nota fiscal complementar de venda<ept id="p2">**</ept> você pode criar uma nota fiscal complementar de compra ou de venda.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>The <bpt id="p1">**</bpt>Purchase complementary fiscal document<ept id="p1">**</ept> page or <bpt id="p2">**</bpt>Sales complementary fiscal document<ept id="p2">**</ept> page is determined by the type of fiscal document (vendor or customer) that is selected.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A página <bpt id="p1">**</bpt>Nota fiscal complementar de compra<ept id="p1">**</ept> ou a página <bpt id="p2">**</bpt>Nota fiscal complementar de venda<ept id="p2">**</ept> é determinada pelo tipo de nota fiscal (fornecedor ou cliente) selecionada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source><bpt id="p1">**</bpt>Totals<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Totais<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>View the totals for the fiscal document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Exibe os totais da nota fiscal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source><bpt id="p1">**</bpt>Voucher<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Comprovante<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>View the voucher transactions for the fiscal document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Exibe as transações do comprovante da nota fiscal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source><bpt id="p1">**</bpt>Charges<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Encargos<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>View the charges for the fiscal document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Exibe os encargos da nota fiscal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source><bpt id="p1">**</bpt>Posted sales tax<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Imposto sobre vendas<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>View the posted sales tax for the fiscal document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Exibe o impostos sobre vendas lançado para a nota fiscal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source><bpt id="p1">**</bpt>Original document<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Documento original<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>View the posted transaction that the fiscal document is generated for.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Exibe a transação lançada na qual a nota fiscal é gerada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source><bpt id="p1">**</bpt>Fiscal document texts<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Textos das notas fiscais<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>View the fiscal document texts that are attached to the fiscal document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Exibe os textos das notas fiscais associados à nota fiscal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source><bpt id="p1">**</bpt>Fiscal reference<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Referência fiscal<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>View the fiscal references that are attached to the fiscal document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Exibe as referências fiscais associadas à nota fiscal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source><bpt id="p1">**</bpt>Import declaration<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Declaração de importação<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>View the import declaration information for the fiscal document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Exibe informações de declaração de importação para a nota fiscal.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

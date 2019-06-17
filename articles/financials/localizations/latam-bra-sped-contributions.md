@@ -1,124 +1,201 @@
----
-title: Configurar parâmetros de SPED EFD
-description: Este tópico explica como configurar parâmetros do SPED EFD para o Brasil.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 08/27/2018
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.search.region: Brazil
-ms.author: shylaw
-ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 85e0480be5df72c361e4440eb4f67ad0e68644df
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1513009"
----
-# <a name="set-up-parameters-for-sped-efd---contributions"></a>Configurar parâmetros para SPED EFD - Contribuições
-
-[!include [banner](../includes/banner.md)]
-
-Este tópico explica como especificar parâmetros para arquivos de texto SPED EFD - Contribuições usando o formulário **Parâmetros da EFD - Contribuições**.
-
-Os arquivos de texto SPED EFD - Contribuições são gerados por entidades legais que já têm a obrigação de emitir o SPED de Contabilidade e Fiscal. Os arquivos de texto incluem as transações que representam a receita tributável e não tributável do Programa de Integração Social (PIS) e da Contribuição para o Financiamento da Seguridade Social (COFINS), e o custo ou despesas que têm um crédito de PIS e COFINS.
-
-## <a name="set-up-requirements-for-sped-efd---contributions"></a>Configurar requisitos para SPED EFD - Contribuições
-
-Para configurar os requisitos para os arquivos de texto de SPED EFD – Contribuições, siga estas etapas.
-
-1.  Selecione **Livros fiscais** \> **Configuração** \> **Parâmetros das extensões de obrigações fiscais**.
-2.  Selecione **EFD - Contribuições** e, em seguida, na Guia Rápida **Parâmetros de configuração**, selecione **Abrir**.
-
-    A página **Parâmetros da EFD - Contribuições** será exibida, na qual você pode inserir as informações necessárias dos arquivos de texto do SPED EFD – Contribuições.
-
-3.  No campo **Local do arquivo**, insira o local no qual os arquivos de texto de SPED EFD - Contribuições devem ser salvos.
-4.  No campo **Tipo de atividade**, selecione o tipo de atividade:
-
-    - Industrial ou equivalente
-    - Prestador de serviços
-    - Retail
-    - Atividade financeira
-    - Atividade imobiliária
-    - Diversas
-
-5.  No campo **Versão de layout**, selecione a versão do layout SPED EFD – Contribuições.
-6.  No campo **Tipo de entidade legal**, selecione o tipo de entidade legal.
-7.  No campo **Tipo de empresa**, selecione o tipo de empresa:
-
-    - PJ em geral
-    - PJ componente do sistema financeiro
-    - Sociedades seguradoras ou de capitalização ou fundos de pensão complementares abertos
-
-8. No campo **Natureza legal** , insira o código da natureza legal, de acordo com a tabela do SPED EFD.
-9. Definir a opção **CPRB** como **Sim** para habilitar a apuração do imposto CPRB. Esta opção é usada nas instruções SPED Reinf.
-10. No campo **Código de classificação de imposto** , selecione o código de classificação de imposto. Este campo é usado nas instruções SPED Reinf.
-11. Defina a opção **Acordo internacional para a isenção de multas** como **Sim**.
-12. No campo **Regime de apuração**, selecione o esquema de apuração usado para SPED EFD – Contribuições:
-
-    - **Não cumulativo** – Calcula as apurações com base em faturamentos ou débitos e compras e deduções e créditos.
-    - **Cumulativo** – Calcula as apurações com base em faturamentos que não tenham deduções ou créditos.
-    - **Ambos** – Calcula as apurações com base em regimes **Não cumulativo** e **Cumulativo** .
-
-13. No campo , **Critério de escrituração e apuração**, selecione os critérios a serem usados para registrar o crédito fiscal.
-14. No campo **Tipo de contribuição apurada** , selecione o tipo de contribuição apurada.
-15. No campo **Método de apropriação de créditos**, selecione o método de alocação de crédito:
-
-    - Direto
-    - Distribuição proporcional
-
-    Este campo está disponível somente se você selecionou **Não cumulativo** ou **Ambos** no campo **Regime de apuração** .
-
-16. No campo **Opções de NFe e ECF**, selecione a opção de relatório para transações de NFe:
-
-    - **Consolidado** – Consolida todas as transações de NF-e em um registro no relatório fiscal C18X.
-    - **Detalhado** Lista todas as transações individuais no relatório fiscal.
-
-17. Na Guia Rápida **Estabelecimento fiscal** , insira as informações necessárias de SPED ECD.
-
-## <a name="record-0111"></a>Registro 0111
-
-Registro em 0111 SPED EFD - Os arquivos de texto das contribuições são gerados automaticamente quando o método de alocação de crédito for definido como **Distribuição proporcional**.
-
-O registro é gerado com base em transações de imposto que satisfaçam aos seguintes critérios.
-
-<table>
-<thead>
-<tr>
-<th>Conceito</th>
-<th>Critérios</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Receita tributável</td>
-<td><ul>
-<li><strong>Regime - não cumulativo</strong> – Transações de impostos que têm uma taxa de impostos não cumulativa e uma taxa de imposto específica.</li>
-<li><strong>Valor fiscal</strong> – Transações de impostos em que um valor fiscal é 1 (com débito).</li>
-<li><strong>CFOP</strong> – Transações de impostos nas quais o Código Fiscal de Operações e de Prestações (CFOP) começa com 5 ou 6.</li>
-</ul></td>
-</tr>
-<tr>
-<td>Receita não tributável</td>
-<td><strong>Valor fiscal</strong> – Transações de impostos em que um valor fiscal é 2 (isenção) ou 3 (outros não tributáveis).</td>
-</tr>
-<tr>
-<td>Receita estrangeira</td>
-<td><ul>
-<li><strong>Valor fiscal</strong> – Transações de impostos em que um valor fiscal é 1 (tributável).</li>
-<li><strong>CFOP</strong> – Transações de impostos em que CFOP começa com 7.</li>
-</ul></td>
-</tr>
-<tr>
-<td>Sem receita</td>
-<td>Todas as transações de impostos nas quais o código de tributação é 49 ou 99.</td>
-</tr>
-</tbody>
-</table>
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="latam-bra-sped-contributions.md" target-language="pt-BR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>latam-bra-sped-contributions.497db3.f7d079b1dd63286911fd7a6ea4da459fa3168740.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>f7d079b1dd63286911fd7a6ea4da459fa3168740</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\latam-bra-sped-contributions.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Set up parameters for SPED EFD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configurar parâmetros de SPED EFD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic explains how to set up parameters for SPED EFD for Brazil.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este tópico explica como configurar parâmetros do SPED EFD para o Brasil.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Set up parameters for SPED EFD - Contributions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configurar parâmetros para SPED EFD - Contribuições</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic explains how to specify parameters for SPED EFD - Contributions text files by using the <bpt id="p1">**</bpt>EFD – Contributions parameters<ept id="p1">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este tópico explica como especificar parâmetros para arquivos de texto SPED EFD - Contribuições usando o formulário <bpt id="p1">**</bpt>Parâmetros da EFD - Contribuições<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>The SPED EFD - Contributions text files are generated by legal entities that already have the obligation to issue Accounting and Fiscal SPED.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os arquivos de texto SPED EFD - Contribuições são gerados por entidades legais que já têm a obrigação de emitir o SPED de Contabilidade e Fiscal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>The text files include the transactions that represent the Programa de Integração Social (PIS) and Contribuição para o Financiamento da Seguridade Social (COFINS) taxable and non-taxable revenue, and the cost or expenses that have a credit of PIS and COFINS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os arquivos de texto incluem as transações que representam a receita tributável e não tributável do Programa de Integração Social (PIS) e da Contribuição para o Financiamento da Seguridade Social (COFINS), e o custo ou despesas que têm um crédito de PIS e COFINS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Set up requirements for SPED EFD - Contributions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configurar requisitos para SPED EFD - Contribuições</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>To set up requirements for SPED EFD – Contributions text files, follow these steps.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para configurar os requisitos para os arquivos de texto de SPED EFD – Contribuições, siga estas etapas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Select <bpt id="p1">**</bpt>Fiscal books<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Tax statements parameters<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione <bpt id="p1">**</bpt>Livros fiscais<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Configuração<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Parâmetros das extensões de obrigações fiscais<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Select <bpt id="p1">**</bpt>EFD - Contributions<ept id="p1">**</ept>, and then, on the <bpt id="p2">**</bpt>Setup parameters<ept id="p2">**</ept> FastTab, select <bpt id="p3">**</bpt>Open<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione <bpt id="p1">**</bpt>EFD - Contribuições<ept id="p1">**</ept> e, em seguida, na Guia Rápida <bpt id="p2">**</bpt>Parâmetros de configuração<ept id="p2">**</ept>, selecione <bpt id="p3">**</bpt>Abrir<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>The <bpt id="p1">**</bpt>EFD – Contributions parameters<ept id="p1">**</ept> page appears, where you can enter the required information for SPED EFD - Contributions text files.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A página <bpt id="p1">**</bpt>Parâmetros da EFD - Contribuições<ept id="p1">**</ept> será exibida, na qual você pode inserir as informações necessárias dos arquivos de texto do SPED EFD – Contribuições.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>In the <bpt id="p1">**</bpt>File location<ept id="p1">**</ept> field, enter the location where the SPED EFD - Contributions text files should be saved.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo <bpt id="p1">**</bpt>Local do arquivo<ept id="p1">**</ept>, insira o local no qual os arquivos de texto de SPED EFD - Contribuições devem ser salvos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>In the <bpt id="p1">**</bpt>Type of activity<ept id="p1">**</ept> field, select the activity type:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo <bpt id="p1">**</bpt>Tipo de atividade<ept id="p1">**</ept>, selecione o tipo de atividade:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Industrial or equivalent</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Industrial ou equivalente</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Services</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prestador de serviços</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Retail</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Financial activity</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atividade financeira</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Real estate activity</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atividade imobiliária</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Others</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Diversas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>In the <bpt id="p1">**</bpt>Layout version<ept id="p1">**</ept> field, select the version of the SPED EFD - Contributions layout.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo <bpt id="p1">**</bpt>Versão de layout<ept id="p1">**</ept>, selecione a versão do layout SPED EFD – Contribuições.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>In the <bpt id="p1">**</bpt>Legal entity type<ept id="p1">**</ept> field, select the type of legal entity.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo <bpt id="p1">**</bpt>Tipo de entidade legal<ept id="p1">**</ept>, selecione o tipo de entidade legal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>In the <bpt id="p1">**</bpt>Company type<ept id="p1">**</ept> field, select the type of company:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo <bpt id="p1">**</bpt>Tipo de empresa<ept id="p1">**</ept>, selecione o tipo de empresa:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>PJ in general</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PJ em geral</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>PJ member of financial system</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PJ componente do sistema financeiro</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>Insurance or capitalization societies or open-ended complementary pensions funds</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sociedades seguradoras ou de capitalização ou fundos de pensão complementares abertos</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>In the <bpt id="p1">**</bpt>Legal nature<ept id="p1">**</ept> field, enter the code for the legal nature, according to the SPED EFD table.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo <bpt id="p1">**</bpt>Natureza legal<ept id="p1">**</ept> , insira o código da natureza legal, de acordo com a tabela do SPED EFD.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Set the <bpt id="p1">**</bpt>CPRB<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> to enable CPRB tax assessment.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Definir a opção <bpt id="p1">**</bpt>CPRB<ept id="p1">**</ept> como <bpt id="p2">**</bpt>Sim<ept id="p2">**</ept> para habilitar a apuração do imposto CPRB.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>This option is used in SPED REINF statements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta opção é usada nas instruções SPED Reinf.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>In the <bpt id="p1">**</bpt>Tax classification code<ept id="p1">**</ept> field, select the tax classification code.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo <bpt id="p1">**</bpt>Código de classificação de imposto<ept id="p1">**</ept> , selecione o código de classificação de imposto.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>This field is used in SPED REINF statements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este campo é usado nas instruções SPED Reinf.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Set the <bpt id="p1">**</bpt>International agreement for exemption of fines<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Defina a opção <bpt id="p1">**</bpt>Acordo internacional para a isenção de multas<ept id="p1">**</ept> como <bpt id="p2">**</bpt>Sim<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>In the <bpt id="p1">**</bpt>Assessment regimen<ept id="p1">**</ept> field, select the assessment schema that is used for SPED EFD - Contributions:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo <bpt id="p1">**</bpt>Regime de apuração<ept id="p1">**</ept>, selecione o esquema de apuração usado para SPED EFD – Contribuições:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source><bpt id="p1">**</bpt>Non cumulative<ept id="p1">**</ept> – Calculate assessments based on billings or debits and purchases and deductions or credits.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Não cumulativo<ept id="p1">**</ept> – Calcula as apurações com base em faturamentos ou débitos e compras e deduções e créditos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source><bpt id="p1">**</bpt>Cumulative<ept id="p1">**</ept> – Calculate assessments based on billings that don't have any deductions or credits.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Cumulativo<ept id="p1">**</ept> – Calcula as apurações com base em faturamentos que não tenham deduções ou créditos.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source><bpt id="p1">**</bpt>Both<ept id="p1">**</ept> – Calculate assessments based on both the <bpt id="p2">**</bpt>Non cumulative<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Cumulative<ept id="p3">**</ept> regimens.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ambos<ept id="p1">**</ept> – Calcula as apurações com base em regimes <bpt id="p2">**</bpt>Não cumulativo<ept id="p2">**</ept> e <bpt id="p3">**</bpt>Cumulativo<ept id="p3">**</ept> .</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>In the <bpt id="p1">**</bpt>Booking and assessment criteria<ept id="p1">**</ept> field, select the criteria to use to book the tax credit.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo , <bpt id="p1">**</bpt>Critério de escrituração e apuração<ept id="p1">**</ept>, selecione os critérios a serem usados para registrar o crédito fiscal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>In the <bpt id="p1">**</bpt>Type of assessment contribution<ept id="p1">**</ept> field, select the type of assessment contribution.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo <bpt id="p1">**</bpt>Tipo de contribuição apurada<ept id="p1">**</ept> , selecione o tipo de contribuição apurada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>In the <bpt id="p1">**</bpt>Credit allocation method<ept id="p1">**</ept> field, select the method of credit allocation:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo <bpt id="p1">**</bpt>Método de apropriação de créditos<ept id="p1">**</ept>, selecione o método de alocação de crédito:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>Direct</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Direto</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>Proportional distribution</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Distribuição proporcional</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>This field is available only if you selected <bpt id="p1">**</bpt>Non cumulative<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Both<ept id="p2">**</ept> in the <bpt id="p3">**</bpt>Assessment regimen<ept id="p3">**</ept> field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este campo está disponível somente se você selecionou <bpt id="p1">**</bpt>Não cumulativo<ept id="p1">**</ept> ou <bpt id="p2">**</bpt>Ambos<ept id="p2">**</ept> no campo <bpt id="p3">**</bpt>Regime de apuração<ept id="p3">**</ept> .</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>In the <bpt id="p1">**</bpt>NFe and ECF options<ept id="p1">**</ept> field, select the reporting option for NFe transactions:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo <bpt id="p1">**</bpt>Opções de NFe e ECF<ept id="p1">**</ept>, selecione a opção de relatório para transações de NFe:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source><bpt id="p1">**</bpt>Consolidated<ept id="p1">**</ept> – Consolidate all NFe transactions into one record on the C18X fiscal report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Consolidado<ept id="p1">**</ept> – Consolida todas as transações de NF-e em um registro no relatório fiscal C18X.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source><bpt id="p1">**</bpt>Detailed<ept id="p1">**</ept> – List all individual transactions on the fiscal report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Detalhado<ept id="p1">**</ept> Lista todas as transações individuais no relatório fiscal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>On the <bpt id="p1">**</bpt>Fiscal establishment<ept id="p1">**</ept> FastTab, enter the required SPED ECD information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na Guia Rápida <bpt id="p1">**</bpt>Estabelecimento fiscal<ept id="p1">**</ept> , insira as informações necessárias de SPED ECD.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Record 0111</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Registro 0111</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Record 0111 in SPED EFD - Contributions text files is automatically generated when the credit allocation method is set to <bpt id="p1">**</bpt>Proportional distribution<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Registro em 0111 SPED EFD - Os arquivos de texto das contribuições são gerados automaticamente quando o método de alocação de crédito for definido como <bpt id="p1">**</bpt>Distribuição proporcional<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>The record is generated based on tax transactions that meet the following criteria.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O registro é gerado com base em transações de imposto que satisfaçam aos seguintes critérios.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Concept</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Conceito</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>Criteria</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Critérios</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>Taxable income</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Receita tributável</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Regime - Non cumulative<ept id="p1">&lt;/strong&gt;</ept> – Tax transactions that have a non-cumulative tax rate and a specific tax rate.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Regime - não cumulativo<ept id="p1">&lt;/strong&gt;</ept> – Transações de impostos que têm uma taxa de impostos não cumulativa e uma taxa de imposto específica.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Fiscal Value<ept id="p1">&lt;/strong&gt;</ept> – Tax transactions where the fiscal value is 1 (with debit).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Valor fiscal<ept id="p1">&lt;/strong&gt;</ept> – Transações de impostos em que um valor fiscal é 1 (com débito).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>CFOP<ept id="p1">&lt;/strong&gt;</ept> – Tax transactions where the Código Fiscal de Operações e de Prestações (CFOP) starts with 5 or 6.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>CFOP<ept id="p1">&lt;/strong&gt;</ept> – Transações de impostos nas quais o Código Fiscal de Operações e de Prestações (CFOP) começa com 5 ou 6.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Non-taxable income</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Receita não tributável</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Fiscal Value<ept id="p1">&lt;/strong&gt;</ept> – Tax transactions where the fiscal value is 2 (exempt) or 3 (non taxable others).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Valor fiscal<ept id="p1">&lt;/strong&gt;</ept> – Transações de impostos em que um valor fiscal é 2 (isenção) ou 3 (outros não tributáveis).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>Foreign income</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Receita estrangeira</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Fiscal Value<ept id="p1">&lt;/strong&gt;</ept> – Tax transactions where the fiscal value is 1 (taxable).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Valor fiscal<ept id="p1">&lt;/strong&gt;</ept> – Transações de impostos em que um valor fiscal é 1 (tributável).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>CFOP<ept id="p1">&lt;/strong&gt;</ept> – Tax transactions where the CFOP starts with 7.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>CFOP<ept id="p1">&lt;/strong&gt;</ept> – Transações de impostos em que CFOP começa com 7.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Non revenue</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sem receita</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>All tax transactions where the taxation code is 49 or 99.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todas as transações de impostos nas quais o código de tributação é 49 ou 99.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
