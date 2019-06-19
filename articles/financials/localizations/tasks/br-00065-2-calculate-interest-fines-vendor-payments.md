@@ -1,219 +1,89 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="br-00065-2-calculate-interest-fines-vendor-payments.md" target-language="pt-BR">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>br-00065-2-calculate-interest-fines-vendor-payments.812ea5.c1eddb15792b04af5b23b27905dcb84e58dfba74.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>c1eddb15792b04af5b23b27905dcb84e58dfba74</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\br-00065-2-calculate-interest-fines-vendor-payments.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Calculate interest and fines on vendor payments (Brazil)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Calcular juros e multas sobre pagamentos de fornecedores (Brasil)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>You can apply interest and fines on vendor payments that are delayed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você pode aplicar juros e multas a pagamentos de fornecedor que estejam atrasados.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Calculate interest and fines on vendor payments (Brazil)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Calcular juros e multas sobre pagamentos de fornecedores (Brasil)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>You can apply interest and fines on vendor payments that are delayed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você pode aplicar juros e multas a pagamentos de fornecedor que estejam atrasados.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>The interest and fine amounts that apply to a payment can be calculated when you make a payment to a vendor.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os valores dos juros e da multa que se aplicam a um pagamento podem ser calculados quando você faz um pagamento para um fornecedor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>Before you calculate interest or fine codes for vendor payments, you must set up a list of bank holidays and national holidays.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Antes de calcular os códigos de juros ou de multa para pagamentos de fornecedor, você deverá configurar uma lista de feriados bancários e de feriados nacionais.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>A holiday date that is set up on the Payment calendar page is considered a non-working day.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uma data de feriado que é configurada na página Calendário de pagamentos será considerada como um dia que não é útil.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>If an invoice is due on a non-working day, the due date is moved to the next working day in the calendar, and the interest and fines are calculated accordingly.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se uma fatura vencer em um dia que não seja útil, a data de vencimento se deslocará para o próximo dia útil no calendário, e os juros e as multas serão calculadas de acordo com essa data.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>This task uses the BRMF demo company.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta tarefa usa a empresa de demonstração BRMF.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Go to Accounts payable &gt; Vendors &gt; All vendors.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Contas a pagar &gt; Fornecedores &gt; Todos os fornecedores.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>In the list, find and select the desired record.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, localize e selecione o PDV desejado.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>In the list, click the link in the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, clique no link na linha selecionada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Expand the Payment section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Expandir a seção Pagamento.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Click Edit.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Editar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>In the Payment schedule field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Plano de pagamento, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>In the list, click the link in the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, clique no link na linha selecionada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>In the Fine code field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Código de juros, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>In the list, click the link in the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, clique no link na linha selecionada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>In the Interest code field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Código de juros, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Go to Procurement and sourcing &gt; Purchase orders &gt; All purchase orders.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Aquisição e fornecimento &gt; Ordens de compra &gt; Todas as ordens de compra.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>In the Vendor account field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Conta de fornecedor, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Click Add line.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Adicionar nova linha.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>In the list, mark the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, marque a linha selecionada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>In the Item number field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Número do item, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>In the CFOP field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo CFOP, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>In the Quantity field, enter a number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Quantidade, insira um número.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>On the Action Pane, click Purchase.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No Painel de Ação, clique em Compra.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Click Confirm.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Confirmar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Go to Accounts payable &gt; Purchase orders &gt; All purchase orders.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Contas a pagar &gt; Ordens de compra &gt; Todas as ordens de compra.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>In the list, click the link in the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, clique no link na linha selecionada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>On the Action Pane, click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No Painel de Ação, clique em Fatura.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Fatura.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Click Default from: Product receipt quantity to open the drop dialog.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Padrão de: Quantidade de recebimento de produtos para abrir a caixa de diálogo suspensa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>In the Default quantity for lines field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Quantidade padrão para linhas, selecione uma opção.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>In the Access key field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Chave de acesso, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>In the Invoice date field, enter a date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Data da fatura, insira uma data.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Click Post.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Lançar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Go to Accounts payable &gt; Payments &gt; Payment journal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Contas a pagar &gt; Pagamentos &gt; Diário de pagamentos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>In the list, mark the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, marque a linha selecionada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>In the Name field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Nome, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Click Lines.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Linhas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>In the list, mark the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, marque a linha selecionada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>In the Date field, enter a date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Data, insira uma data.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>In the Account field, specify the desired values.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Conta, especifique os valores desejados.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>In the Description field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Descrição, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>Click Settle transactions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Liquidar transações.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>In the list, find and select the desired record.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, localize e selecione o PDV desejado.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>Select the Mark check box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Marque a caixa de seleção Marcar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>Select the Mark check box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Marque a caixa de seleção Marcar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>In the list, mark the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, marque a linha selecionada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>In the Offset account field, specify the desired values.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Contrapartida, especifique os valores desejados.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>Click Post.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Lançar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Calcular juros e multas sobre pagamentos de fornecedores (Brasil)
+description: Você pode aplicar juros e multas a pagamentos de fornecedor que estejam atrasados.
+author: sndray
+manager: AnnBe
+ms.date: 06/26/2017
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Operations
+ms.search.region: Brazil
+ms.author: sndray
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c1eddb15792b04af5b23b27905dcb84e58dfba74
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1567196"
+---
+# <a name="calculate-interest-and-fines-on-vendor-payments-brazil"></a><span data-ttu-id="d0d8b-103">Calcular juros e multas sobre pagamentos de fornecedores (Brasil)</span><span class="sxs-lookup"><span data-stu-id="d0d8b-103">Calculate interest and fines on vendor payments (Brazil)</span></span>
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+<span data-ttu-id="d0d8b-104">Você pode aplicar juros e multas a pagamentos de fornecedor que estejam atrasados.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-104">You can apply interest and fines on vendor payments that are delayed.</span></span> <span data-ttu-id="d0d8b-105">Os valores dos juros e da multa que se aplicam a um pagamento podem ser calculados quando você faz um pagamento para um fornecedor.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-105">The interest and fine amounts that apply to a payment can be calculated when you make a payment to a vendor.</span></span> <span data-ttu-id="d0d8b-106">Antes de calcular os códigos de juros ou de multa para pagamentos de fornecedor, você deverá configurar uma lista de feriados bancários e de feriados nacionais.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-106">Before you calculate interest or fine codes for vendor payments, you must set up a list of bank holidays and national holidays.</span></span> <span data-ttu-id="d0d8b-107">Uma data de feriado que é configurada na página Calendário de pagamentos será considerada como um dia que não é útil.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-107">A holiday date that is set up on the Payment calendar page is considered a non-working day.</span></span> <span data-ttu-id="d0d8b-108">Se uma fatura vencer em um dia que não seja útil, a data de vencimento se deslocará para o próximo dia útil no calendário, e os juros e as multas serão calculadas de acordo com essa data.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-108">If an invoice is due on a non-working day, the due date is moved to the next working day in the calendar, and the interest and fines are calculated accordingly.</span></span> <span data-ttu-id="d0d8b-109">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-109">This task uses the BRMF demo company.</span></span>
+
+1. <span data-ttu-id="d0d8b-110">Vá para Contas a pagar > Fornecedores > Todos os fornecedores.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-110">Go to Accounts payable > Vendors > All vendors.</span></span>
+2. <span data-ttu-id="d0d8b-111">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-111">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="d0d8b-112">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-112">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="d0d8b-113">Expandir a seção Pagamento.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-113">Expand the Payment section.</span></span>
+5. <span data-ttu-id="d0d8b-114">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-114">Click Edit.</span></span>
+6. <span data-ttu-id="d0d8b-115">No campo Plano de pagamento, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-115">In the Payment schedule field, enter or select a value.</span></span>
+7. <span data-ttu-id="d0d8b-116">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-116">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="d0d8b-117">No campo Código de juros, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-117">In the Fine code field, enter or select a value.</span></span>
+9. <span data-ttu-id="d0d8b-118">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-118">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="d0d8b-119">No campo Código de juros, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-119">In the Interest code field, enter or select a value.</span></span>
+11. <span data-ttu-id="d0d8b-120">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-120">Click Save.</span></span>
+12. <span data-ttu-id="d0d8b-121">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-121">Close the page.</span></span>
+13. <span data-ttu-id="d0d8b-122">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-122">Close the page.</span></span>
+14. <span data-ttu-id="d0d8b-123">Vá para Aquisição e fornecimento > Ordens de compra > Todas as ordens de compra.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-123">Go to Procurement and sourcing > Purchase orders > All purchase orders.</span></span>
+15. <span data-ttu-id="d0d8b-124">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-124">Click New.</span></span>
+16. <span data-ttu-id="d0d8b-125">No campo Conta de fornecedor, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-125">In the Vendor account field, enter or select a value.</span></span>
+17. <span data-ttu-id="d0d8b-126">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-126">Click OK.</span></span>
+18. <span data-ttu-id="d0d8b-127">Clique em Adicionar nova linha.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-127">Click Add line.</span></span>
+19. <span data-ttu-id="d0d8b-128">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-128">In the list, mark the selected row.</span></span>
+20. <span data-ttu-id="d0d8b-129">No campo Número do item, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-129">In the Item number field, enter or select a value.</span></span>
+21. <span data-ttu-id="d0d8b-130">No campo CFOP, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-130">In the CFOP field, enter or select a value.</span></span>
+22. <span data-ttu-id="d0d8b-131">No campo Quantidade, insira um número.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-131">In the Quantity field, enter a number.</span></span>
+23. <span data-ttu-id="d0d8b-132">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-132">Click Save.</span></span>
+24. <span data-ttu-id="d0d8b-133">No Painel de Ação, clique em Compra.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-133">On the Action Pane, click Purchase.</span></span>
+25. <span data-ttu-id="d0d8b-134">Clique em Confirmar.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-134">Click Confirm.</span></span>
+26. <span data-ttu-id="d0d8b-135">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-135">Close the page.</span></span>
+27. <span data-ttu-id="d0d8b-136">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-136">Close the page.</span></span>
+28. <span data-ttu-id="d0d8b-137">Vá para Contas a pagar > Ordens de compra > Todas as ordens de compra.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-137">Go to Accounts payable > Purchase orders > All purchase orders.</span></span>
+29. <span data-ttu-id="d0d8b-138">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-138">In the list, click the link in the selected row.</span></span>
+30. <span data-ttu-id="d0d8b-139">No Painel de Ação, clique em Fatura.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-139">On the Action Pane, click Invoice.</span></span>
+31. <span data-ttu-id="d0d8b-140">Clique em Fatura.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-140">Click Invoice.</span></span>
+32. <span data-ttu-id="d0d8b-141">Clique em Padrão de: Quantidade de recebimento de produtos para abrir a caixa de diálogo suspensa.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-141">Click Default from: Product receipt quantity to open the drop dialog.</span></span>
+33. <span data-ttu-id="d0d8b-142">No campo Quantidade padrão para linhas, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-142">In the Default quantity for lines field, select an option.</span></span>
+34. <span data-ttu-id="d0d8b-143">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-143">Click OK.</span></span>
+35. <span data-ttu-id="d0d8b-144">No campo Chave de acesso, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-144">In the Access key field, type a value.</span></span>
+36. <span data-ttu-id="d0d8b-145">No campo Data da fatura, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-145">In the Invoice date field, enter a date.</span></span>
+37. <span data-ttu-id="d0d8b-146">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-146">Click Post.</span></span>
+38. <span data-ttu-id="d0d8b-147">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-147">Close the page.</span></span>
+39. <span data-ttu-id="d0d8b-148">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-148">Close the page.</span></span>
+40. <span data-ttu-id="d0d8b-149">Vá para Contas a pagar > Pagamentos > Diário de pagamentos.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-149">Go to Accounts payable > Payments > Payment journal.</span></span>
+41. <span data-ttu-id="d0d8b-150">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-150">Click New.</span></span>
+42. <span data-ttu-id="d0d8b-151">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-151">In the list, mark the selected row.</span></span>
+43. <span data-ttu-id="d0d8b-152">No campo Nome, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-152">In the Name field, enter or select a value.</span></span>
+44. <span data-ttu-id="d0d8b-153">Clique em Linhas.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-153">Click Lines.</span></span>
+45. <span data-ttu-id="d0d8b-154">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-154">In the list, mark the selected row.</span></span>
+46. <span data-ttu-id="d0d8b-155">No campo Data, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-155">In the Date field, enter a date.</span></span>
+47. <span data-ttu-id="d0d8b-156">No campo Conta, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-156">In the Account field, specify the desired values.</span></span>
+48. <span data-ttu-id="d0d8b-157">No campo Descrição, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-157">In the Description field, enter or select a value.</span></span>
+49. <span data-ttu-id="d0d8b-158">Clique em Liquidar transações.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-158">Click Settle transactions.</span></span>
+50. <span data-ttu-id="d0d8b-159">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-159">In the list, find and select the desired record.</span></span>
+51. <span data-ttu-id="d0d8b-160">Marque a caixa de seleção Marcar.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-160">Select the Mark check box.</span></span>
+52. <span data-ttu-id="d0d8b-161">Marque a caixa de seleção Marcar.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-161">Select the Mark check box.</span></span>
+53. <span data-ttu-id="d0d8b-162">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-162">Click OK.</span></span>
+54. <span data-ttu-id="d0d8b-163">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-163">In the list, mark the selected row.</span></span>
+55. <span data-ttu-id="d0d8b-164">No campo Contrapartida, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-164">In the Offset account field, specify the desired values.</span></span>
+56. <span data-ttu-id="d0d8b-165">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-165">Click Post.</span></span>
+57. <span data-ttu-id="d0d8b-166">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-166">Close the page.</span></span>
+58. <span data-ttu-id="d0d8b-167">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="d0d8b-167">Close the page.</span></span>
+

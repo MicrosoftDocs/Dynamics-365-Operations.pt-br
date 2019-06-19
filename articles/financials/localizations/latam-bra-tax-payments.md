@@ -1,375 +1,166 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="latam-bra-tax-payments.md" target-language="pt-BR">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>latam-bra-tax-payments.b90aa7.8b71024327b2a7a69230b5eb924b0122b47f8d0c.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>8b71024327b2a7a69230b5eb924b0122b47f8d0c</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\latam-bra-tax-payments.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Tax payments in Brazil</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pagamentos de impostos no Brasil</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic provides information about tax payments in Brazil.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este tópico fornece informações sobre pagamentos de impostos no Brasil.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103" restype="x-metadata">
-          <source>In Brazil, users can register and post tax payments together with related fiscal information that must be reported to the tax authorities.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No Brasil, os usuários podem registrar e lançar pagamentos de impostos junto com as informações fiscais relacionadas que será reportadas às autoridades fiscais.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>Tax payments in Brazil</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pagamentos de impostos no Brasil</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>This topic provides information about tax payments in Brazil.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este tópico fornece informações sobre pagamentos de impostos no Brasil.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>In Brazil, users can register and post tax payments together with related fiscal information that must be reported to the tax authorities.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No Brasil, os usuários podem registrar e lançar pagamentos de impostos junto com as informações fiscais relacionadas que será reportadas às autoridades fiscais.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Overview</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visão Geral</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Every type of tax in Brazil has its own process, due date, and additional tax statement information that is required by the tax authorities.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cada tipo de imposto no Brasil tem seu próprio processo, data de vencimento e informações adicionais de demonstrativo de imposto que é exigido pelas autoridades fiscais.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>The <bpt id="p1">**</bpt>Fiscal books<ept id="p1">**</ept> module generates the Sistema Publico de Escrituração Digital (SPED) statements that are required for taxes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O módulo <bpt id="p1">**</bpt>Livros fiscais<ept id="p1">**</ept> gera as instruções do Sistema Público de Escrituração Digital (SPED) obrigatórias para os impostos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>The tax payment process is separated by tax types: ICMS, ICMS-ST, ICMS-DIF, IPI, ISS, and PIS-COFINS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O processo de pagamento de impostos é separado por tipos de imposto: ICMS, ICMS-ST, ICMS-DIF, IPI, ISS e PIS-COFINS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>ICMS, ICMS-ST, and ICMS-DIF are state taxes that are related to merchandise movement.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ICMS, ICMS-ST e ICMS-DIF são impostos estaduais relacionados à movimentação de mercadorias.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>ISS is a city tax that is charged by the city.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ISS é um imposto municipal que é cobrado pela cidade.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>IPI is a production tax that is charged by the federal government.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IPI é um imposto de produção que é cobrado pelo governo federal.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>The federal government is also responsible for the PIS and COFINS taxes that are applied to products.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O governo federal também é responsável pelos impostos PIS e COFINS que são aplicados aos produtos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>The difference between the tax amount that is collected on sales of goods and the ICMS tax amount that is paid on purchases of goods is calculated.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A diferença entre o valor do imposto arrecadado em vendas de mercadorias e o valor do imposto ICMS pago em compras de mercadorias é calculada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>If the net amount is a tax liability, a vendor invoice journal entry can be created.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se o valor líquido for uma obrigação fiscal, uma entrada de diário de nota fiscal do fornecedor poderá ser criada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Then the amount of tax that is owed to the tax authority is paid.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Depois, o valor do imposto devido à autoridade fiscal é pago.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>To pay the taxes, a related tax assessment is created.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para pagar impostos, uma apuração do imposto relacionado é criada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>The tax assessment collects information from the transactions for the correct time frame, as required by the tax.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A apuração de imposto coleta informações das transações para o período correto, conforme exigido pelo imposto.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>On the <bpt id="p1">**</bpt>Tax assessment<ept id="p1">**</ept> page, you select the tax to work with.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na página <bpt id="p1">**</bpt>Apuração de imposto<ept id="p1">**</ept>, você seleciona o imposto desejado.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>On the <bpt id="p1">**</bpt>Tax payment<ept id="p1">**</ept> page, you generate the related tax payment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na página <bpt id="p1">**</bpt>Pagamento de imposto<ept id="p1">**</ept>, você gera o pagamento do imposto relacionado.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Depending on the collection requirement, there are two ways to create the tax payment:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dependendo do requisito de cobrança, há duas maneiras de criar o pagamento de impostos:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source><bpt id="p1">**</bpt>Create from assessment<ept id="p1">**</ept> – Collect and pay tax monthly, in accordance with the rules that are established by the tax authority.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Criar a partir da apuração<ept id="p1">**</ept> – Coletar e pagar imposto mensalmente, de acordo com as regras que são estabelecidas pela autoridade fiscal.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source><bpt id="p1">**</bpt>Other debits<ept id="p1">**</ept> – Collect and pay a specific tax amount outside the regular process when the tax authority requires the payment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Outros débitos<ept id="p1">**</ept> – coletar e pagar um determinado valor de imposto fora do processo normal quando a autoridade de imposto requer o pagamento.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Creating tax payments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Criando pagamentos de impostos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Overview</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visão Geral</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Field</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Campo</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">descrição</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Payment type</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tipo de Pagamento</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Select one of the following options:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione uma das seguintes opções:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Periodic<ept id="p1">&lt;/strong&gt;</ept> – Create a monthly periodic payment (regular).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Periódico<ept id="p1">&lt;/strong&gt;</ept> – Cria um pagamento periódico mensal (regular).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>All tax transactions that are generated from fiscal documents, and all transaction adjustments (general or by fiscal document) where the special debit configuration of adjustment isn&amp;#39;t marked, are summarized to generate the periodic payment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todas as transações de impostos geradas de notas fiscais, e todos ajustes de transação (geral ou por nota fiscal) em que a configurações especiais do débito de ajuste não são marcadas, são resumidas para gerar pagamento periódico.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Other debits<ept id="p1">&lt;/strong&gt;</ept> – Make a specific payment of ICMS outside the regular process, because the payment is required by law.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Outros débitos<ept id="p1">&lt;/strong&gt;</ept> – Faz um pagamento específico de ICMS fora do processo normal, porque o pagamento é solicitado por lei.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Examples include differential of % ICMS and Import goods.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os exemplos incluem diferencial % do ICMS e Importação de mercadorias.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>All adjustment transactions that are marked as <bpt id="p1">&lt;strong&gt;</bpt>Other debit payment<ept id="p1">&lt;/strong&gt;</ept> in the configuration are summarized to generate a payment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todas as transações de ajuste marcadas como <bpt id="p1">&lt;strong&gt;</bpt>Pagamento de outros débitos<ept id="p1">&lt;/strong&gt;</ept> na configuração são resumidas para gerar um pagamento.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>Date</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Data</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>The payment date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A data do pagamento.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>ICMS to pay code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Código do ICMS a recolher</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>The ICMS to pay code that the tax authorities require.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O código de pagamento do ICMS que as autoridades fiscais exigem.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>This field is available only for ICMS, ICMS-ST, and ICMS-DIF taxes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este campo está disponível apenas para impostos ICMS, ICMS-ST e ICMS-DIF.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>The following options are available:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As opções a seguir estão disponíveis:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>000: ICMS to collect</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">000: ICMS a coletar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>003: Anticipation of Aliquot differential</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">003: Antecipação de parte diferencial de alíquota</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>004: Anticipation of Import goods</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">004: Antecipação de mercadorias de importação</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>005: Anticipate tax</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">005: Antecipação de impostos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>006: Anticipation of additional ICMS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">006: Antecipação de ICMS adicional</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>090: Other obligations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">090: Outras obrigações</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>Receita code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Código da receita</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>The classification of the payment, as defined by the state tax authorities.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A classificação de pagamento, conforme definido pelas autoridades fiscais estaduais.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>The program must offer the latest receita code that is used in the previous transactions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O programa deve oferecer o código de receita mais recente usado nas transações anteriores.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Receita codes vary, depending on the payment type.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os códigos de receita variam, dependendo do tipo de pagamento.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>If you select <bpt id="p1">&lt;strong&gt;</bpt>Other debits<ept id="p1">&lt;/strong&gt;</ept> as the payment type, the receita code is entered automatically from the adjustment transactions, provided that the adjustment transactions have a default receita code.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se selecionar <bpt id="p1">&lt;strong&gt;</bpt>Outros débitos<ept id="p1">&lt;/strong&gt;</ept> como o tipo de pagamento, o código de receita será inserido automaticamente as transações de ajuste, desde que as transações de ajuste possuam um código padrão de receita.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Due date</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Data de Vencimento</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>The due date of the payment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A data de vencimento do pagamento.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>If the <bpt id="p1">&lt;strong&gt;</bpt>Terms of payment<ept id="p1">&lt;/strong&gt;</ept> field is blank, you must enter a value in this field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se o campo <bpt id="p1">&lt;strong&gt;</bpt>Condições de pagamento<ept id="p1">&lt;/strong&gt;</ept> estiver em branco, você deve inserir um valor neste campo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Otherwise, the value is set to the due date that is generated based on terms of payment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Caso contrário, o valor será definido como a data de vencimento que é gerada com base nas condições de pagamento.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>After ledger integration is activated, the due date in the ledger transaction will be entered.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Depois que a integração do razão for ativada, a data de vencimento da transação do razão será inserida.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>Sales tax amount</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valor do imposto</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>The total amount of ICMS to pay.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O valor total do ICMS a pagar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>The amount is calculated based on the payment type.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O valor é calculado com base no tipo de pagamento.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>Interest amount</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valor dos juros</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>The amount of interest in the event of late payments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O valor dos juros no caso de pagamentos atrasados.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>Fine amount</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valor da multa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>The amount of fines in the event of late payments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O valor de multas, no caso de pagamentos atrasados.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>Amount</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valor</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>The sum of the sales tax amount, interest amount, and fine amount.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A soma do valor do imposto, o valor dos juros e o valor da multa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>Reference month</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mês de referência</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>The reference month for this ICMS tax payment, such as <bpt id="p1">&lt;strong&gt;</bpt>012017<ept id="p1">&lt;/strong&gt;</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O mês de referência para este pagamento de ICMS, como <bpt id="p1">&lt;strong&gt;</bpt>012017<ept id="p1">&lt;/strong&gt;</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>Voucher</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comprovante</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>The voucher number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O número do comprovante.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>This number is automatically assigned when the payment is posted and the ledger integration is activated.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esse número é atribuído automaticamente quando o pagamento é lançado e a integração do razão é ativada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>General</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Geral</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>Field</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Campo</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">descrição</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">descrição</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>Enter a description for the sales tax payments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Insira uma descrição para o pagamento de imposto.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>Authority</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Autoridade fiscal</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>Select the tax authority where the tax assessment is created.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione a autoridade fiscal na qual a apuração do imposto foi criada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>The sales tax authority defines a vendor account number that is used to transfer sales tax payments to the vendor that makes the payment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A autoridade fiscal define um número de conta de fornecedor usada para transferir pagamentos de impostos ao fornecedor que faz o pagamento.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>Terms of payment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Condições de pagamento</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>The terms of payment that are used to determine the due date of a sales tax payment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As condições de pagamento que são usadas para determinar a data de vencimento de um pagamento de imposto.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>The terms of payment that you select here will be used for the vendor invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As condições de pagamento que você selecionar aqui serão usadas para a fatura de fornecedor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source>Company</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Empresa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source>The legal entity where the tax payment transaction will be posted if ledger integration is activated.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A entidade legal na qual a transação de pagamento de imposto será lançada, se a integração do razão for ativada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source>Reversed</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Revertido</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source>A selected option indicates that the tax payment was reversed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uma opção selecionada indica que o pagamento do imposto foi revertido.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source>Trace number</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Número de rastreamento</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source>The trace number for the reversed payment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O número de rastreamento do pagamento revertido.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source>Referenced process number</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Número do processo referenciado</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source>The referenced process number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O número do processo referenciado.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source>Agency</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Agência</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source>The agency that the referenced process belongs to.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A agência a qual o processo referenciado pertence.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">descrição</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source>The description of the referenced process.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A descrição do processo referenciado.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source>Tax payments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pagamentos de imposto</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source>The following tax payments can be made on the <bpt id="p1">**</bpt>Tax payment<ept id="p1">**</ept> page (<bpt id="p2">**</bpt>Fiscal books<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Common<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Booking period<ept id="p4">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p5">**</bpt>Assessment<ept id="p5">**</ept>):</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os pagamentos de impostos a seguir podem ser feitos na página <bpt id="p1">**</bpt>Pagamento de imposto<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Livros fiscais<ept id="p2">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p3">**</bpt>Comum<ept id="p3">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p4">**</bpt>Período de escrituração<ept id="p4">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p5">**</bpt>Apuração<ept id="p5">**</ept>):</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="197">
-          <source>ICMS or ICMS-ST tax assessment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Apuração de imposto ICMS ou ICMS-ST</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="198">
-          <source>IPI tax payment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pagamento de IPI</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="199">
-          <source>ICMS-DIF tax payment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pagamento de ICMS-DIF</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="200">
-          <source>ISS tax payment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pagamento de ISS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="201">
-          <source>PIS and COFINS tax payment – One payment is made for PIS tax, and another payment is made for COFINS tax.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pagamento de PIS e COFINS - Um pagamento é feito para PIS e outro para COFINS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="202">
-          <source>The type of PIS and COFINS regime is shown in the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> section of the tax payment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O tipo de regime de PIS e COFINS é mostrado na seção <bpt id="p1">**</bpt>Visão geral<ept id="p1">**</ept> do pagamento de imposto.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="203">
-          <source>A payment can be related to the cumulative regime, the non-cumulative regime, or both regimes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Um pagamento pode ser relacionado ao regime cumulativo, regime não cumulativo ou ambos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="204">
-          <source>Reversing tax payments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Revertendo pagamentos de impostos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="205">
-          <source>You can reverse the transaction for a tax payment that has been posted by selecting the tax payment and clicking <bpt id="p1">**</bpt>Transaction<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você pode reverter a transação para um pagamento de impostos que foi lançado, selecionando o pagamento de impostos e clicando em <bpt id="p1">**</bpt>Transação<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="206">
-          <source>The transaction reversal process reverses the original transaction and all related transactions that were created when the original transaction was posted.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O processo de reversão de transação reverte a transação original e todas as transações relacionadas criadas quando a transação original foi lançada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="207">
-          <source>The number sequence for the transaction reversal and trace number references in the number sequences must be configured to allow for the registration of reversals.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A sequência numérica para as referências do número de rastreamento e reversão da transação nas sequências numéricas deve ser configurada para permitir o registro das reversões.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="208">
-          <source>Existing tax payments can be reversed under the following conditions:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os pagamentos de impostos existentes podem ser revertidos nas seguintes condições:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="209">
-          <source>Ledger integration with Fiscal books is activated on the <bpt id="p1">**</bpt>Ledger integration<ept id="p1">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A integração do razão com os Livros fiscais é ativada na página <bpt id="p1">**</bpt>Integração do razão<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="210">
-          <source>The liability that is generated when the tax payment was posted is still in open.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O passivo que é gerado quando o pagamento do imposto for lançado ainda está em aberto.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="211">
-          <source>Additionally, the current balance in the vendor account of the tax authority must be greater than or less than 0.00</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Além disso, o saldo atual da conta do fornecedor da autoridade fiscal deve ser maior ou menor que 0,00</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="212">
-          <source>When a tax payment is reversed, the status of the original transaction is set to <bpt id="p1">**</bpt>Reverse<ept id="p1">**</ept>, and the related sequence number is entered in the <bpt id="p2">**</bpt>Trace number<ept id="p2">**</ept> field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando um pagamento de imposto for revertido, o status da transação original é definido como <bpt id="p1">**</bpt>Revertido<ept id="p1">**</ept> e o número de sequência relacionado é inserido no campo <bpt id="p2">**</bpt>Número de rastreamento<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="213">
-          <source>Deleting tax payments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Excluindo pagamentos de impostos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="214">
-          <source>You can delete tax payments if the voucher number wasn't blank when the payment transaction was posted.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você pode excluir pagamentos de impostos se o número do comprovante não estiver em branco, quando a transação de pagamento for lançada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="215">
-          <source>For more information, see the following topics:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para obter mais informações, consulte os seguintes tópicos:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="216">
-          <source><bpt id="p1">[</bpt>Set up interest and fines for vendor payments<ept id="p1">](tasks/br-00065-1-set-up-interest-fines-vendor-payments.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Configurar juros e multas para pagamentos de fornecedores<ept id="p1">](tasks/br-00065-1-set-up-interest-fines-vendor-payments.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="217">
-          <source><bpt id="p1">[</bpt>Calculate interest and fines on vendor payments<ept id="p1">](tasks/br-00065-2-calculate-interest-fines-vendor-payments.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Calcular juros e multas sobre pagamentos de fornecedores<ept id="p1">](tasks/br-00065-2-calculate-interest-fines-vendor-payments.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="218">
-          <source><bpt id="p1">[</bpt>Set up interest and fines on customer payments<ept id="p1">](tasks/br-00066-1-set-up-interest-fines-customer-payments.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Configurar juros e multas em pagamentos de clientes<ept id="p1">](tasks/br-00066-1-set-up-interest-fines-customer-payments.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="219">
-          <source><bpt id="p1">[</bpt>Calculate interest and fines on customer payments<ept id="p1">](tasks/br-00066-2-calculate-interest-fines-customer-payments.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Calcular juros e multas em pagamentos de clientes<ept id="p1">](tasks/br-00066-2-calculate-interest-fines-customer-payments.md)</ept></target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Pagamentos de impostos no Brasil
+description: Este tópico fornece informações sobre pagamentos de impostos no Brasil. No Brasil, os usuários podem registrar e lançar pagamentos de impostos junto com as informações fiscais relacionadas que será reportadas às autoridades fiscais.
+author: sndray
+manager: AnnBe
+ms.date: 10/31/2017
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: FBTaxAssessmentPayment_BR, FBTaxAssessmentPaymentOtherDebits_BR
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.custom: 270254
+ms.assetid: 92223189-69a8-4a40-b867-ef9b4f14c23d
+ms.search.region: Brazil
+ms.author: sndray
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 8b71024327b2a7a69230b5eb924b0122b47f8d0c
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1553086"
+---
+# <a name="tax-payments-in-brazil"></a><span data-ttu-id="1e7b6-104">Pagamentos de impostos no Brasil</span><span class="sxs-lookup"><span data-stu-id="1e7b6-104">Tax payments in Brazil</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="1e7b6-105">Este tópico fornece informações sobre pagamentos de impostos no Brasil.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-105">This topic provides information about tax payments in Brazil.</span></span> <span data-ttu-id="1e7b6-106">No Brasil, os usuários podem registrar e lançar pagamentos de impostos junto com as informações fiscais relacionadas que será reportadas às autoridades fiscais.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-106">In Brazil, users can register and post tax payments together with related fiscal information that must be reported to the tax authorities.</span></span>
+
+<a name="overview"></a><span data-ttu-id="1e7b6-107">Visão Geral</span><span class="sxs-lookup"><span data-stu-id="1e7b6-107">Overview</span></span>
+--------
+
+<span data-ttu-id="1e7b6-108">Cada tipo de imposto no Brasil tem seu próprio processo, data de vencimento e informações adicionais de demonstrativo de imposto que é exigido pelas autoridades fiscais.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-108">Every type of tax in Brazil has its own process, due date, and additional tax statement information that is required by the tax authorities.</span></span> <span data-ttu-id="1e7b6-109">O módulo **Livros fiscais** gera as instruções do Sistema Público de Escrituração Digital (SPED) obrigatórias para os impostos.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-109">The **Fiscal books** module generates the Sistema Publico de Escrituração Digital (SPED) statements that are required for taxes.</span></span> <span data-ttu-id="1e7b6-110">O processo de pagamento de impostos é separado por tipos de imposto: ICMS, ICMS-ST, ICMS-DIF, IPI, ISS e PIS-COFINS.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-110">The tax payment process is separated by tax types: ICMS, ICMS-ST, ICMS-DIF, IPI, ISS, and PIS-COFINS.</span></span>
+
+-   <span data-ttu-id="1e7b6-111">ICMS, ICMS-ST e ICMS-DIF são impostos estaduais relacionados à movimentação de mercadorias.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-111">ICMS, ICMS-ST, and ICMS-DIF are state taxes that are related to merchandise movement.</span></span>
+-   <span data-ttu-id="1e7b6-112">ISS é um imposto municipal que é cobrado pela cidade.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-112">ISS is a city tax that is charged by the city.</span></span>
+-   <span data-ttu-id="1e7b6-113">IPI é um imposto de produção que é cobrado pelo governo federal.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-113">IPI is a production tax that is charged by the federal government.</span></span> <span data-ttu-id="1e7b6-114">O governo federal também é responsável pelos impostos PIS e COFINS que são aplicados aos produtos.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-114">The federal government is also responsible for the PIS and COFINS taxes that are applied to products.</span></span>
+
+<span data-ttu-id="1e7b6-115">A diferença entre o valor do imposto arrecadado em vendas de mercadorias e o valor do imposto ICMS pago em compras de mercadorias é calculada.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-115">The difference between the tax amount that is collected on sales of goods and the ICMS tax amount that is paid on purchases of goods is calculated.</span></span> <span data-ttu-id="1e7b6-116">Se o valor líquido for uma obrigação fiscal, uma entrada de diário de nota fiscal do fornecedor poderá ser criada.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-116">If the net amount is a tax liability, a vendor invoice journal entry can be created.</span></span> <span data-ttu-id="1e7b6-117">Depois, o valor do imposto devido à autoridade fiscal é pago.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-117">Then the amount of tax that is owed to the tax authority is paid.</span></span> <span data-ttu-id="1e7b6-118">Para pagar impostos, uma apuração do imposto relacionado é criada.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-118">To pay the taxes, a related tax assessment is created.</span></span> <span data-ttu-id="1e7b6-119">A apuração de imposto coleta informações das transações para o período correto, conforme exigido pelo imposto.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-119">The tax assessment collects information from the transactions for the correct time frame, as required by the tax.</span></span> <span data-ttu-id="1e7b6-120">Na página **Apuração de imposto**, você seleciona o imposto desejado.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-120">On the **Tax assessment** page, you select the tax to work with.</span></span> <span data-ttu-id="1e7b6-121">Na página **Pagamento de imposto**, você gera o pagamento do imposto relacionado.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-121">On the **Tax payment** page, you generate the related tax payment.</span></span> <span data-ttu-id="1e7b6-122">Dependendo do requisito de cobrança, há duas maneiras de criar o pagamento de impostos:</span><span class="sxs-lookup"><span data-stu-id="1e7b6-122">Depending on the collection requirement, there are two ways to create the tax payment:</span></span>
+
+-   <span data-ttu-id="1e7b6-123">**Criar a partir da apuração** – Coletar e pagar imposto mensalmente, de acordo com as regras que são estabelecidas pela autoridade fiscal.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-123">**Create from assessment** – Collect and pay tax monthly, in accordance with the rules that are established by the tax authority.</span></span>
+-   <span data-ttu-id="1e7b6-124">**Outros débitos** – coletar e pagar um determinado valor de imposto fora do processo normal quando a autoridade de imposto requer o pagamento.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-124">**Other debits** – Collect and pay a specific tax amount outside the regular process when the tax authority requires the payment.</span></span>
+
+![Criando pagamentos de impostos](./media/taxpaymentsbra.jpg) 
+
+
+### <a name="overview"></a><span data-ttu-id="1e7b6-126">Visão Geral</span><span class="sxs-lookup"><span data-stu-id="1e7b6-126">Overview</span></span>
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="1e7b6-127">Campo</span><span class="sxs-lookup"><span data-stu-id="1e7b6-127">Field</span></span></th>
+<th><span data-ttu-id="1e7b6-128">descrição</span><span class="sxs-lookup"><span data-stu-id="1e7b6-128">Description</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span data-ttu-id="1e7b6-129">Tipo de Pagamento</span><span class="sxs-lookup"><span data-stu-id="1e7b6-129">Payment type</span></span></td>
+<td><span data-ttu-id="1e7b6-130">Selecione uma das seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="1e7b6-130">Select one of the following options:</span></span>
+<ul>
+<li><span data-ttu-id="1e7b6-131"><strong>Periódico</strong> – Cria um pagamento periódico mensal (regular).</span><span class="sxs-lookup"><span data-stu-id="1e7b6-131"><strong>Periodic</strong> – Create a monthly periodic payment (regular).</span></span> <span data-ttu-id="1e7b6-132">Todas as transações de impostos geradas de notas fiscais, e todos ajustes de transação (geral ou por nota fiscal) em que a configurações especiais do débito de ajuste não são marcadas, são resumidas para gerar pagamento periódico.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-132">All tax transactions that are generated from fiscal documents, and all transaction adjustments (general or by fiscal document) where the special debit configuration of adjustment isn&#39;t marked, are summarized to generate the periodic payment.</span></span></li>
+<li><span data-ttu-id="1e7b6-133"><strong>Outros débitos</strong> – Faz um pagamento específico de ICMS fora do processo normal, porque o pagamento é solicitado por lei.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-133"><strong>Other debits</strong> – Make a specific payment of ICMS outside the regular process, because the payment is required by law.</span></span> <span data-ttu-id="1e7b6-134">Os exemplos incluem diferencial % do ICMS e Importação de mercadorias.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-134">Examples include differential of % ICMS and Import goods.</span></span> <span data-ttu-id="1e7b6-135">Todas as transações de ajuste marcadas como <strong>Pagamento de outros débitos</strong> na configuração são resumidas para gerar um pagamento.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-135">All adjustment transactions that are marked as <strong>Other debit payment</strong> in the configuration are summarized to generate a payment.</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="1e7b6-136">Data</span><span class="sxs-lookup"><span data-stu-id="1e7b6-136">Date</span></span></td>
+<td><span data-ttu-id="1e7b6-137">A data do pagamento.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-137">The payment date.</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="1e7b6-138">Código do ICMS a recolher</span><span class="sxs-lookup"><span data-stu-id="1e7b6-138">ICMS to pay code</span></span></td>
+<td><span data-ttu-id="1e7b6-139">O código de pagamento do ICMS que as autoridades fiscais exigem.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-139">The ICMS to pay code that the tax authorities require.</span></span> <span data-ttu-id="1e7b6-140">Este campo está disponível apenas para impostos ICMS, ICMS-ST e ICMS-DIF.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-140">This field is available only for ICMS, ICMS-ST, and ICMS-DIF taxes.</span></span> <span data-ttu-id="1e7b6-141">As opções a seguir estão disponíveis:</span><span class="sxs-lookup"><span data-stu-id="1e7b6-141">The following options are available:</span></span>
+<ul>
+<li><span data-ttu-id="1e7b6-142">000: ICMS a coletar</span><span class="sxs-lookup"><span data-stu-id="1e7b6-142">000: ICMS to collect</span></span></li>
+<li><span data-ttu-id="1e7b6-143">003: Antecipação de parte diferencial de alíquota</span><span class="sxs-lookup"><span data-stu-id="1e7b6-143">003: Anticipation of Aliquot differential</span></span></li>
+<li><span data-ttu-id="1e7b6-144">004: Antecipação de mercadorias de importação</span><span class="sxs-lookup"><span data-stu-id="1e7b6-144">004: Anticipation of Import goods</span></span></li>
+<li><span data-ttu-id="1e7b6-145">005: Antecipação de impostos</span><span class="sxs-lookup"><span data-stu-id="1e7b6-145">005: Anticipate tax</span></span></li>
+<li><span data-ttu-id="1e7b6-146">006: Antecipação de ICMS adicional</span><span class="sxs-lookup"><span data-stu-id="1e7b6-146">006: Anticipation of additional ICMS</span></span></li>
+<li><span data-ttu-id="1e7b6-147">090: Outras obrigações</span><span class="sxs-lookup"><span data-stu-id="1e7b6-147">090: Other obligations</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="1e7b6-148">Código da receita</span><span class="sxs-lookup"><span data-stu-id="1e7b6-148">Receita code</span></span></td>
+<td><span data-ttu-id="1e7b6-149">A classificação de pagamento, conforme definido pelas autoridades fiscais estaduais.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-149">The classification of the payment, as defined by the state tax authorities.</span></span> <span data-ttu-id="1e7b6-150">O programa deve oferecer o código de receita mais recente usado nas transações anteriores.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-150">The program must offer the latest receita code that is used in the previous transactions.</span></span> <span data-ttu-id="1e7b6-151">Os códigos de receita variam, dependendo do tipo de pagamento.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-151">Receita codes vary, depending on the payment type.</span></span> <span data-ttu-id="1e7b6-152">Se selecionar <strong>Outros débitos</strong> como o tipo de pagamento, o código de receita será inserido automaticamente as transações de ajuste, desde que as transações de ajuste possuam um código padrão de receita.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-152">If you select <strong>Other debits</strong> as the payment type, the receita code is entered automatically from the adjustment transactions, provided that the adjustment transactions have a default receita code.</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="1e7b6-153">Data de Vencimento</span><span class="sxs-lookup"><span data-stu-id="1e7b6-153">Due date</span></span></td>
+<td><span data-ttu-id="1e7b6-154">A data de vencimento do pagamento.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-154">The due date of the payment.</span></span> <span data-ttu-id="1e7b6-155">Se o campo <strong>Condições de pagamento</strong> estiver em branco, você deve inserir um valor neste campo.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-155">If the <strong>Terms of payment</strong> field is blank, you must enter a value in this field.</span></span> <span data-ttu-id="1e7b6-156">Caso contrário, o valor será definido como a data de vencimento que é gerada com base nas condições de pagamento.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-156">Otherwise, the value is set to the due date that is generated based on terms of payment.</span></span> <span data-ttu-id="1e7b6-157">Depois que a integração do razão for ativada, a data de vencimento da transação do razão será inserida.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-157">After ledger integration is activated, the due date in the ledger transaction will be entered.</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="1e7b6-158">Valor do imposto</span><span class="sxs-lookup"><span data-stu-id="1e7b6-158">Sales tax amount</span></span></td>
+<td><span data-ttu-id="1e7b6-159">O valor total do ICMS a pagar.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-159">The total amount of ICMS to pay.</span></span> <span data-ttu-id="1e7b6-160">O valor é calculado com base no tipo de pagamento.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-160">The amount is calculated based on the payment type.</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="1e7b6-161">Valor dos juros</span><span class="sxs-lookup"><span data-stu-id="1e7b6-161">Interest amount</span></span></td>
+<td><span data-ttu-id="1e7b6-162">O valor dos juros no caso de pagamentos atrasados.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-162">The amount of interest in the event of late payments.</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="1e7b6-163">Valor da multa</span><span class="sxs-lookup"><span data-stu-id="1e7b6-163">Fine amount</span></span></td>
+<td><span data-ttu-id="1e7b6-164">O valor de multas, no caso de pagamentos atrasados.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-164">The amount of fines in the event of late payments.</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="1e7b6-165">Valor</span><span class="sxs-lookup"><span data-stu-id="1e7b6-165">Amount</span></span></td>
+<td><span data-ttu-id="1e7b6-166">A soma do valor do imposto, o valor dos juros e o valor da multa.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-166">The sum of the sales tax amount, interest amount, and fine amount.</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="1e7b6-167">Mês de referência</span><span class="sxs-lookup"><span data-stu-id="1e7b6-167">Reference month</span></span></td>
+<td><span data-ttu-id="1e7b6-168">O mês de referência para este pagamento de ICMS, como <strong>012017</strong>.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-168">The reference month for this ICMS tax payment, such as <strong>012017</strong>.</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="1e7b6-169">Comprovante</span><span class="sxs-lookup"><span data-stu-id="1e7b6-169">Voucher</span></span></td>
+<td><span data-ttu-id="1e7b6-170">O número do comprovante.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-170">The voucher number.</span></span> <span data-ttu-id="1e7b6-171">Esse número é atribuído automaticamente quando o pagamento é lançado e a integração do razão é ativada.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-171">This number is automatically assigned when the payment is posted and the ledger integration is activated.</span></span></td>
+</tr>
+</tbody>
+</table>
+
+#### <a name="general"></a><span data-ttu-id="1e7b6-172">Geral</span><span class="sxs-lookup"><span data-stu-id="1e7b6-172">General</span></span>
+
+| <span data-ttu-id="1e7b6-173">Campo</span><span class="sxs-lookup"><span data-stu-id="1e7b6-173">Field</span></span>                     | <span data-ttu-id="1e7b6-174">descrição</span><span class="sxs-lookup"><span data-stu-id="1e7b6-174">Description</span></span>                                                                                                                                                                                             |
+|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="1e7b6-175">descrição</span><span class="sxs-lookup"><span data-stu-id="1e7b6-175">Description</span></span>               | <span data-ttu-id="1e7b6-176">Insira uma descrição para o pagamento de imposto.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-176">Enter a description for the sales tax payments.</span></span>                                                                                                                                                         |
+| <span data-ttu-id="1e7b6-177">Autoridade fiscal</span><span class="sxs-lookup"><span data-stu-id="1e7b6-177">Authority</span></span>                 | <span data-ttu-id="1e7b6-178">Selecione a autoridade fiscal na qual a apuração do imposto foi criada.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-178">Select the tax authority where the tax assessment is created.</span></span> <span data-ttu-id="1e7b6-179">A autoridade fiscal define um número de conta de fornecedor usada para transferir pagamentos de impostos ao fornecedor que faz o pagamento.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-179">The sales tax authority defines a vendor account number that is used to transfer sales tax payments to the vendor that makes the payment.</span></span> |
+| <span data-ttu-id="1e7b6-180">Condições de pagamento</span><span class="sxs-lookup"><span data-stu-id="1e7b6-180">Terms of payment</span></span>          | <span data-ttu-id="1e7b6-181">As condições de pagamento que são usadas para determinar a data de vencimento de um pagamento de imposto.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-181">The terms of payment that are used to determine the due date of a sales tax payment.</span></span> <span data-ttu-id="1e7b6-182">As condições de pagamento que você selecionar aqui serão usadas para a fatura de fornecedor.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-182">The terms of payment that you select here will be used for the vendor invoice.</span></span>                                     |
+| <span data-ttu-id="1e7b6-183">Empresa</span><span class="sxs-lookup"><span data-stu-id="1e7b6-183">Company</span></span>                   | <span data-ttu-id="1e7b6-184">A entidade legal na qual a transação de pagamento de imposto será lançada, se a integração do razão for ativada.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-184">The legal entity where the tax payment transaction will be posted if ledger integration is activated.</span></span>                                                                                                   |
+| <span data-ttu-id="1e7b6-185">Revertido</span><span class="sxs-lookup"><span data-stu-id="1e7b6-185">Reversed</span></span>                  | <span data-ttu-id="1e7b6-186">Uma opção selecionada indica que o pagamento do imposto foi revertido.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-186">A selected option indicates that the tax payment was reversed.</span></span>                                                                                                                                          |
+| <span data-ttu-id="1e7b6-187">Número de rastreamento</span><span class="sxs-lookup"><span data-stu-id="1e7b6-187">Trace number</span></span>              | <span data-ttu-id="1e7b6-188">O número de rastreamento do pagamento revertido.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-188">The trace number for the reversed payment.</span></span>                                                                                                                                                              |
+| <span data-ttu-id="1e7b6-189">Número do processo referenciado</span><span class="sxs-lookup"><span data-stu-id="1e7b6-189">Referenced process number</span></span> | <span data-ttu-id="1e7b6-190">O número do processo referenciado.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-190">The referenced process number.</span></span>                                                                                                                                                                          |
+| <span data-ttu-id="1e7b6-191">Agência</span><span class="sxs-lookup"><span data-stu-id="1e7b6-191">Agency</span></span>                    | <span data-ttu-id="1e7b6-192">A agência a qual o processo referenciado pertence.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-192">The agency that the referenced process belongs to.</span></span>                                                                                                                                                      |
+| <span data-ttu-id="1e7b6-193">descrição</span><span class="sxs-lookup"><span data-stu-id="1e7b6-193">Description</span></span>               | <span data-ttu-id="1e7b6-194">A descrição do processo referenciado.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-194">The description of the referenced process.</span></span>                                                                                                                                                              |
+
+#### <a name="tax-payments"></a><span data-ttu-id="1e7b6-195">Pagamentos de imposto</span><span class="sxs-lookup"><span data-stu-id="1e7b6-195">Tax payments</span></span>
+
+<span data-ttu-id="1e7b6-196">Os pagamentos de impostos a seguir podem ser feitos na página **Pagamento de imposto** (**Livros fiscais** &gt; **Comum** &gt; **Período de escrituração** &gt; **Apuração**):</span><span class="sxs-lookup"><span data-stu-id="1e7b6-196">The following tax payments can be made on the **Tax payment** page (**Fiscal books** &gt; **Common** &gt; **Booking period** &gt; **Assessment**):</span></span>
+
+-   <span data-ttu-id="1e7b6-197">Apuração de imposto ICMS ou ICMS-ST</span><span class="sxs-lookup"><span data-stu-id="1e7b6-197">ICMS or ICMS-ST tax assessment</span></span>
+-   <span data-ttu-id="1e7b6-198">Pagamento de IPI</span><span class="sxs-lookup"><span data-stu-id="1e7b6-198">IPI tax payment</span></span>
+-   <span data-ttu-id="1e7b6-199">Pagamento de ICMS-DIF</span><span class="sxs-lookup"><span data-stu-id="1e7b6-199">ICMS-DIF tax payment</span></span>
+-   <span data-ttu-id="1e7b6-200">Pagamento de ISS</span><span class="sxs-lookup"><span data-stu-id="1e7b6-200">ISS tax payment</span></span>
+-   <span data-ttu-id="1e7b6-201">Pagamento de PIS e COFINS - Um pagamento é feito para PIS e outro para COFINS.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-201">PIS and COFINS tax payment – One payment is made for PIS tax, and another payment is made for COFINS tax.</span></span> <span data-ttu-id="1e7b6-202">O tipo de regime de PIS e COFINS é mostrado na seção **Visão geral** do pagamento de imposto.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-202">The type of PIS and COFINS regime is shown in the **Overview** section of the tax payment.</span></span> <span data-ttu-id="1e7b6-203">Um pagamento pode ser relacionado ao regime cumulativo, regime não cumulativo ou ambos.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-203">A payment can be related to the cumulative regime, the non-cumulative regime, or both regimes.</span></span>
+
+## <a name="reversing-tax-payments"></a><span data-ttu-id="1e7b6-204">Revertendo pagamentos de impostos</span><span class="sxs-lookup"><span data-stu-id="1e7b6-204">Reversing tax payments</span></span>
+<span data-ttu-id="1e7b6-205">Você pode reverter a transação para um pagamento de impostos que foi lançado, selecionando o pagamento de impostos e clicando em **Transação**.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-205">You can reverse the transaction for a tax payment that has been posted by selecting the tax payment and clicking **Transaction**.</span></span> <span data-ttu-id="1e7b6-206">O processo de reversão de transação reverte a transação original e todas as transações relacionadas criadas quando a transação original foi lançada.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-206">The transaction reversal process reverses the original transaction and all related transactions that were created when the original transaction was posted.</span></span> <span data-ttu-id="1e7b6-207">A sequência numérica para as referências do número de rastreamento e reversão da transação nas sequências numéricas deve ser configurada para permitir o registro das reversões.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-207">The number sequence for the transaction reversal and trace number references in the number sequences must be configured to allow for the registration of reversals.</span></span> <span data-ttu-id="1e7b6-208">Os pagamentos de impostos existentes podem ser revertidos nas seguintes condições:</span><span class="sxs-lookup"><span data-stu-id="1e7b6-208">Existing tax payments can be reversed under the following conditions:</span></span>
+
+-   <span data-ttu-id="1e7b6-209">A integração do razão com os Livros fiscais é ativada na página **Integração do razão**.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-209">Ledger integration with Fiscal books is activated on the **Ledger integration** page.</span></span>
+-   <span data-ttu-id="1e7b6-210">O passivo que é gerado quando o pagamento do imposto for lançado ainda está em aberto.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-210">The liability that is generated when the tax payment was posted is still in open.</span></span> <span data-ttu-id="1e7b6-211">Além disso, o saldo atual da conta do fornecedor da autoridade fiscal deve ser maior ou menor que 0,00</span><span class="sxs-lookup"><span data-stu-id="1e7b6-211">Additionally, the current balance in the vendor account of the tax authority must be greater than or less than 0.00</span></span>
+
+<span data-ttu-id="1e7b6-212">Quando um pagamento de imposto for revertido, o status da transação original é definido como **Revertido** e o número de sequência relacionado é inserido no campo **Número de rastreamento**.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-212">When a tax payment is reversed, the status of the original transaction is set to **Reverse**, and the related sequence number is entered in the **Trace number** field.</span></span>
+
+## <a name="deleting-tax-payments"></a><span data-ttu-id="1e7b6-213">Excluindo pagamentos de impostos</span><span class="sxs-lookup"><span data-stu-id="1e7b6-213">Deleting tax payments</span></span>
+<span data-ttu-id="1e7b6-214">Você pode excluir pagamentos de impostos se o número do comprovante não estiver em branco, quando a transação de pagamento for lançada.</span><span class="sxs-lookup"><span data-stu-id="1e7b6-214">You can delete tax payments if the voucher number wasn't blank when the payment transaction was posted.</span></span>
+
+<span data-ttu-id="1e7b6-215">Para obter mais informações, consulte os seguintes tópicos:</span><span class="sxs-lookup"><span data-stu-id="1e7b6-215">For more information, see the following topics:</span></span>
+
+ - [<span data-ttu-id="1e7b6-216">Configurar juros e multas para pagamentos de fornecedores</span><span class="sxs-lookup"><span data-stu-id="1e7b6-216">Set up interest and fines for vendor payments</span></span>](tasks/br-00065-1-set-up-interest-fines-vendor-payments.md)
+ - [<span data-ttu-id="1e7b6-217">Calcular juros e multas sobre pagamentos de fornecedores</span><span class="sxs-lookup"><span data-stu-id="1e7b6-217">Calculate interest and fines on vendor payments</span></span>](tasks/br-00065-2-calculate-interest-fines-vendor-payments.md)
+ - [<span data-ttu-id="1e7b6-218">Configurar juros e multas em pagamentos de clientes</span><span class="sxs-lookup"><span data-stu-id="1e7b6-218">Set up interest and fines on customer payments</span></span>](tasks/br-00066-1-set-up-interest-fines-customer-payments.md)
+ - [<span data-ttu-id="1e7b6-219">Calcular juros e multas em pagamentos de clientes</span><span class="sxs-lookup"><span data-stu-id="1e7b6-219">Calculate interest and fines on customer payments</span></span>](tasks/br-00066-2-calculate-interest-fines-customer-payments.md)
+
+
