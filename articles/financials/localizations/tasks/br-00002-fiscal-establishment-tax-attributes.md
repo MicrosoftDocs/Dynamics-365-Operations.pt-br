@@ -1,216 +1,91 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="br-00002-fiscal-establishment-tax-attributes.md" target-language="pt-BR">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>br-00002-fiscal-establishment-tax-attributes.55e3e7.5f0dcab41d8de17ed71132e9feac0ecdda0bb392.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>5f0dcab41d8de17ed71132e9feac0ecdda0bb392</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\br-00002-fiscal-establishment-tax-attributes.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Fiscal establishment tax attributes (Brazil)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atributos de imposto de estabelecimento fiscal (Brasil)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>Use this procedure to create one or more fiscal establishments for a legal entity.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Use este procedimento para criar um ou mais estabelecimentos fiscais para uma entidade legal.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Fiscal establishment tax attributes (Brazil)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atributos de imposto de estabelecimento fiscal (Brasil)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>Use this procedure to create one or more fiscal establishments for a legal entity.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Use este procedimento para criar um ou mais estabelecimentos fiscais para uma entidade legal.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>A fiscal establishment requires a Cadastro Nacional da Pessoa Jurídica (CNPJ) or Inscrição Estadual (IE) tax registration number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Um estabelecimento fiscal requer um número de inscrição fiscal no CNPJ (Cadastro Nacional da Pessoa Jurídica) ou IE (Inscrição Estadual).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>You can group fiscal establishments and set up tax groups for each fiscal establishment group in the Taxes matrix page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você pode agrupar estabelecimentos fiscais e configurar grupos de impostos para cada grupo de estabelecimentos fiscais na página Matriz de impostos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>This task uses the BRMF demo company.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta tarefa usa a empresa de demonstração BRMF.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Go to Organization administration &gt; Organizations &gt; Legal entities.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Administração da organização &gt; Organizações &gt; Entidades legais.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Click to follow the link in the Name field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique para seguir o link no campo Nome.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Expand the Addresses section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Expanda a seção Endereços.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Click Add.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Adicionar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>In the Name or description field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Nome ou Descrição, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>In the Purpose field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Motivo, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>In the Country/region field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo País/Região, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Click Yes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Sim.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>In the ZIP/postal code field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo CEP/código postal, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>In the Street number field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Número da rua, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Go to Organization administration &gt; Organizations &gt; Fiscal establishments &gt; Fiscal establishment groups.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Administração da organização &gt; Organizações &gt; Estabelecimentos fiscais &gt; Grupos de estabelecimentos fiscais.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Create new fiscal establishment group.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Crie um novo grupo de estabelecimentos fiscais.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>In the Fiscal establishment group field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Grupo de estabelecimento fiscal, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>In the Description field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Descrição, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Go to Organization administration &gt; Organizations &gt; Fiscal establishments &gt; Fiscal establishments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Administração da organização &gt; Organizações &gt; Estabelecimentos fiscais &gt; Estabelecimentos fiscais.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Create new fiscal establishment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Crie um novo estabelecimento fiscal.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>In the Fiscal establishment ID field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo ID do estabelecimento fiscal, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>In the Fiscal establishment group field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Grupo de estabelecimento fiscal, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>In the CNPJ field, enter the CNPJ of the new fiscal establishment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo CNPJ, insira o CNPJ do novo estabelecimento fiscal.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Expand the Address section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Expanda a seção Endereço.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>In the Name field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Nome, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>In the IE field, enter the IE of the fiscal establishment based on the state in the address.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo IE, insira o IE do estabelecimento fiscal com base no estado do endereço.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Go to Inventory management &gt; Setup &gt; Inventory breakdown &gt; Sites.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Gerenciamento do estoque &gt; Configuração &gt; Divisão do estoque &gt; Sites.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>In the Site field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Local, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>In the Name field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Nome, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>In the Fiscal establishment ID field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo ID do estabelecimento fiscal, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Expand the Financial dimensions section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Expanda a seção Dimensões financeiras.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Click to follow the link in the Filial field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique para seguir o link no campo Filial.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>In the Dimension value field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Valor da dimensão, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>In the Description field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Descrição, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Click Add to open the drop dialog.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Adicionar para abrir a caixa de diálogo suspensa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>Click Add.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Adicionar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>In the Filial field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Filial, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Go to Organization administration &gt; Organizations &gt; Fiscal establishments &gt; Fiscal establishments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Administração da organização &gt; Organizações &gt; Estabelecimentos fiscais &gt; Estabelecimentos fiscais.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Open the advanced row selection dialog</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Abrir a caixa de diálogo de seleção avançada de linha</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Apply the following filters: Enter a filter value of "NovaFilial" on the "Fiscal establishment ID" field using the "is exactly" filter operator</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aplique os seguintes filtros: insira um valor de filtro de "NovaFilial", no campo "ID do estabelecimento fiscal" usando o operador de filtro "é exatamente"</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>Click Fiscal document types.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Tipos de documento fiscal.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>In the Fiscal document type field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Tipo de documento fiscal, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>In the Name field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Nome, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>In the Series field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Série, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>In the Fiscal document number sequence field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Sequência numérica de nota fiscal, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>In the Document model field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Modelo do documento, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Atributos de imposto de estabelecimento fiscal (Brasil)
+description: Use este procedimento para criar um ou mais estabelecimentos fiscais para uma entidade legal.
+author: sndray
+manager: AnnBe
+ms.date: 06/24/2017
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Operations
+ms.search.region: Brazil
+ms.search.industry: Manufacturing;Distribution;Service industries
+ms.author: sndray
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5f0dcab41d8de17ed71132e9feac0ecdda0bb392
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1556248"
+---
+# <a name="fiscal-establishment-tax-attributes-brazil"></a><span data-ttu-id="53227-103">Atributos de imposto de estabelecimento fiscal (Brasil)</span><span class="sxs-lookup"><span data-stu-id="53227-103">Fiscal establishment tax attributes (Brazil)</span></span>
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+<span data-ttu-id="53227-104">Use este procedimento para criar um ou mais estabelecimentos fiscais para uma entidade legal.</span><span class="sxs-lookup"><span data-stu-id="53227-104">Use this procedure to create one or more fiscal establishments for a legal entity.</span></span> <span data-ttu-id="53227-105">Um estabelecimento fiscal requer um número de inscrição fiscal no CNPJ (Cadastro Nacional da Pessoa Jurídica) ou IE (Inscrição Estadual).</span><span class="sxs-lookup"><span data-stu-id="53227-105">A fiscal establishment requires a Cadastro Nacional da Pessoa Jurídica (CNPJ) or Inscrição Estadual (IE) tax registration number.</span></span> <span data-ttu-id="53227-106">Você pode agrupar estabelecimentos fiscais e configurar grupos de impostos para cada grupo de estabelecimentos fiscais na página Matriz de impostos.</span><span class="sxs-lookup"><span data-stu-id="53227-106">You can group fiscal establishments and set up tax groups for each fiscal establishment group in the Taxes matrix page.</span></span> <span data-ttu-id="53227-107">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="53227-107">This task uses the BRMF demo company.</span></span>
+
+1. <span data-ttu-id="53227-108">Vá para Administração da organização > Organizações > Entidades legais.</span><span class="sxs-lookup"><span data-stu-id="53227-108">Go to Organization administration > Organizations > Legal entities.</span></span>
+2. <span data-ttu-id="53227-109">Clique para seguir o link no campo Nome.</span><span class="sxs-lookup"><span data-stu-id="53227-109">Click to follow the link in the Name field.</span></span>
+3. <span data-ttu-id="53227-110">Expanda a seção Endereços.</span><span class="sxs-lookup"><span data-stu-id="53227-110">Expand the Addresses section.</span></span>
+4. <span data-ttu-id="53227-111">Clique em Adicionar.</span><span class="sxs-lookup"><span data-stu-id="53227-111">Click Add.</span></span>
+5. <span data-ttu-id="53227-112">No campo Nome ou Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="53227-112">In the Name or description field, type a value.</span></span>
+6. <span data-ttu-id="53227-113">No campo Motivo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="53227-113">In the Purpose field, enter or select a value.</span></span>
+7. <span data-ttu-id="53227-114">No campo País/Região, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="53227-114">In the Country/region field, type a value.</span></span>
+8. <span data-ttu-id="53227-115">Clique em Sim.</span><span class="sxs-lookup"><span data-stu-id="53227-115">Click Yes.</span></span>
+9. <span data-ttu-id="53227-116">No campo CEP/código postal, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="53227-116">In the ZIP/postal code field, type a value.</span></span>
+10. <span data-ttu-id="53227-117">No campo Número da rua, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="53227-117">In the Street number field, type a value.</span></span>
+11. <span data-ttu-id="53227-118">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="53227-118">Click OK.</span></span>
+12. <span data-ttu-id="53227-119">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="53227-119">Close the page.</span></span>
+13. <span data-ttu-id="53227-120">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="53227-120">Close the page.</span></span>
+14. <span data-ttu-id="53227-121">Vá para Administração da organização > Organizações > Estabelecimentos fiscais > Grupos de estabelecimentos fiscais.</span><span class="sxs-lookup"><span data-stu-id="53227-121">Go to Organization administration > Organizations > Fiscal establishments > Fiscal establishment groups.</span></span>
+15. <span data-ttu-id="53227-122">Crie um novo grupo de estabelecimentos fiscais.</span><span class="sxs-lookup"><span data-stu-id="53227-122">Create new fiscal establishment group.</span></span>
+16. <span data-ttu-id="53227-123">No campo Grupo de estabelecimento fiscal, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="53227-123">In the Fiscal establishment group field, type a value.</span></span>
+17. <span data-ttu-id="53227-124">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="53227-124">In the Description field, type a value.</span></span>
+18. <span data-ttu-id="53227-125">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="53227-125">Click Save.</span></span>
+19. <span data-ttu-id="53227-126">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="53227-126">Close the page.</span></span>
+20. <span data-ttu-id="53227-127">Vá para Administração da organização > Organizações > Estabelecimentos fiscais > Estabelecimentos fiscais.</span><span class="sxs-lookup"><span data-stu-id="53227-127">Go to Organization administration > Organizations > Fiscal establishments > Fiscal establishments.</span></span>
+21. <span data-ttu-id="53227-128">Crie um novo estabelecimento fiscal.</span><span class="sxs-lookup"><span data-stu-id="53227-128">Create new fiscal establishment.</span></span>
+22. <span data-ttu-id="53227-129">No campo ID do estabelecimento fiscal, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="53227-129">In the Fiscal establishment ID field, type a value.</span></span>
+23. <span data-ttu-id="53227-130">No campo Grupo de estabelecimento fiscal, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="53227-130">In the Fiscal establishment group field, enter or select a value.</span></span>
+24. <span data-ttu-id="53227-131">No campo CNPJ, insira o CNPJ do novo estabelecimento fiscal.</span><span class="sxs-lookup"><span data-stu-id="53227-131">In the CNPJ field, enter the CNPJ of the new fiscal establishment.</span></span>
+25. <span data-ttu-id="53227-132">Expanda a seção Endereço.</span><span class="sxs-lookup"><span data-stu-id="53227-132">Expand the Address section.</span></span>
+26. <span data-ttu-id="53227-133">No campo Nome, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="53227-133">In the Name field, enter or select a value.</span></span>
+27. <span data-ttu-id="53227-134">No campo IE, insira o IE do estabelecimento fiscal com base no estado do endereço.</span><span class="sxs-lookup"><span data-stu-id="53227-134">In the IE field, enter the IE of the fiscal establishment based on the state in the address.</span></span>
+28. <span data-ttu-id="53227-135">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="53227-135">Click Save.</span></span>
+29. <span data-ttu-id="53227-136">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="53227-136">Close the page.</span></span>
+30. <span data-ttu-id="53227-137">Vá para Gerenciamento do estoque > Configuração > Divisão do estoque > Sites.</span><span class="sxs-lookup"><span data-stu-id="53227-137">Go to Inventory management > Setup > Inventory breakdown > Sites.</span></span>
+31. <span data-ttu-id="53227-138">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="53227-138">Click New.</span></span>
+32. <span data-ttu-id="53227-139">No campo Local, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="53227-139">In the Site field, type a value.</span></span>
+33. <span data-ttu-id="53227-140">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="53227-140">In the Name field, type a value.</span></span>
+34. <span data-ttu-id="53227-141">No campo ID do estabelecimento fiscal, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="53227-141">In the Fiscal establishment ID field, enter or select a value.</span></span>
+35. <span data-ttu-id="53227-142">Expanda a seção Dimensões financeiras.</span><span class="sxs-lookup"><span data-stu-id="53227-142">Expand the Financial dimensions section.</span></span>
+36. <span data-ttu-id="53227-143">Clique para seguir o link no campo Filial.</span><span class="sxs-lookup"><span data-stu-id="53227-143">Click to follow the link in the Filial field.</span></span>
+37. <span data-ttu-id="53227-144">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="53227-144">Click New.</span></span>
+38. <span data-ttu-id="53227-145">No campo Valor da dimensão, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="53227-145">In the Dimension value field, type a value.</span></span>
+39. <span data-ttu-id="53227-146">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="53227-146">In the Description field, type a value.</span></span>
+40. <span data-ttu-id="53227-147">Clique em Adicionar para abrir a caixa de diálogo suspensa.</span><span class="sxs-lookup"><span data-stu-id="53227-147">Click Add to open the drop dialog.</span></span>
+41. <span data-ttu-id="53227-148">Clique em Adicionar.</span><span class="sxs-lookup"><span data-stu-id="53227-148">Click Add.</span></span>
+42. <span data-ttu-id="53227-149">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="53227-149">Click Save.</span></span>
+43. <span data-ttu-id="53227-150">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="53227-150">Close the page.</span></span>
+44. <span data-ttu-id="53227-151">No campo Filial, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="53227-151">In the Filial field, enter or select a value.</span></span>
+45. <span data-ttu-id="53227-152">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="53227-152">Click Save.</span></span>
+46. <span data-ttu-id="53227-153">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="53227-153">Close the page.</span></span>
+47. <span data-ttu-id="53227-154">Vá para Administração da organização > Organizações > Estabelecimentos fiscais > Estabelecimentos fiscais.</span><span class="sxs-lookup"><span data-stu-id="53227-154">Go to Organization administration > Organizations > Fiscal establishments > Fiscal establishments.</span></span>
+48. <span data-ttu-id="53227-155">Abrir a caixa de diálogo de seleção avançada de linha</span><span class="sxs-lookup"><span data-stu-id="53227-155">Open the advanced row selection dialog</span></span>
+49. <span data-ttu-id="53227-156">Aplique os seguintes filtros: insira um valor de filtro de "NovaFilial", no campo "ID do estabelecimento fiscal" usando o operador de filtro "é exatamente"</span><span class="sxs-lookup"><span data-stu-id="53227-156">Apply the following filters: Enter a filter value of "NovaFilial" on the "Fiscal establishment ID" field using the "is exactly" filter operator</span></span>
+50. <span data-ttu-id="53227-157">Clique em Tipos de documento fiscal.</span><span class="sxs-lookup"><span data-stu-id="53227-157">Click Fiscal document types.</span></span>
+51. <span data-ttu-id="53227-158">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="53227-158">Click New.</span></span>
+52. <span data-ttu-id="53227-159">No campo Tipo de documento fiscal, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="53227-159">In the Fiscal document type field, type a value.</span></span>
+53. <span data-ttu-id="53227-160">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="53227-160">In the Name field, type a value.</span></span>
+54. <span data-ttu-id="53227-161">No campo Série, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="53227-161">In the Series field, type a value.</span></span>
+55. <span data-ttu-id="53227-162">No campo Sequência numérica de nota fiscal, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="53227-162">In the Fiscal document number sequence field, enter or select a value.</span></span>
+56. <span data-ttu-id="53227-163">No campo Modelo do documento, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="53227-163">In the Document model field, enter or select a value.</span></span>
+57. <span data-ttu-id="53227-164">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="53227-164">Click Save.</span></span>
+58. <span data-ttu-id="53227-165">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="53227-165">Close the page.</span></span>
+59. <span data-ttu-id="53227-166">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="53227-166">Close the page.</span></span>
+

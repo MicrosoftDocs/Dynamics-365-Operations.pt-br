@@ -1,66 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md" target-language="pt-BR">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.7b29a5.dfbb2acc72ca19fbfc459481f39ed267ceee7b44.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>dfbb2acc72ca19fbfc459481f39ed267ceee7b44</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Generate emails for approved NF-e and attach DANFE PDF files and NF-e XML files to the emails (Brazil)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gerar emails para NF-e aprovada e anexar arquivos PDF do DANFE e arquivos XML da NF-e aos emails (Brasil)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>You can generate the Documento Auxiliar da Nota Fiscal Eletrônica (DANFE) for a Nota Fiscal eletrônica (NF-e) as a PDF file.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você pode gerar o Documento Auxiliar da Nota Fiscal Eletrônica (DANFE) para uma Nota Fiscal eletrônica (NF-e) como um arquivo PDF.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Generate emails for approved NF-e and attach DANFE PDF files and NF-e XML files to the emails (Brazil)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gerar emails para NF-e aprovada e anexar arquivos PDF do DANFE e arquivos XML da NF-e aos emails (Brasil)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>You can generate the Documento Auxiliar da Nota Fiscal Eletrônica (DANFE) for a Nota Fiscal eletrônica (NF-e) as a PDF file.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você pode gerar o Documento Auxiliar da Nota Fiscal Eletrônica (DANFE) para uma Nota Fiscal eletrônica (NF-e) como um arquivo PDF.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>You can then send the DANFE PDF file and the NF-e XML file that are generated for an approved NF-e to a third-party customer or vendor via email.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você pode enviar o arquivo PDF de DANFE e o arquivo NF-e XML que são gerados para uma NF-e aprovada para um cliente ou fornecedor por e-mail.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>Before you can generate email messages for approved electronic fiscal documents, you must set up an email template.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Antes de gerar mensagens de email para notas fiscais eletrônicas aprovadas, é preciso configurar um modelo de email.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>This task uses the BRMF demo company.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta tarefa usa a empresa de demonstração BRMF.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Go to Accounts receivable &gt; Fiscal documents &gt; Electronic fiscal documents &gt; Generate emails for NF-e.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Contas a receber &gt; Notas fiscais &gt; Notas fiscais eletrônicas &gt; Gerar emails para NF-e.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Expand the Run in the background section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Expanda a seção Executar em segundo plano.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Select Yes in the Batch processing field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione Sim no campo Processamento de lote.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>In the Batch group field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Grupo de lotes, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Click Recurrence.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Recorrência.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Select the No end date option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione a opção Nenhuma data de término.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>In the Count field, enter a number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Contagem, insira um número.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Gerar emails para NF-e aprovada e anexar arquivos PDF do DANFE e arquivos XML da NF-e aos emails (Brasil)
+description: Você pode gerar o Documento Auxiliar da Nota Fiscal Eletrônica (DANFE) para uma Nota Fiscal eletrônica (NF-e) como um arquivo PDF.
+author: sndray
+manager: AnnBe
+ms.date: 06/26/2017
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Operations
+ms.search.region: Brazil
+ms.author: sndray
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: dfbb2acc72ca19fbfc459481f39ed267ceee7b44
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1556233"
+---
+# <a name="generate-emails-for-approved-nf-e-and-attach-danfe-pdf-files-and-nf-e-xml-files-to-the-emails-brazil"></a><span data-ttu-id="1f918-103">Gerar emails para NF-e aprovada e anexar arquivos PDF do DANFE e arquivos XML da NF-e aos emails (Brasil)</span><span class="sxs-lookup"><span data-stu-id="1f918-103">Generate emails for approved NF-e and attach DANFE PDF files and NF-e XML files to the emails (Brazil)</span></span>
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+<span data-ttu-id="1f918-104">Você pode gerar o Documento Auxiliar da Nota Fiscal Eletrônica (DANFE) para uma Nota Fiscal eletrônica (NF-e) como um arquivo PDF.</span><span class="sxs-lookup"><span data-stu-id="1f918-104">You can generate the Documento Auxiliar da Nota Fiscal Eletrônica (DANFE) for a Nota Fiscal eletrônica (NF-e) as a PDF file.</span></span> <span data-ttu-id="1f918-105">Você pode enviar o arquivo PDF de DANFE e o arquivo NF-e XML que são gerados para uma NF-e aprovada para um cliente ou fornecedor por e-mail.</span><span class="sxs-lookup"><span data-stu-id="1f918-105">You can then send the DANFE PDF file and the NF-e XML file that are generated for an approved NF-e to a third-party customer or vendor via email.</span></span> <span data-ttu-id="1f918-106">Antes de gerar mensagens de email para notas fiscais eletrônicas aprovadas, é preciso configurar um modelo de email.</span><span class="sxs-lookup"><span data-stu-id="1f918-106">Before you can generate email messages for approved electronic fiscal documents, you must set up an email template.</span></span> <span data-ttu-id="1f918-107">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="1f918-107">This task uses the BRMF demo company.</span></span>
+
+1. <span data-ttu-id="1f918-108">Vá para Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Gerar emails para NF-e.</span><span class="sxs-lookup"><span data-stu-id="1f918-108">Go to Accounts receivable > Fiscal documents > Electronic fiscal documents > Generate emails for NF-e.</span></span>
+2. <span data-ttu-id="1f918-109">Expanda a seção Executar em segundo plano.</span><span class="sxs-lookup"><span data-stu-id="1f918-109">Expand the Run in the background section.</span></span>
+3. <span data-ttu-id="1f918-110">Selecione Sim no campo Processamento de lote.</span><span class="sxs-lookup"><span data-stu-id="1f918-110">Select Yes in the Batch processing field.</span></span>
+4. <span data-ttu-id="1f918-111">No campo Grupo de lotes, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="1f918-111">In the Batch group field, enter or select a value.</span></span>
+5. <span data-ttu-id="1f918-112">Clique em Recorrência.</span><span class="sxs-lookup"><span data-stu-id="1f918-112">Click Recurrence.</span></span>
+6. <span data-ttu-id="1f918-113">Selecione a opção Nenhuma data de término.</span><span class="sxs-lookup"><span data-stu-id="1f918-113">Select the No end date option.</span></span>
+7. <span data-ttu-id="1f918-114">No campo Contagem, insira um número.</span><span class="sxs-lookup"><span data-stu-id="1f918-114">In the Count field, enter a number.</span></span>
+8. <span data-ttu-id="1f918-115">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="1f918-115">Click OK.</span></span>
+9. <span data-ttu-id="1f918-116">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="1f918-116">Click OK.</span></span>
+

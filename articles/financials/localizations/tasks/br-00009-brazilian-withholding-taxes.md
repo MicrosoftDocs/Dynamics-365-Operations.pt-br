@@ -1,168 +1,77 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="br-00009-brazilian-withholding-taxes.md" target-language="pt-BR">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>br-00009-brazilian-withholding-taxes.b48193.7630d89f3cc47f54f9d5e50a3c3bf54ae637cf09.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>7630d89f3cc47f54f9d5e50a3c3bf54ae637cf09</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\br-00009-brazilian-withholding-taxes.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Brazilian withholding taxes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impostos retidos na fonte no Brasil</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This procedure sets up a withholding tax code, withholding tax type, and calculation parameter to calculate withholding taxes for consultancy services or professional service payments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este procedimento configura um código de imposto retido na fonte, um tipo de imposto retido na fonte e um parâmetro de cálculo para calcular o imposto retido na fonte para pagamentos de serviços da consulta ou de serviço profissional.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Brazilian withholding taxes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impostos retidos na fonte no Brasil</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This procedure sets up a withholding tax code, withholding tax type, and calculation parameter to calculate withholding taxes for consultancy services or professional service payments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este procedimento configura um código de imposto retido na fonte, um tipo de imposto retido na fonte e um parâmetro de cálculo para calcular o imposto retido na fonte para pagamentos de serviços da consulta ou de serviço profissional.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>This procedure uses the BRMF demo company.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este procedimento usa a empresa de dados de demonstração BRMF.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>Go to Tax &gt; Setup &gt; Withholding tax &gt; Withholding tax settlement periods.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Imposto &gt; Configuração &gt; Imposto retido na fonte &gt; Períodos de liquidação de imposto retido na fonte.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>In the Settlement period field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo de Período de liquidação, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>In the Description field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Descrição, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>In the Authority field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Autoridade, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>In the Period interval unit field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Unidade de intervalo do período, selecione uma opção.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>In the Period interval duration field, enter a number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Duração de intervalo do período, insira um número.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Click Add.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Adicionar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>In the list, mark the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, marque a linha selecionada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>In the From date field, enter a date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo De data, insira uma data.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>In the To date field, enter a date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Até, insira uma data.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>On the Action Pane, click ActionPaneTab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No Painel de Ação, clique em ActionPaneTab..</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Click New period.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo período.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Go to Tax &gt; Indirect taxes &gt; Withholding tax &gt; Withholding tax codes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Imposto &gt; Impostos indiretos &gt; Impostos retidos na fonte &gt; Códigos de impostos retidos na fonte.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>In the Withholding tax code field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Impostos retidos na fonte, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>In the Withholding tax name field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Nome do imposto retido na fonte, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>In the Brazilian tax withhold type field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Tipo de imposto retido na fonte brasileiro, selecione uma opção.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>In the Main account field, specify the desired values.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Conta principal, especifique os valores desejados.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>In the Withholding tax receivable field, specify the desired values.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Imposto retido na fonte a receber, especifique os valores desejados.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>In the Settlement period field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Período de definição, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Expand the Calculation section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Expandir a seção Cálculo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>In the Origin field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Origem, selecione uma opção.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Click Values.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Valores.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>In the Value field, enter a number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Valor, insira um número.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Go to Tax &gt; Indirect taxes &gt; Withholding tax &gt; Withholding tax groups.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Imposto &gt; Impostos indiretos &gt; Imposto retido na fonte &gt; Grupos de impostos retidos na fonte.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>In the Withholding tax group field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Grupo de impostos retidos na fonte, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>In the Description field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Descrição, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>In the Withholding tax code field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Código de imposto retido na fonte, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>Go to Tax &gt; Indirect taxes &gt; Withholding tax &gt; Item withholding tax groups.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Imposto &gt; Impostos indiretos &gt; Imposto retido na fonte &gt; Grupos de impostos retidos na fonte do item.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>In the Item withholding tax group field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Grupo de impostos retidos na fonte do item, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>In the Description field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Descrição, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>In the Withholding tax code field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Código de imposto retido na fonte, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Impostos retidos na fonte no Brasil
+description: Este procedimento configura um código de imposto retido na fonte, um tipo de imposto retido na fonte e um parâmetro de cálculo para calcular o imposto retido na fonte para pagamentos de serviços da consulta ou de serviço profissional.
+author: sndray
+manager: AnnBe
+ms.date: 06/24/2017
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Operations
+ms.search.region: Brazil
+ms.search.industry: Manufacturing;Distribution;Service industries
+ms.author: sndray
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7630d89f3cc47f54f9d5e50a3c3bf54ae637cf09
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1556246"
+---
+# <a name="brazilian-withholding-taxes"></a><span data-ttu-id="aa442-103">Impostos retidos na fonte no Brasil</span><span class="sxs-lookup"><span data-stu-id="aa442-103">Brazilian withholding taxes</span></span> 
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+<span data-ttu-id="aa442-104">Este procedimento configura um código de imposto retido na fonte, um tipo de imposto retido na fonte e um parâmetro de cálculo para calcular o imposto retido na fonte para pagamentos de serviços da consulta ou de serviço profissional.</span><span class="sxs-lookup"><span data-stu-id="aa442-104">This procedure sets up a withholding tax code, withholding tax type, and calculation parameter to calculate withholding taxes for consultancy services or professional service payments.</span></span> <span data-ttu-id="aa442-105">Este procedimento usa a empresa de dados de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="aa442-105">This procedure uses the BRMF demo company.</span></span>
+
+1. <span data-ttu-id="aa442-106">Vá para Imposto > Configuração > Imposto retido na fonte > Períodos de liquidação de imposto retido na fonte.</span><span class="sxs-lookup"><span data-stu-id="aa442-106">Go to Tax > Setup > Withholding tax > Withholding tax settlement periods.</span></span>
+2. <span data-ttu-id="aa442-107">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="aa442-107">Click New.</span></span>
+3. <span data-ttu-id="aa442-108">No campo de Período de liquidação, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="aa442-108">In the Settlement period field, type a value.</span></span>
+4. <span data-ttu-id="aa442-109">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="aa442-109">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="aa442-110">No campo Autoridade, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="aa442-110">In the Authority field, enter or select a value.</span></span>
+6. <span data-ttu-id="aa442-111">No campo Unidade de intervalo do período, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="aa442-111">In the Period interval unit field, select an option.</span></span>
+7. <span data-ttu-id="aa442-112">No campo Duração de intervalo do período, insira um número.</span><span class="sxs-lookup"><span data-stu-id="aa442-112">In the Period interval duration field, enter a number.</span></span>
+8. <span data-ttu-id="aa442-113">Clique em Adicionar.</span><span class="sxs-lookup"><span data-stu-id="aa442-113">Click Add.</span></span>
+9. <span data-ttu-id="aa442-114">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="aa442-114">In the list, mark the selected row.</span></span>
+10. <span data-ttu-id="aa442-115">No campo De data, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="aa442-115">In the From date field, enter a date.</span></span>
+11. <span data-ttu-id="aa442-116">No campo Até, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="aa442-116">In the To date field, enter a date.</span></span>
+12. <span data-ttu-id="aa442-117">No Painel de Ação, clique em ActionPaneTab..</span><span class="sxs-lookup"><span data-stu-id="aa442-117">On the Action Pane, click ActionPaneTab.</span></span>
+13. <span data-ttu-id="aa442-118">Clique em Novo período.</span><span class="sxs-lookup"><span data-stu-id="aa442-118">Click New period.</span></span>
+14. <span data-ttu-id="aa442-119">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="aa442-119">Click Save.</span></span>
+15. <span data-ttu-id="aa442-120">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="aa442-120">Close the page.</span></span>
+16. <span data-ttu-id="aa442-121">Vá para Imposto > Impostos indiretos > Impostos retidos na fonte > Códigos de impostos retidos na fonte.</span><span class="sxs-lookup"><span data-stu-id="aa442-121">Go to Tax > Indirect taxes > Withholding tax > Withholding tax codes.</span></span>
+17. <span data-ttu-id="aa442-122">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="aa442-122">Click New.</span></span>
+18. <span data-ttu-id="aa442-123">No campo Impostos retidos na fonte, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="aa442-123">In the Withholding tax code field, type a value.</span></span>
+19. <span data-ttu-id="aa442-124">No campo Nome do imposto retido na fonte, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="aa442-124">In the Withholding tax name field, type a value.</span></span>
+20. <span data-ttu-id="aa442-125">No campo Tipo de imposto retido na fonte brasileiro, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="aa442-125">In the Brazilian tax withhold type field, select an option.</span></span>
+21. <span data-ttu-id="aa442-126">No campo Conta principal, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="aa442-126">In the Main account field, specify the desired values.</span></span>
+22. <span data-ttu-id="aa442-127">No campo Imposto retido na fonte a receber, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="aa442-127">In the Withholding tax receivable field, specify the desired values.</span></span>
+23. <span data-ttu-id="aa442-128">No campo Período de definição, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="aa442-128">In the Settlement period field, enter or select a value.</span></span>
+24. <span data-ttu-id="aa442-129">Expandir a seção Cálculo.</span><span class="sxs-lookup"><span data-stu-id="aa442-129">Expand the Calculation section.</span></span>
+25. <span data-ttu-id="aa442-130">No campo Origem, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="aa442-130">In the Origin field, select an option.</span></span>
+26. <span data-ttu-id="aa442-131">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="aa442-131">Click Save.</span></span>
+27. <span data-ttu-id="aa442-132">Clique em Valores.</span><span class="sxs-lookup"><span data-stu-id="aa442-132">Click Values.</span></span>
+28. <span data-ttu-id="aa442-133">No campo Valor, insira um número.</span><span class="sxs-lookup"><span data-stu-id="aa442-133">In the Value field, enter a number.</span></span>
+29. <span data-ttu-id="aa442-134">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="aa442-134">Click Save.</span></span>
+30. <span data-ttu-id="aa442-135">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="aa442-135">Close the page.</span></span>
+31. <span data-ttu-id="aa442-136">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="aa442-136">Close the page.</span></span>
+32. <span data-ttu-id="aa442-137">Vá para Imposto > Impostos indiretos > Imposto retido na fonte > Grupos de impostos retidos na fonte.</span><span class="sxs-lookup"><span data-stu-id="aa442-137">Go to Tax > Indirect taxes > Withholding tax > Withholding tax groups.</span></span>
+33. <span data-ttu-id="aa442-138">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="aa442-138">Click New.</span></span>
+34. <span data-ttu-id="aa442-139">No campo Grupo de impostos retidos na fonte, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="aa442-139">In the Withholding tax group field, type a value.</span></span>
+35. <span data-ttu-id="aa442-140">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="aa442-140">In the Description field, type a value.</span></span>
+36. <span data-ttu-id="aa442-141">No campo Código de imposto retido na fonte, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="aa442-141">In the Withholding tax code field, enter or select a value.</span></span>
+37. <span data-ttu-id="aa442-142">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="aa442-142">Click Save.</span></span>
+38. <span data-ttu-id="aa442-143">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="aa442-143">Close the page.</span></span>
+39. <span data-ttu-id="aa442-144">Vá para Imposto > Impostos indiretos > Imposto retido na fonte > Grupos de impostos retidos na fonte do item.</span><span class="sxs-lookup"><span data-stu-id="aa442-144">Go to Tax > Indirect taxes > Withholding tax > Item withholding tax groups.</span></span>
+40. <span data-ttu-id="aa442-145">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="aa442-145">Click New.</span></span>
+41. <span data-ttu-id="aa442-146">No campo Grupo de impostos retidos na fonte do item, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="aa442-146">In the Item withholding tax group field, type a value.</span></span>
+42. <span data-ttu-id="aa442-147">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="aa442-147">In the Description field, type a value.</span></span>
+43. <span data-ttu-id="aa442-148">No campo Código de imposto retido na fonte, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="aa442-148">In the Withholding tax code field, enter or select a value.</span></span>
+44. <span data-ttu-id="aa442-149">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="aa442-149">Click Save.</span></span>
+45. <span data-ttu-id="aa442-150">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="aa442-150">Close the page.</span></span>
+

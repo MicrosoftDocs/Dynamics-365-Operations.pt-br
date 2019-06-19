@@ -1,183 +1,81 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="br-00001-1-set-up-brazil-legal-entity-parameters.md" target-language="pt-BR">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>br-00001-1-set-up-brazil-legal-entity-parameters.b34917.327051aba5f4ae00b446a0b1fea4e25aaf9b512d.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>327051aba5f4ae00b446a0b1fea4e25aaf9b512d</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\br-00001-1-set-up-brazil-legal-entity-parameters.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Set up legal entity parameters (Brazil)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configurar parâmetros de entidade legal (Brasil)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>Set up Brazilian legal entity parameters.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configurar parâmetros de entidade legal do Brasil.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Set up legal entity parameters (Brazil)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configurar parâmetros de entidade legal (Brasil)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>Set up Brazilian legal entity parameters.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configurar parâmetros de entidade legal do Brasil.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>This task uses the BRMF demo company.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta tarefa usa a empresa de demonstração BRMF.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>Go to Organization administration &gt; Setup &gt; Brazilian parameters.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Administração da organização &gt; Configuração &gt; Parâmetros brasileiros.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Select Yes in the Enable CFPS code field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione Sim no campo Habilitar código CFPS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Select the financial dimension that will be used for the cost center during the absorption cost calculation.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione a dimensão financeira que será usada para o centro de custos durante o cálculo de custos de absorção.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Select the financial dimension that will be used for fiscal establishment during the absorption cost calculation.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione a dimensão financeira que será usada para o estabelecimento fiscal durante o cálculo de custos de absorção.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Click the Fiscal document tab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique na guia Nota fiscal.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>In the Text ID field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo ID do Texto, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>In the Text ID field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo ID do Texto, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>In the Product type field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Tipo de produto, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>In the Volume type field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Tipo de volume, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>In the Volume quantity field, enter a number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Quantidade de volume, insira um número.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Select Yes if all fiscal documents must be issued with a fixed date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione Sim se todas as notas fiscais tiverem que ser emitidas com uma data fixa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Select No in the Enable fix issue date field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione Não no campo Habilitar data de emissão fixada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>In the Item field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Item, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>In the Service field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Serviço, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>In the Document type field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Tipo de documento, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>In the Document type field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Tipo de documento, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Select the standard document type that will be used for text on fiscal documents.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione o tipo de documento padrão que será usado para o texto em notas fiscais.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>In the Item field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Item, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>In the Sales tax code for PIS field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Código de impostos sobre vendas para PIS, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>In the Sales tax code for COFINS field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Código de impostos sobre vendas para COFINS, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>In the Fiscal document source text field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Modelo de texto da nota fiscal, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>In the Text ID field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo ID do Texto, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>In the Sales tax code for COFINS field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Código de impostos sobre vendas para COFINS, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>In the Sales tax code for PIS field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Código de impostos sobre vendas para PIS, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>In the Unit field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Unidade, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>In the Basic tax value for PIS in cumulative regimen field, enter a number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Valor do imposto de base para PIS em regime cumulativo, insira um número.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>In the Basic tax value for PIS in non cumulative regimen field, enter a number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Valor do imposto de base para PIS em regime não cumulativo, insira um número.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>In the Basic tax value for COFINS in cumulative regimen field, enter a number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Valor do imposto de base para COFINS em regime cumulativo, insira um número.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>In the Basic tax value for COFINS in non cumulative regimen field, enter a number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Valor do imposto de base para COFINS em regime não cumulativo, insira um número.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>In the Source field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Origem, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>In the Text ID field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo ID do Texto, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>In the Text ID field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo ID do Texto, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>Click the Taxation code tab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique na guia Código de tributação.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>In the list, mark the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, marque a linha selecionada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Select the Mandatory check box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Marque a caixa de seleção Obrigatório.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Open the advanced row selection dialog</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Abrir a caixa de diálogo de seleção avançada de linha</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Click Select by index.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Selecionar por índice.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>Select the Mandatory check box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Marque a caixa de seleção Obrigatório.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>In the list, mark the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, marque a linha selecionada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Select the Mandatory check box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Marque a caixa de seleção Obrigatório.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Open the advanced row selection dialog</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Abrir a caixa de diálogo de seleção avançada de linha</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>Apply the following filters: Enter a filter value of "COFINS" on the "Tax type" field using the "is exactly" filter operator</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aplique os seguintes filtros: insira um valor de filtro de "COFINS" no campo "Tipo de imposto" usando o operador de filtro "é exatamente"</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Select the Mandatory check box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Marque a caixa de seleção Obrigatório.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>In the list, mark the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, marque a linha selecionada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Open the advanced row selection dialog</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Abrir a caixa de diálogo de seleção avançada de linha</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Apply the following filters: Enter a filter value of "IPI" on the "Tax type" field using the "is exactly" filter operator</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aplique os seguintes filtros: insira um valor de filtro de "IPI" no campo "Tipo de imposto" usando o operador de filtro "é exatamente"</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Select the Mandatory check box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Marque a caixa de seleção Obrigatório.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Configurar parâmetros de entidade legal (Brasil)
+description: Configurar parâmetros de entidade legal do Brasil.
+author: sndray
+manager: AnnBe
+ms.date: 06/26/2017
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Operations
+ms.search.region: Brazil
+ms.author: sndray
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 327051aba5f4ae00b446a0b1fea4e25aaf9b512d
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1556249"
+---
+# <a name="set-up-legal-entity-parameters-brazil"></a><span data-ttu-id="332e2-103">Configurar parâmetros de entidade legal (Brasil)</span><span class="sxs-lookup"><span data-stu-id="332e2-103">Set up legal entity parameters (Brazil)</span></span>
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+<span data-ttu-id="332e2-104">Configurar parâmetros de entidade legal do Brasil.</span><span class="sxs-lookup"><span data-stu-id="332e2-104">Set up Brazilian legal entity parameters.</span></span> <span data-ttu-id="332e2-105">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="332e2-105">This task uses the BRMF demo company.</span></span>
+
+1. <span data-ttu-id="332e2-106">Vá para Administração da organização > Configuração > Parâmetros brasileiros.</span><span class="sxs-lookup"><span data-stu-id="332e2-106">Go to Organization administration > Setup > Brazilian parameters.</span></span>
+2. <span data-ttu-id="332e2-107">Selecione Sim no campo Habilitar código CFPS.</span><span class="sxs-lookup"><span data-stu-id="332e2-107">Select Yes in the Enable CFPS code field.</span></span>
+3. <span data-ttu-id="332e2-108">Selecione a dimensão financeira que será usada para o centro de custos durante o cálculo de custos de absorção.</span><span class="sxs-lookup"><span data-stu-id="332e2-108">Select the financial dimension that will be used for the cost center during the absorption cost calculation.</span></span>
+4. <span data-ttu-id="332e2-109">Selecione a dimensão financeira que será usada para o estabelecimento fiscal durante o cálculo de custos de absorção.</span><span class="sxs-lookup"><span data-stu-id="332e2-109">Select the financial dimension that will be used for fiscal establishment during the absorption cost calculation.</span></span>
+5. <span data-ttu-id="332e2-110">Clique na guia Nota fiscal.</span><span class="sxs-lookup"><span data-stu-id="332e2-110">Click the Fiscal document tab.</span></span>
+6. <span data-ttu-id="332e2-111">No campo ID do Texto, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="332e2-111">In the Text ID field, enter or select a value.</span></span>
+7. <span data-ttu-id="332e2-112">No campo ID do Texto, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="332e2-112">In the Text ID field, enter or select a value.</span></span>
+8. <span data-ttu-id="332e2-113">No campo Tipo de produto, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="332e2-113">In the Product type field, enter or select a value.</span></span>
+9. <span data-ttu-id="332e2-114">No campo Tipo de volume, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="332e2-114">In the Volume type field, type a value.</span></span>
+10. <span data-ttu-id="332e2-115">No campo Quantidade de volume, insira um número.</span><span class="sxs-lookup"><span data-stu-id="332e2-115">In the Volume quantity field, enter a number.</span></span>
+11. <span data-ttu-id="332e2-116">Selecione Sim se todas as notas fiscais tiverem que ser emitidas com uma data fixa.</span><span class="sxs-lookup"><span data-stu-id="332e2-116">Select Yes if all fiscal documents must be issued with a fixed date.</span></span>
+12. <span data-ttu-id="332e2-117">Selecione Não no campo Habilitar data de emissão fixada.</span><span class="sxs-lookup"><span data-stu-id="332e2-117">Select No in the Enable fix issue date field.</span></span>
+13. <span data-ttu-id="332e2-118">No campo Item, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="332e2-118">In the Item field, enter or select a value.</span></span>
+14. <span data-ttu-id="332e2-119">No campo Serviço, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="332e2-119">In the Service field, enter or select a value.</span></span>
+15. <span data-ttu-id="332e2-120">No campo Tipo de documento, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="332e2-120">In the Document type field, enter or select a value.</span></span>
+16. <span data-ttu-id="332e2-121">No campo Tipo de documento, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="332e2-121">In the Document type field, type a value.</span></span>
+17. <span data-ttu-id="332e2-122">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="332e2-122">Close the page.</span></span>
+18. <span data-ttu-id="332e2-123">Selecione o tipo de documento padrão que será usado para o texto em notas fiscais.</span><span class="sxs-lookup"><span data-stu-id="332e2-123">Select the standard document type that will be used for text on fiscal documents.</span></span>
+19. <span data-ttu-id="332e2-124">No campo Item, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="332e2-124">In the Item field, enter or select a value.</span></span>
+20. <span data-ttu-id="332e2-125">No campo Código de impostos sobre vendas para PIS, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="332e2-125">In the Sales tax code for PIS field, enter or select a value.</span></span>
+21. <span data-ttu-id="332e2-126">No campo Código de impostos sobre vendas para COFINS, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="332e2-126">In the Sales tax code for COFINS field, enter or select a value.</span></span>
+22. <span data-ttu-id="332e2-127">No campo Modelo de texto da nota fiscal, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="332e2-127">In the Fiscal document source text field, enter or select a value.</span></span>
+23. <span data-ttu-id="332e2-128">No campo ID do Texto, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="332e2-128">In the Text ID field, enter or select a value.</span></span>
+24. <span data-ttu-id="332e2-129">No campo Código de impostos sobre vendas para COFINS, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="332e2-129">In the Sales tax code for COFINS field, enter or select a value.</span></span>
+25. <span data-ttu-id="332e2-130">No campo Código de impostos sobre vendas para PIS, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="332e2-130">In the Sales tax code for PIS field, enter or select a value.</span></span>
+26. <span data-ttu-id="332e2-131">No campo Unidade, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="332e2-131">In the Unit field, type a value.</span></span>
+27. <span data-ttu-id="332e2-132">No campo Valor do imposto de base para PIS em regime cumulativo, insira um número.</span><span class="sxs-lookup"><span data-stu-id="332e2-132">In the Basic tax value for PIS in cumulative regimen field, enter a number.</span></span>
+28. <span data-ttu-id="332e2-133">No campo Valor do imposto de base para PIS em regime não cumulativo, insira um número.</span><span class="sxs-lookup"><span data-stu-id="332e2-133">In the Basic tax value for PIS in non cumulative regimen field, enter a number.</span></span>
+29. <span data-ttu-id="332e2-134">No campo Valor do imposto de base para COFINS em regime cumulativo, insira um número.</span><span class="sxs-lookup"><span data-stu-id="332e2-134">In the Basic tax value for COFINS in cumulative regimen field, enter a number.</span></span>
+30. <span data-ttu-id="332e2-135">No campo Valor do imposto de base para COFINS em regime não cumulativo, insira um número.</span><span class="sxs-lookup"><span data-stu-id="332e2-135">In the Basic tax value for COFINS in non cumulative regimen field, enter a number.</span></span>
+31. <span data-ttu-id="332e2-136">No campo Origem, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="332e2-136">In the Source field, type a value.</span></span>
+32. <span data-ttu-id="332e2-137">No campo ID do Texto, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="332e2-137">In the Text ID field, enter or select a value.</span></span>
+33. <span data-ttu-id="332e2-138">No campo ID do Texto, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="332e2-138">In the Text ID field, enter or select a value.</span></span>
+34. <span data-ttu-id="332e2-139">Clique na guia Código de tributação.</span><span class="sxs-lookup"><span data-stu-id="332e2-139">Click the Taxation code tab.</span></span>
+35. <span data-ttu-id="332e2-140">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="332e2-140">In the list, mark the selected row.</span></span>
+36. <span data-ttu-id="332e2-141">Marque a caixa de seleção Obrigatório.</span><span class="sxs-lookup"><span data-stu-id="332e2-141">Select the Mandatory check box.</span></span>
+37. <span data-ttu-id="332e2-142">Abrir a caixa de diálogo de seleção avançada de linha</span><span class="sxs-lookup"><span data-stu-id="332e2-142">Open the advanced row selection dialog</span></span>
+38. <span data-ttu-id="332e2-143">Clique em Selecionar por índice.</span><span class="sxs-lookup"><span data-stu-id="332e2-143">Click Select by index.</span></span>
+39. <span data-ttu-id="332e2-144">Marque a caixa de seleção Obrigatório.</span><span class="sxs-lookup"><span data-stu-id="332e2-144">Select the Mandatory check box.</span></span>
+40. <span data-ttu-id="332e2-145">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="332e2-145">In the list, mark the selected row.</span></span>
+41. <span data-ttu-id="332e2-146">Marque a caixa de seleção Obrigatório.</span><span class="sxs-lookup"><span data-stu-id="332e2-146">Select the Mandatory check box.</span></span>
+42. <span data-ttu-id="332e2-147">Abrir a caixa de diálogo de seleção avançada de linha</span><span class="sxs-lookup"><span data-stu-id="332e2-147">Open the advanced row selection dialog</span></span>
+43. <span data-ttu-id="332e2-148">Aplique os seguintes filtros: insira um valor de filtro de "COFINS" no campo "Tipo de imposto" usando o operador de filtro "é exatamente"</span><span class="sxs-lookup"><span data-stu-id="332e2-148">Apply the following filters: Enter a filter value of "COFINS" on the "Tax type" field using the "is exactly" filter operator</span></span>
+44. <span data-ttu-id="332e2-149">Marque a caixa de seleção Obrigatório.</span><span class="sxs-lookup"><span data-stu-id="332e2-149">Select the Mandatory check box.</span></span>
+45. <span data-ttu-id="332e2-150">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="332e2-150">In the list, mark the selected row.</span></span>
+46. <span data-ttu-id="332e2-151">Abrir a caixa de diálogo de seleção avançada de linha</span><span class="sxs-lookup"><span data-stu-id="332e2-151">Open the advanced row selection dialog</span></span>
+47. <span data-ttu-id="332e2-152">Aplique os seguintes filtros: insira um valor de filtro de "IPI" no campo "Tipo de imposto" usando o operador de filtro "é exatamente"</span><span class="sxs-lookup"><span data-stu-id="332e2-152">Apply the following filters: Enter a filter value of "IPI" on the "Tax type" field using the "is exactly" filter operator</span></span>
+48. <span data-ttu-id="332e2-153">Marque a caixa de seleção Obrigatório.</span><span class="sxs-lookup"><span data-stu-id="332e2-153">Select the Mandatory check box.</span></span>
+49. <span data-ttu-id="332e2-154">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="332e2-154">Click Save.</span></span>
+50. <span data-ttu-id="332e2-155">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="332e2-155">Close the page.</span></span>
+

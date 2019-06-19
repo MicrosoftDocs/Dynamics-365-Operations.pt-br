@@ -1,246 +1,103 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="br-00053-1-set-up-nf-e-federal-parameters.md" target-language="pt-BR">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>br-00053-1-set-up-nf-e-federal-parameters.822cd6.6995cb412fb9a857daf916a5a35b6b4a4bace084.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>6995cb412fb9a857daf916a5a35b6b4a4bace084</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\br-00053-1-set-up-nf-e-federal-parameters.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Set up NF-e federal parameters (Brazil)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configurar parâmetros federais de NF-e (Brasil)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>You can set up Nota Fiscal eletrônica (NF-e) web services, rejection codes, and schemas to generate an NF-e.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">É possível configurar serviços de Web da Nota Fiscal eletrônica (NF-e), códigos de rejeição e esquemas para gerar uma NF-e.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Set up NF-e federal parameters (Brazil)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configurar parâmetros federais de NF-e (Brasil)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>You can set up Nota Fiscal eletrônica (NF-e) web services, rejection codes, and schemas to generate an NF-e.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">É possível configurar serviços de Web da Nota Fiscal eletrônica (NF-e), códigos de rejeição e esquemas para gerar uma NF-e.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>After you generate an NF-e, XML messages are generated and submitted to the Secretaria da Fazenda (SEFAZ).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Após gerar uma NF-e, mensagens XML são geradas e enviadas para a Secretaria da Fazenda (SEFAZ).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>This task uses the BRMF demo company.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta tarefa usa a empresa de demonstração BRMF.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Go to Organization administration &gt; Organizations &gt; Electronic fiscal documents &gt; NF-e federal parameters.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Administração da organização &gt; Organizações &gt; Notas fiscais eletrônicas &gt; Parâmetros federais de NF-e.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>One tax authority must be created per state.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uma autoridade de imposto deve ser criada por estado.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>In the Authority field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Autoridade, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>In the Name field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Nome, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Select the Ignore accents check box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Marque a caixa de seleção Ignorar acentos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Select the Cancel as Event check box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Marque a caixa de seleção Cancelar como Evento.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>This option complies with the cancellation of NF-e through events instead of a specific XML cancellation file.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Essa opção está de acordo com o cancelamento da NF-e em eventos, em veze de um arquivo de cancelamento XML específico.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>In the Environment field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Ambiente, selecione uma opção.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Select the web service for NF-e authorization.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione o serviço da Web para autorização de NF-e.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>In the Version field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Versão, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>In the Internet address field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Endereço na Internet, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>In the Environment field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Ambiente, selecione uma opção.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Select the web service for NF-e discard.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione o serviço da Web para descarte de NF-e.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>In the Version field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Versão, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>In the Internet address field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Endereço na Internet, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>In the Environment field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Ambiente, selecione uma opção.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Select the web service for NF-e inquiries.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione o serviço da Web para Consultas de NF-e.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>In the Version field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Versão, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>In the Internet address field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Endereço na Internet, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>In the Environment field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Ambiente, selecione uma opção.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>Select the web service for NF-e authorization returns.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione o serviço da Web para devoluções de NF-e.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>In the Version field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Versão, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>In the Internet address field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Endereço na Internet, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>In the Environment field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Ambiente, selecione uma opção.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>Select the web service for NF-e events.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione o serviço da Web para eventos de NF-e.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>In the Version field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Versão, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>In the Internet address field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Endereço na Internet, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>In the Environment field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Ambiente, selecione uma opção.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Select the web service for NF-e service status inquiries.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione o serviço da Web para consultas de status de serviço de NF-e.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>In the Version field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Versão, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>In the Internet address field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Endereço na Internet, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Click the Rejection codes tab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique na guia Códigos de rejeição.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Enter the rejection codes that are listed in the official NF-e guide.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Insira os códigos de rejeição listados no guia oficial da NF-e.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>In the NF-e rejection code field, enter the rejection code from the official NF-e guide.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo código de rejeição de NF-e, insira o código de rejeição do guia oficial de NF-e.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>In the Description field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Descrição, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>In the list, mark the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, marque a linha selecionada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>In the Message type field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Tipo de mensagem, selecione uma opção.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>In the Fiscal document status field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Status do documento fiscal, selecione uma opção.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Enter the fiscal document status that must be set when the rejection code is entered.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Insira o status de nota fiscal que deve ser definido quando o código de rejeição for inserido.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>Click the Schemas tab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique na guia Esquemas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>When applicable, enter the path of the XSD file that will be used to validate the NF-e XML.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando aplicável, insira o caminho de arquivo XSD que será usado para validar o XML da NF-e.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>In the The version of the NF-e feature field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo A versão do recurso de NF-e, selecione uma opção.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>In the Schema field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Esquema, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>In the Schema type field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Tipo de esquema, selecione uma opção.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>In the The version of the NF-e feature field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo A versão do recurso de NF-e, selecione uma opção.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>In the Schema field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Esquema, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>In the Schema type field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Tipo de esquema, selecione uma opção.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>In the The version of the NF-e feature field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo A versão do recurso de NF-e, selecione uma opção.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>In the Schema field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Esquema, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Novo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>In the Schema type field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Tipo de esquema, selecione uma opção.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>In the The version of the NF-e feature field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo A versão do recurso de NF-e, selecione uma opção.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>In the Schema field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Esquema, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Salvar.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Configurar parâmetros federais de NF-e (Brasil)
+description: É possível configurar serviços de Web da Nota Fiscal eletrônica (NF-e), códigos de rejeição e esquemas para gerar uma NF-e.
+author: sndray
+manager: AnnBe
+ms.date: 06/26/2017
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Operations
+ms.search.region: Brazil
+ms.author: sndray
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6995cb412fb9a857daf916a5a35b6b4a4bace084
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1556236"
+---
+# <a name="set-up-nf-e-federal-parameters-brazil"></a><span data-ttu-id="ea252-103">Configurar parâmetros federais de NF-e (Brasil)</span><span class="sxs-lookup"><span data-stu-id="ea252-103">Set up NF-e federal parameters (Brazil)</span></span>
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+<span data-ttu-id="ea252-104">É possível configurar serviços de Web da Nota Fiscal eletrônica (NF-e), códigos de rejeição e esquemas para gerar uma NF-e.</span><span class="sxs-lookup"><span data-stu-id="ea252-104">You can set up Nota Fiscal eletrônica (NF-e) web services, rejection codes, and schemas to generate an NF-e.</span></span> <span data-ttu-id="ea252-105">Após gerar uma NF-e, mensagens XML são geradas e enviadas para a Secretaria da Fazenda (SEFAZ).</span><span class="sxs-lookup"><span data-stu-id="ea252-105">After you generate an NF-e, XML messages are generated and submitted to the Secretaria da Fazenda (SEFAZ).</span></span> <span data-ttu-id="ea252-106">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="ea252-106">This task uses the BRMF demo company.</span></span>
+
+
+
+1. <span data-ttu-id="ea252-107">Vá para Administração da organização > Organizações > Notas fiscais eletrônicas > Parâmetros federais de NF-e.</span><span class="sxs-lookup"><span data-stu-id="ea252-107">Go to Organization administration > Organizations > Electronic fiscal documents > NF-e federal parameters.</span></span>
+2. <span data-ttu-id="ea252-108">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="ea252-108">Click New.</span></span>
+    * <span data-ttu-id="ea252-109">Uma autoridade de imposto deve ser criada por estado.</span><span class="sxs-lookup"><span data-stu-id="ea252-109">One tax authority must be created per state.</span></span>  
+3. <span data-ttu-id="ea252-110">No campo Autoridade, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="ea252-110">In the Authority field, type a value.</span></span>
+4. <span data-ttu-id="ea252-111">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="ea252-111">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="ea252-112">Marque a caixa de seleção Ignorar acentos.</span><span class="sxs-lookup"><span data-stu-id="ea252-112">Select the Ignore accents check box.</span></span>
+6. <span data-ttu-id="ea252-113">Marque a caixa de seleção Cancelar como Evento.</span><span class="sxs-lookup"><span data-stu-id="ea252-113">Select the Cancel as Event check box.</span></span>
+    * <span data-ttu-id="ea252-114">Essa opção está de acordo com o cancelamento da NF-e em eventos, em veze de um arquivo de cancelamento XML específico.</span><span class="sxs-lookup"><span data-stu-id="ea252-114">This option complies with the cancellation of NF-e through events instead of a specific XML cancellation file.</span></span>  
+7. <span data-ttu-id="ea252-115">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="ea252-115">Click Save.</span></span>
+8. <span data-ttu-id="ea252-116">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="ea252-116">Click New.</span></span>
+9. <span data-ttu-id="ea252-117">No campo Ambiente, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="ea252-117">In the Environment field, select an option.</span></span>
+10. <span data-ttu-id="ea252-118">Selecione o serviço da Web para autorização de NF-e.</span><span class="sxs-lookup"><span data-stu-id="ea252-118">Select the web service for NF-e authorization.</span></span>
+11. <span data-ttu-id="ea252-119">No campo Versão, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="ea252-119">In the Version field, type a value.</span></span>
+12. <span data-ttu-id="ea252-120">No campo Endereço na Internet, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="ea252-120">In the Internet address field, type a value.</span></span>
+13. <span data-ttu-id="ea252-121">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="ea252-121">Click New.</span></span>
+14. <span data-ttu-id="ea252-122">No campo Ambiente, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="ea252-122">In the Environment field, select an option.</span></span>
+15. <span data-ttu-id="ea252-123">Selecione o serviço da Web para descarte de NF-e.</span><span class="sxs-lookup"><span data-stu-id="ea252-123">Select the web service for NF-e discard.</span></span>
+16. <span data-ttu-id="ea252-124">No campo Versão, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="ea252-124">In the Version field, type a value.</span></span>
+17. <span data-ttu-id="ea252-125">No campo Endereço na Internet, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="ea252-125">In the Internet address field, type a value.</span></span>
+18. <span data-ttu-id="ea252-126">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="ea252-126">Click New.</span></span>
+19. <span data-ttu-id="ea252-127">No campo Ambiente, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="ea252-127">In the Environment field, select an option.</span></span>
+20. <span data-ttu-id="ea252-128">Selecione o serviço da Web para Consultas de NF-e.</span><span class="sxs-lookup"><span data-stu-id="ea252-128">Select the web service for NF-e inquiries.</span></span>
+21. <span data-ttu-id="ea252-129">No campo Versão, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="ea252-129">In the Version field, type a value.</span></span>
+22. <span data-ttu-id="ea252-130">No campo Endereço na Internet, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="ea252-130">In the Internet address field, type a value.</span></span>
+23. <span data-ttu-id="ea252-131">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="ea252-131">Click New.</span></span>
+24. <span data-ttu-id="ea252-132">No campo Ambiente, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="ea252-132">In the Environment field, select an option.</span></span>
+25. <span data-ttu-id="ea252-133">Selecione o serviço da Web para devoluções de NF-e.</span><span class="sxs-lookup"><span data-stu-id="ea252-133">Select the web service for NF-e authorization returns.</span></span>
+26. <span data-ttu-id="ea252-134">No campo Versão, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="ea252-134">In the Version field, type a value.</span></span>
+27. <span data-ttu-id="ea252-135">No campo Endereço na Internet, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="ea252-135">In the Internet address field, type a value.</span></span>
+28. <span data-ttu-id="ea252-136">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="ea252-136">Click New.</span></span>
+29. <span data-ttu-id="ea252-137">No campo Ambiente, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="ea252-137">In the Environment field, select an option.</span></span>
+30. <span data-ttu-id="ea252-138">Selecione o serviço da Web para eventos de NF-e.</span><span class="sxs-lookup"><span data-stu-id="ea252-138">Select the web service for NF-e events.</span></span>
+31. <span data-ttu-id="ea252-139">No campo Versão, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="ea252-139">In the Version field, type a value.</span></span>
+32. <span data-ttu-id="ea252-140">No campo Endereço na Internet, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="ea252-140">In the Internet address field, type a value.</span></span>
+33. <span data-ttu-id="ea252-141">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="ea252-141">Click New.</span></span>
+34. <span data-ttu-id="ea252-142">No campo Ambiente, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="ea252-142">In the Environment field, select an option.</span></span>
+35. <span data-ttu-id="ea252-143">Selecione o serviço da Web para consultas de status de serviço de NF-e.</span><span class="sxs-lookup"><span data-stu-id="ea252-143">Select the web service for NF-e service status inquiries.</span></span>
+36. <span data-ttu-id="ea252-144">No campo Versão, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="ea252-144">In the Version field, type a value.</span></span>
+37. <span data-ttu-id="ea252-145">No campo Endereço na Internet, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="ea252-145">In the Internet address field, type a value.</span></span>
+38. <span data-ttu-id="ea252-146">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="ea252-146">Click Save.</span></span>
+39. <span data-ttu-id="ea252-147">Clique na guia Códigos de rejeição.</span><span class="sxs-lookup"><span data-stu-id="ea252-147">Click the Rejection codes tab.</span></span>
+40. <span data-ttu-id="ea252-148">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="ea252-148">Click New.</span></span>
+    * <span data-ttu-id="ea252-149">Insira os códigos de rejeição listados no guia oficial da NF-e.</span><span class="sxs-lookup"><span data-stu-id="ea252-149">Enter the rejection codes that are listed in the official NF-e guide.</span></span>  
+41. <span data-ttu-id="ea252-150">No campo código de rejeição de NF-e, insira o código de rejeição do guia oficial de NF-e.</span><span class="sxs-lookup"><span data-stu-id="ea252-150">In the NF-e rejection code field, enter the rejection code from the official NF-e guide.</span></span>
+42. <span data-ttu-id="ea252-151">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="ea252-151">In the Description field, type a value.</span></span>
+43. <span data-ttu-id="ea252-152">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="ea252-152">In the list, mark the selected row.</span></span>
+44. <span data-ttu-id="ea252-153">No campo Tipo de mensagem, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="ea252-153">In the Message type field, select an option.</span></span>
+45. <span data-ttu-id="ea252-154">No campo Status do documento fiscal, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="ea252-154">In the Fiscal document status field, select an option.</span></span>
+    * <span data-ttu-id="ea252-155">Insira o status de nota fiscal que deve ser definido quando o código de rejeição for inserido.</span><span class="sxs-lookup"><span data-stu-id="ea252-155">Enter the fiscal document status that must be set when the rejection code is entered.</span></span>  
+46. <span data-ttu-id="ea252-156">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="ea252-156">Click Save.</span></span>
+47. <span data-ttu-id="ea252-157">Clique na guia Esquemas.</span><span class="sxs-lookup"><span data-stu-id="ea252-157">Click the Schemas tab.</span></span>
+48. <span data-ttu-id="ea252-158">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="ea252-158">Click New.</span></span>
+    * <span data-ttu-id="ea252-159">Quando aplicável, insira o caminho de arquivo XSD que será usado para validar o XML da NF-e.</span><span class="sxs-lookup"><span data-stu-id="ea252-159">When applicable, enter the path of the XSD file that will be used to validate the NF-e XML.</span></span>  
+49. <span data-ttu-id="ea252-160">No campo A versão do recurso de NF-e, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="ea252-160">In the The version of the NF-e feature field, select an option.</span></span>
+50. <span data-ttu-id="ea252-161">No campo Esquema, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="ea252-161">In the Schema field, type a value.</span></span>
+51. <span data-ttu-id="ea252-162">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="ea252-162">Click New.</span></span>
+52. <span data-ttu-id="ea252-163">No campo Tipo de esquema, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="ea252-163">In the Schema type field, select an option.</span></span>
+53. <span data-ttu-id="ea252-164">No campo A versão do recurso de NF-e, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="ea252-164">In the The version of the NF-e feature field, select an option.</span></span>
+54. <span data-ttu-id="ea252-165">No campo Esquema, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="ea252-165">In the Schema field, type a value.</span></span>
+55. <span data-ttu-id="ea252-166">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="ea252-166">Click New.</span></span>
+56. <span data-ttu-id="ea252-167">No campo Tipo de esquema, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="ea252-167">In the Schema type field, select an option.</span></span>
+57. <span data-ttu-id="ea252-168">No campo A versão do recurso de NF-e, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="ea252-168">In the The version of the NF-e feature field, select an option.</span></span>
+58. <span data-ttu-id="ea252-169">No campo Esquema, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="ea252-169">In the Schema field, type a value.</span></span>
+59. <span data-ttu-id="ea252-170">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="ea252-170">Click New.</span></span>
+60. <span data-ttu-id="ea252-171">No campo Tipo de esquema, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="ea252-171">In the Schema type field, select an option.</span></span>
+61. <span data-ttu-id="ea252-172">No campo A versão do recurso de NF-e, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="ea252-172">In the The version of the NF-e feature field, select an option.</span></span>
+62. <span data-ttu-id="ea252-173">No campo Esquema, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="ea252-173">In the Schema field, type a value.</span></span>
+63. <span data-ttu-id="ea252-174">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="ea252-174">Click Save.</span></span>
+64. <span data-ttu-id="ea252-175">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="ea252-175">Close the page.</span></span>
+65. <span data-ttu-id="ea252-176">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="ea252-176">Click Save.</span></span>
+

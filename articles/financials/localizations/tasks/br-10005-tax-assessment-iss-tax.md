@@ -1,108 +1,56 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="br-10005-tax-assessment-iss-tax.md" target-language="pt-BR">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>br-10005-tax-assessment-iss-tax.a8367f.06f04dc9e123d49110fbbf43545a6b7b8d9dcf1b.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>06f04dc9e123d49110fbbf43545a6b7b8d9dcf1b</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\br-10005-tax-assessment-iss-tax.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Tax assessment for ISS tax (Brazil)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Apuração de imposto ISS (Brasil)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>You can make the tax assessment for ISS tax for a given booking period, considering the amount of ISS tax to recover and the amount of ISS tax to pay from the fiscal documents.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">É possível fazer a avaliação fiscal de ISS de um determinado período de escrituração, considerando o valor de ISS a ser recuperado e o valor de ISS a ser pago a partir das notas fiscais.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Tax assessment for ISS tax (Brazil)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Apuração de imposto ISS (Brasil)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>You can make the tax assessment for ISS tax for a given booking period, considering the amount of ISS tax to recover and the amount of ISS tax to pay from the fiscal documents.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">É possível fazer a avaliação fiscal de ISS de um determinado período de escrituração, considerando o valor de ISS a ser recuperado e o valor de ISS a ser pago a partir das notas fiscais.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>For the due amount after the tax assessment, you can make the payment of the amount for the tax authority.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quanto ao valor devido após a avaliação fiscal, você pode fazer o pagamento do valor para a autoridade fiscal.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>This task uses the BRMF demo company.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta tarefa usa a empresa de demonstração BRMF.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Go to Fiscal books &gt; Common &gt; Booking period.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Livros fiscais &gt; Comum &gt; Período de escrituração.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Click Create new booking period to open the drop dialog.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Criar novo período de escrituração para abrir a caixa de diálogo suspensa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>In the Fiscal establishment field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Estabelecimento fiscal, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>In the Month field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Mês, selecione uma opção.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>In the Year field, enter a number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Ano, insira um número.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Click Sync.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Sincronizar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Go to Fiscal books &gt; Common &gt; Tax assessment &gt; ISS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vá para Livros fiscais &gt; Comum &gt; Apuração de imposto &gt; ISS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Click ISS tax assessment to open the drop dialog.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Apuração de imposto ISS para abrir a caixa de diálogo suspensa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>In the Booking period field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Período de escrituração, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Click Tax payment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Pagamento de imposto.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Click Create from assessment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Criar a partir da apuração.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>In the list, mark the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na lista, marque a linha selecionada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Click Edit.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Editar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>In the Receita Code field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Código da Receita, digite um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>In the Due date field, enter a date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Data de vencimento, insira uma data.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Expand the General section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Expanda a seção Geral.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>In the Authority field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No campo Autoridade, insira ou selecione um valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Click Post.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clique em Lançar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Feche a página.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Apuração de imposto ISS (Brasil)
+description: É possível fazer a avaliação fiscal de ISS de um determinado período de escrituração, considerando o valor de ISS a ser recuperado e o valor de ISS a ser pago a partir das notas fiscais.
+author: sndray
+manager: AnnBe
+ms.date: 06/26/2017
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Operations
+ms.search.region: Brazil
+ms.search.industry: Manufacturing;Distribution;Service industries
+ms.author: sndray
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 06f04dc9e123d49110fbbf43545a6b7b8d9dcf1b
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1567188"
+---
+# <a name="tax-assessment-for-iss-tax-brazil"></a><span data-ttu-id="3c318-103">Apuração de imposto ISS (Brasil)</span><span class="sxs-lookup"><span data-stu-id="3c318-103">Tax assessment for ISS tax (Brazil)</span></span>
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+<span data-ttu-id="3c318-104">É possível fazer a avaliação fiscal de ISS de um determinado período de escrituração, considerando o valor de ISS a ser recuperado e o valor de ISS a ser pago a partir das notas fiscais.</span><span class="sxs-lookup"><span data-stu-id="3c318-104">You can make the tax assessment for ISS tax for a given booking period, considering the amount of ISS tax to recover and the amount of ISS tax to pay from the fiscal documents.</span></span> <span data-ttu-id="3c318-105">Quanto ao valor devido após a avaliação fiscal, você pode fazer o pagamento do valor para a autoridade fiscal.</span><span class="sxs-lookup"><span data-stu-id="3c318-105">For the due amount after the tax assessment, you can make the payment of the amount for the tax authority.</span></span> <span data-ttu-id="3c318-106">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="3c318-106">This task uses the BRMF demo company.</span></span>
+
+1. <span data-ttu-id="3c318-107">Vá para Livros fiscais > Comum > Período de escrituração.</span><span class="sxs-lookup"><span data-stu-id="3c318-107">Go to Fiscal books > Common > Booking period.</span></span>
+2. <span data-ttu-id="3c318-108">Clique em Criar novo período de escrituração para abrir a caixa de diálogo suspensa.</span><span class="sxs-lookup"><span data-stu-id="3c318-108">Click Create new booking period to open the drop dialog.</span></span>
+3. <span data-ttu-id="3c318-109">No campo Estabelecimento fiscal, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="3c318-109">In the Fiscal establishment field, enter or select a value.</span></span>
+4. <span data-ttu-id="3c318-110">No campo Mês, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="3c318-110">In the Month field, select an option.</span></span>
+5. <span data-ttu-id="3c318-111">No campo Ano, insira um número.</span><span class="sxs-lookup"><span data-stu-id="3c318-111">In the Year field, enter a number.</span></span>
+6. <span data-ttu-id="3c318-112">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="3c318-112">Click OK.</span></span>
+7. <span data-ttu-id="3c318-113">Clique em Sincronizar.</span><span class="sxs-lookup"><span data-stu-id="3c318-113">Click Sync.</span></span>
+8. <span data-ttu-id="3c318-114">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="3c318-114">Click OK.</span></span>
+9. <span data-ttu-id="3c318-115">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="3c318-115">Close the page.</span></span>
+10. <span data-ttu-id="3c318-116">Vá para Livros fiscais > Comum > Apuração de imposto > ISS.</span><span class="sxs-lookup"><span data-stu-id="3c318-116">Go to Fiscal books > Common > Tax assessment > ISS.</span></span>
+11. <span data-ttu-id="3c318-117">Clique em Apuração de imposto ISS para abrir a caixa de diálogo suspensa.</span><span class="sxs-lookup"><span data-stu-id="3c318-117">Click ISS tax assessment to open the drop dialog.</span></span>
+12. <span data-ttu-id="3c318-118">No campo Período de escrituração, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="3c318-118">In the Booking period field, enter or select a value.</span></span>
+13. <span data-ttu-id="3c318-119">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="3c318-119">Click OK.</span></span>
+14. <span data-ttu-id="3c318-120">Clique em Pagamento de imposto.</span><span class="sxs-lookup"><span data-stu-id="3c318-120">Click Tax payment.</span></span>
+15. <span data-ttu-id="3c318-121">Clique em Criar a partir da apuração.</span><span class="sxs-lookup"><span data-stu-id="3c318-121">Click Create from assessment.</span></span>
+16. <span data-ttu-id="3c318-122">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="3c318-122">In the list, mark the selected row.</span></span>
+17. <span data-ttu-id="3c318-123">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="3c318-123">Click Edit.</span></span>
+18. <span data-ttu-id="3c318-124">No campo Código da Receita, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="3c318-124">In the Receita Code field, type a value.</span></span>
+19. <span data-ttu-id="3c318-125">No campo Data de vencimento, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="3c318-125">In the Due date field, enter a date.</span></span>
+20. <span data-ttu-id="3c318-126">Expanda a seção Geral.</span><span class="sxs-lookup"><span data-stu-id="3c318-126">Expand the General section.</span></span>
+21. <span data-ttu-id="3c318-127">No campo Autoridade, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="3c318-127">In the Authority field, enter or select a value.</span></span>
+22. <span data-ttu-id="3c318-128">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="3c318-128">Click Post.</span></span>
+23. <span data-ttu-id="3c318-129">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="3c318-129">Close the page.</span></span>
+24. <span data-ttu-id="3c318-130">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="3c318-130">Close the page.</span></span>
+

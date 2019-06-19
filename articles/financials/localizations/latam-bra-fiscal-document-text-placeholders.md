@@ -1,354 +1,122 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="latam-bra-fiscal-document-text-placeholders.md" target-language="pt-BR">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>latam-bra-fiscal-document-text-placeholders.368f47.527cf8c14fdacb17dd255639e911fcf6869505c0.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>527cf8c14fdacb17dd255639e911fcf6869505c0</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\latam-bra-fiscal-document-text-placeholders.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Fiscal document text placeholders for Brazil</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Espaços reservados em textos da nota fiscal do Brasil</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>Fiscal document text placeholders are predefined tags that represent specific values.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os espaços reservados de texto de nota fiscal são marcas predefinidas que representam valores específicos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103" restype="x-metadata">
-          <source>You can include the placeholders in the <bpt id="p1">&lt;strong&gt;</bpt>Text <ept id="p1">&lt;/strong&gt;</ept>field on the <bpt id="p2">&lt;strong&gt;</bpt>Fiscal document source texts <ept id="p2">&lt;/strong&gt;</ept>page when you create a fiscal document source text.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você poderá incluir os espaços reservados no campo <bpt id="p1">&lt;strong&gt;</bpt>Texto <ept id="p1">&lt;/strong&gt;</ept>da página <bpt id="p2">&lt;strong&gt;</bpt>Modelos de textos da nota fiscal <ept id="p2">&lt;/strong&gt;</ept>quando você criar um modelo de textos da nota fiscal.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>Fiscal document text placeholders for Brazil</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Espaços reservados em textos da nota fiscal do Brasil</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>Fiscal document text placeholders are predefined tags that represent specific values.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os espaços reservados de texto de nota fiscal são marcas predefinidas que representam valores específicos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>You can include the placeholders in the <bpt id="p1">&lt;strong&gt;</bpt>Text <ept id="p1">&lt;/strong&gt;</ept>field on the <bpt id="p2">&lt;strong&gt;</bpt>Fiscal document source texts <ept id="p2">&lt;/strong&gt;</ept>page when you create a fiscal document source text.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você poderá incluir os espaços reservados no campo <bpt id="p1">&lt;strong&gt;</bpt>Texto <ept id="p1">&lt;/strong&gt;</ept>da página <bpt id="p2">&lt;strong&gt;</bpt>Modelos de textos da nota fiscal <ept id="p2">&lt;/strong&gt;</ept>quando você criar um modelo de textos da nota fiscal.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>You can also include placeholders in the <bpt id="p1">**</bpt>Note<ept id="p1">**</ept> field on the <bpt id="p2">**</bpt>Fiscal document texts<ept id="p2">**</ept> page when you attach a fiscal document text to a sales order, purchase order, or free text invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você também pode incluir espaços reservados no campo <bpt id="p1">**</bpt>Observação<ept id="p1">**</ept> na página <bpt id="p2">**</bpt>Textos da nota fiscal<ept id="p2">**</ept> quando anexar um texto de nota fiscal a uma ordem de venda, ordem de compra ou fatura de texto livre.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>When you post a sales order, purchase order, or free text invoice that has a fiscal document text that includes placeholders, the placeholders are replaced by the values in the predefined tags.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando você lança uma ordem de venda, ordem de compra ou fatura de texto livre que tem um texto de nota fiscal que inclui espaços reservados, os espaços reservados são substituídos pelos valores nas marcas predefinidas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>The following tables contain the predefined tags that support fiscal document text and its value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As tabelas a seguir contêm as marcas predefinidas que têm suporte para texto da nota fiscal e seu valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Tags that support fiscal document text for referenced processes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As marcas que têm suporte para texto da nota fiscal para processos mencionados</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Predefined tag</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Marca predefinida</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Value</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alíquota</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>%RefProcess<ph id="ph1">\_</ph>TaxAuthorityName</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%RefProcess<ph id="ph1">\_</ph>TaxAuthorityName</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>The name of the tax authority.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O nome da autoridade do imposto.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>%RefProcess<ph id="ph1">\_</ph>TaxAuthorityAgency</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%RefProcess<ph id="ph1">\_</ph>TaxAuthorityAgency</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>The agency of the tax authority.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A agência da autoridade do imposto.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>%RefProcess<ph id="ph1">\_</ph>RefProcessNumber</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%RefProcess<ph id="ph1">\_</ph>RefProcessNumber</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>The number of the referenced process.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O número do processo mencionado.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Tag that supports fiscal document text for SUFRAMA</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A marca que tem suporte para texto da nota fiscal para SUFRAMA</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Predefined tag</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Marca predefinida</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Value</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alíquota</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>%Suframa<ph id="ph1">\_</ph>CustNumber</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%Suframa<ph id="ph1">\_</ph>CustNumber</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>The SUFRAMA customer number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O número de cliente da SUFRAMA.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>Tags that support fiscal document text for taxes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As marcas que têm suporte para texto de nota fiscal para impostos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Predefined tag</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Marca predefinida</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Value</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alíquota</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>%ICMS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%ICMS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>The Imposto Sobre Circulação de Mercadorias e Serviços (ICMS) tax amount.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O valor do ICMS (Imposto Sobre Circulação de Mercadorias e Serviços).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>%PIS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%PIS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>The Programa de Integração Social (PIS) contribution amount.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O valor da contribuição do PIS (Programa de Integração Social).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>%COFINS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%COFINS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>The Contribuição para o financiamente da securidade social (COFINS) contribution amount.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O valor da contribuição de COFINS (Contribuição para Financiamento da Seguridade Social).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>Tags that support fiscal document text for fiscal references</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As marcas que têm suporte para texto da nota fiscal para referências fiscais</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Predefined tag</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Marca predefinida</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Value</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alíquota</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>%FiscalRef<ph id="ph1">\_</ph>InvNoRef</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%FiscalRef<ph id="ph1">\_</ph>InvNoRef</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>The number of the reference invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O número da fatura de referência.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>%FiscalRef<ph id="ph1">\_</ph>InvSeriesRef</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%FiscalRef<ph id="ph1">\_</ph>InvSeriesRef</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>The series of the reference invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A série da fatura de referência.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>%FiscalRef<ph id="ph1">\_</ph>InvDateRef</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%FiscalRef<ph id="ph1">\_</ph>InvDateRef</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>The date of the reference invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A data da fatura de referência.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>%FiscalRef<ph id="ph1">\_</ph>InvAccNameRef</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%FiscalRef<ph id="ph1">\_</ph>InvAccNameRef</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>The account name of the reference invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O nome da conta da fatura de referência.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>%FiscalRef<ph id="ph1">\_</ph>InvAccAddressRef</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%FiscalRef<ph id="ph1">\_</ph>InvAccAddressRef</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>The address of the reference invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O endereço da fatura de referência.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>%FiscalRef<ph id="ph1">\_</ph>InvAccIENumberRef</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%FiscalRef<ph id="ph1">\_</ph>InvAccIENumberRef</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>The Inscrição Estadual (IE), or state registration number, of the reference invoice account.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A IE (Inscrição Estadual), ou número de inscrição do estado, da conta de fatura de referência.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>%FiscalRef<ph id="ph1">\_</ph>InvAccCNPJCPFNumRef</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%FiscalRef<ph id="ph1">\_</ph>InvAccCNPJCPFNumRef</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>The Cadastro Nacional da Pessoa Jurídica (CNPJ), or taxpayer registration number, of the reference invoice account.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O CNPJ (Cadastro Nacional da Pessoa Jurídica), ou número de inscrição do contribuinte, da conta de fatura de referência.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>Tags that support fiscal document text that involve vendor information</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As marcas que têm suporte para texto da nota fiscal que envolvem informações do fornecedor</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Predefined tag</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Marca predefinida</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Value</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alíquota</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>%Vendor<ph id="ph1">\_</ph>Name</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%Vendor<ph id="ph1">\_</ph>Name</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>The name of the vendor.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O nome do fornecedor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>%Vendor<ph id="ph1">\_</ph>CNPJ<ph id="ph2">\_</ph>CPF</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%Vendor<ph id="ph1">\_</ph>CNPJ<ph id="ph2">\_</ph>CPF</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>The Cadastro Nacional da Pessoa Jurídica (CNPJ)/Cadastro de Pessoas Físicas (CPF), or taxpayer registration number, of the vendor.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O CNPJ (Cadastro Nacional da Pessoa Jurídica)/CPF (Cadastro de Pessoas Físicas), ou número de inscrição do contribuinte, do fornecedor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>%Vendor<ph id="ph1">\_</ph>IE</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%Vendor<ph id="ph1">\_</ph>IE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>The IE of the vendor.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A IE do fornecedor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>%Vendor<ph id="ph1">\_</ph>Address</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%Vendor<ph id="ph1">\_</ph>Address</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>The address of the vendor.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O endereço do fornecedor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>Tags that support fiscal document text that involve customer information</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Marcas que têm suporte para texto de nota fiscal que envolvem informações do cliente</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>Predefined tag</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Marca predefinida</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>Value</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alíquota</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>%Customer<ph id="ph1">\_</ph>Name</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%Customer<ph id="ph1">\_</ph>Name</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>The name of the customer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O nome do cliente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>%Customer<ph id="ph1">\_</ph>CNPJ<ph id="ph2">\_</ph>CPF</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%Customer<ph id="ph1">\_</ph>CNPJ<ph id="ph2">\_</ph>CPF</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>The CNPJ/CPF of the customer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O CNPJ/CPF do cliente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>%Vendor<ph id="ph1">\_</ph>IE</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%Vendor<ph id="ph1">\_</ph>IE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>The IE of the customer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A IE do cliente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>%Vendor<ph id="ph1">\_</ph>Address</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%Vendor<ph id="ph1">\_</ph>Address</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>The address of the customer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O endereço do cliente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>Tags that support fiscal document text for withholding taxes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As marcas que têm suporte para texto da nota fiscal para impostos retidos na fonte</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>Predefined tag</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Marca predefinida</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>Value</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alíquota</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>%TaxWithhold<ph id="ph1">\_</ph>Code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%TaxWithhold<ph id="ph1">\_</ph>Code</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>The withholding tax code.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O código de imposto retido na fonte.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>%TaxWithhold<ph id="ph1">\_</ph>Value</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%TaxWithhold<ph id="ph1">\_</ph>Value</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>The rate of withholding tax.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A taxa de imposto retido na fonte.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>%TaxWithhold<ph id="ph1">\_</ph>Amount</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%TaxWithhold<ph id="ph1">\_</ph>Amount</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>The amount of withholding tax.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O valor do imposto retido na fonte.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>Tags that support fiscal document text for imports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As marcas que têm suporte para texto da nota fiscal para importações</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>Predefined tag</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Marca predefinida</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source>Value</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alíquota</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source>%DI<ph id="ph1">\_</ph>Number</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%DI<ph id="ph1">\_</ph>Number</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source>The identifier of the import declaration document.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O identificador do documento da declaração de importação.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source>%DI<ph id="ph1">\_</ph>Date</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%DI<ph id="ph1">\_</ph>Date</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source>The date that the import declaration document was issued.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A data que o documento da declaração de importação foi emitido.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source>%ImportTax</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%ImportTax</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source>The import tax amount.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O valor do imposto sobre importação.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source>%Freight</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%Freight</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source>The freight amount for the import.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O valor de frete para a importação.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source>%Insurance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%Insurance</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source>The insurance amount for the import.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O valor de seguro para a importação.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source>%Siscomex</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%Siscomex</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source>The charge amount for Sistema Integrado de Comércio Exterior (Siscomex).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O valor de encargo para Siscomex (Sistema Integrado de Comércio Exterior).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source>%ExchRate</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%ExchRate</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="197">
-          <source>The exchange rate that is used in the import.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A taxa de câmbio usada na importação.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="198">
-          <source>Tags for ICMSDIF final consumer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">As marcas para o consumo de ICMSDIF final</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="199">
-          <source>Predefined tag</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Marca predefinida</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="200">
-          <source>Value</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alíquota</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="201">
-          <source>%DifICMS<ph id="ph1">\_</ph>vBCUFDest</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%DifICMS<ph id="ph1">\_</ph>vBCUFDest</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="202">
-          <source>Tax base amount used for tax type ICMS-DIF.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valor da base de imposto usado para o tipo de imposto ICMS-DIF.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="203">
-          <source>%DifICMS<ph id="ph1">\_</ph>pICMSUFDest</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%DifICMS<ph id="ph1">\_</ph>pICMSUFDest</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="204">
-          <source>Tax value for recipient federal state.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valor do imposto do estado federal do destinatário.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="205">
-          <source>%DifICMS<ph id="ph1">\_</ph>pICMSInter</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%DifICMS<ph id="ph1">\_</ph>pICMSInter</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="206">
-          <source>Tax value for interstate transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valor do imposto para a transação interestadual.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="207">
-          <source>%DifICMS<ph id="ph1">\_</ph>pICMSInterPart</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%DifICMS<ph id="ph1">\_</ph>pICMSInterPart</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="208">
-          <source>Percentage defined to recipient federal state (based on fiscal document year).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Porcentagem definida para estado federal do destinatário (baseado no ano fiscal do documento).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="209">
-          <source>%DifICMS<ph id="ph1">\_</ph>vICMSUFDest</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%DifICMS<ph id="ph1">\_</ph>vICMSUFDest</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="210">
-          <source>Tax amount for recipient state.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valor do imposto do estado do destinatário.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="211">
-          <source>%DifICMS<ph id="ph1">\_</ph>vICMSUFRemet</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">%DifICMS<ph id="ph1">\_</ph>vICMSUFRemet</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="212">
-          <source>Tax amount for issuer state.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valor do imposto no estado de emissor.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Espaços reservados em textos da nota fiscal do Brasil
+description: Os espaços reservados de texto de nota fiscal são marcas predefinidas que representam valores específicos. Você poderá incluir os espaços reservados no campo <strong>Texto </strong>da página <strong>Modelos de textos da nota fiscal </strong>quando você criar um modelo de textos da nota fiscal.
+author: sndray
+manager: AnnBe
+ms.date: 06/20/2017
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.custom: 268684
+ms.search.region: Brazil
+ms.author: sndray
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 527cf8c14fdacb17dd255639e911fcf6869505c0
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1559640"
+---
+# <a name="fiscal-document-text-placeholders-for-brazil"></a><span data-ttu-id="904b1-104">Espaços reservados em textos da nota fiscal do Brasil</span><span class="sxs-lookup"><span data-stu-id="904b1-104">Fiscal document text placeholders for Brazil</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="904b1-105">Os espaços reservados de texto de nota fiscal são marcas predefinidas que representam valores específicos.</span><span class="sxs-lookup"><span data-stu-id="904b1-105">Fiscal document text placeholders are predefined tags that represent specific values.</span></span> <span data-ttu-id="904b1-106">Você poderá incluir os espaços reservados no campo <strong>Texto </strong>da página <strong>Modelos de textos da nota fiscal </strong>quando você criar um modelo de textos da nota fiscal.</span><span class="sxs-lookup"><span data-stu-id="904b1-106">You can include the placeholders in the <strong>Text </strong>field on the <strong>Fiscal document source texts </strong>page when you create a fiscal document source text.</span></span>
+
+<span data-ttu-id="904b1-107">Você também pode incluir espaços reservados no campo **Observação** na página **Textos da nota fiscal** quando anexar um texto de nota fiscal a uma ordem de venda, ordem de compra ou fatura de texto livre.</span><span class="sxs-lookup"><span data-stu-id="904b1-107">You can also include placeholders in the **Note** field on the **Fiscal document texts** page when you attach a fiscal document text to a sales order, purchase order, or free text invoice.</span></span> <span data-ttu-id="904b1-108">Quando você lança uma ordem de venda, ordem de compra ou fatura de texto livre que tem um texto de nota fiscal que inclui espaços reservados, os espaços reservados são substituídos pelos valores nas marcas predefinidas.</span><span class="sxs-lookup"><span data-stu-id="904b1-108">When you post a sales order, purchase order, or free text invoice that has a fiscal document text that includes placeholders, the placeholders are replaced by the values in the predefined tags.</span></span>
+
+<span data-ttu-id="904b1-109">As tabelas a seguir contêm as marcas predefinidas que têm suporte para texto da nota fiscal e seu valor.</span><span class="sxs-lookup"><span data-stu-id="904b1-109">The following tables contain the predefined tags that support fiscal document text and its value.</span></span>
+<span data-ttu-id="904b1-110">As marcas que têm suporte para texto da nota fiscal para processos mencionados</span><span class="sxs-lookup"><span data-stu-id="904b1-110">Tags that support fiscal document text for referenced processes</span></span>
+---------------------------------------------------------------
+
+| <span data-ttu-id="904b1-111">Marca predefinida</span><span class="sxs-lookup"><span data-stu-id="904b1-111">Predefined tag</span></span>                  | <span data-ttu-id="904b1-112">Alíquota</span><span class="sxs-lookup"><span data-stu-id="904b1-112">Value</span></span>                                 |
+|---------------------------------|---------------------------------------|
+| <span data-ttu-id="904b1-113">%RefProcess\_TaxAuthorityName</span><span class="sxs-lookup"><span data-stu-id="904b1-113">%RefProcess\_TaxAuthorityName</span></span>   | <span data-ttu-id="904b1-114">O nome da autoridade do imposto.</span><span class="sxs-lookup"><span data-stu-id="904b1-114">The name of the tax authority.</span></span>        |
+| <span data-ttu-id="904b1-115">%RefProcess\_TaxAuthorityAgency</span><span class="sxs-lookup"><span data-stu-id="904b1-115">%RefProcess\_TaxAuthorityAgency</span></span> | <span data-ttu-id="904b1-116">A agência da autoridade do imposto.</span><span class="sxs-lookup"><span data-stu-id="904b1-116">The agency of the tax authority.</span></span>      |
+| <span data-ttu-id="904b1-117">%RefProcess\_RefProcessNumber</span><span class="sxs-lookup"><span data-stu-id="904b1-117">%RefProcess\_RefProcessNumber</span></span>   | <span data-ttu-id="904b1-118">O número do processo mencionado.</span><span class="sxs-lookup"><span data-stu-id="904b1-118">The number of the referenced process.</span></span> |
+
+## <a name="tag-that-supports-fiscal-document-text-for-suframa"></a><span data-ttu-id="904b1-119">A marca que tem suporte para texto da nota fiscal para SUFRAMA</span><span class="sxs-lookup"><span data-stu-id="904b1-119">Tag that supports fiscal document text for SUFRAMA</span></span>
+
+| <span data-ttu-id="904b1-120">Marca predefinida</span><span class="sxs-lookup"><span data-stu-id="904b1-120">Predefined tag</span></span>       | <span data-ttu-id="904b1-121">Alíquota</span><span class="sxs-lookup"><span data-stu-id="904b1-121">Value</span></span>                        |
+|----------------------|------------------------------|
+| <span data-ttu-id="904b1-122">%Suframa\_CustNumber</span><span class="sxs-lookup"><span data-stu-id="904b1-122">%Suframa\_CustNumber</span></span> | <span data-ttu-id="904b1-123">O número de cliente da SUFRAMA.</span><span class="sxs-lookup"><span data-stu-id="904b1-123">The SUFRAMA customer number.</span></span> |
+
+## <a name="tags-that-support-fiscal-document-text-for-taxes"></a><span data-ttu-id="904b1-124">As marcas que têm suporte para texto de nota fiscal para impostos</span><span class="sxs-lookup"><span data-stu-id="904b1-124">Tags that support fiscal document text for taxes</span></span>
+
+| <span data-ttu-id="904b1-125">Marca predefinida</span><span class="sxs-lookup"><span data-stu-id="904b1-125">Predefined tag</span></span> | <span data-ttu-id="904b1-126">Alíquota</span><span class="sxs-lookup"><span data-stu-id="904b1-126">Value</span></span>                                                                                    |
+|----------------|------------------------------------------------------------------------------------------|
+| <span data-ttu-id="904b1-127">%ICMS</span><span class="sxs-lookup"><span data-stu-id="904b1-127">%ICMS</span></span>          | <span data-ttu-id="904b1-128">O valor do ICMS (Imposto Sobre Circulação de Mercadorias e Serviços).</span><span class="sxs-lookup"><span data-stu-id="904b1-128">The Imposto Sobre Circulação de Mercadorias e Serviços (ICMS) tax amount.</span></span>                |
+| <span data-ttu-id="904b1-129">%PIS</span><span class="sxs-lookup"><span data-stu-id="904b1-129">%PIS</span></span>           | <span data-ttu-id="904b1-130">O valor da contribuição do PIS (Programa de Integração Social).</span><span class="sxs-lookup"><span data-stu-id="904b1-130">The Programa de Integração Social (PIS) contribution amount.</span></span>                             |
+| <span data-ttu-id="904b1-131">%COFINS</span><span class="sxs-lookup"><span data-stu-id="904b1-131">%COFINS</span></span>        | <span data-ttu-id="904b1-132">O valor da contribuição de COFINS (Contribuição para Financiamento da Seguridade Social).</span><span class="sxs-lookup"><span data-stu-id="904b1-132">The Contribuição para o financiamente da securidade social (COFINS) contribution amount.</span></span> |
+
+## <a name="tags-that-support-fiscal-document-text-for-fiscal-references"></a><span data-ttu-id="904b1-133">As marcas que têm suporte para texto da nota fiscal para referências fiscais</span><span class="sxs-lookup"><span data-stu-id="904b1-133">Tags that support fiscal document text for fiscal references</span></span>
+
+| <span data-ttu-id="904b1-134">Marca predefinida</span><span class="sxs-lookup"><span data-stu-id="904b1-134">Predefined tag</span></span>                  | <span data-ttu-id="904b1-135">Alíquota</span><span class="sxs-lookup"><span data-stu-id="904b1-135">Value</span></span>                                                                                                               |
+|---------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="904b1-136">%FiscalRef\_InvNoRef</span><span class="sxs-lookup"><span data-stu-id="904b1-136">%FiscalRef\_InvNoRef</span></span>            | <span data-ttu-id="904b1-137">O número da fatura de referência.</span><span class="sxs-lookup"><span data-stu-id="904b1-137">The number of the reference invoice.</span></span>                                                                                |
+| <span data-ttu-id="904b1-138">%FiscalRef\_InvSeriesRef</span><span class="sxs-lookup"><span data-stu-id="904b1-138">%FiscalRef\_InvSeriesRef</span></span>        | <span data-ttu-id="904b1-139">A série da fatura de referência.</span><span class="sxs-lookup"><span data-stu-id="904b1-139">The series of the reference invoice.</span></span>                                                                                |
+| <span data-ttu-id="904b1-140">%FiscalRef\_InvDateRef</span><span class="sxs-lookup"><span data-stu-id="904b1-140">%FiscalRef\_InvDateRef</span></span>          | <span data-ttu-id="904b1-141">A data da fatura de referência.</span><span class="sxs-lookup"><span data-stu-id="904b1-141">The date of the reference invoice.</span></span>                                                                                  |
+| <span data-ttu-id="904b1-142">%FiscalRef\_InvAccNameRef</span><span class="sxs-lookup"><span data-stu-id="904b1-142">%FiscalRef\_InvAccNameRef</span></span>       | <span data-ttu-id="904b1-143">O nome da conta da fatura de referência.</span><span class="sxs-lookup"><span data-stu-id="904b1-143">The account name of the reference invoice.</span></span>                                                                          |
+| <span data-ttu-id="904b1-144">%FiscalRef\_InvAccAddressRef</span><span class="sxs-lookup"><span data-stu-id="904b1-144">%FiscalRef\_InvAccAddressRef</span></span>    | <span data-ttu-id="904b1-145">O endereço da fatura de referência.</span><span class="sxs-lookup"><span data-stu-id="904b1-145">The address of the reference invoice.</span></span>                                                                               |
+| <span data-ttu-id="904b1-146">%FiscalRef\_InvAccIENumberRef</span><span class="sxs-lookup"><span data-stu-id="904b1-146">%FiscalRef\_InvAccIENumberRef</span></span>   | <span data-ttu-id="904b1-147">A IE (Inscrição Estadual), ou número de inscrição do estado, da conta de fatura de referência.</span><span class="sxs-lookup"><span data-stu-id="904b1-147">The Inscrição Estadual (IE), or state registration number, of the reference invoice account.</span></span>                        |
+| <span data-ttu-id="904b1-148">%FiscalRef\_InvAccCNPJCPFNumRef</span><span class="sxs-lookup"><span data-stu-id="904b1-148">%FiscalRef\_InvAccCNPJCPFNumRef</span></span> | <span data-ttu-id="904b1-149">O CNPJ (Cadastro Nacional da Pessoa Jurídica), ou número de inscrição do contribuinte, da conta de fatura de referência.</span><span class="sxs-lookup"><span data-stu-id="904b1-149">The Cadastro Nacional da Pessoa Jurídica (CNPJ), or taxpayer registration number, of the reference invoice account.</span></span> |
+
+## <a name="tags-that-support-fiscal-document-text-that-involve-vendor-information"></a><span data-ttu-id="904b1-150">As marcas que têm suporte para texto da nota fiscal que envolvem informações do fornecedor</span><span class="sxs-lookup"><span data-stu-id="904b1-150">Tags that support fiscal document text that involve vendor information</span></span>
+
+| <span data-ttu-id="904b1-151">Marca predefinida</span><span class="sxs-lookup"><span data-stu-id="904b1-151">Predefined tag</span></span>     | <span data-ttu-id="904b1-152">Alíquota</span><span class="sxs-lookup"><span data-stu-id="904b1-152">Value</span></span>                                                                                                                              |
+|--------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="904b1-153">%Vendor\_Name</span><span class="sxs-lookup"><span data-stu-id="904b1-153">%Vendor\_Name</span></span>      | <span data-ttu-id="904b1-154">O nome do fornecedor.</span><span class="sxs-lookup"><span data-stu-id="904b1-154">The name of the vendor.</span></span>                                                                                                            |
+| <span data-ttu-id="904b1-155">%Vendor\_CNPJ\_CPF</span><span class="sxs-lookup"><span data-stu-id="904b1-155">%Vendor\_CNPJ\_CPF</span></span> | <span data-ttu-id="904b1-156">O CNPJ (Cadastro Nacional da Pessoa Jurídica)/CPF (Cadastro de Pessoas Físicas), ou número de inscrição do contribuinte, do fornecedor.</span><span class="sxs-lookup"><span data-stu-id="904b1-156">The Cadastro Nacional da Pessoa Jurídica (CNPJ)/Cadastro de Pessoas Físicas (CPF), or taxpayer registration number, of the vendor.</span></span> |
+| <span data-ttu-id="904b1-157">%Vendor\_IE</span><span class="sxs-lookup"><span data-stu-id="904b1-157">%Vendor\_IE</span></span>        | <span data-ttu-id="904b1-158">A IE do fornecedor.</span><span class="sxs-lookup"><span data-stu-id="904b1-158">The IE of the vendor.</span></span>                                                                                                              |
+| <span data-ttu-id="904b1-159">%Vendor\_Address</span><span class="sxs-lookup"><span data-stu-id="904b1-159">%Vendor\_Address</span></span>   | <span data-ttu-id="904b1-160">O endereço do fornecedor.</span><span class="sxs-lookup"><span data-stu-id="904b1-160">The address of the vendor.</span></span>                                                                                                         |
+
+## <a name="tags-that-support-fiscal-document-text-that-involve-customer-information"></a><span data-ttu-id="904b1-161">Marcas que têm suporte para texto de nota fiscal que envolvem informações do cliente</span><span class="sxs-lookup"><span data-stu-id="904b1-161">Tags that support fiscal document text that involve customer information</span></span>
+
+| <span data-ttu-id="904b1-162">Marca predefinida</span><span class="sxs-lookup"><span data-stu-id="904b1-162">Predefined tag</span></span>       | <span data-ttu-id="904b1-163">Alíquota</span><span class="sxs-lookup"><span data-stu-id="904b1-163">Value</span></span>                         |
+|----------------------|-------------------------------|
+| <span data-ttu-id="904b1-164">%Customer\_Name</span><span class="sxs-lookup"><span data-stu-id="904b1-164">%Customer\_Name</span></span>      | <span data-ttu-id="904b1-165">O nome do cliente.</span><span class="sxs-lookup"><span data-stu-id="904b1-165">The name of the customer.</span></span>     |
+| <span data-ttu-id="904b1-166">%Customer\_CNPJ\_CPF</span><span class="sxs-lookup"><span data-stu-id="904b1-166">%Customer\_CNPJ\_CPF</span></span> | <span data-ttu-id="904b1-167">O CNPJ/CPF do cliente.</span><span class="sxs-lookup"><span data-stu-id="904b1-167">The CNPJ/CPF of the customer.</span></span> |
+| <span data-ttu-id="904b1-168">%Vendor\_IE</span><span class="sxs-lookup"><span data-stu-id="904b1-168">%Vendor\_IE</span></span>          | <span data-ttu-id="904b1-169">A IE do cliente.</span><span class="sxs-lookup"><span data-stu-id="904b1-169">The IE of the customer.</span></span>       |
+| <span data-ttu-id="904b1-170">%Vendor\_Address</span><span class="sxs-lookup"><span data-stu-id="904b1-170">%Vendor\_Address</span></span>     | <span data-ttu-id="904b1-171">O endereço do cliente.</span><span class="sxs-lookup"><span data-stu-id="904b1-171">The address of the customer.</span></span>  |
+
+## <a name="tags-that-support-fiscal-document-text-for-withholding-taxes"></a><span data-ttu-id="904b1-172">As marcas que têm suporte para texto da nota fiscal para impostos retidos na fonte</span><span class="sxs-lookup"><span data-stu-id="904b1-172">Tags that support fiscal document text for withholding taxes</span></span>
+
+| <span data-ttu-id="904b1-173">Marca predefinida</span><span class="sxs-lookup"><span data-stu-id="904b1-173">Predefined tag</span></span>       | <span data-ttu-id="904b1-174">Alíquota</span><span class="sxs-lookup"><span data-stu-id="904b1-174">Value</span></span>                          |
+|----------------------|--------------------------------|
+| <span data-ttu-id="904b1-175">%TaxWithhold\_Code</span><span class="sxs-lookup"><span data-stu-id="904b1-175">%TaxWithhold\_Code</span></span>   | <span data-ttu-id="904b1-176">O código de imposto retido na fonte.</span><span class="sxs-lookup"><span data-stu-id="904b1-176">The withholding tax code.</span></span>      |
+| <span data-ttu-id="904b1-177">%TaxWithhold\_Value</span><span class="sxs-lookup"><span data-stu-id="904b1-177">%TaxWithhold\_Value</span></span>  | <span data-ttu-id="904b1-178">A taxa de imposto retido na fonte.</span><span class="sxs-lookup"><span data-stu-id="904b1-178">The rate of withholding tax.</span></span>   |
+| <span data-ttu-id="904b1-179">%TaxWithhold\_Amount</span><span class="sxs-lookup"><span data-stu-id="904b1-179">%TaxWithhold\_Amount</span></span> | <span data-ttu-id="904b1-180">O valor do imposto retido na fonte.</span><span class="sxs-lookup"><span data-stu-id="904b1-180">The amount of withholding tax.</span></span> |
+
+## <a name="tags-that-support-fiscal-document-text-for-imports"></a><span data-ttu-id="904b1-181">As marcas que têm suporte para texto da nota fiscal para importações</span><span class="sxs-lookup"><span data-stu-id="904b1-181">Tags that support fiscal document text for imports</span></span>
+
+| <span data-ttu-id="904b1-182">Marca predefinida</span><span class="sxs-lookup"><span data-stu-id="904b1-182">Predefined tag</span></span> | <span data-ttu-id="904b1-183">Alíquota</span><span class="sxs-lookup"><span data-stu-id="904b1-183">Value</span></span>                                                                    |
+|----------------|--------------------------------------------------------------------------|
+| <span data-ttu-id="904b1-184">%DI\_Number</span><span class="sxs-lookup"><span data-stu-id="904b1-184">%DI\_Number</span></span>    | <span data-ttu-id="904b1-185">O identificador do documento da declaração de importação.</span><span class="sxs-lookup"><span data-stu-id="904b1-185">The identifier of the import declaration document.</span></span>                       |
+| <span data-ttu-id="904b1-186">%DI\_Date</span><span class="sxs-lookup"><span data-stu-id="904b1-186">%DI\_Date</span></span>      | <span data-ttu-id="904b1-187">A data que o documento da declaração de importação foi emitido.</span><span class="sxs-lookup"><span data-stu-id="904b1-187">The date that the import declaration document was issued.</span></span>                |
+| <span data-ttu-id="904b1-188">%ImportTax</span><span class="sxs-lookup"><span data-stu-id="904b1-188">%ImportTax</span></span>     | <span data-ttu-id="904b1-189">O valor do imposto sobre importação.</span><span class="sxs-lookup"><span data-stu-id="904b1-189">The import tax amount.</span></span>                                                   |
+| <span data-ttu-id="904b1-190">%Freight</span><span class="sxs-lookup"><span data-stu-id="904b1-190">%Freight</span></span>       | <span data-ttu-id="904b1-191">O valor de frete para a importação.</span><span class="sxs-lookup"><span data-stu-id="904b1-191">The freight amount for the import.</span></span>                                       |
+| <span data-ttu-id="904b1-192">%Insurance</span><span class="sxs-lookup"><span data-stu-id="904b1-192">%Insurance</span></span>     | <span data-ttu-id="904b1-193">O valor de seguro para a importação.</span><span class="sxs-lookup"><span data-stu-id="904b1-193">The insurance amount for the import.</span></span>                                     |
+| <span data-ttu-id="904b1-194">%Siscomex</span><span class="sxs-lookup"><span data-stu-id="904b1-194">%Siscomex</span></span>      | <span data-ttu-id="904b1-195">O valor de encargo para Siscomex (Sistema Integrado de Comércio Exterior).</span><span class="sxs-lookup"><span data-stu-id="904b1-195">The charge amount for Sistema Integrado de Comércio Exterior (Siscomex).</span></span> |
+| <span data-ttu-id="904b1-196">%ExchRate</span><span class="sxs-lookup"><span data-stu-id="904b1-196">%ExchRate</span></span>      | <span data-ttu-id="904b1-197">A taxa de câmbio usada na importação.</span><span class="sxs-lookup"><span data-stu-id="904b1-197">The exchange rate that is used in the import.</span></span>                            |
+
+## <a name="tags-for-icmsdif-final-consumer"></a><span data-ttu-id="904b1-198">As marcas para o consumo de ICMSDIF final</span><span class="sxs-lookup"><span data-stu-id="904b1-198">Tags for ICMSDIF final consumer</span></span>
+
+| <span data-ttu-id="904b1-199">Marca predefinida</span><span class="sxs-lookup"><span data-stu-id="904b1-199">Predefined tag</span></span>           | <span data-ttu-id="904b1-200">Alíquota</span><span class="sxs-lookup"><span data-stu-id="904b1-200">Value</span></span>                                                                          |
+|--------------------------|--------------------------------------------------------------------------------|
+| <span data-ttu-id="904b1-201">%DifICMS\_vBCUFDest</span><span class="sxs-lookup"><span data-stu-id="904b1-201">%DifICMS\_vBCUFDest</span></span>      | <span data-ttu-id="904b1-202">Valor da base de imposto usado para o tipo de imposto ICMS-DIF.</span><span class="sxs-lookup"><span data-stu-id="904b1-202">Tax base amount used for tax type ICMS-DIF.</span></span>                                    |
+| <span data-ttu-id="904b1-203">%DifICMS\_pICMSUFDest</span><span class="sxs-lookup"><span data-stu-id="904b1-203">%DifICMS\_pICMSUFDest</span></span>    | <span data-ttu-id="904b1-204">Valor do imposto do estado federal do destinatário.</span><span class="sxs-lookup"><span data-stu-id="904b1-204">Tax value for recipient federal state.</span></span>                                         |
+| <span data-ttu-id="904b1-205">%DifICMS\_pICMSInter</span><span class="sxs-lookup"><span data-stu-id="904b1-205">%DifICMS\_pICMSInter</span></span>     | <span data-ttu-id="904b1-206">Valor do imposto para a transação interestadual.</span><span class="sxs-lookup"><span data-stu-id="904b1-206">Tax value for interstate transaction.</span></span>                                          |
+| <span data-ttu-id="904b1-207">%DifICMS\_pICMSInterPart</span><span class="sxs-lookup"><span data-stu-id="904b1-207">%DifICMS\_pICMSInterPart</span></span> | <span data-ttu-id="904b1-208">Porcentagem definida para estado federal do destinatário (baseado no ano fiscal do documento).</span><span class="sxs-lookup"><span data-stu-id="904b1-208">Percentage defined to recipient federal state (based on fiscal document year).</span></span> |
+| <span data-ttu-id="904b1-209">%DifICMS\_vICMSUFDest</span><span class="sxs-lookup"><span data-stu-id="904b1-209">%DifICMS\_vICMSUFDest</span></span>    | <span data-ttu-id="904b1-210">Valor do imposto do estado do destinatário.</span><span class="sxs-lookup"><span data-stu-id="904b1-210">Tax amount for recipient state.</span></span>                                                |
+| <span data-ttu-id="904b1-211">%DifICMS\_vICMSUFRemet</span><span class="sxs-lookup"><span data-stu-id="904b1-211">%DifICMS\_vICMSUFRemet</span></span>   | <span data-ttu-id="904b1-212">Valor do imposto no estado de emissor.</span><span class="sxs-lookup"><span data-stu-id="904b1-212">Tax amount for issuer state.</span></span>                                                   |
+
+
+
+
+

@@ -1,75 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="latam-bra-cancel-vendor-fiscal-documents.md" target-language="pt-BR">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>latam-bra-cancel-vendor-fiscal-documents.598cf7.3520aa73e081d23dae3b8cd4d860ab0ea8fec1aa.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>3520aa73e081d23dae3b8cd4d860ab0ea8fec1aa</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\latam-bra-cancel-vendor-fiscal-documents.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Cancel vendor fiscal documents</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> Cancelar notas fiscais do fornecedor</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic provides information about how to cancel a vendor fiscal document for Brazil.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este tópico fornece informações sobre como cancelar uma nota fiscal do fornecedor para o Brasil.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Cancel vendor fiscal documents</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> Cancelar notas fiscais do fornecedor</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>You can cancel incorrect vendor fiscal documents that a legal entity generates and issues for vendors that aren't taxpayers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você pode cancelar as notas fiscais incorretas de fornecedor que uma entidade legal gera e emite para fornecedores que não são contribuintes.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>When you cancel an incorrect vendor fiscal document, a negative purchase order is created.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ao cancelar uma nova fiscal incorreta de fornecedor, uma ordem de compra negativa é criada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>When you post a negative purchase order and run the fiscal book integration process, all the tax, ledger, and financial transactions that are related to the purchase order are reversed in the fiscal books.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quando você lança uma ordem de compra negativa e executa o processo de integração do livro fiscal, todas as transações financeiras, contábeis e de imposto relacionadas à ordem de compra são revertidas nos livros fiscais.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Select <bpt id="p1">**</bpt>Accounts payable<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Common<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Purchase orders<ept id="p3">**</ept> <ph id="ph3">\&gt;</ph> <bpt id="p4">**</bpt>All purchase orders<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione <bpt id="p1">**</bpt>Contas a pagar<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Comum<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Ordens de compra<ept id="p3">**</ept> <ph id="ph3">\&gt;</ph> <bpt id="p4">**</bpt>Todas as ordens de compra<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Select a purchase order that has a purchase type of <bpt id="p1">**</bpt>Returned order<ept id="p1">**</ept> and an approval status of <bpt id="p2">**</bpt>Approved<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Confirmed<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione uma ordem de compra que tenha um tipo de compra de <bpt id="p1">**</bpt>Ordem devolvida<ept id="p1">**</ept> e um status de aprovação <bpt id="p2">**</bpt>Aprovado<ept id="p2">**</ept> ou <bpt id="p3">**</bpt>Confirmado<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>On the Action Pane, on the <bpt id="p1">**</bpt>Purchase<ept id="p1">**</ept> tab, select <bpt id="p2">**</bpt>Cancel fiscal document<ept id="p2">**</ept> to open the <bpt id="p3">**</bpt>Cancel fiscal document<ept id="p3">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No Painel Ação, na guia <bpt id="p1">**</bpt>Compra<ept id="p1">**</ept>, selecione <bpt id="p2">**</bpt>Cancelar nota fiscal<ept id="p2">**</ept> para abrir a página <bpt id="p3">**</bpt>Cancelar nota fiscal<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>In Microsoft Dynamics AX 2012 R3, and in cumulative update 6 or later for Microsoft Dynamics AX 2012 R2: In the <bpt id="p1">**</bpt>Reason code<ept id="p1">**</ept> field, select the identification code of your reason for canceling the vendor fiscal document.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No Microsoft Dynamics AX 2012 R3 e na atualização cumulativa 6 ou posterior para Microsoft Dynamics AX 2012 R2: no campo <bpt id="p1">**</bpt>Código de motivo<ept id="p1">**</ept>, selecione o código de identificação do motivo para cancelar a nota fiscal de fornecedor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>In AX 2012 R3, and in cumulative update 6 or later for AX 2012 R2: In the <bpt id="p1">**</bpt>Reason comment<ept id="p1">**</ept> field, enter or update your reason for canceling the vendor fiscal document.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No AX 2012 R3 e na atualização cumulativa 6 ou posterior do AX 2012 R2: no campo <bpt id="p1">**</bpt>Comentário do motivo<ept id="p1">**</ept>, insira ou atualize o motivo para cancelar a nota fiscal do fornecedor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>The reason for the cancellation must have a minimum of 15 characters.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O motivo para o cancelamento deve ter no mínimo 15 caracteres.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Select the vendor invoices to cancel.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecionar as faturas do fornecedor a serem canceladas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> to create negative purchase orders for the selected vendor invoices.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selecione <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> para criar ordens de compra negativas para as faturas de fornecedor selecionadas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>On the <bpt id="p1">**</bpt>Action Pane<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Invoice<ept id="p2">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p3">**</bpt>Invoice<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No <bpt id="p1">**</bpt>Painel de Ação<ept id="p1">**</ept>, selecione <bpt id="p2">**</bpt>Fatura<ept id="p2">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p3">**</bpt>Fatura<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>On the <bpt id="p1">**</bpt>Vendor invoice<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Post<ept id="p2">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p3">**</bpt>Post<ept id="p3">**</ept> to post the invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na página <bpt id="p1">**</bpt>Fatura de fornecedor<ept id="p1">**</ept>, selecione <bpt id="p2">**</bpt>Lançar<ept id="p2">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p3">**</bpt>Lançar<ept id="p3">**</ept> para lançar a fatura.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>See also</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Consulte também</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source><bpt id="p1">[</bpt>Cancel a purchase complementary fiscal document<ept id="p1">](https://github.com/MicrosoftDocs/DynamicsAX2012-technet/blob/master/dynamicsax2012-technet/bra-cancel-a-purchase-complementary-fiscal-document.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Cancelar uma nota fiscal complementar de compra<ept id="p1">](https://github.com/MicrosoftDocs/DynamicsAX2012-technet/blob/master/dynamicsax2012-technet/bra-cancel-a-purchase-complementary-fiscal-document.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source><bpt id="p1">[</bpt>Cancel a customer fiscal document<ept id="p1">](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/bra-cancel-cus-fis-doc/articles/financials/localizations/latam-bra-cancel-customer-fiscal-documents.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Cancelar uma nota fiscal de cliente<ept id="p1">](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/bra-cancel-cus-fis-doc/articles/financials/localizations/latam-bra-cancel-customer-fiscal-documents.md)</ept></target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: " Cancelar notas fiscais do fornecedor"
+description: Este tópico fornece informações sobre como cancelar uma nota fiscal do fornecedor para o Brasil.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 06/05/2018
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.search.region: Brazil
+ms.author: shylaw
+ms.search.validFrom: 2017-12-31
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 3520aa73e081d23dae3b8cd4d860ab0ea8fec1aa
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1570068"
+---
+# <a name="cancel-vendor-fiscal-documents"></a><span data-ttu-id="7922c-103"> Cancelar notas fiscais do fornecedor</span><span class="sxs-lookup"><span data-stu-id="7922c-103">Cancel vendor fiscal documents</span></span>
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="7922c-104">Você pode cancelar as notas fiscais incorretas de fornecedor que uma entidade legal gera e emite para fornecedores que não são contribuintes.</span><span class="sxs-lookup"><span data-stu-id="7922c-104">You can cancel incorrect vendor fiscal documents that a legal entity generates and issues for vendors that aren't taxpayers.</span></span> <span data-ttu-id="7922c-105">Ao cancelar uma nova fiscal incorreta de fornecedor, uma ordem de compra negativa é criada.</span><span class="sxs-lookup"><span data-stu-id="7922c-105">When you cancel an incorrect vendor fiscal document, a negative purchase order is created.</span></span> <span data-ttu-id="7922c-106">Quando você lança uma ordem de compra negativa e executa o processo de integração do livro fiscal, todas as transações financeiras, contábeis e de imposto relacionadas à ordem de compra são revertidas nos livros fiscais.</span><span class="sxs-lookup"><span data-stu-id="7922c-106">When you post a negative purchase order and run the fiscal book integration process, all the tax, ledger, and financial transactions that are related to the purchase order are reversed in the fiscal books.</span></span>
+
+1. <span data-ttu-id="7922c-107">Selecione **Contas a pagar** \> **Comum** \> **Ordens de compra** \> **Todas as ordens de compra**.</span><span class="sxs-lookup"><span data-stu-id="7922c-107">Select **Accounts payable** \> **Common** \> **Purchase orders** \> **All purchase orders**.</span></span>
+2. <span data-ttu-id="7922c-108">Selecione uma ordem de compra que tenha um tipo de compra de **Ordem devolvida** e um status de aprovação **Aprovado** ou **Confirmado**.</span><span class="sxs-lookup"><span data-stu-id="7922c-108">Select a purchase order that has a purchase type of **Returned order** and an approval status of **Approved** or **Confirmed**.</span></span>
+3. <span data-ttu-id="7922c-109">No Painel Ação, na guia **Compra**, selecione **Cancelar nota fiscal** para abrir a página **Cancelar nota fiscal**.</span><span class="sxs-lookup"><span data-stu-id="7922c-109">On the Action Pane, on the **Purchase** tab, select **Cancel fiscal document** to open the **Cancel fiscal document** page.</span></span>
+4. <span data-ttu-id="7922c-110">No Microsoft Dynamics AX 2012 R3 e na atualização cumulativa 6 ou posterior para Microsoft Dynamics AX 2012 R2: no campo **Código de motivo**, selecione o código de identificação do motivo para cancelar a nota fiscal de fornecedor.</span><span class="sxs-lookup"><span data-stu-id="7922c-110">In Microsoft Dynamics AX 2012 R3, and in cumulative update 6 or later for Microsoft Dynamics AX 2012 R2: In the **Reason code** field, select the identification code of your reason for canceling the vendor fiscal document.</span></span>
+5. <span data-ttu-id="7922c-111">No AX 2012 R3 e na atualização cumulativa 6 ou posterior do AX 2012 R2: no campo **Comentário do motivo**, insira ou atualize o motivo para cancelar a nota fiscal do fornecedor.</span><span class="sxs-lookup"><span data-stu-id="7922c-111">In AX 2012 R3, and in cumulative update 6 or later for AX 2012 R2: In the **Reason comment** field, enter or update your reason for canceling the vendor fiscal document.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="7922c-112">O motivo para o cancelamento deve ter no mínimo 15 caracteres.</span><span class="sxs-lookup"><span data-stu-id="7922c-112">The reason for the cancellation must have a minimum of 15 characters.</span></span>
+
+6. <span data-ttu-id="7922c-113">Selecionar as faturas do fornecedor a serem canceladas.</span><span class="sxs-lookup"><span data-stu-id="7922c-113">Select the vendor invoices to cancel.</span></span>
+7. <span data-ttu-id="7922c-114">Selecione **OK** para criar ordens de compra negativas para as faturas de fornecedor selecionadas.</span><span class="sxs-lookup"><span data-stu-id="7922c-114">Select **OK** to create negative purchase orders for the selected vendor invoices.</span></span>
+8. <span data-ttu-id="7922c-115">No **Painel de Ação**, selecione **Fatura** \> **Fatura**.</span><span class="sxs-lookup"><span data-stu-id="7922c-115">On the **Action Pane**, select **Invoice** \> **Invoice**.</span></span>
+9. <span data-ttu-id="7922c-116">Na página **Fatura de fornecedor**, selecione **Lançar** \> **Lançar** para lançar a fatura.</span><span class="sxs-lookup"><span data-stu-id="7922c-116">On the **Vendor invoice** page, select **Post** \> **Post** to post the invoice.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="7922c-117">Consulte também</span><span class="sxs-lookup"><span data-stu-id="7922c-117">See also</span></span>
+
+[<span data-ttu-id="7922c-118">Cancelar uma nota fiscal complementar de compra</span><span class="sxs-lookup"><span data-stu-id="7922c-118">Cancel a purchase complementary fiscal document</span></span>](https://github.com/MicrosoftDocs/DynamicsAX2012-technet/blob/master/dynamicsax2012-technet/bra-cancel-a-purchase-complementary-fiscal-document.md)
+
+[<span data-ttu-id="7922c-119">Cancelar uma nota fiscal de cliente</span><span class="sxs-lookup"><span data-stu-id="7922c-119">Cancel a customer fiscal document</span></span>](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/bra-cancel-cus-fis-doc/articles/financials/localizations/latam-bra-cancel-customer-fiscal-documents.md)
