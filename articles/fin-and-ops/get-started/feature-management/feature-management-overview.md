@@ -1,369 +1,126 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="feature-management-overview.md" target-language="pt-BR">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-d915bc8" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>feature-management-overview.30fae6.b200156a623c67a562cc1a5952899e3a77517528.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>b200156a623c67a562cc1a5952899e3a77517528</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>bbc9aa0d6b94a942e1f4d5b038601509dcc87937</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>06/05/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\fin-and-ops\get-started\feature-management\feature-management-overview.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Feature management overview</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visão geral do gerenciamento de recursos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic describes the Feature management feature and how you can use it.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este tópico descreve o recurso de gerenciamento de recursos e como você pode usá-lo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Feature management overview</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visão geral do gerenciamento de recursos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>Features are added and updated in every release of Microsoft Dynamics 365 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Os recursos são adicionados e atualizados em cada versão do Microsoft Dynamics 365 for Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>The Feature management experience provides a workspace where you can view a list of features that have been delivered in each release.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A experiência de gerenciamento de recursos fornece um espaço de trabalho em que você pode exibir uma lista dos recursos que foram entregues em cada versão.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>By default, new features are turned off.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Por padrão, os novos recurso estão desativados.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>You can use the workspace to turn them on and view the documentation for them.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você pode usar o espaço de trabalho para ativá-los e exibir a documentação deles.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>The Feature management workspace</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O espaço de trabalho do gerenciamento de recursos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>You can open the <bpt id="p1">**</bpt>Feature management<ept id="p1">**</ept> workspace by selecting the appropriate tile on the dashboard.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você pode abrir o espaço de trabalho <bpt id="p1">**</bpt>Gerenciamento de recursos<ept id="p1">**</ept> selecionando o bloco apropriado no painel.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>You will see a page that shows a list of features for all releases that are supported by the Feature management experience.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Você verá uma página que mostra uma lista de recursos para todas as versões com suporte na experiência de gerenciamento de recursos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Over time, Microsoft will enhance the Feature management experience so that it includes additional functionality to help you manage features.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Com o tempo, a Microsoft aprimorará a experiência de gerenciamento de recursos para que ela inclua funcionalidade adicional para ajudar a gerenciar recursos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>The feature list includes the following information:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A lista recursos inclui as seguintes informações:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source><bpt id="p1">**</bpt>Feature name<ept id="p1">**</ept> – A description of the feature that was added.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Nome do recurso<ept id="p1">**</ept> — uma descrição do recurso que foi adicionado.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source><bpt id="p1">**</bpt>Enabled status<ept id="p1">**</ept> – A symbol indicates whether a feature has been turned on (check mark), hasn't been turned on (blank), is scheduled to be turned on (clock), or is mandatorily turned on (lock).</source><target logoport:matchpercent="75" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">**</bpt>Status habilitado<ept id="p1">**</ept> — Um símbolo indica se uma função foi ativada (marca de seleção), se não foi ativada (em branco), se está agendada para ser ativada (relógio) ou se está obrigatoriamente ativada (bloqueio).</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>The setting that is shown here is used for all legal entities.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">A configuração exibida aqui é usada para todas as entidades legais.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Note that even when a feature has been turned on, it's still controlled by security.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Observe que, mesmo quando um recurso for ativado, ele ainda será controlado pela segurança.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Therefore, the feature will be available only to users who have access to it, based on their security role.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Portanto, o recurso estará disponível somente os para usuários que tiverem acesso a ele, com base em sua função de segurança.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>It will also be available only in legal entities that the user has access to.</source><target logoport:matchpercent="93" state="translated" state-qualifier="fuzzy-match">Ele também estará disponível somente em entidades legais às quais o usuário tem acesso.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source><bpt id="p1">**</bpt>Enable date<ept id="p1">**</ept> – The date when the feature was turned on or is scheduled to be turned on.</source><target logoport:matchpercent="0" state="translated"><bpt id="p1">**</bpt>Data da habilitação<ept id="p1">**</ept> – A data em que o recurso foi ativado ou está agendado para ser ativado.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source><bpt id="p1">**</bpt>Feature added<ept id="p1">**</ept> – The date when the feature was added to your environment.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Recurso adicionado<ept id="p1">**</ept> — a data em que o recurso foi adicionado ao ambiente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>This date is automatically entered when you update your environment during the monthly release cycles.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Essa data é inserida automaticamente quando você atualiza seu ambiente durante ciclos mensais de lançamento.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source><bpt id="p1">**</bpt>Module<ept id="p1">**</ept> – The module that is affected by the new feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Módulo<ept id="p1">**</ept> — o módulo que é afetado pelo novo recurso.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>When you select a feature, additional information appears in the details pane to the right of the feature list.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ao selecionar um recurso, informações adicionais serão exibidas no painel de detalhes à direita da lista de recursos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>At the top of the pane, you will see the feature name, the date when the feature was added, the module that is affected by the feature, and a <bpt id="p1">**</bpt>Learn more<ept id="p1">**</ept> link.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Na parte superior do painel, você verá o nome do recurso, a data em que o recurso foi adicionado, o módulo que é afetado pelo recurso e um link <bpt id="p1">**</bpt>Saiba mais<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Select this link to view the documentation for the feature.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Selecione esse link para exibir a documentação do recurso.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>If documentation isn't available, you're taken to a temporary page.</source><target logoport:matchpercent="89" state="translated" state-qualifier="x-fuzzy-match-unedited">Se a documentação não estiver disponível, você será levado a uma página temporária.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>The details pane also includes a <bpt id="p1">**</bpt>Comments<ept id="p1">**</ept> field where you can add your own comments about the feature.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">O painel de detalhes também inclui um campo <bpt id="p1">**</bpt>Comentários<ept id="p1">**</ept>, onde você pode adicionar seus próprios comentários sobre o recurso.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>The <bpt id="p1">**</bpt>Feature management<ept id="p1">**</ept> workspace also has several tabs, each of which shows a list of features.</source><target logoport:matchpercent="76" state="translated" state-qualifier="fuzzy-match">O espaço de trabalho <bpt id="p1">**</bpt>Gerenciamento de recursos<ept id="p1">**</ept> também possui várias guias, cada uma mostrando uma lista de recursos.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source><bpt id="p1">**</bpt>New<ept id="p1">**</ept> – This tab shows all features that have been added since the last monthly update.</source><target logoport:matchpercent="88" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">**</bpt>Novo<ept id="p1">**</ept> – Esta guia mostra todos os recursos que foram adicionados desde a última atualização mensal.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>If you've skipped any monthly updates, the tab shows all the new features that have been added since the last time that you updated.</source><target logoport:matchpercent="0" state="translated">Se você tiver ignorado todas as atualizações mensais, a guia mostrará todos os novos recursos que foram adicionados desde a última atualização.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>The newest features appear at the top of the list.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Os recursos mais novos aparecem na parte superior da lista.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>The total number of new features is also shown on a tile at the top of the page.</source><target logoport:matchpercent="96" state="translated" state-qualifier="x-fuzzy-match-unedited">O número total de novos recursos também é mostrado em um bloco na parte superior da página.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source><bpt id="p1">**</bpt>Not enabled<ept id="p1">**</ept> – This tab shows all features that haven't been turned on.</source><target logoport:matchpercent="0" state="translated"><bpt id="p1">**</bpt>Não habilitado<ept id="p1">**</ept> – Esta guia mostra todos os recursos que não foram ativados.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>The newest features appear at the top of the list.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-inherited">Os recursos mais novos aparecem na parte superior da lista.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>The total number of new features that haven't been turned on is also shown on a tile at the top of the page.</source><target logoport:matchpercent="77" state="translated" state-qualifier="fuzzy-match">O número total de novos recursos que não foram ativados também é mostrado em um bloco na parte superior da página.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source><bpt id="p1">**</bpt>Scheduled<ept id="p1">**</ept> – This tab shows all features that have been scheduled to be turned on in the future.</source><target logoport:matchpercent="77" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">**</bpt>Agendado<ept id="p1">**</ept> – Esta guia mostra todos os recursos que foram programados para serem ativados no futuro.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>The features that have the earliest scheduled date appear at the top of the list.</source><target logoport:matchpercent="93" state="translated" state-qualifier="x-fuzzy-match-unedited">Os recursos com a data mais próxima agendada aparecerão na parte superior da lista.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>The total number of schedule new features is also shown on a tile at the top of the page.</source><target logoport:matchpercent="93" state="translated" state-qualifier="fuzzy-match">O número total de novos recursos da agenda também é mostrado em um bloco na parte superior da página.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source><bpt id="p1">**</bpt>All<ept id="p1">**</ept> – This tab shows all features.</source><target logoport:matchpercent="0" state="translated"><bpt id="p1">**</bpt>Tudo<ept id="p1">**</ept> – Esta guia mostra todos os recursos.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>The newest features appear at the top of the list.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-inherited">Os recursos mais novos aparecem na parte superior da lista.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Turn on a feature</source><target logoport:matchpercent="0" state="translated">Ativar um recurso</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>If a feature hasn't been turned on, an <bpt id="p1">**</bpt>Enable Now<ept id="p1">**</ept> button appears in the details pane.</source><target logoport:matchpercent="85" state="translated" state-qualifier="fuzzy-match">Se um recurso não foi ativado, um botão <bpt id="p1">**</bpt>Habilitar agora<ept id="p1">**</ept> será exibido no painel de detalhes.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>You can use this button to turn on the feature.</source><target logoport:matchpercent="83" state="translated" state-qualifier="fuzzy-match">Você pode usar esse botão para ativar o recurso.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>Select the feature to turn on, and then, in the details pane, select <bpt id="p1">**</bpt>Enable Now<ept id="p1">**</ept>.</source><target logoport:matchpercent="77" state="translated" state-qualifier="fuzzy-match">Selecione o recurso para ativar e, no painel de detalhes, selecione <bpt id="p1">**</bpt>Habilitar agora<ept id="p1">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>The feature is turned on.</source><target logoport:matchpercent="0" state="translated">O recurso está ativado.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Some features can't be turned off after you turn them on.</source><target logoport:matchpercent="0" state="translated">Alguns recursos não podem ser desativados depois que você os liga.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>If the feature that you're trying to turn on can't be turned off, you receive a warning.</source><target logoport:matchpercent="78" state="translated" state-qualifier="fuzzy-match">Se o recurso que você está tentando ativar não puder ser desativado, você receberá um aviso.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>At that point, you can select <bpt id="p1">**</bpt>Cancel<ept id="p1">**</ept> to cancel the operation and leave the feature turned off.</source><target logoport:matchpercent="85" state="translated" state-qualifier="fuzzy-match">Nesse ponto, você poderá selecionar <bpt id="p1">**</bpt>Cancelar<ept id="p1">**</ept> para cancelar a operação e deixar o recurso desativado.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>However, if you select <bpt id="p1">**</bpt>Enable<ept id="p1">**</ept> to turn on the feature, you won't be able to turn it off later.</source><target logoport:matchpercent="78" state="translated" state-qualifier="fuzzy-match">No entanto, se você selecionar <bpt id="p1">**</bpt>Habilitar<ept id="p1">**</ept> para ativar o recurso, você não poderá desativá-lo mais tarde.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>After a feature is turned on, a message appears below the <bpt id="p1">**</bpt>Learn more<ept id="p1">**</ept> link in the details pane.</source><target logoport:matchpercent="87" state="translated" state-qualifier="fuzzy-match">Depois que um recurso é ativado, uma mensagem será exibida abaixo do link <bpt id="p1">**</bpt>Saiba mais<ept id="p1">**</ept> no painel de detalhes.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>This message either states that the feature was turned on or indicates the future date when the feature is scheduled to be turned on.</source><target logoport:matchpercent="72" state="translated" state-qualifier="fuzzy-match">Essa mensagem informa que o recurso foi ativado ou indica a data futura em que o recurso está agendado para ser ativado.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>It appears every time that you select the feature in the feature list.</source><target logoport:matchpercent="89" state="translated" state-qualifier="x-fuzzy-match-unedited">Ela será exibida sempre que você selecionar o recurso na lista de recursos.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Features that are scheduled to be turned on in the future appear on the <bpt id="p1">**</bpt>Scheduled<ept id="p1">**</ept> tab. A batch process will turn them on at midnight on the specified date, based on the time zone that is represented by the system date.</source><target logoport:matchpercent="0" state="translated">Os recursos que estão agendados para serem ativados no futuro aparecem na guia <bpt id="p1">**</bpt>Agendado<ept id="p1">**</ept>. Um processo em lote vai ativá-los à meia-noite na data especificada, com base no fuso horário representado pela data do sistema.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Reschedule a feature</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Reagendar um recurso</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>If a feature has been scheduled to be turned on in the future, a <bpt id="p1">**</bpt>Schedule<ept id="p1">**</ept> button appears in the details pane.</source><target logoport:matchpercent="0" state="translated">Se um recurso tiver sido agendado para ser ativado no futuro, um botão <bpt id="p1">**</bpt>Agenda<ept id="p1">**</ept> será exibido no painel de detalhes.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>You can use this button to change the <bpt id="p1">**</bpt>Enable date<ept id="p1">**</ept> value to a different date.</source><target logoport:matchpercent="92" state="translated" state-qualifier="fuzzy-match">Você poderá usar este botão para alterar o valor <bpt id="p1">**</bpt>Data da habilitação<ept id="p1">**</ept> para uma data diferente.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>Select the scheduled feature to reschedule, and then, in the details pane, select <bpt id="p1">**</bpt>Schedule<ept id="p1">**</ept>.</source><target logoport:matchpercent="0" state="translated">Selecione o recurso agendado para reagendar e, no painel de detalhes, selecione <bpt id="p1">**</bpt>Agenda<ept id="p1">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>In the dialog box that appears, in the <bpt id="p1">**</bpt>Enable date<ept id="p1">**</ept> field, specify the new date when the feature should be turned on.</source><target logoport:matchpercent="0" state="translated">Na caixa de diálogo exibida, no campo <bpt id="p1">**</bpt>Data da habilitação<ept id="p1">**</ept>, especifique a nova data em que o recurso deve ser ativado.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Select <bpt id="p1">**</bpt>Enable<ept id="p1">**</ept> to reschedule the feature or <bpt id="p2">**</bpt>Disable<ept id="p2">**</ept> to cancel the schedule.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Selecione <bpt id="p1">**</bpt>Habilitar<ept id="p1">**</ept> para reagendar o recurso ou <bpt id="p2">**</bpt>Desabilitar<ept id="p2">**</ept> para cancelar o agendamento.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>Turn off a feature</source><target logoport:matchpercent="80" state="translated" state-qualifier="fuzzy-match">Desativar um recurso</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>If a feature has already been turned on, a <bpt id="p1">**</bpt>Disable<ept id="p1">**</ept> button appears in the details pane.</source><target logoport:matchpercent="88" state="translated" state-qualifier="fuzzy-match">Se um recurso não já tiver sido desativado, um botão <bpt id="p1">**</bpt>Desabilitar<ept id="p1">**</ept> será exibido no painel de detalhes.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>You can use this button to turn off the feature.</source><target logoport:matchpercent="91" state="translated" state-qualifier="fuzzy-match">Você pode usar esse botão para desativar o recurso.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>The <bpt id="p1">**</bpt>Disable<ept id="p1">**</ept> button isn't available if the feature can't be turned off after it's turned on.</source><target logoport:matchpercent="78" state="translated" state-qualifier="fuzzy-match">O botão <bpt id="p1">**</bpt>Desabilitar<ept id="p1">**</ept> não estará disponível se o recurso não puder ser desativado depois de ser ativado.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>Select the feature to turn off, and then, in the details pane, select <bpt id="p1">**</bpt>Disable<ept id="p1">**</ept>.</source><target logoport:matchpercent="87" state="translated" state-qualifier="fuzzy-match">Selecione o recurso a ser desativado e, no painel de detalhes, selecione <bpt id="p1">**</bpt>Desabilitar<ept id="p1">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>The feature is turned off, and the <bpt id="p1">**</bpt>Enable date<ept id="p1">**</ept> field is cleared.</source><target logoport:matchpercent="0" state="translated">O recurso está desativado e o campo <bpt id="p1">**</bpt>Data da habilitação<ept id="p1">**</ept> é desmarcado.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>After a feature is turned off, a message appears below the <bpt id="p1">**</bpt>Learn more<ept id="p1">**</ept> link in the details pane.</source><target logoport:matchpercent="96" state="translated" state-qualifier="fuzzy-match">Depois que um recurso é desativado, uma mensagem será exibida abaixo do link <bpt id="p1">**</bpt>Saiba mais<ept id="p1">**</ept> no painel de detalhes.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>This message states that the feature hasn't yet been turned on.</source><target logoport:matchpercent="0" state="translated">Esta mensagem indica que o recurso ainda não foi ativado.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>It appears every time that you select the feature in the feature list.</source>
-        <target logoport:matchpercent="89" state="translated" state-qualifier="leveraged-inherited">Ela será exibida sempre que você selecionar o recurso na lista de recursos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>Features that haven't been turned on appear on the <bpt id="p1">**</bpt>Not enabled<ept id="p1">**</ept> tab.</source><target logoport:matchpercent="0" state="translated">Os recursos que não foram ativados aparecem na guia <bpt id="p1">**</bpt>Não habilitado<ept id="p1">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>Features that must be turned on</source><target logoport:matchpercent="73" state="translated" state-qualifier="fuzzy-match">Recursos que devem ser ativados</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>Sometimes, a critical feature is delivered that must be turned on automatically when you do an update.</source><target logoport:matchpercent="79" state="translated" state-qualifier="fuzzy-match">Às vezes, um recurso crítico que deve ser ativado automaticamente é entregue quando você faz uma atualização.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>These features will be turned on automatically on the date that is specified in the <bpt id="p1">**</bpt>Enable date<ept id="p1">**</ept> field.</source><target logoport:matchpercent="0" state="translated">Esses recursos serão ativados automaticamente na data especificada no campo <bpt id="p1">**</bpt>Data da habilitação<ept id="p1">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>For these features, a message appears below the <bpt id="p1">**</bpt>Learn more<ept id="p1">**</ept> link in the details pane.</source><target logoport:matchpercent="82" state="translated" state-qualifier="fuzzy-match">No caso desses recursos, uma mensagem será exibida abaixo do link <bpt id="p1">**</bpt>Saiba mais<ept id="p1">**</ept> no painel de detalhes.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>This message either states that the feature was turned on or indicates the future date when the feature will be turned on.</source><target logoport:matchpercent="87" state="translated" state-qualifier="fuzzy-match">Essa mensagem informa que o recurso foi ativado ou indica a data futura em que o recurso será ativado.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>It appears every time that you select the feature in the feature list.</source>
-        <target logoport:matchpercent="89" state="translated" state-qualifier="leveraged-inherited">Ela será exibida sempre que você selecionar o recurso na lista de recursos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>Turn on all features automatically</source><target logoport:matchpercent="0" state="translated">Ativar todos os recursos automaticamente</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>By default, all features that are added to your environment are turned off, unless they are mandatory features.</source><target logoport:matchpercent="0" state="translated">Por padrão, todos os recursos adicionados ao seu ambiente são desativados, a menos que sejam obrigatórios.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>However, if you want to automatically turn on all new features, you can use the drop-down list under the workspace title to change what occurs when new features are added.</source><target logoport:matchpercent="0" state="translated">Contudo, caso você deseje ativar automaticamente todos os novos recursos, é possível usar a lista suspensa sob o título do espaço de trabalho para alterar o que ocorre quando novos recursos são adicionados.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>Select <bpt id="p1">**</bpt>All new features will be enabled by default<ept id="p1">**</ept> to automatically turn on all new features when they are added to your environment.</source><target logoport:matchpercent="0" state="translated">Selecione <bpt id="p1">**</bpt>Todos os novos recursos serão habilitados por padrão<ept id="p1">**</ept> para ativar automaticamente todos os novos recursos quando forem adicionados ao ambiente.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>Select <bpt id="p1">**</bpt>All new features will be disabled by default<ept id="p1">**</ept> to automatically turn off all new features when they are added to your environment.</source><target logoport:matchpercent="93" state="translated" state-qualifier="fuzzy-match">Selecione <bpt id="p1">**</bpt>Todos os novos recursos serão desabilitados por padrão<ept id="p1">**</ept> para desativar automaticamente todos os novos recursos quando forem adicionados ao ambiente.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>Assigning roles</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Atribuindo funções</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>The <bpt id="p1">**</bpt>Feature management<ept id="p1">**</ept> workspace can be opened by system admins, and also by users who are assigned to the Feature manager role or the Feature viewer role.</source><target logoport:matchpercent="0" state="translated">O espaço de trabalho <bpt id="p1">**</bpt>Gerenciamento de recursos<ept id="p1">**</ept> pode ser aberto pelos administradores do sistema e também pelos usuários que estão atribuídos à função de gerente de recursos ou à função de visualizador de recursos.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source>These two roles were created to support the Feature management experience.</source><target logoport:matchpercent="0" state="translated">Essas duas funções foram criadas para oferecer suporte à experiência de gerenciamento de recursos.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source>Users in the Feature manager role can turn any feature on or off.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Os usuários na função de gerente o recursos poderá ativar ou desativar qualquer de recurso.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source>They can also update the <bpt id="p1">**</bpt>Comments<ept id="p1">**</ept> field for the feature.</source><target logoport:matchpercent="0" state="translated">Eles também poderão atualizar o campo <bpt id="p1">**</bpt>Comentários<ept id="p1">**</ept> do recurso.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source>Users in the Feature viewer role can only view the <bpt id="p1">**</bpt>Feature management<ept id="p1">**</ept> workspace.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Os usuários na função de visualizador de recursos podem somente exibir o espaço de trabalho <bpt id="p1">**</bpt>Gerenciamento de recursos<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source>They can't turn features on or off.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eles não poderão ativar ou desativar recursos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source>The Feature manager role and Feature viewer role don't override the existing security that a user has.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">A função de gerente de recursos e a função de visualizador de recurso não substituem a segurança existente que um usuário tem.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source>They just control whether the user can turn features on and off.</source><target logoport:matchpercent="0" state="translated">Eles apenas controlarão se o usuário pode ativar e desativar recursos.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source>They don't provide access to the features themselves.</source><target logoport:matchpercent="86" state="translated" state-qualifier="fuzzy-match">Eles não fornecem acesso aos próprios recursos.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source>Features that use configuration keys</source><target logoport:matchpercent="0" state="translated">Recursos que usam chaves de configuração</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source>If a feature uses a configuration key, but the configuration key isn't turned on, the <bpt id="p1">**</bpt>Feature management<ept id="p1">**</ept> workspace doesn't show the feature in the list of available features.</source><target logoport:matchpercent="0" state="translated">Se um recurso usar uma chave de configuração, mas a chave de configuração não estiver ativada, o espaço de trabalho <bpt id="p1">**</bpt>Gerenciamento de recursos<ept id="p1">**</ept> não mostrará o recurso na lista de recursos disponíveis.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source>After you turn on the configuration key, you must update the feature list by using the <bpt id="p1">**</bpt>Check for update<ept id="p1">**</ept> menu item.</source><target logoport:matchpercent="0" state="translated">Após a ativação da chave de configuração, você deverá atualizar a lista de recursos usando o item de menu <bpt id="p1">**</bpt>Verificação de atualização<ept id="p1">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source>The feature then appears in the feature list.</source><target logoport:matchpercent="0" state="translated">O recurso aparece na lista de recursos.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source>If you turn off the configuration key, the feature isn't removed from the feature list.</source><target logoport:matchpercent="0" state="translated">Se você desativar a chave de configuração, o recurso não será removido da lista de recursos.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source>Data entities</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Entidades de dados</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="197">
-          <source>A data entity that is named <bpt id="p1">**</bpt>Feature management<ept id="p1">**</ept> lets you export the Feature management settings from one environment and then import them into another environment.</source><target logoport:matchpercent="0" state="translated">Uma entidade de dados chamada <bpt id="p1">**</bpt>Gerenciamento de recursos<ept id="p1">**</ept> permite exportar as configurações de gerenciamento de recursos de um ambiente e depois importá-las para outro ambiente.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="198">
-          <source>This entity updates only existing features.</source><target logoport:matchpercent="0" state="translated">Essa entidade atualiza apenas os recursos existentes.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="199">
-          <source>The business logic in the entity also helps guarantee that the same rules that are used on the <bpt id="p1">**</bpt>Feature management<ept id="p1">**</ept> workspace will be applied when the import is done.</source><target logoport:matchpercent="0" state="translated">A lógica comercial na entidade também ajuda a garantir que as mesmas regras usadas no espaço de trabalho <bpt id="p1">**</bpt>Gerenciamento de recursos<ept id="p1">**</ept> serão aplicadas quando a importação for concluída.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="200">
-          <source>For example, you can't override a mandatory feature setting by removing the date during import.</source><target logoport:matchpercent="0" state="translated">Por exemplo, não é possível substituir uma configuração de recursos obrigatória removendo a data durante a importação.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="201">
-          <source>The following examples describe what occurs when you use the <bpt id="p1">**</bpt>Feature management<ept id="p1">**</ept> entity to import data.</source><target logoport:matchpercent="0" state="translated">Os exemplos a seguir descrevem o que ocorre quando você usa a entidade <bpt id="p1">**</bpt>Gerenciamento de recursos<ept id="p1">**</ept> para importar dados.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="202">
-          <source>If you change the value of the <bpt id="p1">**</bpt>Enabled<ept id="p1">**</ept> field to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>, the feature is turned on, and the <bpt id="p3">**</bpt>Enable date<ept id="p3">**</ept> field is set to the current date.</source><target logoport:matchpercent="0" state="translated">Se você alterar o valor do campo <bpt id="p1">**</bpt>Habilitado<ept id="p1">**</ept> como <bpt id="p2">**</bpt>Sim<ept id="p2">**</ept>, o recurso será ativado e o campo <bpt id="p3">**</bpt>Data da habilitação<ept id="p3">**</ept> será definido como a data atual.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="203">
-          <source>If you change the value of the <bpt id="p1">**</bpt>Enabled<ept id="p1">**</ept> field to <bpt id="p2">**</bpt>No<ept id="p2">**</ept> or leave the <bpt id="p3">**</bpt>EnableDate<ept id="p3">**</ept> field blank, the feature is turned off, and the <bpt id="p4">**</bpt>Enable date<ept id="p4">**</ept> field is cleared.</source><target logoport:matchpercent="0" state="translated">Se você alterar o valor do campo <bpt id="p1">**</bpt>Habilitado<ept id="p1">**</ept> como <bpt id="p2">**</bpt>Não<ept id="p2">**</ept> ou deixar o campo <bpt id="p3">**</bpt>Data da habilitação<ept id="p3">**</ept> em branco, o recurso será desativado e o campo <bpt id="p4">**</bpt>Data da habilitação<ept id="p4">**</ept> será desmarcado.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="204">
-          <source>You can't turn off a mandatory feature or a feature that can't be turned off after it's turned on.</source><target logoport:matchpercent="0" state="translated">Você não pode desativar um recurso obrigatório ou um recurso que não pode ser desativado depois de ativado.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="205">
-          <source>If you change the value of the <bpt id="p1">**</bpt>EnableDate<ept id="p1">**</ept> field to a future date, the feature is scheduled for that date.</source><target logoport:matchpercent="0" state="translated">Se você alterar o valor do campo <bpt id="p1">**</bpt>Data da habilitação<ept id="p1">**</ept> para uma data futura, o recurso será agendado para essa data.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="206">
-          <source>If you change the value of the <bpt id="p1">**</bpt>Enabled<ept id="p1">**</ept> field to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> and change the value of the <bpt id="p3">**</bpt>EnableDate<ept id="p3">**</ept> field to a future date, the feature is scheduled for that date.</source><target logoport:matchpercent="0" state="translated">Se você alterar o valor do campo <bpt id="p1">**</bpt>Habilitado<ept id="p1">**</ept> para <bpt id="p2">**</bpt>Sim<ept id="p2">**</ept> e alterar o valor do campo <bpt id="p3">**</bpt>Data da habilitação<ept id="p3">**</ept> para uma data futura, o recurso será agendado para essa data.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="207">
-          <source>If you change the value of the <bpt id="p1">**</bpt>Enabled<ept id="p1">**</ept> field to <bpt id="p2">**</bpt>No<ept id="p2">**</ept>, but you also change the value of the <bpt id="p3">**</bpt>EnableDate<ept id="p3">**</ept> field to a future date, the feature is scheduled for that date.</source><target logoport:matchpercent="89" state="translated" state-qualifier="fuzzy-match">Se você alterar o valor do campo <bpt id="p1">**</bpt>Habilitado<ept id="p1">**</ept> para <bpt id="p2">**</bpt>Não<ept id="p2">**</ept>, mas também alterar o valor do campo <bpt id="p3">**</bpt>Data da habilitação<ept id="p3">**</ept> para uma data futura, o recurso será agendado para essa data.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="208">
-          <source>If a feature is turned on, and you add an <bpt id="p1">**</bpt>EnableDate<ept id="p1">**</ept> field that is set to a future date, the feature remains turned on.</source><target logoport:matchpercent="0" state="translated">Se um recurso estiver ativado e você adicionar um campo <bpt id="p1">**</bpt>Data da habilitação<ept id="p1">**</ept> definido como uma data futura, o recurso permanecerá ativado.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="209">
-          <source>To reschedule the feature, you must change the <bpt id="p1">**</bpt>Enabled<ept id="p1">**</ept> field to <bpt id="p2">**</bpt>No<ept id="p2">**</ept>.</source><target logoport:matchpercent="0" state="translated">Para reagendar o recurso, você deve alterar o campo <bpt id="p1">**</bpt>Habilitado<ept id="p1">**</ept> como <bpt id="p2">**</bpt>Não<ept id="p2">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="210">
-          <source>Feature management and flighting</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Gerenciamento recursos e liberação de versões</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="211">
-          <source>Feature management lets you to control the features that are delivered in each release.</source><target logoport:matchpercent="81" state="translated" state-qualifier="fuzzy-match">O gerenciamento de recursos permite que você controle os recursos que são entregues em cada versão.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="212">
-          <source>Flighting lets Microsoft teams release features to a limited number of customers, so that those features can be tested and validated without affecting all customers.</source><target logoport:matchpercent="92" state="translated" state-qualifier="x-fuzzy-match-unedited">A liberação de versões permite que as equipes da Microsoft liberem recursos para um número limitado de clientes, de maneira que os recursos possam ser testados e validados sem afetar todos os clientes.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="213">
-          <source>Feature management doesn't control the flighting of any features.</source><target logoport:matchpercent="92" state="translated" state-qualifier="x-fuzzy-match-unedited">O gerenciamento de recursos não controla a liberação de versões dos recursos.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="214">
-          <source>Using Feature management to turn on ISV features or custom features</source><target logoport:matchpercent="85" state="translated" state-qualifier="fuzzy-match">Usando o gerenciamento de recursos para desativar recursos de ISV ou recursos personalizados</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="215">
-          <source>Feature management is currently unavailable for features from independent software vendors (ISVs) and custom features.</source><target logoport:matchpercent="0" state="translated">Atualmente, o gerenciamento de recursos não está disponível para recursos de fornecedores de software independentes (ISVs) e recursos personalizados.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="216">
-          <source>However, Microsoft is adding more functionality to enhance Feature management.</source><target logoport:matchpercent="0" state="translated">Contudo, a Microsoft está adicionando mais funcionalidades para aprimorar o gerenciamento de recursos.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="217">
-          <source>After those enhancements are completed, Microsoft will make Feature management available to all features and provide instructions for updating your features to use it.</source><target logoport:matchpercent="0" state="translated">Após a conclusão de aprimoramentos, a Microsoft disponibilizará o gerenciamento de recursos para todos os recursos e fornecerá instruções para atualizar seus recursos para usá-lo.</target>
-        </trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Visão geral do gerenciamento de recursos
+description: Este tópico descreve o recurso de gerenciamento de recursos e como você pode usá-lo.
+author: mikefalkner
+manager: AnnBe
+ms.date: 06/04/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: FeatureManagementWorkspace
+audience: IT Pro, Application user
+ms.reviewer: sericks
+ms.search.scope: Operations, Core
+ms.search.region: Global
+ms.author: mfalkner
+ms.search.validFrom:
+- month/year of release that feature was introduced in
+- in format yyyy-mm-dd
+ms.dyn365.ops.version: 10.0.2
+ms.openlocfilehash: b200156a623c67a562cc1a5952899e3a77517528
+ms.sourcegitcommit: bbc9aa0d6b94a942e1f4d5b038601509dcc87937
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1619135"
+---
+# <a name="feature-management-overview"></a><span data-ttu-id="f02f3-103">Visão geral do gerenciamento de recursos</span><span class="sxs-lookup"><span data-stu-id="f02f3-103">Feature management overview</span></span>
+
+[!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
+
+<span data-ttu-id="f02f3-104">Os recursos são adicionados e atualizados em cada versão do Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="f02f3-104">Features are added and updated in every release of Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="f02f3-105">A experiência de gerenciamento de recursos fornece um espaço de trabalho em que você pode exibir uma lista dos recursos que foram entregues em cada versão.</span><span class="sxs-lookup"><span data-stu-id="f02f3-105">The Feature management experience provides a workspace where you can view a list of features that have been delivered in each release.</span></span> <span data-ttu-id="f02f3-106">Por padrão, os novos recurso estão desativados.</span><span class="sxs-lookup"><span data-stu-id="f02f3-106">By default, new features are turned off.</span></span> <span data-ttu-id="f02f3-107">Você pode usar o espaço de trabalho para ativá-los e exibir a documentação deles.</span><span class="sxs-lookup"><span data-stu-id="f02f3-107">You can use the workspace to turn them on and view the documentation for them.</span></span>
+
+## <a name="the-feature-management-workspace"></a><span data-ttu-id="f02f3-108">O espaço de trabalho do gerenciamento de recursos</span><span class="sxs-lookup"><span data-stu-id="f02f3-108">The Feature management workspace</span></span>
+
+<span data-ttu-id="f02f3-109">Você pode abrir o espaço de trabalho **Gerenciamento de recursos** selecionando o bloco apropriado no painel.</span><span class="sxs-lookup"><span data-stu-id="f02f3-109">You can open the **Feature management** workspace by selecting the appropriate tile on the dashboard.</span></span> <span data-ttu-id="f02f3-110">Você verá uma página que mostra uma lista de recursos para todas as versões com suporte na experiência de gerenciamento de recursos.</span><span class="sxs-lookup"><span data-stu-id="f02f3-110">You will see a page that shows a list of features for all releases that are supported by the Feature management experience.</span></span> <span data-ttu-id="f02f3-111">Com o tempo, a Microsoft aprimorará a experiência de gerenciamento de recursos para que ela inclua funcionalidade adicional para ajudar a gerenciar recursos.</span><span class="sxs-lookup"><span data-stu-id="f02f3-111">Over time, Microsoft will enhance the Feature management experience so that it includes additional functionality to help you manage features.</span></span>
+
+<span data-ttu-id="f02f3-112">A lista recursos inclui as seguintes informações:</span><span class="sxs-lookup"><span data-stu-id="f02f3-112">The feature list includes the following information:</span></span>
+
+- <span data-ttu-id="f02f3-113">**Nome do recurso** — uma descrição do recurso que foi adicionado.</span><span class="sxs-lookup"><span data-stu-id="f02f3-113">**Feature name** – A description of the feature that was added.</span></span>
+- <span data-ttu-id="f02f3-114">**Status habilitado** — Um símbolo indica se uma função foi ativada (marca de seleção), se não foi ativada (em branco), se está agendada para ser ativada (relógio) ou se está obrigatoriamente ativada (bloqueio).</span><span class="sxs-lookup"><span data-stu-id="f02f3-114">**Enabled status** – A symbol indicates whether a feature has been turned on (check mark), hasn't been turned on (blank), is scheduled to be turned on (clock), or is mandatorily turned on (lock).</span></span> <span data-ttu-id="f02f3-115">A configuração exibida aqui é usada para todas as entidades legais.</span><span class="sxs-lookup"><span data-stu-id="f02f3-115">The setting that is shown here is used for all legal entities.</span></span> <span data-ttu-id="f02f3-116">Observe que, mesmo quando um recurso for ativado, ele ainda será controlado pela segurança.</span><span class="sxs-lookup"><span data-stu-id="f02f3-116">Note that even when a feature has been turned on, it's still controlled by security.</span></span> <span data-ttu-id="f02f3-117">Portanto, o recurso estará disponível somente os para usuários que tiverem acesso a ele, com base em sua função de segurança.</span><span class="sxs-lookup"><span data-stu-id="f02f3-117">Therefore, the feature will be available only to users who have access to it, based on their security role.</span></span> <span data-ttu-id="f02f3-118">Ele também estará disponível somente em entidades legais às quais o usuário tem acesso.</span><span class="sxs-lookup"><span data-stu-id="f02f3-118">It will also be available only in legal entities that the user has access to.</span></span>
+- <span data-ttu-id="f02f3-119">**Data da habilitação** – A data em que o recurso foi ativado ou está agendado para ser ativado.</span><span class="sxs-lookup"><span data-stu-id="f02f3-119">**Enable date** – The date when the feature was turned on or is scheduled to be turned on.</span></span>
+- <span data-ttu-id="f02f3-120">**Recurso adicionado** — a data em que o recurso foi adicionado ao ambiente.</span><span class="sxs-lookup"><span data-stu-id="f02f3-120">**Feature added** – The date when the feature was added to your environment.</span></span> <span data-ttu-id="f02f3-121">Essa data é inserida automaticamente quando você atualiza seu ambiente durante ciclos mensais de lançamento.</span><span class="sxs-lookup"><span data-stu-id="f02f3-121">This date is automatically entered when you update your environment during the monthly release cycles.</span></span>
+- <span data-ttu-id="f02f3-122">**Módulo** — o módulo que é afetado pelo novo recurso.</span><span class="sxs-lookup"><span data-stu-id="f02f3-122">**Module** – The module that is affected by the new feature.</span></span>
+
+<span data-ttu-id="f02f3-123">Ao selecionar um recurso, informações adicionais serão exibidas no painel de detalhes à direita da lista de recursos.</span><span class="sxs-lookup"><span data-stu-id="f02f3-123">When you select a feature, additional information appears in the details pane to the right of the feature list.</span></span> <span data-ttu-id="f02f3-124">Na parte superior do painel, você verá o nome do recurso, a data em que o recurso foi adicionado, o módulo que é afetado pelo recurso e um link **Saiba mais**.</span><span class="sxs-lookup"><span data-stu-id="f02f3-124">At the top of the pane, you will see the feature name, the date when the feature was added, the module that is affected by the feature, and a **Learn more** link.</span></span> <span data-ttu-id="f02f3-125">Selecione esse link para exibir a documentação do recurso.</span><span class="sxs-lookup"><span data-stu-id="f02f3-125">Select this link to view the documentation for the feature.</span></span> <span data-ttu-id="f02f3-126">Se a documentação não estiver disponível, você será levado a uma página temporária.</span><span class="sxs-lookup"><span data-stu-id="f02f3-126">If documentation isn't available, you're taken to a temporary page.</span></span> <span data-ttu-id="f02f3-127">O painel de detalhes também inclui um campo **Comentários**, onde você pode adicionar seus próprios comentários sobre o recurso.</span><span class="sxs-lookup"><span data-stu-id="f02f3-127">The details pane also includes a **Comments** field where you can add your own comments about the feature.</span></span>
+
+<span data-ttu-id="f02f3-128">O espaço de trabalho **Gerenciamento de recursos** também possui várias guias, cada uma mostrando uma lista de recursos.</span><span class="sxs-lookup"><span data-stu-id="f02f3-128">The **Feature management** workspace also has several tabs, each of which shows a list of features.</span></span>
+
+- <span data-ttu-id="f02f3-129">**Novo** – Esta guia mostra todos os recursos que foram adicionados desde a última atualização mensal.</span><span class="sxs-lookup"><span data-stu-id="f02f3-129">**New** – This tab shows all features that have been added since the last monthly update.</span></span> <span data-ttu-id="f02f3-130">Se você tiver ignorado todas as atualizações mensais, a guia mostrará todos os novos recursos que foram adicionados desde a última atualização.</span><span class="sxs-lookup"><span data-stu-id="f02f3-130">If you've skipped any monthly updates, the tab shows all the new features that have been added since the last time that you updated.</span></span> <span data-ttu-id="f02f3-131">Os recursos mais novos aparecem na parte superior da lista.</span><span class="sxs-lookup"><span data-stu-id="f02f3-131">The newest features appear at the top of the list.</span></span> <span data-ttu-id="f02f3-132">O número total de novos recursos também é mostrado em um bloco na parte superior da página.</span><span class="sxs-lookup"><span data-stu-id="f02f3-132">The total number of new features is also shown on a tile at the top of the page.</span></span>
+- <span data-ttu-id="f02f3-133">**Não habilitado** – Esta guia mostra todos os recursos que não foram ativados.</span><span class="sxs-lookup"><span data-stu-id="f02f3-133">**Not enabled** – This tab shows all features that haven't been turned on.</span></span> <span data-ttu-id="f02f3-134">Os recursos mais novos aparecem na parte superior da lista.</span><span class="sxs-lookup"><span data-stu-id="f02f3-134">The newest features appear at the top of the list.</span></span> <span data-ttu-id="f02f3-135">O número total de novos recursos que não foram ativados também é mostrado em um bloco na parte superior da página.</span><span class="sxs-lookup"><span data-stu-id="f02f3-135">The total number of new features that haven't been turned on is also shown on a tile at the top of the page.</span></span>
+- <span data-ttu-id="f02f3-136">**Agendado** – Esta guia mostra todos os recursos que foram programados para serem ativados no futuro.</span><span class="sxs-lookup"><span data-stu-id="f02f3-136">**Scheduled** – This tab shows all features that have been scheduled to be turned on in the future.</span></span> <span data-ttu-id="f02f3-137">Os recursos com a data mais próxima agendada aparecerão na parte superior da lista.</span><span class="sxs-lookup"><span data-stu-id="f02f3-137">The features that have the earliest scheduled date appear at the top of the list.</span></span> <span data-ttu-id="f02f3-138">O número total de novos recursos da agenda também é mostrado em um bloco na parte superior da página.</span><span class="sxs-lookup"><span data-stu-id="f02f3-138">The total number of schedule new features is also shown on a tile at the top of the page.</span></span>
+- <span data-ttu-id="f02f3-139">**Tudo** – Esta guia mostra todos os recursos.</span><span class="sxs-lookup"><span data-stu-id="f02f3-139">**All** – This tab shows all features.</span></span> <span data-ttu-id="f02f3-140">Os recursos mais novos aparecem na parte superior da lista.</span><span class="sxs-lookup"><span data-stu-id="f02f3-140">The newest features appear at the top of the list.</span></span>
+
+## <a name="turn-on-a-feature"></a><span data-ttu-id="f02f3-141">Ativar um recurso</span><span class="sxs-lookup"><span data-stu-id="f02f3-141">Turn on a feature</span></span>
+
+<span data-ttu-id="f02f3-142">Se um recurso não foi ativado, um botão **Habilitar agora** será exibido no painel de detalhes.</span><span class="sxs-lookup"><span data-stu-id="f02f3-142">If a feature hasn't been turned on, an **Enable Now** button appears in the details pane.</span></span> <span data-ttu-id="f02f3-143">Você pode usar esse botão para ativar o recurso.</span><span class="sxs-lookup"><span data-stu-id="f02f3-143">You can use this button to turn on the feature.</span></span>
+
+- <span data-ttu-id="f02f3-144">Selecione o recurso para ativar e, no painel de detalhes, selecione **Habilitar agora**.</span><span class="sxs-lookup"><span data-stu-id="f02f3-144">Select the feature to turn on, and then, in the details pane, select **Enable Now**.</span></span> <span data-ttu-id="f02f3-145">O recurso está ativado.</span><span class="sxs-lookup"><span data-stu-id="f02f3-145">The feature is turned on.</span></span>
+
+<span data-ttu-id="f02f3-146">Alguns recursos não podem ser desativados depois que você os liga.</span><span class="sxs-lookup"><span data-stu-id="f02f3-146">Some features can't be turned off after you turn them on.</span></span> <span data-ttu-id="f02f3-147">Se o recurso que você está tentando ativar não puder ser desativado, você receberá um aviso.</span><span class="sxs-lookup"><span data-stu-id="f02f3-147">If the feature that you're trying to turn on can't be turned off, you receive a warning.</span></span> <span data-ttu-id="f02f3-148">Nesse ponto, você poderá selecionar **Cancelar** para cancelar a operação e deixar o recurso desativado.</span><span class="sxs-lookup"><span data-stu-id="f02f3-148">At that point, you can select **Cancel** to cancel the operation and leave the feature turned off.</span></span> <span data-ttu-id="f02f3-149">No entanto, se você selecionar **Habilitar** para ativar o recurso, você não poderá desativá-lo mais tarde.</span><span class="sxs-lookup"><span data-stu-id="f02f3-149">However, if you select **Enable** to turn on the feature, you won't be able to turn it off later.</span></span>
+
+<span data-ttu-id="f02f3-150">Depois que um recurso é ativado, uma mensagem será exibida abaixo do link **Saiba mais** no painel de detalhes.</span><span class="sxs-lookup"><span data-stu-id="f02f3-150">After a feature is turned on, a message appears below the **Learn more** link in the details pane.</span></span> <span data-ttu-id="f02f3-151">Essa mensagem informa que o recurso foi ativado ou indica a data futura em que o recurso está agendado para ser ativado.</span><span class="sxs-lookup"><span data-stu-id="f02f3-151">This message either states that the feature was turned on or indicates the future date when the feature is scheduled to be turned on.</span></span> <span data-ttu-id="f02f3-152">Ela será exibida sempre que você selecionar o recurso na lista de recursos.</span><span class="sxs-lookup"><span data-stu-id="f02f3-152">It appears every time that you select the feature in the feature list.</span></span>
+
+<span data-ttu-id="f02f3-153">Os recursos que estão agendados para serem ativados no futuro aparecem na guia **Agendado**. Um processo em lote vai ativá-los à meia-noite na data especificada, com base no fuso horário representado pela data do sistema.</span><span class="sxs-lookup"><span data-stu-id="f02f3-153">Features that are scheduled to be turned on in the future appear on the **Scheduled** tab. A batch process will turn them on at midnight on the specified date, based on the time zone that is represented by the system date.</span></span>
+
+## <a name="reschedule-a-feature"></a><span data-ttu-id="f02f3-154">Reagendar um recurso</span><span class="sxs-lookup"><span data-stu-id="f02f3-154">Reschedule a feature</span></span>
+
+<span data-ttu-id="f02f3-155">Se um recurso tiver sido agendado para ser ativado no futuro, um botão **Agenda** será exibido no painel de detalhes.</span><span class="sxs-lookup"><span data-stu-id="f02f3-155">If a feature has been scheduled to be turned on in the future, a **Schedule** button appears in the details pane.</span></span> <span data-ttu-id="f02f3-156">Você poderá usar este botão para alterar o valor **Data da habilitação** para uma data diferente.</span><span class="sxs-lookup"><span data-stu-id="f02f3-156">You can use this button to change the **Enable date** value to a different date.</span></span>
+
+1. <span data-ttu-id="f02f3-157">Selecione o recurso agendado para reagendar e, no painel de detalhes, selecione **Agenda**.</span><span class="sxs-lookup"><span data-stu-id="f02f3-157">Select the scheduled feature to reschedule, and then, in the details pane, select **Schedule**.</span></span>
+2. <span data-ttu-id="f02f3-158">Na caixa de diálogo exibida, no campo **Data da habilitação**, especifique a nova data em que o recurso deve ser ativado.</span><span class="sxs-lookup"><span data-stu-id="f02f3-158">In the dialog box that appears, in the **Enable date** field, specify the new date when the feature should be turned on.</span></span>
+3. <span data-ttu-id="f02f3-159">Selecione **Habilitar** para reagendar o recurso ou **Desabilitar** para cancelar o agendamento.</span><span class="sxs-lookup"><span data-stu-id="f02f3-159">Select **Enable** to reschedule the feature or **Disable** to cancel the schedule.</span></span>
+
+## <a name="turn-off-a-feature"></a><span data-ttu-id="f02f3-160">Desativar um recurso</span><span class="sxs-lookup"><span data-stu-id="f02f3-160">Turn off a feature</span></span>
+
+<span data-ttu-id="f02f3-161">Se um recurso não já tiver sido desativado, um botão **Desabilitar** será exibido no painel de detalhes.</span><span class="sxs-lookup"><span data-stu-id="f02f3-161">If a feature has already been turned on, a **Disable** button appears in the details pane.</span></span> <span data-ttu-id="f02f3-162">Você pode usar esse botão para desativar o recurso.</span><span class="sxs-lookup"><span data-stu-id="f02f3-162">You can use this button to turn off the feature.</span></span> <span data-ttu-id="f02f3-163">O botão **Desabilitar** não estará disponível se o recurso não puder ser desativado depois de ser ativado.</span><span class="sxs-lookup"><span data-stu-id="f02f3-163">The **Disable** button isn't available if the feature can't be turned off after it's turned on.</span></span>
+
+- <span data-ttu-id="f02f3-164">Selecione o recurso a ser desativado e, no painel de detalhes, selecione **Desabilitar**.</span><span class="sxs-lookup"><span data-stu-id="f02f3-164">Select the feature to turn off, and then, in the details pane, select **Disable**.</span></span> <span data-ttu-id="f02f3-165">O recurso está desativado e o campo **Data da habilitação** é desmarcado.</span><span class="sxs-lookup"><span data-stu-id="f02f3-165">The feature is turned off, and the **Enable date** field is cleared.</span></span>
+
+<span data-ttu-id="f02f3-166">Depois que um recurso é desativado, uma mensagem será exibida abaixo do link **Saiba mais** no painel de detalhes.</span><span class="sxs-lookup"><span data-stu-id="f02f3-166">After a feature is turned off, a message appears below the **Learn more** link in the details pane.</span></span> <span data-ttu-id="f02f3-167">Esta mensagem indica que o recurso ainda não foi ativado.</span><span class="sxs-lookup"><span data-stu-id="f02f3-167">This message states that the feature hasn't yet been turned on.</span></span> <span data-ttu-id="f02f3-168">Ela será exibida sempre que você selecionar o recurso na lista de recursos.</span><span class="sxs-lookup"><span data-stu-id="f02f3-168">It appears every time that you select the feature in the feature list.</span></span> <span data-ttu-id="f02f3-169">Os recursos que não foram ativados aparecem na guia **Não habilitado**.</span><span class="sxs-lookup"><span data-stu-id="f02f3-169">Features that haven't been turned on appear on the **Not enabled** tab.</span></span>
+
+## <a name="features-that-must-be-turned-on"></a><span data-ttu-id="f02f3-170">Recursos que devem ser ativados</span><span class="sxs-lookup"><span data-stu-id="f02f3-170">Features that must be turned on</span></span>
+
+<span data-ttu-id="f02f3-171">Às vezes, um recurso crítico que deve ser ativado automaticamente é entregue quando você faz uma atualização.</span><span class="sxs-lookup"><span data-stu-id="f02f3-171">Sometimes, a critical feature is delivered that must be turned on automatically when you do an update.</span></span> <span data-ttu-id="f02f3-172">Esses recursos serão ativados automaticamente na data especificada no campo **Data da habilitação**.</span><span class="sxs-lookup"><span data-stu-id="f02f3-172">These features will be turned on automatically on the date that is specified in the **Enable date** field.</span></span> <span data-ttu-id="f02f3-173">No caso desses recursos, uma mensagem será exibida abaixo do link **Saiba mais** no painel de detalhes.</span><span class="sxs-lookup"><span data-stu-id="f02f3-173">For these features, a message appears below the **Learn more** link in the details pane.</span></span> <span data-ttu-id="f02f3-174">Essa mensagem informa que o recurso foi ativado ou indica a data futura em que o recurso será ativado.</span><span class="sxs-lookup"><span data-stu-id="f02f3-174">This message either states that the feature was turned on or indicates the future date when the feature will be turned on.</span></span> <span data-ttu-id="f02f3-175">Ela será exibida sempre que você selecionar o recurso na lista de recursos.</span><span class="sxs-lookup"><span data-stu-id="f02f3-175">It appears every time that you select the feature in the feature list.</span></span>
+
+## <a name="turn-on-all-features-automatically"></a><span data-ttu-id="f02f3-176">Ativar todos os recursos automaticamente</span><span class="sxs-lookup"><span data-stu-id="f02f3-176">Turn on all features automatically</span></span>
+
+<span data-ttu-id="f02f3-177">Por padrão, todos os recursos adicionados ao seu ambiente são desativados, a menos que sejam obrigatórios.</span><span class="sxs-lookup"><span data-stu-id="f02f3-177">By default, all features that are added to your environment are turned off, unless they are mandatory features.</span></span> <span data-ttu-id="f02f3-178">Contudo, caso você deseje ativar automaticamente todos os novos recursos, é possível usar a lista suspensa sob o título do espaço de trabalho para alterar o que ocorre quando novos recursos são adicionados.</span><span class="sxs-lookup"><span data-stu-id="f02f3-178">However, if you want to automatically turn on all new features, you can use the drop-down list under the workspace title to change what occurs when new features are added.</span></span>
+
+- <span data-ttu-id="f02f3-179">Selecione **Todos os novos recursos serão habilitados por padrão** para ativar automaticamente todos os novos recursos quando forem adicionados ao ambiente.</span><span class="sxs-lookup"><span data-stu-id="f02f3-179">Select **All new features will be enabled by default** to automatically turn on all new features when they are added to your environment.</span></span>
+- <span data-ttu-id="f02f3-180">Selecione **Todos os novos recursos serão desabilitados por padrão** para desativar automaticamente todos os novos recursos quando forem adicionados ao ambiente.</span><span class="sxs-lookup"><span data-stu-id="f02f3-180">Select **All new features will be disabled by default** to automatically turn off all new features when they are added to your environment.</span></span>
+
+## <a name="assigning-roles"></a><span data-ttu-id="f02f3-181">Atribuindo funções</span><span class="sxs-lookup"><span data-stu-id="f02f3-181">Assigning roles</span></span>
+
+<span data-ttu-id="f02f3-182">O espaço de trabalho **Gerenciamento de recursos** pode ser aberto pelos administradores do sistema e também pelos usuários que estão atribuídos à função de gerente de recursos ou à função de visualizador de recursos.</span><span class="sxs-lookup"><span data-stu-id="f02f3-182">The **Feature management** workspace can be opened by system admins, and also by users who are assigned to the Feature manager role or the Feature viewer role.</span></span> <span data-ttu-id="f02f3-183">Essas duas funções foram criadas para oferecer suporte à experiência de gerenciamento de recursos.</span><span class="sxs-lookup"><span data-stu-id="f02f3-183">These two roles were created to support the Feature management experience.</span></span> <span data-ttu-id="f02f3-184">Os usuários na função de gerente o recursos poderá ativar ou desativar qualquer de recurso.</span><span class="sxs-lookup"><span data-stu-id="f02f3-184">Users in the Feature manager role can turn any feature on or off.</span></span> <span data-ttu-id="f02f3-185">Eles também poderão atualizar o campo **Comentários** do recurso.</span><span class="sxs-lookup"><span data-stu-id="f02f3-185">They can also update the **Comments** field for the feature.</span></span> <span data-ttu-id="f02f3-186">Os usuários na função de visualizador de recursos podem somente exibir o espaço de trabalho **Gerenciamento de recursos**.</span><span class="sxs-lookup"><span data-stu-id="f02f3-186">Users in the Feature viewer role can only view the **Feature management** workspace.</span></span> <span data-ttu-id="f02f3-187">Eles não poderão ativar ou desativar recursos.</span><span class="sxs-lookup"><span data-stu-id="f02f3-187">They can't turn features on or off.</span></span>
+
+<span data-ttu-id="f02f3-188">A função de gerente de recursos e a função de visualizador de recurso não substituem a segurança existente que um usuário tem.</span><span class="sxs-lookup"><span data-stu-id="f02f3-188">The Feature manager role and Feature viewer role don't override the existing security that a user has.</span></span> <span data-ttu-id="f02f3-189">Eles apenas controlarão se o usuário pode ativar e desativar recursos.</span><span class="sxs-lookup"><span data-stu-id="f02f3-189">They just control whether the user can turn features on and off.</span></span> <span data-ttu-id="f02f3-190">Eles não fornecem acesso aos próprios recursos.</span><span class="sxs-lookup"><span data-stu-id="f02f3-190">They don't provide access to the features themselves.</span></span>
+
+## <a name="features-that-use-configuration-keys"></a><span data-ttu-id="f02f3-191">Recursos que usam chaves de configuração</span><span class="sxs-lookup"><span data-stu-id="f02f3-191">Features that use configuration keys</span></span>
+
+<span data-ttu-id="f02f3-192">Se um recurso usar uma chave de configuração, mas a chave de configuração não estiver ativada, o espaço de trabalho **Gerenciamento de recursos** não mostrará o recurso na lista de recursos disponíveis.</span><span class="sxs-lookup"><span data-stu-id="f02f3-192">If a feature uses a configuration key, but the configuration key isn't turned on, the **Feature management** workspace doesn't show the feature in the list of available features.</span></span> <span data-ttu-id="f02f3-193">Após a ativação da chave de configuração, você deverá atualizar a lista de recursos usando o item de menu **Verificação de atualização**.</span><span class="sxs-lookup"><span data-stu-id="f02f3-193">After you turn on the configuration key, you must update the feature list by using the **Check for update** menu item.</span></span> <span data-ttu-id="f02f3-194">O recurso aparece na lista de recursos.</span><span class="sxs-lookup"><span data-stu-id="f02f3-194">The feature then appears in the feature list.</span></span>
+
+<span data-ttu-id="f02f3-195">Se você desativar a chave de configuração, o recurso não será removido da lista de recursos.</span><span class="sxs-lookup"><span data-stu-id="f02f3-195">If you turn off the configuration key, the feature isn't removed from the feature list.</span></span>
+
+## <a name="data-entities"></a><span data-ttu-id="f02f3-196">Entidades de dados</span><span class="sxs-lookup"><span data-stu-id="f02f3-196">Data entities</span></span>
+
+<span data-ttu-id="f02f3-197">Uma entidade de dados chamada **Gerenciamento de recursos** permite exportar as configurações de gerenciamento de recursos de um ambiente e depois importá-las para outro ambiente.</span><span class="sxs-lookup"><span data-stu-id="f02f3-197">A data entity that is named **Feature management** lets you export the Feature management settings from one environment and then import them into another environment.</span></span> <span data-ttu-id="f02f3-198">Essa entidade atualiza apenas os recursos existentes.</span><span class="sxs-lookup"><span data-stu-id="f02f3-198">This entity updates only existing features.</span></span> <span data-ttu-id="f02f3-199">A lógica comercial na entidade também ajuda a garantir que as mesmas regras usadas no espaço de trabalho **Gerenciamento de recursos** serão aplicadas quando a importação for concluída.</span><span class="sxs-lookup"><span data-stu-id="f02f3-199">The business logic in the entity also helps guarantee that the same rules that are used on the **Feature management** workspace will be applied when the import is done.</span></span> <span data-ttu-id="f02f3-200">Por exemplo, não é possível substituir uma configuração de recursos obrigatória removendo a data durante a importação.</span><span class="sxs-lookup"><span data-stu-id="f02f3-200">For example, you can't override a mandatory feature setting by removing the date during import.</span></span>
+
+<span data-ttu-id="f02f3-201">Os exemplos a seguir descrevem o que ocorre quando você usa a entidade **Gerenciamento de recursos** para importar dados.</span><span class="sxs-lookup"><span data-stu-id="f02f3-201">The following examples describe what occurs when you use the **Feature management** entity to import data.</span></span>
+
+- <span data-ttu-id="f02f3-202">Se você alterar o valor do campo **Habilitado** como **Sim**, o recurso será ativado e o campo **Data da habilitação** será definido como a data atual.</span><span class="sxs-lookup"><span data-stu-id="f02f3-202">If you change the value of the **Enabled** field to **Yes**, the feature is turned on, and the **Enable date** field is set to the current date.</span></span>
+- <span data-ttu-id="f02f3-203">Se você alterar o valor do campo **Habilitado** como **Não** ou deixar o campo **Data da habilitação** em branco, o recurso será desativado e o campo **Data da habilitação** será desmarcado.</span><span class="sxs-lookup"><span data-stu-id="f02f3-203">If you change the value of the **Enabled** field to **No** or leave the **EnableDate** field blank, the feature is turned off, and the **Enable date** field is cleared.</span></span> <span data-ttu-id="f02f3-204">Você não pode desativar um recurso obrigatório ou um recurso que não pode ser desativado depois de ativado.</span><span class="sxs-lookup"><span data-stu-id="f02f3-204">You can't turn off a mandatory feature or a feature that can't be turned off after it's turned on.</span></span>
+- <span data-ttu-id="f02f3-205">Se você alterar o valor do campo **Data da habilitação** para uma data futura, o recurso será agendado para essa data.</span><span class="sxs-lookup"><span data-stu-id="f02f3-205">If you change the value of the **EnableDate** field to a future date, the feature is scheduled for that date.</span></span>
+- <span data-ttu-id="f02f3-206">Se você alterar o valor do campo **Habilitado** para **Sim** e alterar o valor do campo **Data da habilitação** para uma data futura, o recurso será agendado para essa data.</span><span class="sxs-lookup"><span data-stu-id="f02f3-206">If you change the value of the **Enabled** field to **Yes** and change the value of the **EnableDate** field to a future date, the feature is scheduled for that date.</span></span> 
+- <span data-ttu-id="f02f3-207">Se você alterar o valor do campo **Habilitado** para **Não**, mas também alterar o valor do campo **Data da habilitação** para uma data futura, o recurso será agendado para essa data.</span><span class="sxs-lookup"><span data-stu-id="f02f3-207">If you change the value of the **Enabled** field to **No**, but you also change the value of the **EnableDate** field to a future date, the feature is scheduled for that date.</span></span>
+- <span data-ttu-id="f02f3-208">Se um recurso estiver ativado e você adicionar um campo **Data da habilitação** definido como uma data futura, o recurso permanecerá ativado.</span><span class="sxs-lookup"><span data-stu-id="f02f3-208">If a feature is turned on, and you add an **EnableDate** field that is set to a future date, the feature remains turned on.</span></span> <span data-ttu-id="f02f3-209">Para reagendar o recurso, você deve alterar o campo **Habilitado** como **Não**.</span><span class="sxs-lookup"><span data-stu-id="f02f3-209">To reschedule the feature, you must change the **Enabled** field to **No**.</span></span>
+
+## <a name="feature-management-and-flighting"></a><span data-ttu-id="f02f3-210">Gerenciamento recursos e liberação de versões</span><span class="sxs-lookup"><span data-stu-id="f02f3-210">Feature management and flighting</span></span>
+
+<span data-ttu-id="f02f3-211">O gerenciamento de recursos permite que você controle os recursos que são entregues em cada versão.</span><span class="sxs-lookup"><span data-stu-id="f02f3-211">Feature management lets you to control the features that are delivered in each release.</span></span> <span data-ttu-id="f02f3-212">A liberação de versões permite que as equipes da Microsoft liberem recursos para um número limitado de clientes, de maneira que os recursos possam ser testados e validados sem afetar todos os clientes.</span><span class="sxs-lookup"><span data-stu-id="f02f3-212">Flighting lets Microsoft teams release features to a limited number of customers, so that those features can be tested and validated without affecting all customers.</span></span> <span data-ttu-id="f02f3-213">O gerenciamento de recursos não controla a liberação de versões dos recursos.</span><span class="sxs-lookup"><span data-stu-id="f02f3-213">Feature management doesn't control the flighting of any features.</span></span>
+
+## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a><span data-ttu-id="f02f3-214">Usando o gerenciamento de recursos para desativar recursos de ISV ou recursos personalizados</span><span class="sxs-lookup"><span data-stu-id="f02f3-214">Using Feature management to turn on ISV features or custom features</span></span>
+
+<span data-ttu-id="f02f3-215">Atualmente, o gerenciamento de recursos não está disponível para recursos de fornecedores de software independentes (ISVs) e recursos personalizados.</span><span class="sxs-lookup"><span data-stu-id="f02f3-215">Feature management is currently unavailable for features from independent software vendors (ISVs) and custom features.</span></span> <span data-ttu-id="f02f3-216">Contudo, a Microsoft está adicionando mais funcionalidades para aprimorar o gerenciamento de recursos.</span><span class="sxs-lookup"><span data-stu-id="f02f3-216">However, Microsoft is adding more functionality to enhance Feature management.</span></span> <span data-ttu-id="f02f3-217">Após a conclusão de aprimoramentos, a Microsoft disponibilizará o gerenciamento de recursos para todos os recursos e fornecerá instruções para atualizar seus recursos para usá-lo.</span><span class="sxs-lookup"><span data-stu-id="f02f3-217">After those enhancements are completed, Microsoft will make Feature management available to all features and provide instructions for updating your features to use it.</span></span>
