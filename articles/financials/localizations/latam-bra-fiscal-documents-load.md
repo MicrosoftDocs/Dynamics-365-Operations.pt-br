@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: shylaw
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a1dbc57545fd8abc12288e28aeaa4ecf25a2efa5
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: dd7343a08196b45ec0ebb455f779642b7ca26cca
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538319"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1555182"
 ---
 # <a name="generate-fiscal-documents-for-a-load"></a>Gerar documentos fiscais para uma carga 
 

@@ -16,12 +16,12 @@ ms.search.region: Brazil
 ms.author: v-gonode
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: cc0543b515d9bd22e4ed094937f026577020dd59
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 695fd595efaf3352c8e34feca751d64f694fe847
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1513016"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1555181"
 ---
 # <a name="export-and-import-transactions-for-general-ledger-consolidation-for-brazil"></a>Exportar e importar transações da consolidação de contabilidade para o Brasil
 

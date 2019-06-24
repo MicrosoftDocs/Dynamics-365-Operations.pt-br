@@ -3,7 +3,7 @@ title: Gerenciamento de preços de vendas para varejo
 description: Este tópico descreve os conceitos para criar e gerenciar os preços de venda do Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 04/20/2018
+ms.date: 05/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28a095588bd3c312a2d1c4b83e668487a209077f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: afa553fd0562b306f720f2a30c7f901db7ad1b3a
+ms.sourcegitcommit: 0fbfb9b0ab78c804f3931a083028d2ce313d6521
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549382"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "1594061"
 ---
 # <a name="retail-sales-price-management"></a>Gerenciamento de preços de vendas de varejo
 
@@ -231,3 +231,9 @@ Além disso, **somente** o mecanismo de preço de varejo suporta os seguintes re
 
 - O preço está baseado em dimensões do produto, na ordem do preço da grade mais específica para o preço da grade menos específico para o preço do produto mestre. Um preço definido com duas dimensões de produtos (por exemplo, cor e tamanho) é usado antes de um preço definido usando somente uma dimensão de produtos (por exemplo, por tamanho.)
 - O mesmo grupo de preços pode ser usado para controlar a definição de preços e descontos.
+
+## <a name="pricing-api-enhancements"></a>Aprimoramentos na API de definição de preços
+
+O preço é um dos fatores mais importantes que regem as decisões de compra de muitos clientes, e muitos clientes comparam preços em vários sites antes de fazer uma compra. Para ajudar a garantir que eles forneçam preços competitivos, os varejistas ficam atentos a seus concorrentes e frequentemente realizam promoções. Portanto, para ajudar esses varejistas a atrair clientes, é muito importante que a pesquisa de produtos, o recurso de navegação, as listas e a página de detalhes do produto mostrem os preços mais precisos.
+
+Em uma próxima versão do Retail, a API (interface de programação de aplicativos) **GetActivePrices** retornará preços que incluem descontos simples (por exemplo, descontos de linha única que não dependem de outros itens no carrinho). Assim, os preços exibidos são próximos do valor real que os clientes pagam pelos itens. Essa API incluirá todos os tipos de descontos simples: descontos baseados em afiliação, em fidelidade, em catálogo e em canal. Além disso, a API retornará os nomes e as informações de validade dos descontos aplicados, para que os varejistas possam fornecer uma descrição mais detalhada do preço e criar um senso de urgência se a validade do desconto expirar em breve.

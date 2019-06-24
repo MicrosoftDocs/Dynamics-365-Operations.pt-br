@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e7aceed380f6722353574470d6dee75ebe105c18
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6c813cfea9b570e8dfd5dbe7f3ca1f4ba8594420
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1530261"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577971"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Mostrar notificações de ordem no ponto de venda (PDV)
 
@@ -68,7 +68,7 @@ A ilustração a seguir mostra as configurações de conteúdo ao vivo no design
 
 ![Configurações de conteúdo ao vivo no designer da grade de botões](./media/ButtonGridDesigner.png "Configurações de conteúdo ao vivo no designer da grade de botões")
 
-Para mostrar a contagem de notificação em um botão, você deve garantir que o layout de tela correto está sendo atualizado. Para determinar o layout de tela que está sendo usado pelo POS, selecione o ícone **Configurações** no canto superior direito e anote a **ID de layout de tela** e **Resolução de tela**. Agora, usando o navegador Edge, vá para a página **Layout de tela** no Dynamics 365 for Finance and Operations, encontre a **ID de layout de tela** e **Resolução de layout** identificadas acima e marque a caixa de seleção **Habilitar conteúdo ao vivo**. Vá para **Varejo > TI de Varejo > Agenda de distribuição** e execute o trabalho 1090 (Registros) para sincronizar as alterações de layout. 
+Para mostrar a contagem de notificação em um botão, você deve garantir que o layout de tela correto está sendo atualizado. Para determinar o layout de tela que está sendo usado pelo POS, selecione o ícone **Configurações** no canto superior direito e anote a **ID de layout de tela** e **Resolução de tela**. Agora, usando o navegador Edge, vá para a página **Layout de tela** no Dynamics 365 for Finance and Operations, encontre a **ID de layout de tela** e **Resolução de layout** identificadas acima e marque a caixa de seleção **Habilitar conteúdo ao vivo**. Vá para **Varejo \> TI de Varejo \> Agenda de distribuição** e execute o trabalho 1090 (Registros) para sincronizar as alterações de layout.
 
 ![Encontrar o layout de tela usado pelo POS](./media/Choose_screen_layout.png "Encontrar o layout de tela")
 

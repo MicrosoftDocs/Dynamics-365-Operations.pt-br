@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c49a7adb63b4abb95a610c8ac2d13d17b5d1b98c
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 64b35729db058040583e2f812a9283e6abd5a278
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538263"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1567184"
 ---
 # <a name="enter-pis-and-cofins-tax-adjustment-transactions-brazil"></a>Inserir transações de ajuste de impostos PIS e COFINS (Brasil)
 

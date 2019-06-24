@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: shylaw
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: dd8d3aef91f999d1c3fb7cd0b3cd55874b23ba8b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 97b57d891fbe2246e99d6fb72ba71c37e6788b5b
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1513023"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1570070"
 ---
 # <a name="transfer-orders-brazil"></a>Ordens de transferência (Brasil)
 

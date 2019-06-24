@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 24775044e5a502a5615392a6a8c4030bdfafb0ab
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a34ae8084c0ad55221f4ab93eb8c6481fa8c4771
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558564"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606747"
 ---
 # <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>Configurar denominações de pagamento à vista para o PDV (ponto de venda)
 
@@ -34,9 +34,9 @@ Denominações de pagamento à vista para moedas e notas podem ser definidas no 
 
 ## <a name="define-denominations"></a>Definir denominações
 
-As denominações são configuradas por loja na página **Configurar** \> **Declaração em dinheiro da propriedade da loja**.
+As denominações são configuradas por loja na página **Configurar** \> **Declaração de caixa** da propriedade da loja.
 
-![denominações de pagamento à vista](./media/image1-denomination.png)
+![Opção Declaração de caixa](./media/image1-denomination.png)
 
 Para definir uma denominação:
 
@@ -44,7 +44,7 @@ Para definir uma denominação:
 1. Especifique o tipo (moeda ou nota).
 1. Especifique o valor.
 
-![denominações de pagamento à vista](./media/image2-denomination.png)
+![Página Cédulas de declaração de valores em caixa](./media/image2-denomination.png)
 
 ## <a name="configure-the-functionality-profile"></a>Configurar o perfil de funcionalidade
 

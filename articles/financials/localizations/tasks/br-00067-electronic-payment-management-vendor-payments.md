@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d386db1e089a8c91cd35c2b05e021a3fae52450c
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 1a962d50fba3c65c395fc345c3d219839fd01c16
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538291"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1567194"
 ---
 # <a name="electronic-payment-management-for-vendor-payments-brazil"></a>Gerenciamento de pagamento eletrônico para pagamentos de fornecedores (Brasil)
 

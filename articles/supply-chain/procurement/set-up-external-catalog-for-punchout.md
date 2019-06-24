@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc3879492f230b9477c6e5efd2edc8e1e4aca0a2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 39baa331120d765543c3cf662ce53d2bcfe404ab
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571621"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595602"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Configurar um catálogo externo para compras eletrônicas de PunchOut
 
@@ -59,8 +59,10 @@ Esta seção fornece mais detalhes sobre a tarefa 4 na seção anterior.
 4. Selecione o fornecedor para o catálogo. Na lista **Entidades legais**, há uma linha para cada entidade legal na qual o fornecedor está configurado. Para permitir que os usuários solicitem produtos diretamente do catálogo do fornecedor em algumas entidades legais, mas não em outras, você pode usar **Impedir acesso** ou **Permitir acesso** para cada entidade legal onde deseja que o catálogo esteja ou não disponível.
 5. No campo **Expiração padrão (dias)**, insira o número de dias que uma cotação recebida do catálogo externo é válida e pode ser usada para comprar do fornecedor externo. Quando uma cotação é criada e recuperada no site do catálogo externo do fornecedor, ela é válida a partir da data atual do sistema e permanece válida pelo número de dias especificado nesse campo.
 6. Clique no botão **Adicionar** para começar a mapear as categorias de compras no catálogo externo. Então, na lista Nome da categoria, selecione uma categoria. A lista de categorias é um super conjunto de categorias de compras no qual o fornecedor foi mapeado em todas as entidades legais que estão configuradas para o fornecedor.
-[!NOTE]
-As políticas de compras são usadas para permitir ou restringir o acesso a categorias para a entidade legal de compra ou a unidade operacional de recebimento. O punchout para um catálogo externo exige que o acesso seja permitido a pelo menos uma das categorias de compras que são mapeadas para o catálogo.
+
+    > [!NOTE]
+    > As políticas de compras são usadas para permitir ou restringir o acesso a categorias para a entidade legal de compra ou a unidade operacional de recebimento. O punchout para um catálogo externo exige que o acesso seja permitido a pelo menos uma das categorias de compras que são mapeadas para o catálogo.
+
 7. Configure a mensagem de solicitação de configuração cXML que será enviada ao fornecedor. O formato de mensagem gerado automaticamente é o modelo mínimo que é necessário para iniciar uma sessão. Preencha os valores das etiquetas.
 
 A qualquer momento, você pode recarregar o modelo de mensagem gerado pelo sistema, clicando em **Restaurar o formato da mensagem**. 
@@ -85,7 +87,7 @@ Abaixo, você pode encontrar uma descrição das tags incluídas no modelo:
 
 Um elemento extrínseco é uma informação adicional, como nome de usuário que se baseie em um usuário que forçou sua saída. O elemento extrínseco é definido quando o punchout ocorre e pode ser enviado na mensagem de configuração da solicitação.
 O fornecedor pode ter um requerimento para receber um elemento no extrínseco de configuração. Nesse caso, você deve adicionar o elemento extrínseco à lista de elementos extrínsecos na seção **Formato de mensagem** da página **Catálogo externo**. Especifique um nome para o elemento extrínseco que o fornecedor pode reconhecer e mapeie-o para um valor. As opções para valores são: nome do usuário, e-mail do usuário ou valor aleatório.
-Para obter mais informações sobre o protocolo cXML, consulte: http://cxml.org/
+Para obter mais informações sobre o protocolo cXML, consulte o [site do cXML.org](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Mensagem pós-datada
 A mensagem pós-datada é a mensagem que é recebida do fornecedor quando o usuário verifica o site externo e retorna para Finance and Operations. As mensagens pós-datadas não podem ser configuradas. As mensagens são baseadas na definição do protocolo de cXML. Aqui está a informação que pode ser parte da mensagem pós-datada da mensagem que é recebida em uma linha de requisição:

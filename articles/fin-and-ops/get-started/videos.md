@@ -3,7 +3,7 @@ title: Vídeos para o Finance and Operations
 description: Essa página lista "como fazer" criados pela Microsoft e conversas tecnológicas em vídeos relacionadas ao Dynamics 365 for Finance and Operations que estão disponíveis no YouTube e em outros sites.
 author: josaw1
 manager: AnnBe
-ms.date: 05/11/2018
+ms.date: 05/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 7675ae79cb1155919f95c7f2ff1d3d72628ab731
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1b828382f9f81d796fcfaef0e9c7dc9450a97992
+ms.sourcegitcommit: 2bbc0eeca6826c529fb729b82d16f287c1ce05bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561659"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1591539"
 ---
 # <a name="videos-for-finance-and-operations"></a>Vídeos do Finance and Operations
 
@@ -61,8 +61,9 @@ Os vídeos são listados por recurso, então deslize para ver a lista completa d
 
 - [Localizar a versão do designer de relatórios](https://www.youtube.com/embed/icfA5Q3kp4w)
 - [Espaço de trabalho móvel de controle de custos](https://youtu.be/imsuTg8rUVk)
-- [Introdução à contabilização de custos](https://youtu.be/1pUDtJQZ8FU)
+- [Introdução à Contabilidade de custos](https://youtu.be/1pUDtJQZ8FU)
 - [Usar o Excel para análise de custos](https://youtu.be/-HKHYdClvx8)
+- [Experiência com despesas](https://youtu.be/Ocy-MsTvEE0)
 
 #### <a name="intelligence"></a>Inteligência
 
@@ -185,7 +186,7 @@ Os vídeos são listados por recurso, então deslize para ver a lista completa d
 - [Ferramentas de migração do AX 2009 (DYN306PAL2)](https://infopedia.eventbuilder.com/event?eventid=u3g7s0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Upgrade do AX 2012 para o Dynamics 365 for Operations (VIR817PAL2)](https://infopedia.eventbuilder.com/event?eventid=t9e9e5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Como atualizar para 7.2 (julho de 2017) de 7.0 (RTW)/7.1 (Versão 1611) (DYN338PAL2)](https://infopedia.eventbuilder.com/event?eventid=q0w9p0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [Instalação do Azure DevOps (VIR782PAL)](https://infopedia.eventbuilder.com/event?eventid=g9f8g1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Configuração do Azure DevOps (VIR782PAL)](https://infopedia.eventbuilder.com/event?eventid=g9f8g1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="warehouse-management"></a>Gerenciamento de depósito
 

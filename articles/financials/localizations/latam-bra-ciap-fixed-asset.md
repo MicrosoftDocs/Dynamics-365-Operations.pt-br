@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: v-gonode
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 3a74889ebd1e8da1aedd0e81f89d3870fc8e0bb2
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: e8a5f17c0819dde93436b0a0499c0180bfc41583
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538322"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1570066"
 ---
 # <a name="ciap-fixed-asset"></a>Registro do CIAP
 

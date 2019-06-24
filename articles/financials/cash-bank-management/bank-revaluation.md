@@ -3,7 +3,7 @@ title: Reavaliação de moeda estrangeira do banco
 description: Este tópico fornece uma visão geral do processo de reavaliação bancária de moeda estrangeira. Ele inclui informações sobre a configuração, a execução do processo, os cálculos do processo e a reversão das transações de reavaliação.
 author: mikefalkner
 manager: AnnBe
-ms.date: 04/16/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,17 +16,17 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 4ec9814a4a35a1b3ba7ba05a04b53e5b150f4a04
-ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
+ms.openlocfilehash: 353153a3a5cbcb27749f21582fcf83ac4f3a8f36
+ms.sourcegitcommit: 56ec43e459ba93f495bc76fed23d6737218ef37e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538623"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "1591751"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Reavaliação de moeda estrangeira do banco
 
 [!include [banner](../includes/banner.md)]
-[!include [preview-banner](../includes/preview-banner.md)]
+
 
 Este tópico fornece uma visão geral do processo de reavaliação bancária de moeda estrangeira. Ele explica como configurar e executar o processo e fornece informações sobre os cálculos do processo. Ele também explica a reversão das transações de reavaliação se a reversão for necessária.
 

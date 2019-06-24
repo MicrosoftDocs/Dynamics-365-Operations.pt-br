@@ -1,9 +1,9 @@
 ---
 title: Personalizar a experiência do usuário
 description: Este tópico explica como você pode personalizar o Microsoft Dynamics 365 for Finance and Operations.
-author: TLeforMicrosoft
+author: jasongre
 manager: AnnBe
-ms.date: 04/24/2019
+ms.date: 05/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,20 +15,19 @@ ms.search.scope: Core, Operations
 ms.custom: 62363
 ms.assetid: 57b445d7-3e9e-4228-8728-f63b9dbd77a3
 ms.search.region: Global
-ms.author: tlefor
+ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78c96c58b8c3331fcadb3e5c9b25dfef3b1b4cbc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 67ba1a95299de09c74e2fa2808cb63f61acf5862
+ms.sourcegitcommit: c576b81dc3c93c09fb08fb0ba0c19f417360c5ab
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1528835"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620005"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar a experiência do usuário
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Este tópico explica como você pode personalizar o Microsoft Dynamics 365 for Finance and Operations.
 
@@ -75,7 +74,7 @@ Algumas das alterações mais comuns e importantes a serem feitas em uma pagina 
 
 Além disso, para disponibilizar os tipos mais básicos de personalização explícita, clique com o botão direito em um elemento e selecione **Personalizar**. (Observe que nem todos os elementos na página podem ser personalizados.) Quando você usar esse método de personalização, aparecerá a janela de propriedades do elemento.
 
-[![Personalizando propriedades de um elemento](./media/personalization-element-properties.png)](./media/personalization-element-properties.png)
+![Personalização de propriedades de um elemento](./media/personalization-element-properties.png)
 
 Você pode usar a janela de propriedades para personalizar um elemento das seguintes maneiras:
 

@@ -3,7 +3,7 @@ title: Configurar estruturas de conta
 description: Este tópico fornece informações sobre estruturas de contas e dimensões financeiras.
 author: aprilolson
 manager: AnnBe
-ms.date: 05/21/2018
+ms.date: 06/03/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a0665f5aec2a0809ecb383c1d4adf4c2072c9569
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5fbd4b34d09b4ba8e1d34234c8e32268bba18778
+ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551990"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "1617287"
 ---
 # <a name="configure-account-structures"></a>Configurar estruturas de conta
 
@@ -70,6 +70,16 @@ A seção **Detalhes de valores permitidos** o orienta pelos critérios de cria�
 
 [![Permitir valores](./media/account.png)](./media/account.png) 
 
+Os valores permitidos serão padronizados em um diário ou página de entrada de distribuição contábil quando não houver outros valores possíveis para selecionar de acordo com a configuração da estrutura de conta.
+
+Veja um exemplo da **Estrutura de conta de lucros e perdas**.
+
+|Conta principal          | Unidade de negócios    |Departamento          | Centro de custos    |
+|----------------------|-----------|----------------------|-----------|
+|400000..999999 | 002 | 022 | 014 |
+
+Ao inserir um diário e selecionar uma conta no intervalo de lucros e perdas, a seleção da unidade de negócios "002" fará com que os valores 022 e 014 sejam o padrão no controle de conta. Tal comportamento também ocorrerá com a página de distribuição contábil. 
+
 ## <a name="more-than-7-criteria-needed"></a>Mais de 7 critérios necessários
 
 Se você tiver mais de 7 critérios que são necessários, você pode continuar adicionando-os na próxima linha. Você observará ao trabalhar na seção **Detalhes de valores permitidos** que os critérios **+Adicionar novo** não estão mais ativos depois que o sétimo critério for inserido. Isso ocorre devido a muitos fatores, como: 
@@ -79,8 +89,6 @@ Se você tiver mais de 7 critérios que são necessários, você pode continuar 
  - Usabilidade  
  
 Para continuar adicionando critérios adicionais, clique em **Duplicar no Segmento** e **Seção de valores permitidos**. Isso copiará os critérios para uma nova linha. Em seguida, você pode digitar ou modificar a seção **Detalhes de valores permitido**.
-
-(LINK PARA VÍDEO QUE SERÁ CRIADO)
 
 ## <a name="best-practices"></a>Práticas Recomendadas
 Ao configurar suas estruturas de conta há algumas práticas recomendadas que você pode seguir. Entretanto, esta é apenas uma orientação para uma discussão holística sobre sua empresa, plano de crescimento e plano de manutenção sejam consideradas como parte dessa discussão.

@@ -6,11 +6,11 @@
       href: get-started/whats-new.md
     - name: Recursos de visualização no Dynamics 365 for Retail 10.0.3
       href: get-started/whats-new-10-0-3.md
-    - name: Recursos de visualização no Dynamics 365 for Retail 10.0.2
+    - name: Novidades ou alterações no Dynamics 365 for Retail 10.0.2
       href: get-started/whats-new-10-0-2.md
     - name: Novidades ou alterações no Dynamics 365 for Retail 10.0.1
       href: get-started/whats-new-10-0-1.md
-    - name: Novidades e alterações no Dynamics 365 for Retail (abril de 2019)
+    - name: Novidades ou alterações no Dynamics 365 for Retail (abril de 2019)
       href: get-started/april-whats-new.md
     - name: Antes de comprar o Retail
       href: get-started/before-you-buy.md
@@ -49,14 +49,18 @@
       href: ../fin-and-ops/get-started/implement-multiple-projects-aad-tenant.md
     - name: Implementar projetos do Retail do Finance and Operations
       href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
-    - name: "Configurar novos ambientes, Azure DevOps e ramificações para projetos do\_Retail"
+    - name: 'Configurar novos ambientes, Azure DevOps e ramificações para projetos do Retail'
       href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
     - name: Atualizar código e ambientes para projetos do Retail
       href: dev-itpro/updating-environments.md
     - name: Problemas de teste e desempenho
       href: dev-itpro/retail-implementation-testing-performance.md
 - name: Gerenciamento de ordem distribuído (GOD)
-  href: dom.md
+  items:
+    - name: Visão geral do GOD
+      href: dom.md
+    - name: Configuração de custo
+      href: cost.md
 - name: Pagamentos
   items:
     - name: Formas de pagamento
@@ -67,6 +71,8 @@
       href: cash-denominations.md
     - name: Conector de Pagamento do Dynamics 365 para Adyen
       href: dev-itpro/adyen-connector.md
+    - name: Instrumentos de salvamento de pagamento online com o conector Adyen
+      href: dev-itpro/adyen-connector-listPI.md
     - name: Configurar cenários de pagamentos de fatura
       href: payinvoice.md
     - name: Perguntas frequentes sobre pagamentos
@@ -95,7 +101,9 @@
       href: tasks/create-calculate-post-statement-retail-store.md
     - name: Aprimoramentos na funcionalidade de lançamento de demonstrativos
       href: statement-posting-EOD.md
-    - name: Configurar os parâmetros do Retail que afetam demonstrativos de varejo
+    - name: Manuseio aprimorado de itens de lote rastreados
+      href: batch.md
+    - name: Configurar os Parâmetros de varejo que afetam demonstrativos de varejo
       href: tasks/parameter-configurations-retail-statements.md
     - name: Definir configurações de método de pagamento que afetam demonstrativos de varejo
       href: tasks/payment-configurations-retail-statements.md
@@ -115,7 +123,9 @@
       href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md
     - name: Opções de cálculo do valor total e do intervalo para códigos de impostos
       href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
-- name: Encargos automáticos avançados de omni-channel
+- name: Visão geral de pagamentos de omnicanal
+  href: omni-channel-payments.md
+- name: Encargos automáticos avançados de omnicanal
   items:
     - name: Configurar e usar encargos automáticos avançados
       href: omni-auto-charges.md
@@ -159,12 +169,14 @@
       href: MPOS-or-CPOS.md
     - name: Operações de PDV online e offline
       href: pos-operations.md
-    - name: Ativação de dispositivo de um Retail Modern POS personalizado
+    - name: Ativação de dispositivo de um Retail MPOS personalizado
       href: dev-itpro/retail-POS-activation-changes.md
     - name: Layouts de tela de dados de demonstração em MPOS e PDV em Nuvem
       href: demo-data.md
     - name: Pesquisa de produtos e clientes no PDV
       href: POS-search-improvements.md
+    - name: Aprimoramentos no gerenciamento de pagamento à vista
+      href: cash-mgmt.md
     - name: Pesquisa de estoque no PDV
       href: product-variants-POS.md
     - name: Suspender e retomar transações no PDV
@@ -594,17 +606,17 @@
       items:
         - name: Arquitetura e configuração do CRT
           href: dev-itpro/commerce-runtime-overview.md
-        - name: Serviços CRT
+        - name: Serviços do CRT
           href: dev-itpro/crt-services.md
-        - name: Extensibilidade do CRT e do Retail Server
+        - name: CRT e extensibilidade do Retail Server
           href: dev-itpro/commerce-runtime-extensibility.md
-        - name: ​Adicionar dados preferenciais do cliente a bancos de dados de canal​
+        - name: Adicionar dados preferenciais do cliente a bancos de dados de canal
           href: dev-itpro/add-customer-preference-channel.md
         - name: Adicionar propriedades a ordens de venda
           href: dev-itpro/add-properties-sales-order.md
         - name: Extensibilidade e disparadores do CRT
           href: dev-itpro/commerce-runtime-extensibility-trigger.md
-        - name: Bloquear transações usando disparadores
+        - name: Bloquear transações usando gatilhos
           href: dev-itpro/trigger-example-blocking-transaction.md
         - name: Implementar uma política de devolução usando disparadores
           href: dev-itpro/trigger-example-return-policy.md

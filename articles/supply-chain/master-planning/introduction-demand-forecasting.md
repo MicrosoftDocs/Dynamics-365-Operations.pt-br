@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a645ee6f7e6085abc6e872d490b078f512c15aa1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b71fde2d1b56b237dec2a08d3bd27e8ba6c35fef
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552360"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595537"
 ---
 # <a name="demand-forecasting-overview"></a>Visão geral da previsão de demanda
 
@@ -52,7 +52,7 @@ Os três temas principais são implementados na previsão de demanda:
     -   Você pode baixar experimentos de previsão de demanda do Finance and Operations, alterá-los para atender às suas necessidades de negócios, publicá-los como um serviço Web no Azure e usá-los para gerar previsões de demanda. Os experimentos estarão disponíveis para download se você tiver adquirido uma assinatura do Finance and Operations para um planejador de produção como usuário em nível empresarial.
     -   Você pode baixar qualquer experimento de previsão de demanda atualmente disponível na [Galeria de Análise da Cortana](https://gallery.cortanaanalytics.com/). Desde que os experimentos de previsão de demanda do Finance and Operations sejam automaticamente integrados ao Finance and Operations, os clientes e parceiros devem tratar a integração dos experimentos baixados da [Galeria de Análise da Cortana](https://gallery.cortanaanalytics.com/). Portanto, os experimentos da [Galeria de Análise da Cortana](https://gallery.cortanaanalytics.com/) não são tão simples de usar quanto os experimentos de previsão de demanda do Finance and Operations. Você deve modificar o código dos experimentos de modo que eles usem a API (interface de programação de aplicativo) do Finance and Operations.
     -   Você pode criar seus próprios experimentos no Machine Learning Studio do Microsoft Azure , publicá-los como serviços no Azure e usá-los para gerar previsões de demanda.
-    -   Se você não precisar de alto desempenho ou que uma grande quantidade de dados seja processada, use a camada gratuita do Aprendizado de Máquina. É recomendável que você sempre comece nessa camada, especialmente durante as fases de implementação e de teste. Se você precisar de desempenho mais alto e de armazenamento adicional, poderá usar a camada padrão do Aprendizado de Máquina. Essa camada requer uma assinatura do Azure e envolve custos adicionais. Para obter detalhes sobre os preços do Aprendizado de Máquina, consulte <http://aka.ms/machine-learning-price-info>.
+    -   Se você não precisar de alto desempenho ou que uma grande quantidade de dados seja processada, use a camada gratuita do Aprendizado de Máquina. É recomendável que você sempre comece nessa camada, especialmente durante as fases de implementação e de teste. Se você precisar de desempenho mais alto e de armazenamento adicional, poderá usar a camada padrão do Aprendizado de Máquina. Essa camada requer uma assinatura do Azure e envolve custos adicionais. Para obter detalhes sobre os preços do Aprendizado de Máquina, consulte [Definição de preços do Machine Learning Studio](https://aka.ms/machine-learning-price-info).
 -   **Redução de previsão em qualquer ponto de dissociação** – A previsão de demanda no Finance and Operations baseia-se nessa funcionalidade, que permite prever a demanda dependente e independente em qualquer ponto de dissociação.
 
 ## <a name="basic-flow-in-demand-forecasting"></a>Fluxo básico da previsão de demanda

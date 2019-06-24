@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcae89489f393d36948c564c799d9a23a50dad9c
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3d5769e87c758e002467e78aa52f71332d567b71
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538284"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1556232"
 ---
 # <a name="issue-icms-tax-credit-fiscal-documents-brazil"></a>Emitir notas fiscais de crédito de imposto ICMS (Brasil)
 

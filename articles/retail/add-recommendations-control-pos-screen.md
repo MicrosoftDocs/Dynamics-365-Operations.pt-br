@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 213b47422a5e31c2cfc2d173b8c7d9efdecc7568
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f17da3db6fbc19548544a0c6c090a0b6db093673
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1573363"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606840"
 ---
 # <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Adicionar um controle de recomendações à tela de transação em dispositivos do PDV
 
@@ -40,13 +40,13 @@ Você pode exibir recomendações de produto no dispositivo do PDV ao usar o Mic
 ## <a name="open-layout-designer"></a>Abrir o designer do layout
 
 1. Vá para **Varejo** &gt; **Configuração do canal** &gt; **Configuração do PDV** &gt; **PDV** &gt; **Layouts da tela**.
-2. Use o Filtro Rápido para localizar a tela à qual você deseja adicionar o controle. Por exemplo, filtre o campo **ID do layout da tela** usando um valor de 'F2CP16:9M'.
-3. Na lista, localize e selecione o registro desejado. Por exemplo, selecione 'Nome: F2CP16:9M ID do layout da tela: F2CP16:9M'.
+2. Use o Filtro Rápido para localizar a tela à qual você deseja adicionar o controle. Por exemplo, filtre o campo **ID do layout da tela** usando um valor de **F2CP16:9M**.
+3. Na lista, localize e selecione o registro desejado. Por exemplo, selecione **Nome: F2CP16:9M ID do layout da tela: F2CP16:9M**.
 4. Clique em **Designer de layout**.
 5. Acompanhe os avisos para iniciar o designer do layout. Quando credenciais forem solicitadas, insira as mesmas credenciais usadas quando o designer do layout foi iniciado na página **Layouts da tela**.
 6. Ao entrar, uma página semelhante à abaixo aparecerá. O layout será diferente dependendo as personalizações feitas para o armazenamento.
 
-    [![screenlayout-pic-1](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+    [![Designer de layout](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>Escolher um opção de exibição
 
@@ -59,11 +59,11 @@ Há duas opções de configurações disponíveis. Escolha a opção que funcion
 
 1. Reduza a altura da área de detalhes das linhas de transação para que ela tenha a mesma altura do painel do cliente à esquerda.
 
-    [![screenlayout-pic-2](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+    [![Altura da área de detalhes das linhas de transação reduzida](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. No menu à esquerda, arraste e solte o controle de recomendações entre a área de detalhes de linhas de transação e a grade de botões na parte inferior do centro da tela de transação. Redimensione o controle para que ele caiba no espaço.
 
-    [![screenlayout-pic-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+    [![Controle de recomendações adicionado ao layout](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 3. Clique no **X** para salvar e sair do designer do layout.
 4. No Dynamics 365 for Retail, vá para **Varejo** &gt; **TI de Varejo** &gt; **Agendas de distribuição**.
@@ -75,13 +75,13 @@ Há duas opções de configurações disponíveis. Escolha a opção que funcion
 1. Clique com o botão direito no espaço vazio abaixo da última guia na grade de botões localizada no lado direito da página.
 2. Clique em **Personalizar**.
 
-    [![pic-5](./media/pic-5.png)](./media/pic-5.png)
+    [![Personalização - Caixa de diálogo Controle de guias](./media/pic-5.png)](./media/pic-5.png)
 
 3. Clique em **Nova guia**.
 4. Localize a nova guia que você acabou de adicionar. Talvez você precise rolar para baixo.
 5. No menu suspenso **Conteúdos**, selecione **Produtos recomendados**.
 
-    [![pic-6](./media/pic-6.png)](./media/pic-6.png)
+    [![Seleção de produtos recomendados no campo Conteúdo](./media/pic-6.png)](./media/pic-6.png)
 
 6. No campo **Etiqueta**, digite um nome para a guia das recomendações. Por exemplo, digite 'Produtos recomendados'.
 7. No campo **Imagem**, selecione a imagem que aparecerá na guia.

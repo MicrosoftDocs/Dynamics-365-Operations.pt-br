@@ -16,12 +16,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 97201e419eff65ce1821e544bb4d7519c7305a40
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 35e04ddbacd53d90617f1e4cb1803e86cdfada5f
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1516941"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595564"
 ---
 # <a name="sped-reinf-tax-statement-brazil"></a>Declaração de imposto do SPED-Reinf (Brasil)
 
@@ -90,7 +90,7 @@ Antes de entregar eventos do SPED-Reinf ao site do governo, use a configuração
 
 Para configurar a funcionalidade Mensagens eletrônicas para comunicações de eventos do SPED-Reinf, use a configuração predefinida disponível no LCS.
 
-1.  Ir para http://lcs.dynamics.com.
+1.  Ir para <https://lcs.dynamics.com>.
 
 2.  Entre.
 
@@ -163,7 +163,7 @@ Certificados confiáveis devem ser configurados e usados pelo Microsoft Dynamics
 
 No Finance and Operations, você deve registrar o certificado do Key Vault no Microsoft Azure.
 
-Para obter informações sobre como configurar um cliente do Key Vault, consulte [Configuração do Cliente do Azure Key Vault](https://support.microsoft.com/en-us/help/4040305).
+Para obter informações sobre como configurar um cliente do Key Vault, consulte [Configuração do Cliente do Azure Key Vault](https://support.microsoft.com/help/4040305).
 
 1.  Vá para **Administração do sistema \> Configuração \> Parâmetros do Key Vault**.
 
@@ -222,7 +222,8 @@ Vá para **Imposto \> Configuração \> Mensagens eletrônicas \> Configuraçõe
 
 ![Webservices-settings](media/bra-web-service-settings.png)
 
-Observação: nas configurações do **SPED Reinf assíncrono**, inclua o endereço do serviço Web para consultar o evento R-5011.
+> [!NOTE]
+> Nas configurações do **SPED Reinf assíncrono**, inclua o endereço do serviço Web para consultar o evento R-5011.
 
 ### <a name="set-up-service-types"></a>**Configurar tipos de serviço**
 
@@ -258,7 +259,8 @@ Vá para **Livros fiscais \> Configuração \> Parâmetros de livros fiscais** e
 
 ![Fiscal-books-parameters](media/bra-sped-fiscal-books-parameters.png)
 
-**Observação**: se as sequências numéricas não tiverem sido inicializadas durante a lista de verificação da configuração para a instalação de KB, você poderá gerá-las usando um assistente. Para iniciar o assistente, vá para **Administração da organização \> Sequências numéricas \> Sequências numéricas** e selecione **Gerar**. Assim você poderá configurar a sequência numérica relacionada.
+> [!NOTE]
+> Se as sequências numéricas não tiverem sido inicializadas durante a lista de verificação da configuração para a instalação de KB, você poderá gerá-las usando um assistente. Para iniciar o assistente, vá para **Administração da organização \> Sequências numéricas \> Sequências numéricas** e selecione **Gerar**. Assim você poderá configurar a sequência numérica relacionada.
 
 -   **Área:** Livros fiscais
 
@@ -284,7 +286,8 @@ Cada evento transmitido tem um protocolo de recebimento. Para corrigir um evento
 
 A quantidade de tempo que os protocolos de recebimento são mantidos no banco de dados do governo não é definida. Portanto, como precaução, é importante que o contribuinte os guarde, pois eles comprovam que a obrigação tributária acessória foi entregue e cumprida.
 
-Observação: o protocolo de entrega consiste em informações transitórias que comprovam que o evento foi transmitido e que a validação apropriada será processada. Ele não demonstra conformidade com a obrigação acessória.
+> [!NOTE]
+> O protocolo de entrega consiste em informações transitórias que comprovam que o evento foi transmitido e que a validação apropriada será processada. Ele não demonstra conformidade com a obrigação acessória.
 
 **Aditamento e correção**
 

@@ -3,7 +3,7 @@ title: Insights financeiros
 description: Os Insights Financeiros usam o Microsoft Power BI para reunir indicadores chave de desempenho (KPIs) financeiros, gráficos e demonstrativos financeiros.
 author: kweekley
 manager: AnnBe
-ms.date: 08/14/2018
+ms.date: 05/22/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 2c261d2aea66b578bc976a66b6184384f0a5bf5d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9edcb192d2fac5acb954d8b87be691f0943e0db7
+ms.sourcegitcommit: 23ab3c99d05869ea2c73514754608e8684697d8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554083"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595067"
 ---
 # <a name="financial-insights"></a>Insights financeiros
 
@@ -67,10 +67,9 @@ Os dados de **Insights financeiros** são recebidos do repositório de entidades
 
 Você deve atualizar as seguintes entidades para ver os dados nos espaços e trabalho **Insights financeiros** e **Visão geral de CFO**:
 
+- Dados de transação de relatório financeiro versão 2 (**Observação:** trata-se de algo novo a versão 10.0.1 e substitui a entidade anterior.)
+- Dados de transação de relatórios financeiros
 - CustCollectionsBIMeasurements
-- FinancialReportingOtherData
-- FinancialReportingReferenceData
-- FinancialReportingTransactionData
 - LedgerCovLiquidityMeasurement
 - Cubo de Compras
 - Cubo de Vendas

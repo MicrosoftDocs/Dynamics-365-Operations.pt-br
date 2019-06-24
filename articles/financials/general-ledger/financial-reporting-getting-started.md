@@ -3,7 +3,7 @@ title: Relatórios financeiros
 description: Este tópico descreve onde acessar relatórios financeiros no Microsoft Dynamics 365 for Finance and Operations e como usar os recursos de relatório financeiro. Ele inclui uma descrição de relatórios financeiros padrão que são fornecidos.
 author: aprilolson
 manager: AnnBe
-ms.date: 09/26/2018
+ms.date: 05/22/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6d504a7b0640f45de4aa9f8fb60d2b1d37818bb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b8d3630e60fb2f1a8ca7e3610bbb4fcd32c17dec
+ms.sourcegitcommit: 06c8dc5bc4e1c41f68e1cda141d61529768be958
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550296"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594951"
 ---
 # <a name="financial-reporting"></a>Relatórios financeiros
 
@@ -64,7 +64,7 @@ As funções de relatórios financeiros estão disponíveis para os usuários qu
 
 | Rótulo do privilégio                       | Descrição                                                             | Nome de AOT                         |
 |---------------------------------------|-------------------------------------------------------------------------|----------------------------------|
-| Manter a segurança de relatórios financeiros | Manter a segurança de relatórios financeiros e executar tarefas administrativas. | FinancialReportsSecurityMaintain |
+| Manter a segurança de relatórios financeiros | Manter a segurança de relatórios financeiros e executar tarefas administrativas. | FinancialReportsSecuritySystemMaintain |
 | Manter relatórios financeiros            | Criar e manter relatórios financeiros.                                  | FinancialReportsMaintainReports  |
 | Gerar relatórios financeiros            | Gerar e atualizar relatórios financeiros.                                 | FinancialReportsGenerateReports  |
 | Exibir relatórios financeiros                | Exibir relatórios financeiros.                                                 | FinancialReportsView             |

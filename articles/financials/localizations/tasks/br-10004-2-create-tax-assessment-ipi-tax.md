@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f7cc2467c3fb5f6687bfb68d34827204b4d9a46
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 938a39fbc751660958526f85b4c1a0f86a3044d6
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538269"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1567190"
 ---
 # <a name="create-a-tax-assessment---ipi-tax-brazil"></a>Criar uma apuração de imposto - imposto IPI (Brasil)
 

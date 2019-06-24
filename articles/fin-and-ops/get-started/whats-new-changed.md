@@ -3,7 +3,7 @@ title: Novidades e alterações
 description: Essa página indica tópicos que podem ajudar você a conhecer os novos recursos das versões mais recentes do Microsoft Dynamics 365 for Finance and Operations.
 author: josaw1
 manager: AnnBe
-ms.date: 05/07/2019
+ms.date: 06/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 2b6884165c6f0811a649e8fd5db831260ed1508e
-ms.sourcegitcommit: 86d48d077589470bd1ea23b9c6fe01835088b6ae
+ms.openlocfilehash: bc13efe11f383157338ccd6b2ae378ee1f92a698
+ms.sourcegitcommit: bbc9aa0d6b94a942e1f4d5b038601509dcc87937
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "1538970"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1619183"
 ---
 # <a name="whats-new-or-changed"></a>Novidades ou alterações
 
@@ -53,6 +53,13 @@ Esta tabela lista as versões principais do aplicativo. Para obter as atualizaç
 <tbody>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>10.0.4</td>
+<td>10.0.136</td>
+<td>Julho de 2019</td>
+<td><a href="whats-new-changed-10-0-4.md">Exibição de recursos na versão 10.0.4 do Dynamics 365 for Finance and Operations (julho de 2019)</a></td>
+</tr>
+<tr>
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>10.0.3</td>
 <td>10.0.107</td>
 <td>2019 de junho</td>
@@ -62,7 +69,7 @@ Esta tabela lista as versões principais do aplicativo. Para obter as atualizaç
 <td>10.0.2</td>
 <td>10.0.80</td>
 <td>Maio de 2019</td>
-<td><a href="whats-new-changed-10-0-2.md">Exibição de recursos na versão 10.0.2 do Dynamics 365 for Finance and Operations (maio de 2019)</a></td>
+<td><a href="whats-new-changed-10-0-2.md">Novidades ou alterações no Dynamics 365 for Finance and Operations versão 10.0.2 (maio de 2019)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
@@ -166,6 +173,13 @@ Esta tabela lista as versões principais do aplicativo. Para obter as atualizaç
 <tbody>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>Update 28 para plataforma</td>
+<td>7.0.5314</td>
+<td>Julho de 2019</td>
+<td><a href="whats-new-platform-update-28.md">Exibição de recursos na atualização de plataforma 28 do Dynamics 365 for Finance and Operations (julho de 2019)</a></td>
+</tr>
+<tr>
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>Update 27 para plataforma</td>
 <td>7.0.5286</td>
 <td>2019 de junho</td>
@@ -175,7 +189,7 @@ Esta tabela lista as versões principais do aplicativo. Para obter as atualizaç
 <td>Update 26 para plataforma</td>
 <td>7.0.5257</td>
 <td>Maio de 2019</td>
-<td><a href="whats-new-platform-update-26.md">Exibição de recursos na atualização de plataforma 26 do Dynamics 365 for Finance and Operations (maio de 2019)</a></td>
+<td><a href="whats-new-platform-update-26.md">Novidades ou alterações na atualização 26 da plataforma do Dynamics 365 for Finance and Operations (maio de 2019)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>

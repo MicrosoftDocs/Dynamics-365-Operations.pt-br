@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 14f2c6eb3baf0de65de3b72e10b42b03a8c6b21a
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6e295456838ca0195a472518b5979dfdc7819f74
+ms.sourcegitcommit: 19859d8566a8c7840066b2c10c6b08b67f1b83f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1536701"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "1617964"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Processamento de produtos de peso variável com gerenciamento de depósito
 
 [!include [banner](../includes/banner.md)]
 
-[!include [preview banner](../includes/pivate-preview-banner.md)]
+[!include [banner](../includes/pivate-preview-banner.md)]
 
 
 ## <a name="feature-exposure"></a>Exposição de recurso
@@ -138,10 +138,6 @@ Nem todos os fluxos de trabalho dão suporte ao processamento de produtos de pes
 - A criação manual de ordens de quarentena não tem suporte para produtos de peso variável.
 - A movimentação manual de estoque relacionado ao trabalho não tem suporte para produtos de peso variável.
 - A consolidação de placas de licença não tem suporte para produtos de peso variável.
-- Não há suporte para alterações no status de estoque do depósito como parte de uma tarefa periódica para produtos de peso variável.
-- Não há suporte para alterações no status do estoque definidas por uma consulta para produtos de peso variável. (Também não há suporte para alterações no status do estoque da ordem de qualidade.)
-- Para produtos de peso variável, o status do estoque não pode ser alterado da página **Disponibilidade por localização**.
-- Para produtos de peso variável, o status do estoque não pode ser alterado como parte do trabalho de movimentação do app de depósito.
 - A carga da placa de licenças para inicializar o estoque de depósito não tem suporte para produtos de peso variável.
 - Processos de balanceamento de lote não têm suporte para produto de peso variável.
 - O manuseio de estoque físico negativo não tem suporte para produtos de peso variável.
@@ -151,7 +147,6 @@ Nem todos os fluxos de trabalho dão suporte ao processamento de produtos de pes
 
 - A funcionalidade de separação de cluster não tem suporte para produtos de peso variável.
 - O processamento do depósito de separação e embalagem não tem suporte para produtos de peso variável.
-- Para produtos de peso variável, o trabalho não pode ser concluído na página **Trabalho** .
 - Para produtos de peso variável, o trabalho definido em um modelo de trabalho pode ser executado automaticamente.
 - A funcionalidade de trabalho de reversão não tem suporte para produtos de peso variável.
 - Para produtos de peso variável, não há suporte para o processamento manual da estação de embalagem onde o trabalho é criado após o fechamento dos contêineres.
@@ -163,7 +158,7 @@ Nem todos os fluxos de trabalho dão suporte ao processamento de produtos de pes
 - A funcionalidade kanban não tem suporte para produtos de peso variável.
 - Para produtos de peso variável, não é possível registrar os números de série antes do consumo.
 - A funcionalidade de reversão de placas de licença não tem suporte para produtos de peso variável.
-- Para produtos de peso variável, é possível registrar por número de série os produtos relatados como concluídos.
+- Para produtos de peso variável, não é possível registrar por número de série os produtos relatados como concluídos.
 
 ### <a name="transportation-management-processing"></a>Processamento de gerenciamento de transporte
 

@@ -25,7 +25,7 @@
           href: dev-tools/configure-developer-vm.md
         - name: Criar novos usuários em computadores de desenvolvimento
           href: dev-tools/enable-development-machine.md
-        - name: VMs de desenvolvimento e compilação que não permitem Perguntas Frequentes de acesso do administrador
+        - name: Perguntas Frequentes sobre desenvolvimento e compilação de VMs que não permitem o acesso do administrador
           href: sysadmin/VMs-no-admin-access.md
         - name: Renomear ambientes locais para acessar o Azure DevOps
           href: migration-upgrade/vso-machine-renaming.md
@@ -227,9 +227,10 @@
             - name: Classes X
               href: dev-ref/x-classes.md
     - name: Extensibilidade
-      href: extensibility/extensibility-home-page.md
       items:
-        - name: Introdução
+        - name: Home page da extensibilidade
+          href: extensibility/extensibility-home-page.md
+        - name: Introdução e começar a usar
           items:
             - name: Plano de extensibilidade de aplicativo
               href: extensibility/extensibility-roadmap.md
@@ -239,42 +240,44 @@
               href: extensibility/app-sealing-faq.md
             - name: Migrar de sobreposições para extensões
               href: extensibility/migrate-overlayer-extension.md
-            - name: Personalizar elementos de modelo por meio de extensão (tutorial)
+            - name: Personalizar elementos do modelo por meio de extensão (tutorial)
               href: extensibility/customize-model-elements-extensions.md
             - name: Personalizar por meio de extensão e sobreposição
               href: extensibility/customization-overlayering-extensions.md
         - name: Novidades
           items:
-            - name: Alterações de extensibilidade em julho de 2017
-              href: extensibility/changes-july-2017.md
-            - name: Alterações de extensibilidade na versão 7.3
-              href: extensibility/extensibility-changes-73.md
-            - name: Alterações de extensibilidade na versão 8.0
-              href: extensibility/changes-80.md
-            - name: Alterações de extensibilidade na versão 8.0.1
-              href: extensibility/extensibility-changes-801.md
-            - name: Alterações de extensibilidade na versão 8.0.2
-              href: extensibility/extensibility-changes-802.md
-            - name: Alterações de extensibilidade na versão 8.0.3
-              href: extensibility/extensibility-changes-803.md
-            - name: Alterações de extensibilidade na versão 8.0.4
-              href: extensibility/extensibility-changes-804.md
-            - name: Alterações de extensibilidade na versão 8.1
-              href: extensibility/extensibility-changes-81.md
-            - name: Alterações de extensibilidade na versão 8.1.1
-              href: extensibility/extensibility-changes-811.md
-            - name: Alterações de extensibilidade na versão 8.1.2
-              href: extensibility/extensibility-changes-812.md
-            - name: Alterações de extensibilidade na versão 8.1.3
-              href: extensibility/extensibility-changes-813.md
-            - name: Alterações de extensibilidade na versão 10.0
-              href: extensibility/extensibility-changes-10.md
-            - name: Alterações de extensibilidade na versão 10.0.1
-              href: extensibility/extensibility-changes-10-1.md
-            - name: Alterações de extensibilidade na versão 10.0.2
-              href: extensibility/extensibility-changes-10-2.md
+            - name: Novidades ou alterações da extensibilidade
+              href: extensibility/extensibility-new.md
             - name: Alterações de extensibilidade na versão 10.0.3
               href: extensibility/extensibility-changes-10-3.md
+            - name: Alterações de extensibilidade na versão 10.0.2
+              href: extensibility/extensibility-changes-10-2.md
+            - name: Alterações de extensibilidade na versão 10.0.1
+              href: extensibility/extensibility-changes-10-1.md
+            - name: Alterações de extensibilidade na versão 10.0
+              href: extensibility/extensibility-changes-10.md
+            - name: Alterações de extensibilidade na versão 8.1.3
+              href: extensibility/extensibility-changes-813.md
+            - name: Alterações de extensibilidade na versão 8.1.2
+              href: extensibility/extensibility-changes-812.md
+            - name: Alterações de extensibilidade na versão 8.1.1
+              href: extensibility/extensibility-changes-811.md
+            - name: Alterações de extensibilidade na versão 8.1
+              href: extensibility/extensibility-changes-81.md
+            - name: Alterações de extensibilidade na versão 8.0.4
+              href: extensibility/extensibility-changes-804.md
+            - name: Alterações de extensibilidade na versão 8.0.3
+              href: extensibility/extensibility-changes-803.md
+            - name: Alterações de extensibilidade na versão 8.0.2
+              href: extensibility/extensibility-changes-802.md
+            - name: Alterações de extensibilidade na versão 8.0.1
+              href: extensibility/extensibility-changes-801.md
+            - name: Alterações de extensibilidade na versão 8.0
+              href: extensibility/changes-80.md
+            - name: Alterações de extensibilidade na versão 7.3
+              href: extensibility/extensibility-changes-73.md
+            - name: Alterações de extensibilidade em julho de 2017
+              href: extensibility/changes-july-2017.md
         - name: Conceitos básicos
           items:
             - name: Personalizações intrusivas
@@ -361,8 +364,14 @@
       items:
         - name: Fazer rastreamentos usando o Trace Parser
           href: perf-test/trace-trace-tutorial.md
-        - name: Testes de SDK de desempenho e de multiusuários pelo Visual Studio Online
-          href: perf-test/perfsdk-tutorial.md
+        - name: Teste de um único usuário com o Gravador de tarefas e o SDK de desempenho
+          href: perf-test/single-user-test-perf-sdk.md
+        - name: Teste de vários usuários com o SDK de desempenho e um controlador de teste local
+          href: perf-test/multi-user-testing-local-test-controller.md
+        - name: Teste de vários usuários com o SDK de desempenho e o Azure DevOps
+          href: perf-test/multi-user-testing-perfsdk-azuredevops.md
+        - name: Guia de solução de problemas de teste de um único usuário ou de vários usuários com o SDK de desempenho
+          href: perf-test/troubleshoot-perf-sdk-user-testing.md
         - name: Testes de SDK de desempenho e de multiusuários em ambientes locais
           href: perf-test/perfsdk-tutorial-lbd.md
         - name: Diagnosticar problemas e analisar o desempenho usando o Trace parser
@@ -922,6 +931,8 @@
           href: financial/create-exchange-rate-providers.md
         - name: Criar fornecedores de taxa de câmbio no Finance and Operations versão 8.0
           href: financial/create-exchange-rate-8.md
+    - name: 'Liquidar transações usando CustTrans::settleTransaction'
+      href: financial/settletransact-obsolete.md
 - name: Desenvolvimento de cadeia de fornecedores
   items:
     - name: Guia de desenvolvimento de controle
@@ -1071,16 +1082,16 @@
           href: migration-upgrade/ax2009-upgrade-export-package.md
         - name: Migração do AX 2009 – Importar pacotes
           href: migration-upgrade/ax2009-upgrade-import-package.md
-    - name: Migração e upgrade de códigos
+    - name: Migração e atualização de código
       href: migration-upgrade/code-migration-home-page.md
       items:
-        - name: Preparar-se para migrar o código
+        - name: Preparar para migrar o código
           href: migration-upgrade/prepare-migration.md
         - name: Configurar mapeamento do Azure DevOps
           href: migration-upgrade/configure-vso-solution.md
         - name: Divisão de modelos
           href: dev-tools/model-split.md
-        - name: ​Resolver dependências entre os modelos que usam delegados​
+        - name: Resolver dependências entre os modelos que usam delegados
           href: migration-upgrade/delegates-migration.md
     - name: Fazer upgrade para uma versão recente (nuvem)
       items:

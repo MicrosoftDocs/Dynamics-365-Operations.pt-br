@@ -3,7 +3,7 @@ title: Layouts de tela para o ponto de venda (PDV)
 description: Este tópico fornece informações sobre layouts de tela para experiências com o PDV (ponto de venda) do Microsoft Dynamics 365 for Retail.
 author: jblucher
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 05/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e9536563ce7ddfc4aef54ae05267316ea8139263
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549419"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1607025"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Layouts de tela para o ponto de venda (PDV)
 
@@ -51,6 +51,7 @@ Os perfis visuais são atribuídos às caixas registradoras e usados para especi
 - **Tema** – os usuários podem selecionar entre os temas de aplicativo Claro ou Escuro. O tema afetará as cores da fonte e o plano de fundo em todo o aplicativo.
 - **Cor de destaque** – a cor de destaque é usada em todo o PDV para diferenciar ou destacar elementos visuais específicos, como blocos, botões de comando e hyperlinks. Normalmente, esses elementos são acionáveis.
 - **Cor do cabeçalho** – você pode configurar a cor do cabeçalho da página para atender aos requisitos de identidade visual do varejista. Este recurso está disponível somente na versão 1611 do Microsoft Dynamics 365 for Retail.
+- **Mostrar data/hora** – Quando habilitado, a data e a hora atuais serão exibidas no cabeçalho do PDV.
 - **Segundo plano de logon** – você pode especificar uma imagem de plano de fundo para a tela de entrada. O tamanho do arquivo de imagens de plano de fundo deve ser o menor possível, pois armazenar e carregar arquivos grandes pode afetar o comportamento e o desempenho do aplicativo.
 - **Plano de fundo do aplicativo** – você pode especificar uma imagem de plano de fundo para ser usada no lugar da cor sólida do tema no aplicativo. Quanto ao segundo plano de logon, o tamanho do arquivo deve ser o menor possível.
 

@@ -44,9 +44,11 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Recursos não implementados em implantações locais
               href: get-started/features-not-implemented-on-prem.md
+            - name: Recursos de visualização no Finance and Operations versão 10.0.4 (julho de 2019)
+              href: get-started/whats-new-changed-10-0-4.md
             - name: Recursos de visualização no Finance and Operations versão 10.0.3 (junho de 2019)
               href: get-started/whats-new-changed-10-0-3.md
-            - name: Recursos de visualização no Finance and Operations versão 10.0.2 (maio de 2019)
+            - name: Finance and Operations versão 10.0.2 (maio de 2019)
               href: get-started/whats-new-changed-10-0-2.md
             - name: Finance and Operations versão 10.0.1 (abril de 2019)
               href: get-started/whats-new-changed-10-0-1.md
@@ -54,9 +56,11 @@
               href: get-started/whats-new-changed-10.md
             - name: Finance and Operations versão 8.1.3 (janeiro de 2019)
               href: get-started/whats-new-changed-8-1-3.md
+            - name: Recursos de visualização no Finance and Operations platform update 28 (julho de 2019)
+              href: get-started/whats-new-platform-update-28.md
             - name: Recursos de visualização no Finance and Operations platform update 27 (junho de 2019)
               href: get-started/whats-new-platform-update-27.md
-            - name: Recursos de visualização no Finance and Operations platform update 26 (maio de 2019)
+            - name: Platform update 26 (maio de 2019)
               href: get-started/whats-new-platform-update-26.md
             - name: Platform update 25 (abril de 2019)
               href: get-started/whats-new-platform-25.md
@@ -1261,6 +1265,8 @@
                   href: ../financials/public-sector/tasks/create-original-budget.md
                 - name: Criar um orçamento preliminar para o setor público
                   href: ../financials/public-sector/tasks/create-preliminary-budget-public-sector.md
+                - name: Relatório de análise do orçamento
+                  href: ../financials/public-sector/budget-analysis-report.md
                 - name: Análise de orçamento no setor público
                   href: ../financials/public-sector/budget-analysis-public-sector.md
                 - name: Divisões proporcionais e orçamentos preliminares no setor público
@@ -2277,6 +2283,7 @@
                   href: ../financials/localizations/rus-ledger-transactions-preview.md
                 - name: Configurar taxas de câmbio para transações em moeda
                   href: ../financials/localizations/rus-exchange-difference.md
+                - name: Importar taxas de câmbio do CBRF ../financials/general-ledger/import-currency-exchange-rates.md
             - name: Titulares avançados
               href: ../financials/localizations/rus-advance-holders.md
               items:
@@ -2632,13 +2639,12 @@
               items:
                 - name: ​Configurar folhas de pagamento para trabalhadores​
                   href: hr/localizations/noam-usa-worker-position-payroll-tasks.md
-                - name: ​Configurar ciclos de trabalho e períodos de trabalho​
+                - name: Configurar ciclos de trabalho e períodos de trabalho
                   href: hr/localizations/noam-usa-work-cycle-work-period-tasks.md
-                - name: 'Configurar planos de acúmulo de benefícios '
+                - name: Configurar planos de acúmulo de benefícios
                   href: hr/localizations/noam-usa-benefit-accrual-plan-tasks.md
                 - name: Configurar benefícios
                   href: hr/localizations/noam-usa-benefit-set-up-tasks.md
-            - name: Frequências e ciclos
             - name: Configurar ciclos de pagamento e períodos de pagamento
               href: hr/localizations/noam-usa-pay-cycle-pay-period-tasks-sample.md
             - name: Configurar frequências de cálculo da folha de pagamento
@@ -2922,6 +2928,8 @@
               href: ../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json
             - name: Analisar documentos de entrada no formato CSV
               href: ../dev-itpro/analytics/parse-incoming-electronic-documents-csv-format.md?toc=/fin-and-ops/toc.json
+            - name: Rastrear a execução de formatos de ER para solucionar problemas de desempenho
+              href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md
             - name: Dividir os arquivos XML gerados com base no tamanho do arquivo e na quantidade de conteúdo
               href: ../dev-itpro/analytics/er-split-files.md?toc=/fin-and-ops/toc.json
               items:
@@ -3873,10 +3881,14 @@
               href: ../financials/project-management/project-integration.md
         - name: Visão geral de aplicativos móveis do Project
           href: ../financials/project-management/project-mobile-application-overview.md
-        - name: Espaço de trabalho móvel de entrada de tempo do projeto
+        - name: Espaço de trabalho móvel de entrada de hora do projeto
           href: ../financials/project-management/project-time-entry-mobile-workspace.md
         - name: Aplicativo móvel de folha de ponto do projeto
           href: ../financials/project-management/project-timesheet.md
+        - name: Folhas de ponto do projeto em um dispositivo móvel
+          href: ../financials/project-management/mobile-timesheets.md
+        - name: Implementar campos personalizados do aplicativo móvel de folha de ponto do projeto
+          href: ../financials/project-management/custom-fields-mobile.md
     - name: Vendas e marketing
       href: ../supply-chain/sales-marketing/overview-sales-marketing.md
       items:

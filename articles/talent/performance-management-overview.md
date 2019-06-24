@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1954b691d84b0aa8710da621af21415c6c116539
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 05d8986d69abba4dbba7c30aad5a7e4626ceb5b1
+ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517329"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1590496"
 ---
 # <a name="performance-management"></a>Gerenciamento de desempenho
 
@@ -109,7 +109,7 @@ Você pode mostrar itens do diário de desempenho que estejam relacionados à re
 
 ### <a name="ratings"></a>Classificações
 
-Você pode aplicar uma classificação a qualquer meta ou competência que esteja na revisão. É possível definir os modelos de classificação para cada revisão. Os padrões para as classificações estão na página **Parâmetros de recursos humanos**, em **Desempenho**.
+Você pode aplicar uma classificação a qualquer meta ou competência que esteja na revisão. É possível definir os modelos de classificação para cada revisão. Os padrões para as classificações estão na página **Parâmetros compartilhados de recursos humanos**, em **Desempenho**.
 
 ### <a name="sign-offs"></a>Aprovações
 

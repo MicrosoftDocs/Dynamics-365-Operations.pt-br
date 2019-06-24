@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: eebb532071e7c6bae7cfae93bfe795e79bb16c63
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e327f652855f898e50f1dd853ae20f3a0ff41d9e
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564985"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606978"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Determinar a combinação ideal de sobreposição de descontos
 
@@ -42,11 +42,11 @@ Você pode criar um número ilimitado de descontos de varejo no conjunto comum d
 
 Neste exemplo, dois produtos são necessários para qualificar-se para cada desconto e os descontos não podem ser combinados. Os descontos no exemplo são descontos **Melhor preço**. Os produtos se qualificam para os dois descontos. Veja os dois descontos.
 
-![Combo 01 de sobreposição de descontos](./media/overlapping-discount-combo-01.jpg)
+![Exemplo de dois descontos Melhor preço](./media/overlapping-discount-combo-01.jpg)
 
 Para dois produtos quaisquer, o melhor desses dois descontos depende do preço dos dois produtos. Quando o preço dos produtos é igual ou quase igual, desconto 1 é melhor. Quando o preço de um produto é significativamente menor que o preço de outros produtos, desconto 2 é melhor. Esta é a regra matemática para avaliar esses dois descontos entre si.
 
-![Combo 02 de sobreposição de descontos](./media/overlapping-discount-combo-02.jpg)
+![Regra de avaliação dos descontos](./media/overlapping-discount-combo-02.jpg)
 
 > [!NOTE]
 > Quando o preço do produto 1 é igual a dois terços do preço do produto 2, os dois descontos são iguais. Neste exemplo, a porcentagem de desconto em vigor para desconto 1 varia de uma porcentagem menor (quando os preços dos produtos forem afastados) a um máximo de 25% (quando os dois projetos tiverem o mesmo preço). A porcentagem de desconto em vigor para desconto 2 é fixa. É sempre 20%. Como a porcentagem de desconto em vigor para desconto 1 tem um intervalo que pode ser maior ou menor do que de desconto 2, o melhor desconto depende de preços dos produtos a serem descontados. Neste exemplo, o cálculo é concluído rapidamente, pois apenas dois descontos são aplicados em apenas dois produtos. Há somente duas combinações possíveis: uma aplicação de desconto 1 ou uma aplicação de desconto 2. Não há permutações para cálculo. O valor da cada desconto é calculado usando ambos produtos e o melhor desconto é usado.
@@ -60,11 +60,11 @@ Em seguida, usaremos quatro produtos e os mesmos dois descontos. Todos os quatro
 
 Para ler as tabelas, use um produto de uma linha e um produto de uma coluna. Por exemplo, na tabela do desconto 1, quando você combina os dois produtos de US$ 20, você receberá US$ 10 de desconto. Na tabela do desconto 2, quando você combina o produto de US$ 15 e o de US$ 5, você receberá US$ 4 de desconto.
 
-![Combo 03 de sobreposição de descontos](./media/overlapping-discount-combo-03.jpg)
+![Exemplo que usa quatro produtos para os mesmos dois descontos](./media/overlapping-discount-combo-03.jpg)
 
 Primeiro, encontramos o maior desconto disponível de quaisquer dois produtos usando qualquer desconto. As duas tabelas mostram o valor de desconto de todas as combinações dos produtos. As partes protegidas das tabelas representam um dos casos em que um produto é emparelhado com ele mesmo, o que não podemos fazer, ou um emparelhamento reverso de dois produtos que produz o mesmo valor de desconto e pode ser ignorado. Olhando as tabelas, é possível ver que o desconto 1 para os dois itens de US$ 20 é o maior desconto disponível dos dois descontos em todos os quatro produtos. (Esse desconto é realçado em verde na primeira tabela.) Isso deixa apenas o produto de US$ 15 e o de US$ 5. Olhando as duas tabelas novamente, você pode ver que, para esses dois produtos, o desconto 1 oferece um desconto de US$ 2,50, enquanto o desconto 2 oferece um desconto de US$ 4. Portanto, selecionamos o desconto 2. O desconto total é de US$ 14. Para facilitar a visualização dessa discrepância, veja duas tabelas adicionais que mostram o a porcentagem de desconto em vigor para todas as combinações de dois produtos possíveis para os descontos 1 e 2. Somente metade da lista de combinações é incluída, pois, para esses dois descontos, a ordem na qual os dois produtos são colocados no desconto não importa. O desconto mais alto em vigor (25%) é destacado em verde, e o desconto em vigor inferior (10%) é destacado em vermelho.
 
-![Combo 04 de sobreposição de descontos](./media/overlapping-discount-combo-04.jpg)
+![Percentual de desconto em vigor para todas as combinações de dois produtos para ambos os descontos](./media/overlapping-discount-combo-04.jpg)
 
 > [!NOTE]
 > Quando os preços variam e dois ou mais descontos competem, a única maneira de garantir a melhor combinação de descontos é avaliar os dois descontos e compará-los.
@@ -73,7 +73,7 @@ Primeiro, encontramos o maior desconto disponível de quaisquer dois produtos us
 
 Esta seção continua o exemplo da seção anterior. Nós adicionaremos mais produtos e outro desconto, e veremos quantas combinações devem ser calculadas e comparadas. A tabela a seguir mostra o número de combinações de desconto possíveis conforme a quantidade de produto aumenta. A tabela mostra o que acontece em ambos quando houver dois descontos se sobrepondo, como no exemplo anterior, e quando há três descontos se sobrepondo. O número de combinações possíveis de descontos que devem ser avaliados logo excede o que até um computador rápido pode calcular e compara rápido o suficiente aceitável para transações de varejo.
 
-![Combo 05 de sobreposição de descontos](./media/overlapping-discount-combo-05.jpg)
+![Número de combinações de desconto possíveis conforme a quantidade de produto aumenta.](./media/overlapping-discount-combo-05.jpg)
 
 Quando quantidades ainda maiores ou descontos mais sobrepostos são aplicados, o número total de combinações de desconto possível rapidamente entra na casa dos milhões, e o tempo necessário para avaliar e selecionar a melhor combinação possível rapidamente torna-se notória. Algumas otimizações foram feitas no mecanismo de preço de varejo para reduzir o número total de combinações que devem ser avaliadas. Porém, como o número de descontos sobrepostos e as quantidades em uma transação não são limitados, um número maior de combinações sempre precisará ser avaliado toda vez que houver descontos sobrepostos. Esse problema é o problema que o método de avaliação de valor marginal aborda.
 
@@ -81,6 +81,6 @@ Quando quantidades ainda maiores ou descontos mais sobrepostos são aplicados, o
 
 Para resolver o problema de um número exponencialmente elevado de combinações que devem ser avaliadas, uma otimização existe, que calcula o valor por produto compartilhado de cada desconto no grupo de produtos que dois ou mais descontos pode ser aplicado. Nos referimos a este valor como **valor marginal** do desconto para os produtos compartilhados. O valor marginal é o aumento médio por produto no valor de desconto total quando os produtos compartilhados são incluídos em cada desconto. O valor marginal é calculado pegando o valor de desconto total (DTotal), subtraindo o valor de desconto sem os produtos compartilhados (DMenos\\ Compartilhado) e dividindo a diferença pelo número de produtos compartilhados (ProductsShared).
 
-![Combo 06 de sobreposição de descontos](./media/overlapping-discount-combo-06.jpg)
+![Fórmula para calcular o valor marginal](./media/overlapping-discount-combo-06.jpg)
 
 Após o valor marginal de cada desconto em um grupo compartilhado de produtos ser calculado, os descontos são aplicados aos produtos compartilhados na ordem do valor marginal maior para o menor. Para este método, todas as possibilidades restantes de desconto não são comparadas sempre depois que uma única instância de um desconto é aplicada. Em vez disso, os descontos sobrepostos são comparados uma vez e depois aplicados em ordem. Nenhuma comparação adicional é feita. Você pode configurar o limite para trocar para o método de valor marginal na guia **Desconto** da página **Parâmetros de varejo**. O tempo aceitável para calcular o desconto total varia entre as indústrias de varejo. Porém, esse tempo geralmente cai na variação de diversos milissegundos a um segundo.

@@ -3,7 +3,7 @@ title: Verificador de consistência das transações de varejo
 description: Este tópico descreve a funcionalidade do verificador de consistência das transações de varejo no Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 01/08/2019
+ms.date: 05/30/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 972c4d6b244eebc85cc801353ce8fb25ecbc0655
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 1fc894206f9d90fce1e2eab292ac241e9d943e23
+ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517000"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "1617311"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Verificador de consistência das transações de varejo
 
@@ -33,27 +33,38 @@ ms.locfileid: "1517000"
 
 Este tópico descreve a funcionalidade do verificador de consistência das transações de varejo introduzido no Microsoft Dynamics 365 for Finance and Operations versão 8.1.3. O verificador de consistência identifica e isola as transações inconsistentes antes que elas sejam coletadas pelo processo de lançamento de demonstrativo.
 
-Quando um demonstrativo é lançado no Retail, o lançamento pode falhar devido a dados inconsistentes nas tabelas de transações de varejo. O problema nos dados pode ser causado por imprevistos no aplicativo de ponto de venda (PDV) ou pela importação incorreta das transações de sistemas POS de terceiros. Exemplos de como essas inconsistências podem ser exibidas: 
+Quando um demonstrativo é lançado no Microsoft Dynamics 365 for Retail, pode haver falha no lançamento devido a dados inconsistentes nas tabelas de transações de varejo. O problema nos dados pode ser causado por imprevistos no aplicativo de ponto de venda (PDV) ou pela importação incorreta das transações de sistemas POS de terceiros. Exemplos de como essas inconsistências podem ser exibidas: 
 
-  - O total da transação na tabela do cabeçalho não corresponde ao total da transação nas linhas.
-  - A contagem de linhas na tabela do cabeçalho não corresponde ao número de linhas na tabela de transações.
-  - Os impostos na tabela do cabeçalho não correspondem ao valor do imposto nas linhas. 
-  
+- O total da transação na tabela do cabeçalho não corresponde ao total da transação nas linhas.
+- A contagem de linhas na tabela do cabeçalho não corresponde ao número de linhas na tabela de transações.
+- Os impostos na tabela do cabeçalho não correspondem ao valor do imposto nas linhas. 
+
 Quando transações inconsistentes são coletadas pelo processo de lançamento de demonstrativo, diários de pagamentos e faturas de vendas inconsistentes são criados e, consequentemente, o processo inteiro falha. Recuperar os demonstrativos desse estado envolve correções complexas de dados em várias tabelas de transações. O verificador de consistência das transações de varejo evita esses problemas.
 
 O gráfico a seguir ilustra o processo de lançamento com o verificador de consistência das transações.
 
 ![Processo de lançamento de demonstrativo com o verificador de consistência das transações de varejo](./media/validchecker.png "Processo de lançamento de demonstrativo com o verificador de consistência das transações de varejo")
 
-O processo em lote **Validar transações de loja** verifica a consistência das tabelas de transações de varejo para os seguintes cenários.
+O processo em lote **Validar transações de loja** verifica a consistência das tabelas de transações de varejo para os cenários a seguir.
 
-- Conta de cliente – valida que a conta de cliente nas tabelas de transações de varejo existe no cliente mestre da sede.
-- Contagem de linhas – valida que o número de linhas, como capturado na tabela do cabeçalho de transações, corresponde ao número de linhas nas tabelas de transações de vendas.
+- **Conta de cliente** — valida se a conta de cliente nas tabelas de transações de varejo existe no cliente mestre da matriz.
+- **Contagem de linhas** — valida se o número de linhas, como capturado na tabela de cabeçalho de transações, corresponde ao número de linhas nas tabelas de transações de vendas.
+- **Preço incluindo imposto** — valida se o parâmetro **Preço incluindo imposto** é consistente nas linhas de transação.
+- **Valor bruto** — valida se o valor bruto no cabeçalho é a soma dos valores líquidos nas linhas mais o valor do imposto.
+- **Valor líquido** — valida se o valor líquido no cabeçalho é a soma dos valores líquidos nas linhas mais o valor do imposto.
+- **Pagamento a maior/a menor** — valida se a diferença entre o valor bruto no cabeçalho e o valor do pagamento não excede a configuração de pagamento maior/a menor máximo.
+- **Valor de desconto** — valida se o valor de desconto nas tabelas do desconto e o valor de desconto na linha das tabelas de transações são consistentes, e se o valor de desconto no cabeçalho é a soma dos valores dos descontos nas linhas.
+- **Desconto de linha** — valida se o desconto de linha na linha de transação é a soma de todas as linhas na tabela de desconto que corresponde à linha de transação.
+- **Item do cartão-presente** — o Retail não oferece suporte à devolução de itens do cartão-presente. No entanto, o saldo em um cartão-presente pode ser resgatado. Haverá falha no processo de lançamento de demonstrativo em qualquer item de cartão-presente que seja processado como uma linha de devolução em vez de uma linha de resgate. O processo de validação de itens de cartão-presente ajuda a garantir que somente os itens de cartão-presente devolvidos nas tabelas de transações de varejo sejam linhas de resgate de cartão-presente.
+- **Preço negativo** — valida se não há nenhum preço negativo nas linhas de transação.
+- **Item e grade** — valida se os itens e as grades nas linhas de transação existem no item e no arquivo mestre da grade.
 
 ## <a name="set-up-the-consistency-checker"></a>Configurar o verificador de consistência
+
 Configure o processo em lote "Validar transações de loja" em **Varejo \> TI de Varejo \> Lançamento do PDV** para execuções periódicas. O trabalho em lotes pode ser agendado com base na hierarquia da organização da loja, semelhante a como os processos "Calcular demonstrativos em lote" e "Lançar demonstrativos em lote" são configurados. É recomendável configurar esse processo em lote para ser executado várias vezes em um dia e agendá-lo de forma que isso ocorra ao final de cada execução de trabalho P.
 
 ## <a name="results-of-validation-process"></a>Resultados do processo de validação
+
 Os resultados da verificação de validação pelo processo em lote são marcados na transação de varejo apropriada. O campo **Status de validação** do registro de transação de varejo é definido como **Êxito** ou **Erro** e a data da última execução de validação aparece no campo **Hora da última validação**.
 
 Para exibir um texto de erro mais descritivo referente a uma falha de validação, selecione o registro de transação de loja de varejo relevante e clique no botão **Erros de validação**.

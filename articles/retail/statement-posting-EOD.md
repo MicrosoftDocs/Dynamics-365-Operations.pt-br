@@ -16,16 +16,16 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 02880edda6c34c24f8dad8cc8cbeafe215f46896
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8c22137ad29bf947bc7a9e4c9a4d1332e03b1298
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "1541282"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606955"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Aprimoramentos na funcionalidade de postagem de demonstrativo
 
-[!include[banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Este tópico descreve o primeiro conjunto das melhorias feitas no recurso de postagem do demonstrativo. As melhorias estão disponíveis no Microsoft Dynamics 365 for Finance and Operations 7.3.2.
 
@@ -58,10 +58,10 @@ Como parte das melhorias ao recurso de lançamento do demonstrativo, os três pa
 
 Além disso, os parâmetros a seguir foram introduzidos na Guia Rápida **Processamento de lote** na guia **Postagem** da página **Parâmetros de varejo**: 
 
-- **Número máximo de lançamentos paralelos de demonstrativos** - Esse campo define o número de tarefas de lote que serão usados para postar múltiplos demonstrativos. 
-- **Thread máximo para processamento de pedido por demonstrativo** - Esse campo representa o número máximo de threads usado por um trabalho de lote de postagem de demonstrativo para criar e faturar ordens de venda para um único demonstrativo. O número total de threads que serão usados pelo processo de postagem de demonstrativo serão computador com base no valor nesse parâmetro multiplicado pelo valor no parâmetro **Número máximo de lançamentos paralelos de demonstrativos**. Definir o valor desse parâmetro muito alto pode afetar negativamente o desempenho do processo de postagem do demonstrativo.
-- **Linhas de transação máxima incluída na agregação** - Esse campo define o número de linhas de transação que serão incluídas em uma única transação agregada antes de uma nova ser criada. As transações agregadas são criadas com base em critérios de agregação diferentes como cliente, data do negócio ou dimensões financeiras. É importante observar que as linhas de uma única transação de varejo não serão divididas entre transações agregadas diferentes. Isso significa que há uma possibilidade de que o número de linhas em uma transação agregada é levemente maior ou menor com base nos fatores como o número de produtos distintos.
-- **Número máximo de threads para validar transações de loja** - Esse campo define o número de threads que serão usados para validar transações de varejo. Validar transações de varejo é uma etapa obrigatória que precisa acontecer antes das transações serem recebidas nos demonstrativos. Você também precisa definir um **Produto para o cartão-presente** na Guia Rápida **Cartão-presente** na guia **Lançamento** da página **Parâmetros de varejo**. Isso precisa ser definido até se cartões-presente não forem usados pela organização.
+- **Número máximo de lançamentos paralelos de demonstrativos** – Esse campo define o número de tarefas de lote que serão usados para postar múltiplos demonstrativos. 
+- **Thread máximo para processamento de pedido por demonstrativo** – Esse campo representa o número máximo de threads usado por um trabalho de lote de postagem de demonstrativo para criar e faturar ordens de venda para um único demonstrativo. O número total de threads que serão usados pelo processo de postagem de demonstrativo serão computador com base no valor nesse parâmetro multiplicado pelo valor no parâmetro **Número máximo de lançamentos paralelos de demonstrativos**. Definir o valor desse parâmetro muito alto pode afetar negativamente o desempenho do processo de postagem do demonstrativo.
+- **Linhas de transação máxima incluída na agregação** – Esse campo define o número de linhas de transação que serão incluídas em uma única transação agregada antes de uma nova ser criada. As transações agregadas são criadas com base em critérios de agregação diferentes como cliente, data do negócio ou dimensões financeiras. É importante observar que as linhas de uma única transação de varejo não serão divididas entre transações agregadas diferentes. Isso significa que há uma possibilidade de que o número de linhas em uma transação agregada é levemente maior ou menor com base nos fatores como o número de produtos distintos.
+- **Número máximo de threads para validar transações de loja** – Esse campo define o número de threads que serão usados para validar transações de varejo. Validar transações de varejo é uma etapa obrigatória que precisa acontecer antes das transações serem recebidas nos demonstrativos. Você também precisa definir um **Produto para o cartão-presente** na Guia Rápida **Cartão-presente** na guia **Lançamento** da página **Parâmetros de varejo**. Isso precisa ser definido até se cartões-presente não forem usados pela organização.
 
 > [!NOTE]
 > Todas as configurações e os parâmetros relacionados às postagens de demonstrativo, e definidos em lojas de Varejo na página **Parâmetros de Varejo**, são aplicáveis ao recurso aprimorado de postagem do demonstrativo.

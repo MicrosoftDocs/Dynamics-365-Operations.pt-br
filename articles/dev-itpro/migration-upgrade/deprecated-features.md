@@ -3,7 +3,7 @@ title: Recursos removidos ou obsoletos
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção.
 author: sericks007
 manager: AnnBe
-ms.date: 04/12/2019
+ms.date: 06/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7afe26b535ca2578d2db17f676c3cae4bafc355f
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9daba2449b6a20634c13117cedb6b63fcc8ee674
+ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1527662"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620636"
 ---
 # <a name="removed-or-deprecated-features"></a>Recursos removidos ou preteridos
 
@@ -38,8 +38,35 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 > [!NOTE]
 > A partir da versão de julho de 2017 do Dynamics 365 for Finance and Operations com a atualização 8 da plataforma, os tipos de implantações são observados para cada recurso removido ou substituído. Todas as versões anteriores mencionadas neste tópico ofereciam suporte apenas a implantações em nuvem.
 
-> [!NOTE]
 > Informações detalhadas sobre objetos no Finance and Operations podem ser encontradas nos [Relatórios de referência técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations.
+
+## <a name="dynamics-365-for-finance-and-operations-1004"></a>Dynamics 365 for Finance and Operations 10.0.4 
+
+### <a name="france-fec-accounting-data-export-in-xml"></a>França: exportação de dados de contabilidade de FEC em XML
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Substituído por formato TXT, **Arquivo de auditoria de FEC da França** está disponível por meio de **Contabilidade** \> **Tarefas periódicas** \> **Exportação de dados**.
+| **Substituída por outro recurso?**   | Sim |
+| **Áreas afetadas do produto**         | Contabilidade |
+| **Opção de implantação**              | Todas |
+| **Status**                         | Preterido. O período determinado para a remoção da funcionalidade é julho de 2020. |
+
+=======
+## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 com Platform update 28
+
+> [!IMPORTANT]
+> O Dynamics 365 for Finance and Operations 10.0.4 com Platform update 28 está disponível para usuários específicos como parte de uma versão prévia. O conteúdo e as funcionalidades estão sujeitos a alteração. Para obter informações sobre as versões prévias, consulte [Disponibilidade das atualizações do serviço](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="legacy-navigation-bar"></a>Barra de navegação herdada
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Alinhamento de cabeçalho com outros produtos do Dynamics e Office. Para obter mais detalhes, consulte [Barra de navegação atualizada que se alinha com o cabeçalho do Office](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/updatednavbar).
+| **Substituída por outro recurso?**   | A partir da atualização 24 da plataforma, uma barra de navegação reestilizada que apresenta a pesquisa foi introduzida. |
+| **Áreas afetadas do produto**         | Cliente web |
+| **Opção de implantação**              | Todas |
+| **Status**                         | Preterido: a partir de abril de 2020, a barra de navegação herdada não estará mais disponível. Até esse ponto, os clientes podem reverter para a barra de navegação legada por meio das opções **Opções de desempenho do cliente**. |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-1002-with-platform-update-26"></a>Dynamics 365 for Finance and Operations 10.0.2 com Platform update 26
@@ -985,7 +1012,7 @@ Essa funcionalidade forneceu a saída XBRL (eXtensible Business Reporting Langua
 |   |  |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | O ActiveX e os controles Gerenciados por host são baseados no cliente obsoleto da área de trabalho. |
-| **Substituída por outro recurso?**   | A estrutura de controle extensível suporta a criação de novos controles que são baseados em HTML, CSS e JavaScript e é um controle de primeira classe no ambiente de Ferramentas do Microsoft Visual Studio. |
+| **Substituída por outro recurso?**   | A estrutura de controle extensível oferece suporte à criação de novos controles baseados em HTML, CSS e JavaScript e é um controle de primeira classe no ambiente de ferramentas do Microsoft Visual Studio. |
 | **Áreas afetadas do produto**         | Todos os módulos     |
 | **Status**                         | Removido a partir do Dynamics AX 7.0.       |
 

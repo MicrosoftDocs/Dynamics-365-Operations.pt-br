@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 743eaff6fd97308520073a83dbfb598124be576c
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 0c25d1ac1b9262a83fb04b8593a14c495c5d67e0
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538270"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1567187"
 ---
 # <a name="set-up-adjustment-codes-for-pis-and-cofins-taxes-brazil"></a>Configurar códigos de ajuste para impostos PIS e COFINS (Brasil)
 

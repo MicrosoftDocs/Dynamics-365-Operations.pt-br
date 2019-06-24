@@ -3,7 +3,7 @@ title: Postar trabalhos em sites de carreira externos a partir do Attract
 description: Este tópico explica como usar o Dynamics 365 for Talent - Attract para postar trabalhos em sites de recrutamento externos.
 author: pganapmsft
 manager: AnnBe
-ms.date: 03/20/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: eca599ad189edae29ef2de496196b08799a5e745
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9c27d1810a89ed7d7a7745e41c5f118dbdfe5dda
+ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517341"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1590473"
 ---
 # <a name="post-jobs-to-external-career-sites-from-attract"></a>Postar trabalhos em sites de carreira externos a partir do Attract
 
@@ -36,6 +36,7 @@ Antes de postar trabalhos no Broadbean, você deve configurar a integração del
 
 > [!NOTE]
 > - Para postar trabalhos em sites externos, você deve ter o [complemento de Contratação abrangente](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> - Para lançar trabalhos no Broadbean por meio do Attract, você deve ter uma assinatura do Broadbean.
 > - Este recurso está atualmente em visualização. Para experimentá-lo, você deve [ativá-lo nas configurações de administrador do Attract](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).
 
 ### <a name="configure-broadbean-integration"></a>Configurar a integração do Broadbean

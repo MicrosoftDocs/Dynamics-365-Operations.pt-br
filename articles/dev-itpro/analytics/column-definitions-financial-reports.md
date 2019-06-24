@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 872e7c833416f0f7d9aa0c55aadf72aec65ddaab
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: bb08833cca843c370e2c845bce56d6f5a8b5f2ed
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1502721"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595330"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Definições de coluna nos relatórios financeiros
 
@@ -120,7 +120,7 @@ A tabela a seguir descreve os códigos de restrição de colunas.
 | ADJ                     | Restringe os valores na coluna para excluir os valores de ajuste de período, se esses valores estiverem disponíveis. |
 | XAD                     | Restringe os valores na coluna para excluir os valores de ajuste de período. |
 | PT                      | Restringe os valores na coluna, para que apenas transações lançadas sejam incluídas, se essas transações estiverem disponíveis. |
-| UPT                     | Restringe os valores na coluna, para que apenas transações não lançadas sejam incluídas, se essas transações estiverem disponíveis.<blockquote>[!NOTE] Nem todos os fornecedores de dados oferecem suporte a transações não lançadas. Para obter mais informações, consulte o <a href='http://go.microsoft.com/fwlink/?LinkID=162565'>guia de integração de dados</a> de seu sistema ERP Microsoft Dynamics.</blockquote> |
+| UPT                     | Restrinja os valores na coluna, para que apenas as transações não lançadas sejam incluídas, se essas transações estiverem disponíveis.<p><strong>Observação:</strong> nem todos os dados são compatíveis com as transações não lançadas. Para obter mais informações, consulte o <a href='https://go.microsoft.com/fwlink/?LinkID=162565'>guia de integração de dados</a> de seu sistema ERP Microsoft Dynamics.</p> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Restringir uma coluna a uma unidade organizacional
 
@@ -310,7 +310,7 @@ A célula **Controle de impressão** pode conter códigos que ajustam a exibiç�
 | Código de controle de impressão | Tradução                                     | Descrição |
 |--------------------|-------------------------------------------------|-------------|
 | NP                 | Não imprimível                                     | Impede que os valores dessa coluna sejam impressos no relatório e nos cálculos. Para incluir uma coluna não imprimível em um cálculo, consulte a coluna diretamente na fórmula do cálculo. Por exemplo, a coluna C sem impressão é incluída no seguinte cálculo: **B+C+D**. No entanto, a coluna C sem impressão não é incluída no seguinte cálculo: **B:D**. |
-| XCR                | Alterar o sinal se o saldo típico da linha for crédito | Cria um orçamento, ou um relatório comparativo, no qual uma variação desfavorável (como um déficit de receita ou uma despesa excedente) é sempre negativa. Aplique este código a uma coluna **CALC** para reverter o sinal do valor da coluna se o saldo típico de uma determinada linha for crédito (como identificado por um **C** na coluna **Saldo normal** da definição da linha).<blockquote>[!NOTE] Para linhas <strong>TOT</strong> e </strong>CAL</strong> que geralmente carregam um saldo de crédito, certifique-se de inserir um <strong>C</strong> na coluna <strong>Saldo Comum</strong> na definição de linha.</blockquote> |
+| XCR                | Alterar o sinal se o saldo típico da linha for crédito | Cria um orçamento, ou um relatório comparativo, no qual uma variação desfavorável (como um déficit de receita ou uma despesa excedente) é sempre negativa. Aplique este código a uma coluna **CALC** para reverter o sinal do valor da coluna se o saldo típico de uma determinada linha for crédito (como identificado por um **C** na coluna **Saldo normal** da definição da linha).<p><strong>Observação:</strong> para as linhas <strong>TOT</strong> e </strong>CAL</strong> que geralmente contêm um saldo de crédito, certifique-se de inserir o <strong>C</strong> na coluna <strong>Saldo normal</strong> na definição da coluna.</p> |
 | X0                 | Suprimir a coluna se todas as células contiverem zero ou estiverem em branco          | Exclua uma coluna **FD** do relatório se todas as células na coluna estiverem vazias ou contiverem zeros. |
 | SR                 | Suprimir arredondamento                               | Impede que os valores dessa coluna sejam arredondados. |
 | XR                 | Suprimir acúmulo                                 | Suprime um acúmulo. Se o relatório usa uma hierarquia organizacional, os valores dessa coluna não são acumulados em nós pais subsequentes. |
@@ -546,8 +546,8 @@ A seguinte tabela mostra os resultados do relatório que podem ocorrer em vária
 | Célula Exibição de Moeda                        | Célula Filtro de Moeda | Resultado do relatório |
 |----------------------------------------------|----------------------|---------------|
 | Moeda da transação                 | **YEN**              | **Ұ6.000** – O resultado mostra apenas transações que foram inseridas em JPY. |
-| Moeda contábil do razão | **YEN**              |**US$60** – O resultado mostra apenas transações que foram inseridas em JPY e exibe as transações em USD.<blockquote>[!NOTE] A taxa de conversão é de aproximadamente 100 JPY por USD.</blockquote> |
-| Moeda contábil do razão | Vazio                | **US$ 2.310** – O resultado mostra todos os dados na moeda contábil que é especificada no razão.<blockquote>[!NOTE] Este valor é a soma de todas as transações na moeda contábil.</blockquote> |
+| Moeda contábil do razão | **YEN**              |**US$60** – O resultado mostra apenas transações que foram inseridas em JPY e exibe as transações em USD.<p><strong>Observação:</strong> a taxa de conversão é de aproximadamente 100 JPY por USD.</p> |
+| Moeda contábil do razão | Vazio                | **US$ 2.310** – O resultado mostra todos os dados na moeda contábil que é especificada no razão.<p><strong>Observação:</strong> Este valor é a soma de todas as transações na moeda contábil.</p> |
 | Moeda da transação                 | Vazio                | **US$2.250** – O resultado mostra todos os valores na moeda na qual a transação foi realizada. Isso significa que o total está adicionando valores de diferentes moedas. |
 
 ### <a name="calculation-column-in-a-column-definition"></a>Coluna de cálculo em uma definição de coluna
@@ -565,7 +565,7 @@ Para adicionar, subtrair, multiplicar ou dividir colunas, digite as letras da co
 |----------|---------------------|-------------|
 | +        | A+C                 | Adicione o valor na coluna A ao valor na coluna C. |
 | :        | A:C A:C-D           | Adicionar um intervalo de colunas consecutivas. Por exemplo, a fórmula **A:C** adiciona as somas das colunas A a C e a fórmula **A:C-D** adiciona as somas das colunas A a C e depois subtrai o valor na coluna D. |
-| -        | A-C                 | Subtrair o valor na coluna A do valor na coluna C.<blockquote>[!NOTE] Você também pode usar o sinal de menos (-) para reverter os sinais de uma coluna. Por exemplo, use <strong>-A+B</strong> para adicionar o reverso do valor na coluna A ao valor na coluna B.</blockquote> |
+| -        | A-C                 | Subtrair o valor na coluna A do valor na coluna C.<p><strong>Observação:</strong> você também pode usar o sinal de menos (-) para reverter os sinais em uma coluna. Por exemplo, use <strong>-A+B</strong> para adicionar o reverso do valor na coluna A ao valor na coluna B.</p> |
 | \*       | A\*C                | Multiplique o valor na coluna A pelo valor na coluna C. |
 | /        | A/C                 | Divida o valor na coluna A pelo valor na coluna C. |
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b876a1b2c26ea48d2bb659f43ceb30fd64197b0
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 85b14b6576bb1cc2054206a911094342473f020e
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538290"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1556230"
 ---
 # <a name="manage-fiscal-document-text-in-procurement-documents-brazil"></a>Gerenciar texto da nota fiscal em notas de compras (Brasil)
 

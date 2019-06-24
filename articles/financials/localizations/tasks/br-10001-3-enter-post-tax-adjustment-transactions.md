@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d963937831bba630e7e85c4661188c29f0f699cb
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 2a9b730ec09412b52aaac0d7f7ad9cb995559c56
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538275"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1571062"
 ---
 # <a name="enter-and-post-tax-adjustment-transactions-brazil"></a>Inserir e lançar transações de ajuste de imposto (Brasil)
 

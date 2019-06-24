@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 040505f567b9db1a5987e4ada38d46f919440c96
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 151b8936a46a1945e98bfe0ed040ca50c93db4b0
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544440"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595431"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER Atualize seu formato adotando uma nova versão com base nesse formato
 
@@ -36,7 +36,7 @@ Para executar estas etapas, primeiro você deve concluir as etapas "Criar um pro
 
 ## <a name="select-format-configuration-for-customization"></a>Selecione a configuração de formato para a personalização
 1. Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.
-    * Neste exemplo, a empresa exemplo, Litware, Inc. (http://www.litware.com), atuará como um provedor de configuração que oferece suporte a configurações de formato para pagamentos eletrônicos de um país específico.    A empresa exemplo, Proseware, Inc (http://www.proseware.com), atuará como um consumidor da configuração do formato fornecida pela Litware, Inc. A Proseware, Inc. usa formatos em determinadas regiões desse país.  
+    * Neste exemplo, a empresa exemplo, Litware, Inc. (https://www.litware.com), atuará como um provedor de configuração que oferece suporte a configurações de formato para pagamentos eletrônicos de um país específico.    A empresa exemplo, Proseware, Inc (http://www.proseware.com), atuará como um consumidor da configuração do formato fornecida pela Litware, Inc. A Proseware, Inc. usa formatos em determinadas regiões desse país.  
 2. Clique em Configurações de relatórios.
 3. Clique em Mostrar filtros.
 4. Aplique os seguintes filtros: insira um valor de filtro de "BACS (fictício do Reino Unido)", no campo "Nome" usando o operador de filtro "começa com"

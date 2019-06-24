@@ -16,12 +16,12 @@ ms.search.region: Brazil
 ms.author: shylaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 00140804a6a2ad7657b6b716ad2cf91b68e820cf
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 7906c79c1cbab2d6eb7c2f637619fbb9e41f282e
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538328"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1564470"
 ---
 # <a name="brazil"></a>Brasil 
 

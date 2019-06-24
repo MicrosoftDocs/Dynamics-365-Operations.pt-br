@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06b7b27a4c49fc7ac69b1303a61e1e701796a8b0
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 06f04dc9e123d49110fbbf43545a6b7b8d9dcf1b
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538272"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1567188"
 ---
 # <a name="tax-assessment-for-iss-tax-brazil"></a>Apuração de imposto ISS (Brasil)
 

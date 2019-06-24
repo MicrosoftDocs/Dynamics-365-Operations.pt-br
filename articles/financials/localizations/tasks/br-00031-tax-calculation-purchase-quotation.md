@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eeb0eb879a153a61f4089d9d74ffb1d4e81d5ab6
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d3830bbd9c7b458e9696ba160b6f967f560bc8f2
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538304"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1556242"
 ---
 # <a name="calculate-tax-on-purchase-quotations-brazil"></a>Calcular impostos em cotações de compra (Brasil)
 

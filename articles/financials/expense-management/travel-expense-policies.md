@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f0ff56f0ff106bc168b6a27612e08743a539a07
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6923a4d5420cd768d1b0da24eab406033c17fd67
+ms.sourcegitcommit: 06c8dc5bc4e1c41f68e1cda141d61529768be958
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1514430"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594927"
 ---
 # <a name="expense-policies"></a>Diretivas de despesas
 
@@ -44,11 +44,11 @@ Você pode definir três tipos de política:
  
  - Justificativa – exige que o trabalhador ou um gerente insira uma justificativa para o excedente do valor da política antes do envio do relatório de despesas ou da requisição de viagem.        
 
-# <a name="policy-tips"></a>Dicas de política
+## <a name="policy-tips"></a>Dicas de política
 Aqui estão algumas sugestões que podem ajudá-lo ao criar novas políticas para gerenciamento de despesas. 
 * As políticas têm data de efetivação e não começarão a valer se a política for cria com uma data após a data que a despesa ocorreu. Por exemplo, se você estiver criando uma nova política hoje para reforçar uma despesa de refeição máxima de $50, então qualquer despesas existentes inseridas a partir de ontem não serão verificadas contra esta política.
 * Ao criar uma política para uma categoria de despesa que pode ser especificada, considere adicionar uma condição para tipo de linha de despesa. Algumas políticas, como a necessidade de um recibo pode não fazer sentido para linhas especificadas e deve ser aplicado apenas a linha do cabeçalho ou a uma linha não especificada. 
 
-# <a name="when-to-evaluate-policies"></a>Quando avaliar políticas
+## <a name="when-to-evaluate-policies"></a>Quando avaliar políticas
 
 Nos parâmetros de gerenciamento de despesas, há uma opção para avaliar as políticas de gerenciamento de despesas quando uma linha é salva ou quando um relatório de despesa é enviado. Se você optar por avaliar quando uma linha é salva, isso garante que os usuários tenham uma visibilidade antecipada sobre o que precisam fazer para concluir seu relatório de despesas de uma só vez. Caso contrário, você pode atrasar a avaliação de política e economizar tempo se a validação ocorrer no final, durante envio ao fluxo de trabalho.

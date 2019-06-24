@@ -3,7 +3,7 @@ title: Atualizações regulatórias
 description: Este tópico fornece uma lista de atualizações regulatórias planejadas e liberadas para o Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/12/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0bd72bb5bebed84c092142b2b18f8fbbc3d4f711
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 8b79dd65c38d878303a75490721a3c7e6f1c6d09
+ms.sourcegitcommit: d153bde74651400118bbd37b69ff5e7e161f1db7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1530698"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "1593334"
 ---
 # <a name="regulatory-updates"></a>Atualizações regulatórias
 
@@ -41,7 +41,8 @@ Em caso de datas de anúncio tardias, do atraso na disponibilidade dos detalhes 
 
 Para obter informações sobre os planos de atualizações regulatórias mais recentes, consulte a tabela a seguir. 
 
-|Data de lançamento planejada|Versão de lançamento|País/região|Atualização regulatória|
+|Data de lançamento planejada|Versão de lançamento
+  |País/região|Atualização regulatória|
 |--------------------|---------------|-------|-------|
 |      2019 de março          |   10.0.0      | Áustria      |   Alterações no Kammerumlage 2019 (Imposto de compra)    |
 |      2019 de março          |   10.0.0      |   Brasil    |     Contribuições EFD SPED - Layout 004 e 005  |
@@ -52,9 +53,20 @@ Para obter informações sobre os planos de atualizações regulatórias mais re
 |      2019 de abril          |   10.0.1      |   Alemanha     |Faturamento eletrônico - Exportação de faturas de cliente no formato xRechnung 1.1         |
 |      2019 de abril          |   10.0.1      |    Reino Unido     |[Alterações de envio da declaração IVA (Declaração de impostos digital)](emea-gbr-mtd-vat-integration.md)    |    
 |      2019 de abril          |   10.0.1      |    Brasil     |Nova NF-e NT 2018.005         |
-|      2019 de abril          |   10.0.1      |    Rússia     |Alterações do formato da declaração IVA de 2019         |
-|      2019 de abril          |   10.0.1      |    Rússia     |Alterações no formato da declaração de IVA de 2019 (registros de vendas e compras) 
+|      2019 de abril          |   10.0.1      |    Rússia     |[Alterações do formato da declaração IVA de 2019](rus-VAT-declaration.md) |
+|      2019 de abril          |   10.0.1      |    Rússia     |Alterações no formato da declaração de IVA de 2019 (registros de vendas e compras) |
+|      2019 de abril          |   10.0.1      |    Rússia     |Alterações na declaração de imposto de terreno desde 2018 |
+|      2019 de abril          |   10.0.1      |    Rússia     |[Alterações na declaração de imposto de propriedade desde 2019](rus-assessed-tax-declaration.md)|
+|      2019 de abril          |   10.0.1      |    Rússia     |Alterações na declaração de imposto de transporte desde 2019  |
+|      2019 de abril            |   10.0.1      | Hungria      |  Hungria: versão 1.1 do faturamento online de 2019 no Microsoft Dynamics 365 for Finance and Operations  |
 |      Maio de 2019            |   10.0.2      | Brasil      |   Layout 7 de SPED ECD   |
+|      Pendente            |   10.0.3      | Brasil      |   Nova NF-e NT 2018.005 - v.1.20   |
+|      Pendente            |   10.0.3      | Brasil      |   Layout 7 de SPED ECD   |
+|      Pendente            |   10.0.3      | Brasil      |   SPED ECF - Layout 5 de 2019   |
+|      Pendente            |   10.0.3      | Lituânia    |   O relatório i.SAF permite que o usuário defina códigos de imposto do sistema em associação com códigos fiscais legais    |
+|      Pendente            |   10.0.3      | Polônia     |   Faturas do SAF (JPK_FA) v.2 desde 1º de julho de 2019  |
+|      Pendente            |   10.0.3      | Brasil   |   Os ajustes da nota fiscal de ICMS habilitam a tabela 5.2   |
+|      Pendente            |   10.0.3      | Brasil    |   Decreto de NF-e 54.308/18 (RS)   |
 
 
 ## <a name="additional-resources"></a>Recursos adicionais

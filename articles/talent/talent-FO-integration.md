@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 438c2b5689e450b9aae9c55168993f2ee84be4d5
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: db542e4df79480624ff6e5ff1996ad930fc1564b
+ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517383"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "1617334"
 ---
 # <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a>FAQ sobre a integração do Dynamics 365 for Talent com o Dynamics 365 for Finance and Operations
 
@@ -46,7 +46,7 @@ No momento, as dimensões financeiras não estão no Common Data Service e, por 
 
 Para dados que residem no Finance and Operations mas que não existem no Talent, vincule os dois sistemas usando **Configurar links** no Talent. Para obter mais informações sobre como configurar links entre o Talent e o Finance and Operations, consulte [Novidades ou alterações no Dynamics 365 for Talent Core HR (31 de outubro de 2018)](whats-new-talent-october-31.md).
 
-![](media/MapFinancialDimensions.png)
+![Mapear dimensões financeiras](media/MapFinancialDimensions.png)
 
 ## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-and-operations-why"></a>Por vezes, quando importo funcionários, eles entram como trabalhadores inativos no Finance and Operations. Por quê?
 
@@ -60,14 +60,14 @@ A sincronização de dados segue uma agenda de execução. A integração seleci
 
 Usando a "Consulta avançada", você pode filtrar e remodelar ao dados de origem antes de passá-los para o destino.
 
-![](media/MapOnlyActiveWorkersAdvancedQuery.png)
+![Consulta avançada de trabalhadores ativos](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-and-operations-for-a-specific-entity"></a>Posso especificar quais campos enviar ao Finance and Operations de uma entidade específica?
 
 Os campos podem ser adicionados ou removidos da tarefa de integração. Nem todos os campos de dados que existem na entidade do Common Data Service serão preenchidos do Core HR.
 Dados adicionais podem ser preenchidos por PowerApps.
 
-![](media/SpecifyFieldsIncludedInIntegration.png)
+![Adicionar ou remover campos a e de uma tarefa de integração](media/SpecifyFieldsIncludedInIntegration.png)
 
 ## <a name="i-set-up-integration-as-a-batch-job-but-talent-lost-connection-to-the-destination-system-how-can-i-send-the-same-set-of-changes-to-the-destination-system"></a>Configurei a integração como um trabalho em lotes, mas o Talent perdeu a conexão com o sistema de destino. Como posso enviar o mesmo conjunto de alterações para o sistema de destino?
 

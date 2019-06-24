@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a71edb99fb2c7894d9258ba54e7251914001406d
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: cb6c23e4435189cc1f06f2d15cf73de577031f30
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538293"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1567197"
 ---
 # <a name="calculate-interest-and-fines-on-customer-payments-brazil"></a>Calcular juros e multas em pagamentos de clientes (Brasil)
 

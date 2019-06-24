@@ -3,7 +3,7 @@ title: Criar canal online e definir atributos do canal
 description: Este procedimento orienta na criação de um novo canal online e sua adição à hierarquia da organização.
 author: jashanno
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 06/04/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e066e9901a97bd5b72815a7af472247ef519ecb9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4547731d7e3bc56b1ba5e0a35ff4746c6c0e9863
+ms.sourcegitcommit: 901ec3b360303bb8b4d9a9dcfecc6d75d7f844a0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569512"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1618287"
 ---
 # <a name="create-online-channel-and-define-channel-attributes"></a>Criar canal online e definir atributos do canal
 
@@ -60,4 +60,10 @@ Este procedimento orienta na criação de um novo canal online e sua adição à
 9. Clique em Publicar para abrir a caixa de diálogo suspensa.
 10. No campo de data efetiva, insira uma data e hora.
 11. Clique em Publicar.
+
+## <a name="configure-orders-for-near-realtime-notification"></a>Configurar ordens para notificação quase em tempo real
+1. Vá para Varejo > Configuração da sede > Parâmetros > Parâmetros de varejo.
+2. Definir Usar serviço em tempo real para criação de ordens de comércio eletrônico como "Sim".
+3. Execute a agenda de distribuição 1070 para sincronizar alterações no banco de dados do canal. 
+
 

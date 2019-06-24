@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d8c0dfe0ed9e9ba9fd579995c0041959407f6905
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: c1eddb15792b04af5b23b27905dcb84e58dfba74
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538286"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1567196"
 ---
 # <a name="calculate-interest-and-fines-on-vendor-payments-brazil"></a>Calcular juros e multas sobre pagamentos de fornecedores (Brasil)
 

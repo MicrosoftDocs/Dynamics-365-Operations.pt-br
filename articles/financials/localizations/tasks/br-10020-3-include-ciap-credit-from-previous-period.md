@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 510f77fbc07d913ebb345fbb4eb5fdfe77dcc7ac
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 15ac1313fd2a31bccb0e2d8d5c72b78db2fae9c1
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538268"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1550267"
 ---
 # <a name="include-ciap-credit-from-a-previous-period-brazil"></a>Incluir o crédito CIAP de um período anterior (Brasil)
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9105e1de86ed2834b04f75c7d08c4021402bcfda
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 232f6b6156d845f75abc0c052704e3a59bb33720
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549141"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595578"
 ---
 # <a name="income-statement-financial-report"></a>Relatório financeiro do demonstrativo de renda
 
@@ -67,7 +67,7 @@ As definições da coluna contêm diferentes tipos de colunas para fornecer nív
 
 [Exibir relatórios financeiros](view-financial-reports.md)
 
-[Blog de Relatório Financeiro do Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Blog de Relatório Financeiro do Dynamics](https://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 

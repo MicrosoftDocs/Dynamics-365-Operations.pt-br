@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: shylaw
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 85e0480be5df72c361e4440eb4f67ad0e68644df
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f7d079b1dd63286911fd7a6ea4da459fa3168740
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1513009"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1553091"
 ---
 # <a name="set-up-parameters-for-sped-efd---contributions"></a>Configurar parâmetros para SPED EFD - Contribuições
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8daabada431e803958f701e7b38ef11e330d867a
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: a43c68b4067850cea8ca78c2cf1c03d6ee82bb8c
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538301"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1556238"
 ---
 # <a name="withholding-taxes-on-customer-payments-brazil"></a>Impostos retidos na fonte em pagamentos de clientes (Brasil)
 

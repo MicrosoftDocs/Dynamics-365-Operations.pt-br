@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 285b1b8b6070b1f2db70ce0236bc29f1033ceef8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b007d1df0de486fe37f0f5f031b4609547a0c92d
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538307"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1556245"
 ---
 # <a name="receive-vendor-fiscal-documents-fixed-assets---pis-and-cofins-long-term-recoverable-brazil"></a>Receber notas fiscais de fornecedor (ativos fixos - PIS e COFINS recuperáveis a longo prazo) (Brasil)
 

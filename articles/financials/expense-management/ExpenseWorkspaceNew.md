@@ -3,7 +3,7 @@ title: Relatórios de despesas reformulados
 description: Este tópico fornece informações sobre a experiência reprojetada e reformulada da entrada do relatório de despesas no Microsoft Dynamics 365 for Finance and Operations. A nova experiência simplifica o processo de preenchimento de relatórios de despesas e diminui o tempo necessário.
 author: ryansandness
 manager: AnnBe
-ms.date: 05/07/2019
+ms.date: 05/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 3039cda3f2cf9259ca06207bdf941bc6b0fb28e1
-ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
+ms.openlocfilehash: c7a2b95456e812970b135d83f0f7e503310ce185
+ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538672"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "1592628"
 ---
 # <a name="expense-reports-reimagined"></a>Relatórios de despesas reformulados
 
@@ -46,10 +46,9 @@ Para ativar a nova experiência, use o espaço de trabalho **Gerenciamento de re
 
 ## <a name="getting-started-video-for-new-users"></a>Vídeo de introdução para novos usuários
 
-Você pode assistir a um pequeno vídeo que mostra os principais recursos da entrada de despesas.
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Y7gO]
 
-> [!NOTE]
-> O vídeo ainda não está disponível. Este tópico será atualizado quando o vídeo estiver disponível.
+O vídeo [Experiência com despesas no Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (mostrado acima) é incluído na [playlist do Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
 
 ## <a name="new-features"></a>Novos recursos
 
