@@ -3,11 +3,21 @@
   items:
     - name: Introdução
       items:
-        - name: Comece a usar o Talent
+        - name: Começar a usar o Talent
           href: talent-get-started.md
         - name: Novidades ou alterações no Talent
           href: whats-new.md
           items:
+            - name: 2 de julho de 2019
+              href: whats-new-talent-july-2-2019.md
+            - name: 25 de junho de 2019
+              href: whats-new-talent-june-25-2019.md
+            - name: 18 de junho de 2019
+              href: whats-new-talent-june-18-2019.md
+            - name: 11 de junho de 2019
+              href: whats-new-talent-june-11-2019.md
+            - name: 4 de junho de 2019
+              href: whats-new-talent-june-4-2019.md
             - name: 28 de maio de 2019
               href: whats-new-talent-may-28-2019.md
             - name: 21 de maio de 2019
@@ -16,26 +26,26 @@
               href: whats-new-talent-may-13-2019.md
             - name: 6 de maio de 2019
               href: whats-new-talent-may-6-2019.md
-            - name: 30 de abril de 2019
-              href: whats-new-talent-april-30-2019.md
-            - name: 25 de abril de 2019
-              href: whats-new-talent-april-25-2019.md
-            - name: 16 de abril de 2019
-              href: whats-new-talent-april-16-2019.md
-            - name: 9 de abril de 2019
-              href: whats-new-talent-april-9-2019.md
-            - name: 2 de abril de 2019
-              href: whats-new-talent-april-2-2019.md
-            - name: 26 de março de 2019
-              href: whats-new-talent-march-26-2019.md
-            - name: 20 de março de 2019
-              href: whats-new-talent-march-20.md
-            - name: 14 de março de 2019
-              href: whats-new-talent-march-14.md
-            - name: 5 de março de 2019
-              href: whats-new-talent-march-5.md
             - name: Arquivo morto das novidades de 2019
               items:
+                - name: 30 de abril de 2019
+                  href: whats-new-talent-april-30-2019.md
+                - name: 25 de abril de 2019
+                  href: whats-new-talent-april-25-2019.md
+                - name: 16 de abril de 2019
+                  href: whats-new-talent-april-16-2019.md
+                - name: 9 de abril de 2019
+                  href: whats-new-talent-april-9-2019.md
+                - name: 2 de abril de 2019
+                  href: whats-new-talent-april-2-2019.md
+                - name: 26 de março de 2019
+                  href: whats-new-talent-march-26-2019.md
+                - name: 20 de março de 2019
+                  href: whats-new-talent-march-20.md
+                - name: 14 de março de 2019
+                  href: whats-new-talent-march-14.md
+                - name: 5 de março de 2019
+                  href: whats-new-talent-march-5.md
                 - name: 27 de fevereiro de 2019
                   href: whats-new-talent-feb-27.md
                 - name: 14 de fevereiro de 2019
@@ -102,16 +112,24 @@
           href: attract-comprehensive-hiring.md
         - name: Recursos e funcionalidades do Attract
           href: attract-overview.md
+        - name: Perguntas frequentes sobre o LinkedIn
+          href: attract-linkedin-faq.md
+        - name: Definir configurações de email
+          href: attract-configure-email-settings.md
         - name: Criar um modelo de processo no Attract
           href: Process-templates-Attract.md
-        - name: 'Criar, aprovar e lançar trabalhos no Attract'
+        - name: Criar e lançar trabalhos
           href: Creating-jobs-Attract.md
-        - name: Lançar trabalhos de sites de carreira externos a partir do Attract
+        - name: Configurar integração com o LinkedIn
+          href: attract-admin-linkedin.md
+        - name: Lançar trabalhos no LinkedIn do Attract
+          href: attract-post-jobs-to-linkedin.md
+        - name: Lançar trabalhos no Broadbean do Attract
           href: posting-jobs-external.md
         - name: Fornecer candidatos usando grupos de talento
           href: attract-talent-pools.md
-        - name: Fornecimento com o LinkedIn Recruiter
-          href: attract-linked-in-recruiter.md
+        - name: Fornecer candidatos com o LinkedIn Recruiter
+          href: attract-linkedin-recruiter.md
         - name: Atividades nos processos de contratação
           href: activities-attract.md
         - name: Agendamento de entrevistas e comentários
@@ -132,12 +150,28 @@
           href: Admin-Settings-Attract.md
         - name: Recomendações inteligentes
           href: Intelligent-Recommendations.md
-        - name: Criar uma experiência de integração envolvente
-          href: create-onboarding-experience.md
         - name: Rastrear origens de perfis de candidatos e solicitações de emprego
           href: source-tracking.md
         - name: Usar relatórios analíticos para insights de processo de contratação
           href: analytic-reports.md
+    - name: Dar boas-vindas às novas contratações com o Onboard
+      items:
+        - name: Começar a usar o Onboard
+          href: create-onboarding-experience.md
+        - name: Obter o aplicativo Onboard
+          href: onboard-get-app.md
+        - name: Criar e enviar uma guia de integração
+          href: onboard-create-guide.md
+        - name: Criar um modelo de integração
+          href: onboard-create-template.md
+        - name: Editar guias e modelos
+          href: onboard-edit-guides-templates.md
+        - name: Compartilhar o conteúdo
+          href: onboard-share-template.md
+        - name: Exibir o status
+          href: onboard-view-status.md
+        - name: Criar uma equipe de contratação
+          href: onboard-create-team.md
     - name: Gerenciar sua força de trabalho com o Core HR
       items:
         - name: Organizar sua força de trabalho
@@ -353,11 +387,13 @@
           href: process-auditing.md
         - name: Extensibilidade no Attract
           href: extensibility-attract.md
-        - name: Campos personalizadas no Core HR
+        - name: Campos personalizados no Core HR
           href: corehr-custom-fields.md
     - name: Solucionar problemas do Talent
       items:
-        - name: Relatórios analíticos não são atualizados
+        - name: Solucionar problemas de lançamento de trabalhos no LinkedIn
+          href: attract-troubleshoot-linkedin.md
+        - name: Os relatórios analíticos não são atualizados
           href: analytic-reports-not-updated.md
         - name: Não é possível criar um ambiente no Centro de administração do PowerApps
           href: create-envi-powerapps-admin-ctr.md

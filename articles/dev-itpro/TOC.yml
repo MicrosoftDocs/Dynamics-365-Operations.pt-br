@@ -995,9 +995,11 @@
               href: deployment/setup-deploy-on-premises-pu8-pu11.md
             - name: Etapas de instalação dos componentes do canal do Retail em um ambiente local
               href: deployment/deploy-retail-onprem.md
-        - name: Desenvolver e implantar modelos personalizados para ambientes locais
+        - name: Desenvolver e implantar modelos personalizados em ambientes locais
           href: deployment/develop-deploy-custom-models-on-premises.md
-        - name: Configurar proxies revertidos para ambientes locais
+        - name: Integração do PowerBI.com com ambientes locais
+          href: analytics/entity-store-on-prem.md
+        - name: Configurar proxies reversos para ambientes locais
           href: deployment/onprem-reverseproxy.md
         - name: Aplicar atualizações a uma implantação local
           href: deployment/apply-updates-on-premises.md
@@ -1011,13 +1013,15 @@
           href: lifecycle-services/reconfigure-environment.md
         - name: Conectividade da Internet do cliente
           href: user-interface/client-disconnected.md
-        - name: Solucionar problemas em implantações locais
+        - name: Solucionar problemas de implantações locais
           href: deployment/troubleshoot-on-prem.md
+        - name: Rotação de certificados
+          href: deployment/certificate-rotation-on-prem.md
     - name: Implantar código personalizado
       items:
         - name: Criar pacotes de modelos implantáveis
           href: deployment/create-apply-deployable-package.md
-        - name: Instalar pacotes implantáveis a partir da linha de comando
+        - name: Instalar pacotes implantáveis da linha de comando
           href: deployment/install-deployable-package.md
         - name: Desinstalar um pacote
           href: deployment/uninstall-deployable-package.md
@@ -1097,7 +1101,7 @@
       items:
         - name: Processo de migração para a atualização mais recente
           href: migration-upgrade/upgrade-latest-update.md
-        - name: Caminhos para o One Version
+        - name: Caminhos para o serviço Uma Versão
           items:
             - name: Upgrade de autoatendimento para a versão mais recente
               href: migration-upgrade/self-service-upgrade.md
@@ -1251,7 +1255,7 @@
       href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
     - name: ​Fluxogramas no modelador de processo de negócios​
       href: lifecycle-services/flowcharts-business-process-modeler.md
-    - name: Carregar processos de negócios personalizadas no Modelador de processo de negócios
+    - name: Carregar processos de negócios personalizados no Modelador de processo de negócios
       href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
     - name: Monitoramento e diagnóstico
       href: lifecycle-services/monitoring-diagnostics.md
