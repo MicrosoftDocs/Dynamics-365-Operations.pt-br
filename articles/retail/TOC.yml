@@ -4,7 +4,7 @@
   items:
     - name: Novidades ou alterações
       href: get-started/whats-new.md
-    - name: Recursos de visualização no Dynamics 365 for Retail 10.0.3
+    - name: Novidades ou alterações no Dynamics 365 for Retail 10.0.3
       href: get-started/whats-new-10-0-3.md
     - name: Novidades ou alterações no Dynamics 365 for Retail 10.0.2
       href: get-started/whats-new-10-0-2.md
@@ -22,7 +22,7 @@
       href: dev-itpro/choose-deployment.md
     - name: Obter suporte para o Retail
       href: retail-support.md
-    - name: Perguntas frequentes sobre as atualizações do serviço One Version
+    - name: Perguntas frequentes sobre as atualizações do serviço Uma Versão
       href: ../fin-and-ops/get-started/one-version.md
 - name: ​Compreender o ciclo de vida da implementação​
   href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
@@ -407,6 +407,10 @@
       items:
         - name: Exemplo de integração da impressora fiscal para a Itália
           href: localizations/emea-ita-fpi-sample.md
+    - name: México
+      items:
+        - name: Faturas eletrônicas globais de CFDI para o México
+          href: ../financials/localizations/latam-mex-global-cfdi-3-3.md
     - name: Noruega
       items:
         - name: Funcionalidade de caixa registradora
@@ -682,7 +686,7 @@
           href: dev-itpro/pos-custom-transaction.md
         - name: Adicionar colunas personalizadas a uma grade de transação do PDV
           href: dev-itpro/pos-custom-transaction-column.md
-        - name: Chamar APIs ou operações de PDV a partir de extensões de PDV
+        - name: Chamar APIs ou operações de PDV de extensões de PDV
           href: dev-itpro/pos-api-extension.md
         - name: Gatilhos e impressão do Retail Modern POS
           href: dev-itpro/pos-trigger-printing.md
