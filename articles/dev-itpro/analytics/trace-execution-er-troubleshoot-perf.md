@@ -3,7 +3,7 @@ title: Rastrear a execução do formato ER para solucionar problemas de desempen
 description: Este tópico fornece informações sobre como usar o recurso de rastreamento de desempenho no relatório eletrônico (ER) para solucionar problemas de desempenho.
 author: NickSelin
 manager: AnnBe
-ms.date: 05/08/2019
+ms.date: 06/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: aa71db2752889bc905c22bab1cf2fa46d7ee07c7
-ms.sourcegitcommit: 67d00b95952faf0db580d341249d4e50be59119c
+ms.openlocfilehash: 55f3fd95a87bcf62824021ebfbf3bcd11af6013f
+ms.sourcegitcommit: f6581bab16225a027f4fbfad25fdef45bd286489
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1576537"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "1703866"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Rastrear a execução dos formatos ER para solucionar problemas de desempenho
 
@@ -122,7 +122,7 @@ As versões correspondentes do modelo de dados e as configurações de mapeament
 2. Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
 3. Na caixa de diálogo **Parâmetros de usuário**, na seção **Rastreamento de execução**, siga estas etapas:
 
-    1. No campo **Formato de rastreamento de execução**, selecione **Debug trace format** para começar a coletar os detalhes da execução do formato ER. Quando esse valor é selecionado, o rastreamento de desempenho coletará informações sobre o tempo gasto nas seguintes ações:
+    1. No campo **Formato de rastreamento de execução**, selecione **Depurar formato de rastreamento** para começar a coletar os detalhes da execução do formato ER. Quando esse valor é selecionado, o rastreamento de desempenho coletará informações sobre o tempo gasto nas seguintes ações:
 
         - Execução de cada fonte de dados no mapeamento de modelo que é chamado para obter dados
         - Processamento de cada item de formato para inserir dados na saída gerada
@@ -346,3 +346,29 @@ Se usar uma dessas versões do Finance and Operations, você poderá analisar os
 Repita as etapas na seção [Executar o formato de ER](#run-format) anterior neste tópico para gerar um novo rastreio de desempenho.
 
 Observe que o navegador da Web oferece um arquivo zip para download. Este arquivo contém o rastreamento de desempenho no formato PerfView. Você pode então usar a ferramenta de análise de desempenho do PerfView para analisar os detalhes da execução do formato ER.
+
+![Informações de rastreamento para o formato ER executado em PerfView](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+
+## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Use ferramentas externas para revisar um rastreamento de execução que inclua consultas a bancos de dados
+
+Devido as melhorias feitas na estrutura de ER, o rastreamento de desempenho que é gerado no formato PerfView agora oferece mais detalhes sobre a execução do formato ER. No Microsoft Dynamics 365 for Finance and Operations versão 10.0.4 (julho de 2019), este rastreamento também pode incluir detalhes de consultas SQL executadas para o banco de dados do aplicativo.
+
+### <a name="configure-user-parameters"></a>Configurar parâmetros de usuário
+
+1. No Finance and Operations, vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+2. Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
+3. Na caixa de diálogo **Parâmetros de usuário**, na seção **Rastreamento de execução**, defina os seguintes parâmetros:
+
+    - No campo **Formato de rastreamento de execução** , selecione **PerfView XML**.
+    - Defina a opção **Coletar estatísticas da consulta** como **Sim**.
+    - Defina a opção **Rastrear consulta** como **Sim**.
+
+    ![Caixa de diálogo Parâmetros de usuário no Finance and Operations](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+
+### <a name="run-the-er-format"></a>Executar o formato de ER
+
+Repita as etapas na seção [Executar o formato de ER](#run-format) anterior neste tópico para gerar um novo rastreio de desempenho.
+
+Observe que o navegador da Web oferece um arquivo zip para download. Este arquivo contém o rastreamento de desempenho no formato PerfView. Você pode então usar a ferramenta de análise de desempenho do PerfView para analisar os detalhes da execução do formato ER. Este rastreamento agora inclui os detalhes de acesso do banco de dados SQL durante a execução do formato ER.
+
+![Informações de rastreamento para o formato ER executado em PerfView](./media/GER-PerfTrace2-PerfViewTrace2.PNG)

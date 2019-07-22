@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 03edb5d626f221863f45804ce84168692c2bd1f3
-ms.sourcegitcommit: 3c4e59f55af2eafb3adbae3bb0091e4f6caacc8b
+ms.openlocfilehash: c249df697553cd42eccd59d3f2c3f5f083ead1cb
+ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1576912"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624598"
 ---
 # <a name="provision-talent"></a>Provisionar o Talent
 
@@ -48,6 +48,8 @@ Depois de criar um projeto de LCS, você pode provisionar o Talent em um ambient
 
 1. Em seu projeto LCS, selecione o bloco **Gerenciamento do Aplicativo Talent**.
 2. Indique se esta é uma instância de Área restrita ou Produção do Talent. Os recursos de visualização antecipada podem estar disponíveis em instâncias de Área restrita para permitir comentários e testes antecipados. 
+    > [!NOTE]
+    > O tipo de instância do Talent é separado do tipo de instância do ambiente do PowerApps, que você definiu no centro de administração do PowerApps.
 3. Selecione a opção **Incluir Dados de Demonstração** se quiser que o ambiente inclua o mesmo conjunto de dados de demonstração usado na experiência de test drive do Talent. Isso é interessante para ambientes de demonstração ou de treinamento de longo prazo, e nunca deve ser usado em ambientes de produção.  Observe que você deve selecionar esta opção na implantação inicial. Não é possível atualizar uma implantação já existente depois.
 4. O Talent sempre é provisionado em um ambiente Microsoft PowerApps para permitir a integração e extensibilidade do PowerApps. Leia a seção “Selecionando um ambiente do PowerApps” deste tópico antes de prosseguir. Se você ainda não tem um ambiente PowerApps, selecione Gerenciar ambientes no LCS ou vá para o Centro de administração do PowerApps. Depois, rastreie as etapas em [Criar um ambiente de PowerApps](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
 

@@ -1,9 +1,9 @@
 ---
-title: Contagem de etiqueta de estoque
-description: Este artigo fornece informações sobre a contagem de etiquetas, que pode ser usado para comparar o conteúdo real de um depósito com o estoque disponível.
+title: ​Contagem de etiquetas do estoque​
+description: Este tópico fornece informações sobre a contagem de etiquetas, que pode você usa para comparar o conteúdo real de um depósito com o estoque disponível.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,24 +18,23 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dff899d0e6d94287c0f1924fe1787189d79c09f4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 704330d136afee08fcee36db19acf72297fddac8
+ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570825"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624852"
 ---
-# <a name="inventory-tag-counting"></a>Contagem de etiqueta de estoque
+# <a name="inventory-tag-counting"></a>​Contagem de etiquetas do estoque​
 
 [!include [banner](../includes/banner.md)]
 
 [!include [retail name](../includes/retail-name.md)]
 
-Este artigo fornece informações sobre a contagem de etiquetas, que pode ser usado para comparar o conteúdo real de um depósito com o estoque disponível.
+Este tópico fornece informações sobre a contagem de etiquetas, que pode você usa para comparar o conteúdo real de um depósito com o estoque disponível.
 
 Ao criar linhas na página **Contagem de etiquetas**, você coloca um número de etiqueta em cada item de estoque, como um número de 1 a 500. Durante a contagem, você digita o número e a quantidade do item na respectiva etiqueta. Esta etiqueta pode ser usada como base para entrada no diário de contagem de etiquetas. Após você lançar o diário de contagem de etiquetas, um novo diário de contagem é criado na página **Contagem**. O novo diário se baseia nas linhas do diário de contagem de etiquetas que você criou. Para contar as etiquetas de itens por uma dimensão de estoque específica, selecione a dimensão na página **Dimensão de exibição** exibida quando você cria o diário de contagem de etiquetas. Por exemplo, para contar itens em um depósito específico, marque a caixa de seleção **Depósito**. Se o controle deslizante **Bloquear itens durante a contagem** na página **Parâmetros de gerenciamento de depósito e estoque** estiver selecionado, os itens não poderão ser atualizados fisicamente durante a contagem. No entanto, os itens em diários de contagem de etiquetas não são bloqueados durante a contagem. As transações de estoque não são criadas até que as linhas de contagem sejam lançadas e transferidas para um diário de contagem. Se as etiquetas forem inseridas aleatoriamente e você quiser identificar etiquetas ausentes, clique no cabeçalho da coluna **Etiqueta** para classificar as linhas por etiqueta.
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Contagem cíclica](../warehousing/cycle-counting.md)

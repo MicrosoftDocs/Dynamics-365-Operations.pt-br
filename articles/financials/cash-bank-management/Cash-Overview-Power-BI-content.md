@@ -3,7 +3,7 @@ title: Conteúdo de visão geral do caixa do Power BI
 description: Este tópico descreve o conteúdo de Visão geral do caixa do Power BI. Ele explica como acessar os relatórios incluídos no conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar o conteúdo.
 author: saraschi2
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5dccb5c5c6c336607603dfc7a935c039e5ac4aa5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: bff0b1b0a68eccec1cebf130bc40ec3e6d88c3a9
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568908"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702786"
 ---
 # <a name="cash-overview-power-bi-content"></a>Conteúdo de visão geral do caixa do Power BI
 
@@ -33,6 +33,17 @@ Este tópico descreve o conteúdo de **Visão geral do caixa** do Microsoft Powe
 
 O conteúdo de **Visão geral do caixa** do Power BI foi criado para as pessoas que são responsáveis pelo dinheiro em suas organizações. O conteúdo de **Visão geral do caixa** do Power BI dá visibilidade ao fluxo de caixa. Também fornece as previsões que podem ajudá-lo a tomar as melhores decisões e melhorar a integridade de seu fluxo de caixa. Você pode analisar o caixa por entidade legal, por moeda e por conta bancária para obter melhor o conhecimento de pontos fracos ou deficiências.
 
+## <a name="setup-needed-to-view-power-bi-content"></a>Configuração necessária para exibir o conteúdo do Power BI
+
+A configuração a seguir precisa ser concluída para que os dados sejam exibidos nos recursos visuais **Visão geral do caixa** e **Gerenciamento bancário** do Power BI .
+
+1. Vá para **Administração do sistema > Configuração > Parâmetros do Sistema** para definir **Moeda do sistema** e **Taxa de Câmbio do Sistema**.
+2. Vá para **Contabilidade > Configuração > Razão** para definir **Moeda Contábil** e **Tipo de Taxa de Câmbio**.
+2. Defina taxas de câmbio entre moedas de transação e moeda contábil, moeda contábil e moeda do sistema, moeda contábil e moedas de bancos. Para fazer isso, vá para **Contabilidade > Moedas > Taxas de câmbio de moedas**.
+3. Configure e execute a previsão de fluxo de caixa. Para obter mais informações sobre como configurar a previsão de fluxo de caixa, consulte <a href="https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting
+">Previsão de fluxo de caixa</a>. 
+4. Vá para **Administração do sistema > Configuração > Repositório de Entidades** para atualizar a medida de agregação **LedgerCovLiquidityMeasurement**.
+
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
 
 Relatórios do conteúdo de **Visão geral do caixa** do Power BI são exibidos nos espaços de trabalho **Visão geral do caixa** e **Gerenciamento bancário**.
@@ -42,6 +53,7 @@ Para exibir os relatórios de previsão de fluxo de caixa com dados, primeiro é
 Para fins de demonstração, você pode adicionar os dados de demonstração de previsão de fluxo de caixa usando a página **Gerar dados** no módulo Dados de demonstração.  Este script inserirá os dados nas tabelas de previsão de fluxo de caixa para que as informações necessárias aos relatórios sejam preenchidas rapidamente.  Este módulo só estará disponível se você tiver o modelo de conjunto Dados de demonstração implantado no ambiente. 
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Relatórios incluídos no conteúdo do Power BI
+
 A tabela a seguir fornece detalhes sobre as métricas encontradas em cada página de relatório no conteúdo de **Visão geral do caixa** do Power BI.
 
 | Relatório                                | Conteúdo |
@@ -67,5 +79,3 @@ A próxima tabela mostra as entidades nas quais foi baseado o conteúdo de **Vis
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | Entradas, saídas e saldo resumido usando cada moeda contábil da empresa |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | Entradas, saídas e saldo resumido usando a moeda do sistema de todas as empresas |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | Valor da transação e saldo de moeda líquida resumidos usando a moeda da transação |
-
-

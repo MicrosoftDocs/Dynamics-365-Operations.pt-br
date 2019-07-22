@@ -3,7 +3,7 @@ title: Candidatos de origem usando grupos de talento
 description: Este tópico explica como criar e configurar os grupos de talentos no Attract.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/02/2019
+ms.date: 06/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 13b5e3091a4bcdbf1bfbe077ffb04ec8d08a0911
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d2d680aa54e4610959c12bc1feef11ba8f30b0ca
+ms.sourcegitcommit: 40be0096af50e74d9946e382d3bbd2683bed1fc5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517297"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "1711285"
 ---
 # <a name="source-candidates-by-using-talent-pools"></a>Candidatos de origem usando grupos de talento
 
@@ -110,15 +110,16 @@ Todas os usuários têm uma exibição comum dos perfis de candidato. A guia **P
 
 - Você pode exibir os detalhes de contato do candidato. Você também pode editar ou atualizar as informações conforme o necessário usando o botão **Editar detalhes**.
 
-- Você pode adicionar mais marcas de habilidades para ajudar a identificar habilidades de um candidato.
-
 - Você pode exibir o histórico completo de solicitação de emprego do candidato. Você pode ver todas as solicitações de emprego do candidato em sua organização e o status delas. Se você fizer parte da equipe de contratação para uma posição de trabalho, poderá selecionar **Exibir** para examinar em detalhes a solicitação de emprego.
 
-- A guia **Documentos** mostra todos os documentos que o candidato adicionou de seu perfil ou durante as solicitações de emprego. Esta guia pode ser usada para gerenciar os currículos, as cartas de apresentação, o trabalho de portfólio e assim por diante do candidato. Você também pode usar esta guia para adicionar documentos.
+- A guia **Documentos** mostra todos os documentos que o candidato adicionou de seu perfil ou durante as solicitações de emprego. Você pode usar esta guia, por exemplo, para gerenciar os currículos, as cartas de apresentação e o trabalho de portfólio do candidato. Você também pode usar esta guia para adicionar documentos.
 
     Para exibir um documento, selecione o nome do documento na lista de documentos. Você pode exibir documentos do Microsoft Word no aplicativo usando o Microsoft Office 365. Você também pode baixar os documentos para o computador local usando a opção **Download** para cada documento.
 
 - A guia **LinkedIn** mostra informações do candidato no LinkedIn. Para usar esta guia, é necessário conectar a conta do LinkedIn nas configurações do usuário, e a conexão com o LinkedIn Recruiter do seu ambiente deve ser estabelecida. Para obter mais informações, consulte [Obter informações do LinkedIn Recruiter](./attract-linked-in-recruiter.md).
+
+> [!NOTE]
+> Somente os candidatos podem atualizar suas habilidades, histórico de formação educacional e experiência de trabalho.
 
 ## <a name="add-candidates-from-a-talent-pool-to-a-job"></a>Adicionar candidatos de um grupo de talentos a um trabalho
 

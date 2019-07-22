@@ -3,7 +3,7 @@ title: Criar um trabalho em lotes
 description: Um trabalho em lotes é um grupo de tarefas que são enviadas para uma instância do Application Object Server (AOS) para processamento automático.
 author: maertenm
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fbb844ebcf8d4b47b127132a5bf0ea45fa40f747
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d211dcd7cb47df135d395d2a993429746aa35a85
+ms.sourcegitcommit: 6ba4006fb6a67ddd4b1e54e3d62b9d1239b5e5a3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562872"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "1700832"
 ---
 # <a name="create-a-batch-job"></a>Criar um trabalho em lotes
 
@@ -31,21 +31,27 @@ Um trabalho em lotes é um grupo de tarefas que são enviadas para uma instânci
 
 
 ## <a name="create-the-batch-job"></a>Criar o trabalho em lotes
-1. Vá para Administração do sistema > Consultas > Trabalhos em lotes.
-2. Clique em Novo.
-3. No campo Descrição do trabalho, digite um valor.
-4. No campo Data/hora inicial agendada, insira uma data e hora.
-5. Clique em Salvar.
+1. Vá para **Painel de navegação > Módulos > Administração do sistema > Consultas > Trabalhos em lotes**.
+2. Clique em **Novo**.
+3. No campo **Descrição do trabalho**, digite um valor.
+4. No campo **Data/hora inicial agendada**, insira uma data e hora.
+5. Clique em **Salvar**.
 
 ## <a name="create-a-recurrence"></a>Criar uma recorrência
-1. No Painel de Ação, clique em Trabalho em lotes.
-2. Clique em Recorrência.
-    * Use estas opções para inserir um intervalo e um padrão para a recorrência.  
-3. Clique em OK.
+1. No Painel de Ação, clique em **Trabalho em lotes**.
+2. Clique em **Recorrência**. Use estas opções para inserir um intervalo e um padrão para a recorrência.  
+3. Clique em **OK**.
 
 ## <a name="add-alerts"></a>Adicionar alertas
-1. No Painel de Ação, clique em Trabalho em lotes.
-2. Clique em Alertas.
-    * Indique se você quer que mensagens de alertas sejam enviadas quando as extremidades do trabalho de grupo, tiverem um erro ou forem canceladas. Especifique então se você quer que os alertas indiquem como mensagens pop-up.   
-3. Clique em OK.
+1. No Painel de Ação, clique em **Trabalho em lotes**.
+2. Clique em **Alertas**. Indique se você quer que mensagens de alertas sejam enviadas quando as extremidades do trabalho de grupo, tiverem um erro ou forem canceladas. Especifique então se você quer que os alertas indiquem como mensagens pop-up.   
+3. Clique em **OK**.
 
+## <a name="adjust-batch-job-status"></a>Ajuste o status de trabalho em lotes
+1. Vá para **Administração do sistema > Consultas > Trabalhos em lotes**.
+2. Selecione o trabalho em lotes apropriado.
+3. No Painel de Ação, clique em **Trabalho em lotes > Funções > Alterar status**.
+4. Selecione o status apropriado:
+    - **Reter**: definir o trabalho em lotes como **reter** para que seja retido do agendador de trabalho em lotes. Equivalente a *parar*.
+    - **Aguardar**: definir o trabalho em lotes como **aguardar** para que aguarde para ser retirado pelo agendador de trabalho em lotes. Equivalente a *ir*.
+5. Clique em **OK**.

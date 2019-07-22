@@ -3,7 +3,7 @@ title: Configurar a integração da folha de pagamento entre o Talent e o Dayfor
 description: Este tópico explica como configurar a integração entre o Microsoft Dynamics 365 for Talent e o Ceridian Dayforce para processar um ciclo de pagamento.
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/26/2019
+ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9a88bf61dbb12520b555ceb7363b1c646d95386e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 59234ef44ad22383ae5daf71d4b663c6183e6c05
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517292"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702809"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>Configurar a integração da folha de pagamento entre o Talent e o Dayforce
 
@@ -54,6 +54,16 @@ Para obter mais informações sobre as contas de armazenamento do Azure e as cad
 
 - [Sobre as contas de armazenamento do Azure](https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
 - [Configurar cadeias de conexão do Armazenamento do Azure](https://docs.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string)
+
+### <a name="technical-details-when-payroll-integration-is-enabled"></a>Detalhes técnicos quando a integração da folha de pagamento está habilitada
+
+A ativação da integração da folha de pagamento tem dois efeitos principais:
+
+- Um projeto de exportação de dados denominado "Exportação de integração da folha de pagamento" é criado. Este projeto contém as entidades e os campos necessários para a integração da folha de pagamento. Para revisar o projeto, vá para **Administração do sistema**, selecione o bloco **Gerenciamento de dados** e abra o projeto de dados da lista de projetos.
+- Esse trabalho em lotes executa o projeto de exportação de dados, criptografa o pacote de dados resultante e transfere o arquivo do pacote de dados para a empresa de SFTP configurada na tela **Configuração de integração**.
+
+> [!NOTE]
+> O pacote de dados transferido para a empresa de SFTP é criptografado usando uma chave exclusiva para o pacote. A chave é um Azure Key Vault acessível somente pelo Ceridian. Não é possível descriptografar e revisar o conteúdo do pacote de dados. Se você precisar examinar o conteúdo do pacote de dados, exporte manualmente o projeto de dados "Exportação de integração da folha de pagamento", baixe-o e abra-o A exportação manual não aplicará a criptografia nem transferirá o pacote.
 
 ## <a name="configure-your-data"></a>Configurar seus dados 
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: a56f162ccc6b6099fd62e0cb7e10076368d8e653
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: e51fb00536884d2b3815c05a0968714d8b9326f2
+ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517375"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "1729694"
 ---
 # <a name="career-site-functionality-in-attract"></a>A funcionalidade do site de carreiras no Attract
 
@@ -48,11 +48,14 @@ Para definir os valores dos itens a seguir, entre no Attract como administrador,
  
 Para definir os valores dos itens a seguir, entre no Attract como administrador, selecione **Centro de Administração** no menu **Configurações** e selecione a guia **Gerenciamento do site de carreiras**.
 
--   **Otimização do mecanismo de pesquisa** - Quando habilitada, todos os trabalhos públicos postados para o site de carreiras do Attract serão pesquisados usando mecanismos de pesquisa, como o Bing e o Google.
+-   **Otimização do mecanismo de pesquisa** - Quando habilitada, todos os trabalhos públicos postados para o site de carreiras do Attract serão pesquisados usando mecanismos de pesquisa, como o Bing e o Google. 
 
     > [!NOTE] 
     > Pode haver um atraso entre ativar essa configuração e os resultados da pesquisa, dependendo do mecanismo de pesquisa que você está usando.
-         
+    
+-   **Termos e condições** - Quando habilitada, todos os candidatos devem concordar com os termos e condições da organização ao candidatarem-se a um trabalho. O administrador do Attract pode configurar seu próprio texto de consentimento assim como o link para a página de termos e condições. 
+
+        
 ## <a name="career-site-urls"></a>URLs do site de carreiras
 
 A lista a seguir contém as URLs do site de carreiras comumente usadas e como acessá-las.
