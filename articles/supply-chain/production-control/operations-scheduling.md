@@ -3,7 +3,7 @@ title: Plano de operações
 description: Este tópico fornece informações sobre agendamento de operações. Você pode usar o plano de operações para fornecer uma estimativa geral do processo de produção ao longo do tempo.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 298c07346427a949ffa544e66eb6b01995dadc38
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9447474e0878077659a80dc49f7c7c1313db2cbe
+ms.sourcegitcommit: 8741b4b32ef32a54de3d064bf40a9c0179d4139a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560246"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "1691453"
 ---
 # <a name="operations-scheduling"></a>Plano de operações
 
@@ -67,6 +67,9 @@ O plano de operações também norteia o planejamento mestre, que determina todo
 -   **Produções em registros anteriores** – Produtos que são planejados, liberados ou iniciados.
 -   **Disponibilidade de material** – Estoque, subprodução, provedores e fornecedores
 -   **Disponibilidade de capacidade** – recursos necessários para a produção
+
+> [!NOTE]
+> Se estiver usando o planejamento mestre de vários threads e o plano de operações, a capacidade finita não será considerada. 
 
 ## <a name="cancellations"></a>Cancelamento
 Quando você executa o agendamento de operações, você pode cancelar algumas partes do roteiro. Essas partes incluem o tempo de espera, o tempo de preparação, tempo de processamento, o tempo de sobreposição, e o tempo de transporte.

@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: b88ba4386dbf3513d75990acca1c07fa6f0dc9b0
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 1c7c017cce26b6b250d899bba891d6823b40c282
+ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517351"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "1729717"
 ---
 # <a name="email-templates"></a>Modelos de email
 [!include[banner](../includes/banner.md)]
 
-Usando a biblioteca de modelos de email, os administradores podem criar um tema uniforme e marcas para todos os emails enviados com o Microsoft Dynamics 365 for Talent: Attract. Os administradores também podem coletar um conjunto de modelos de conteúdo de email que outros usuários podem consumir. A equipe de contratação pode usar esses modelos no fluxo de trabalho para enviar emails com maior eficiência. Alguns emails do Attract são configurados para serem enviados automaticamente. O administrador pode usar a biblioteca de modelos de email para personalizar o conteúdo desses emails.
+Usando a biblioteca de modelos de email, os administradores podem criar um tema uniforme e marcas para todos os emails enviados com o Microsoft Dynamics 365 for Talent: Attract and Offer. Os administradores também podem coletar um conjunto de modelos de conteúdo de email que outros usuários podem consumir. A equipe de contratação pode usar esses modelos no fluxo de trabalho para enviar emails com maior eficiência. Alguns emails são configurados para serem enviados automaticamente. O administrador pode usar a biblioteca de modelos de email para personalizar o conteúdo desses emails.
 
 > [!NOTE]
 > Para usar modelos de email, sua organização deve ter o complemento Contratação Abrangente.
@@ -37,7 +37,7 @@ Usando a biblioteca de modelos de email, os administradores podem criar um tema 
 
 Para criar marcas consistentes para todas as comunicações por email, o administrador deve primeiro definir o cabeçalho e rodapé globais para todos os modelos de email. No Centro de administração, na guia **Configurações de modelo de email**, na seção **Cabeçalho** , o administrador pode carregar uma imagem para usar como o cabeçalho ou a faixa para todos os emails. A imagem pode ser um logotipo da empresa, um timbre ou qualquer outra imagem representativa. É recomendável que a largura tenha entre 25 e 800 pixels e a altura entre 25 e 150 pixels, pois essas dimensões são ideais para a maioria dos clientes de email, como o Microsoft Outlook. A imagem deve ser um arquivo JPEG, JPG, PNG ou SVG. O tamanho do arquivo deve ser inferior a 1 megabyte (MB). Após uma imagem ser carregada, uma exibição do cabeçalho será gerada e mostrada. Se a imagem do cabeçalho precisar ser removida ou substituída, o administrador poderá usar a opção **Remover** acima da exibição.
 
-Na seção **Rodapé**, o administrador pode fornecer links para a política de privacidade da empresa para comunicação, além dos termos e condições. Esses links são inseridos em um rodapé que é gerado automaticamente. Uma visualização deste rodapé é exibida.
+Na seção **Rodapé**, o administrador pode fornecer links para a política de privacidade da empresa para comunicação, além dos termos e condições. Esses links são inseridos em um rodapé que é gerado automaticamente. Uma visualização deste rodapé é exibida. O administrador também pode escolher um idioma específico no qual os rodapés de email serão enviados como parte de todos os emails. A mesma configuração de idioma também será usada para preparar a tabela de resumo da entrevista. 
 
 Verifique se você salvou suas alterações antes de fechar o Centro de administração.
 
@@ -46,7 +46,7 @@ Verifique se você salvou suas alterações antes de fechar o Centro de administ
 
 ## <a name="email-template-library"></a>Biblioteca de modelos de email 
 
-Após a definição das configurações de modelo global, o administrador poderá começar a criar e coletar modelos de todos os emails enviados do Attract. A biblioteca de modelos de email está disponível apenas para administradores. Para abrir a biblioteca, no menu principal de navegação, selecione guia **Modelos de email**. A biblioteca é categorizada pelas várias atividades no Attract para a quais os emails devem ser enviados, como agendamento, avaliação e criação de trabalhos. O administrador pode selecionar qualquer categoria para exibir todos os tipos de email associados à atividade. Por exemplo, selecione **Agendamento** para exibir os vários tipos de email que são enviados durante o processo de agendamento e todos os modelos disponíveis para cada tipo de email. Cada subseção em uma categoria representa um tipo de email.
+Após a definição das configurações de modelo global, o administrador poderá começar a criar e coletar modelos de todos os emails enviados do Attract and Offer. A biblioteca de modelos de email está disponível apenas para administradores. Para abrir a biblioteca, no menu principal de navegação, selecione a guia **Modelos de email**. A biblioteca é categorizada pelas várias atividades no Attract para a quais os emails devem ser enviados, como agendamento, avaliação, criação e oferta de trabalhos. O administrador pode selecionar qualquer categoria para exibir todos os tipos de email associados à atividade. Por exemplo, selecione **Agendamento** para exibir os vários tipos de email que são enviados durante o processo de agendamento e todos os modelos disponíveis para cada tipo de email. Cada subseção em uma categoria representa um tipo de email.
 
 Alguns tipos de email podem ter mais de um destinatário. Por exemplo, na categoria **Agendamento**, os emails enviados quando o resumo do agendamento de entrevista é necessário são enviados para candidatos e entrevistadores. Cada seção tem duas colunas principais: **Título do Modelo** e **Destinatário**. Cada linha em uma seção representa um único modelo para um tipo de email. Primeiro, um símbolo de cadeado aparecerá na linha para cada modelo. Esse símbolo indica que o modelo é o padrão fornecido com o Attract e que ele não pode ser excluído. Para qualquer modelo, o administrador pode usar o botão de reticências (**...**) para duplicar o modelo, defini-lo como um modelo padrão ou excluí-lo. Quando um modelo é definido como um modelo padrão, um de dois comportamentos pode ocorrer. O comportamento é indicado pelos selos que aparecem na linha do modelo:
 

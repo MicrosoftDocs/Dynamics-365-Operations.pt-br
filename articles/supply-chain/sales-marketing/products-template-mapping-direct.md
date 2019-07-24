@@ -3,7 +3,7 @@ title: Sincronizar produtos diretamente do Finance and Operations com produtos n
 description: Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar produtos do Microsoft Dynamics 365 for Finance and Operations para o Microsoft Dynamics 365 for Sales.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/25/2018
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: feb9fbc066162e2caa9fc5dbaeec2c063ae23060
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ff284585a2eb4c5cf55d2e3a3e0f317d1fb218bb
+ms.sourcegitcommit: 51dc11919fcb2324482b48cc4ce4484945ade803
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572595"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624326"
 ---
 # <a name="synchronize-products-directly-from-finance-and-operations-to-products-in-sales"></a>Sincronizar produtos diretamente do Finance and Operations com produtos do Sales
 
@@ -43,7 +43,7 @@ A solução Prospect to cash usa o recurso de integração de dados sincronizar 
 
 ## <a name="templates-and-tasks"></a>Modelos e tarefas
 
-Para acessar os modelos disponíveis, abra o [Centro de administração de PowerApps](https://preview.admin.powerapps.com/dataintegration). Selecione **Projetos** e, no canto superior direito, selecione **Novo projeto** para selecionar modelos públicos.
+Para acessar os modelos disponíveis, abra o [Centro de administração de PowerApps](https://admin.powerapps.com/dataintegration). Selecione **Projetos** e, no canto superior direito, selecione **Novo projeto** para selecionar modelos públicos.
 
 O modelo e as tarefas subjacentes a seguir são usados para sincronizar produtos do Finance and Operations para o Sales.
 

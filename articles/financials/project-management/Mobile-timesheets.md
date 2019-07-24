@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
-ms.openlocfilehash: 96ad2af40ffb68649dca7a90d5ae14cd64b43ce9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a7eff0ce166785cb777fbf58ecf08ca8915be5af
+ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557320"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624875"
 ---
 # <a name="project-timesheets-on-a-mobile-device"></a>Folhas de ponto do projeto em um dispositivo móvel
 
 [!include [banner](../includes/banner.md)]
-
-# <a name="overview"></a>Visão Geral
 
 **Minhas folhas de ponto (otimizadas para dispositivo móvel)** permitem que os funcionários criem e enviem folhas de ponto do projeto para registrar suas horas para um projeto específico em um dispositivo móvel. Os funcionários podem criar uma nova folha de ponto ou copiar dados de uma folha de ponto já existente para garantir a entrada de horas de maneira rápida e precisa. Se você for designado como um delegado, também poderá inserir uma folha de ponto para outro trabalhador. O aplicativo permite que os funcionários filtrem por projeto, por recurso, ou por status de aprovação para localizar e selecionar rapidamente uma folha de ponto. Também fornece aos funcionários a capacidade de salvar favoritos, que salva as informações do projeto e da atividade na folha de ponto. Os favoritos salvos podem ser usados para criar as futuras folhas de ponto, agilizando o processo de entrada de hora. A edição ou exibição de informações da dimensão financeira não é suportada para o aplicativo móvel. **Minhas folhas de ponto (otimizadas para dispositivo móvel)** pode ser acessadas pelo seu navegador em seu dispositivo móvel.
 
@@ -35,8 +33,7 @@ ms.locfileid: "1557320"
 Este aplicativo móvel é compatível com iPhone com atualização 15 da plataforma do Dynamics 365 for Finance and Operations.
 O Android será compatível com a atualização 16 da Plataforma, quando estiver disponível.
 
-<a name="create-a-project-timesheet-on-your-mobile-device"></a>Crie uma folha de ponto do projeto em seu dispositivo móvel
-------------------------------------------------
+## <a name="create-a-project-timesheet-on-your-mobile-device"></a>Crie uma folha de ponto do projeto em seu dispositivo móvel
 
 1.  Observe a URL do Dynamics 365 para a página **Gerenciamento e contabilidade do projeto** \> **Folhas de ponto** \> **Minhas Folhas de ponto (Otimizadas para dispositivo móvel)**.
 

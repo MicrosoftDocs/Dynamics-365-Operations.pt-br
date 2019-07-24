@@ -3,7 +3,7 @@ title: Sistema de ajuda do Finance and Operations
 description: Este tópico fornece uma visão geral dos componentes do sistema de ajuda do Microsoft Dynamics 365 for Finance and Operations.
 author: margoc
 manager: AnnBe
-ms.date: 11/13/2018
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c74ff55e0a9a81c058de802d70365d13d34c8ff
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: da5b67bd67ff1a227a5f1812d41cdad9f062dfd0
+ms.sourcegitcommit: ad4d378afd88028d2002633a3cc8a67313cbeddd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595630"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625320"
 ---
 # <a name="finance-and-operations-help-system"></a>Sistema de ajuda do Finance and Operations
 
@@ -95,16 +95,18 @@ Se você tiver dúvidas ou comentários sobre um tópico, deixe-nos um comentár
 
     ![Postar comentário](./media/feedback.png)
 
-##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Sugerir uma alteração ou contribuir com conteúdo no GitHub
+### <a name="contribute-to-the-documentation"></a>Colabore com a documentação
 
-Para sugerir uma alteração, é preciso ter uma conta do GitHub, e assinar um contrato de licença de contribuinte. Após você enviar uma solicitação de pull, examinaremos as alterações propostas. Se necessário, faremos uma análise interna e lhe daremos uma resposta.
+Você pode colaborar e fazer edições na documentação do Finance and Operations. Para começar, clique no botão **Editar** (lápis) em um tópico ou vá para nosso repositório em <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>. O vídeo a seguir mostra como você pode colaborar com a nossa documentação.
 
-Para começar, clique no botão **Editar** (lápis) em um tópico ou vá para nosso repositório em <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>.
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE36liB]
 
-Para obter mais informações, consulte o guia do colaborador: <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md>.
+O vídeo [Como colaborar com a documentação do Microsoft Dynamics 365](https://youtu.be/m5djioozRbg) (mostrado acima) está incluído na [playlist Novidades no Dynamics 365](https://www.youtube.com/playlist?list=PLcakwueIHoT-ErQZPP80qNKuEAr0wAAD9) disponível no YouTube.
+
+Para obter mais informações, consulte o guia do colaborador em <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md>.
 
 > [!NOTE]
-> No momento, só aceitamos contribuições para nosso conjunto de conteúdo em inglês.
+> No momento, só aceitamos colaborações para nosso conteúdo em inglês.
 
 ## <a name="task-guides"></a>Guias de tarefas
 

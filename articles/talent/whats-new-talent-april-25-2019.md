@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 13cfe68e3d06001c56770fa60838404c43d0b38d
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 5ec10820761cb22cbff6229babe8a250848214b7
+ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517310"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624572"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-23-2019"></a>Novidades ou alterações no Dynamics 365 for Talent (23 de abril de 2019)
 
@@ -46,7 +46,7 @@ Com a versão desta semana, as entidades a seguir oferecem suporte a campos pers
 ### <a name="additional-odata-entities-302992"></a>Entidades OData adicionais (302992)
 As entidades a seguir agora são compatíveis dentro do OData: experiência profissional do trabalhador e educação do trabalhador.
    
-### <a name="performance-journal-attachments-for-nanagers-and-employees-308248"></a>Os anexos de diário de desempenho para os gerentes e funcionários (308248)
+### <a name="performance-journal-attachments-for-managers-and-employees-308248"></a>Anexos do diário de desempenho para gerentes e funcionários (308248)
 Com essa versão, os anexos agora estão disponíveis para gerentes e funcionários ao criar e atualizar entradas de diário de desempenho.
 
 ### <a name="employee-rehire-flag-always-available-310047"></a>Sinalizador de recontratação de funcionário sempre disponível (310047)

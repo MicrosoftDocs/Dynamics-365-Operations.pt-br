@@ -3,7 +3,7 @@ title: Personalizar a experiência do usuário
 description: Este tópico explica como você pode personalizar o Microsoft Dynamics 365 for Finance and Operations.
 author: jasongre
 manager: AnnBe
-ms.date: 05/17/2019
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67ba1a95299de09c74e2fa2808cb63f61acf5862
-ms.sourcegitcommit: c576b81dc3c93c09fb08fb0ba0c19f417360c5ab
+ms.openlocfilehash: 51c4cbbba36ed4c93fbbba907031023060d51495
+ms.sourcegitcommit: 0273905ceb371ba17d3a37d690e1f568aa968b4f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620005"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625002"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar a experiência do usuário
 
@@ -169,6 +169,6 @@ Os usuários com privilégios de administrador também podem gerenciar personali
 
 Quando você personalizar a configuração de dimensões de estoque em uma página, considere as configurações que foram criadas usando a opção **Dimensões de exibição**. Por exemplo, você usou a personalização para ocultar uma coluna para a dimensão de estoque do número de lote, mas a coluna aparecerá na próxima vez que a página for aberta. Esse comportamento ocorre porque as configurações **Exibição de dimensão** controlam as colunas de dimensão do estoque que são exibidas.
 
-As configurações de **Exibição de dimensão** se aplicam a todas as páginas e substituem qualquer configuração personalizada de campos de dimensão de estoque em páginas individuais.
+As configurações de **Exibição de dimensão** aplicam-se a todas as páginas e substituem a configuração personalizada de campos de dimensão de estoque em cada página individual.
 
-Como resultado, no exemplo anterior, se você não deseja que a coluna da dimensão de estoque do número de lote seja exibida, limpe essa dimensão como parte da opção **Exibir dimensões** da tabela. Com o tempo, essa alteração se aplicará não apenas a uma página específica mas a todas as páginas.
+Como resultado, no exemplo anterior, se você não deseja que a coluna da dimensão de estoque do número de lote apareça na página, limpe essa dimensão como parte da opção **Exibir dimensões** dessa página.

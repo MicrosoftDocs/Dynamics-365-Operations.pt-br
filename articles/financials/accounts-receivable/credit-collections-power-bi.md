@@ -3,7 +3,7 @@ title: Conteúdo de gerenciamento de crédito e cobranças do Power BI
 description: Este tópico descreve o que está incluído no conteúdo de gerenciamento de crédito e cobranças do Power BI. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que são usados para criar o conteúdo.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a80a180623d1cca77c633f12bcd92a088e089ee5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5f6b1c9338670a2f2f26ecbef1d349171457e1ac
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547223"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702763"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Conteúdo de gerenciamento de crédito e cobranças do Power BI
 
@@ -42,7 +42,17 @@ Todos os valores são mostrados na moeda do sistema. Você pode definir a moeda 
 
 Por padrão, são mostrados o crédito e os dados de cobrança da empresa atual. Para ver os dados entre todas as empresas, atribua o direito **CustCollectionsBICrossCompany** à função.
 
+## <a name="setup-needed-to-view-power-bi-content"></a>Configuração necessária para exibir o conteúdo do Power BI
+
+A configuração a seguir precisa ser concluída para que os dados sejam exibidos em recursos visuais **Crédito e cobranças de clientes** do Power BI.
+
+1. Vá para **Administração do sistema > Configuração > Parâmetros do Sistema** para definir **Moeda do sistema** e **Taxa de Câmbio do Sistema**.
+2. Vá para **Contabilidade > Configuração > Razão** e defina **Moeda Contábil** e **Tipo de Taxa de Câmbio**.
+3. Defina taxas de câmbio entre Moedas de transação e Moeda contábil, Moeda contábil e Moeda do sistema. Para fazer isso, vá para **Contabilidade > Moedas > Taxas de câmbio de moedas**.
+4. Vá para **Administração do sistema > Configuração > Repositório de Entidades** para atualizar a medida de agregação **CustCollectionsBIMeasurements**.
+
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
+
 O conteúdo de **Gerenciamento de crédito e cobranças** do Power BI é exibido no espaço de trabalho **Crédito e cobranças de clientes**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Relatórios incluídos no conteúdo do Power BI
@@ -63,28 +73,3 @@ O conteúdo de **CustCollectionsBICrossCompany** do Power BI tem um relatório q
 | Cartas de cobranças         | <ul><li>Valores de código de cobrança</li><li>Detalhes do valor do código de cobrança</li><li>Valor da cartas de cobrança por empresa</li><li>Valor da carta de cobrança por grupo de clientes</li><li>Valor da carta de cobrança por região</li></ul> |
 
 Os gráficos e os blocos em todos esses relatórios podem ser filtrados e fixados no painel. Para obter mais informações sobre como filtrar e fixar no Power BI, consulte [Criar e configurar um dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Você também pode usar a funcionalidade Exportar dados subjacentes para exportar os dados subjacentes resumidos em uma visualização.
-
-## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
-
-Os dados a seguir são usados para preencher o relatório no conteúdo de **Gerenciamento de crédito e cobranças** do Power BI. Esses dados são representadas como medições agregadas que foram preparadas no Repositório de entidades. O Repositório de entidades é um banco de dados do Microsoft SQL Server otimizado para análise. Para obter mais informações, consulte [Visão geral da integração do Power BI com o repositório de entidades](../../dev-itpro/analytics/power-bi-integration-entity-store.md).
-
-
-|                   Entidade                    |      Principais medidas agregadas      |             Fonte de dados              |                           Campo                            |                                    descrição                                     |
-|---------------------------------------------|--------------------------------------|--------------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------------|
-| CustCollectionsBIActivitiesAverageCloseTime | NumOfActivities, AveragecClosedTime  |            smmActivities             | AverageOfChildren(AverageClosedTime) Count(ActivityNumber) |     A contagem das atividades fechadas e de tempo médio para fechar as atividades.     |
-|       CustCollectionsBIActivitiesOpen       |            ActivityNumber            |            smmActivities             |                   Count(ActivityNumber)                    |                           A contagem de atividades abertas.                            |
-|        CustCollectionsBIAgedBalances        |             AgedBalances             |  CustCollectionsBIAgedBalancesView   |                 Sum(SystemCurrencyBalance)                 |                             A soma de saldos antigos.                              |
-|        CustCollectionsBIBalancesDue         |         SystemCurrencyAmount         |   CustCollectionsBIBalanceDueView    |                 Sum(SystemCurrencyAmount)                  |                           Os valores que estão vencidos.                            |
-|    CustCollectionsBICaseAverageCloseTIme    |  NumOfCases, CaseAverageClosedTime   |      CustCollectionsCaseDetail       | AverageOfChildren(CaseAverageClosedTime) Count(NumOfCases) |        A contagem de casos fechados e de tempo médio para fechar os casos.        |
-|         CustCollectionsBICasesOpen          |                CaseId                |      CustCollectionsCaseDetail       |                       Count(CaseId)                        |                              A contagem de casos abertos.                              |
-|      CustCollectionsBICollectionLetter      |         CollectionLetterNum          |       CustCollectionLetterJour       |                 Count(CollectionLetterNum)                 |                       A contagem de cartas de cobranças abertas.                        |
-|   CustCollectionsBICollectionLetterAmount   |       CollectionLetterAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                     O saldo de cartas de cobrança lançadas.                      |
-|      CustCollectionsBICollectionStatus      |       CollectionStatusAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                O saldo das transações com status de cobrança.                 |
-|           CustCollectionsBICredit           | CreditExposed, AmountOverCreditLimit |     CustCollectionsBICreditView      |       Sum(CreditExposed), Sum(AmountOverCreditLimit)       | A soma de exposição de crédito e valores cujos clientes estão sobre seu limite de crédito. |
-|         CustCollectionsBICustOnHold         |               Bloqueado                |      CustCollectionsBICustTable      |                       Count(Blocked)                       |                     O número de clientes que estão em espera.                      |
-|            CustCollectionsBIDSO             |                DSO30                 |       CustCollectionsBIDSOView       |                  AverageOfChildren(DSO30)                  |                        Vendas diárias pendentes para 30 dias.                         |
-|      CustCollectionsBIExpectedPayment       |           ExpectedPayment            | CustCollectionsBIExpectedPaymentView |                 Sum(SystemCurrencyAmounts)                 |                 A soma de pagamentos esperados no próximo ano.                 |
-|        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                O número de notas de juros que foram criadas.                |
-|        CustCollectionsBISalesOnHold         |               SalesId                |              SalesTable              |                       Count(SalesId)                       |                 O número total de ordens de venda que estão em espera.                 |
-|          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                A soma das transações que foram baixadas.                 |
-

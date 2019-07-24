@@ -3,7 +3,7 @@ title: Espaço de trabalho de pagamentos dos fornecedores
 description: Este tópico fornece informações sobre a área de trabalho móvel de pagamentos de fornecedor. A área de trabalho de pagamentos de fornecedor mostra informações relacionadas ao processamento de pagamentos de fornecedores.
 author: abruer
 manager: AnnBe
-ms.date: 05/09/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,26 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 789acd3f403e322ec00388ca8184ccd30c3ea436
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6f5ffe65b2f9be7423f1fe420594c936e15550fb
+ms.sourcegitcommit: 6f0e5bf82a5f61bab52c3cf4c82849fae5c5d50b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1509213"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702926"
 ---
 # <a name="vendor-payments-workspace"></a>Espaço de trabalho de pagamentos dos fornecedores
 
 [!include [banner](../includes/banner.md)]
 
 A área de trabalho **Pagamentos de fornecedor** mostra informações relacionadas ao processamento de pagamentos de fornecedores. Esta área de trabalho inclui uma visualização **Meu trabalho** e uma página **Análise**. A visualização **Meu trabalho** mostra quadros resumidos, grades de transação de fornecedor, e informações relacionadas do fornecedor. A página **Análise** usa recursos do Microsoft Power BI para mostrar os visuais relacionados a pagamentos de fornecedor.
+
+## <a name="setup-needed-to-view-power-bi-content"></a>Configuração necessária para exibir o conteúdo do Power BI
+
+A configuração a seguir precisa ser concluída para que os dados sejam exibidos em **Pagamentos do fornecedor** em recursos visuais do Power BI.
+1. Vá para **Administração do sistema > Configuração > Parâmetros do Sistema** para definir **Moeda do sistema** e **Taxa de Câmbio do Sistema**.
+2. Vá para **Contabilidade > Configuração > Razão** para definir **Moeda Contábil** e **Tipo de Taxa de Câmbio**. 
+2. Defina taxas de câmbio entre Moedas de transação e Moeda contábil, Moeda contábil e Moeda do sistema. Para fazer isso, vá para **Contabilidade > Moedas > Taxas de câmbio de moedas**.
+3. Vá para **Administração do sistema > Configuração > Repositório de Entidades** para atualizar a medida de agregação **VendPaymentBIMeasure**. 
 
 ## <a name="my-work-view"></a>Visualização Meu trabalho
 

@@ -3,7 +3,7 @@ title: ​Visão geral de faturas de fornecedor​
 description: Este tópico fornece informações gerais sobre notas fiscais de fornecedor. As notas fiscais de fornecedor são solicitações para pagamento dos produtos e serviços recebidos. As notas fiscais do fornecedor podem representar uma conta para serviços em andamento, ou podem se basear em ordens de compra para itens específicos e serviços.
 author: abruer
 manager: AnnBe
-ms.date: 06/04/2019
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b57c18b5b2cf690111511e4c5a92d51fc23dd68c
-ms.sourcegitcommit: 901ec3b360303bb8b4d9a9dcfecc6d75d7f844a0
+ms.openlocfilehash: d02eee989e5bebd1cad0b1392ec19aaa918d9db5
+ms.sourcegitcommit: f9444077022a6c678090d02d0f9d4ec0e54b7ca9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1618264"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625070"
 ---
 # <a name="vendor-invoices-overview"></a>​Visão geral de faturas de fornecedor​
 
@@ -91,13 +91,6 @@ Você pode usar a página **Recuperar faturas de fornecedor** para recuperar ou 
 
 Você pode acessar a página **Recuperar faturas de fornecedor** somente se o direito e o privilégio de segurança **Recuperar faturas de fornecedor em uso** estão atribuídos a você. Além disso, o parâmetro **Permitir recuperação de fatura de fornecedor** na página **Parâmetros de contas a pagar** deve ser ativado.
 
-## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>Redefinição do status do fluxo de trabalho para faturas de fornecedor de Irrecuperável para Rascunho
-
-Uma instância de fluxo de trabalho que foi interrompida por causa de um erro irrecuperável terá um status de fluxo de trabalho de **Irrecuperável**. Quando o status de um fluxo de trabalho de fatura de fornecedor é **Irrecuperável**, você pode redefini-lo como **Rascunho**. Você pode editar a fatura do fornecedor. Esse recurso estará disponível se o parâmetro **Redefinir o status de rascunho para o fluxo de trabalho de fatura de fornecedor** na página **Gerenciamento de recursos** estiver ativado.
-
-Você pode usar a página **Redefinir o status do fluxo de trabalho de fatura de fornecedor** para redefinir o status do fluxo de trabalho como **Rascunho**. Você pode abrir essa página na navegação **Tarefa periódica**. A página mostra todas as faturas de fornecedor que têm um status de fluxo de trabalho de **Irrecuperável** na entidade legal atual. Ela também mostra o usuário que enviou cada fatura para o fluxo de trabalho e o identificador da fatura e fornece um link para o histórico do fluxo de trabalho. Para redefinir o status do fluxo de trabalho como **Rascunho**, marque uma ou mais faturas e, em seguida, selecione **Atualizar como rascunho**. Depois que o status do fluxo de trabalho é redefinido como **Rascunho**, ele fica disponível para edição na página **Fatura de fornecedor**.
-
-Você pode acessar a página **Redefinir o status do fluxo de trabalho de fatura de fornecedor** somente se o direito de segurança **Manter o status para o fluxo de trabalho de fatura de fornecedor** e o privilégio **Redefinir o status para o fluxo de trabalho de fatura de fornecedor** forem atribuídos a você.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

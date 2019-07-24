@@ -3,7 +3,7 @@ title: Atualizações regulatórias
 description: Este tópico fornece uma lista de atualizações regulatórias planejadas e liberadas para o Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/16/2019
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 8b79dd65c38d878303a75490721a3c7e6f1c6d09
-ms.sourcegitcommit: d153bde74651400118bbd37b69ff5e7e161f1db7
+ms.openlocfilehash: ba01fe7ad3e4326e8ab52b78220d3ba79e94af7c
+ms.sourcegitcommit: 51dc11919fcb2324482b48cc4ce4484945ade803
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "1593334"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624302"
 ---
 # <a name="regulatory-updates"></a>Atualizações regulatórias
 
@@ -67,6 +67,13 @@ Para obter informações sobre os planos de atualizações regulatórias mais re
 |      Pendente            |   10.0.3      | Polônia     |   Faturas do SAF (JPK_FA) v.2 desde 1º de julho de 2019  |
 |      Pendente            |   10.0.3      | Brasil   |   Os ajustes da nota fiscal de ICMS habilitam a tabela 5.2   |
 |      Pendente            |   10.0.3      | Brasil    |   Decreto de NF-e 54.308/18 (RS)   |
+  | Pendente            |   10.0.4      | Brasil    |   Documento fiscal de entrada 66   |
+   | Pendente            |   10.0.4      | Brasil    |   NF-e e NFC-e - Resolução 13/2019 e Portaria SUCIEF 55/2019- RJ - novas condições para saída isentas de etiqueta em NF-e.   |
+   | Pendente            |   10.0.4      | Índia   |   Exibição de "local de origem" e "estado" na nota fiscal de GST  |
+   | Pendente            |   10.0.4      | México   |  Declaração DIOT de terceiros - alterações no layout de 2019   |
+   | Pendente            |   10.0.4      | Brasil    |   NF-e ICMS-ST - portaria CAT 42/18 para o estado de SP - CAT 42/18
+   | Pendente            |   10.0.4      | Brasil    |   Decreto de NF-e 54.308/18 - RS NF   |
+   
 
 
 ## <a name="additional-resources"></a>Recursos adicionais

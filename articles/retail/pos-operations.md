@@ -3,7 +3,7 @@ title: Operações de ponto de venda (PDV) online e offline
 description: Este tópico fornece detalhes sobre as operações de ponto de venda (PDV) no Microsoft Dynamics 365 for Retail. Ele especifica em que ponto do aplicativo as operações podem ser invocadas, e se estão disponíveis no modo offline.
 author: jblucher
 manager: AnnBe
-ms.date: 10/12/2017
+ms.date: 05/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 44a2ec48f868c803c80c8df8eb809bc2254e63da
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: e21f8677144c7293409e409082e8125c05f3a8fe
+ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505087"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625656"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operações de ponto de venda (PDV) online e offline
 
@@ -160,8 +160,8 @@ As seguintes colunas especificam onde as operações podem ser invocados:
 | 1211 | Sangria para cofre | Realizar um depósito no cofre para mover o dinheiro da registradora para um cofre. | Sim | Sim | Sim | Sim | Não |
 | 516 | Fatura de venda | Esta operação permite que o cliente efetue pagamentos da fatura selecionada. | Sim | Sim | Não | Não | Não |
 | 502 | Vendedor | Esta operação permite ao usuário definir o valor **Tomador de vendas** em uma ordem de venda para as ordens do cliente no PDV. | Sim | Sim | Não | Sim\* | Não |
-| 2000 | Gerenciamento de agenda | Esta operação permite aos usuários criar, modificar ou exibir planos de funcionários. | Sim | Sim | Sim | Não | Não |
-| 2001 | Solicitações de agenda | Esta operação permite ao usuário solicitar folgas, troca de turnos ou oferecer turnos para outros funcionários. | Sim | Sim | Sim | Não | Não |
+| 2000 | Gerenciamento de agenda | Ainda não há suporte para esta operação. | Sim | Sim | Sim | Não | Não |
+| 2001 | Solicitações de agenda | Ainda não há suporte para esta operação. | Sim | Sim | Sim | Não | Não |
 | 622 | Pesquisar | Esta operação permite aos usuários pré-configurar botões do PDV para executar pesquisas por item, cliente ou categoria. | Sim | Sim | Sim | Sim | Não |
 | 1213 | Pesquisar Endereço de Remessa | Esta operação não tem suporte. | Não Aplicável | Não Aplicável | Não Aplicável | Não Aplicável | Não |
 | 709 | Selecionar estação de hardware | Esta operação permite ao usuário selecionar uma estação de hardware em uma lista de estações disponíveis de hardware. | Sim | Sim | Sim | Sim | Não |

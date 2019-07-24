@@ -1,9 +1,9 @@
 ---
-title: Gerar uma previsão estatística
-description: Este artigo fornece informações sobre os parâmetros e filtros usados no cálculo da previsão de demanda.
+title: ​Gerar uma previsão estatística​
+description: Este tópico fornece informações sobre os parâmetros e filtros usados no cálculo da previsão de demanda.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 30f2ccb8c0b4d7c4755e0b8dc66539e165265090
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4bc5a38519efb6f4d242daca9aab5226c16e4ea0
+ms.sourcegitcommit: 3be8d2be6474264f0a530a052d19ea2635e269cf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546308"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "1729866"
 ---
-# <a name="generate-a-statistical-baseline-forecast"></a>Gerar uma previsão estatística
+# <a name="generate-a-statistical-baseline-forecast"></a>​Gerar uma previsão estatística​
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo fornece informações sobre os parâmetros e filtros usados no cálculo da previsão de demanda. 
+Este tópico fornece informações sobre os parâmetros e filtros usados no cálculo da previsão de demanda. 
 
 Ao criar uma previsão de baseline, primeiro você deve especificar os parâmetros e os filtros usados no cálculo. Por exemplo, você pode criar uma previsão de baseline que estima a demanda baseada nos dados de transação do ano passado para uma empresa específica, para o mês de entrada e para um grupo de itens selecionado. 
 
@@ -49,9 +49,12 @@ Para evitar confusão nos planos de produção, um determinado número de classi
 
 A data inicial da previsão de demanda de linha de base não precisa ser a data atual ou uma data futura. Para definir uma data inicial diferente, use **Data de início de previsão de linha de base - Data inicial**. Por exemplo, em junho, os usuários poderão gerar uma previsão para o próximo ano. Como as classificações de previsão entre o fim da demanda histórica e o início da linha de base estão ausentes, as previsões podem não ser precisas. Se você estiver usando o serviço de previsão de demanda do Microsoft Dynamics 365 for Finance and Operations, há quatro maneiras para você preencher as lacunas ausentes. Você pode escolher o método que deseja definindo o parâmetro MISSING\_VALUE\_SUBSTITUTION na página **Parâmetros de previsão de demanda**. 
 
+> [!NOTE]
+> A substituição de valor ausente funciona somente para os intervalos em dados entre o início e o fim de dados históricos. Ela não preencherá dados antes ou depois do último ponto de dados físico; ela só funciona como uma extrapolação entre pontos de dados existentes reais. 
+
 O campo **Data de início de previsão de linha de base** - **Data inicial** deve ser definido como o início de uma classificação de previsão, por exemplo, nos Estados Unidos, um domingo, se a previsão for semanal. O sistema ajusta automaticamente o campo **Data de início de previsão de linha de base** - **Data inicial** de modo que corresponda ao início de uma classificação de previsão. 
 
-O campo **Data de início de previsão de linha de base** - **Data inicial** pode ser definido para uma data no passado. Em outras palavras, é possível gerar uma previsão de demanda no passado. Isso será útil porque permite que os usuários ajustem os parâmetros do serviço de previsão de modo que a previsão estatística gerada no passado corresponda à demanda histórica real. Os usuários poderão, então, continuar usando essas configurações de parâmetro para gerar uma previsão estatística para o futuro. 
+O campo **Data de início de previsão de linha de base** - **Data inicial** pode ser definido para uma data no passado. Em outras palavras, é possível gerar uma previsão de demanda no passado. Isso será útil porque permite que os usuários ajustem os parâmetros do serviço de previsão para que a previsão estatística gerada no passado corresponda à demanda histórica real. Os usuários poderão, então, continuar usando essas configurações de parâmetro para gerar uma previsão estatística para o futuro. 
 
 Os ajustes manuais feitos nas iterações de previsão de demanda anteriores poderão ser aplicados automaticamente à nova previsão estatística se a caixa de seleção **Transferir ajustes manuais para a previsão de demanda**. Se a caixa de seleção estiver desmarcada, os ajustes manuais não serão adicionadas à previsão estatísticas, mas não serão excluídos. Os ajustes manuais feitos em uma previsão podem ser excluídos somente no momento da importação da previsão, desmarcando a caixa de seleção **Salvar os ajustes manuais feitos na previsão de demanda da linha de base**. Os ajustes manuais são salvos no momento da autorização. Portanto, se um usuário fizer ajustes manuais na previsão, mas não autorizar a previsão no Finance and Operations, as alterações serão perdidas. Para obter mais informações sobre os ajustes manuais e como eles funcionam, consulte [Autorizando a previsão ajustada](authorize-adjusted-forecast.md). 
 
@@ -59,18 +62,19 @@ Uma geração de previsão de demanda pode ter um nome e comentários para facil
 
 O grupo de planejamento intercompanhia, as chaves de alocação de itens e outros filtros podem ser aplicados no momento da geração da previsão. Eles podem ser usados para melhorar o desempenho ou para dividir os dados em partes gerenciáveis. No entanto, observe que uma previsão de demanda não será gerada para os membros de qualquer chave de alocação de item que não esteja associada a um grupo de planejamento intercompanhia, mesmo se a chave de alocação de item for selecionada na consulta. 
 
-**Dica**: os usuários podem receber erros enquanto geram uma previsão de demanda; do contrário, a geração de previsão será concluída sem log de sessão. Isso pode ocorrer devido aos dados que restaram na consulta usada anteriormente para a geração da demanda. Para solucionar o problema, clique em **Selecionar** para abrir a página **Consulta**, clique em **Redefinir** e gere novamente a previsão estatística. 
+> [!TIP]
+> Os usuários talvez recebam erros ao gerar uma previsão de demanda ou a geração de previsão será concluída sem log de sessão. Isso pode ocorrer devido aos dados que restaram na consulta usada anteriormente para a geração da demanda. Para resolver esse problema, clique em **Selecionar** para abrir a página **Consulta**, selecione **Redefinir** e gere novamente a previsão de linha de base. 
 
 Se a previsão não for gerada para um grande conjunto de itens, mas, por exemplo, para um item ou uma chave de alocação de item por vez, você poderá marcar a caixa de seleção **Usar modo de resposta da solicitação** na guia **Planejamento mestre - Configuração - Previsão de demanda** - **Parâmetros de previsão de demanda - Aprendizado de Máquina do Azure** a fim de melhorar o desempenho.
+
+> [!NOTE]
+> Uma previsão aparentemente tranquila talvez deva-se aos dados históricos que precisam ser de um período histórico maior (no mínimo 3 períodos para selecionar padrões, como 3 anos com previsão mensal). Para obter um resultado melhor, tente alterar a granularidade do intervalo de tempo ou aumentar o intervalo de tempo.
 
 <a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Configuração da previsão de demanda](demand-forecasting-setup.md)
+- [Configuração da previsão de demanda](demand-forecasting-setup.md)
 
-[Ajustes manuais na previsão estatística](manual-adjustments-baseline-forecast.md)
+- [Ajustes manuais na previsão estatística](manual-adjustments-baseline-forecast.md)
 
-[Autorizando a previsão ajustada](authorize-adjusted-forecast.md)
-
-
-
+- [Autorizando a previsão ajustada](authorize-adjusted-forecast.md)
