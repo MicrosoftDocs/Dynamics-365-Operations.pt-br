@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 1fc894206f9d90fce1e2eab292ac241e9d943e23
-ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
+ms.openlocfilehash: f94a674e021d4f23480433440cd239b851491d87
+ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "1617311"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "1790412"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Verificador de consistência das transações de varejo
 
@@ -50,6 +50,7 @@ O processo em lote **Validar transações de loja** verifica a consistência das
 - **Conta de cliente** — valida se a conta de cliente nas tabelas de transações de varejo existe no cliente mestre da matriz.
 - **Contagem de linhas** — valida se o número de linhas, como capturado na tabela de cabeçalho de transações, corresponde ao número de linhas nas tabelas de transações de vendas.
 - **Preço incluindo imposto** — valida se o parâmetro **Preço incluindo imposto** é consistente nas linhas de transação.
+- **Valor do pagamento** — valida se os registros de pagamento corresponderem ao valor do pagamento no cabeçalho.
 - **Valor bruto** — valida se o valor bruto no cabeçalho é a soma dos valores líquidos nas linhas mais o valor do imposto.
 - **Valor líquido** — valida se o valor líquido no cabeçalho é a soma dos valores líquidos nas linhas mais o valor do imposto.
 - **Pagamento a maior/a menor** — valida se a diferença entre o valor bruto no cabeçalho e o valor do pagamento não excede a configuração de pagamento maior/a menor máximo.
@@ -58,6 +59,7 @@ O processo em lote **Validar transações de loja** verifica a consistência das
 - **Item do cartão-presente** — o Retail não oferece suporte à devolução de itens do cartão-presente. No entanto, o saldo em um cartão-presente pode ser resgatado. Haverá falha no processo de lançamento de demonstrativo em qualquer item de cartão-presente que seja processado como uma linha de devolução em vez de uma linha de resgate. O processo de validação de itens de cartão-presente ajuda a garantir que somente os itens de cartão-presente devolvidos nas tabelas de transações de varejo sejam linhas de resgate de cartão-presente.
 - **Preço negativo** — valida se não há nenhum preço negativo nas linhas de transação.
 - **Item e grade** — valida se os itens e as grades nas linhas de transação existem no item e no arquivo mestre da grade.
+- **Valor do imposto** — valida se os registros de impostos correspondem aos valores de imposto nas linhas. 
 
 ## <a name="set-up-the-consistency-checker"></a>Configurar o verificador de consistência
 

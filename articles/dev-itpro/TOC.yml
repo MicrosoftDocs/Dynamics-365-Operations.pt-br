@@ -106,10 +106,28 @@
           items:
             - name: Referência da linguagem X++
               href: dev-ref/xpp-language-reference.md
-            - name: Variáveis e tipos de dados do X++
-              href: dev-ref/xpp-variables-data-types.md
-            - name: 'Instruções, loops e tratamento de exceções do X++'
-              href: dev-ref/xpp-statements-loops.md
+            - name: Variáveis e tipos de dados
+              items:
+                - name: Variáveis
+                  href: dev-ref/xpp-variables-data-types.md
+                - name: Tipos de dados primitivos
+                  href: dev-ref/xpp-data-primitive.md
+                - name: Tipos de dados compostos
+                  href: dev-ref/xpp-data-composite.md
+                - name: Classes da coleção
+                  href: dev-ref/xpp-data-collection.md
+                - name: Tipos de dados estendidos
+                  href: dev-ref/xpp-data-edt.md
+            - name: 'Instruções, loops e tratamento de exceções'
+              items:
+                - name: 'Comentários, utilização e impressão'
+                  href: dev-ref/xpp-statements-loops.md
+                - name: Instruções condicionais
+                  href: dev-ref/xpp-conditional.md
+                - name: Instruções de loop
+                  href: dev-ref/xpp-loops.md
+                - name: Tratamento de exceções
+                  href: dev-ref/xpp-exceptions.md
             - name: Exceções do X++ para o erro de conexão do SQL
               href: dev-ref/sql-connection-error.md
             - name: Operadores do X++
@@ -120,9 +138,11 @@
               href: dev-ref/xpp-classes-methods.md
             - name: Seleção e manipulação de dados do X++
               href: dev-ref/xpp-data-query.md
-            - name: ​Macros do X++​
+            - name: Acesso a dados usando a API do SysDa
+              href: dev-ref/sysda.md
+            - name: Macros do X++
               href: dev-ref/xpp-macros.md
-            - name: ​Classes de atributo do X++​
+            - name: Classes de atributo do X++
               href: dev-ref/xpp-attribute-classes.md
             - name: 'Comparação entre X++ e C#'
               href: dev-ref/xpp-cs-comparison.md
@@ -436,11 +456,15 @@
           href: user-interface/page-navigation.md
         - name: Layout de página no cliente Web
           href: user-interface/page-layout.md
-        - name: Fonte de símbolo dinâmico
+        - name: Fonte de símbolos do Dynamics
           href: user-interface/symbol-font.md
-        - name: ​Formulários de teste que usam padrões personalizados​
+        - name: Exibições salvas
+          href: ../fin-and-ops/get-started/saved-views.md
+        - name: Criar formulários que utilizam totalmente as exibições salvas
+          href: user-interface/understanding-saved-views.md
+        - name: Testar fFormulários que usam padrões personalizados
           href: user-interface/testing-forms-custom-patterns.md
-        - name: 'Criar URLs compartilháveis, protegidas (links profundos​)'
+        - name: Criar URLs compartilháveis e protegidas (links profundos)
           href: user-interface/create-deep-links.md
         - name: 'Acessibilidade em formulários, produtos e controles'
           href: user-interface/enable-accessibility.md
@@ -492,15 +516,15 @@
           href: user-interface/feature-callouts.md
         - name: Caixas de diálogo Controle deslizante e MessageBox
           href: user-interface/slider-messagebox.md
-        - name: 'Centro de mensagens, barra de mensagens e API de detalhes da mensagem'
+        - name: 'API do centro de mensagens, da barra de mensagens e dos detalhes da mensagem'
           href: user-interface/messaging-api-center-bar-details.md
-        - name: 'Centro de mensagens, barra de mensagens e perguntas frequentes sobre detalhes de mensagens'
+        - name: 'Perguntas frequentes sobre o centro de mensagens, a barra de mensagens e os detalhes da mensagens'
           href: user-interface/messaging-user.md
-    - name: Diretrizes primárias de padrão de formulário
+    - name: Diretrizes do padrão de formulário
       items:
         - name: Padrões de formulário para formulários migrados
           href: user-interface/select-form-pattern.md
-        - name: ​Estilos e padrões de formulário​
+        - name: Estilos e padrões de formulário
           href: user-interface/form-styles-patterns.md
         - name: Suplementos do Visual Studio com suporte a padrões de formulário
           href: user-interface/form-pattern-add-ins.md
@@ -1125,11 +1149,11 @@
           href: deployment/apply-updates-on-premises.md
         - name: Reimplantar uma implantação local
           href: deployment/redeploy-on-prem.md
-        - name: Upgrade in-loco de 7.x para 8.1 local
+        - name: Atualização in-loco de 7.x para 8.1 local
           href: migration-upgrade/on-prem-upgrade.md
     - name: Hotfixes
       items:
-        - name: Baixar hotfixes do Lifecycle Services
+        - name: Obter atualizações do Lifecycle Services
           href: migration-upgrade/download-hotfix-lcs.md
         - name: Aplicar atualizações a ambientes de nuvem
           href: deployment/apply-deployable-package-system.md
@@ -1162,6 +1186,8 @@
       href: sysadmin/pre-configured-system-accounts.md
     - name: Exportar usuários B2B para o Azure AD
       href: sysadmin/implement-b2b.md
+    - name: Definir o tempo limite de ociosidade da sessão
+      href: sysadmin/session-idle-timeout.md
     - name: Segurança baseada em função
       href: sysadmin/role-based-security.md
       items:
@@ -1310,6 +1336,8 @@
   items:
     - name: Obter suporte para o Finance and Operations e o Lifecycle Services
       href: lifecycle-services/lcs-support.md
+    - name: Visão geral do suporte do Dynamics 365
+      href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/unified-operations/fin-and-ops/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
     - name: Obter suporte para o Finance and Operations operado pela 21Vianet na China
       href: lifecycle-services/21vianet-support.md
     - name: Registrar em log um tíquete de suporte premier

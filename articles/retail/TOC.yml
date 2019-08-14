@@ -4,6 +4,8 @@
   items:
     - name: Novidades ou alterações
       href: get-started/whats-new.md
+    - name: Recursos de visualização no Dynamics 365 for Retail 10.0.5
+      href: get-started/whats-new-10-0-5.md
     - name: Novidades ou alterações no Dynamics 365 for Retail 10.0.3
       href: get-started/whats-new-10-0-3.md
     - name: Novidades ou alterações no Dynamics 365 for Retail 10.0.2
@@ -257,6 +259,8 @@
       href: Notifications-POS.md
 - name: Devoluções
   items:
+    - name: Reembolsos vinculados
+      href: dev-itpro/linked-refunds.md
     - name: Venda e devolução de produtos não incluídos no sortimento de uma loja
       href: sell-return-outside-assortments.md
     - name: Configurar e processar uma troca em uma ordem de devolução
