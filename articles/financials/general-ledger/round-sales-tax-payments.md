@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 6134
 ms.assetid: 7dcd3cf5-ebdf-4a9f-806c-1296c7da0331
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: yijialuan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e1c1bb1c792eb79888a1df209f2eebaf14a38dd
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 168c2fb9edfc994617ef6764a5b9f5949d599882
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1531848"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834989"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>Pagamentos de imposto e regras de arredondamento
 
@@ -128,6 +128,6 @@ Para obter mais informações, consulte os seguintes tópicos:
 - [Criar um pagamento de imposto](tasks/create-sales-tax-payment.md)
 - [Criar transações de vendas em documentos](tasks/create-sales-tax-transactions-documents.md)
 - [Exibir transações de imposto lançadas](tasks/view-posted-sales-tax-transactions.md)
-- [Função round](https://msdn.microsoft.com/en-us/library/aa850656.aspx)
+- [Função round](https://msdn.microsoft.com/library/aa850656.aspx)
 
 

@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b53f2f5399a3ba4abf826111efd038e926955a3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 08987999fc7c8c90ae18aafd91a00dec079499af
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567195"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849162"
 ---
 # <a name="set-up-interest-and-fines-for-vendor-payments-brazil"></a>Configurar juros e multas para pagamentos de fornecedores (Brasil)
 

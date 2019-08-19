@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: shylaw
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: f7d079b1dd63286911fd7a6ea4da459fa3168740
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 727da02a22b22f09bbf340a94a870d9734010fa1
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553091"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849367"
 ---
 # <a name="set-up-parameters-for-sped-efd---contributions"></a>Configurar parâmetros para SPED EFD - Contribuições
 

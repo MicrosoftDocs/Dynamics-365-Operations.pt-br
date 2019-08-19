@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64b35729db058040583e2f812a9283e6abd5a278
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a9c1834e22b918685bcd19c9ff44ccf39a4218f3
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567184"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852758"
 ---
 # <a name="enter-pis-and-cofins-tax-adjustment-transactions-brazil"></a>Inserir transações de ajuste de impostos PIS e COFINS (Brasil)
 

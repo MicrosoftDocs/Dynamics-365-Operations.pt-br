@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88377889f6fdca194716aecc62d8b4f6e2bc9b70
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 54b5634f3778e9dc1b0ee81f9167567a0da15b00
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556247"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852779"
 ---
 # <a name="create-and-post-a-purchase-complementary-fiscal-document-brazil"></a>Criar e lançar uma nota fiscal complementar de compra (Brasil)
 

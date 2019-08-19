@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fd138fb5fea4098a862fbecba5e8ec226ed6afa9
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551498"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850294"
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>Criar configurações de ER para gerar relatórios no formato do Word
 
@@ -64,7 +64,7 @@ Este procedimento é para um recurso que foi adicionado na versão 1611 do Micro
     * Além de armazenar alterações de configuração, a ação Salvar também atualiza o modelo do Word anexo. A estrutura do formato criado é transferida ao documento do Word anexo como nova parte XML personalizada com o nome "Relatório". Observe que o modelo do Word anexo contém não só o layout do documento que desejamos gerar como saída de ER, como também contém a estrutura dos dados que o ER preencherá nesse modelo no momento da execução.  
 2. Clique em Anexos.
     * Agora você precisa associar os elementos da parte XML personalizada "Relatório" às partes do documento do Word.  
-    * Se estiver familiarizado com documentos do Word que podem ser criados como formulários contendo controles associados a elementos das partes XML personalizadas, siga todas as etapas da próxima subtarefa para criar esse documento. Para obter mais detalhes, consulte este link https://support.office.com/en-us/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US. Caso contrário, ignore todas as etapas na próxima subtarefa.  
+    * Se estiver familiarizado com documentos do Word que podem ser criados como formulários contendo controles associados a elementos das partes XML personalizadas, siga todas as etapas da próxima subtarefa para criar esse documento. Para obter mais detalhes, consulte este link https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US. Caso contrário, ignore todas as etapas na próxima subtarefa.  
 
 ## <a name="get-word-with-custom-xml-part-to-do-data-bindings"></a>Obter o Word com a parte XML personalizada para realizar associações de dados
     * Abra este documento no Word e faça o seguinte: - Abra a guia Desenvolvedor do Word (personalize a faixa de opções se ela ainda não estiver habilitada).  - Selecione o painel de mapeamento do XML.  - Selecione a parte XML personalizada "Relatório" na pesquisa.  - Realize o mapeamento dos elementos da parte personalizada selecionada e os controles de conteúdo do documento do Word.  - Salve o documento do Word atualizado em uma unidade local.  

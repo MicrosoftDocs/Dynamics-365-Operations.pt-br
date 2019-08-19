@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 3f26240ec289f5ddcc2682e598bbf93f516b99af
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 06d7ff272ecb79abded3c3d3ade1f6bc0ef1f095
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562686"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742346"
 ---
 # <a name="synchronize-products-in-finance-and-operations-to-products-in-field-service"></a>Sincronizar produtos do Finance and Operations com produtos no Field Service
 
@@ -32,7 +32,7 @@ ms.locfileid: "1562686"
 
 Este tópico discute os modelos e a tarefa subjacente que são usados para sincronizar produtos do Microsoft Dynamics 365 for Finance and Operations com o Microsoft Dynamics 365 for Field Service.
 
-O modelo usado **Produtos do Field Service (Fin and Ops com o Field Service)** é baseado no modelo **Produtos (Fin and Ops com o Sales) – Direto** do Prospect to Cash. Para obter mais informações, consulte [Produtos (Fin and Ops com o Sales) – Direto](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct).
+O modelo usado **Produtos do Field Service (Fin and Ops com o Field Service)** é baseado no modelo **Produtos (Fin and Ops com o Sales) – Direto** do Prospect to Cash. Para obter mais informações, consulte [Produtos (Fin and Ops com o Sales) – Direto](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct).
 
 Este tópico descreve somente as diferenças entre os modelos **Produtos do Field Service (Fin and Ops com o Field Service)** e **Produtos (Fin and Ops com o Sales) – Direto**.
 

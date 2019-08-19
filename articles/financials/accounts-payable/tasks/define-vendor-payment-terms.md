@@ -1,54 +1,49 @@
 ---
 title: Definir condições de pagamento de fornecedor
-description: Configurar termos de pagamento para as faturas de fornecedores.
+description: Este tópico explica como configurar condições de pagamento para faturas de fornecedor.
 author: abruer
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PaymTerm, CashDisc
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 68c69d5be5ccbdfb17fea7c61121cbf26fee48d4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6432d04aa821e76d67e2c430e514f4b9056d8228
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569023"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1843184"
 ---
 # <a name="define-vendor-payment-terms"></a>Definir condições de pagamento de fornecedor
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Configurar termos de pagamento para as faturas de fornecedores. Esta tarefa usa a empresa de demonstração USMF.
+Este tópico explica como configurar condições de pagamento para faturas de fornecedor. Esta tarefa usa a empresa de demonstração USMF.
 
-1. Vá para Contas a pagar > Configurar pagamento > Termos de pagamento.
-2. Clique em Novo.
-    * A página de condições de pagamento é usada para definir como a data de vencimento será calculada. Não é usada para definir como a data de desconto à vista será calculada.  
-3. No campo Termos de pagamento, digite um valor.
-4. No campo Descrição, digite um valor.
-5. No campo Dias, insira um número.
-    * O número inserido aqui será usado para adicionar à data de vencimento, ou ao final do período identificado no método de pagamento. Por exemplo, se você selecionar a rede, o número será adicionado à data de vencimento. Se você selecionar o mês atual, adicionará o número ao último dia do mês atual para calcular a data de vencimento.  
-6. Clique em Salvar.
+1. Vá para **Painel de navegação > Módulos > Contas a pagar > Configuração de pagamento > Condições de pagamento**.
+2. Selecione **Novo**. A página de condições de pagamento é usada para definir como a data de vencimento será calculada. Não é usada para definir como a data de desconto à vista será calculada.  
+3. No campo **Condições de pagamento**, digite um valor.
+4. No campo **Descrição**, digite um valor.
+5. No campo **Dias**, insira um número. O número inserido aqui será usado para adicionar à data de vencimento, ou ao final do período identificado no método de pagamento. Por exemplo, se você selecionar **Rede**, o número será adicionado à data de vencimento. Se você selecionar **Mês atual**, ele adicionará o número ao último dia do mês atual para calcular a data de vencimento.  
+6. Selecione **Salvar**.
 7. Feche a página.
-8. Vá para Contas a pagar > Configurar pagamento > Descontos à vista.
-9. Clique em Novo.
-10. No campo Desconto à vista, insira uma ID.
-11. No campo Descrição, digite um valor.
+8. Vá para **Contas a pagar > Configuração de pagamento > Descontos à vista**.
+9. Selecione **Novo**.
+10. No campo **Desconto à vista**, insira uma ID.
+11. No campo **Descrição**, digite um valor.
 12. Se o fornecedor oferece um desconto estratificado, selecione o próximo desconto à vista após o atual ter vencido.
 13. Feche a página.
-14. No campo Dias, insira um número.
-    * A quantidade inserida no campo de dias será usada para calcular a data do desconto à vista, com base na opção selecionada no campo líquido/atual. Se o líquido foi selecionado, a quantidade será adicionada à data da nota fiscal para determinar a data do desconto à vista. Se o Mês atual foi selecionado, a quantidade será adicionada à data final do mês atual para determinar a data do desconto à vista.  
-15. Insira a porcentagem do desconto à vista no campo Desconto. 
-16. Insira a conta principal a qual o desconto à vista será lançado para as notas fiscais do cliente.
-17. Insira a conta principal a qual o desconto à vista será lançado para as notas fiscais do fornecedor.
-    * Se 'Contas de contrapartida de desconto' são definidas para usar a conta principal para o desconto do fornecedor, a conta principal será usada.  Se a opção estiver definida para Contas nas linhas de fatura, o desconto à vista será lançado às contas de ativo/despesas nas linhas da fatura.  
-18. Clique em Salvar.
+14. No campo **Dias**, insira um número. A quantidade inserida no campo **Dias** será usada para calcular a Data do desconto à vista, com base na opção selecionada no campo **Líquido/atual**. Se **Líquido** foi selecionado, a quantidade será adicionada à data da fatura para determinar a data do desconto à vista. Se **Mês atual** foi selecionado, a quantidade será adicionada à data final do mês atual para determinar a data do desconto à vista.  
+15. Insira a porcentagem do desconto à vista no campo **Desconto**. 
+16. Insira a conta principal na qual o desconto à vista será lançado para faturas de clientes. Depois, insira a conta principal na qual o desconto à vista será lançado para faturas de fornecedor. Se **Contas de contrapartida de desconto** estiver definida como **Usar conta principal para desconto do fornecedor**, a conta principal será usada. Se a opção estiver definida como **Contas nas linhas de fatura**, o desconto à vista será lançado nas contas de ativo/despesas nas linhas da fatura.  
+17. Selecione **Salvar**.
 

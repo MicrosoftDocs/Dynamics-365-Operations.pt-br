@@ -3,14 +3,14 @@ title: ​Visão geral de faturas de fornecedor​
 description: Este tópico fornece informações gerais sobre notas fiscais de fornecedor. As notas fiscais de fornecedor são solicitações para pagamento dos produtos e serviços recebidos. As notas fiscais do fornecedor podem representar uma conta para serviços em andamento, ou podem se basear em ordens de compra para itens específicos e serviços.
 author: abruer
 manager: AnnBe
-ms.date: 06/11/2019
+ms.date: 07/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
-ms.reviewer: sericks
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d02eee989e5bebd1cad0b1392ec19aaa918d9db5
-ms.sourcegitcommit: f9444077022a6c678090d02d0f9d4ec0e54b7ca9
+ms.openlocfilehash: c69291214796847af7169cf261865860998f0d27
+ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "1625070"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863314"
 ---
 # <a name="vendor-invoices-overview"></a>​Visão geral de faturas de fornecedor​
 
 [!include [banner](../includes/banner.md)]
-
+[!include [banner](../includes/preview-banner.md)]
 
 Este tópico fornece informações gerais sobre notas fiscais de fornecedor. As notas fiscais de fornecedor são solicitações para pagamento dos produtos e serviços recebidos. As notas fiscais do fornecedor podem representar uma conta para serviços em andamento, ou podem se basear em ordens de compra para itens específicos e serviços.
 
@@ -90,6 +90,13 @@ Quando uma fatura de fornecedor está sendo usada, ela não pode ser editada por
 Você pode usar a página **Recuperar faturas de fornecedor** para recuperar ou liberar faturas de fornecedor que estiveram em uso por mais de quatro horas, para que possam ser editadas. É possível abrir essa página na navegação **Tarefa periódica** ou em um bloco no espaço de trabalho **Entrada de fatura de fornecedor**. Depois que uma fatura for recuperada, estará disponível para edição na página **Fatura de fornecedor**.
 
 Você pode acessar a página **Recuperar faturas de fornecedor** somente se o direito e o privilégio de segurança **Recuperar faturas de fornecedor em uso** estão atribuídos a você. Além disso, o parâmetro **Permitir recuperação de fatura de fornecedor** na página **Parâmetros de contas a pagar** deve ser ativado.
+
+## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>Redefinição do status do fluxo de trabalho para faturas de fornecedor de Irrecuperável para Rascunho
+
+Uma instância de fluxo de trabalho que foi interrompida por causa de um erro irrecuperável terá um status de fluxo de trabalho de **Irrecuperável**. Quando o status de um fluxo de trabalho de fatura de fornecedor for **Irrecuperável**, você poderá redefini-lo como **Rascunho** ao selecionar **Cancelar**. Você pode editar a fatura do fornecedor. Esse recurso estará disponível se o parâmetro **Redefinir o status de rascunho para o fluxo de trabalho de fatura de fornecedor** na página **Gerenciamento de recursos** estiver ativado.
+
+Você pode usar a página **Histórico do fluxo de trabalho** para redefinir o status do fluxo de trabalho como **Rascunho**. Você pode abrir essa página desde **Fatura de fornecedor** ou da navegação **Comum > Consultas > Fluxo de trabalho**. Para redefinir o status de fluxo de trabalho como **Rascunho**, selecione **Cancelar**. Você também pode redefinir o status de fluxo de trabalho como Rascunho ao selecionar a ação **Cancelar** na página **Fatura de fornecedor** ou **Faturas de fornecedor pendentes**. Depois que o status do fluxo de trabalho é redefinido como **Rascunho**, ele fica disponível para edição na página **Fatura de fornecedor**.
+
 
 
 ## <a name="additional-resources"></a>Recursos adicionais

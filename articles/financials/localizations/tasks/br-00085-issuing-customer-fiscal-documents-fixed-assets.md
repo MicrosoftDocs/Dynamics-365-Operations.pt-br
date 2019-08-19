@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Brazil
 ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da4b043c725f786af59b3fb266d4102170d4ea36
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4ff8913f36ee9e9a3090f7f499868367e91e44d1
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556226"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852767"
 ---
 # <a name="issue-customer-fiscal-documents-fixed-assets-brazil"></a>Emitir notas fiscais para clientes (ativos fixos) (Brasil)
 

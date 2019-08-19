@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: eda7744a6365b4c3a884342a429c2340e5a13d66
-ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
+ms.openlocfilehash: 9aba1dabe3b2304c1f0dfd449982af1d4bc15d6b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624803"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742624"
 ---
 # <a name="retail-peripherals"></a>Periféricos para varejo
 
@@ -192,7 +192,7 @@ Você pode especificar o endereço IP de periféricos de rede em dois locais. Se
 
 #### <a name="modern-pos-for-android"></a>POS moderno para Android
 
-A partir do Dynamics 365 for Retail versão 8.1.3, o aplicativo Modern POS para Android inclui uma estação de hardware de IPC integrada. Essa estação de hardware dá suporte à comunicação com as impressoras de rede e aos conectores de pagamento. Para obter mais informações, visite o [artigo Aplicativo Hybrid para documentos Android](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
+A partir do Dynamics 365 for Retail versão 8.1.3, o aplicativo Modern POS para Android inclui uma estação de hardware de IPC integrada. Essa estação de hardware dá suporte à comunicação com as impressoras de rede e aos conectores de pagamento. Para obter mais informações, visite o [artigo Aplicativo Hybrid para documentos Android](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
 
 #### <a name="cloud-pos-and-modern-pos-for-ios"></a>PDV em Nuvem e Modern POS para iOS
 
@@ -541,7 +541,7 @@ Esta configuração é a configuração mais típica para as registradoras PDV f
 
 4. Clique em **Varejo** &gt; **TI de varejo** &gt; **Agenda de distribuição**.
 5. Selecione a agenda de distribuição **1090** para sincronizar o novo perfil de hardware com a loja. Clique em **Executar agora** para sincronizar as alterações do PDV.
-6. Selecione a agenda de distribuição **1040** para sincronizar a nova estação de hardware com a loja. Clique em **Executar agora** para sincronizar as alterações do PDV.
+6. Selecione a agenda de distribuição **1070** para sincronizar a nova estação de hardware com a loja. Clique em **Executar agora** para sincronizar as alterações do PDV.
 7. Instale e ative o PDV moderno para Windows.
 8. Inicie o PDV moderno para Windows, e comece a usar os dispositivos periféricos conectados.
 

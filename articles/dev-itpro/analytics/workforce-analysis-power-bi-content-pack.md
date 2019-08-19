@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations, Talent
 ms.custom: 264084
 ms.assetid: 8e700583-3a7d-4f5f-9ac8-58c4feed1a02
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1bb4b55fd929c105c20a1d4b1086bbb7f07d5eb1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 75d323c5d3adf4a880f8b464e03ee35cd6335e14
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544278"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850172"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>Conteúdo do Power BI Métricas de força de trabalho
 
@@ -56,7 +56,7 @@ A tabela a seguir lista as métricas mostradas em cada relatório.
 | Aniversários de funcionários                               | Aniversários deste mês, aniversários do mês que vem, aniversários de funcionários e aniversários por mês e departamento |
 | Projetos de contratação em massa                               | Total de projetos de contratação em massa, projetos de contratação em massa por status, projetos de contratação em massa por departamento e proprietário, projetos de contratação em massa por trabalho e projetos de contratação em massa |
 
-Você pode filtrar os gráficos e blocos nesses relatórios e fixá-los no painel. Para obter mais informações sobre como filtrar e fixar no Power BI, consulte [Criar e configurar um painel](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Você pode filtrar os gráficos e blocos nesses relatórios e fixá-los no painel. Para obter mais informações sobre como filtrar e fixar no Power BI, consulte [Criar e configurar um painel](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 Certifique-se de baixar o conteúdo do Power BI **Métricas da força de trabalho** que se aplica à versão do Microsoft Dynamics 365 que você está usando.
 

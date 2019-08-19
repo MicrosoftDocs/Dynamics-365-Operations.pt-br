@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 106233
 ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78512e39e82e24f94dae93bbac116e6f07d25438
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 35db2b51274afa6dae4cb5f75b4ba5390b167a49
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553943"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849572"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>Solução de desempenho financeiro do PowerBI.com
 
@@ -70,7 +70,7 @@ Cada bloco é respaldado por um relatório de suporte. Esses relatórios contêm
 | Análise de despesas            | Total de despesas, total de despesas reais e de orçamento por entidade legal, total de despesas reais e de orçamento por trimestre, total de despesas reais por categoria de conta e taxa de despesas operacionais |
 | Análise de receita faturada     | Total de contas a receber, total de contas a receber por entidade legal, total de contas a receber por trimestre e saldos de contas a receber<blockquote>[!NOTE] A informação não inclui os saldos iniciais das contas contábeis de contas a receber. Mostra o total de novas transações que são lançadas em Contas a receber.</blockquote> |
 
-Os gráficos e os blocos em todos esses relatórios podem ser filtrados e fixados no painel. Para obter mais informações sobre como filtrar e fixar no Power BI, consulte [Criar e configurar um dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Os gráficos e os blocos em todos esses relatórios podem ser filtrados e fixados no painel. Para obter mais informações sobre como filtrar e fixar no Power BI, consulte [Criar e configurar um dashboard](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
 As entidades a seguir foram usadas como base da solução **Desempenho financeiro** do PowerBI.com:

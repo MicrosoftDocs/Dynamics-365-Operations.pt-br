@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfbb2acc72ca19fbfc459481f39ed267ceee7b44
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8ac7fcf93e3001af15f422c5bbde1b6ccfa2579c
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556233"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852773"
 ---
 # <a name="generate-emails-for-approved-nf-e-and-attach-danfe-pdf-files-and-nf-e-xml-files-to-the-emails-brazil"></a>Gerar emails para NF-e aprovada e anexar arquivos PDF do DANFE e arquivos XML da NF-e aos emails (Brasil)
 

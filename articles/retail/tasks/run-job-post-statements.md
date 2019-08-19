@@ -3,7 +3,7 @@ title: Configurar e executar trabalho para lançar declarações
 description: Este procedimento orienta como configurar e executar um trabalho em lotes recorrente para lançar demonstrativos para uma loja ou grupo de lojas selecionado.
 author: josaw1
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 676216d90c50c0d3fa1a839cab7a734e624708ba
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a24014f7e1b925e0fdb20b91bcc9594feb8f4c5c
+ms.sourcegitcommit: fc40279d0e56f8a43c601bca6265fdde4c8c4c7e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550107"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "1792239"
 ---
 # <a name="configure-and-run-job-to-post-statements"></a>Configurar e executar trabalho para lançar declarações
 
@@ -31,11 +31,12 @@ ms.locfileid: "1550107"
 Este procedimento orienta como configurar e executar um trabalho em lotes recorrente para lançar demonstrativos para uma loja ou grupo de lojas selecionado. Este procedimento usa a empresa USRT nos dados de demonstração.
 
 1. Vá para Todos os espaços de trabalho > .. > Finanças da loja de varejo.
-2. Clique em Lançar demonstrativos.
+2. Clique em Lançar demonstrativos em lote.
     * Selecione uma hierarquia da organização e, na árvore de nós da organização, selecione uma loja individual ou um nó. Selecione um nó se você deseja criar o trabalho em lotes para um grupo de lojas.  
     * Clique na seta para adicionar sua seleção.  
-3. Clique na guia Executar em segundo plano.
+3. Clique na guia Executar em segundo plano. ![Executar em segundo plano](../dev-itpro/media/runbackground.png "Executar em segundo plano") 
 4. Marque ou desmarque a caixa de seleção Processamento em lotes.
+![Processamento em Lotes](../dev-itpro/media/batchprocessing.png "Processamento em Lotes e Recorrência") 
 5. Clique em Recorrência.
 6. No campo Data de início, insira uma data.
 7. No campo Hora de início, insira um horário.

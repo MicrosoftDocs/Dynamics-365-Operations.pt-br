@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 714715ccfbdd57e4450c301f5302e008c0c136b1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6a904529dccbe392793d0d108335b623bb1ed8b2
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571993"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742530"
 ---
 # <a name="requests-for-quotation-rfqs"></a>Solicitações de cotação (RFQs)
 
@@ -48,7 +48,7 @@ Você pode criar um caso de RFQ de ordens planejadas, de uma requisição de com
 
 Após preparar o caso de RFQ e adicionar fornecedores, selecione **Enviar** (**Enviar e publicar** para o setor público) no caso de RFQ. Um diário de RFQ é gerado para cada fornecedor para o qual você enviou a RFQ. Você pode definir as configurações de impressão para a ação de envio de forma que seja impresso um relatório para cada fornecedor em um arquivo ou que seja enviado um relatório para o endereço de e-mail de cada fornecedor. Além disso, você pode usar o diário de RFQ de cada fornecedor para gerar um relatório que você pode enviar ou reenviar a um fornecedor posteriormente. Você também pode configurar a ação Enviar, de forma que ela gere uma planilha de respostas que o fornecedor pode preencher.
 
-Este tópico abrange o processo para tratar RFQ quando a colaboração do fornecedor não for usada. Se o sistema estiver configurado para a colaboração do fornecedor, os fornecedores poderão inserir lances diretamente no Microsoft Dynamics 365 for Finance and Operations. Para obter mais informações, consulte [Colaboração de fornecedores com clientes](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) e [Colaboração de fornecedores com fornecedores externos](vendor-collaboration-work-external-vendors.md).
+Este tópico abrange o processo para tratar RFQ quando a colaboração do fornecedor não for usada. Se o sistema estiver configurado para a colaboração do fornecedor, os fornecedores poderão inserir lances diretamente no Microsoft Dynamics 365 for Finance and Operations. Para obter mais informações, consulte [Colaboração de fornecedores com clientes](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) e [Colaboração de fornecedores com fornecedores externos](vendor-collaboration-work-external-vendors.md).
 
 Se tiver que alterar uma RFQ após enviá-la, você poderá enviá-la novamente para os fornecedores quando tiver terminado usando as duas ações de alteração: criar e finalizar.+
 
@@ -179,7 +179,7 @@ Se você configurar o processo de alteração de modo que mais restritivo, antes
 
 Se você configurar o processo de alteração para que seja menos restritivo, não precisará selecionar **Criar** antes de modificar os campos em um caso de RFQ que já foi enviado. Entretanto, você deve adicionar manualmente uma nota de alteração na RFQ e enviar o caso novamente. Lembre-se que esta abordagem pode ser usada somente se nenhuma de respostas (lances) forem editadas. Se você inseriu uma resposta e ela estiver em um estado **Recebido**, o botão **Enviar** não estará disponível. Nesse caso, será necessário selecionar **Criar** e **Finalizar**, como você deve fazer no processo mais restritivo. A resposta é redefinida depois para refletir as alterações no caso de RFQ.
 
-Se os fornecedores usam a interface de colaboração de fornecedor para inserir ofertas, você sempre usar o processo de alteração para notificar fornecedores sobre alterações no caso de RFQ. Esse processo ajuda a evitar a situação em que os fornecedores dão um lance em um caso de RFQ desatualizado, enquanto o lance está em andamento. Para obter mais informações sobre colaboração do fornecedor, consulte [Colaboração do fornecedor com fornecedores externos](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
+Se os fornecedores usam a interface de colaboração de fornecedor para inserir ofertas, você sempre usar o processo de alteração para notificar fornecedores sobre alterações no caso de RFQ. Esse processo ajuda a evitar a situação em que os fornecedores dão um lance em um caso de RFQ desatualizado, enquanto o lance está em andamento. Para obter mais informações sobre colaboração do fornecedor, consulte [Colaboração do fornecedor com fornecedores externos](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
 
 Se quiser convidar fornecedores adicionais para fazer o lance, e nenhuma alteração foi feita no caso de RFQ, você poderá usar o botão **Enviar**. Os fornecedores que você adicionou aparecerão na página **Enviar** e receberão o convite por email.
 

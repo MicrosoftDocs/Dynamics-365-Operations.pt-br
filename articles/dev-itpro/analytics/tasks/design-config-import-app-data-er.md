@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 23004930d2377a3d647435b53b6809cd500f44ac
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551474"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741346"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>Criar configurações ER para analisar documentos recebidos
 
@@ -30,7 +30,7 @@ Este procedimento mostra como criar configurações de ER (relatório eletrônic
 
 Este procedimento é criado para usuários com a função atribuída de Administrador do sistema ou Desenvolvedor de relatório eletrônico. 
 
-Estas etapas podem ser concluídas usando qualquer conjunto de dados. Antes de começar, baixe e salve os arquivos listados no tópico, “Analisar documentos de entrada para atualizar os dados da solicitação de emprego” (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents). Os arquivos são: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
+Estas etapas podem ser concluídas usando qualquer conjunto de dados. Antes de começar, baixe e salve os arquivos listados no tópico, “Analisar documentos de entrada para atualizar os dados da solicitação de emprego” (https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents). Os arquivos são: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
 
 1. Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.
     * Verifique se o provedor de configuração da empresa exemplo, Litware, Inc., está disponível e marcado como Ativo. Se não visualizar esse provedor de configuração, conclua as etapas do procedimento “Criar um provedor de configuração e marcá-lo como ativo“.  

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 59161
 ms.assetid: 32e728c5-3b06-4049-8070-ade01e951d49
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3f2b34cccfd84a9e4bb76e7a1da64e5cefa9982e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4a4733dc4da7a8713ac7ddec5c96ae18c91edc18
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551734"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863662"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Organizar componentes do relatório no designer de relatórios
 
@@ -50,7 +50,7 @@ você pode agrupar definições de relatório para gerar vários relatórios ao 
 ### <a name="create-a-report-group"></a>Criar um grupo de relatórios
 
 1. No Designer de Relatórios, clique em **Grupos de Relatórios** no painel de navegação.
-2. No menu **Arquivo**, clique em **Novo** &gt; **Definição de grupo de relatório** para abrir um novo grupo de relatório na janela de visualização. Como alternativa, clique no botão **Grupo de relatório** ![Grupo de relatório](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Grupo de relatório") na barra de ferramentas.
+2. No menu **Arquivo**, clique em **Novo** &gt; **Definição de grupo de relatório** para abrir um novo grupo de relatório na janela de visualização. Como alternativa, clique no botão **Grupo de relatório** ![Grupo de relatório](media/report-group.gif "Grupo de relatório") na barra de ferramentas.
 3. Clique na guia **Grupo de relatório**. Para substituir as informações nas definições de relatório individuais para a geração deste relatório, marque a caixa de seleção **Substituir a empresa, os detalhes e as configurações de data das definições de relatório individuais**. As informações de nome da empresa, nível de detalhe, configurações provisórias e data são preenchidas automaticamente, mas você ainda pode fazer atualizações.
 4. Marque a caixa de seleção **Incluir todas as moedas de relatório** se desejar que os vários relatórios gerados exibam essas moedas. Você pode acessar diversas exibições clicando no botão **Moeda** no Visualizador Web quando você exibir o relatório.
 5. No campo **Relatórios no grupo**, clique em **Adicionar** para selecionar os relatórios a serem incluídos no grupo Relatório. Para selecionar vários relatórios na caixa de diálogo **Adicionar**, mantenha pressionada a tecla CTRL enquanto seleciona relatórios. Quando terminar de selecionar os relatórios, clique em **OK**.
@@ -61,7 +61,7 @@ você pode agrupar definições de relatório para gerar vários relatórios ao 
 1. No Designer de Relatórios, clique em **Grupos de Relatórios** no painel de navegação.
 2. Clique duas vezes no grupo de relatórios a ser modificado.
 3. Clique na guia **Grupo de Relatório** e faça as alterações desejadas.
-4. No menu **Arquivo**, clique em **Salvar** para salvar o grupo de relatório modificado. Como alternativa, clique no botão **Salvar** ![Salvar](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "Salvar") na barra de ferramentas.
+4. No menu **Arquivo**, clique em **Salvar** para salvar o grupo de relatório modificado. Como alternativa, clique no botão **Salvar** ![Salvar](media/save.gif "Salvar") na barra de ferramentas.
 
 > [NOTA] Se você agendou relatórios para que sejam gerados em intervalos definidos, pode substituir essas configurações e gerar um relatório imediatamente.
 
@@ -69,7 +69,7 @@ você pode agrupar definições de relatório para gerar vários relatórios ao 
 
 1. No Designer de Relatórios, clique em **Grupos de Relatórios** no painel de navegação.
 2. Abra o grupo de relatórios a ser gerado.
-3. Clique no botão **Gerar relatório** ![Gerar relatório](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "Gerar relatório") para gerar relatórios.
+3. Clique no botão **Gerar relatório** ![Gerar relatório](media/generate-report.gif "Gerar relatório") para gerar relatórios.
 
 ### <a name="delete-a-report-group"></a>Excluir um grupo de relatório
 

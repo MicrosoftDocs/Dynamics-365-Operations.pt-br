@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FiscalDocument_BR, FiscalDocumentAmounts_BR, FiscalDocumentChargesTotals_BR, FiscalDocumentElectronic_BR
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 269094
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e20c020be3e95612c7a6f556fe0993ddb45d14bd
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6357712a1aa55eae5abb2329c56a49d4d4f3e550
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555184"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849387"
 ---
 # <a name="fiscal-documents-and-fiscal-document-framework-for-brazil"></a>Notas fiscais e suas estruturas para o Brasil
 

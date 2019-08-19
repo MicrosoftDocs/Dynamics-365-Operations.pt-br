@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FBBookingPeriodCreate_BR, FBBookingPeriodListPage_BR, FBBookingPeriodLookup_BR, FBBookingPeriodWizard_BR
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 270004
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c04642358daafd27ae924b7839b1be8244819559
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ce27dfb0b97b752f841a02010925919410fbc4f3
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568712"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849385"
 ---
 # <a name="fiscal-books-for-brazil"></a>Livros fiscais para o Brasil
 

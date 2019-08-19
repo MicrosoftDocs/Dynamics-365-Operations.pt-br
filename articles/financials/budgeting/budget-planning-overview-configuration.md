@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 17251
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a262b5200c8071bec78ff6d3ed7976d4b2057ea
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 560a5346e33e1b98a7513b6d7c033fe35458f63a
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570963"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834141"
 ---
 # <a name="budget-planning-overview"></a>Visão geral do planejamento de orçamento
 
@@ -154,6 +154,8 @@ Para o esquema de exemplo, é necessário criar colunas para Vendas, Contratos e
 [![Colunas](./media/columns.png)](./media/columns.png) 
 
 Você também pode designar se cada elemento de layout (coluna) é editável e se está disponível no modelo que é criado para o layout. Para o esquema de exemplo, no layout usado para a fase de previsão, as colunas da previsão são editáveis, enquanto as colunas de vendas e contratos de PY são somente leitura.
+
+[!Note] Por padrão, você será limitado a 36 colunas, a menos que estenda o planejamento de orçamento com as etapas em [Estender o layout de planejamento de orçamento](./extending-budget-planning-layout.md).
 
 ### <a name="templates"></a>Modelos
 

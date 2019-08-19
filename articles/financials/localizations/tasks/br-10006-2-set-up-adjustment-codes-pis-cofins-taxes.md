@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c25d1ac1b9262a83fb04b8593a14c495c5d67e0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e5ca92f8354d127abc202848d9adbcfc10a9e53e
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567187"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849013"
 ---
 # <a name="set-up-adjustment-codes-for-pis-and-cofins-taxes-brazil"></a>Configurar códigos de ajuste para impostos PIS e COFINS (Brasil)
 

@@ -1,5 +1,5 @@
 ---
-title: Prepare metadados específicos do aplicativo para RCS e ER
+title: Importar arquivos no formato XML com atributos opcionais
 description: Este tópico fornece informações sobre como criar formatos de ER que especificam atributos XML para analisar documentos eletrônicos de entrada no formato XML.
 author: NickSelin
 manager: AnnBe
@@ -10,20 +10,20 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, Developer, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a6fc1e54444584895aa75ae91d39143f27e34d8
-ms.sourcegitcommit: d0fa7eb2166a30314205e7f70bbeaff6fbd5fb55
+ms.openlocfilehash: eb5d721784f45097ab466f75d43256495aac36ca
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "1726566"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849986"
 ---
-# <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Prepare metadados específicos do aplicativo para RCS e ER
+# <a name="import-files-in-xml-format-with-optional-attributes"></a>Importar arquivos no formato XML com atributos opcionais
 
 Você pode criar formatos de relatórios eletrônicos (ER) para analisar documentos eletrônicos de entrada no formato XML. Certos atributos de elementos XML podem ser especificados em formato de ER criado como opcional. Ele permitirá que você trate arquivos de entrada com e sem esses atributos XML corretamente. Você pode usar o conteúdo desses arquivos para atualizar dados do aplicativo.
 

@@ -3,7 +3,7 @@ title: Recursos removidos ou obsoletos
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção.
 author: sericks007
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 07/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dffe6e41ef99ca7e5ca8f9a67b26b69151026f35
-ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
+ms.openlocfilehash: 0c8cc578ce2f8928fcdbe0210c9151e8979bc2e9
+ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624898"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863374"
 ---
 # <a name="removed-or-deprecated-features"></a>Recursos removidos ou preteridos
 
@@ -40,10 +40,32 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 > Informações detalhadas sobre objetos no Finance and Operations podem ser encontradas nos [Relatórios de referência técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations.
 
-## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 com Platform update 28
+## <a name="dynamics-365-for-finance-and-operations-1005-with-platform-update-29"></a>Dynamics 365 for Finance and Operations 10.0.5 com Platform update 29
 
 > [!IMPORTANT]
-> O Dynamics 365 for Finance and Operations 10.0.4 com Platform update 28 está disponível para usuários específicos como parte de uma versão prévia. O conteúdo e as funcionalidades estão sujeitos a alteração. Para obter informações sobre as versões prévias, consulte [Disponibilidade das atualizações do serviço](../../fin-and-ops/get-started/public-preview-releases.md).
+> O Dynamics 365 for Finance and Operations 10.0.5 com Platform update 29 está disponível para usuários específicos como parte de uma versão prévia. O conteúdo e as funcionalidades estão sujeitos a alteração. Para obter informações sobre as versões prévias, consulte [Disponibilidade das atualizações do serviço](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="us-payroll-tax-updates"></a>Atualizações de impostos de Folha de pagamento dos EUA
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Estamos desativando atualizações de impostos para a funcionalidade de Folha de pagamento dos EUA devido à baixa utilização e funcionalidade aprimorada que agora é oferecida por meio de integrações estratégicas.  |
+| **Substituída por outro recurso?**   | Sim |
+| **Áreas afetadas do produto**         | Folha de Pagamento |
+| **Opção de implantação**              | Todas |
+| **Status**                         | Preterido: em 1º de outubro de 2021, pretendemos não fornecer mais atualizações de impostos para clientes de Folha de pagamento dos EUA. A funcionalidade permanecerá no produto; porém, os aprimoramentos não atualizarão a funcionalidade e os defeitos de produtos serão avaliados caso a caso. Para obter mais informações, consulte [Atualizações de impostos serão desativadas para o recurso Folha de pagamento dos EUA no Microsoft Dynamics 365 for Finance and Operations](https://aka.ms/financepayrollfaq). |
+
+
+### <a name="data-management-staging-clean-up"></a>Limpeza de preparo de gerenciamento de dados
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Não atende aos principais requisitos necessários para agendar a limpeza periódica. |
+| **Substituída por outro recurso?**   | Sim, o recurso de limpeza de histórico de trabalho será adicionado para atender holisticamente aos cenários. |
+| **Áreas afetadas do produto**         | Gerenciamento de dados |
+| **Opção de implantação**              | Todas  |
+| **Status**                         | Preterido: o período determinado para a remoção da funcionalidade é dezembro de 2020. |
+
+## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 com Platform update 28
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>França: exportação de dados de contabilidade de FEC em XML
 
@@ -1235,7 +1257,7 @@ Os serviços de sites permitem criar os sites que estendem seus processos comerc
 
 ### <a name="virtual-company-accounts"></a>Contas virtuais da empresa
 
-Não há mais suporte para o recurso de empresas virtuais no Dynamics AX. O recurso virtual das empresas habilitou os usuários a configurar as tabelas a serem compartilhadas por um conjunto de empresas. Você pode encontrar uma descrição do recurso aqui: [Contas da empresa e contas virtuais da empresa](https://msdn.microsoft.com/en-us/library/aa834382(v=ax.10).aspx). O recurso funciona através do agrupamento de tabelas em coleções que são atribuídas a empresas virtuais, que são grupos de empresas "reais" existentes. As consultas são criadas de forma que todas as empresas na empresa virtual possam acessar os dados nas tabelas das cobranças de tabelas associadas.
+Não há mais suporte para o recurso de empresas virtuais no Dynamics AX. O recurso virtual das empresas habilitou os usuários a configurar as tabelas a serem compartilhadas por um conjunto de empresas. Você pode encontrar uma descrição do recurso aqui: [Contas da empresa e contas virtuais da empresa](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx). O recurso funciona através do agrupamento de tabelas em coleções que são atribuídas a empresas virtuais, que são grupos de empresas "reais" existentes. As consultas são criadas de forma que todas as empresas na empresa virtual possam acessar os dados nas tabelas das cobranças de tabelas associadas.
 
 |   |  | 
 |------------|--------------------|

@@ -3,25 +3,25 @@ title: Configurar o catálogo de endereços global
 description: Use este procedimento para definir os valores padrão e as políticas de segurança para o catálogo de endereços global.
 author: kfend
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/23/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirParameters
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 230d3c089189ddb6186bc2ca4b647b8ad5b003ce
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3994c7bb77e9821a880dc009681e113013129850
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545673"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1851857"
 ---
 # <a name="configure-the-global-address-book"></a>Configurar o catálogo de endereços global
 
@@ -31,19 +31,18 @@ Use este procedimento para definir os valores padrão e as políticas de seguran
 
 A empresa de dados demo usada para criar esta tarefa é USMF. Esta tarefa está direcionada para a equipe de Planejamento e configuração.
 
-1. Vá para Administração da organização > Catálogo de endereços global > Parâmetros do catálogo de endereços global.
-2. No campo de Sequência de nome, selecione como os nomes devem ser mostrados.
-3. Selecione se é necessário excluir participantes aos quais não foram atribuídos uma função.
-4. Selecione se é necessário verificar a existência de registros duplicados.
-5. Selecione se é necessário exibir o número DUNS em endereços.
-6. Selecione se é necessário verificar a existência de números DUNS únicos.
-7. No campo Participante, selecione uma opção.
-8. No campo Cliente, selecione uma opção.
-9. No campo Fornecedor, selecione uma opção.
-10. No campo Cliente potencial, selecione uma opção.
-11. No campo Concorrente, selecione uma opção.
-12. Clique na aba Segurança da localização privada.
-13. Na lista, localize e selecione o PDV desejado.
-    * Pressione a tecla Shift para selecionar várias funções para adicionar ao Painel de funções selecionadas e então clique na seta para adicioná-las.  
-14. Clique em Salvar.
+1. No Painel de navegação, vá para **Módulos > Administração da organização > Catálogo de endereços global > Parâmetros do catálogo de endereços global**.
+2. No campo **Sequência do nome**, selecione como os nomes devem ser mostrados.
+3. Em **Excluir participantes sem funções**, selecione se irá excluir participantes aos quais não foram atribuídas funções.
+4. Em **Usar verificação de duplicatas**, selecione se deve ou não verificar registros duplicados.
+5. Em **Exibir número DUNS no endereço**, selecione se deseja exibir o número DUNS em endereços.
+6. Em **Verificar número DUNS exclusivo**, selecione se é necessário verificar a existência de números DUNS exclusivos.
+7. No campo **Participante**, selecione uma opção.
+8. No campo **Cliente**, selecione uma opção.
+9. No campo **Fornecedor**, selecione uma opção.
+10. No campo **Cliente potencial**, selecione uma opção.
+11. No campo **Concorrente**, selecione uma opção.
+12. Clique na guia **Segurança da localização privada**.
+13. Na lista, localize e selecione o PDV desejado. Pressione a tecla Shift para selecionar várias funções para adicionar ao painel **Funções selecionadas** e clique na seta para adicioná-las.  
+14. Clique em **Salvar**.
 

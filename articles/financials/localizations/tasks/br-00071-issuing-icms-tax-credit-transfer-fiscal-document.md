@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Brazil
 ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e41b3b818e4f05938418b7a6c75546ecf446282
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1bb79b4b5e2dc6bf9f7e3de53a598ca42114ac76
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556234"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852768"
 ---
 # <a name="issue-icms-tax-credit-transfer-fiscal-documents-brazil"></a>Emitir notas fiscais de transferência de crédito de imposto ICMS (Brasil)
 

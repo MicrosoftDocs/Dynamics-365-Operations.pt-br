@@ -3,7 +3,7 @@ title: Visão geral do gerenciamento de recursos
 description: Este tópico descreve o recurso de gerenciamento de recursos e como você pode usá-lo.
 author: mikefalkner
 manager: AnnBe
-ms.date: 06/14/2019
+ms.date: 07/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,16 +18,17 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: d6aea8651c00b975cf158492e38bb147e908bc56
-ms.sourcegitcommit: 672c94704e9a2b0ec7ee3c111d4ceb1bb8597969
+ms.openlocfilehash: 21eaf2fdcadf8fe9f91438a97a88cc3bddab8286
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "1632044"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862929"
 ---
 # <a name="feature-management-overview"></a>Visão geral do gerenciamento de recursos
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
 Os recursos são adicionados e atualizados em cada versão do Microsoft Dynamics 365 for Finance and Operations. A experiência de gerenciamento de recursos fornece um espaço de trabalho em que você pode exibir uma lista dos recursos que foram entregues em cada versão. Por padrão, os novos recurso estão desativados. Você pode usar o espaço de trabalho para ativá-los e exibir a documentação deles.
 
@@ -38,7 +39,7 @@ Você pode abrir o espaço de trabalho **Gerenciamento de recursos** selecionand
 A lista recursos inclui as seguintes informações:
 
 - **Nome do recurso** — uma descrição do recurso que foi adicionado.
-- **Status habilitado** — Um símbolo indica se uma função foi ativada (marca de seleção), se não foi ativada (em branco), se está agendada para ser ativada (relógio) ou se está obrigatoriamente ativada (bloqueio). A configuração exibida aqui é usada para todas as entidades legais. Observe que, mesmo quando um recurso for ativado, ele ainda será controlado pela segurança. Portanto, o recurso estará disponível somente os para usuários que tiverem acesso a ele, com base em sua função de segurança. Ele também estará disponível somente em entidades legais às quais o usuário tem acesso.
+- **Status habilitado** — Um símbolo indica se uma função foi ativada (marca de seleção), se não foi ativada (em branco), se está agendada para ser ativada (relógio), se está obrigatoriamente ativada (bloqueio), exige atenção antes de ser ativada (aviso) ou se não pode ser ativada (X). A configuração exibida é usada para todas as entidades legais. Observe que, mesmo quando um recurso for ativado, ele ainda será controlado pela segurança. Portanto, o recurso estará disponível somente os para usuários que tiverem acesso a ele, com base em sua função de segurança. Ele também estará disponível somente em entidades legais às quais o usuário tem acesso.
 - **Data da habilitação** – A data em que o recurso foi ativado ou está agendado para ser ativado.
 - **Recurso adicionado** — a data em que o recurso foi adicionado ao ambiente. Essa data é inserida automaticamente quando você atualiza seu ambiente durante ciclos mensais de lançamento.
 - **Módulo** — o módulo que é afetado pelo novo recurso.
@@ -59,6 +60,10 @@ Se um recurso não foi ativado, um botão **Habilitar agora** será exibido no p
 - Selecione o recurso para ativar e, no painel de detalhes, selecione **Habilitar agora**. O recurso está ativado.
 
 Alguns recursos não podem ser desativados depois que você os liga. Se o recurso que você está tentando ativar não puder ser desativado, você receberá um aviso. Nesse ponto, você poderá selecionar **Cancelar** para cancelar a operação e deixar o recurso desativado. No entanto, se você selecionar **Habilitar** para ativar o recurso, você não poderá desativá-lo mais tarde.
+
+Alguns recursos exibirão uma mensagem que fornece informações adicionais antes de você ativá-los. Esses recursos são indicados por um símbolo de aviso amarelo. Você deve ler as informações adicionais cuidadosamente para compreender melhor o que acontecerá quando o recurso for habilitado. Entretanto, você ainda poderá selecionar **Habilitar** para ativar o recurso.
+
+Alguns recursos exibirão uma mensagem de que o recurso não pode ser habilitado até uma ação ser executada. Esses recursos são indicados por um símbolo X vermelho. Você deve executar as ações indicadas na descrição para que o recurso esteja habilitado. Por exemplo, se você não puder usar um recurso até uma chave de configuração ser desabilitada, você precisará desabilitar a chave de configuração antes e depois para retornar ao gerenciamento de recursos para habilitar o recurso.
 
 Depois que um recurso é ativado, uma mensagem será exibida abaixo do link **Saiba mais** no painel de detalhes. Essa mensagem informa que o recurso foi ativado ou indica a data futura em que o recurso está agendado para ser ativado. Ela será exibida sempre que você selecionar o recurso na lista de recursos.
 
@@ -84,12 +89,28 @@ Depois que um recurso é desativado, uma mensagem será exibida abaixo do link *
 
 Às vezes, um recurso crítico que deve ser ativado automaticamente é entregue quando você faz uma atualização. Esses recursos serão ativados automaticamente na data especificada no campo **Data da habilitação**. No caso desses recursos, uma mensagem será exibida abaixo do link **Saiba mais** no painel de detalhes. Essa mensagem informa que o recurso foi ativado ou indica a data futura em que o recurso será ativado. Ela será exibida sempre que você selecionar o recurso na lista de recursos.
 
+## <a name="enable-all-features"></a>Habilitar todos os recursos
+
+Por padrão, todos os recursos que são adicionados ao seu ambiente são desativados. Você pode habilitar todos os recursos selecionando o botão **Habilitar tudo**. 
+
+Quando você selecionar **Habilitar tudo**, aparecerá uma opção em que você precisa fornecer as seguintes informações:
+- Uma lista de todos os recursos que exigem confirmação antes de serem habilitados. Se você deseja habilitar os recursos na lista, selecione **Sim** para o botão **Habilitar recursos que exijam confirmação**.
+- Aparecerá uma lista de todos os recursos que não podem ser habilitados. Esses recursos não serão habilitados.
+
+Todos os recursos que possam ser habilitados serão habilitados. Se determinado recurso já estiver agendado para ser habilitado no futuro, a agenda não será alterada. 
+
 ## <a name="turn-on-all-features-automatically"></a>Ativar todos os recursos automaticamente
 
 Por padrão, todos os recursos adicionados ao seu ambiente são desativados, a menos que sejam obrigatórios. Contudo, caso você deseje ativar automaticamente todos os novos recursos, é possível usar a lista suspensa sob o título do espaço de trabalho para alterar o que ocorre quando novos recursos são adicionados.
 
 - Selecione **Todos os novos recursos serão habilitados por padrão** para ativar automaticamente todos os novos recursos quando forem adicionados ao ambiente.
 - Selecione **Todos os novos recursos serão desabilitados por padrão** para desativar automaticamente todos os novos recursos quando forem adicionados ao ambiente.
+
+Quando você habilita todos os recursos automaticamente, isso habilita todos os recursos que seriam habilitados se você clicasse no botão **Habilitar tudo**. Isso não habilitará os recursos que exijam confirmação ou os recursos que não possam ser habilitados até uma ação ser executada.
+
+## <a name="check-for-updates"></a>Verificar se há atualizações
+
+Os recursos são adicionados a seu ambiente após cada atualização. Entretanto, você pode verificar manualmente a existência de atualizações clicando no botão **Verificar se há atualizações**. Qualquer recurso adicionado ao sistema após a atualização será adicionada à lista de recursos. Por exemplo, se um recurso liberado for habilitado após uma versão, você poderá verificar a existência de atualizações e o recurso será adicionado à sua lista.
 
 ## <a name="assigning-roles"></a>Atribuindo funções
 

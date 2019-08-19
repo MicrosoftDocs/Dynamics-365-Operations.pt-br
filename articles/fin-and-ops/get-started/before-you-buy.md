@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: dc34ca33d2844eaedfa1734fe6d7c7f2ef4a622d
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: f6074906dc77f17d10cc2fb94a4ded7cb8b32f14
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595676"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850942"
 ---
 # <a name="before-you-buy"></a>​Antes de comprar​
 
@@ -39,7 +39,7 @@ Agora você pode implantar o Microsoft Dynamics 365 for Finance and Operations n
 
 As seguintes considerações devem ser executadas quando você escolhe locais como uma opção de implantação:
 
-- Necessidades regulatórias e de conformidade não estão disponíveis nas [certificações em nuvem](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities)
+- Necessidades regulatórias e de conformidade não estão disponíveis nas certificações em nuvem
 - Processo de negócios desconectado com conectividade de internet intermitente necessária para acessar o Microsoft Dynamics Lifecycle Services (LCS) para o gerenciamento do ciclo de vida do aplicativo
 - [Recursos não implementados atualmente em implantações locais](features-not-implemented-on-prem.md)
 - [Requisitos mínimos de infraestrutura](system-requirements-on-prem.md#minimum-infrastructure-requirements)

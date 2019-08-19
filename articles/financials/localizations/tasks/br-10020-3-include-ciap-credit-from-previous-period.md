@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 15ac1313fd2a31bccb0e2d8d5c72b78db2fae9c1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ede72c3035cf70296c60e7fff63fd650eb88d80c
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550267"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849011"
 ---
 # <a name="include-ciap-credit-from-a-previous-period-brazil"></a>Incluir o crédito CIAP de um período anterior (Brasil)
 

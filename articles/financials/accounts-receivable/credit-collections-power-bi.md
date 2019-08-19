@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5f6b1c9338670a2f2f26ecbef1d349171457e1ac
-ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
+ms.openlocfilehash: 5ac47ee086569cdaaa3c30f76435432e64f8fac6
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "1702763"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1835133"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Conteúdo de gerenciamento de crédito e cobranças do Power BI
 
@@ -72,4 +72,4 @@ O conteúdo de **CustCollectionsBICrossCompany** do Power BI tem um relatório q
 | Status das cobranças          | <ul><li>Contestado</li><li>Promessa de pagamento quebrada</li><li>Promessa de pagamento</li><li>Detalhes do status de cobranças</li><li>Valores de status de cobranças</li><li>Casos abertos</li><li>Atividades abertas</li></ul> |
 | Cartas de cobranças         | <ul><li>Valores de código de cobrança</li><li>Detalhes do valor do código de cobrança</li><li>Valor da cartas de cobrança por empresa</li><li>Valor da carta de cobrança por grupo de clientes</li><li>Valor da carta de cobrança por região</li></ul> |
 
-Os gráficos e os blocos em todos esses relatórios podem ser filtrados e fixados no painel. Para obter mais informações sobre como filtrar e fixar no Power BI, consulte [Criar e configurar um dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Você também pode usar a funcionalidade Exportar dados subjacentes para exportar os dados subjacentes resumidos em uma visualização.
+Os gráficos e os blocos em todos esses relatórios podem ser filtrados e fixados no painel. Para obter mais informações sobre como filtrar e fixar no Power BI, consulte [Criar e configurar um dashboard](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Você também pode usar a funcionalidade Exportar dados subjacentes para exportar os dados subjacentes resumidos em uma visualização.

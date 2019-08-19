@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: t-benebo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 266eec2bb870be270b7796b35903a402e014c67c
-ms.sourcegitcommit: 1f211ac6bd384fd8a2b5352104baf264d88f39b0
+ms.openlocfilehash: ca473de65135ddddea12ddc72e902056cc7b1db7
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538717"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845274"
 ---
 # <a name="calendars-and-master-planning"></a>Calendários e planejamento mestre
 
@@ -93,7 +93,7 @@ Para indicar as datas quando um cliente poderá aceitar entregas, você pode atr
 
 Observe que só é possível incluir um calendário por cliente. Caso precise incluir um calendário para cada endereço diferente de um cliente, você pode criar um cliente por endereço e depois atribuir seu respectivo calendário. 
 
-A data de recebimento solicitada nas linhas da ordem de venda é afetada pelo calendário do cliente e pelo método de controle de data de entrega. Você pode ler mais sobre como a primeira data de entrega é calculada em [Promessa de ordem.](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
+A data de recebimento solicitada nas linhas da ordem de venda é afetada pelo calendário do cliente e pelo método de controle de data de entrega. Você pode ler mais sobre como a primeira data de entrega é calculada em [Promessa de ordem.](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>Calendário de remessa para uma entidade legal
 Para indicar as datas em que uma entidade legal pode fazer remessa de mercadorias, você pode definir um calendário de remessa em **Administração da organização > Organizações > Entidades legais**. Selecione a entidade legal e adicione o calendário na guia **Comércio exterior e logística** no campo **Calendário de remessa**. O calendário de remessa atua como uma fonte de padrões para todos os calendários de depósito na entidade legal. 

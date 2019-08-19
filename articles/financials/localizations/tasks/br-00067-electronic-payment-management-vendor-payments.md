@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Brazil
 ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a962d50fba3c65c395fc345c3d219839fd01c16
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: df9f6fea1521973d0400f063b093bfaf358c3573
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567194"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849160"
 ---
 # <a name="electronic-payment-management-for-vendor-payments-brazil"></a>Gerenciamento de pagamento eletrônico para pagamentos de fornecedores (Brasil)
 

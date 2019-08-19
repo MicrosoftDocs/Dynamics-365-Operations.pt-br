@@ -3,7 +3,7 @@ title: Atalhos de teclado
 description: Os atalhos de teclado a seguir são utilizados no Dynamics 365 for Finance and Operations.
 author: jasongre
 manager: AnnBe
-ms.date: 12/12/2017
+ms.date: 07/22/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 497fdb303abb9fe94caa1ebc03da005b88a40e4b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 95a6b6bd70c4a5bb684c605d364a28b85ed4e120
+ms.sourcegitcommit: d88d3d504e85c5bf6f6e9dc842488a2b644261cf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561824"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "1780049"
 ---
 # <a name="keyboard-shortcuts"></a>Atalhos de teclado
 
@@ -138,9 +138,13 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 | Adicionar um intervalo de linhas ao conjunto selecionado<blockquote>[!NOTE] Este atalho aplica-se somente a cenários de seleção múltipla.</blockquote>         | Shift+Clique                     |
 | Ir para a página anterior/próxima de dados                                                                                   | Page Up / Page Down             |
 | Criar uma nova linha na parte inferior da grade                                                                             | Seta para baixo (a partir da última linha)  |
-| Selecionar ou limpar todas as linhas                                                                                               | Ctrl+Shift+M                    |
 | Mover para o primeiro registro                                                                                               | Ctrl+Home                       |
 | Mover para o último registro                                                                                                | Ctrl+End                        |
+| Selecionar ou limpar todas as linhas                                                                                               | Ctrl+Shift+M                    |
+| Mover para a primeira linha marcada                                                                                           | Alt+Shift+M, F                    |
+| Mover para a próxima linha marcada                                                                                            | Alt+Shift+M, L                    |
+| Mover para a linha anterior marcada                                                                                        | Alt+Shift+M, P                    |
+| Mover para a última linha marcada                                                                                           | Alt+Shift+M, N                    |
 | Executar a ação padrão em uma grade<blockquote>[!NOTE] Este atalho será habilitado quando o foco estiver em uma célula que contenha um hiperlink e todas as células nessa coluna tiverem hiperlinks.</blockquote> | Inserir                           |
 | Alterna o foco entre a linha selecionada e a linha do cabeçalho                                                               | Alt+Shift+H                     |
 | Torna a coluna atual maior/menor (com foco na linha do cabeçalho)                                                  | Seta para a direita/Seta para esquerda        |

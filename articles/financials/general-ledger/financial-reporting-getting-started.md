@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 10444
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8d3630e60fb2f1a8ca7e3610bbb4fcd32c17dec
-ms.sourcegitcommit: 06c8dc5bc4e1c41f68e1cda141d61529768be958
+ms.openlocfilehash: 7a55c0a1ac8ac833315afa179c1b6d4eb78195fc
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594951"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1839197"
 ---
 # <a name="financial-reporting"></a>Relatórios financeiros
 
@@ -117,7 +117,7 @@ Ao clicar no menu **Relatórios financeiros**, a lista de relatórios financeiro
 Na lista de relatórios financeiros, você pode criar um novo relatório ou modificar um existente relatório. Se você tiver as permissões apropriadas, poderá criar um novo relatório financeiro clicando em **Novo** no painel de Ação. Um programa de designer de relatórios é baixado para seu dispositivo. Depois que o designer de relatórios for iniciado é possível criar o novo relatório. Depois de salvar o novo relatório, ele aparecerá na lista de relatórios financeiros. A lista mostra apenas os relatórios que foram criados para a empresa que você está usando no Finance and Operations. 
 
 > [!NOTE] 
-> O computador no qual você está baixando o cliente do designer de relatórios deve ter a versão 4.6.2 do Microsoft .NET Framework instalada. Esta versão do Microsoft .NET Framework pode ser baixada e instalada do [Centro de Download da Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Se estiver usando o Chrome, instale uma extensão de ClickOnce para baixar o cliente de designer de relatórios. Se estiver executando no modo incógnito, verifique se a extensão de ClickOnce está habilitada para modo incógnito. Você também pode modificar um relatório que aparece na lista de relatórios financeiros. Quando a área em torno do nome do relatório é selecionada, clique em **Editar** no Painel de Ação. O Report Designer é inicializado.
+> O computador no qual você está baixando o cliente do designer de relatórios deve ter a versão 4.6.2 do Microsoft .NET Framework instalada. Esta versão do Microsoft .NET Framework pode ser baixada e instalada do [Centro de Download da Microsoft](https://www.microsoft.com/download/details.aspx?id=53345). Se estiver usando o Chrome, instale uma extensão de ClickOnce para baixar o cliente de designer de relatórios. Se estiver executando no modo incógnito, verifique se a extensão de ClickOnce está habilitada para modo incógnito. Você também pode modificar um relatório que aparece na lista de relatórios financeiros. Quando a área em torno do nome do relatório é selecionada, clique em **Editar** no Painel de Ação. O Report Designer é inicializado.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 - [Exibir relatórios financeiros](view-financial-reports.md)

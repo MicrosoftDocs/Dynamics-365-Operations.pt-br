@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 84410a0fd112907bf821710c15a8f261c7d9f1ce
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cc878f91c0344c6fd0e59d1759f5842a7194b436
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546032"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742233"
 ---
 # <a name="service-activities"></a>Atividades de serviço        
 
@@ -38,5 +38,5 @@ Você pode exibir o status das atividades de serviço no formulário **Quadro de
 
 ## <a name="see-also"></a>Consulte também
 
-[Quadro de expedição (formulário)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))
+[Quadro de expedição (formulário)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))
 

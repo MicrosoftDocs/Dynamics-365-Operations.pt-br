@@ -1,9 +1,9 @@
 ---
-title: Criar calendário e gerar horários de trabalho
-description: Os calendários descrevem a capacidade e os horários de trabalho dos recursos de operações.
+title: Criar calendários e gerar horários de trabalho
+description: Os calendários descrevem a capacidade e os horários de trabalho dos recursos de operações. Este tópico explica como definir um calendário de trabalho com base no modelo de horário de trabalho.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,36 +16,30 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ba4bd51d2102b3036307f34ab46f94f83df4f461
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 50b81ae228d9aee4111ce8d161508d5ed1af4f27
+ms.sourcegitcommit: 81e6eaa2178fda7f7d086ad978f4c891bc4ec10a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1510119"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "1738987"
 ---
 # <a name="create-calendar-and-generate-working-times"></a>Criar calendário e gerar horários de trabalho
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Os calendários descrevem a capacidade e os horários de trabalho dos recursos de operações. Este procedimento ajudará a definir um calendário de trabalho com base no modelo de horário de trabalho. Você pode ver todo esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados.
+Os calendários descrevem a capacidade e os horários de trabalho dos recursos de operações. Este tópico explica como definir um calendário de trabalho com base no modelo de horário de trabalho. Você pode ver todo esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados.
 
-1. Vá para Todas áreas de trabalho > Gerenciamento de ciclo de vida de recurso.
-2. Clique em Calendários.
-3. Clique em Novo.
-4. No campo Calendário, digite um valor.
-    * Este é o ID do calendário, que é usado como uma referência ao atribuir calendários, como um recurso de operações ou um grupo de recursos.  
-5. No campo Nome, digite um valor.
-6. No campo Dia de trabalho padrão em horas, insira um número.
-7. Na lista, marque a linha selecionada.
-8. Clique em Horários de trabalho.
-9. Clique em Compor horários de trabalho.
-    * Gera horas de trabalho para cada dia no período que você quer agendar o trabalho. Conforme o tempo passa, você pode gerar horários de trabalho para períodos adicionais.  
-10. No campo De data, insira uma data.
-    * Esse é o primeiro dia que este calendário deve ficar aberto.  
-11. No campo Para data, insira uma data.
-    * Esse é o último dia que este calendário deve está aberto.  
-12. No campo Modelo de horário de trabalho, insira ou selecione um valor.
-    * O modelo de horário de trabalho define as horas de trabalho para cada dia da semana.  
-13. Clique em OK.
-14. Feche a página.
+1. Na home page, selecione **Gerenciamento do ciclo de vida de recurso**.
+2. Selecione **Calendários**.
+3. Selecione **Novo**.
+4. No campo **Calendário**, classifique o seu calendário. Este é o ID do calendário, que é usado como uma referência ao atribuir calendários, como um recurso de operações ou um grupo de recursos.  
+5. No campo **Nome**, nomeie seu calendário.
+6. No campo **Dia de trabalho padrão em horas**, insira um número.
+7. Verifique se a linha está selecionada e marque **Horários de trabalho** no painel de Ação.
+8. Selecione **Compor horários de trabalho**. Gera horas de trabalho para cada dia no período que você quer agendar o trabalho. Conforme o tempo passa, você pode gerar horários de trabalho para períodos adicionais.  
+9. No campo **Data inicial**, insira uma data. Esse é o primeiro dia que este calendário deve ficar aberto.  
+10. No campo **Data final**, insira uma data. Esse é o último dia que este calendário deve está aberto.  
+11. No campo **Modelo de horário de trabalho**, insira ou selecione um valor. O modelo de horário de trabalho define as horas de trabalho para cada dia da semana.  
+12. Selecione **OK**.
+13. Feche a página.
 

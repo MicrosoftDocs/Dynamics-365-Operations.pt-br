@@ -3,25 +3,25 @@ title: Configurar políticas para hierarquias de categoria de compras
 description: Use este procedimento para configurar regras para encomendar produtos em uma categoria.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicy, ProcCategoryAccessPolicyRule, ProcCategoryPolicyRule, EcoResCategorySingleLookup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1fdf357466de12bd0188fc43cd266c67af762c7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 230794eacd5e9911496dd3826f08126cc21494cb
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569905"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1844158"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Configurar políticas para hierarquias de categoria de compras
 
@@ -31,31 +31,24 @@ Use este procedimento para configurar regras para encomendar produtos em uma cat
 
 
 ## <a name="find-the-procurement-policy"></a>Encontre a política de obtenção
-1. Vá para Compras > Configuração > Políticas > Políticas de compras.
-2. Clique no link da política do USMF da política de aquisição.
-    * Esta é a política que você adicionará a uma regra. Deve ser uma política ativa.  
+1. No Painel de navegação, vá para **Módulos > Compras e fornecimento > Configuração > Políticas > Políticas de compras**.
+2. Clique no link da política do 'USMF da política de aquisição'. Esta é a política que você adicionará a uma regra. Deve ser uma política ativa.  
 
 ## <a name="create-a-category-access-rule"></a>Criar uma regra de acesso de categoria
-1. Selecione a regra de política de acesso à categoria.
-    * Se o botão Criar regra de política é escurecido, isso se dá porque já há uma regra de política ativa para o acesso à Categoria. Verifique os campos Eficaz e Data de validade para determinar qual é, a seguir selecione-os, e clique em Retirar regra de política. Se o botão da regra da política da criação está disponível, você não precisa fazer nada.  
-2. Clique em Criar regra de política.
-3. No campo de data efetiva, insira uma data e hora.
-    * O tempo não deve sobrepor com uma outra regra que seja ativa.  
-    * Selecione uma categoria a que a regra se aplique. Faça uma anotação de que a categoria é – você precisará disso mais tarde. Quando você seleciona uma categoria, todas as suas categorias pai também são adicionadas à lista de categorias Selecionada.  
-    * Se você quiser que a regra seja aplicada a todas subcategorias da categoria selecionada, selecione a caixa de seleção Incluir subcategorias.  
-4. Clique em Adicionar.
-    * Se você definir a opção de Incluir regra principal para Sim, a regra de diretiva definida para uma categoria pai será atribuída a categorias secundárias se nenhuma regra de diretiva for definida para as categorias secundárias.  
-5. Clique em OK.
+1. Expanda a Guia rápida **Regras de política**.
+2. Na lista **Tipo de regra de política** , selecione **Regra de política de acesso de categoria**. Se o botão **Criar regra de política** estiver esmaecido, isso se dá porque já há uma regra de política ativa para o acesso à Categoria. Verifique os campos **Efetivação** e **Validade** para determinar qual é e então selecione-o, e clique em **Desativar regra de política**. Se o botão **Criar regra de política** estiver disponível, você não precisará fazer nada.  
+3. Clique em **Criar regra de política**.
+4. No campo **Data de efetivação**, insira uma data e hora. O tempo não deve sobrepor com uma outra regra que seja ativa.  
+5. Selecione uma categoria a que a regra se aplique. Faça uma anotação de que a categoria é – você precisará disso mais tarde. Quando você seleciona uma categoria, todas as suas categorias pai também são adicionadas à lista de categorias Selecionada. Se você quiser que a regra seja aplicada a todas subcategorias da categoria selecionada, marque a caixa de seleção **Incluir subcategorias**.
+6. Clique na seta para a direita para adicionar à lista **Categorias selecionadas**.  
+4. Clique em **OK**. Se você definir a opção de **Incluir regra principal** como Sim, a regra de política definida para uma categoria pai também será atribuída a suas categorias secundárias se nenhuma regra de política for definida para as categorias secundárias.
 
 ## <a name="create-a-category-policy-rule"></a>Criar uma regra de política de categoria
-1. Selecione a regra de política da categoria
-    * Se o botão da regra da política da criação é escurecido, selecione a regra da política ativa, e clique então para retirar a regra da política.  
-2. Clique em Criar regra de política.
-3. No campo de data efetiva, insira uma data e hora.
-4. Clique em Adicionar.
-5. Selecione a mesma categoria que você usou para a regra do acesso da categoria.
-6. No campo Seleção do fornecedor, selecione uma opção.
-    * Selecione uma regra para controlar quais tipos de vendedores podem ser selecionados para a categoria quando as requisições são criadas.  
-7. Clique em Fechar.
-    * A regra de política que você definiu foi para requisições do tipo consumo. Se você quis definir políticas para requisições do tipo Reabastecimento, você criaria uma regra para o tipo de regra de política chamado "Regra de política para acessar reabastecimento de categoria".  
+1. Na lista **Tipo de regra de política** , selecione **Regra de política de categoria**. Se o botão **Criar regra da política** estiver esmaecido, selecione a regra de política ativa e clique em **Desativar regra de política**.  
+2. Clique em **Criar regra de política**.
+3. No campo **Data de efetivação**, insira uma data e hora.
+4. Clique em **Adicionar**.
+5. No campo **Categoria**, selecione a mesma categoria que você usou para a **Regra do acesso da categoria**.
+6. No campo **Seleção do fornecedor**, selecione uma opção. Selecione uma regra para controlar quais tipos de vendedores podem ser selecionados para a categoria quando as requisições são criadas.  
+7. Clique em **Fechar**. A regra de política que você definiu foi para requisições do tipo consumo. Se você quis definir políticas para requisições do tipo Reabastecimento, você criaria uma regra para o tipo de regra de política chamado "Regra de política para acessar reabastecimento de categoria".  
 

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPostDatedChecks, CustPostDatedChecks
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 21741
 ms.assetid: 4eb7c7da-1e6b-4d35-9f41-373b66103229
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ea1cd9926f3ea55d82f9030372a15b3545ed824
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cb879103c86cd251efcb1d3efa1faf847cb5ca74
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563776"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842296"
 ---
 # <a name="postdated-checks"></a>Cheques pós-datados
 
@@ -73,7 +73,7 @@ Se o cheque original para um fornecedor ou um cliente for perdido ou danificado,
 <td>Cancelar um cheque pós-datado de um fornecedor</td>
 <td>Você pode cancelar um cheque pós-datado lançado nestas situações: - O cheque é devolvido pelo banco.
 - O cheque é aplicado a uma fatura incorreta.
-- Um pagamento à vista é feito no cheque.
+- Um pagamento à vista é feito em vez do cheque.
   </td>
   </tr>
   <tr class="even">

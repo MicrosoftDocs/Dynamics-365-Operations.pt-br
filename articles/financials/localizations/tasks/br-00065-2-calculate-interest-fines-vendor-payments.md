@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1eddb15792b04af5b23b27905dcb84e58dfba74
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f8682b30badfe341f58097b27720865526e5eb80
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567196"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852770"
 ---
 # <a name="calculate-interest-and-fines-on-vendor-payments-brazil"></a>Calcular juros e multas sobre pagamentos de fornecedores (Brasil)
 

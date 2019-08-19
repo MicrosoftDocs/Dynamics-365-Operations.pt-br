@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Reasons, SalesTableListPage, SalesCreateOrder, SalesTable, BankLGRequestForm, BankLGRequestFormRequest, BankLGGuarantee, BankLGFormSubmitToBank, BankDocumentAgreementLineLookup, BankLGFormReceiveFromBank, LedgerJournalTable, LedgerJournalTransDaily, BankLGRequestFormGiveToBeneficiary, BankLGFormGiveToBeneficiary, BankLGRequestFormIncreaseValue, BankLGFormIncreaseValue, BankLGRequestFormLiquidate, BankLGFormLiquidate
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4dc6ee178121fae05d538f5103919442d91e65eb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ff105bdefff2ea93c853d590c77391653f50a4dc
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566101"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1841984"
 ---
 # <a name="letter-of-guarantee-transaction"></a>Transação da carta de garantia
 
@@ -61,7 +61,7 @@ Este procedimento usa a empresa de dados de demonstração USMF.
 15. No campo Data de remessa solicitada, insira uma data.
 16. No campo Data de remessa confirmada, insira uma data.
 
-## <a name="process-letter-of-guaranteerequest"></a>Processar carta de garantia_Solicitar
+## <a name="process-letter-of-guarantee_request"></a>Processar carta de garantia_Solicitar
 1. No Painel de Ação, clique em Gerenciar.
 2. Clique em Carta de garantia.
 3. No Painel de Ação, clique em Carta de garantia.
@@ -73,7 +73,7 @@ Este procedimento usa a empresa de dados de demonstração USMF.
 9. Clique em OK.
 10. Feche a página.
 
-## <a name="process-letter-of-guaranteesubmit-to-bank"></a>Processar carta de garantia ao banco_Enviar ao banco
+## <a name="process-letter-of-guarantee_submit-to-bank"></a>Processar carta de garantia ao banco_Enviar ao banco
 1. Vá para Gerenciamento de caixa e bancos > Cartas de garantia > Cartas de garantia.
 2. Na lista, localize e selecione o PDV desejado.
 3. Clique em Enviar ao banco para abrir a caixa de diálogo suspensa.
@@ -81,7 +81,7 @@ Este procedimento usa a empresa de dados de demonstração USMF.
 5. Na lista, clique no link na linha selecionada.
 6. Clique em OK.
 
-## <a name="process-letter-of-guaranteereceive-from-bank"></a>Processar carta de garantia_Receber do banco
+## <a name="process-letter-of-guarantee_receive-from-bank"></a>Processar carta de garantia_Receber do banco
 1. Clique em Receber do banco para abrir a caixa de diálogo suspensa.
 2. No campo Número do banco, digite um valor.
     * Verifique os valores nos campos calculados Margem e Despesa.  
@@ -93,7 +93,7 @@ Este procedimento usa a empresa de dados de demonstração USMF.
     * Verifique o lançamento de entradas de diário.  
 7. Feche a página.
 
-## <a name="process-letter-of-guaranteegive-to-beneficiary"></a>Processar carta de garantia_Conceder ao beneficiário
+## <a name="process-letter-of-guarantee_give-to-beneficiary"></a>Processar carta de garantia_Conceder ao beneficiário
 1. Vá para Contas a receber > Ordens > Todas as ordens de venda.
 2. Na lista, clique no link na linha selecionada.
 3. No Painel de Ação, clique em Gerenciar.
@@ -108,7 +108,7 @@ Este procedimento usa a empresa de dados de demonstração USMF.
 12. Expandir a seção Ações.
     * Valide o registro 'Conceder ao beneficiário'.  
 
-## <a name="process-letter-of-guaranteeincrease-value"></a>Processar carta de garantia_Aumentar valor
+## <a name="process-letter-of-guarantee_increase-value"></a>Processar carta de garantia_Aumentar valor
 1. Vá para Contas a receber > Ordens > Todas as ordens de venda.
 2. Na lista, clique no link na linha selecionada.
 3. No Painel de Ação, clique em Gerenciar.
@@ -128,7 +128,7 @@ Este procedimento usa a empresa de dados de demonstração USMF.
 16. Clique em Linhas.
     * Verifique as entradas de diário lançadas.  
 
-## <a name="process-letter-of-guaranteeliquidate"></a>Processar carta de garantia_Liquidar
+## <a name="process-letter-of-guarantee_liquidate"></a>Processar carta de garantia_Liquidar
 1. Vá para Contas a receber > Ordens > Todas as ordens de venda.
 2. Na lista, clique no link na linha selecionada.
 3. No Painel de Ação, clique em Gerenciar.

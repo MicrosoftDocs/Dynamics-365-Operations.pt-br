@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FBTaxAssessmentPayment_BR, FBTaxAssessmentPaymentOtherDebits_BR
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 270254
 ms.assetid: 92223189-69a8-4a40-b867-ef9b4f14c23d
@@ -18,12 +18,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8b71024327b2a7a69230b5eb924b0122b47f8d0c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4239e9d960ba9097f079af69ad18ba7b72e60c0c
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553086"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849362"
 ---
 # <a name="tax-payments-in-brazil"></a>Pagamentos de impostos no Brasil
 

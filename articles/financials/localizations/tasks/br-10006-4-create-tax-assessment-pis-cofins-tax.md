@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d07723cd0d19260475e34120b2610cd6ed5acc61
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ac9235c33f0cdc48be8035411a2750fd88feb7a5
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567186"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849012"
 ---
 # <a name="create-a-tax-assessment---pis-and-cofins-tax-brazil"></a>Criar uma apuração de imposto - PIS e COFINS (Brasil)
 

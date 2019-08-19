@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: v-gonode
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4ecf4c40fc95605ee3bd53ba081ebf79fa3543c0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2caa08e15a7a91bb957fa6e15642577e8cd6aa70
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560387"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849374"
 ---
 # <a name="process-electronic-payment-remittances-for-brazil"></a>Processar remessas de pagamento eletrônico para o Brasil
 

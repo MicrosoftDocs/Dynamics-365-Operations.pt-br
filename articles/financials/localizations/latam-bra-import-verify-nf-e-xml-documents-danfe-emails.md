@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 269134
 ms.assetid: d4c1d39b-64ec-4ddf-ba27-c0446f80f031
@@ -17,12 +17,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c0526168d46313f26e979443adc270ac2e534f37
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4bc33202522e24a8627562ae74d3ed006f779065
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555178"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849378"
 ---
 # <a name="import-and-verify-nf-e-xml-documents-and-danfe-files-for-brazil"></a>Importação e verificação de documentos XML da NF-e e os arquivos de DANFE para o Brasil
 

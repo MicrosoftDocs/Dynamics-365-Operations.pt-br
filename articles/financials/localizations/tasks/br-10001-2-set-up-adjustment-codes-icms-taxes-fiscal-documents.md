@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb9eb2a9015c65f042611eb4ed9d8e8f39a45396
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fed52095c422c17daea5ac534e18a22d5c7f84ff
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571114"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852762"
 ---
 # <a name="set-up-adjustment-codes-for-icms-taxes-on-fiscal-documents-brazil"></a>Configurar códigos de ajuste para impostos ICMS em notas fiscais (Brasil)
 

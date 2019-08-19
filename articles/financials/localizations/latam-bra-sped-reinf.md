@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 35e04ddbacd53d90617f1e4cb1803e86cdfada5f
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: 73641e0881dbfb73febe53bc08eb2db10105dcfd
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595564"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849364"
 ---
 # <a name="sped-reinf-tax-statement-brazil"></a>Declaração de imposto do SPED-Reinf (Brasil)
 

@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: shylaw
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 1be08d285044ee8d530cffae6aaa603d63c46810
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8a6bd4e0a652c50a380b1ae3c2a40c8049a96b24
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570067"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849390"
 ---
 # <a name="cancel-a-customer-fiscal-document-brazil"></a>Cancelar uma nota fiscal do cliente (Brasil)
 

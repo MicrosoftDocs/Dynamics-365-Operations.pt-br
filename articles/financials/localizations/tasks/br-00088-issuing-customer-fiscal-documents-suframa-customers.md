@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Brazil
 ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af037ac3dd7591c783b0f9288fe2d7c4798cd921
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 19fc502f2934fb7d251298befe8a14f73cdd0473
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571115"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849168"
 ---
 # <a name="issue-customer-fiscal-documents-for-suframa-customers-brazil"></a>Emitir notas fiscais para clientes (para clientes SUFRAMA) (Brasil)
 

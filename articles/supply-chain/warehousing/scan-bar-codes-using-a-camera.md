@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: e78d0a82d3ca66a6912ea1a9517296ca241edf1c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5ec9197c2e8b7970fcbf5ea42612c60f940bcae0
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559019"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742912"
 ---
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>Digitalizar códigos de barras usando uma câmera no Dynamics 365 for Finance and Operations – Warehousing
 
@@ -36,7 +36,7 @@ Para usar esse recurso, você precisa ter a versão 1.2.0.0 do Warehousing insta
 ## <a name="setup"></a>Configurar
 Nas Configurações de exibição do aplicativo de depósito, você pode selecionar se a câmera deve ser usada para digitalização de códigos de barras. Se você habilitar **Usar a câmera como scanner**, você pode usar a câmera em cada campo de entrada que tenha o modo de entrada preferido definido como **Digitalização**. 
 
-Para controlar se um campo de entrada pode ser digitalizado ou não, na página **Nomes de campo no aplicativo de depósito** do Dynamics 365 for Finance and Operations, defina o **Modo de entrada preferido** como **Digitalização**. Quando esta opção for selecionada, uma câmera poderá ser usada para digitalização no aplicativo de depósito. Para obter informações sobre como configurar nomes de campos no aplicativo de depósito, consulte [Configurar nomes de campo no aplicativo de depósito](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse).
+Para controlar se um campo de entrada pode ser digitalizado ou não, na página **Nomes de campo no aplicativo de depósito** do Dynamics 365 for Finance and Operations, defina o **Modo de entrada preferido** como **Digitalização**. Quando esta opção for selecionada, uma câmera poderá ser usada para digitalização no aplicativo de depósito. Para obter informações sobre como configurar nomes de campos no aplicativo de depósito, consulte [Configurar nomes de campo no aplicativo de depósito](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse).
 
 ## <a name="supported-bar-code-formats"></a>Formatos de código de barras compatíveis
 Os formatos de código de barras mais comuns são compatíveis, incluindo os códigos 128, 39, 93, EAN-8, EAN-13, UPC-E, UPC-A e QR. 

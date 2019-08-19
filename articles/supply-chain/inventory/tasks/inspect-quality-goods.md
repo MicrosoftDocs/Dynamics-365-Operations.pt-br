@@ -1,59 +1,53 @@
 ---
 title: Verificar a qualidade de mercadorias
-description: Este procedimento mostra como processar a ordem de qualidade.
+description: Este tópico explica como processar uma ordem de qualidade.
 author: perlynne
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventQualityOrderTable, InventQualityOrderLineResults, HcmWorkerLookUp
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9e9d750f116db62519ac7148f19bf62050430e9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 10acb9aadfeb11ede1d66dd525ace7b70db3bd1c
+ms.sourcegitcommit: fbaccf72df82e6b6927f0c9f0d35af0ca3ecbc2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545396"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1855677"
 ---
 # <a name="inspect-the-quality-of-goods"></a>Verificar a qualidade de mercadorias
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimento mostra como processar a ordem de qualidade. Você pode executar este guia na empresa USMF de dados de demonstração. Antes de iniciar este procedimento de exemplo, você precisa confirmar a ordem de compra '000016'e lançar um recebimento de produtos. Isso criará automaticamente uma ordem de qualidade. As inspeções de qualidade são realizadas tipicamente por um vendedor de qualidade.
+Este tópico explica como processar uma ordem de qualidade. Você pode executar este guia na empresa USMF de dados de demonstração. Antes de iniciar este procedimento de exemplo, você precisa confirmar a ordem de compra '000016'e lançar um recebimento de produtos. Isso criará automaticamente uma ordem de qualidade. As inspeções de qualidade são realizadas tipicamente por um vendedor de qualidade.
 
 
 ## <a name="select-a-quality-order"></a>Selecione uma ordem de qualidade
-1. Vá para Gerenciamento de estoque > Tarefas periódicas > Gerenciamento de qualidade > Ordens de qualidade.
-2. Na lista, marque a linha selecionada.
-    * Selecione a ordem de qualidade que foi criada antes do início deste procedimento.  
+1. No painel de navegação, vá para **Módulos > Gerenciamento de estoque > Tarefas periódicas > Gerenciamento de qualidade > Ordens de qualidade**.
+2. Selecione a ordem de qualidade que foi criada antes do início deste procedimento.  
 
 ## <a name="record-test-results"></a>Registrar resultados do teste
-1. Clique em Resultados.
-2. Clique em Editar.
-3. No campo Quantidade de resultado, insira um número.
-4. Na lista, marque a linha selecionada.
-5. No campo Resultado, clique no botão suspenso para abrir a pesquisa.
-6. Na lista, localize e selecione o PDV desejado.
-    * Neste exemplo o resultado é baseado em um resultado predefinido. Normalmente você registraria um resultado de teste mais específico por exemplo, um tamanho ou outra dimensão.  
-7. Na lista, clique no link na linha selecionada.
-8. Clique em Salvar.
-9. Feche a página.
+1. Selecione **Resultados**.
+2. Selecione **Editar**.
+3. No campo **Quantidade do resultado**, insira um número.
+4. No campo **Resultado**, selecione o registro desejado no menu suspenso.  
+- Neste exemplo o resultado é baseado em um resultado predefinido. Normalmente você registraria um resultado de teste mais específico por exemplo, um tamanho ou outra dimensão.  
+5. Selecione **Salvar**.
+6. Feche a página.
 
 ## <a name="validate-the-quality-order"></a>Validar a ordem de qualidade
-1. Clique em Validar.
-2. No campo Validado por, clique no botão suspenso para abrir a pesquisa.
-    * Selecione o usuário realizando a inspeção.  
-3. Na lista, clique no link na linha selecionada.
-4. Clique em Selecionar.
-5. Clique em OK.
-6. Feche a página.
+1. Selecione **Validar**.
+2. No campo **Validado por**, selecione o usuário que executa a inspeção do menu suspenso.  
+3. Clique em **Selecionar**.
+4. Selecione **OK**.
+5. Feche a página.
 

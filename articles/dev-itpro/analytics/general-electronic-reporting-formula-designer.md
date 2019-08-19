@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f8461f851f6f54def8a04d0f2548961b9a1ca4d
-ms.sourcegitcommit: ce84a1faeda6013ef6a90038d811a72f375b604e
+ms.openlocfilehash: 690dd1f83cb345d3dac67eef059ad890f03afb01
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625863"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849500"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Designer de fórmulas no relatório eletrônico (ER)
 
@@ -215,12 +215,12 @@ As tabelas a seguir descrevem o manuseio de dados da função que podem ser usad
 | HOJE () | Retorna a data atual do servidor de aplicativos do Finance and Operations como um valor de data. | |
 | NULLDATE () | Devolve um valor de dados **null**. | |
 | NULLDATETIME () | Retorna um valor **nulo** de data/hora. | |
-| DATETIMEFORMAT (datetime, formato) | Converte o valor de data/hora especificado em uma sequência de caracteres no formato especificado. (Para obter informações sobre os formatos suportados, consulte [padrão](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) e [personalizar](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "dd-MM-yyyy")** retorna a data atual do servidor de aplicativos do Finance and Operations, 24 de dezembro de 2015, como **"24-12-2015"**, com base no formato personalizado especificado. |
-| DATETIMEFORMAT (datetime, formato, cultura) | Converte o valor de data/hora especificado na sequência de caráteres no formato especificado e [cultura](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Para obter informações sobre os formatos suportados, consulte [padrão](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) e [personalizar](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "d", "de")** retorna a data atual do servidor de aplicativos do Finance and Operations, 24 de dezembro de 2015, como **"24.12.2015"**, com base na cultura alemã selecionada. |
+| DATETIMEFORMAT (datetime, formato) | Converte o valor de data/hora especificado em uma sequência de caracteres no formato especificado. (Para obter informações sobre os formatos suportados, consulte [padrão](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) e [personalizar](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "dd-MM-yyyy")** retorna a data atual do servidor de aplicativos do Finance and Operations, 24 de dezembro de 2015, como **"24-12-2015"**, com base no formato personalizado especificado. |
+| DATETIMEFORMAT (datetime, formato, cultura) | Converte o valor de data/hora especificado na sequência de caráteres no formato especificado e [cultura](https://msdn.microsoft.com/goglobal/bb896001.aspx). (Para obter informações sobre os formatos suportados, consulte [padrão](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) e [personalizar](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "d", "de")** retorna a data atual do servidor de aplicativos do Finance and Operations, 24 de dezembro de 2015, como **"24.12.2015"**, com base na cultura alemã selecionada. |
 | SESSIONTODAY () | Retorna a data atual da sessão do Finance and Operations como um valor de data. | |
 | SESSIONNOW () | Retorna a data e a hora atuais da sessão do Finance and Operations como um valor de data/hora. | |
 | DATEFORMAT (data, formato) | Retorna uma representação da sequência de caracteres da data especificada no formato especificado. | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** retorna a data atual da sessão do Finance and Operations, 24 de dezembro de 2015, como **"24-12-2015"**, com base no formato personalizado especificado. |
-| DATEFORMAT (data, formato, cultura) | Converte o valor de data especificado em uma cadeia de caracteres no formato e [cultura](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) especificados. (Para obter informações sobre os formatos suportados, consulte [padrão](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) e [personalizar](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** retorna a data atual da sessão do Finance and Operations, 24 de dezembro de 2015, como **"24.12.2015"**, com base na cultura alemã selecionada. |
+| DATEFORMAT (data, formato, cultura) | Converte o valor de data especificado em uma cadeia de caracteres no formato e [cultura](https://msdn.microsoft.com/goglobal/bb896001.aspx) especificados. (Para obter informações sobre os formatos suportados, consulte [padrão](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) e [personalizar](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** retorna a data atual da sessão do Finance and Operations, 24 de dezembro de 2015, como **"24.12.2015"**, com base na cultura alemã selecionada. |
 | DAYOFYEAR (data) | Retorna a representação do inteiro do número de dias entre 1º de janeiro e a data especificada. | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** retorna **61**. **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** retorna **1**. |
 | DAYS (data 1, data 2) | Retorne o número de dias entre a primeira e a segunda data especificada. Retorna um valor positivo quando a primeira data for posterior à segunda, retorna **0** (zero) quando a primeira data for igual à segunda ou retornar um valor negativo quando a primeira data for anterior à segunda data. | **DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS(NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))** retorna **-1**. |
 
@@ -649,12 +649,12 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 </tr>
 <tr>
 <td>NUMBERFORMAT (número, formato)</td>
-<td>Retorna uma representação da sequência de caracteres do número especificado no formato especificado. (Para obter informações sobre os formatos suportados, consulte <a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">padrão</a> e <a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">personalizada</a>.) O contexto que esta função é executada determina a cultura usada para formatar números.</td>
+<td>Retorna uma representação da sequência de caracteres do número especificado no formato especificado. (Para obter informações sobre os formatos suportados, consulte <a href="https://msdn.microsoft.com/library/dwhawy9k(v=vs.110).aspx">padrão</a> e <a href="https://msdn.microsoft.com/library/0c899ak8(v=vs.110).aspx">personalizada</a>.) O contexto que esta função é executada determina a cultura usada para formatar números.</td>
 <td>Para a cultura EN-US, <strong>NUMBERFORMAT (0.45, &quot;p&quot;)</strong> retorna <strong>&quot;45.00 %&quot;</strong>. <strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong> retorna <strong>&quot;10&quot;</strong>.</td>
 </tr>
 <tr>
 <td>NUMBERFORMAT (número, formato, cultura)</td>
-<td>Retorna uma representação da cadeia de caracteres do número e do formato especificados e de determinada cultura. (Para obter informações sobre os formatos com suporte, consulte <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings">padrão</a> e <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings">personalizado</a>.).</td>
+<td>Retorna uma representação da cadeia de caracteres do número e do formato especificados e de determinada cultura. (Para obter informações sobre os formatos com suporte, consulte <a href="https://docs.microsoft.com/dotnet/standard/base-types/standard-numeric-format-strings">padrão</a> e <a href="https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings">personalizado</a>.).</td>
 <td><strong>NUMBERFORMAT (10/3, “F2”, "de")</strong> retorna <strong>3,33</strong> enquanto <strong>NUMBERFORMAT (10/3, “F2”, "en-us")</strong> retorna <strong>3.33</strong>.</td>
 </tr>
 <tr>

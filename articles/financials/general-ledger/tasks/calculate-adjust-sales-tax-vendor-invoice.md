@@ -1,52 +1,46 @@
 ---
-title: Calcular e ajustar imposto na fatura do fornecedor
-description: Se o documento de origem exibir valores de imposto diferentes como calculados, você pode ajustar os valores antes do lançamento.
+title: Calcular e ajustar imposto na fatura de fornecedor
+description: Este tópico explica como ajustar impostos em uma fatura de fornecedor no Dynamics 365 for Finance and Operations.
 author: twheeloc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendInvoice, VendTableLookup, TaxTmpWorkTrans
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 803c038d907b68a3c72a83a3e035c4e08b8a8661
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 684529087d5348c9e02310f812f8aa6f64c6655f
+ms.sourcegitcommit: 016832198c306e8329ad21b5254e7d1cdff74c2f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545162"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862605"
 ---
-# <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a>Calcular e ajustar imposto na fatura do fornecedor
+# <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a>Calcular e ajustar imposto na fatura de fornecedor
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Se o documento de origem exibir valores de imposto diferentes como calculados, você pode ajustar os valores antes do lançamento. Esta tarefa usa a empresa de demonstração DEMF.
+Este tópico explica como ajustar impostos em uma fatura de fornecedor no Dynamics 365 for Finance and Operations. Se o documento de origem exibir valores de imposto diferentes como calculados, você pode ajustar os valores antes do lançamento. Esta tarefa usa a empresa de demonstração DEMF.
 
-1. Vá para Contas a pagar > Faturas > Diário de fatura.
-2. Clique em Novo.
-3. Na lista, marque a linha selecionada.
-4. No campo Nome, clique no botão suspenso para abrir a pesquisa.
-5. Na lista, clique no link na linha selecionada.
-6. Clique em Linhas.
-7. Na lista, marque a linha selecionada.
-8. No campo Conta, especifique os valores desejados.
-9. No campo Fatura, digite um valor.
-10. No campo Crédito, insira um número.
-11. No campo Contrapartida, especifique os valores desejados.
-12. Clique em Impostos.
-13. No campo Valor total do imposto real, insira um número.
-14. Clique em OK.
-15. Clique em Salvar.
-16. Clique em Impostos.
-17. Na guia, os valores de ajuste de impostos sobre vendas podem ser ajustados por código de imposto sobre vendas.
-18. Clique em Redefinir valor real a partir de valores calculados.
-19. Clique em OK.
-20. Clique em Salvar.
+1. No painel de navegação, vá para **Módulos > Contas a pagar > Faturas > Diário de faturas**.
+2. Selecione **Novo**.
+3. No campo **Nome** da nova linha, selecione uma opção no menu suspenso.
+4. No Painel de Ações, selecione **Linhas**.
+5. No campo **Conta**, especifique os valores desejados.
+6. No campo **Fatura**, digite um valor.
+7. No campo **Crédito**, insira um número.
+8. No campo **Contrapartida**, especifique os valores desejados.
+9. Selecione **Imposto**.
+10. No campo **Valor total do imposto real**, insira um número.
+11. Na guia **Ajuste**, os valores de impostos podem ser ajustados por código de imposto.
+12. Selecione **Redefinir valor real a partir de valores calculados**.
+13. Selecione **OK**.
+14. Selecione **Salvar**.
 

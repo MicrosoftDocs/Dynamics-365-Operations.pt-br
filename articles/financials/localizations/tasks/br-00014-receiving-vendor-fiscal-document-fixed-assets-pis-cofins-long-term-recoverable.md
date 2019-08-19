@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Brazil
 ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b007d1df0de486fe37f0f5f031b4609547a0c92d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 18991f5db3b4dbc8fe977dcbc1fd2ca0e77eeb2a
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556245"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852780"
 ---
 # <a name="receive-vendor-fiscal-documents-fixed-assets---pis-and-cofins-long-term-recoverable-brazil"></a>Receber notas fiscais de fornecedor (ativos fixos - PIS e COFINS recuperáveis a longo prazo) (Brasil)
 
