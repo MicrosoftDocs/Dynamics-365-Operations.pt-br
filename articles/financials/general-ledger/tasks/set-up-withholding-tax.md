@@ -1,53 +1,51 @@
 ---
 title: Configurar imposto retido na fonte
-description: Imposto retido na fonte é um imposto sobre os fornecedores, o que não cria transações de imposto.
+description: Este tópico explica como configurar o imposto retido na fonte.
 author: twheeloc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxWithholdTable, TaxWithholdData, TaxWithholdGroup
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 382b6332665af2491563960a75d498a4f007aba8
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 10e7018c79e54841d0729636b08ad475a94d20d5
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562779"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834725"
 ---
-# <a name="set-up-withholding-tax"></a><span data-ttu-id="acc05-103">Configurar imposto retido na fonte</span><span class="sxs-lookup"><span data-stu-id="acc05-103">Set up withholding tax</span></span>
+# <a name="set-up-withholding-tax"></a><span data-ttu-id="347f1-103">Configurar imposto retido na fonte</span><span class="sxs-lookup"><span data-stu-id="347f1-103">Set up withholding tax</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="acc05-104">Imposto retido na fonte é um imposto sobre os fornecedores, o que não cria transações de imposto.</span><span class="sxs-lookup"><span data-stu-id="acc05-104">Withholding tax is a tax on vendors that does not create sales tax transactions.</span></span> <span data-ttu-id="acc05-105">O imposto retido na fonte calculado sobre os pagamentos do fornecedor é um passivo.</span><span class="sxs-lookup"><span data-stu-id="acc05-105">Withholding tax that is calculated on vendor payments is a liability.</span></span> <span data-ttu-id="acc05-106">Por isso, apenas contas de balanço ou de passivos são contas válidas para o lançamento do imposto retido na fonte.</span><span class="sxs-lookup"><span data-stu-id="acc05-106">Therefore, only balance sheet accounts or liability accounts are valid accounts for posting withholding tax.</span></span> <span data-ttu-id="acc05-107">Essa guia da tarefa demonstra como definir a retenção de imposto.</span><span class="sxs-lookup"><span data-stu-id="acc05-107">This task guide demonstrates how to set up withholding tax.</span></span>
+<span data-ttu-id="347f1-104">Este tópico explica como configurar o imposto retido na fonte.</span><span class="sxs-lookup"><span data-stu-id="347f1-104">This topic explains how to set up withholding tax.</span></span> <span data-ttu-id="347f1-105">O *imposto retido na fonte* é um imposto cobrado dos fornecedores, o que não cria transações de imposto.</span><span class="sxs-lookup"><span data-stu-id="347f1-105">*Withholding tax* is a tax on vendors that does not create sales tax transactions.</span></span> <span data-ttu-id="347f1-106">O imposto retido na fonte calculado sobre os pagamentos do fornecedor é um passivo.</span><span class="sxs-lookup"><span data-stu-id="347f1-106">Withholding tax that is calculated on vendor payments is a liability.</span></span> <span data-ttu-id="347f1-107">Por isso, apenas contas de balanço ou de passivos são contas válidas para o lançamento do imposto retido na fonte.</span><span class="sxs-lookup"><span data-stu-id="347f1-107">Therefore, only balance sheet accounts or liability accounts are valid accounts for posting withholding tax.</span></span> <span data-ttu-id="347f1-108">Essa guia da tarefa demonstra como definir a retenção de imposto.</span><span class="sxs-lookup"><span data-stu-id="347f1-108">This task guide demonstrates how to set up withholding tax.</span></span>
 
-1. <span data-ttu-id="acc05-108">Vá para Imposto > Impostos indiretos > Impostos retidos na fonte > Códigos de impostos retidos na fonte.</span><span class="sxs-lookup"><span data-stu-id="acc05-108">Go to Tax > Indirect taxes > Withholding tax > Withholding tax codes.</span></span>
-2. <span data-ttu-id="acc05-109">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="acc05-109">Click New.</span></span>
-3. <span data-ttu-id="acc05-110">No campo Impostos retidos na fonte, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="acc05-110">In the Withholding tax code field, type a value.</span></span>
-4. <span data-ttu-id="acc05-111">No campo Nome de impostos retidos na fonte, insira o nome do código de imposto retido na fonte.</span><span class="sxs-lookup"><span data-stu-id="acc05-111">In the Withholding tax name field, enter the name of the withholding tax code.</span></span>
-5. <span data-ttu-id="acc05-112">No campo de conta principal, selecione a conta principal para lançar a responsabilidade da retenção de imposto.</span><span class="sxs-lookup"><span data-stu-id="acc05-112">In the Main account field, select the main account for posting the withholding tax liability.</span></span>
-6. <span data-ttu-id="acc05-113">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="acc05-113">Click Save.</span></span>
-7. <span data-ttu-id="acc05-114">Clique em Valores.</span><span class="sxs-lookup"><span data-stu-id="acc05-114">Click Values.</span></span>
-8. <span data-ttu-id="acc05-115">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="acc05-115">In the list, mark the selected row.</span></span>
-9. <span data-ttu-id="acc05-116">No campo Valor, insira uma porcentagem usada para o cálculo do imposto retido na fonte.</span><span class="sxs-lookup"><span data-stu-id="acc05-116">In the Value field, enter a percentage used for the calculation of the withholding tax.</span></span>
-10. <span data-ttu-id="acc05-117">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="acc05-117">Click Save.</span></span>
-11. <span data-ttu-id="acc05-118">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="acc05-118">Close the page.</span></span>
-12. <span data-ttu-id="acc05-119">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="acc05-119">Click Save.</span></span>
-13. <span data-ttu-id="acc05-120">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="acc05-120">Close the page.</span></span>
-14. <span data-ttu-id="acc05-121">Vá para Imposto > Impostos indiretos > Imposto retido na fonte > Grupos de impostos retidos na fonte.</span><span class="sxs-lookup"><span data-stu-id="acc05-121">Go to Tax > Indirect taxes > Withholding tax > Withholding tax groups.</span></span>
-15. <span data-ttu-id="acc05-122">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="acc05-122">Click New.</span></span>
-16. <span data-ttu-id="acc05-123">No campo Grupo de impostos retidos na fonte, insira o identificador do grupo de imposto retido na fonte.</span><span class="sxs-lookup"><span data-stu-id="acc05-123">In the Withholding tax group field, enter the identifier of the withholding tax group.</span></span>
-17. <span data-ttu-id="acc05-124">No campo Descrição, insira o nome do grupo de impostos retidos na fonte do item.</span><span class="sxs-lookup"><span data-stu-id="acc05-124">In the Description field, enter the name of the withholding tax group.</span></span>
-18. <span data-ttu-id="acc05-125">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="acc05-125">In the list, mark the selected row.</span></span>
-19. <span data-ttu-id="acc05-126">No campo de código de Imposto retido na fonte, selecione o código do imposto retido na fonte.</span><span class="sxs-lookup"><span data-stu-id="acc05-126">In the Withholding tax code field, select the withholding tax code.</span></span>
-20. <span data-ttu-id="acc05-127">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="acc05-127">In the list, click the link in the selected row.</span></span>
-21. <span data-ttu-id="acc05-128">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="acc05-128">Click Save.</span></span>
+1. <span data-ttu-id="347f1-109">Vá para **Painel de navegação > Módulos > Imposto > Impostos indiretos > Imposto retido na fonte > Códigos de imposto retido na fonte**.</span><span class="sxs-lookup"><span data-stu-id="347f1-109">Go to **Navigation pane > Modules > Tax > Indirect taxes > Withholding tax > Withholding tax codes**.</span></span>
+2. <span data-ttu-id="347f1-110">Selecione **Novo**.</span><span class="sxs-lookup"><span data-stu-id="347f1-110">Select **New**.</span></span>
+3. <span data-ttu-id="347f1-111">No campo **Código de imposto retido na fonte**, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="347f1-111">In the **Withholding tax code** field, type a value.</span></span>
+4. <span data-ttu-id="347f1-112">No campo **Nome de imposto retido na fonte**, insira o nome do código de imposto retido na fonte.</span><span class="sxs-lookup"><span data-stu-id="347f1-112">In the **Withholding tax name** field, enter the name of the withholding tax code.</span></span>
+5. <span data-ttu-id="347f1-113">No campo **Conta principal**, selecione a conta principal para lançamento da obrigação da retenção de imposto retido na fonte.</span><span class="sxs-lookup"><span data-stu-id="347f1-113">In the **Main account** field, select the main account for posting the withholding tax liability.</span></span>
+6. <span data-ttu-id="347f1-114">Selecione **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="347f1-114">Select **Save**.</span></span>
+7. <span data-ttu-id="347f1-115">Selecione **Valores** e marque o registro desejado na lista.</span><span class="sxs-lookup"><span data-stu-id="347f1-115">Select **Values** and mark the desired record in the list.</span></span>
+8. <span data-ttu-id="347f1-116">No campo **Valor**, insira uma porcentagem usada para o cálculo do imposto retido na fonte.</span><span class="sxs-lookup"><span data-stu-id="347f1-116">In the **Value** field, enter a percentage used for the calculation of the withholding tax.</span></span>
+9. <span data-ttu-id="347f1-117">Selecione **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="347f1-117">Select **Save**.</span></span>
+10. <span data-ttu-id="347f1-118">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="347f1-118">Close the page.</span></span>
+11. <span data-ttu-id="347f1-119">Selecione **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="347f1-119">Select **Save**.</span></span>
+12. <span data-ttu-id="347f1-120">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="347f1-120">Close the page.</span></span>
+13. <span data-ttu-id="347f1-121">Vá para **Painel de navegação > Módulos > Imposto > Impostos indiretos > Imposto retido na fonte > Grupos de impostos retidos na fonte**.</span><span class="sxs-lookup"><span data-stu-id="347f1-121">Go to **Navigation pane > Modules > Tax > Indirect taxes > Withholding tax > Withholding tax groups**.</span></span>
+14. <span data-ttu-id="347f1-122">Selecione **Novo**.</span><span class="sxs-lookup"><span data-stu-id="347f1-122">Select **New**.</span></span>
+15. <span data-ttu-id="347f1-123">No campo **Grupo de impostos retidos na fonte**, insira o identificador do grupo de impostos retidos na fonte.</span><span class="sxs-lookup"><span data-stu-id="347f1-123">In the **Withholding tax group** field, enter the identifier of the withholding tax group.</span></span>
+16. <span data-ttu-id="347f1-124">No campo **Descrição**, insira o nome do grupo de impostos retidos na fonte.</span><span class="sxs-lookup"><span data-stu-id="347f1-124">In the **Description** field, enter the name of the withholding tax group.</span></span>
+17. <span data-ttu-id="347f1-125">No campo **Código de imposto retido na fonte**, selecione o código do imposto retido na fonte.</span><span class="sxs-lookup"><span data-stu-id="347f1-125">In the **Withholding tax code** field, select the withholding tax code.</span></span>
+18. <span data-ttu-id="347f1-126">Selecione **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="347f1-126">Select **Save**.</span></span>
+19. <span data-ttu-id="347f1-127">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="347f1-127">Close the page.</span></span>
 

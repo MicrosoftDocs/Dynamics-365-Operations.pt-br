@@ -9,63 +9,63 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Brazil
 ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 523fbb3611550f65902792d5dce4ee0ba9c84e80
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c78e3f47e3936f0bb8f7684f6972d162c637f5af
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556237"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849167"
 ---
-# <a name="miscellaneous-charges-on-free-text-invoices-brazil"></a><span data-ttu-id="015b9-103">Encargos diversos sobre faturas de texto livre (Brasil)</span><span class="sxs-lookup"><span data-stu-id="015b9-103">Miscellaneous charges on free text invoices (Brazil)</span></span>
+# <a name="miscellaneous-charges-on-free-text-invoices-brazil"></a><span data-ttu-id="2b280-103">Encargos diversos sobre faturas de texto livre (Brasil)</span><span class="sxs-lookup"><span data-stu-id="2b280-103">Miscellaneous charges on free text invoices (Brazil)</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="015b9-104">A legislação brasileira aplica encargos diversos que incluem frete.</span><span class="sxs-lookup"><span data-stu-id="015b9-104">Brazilian legislation taxes  miscellaneous charges such as freight.</span></span> <span data-ttu-id="015b9-105">Encargos diversos só podem ser usados em uma fatura de texto livre.</span><span class="sxs-lookup"><span data-stu-id="015b9-105">Miscellaneous charges can be used only on a free text invoice.</span></span> <span data-ttu-id="015b9-106">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="015b9-106">This task uses the BRMF demo company.</span></span>
+<span data-ttu-id="2b280-104">A legislação brasileira aplica encargos diversos que incluem frete.</span><span class="sxs-lookup"><span data-stu-id="2b280-104">Brazilian legislation taxes  miscellaneous charges such as freight.</span></span> <span data-ttu-id="2b280-105">Encargos diversos só podem ser usados em uma fatura de texto livre.</span><span class="sxs-lookup"><span data-stu-id="2b280-105">Miscellaneous charges can be used only on a free text invoice.</span></span> <span data-ttu-id="2b280-106">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="2b280-106">This task uses the BRMF demo company.</span></span>
 
-1. <span data-ttu-id="015b9-107">Vá para Contas recebíveis > Faturas > Todas faturas de texto livre.</span><span class="sxs-lookup"><span data-stu-id="015b9-107">Go to Accounts receivable > Invoices > All free text invoices.</span></span>
-2. <span data-ttu-id="015b9-108">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="015b9-108">Click New.</span></span>
-3. <span data-ttu-id="015b9-109">No campo ID do estabelecimento fiscal, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="015b9-109">In the Fiscal establishment ID field, enter or select a value.</span></span>
-4. <span data-ttu-id="015b9-110">No campo Conta de cliente, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="015b9-110">In the Customer account field, enter or select a value.</span></span>
-5. <span data-ttu-id="015b9-111">No campo Linhas ou cabeçalho, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="015b9-111">In the Lines or header field, select an option.</span></span>
-6. <span data-ttu-id="015b9-112">Expanda a seção Informações fiscais.</span><span class="sxs-lookup"><span data-stu-id="015b9-112">Expand the Fiscal information section.</span></span>
-7. <span data-ttu-id="015b9-113">No campo Nota fiscal, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="015b9-113">In the Fiscal document type field, enter or select a value.</span></span>
-8. <span data-ttu-id="015b9-114">No campo Linhas ou cabeçalho, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="015b9-114">In the Lines or header field, select an option.</span></span>
-9. <span data-ttu-id="015b9-115">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="015b9-115">Click Save.</span></span>
-10. <span data-ttu-id="015b9-116">Clique em Adicionar linha.</span><span class="sxs-lookup"><span data-stu-id="015b9-116">Click Add line.</span></span>
-11. <span data-ttu-id="015b9-117">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="015b9-117">In the list, mark the selected row.</span></span>
-12. <span data-ttu-id="015b9-118">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="015b9-118">In the Description field, type a value.</span></span>
-13. <span data-ttu-id="015b9-119">No campo Conta principal, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="015b9-119">In the Main account field, specify the desired values.</span></span>
-14. <span data-ttu-id="015b9-120">No campo CFOP, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="015b9-120">In the CFOP field, enter or select a value.</span></span>
-15. <span data-ttu-id="015b9-121">No campo Grupo de impostos sobre vendas, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="015b9-121">In the Sales tax group field, enter or select a value.</span></span>
-16. <span data-ttu-id="015b9-122">No campo Grupo de impostos sobre vendas, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="015b9-122">In the Item sales tax group field, enter or select a value.</span></span>
-17. <span data-ttu-id="015b9-123">No campo Quantidade, insira um número.</span><span class="sxs-lookup"><span data-stu-id="015b9-123">In the Quantity field, enter a number.</span></span>
-18. <span data-ttu-id="015b9-124">No campo Preço unitário, insira um número.</span><span class="sxs-lookup"><span data-stu-id="015b9-124">In the Unit price field, enter a number.</span></span>
-19. <span data-ttu-id="015b9-125">Expanda a seção Detalhes da linha.</span><span class="sxs-lookup"><span data-stu-id="015b9-125">Expand the Line details section.</span></span>
-20. <span data-ttu-id="015b9-126">No campo Número de ativo fixo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="015b9-126">In the Fixed asset number field, enter or select a value.</span></span>
-21. <span data-ttu-id="015b9-127">Clique em Encargos.</span><span class="sxs-lookup"><span data-stu-id="015b9-127">Click Charges.</span></span>
-22. <span data-ttu-id="015b9-128">No campo Código de cobranças, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="015b9-128">In the Charges code field, enter or select a value.</span></span>
-23. <span data-ttu-id="015b9-129">No campo Valor de encargo, insira um número.</span><span class="sxs-lookup"><span data-stu-id="015b9-129">In the Charges value field, enter a number.</span></span>
-24. <span data-ttu-id="015b9-130">No campo Grupo de impostos sobre vendas, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="015b9-130">In the Sales tax group field, enter or select a value.</span></span>
-25. <span data-ttu-id="015b9-131">No campo Grupo de impostos sobre vendas, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="015b9-131">In the Item sales tax group field, enter or select a value.</span></span>
-26. <span data-ttu-id="015b9-132">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="015b9-132">Click Save.</span></span>
-27. <span data-ttu-id="015b9-133">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="015b9-133">Close the page.</span></span>
-28. <span data-ttu-id="015b9-134">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="015b9-134">Click Save.</span></span>
-29. <span data-ttu-id="015b9-135">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="015b9-135">Click Post.</span></span>
-30. <span data-ttu-id="015b9-136">No campo Nome da transportadora, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="015b9-136">In the Carrier name field, enter or select a value.</span></span>
-31. <span data-ttu-id="015b9-137">No campo Tipo de volume, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="015b9-137">In the Volume type field, type a value.</span></span>
-32. <span data-ttu-id="015b9-138">No campo Quantidade de volume, insira um número.</span><span class="sxs-lookup"><span data-stu-id="015b9-138">In the Volume quantity field, enter a number.</span></span>
-33. <span data-ttu-id="015b9-139">No campo Peso líquido, insira um número.</span><span class="sxs-lookup"><span data-stu-id="015b9-139">In the Net weight field, enter a number.</span></span>
-34. <span data-ttu-id="015b9-140">No campo Peso bruto, insira um número.</span><span class="sxs-lookup"><span data-stu-id="015b9-140">In the Gross weight field, enter a number.</span></span>
-35. <span data-ttu-id="015b9-141">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="015b9-141">Click OK.</span></span>
-36. <span data-ttu-id="015b9-142">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="015b9-142">Close the page.</span></span>
-37. <span data-ttu-id="015b9-143">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="015b9-143">Close the page.</span></span>
-38. <span data-ttu-id="015b9-144">Vá para Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.</span><span class="sxs-lookup"><span data-stu-id="015b9-144">Go to Accounts receivable > Fiscal documents > Electronic fiscal documents > Export/import NF-e process.</span></span>
-39. <span data-ttu-id="015b9-145">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="015b9-145">Click OK.</span></span>
+1. <span data-ttu-id="2b280-107">Vá para Contas recebíveis > Faturas > Todas faturas de texto livre.</span><span class="sxs-lookup"><span data-stu-id="2b280-107">Go to Accounts receivable > Invoices > All free text invoices.</span></span>
+2. <span data-ttu-id="2b280-108">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="2b280-108">Click New.</span></span>
+3. <span data-ttu-id="2b280-109">No campo ID do estabelecimento fiscal, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="2b280-109">In the Fiscal establishment ID field, enter or select a value.</span></span>
+4. <span data-ttu-id="2b280-110">No campo Conta de cliente, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="2b280-110">In the Customer account field, enter or select a value.</span></span>
+5. <span data-ttu-id="2b280-111">No campo Linhas ou cabeçalho, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="2b280-111">In the Lines or header field, select an option.</span></span>
+6. <span data-ttu-id="2b280-112">Expanda a seção Informações fiscais.</span><span class="sxs-lookup"><span data-stu-id="2b280-112">Expand the Fiscal information section.</span></span>
+7. <span data-ttu-id="2b280-113">No campo Nota fiscal, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="2b280-113">In the Fiscal document type field, enter or select a value.</span></span>
+8. <span data-ttu-id="2b280-114">No campo Linhas ou cabeçalho, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="2b280-114">In the Lines or header field, select an option.</span></span>
+9. <span data-ttu-id="2b280-115">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="2b280-115">Click Save.</span></span>
+10. <span data-ttu-id="2b280-116">Clique em Adicionar linha.</span><span class="sxs-lookup"><span data-stu-id="2b280-116">Click Add line.</span></span>
+11. <span data-ttu-id="2b280-117">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="2b280-117">In the list, mark the selected row.</span></span>
+12. <span data-ttu-id="2b280-118">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="2b280-118">In the Description field, type a value.</span></span>
+13. <span data-ttu-id="2b280-119">No campo Conta principal, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="2b280-119">In the Main account field, specify the desired values.</span></span>
+14. <span data-ttu-id="2b280-120">No campo CFOP, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="2b280-120">In the CFOP field, enter or select a value.</span></span>
+15. <span data-ttu-id="2b280-121">No campo Grupo de impostos sobre vendas, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="2b280-121">In the Sales tax group field, enter or select a value.</span></span>
+16. <span data-ttu-id="2b280-122">No campo Grupo de impostos sobre vendas, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="2b280-122">In the Item sales tax group field, enter or select a value.</span></span>
+17. <span data-ttu-id="2b280-123">No campo Quantidade, insira um número.</span><span class="sxs-lookup"><span data-stu-id="2b280-123">In the Quantity field, enter a number.</span></span>
+18. <span data-ttu-id="2b280-124">No campo Preço unitário, insira um número.</span><span class="sxs-lookup"><span data-stu-id="2b280-124">In the Unit price field, enter a number.</span></span>
+19. <span data-ttu-id="2b280-125">Expanda a seção Detalhes da linha.</span><span class="sxs-lookup"><span data-stu-id="2b280-125">Expand the Line details section.</span></span>
+20. <span data-ttu-id="2b280-126">No campo Número de ativo fixo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="2b280-126">In the Fixed asset number field, enter or select a value.</span></span>
+21. <span data-ttu-id="2b280-127">Clique em Encargos.</span><span class="sxs-lookup"><span data-stu-id="2b280-127">Click Charges.</span></span>
+22. <span data-ttu-id="2b280-128">No campo Código de cobranças, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="2b280-128">In the Charges code field, enter or select a value.</span></span>
+23. <span data-ttu-id="2b280-129">No campo Valor de encargo, insira um número.</span><span class="sxs-lookup"><span data-stu-id="2b280-129">In the Charges value field, enter a number.</span></span>
+24. <span data-ttu-id="2b280-130">No campo Grupo de impostos sobre vendas, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="2b280-130">In the Sales tax group field, enter or select a value.</span></span>
+25. <span data-ttu-id="2b280-131">No campo Grupo de impostos sobre vendas, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="2b280-131">In the Item sales tax group field, enter or select a value.</span></span>
+26. <span data-ttu-id="2b280-132">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="2b280-132">Click Save.</span></span>
+27. <span data-ttu-id="2b280-133">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="2b280-133">Close the page.</span></span>
+28. <span data-ttu-id="2b280-134">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="2b280-134">Click Save.</span></span>
+29. <span data-ttu-id="2b280-135">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="2b280-135">Click Post.</span></span>
+30. <span data-ttu-id="2b280-136">No campo Nome da transportadora, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="2b280-136">In the Carrier name field, enter or select a value.</span></span>
+31. <span data-ttu-id="2b280-137">No campo Tipo de volume, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="2b280-137">In the Volume type field, type a value.</span></span>
+32. <span data-ttu-id="2b280-138">No campo Quantidade de volume, insira um número.</span><span class="sxs-lookup"><span data-stu-id="2b280-138">In the Volume quantity field, enter a number.</span></span>
+33. <span data-ttu-id="2b280-139">No campo Peso líquido, insira um número.</span><span class="sxs-lookup"><span data-stu-id="2b280-139">In the Net weight field, enter a number.</span></span>
+34. <span data-ttu-id="2b280-140">No campo Peso bruto, insira um número.</span><span class="sxs-lookup"><span data-stu-id="2b280-140">In the Gross weight field, enter a number.</span></span>
+35. <span data-ttu-id="2b280-141">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="2b280-141">Click OK.</span></span>
+36. <span data-ttu-id="2b280-142">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="2b280-142">Close the page.</span></span>
+37. <span data-ttu-id="2b280-143">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="2b280-143">Close the page.</span></span>
+38. <span data-ttu-id="2b280-144">Vá para Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.</span><span class="sxs-lookup"><span data-stu-id="2b280-144">Go to Accounts receivable > Fiscal documents > Electronic fiscal documents > Export/import NF-e process.</span></span>
+39. <span data-ttu-id="2b280-145">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="2b280-145">Click OK.</span></span>
 
