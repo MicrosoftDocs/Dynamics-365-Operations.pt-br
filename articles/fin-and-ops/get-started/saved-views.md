@@ -3,13 +3,12 @@ title: Exibições salvas
 description: Este tópico descreve como usar os recursos de exibições salvas.
 author: jasongre
 manager: AnnBe
-ms.date: 06/05/2019
+ms.date: 08/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard
-ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,17 +16,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: ea2f2dbd615480bb76e1d04a106ae69bf6f45f4b
-ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
+ms.openlocfilehash: 9d19987a44c467381828acb81b6161601268d84f
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620769"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863051"
 ---
 # <a name="saved-views"></a>Exibições salvas
 
 [!include [banner](../includes/banner.md)]
-[!include [private preview banner](../includes/private-preview-banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 ## <a name="introduction"></a>Introdução
 A personalização desempenha um papel importante ao permitir que usuários e organizações otimizem a experiência do usuário no Microsoft Dynamics 365 for Finance and Operations para atender às suas necessidades. Para obter mais detalhes sobre personalização, consulte [Personalizar a experiência do usuário](personalize-user-experience.md).
@@ -49,13 +48,13 @@ Existem duas variações de tamanho para o seletor de exibição:
 
 -   **Grandes seletores de exibição**: as páginas que apresentam de forma proeminente uma lista terão um seletor de exibição maior por alguns motivos. O mais importante é que o seletor de exibição maior indica as páginas em que a exibição pode incluir filtros definidos pelo usuário. Como os filtros são incluídos nas exibições, o tamanho de seletor maior também é garantido, pois os nomes de exibição geralmente serão a melhor descrição dos dados mostrados na tela, e a expectativa é a de que os usuários alternem entre as exibições com mais frequência nesses tipos de página.  
  
--   **Seletores de exibição pequenos**: todos os outros formulários de página inteira têm um seletor de exibição menor que aparece ao lado da legenda da página. As exibições nessas páginas incluem apenas personalizações (e não filtros definidos pelo usuário). Nessas páginas, a legenda do formulário ou o título do registro geralmente é a informação mais importante na parte superior do formulário. O tamanho menor também reflete uma frequência mais baixa esperada de alternância de exibição nessas páginas. 
+-   **Seletores de exibição pequenos**: todos os outros formulários de página inteira (com a exceção de espaços de trabalho e o painel) têm um seletor de exibição menor que aparece ao lado da legenda da página. As exibições nessas páginas incluem apenas personalizações (e não filtros definidos pelo usuário). Nessas páginas, a legenda do formulário ou o título do registro geralmente é a informação mais importante na parte superior do formulário. O tamanho menor também reflete uma frequência mais baixa esperada de alternância de exibição nessas páginas. 
  
 Se você clicar no nome da exibição, o seletor de exibição será aberto e mostrará a lista de exibições disponíveis dessa página.
 
 -    **Exibição clássica**: a exibição clássica é a aquela pronta para uso da página sem nenhuma personalização explícita aplicada.  
 -    **Exibições pessoais**: as exibições sem cadeados representam suas exibições pessoais. São exibições que você criou ou que um administrador forneceu a você.  
--    **Exibições bloqueadas**: algumas exibições (como a exibição clássica e as exibições publicadas na sua função) têm um cadeado ao lado delas no seletor de exibição, indicando que você não pode editar essas exibições. Contudo, as personalizações implícitas em torno do uso da página são salvas automaticamente, como alterar a largura de uma coluna de grade ou expandir ou recolher uma Guia Rápida. Você pode, porém, criar uma exibição pessoal com base em uma exibição bloqueada usando a ação **Salvar uma cópia**, se tiver privilégios de personalização.
+-    **Exibições bloqueadas**: algumas exibições (como a exibição clássica e as exibições publicadas na sua função) têm um cadeado ao lado delas no seletor de exibição, indicando que você não pode editar essas exibições. Contudo, as personalizações implícitas que refletem o uso da página são salvas automaticamente, como alterar a largura de uma coluna de grade ou expandir ou recolher uma Guia Rápida. Você pode, porém, criar uma exibição pessoal com base em uma exibição bloqueada usando a ação **Salvar uma cópia**, se tiver privilégios de personalização.
 -    **Novas exibições**: as exibições publicadas que ainda não foram abertas são delineadas com uma faísca à esquerda do nome da exibição.  
 
 Para alternar para uma exibição diferente, primeiro abra o seletor de exibição e selecione a exibição que deseja carregar. 
@@ -75,7 +74,7 @@ Se você quiser salvar essas alterações, siga as etapas a seguir.
      3.    Selecione **Salvar**.
 
 ## <a name="changing-the-default-view"></a>Alteração da exibição padrão
-A exibição padrão é aquela que o sistema tentará abrir quando você navegar pela primeira vez até a página. Você deve defini-la como a exibição que você espera usar com frequência.  
+A exibição padrão é aquela que o sistema tentará abrir quando você navegar pela primeira vez até a página. Você deve defini-la como a exibição que você espera usar com mais frequência.  
 
 Para alterar a exibição padrão de uma página, siga estas etapas: 
 1.  Alterne para a exibição que você usa como padrão. 
@@ -100,14 +99,14 @@ Quaisquer alterações feitas nessa caixa de diálogo entrarão em vigor após v
 ## <a name="managing-personalizations-at-an-organizational-level-with-views"></a>Gerenciamento de personalizações em nível organizacional com exibições
 Para entender as melhorias no gerenciamento de personalizações em nível organizacional, vamos analisar primeiro como o gerenciamento da personalização funcionou antes das exibições.  
 
-Sem exibições, os administradores aplicariam um conjunto de personalizações para uma página a um usuário, grupo de usuários ou usuários usando o formulário Personalização. Se esses usuários tivessem direitos de personalização, as personalizações seriam aplicadas a essa página. Contudo, não era possível impedir que os usuários personalizassem ainda mais a página, o que significava que a organização não podia garantir que seus usuários tivessem uma interface de usuário consistente. Se algum desses usuários não tiver direitos de personalização, as personalizações dadas a eles por um administrador não serão carregadas. Além disso, se novos usuários fossem contratados em uma organização, os administradores precisavam carregar manualmente um conjunto de personalizações para o usuário. Não havia mecanismo automático para especificar que um determinado conjunto de personalizações deveria estar disponível para esse usuário.
+Sem exibições, os administradores aplicariam um conjunto de personalizações para uma página a um usuário ou um grupo de usuários usando a página Personalização. Se esses usuários tivessem direitos de personalização, as personalizações seriam aplicadas a essa página. Contudo, não era possível impedir que os usuários personalizassem ainda mais a página, o que significava que a organização não podia garantir que seus usuários tivessem uma interface de usuário consistente. Se algum desses usuários não tiver direitos de personalização, as personalizações dadas a eles por um administrador não serão carregadas. Além disso, se novos usuários fossem contratados em uma organização, os administradores precisavam carregar manualmente um conjunto de personalizações para o usuário. Não havia mecanismo automático para especificar que um determinado conjunto de personalizações deveria estar disponível para usuários nessa função.
 
 Com o recurso de exibições salvas, o gerenciamento organizacional de personalizações é significativamente mais fácil, principalmente em decorrência da capacidade de publicar exibições para funções de segurança. Depois que uma exibição for publicada, qualquer usuário com essa função poderá acessar e usar a exibição, independentemente da capacidade de personalização do usuário. Embora cada usuário tenha uma cópia da exibição publicada na qual o uso da página (personalizações implícitas) é aplicado automaticamente, nenhum usuário pode salvar personalizações explícitas ou exibições na consulta para a exibição publicada (o que significa que as exibições publicadas estão bloqueadas). Além disso, se novos usuários receberem uma função para a qual a exibição foi publicada, eles verão automaticamente as exibições associadas a suas funções sem qualquer ação do administrador. Da mesma forma, se um usuário alterar funções em uma organização, as exibições associadas à sua função antiga não estarão mais acessíveis a elas, novamente sem qualquer ação do administrador. As atualizações de uma exibição publicada podem ser facilmente distribuídas aos usuários, republicando a exibição para as funções de segurança apropriadas.
 
 O recurso de publicação permite que as organizações definam exibições padrão corporativas otimizadas para seus negócios, direcionadas a usuários em funções de segurança específicas.  
 
 ## <a name="publishing-views"></a>Publicação de exibições
-Durante o processo de publicação, as exibições podem ser atribuídas a uma ou mais funções de segurança, o que significa que qualquer usuário com essa função poderá acessar e usar essa exibição, embora não possa editar a exibição. Atualmente, somente os administradores do sistema têm direitos para a ação **Publicar** no menu suspenso do seletor de exibição.  
+Durante o processo de publicação, as exibições podem ser atribuídas a uma ou mais funções de segurança, o que significa que qualquer usuário com essa função poderá acessar e usar essa exibição, embora não possa editar a exibição. Atualmente, apenas os administradores do sistema têm direitos para a ação **Publicar** no menu suspenso de seletor de exibição, mas uma nova função de segurança estará disponível em uma atualização futura para dar direitos de publicação a outros usuários confiáveis.  
 
 Para publicar uma exibição, siga estas etapas: 
 1.  Crie e salve uma cópia pessoal da exibição que você deseja publicar. 
@@ -150,14 +149,19 @@ Quaisquer alterações feitas nessa caixa de diálogo entrarão em vigor depois 
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Como faço para habilitar as exibições salvas no meu ambiente? 
-Para habilitar as exibições salvas, o administrador do sistema deve fazer o seguinte: 
-1.  Vá para a página **Personalização** usando a pesquisa de navegação. 
-2.  Selecione a guia **Configurações**.
-3.  Defina a opção **Habilitar exibições salvas** como **Sim**.
+Para habilitar exibições salvas quando o recurso estiver em visualização, siga as etapas abaixo: 
 
-Depois que esse recurso for habilitado, todas as sessões de usuário subsequentes serão iniciadas com as exibições habilitadas.  
+1.  **Habilitar a versão de pré-lançamento**: execute esta instrução SQL: 
 
-Observe que, se a personalização estiver desativada para o ambiente, as exibições serão habilitadas mesmo se você seguir as etapas acima. Isso ocorre porque o recurso de exibições é baseado no subsistema de personalização.
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('Dynamics.AX.Application.CLISavedViewsEnableFeature', 1, 0, 5637144576);`
+
+2.  **Localizar o recurso**: navegue até o espaço de trabalho **Gerenciamento de recursos**. Se **Exibições salvas** não aparecer na lista, selecione o botão **Verificar se há atualizações**.   
+
+3.  **Habilitar o recurso**: localize o recurso **Exibições salvas** na lista de recursos e clique no botão **Habilitar agora** no painel de detalhes.
+
+Todas as sessões de usuário subsequentes começarão com exibições salvas habilitadas.  
+
+Observe que, se a personalização estiver desativada para o ambiente, as exibições serão desabilitadas mesmo se você seguir as etapas acima. Isso ocorre porque o recurso de exibições é baseado no subsistema de personalização.
 
 ### <a name="what-happens-to-existing-personalizations-when-views-are-enabled"></a>O que acontece com as personalizações existentes quando as exibições estão habilitadas? 
 Quando as exibições estão habilitadas, todas as personalizações existentes para um usuário e formulário são salvas em uma nova exibição chamada **Minha exibição**, que é automaticamente definida como a exibição padrão. Isso serve para garantir que haja uma experiência de usuário consistente antes e depois de as exibições serem habilitadas, exceto pelo controle do seletor de exibição que aparece nos formulários.  
@@ -166,7 +170,7 @@ Quando as exibições estão habilitadas, todas as personalizações existentes 
 As exibições estão disponíveis na maioria das páginas, mas não no Finance and Operations. Especificamente, as exibições estão atualmente disponíveis em todas as páginas de tela inteira, exceto nos painéis e espaços de trabalho. As páginas que não são de tela inteira, que incluem caixas de diálogo, diálogos suspensos, pesquisas, visualizações avançadas, também não oferecem suporte a exibições no momento. O suporte de exibição para tipos de página adicionais, como espaços de trabalho e caixas de diálogo, pode ser considerado para uma atualização futura.   
 
 ### <a name="who-is-allowed-to-publish-views"></a>Quem tem permissão para publicar exibições?
-Atualmente, os administradores do sistema são os únicos usuários que têm direitos para publicar exibições.  Uma nova função de segurança é planejada, o que forneceria aos clientes mais flexibilidade para quem pode publicar.  
+Atualmente, os administradores do sistema são os únicos usuários que têm direitos para publicar exibições.  Uma nova função de segurança é planejada para uma futura atualização, o que forneceria aos clientes mais flexibilidade para quem pode publicar.  
 
 ### <a name="why-am-i-not-able-to-save-filters-with-this-view"></a>Por que não consigo salvar filtros com essa exibição? 
 Existem alguns motivos pelos quais um filtro pode não aparecer para salvar com uma exibição: 
@@ -179,4 +183,4 @@ Existem alguns motivos pelos quais um filtro pode não aparecer para salvar com 
      
   Você deve ser alertado quando essas situações ocorrerem por uma mensagem informativa quando a exibição estiver sendo carregada. Você também pode confirmar alternando para essa exibição após o carregamento da página, já que isso deve permitir que a consulta da exibição seja executada independentemente.  
 
-- A página em questão pode não oferecer suporte adequado às exibições, pois ela pode ignorar completamente a consulta da exibição. Relate quaisquer casos por meio do mecanismo **Comentários**. Para chegar à página de comentários, clique em **Ajuda e suporte** e depois **Comentários**.  
+- A página em questão pode não dar o suporte correto às exibições, já que pode pode ignorar completamente a consulta ou operar em uma tabela temporária cujos dados não sejam persistentes. 

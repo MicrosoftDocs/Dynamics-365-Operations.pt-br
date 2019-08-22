@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Brazil
 ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f921a69e747eb0f9c2c6517034600e76665a74f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ed9c8c5b4fc5c6b4cdda6e1a4d7891b953b526db
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556228"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852766"
 ---
 # <a name="receive-vendor-fiscal-documents-fixed-assets---icms-long-term-recoverable-brazil"></a>Receber notas fiscais de fornecedor (ativos fixos - ICMS recuperável de longo prazo) (Brasil)
 

@@ -1,88 +1,75 @@
 ---
-title: Configurar políticas de fatura de fornecedores
-description: As políticas de fatura de fornecedor são executadas quando você lança uma fatura de fornecedor usando a página de fatura do fornecedor e quando você abre a página de violações de política da fatura de fornecedor.
+title: Configurar políticas de fatura de fornecedor
+description: Este tópico explica como configurar políticas de fatura de fornecedor no Dynamics 365 for Finance and Operations.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendParameters,  SysPolicyListPage, SysPolicyParameters, SysPolicySourceDocumentRuleType, SysPolicy, SysPolicySourceDocumentRule, SysQueryForm, SysQueryTableLookUp, SysQueryPrefixLookUp, SysQueryFieldLookUp
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b424eee7c91ef1085c98828c0d5e5cf674717a81
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 328aafd16496fdbb963c9aa40a5c13005be7a382
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559655"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842800"
 ---
-# <a name="set-up-vendor-invoice-policies"></a>Configurar políticas de fatura de fornecedores
+# <a name="set-up-vendor-invoice-policies"></a>Configurar políticas de fatura de fornecedor
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-As políticas de fatura de fornecedor são executadas quando você lança uma fatura de fornecedor usando a página de fatura do fornecedor e quando você abre a página de violações de política da fatura de fornecedor. Você também pode configurar o fluxo de trabalho da fatura do fornecedor para executar as políticas de fatura do fornecedor todas as vezes que você enviar uma fatura para o fluxo de trabalho. 
+Este tópico explica como configurar políticas de fatura de fornecedor no Dynamics 365 for Finance and Operations. As políticas de fatura de fornecedor são executadas quando você lança uma fatura de fornecedor usando a página de fatura do fornecedor e quando você abre a página de violações de política da fatura de fornecedor. Você também pode configurar o fluxo de trabalho da fatura do fornecedor para executar as políticas de fatura do fornecedor todas as vezes que você enviar uma fatura para o fluxo de trabalho. 
 
-As políticas de fatura do fornecedor não se aplicam às faturas que foram criadas no registro de fatura ou no diário de faturas. 
-
-A validação de conciliação de fatura não usa as políticas da fatura do fornecedor, mas é configurada na página de parâmetros de contas a pagar.
-
-Este registro usa a empresa de dados de demonstração USMF. A função gerente de contas a pagar ou gerente de contabilidade executaria estas etapas. Antes de começar, verifique se a configuração conciliação de faturas está marcada.
+- As políticas de fatura do fornecedor não se aplicam às faturas que foram criadas no registro de fatura ou no diário de faturas.  
+- A validação de conciliação de fatura não usa as políticas da fatura do fornecedor, mas é configurada na página de parâmetros de contas a pagar.  
+- Este registro usa a empresa de dados de demonstração USMF. A função gerente de contas a pagar ou gerente de contabilidade executaria estas etapas. Antes de começar, verifique se a configuração conciliação de faturas está marcada.
 
 
 ## <a name="prepare-to-create-vendor-invoice-policies"></a>Preparar para criar políticas de fatura do fornecedor
-1. Ir para Contas a pagar > Configuração > Parâmetros de contas a pagar.
-2. Clique na guia Validação de fatura.
-3. Marque ou desmarque a caixa de seleção automaticamente do status do cabeçalho da nota fiscal da atualização.
-4. Clique em OK.
-5. No campo Lançar nota fiscal com discrepâncias, selecione uma opção.
+1. Vá para **Painel de navegação > Módulos > Contas a pagar > Configuração > Parâmetros de contas a pagar**.
+2. Selecione a guia **Validação de fatura**.
+3. Marque ou desmarque a caixa de seleção **Atualizar automaticamente cabeçalho de fatura**.
+4. Selecione **OK**.
+5. No campo **Lançar fatura com discrepâncias**, selecione uma opção.
 6. Feche a página.
-7. Ir para Contas a pagar > Configuração de política > Políticas de fatura de fornecedor.
-8. Clique em Parâmetros.
-9. Clique em btnAdd.
-10. Feche a página.
+7. Vá para **Painel de navegação > Módulos > Contas a pagar > Configuração de política > Políticas de fatura de fornecedor**.
+8. Selecione **Parâmetros**.
+9. Selecione **Adicionar**.
+10. Feche a página para voltar à home page.
 
 ## <a name="create-policy-rule-types-for-vendor-invoices"></a>Criar tipos de regras de política para faturas de fornecedor
-1. Ir para Contas a pagar > Configuração de política > Tipos de regra de políticas de fatura de fornecedor.
-2. Clique em Novo.
-3. No campo Nome da regra, digite um valor.
-4. No campo Descrição, digite um valor.
-5. No campo Nome da consulta, clique no botão suspenso para abrir a pesquisa.
-6. Na lista, localize e selecione o PDV desejado.
-7. Na lista, clique no link na linha selecionada.
-8. Clique em Salvar.
-9. Feche a página.
+1. Vá para **Painel de navegação > Módulos > Contas a pagar > Configuração de política > Tipos de regra de política de fatura de fornecedor**.
+2. Selecione **Novo**.
+3. Nos campos **Nome da regra** e **Descrição**, digite valores.
+4. No campo **Nome da consulta**, selecione o botão suspenso para abrir a pesquisa e então selecione o registro desejado.
+5. Selecione **Salvar**.
+6. Feche a página para voltar à home page.
 
 ## <a name="define-a-vendor-invoice-policy"></a>Definir uma política de fatura de fornecedor
-1. Ir para Contas a pagar > Configuração de política > Políticas de fatura de fornecedor.
-2. Clique em Novo.
-3. No campo Nome, digite um valor.
-4. No campo Descrição, digite um valor.
-5. Expanda ou recolha a seção de organizações de diretivas.
-6. Na árvore, selecione 'Contoso Entertainment System USA'.
-7. Clique em Adicionar.
-8. Expanda ou recolha a seção de regras de diretivas.
-9. Clique em Criar regra de política.
-10. No campo Descrição de regra de política, digite um valor.
-11. Clique em Filtro.
-12. Clique em Adicionar.
-13. Na lista, marque a linha selecionada.
-14. No campo Tabela, clique no botão suspenso para abrir a pesquisa.
-15. Na lista, clique no link na linha selecionada.
-16. No campo Tabela derivada, clique no botão suspenso para abrir a pesquisa.
-17. Na lista, clique no link na linha selecionada.
-18. No campo Campo, clique no botão suspenso para abrir a pesquisa.
-19. No campo Campo, digite um valor.
-20. Feche a página.
-21. No campo Critérios, digite um valor.
-22. Clique em OK.
-23. Clique em OK.
-24. Feche a página.
-25. Feche a página.
+1. Vá para **Painel de navegação > Módulos > Contas a pagar > Configuração de política > Políticas de fatura de fornecedor**.
+2. Selecione **Novo**.
+3. Nos campos **Nome** e **Descrição**, digite valores.
+4. Expanda ou recolha a seção de **Organizações de política**.
+5. Na árvore, selecione **Contoso Entertainment System USA**.
+6. Selecione **Adicionar**.
+7. Expanda ou recolha a seção de **Regras de política**.
+8. Selecione **Criar regra de política**.
+9. No campo **Descrição de regra de política**, digite um valor.
+10. Selecione **Filtro**.
+11. Selecione **Adicionar**. Selecione o registro desejado.
+12. Nos campos **Tabela**, **Tabela derivada** e **Campo**, selecione ou insira opções dos menus suspensos.
+13. Feche a página.
+14. No campo **Critérios**, digite um valor.
+15. Selecione **OK**.
+16. Selecione **OK**.
+17. Feche as páginas para voltar à home page.
 

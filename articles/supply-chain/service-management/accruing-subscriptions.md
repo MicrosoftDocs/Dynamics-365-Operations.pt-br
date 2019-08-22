@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a183e17749c04b407eb17155ecb1363e96ade18a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 27908e2852f3f28264f83e0118eb4be79c9e03bc
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546631"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742277"
 ---
 # <a name="accruing-subscriptions"></a>Acúmulo de subscrições 
 
@@ -44,7 +44,7 @@ Se você creditar valores de subscrição faturados, poderá usar dois métodos 
 
   - Você pode ter os valores acumulados revertidos na data em que a nota de crédito é lançada ou na data de lançamento original da competência.
 
-Para obter mais informações, consulte [Parâmetros de subscrição (formulário)](https://technet.microsoft.com/en-us/library/aa619615.aspx).
+Para obter mais informações, consulte [Parâmetros de subscrição (formulário)](https://technet.microsoft.com/library/aa619615.aspx).
 
 ## <a name="setup-requirements"></a>Requisitos de instalação
 

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d6f6e94fd8e7ddf92e89fedfab09ef0684505819
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 318c6edc03153e02c2c4f23b07f33e8d6ebe9737
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551828"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863715"
 ---
 # <a name="modify-row-definition-cells"></a>Modificar células de definição de linha
 
@@ -402,7 +402,7 @@ A célula **Link para Dimensões Financeiras** contém links para os dados finan
 2. Clique duas vezes na coluna **Vincular a dimensões financeiras**.
 3. Na caixa de diálogo **Dimensões**, clique duas vezes na célula no nome da dimensão.
 4. Na caixa de diálogo da dimensão, selecione **Individual ou intervalo**.
-5. No campo **De**, insira a dimensão inicial ou clique em ![Procurar](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "Procurar") para procurar por dimensões disponíveis. Para inserir um intervalo de dimensões, insira a dimensão final no campo **Até**.
+5. No campo **De**, insira a dimensão inicial ou clique em ![Procurar](media/browse.gif "Procurar") para procurar por dimensões disponíveis. Para inserir um intervalo de dimensões, insira a dimensão final no campo **Até**.
 6. Clique em **OK** para fechar a caixa de diálogo para a dimensão. A caixa de diálogo **Dimensões** exibe a dimensão ou o intervalo atualizado.
 7. Clique em **OK** para fechar a caixa de diálogo **Dimensões**.
 
@@ -479,7 +479,7 @@ A tabela a seguir descreve os campos na caixa de diálogo **Dimensões**.
 
 | Item                | Descrição |
 |---------------------|-------------|
-| Individual ou intervalo | No campo **De**, insira o nome da conta ou clique no botão **Procurar** ![Procurar](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "Procurar") para procurar a conta. Para selecionar um intervalo, insira ou procure um valor no campo **Até**. |
+| Individual ou intervalo | No campo **De**, insira o nome da conta ou clique no botão **Procurar** ![Procurar](media/browse.gif "Procurar") para procurar a conta. Para selecionar um intervalo, insira ou procure um valor no campo **Até**. |
 | Conjunto de Valores de Dimensões | No campo **Nome**, insira o nome de um conjunto de valores de dimensão. Para criar, modificar, copiar ou excluir um conjunto, clique em **Gerenciar Conjuntos de Valores de Dimensão**. O campo **Fórmula** é preenchido com a fórmula da célula **Link para Dimensões Financeiras** para este conjunto de valores de dimensão na definição de linha. |
 | Contas de totalização   | No campo **Nome**, insira ou procure uma dimensão da totalização de contas. O campo **Fórmula** é preenchido com a fórmula na célula **Link para Dimensões Financeiras** para esta conta de totalização na definição de relatório. |
 

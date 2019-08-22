@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: fccbedea611228cc57531c89406f72a6664153c7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3d570aceee6b449c39b30defaebc4983b54f283e
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554383"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741126"
 ---
 # <a name="my-team-mobile-workspace"></a>Meu espaço de trabalho móvel em equipe
 
@@ -57,7 +57,7 @@ Antes de usar este espaço de trabalho móvel, os seguintes pré-requisitos deve
 </ul>
 </td>
 <td>Administrador do sistema</td>
-<td>Se o Finance and Operations ainda não está implantado na organização, consulte <a href="../deployment/deploy-demo-environment.md">Implantar um ambiente de demonstração</a>. Se o Talent ainda não está implantado na organização, o administrador do sistema pode acessar uma versão de avaliação na <a href="https://www.microsoft.com/en-us/dynamics365/talent">página da Web do Talent</a>.
+<td>Se o Finance and Operations ainda não está implantado na organização, consulte <a href="../deployment/deploy-demo-environment.md">Implantar um ambiente de demonstração</a>. Se o Talent ainda não estiver implantado na organização, o administrador do sistema poderá acessar uma versão de avaliação na <a href="https://www.microsoft.com/dynamics365/talent">página da Web do Talent</a>.
 </td>
 </tr>
 <tr class="even">

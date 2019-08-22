@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ba01fe7ad3e4326e8ab52b78220d3ba79e94af7c
-ms.sourcegitcommit: 51dc11919fcb2324482b48cc4ce4484945ade803
+ms.openlocfilehash: a33212acce6bf53b1077e54b9556e4d5e933519c
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624302"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849323"
 ---
 # <a name="regulatory-updates"></a>Atualizações regulatórias
 
@@ -41,8 +41,7 @@ Em caso de datas de anúncio tardias, do atraso na disponibilidade dos detalhes 
 
 Para obter informações sobre os planos de atualizações regulatórias mais recentes, consulte a tabela a seguir. 
 
-|Data de lançamento planejada|Versão de lançamento
-  |País/região|Atualização regulatória|
+|Data de lançamento planejada|Versão de lançamento|País/região|Atualização regulatória|
 |--------------------|---------------|-------|-------|
 |      2019 de março          |   10.0.0      | Áustria      |   Alterações no Kammerumlage 2019 (Imposto de compra)    |
 |      2019 de março          |   10.0.0      |   Brasil    |     Contribuições EFD SPED - Layout 004 e 005  |
@@ -60,19 +59,22 @@ Para obter informações sobre os planos de atualizações regulatórias mais re
 |      2019 de abril          |   10.0.1      |    Rússia     |Alterações na declaração de imposto de transporte desde 2019  |
 |      2019 de abril            |   10.0.1      | Hungria      |  Hungria: versão 1.1 do faturamento online de 2019 no Microsoft Dynamics 365 for Finance and Operations  |
 |      Maio de 2019            |   10.0.2      | Brasil      |   Layout 7 de SPED ECD   |
-|      Pendente            |   10.0.3      | Brasil      |   Nova NF-e NT 2018.005 - v.1.20   |
-|      Pendente            |   10.0.3      | Brasil      |   Layout 7 de SPED ECD   |
-|      Pendente            |   10.0.3      | Brasil      |   SPED ECF - Layout 5 de 2019   |
-|      Pendente            |   10.0.3      | Lituânia    |   O relatório i.SAF permite que o usuário defina códigos de imposto do sistema em associação com códigos fiscais legais    |
-|      Pendente            |   10.0.3      | Polônia     |   Faturas do SAF (JPK_FA) v.2 desde 1º de julho de 2019  |
-|      Pendente            |   10.0.3      | Brasil   |   Os ajustes da nota fiscal de ICMS habilitam a tabela 5.2   |
-|      Pendente            |   10.0.3      | Brasil    |   Decreto de NF-e 54.308/18 (RS)   |
-  | Pendente            |   10.0.4      | Brasil    |   Documento fiscal de entrada 66   |
-   | Pendente            |   10.0.4      | Brasil    |   NF-e e NFC-e - Resolução 13/2019 e Portaria SUCIEF 55/2019- RJ - novas condições para saída isentas de etiqueta em NF-e.   |
-   | Pendente            |   10.0.4      | Índia   |   Exibição de "local de origem" e "estado" na nota fiscal de GST  |
-   | Pendente            |   10.0.4      | México   |  Declaração DIOT de terceiros - alterações no layout de 2019   |
-   | Pendente            |   10.0.4      | Brasil    |   NF-e ICMS-ST - portaria CAT 42/18 para o estado de SP - CAT 42/18
-   | Pendente            |   10.0.4      | Brasil    |   Decreto de NF-e 54.308/18 - RS NF   |
+|      2019 de junho            |   10.0.3      | Brasil      |   Nova NF-e NT 2018.005 - v.1.20   |
+|      2019 de junho            |   10.0.3      | Brasil      |   Layout 7 de SPED ECD   |
+|      2019 de junho            |   10.0.3      | Brasil      |   SPED ECF - Layout 5 de 2019   |
+|      2019 de junho            |   10.0.3      | Lituânia    |   O relatório i.SAF permite que o usuário defina códigos de imposto do sistema em associação com códigos fiscais legais    |
+|      2019 de junho            |   10.0.3      | Polônia     |   Faturas do SAF (JPK_FA) v.2 desde 1º de julho de 2019  |
+|      2019 de junho            |   10.0.3      | Brasil   |   Os ajustes da nota fiscal de ICMS habilitam a tabela 5.2   |
+|      2019 de junho            |   10.0.3      | Brasil    |   Decreto de NF-e 54.308/18 (RS)   |
+  | Julho de 2019            |   10.0.4      | Brasil    |   Documento fiscal de entrada 66   |
+   | Julho de 2019            |   10.0.4      | Brasil    |   NF-e e NFC-e - Resolução 13/2019 e Portaria SUCIEF 55/2019- RJ - novas condições para saída isentas de etiqueta em NF-e.   |
+   | Julho de 2019            |   10.0.4      | Índia   |   Exibição de "local de origem" e "estado" na nota fiscal de GST  |
+   | Julho de 2019            |   10.0.4      | México   |  Declaração DIOT de terceiros - alterações no layout de 2019   |
+   | Julho de 2019            |   10.0.4      | Brasil    |   NF-e ICMS-ST - portaria CAT 42/18 para o estado de SP - CAT 42/18
+   | Julho de 2019            |   10.0.4      | Brasil    |   Decreto de NF-e 54.308/18 - RS NF   |
+       | Pendente            |   10.0.5      | Brasil    |   Guia prático de contribuições do Sped 1.31. novas diretrizes   |
+         | Pendente            |   10.0.5      | Brasil    |   Uma nova versão de notas técnicas para o NF-e: NT 2019.001 versão 1.00   |
+          | Pendente            |   10.0.5      | Espanha    |   As regras de validação serão alteradas em 1º de outubro de 2019   |
    
 
 

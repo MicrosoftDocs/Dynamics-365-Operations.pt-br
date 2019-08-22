@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BrazilParameters, ConfDefGroups_BR, ConfDefGroupWizard_BR, ConfDefLayout_BR, ConfExportDialog_BR, FiscalDocumentType_BR, RPSExport_BR, RPSImport_BR, TaxServiceCode_BR
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 269984
 ms.assetid: 46e40a3a-784f-4a1e-b185-c4b8ad63518f
@@ -18,12 +18,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8fc23480c7adba08276eea122de95e8ade41a7e0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 92c6624e5ca47f91e289790a7c6aa4957ad2ecfd
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553096"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849370"
 ---
 # <a name="electronic-fiscal-document-for-services"></a>Nota fiscal eletrônica para serviços
 

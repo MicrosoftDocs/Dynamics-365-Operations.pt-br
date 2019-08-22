@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c526bc42595c20024016d0d7da78b8638b0daa4b
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551662"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850088"
 ---
 # <a name="practice-manager-power-bi-content"></a>Conteúdo de gerente de prática do Power BI
 
@@ -54,7 +54,7 @@ A tabela a seguir fornece detalhes sobre as métricas encontradas em cada págin
 | EVM               | Índice de custo e de desempenho de agenda por projeto |
 | Horas             | <ul><li>Horas utilizadas faturáveis reais versus horas de custo indireto faturáveis reais versus horas do orçamento</li><li>Horas utilizadas faturáveis reais versus horas de custo indireto faturáveis reais por projeto</li><li>Horas utilizadas faturáveis reais versus horas de custo indireto faturáveis reais por recurso</li><li>Taxa de horas faturáveis reais por projeto</li><li>Taxa de horas faturáveis reais por recurso</li></ul> |
 
-Os gráficos e os blocos em todos esses relatórios podem ser filtrados e fixados no painel. Para obter mais informações sobre como filtrar e fixar no Power BI, consulte [Criar e configurar um painel](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Você também pode usar a funcionalidade Exportar dados subjacentes para exportar os dados subjacentes resumidos em uma visualização.
+Os gráficos e os blocos em todos esses relatórios podem ser filtrados e fixados no painel. Para obter mais informações sobre como filtrar e fixar no Power BI, consulte [Criar e configurar um painel](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Você também pode usar a funcionalidade Exportar dados subjacentes para exportar os dados subjacentes resumidos em uma visualização.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
 
@@ -62,7 +62,7 @@ Os seguintes dados são usados para preencher as páginas de relatório no conte
 
 As seções a seguir descrevem as medidas agregadas usadas em cada entidade.
 
-### <a name="entity-projectaccountingcubeactualhourutilization"></a>Entidade: ProjectAccountingCube\_ActualHourUtilization
+### <a name="entity-projectaccountingcube_actualhourutilization"></a>Entidade: ProjectAccountingCube\_ActualHourUtilization
 **Fonte de dados:** ProjEmplTrans
 
 | Principal medida agregada      | Campo                              | descrição |
@@ -70,7 +70,7 @@ As seções a seguir descrevem as medidas agregadas usadas em cada entidade.
 | Horas utilizadas faturáveis reais | Sum(ActualUtilizationBillableRate) | Total de horas utilizadas faturáveis reais. |
 | Horas de custo Indireto real faturável   | Sum(ActualBurdenBillableRate)      | Total de taxa de custo indireto real. |
 
-### <a name="entity-projectaccountingcubeactuals"></a>Entidade: ProjectAccountingCube\_Actuals
+### <a name="entity-projectaccountingcube_actuals"></a>Entidade: ProjectAccountingCube\_Actuals
 **Fonte de dados:** ProjTransPosting
 
 | Principal medida agregada | Campo              | descrição |
@@ -78,14 +78,14 @@ As seções a seguir descrevem as medidas agregadas usadas em cada entidade.
 | Receita real            | Sum(ActualRevenue) | Total da receita lançada para todas as transações. |
 | Custo real               | Sum(ActualCost)    | Total de custo lançado para todos os tipos de transação. |
 
-### <a name="entity-projectaccountingcubecustomer"></a>Entidade: ProjectAccountingCube\_Customer
+### <a name="entity-projectaccountingcube_customer"></a>Entidade: ProjectAccountingCube\_Customer
 **Fonte de dados:** CustTable
 
 | Principal medida agregada | Campo                                             | descrição |
 |---------------------------|---------------------------------------------------|-------------|
 | Número de projetos        | COUNTA(ProjectAccountingCube\_Projects\[PROJETOS\]) | Contagem de projetos disponíveis. |
 
-### <a name="entity-projectaccountingcubeforecasts"></a>Entidade: ProjectAccountingCube\_Forecasts
+### <a name="entity-projectaccountingcube_forecasts"></a>Entidade: ProjectAccountingCube\_Forecasts
 **Fonte de dados:** ProjTransBudget
 
 | Principal medida agregada | Campo                  | descrição |
@@ -94,14 +94,14 @@ As seções a seguir descrevem as medidas agregadas usadas em cada entidade.
 | Receita de orçamento            | Sum(BudgetRevenue)     | O total de receita acumulada/faturada prevista. |
 | Margem bruta de orçamento       | Sum(BudgetGrossMargin) | A diferença entre a soma do total de receita prevista e a soma do total de custo previsto. |
 
-### <a name="entity-projectaccountingcubeprojectplancostsview"></a>Entidade: ProjectAccountingCube\_ProjectPlanCostsView
+### <a name="entity-projectaccountingcube_projectplancostsview"></a>Entidade: ProjectAccountingCube\_ProjectPlanCostsView
 **Fonte de dados:** Projeto
 
 | Principal medida agregada | Campo                    | descrição |
 |---------------------------|--------------------------|-------------|
 | Custo planejado              | Sum(SumOfTotalCostPrice) | Total de preço de custo em estimativas para todos os tipos de transação de projeto com tarefas planejadas. |
 
-### <a name="entity-projectaccountingcubeprojects"></a>Entidade: ProjectAccountingCube\_Projects
+### <a name="entity-projectaccountingcube_projects"></a>Entidade: ProjectAccountingCube\_Projects
 **Fonte de dados:** Projeto
 
 | Principal medida agregada    | Campo | descrição |
@@ -112,7 +112,7 @@ As seções a seguir descrevem as medidas agregadas usadas em cada entidade.
 | Relação real de horas faturáveis  | ProjectAccountingCube\_Projects\[Total de horas do projeto faturáveis reais utilizadas\] ÷ (ProjectAccountingCube\_Projects\[Total de horas do projeto faturáveis reais utilizadas\] + ProjectAccountingCube\_Projects\[Total de horas do projeto faturáveis reais de custo indireto\]) | O total real de horas faturáveis, com base nas horas utilizadas e nas horas de custo indireto. |
 | Valor obtido                 | ProjectAccountingCube\_Projects\[Total do custo planejado do projeto\] × ProjectAccountingCube\_Projects\[Porcentagem de trabalho concluído\] | Total do custo planejado multiplicado pelo percentual do trabalho concluído. |
 
-### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Entidade: ProjectAccountingCube\_TotalEstimatedCosts 
+### <a name="entity-projectaccountingcube_totalestimatedcosts"></a>Entidade: ProjectAccountingCube\_TotalEstimatedCosts 
 **Fonte de dados:** ProjTable
 
 | Principal medida agregada       | Campo               | descrição |

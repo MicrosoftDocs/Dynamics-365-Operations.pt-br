@@ -3,13 +3,13 @@ title: Vídeos para o Finance and Operations
 description: Essa página lista "como fazer" criados pela Microsoft e conversas tecnológicas em vídeos relacionadas ao Dynamics 365 for Finance and Operations que estão disponíveis no YouTube e em outros sites.
 author: josaw1
 manager: AnnBe
-ms.date: 06/11/2019
+ms.date: 07/23/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro, Developer
-ms.reviewer: josaw
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 5ede5bfa3b7a61461adb1514b7e96c4eba5a75c7
-ms.sourcegitcommit: fdc37a3c2ca2bac5741e7017fb225344e64f041a
+ms.openlocfilehash: d2bf2c45f6298205dbed67f6921234757a2b736a
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "1625388"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852070"
 ---
 # <a name="videos-for-finance-and-operations"></a>Vídeos do Finance and Operations
 
@@ -71,6 +71,8 @@ Os vídeos são listados por recurso, então deslize para ver a lista completa d
 
 #### <a name="intelligence"></a>Inteligência
 
+- [Como editar um relatório inserido em um espaço de trabalho analítico](https://youtu.be/_8WlwmSggcQ)
+- [Como inserir relatórios do PowerBI.com no Dynamics 365 for Finance and Operations](https://youtu.be/gGWuNJDoi-M)
 - [Traga sua própria base de dados (BYOD) para o Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [Como usar o conteúdo do Power BI de gerenciamento de custo no Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 

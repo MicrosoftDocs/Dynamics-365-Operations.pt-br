@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: be23b99ddc224328cf067fe0bf36be93fcef4337
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561453"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846018"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizar contratos de projeto e projetos diretamente no Project Service Automation para o Finance and Operations
 
@@ -94,8 +94,8 @@ Quando a solução de integração do Project Service Automation para o Finance 
 ## <a name="prerequisites-and-mapping-setup"></a>Pré-requisitos e configuração de mapeamento
 
 - Antes da sincronização de contratos de projeto e de projetos, você deve sincronizar contas.
-- No conjunto de conexões, adicione um mapeamento de campo-chave de integração de **msdyn\_organizationalunits** para **msdyn\_name \[Name\]**. Talvez seja necessário primeiro adicionar um projeto ao conjunto e conexões. Para obter mais informações, consulte [Integrar dados em Common Data Service para Aplicativos](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
-- No conjunto de conexões, adicione um mapeamento de campo-chave de integração de **msdyn\_projects** para **msdynce\_projectnumber \[Project Number\]**. Talvez seja necessário primeiro adicionar um projeto ao conjunto e conexões. Para obter mais informações, consulte [Integrar dados em Common Data Service para Aplicativos](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+- No conjunto de conexões, adicione um mapeamento de campo-chave de integração de **msdyn\_organizationalunits** para **msdyn\_name \[Name\]**. Talvez seja necessário primeiro adicionar um projeto ao conjunto e conexões. Para obter mais informações, consulte [Integrar dados em Common Data Service para Aplicativos](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- No conjunto de conexões, adicione um mapeamento de campo-chave de integração de **msdyn\_projects** para **msdynce\_projectnumber \[Project Number\]**. Talvez seja necessário primeiro adicionar um projeto ao conjunto e conexões. Para obter mais informações, consulte [Integrar dados em Common Data Service para Aplicativos](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - **SourceDataID** para contratos de projetos e projetos pode ser atualizado para um valor diferente ou removido do mapeamento. O valor do modelo padrão é **Project Service Automation**.
 - O mapeamento **PaymentTerms** deve ser atualizado de modo que reflita condições de pagamento válidas no Finance and Operations. Você também pode remover o mapeamento da tarefa do projeto. O mapa do valor padrão tem valores padrão para dados de demonstração. A tabela a seguir mostra os valores no Project Service Automation.
 

@@ -1,9 +1,9 @@
 ---
 title: Definir o fuso horário preferencial do usuário
-description: O seguinte procedimento explica como um usuário com a função Administrador do Sistema pode definir o fuso horário para um usuário.
+description: Este tópico explica como um usuário com a função de Administrador do Sistema pode definir o fuso horário de um usuário.
 author: pvillads
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,24 +16,23 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b5eac00d5054296921c3f22004f8c8e710727afc
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d6dc521fe4fc7ea901c882abad47d5fc899e0326
+ms.sourcegitcommit: 81e6eaa2178fda7f7d086ad978f4c891bc4ec10a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560512"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "1738802"
 ---
 # <a name="set-a-users-preferred-time-zone"></a>Definir o fuso horário preferencial do usuário
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-O seguinte procedimento explica como um usuário com a função Administrador do Sistema pode definir o fuso horário para um usuário.
+O seguinte tópico explica como um usuário com a função Administrador do Sistema pode definir o fuso horário para um usuário.
 
-1. Vá para Administração do sistema > Usuários > Usuários.
-2. Na lista, localize e selecione o PDV desejado.
-3. Na lista, clique no link na linha selecionada.
-4. Clique em Opções do usuário.
-5. Clique na guia Preferências.
-6. No campo Fuso horário, selecione uma opção.
-7. Clique em Salvar.
+1. Vá para **Painel de navegação > Módulos > Administração do sistema > Usuários > Usuários**.
+2. Na lista, localize e selecione o registro desejado.
+3. Selecione **Opções de usuário**.
+4. Selecione a guia **Preferências**.
+5. No campo **Fuso horário**, selecione uma opção na lista suspensa.
+6. Selecione **Salvar**.
 

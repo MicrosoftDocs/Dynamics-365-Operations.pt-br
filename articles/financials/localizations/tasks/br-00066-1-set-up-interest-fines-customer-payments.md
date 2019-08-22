@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa01297e5f8f987db8f2ce1b8abff6f76d59bd0b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: beec224469e20cc76d3d0425fa42a3b64823dec8
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567193"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849161"
 ---
 # <a name="set-up-interest-and-fines-on-customer-payments-brazil"></a>Configurar juros e multas em pagamentos de clientes (Brasil)
 

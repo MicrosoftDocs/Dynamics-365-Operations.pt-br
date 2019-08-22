@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4da0b965f3719bc16b5a73538df111ff6df071be
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b4d347556d25831bb3f9175e8606e0b41d98bdd8
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555343"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743233"
 ---
 # <a name="service-orders"></a>Ordens de serviço   
 
@@ -76,7 +76,7 @@ Uma das outras ordens de serviço que foram geradas para o mês de janeiro fica 
 
 ## <a name="post-from-projects"></a>Lançar de projetos
 
-No final de cada semana, o despachante quer lançar todas as ordens de serviço que são anexadas a um projeto específico. Portanto, a despachante localiza o projeto relevante no formulário **Projetos** e lança as ordens de serviço que foram concluídas. Para obter mais informações, consulte [Lançar ordens de serviço (formulário de classe)](https://technet.microsoft.com/en-us/library/aa574685\(v=ax.60\)).
+No final de cada semana, o despachante quer lançar todas as ordens de serviço que são anexadas a um projeto específico. Portanto, a despachante localiza o projeto relevante no formulário **Projetos** e lança as ordens de serviço que foram concluídas. Para obter mais informações, consulte [Lançar ordens de serviço (formulário de classe)](https://technet.microsoft.com/library/aa574685\(v=ax.60\)).
 
 ## <a name="delete-service-orders"></a>Excluir ordens de serviço
 
@@ -84,7 +84,7 @@ Na segunda metade do ano, o cliente decide que as visitas de serviço são pouco
 
 ## <a name="see-also"></a>Consulte também
 
-[Ordens de serviço (formulário)](https://technet.microsoft.com/en-us/library/aa554361\(v=ax.60\))
+[Ordens de serviço (formulário)](https://technet.microsoft.com/library/aa554361\(v=ax.60\))
 
   
 

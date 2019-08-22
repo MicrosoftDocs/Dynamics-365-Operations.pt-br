@@ -3,7 +3,7 @@ title: Dimensões do produto
 description: Existem quatro dimensões do produto - Cor, Configuração, Tamanho e Estilo. Você combina dimensões de produto em grupos de dimensões e atribui grupos de dimensões a produtos mestres. As combinações de dimensões de produto determinam como as variantes de produto serão definidas.
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ccb9d47bf6f081dbcc9590bddd4516cf7385ec23
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3391679696c0e1dd84840821480ccbfb544829a6
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563565"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863027"
 ---
 # <a name="product-dimensions"></a>Dimensões do produto
 
@@ -35,8 +35,8 @@ ms.locfileid: "1563565"
 Existem quatro dimensões do produto - Cor, Configuração, Tamanho e Estilo. Você combina dimensões de produto em grupos de dimensões e atribui grupos de dimensões a produtos mestres. As combinações de dimensões de produto determinam como as variantes de produto serão definidas.
 
 As dimensões de produto são as características que servem para identificar uma variante do produto. Você pode usar combinações de dimensões do produto para definir variantes de produto. Você deve definir pelo menos uma dimensão de produto para um produto mestre para criar uma variante do produto.
-Grades de produtos
-----------------
+
+## <a name="product-variants"></a>Grades de produtos
 
 As variantes dos produtos também são chamadas de itens. Um item é um produto real, que não é o mesmo que um serviço. Também é possível definir um produto mestre com o tipo Serviço. Usando o tipo de Serviço você poderá especificar as variantes de produtos que incluem serviços. Por exemplo, você pode especificar um produto mestre do serviço de consultoria e variantes de produtos para serviços que são realizados por consultores superiores e por consultores júnior.
 

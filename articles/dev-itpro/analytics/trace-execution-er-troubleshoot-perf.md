@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 55f3fd95a87bcf62824021ebfbf3bcd11af6013f
-ms.sourcegitcommit: f6581bab16225a027f4fbfad25fdef45bd286489
+ms.openlocfilehash: 7ec16bea1e4f7685f95178f848ba7348a06c31f3
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "1703866"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741494"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Rastrear a execução dos formatos ER para solucionar problemas de desempenho
 
@@ -104,7 +104,7 @@ Suponha que você tenha terminado de criar a primeira versão da solução de ER
 ### <a id='import-configuration'></a>Importar uma configuração de ER do RCS para Finance and Operations
 
 1. Faça login na sua instância do Finance and Operations.
-2. Para este tutorial, você importará configurações de sua instância do RCS (onde você projeta seus componentes de ER) em sua instância do Finance and Operations (onde você testa e finalmente as utiliza). Portanto, você deve se certificar de que todos os artefatos necessários foram preparados. Para obter instruções, consulte o procedimento [Importar configurações do ER (Relatório eletrônico) dos RCS (Serviços de configuração regulatória)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations).
+2. Para este tutorial, você importará configurações de sua instância do RCS (onde você projeta seus componentes de ER) em sua instância do Finance and Operations (onde você testa e finalmente as utiliza). Portanto, você deve se certificar de que todos os artefatos necessários foram preparados. Para obter instruções, consulte o procedimento [Importar configurações do ER (Relatório eletrônico) dos RCS (Serviços de configuração regulatória)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations).
 3. Siga estas etapas para importar as configurações do RCS para Finance and Operations:
 
     1. No espaço de trabalho **Relatório eletrônico**, no bloco do provedor de configuração **Litware, Inc.**, selecione **Repositórios**.

@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2006f41ff7e723fb850e928b078783bdfb9e13c2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7869c1db94f0f092356eff3bd4386a40ae37c871
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556235"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849166"
 ---
 # <a name="cancel-a-sales-complementary-fiscal-document-brazil"></a>Cancelar uma nota fiscal complementar de venda (Brasil)
 

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: ada04948c4775091091cc30664dd7d9405b4f9da
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3c3873991c33347c1358dc98381c6b5f4c6ce2aa
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553191"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846886"
 ---
 # <a name="one-voucher"></a>Um comprovante
 
@@ -51,7 +51,7 @@ A funcionalidade existente para diários financeiros (diário geral, diário de 
 
 ## <a name="issues-with-one-voucher"></a>Problemas com Um comprovante único
 
-A funcionalidade Um comprovante único causa problemas durante liquidação, cálculo de imposto, reversão da transação, reconciliação de um diário-razão auxiliar para a contabilidade, relatório financeiro e muito mais. (Por exemplo, para obter mais informações sobre problemas que podem ocorrer durante a liquidação, consulte [Comprovante único com vários registros de cliente ou de fornecedor](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/accounts-payable/single-voucher-multiple-customer-vendor-records).) Para trabalhar e relatar corretamente, os processos e relatórios exigem detalhes de transação. Embora alguns cenários ainda possam funcionar corretamente, dependendo da configuração da organização, geralmente há problemas quando várias transações são inseridas em um comprovante.
+A funcionalidade Um comprovante único causa problemas durante liquidação, cálculo de imposto, reversão da transação, reconciliação de um diário-razão auxiliar para a contabilidade, relatório financeiro e muito mais. (Por exemplo, para obter mais informações sobre problemas que podem ocorrer durante a liquidação, consulte [Comprovante único com vários registros de cliente ou de fornecedor](https://docs.microsoft.com/dynamics365/unified-operations/financials/accounts-payable/single-voucher-multiple-customer-vendor-records).) Para trabalhar e relatar corretamente, os processos e relatórios exigem detalhes de transação. Embora alguns cenários ainda possam funcionar corretamente, dependendo da configuração da organização, geralmente há problemas quando várias transações são inseridas em um comprovante.
 
 Por exemplo, você lança o seguinte comprovante combinado.
 

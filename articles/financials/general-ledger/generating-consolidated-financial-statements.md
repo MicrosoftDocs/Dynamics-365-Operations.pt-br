@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 76e675373212195cbe3f6cf43d128b2104f92fc6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 55c5d02ca4e487782f020aa5eb85e6ebb36d4ce8
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557722"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863691"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Gerar demonstrativos financeiros consolidados
 
@@ -49,11 +49,11 @@ Como mostra o relatório consolidado na ilustração a seguir, quando você usa 
 
 Você também pode criar uma hierarquia organizacional de vários níveis que inclua quantos níveis forem necessários. A ilustração a seguir mostra uma definição de hierarquia organizacional de vários níveis que possui acúmulos por região mundial.
 
-![Definição de hierarquia organizacional de vários níveis com acúmulos por região mundial](./media/multilevel-reporting-tree-definition-roll-ups%20-worldwide-region.png "Definição de hierarquia organizacional de vários níveis com acúmulos por região mundial")
+![Definição de hierarquia organizacional de vários níveis com acúmulos por região mundial](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "Definição de hierarquia organizacional de vários níveis com acúmulos por região mundial")
 
 A ilustração a seguir mostra uma definição de hierarquia organizacional de vários níveis que possui acúmulos por função.
 
-![Definição de hierarquia organizacional de vários níveis com acúmulos por função](./media/multilevel-reporting-tree-definition-roll-ups%20-by-function.png "Definição de hierarquia organizacional de vários níveis com acúmulos por função")
+![Definição de hierarquia organizacional de vários níveis com acúmulos por função](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "Definição de hierarquia organizacional de vários níveis com acúmulos por função")
 
 ### <a name="viewing-companies-side-by-side"></a>Exibição de empresas lado a lado
 Muitos clientes preferem relatórios em que as empresas aparecem lado a lado e onde uma coluna mostra o total consolidado. É fácil obter esse formato após a criação da hierarquia organizacional. Aqui estão as etapas de alto nível para exibir as empresas lado a lado nos demonstrativos financeiros consolidados.
@@ -98,7 +98,7 @@ Na definição de hierarquia organizacional, insira o percentual de participaç�
 > [!NOTE]
 > Você pode aplicar essa porcentagem de participação a qualquer unidade organizacional, não apenas no nível da empresa. 
 
-![Usando o percentual de definição de hierarquia organizacional](./media/Using-reporting%20tree-definition-percentage.png "Usando o percentual de definição de hierarquia organizacional")
+![Usando o percentual de definição de hierarquia organizacional](./media/Using-reporting-tree-definition-percentage.png "Usando o percentual de definição de hierarquia organizacional")
 
 Quando o relatório for gerado, o relatório da Contoso Alemanha mostrará 100% do valor das vendas, e 80% do valor será alocado e acumulado no nível consolidado para vendas.
 

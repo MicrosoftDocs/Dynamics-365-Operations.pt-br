@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: shylaw
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 3520aa73e081d23dae3b8cd4d860ab0ea8fec1aa
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e831dd7f671672cc70aa9b9aeaeab0a9f68feab4
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570068"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849388"
 ---
 # <a name="cancel-vendor-fiscal-documents"></a> Cancelar notas fiscais do fornecedor
 [!include [banner](../includes/banner.md)]

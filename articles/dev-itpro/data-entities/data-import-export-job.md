@@ -3,28 +3,29 @@ title: Trabalhos de importação e exportação de dados
 description: Use o espaço de trabalho de gerenciamento de dados para criar e gerenciar trabalhos de importação e de exportação de dados.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 03/11/2019
+ms.date: 07/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ceb2dfa37b53af83c4faedffa5b312d654c44593
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b16966fe1c3a48d772c7c9982f8802119675255f
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505785"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862895"
 ---
 # <a name="data-import-and-export-jobs"></a>Trabalhos de importação e exportação de dados
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Para criar e gerenciar trabalhos de importação e de exportação de dados no Microsoft Dynamics 365 for Finance and Operations, use o espaço de trabalho **Gerenciamento de dados**. Por padrão, o processo de importação e exportação criar uma tabela de preparo para cada entidade no banco de dados de destino. As tabelas de preparo permitem verificar, limpar ou converter dados antes de movê-los.
 
@@ -129,8 +130,8 @@ Um trabalho pode ser protegido por funções, usuários e por entidade legal sim
 ## <a name="run-the-import-or-export-job"></a>Executar o trabalho de importação ou de exportação
 Você pode executar um trabalho uma vez, selecionando o botão **Importar** ou **Exportar** após definir o trabalho. Para configurar um trabalho recorrente, selecione **Criar trabalho de dados recorrente**.
 
-[!NOTE]
-Um trabalho de importação ou exportação pode ser executado de forma assíncrona selecionando o botão **Importar** ou **Exportar**. A execução assíncrona usa a estrutura assíncrona no Finance and Operations, que é diferente da estrutura em lote. No entanto, como a estrutura em lote, a estrutura assíncrona também pode sofrer limitação e, como resultado, o trabalho pode não ser executado imediatamente. Os trabalhos também podem ser executados de forma síncrona selecionando **Importar agora** ou **Exportar agora**. Isso inicia o trabalho imediatamente e é útil se a forma assíncrona ou um lote não for iniciada por limitação. Os trabalhos também podem ser executados em lote escolhendo a opção **Executar em lotes**. Como os recursos em lote estão sujeitos a limitação, o trabalho em lotes pode não ser iniciado imediatamente. A opção assíncrona é útil quando os usuários interagem diretamente com a interface do usuário e não são usuários experientes para entender o agendamento em lote. Usar um lote é uma opção alternativa se grandes volumes precisarem ser exportados ou importados. Os trabalhos em lotes podem ser programadas para serem executadas em um grupo de lotes específico, o que permite mais controle de uma perspectiva de balanceamento de carga. Se as formas assíncrona e em lote estiverem sofrendo limitação por alta utilização de recursos no sistema, como uma solução imediata, a versão síncrona de importação/exportação pode ser usada. A opção síncrona iniciará imediatamente e bloqueará a interface do usuário porque está sendo executada de forma síncrona. A janela do navegador deve permanecer aberta quando a operação síncrona estiver em andamento.
+> [!NOTE]
+> Um trabalho de importação ou exportação pode ser executado de forma assíncrona selecionando o botão **Importar** ou **Exportar**. A execução assíncrona usa a estrutura assíncrona no Finance and Operations, que é diferente da estrutura em lote. No entanto, como a estrutura em lote, a estrutura assíncrona também pode sofrer limitação e, como resultado, o trabalho pode não ser executado imediatamente. Os trabalhos também podem ser executados de forma síncrona selecionando **Importar agora** ou **Exportar agora**. Isso inicia o trabalho imediatamente e é útil se a forma assíncrona ou um lote não for iniciada por limitação. Os trabalhos também podem ser executados em lote escolhendo a opção **Executar em lotes**. Como os recursos em lote estão sujeitos a limitação, o trabalho em lotes pode não ser iniciado imediatamente. A opção assíncrona é útil quando os usuários interagem diretamente com a interface do usuário e não são usuários experientes para entender o agendamento em lote. Usar um lote será uma opção alternativa se grandes volumes precisarem ser importados ou exportados. Os trabalhos em lotes podem ser programadas para serem executadas em um grupo de lotes específico, o que permite mais controle de uma perspectiva de balanceamento de carga. Se as formas assíncrona e em lote estiverem sofrendo limitação por alta utilização de recursos no sistema, como uma solução imediata, a versão síncrona de importação/exportação pode ser usada. A opção síncrona iniciará imediatamente e bloqueará a interface do usuário porque está sendo executada de forma síncrona. A janela do navegador deve permanecer aberta quando a operação síncrona estiver em andamento.
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>Validar se o trabalho foi executado conforme esperado
 O histórico de trabalho está disponível para solução de problemas e investigação sobre trabalhos de importação e exportação. As execuções do histórico do trabalho são organizadas por intervalos de tempo.
@@ -144,15 +145,17 @@ Cada execução de trabalho fornece os seguintes detalhes:
 
 Os detalhes de execução mostram o estado de cada entidade de trabalho que trabalho processou. Portanto, você pode localizar rapidamente as seguintes informações:
 
-- As entidades que foram processadas
-- Para uma pessoa, quantos registros foram processados com êxito, e quantos com falha
-- Os registros de preparo de cada entidade
+- As entidades que foram processadas.
+- Para uma entidade, quantos registros foram processados com êxito e quantos com falha.
+- Os registros de preparo de cada entidade.
 
 Podem baixar os dados de preparo em um arquivo para exportação de trabalho, ou pode baixá-los como um pacote para trabalhos de importação e exportação.
 
 A partir dos detalhes de execução, você também pode abrir este log de execução.
 
 ## <a name="clean-up-the-staging-tables"></a>Limpar as tabelas de preparo
+Começando no Update 29 para plataforma, essa funcionalidade foi substituída. Isso é substituído por uma nova versão da funcionalidade de limpeza de histórico de trabalho explicada abaixo.
+
 Você pode limpar as tabelas de preparo usando o recurso **Limpeza de preparo** no espaço trabalho **Gerenciamento de dados**. Você pode usar as opções para selecionar os registros que devem ser excluídos da tabela de preparo:
 
 - **Entidade** – Se apenas uma entidade for fornecida, todos os registros dessa tabela de preparo da entidade serão excluídos. Selecione esta opção para limpar todos os dados da entidade em todos os projetos de dados e de todos os trabalhos.
@@ -160,3 +163,37 @@ Você pode limpar as tabelas de preparo usando o recurso **Limpeza de preparo** 
 - **Projetos de dados** – Se apenas um projeto de dados for selecionado, todos os registros de todas as entidades e em todos os trabalhos do projeto de dados selecionado serão excluídos.
 
 Você também pode combinar as opções para restringir mais o conjunto de registros que foi excluído.
+
+## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>A limpeza de histórico de trabalho (disponível no Update 29 para plataforma e posterior)
+
+A funcionalidade de limpeza de histórico de trabalho no gerenciamento de dados deve ser usada para agendar uma limpeza periódica do histórico de execução. Esta funcionalidade substitui a funcionalidade de limpeza da tabela de preparo anterior, que agora é obsoleta. As tabelas a seguir serão limpadas pelo processo de limpeza.
+
+-   Todas as tabelas de preparo
+
+-   DMFSTAGINGVALIDATIONLOG
+
+-   DMFSTAGINGEXECUTIONERRORS
+
+-   DMFSTAGINGLOGDETAIL
+
+-   DMFSTAGINGLOG
+
+-   DMFDEFINITIONGROUPEXECUTIONHISTORY
+
+-   DMFEXECUTION
+
+-   DMFDEFINITIONGROUPEXECUTION
+
+A funcionalidade pode ser acessada de **Gerenciamento de dados \> Limpeza de histórico de trabalho**.
+
+### <a name="scheduling-parameters"></a>Agendamento de parâmetros
+
+Ao agendar o processo de limpeza, os parâmetros a seguir devem ser especificados para definir os critérios de limpeza.
+
+-   **Número de dias para manter o histórico** – Esta configuração é usada para controlar o valor do histórico de execução a ser preservado. Isso é especificado em número de dias. Quando o trabalho de limpeza for agendado como um trabalho em lotes recorrente, essa configuração agirá como uma janela em movimento contínuo, sempre deixando o histórico para o número específico de dias intacto, excluindo o resto. O padrão são 7 dias.
+
+-   **Número de horas para executar o trabalho** – Dependendo do valor do histórico a ser limpo, o tempo de execução total para o trabalho de limpeza pode variar de alguns minutos a algumas horas. Como a limpeza das tabelas mencionadas deve ser feita quando não há outra atividade de gerenciamento de dados no sistema, torna-se importante garantir que o trabalho de limpeza seja executado e termine antes do início da atividade comercial.
+
+    Pode-se especificar um tempo máximo de execução, definindo um limite máximo no número de horas em que o trabalho deve ser executado usando esta configuração. A lógica de limpeza passa por uma ID de execução de trabalho de cada vez em uma sequência disposta cronologicamente, com o mais antigo primeiro para a limpeza do histórico de execução relacionado. Não serão mais escolhidas novas IDs de execução para limpeza quando a duração de execução restante estiver nos últimos 10% da duração especificada. Em alguns casos, espera-se que o trabalho de limpeza continue além do tempo máximo especificado. Isso dependerá muito do número de registros a serem excluídos para a ID de execução atual que foi iniciada antes de o limite de 10% ser alcançado. A limpeza iniciada deve ser concluída para garantir a integridade dos dados. Isso significa que a limpeza continuará, apesar de exceder o limite especificado. Quando isso for concluído, as novas IDs de execução não serão retiradas e o trabalho de limpeza será concluído. O histórico de execução restante que não foi limpo, devido à falta de tempo suficiente de execução, será escolhido da próxima vez que o trabalho de limpeza for agendado. O valor padrão e mínimo para essa configuração está definido como 2 horas.
+
+-   **Lote recorrente** – O trabalho de limpeza pode ser executado como uma única execução manual ou pode ser agendado para execução recorrente em lotes. O lote pode ser agendado usando a configuração **Executar em segundo plano**, que é a configuração padrão do lote.

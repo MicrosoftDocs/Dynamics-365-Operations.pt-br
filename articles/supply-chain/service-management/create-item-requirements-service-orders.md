@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a5a730ae945af15c7bd4020c734bac971d8186e2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dc65393f74c6daa008e072cbe3745235fbfd896b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553406"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743299"
 ---
 # <a name="create-item-requirements-for-service-orders"></a>Criar requisições de itens para ordens de serviço 
 
@@ -44,7 +44,7 @@ As requisições de itens para ordens de serviço são processadas através de u
 
 3.  No **Painel de Ação**, na guia **Expedição**, clique em **Requisição de itens**.
 
-4.  No formulário **Requisição de itens**, insira informações sobre o item requisitado. Para obter informações sobre os campos específicos, consulte [Requisição de itens (formulário)](https://technet.microsoft.com/en-us/library/aa552021\(v=ax.60\)).
+4.  No formulário **Requisição de itens**, insira informações sobre o item requisitado. Para obter informações sobre os campos específicos, consulte [Requisição de itens (formulário)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).
 
 ## <a name="create-an-item-requirement-for-a-service-agreement"></a>Criar uma requisição de item para um contrato de serviço
 

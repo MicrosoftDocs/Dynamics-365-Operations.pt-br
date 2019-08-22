@@ -3,25 +3,25 @@ title: Criar uma conta principal
 description: Este guia de tarefas aborda a adição de uma conta principal a um plano de contas existente.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MainAccount, CompanyInfoList
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5fd332121bae2be55ada39b33e5f381096c9b74d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 58418291d3732c1acbccd097205fa7e64a967038
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563707"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846574"
 ---
 # <a name="create-a-main-account"></a>Criar uma conta principal
 
@@ -29,28 +29,26 @@ ms.locfileid: "1563707"
 
 Este guia de tarefas aborda a adição de uma conta principal a um plano de contas existente. Este registro usa a empresa de dados de demonstração USMF.  
 
-1. Vá para Contabilidade > Plano de contas > Contas > Contas principais.
-2. Clique em Novo.
-3. No campo Conta principal, digite um valor.
-4. No campo Nome, digite um valor.
-5. No campo Conta principal, selecione o tipo que melhor representa o saldo de contas e a localização nos demonstrativos financeiros.
-6. Na lista, selecione a categoria de conta à qual a conta principal pertence.
-    * A categoria de conta é usada em relatórios financeiros padrão e no conteúdo do painel do Power BI.  
-7. Na lista, clique no link na linha selecionada.
-    * Altere o saldo padrão de débito ou crédito.  
-8. No campo Moeda padrão, selecione um valor na lista de moedas.
+1. Vá para **Painel de navegação > Módulos > Contabilidade > Plano de contas > Contas > Contas principais**.
+2. Clique em **Novo**.
+3. No campo **Conta principal**, digite um valor.
+4. No campo **Nome**, digite um valor.
+5. No campo **Tipo de conta principal**, selecione o tipo que melhor representa o saldo de contas e a localização nos demonstrativos financeiros.
+6. Na lista, selecione a categoria de conta à qual a conta principal pertence. A categoria de conta é usada em relatórios financeiros padrão e no conteúdo do painel do Power BI.  
+7. Na lista, clique no link na linha selecionada. Altere o saldo padrão de débito ou crédito.  
+8. No campo **Moeda padrão**, selecione um valor na lista de moedas.
 9. Na lista, localize e selecione o registro desejado.
 10. Na lista, clique no link na linha selecionada.
-11. Ative a expansão da seção Substituições de entidade legal.
-12. Clique em Adicionar para selecionar uma entidade legal.
+11. Alterne a expansão da seção **Substituições de entidade legal**.
+12. Clique em **Adicionar** para selecionar uma entidade legal.
 13. Na lista, selecione a entidade legal.
-14. Clique em Adicionar.
+14. Clique em **Adicionar**.
 15. Na lista, marque a linha selecionada.
-16. Marque ou desmarque a caixa de seleção Suspenso.
-17. Expanda a guia rápida Relatórios financeiros.
-18. No campo Tipo de taxa de câmbio, clique no botão suspenso para abrir a pesquisa.
-19. Na lista, selecione o tipo de taxa de câmbio da conta.
+16. Marque ou desmarque a caixa de seleção **Suspenso**.
+17. Expanda a seção **Relatório financeiro**.
+18. No campo **Tipo de taxa de câmbio**, clique no botão suspenso para abrir a pesquisa.
+19. Na lista, selecione o **Tipo de taxa de câmbio da conta**.
 20. Na lista, clique no link na linha selecionada.
-21. No campo Tipo de conversão de moeda, selecione o método de cálculo das taxas de câmbio da conta.
+21. No campo **Tipo de conversão de moeda**, selecione o método de cálculo das taxas de câmbio da conta.
 22. Feche a página.
 
