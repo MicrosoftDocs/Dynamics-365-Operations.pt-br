@@ -1,9 +1,9 @@
 ---
-title: Documentação do Microsoft Dynamics 365 for Finance and Operations
+title: Documentação do Dynamics 365 for Finance and Operations
 description: Documentação do Microsoft Dynamics 365 for Finance and Operations.
 author: robinarh
 manager: AnnBe
-ms.date: 04/11/2019
+ms.date: 07/25/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f29d8c74c0e7a4384f8e071d0b9babe5c5f630c
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 56e49776acdcdd730aec3fb80ff68534e935ca10
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856296"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864833"
 ---
-# <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Documentação do Microsoft Dynamics 365 for Finance and Operations
+# <a name="dynamics-365-for-finance-and-operations-documentation"></a>Documentação do Dynamics 365 for Finance and Operations
 
 [!include [banner](includes/banner.md)]
 
@@ -49,10 +49,10 @@ Grande parte desse conteúdo também se aplica aos produtos relacionados: Micros
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">Ciclo de vida da implementação</a></h3>
 <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">Integrando um projeto</a></p>
-<p><a href="imp-lifecycle/prepare-go-live.md">Preparando para ativação</a></p>
+<p><a href="imp-lifecycle/prepare-go-live.md">Preparando para a ativação</a></p>
 
-<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">Atualizações do serviço One Version</a></h3>
-<p><a href="get-started/one-version.md">Perguntas frequentes sobre as atualizações do serviço One Version</a></p>
+<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">Atualizações do serviço Uma Versão</a></h3>
+<p><a href="get-started/one-version.md">Perguntas frequentes sobre as atualizações do serviço Uma Versão</a></p>
 <p><a href="../dev-itpro/migration-upgrade/versions-update-policy.md">Política de ciclo de vida do software: Nuvem</a></p>
 <p><a href="../dev-itpro/migration-upgrade/on-prem-version-update-policy.md">Política de ciclo de vida do software: Locais</a></p>
 <p><a href="get-started/public-preview-releases.md">Atualizações padrão e de primeira versão do serviço</a></p>
@@ -96,7 +96,7 @@ Grande parte desse conteúdo também se aplica aos produtos relacionados: Micros
 <p><a href="../supply-chain/cost-management/costing-sheets.md">Gerenciamento de custos</a></p>
 <p><a href="../supply-chain/inventory/inventory-home-page.md">Gerenciamento de estoque</a></p>
 <p><a href="../supply-chain/master-planning/master-plans.md">Planejamento mestre</a></p>
-<p><a href="../supply-chain/procurement/procurement-sourcing-overview.md">Compras</a></p>
+<p><a href="../supply-chain/procurement/procurement-sourcing-overview.md">Compras e fornecimento</a></p>
 <p><a href="../supply-chain/pim/product-information.md">Gerenciamento de informações sobre produtos</a></p>
 <p><a href="../supply-chain/production-control/production-process-overview.md">Controle de produção</a></p>
 <p><a href="../supply-chain/sales-marketing/overview-sales-marketing.md">Vendas e marketing</a></p>
@@ -115,7 +115,7 @@ Grande parte desse conteúdo também se aplica aos produtos relacionados: Micros
 <h3><a href="../dev-itpro/dev-tools/developer-home-page.md">Desenvolvimento</h3>
 <p><a href="../dev-itpro/extensibility/extensibility-home-page.md">Extensibilidade</a></p>
 <p><a href="../dev-itpro/office-integration/office-integration.md">Integração do Office</a></p>
-<p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md">Fornecimento contínuo</a></p>
+<p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md">Entrega contínua</a></p>
 <p><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">Plataforma móvel</a></p>
 <p><a href="get-started/demo-data.md">Dados de demonstração</a></p>
 

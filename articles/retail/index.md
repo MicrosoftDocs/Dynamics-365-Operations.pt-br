@@ -3,7 +3,7 @@ title: Bem-vindo ao Dynamics 365 for Retail
 description: Home page do Dynamics 365 for Retail
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bc1c74ab6940fe0f7ed2e541edad0bce657faeb5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 22dc340ff5ea381dd2a335c8c81332d11d1257a0
+ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572151"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "1874918"
 ---
 # <a name="welcome-to-dynamics-365-for-retail"></a>Bem-vindo ao Dynamics 365 for Retail
 
 [!include [banner](includes/banner.md)]
 
-O Microsoft Dynamics 365 for Retail é uma solução de varejo completa que oferece comércio unificado em todos os canais. Ele abrange vendas, mobilidade, inteligência e produtividade para ajudar varejistas e trabalhadores a produzir mais de uma forma que prioriza a mobilidade e a nuvem. O Retail oferece suporte abrangente para operar uma variedade de processos comerciais, como merchandising, estoque e recursos de gerenciamento de canal. Ele também fornece experiências imersivas aos clientes em todos os pontos de contato.
+O Microsoft Dynamics 365 for Retail é uma solução de varejo completa que oferece comércio unificado em todos os canais. Ele abrange vendas, mobilidade, inteligência e produtividade para ajudar varejistas e funcionários a produzir mais de uma forma que prioriza a mobilidade e a nuvem. O Retail oferece suporte abrangente para operar uma variedade de processos comerciais, como merchandising, estoque e recursos de gerenciamento de canal. Ele também fornece experiências imersivas aos clientes em todos os pontos de contato.
 
 > [!NOTE]
 > O Dynamics 365 for Retail está estreitamente relacionado ao Dynamics 365 for Finance and Operations e ao Dynamics 365 for Talent. A mesma funcionalidade pode aparecer nos três produtos. Como resultado, em tópicos relacionados principalmente ao Retail, o nome do produto será Microsoft Dynamics 365 for Retail; em tópicos relacionados principalmente ao produto principal (Finance and Operations), o nome do produto será Microsoft Dynamics 365 for Finance and Operations; em tópicos relacionados principalmente a recursos humanos, o nome do produto será Dynamics 365 for Talent.
@@ -38,7 +38,7 @@ No painel à esquerda, escolha uma área de recursos para saber mais a respeito.
 
 ## <a name="channel-management"></a>Gerenciamento de canal
 
-Ao configurar o Retail Experience, você decidirá como definir e configurar suas lojas. As lojas podem ser lojas físicas, lojas online ou call centers.
+Ao configurar sua experiência do Retail, você decidirá como definir e configurar suas lojas, que podem ser lojas físicas, lojas onlines ou call centers.
 
 Cada loja de varejo pode ter seus próprios métodos de pagamento, métodos de entrega, grupos de preços, contas de receita e despesa, registros e equipe. Depois de criar sua loja de varejo, você cria um sortimento de produtos a serem mantidos pela loja. Você também pode definir os preços e os descontos específicos da loja que se aplicam aos produtos disponíveis na loja.
 
