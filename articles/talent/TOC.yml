@@ -3,11 +3,19 @@
   items:
     - name: Introdução
       items:
-        - name: Começar a usar o Talent
+        - name: Introdução ao Talent
           href: talent-get-started.md
         - name: Novidades ou alterações no Talent
           href: whats-new.md
           items:
+            - name: 22 de agosto de 2019
+              href: whats-new-talent-august-21-2019.md
+            - name: 13 de agosto de 2019
+              href: whats-new-talent-august-15-2019.md
+            - name: 6 de agosto de 2019
+              href: whats-new-talent-august-7-2019.md
+            - name: 30 de julho de 2019
+              href: whats-new-talent-july-31-2019.md
             - name: 23 de julho de 2019
               href: whats-new-talent-july-24-2019.md
             - name: 16 de julho de 2019
@@ -24,16 +32,16 @@
               href: whats-new-talent-june-11-2019.md
             - name: 4 de junho de 2019
               href: whats-new-talent-june-4-2019.md
-            - name: 28 de maio de 2019
-              href: whats-new-talent-may-28-2019.md
-            - name: 21 de maio de 2019
-              href: whats-new-talent-may-21-2019.md
-            - name: 13 de maio de 2019
-              href: whats-new-talent-may-13-2019.md
-            - name: 6 de maio de 2019
-              href: whats-new-talent-may-6-2019.md
             - name: Arquivo morto das novidades de 2019
               items:
+                - name: 28 de maio de 2019
+                  href: whats-new-talent-may-28-2019.md
+                - name: 21 de maio de 2019
+                  href: whats-new-talent-may-21-2019.md
+                - name: 13 de maio de 2019
+                  href: whats-new-talent-may-13-2019.md
+                - name: 6 de maio de 2019
+                  href: whats-new-talent-may-6-2019.md
                 - name: 30 de abril de 2019
                   href: whats-new-talent-april-30-2019.md
                 - name: 25 de abril de 2019
@@ -180,7 +188,7 @@
           href: extensibility-attract.md
     - name: Dar boas-vindas às novas contratações com o Onboard
       items:
-        - name: Começar a usar o Onboard
+        - name: Introdução ao Onboard
           href: create-onboarding-experience.md
         - name: Obter o aplicativo Onboard
           href: onboard-get-app.md
@@ -204,6 +212,8 @@
               href: departments-jobs-positions.md
             - name: Configurar os componentes de um trabalho
               href: create-job.md
+            - name: Entrada e navegação simplificada de funcionário
+              href: streamlined-employee-entry.md
             - name: Criar departamentos e incluí-los na hierarquia de departamentos
               href: create-department-add-department-hierarchy.md
             - name: Configurar parâmetros de RH entre entidades legais
