@@ -1,9 +1,9 @@
 ---
 title: Agendar uma ordem de produção com operações e agendamento de trabalho
-description: Este procedimento se concentra em agendar uma ordem de produção com o agendamento de operações e planejamento de trabalho.
+description: Este tópico se concentra em agendar uma ordem de produção com o agendamento de operações e planejamento de trabalho.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/19/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,51 +16,43 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4932cfa472c34a16249b226aa4a07b8e5f528053
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 3023d6a6fe09c84b47839a2c4b78c37907754ded
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838478"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914875"
 ---
-# <a name="schedule-a-production-order-with-operations-and-job-scheduling"></a><span data-ttu-id="b71ab-103">Agendar uma ordem de produção com operações e agendamento de trabalho</span><span class="sxs-lookup"><span data-stu-id="b71ab-103">Schedule a production order with operations and job scheduling</span></span>
+# <a name="schedule-a-production-order-with-operations-and-job-scheduling"></a><span data-ttu-id="22c6e-103">Agendar uma ordem de produção com operações e agendamento de trabalho</span><span class="sxs-lookup"><span data-stu-id="22c6e-103">Schedule a production order with operations and job scheduling</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="b71ab-104">Este procedimento se concentra em agendar uma ordem de produção com o agendamento de operações e planejamento de trabalho.</span><span class="sxs-lookup"><span data-stu-id="b71ab-104">This procedure focuses on scheduling a production order with operations scheduling and job scheduling.</span></span> <span data-ttu-id="b71ab-105">Nenhum trabalho é criado com o agendamento de operações, mas sim no planejamento de trabalho.</span><span class="sxs-lookup"><span data-stu-id="b71ab-105">No jobs are created with operations scheduling whereas jobs are created with job scheduling.</span></span> <span data-ttu-id="b71ab-106">A empresa de dados demo usada para criar esta tarefa é USMF.</span><span class="sxs-lookup"><span data-stu-id="b71ab-106">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="b71ab-107">Este procedimento destina-se ao gerente de produção, ao planejador de produção, ou supervisor de chão de fábrica que trabalha em um ambiente de manufatura discreto.</span><span class="sxs-lookup"><span data-stu-id="b71ab-107">This procedure is intended for the production manager, production planner, or shop floor supervisor working in a discrete manufacturing environment.</span></span>
+<span data-ttu-id="22c6e-104">Este tópico se concentra em agendar uma ordem de produção com o agendamento de operações e planejamento de trabalho.</span><span class="sxs-lookup"><span data-stu-id="22c6e-104">This topic focuses on scheduling a production order with operations scheduling and job scheduling.</span></span> <span data-ttu-id="22c6e-105">Nenhum trabalho é criado com o agendamento de operações, mas sim no planejamento de trabalho.</span><span class="sxs-lookup"><span data-stu-id="22c6e-105">No jobs are created with operations scheduling whereas jobs are created with job scheduling.</span></span> <span data-ttu-id="22c6e-106">A empresa de dados demo usada para criar esta tarefa é USMF.</span><span class="sxs-lookup"><span data-stu-id="22c6e-106">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="22c6e-107">Este procedimento destina-se ao gerente de produção, ao planejador de produção, ou supervisor de chão de fábrica que trabalha em um ambiente de manufatura discreto.</span><span class="sxs-lookup"><span data-stu-id="22c6e-107">This procedure is intended for the production manager, production planner, or shop floor supervisor working in a discrete manufacturing environment.</span></span>
 
 
-## <a name="create-a-production-order"></a><span data-ttu-id="b71ab-108">Criar uma ordem de produção</span><span class="sxs-lookup"><span data-stu-id="b71ab-108">Create a production order</span></span>
-1. <span data-ttu-id="b71ab-109">Vá para Controle de produção > Ordens de produção > Todas as ordens de produção.</span><span class="sxs-lookup"><span data-stu-id="b71ab-109">Go to Production control > Production orders > All production orders.</span></span>
-2. <span data-ttu-id="b71ab-110">Clique em Nova ordem de produção.</span><span class="sxs-lookup"><span data-stu-id="b71ab-110">Click New production order.</span></span>
-3. <span data-ttu-id="b71ab-111">No campo Número do item, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="b71ab-111">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="b71ab-112">Selecione o Número de item D0001.</span><span class="sxs-lookup"><span data-stu-id="b71ab-112">Select Item number D0001.</span></span>  
-4. <span data-ttu-id="b71ab-113">Clique em Criar.</span><span class="sxs-lookup"><span data-stu-id="b71ab-113">Click Create.</span></span>
+## <a name="create-a-production-order"></a><span data-ttu-id="22c6e-108">Criar uma ordem de produção</span><span class="sxs-lookup"><span data-stu-id="22c6e-108">Create a production order</span></span>
+1. <span data-ttu-id="22c6e-109">No painel de navegação, acesse **Módulos > Controle de produção > Ordens de produção > Todas as ordens de produção**.</span><span class="sxs-lookup"><span data-stu-id="22c6e-109">In the navigation pane, go to **Modules > Production control > Production orders > All production orders**.</span></span>
+2. <span data-ttu-id="22c6e-110">Selecione **Nova ordem de produção**.</span><span class="sxs-lookup"><span data-stu-id="22c6e-110">Select **New production order**.</span></span>
+3. <span data-ttu-id="22c6e-111">No campo **Número do item**, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="22c6e-111">In the **Item number** field, enter or select a value.</span></span> <span data-ttu-id="22c6e-112">Selecione o Número de item **D0001**.</span><span class="sxs-lookup"><span data-stu-id="22c6e-112">Select Item number **D0001**.</span></span>  
+4. <span data-ttu-id="22c6e-113">Selecione **Criar**.</span><span class="sxs-lookup"><span data-stu-id="22c6e-113">Select **Create**.</span></span>
 
-## <a name="schedule-operations-for-the-production-order"></a><span data-ttu-id="b71ab-114">Agendar operações para a ordem de produção</span><span class="sxs-lookup"><span data-stu-id="b71ab-114">Schedule operations for the production order</span></span>
-1. <span data-ttu-id="b71ab-115">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="b71ab-115">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="b71ab-116">Selecione a ordem de produção que você acabou de criar.</span><span class="sxs-lookup"><span data-stu-id="b71ab-116">Select the production order that you have just created.</span></span> <span data-ttu-id="b71ab-117">Ela deve estar na parte superior da lista.</span><span class="sxs-lookup"><span data-stu-id="b71ab-117">It should be at the top of the list.</span></span>      
-2. <span data-ttu-id="b71ab-118">No Painel de Ação, clique em Agenda.</span><span class="sxs-lookup"><span data-stu-id="b71ab-118">On the Action Pane, click Schedule.</span></span>
-3. <span data-ttu-id="b71ab-119">Clique em Agendar operações.</span><span class="sxs-lookup"><span data-stu-id="b71ab-119">Click Schedule operations.</span></span>
-4. <span data-ttu-id="b71ab-120">No campo Direção do agendamento, selecione 'A partir da data de agendamento'.</span><span class="sxs-lookup"><span data-stu-id="b71ab-120">In the Scheduling direction field, select 'Forward from scheduling date'.</span></span>
-5. <span data-ttu-id="b71ab-121">No campo Data de planejamento, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="b71ab-121">In the Scheduling date field, enter a date.</span></span>
-    * <span data-ttu-id="b71ab-122">Selecione uma data futura, por exemplo, hoje mais uma semana.</span><span class="sxs-lookup"><span data-stu-id="b71ab-122">Select a future date, for example, today plus one week.</span></span> <span data-ttu-id="b71ab-123">Com a Direção de agendamento selecionada, a ordem de produção será agendada a partir dessa data.</span><span class="sxs-lookup"><span data-stu-id="b71ab-123">With the selected Scheduling direction, the production order will be scheduled forward from this date.</span></span>  
-6. <span data-ttu-id="b71ab-124">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="b71ab-124">Click OK.</span></span>
-7. <span data-ttu-id="b71ab-125">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="b71ab-125">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="b71ab-126">Observe que o status foi alterado para Agendado.</span><span class="sxs-lookup"><span data-stu-id="b71ab-126">Note that the status is changed to Scheduled.</span></span>  
-8. <span data-ttu-id="b71ab-127">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="b71ab-127">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="b71ab-128">Clique em Todos os trabalhos.</span><span class="sxs-lookup"><span data-stu-id="b71ab-128">Click All jobs.</span></span>
-    * <span data-ttu-id="b71ab-129">Observe que nenhum trabalho é criado com o agendamento de operações.</span><span class="sxs-lookup"><span data-stu-id="b71ab-129">Note that no jobs are created with operations scheduling.</span></span>  
-10. <span data-ttu-id="b71ab-130">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="b71ab-130">Close the page.</span></span>
+## <a name="schedule-operations-for-the-production-order"></a><span data-ttu-id="22c6e-114">Agendar operações para a ordem de produção</span><span class="sxs-lookup"><span data-stu-id="22c6e-114">Schedule operations for the production order</span></span>
+1. <span data-ttu-id="22c6e-115">Marque a linha que acabou de ser criada.</span><span class="sxs-lookup"><span data-stu-id="22c6e-115">Mark the newly created row.</span></span>      
+2. <span data-ttu-id="22c6e-116">No Painel de Ação, selecione **Agendar**.</span><span class="sxs-lookup"><span data-stu-id="22c6e-116">On the Action Pane, select **Schedule**.</span></span>
+3. <span data-ttu-id="22c6e-117">Selecione **Agendar operações**.</span><span class="sxs-lookup"><span data-stu-id="22c6e-117">Select **Schedule operations**.</span></span>
+4. <span data-ttu-id="22c6e-118">No campo **Direção do agendamento**, selecione **A partir da data de agendamento**.</span><span class="sxs-lookup"><span data-stu-id="22c6e-118">In the **Scheduling direction** field, select **Forward from scheduling date**.</span></span>
+5. <span data-ttu-id="22c6e-119">No campo **Data de planejamento**, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="22c6e-119">In the **Scheduling date** field, enter a date.</span></span> <span data-ttu-id="22c6e-120">Selecione uma data futura, por exemplo, hoje mais uma semana.</span><span class="sxs-lookup"><span data-stu-id="22c6e-120">Select a future date, for example, today plus one week.</span></span> <span data-ttu-id="22c6e-121">Com a Direção de agendamento selecionada, a ordem de produção será agendada a partir dessa data.</span><span class="sxs-lookup"><span data-stu-id="22c6e-121">With the selected Scheduling direction, the production order will be scheduled forward from this date.</span></span>  
+6. <span data-ttu-id="22c6e-122">Selecione **OK**.</span><span class="sxs-lookup"><span data-stu-id="22c6e-122">Select **OK**.</span></span>
+7. <span data-ttu-id="22c6e-123">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="22c6e-123">In the list, mark the selected row.</span></span> <span data-ttu-id="22c6e-124">Observe que o status foi alterado para **Agendado**.</span><span class="sxs-lookup"><span data-stu-id="22c6e-124">Note that the status is changed to **Scheduled**.</span></span> 
+8. <span data-ttu-id="22c6e-125">Selecione **Todos os trabalhos**.</span><span class="sxs-lookup"><span data-stu-id="22c6e-125">Select **All jobs**.</span></span> <span data-ttu-id="22c6e-126">Observe que nenhum trabalho é criado com o agendamento de operações.</span><span class="sxs-lookup"><span data-stu-id="22c6e-126">Note that no jobs are created with operations scheduling.</span></span>  
+9. <span data-ttu-id="22c6e-127">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="22c6e-127">Close the page.</span></span>
 
-## <a name="schedule-jobs-for-the-production-order"></a><span data-ttu-id="b71ab-131">Agendar trabalhos para a ordem de produção</span><span class="sxs-lookup"><span data-stu-id="b71ab-131">Schedule jobs for the production order</span></span>
-1. <span data-ttu-id="b71ab-132">No Painel de Ação, clique em Agenda.</span><span class="sxs-lookup"><span data-stu-id="b71ab-132">On the Action Pane, click Schedule.</span></span>
-2. <span data-ttu-id="b71ab-133">Clique em Agendar trabalhos.</span><span class="sxs-lookup"><span data-stu-id="b71ab-133">Click Schedule jobs.</span></span>
-3. <span data-ttu-id="b71ab-134">No campo Direção do agendamento, selecione 'A partir da data de agendamento'.</span><span class="sxs-lookup"><span data-stu-id="b71ab-134">In the Scheduling direction field, select 'Forward from scheduling date'.</span></span>
-4. <span data-ttu-id="b71ab-135">No campo Data de planejamento, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="b71ab-135">In the Scheduling date field, enter a date.</span></span>
-    * <span data-ttu-id="b71ab-136">Selecione uma data futura, por exemplo, hoje mais uma semana.</span><span class="sxs-lookup"><span data-stu-id="b71ab-136">Select a date in the future, for example, today plus one week.</span></span> <span data-ttu-id="b71ab-137">Com a Direção de agendamento selecionada, a ordem de produção será agendada a partir dessa data.</span><span class="sxs-lookup"><span data-stu-id="b71ab-137">With the selected Scheduling direction, the production order will be scheduled forward from this date.</span></span>  
-5. <span data-ttu-id="b71ab-138">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="b71ab-138">Click OK.</span></span>
-6. <span data-ttu-id="b71ab-139">No Painel de Ação, clique em Ordem de produção.</span><span class="sxs-lookup"><span data-stu-id="b71ab-139">On the Action Pane, click Production order.</span></span>
-7. <span data-ttu-id="b71ab-140">Clique em Todos os trabalhos.</span><span class="sxs-lookup"><span data-stu-id="b71ab-140">Click All jobs.</span></span>
-    * <span data-ttu-id="b71ab-141">Observe que, com base no roteiro ativo, 5 trabalhos são criados com o agendamento do trabalho.</span><span class="sxs-lookup"><span data-stu-id="b71ab-141">Note that based on the active route, 5 jobs are created with job scheduling.</span></span>  
+## <a name="schedule-jobs-for-the-production-order"></a><span data-ttu-id="22c6e-128">Agendar trabalhos para a ordem de produção</span><span class="sxs-lookup"><span data-stu-id="22c6e-128">Schedule jobs for the production order</span></span>
+1. <span data-ttu-id="22c6e-129">No Painel de Ação, selecione **Agendar**.</span><span class="sxs-lookup"><span data-stu-id="22c6e-129">On the Action Pane, select **Schedule**.</span></span>
+2. <span data-ttu-id="22c6e-130">Selecione **Agendar trabalhos**.</span><span class="sxs-lookup"><span data-stu-id="22c6e-130">Select **Schedule jobs**.</span></span>
+3. <span data-ttu-id="22c6e-131">No campo **Direção do agendamento**, selecione **A partir da data de agendamento**.</span><span class="sxs-lookup"><span data-stu-id="22c6e-131">In the **Scheduling direction** field, select **Forward from scheduling date**.</span></span>
+4. <span data-ttu-id="22c6e-132">No campo **Data de planejamento**, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="22c6e-132">In the **Scheduling date** field, enter a date.</span></span> <span data-ttu-id="22c6e-133">Selecione uma data futura, por exemplo, hoje mais uma semana.</span><span class="sxs-lookup"><span data-stu-id="22c6e-133">Select a date in the future, for example, today plus one week.</span></span> <span data-ttu-id="22c6e-134">Com a Direção de agendamento selecionada, a ordem de produção será agendada a partir dessa data.</span><span class="sxs-lookup"><span data-stu-id="22c6e-134">With the selected Scheduling direction, the production order will be scheduled forward from this date.</span></span>  
+5. <span data-ttu-id="22c6e-135">Selecione **OK**.</span><span class="sxs-lookup"><span data-stu-id="22c6e-135">Select **OK**.</span></span>
+6. <span data-ttu-id="22c6e-136">No Painel de Ação, selecione **Ordem de produção**.</span><span class="sxs-lookup"><span data-stu-id="22c6e-136">On the Action Pane, select **Production order**.</span></span>
+7. <span data-ttu-id="22c6e-137">Selecione **Todos os trabalhos**.</span><span class="sxs-lookup"><span data-stu-id="22c6e-137">Select **All jobs**.</span></span> <span data-ttu-id="22c6e-138">Observe que, com base no roteiro ativo, 5 trabalhos são criados com o agendamento do trabalho.</span><span class="sxs-lookup"><span data-stu-id="22c6e-138">Note that based on the active route, 5 jobs are created with job scheduling.</span></span>  
 

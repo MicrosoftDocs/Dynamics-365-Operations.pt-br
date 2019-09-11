@@ -3,7 +3,7 @@ title: Enviar e aprovar orçamento de projeto
 description: Este procedimento mostra como criar e enviar o orçamento para um projeto.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/13/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,43 +17,43 @@ ms.search.industry: Service industries
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ffa7b4f23e63196947fef1b2180145702531e0a6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 798bbc68e625c58d56cdd769f48ba734ace1d028
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843904"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914848"
 ---
-# <a name="submit-and-approve-project-budget"></a><span data-ttu-id="8e380-103">Enviar e aprovar orçamento de projeto</span><span class="sxs-lookup"><span data-stu-id="8e380-103">Submit and approve project budget</span></span>
+# <a name="submit-and-approve-project-budget"></a><span data-ttu-id="8b31f-103">Enviar e aprovar orçamento de projeto</span><span class="sxs-lookup"><span data-stu-id="8b31f-103">Submit and approve project budget</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="8e380-104">Este procedimento mostra como criar e enviar o orçamento para um projeto.</span><span class="sxs-lookup"><span data-stu-id="8e380-104">This procedure shows you how to create and submit the budget for a project.</span></span> 
+<span data-ttu-id="8b31f-104">Este procedimento mostra como criar e enviar o orçamento para um projeto.</span><span class="sxs-lookup"><span data-stu-id="8b31f-104">This procedure shows you how to create and submit the budget for a project.</span></span> 
 
-<span data-ttu-id="8e380-105">Quando você cria um orçamento do projeto, você pode inserir receitas e custos estimados para um projeto e, em seguida, usá-los para controlar as transações reais do projeto.</span><span class="sxs-lookup"><span data-stu-id="8e380-105">When you create a project budget, you can enter estimated revenues and costs for a project, and then use those to control actual project transactions.</span></span> <span data-ttu-id="8e380-106">No orçamento do projeto, todos os orçamentos originais e revisões devem ser enviados ao fluxo de trabalho do projeto para aprovação.</span><span class="sxs-lookup"><span data-stu-id="8e380-106">In project budgeting, all original budgets and revisions must be sent to project workflow for approval.</span></span> <span data-ttu-id="8e380-107">O fluxo de trabalho oferece maior controle sobre o processo e cria um registro de histórico de alteração.</span><span class="sxs-lookup"><span data-stu-id="8e380-107">Workflow gives you increased control over the process and creates a change history record.</span></span>
+<span data-ttu-id="8b31f-105">Quando você cria um orçamento do projeto, você pode inserir receitas e custos estimados para um projeto e, em seguida, usá-los para controlar as transações reais do projeto.</span><span class="sxs-lookup"><span data-stu-id="8b31f-105">When you create a project budget, you can enter estimated revenues and costs for a project, and then use those to control actual project transactions.</span></span> <span data-ttu-id="8b31f-106">No orçamento do projeto, todos os orçamentos originais e revisões devem ser enviados ao fluxo de trabalho do projeto para aprovação.</span><span class="sxs-lookup"><span data-stu-id="8b31f-106">In project budgeting, all original budgets and revisions must be sent to project workflow for approval.</span></span> <span data-ttu-id="8b31f-107">O fluxo de trabalho oferece maior controle sobre o processo e cria um registro de histórico de alteração.</span><span class="sxs-lookup"><span data-stu-id="8b31f-107">Workflow gives you increased control over the process and creates a change history record.</span></span>
 
-<span data-ttu-id="8e380-108">Essa tarefa foi criada usando o conjunto de dados de USSI.</span><span class="sxs-lookup"><span data-stu-id="8e380-108">This task was created using the USSI data set.</span></span>
+<span data-ttu-id="8b31f-108">Essa tarefa foi criada usando o conjunto de dados de USSI.</span><span class="sxs-lookup"><span data-stu-id="8b31f-108">This task was created using the USSI data set.</span></span>
 
-1. <span data-ttu-id="8e380-109">Vá para Gerenciamento e contabilidade de projeto > Projetos > Todos os projetos.</span><span class="sxs-lookup"><span data-stu-id="8e380-109">Go to Project management and accounting > Projects > All projects.</span></span>
-2. <span data-ttu-id="8e380-110">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="8e380-110">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="8e380-111">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="8e380-111">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="8e380-112">No Painel de Ação, clique em Plano.</span><span class="sxs-lookup"><span data-stu-id="8e380-112">On the Action Pane, click Plan.</span></span>
-5. <span data-ttu-id="8e380-113">Clique em Orçamento do projeto.</span><span class="sxs-lookup"><span data-stu-id="8e380-113">Click Project budget.</span></span>
-6. <span data-ttu-id="8e380-114">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="8e380-114">In the Description field, type a value.</span></span>
-7. <span data-ttu-id="8e380-115">Expanda a seção Custos</span><span class="sxs-lookup"><span data-stu-id="8e380-115">Expand the Cost section</span></span>
-8. <span data-ttu-id="8e380-116">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="8e380-116">Click New.</span></span>
-9. <span data-ttu-id="8e380-117">No campo Tipo de transação, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="8e380-117">In the Transaction type field, select an option.</span></span>
-10. <span data-ttu-id="8e380-118">No campo Categoria, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="8e380-118">In the Category field, enter or select a value.</span></span>
-11. <span data-ttu-id="8e380-119">No campo Orçamento original, insira um número.</span><span class="sxs-lookup"><span data-stu-id="8e380-119">In the Original budget field, enter a number.</span></span>
-12. <span data-ttu-id="8e380-120">Expanda a seção Receitas.</span><span class="sxs-lookup"><span data-stu-id="8e380-120">Expand the Revenues section.</span></span>
-13. <span data-ttu-id="8e380-121">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="8e380-121">Click New.</span></span>
-14. <span data-ttu-id="8e380-122">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="8e380-122">In the list, mark the selected row.</span></span>
-15. <span data-ttu-id="8e380-123">No campo Tipo de transação, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="8e380-123">In the Transaction type field, select an option.</span></span>
-16. <span data-ttu-id="8e380-124">No campo Categoria, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="8e380-124">In the Category field, enter or select a value.</span></span>
-17. <span data-ttu-id="8e380-125">No campo Orçamento original, insira um número.</span><span class="sxs-lookup"><span data-stu-id="8e380-125">In the Original budget field, enter a number.</span></span>
-18. <span data-ttu-id="8e380-126">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="8e380-126">Click Save.</span></span>
-19. <span data-ttu-id="8e380-127">Clique em Fluxo de trabalho.</span><span class="sxs-lookup"><span data-stu-id="8e380-127">Click Workflow.</span></span>
-20. <span data-ttu-id="8e380-128">Clique em Enviar.</span><span class="sxs-lookup"><span data-stu-id="8e380-128">Click Submit.</span></span>
-21. <span data-ttu-id="8e380-129">No campo Comentário, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="8e380-129">In the Comment field, type a value.</span></span>
-22. <span data-ttu-id="8e380-130">Clique em Enviar.</span><span class="sxs-lookup"><span data-stu-id="8e380-130">Click Submit.</span></span>
+1. <span data-ttu-id="8b31f-109">No **Painel de navegação**, acesse **Módulos > Gerenciamento e contabilidade do projeto > Projetos > Todos os projetos**.</span><span class="sxs-lookup"><span data-stu-id="8b31f-109">In the **Navigation pane**, go to **Modules > Project management and accounting > Projects > All projects**.</span></span>
+2. <span data-ttu-id="8b31f-110">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="8b31f-110">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="8b31f-111">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="8b31f-111">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="8b31f-112">No **Painel de Ação**, clique em **Plano**.</span><span class="sxs-lookup"><span data-stu-id="8b31f-112">On the **Action Pane**, click **Plan**.</span></span>
+5. <span data-ttu-id="8b31f-113">Clique em **Orçamento do projeto**.</span><span class="sxs-lookup"><span data-stu-id="8b31f-113">Click **Project budget**.</span></span>
+6. <span data-ttu-id="8b31f-114">No campo **Descrição**, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="8b31f-114">In the **Description** field, type a value.</span></span>
+7. <span data-ttu-id="8b31f-115">Expanda a Guia Rápida **Custo**.</span><span class="sxs-lookup"><span data-stu-id="8b31f-115">Expand the **Cost** fastTab.</span></span>
+8. <span data-ttu-id="8b31f-116">Clique em **Novo**.</span><span class="sxs-lookup"><span data-stu-id="8b31f-116">Click **New**.</span></span>
+9. <span data-ttu-id="8b31f-117">No campo **Tipo de transação**, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="8b31f-117">In the **Transaction type** field, select an option.</span></span>
+10. <span data-ttu-id="8b31f-118">No campo **Categoria**, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="8b31f-118">In the **Category** field, enter or select a value.</span></span>
+11. <span data-ttu-id="8b31f-119">No campo **Orçamento original**, insira um número.</span><span class="sxs-lookup"><span data-stu-id="8b31f-119">In the **Original budget** field, enter a number.</span></span>
+12. <span data-ttu-id="8b31f-120">Expanda a Guia Rápida **Receitas**.</span><span class="sxs-lookup"><span data-stu-id="8b31f-120">Expand the **Revenues** fastTab.</span></span>
+13. <span data-ttu-id="8b31f-121">Clique em **Novo**.</span><span class="sxs-lookup"><span data-stu-id="8b31f-121">Click **New**.</span></span>
+14. <span data-ttu-id="8b31f-122">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="8b31f-122">In the list, mark the selected row.</span></span>
+15. <span data-ttu-id="8b31f-123">No campo **Tipo de transação**, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="8b31f-123">In the **Transaction type** field, select an option.</span></span>
+16. <span data-ttu-id="8b31f-124">No campo **Categoria**, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="8b31f-124">In the **Category** field, enter or select a value.</span></span>
+17. <span data-ttu-id="8b31f-125">No campo **Orçamento original**, insira um número.</span><span class="sxs-lookup"><span data-stu-id="8b31f-125">In the **Original budget** field, enter a number.</span></span>
+18. <span data-ttu-id="8b31f-126">Clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="8b31f-126">Click **Save**.</span></span>
+19. <span data-ttu-id="8b31f-127">Clique em **Fluxo de trabalho**.</span><span class="sxs-lookup"><span data-stu-id="8b31f-127">Click **Workflow**.</span></span>
+20. <span data-ttu-id="8b31f-128">Clique em **Enviar**.</span><span class="sxs-lookup"><span data-stu-id="8b31f-128">Click **Submit**.</span></span>
+21. <span data-ttu-id="8b31f-129">No campo **Comentário**, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="8b31f-129">In the **Comment** field, type a value.</span></span>
+22. <span data-ttu-id="8b31f-130">Clique em **Enviar**.</span><span class="sxs-lookup"><span data-stu-id="8b31f-130">Click **Submit**.</span></span>
 

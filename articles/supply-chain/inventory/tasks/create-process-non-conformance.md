@@ -1,9 +1,9 @@
 ---
 title: Criar e processar uma conformidade
-description: Use este procedimento para executar o gerenciamento de não conformidades, com base em uma ordem de qualidade existente.
+description: Este tópico explica como executar o gerenciamento de não conformidades, com base em uma ordem de qualidade existente.
 author: perlynne
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/07/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,65 +16,54 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16ed11bce92920fe8240fc85f706a2ac6ab0a04b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4e9cf42f80ef7a4c9c5f68a308386db5835c8f2e
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572802"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916636"
 ---
-# <a name="create-and-process-a-conformance"></a><span data-ttu-id="dcb0d-103">Criar e processar uma conformidade</span><span class="sxs-lookup"><span data-stu-id="dcb0d-103">Create and process a conformance</span></span>
+# <a name="create-and-process-a-conformance"></a><span data-ttu-id="edb0b-103">Criar e processar uma conformidade</span><span class="sxs-lookup"><span data-stu-id="edb0b-103">Create and process a conformance</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="dcb0d-104">Use este procedimento para executar o gerenciamento de não conformidades, com base em uma ordem de qualidade existente.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-104">Use this procedure to perform nonconformance management, based on an existing quality order.</span></span> <span data-ttu-id="dcb0d-105">Você pode executar esse registro na empresa de demonstração USMF e pode usar os valores sugeridos.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-105">You can run this recording in the USMF demo company and can use the suggested values.</span></span> <span data-ttu-id="dcb0d-106">Normalmente, esse procedimento é realizado por um encarregado de qualidade.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-106">Typically, this procedure is performed by a quality clerk.</span></span>  <span data-ttu-id="dcb0d-107">Como um pré-requisito, execute o registro de tarefa “Inspecionar a qualidade das mercadorias“.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-107">As a prerequisite, run the “Inspect the quality of goods” task recording.</span></span> <span data-ttu-id="dcb0d-108">Para processar a aprovação de uma não conformidade, o usuário que executa o registro de tarefa deve ter um valor de “Nome“ atribuído na página Usuários.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-108">To process the approval of a nonconformance, the user who runs the task recording must have a “Name” value assigned on the Users page.</span></span> <span data-ttu-id="dcb0d-109">Para usar as notas do documento, o usuário também deve ter o Manuseio de documentos ativado nas opções do usuário.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-109">To use the document notes, the user must also have Document handling activated in the user options.</span></span>
+<span data-ttu-id="edb0b-104">Este tópico explica como executar o gerenciamento de não conformidades, com base em uma ordem de qualidade existente.</span><span class="sxs-lookup"><span data-stu-id="edb0b-104">This topic explains how to perform nonconformance management, based on an existing quality order.</span></span> <span data-ttu-id="edb0b-105">Você pode executar esse registro na empresa de demonstração USMF e pode usar os valores sugeridos.</span><span class="sxs-lookup"><span data-stu-id="edb0b-105">You can run this recording in the USMF demo company and can use the suggested values.</span></span> <span data-ttu-id="edb0b-106">Normalmente, esse procedimento é realizado por um encarregado de qualidade.</span><span class="sxs-lookup"><span data-stu-id="edb0b-106">Typically, this procedure is performed by a quality clerk.</span></span>  <span data-ttu-id="edb0b-107">Como um pré-requisito, siga as instruções em [Inspecionar a qualidade das mercadorias](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md).</span><span class="sxs-lookup"><span data-stu-id="edb0b-107">As a prerequisite, complete the instructions in [Inspect the quality of goods](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md).</span></span> <span data-ttu-id="edb0b-108">Para processar a aprovação de uma não conformidade, o usuário que executa o registro de tarefa deve ter um valor de “Nome“ atribuído na página Usuários.</span><span class="sxs-lookup"><span data-stu-id="edb0b-108">To process the approval of a nonconformance, the user who runs the task recording must have a “Name” value assigned on the Users page.</span></span> <span data-ttu-id="edb0b-109">Para usar as notas do documento, o usuário também deve ter o Manuseio de documentos ativado nas opções do usuário.</span><span class="sxs-lookup"><span data-stu-id="edb0b-109">To use the document notes, the user must also have Document handling activated in the user options.</span></span>
 
 
-## <a name="select-a-quality-order"></a><span data-ttu-id="dcb0d-110">Selecione uma ordem de qualidade</span><span class="sxs-lookup"><span data-stu-id="dcb0d-110">Select a quality order</span></span>
-1. <span data-ttu-id="dcb0d-111">Vá para Ordens de qualidade.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-111">Go to Quality orders.</span></span>
-2. <span data-ttu-id="dcb0d-112">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-112">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="dcb0d-113">Selecione a ordem de qualidade que foi criada no registro de tarefa "Inspecionar a qualidade das mercadorias".</span><span class="sxs-lookup"><span data-stu-id="dcb0d-113">Select the quality order that was created from the "Inspect the quality of goods" task recording.</span></span>  
+## <a name="select-a-quality-order"></a><span data-ttu-id="edb0b-110">Selecione uma ordem de qualidade</span><span class="sxs-lookup"><span data-stu-id="edb0b-110">Select a quality order</span></span>
+1. <span data-ttu-id="edb0b-111">No painel de navegação, vá para **Módulos > Gerenciamento de estoque > Tarefas periódicas > Gerenciamento de qualidade > Ordens de qualidade**.</span><span class="sxs-lookup"><span data-stu-id="edb0b-111">In the navigation pane, go to **Modules > Inventory management > Periodic tasks > Quality management > Quality orders**.</span></span>
+2. <span data-ttu-id="edb0b-112">Na lista, selecione a ordem de qualidade criada em [Inspecionar a qualidade das mercadorias](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md).</span><span class="sxs-lookup"><span data-stu-id="edb0b-112">In the list, select the quality order that was created in [Inspect the quality of goods](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md).</span></span>  
 
-## <a name="create-a-nonconformance"></a><span data-ttu-id="dcb0d-114">Criar uma não conformidade</span><span class="sxs-lookup"><span data-stu-id="dcb0d-114">Create a nonconformance</span></span>
-1. <span data-ttu-id="dcb0d-115">Clique em Consultas.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-115">Click Inquiries.</span></span>
-2. <span data-ttu-id="dcb0d-116">Clique em Não conformidades.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-116">Click Non conformances.</span></span>
-3. <span data-ttu-id="dcb0d-117">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-117">Click New.</span></span>
-4. <span data-ttu-id="dcb0d-118">No campo Tipo de problema, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-118">In the Problem type field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="dcb0d-119">Selecione o problema encontrado durante o processo de inspeção.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-119">Select the problem that was found during the inspection process.</span></span>  
-5. <span data-ttu-id="dcb0d-120">No campo Tipo de problema, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-120">In the Problem type field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="dcb0d-121">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-121">In the list, find and select the desired record.</span></span>
-7. <span data-ttu-id="dcb0d-122">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-122">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="dcb0d-123">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-123">Click OK.</span></span>
+## <a name="create-a-nonconformance"></a><span data-ttu-id="edb0b-113">Criar uma não conformidade</span><span class="sxs-lookup"><span data-stu-id="edb0b-113">Create a nonconformance</span></span>
+1. <span data-ttu-id="edb0b-114">No painel de ações, selecione **Consultas**.</span><span class="sxs-lookup"><span data-stu-id="edb0b-114">In the action pane, select **Inquiries**.</span></span>
+2. <span data-ttu-id="edb0b-115">Selecione **Não conformidades**.</span><span class="sxs-lookup"><span data-stu-id="edb0b-115">Select **Non conformances**.</span></span>
+3. <span data-ttu-id="edb0b-116">Selecione **Novo**.</span><span class="sxs-lookup"><span data-stu-id="edb0b-116">Select **New**.</span></span>
+4. <span data-ttu-id="edb0b-117">No menu suspenso do campo **Tipo de problema**, selecione o problema encontrado durante o processo de inspeção.</span><span class="sxs-lookup"><span data-stu-id="edb0b-117">In the drop-down menu of the **Problem type** field, select the problem that was found during the inspection process.</span></span>  
+5. <span data-ttu-id="edb0b-118">Selecione **OK**.</span><span class="sxs-lookup"><span data-stu-id="edb0b-118">Select **OK**.</span></span>
 
-## <a name="approvereject-a-nonconformance"></a><span data-ttu-id="dcb0d-124">Aprovar/rejeitar uma não conformidade</span><span class="sxs-lookup"><span data-stu-id="dcb0d-124">Approve/reject a nonconformance</span></span>
-1. <span data-ttu-id="dcb0d-125">Clique em Funções.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-125">Click Functions.</span></span>
-2. <span data-ttu-id="dcb0d-126">Clique em Aprovar a não conformidade.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-126">Click Approve non conformance.</span></span>
-    * <span data-ttu-id="dcb0d-127">Para esse exemplo, aprove a não conformidade.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-127">For this example, approve the nonconformance.</span></span> <span data-ttu-id="dcb0d-128">Não conformidades aprovadas podem ser associadas às operações relacionadas para registrar o trabalho que é feito como parte do manuseio da não conformidade e, como nesse registro de tarefa, o processamento do manuseio de correção.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-128">Approved nonconformances can be associated with related operations to record work that is done as part of the nonconformance handling and, as in this task recording, the processing of correction handling.</span></span>  
-3. <span data-ttu-id="dcb0d-129">Clique em Sim.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-129">Click Yes.</span></span>
+## <a name="approvereject-a-nonconformance"></a><span data-ttu-id="edb0b-119">Aprovar/rejeitar uma não conformidade</span><span class="sxs-lookup"><span data-stu-id="edb0b-119">Approve/reject a nonconformance</span></span>
+1. <span data-ttu-id="edb0b-120">Selecione **Funções**.</span><span class="sxs-lookup"><span data-stu-id="edb0b-120">Select **Functions**.</span></span>
+2. <span data-ttu-id="edb0b-121">Selecione **Aprovar não conformidade**.</span><span class="sxs-lookup"><span data-stu-id="edb0b-121">Select **Approve non conformance**.</span></span> <span data-ttu-id="edb0b-122">Para esse exemplo, aprove a não conformidade.</span><span class="sxs-lookup"><span data-stu-id="edb0b-122">For this example, approve the nonconformance.</span></span> <span data-ttu-id="edb0b-123">Não conformidades aprovadas podem ser associadas às operações relacionadas para registrar o trabalho que é feito como parte do manuseio da não conformidade e, como neste tópico, o processamento do manuseio de correção.</span><span class="sxs-lookup"><span data-stu-id="edb0b-123">Approved nonconformances can be associated with related operations to record work that is done as part of the nonconformance handling and, as in this topic, the processing of correction handling.</span></span>  
+3. <span data-ttu-id="edb0b-124">Selecione **Sim**.</span><span class="sxs-lookup"><span data-stu-id="edb0b-124">Select **Yes**.</span></span>
 
-## <a name="create-a-correction-action"></a><span data-ttu-id="dcb0d-130">Criar uma ação de correção</span><span class="sxs-lookup"><span data-stu-id="dcb0d-130">Create a correction action</span></span>
-1. <span data-ttu-id="dcb0d-131">Clique em Correções.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-131">Click Corrections.</span></span>
-2. <span data-ttu-id="dcb0d-132">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-132">Click New.</span></span>
-3. <span data-ttu-id="dcb0d-133">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-133">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="dcb0d-134">No campo Número dos funcionários, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-134">In the Personnel number field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="dcb0d-135">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-135">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="dcb0d-136">Clique em Selecionar.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-136">Click Select.</span></span>
-7. <span data-ttu-id="dcb0d-137">Clique em Anexar.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-137">Click Attach.</span></span>
-    * <span data-ttu-id="dcb0d-138">Crie uma nota sobre a correção.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-138">Create a note about the correction.</span></span> <span data-ttu-id="dcb0d-139">Neste exemplo, a ação é entrar em contato com o fornecedor para discutir o caso não conformidade.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-139">For this example, the action is to contact the vendor to discuss the nonconformance case.</span></span>  
-8. <span data-ttu-id="dcb0d-140">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-140">Click New.</span></span>
-9. <span data-ttu-id="dcb0d-141">Clique em Nota.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-141">Click Note.</span></span>
-    * <span data-ttu-id="dcb0d-142">Observe que, dependendo da configuração do relatório, diferentes tipos de documentos podem ser impressos em relatórios relacionados ao gerenciamento de não conformidades.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-142">Note that, depending on the report setup, different document types can be printed on the reports that are related to nonconformance management.</span></span>  
-10. <span data-ttu-id="dcb0d-143">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-143">In the Description field, type a value.</span></span>
-11. <span data-ttu-id="dcb0d-144">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-144">Close the page.</span></span>
+## <a name="create-a-correction-action"></a><span data-ttu-id="edb0b-125">Criar uma ação de correção</span><span class="sxs-lookup"><span data-stu-id="edb0b-125">Create a correction action</span></span>
+1. <span data-ttu-id="edb0b-126">Selecione **Correções**.</span><span class="sxs-lookup"><span data-stu-id="edb0b-126">Select **Corrections**.</span></span>
+2. <span data-ttu-id="edb0b-127">Selecione **Novo**.</span><span class="sxs-lookup"><span data-stu-id="edb0b-127">Select **New**.</span></span>
+3. <span data-ttu-id="edb0b-128">No campo **Número da equipe** da nova linha, selecione o registro desejado no menu suspenso.</span><span class="sxs-lookup"><span data-stu-id="edb0b-128">In the **Personnel number** field of the new row, select the desired record from the drop down menu.</span></span>
+4. <span data-ttu-id="edb0b-129">Clique em **Selecionar**.</span><span class="sxs-lookup"><span data-stu-id="edb0b-129">Click **Select**.</span></span>
+5. <span data-ttu-id="edb0b-130">Selecione **Anexar**.</span><span class="sxs-lookup"><span data-stu-id="edb0b-130">Select **Attach**.</span></span> <span data-ttu-id="edb0b-131">Crie uma nota sobre a correção.</span><span class="sxs-lookup"><span data-stu-id="edb0b-131">Create a note about the correction.</span></span> <span data-ttu-id="edb0b-132">Neste exemplo, a ação é entrar em contato com o fornecedor para discutir o caso não conformidade.</span><span class="sxs-lookup"><span data-stu-id="edb0b-132">For this example, the action is to contact the vendor to discuss the nonconformance case.</span></span>  
+6. <span data-ttu-id="edb0b-133">Selecione **Novo**.</span><span class="sxs-lookup"><span data-stu-id="edb0b-133">Select **New**.</span></span>
+7. <span data-ttu-id="edb0b-134">Selecione **Nota**.</span><span class="sxs-lookup"><span data-stu-id="edb0b-134">Select **Note**.</span></span> <span data-ttu-id="edb0b-135">Dependendo da configuração do relatório, diferentes tipos de documentos podem ser impressos em relatórios relacionados ao gerenciamento de não conformidades.</span><span class="sxs-lookup"><span data-stu-id="edb0b-135">Depending on the report setup, different document types can be printed on the reports that are related to nonconformance management.</span></span>  
+8. <span data-ttu-id="edb0b-136">No campo **Descrição**, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="edb0b-136">In the **Description** field, type a value.</span></span>
+9. <span data-ttu-id="edb0b-137">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="edb0b-137">Close the page.</span></span>
 
-## <a name="maintain-a-correction"></a><span data-ttu-id="dcb0d-145">Manter uma correção</span><span class="sxs-lookup"><span data-stu-id="dcb0d-145">Maintain a correction</span></span>
-1. <span data-ttu-id="dcb0d-146">Clique em Marcar como completo.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-146">Click Mark complete.</span></span>
-2. <span data-ttu-id="dcb0d-147">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-147">Click OK.</span></span>
-3. <span data-ttu-id="dcb0d-148">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-148">Close the page.</span></span>
+## <a name="maintain-a-correction"></a><span data-ttu-id="edb0b-138">Manter uma correção</span><span class="sxs-lookup"><span data-stu-id="edb0b-138">Maintain a correction</span></span>
+1. <span data-ttu-id="edb0b-139">Selecione **Marcar como concluída**.</span><span class="sxs-lookup"><span data-stu-id="edb0b-139">Select **Mark complete**.</span></span>
+2. <span data-ttu-id="edb0b-140">Selecione **OK**.</span><span class="sxs-lookup"><span data-stu-id="edb0b-140">Select **OK**.</span></span>
+3. <span data-ttu-id="edb0b-141">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="edb0b-141">Close the page.</span></span>
 
-## <a name="close-a-nonconformance"></a><span data-ttu-id="dcb0d-149">Fechar uma não conformidade</span><span class="sxs-lookup"><span data-stu-id="dcb0d-149">Close a nonconformance</span></span>
-1. <span data-ttu-id="dcb0d-150">Clique em Funções.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-150">Click Functions.</span></span>
-2. <span data-ttu-id="dcb0d-151">Clique em Fechar a não conformidade.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-151">Click Close non conformance.</span></span>
-3. <span data-ttu-id="dcb0d-152">Clique em Sim.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-152">Click Yes.</span></span>
-4. <span data-ttu-id="dcb0d-153">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-153">Close the page.</span></span>
-5. <span data-ttu-id="dcb0d-154">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="dcb0d-154">Close the page.</span></span>
+## <a name="close-a-nonconformance"></a><span data-ttu-id="edb0b-142">Fechar uma não conformidade</span><span class="sxs-lookup"><span data-stu-id="edb0b-142">Close a nonconformance</span></span>
+1. <span data-ttu-id="edb0b-143">Selecione **Funções**.</span><span class="sxs-lookup"><span data-stu-id="edb0b-143">Select **Functions**.</span></span>
+2. <span data-ttu-id="edb0b-144">Selecione **Fechar não conformidade**.</span><span class="sxs-lookup"><span data-stu-id="edb0b-144">Select **Close non conformance**.</span></span>
+3. <span data-ttu-id="edb0b-145">Selecione **Sim**.</span><span class="sxs-lookup"><span data-stu-id="edb0b-145">Select **Yes**.</span></span>
+4. <span data-ttu-id="edb0b-146">Feche as páginas.</span><span class="sxs-lookup"><span data-stu-id="edb0b-146">Close the pages.</span></span>
