@@ -1,9 +1,9 @@
 ---
 title: Fechamento em massa do período financeiro
-description: Este procedimento mostra como colocar um usuário coloca de período ou permanentemente fechar um período ou mais de uma entidade legal por vez.
+description: Este tópico mostra como colocar um período em espera ou fechar permanentemente um período ou mais de uma entidade legal de uma só vez.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/16/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,34 +16,29 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fbe2d3f7d623384e1b356d9bb683db8046a85220
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 398a62e575010501291af3016553fc72fbc891de
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846334"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914621"
 ---
 # <a name="mass-financial-period-close"></a>Fechamento em massa do período financeiro
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimento mostra como colocar um usuário coloca de período ou permanentemente fechar um período ou mais de uma entidade legal por vez. Além disso, ela mostra como restringir o grupo de usuários para lançar a módulos específicos.
+Este tópico mostra como colocar um período em espera ou fechar permanentemente um período ou mais de uma entidade legal de uma só vez. Além disso, ela mostra como restringir o grupo de usuários para lançar a módulos específicos.
 
-1. Vá para Contabilidade > Fechamento de período > Calendários do razão.
-    * Observe que a lista das entidades legais exibidas depende do calendário fiscal selecionado na página. Apenas as entidades legais que usam o calendário fiscal selecionado serão exibidas.  
-2. Clique em Editar.
+1. No painel de navegação, vá para **Módulos > Contabilidade > Fechamento de período > Calendários do razão**. Observe que a lista das entidades legais exibidas depende do calendário fiscal selecionado na página. Apenas as entidades legais que usam o calendário fiscal selecionado serão exibidas.
+2. Selecione **Editar**.
 3. Selecionar o período para o qual você deseja modificar o status.
-4. Selecionar as entidades legais para o qual você deseja atualizar o status.
-    * Você poderá selecionar todas rapidamente as entidades legais selecione a marca de seleção do lado superior esquerdo de grade.  
-5. Selecionar o acesso do módulo de atualização para definir de postagem acesso a um módulo selecionado.
-    * O status do módulo também pode ser atualizado ao editar os registros na grade. O botão é útil quando você deseja atualizar rapidamente várias registradoras de entidade legal.  
-6. Em Módulo do aplicativo, selecione o módulo que deseja atualizar o status. Clique em Selecionar.
-7. Em Nível de acesso, selecione Todos, Nenhum, ou um grupo de usuário específico. Clique em Selecionar.
-    * Tudo indica que todos os usuários com acesso de edição ao módulo podem lançar se o período estiver aberto. Nenhum indica que os usuários não podem lançar nesse módulo se o período estiver aberto. Um grupo de usuários específicos apenas indica que os usuários no grupo são capazes de lançar nesse módulo se o período estiver aberto.  
-8. Clique em Atualizar.
+4. Selecionar as entidades legais para o qual você deseja atualizar o status. Você poderá selecionar todas as entidades legais rapidamente selecionando a marca de seleção do lado superior esquerdo da grade.  
+5. Selecione **Atualizar acesso ao módulo** para definir o acesso de postagem a um módulo selecionado. O status do módulo também pode ser atualizado ao editar os registros na grade. O botão é útil quando você deseja atualizar rapidamente várias registradoras de entidade legal.  
+6. No módulo **Aplicativo**, selecione o módulo no qual deseja atualizar o status. Clique em **Selecionar**.
+7. No nível de **Acesso**, selecione **Todos**, **Nenhum** ou um grupo de usuários específicos. Clique em **Selecionar**. Tudo indica que todos os usuários com acesso de edição ao módulo podem lançar se o período estiver aberto. Nenhum indica que os usuários não podem lançar nesse módulo se o período estiver aberto. Um grupo de usuários específicos apenas indica que os usuários no grupo são capazes de lançar nesse módulo se o período estiver aberto.  
+8. Selecione **Atualizar**.
 9. Selecione outro período para atualizar o status.
 10. Selecionar as entidades legais para o qual você deseja atualizar o status do período.
-11. Selecione o status de períodos atualizados e define o status de em espera, aberta, ou fechou-se permanentemente.
-    * Aberto indica o período em que o lançamento é possível, desde que o usuário tenha acesso. Em espera significa que o período não poderá ser lançado, mas o período pode ser reaberto. Permanentemente o fechado significa que o período será fechada e nunca pode ser aberto. Ajustes não podem ser lançados. Não se recomenda definir um período como fechado permanentemente até que todos os ajustes e auditorias estejam completos.  
-12. Clique em Atualizar.
+11. Selecione **Atualizar status do período** e defina o status de **Em espera**, **Aberto** ou **Permanentemente fechado**. **Aberto** indica o período em que o lançamento é possível, desde que o usuário tenha acesso. **Em espera** significa que o período não poderá ser lançado, mas o período pode ser reaberto. **Permanentemente fechado** significa que o período será fechado e nunca pode ser aberto. Ajustes não podem ser lançados. Não se recomenda definir um período como **Permanentemente fechado** até que todos os ajustes e auditorias estejam completos.  
+12. Selecione **Atualizar**.
 

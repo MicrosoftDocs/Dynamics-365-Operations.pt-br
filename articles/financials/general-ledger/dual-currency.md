@@ -3,7 +3,7 @@ title: Moeda dupla
 description: Este tópico fornece informações sobre moeda dupla, em que a moeda de relatório é usada como uma segunda moeda contábil para o Microsoft Dynamics 365 for Finance and Operations.
 author: kweekley
 manager: AnnBe
-ms.date: 05/06/2019
+ms.date: 08/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,20 +16,31 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: dfd4c116552510ee42cd2f3e8a0f31100826b9d2
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 6d5128ea9daaf22ee962ca5fc70a05cba05c7edb
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1839392"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867502"
 ---
 # <a name="dual-currency"></a>Moeda dupla
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 A funcionalidade que foi introduzida no Microsoft Dynamics 365 for Finance and Operations versão 8.1 (outubro de 2018) permite que a moeda de relatório seja realocada e usada como uma segunda moeda contábil. Essa funcionalidade é chamada de *moeda dupla*. As alterações para a moeda dupla não podem ser desativadas por meio de uma chave ou de um parâmetro de configuração. Como a moeda de relatório é usada como uma segunda moeda contábil, a forma como a moeda de relatório é calculada na lógica de lançamento foi alterada.
 
-Além disso, diversos módulos foram aprimorados para rastrear, relatar e usar a moeda de relatório em vários processos. Os módulos afetados incluirão **Contabilidade**, **Relatório financeiro**, **Contas a pagar**, **Contas a receber**, **Gerenciamento de caixa e de bancos** e **Ativos fixos**. Após um upgrade, você deve completar etapas específicas para o Gerenciamento de caixa e de bancos e Ativos fixos. Dessa forma, leia com cuidado as seções relevantes deste tópico.
+Além disso, diversos módulos foram aprimorados para rastrear, relatar e usar a moeda de relatório em vários processos. Os módulos afetados incluem:
+
+- Contabilidade 
+- Relatórios financeiros 
+- Contas a pagar
+- Contas a receber 
+- Gerenciamento de caixa e bancos 
+- Ativos fixos 
+- Consolidações
+
+Após um upgrade, você deve completar etapas específicas para o Gerenciamento de caixa e de bancos e Ativos fixos. Portanto, leia e entenda as seções relevantes deste tópico.
 
 ## <a name="posting-process"></a>Processo de lançamento
 
@@ -75,6 +86,7 @@ Os módulos a seguir usam a moeda de relatório como uma segunda moeda contábil
 - [Contas a receber](#accounts-payable-and-accounts-receivable)
 - [Gerenciamento de caixa e bancos](#cash-and-bank-management)
 - [Ativos fixos](#fixed-assets)
+- [Consolidações](#consolidations)
 
 ### <a name="general-ledger"></a>Contabilidade
 
@@ -100,7 +112,7 @@ Os módulos **Contas a pagar** e **Contas a receber** já acompanhavam valores d
 
 - Os valores de moeda de relatório são exibidas agora em transações para clientes e fornecedores. Os valores na moeda de relatório também serão mostrados para o saldo em aberto de cada transação.
 - O processo de classificação por vencimento foi atualizado de modo que uma organização pode exibir as classificações por vencimento na moeda contábil ou de relatório.
-- Várias consultas e relatórios foram atualizados para que mostrem valores na moeda de relatório. Os exemplos incluem os relatórios **Reconciliação do cliente para o razão** e **Reconciliação do fornecedor para o razão** .
+- Várias consultas e relatórios foram atualizados para que mostrem valores na moeda de relatório. Os exemplos incluem os relatórios **Reconciliação do cliente para o razão** e **Reconciliação do fornecedor para o razão**.
 - O processo para a reavaliação de moeda estrangeira já reavaliou valores na moeda de relatório. Entretanto, o valor na moeda de relatório agora é calculado por meio do valor na moeda da transação, como descrito na seção [Processo de lançamento](#posting-process).
 - **Consideração sobre o upgrade:** antes de um upgrade, os valores na moeda de relatório para documentos (faturas, pagamentos e assim por diante) são calculados na moeda contábil. Por exemplo, uma fatura é lançada antes do upgrade feito por uma organização, e a fatura não é paga. Durante o upgrade, a entrada contábil da fatura não é alterada. Contudo, depois do upgrade, as alterações para a moeda dupla estão em vigor. Portanto, quando é feito um pagamento para a fatura, o valor de moeda de relatório de pagamento é calculado agora com o valor na moeda da transação. Quando o pagamento e a fatura são liquidados, uma pequena diferença pode ser calculada no valor de ganho/perda realizado, já que os valores n moeda de relatórios agora são calculados de forma diferente. Se a diferença calculada for considerada significativa, o novo Diário de ajuste cambial do relatório pode ser usado para ajustar o saldo de ganho/perda realizado e das contas contábeis Contas a pagar/Contas a receber somente na moeda de relatório.
 
@@ -124,6 +136,8 @@ Anteriormente, o módulo **Ativos fixos** não acompanhavam os valores na moeda 
 Além disso, foram feitas alterações importantes no processo de depreciação. Essas alterações exigem ação do usuário depois de um upgrade. É importante que você e leia e compreenda as alterações a seguir, mesmo se você ainda não estiver usando Ativos fixos.
 
 - A maneira como o processo de depreciação determina o valor na moeda de relatório foi alterada. O cenário a seguir compara a forma como a depreciação anteriormente determinava o valor na moeda de relatório e como ela o determina agora.
+
+
 
     **Cenário de depreciação**
 
@@ -186,3 +200,13 @@ Além disso, foram feitas alterações importantes no processo de depreciação.
     - Se um tipo de transação de depreciação for inserido no Diário de ativo fixo, os valores na moeda de relatório aparecerão nas novas colunas. Esses valores podem ser alterados.
     - Se a moeda contábil e as moedas de relatório no razão forem iguais, os valores serão mantidos na sincronização. Se você alterar o valor de **Crédito**, o valor de **Crédito na moeda de relatório** será alterado automaticamente para corresponder a ele.
     - Se qualquer outro tipo de transação for inserido no Diário de ativo fixo, os valores de **Débito na moeda de relatório** e de **Crédito na moeda de relatório** nunca são mostrados, antes ou depois do lançamento. Os valores de moeda contábil e de moeda de relatório ainda estarão disponíveis no comprovante que lança na contabilidade.
+    
+### <a name="consolidations"></a>Consolidações
+    
+A funcionalidade introduzida no Microsoft Dynamics 365 for Finance and Operations versão 10.0.5 (outubro de 2019) permite, por meio do gerenciamento de recursos, mais flexibilidade de consolidação e moeda dupla. Para habilitá-la, acesse o espaço de trabalho **Gerenciamento de recursos** e selecione **Habilitar funcionalidade de moeda dupla na consolidação da Contabilidade**.
+
+Na consolidação da Contabilidade, uma nova opção foi adicionada para consolidar os valores da moeda contábil ou de relatório das empresas de origem. Se a moeda contábil ou de relatório for a mesma que a moeda contábil ou de relatório na empresa de consolidação, os valores serão copiados diretamente em vez de convertidos.
+
+-  Agora você pode optar por usar a moeda contábil ou a moeda de relatório da empresa de origem como a moeda da transação na empresa de consolidação.
+
+- Os valores da moeda contábil ou de relatório da empresa de origem serão copiados diretamente nos valores da moeda contábil ou de relatório na empresa de consolidação, se uma das moedas for a mesma. Os valores da moeda contábil e de relatório na empresa de consolidação são calculados usando a taxa de câmbio, se nenhuma das moedas for a mesma.

@@ -1,9 +1,9 @@
 ---
 title: Enviar ordens de venda sem armazenamento
-description: Este guia demonstra como atualizar uma ordem de venda quando produtos são enviados ao cliente.
+description: Este tópico explica como atualizar uma ordem de venda quando produtos são enviados ao cliente.
 author: omulvad
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,47 +16,43 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 62bbd65e2d80dca5a07b761e1aa76f1894b667c1
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: f9e311d3e033168ed577094e94477e7fe47d185d
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843304"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914921"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Enviar ordens de venda sem armazenamento
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Este guia demonstra como atualizar uma ordem de venda quando produtos são enviados ao cliente. Este guia é aplicável ao fluxo de realizações que não está definido para o gerenciamento de depósito (sem armazenamento básico ou avançado) e, portanto, não requer separação de produtos que serão registrados antes da remessa. Você pode realizar esse procedimento em seus próprios dados ou na empresa USMF de dados de demonstração. Em ambos os casos, antes de começar esta tarefa, crie uma ordem de venda para um produto inventariado com uma quantidade maior que 1. Para evitar um erro de lançamento, você precisa verificar se a quantidade disponível do produto no site e o depósito que você selecionou na ordem abrangem a quantidade da ordem.
-
+Este tópico explica como atualizar uma ordem de venda quando produtos são enviados ao cliente. Este guia é aplicável ao fluxo de realizações que não está definido para o gerenciamento de depósito (sem armazenamento básico ou avançado) e, portanto, não requer separação de produtos que serão registrados antes da remessa. Você pode realizar esse procedimento em seus próprios dados ou na empresa USMF de dados de demonstração. Em ambos os casos, antes de começar esta tarefa, crie uma ordem de venda para um produto inventariado com uma quantidade maior que 1. Para evitar um erro de lançamento, você precisa verificar se a quantidade disponível do produto no site e o depósito que você selecionou na ordem abrangem a quantidade da ordem.
 
 ## <a name="post-packing-slip-for-an-order"></a>Lançar guia de remessa para uma ordem
-1. Vá para Vendas e marketing > Ordens de venda > Todas as ordens de venda.
+1. No painel de navegação, acesse **Módulos > Vendas e marketing > Ordens de venda > Todas as ordens de venda**.
 2. Na lista, localize e selecione a ordem que você criou para essa tarefa.
-3. Na lista, clique no link na linha selecionada.
-4. No Painel de Ação, clique em Separar e empacotar.
-5. Clique em Postar guia de remessa.
-6. Expanda e recolha a seção Parâmetros.
-7. No campo Quantidade, selecione 'Tudo'.
-    * Outras opções incluem Entregar agora e Separado. Se a linha da ordem estiver pronta para ser parcialmente remetida e o campo Entregar agora na linha da ordem contiver uma quantidade, você selecionará Entregar agora. Se o fluxo de realizações da sua organização incluir a separação como um processo à parte que é gerenciado por e registrado com uma lista de separação, você selecionará Separado.  
-    * Verifique se a opção Lançamento está definida como Sim.  
-8. Defina a opção Imprimir guia de remessa como Sim.
-    * A guia Visão geral contém uma lista de guias de remessa que serão geradas nesse lançamento. Se estiver remetendo uma ordem individual, normalmente haverá uma guia de remessa. No entanto, se as linhas dessa ordem estiverem prontas para ser enviadas de sites diferentes, o lançamento será automaticamente dividido no número apropriado de documentos. Essa é uma condição obrigatória que não pode ser alterada. De modo semelhante, o lançamento também será dividido em vários documentos se as linhas da ordem estiverem prontas para ser enviadas a endereços de entrega diferentes, e a política de envio é definida para requerer divisão.  
-9. Na guia Linhas, selecione a linha para a linha de ordem que será remetida.
-10. No campo Atualizar, insira um número menor que a quantidade original.
-11. Clique em OK.
-12. Clique em Sim.
-13. Feche a página.
-14. No Painel de Ação, clique em Opções.
-15. Clique em Alterar exibição.
-16. Clique em Exibição do cabeçalho.
-    * Se todas as linhas na ordem foram completamente enviadas, o status da ordem muda de Aberto para Entregue.  
-    * Neste exemplo, a linha da ordem foi remetida parcialmente. É por isso que o status da ordem permanece Aberto.     
-    * Se o campo Status do documento estiver definido como Guia de remessa, é porque pelo menos uma das linhas da ordem foi enviada.  
-17. No Painel de Ação, clique em Geral.
-18. Clique em Quantidade da linha.
-19. Feche a página.
-20. No Painel de Ação, clique em Separar e empacotar.
-21. Clique em Guia de remessa.
-    * A página Diário de guias de remessa contém todos os documentos de guia de remessa que foram gerados para sua ordem. Você pode revisar os detalhes de cada documento e imprimi-los, se desejar.  
+3. No Painel de Ação, selecione **Separar e empacotar**.
+4. Selecione **Lançar guia de remessa**.
+5. Expanda e recolha a seção **Parâmetros**.
+6. No campo **Quantidade**, selecione **Todas**.
+    - Outras opções incluem **Entregar agora** e **Separado**. Se a linha da ordem estiver pronta para ser parcialmente remetida e o campo **Entregar agora** na linha da ordem contiver uma quantidade, você selecionará **Entregar agora**. Se o fluxo de realizações da sua organização incluir a separação como um processo à parte que é gerenciado por e registrado com uma lista de separação, você selecionará **Separado**.  
+    - Verifique se a opção **Lançamento** está definida como **Sim**.  
+7. Defina a opção **Imprimir guia de remessa** como **Sim**. A guia **Visão geral** contém uma lista de guias de remessa que serão geradas nesse lançamento. Se estiver remetendo uma ordem individual, normalmente haverá uma guia de remessa. No entanto, se as linhas dessa ordem estiverem prontas para ser enviadas de sites diferentes, o lançamento será automaticamente dividido no número apropriado de documentos. Essa é uma condição obrigatória que não pode ser alterada. De modo semelhante, o lançamento também será dividido em vários documentos se as linhas da ordem estiverem prontas para ser enviadas a endereços de entrega diferentes, e a política de envio é definida para requerer divisão.  
+8. Na guia **Linhas**, selecione a linha para a linha de ordem que será remetida.
+9. No campo **Atualizar**, insira um número menor que a quantidade original.
+10. Selecione **OK**.
+11. Selecione **Sim**.
+12. Feche a página.
+13. No Painel de Ações, selecione **Opções**.
+14. Selecione **Alterar exibição**.
+15. Selecione **Exibição do cabeçalho**.
+    - Se todas as linhas na ordem foram completamente enviadas, o status da ordem muda de Aberto para Entregue.  
+    - Neste exemplo, a linha da ordem foi remetida parcialmente. É por isso que o status da ordem permanece Aberto.     
+    - Se o campo **Status do documento** estiver definido como Guia de remessa, é porque pelo menos uma das linhas da ordem foi enviada.  
+16. No Painel de Ação, selecione **Geral**.
+17. Selecione **Quantidade da linha**.
+18. Feche a página.
+19. No Painel de Ação, selecione **Separar e empacotar**.
+20. Selecione **Guia de remessa**. A página **Diário de guias de remessa** contém todos os documentos de guia de remessa que foram gerados para sua ordem. Você pode revisar os detalhes de cada documento e imprimi-los, se desejar.  
 

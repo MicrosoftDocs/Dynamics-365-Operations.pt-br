@@ -1,9 +1,9 @@
 ---
-title: Trabalhos de importação e exportação de dados
+title: Visão geral de trabalhos de importação e exportação de dados
 description: Use o espaço de trabalho de gerenciamento de dados para criar e gerenciar trabalhos de importação e de exportação de dados.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 07/19/2019
+ms.date: 08/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b16966fe1c3a48d772c7c9982f8802119675255f
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: cbd8d305920262ed48c62f13aa86f903a6b16d0a
+ms.sourcegitcommit: e552111e148a80544a3468da60ea0464f02a658d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1862895"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "1875311"
 ---
-# <a name="data-import-and-export-jobs"></a>Trabalhos de importação e exportação de dados
+# <a name="data-import-and-export-jobs-overview"></a>Visão geral de trabalhos de importação e exportação de dados
 
 [!include [banner](../includes/banner.md)]
 [!include [banner](../includes/preview-banner.md)]
@@ -64,7 +64,7 @@ Recomenda-se que você aproveite o tempo para selecionar uma categoria de projet
 Você pode adicionar entidades específicas a um trabalho de importação ou de exportação ou selecionar um modelo a ser aplicado. Os modelos preenchem um trabalho com uma lista das entidades. A opção **Aplicar modelo** está disponível depois que você fornecer um nome ao trabalho e salvar o trabalho.
 
 ### <a name="set-the-data-format-for-the-job"></a>Definir o formato de dados para o trabalho
-Quando você seleciona uma entidade, é necessário selecionar o formato de dados que será exportado ou importado. Você define formatos usando o bloco **Configuração das fontes de dados** . Um formato de dados de origem é uma combinação de **Tipo**, **Formato de arquivo**, **Delimitador de linha** e **Delimitador de colunas**. Há outros atributos também, mas esses são os principais a serem compreendidos A tabela a seguir lista as combinações válidas.
+Quando você seleciona uma entidade, é necessário selecionar o formato de dados que será exportado ou importado. Você define formatos usando o bloco **Configuração das fontes de dados**. Um formato de dados de origem é uma combinação de **Tipo**, **Formato de arquivo**, **Delimitador de linha** e **Delimitador de colunas**. Há outros atributos também, mas esses são os principais a serem compreendidos A tabela a seguir lista as combinações válidas.
 
 | Formato de Arquivo            | Delimitador de linha/coluna                       | Estilo XML                 |
 |------------------------|--------------------------------------------|---------------------------|
@@ -184,7 +184,7 @@ A funcionalidade de limpeza de histórico de trabalho no gerenciamento de dados 
 
 -   DMFDEFINITIONGROUPEXECUTION
 
-A funcionalidade pode ser acessada de **Gerenciamento de dados \> Limpeza de histórico de trabalho**.
+A funcionalidade deve ser habilitada no gerenciamento de recursos e pode ser acessada em **Gerenciamento de dados \> Limpeza de histórico de trabalho**.
 
 ### <a name="scheduling-parameters"></a>Agendamento de parâmetros
 

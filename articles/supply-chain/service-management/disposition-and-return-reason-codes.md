@@ -1,9 +1,9 @@
 ---
-title: Códigos de disposição e códigos de motivo de devolução
+title: Visão geral de devoluções de cliente
 description: Crie e use códigos de motivo de devolução e códigos de disposição para dar suporte ao processo de devolução de produtos.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/01/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e37bd328ebceacc8acf134c5fbb20e6d6a6428d5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 47c39eca58cdbbd091efff7856a73f74bc31ce07
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567488"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1866008"
 ---
-# <a name="disposition-codes-and-return-reason-codes"></a>Códigos de disposição e códigos de motivo de devolução 
+# <a name="customer-returns-overview"></a>Visão geral de devoluções de cliente
 
 [!include [banner](../includes/banner.md)]
 

@@ -1,9 +1,9 @@
 ---
-title: Versões de custos
+title: Visão geral de versões de avaliação de custo
 description: Este artigo fornece informações sobre versões de custos, como mantê-las e os tipos de dados que podem estar incluídos nelas. A finalidade principal de uma versão de custo é conter registros de custo sobre itens, categorias de custo e fórmulas de cálculo para custos indiretos.
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a73be45d183f3cbdc19efbb9ee29fa621a113c66
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 25d3abf177c1e420d1c97dc74891e1ac0d2c2546
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548153"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865511"
 ---
-# <a name="costing-versions"></a>Versões de custos
+# <a name="costing-versions-overview"></a>Visão geral de versões de avaliação de custo
 
 [!include [banner](../includes/banner.md)]
 

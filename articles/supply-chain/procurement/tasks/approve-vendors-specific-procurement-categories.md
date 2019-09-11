@@ -1,9 +1,9 @@
 ---
 title: Aprovar fornecedores para categorias específicas da compras
-description: Quando uma requisição da compra é criada, pode haver uma exigência para selecionar um vendedor aprovado ou preferido, dependendo de como as políticas de compra são definidas.
+description: Este tópico explica como aprovar fornecedores para categorias específicas de compras no Dynamics 365 for Finance and Operations.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/30/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,34 +16,31 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: eec50e2e8f08fabb64f89c17159b97ba770026f8
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 1583a2eedc535f81b84e3094fee1574451f6f209
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836327"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867140"
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a>Aprovar fornecedores para categorias específicas da compras
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Quando uma requisição da compra é criada, pode haver uma exigência para selecionar um vendedor aprovado ou preferido, dependendo de como as políticas de compra são definidas. Este procedimento mostra como especificar se um vendedor é aprovado ou preferido para uma categoria específica da obtenção. Essa tarefa é tipicamente realizada por um profissional de aquisição. Você pode usar este procedimento na empresa USMF de dados de demonstração.
+Este tópico explica como aprovar fornecedores para categorias específicas de compras no Dynamics 365 for Finance and Operations. Quando uma requisição da compra é criada, pode haver uma exigência para selecionar um vendedor aprovado ou preferido, dependendo de como as políticas de compra são definidas. Este procedimento mostra como especificar se um vendedor é aprovado ou preferido para uma categoria específica da obtenção. Essa tarefa é tipicamente realizada por um profissional de aquisição. Você pode usar este procedimento na empresa USMF de dados de demonstração.
 
-1. Vá para Aquisição e fornecimento > Fornecedores > Todos os fornecedores.
+1. No Painel de Navegação, vá para **Módulos > Compras e fornecimento > Fornecedores > Todos os fornecedores**.
 2. Selecione o vendedor que você quer ajustar como um vendedor aprovado ou preferido para uma categoria.
-3. No Painel de Ação, clique em Geral.
-4. Clique em Categorias.
-5. Clique em Adicionar categoria.
-6. No campo Categoria, selecione ACESSÓRIOS DE ESCRITÓRIO E MESA (ACESSÓRIOS DE ESCRITÓRIO E MESA).
-7. No campo Status da categoria do vendedor, selecione "Preferido".
-    * É possível especificar mais de um vendedor preferido para uma categoria.  
-8. Clique em Salvar.
-9. Vá para Aquisição e fornecimento > Categorias de aquisição.
-10. Na árvore, selecione 'CATEGORIAS DE AQUISIÇÃO CORPORATIVA\ESCRITÓRIO E ACESSÓRIOS DE MESA'.
-11. Expanda a seção Fornecedores.
-    * Verifique se o vendedor que você selecionou aparece como um vendedor preferido para a categoria dos acessórios do escritório e de mesa. Se você está executando este procedimento como um guia da tarefa, você pode ter que clicar no botão para destravar para poder rolar para baixo a lista de vendedores.  É igualmente possível adicionar vendedores preferidos e aprovados nesta página.  
-12. Na árvore, expanda 'ACESSÓRIOS DE ESCRITÓRIO E MESA'.
-13. Na árvore, selecione "Tesouras".
-14. Selecione Não no campo Fornecedores herdados da categoria principal:.
-15. Selecione Sim no campo Fornecedores herdados da categoria principal:.
+3. No Painel de Ação, selecione **Geral**.
+4. Selecione **Categorias**.
+5. Selecione **Adicionar categoria**.
+6. No campo **Categoria**, selecione **ACESSÓRIOS DE ESCRITÓRIO E MESA (ACESSÓRIOS DE ESCRITÓRIO E MESA)**.
+7. No campo **Status da categoria do fornecedor**, selecione **Preferencial**. É possível especificar mais de um vendedor preferido para uma categoria.  
+8. Selecione **Salvar**.
+9. No Painel de Navegação, vá para **Módulos > Compras e fornecimento > Categorias de compras**.
+10. Na árvore, selecione **CATEGORIAS DE AQUISIÇÃO CORPORATIVA\ESCRITÓRIO E ACESSÓRIOS DE MESA**.
+11. Expanda a seção **Fornecedores**. Verifique se o fornecedor que você selecionou aparece como vendedor preferencial na categoria Acessórios de escritório e mesa. Se você está executando este procedimento como um guia da tarefa, você pode ter que selecionar o botão **Desbloquear** para destravar para poder rolar para baixo a lista de vendedores.  É igualmente possível adicionar vendedores preferidos e aprovados nesta página.  
+12. Na árvore, expanda **ACESSÓRIOS DE ESCRITÓRIO E MESA** e selecione **Tesouras**.
+13. Selecione **Não** no campo **Fornecedores herdados da categoria principal:**.
+14. Selecione **Sim** no campo **Fornecedores herdados da categoria principal:**.
 

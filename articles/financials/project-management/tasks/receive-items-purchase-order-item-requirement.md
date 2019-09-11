@@ -1,9 +1,9 @@
 ---
 title: Receber itens na ordem de compra da requisição de itens
-description: Este procedimento mostra como receber itens em uma ordem de compra de uma requisição de itens.
+description: Este tópico explica como receber itens em uma ordem de compra de uma requisição de itens.
 author: KimANelson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,45 +16,43 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fee2c965b0c065f00564b849ec93504336fb3f60
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 7afdae65c5ae7e3196c6b9f142dd87aec39b5ea3
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838238"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867286"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Receber itens na ordem de compra da requisição de itens
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimento mostra como receber itens em uma ordem de compra de uma requisição de itens.
+Este tópico explica como receber itens em uma ordem de compra de uma requisição de itens.
 
 Usando uma requisição em vez de uma transação de itens, é possível planejar que entrega ocorra antes do item ser efetivamente usado, criar uma ordem de compra, incluir o item na estrutura do acordo comercial e incluir a requisição do item no planejamento da produção. 
 
 Essa tarefa usa o conjunto de dados de USSI.
 
-1. Vá para Gerenciamento e contabilidade de projeto > Projetos > Todos os projetos.
-2. Na lista, clique no link na linha selecionada.
-3. No Painel de Ação, clique em Plano.
-4. Clique em Requisições de itens.
-5. Clique em Novo.
-6. Na lista, marque a linha selecionada.
-7. No campo Número do item, insira ou selecione um valor.
-8. No campo Quantidade, insira um número.
-9. Clique em Salvar.
-10. No Painel de Ação, clique em Gerenciar.
-11. Clique em Funções.
-12. Clique em Criar ordem de compra.
-13. Selecione a caixa de seleção Incluir.
-14. No campo Conta de fornecedor, insira ou selecione um valor.
-15. Clique em OK.
-16. Vá para Contas a pagar > Ordens de compra > Todas as ordens de compra.
-17. Na lista, clique no link na linha selecionada.
-18. No Painel de Ação, clique em Compra.
-19. Clique em Confirmar.
-20. No Painel de Ação, clique em Receber.
-21. Clique em Recebimento de produtos.
-22. Na lista, marque a linha selecionada.
-23. No campo Recebimento de produtos, digite um valor.
-24. Clique em OK.
+1. No Painel de navegação, acesse **Módulos > Gerenciamento e contabilidade do projeto > Projetos > Todos os projetos**.
+2. Na lista, selecione o link na linha desejada.
+3. No Painel de Ações, selecione **Plano**.
+4. Selecione **Requisições de itens**.
+5. Selecione **Novo**.
+6. Na nova linha, insira ou selecione um valor no campo **Número do item**.
+7. No campo **Quantidade.**, insira um número
+8. Selecione **Salvar**.
+9. No Painel de Ação, selecione **Gerenciar**.
+10. Selecione **Funções**.
+11. Selecione **Criar ordem de compra**.
+12. Selecione a caixa de seleção **Incluir tudo**.
+13. No campo **Conta de fornecedor**, insira ou selecione um valor.
+14. Selecione **OK**.
+15. No painel de navegação, vá para **Módulos > Contas a pagar > Ordens de compra > Todas as ordens de compra**.
+16. Na lista, selecione o link na linha desejada.
+17. No Painel de Ação, selecione **Compra**.
+18. Selecione **Confirmar**.
+19. No Painel de Ação, selecione **Receber**.
+20. Selecione **Recebimento de produtos**.
+21. No campo **Recebimento de produtos**, digite um valor.
+22. Selecione **OK**.
 

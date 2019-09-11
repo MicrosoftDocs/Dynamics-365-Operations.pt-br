@@ -3,7 +3,7 @@ title: Inserir folhas de ponto do projeto
 description: Este procedimento permite criar uma folha de ponto usando um formulário vazio de folha de ponto.
 author: andreabichsel
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,49 +16,41 @@ ms.search.industry: Service industries
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f1be02f0080ee23359ad905b1e997d8cd5adfd2
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d2fd5c1e6c38c2e4380a8c8b061b08bce2dd43c8
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1510373"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916498"
 ---
 # <a name="enter-project-timesheets"></a>Inserir folhas de ponto do projeto
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimento permite criar uma folha de ponto usando um formulário vazio de folha de ponto. A nova folha de ponto pode ser baseada nas informações de uma folha de ponto anterior, ou em atribuições de projeto e de atividade na página Meus favoritos. Por padrão, a página de lista Todas as folhas de ponto exibe todas as suas folhas de ponto do período atual. Você pode usar a lista suspensa do campo Mostrar na página Minhas folhas de ponto para filtrar a lista de folha de ponto por período ou por projeto, ou para exibir as folhas de ponto que foram criadas em nome de outros trabalhadores. A empresa de dados de demonstração utilizada para criar esse procedimento é a USSI. Para iniciar este procedimento, vá para Gerenciamento e contabilidade de projetos > Folhas de ponto > Minhas folhas de ponto
+Este procedimento permite criar uma folha de ponto usando um formulário vazio de folha de ponto. A nova folha de ponto pode ser baseada nas informações de uma folha de ponto anterior, ou em atribuições de projeto e de atividade na página **Meus favoritos**. Por padrão, a página de lista **Todas as folhas de ponto** exibe todas as suas folhas de ponto do período atual. Você pode usar a lista suspensa do campo **Mostrar** na página **Minhas folhas de ponto** para filtrar a lista de folha de ponto por período ou por projeto, ou para exibir as folhas de ponto que foram criadas em nome de outros trabalhadores. A empresa de dados de demonstração utilizada para criar esse procedimento é a USSI. 
 
-1. Para inserir uma nova planilha de horas, clique em Novo.
-    * A lista suspensa Recurso mostra o trabalhador atribuído ao usuário atual, por padrão.  
-    * Se o usuário for designado como um delegado, ele listará os nomes, de modo que um usuário possa inserir uma folha de ponto em seu nome.  
-2. No campo Data, insira uma data.
-    * Se essa opção for selecionada, as novas linhas de folha de ponto serão criadas usando as configurações da folha de ponto que foram configuradas como favoritas.  
-3. Clique em OK.
-4. Clique em Nova linha.
-5. Na lista, marque a linha selecionada.
-    * O campo Entidade legal exibe a entidade legal atual, por padrão.   
-6. No campo Projeto, clique no botão suspenso para abrir a pesquisa.
-7. Na lista, localize e selecione o registro desejado.
-8. Na lista, clique no link na linha selecionada.
-9. No campo Atividade, clique no botão suspenso para abrir a pesquisa.
-10. Na lista, localize e selecione o registro desejado.
-11. Na lista, clique no link na linha selecionada.
-12. No campo Categoria, clique no botão suspenso para abrir a pesquisa.
-13. Na lista, localize e selecione o registro desejado.
-14. Na lista, clique no link na linha selecionada.
-15. Insira o número de horas trabalhadas em cada dia.
-    * As horas devem ser inseridas em um formato decimal.  Por exemplo, se você tiver trabalhado por duas horas e quinze minutos, insira 2,25.   
-16. Insira o número de horas trabalhadas em cada dia.
-    * As horas devem ser inseridas em um formato decimal.  Por exemplo, se você tiver trabalhado por duas horas e quinze minutos, insira 2,25.   
-17. Insira o número de horas trabalhadas em cada dia.
-    * As horas devem ser inseridas em um formato decimal.  Por exemplo, se você tiver trabalhado por duas horas e quinze minutos, insira 2,25.   
-18. Insira o número de horas trabalhadas em cada dia.
-    * As horas devem ser inseridas em um formato decimal.  Por exemplo, se você tiver trabalhado por duas horas e quinze minutos, insira 2,25.   
-19. Insira o número de horas trabalhadas em cada dia.
-    * As horas devem ser inseridas em um formato decimal.  Por exemplo, se você tiver trabalhado por duas horas e quinze minutos, insira 2,25.   
-    * Nos detalhes da Linha, as seguintes opções estão disponíveis:  o  Adicionar informações sobre impostos e dimensões financeiras.  o    Adicionar comentários sobre a linha da folha de ponto.  
-20. Clique em Fluxo de trabalho para abrir a caixa de diálogo suspensa.
-21. Clique em Enviar.
-22. Clique em Enviar.
+1. No **Painel de Navegação**, acesse **Módulos > Gerenciamento e contabilidade do projeto > Folhas de ponto > Minhas folhas de ponto**.
+2. Para inserir uma nova planilha de horas, clique em **Novo**.
+    - A lista suspensa Recurso mostra o trabalhador atribuído ao usuário atual, por padrão.  
+    - Se o usuário for designado como um delegado, ele listará os nomes, de modo que um usuário possa inserir uma folha de ponto em seu nome.  
+3. No campo **Data**, insira uma data. Se essa opção for selecionada, as novas linhas de folha de ponto serão criadas usando as configurações da folha de ponto que foram configuradas como favoritas.  
+4. Clique em **OK**.
+5. Clique em **Nova linha**.
+6. Na lista, marque a linha selecionada. O campo **Entidade legal** exibe a entidade legal atual, por padrão.   
+7. No campo **Projeto**, clique no botão suspenso para abrir a pesquisa.
+8. Na lista, localize e selecione o registro desejado.
+9. Na lista, clique no link na linha selecionada.
+10. No campo **Número da atividade**, clique no botão suspenso para abrir a pesquisa.
+11. Na lista, localize e selecione o registro desejado.
+12. Na lista, clique no link na linha selecionada.
+13. No campo **Categoria**, clique no botão suspenso para abrir a pesquisa.
+14. Na lista, localize e selecione o registro desejado.
+15. Na lista, clique no link na linha selecionada.
+16. Insira o número de horas trabalhadas em cada dia. Insira as horas em um formato decimal. Por exemplo, se você tiver trabalhado por duas horas e quinze minutos, insira 2,25.   
+17. Em **Detalhes da linha**, as seguintes opções estão disponíveis:
+    - Adicione informações sobre impostos e dimensões financeiras na guia **Geral** e **Dimensões Financeiras**.
+    - Adicione comentários sobre a linha da folha de ponto na guia **Comentário**.
+20. No **Painel de Ações**, clique em **Fluxo de trabalho** para abrir a caixa de diálogo suspensa.
+21. Clique em **Enviar**.
+22. Clique em **Enviar**.
 

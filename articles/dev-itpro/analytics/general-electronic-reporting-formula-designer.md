@@ -2,8 +2,8 @@
 title: Designer de fórmulas no relatório eletrônico (ER)
 description: Este tópico explica como usar o designer de fórmulas no ER (Relatório Eletrônico).
 author: NickSelin
-manager: AnnBe
-ms.date: 05/14/2014
+manager: kfend
+ms.date: 07/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 690dd1f83cb345d3dac67eef059ad890f03afb01
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 1f6caa6afd0ce36340caf237c1acca0ea343824f
+ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1849500"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864285"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Designer de fórmulas no relatório eletrônico (ER)
 
@@ -35,7 +35,7 @@ Este tópico explica como usar o designer de fórmulas no ER (Relatório Eletrô
 
 O relatório eletrônico (RE) suporta o designer de fórmulas. Consequentemente, no tempo de design, você pode configurar as expressões que podem ser usadas para as seguintes tarefas no momento da execução:
 
-- Transformar os dados que são recebidos de um banco de dados do Microsoft Dynamics 365 for Finance and Operations , e que devem ser inseridos em um modelo de dados de ER criado para ser uma fonte de dados para formatos ER. (Por exemplo, essas transformações podem incluir a filtragem, o agrupamento e a conversão de tipo de dados).
+- Transformar os dados que são recebidos de um banco de dados do Microsoft Dynamics 365 for Finance and Operations, e que devem ser inseridos em um modelo de dados de ER criado para ser uma fonte de dados para formatos ER. (Por exemplo, essas transformações podem incluir a filtragem, o agrupamento e a conversão de tipo de dados).
 - Formatar os dados que devem ser enviados para gerar um documento eletrônico, de acordo com o layout e as condições de um formato de ER específico. (Por exemplo, a formatação pode ser feita de acordo com o idioma ou cultura solicitados, ou a codificação).
 - Controlar o processo de criar documentos eletrônicos. (Por exemplo, as expressões pode habilitar ou desabilitar a saída de elementos específicos do formato de dados, dependendo dos dados de processamento. Também pode interromper o processo de criação do documento ou enviar mensagens para os usuários.)
 
@@ -114,6 +114,33 @@ O designer de fórmulas de ER também pode ser usado para gerar um nome de arqui
 
 [![Controle do arquivo](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
 
+### <a name="documents-content-control"></a>Controle de conteúdo de documentos
+
+O designer de fórmula de ER pode ser usado para configurar expressões que controlam quais dados serão colocados nos documentos eletrônicos gerados em tempo de execução. As expressões podem habilitar ou desabilitar a saída de elementos específicos do formato de dados, dependendo dos dados de processamento e da lógica configurada. Essas expressões podem ser inseridas para um único elemento de formato no campo **Habilitado** na guia **Mapeamento** na página **Designer de operações** como uma condição lógica que retorna o valor **Booliano**:
+
+-   Quando **True** é retornado, o elemento de formato atual é executado.
+-   Quando **False** é retornado, o elemento de formato atual é ignorado.
+
+A ilustração a seguir mostra expressões desse tipo (a versão **11.12.11** da configuração do formato **Transferência de crédito ISO20022 (NO)** fornecida pela Microsoft é um exemplo). O componente de formato **XMLHeader** está configurado para descrever a estrutura da mensagem de transferência de crédito, seguindo os padrões de mensagens ISO 20022 XML. O componente de formato **XMLHeader/Document/CstmrCdtTrfInitn/PmtInf/CdtTrfTxInf/RmtInf/Ustrd** está configurado para ser adicionado à mensagem gerada, o elemento XML **Ustrd**, e colocar as informações de remessa em um formato não estruturado como texto dos seguintes elementos XML:
+
+-   O componente **PaymentNotes** é usado para gerar o texto das notas de pagamento.
+-   O componente **DelimitedSequence** gera números de fatura separados por vírgula que são usados para liquidar a transferência de crédito atual.
+
+[![Designer de operações](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
+
+> [!NOTE]
+> Os componentes **PaymentNotes** e **DelimitedSequence** são rotulados com um ponto de interrogação. Isso significa que o uso de ambos os componentes é condicional, com base nos seguintes critérios:
+
+-   Definida como o componente **PaymentNotes**, a expressão **@.PaymentsNotes<>""** permite (retornando **TRUE**) o preenchimento do elemento XML **Ustrd**, o texto das notas de pagamento quando esse texto da transferência de crédito atual não estiver em branco.
+
+[![Designer de operações](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
+
+-   Definida como o componente **DelimitedSequence**, a expressão **@.PaymentsNotes=""** permite (retornando **TRUE**) o preenchimento do elemento XML **Ustrd**, números de fatura separados por vírgula usados para liquidar a transferência de crédito atual quando o texto das notas de pagamento dessa transferência de crédito estiver em branco.
+
+[![Designer de operações](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
+
+Com base nessa configuração, a mensagem gerada para cada pagamento do devedor, elemento XML **Ustrd**, conterá o texto das notas de pagamento ou, quando esse texto estiver em branco, os números de fatura separados por vírgula do texto usados para liquidar esse pagamento.
+
 ### <a name="basic-syntax"></a>Sintaxe básica
 
 As expressões de ER podem conter alguns ou todos os elementos da seguir:
@@ -174,7 +201,7 @@ Se uma expressão tiver vários operadores consecutivos com a mesma precedência
 
 #### <a name="references"></a>Referências
 
-Todas as fontes de dados do componente do ER atual que estão disponíveis durante a criação de uma expressão podem ser usadas como referências nomeadas. (O componente de ER atual pode ser um modelo ou um formato). Por exemplo, o modelo de dados de ER atual contém a fonte de dados **ReportingDate** e essa fonte de dados retorna um valor do tipo de dados **DATETIME** . Para formatar corretamente esse valor no documento gerado, você pode fazer referência à fonte de dados na expressão como **DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")**.
+Todas as fontes de dados do componente do ER atual que estão disponíveis durante a criação de uma expressão podem ser usadas como referências nomeadas. (O componente de ER atual pode ser um modelo ou um formato). Por exemplo, o modelo de dados de ER atual contém a fonte de dados **ReportingDate** e essa fonte de dados retorna um valor do tipo de dados **DATETIME**. Para formatar corretamente esse valor no documento gerado, você pode fazer referência à fonte de dados na expressão como **DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")**.
 
 Todos os caracteres no nome de uma fonte de dados de referência que não representam uma letra de alfabeto devem ser precedidos por aspas simples ('). Se o nome de uma fonte de dados de referência contiver pelo menos um símbolo que não representa uma letra de alfabeto, o nome deve ser colocado entre aspas simples. (Por exemplo, estes símbolos não alfabéticos podem ser marcas de pontuação ou outros símbolos escritos.) Eis alguns exemplos:
 
@@ -310,7 +337,7 @@ Se a entrada ou o delimitador não estiver especificado (nulo), uma exceção de
 <tr>
 <td>ALLITEMS (caminho)</td>
 <td>Essa função é executada como uma seleção na memória. Ela retorna uma nova lista simplificada que representa todos os itens que correspondem ao caminho especificado. O caminho deve ser definido como um caminho de fonte de dados válido de um elemento da fonte de dados de um tipo de dados da lista de registros. Os elementos de dados, como sequência de caracteres de caminho e data devem gerar um erro no construtor de expressão de ER no tempo de design.</td>
-<td>Se você inserir <strong>SPLIT(&quot;abcdef&quot; , 2)</strong> como uma origem de dados (DS), <strong>COUNT( ALLITEMS (DS.Value))</strong> retornará <strong>3</strong>.</td>
+<td>Se você inserir <strong>SPLIT(&quot;abcdef&quot;, 2)</strong> como uma origem de dados (DS), <strong>COUNT( ALLITEMS (DS.Value))</strong> retornará <strong>3</strong>.</td>
 </tr>
 <tr>
 <td>ALLITEMSQUERY (caminho)</td>
@@ -322,7 +349,7 @@ Se a entrada ou o delimitador não estiver especificado (nulo), uma exceção de
 <li><strong>JourLines</strong> tipo (<strong>Campo calculado</strong> ), que contém a expressão <strong>ALLITEMSQUERY (FilteredInv. '&lt;Relations'.CustInvoiceJour. '&lt;Relations'.CustInvoiceTrans)</strong></li>
 </ul>
 <p>Ao executar seu modelo de mapeamento modelo para chamar a fonte de dados <strong>JourLines</strong> a seguinte instrução SQL é executada:</p>
-SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUSTINVOICETRANS T3 WHERE...
+SELECT... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUSTINVOICETRANS T3 WHERE...
 </td>
 </tr>
 <tr>
@@ -359,7 +386,7 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 <tr>
 <td>COUNT (lista)</td>
 <td>Devolve o número de registros de lista especificada, se a lista estiver vazia. Caso contrário, devolve <strong>0</strong> (zero).</td>
-<td><strong>COUNT (SPLIT(&quot;abcd&quot; , 3))</strong> retorna <strong>2</strong>, porque a função <strong>SPLIT</strong> cria uma lista que consiste em dois registros.</td>
+<td><strong>COUNT (SPLIT(&quot;abcd&quot;, 3))</strong> retorna <strong>2</strong>, porque a função <strong>SPLIT</strong> cria uma lista que consiste em dois registros.</td>
 </tr>
 <tr>
 <td>LISTOFFIELDS (caminho)</td>
@@ -416,7 +443,7 @@ IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 <tr>
 <td>STRINGJOIN (lista, nome de campo, delimitador)</td>
 <td>Retorna uma sequência de caracteres com valores concatenados do campo especificado na lista especificada. Os valores são separados pelo delimitador especificado.</td>
-<td>Se você inserir <strong>SPLIT(&quot;abc&quot; , 1)</strong> como origem de dados (DS), <strong>STRINGJOIN (DS, DS.Value, &quot;-&quot;)</strong> retorna <strong>&quot;a-b-c&quot;</strong>.</td>
+<td>Se você inserir <strong>SPLIT(&quot;abc&quot;, 1)</strong> como origem de dados (DS), <strong>STRINGJOIN (DS, DS.Value, &quot;-&quot;)</strong> retorna <strong>&quot;a-b-c&quot;</strong>.</td>
 </tr>
 <tr>
 <td>SPLITLISTBYLIMIT (lista, valor de limite, fonte de limite)</td>
@@ -509,7 +536,7 @@ Você define as seguintes fontes de dados no mapeamento de modelo:
 - **Le** (tipo **Campo calculado**), que contém a expressão **SPLIT ("DEMF,GBSI,USMF", ",")**
 - **In** (tipo **Registros de tabela**), que faz referência à tabela Intrastat e para o qual a opção **Interempresarial** está ativada
 
-Quando uma fonte de dados é chamada que é configurada como a expressão **FILTER (In, VALUEIN (In.dataAreaId, Le, Le.Value)** , a instrução SQL final contém a seguinte condição:
+Quando uma fonte de dados é chamada que é configurada como a expressão **FILTER (In, VALUEIN (In.dataAreaId, Le, Le.Value)**, a instrução SQL final contém a seguinte condição:
 
 ```
 Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')

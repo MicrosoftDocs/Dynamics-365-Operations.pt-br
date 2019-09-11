@@ -1,9 +1,9 @@
 ---
-title: Orientador de otimização
+title: Visão geral do Supervisor de otimização
 description: Este tópico descreve como você pode usar o Assistente de otimização para ajudar a garantir a configuração ideal do Microsoft Dynamics 365 Finance and Operations.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 03/23/2018
+ms.date: 07/23/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: fce7cfd8619cc533aa444409f7ffa3044eb7378a
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: a58990363003aec115e342925921f2171999b3b9
+ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1851378"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864223"
 ---
-# <a name="optimization-advisor"></a>Assistente de otimização
+# <a name="optimization-advisor-overview"></a>Visão geral do Supervisor de otimização
 
 [!include [banner](../includes/banner.md)]
 
@@ -40,7 +40,7 @@ O espaço de trabalho **Orientador de otimização** é uma ferramenta que permi
 
 O orientador de otimização executa periodicamente um conjunto de regras de prática recomendada. Um conjunto de regras padrão foi liberado com a versão 8.0 do Microsoft Dynamics 365 for Finance and Operations (Abril de 2018). Entretanto, os usuários também podem criar regras específicas às personalizações, soluções de fornecedores independentes de software (ISVs) e dados corporativos. Para obter mais informações sobre como criar regras, consulte [Criar novas regras](./create-rules-optimization-advisor.md).
 
-Quando for detectada uma violação de regra, uma oportunidade de otimização será gerada e aparecerá no espaço de trabalho **Orientador de otimização**. Um usuário pode executar a ação corretiva adequada diretamente do espaço de trabalho **Orientador de otimização** .
+Quando for detectada uma violação de regra, uma oportunidade de otimização será gerada e aparecerá no espaço de trabalho **Orientador de otimização**. Um usuário pode executar a ação corretiva adequada diretamente do espaço de trabalho **Orientador de otimização**.
 
 As oportunidades podem ser entre empresas ou específicas da empresa, dependendo do tipo de configuração e dos dados que estão sendo validados. A oportunidades entre empresas podem ser vistas de todas as empresas. Para exibir as oportunidades de uma empresa específica, primeiro, é necessário selecionar a empresa.
 
@@ -62,7 +62,7 @@ O conjunto de regras de otimização atual pode ser dividido nas seguintes categ
 
 A configuração de um Gerenciamento de depósito é um processo complicado. Para facilitar o processo, algumas regras foram introduzidas para ajudar a validar a exatidão da configuração. Por exemplo, uma regra valida a configuração de diretivas do local de depósito para localizações fixas de grade do produto para ordens de venda e ordens de transferência.
 
-Além disso, algumas regras verificam se os recursos que foram habilitados são efetivamente usados. Por exemplo, uma regra determina se você está usando o módulo **Planejamento mestre** . Se a regra determinar que você não está usando o módulo, uma oportunidade de otimização é gerada para sugerir que você desative os processos de planejamento.
+Além disso, algumas regras verificam se os recursos que foram habilitados são efetivamente usados. Por exemplo, uma regra determina se você está usando o módulo **Planejamento mestre**. Se a regra determinar que você não está usando o módulo, uma oportunidade de otimização é gerada para sugerir que você desative os processos de planejamento.
 
 ### <a name="system-configuration"></a>Configuração do sistema
 
@@ -80,7 +80,7 @@ Se não estiver executando alguns processos de negócios, de acordo com as prát
 
 ## <a name="optimization-opportunities"></a>Oportunidades de otimização
 
-Para exibir as oportunidades de otimização geradas durante a avaliação de regras de otimização, abra o espaço de trabalho **Orientador de otimização** .
+Para exibir as oportunidades de otimização geradas durante a avaliação de regras de otimização, abra o espaço de trabalho **Orientador de otimização**.
 
 Neste espaço de trabalho, você poderá exibir mais informações sobre a oportunidade, selecionando **Mais informações**. Se quiser que o sistema execute uma ação e corrija a configuração, limpe os dados, de forma que não seja necessário abrir suas próprias páginas correspondentes, selecione **Executar ação**.
 

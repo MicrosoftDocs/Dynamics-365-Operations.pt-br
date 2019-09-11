@@ -3,7 +3,7 @@ title: Enviar e aprovar orçamento de projeto
 description: Este procedimento mostra como criar e enviar o orçamento para um projeto.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/13/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ffa7b4f23e63196947fef1b2180145702531e0a6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 798bbc68e625c58d56cdd769f48ba734ace1d028
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843904"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914848"
 ---
 # <a name="submit-and-approve-project-budget"></a>Enviar e aprovar orçamento de projeto
 
@@ -34,26 +34,26 @@ Quando você cria um orçamento do projeto, você pode inserir receitas e custos
 
 Essa tarefa foi criada usando o conjunto de dados de USSI.
 
-1. Vá para Gerenciamento e contabilidade de projeto > Projetos > Todos os projetos.
+1. No **Painel de navegação**, acesse **Módulos > Gerenciamento e contabilidade do projeto > Projetos > Todos os projetos**.
 2. Na lista, localize e selecione o PDV desejado.
 3. Na lista, clique no link na linha selecionada.
-4. No Painel de Ação, clique em Plano.
-5. Clique em Orçamento do projeto.
-6. No campo Descrição, digite um valor.
-7. Expanda a seção Custos
-8. Clique em Novo.
-9. No campo Tipo de transação, selecione uma opção.
-10. No campo Categoria, insira ou selecione um valor.
-11. No campo Orçamento original, insira um número.
-12. Expanda a seção Receitas.
-13. Clique em Novo.
+4. No **Painel de Ação**, clique em **Plano**.
+5. Clique em **Orçamento do projeto**.
+6. No campo **Descrição**, digite um valor.
+7. Expanda a Guia Rápida **Custo**.
+8. Clique em **Novo**.
+9. No campo **Tipo de transação**, selecione uma opção.
+10. No campo **Categoria**, insira ou selecione um valor.
+11. No campo **Orçamento original**, insira um número.
+12. Expanda a Guia Rápida **Receitas**.
+13. Clique em **Novo**.
 14. Na lista, marque a linha selecionada.
-15. No campo Tipo de transação, selecione uma opção.
-16. No campo Categoria, insira ou selecione um valor.
-17. No campo Orçamento original, insira um número.
-18. Clique em Salvar.
-19. Clique em Fluxo de trabalho.
-20. Clique em Enviar.
-21. No campo Comentário, digite um valor.
-22. Clique em Enviar.
+15. No campo **Tipo de transação**, selecione uma opção.
+16. No campo **Categoria**, insira ou selecione um valor.
+17. No campo **Orçamento original**, insira um número.
+18. Clique em **Salvar**.
+19. Clique em **Fluxo de trabalho**.
+20. Clique em **Enviar**.
+21. No campo **Comentário**, digite um valor.
+22. Clique em **Enviar**.
 

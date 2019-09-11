@@ -1,9 +1,9 @@
 ---
-title: Planejar cargas de consolidação de hub
+title: ​Visão geral de planejamento de cargas usando consolidação de hub​
 description: Este artigo descreve o recurso para consolidar remessas em um hub quando entregar mercadorias em depósitos diferentes para o mesmo cliente ou quando mercadorias são recebidas de vários fornecedores no mesmo depósito.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6743338819da3821cde18ec34a9c79290036ca23
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 74f152a227bec3b402eba9384dfb5db53b46d83a
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560969"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1866056"
 ---
-# <a name="plan-loads-using-hub-consolidation"></a>Planejar cargas de consolidação de hub
+# <a name="plan-loads-using-hub-consolidation-overview"></a>​Visão geral de planejamento de cargas usando consolidação de hub​
 
 [!include [banner](../includes/banner.md)]
 

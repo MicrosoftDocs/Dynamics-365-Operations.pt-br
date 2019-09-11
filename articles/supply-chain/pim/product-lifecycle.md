@@ -1,9 +1,9 @@
 ---
-title: Estado do ciclo de vida de produto
-description: O estado de um ciclo de vida do produto documenta o estado do ciclo de vida de um produto ou grade do produto liberado.
+title: Visão geral do estado do ciclo de vida do produto
+description: O estado do ciclo de vida de um produto documenta o estado do ciclo de vida de um produto ou grade de produto liberado.
 author: cvocph
 manager: AnnBe
-ms.date: 12/08/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: bf9e8fe828cae0f643bfb89c34f1d545e3993619
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 83c523a23973f4fd146d8308fbb5ecb486224ad9
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546193"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865319"
 ---
-# <a name="product-lifecycle-state"></a>Estado do ciclo de vida de produto 
+# <a name="product-lifecycle-state-overview"></a>Visão geral do estado do ciclo de vida do produto
 
 [!include [banner](../includes/banner.md)]
 
-O estado de um ciclo de vida do produto documenta o estado do ciclo de vida de um produto ou grade do produto liberado. Os estados do ciclo de vida de produto são definidos pelo usuário, geralmente um gerente de produto ou um gerente de dados mestre de produto. Os processos de negócios específicos, como planejamento mestre podem ser afetados por um estado específico do ciclo de vida.   
+O estado do ciclo de vida de um produto documenta o estado do ciclo de vida de um produto ou grade de produto liberado. Os estados do ciclo de vida de produto são definidos pelo usuário, geralmente um gerente de produto ou um gerente de dados mestre de produto. Os processos de negócios específicos, como planejamento mestre podem ser afetados por um estado específico do ciclo de vida.   
 
 Um produto ou grade de produto pode ser associado a um estado do ciclo de vida do produto que documenta em qual estado do ciclo de vida um produto ou grade específica está no momento. É possível definir qualquer número de estados do ciclo de vida do produto atribuindo um nome e uma descrição do estado. Você pode selecionar um estado do ciclo de vida como o status padrão de novos produtos liberados. As grades de produtos liberados herdam o estado do ciclo de vida do produto de seus produtos mestres liberados na criação. Ao alterar o estado do ciclo de vida em um produto mestre liberado, você pode optar por atualizar todas as grades existentes com o mesmo estado original.  
 

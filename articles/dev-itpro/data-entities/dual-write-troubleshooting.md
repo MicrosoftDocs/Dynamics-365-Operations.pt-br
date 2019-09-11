@@ -19,50 +19,56 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: ca62a6b3aa64ec2383ee3ded3b7bbf4650a41166
-ms.sourcegitcommit: efcc0dee8bde5f8f93f6291e7f059ad426843e57
+ms.openlocfilehash: 5e71729dafd2ad85a01b055363d1c7056b5558b2
+ms.sourcegitcommit: 3f05ede8b8acdf0550240a83a013e093b4ad043d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1797266"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "1873096"
 ---
 # <a name="troubleshooting-guide-for-data-integration"></a>Guia de solução de problemas para integração de dados
 
-## <a name="enable-plugin-trace-in-common-data-service-and-check-the-dual-write-plugin-error-details"></a>Habilite o Rastreamento de Plug-in no Common Data Service e verifique os detalhes de erro do Plug-in de gravação dupla
+## <a name="enable-plug-in-trace-logs-in-common-data-service-and-inspect-the-dual-write-plug-in-error-details"></a>Habilite o rastreamento de plug-in no Common Data Service e inspecione os detalhes de erro do plug-in de gravação dupla
 
-Se estiver enfrentando um problema ou erro de sincronização de gravação dupla, você poderá inspecionar os erros no log de rastreamento:
+[!include [banner](../includes/banner.md)]
 
-1. Para poder inspecionar os erros, você deve habilitar o rastreamento de plug-in usando as instruções em [Registrar plug-in](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs) para habilitar o rastreamento de plug-in. Agora você pode inspecionar os erros.
-2. Faça logon no Dynamics 365 for Sales.
-3. Clique no ícone Configurações (uma engrenagem) e selecione **Configurações Avançadas**.
-4. No menu **Configurações**, escolha **Personalização > Log de Rastreamento de Plug-In**.
-5. Clique no nome do tipo **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin** para exibir os detalhes do erro.
+[!include [preview](../includes/preview-banner.md)]
 
-## <a name="check-dual-write-synchronization-errors-in-finance-and-operations"></a>Verifique erros de sincronização de gravação dupla no Finance and Operations
+Se você tiver um problema ou erro durante a sincronização de gravação dupla, siga estas etapas para inspecionar os erros no log de rastreamento.
 
-Você pode verificar os erros durante os testes seguindo estas etapas:
+1. Antes de poder inspecionar os erros, você deve ativar os logs de rastreamento de plug-in. Para obter instruções, consulte a seção "Exibir logs de rastreamento" do [Tutorial: crie e registre um plug-in](https://docs.microsoft.com/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs).
 
-+ Faça logon no Lifecycle Services (LCS).
-+ Abra o projeto LCS escolhido para realizar testes de gravação dupla.
-+ Vá para Ambientes Hospedados na Nuvem
-+ Área de trabalho remota para VM do Finance and Operations usando a conta local que é exibida no LCS.
-+ Abra o visualizador de eventos. 
-+ Navegue para **Logs de Aplicações e Serviços > Microsoft > Dynamics > AX-DualWriteSync > Operacional**. Os erros e os detalhes são exibidos.
+    Agora você pode inspecionar os erros.
 
-## <a name="how-to-unlink-and-link-another-common-data-service-environment-from-finance-and-operations"></a>Como desvincular e vincular outro ambiente do Common Data Service a partir do Finance and Operations
+2. Entre no Microsoft Dynamics 365 for Sales.
+3. Selecione o botão **Configurações** (o símbolo da engrenagem) e selecione **Configurações Avançadas**.
+4. No menu **Configurações**, selecione **Personalização \> Log de Rastreamento de Plug-In**.
+5. Selecione **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin** como o nome do tipo para mostrar os detalhes do erro.
 
-Você pode atualizar links executando estas etapas:
+## <a name="inspect-dual-write-synchronization-errors-in-finance-and-operations"></a>Inspecione erros de sincronização de gravação dupla no Finance and Operations
 
-+ Navegue para o ambiente do Finance and Operations.
-+ Abra o Gerenciamento de Dados.
-+ Clique em **Link para o CDS para aplicativos**.
-+ Selecione todos os mapeamentos em execução e clique em **Parar**. 
-+ Selecione todos os mapeamentos e clique em **Excluir**.
+Siga estas etapas para inspecionar erros durante o teste.
+
+1. Entre Microsoft Dynamics Lifecycle Services (LCS).
+2. Abra o projeto do LCS que será submetido a testes de gravação dupla.
+3. Selecione **Ambientes hospedados na nuvem**.
+4. Faça uma conexão de área de trabalho remota com a máquina virtual (VM) do Dynamics 365 for Finance and Operations usando uma conta local que é mostrada no LCS.
+5. Abra o Visualizador de Eventos. 
+6. Vá para **Registros de aplicativos e serviços \> Microsoft \> Dynamics \> AX-DualWriteSync \> Operacional**. Os erros e os detalhes são exibidos.
+
+## <a name="unlink-one-common-data-service-environment-from-finance-and-operations-and-link-another-environment"></a>Desvincule um ambiente do Common Data Service do Finance and Operations e vincule outro ambiente
+
+Siga as etapas a seguir para atualizar os links.
+
+1. Vá para o ambiente do Finance and Operations.
+2. Abra o Gerenciamento de Dados.
+3. Selecione **Link para o CDS para aplicativos**.
+4. Selecione todos os mapeamentos em execução e depois **Parar**.
+5. Selecione todos os mapeamentos e depois **Excluir**.
 
     > [!NOTE]
-    > A opção **Excluir** não aparecerá se o modelo **CustomerV3-Account** for selecionado. Desmarque-o se necessário. **CustomerV3-Account** é um modelo provisionado mais antigo e funciona com a solução Prospect to Cash. Como ele é liberado globalmente, aparece em todos os modelos.
+    > A opção **Excluir** não estará disponível se o modelo **CustomerV3-Account** estiver selecionado. Limpe a seleção desse modelo, conforme necessário. **CustomerV3-Account** é um modelo provisionado mais antigo e funciona com a solução Prospect to Cash. Como ele é liberado globalmente, aparece em todos os modelos.
 
-+ Clique em **Desvincular ambiente**.
-+ Clique em **Sim** para confirmação.
-+ Para vincular o novo ambiente, siga as etapas do [guia de instalação](https://aka.ms/dualwrite-docs).
-
+6. Selecione **Desvincular ambiente**.
+7. Selecione **Sim** para confirmar a operação.
+8. Para vincular o novo ambiente, siga as etapas do [guia de instalação](https://aka.ms/dualwrite-docs).

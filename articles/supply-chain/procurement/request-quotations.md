@@ -1,9 +1,9 @@
 ---
-title: Solicitações de cotação (RFQs)
+title: Visão geral de solicitações de cotação (RFQs)
 description: Este tópico fornece uma visão geral das solicitações de cotação (RFQs). As organizações emitem RFQs quando desejam receber ofertas competitivas de vários fornecedores para os itens ou serviços que eles compram.
 author: mkirknel
 manager: AnnBe
-ms.date: 06/21/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a904529dccbe392793d0d108335b623bb1ed8b2
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: e2276f5296a77d620e0084c0247b1e25071fe029
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742530"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865271"
 ---
-# <a name="requests-for-quotation-rfqs"></a>Solicitações de cotação (RFQs)
+# <a name="requests-for-quotation-rfqs-overview"></a>Visão geral de solicitações de cotação (RFQs)
 
 [!include [banner](../includes/banner.md)]
 
@@ -59,7 +59,7 @@ Se é necessária uma segunda iteração de uma resposta de um fornecedor, selec
 > [!NOTE]
 > O nome da página **Solicitação de cotação** foi alterado. Em versões anteriores do Dynamics 365 for Finance and Operations, esta página é chamada **Resposta de solicitações de cotações**.
 
-Se você adicionou critérios de pontuação ao seu caso de RFQ, a RFQ terá um painel de pontuação em que você poderá inserir as pontuações. As pontuações totais serão exibidas na RFQ e no momento em que você comparar as respostas na página **Comparar respostas**. Na página **Comparar respostas** , também é possível comparar outros dados de respostas, como preço da linha, data de entrega e o preço total.
+Se você adicionou critérios de pontuação ao seu caso de RFQ, a RFQ terá um painel de pontuação em que você poderá inserir as pontuações. As pontuações totais serão exibidas na RFQ e no momento em que você comparar as respostas na página **Comparar respostas**. Na página **Comparar respostas**, também é possível comparar outros dados de respostas, como preço da linha, data de entrega e o preço total.
 
 Após escolher um lance ou número de linhas em um lance, você poderá aceitar todas ou algumas linhas e rejeitar o restante. Diários de aceitação, diários de rejeição e relatórios correspondentes são gerados e serão impressos, arquivados e enviados de acordo com as configurações de impressão. Quando você aceita um lance ou linhas específicas de um lance, um contrato de compra ou uma ordem de compra é gerada, ou uma requisição de compra é atualizada, dependendo do tipo de compra da RFQ. Você pode criar um contrato comercial que pode ser usado posteriormente para qualquer uma das respostas, independentemente de você ter aceitado ou rejeitado as respostas.
 
@@ -139,13 +139,13 @@ Crie um caso de RFQ, selecione os fornecedores aos quais deseja dar lances no ca
 
 Você pode criar manualmente um caso de RFQ para os tipos de compra **Ordem de compra** ou **Contrato de compra**.
 
-Se o caso de RFQ é do tipo **Ordem de compra** , o seguinte comportamento que ocorre se diferencia dos outros tipos de casos de RFQ:
+Se o caso de RFQ é do tipo **Ordem de compra**, o seguinte comportamento que ocorre se diferencia dos outros tipos de casos de RFQ:
 
 -   Quando as linhas de caso de RFQ forem criadas, as transações de estoque serão geradas com o status de recebimento **Recebimento de cotação**.
 
 -   Quando você aceita uma oferta, uma ordem de compra é gerada.
 
-Se o caso de RFQ é do tipo **Contrato de compra** , o seguinte comportamento que ocorre se diferencia dos outros casos de RFQ:
+Se o caso de RFQ é do tipo **Contrato de compra**, o seguinte comportamento que ocorre se diferencia dos outros casos de RFQ:
 
 -   O caso de RFQ é usado para um contrato de comprar de uma quantidade ou um valor específico de produtos durante um certo período. Você deve selecionar o intervalo de datas que se aplica ao contrato de compra e o nome da pessoa que gerencia o contrato de compra.
 
@@ -203,7 +203,7 @@ Você pode ter uma visão geral de todas as RFQs e seus status: **enviado, receb
 Depois de identificar a melhor oferta, por exemplo, a que oferece o melhor preço total, aceite a oferta. Você pode aceitar algumas linhas em uma oferta e rejeitar outras.
 Você também pode aceitar linhas de fornecedores. Esteja ciente de que se você aceitar algumas linhas, será solicitado a rejeitar todas as outras. Consequentemente, se quiser aceitar outras linhas, você deverá selecionar **Cancelar** quando solicitado. O status da resposta da RFQ para cada fornecedor que você aceitar lances ou linhas é atualizado como **Aceito**.
 
-Se, ao preparar a ordem de compra ou o contrato de compra, você precisa adicionar uma linha ao RFQ, clique em **Adicionar linha** na grade de linha da página **Solicitação de cotação** . Você só pode visualizar e editar essa linha na página **Solicitação de cotação**. Ela estará visível na página do lance quando ele for aceito.
+Se, ao preparar a ordem de compra ou o contrato de compra, você precisa adicionar uma linha ao RFQ, clique em **Adicionar linha** na grade de linha da página **Solicitação de cotação**. Você só pode visualizar e editar essa linha na página **Solicitação de cotação**. Ela estará visível na página do lance quando ele for aceito.
 
 Quando você aceita um lance ou uma ou mais linhas em um lance, uma ordem de compra ou um contrato de compra serão gerados automaticamente. Você poderá então rejeitar os lances de todos os outros fornecedores.
 
@@ -250,7 +250,7 @@ A tabela a seguir mostra como o status do caso de RFQ é alterado quando você c
 | Adicione outro fornecedor.                       | Criação em                    | Enviada                        | Criação em                         | Enviada                             |
 | Enviar a RFQ para o segundo fornecedor.        | Enviada                       | Enviada                        | Enviada                            | Enviada                             |
 
-Todas as linhas da RFQ relacionadas ao caso de RFQ estarão no estado **Enviado** .
+Todas as linhas da RFQ relacionadas ao caso de RFQ estarão no estado **Enviado**.
 
 A tabela a seguir mostra como o status da RFQ é alterado, conforme você recebe ofertas e registra as informações na folha de respostas da RFQ.
 

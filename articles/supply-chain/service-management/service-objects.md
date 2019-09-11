@@ -1,9 +1,9 @@
 ---
-title: Objetos de serviço
+title: Visão geral de objetos de serviço
 description: Objetos de serviço são os ativos e os produtos de um cliente para o qual você pode executar um serviço.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 02/21/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5641077de84b6702d2c5621edef74783f2f104fd
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4a25c4d71d617a0b7cacd31f708421fd9dd960ea
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562314"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865864"
 ---
-# <a name="service-objects"></a>Objetos de serviço 
+# <a name="service-objects-overview"></a>Visão geral de objetos de serviço
 
 [!include [banner](../includes/banner.md)]
 

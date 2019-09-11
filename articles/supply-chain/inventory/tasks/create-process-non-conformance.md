@@ -1,9 +1,9 @@
 ---
 title: Criar e processar uma conformidade
-description: Use este procedimento para executar o gerenciamento de não conformidades, com base em uma ordem de qualidade existente.
+description: Este tópico explica como executar o gerenciamento de não conformidades, com base em uma ordem de qualidade existente.
 author: perlynne
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/07/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,65 +16,54 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16ed11bce92920fe8240fc85f706a2ac6ab0a04b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4e9cf42f80ef7a4c9c5f68a308386db5835c8f2e
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572802"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916636"
 ---
 # <a name="create-and-process-a-conformance"></a>Criar e processar uma conformidade
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Use este procedimento para executar o gerenciamento de não conformidades, com base em uma ordem de qualidade existente. Você pode executar esse registro na empresa de demonstração USMF e pode usar os valores sugeridos. Normalmente, esse procedimento é realizado por um encarregado de qualidade.  Como um pré-requisito, execute o registro de tarefa “Inspecionar a qualidade das mercadorias“. Para processar a aprovação de uma não conformidade, o usuário que executa o registro de tarefa deve ter um valor de “Nome“ atribuído na página Usuários. Para usar as notas do documento, o usuário também deve ter o Manuseio de documentos ativado nas opções do usuário.
+Este tópico explica como executar o gerenciamento de não conformidades, com base em uma ordem de qualidade existente. Você pode executar esse registro na empresa de demonstração USMF e pode usar os valores sugeridos. Normalmente, esse procedimento é realizado por um encarregado de qualidade.  Como um pré-requisito, siga as instruções em [Inspecionar a qualidade das mercadorias](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md). Para processar a aprovação de uma não conformidade, o usuário que executa o registro de tarefa deve ter um valor de “Nome“ atribuído na página Usuários. Para usar as notas do documento, o usuário também deve ter o Manuseio de documentos ativado nas opções do usuário.
 
 
 ## <a name="select-a-quality-order"></a>Selecione uma ordem de qualidade
-1. Vá para Ordens de qualidade.
-2. Na lista, marque a linha selecionada.
-    * Selecione a ordem de qualidade que foi criada no registro de tarefa "Inspecionar a qualidade das mercadorias".  
+1. No painel de navegação, vá para **Módulos > Gerenciamento de estoque > Tarefas periódicas > Gerenciamento de qualidade > Ordens de qualidade**.
+2. Na lista, selecione a ordem de qualidade criada em [Inspecionar a qualidade das mercadorias](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md).  
 
 ## <a name="create-a-nonconformance"></a>Criar uma não conformidade
-1. Clique em Consultas.
-2. Clique em Não conformidades.
-3. Clique em Novo.
-4. No campo Tipo de problema, clique no botão suspenso para abrir a pesquisa.
-    * Selecione o problema encontrado durante o processo de inspeção.  
-5. No campo Tipo de problema, clique no botão suspenso para abrir a pesquisa.
-6. Na lista, localize e selecione o PDV desejado.
-7. Na lista, clique no link na linha selecionada.
-8. Clique em OK.
+1. No painel de ações, selecione **Consultas**.
+2. Selecione **Não conformidades**.
+3. Selecione **Novo**.
+4. No menu suspenso do campo **Tipo de problema**, selecione o problema encontrado durante o processo de inspeção.  
+5. Selecione **OK**.
 
 ## <a name="approvereject-a-nonconformance"></a>Aprovar/rejeitar uma não conformidade
-1. Clique em Funções.
-2. Clique em Aprovar a não conformidade.
-    * Para esse exemplo, aprove a não conformidade. Não conformidades aprovadas podem ser associadas às operações relacionadas para registrar o trabalho que é feito como parte do manuseio da não conformidade e, como nesse registro de tarefa, o processamento do manuseio de correção.  
-3. Clique em Sim.
+1. Selecione **Funções**.
+2. Selecione **Aprovar não conformidade**. Para esse exemplo, aprove a não conformidade. Não conformidades aprovadas podem ser associadas às operações relacionadas para registrar o trabalho que é feito como parte do manuseio da não conformidade e, como neste tópico, o processamento do manuseio de correção.  
+3. Selecione **Sim**.
 
 ## <a name="create-a-correction-action"></a>Criar uma ação de correção
-1. Clique em Correções.
-2. Clique em Novo.
-3. Na lista, marque a linha selecionada.
-4. No campo Número dos funcionários, clique no botão suspenso para abrir a pesquisa.
-5. Na lista, clique no link na linha selecionada.
-6. Clique em Selecionar.
-7. Clique em Anexar.
-    * Crie uma nota sobre a correção. Neste exemplo, a ação é entrar em contato com o fornecedor para discutir o caso não conformidade.  
-8. Clique em Novo.
-9. Clique em Nota.
-    * Observe que, dependendo da configuração do relatório, diferentes tipos de documentos podem ser impressos em relatórios relacionados ao gerenciamento de não conformidades.  
-10. No campo Descrição, digite um valor.
-11. Feche a página.
+1. Selecione **Correções**.
+2. Selecione **Novo**.
+3. No campo **Número da equipe** da nova linha, selecione o registro desejado no menu suspenso.
+4. Clique em **Selecionar**.
+5. Selecione **Anexar**. Crie uma nota sobre a correção. Neste exemplo, a ação é entrar em contato com o fornecedor para discutir o caso não conformidade.  
+6. Selecione **Novo**.
+7. Selecione **Nota**. Dependendo da configuração do relatório, diferentes tipos de documentos podem ser impressos em relatórios relacionados ao gerenciamento de não conformidades.  
+8. No campo **Descrição**, digite um valor.
+9. Feche a página.
 
 ## <a name="maintain-a-correction"></a>Manter uma correção
-1. Clique em Marcar como completo.
-2. Clique em OK.
+1. Selecione **Marcar como concluída**.
+2. Selecione **OK**.
 3. Feche a página.
 
 ## <a name="close-a-nonconformance"></a>Fechar uma não conformidade
-1. Clique em Funções.
-2. Clique em Fechar a não conformidade.
-3. Clique em Sim.
-4. Feche a página.
-5. Feche a página.
+1. Selecione **Funções**.
+2. Selecione **Fechar não conformidade**.
+3. Selecione **Sim**.
+4. Feche as páginas.

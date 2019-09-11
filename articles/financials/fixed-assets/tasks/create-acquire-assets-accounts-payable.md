@@ -3,7 +3,7 @@ title: Criar e adquirir ativos de contas a pagar
 description: Esta guia mostrará a criação e a aquisição de um ativo fixo com o processo de compra.
 author: saraschi2
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/13/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2626877c907994d03cdae960c8501a858ca214bd
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 025639e6e5bdc6b95e9c496f11f29ed8ec8d388c
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1840016"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914667"
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a>Criar e adquirir ativos de contas a pagar
 
@@ -31,31 +31,28 @@ Esta guia mostrará a criação e a aquisição de um ativo fixo com o processo 
 
 
 ## <a name="set-fixed-assets-parameters"></a>Definir parâmetros dos ativos fixos
-1. Vá para Ativos fixos > Configuração > Parâmetros de ativos fixos.
-2. Expandir ou recolher a seção Ordens de compra.
-3. Marque a caixa de seleção Permitir a aquisição de ativos de Compras.
-4. Marque a caixa de seleção Criar um ativo durante o recebimento de produtos ou o lançamento de fatura.
+1. No **Painel de Navegação**, vá para **Módulos > Ativos fixos > Configuração > Parâmetros de ativos fixos**.
+2. Expanda a Guia Rápida **Ordens de compra**.
+3. Marque a caixa de seleção **Permitir a aquisição de ativos de Compras**.
+4. Marque a caixa de seleção **Criar um ativo durante o recebimento de produtos ou o lançamento de fatura**.
 
 ## <a name="create-a-new-vendor-invoice"></a>Criar uma nova fatura de fornecedor
-1. Vá para Contas a pagar > Espaços de trabalho > Entrada de fatura de fornecedor.
-2. Clique em Nova fatura de fornecedor.
-3. No campo Conta de fatura, clique no botão suspenso para abrir a pesquisa.
+1. No **Painel de Navegação**, vá para **Módulos > Contas a pagar > Espaços de trabalho > Entrada de fatura de fornecedor**.
+2. Clique em **Nova fatura de fornecedor**.
+3. No campo **Conta de fatura**, clique no botão suspenso para abrir a pesquisa.
 4. Na lista, clique no link na linha selecionada.
-5. No campo Número, digite um valor.
-6. No campo Lançamento, insira uma data.
-7. Clique em Adicionar linha.
-8. No campo Número de item, clique no botão suspenso para abrir a pesquisa.
-    * Os itens não estocados ou as categorias de aquisição podem ser usados para aquisições de ativo fixo.  
+5. No campo **Número**, digite um valor.
+6. No campo **Data de lançamento**, insira uma data.
+7. Clique em **Adicionar linha**.
+8. No campo **Número do item**, clique no botão suspenso para abrir a pesquisa. Os itens não estocados ou as categorias de aquisição podem ser usados para aquisições de ativo fixo.  
 9. Na lista, clique no link na linha selecionada.
-10. No campo Quantidade, insira um número.
-    * Uma linha da nota fiscal criará somente um ativo fixo, independentemente da quantidade.  O valor do campo de quantidade da nota fiscal será transferido para a quantidade do ativo fixo.  
-11. No campo Preço unitário, insira um número.
-12. Expandir ou recolher a seção Detalhes de linha.
-13. Clique na guia Ativos fixos.
-14. Marque a caixa de seleção Criar um novo ativo fixo.
-15. No campo Grupo de ativo fixo, clique no botão suspenso para abrir a pesquisa.
+10. No campo **Quantidade.**, insira um número Uma linha da nota fiscal criará somente um ativo fixo, independentemente da quantidade. O valor do campo de quantidade da nota fiscal será transferido para a quantidade do ativo fixo.  
+11. No campo **Preço unitário**, insira um número.
+12. Expanda a Guia Rápida **Detalhes da linha**.
+13. Clique na guia **Ativos fixos**.
+14. Marque a caixa de seleção **Criar um novo ativo fixo**.
+15. No campo **Grupo de ativo fixo**, clique no botão suspenso para abrir a pesquisa.
 16. Na lista, selecione o grupo de ativos fixos a ser usado quando criar o novo ativo fixo.
 17. Na lista, clique no link na linha selecionada.
-18. Clique em Lançar.
-    * O ativo fixo será criado e adquirido quando a nota fiscal for lançada.  
+18. Clique em **Enviar**. O ativo fixo será criado e adquirido quando a nota fiscal for lançada.  
 

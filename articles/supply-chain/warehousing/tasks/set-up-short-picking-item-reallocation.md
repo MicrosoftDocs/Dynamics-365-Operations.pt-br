@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7a3c635c32a53226da6ce72db86ee7d9d0c17bdb
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 964302cb7e7835b6e619602ac7165c9e7adbcefb
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847078"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916741"
 ---
 # <a name="set-up-short-picking-item-reallocation"></a>Configurar realocação de item de pouca seleção
 
@@ -32,25 +32,20 @@ Este procedimento mostra como permitir que os trabalhadores do depósito encontr
 
 
 ## <a name="set-up-work-exceptions"></a>Configurar exceções de trabalho
-1. Vá para Gerenciamento de depósito > Configuração > Trabalho > Exceções de trabalho.
-2. Clique em Novo.
-    * É possível definir várias exceções de trabalho com diferentes políticas de realocação de itens para permitir que os trabalhadores do depósito escolham uma com base nas necessidades da remessa que eles estão processando.  
-3. No campo Código de exceção do trabalho, digite um valor.
-    * Dê à exceção de trabalho um título para indicar para que ela é usada. Por exemplo, manual de separação insuficiente.  
-4. No campo Descrição, digite um valor.
-5. No campo Tipo de exceção, selecione "Separação insuficiente".
-6. Marque a caixa de seleção Ajustar estoque.
-    * Essa opção significa que o estoque será automaticamente ajustado para 0 na localização separada insuficiente.  
-7. No campo Código de tipo de ajuste padrão, insira ou selecione um valor.
-    * Por exemplo, na USMF, você pode selecionar "Remover Res Adj Out".  
-8. No campo Realocação de item, selecione "Manual".
-    * Se você selecionar Manual, ou Automática e Manual, o trabalhador do depósito precisará estar habilitado para usar a realocação manual.  
+1. No **Painel de navegação**, acesse **Gerenciamento de depósito > Configuração > Trabalho > Exceções de trabalho**.
+2. Clique em **Novo**. É possível definir várias exceções de trabalho com diferentes políticas de realocação de itens para permitir que os trabalhadores do depósito escolham uma com base nas necessidades da remessa que eles estão processando.  
+3. No campo **Código de exceção do trabalho**, digite um valor. Dê à exceção de trabalho um título para indicar para que ela é usada. Por exemplo, manual de separação insuficiente.  
+4. No campo **Descrição**, digite um valor.
+5. No campo **Tipo de exceção**, selecione "Separação insuficiente".
+6. Marque a caixa de seleção **Ajustar estoque**. Essa opção significa que o estoque será automaticamente ajustado para 0 na localização separada insuficiente.  
+7. No campo **Código de tipo de ajuste padrão**, insira ou selecione um valor. Por exemplo, na USMF, você pode selecionar "Remover Res Adj Out".  
+8. No campo **Realocação de item**, selecione "Manual". Se você selecionar Manual, ou Automática e Manual, o trabalhador do depósito precisará estar habilitado para usar a realocação manual.  
 
 ## <a name="set-up-a-worker-to-use-manual-item-reallocation"></a>Configurar um trabalhador para usar a realocação de item manual
 1. Feche a página.
-2. Vá para Gerenciamento de depósito > Configuração > Trabalhador.
-3. Clique em Editar.
+2. No **Painel de navegação**, acesse **Gerenciamento de depósito > Configuração > Trabalhador**.
+3. Clique em **Editar**.
 4. Na lista, selecione o trabalhador 24.
-5. Expanda a seção Trabalho.
-6. Selecione Sim no campo Permitir realocação manual de itens.
+5. Expanda a Guia Rápida **Trabalho**.
+6. Selecione 'Sim' no campo **Permitir realocação manual de itens**.
 

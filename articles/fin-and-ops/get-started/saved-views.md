@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 9d19987a44c467381828acb81b6161601268d84f
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: 43f25796e6271f14acfc72f931398ab63338a307
+ms.sourcegitcommit: b068b17ef708a0b349db8df1542e4244bb983d13
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863051"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870824"
 ---
 # <a name="saved-views"></a>Exibições salvas
 
@@ -153,11 +153,13 @@ Para habilitar exibições salvas quando o recurso estiver em visualização, si
 
 1.  **Habilitar a versão de pré-lançamento**: execute esta instrução SQL: 
 
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('Dynamics.AX.Application.CLISavedViewsEnableFeature', 1, 0, 5637144576);`
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLISavedViewsEnableFeature', 1, 0, 5637144576);`
 
-2.  **Localizar o recurso**: navegue até o espaço de trabalho **Gerenciamento de recursos**. Se **Exibições salvas** não aparecer na lista, selecione o botão **Verificar se há atualizações**.   
+2. **Redefinir o IIS** para liberar o cachê de liberação estático. 
 
-3.  **Habilitar o recurso**: localize o recurso **Exibições salvas** na lista de recursos e clique no botão **Habilitar agora** no painel de detalhes.
+3.  **Localizar o recurso**: navegue até o espaço de trabalho **Gerenciamento de recursos**. Se **Exibições salvas** não aparecer na lista, selecione **Verificar se há atualizações**.   
+
+4.  **Habilitar o recurso**: localize o recurso **Exibições salvas** na lista de recursos e selecione **Habilitar agora** no painel de detalhes.
 
 Todas as sessões de usuário subsequentes começarão com exibições salvas habilitadas.  
 

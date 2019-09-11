@@ -3,7 +3,7 @@ title: Processar juros
 description: Este procedimento mostra como criar, imprimir e lançar notas de juros.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fba25c900461fbbf4db0cd3b93847d258704ab4e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 7170a7a14237058064ed3091e9437cae312e6bd5
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1842872"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916267"
 ---
 # <a name="process-interest"></a>Processar juros
 
@@ -31,40 +31,40 @@ Este procedimento mostra como criar, imprimir e lançar notas de juros. Esta tar
 
 
 ## <a name="set-up-interest-on-the-posting-profile"></a>Configure o juros no perfil de lançamento
-1. Vá para Crédito e coleções > Configuração > Perfis de lançamento de cliente.
-2. Clique em Editar.
-    * Selecione um código de juros na lista suspensa. Se você não desejar que os juros sejam calculados para as transações com o perfil de lançamento, deixe o campo em branco.  
-    * A guia de restrição de tabela permite que você altere o modo como os juros são processados. Se este campo estiver definido como Sim, os juros serão calculados para este perfil de lançamento.  
+1. No **Painel de navegação**, vá para **Módulos > Crédito e coleções > Configuração > Perfis de lançamentos de cliente**.
+2. Clique em **Editar**.
+3. Na **Guia Rápida Configuração**, no campo **Código de juros**, selecione um código de juros na lista suspensa. Se você não desejar que os juros sejam calculados para as transações com o perfil de lançamento, deixe o campo em branco. A guia rápida **Restrição de tabela** permite que você altere o modo como os juros são processados. Se este campo estiver definido como Sim, os juros serão calculados para este perfil de lançamento.  
 
 ## <a name="calculate-interest"></a>Calcular juros
-1. Vá para Crédito e coleções > Juros > Criar notas de juros.
-    * Você deve selecionar os tipos de transação para os quais calculará o juros. Todas as transações abertas para esses tipos serão incluídas no cálculo.  
-    * Se você selecionar juros, você calculará juros em juros. Você pode optar por verificar as leis que regem o cálculo de juros em juros antes de incluir essas transações.  
-    * Os juros serão calculados a partir dessa data até "Até data". Se você não especificou uma "Data de", então todas as notas de juros não serão canceladas e os juros serão recalculados da data da transação.  
-2. Inserir a data da nota de juros.
-    * Há três opções de perfil de lançamento: Conta – use o perfil de lançamento que é atribuído ao cliente para cada nota de juros.   Seleção - use o perfil de lançamento selecionado no campo Perfil de lançamento.   Transação - use o perfil de lançamento individual de transações em que os juros são calculados para cada nota de juros. As transações que não têm um perfil de lançamento atribuído usarão o perfil de lançamento especificado na área Razão e imposto do formulário Parâmetros de conta recebida.  
-    * Selecione um perfil de lançamentos aqui se modificou "Usar um perfil de lançamento de" para "Selecionar".  
-3. Expanda ou recolha a seção de Registros a serem incluídos.
-4. Clique em Filtro.
-5. No campo Critérios, insira um ID de cliente. Por exemplo, insira 'US-001'.
-6. Clique em OK.
-7. Clique em OK.
+1. No **Painel de navegação**, vá para **Módulos > Crédito e coleções > Juros > Criar notas de juros**.
+2. Você deve selecionar os tipos de transação para os quais calculará o juros. Todas as transações abertas para esses tipos serão incluídas no cálculo.  
+3. Se você definir **Juros** como "Sim", você calculará juros em juros. Você pode optar por verificar as leis que regem o cálculo de juros em juros antes de incluir essas transações.  
+4. No campo **A partir da data**, insira uma data a partir da qual os juros serão calculados. Se você não especificou uma **Data inicial**, então todas as notas de juros não lançadas serão canceladas e os juros serão recalculados da data da transação.
+5. No campo **Até**, insira uma data para a qual os juros seriam calculados.
+6. No campo **Usar perfil de lançamentos de**, selecione uma opção. Há três opções de perfil de lançamento:
+    - Conta – use o perfil de lançamentos atribuído à conta de cliente para cada nota de juros. 
+    - Seleção - use o perfil de lançamento selecionado no campo Perfil de lançamento.
+    - Transação - use o perfil de lançamento individual de transações em que os juros são calculados para cada nota de juros. As transações que não têm um perfil de lançamento atribuído usarão o perfil de lançamento especificado na área Razão e imposto do formulário Parâmetros de conta recebida.  
+7. Expanda a Guia Rápida **Registros a serem incluídos**.
+8. Clique em **Filtrar**.
+9. No campo **Critérios**, insira uma ID do Cliente. Por exemplo, insira 'US-001'.
+6. Clique em **OK**.
+7. Clique em **OK**.
 
 ## <a name="print-interest-notes"></a>Imprimir notas de juros
-1. Vá para Crédito e coleções > Juros > Revisar e processar notas de juros.
-2. No campo Status, selecione 'Criado'.
-3. No campo Impresso, selecione 'Não impresso'.
-4. Clique em Imprimir.
-5. Expanda ou recolha a seção de Registros a serem incluídos.
-6. Clique em OK.
+1. No **Painel de navegação**, vá para **Módulos > Crédito e coleções > Juros > Revisar e processar notas de juros**.
+2. No campo **Status**, selecione "Criado".
+3. No campo **Impresso**, selecione "Não impresso".
+4. Clique em **Imprimir**.
+5. Expanda a Guia Rápida **Registros a serem incluídos**.
+6. Clique em **OK**.
 7. Feche a página.
 
 ## <a name="post-the-interest-note"></a>Lançar a nota de juros
 1. Selecione uma nota de juros que está pronta para ser lançada (o status é criado).
-2. Clique em Lançar.
-3. Digite a data de lançamento para as notas de juros.
-    * Marque Sim para criar uma transação de contabilidade para cada nota de juros.     Se não marcar Sim, os juros em todas as notas de juros ao cliente serão acumulados e lançados na contabilidade em uma transação.  
-4. Expanda ou recolha a seção de Registros a serem incluídos.
-5. Clique em OK.
-6. No campo Status, selecione 'Lançado'.
+2. Clique em **Enviar**.
+3. Digite a data de lançamento para as notas de juros. Marque Sim para criar uma transação de contabilidade para cada nota de juros. Se não marcar Sim, os juros em todas as notas de juros ao cliente serão acumulados e lançados na contabilidade em uma transação.  
+4. Expanda a Guia Rápida **Registros a serem incluídos**.
+5. Clique em **OK**.
+6. No campo **Status**, selecione "Lançado".
 

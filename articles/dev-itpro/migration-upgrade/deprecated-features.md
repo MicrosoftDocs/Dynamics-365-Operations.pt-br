@@ -3,7 +3,7 @@ title: Recursos removidos ou obsoletos
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção.
 author: sericks007
 manager: AnnBe
-ms.date: 07/30/2019
+ms.date: 08/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c8cc578ce2f8928fcdbe0210c9151e8979bc2e9
-ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
+ms.openlocfilehash: 4aad4f2cf42b72256b5c4727bfd145d16af033ed
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863374"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867092"
 ---
 # <a name="removed-or-deprecated-features"></a>Recursos removidos ou preteridos
 
@@ -158,6 +158,17 @@ Suporte à criação de ordens de venda baseadas no projeto em que o contrato de
 | **Opção de implantação**              | Todas |
 | **Status**                         | Preterido: o aviso se tornará um erro de compilação na Platform update 26. |
 
+## <a name="dynamics-365-for-finance-and-operations-1000-with-platform-update-24"></a>Dynamics 365 for Finance and Operations 10.0.0 com atualização de plataforma 24
+
+### <a name="renaming-released-products"></a>Renomeação de produtos liberados 
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Quando você usa a função **Renomear chave primária** para alterar a ItemId de um produto lançado, apenas as referências diretas à chave estrangeira são atualizadas. Quaisquer outras referências ao produto lançado, como ordens de produção, manterão a antiga ItemId. Como resultado, pode haver dados inconsistentes que por fim bloquearão os processos de negócios. |
+| **Substituída por outro recurso?**   | Nº |
+| **Áreas afetadas do produto**         | Gerenciamento de informações sobre produtos |
+| **Opção de implantação**              | Todas  |
+| **Status**                         | Removido a partir do Dynamics 365 for Finance and Operations 10.0.0 com atualização de plataforma 24. Em casos excepcionais, como recuperar de uma renomeação anterior da chave primária de um produto lançado, é possível solicitar à Microsoft que remova temporariamente essa restrição na operação de renomear chave primária para produtos lançados. |
+
 
 ## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>Dynamics 365 for Finance and Operations 8.1.3 com atualização de plataforma 23
 
@@ -212,7 +223,7 @@ O modo de transferência Síncrono está ficando obsoleto nos parâmetros da Con
 | **Status**                         | Preterido: o período determinado para a funcionalidade ser removida é a versão 10.0.|
 
 ### <a name="electronic-reporting-for-russia"></a>Relatório eletrônico da Rússia
-Recurso para configurar formatos de arquivo .txt e .xml de declarações. 
+Recurso para configurar formatos de arquivo.txt e.xml de declarações. 
 
 |   |  |
 |------------|--------------------|
@@ -770,7 +781,7 @@ Um fluxo de trabalho para gerenciar a criação das metas de funcionários for u
 
 ### <a name="aif-axd-and-axbc-integrations"></a>Integrações de AIF, AxD e AxBC
 
-Na Estrutura de Integração de Aplicativos (AIF), os dados podem ser trocados com sistemas externos através da lógica comercial que é exposta como serviços. O Dynamics AX inclui serviços que são baseados em documentos e no .NET Business Connector (AxBC.) Um documento é criado usando XML. O XML inclui informações de cabeçalho adicionadas para criar uma *mensagem* que pode ser transferida para o/do Dynamics AX. Os exemplos de documentos incluem ordens de venda e ordens de compra. No entanto, quase todas as entidades, como um cliente, podem ser representadas por um documento. Os serviços baseados em documentos usam as classes **Axd \<Documento\>**.
+Na Estrutura de Integração de Aplicativos (AIF), os dados podem ser trocados com sistemas externos através da lógica comercial que é exposta como serviços. O Dynamics AX inclui serviços que são baseados em documentos e no.NET Business Connector (AxBC.) Um documento é criado usando XML. O XML inclui informações de cabeçalho adicionadas para criar uma *mensagem* que pode ser transferida para o/do Dynamics AX. Os exemplos de documentos incluem ordens de venda e ordens de compra. No entanto, quase todas as entidades, como um cliente, podem ser representadas por um documento. Os serviços baseados em documentos usam as classes **Axd \<Documento\>**.
 
 |   |  |
 |------------|--------------------|

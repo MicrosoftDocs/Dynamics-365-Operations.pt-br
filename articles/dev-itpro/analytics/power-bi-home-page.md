@@ -1,9 +1,9 @@
 ---
-title: Home page de soluções do PowerBI.com
+title: Home page de conteúdo do Power BI
 description: Este tópico lista soluções do PowerBI.com que estão disponíveis e indica os recursos onde você pode aprender mais sobre as soluções.
 author: sericks007
 manager: AnnBe
-ms.date: 05/08/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9d8425c9479f775b1e45d1624a069759b3f45d98
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: b40f882b0a16a65fe15690686f9fc1dd09f36271
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1850114"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864627"
 ---
-# <a name="powerbicom-solutions-home-page"></a>Home page de soluções do PowerBI.com
+# <a name="power-bi-content-home-page"></a>Home page de conteúdo do Power BI
 
 [!include [banner](../includes/banner.md)]
 
-As soluções de PowerBI.com a seguir estão disponíveis para os ambientes do Dynamics 365 for Finance and Operations .
+As soluções de PowerBI.com a seguir estão disponíveis para os ambientes do Dynamics 365 for Finance and Operations.
 
 ## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a>Soluções do PowerBI.com disponíveis no Lifecycle Services (LCS)
 

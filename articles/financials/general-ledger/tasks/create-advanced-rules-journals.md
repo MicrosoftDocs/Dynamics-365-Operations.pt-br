@@ -3,7 +3,7 @@ title: Criar regras avançadas para diários
 description: Este procedimento aborda a criação de regras avançadas para diários.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8ec0db1bc5018649acaca05c71a510880b415777
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 3eb34ac419aeab3663a8931d022abf7bcbfddd37
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846670"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916129"
 ---
 # <a name="create-advanced-rules-for-journals"></a>Criar regras avançadas para diários
 
@@ -31,30 +31,30 @@ Este procedimento aborda a criação de regras avançadas para diários. Inclui 
 
 
 ## <a name="set-up-journal-control"></a>Configurar controle do diário
-1. Vá para Contabilidade > Configuração do diário > Nomes de diário.
-2. Na lista, localize e selecione o PDV desejado.
-3. Clique em Controle de diário.
-4. Clique em Adicionar.
-5. No campo Contas da empresa, clique no botão suspenso para abrir a pesquisa.
-6. Na lista, localize e selecione o PDV desejado.
+1. No **Painel de Navegação**, vá para **Módulos > Contabilidade > Configuração do diário > Nomes de diário**.
+2. Na lista, localize e selecione o registro desejado.
+3. No **Painel de Ações**, clique em **Controle de diário**.
+4. Na Guia Rápida **Que tipos de conta podem ser lançados?**, clique em **Adicionar**.
+5. No campo **Contas da empresa**, clique no botão suspenso para abrir a pesquisa.
+6. Na lista, localize e selecione o registro desejado.
 7. Na lista, clique no link na linha selecionada.
-8. Clique em Adicionar.
-9. No campo Estrutura de conta, clique no botão suspenso para abrir a pesquisa.
+8. Na Guia Rápida **Que valores de segmento são válidos para este diário?**, clique em **Adicionar**.
+9. No campo **Estrutura de conta**, clique no botão suspenso para abrir a pesquisa.
 10. Na lista, localize e selecione o registro desejado.
 11. Na lista, clique no link na linha selecionada.
-12. No campo Segmento, clique no botão suspenso para abrir a pesquisa.
+12. No campo **Segmento**, clique no botão suspenso para abrir a pesquisa.
 13. Na lista, clique no link na linha selecionada.
-14. No campo Valor inicial, clique no botão suspenso para abrir a pesquisa.
+14. No campo **Valor inicial**, clique no botão suspenso para abrir a pesquisa.
 15. Na lista, localize e selecione o registro desejado.
 16. Na lista, clique no link na linha selecionada.
-17. No campo Valor final, clique no botão suspenso para abrir a pesquisa.
+17. No campo **Valor final**, clique no botão suspenso para abrir a pesquisa.
 18. Na lista, localize e selecione o PDV desejado.
 19. Na lista, clique no link na linha selecionada.
 
 ## <a name="set-up-posting-restrictions"></a>Configurar restrições de lançamento
 1. Feche a página.
-2. Clique em Restrições de lançamento.
-3. No Como deseja configurar as restrições de lançamento, selecione Por grupo de usuários.
+2. Clique em **Restrições de lançamento**.
+3. No campo **Como deseja configurar as restrições de lançamento**, selecione "Por grupo de usuários".
 4. Na árvore, verifique 'o grupo do qual deseja permitir o lançamento para o nome desse diário'.
-5. Clique em OK.
+5. Clique em **OK**.
 
