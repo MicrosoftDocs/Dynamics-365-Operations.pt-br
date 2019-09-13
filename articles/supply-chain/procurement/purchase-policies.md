@@ -1,9 +1,9 @@
 ---
-title: Políticas de compra
+title: Visão geral de políticas de compras
 description: Este artigo fornece informações sobre diretivas de compras. Uma política de compra é um conjunto de regras que controlam o processo da requisição. As políticas de compra ajudam administradores de compras a implementar sua estratégia de compras criando uma estrutura de política alinhada às necessidades de compras estratégicas da organização.
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a16f365fa5a8b39dddac2886c36a8231de745a37
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7d0b925f7a6eff9f2e5b479e3a1c6adc18354383
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566331"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865236"
 ---
-# <a name="purchasing-policies"></a>Políticas de compra
+# <a name="purchasing-policies-overview"></a>Visão geral de políticas de compras
 
 [!include [banner](../includes/banner.md)]
 

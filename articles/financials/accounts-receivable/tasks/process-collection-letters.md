@@ -1,9 +1,9 @@
 ---
 title: Processar cartas de cobrança
-description: Este procedimento mostra como criar, imprimir e lançar cartas de cobrança.
+description: Este tópico mostra como criar, imprimir e lançar cartas de cobrança.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 12/04/2018
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,67 +16,71 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 8db80b184d565f71f62f99051c7378c4e6e45fb9
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 326d9375670cb4f4990a4f7070bf923a28b2c025
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1834406"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867646"
 ---
 # <a name="process-collection-letters"></a>Processar cartas de cobrança
 
 [!include [banner](../../includes/banner.md)]
 
-Este procedimento mostra como criar, imprimir e lançar cartas de cobrança. Esta tarefa usa a empresa de demonstração USMF.
+Este tópico mostra como criar, imprimir e lançar cartas de cobrança. Esta tarefa usa a empresa de demonstração USMF.
 
 ## <a name="set-up-a-collection-letter-sequence-on-the-posting-profile"></a>Configurar uma sequência de carta de cobrança no perfil de lançamento
-1. Vá para **Crédito e cobranças > Configuração > Perfis de lançamentos de cliente**.
+1. Vá para **Painel de navegação > Módulos > Crédito e coleções > Configuração > Perfis de lançamentos de cliente**.
 2. Clique em **Editar**.
 3. Selecione uma sequência de carta de cobrança na lista suspensa. Se você não quiser gerar cartas de cobrança para transações usando este perfil de lançamento, deixe o campo em branco.  
-4. Expanda a guia de restrição de tabela para alterar a forma como as cartas de cobrança são processadas. Se este campo estiver definido como **Sim**, as cartas de cobrança serão criadas para este perfil de lançamento.  
+4. Expanda a guia **Restrições da tabela** para alterar a forma como as cartas de cobrança são processadas. Se este campo estiver definido como **Sim**, as cartas de cobrança serão criadas para este perfil de lançamento.  
 
 ## <a name="create-collection-letters"></a>Criar cartas de cobrança
-1. Vá para **Crédito e cobranças > Carta de cobrança > Criar cartas de cobrança**.
+1. Vá para **Painel de navegação > Módulos > Crédito e coleções > Carta de cobrança > Criar cartas de cobrança**.
 2. Selecione os tipos de transação para os quais você usará cartas de cobrança. Todas as transações abertas para esses tipos serão incluídas no cálculo.  
-2. No campo **Carta de cobrança**, selecione uma opção.
-3. Insira a data da carta de cobrança.
-4. Selecione um perfil de lançamentos se você tiver alterado **Usar perfil de lançamento de** para **Selecionar**. Há duas opções de perfil de lançamento:   
+3. No campo **Carta de cobrança**, selecione uma opção.
+4. No campo **Data da carta de cobrança**, insira a data da carta de cobrança.
+5. Selecione um perfil de lançamentos se você tiver alterado **Usar perfil de lançamento de** para **Selecionar**. Há duas opções de perfil de lançamento:   
+
    - **Conta** – use o perfil de lançamentos atribuído à conta de cliente para cada nota de juros.   
    - **Selecionar** - use o perfil de lançamentos selecionado no campo **Perfil de lançamentos**.  
-5. Expanda a seção **Registros a serem incluídos**.
-6. Clique em **Filtrar**.
-7. No campo **Critérios**, insira uma ID do Cliente. Por exemplo, insira 'US-001'.
-8. Clique em **OK**.
-9. Clique em **OK**.
+
+6. Expanda a seção **Registros a serem incluídos**.
+7. Selecione **Filtro**.
+8. No campo **Critérios**, insira uma ID do Cliente. Por exemplo, insira 'US-001'.
+9. Selecione **OK**.
+10. Selecione **OK**.
 
 ## <a name="print-collection-letters"></a>Imprimir cartas de cobrança
-1. Vá para **Crédito e cobranças > Carta de cobrança > Revisar e processar cartas de cobrança**.
+1. Vá para **Painel de navegação > Módulos > Crédito e coleções > Carta de cobrança > Revisar e processar cartas de cobrança**.
 2. No campo **Status**, selecione **Criado'**.
 3. No campo **Impresso**, selecione **Não impresso'**.
-4. Clique em **Imprimir**.
-5. Clique em **Nota de carta de cobrança**.
-6. Expanda a seção **Registros a serem incluídos**.
-7. Insira a data de fechamento para lançamentos.
-8. Clique em **OK** para imprimir a carta de cobrança.
+4. Selecione **Imprimir**.
+5. Selecione **Nota de carta de cobrança**.
+6. Na seção **Parâmetros**, insira a data de fechamento para lançamentos.
+7. Expanda a seção **Registros a serem incluídos** e insira os detalhes de Nota de carta de cobrança.
+8. Selecione **OK** para imprimir a carta de cobrança.
 9. Lance a carta de cobrança.
-   1. Clique em **Enviar**.
-   2. Inserir a nova data de lançamento para a carta de cobrança.
-   3. Expanda a seção **Registros a serem incluídos**.
-   4. Clique em **OK**.
-   5. No campo **Status**, selecione **Lançado'**.
-   6. No campo **Impresso**, selecione uma opção.
+
+    1. Selecione **Lançar**.
+    1. Inserir a nova data de lançamento para a carta de cobrança.
+    1. Expanda a seção **Registros a serem incluídos**.
+    1. Selecione **OK**.
+    1. No campo **Status**, selecione **Lançado'**.
+    1. No campo **Impresso**, selecione uma opção.
 
 ## <a name="control-collection-letters-at-the-customer-level"></a>Controle cartas de cobrança em nível de cliente
 Você também pode configurar cartas de cobrança em nível de cliente para que o código da carta de cobrança para cada transação seja rastreado, mas o processamento da carta de cobrança será baseado em um único nível de carta de cobrança que é armazenado para o cliente. A única carta de cobrança conterá todas as transações que estão vencidas para o cliente. Como os dias de carência agora são rastreados em nível de cliente, a próxima carta de cobrança não será enviada até que o número de dias de carência passe para a próxima carta de cobrança na sequência, mesmo que as transações expirem após o envio da última carta de cobrança. Esta opção reduz o número de cartas de cobrança enviadas por cliente. 
 
 ### <a name="set-up-the-customer-to-control-collection-letters-at-the-customer-level"></a>Configure o cliente para controlar as cartas de cobrança em nível de cliente
-1.  Vá para **Crédito e cobranças > Configuração > Parâmetros de contas a receber** e clique na guia **Cobranças**. 
+1.  Vá para **Painel de navegação > Módulos > Crédito e coleções > Configuração > Parâmetros de contas a receber** e selecione a guia **Cobranças**. 
 2.  Altere o valor de **Criar carta de cobrança por** para **Cliente**. 
-3.  Vá para **Crédito e cobranças > Carta de cobrança > Revisar e processar cartas de cobrança**. Apenas uma carta de cobrança será gerada para um cliente com todas as transações vencidas.
+3.  Vá para **Painel de navegação > Módulos > Crédito e coleções > Carta de cobrança > Revisar e processar cartas de cobrança**. Apenas uma carta de cobrança será gerada para um cliente com todas as transações vencidas.
 
 ## <a name="ignore-payments-and-credit-memos-when-calculating-the-collection-letter-code"></a>Ignore pagamentos e memorandos de crédito ao calcular o código da carta de cobrança
 Se você incluir pagamentos e memorandos de crédito nas transações que serão incluídas nas cartas de cobrança, talvez alguns pagamentos ou memorando de crédito disparem uma carta de cobrança. Você pode controlar como os pagamentos e os memorandos de crédito controlam o código de carta de cobrança alterando o valor do parâmetro **Ignore pagamentos e memorandos de crédito ao calcular o código da carta de cobrança**. 
 
 Para ignore pagamentos e memorandos de crédito ao calcular o código da carta de cobrança, faça o seguinte:
-1. Vá para **Crédito e cobranças > Configuração > Parâmetros de contas a receber** e clique na guia **Cobranças**. 
+
+1. Vá para **Painel de navegação > Módulos > Crédito e coleções > Configuração > Parâmetros de contas a receber** e clique na guia **Cobranças**. 
 2. Altere o valor de **Ignore pagamentos e memorandos de crédito ao calcular o código da carta de cobrança** para **Sim**.

@@ -1,9 +1,9 @@
 ---
-title: Contratos de serviço
+title: Visão geral sobre desenvolver e estabelecer contratos de serviço
 description: Os contratos de serviço permitem definir os recursos usados em uma típica visita de serviços e como esses recursos são faturados para o cliente.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 02/19/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6425dcf1c89f625d997be0dd4a52aaecb6e6d65
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ae7c3b6e1df9751d886f6eeff778e8045bd7df85
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568272"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865936"
 ---
-# <a name="service-agreements"></a>Contratos de serviço
+# <a name="develop-and-establish-service-agreements-overview"></a>Visão geral sobre desenvolver e estabelecer contratos de serviço
 
 [!include [banner](../includes/banner.md)]
 

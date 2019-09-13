@@ -1,9 +1,9 @@
 ---
-title: Alertas
+title: Visão geral dos alertas
 description: Este tópico fornece informações gerais sobre alertas no Microsoft Dynamics 365 for Finance and Operations. Você pode usar alertas para manter-se informado sobre os eventos que deseja acompanhar durante o dia útil.
 author: tjvass
 manager: AnnBe
-ms.date: 07/16/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 28ee34cd9133c634af98a50168e22efd0f74abce
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6079ba01275dceafc4d0c796611ded2920b3c539
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546930"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864905"
 ---
-# <a name="alerts"></a>Alertas
+# <a name="alerts-overview"></a>Visão geral dos alertas
 
 [!include [banner](../includes/banner.md)]
 
@@ -36,7 +36,7 @@ No planejamento de recursos empresariais (ERP), há vários cenários típicos n
 
 1. Abra a página **Todas as ordens de venda**.
 2. No Painel de Ação, na guia **Opções**, no grupo **Compartilhar**, selecione **Criar um alerta personalizado**.
-3. Na caixa de diálogo **Criar regra de alerta** , na guia rápida **Alertar-me quando**, no campo **Evento** , selecione **O registro foi criado**.
+3. Na caixa de diálogo **Criar regra de alerta**, na guia rápida **Alertar-me quando**, no campo **Evento**, selecione **O registro foi criado**.
 
 ### <a name="scenario-2-create-an-alert-rule-for-postponement-of-a-delivery-date"></a>Cenário 2: Criar uma regra de alerta para o adiamento de uma data de entrega
 
@@ -44,8 +44,8 @@ No planejamento de recursos empresariais (ERP), há vários cenários típicos n
 2. Selecione um ID da ordem de compra para acessar os detalhes da ordem de compra.
 3. Expanda a guia rápida **cabeçalho da Ordem de compra**.
 4. No Painel de Ação, na guia **Opções**, no grupo **Compartilhar**, selecione **Criar um alerta personalizado**.
-5. Na caixa de diálogo **Criar regra de alerta** , na guia rápida **Alertar-me quando**, no campo **Campo** , selecione **Data de entrega**.
-6. No campo **Evento** , selecione **foi adiado**.
+5. Na caixa de diálogo **Criar regra de alerta**, na guia rápida **Alertar-me quando**, no campo **Campo**, selecione **Data de entrega**.
+6. No campo **Evento**, selecione **foi adiado**.
     
 Depois que você fechar a caixa de diálogo **Criar regra de alerta**, sua regra aparecerá na página **Gerenciar regras de alerta**. Você pode usar a página **Gerenciar regras de alerta** para atualizar suas regras de alerta existentes. Por exemplo, você pode alterar os disparadores do evento, atualizar as notificações de eventos e atualizar as datas de vencimento. Para abrir a página **Gerenciar regras de alerta**, use o botão **Alertar-me** na guia **Opções** do Painel de Ação.
 
@@ -53,7 +53,7 @@ Depois que você fechar a caixa de diálogo **Criar regra de alerta**, sua regra
 
 Ao criar regras de alerta, é possível associar um evento predefinido com um campo específico. Por exemplo, a data especificada no campo é atingida ou o conteúdo do campo é alterado. Como alternativa, é possível associar um evento aos registros de uma página específica. Por exemplo, um registro é criado ou um registro é excluído.
 
-Quando o evento selecionado ocorre para o campo ou para um registro da página, um alerta é enviado a você. Por exemplo, você cria uma regra na qual associa o campo **Data de entrega** em uma linha específica da ordem de compra ao evento **venceu neste período** . Você define o período como cinco dias. Neste caso, um alerta é enviado cinco dias após a data de entrega dessa linha de ordem de compra.
+Quando o evento selecionado ocorre para o campo ou para um registro da página, um alerta é enviado a você. Por exemplo, você cria uma regra na qual associa o campo **Data de entrega** em uma linha específica da ordem de compra ao evento **venceu neste período**. Você define o período como cinco dias. Neste caso, um alerta é enviado cinco dias após a data de entrega dessa linha de ordem de compra.
 
 Além disso, é possível refinar as regras de alerta definindo as condições. Por exemplo, você pode ser alertado sobre novas ordens de compra criadas para contas de fornecedor específicas.
 

@@ -1,9 +1,9 @@
 ---
 title: Configurar transportadoras
-description: Este procedimento descreve como montar uma transportadora e definir detalhes como serviço, modo de envio, proposta de transporte, restrições de transporte e taxa de envio.
+description: Este tópico descreve como montar uma transportadora e definir detalhes como serviço, modo de envio, proposta de transporte, restrições de transporte e taxa de envio.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,82 +16,59 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c5ac13d17c97f20ee79e7faf57c570f02158424
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7a43a99e10b915f1265be14f2442069dae3a22e5
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569093"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867015"
 ---
 # <a name="set-up-shipping-carriers"></a>Configurar transportadoras
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimento descreve como montar uma transportadora e definir detalhes como serviço, modo de envio, proposta de transporte, restrições de transporte e taxa de envio. Um coordenador de transporte pode então atribuir uma transportadora a uma carga de entrada ou de saída.
+Este tópico descreve como montar uma transportadora e definir detalhes como serviço, modo de envio, proposta de transporte, restrições de transporte e taxa de envio. Um coordenador de transporte pode então atribuir uma transportadora a uma carga de entrada ou de saída.
 
 
 ## <a name="create-a-new-shipping-carrier"></a>Crie uma nova transportadora
-1. Vá para Gerenciamento de transporte > Configuração > Transportadoras > Transportadoras de envio.
-2. Clique em Novo.
-3. No campo Transportadora, digite um valor.
-4. No campo Nome, digite um valor.
-5. No campo Modo, clique no botão suspenso para abrir a pesquisa.
-6. Na lista, localize e selecione o PDV desejado.
-7. Na lista, clique no link na linha selecionada.
+1. Acesse **Painel de navegação > Módulos > Gerenciamento de transporte > Configuração > Transportadoras > Transportadoras de envio**.
+2. Selecione **Novo** no Painel de Ações.
+3. No campo **Transportadora**, digite um valor.
+4. No campo **Nome**, digite um valor.
+5. No campo **Modo**, selecione uma opção no menu suspenso.
 
 ## <a name="fill-in-the-general-information-for-the-shipping-carrier"></a>Preencha as informações gerais da transportadora
-1. Ative a expansão da seção Visão geral.
-2. Marque ou desmarque a caixa de seleção Ativar a transportadora.
-3. No campo Fornecedor, clique no botão suspenso para abrir a pesquisa.
-    * Selecione a conta do fornecedor para atribuí-la a transportadora.  
-4. Na lista, localize e selecione o PDV desejado.
-5. Na lista, clique no link na linha selecionada.
-6. No campo Tipo de proposta de transporte, selecione uma opção.
-    * Selecione Manual para usar a página Proposta de Transporte, ou selecione EDI para atualizar a proposta usando Intercâmbio Eletrônico de Dados (EDI).  
-7. Marque ou desmarque a caixa de seleção Ativar a transportadora.
+1. Ative a expansão da seção **Visão geral**.
+2. Marque ou desmarque a caixa de seleção **Ativar a transportadora**.
+3. No campo **Conta de Fornecedor**, selecione uma opção no menu suspenso. Selecione a conta do fornecedor para atribuí-la a transportadora.  
+4. No campo **Tipo de proposta de transporte**, selecione uma opção. Selecione **Manual** para usar a página Proposta de Transporte, ou selecione **EDI** para atualizar a proposta usando Intercâmbio Eletrônico de Dados (EDI).  
+5. Marque ou desmarque a caixa de seleção **Ativar a transportadora**.
 
 ## <a name="create-the-necessary-services-for-the-shipping-carrier"></a>Crie os serviços necessários para a transportadora
-1. Ative a expansão da seção Serviços.
-2. Clique em Novo.
-3. Na lista, marque a linha selecionada.
-4. No campo Serviço da transportadora, digite um valor.
-5. No campo Nome, digite um valor.
-6. No campo Método de transporte, clique no botão suspenso para abrir a pesquisa.
-7. Na lista, localize e selecione o PDV desejado.
-8. Na lista, clique no link na linha selecionada.
+1. Ative a expansão da seção **Serviços**.
+2. Selecione **Novo**.
+3. No campo **Serviço da transportadora**, digite um valor.
+4. No campo **Nome**, digite um valor.
+5. No campo **Método de transporte**, selecione uma opção no menu suspenso.
 
 ## <a name="set-up-the-address-for-the-carrier-optional"></a>Configure o endereço da transportadora (opcional)
-1. Alternar a expansão da seção Endereços.
-2. Clique em Novo.
-3. No campo Nome ou Descrição, digite um valor.
-4. No campo País/região, clique no botão suspenso para abrir a pesquisa.
-5. Na lista, clique no link na linha selecionada.
-6. No campo CEP/código postal, clique no botão suspenso para abrir a pesquisa.
-7. Na lista, localize e selecione o registro desejado.
-8. Na lista, clique no link na linha selecionada.
-9. No campo Rua, digite um valor.
-10. Clique em OK.
+1. Alternar a expansão da seção **Endereços**.
+2. Selecione **Novo**.
+3. No campo **Nome ou Descrição**, digite um valor.
+4. No campo **País/região**, selecione uma opção no menu suspenso.
+5. No campo **CEP/código postal de destino**, selecione uma opção no menu suspenso.
+6. No campo **Rua**, digite um valor.
+7. Selecione **OK**.
 
 ## <a name="set-up-the-rating-profile-for-the-shipping-carrier"></a>Configure o perfil de classificação para a transportadora.
-1. Ative a expansão da seção Perfis de classificação.
-2. Clique em Novo.
-3. Na lista, marque a linha selecionada.
-4. No campo Perfil de classificação, digite um valor.
-5. No campo Nome, digite um valor.
-6. No campo Local, clique no botão suspenso para abrir a pesquisa.
-7. Na lista, localize e selecione o registro desejado.
-8. Na lista, clique no link na linha selecionada.
-9. No campo Depósito, clique no botão suspenso para abrir a pesquisa.
-10. Na lista, localize e selecione o registro desejado.
-11. Na lista, clique no link na linha selecionada.
-12. No campo Mecanismo de classificação, clique no botão suspenso para abrir a pesquisa.
-    * Selecione o Mecanismo de taxa que está de acordo com o contrato que você tem com a transportadora.  
-13. Na lista, localize e selecione o PDV desejado.
-14. Na lista, clique no link na linha selecionada.
-15. No campo Mestre de taxa, clique no botão suspenso para abrir a pesquisa.
-16. Na lista, localize e selecione o registro desejado.
-17. Na lista, clique no link na linha selecionada.
-18. No campo Mecanismo de tempo de trânsito, clique no botão suspenso para abrir a pesquisa.
-19. Na lista, clique no link na linha selecionada.
-20. Clique em Salvar.
+1. Ative a expansão da seção **Perfis de classificação**.
+2. Selecione **Novo**.
+3. No campo **Perfil de classificação**, digite um valor.
+4. No campo **Nome**, digite um valor.
+5. No campo **Local**, selecione uma opção no menu suspenso.
+6. No campo **Depósito**, selecione uma opção no menu suspenso.
+7. No campo **Mecanismo de taxa**, selecione uma opção no menu suspenso. Selecione o Mecanismo de taxa que está de acordo com o contrato que você tem com a transportadora.  
+8. No campo **Mestre de taxa**, selecione uma opção no menu suspenso.
+9. No campo **Mecanismo de tempo em trânsito**, selecione uma opção no menu suspenso.
+10. Selecione **Salvar**.
 

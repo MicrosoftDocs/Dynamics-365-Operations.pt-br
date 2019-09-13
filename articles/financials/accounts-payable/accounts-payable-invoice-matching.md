@@ -1,9 +1,9 @@
 ---
-title: Conciliação de faturas de contas a pagar
+title: Visão geral sobre conciliação de faturas de contas a pagar
 description: A conciliação de faturas de contas a pagar é o processo de conciliar as informações da fatura do fornecedor e do recebimento do produto.
 author: abruer
 manager: AnnBe
-ms.date: 02/13/2019
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe464c714620590d77a0a5b2c2aeadb29381bf60
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: b45c6f20bf5b6fb02379f71b5806c6c147789e73
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837485"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865055"
 ---
-# <a name="accounts-payable-invoice-matching"></a>Conciliação de faturas de contas a pagar
+# <a name="accounts-payable-invoice-matching-overview"></a>Visão geral sobre conciliação de faturas de contas a pagar
 
 [!include [banner](../includes/banner.md)]
 
@@ -58,12 +58,12 @@ Você pode usar a conciliação de totais de fatura para ajudar a garantir que o
 
 | Campo Total    | Total da fatura real | Total da fatura esperado | Porcentagem de variação | Status de conciliação |
 |----------------|----------------------|------------------------|---------------------|--------------|
-| Saldo        | 495.00               | 495.00                 | 0%                  | Aprovado       |
-| Desconto total | 0,00                 | 9.90                   | 100%                | Falhou       |
-| Encargos        | 64.90                | 64.90                  | 0%                  | Aprovado       |
-| Impostos      | 139.98               | 137.50                 | 2%                  | Aprovado       |
+| Saldo        | 495,00               | 495,00                 | 0%                  | Aprovado       |
+| Desconto total | 0,00                 | 9,90                   | 100%                | Falhou       |
+| Encargos        | 64,90                | 64,90                  | 0%                  | Aprovado       |
+| Impostos      | 139,98               | 137,50                 | 2%                  | Aprovado       |
 | Arredondamento      | 0,00                 | 0,00                   | 0%                  | Aprovado       |
-| Valor da fatura | 699.88               | 687.50                 | 2%                  | Aprovado       |
+| Valor da fatura | 699,88               | 687,50                 | 2%                  | Aprovado       |
 
 A conciliação de totais de fatura é controlada para a entidade legal pela alternância dos totais de faturas de correspondência na página Parâmetros de contas a pagar. A conciliação é realizada nos totais da fatura esperada e nos totais da fatura real. Os totais de fatura esperados são calculados com base nos preços, encargos e informações de imposto da ordem de compra e das quantidades da fatura.
 
@@ -76,23 +76,23 @@ Se uma porcentagem de tolerância do total de preço de compra for especificada,
 
 | Status de conciliação | Valor líquido da fatura | Valor líquido esperado | Total de preço de compra não conciliado (valor de variação) | Porcentagem total de preço de compra não conciliado (porcentagem de variação) | Porcentagem de tolerância do total de preço de compra |
 |--------------|--------------------|---------------------|--------------------------------------------------|-----------------------------------------------------------------|----------------------------------------|
-| Aprovado       | R$ 105,00             | 100,00              | 5,00                                             | 5%                                                              | 10%                                    |
-| Falhou       | 150.00             | 100,00              | 50,00                                            | 50%                                                             | 10%                                    |
+| Aprovado       | 105,00             | 100,00              | 5,00                                             | 5%                                                              | 10%                                    |
+| Falhou       | 150,00             | 100,00              | 50,00                                            | 50%                                                             | 10%                                    |
 
 Se um valor de tolerância do total de preço de compra for especificado, cinco campos são comparados, como mostra a tabela a seguir. Como o valor de tolerância do total de preço de compra é 100,00%, o valor de variação do total do preço de 105,00 representa uma discrepância na conciliação.
 
 | Status de conciliação | Valor líquido da fatura | Valor líquido esperado | Total de preço de compra não conciliado (valor de variação) | Total de preço de compra não conciliado na moeda contábil (valor de variação) | Tolerância do total de preço de compra |
 |--------------|--------------------|---------------------|--------------------------------------------------|-------------------------------------------------------------------------|--------------------------------|
-| Aprovado       | 150.00             | 100,00              | 50,00                                            | 50,00                                                                   | 100,00                         |
-| Falhou       | 205.00             | 100,00              | R$ 105,00                                           | R$ 105,00                                                                  | 100,00                         |
+| Aprovado       | 150,00             | 100,00              | 50,00                                            | 50,00                                                                   | 100,00                         |
+| Falhou       | 205,00             | 100,00              | 105,00                                           | 105,00                                                                  | 100,00                         |
 
 Se a conciliação dos totais do preço estiver definida com uma tolerância de porcentagem e uma tolerância de valor, algumas vezes considerado um valor que não deve ser excedido, ambas tolerâncias são consideradas ao avaliar uma linha como discrepância de conciliação. Se a porcentagem ou o valor excederem a tolerância, como mostrado nas linhas 150,00 e 205,00 na tabela a seguir, a linha tem uma discrepância de conciliação.
 
 | Status de conciliação | Valor líquido da fatura | Valor líquido esperado | Porcentagem total de preço de compra não conciliado (porcentagem de variação) | Porcentagem de tolerância do total de preço de compra | Total de preço de compra não conciliado na moeda contábil (valor de variação) | Tolerância do total de preço de compra |
 |--------------|--------------------|---------------------|-----------------------------------------------------------------|----------------------------------------|-------------------------------------------------------------------------|--------------------------------|
-| Aprovado       | R$ 105,00             | 100,00              | 5%                                                              | 10%                                    | 5,00                                                                    | 100,00                         |
-| Falhou       | 150.00             | 100,00              | 50%                                                             | 10%                                    | 50,00                                                                   | 100,00                         |
-| Falhou       | 205.00             | 100,00              | 105%                                                            | 10%                                    | R$ 105,00                                                                  | 100,00                         |
+| Aprovado       | 105,00             | 100,00              | 5%                                                              | 10%                                    | 5,00                                                                    | 100,00                         |
+| Falhou       | 150,00             | 100,00              | 50%                                                             | 10%                                    | 50,00                                                                   | 100,00                         |
+| Falhou       | 205,00             | 100,00              | 105%                                                            | 10%                                    | 105,00                                                                  | 100,00                         |
 
 A conciliação dupla é controlada para a entidade legal no campo Política de conciliação de linha na página Parâmetros de contas a pagar. Dependendo da seleção no campo Permitir a substituição da política de conciliação, você pode selecionar a conciliação dupla para um fornecedor, item ou combinação de item e fornecedor específica na página Política de conciliação, e para uma ordem de compra específica na página Ordem de compra.
 
@@ -105,15 +105,15 @@ Nove valores de linha são comparados na página Detalhes da conciliação de fa
 
 | Campo Linha                    | Valor da fatura | Valor da ordem de compra | Porcentagem de variação | Status de conciliação |
 |-------------------------------|---------------|----------------------|---------------------|--------------|
-| Preço unitário                    | 55.40         | 55.38                | 0%                  | Aprovado       |
-| Unidade de preço                    | 1.00          | 1.00                 | 0%                  | Aprovado       |
+| Preço unitário                    | 55.40         | 55,38                | 0%                  | Aprovado       |
+| Unidade de preço                    | 1,00          | 1,00                 | 0%                  | Aprovado       |
 | Encargos de compras          | 50,00         | 0,00                 | 100%                | Falhou       |
 | Desconto                      | 0,00          | 0,00                 | 0%                  | Aprovado       |
 | Percentual de desconto              | 0,00          | 0,00                 | 0%                  | Aprovado       |
 | Desconto combinado            | 0,00          | 0,00                 | 0%                  | Aprovado       |
 | Porcentagem de desconto combinado | 0,00          | 0,00                 | 0%                  | Aprovado       |
-| Valor líquido                    | 271.60        | 221.52               | 22,61%              | Falhou       |
-| Preço líquido unitário                | 67.9000       | 55.3800              | 22,61%              | Falhou       |
+| Valor líquido                    | 271,60        | 221,52               | 22,61%              | Falhou       |
+| Preço líquido unitário                | 67,9000       | 55,3800              | 22,61%              | Falhou       |
 
 A conciliação dupla é controlada para a entidade legal no campo Política de conciliação de linha na página Parâmetros de contas a pagar. Dependendo da seleção no campo Permitir a substituição da política de conciliação, você pode selecionar a conciliação dupla para um fornecedor, item ou combinação de item e fornecedor específica na página Política de conciliação, e para uma ordem de compra específica na página Ordem de compra. 
 
@@ -129,16 +129,16 @@ A ordem de compra contém a seguinte linha.
 
 | Nº do item | Quantidade | Preço unitário | Valor líquido |
 |-------------|----------|------------|------------|
-| Unidade USB   | 1.000    | 10.00      | 10,000.00  |
+| Unidade USB   | 1.000    | 10,00      | 10.000,00  |
 
 Três faturas são lançadas, como mostra a tabela a seguir. Há uma discrepância na conciliação de faturas para a fatura 3 porque a variação de 1.880,00 excede o valor de tolerância do total de preço de compra de 500,00. Para a conciliação de totais de preço, o valor líquido da fatura inclui todas as faturas lançadas anteriormente para a fatura na qual você está trabalhando no momento.
 
 | Nº do item          | Quantidade | Preço unitário | Valor líquido | Conciliação de preço | Conciliação de total de preço |
 |----------------------|----------|------------|------------|-------------|-------------------|
-| fatura 1: unidade de USB | 800      | 10.80      | 8,640.00   | Aprovado      | Aprovado            |
-| fatura 2: unidade de USB | 100      | 10.80      | 1,080.00   | Aprovado      | Aprovado            |
-| fatura 3: unidade de USB | 200      | 10.80      | 2,160.00   | Aprovado      | Falhou            |
-| Total                |          |            | 11,880.00  |             |                   |
+| Fatura 1: unidade de USB | 800      | 10,80      | 8.640,00   | Aprovado      | Aprovado            |
+| Fatura 2: unidade de USB | 100      | 10,80      | 1.080,00   | Aprovado      | Aprovado            |
+| Fatura 3: unidade de USB | 200      | 10,80      | 2.160,00   | Aprovado      | Falhou            |
+| Total                |          |            | 11.880,00  |             |                   |
 
 ## <a name="three-way-matching"></a>Conciliação tripla
 
@@ -148,15 +148,15 @@ Os mesmos valores de linha são comparados na página Detalhes da conciliação 
 
 | Campo Linha                    | Valor da fatura | Valor da ordem de compra | Porcentagem de variação | Status de conciliação |
 |-------------------------------|---------------|----------------------|---------------------|--------------|
-| Preço unitário                    | 55.40         | 55.38                | 0%                  | Aprovado       |
-| Unidade de preço                    | 1.00          | 1.00                 | 0%                  | Aprovado       |
+| Preço unitário                    | 55,40         | 55,38                | 0%                  | Aprovado       |
+| Unidade de preço                    | 1,00          | 1,00                 | 0%                  | Aprovado       |
 | Encargos de compras          | 50,00         | 0,00                 | 100%                | Falhou       |
 | Desconto                      | 0,00          | 0,00                 | 0%                  | Aprovado       |
 | Percentual de desconto              | 0,00          | 0,00                 | 0%                  | Aprovado       |
 | Desconto combinado            | 0,00          | 0,00                 | 0%                  | Aprovado       |
 | Porcentagem de desconto combinado | 0,00          | 0,00                 | 0%                  | Aprovado       |
-| Valor líquido                    | 271.60        | 221.52               | 22,61%              | Falhou       |
-| Preço líquido unitário                | 67.9000       | 55.3800              | 22,61%              | Falhou       |
+| Valor líquido                    | 271,60        | 221,52               | 22,61%              | Falhou       |
+| Preço líquido unitário                | 67,9000       | 55,3800              | 22,61%              | Falhou       |
 
 | Campo Linha                     | Valor da fatura | Status de conciliação |
 |--------------------------------|---------------|--------------|

@@ -1,9 +1,9 @@
 ---
 title: Exibir transações de imposto lançadas
-description: Você pode exibir transações de impostos sobre vendas de várias páginas dependendo do que você precisa exibir.
+description: Este tópico descreve alguns maneiras de exibir transações de impostos sobre vendas postadas.
 author: twheeloc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,29 +16,36 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c5668c1cd4325f557d83a2291c8139f65c4d170e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5a2ff8b46d20fa012cbce817ae4e95b4799149ec
+ms.sourcegitcommit: 0e2e4d8419c03a30d2223662ba8d403a28fa31eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846190"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870859"
 ---
 # <a name="view-posted-sales-tax-transactions"></a>Exibir transações de imposto lançadas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Você pode exibir transações de impostos sobre vendas de várias páginas dependendo do que você precisa exibir. Esta tarefa usa a empresa de demonstração USMF.
+Este tópico descreve alguns maneiras de exibir transações de impostos sobre vendas postadas. Você pode exibir transações de impostos sobre vendas de várias páginas dependendo do que você precisa exibir. Esta tarefa usa a empresa de demonstração USMF.
 
-1. Vá para Imposto > Consultas e relatórios > Consultas de impostos > Impostos lançados.
-2. Clique em Mostrar filtros.
+# <a name="posted-sales-tax-page"></a>Página Imposto lançado
+
+1. No painel de navegação, acesse **Módulos > Imposto > Consultas e relatórios > Consultas de imposto > Imposto lançado**.
+2. Selecione **Exibir filtros** para refinar a exibição de transações específicas.
 3. Feche a página.
-4. Vá para Imposto > Impostos indiretos > Imposto sobre vendas > Períodos de liquidação de impostos sobre vendas.
-5. Expanda a seção dos intervalos de períodos.
-6. Selecione o intervalo de seu interesse.
-7. Exibir transações de imposto lançadas para o intervalo do período de liquidação selecionado.
-8. Você pode filtrar a lista de transações de impostos sobre vendas.
-9. Feche a página.
-10. Vá para Imposto > Impostos indiretos > Imposto sobre vendas > Códigos de imposto sobre vendas.
-11. No Painel de Ação, clique em Código de impostos de vendas.
-12. Clique em Impostos lançados.
+
+# <a name="sales-tax-settlement-periods-page"></a>Página de períodos de liquidação de imposto
+
+1. No painel de navegação, acesse **Módulos > Imposto > Impostos indiretos > Impostos > Períodos de liquidação de imposto**.
+2. Expanda a seção **Intervalos de períodos**.
+3. Selecione o intervalo de seu interesse.
+4. Você pode filtrar a lista de transações de impostos sobre vendas.
+5. Feche a página.
+
+# <a name="sales-tax-codes-page"></a>Página Códigos de imposto
+
+1. No painel de navegação, acesse **Módulos > Imposto > Impostos indiretos > Imposto > Códigos de imposto**.
+2. No Painel de Ação, selecione **Códigos de imposto**.
+3. Selecione **Imposto lançado**.
 

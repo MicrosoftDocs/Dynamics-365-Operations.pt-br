@@ -1,9 +1,9 @@
 ---
-title: Brasil
+title: Visão geral de Brasil
 description: Este tópico fornece links para recursos da documentação do Microsoft Dynamics 365 for Finance and Operations para o Brasil.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 02/13/2019
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.search.region: Brazil
 ms.author: shylaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 26d1d119283d3109171dcead6d46d1898d7da49f
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 3513a2508782b57d8d76250433fd4bbd032b9e8e
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1852146"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865716"
 ---
-# <a name="brazil"></a>Brasil 
+# <a name="brazil-overview"></a>Visão geral de Brasil
 
 [!include [banner](../includes/banner.md)]
 

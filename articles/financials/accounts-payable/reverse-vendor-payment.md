@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6587505fc5a729ffd82ab65aca7d5aa6ca4a265
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: db9208c8e76d963d5b8f6bee6b7c73268af68734
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837243"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867741"
 ---
 # <a name="reverse-a-vendor-payment"></a>Estornar um pagamento do fornecedor
 
@@ -48,7 +48,7 @@ Para saber qual método sua organização usa, exiba a página **Parâmetros de 
 Se sua organização quiser lançar de imediato estornos de cheque ao clicar no formulário **Estorno de pagamento** na página **Cheques**. Na página **Parâmetros de gerenciamento de caixa e bancos**, defina a opção **Usar processo de revisão para estornos de pagamento** como **Não**. Na página **Cheques**, você pode selecionar o cheque para estorno e selecionar **Estorno de pagamento**. É possível digitar a data e selecionar o motivo do estorno.
 
 ## <a name="reverse-posted-checks-after-they-are-reviewed-in-the-check-reversal-journal"></a>Estornar cheques lançados eles serem revisados no diário de estornos de cheque
-Se sua organização quiser revisar estornos de cheques antes de eles serem lançados, crie um diário de estornos de cheque para revisão na página **Parâmetros de gerenciamento de caixa e bancos**, defina a opção **Usar processo de revisão para estornos de pagamento** como **Sim**. Na página **Cheques** você pode selecionar o cheque para estorno, selecionar **Estorno de pagamento**. É possível digitar a data e selecionar o motivo do estorno. Você também deverá selecionar um nome de diário para criar um diário de estorno de cheque.
+Se sua organização quiser revisar estornos de cheques antes de eles serem lançados, crie um diário de estornos de cheque para revisão na página **Parâmetros de gerenciamento de caixa e bancos**, defina a opção **Usar processo de revisão para estornos de pagamento** como **Sim**. Na página **Cheques** você pode selecionar o cheque para estorno, selecionar **Estorno de pagamento**. É possível digitar a data e selecionar o motivo do estorno. A razão financeira deve ser configurada para tipos de banco e fornecedor. Você também deverá selecionar um nome de diário para criar um diário de estorno de cheque.
 
 ### <a name="review-a-reversal"></a>Revisar um estorno
 

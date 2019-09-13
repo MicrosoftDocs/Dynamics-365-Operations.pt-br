@@ -3,7 +3,7 @@ title: Visão geral do gerenciamento de recursos
 description: Este tópico descreve o recurso de gerenciamento de recursos e como você pode usá-lo.
 author: mikefalkner
 manager: AnnBe
-ms.date: 07/17/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 21eaf2fdcadf8fe9f91438a97a88cc3bddab8286
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: 6aeb5383520f799223d62420f6e0c1079c6c961f
+ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1862929"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "1887102"
 ---
 # <a name="feature-management-overview"></a>Visão geral do gerenciamento de recursos
 
@@ -103,8 +103,9 @@ Todos os recursos que possam ser habilitados serão habilitados. Se determinado 
 
 Por padrão, todos os recursos adicionados ao seu ambiente são desativados, a menos que sejam obrigatórios. Contudo, caso você deseje ativar automaticamente todos os novos recursos, é possível usar a lista suspensa sob o título do espaço de trabalho para alterar o que ocorre quando novos recursos são adicionados.
 
-- Selecione **Todos os novos recursos serão habilitados por padrão** para ativar automaticamente todos os novos recursos quando forem adicionados ao ambiente.
-- Selecione **Todos os novos recursos serão desabilitados por padrão** para desativar automaticamente todos os novos recursos quando forem adicionados ao ambiente.
+- Selecione **Habilitar novos recursos automaticamente** para ativar automaticamente todos os novos recursos quando forem adicionados ao ambiente.
+- Selecione **Não habilitar novos recursos automaticamente** para desativar todos os novos recursos quando forem adicionados ao ambiente.
+
 
 Quando você habilita todos os recursos automaticamente, isso habilita todos os recursos que seriam habilitados se você clicasse no botão **Habilitar tudo**. Isso não habilitará os recursos que exijam confirmação ou os recursos que não possam ser habilitados até uma ação ser executada.
 

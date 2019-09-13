@@ -1,9 +1,9 @@
 ---
-title: Visão geral do processo de NF-e para o Brasil
+title: Visão geral do processo de NF-e do Brasil
 description: Este tópico fornece uma visão geral do processo para configurar e enviar uma Nota fiscal eletrônica de (NF-e) para registrar a movimentação de itens e de serviço entre duas partes.
 author: sndray
 manager: AnnBe
-ms.date: 08/08/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 81e24220cce58cf40fc6d5d8d0b96d93df2c557e
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: d524c2a785d984bb03b4386d660b6e8a2a779760
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1849376"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865657"
 ---
-# <a name="nf-e-process-overview-for-brazil"></a>Visão geral do processo de NF-e para o Brasil
+# <a name="brazil-nf-e-process-overview"></a>Visão geral do processo de NF-e do Brasil 
 
 [!include [banner](../includes/banner.md)]
 

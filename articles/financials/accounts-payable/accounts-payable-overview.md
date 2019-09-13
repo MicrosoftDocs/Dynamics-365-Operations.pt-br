@@ -1,9 +1,9 @@
 ---
-title: Configurar contas a pagar
+title: Visão geral sobre configurar contas a pagar
 description: Este artigo descreve as páginas que você usa para configurar a funcionalidades básicas e opcionais de contas a pagar no Microsoft Dynamics 365 for Finance and Operations. Também mostra as etapas de configuração que devem ser concluídas antes de começar a configurar as contas a pagar.
 author: abruer
 manager: AnnBe
-ms.date: 08/08/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d8642b27f222ed080539e63b0608a52aefbe64e8
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ce2caf8df871ee8f577b3a1af9d71244a1dc4694
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837461"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864981"
 ---
-# <a name="configure-accounts-payable"></a>Configurar contas a pagar
+# <a name="configure-accounts-payable-overview"></a>Visão geral sobre configurar contas a pagar
 
 [!include [banner](../includes/banner.md)]
 
@@ -81,38 +81,38 @@ As páginas de configuração adicional são organizados por funcionalidade.
 
 -   Na página Código de encargos, configure os códigos para os encargos que são usados em ordens de compra.
 -   Na página Grupo de encargos de fornecedor, crie e mantenha grupos de encargos para fornecedores.
--   Na página Grupos de encargos de item , crie e mantenha grupos de encargos para itens.
--   Na página Encargos automáticos , defina os encargos que são atribuídos automaticamente às ordens.
+-   Na página Grupos de encargos de item, crie e mantenha grupos de encargos para itens.
+-   Na página Encargos automáticos, defina os encargos que são atribuídos automaticamente às ordens.
 
 **Itens suplementares**
 
--   Na página Grupos de itens complementares - Fornecedor , crie e mantenha grupos de itens complementadores para fornecedores.
--   Na página Grupos de itens complementares - Estoque , crie e mantenha grupos de itens complementadores para itens.
+-   Na página Grupos de itens complementares - Fornecedor, crie e mantenha grupos de itens complementadores para fornecedores.
+-   Na página Grupos de itens complementares - Estoque, crie e mantenha grupos de itens complementadores para itens.
 
 **Distribuição**
 
--   Na página Condições de entrega , crie e mantenha as condições para uma transferência de item do vendedor para o comprador.
--   Na página Modos de entrega , crie e mantenha os métodos de transporte usados quando uma ordem é entregue do vendedor ao comprador.
--   Na página Códigos de destino , crie e mantenha identificadores e descrições para os destinos de entrega.
+-   Na página Condições de entrega, crie e mantenha as condições para uma transferência de item do vendedor para o comprador.
+-   Na página Modos de entrega, crie e mantenha os métodos de transporte usados quando uma ordem é entregue do vendedor ao comprador.
+-   Na página Códigos de destino, crie e mantenha identificadores e descrições para os destinos de entrega.
 
 **Formulários**
 
--   Na página Notas do formulário , crie o texto padrão que aparece em diversas páginas.
--   Na página Parâmetros de classificação de formulário , configure a ordem de classificação para requisições, listas de recebimento, guias de remessa, e faturas.
--   Na página Gerenciamento de impressão , configure as informações de gerenciamento de impressão para documentos originais e cópias de páginas.
+-   Na página Notas do formulário, crie o texto padrão que aparece em diversas páginas.
+-   Na página Parâmetros de classificação de formulário, configure a ordem de classificação para requisições, listas de recebimento, guias de remessa, e faturas.
+-   Na página Gerenciamento de impressão, configure as informações de gerenciamento de impressão para documentos originais e cópias de páginas.
 
 **Pagamentos**
 
--   Na página Descontos à vista , configure e gerencie as condições para a obtenção de descontos à vista. Os códigos de desconto à vista estão associados a fornecedores e são aplicados a ordens de compra.
--   Na página Planos de pagamento , configure os planos de pagamento usados para gerenciar pagamentos a prestação para fornecedores.
--   Na página Dias de pagamento , defina os dias de pagamento usados para calcular as datas de validade, e especifique os dias de pagamento para um dia específico da semana ou mês.
--   Na página Taxa de pagamento , crie e mantenha as taxas de pagamento que estão associadas aos fornecedores.
--   Na página Instrução de pagamento , crie e mantenha as instruções de pagamento.
+-   Na página Descontos à vista, configure e gerencie as condições para a obtenção de descontos à vista. Os códigos de desconto à vista estão associados a fornecedores e são aplicados a ordens de compra.
+-   Na página Planos de pagamento, configure os planos de pagamento usados para gerenciar pagamentos a prestação para fornecedores.
+-   Na página Dias de pagamento, defina os dias de pagamento usados para calcular as datas de validade, e especifique os dias de pagamento para um dia específico da semana ou mês.
+-   Na página Taxa de pagamento, crie e mantenha as taxas de pagamento que estão associadas aos fornecedores.
+-   Na página Instrução de pagamento, crie e mantenha as instruções de pagamento.
 
 **Estatísticas**
 
--   Na página Definições do período de classificação por vencimento , configure intervalos definidos pelo usuário para analisar a distribuição de vencimentos de contas de fornecedores.
--   Na página Linha de negócio , crie os códigos de linha de negócio (LOB) que são atribuídos aos fornecedores.
+-   Na página Definições do período de classificação por vencimento, configure intervalos definidos pelo usuário para analisar a distribuição de vencimentos de contas de fornecedores.
+-   Na página Linha de negócio, crie os códigos de linha de negócio (LOB) que são atribuídos aos fornecedores.
 
 **Imposto 1099**
 
@@ -121,7 +121,7 @@ As páginas de configuração adicional são organizados por funcionalidade.
 ## <a name="optional-setup-for-other-modules"></a>**Configuração opcional para outros módulos**
 **Administração da organização**
 
--   Na página Sequências numéricas , configure os grupos de sequência numérica para números de fatura.
+-   Na página Sequências numéricas, configure os grupos de sequência numérica para números de fatura.
 -   Nas páginas a seguir, configure as informações de endereço:
     -   Configuração de endereço
     -   Códigos NAF
@@ -129,7 +129,7 @@ As páginas de configuração adicional são organizados por funcionalidade.
 
 **Contabilidade**
 
--   Na página Dimensões financeiras , configure as dimensões financeiras.
+-   Na página Dimensões financeiras, configure as dimensões financeiras.
 -   Nas páginas a seguir, configure as informações de imposto:
     -   Códigos de imposto
     -   Grupos de impostos

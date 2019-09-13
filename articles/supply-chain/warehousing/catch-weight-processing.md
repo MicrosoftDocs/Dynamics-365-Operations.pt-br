@@ -3,7 +3,7 @@ title: Processamento de produtos de peso variável com gerenciamento de depósit
 description: Este tópico descreve como usar modelos de trabalho e diretivas de localização para determinar como e onde o trabalho é realizado no depósito.
 author: perlynne
 manager: AnnBe
-ms.date: 03/18/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: ed588ea28bec3e734f9648c1fbd7551ab0b3cdda
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d5e9f8e4d154e5f56ee7ceae666cd935d6ceb460
+ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836090"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "1887126"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Processamento de produtos de peso variável com gerenciamento de depósito
 
@@ -136,7 +136,6 @@ Nem todos os fluxos de trabalho dão suporte ao processamento de produtos de pes
 
 - A criação manual de ordens de quarentena não tem suporte para produtos de peso variável.
 - A movimentação manual de estoque relacionado ao trabalho não tem suporte para produtos de peso variável.
-- A consolidação de placas de licença não tem suporte para produtos de peso variável.
 - A carga da placa de licenças para inicializar o estoque de depósito não tem suporte para produtos de peso variável.
 - Processos de balanceamento de lote não têm suporte para produto de peso variável.
 - O manuseio de estoque físico negativo não tem suporte para produtos de peso variável.
@@ -147,7 +146,6 @@ Nem todos os fluxos de trabalho dão suporte ao processamento de produtos de pes
 - A funcionalidade de separação de cluster não tem suporte para produtos de peso variável.
 - O processamento do depósito de separação e embalagem não tem suporte para produtos de peso variável.
 - Para produtos de peso variável, o trabalho definido em um modelo de trabalho pode ser executado automaticamente.
-- A funcionalidade de trabalho de reversão não tem suporte para produtos de peso variável.
 - Para produtos de peso variável, não há suporte para o processamento manual da estação de embalagem onde o trabalho é criado após o fechamento dos contêineres.
 - A funcionalidade de verificação pcs por pcs não tem suporte para produtos de peso variável.
  

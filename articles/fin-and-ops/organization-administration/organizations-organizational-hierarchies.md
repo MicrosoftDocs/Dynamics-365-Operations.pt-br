@@ -1,9 +1,9 @@
 ---
-title: Organizações e hierarquias da organização
+title: Visão geral de organizações e hierarquias organizacionais
 description: Uma organização é um grupo da pessoas que está trabalhando em conjunto para realizar um processo comercial ou atingir uma meta. As hierarquias da organização representam os relacionamentos entre as organizações que compõem sua empresa.
 author: sericks007
 manager: AnnBe
-ms.date: 08/18/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72834769e393382ac511ad3af21544efddb049d3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e35abeef2ef79dd994fac7d0ee0578591427b595
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545824"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864759"
 ---
-# <a name="organizations-and-organizational-hierarchies"></a>Organizações e hierarquias da organização
+# <a name="organizations-and-organizational-hierarchies-overview"></a>Visão geral de organizações e hierarquias organizacionais
 
 [!include [banner](../includes/banner.md)]
 

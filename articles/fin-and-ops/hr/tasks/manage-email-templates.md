@@ -1,9 +1,9 @@
 ---
 title: Gerenciar modelos de email
-description: Você pode transferir informações de base de dados da sua organização para indicadores em um novo documento e usá-las em modelos que o ajudam a eficientemente se comunicar com os candidatos.
+description: Este tópico explica como gerenciar modelos de email.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4667d0506c5ae6bea87b982c7feebab8963797a6
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3ecfa720dfa9b3ed6ee15ec68498d2a46612a9ae
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1508024"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867478"
 ---
 # <a name="manage-email-templates"></a>Gerenciar modelos de email
 
@@ -31,23 +31,20 @@ Você pode transferir informações de base de dados da sua organização para i
 
 
 ## <a name="select-which-bookmarks-to-use-in-your-email-templates"></a>Selecione a marca um endereço da Internet para ser usada nos modelos de email
-1. Vá para Indicadores de solicitação de emprego.
+1. No painel de navegação, vá para **Módulos > Recursos Humanos > Recrutamento > Comunicação > Indicadores de solicitações de emprego**.
 2. Na lista, localize e selecione o registro de correspondência desejado.
-3. Clique em Editar.
-4. Na lista, localize e selecione o PDV desejado.
-    * Selecione os campos que você gostaria de poder usar em um modelo de email para a ação de correspondência selecionada e mova os campos do indicador.  
+3. Selecione **Editar**.
+4. Selecione os campos que você gostaria de poder usar em um modelo de email para a ação de correspondência selecionada e mova os campos do indicador.  
 5. Feche a página.
 
 ## <a name="create-an-email-template"></a>Criar um modelo de email
-1. Vá para para Recursos humanos > Recrutamento > Comunicação > Modelos de email de solicitação de emprego.
-2. Clique em Novo.
-3. No campo Ação de correspondência, selecione 'Entrevista'.
-    * Selecione a ação de correspondência que contém os indicadores para usar este tipo de comunicação de email.  
-4. No campo Modelo de e-mail, digite um valor.
-5. No campo Assunto, digite um valor.
-6. No campo Texto, digite um valor.
+1. No painel de navegação, vá para **Módulos > Recursos Humanos > Recrutamento > Comunicação > Modelos de email de solicitação de emprego**.
+2. Selecione **Novo**.
+3. No campo **Ação de correspondência**, selecione **Entrevista**. Selecione a ação de correspondência que contém os indicadores para usar este tipo de comunicação de email.  
+4. No campo **Modelo de email**, digite um valor.
+5. No campo **Assunto**, digite um valor.
+6. No campo **Texto**, digite um valor.
 7. Na lista, localize e selecione o indicador desejado.
 8. Continue digitando a mensagem de email inserindo os campos dos indicadores onde desejado.
-    * Continue digitando a mensagem de email inserindo os campos dos indicadores onde desejado.  
-9. Clique em Salvar.
+9. Selecione **Salvar**.
 
