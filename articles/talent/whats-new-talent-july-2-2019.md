@@ -18,37 +18,42 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 32eb177da53ffa4cf8ecdc73a93e88f30778f69c
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: 7c474b0ba40db238db33cfa45ddde55cd0724a9b
+ms.sourcegitcommit: f5556189a80ad9f23f1af3333837eae034ddb247
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729764"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "1791967"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-02-2019"></a><span data-ttu-id="07009-103">Novidades ou alterações no Dynamics 365 for Talent (02 de julho de 2019)</span><span class="sxs-lookup"><span data-stu-id="07009-103">What's new or changed in Dynamics 365 for Talent (July 02, 2019)</span></span>
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-02-2019"></a><span data-ttu-id="62efa-103">Novidades ou alterações no Dynamics 365 for Talent (02 de julho de 2019)</span><span class="sxs-lookup"><span data-stu-id="62efa-103">What's new or changed in Dynamics 365 for Talent (July 02, 2019)</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="07009-104">Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 for Talent.</span><span class="sxs-lookup"><span data-stu-id="07009-104">This topic describes features that are either new or changed in Microsoft Dynamics 365 for Talent.</span></span>
+<span data-ttu-id="62efa-104">Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 for Talent.</span><span class="sxs-lookup"><span data-stu-id="62efa-104">This topic describes features that are either new or changed in Microsoft Dynamics 365 for Talent.</span></span>
 
-## <a name="changes-in-attract"></a><span data-ttu-id="07009-105">Alterações no Attract</span><span class="sxs-lookup"><span data-stu-id="07009-105">Changes in Attract</span></span>
+## <a name="changes-in-attract"></a><span data-ttu-id="62efa-105">Alterações no Attract</span><span class="sxs-lookup"><span data-stu-id="62efa-105">Changes in Attract</span></span>
 
-### <a name="use-organization-service-accounts-to-send-e-mails"></a><span data-ttu-id="07009-106">Use contas de serviço da organização para enviar emails</span><span class="sxs-lookup"><span data-stu-id="07009-106">Use organization service accounts to send e-mails</span></span>
+### <a name="use-organization-service-accounts-to-send-e-mails"></a><span data-ttu-id="62efa-106">Use contas de serviço da organização para enviar emails</span><span class="sxs-lookup"><span data-stu-id="62efa-106">Use organization service accounts to send e-mails</span></span>
 
-<span data-ttu-id="07009-107">Agora você pode definir configurações de email para que os emails para candidatos, entrevistadores, recrutadores e gerentes de contratação sejam enviados da conta de serviço de email da sua organização.</span><span class="sxs-lookup"><span data-stu-id="07009-107">You can now configure email settings so that emails to candidates, interviewers, recruiters, and hiring managers are sent from your organization's email service account.</span></span> <span data-ttu-id="07009-108">Para obter mais informações, consulte [Conecte uma conta de serviço de email](./attract-configure-email-settings.md#connect-an-email-service-account).</span><span class="sxs-lookup"><span data-stu-id="07009-108">For more information see [Connect an email service account](./attract-configure-email-settings.md#connect-an-email-service-account).</span></span>
+<span data-ttu-id="62efa-107">Agora você pode definir configurações de email para que os emails para candidatos, entrevistadores, recrutadores e gerentes de contratação sejam enviados da conta de serviço de email da sua organização.</span><span class="sxs-lookup"><span data-stu-id="62efa-107">You can now configure email settings so that emails to candidates, interviewers, recruiters, and hiring managers are sent from your organization's email service account.</span></span> <span data-ttu-id="62efa-108">Para obter mais informações, consulte [Conecte uma conta de serviço de email](./attract-configure-email-settings.md#connect-an-email-service-account).</span><span class="sxs-lookup"><span data-stu-id="62efa-108">For more information see [Connect an email service account](./attract-configure-email-settings.md#connect-an-email-service-account).</span></span>
 
-#### <a name="offer-email-templates"></a><span data-ttu-id="07009-109">Ofereça modelos de email</span><span class="sxs-lookup"><span data-stu-id="07009-109">Offer email templates</span></span> 
+### <a name="offer-email-templates"></a><span data-ttu-id="62efa-109">Ofereça modelos de email</span><span class="sxs-lookup"><span data-stu-id="62efa-109">Offer email templates</span></span> 
 
-<span data-ttu-id="07009-110">Agora você pode configurar modelos de email da sua organização para todos os estágios durante a preparação, a aprovação e a aceitação da oferta.</span><span class="sxs-lookup"><span data-stu-id="07009-110">You can now configure your organization's email templates for all stages during offer preparation, approval, and acceptance.</span></span> <span data-ttu-id="07009-111">Os usuários podem usar o modelo padrão ou personalizá-lo antes de enviar o email.</span><span class="sxs-lookup"><span data-stu-id="07009-111">Users can either use the default template or customize it before sending email.</span></span> <span data-ttu-id="07009-112">Para obter mais informações, consulte [Defina configurações de modelo de email](./attract-configure-email-settings.md#configure-email-template-settings).</span><span class="sxs-lookup"><span data-stu-id="07009-112">For more information, see [Configure email template settings](./attract-configure-email-settings.md#configure-email-template-settings).</span></span>
+<span data-ttu-id="62efa-110">Agora você pode configurar modelos de email da sua organização para todos os estágios durante a preparação, a aprovação e a aceitação da oferta.</span><span class="sxs-lookup"><span data-stu-id="62efa-110">You can now configure your organization's email templates for all stages during offer preparation, approval, and acceptance.</span></span> <span data-ttu-id="62efa-111">Os usuários podem usar o modelo padrão ou personalizá-lo antes de enviar o email.</span><span class="sxs-lookup"><span data-stu-id="62efa-111">Users can either use the default template or customize it before sending email.</span></span> <span data-ttu-id="62efa-112">Para obter mais informações, consulte [Defina configurações de modelo de email](./attract-configure-email-settings.md#configure-email-template-settings).</span><span class="sxs-lookup"><span data-stu-id="62efa-112">For more information, see [Configure email template settings](./attract-configure-email-settings.md#configure-email-template-settings).</span></span>
 
-### <a name="candidate-consent-on-application"></a><span data-ttu-id="07009-113">Consentimento do candidato na Solicitação de emprego</span><span class="sxs-lookup"><span data-stu-id="07009-113">Candidate consent on Application</span></span>
+### <a name="candidate-consent-on-application"></a><span data-ttu-id="62efa-113">Consentimento do candidato na Solicitação de emprego</span><span class="sxs-lookup"><span data-stu-id="62efa-113">Candidate consent on Application</span></span>
 
-<span data-ttu-id="07009-114">Agora você pode habilitar o link Temos e Condições para a sua organização.</span><span class="sxs-lookup"><span data-stu-id="07009-114">You can now enable the Terms and Conditions link for your organization.</span></span> <span data-ttu-id="07009-115">Com essa configuração habilitada, os candidatos devem consentir com os Termos e Condições antes de enviar as solicitações de emprego.</span><span class="sxs-lookup"><span data-stu-id="07009-115">With this setting enabled, candidates must consent to the Terms and Conditions before submitting their job applications.</span></span> 
+<span data-ttu-id="62efa-114">Agora você pode habilitar o link Temos e Condições para a sua organização.</span><span class="sxs-lookup"><span data-stu-id="62efa-114">You can now enable the Terms and Conditions link for your organization.</span></span> <span data-ttu-id="62efa-115">Com essa configuração habilitada, os candidatos devem consentir com os Termos e Condições antes de enviar as solicitações de emprego.</span><span class="sxs-lookup"><span data-stu-id="62efa-115">With this setting enabled, candidates must consent to the Terms and Conditions before submitting their job applications.</span></span> 
 
-## <a name="changes-in-onboard"></a><span data-ttu-id="07009-116">Alterações de Integração</span><span class="sxs-lookup"><span data-stu-id="07009-116">Changes in Onboard</span></span>
+### <a name="coming-soon-in-attract"></a><span data-ttu-id="62efa-116">Em breve no Attract</span><span class="sxs-lookup"><span data-stu-id="62efa-116">Coming soon in Attract</span></span>
+#### <a name="job-approvals-appear-on-the-home-page"></a><span data-ttu-id="62efa-117">As aprovações de trabalho aparecem na página inicial</span><span class="sxs-lookup"><span data-stu-id="62efa-117">Job approvals appear on the home page</span></span>
 
-<span data-ttu-id="07009-117">Esta versão inclui correções de bug menores para Dynamics 365 Talent: Onboard.</span><span class="sxs-lookup"><span data-stu-id="07009-117">This release includes minor bug fixes for Dynamics 365 Talent: Onboard.</span></span>
+<span data-ttu-id="62efa-118">As aprovações aparecem em uma seção **Aprovações** no painel.</span><span class="sxs-lookup"><span data-stu-id="62efa-118">Approvals appear in an **Approvals** section on the dashboard.</span></span> <span data-ttu-id="62efa-119">Os aprovadores podem revisar suas aprovações em **Atribuída(s) a você**, que mostra a ID do trabalho, o cargo, outros aprovadores e a data em que o trabalho foi atribuído.</span><span class="sxs-lookup"><span data-stu-id="62efa-119">Approvers can review their approvals under **Assigned to you**, which shows the job ID, the job title, other approvers, and the date when the job was assigned.</span></span> <span data-ttu-id="62efa-120">Os usuários que enviam um trabalho para aprovação podem revisar seus trabalhos em **Solicitado por você**, que mostra os aprovadores que ainda precisam aprovar o trabalho enviado.</span><span class="sxs-lookup"><span data-stu-id="62efa-120">Users who submit a job for approval can review their jobs under **Requested by you**, which shows the approvers who must still approve the submitted job.</span></span>
 
-## <a name="changes-in-core-hr"></a><span data-ttu-id="07009-118">Alterações no Core HR</span><span class="sxs-lookup"><span data-stu-id="07009-118">Changes in Core HR</span></span>
+## <a name="changes-in-onboard"></a><span data-ttu-id="62efa-121">Alterações de Integração</span><span class="sxs-lookup"><span data-stu-id="62efa-121">Changes in Onboard</span></span>
 
-<span data-ttu-id="07009-119">Esta versão inclui correções de bug menores para Dynamics 365 Talent: Core HR.</span><span class="sxs-lookup"><span data-stu-id="07009-119">This release includes minor bug fixes for Dynamics 365 Talent: Core HR.</span></span>
+<span data-ttu-id="62efa-122">Esta versão inclui correções de bug menores para Dynamics 365 Talent: Onboard.</span><span class="sxs-lookup"><span data-stu-id="62efa-122">This release includes minor bug fixes for Dynamics 365 Talent: Onboard.</span></span>
+
+## <a name="changes-in-core-hr"></a><span data-ttu-id="62efa-123">Alterações no Core HR</span><span class="sxs-lookup"><span data-stu-id="62efa-123">Changes in Core HR</span></span>
+
+<span data-ttu-id="62efa-124">Esta versão inclui correções de bug menores para Dynamics 365 Talent: Core HR.</span><span class="sxs-lookup"><span data-stu-id="62efa-124">This release includes minor bug fixes for Dynamics 365 Talent: Core HR.</span></span>
