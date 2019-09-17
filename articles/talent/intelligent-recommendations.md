@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 301e3213fa0988faba83ee42b840646a20c70a98
-ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
+ms.openlocfilehash: beb54753c50e398197353f86c2a1239a96b879eb
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620611"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741743"
 ---
 # <a name="intelligent-recommendations"></a>Recomendações inteligentes
 
@@ -32,7 +32,7 @@ ms.locfileid: "1620611"
 Machine learning pode ajudar a recrutar e contratar gerentes rapidamente a identificar os candidatos principais para uma posição. Também pode ajudar os clientes potenciais a encontrar a posição que melhor atenda seu perfil e juros. Conforme esses recursos são usados e comentários são fornecidos, recomendações são melhoradas.
 
 > [!NOTE] 
-> - Os recursos de recomendação inteligente estão disponíveis somente com o [complemento de Contratação abrangente](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> - Os recursos de recomendação inteligente estão disponíveis somente com o [complemento de Contratação abrangente](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
 > - A funcionalidade observada neste tópico está disponível para usuários como parte de uma revisão de versão prévia. O conteúdo e as funcionalidades estão sujeitos a alteração. Para usar o recurso, peça ao administrador habilitá-lo usando as **Centro de administração** no Attract. Defina **Recomendação de candidato**, **Recomendação de trabalho**, **Recomendação de colaborador potencial** como **Ativado**. Para obter mais informações, consulte [Acessar os recursos de visualização no Talent](./access-preview-feature.md). 
 
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 865baedd66eb6d87d7c2ddef1b552cc831345842
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3d02db8fefb0f00925f862cee8c2cec707f849d9
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517367"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741697"
 ---
 # <a name="run-the-compensation-process"></a>Executar o processo de remuneração
 
@@ -42,10 +42,10 @@ Aqui está a documentação para compensação:
 
 - Configuração:
 
-    - [Planos de remuneração](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/compensation-plans)
-    - [Criar planos de remuneração fixa](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
-    - [Criar planos de remuneração variável](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+    - [Planos de remuneração](https://docs.microsoft.com/dynamics365/unified-operations/talent/compensation-plans)
+    - [Criar planos de remuneração fixa](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+    - [Criar planos de remuneração variável](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-variable-compensation-plans)
 
 - Processo:
 
-    - [Processar remuneração](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/process-compensation)
+    - [Processar remuneração](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)

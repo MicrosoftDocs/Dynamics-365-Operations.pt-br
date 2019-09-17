@@ -3,7 +3,7 @@ title: Criar, aprovar e lançar trabalhos no Attract
 description: Este tópico descreve os elementos de um trabalho no Attract. Ele também explica como criar um trabalho.
 author: hasrivas
 manager: AnnBe
-ms.date: 03/20/2019
+ms.date: 07/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 1e76572c1a843fe7abd515333d5b7cb03b91eb11
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 351fd03f6a27073b850729e2eef5516556292225
+ms.sourcegitcommit: b24c36cdd3b6f6085447bf81cb034d13d5b081fe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517320"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "1773238"
 ---
-# <a name="create-approve-and-post-jobs-in-attract"></a>Criar, aprovar e lançar trabalhos no Attract
+# <a name="create-a-job"></a>Criar um trabalho
 
 [!include [banner](includes/banner.md)]
 
@@ -81,33 +81,6 @@ Para obter mais informações sobre lançamentos de trabalho, consulte [Funciona
 > [!NOTE]
 > A funcionalidade do lançamento de trabalho está disponível apenas com o Complemento de Contratação Abrangente para o Attract.
 
-### <a name="posting-jobs-to-linkedin"></a>Lançar trabalhos no LinkedIn 
-
-Antes de lançar um trabalho do Attract no LinkedIn, o administrador deve adicionar a ID da empresa no LinkedIn e o nome da empresa no LinkedIn nas **Configurações de Administração**. A ID da empresa no LinkedIn é necessária para garantir que os trabalhos lançados no Attract sejam mapeados para a página da empresa correta.
-
-A ID da sua empresa no LinkedIn é uma sequência de números que identifica exclusivamente sua empresa no LinkedIn. Para obter mais informações sobre como encontrar a ID da empresa no LinkedIn, visite o [site do LinkedIn](https://aka.ms/findID).
-
-Para atualizar sua empresa no LinkedIn, selecione **Centro de administração** no menu **Configurações**  (símbolo de engrenagem) e depois selecione a guia **Integração com o LinkedIn** . Na seção **Conectar-se ao LinkedIn**, insira o nome da empresa no LinkedIn e a ID da empresa e salve as configurações.
-
-> [!NOTE]
-> Há quatros aspectos importantes a serem notados sobre o processo de lançamento de trabalho no LinkedIn.
-> 1. Os trabalhos lançados no LinkedIn são lançados como trabalhos de "Listagens Limitadas". Os trabalhos de listagens limitadas não podem ser promovidos no site do LinkedIn. Se desejar promover trabalhos de listagens limitadas lançados no LinkedIn a partir do Attract, você deverá trabalhar com o LinkedIn para habilitar a "Disposição de Trabalho". Consulte os links abaixo e contate o suporte do LinkedIn para obter mais detalhes.
->
->    [Listagens limitadas versus Slots de Trabalho de Gratificação para Disposição de Trabalho](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
->
->    [Perguntas Frequente sobre Disposição de Trabalho](https://www.linkedin.com/help/recruiter/answer/79050/job-wrapping-frequently-asked-questions)
->
-> 1. Ao lançar trabalhos no LinkedIn, o Attract passa o nome do Microsoft 365 Organization em relação ao trabalho. O LinkedIn vincula os trabalhos em uma empresa no LinkedIn com base no nome da organização que é passado. Se o trabalho estiver listado na empresa errada no LinkedIn, verifique se o nome do Microsoft 365 Organization corresponde ao nome da empresa no LinkedIn.  
->
->    [Altere o Endereço do Contato e muito mais](https://docs.microsoft.com/en-us/office365/admin/manage/change-address-contact-and-more)
->
->    Se tiver problemas após esta etapa, entre em contato com o suporte do LinkedIn. 
-> 
-> 1. Os trabalhos lançados no LinkedIn aparecem no site do LinkedIn ao vivo. Não há ambiente de teste para lançar trabalhos no LinkedIn. 
->
-> 1. Pode levar até 24 horas para os trabalhos lançados no LinkedIn ficarem visíveis para os candidatos no LinkedIn, devido ao processo atual de lançamento de trabalhos em lotes do LinkedIn.
-
-
 ## <a name="activate"></a>Ativar
 
 Depois que um trabalho é ativado, é possível lançá-lo . Os clientes potenciais e candidatos podem ser adicionados a ele. A opção para adicionar clientes potenciais a um trabalho é definida na atividade Cliente potencial no processo de contratação.
@@ -142,7 +115,7 @@ Se um usuário editar o trabalho depois que ele for aprovado, mas não ativado, 
 As pessoas listadas como aprovadores receberão uma notificação no Attract e um email para informá-las de que há um item a ser aprovado.  No email, os aprovadores podem clicar no link para para abrir o trabalho, examinar os detalhes e aprová-lo ou rejeitá-lo. Depois que o status do trabalho for definido como **Aprovado** ou **Rejeitado**, o emissor será notificado no Attract e receberá um email. Além disso, os aprovadores receberão um email de lembrete se eles não responderem à solicitação de aprovação dentro de 24 horas.
 
 > [!NOTE]
-> Você pode criar modelos de email personalizados para Emails de aprovação. Para obter mais informações, consulte [Criando e gerenciando modelos de email](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/email-templates).
+> Você pode criar modelos de email personalizados para Emails de aprovação. Para obter mais informações, consulte [Criando e gerenciando modelos de email](https://docs.microsoft.com/dynamics365/unified-operations/talent/email-templates).
 
 ## <a name="create-a-job"></a>Criar um trabalho
 

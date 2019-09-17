@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: andreabichsel
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8f488b0bf844fc04f07fedfa447073cdeabacc15
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f224114b132ae54dddb7766268c1fc5ec49e109d
+ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517307"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "1795235"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-2-2019"></a>Novidades ou alterações no Dynamics 365 for Talent (2 de abril de 2019)
 
@@ -57,13 +57,13 @@ No Attract e no Onboard, os problemas registrados por usuários finais usando o 
 As alterações descritas nesta seção aplicam-se ao número da compilação 8.1.2216.
 
 ### <a name="platform-update-25"></a>Update 25 para plataforma
-Para obter mais informações sobre a atualização de Plataforma 25, consulte [Exibição de recursos na atualização de Plataforma 25 do Dynamics 365 for Finance and Operations (abril de 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
+Para obter mais informações sobre a atualização de Plataforma 25, consulte [Exibição de recursos na atualização de Plataforma 25 do Dynamics 365 for Finance and Operations (abril de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Segurança de compensação avançada (fixa e variável)
 Em muitas organizações, gerentes de remuneração e benefícios só podem ter acesso a alguns tipos de registro de remuneração. Esses registros podem incluir registros de executivos ou funcionários regionais. Essa alteração permite que o RH gerencie e mantenha planos de remuneração para diferentes grupos de funcionários da organização. É possível atribuir funções de segurança para planos fixos e variáveis. Essas funções de segurança determinam o acesso a planos e dados de funcionários relacionados, como registros de salário ou de bônus, por isso somente elas podem processar a remuneração dos grupos de funcionários.
 
 ### <a name="upgrade-to-common-data-service"></a>Atualizar para o Common Data Service
-Os prazos finais para atualizar para o Common Data Service estão se aproximando rapidamente. Entre na central de administração do PowerApps para determinar se sua base de dados precisa ser atualizada. Para obter mais informações sobre os prazos finais e as etapas necessárias para atualizar, consulte [Fazer upgrade para o Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+Os prazos finais para atualizar para o Common Data Service estão se aproximando rapidamente. Entre na central de administração do PowerApps para determinar se sua base de dados precisa ser atualizada. Para obter mais informações sobre os prazos finais e as etapas necessárias para atualizar, consulte [Fazer upgrade para o Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Em visualização
 

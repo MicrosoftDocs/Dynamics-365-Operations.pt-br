@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: c249df697553cd42eccd59d3f2c3f5f083ead1cb
-ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
+ms.openlocfilehash: 781487997ceb95f4e3f528f47e8ed2aa5b25fd0e
+ms.sourcegitcommit: eb501d8712212a6ed33bec1e3e2c02f994e0a724
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624598"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "1869927"
 ---
 # <a name="provision-talent"></a>Provisionar o Talent
 
@@ -51,10 +51,10 @@ Depois de criar um projeto de LCS, você pode provisionar o Talent em um ambient
     > [!NOTE]
     > O tipo de instância do Talent é separado do tipo de instância do ambiente do PowerApps, que você definiu no centro de administração do PowerApps.
 3. Selecione a opção **Incluir Dados de Demonstração** se quiser que o ambiente inclua o mesmo conjunto de dados de demonstração usado na experiência de test drive do Talent. Isso é interessante para ambientes de demonstração ou de treinamento de longo prazo, e nunca deve ser usado em ambientes de produção.  Observe que você deve selecionar esta opção na implantação inicial. Não é possível atualizar uma implantação já existente depois.
-4. O Talent sempre é provisionado em um ambiente Microsoft PowerApps para permitir a integração e extensibilidade do PowerApps. Leia a seção “Selecionando um ambiente do PowerApps” deste tópico antes de prosseguir. Se você ainda não tem um ambiente PowerApps, selecione Gerenciar ambientes no LCS ou vá para o Centro de administração do PowerApps. Depois, rastreie as etapas em [Criar um ambiente de PowerApps](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
+4. O Talent sempre é provisionado em um ambiente Microsoft PowerApps para permitir a integração e extensibilidade do PowerApps. Leia a seção “Selecionando um ambiente do PowerApps” deste tópico antes de prosseguir. Se você ainda não tem um ambiente PowerApps, selecione Gerenciar ambientes no LCS ou vá para o Centro de administração do PowerApps. Depois, rastreie as etapas em [Criar um ambiente de PowerApps](https://docs.microsoft.com/powerapps/administrator/create-environment).
 
     > [!NOTE]
-    > Para exibir os ambientes existentes ou criar novos ambientes, o administrador do locatário que provisiona o Talent deve ter a licença do PowerApps P2. Se sua organização não tiver uma licença de PowerApps P2, obtenha uma do CSP ou da [página de preços do PowerApps](https://powerapps.microsoft.com/en-us/pricing/).
+    > Para exibir os ambientes existentes ou criar novos ambientes, o administrador do locatário que provisiona o Talent deve ter a licença do PowerApps P2. Se sua organização não tiver uma licença de PowerApps P2, obtenha uma do CSP ou da [página de preços do PowerApps](https://powerapps.microsoft.com/pricing/).
 
 5. Selecione o ambiente ao qual provisionar o Talent.
 6. Selecione **Sim** para concordar com os termos e começar a implantação.
@@ -66,11 +66,11 @@ Depois de criar um projeto de LCS, você pode provisionar o Talent em um ambient
     > [!NOTE]
     > Se os requisitos finais ainda não foram aprovados, você pode implantar uma instância de teste do Talent no projeto. Você pode usar esta instância para testar a solução até que seja aprovada. Se usar o novo ambiente para teste, você deve repetir este procedimento para criar um ambiente de produção.
 
-    > Como apenas dois ambientes de LCS são permitidos como parte da assinatura do Talent, você pode considerar a possibilidade de aproveitar um [ambiente de teste do Talent](https://dynamics.microsoft.com/en-us/talent/overview/) grátis por 60 dias. Embora um ambiente de avaliação seja propriedade do usuário que o solicitou, outros usuários podem ser convidados por meio da experiência de administração do sistema para o Core HR. Os ambientes de avaliação contêm dados fictícios que podem ser usados para explorar o programa de forma segura. Eles não devem ser usados como ambientes de produção. Observe que, quando um ambiente de avaliação expirar após 60 dias, todos os dados que estão nele serão excluídos e não poderão ser recuperados. Você pode inscrever-se para um novo ambiente de avaliação após o ambiente existente expirar.
+    > Como apenas dois ambientes de LCS são permitidos como parte da assinatura do Talent, você pode considerar a possibilidade de aproveitar um [ambiente de teste do Talent](https://dynamics.microsoft.com/talent/overview/) grátis por 60 dias. Embora um ambiente de avaliação seja propriedade do usuário que o solicitou, outros usuários podem ser convidados por meio da experiência de administração do sistema para o Core HR. Os ambientes de avaliação contêm dados fictícios que podem ser usados para explorar o programa de forma segura. Eles não devem ser usados como ambientes de produção. Observe que, quando um ambiente de avaliação expirar após 60 dias, todos os dados que estão nele serão excluídos e não poderão ser recuperados. Você pode inscrever-se para um novo ambiente de avaliação após o ambiente existente expirar.
 
 ## <a name="select-a-powerapps-environment"></a>Selecione um ambiente do PowerApps
 
-A integração entre o Talent e os ambientes do PowerApps permite que você integre e estenda o uso dos dados do Talent usando ferramentas do PowerApps. Entender a finalidade dos ambientes PowerApps não só ajudará você a criar aplicativos para estender o Talent, mas também poderá ajudá-lo a selecionar o ambiente correto ao provisionar o Talent. Para obter mais informações sobre os ambientes do PowerApps, incluindo escopo do ambiente, acesso ao ambiente e criação e escolha do ambiente, consulte [Anunciando ambientes do PowerApps](https://powerapps.microsoft.com/en-us/blog/powerapps-environments/). 
+A integração entre o Talent e os ambientes do PowerApps permite que você integre e estenda o uso dos dados do Talent usando ferramentas do PowerApps. Entender a finalidade dos ambientes PowerApps não só ajudará você a criar aplicativos para estender o Talent, mas também poderá ajudá-lo a selecionar o ambiente correto ao provisionar o Talent. Para obter mais informações sobre os ambientes do PowerApps, incluindo escopo do ambiente, acesso ao ambiente e criação e escolha do ambiente, consulte [Anunciando ambientes do PowerApps](https://powerapps.microsoft.com/blog/powerapps-environments/). 
 
 Use as seguintes orientações ao determinar para qual ambiente do PowerApps o Talent será implantado: 
 
@@ -84,9 +84,9 @@ Use as seguintes orientações ao determinar para qual ambiente do PowerApps o T
    
     - **Ambientes de versão de avaliação** - Esses ambientes são criados com uma data de vencimento e expirarão após esse tempo, resultando na remoção automática do seu ambiente e de quaisquer instâncias do Talent contidas.
    
-    - **Regiões sem suporte** - No momento, o Talent tem suporte apenas nas seguintes regiões: Estados Unidos, Europa, Reino Unido ou Austrália.
+    - **Regiões sem suporte** - No momento, o Talent tem suporte apenas nas seguintes regiões: Estados Unidos, Europa, Reino Unido, Austrália, Canadá e Ásia.
   
 6. Depois de determinar o ambiente correto a ser usado, você poderá continuar com o processo de provisionamento. 
  
 ## <a name="grant-access-to-the-environment"></a>Conceder acesso ao ambiente
-Por padrão, o administrador global que criou o ambiente tem acesso a ele. Entretanto, os usuários adicionais do aplicativo devem ter acesso explicitamente. Para conceder acesso, você precisa adicionar usuários e atribuir a eles as funções adequadas no ambiente do Core HR. O administrador global que implantou Talent também deve iniciar os aplicativos Attract and Onboard para concluir a inicialização e habilitar o acesso para outros usuários do locatário.  Até que isso ocorra, outros usuários não poderão acessar os aplicativos Attract and Onboard e receberão erros de violação. Para obter mais informações, consulte [Criar novos usuários](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) e [Atribuir usuários a funções de segurança](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+Por padrão, o administrador global que criou o ambiente tem acesso a ele. Entretanto, os usuários adicionais do aplicativo devem ter acesso explicitamente. Para conceder acesso, você precisa adicionar usuários e atribuir a eles as funções adequadas no ambiente do Core HR. O administrador global que implantou Talent também deve iniciar os aplicativos Attract and Onboard para concluir a inicialização e habilitar o acesso para outros usuários do locatário.  Até que isso ocorra, outros usuários não poderão acessar os aplicativos Attract and Onboard e receberão erros de violação. Para obter mais informações, consulte [Criar novos usuários](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) e [Atribuir usuários a funções de segurança](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
