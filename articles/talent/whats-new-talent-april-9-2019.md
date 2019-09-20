@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 25ef0d49c2600833aefa84d404e00c0c57cfbf52
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4959f28e0768d43f90a664022c714a126c88e38d
+ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517309"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "1856415"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-9-2019"></a>Novidades ou alterações no Dynamics 365 for Talent (9 de abril de 2019)
 
@@ -37,10 +37,10 @@ Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365
 No Attract e no Onboard, os problemas registrados por usuários finais usando o recurso Relatar um Problema agora criam problemas de suporte automaticamente no projeto do LCS do cliente. Assim os administradores podem fazer a triagem dos problemas e enviá-los à Microsoft quando necessário. Isso é consistente com a forma como o Core HR lida com problemas de suporte do usuário final.
 
 ### <a name="relevance-search"></a>Pesquisa de relevância
-Em conjuntos de talentos, agora você pode consultar o banco de dados de candidatos inteiro para verificar habilidades específicas, nomes ou a formação educacional. Não é mais preciso especificar qual seção do perfil de um candidato que você quer procurar. O Attract pesquisa o perfil inteiro e realça todas as correspondências encontradas. O Attract também pesquisa todos os documentos disponíveis de um candidato e classifica os resultados da pesquisa de maneira inteligente. Além disso, você pode filtrar os resultados por origem ou se é um de medalhista de prata. Para obter mais informações, consulte [Pesquisar e exibir perfis do candidato](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-talent-pools#search-and-view-candidate-profiles).
+Em conjuntos de talentos, agora você pode consultar o banco de dados de candidatos inteiro para verificar habilidades específicas, nomes ou a formação educacional. Não é mais preciso especificar qual seção do perfil de um candidato que você quer procurar. O Attract pesquisa o perfil inteiro e realça todas as correspondências encontradas. O Attract também pesquisa todos os documentos disponíveis de um candidato e classifica os resultados da pesquisa de maneira inteligente. Além disso, você pode filtrar os resultados por origem ou se é um de medalhista de prata. Para obter mais informações, consulte [Pesquisar e exibir perfis do candidato](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-talent-pools#search-and-view-candidate-profiles).
 
 ### <a name="prospect-recommendations"></a>Recomendação de candidato ao trabalho
-O Attract pode ajudar a impulsionar o processo de fornecimento de um trabalho assim que você ativá-lo fazendo recomendações inteligentes com base no banco de dados de candidatos da organização. As recomendações incluem habilidades e informações de formação educacional identificadas ao procurar clientes potenciais relevantes. Essas recomendações serão exibidas na guia **Clientes potenciais** em um trabalho se você habilitá-la durante o processo de contratação. Para obter mais informações, consulte [Recomendações inteligentes](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/intelligent-recommendations#prospect-recommendations).
+O Attract pode ajudar a impulsionar o processo de fornecimento de um trabalho assim que você ativá-lo fazendo recomendações inteligentes com base no banco de dados de candidatos da organização. As recomendações incluem habilidades e informações de formação educacional identificadas ao procurar clientes potenciais relevantes. Essas recomendações serão exibidas na guia **Clientes potenciais** em um trabalho se você habilitá-la durante o processo de contratação. Para obter mais informações, consulte [Recomendações inteligentes](https://docs.microsoft.com/dynamics365/unified-operations/talent/intelligent-recommendations#prospect-recommendations).
 
 ### <a name="interviewer-availability-statuses"></a>Status de disponibilidade do entrevistador
 Os agendadores de entrevistas em breve poderão exibir o status **Ausência Temporária, trabalhando de outro local** dos entrevistadores, o que ajudará a agendar horários mais adequados para estes.

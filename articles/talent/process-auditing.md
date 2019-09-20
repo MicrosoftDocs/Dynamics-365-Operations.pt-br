@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 803c935493a4080b8c1d0ef92bbe7db601f3ca03
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 448fceccb507bec5b60b686043a303c1997a9ac0
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517332"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742656"
 ---
 # <a name="track-changes-in-recruiting-data"></a>Controlar alterações nos dados de recrutamento
 
 Você pode rastrear as alterações feitas a candidatos, oportunidades de emprego ou aplicações de trabalho, usando o processo de auditoria. Isso é útil por motivos de relatório ou conformidade.
 
-Você pode exibir os dados rastreados no Power BI usando o conector OData. Para obter mais informações, consulte [Conectar aos feeds de OData em Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-connect-odata).
+Você pode exibir os dados rastreados no Power BI usando o conector OData. Para obter mais informações, consulte [Conectar aos feeds de OData em Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-connect-odata).
 
 ## <a name="track-changes"></a>Controlar alterações
 Para configurar o acompanhamento de alterações nos dados de recrutamento, siga estas etapas:

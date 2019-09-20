@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 568a16a17ed3269c7b72f27f0d4b7bbdbd56630e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 24070d1efa3299c378d7a4a328531817a598d272
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517361"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741558"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-26-2019"></a>Novidades ou alterações no Dynamics 365 for Talent (26 de março de 2019)
 
@@ -75,7 +75,7 @@ Nesta versão, os planos de remuneração fixa agora aparecem quando os usuário
 Com essa versão, agora você pode remover os registros de trabalho usando a opção **Abrir no Excel** no Dynamics 365 for Talent.
 
 ### <a name="upgrade-to-common-data-service"></a>Fazer upgrade para o Common Data Service
-Os prazos finais para atualizar para o Common Data Service se aproximam rapidamente. Entre na central de administração do PowerApps para determinar se sua base de dados precisa ser atualizada. Para obter mais informações sobre os prazos finais e as etapas necessárias para atualizar, consulte [Fazer upgrade para o Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+Os prazos finais para atualizar para o Common Data Service se aproximam rapidamente. Entre na central de administração do PowerApps para determinar se sua base de dados precisa ser atualizada. Para obter mais informações sobre os prazos finais e as etapas necessárias para atualizar, consulte [Fazer upgrade para o Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Em visualização
 

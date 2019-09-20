@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e4ad32ef71c87f52e59959d80c21ae7fcd6d6524
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: fe24846ab98a75d474df045a62a72bfc41c64866
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517371"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741881"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>Novidades ou alterações no Dynamics 365 for Talent (5 de março de 2019)
 
@@ -43,10 +43,10 @@ No Attract, há vários campos que são conjuntos de opções dentro do Common D
 ## <a name="changes-in-onboarding"></a>Alterações de Integração
 
 ### <a name="private-preview-for-onboard-teams"></a>Visualização privada de equipes de integração
-Agora você pode facilmente compartilhar e colaborar em modelos entre toda a organização. Para obter mais informações, consulte [Compartilhar melhores práticas entre sua organização usando Equipes de integração](https://docs.microsoft.com/en-us/business-applications-release-notes/April19/dynamics365-talent/onboard/share-best-practices-teams).
+Agora você pode facilmente compartilhar e colaborar em modelos entre toda a organização. Para obter mais informações, consulte [Compartilhar melhores práticas entre sua organização usando Equipes de integração](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-talent/onboard/share-best-practices-teams).
 
 ### <a name="private-preview-for-assignee-placeholders"></a>Visualização privada dos espaços reservados do destinatário
-Você pode enriquecer seus modelos atribuindo atividades a funções em vez de indivíduos. Funções são atribuídas a pessoas no momento da criação da guia. Para obter mais informações, consulte [Simplificar administração de guia atribuindo atividades a funções](https://docs.microsoft.com/en-us/business-applications-release-notes/April19/dynamics365-talent/onboard/assign-activities-roles).
+Você pode enriquecer seus modelos atribuindo atividades a funções em vez de indivíduos. Funções são atribuídas a pessoas no momento da criação da guia. Para obter mais informações, consulte [Simplificar administração de guia atribuindo atividades a funções](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-talent/onboard/assign-activities-roles).
 
 ## <a name="changes-in-core-hr"></a>Alterações no Core HR
 **Compilação 8.1.2178**
@@ -71,7 +71,7 @@ Com esta alteração, ao solicitar alterações a posições existentes, os camp
 Outras correções de bugs diversos estão incluídas nesta versão.
 
 ### <a name="upgrade-to-common-data-service"></a>Fazer upgrade para o Common Data Service
-Os prazos finais para atualizar para o Common Data Service se aproximam rapidamente. Entre na central de administração do PowerApps para determinar se sua base de dados precisa ser atualizada. Para obter mais informações sobre os prazos finais e as etapas necessárias para atualizar, consulte [Fazer upgrade para o Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+Os prazos finais para atualizar para o Common Data Service se aproximam rapidamente. Entre na central de administração do PowerApps para determinar se sua base de dados precisa ser atualizada. Para obter mais informações sobre os prazos finais e as etapas necessárias para atualizar, consulte [Fazer upgrade para o Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="coming-soon"></a>Em breve
 
@@ -79,4 +79,4 @@ Os prazos finais para atualizar para o Common Data Service se aproximam rapidame
 Em muitas organizações, gerentes de compensação e benefícios só podem acessar certos registros de compensação, como registros de funcionários executivos ou regionais. Com esta alteração, você pode gerenciar e manter os planos de compensação para populações de funcionário diferentes na organização. Planos fixos e variáveis podem receber funções de segurança, que determinarão o acesso de planos e os dados de funcionário relacionados aos planos, como salário ou registros de bônus. Apenas as funções com acesso determinado poderão processar compensação para esses funcionários.
 
 ###  <a name="platform-update-24"></a>Update 24 para plataforma
-Para obter detalhes adicionais sobre a atualização da Plataforma 24, consulte [O que há de novo ou o que mudou na atualização da Plataforma 24 do Finance and Operations (março de 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+Para obter detalhes adicionais sobre a atualização da Plataforma 24, consulte [O que há de novo ou o que mudou na atualização da Plataforma 24 do Finance and Operations (março de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).

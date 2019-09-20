@@ -1,6 +1,6 @@
 ---
-title: Usar relatórios analíticos para insights de processo de contratação
-description: Este tópico descreve os relatórios analíticos no Attract
+title: Usar relatórios analíticos no Microsoft Dynamics 365 for Talent - Attract
+description: Este tópico descreve os relatórios analíticos para insights do processo de contratação no Microsoft Dynamics 365 for Talent - Attract
 author: fewatson
 manager: AnnBe
 ms.date: 04/30/2019
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: fewatson
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent April 2019 update
-ms.openlocfilehash: 33ed6072a9ad99144fb96ad19389a57461324f71
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f69c45e885d789d05a081064f30ccd6ce6bfec52
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1516551"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742876"
 ---
-# <a name="use-analytic-reports-for-hiring-process-insights"></a>Usar relatórios analíticos para insights de processo de contratação
+# <a name="use-analytic-reports"></a>Usar relatórios analíticos
 
 Os relatórios analíticos no Attract fornecem uma solução pronta para uso (OOTB) para insights de processo de contratação. Os recursos disponíveis incluem:
 
@@ -81,8 +81,8 @@ Os relatórios Análise de trabalho exibem dados para o trabalho selecionado. O 
 
 ## <a name="cross-filter"></a>Filtro cruzado
 
-Um dos grandes recursos do Power BI é a forma como todos os recursos visuais de uma página de relatório são interconectados. Se você selecionar um ponto de dados em um dos recursos visuais, todos os outros recursos visuais na página que contêm esses dados serão alterados com base nessa seleção. Saiba mais e veja um exemplo em [Como os visuais realizam filtragem cruzada entre si em um relatório do Power BI](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-interactions).
+Um dos grandes recursos do Power BI é a forma como todos os recursos visuais de uma página de relatório são interconectados. Se você selecionar um ponto de dados em um dos recursos visuais, todos os outros recursos visuais na página que contêm esses dados serão alterados com base nessa seleção. Saiba mais e veja um exemplo em [Como os visuais realizam filtragem cruzada entre si em um relatório do Power BI](https://docs.microsoft.com/power-bi/consumer/end-user-interactions).
 
 ## <a name="export-to-excel"></a>Exportar para o Excel
 
-Para visualizar os dados do relatório no Excel, você pode clicar no menu de opções (três pontos) em um visual e selecionar **Exportar dados subjacentes**. Os dados exportados serão exportados como filtrados, respeitando as permissões do usuário no Attract. Para obter mais informações, consulte [Exportar dados de visualizações](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-export-data).
+Para visualizar os dados do relatório no Excel, você pode clicar no menu de opções (três pontos) em um visual e selecionar **Exportar dados subjacentes**. Os dados exportados serão exportados como filtrados, respeitando as permissões do usuário no Attract. Para obter mais informações, consulte [Exportar dados de visualizações](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data).

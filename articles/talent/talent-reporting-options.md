@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7e00a6e4fc01f72e1ef2347e08754997135215ed
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 8e7348a515b08523c15aa8f74d5616a3daf645b7
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517352"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741789"
 ---
 # <a name="reporting-options-in-talent"></a>Opções de relatório no Talent
 
@@ -42,7 +42,7 @@ O usuário não pode personalizar os relatórios do Microsoft Power BI integrado
 
 **Solução**
 
-- Os dados do Core HR que fluem para o Common Data Service podem ser relatados por meio do conector PowerApps Common Data Service para o Power BI Desktop. Observe que o Common Data Service contém um subconjunto de dados do Core HR. Para obter mais informações sobre o Power BI e os painéis, consulte [Criar relatórios e painéis do Power BI com o PowerApps Common Data Service](https://powerapps.microsoft.com/en-us/blog/cdsconnectortopowerbi).
+- Os dados do Core HR que fluem para o Common Data Service podem ser relatados por meio do conector PowerApps Common Data Service para o Power BI Desktop. Observe que o Common Data Service contém um subconjunto de dados do Core HR. Para obter mais informações sobre o Power BI e os painéis, consulte [Criar relatórios e painéis do Power BI com o PowerApps Common Data Service](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi).
 - Relatório eletrônico (ER) está disponível para alguns relatórios no Talent. Personalizações voltadas para clientes podem ser realizadas por meio de opções de configuração ER.
 - Os dados podem ser exportados para o Microsoft Excel ou o Microsoft Word usando as diversas entidades de dados que o Talent fornece por meio da integração do Microsoft Office.
 

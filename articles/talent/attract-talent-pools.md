@@ -1,6 +1,6 @@
 ---
-title: Candidatos de origem usando grupos de talento
-description: Este tópico explica como criar e configurar os grupos de talentos no Attract.
+title: Fornecer candidatos com grupos de talentos no Microsoft Dynamics 365 for Talent - Attract
+description: Este tópico explica como criar e configurar grupos de talentos no Microsoft Dynamics 365 for Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/28/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: d2d680aa54e4610959c12bc1feef11ba8f30b0ca
-ms.sourcegitcommit: 40be0096af50e74d9946e382d3bbd2683bed1fc5
+ms.openlocfilehash: 98b93f69c4f4c8ca6c9a0fc2530578afed4b967c
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "1711285"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741858"
 ---
-# <a name="source-candidates-by-using-talent-pools"></a>Candidatos de origem usando grupos de talento
+# <a name="source-candidates-with-talent-pools"></a>Fornecer candidatos com grupos de talento
 
 [!include[banner](../includes/banner.md)]
 
@@ -79,7 +79,7 @@ O proprietário e os colaboradores do grupo de talentos podem adicionar candidat
 ## <a name="search-and-view-candidate-profiles"></a>Pesquisar e exibir perfis do candidato
 
 > [!NOTE] 
-> Este recurso está atualmente em visualização. Se quiser experimentá-lo, você deverá [ativá-lo nas configurações do administrador do Attract](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
+> Este recurso está atualmente em visualização. Se quiser experimentá-lo, você deverá [ativá-lo nas configurações do administrador do Attract](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature). 
 
 Os grupos de talentos permitem a você exibir o perfil, as informações do LinkedIn, os documentos relacionados e o histórico de solicitação de emprego do candidato. Você pode pesquisar todo o banco de dados de todos os candidatos adicionados a qualquer grupo de talentos, inclusive candidatos fechados e ativos.
 
@@ -116,7 +116,7 @@ Todas os usuários têm uma exibição comum dos perfis de candidato. A guia **P
 
     Para exibir um documento, selecione o nome do documento na lista de documentos. Você pode exibir documentos do Microsoft Word no aplicativo usando o Microsoft Office 365. Você também pode baixar os documentos para o computador local usando a opção **Download** para cada documento.
 
-- A guia **LinkedIn** mostra informações do candidato no LinkedIn. Para usar esta guia, é necessário conectar a conta do LinkedIn nas configurações do usuário, e a conexão com o LinkedIn Recruiter do seu ambiente deve ser estabelecida. Para obter mais informações, consulte [Obter informações do LinkedIn Recruiter](./attract-linked-in-recruiter.md).
+- A guia **LinkedIn** mostra informações do candidato no LinkedIn. Para usar esta guia, é necessário conectar a conta do LinkedIn nas configurações do usuário, e a conexão com o LinkedIn Recruiter do seu ambiente deve ser estabelecida. Para obter mais informações, consulte [Obter informações do LinkedIn Recruiter](./attract-linkedin-recruiter.md).
 
 > [!NOTE]
 > Somente os candidatos podem atualizar suas habilidades, histórico de formação educacional e experiência de trabalho.

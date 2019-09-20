@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ea8b7485b142245a359648a2a85d2a3e2a6d6629
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6c881bf25e7145228ccf7ef73a7ef3637c115a49
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517345"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741766"
 ---
 # <a name="talent-system-requirements-and-update-policy"></a>Requisitos do sistema e política de atualização do Talent
 
@@ -64,10 +64,10 @@ Você pode baixar um arquivo PDF dos países, regiões e idiomas para os quais T
 > [!NOTE]
 > Por mais que a interface de usuário esteja localizada em outros idiomas, todos os dados do usuário são armazenados no idioma no qual foi inserido. Você pode criar e-mails e modelos em outros idiomas, mas os dados como informações de agendamento só estão disponíveis em Inglês no momento.
 
-Se você é um desenvolvedor interessado na criação de personalizações específicas do país ou região, ou em criar uma solução para um país ou região não suportado atualmente pela Microsoft, consulte [Globalização](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
+Se você é um desenvolvedor interessado na criação de personalizações específicas do país ou região, ou em criar uma solução para um país ou região não suportado atualmente pela Microsoft, consulte [Globalização](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
 
 ## <a name="update-policy"></a>Política de atualização
 
 O Dynamics 365 for Talent é apresentado como uma oferta da nuvem. As atualizações do Dynamics 365 for Talent são contínuas e são aplicadas automaticamente pela Microsoft.
 
-As atualizações são liberadas em uma cadência normal e serão feitas em todos os ambientes. O Dynamics 365 for Talent é compatível de acordo com a [política de Ciclo de Vida de Suporte da Microsoft](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Ciclo de Vida de Suporte da Microsoft"), que oferece diretrizes consistentes e previsíveis para a disponibilidade do suporte a produtos.
+As atualizações são liberadas em uma cadência normal e serão feitas em todos os ambientes. O Dynamics 365 for Talent é compatível de acordo com a [política de Ciclo de Vida de Suporte da Microsoft](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "Ciclo de Vida de Suporte da Microsoft"), que oferece diretrizes consistentes e previsíveis para a disponibilidade do suporte a produtos.

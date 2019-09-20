@@ -17,42 +17,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 9c27d1810a89ed7d7a7745e41c5f118dbdfe5dda
-ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
+ms.openlocfilehash: 936ff85a4dabb715cb83b875a5c58c9fb7a0ac26
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1590473"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739808"
 ---
-# <a name="post-jobs-to-external-career-sites-from-attract"></a>Postar trabalhos em sites de carreira externos a partir do Attract
+# <a name="post-jobs-to-broadbean"></a>Lançar trabalhos no Broadbean
 
 [!include [banner](../includes/banner.md)]
 
-Você quer divulgar posições em aberto para o maior número possível de candidatos qualificados. Sites de recrutamento como o Broadbean ajudam a atingir esse objetivo. Agora o Microsoft Dynamics 365 Talent Attract permite postar trabalhos no Broadbean, e a Microsoft está constantemente apresentando novas ofertas nessa área.
+O Microsoft Dynamics 365 for Talent: Attract ajuda a obter o talento que você precisa, permitindo que você lance seus trabalhos diretamente do Attract para o Broadbean. Depois de [criar um trabalho](./creating-jobs-attract.md), tudo que você tem a fazer é clicar em um botão para começar seu trabalho antes de todos os possíveis candidatos ao trabalho no Broadbean.
 
-## <a name="post-jobs-to-broadbean"></a>Postar trabalhos no Broadbean
+O lançamento de trabalhos no Broadbean requer uma licença de Broadbean apropriada. A Broadbean oferece vários produtos e planos. Para obter mais informações sobre licença e preço, [contate o Broadbean](https://www.broadbean.com/contact-us/).
 
-Antes de postar trabalhos no Broadbean, você deve configurar a integração dele.
+Se você for um administrador e precisar de mais informações sobre como configurar a integração do Broadbean com o Attract, consulte [Inserir configurações para quadros de trabalho externos](./attract-admin-job-board-settings.md).
 
-> [!NOTE]
-> - Para postar trabalhos em sites externos, você deve ter o [complemento de Contratação abrangente](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
-> - Para lançar trabalhos no Broadbean por meio do Attract, você deve ter uma assinatura do Broadbean.
-> - Este recurso está atualmente em visualização. Para experimentá-lo, você deve [ativá-lo nas configurações de administrador do Attract](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).
-
-### <a name="configure-broadbean-integration"></a>Configurar a integração do Broadbean
-
-1. Entre no Attract como administrador.
-2. Selecione o botão **Configurações** (o símbolo de engrenagem) no canto superior direito da página e selecione **Centro de administração**.
-3. Na guia **Configurações do quadro de trabalho**, na seção **Habilitar a integração do Broadbean**, ative a integração.
-4. Entre em contato com o Broadbean e insira suas informações em **Nome de Usuário, Cliente, Token de Criptografia**.
-
-> [!WARNING]
-> Suas credenciais do Broadbean são confidenciais. Por esse motivo você deve armazená-las e compartilhá-las de forma responsável. Qualquer pessoa que tenha a função Administrador no Attract pode ver essas credenciais.
-
-> [!NOTE]
-> A Microsoft e o Attract não estão envolvidos na criação e na manutenção desses valores. É sua responsabilidade mantê-los atualizados no Attract e trabalhar com o Broadbean para resolver quaisquer problemas que envolvam suas credenciais.
-
-### <a name="post-a-job-to-broadbean"></a>Postar um trabalho no Broadbean
+## <a name="post-jobs-to-broadbean"></a>Lançar trabalhos no Broadbean
 
 Depois que o Broadbean é ativado, os recrutadores e administradores podem postar trabalhos nele. Você deve ter uma URL de solicitação do trabalho.
 
@@ -80,7 +62,7 @@ Depois que o Broadbean conclui a postagem com êxito, a seção **Postagens** do
 Depois de postar um trabalho no Broadbean, você pode exibi-lo no Attract.
 
 1. No Attract, abra o trabalho que você quer exibir no Broadbean.
-2. Na seção **Postagens**, selecione o botão de reticências (**…**) que corresponde ao Broadbean e selecione **Exibir**.
+2. Na guia **Lançamentos**, selecione o botão de reticências (**...**) que corresponde ao Broadbean e, em seguida, selecione **Exibir**.
 
 A postagem de trabalho do Broadbean aparece em uma nova janela.
 
@@ -107,10 +89,16 @@ Você pode remover uma postagem de trabalho do Broadbean conforme necessário.
 
 Depois que o Broadbean remove o trabalho, o item do Broadbean no Attract tem um botão **Lançar Agora**. A presença desse botão indica que o trabalho foi removido e pode ser postado novamente.
 
-### <a name="troubleshoot-the-broadbean-integration"></a>Solucionar problemas da integração do Broadbean
+### <a name="troubleshoot-job-posting-to-broadbean"></a>Solucionar problemas de lançamento de trabalhos no Broadbean
 
 Se tiver dificuldade para postar um trabalho no Broadbean, tente executar estas etapas.
 
 1. Verifique se as credenciais do Broadbean que você inseriu no Attract são válidas e estão corretas.
 2. Se as credenciais forem válidas e estiverem corretas, entre em contato com o [suporte do Broadbean](https://www.broadbean.com/resources/support/).
 3. Se o problema persistir, entre em contato com o [suporte da Microsoft](./talent-support.md).
+
+## <a name="see-also"></a>Consulte também
+
+[Criar trabalhos](./creating-jobs-attract.md)
+
+[Inserir configurações para quadros de trabalhos externos](./attract-admin-job-board-settings.md)

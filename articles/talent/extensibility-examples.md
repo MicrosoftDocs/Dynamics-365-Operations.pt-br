@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: a9ebfd1f2621b8ad65d7623c37b6851cc0b5cb54
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 0b455a8194f58b41a349f004ceda8183c7ee3f7c
+ms.sourcegitcommit: 9f94eff93d29bc27352569824e00bbccc2f961b8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577786"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "1781433"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Estender o Talent usando o PowerApps e o Microsoft Flow — cenários de exemplo
 
@@ -101,24 +101,15 @@ Esse modelo pode ser estendido para que possa ser usado para qualquer cenário q
 
 Para baixar o modelo **Flow — Integração do SharePoint**, acesse [Flow — Integração do SharePoint](https://go.microsoft.com/fwlink/?linkid=2082109) no Centro de Download da Microsoft.
 
-## <a name="admin-console-to-manage-talent-pools"></a>Administração de console para gerenciar grupos do Talent
+## <a name="referral-app"></a>Aplicativo Referral
+Você pode usar o aplicativo Referral para adicionar candidatos a um grupo de talentos compartilhado. O indicador pode inserir **Nome**, **Sobrenome**, **Email** e **URL do Linkedln** ao enviar um candidato. Em seguida, os metadados de origem do candidato são preenchidos com as informações do indicador.
 
-Ao habilitar a integração com LinkedIn, Attract cria automaticamente um grupo do Talent no LinkedIn. Quando um recrutador troca InMail com um recruta por meio do LinkedIn, Attract cria um perfil para o recruta, e o recruta se torna membro de um grupo do Talent do LinkedIn. Este aplicativo do PowerApps é útil para reorganizar candidatos em grupos do Talent com base em habilidades.
+Você pode incorporar este aplicativo no Autoatendimento para funcionários (ESS) para enviar indicações, ou pode usá-lo como um hiperlink no portal corporativo e executá-lo como um aplicativo autônomo.
 
-Execute esse aplicativo do PowerApps como um console do administrador para realizar as tarefas a seguir:
-
-- Listar candidatos em um grupo de talentos
-- Adicionar e remover candidatos de um grupo de talentos
-- Mova candidatos de um grupo do Talent para outro
-- Determine se os candidatos já são parte de um grupo do Talent antes de movê-los
-- Verifique as habilidades dos candidatos antes de movê-los para outros grupos do Talent
-
-Esse aplicativo do PowerApps usa relacionamentos muitos para muitos, então você pode usá-lo como um modelo para outros cenários onde você precisa extrair registros que têm relacionamentos muitos para muitos.
-
-Para baixar o modelo **Console de administrador para gerenciar grupos do Talent**, acesse [Console de administração para gerenciar grupos do Talent](https://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) no Microsoft Download Center.
+Para baixar o **Aplicativo Referral**, acesse a solução de extensibilidade do [Dynamics 365 for Talent: aplicativo Referral](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) no Microsoft Download Center. Você pode importar este aplicativo e personalizá-lo para adicionar funcionalidade.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [A Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)
 
-[Migrar aplicativos entre locatários e ambientes](https://docs.microsoft.com/en-us/power-platform/admin/environment-and-tenant-migration)
+[Migrar aplicativos entre locatários e ambientes](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)
