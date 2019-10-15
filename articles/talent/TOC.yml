@@ -1,13 +1,21 @@
 - name: Dynamics 365 for Talent
-  href: index.md
+  href: index.yml
   items:
-    - name: Introdução
+    - name: Comece a usar
       items:
         - name: Introdução ao Talent
           href: talent-get-started.md
         - name: Novidades ou alterações no Talent
           href: whats-new.md
           items:
+            - name: 1º de outubro de 2019
+              href: whats-new-talent-october-1-2019.md
+            - name: 17 de setembro de 2019
+              href: whats-new-talent-september-17-2019.md
+            - name: 10 de setembro de 2019
+              href: whats-new-talent-september-12-2019.md
+            - name: 27 de agosto de 2019
+              href: whats-new-talent-august-28-2019.md
             - name: 22 de agosto de 2019
               href: whats-new-talent-august-21-2019.md
             - name: 13 de agosto de 2019
@@ -24,16 +32,16 @@
               href: whats-new-talent-july-9-2019.md
             - name: 2 de julho de 2019
               href: whats-new-talent-july-2-2019.md
-            - name: 25 de junho de 2019
-              href: whats-new-talent-june-25-2019.md
-            - name: 18 de junho de 2019
-              href: whats-new-talent-june-18-2019.md
-            - name: 11 de junho de 2019
-              href: whats-new-talent-june-11-2019.md
-            - name: 4 de junho de 2019
-              href: whats-new-talent-june-4-2019.md
             - name: Arquivo morto das novidades de 2019
               items:
+                - name: 25 de junho de 2019
+                  href: whats-new-talent-june-25-2019.md
+                - name: 18 de junho de 2019
+                  href: whats-new-talent-june-18-2019.md
+                - name: 11 de junho de 2019
+                  href: whats-new-talent-june-11-2019.md
+                - name: 4 de junho de 2019
+                  href: whats-new-talent-june-4-2019.md
                 - name: 28 de maio de 2019
                   href: whats-new-talent-may-28-2019.md
                 - name: 21 de maio de 2019
@@ -112,7 +120,7 @@
           href: remove-talent-environment.md
         - name: Provisionamento para o aplicativo Onboard
           href: modular-app-tech-faq.md
-        - name: Incorporar aplicativos PowerApps
+        - name: Inserir aplicativos PowerApps
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Core HR e Common Data Service
           href: CoreHREntities.md
@@ -405,7 +413,7 @@
               href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
     - name: Extensibilidade
       items:
-        - name: Power BI inserido em espaços de trabalho
+        - name: Power BI inserido nos espaços de trabalho
           href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Estender o Talent usando o PowerApps e o Microsoft Flow — cenários de exemplo
           href: extensibility-examples.md
@@ -427,9 +435,11 @@
           href: corehr-custom-fields.md
     - name: Solucionar problemas do Talent
       items:
+        - name: Otimizar o desempenho com tarefas de limpeza automática
+          href: talent-batch-history-cleanup.md
         - name: Solucionar problemas de lançamento de trabalhos no LinkedIn
           href: attract-troubleshoot-linkedin.md
-        - name: Os relatórios analíticos não são atualizados
+        - name: Os relatórios analíticos não estão atualizados
           href: analytic-reports-not-updated.md
         - name: Não é possível criar um ambiente no Centro de administração do PowerApps
           href: create-envi-powerapps-admin-ctr.md

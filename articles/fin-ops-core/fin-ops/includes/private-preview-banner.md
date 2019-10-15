@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> <span data-ttu-id="89e08-101">A funcionalidade observada neste tópico está disponível para usuários específicos como parte de uma versão prévia particular.</span><span class="sxs-lookup"><span data-stu-id="89e08-101">Functionality noted in this topic is available to targeted users as part of a private preview release.</span></span> <span data-ttu-id="89e08-102">O conteúdo e as funcionalidades estão sujeitos a alteração.</span><span class="sxs-lookup"><span data-stu-id="89e08-102">The content and the functionality are subject to change.</span></span> 
