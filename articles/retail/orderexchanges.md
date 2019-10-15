@@ -1,6 +1,6 @@
 ---
 title: Configurar e processar uma troca em uma ordem de devolução
-description: Este tópico explica como configurar uma troca em uma devolução no Microsoft Dynamics 365 for Retail.
+description: Este tópico explica como configurar uma troca em uma devolução no Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 11/12/2018
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 43571099727830e81c41416b6fe250dba398b3f8
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3ce327a918159771df0acab276b1169d2ad77825
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561378"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025370"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>Configurar e processar uma troca em uma ordem de devolução
 
 [!include [banner](includes/banner.md)]
 
-Em versões anteriores do Microsoft Dynamics 365 for Retail, as devoluções de ordens de clientes eram processadas usando-se o documento de ordem de devolução no Retail Headquarters. No entanto, o documento de ordem de devolução pode ser usado para processar somente os produtos que estão sendo devolvidos. Os produtos devolvidos são indicados por uma quantidade negativa nas linhas da ordem de devolução. Em contraste, as vendas são indicadas por uma quantidade positiva. Entretanto, o documento de ordem de devolução não suporta quantidades positivas. Devido a essa limitação, versões anteriores do Retail não oferecem suporte aos cenários em que trocas de produto são feitas usando o documento de ordem de devolução.
+Em versões anteriores do Dynamics 365 Retail, as devoluções de ordens de clientes eram processadas usando-se o documento de ordem de devolução no Retail Headquarters. No entanto, o documento de ordem de devolução pode ser usado para processar somente os produtos que estão sendo devolvidos. Os produtos devolvidos são indicados por uma quantidade negativa nas linhas da ordem de devolução. Em contraste, as vendas são indicadas por uma quantidade positiva. Entretanto, o documento de ordem de devolução não suporta quantidades positivas. Devido a essa limitação, versões anteriores do Retail não oferecem suporte aos cenários em que trocas de produto são feitas usando o documento de ordem de devolução.
 
 Entretanto, a funcionalidade foi adicionada para dar suporte a cenários em que as trocas são feitas sobre ordens de devolução. O Retail agora usa o documento da ordem de venda em vez do documento da ordem de devolução para processar esses tipos de transações.
 

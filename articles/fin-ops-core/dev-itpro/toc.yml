@@ -1,0 +1,1628 @@
+- name: Desenvolvimento e administração do Finance and Operations
+  items:
+    - name: Desenvolvimento e administração do Finance and Operations
+      items:
+        - name: Desenvolvimento e administração do Finance and Operations
+          href: index.md
+        - name: Novidades ou alterações
+          items:
+            - name: Recursos de visualização na Platform update 30 (novembro de 2019)
+              href: ../fin-ops/get-started/whats-new-platform-update-30.md
+            - name: Platform update‎ 29 (novembro de 2019)
+              href: ../fin-ops/get-started/whats-new-platform-update-29.md
+            - name: Platform update 28 (julho de 2019)
+              href: ../fin-ops/get-started/whats-new-platform-update-28.md
+            - name: Platform update 27 (junho de 2019)
+              href: ../fin-ops/get-started/whats-new-platform-update-27.md
+            - name: Platform update 26 (maio de 2019)
+              href: ../fin-ops/get-started/whats-new-platform-update-26.md
+            - name: Platform update 25 (abril de 2019)
+              href: ../fin-ops/get-started/whats-new-platform-25.md
+            - name: Platform update 24 (março de 2019)
+              href: ../fin-ops/get-started/whats-new-platform-update-24.md
+            - name: Platform update 23 (janeiro de 2019)
+              href: ../fin-ops/get-started/whats-new-platform-update-23.md
+            - name: Platform update 22 (dezembro de 2018)
+              href: ../fin-ops/get-started/whats-new-platform-update-22.md
+            - name: Platform update 21 (novembro de 2018)
+              href: ../fin-ops/get-started/whats-new-platform-update-21.md
+            - name: Platform update 20 (setembro de 2018)
+              href: ../fin-ops/get-started/whats-new-platform-update-20.md
+            - name: Platform update 15 (março de 2018)
+              href: ../fin-ops/get-started/whats-new-platform-update-15.md
+        - name: Eventos de negócios
+          items:
+            - name: Visão geral sobre eventos de negócios
+              href: business-events/home-page.md
+            - name: Eventos de negócios de aplicativos
+              href: business-events/app-business-events.md
+            - name: Eventos de negócios de fluxos de trabalho
+              href: business-events/business-events-workflow.md
+            - name: Alertas como eventos de negócios
+              href: business-events/alerts-business-events.md
+            - name: Eventos de negócios no Microsoft Flow
+              href: business-events/business-events-flow.md
+            - name: Documentação do desenvolvedor de eventos de negócios
+              href: business-events/business-events-dev-doc.md
+            - name: Solucionar problemas de eventos de negócios
+              href: business-events/troubleshooting.md
+            - name: Casos de uso de eventos de negócios
+              href: business-events/potential-use-cases.md
+            - name: Tutoriais
+              items:
+                - name: Eventos de negócios e Microsoft Flow
+                  href: business-events/how-to/how-to-flow.md
+                - name: Eventos de negócios e Grade de Eventos do Azure
+                  href: business-events/how-to/how-to-eventgrid.md
+                - name: Eventos de negócios e Barramento de Serviço do Azure
+                  href: business-events/how-to/how-to-servicebus.md
+                - name: Eventos de negócios e aprovações de fluxo de trabalho
+                  href: business-events/how-to/how-to-workflow.md
+                - name: Eventos de negócios e Microsoft Forms Pro
+                  href: business-events/how-to/FormsPro.md
+                - name: Eventos de negócios e Hubs de Eventos do Azure
+                  href: business-events/how-to/event-hub.md
+        - name: Entrega contínua
+          items:
+            - name: Home page de Entrega contínua
+              href: dev-tools/continuous-delivery-home-page.md
+            - name: Perguntas frequentes sobre Entrega contínua e desenvolvimento
+              href: dev-tools/continuous-delivery-faq.md
+            - name: ​Excluir pacotes de teste da saída de compilação
+              href: dev-tools/exclude-test-packages.md
+            - name: Gerenciar modelos de terceiros e pacotes de tempo de execução usando o controle de origem
+              href: dev-tools/manage-runtime-packages.md
+            - name: Atualizar versões do modelo na compilação automatizada
+              href: dev-tools/version-models-build.md
+        - name: Integração de dados
+          items:
+            - name: Escolher uma estratégia de integração de dados (importação/exportação)
+              href: data-entities/integration-overview.md
+            - name: APIs de integração de dados
+              items:
+                - name: REST API do pacote de gerenciamento de dados
+                  href: data-entities/data-management-api.md
+                - name: Pontos de extremidade de serviço
+                  items:
+                    - name: Visão geral de empresas de serviço
+                      href: data-entities/services-home-page.md
+                    - name: Solução de problemas de autenticação de serviço
+                      href: data-entities/troubleshoot-service-authentication.md
+                - name: OData
+                  href: data-entities/odata.md
+                - name: Desenvolvimento de serviço personalizado
+                  href: data-entities/custom-services.md
+                - name: Integrações recorrentes
+                  href: data-entities/recurring-integrations.md
+                - name: Testar serviços com utilitários de terceiros
+                  href: data-entities/third-party-service-test.md
+            - name: Conector do Finance and Operations
+              href: data-entities/fin-ops-connector.md
+            - name: Desenvolvimento para integração
+              items:
+                - name: Integração de dados usando entidades de dados
+                  items:
+                    - name: Visão geral de integração de dados usando entidades de dados
+                      href: data-entities/data-management-integration-data-entity.md
+                    - name: ​Desenvolver uma entidade para migração de dados​
+                      href: data-entities/develop-entity-for-data-migration.md
+                    - name: Desenvolver entidades de dados compostas
+                      href: data-entities/develop-composite-data-entities.md
+                    - name: Configurar o compartilhamento de dados financeiros entre empresas
+                      href: data-entities/tasks/configure-financial-cross-company-data-sharing.md
+                    - name: Criar modelos de registros para facilitar a entrada de dados
+                      href: data-entities/tasks/create-record-template-facilitate-data-entry.md
+                    - name: Criar registros usando modelos de registros
+                      href: data-entities/tasks/use-record-template-new-record.md
+                - name: Integração de dados usando o Common Data Service
+                  items:
+                    - name: Visão geral da integração de dados usando o Common Data Service
+                      href: data-entities/data-integration-cds.md
+                    - name: 'Integração síncrona, bidirecional'
+                      items:
+                        - name: Integração de dados quase em tempo real
+                          href: data-entities/dual-write-overview.md
+                        - name: Hierarquia da organização no Common Data Service
+                          href: data-entities/dual-write-organization.md
+                        - name: Conceito de empresa em Common Data Services
+                          href: data-entities/dual-write-company.md
+                        - name: Cliente Mestre Integrado
+                          href: data-entities/dual-write-customer.md
+                        - name: Experiência unificada de produto
+                          href: data-entities/dual-write-product.md
+                        - name: Fornecedor Mestre Integrado
+                          href: data-entities/dual-write-vendor.md
+                        - name: Sites e depósitos integrados
+                          href: data-entities/dual-write-sites-and-warehouses.md
+                        - name: Sincronização inicial
+                          href: data-entities/dual-write-initial.md
+                        - name: Solução de problemas de integração de dados
+                          href: data-entities/dual-write-troubleshooting.md
+                    - name: 'Integração assíncrona, unidirecional'
+                      items:
+                        - name: Configurar um cenário de cliente potencial ao pagamento à vista
+                          items:
+                            - name: Cliente potencial ao pagamento à vista
+                              href: ../../supply-chain/sales-marketing/prospect-to-cash.md
+                            - name: Sincronizar contas diretamente do Sales com clientes no Finance and Operations
+                              href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
+                            - name: Sincronizar produtos diretamente do Finance and Operations com produtos do Sales
+                              href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
+                            - name: Sincronizar contatos diretamente do Sales com contatos ou clientes do Finance and Operations
+                              href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
+                            - name: Sincronizar cabeçalhos e linhas de cotação de venda diretamente do Sales para o Finance and Operations
+                              href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
+                            - name: Sincronização de ordens de venda diretamente entre o Sales e o Finance and Operations
+                              href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
+                            - name: Sincronizar cabeçalhos e linhas da fatura de venda diretamente do Finance and Operations para o Sales
+                              href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
+                        - name: Configurar a integração com o Field Service
+                          items:
+                            - name: Visão geral de configuração da integração com o Field Service
+                              href: ../../supply-chain/sales-marketing/field-service.md
+                            - name: Sincronizar produtos no Finance and Operations com produtos no Field Service
+                              href: ../../supply-chain/sales-marketing/field-service-product.md
+                            - name: Sincronizar ordens de trabalho no Field Service com ordens de venda no Finance and Operations
+                              href: ../../supply-chain/sales-marketing/field-service-work-order.md
+                            - name: Sincronizar faturas de contrato no Field Service com faturas de texto livre no Finance and Operations
+                              href: ../../supply-chain/sales-marketing/field-service-invoice.md
+                            - name: Sincronizar transferências e ajustes de estoque do Field Service no Finance and Operations
+                              href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                            - name: Sincronizar informações do nível de estoque do Finance and Operations no Field Service
+                              href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                            - name: Sincronizar produtos com unidade de estoque do Finance and Operations no Field Service
+                              href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                            - name: Sincronizar lista de projetos do Finance and Operations no Field Service
+                              href: ../../supply-chain/sales-marketing/synchronize-project-list.md
+                            - name: Sincronizar depósitos do Finance and Operations no Field Service
+                              href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
+                            - name: Sincronizar ordens de trabalho com o projeto do Field Service no Finance and Operations
+                              href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
+                        - name: Configurar integração do Project Service Automation
+                          items:
+                            - name: Visão geral do Project Service Automation
+                              href: ../../finance/project-management/PSA-integration.md
+                            - name: Parâmetros de integração do Project Service Automation
+                              href: ../../finance/project-management/PSA-parameters.md
+                            - name: Sincronizar contratos de projeto e projetos
+                              href: ../../finance/project-management/project-contracts-templates.md
+                            - name: Sincronizar tarefas do projeto
+                              href: ../../finance/project-management/project-tasks-template.md
+                            - name: Sincronizar categorias de despesas do projeto
+                              href: ../../finance/project-management/project-categories-templates.md
+                            - name: Sincronizar estimativas de projeto para previsões de projeto
+                              href: ../../finance/project-management/project-estimates-templates.md
+                            - name: Sincronizar números reais do projeto com o diário de integração do projeto
+                              href: ../../finance/project-management/project-actuals-templates.md
+            - name: Consumo de serviços Web externos
+              href: data-entities/consume-external-web-service.md
+            - name: Mensagens eletrônicas
+              href: ../../finance/general-ledger/electronic-messaging.md
+        - name: Gerenciamento de dados
+          items:
+            - name: Visão geral do gerenciamento de dados
+              href: data-entities/data-entities-data-packages.md
+            - name: Entidades de dados
+              items:
+                - name: Visão geral de entidades de dados
+                  href: data-entities/data-entities.md
+                - name: Projetos de dados de configuração
+                  href: data-entities/configuration-data-projects.md
+                - name: Copiar dados de configuração entre empresas ou entidades legais
+                  items:
+                    - name: Visão geral de cópia de dados de configuração
+                      href: data-entities/copy-configuration.md
+                    - name: Pacotes de dados de configuração
+                      href: data-entities/configuration-data-packages.md
+                    - name: Pacotes de dados de configuração (somente a versão de julho de 2017)
+                      href: data-entities/configuration-data-packages.md
+                    - name: Disponibilizar o Repositório de Entidades como um Data Lake
+                      href: data-entities/entity-store-data-lake.md
+                - name: Modelos de dados de configuração
+                  href: data-entities/configuration-data-templates.md
+                - name: Controlar alterações em uma entidade
+                  href: data-entities/entity-change-track.md
+                - name: Encontrar informações sobre entidades de dados padrão
+                  href: data-entities/data-entities-report.md
+                - name: Modelos de dados com várias planilhas
+                  href: data-entities/excel-template-multiple.md
+                - name: Habilitar o controle de alterações para entidades
+                  href: data-entities/entity-change-track.md
+                - name: Chaves de configuração e entidades de dados
+                  href: data-entities/config-key-entities.md
+                - name: Pacotes de dados de configuração
+                  href: data-entities/configuration-data-packages.md
+            - name: Trabalhos de importação e exportação de dados
+              items:
+                - name: Visão geral de trabalhos de importação e exportação de dados
+                  href: data-entities/data-import-export-job.md
+                - name: ​Práticas recomendadas para importar comprovantes usando a entidade Diário geral​
+                  href: data-entities/tips-tricks-import-general-journal-entity.md
+            - name: Desenvolvimento para entidades de dados
+              items:
+                - name: Princípios e práticas recomendadas de Design para entidades de dados
+                  href: dev-tools/design-best-practices.md
+                - name: Criar novas entidades de dados
+                  href: data-entities/build-consuming-data-entities.md
+                - name: Propriedades da entidade de dados
+                  href: data-entities/behavioral-properties-data-entities.md
+                - name: Criar colunas computadas e campos virtuais
+                  href: data-entities/data-entity-computed-columns-virtual-fields.md
+                - name: ​Comportamento interempresarial​
+                  href: data-entities/cross-company-behavior.md
+                - name: Manuseio de códigos de países/regiões
+                  href: data-entities/countryregion-codes-configuration-keys.md
+                - name: ​Padrões de herança​
+                  href: data-entities/support-super-type-sub-type.md
+                - name: Regras do assistente de entidade de dados
+                  href: data-entities/data-entity-wizard-rules.md
+                - name: ​Propriedades de metadados​
+                  href: data-entities/behavioral-properties-data-entities.md
+                - name: '​Validações, padrões e campos não mapeados​'
+                  href: data-entities/validations-defaults-unmapped-fields.md
+                - name: ​Segurança e entidades de dados​
+                  href: data-entities/security-data-entities.md
+                - name: Usar o utilitário de teste de serviço de terceiros
+                  href: data-entities/third-party-service-test.md
+                - name: Criar entidades somente leitura que exponham dimensões financeiras
+                  href: financial/read-only-entity-financial.md
+            - name: Trazer seu próprio banco de dados
+              href: analytics/export-entities-to-your-own-database.md
+            - name: Atualização do repositório de Entidades Automatizadas
+              href: analytics/automated-entity-store-refresh.md
+            - name: Automação de tarefa de dados
+              href: data-entities/data-task-automation.md
+            - name: Espaço de trabalho da lista de verificação de validação de dados
+              href: user-interface/data-validation-workspace.md
+            - name: Descrições dos erros de gerenciamento de dados
+              href: data-entities/dm-error-descriptions.md
+        - name: Operações de movimento de banco de dados
+          items:
+            - name: Visão geral
+              href: database/dbmovement-operations.md
+            - name: Guias de início rápido
+              items:
+                - name: Atualizar banco de dados
+                  href: database/database-refresh.md
+                - name: Exportar um banco de dados
+                  href: database/export-database.md
+                - name: Importar um banco de dados
+                  href: database/import-database.md
+                - name: Restauração pontual de banco de dados
+                  href: database/database-point-in-time-restore.md
+            - name: Tutoriais
+              items:
+                - name: Atualização para fins de treinamento
+                  href: database/dbmovement-scenario-general-refresh.md
+                - name: Depurar uma cópia do banco de dados de produção
+                  href: database/dbmovement-scenario-debugdiag.md
+                - name: Exportar uma cópia do banco de dados padrão do teste de aceitação de usuário (UAT)
+                  href: database/dbmovement-scenario-exportuat.md
+                - name: Promoção de configuração dourada
+                  href: database/dbmovement-scenario-goldenconfig.md
+                - name: Teste destrutivo
+                  href: database/dbmovement-scenario-destructivetests.md
+        - name: Dados de demonstração
+          items:
+            - name: Visão geral dos dados de demonstração
+              href: ../fin-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
+            - name: Gerenciar dados de demonstração usando pacotes de dados
+              href: data-entities/generate-demo-data-packages.md
+        - name: Implantação
+          items:
+            - name: Implantar ambientes de demonstração
+              href: deployment/deploy-demo-environment.md
+            - name: Implantação de nuvem
+              items:
+                - name: Visão geral da implantação de nuvem
+                  href: deployment/cloud-deployment-overview.md
+                - name: Implantação de autoatendimento
+                  items:
+                    - name: Visão geral da Implantação de autoatendimento
+                      href: deployment/infrastructure-stack.md
+                    - name: Implantar um novo ambiente
+                      href: deployment/deployenvironment-newinfrastructure.md
+                    - name: Perguntas frequentes sobre implantação
+                      href: deployment/deploymentFAQ.md
+                    - name: Problemas conhecidos com a implantação de autoatendimento
+                      href: deployment/known-issues-new-deployment-experience.md
+                    - name: Operações de manutenção para implantações
+                      href: deployment/maintenanceoperationsguide-newinfrastructure.md
+                    - name: Atualizar um ambiente
+                      href: deployment/updateenvironment-newinfrastructure.md
+                    - name: Solucionar problemas de ambientes implantados por meio da implantação de autoatendimento
+                      href: deployment/troubleshoot-newinfrastructure.md
+                - name: Integração completa do Azure Resource Manager
+                  href: deployment/arm-onboarding.md
+                - name: Azure ExpressRoute e Finance and Operations
+                  href: deployment/expressroute.md
+                - name: Arquitetura do Finance and Operations
+                  href: ../fin-ops/imp-lifecycle/architecture-overview.md
+                - name: Aplicar atualizações a ambientes de nuvem
+                  href: deployment/apply-deployable-package-system.md
+                - name: Aplicar atualizações e extensões a componentes do canal do Retail hospedados na nuvem
+                  href: deployment/Update-retail-channel.md
+                - name: Inicializar Retail Cloud Scale Unit
+                  href: deployment/Initialize-Retail-Channels.md
+                - name: Residência de dados do Retail
+                  href: deployment/retail-data-residency.md
+            - name: ​Implantação local​
+              items:
+                - name: Home page Implantação local
+                  href: deployment/on-premises-deployment-landing-page.md
+                - name: Visão geral da Implantação local
+                  href: deployment/on-premises-overview.md
+                - name: Planejar e preparar para implantações locais
+                  href: deployment/plan-onprem-deployment.md
+                - name: Requisitos de dimensionamento de hardware
+                  href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
+                - name: Configurar projetos locais
+                  href: lifecycle-services/lbd-create-lcs-on-prem-project.md
+                - name: Configurar e implantar ambientes locais
+                  items:
+                    - name: Home page Configurar e implantar ambientes locais
+                      href: deployment/setup-deploy-on-premises-environments.md
+                    - name: Implantar ambientes locais (Platform update 12 e posterior)
+                      href: deployment/setup-deploy-on-premises-pu12.md
+                    - name: Implantar ambientes locais (Platform updates 8 e 11)
+                      href: deployment/setup-deploy-on-premises-pu8-pu11.md
+                    - name: Etapas de instalação dos componentes do canal do Retail em um ambiente local
+                      href: deployment/deploy-retail-onprem.md
+                - name: Desenvolver e implantar modelos personalizados em ambientes locais
+                  href: deployment/develop-deploy-custom-models-on-premises.md
+                - name: Integração do PowerBI.com com ambientes locais
+                  href: analytics/entity-store-on-prem.md
+                - name: Configurar proxies reversos para ambientes locais
+                  href: deployment/onprem-reverseproxy.md
+                - name: Aplicar atualizações a uma implantação local
+                  href: deployment/apply-updates-on-premises.md
+                - name: Diagnósticos locais
+                  href: deployment/on-premises-diagnostics.md
+                - name: Reimplantar implantações locais
+                  href: deployment/redeploy-on-prem.md
+                - name: Agente local
+                  items:
+                    - name: Compatibilidade entre AD FS e Office 365
+                      href: deployment/onprem-adfscompatibility.md
+                    - name: Scripts de agente local de pré-implantação e pós-implantação
+                      href: lifecycle-services/pre-post-scripts.md
+                    - name: Atualizar o agente local
+                      href: lifecycle-services/update-local-agent.md
+                - name: Reconfigurar ambientes
+                  href: lifecycle-services/reconfigure-environment.md
+                - name: Conectividade da Internet do cliente
+                  href: user-interface/client-disconnected.md
+                - name: Solucionar problemas de implantações locais
+                  href: deployment/troubleshoot-on-prem.md
+                - name: Rotação de certificados
+                  href: deployment/certificate-rotation-on-prem.md
+            - name: Implantar código personalizado
+              items:
+                - name: Criar pacotes de modelos implantáveis
+                  href: deployment/create-apply-deployable-package.md
+                - name: Instalar pacotes implantáveis da linha de comando
+                  href: deployment/install-deployable-package.md
+                - name: Desinstalar um pacote
+                  href: deployment/uninstall-deployable-package.md
+                - name: Solucionar problemas de aplicativo do pacote
+                  href: deployment/deployable-package-troubleshooting.md
+        - name: Desenvolver e personalizar
+          items:
+            - name: Home page de Desenvolver e personalizar
+              href: dev-tools/developer-home-page.md
+            - name: Pilha de aplicativos e arquitetura do servidor
+              href: dev-tools/application-stack-server-architecture.md
+            - name: ​Obter cópias de avaliação​
+              href: dev-tools/get-evaluation-copy.md
+            - name: Inscrever-se em assinaturas de versão prévia
+              href: dev-tools/sign-up-preview-subscription.md
+            - name: Implantar e acessar ambientes de desenvolvimento
+              items:
+                - name: Ambientes de desenvolvimento
+                  href: dev-tools/access-instances.md
+                - name: Configurar ambientes de desenvolvimento de uma caixa
+                  href: dev-tools/configure-developer-vm.md
+                - name: Criar novos usuários em computadores de desenvolvimento
+                  href: dev-tools/enable-development-machine.md
+                - name: Perguntas Frequentes sobre desenvolvimento e compilação de VMs que não permitem o acesso do administrador
+                  href: sysadmin/VMs-no-admin-access.md
+                - name: Renomear ambientes locais para acessar o Azure DevOps
+                  href: migration-upgrade/vso-machine-renaming.md
+                - name: Requisitos do sistema de desenvolvimento
+                  href: dev-tools/development-system-requirements.md
+            - name: 'Controle de versão, pesquisa de metadados e navegação'
+              href: dev-tools/version-control-metadata-navigation.md
+            - name: Aplicativo de exemplo de Gerenciamento de Frota
+              items:
+                - name: Cenário de ponta a ponta para o aplicativo de exemplo de Gerenciamento de Frota
+                  href: dev-tools/fleet-management-sample.md
+                - name: Aplicativo de exemplo de Gerenciamento de Frota
+                  href: dev-tools/introduction-fleet-management-sample.md
+            - name: Ferramentas do Visual Studio
+              items:
+                - name: Ferramentas de desenvolvimento
+                  href: dev-tools/development-tools-overview.md
+                - name: Tutorial sobre as ferramentas de desenvolvimento
+                  href: dev-tools/introduction-visual-studio.md
+                - name: Verificador de Aplicativo
+                  items:
+                    - name: Instalar BaseX para o Verificador de Aplicativo
+                      href: dev-tools/install-basex.md
+                - name: Explorador de Aplicativos
+                  href: dev-tools/application-explorer.md
+                - name: Compilar e depurar projetos
+                  href: dev-tools/build-debug-project.md
+                - name: Operações de compilação
+                  href: dev-tools/build-operations.md
+                - name: Recursos do Editor de códigos
+                  href: dev-tools/code-editor.md
+                - name: ​Criar modelos e elementos de modelo de dados​
+                  items:
+                    - name: Visão geral de ​Criar modelos e elementos de modelo de dados​
+                      href: dev-tools/create-data-model-elements.md
+                    - name: Diretrizes de nomenclatura para extensões
+                      href: extensibility/NamingGuidelines.md
+                    - name: ​Desativar a personalização de modelos e substituir a funcionalidade​
+                      href: dev-tools/lock-models.md
+                - name: ​Relatório de Análise de Personalizações​
+                  href: dev-tools/customization-analysis-report.md
+                - name: ​Designers de elementos​
+                  href: dev-tools/element-designers.md
+                - name: Comandos para determinar o uso de elementos
+                  href: dev-tools/element-usage.md
+                - name: Exportar e importar modelos
+                  href: dev-tools/models-export-import.md
+                - name: Pesquisa de metadados no Visual Studio
+                  href: dev-tools/metadata-search-visual-studio.md
+                - name: Modelos e pacotes
+                  href: dev-tools/models.md
+                - name: Tipo de projeto do Finance and Operations
+                  href: dev-tools/projects.md
+                - name: Suplementos de ferramentas para o Visual Studio
+                  href: dev-tools/developer-tools-add-ins.md
+                - name: Atualizar as ferramentas de desenvolvimento do Visual Studio
+                  href: dev-tools/update-development-tools.md
+            - name: Linguagem de programação X++
+              items:
+                - name: Recursos de X++ e depurador
+                  href: dev-tools/new-x-debugger-features.md
+                - name: Depurar código X++
+                  href: dev-tools/debug-xpp.md
+                - name: Classes EventHandlerResult em cenários de solicitação ou resposta
+                  href: dev-tools/event-handler-result-class.md
+                - name: 'Escrever lógica comercial usando código-fonte C# e X++'
+                  href: dev-tools/write-business-logic.md
+                - name: Alterações em X++ e no compilador X++
+                  href: dev-tools/programming-language-support.md
+                - name: 'Provedor LINQ para C#'
+                  href: dev-tools/linq-provider-c.md
+                - name: Escrever regras de práticas recomendadas
+                  href: dev-tools/author-best-practice-rules.md
+                - name: Propriedades do Explorador de Aplicativos
+                  href: dev-ref/application-explorer-aot-properties.md
+                - name: Referência da linguagem X++
+                  items:
+                    - name: Visão geral da Referência da linguagem X++
+                      href: dev-ref/xpp-language-reference.md
+                    - name: Variáveis e tipos de dados
+                      items:
+                        - name: Variáveis
+                          href: dev-ref/xpp-variables-data-types.md
+                        - name: Tipos de dados primitivos
+                          href: dev-ref/xpp-data-primitive.md
+                        - name: Tipos de dados compostos
+                          href: dev-ref/xpp-data-composite.md
+                        - name: Classes da coleção
+                          href: dev-ref/xpp-data-collection.md
+                        - name: Tipos de dados estendidos
+                          href: dev-ref/xpp-data-edt.md
+                    - name: 'Instruções, loops e tratamento de exceções'
+                      items:
+                        - name: 'Comentários, utilização e impressão'
+                          href: dev-ref/xpp-statements-loops.md
+                        - name: Instruções condicionais
+                          href: dev-ref/xpp-conditional.md
+                        - name: Instruções de loop
+                          href: dev-ref/xpp-loops.md
+                        - name: Tratamento de exceções
+                          href: dev-ref/xpp-exceptions.md
+                    - name: Exceção da X++ para o erro de conexão do SQL
+                      href: dev-ref/sql-connection-error.md
+                    - name: Operadores da X++
+                      href: dev-ref/xpp-operators.md
+                    - name: Precedência dos operadores da X++
+                      href: dev-ref/xpp-operator-precedence.md
+                    - name: Classes e métodos da X++
+                      items:
+                        - name: Classes e métodos
+                          href: dev-ref/xpp-classes-methods.md
+                        - name: Herança
+                          href: dev-ref/xpp-inheritance.md
+                        - name: Membros de classe estática
+                          href: dev-ref/xpp-static-classes.md
+                        - name: Interfaces
+                          href: dev-ref/xpp-interfaces.md
+                        - name: Bibliotecas
+                          href: dev-ref/xpp-library-objects.md
+                        - name: Eventos
+                          href: dev-ref/xpp-events.md
+                    - name: Manipulação e seleção de dados da X++
+                      href: dev-ref/xpp-data-query.md
+                    - name: Acesso a dados usando a API do SysDa
+                      href: dev-ref/sysda.md
+                    - name: Macros da X++
+                      href: dev-ref/xpp-macros.md
+                    - name: Classes de atributo da X++
+                      href: dev-ref/xpp-attribute-classes.md
+                    - name: 'Comparação entre X++ e C#'
+                      href: dev-ref/xpp-cs-comparison.md
+                    - name: Sintaxe da X++
+                      href: dev-ref/xpp-syntax.md
+            - name: '​Referência de API, classes e tabelas​'
+              items:
+                - name: '​Recursos de API, classes e tabelas​'
+                  href: dev-ref/api-reference.md
+                - name: Funções em tempo de compilação da X++
+                  href: dev-ref/xpp-compile-time-functions.md
+                - name: Funções em tempo de execução da X++
+                  items:
+                    - name: Recursos de Funções em tempo de execução da X++​
+                      href: dev-ref/xpp-run-time-functions.md
+                    - name: ​Funções de negócios em tempo de execução da X++​
+                      href: dev-ref/xpp-business-run-time-functions.md
+                    - name: ​Funções de contêiner em tempo de execução da X++​
+                      href: dev-ref/xpp-container-run-time-functions.md
+                    - name: Funções de conversão em tempo de execução da X++
+                      href: dev-ref/xpp-conversion-run-time-functions.md
+                    - name: Funções de data em tempo de execução da X++
+                      href: dev-ref/xpp-date-run-time-functions.md
+                    - name: ​Funções matemáticas em tempo de execução da X++​
+                      href: dev-ref/xpp-math-run-time-functions.md
+                    - name: ​Funções de reflexão em tempo de execução da X++​
+                      href: dev-ref/xpp-reflection-run-time-functions.md
+                    - name: ​Funções de sessão em tempo de execução da X++​
+                      href: dev-ref/xpp-session-run-time-functions.md
+                    - name: ​Funções de cadeia de caracteres em tempo de execução da X++​
+                      href: dev-ref/xpp-string-run-time-functions.md
+                - name: Tabelas do sistema
+                  href: dev-ref/system-tables.md
+                - name: Classes do sistema
+                  items:
+                    - name: Classes A
+                      href: dev-ref/a-classes.md
+                    - name: Classes B
+                      href: dev-ref/b-classes.md
+                    - name: Classes C
+                      href: dev-ref/c-classes.md
+                    - name: Classes D
+                      href: dev-ref/d-classes.md
+                    - name: Classes E
+                      href: dev-ref/e-classes.md
+                    - name: Classes F (FieldBinding a FormBuildAnimateControl)
+                      href: dev-ref/fieldbinding-classes.md
+                    - name: Classes F (FormBuildButtonControl a FormBuildFastTabSummarySeparator)
+                      href: dev-ref/formbuildbuttoncontrol-classes.md
+                    - name: Classes F (FormBuildFilterPaneControl a FormBuildRealControl)
+                      href: dev-ref/formbuildfilterpanecontrol-classes.md
+                    - name: Classes F (FormBuildReferenceControl a FormButtonSeparatorControl)
+                      href: dev-ref/formbuildreferencecontrol-classes.md
+                    - name: Classes F (FormChangeTracker a FormControlEventArgs)
+                      href: dev-ref/formchangetracker-classes.md
+                    - name: Classes F (FormDataObject a FormFastTabHeaderControl)
+                      href: dev-ref/formdataobject-classes.md
+                    - name: Classes F (FormFastTabSummarySeparator a FormGridControl)
+                      href: dev-ref/formfasttabsummaryseparator-classes.md
+                    - name: Classes F (FormGroupControl a FormIntControl)
+                      href: dev-ref/formgroupcontrol-classes.md
+                    - name: Classes F (FormListBoxControl a FormNotifyEventArgs)
+                      href: dev-ref/formlistboxcontrol-classes.md
+                    - name: Classes F (FormObject a FormRealControl)
+                      href: dev-ref/formobject-classes.md
+                    - name: Classes F (FormReferenceControl a FormStringControl)
+                      href: dev-ref/formreferencecontrol-classes.md
+                    - name: Classes F (FormTabControl a FormWindowControl)
+                      href: dev-ref/formtabcontrol-classes.md
+                    - name: Classes G
+                      href: dev-ref/g-classes.md
+                    - name: Classes H
+                      href: dev-ref/h-classes.md
+                    - name: Classes I
+                      href: dev-ref/i-classes.md
+                    - name: Classes J
+                      href: dev-ref/j-classes.md
+                    - name: Classes K
+                      href: dev-ref/k-classes.md
+                    - name: Classes L
+                      href: dev-ref/l-classes.md
+                    - name: Classes M
+                      href: dev-ref/m-classes.md
+                    - name: Classes N
+                      href: dev-ref/n-classes.md
+                    - name: Classes O
+                      href: dev-ref/o-classes.md
+                    - name: Classes P
+                      href: dev-ref/p-classes.md
+                    - name: Classes Q
+                      href: dev-ref/q-classes.md
+                    - name: Classes R
+                      href: dev-ref/r-classes.md
+                    - name: Classes S
+                      href: dev-ref/s-classes.md
+                    - name: Classes T
+                      href: dev-ref/t-classes.md
+                    - name: Classes U
+                      href: dev-ref/u-classes.md
+                    - name: Classes V
+                      href: dev-ref/v-classes.md
+                    - name: Classes W
+                      href: dev-ref/w-classes.md
+                    - name: Classes X
+                      href: dev-ref/x-classes.md
+            - name: Extensibilidade
+              items:
+                - name: Home page da extensibilidade
+                  href: extensibility/extensibility-home-page.md
+                - name: Introdução e começar a usar
+                  items:
+                    - name: Plano de extensibilidade de aplicativo
+                      href: extensibility/extensibility-roadmap.md
+                    - name: Solicitações de extensibilidade
+                      href: extensibility/extensibility-requests.md
+                    - name: Perguntas frequentes de extensibilidade
+                      href: extensibility/app-sealing-faq.md
+                    - name: Migrar de sobreposições para extensões
+                      href: extensibility/migrate-overlayer-extension.md
+                    - name: Personalizar elementos do modelo por meio de extensão (tutorial)
+                      href: extensibility/customize-model-elements-extensions.md
+                    - name: Personalizar por meio de extensão e sobreposição
+                      href: extensibility/customization-overlayering-extensions.md
+                - name: Novidades
+                  items:
+                    - name: Novidades ou alterações da extensibilidade
+                      href: extensibility/extensibility-new.md
+                    - name: Alterações de extensibilidade na versão 10.0.3
+                      href: extensibility/extensibility-changes-10-3.md
+                    - name: Alterações de extensibilidade na versão 10.0.2
+                      href: extensibility/extensibility-changes-10-2.md
+                    - name: Alterações de extensibilidade na versão 10.0.1
+                      href: extensibility/extensibility-changes-10-1.md
+                    - name: Alterações de extensibilidade na versão 10.0
+                      href: extensibility/extensibility-changes-10.md
+                    - name: Alterações de extensibilidade na versão 8.1.3
+                      href: extensibility/extensibility-changes-813.md
+                    - name: Alterações de extensibilidade na versão 8.1.2
+                      href: extensibility/extensibility-changes-812.md
+                    - name: Alterações de extensibilidade na versão 8.1.1
+                      href: extensibility/extensibility-changes-811.md
+                    - name: Alterações de extensibilidade na versão 8.1
+                      href: extensibility/extensibility-changes-81.md
+                    - name: Alterações de extensibilidade na versão 8.0.4
+                      href: extensibility/extensibility-changes-804.md
+                    - name: Alterações de extensibilidade na versão 8.0.3
+                      href: extensibility/extensibility-changes-803.md
+                    - name: Alterações de extensibilidade na versão 8.0.2
+                      href: extensibility/extensibility-changes-802.md
+                    - name: Alterações de extensibilidade na versão 8.0.1
+                      href: extensibility/extensibility-changes-801.md
+                    - name: Alterações de extensibilidade na versão 8.0
+                      href: extensibility/changes-80.md
+                    - name: Alterações de extensibilidade na versão 7.3
+                      href: extensibility/extensibility-changes-73.md
+                    - name: Alterações de extensibilidade em julho de 2017
+                      href: extensibility/changes-july-2017.md
+                - name: Conceitos básicos
+                  items:
+                    - name: Personalizações intrusivas
+                      href: extensibility/intrusive-customizations.md
+                    - name: Modelo de extensão de classes
+                      href: extensibility/class-extensions.md
+                    - name: Extensão de classe via disposição e cadeia de comando do método
+                      href: extensibility/method-wrapping-coc.md
+                    - name: Diretrizes de nomenclatura para extensões
+                      href: extensibility/naming-guidelines-extensions.md
+                    - name: Relaxar restrições do modelo para refatorar a sobreposição de camadas em extensões
+                      href: extensibility/refactoring-over-layering.md
+                - name: Criando extensões
+                  items:
+                    - name: Adicionar valores a enumerações
+                      href: extensibility/add-enum-value.md
+                    - name: Modificar tipos de dados estendidos
+                      href: extensibility/modify-edt.md
+                    - name: Registrar subclasses para métodos de fábrica
+                      href: extensibility/register-subclass-factory-methods.md
+                    - name: Responder usando EventHandlerResult
+                      href: extensibility/respond-event-handler-result.md
+                    - name: Estender a classe RunBase​
+                      href: extensibility/extend-runbase-class.md
+                    - name: Personalizar a inicialização do aplicativo usando delegados
+                      href: extensibility/startup-customizations.md
+                    - name: Modificar campos existentes em uma tabela
+                      href: extensibility/modify-existing-field.md
+                    - name: Adicionar campos a tabelas
+                      href: extensibility/add-field-extension.md
+                    - name: Adicionar índices a tabelas
+                      href: extensibility/add-index.md
+                    - name: Adicionar relações a tabelas
+                      href: extensibility/add-relation.md
+                    - name: Modificar propriedades da tabela
+                      href: extensibility/modify-properties.md
+                    - name: Adicionar métodos a tabelas
+                      href: extensibility/add-method-table.md
+                    - name: Executar ações comerciais no ciclo de vida de registros de tabela
+                      href: extensibility/subscribe-table-events.md
+                    - name: Adicionar fontes de dados aos formulários
+                      href: extensibility/add-datasource.md
+                    - name: Alterar legendas do formulário
+                      href: extensibility/change-caption-form.md
+                    - name: Modificar propriedades de controle de formulário
+                      href: extensibility/modify-control-properties.md
+                    - name: ​Estender o escopo das sequências numérica​s
+                      href: extensibility/extend-number-sequence-scope.md
+                    - name: Adicionar novas dimensões de estoque
+                      href: extensibility/inventory-dimensions.md
+                    - name: Extensibilidade de preço e desconto
+                      href: extensibility/pricing-app73.md
+                    - name: Extensão do mapa de tabela
+                      href: extensibility/map-extensions.md
+                    - name: Estender mapas de tabela usados como interfaces
+                      href: extensibility/maps-as-interfaces.md
+                    - name: Estender mapas de tabela usados para controle de versão
+                      href: extensibility/maps-with-versioning.md
+                    - name: Estendendo a precisão de ponto decimal para os tipos de dados selecionados
+                      href: extensibility/decimal-point-precision.md
+                - name: Criando soluções extensíveis
+                  items:
+                    - name: Escrever código extensível
+                      href: extensibility/writing-extensible-code.md
+                    - name: Classes
+                      href: extensibility/extensible-classes.md
+                    - name: Métodos
+                      href: extensibility/extensible-methods.md
+                    - name: Formulários
+                      href: extensibility/extensible-forms.md
+                    - name: Tipos de dados estendidos
+                      href: extensibility/extensible-edts.md
+                    - name: Enumerações extensíveis
+                      href: extensibility/extensible-enums.md
+                    - name: Delegados
+                      href: extensibility/extensible-code-delegates.md
+                    - name: Tabelas
+                      href: extensibility/extensible-tables.md
+                    - name: Atributos de extensibilidade para métodos
+                      href: extensibility/extensibility-attributes.md
+                    - name: Últimas alterações
+                      href: extensibility/breaking-changes.md
+            - name: Desempenho
+              items:
+                - name: Fazer rastreamentos usando o Trace Parser
+                  href: perf-test/trace-trace-tutorial.md
+                - name: Teste de um único usuário com o Gravador de Tarefas e o SDK de desempenho
+                  href: perf-test/single-user-test-perf-sdk.md
+                - name: Teste de vários usuários com o SDK de desempenho e um controlador de teste local
+                  href: perf-test/multi-user-testing-local-test-controller.md
+                - name: Teste de vários usuários com o SDK de desempenho e o Azure DevOps
+                  href: perf-test/multi-user-testing-perfsdk-azuredevops.md
+                - name: Guia de solução de problemas de teste de um único usuário ou de vários usuários com o SDK de desempenho
+                  href: perf-test/troubleshoot-perf-sdk-user-testing.md
+                - name: Testes de SDK de desempenho e de multiusuários em ambientes locais
+                  href: perf-test/perfsdk-tutorial-lbd.md
+                - name: Diagnosticar problemas e analisar o desempenho usando o Trace parser
+                  href: perf-test/trace-parser.md
+                - name: Temporizador de desempenho
+                  href: perf-test/performance-timer.md
+            - name: Teste de suporte no Visual Studio
+              items:
+                - name: Testes e validações
+                  href: perf-test/testing-validation.md
+                - name: Testar projetos no Visual Studio
+                  href: perf-test/testing-support.md
+                - name: Implantar ambientes que ofereçam suporte à contínua automação de compilações e testes
+                  href: perf-test/continuous-build-test-automation.md
+                - name: Filtragem de SysTest usando atributos de classe e método
+                  href: perf-test/systest-filtering.md
+                - name: Biblioteca de testes de aceitação
+                  items:
+                    - name: Recursos da Biblioteca de testes de aceitação
+                      href: perf-test/acceptance-test-library.md
+                    - name: Conceitos de navegação
+                      href: perf-test/concepts-navigation.md
+                    - name: Métodos de dados de teste
+                      href: perf-test/test-data-methods.md
+                    - name: Entidades na biblioteca de testes de aceitação
+                      href: perf-test/concepts-entities.md
+                    - name: Comandos da biblioteca de testes de aceitação
+                      href: perf-test/concepts-commands.md
+                    - name: Criadores na biblioteca de testes de aceitação
+                      href: perf-test/concepts-creators.md
+                    - name: Consultas na biblioteca de testes de aceitação
+                      href: perf-test/concepts-queries.md
+                    - name: Classes de especificação
+                      href: perf-test/concepts-specifications.md
+                    - name: Assistente de geração de código da biblioteca de testes de aceitação
+                      href: perf-test/code-generation-wizard.md
+                    - name: Práticas recomendadas para a biblioteca de testes de aceitação
+                      href: perf-test/atl-best-practices.md
+                    - name: Perguntas frequentes
+                      href: perf-test/atl-faq.md
+            - name: Efetividade de data
+              href: dev-tools/date-effectivity.md
+            - name: Licenciamento do ISV
+              href: dev-tools/isv-licensing.md
+            - name: Licenciamento do ISV local
+              href: dev-tools/isv-licensing-on-prem.md
+        - name: Regulamento Geral sobre a Proteção de Dados (RGPD)
+          items:
+            - name: Visão geral do Regulamento Geral sobre a Proteção de Dados (RGPD)
+              href: gdpr/gdpr-guide.md
+            - name: Responder a solicitações de dados do RGPD
+              items:
+                - name: Recursos de Responder a solicitações de dados do RGPD
+                  href: gdpr/gdpr-home-page.md
+                - name: Classificações de ativos
+                  href: gdpr/gdpr-asset-classification-values.md
+                - name: Relatório de pesquisa de pessoas
+                  href: gdpr/gdpr-person-search-report.md
+                - name: Estender o relatório de Pesquisa de pessoas
+                  href: gdpr/gdpr-extend-person-search-report.md
+                - name: Gerenciar o acesso a dados confidenciais
+                  href: gdpr/gdpr-auditing-sensitive-data.md
+                - name: ​Responder a solicitações de dados pessoais usando o Talent​
+                  href: gdpr/respond-dsr-request-talent.md
+                - name: Responder a solicitações de dados pessoais no AX 2012
+                  href: gdpr/gdpr-ax2012.md
+                - name: Solicitações de dados do RGPD para o LCS
+                  href: gdpr/gdpr-lcs.md
+        - name: Lifecycle Services
+          items:
+            - name: Recursos do Lifecycle Services
+              items:
+                - name: Recursos do Lifecycle Services
+                  href: lifecycle-services/lcs.md
+                - name: ​LCS para clientes​
+                  href: lifecycle-services/lcs-works-lcs.md
+                - name: LCS para parceiros
+                  href: lifecycle-services/getting-started-lcs.md
+                - name: Novidades
+                  href: lifecycle-services/whats-new-lcs.md
+                - name: ​Problemas conhecidos​
+                  href: lifecycle-services/known-issues.md
+            - name: ​Guia do usuário do Lifecycle Services​
+              href: lifecycle-services/lcs-user-guide.md
+            - name: Avaliador de subscrição
+              href: lifecycle-services/subscription-estimator.md
+            - name: ​Configurar segurança​
+              href: lifecycle-services/configure-lcs-security.md
+            - name: Pesquisa de problemas
+              href: lifecycle-services/issue-search-lcs.md
+            - name: Gerenciador de configurações
+              items:
+                - name: Visão geral do Gerenciador de configurações
+                  href: lifecycle-services/configuration-manager-lcs.md
+                - name: Instalar o Gerenciador de configurações
+                  href: lifecycle-services/set-up-configuration-manager-lcs.md
+            - name: Configurar o serviço de upgrade de código
+              href: lifecycle-services/configure-execute-code-upgrade.md
+            - name: Criar ou atualizar metodologias
+              href: lifecycle-services/create-methodology.md
+            - name: Modelador de processo de negócios
+              href: lifecycle-services/bpm-overview.md
+            - name: Bibliotecas de processos de negócios no Modelador de processo de negócios
+              href: lifecycle-services/business-process-libraries-business-process-modeler.md
+            - name: 'Criar, editar e procurar bibliotecas do Modelador de processo de negócios'
+              href: lifecycle-services/creating-editing-browsing.md
+            - name: Concluir tarefas no Modelador de processo de negócios
+              href: lifecycle-services/complete-tasks-bpm.md
+            - name: Trabalhar com diagramas de atividades em bibliotecas do BPM
+              href: lifecycle-services/using-activity-diagrams.md
+            - name: Sincronizar bibliotecas do BPM com o Azure DevOps
+              href: lifecycle-services/synchronize-bpm-vsts.md
+            - name: Criar bibliotecas de teste de aceitação de usuário usando o BPM e os guias de tarefas
+              href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+            - name: ​Fluxogramas no modelador de processo de negócios​
+              href: lifecycle-services/flowcharts-business-process-modeler.md
+            - name: Carregar processos de negócios personalizados no Modelador de processo de negócios
+              href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
+            - name: Monitoramento e diagnóstico
+              href: lifecycle-services/monitoring-diagnostics.md
+            - name: Reiniciar serviços de ambiente
+              href: lifecycle-services/restart-environment-services.md
+            - name: Relatar uma interrupção de produção
+              href: lifecycle-services/report-production-outage.md
+            - name: Rastrear entradas dos usuários
+              href: lifecycle-services/user-logins.md
+            - name: Biblioteca de ativos
+              href: lifecycle-services/asset-library.md
+            - name: Solução de problemas de desempenho usando as ferramentas no LCS
+              href: lifecycle-services/performancetroubleshooting.md
+            - name: Guia de consultas
+              href: lifecycle-services/querycookbook.md
+            - name: Microsoft Dynamics 365 Translation Service
+              items:
+                - name: Visão geral do Dynamics 365 Translation Service
+                  href: lifecycle-services/translation-service-overview.md
+                - name: Traduzir arquivos da interface do usuário
+                  href: lifecycle-services/use-translation-service.md
+                - name: Traduzir arquivos de documentação
+                  href: lifecycle-services/use-translation-service-ua.md
+                - name: Arquivos da memória de tradução
+                  href: lifecycle-services/use-translation-service-tm.md
+        - name: Plataforma móvel
+          items:
+            - name: Recursos da plataforma móvel
+              href: mobile-apps/platform/mobile-platform-home-page.md
+            - name: Comece a usar
+              items:
+                - name: Introdução à plataforma móvel
+                  href: mobile-apps/platform/mobile-platform-getting-started.md
+                - name: Considerações da arquitetura e design
+                  href: mobile-apps/platform/mobile-platform-architecture.md
+                - name: Eventos de lógica comercial
+                  href: mobile-apps/platform/business-logic-events-overview.md
+                - name: Diretrizes de design de página
+                  href: mobile-apps/platform/page-design-guidelines.md
+                - name: Diretrizes de design de ação
+                  href: mobile-apps/platform/action-design-guidelines.md
+                - name: Requisitos de design de formulários
+                  href: mobile-apps/platform/form-design-requirements.md
+            - name: Tarefas comuns
+              items:
+                - name: Configurar espaços de trabalho usando a classe SysAppWorkspace
+                  href: mobile-apps/platform/scenarios/mobile-workspace-configuration.md
+                - name: Tornar clicáveis campos em páginas de aplicativos móveis
+                  href: mobile-apps/platform/scenarios/make-workspace-field-clickable.md
+                - name: Mostrar contagens em campos
+                  href: mobile-apps/platform/scenarios/display-count-workspace.md
+                - name: Ajudar a proteger espaços de trabalho móveis
+                  href: mobile-apps/platform/scenarios/secure-mobile-workspace.md
+                - name: Localizar espaços de trabalho móveis
+                  href: mobile-apps/platform/scenarios/localize-workspaces-on-server.md
+                - name: Tornar campos obrigatórios usando classes do espaço de trabalho
+                  href: mobile-apps/platform/scenarios/make-field-mandatory.md
+            - name: Referência de desenvolvimento do servidor
+              items:
+                - name: Desenvolvimento do servidor (APIs da X++ de espaços de trabalho)
+                  href: mobile-apps/platform/mobile-workspace-server-apis.md
+            - name: Referência de desenvolvimento do cliente
+              items:
+                - name: APIs de criação do cliente
+                  href: mobile-apps/platform/scenarios/client-api-design-overview.md
+                - name: APIs de cliente
+                  items:
+                    - name: Home page APIs de cliente
+                      href: mobile-apps/platform/client-apis/client-apis-reference.md
+                    - name: Enumeração de PageState
+                      href: mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md
+                    - name: Módulo do aplicativo
+                      href: mobile-apps/platform/client-apis/modules/services-application.md
+                    - name: Adiar módulo
+                      href: mobile-apps/platform/client-apis/modules/defer.md
+                    - name: Módulo de evento
+                      href: mobile-apps/platform/client-apis/modules/event-ievent.md
+                    - name: Módulo de controle
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol.md
+                    - name: Módulo de contêiner
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-container-icontainercontrol.md
+                    - name: Módulo de campo
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-field-ifield.md
+                    - name: Módulo de carregador do arquivo
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-fileuploader-ifileuploader.md
+                    - name: Módulo de grupo
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-group-igroup.md
+                    - name: Módulo de hiperlink
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-hyperlink-ihyperlink.md
+                    - name: Módulo de imagem
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-image-iimage.md
+                    - name: Módulo de entrada
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-iinputcontrol.md
+                    - name: Módulo de lista
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-list-ilist.md
+                    - name: Módulo de pesquisa
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-lookup-ilookup.md
+                    - name: Módulo de pesquisa múltipla
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-lookup-imultilookup.md
+                    - name: Módulo de página
+                      href: mobile-apps/platform/client-apis/modules/view-model-ipage.md
+                    - name: Módulo de pagelink
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-pagelink-ipagelink.md
+                    - name: Módulo de parte
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-part-ipart.md
+                    - name: Módulo de serviços
+                      href: mobile-apps/platform/client-apis/modules/services-business-logic-services.md
+                    - name: Módulo de valor
+                      href: mobile-apps/platform/client-apis/modules/view-model-control-value-ivalue.md
+                    - name: Tipo de aplicativo
+                      href: mobile-apps/platform/client-apis/interfaces/services-application-iapplication.md
+                    - name: Tipo de ApplicationMetadata
+                      href: mobile-apps/platform/client-apis/interfaces/services-application-iapplicationmetadata.md
+                    - name: Tipo de AsyncService
+                      href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-iasyncservice.md
+                    - name: Tipo de CacheService
+                      href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-icacheservice.md
+                    - name: Tipo de CompleteEventArgs
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-icompleteeventargs.md
+                    - name: Tipo de ContainerControl
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrol.md
+                    - name: Tipo de ContainerControlDesign
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontroldesign.md
+                    - name: Tipo de ContainerControlMetadata
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrolmetadata.md
+                    - name: Tipo de ControlMetadata
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrolmetadata.md
+                    - name: Tipo de DataService
+                      href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-idataservice.md
+                    - name: Tipo de Deferred<T>
+                      href: mobile-apps/platform/client-apis/interfaces/defer-ideferred.md
+                    - name: Tipo de Design
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-idesign.md
+                    - name: Tipo de EventHook<T>
+                      href: mobile-apps/platform/client-apis/interfaces/event-ievent-ieventhook.md
+                    - name: Tipo de campo
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifield.md
+                    - name: Tipo de FieldDesign
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifielddesign.md
+                    - name: Tipo de FieldMetadata
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifieldmetadata.md
+                    - name: Tipo de FileUploader
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploader.md
+                    - name: Tipo de FileUploaderDesign
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploaderdesign.md
+                    - name: Tipo de FileUploaderMetadata
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploadermetadata.md
+                    - name: Tipo de GenericValue
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-igenericvalue.md
+                    - name: Tipo de getDataSource
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrol.md
+                    - name: Tipo de grupo
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroup.md
+                    - name: Tipo de GroupDesign
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupdesign.md
+                    - name: Tipo de GroupMetadata
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupmetadata.md
+                    - name: Tipo de Hyperlink
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlink.md
+                    - name: Tipo de HyperLinkDesign
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkdesign.md
+                    - name: Tipo de HyperLinkMetadata
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkmetadata.md
+                    - name: Tipo de imagem
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimage.md
+                    - name: Tipo de ImageDesign
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagedesign.md
+                    - name: Tipo de ImageMetadata
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagemetadata.md
+                    - name: Tipo de InputControl
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrol.md
+                    - name: Tipo de InputControlDesign
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontroldesign.md
+                    - name: Tipo de InputControlMetadata
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrolmetadata.md
+                    - name: Tipo de lista
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilist.md
+                    - name: Tipo de ListDesign
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistdesign.md
+                    - name: Tipo de ListMetadata
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistmetadata.md
+                    - name: Tipo de pesquisa
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookup.md
+                    - name: Tipo de LookupDesign
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupdesign.md
+                    - name: Tipo de LookupMetadata
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupmetadata.md
+                    - name: Tipo de MetadataService
+                      href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-imetadataservice.md
+                    - name: Tipo de MultiLookup
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookup.md
+                    - name: Tipo de MultiLookupDesign
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupdesign.md
+                    - name: Tipo de MultiLookupMetadata
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupmetadata.md
+                    - name: Tipo de NavigationArgs
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-inavigationargs.md
+                    - name: Tipo de NumberSequenceConfig
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-inumbersequenceconfig.md
+                    - name: Tipo de página
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipage.md
+                    - name: Tipo de PageData
+                      href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-ipagedata.md
+                    - name: Tipo de PageLink
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelink.md
+                    - name: Tipo de PageLinkDesign
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkdesign.md
+                    - name: Tipo de PageLinkMetadata
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkmetadata.md
+                    - name: Tipo de PageMetadata
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagemetadata.md
+                    - name: Tipo de PageOptions
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipageoptions.md
+                    - name: Tipo de PageSubmitArgs
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagesubmitargs.md
+                    - name: Tipo de PageTarget
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagetarget.md
+                    - name: Tipo de Part
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipart.md
+                    - name: Tipo de PartDesign
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartdesign.md
+                    - name: Tipo de PartMetadata
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md
+                    - name: Tipo de linha
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md
+                    - name: Tipo de valor
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md
+                    - name: Tipo de ValueDesign
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
+                    - name: Tipo de ValueMetadata
+                      href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
+        - name: Regression Suite Automation Tool
+          items:
+            - name: Visão geral da Regression Suite Automation Tool
+              href: perf-test/rsat/rsat-overview.md
+            - name: Instalação e configuração
+              href: perf-test/rsat/rsat-install-configure.md
+            - name: Testes desconhecidos de dados usando a Regression Suite Automation Tool
+              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
+            - name: Executar casos de teste
+              href: perf-test/rsat/rsat-run.md
+            - name: Validar valores esperados
+              href: perf-test/rsat/rsat-validate-expected.md
+            - name: Agrupar casos de teste
+              href: perf-test/rsat/rsat-chain-test-cases.md
+            - name: Casos de teste derivados
+              href: perf-test/rsat/rsat-derived-test-cases.md
+            - name: Usar o tutorial sobre a Regression Suite Automation Tool
+              href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
+            - name: Práticas recomendadas
+              href: perf-test/rsat/rsat-best-practices.md
+            - name: Solução de problemas
+              href: perf-test/rsat/rsat-troubleshooting.md
+        - name: Liberar soluções usando o Lifecycle Services
+          items:
+            - name: Desenvolver e liberar
+              href: lcs-solutions/lcs-solutions-app-source.md
+            - name: Preparar e publicar
+              href: lcs-solutions/marketing-content-lcs-solutions.md
+            - name: Adicionar metodologias
+              href: lcs-solutions/methodologies-lcs-solutions.md
+            - name: Configurar bibliotecas do Modelador de processo de negócios
+              href: lcs-solutions/business-process-modeler-libraries-lcs-solutions.md
+            - name: Migrar código
+              href: lcs-solutions/code-migration-lcs-solutions.md
+            - name: Validar aplicativos
+              href: lcs-solutions/app-validation-lcs-solutions.md
+            - name: Processar e consumir pacotes de dados
+              href: lcs-solutions/process-data-packages-lcs-solutions.md
+            - name: Fazer backup de bancos de dados de solução
+              href: lcs-solutions/database-backup-lcs-solutions.md
+            - name: Recursos regulatórios e de localização
+              items:
+                - name: Recursos de globalização
+                  href: lcs-solutions/country-region.md
+                - name: Classificação de recursos de localização
+                  href: lcs-solutions/classify-localization-features.md
+                - name: Aplicar contexto de país/região
+                  href: lcs-solutions/apply-country-context.md
+                - name: Informações de certificações regulatórias em títulos de recursos
+                  href: lcs-solutions/regulatory-certifications.md
+                - name: Atualizações regulatórias
+                  href: lcs-solutions/regulatory-watch-communication.md
+                - name: Separação de modelos de localização
+                  href: lcs-solutions/separate-localization-models.md
+                - name: Enviar alertas regulatórios
+                  href: lcs-solutions/submit-localization-alerts.md
+        - name: Suporte
+          items:
+            - name: Obter suporte para o Finance and Operations e o Lifecycle Services
+              href: lifecycle-services/lcs-support.md
+            - name: Visão geral do suporte do Dynamics 365
+              href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/dev-itpro/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
+            - name: Obter suporte para o Finance and Operations operado pela 21Vianet na China
+              href: lifecycle-services/21vianet-support.md
+            - name: Enviar solicitações para a equipe de engenharia de serviço do Dynamics
+              href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
+            - name: Configurar o suporte técnico para o Finance and Operations
+              href: lifecycle-services/support-experience.md
+            - name: Perguntas frequentes sobre janela de manutenção planejada
+              href: lifecycle-services/planned-maintenance-window-faq.md
+            - name: Operações e manutenção de nuvem
+              href: lifecycle-services/cloud-operations-servicing.md
+            - name: Gerenciar experiências de suporte ao Finance and Operations
+              href: lifecycle-services/cloud-powered-support-lcs.md
+        - name: Administração do sistema
+          items:
+            - name: Home page de Administração do sistema
+              href: sysadmin/system-administration-home-page.md
+            - name: Adicionar links aos termos legais e à política de privacidade
+              href: sysadmin/legal-terms-privacy-statement.md
+            - name: ​Relatório de códigos de licença e chaves de configuração​
+              href: sysadmin/license-codes-configuration-keys-report.md
+            - name: ​Compartilhamento de dados interempresarial​
+              href: sysadmin/cross-company-data-sharing.md
+            - name: Modo de manutenção
+              href: sysadmin/maintenance-mode.md
+            - name: Contas do sistema pré-configuradas
+              href: sysadmin/pre-configured-system-accounts.md
+            - name: Exportar usuários B2B para o Azure AD
+              href: sysadmin/implement-b2b.md
+            - name: Segurança
+              items:
+                - name: Segurança baseada em função
+                  href: sysadmin/role-based-security.md
+                - name: Arquitetura de segurança
+                  href: sysadmin/security-architecture.md
+                - name: Definir o tempo limite de ociosidade da sessão
+                  href: sysadmin/session-idle-timeout.md
+                - name: Relatórios de segurança prontos para uso
+                  href: sysadmin/security-reports.md
+                - name: Criar usuários
+                  href: sysadmin/tasks/create-new-users.md
+                - name: Importar usuários em massa
+                  href: sysadmin/tasks/import-bulk-users.md
+                - name: Configurar diferenciação de direitos
+                  href: sysadmin/tasks/set-up-segregation-duties.md
+                - name: Identificar e resolver conflitos na diferenciação de direitos
+                  href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
+                - name: Atribuir usuários a funções de segurança
+                  href: sysadmin/tasks/assign-users-security-roles.md
+            - name: Processamento em lotes
+              items:
+                - name: Visão geral do Processamento em lotes
+                  href: sysadmin/batch-processing-overview.md
+                - name: Servidores de lote e processamento em lotes
+                  href: sysadmin/batch-server-overview.md
+                - name: Criar trabalhos em lotes
+                  href: sysadmin/tasks/create-batch-job.md
+                - name: Copiar um trabalho em lotes
+                  href: sysadmin/copy-batch-job.md
+                - name: Períodos de lote ativos
+                  href: sysadmin/activeperiod.md
+                - name: Função de segurança do gerente de lotes
+                  href: sysadmin/runby.md
+                - name: Trabalhos em lotes para tratar da desfragmentação de índice SQL
+                  href: sysadmin/batch-job-SQL-defragmentation.md
+                - name: Configurar alertas em lotes
+                  href: sysadmin/alerts.md
+                - name: Formulários de lote aprimorados
+                  href: sysadmin/enhanced-forms.md
+                - name: Limpar o histórico de lotes
+                  href: sysadmin/batch-history-cleanup.md
+                - name: Anular um trabalho em lotes em execução
+                  href: sysadmin/batch-abort.md
+            - name: Supervisor de otimização
+              items:
+                - name: Visão geral do Supervisor de otimização
+                  href: sysadmin/optimization-advisor-overview.md
+                - name: Criar regras para o Supervisor de otimização
+                  href: sysadmin/create-rules-optimization-advisor.md
+            - name: Relatar uma interrupção de produção
+              href: lifecycle-services/report-production-outage.md
+        - name: 'Upgrades, atualizações e hotfixes'
+          items:
+            - name: 'Recursos de upgrades, atualizações e hotfixes'
+              href: migration-upgrade/upgrade-home-page.md
+            - name: Upgrade do AX 2012
+              items:
+                - name: ​Upgrade do AX 2012 para o Finance and Operations
+                  href: migration-upgrade/upgrade-overview-2012.md
+                - name: Upgrade do AX 2012 — Planejamento usando a ferramenta Analisador de atualizações
+                  href: migration-upgrade/upgrade-analyzer-tool.md
+                - name: Upgrade do AX 2012 — Estimar o esforço usando o serviço Atualização de código
+                  href: migration-upgrade/analyze-code-upgrade.md
+                - name: Upgrade do AX 2012 — Implantar um ambiente de demonstração para análise
+                  href: migration-upgrade/analysis-sandbox.md
+                - name: Upgrade do AX 2012 — Atualização de dados em ambientes de desenvolvimento
+                  href: migration-upgrade/data-upgrade-2012.md
+                - name: Upgrade do AX 2012 — Lista de verificação de pré-atualização para a atualização de dados
+                  href: migration-upgrade/prepare-data-upgrade.md
+                - name: Upgrade do AX 2012 — Atualização de dados em ambientes de área restrita
+                  href: migration-upgrade/upgrade-data-sandbox.md
+                - name: Upgrade do AX 2012 — Testes de substituição
+                  href: migration-upgrade/upgrade-cutover-testing.md
+                - name: Upgrade do AX 2012 — Tarefas de pós-atualização
+                  href: migration-upgrade/app-validation-process.md
+                - name: Upgrade do AX 2012 — Teste funcional aprovado
+                  href: migration-upgrade/upgrade-functional-validation.md
+                - name: Upgrade do AX 2012 - ​Preparar para a ativação​
+                  href: migration-upgrade/upgrade-go-live-prep.md
+                - name: Upgrade do AX 2012 — Ativar
+                  href: migration-upgrade/2012-upgrade-cutover.md
+                - name: Alterações que afetam a atualização do AX 2012
+                  items:
+                    - name: O delimitador do plano de contas deve ser exclusivo
+                      href: migration-upgrade/chart-accounts-delimiter-unique.md
+                    - name: ​Atualizar diários de comprovante único e reavaliações de moeda
+                      href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
+                    - name: ​Modelo de dados de agendamento de recursos de projeto​
+                      href: migration-upgrade/data-model-changes-resource-management.md
+                    - name: Alterações no subsistema de fluxo de trabalho
+                      href: migration-upgrade/workflow-subsystem.md
+                    - name: Agregar os modelos usados em vez de cubos para análise
+                      href: migration-upgrade/in-memory-real-time-aggregate-models.md
+                    - name: Migrar upgrades de cubo de vendas para o repositório de entidades
+                      href: migration-upgrade/migrate-upgraded-cube-entity-store.md
+                    - name: Upgrade de planejamento de orçamento
+                      href: migration-upgrade/upgrade-budget-planning.md
+            - name: Migrar dados do AX 2009
+              items:
+                - name: Migrar dados do AX 2009 para o Finance and Operations
+                  href: migration-upgrade/data-migration-tool.md
+                - name: Migração do AX 2009 — Instalar a Ferramenta de migração de dados
+                  href: migration-upgrade/install-dmt.md
+                - name: Migração do AX 2009 — Gerar mapas
+                  href: migration-upgrade/generate-maps.md
+                - name: Migração do AX 2009 — Criar modelos
+                  href: migration-upgrade/create-package-templates-dmt.md
+                - name: Migração do AX 2009 — Criar grupos de migração
+                  href: migration-upgrade/create-definition.md
+                - name: Migração do AX 2009 — Exportar pacotes
+                  href: migration-upgrade/ax2009-upgrade-export-package.md
+                - name: Migração do AX 2009 — Importar pacotes
+                  href: migration-upgrade/ax2009-upgrade-import-package.md
+            - name: Migração e upgrade de código
+              items:
+                - name: Home page Migração e upgrade de código
+                  href: migration-upgrade/code-migration-home-page.md
+                - name: Preparar para migrar o código
+                  href: migration-upgrade/prepare-migration.md
+                - name: Configurar mapeamento do Azure DevOps
+                  href: migration-upgrade/configure-vso-solution.md
+                - name: Divisão de modelos
+                  href: dev-tools/model-split.md
+                - name: Resolver dependências entre os modelos que usam delegados
+                  href: migration-upgrade/delegates-migration.md
+            - name: Fazer upgrade para uma versão recente (nuvem)
+              items:
+                - name: Processo de migração para a atualização mais recente
+                  href: migration-upgrade/upgrade-latest-update.md
+                - name: Caminhos para o serviço One Version
+                  items:
+                    - name: Upgrade de autoatendimento para a versão mais recente
+                      href: migration-upgrade/self-service-upgrade.md
+                    - name: Recriar e atualizar para a versão mais recente
+                      href: migration-upgrade/appupdate-80-81.md
+                - name: Política de ciclo de vida do software e versões de nuvem
+                  href: migration-upgrade/versions-update-policy.md
+                - name: Aplicar a atualização mais recente da plataforma aos ambientes
+                  href: migration-upgrade/upgrade-latest-platform-update.md
+                - name: Upgrade de dados em ambientes de desenvolvimento ou demonstração
+                  href: migration-upgrade/upgrade-data-to-latest-update.md
+                - name: Atualizar ferramentas de desenvolvimento
+                  href: dev-tools/update-development-tools.md
+                - name: Planejar e preparar para a compilação de código em relação à última atualização
+                  href: migration-upgrade/compile-considerations.md
+            - name: Fazer upgrade para uma versão recente (local)
+              items:
+                - name: Aplicar atualizações a implantações locais
+                  href: deployment/apply-updates-on-premises.md
+                - name: Reimplantar uma implantação local
+                  href: deployment/redeploy-on-prem.md
+                - name: Atualização in-loco de 7.x para 8.1 local
+                  href: migration-upgrade/on-prem-upgrade.md
+            - name: Hotfixes
+              items:
+                - name: Obter atualizações do Lifecycle Services
+                  href: migration-upgrade/download-hotfix-lcs.md
+                - name: Aplicar atualizações a ambientes de nuvem
+                  href: deployment/apply-deployable-package-system.md
+                - name: Instalar hotfixes de metadados em ambientes de desenvolvimento
+                  href: migration-upgrade/install-metadata-hotfix-package.md
+                - name: Aplicar patches ao Reporting Services em ambientes de uma caixa
+                  href: migration-upgrade/patch-reporting-service-environment.md
+                - name: Atualizar ferramentas de desenvolvimento do Visual Studio
+                  href: dev-tools/update-development-tools.md
+            - name: Substituições
+              items:
+                - name: Recursos removidos ou obsoletos
+                  href: migration-upgrade/deprecated-features.md
+                - name: Substituição de métodos e elementos de metadados
+                  href: migration-upgrade/deprecation-deletion-apis.md
+                - name: APIs preteridas
+                  href: migration-upgrade/deprecated-apis.md
+        - name: Desenvolvimento da interface do usuário
+          items:
+            - name: Home page de Desenvolvimento da interface do usuário
+              href: user-interface/user-interface-development-home-page.md
+            - name: Tutoriais
+              items:
+                - name: ​Criar o formulário Tipo de encargo de aluguel​
+                  href: user-interface/build-rental-charge-type-form.md
+                - name: Criar o formulário Cliente
+                  href: user-interface/build-customer-form.md
+                - name: Criar a navegação
+                  href: user-interface/build-navigation.md
+                - name: Criar espaços de trabalho
+                  href: user-interface/build-workspace.md
+            - name: Formulários
+              items:
+                - name: Conceitos de navegação
+                  href: user-interface/page-navigation.md
+                - name: Layout de página no cliente Web
+                  href: user-interface/page-layout.md
+                - name: Fonte de símbolos do Dynamics
+                  href: user-interface/symbol-font.md
+                - name: Exibições salvas
+                  href: ../fin-ops/get-started/saved-views.md
+                - name: Criar formulários que utilizam totalmente as exibições salvas
+                  href: user-interface/understanding-saved-views.md
+                - name: Testar fFormulários que usam padrões personalizados
+                  href: user-interface/testing-forms-custom-patterns.md
+                - name: Criar URLs compartilháveis e protegidas (links profundos)
+                  href: user-interface/create-deep-links.md
+                - name: 'Acessibilidade em formulários, produtos e controles'
+                  href: user-interface/enable-accessibility.md
+                - name: Personalizar descrições de campos
+                  href: user-interface/customize-field-help.md
+            - name: Controles
+              items:
+                - name: Controles de ação
+                  href: user-interface/action-controls.md
+                - name: Controles de entrada e tamanhos de coluna de grade
+                  href: user-interface/sizing-input-controls-grid-columns.md
+                - name: Suporte a caixas de seleção em controles de árvore
+                  href: user-interface/check-box-tree-controls.md
+                - name: Opções de filtragem
+                  href: user-interface/filtering.md
+                - name: Controle Host do PowerApps
+                  href: user-interface/powerapps-host-control.md
+            - name: Gerenciamento de janelas
+              items:
+                - name: Migrar código do menu de contexto
+                  href: migration-upgrade/code-migration-context-menus.md
+                - name: Migrar a lógica de clique duplo de mouse
+                  href: migration-upgrade/code-migration-double-click.md
+                - name: Entrada de dados contextuais para pesquisas
+                  href: user-interface/contextual-data-entry-lookups.md
+                - name: Controle HierarchyViewer
+                  href: user-interface/hierarchy-viewer-control.md
+                - name: Controles de pesquisa
+                  href: user-interface/lookups-controls.md
+                - name: Controle de upload de arquivo
+                  href: user-interface/file-upload-control.md
+                - name: Botões definidos pelo sistema
+                  href: user-interface/system-defined-buttons.md
+                - name: Imagens em uma página ou em uma grade
+                  href: user-interface/images-form-grid.md
+                - name: 'Cores de fonte e de plano de fundo para controles de entrada, de tabela e de grade'
+                  href: user-interface/specify-color-font-background-controls.md
+                - name: Suporte a idiomas da direita para a esquerda e texto bidirecional
+                  href: user-interface/bidirectional-support.md
+                - name: Criar ícones para blocos do espaço de trabalho
+                  href: user-interface/create-icons-workspace-tiles.md
+                - name: APIs JavaScript públicas para controles extensíveis
+                  href: user-interface/public-javascript-apis.md
+                - name: Controlar lista de verificação
+                  href: user-interface/control-checklist.md
+            - name: Mensagens
+              items:
+                - name: Recurso de texto explicativo
+                  href: user-interface/feature-callouts.md
+                - name: Caixas de diálogo Controle deslizante e MessageBox
+                  href: user-interface/slider-messagebox.md
+                - name: 'API do centro de mensagens, da barra de mensagens e dos detalhes da mensagem'
+                  href: user-interface/messaging-api-center-bar-details.md
+                - name: 'Perguntas frequentes sobre o centro de mensagens, a barra de mensagens e os detalhes da mensagens'
+                  href: user-interface/messaging-user.md
+            - name: Diretrizes do padrão de formulário
+              items:
+                - name: Padrões de formulário para formulários migrados
+                  href: user-interface/select-form-pattern.md
+                - name: Estilos e padrões de formulário
+                  href: user-interface/form-styles-patterns.md
+                - name: Suplementos do Visual Studio com suporte a padrões de formulário
+                  href: user-interface/form-pattern-add-ins.md
+            - name: Padrões de formulário
+              items:
+                - name: ​Diretrizes gerais de formulário​
+                  href: user-interface/general-form-guidelines.md
+                - name: ​Padrão de formulário Mestre Detalhado​
+                  href: user-interface/details-master-form-pattern.md
+                - name: Padrão de formulário Transação Detalhada
+                  href: user-interface/details-transaction-form-pattern.md
+                - name: Padrões de formulário Lista de Seções de Parte do Formulário
+                  href: user-interface/section-list-form-pattern.md
+                - name: Padrão de formulário Página de Listagem
+                  href: user-interface/list-page-form-pattern.md
+                - name: Padrão de formulário Detalhes Simples
+                  href: user-interface/simple-details-form-pattern.md
+                - name: Padrão de formulário Lista e Detalhes Simples
+                  href: user-interface/simple-list-details-form-pattern.md
+                - name: Padrão de formulário Lista Simples
+                  href: user-interface/simple-list-form-pattern.md
+                - name: Padrão de formulário Sumário
+                  href: user-interface/table-of-contents-form-pattern.md
+                - name: Padrão de formulário Tarefa Dupla
+                  href: user-interface/task-double-form-pattern.md
+                - name: Padrão de formulário Tarefa Única
+                  href: user-interface/task-single-form-pattern.md
+                - name: Padrão de formulário Assistente
+                  href: user-interface/wizard-form-pattern.md
+                - name: Padrão de formulário Espaço de Trabalho
+                  href: user-interface/workspace-form-pattern.md
+            - name: Padrões de formulário secundários
+              items:
+                - name: Padrão de formulário Seleção avançada
+                  href: user-interface/advanced-selection-form-pattern.md
+                - name: Padrão de formulário Diálogo
+                  href: user-interface/dialog-form-pattern.md
+                - name: Padrão de formulário Descartar Diálogo
+                  href: user-interface/drop-dialog-form-pattern.md
+                - name: Padrão de formulário Pesquisa
+                  href: user-interface/lookup-form-pattern.md
+                - name: Padrões de formulário Quadro de Fatos
+                  href: user-interface/factbox-form-patterns.md
+            - name: Subpadrões
+              items:
+                - name: Subpadrão Grupo de Filtros Personalizados
+                  href: user-interface/custom-filter-group-subpattern.md
+                - name: Subpadrão Controle Entrada de dimensão
+                  href: financial/dimension-entry-control-subpattern.md
+                - name: Subpadrão Construtor de Expressões de Dimensão
+                  href: financial/dimension-expression-builder-subpattern.md
+                - name: Subpadrão Campos e Grupos de Campos
+                  href: user-interface/fields-field-groups-subpattern.md
+                - name: Subpadrões Filtros e Barra de Ferramentas
+                  href: user-interface/filters-toolbar-subpattern.md
+                - name: Subpadrão Texto de Preenchimento
+                  href: user-interface/fill-text-subpattern.md
+                - name: Subpadrão Campos Horizontais e Grupo de Botões
+                  href: user-interface/horizontal-fields-buttons-group-subpattern.md
+                - name: Subpadrão Visualização de Imagem
+                  href: user-interface/image-preview-subpattern.md
+                - name: Subpadrão Painel de Listagem
+                  href: user-interface/list-panel-subpattern.md
+                - name: Subpadrão Lista Simples e Detalhes Aninhados
+                  href: user-interface/nested-simple-list-details-subpattern.md
+                - name: Padrão de formulário Gráfico de Seção
+                  href: user-interface/section-chart-form-pattern.md
+                - name: Subpadrão Power BI de Seção
+                  href: user-interface/section-powerbi-subpattern.md
+                - name: Subpadrão Links Relacionados à Seção
+                  href: user-interface/section-related-links-subpattern.md
+                - name: Subpadrão Gráfico Empilhado de Seção
+                  href: user-interface/section-stacked-chart-subpattern.md
+                - name: Subpadrão Lista com Guias de Seção
+                  href: user-interface/section-tabbed-list-subpattern.md
+                - name: Subpadrão Blocos de Seção
+                  href: user-interface/section-tiles-subpattern.md
+                - name: Subpadrão Campos de Tabela
+                  href: user-interface/tabular-fields-subpattern.md
+                - name: Subpadrão Barra de Ferramentas e Campos
+                  href: user-interface/toolbar-fields-subpattern.md
+                - name: Subpadrão Barra de Ferramentas e Lista
+                  href: user-interface/toolbar-list-subpattern.md
+                - name: Subpadrão do Grupo de Filtros da Página de Espaço de Trabalho
+                  href: user-interface/workspace-filter-group-subpattern.md
+            - name: Extensibilidade de controles
+              items:
+                - name: Criar controles extensíveis
+                  href: user-interface/build-extensible-control.md
+                - name: Atalhos de teclado para controles extensíveis
+                  href: user-interface/keyboard-shortcuts-controls.md
+                - name: Referência de programação de controle extensível
+                  href: user-interface/extensible-control-programming-reference.md
+                - name: Extensibilidade de controles
+                  href: user-interface/control-extensibility.md
+                - name: Criar etiquetas localizáveis
+                  href: user-interface/create-localizable-labels-client.md
+                - name: Diretrizes de layout de controles extensíveis
+                  href: user-interface/extensible-controls-layout.md
+                - name: Controlar o texto gerado pelo Gravador de Tarefas para um controle
+                  href: user-interface/task-recorder-control-text.md
+            - name: Criar espaços de trabalho
+              items:
+                - name: Criar espaços de trabalho operacionais
+                  href: user-interface/build-workspaces.md
+                - name: Cache de blocos e listas para espaços de trabalho
+                  href: user-interface/tile-list-caching-workspaces.md
+            - name: ​Gravador de Tarefas​
+              items:
+                - name: Recursos do Gravador de Tarefas
+                  href: user-interface/task-recorder.md
+                - name: Referência rápida do Gravador de Tarefas
+                  href: user-interface/task-recorder-quick-reference.md
+                - name: Criar documentação ou treinamento por gravações de tarefas
+                  href: user-interface/task-recorder-training-docs.md
+    - name: Dynamics 365 Supply Chain Management
+      href: ../../supply-chain/index.md
+    - name: Dynamics 365 Finance
+      href: ../../finance/index.md
+    - name: Dynamics 365 Retail
+      href: ../../retail/index.md

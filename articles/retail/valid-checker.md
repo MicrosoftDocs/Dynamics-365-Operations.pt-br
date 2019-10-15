@@ -1,6 +1,6 @@
 ---
 title: Verificador de consistência das transações de varejo
-description: Este tópico descreve a funcionalidade do verificador de consistência das transações de varejo no Microsoft Dynamics 365 for Retail.
+description: Este tópico descreve a funcionalidade do verificador de consistência das transações de varejo no Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 05/30/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f94a674e021d4f23480433440cd239b851491d87
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 0413c2b236e442fb56098f1902b4d5b247ed4649
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790412"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018404"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Verificador de consistência das transações de varejo
 
@@ -31,9 +31,9 @@ ms.locfileid: "1790412"
 [!include [banner](includes/banner.md)]
 [!include [preview banner](includes/preview-banner.md)]
 
-Este tópico descreve a funcionalidade do verificador de consistência das transações de varejo introduzido no Microsoft Dynamics 365 for Finance and Operations versão 8.1.3. O verificador de consistência identifica e isola as transações inconsistentes antes que elas sejam coletadas pelo processo de lançamento de demonstrativo.
+Este tópico descreve a funcionalidade do verificador de consistência das transações de varejo. O verificador de consistência identifica e isola as transações inconsistentes antes que elas sejam coletadas pelo processo de lançamento de demonstrativo.
 
-Quando um demonstrativo é lançado no Microsoft Dynamics 365 for Retail, pode haver falha no lançamento devido a dados inconsistentes nas tabelas de transações de varejo. O problema nos dados pode ser causado por imprevistos no aplicativo de ponto de venda (PDV) ou pela importação incorreta das transações de sistemas POS de terceiros. Exemplos de como essas inconsistências podem ser exibidas: 
+Quando um demonstrativo é lançado no Retail, pode haver falha no lançamento devido a dados inconsistentes nas tabelas de transações de varejo. O problema nos dados pode ser causado por imprevistos no aplicativo de ponto de venda (PDV) ou pela importação incorreta das transações de sistemas POS de terceiros. Exemplos de como essas inconsistências podem ser exibidas: 
 
 - O total da transação na tabela do cabeçalho não corresponde ao total da transação nas linhas.
 - A contagem de linhas na tabela do cabeçalho não corresponde ao número de linhas na tabela de transações.

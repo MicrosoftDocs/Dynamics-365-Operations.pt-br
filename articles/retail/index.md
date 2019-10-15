@@ -1,6 +1,6 @@
 ---
-title: Bem-vindo ao Dynamics 365 for Retail
-description: Home page do Dynamics 365 for Retail
+title: Recursos de ajuda do Dynamics 365 Retail
+description: Home page do Dynamics 365 Retail
 author: josaw1
 manager: AnnBe
 ms.date: 08/14/2019
@@ -18,27 +18,30 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 22dc340ff5ea381dd2a335c8c81332d11d1257a0
-ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
+ms.openlocfilehash: 57d3b66e7ebc5a8a6e2ddda9135e27cd24535365
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "1874918"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278097"
 ---
-# <a name="welcome-to-dynamics-365-for-retail"></a>Bem-vindo ao Dynamics 365 for Retail
+# <a name="help-resources-for-dynamics-365-retail"></a>Recursos de ajuda do Dynamics 365 Retail
 
 [!include [banner](includes/banner.md)]
 
-O Microsoft Dynamics 365 for Retail é uma solução de varejo completa que oferece comércio unificado em todos os canais. Ele abrange vendas, mobilidade, inteligência e produtividade para ajudar varejistas e funcionários a produzir mais de uma forma que prioriza a mobilidade e a nuvem. O Retail oferece suporte abrangente para operar uma variedade de processos comerciais, como merchandising, estoque e recursos de gerenciamento de canal. Ele também fornece experiências imersivas aos clientes em todos os pontos de contato.
-
-> [!NOTE]
-> O Dynamics 365 for Retail está estreitamente relacionado ao Dynamics 365 for Finance and Operations e ao Dynamics 365 for Talent. A mesma funcionalidade pode aparecer nos três produtos. Como resultado, em tópicos relacionados principalmente ao Retail, o nome do produto será Microsoft Dynamics 365 for Retail; em tópicos relacionados principalmente ao produto principal (Finance and Operations), o nome do produto será Microsoft Dynamics 365 for Finance and Operations; em tópicos relacionados principalmente a recursos humanos, o nome do produto será Dynamics 365 for Talent.
+O Microsoft Dynamics 365 Retail é uma solução de varejo completa que oferece comércio unificado em todos os canais. Ele abrange vendas, mobilidade, inteligência e produtividade para ajudar varejistas e funcionários a produzir mais de uma forma que prioriza a mobilidade e a nuvem. O Retail oferece suporte abrangente para operar uma variedade de processos comerciais, como merchandising, estoque e recursos de gerenciamento de canal. Ele também fornece experiências imersivas aos clientes em todos os pontos de contato.
 
 No painel à esquerda, escolha uma área de recursos para saber mais a respeito.
 
+## <a name="dynamics-365-commerce-preview"></a>Dynamics 365 Commerce (Versão prévia)
+
+Dynamics 365 Commerce, com base nos recursos comprovados do Dynamics 365 Retail, fornece uma solução completa de omnicanal que unifica as experiências no back office, na loja no call center e digital. O Commerce está disponível para clientes de visualização agora. Os clientes existentes do Dynamics 365 Retail poderão atualizar para o Commerce assim que ele estiver em disponibilidade geral.
+
+Para obter mais informações sobre o Dynamics 365 Commerce, acesse a página [Recursos de ajuda do Dynamics 365 Commerce](../commerce/index.md).
+
 ## <a name="channel-management"></a>Gerenciamento de canal
 
-Ao configurar sua experiência do Retail, você decidirá como definir e configurar suas lojas, que podem ser lojas físicas, lojas onlines ou call centers.
+Ao configurar sua experiência do Retail, você decidirá como definir e configurar suas lojas, que podem ser lojas físicas, lojas online ou call centers.
 
 Cada loja de varejo pode ter seus próprios métodos de pagamento, métodos de entrega, grupos de preços, contas de receita e despesa, registros e equipe. Depois de criar sua loja de varejo, você cria um sortimento de produtos a serem mantidos pela loja. Você também pode definir os preços e os descontos específicos da loja que se aplicam aos produtos disponíveis na loja.
 
@@ -72,14 +75,14 @@ Você pode fazer ajustes de preços nos produtos e também configurar descontos 
 
 MPOS é um aplicativo de POS para PCs, tablets e telefones. A equipe de vendas pode processar transações de vendas e ordens de clientes, executar atividades de depoimentos de clientes, executar operações diárias e gerenciamento do estoque em dispositivos móveis em qualquer lugar na loja, bem como nas registradoras baseadas em PCs. O Cloud POS é um POS baseado em navegador que pode ser iniciado em qualquer navegador padrão.
 
-Você configurará vários componentes para definir os relacionamentos entre uma loja, as registradoras de POS da loja e os periféricos de varejo que essas registradoras usam para processar transações. Você também definirá as características de uma instância específica do POS. Estas características incluem o perfil ou a configuração do hardware para periféricos de varejo que serão usados na registradora, a loja para a qual a registradora é mapeada, a experiência visual do usuário que entra nessa registradora, e as funcionalidades habilitadas na registradora. Você também definirá se a registradora pode operar em um estado desconectado ou offline.
+Você configurará vários componentes para definir os relacionamentos entre uma loja, as registradoras de POS da loja e os periféricos do varejo que essas registradoras usam para processar transações. Você também definirá as características de uma instância específica do POS. Estas características incluem o perfil ou a configuração do hardware para periféricos do varejo que serão usados na registradora, a loja para a qual a registradora é mapeada, a experiência visual do usuário que entra nessa registradora, e as funcionalidades habilitadas na registradora. Você também definirá se a registradora pode operar em um estado desconectado ou offline.
 
 ## <a name="customize-and-administer-retail-environments"></a>Personalizar e administrar ambientes do Retail
 
 Se você foi solicitado a personalizar seu ambiente, ou se é responsável por implantar e manter o sistema, confira o conteúdo para desenvolvedores e administradores de sistema específicos ao Retail, além do conteúdo mais geral.
 
-- [Dynamics 365 for Retail para profissionais de TI e desenvolvedores](dev-itpro/dev-retail-home-page.md)
-- [​Desenvolvimento e administração do Dynamics 365 for Finance and Operations](../dev-itpro/dev-tools/developer-home-page.md)
+- [Dynamics 365 Retail para profissionais de TI e desenvolvedores](dev-itpro/dev-retail-home-page.md)
+- [​Desenvolvimento e administração do Dynamics 365 Finance](../dev-itpro/dev-tools/developer-home-page.md)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
