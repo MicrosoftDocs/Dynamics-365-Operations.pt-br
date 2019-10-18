@@ -1,6 +1,6 @@
 ---
-title: Sincronizar informações em nível de estoque do Finance and Operations no Field Service
-description: Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar informações no nível do estoque do Microsoft Dynamics 365 for Finance and Operations com o Microsoft Dynamics 365 for Field Service.
+title: Sincronizar informações do nível de estoque do Supply Chain Management com o Field Service
+description: Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar informações no nível do estoque do Dynamics 365 Supply Chain Management com o Dynamics 365 Field Service.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 05/07/2019
@@ -19,37 +19,37 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 6b56eb545f87c31ef30d6a897f48539068583486
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: eefbfd1f8d7aa73cbb3330433b08efd889232818
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843424"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251192"
 ---
-# <a name="synchronize-inventory-level-information-from-finance-and-operations-to-field-service"></a>Sincronizar informações do nível de estoque do Finance and Operations no Field Service 
+# <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>Sincronizar informações do nível de estoque do Supply Chain Management com o Field Service 
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar informações no nível do estoque do Microsoft Dynamics 365 for Finance and Operations com o Microsoft Dynamics 365 for Field Service.
+Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar informações no nível do estoque do Dynamics 365 Supply Chain Management com o Dynamics 365 Field Service.
 
-[![Sincronização de processos empresariais entre o Finance and Operations e o Field Service](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
+[![Sincronização de processos empresariais entre o Supply Chain Management e o Field Service](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
 
 ## <a name="templates-and-tasks"></a>Modelos e tarefas
-O modelo a seguir e as tarefas subjacentes são usados para executar a sincronização dos níveis de estoque disponível do Microsoft Dynamics 365 for Finance and Operations com o Microsoft Dynamics 365 for Field Service.
+O modelo a seguir e as tarefas subjacentes são usados para executar a sincronização dos níveis de estoque disponível do Supply Chain Management com o Field Service.
 
 **Modelo na integração de dados**
-- Inventário de Produtos (Fin and Ops com o Field Service)
+- Estoque de produtos (Supply Chain Management para Field Service)
   
 **Tarefas no projeto de integração de dados**
 - Estoque de produtos
 
 As seguintes tarefas de sincronização são necessárias antes da sincronização de níveis de estoque:
-- Depósitos (Fin and Ops com o Field Service) 
-- Produtos do Field Service com Unidade de estoque (Fin and Ops com o Sales) 
+- Depósitos (Supply Chain Management para Field Service) 
+- Produtos do Field Service com Unidade de estoque (Supply Chain Management para Sales) 
 
 ## <a name="entity-set"></a>Conjunto de entidades
 
-| Field Service                      | Finance and Operations                 |
+| Field Service                      | Gerenciamento da Cadeia de Fornecedores                |
 |------------------------------------|----------------------------------------|
 | msdynce_externalproductinventories | Estoque disponível por depósito do CDS     |
 
@@ -61,17 +61,17 @@ As informações em nível de estoque do Finance and Operations são envidas par
 
 Essas informações são capturadas por produtos lançados para cada depósito e sincronizados com base no controle de alterações, quando o nível de estoque muda.
 
-No Field Service, a solução de integração cria diários de estoque para o delta, para que os níveis no Field Service correspondam aos níveis no Finance and Operations.
+No Field Service, a solução de integração cria diários de estoque para o delta, para que os níveis no Field Service correspondam aos níveis no Supply Chain Management.
 
-O Finance and Operations funcionará como o mestre para níveis de estoque. Assim, é importante configurar a integração das ordens de trabalho, transferências e ajustes do Field Service para o Finance and Operations se essa funcionalidade for usada no Field Service, junto com a sincronização dos níveis de estoque do Finance and Operations.
+O Supply Chain Management funcionará como o mestre para níveis de estoque. Assim, é importante configurar a integração das ordens de serviço, transferências e ajustes do Field Service para o Supply Chain Management se essa funcionalidade for usada no Field Service, junto com a sincronização dos níveis de estoque do Supply Chain Management.
 
-Os produtos e os depósitos em que níveis de estoque são dominados do Finance and Operations podem ser controlados com a Filtragem e Consulta Avançada (Power Query).
+Os produtos e os depósitos em que níveis de estoque são dominados do Supply Chain Management podem ser controlados com a Filtragem e Consulta Avançada (Power Query).
 
 > [!NOTE]
-> É possível criar vários depósitos no Field Service (com **É mantido externamente = Não**) depois mapeá-los para um único depósito no Finance and Operations, com a funcionalidade Filtragem e consulta avançada. Isso é útil em situações em que você deseja que o Field Service domine o nível de estoque detalhado e somente envie atualizações ao Finance and Operations. Nesse caso, o Field Service não receberá atualizações em nível de estoque do Finance and Operations. Para informações adicionais, consulte [Sincronizar ajustes de estoque do Field Service com o Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) e [Sincronizar ordens de trabalho no Field Service com as ordens de vendas vinculadas ao projeto no Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
+> É possível criar vários depósitos no Field Service (com **É mantido externamente = Não**) depois mapeá-los para um único depósito no Supply Chain Management, com a funcionalidade Filtragem e consulta avançada. Isso é útil em situações em que você deseja que o Field Service domine o nível de estoque detalhado e somente envie atualizações ao Supply Chain Management. Nesse caso, o Field Service não receberá atualizações em nível de estoque do Supply Chain Management. Para obter informações adicionais, consulte [Sincronizar ajustes de estoque do Field Service com o Supply Chain Management](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) e [Sincronizar ordens de serviço no Field Service com as ordens de vendas vinculadas ao projeto no Supply Chain Management](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
 ## <a name="field-service-crm-solution"></a>Solução Field Service CRM
-A entidade **Estoque externo de produtos** é usada apenas para o back-end na integração. Essa entidade recebe os valores em nível de estoque do Finance and Operations na integração e os transforma em diários de estoque manual, que altera os produtos de estoque no depósito.
+A entidade **Estoque externo de produtos** é usada apenas para o back-end na integração. Essa entidade recebe os valores em nível de estoque do Supply Chain Management na integração e os transforma em diários de estoque manual, que altera os produtos de estoque no depósito.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Pré-requisitos e configuração de mapeamento
 
@@ -84,10 +84,10 @@ Para que o projeto funcione, você precisa garantir que a chave de integração 
       - msdynce_warehouseid (ID do depósito)
       
 ### <a name="data-integration-project"></a>Projeto de integração de dados
-Você pode aplicar filtros com a Filtragem e Consulta Avançada para que somente determinados produtos e depósitos enviem informações em nível de estoque do Finance and Operations para o Field Service.
+Você pode aplicar filtros com a Filtragem e consulta avançada para que somente determinados produtos e depósitos enviem informações em nível de estoque do Supply Chain Management para o Field Service.
 
 ## <a name="template-mapping-in-data-integration"></a>Mapeamento de modelo na Integração de dados
 
-### <a name="product-inventory-fin-and-ops-to-field-service-product-inventory"></a>Inventário de produtos (Fin and Ops com o Field Service): Inventário de produtos
+### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>Estoque de produtos (Supply Chain Management para Field Service): Estoque de produtos
 
 [![Mapeamento de modelo na Integração de dados](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)

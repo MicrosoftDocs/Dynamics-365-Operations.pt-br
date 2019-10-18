@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dfeb393698431b1bbb0eb5069cc0930dc122374
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b1f5658de1da8a0b6c36d99e4bb9cf401c09ad0b
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559131"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249787"
 ---
 # <a name="sales-returns"></a>Devoluções de vendas
 
@@ -31,7 +31,7 @@ ms.locfileid: "1559131"
 
 Este tópico fornece informações sobre o processo para ordens de devolução. Ele Inclui informações sobre devoluções do cliente e o seu efeito na avaliação de custo e nas quantidades de estoque disponíveis.
 
-Os clientes podem devolver itens por diversos motivos. Por exemplo, um item pode apresentar defeito ou pode não ter atingido as expectativas do cliente. O processo de devolução se inicia quando um cliente emite uma solicitação para devolução de um item. Assim que a solicitação do cliente é recebida, uma ordem de devolução é criada no Microsoft Dynamics 365 for Finance and Operations.
+Os clientes podem devolver itens por diversos motivos. Por exemplo, um item pode apresentar defeito ou pode não ter atingido as expectativas do cliente. O processo de devolução se inicia quando um cliente emite uma solicitação para devolução de um item. Assim que a solicitação do cliente é recebida, uma ordem de devolução é criada.
 
 ## <a name="return-order-process"></a>Processo de ordem de devolução
 A ilustração a seguir exibe um resumo do processo de ordem de devolução.  
@@ -281,7 +281,7 @@ Esse cenário envolve duas empresas na mesma organização, conforme mostrado na
 
 ![Devolução intercompanhia simples](./media/SalesReturn07.png)
 
-A cadeia de ordem pode ser estabelecida quando uma devolução de fornecedor é criada na empresa compradora ou quando uma ordem de devolução do cliente é criada na empresa vendedora. O Finanças e Operações cria a ordem correspondente na outra empresa e garante que as informações do cabeçalho e da linha na ordem de devolução do fornecedor reflitam as configurações na ordem de devolução do cliente. A ordem de devolução estabelecida pode tanto incluir como excluir a referência (**Encontrar ordem de venda**) a uma fatura de cliente existente. As guias de remessa e as faturas das duas ordens podem ser processadas individualmente. Por exemplo, não é necessário gerar uma guia de remessa para a ordem de devolução do fornecedor antes de gerar a guia de remessa para a ordem de devolução do cliente.
+A cadeia de ordem pode ser estabelecida quando uma devolução de fornecedor é criada na empresa compradora ou quando uma ordem de devolução do cliente é criada na empresa vendedora. A ordem correspondente é criada na outra empresa e garante que as informações do cabeçalho e da linha na ordem de devolução do fornecedor reflitam as configurações na ordem de devolução do cliente. A ordem de devolução estabelecida pode tanto incluir como excluir a referência (**Encontrar ordem de venda**) a uma fatura de cliente existente. As guias de remessa e as faturas das duas ordens podem ser processadas individualmente. Por exemplo, não é necessário gerar uma guia de remessa para a ordem de devolução do fornecedor antes de gerar a guia de remessa para a ordem de devolução do cliente.
 
 ### <a name="direct-delivery-shipment-returns-among-three-parties"></a>Devoluções de remessa de entrega direta entre três participantes
 

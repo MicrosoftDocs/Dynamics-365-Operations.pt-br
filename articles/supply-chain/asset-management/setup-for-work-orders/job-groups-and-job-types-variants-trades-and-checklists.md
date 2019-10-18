@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9efbd9651f6a2fa57e761238c6acfe6111e986e6
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 6cb53322b9bdaaa06c6040d8244b7e2ea05336ca
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874753"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249600"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Categorias do tipo de trabalho e tipos de trabalho de manutenção, grades do tipo de trabalho de manutenção, ofício do trabalho de manutenção e listas de verificação de manutenção
 
@@ -225,7 +225,7 @@ Os modelos da lista de verificação de manutenção podem ser usados como um co
 26. Para configurar anexos em uma linha padrão do tipo de trabalho de manutenção selecionado, selecione **Anexar documentos**. Os anexos configurados em uma linha padrão do tipo de trabalho de manutenção são incluídos automaticamente nas linhas de ordem de serviço que usam esta linha padrão do tipo de trabalho de manutenção.
 27. Selecione **Novo** e depois um tipo de documento.
 28. Carregar o documento ou o arquivo.
-29. Defina os campos na página **Anexos**. A configuração do anexo usa a funcionalidade de configuração do documento padrão no Microsoft Dynamics 365 for Finance and Operations.
+29. Defina os campos na página **Anexos**. A configuração do anexo usa a funcionalidade de configuração do documento padrão.
 30. Selecione **Salvar** para salvar o anexo.
 
     > [!NOTE]
@@ -261,7 +261,7 @@ Após criar as combinações padrão do tipo de trabalho de manutenção necess�
 
 ## <a name="automatic-update-of-maintenance-job-type-forecasts"></a>Atualização automática das previsões do tipo de trabalho de manutenção
 
-No Gerenciamento de Ativos, você pode atualizar automaticamente todas as alterações nas previsões do tipo de trabalho de manutenção para custo de horas, custos do item e despesas que foram atualizadas em outros módulos no Finance and Operations. Dessa forma, você ajuda a garantir que suas previsões do tipo de trabalho de manutenção sempre usem os preços de custos mais recentes.
+No Gerenciamento de Ativos, você pode atualizar automaticamente todas as alterações nas previsões do tipo de trabalho de manutenção para custos de horas, custos de itens e despesas que foram atualizadas em outros módulos. Dessa forma, você ajuda a garantir que suas previsões do tipo de trabalho de manutenção sempre usem os preços de custos mais recentes.
 
 1. Selecione **Gerenciamento de ativos** \> **Periódico** \> **Previsão** \> **Atualizar previsão do tipo de trabalho de manutenção**.
 2. Na caixa de diálogo **Atualizar previsão do tipo de trabalho de manutenção**, na Guia Rápida **Registros a serem incluídos**, você pode adicionar seleções para tipos de trabalho de manutenção específicos, conforme necessário. Selecione **Filtro** e **Selecionar** para fazer as seleções.

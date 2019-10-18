@@ -1,6 +1,6 @@
 ---
 title: Vender e retornar produtos que não fazem parte do sortimento de uma loja
-description: Com o Dynamics 365 for Retail, você pode vender e devolver produtos fora das variedades.
+description: Com o Dynamics 365 Retail, você pode vender e devolver produtos fora das variedades.
 author: pdp1207
 manager: AnnBe
 ms.date: 05/24/2017
@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 653a388de1a972fae488abd81f349d1b138fc716
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ae6bac983ddb4d4a217fe83c8f68c5a87ccd6a47
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567898"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024928"
 ---
 # <a name="sell-and-return-products-that-arent-part-of-a-stores-assortment"></a>Vender e retornar produtos que não fazem parte do sortimento de uma loja
 
@@ -37,7 +37,7 @@ Estes são alguns dos cenários típicos:
 + Um varejista não tem produtos específicos na loja ou não os possui em estoque na loja visitada pelo cliente, mas os produtos estão disponíveis em outras lojas. O associado da loja pode ajudar o cliente pesquisando ou navegando nos produtos na outra loja, adicione-os ao carrinho e complete o check-out selecionando um método de entrega.
 + Um varejista tem muitas lojas em uma cidade ou CEP e ao redor dela. Ele não quer forçar os clientes a devolver produtos à mesma loja em que fizeram a compra. Em vez disso, os clientes podem devolver o produto para qualquer loja.
 
-Esses cenários comuns estão disponíveis para varejistas usando o Dynamics 365 for Retail. Com Varejo, você pode:
+Esses cenários comuns estão disponíveis para varejistas que usam o Retail. Com Varejo, você pode:
 
 + Pesquisar ou procurar produtos em outras lojas.
 + Procure ou procure todos os produtos lançados.

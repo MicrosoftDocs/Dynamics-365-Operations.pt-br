@@ -1,6 +1,6 @@
 ---
-title: Colaboração do fornecedor com clientes
-description: Este tópico descreve como você pode usar a colaboração do fornecedor no Microsoft Dynamics 365 for Finance and Operations para trabalhar com POs e para monitorar o estoque em consignação.
+title: ​Colaboração de fornecedores com clientes​
+description: Este tópico descreve como você pode usar a colaboração do fornecedor para trabalhar com OCs e para monitorar o estoque em consignação.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bd3967da105b3cec4a722ee8e04fac13c798feec
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e968a57c09837a5cfa5a0476426a274021122959
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567575"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250109"
 ---
 # <a name="vendor-collaboration-with-customers"></a>​Colaboração de fornecedores com clientes​
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como você pode usar a colaboração do fornecedor para trabalhar com clientes no Microsoft Dynamics 365 for Finance and Operations. Os fornecedores podem concluir uma série de processos de negócios dos espaços de trabalho a seguir:
+Este tópico descreve como você pode usar a colaboração do fornecedor para trabalhar com clientes no Microsoft Dynamics 365 Supply Chain Management. Os fornecedores podem concluir uma série de processos de negócios dos espaços de trabalho a seguir:
 
 - **Confirmação de ordem de compra** – Monitora e responde às ordens de compra (OCs).
 - **Lance do fornecedor** – Exibe solicitações de quotações (RFQs) e as responde inserindo lances.

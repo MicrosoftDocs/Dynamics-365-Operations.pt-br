@@ -1,6 +1,6 @@
 ---
 title: Inicialize dados semente em novos ambientes de varejo
-description: Este artigo descreve os dados que são criados como parte do processo de inicialização do Microsoft Dynamics 365 for Retail.
+description: Este artigo descreve os dados que são criados como parte do processo de inicialização do Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 49b21d81437ebd7cc55076444ee71ae1143bfac0
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556889"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025507"
 ---
 # <a name="initialize-seed-data-in-new-retail-environments"></a>Inicializar dados de propagação em novos ambientes do Retail
 
 [!include [banner](includes/banner.md)]
 
-Este artigo descreve os dados que são criados como parte do processo de inicialização do Microsoft Dynamics 365 for Retail.
+Este artigo descreve os dados que são criados como parte do processo de inicialização do Dynamics 365 Retail.
 
 Depois que a solução Retail for implantada por meio do Microsoft Dynamics Lifecycle Services (LCS), você deverá inicializar a configuração de Retail para criar os dados básicos de configuração.
 
@@ -39,7 +39,7 @@ Depois que a solução Retail for implantada por meio do Microsoft Dynamics Life
 
 Para inicializar a configuração de varejo, execute estas etapas:
 
-1. Inicie o cliente Dynamics 365 for Retail.
+1. Inicie o cliente do Retail.
 2. Clique em **Varejo** &gt; **Configuração da sede** &gt; **Parâmetros** &gt; **Parâmetros de varejo**.
 3. Clique em **Inicializar**.
 
@@ -57,7 +57,7 @@ A inicialização cria os seguintes dados de configuração padrão:
 - Modelos de validação de entidade
 - Trabalho em lotes para limpar o histórico da sessão do Commerce Data Exchange
 
-Além disso, os registros relacionados à PCI (indústria de pagamento por cartão) estão habilitados para o banco de dados do Dynamics 365 for Retail.
+Além disso, os registros relacionados à PCI (indústria de pagamento por cartão) estão habilitados para o banco de dados do Retail.
 
 > [!NOTE]
 > Há uma opção para configurar separadamente o Agendador do Retail. Esta opção permite redefinir a configuração do agendador do Retail para suas configurações padrão.

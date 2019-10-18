@@ -1,6 +1,6 @@
 ---
 title: Visão geral de fidelidade
-description: Este tópico descreve os recursos de fidelidade no Microsoft Dynamics 365 for Retail e as etapas de instalação correspondentes para oferecer ao fornecedor uma introdução aos programas programas de fidelidade.
+description: Este tópico descreve os recursos de fidelidade no Dynamics 365 Retail e as etapas de instalação correspondentes para oferecer ao fornecedor uma introdução aos programas programas de fidelidade.
 author: scott-tucker
 manager: AnnBe
 ms.date: 03/08/2019
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8c2a2347abddf03ed884dcfe68f645fde84c092a
-ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
+ms.openlocfilehash: 9fbb5d6db16e2e145c4970b5dd6417d9e99f78b2
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1863763"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250958"
 ---
 # <a name="loyalty-overview"></a>Visão geral de fidelidade
 
 [!include [banner](includes/banner.md)]
 
-Os programas de fidelidade podem ajudar a aumentar a fidelidade do cliente ao recompensarem os clientes por suas interações com a marca do Varejista. No Microsoft Dynamics 365 for Retail, você pode configurar programas de fidelidade simples ou complexos que se apliquem a suas entidades legais em qualquer canal de varejo. Este tópico descreve os recursos de fidelidade no Microsoft Dynamics 365 for Retail e as etapas de instalação correspondentes para oferecer ao fornecedor uma introdução aos programas programas de fidelidade.
+Os programas de fidelidade podem ajudar a aumentar a fidelidade do cliente ao recompensarem os clientes por suas interações com a marca do Varejista. No Dynamics 365 Retail, você pode configurar programas de fidelidade simples ou complexos que se apliquem a suas entidades legais em qualquer canal de varejo. Este tópico descreve os recursos de fidelidade no Retail e as etapas de instalação correspondentes para oferecer ao fornecedor uma introdução aos programas de fidelidade.
 
 Você pode configurar o programa de fidelidade de modo que ele tenha as opções a seguir.
 
@@ -42,7 +42,7 @@ Você pode configurar o programa de fidelidade de modo que ele tenha as opções
 
 ## <a name="setting-up-loyalty-programs"></a>Configurando programas de fidelidade
 
-Você deve configurar vários componentes para habilitar o recurso de fidelidade no Dynamics 365 for Retail. O diagrama a seguir ilustra os componentes do programa de fidelidade e como eles se relacionam uns com os outros.
+Você deve configurar vários componentes para habilitar o recurso de fidelidade no Retail. O diagrama a seguir ilustra os componentes do programa de fidelidade e como eles se relacionam uns com os outros.
 
 ![Fluxo de processo de configuração de fidelidade](./media/loyaltyprocess.gif "Componentes de fidelidade e como se relacionam entre si")
 
@@ -69,9 +69,9 @@ A tabela a seguir descreve os processos que devem ser executados para enviar as 
 
 | Nome do processo                         | Descrição | Nome da página |
 |--------------------------------------|-------------|-----------|
-| 1050 (informações de fidelidade)           | Execute este processo para enviar os dados do programa de fidelidade do Dynamics 365 for Retail para as lojas de varejo. É recomendável agendar este processo para ser executado frequentemente, de modo que os dados do programa de fidelidade sejam transmitidos a todas as lojas. | Agenda de distribuição |
+| 1050 (informações de fidelidade)           | Execute este processo para enviar os dados do programa de fidelidade do Retail para as lojas de varejo. É recomendável agendar este processo para ser executado frequentemente, de modo que os dados do programa de fidelidade sejam transmitidos a todas as lojas. | Agenda de distribuição |
 | Processar esquemas de fidelidade              | Execute este processo para associar os esquemas de fidelidade aos canais de varejo aos quais o esquema de fidelidade foi atribuído. Esse processo pode ser agendado para execução como um processo em lote. Você deve executar esse processo se alterar dados de configuração do programa de fidelidade, como esquemas de fidelidade, programas de fidelidade ou pontos de recompensa do programa de fidelidade. | Processar esquemas de fidelidade |
-| Processar transações de fidelidade offline | Execute este processo para atualizar cartões-fidelidade, de forma que eles incluam transações processadas offline. Esse processo será aplicável somente se a caixa de seleção **Obter offline** for selecionada na página **Parâmetros compartilhados do Retail**, de tal modo que as recompensas possam ser obtidas offline. | Processar transações de fidelidade offline |
+| Lançar os pontos de fidelidade ganhos em lotes | Execute este processo para atualizar cartões-fidelidade, de forma que eles incluam transações processadas offline. Esse processo será aplicável somente se a caixa de seleção **Lançar pontos ganhos em lotes** for selecionada na página **Parâmetros compartilhados do Retail**, de tal modo que as recompensas possam ser obtidas offline. | Lançar os pontos de fidelidade ganhos em lotes |
 | Atualizar camadas de cartão-fidelidade            | Execute este processo para avaliar a atividade de ganhos do cliente em relação às regras de camada para um programa de fidelidade e para atualizar o status de camada do cliente. Este processo só será necessário se você alterar as regras da camada em programas de fidelidade e quiser que as regras atualizadas sejam aplicadas retroativamente aos cartões-fidelidade já emitidos. Este processo pode ser agendado como um processo em lote ou para cartões individuais. | Atualizar camadas de cartão-fidelidade |
 
 ## <a name="loyalty-enhancements"></a>Aprimoramentos de fidelidade
@@ -89,7 +89,7 @@ O Retail tem uma nova funcionalidade de fidelidade como parte da versão de outu
 
     ![Afiliações excluídas](./media/Excluded-affiliations.png "Excluir afiliações do ganho de pontos de fidelidade")
     
-- Os varejistas podem gerar números de cartão-fidelidade nos canais. Antes da atualização de outubro de 2018, os varejistas podiam usar cartões-fidelidade físicos ou gerar um cartão-fidelidade usando algumas informações exclusivas do cliente, como um número de telefone. Para permitir a geração automática cartões-fidelidade em lojas de varejo, ative **Gerenciar número de cartão-fidelidade** no perfil de funcionalidade associado à loja. Para os canais online, os varejistas podem usar a API IssueLoyaltyCard para emitir cartões-fidelidade para os clientes. Os varejistas também podem fornecer um número de cartão-fidelidade a essa API, que será usado para gerar o cartão-fidelidade, ou o sistema usará a sequência numérica dos cartões-fidelidade definida no Dynamics 365 for Retail. Entretanto, se a sequência numérica não estiver presente, e se o varejista não fornecer um número de cartão-fidelidade ao chamar a API, um erro será exibido.
+- Os varejistas podem gerar números de cartão-fidelidade nos canais. Antes da atualização de outubro de 2018, os varejistas podiam usar cartões-fidelidade físicos ou gerar um cartão-fidelidade usando algumas informações exclusivas do cliente, como um número de telefone. Para permitir a geração automática cartões-fidelidade em lojas de varejo, ative **Gerenciar número de cartão-fidelidade** no perfil de funcionalidade associado à loja. Para os canais online, os varejistas podem usar a API IssueLoyaltyCard para emitir cartões-fidelidade para os clientes. Os varejistas também podem fornecer um número de cartão-fidelidade a essa API, que será usado para gerar o cartão-fidelidade, ou o sistema usará a sequência numérica dos cartões-fidelidade definida no Retail. Entretanto, se a sequência numérica não estiver presente, e se o varejista não fornecer um número de cartão-fidelidade ao chamar a API, um erro será exibido.
 
     ![Gerar o cartão-fidelidade](./media/Generate-loyalty-card.png "Gerar automaticamente o número de cartão-fidelidade")
 
@@ -137,7 +137,7 @@ O Retail tem uma nova funcionalidade de fidelidade como parte da versão de outu
     - Identificação de uma atividade que deve ser recompensada.
     - Atribuição dos pontos apropriados.
 
-    A primeira etapa é externa ao Microsoft Dynamics 365 for Retail, como tweets sobre a marca ou curtidas da marca no Facebook. Depois que essa atividade for reconhecida, os varejistas poderão chamar a API do servidor de varejo mencionada acima e conceder pontos de fidelidade em tempo real. Em tais cenários, não há necessidade de uma etapa de revisão porque uma atividade ocorreu e pontos correspondentes devem ser concedidos. Contudo, há cenários em que o varejista gostaria de revisar os registros antes de conceder os pontos. Por exemplo, o varejista configurou um workshop na loja para o qual os clientes se inscrevem no site de comércio eletrônico ou qualquer outro aplicativo de registro de eventos. No entanto, apenas os clientes presentes devem ganhar pontos de fidelidade. Para tais cenários, na versão 10.0, introduzimos uma entidade de dados denominada **Linhas de tipo de outra atividade de fidelidade de varejo**. Essa entidade de dados permite que os varejistas usem a Estrutura de Importação/Exportação de Dados (DIXF) ou a API OData para registrar as atividades que devem conceder aos clientes pontos de fidelidade. A entidade de dados armazena as atividades em um diário chamado **Linhas de fidelidade para outras atividades**, que pode ser usado para fins de revisão e modificação. Após a revisão dos dados, o usuário de TI pode postar manualmente as linhas de atividade ou executar um trabalho chamado **Processar outro tipo de atividade para linhas de fidelidade**, que publicará todas as linhas de atividade não publicadas e atribuirá os pontos aos clientes com base nas regras de ganho. No cenário acima, o aplicativo de registro de eventos chamaria a API OData para enviar as informações do cliente para o Dynamics 365 for Retail. No entanto, o usuário de TI pode postar as linhas de atividade apenas para os clientes que participaram do workshop e excluir as linhas de atividade dos outros clientes. 
+    A primeira etapa é externa ao Retail, como tweets sobre a marca ou curtidas da marca no Facebook. Depois que essa atividade for reconhecida, os varejistas poderão chamar a API do servidor de varejo mencionada acima e conceder pontos de fidelidade em tempo real. Em tais cenários, não há necessidade de uma etapa de revisão porque uma atividade ocorreu e pontos correspondentes devem ser concedidos. Contudo, há cenários em que o varejista gostaria de revisar os registros antes de conceder os pontos. Por exemplo, o varejista configurou um workshop na loja para o qual os clientes se inscrevem no site de comércio eletrônico ou qualquer outro aplicativo de registro de eventos. No entanto, apenas os clientes presentes devem ganhar pontos de fidelidade. Para tais cenários, na versão 10.0, introduzimos uma entidade de dados denominada **Linhas de tipo de outra atividade de fidelidade de varejo**. Essa entidade de dados permite que os varejistas usem a Estrutura de Importação/Exportação de Dados (DIXF) ou a API OData para registrar as atividades que devem conceder aos clientes pontos de fidelidade. A entidade de dados armazena as atividades em um diário chamado **Linhas de fidelidade para outras atividades**, que pode ser usado para fins de revisão e modificação. Após a revisão dos dados, o usuário de TI pode postar manualmente as linhas de atividade ou executar um trabalho chamado **Processar outro tipo de atividade para linhas de fidelidade**, que publicará todas as linhas de atividade não publicadas e atribuirá os pontos aos clientes com base nas regras de ganho. No cenário acima, o aplicativo de registro de eventos chamaria a API OData para enviar as informações do cliente para o Dynamics 365 Retail. No entanto, o usuário de TI pode postar as linhas de atividade apenas para os clientes que participaram do workshop e excluir as linhas de atividade dos outros clientes. 
 
     > [!NOTE]
     > Atualmente, o sistema obriga os usuários a configurar uma sequência numérica para "outros tipos de atividade", mas isso não será uma etapa obrigatória em versões futuras. Para configurar uma sequência numérica, acesse **Parâmetros compartilhados de varejo** \> **Sequências numéricas** e selecione uma sequência numérica para **Outra ID de tipo de atividade de fidelidade**.

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 484bac74ccb498f0b006458f5e6d8fb0e9461a8f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: be4dbadaeac747953af44236156453edc596fcd5
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556060"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018103"
 ---
 # <a name="backflush-costing"></a>Custos de fluxo inverso
 
@@ -61,11 +61,11 @@ Para produtos fornecidos fora de um fluxo de produção, o cálculo da BOM deve 
 
 ### <a name="calculation-that-is-based-on-the-production-flow"></a>Cálculo baseado no fluxo de produção
 
-Lean manufacturing para Microsoft Dynamics 365 for Finance and Operations não depende de roteiros. O cálculo de custo para produtos fornecidos em um fluxo de produção pode ser baseado no próprio fluxo de produção. Antes que o cálculo possa ser feito, deve ser criada uma regra kanban que forneça o produto fora do fluxo de produção. Se for possível fornecer um produto de vários fluxos de produção no mesmo site na data de cálculo, você pode selecionar o fluxo de produção para o cálculo da BOM. Na página **Fluxo de produção padrão**, você pode configurar um fluxo de produção padrão de cada item. Se houver várias regras kanban para o mesmo produto no mesmo fluxo de produção ativo na data de cálculo, o cálculo selecionará a primeira regra kanban ativa para o cálculo.
+Lean manufacturing para Dynamics 365 Supply Chain Management não depende de roteiros. O cálculo de custo para produtos fornecidos em um fluxo de produção pode ser baseado no próprio fluxo de produção. Antes que o cálculo possa ser feito, deve ser criada uma regra kanban que forneça o produto fora do fluxo de produção. Se for possível fornecer um produto de vários fluxos de produção no mesmo site na data de cálculo, você pode selecionar o fluxo de produção para o cálculo da BOM. Na página **Fluxo de produção padrão**, você pode configurar um fluxo de produção padrão de cada item. Se houver várias regras kanban para o mesmo produto no mesmo fluxo de produção ativo na data de cálculo, o cálculo selecionará a primeira regra kanban ativa para o cálculo.
 
 ### <a name="calculation-that-is-based-on-the-route"></a>Cálculo baseado no roteiro
 
-O cálculo baseado no roteiro é tão válido quanto aquele baseado em um fluxo de produção. No entanto, o cálculo baseado em um roteiro não usa a avaliação de custo para a funcionalidade de Lean manufacturing. O roteiro deve usar requisições de origem para grupos de recursos. Para evitar variações sistemáticas, ele também deve usar as mesmas células de trabalho ou, pelo menos, as mesmas categorias de custo. Além disso, você deve evitar categorias de custo para configuração e quantidade. Elas não ajudam a calcular o custo em uma divisão mais granular que os custos de fluxo inverso de Lean manufacturing. Para determinar qual opção (fluxo de produção ou roteiro) deve ser usada para calcular custos, considere os resultados da divisão de custo. A versão que mais se aproxima da realidade e que produz menos variações de modo geral é a melhor opção. Em um ambiente de lean manufacturing no qual um produto é fornecido por um único fluxo de produção e por uma regra kanban, o cálculo baseado no fluxo de produção é provavelmente mais preciso. No caso de produtos que podem ser fornecidos por Lean manufacturing e ordens de produção no mesmo site ou que podem apresentar vários fluxos de produção ou várias regras kanban no mesmo fluxo, um cálculo pode ser mais preciso se for baseado em uma versão de roteiro criada especificamente para o cálculo de custo, não para a produção. O cálculo do fluxo de produção deve ser usado para calcular os produtos que envolvem subcontratação. No Microsoft Dynamics 365 for Finance and Operations, os modelos de custo para subcontratação por meio de ordens de produção e subcontratação em Lean manufacturing estão usando duas abordagens diferentes. O lean manufacturing apresenta um novo tipo de grupo de custo, **Terceirização direta**, para calcular serviços subcontratados.
+O cálculo baseado no roteiro é tão válido quanto aquele baseado em um fluxo de produção. No entanto, o cálculo baseado em um roteiro não usa a avaliação de custo para a funcionalidade de Lean manufacturing. O roteiro deve usar requisições de origem para grupos de recursos. Para evitar variações sistemáticas, ele também deve usar as mesmas células de trabalho ou, pelo menos, as mesmas categorias de custo. Além disso, você deve evitar categorias de custo para configuração e quantidade. Elas não ajudam a calcular o custo em uma divisão mais granular que os custos de fluxo inverso de Lean manufacturing. Para determinar qual opção (fluxo de produção ou roteiro) deve ser usada para calcular custos, considere os resultados da divisão de custo. A versão que mais se aproxima da realidade e que produz menos variações de modo geral é a melhor opção. Em um ambiente de lean manufacturing no qual um produto é fornecido por um único fluxo de produção e por uma regra kanban, o cálculo baseado no fluxo de produção é provavelmente mais preciso. No caso de produtos que podem ser fornecidos por Lean manufacturing e ordens de produção no mesmo site ou que podem apresentar vários fluxos de produção ou várias regras kanban no mesmo fluxo, um cálculo pode ser mais preciso se for baseado em uma versão de roteiro criada especificamente para o cálculo de custo, não para a produção. O cálculo do fluxo de produção deve ser usado para calcular os produtos que envolvem subcontratação. Os modelos de custo para subcontratação por meio de ordens de produção e subcontratação em Lean manufacturing estão usando duas abordagens diferentes. O lean manufacturing apresenta um novo tipo de grupo de custo, **Terceirização direta**, para calcular serviços subcontratados.
 
 ## <a name="material-consumption"></a>Consumo de materiais
 Quando o material é consumido do estoque para o WIP, o custo de materiais é adicionado ao WIP no seu custo padrão real para um grupo de custo. Essa operação ocorre nas seguintes condições:
@@ -82,7 +82,7 @@ Os produtos são recebidos do fluxo de produção nas seguintes condições:
 Produtos recebidos do fluxo de produção são deduzidos do WIP.
 
 ## <a name="products-in-wip"></a>Produtos no WIP
-O modelo de WIP de Lean manufacturing no Microsoft Dynamics 365 for Finance and Operations permite usar o status da unidade de manuseio de material kanban para gerenciar materiais, produtos semiacabados e produtos acabados que fazem parte do WIP.
+O modelo de WIP de Lean manufacturing permite usar o status da unidade de manuseio de material kanban para gerenciar o material, produtos semiacabados e produtos acabados que fazem parte do WIP.
 
 -   **Atribuído** - O kanban pode apresentar material consumido que é contabilizado no WIP.
 -   **Recebido** - Se o kanban se referir a uma última atividade na qual **Atualizar estoque no recebimento** está definido como **Não**, isso representa uma unidade de manuseio de material completa de um produto ou um produto semifinalizado não registrado no estoque.

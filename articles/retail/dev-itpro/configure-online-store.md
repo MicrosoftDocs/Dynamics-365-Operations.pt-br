@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 186ab08e21b7dad7b736b1f5f065aefe0b80d621
-ms.sourcegitcommit: 27a98a7a0f1d2623f5236a88066f483def30889c
+ms.openlocfilehash: 142a7fa8a18b14347761d3f116c30f2fa5476115
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1833162"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025736"
 ---
 # <a name="configure-online-stores"></a>Configurar lojas online
 
@@ -53,7 +53,7 @@ Os tópicos listados na tabela a seguir ajudam a configurar os componentes do Re
 | Gerencie os encargos de remessa.             | Configure e gerencie os encargos de remessa específicos para a loja online.                                                                     | [Configurar os encargos de remessa para as lojas online](https://technet.microsoft.com/library/jj728714.aspx) (conteúdo do TechNet para AX 2012)                                                                                                                           |
 | Gerencie os modos de entrega.            | Gerencie os modos de entrega que a loja online oferece.                                                                                        | [Configurar os modos de entrega](https://technet.microsoft.com/library/jj728719.aspx) (conteúdo do TechNet para AX 2012)                                                                                                                                            |
 
-## <a name="set-up-data-exchange-between-microsoft-dynamics-365-for-retail-and-the-online-store"></a>Configurar troca de dados entre o Microsoft Dynamics 365 for Retail e a loja online
+## <a name="set-up-data-exchange-between-microsoft-dynamics-365-retail-and-the-online-store"></a>Configurar a troca de dados entre o Microsoft Dynamics 365 Retail e a loja online
 
 | Tarefa                                 | Detalhes                                                                                                                               | Tópicos                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

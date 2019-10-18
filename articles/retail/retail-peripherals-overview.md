@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9aba1dabe3b2304c1f0dfd449982af1d4bc15d6b
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: cf4eb74acbd305eb67861ab3f09648bf8af8f86c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742624"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025044"
 ---
 # <a name="retail-peripherals"></a>Periféricos para varejo
 
@@ -116,9 +116,9 @@ O suporte a dispositivos de pagamento foi implementado pelo conector de pagament
 
 ### <a name="opos"></a>OPOS
 
-Para ajudar a garantir que uma gama maior de dispositivos possa ser usada com o Microsoft Dynamics 365 for Retail, o OLE para PDV padrão da indústria é a plataforma de dispositivo periférico de varejo primária suportada no Microsoft Dynamics 365 for Retail. O OLE para PDV padrão foi produzido pela Federação Nacional do Varejo (NRF), que estabelece os protocolos de comunicação padrão da indústria para dispositivos periféricos de varejo. O OPOS é uma implementação amplamente adotada do OLE para PDV padrão. Foi desenvolvido em meados dos anos 90 e foi atualizado diversas vezes desde então. O OPOS fornece uma arquitetura de driver de dispositivo que permite a integração simples de hardware PDV com sistemas baseados em Windows. O OPOS controla a comunicação entre o hardware compatível e o software PDV. Um controle OPOS consiste em duas partes:
+Para ajudar a garantir que uma gama maior de dispositivos possa ser usada com o Retail, o OLE para PDV padrão do setor é a plataforma de dispositivo periférico de varejo primária suportada. O OLE para PDV padrão foi produzido pela Federação Nacional do Varejo (NRF), que estabelece os protocolos de comunicação padrão da indústria para dispositivos periféricos de varejo. O OPOS é uma implementação amplamente adotada do OLE para PDV padrão. Foi desenvolvido em meados dos anos 90 e foi atualizado diversas vezes desde então. O OPOS fornece uma arquitetura de driver de dispositivo que permite a integração simples de hardware PDV com sistemas baseados em Windows. O OPOS controla a comunicação entre o hardware compatível e o software PDV. Um controle OPOS consiste em duas partes:
 
-- **Objeto de controle** – O objeto de controle para uma classe de dispositivo (como as exibições de linha) fornece a interface para o programa de software. A Monroe Serviços de Consultoria ([www.monroecs.com](http://www.monroecs.com/)) fornece um conjunto padronizado de objetos de controle OPOS que são conhecidos como objetos de controle (CCOs). Os CCOs são usados para testar o componente de PDV do Microsoft Dynamics 365 for Retail. Portanto, o teste ajuda a garantir que, se o Microsoft Dynamics 365 for Retail oferecer suporte a uma classe de dispositivo através do OPOS, muitos tipos de dispositivo podem ser suportados, dado que o fabricante fornece um objeto de servido que é desenvolvido para OPOS. Você não precisa explicitamente testar cada tipo do dispositivo.
+- **Objeto de controle** – O objeto de controle para uma classe de dispositivo (como as exibições de linha) fornece a interface para o programa de software. A Monroe Serviços de Consultoria ([www.monroecs.com](http://www.monroecs.com/)) fornece um conjunto padronizado de objetos de controle OPOS que são conhecidos como objetos de controle (CCOs). Os CCOs são usados para testar o componente de PDV do Retail. Portanto, o teste ajuda a garantir que, se o Retail oferecer suporte a uma classe de dispositivo através do OPOS, muitos tipos de dispositivo poderão ser aceitos, desde que o fabricante forneça um objeto de serviço que seja desenvolvido para OPOS. Você não precisa explicitamente testar cada tipo do dispositivo.
 - **Objeto de serviço** – O objeto de serviço fornece comunicação entre o objeto de controle (CCO) e o dispositivo. Normalmente, o objeto de serviço para um dispositivo é fornecido pelo fabricante do dispositivo. Entretanto, em alguns casos, pode ser necessário baixar o objeto de serviço do site do fabricante. Por exemplo, um objeto mais recente de serviço pode estar disponível. Para localizar o endereço do site do fabricante, consulte a documentação do hardware.
 
 [![Objeto de controle e objeto de serviço](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)
@@ -126,7 +126,7 @@ Para ajudar a garantir que uma gama maior de dispositivos possa ser usada com o 
 O suporte à implementação de OPOS do OLE para PDV ajuda a garantir que, se os fabricantes de dispositivos e publicadores de PDV implementarem o padrão corretamente, os sistemas de PDV e dispositivos suportados podem trabalhar juntos, mesmo que não tenham sido testados anteriormente.
 
 > [!NOTE]
-> O suporte do OPOS não garante suporte para todos os dispositivos com drivers OPOS. Microsoft Dynamics 365 for Retail deve primeiro oferecer suporte a esse tipo ou classe de dispositivo através do OPOS. Além disso, os objetos de serviço nem sempre podem estar atualizados com a versão mais recente dos CCOs. Você também deve estar ciente de que, em geral, a qualidade dos objetos de serviço é diferente.
+> O suporte do OPOS não garante suporte para todos os dispositivos com drivers OPOS. O Retail deve primeiro oferecer suporte a esse tipo ou classe de dispositivo através do OPOS. Além disso, os objetos de serviço nem sempre podem estar atualizados com a versão mais recente dos CCOs. Você também deve estar ciente de que, em geral, a qualidade dos objetos de serviço é diferente.
 
 ### <a name="windows"></a>Windows
 
@@ -136,7 +136,7 @@ A impressão de recibo no PDV é otimizada para OPOS. O OPOS tende a ser muito m
 - Os dispositivos conectados através da impressora ("encadeado") podem não funcionar corretamente quando os drivers do Windows forem utilizados. Por exemplo, a caixa registradora pode não abrir, a impressora de guia pode não escrever como você espera.
 - O OPOS também oferece suporte a um conjunto de variáveis mais amplo que são específicas para as impressoras de recibo de varejo, como corte de papéis ou impressão de guias.
 
-Se os controles OPOS estiverem disponíveis para a impressora do Windows que você está utilizando, a impressora ainda deve funcionar corretamente com o Microsoft Dynamics 365 for Retail.
+Se os controles OPOS estiverem disponíveis para a impressora do Windows que você está usando, a impressora ainda deverá funcionar corretamente com o Retail.
 
 ### <a name="universal-windows-platform"></a>Plataforma de universal do Windows
 
@@ -192,7 +192,7 @@ Você pode especificar o endereço IP de periféricos de rede em dois locais. Se
 
 #### <a name="modern-pos-for-android"></a>POS moderno para Android
 
-A partir do Dynamics 365 for Retail versão 8.1.3, o aplicativo Modern POS para Android inclui uma estação de hardware de IPC integrada. Essa estação de hardware dá suporte à comunicação com as impressoras de rede e aos conectores de pagamento. Para obter mais informações, visite o [artigo Aplicativo Hybrid para documentos Android](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
+A partir do Retail versão 8.1.3, o aplicativo Modern POS para Android inclui uma estação de hardware de IPC interna. Essa estação de hardware dá suporte à comunicação com as impressoras de rede e aos conectores de pagamento. Para obter mais informações, visite o [artigo Aplicativo Hybrid para documentos Android](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
 
 #### <a name="cloud-pos-and-modern-pos-for-ios"></a>PDV em Nuvem e Modern POS para iOS
 
@@ -526,7 +526,7 @@ Os periféricos de rede podem ser suportados diretamente através da estação d
 Para obter mais informações sobre como criar perfis de hardware, consulte [Definir e manter clientes de canal, incluindo registros e estações de hardware](define-maintain-channel-clients-registers-hw-stations.md).
 
 > [!NOTE]
-> Para o Microsoft Dynamics 365 for Retail versão 1611, o perfil da estação de hardware não é mais usado. Os atributos configurados anteriormente no perfil de estação de hardware agora são parte da estação de hardware.
+> Para o Retail versão 1611, o perfil da estação de hardware não é mais usado. Os atributos configurados anteriormente no perfil de estação de hardware agora são parte da estação de hardware.
 
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>PDV moderno para Windows com uma estação de hardware IPC (integrada)
 

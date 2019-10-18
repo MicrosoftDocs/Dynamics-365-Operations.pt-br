@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f08829bccbaea6fb70563e553f9042300b4d5ea9
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: fbaa467c22656aa8d1e39d26a8233250e2bb66f8
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837989"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026592"
 ---
 # <a name="sales-tax-assignment-and-overrides"></a>Atribuição de imposto e substituições
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimento demonstra como atribuir grupos dos impostos sobre venda aos canais varejos. Também mostra o processo de criação de uma substituição de impostos e atribuição da mesma ao grupo de substituição de impostos existente. Este procedimento
-
-usa a empresa USRT nos dados de demonstração.
+Este procedimento demonstra como atribuir grupos dos impostos sobre venda aos canais varejos. Também mostra o processo de criação de uma substituição de impostos e atribuição da mesma ao grupo de substituição de impostos existente. Este procedimento usa a empresa USRT nos dados de demonstração.
 
 1. Vá para Varejo e comércio > Canais > Lojas de varejo > Todas as lojas de varejo.
 2. Na lista, clique no link do ID do canal de varejo para "Houston".

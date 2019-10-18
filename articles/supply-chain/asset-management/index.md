@@ -1,6 +1,6 @@
 ---
 title: Visão geral do gerenciamento de ativos
-description: Este tópico descreve a funcionalidade Gerenciamento de Ativos no Dynamics 365 for Finance and Operations.
+description: Este tópico descreve a funcionalidade Gerenciamento de Ativos no Dynamics 365 Supply Chain Management.
 author: josaw1
 manager: AnnBe
 ms.date: 07/24/2019
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3b8a619d787a2d43e843b574edf77b3153d53005
-ms.sourcegitcommit: 829b6dc145197cc565d40469f6a1522f8dccac9f
+ms.openlocfilehash: f98185fbabefedd2a545bd1c3e15b9e180363469
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "1788271"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024697"
 ---
 # <a name="asset-management-overview"></a>Visão geral do gerenciamento de ativos
 
@@ -32,7 +32,7 @@ ms.locfileid: "1788271"
 [!include [banner](../includes/preview-banner.md)]
 
 
-O Gerenciamento de Ativos é um módulo avançado para gerenciar ativos e trabalhos de manutenção no Microsoft Dynamics 365 for Finance and Operations. O Gerenciamento de Ativos integra-se perfeitamente a vários módulos no Finance and Operations. 
+O Gerenciamento de Ativos é um módulo avançado para gerenciar ativos e trabalhos de manutenção no Dynamics 365 Supply Chain Management. O Gerenciamento de Ativos integra-se perfeitamente a vários módulos no Finance and Operations. 
 
 A imagem a seguir é uma ilustração das interfaces para outros módulos no Finance and Operations.
 

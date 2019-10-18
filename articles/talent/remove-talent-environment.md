@@ -1,6 +1,6 @@
 ---
 title: Remover ambientes do Talent
-description: Este tópico mostra o processo de remoção de um ambiente de produção ou de test drive do Microsoft Dynamics 365 for Talent.
+description: Este tópico mostra o processo de remoção de um ambiente de produção ou de test drive do Microsoft Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/20/2017
@@ -17,24 +17,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 904c8eb1254a65e1627c33f14488a1a8e12f7c2b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d608ee3ad90d23279557e5e9be4d398ffac3a266
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517337"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010606"
 ---
 # <a name="remove-talent-environments"></a>Remover ambientes do Talent
 
 [!include [banner](includes/banner.md)]
 
-Este tópico mostra o processo de remoção de um ambiente de produção ou de test drive do Microsoft Dynamics 365 for Talent.
+Este tópico mostra o processo de remoção de um ambiente de produção ou de test drive do Microsoft Dynamics 365 Talent.
 
 ## <a name="removing-a-test-drive-environment"></a>Removendo um ambiente de test drive
 
 Os test drives do Talent são provisionados com uma política de vencimento de 60 dias. No entanto, os proprietários de ambientes de test drive têm a opção de encerrar sua avaliação antecipadamente concluindo as seguintes etapas. 
 
-1. Navegue até o [Centro de Administração do PowerApps](https://admin.businessplatform.microsoft.com/).
+1. Navegue até o [Centro de administração do PowerApps](https://admin.businessplatform.microsoft.com/).
 2. Selecione **Ambientes**.
 3. Selecione o ambiente de test drive, que possui um padrão de nomenclatura semelhante a este: TestDrive - alias@domain
 4. Selecione **Excluir** e confirme a decisão. 
@@ -45,14 +45,14 @@ O ambiente de test drive existente será removido. Quando for removido, inscreva
 
 Este tópico pressupõe que você adquiriu o Talent por meio de um Provedor de Soluções na Nuvem (CSP) ou de um contrato de arquitetura da empresa (EA). 
 
-Como um ambiente único do Talent é “contido" em um ambiente único do PowerApps, há duas opções a serem consideradas. A primeira opção envolve a remoção de todo o ambiente do PowerApps; a segunda opção envolve somente a remoção do Talent. A primeira opção é preferível quando você tiver criado um ambiente do PowerApps especificamente para provisionar o Talent e tiver acabado de iniciar a implementação, ou se não tiver nenhuma integração estabelecida. A segunda opção é recomendável quando você tiver um ambiente estabelecido do PowerApps preenchido com dados sofisticados aproveitados no PowerApps e nos fluxos.
+Como um ambiente único do Talent é “contido" em um ambiente único do PowerApps, há duas opções a serem consideradas. A primeira opção envolve a remoção de todo o ambiente do PowerApps; a segunda opção envolve somente a remoção do Talent. A primeira opção é preferível quando você tiver criado um ambiente do PowerApps especificamente para provisionar o Talent e tiver acabado de iniciar a implementação, ou se não tiver nenhuma integração estabelecida. A segunda opção é recomendável quando você tiver um ambiente estabelecido do PowerApps preenchido com dados avançados aproveitados no PowerApps e nos fluxos.
 
 > [!Important]
-> Antes de remover o ambiente do PowerApps, verifique se ele não está sendo usado para integrações de dados sofisticados fora do escopo do Talent. Observe também que os ambientes do PowerApps não podem ser removidos. 
+> Antes de remover o ambiente do PowerApps, verifique se ele não está sendo usado para integrações de dados avançados fora do escopo do Talent. Observe também que os ambientes do PowerApps não podem ser removidos. 
 
 Para remover todo o ambiente do PowerApps, incluindo o Talent e os aplicativos e fluxos associados:
 
-1. Navegue até o [Centro de Administração do PowerApps](https://admin.businessplatform.microsoft.com/).
+1. Navegue até o [Centro de administração do PowerApps](https://admin.businessplatform.microsoft.com/).
 2. Selecione **Ambientes**.
 3. Selecione o ambiente a ser removido.
 4. Selecione **Excluir** e confirme a decisão. 

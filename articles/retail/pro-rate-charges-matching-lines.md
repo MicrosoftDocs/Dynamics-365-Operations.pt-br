@@ -19,29 +19,29 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 07eea8fd7af4da611b4bd0c9340923f8894fab2c
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d9f36da025528272b1a95456acf597dd5d923819
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1526006"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025163"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Realizar rateio de alterações de cabeçalho para linhas de vendas correspondentes
 
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve a funcionalidade para agrupar encargos automáticos em nível de cabeçalho e realizar rateio dela para as linhas de venda de varejo. Esta funcionalidade ficará disponível para transações criadas no ponto de venda (POS) na versão 10.0.1 do Microsoft Dynamics 365 for Retail e vendas que são criadas em um call center na versão 10.0.2 do Microsoft Dynamics 365 for Retail.
+Este tópico descreve a funcionalidade para agrupar encargos automáticos em nível de cabeçalho e realizar rateio dela para as linhas de venda de varejo. Esta funcionalidade ficará disponível para transações criadas no ponto de venda (POS) na versão 10.0.1 do Retail e vendas criadas em um call center na versão 10.0.2 do Retail.
 
 Esta funcionalidade só estará disponível se o recurso [encargos automáticos avançados](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges) estiver ativado usando a opção na página **Parâmetros de varejo**. Além disso, o método de cálculo avançado para encargos automáticos pode ser aplicado apenas a ordens de venda de varejo criadas por meio de canais de varejo (o POS, um call center, e a plataforma do Dynamics e-Commerce).
 
 Essa nova funcionalidade dá às organizações mais flexibilidade na forma em que os encargos automáticos de nível de cabeçalho são calculados e aplicados para transações de vendas de varejo.
 
-Em versões do Microsoft Dynamics 365 for Retail anteriores à versão 10.0.1, os encargos automáticos de nível de cabeçalho que têm um modo específico de relação de entrega são calculados apenas quando há uma combinação com o modo de entrega definido no cabeçalho da ordem de venda.
+Em versões do Retail anteriores à versão 10.0.1, os encargos automáticos de nível de cabeçalho que têm um modo específico de relação de entrega são calculados apenas quando há uma combinação com o modo de entrega definido no cabeçalho da ordem de venda.
 
 Por exemplo, encargos automáticos de nível de cabeçalho são definidos para modo de entrega **99** e modo de entrega **11**. Uma ordem de venda é criada e o modo de entrega **99** é definido no cabeçalho da ordem. Porém, algumas linhas de venda são configuradas de forma que sejam enviadas com o modo de entrega **11**. Neste caso, somente os encargos de nível de cabeçalho vinculados ao modo de entrega **99** são considerados e aplicados à ordem de vendas.
 
-No Dynamics 365 for Retail, os encargos de nível de cabeçalho têm um recurso adicional que permite definir uma [configuração de encargo em camadas](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery) baseada no valor da ordem. Por exemplo, se o valor da ordem está entre US$ 50,00 e US$ 200,00 uma organização pode cobrar US$ 5,00 de frete. Entretanto, se o valor da ordem estiver entre US$ 200,01 e US$ 500,00, o encargo de frete pode ser US$ 4,00.
+No Retail, os encargos de nível de cabeçalho têm um recurso adicional que permite definir uma [configuração de encargo em camadas](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery) que é baseada no valor da ordem. Por exemplo, se o valor da ordem está entre US$ 50,00 e US$ 200,00 uma organização pode cobrar US$ 5,00 de frete. Entretanto, se o valor da ordem estiver entre US$ 200,01 e US$ 500,00, o encargo de frete pode ser US$ 4,00.
 
 Algumas organizações desejam os benefícios de cálculo de encargo em camadas fornecido com encargos de nível de cabeçalho. Entretanto, em cenários envolvendo modes mistos de entrega, eles também desejam garantir que os encargos são calculados com base em uma correspondência com o modo de entrega definido em cada linha de vendas.
 

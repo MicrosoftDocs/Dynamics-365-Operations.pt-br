@@ -1,6 +1,6 @@
 ---
 title: Catálogos do call center
-description: Este tópico descreve a funcionalidade específica de call center para catálogos no Microsoft Dynamics 365 for Retail.
+description: Este tópico descreve a funcionalidade específica de call center para catálogos no Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 05/15/2018
@@ -19,24 +19,24 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 65c1c3070aa48bf7a2016534071693716fabe831
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2ad50be1394daf5bffa6391d2f56340aad14120b
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562732"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023650"
 ---
 # <a name="call-center-catalogs"></a>Catálogos do call center
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve a funcionalidade específica de call center vinculada a recursos de catálogo no Microsoft Dynamics 365 for Retail.
+Este tópico descreve a funcionalidade específica de call center vinculada a recursos de catálogo no Dynamics 365 Retail.
 
-Os recursos de catálogo encontrados no Dynamics 365 for Retail podem ser usados para várias finalidades. Os recursos de catálogo foram inicialmente criados para dar suporte a integrações de comércio eletrônico de terceiros. O catálogo permitiu às empresas a criação de um agrupamento de produtos e atributos que podem ser publicados externamente para o consumo por uma solução de comércio eletrônico de terceiros.
+Os recursos de catálogo que se encontram no Retail podem ser usados para várias finalidades. Os recursos de catálogo foram inicialmente criados para dar suporte a integrações de comércio eletrônico de terceiros. O catálogo permitiu às empresas a criação de um agrupamento de produtos e atributos que podem ser publicados externamente para o consumo por uma solução de comércio eletrônico de terceiros.
 
-Quando o suporte do canal de call center foi adicionado ao Dynamics 365 for Retail, o conceito de catálogo se expandiu para adicionar mais funcionalidades de suporte e gerenciamento de recursos relacionadas aos catálogos tradicionais de marketing direto ao consumidor. Uma empresa direta ao consumidor frequentemente produzirá catálogos impressos, enviados por email a um ou mais segmentos de clientes. Esses catálogos normalmente têm promoções ou ofertas específicas que somente serão liquidadas se o cliente fornecer um código de identificação do catálogo no momento da criação da ordem.
+Quando o suporte do canal de call center foi adicionado ao Retail, o conceito de catálogo se expandiu para adicionar mais funcionalidades de suporte e gerenciamento de recursos relacionadas aos catálogos tradicionais de marketing direto ao consumidor. Uma empresa direta ao consumidor frequentemente produzirá catálogos impressos, enviados por email a um ou mais segmentos de clientes. Esses catálogos normalmente têm promoções ou ofertas específicas que somente serão liquidadas se o cliente fornecer um código de identificação do catálogo no momento da criação da ordem.
 
-As empresas de marketing direto ao consumidor são muito focadas no rastreamento de resposta para esses catálogos para garantir que os custos para produzir e enviar e-mail para eles sejam justificados. Para rastrear a resposta, um código é impresso na parte de trás do catálogo e esse código é solicitado e aplicado quando o destinatário do catálogo ligar para fazer um pedido por telefone (ou agora o código pode ser inserido quando o cliente fizer um pedido online). Embora existam diferentes termos do setor que foram usados para identificar esse código de rastreamento de catálogo (incluindo código de tecla, código promocional, código de catálogo, código-fonte), nos referimos ao código no Dynamics 365 for Retail como a **ID do código-fonte**.
+As empresas de marketing direto ao consumidor são muito focadas no rastreamento de resposta para esses catálogos para garantir que os custos para produzir e enviar e-mail para eles sejam justificados. Para rastrear a resposta, um código é impresso na parte de trás do catálogo e esse código é solicitado e aplicado quando o destinatário do catálogo ligar para fazer um pedido por telefone (ou agora o código pode ser inserido quando o cliente fizer um pedido online). Embora existam diferentes termos do setor que foram usados para identificar esse código de rastreamento de catálogo (incluindo código de tecla, código promocional, código de catálogo, código-fonte), nos referimos ao código no Retail como a **ID do código-fonte**.
 
 ## <a name="basic-catalog-setup"></a>Configuração básica do catálogo
 
@@ -92,7 +92,7 @@ Ao configurar os produtos no catálogo, use a ação **Layout de página de prod
 
 ## <a name="catalog-requests"></a>Solicitações de catálogo
 
-Como os catálogos são configurados e publicados no Dynamics 365 for Retail, o recurso **Enviar catálogo** pode ser utilizado. Esse recurso ficará disponível nas páginas **Pesquisa de cliente** e **Atendimento ao cliente**. Depois de selecionar um registro de cliente através da **Pesquisa de cliente** ou enquanto exibe uma conta de clientes selecionados do **Atendimento ao cliente**, os usuários podem selecionar a opção **Enviar catálogo** que abrirá uma caixa de diálogo permitindo que o usuário escolha entre uma lista de catálogos publicados e ativos. Um usuário pode selecionar um catálogo e uma quantidade e um ID de código-fonte específico para enviar. Quando eles clicam no botão **Enviar**, uma solicitação é armazenada, que pode ser gerenciada imprimindo o relatório **Solicitações de catálogo**. Para encontrar este relatório, navegue para **Varejo** \> **Relatórios de call center** \> **Relatório de solicitações de catálogo**. Ele lista todas as solicitações de catálogo, incluindo o nome do cliente e os detalhes do endereço do cliente que solicitou o catálogo. Esse relatório pode ser usado internamente ou os dados podem ser transmitidos para um terceiro que suporta processos externos para enviar fisicamente o catálogo ao cliente.
+Como os catálogos são configurados e publicados no Retail, o recurso **Enviar catálogo** pode ser utilizado. Esse recurso ficará disponível nas páginas **Pesquisa de cliente** e **Atendimento ao cliente**. Depois de selecionar um registro de cliente através da **Pesquisa de cliente** ou enquanto exibe uma conta de clientes selecionados do **Atendimento ao cliente**, os usuários podem selecionar a opção **Enviar catálogo** que abrirá uma caixa de diálogo permitindo que o usuário escolha entre uma lista de catálogos publicados e ativos. Um usuário pode selecionar um catálogo e uma quantidade e um ID de código-fonte específico para enviar. Quando eles clicam no botão **Enviar**, uma solicitação é armazenada, que pode ser gerenciada imprimindo o relatório **Solicitações de catálogo**. Para encontrar este relatório, navegue para **Varejo** \> **Relatórios de call center** \> **Relatório de solicitações de catálogo**. Ele lista todas as solicitações de catálogo, incluindo o nome do cliente e os detalhes do endereço do cliente que solicitou o catálogo. Esse relatório pode ser usado internamente ou os dados podem ser transmitidos para um terceiro que suporta processos externos para enviar fisicamente o catálogo ao cliente.
 
 ## <a name="additional-features"></a>Recursos adicionais
 

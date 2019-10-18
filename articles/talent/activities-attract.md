@@ -1,6 +1,6 @@
 ---
-title: Atividades nos processos no Microsoft Dynamics 365 for Talent - Attract
-description: Este tópico fornece informações sobre os vários tipos de atividades que podem ser usadas no processo de contratação no Microsoft Dynamics 365 for Talent - Attract.
+title: Atividades nos processos do Microsoft Dynamics 365 Talent - Attract
+description: Este tópico fornece informações sobre os vários tipos de atividades que podem ser usadas no processo de contratação no Microsoft Dynamics 365 Talent - Attract.
 author: hasrivas
 manager: AnnBe
 ms.date: 05/28/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 4d52f3a384ad2a54986d1bd23baeefbaae30c9e2
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 2e40250bb801f6222d16400b2698e5b0df47a404
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739697"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008676"
 ---
 # <a name="activities-in-hiring-processes"></a>Atividades nos processos de contratação
 
 [!include[banner](../includes/banner.md)]
 
-As atividades podem ser adicionados como parte do processo de contratação no Microsoft Dynamics 365 for Talent: Attract. As atividades podem ser adicionadas a um modelo de processo ou podem ser adicionadas diretamente ao processo de contratação no trabalho. Quando um trabalho é definidos, um modelo de processo é selecionado e as atividades que estão incluídas no modelo são aplicadas ao trabalho. Se um modelo não for selecionado, o modelo padrão será usado. O processo de contratação também poderá ser modificado no trabalho depois que o modelo for aplicado.
+As atividades podem ser adicionados como parte do processo de contratação no Microsoft Dynamics 365 Talent: Attract. As atividades podem ser adicionadas a um modelo de processo ou podem ser adicionadas diretamente ao processo de contratação no trabalho. Quando um trabalho é definidos, um modelo de processo é selecionado e as atividades que estão incluídas no modelo são aplicadas ao trabalho. Se um modelo não for selecionado, o modelo padrão será usado. O processo de contratação também poderá ser modificado no trabalho depois que o modelo for aplicado.
 
 > [!NOTE] 
 > Os modelos de processo estão disponíveis com o complemento de Contratação abrangente. Para obter mais informações, consulte [Recursos do complemento de contratação abrangente do Attract](./attract-comprehensive-hiring.md).
@@ -49,13 +49,13 @@ A Atividade de solicitação de emprego é necessária em modelo do processo de 
 
 Essa atividade tem três componentes: solicitação de disponibilidade do candidato, agenda e comentários. Use a atividade da entrevista no modelo de trabalho se você deseja incluir a solicitação de disponibilidade do candidato, agenda e comentários como parte do processo em vez de usá-las individualmente como parte do processo de contratação. Para obter mais informações, consulte [Agendamento de entrevistas e comentários](interview-scheduling-feedback.md).
 
-## <a name="powerapps-activity"></a>Atividade do PowerApps
+## <a name="powerapps-activity"></a>Atividade de PowerApps
 
-A atividade de PowerApps permite que você incorpore um aplicativo do Microsoft PowerApps no processo de contratação. O aplicativo poderá ser necessário para todos os candidatos, candidatos internos somente, candidatos externos somente, ou nenhum candidato. Se o aplicativo for marcado como necessário, ele deve ser concluído antes que se possa avançar para outro estágio. Para ser considerado concluído, o campo **Status da solicitação de emprego** deve ser definido como **Concluído**. Este campo está localizado na entidade Atividade da solicitação de emprego, de modo que o aplicativo PowerApps precisará atualizar este campo antes que se possa avançar o estágio. Se o aplicativo não for marcado como necessário, a atividade será uma etapa opcional e será possível avançar para outro estágio mesmo que o aplicativo não tenha sido concluído.
+A atividade do PowerApps permite que você incorpore um aplicativo do Microsoft PowerApps no processo de contratação. O aplicativo poderá ser necessário para todos os candidatos, candidatos internos somente, candidatos externos somente, ou nenhum candidato. Se o aplicativo for marcado como necessário, ele deve ser concluído antes que se possa avançar para outro estágio. Para ser considerado concluído, o campo **Status da solicitação de emprego** deve ser definido como **Concluído**. Este campo está localizado na entidade JobApplicationActivity, de modo que o aplicativo PowerApps precisará atualizar esse campo para que seja possível avançar de estágio. Se o aplicativo não for marcado como necessário, a atividade será uma etapa opcional e será possível avançar para outro estágio mesmo que o aplicativo não tenha sido concluído.
 
-Para salvar a atividade do PowerApps no processo de contratação, você deve inserir um ID do PowerApps. Para encontrar a ID do PowerApps, acesse [PowerApps](https://web.powerapps.com), selecione **Aplicativos** e, em seguida, selecione **Detalhes**.
+Para salvar a atividade do PowerApps no processo de contratação, você deve inserir uma ID do PowerApps. Para localizar a ID do PowerApps ID, acesse [PowerApps](https://web.powerapps.com), selecione **Aplicativos** e **Detalhes**.
 
-Por padrão, a atividade do PowerApps estará disponível para o Gerente de contratação, o Recrutador e seus representantes. Se você selecionar a opção **Permitir a adição de participantes a esta atividade**, outros participantes da equipe de contratação poderão ser adicionados a um aplicativo que use a atividade do PowerApps. Por exemplo, uma organização criou um aplicativo do PowerApps que é uma biblioteca de perguntas de entrevista para funções técnicas. A organização está agora contratando um novo desenvolvedor de software e adicionou a atividade de PowerApps ao processo de contratação para a função de desenvolvedor de software. Se a opção **Permitir a adição de participantes a esta atividade** estiver selecionada, um recrutador ou gerente de contratação que esteja exibindo um candidato para a função do desenvolvedor de software poderá adicionar entrevistadores à atividade do PowerApps. Essas pessoas poderão então exibir o aplicativo que tem as perguntas de entrevista.
+Por padrão, a atividade do PowerApps está disponível para o Gerente de contratação, o Recrutador e seus representantes. Se você selecionar a opção **Permitir a adição de participantes a esta atividade**, outros participantes da equipe de contratação poderão ser adicionados a um aplicativo que usa a atividade do PowerApps. Por exemplo, uma organização criou um aplicativo do PowerApps que é uma biblioteca de perguntas de entrevista para funções técnicas. A organização está contratando um novo desenvolvedor de software e adicionou a atividade do PowerApps ao processo de contratação para a função de desenvolvedor de software. Se a opção **Permitir a adição de participantes a esta atividade** estiver selecionada, um recrutador ou gerente de contratação que esteja exibindo um candidato à função de desenvolvedor de software poderá adicionar entrevistadores à atividade do PowerApps. Essas pessoas poderão então exibir o aplicativo que tem as perguntas de entrevista.
 
 > [!NOTE]
 > A atividade de PowerApps está disponível somente com o complemento de Contratação abrangente. Para obter mais informações, consulte [Recursos do complemento de contratação abrangente do Attract](./attract-comprehensive-hiring.md).

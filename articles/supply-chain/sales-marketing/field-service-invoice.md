@@ -1,6 +1,6 @@
 ---
-title: Sincronizar faturas de contrato do Field Service com faturas de texto livre no Finance and Operations
-description: Este tópico discute os modelos e as tarefas subjacentes usados para sincronizar faturas de contrato no Microsoft Dynamics 365 for Field Service às notas fiscais de texto livre no Microsoft Dynamics 365 for Finance and Operations.
+title: Sincronizar faturas de contrato no Field Service com faturas de texto livre no Supply Chain Management
+description: Este tópico aborda os modelos e as tarefas subjacentes usados para sincronizar faturas de contrato no Dynamics 365 Field Service às faturas de texto livre no Dynamics 365 Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/10/2018
@@ -19,46 +19,46 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 55301ba39dd28fbae5b6c21b1da3c3d9cf6afd8a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3ca0014dc8bc1c70670a3cf85527eee0ef44865f
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560154"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249856"
 ---
-# <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-finance-and-operations"></a>Sincronizar faturas de contrato no Field Service com faturas de texto livre no Finance and Operations
+# <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>Sincronizar faturas de contrato no Field Service com faturas de texto livre no Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico discute os modelos e as tarefas subjacentes usados para sincronizar faturas de contrato no Microsoft Dynamics 365 for Field Service às notas fiscais de texto livre no Microsoft Dynamics 365 for Finance and Operations.
+Este tópico discute os modelos e as tarefas subjacentes usados para sincronizar faturas de contrato no Dynamics 365 Field Service às notas fiscais de texto livre no Dynamics 365 Supply Chain Management.
 
 ## <a name="templates-and-tasks"></a>Modelos e tarefas
 
-O modelo e as tarefas subjacentes a seguir são usadas para executar a sincronização de faturas de contrato no Field Service com faturas de texto livre no Finance and Operations.
+O modelo e as tarefas subjacentes a seguir são usadas para executar a sincronização de faturas de contrato do Field Service para faturas de texto livre no Supply Chain Management.
 
-**Nome do modelo na Integração de dados:**
+**Nome do modelo na Integração de dados**
 
-- Faturas de contrato (Field Service com o Fin and Ops)
+- Faturas de contrato (Field Service para Supply Chain Management)
 
-**Nomes das tarefas no projeto de Integração de dados:**
+**Nomes das tarefas no projeto de Integração de dados**
 
 - Cabeçalhos de fatura
 - Linhas da fatura
 
 As sincronização a seguir é necessária antes que a sincronização de faturas de contrato possa ocorrer:
 
-- Contas (Sales com o Fin and Ops) – Direto
+- Contas (Sales para Supply Chain Management) – Direto
 
 ## <a name="entity-set"></a>Conjunto de entidades
 
-| Field Service  | Finance and Operations                 |
+| Field Service  | Gerenciamento da Cadeia de Fornecedores                 |
 |----------------|----------------------------------------|
 | faturas       | Cabeçalhos de fatura de texto livre de cliente CDS |
 | invoicedetails | Linhas de fatura de texto livre de cliente CDS   |
 
 ## <a name="entity-flow"></a>Fluxo de entidades
 
-As faturas criadas a partir de um contrato no Field Service podem ser sincronizadas com o Finance and Operations por um projeto de Integração de dados do Common Data Service (CDS). As atualizações dessas faturas serão sincronizadas com as faturas de texto livre no Finance and Operations se o status de contabilidade das faturas de texto livre for **Em processamento**. Depois que as faturas de texto livre forem lançadas no Finance and Operations e o status da contabilidade for atualizado para **Concluído**, você não poderá mais sincronizar atualizações do Field Service.
+As faturas criadas com base em um contrato no Field Service podem ser sincronizadas com o Supply Chain Management por um projeto de Integração de dados do Common Data Service. As atualizações dessas faturas serão sincronizadas com as faturas de texto livre no Supply Chain Management se o status de contabilidade das faturas de texto livre for **Em processamento**. Depois que as faturas de texto livre forem lançadas no Supply Chain Management e o status da contabilidade for atualizado para **Concluído**, você não poderá mais sincronizar atualizações do Field Service.
 
 ## <a name="field-service-crm-solution"></a>Solução Field Service CRM
 
@@ -66,18 +66,18 @@ O campo **Tem Linhas com Origem de Contrato** foi adicionado à entidade **Fatur
 
 O campo **Tem Origem de Contrato** foi adicionado à entidade **Linha da Fatura**. Esse campo ajuda a garantir que somente as linhas de faturas criadas a partir de um contrato sejam sincronizadas. O valor será **verdadeiro** se a linha da fatura for originária de um contrato.
 
-**Data da fatura** é um campo obrigatório no Finance and Operations. Portanto, o campo deverá ter um valor no Field Service antes que a sincronização ocorra. Para atender a esse requisito, lógica a seguir foi adicionada:
+**Data da fatura** é um campo obrigatório no Supply Chain Management. Portanto, o campo deverá ter um valor no Field Service antes que a sincronização ocorra. Para atender a esse requisito, lógica a seguir foi adicionada:
 
 - Se o campo **Data da fatura** estiver em branco na entidade **Fatura** (ou seja, se não tiver nenhum valor), ela será definida como a data atual quando uma linha de fatura originária de um contrato for adicionada.
 - O usuário poderá alterar o campo **Data da fatura**. No entanto, quando o usuário tentar salvar uma fatura originária de um contrato, ele receberá uma mensagem de erro de processo comercial se o campo **Data da fatura** estiver em branco na fatura.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Pré-requisitos e configuração de mapeamento
 
-### <a name="in-finance-and-operations"></a>No Finance and Operations
+### <a name="in-supply-chain-management"></a>No Supply Chain Management
 
-Uma origem de fatura deve ser configurada para a integração para distinguir as faturas de texto livre no Finance and Operations que são criadas a partir de faturas de contrato no Field Service. Quando uma fatura tiver uma origem do tipo **Integração de fatura de contrato** , o campo **Número da fatura externa** será exibido no cabeçalho **Fatura de venda** .
+Uma origem de fatura deve ser configurada para a integração, para distinguir as faturas de texto livre no Supply Chain Management que são criadas com base em faturas de contrato no Field Service. Quando uma fatura tiver uma origem do tipo **Integração de fatura de contrato** , o campo **Número da fatura externa** será exibido no cabeçalho **Fatura de venda** .
 
-Além de ser exibido no cabeçalho da fatura, as informações **Número da fatura externa** podem ser usadas para ajudar a garantir que as faturas criadas a partir de faturas de contrato do Field Service serão filtradas durante a sincronização de faturas do Finance and Operations com o Field Service.
+Além de ser exibida no cabeçalho da fatura, as informação de **Número da fatura externa** pode ser usada para ajudar a garantir que as faturas criadas com base em faturas de contrato do Field Service sejam filtradas durante a sincronização de faturas do Supply Chain Management para o Field Service.
 
 1. Acesse **Contas a receber** \> **Configurar** \> **Códigos de origem da fatura**.
 2. Selecione **Nova** para criar uma nova origem de fatura.
@@ -91,7 +91,7 @@ Além de ser exibido no cabeçalho da fatura, as informações **Número da fatu
 
 Tarefa: **linhas da fatura**  
 
-Verifique se o valor padrão do campo **Valor de Exibição da Conta Principal** do Finance and Operations foi atualizado para corresponder o valor desejado.
+Verifique se o valor padrão do campo **Valor de Exibição da Conta Principal** do Supply Chain Management foi atualizado para corresponder ao valor desejado.
 
 O valor do modelo padrão é **401100**.
 
@@ -99,10 +99,10 @@ O valor do modelo padrão é **401100**.
 
 As ilustrações a seguir mostram um mapeamento de modelo na Integração de dados.
 
-### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-headers"></a>Faturas de contrato (Field Service com o Fin and Ops): Cabeçalhos de fatura
+### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-headers"></a>Faturas de contrato (Field Service para Supply Chain Management): Cabeçalhos de fatura
 
 [![Mapeamento de modelo na Integração de dados](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
 
-### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-lines"></a>Faturas de contrato (Field Service com o Fin and Ops): Linhas de fatura
+### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>Faturas de contrato (Field Service para Supply Chain Management): Linhas da fatura
 
 [![Mapeamento de modelo na Integração de dados](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)

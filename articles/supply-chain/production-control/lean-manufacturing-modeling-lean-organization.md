@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fe9a81f58423c3396493d0ea2c27bdea4eee102
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 40664936382f5edcb3c1680aa4af245bdef539a6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560131"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250185"
 ---
 # <a name="modeling-a-lean-organization"></a>Modelagem da organização de lean manufacturing
 
@@ -39,7 +39,7 @@ Os cenários de produção baseados em ordens de produção, o material é emiti
 
 Para reduzir prazos de entrega e o estoque excedente entre os centros de trabalho causados pela produção de lote, o lean manufacturing apresenta o reabastecimento do kanban e supermercados na fabricação e no reabastecimento do depósito. Isso geralmente interrompe a produção de ciclos parcialmente independentes do kanban. O reabastecimento de um kanban para um produto semiacabado não é mais disparado por uma ordem para um produto acabado. 
 
-Para restabelecer um contexto de produção e custo para os vários cenários kanban propostos no Microsoft Dynamics 365 for Finance and Operations, os fluxos de produção baseados em atividade são apresentados como a base do lean manufacturing. Todas as regras kanban se referem a essa estrutura predefinida. O modelo com base na atividade suporta a configuração de uma variedade de cenários. No entanto, este módulo não adiciona a complexidade para trabalhadores de chão de fábrica, como todos os cenários usam a mesma interface do usuário com base na atividade.
+Para restabelecer um contexto de produção e custo para os vários cenários kanban propostos, os fluxos de produção baseados em atividades foram apresentados como a base do lean manufacturing. Todas as regras kanban se referem a essa estrutura predefinida. O modelo com base na atividade suporta a configuração de uma variedade de cenários. No entanto, este módulo não adiciona a complexidade para trabalhadores de chão de fábrica, como todos os cenários usam a mesma interface do usuário com base na atividade.
 
 ## <a name="semi-finished-products-non-bom-levels"></a>Produtos semiacabados (em níveis não BOM)
 O Lean Manufacturing Integra os kanbans para produtos inventariados e semiacabados em uma única estrutura e, portanto, oferece uma experiência de usuário unificada para todos os casos. Devido a essa arquitetura, os níveis adicionais de BOM não precisam ser introduzidos para habilitar os kanbans a serem usados para produtos semiconcluídos. A arquitetura também ajuda a reduzir transações de estoque para um mínimo.
@@ -50,7 +50,7 @@ A redução de tamanhos de lote até o estado ideal de um único fluxo em lean m
 ## <a name="value-streams-and-value-stream-mapping"></a>Fluxos de valor e mapeamento do fluxo de valor
 A arquitetura de Lean Manufacturing foi inspirada nos cinco princípios de Lean Manufacturing formulados por Womack e Jones: valor do cliente, fluxo de valor, fluxo, recebimento e perfeição. Um método aprovado para implementar soluções de fabricação tendenciosa no mundo de fabricação física é o mapeamento de fluxo de valor. Este método é apresentado por Rother e Shook em sua publicação "Aprender pra ver" no Instituto Lean Manufacturing. 
 
-No Finance and Operations, o fluxo de valor de estado futuro pode ser modelado como uma versão do fluxo de produção. Todos os processos do fluxo de valor são modelados como atividades do processo. Os movimentos ou transferências podem ser modelados como atividades de transferência se o status de transferência precisa ser registrado, ou se é necessária uma integração ao estoque através de envios de separação ou consolidados. 
+O fluxo de valor de estado futuro pode ser modelado como uma versão do fluxo de produção. Todos os processos do fluxo de valor são modelados como atividades do processo. Os movimentos ou transferências podem ser modelados como atividades de transferência se o status de transferência precisa ser registrado, ou se é necessária uma integração ao estoque através de envios de separação ou consolidados. 
 
 O próprio fluxo de valor é modelado como uma unidade operacional. Consequentemente, o fluxo de valor pode ser usado como uma dimensão financeira.
 

@@ -1,6 +1,6 @@
 ---
 title: Planejar rotas de transporte de frete com várias paradas
-description: Este artigo descreve os vários elementos que você usa para planejar rotas de transporte no Dynamics 365 for Finance and Operations.
+description: Este artigo descreve os vários elementos que você usa para planejar rotas de transporte no Dynamics 365 Supply Chain Management.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 36cb454477c0d296246c061d2573954a81c9efd7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 033dde410519b061b0ff3fb42e8f7790af9449ec
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553967"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017541"
 ---
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Planejar rotas de transporte de frete com várias paradas
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo descreve os vários elementos que você usa para planejar rotas de transporte no Microsoft Dynamics 365 for Finance and Operations.
+Este artigo descreve os vários elementos que você usa para planejar rotas de transporte no Dynamics 365 Supply Chain Management.
 
 Você pode usar guias de rota e planos de rota para rotas de transporte complexos que têm várias paradas. Se o mesmo roteiro for usado regularmente, você pode configurar uma rota programada.
 

@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 551a8408aa730bc1916f1c57b7cfd773966ce8bf
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: c5da94e02b2381bbd058221567172cd428931c45
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606794"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024674"
 ---
 # <a name="store-inventory-management"></a>Gerenciamento de estoque de loja
 
 [!include [banner](includes/banner.md)]
 
-Ao trabalhar com estoque no Dynamics 365 for Retail e usar o aplicativo POS, é importante observar que o POS fornece suporte limitado para dimensões de estoque e certos tipos de item de estoque.
+Ao trabalhar com estoque no Dynamics 365 Retail e usar o aplicativo POS, é importante observar que o POS fornece suporte limitado para dimensões de estoque e certos tipos de item de estoque.
 
 A solução POS não oferece suporte para as configurações de item:
 
@@ -56,7 +56,7 @@ A solução POS fornece suporte limitado para as dimensões a seguir. Suporte li
 
 ## <a name="purchase-orders"></a>Ordens de Compra
 
-As ordens de compra são criadas na matriz. Se um depósito de varejo for incluído no cabeçalho da ordem de compra, a ordem poderá ser recebida na loja usando o Modern POS (MPOS) ou no Cloud POS no Microsoft Dynamics 365 for Retail por meio da operação **Separação/Recebimento**. Após as quantidades recebidas na loja serem inseridas no campo **Receber agora** no PDV para o documento de ordem de compra, ele pode ser salvo localmente ou confirmado. Salvar os dados localmente não tem efeito no inventário de estoque. A economia deve ser feita somente se o usuário não estiver pronto para lançar o recebimento na matriz e não precisar apenas de uma maneira de armazenar temporariamente os dados inseridos anteriormente nos dados **Receber agora**. Isso salva os dados Receber agora localmente para a base de dados do canal do usuário. Depois que o documento é processado usando a opção **Confirmar**, os dados **Receber agora** são enviados a matriz e o recebimento de ordem de compra será lançado. 
+As ordens de compra são criadas na matriz. Se um depósito de varejo for incluído no cabeçalho da ordem de compra, a ordem poderá ser recebida na loja usando o Modern POS (MPOS) ou no Cloud POS por meio da operação **Separação/Recebimento**. Após as quantidades recebidas na loja serem inseridas no campo **Receber agora** no PDV para o documento de ordem de compra, ele pode ser salvo localmente ou confirmado. Salvar os dados localmente não tem efeito no inventário de estoque. A economia deve ser feita somente se o usuário não estiver pronto para lançar o recebimento na matriz e não precisar apenas de uma maneira de armazenar temporariamente os dados inseridos anteriormente nos dados **Receber agora**. Isso salva os dados Receber agora localmente para a base de dados do canal do usuário. Depois que o documento é processado usando a opção **Confirmar**, os dados **Receber agora** são enviados a matriz e o recebimento de ordem de compra será lançado. 
 
 ## <a name="transfer-orders"></a>Ordens de transferência
 

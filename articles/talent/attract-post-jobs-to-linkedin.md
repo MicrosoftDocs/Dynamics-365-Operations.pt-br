@@ -1,6 +1,6 @@
 ---
-title: Lançar trabalhos no LinkedIn por meio do Microsoft Dynamics 365 for Talent - Attract
-description: Este tópico explica como usar o Dynamics 365 for Talent - Attract para lançar trabalhos no LinkedIn.
+title: Postar trabalhos no LinkedIn usando o Microsoft Dynamics 365 Talent - Attract
+description: Este tópico explica como usar o Dynamics 365 Talent - Attract para postar trabalhos no LinkedIn.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: f2109f5e90321598eb2317140eef6bcd86ab82f5
-ms.sourcegitcommit: c62756cb04549b2ff5de9b93d497e964a340335a
+ms.openlocfilehash: 014202ca49e5bd6204d450b2a43c7372ed84ff33
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756167"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008234"
 ---
 # <a name="post-jobs-to-linkedin"></a>Lançar trabalhos no LinkedIn
 
 [!include [banner](../includes/banner.md)]
 
-O LinkedIn e a maior rede profissional online, dando a você acesso aos melhores talentos do mundo. O Microsoft Dynamics 365 for Talent: Attract ajuda você a conseguir os talentos de que precisa permitindo que lance seus trabalhos diretamente do Attract no LinkedIn.
+O LinkedIn e a maior rede profissional online, dando a você acesso aos melhores talentos do mundo. O Microsoft Dynamics 365 Talent: Attract ajuda você a conseguir os talentos de que precisa com a postagem de seus trabalhos diretamente do Attract no LinkedIn.
 
 O Attract permite que você lance Listagens Limitadas no LinkedIn sem custo adicional. Essas listagens estão disponíveis somente por meio dos parceiros de software do LinkedIn, como o Attract. Elas não são exibidas no painel **Carreiras** na página do LinkedIn de sua empresa porque somente as listagens pagas são exibidas nele. No entanto, elas são exibidas quando candidatos potenciais exibem todos os trabalhos disponíveis. As Listagens Limitadas também são exibidas nas pesquisas de trabalhos do LinkedIn.
 

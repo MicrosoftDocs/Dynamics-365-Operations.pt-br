@@ -1,6 +1,6 @@
 ---
 title: Layouts da tela de dados de demonstração no Retail Modern POS (MPOS) e Cloud POS
-description: Este tópico fornece informações sobre os layouts de tela que são incluídos no conjunto de dados de demonstração das experiências do ponto de venda (POS) no Microsoft Dynamics 365 for Retail.
+description: Este tópico fornece informações sobre os layouts de tela que são incluídos no conjunto de dados de demonstração das experiências do ponto de venda (POS) no Dynamics 365 Retail.
 author: zlinster
 manager: AnnBe
 ms.date: 10/05/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 8fe0ea3e7715fcbebc3ed590c85ee399c6192584
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8c8d2fac82541b768f8e0a31049177bdc1262d44
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570627"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019315"
 ---
 # <a name="demo-data-screen-layouts-in-retail-modern-pos-mpos-and-cloud-pos"></a>Layouts da tela de dados de demonstração no Retail Modern POS (MPOS) e Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-Este tópico fornece informações sobre os layouts de tela que são incluídos no conjunto de dados de demonstração das experiências do ponto de venda (POS) no Microsoft Dynamics 365 for Retail.
+Este tópico fornece informações sobre os layouts de tela que são incluídos no conjunto de dados de demonstração das experiências do ponto de venda (POS) no Dynamics 365 Retail.
 
 ## <a name="overview"></a>Visão Geral
 
@@ -40,7 +40,7 @@ Os layouts de tela exemplo incluídos com dados de demonstração do Retail forn
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Anatomia da ID do layout de uma tela
 
-Para encontrar layouts de tela no Retail, vá até **Retail** \> **Configuração de canal** \> **Configuração do PDV** \> **PDV** \> **Layouts da tela**.
+Para encontrar layouts de tela, vá para **Retail** \> **Configuração de canal** \> **Configuração do PDV** \> **PDV** \> **Layouts da tela**.
 
 ![Página Layouts de tela no Retail](../retail/media/demo-screen-layouts-fig-2-1.png)
 
@@ -107,7 +107,7 @@ A tabela a seguir mostra os tamanhos de layout fornecidos para resoluções de t
 \* Esses tamanhos de layout adicionais estão disponíveis apenas nos layouts da Adventure Works e da Fabrikam.
 
 > [!TIP]
-> O PDV seleciona automaticamente tamanhos do layout, com base no próximo tamanho disponível para resolução de tela da janela do aplicativo atual. Para localizar a ID do layout da tela e a resolução de layout usadas no momento, no Retail Modern POS (MPOS) ou no Retail Cloud POS (CPOS), abra a página **Configurações** e verifique a seção **Informações da sessão**. Você também pode consultar a resolução da janela real no quadro do aplicativo ou navegador atual. Após ter essas informações, você poderá localizar a fonte do conteúdo do layout no Retail. Vá para **Configuração do canal** \> **Configuração do PDV** \> **PDV** \> **Layouts da tela**.
+> O PDV seleciona automaticamente tamanhos do layout, com base no próximo tamanho disponível para resolução de tela da janela do aplicativo atual. Para localizar a ID do layout da tela e a resolução de layout usadas no momento, no Retail Modern POS (MPOS) ou no Retail Cloud POS (CPOS), abra a página **Configurações** e verifique a seção **Informações da sessão**. Você também pode consultar a resolução da janela real no quadro do aplicativo ou navegador atual. Quando tiver essas informações, você poderá localizar a fonte do conteúdo do layout, acessando **Configuração de canal** \> **Configuração do PDV** \> **PDV** \> **Layouts da tela**.
 
 ![Layouts da tela e resoluções/tamanhos de layout no Retail e no PDV](../retail/media/demo-screen-layouts-fig-3-1.png)
 

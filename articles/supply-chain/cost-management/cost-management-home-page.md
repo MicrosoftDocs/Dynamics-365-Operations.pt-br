@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd94ae4c5ea855139fd1c41060de7db455ffab06
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dd51fa667fd48b7bab64c3566b616631c6f9bcd1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557630"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249623"
 ---
 # <a name="cost-management-home-page"></a>Página inicial de gerenciamento de custos
 
@@ -69,5 +69,5 @@ Visite o [Roteiro do Microsoft Dynamics 365](https://roadmap.dynamics.com/) para
 Você encontra opiniões, notícias e outras informações sobre gerenciamento de custos no [blog da equipe de P&D de Manufacturing do Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) e no [blog da equipe de P&D de Supply Chain Management do Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). Embora algumas dessas postagens tenham sido escritas para a versão anterior de Gerenciamento de custo, os mesmos conceitos ainda se aplicam, e os procedimentos também são semelhantes na versão atual.
 
 #### <a name="task-guides"></a>Guias de tarefas
-Há ajuda adicional disponível como guias de tarefas dentro do Finance and Operations. Para acessar os guias de tarefas, clique no botão Ajuda em qualquer página.
+A ajuda adicional está disponível como guias de tarefas. Para acessar os guias de tarefas, clique no botão Ajuda em qualquer página.
 

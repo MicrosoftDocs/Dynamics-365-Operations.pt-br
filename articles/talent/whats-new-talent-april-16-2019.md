@@ -1,6 +1,6 @@
 ---
-title: Novidades ou alterações no Dynamics 365 for Talent (16 de abril de 2019)
-description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 for Talent.
+title: Novidades ou alterações no Dynamics 365 Talent (16 de abril de 2019)
+description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/16/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: adf8f470b00a565c62a27f857d490c6c000b21d8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 0781a479ebf37334d8eba18ea6d69d7cfb9db9ea
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517311"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024128"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-16-2019"></a>Novidades ou alterações no Dynamics 365 for Talent (16 de abril de 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-16-2019"></a>Novidades ou alterações no Dynamics 365 Talent (16 de abril de 2019)
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 for Talent.
+Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Alterações no Attract
 
@@ -39,7 +39,7 @@ Agora você pode rastrear as alterações feitas a candidatos, oportunidades de 
 
 ## <a name="changes-in-onboard"></a>Alterações de Integração
 
-Esta versão inclui correções de bug menores para Dynamics 365 Talent: Onboard.
+Esta versão inclui correções de bug menores para o Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Alterações no Core HR
 
@@ -47,11 +47,11 @@ As alterações descritas nesta seção aplicam-se ao número da compilação 8.
 
 ### <a name="compensation-region-compensation-level-benefit-option-and-skill-type-entities-in-common-data-service-updated-to-include-customer-field-support"></a>Região de compensação, nível de compensação, opção de benefício e entidades de tipo de habilidade no Common Data Service atualizado para incluir suporte ao campo do cliente
 
-Com essa versão, essas entidades Common Data Service foram atualizadas para incluir a habilidade de incluir campo personalizado adicionado por meio do Talent (Core HR).
+Com essa versão, essas entidades do Common Data Service foram atualizadas para incluir a capacidade de incluir campo personalizado adicionado por meio do Talent: Core HR.
 
 ### <a name="new-common-data-service-entity-support-for-compensation-vesting-rules-compensation-variable-plan-variable-compensation"></a>Novo suporte de entidade Common Data Service para: regras de benefício proporcional diferido de remuneração, plano de remuneração variável, remuneração variável
 
-Com essa versão, entidades de regras de benefício proporcional diferido de remuneração, plano de remuneração variável, remuneração variável foram adicionadas ao Common Data Service. Essas entidades também oferecem suporte a campos personalizados adicionados por meio do Talent (Core HR).
+Com essa versão, entidades de regras de benefício proporcional diferido de remuneração, plano de remuneração variável, remuneração variável foram adicionadas ao Common Data Service. Essas entidades também oferecem suporte a campos personalizados adicionados por meio do Talent: Core HR.
 
 ### <a name="powerbi-refresh-issues-314342"></a>Problemas de atualização PowerBI (314342)
 
@@ -95,6 +95,6 @@ Com esta alteração, as duplicatas são detectadas conforme você digita nos ca
 
 ### <a name="email-support-for-alerts"></a>Suporte de email para alertas
 
-Com a atualização de Plataforma 25, os usuários podem criar regras de alerta que enviem automaticamente notificações por email a contatos quando disparadas por um evento.
+Com a atualização de plataforma 25 do Finance and Operations, os usuários podem criar regras de alerta que enviem automaticamente notificações por email a contatos quando notificações são disparadas por um evento.
 
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1c90788da7ad536fb9978db18160ccf6c158033
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: c5b791fd3e060c4f4ecdb1ca599a6041d421db74
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783057"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024513"
 ---
 # <a name="asset-documents"></a>Documentos do ativo
 
@@ -33,7 +33,7 @@ ms.locfileid: "1783057"
 
 Este tópico explica documentos de ativo no Asset Management.
 
-No Asset Management, você pode configurar documentos para que eles sejam automaticamente relacionados a tipos de trabalho, fabricantes de ativo, tipos de ativo ou ativos, por exemplo. Essa funcionalidade será útil quando versões atualizadas de documento forem liberadas. Nesse caso, você só precisa colocar o documento atualizado no local padrão que utiliza para seus documentos do Microsoft Dynamics 365 for Finance and Operations e anexar o documento ao registro de documento do ativo criado. O documento atualizado pode ser acessado dos itens de menu **Todos os ativos**, **Ativos ativos**, **Meus ativos ativos**, **Todas as ordens de trabalho** e **Trabalhos de ordem de serviço ativos**. O processo para anexar documentos a um registro do documento ativo usa o sistema de manuseio padrão do documento no Finance and Operations.
+No Asset Management, você pode configurar documentos para que eles sejam automaticamente relacionados a tipos de trabalho, fabricantes de ativo, tipos de ativo ou ativos, por exemplo. Essa funcionalidade será útil quando versões atualizadas de documento forem liberadas. Nesse caso, você só precisará colocar o documento atualizado no local padrão utilizado para seus documentos do Finance and Operations e anexá-lo ao registro de documentos de ativo criado. O documento atualizado pode ser acessado dos itens de menu **Todos os ativos**, **Ativos ativos**, **Meus ativos ativos**, **Todas as ordens de trabalho** e **Trabalhos de ordem de serviço ativos**. O processo de anexação de documentos a um registro de documentos de ativo usa o sistema padrão de manuseio de documentos.
 
 **Exemplo 1:** um documento relacionado a um tipo de trabalho deve descrever um procedimento desse tipo de trabalho.
 
@@ -48,5 +48,5 @@ No Asset Management, você pode configurar documentos para que eles sejam automa
     > [!NOTE]
     > Quando o sistema pesquisar documentos que tenham de estar relacionados a um ativo ou uma ordem de serviço, o Asset Management examinará todos os registros de documento de ativo para verificar se há uma possível correspondência. Ele sempre verifica a combinação mais específica primeiro. Ou seja, o Asset Management primeiro verifica a existência uma correspondência para o campo **Necessidade de trabalho**. Se nenhuma correspondência for encontrada, ele verificará se há uma correspondência para o campo **Variação de tipo de trabalho**. Se nenhuma correspondência for encontrada, ele verificará se há uma correspondência para o campo **Tipo de trabalho** e assim em diante. Como você pode perceber no layout da página **Documentos de ativo**, esse comportamento significa que, para encontrar a combinação mais específica, o Asset Management verifica cada registro da direita para a esquerda em busca de uma correspondência. Vários documentos podem estar relacionados a um ativo ou uma ordem de serviço. Você pode editar o nível de serviço em uma solicitação de manutenção ou ordem de serviço como necessário.
 
-4. Selecione **Anexos**. A página **Manuseio de documentos** padrão no Finance and Operations é exibida.
+4. Selecione **Anexos**. A página **Manuseio de documentos** padrão será exibida.
 5. Configure os documentos ou as anotações que devem ser anexados ao registro do documento de ativo. Depois que você anexar documentos, o campo **Anexos** mostrará o número de documentos relacionados ao registro.

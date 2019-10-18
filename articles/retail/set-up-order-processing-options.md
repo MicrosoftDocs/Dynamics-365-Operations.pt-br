@@ -1,6 +1,6 @@
 ---
 title: Configurar canais de call center
-description: Este tópico oferece informações sobre como processar ordens de call centers usando o Microsoft Dynamics 365 for Retail.
+description: Este tópico oferece informações sobre como processar ordens de call centers usando o Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/16/2018
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0bfbb763b8ded2a0ce90b66eb686379b1dc92a6d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 36491e4d2e63819ce637afb69744089d820c69b0
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549350"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024812"
 ---
 # <a name="set-up-call-center-channels"></a>Configurar canais de call center
 
 [!include [banner](includes/banner.md)]
 
-Uma empresa pode definir vários canais call center no Microsoft Dynamics 365 for Retail. Os canais de call center são configurados em **Retail** \> **Canais** \> **Call center** \> **Todos os call centers** e são específicos de uma entidade legal.
+Uma empresa pode definir vários canais call center no Dynamics 365 Retail. Os canais de call center são configurados em **Retail** \> **Canais** \> **Call center** \> **Todos os call centers** e são específicos de uma entidade legal.
 
 Quando um novo canal de call center é criado, recebe sistematicamente um número de unidade operacional. Como os call centers são criados como unidades operacionais, os usuários podem vincular o canal de call center a vários recursos do Retail, como classificações, catálogos e modos de entrega específicos.
 
@@ -76,6 +76,8 @@ Quando você define o canal de call center, deve vincular usuários do canal ao 
 
 Por padrão, o sinalizador **Venda de varejo** no cabeçalho da ordem de venda está ativado para todas as ordens criadas pelos usuários do call center. As ordens podem então aproveitar as vantagens dos recursos de preço e promoções específicos do varejo do sistema.
 
-Os usuários que não estiverem vinculados a um canal de call center usarão os recursos padrão de entradas de ordem do Microsoft Dynamics 365 for Finance and Operations. As ordens inseridas por esses usuários por meio do formulário de entrada de ordem de venda não serão sistematicamente identificadas como Ordens de varejo. Adicionalmente, essas ordens inseridas por esses usuários não estarão sujeitas a qualquer uma das regras de processamento de conclusão de ordem, lógica de preços de varejo ou outras validações de ordem que possam ser definidas na configuração do canal de call center ou nos parâmetros do sistema de call center.
+
+Os usuários que não estiverem vinculados a um canal de call center usarão os recursos padrão de entradas de ordem do Microsoft Dynamics 365 Finance. As ordens inseridas por esses usuários por meio do formulário de entrada de ordem de venda não serão sistematicamente identificadas como Ordens de varejo. Adicionalmente, essas ordens inseridas por esses usuários não estarão sujeitas a qualquer uma das regras de processamento de conclusão de ordem, lógica de preços de varejo ou outras validações de ordem que possam ser definidas na configuração do canal de call center ou nos parâmetros do sistema de call center.
+
 
 Depois de concluir a configuração do canal call center e de definir os usuários de canal, para ajudar a garantir o comportamento do sistema desejado, verifique se todos os Parâmetros de call center necessários foram definidos em **Retail** \> **Configuração de canal** \> **Configuração de call center** \> **Parâmetros de call center**. Verifique se as sequências numéricas relacionadas também foram definidas.

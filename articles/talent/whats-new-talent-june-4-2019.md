@@ -1,6 +1,6 @@
 ---
-title: Novidades ou alterações no Dynamics 365 for Talent (4 de junho de 2019)
-description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 for Talent.
+title: Novidades ou alterações no Dynamics 365 Talent (4 de junho de 2019)
+description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/04/2019
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e19e5d3f1cb2305e5a4153de3e4d0e8f4c7d31ac
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 32b168eca210b1371db129c05f7035237eb35c38
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856320"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008975"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-4-2019"></a>Novidades ou alterações no Dynamics 365 for Talent (4 de junho de 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-june-4-2019"></a>Novidades ou alterações no Dynamics 365 Talent (4 de junho de 2019)
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 for Talent.
+Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Alterações no Attract
 
-Esta versão inclui correções de bug menores para Dynamics 365 for Talent: Attract.
+Esta versão inclui correções de bug menores para o Dynamics 365 Talent: Attract.
 
 ## <a name="coming-soon-in-attract"></a>Em breve no Attract
 
@@ -43,7 +43,7 @@ As aprovações aparecem em uma seção **Aprovações** no painel. Os aprovador
 
 ## <a name="changes-in-onboard"></a>Alterações de Integração
 
-Esta versão inclui correções de bug menores para Dynamics 365 for Talent: Onboard.
+Esta versão inclui correções de bug menores para o Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Alterações no Core HR
 
@@ -67,7 +67,7 @@ A capacidade de rastrear as folgas dos funcionários e entender como elas são c
 
 ### <a name="deleting-a-record-from-talent-doesnt-remove-the-record-from-common-data-service"></a>A exclusão de um registro do Talent não remove o registro do Common Data Service
 
-Os registros que foram removidos do Talent Core HR agora também serão removidos do Common Data Service.
+Os registros que foram removidos do Talent: Core HR agora também serão removidos do Common Data Service.
 
 ### <a name="variable-compensation-plan-valid-fromto-dates-arent-being-honored"></a>O plano de remuneração variável das datas iniciais e finais não está sendo liquidado
 

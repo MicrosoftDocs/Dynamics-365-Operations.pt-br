@@ -1,6 +1,6 @@
 ---
 title: Avaliar o desempenho de vendas por produto
-description: Você pode estudar a lucratividade dos 10 principais produtos usando o Microsoft Dynamics 365 for Retail.
+description: Você pode estudar a lucratividade dos 10 principais produtos usando o Dynamics 365 Retail.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 059474a780f849d6e1920703c1f717a9adaa2617
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7796aa830c99bd0fd5784ff95e509767a3b55b44
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546377"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024944"
 ---
 # <a name="assess-sales-performance-by-product"></a>Avaliar o desempenho de vendas por produto
 
 [!include [banner](includes/banner.md)]
 
-Você pode estudar a lucratividade dos 10 principais produtos usando o Microsoft Dynamics 365 for Retail.
+Você pode estudar a lucratividade dos 10 principais produtos usando o Dynamics 365 Retail.
 
-Como parte do Dynamics 365 for Retail, os usuários também podem estudar a lucratividade dos melhores produtos (10 a 100) nos diferentes níveis da hierarquia organizacional, com base em um dos seguintes critérios:
+Como parte do Retail, os usuários também podem estudar a lucratividade dos melhores produtos (10 a 100) nos diferentes níveis da hierarquia da organização, com base em um dos seguintes critérios:
 
 - Valor de venda
 - Quantidade

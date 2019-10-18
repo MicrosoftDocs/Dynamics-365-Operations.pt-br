@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-15
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1a416bbb79be3f25998d3c0da8d231d0df808685
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 383c910b40199f2da863144c6dc85a579d0091e9
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875507"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024490"
 ---
 # <a name="maintenance-forecasts"></a>Previsões de manutenção
 
@@ -104,7 +104,7 @@ Existem três maneiras de adicionar itens a uma previsão de manutenção de ord
 
 ## <a name="automatic-update-of-work-order-forecasts"></a>Atualização automática de previsões de ordem de serviço
 
-No Gerenciamento de Ativos, você pode atualizar todas as alterações nas previsões da ordem de serviço referentes aos custos da hora, custos do item e despesas, que foram atualizadas em outros módulos no Dynamics 365 for Finance and Operations. Isso é feito para garantir que os preços de custo mais recentes sejam sempre usados nas previsões de ordem de serviço. Também é possível fazer atualizações semelhantes para [previsões do tipo de trabalho de manutenção](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
+No Gerenciamento de Ativos, você pode atualizar automaticamente todas as alterações nas previsões de ordem de serviço referentes a custos de horas, custos de itens e despesas, que foram atualizadas em outros módulos. Isso é feito para garantir que os preços de custo mais recentes sejam sempre usados nas previsões de ordem de serviço. Também é possível fazer atualizações semelhantes para [previsões do tipo de trabalho de manutenção](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
 
 1. Clique em **Gerenciamento de ativos** > **Periódico** > **Previsão** > **Atualizar previsão da ordem de serviço**.
 

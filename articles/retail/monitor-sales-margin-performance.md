@@ -1,6 +1,6 @@
 ---
 title: Monitorar o desempenho de vendas e margem
-description: Você pode monitorar o desempenho de vendas e de margem em tempo real usando o Microsoft Dynamics 365 for Retail.
+description: Você pode monitorar o desempenho de vendas e de margem em tempo real usando o Dynamics 365 Retail.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e2b3591f6403542c79457d12ae850ad40d9253a1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 46ecefdd15a3a208588aaf630571764047464cdb
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555641"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018055"
 ---
 # <a name="monitor-sales-and-margin-performance"></a>Monitorar o desempenho de vendas e margem
 
 [!include [banner](includes/banner.md)]
 
-Você pode monitorar o desempenho de vendas e de margem em tempo real usando o Microsoft Dynamics 365 for Retail.
+Você pode monitorar o desempenho de vendas e de margem em tempo real usando o Dynamics 365 Retail.
 
-Como parte do Dynamics 365 for Retail, os usuários poderão monitorar o desempenho de vendas e de margem em tempo real em diferentes níveis da hierarquia da organização para as seguintes dimensões:
+Como parte do Retail, os usuários podem monitorar o desempenho de vendas e de margem em tempo real em diferentes níveis da hierarquia da organização para as seguintes dimensões:
 
 - Produtos
 - Categorias

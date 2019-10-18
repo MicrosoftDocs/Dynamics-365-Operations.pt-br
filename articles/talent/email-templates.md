@@ -1,6 +1,6 @@
 ---
 title: Modelos de email
-description: Este tópico fornece informações sobre os modelos de email que você pode criar e usar no Microsoft Dynamics 365 for Talent - Attract.
+description: Este tópico fornece informações sobre os modelos de email que você pode criar e usar no Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 10/19/2018
@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 1c7c017cce26b6b250d899bba891d6823b40c282
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: 7174fd96e5ddc9ba5a91eb423d08afd1daa45f48
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729717"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008027"
 ---
 # <a name="email-templates"></a>Modelos de email
 [!include[banner](../includes/banner.md)]
 
-Usando a biblioteca de modelos de email, os administradores podem criar um tema uniforme e marcas para todos os emails enviados com o Microsoft Dynamics 365 for Talent: Attract and Offer. Os administradores também podem coletar um conjunto de modelos de conteúdo de email que outros usuários podem consumir. A equipe de contratação pode usar esses modelos no fluxo de trabalho para enviar emails com maior eficiência. Alguns emails são configurados para serem enviados automaticamente. O administrador pode usar a biblioteca de modelos de email para personalizar o conteúdo desses emails.
+Usando a biblioteca de modelos de email, os administradores podem criar um tema e identidade visual uniforme para todos os emails enviados pelo Microsoft Dynamics 365 Talent: Attract e Offer. Os administradores também podem coletar um conjunto de modelos de conteúdo de email que outros usuários podem consumir. A equipe de contratação pode usar esses modelos no fluxo de trabalho para enviar emails com maior eficiência. Alguns emails são configurados para serem enviados automaticamente. O administrador pode usar a biblioteca de modelos de email para personalizar o conteúdo desses emails.
 
 > [!NOTE]
 > Para usar modelos de email, sua organização deve ter o complemento Contratação Abrangente.

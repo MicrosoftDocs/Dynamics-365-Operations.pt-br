@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1ec1edb861619bae2ae3c211720b55e170b83ec9
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: ec51c1a500b5c9ff2c363cfb69cc1d404e939df9
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916613"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250636"
 ---
 # <a name="modify-a-demand-forecast-manually"></a>Modificar uma previsão de demanda manualmente
 
@@ -41,5 +41,5 @@ Este procedimento mostra como alterar a previsão para um item. A empresa de dad
 
 ## <a name="modify-the-forecast-in-excel"></a>Modifique a previsão do Excel
 1. Clique em **Abrir** no Microsoft Office.
-2. Clique em **Editar Previsão de demanda** no Excel. No Excel, você pode adicionar, editar e excluir linhas de previsão de demanda. Se não conseguir ver os dados do Excel, você precisa entrar no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition com a opção “Mantenha-me conectado” habilitada e você precisa confiar na conexão do aplicativo de dados.  
+2. Clique em **Editar Previsão de demanda** no Excel. No Excel, você pode adicionar, editar e excluir linhas de previsão de demanda. Se não conseguir ver os dados no Excel, você precisará entrar com a opção “Mantenha-me conectado” habilitada e confiar no aplicativo de conexão de dados.  
 

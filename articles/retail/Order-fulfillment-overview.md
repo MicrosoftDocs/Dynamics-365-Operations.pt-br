@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b3eeda217e00b33962561bcb2ee6185275f52fe2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3b66369e57e006c9e2fe0a43e4b781c619a65c4a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556935"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025854"
 ---
 # <a name="store-order-fulfillment"></a>Atendimento da ordem na loja
 
@@ -96,7 +96,7 @@ Depois que uma ordem for aceita, as linhas podem ser selecionadas e marcadas com
 
 As listas de separação podem ser impressas no ponto de venda para auxiliar os trabalhadores a executarem o processo de separação. Uma lista de separação impressa pode ser executada com o trabalhador executando a separação, e conforme os produtos são separados, o trabalhador pode marcá-los manualmente como separados na lista de separação.
 
-O formato da lista de separação é configurado no Dynamics 365 for Retail e adicionado ao perfil de recebimento. Para obter mais informações sobre a configuração dos perfis de recebimento, consulte [Modelos de recibo e impressão](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+O formato da lista de separação é configurado no Retail e adicionado ao perfil de recebimento. Para obter mais informações sobre a configuração dos perfis de recebimento, consulte [Modelos de recibo e impressão](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 Se as linhas forem selecionadas e uma lista de separação for impressa para essas linhas, elas serão atualizadas automaticamente com o status **Separação**.
 
@@ -105,7 +105,7 @@ Se as linhas forem selecionadas e uma lista de separação for impressa para ess
 - **Status resultante:** Separado ou parcialmente separado
 - **Status resultante de back office:** Separado ou parcialmente separado
 
-Após o processo de separação físico ser executado, as linhas podem ser marcadas como **Separadas**. Selecionar uma linha e marcá-la como **Separada** executa uma chamada em tempo real para atualizar a linha de ordem no Dynamics 365 for Retail. Depois que a linha for marcada como **Separada** no ponto de venda, o status no back-office também será atualizado para **Separada** e as transações de estoque refletirão se a quantidade especificada foi reduzida.
+Após o processo de separação físico ser executado, as linhas podem ser marcadas como **Separadas**. Selecionar uma linha e marcá-la como **Separada** executa uma chamada em tempo real para atualizar a linha da ordem. Depois que a linha for marcada como **Separada** no ponto de venda, o status no back-office também será atualizado para **Separada** e as transações de estoque refletirão se a quantidade especificada foi reduzida.
 
 Quando as ordens são processadas ao longo do tempo, as quantidades parciais podem ser processadas para uma linha específica. Se uma linha for selecionada e a ação **Marcar como separado** for executada, e a quantidade for maior que um, será solicitada a quantidade ao usuário. A quantidade restante a ser separada é preenchida automaticamente. Se for especificada menos que a quantidade restante, o status da linha se tornará **Parcialmente separada**. Quando a linha de ordem for atualizada no back-office, ela também refletirá o status separado parcialmente e a quantidade inserida pelo usuário será usada para atualização de estoque.
 
@@ -122,7 +122,7 @@ As linhas de ordem podem ser embaladas em qualquer ponto depois que a linha da o
 - **Status resultante:** Embalada ou parcialmente embalada
 - **Status resultante de back office:** Entregue ou parcialmente entregue
 
-Esta ação marca as linhas como embalada ou parcialmente embaladas e imprime uma guia de remessa. Uma guia de remessa poderá ser impressa para validar os produtos que são embalados juntos. O formato da guia de remessa é configurado no Dynamics 365 for Retail e adicionado ao perfil de recebimento. Para obter mais informações sobre a configuração dos perfis de recebimento, consulte [Modelos de recibo e impressão](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Esta ação marca as linhas como embalada ou parcialmente embaladas e imprime uma guia de remessa. Uma guia de remessa poderá ser impressa para validar os produtos que são embalados juntos. O formato da guia de remessa é configurado no Retail e adicionado ao perfil de recebimento. Para obter mais informações sobre a configuração dos perfis de recebimento, consulte [Modelos de recibo e impressão](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 **Ação: Marcar como embalada**
 

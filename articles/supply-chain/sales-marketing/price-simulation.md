@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0369c1a4bbc893a86cf14bd59a2d28a7bbca15c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fe8c4bc8f2efb06de4cb6fd727df93ba1a5d14bf
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554635"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251330"
 ---
 # <a name="price-simulation"></a>Simulação de preço
 
@@ -51,7 +51,7 @@ Para garantir que os descontos e preços sejam calculados corretamente, tenha cu
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>Tipos de desconto em contratos comerciais
 
-Os contratos comerciais no Microsoft Dynamics 365 for Finance and Operations podem ter quatro tipos de descontos de preço. Esses descontos podem ser configurados para diferentes grupos de itens, de clientes ou de preços e podem ser limitados por data. Para evitar erros de cálculo, considere contratos comerciais ao executar simulações de preço. Os quatro tipos de descontos nos contratos comerciais são os seguintes:
+Os contratos comerciais no Supply Chain Management podem ter quatro tipos de descontos de preço. Esses descontos podem ser configurados para diferentes grupos de itens, de clientes ou de preços e podem ser limitados por data. Para evitar erros de cálculo, considere contratos comerciais ao executar simulações de preço. Os quatro tipos de descontos nos contratos comerciais são os seguintes:
 
 -   **Preço de venda** – Os preços de venda separados podem ser especificadas para itens. Quando as linhas da cotação forem criadas, o programa pesquisará pelo preço de venda correto para um item e o transferirá para as linhas de cotação. Portanto, um acordo comercial com esse tipo de desconto não afeta a simulação de preço. O preço de venda da linha de cotação reflete o contrato comercial.
 -   **Desconto de linha** – Descontos especiais são especificados para itens, dependendo do valor encomendado. Os valores da linha são tipicamente reduzidos pelo desconto de linha antes da execução de uma simulação de preço. Portanto, um acordo comercial com esse tipo de desconto afeta a simulação de preço.

@@ -1,6 +1,6 @@
 ---
 title: Hierarquias de varejo
-description: Este artigo descreve as hierarquias de varejo no Microsoft Dynamics 365 for Retail.
+description: Este artigo descreve as hierarquias de varejo no Dynamics 365 Retail.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 198c8da336f3e225c5d6da2eb02c86581dc9b4d6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cb383c5bc5ad5d641db6f30e915ea43ba5980005
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568013"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025068"
 ---
 # <a name="retail-hierarchies"></a>Hierarquias de varejo
 
 [!include [banner](includes/banner.md)]
 
-Este artigo descreve as hierarquias de varejo no Microsoft Dynamics 365 for Retail.
+Este artigo descreve as hierarquias de varejo no Dynamics 365 Retail.
 
 Você pode criar uma hierarquia de categoria de varejo para organizar os produtos vendidos por meio dos canais de varejo. As hierarquias de produtos de varejo podem ser usadas para categorizar ou agrupar produtos. Esses produtos podem ser usados para criar sortimentos de produtos e programas de fidelidade do cliente. Também é possível designar atributos e propriedades de produtos, atribuir uma estrutura de preços, incluir os produtos em promoções de produtos, e usar os produtos em relatórios. Você pode criar uma hierarquia de categoria de varejo para representar todos os produtos e categorias em sua organização, e depois usar essa hierarquia de categoria para várias finalidades. Como alternativa, você pode criar várias hierarquias de categoria de varejo para finalidades especiais, como promoções de produtos. Quando você cria uma hierarquia de produtos de varejo, é preciso atribuir um tipo de hierarquia de categoria para identificar a finalidade da hierarquia de categoria. Por exemplo, somente as hierarquias do produto que são atribuídas ao tipo de **Hierarquia de navegação de varejo** são mencionadas quando você procura produtos por categoria on-line ou no ponto de venda (PDV).
 

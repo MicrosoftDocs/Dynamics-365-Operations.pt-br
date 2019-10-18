@@ -1,6 +1,6 @@
 ---
 title: Operações de ponto de venda (PDV) online e offline
-description: Este tópico fornece detalhes sobre as operações de ponto de venda (PDV) no Microsoft Dynamics 365 for Retail. Ele especifica em que ponto do aplicativo as operações podem ser invocadas, e se estão disponíveis no modo offline.
+description: Este tópico fornece detalhes sobre as operações de ponto de venda (PDV) no Dynamics 365 Retail. Ele especifica em que ponto do aplicativo as operações podem ser invocadas, e se estão disponíveis no modo offline.
 author: jblucher
 manager: AnnBe
 ms.date: 05/21/2019
@@ -18,22 +18,22 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e21f8677144c7293409e409082e8125c05f3a8fe
-ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
+ms.openlocfilehash: fcb933438ec30ebe6d3b499b53e64c58ecec3626
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625656"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025301"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operações de ponto de venda (PDV) online e offline
 
 [!include [banner](includes/banner.md)]
 
-A maioria das ações tomadas pelo usuário no ponto de venda (POS) são consideradas operações. As operações são configuradas e gerenciadas no back office do Microsoft Dynamics 365 for Retail. Várias operações podem ser adicionadas a botões na grade de botões PDV. Os usuários podem selecionar os botões para chamar as operações e executar sua função. Outras operações são parte do aplicativo principal de PDV, e são invocadas de botões na tela ou como parte de outros fluxos de trabalho ou processos.
+A maioria das ações tomadas pelo usuário no ponto de venda (POS) são consideradas operações. As operações são configuradas e gerenciadas no back office do Dynamics 365 Retail. Várias operações podem ser adicionadas a botões na grade de botões PDV. Os usuários podem selecionar os botões para chamar as operações e executar sua função. Outras operações são parte do aplicativo principal de PDV, e são invocadas de botões na tela ou como parte de outros fluxos de trabalho ou processos.
 
-A tabela a seguir fornece detalhes sobre as operações que estão disponíveis no Retail Modern POS e PDV em Nuvem para Dynamics 365 for Retail. A tabela também especifica em que ponto do aplicativo as operações podem ser invocadas, e se estão disponíveis quando o PDV está em modo offline.
+A tabela a seguir fornece detalhes sobre as operações que estão disponíveis no Retail Modern POS e Cloud POS. A tabela também especifica em que ponto do aplicativo as operações podem ser invocadas, e se estão disponíveis quando o PDV está em modo offline.
 
-Algumas operações não estão disponíveis atualmente no Retail Modern POS ou no PDV em Nuvem para Dynamics 365 for Retail. Algumas dessas operações são específicas de localidade, e exigem extensões e configurações adicionais. Outros recursos são do Microsoft Dynamics AX 2012 que estão sem suporte no momento.
+Algumas operações não estão disponíveis atualmente no Retail Modern POS ou PDV em Nuvem. Algumas dessas operações são específicas de localidade, e exigem extensões e configurações adicionais. Outros recursos são do Microsoft Dynamics AX 2012 que estão sem suporte no momento.
 
 As seguintes colunas especificam onde as operações podem ser invocados:
 
@@ -42,7 +42,7 @@ As seguintes colunas especificam onde as operações podem ser invocados:
 - **Tela de boas-vindas** – A operação pode ser invocada de grades de botões PDV configuradas na tela de boas-vindas PDV.
 
 > [!NOTE]
-> As operações listadas a seguir se aplicam à versão mais recente do Dynamics 365 for Retail. Algumas operações podem ter mudado ou podem não estar disponíveis nas versões anteriores.
+> As operações listadas a seguir se aplicam à versão mais recente do Retail. Algumas operações podem ter mudado ou podem não estar disponíveis nas versões anteriores.
 
 | ID | Operação | descrição | Grade de botões | Tela de transação | Tela de boas-vindas | Offline disponível | Específico de localidade |
 |----|-----------|-------------|-------------|--------------------|----------------|-------------------|-----------------|

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 60f0a2e5fa2dc2bc37a04b159a4834a52117893d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 65b59e1cc215d582fdaf02ff4746fe2158ace76e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559595"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025347"
 ---
 # <a name="payment-methods"></a>Métodos de pagamento
 
@@ -32,7 +32,7 @@ ms.locfileid: "1559595"
 
 Cada tipo de pagamento que o varejista aceita deve ser configurado quando o sistema for configurado. Este artigo descreve os tipos de pagamento que você pode configurar e descreve o processo para defini-los para cima.
 
-Os varejistas podem aceitar vários tipos de pagamento em troca de produtos e serviços vendidos. Embora o pagamento à vista seja a forma mais comum de pagamento, os varejistas também podem receber pagamento em forma de cheques, cartões, comprovantes, etc. Cada tipo de pagamento que o varejista aceita deve ser configurado no Dynamics 365 for Retail quando o sistema for configurado. A lista a seguir descreve cada tipo de pagamento que pode ser configurado no Dynamics 365 for Retail:
+Os varejistas podem aceitar vários tipos de pagamento em troca de produtos e serviços vendidos. Embora o pagamento à vista seja a forma mais comum de pagamento, os varejistas também podem receber pagamento em forma de cheques, cartões, comprovantes, etc. Cada tipo de pagamento que o varejista aceita deve ser configurado no Dynamics 365 Retail quando o sistema for configurado. A lista a seguir descreve cada tipo de pagamento que pode ser configurado:
 
 - **Pagamento à vista** – dinheiro em sua forma física, como cédulas e moedas. A moeda pode ser a moeda da empresa ou a moeda local da loja.
 - **Cheque** – um instrumento negociável que instrui o pagamento de um valor específico em uma determinada moeda e que é emitido em um banco específico. Um cheque é normalmente válido por tempo indeterminado ou por seis meses após a data de saída, a menos que seja especificado outro período de validade. Esse período varia dependendo do banco em que o cheque é emitido. Há vários tipos de cheques, como cheques nominais, cheques avulsos, cheques ao portador e cheques com cruzamento especial. É possível configurar cheques como um método de pagamento para cada loja. Os cheques podem ser aceitos na moeda definida no nível da empresa ou no nível da loja. Será necessário configurar os cheques como método de pagamento antes de ser possível aceitar um cheque como pagamento em uma loja.

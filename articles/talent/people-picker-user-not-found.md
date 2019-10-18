@@ -1,6 +1,6 @@
 ---
 title: Usuário não encontrado no Seletor de Pessoas no Attract ou Onboard
-description: Este tópico explica o que fazer quando os usuários do locatário da empresa não estão sendo mostrados nos aplicativos Dynamics 365 for Talent Attract ou Onboard.
+description: Este tópico explica o que fazer quando os usuários do locatário da empresa não estiverem sendo exibidos no Seletor de Pessoas no Dynamics 365 Talent - Attract ou Onboard.
 author: andreabichsel
 manager: AnnBe
 ms.date: 01/22/2019
@@ -17,24 +17,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-01-22
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a9c2324321baf0a313b8b7aa9701909336b5c34b
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 2a3c83fcc3f48aa235ffb2db2dc492b34a306c4c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742740"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024175"
 ---
 # <a name="azure-active-directory-users-not-found-in-people-picker"></a>Usuários do Azure Active Directory não encontrados no Seletor de Pessoas
 
 [!include [banner](includes/banner.md)]
 
-## <a name="issue"></a>Saída
+## <a name="issue"></a>Emissão
 
-Determinados usuários válidos no Azure Active Directory (Azure AD) do locatário não aparecerão durante a pesquisa do nome do Seletor de Pessoas nos aplicativos Dynamics 365 for Talent Attract ou Onboard.
+Determinados usuários válidos no Microsoft Azure Active Directory (Azure AD) do locatário não são exibidos durante a pesquisa do nome no Seletor de Pessoas no Dynamics 365 Talent: Attract ou Dynamics 365 Talent: Onboard.
 
 ## <a name="cause"></a>Causa
 
-Determinados tipos de usuários atualmente não são suportados nos aplicativos Attract e Onboard. Verifique se o usuário não é um usuário convidado do Azure AD Business to Business (B2B). Informações do "Tipo de Usuário" podem ser encontradas na folha do Azure Active Directory no portal do Azure.
+Determinados tipos de usuários atualmente não possuem suporte no Attract e Onboard. Verifique se o usuário não é um usuário convidado do Azure AD Business to Business (B2B). Informações do "Tipo de Usuário" podem ser encontradas na folha do Azure Active Directory no portal do Azure.
 
 Para obter mais informações sobre o Azure B2B, consulte [Qual é o acesso do usuário convidado do Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b).
 

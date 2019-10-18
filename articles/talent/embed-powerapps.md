@@ -1,6 +1,6 @@
 ---
-title: Incorporar Aplicativos PowerApps no Core HR
-description: Este tópico explica como resolver o problema onde o item de menu do PowerApps desapareceu do módulo de administração do sistema.
+title: Inserir aplicativos PowerApps no Dynamics 365 - Core HR
+description: Este tópico explica como resolver o problema quando o item do menu PowerApps desapareceu do módulo de administração do sistema.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7c0dcdd7e2f407267cf99906b4d0b317858710af
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 4fbc24c5ceb73389b84b125eb942ac31757928aa
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742810"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008421"
 ---
-# <a name="embed-powerapps-apps-in-core-hr"></a>Incorporar Aplicativos PowerApps no Core HR
+# <a name="embed-powerapps-apps-in-core-hr"></a>Inserir aplicativos PowerApps no Core HR
 
 [!include [banner](includes/banner.md)]
 
-**Saída**
+**Emissão**
 
 O item de menu **PowerApps** desapareceu do módulo de **Administração do sistema**.
 
@@ -38,20 +38,20 @@ O design de interface de usuário (IU) foi alterado, e agora o Microsoft PowerAp
 
 **Resolução**
 
-A maneira como os aplicativos do PowerApps são integrados, mudou. Os aplicativos de PowerApps agora estão adicionados por meio do modelo de personalização. Você pode adicionar aplicativos do PowerApps a quase todas as páginas no Microsoft Dynamics 365 for Talent.
+A maneira como os aplicativos PowerApps são inseridos mudou. Os aplicativos PowerApps agora são adicionados por meio do modelo de personalização. Você pode adicionar aplicativos PowerApps a quase todas as páginas do Microsoft Dynamics 365 Talent.
 
-Para obter informações sobre como inserir um aplicativo PowerApps no Talent, consulte [Aplicativos do PowerApps integrados](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
+Para obter informações sobre como inserir aplicativos PowerApps no Talent, consulte [Inserir aplicativos PowerApps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
 
-Qualquer cliente do PowerApps que adicionou aplicativos antes da mudança deve ter recebido e atualizado para o novo modelo.
+Qualquer cliente do PowerApps que inseriu aplicativos antes da mudança deve ter sido atualizado para o novo modelo.
 
-O botão **PowerApps** está no canto superior direito de quase todas as páginas do Talent. Você pode usar este botão para inserir um aplicativo do PowerApps.
+O botão **PowerApps** fica no canto superior direito de quase todas as páginas do Talent. Você pode usar esse botão para inserir um aplicativo PowerApps.
 
 Veja aqui um exemplo.
 
 1. Acesse **Gerenciamento de equipe \> Links \> Trabalhadores \> Funcionários**.
-2. Selecione o botão **PowerApps**, e depois selecione **Inserir um PowerApp**.
+2. Selecione o botão **PowerApps** e selecione **Inserir um PowerApp**.
 
-    ![Botão do PowerApps](media/png.png)
+    ![Botão PowerApps](media/png.png)
 
 3. Preencha os campos na caixa de diálogo **Inserir um PowerApp**.
 
@@ -67,4 +67,4 @@ Alternativamente, siga estas etapas.
 
 2. Na barra de ferramentas, selecione **Inserir \> PowerApp**.
 
-    ![Inserir um aplicativo do PowerApps usando a barra de ferramentas de personalização](media/powerapp-bar.png)
+    ![Inserir um aplicativo PowerApps usando a barra de ferramentas de personalização](media/powerapp-bar.png)

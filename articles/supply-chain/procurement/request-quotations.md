@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2276f5296a77d620e0084c0247b1e25071fe029
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: bb5255236fc48132d4d68dc6f515f32e7ec71dae
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865271"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248833"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Visão geral de solicitações de cotação (RFQs)
 
@@ -48,16 +48,13 @@ Você pode criar um caso de RFQ de ordens planejadas, de uma requisição de com
 
 Após preparar o caso de RFQ e adicionar fornecedores, selecione **Enviar** (**Enviar e publicar** para o setor público) no caso de RFQ. Um diário de RFQ é gerado para cada fornecedor para o qual você enviou a RFQ. Você pode definir as configurações de impressão para a ação de envio de forma que seja impresso um relatório para cada fornecedor em um arquivo ou que seja enviado um relatório para o endereço de e-mail de cada fornecedor. Além disso, você pode usar o diário de RFQ de cada fornecedor para gerar um relatório que você pode enviar ou reenviar a um fornecedor posteriormente. Você também pode configurar a ação Enviar, de forma que ela gere uma planilha de respostas que o fornecedor pode preencher.
 
-Este tópico abrange o processo para tratar RFQ quando a colaboração do fornecedor não for usada. Se o sistema estiver configurado para a colaboração do fornecedor, os fornecedores poderão inserir lances diretamente no Microsoft Dynamics 365 for Finance and Operations. Para obter mais informações, consulte [Colaboração de fornecedores com clientes](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) e [Colaboração de fornecedores com fornecedores externos](vendor-collaboration-work-external-vendors.md).
+Este tópico abrange o processo para tratar RFQ quando a colaboração do fornecedor não for usada. Se o sistema estiver configurado para a colaboração do fornecedor, os fornecedores poderão inserir lances diretamente no Supply Chain Management. Para obter mais informações, consulte [Colaboração de fornecedores com clientes](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) e [Colaboração de fornecedores com fornecedores externos](vendor-collaboration-work-external-vendors.md).
 
 Se tiver que alterar uma RFQ após enviá-la, você poderá enviá-la novamente para os fornecedores quando tiver terminado usando as duas ações de alteração: criar e finalizar.+
 
 Ao receber lances por email, você deverá gerenciá-los lances na página **Solicitação de cotação**.
 
 Se é necessária uma segunda iteração de uma resposta de um fornecedor, selecione **Retornar** na página **Solicitação de cotação**. A ação de retornar gera um novo diário e um relatório que serão impressos, arquivados e enviados de acordo com as configurações de impressão.
-
-> [!NOTE]
-> O nome da página **Solicitação de cotação** foi alterado. Em versões anteriores do Dynamics 365 for Finance and Operations, esta página é chamada **Resposta de solicitações de cotações**.
 
 Se você adicionou critérios de pontuação ao seu caso de RFQ, a RFQ terá um painel de pontuação em que você poderá inserir as pontuações. As pontuações totais serão exibidas na RFQ e no momento em que você comparar as respostas na página **Comparar respostas**. Na página **Comparar respostas**, também é possível comparar outros dados de respostas, como preço da linha, data de entrega e o preço total.
 

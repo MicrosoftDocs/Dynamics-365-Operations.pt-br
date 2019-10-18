@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e6a2d428e433256339fff07f3805449a2604213
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 3336a3357578b25522e1ac457a48349f88b7318d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783061"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024559"
 ---
 # <a name="asset-management-parameters"></a>Parâmetros de gerenciamento de ativos
 
@@ -33,7 +33,7 @@ ms.locfileid: "1783061"
 
 Em Gerenciamento de Ativos, os parâmetros gerais relacionadas a ativos, ordens de trabalho e ao agendamento de ordens de trabalho devem estar configurados. Este tópico explica como configurá-los. Selecione **gerenciamento de ativos** > **Configuração** > **Parâmetros de gerenciamento de ativos** para abrir o formulário.
 
-O botão **Criar assistente de dados** pode ser usado para criar automaticamente dados de configuração para fins de teste ou dados de demonstração em uma empresa no Dynamics 365 for Finance and Operations. Consulte o white paper "Configurar dados de teste em Gerenciamento de Ativos" para obter informações sobre como usar o assistente.
+O botão **Criar assistente de dados** pode ser usado para criar automaticamente dados de configuração para fins de teste ou dados de demonstração em uma empresa no Dynamics 365 Supply Chain Management. Consulte o white paper "Configurar dados de teste em Gerenciamento de Ativos" para obter informações sobre como usar o assistente.
 
 Link **Ativos**
 
@@ -57,7 +57,7 @@ Link**Ordens de serviço**
 - Selecione "Sim" no botão de alternância **Copiar falhas** para copiar as falhas registradas automaticamente em ordens de serviço relacionadas a solicitações de manutenção.  
 - No campo **Nível**, defina o nível de local funcional que é automaticamente inserido em uma ordem de serviço se todos os trabalhos de ordem de serviço relacionadas estiverem relacionadas ao mesmo local funcional. Se nem todos os trabalhos de ordem de serviço estiverem relacionados ao mesmo local funcional no nível definido, o campo **Local funcional** ficará em branco na ordem de serviço. Exemplo: Se você inserir o número "1" neste campo, que é o nível superior de uma estrutura de local funcional. Se você inserir o número "0" neste campo, significa que não definiu um nível de local funcional específico. Mas todos os trabalhos de ordem de serviço em uma ordem de serviço devem estar relacionados ao mesmo local funcional para que esse local funcional seja adicionado à ordem de serviço.  
 - Diários usados para lançar consumo em uma ordem de serviço podem ser selecionados na Guia Rápida **Geral** nos campos **Hora**, **Item** e **Despesa**.  
-- No campo **Origem de idioma de produto**, selecione o idioma a ser usado para nomes de produto em Gerenciamento de Ativos. Você pode selecionar o idioma configurado na conta da empresa ou a configuração de idioma para o usuário conectado atualmente no Dynamics 365 for Finance and Operations.  
+- No campo **Origem de idioma de produto**, selecione o idioma a ser usado para nomes de produto em Gerenciamento de Ativos. Você pode selecionar o idioma configurado na conta da empresa ou a configuração de idioma para o usuário atualmente conectado.  
 - Selecione "Sim" no botão de alternância **Atualização em tempo real** se desejar atualizar automaticamente alterações com os padrões do tipo de trabalho, os planos de manutenção e os rounds de manutenção.
 > - Se você selecionar "Não", as alterações nos padrões de tipo de trabalho, planos de manutenção e rounds de manutenção não serão atualizadas automaticamente em Gerenciamento de Ativos  
 > - Selecione "Não" no botão de alternância se tiver grandes quantidades de dados sendo sincronizadas; por exemplo, vários ativos ou locais funcionais configurados em planos ou rounds de manutenção, ou um grande número de planos ou rounds de manutenção.  
@@ -75,7 +75,7 @@ Link**Agendamento da ordem de serviço**
 - O **Plano mestre** se refere a recursos no módulo **Administração da organização**. Se você selecionar um plano mestre neste campo, poderá ver as reservas de capacidade relacionadas a ordens de serviço em **Reservas de capacidade** (**Administração de organização** > **Recursos** > **Recursos** > selecionar recurso > guia **Recurso** > botão **Reservas de capacidade**). Se você deixar este campo em branco, poderá ver a capacidade máxima relacionada a ordens de serviço em **Capacidade máxima** (**Administração da organização** \> **Recursos** \> **Recursos** \> selecionar recurso \> guia **Recurso** \> botão **Capacidade máxima**).  
 
 >[!NOTE]
->A seleção em relação ao uso de um plano mestre ou não no módulo **Gerenciamento de ativos** e o formulário relacionado usado para obter uma visão geral das reservas de capacidade ou de capacidade máxima seguem a configuração padrão do Dynamics 365 for Finance and Operations. Dependendo de sua configuração no campo **Plano mestre**, você poderá acessar informações de capacidade em **Reservas de capacidade** ou **Capacidade máxima** no módulo **Administração da organização**. Não é possível criar uma configuração em que reservas de capacidade sejam mostradas em ambas as exibições.  
+>A seleção em relação ao uso de um plano mestre ou não no módulo **Gerenciamento de ativos** e o formulário relacionado usado para obter uma visão geral das reservas de capacidade ou de capacidade máxima seguem a configuração padrão. Dependendo de sua configuração no campo **Plano mestre**, você poderá acessar informações de capacidade em **Reservas de capacidade** ou **Capacidade máxima** no módulo **Administração da organização**. Não é possível criar uma configuração em que reservas de capacidade sejam mostradas em ambas as exibições.  
 
 Os campos descritos na lista com marcadores abaixo listam todas as classificações calculadas, que são usadas para calcular a prioridade da ordem de serviço durante o agendamento da ordem de serviço.
 

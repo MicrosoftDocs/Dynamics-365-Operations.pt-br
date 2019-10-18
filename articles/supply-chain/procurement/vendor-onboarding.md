@@ -16,26 +16,26 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 5fda191a41300eea7f3036af54852857d8ff653d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b1290617cc691f88f517a4f3cae5c20668173b0d
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548989"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250123"
 ---
 # <a name="onboard-vendors"></a>Integração de fornecedores
 [!include [banner](../includes/banner.md)]
 
 ---
 
-Os novos fornecedores podem ser integrados e registrados como fornecedores no Microsoft Dynamics 365 for Finance and Operations com base nas informações obtidas de uma pessoa que represente o fornecedor.
+Os novos fornecedores podem ser integrados e registrados como fornecedores no Microsoft Dynamics 365 Supply Chain Management com base nas informações obtidas de uma pessoa que represente o fornecedor.
 
 O processo consiste nas seguintes etapas, onde várias funções executam ações no sistema.
 
 1. **Gerenciamento de dados OData** – Importação de entidade - A solicitação inicial é a de registro do fornecedor potencial. Normalmente, essa solicitação vem de uma origem, como um site hospedado pelo cliente que permite acesso anônimo. Os fornecedores podem se inscreve fornecendo informações básicas, como nome do fornecedor, justificativa, número da organização e nome e o endereço de email da pessoa de contato. As solicitações são importadas por meio da interface de gerenciamento de dados.
-2. **Página de listagem da solicitação de inscrição do fornecedor potencial** - Com base nas informações fornecidas na solicitação de inscrição de fornecedor potencial, um profissional de compras decide se o fornecedor deve ser carregado. O profissional de compras exibe a solicitação de entrada na página de listagem **Solicitações de registro de fornecedor potencial** no Finance and Operations.
+2. **Página de listagem da solicitação de inscrição do fornecedor potencial** - Com base nas informações fornecidas na solicitação de inscrição de fornecedor potencial, um profissional de compras decide se o fornecedor deve ser carregado. O profissional de compras exibe a solicitação de entrada na página de listagem **Solicitações de registro de fornecedor potencial**.
 3. **Fluxo de trabalho de provisionamento do usuário** - Quando um profissional de compras verifica as informações da entrada e decide continuar com o processo de integração, o fluxo de trabalho de solicitação do usuário provisiona o novo usuário e envia um email de um convite para aceitar a pessoa de contato como um usuário autenticado do Microsoft Dynamics 365.
-4. **Assistente de registro de fornecedor** - a pessoa de contato do fornecedor entra no Finance and Operations usando a nova conta do usuário. Preenche o assistente de registro do fornecedor para fornecer informações como endereços, informações comerciais, categorias de compra e respostas do questionário.
+4. **Assistente de registro de fornecedor** - A pessoa de contato do fornecedor entra usando a nova conta do usuário. Preenche o assistente de registro do fornecedor para fornecer informações como endereços, informações comerciais, categorias de compra e respostas do questionário.
 5. **Fluxo de trabalho de aprovaçao** - Uma solicitação do fornecedor que inclui as informações sobre registro é criada. Esta solicitação do fornecedor é enviada a um fluxo de trabalho e é encaminhada para revisão e aprovação.
 6. **Criação de um mestre de fornecedor e de modificação da função do usuário** - Quando a solicitação do fornecedor for aprovada, um registro de fornecedor será criado. A conta de usuário da pessoa de contato do fornecedor é permissão concedida para colaboração do fornecedor ou desativada.
 
@@ -45,14 +45,14 @@ A tabela a seguir mostra as etapas e funções que são envolvidas no processo.
 |--------------------------|---|---|---|---|---|---|
 | System                   | A solicitação de um novo fornecedor é importada. | | | | | Depois que a solicitação do fornecedor for aceita, o registro do fornecedor será criado. |
 | Profissional de compras | | Inicie o processo de integração. | | | Revise e aceite ou rejeite a solicitação do fornecedor. | |
-| Administrador            | | | Crie um usuário no Finance and Operations e no Microsoft Azure. | | | |
+| Administrador            | | | Crie um usuário no Supply Chain Management e no Microsoft Azure. | | | |
 | Pessoa de contato do fornecedor    | | | Envie email à pessoa de contato. | Registre informações do fornecedor. | | |
 
-Para uma demonstração rápida do processo de integração do fornecedor, assista a este breve vídeo no YouTube: [Integrar um novo fornecedor no Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk}.
+Para obter uma rápida demonstração do processo de integração do fornecedor, assista a este vídeo curto no YouTube sobre [Como integrar um novo fornecedor no Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk).
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>Importando a solicitação de inscrição do fornecedor potencial
 
-A solicitação de inscrição do cliente potencial é uma entidade no Finance and Operations. Você pode configurar o sistema para importar dados por meio da entidade. 
+A solicitação de registro de fornecedor potencial é uma entidade no Supply Chain Management. Você pode configurar o sistema para importar dados por meio da entidade. 
 
 A tabela a seguir mostra as informações que esta entidade contém e que pode ser importada.
 
@@ -65,18 +65,18 @@ A tabela a seguir mostra as informações que esta entidade contém e que pode s
 | O nome da pessoa de contato.  | O nome da pessoa que será convidada para registrar informações de fornecedor. |
 | Nome do meio da pessoa de contato. | O nome do meio da pessoa que será convidada para registrar informações de fornecedor. |
 | O sobrenome da pessoa de contato.   | O sobrenome da pessoa que será convidada para registrar informações de fornecedor. |
-| Email da pessoa de contato       | O endereço de email que será usado para criar um novo usuário no Finance and Operations e que será registrado na conta do Azure Active Directory (Azure AD) do inquilino. |
+| Email da pessoa de contato       | O endereço de email que será usado para criar um novo usuário no Supply Chain Management e que será registrado na conta do Azure Active Directory (Azure AD) do locatário. |
 | Data de envio               | A data em que a solicitação foi criada em um sistema externo. |
-| Pessoa jurídica em geral                 | A entidade legal na qual o fornecedor deseja se tornar um fornecedor. Esse valor deve ser um código da entidade legal que foi registrado no Finance and Operations. Se nenhum valor for recebido através do processo de importação, um valor dos parâmetros de Compras será aplicado. |
+| Pessoa jurídica em geral                 | A entidade legal na qual o fornecedor deseja se tornar um fornecedor. Esse valor deve ser um código da entidade legal que foi registrado no Supply Chain Management. Se nenhum valor for recebido através do processo de importação, um valor dos parâmetros de Compras será aplicado. |
 | Tipo de fornecedor                  | O fornecedor pode ser uma organização ou uma pessoa. O tipo de fornecedor determina como o fornecedor será finalmente criado. |
 
 Depois que a solicitação de inscrição do fornecedor potencial for importada, ela aparecerá na página **Solicitação de registro de fornecedor potencial**. Nesta página de listagem, um profissional de compras poderá convidar o usuário. Uma solicitação de usuário para provisiona o usuário será enviada para um fluxo de trabalho.
 
 ## <a name="submitting-a-prospective-vendor-user-request"></a>Enviando uma solicitação de usuário do fornecedor potencial
 
-A finalidade de uma solicitação de usuário do fornecedor potencial é provisionar a pessoa que enviou a solicitação inicial, de forma que ela possa entrar no Finance and Operations usando a conta de email fornecida na solicitação de registro do fornecedor potencial.
+A finalidade de uma solicitação de usuário fornecedor potencial é provisionar a pessoa que enviou a solicitação inicial, de forma que ela possa entrar no Supply Chain Management usando a conta de email fornecida na solicitação de registro do fornecedor potencial.
 
-A solicitação do usuário fornecedor potencial é processada pelo fluxo de solicitações de usuários. Este fluxo de trabalho se comunica por meio da colaboração do B2B do Azure AD. Ele cria um usuário no Finance and Operations que tem as configurações de segurança apropriadas.
+A solicitação do usuário fornecedor potencial é processada pelo fluxo de solicitações de usuários. Este fluxo de trabalho se comunica por meio da colaboração do B2B do Azure AD. Ele cria um usuário no Supply Chain Management que tem as configurações de segurança apropriadas.
 
 Os novos usuários que são configurados têm as seguintes funções de segurança:
 
@@ -89,7 +89,7 @@ Para obter informações sobre configuração de email e do fluxo de trabalho em
 
 ## <a name="vendor-registration"></a>Registro de fornecedor
 
-Um usuário fornecedor potencial que entra no Finance and Operations verá a primeira página do assistente de registro de fornecedor na qual ele poderá inserir as informações do fornecedor.
+Um usuário fornecedor potencial que entra no Supply Chain Management verá a primeira página do assistente de registro de fornecedor na qual ele poderá inserir as informações do fornecedor.
 
 O assistente reflete a configuração a solicitação de fornecedor. O país ou região onde o fornecedor faz negócios determina quais informações são solicitadas no assistente e quais informações são obrigatórias.
 
@@ -119,7 +119,7 @@ As solicitações de fornecedor disponíveis na página **Solicitações de usu�
 
 Uma solicitação de fornecedor contém informações que o usuário fornecedor potencial inseriu no assistente de registro do fornecedor.
 
-A solicitação permite revisar informações de fornecedor e decidir se o fornecedor deve se tornar um fornecedor registrado no Finance and Operations.
+A solicitação permite revisar informações de fornecedor e decidir se o fornecedor deve se tornar um fornecedor registrado.
 
 A solicitação do fornecedor deve ser enviada a um fluxo de trabalho, e deve ser enviada aos revisores e aprovadores relevantes. Para obter informações básicas sobre como configurar fluxos de trabalho, consulte [Fluxos de trabalho de compras](procurement-sourcing-workflows.md).
 
@@ -141,7 +141,7 @@ Quando uma solicitação de fornecedor for aprovada, uma conta de fornecedor ser
 
 Antes de aprovar uma solicitação de fornecedor, na página **Novo fornecedor**, na Guia Rápida **Geral**, selecione **Grupo de fornecedores** para selecionar um grupo de fornecedores.
 
-Se o usuário fornecedor potencial tiver acesso ao Finance and Operations como um usuário de colaboração de fornecedor que representa o fornecedor, defina a permissão de acesso de colaboração de fornecedor como **Sim**. Para desativar a conta de usuário que o fornecedor potencial usou para se registrar, defina essa permissão como **Não**.
+Se o usuário fornecedor potencial tiver acesso ao Supply Chain Management como um usuário de colaboração de fornecedor que represente o fornecedor, defina a permissão de acesso de colaboração de fornecedor como **Sim**. Para desativar a conta de usuário que o fornecedor potencial usou para se registrar, defina essa permissão como **Não**.
 
 Se a permissão de acesso de colaboração de fornecedor for definida como **Sim**, quando a solicitação do fornecedor for aprovada, uma solicitação será enviada para alterar as funções de usuário para que o usuário tenha funções definidas para o tipo de **Fornecedor** em **Funções externas**. Se esta permissão for definida como **Não**, quando a solicitação de fornecedor for aprovada, uma solicitação será enviada para desativar o usuário. Nesse caso, o fluxo de trabalho para desativar uma solicitação do usuário deve ser configurado.
 

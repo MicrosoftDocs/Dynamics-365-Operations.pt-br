@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fea28da19c0aa1e9083091d0693404e0d8cb173c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c1aaae7a276d098587b5b9c73e433694e3a6f9bf
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554323"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248902"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>​Recebimento de produtos contra ordens de compra​
 
@@ -52,7 +52,7 @@ Você pode criar linhas de ordem de compra onde a opção **Novo ativo fixo** es
 
 Você já pode selecionar várias ordens e recebimento de processo em todas as ordens. Essa abordagem não é usada com muita frequência, mas talvez você queira usá-la se um fornecedor consolidou remessas para você em uma única carga. Durante o recebimento de produtos na compra, há uma função para fazer atualizações de resumo. Resumo de atualizações permitem lançar uma guia de remessa única do fornecedor para mais de uma ordem de compra.  
 
-POs podem ser criados a partir de uma ordem de venda onde a opção **Entrega direta** foi selecionada. Quando a entrega direta é usada, os produtos nunca chegam no depósito mas são entregues diretamente do fornecedor ao cliente. Nesse caso, o recebimento é geralmente registrado diretamente no pedido de compra. O recebimento pode ser feito automaticamente, tais como a integração da electronic data interchange (EDI) com o fornecedor. Como alternativa, se a ordem de compra for uma ordem de compra intercompanhia, o Microsoft Dynamics 365 for Finance and Operations automatiza o recebimento de ordem de venda intercompanhia quando ocorre de remessa. Quando a entrega direta é usada, produtos ainda são contabilizados como estoque, mesmo que eles não cheguem fisicamente no depósito. Portanto, o recebimento de produtos é registrado no pedido de compra, a ordem de venda é automaticamente atualizada com uma guia de remessa, para que a alteração geral no estoque seja 0 (zero). Em cenários de entrega direta, você não deve exigir pré-registro. Se você estiver usando os depósitos que estão habilitados para o gerenciamento de depósito, contorne a necessidade de registro de matrícula, especificando um depósito virtual em vez disso. Especificar este depósito no campo **Depósito de entrega direta** no produto. 
+POs podem ser criados a partir de uma ordem de venda onde a opção **Entrega direta** foi selecionada. Quando a entrega direta é usada, os produtos nunca chegam no depósito mas são entregues diretamente do fornecedor ao cliente. Nesse caso, o recebimento é geralmente registrado diretamente no pedido de compra. O recebimento pode ser feito automaticamente, tais como a integração da electronic data interchange (EDI) com o fornecedor. Como alternativa, se a ordem de compra for uma ordem de compra intercompanhia, o Supply Chain Management automatizará o recebimento de ordem de venda intercompanhia quando ocorrer a remessa. Quando a entrega direta é usada, produtos ainda são contabilizados como estoque, mesmo que eles não cheguem fisicamente no depósito. Portanto, o recebimento de produtos é registrado no pedido de compra, a ordem de venda é automaticamente atualizada com uma guia de remessa, para que a alteração geral no estoque seja 0 (zero). Em cenários de entrega direta, você não deve exigir pré-registro. Se você estiver usando os depósitos que estão habilitados para o gerenciamento de depósito, contorne a necessidade de registro de matrícula, especificando um depósito virtual em vez disso. Especificar este depósito no campo **Depósito de entrega direta** no produto. 
 
 Após o recebimento do produto ser processado no pedido de compra, o status do pedido de compra é definido como **Recebido** para indicar que a fatura pode ser processada para a ordem. Você pode revisar os detalhes sobre os produtos que já foram recebidos usando a página **Diários de recebimento de produto**.  
 

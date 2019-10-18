@@ -1,6 +1,6 @@
 ---
-title: Novidades ou alterações no Dynamics 365 for Talent (5 de março de 2019)
-description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 for Talent.
+title: Novidades ou alterações no Dynamics 365 Talent (5 de março de 2019)
+description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/05/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: fe24846ab98a75d474df045a62a72bfc41c64866
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: c7ee8f4cf14197d6bd4549741058fc5fe95ae55d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741881"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026661"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>Novidades ou alterações no Dynamics 365 for Talent (5 de março de 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-march-5-2019"></a>Novidades ou alterações no Dynamics 365 Talent (5 de março de 2019)
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve os recursos novos ou alterados no Talent
+Este tópico descreve os recursos novos ou alterados no Talent.
 
 ## <a name="changes-in-attract"></a>Alterações no Attract
 
@@ -78,5 +78,5 @@ Os prazos finais para atualizar para o Common Data Service se aproximam rapidame
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Segurança de compensação avançada (fixa e variável)
 Em muitas organizações, gerentes de compensação e benefícios só podem acessar certos registros de compensação, como registros de funcionários executivos ou regionais. Com esta alteração, você pode gerenciar e manter os planos de compensação para populações de funcionário diferentes na organização. Planos fixos e variáveis podem receber funções de segurança, que determinarão o acesso de planos e os dados de funcionário relacionados aos planos, como salário ou registros de bônus. Apenas as funções com acesso determinado poderão processar compensação para esses funcionários.
 
-###  <a name="platform-update-24"></a>Update 24 para plataforma
-Para obter detalhes adicionais sobre a atualização da Plataforma 24, consulte [O que há de novo ou o que mudou na atualização da Plataforma 24 do Finance and Operations (março de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+###  <a name="platform-update-24-for-finance-and-operations"></a>Atualização de plataforma 24 do Finance and Operations
+Para obter detalhes adicionais sobre a Atualização de plataforma 24 do Finance and Operations, consulte [Novidades ou alterações na Atualização de plataforma 24 do Finance and Operations (março de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d6089d07b0f8bc1a36703b5b1c2f24af72770d5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 067dd6d3c337378a610ee1fcf6a7812716813bab
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568296"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251721"
 ---
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>Reservar o mesmo lote para uma ordem de venda
 
@@ -38,7 +38,7 @@ A reserva de mesmo lote permite reservar estoque para uma linha de ordem de vend
 -   **Grupos de dimensões de rastreamento** – o grupo de dimensões de rastreamento deve ter o campo **Plano de cobertura por dimensão** selecionado para o número do lote.
 -   **Grupos de dimensões de armazenamento** – o grupo de dimensões de armazenamento deve ter o campo **Plano de cobertura por dimensão** selecionado para **Local** e **Depósito**.
 
-Ao reservar estoque para um produto em uma linha da ordem de venda configurada para a seleção de mesmo lote, o Microsoft Dynamics 365 for Finance and Operations tenta reservar a quantidade encomendada de um único lote de estoque. Qualquer requisito específico do atributo de lote também será considerado. Se a quantidade não puder ser preenchida de um único lote, a página **Conflito de reserva de mesmo lote** será exibida. Essa página descreve os problemas e também as ações que você pode executar para proceder com a reserva. As seguintes condições podem impedir que o lote seja reservado:
+Ao reservar estoque para um produto em uma linha da ordem de venda configurada para a seleção de mesmo lote, o sistema tenta reservar a quantidade encomendada em um único lote de estoque. Qualquer requisito específico do atributo de lote também será considerado. Se a quantidade não puder ser preenchida de um único lote, a página **Conflito de reserva de mesmo lote** será exibida. Essa página descreve os problemas e também as ações que você pode executar para proceder com a reserva. As seguintes condições podem impedir que o lote seja reservado:
 
 -   O código de disposição do lote tem **Bloquear reserva** da venda sinalizado como **Bloqueado**.
 -   O lote expirou com base na data de vencimento e nos dias comercializáveis aplicáveis do cliente. O item ainda poderá ser considerado para reserva se o grupo de modelos de item for controlado pela data FEFO (primeiro a vencer, primeiro a sair) e se a data de validade for selecionada como critério de separação.

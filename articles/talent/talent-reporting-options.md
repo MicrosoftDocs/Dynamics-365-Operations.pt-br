@@ -1,6 +1,6 @@
 ---
 title: Opções de relatório em Talent
-description: Este tópico explica como resolver o problema onde um cliente quer personalizar relatórios do Microsoft Dynamics 365 for Talent ou criar novos relatórios.
+description: Este tópico explica como resolver o problema onde um cliente quer personalizar relatórios do Microsoft Dynamics 365 Talent ou criar novos relatórios.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8e7348a515b08523c15aa8f74d5616a3daf645b7
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 50342c847200d015a66c6f22007070bb26c6caef
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741789"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009343"
 ---
 # <a name="reporting-options-in-talent"></a>Opções de relatório no Talent
 
@@ -34,7 +34,7 @@ Esse problema aplica-se a todos os ambientes.
 
 **Sintoma**
 
-O cliente quer personalizar relatórios do Microsoft Dynamics 365 for Talent ou criar novos relatórios.
+O cliente quer personalizar relatórios do Microsoft Dynamics 365 Talent ou criar novos relatórios.
 
 **Saída**
 
@@ -42,7 +42,7 @@ O usuário não pode personalizar os relatórios do Microsoft Power BI integrado
 
 **Solução**
 
-- Os dados do Core HR que fluem para o Common Data Service podem ser relatados por meio do conector PowerApps Common Data Service para o Power BI Desktop. Observe que o Common Data Service contém um subconjunto de dados do Core HR. Para obter mais informações sobre o Power BI e os painéis, consulte [Criar relatórios e painéis do Power BI com o PowerApps Common Data Service](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi).
+- Os dados do Core HR que fluem para o Common Data Service podem ser relatados por meio do conector PowerApps Common Data Service para o Power BI Desktop. Observe que o Common Data Service contém um subconjunto de dados do Core HR. Para obter mais informações sobre o Power BI e os painéis, consulte [Criar relatórios e painéis do Power BI com o Common Data Service do PowerApps](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi).
 - Relatório eletrônico (ER) está disponível para alguns relatórios no Talent. Personalizações voltadas para clientes podem ser realizadas por meio de opções de configuração ER.
 - Os dados podem ser exportados para o Microsoft Excel ou o Microsoft Word usando as diversas entidades de dados que o Talent fornece por meio da integração do Microsoft Office.
 

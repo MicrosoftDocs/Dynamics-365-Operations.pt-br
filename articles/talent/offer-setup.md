@@ -1,6 +1,6 @@
 ---
 title: Configurar o gerenciamento de ofertas
-description: Este tópico descreve como configurar as ofertas no Talent.
+description: Este tópico descreve como configurar ofertas no Microsoft Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/04/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fa0e5d30c06db16e105631e492af022acfcfd66
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 706766ba5133af03d00df99dba1c2a7b0405cd86
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517325"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010835"
 ---
 # <a name="set-up-offer-management"></a>Configurar o gerenciamento de ofertas 
 
 [!include [banner](includes/banner.md)]
 
-Quando o candidato for movido para o estágio de oferta no Dynamics 365 for Talent: Attract, você precisará garantir que as ofertas podem ser rapidamente criadas, aprovadas, conforme necessário e enviadas para o candidato. Como a maioria de ofertas é padrão, elas podem ser criadas desde modelos reutilizáveis. No Attract, todas as ofertas são agrupadas em um pacote de oferta, que é uma coleção de um ou mais documentos de oferta. 
+Quando o candidato for movido para o estágio de oferta no Dynamics 365 Talent: Attract, você precisará garantir que as ofertas possam ser rapidamente criadas, aprovadas, conforme necessário, e enviadas para o candidato. Como a maioria de ofertas é padrão, elas podem ser criadas desde modelos reutilizáveis. No Attract, todas as ofertas são agrupadas em um pacote de oferta, que é uma coleção de um ou mais documentos de oferta. 
 
 Este tópico lista todas as etapas que um administrador do Attract deve seguir para configurar diferentes modelos de pacote de oferta como parte do recurso de gerenciamento de ofertas no Attract. Os usuários com funções não administrativas não terão acesso a esses recursos.
 

@@ -1,6 +1,6 @@
 ---
 title: Pesquisa de produto e de cliente no ponto de venda (PDV)
-description: Este tópico fornece uma visão geral de melhorias feitas à funcionalidade de pesquisa de produto e cliente no Microsoft Dynamics 365 for Retail.
+description: Este tópico fornece uma visão geral de melhorias feitas à funcionalidade de pesquisa de produto e cliente no Dynamics 365 Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 06/10/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: b2f1d522a60721c746d03e477615265f9a8ba9a0
-ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
+ms.openlocfilehash: 60db9e9936f7728d76f5c7a0d0c31b33477c7c61
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625633"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023673"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Pesquisa de produto e de cliente no ponto de venda (PDV)
 
@@ -99,7 +99,10 @@ A busca tradicional do cliente pode levar muito tempo porque ela faz a pesquisa 
 
 ![Atalhos de pesquisa de cliente](./media/SearchShortcutsPOS.png "Atalhos de pesquisa de cliente")
 
-Para definir os critérios de pesquisa como atalhos, o administrador deve abrir a página **Parâmetros de varejo** no Microsoft Dynamics 365 for Finance and Operations,, em seguida, na guia **Critérios de pesquisa de PDV**, selecione os critérios a serem mostrados como atalhos.
+
+
+Para definir os critérios de pesquisa como atalhos, o administrador deve abrir a página **Parâmetros de varejo** no Microsoft Dynamics 365 Retail e, em seguida, na guia **Critérios de pesquisa de PDV**, selecione os critérios a serem mostrados como atalhos.
+
 
 ![Configurar atalhos de pesquisa](./media/ConfigureShortcutsAX.png "Configurar atalhos de pesquisa")
 
@@ -111,6 +114,6 @@ O campo **Ordem de exibição** determina a ordem em que os atalhos são exibido
 > [!NOTE]
 > Uma propriedade personalizada que é adicionada à enumeração não afeta o algoritmo de pesquisa do cliente padrão. Em outras palavras, o algoritmo de pesquisa do cliente não pesquisará a propriedade personalizada. Os usuários podem usar uma propriedade personalizado somente para pesquisas se essa propriedade personalizada for adicionada como um atalho, ou se o algoritmo de pesquisa padrão for substituído.
 
-Na próxima versão do Microsoft Dynamics 365 for Retail, os varejistas poderão definir o modo de pesquisa de cliente padrão no PDV para **Pesquisar todas as lojas**. Esta configuração pode ser útil em cenários em que os clientes criados fora do PDV podem ser pesquisados imediatamente (por exemplo, mesmo antes do trabalho de distribuição ser executado.) Uma nova opção **Modo de pesquisa de cliente padrão** estará disponível no perfil de funcionalidade do PDV. Defina-a como **Ativo** para definir o modo de pesquisa padrão como **Pesquisar todas as lojas**. Cada tentativa de pesquisa de cliente executará uma chamada em tempo real para a sede.
+Na próxima versão do Retail, os varejistas poderão definir o modo de pesquisa de cliente padrão no PDV para **Pesquisar todas as lojas**. Esta configuração pode ser útil em cenários em que os clientes criados fora do PDV podem ser pesquisados imediatamente (por exemplo, mesmo antes do trabalho de distribuição ser executado.) Uma nova opção **Modo de pesquisa de cliente padrão** estará disponível no perfil de funcionalidade do PDV. Defina-a como **Ativo** para definir o modo de pesquisa padrão como **Pesquisar todas as lojas**. Cada tentativa de pesquisa de cliente executará uma chamada em tempo real para a sede.
 
 Para ajudar a evitar problemas inesperados de desempenho, essa configuração está oculta por trás do sinalizador de liberação de versões de pré-lançamento denominada **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Assim, para mostrar a configuração de **Modo de pesquisa de cliente padrão** na interface de usuário, o varejista deve criar um tíquete de suporte para o teste de aceitação de usuário (UAT) e ambientes de produção. Depois do tíquete ser recebido, a equipe da engenharia trabalhará com o varejista para garantir que ele faça testes nos ambientes de não produção para avaliar o desempenho e a implementação de otimizações necessárias.
