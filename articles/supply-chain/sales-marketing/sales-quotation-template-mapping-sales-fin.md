@@ -1,6 +1,6 @@
 ---
-title: Sincronizar cabeçalhos e linhas de cotação de venda diretamente do Sales para o Finance and Operations
-description: O tópico discute os modelos e as tarefas subjacentes que são usados para sincronizar cabeçalhos e linhas de cotação de venda diretamente do Microsoft Dynamics 365 for Sales para o Microsoft Dynamics 365 for Finance and Operations.
+title: Sincronizar cabeçalhos e linhas da cotação de venda diretamente do Sales para o Supply Chain Management
+description: O tópico discute os modelos e as tarefas subjacentes que são usados para sincronizar cabeçalhos e linhas da cotação de venda diretamente do Dynamics 365 Sales para o Dynamics 365 Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
@@ -19,33 +19,33 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 0894f4728d3f1df21db130cd9e87d9881726e7fa
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: ddc81aa7ff462304cb6e22c919221217f7a1e019
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1743362"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251238"
 ---
-# <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-finance-and-operations"></a>Sincronizar cabeçalhos e linhas de cotação de venda diretamente do Sales para o Finance and Operations
+# <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Sincronizar cabeçalhos e linhas da cotação de venda diretamente do Sales para o Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-O tópico discute os modelos e as tarefas subjacentes que são usados para sincronizar cabeçalhos e linhas de cotação de venda diretamente do Microsoft Dynamics 365 for Sales para o Microsoft Dynamics 365 for Finance and Operations.
+O tópico discute os modelos e as tarefas subjacentes que são usados para sincronizar cabeçalhos e linhas da cotação de venda diretamente do Dynamics 365 Sales para o Dynamics 365 Supply Chain Management.
 
 > [!NOTE]
 > Antes de usar a solução Prospect to cash, você deve familiarizar-se com a [Integração de dados no Common Data Service para Aplicativos](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Fluxo de dados no Prospect to cash
 
-A solução Prospect to cash usa o recurso de integração de dados sincronizar dados nas instâncias do Finance and Operations e do Sales. Os modelos Prospect to cash que estão disponíveis com o recurso Integração de Dados permitem o fluxo de dados para contas, contatos, produtos, cotações de vendas, ordens de venda e faturas de vendas entre o Finance and Operations e o Sales. A ilustração a seguir mostra como os dados são sincronizados entre o Finance and Operations e o Sales.
+A solução Prospect to cash usa o recurso Integração de dados para sincronizar dados entre as instâncias Supply Chain Management e do Sales. Os modelos de Prospect to cash que estão disponíveis com o recurso Integração de dados permitem o fluxo de dados para contas, contatos, produtos, cotações de venda, ordens de venda e faturas de venda entre o Supply Chain Management e o Sales. A ilustração a seguir mostra como os dados são sincronizados entre o Supply Chain Management e o Sales.
 
 [![Fluxo de dados em Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="template-and-tasks"></a>Modelo e tarefas
 
-O seguinte modelo e as tarefas subjacentes são usados para sincronizar cabeçalhos e linhas de cotação de venda diretamente do Sales para o Finance and Operations:
+O seguinte modelo e as tarefas subjacentes são usados para sincronizar cabeçalhos e linhas da cotação de venda diretamente do Sales para o Supply Chain Management:
 
-- **Nome do modelo na Integração de dados:** cotações de venda (Sales para Fin and Ops) – Direto
+- **Nome do modelo na Integração de dados:** Cotações de Venda (Sales para Supply Chain Management) – Direto
 - **Nomes das tarefas no projeto de Integração de dados:**
 
     - QuoteHeader
@@ -53,9 +53,9 @@ O seguinte modelo e as tarefas subjacentes são usados para sincronizar cabeçal
 
 As seguintes tarefas de sincronização são obrigatórias para que a sincronização de cabeçalhos e linhas de cotação de venda possa ocorrer:
 
-- Produtos (Fin and Ops para Sales) – Direto
-- Contas (Sales para Fin and Ops) - Direto (se usado)
-- Contatos para Clientes (Sales para Fin and Ops) – Direto (se usados)
+- Produtos (Supply Chain Management para Sales) – Direto
+- Contas (Sales para Supply Chain Management) – Direto (se usado)
+- Contatos para Clientes (Sales para Supply Chain Management) – Direto (se usado)
 
 ## <a name="entity-set"></a>Conjunto de entidades
 
@@ -66,7 +66,7 @@ As seguintes tarefas de sincronização são obrigatórias para que a sincroniza
 
 ## <a name="entity-flow"></a>Fluxo de entidades
 
-As cotações de vendas são criadas no Sales e sincronizadas ao Finance and Operations.
+As cotações de venda são criadas no Sales e sincronizadas para o Supply Chain Management.
 
 As cotações de vendas do Sales são sincronizadas somente se as seguintes condições forem atendidas:
 
@@ -75,13 +75,13 @@ As cotações de vendas do Sales são sincronizadas somente se as seguintes cond
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Solução Prospect to cash para o Sales
 
-O campo **Tem Somente Produtos Mantidos Externamente** foi adicionado à entidade **Cotação** para rastrear consistentemente se a cotação de vendas consiste inteiramente em produtos mantidos externamente. Se uma cotação de venda mantiver somente produtos externamente, os produtos serão mantidos no Finance and Operations. Este comportamento ajuda a garantir que você não tente sincronizar linhas da cotação de vendas que tenham produtos que são desconhecidos para o Finance and Operations.
+O campo **Tem Somente Produtos Mantidos Externamente** foi adicionado à entidade **Cotação** para rastrear consistentemente se a cotação de vendas consiste inteiramente em produtos mantidos externamente. Se uma cotação de venda mantiver somente produtos externamente, os produtos serão mantidos no Supply Chain Management. Esse comportamento ajuda a garantir que você não tente sincronizar linhas da cotação de venda que tenham produtos desconhecidos para o Supply Chain Management.
 
 Todos os produtos de cotação da cotação de venda são atualizados com as informações **Tem Somente Produtos Mantidos Externamente** do cabeçalho de cotação de venda. Essas informações se encontram no campo **A Cotação Tem Somente Produtos Mantidos Externamente** na entidade **QuoteDetails**.
 
-Um desconto pode ser adicionado ao produto de cotação e será sincronizado para o Finance and Operations. Os campos **Desconto**, **Encargos** e **Imposto** no cabeçalho são controlados por uma configuração no Finance and Operations. No momento, essa configuração não dá suporte ao mapeamento de integração. No design atual, os campos **Preço**, **Desconto**, **Encargo** e **Imposto** são mantidos e tratados no Finance and Operations.
+Um desconto pode ser adicionado ao produto de cotação e será sincronizado para o Supply Chain Management. Os campos **Desconto**, **Encargos** e **Imposto** no cabeçalho são controlados por uma configuração no Supply Chain Management. No momento, essa configuração não dá suporte ao mapeamento de integração. No design atual, os campos **Preço**, **Desconto**, **Encargo** e **Imposto** são mantidos e tratados no Supply Chain Management.
 
-No Sales, a solução torna os seguintes campos somente para leitura, porque os valores não são sincronizados com o Finance and Operations:
+No Sales, a solução torna os seguintes campos somente leitura, pois os valores não são sincronizados para o Supply Chain Management:
 
 - Campos somente leitura no cabeçalho de cotação de vendas: **% de Desconto**, **Desconto** e **Valor do Frete**
 - Campos somente leitura em produtos de cotação: **Imposto**
@@ -111,20 +111,20 @@ Antes de as cotações de venda serem sincronizadas, é importante atualizar as 
 
 #### <a name="quoteline"></a>QuoteLine
 
-- Verifique se existe o mapa de valores necessário para **SalesUnitSymbol** no Finance and Operations.
+- Verifique se existe o mapa de valores necessário para **SalesUnitSymbol** no Supply Chain Management.
 - Verifique se as unidades necessários estão definidas no Sales.
 
     Um valor do modelo que tem um mapa de valores é definido para **oumid.name** como **SalesUnitSymbol**.
 
-- Opcional: Você pode adicionar os seguintes mapeamentos para ajudar a garantir que as linhas de cotação de venda sejam importadas para o Finance and Operations, caso não haja informações padrão do cliente ou do produto:
+- Opcional: Você pode adicionar os seguintes mapeamentos para ajudar a garantir que as linhas da cotação de venda sejam importadas para o Supply Chain Management, caso não haja informações padrão do cliente ou do produto:
 
-    - **SiteId** – Um site é necessário para gerar cotações e linhas da ordem de venda no Finance and Operations. Não há valor do modelo padrão para **SiteId**.
-    - **WarehouseId** – Um depósito é necessário para processar cotações e linhas da ordem de venda no Finance and Operations. Não há valor do modelo padrão para **WarehouseId**.
+    - **SiteId** – Um site é necessário para gerar cotações e linhas da ordem de venda no Supply Chain Management. Não há valor do modelo padrão para **SiteId**.
+    - **WarehouseId** – Um depósito é necessário para processar cotações e linhas da ordem de venda no Supply Chain Management. Não há valor do modelo padrão para **WarehouseId**.
 
 ## <a name="template-mapping-in-data-integrator"></a>Mapeamento de modelos no integrador de dados
 
 > [!NOTE]
-> - Os campos **Desconto**, **Encargos** e **Imposto** são controlados por uma configuração complexa no Finance and Operations. No momento, essa configuração não dá suporte ao mapeamento de integração. No design atual, os campos **Preço**, **Desconto**, **Encargo** e **Imposto** são tratados pelo Finance and Operations.
+> - Os campos **Desconto**, **Encargos** e **Imposto** são controlados por uma configuração complexa no Supply Chain Management. No momento, essa configuração não dá suporte ao mapeamento de integração. No design atual, os campos **Preço**, **Desconto**, **Encargo** e **Imposto** são tratados pelo Supply Chain Management.
 > - Os campos **Termos de pagamento**, **Condições de frete**, **Condições de entrega**, **Método de entrega** e **Modo de entrega** não estão incluídos no mapeamento padrão. Para mapear esses campos, é necessário configurar um mapeamento de valor que é específico para os dados nas organizações às quais a entidade está sincronizada.
 
 As seguintes ilustrações mostram um exemplo de um mapeamento de modelos no integrador de dados.

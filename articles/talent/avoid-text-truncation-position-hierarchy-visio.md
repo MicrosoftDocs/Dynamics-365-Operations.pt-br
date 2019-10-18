@@ -1,6 +1,6 @@
 ---
 title: Evite texto truncado na hierarquia de posição e exporte para Visio
-description: Este tópico explica como resolver um problema em que os nomes de pessoas e cargos estão truncados quando os clientes exibem a hierarquia de cargos no Microsoft Dynamics 365 for Talent. Texto truncado pode tornar difícil realizar um screenshot ou imprimir a hierarquia.
+description: Este tópico explica como resolver um problema em que os nomes de pessoas e cargos estão truncados quando os clientes exibem a hierarquia de cargos no Microsoft Dynamics 365 Talent. Texto truncado pode tornar difícil realizar um screenshot ou imprimir a hierarquia.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 07a972bc1c6dd4076932248edb314992cb7297e5
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: e151818f29ac37ff449daaf1dc02e44b8fb317c3
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741812"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008491"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Evite texto truncado na hierarquia de posição e exporte para Visio
 
@@ -30,7 +30,7 @@ ms.locfileid: "1741812"
 
 **Saída**
 
-Quando um cliente exibe a hierarquia de cargos no Microsoft Dynamics 365 for Talent, os nomes de pessoas e cargos estão truncados. Portanto, pode ser difícil realizar uma captura de tela, ou imprimir e distribuir a hierarquia.
+Quando um cliente exibe a hierarquia de cargos no Microsoft Dynamics 365 Talent, os nomes de pessoas e cargos estão truncados. Portanto, pode ser difícil realizar uma captura de tela, ou imprimir e distribuir a hierarquia.
 
 ![Hierarquia de posições](media/position-h.png)
 

@@ -1,6 +1,6 @@
 ---
-title: Atualizar guias de integração no Dynamics 365 for Talent - Onboard
-description: Este tópico explica como atualizar os guias de integração no Microsoft Dynamics 365 for Talent - Onboard e como enviar alterações para os guias existentes.
+title: Atualizar guias de integração no Dynamics 365 Talent - Onboard
+description: Este tópico explica como atualizar guias de integração no Microsoft Dynamics 365 Talent - Onboard e como enviar alterações nos guias existentes.
 author: andreabichsel
 manager: ''
 ms.date: 06/21/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-21
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d2be450685724510db2f0fd2af8545f8f40278e7
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 6175061456a03228043ea13767845cf4b54d6b2e
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731364"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010720"
 ---
-# <a name="update-onboarding-guides-in-dynamics-365-for-talent-onboard"></a>Atualizar guias de integração no Dynamics 365 for Talent: Onboard
+# <a name="update-onboarding-guides"></a>Atualizar guias de integração
 
 [!include [banner](includes/banner.md)]
 
-Se tiver que fazer alterações nos guias de integração no Microsoft Dynamics 365 for Talent: Onboard, poderá atualizá-los e enviar as alterações, mesmo que já tenha enviado os guias. Você tem duas opções para atualizar um guia de integração:
+Se tiver que fazer alterações nos guias de integração no Microsoft Dynamics 365 Talent: Onboard, você poderá atualizá-los e enviar as alterações, mesmo que já tenha enviado os guias. Você tem duas opções para atualizar um guia de integração:
 
 - Editar o guia de integração diretamente e salvar suas alterações.
 - Editar o modelo de integração e enviar as alterações para todos os guias de integração que foram criados com base nele.

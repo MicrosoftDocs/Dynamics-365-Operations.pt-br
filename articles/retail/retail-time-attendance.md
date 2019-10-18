@@ -1,6 +1,6 @@
 ---
 title: Gerenciamento de horário e de presença no Retail
-description: Este tópico descreve os cenários com suporte para o Gerenciamento de horário e presença no in Microsoft Dynamics 365 for Retail.
+description: Este tópico descreve os cenários com suporte para o Gerenciamento de horário e presença no in Dynamics 365 Retail.
 author: aamirallaqaband
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4c54909a02376a62a72a986e634649fa0ae54284
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d541de550df41b7d4616492960bd4f2aae46d45e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567944"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024974"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>Gerenciamento de horário e de presença no Retail
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve os cenários com suporte para o Gerenciamento de horário e presença no in Microsoft Dynamics 365 for Retail.
+Este tópico descreve os cenários com suporte para o Gerenciamento de horário e presença no in Dynamics 365 Retail.
 
 ## <a name="manage-worker-setup-and-scheduling"></a>Gerenciar configuração e planejamento do trabalhador
 
@@ -125,7 +125,7 @@ No PDV:
 
 ## <a name="process-and-manage-time-registrations"></a>Processar e gerenciar registros de tempos
 
-Um usuário do Dynamics 365 for Retail segue o fluxo de trabalho para calcular, aprovar e transferir registros de horas para a folha de pagamento.
+Um usuário do Retail segue o fluxo de trabalho para calcular, aprovar e transferir registros de horas para a folha de pagamento.
 
 ### <a name="primary-operations"></a>Operações principais
 

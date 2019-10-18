@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 2762179a13ff9bbcb4001f3a9aba443c4aa00f9f
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b5c54d921e2955bc866ffd1ca516169790d33127
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517336"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024220"
 ---
 # <a name="questionnaires"></a>Questionários
 
@@ -31,7 +31,7 @@ ms.locfileid: "1517336"
 
 Este tópico fornece informações gerais sobre questionários e leva a informações mais detalhadas. Um questionário é um conjunto de perguntas que é usado para coletar informações para diversas finalidades. Você pode projetar, criar, distribuir e preencher questionários e, em seguida, analisar os resultados. 
 
-Você pode personalizar um questionário de acordo com as suas necessidades específicas usando diversos recursos disponíveis no Microsoft Dynamics 365 for Finance and Operations. Eis alguns exemplos de como os questionários podem ser usados:
+Você pode personalizar um questionário de acordo com as suas necessidades específicas usando diversos recursos disponíveis no Microsoft Dynamics 365 Finance. Eis alguns exemplos de como os questionários podem ser usados:
 
 -   Testar as habilidades profissionais de funcionários e candidatos.
 -   Avaliar se os participantes do curso aprenderam o material do curso.

@@ -1,6 +1,6 @@
 ---
 title: Configurar nomes de campo de aplicativo no aplicativo de depósito
-description: Este tópico descreve como definir e configurar os nomes e prioridades de campo do aplicativo de depósito no Finance and Operations.
+description: Este tópico descreve como definir e configurar os nomes e prioridades de campos do aplicativo de depósito no Dynamics 365 Supply Chain Management.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,24 +19,24 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0162014189ed6bffb17e6718a67eecfd55c334a5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a3251368e92eb2e24eb9e64bb615027d038ff660
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548920"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251076"
 ---
 # <a name="configure-app-field-names-in-warehousing-app"></a>Configurar nomes de campo de aplicativo no aplicativo de depósito
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como definir e configurar os nomes e prioridades de campo do aplicativo de depósito no Finance and Operations. 
+Este tópico descreve como definir e configurar os nomes e prioridades de campos do aplicativo de depósito no Dynamics 365 Supply Chain Management. 
 
-**Observação:** este tópico se aplica aos recursos do Gerenciamento de depósito. Ele não se aplica aos recursos do Gerenciamento de estoque. Finance and Operations - Warehousing é um aplicativo que você pode usar para realizar tarefas de depósito. Você pode definir e configurar os nomes de campo usados no aplicativo, bem como configurar a prioridade à qual os nomes de campo devem ser atribuídos. Este tópico explica como definir e configurar esses nomes e prioridades de campo do aplicativo de depósito e como eles são usados no Finance and Operations - Warehousing. Para obter informações detalhadas sobre como configurar a conexão com o Finance and Operations - Depósito, consulte o tutorial [Instale e configure o Finance and Operations - Warehousing](install-configure-warehousing-app.md).
+**Observação:** este tópico se aplica aos recursos do Gerenciamento de depósito. Ele não se aplica aos recursos do Gerenciamento de estoque. O Warehousing é um aplicativo que você pode usar para realizar tarefas de depósito. Você pode definir e configurar os nomes de campo usados no aplicativo, bem como configurar a prioridade à qual os nomes de campo devem ser atribuídos. Este tópico explica como definir e configurar esses nomes e prioridades de campos do aplicativo de depósito e como eles são usados no Warehousing. Para obter informações detalhadas sobre como configurar a conexão com o Warehousing, consulte o tutorial [Instalar e configurar o Warehousing](install-configure-warehousing-app.md).
 
 ## <a name="configure-warehouse-app-field-names"></a>Configurar nomes de campo do aplicativo de depósito
 
-Ao usar o Finance and Operations - Warehousing no seu dispositivo, você pode configurar como os metadados devem ser exibidos no seu dispositivo na página **Nomes de campo de aplicativo de depósito**. Em uma nova companhia no Finance and Operations, selecione **Criar configuração padrão** para gerar todos os nomes de campo que serão usados nos fluxos de trabalho do dispositivo móvel de depósito e depois atribuir um modo e tipo de saída preferenciais para eles. Após a criação de todos os nomes de campo, você pode selecionar as seguintes opções de saída.
+Ao usar o Warehousing em seu dispositivo móvel, você pode configurar como os metadados devem ser exibidos no dispositivo na página **Nomes de campo de aplicativo de depósito**. Em uma nova empresa, selecione **Criar configuração padrão** para gerar todos os nomes de campo que serão usados nos fluxos de trabalho do dispositivo móvel do depósito e depois atribuir um modo e tipo de entrada preferenciais para eles. Após a criação de todos os nomes de campo, você pode selecionar as seguintes opções de saída.
 
 <table>
 <colgroup>
@@ -69,7 +69,7 @@ Ao usar o Finance and Operations - Warehousing no seu dispositivo, você pode co
 
 ## <a name="configure-warehouse-app-field-priority"></a>Configurar a prioridade de campo do aplicativo de depósito
 
-Na página **Prioridade de campo de aplicativo de depósito**, você pode colocar nomes de campo em grupos de prioridade diferentes. Com isso, é possível decidir quais informações devem ser exibidas na página de tarefa principal quando os trabalhadores de depósito realizam tarefas usando o aplicativo. Se clicar em **Criar configuração padrão**, um conjunto padrão de grupos de prioridades será gerado. É possível criar tantos grupos de prioridade quantos forem necessários, mas apenas três grupos de prioridades serão mostrados na página de tarefas. Ao enviar os metadados ao aplicativo, o Finance and Operations atribuirá a cada campo uma prioridade relativa de acordo com seu grupo de prioridades, e o aplicativo exibirá os primeiros três grupos de prioridades contidos nos metadados na página de tarefas. O resto dos metadados transbordantes serão exibidos em uma página de detalhes secundária. A tabela a seguir mostra um exemplo de cinco grupos de prioridades.
+Na página **Prioridade de campo de aplicativo de depósito**, você pode colocar nomes de campo em grupos de prioridade diferentes. Com isso, é possível decidir quais informações devem ser exibidas na página de tarefa principal quando os trabalhadores de depósito realizam tarefas usando o aplicativo. Se clicar em **Criar configuração padrão**, um conjunto padrão de grupos de prioridades será gerado. É possível criar tantos grupos de prioridade quantos forem necessários, mas apenas três grupos de prioridades serão mostrados na página de tarefas. Ao enviar os metadados ao aplicativo, o sistema atribuirá a cada campo uma prioridade relativa de acordo com seu grupo de prioridades, e o aplicativo exibirá os três primeiros grupos de prioridades contidos nos metadados na página da tarefa. O resto dos metadados transbordantes serão exibidos em uma página de detalhes secundária. A tabela a seguir mostra um exemplo de cinco grupos de prioridades.
 
 <table>
 <colgroup>
@@ -143,6 +143,3 @@ Os metadados restantes, como Local, não serão exibidos na página de tarefas, 
 --------
 
 [Instalar e configurar o Microsoft Dynamics 365 for Finance and Operations – Warehousing](install-configure-warehousing-app.md)
-
-
-

@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e86c2f8d1d5920198db74dc3b64f2393c5e13ff7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 46aa4378a5b106d5717e0c841f2f7c9d6629489e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555029"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251307"
 ---
 # <a name="register-serial-numbers-in-the-sales-process"></a>Registrar números de série no processo de venda
 
@@ -34,9 +34,9 @@ ms.locfileid: "1555029"
 
 Este tópico explica como você pode registrar números de série em guias de remessa ou em faturas durante o processo de vendas. Essa funcionalidade será útil se uma empresa quiser capturar números de série para fins de serviço e de garantia, e não precisa manter os números de série no estoque do recebimento até a saída.
 
-Muitas empresas desejam apenas capturar números de série para fins de serviço e de garantia, e não precisam manter os números de série no estoque do recebimento até a saída. Nessas situações, o Microsoft Dynamics 365 for Finance and Operations permite que você registre os números de série nas guias de remessa ou nas faturas quando o produto for vendido. Se os produtos forem devolvidos, você poderá rastrear um produto até uma fatura para determinar se vendeu o produto e se as obrigações de serviço ou de garantia estão válidas.
+Muitas empresas desejam apenas capturar números de série para fins de serviço e de garantia, e não precisam manter os números de série no estoque do recebimento até a saída. Nessas situações, é possível registrar os números de série nas guias de remessa ou nas faturas quando o produto for vendido. Se os produtos forem devolvidos, você poderá rastrear um produto até uma fatura para determinar se vendeu o produto e se as obrigações de serviço ou de garantia estão válidas.
 
-Você deve habilitar números de série para o processo de vendas no grupo de dimensões de rastreamento, selecionando a opção **Ativo no processo de venda** na página **Grupos de dimensões de rastreamento**. Os seguintes eventos ocorrerão no Microsoft Dynamics 365 for Finance and Operations:
+Você deve habilitar números de série para o processo de vendas no grupo de dimensões de rastreamento, selecionando a opção **Ativo no processo de venda** na página **Grupos de dimensões de rastreamento**. Os seguintes eventos ocorrem no Supply Chain Management:
 -   Na Guia Rápida **Números de série**, a opção **Controle de números de série** é selecionada. Quando essa opção estiver selecionada, você deverá registrar um número de série para cada item na guia de remessa ou fatura.
 -   Todas as seleções no grupo de dimensões de rastreamento para números de série estão desmarcadas, exceto a opção **Saída em branco permitida**. Você pode selecionar a opção **Saída em branco permitida** para substituir o controle do número de série e permitir que os produtos sejam embalados e faturados sem registrar números de série.
 

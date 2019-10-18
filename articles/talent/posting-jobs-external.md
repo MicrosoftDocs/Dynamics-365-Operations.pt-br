@@ -1,6 +1,6 @@
 ---
-title: Postar trabalhos em sites de carreira externos a partir do Attract
-description: Este tópico explica como usar o Dynamics 365 for Talent - Attract para postar trabalhos em sites de recrutamento externos.
+title: Lançar trabalhos de sites de carreira externos a partir do Attract
+description: 'Este tópico explica como usar o Dynamics 365 Talent: Attract para postar trabalhos em sites de recrutamento externos.'
 author: pganapmsft
 manager: AnnBe
 ms.date: 05/16/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 936ff85a4dabb715cb83b875a5c58c9fb7a0ac26
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 919cec773d5e57e8f5429e31872db7ed658e969b
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739808"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008073"
 ---
 # <a name="post-jobs-to-broadbean"></a>Lançar trabalhos no Broadbean
 
 [!include [banner](../includes/banner.md)]
 
-O Microsoft Dynamics 365 for Talent: Attract ajuda a obter o talento que você precisa, permitindo que você lance seus trabalhos diretamente do Attract para o Broadbean. Depois de [criar um trabalho](./creating-jobs-attract.md), tudo que você tem a fazer é clicar em um botão para começar seu trabalho antes de todos os possíveis candidatos ao trabalho no Broadbean.
+O Microsoft Dynamics 365 Talent: Attract ajuda a obter o talento que você precisa, permitindo que você lance seus trabalhos diretamente do Attract para o Broadbean. Depois de [criar um trabalho](./creating-jobs-attract.md), tudo que você tem a fazer é clicar em um botão para começar seu trabalho antes de todos os possíveis candidatos ao trabalho no Broadbean.
 
 O lançamento de trabalhos no Broadbean requer uma licença de Broadbean apropriada. A Broadbean oferece vários produtos e planos. Para obter mais informações sobre licença e preço, [contate o Broadbean](https://www.broadbean.com/contact-us/).
 

@@ -1,6 +1,6 @@
 ---
 title: Gerenciamento de classificação
-description: Este tópico explica os conceitos básicos do gerenciamento de classificação no Microsoft Dynamics 365 for Retail e apresenta considerações de implementação do projeto.
+description: Este tópico explica os conceitos básicos do gerenciamento de classificação no Dynamics 365 Retail e apresenta considerações de implementação do projeto.
 author: jblucher
 manager: AnnBe
 ms.date: 03/12/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: b4de2a97a19be6d4e52c43180e36baf7adf6a649
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4652641be0a1edaac919d36c7f127cd62c355a57
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558819"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025831"
 ---
 # <a name="assortment-management"></a>Gerenciamento de classificação
 
@@ -28,7 +28,7 @@ ms.locfileid: "1558819"
 
 ## <a name="overview"></a>Visão Geral
 
-O Microsoft Dynamics 365 for Retail fornece *classificações* que permitem gerenciar a disponibilidade de produtos nos canais. As classificações determinam quais produtos estão disponíveis em lojas específicas e durante um período específico.
+O Dynamics 365 Retail fornece *classificações* que permitem gerenciar a disponibilidade de produtos nos canais. As classificações determinam quais produtos estão disponíveis em lojas específicas e durante um período específico.
 
 No Retail, uma classificação é um mapeamento de um ou mais canais (ou grupos de canais, quando hierarquias de organização são usadas) a um ou mais produtos (ou grupos de produtos, quando hierarquias de categoria são usadas).
 

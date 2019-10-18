@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b3247f693f5934b3fbf83b7b831c7ed221514cb
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 067d1085d9afa04cb76b78393a8a8b9834ce4d8c
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783062"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250935"
 ---
 # <a name="maintenance-attribute-types"></a>Manutenção dos tipos do atributo
 
@@ -42,10 +42,10 @@ Os atributos configurados podem variar, dependendo do elemento. Por exemplo, par
 
 ## <a name="create-attribute-types"></a>Criar tipos de atributo
 
-Você pode criar seus próprios tipos de atributo. Além disso, você pode transferir dimensões do produto do Microsoft Dynamics 365 for Finance and Operations para a página **Tipos de atributo**.
+Você pode criar seus próprios tipos de atributo. Além disso, você pode transferir dimensões do produto para a página **Tipos de atributo**.
 
 1. Selecione **Gerenciamento de ativos** \> **Configuração** \> **Tipos de atributo**.
-2. Na primeira vez que você configurar tipos de atributo, selecione **Criar dimensões do produto** para transferir automaticamente dimensões do produto padrão do Finance and Operations.
+2. Na primeira vez que você configurar tipos de atributo, selecione **Criar dimensões do produto** para transferir automaticamente dimensões do produto padrão.
 3. Selecione **Novo** para criar um novo tipo de atributo.
 4. No campo **Tipo de atributo**, insira um nome para o tipo de atributo.
 5. No campo **Descrição**, insira uma descrição.

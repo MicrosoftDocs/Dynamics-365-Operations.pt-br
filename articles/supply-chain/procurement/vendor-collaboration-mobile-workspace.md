@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 253ba0bd991e8db17940d3d4b9ade599800bf924
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2c2ba1f23cc068daf20474f05519c3c6865fd183
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843856"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250247"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Espaço de trabalho móvel de colaboração de fornecedores
 
@@ -30,10 +30,10 @@ ms.locfileid: "1843856"
 
 Este tópico fornece informações sobre a área de trabalho móvel **Colaboração de fornecedor**. Esta área de trabalho ajuda seus fornecedores a se manter atualizados sobre as ordens de compra que foram enviadas para aprovação. Eles também podem visualizar informações sobre contatos e ordens de compra novos e atualizados.
 
-Este espaço de trabalho móvel deve ser usado com o Microsoft Dynamics 365 do aplicativo Unified Operations Mobile.
+Esse espaço de trabalho móvel deve ser usado com o aplicativo móvel Finance and Operations.
 
 ## <a name="overview"></a>Visão Geral 
-O espaço de trabalho móvel de **Colaboração de fornecedor** mantém os fornecedores informados sobre novas ordens de compra para que eles possam ver e responder a ordens de compra no cliente Web do Microsoft Dynamics 365 for Finance and Operations. 
+O espaço de trabalho móvel **Colaboração do fornecedor** mantém os fornecedores informados sobre novas ordens de compra para que eles possam ver e responder a ordens de compra no cliente Web. 
 
 >[!NOTE]
 > O espaço de trabalho móvel deve ser usado como um suplemento para a interface da Web de colaboração do fornecedor, não como uma substituição. 
@@ -59,8 +59,8 @@ A área de trabalho móvel **Colaboração de fornecedor** permite ao fornecedor
 ## <a name="prerequisites"></a>Pré-requisitos
 Os pré-requisitos variam conforme a versão do Microsoft Dynamics 365 implantada na organização.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Pré-requisitos se você usa o Microsoft Dynamics 365 for Finance and Operations 
-Se o Microsoft Dynamics 365 for Finance and Operations foi implantado na organização, o administrador do sistema deverá publicar o espaço de trabalho móvel **Colaboração do fornecedor**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Pré-requisito para usar o Supply Chain Management
+Se o Supply Chain Management foi implantado para sua organização, o administrador do sistema deverá publicar o espaço de trabalho móvel **Colaboração do fornecedor**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Pré-requisitos se você usa a versão 1611 do Microsoft Dynamics 365 for Operations com a atualização de plataforma 3 ou posterior
 Se o Microsoft Dynamics 365 for Operations versão 1611 com a atualização de plataforma 3 ou posterior foi implantado na organização, o administrador do sistema deverá atender aos pré-requisitos a seguir. 
@@ -103,8 +103,8 @@ Se o Microsoft Dynamics 365 for Operations versão 1611 com a atualização de p
 <ul>
 <li><a href="vendor-collaboration-work-external-vendors.md">Use a colaboração do fornecedor para trabalhar com fornecedores externos</a></li>
 <li><a href="manage-vendor-collaboration-users.md">Gerenciar usuários de colaboração do fornecedor</a></li>
-<li><a href="set-up-maintain-vendor-collaboration.md">Configurar e manter colaboração de fornecedor</a></li>
-<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Usar colaboração de fornecedores para trabalhar com clientes no Finanças e Operações</a></li>
+<li><a href="set-up-maintain-vendor-collaboration.md">​Configurar e manter colaboração de fornecedor​</a></li>
+<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Usar a colaboração do fornecedor para trabalhar com clientes no Supply Chain Managements</a></li>
 </ul></td>
 </tr>
 </tbody>
@@ -112,7 +112,7 @@ Se o Microsoft Dynamics 365 for Operations versão 1611 com a atualização de p
 
 ## <a name="download-and-install-the-mobile-app"></a>Baixa e instala o aplicativo móvel.
 
-Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
+Baixe e instale o aplicativo móvel Finance and Operations:
 
 -   [Para telefones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

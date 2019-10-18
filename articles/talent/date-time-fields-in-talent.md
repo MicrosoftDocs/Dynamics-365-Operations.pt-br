@@ -1,6 +1,6 @@
 ---
-title: Trabalhar com data e hora no Microsoft Dynamics 365 for Talent
-description: Entenda o que esperar ao usar os campos Data e Hora no Microsoft Dynamics 365 for Talent. Obtenha clareza sobre o que esperar ao interagir com dados de data e hora em um formulário no Dynamics 365 for Talent, em uma fonte externa, ou no Common Data Service.
+title: Trabalhar com data e hora no Microsoft Dynamics 365 Talent
+description: Entenda o que esperar ao usar os campos Data e Hora no Microsoft Dynamics 365 Talent. Saiba exatamente o que esperar ao interagir com dados de data e hora em um formulário no Talent, em uma fonte externa ou no Common Data Service.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/24/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b4c652992272ed1a5aecbb4c78f0d11f077149d1
-ms.sourcegitcommit: 46bded82aa072adfedcf443629c2adc69f512c09
+ms.openlocfilehash: 1a1d1a47bfe6bd58b1e1a0d4d46c2133f3bf48ad
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1791194"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2007958"
 ---
 # <a name="date-and-time-fields-in-talent"></a>Campos de data e hora no Talent
 
 [!include [banner](includes/banner.md)]
 
-Os campos**Data e Hora** são um conceito fundamental no Dynamics 365 for Talent. É importante compreender como trabalhar com dados de **Data e Hora** em um formulário do Dynamics 365, no Common Data Service e em fontes externas.
+Os campos**Data e Hora** são um conceito fundamental no Dynamics 365 Talent. É importante compreender como trabalhar com dados de **Data e Hora** em um formulário do Dynamics 365, no Common Data Service e em fontes externas.
 
 ## <a name="understanding-the-difference-between-date-and-date-and-time-field-data-types"></a>Compreendendo a diferença entre os tipos de dados do campo Data e Data e Hora
 

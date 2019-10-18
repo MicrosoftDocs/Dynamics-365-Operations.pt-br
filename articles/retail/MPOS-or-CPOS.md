@@ -1,6 +1,6 @@
 ---
 title: Escolher entre Retail Modern POS (MPOS) e PDV em Nuvem
-description: Este tópico explica as principais diferenças entre o Retail Modern POS e o PDV em Nuvem. Ele também descreve os vários fatores que os varejistas que estão implementando o Microsoft Dynamics 365 for Retail devem considerar para ajudá-los a fazer a melhor escolha de acordo com suas necessidades.
+description: Este tópico explica as principais diferenças entre o Retail Modern POS e o PDV em Nuvem. Ele também descreve vários fatores que os varejistas que estão implementando o Dynamics 365 Retail devem considerar para ajudá-los a fazer a melhor escolha de acordo com seus requisitos.
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0b137a21a610a8bffc10b03067b429995e8e0662
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 69cf6d2b7a9bb09a848f2a0c870f5e7e59c61e91
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557005"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025900"
 ---
 # <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>Escolher entre Retail Modern POS (MPOS) e PDV em Nuvem
 
 [!include [banner](includes/banner.md)]
 
-Este tópico oferece orientação, dicas e experiência adicional de implementadores sobre fatores que devem ser considerados ao implantar o Microsoft Dynamics 365 for Retail. Ao examinar e seguir essas orientações como parte do processo de implantação, os implementadores poderão evitar problemas que possam afetar o desempenho e a satisfação do usuário.
+Este tópico oferece orientação, dicas e experiência adicional de implementadores sobre fatores que devem ser considerados ao implantar o Dynamics 365 Retail. Ao examinar e seguir essas orientações como parte do processo de implantação, os implementadores poderão evitar problemas que possam afetar o desempenho e a satisfação do usuário.
 
 ## <a name="insights"></a>Insights
 
@@ -59,7 +59,7 @@ Embora o MPOS e o CPOS sejam em grande parte os mesmos, existem algumas diferen�
 
 O MPOS em um dispositivo Windows, iOS ou Android é um aplicativo que é empacotado, instalado e atendido no dispositivo.
 
-- **Windows** – O MPOS para aplicativos do Windows contém todos os códigos do aplicativo e o tempo de execução de comércio inserido (CRT). 
+- **Windows** – O MPOS para aplicativo do Windows contém todos os códigos do aplicativo e o tempo de execução de comércio inserido (CRT). 
 - **iOS/Android** – Nessas plataformas, o aplicativo funciona como um host para o código do aplicativo de CPOS. Em outras palavras, o código do aplicativo será obtido do servidor CPOIS no Microsoft Azure ou no Retail Store Scale Unit (RSSU). Para obter mais informações, consulte [visão geral do Retail Store Scale Unit](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
 
 #### <a name="cpos"></a>CPOS
@@ -82,7 +82,7 @@ O servidor do Retail é um componente que hospeda o CRT. O CRT contém toda a l�
 
 #### <a name="offline-mode"></a>Modo offline
 
-MPOS para Windows oferece suporte ao modo offline. No modo offline, o PDV pode continuar a processar vendas mesmo desconectado do servidor do Retail. Ele pode ser sincronizado com o banco de dados do canal quando a conectividade é restaurada. O MPOS usa sua própria instância inserida do CRT e usa temporariamente sua própria fonte de dados local (banco de dados do SQL Server offline). Para obter mais informações sobre recursos offline, consulte [Recursos offline do PDV](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-offline-functionality).
+MPOS para Windows oferece suporte ao modo offline. No modo offline, o PDV pode continuar a processar vendas mesmo desconectado do servidor do Retail. Ele pode ser sincronizado com o banco de dados do canal quando a conectividade é restaurada. O MPOS usa sua própria instância inserida do CRT e utiliza temporariamente sua própria fonte de dados local (banco de dados do SQL Server offline). Para obter mais informações sobre recursos offline, consulte [Recursos offline do PDV](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-offline-functionality).
 
 ### <a name="pos-peripheralhardware-considerations"></a>Considerações sobre periférico/hardware de PDV
 

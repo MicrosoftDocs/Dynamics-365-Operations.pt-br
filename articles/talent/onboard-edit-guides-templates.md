@@ -1,6 +1,6 @@
 ---
-title: Editar guias e modelos de integração no Dynamics 365 for Talent - Onboard
-description: Este tópico explica como adicionar atividades e outras informações para guias e modelos de integração no Microsoft Dynamics 365 for Talent - Onboard.
+title: Editar guias e modelos de integração no Dynamics 365 Talent - Onboard
+description: Este tópico explica como adicionar atividades e outras informações a guias e modelos de integração no Microsoft Dynamics 365 Talent - Onboard.
 author: andreabichsel
 manager: ''
 ms.date: 06/19/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 68afc5d789d1f4af67cd2ec73eb0e073efad0761
-ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
+ms.openlocfilehash: 7803c7cd2c58b8544d2c8dd711c295d6882f9fca
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1864384"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010789"
 ---
-# <a name="edit-onboarding-guides-and-templates-in-dynamics-365-for-talent-onboard"></a>Editar guias e modelos de integração no Dynamics 365 for Talent: Onboard
+# <a name="edit-onboarding-guides-and-templates"></a>Editar guias e modelos de integração
 
 [!include [banner](includes/banner.md)]
 
-Depois de criar um guia ou modelo de integração no Microsoft Dynamics 365 for Talent: Onboard, você deve adicionar uma introdução, atividades, contatos e recursos. O Onboard permite que você inclua conteúdo avançado nos seus guias de integração, incluindo:
+Depois de criar um guia ou modelo de integração no Microsoft Dynamics 365 Talent: Onboard, você deve adicionar uma introdução, atividades, contatos e recursos. O Onboard permite que você inclua conteúdo avançado nos seus guias de integração, incluindo:
 
 - Vídeos do YouTube
 - Apresentações do Microsoft Sway
@@ -124,7 +124,7 @@ Para enviar as alterações:
 
     - Para adicionar um vídeo do YouTube, arraste o item do **YouTube** para a área de edição, informe um nome e descrição para a atividade e insira o URL do vídeo do YouTube.
     - Para adicionar uma apresentação ou boletim, arraste o item **Sway** para a área de edição, informe um nome e descrição da atividade e informe o URL incorporado para a apresentação ou boletim Sway.
-    - Para adicionar um aplicativo PowerApps, arraste o item do **PowerApps** para a área de edição, informe um nome e descrição para a atividade e selecione o aplicativo PowerApps ou informe o ID do aplicativo PowerApps.
+    - Para adicionar um aplicativo do PowerApps, arraste o item **PowerApps** para a área de edição, insira um nome e uma descrição para a atividade e selecione o aplicativo do PowerApps ou insira a ID do aplicativo do PowerApps.
     - Para adicionar um vídeo do Microsoft Stream, arraste o item do **Microsoft Stream** para a área de edição, informe um nome e descrição para a atividade e insira o URL do vídeo do Microsoft Stream.
     - Para adicionar um form do Microsoft Forms, arraste o item do **Microsoft Forms** para a área de edição, informe um nome e uma descrição da atividade, informe o URL do formulário do Microsoft Forms e especifique o tamanho da área da tela.
     - Para adicionar um iframe que contém conteúdo da Web, arraste o item de **Conteúdo da Web (iframe)** para a área de edição, informe um nome e uma descrição para a atividade, informe o URL do conteúdo da Web e especifique o tamanho da área da tela.

@@ -1,6 +1,6 @@
 ---
-title: Sincronizar contas diretamente do Sales com clientes do Finance and Operations
-description: Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar contas do Microsoft Dynamics 365 for Sales com o Microsoft Dynamics 365 for Finance and Operations.
+title: Sincronizar contas diretamente do Sales com clientes no Supply Chain Management
+description: Este tópico aborda os modelos e as tarefas subjacentes usados para sincronizar contas do Dynamics 365 Sales com o Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
@@ -19,33 +19,33 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 036389a1a52fdf15b73ab90c0a37108871a1a15e
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 4624f7e31c6dca616ff4ee824453b8971c1865e7
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1743339"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249879"
 ---
-# <a name="synchronize-accounts-directly-from-sales-to-customers-in-finance-and-operations"></a>Sincronizar contas diretamente do Sales com clientes no Finance and Operations
+# <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>Sincronizar contas diretamente do Sales com clientes no Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 > Antes de usar a solução Prospect to cash, você deve familiarizar-se com a [Integração de dados no Common Data Service para Aplicativos](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
-Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar contas diretamente do Microsoft Dynamics 365 for Sales com o Microsoft Dynamics 365 for Finance and Operations.
+Este tópico aborda os modelos e as tarefas subjacentes usados para sincronizar contas diretamente do Dynamics 365 Sales com o Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Fluxo de dados no Prospect to cash
 
-A solução Prospect to cash usa o recurso de integração de dados sincronizar dados nas instâncias do Finance and Operations e do Sales.  Os modelos Prospect to cash que estão disponíveis com o recurso Integração de dados permitem o fluxo de dados sobre contas, contatos, produtos, cotações de vendas, ordens de venda e faturas de vendas entre o Finance and Operations e o Sales. A ilustração a seguir mostra como os dados são sincronizados entre o Finance and Operations e o Sales.
+A solução Prospect to cash usa o recurso Integração de dados para sincronizar dados entre as instâncias Supply Chain Management e do Sales.  Os modelos de Prospect to cash que estão disponíveis com o recurso Integração de dados permitem o fluxo de dados sobre contas, contatos, produtos, cotações de venda, ordens de venda e faturas de venda entre o Supply Chain Management e o Sales. A ilustração a seguir mostra como os dados são sincronizados entre o Supply Chain Management e o Sales.
 
 [![Fluxo de dados em Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Modelos e tarefas
 
-Para acessar os modelos disponíveis, abra o [Centro de administração de PowerApps](https://preview.admin.powerapps.com/dataintegration). Selecione **Projetos** e, no canto superior direito, selecione **Novo projeto** para selecionar modelos públicos.
+Para acessar os modelos disponíveis, abra o [Centro de administração do PowerApps](https://preview.admin.powerapps.com/dataintegration). Selecione **Projetos** e, no canto superior direito, selecione **Novo projeto** para selecionar modelos públicos.
 
-O modelo e a tarefa subjacente a seguir são usados para sincronizar contas do Sales com o Finance and Operations:
+O modelo e as tarefas subjacentes a seguir são usados para sincronizar contas do Sales com o Supply Chain Management:
 
 - **Nome do modelo na Integração de dados:** Contas (Sales para Fin and Ops) – Direto
 - **Nome da tarefa no projeto:** Contas – Clientes
@@ -54,13 +54,13 @@ Nenhuma tarefa de sincronização é necessária para que a sincronização de c
 
 ## <a name="entity-set"></a>Conjunto de entidades
 
-| Vendas    | Finance and Operations |
+| Vendas    | Gerenciamento da Cadeia de Fornecedores |
 |----------|------------------------|
 | Contas | Clientes V2           |
 
 ## <a name="entity-flow"></a>Fluxo de entidades
 
-As contas são gerenciadas no Sales e sincronizadas com o Finance and Operations como clientes. A propriedade **É Mantido Externamente** nesses clientes é definida como **Sim** para rastrear clientes originários do Sales. Durante o faturamento, essas informações são usadas para filtrar faturas sincronizadas com o Sales.
+As contas são gerenciadas no Sales e sincronizadas com o Supply Chain Management como clientes. A propriedade **É Mantido Externamente** nesses clientes é definida como **Sim** para rastrear clientes originários do Sales. Durante o faturamento, essas informações são usadas para filtrar faturas sincronizadas com o Sales.
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Solução Prospect to cash para o Sales
 
@@ -72,21 +72,21 @@ Quando a solução de integração para o Sales é aplicada, um script de atuali
 
 ## <a name="preconditions-and-mapping-setup"></a>Precondições e configuração de mapeamento
 
-- O mapeamento **CustomerGroupId** deve ser atualizado para um valor válido no Finance and Operations. É possível especificar um valor padrão ou definir o valor usando um mapa de valores.
+- O mapeamento de **CustomerGroupId** deve ser atualizado para um valor válido no Supply Chain Management. É possível especificar um valor padrão ou definir o valor usando um mapa de valores.
 
     O valor do modelo padrão é **10**.
 
-- Ao adicionar os mapeamentos a seguir, você poderá ajudar a reduzir o número de atualizações manuais necessárias no Finance and Operations. Você pode usar um valor padrão ou um mapa de valores de, por exemplo, **País/Região** ou **Cidade**.
+- Ao adicionar os mapeamentos a seguir, você poderá ajudar a reduzir o número de atualizações manuais necessárias no Supply Chain Management. Você pode usar um valor padrão ou um mapa de valores de, por exemplo, **País/Região** ou **Cidade**.
 
-    - **SiteId** – Um site é necessário para gerar cotações e linhas da ordem de venda no Finance and Operations. Um site padrão pode ser obtido do produto ou cliente no cabeçalho da ordem.
+    - **SiteId** – Um site é necessário para gerar cotações e linhas da ordem de venda no Supply Chain Management. Um site padrão pode ser obtido do produto ou cliente no cabeçalho da ordem.
 
         O valor do modelo padrão é **1**.
 
-    - **WarehouseId** – Um depósito é necessário para processar cotações e linhas da ordem de venda no Finance and Operations. Um depósito padrão pode ser obtido do produto ou cliente no cabeçalho da ordem do Finance and Operations.
+    - **WarehouseId** – Um depósito é necessário para processar cotações e linhas da ordem de venda no Supply Chain Management. Um depósito padrão pode ser obtido do produto ou do cliente no cabeçalho da ordem do Supply Chain Management.
 
         O valor do modelo padrão é **13**.
 
-    - **LanguageId** – Um idioma é necessário para gerar cotações e ordens de venda no Finance and Operations. Por padrão, o idioma no cabeçalho da ordem do cliente é usado.
+    - **LanguageId** – Um idioma é necessário pra gerar cotações e pedidos de venda no Supply Chain Management. Por padrão, o idioma no cabeçalho da ordem do cliente é usado.
 
         O valor padrão do modelo é **en-us**.
 
@@ -98,20 +98,20 @@ Quando a solução de integração para o Sales é aplicada, um script de atuali
 As ilustrações a seguir mostram um exemplo de um mapeamento de modelo na Integração de dados. 
 
 > [!NOTE]
-> O mapeamento mostra quais informações de campo serão sincronizadas do Sales com o Finance and Operations..
+> O mapeamento mostra quais informações de campo serão sincronizadas do Sales com o Supply Chain Management.
 
 ![Mapeamento de modelo na Integração de dados](./media/accounts-direct-template-mapping-data-integrator-1.png)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 
-[Prospect to cash](prospect-to-cash.md)
+[Cliente potencial ao pagamento à vista](prospect-to-cash.md)
 
-[Sincronizar contas diretamente do Sales com clientes do Finance and Operations](accounts-template-mapping-direct.md)
+[Sincronizar contas diretamente do Sales com clientes no Supply Chain Management](accounts-template-mapping-direct.md)
 
-[Sincronizar contatos diretamente do Sales com contatos ou clientes do Finance and Operations](contacts-template-mapping-direct.md)
+[Sincronizar contatos diretamente do Sales com contatos ou clientes do Supply Chain Management](contacts-template-mapping-direct.md)
 
-[Sincronizar cabeçalhos e linhas de ordem de venda diretamente do Finance and Operations com o Sales](sales-order-template-mapping-direct-two-ways.md)
+[Sincronizar cabeçalhos e linhas da ordem de venda diretamente do Supply Chain Management com o Sales](sales-order-template-mapping-direct-two-ways.md)
 
-[Sincronizar cabeçalhos e linhas de fatura diretamente do Finance and Operations com o Sales](sales-invoice-template-mapping-direct.md)
+[Sincronizar cabeçalhos e linhas da fatura de venda diretamente do Supply Chain Management com o Sales](sales-invoice-template-mapping-direct.md)
 

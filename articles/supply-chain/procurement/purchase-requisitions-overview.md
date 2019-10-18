@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f279474d4a1e2f76e810b0df80c8d91171352c17
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 0e571f5c83affa56c230e1f597e219eb60973225
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572016"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248861"
 ---
 # <a name="purchase-requisition-overview"></a>Visualização geral da requisição de compra
 
@@ -38,7 +38,7 @@ Depois que uma requisição de compra for aprovada, ela poderá ser usada para g
 ## <a name="creating-purchase-requisitions"></a>Criar requisições de compra
 Você pode criar uma requisição de compra na página **Minhas requisições de compra** e selecione os itens e os serviços exigidos. Você pode selecionar itens de um catálogo de compras que sua organização criou ou pode solicitar os itens que não estejam localizados em um catálogo ao selecionar uma categoria de compras e inserir os detalhes do produto.  
 
-Antes que você possa enviar uma requisição de compra para revisão, os fluxos de trabalho deverão ser configurados no Microsoft Dynamics 365 for Finance and Operations. Use um sistema de fluxo de trabalho para mover uma requisição de compra por um processo de revisão com um status inicial **Rascunho** para um status final **Aprovado**.
+Para que você possa enviar uma requisição de compra para revisão, os fluxos de trabalho deverão ser configurados. Use um sistema de fluxo de trabalho para mover uma requisição de compra por um processo de revisão com um status inicial **Rascunho** para um status final **Aprovado**.
 
 ### <a name="purchase-requisition-statuses"></a>Status de requisições de compra
 
@@ -141,7 +141,7 @@ Nas políticas de compras, você pode controlar os objetivos da requisição que
 
 ### <a name="requisitions-that-have-a-purpose-of-consumption"></a>Requisições que têm um objetivo de consumo
 
-Uma requisição com o objetivo de consumo representa a demanda para itens e serviços que serão usados internamente pela organização. A demanda criada com esse tipo de requisição é sempre cumprida por uma ordem de compra. Se o Microsoft Dynamics 365 for Finance and Operations estiver configurado para gerar automaticamente ordens de compra, ordens de compra serão criadas após a requisição de compra ser aprovada.
+Uma requisição com o objetivo de consumo representa a demanda para itens e serviços que serão usados internamente pela organização. A demanda criada com esse tipo de requisição é sempre cumprida por uma ordem de compra. Se o Supply Chain Management for configurado para gerar ordens de compra automaticamente, essas ordens serão criadas após aprovação da requisição de compra.
 
 ### <a name="requisitions-that-have-a-purpose-of-replenishment"></a>Requisições que têm um objetivo de reabastecimento
 

@@ -3,7 +3,7 @@ title: ​Configurações de cobertura​
 description: Este tópico fornece informações sobre as configurações de cobertura que o agendamento do planejamento mestre usa para calcular os requisitos do item.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99e094a7131b6d3a299fc72abd0141529908ddd2
-ms.sourcegitcommit: 9e50bee6a67f0fe2fa6f86e02c7e8de16d0e2482
+ms.openlocfilehash: 3a63184852751bb65fb7e80d721f8c48fd847609
+ms.sourcegitcommit: edfd805356894710488ce07cb1c89313f448b222
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538885"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "1998962"
 ---
 # <a name="coverage-settings"></a>​Configurações de cobertura​
 
@@ -49,6 +49,19 @@ Você pode especificar as configurações de cobertura de várias formas:
 - Especifique as configurações de cobertura para um grupo de dimensões.
 
     Vá para **Gerenciamento de informações do produto &gt; Produtos &gt; Produtos liberados**. Na página **Detalhes do produto liberado**, na Guia Rápida **Geral**, na seção **Administração**, selecione o link no campo **Grupo de dimensões de armazenamento**. Na página **Grupos de dimensões de armazenamento**, marque a caixa de seleção **Plano de cobertura por dimensão** para criar as configurações de cobertura de uma dimensão no grupo de dimensão de armazenamento. O campo **Plano de cobertura por dimensão** deve ser selecionado para todas as dimensões do produto, como configuração, cor, tamanho e estilo.
+
+
+## <a name="coverage-codes"></a>Códigos de cobertura
+
+O planejamento mestre pode ser configurado para usar diversos métodos de reabastecimento. Os métodos de reabastecimento ou métodos de dimensionamento de lote são as técnicas usadas pelo sistema para determinar o tamanho do lote de itens comprados ou fabricados. 
+
+A cada método de reabastecimento é atribuído um dos seguintes códigos de cobertura:
+
+- **Manual** - Método de dimensionamento de lote em que o sistema não sugere ordens de compra, transferência ou produção para o item. O planejador do item será responsável pela criação das ordens necessárias para o reabastecimento do item.
+- **Por requisição** - Método de dimensionamento de lote em que o sistema cria uma ordem de compra, transferência ou produção planejada por requisição do item. Em geral, é usado para itens caros com demanda intermitente.  
+- **Por período** - Método de dimensionamento de lote que combinando toda a demanda de um período em uma ordem do item. A ordem será planejada para o primeiro dia do período e sua quantidade preencherá as requisições líquidas durante o período estabelecido. O período começa com a primeira a demanda do item e abrange o tempo definido. O período seguinte começará com as requisições seguintes do item.
+- **Mín./máx.** - Método de dimensionamento de lote que contém o reabastecimento do estoque até um determinado nível quando o disponível previsto está abaixo de um limite. A quantidade do reabastecimento será a diferença entre o nível máximo e o nível disponível previsto.
+
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

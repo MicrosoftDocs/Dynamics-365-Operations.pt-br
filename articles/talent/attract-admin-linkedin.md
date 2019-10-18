@@ -1,6 +1,6 @@
 ---
-title: Configurar a integração com o LinkedIn para o Microsoft Dynamics 365 for Talent - Attract
-description: Este tópico explica como configurar a integração com o LinkedIn para o Microsoft Dynamics 365 for Talent - Attract para que você possa lançar trabalhos com facilidade no LinkedIn por meio do Attract, e para que seus recrutadores possam sincronizar suas informações de recrutamento com o perfil do LinkedIn de um candidato.
+title: Configurar a integração com o LinkedIn para o Microsoft Dynamics 365 Talent - Attract
+description: Este tópico explica como configurar a integração com o LinkedIn para o Microsoft Dynamics 365 Talent - Attract para que você possa postar trabalhos com facilidade no LinkedIn por meio do Attract, e para que seus recrutadores possam sincronizar suas informações de recrutamento com o perfil do LinkedIn de um candidato.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8e42ec7d0bb74089b4e915b5a30277401e694cf9
-ms.sourcegitcommit: c62756cb04549b2ff5de9b93d497e964a340335a
+ms.openlocfilehash: 6b86cafdf364f2de051f3d8ceab7413c2c13c3a5
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756213"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009960"
 ---
 # <a name="set-up-linkedin-integration"></a>Configurar a integração com o LinkedIn
 
 [!include[banner](../includes/banner.md)]
 
-Ajude os recrutadores e gerentes de contratação a atrair os melhores talentos configurando a integração do LinkedIn com o Microsoft Dynamics 365 for Talent: Attract. O Attract permite que você lance trabalhos diretamente no LinkedIn, a maior rede profissional online.
+Ajude os recrutadores e gerentes de contratação a atrair os melhores talentos configurando a integração do LinkedIn com o Microsoft Dynamics 365 Talent: Attract. O Attract permite que você lance trabalhos diretamente no LinkedIn, a maior rede profissional online.
 
 Os trabalhos que você lança no LinkedIn pelo Attract são Listagens Limitadas e são fornecidos sem custo adicional para sua empresa. Essas listagens estão disponíveis somente por meio dos parceiros de software do LinkedIn, como o Attract. Elas não são exibidas no painel **Carreiras** na página do LinkedIn de sua empresa porque somente as listagens pagas são exibidas nele. No entanto, elas são exibidas quando candidatos potenciais exibem todos os trabalhos disponíveis. As Listagens Limitadas também são exibidas nas pesquisas de trabalhos do LinkedIn.
 

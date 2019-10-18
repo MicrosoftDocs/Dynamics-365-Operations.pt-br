@@ -1,6 +1,6 @@
 ---
 title: Funcionalidade de vendas do call center
-description: Este tópico mostra uma visão geral da funcionalidade de vendas do call center no Microsoft Dynamics 365 for Retail.
+description: Este tópico mostra uma visão geral da funcionalidade de vendas do call center no Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/03/2018
@@ -19,26 +19,28 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8b78762ce70b318e1f77e1e49ffaa7b72f01667f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 902db94164b35077a876c8041c038af36561a634
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549471"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025762"
 ---
 # <a name="call-center-sales-functionality"></a>Funcionalidade de vendas do call center
 
 [!include [banner](includes/banner.md)]
 
-No Dynamics 365 for Retail, call center é um tipo de canal de varejo que pode ser definido no aplicativo. Definir um canal específico das entidades de call center permite que o sistema una padrões de dados específicos e padrões de processamento de ordem para ordens de vendas criadas por um usuário do canal do call center.
+
+No Dynamics 365 Retail, call center é um tipo de canal de varejo que pode ser definido no aplicativo. Definir um canal específico das entidades de call center permite que o sistema una padrões de dados específicos e padrões de processamento de ordem para ordens de vendas criadas por um usuário do canal do call center.
 
 Os recursos de call center incluem preço de varejo avançado e promoções, catálogos, cartões-presente, programas de lealdade e cupons. Ordens de call center são aproveitadas também por uma aplicação de ponto de venda (PDV) para oferecer suporte a cenários de preenchimento de ordem entre canal.
 
-É importante observar que, quando o módulo de call center pode ser utilizado por outros setores fora do varejo, a versão atual do aplicativo de call center do Dynamics 365 for Retail não foi otimizada para uso em cenários de processamento de ordens B2B (entre empresas) ou em cenários onde as ordens têm muitas linhas de venda. Recomenda-se que os usuários que desejam utilizar os recursos do call center para processamento de ordem fora de um processamento de transação direto ao consumidor típico, levem o tempo adequado para testar e validar essa funcionalidade de call center para estar compatível com as necessidades funcional e de desempenho.
+É importante observar que, embora o módulo de call center possa ser utilizado por outros setores fora do varejo, a versão atual do aplicativo de call center do Retail não foi otimizada para uso em cenários de processamento de ordens B2B (entre empresas) ou em cenários onde as ordens têm muitas linhas de venda. Recomenda-se que os usuários que desejam utilizar os recursos do call center para processamento de ordem fora de um processamento de transação direto ao consumidor típico, levem o tempo adequado para testar e validar essa funcionalidade de call center para estar compatível com as necessidades funcional e de desempenho.
 
 Além da criação da ordem de atendimento, o módulo de call center também fornece um aplicativo de serviço ao cliente amigável que facilita para que os usuários encontrem contas de cliente e examina todos os dados relacionados e atributos da ordem de cliente. A tela de serviço do cliente é projetada para habilitar um usuário a acessar rapidamente os dados da ordem relacionada que permitirão que eles respondam às questões relacionadas a ordem mais comuns recebidas dos clientes.
 
-Esta página fornece links para a documentação relevante relacionada à instalação, à configuração e ao uso funcional de recursos de call center no Dynamics 365 for Retail.
+Esta página fornece links para a documentação relevante relacionada à instalação, à configuração e ao uso funcional de recursos de call center no Retail.
+
 
 ## <a name="configure-the-call-center"></a>Configurar o call center
 

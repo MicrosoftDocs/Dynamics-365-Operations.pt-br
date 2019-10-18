@@ -1,6 +1,6 @@
 ---
 title: Reconciliar frete no gerenciamento de transporte
-description: Este artigo descreve o processo de reconciliação de frete.
+description: Este tópico descreve o processo de reconciliação de frete.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f92808f904ba93513e20b74bd2b597712cb93d4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: eb3ba06f4fa8cc4af952619d06a58e605ff87e2a
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560923"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251560"
 ---
 # <a name="reconcile-freight-in-transportation-management"></a>Reconciliar frete no gerenciamento de transporte
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo descreve o processo de reconciliação de frete.
+Este tópico descreve o processo de reconciliação de frete.
 
 Reconciliação de frete pode ser feita manualmente, ou pode ser configurada para ocorrer automaticamente. Para usar a reconciliação automática de frete, você deve configurar um mestre de auditoria em que você possa definir os critérios que determinam quais listas de frete são comparadas automaticamente.
 
@@ -40,8 +40,8 @@ Taxas de frete são calculadas pelo mecanismo de taxa que está associado com o 
 [![Processo de reconciliação de frete](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
 
 ## <a name="manual-reconciliation"></a>Reconciliação manual
-Se você estiver reconciliando o frete manualmente, você deve corresponder cada linha da fatura com a linha de cobrança de frete ou linhas para a carga que está sendo faturada. Você faz essa correspondência na página **Conciliação de faturas e notas de frete**. Se a quantidade na linha da fatura não coincidir com o valor de cobrança de frete, você deve selecionar um motivo de reconciliação para a diferença. Se existirem vários motivos para reconciliação, você pode dividir o valor incomparável entre elas. O motivo da reconciliação determina como os valores de diferença são lançados na contabilidade. Quando a reconciliação do valor da fatura inteira é contabilizada, ela é enviada para aprovação e o diário é lançado. A ilustração a seguir mostra como gerar uma fatura de frete e executar a reconciliação de frete no Microsoft Dynamics 365 for Finance and Operations. 
-[![Tarefas de reconciliação de frete no Dynamics AX](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
+Se você estiver reconciliando o frete manualmente, você deve corresponder cada linha da fatura com a linha de cobrança de frete ou linhas para a carga que está sendo faturada. Você faz essa correspondência na página **Conciliação de faturas e notas de frete**. Se a quantidade na linha da fatura não coincidir com o valor de cobrança de frete, você deve selecionar um motivo de reconciliação para a diferença. Se existirem vários motivos para reconciliação, você pode dividir o valor incomparável entre elas. O motivo da reconciliação determina como os valores de diferença são lançados na contabilidade. Quando a reconciliação do valor da fatura inteira é contabilizada, ela é enviada para aprovação e o diário é lançado. A ilustração a seguir mostra como gerar uma fatura de frete e executar a reconciliação de frete. 
+[![Tarefas de reconciliação de frete](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
 ## <a name="automatic-reconciliation"></a>Reconciliação automática
 Para usar a reconciliação automática, você deve especificar a agenda de reconciliação e as faturas e transportadoras a serem usadas. A correspondência das linhas da fatura e listas de frete é feita de acordo com a configuração de tipo de cobrança de frete e mestre de auditoria. Depois de executar a reconciliação automática, você deve lidar com todas as faturas que não são compatíveis com o sistema. Você deve processar essas faturas manualmente antes de lançar as faturas para pagamento.
 

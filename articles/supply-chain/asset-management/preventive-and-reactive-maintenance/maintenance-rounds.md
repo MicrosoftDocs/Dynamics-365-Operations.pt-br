@@ -3,7 +3,7 @@ title: Rounds de manutenção
 description: Este tópico explica os rounds de manutenção no Gerenciamento de Ativos.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,22 +16,20 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a0ac4820d2efa37387382c2890e3ddc7dbc0878b
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: eca732f245650c8e1f3dc976454536a0ab1ee117
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875501"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922013"
 ---
 # <a name="maintenance-rounds"></a>Rounds de manutenção
-
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [banner](../../includes/preview-banner.md)]
-
 
 No **Gerenciamento de Ativos**, você pode criar rounds de manutenção para vários ativos nos quais você precisa executar uma tarefa semelhante em intervalos regulares. Por exemplo, trabalhos de lubrificação ou trabalhos de inspeção de segurança que precisam ser realizados em várias máquinas dentro dos mesmos intervalos. A primeira etapa é criar um round de manutenção, incluindo os ativos que exigem o mesmo trabalho do formulário de manutenção. Em seguida, você agenda os rounds de manutenção. Quando tiver concluído o agendamento de rounds de manutenção, você verá todos os registros do trabalho referentes ao round em **Todos agendamentos de manutenção** e nas **Linhas de agendamento de manutenção abertas**.
 
@@ -83,12 +81,14 @@ No **Gerenciamento de Ativos**, você pode criar rounds de manutenção para vá
 >[!NOTE]
 >Os campos **Ativos** e **Linhas** localizados no grupo **Detalhes** na Guia Rápida **Cabeçalho** mostram o número total de ativos e linhas relacionados ao round de manutenção selecionado.
 
+A ilustração a seguir mostra um exemplo de um round de manutenção contendo três ativos.
+
 ![Figura 1](media/13-preventive-maintenance.png)
 
 
 ## <a name="schedule-maintenance-rounds"></a>Agendar rounds de manutenção
 
-Ao configurar um round de manutenção, você executa um trabalho de agendamento para agendar todos os trabalhos relacionados ao round de manutenção.
+Ao configurar um round de manutenção, você executa um trabalho de agendamento para agendar todos os trabalhos relacionados a ele.
 
 1. Clique no botão **Gerenciamento de ativos** > **Periódico** > **Manutenção preventiva** > **Agendar rounds de manutenção** ou **Gerenciamento de ativos** > **Comum** > **Agendamento de manutenção** > **Todo agendamento de manutenção** ou **Abrir linhas de agendamento de manutenção** ou **Abrir grupos de agendamento de manutenção** > selecione linha de agendamento de manutenção na lista > **Rounds de manutenção**.
 
@@ -106,6 +106,8 @@ Ao configurar um round de manutenção, você executa um trabalho de agendamento
 6. Clique em **OK**.
 
 7. Agora você pode ver os trabalhos dos rounds de manutenção no **Gerenciamento de ativos** > **Comum** > **Agendamento de manutenção** > **Todo agendamento de manutenção** ou **Abrir linhas de agendamento de manutenção**. Se os rounds programados forem conectados a um grupo de ordem de serviço, você também poderá ver as linhas de agendamento de manutenção em **Abrir grupos de agendamento de manutenção**. As linhas de agendamento de manutenção criadas a partir de um round têm o tipo de referência "Rounds de manutenção".
+
+As duas ilustrações a seguir mostram um trabalho de agendamento na caixa de diálogo **Agendar rounds de manutenção** e as linhas do agendamento de manutenção criadas em **Todos os agendamentos de manutenção** com base nesse trabalho de agendamento.
 
 ![Figura 2](media/14-preventive-maintenance.png)
 

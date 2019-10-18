@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7ad3c3fd17e88f364be12c122e2f5c155b7b9064
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e600e1d2bb4bc1a49d55fb58b3e74fa7e13fc2af
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556427"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017888"
 ---
 # <a name="shift-and-cash-drawer-management"></a>Gerenciamento de turnos e gaveta de dinheiro
 
@@ -32,7 +32,7 @@ ms.locfileid: "1556427"
 
 Este tópico explica como configurar e utilizar turnos no ponto de venda (PDV) de varejo.
 
-No Microsoft Dynamics 365 for Retail, o termo *turno* descreve o conjunto de dados transacionais e atividades de PDV entre dois momentos. Para cada turno, o valor em dinheiro esperado é comparado ao valor que foi contado e declarado.
+No Dynamics 365 Retail, o termo *turno* descreve o conjunto de dados transacionais e atividades de PDV entre dois momentos. Para cada turno, o valor em dinheiro esperado é comparado ao valor que foi contado e declarado.
 
 Normalmente, os turnos são abertos no início do dia útil. Nesse momento, um usuário declara o valor inicial que a gaveta de dinheiro contém. As transações de vendas são realizadas ao longo do dia. Por fim, ao final do dia, a gaveta é contada e os valores finais são declarados. O turno é fechado e uma redução Z é gerada. A redução Z indica se há excedente ou escassez.
 
@@ -69,7 +69,7 @@ Para que os turnos compartilhados sejam usados em uma loja, a gaveta de dinheiro
 
 ## <a name="shift-and-drawer-operations"></a>Operações de turno e de gaveta
 
-Várias operações podem ser realizadas para alterar o estado de um turno, ou para aumentar ou diminuir a quantidade de dinheiro na gaveta. Esta seção descreve essas operações de turnos para o Microsoft Dynamics 365 for Retail Modern POS e Cloud POS.
+Várias operações podem ser realizadas para alterar o estado de um turno, ou para aumentar ou diminuir a quantidade de dinheiro na gaveta. Esta seção descreve essas operações de turnos para o Retail Modern POS e o PDV em Nuvem.
 
 ### <a name="open-shift"></a>Turno aberto
 

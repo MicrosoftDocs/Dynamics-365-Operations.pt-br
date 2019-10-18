@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d908b9e58da06646e07ddc5fc4d937cc1f1849cd
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 883337979201b3059b301b7aebf9952a70016989
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563588"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250607"
 ---
 # <a name="product-configuration-models-overview"></a>Visão geral dos modelos de configuração de produto
 
@@ -118,7 +118,7 @@ Se o tipo de atributo for <strong>Booliano</strong>, <strong>Inteiro</strong> co
 </tr>
 </tbody>
 </table>
-Uma restrição de tabela definida pelo sistema representa um mapeamento entre um tipo de atributo e um campo em uma tabela do Finanças e Operações. Uma restrição de tabela definida pelo sistema vincula dinamicamente o tipo de atributo ao campo. O link habilita o atributo em um modelo de configuração de produto para refletir os dados do campo na tabela do Finanças e Operações.</td>
+Uma restrição de tabela definida pelo sistema representa um mapeamento entre um tipo de atributo e um campo em uma tabela do Finanças e Operações. Uma restrição de tabela definida pelo sistema vincula dinamicamente o tipo de atributo ao campo. O link habilita o atributo em um modelo de configuração de produto para refletir os dados do campo na tabela do Supply Chain Management.</td>
 </tr>
 <tr class="odd">
 <td>Cálculos</td>

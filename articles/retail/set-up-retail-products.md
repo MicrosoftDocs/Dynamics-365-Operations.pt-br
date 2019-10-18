@@ -1,6 +1,6 @@
 ---
 title: Configurar produtos de varejo
-description: Este artigo descreve como configurar produtos de revenda no Microsoft Dynamics 365 for Retail.
+description: Este artigo descreve como configurar produtos de revenda no Dynamics 365 Retail.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,22 +19,22 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 991546424a95463315eaa73c2776d0defe66def5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 74fa3a87ac2993adca3edf003bbc39371ce8e289
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546240"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024766"
 ---
 # <a name="set-up-retail-products"></a>Configurar produtos de varejo
 
 [!include [banner](includes/banner.md)]
 
-Este artigo descreve como configurar produtos de revenda no Microsoft Dynamics 365 for Retail.
+Este artigo descreve como configurar produtos de revenda no Dynamics 365 Retail.
 
-Antes que você possa oferece produtos para revenda nos canais de varejo, é necessário criar e configurar os produtos no Dynamics 365 for Retail. O varejo usará os recursos de produto no Dynamics 365 for Retail para criar produtos no nível da organização no produto mestre. É possível criar os produtos, definir as propriedades e os atributos dos produtos, bem como atribuir os produtos a hierarquias de categoria de varejo. Para tornar os produtos disponíveis em seus canais de varejo e adicioná-los a um sortimento ativo, é preciso liberar os produtos para as entidades legais em que estão disponíveis. Para configurar os produtos vendidos usando canais de varejo, conclua as seguintes tarefas.
+Antes que você possa oferece produtos para revenda nos canais de varejo, é necessário criar e configurar os produtos no Dynamics 365 Retail. O Retail cria produtos para toda a organização no produto mestre. Você pode criar os produtos, definir as propriedades e os atributos dos produtos, e atribuir os produtos a hierarquias de categoria de varejo. Para tornar os produtos disponíveis em seus canais de varejo e adicioná-los a um sortimento ativo, é preciso liberar os produtos para as entidades legais em que estão disponíveis. Para configurar os produtos vendidos usando canais de varejo, conclua as seguintes tarefas.
 
-1. Defina uma hierarquia de produtos de varejo. Usando os recursos de hierarquia de categoria do Dynamics 365 for Retail, você pode definir as hierarquias de categoria de varejo para agrupar e categorizar os produtos que você distribuir em seus canais de varejo. Atributos definidos pelo usuário e pelo sistema podem ser definidos no nível de categoria. Em seguida, todos os produtos atribuídos à categoria herdam esses atributos. Várias hierarquias de categoria podem ser definidas, e cada produto pode ser atribuído a várias hierarquias. No entanto, em uma única hierarquia, cada produto pode ser atribuídos a apenas uma categoria.
+1. Defina uma hierarquia de produtos de varejo. Usando os recursos de hierarquia de categoria do Retail, você pode definir as hierarquias de categoria de varejo para agrupar e categorizar os produtos que você distribuir em seus canais de varejo. Atributos definidos pelo usuário e pelo sistema podem ser definidos no nível de categoria. Em seguida, todos os produtos atribuídos à categoria herdam esses atributos. Várias hierarquias de categoria podem ser definidas, e cada produto pode ser atribuído a várias hierarquias. No entanto, em uma única hierarquia, cada produto pode ser atribuídos a apenas uma categoria.
 2. Adicione produtos e variantes de produto ao produto mestre. Os produtos que são adicionados ao produto mestre representam uma lista global de produtos. Você pode adicionar produtos manualmente, um de cada vez, ou pode importar dados de produtos de seus fornecedores.
 3. Libere os produtos para entidades legais. Somente os produtos liberados para entidades legais podem ser disponibilizados em seus canais de varejo. Ao definir um produto pela primeira vez, você define-o no nível da organização. Depois, você pode selecionar uma ou mais entidades legais para liberar os produtos. Feito isso, os produtos são disponibilizados para vários canais de varejo da sua organização. Você pode usar essa funcionalidade para criar um produto uma vez, adicionar e atualizar atributos e propriedades de produtos em um local, e distribuir o produto em sua organização, para os canais de varejo na qual ela está disponível.
 4. Adicione produtos a classificações. Uma classificação representa um conjunto de produtos que você oferece em seus canais de varejo. Você pode definir uma ou várias classificações, e cada produto pode ser atribuído a uma ou várias classificações. Para atribuir produtos a canais de varejo, atribua as classificações a esses canais de varejo. Ao criar um sortimento, você pode adicionar produtos que ainda não foram liberados para uma entidade legal. No entanto, você deve liberar os produtos para uma entidade legal para que eles possam ser disponibilizados nos canais de varejo.
