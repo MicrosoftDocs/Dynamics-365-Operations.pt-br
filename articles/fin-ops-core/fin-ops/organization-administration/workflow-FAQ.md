@@ -1,0 +1,53 @@
+---
+title: Perguntas frequentes sobre fluxo de trabalho
+description: Esse tópico responde perguntas frequentes sobre o sistema de fluxo de trabalho.
+author: ChrisGarty
+manager: AnnBe
+ms.date: 06/19/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User, IT Pro
+ms.reviewer: sericks
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: cgarty
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 14aa9b56da005e8e3ca121589d0e22c60f34343b
+ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2189766"
+---
+# <a name="workflow-faq"></a><span data-ttu-id="2fae9-103">Perguntas frequentes sobre fluxo de trabalho</span><span class="sxs-lookup"><span data-stu-id="2fae9-103">Workflow FAQ</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="2fae9-104">Esse tópico responde perguntas frequentes sobre o sistema de fluxo de trabalho.</span><span class="sxs-lookup"><span data-stu-id="2fae9-104">This topic answers frequently asked questions about the workflow system.</span></span>
+
+## <a name="why-are-multiple-notifications-received-when-a-work-item-is-rejected"></a><span data-ttu-id="2fae9-105">Por que várias notificações são recebidas quando um item de trabalho é rejeitado?</span><span class="sxs-lookup"><span data-stu-id="2fae9-105">Why are multiple notifications received when a work item is rejected?</span></span>
+<span data-ttu-id="2fae9-106">Quando um item de trabalho é rejeitado, esse item de trabalho é concluído como anulado.</span><span class="sxs-lookup"><span data-stu-id="2fae9-106">When a work item is rejected, that work item is completed as rejected.</span></span> <span data-ttu-id="2fae9-107">Outro item de trabalho é criado e atribuído ao originador.</span><span class="sxs-lookup"><span data-stu-id="2fae9-107">Another work item is created and assigned to the originator.</span></span> <span data-ttu-id="2fae9-108">Isso significa que há uma notificação para o originador do item de trabalho rejeitado, e uma notificação separada para o usuário atribuído ao novo item de trabalho com "alteração solicitada".</span><span class="sxs-lookup"><span data-stu-id="2fae9-108">This means that there is a notification to the originator for the rejected work item, and a separate notification to the user assigned to the new "change requested" work item.</span></span> 
+
+<span data-ttu-id="2fae9-109">Cada notificação é para um item de trabalho diferente, mas a similaridade pode causar confusão.</span><span class="sxs-lookup"><span data-stu-id="2fae9-109">Each notification is for a different work item, but the similarity can cause confusion.</span></span> <span data-ttu-id="2fae9-110">Sempre estamos de olho em formas para aprimorar isso em uma versão futura.</span><span class="sxs-lookup"><span data-stu-id="2fae9-110">We are looking at ways to improve this in a future release.</span></span>
+
+## <a name="why-are-my-workflow-exports-failing"></a><span data-ttu-id="2fae9-111">Por que minhas exportações de fluxo de trabalho estão falhando?</span><span class="sxs-lookup"><span data-stu-id="2fae9-111">Why are my workflow exports failing?</span></span>
+<span data-ttu-id="2fae9-112">Atualmente, existe uma limitação no recurso de exportação de fluxo de trabalho para prevenir que nomes de fluxo de trabalho excedam 48 caracteres.</span><span class="sxs-lookup"><span data-stu-id="2fae9-112">There is currently a limitation in the workflow export feature that prevents workflow names from exceeding 48 characters.</span></span> <span data-ttu-id="2fae9-113">Usar um nome maior que 48 caracteres pode resultar em um erro de "Falha do servidor ao autenticar a solicitação" e/ou prevenir que um arquivo seja exportado sem um tipo de arquivo.</span><span class="sxs-lookup"><span data-stu-id="2fae9-113">Using a name that is longer than 48 characters can result in a "Server failed to authenticate the request" error and/or prevent a file to be exported  without a file type.</span></span> <span data-ttu-id="2fae9-114">A postagem de blog a seguir fornece mais detalhes [Solução de problemas na exportação do fluxo de trabalho](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting).</span><span class="sxs-lookup"><span data-stu-id="2fae9-114">The following blog post provides more details [Workflow Export Troubleshooting](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting).</span></span>
+
+## <a name="can-the-submitter-of-a-workflow-also-approve-the-workflow"></a><span data-ttu-id="2fae9-115">O emissor de um fluxo de trabalho também pode aprovar o fluxo de trabalho?</span><span class="sxs-lookup"><span data-stu-id="2fae9-115">Can the submitter of a workflow also approve the workflow?</span></span>
+<span data-ttu-id="2fae9-116">Sim, um emissor de fluxo de trabalho também poderá aprovar o fluxo de trabalho se ele estiver configurado dessa forma.</span><span class="sxs-lookup"><span data-stu-id="2fae9-116">Yes, a submitter of a workflow can also approve the workflow if it is configured that way.</span></span> <span data-ttu-id="2fae9-117">Para evitar esse comportamento, defina **Parâmetros de fluxo de trabalho > Geral > Aprovador > Proibir aprovação pelo emissor** como **Sim**.</span><span class="sxs-lookup"><span data-stu-id="2fae9-117">To prevent this behavior, set **Workflow parameters > General > Approver > Disallow approval by submitter** to **Yes**.</span></span>
+
+## <a name="can-i-add-alerts-to-workflows-to-provide-notifications-to-users"></a><span data-ttu-id="2fae9-118">Posso adicionar alertas a fluxos de trabalho para fornecer notificações a usuários?</span><span class="sxs-lookup"><span data-stu-id="2fae9-118">Can I add alerts to workflows to provide notifications to users?</span></span>
+<span data-ttu-id="2fae9-119">Estes são alguns pontos importantes a serem observados para adicionar alertas a fluxos de trabalho para fornecer notificações:</span><span class="sxs-lookup"><span data-stu-id="2fae9-119">Here are a few key areas to note about adding alerts to workflows to provide notifications:</span></span>
+- <span data-ttu-id="2fae9-120">Alertas versus mecanismos de notificação de fluxo de trabalho</span><span class="sxs-lookup"><span data-stu-id="2fae9-120">Alerts versus workflow notification mechanisms</span></span>
+    - <span data-ttu-id="2fae9-121">Os alertas podem ser configuradas para alterações de registro.</span><span class="sxs-lookup"><span data-stu-id="2fae9-121">Alerts can be set up for record changes.</span></span> <span data-ttu-id="2fae9-122">Os fluxos de trabalho alteram registros. Então, é possível configurar um alerta relacionado a uma alteração de registro causada por um fluxo de trabalho.</span><span class="sxs-lookup"><span data-stu-id="2fae9-122">Workflows change records, so it's possible to set up an alert related to a record change caused by a workflow.</span></span> <span data-ttu-id="2fae9-123">Porém, como os fluxos de trabalho têm opções de notificação internas diferentes, o uso de alertas não é ideal.</span><span class="sxs-lookup"><span data-stu-id="2fae9-123">However, because workflows have different built-in notification options, using alerts isn’t ideal.</span></span>
+- <span data-ttu-id="2fae9-124">Notificações padrão de fluxos de trabalho</span><span class="sxs-lookup"><span data-stu-id="2fae9-124">Standard notifications from workflows</span></span> 
+    - <span data-ttu-id="2fae9-125">Os fluxos de trabalho têm notificações de email internas.</span><span class="sxs-lookup"><span data-stu-id="2fae9-125">Workflows have built in email notifications.</span></span> <span data-ttu-id="2fae9-126">Um cliente pode configurar as notificações para que os usuários recebam emails.</span><span class="sxs-lookup"><span data-stu-id="2fae9-126">A customer can configure the notifications so that the users are sent emails.</span></span> <span data-ttu-id="2fae9-127">Essas notificações não resultam em mensagens da Central de Ações para usuários.</span><span class="sxs-lookup"><span data-stu-id="2fae9-127">Those notifications don’t result in Action Center messages for users.</span></span>
+    - <span data-ttu-id="2fae9-128">Em uma atualização futura, adicionaremos uma mensagem da Central de Ações para que seja atribuído um item de trabalho de fluxo de trabalho a um usuário.</span><span class="sxs-lookup"><span data-stu-id="2fae9-128">In a future update we will be adding an Action Center message so a user is assigned a workflow work item.</span></span> 
+- <span data-ttu-id="2fae9-129">Como adicionar notificações a fluxos de trabalho</span><span class="sxs-lookup"><span data-stu-id="2fae9-129">Adding notifications to workflows</span></span>
+    - <span data-ttu-id="2fae9-130">As mensagens da Central de Ações podem ser criadas para usuários específicos, como uma mensagem criada de um fluxo de trabalho em X++.</span><span class="sxs-lookup"><span data-stu-id="2fae9-130">Action Center messages can be created for specific users, such as a message created from a workflow in X++.</span></span>
+    - <span data-ttu-id="2fae9-131">[Fluxos de trabalho têm Eventos de Negócios](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) que o cliente pode usar para disparar fluxos com as notificações que ele está procurando.</span><span class="sxs-lookup"><span data-stu-id="2fae9-131">[Workflows have Business Events](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) that the customer could use to trigger Flows have the notifications that they are looking for.</span></span>   
+
+<span data-ttu-id="2fae9-132">Em resumo, se um usuário não receber a notificação adequada da Central de Ações quando um item de trabalho de fluxo de trabalho for atribuído a ele, aproveite [Eventos de Negócios de Fluxo de Trabalho](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) com o Microsoft Flow para fornecer notificações adicionais ou diferentes.</span><span class="sxs-lookup"><span data-stu-id="2fae9-132">In summary, if a user does not get the proper notification from the Action Center when they are assigned a workflow work item, then leverage [Workflow Business Events](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) with Microsoft Flow to provide additional or different notifications.</span></span>
