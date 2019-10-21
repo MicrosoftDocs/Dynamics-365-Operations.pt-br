@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b42f86fc243312d18654b1a048f9dffb29afd187
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: afd4509bc9bdff345e48a590a12cc84ae25aebb8
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550061"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018416"
 ---
 # <a name="generate-and-run-out-of-box-reports"></a>Gerenciar e a executar saída de relatórios de caixa
 
@@ -43,7 +43,7 @@ A empresa de dados de demonstração usada para criar este registro é a USRT. E
 5. No campo Para data, insira uma data.
 6. No campo Canal, clique no botão suspenso para abrir a pesquisa.
 7. Na árvore, selecione 'Contoso Retail\Contoso Retail USA\Central\Houston'.
-    * Isso mostra a hierarquia da organização de varejo padrão para fins de relatórios de varejo.   Vá para Administração da organização > Organizações  > Finalidades da hierarquia da organização e escolha Relatório de varejo e, em Hierarquias atribuídas, verifique o nome da hierarquia para a qual a coluna Padrão estiver marcada.      Como parte dos dados de demonstração (usados para a gravação desta tarefa), você pode notar que Lojas de varejo por região é a hierarquia da organização padrão para a finalidade de relatórios de varejo.     
+    * Isso mostra a hierarquia da organização de varejo padrão para fins de relatórios de varejo.   Vá para Administração da organização > Organizações > Finalidades da hierarquia da organização e escolha Relatório de varejo e, em Hierarquias atribuídas, verifique o nome da hierarquia para a qual a coluna Padrão está marcada. Como parte dos dados de demonstração (usados para a gravação desta tarefa), você pode notar que Lojas de varejo por região é a hierarquia da organização padrão para a finalidade de relatórios de varejo.     
 8. Clique em OK.
 9. No campo Exibir, selecione uma opção.
 10. No campo Por, selecione uma opção.
@@ -55,7 +55,7 @@ A empresa de dados de demonstração usada para criar este registro é a USRT. E
 3. No campo Para data, insira uma data.
 4. No campo Canal, clique no botão suspenso para abrir a pesquisa.
 5. Na árvore, selecione 'Contoso Retail\Contoso Retail USA\West\Seattle'.
-    * Isso mostra a hierarquia da organização de varejo padrão para fins de relatórios de varejo.   Vá para Administração da organização > Organizações  > Finalidades da hierarquia da organização e escolha Relatório de varejo e, em Hierarquias atribuídas, verifique o nome da hierarquia para a qual a coluna Padrão estiver marcada.      Como parte dos dados de demonstração (usados para a gravação desta tarefa), você pode notar que Lojas de varejo por região é a hierarquia da organização padrão para a finalidade de relatórios de varejo.     
+    * Isso mostra a hierarquia da organização de varejo padrão para fins de relatórios de varejo.   Vá para Administração da organização > Organizações > Finalidades da hierarquia da organização e escolha Relatório de varejo e, em Hierarquias atribuídas, verifique o nome da hierarquia para a qual a coluna Padrão está marcada. Como parte dos dados de demonstração (usados para a gravação desta tarefa), você pode notar que Lojas de varejo por região é a hierarquia da organização padrão para a finalidade de relatórios de varejo.     
 6. Clique em OK.
 7. Clique em OK.
 

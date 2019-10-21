@@ -1,6 +1,6 @@
 ---
 title: Configuração de custo para gerenciamento de ordem distribuído (GOD)
-description: Este tópico descreve a funcionalidade de configuração de custo para o gerenciamento de ordem distribuído (GOD) do Microsoft Dynamics 365 for Retail.
+description: Este tópico descreve a funcionalidade de configuração de custo para o gerenciamento de ordem distribuído (GOD) do Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 12/05/2018
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-12-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 80e7a033467c3d94d55f06daa05f99bd27e19a29
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: b5e3e1997f3d3b61b7b3c7486f5531e386293537
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606770"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019430"
 ---
 # <a name="cost-configuration-for-distributed-order-management-dom"></a>Configuração de custo para gerenciamento de ordem distribuído (GOD)
 
@@ -31,7 +31,7 @@ ms.locfileid: "1606770"
 
 As organizações consideram vários componentes de custo para determinar o local ideal do qual atender uma ordem. Alguns desses componentes de custo são os custos de remessa, os custos de manutenção e os custos de embalagem. Uma combinação desses custos é calculada para determinar o local de atendimento.
 
-Quando a primeira iteração do gerenciamento de ordem distribuído (GOD) no Microsoft Dynamics 365 for Retail otimizou a atribuição de ordens para os locais de atendimento, somente a distância foi fatorada. Embora a distância possa ser correlacionada com o custo, não é o mesmo que o custo. Por exemplo, um método de remessa de entrega em 24 horas custa mais que a remessa em três ou sete três dias para a mesma distância.
+Quando a primeira iteração do gerenciamento de ordem distribuído (GOD) no Dynamics 365 Retail otimizou a atribuição de ordens para os locais de atendimento, somente a distância foi fatorada. Embora a distância possa ser correlacionada com o custo, não é o mesmo que o custo. Por exemplo, um método de remessa de entrega em 24 horas custa mais que a remessa em três ou sete três dias para a mesma distância.
 
 O recurso de configuração de custo permite que os varejistas definam e configurem componentes de custo adicionais de que serão calculados e fatorados para determinar o local ideal para atender linhas da ordem.
 

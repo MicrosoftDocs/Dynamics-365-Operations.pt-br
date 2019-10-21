@@ -1,6 +1,6 @@
 ---
 title: Visão geral de Lean manufacturing
-description: Este artigo fornece uma visão geral e uma descrição dos recursos de lean manufacturing no Dynamics 365 for Finance and Operations.
+description: Este artigo fornece uma visão geral e uma descrição dos recursos de lean manufacturing no Dynamics 365 Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,29 +19,29 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6db940548018c9d6bbb31891c21f7c334ba8956
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d338318d3f7a1b56fe98e5c093ccbe795bd8de44
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562383"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250063"
 ---
 # <a name="lean-manufacturing-overview"></a>​Visão geral de lean manufacturing​
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo fornece uma visão geral e uma descrição dos recursos de lean manufacturing no Microsoft Dynamics 365 for Finance and Operations.
+Este artigo fornece uma visão geral e uma descrição dos recursos de lean manufacturing no Dynamics 365 Supply Chain Management.
 
 O lean manufacturing oferece ferramentas que você pode usar para modelar as operações lean. Essas ferramentas dão suporte e promovem os conceitos e atividades de negócio a seguir:
 -   Criar um fundamento te lean manufacturing modelando a fabricação e os processos logísticos de acordo com o fluxo da produção.
 -   Implementar um sistema lean de remessa usando kanban para sinalizar requisitos de demanda.
 -   Monitore e mantenha trabalhos kanban.
 
-A arquitetura de lean manufacturing no Finance and Operations consiste no fluxo de produção, atividades e regras kanban. Essas estruturas são totalmente integradas com os processos de Finance and Operations. Você pode usar o lean manufacturing em um ambiente de fabricação de modo misto que combina várias estratégias de fontes, produção e de fornecimento. Essas estratégias incluem ordens de produção, ordens de lote para indústrias de processamento, ordens de compra e de transferência.
+A arquitetura de lean manufacturing consiste em fluxos de produção, atividades e regras kanban. Essas estruturas são totalmente integradas aos processos do Supply Chain Management. Você pode usar o lean manufacturing em um ambiente de fabricação de modo misto que combina várias estratégias de fontes, produção e de fornecimento. Essas estratégias incluem ordens de produção, ordens de lote para indústrias de processamento, ordens de compra e de transferência.
 
 | **Importante**                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Você pode usar o Finance and Operations para oferecer suporte à implementação de lean manufacturing com kanbans. No entanto uma implementação bem sucedida de princípios Lean dependem dos processos internos de negócios que você usa, além do ambiente e das condições reais de produção. |
+| Você pode usar o Supply Chain Management para oferecer suporte à implementação de lean manufacturing com kanbans. No entanto uma implementação bem sucedida de princípios Lean dependem dos processos internos de negócios que você usa, além do ambiente e das condições reais de produção. |
 
 ## <a name="modeling-manufacturing-and-logistics-processes-as-production-flows"></a>Modelar processos de fabricação e de logística de acordo com o fluxo de produção
 Para criar um fundamento de lean manufacturing, modele o processo de fabricação e de logística de acordo com o fluxo de produção. Essa atividade consiste nas seguintes tarefas:
@@ -69,8 +69,8 @@ A lista a seguir descreve os quadros kanban especializados:
 -   Quadro kanban para trabalhos de transferência – Este quadro fornece uma visão geral dos trabalhos de transferência atuais. Você pode atualizar e registrar as listas de separação, iniciar e completar os trabalhos de transferência e executar outras tarefas.
 -   Quadro kanban para processar trabalhos – esse quadro foi projetado para dar suporte ao fluxo de produção normal e oferecer uma visão geral da situação atual em uma ou mais células de trabalho. Nesse quadro, os Kanbans podem ser priorizados, separados ou fabricados. O quadro também foi projetado para dar suporte à digitalização de código de barras para os relatórios de Kanbans.
 
-## <a name="kanban-jobs-and-integration-with-finance-and-operations-processes"></a>Trabalhos kanban e integração com os processos do Finance and Operations
-Os trabalhos kanban são totalmente integrados com processos atuais para transações de estoque no Finance and Operations.
+## <a name="kanban-jobs-and-integration-with-supply-chain-management-processes"></a>Trabalhos kanban e integração aos processos do Supply Chain Management
+Os trabalhos kanban são totalmente integrados aos processos atuais para transações de estoque no Supply Chain Management.
 -   Você pode executar atividades de separação para reabastecer o material usado para atender aos requisitos dos trabalhos kanban.
 -   Você pode imprimir cartões kanban, colocar cartões kanban em circulação e separar listas para oferecer suporte para o uso de kanbans. Esses documentos são usados para representar, acompanhar e registrar os trabalhos kanban no depósito e no chão de fábrica.
 -   Você pode registrar a separação e as atividades de transferência no estoque digitalizando códigos de barra.

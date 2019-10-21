@@ -1,5 +1,5 @@
 ---
-title: Fazer upgrade do gerenciamento de depósitos do Microsoft Dynamics AX 2012 para o Finance and Operations
+title: Atualizar o gerenciamento de depósito do Microsoft Dynamics AX 2012 para o Supply Chain Management
 description: Este tópico fornece uma visão geral das opções de migração de gerenciamento do produto e de depósito.
 author: perlynne
 manager: AnnBe
@@ -18,29 +18,29 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 768d0bd16a41a3458b25606b74d606318d176ff0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c3dcb75653743d0d135eda197c6330f3ee9c5383
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554037"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251422"
 ---
-# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Fazer upgrade do gerenciamento de depósitos do Microsoft Dynamics AX 2012 para o Finance and Operations
+# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Atualizar o gerenciamento de depósito do Microsoft Dynamics AX 2012 para o Supply Chain Management 
 
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece uma visão geral do processo de upgrade do Microsoft Dynamics AX 2012 R3, executando o módulo WMSII, para o Microsoft Dynamics 365 for Finance and Operations.
+Este tópico fornece uma visão geral do processo de upgrade do Microsoft Dynamics AX 2012 R3, executando o módulo WMSII, para o Supply Chain Management.
 
-O Finance and Operations não oferece mais suporte ao módulo legado **WMSII** do Microsoft Dynamics AX 2012. Em vez disso, você pode usar o módulo **Gerenciamento de depósito**. No módulo de WMSII, dimensões de estoque do local e da ID do palete podem ser selecionados para o estoque financeiro, porém, a dimensão de estoque da ID do palete não pode ser usada para o estoque financeiro em Finance and Operations.
+O Supply Chain Management não oferece mais suporte ao módulo herdado **WMSII** do Microsoft Dynamics AX 2012. Em vez disso, você pode usar o módulo **Gerenciamento de depósito**. No módulo de WMSII, dimensões de estoque do local e da ID do palete podem ser selecionados para o estoque financeiro, porém, a dimensão de estoque da ID do palete não pode ser usada para o estoque financeiro no Supply Chain Management.
 
 Durante uma atualização, todos os produtos que estão associados a um grupo de dimensão de armazenamento que usa a dimensão de estoque da ID do palete são identificados, marcados como bloqueado e não são processados para atualização.
 
-## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>Atualizando para o Finance and Operations, quando o AX 2012 R3 WMSII é usado
+## <a name="upgrading-to-supply-chain-management-when-ax-2012-r3-wmsii-is-used"></a>Atualizando para o Supply Chain Management quando o AX 2012 R3 WMSII é usado
 Após a atualização, você pode usar um conjunto de opções no formulário **Alterar grupo de dimensão de armazenamento para itens** para desbloquear produtos que foram bloqueados durante a atualização, e depois processe as transações desses produtos.
 
-### <a name="enabling-items-in-finance-and-operations"></a>Ativando itens no Finance and Operations
-Essa alteração é necessária porque no Finance and Operations, o rastreamento de itens faz parte dos processos de gerenciamento de depósito. Para esses processos, todos os depósitos e seus locais devem estar associados a um perfil de localização. Se você quiser usar processos de gerenciamento de depósito, o seguinte deve ser configurado:
+### <a name="enabling-items-in-supply-chain-management"></a>Ativando itens no Supply Chain Management 
+Essa alteração é necessária porque no Supply Chain Management, o rastreamento de itens faz parte dos processos de gerenciamento de depósito. Para esses processos, todos os depósitos e seus locais devem estar associados a um perfil de localização. Se você quiser usar processos de gerenciamento de depósito, o seguinte deve ser configurado:
 -   Os depósitos existentes devem ser habilitados para usar processos de gerenciamento de armazém 
 -   Os produtos lançados existentes devem estar associados a um grupo de dimensão de armazenamento que usa processos de gerenciamento de depósito. 
 

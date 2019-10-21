@@ -1,6 +1,6 @@
 ---
-title: Novidades ou alterações no Dynamics 365 for Talent (26 de março de 2019)
-description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 for Talent.
+title: Novidades ou alterações no Dynamics 365 Talent (26 de março de 2019)
+description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/26/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 24070d1efa3299c378d7a4a328531817a598d272
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: d4b59183116784f44f45fddacdfa4aa954383ecd
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741558"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023875"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-26-2019"></a>Novidades ou alterações no Dynamics 365 for Talent (26 de março de 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-march-26-2019"></a>Novidades ou alterações no Dynamics 365 Talent (26 de março de 2019)
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 for Talent.
+Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Alterações no Attract
 
@@ -46,14 +46,14 @@ Agora você pode inserir imagens diretamente nas atividades. Além de poder copi
 
 [![Mapeamento](./media/embedimages.png)](./media/embedimages.png)
 
-Esta versão inclui correções de bug menores para Dynamics 365 Talent: Onboard.
+Esta versão inclui correções de bug menores para o Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Alterações no Core HR
 **Compilação 8.1.2210**
 
 ### <a name="custom-field-support-available-for-select-entities-in-common-data-service"></a>Suporte a campos de cliente disponível para determinadas entidades no Common Data Service 
 
-Essas entidades do Common Data Service agora são compatíveis com campos de cliente criados no Dynamics 365 for Talent:
+Agora, essas entidades do Common Data Service são compatíveis com campos de cliente criados no Talent:
 
 - Trabalhador
 - Origem étnica
@@ -72,9 +72,9 @@ Com essa alteração, a página do histórico de empregos agora exibe os registr
 Nesta versão, os planos de remuneração fixa agora aparecem quando os usuários são restringidos por empresa em segurança. Todas as configurações de segurança serão seguidas, e os planos de remuneração fixa aparecerão para as empresas cujos usuários tenham permissão de acesso. 
 
 ### <a name="cant-delete-job-records-using-open-in-excel-option-in-talent"></a>Não é possível excluir registros de trabalho usando-se a opção Abrir no Excel no Talent
-Com essa versão, agora você pode remover os registros de trabalho usando a opção **Abrir no Excel** no Dynamics 365 for Talent.
+Com essa versão, agora você pode remover os registros de trabalho usando a opção **Abrir no Excel** no Talent.
 
-### <a name="upgrade-to-common-data-service"></a>Fazer upgrade para o Common Data Service
+### <a name="upgrade-to-common-data-service"></a>Atualizar para o Common Data Service
 Os prazos finais para atualizar para o Common Data Service se aproximam rapidamente. Entre na central de administração do PowerApps para determinar se sua base de dados precisa ser atualizada. Para obter mais informações sobre os prazos finais e as etapas necessárias para atualizar, consulte [Fazer upgrade para o Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Em visualização
@@ -93,7 +93,7 @@ As organizações podem exigir códigos de motivo que devem ser definidos para t
 Em muitas organizações, gerentes de remuneração e benefícios só podem ter acesso a alguns tipos de registro de remuneração. Esses registros podem ser para funcionários executivos ou regionais. Com esta alteração, o RH pode gerenciar e manter os planos de remuneração para grupos de funcionários diferentes na organização. Você pode atribuir funções de segurança para planos fixos e variáveis que determinem o acesso a planos e dados de funcionário relacionados aos planos, como registros de bônus ou salário. Apenas as funções com permissão de acesso podem processar a remuneração para esses funcionários.
 
 ###  <a name="email-support-for-alerts"></a>Suporte de email para alertas
-Com o Platform update 25, os usuários podem criar regras de alerta que enviam automaticamente notificações por email a contatos quando enviadas para um evento. 
+Com a Atualização de plataforma 25 do Finance and Operations, os usuários podem criar regras de alerta que enviem automaticamente notificações por email a contatos quando notificações são disparadas por um evento. 
 
 ### <a name="duplicate-employee-checks-user-interface-changes"></a>Verificações de funcionários duplicados: alterações da interface de usuário
 Com esta alteração, as duplicatas são detectadas conforme você digita nos campos de nome, e um status exibe o número de duplicatas localizado. Você pode selecionar o link fornecido para abrir uma nova página a fim de avaliar se deve usar ou não a correspondência detectada. Para evitar a interrupção de entrada de dados, os formulários das duplicatas não são abertos automaticamente.

@@ -1,6 +1,6 @@
 ---
 title: Exibir o status de novos funcionários e suas tarefas
-description: Este tópico explica como usar o aplicativo Microsoft Dynamics 365 for Talent - Onboard para controlar onde estão as novas contratações no processo de integração.
+description: Este tópico explica como usar o aplicativo Microsoft Dynamics 365 Talent - Onboard para acompanhar os novos contratados durante o processo de integração.
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 0e17c572b4d3b5cee3687b25fb340ad9f98247ed
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: fe6da4599940a0b7812dc9d3f66157715c45f62d
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731359"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009822"
 ---
 # <a name="view-the-status-of-onboarding-employees-and-your-tasks"></a>Exibir o status de novos funcionários e suas tarefas
 
 [!include [banner](includes/banner.md)]
 
-O Microsoft Dynamics 365 for Talent: Onboard permite visualizar o progresso que seus novos contratados estão fazendo nas atividades de integração. Também é possível visualizar todas as tarefas que foram atribuídas a você nos guias de integração.
+O Microsoft Dynamics 365 Talent: Onboard permite visualizar o progresso de seus novos contratados nas atividades de integração. Também é possível visualizar todas as tarefas que foram atribuídas a você nos guias de integração.
 
 ## <a name="view-the-status-of-onboarding-employees"></a>Exibir o status de novos funcionários
 

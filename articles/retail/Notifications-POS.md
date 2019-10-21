@@ -17,18 +17,19 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6c813cfea9b570e8dfd5dbe7f3ca1f4ba8594420
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 57f4b58a11606a1193a1124a426c837ddfab9533
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577971"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023686"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Mostrar notificações de ordem no ponto de venda (PDV)
 
 [!include [banner](includes/banner.md)]
 
-No ambiente de varejo moderno, são atribuídas várias tarefas aos associados da loja, como auxiliar os clientes, inserir transações, executar contagens de estoque e receber ordens na loja. O cliente do ponto de venda (PDV) fornece um único aplicativo no qual os associados podem executar todas essas tarefas e muitas outras. Como várias tarefas devem ser executadas durante o dia, os associados talvez precisem ser notificados quando algo exigir sua atenção. A estrutura de notificação no PDV ajuda, permitindo que os varejistas configurem notificações baseadas em funções. No Microsoft Dynamics 365 for Retail com a atualização do aplicativo 5, essas notificações podem ser configuradas somente para operações de PDV.
+No ambiente de varejo moderno, são atribuídas várias tarefas aos associados da loja, como auxiliar os clientes, inserir transações, executar contagens de estoque e receber ordens na loja. O cliente do ponto de venda (PDV) fornece um único aplicativo no qual os associados podem executar todas essas tarefas e muitas outras. Como várias tarefas devem ser executadas durante o dia, os associados talvez precisem ser notificados quando algo exigir sua atenção. A estrutura de notificação no PDV ajuda, permitindo que os varejistas configurem notificações baseadas em funções. No Dynamics 365 for Retail com a atualização do aplicativo 5, essas notificações podem ser configuradas somente para operações de PDV.
+
 
 No momento, o sistema pode mostrar notificações somente para operações de atendimento da ordem. No entanto, como a estrutura é criada para ser extensível, os desenvolvedores poderão gravar um manipulador de notificação para qualquer operação e mostrar as notificações para essa operação no PDV.
 
@@ -68,7 +69,8 @@ A ilustração a seguir mostra as configurações de conteúdo ao vivo no design
 
 ![Configurações de conteúdo ao vivo no designer da grade de botões](./media/ButtonGridDesigner.png "Configurações de conteúdo ao vivo no designer da grade de botões")
 
-Para mostrar a contagem de notificação em um botão, você deve garantir que o layout de tela correto está sendo atualizado. Para determinar o layout de tela que está sendo usado pelo POS, selecione o ícone **Configurações** no canto superior direito e anote a **ID de layout de tela** e **Resolução de tela**. Agora, usando o navegador Edge, vá para a página **Layout de tela** no Dynamics 365 for Finance and Operations, encontre a **ID de layout de tela** e **Resolução de layout** identificadas acima e marque a caixa de seleção **Habilitar conteúdo ao vivo**. Vá para **Varejo \> TI de Varejo \> Agenda de distribuição** e execute o trabalho 1090 (Registros) para sincronizar as alterações de layout.
+Para mostrar a contagem de notificação em um botão, você deve garantir que o layout de tela correto está sendo atualizado. Para determinar o layout de tela que está sendo usado pelo POS, selecione o ícone **Configurações** no canto superior direito e anote a **ID de layout de tela** e **Resolução de tela**. Agora, usando o navegador Edge, acesse a página **Layout da tela**, encontre a **ID do layout da tela** e a **Resolução do layout** identificadas acima e marque a caixa de seleção **Habilitar conteúdo ativo**. Vá para **Varejo \> TI de Varejo \> Agenda de distribuição** e execute o trabalho 1090 (Registros) para sincronizar as alterações de layout.
+
 
 ![Encontrar o layout de tela usado pelo POS](./media/Choose_screen_layout.png "Encontrar o layout de tela")
 

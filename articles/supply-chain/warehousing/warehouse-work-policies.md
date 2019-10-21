@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0a9e05fd2a08921d2718fc239afd56a957f80915
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 7476cf797685feb4c50e3cefef4c53ca37b82dff
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865103"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251399"
 ---
-# <a name="warehouse-work-policies-overview"></a>Visão geral das políticas de trabalho do depósito
+# <a name="warehouse-work-policies-overview"></a>Visão geral de políticas de trabalho de depósito
 
 [!include [banner](../includes/banner.md)]
 
-As políticas de trabalho de depósito no Microsoft Dynamics 365 for Finance and Operations determinam se o trabalho de depósito é criado por processos de depósito na fabricação, com base em tipo de ordem de trabalho, local do estoque e produto.
+As políticas de trabalho de depósito determinam se o trabalho de depósito é criado por processos de depósito na fabricação, com base em tipo de ordem de trabalho, local do estoque e produto.
 
 Esta política de trabalho controla se o trabalho de depósito é criado para os processos de depósito na fabricação. Você pode configurar a política de trabalho usando uma combinação de **tipos de ordem de trabalho**, **localização de estoque** e um **produto**. Por exemplo, o produto L0101 é reportado como terminado para o local de saída 001. O bem acabado é posteriormente consumido noutra ordem de produção no local de saída 001. Nesse caso, você pode configurar uma política de trabalho para impedir que o trabalho para produtos terminados colocados de lado seja criado quando você relata o produto L0101 como concluído para o local de saída 001. A política de trabalho é uma entidade individual que pode ser descrita pelas seguintes informações:
 

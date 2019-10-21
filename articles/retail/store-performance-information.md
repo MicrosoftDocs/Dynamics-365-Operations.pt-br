@@ -1,6 +1,6 @@
 ---
 title: Analisar desempenho da loja
-description: Este artigo explica como você pode usar a análise na memória e em tempo real para acessar, explorar e obter informações sobre o desempenho da loja, com base nos dados do Microsoft Dynamics 365 for Retail.
+description: Este artigo explica como você pode usar a análise na memória e em tempo real para acessar, explorar e obter informações sobre o desempenho da loja, com base nos dados do Dynamics 365 Retail.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c975c021b6db49d1e25fd036f4955c7223e438ea
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b2ea6ad2e3d9589face06cd5f950973209c17d41
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569254"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017773"
 ---
 # <a name="analyze-store-performance"></a>Analisar o desempenho da loja
 
 [!include [banner](includes/banner.md)]
 
-Este artigo explica como você pode usar a análise na memória e em tempo real para acessar, explorar e obter informações sobre o desempenho da loja, com base nos dados do Microsoft Dynamics 365 for Retail.
+Este artigo explica como você pode usar a análise na memória e em tempo real para acessar, explorar e obter informações sobre o desempenho da loja, com base nos dados do Dynamics 365 Retail.
 
-Como parte do Dynamics 365 for Retail, os usuários podem estudar o desempenho da loja em tempo real nos diferentes níveis da hierarquia da organização durante um período selecionado, abrindo o relatório predefinido **Resumo do canal** em qualquer um deste locais:
+Como parte do Retail, os usuários podem estudar o desempenho da loja em tempo real nos diferentes níveis da hierarquia da organização durante um período selecionado, abrindo o relatório predefinido **Resumo do canal** em qualquer um deste locais:
 
 - Área de trabalho **Gerenciamento de loja de varejo** &gt; **Varejo** &gt; **Canais** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios** &gt; **Relatório de resumo de canal**
 - Área de trabalho **Finanças da loja de varejo** &gt; **Varejo** &gt; **Canais** &gt; **Finanças da loja de varejo** &gt; **Relatórios** &gt; **Relatório de resumo de canal**

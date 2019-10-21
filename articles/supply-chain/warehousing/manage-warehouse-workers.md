@@ -1,6 +1,6 @@
 ---
-title: ​Gerenciar trabalhadores de depósito​
-description: Este artigo descreve como você pode usar o Dynamics 365 for Finance and Operations para ajudar a controlar e monitorar o trabalho realizado por funcionários em seus depósitos.
+title: Gerenciar trabalhadores de depósito
+description: Este artigo descreve como você pode usar o aplicativo Dynamics 365 Supply Chain Management - Warehousing para ajudar a controlar e monitorar o trabalho realizado por funcionários em seus depósitos.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5a35d0a52d6f5bf995ce54f10eab92147b0e76a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f0de87e10f9213838dd5e5436b8b5699b19547bf
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572549"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018612"
 ---
-# <a name="manage-warehouse-workers"></a>​Gerenciar trabalhadores de depósito​
+# <a name="manage-warehouse-workers"></a>Gerenciar trabalhadores de depósito
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo descreve como você pode usar o Microsoft Dynamics 365 for Finance and Operations para ajudar a controlar e monitorar o trabalho realizado por funcionários em seus depósitos.
+Este artigo descreve como você pode usar o aplicativo Dynamics 365 Supply Chain Management - Warehousing para ajudar a controlar e monitorar o trabalho realizado por funcionários em seus depósitos.
 
 Se você estiver usando a funcionalidade no Gerenciamento de depósito, todas as operações do trabalhador do depósito serão referenciadas como *trabalho*. Trabalhos como separação, movimentação e contagem de estoque disponível são registrados por meio de dispositivos móveis. Para que um trabalhador do depósito possa executar um trabalho, ele deve estar associado a um trabalhador do departamento de recursos humanos. Cada conta de **Trabalhador** pode ter vários usuários de trabalho de depósito associados a ela. Esses usuários podem trabalhar em depósitos diferentes e podem ter diferentes níveis de acesso aos vários menus de dispositivos móveis. Considere os usuários de trabalho de depósito como vários logons do trabalhador selecionado. Cada usuário de trabalho tem um depósito padrão; e os fluxos de trabalho específicos são expostos pelos itens de menus que estão disponíveis para esse usuário de trabalho. 
 

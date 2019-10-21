@@ -1,6 +1,6 @@
 ---
-title: Sincronizar produtos no Finance and Operations com produtos no Field Service
-description: Este tópico discute os modelos e a tarefa subjacente que são usados para sincronizar produtos do Microsoft Dynamics 365 for Finance and Operations com o Microsoft Dynamics 365 for Field Service.
+title: Sincronizar produtos no Supply Chain Management com produtos no Field Service
+description: Este tópico discute os modelos e a tarefa subjacente que são usados para sincronizar produtos do Dynamics 365 Supply Chain Management com o Dynamics 365 Field Service.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/09/2018
@@ -19,34 +19,34 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 06d7ff272ecb79abded3c3d3ade1f6bc0ef1f095
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: f5f6d41f3e65a3cf5b8c7c96f54b1c8c6cdfaefb
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742346"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249764"
 ---
-# <a name="synchronize-products-in-finance-and-operations-to-products-in-field-service"></a>Sincronizar produtos do Finance and Operations com produtos no Field Service
+# <a name="synchronize-products-in-supply-chain-management-to-products-in-field-service"></a>Sincronizar produtos no Supply Chain Management com produtos no Field Service
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico discute os modelos e a tarefa subjacente que são usados para sincronizar produtos do Microsoft Dynamics 365 for Finance and Operations com o Microsoft Dynamics 365 for Field Service.
+Este tópico discute os modelos e as tarefas subjacentes usados para sincronizar produtos do Dynamics 365 Supply Chain Management para o Dynamics 365 Field Service.
 
-O modelo usado **Produtos do Field Service (Fin and Ops com o Field Service)** é baseado no modelo **Produtos (Fin and Ops com o Sales) – Direto** do Prospect to Cash. Para obter mais informações, consulte [Produtos (Fin and Ops com o Sales) – Direto](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct).
+O modelo usado **Produtos do Field Service (Supply Chain Management para Field Service)** é baseado no modelo **Produtos (Supply Chain Management para Sales) – Direto** do Prospect to Cash. Para obter mais informações, consulte [Produtos (Supply Chain Management para Sales) – Direto](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct).
 
-Este tópico descreve somente as diferenças entre os modelos **Produtos do Field Service (Fin and Ops com o Field Service)** e **Produtos (Fin and Ops com o Sales) – Direto**.
+Este tópico descreve somente as diferenças entre os modelos **Produtos do Field Service (Supply Chain Management para Field Service)** e **Produtos (Supply Chain Management para Sales) – Direto**.
 
 ## <a name="templates-and-tasks"></a>Modelos e tarefas
 
-**Nome do modelo na Integração de dados:**
+**Nome do modelo na Integração de dados**
 
-- Produtos do Field Service (Fin and Ops com o Field Service)
+- Produtos do Field Service (Supply Chain Management para Field Service)
 
-**Nome da tarefa no projeto de Integração de dados:**
+**Nome da tarefa no projeto de Integração de dados**
 
 - Produtos - Produtos
 
-O modelo **Produtos do Field Service (Fin and Ops com o Field Service)** inclui um mapeamento que não está inlcuído no modelo **Produtos (Fin and Ops com o Sales) – Direto**. Esse mapeamento garante que o campo obrigatório **Tipo de produto de serviço** específico do Field Service seja definido corretamente.
+O modelo usado **Produtos do Field Service (Supply Chain Management para Field Service)** inclui um mapeamento que não está incluído no modelo **Produtos (Supply Chain Management para Sales) – Direto**. Esse mapeamento garante que o campo obrigatório **Tipo de produto de serviço** específico do Field Service seja definido corretamente.
 
 ```
 FIELDSERVICEPRODUCTTYPE        Fn        msdyn_fieldserciveproducttype
@@ -60,7 +60,7 @@ nonInventory  :  690970001
 service       :  690970002 
 ```
 
-No Finance and Operations, o valor **Tipo de produto do Field Service** na entidade de dados **Produtos liberados comercializáveis** é calculado da seguinte forma:
+No Supply Chain Management, o valor de **Tipo de produto do Field Service** na entidade de dados **Produtos liberados comercializáveis** é calculado da seguinte forma:
 
 - **Estoque:** Tipo de produto = Produto and Grupo de modelo do item, Produto em estoque = Verdadeiro
 - **Sem estoque:** Tipo de produto = Produto and Grupo de modelo do item, Produto em estoque = Falso
@@ -70,6 +70,6 @@ No Finance and Operations, o valor **Tipo de produto do Field Service** na entid
 
 As ilustrações a seguir mostram um mapeamento de modelo na Integração de dados.
 
-### <a name="field-service-products-fin-and-ops-to-field-service-products---products"></a>Produtos do Field Service (Fin and Ops com o Field Service): Produtos - Produtos
+### <a name="field-service-products-supply-chain-management-to-field-service-products---products"></a>Produtos do Field Service (Supply Chain Management para Field Service): Produtos - Produtos
 
 [![Mapeamento de modelo na Integração de dados](./media/FSProduct.png)](./media/FSProduct.png)

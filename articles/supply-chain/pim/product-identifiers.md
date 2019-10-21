@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 58a32bd7f857e8173996cd4eb21f176bae508587
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 68be63370eca0089649c47de0ba0bc9bd335b905
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546216"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250590"
 ---
 # <a name="product-identifiers"></a>Identificadores do produto 
 
@@ -36,13 +36,13 @@ Ao trabalhar com produtos no chão de fábrica ou em um depósito no Microsoft D
 
 ## <a name="unique-product-numberproduct-id"></a>Número do produto/ID do produto exclusivos
 
-No Microsoft Dynamics 365 for Finance and Operations, o principal identificador de um produto é o número do produto (isto é, a ID exclusiva do produto). Esse número pode ser automaticamente gerado por uma sequência numérica, ou pode ser manualmente associado a um produto. No caso das grades de produtos, os números podem ser definidos por meio do modelo de nomenclatura de produtos.
+No Dynamics 365 Supply Chain Management, o principal identificador de um produto é o número do produto (isto é, a ID exclusiva do produto). Esse número pode ser automaticamente gerado por uma sequência numérica, ou pode ser manualmente associado a um produto. No caso das grades de produtos, os números podem ser definidos por meio do modelo de nomenclatura de produtos.
 
-Em muitos casos, o número do produto não é criado originalmente no Finance and Operations. Em vez disso, é associado a um produto em um sistema de gerenciamento do ciclo de vida do produto (PLM) ou em um sistema de gerenciamento de dados do produto (PDM). Nesse caso, você usa entidades de dados para importar os produtos e as grades de produtos. Então, o Finance and Operations usa os números em todas as operações.
+Em muitos casos, o número do produto não é criado originalmente no Dynamics 365 Supply Chain Management. Em vez disso, é associado a um produto em um sistema de gerenciamento do ciclo de vida do produto (PLM) ou em um sistema de gerenciamento de dados do produto (PDM). Nesse caso, você usa entidades de dados para importar os produtos e as grades de produtos. O Supply Chain Management depois usa os números em todas as operações.
 
-Ao implementar o Finance and Operations, você deve dar atenção especial à sua estratégia de números de produtos. Um bom sistema de numeração melhora os fluxos de logística e ajuda a evitar erros. Um bom identificador de produto tem no máximo 15 caracteres. O ideal é que tenha menos de 10 caracteres e que não inclua mais do que cinco caracteres de classificação. Você também pode usar nomes de pesquisa para habilitar pesquisas rápidas. Um nome de pesquisa é um nome adicional que representa as classificações de um produto.
+Ao implementar o Supply Chain Management, você deve dar atenção especial à sua estratégia de números de produto. Um bom sistema de numeração melhora os fluxos de logística e ajuda a evitar erros. Um bom identificador de produto tem no máximo 15 caracteres. O ideal é que tenha menos de 10 caracteres e que não inclua mais do que cinco caracteres de classificação. Você também pode usar nomes de pesquisa para habilitar pesquisas rápidas. Um nome de pesquisa é um nome adicional que representa as classificações de um produto.
 
-Quando você usa o CDS (Common Data Service), o número do produto no Finance and Operations é também o número do produto no CDS. Grades de produtos são sincronizadas ao CDS como produtos distintos.
+Quando usar o Common Data Service, o número do produto no Supply Chain Management também será o número do produto no Common Data Service. As grades de produtos são sincronizadas no Common Data Service como produtos distintos.
 
 ## <a name="item-number-and-product-dimensions"></a>Número do item e dimensões do produto
 
@@ -56,19 +56,19 @@ Além disso, você poderá pesquisar e filtrar pelo número do produto, pelo nom
 
 ## <a name="product-name-and-description"></a>Nome e descrição do produto
 
-O nome e a descrição do produto são os identificadores legíveis para humanos e podem ser mantidos em vários idiomas. Por padrão, o cliente do Finance and Operations mostra todas as informações do produto no idioma padrão da empresa, não no idioma do usuário. No entanto, as descrições e os nomes do produto traduzidos são usados na comunicação com clientes e fornecedores. As traduções se baseiam no código de idioma das contas de cliente e de fornecedor.
+O nome e a descrição do produto são os identificadores legíveis para humanos e podem ser mantidos em vários idiomas. Por padrão, o cliente do Supply Chain Management mostra todas as informações do produto no idioma padrão da empresa, não no idioma do usuário. No entanto, as descrições e os nomes do produto traduzidos são usados na comunicação com clientes e fornecedores. As traduções se baseiam no código de idioma das contas de cliente e de fornecedor.
 
 No caso das grades de produtos, o nome do produto pode ser gerado por meio de um modelo de nomenclatura de produtos. Como não é exigido que os nomes de produtos sejam exclusivos, você poderá encontrar vários produtos com o mesmo nome.
 
 ## <a name="product-and-item-search-names"></a>Nomes de pesquisa do produto e do item
 
-O Finance and Operations oferece um nome de pesquisa secundário para produtos e também para itens (produtos liberados). Esse nome de pesquisa não precisa ser exclusivo, e pode ser alterado depois que um produto ou grade de produto forem criados. É recomendável usar o nome de pesquisa para pesquisar produtos por categorias. Os nomes de pesquisa habilitam as pesquisas rápidas, principalmente em processos de venda e de compra.
+O Supply Chain Management oferece um nome de pesquisa secundário para os produtos e também para os itens (produtos liberados). Esse nome de pesquisa não precisa ser exclusivo, e pode ser alterado depois que um produto ou grade de produto forem criados. É recomendável usar o nome de pesquisa para pesquisar produtos por categorias. Os nomes de pesquisa habilitam as pesquisas rápidas, principalmente em processos de venda e de compra.
 
 O nome de pesquisa também pode conter uma ID de produto do cliente ou fornecedor, ou outra ID de produto externa, se essa ID externa for o principal critério de pesquisa para um produto.
 
 ## <a name="external-product-identifiers-customer-and-vendor-identifiers"></a>Identificadores de produtos externos (Identificadores de cliente e fornecedor)
 
-Para produtos liberados, você pode manter os números de item, nomes de item e descrições de item usados pelo cliente ou fornecedor. As referências são mostradas em documentos externos, como ordens de venda, ordens de compra, guias de remessa e faturas. Na versão atual do Finance and Operations, as referências externas não são mostradas nas páginas de operações centrais. A única exceção é o número de item do fornecedor. Esse número será exibido na caixa de diálogo **Informações sobre o produto** se um fornecedor padrão for definido para o produto liberado.
+Para produtos liberados, você pode manter os números de item, nomes de item e descrições de item usados pelo cliente ou fornecedor. As referências são mostradas em documentos externos, como ordens de venda, ordens de compra, guias de remessa e faturas. Na versão atual do Supply Chain Management, as referências externas não são mostradas nas páginas de operações centrais. A única exceção é o número de item do fornecedor. Esse número será exibido na caixa de diálogo **Informações sobre o produto** se um fornecedor padrão for definido para o produto liberado.
 
 Você pode manter os identificadores de produtos externos por produto liberado, grade de produto liberado, cliente ou grupo de clientes, ou fornecedor ou grupo de fornecedores.
 
@@ -77,7 +77,7 @@ Na página **Produtos liberados**, siga uma destas etapas.
 - Para clientes, na guia **Venda**, no grupo **Informações relacionadas**, selecione **Descrição externa de item**.
 - Para fornecedores, na guia **Compra**, no grupo **Informações relacionadas**, selecione **Descrição externa de item**.
 
-Na página **Descrições externas de item**, você pode associar o número de item do cliente ou do fornecedor a um produto liberado. Essa associação deve ser feita para cada entidade legal. As seguintes informações podem ser capturadas. Infelizmente, as etiquetas estão ligeiramente incorretas na versão atual do Finance and Operations. No entanto, essas etiquetas poderão ser alteradas em uma versão futura.
+Na página **Descrições externas de item**, você pode associar o número de item do cliente ou do fornecedor a um produto liberado. Essa associação deve ser feita para cada entidade legal. As seguintes informações podem ser capturadas. Infelizmente, as etiquetas estão ligeiramente incorretas na versão atual do Supply Chain Management. No entanto, essas etiquetas poderão ser alteradas em uma versão futura.
 
 | Campo | Informações correspondentes do cliente | Informações correspondentes do fornecedor |
 |-------|------------------------------------|----------------------------------|
@@ -104,15 +104,15 @@ Para manter códigos de barras, na página **Produtos liberados**, na guia **Ger
 
 No comércio eletrônico, é essencial que todos os participantes falem a mesma língua e refiram-se aos produtos usando um conjunto comum de identificadores. Portanto, algumas indústrias dependem do [GTIN](https://www.gs1.org/id-keys/gtin), um sistema global de número de item que é facilitado por GS1.
 
-No Finance and Operations, é recomendável manter o GTIN como um código de barras. No entanto, também é possível mantê-lo na página **Item - GTIN**. Para abrir essa página, na página **Produtos liberados**, na guia **Gerenciar estoque**, no grupo **Depósito**, selecione **Códigos GTIN**. Observe que o GTIN não é mantido como um número global. Em vez disso, é mantido por entidade legal.
+Recomendamos manter o GTIN como um código de barras. No entanto, também é possível mantê-lo na página **Item - GTIN**. Para abrir essa página, na página **Produtos liberados**, na guia **Gerenciar estoque**, no grupo **Depósito**, selecione **Códigos GTIN**. Observe que o GTIN não é mantido como um número global. Em vez disso, é mantido por entidade legal.
 
-No Finance and Operations, você define as grades de embalagens nas operações de depósito, definindo unidades de medida específicas. Por exemplo, um item pode ser armazenado em partes, em pacotes de seis, em bandejas de 18 ou em paletes cheios. Uma unidade de medida específica será definida para cada uma dessas grades de embalagens. Como o GTIN normalmente está relacionado à unidade de embalagem de um produto, a página **Item - GTIN** permite manter vários códigos GTIN por produto e unidade de medida. No entanto, você não pode usar o mesmo código GTIN mais de uma vez para itens ou grades de produtos diferentes de uma entidade legal.
+No Supply Chain Management, você define as grades de embalagens nas operações de depósito, definindo unidades de medida específicas. Por exemplo, um item pode ser armazenado em partes, em pacotes de seis, em bandejas de 18 ou em paletes cheios. Uma unidade de medida específica será definida para cada uma dessas grades de embalagens. Como o GTIN normalmente está relacionado à unidade de embalagem de um produto, a página **Item - GTIN** permite manter vários códigos GTIN por produto e unidade de medida. No entanto, você não pode usar o mesmo código GTIN mais de uma vez para itens ou grades de produtos diferentes de uma entidade legal.
 
 Para manter **Códigos GTIN**, na página **Produtos liberados**, na guia **Gerenciar estoque**, no grupo **Depósito**, selecione **GTIN**.
 
-## <a name="external-codes"></a>Códigos externos
+## <a name="external-codes"></a>Códigos Externos
 
-Os códigos externos podem ser definidos para várias entidades no Finance and Operations. Por exemplo, você pode definir códigos externos para identificar produtos e produtos liberados. Esses códigos externos podem ser usados para associar códigos estatísticos ou códigos de imposto a produtos liberados e grades de produtos liberados. Os códigos externos são definidos por entidade legal e tipo de código. Eles devem ser exclusivos por entidade legal, tipo de código e referência de tabela.
+Os códigos externos podem ser definidos para várias entidades. Por exemplo, você pode definir códigos externos para identificar produtos e produtos liberados. Esses códigos externos podem ser usados para associar códigos estatísticos ou códigos de imposto a produtos liberados e grades de produtos liberados. Os códigos externos são definidos por entidade legal e tipo de código. Eles devem ser exclusivos por entidade legal, tipo de código e referência de tabela.
 
 Infelizmente, não há nenhuma funcionalidade padrão que permite pesquisar produtos por códigos externos.
 
@@ -136,13 +136,13 @@ Infelizmente, não há nenhuma funcionalidade padrão que permite pesquisar prod
 
 ### <a name="product-and-item-number-sequences"></a>Sequências numéricas do item e do produto
 
-No Finance and Operations, você pode definir duas sequências numéricas diferentes:
+Você pode definir duas sequências numéricas diferentes:
 
 - A sequência numérica **Número do produto** para o número do produto global
 - A sequência numérica **Número do item** para o número do item por entidade legal
 
 > [!NOTE]
-> Você deve usar o número do item como um identificador separado apenas quando migrar entidades legais diferentes de fontes diferentes com sistemas de numeração diferentes. Você sempre deve tentar usar um identificador de produto que seja exclusivo em todas as entidades legais. Portanto, você deve definir a opção **Manual** como **Sim** para a sequência numérica **Número do item**. Dessa forma, o número do item acompanhará o número do produto na criação. Se o Finance and Operations não for o sistema principal para novos números de produto, você deve definir a opção **Manual** como **Sim** para as sequências numéricas **Número do item** e **Número do produto**.
+> Você deve usar o número do item como um identificador separado apenas quando migrar entidades legais diferentes de fontes diferentes com sistemas de numeração diferentes. Você sempre deve tentar usar um identificador de produto que seja exclusivo em todas as entidades legais. Portanto, você deve definir a opção **Manual** como **Sim** para a sequência numérica **Número do item**. Dessa forma, o número do item acompanhará o número do produto na criação. Se o Supply Chain Management não for o sistema principal para novos números de produto, você deverá definir a opção **Manual** como **Sim** para as sequências numéricas **Número do item** e **Número do produto**.
 
 Quando você usa a entidade **Produto liberado V2** para criar produtos, várias configurações podem afetar a maneira como as sequências numéricas são usadas para criar o número do produto e o número do item:
 

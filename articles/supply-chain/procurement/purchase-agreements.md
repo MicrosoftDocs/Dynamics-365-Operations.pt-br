@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7024104dfc76a33735199ad0871fe7ce29f8e011
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1e022fbf182da9a07fe20e5bebdd99cbff3d9c90
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570379"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248912"
 ---
 # <a name="purchase-agreements"></a>Contratos de compra
 
@@ -78,7 +78,7 @@ Quando você confirma um contrato de compra, a versão atual do contrato é arma
 Quando você cria uma OC, pode aplicar um contrato de compra a ela. As informações sobre as condições do contrato, como as condições de pagamento, as condições de entrega e endereço de entrega, são copiadas para o cabeçalho da OC. Se a OC contiver uma ou mais linhas produtos ou categorias especificados no contrato de compra, os preços e os descontos do contrato de compra serão usados para essas linhas. O valor ou a quantidade na linha da ordem contribui para o atendimento ao compromisso no contrato de compra. A mesma OC pode incluir linhas que não estejam relacionadas a um contrato de compra e linhas com um compromisso para um contrato de compra.  
 
 Você só poderá selecionar um contrato de compra quando estiver criando uma OC. Você não poderá selecionar um contrato de compra depois que a OC for criada.  
-Em algumas situações em que as OCs são criadas indiretamente, você pode controlar se o Finanças e Operações pesquisará automaticamente os contratos de compra aplicáveis. Por exemplo, você pode fazer isso quando estiver confirmando automaticamente OCs planejadas ou criando OCs baseadas em ordens de venda.
+Em algumas situações em que as OCs são criadas indiretamente, você pode controlar se o Supply Chain Management pesquisará automaticamente os contratos de compra aplicáveis. Por exemplo, você pode fazer isso quando estiver confirmando automaticamente OCs planejadas ou criando OCs baseadas em ordens de venda.
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Contratos de compra e comércio intercompanhia
 As relações comerciais intercompanhia podem ser criadas entre contas de fornecedor e contas de cliente que estão em entidades legais diferentes. Quando uma ordem de venda ou uma OC é criada para um dos participantes, é criada uma cadeia de ordem intercompanhia. Na cadeia de ordem, a ordem de venda e a OC são criadas nas entidades legais apropriadas.  

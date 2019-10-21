@@ -3,7 +3,7 @@ title: Visão geral da manutenção preventiva
 description: Este tópico explica a manutenção preventiva no Gerenciamento de Ativos.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3b43c795426f40cb43962976824c44a7702d91b7
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 02ea3affca727802b241f87b801e0742ac0aa41a
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875493"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922082"
 ---
 # <a name="preventive-maintenance-overview"></a>Visão geral da manutenção preventiva
 
@@ -35,7 +35,7 @@ Este tópico explica a manutenção preventiva no Gerenciamento de Ativos. A man
 
 Os planos de manutenção são usados para a manutenção preventiva e reativa em ativos individuais. Os rounds de manutenção são usados para a manutenção preventiva em um grupo ou conjunto de ativos. Os planos de manutenção e os rounds de manutenção são usados para gerar propostas de ordem de serviço. As propostas de ordem de serviço são salvas como linhas do agendamento de manutenção, que podem ser reunidas e convertidas em ordens de serviço.
 
-A figura abaixo fornece uma visão geral do fluxo de trabalho, desde a criação de planos de manutenção e rounds de manutenção até a criação de ordens de serviço para ativos, com base nesses planos e rounds de manutenção.
+A ilustração a seguir fornece uma visão geral do fluxo de trabalho, desde a criação de planos de manutenção e rounds de manutenção até a criação de ordens de serviço para ativos, com base nesses planos e rounds de manutenção.
 
 ![Figura 1](media/01-preventive-maintenance.png)
 

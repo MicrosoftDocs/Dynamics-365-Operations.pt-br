@@ -18,23 +18,23 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 65624ce5e668a506ae23b302559d8d0bf4141a12
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b38fb087fb572362c27e747e7909060c55a242a4
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546700"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250178"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Colaboração de fornecedores com fornecedores externos
 
 [!include [banner](../includes/banner.md)]
 
-O módulo **Colaboração do fornecedor** é destinado a fornecedores que não tenham integração EDI (Troca de dados eletrônica) com o Microsoft Dynamics 365 for Finance and Operations. Ele permite que os fornecedores trabalhem com ordens de compra (OCs), faturas, informações de estoque de consignação e solicitações de cotação (RFQs), e também os permitem acessar parte dos dados mestre de fornecedor. Este tópico explica como você pode colaborar com fornecedores externos que usam a interface de colaboração do fornecedor para trabalhar com OCs, RFQs e estoque de consignação. Ele também explica como habilitar um fornecedor específico para usar a colaboração do fornecedor e como definir as informações que todos os fornecedores verão ao responderem a uma OC.
+O módulo **Colaboração do fornecedor** é destinado a fornecedores que não tenham integração EDI (Troca de dados eletrônica) com o Microsoft Dynamics 365 Supply Chain Management. Ele permite que os fornecedores trabalhem com ordens de compra (OCs), faturas, informações de estoque de consignação e solicitações de cotação (RFQs), e também os permitem acessar parte dos dados mestre de fornecedor. Este tópico explica como você pode colaborar com fornecedores externos que usam a interface de colaboração do fornecedor para trabalhar com OCs, RFQs e estoque de consignação. Ele também explica como habilitar um fornecedor específico para usar a colaboração do fornecedor e como definir as informações que todos os fornecedores verão ao responderem a uma OC.
 
 Para saber mais sobre o que os fornecedores externos podem fazer na interface de colaboração do fornecedor, consulte [Colaboração do fornecedor com clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
-> As informações sobre a colaboração de fornecedor neste tópico se aplicam apenas à versão atual do Finance and Operations. No Microsoft Dynamics AX 7.0. (fevereiro de 2016) e no aplicativo do Microsoft Dynamics AX versão 7.0.1 (maio de 2016), você colabora com fornecedores usando o módulo **Portal do fornecedor**. Para obter informações sobre o módulo **Portal do fornecedor**, consulte [Colaborar com fornecedores usando o Portal do fornecedor](collaborate-vendors-vendor-portal.md).
+> As informações sobre a colaboração de fornecedor neste tópico se aplicam apenas à versão atual do Supply Chain Management. No Microsoft Dynamics AX 7.0. (fevereiro de 2016) e no aplicativo do Microsoft Dynamics AX versão 7.0.1 (maio de 2016), você colabora com fornecedores usando o módulo **Portal do fornecedor**. Para obter informações sobre o módulo **Portal do fornecedor**, consulte [Colaborar com fornecedores usando o Portal do fornecedor](collaborate-vendors-vendor-portal.md).
 
 Para saber mais sobre como os fornecedores podem usar a colaboração do fornecedor nos processos de faturamento, consulte [Espaço de trabalho de faturamento de colaboração do fornecedor](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Para saber mais sobre como provisionar novos usuários de colaboração do fornecedor, consulte [Gerenciar usuários de colaboração do fornecedor](manage-vendor-collaboration-users.md).
 
@@ -51,7 +51,7 @@ Se você precisar adicionar mensagens em mais de um idioma, crie mensagens separ
 
 ## <a name="setting-the-vendor-collaboration-options-for-a-specific-vendor"></a>Definindo opções de colaboração do fornecedor para um fornecedor específico
 
-Um administrador configura as definições gerais para a colaboração de fornecedor no Finance and Operations, como as funções de segurança disponíveis para todos os fornecedores com os quais você colabora. Porém, há também configurações que podem ser diferentes para cada conta do fornecedor. Você deve definir essas configurações.
+Um administrador configura as definições gerais para a colaboração do fornecedor, como as funções de segurança disponíveis para todos os fornecedores com os quais você colabora. Porém, há também configurações que podem ser diferentes para cada conta do fornecedor. Você deve definir essas configurações.
 
 - Habilite a colaboração do fornecedor.
 - Especifique se o fornecedor deverá ver as informações sobre preço.
@@ -71,7 +71,7 @@ Para compartilhar as informações sobre preços das OCs por meio da interface d
 
 ### <a name="sending-a-po-to-a-vendor"></a>Enviando uma OC a um fornecedor
 
-As OCs são preparadas no Finance and Operations. Quando a OC tiver um status de **Aprovada**, você a enviará ao fornecedor, selecionando **Enviar para confirmação** na página **Ordem de compra**. O status da OC será mudado para **Em Revisão externa**. Depois que a PO for enviada, o fornecedor pode vê-la na página **Ordens de compra para revisão** na interface de colaboração de fornecedor. O fornecedor pode então aceitar a OC, rejeitá-la ou sugerir mudanças nela. O fornecedor também pode adicionar comentários para comunicar informações como as alterações na OC. Se quiser chamar a atenção do fornecedor para a nova OC, você também pode usar o sistema de gerenciamento de impressão para enviar a OC por email.
+As OCs são preparadas no Supply Chain Management. Quando a OC tiver um status de **Aprovada**, você a enviará ao fornecedor, selecionando **Enviar para confirmação** na página **Ordem de compra**. O status da OC será mudado para **Em Revisão externa**. Depois que a PO for enviada, o fornecedor pode vê-la na página **Ordens de compra para revisão** na interface de colaboração de fornecedor. O fornecedor pode então aceitar a OC, rejeitá-la ou sugerir mudanças nela. O fornecedor também pode adicionar comentários para comunicar informações como as alterações na OC. Se quiser chamar a atenção do fornecedor para a nova OC, você também pode usar o sistema de gerenciamento de impressão para enviar a OC por email.
 
 ### <a name="confirmation-and-acceptance-of-a-po-by-a-vendor"></a>Confirmação e aceitação de uma OC por um fornecedor
 
@@ -92,13 +92,13 @@ A tabela a seguir mostra a troca comum de informações, dependendo da resposta 
 </thead>
 <tbody>
 <tr class="even">
-<td>O fornecedor <strong>aceita</strong> a ordem e o Finance and Operations é definido para confirmar OCs automaticamente que o fornecedor aceita.</td>
+<td>O fornecedor <strong>aceita</strong> a ordem, e o Supply Chain Management é configurado para confirmar OCs automaticamente que o fornecedor aceita.</td>
 <td>O status da ordem é atualizado para <strong>Confirmada</strong>. Se a ordem não puder ser atualizada por algum motivo, a resposta do fornecedor ainda é registrada como <strong>Aceita</strong>, mas o status da OC permanecerá <strong>Em Revisão externa</strong>. 
 
 A OC que foi enviada ao fornecedor e que tem um status de <strong>Em revisão externa</strong> é atualizada com datas de entrega confirmadas nas linhas. Esta atualização inicia uma nova versão que é automaticamente definida para o status <strong>Confirmado</strong>. Quando a OC é confirmada, ela aparecerá na interface de colaboração do fornecedor.</td>
 </tr>
 <tr class="odd">
-<td>O fornecedor <strong>aceita</strong> a ordem, mas o Finance and Operations não está definido para confirmar automaticamente as OCs que o fornecedor aceita.</td>
+<td>O fornecedor <strong>aceita</strong> a ordem, mas o Supply Chain Management não está configurado para confirmar OCs automaticamente que o fornecedor aceita.</td>
 <td>A resposta do fornecedor é registrada como <strong>Aceita</strong>, mas o status da OC permanece <strong>Em Revisão externa</strong>.
 
 A OC que foi enviada ao fornecedor e que tem um status de <strong>Em revisão externa</strong> é atualizada com datas de entrega confirmadas nas linhas. Esta atualização inicia uma nova versão que é automaticamente definida para o status <strong>Em revisão externa</strong>. Em seguida, você poderá confirmar a OC manualmente.</td>
@@ -180,14 +180,14 @@ A tabela a seguir mostra um exemplo das alterações de status e versão pelas q
 
 | Ação | Status e versão |
 |--------|--------------------|
-| A versão inicial da PO é criada no Finance and Operations. | O status é **Aprovada**. |
+| A versão inicial da OC é criada no Supply Chain Management. | O status é **Aprovada**. |
 | A OC é enviada ao fornecedor. | Uma versão é registrada na interface de colaboração do fornecedor e o status é alterado para **Em Revisão externa**. |
 | O fornecedor envia uma resposta **Aceito com alterações**. | O status ainda é **Em Revisão externa**. |
 | Você fez algumas alterações que foram solicitadas pelo fornecedor. | O status é alterado para **Aprovada**. |
 | Você envia a nova versão da OC ao fornecedor. | Uma nova versão é registrada na interface de colaboração do fornecedor e o status é alterado para **Em Revisão externa**. |
 | O fornecedor aceita a nova versão da OC. | O status ainda é **Em Revisão externa** a menos que a conta do fornecedor seja configurada para definir automaticamente as OCs para um status **Confirmado** quando o fornecedor as aceita. |
 
-Os fornecedores não precisam confirmar uma OC usando a interface de colaboração do fornecedor. Eles também podem enviar um email ou comunicar a aceitação de uma OC por meio de outro canais. É possível confirmar a ordem manualmente no Finance and Operations. Nesse caso, você receberá um aviso de que a ordem está sendo confirmada, mesmo que não haja nenhuma resposta do fornecedor. A OC aparecerá no histórico de confirmação como uma ordem confirmada aberta que não tem nenhuma resposta. Neste ponto, o fornecedor não terá mais a opção de confirmar ou rejeitar a OC.
+Os fornecedores não precisam confirmar uma OC usando a interface de colaboração do fornecedor. Eles também podem enviar um email ou comunicar a aceitação de uma OC por meio de outro canais. Em seguida, você poderá confirmar a ordem manualmente. Nesse caso, você receberá um aviso de que a ordem está sendo confirmada, mesmo que não haja nenhuma resposta do fornecedor. A OC aparecerá no histórico de confirmação como uma ordem confirmada aberta que não tem nenhuma resposta. Neste ponto, o fornecedor não terá mais a opção de confirmar ou rejeitar a OC.
 
 > [!NOTE]
 > A versão da OC disponível para outros processos no Finance and Operations sempre será a versão mais recente, mesmo se essa versão ainda não tiver sido registrada na interface de colaboração do fornecedor.
@@ -200,7 +200,7 @@ A tabela a seguir mostra um exemplo das alterações de status e versão pelas q
 
 | Ação | Status e versão |
 |--------|--------------------|
-| A versão inicial da PO é criada no Finance and Operations. | O status é **Rascunho**. |
+| A versão inicial da OC é criada no Supply Chain Management. | O status é **Rascunho**. |
 | A OC é submetida ao processo de aprovação (O processo de aprovação é um processo interno no qual o fornecedor não está envolvido). | O status é alterado de **Rascunho** para **Em Revisão** para **Aprovação** se a OC não for rejeitada durante o processo de aprovação. A OC aprovada é registrada como uma versão. | 
 | A OC é enviada ao fornecedor. | A versão é registrada na interface de colaboração do fornecedor e o status é alterado para **Em Revisão externa**. |
 | Você faz algumas alterações solicitadas pelo fornecedor, manualmente ou usando a ação **Processar atualização da OC** na resposta para atualizar a OC. | O status é alterado novamente para **Rascunho**. |
@@ -237,13 +237,13 @@ Esta seção descreve as interações entre clientes e fornecedores durante o pr
 
 ## <a name="public-sector-extensions"></a>Extensões do setor público
 
-Para o setor público, a funcionalidade estendida permite que um caso RFQ seja enviado aos fornecedores e publicados. Quando você publica um RFQ, qualquer pessoa que solicitar informações poderá ver o trabalho que está de acordo com as regulamentações do setor público. Todos os trabalhos disponíveis são refletidos na página de listagem **Solicitações de cotações em aberto publicadas** e as RFQ canceladas, pendentes ou concedidas podem ser exibidas na página **Solicitações de cotações fechadas publicadas**. Esses documentos também podem ser exibidos em um site fora do Finance and Operations através de integrações com as seguintes entidades de dados:
+Para o setor público, a funcionalidade estendida permite que um caso RFQ seja enviado aos fornecedores e publicados. Quando você publica um RFQ, qualquer pessoa que solicitar informações poderá ver o trabalho que está de acordo com as regulamentações do setor público. Todos os trabalhos disponíveis são refletidos na página de listagem **Solicitações de cotações em aberto publicadas** e as RFQ canceladas, pendentes ou concedidas podem ser exibidas na página **Solicitações de cotações fechadas publicadas**. Esses documentos também podem ser exibidos em um site fora do Supply Chain Management por meio de integrações com as seguintes entidades de dados:
 
 - Solicitações publicadas para cotações
 - Solicitações publicadas para linha de cotação
 - Solicitações publicadas para anexos de cabeçalho de cotação
 
-Essas entidades permitem que pessoas que não são usuários provisionados no Finance and Operations, mas que tenha acesso anônimo ao site externo, exibam o trabalho disponível e fechado. Além disso, a funcionalidade estendida em **Enviar e publicar** permite ao usuário que configura os parâmetros do processo de RFQ definir um modelo de email. Quando o profissional de compras cria o caso de RFQ, ele deverá selecionar o modelo de email para enviar as informações obrigatórias aos fornecedores do caso de RFQ. 
+Essas entidades permitem que pessoas que não são usuários provisionados no Supply Chain Management, mas que tenha acesso anônimo ao site externo, exibam o trabalho disponível e fechado. Além disso, a funcionalidade estendida em **Enviar e publicar** permite ao usuário que configura os parâmetros do processo de RFQ definir um modelo de email. Quando o profissional de compras cria o caso de RFQ, ele deverá selecionar o modelo de email para enviar as informações obrigatórias aos fornecedores do caso de RFQ. 
 
 O usuário que configura os parâmetros para o processo de RFQ pode criar vários modelos de email. Esses modelos de email podem conter o texto estático e os seguintes tokens substituição. Os tokens serão substituídos pelos valores contextuais quando um email for criado.
 

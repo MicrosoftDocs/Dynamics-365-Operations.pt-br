@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 00facce5913fb82f67c5844d74d29032735db707
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d95429dde38a7a528b1c1d9036194a3bf8e6f986
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1506094"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009436"
 ---
 # <a name="set-up-company-specific-human-resources-hr-parameters"></a>Configurar parâmetros de RH específicos da empresa
 
@@ -34,7 +34,7 @@ As configurações de alguns parâmetros de Recursos humanos (RH) são compartil
 Duas páginas são usadas para definir os parâmetros de recursos humanos (RH). Para os parâmetros que são compartilhados entre empresas, use a página **Parâmetros compartilhados de recursos humanos**. Para os parâmetros que são específicos da empresa (ou seja, as configurações se aplicam a uma única empresa), use a página **Parâmetros de recursos humanos**. Na página **Parâmetros de recursos humanos**, as configurações são divididas entre seis guias:
 
 -   Geral
--   Recrutamento - isso não está incluído no Dynamics 365 for Talent
+-   Recrutamento - isso não está incluído no Dynamics 365 Talent
 -   Remuneração
 -   Sequências numéricas
 -   Lei de família de licença e médica (FMLA)
@@ -49,7 +49,7 @@ As configurações na guia **Compensação** definem se os usuários devem confi
 ### <a name="previously-released-functionality"></a>Funcionalidade liberada anteriormente
 As configurações na guia **Sequência numérica** determinam as sequências usadas para atribuir automaticamente IDs a itens em Recursos humanos, como solicitações de emprego, registros de ausência, resultados do processo de remuneração, números de casos, cursos e agendas de curso. Para manter referências e códigos de sequência de números, use a página de listagem **Sequências numéricas** (clique em **Administração organizacional** &gt; **Sequências numéricas** &gt; **Sequências numéricas**).
 
-### <a name="if-youre-using-dynamics-365-for-talent"></a>Se você estiver usando o Dynamics 365 for Talent
+### <a name="if-youre-using-dynamics-365-talent"></a>Se você estiver usando o Dynamics 365 Talent
 As configurações na guia **Sequência numérica** determinam as sequências usadas para atribuir automaticamente IDs a itens em Recursos humanos, como solicitações de emprego, registros de ausência, resultados do processo de remuneração, números de casos, cursos e agendas de curso. Para manter referências e códigos de sequência de números, use a página de listagem **Sequências numéricas** (clique em **Administração do sistema** &gt; **Guia de links** &gt; **Sequências numéricas** &gt; **Sequências numéricas**). 
 
 As configurações na guia **FMLA** definem quantas horas um funcionário deve trabalhar para se qualificar para os benefícios de FMLA, o tempo de emprego necessário para a qualificação e a data de início do emprego usada para determinar o tempo do emprego. As configurações também definem o número de horas de FMLA aos quais os funcionários têm direito e o calendário de licenças do FMLA usado para calcular quantas horas de FMLA os funcionários usaram. A guia **FMLA** só estará disponível para empresas nos Estados Unidos. 

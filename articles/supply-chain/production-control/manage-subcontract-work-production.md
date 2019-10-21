@@ -1,6 +1,6 @@
 ---
 title: Gerenciar trabalhos de subcontratação na produção
-description: Este tópico explica como operações subcontratadas são gerenciadas no Microsoft Dynamics 365 for Finance and Operations. Em outras palavras, explica como as operações de produção que são alocadas para um recurso são gerenciadas por um fornecedor.
+description: Este tópico explica como operações subcontratadas são gerenciadas no Dynamics 365 Supply Chain Management. Em outras palavras, explica como as operações de produção que são alocadas para um recurso são gerenciadas por um fornecedor.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f41f13bf1b587cb802579cc3b27ef4eea70a0380
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ea2feccf9f74c0f035b8a46dc87eb41bdf85900a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569744"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023532"
 ---
 # <a name="manage-subcontracting-work-in-production"></a>Gerenciar trabalhos de subcontratação na produção
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como operações subcontratadas são gerenciadas no Microsoft Dynamics 365 for Finance and Operations. Em outras palavras, explica como as operações de produção que são alocadas para um recurso são gerenciadas por um fornecedor.
+Este tópico explica como operações subcontratadas são gerenciadas no Dynamics 365 Supply Chain Management. Em outras palavras, explica como as operações de produção que são alocadas para um recurso são gerenciadas por um fornecedor.
 
 Nos [processos de produção](production-process-overview.md), o trabalho pode ser feito por recursos que de propriedade ou administrados por fornecedores. Normalmente, os recursos de fornecedor são usados para nivelar a demanda adicional periódica que ultrapassa a capacidade disponível de recursos próprios da empresa. O fornecedor também pode oferecer [recursos](resource-capabilities.md) específicos ou recursos com preço mais baixo.  
 
@@ -40,7 +40,7 @@ Quando as operações ou atividades de subcontratação são usadas, elas afetam
 
 Para recursos internos, uma taxa de custo fixo normalmente é alocada durante um período. Em contraste, o custo de recursos subcontratados é baseado no preço de compra do serviço relacionado. O serviço é definido como outro produto e é usado para conduzir os processos de aquisição e compra de uma determinada operação subcontratada.  
 
-Atualmente, não há conceito explícito de produtos semiacabados no Microsoft Dynamics 365 for Finance and Operations. Para uma ordem de produção que exija mais de uma operação para transformar matérias-primas uma mercadoria acabada, a mercadoria concluída é lançada de volta ao estoque apenas na última operação. Os produtos semiacabados que as operações anteriores produzem são contabilizados no trabalho em andamento (WIP), mas não são lançados ou rastreados no estoque. Embora você possa dividir os roteiros e listas de materiais (BOMs) em várias unidades menores, essa abordagem aumenta o número de produtos, BOMs e roteiros a serem gerenciados.  
+Atualmente, não há nenhum conceito explícito de produtos semifinalizados no Supply Chain Management. Para uma ordem de produção que exija mais de uma operação para transformar matérias-primas uma mercadoria acabada, a mercadoria concluída é lançada de volta ao estoque apenas na última operação. Os produtos semiacabados que as operações anteriores produzem são contabilizados no trabalho em andamento (WIP), mas não são lançados ou rastreados no estoque. Embora você possa dividir os roteiros e listas de materiais (BOMs) em várias unidades menores, essa abordagem aumenta o número de produtos, BOMs e roteiros a serem gerenciados.  
 
 Há dois métodos para modelagem de trabalho de subcontratação para operações de produção. Esses métodos diferentes na forma como o processo a subcontratação pode ser modelado, na forma como os produtos semiacabados são representados no processo e na maneira pela qual o controle de custos é gerenciado.
 

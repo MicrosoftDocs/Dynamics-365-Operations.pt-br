@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-15
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f03b7fa073c4e5338b7b5681ba7b8c9fe00a657b
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 95fe394d22f9fe81511c230a2cf7b8ddf00d896f
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875498"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250820"
 ---
 # <a name="work-orders-and-fixed-assets"></a>Ordens de serviço e ativos fixos
 
@@ -33,7 +33,7 @@ ms.locfileid: "1875498"
 [!include [banner](../../includes/preview-banner.md)]
 
 
-No Gerenciamento de Ativos, os ativos podem estar relacionados a ativos fixos, e podem criar ordens de serviço para esses ativos. Se usar essa funcionalidade, você terá uma visão geral de ativos fixos, de projetos de investimento relacionados e dos custos registrados em projetos de investimento no módulo **Gerenciamento e contabilidade de projeto** e no módulo **Ativos fixos** do Dynamics 365 for Finance and Operations.
+No Gerenciamento de Ativos, os ativos podem estar relacionados a ativos fixos, e podem criar ordens de serviço para esses ativos. Se usar essa funcionalidade, você terá uma visão geral completa de ativos fixos, de projetos de investimento relacionados e dos custos registrados em projetos de investimento no módulo **Gerenciamento e contabilidade de projeto** e no módulo **Ativos fixos**.
 
 >[!NOTE]
 >O campo **Número de ativo fixo** só será preenchido no projeto de trabalho de ordem de serviço se o tipo "Investimento" for selecionado como o tipo de projeto no projeto de trabalho de ordem de serviço.

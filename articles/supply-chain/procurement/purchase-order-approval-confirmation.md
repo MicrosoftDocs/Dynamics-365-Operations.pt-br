@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e274f52484d3fe1884152f155b6b7f0714f8842e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 58ff596314d348a465ba6ee23369f09e74d580eb
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572687"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248856"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>​Aprovar e confirmar ordens de compra​
 
@@ -39,7 +39,7 @@ Depois de criar uma ordem de compra (OC), ela terá que passar por um processo d
 ## <a name="approval-of-purchase-orders"></a>Aprovação de ordens de compra
 POs que não usam o gerenciamento de alteração com um status de **Aprovado** assim que elas forem criadas, enquanto POs que usam o gerenciamento de alteração têm um status de **Rascunho** quando elas são criados pela primeira vez. Além de isso, as ordens de compra criadas para confirmação ordens planejadas do planejamento mestre são definidos sempre como **Aprovado**, independentemente das configurações de gerenciamento de alterações. Uma OC cria transações de estoque somente quando ela atinge o status **Aprovado**. Portanto, o estoque não aparece como disponível para reserva ou marcação até que o pedido seja aceito.  
 
-Ativar o gerenciamento de alterações para POs definindo a opção **Ativar o gerenciamento de alterações** na página **Parâmetros de compras**. Quando o gerenciamento de alterações é habilitado, as POs devem passar por um fluxo de trabalho de aprovação depois que elas tiverem sido concluídas. O Microsoft Dynamics 365 for Finance and Operations tem um editor de processos de fluxo de trabalho, onde você pode definir um fluxo de trabalho para representar o processo de aprovação. Este fluxo de trabalho pode incluir regras de aprovação automática, as regras que determinam o que será atribuído ao aprovar POs específicos e regras para escalar um fluxo de trabalho que estavam esperando aprovação por um longo tempo. Você pode habilitar o processo de gerenciamento de alterações para todos os fornecedores ou fornecedores específicos. Você também pode configurar o processo de forma que pode ser substituído por PDVs individuais.  
+Ativar o gerenciamento de alterações para POs definindo a opção **Ativar o gerenciamento de alterações** na página **Parâmetros de compras**. Quando o gerenciamento de alterações é habilitado, as POs devem passar por um fluxo de trabalho de aprovação depois que elas tiverem sido concluídas. O Supply Chain Management tem um editor de processos de fluxo de trabalho, onde você pode definir um fluxo de trabalho para representar o processo de aprovação. Este fluxo de trabalho pode incluir regras de aprovação automática, as regras que determinam o que será atribuído ao aprovar POs específicos e regras para escalar um fluxo de trabalho que estavam esperando aprovação por um longo tempo. Você pode habilitar o processo de gerenciamento de alterações para todos os fornecedores ou fornecedores específicos. Você também pode configurar o processo de forma que pode ser substituído por PDVs individuais.  
 
 Quando o gerenciamento de alterações é habilitado, POs percorrem os seis status de aprovação de **Rascunho** para **Finalizado**. Depois que um pedido for aprovado, os usuários que deseja modificá-lo devem usar a ação **Solicitar alteração**.
 
@@ -55,7 +55,7 @@ Quando o gerenciamento de alterações é habilitado, POs percorrem os seis stat
 ## <a name="confirming-purchase-orders"></a>Confirmar ordens de compra
 POs que têm um status de aprovação **Aprovado** podem passar por etapas adicionais antes que elas sejam confirmadas. Por exemplo, você terá de enviar uma consulta de compra para o fornecedor para saber mais sobre preços, descontos ou datas de entrega. Nesse caso, você pode definir a ordem de compra para o status **Na análise externa** usando a ação **Consulta de compra**.  
 
-Fornecedores que estão configurados para usar o portal do fornecedor podem rever pedidos no portal e aprovar ou rejeitá-los. Durante esse processo de revisão, o pedido de compra tem um status de **Na análise externa**. O portal do fornecedor pode ser configurado de modo que uma confirmação do fornecedor confirme automaticamente a ordem no Finanças e Operações. Como alternativa, você pode confirmar manualmente uma ordem de compra após receber a confirmação do fornecedor. Se um fornecedor rejeita um pedido de compra, a rejeição é recebida com o motivo para a rejeição e sugestões para alterações. Nesse caso, o status do pedido de compra permanece **Na análise externa**.  
+Fornecedores que estão configurados para usar o portal do fornecedor podem rever pedidos no portal e aprovar ou rejeitá-los. Durante esse processo de revisão, o pedido de compra tem um status de **Na análise externa**. O portal do fornecedor pode ser configurado para que uma confirmação do fornecedor confirme automaticamente a ordem no Supply Chain Management. Como alternativa, você pode confirmar manualmente uma ordem de compra após receber a confirmação do fornecedor. Se um fornecedor rejeita um pedido de compra, a rejeição é recebida com o motivo para a rejeição e sugestões para alterações. Nesse caso, o status do pedido de compra permanece **Na análise externa**.  
 
 Há também uma opção para gerar uma confirmação pró-forma para um pedido antes da confirmação real ser processada. Essa opção apenas cria um relatório que pode ser compartilhado com o fornecedor. Ela não cria quaisquer informações de diário.  
 

@@ -1,6 +1,6 @@
 ---
-title: Novidades ou alterações no Dynamics 365 for Talent (27 de fevereiro de 2019)
-description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 for Talent.
+title: Novidades ou alterações no Dynamics 365 Talent (27 de fevereiro de 2019)
+description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 02/27/2019
@@ -18,26 +18,26 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d8e6a02b43ad60e3a0c4382f98cb808066587da7
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f175c6e60cf87c7dcbde0eaf35357130fa035712
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517322"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023990"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-27-2019"></a>Novidades ou alterações no Dynamics 365 for Talent (27 de fevereiro de 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-february-27-2019"></a>Novidades ou alterações no Dynamics 365 Talent (27 de fevereiro de 2019)
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 for Talent.
+Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Alterações no Attract
 
-Esta versão inclui correções de bug menores para Dynamics 365 Talent: Attract.
+Esta versão inclui correções de bug menores para o Dynamics 365 Talent: Attract.
 
 ## <a name="changes-in-onboard"></a>Alterações de Integração
 
-Esta versão inclui correções de bug menores para Dynamics 365 Talent: Onboard.
+Esta versão inclui correções de bug menores para o Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Alterações no Core HR
 
@@ -77,9 +77,9 @@ Esta versão inclui outras correções de bug menores.
 
 Em muitas organizações, gerentes de compensação e benefícios podem ter acesso apenas a registros de compensação específica. Esses registros podem ser para funcionários executivos ou regionais. Essa alteração permitirá que os Recursos Humanos (RH) gerenciem e mantenham os planos de compensação para populações de funcionário diferentes na organização. Funções de segurança que podem ser atribuídas a planos fixos e variáveis determinam o acesso a esses planos e os dados de funcionário relacionado a eles (por exemplo, informações de salário e registros de bônus). Apenas as funções com acesso especificado poderão processar compensação para esses funcionários.
 
-### <a name="platform-update-24"></a>Update 24 para plataforma
+### <a name="platform-update-24-for-finance-and-operations"></a>Atualização de plataforma 24 do Finance and Operations
 
-Para obter mais informações sobre atualização da Plataforma 24 do Microsoft Dynamics 365 for Finance and Operations (março de 2019), consulte [Visualização de recursos na atualização da Plataforma 24 do Finance and Operations platform (março de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+Para obter mais informações sobre atualização de plataforma 24 do Microsoft Dynamics 365 Finance and Operations (março de 2019), consulte [Visualização de recursos na Atualização de plataforma 24 do Finance and Operations (março de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
 
 ### <a name="make-employee-fixed-compensation-available-for-future-position-assignments"></a>Tornar remuneração fixa de funcionário disponível para atribuições de cargo futuras
 
@@ -87,10 +87,10 @@ Para obter mais informações sobre atualização da Plataforma 24 do Microsoft 
 
 ## <a name="known-issues"></a>​Problemas conhecidos​
 
-### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance-and-operations"></a>Alterações no modelo de integração do Core HR (Talent Common Data Service para Finance and Operations)
+### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance"></a>Alterações no modelo de integração do Core HR (Talent Common Data Service para Finance)
 O modelo para Core HR foi atualizado em um "modelo de consulta avançado". Portanto, por padrão, a consulta avançada estará disponível para projetos criados usando esse modelo. Além disso, todas as funções de mapeamentos padrão estarão visíveis apenas no editor de consulta anterior. (As funções de mapeamento padrão aparecem como "FN" nos mapeamentos.)
 
-Para obter mais informações sobre os erros de mapeamento, consulte [O que há de novo e o que mudou no Dynamics 365 for Talent Core HR (14 de dezembro de 2018)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
+Para obter mais informações sobre os erros de mapeamento, consulte [Novidades ou alterações no Dynamics 365 Talent: Core HR (14 de dezembro de 2018)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
 
 Para usar o novo modelo, crie um novo projeto e selecione o novo método de integração do Talent.
 

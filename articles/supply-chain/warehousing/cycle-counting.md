@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a76082a7aa375424e6f118744e2f63600a8cbda
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: aef99a7e8964dba0e3c3a507bb214b79ae723357
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560643"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251514"
 ---
 # <a name="cycle-counting"></a>Contagem cíclica
 
@@ -34,7 +34,7 @@ Este artigo descreve como você pode usar a contagem cíclica com a solução de
 A contagem cíclica é um processo de depósito que você pode usar para auditar itens de estoque disponíveis. O processo de contagem cíclica pode ser descrito em três etapas:
 
 1.  **Criar o trabalho de contagem cíclica** ─ o trabalho de contagem cíclica pode ser criado automaticamente com base nos parâmetros de limite para itens ou usando um plano de contagem cíclica. Como alternativa, você pode criar o trabalho de contagem cíclica manualmente usando os parâmetros do item ou do depósito na página **Trabalho de contagem cíclica por item** ou na página **Trabalho de contagem cíclica por local**.
-2.  **Processar contagem cíclica** ─ depois que o trabalho de contagem cíclica é criado, para executá-lo você deve contar os itens em um local de depósito e usar um dispositivo móvel para inserir o resultado no Microsoft Dynamics 365 for Finance and Operations. Como alternativa, você pode contar itens em um local de depósito sem criar o trabalho de contagem cíclica. Esse processo é conhecido como *contagem cíclica de ponto*.
+2.  **Processar contagem cíclica** ─ depois que o trabalho de contagem cíclica é criado, para executá-lo você deve contar os itens em um local de depósito e usar um dispositivo móvel para inserir o resultado no Dynamics 365 Supply Chain Management. Como alternativa, você pode contar itens em um local de depósito sem criar o trabalho de contagem cíclica. Esse processo é conhecido como *contagem cíclica de ponto*.
 3.  **Resolver uma diferença no valor contado do ciclo** ─ após uma contagem cíclica, todos os itens que possuem diferenças no valor contado terão um status do trabalho **Revisão pendente** na página **Todos os trabalhos**. Você pode resolver essas diferenças na página **Revisão de trabalho restante do ciclo de contagem**.
 
 A ilustração a seguir mostra o processo de contagem cíclica. ![Fluxo de processo para contagem cíclica](./media/performcyclecountinginawarehouselocation.jpg)
@@ -113,10 +113,10 @@ Você pode agendar planos de contagem cíclica para criar um trabalho de contage
 Para criar manualmente o trabalho de contagem cíclica, você poderá usar a página **Trabalho de contagem cíclica por item** ou a **Trabalho de contagem cíclica por local**. Você pode especificar o número máximo de contagens cíclicas a serem criadas. Por exemplo, se o gerente de depósito especificar um valor **5**, o trabalho de contagem cíclica será criado para cinco locais mesmo que o item esteja presente em 10 locais. Você também pode selecionar uma ID de grupo de trabalho à qual as IDs de trabalho de contagem cíclica criadas são atribuídas. Quando uma ID de grupo de trabalho é processada para a contagem cíclica, as IDs de trabalho de contagem cíclicas atribuídas ao grupo de trabalho são processadas como um grupo.
 
 ## <a name="perform-a-cycle-count-by-using-a-mobile-device"></a>Executar uma contagem cíclica usando um dispositivo móvel
-Há vários métodos para processar o trabalho de contagem cíclica usando o Finance and Operations em um dispositivo móvel:
+Há vários métodos para processar o trabalho de contagem cíclica usando o Supply Chain Management em um dispositivo móvel:
 
 -   **Direcionado ao usuário** ─ o funcionário pode especificar uma ID de trabalho de contagem cíclica com o status **Aberto**.
--   **Direcionado ao sistema** ─ o Finance and Operations atribui uma ID de trabalho de contagem cíclica ao trabalhador.
+-   **Sistema direcionado** – o Supply Chain Management atribui uma ID de trabalho de contagem cíclica ao trabalhador.
 -   **Agrupamento de contagem cíclica** ─ o trabalhador pode agrupar as IDs de trabalho de contagem cíclica que são específicas de um local, zona, ou grupo de trabalho específico.
 -   **Contagem cíclica de ponto** ─ o trabalhador pode contar itens em um local de depósito a qualquer momento, sem criar o trabalho de contagem cíclica. Para executar a contagem cíclica de ponto em um local, o trabalhador insere a ID do local.
 

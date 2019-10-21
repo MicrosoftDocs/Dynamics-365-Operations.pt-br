@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 17016d015925cd31117231799b8741ffddb793f7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3a6645bc55dfd4f03ce9872ff5017f1659b1f11c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562429"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017588"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Configurar um depósito usando um modelo de configuração de depósito
 
@@ -93,7 +93,7 @@ Podem baixar um arquivo zip para o pacote de dados. Este arquivo contém todos o
 
 O log **Exibir execução** fornece informações detalhadas sobre cada entidade de dados que é importada. Você pode usar a exibição de preparação de dados para obter dados de destino rapidamente. Assim, você pode ver os dados importados nas páginas relacionadas no aplicativo. Ao usar os modelos de dados padrão, a sequência de importação de cada entidade de dados em forma predefinida, ajuda a garantir que os dados dependentes são importados primeiro. Se as entidades de dados personalizados fizerem parte do projeto, você deve garantir que a sequência correta foi definida. Para obter mais informações, consulte [Modelos de dados de configuração](../../dev-itpro/data-entities/configuration-data-templates.md).
 
-Para saber mais sobre como usar o modelo de depósito para copiar a configuração de um depósito de uma empresa para uma nova empresa na mesma a instância, assista a este vídeo de 3 minutos de duração no YouTube: [Use o modelo de depósito para copiar a configuração no Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
+Para saber mais sobre como usar o modelo de depósito para copiar a configuração de um depósito de uma empresa para uma nova empresa na mesma a instância, assista a este vídeo de 3 minutos de duração no YouTube sobre [como usar o modelo de depósito para copiar a configuração no Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>Tópico relacionado
 

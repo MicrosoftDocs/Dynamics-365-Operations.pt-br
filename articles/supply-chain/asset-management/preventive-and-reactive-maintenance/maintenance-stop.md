@@ -3,7 +3,7 @@ title: Tempo de inatividade de manutenção
 description: Este tópico explica o tempo de inatividade de manutenção no Gerenciamento de Ativos.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,17 +16,16 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a831d56116c57b640993162473e74e5ce181f09c
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: c035f54e833b9bc25b4502901cf307213789b439
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875495"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922174"
 ---
 # <a name="maintenance-downtime"></a>Tempo de inatividade de manutenção
-
 
 [!include [banner](../../includes/banner.md)]
 
@@ -44,12 +43,12 @@ Quando os ativos forem selecionados em um registro de tempo de inatividade de ma
 
 ## <a name="maintenance-downtime-activities"></a>Atividades de tempo de inatividade de manutenção
 
-Clique em **Gerenciamento de ativos** > **Comum** > **Atividades do tempo de inatividade de manutenção** > **Todas atividades do tempo de inatividade de manutenção** para abrir uma lista de todas as atividades do tempo de inatividade de manutenção e para ver algumas informações relacionadas às atividades. Clique em um link na coluna **Atividades do tempo de inatividade de manutenção** para abrir a exibição de detalhes.
+Clique em **Gerenciamento de ativos** > **Comum** > **Atividades do tempo de inatividade de manutenção** > **Todas atividades do tempo de inatividade de manutenção** para abrir uma lista de todas as atividades do tempo de inatividade de manutenção e para ver algumas informações relacionadas às atividades. Clique em um link na coluna **Atividades do tempo de inatividade de manutenção** para abrir a exibição de detalhes. A ilustração a seguir mostra um exemplo da lista **Atividades do tempo de inatividade de manutenção**.
 
 ![Figura 1](media/19-preventive-maintenance.png)
 
 
-## <a name="create-a-maintenance-downtime-registration"></a>Criar um registro de tempo de inatividade de manutenção
+## <a name="create-a-maintenance-downtime-activity"></a>Criar uma atividade do tempo de inatividade de manutenção
 
 1. Clique **Gerenciamento de ativos** > **Comum** > **Atividades do tempo de inatividade de manutenção** > **Todas atividades do tempo de inatividade de manutenção** ou **Atividades do tempo de inatividade de manutenção ativas**.
 
@@ -61,20 +60,22 @@ Clique em **Gerenciamento de ativos** > **Comum** > **Atividades do tempo de ina
 
 5. Na Guia Rápida **Ativos das atividades do tempo de inatividade de manutenção**> clique em **Adicionar linha** para adicionar ativos, um de cada vez, à atividade do tempo de inatividade de manutenção.
 
-6. Clique em **Salvar** quando todos os ativos forem adicionados.
+6. Clique em **Salvar** quando todos os ativos forem adicionados. A ilustração a seguir mostra um exemplo de uma atividade do tempo de inatividade de manutenção com ativos relacionados e trabalhos de manutenção.
 
 7. Os trabalhos de manutenção da ordem de serviço e as linhas de agendamento de manutenção abertas relacionadas aos ativos selecionados são mostrados nas Guias Rápidas **Trabalhos de manutenção da ordem de serviço resultante** e **Linhas de agendamento de manutenção**. No campo **Geral** Guia Rápida > **Ordens de serviço** grupo > **Horas de previsão de manutenção** e Guia Rápida **Geral** > grupo de **Agendamento de manutenção** > campo **Horas de previsão de manutenção**, você verá o número total de horas previstas para os trabalhos de manutenção da ordem de serviço e das linhas de agendamento de manutenção.
+
+A ilustração a seguir mostra um exemplo da exibição de detalhes **Atividades do tempo de inatividade de manutenção**.
 
 ![Figura 2](media/20-preventive-maintenance.png)
 
 >[!NOTE]
 >As linhas de agendamento de manutenção e dos trabalhos de manutenção da ordem de serviço relacionadas aos ativos selecionados são atualizadas automaticamente, se novas ordens de serviço ou as linhas de agendamento de manutenção forem criadas após você ter criado a atividade do tempo de inatividade de manutenção. Por exemplo, se você agendar planos de manutenção ou rounds de manutenção nos ativos relacionados dois dias após a atividade do tempo de inatividade de manutenção ter sido criada, novas linhas de agendamento de manutenção são adicionadas automaticamente à atividade do tempo de inatividade de manutenção. 
 
-8. Em **Todas as atividades do tempo de inatividade de manutenção** > **Atividades do tempo de inatividade de manutenção** > selecione uma atividade do tempo de inatividade de manutenção na lista e clique em **Capacidade máxima** para abrir a caixa de diálogo **Calcular capacidade máxima**. Use esta caixa de diálogo para obter uma visão geral da capacidade máxima, por exemplo, datas, ativos, tipos de ativos e tipos de trabalho de manutenção. Observe que as datas mostradas na caixa de diálogo são as datas de início e de término selecionadas em **Atividades do tempo de inatividade de manutenção**. Este cálculo inclui os ativos relacionados à atividade do tempo de inatividade de manutenção.
+8. Em **Todas as atividades do tempo de inatividade de manutenção** > **Atividades do tempo de inatividade de manutenção**, selecione uma atividade do tempo de inatividade de manutenção na lista e clique em **Capacidade máxima** para abrir a caixa de diálogo **Calcular a capacidade máxima**. Use esta caixa de diálogo para obter uma visão geral da capacidade máxima, por exemplo, datas, ativos, tipos de ativos e tipos de trabalho de manutenção. Observe que as datas mostradas na caixa de diálogo são as datas de início e de término selecionadas em **Atividades do tempo de inatividade de manutenção**. Este cálculo inclui os ativos relacionados à atividade do tempo de inatividade de manutenção.
 
 9. Na caixa de diálogo **Calcular a capacidade máxima**, edite as horas inicial e final, se necessário, e selecione se você quer incluir ordens de serviço e agendamentos de manutenção no cálculo. Você pode usar o campo **Nível** para indicar o nível de detalhes que você deseja que o cálculo de capacidade máxima tenha em relação aos locais funcionais. Por exemplo, se você inserir o número "1" no campo e tiver uma estrutura de local funcional de vários níveis, todos os ativos do local funcional, selecionados na atividade do tempo de inatividade de manutenção serão mostrados em nível superior, e portanto, as horas em uma linha podem ser adicionadas de locais funcionais localizados em nível inferior. Se você inserir o número "0" no campo **Nível**, verá um resultado detalhado mostrando todas as linhas da capacidade máxima em todos os níveis do local funcional ao qual elas estão relacionadas.
 
-10. Clique em **OK**para iniciar o cálculo. O número total de horas é mostrado na visão geral **Capacidade máxima**. Na guia **Capacidade máxima** > grupos do painel de ação **Agrupar por...**, clique nos botões relevantes para obter uma visão geral mais detalhada da alocação de horas previstas.
+10. Clique em **OK**para iniciar o cálculo. O número total de horas é mostrado na visão geral **Capacidade máxima**. Na guia **Capacidade máxima** > grupos do painel de ação **Agrupar por...**, clique nos botões relevantes para obter uma visão geral mais detalhada da alocação de horas previstas. A ilustração a seguir mostra os resultados de um cálculo de **Capacidade máxima**.
 
 ![Figura 3](media/21-preventive-maintenance.png)
 
@@ -91,7 +92,7 @@ Clique em **Gerenciamento de ativos** > **Comum** > **Atividades do tempo de ina
 
 15. Na caixa de diálogo **Calcular previsão do item**, edite as horas inicial e final, se necessário, selecione se você quer incluir ordens de serviço e agendamentos de manutenção no cálculo. Você pode usar o campo **Nível** para indicar o nível de detalhes que você deseja que o cálculo de capacidade máxima tenha em relação aos locais funcionais. Por exemplo, se você inserir o número "1" no campo e tiver uma estrutura de local funcional de vários níveis, todos os ativos do local funcional, selecionados na atividade do tempo de inatividade de manutenção serão mostrados em nível superior, e portanto, as horas em uma linha podem ser adicionadas de locais funcionais localizados em nível inferior. Se você inserir o número "0" no campo **Nível**, verá um resultado detalhado mostrando todas as linhas da capacidade máxima em todos os níveis do local funcional ao qual elas estão relacionadas.
 
-16. Clique em **OK**para iniciar o cálculo. O número total de previsões do item é mostrado na visão geral **Previsão do item**. Na guia **Previsão do item** > grupos do painel de ação **Agrupar por...**, clique nos botões relevantes para obter uma visão geral mais detalhada da alocação de itens previstos.
+16. Clique em **OK**para iniciar o cálculo. O número total de previsões do item é mostrado na visão geral **Previsão do item**. Na guia **Previsão de itens** > grupos do painel de ação **Agrupar por...**, clique nos botões relevantes para obter uma visão geral mais detalhada da alocação de itens previstos. A ilustração a seguir mostra os resultados de um cálculo de **Previsão de itens**.
 
 ![Figura 4](media/22-preventive-maintenance.png)
 

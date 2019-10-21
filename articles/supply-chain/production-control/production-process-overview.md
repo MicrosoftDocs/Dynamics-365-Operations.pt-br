@@ -3,7 +3,7 @@ title: Visão geral do processo de produção
 description: Este tópico fornece uma visão geral dos processos de produção. Ele descreve as várias fases de ordens de produção, de ordens de lotes e de kanbans, desde a criação da ordem até o fechamento do período financeiro.
 author: cvocph
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd529afa5d8117e01784ed267709e1ac8c43290d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5b586a02d79fbbee698f32ab2ace3f86e7262fa7
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546654"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249999"
 ---
 # <a name="production-process-overview"></a>Visão geral do processo de produção
 
@@ -36,12 +36,12 @@ A produção de produtos, um processo que também é conhecido como o ciclo de v
 
 O módulo **Controle de produção** está vinculado a outros módulos, como **Gerenciamento de informações do produto**, **Gerenciamento de estoque**, **Contabilidade**, **Gerenciamento de depósito**, **Contabilidade de projetos** e **Administração da organização**. Essa integração oferece suporte ao fluxo de informações necessário para concluir a fabricação de um item acabado.  
 
-O processo de produção é normalmente influenciado pelos métodos de avaliação de contabilização de custos e de estoque que são escolhidos para um processo de produção específico. O Finanças e Operações oferece suporte aos custos reais (primeiro a entrar, primeiro a sair \[PEPS\]; último a entrar, primeiro a sair \[UEPS\]; média de movimentos; e média ponderada e periódica) e métodos de custo padrão. O lean manufacturing é implementado com base no princípio de custos de fluxo inverso.  
+O processo de produção é normalmente influenciado pelos métodos de avaliação de contabilização de custos e de estoque que são escolhidos para um processo de produção específico. O Supply Chain Management oferece suporte aos custos reais (primeiro a entrar, primeiro a sair \[PEPS\]; último a entrar, primeiro a sair \[UEPS\]; média de movimentos; e média ponderada e periódica) e aos métodos de custo padrão. O lean manufacturing é implementado com base no princípio de custos de fluxo inverso.  
 
 A opção dos métodos de medição de custo também define os requisitos de relatórios sobre o material e o consumo de recursos durante o processo de produção. Normalmente, os métodos de custo reais exigem relatório correto no nível do trabalho, enquanto os métodos de custo periódico permitem o relatório menos granular do material e do consumo de recursos.
 
 ## <a name="mixed-mode-manufacturing"></a>Fabricação de modo misto
-Diferentes produtos e topologias de produção exigem a utilização de diferentes tipos de ordem. O Finanças e Operações pode aplicar vários tipos de ordem em um modo misto. Em outras palavras, todos os tipos de ordem podem ocorrer durante o processo completo de produção de um produto finalizado.
+Diferentes produtos e topologias de produção exigem a utilização de diferentes tipos de ordem. O Supply Chain Management pode aplicar vários tipos de ordem em um modo misto. Em outras palavras, todos os tipos de ordem podem ocorrer durante o processo completo de produção de um produto finalizado.
 
 -   **Ordem de produção** – Este é o tipo de ordem clássico para produzir um produto específico ou variante do produto em uma determinada quantidade, em uma data específica. As ordens de produção são baseadas em listas de materiais (BOMs) e roteiros.
 -   **Ordem de lote** – Este tipo de ordem é usado para processar processos discretos e das indústrias nos quais a conversão de fabricação é baseada em uma fórmula, ou quando coprodutos e subprodutos podem ser produtos finais, além ou em vez do produto principal. As ordens de lote usam tipos de BOMs e de roteiros da **Fórmula**.
@@ -60,7 +60,7 @@ Para selecionar o princípio de fabricação que se aplica melhor a um produto e
 As etapas a seguir no ciclo de vida de produção podem ocorrer para todos os tipos de ordem de fabricação de modo misto. No entanto, nem todos são representados como um status da ordem explícito.
 
 1.  **Criado** – Você pode criar uma ordem de produção, uma ordem de lote, ou um kanban manualmente, ou você pode configurar o sistema para gerá-los com base em vários sinais de demanda. O planejamento mestre cria ordens de produção, ordens de lote ou kanbans através da confirmação ordens planejadas. Outros sinais de demanda são ordens de venda ou sinais de fornecimento vinculado de outras ordens de produção ou kanbans. Para kanbans de quantidade fixa, os sinais de demanda são gerados quando os kanbans são registrados como vazios.
-2.  **Estimado** – Você pode calcular previsões para o consumo de material e recursos. A estimativa gera transações de estoque para as matérias-primas que têm um status **Em ordem**. Os recebimentos de produtos, coprodutos e subprodutos principais são gerados quando as ordens de produção ou ordens de lote são estimadas. Se a BOM contiver as linhas do tipo **Fornecimento vinculado**, ordens de compra para materiais ou serviços de operação subcontratados são geradas e vinculadas à ordem de produção ou ordem de lote. Os itens ou as ordens são reservados de acordo com a estratégia de reserva da ordem de produção, e o preço dos produtos concluídos é calculado com base nas configurações de parâmetro.
+2.  **Estimado** – Você pode calcular previsões para o consumo de material e recursos. A estimativa gera transações de estoque para as matérias-primas que têm um status **Em ordem**. Os recebimentos de produtos, coprodutos e subprodutos principais são gerados quando as ordens de produção ou as ordens de lote são estimadas. Se a BOM contiver as linhas do tipo **Fornecimento vinculado**, ordens de compra para materiais ou serviços de operação subcontratados são geradas e vinculadas à ordem de produção ou ordem de lote. Os itens ou as ordens são reservados de acordo com a estratégia de reserva da ordem de produção, e o preço dos produtos concluídos é calculado com base nas configurações de parâmetro.
 3.  **Agendado** – Você pode agendar a produção com base em operações, trabalhos individuais ou ambos.
     -   **Plano de operações** – Este método de planejamento fornece um plano aproximado de longo prazo. Usando este método, você pode atribuir datas inicial e final às ordens de produção. Se as ordens de produção estiverem anexadas a operações de roteiro, será possível atribuí-las a grupos de centros de custo.
     -   **Planejamento de trabalho** – Este método de planejamento fornece um plano detalhado. Cada operação é dividida em trabalhos individuais com datas, horas específicas e recursos de operações atribuídos. Se a capacidade finita for usada, os trabalhos serão atribuídos a recursos de operações com base em disponibilidade. Você pode exibir e alterar o plano em um gráfico de Gantt.

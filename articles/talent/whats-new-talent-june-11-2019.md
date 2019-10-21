@@ -1,6 +1,6 @@
 ---
-title: Novidades ou alterações no Dynamics 365 for Talent (11 de junho de 2019)
-description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 for Talent.
+title: Novidades ou alterações no Dynamics 365 Talent (11 de junho de 2019)
+description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/11/2019
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a1413ea43e852c78ede227b69c0f49c07944a872
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: b06dc0556bd1461573cd56abed602d72333a3f39
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741604"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023921"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-11-2019"></a>Novidades ou alterações no Dynamics 365 for Talent (11 de junho de 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-june-11-2019"></a>Novidades ou alterações no Dynamics 365 Talent (11 de junho de 2019)
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 for Talent.
+Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Alterações no Attract
 
 ### <a name="search-engine-optimization-for-job-posts"></a>Otimização do mecanismo de pesquisa para lançamentos de trabalho
 
-Após você ativar **Otimização do Mecanismo de Pesquisa** no Dynamics 365 for Talent: Centro de administração do Attract, o Attract informará a interface de programação de aplicativos (API) de Indexação do Google para rastrear a página da Web sempre que você ativar e lançar um novo trabalho ou atualizar um trabalho existente. Assim, o trabalho aparecerá nos resultados de pesquisa do Google e de outros mecanismos de pesquisa.
+Após você ativar **Otimização do Mecanismo de Pesquisa** no Dynamics 365 Talent: Attract - Centro de administração, o Attract informará a interface de programação de aplicativos (API) de Indexação do Google para rastrear a página da Web sempre que você ativar e lançar um novo trabalho ou atualizar um trabalho existente. Assim, o trabalho aparecerá nos resultados de pesquisa do Google e de outros mecanismos de pesquisa.
 
 Da mesma forma, sempre que você não lançar um trabalho, o Attract informará a API de Indexação. Assim, o trabalho não lançado deixará de aparecer nos resultados da pesquisa.
 
@@ -50,15 +50,15 @@ As aprovações aparecem em uma seção **Aprovações** no painel. Os aprovador
 
 ## <a name="changes-in-onboard"></a>Alterações de Integração
 
-Esta versão inclui correções de bug menores para Dynamics 365 for Talent: Onboard.
+Esta versão inclui correções de bug menores para o Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Alterações no Core HR
 
 As alterações descritas nesta seção aplicam-se ao número da compilação 8.1.2337.
 
-### <a name="platform-update-27"></a>Update 27 para plataforma
+### <a name="platform-update-27-for-finance-and-operations"></a>Atualização de plataforma 27 do Finance and Operations
 
-Para obter mais detalhes sobre a atualização de Plataforma 27, consulte [Exibição de recursos na atualização de plataforma 27 do Dynamics 365 for Finance and Operations (junho de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27).
+Para obter mais detalhes sobre a atualização de plataforma 27 do Finance and Operations, consulte [Recursos de visualização na atualização de plataforma 27 do Dynamics 365 Finance and Operations (junho de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27).
 
 ### <a name="feature-management-workspace-in-talent"></a>Espaço de trabalho de gerenciamento de recursos no Talent
 

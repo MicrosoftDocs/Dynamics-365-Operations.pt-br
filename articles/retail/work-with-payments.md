@@ -1,6 +1,6 @@
 ---
 title: Métodos de pagamento em call centers
-description: Este tópico descreve os diversos métodos de pagamento que você pode usar em um call center no Microsoft Dynamics 365 for Retail.
+description: Este tópico descreve os diversos métodos de pagamento que você pode usar em um call center no Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 03/28/2018
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 825ad4ba3e72e5b34c2ff29f36f88a518810ce49
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 551a3cc9c0def1c67ab930dbff7cd1c0d296bd21
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571510"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018219"
 ---
 # <a name="payment-methods-in-call-centers"></a>Métodos de pagamento em call centers
 
 [!include [banner](includes/banner.md)]
 
-No Microsoft Dynamics 365 for Retail, a configuração do canal de call center inclui uma configuração chamada **Habilitar a conclusão de ordem**. Essa configuração ajuda a garantia que todas as ordens criadas por esses usuários do canal só sejam liberadas para processamento de ordens se tiverem um pagamento antecipado ou um pagamento pré-autorizado que esteja dentro das tolerâncias aprovadas. Se a configuração **Habilitar a conclusão de ordem** estiver ativada, os usuários de call center poderão inserir pagamentos para ordens de venda para clientes usando os recursos de processamento de pagamento de call center. Se a configuração estiver desativada, os usuários de call center não poderão usar os recursos de processamento de pagamento de Call center, mas ainda poderão aplicar pagamentos antecipados a ordens de venda usando a funcionalidade Contas a receber padrão.
+No Dynamics 365 Retail, a configuração do canal de call center inclui uma configuração chamada **Habilitar a conclusão de ordem**. Essa configuração ajuda a garantia que todas as ordens criadas por esses usuários do canal só sejam liberadas para processamento de ordens se tiverem um pagamento antecipado ou um pagamento pré-autorizado que esteja dentro das tolerâncias aprovadas. Se a configuração **Habilitar a conclusão de ordem** estiver ativada, os usuários de call center poderão inserir pagamentos para ordens de venda para clientes usando os recursos de processamento de pagamento de call center. Se a configuração estiver desativada, os usuários de call center não poderão usar os recursos de processamento de pagamento de Call center, mas ainda poderão aplicar pagamentos antecipados a ordens de venda usando a funcionalidade Contas a receber padrão.
 
 Como parte da configuração de canal, uma empresa pode definir métodos de pagamento permitidos para um canal de call center. O canal de call center usa os mesmos métodos de pagamento definidos para os canais de loja de varejo.
 

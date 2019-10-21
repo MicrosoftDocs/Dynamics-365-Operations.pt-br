@@ -1,6 +1,6 @@
 ---
-title: Habilitar integração do Broadbean no Microsoft Dynamics 365 for Talent - Attract
-description: Este tópico explica como configurar o Microsoft Dynamics 365 for Talent - Attract para lançar trabalhos em quadros de trabalho externos, como o Broadbean.
+title: Habilitar a integração do Broadbean no Microsoft Dynamics 365 Talent - Attract
+description: Este tópico explica como configurar o Microsoft Dynamics 365 Talent - Attract para postar trabalhos em quadros de trabalho externos, como o Broadbean.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 2334c2bd0edccf3000f8d91651afafd4619ad0b8
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 808f91fb4b68ba9b5cee54d86423d23232df23a4
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739670"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008584"
 ---
 # <a name="enable-broadbean-integration"></a>Habilitar a integração com o Broadbean
 
 [!include[banner](../includes/banner.md)]
 
-Você quer divulgar posições em aberto para o maior número possível de candidatos qualificados. Sites de recrutamento como o Broadbean ajudam a atingir esse objetivo. O Microsoft Dynamics 365 for Talent: Attract agora permite que você lance trabalhos no Broadbean, e a Microsoft está constantemente apresentando novas ofertas nessa área.
+Você quer divulgar posições em aberto para o maior número possível de candidatos qualificados. Sites de recrutamento como o Broadbean ajudam a atingir esse objetivo. O Microsoft Dynamics 365 Talent: Attract agora permite que você publique trabalhos no Broadbean, e a Microsoft está constantemente apresentando novas ofertas nessa área.
 
 > [!NOTE]
 > - Para postar trabalhos em sites externos, você deve ter o [complemento de Contratação abrangente](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).

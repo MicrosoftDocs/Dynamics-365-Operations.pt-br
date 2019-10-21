@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 00d7457b13e6633c9285a1fc43b8f6dd60dae9ae
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 555098a7d11cb0b4c0f90357ff260598e80108f5
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836523"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017911"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Determinar a combinação ideal de sobreposição de descontos
 
@@ -32,7 +32,7 @@ ms.locfileid: "1836523"
 
 Quando os descontos se sobrepõem, você deve determinar a combinação dos descontos que produzirão a transação total inferior ou o desconto total maior. Quando o valor de desconto varia de acordo com o preço dos produtos que são comprados, como no desconto de varejo comum "Compre 1, leve 1 X com percentual de desconto" (BOGO), este processo torna-se um problema de otimização combinatória.
 
-Este artigo aplica-se ao Microsoft Dynamics AX 2012 R3 com KB 3105973 (versão de 2 de novembro de 2015) ou posterior e ao Microsoft Dynamics 365 for Retail. Para determinar a combinação de sobreposição de descontos a ser aplicada tempestivamente, nós introduzimos um método de aplicação de sobreposição de descontos. Chamamos este novo método de **classificação de valor marginal**. A classificação de valor marginal é usada quando o tempo necessário para avaliar as combinações possíveis de sobreposição de descontos excede o limite configurável na página **Parâmetros de varejo**. No método de classificação de valor marginal, um valor é calculado para cada desconto de sobreposição usando o valor de desconto nos produtos compartilhados. Os descontos sobrepostos são então aplicados a partir do valor relativo mais alto ao valor relativo mais baixo. Para obter detalhes sobre o novo método, consulte a seção "Valor marginal", mais adiante neste artigo. A classificação de valor marginal não é usada quando valores de desconto para um produto não são afetados por outros produtos na transação. Por exemplo, este método não é usado para os dois descontos simples ou para um desconto simples e um único desconto por quantidade de produto.
+Este artigo aplica-se ao Microsoft Dynamics AX 2012 R3 com KB 3105973 (versão de 2 de novembro de 2015) ou posterior e ao Dynamics 365 Retail. Para determinar a combinação de sobreposição de descontos a ser aplicada tempestivamente, nós introduzimos um método de aplicação de sobreposição de descontos. Chamamos este novo método de **classificação de valor marginal**. A classificação de valor marginal é usada quando o tempo necessário para avaliar as combinações possíveis de sobreposição de descontos excede o limite configurável na página **Parâmetros de varejo**. No método de classificação de valor marginal, um valor é calculado para cada desconto de sobreposição usando o valor de desconto nos produtos compartilhados. Os descontos sobrepostos são então aplicados a partir do valor relativo mais alto ao valor relativo mais baixo. Para obter detalhes sobre o novo método, consulte a seção "Valor marginal", mais adiante neste artigo. A classificação de valor marginal não é usada quando valores de desconto para um produto não são afetados por outros produtos na transação. Por exemplo, este método não é usado para os dois descontos simples ou para um desconto simples e um único desconto por quantidade de produto.
 
 ## <a name="discount-examples"></a>Exemplos de desconto
 

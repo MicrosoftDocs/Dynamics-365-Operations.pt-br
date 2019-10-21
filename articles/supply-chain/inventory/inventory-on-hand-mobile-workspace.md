@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 68b285ba78a9bd654e7bfcfe8d4c6b0207346eab
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 05881b6e6e501ff3ac5a622d99fd1aaa311727a1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845585"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249508"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Espaço de trabalho móvel de estoque disponível
 
@@ -31,7 +31,7 @@ ms.locfileid: "1845585"
 
 Este tópico fornece informações sobre a área de trabalho móvel de **Estoque disponível**. Este espaço de trabalho ajuda você a obter informações sobre estoque reservado e disponível a qualquer hora e em qualquer lugar.
 
-Este espaço de trabalho móvel deve ser usado com o Microsoft Dynamics 365 do aplicativo Unified Operations Mobile.
+Esse espaço de trabalho móvel deve ser usado com o aplicativo móvel Finance and Operations.
 
 ## <a name="overview"></a>Visão Geral
 Geralmente, as empresas têm várias remessas e vários recebimentos de estoque a cada dia. Esses movimentos alteram constantemente o status disponível do estoque. O espaço de trabalho móvel de **Estoque disponível** permite ver o status de estoque disponível entre empresas, para que você possa obter as informações mais recentes sobre dados de estoque no dispositivo móvel de sua escolha. Independentemente de trabalhar no depósito, em compras, em vendas, na fabricação ou no gerenciamento ou ter outras funções, você pode acessar os dados de estoque disponível a qualquer momento e em qualquer lugar. 
@@ -58,11 +58,11 @@ Especificamente, espaço de trabalho móvel fornece esses recursos:
 ## <a name="prerequisites"></a>Pré-requisitos
 Os pré-requisitos variam conforme a versão do Microsoft Dynamics 365 implantada na organização.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Pré-requisitos se você usa o Microsoft Dynamics 365 for Finance and Operations 
-Se o Microsoft Dynamics 365 for Finance and Operations foi implantado na sua organização, o administrador do sistema deverá publicar o espaço de trabalho móvel **Estoque disponível**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-finance-and-operations"></a>Pré-requisitos se você usa o Finance and Operations 
+Se o Supply Chain Management tiver sido implantado para sua organização, o administrador do sistema deverá publicar o espaço de trabalho móvel **Estoque disponível**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Pré-requisitos se você usa a versão 1611 do Microsoft Dynamics 365 for Operations com a atualização de plataforma 3 ou posterior
-Se o Microsoft Dynamics 365 for Operations versão 1611 com a atualização de plataforma 3 ou posterior foi implantado na organização, o administrador do sistema deverá atender aos pré-requisitos a seguir. 
+### <a name="prerequisites-if-you-use-platform-update-3-or-later"></a>Pré-requisitos se você usa a Platform update 3 ou posterior 
+Se a Platform update 3 ou posterior tiver sido implantada para sua organização, o administrador do sistema deverá atender aos pré-requisitos a seguir. 
 
 <table>
 <thead>
@@ -96,7 +96,7 @@ Se o Microsoft Dynamics 365 for Operations versão 1611 com a atualização de p
 
 ## <a name="download-and-install-the-mobile-app"></a>Baixa e instala o aplicativo móvel.
 
-Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
+Baixe e instale o aplicativo móvel Finance and Operations:
 
 -   [Para telefones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

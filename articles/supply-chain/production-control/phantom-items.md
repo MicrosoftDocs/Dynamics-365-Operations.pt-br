@@ -1,6 +1,6 @@
 ---
 title: Itens fantasma
-description: Este tópico descreve, em detalhes, como o tipo de linha fantasma pode ser usado para as linhas de uma lista de materiais (BOM) e uma fórmula no Microsoft Dynamics 365 for Finance and Operations.
+description: Este tópico descreve, em detalhes, como o tipo de linha fantasma pode ser usado para as linhas de uma lista de materiais (BOM) e uma fórmula no Dynamics 365 Supply Chain Management.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/15/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validfrom: ''
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f01a0321740365c23cbc117be42c0a5137960af7
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 7c39b0ac2eb8a2293c828fee23ed6a78cb5fe2c9
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843880"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249994"
 ---
 # <a name="phantom-items"></a>Itens fantasma
 
@@ -51,7 +51,7 @@ Nesta estrutura, você verá que não há uma noção de peças F e G, e os mate
 
 Diferentemente da BOM de engenharia, que tinha duas planilhas de operações, a BOM de fabricação tem apenas uma planilha de operações. A operação de embalagem que foi vinculada à peça G também foi elevada e agora faz parte da planilha de operações do produto. H. A montagem da unidade elétrica é a primeira operação. Essa ordem faz sentido, porque essa unidade é usada na operação seguinte, a montagem da máquina. A última operação é a operação de embalagem, que consume dois materiais de embalagem (C e D).
 
-No Microsoft Dynamics 365 for Finance and Operations, a transição entre a BOM de engenharia e a BOM de fabricação é habilitada por meio do tipo de linha fantasma da BOM. Como o termo “fantasma” já indica, as peças F e G desapareceram durante a transição entre os dois tipos de BOM. Neste exemplo, o tipo de linha fantasma será aplicado às linhas de BOM das peças F e G na BOM de engenharia. Quando uma ordem de produção ou de lote é criada, a BOM de engenharia é copiada na ordem de produção ou de lote. Em seguida, quando a ordem é estimada, ocorre a transição da BOM de engenharia para a BOM de fabricação, conforme mostrado nas ilustrações anteriores. Na planilha de operações da segunda ilustração, os materiais de embalagem C e D são inseridos para a operação. 
+A transição entre a BOM de engenharia e a BOM de fabricação é habilitada por meio do tipo de linha fantasma da BOM. Como o termo “fantasma” já indica, as peças F e G desapareceram durante a transição entre os dois tipos de BOM. Neste exemplo, o tipo de linha fantasma será aplicado às linhas de BOM das peças F e G na BOM de engenharia. Quando uma ordem de produção ou de lote é criada, a BOM de engenharia é copiada na ordem de produção ou de lote. Em seguida, quando a ordem é estimada, ocorre a transição da BOM de engenharia para a BOM de fabricação, conforme mostrado nas ilustrações anteriores. Na planilha de operações da segunda ilustração, os materiais de embalagem C e D são inseridos para a operação. 
 
 ## <a name="multilevel-phantom-bom-structures"></a>Estruturas fantasma de BOM de vários níveis
 O tipo de linha fantasma pode ser usado em estruturas de BOM de vários níveis, conforme mostrado na ilustração a seguir. Nesta ilustração, (a) é a BOM do produto G, e (b) é a planilha de roteiro das peças E e F e do produto G. 

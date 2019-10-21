@@ -1,6 +1,6 @@
 ---
-title: Criar e enviar um guia de integração usando o Dynamics 365 for Talent - Onboard
-description: Este tópico explica como usar o aplicativo Microsoft Dynamics 365 for Talent - Onboard para criar um guia de integração para suas novas contratações. Esta tarefa é uma etapa inicial essencial em uma estratégia de contratação até a demissão do gerenciamento de capital humano (HCM).
+title: Criar e enviar um guia de integração usando o Dynamics 365 Talent - Onboard
+description: Este tópico explica como usar o aplicativo Microsoft Dynamics 365 Talent - Onboard para criar um guia de integração para suas novas contratações. Esta tarefa é uma etapa inicial essencial em uma estratégia de contratação até a demissão do gerenciamento de capital humano (HCM).
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: de5d584e3b7edba2751aa0c83b0465df2c3e4f7d
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: e4dbfcc3b3fd611eea36109a516a7b9361a9f654
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731367"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009845"
 ---
-# <a name="create-and-send-an-onboarding-guide-by-using-dynamics-365-for-talent-onboard"></a>Criar e enviar um guia de integração usando o Dynamics 365 for Talent: Onboard
+# <a name="create-and-send-an-onboarding-guide"></a>Criar e enviar uma guia de integração
 
 [!include [banner](includes/banner.md)]
 
-O Microsoft Dynamics 365 for Talent: Onboard permite criar guias de integração por meio de modelos que você mesmo criou, de modelos disponíveis em uma galeria, ou do zero.
+O Microsoft Dynamics 365 Talent: Onboard permite criar guias de integração por meio de modelos que você mesmo criou, de modelos disponíveis em uma galeria ou do zero.
 
 Após criar um guia de integração, você pode enviá-lo para uma nova contratação. Como alternativa, você pode enviá-lo a várias novas contratações especificadas em um arquivo do Microsoft Excel que você baixa do aplicativo Onboard.
 

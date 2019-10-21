@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f740ab481b8663ecc29169eee1ead5ff23bb3f5
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 3c1989f11563db343129c678623725e2e61b27fc
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1866128"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251451"
 ---
 # <a name="replenishment-overview"></a>Visão geral de reabastecimento
 
@@ -55,7 +55,7 @@ O reabastecimento de demanda é suportado para pedidos de vendas, ordens de tran
 ## <a name="minmax-replenishment"></a>Reabastecimento mín./máx.
 No reabastecimento mín./máx., estoque é reabastecido para que esteja também entre os limites máximo e mínimo que foram definidos. Normalmente, este processo ocorre uma vez por dia para ajudar a garantir que todos os locais de separação são preenchidos para o nível máximo antes da separação ser iniciada. 
 
-Os valores mínimo e máximo são definidos em um modelo de reabastecimento. Muitas das configurações no modelo são semelhantes as configurações nos modelos que são usadas no reabastecimento de demanda da onda. O modelo deve conter uma linha para cada item e localização. Quando você executa o reabastecimento usando o trabalho em lotes, o Microsoft Dynamics 365 for Finance and Operations avalia se o reabastecimento é necessário usando a sequência na qual as linhas estão organizadas. 
+Os valores mínimo e máximo são definidos em um modelo de reabastecimento. Muitas das configurações no modelo são semelhantes as configurações nos modelos que são usadas no reabastecimento de demanda da onda. O modelo deve conter uma linha para cada item e localização. Quando você executa o reabastecimento usando o trabalho em lotes, o sistemas avalia se o reabastecimento é necessário usando a sequência na qual as linhas estão organizadas. 
 
 Observe que a estratégia de reabastecimento mínima/máxima não pode reabastecer um local vazio, a menos que o local esteja definido como o local fixo para o item. Se a localização que deve ser reabastecida não estiver em um local fixo, o sistema não poderá determinar qual item deverá ser reabastecido. Portanto, pelo menos alguma quantidade disponível é necessária antes de reabastecimento.
 

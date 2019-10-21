@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 0a31ea7d1df33d3f42e95d5e1152f00687954b04
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3a6e7556705249296d4f5e5fb56f25b444f8f71a
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517294"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008142"
 ---
 # <a name="create-fixed-compensation-plans"></a>Criar planos de remuneração fixa.
 
@@ -31,7 +31,7 @@ ms.locfileid: "1517294"
 
 A remuneração fixa se refere ao salário bruto normal ou ao salário de um funcionário. Este tópico descreve os componentes que devem ser configurados antes de criar um plano de remuneração fixo e inserir os funcionários.
 
-Os valores de remuneração fixa podem ser calculados para os funcionários, com base em fatores como o desempenho, região e os aumentos de orçamento. O Microsoft Talent dá suporte aos tipos de compensação por etapa, classificação e faixa.
+Os valores de remuneração fixa podem ser calculados para os funcionários, com base em fatores como o desempenho, região e os aumentos de orçamento. O Dynamics 365 Talent dá suporte aos tipos de compensação por etapa, classificação e faixa.
 
 ## <a name="fixed-compensation-components"></a>Componentes de remuneração fixa
 ### <a name="compensation-levels"></a>Níveis de remuneração

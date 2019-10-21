@@ -19,18 +19,19 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 7c722c311048258ce75170ac4276d397fe2828fe
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: c642e4f1b29ac21b6736e770c84f343e9265961d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606886"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023627"
 ---
 # <a name="attributes-and-attribute-groups"></a>Atributos e grupos de atributos
 
 [!include [banner](includes/banner.md)]
 
-Os *Atributos* fornecem uma maneira de descrever melhor um produto e suas características por meio de campos definidos pelo usuário (como **Tamanho da memória**, **Capacidade do disco rígido**, **Compatível com Energy Star** etc). No Microsoft Dynamics 365 for Finance and Operations, os atributos podem ser associados a várias entidades de Retail, como categorias de produto e canais de varejo, e valores padrão podem ser definidos para eles. Os produtos então herdam os atributos e os valores padrão quando são associados às categorias de produto ou aos canais de varejo. Os valores padrão podem ser substituídos no nível do produto individual, do canal de varejo ou em um catálogo de varejo.
+Os *Atributos* fornecem uma maneira de descrever melhor um produto e suas características por meio de campos definidos pelo usuário (como **Tamanho da memória**, **Capacidade do disco rígido**, **Compatível com Energy Star** etc). Os atributos podem ser associados a várias entidades do Retail, como categorias de produto e canais de varejo; os valores padrão podem ser definidos para eles. Os produtos então herdam os atributos e os valores padrão quando são associados às categorias de produto ou aos canais de varejo. Os valores padrão podem ser substituídos no nível do produto individual, do canal de varejo ou em um catálogo de varejo.
+
 
 Por exemplo, uma televisão típica pode ter os seguintes atributos.
 
@@ -53,7 +54,7 @@ Por exemplo, uma televisão típica pode ter os seguintes atributos.
 
 ## <a name="attributes-and-attribute-types"></a>Atributos e tipos de atributos
 
-Os atributos são baseados nos *tipos de atributos*. O tipo de atributo identifica o tipo de dados que podem ser inseridos para um atributo específico. O Finance and Operations é atualmente compatível com os seguintes tipos de atributos:
+Os atributos são baseados nos *tipos de atributos*. O tipo de atributo identifica o tipo de dados que podem ser inseridos para um atributo específico. Os seguintes tipos de atributo têm suporte:
 
 - **Moeda** – Este tipo dá suporte a um valor de moeda. Ele pode ser limitado (isto é, pode dar suporte a um intervalo de valores), ou pode ser deixado aberto.
 - **Data/Hora** – Este tipo dá suporte a valores de data e hora. Pode ser limitado ou deixado aberto.
@@ -63,9 +64,9 @@ Os atributos são baseados nos *tipos de atributos*. O tipo de atributo identifi
 - **Booliano** – Este tipo dá suporte a um valor binário (**true** ou **false**).
 - **Referência** – Este tipo faz referência a outros atributos.
 
-### <a name="set-up-attribute-types-in-finance-and-operations"></a>Configurar tipos de atributos no Finance and Operations
+### <a name="set-up-attribute-types"></a>Configurar tipos de atributos
 
-1. Entre no cliente de back office do Finance and Operations como um gerente de mercadorias de varejo.
+1. Entre no cliente de back office como um gerente de mercadorias de varejo.
 2. Vá para **Gerenciamento de informações do produto** &gt; **Configuração** &gt; **Categorias e atributos** &gt; **Tipos de atributos**.
 3. Crie dois tipos de atributos do tipo **Texto**, defina a opção **Lista fixa** como **Sim** e adicione uma lista de valores:
 
@@ -74,7 +75,7 @@ Os atributos são baseados nos *tipos de atributos*. O tipo de atributo identifi
 
 ![Tipos de atributos](media/AttributeType.png)
 
-### <a name="set-up-an-attribute-in-finance-and-operations"></a>Configurar um atributo no Finance and Operations
+### <a name="set-up-an-attribute"></a>Configurar um atributo
 
 1. Entre no cliente de back office como um gerente de mercadorias de varejo.
 2. Vá para **Gerenciamento de informações do produto** &gt; **Configuração** &gt; **Categorias e atributos** &gt; **Atributos**.
@@ -101,13 +102,13 @@ Estas são as outras opções de metadados de atributo na página **Atributos**:
 - Ignorar maiúsculas/minúsculas e formato
 - Correspondência concluída
 
-Essas opções foram originalmente destinadas a melhorar a funcionalidade de pesquisa da vitrine online. Embora o Finance and Operations não inclua a vitrine online pronta para uso, ele inclui o Software Development Kit (SDK) para publicação de comércio eletrônico. Os clientes podem usar esse SDK para colocar produtos em um índice de pesquisa de sua escolha. Embora os dados do produto sejam importados, os clientes ainda poderão distinguir dados pesquisáveis, dados que podem ser consultados e assim por diante. Dessa forma, eles podem construir um índice ideal para garantir que indexem somente os atributos que, *em sua opinião*, devem ser indexados.
+Essas opções foram originalmente destinadas a melhorar a funcionalidade de pesquisa da vitrine online. Embora o Retail não inclua a vitrine online pronta para uso, ele inclui o Software Development Kit (SDK) para publicação de comércio eletrônico. Os clientes podem usar esse SDK para colocar produtos em um índice de pesquisa de sua escolha. Embora os dados do produto sejam importados, os clientes ainda poderão distinguir dados pesquisáveis, dados que podem ser consultados e assim por diante. Dessa forma, eles podem construir um índice ideal para garantir que indexem somente os atributos que, *em sua opinião*, devem ser indexados.
 
 Para obter informações sobre a finalidade dessas outras opções, consulte [Visão geral do esquema de pesquisa no SharePoint Server 2013](https://technet.microsoft.com/library/jj219669.aspx).
 
 ## <a name="filter-settings-for-attributes"></a>Configurações de filtro para atributos
 
-As configurações de filtro para atributos permitem definir como os filtros para atributos são mostrados no Retail POS. Para acessar as configurações de filtro para um atributo, na página **Atributos** no Finance and Operations, selecione o atributo e, em seguida, no Painel de Ação, selecione **Configurações do filtro**.
+As configurações de filtro para atributos permitem definir como os filtros para atributos são mostrados no Retail POS. Para acessar as configurações de filtro de um atributo, na página **Atributos**, selecione o atributo e, no Painel de Ação, selecione **Configurações do filtro**.
 
 A página **Preferências de exibição do filtro** inclui os seguintes campos:
 
@@ -233,7 +234,7 @@ Os valores padrão de atributos podem ser substituídos para produtos individuai
     - Atributos de produto do canal
 
     > [!NOTE]
-    > Se a mídia de produto e os atributos de produto compartilhados forem criados no Finance and Operations, se aplicarão a todos os produtos de varejo.
+    > Se a mídia de produto e os atributos de produto compartilhados forem criados, eles se aplicarão a todos os produtos de varejo.
 
 ![Grupos de atributos de produto do catálogo](media/CatalogProdAttrValues.png)
 
@@ -255,4 +256,4 @@ Os valores padrão de atributos podem ser substituídos para produtos individuai
     - Atributos de produto do canal
 
     > [!NOTE]
-    > Se a mídia de produto e os atributos de produto compartilhados forem criados no Finance and Operations, se aplicarão a todos os produtos de varejo.
+    > Se a mídia de produto e os atributos de produto compartilhados forem criados, eles se aplicarão a todos os produtos de varejo.

@@ -3,7 +3,7 @@ title: Custo do agendamento de manutenção
 description: Este tópico explica o custo de agendamento de manutenção no Gerenciamento de Ativos.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,22 +16,20 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 71b958839a914d90a86a0dcd16a09285ca6dcfa4
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: b2f53a4a64b06efc9269c607bfe1fc3a41c90cdd
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875494"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922059"
 ---
 # <a name="maintenance-schedule-cost"></a>Custo do agendamento de manutenção
-
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [banner](../../includes/preview-banner.md)]
-
 
 No Gerenciamento de Ativos você pode calcular os custos de orçamento nas linhas de agendamento de manutenção. Isso é útil se você quiser obter uma visão geral dos custos esperados, por exemplo, os custos relacionados aos trabalhos de manutenção preventiva planejados para o próximo ano. Os cálculos são baseados nas linhas de agendamento de manutenção existente do tipo "Planos de manutenção" e "Rounds de manutenção" e "Solicitações de manutenção".
 
@@ -48,10 +46,11 @@ No Gerenciamento de Ativos você pode calcular os custos de orçamento nas linha
 
 5. Clique em **OK**para iniciar o cálculo de custo.
 
-6. Na guia **Custo de agendamento de manutenção** > nos grupos do painel de ação **Agrupar por...**, clique nos botões relevantes para mostrar o nível de detalhe necessário do cálculo de custo. Os botões do grupo de painéis de ação selecionados são destacados na cor azul. Clique em um botão para ativá-los ou desativá-los.
+6. Na guia **Custo de agendamento de manutenção** > nos grupos do painel de ação **Agrupar por...**, clique nos botões relevantes para mostrar o nível de detalhe necessário do cálculo de custo. Os botões do grupo do painel de ação selecionado estão destacados. Clique em um botão para ativá-los ou desativá-los.
 
 7. Clique no botão **Calcular custo** se quiser fazer um novo cálculo de custo.
 
+A ilustração a seguir mostra os resultados do cálculo de custo de um agendamento de manutenção.
 
 ![Figura 1](media/17-preventive-maintenance.png)
 

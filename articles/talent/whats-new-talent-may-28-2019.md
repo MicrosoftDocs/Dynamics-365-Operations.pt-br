@@ -1,6 +1,6 @@
 ---
-title: Novidades ou alterações no Dynamics 365 for Talent (28 de maio de 2019)
-description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 for Talent.
+title: Novidades ou alterações no Dynamics 365 Talent (28 de maio de 2019)
+description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 05/28/2019
@@ -18,21 +18,21 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c99e0f3637a8d958e31a046eaad6faa57ce3e1e7
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 4c56971628de12823b254f2a68dedfac50c996b0
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856272"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008837"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-may-28-2019"></a>Novidades ou alterações no Dynamics 365 for Talent (28 de maio de 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-may-28-2019"></a>Novidades ou alterações no Dynamics 365 Talent (28 de maio de 2019)
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 for Talent.
+Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Alterações no Attract
-Esta versão inclui correções de bug menores para Dynamics 365 Talent: Attract.
+Esta versão inclui correções de bug menores para o Dynamics 365 Talent: Attract.
 
 ## <a name="coming-soon-in-attract"></a>Em breve no Attract
 
@@ -41,7 +41,7 @@ Esta versão inclui correções de bug menores para Dynamics 365 Talent: Attract
 As aprovações aparecem em uma seção **Aprovações** no painel. Os aprovadores podem revisar suas aprovações em **Atribuída(s) a você**, que exibe a ID do trabalho, título, outros aprovadores e a data atribuída. Os usuários que enviam um trabalho para aprovação podem revisar seus trabalhos em **Solicitado por você**, que exibe os aprovadores que ainda precisam aprovar o trabalho enviado.
 
 ## <a name="changes-in-onboard"></a>Alterações de Integração
-Esta versão inclui correções de bug menores para Dynamics 365 Talent: Onboard.
+Esta versão inclui correções de bug menores para o Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Alterações no Core HR
 As alterações descritas nesta seção aplicam-se ao número da compilação 8.1.2319.

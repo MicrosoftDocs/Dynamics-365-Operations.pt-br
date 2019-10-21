@@ -1,6 +1,6 @@
 ---
-title: Novidades ou alterações no Dynamics 365 for Talent Core HR (16 de outubro de 2018)
-description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 for Talent Core HR.
+title: Novidades ou alterações no Dynamics 365 Talent - Core HR (16 de outubro de 2018)
+description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 10/22/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-22
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 51cfe8a92d1ac611e946934fe8ebbc99053788f1
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 13e89faa3f8470125010ccdb40a6f01c0a9c4fe7
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517355"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008768"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-19-2018"></a>Novidades ou alterações no Dynamics 365 for Talent Core HR (19 de outubro de 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-october-19-2018"></a>Novidades ou alterações no Dynamics 365 Talent: Core HR (19 de outubro de 2018)
 
 [!include[banner](includes/banner.md)]
 
@@ -49,7 +49,7 @@ A obrigação de segurança que controla acesso a essa funcionalidade é:
 As atualizações a seguir foram feitas nesta versão:
 - Alterações a ações de contratação de trabalhador para que eles não fiquem mais "presos" no estado **Fluxo de trabalho completo**.
 - O registro de emprego agora pode ser criado sem uma data de início do trabalho.
-- A data de registro do Dynamics 365 Talent para um curso exibido no auto-atendimento do funcionário agora aplica o deslocamento de fuso horário à data.
+- Agora, a data de registro do Dynamics 365 Talent para um curso exibido no autoatendimento do funcionário aplica o deslocamento de fuso horário à data.
 - Os arquivos excel podem ser importados várias vezes sem quaisquer erros usando **Entidade do funcionário**.
 
 ## <a name="known-issue"></a>Problema conhecido

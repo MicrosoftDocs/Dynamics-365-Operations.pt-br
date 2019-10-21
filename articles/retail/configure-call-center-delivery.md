@@ -1,6 +1,6 @@
 ---
 title: Configurar modos de entrega e encargos do call center
-description: Este tópico descreve como configurar modos de entrega e encargos para uma ordem do call center no Microsoft Dynamics 365 for Retail.
+description: Este tópico descreve como configurar modos de entrega e encargos para uma ordem do call center no Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/26/2018
@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2571b4ffd6c13dbf755ef2dfa93b757822890d96
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b67a1d91e41e1a4c21e0e877c06812dededbe731
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553590"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019476"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Configurar modos de entrega e encargos do call center
 
 [!INCLUDE [banner](includes/banner.md)]
 
-Quando uma ordem de venda é feita no Microsoft Dynamics 365 for Retail, se a pessoa que inseriu a ordem de venda está vinculada a um canal do call center, a lógica e as regras são usadas para validar o modo de entrega e calcular os encargos da ordem.
+Quando uma ordem de venda é feita no Dynamics 365 Retail, se a pessoa que inseriu a ordem de venda está vinculada a um canal do call center, a lógica e as regras são usadas para validar o modo de entrega e calcular os encargos da ordem.
 
 Quando você cria uma ordem de venda, é possível selecionar um modo de entrega no cabeçalho de ordem de venda e nas linhas de ordem de venda. Por padrão, o modo de entrega selecionado no cabeçalho é usado para todas as linhas de ordem de venda. Entretanto, você pode substituir o modo padrão de entrega nas linhas individuais de venda, como necessário. Você também pode definir um modo de entrega de um registro de cliente. Então, quando as ordens são criadas para o cliente, esse modo de entrega é usado por padrão no cabeçalho da ordem de venda.
 

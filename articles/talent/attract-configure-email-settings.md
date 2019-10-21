@@ -1,6 +1,6 @@
 ---
-title: Defina configurações de email no Microsoft Dynamics 365 for Talent - Attract
-description: Este tópico explica como definir configurações para o email enviado pelo Microsoft Dynamcis 365 for Talent - Attract.
+title: Definir as configurações de email no Microsoft Dynamics 365 Talent - Attract
+description: Este tópico explica como definir as configurações dos emails enviados pelo Microsoft Dynamcis 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/04/2019
@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: a8cf59064dd2f66ee50a0b0566aa712ba1f72dea
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: c891a36f01d36774bd921475fa5995d207cd2d51
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739486"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008653"
 ---
 # <a name="configure-email-settings"></a>Definir configurações de email
 
 [!include[banner](../includes/banner.md)]
 
-Sua marca estabelece confiança e ajuda você a construir um relacionamento com candidatos antes de se candidatarem às suas posições. A percepção positiva da marca atrai os maiores talentos e aumenta a fidelidade dos funcionários existentes. Microsoft Dynamics 365 for Talent: o Attract permite que você configure emails para que reflitam a marca da sua empresa. Portanto, você pode fornecer uma experiência consistente a candidatos ao trabalho à medida que avancem no processo de solicitação de emprego.
+Sua marca estabelece confiança e ajuda você a construir um relacionamento com candidatos antes de se candidatarem às suas posições. A percepção positiva da marca atrai os maiores talentos e aumenta a fidelidade dos funcionários existentes. O Microsoft Dynamics 365 Talent: Attract permite que você configure emails para que reflitam a marca da sua empresa. Portanto, você pode fornecer uma experiência consistente a candidatos ao trabalho à medida que avancem no processo de solicitação de emprego.
 
 O Attract permite que você execute estas ações:
 

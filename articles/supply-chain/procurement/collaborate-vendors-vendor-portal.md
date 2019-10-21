@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07fbc5fea1fd44769a29bcc40297ffd02812a1e5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3bb30ddffb86c7083f40863c0c336fc5f65ce8f5
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555139"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248971"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Colaborar com fornecedores usando o Portal do fornecedor
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como os agentes de compras podem usar o portal do fornecedor para colaborar com os fornecedores externos durante o processo de confirmação da ordem de compra. Estas informações se aplicam somente às versões de fevereiro de 2016 &amp; maio de 2016 do Dynamics AX.
+Este tópico descreve como os agentes de compras podem usar o portal do fornecedor para colaborar com os fornecedores externos durante o processo de confirmação da ordem de compra. Estas informações aplicam-se somente às versões de fevereiro e maio de 2016 do Dynamics AX.
 
-As informações neste tópico se aplicam somente às versões de fevereiro de 2016 e maio de 2016 do Dynamics AX. A funcionalidade de portal do fornecedor foi substituída por uma funcionalidade estendida de colaboração do fornecedor na versão 1611 do Dynamics 365 for Operations. Para obter mais informações sobre a nova funcionalidade de colaboração do fornecedor, consulte [Usando colaboração do fornecedor para trabalhar com fornecedores externos](vendor-collaboration-work-external-vendors.md).  
+As informações neste tópico se aplicam somente às versões de fevereiro de 2016 e maio de 2016 do Dynamics AX. Para obter mais informações sobre a nova funcionalidade de colaboração do fornecedor, consulte [Usando colaboração do fornecedor para trabalhar com fornecedores externos](vendor-collaboration-work-external-vendors.md).  
 
 O portal do fornecedor destina-se aos fornecedores que não têm a integração EDI (intercâmbio eletrônico de dados) com o Microsoft Dynamics AX para trocar informações de ordens de compra (OC). O portal permite que os agentes de compras enviem uma OC ao fornecedor e recebam a resposta Confirmada ou Rejeitada diretamente no Dynamics AX.  
 

@@ -19,19 +19,19 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2019-01-18
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 72f4d248f3ac49bbfd8e5a7a12352d92b89bb0eb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4fb02bdeca2d71d84ebdddfd16d471a532823e42
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564938"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025186"
 ---
 # <a name="retail-price-reports"></a>Relatórios de preços de varejo
 
 [!include [banner](includes/banner.md)]
 
 
-A fim de fornecer preços competitivos para seus clientes, os varejistas costumam alterar os preços dos produtos. Os gerentes de lojas querem ter a capacidade de acessar facilmente as mudanças de preços recentes ou futuras para que possam planejar os recursos necessários para atualizar as etiquetas de preços exibidos nas prateleiras das lojas. Com a versão 10.0 do Dynamics 365 for Retail, um gerente de loja pode abrir o relatório **Preço** navegando até **Todas as lojas de varejo \> Loja \> Relatório de preço** e exibindo os preços atualizados dos produtos associados à loja. 
+A fim de fornecer preços competitivos para seus clientes, os varejistas costumam alterar os preços dos produtos. Os gerentes de lojas querem ter a capacidade de acessar facilmente as mudanças de preços recentes ou futuras para que possam planejar os recursos necessários para atualizar as etiquetas de preços exibidos nas prateleiras das lojas. Com a versão 10.0 do Retail, um gerente de loja pode abrir o relatório **Preço** navegando até **Todas as lojas de varejo \> Loja \> Relatório de preço** e exibindo os preços atualizados dos produtos associados à loja. 
 
 Para habilitar o relatório de preço, o parâmetro **Habilitar o relatório de preço para loja de varejo** deve ser ativado. Esse parâmetro está localizado na guia **Parâmetros de varejo \> Descontos \> Diversos**. Abrir a página **Relatório de preço** exibe uma caixa de diálogo com várias configurações. As configurações disponíveis estão listadas abaixo.
 

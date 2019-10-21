@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 00ec888600dedbc740be0efc64cddf37c5c6f558
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 83d969fcc59af87da3921225974ebc2ae41d9fa1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572825"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250981"
 ---
 # <a name="merge-inventory-batches"></a>Mesclar lotes de estoque
 
@@ -89,7 +89,7 @@ Não, você só poderá mesclar os lotes com as mesmas dimensões de estoque do 
 Não, você só pode mesclar a quantidade total de lotes. A funcionalidade de mesclagem de lotes foi concebida como um recurso de estoque, não como um recurso de produção.
 
 ## <a name="what-if-the-batches-have-different-batch-attribute-values"></a>E se os lotes possuírem valores de atributo de lote diferentes?
-Quando você selecionar os lotes de origem para combinar no lote mesclado, o Finance and Operations verificará se todos os lotes têm as características ou valores de atributo. Quando um valor de atributo é o mesmo, um valor será sugerido para o lote mesclado. É possível alterar esse valor. Os valores de atributo que não são iguais são deixados em branco para o lote mesclado, e você pode inserir estes valores manualmente. Se o tipo de atributo de lote do valor do atributo for um número inteiro ou uma fração, e os valores forem diferentes para todos os lotes de origem, o valor será calculado usando o cálculo de média ponderada. O valor calculado é arredondado para cima ou para baixo até o incremento mais próximo. Se o valor estiver em branco para um lote de origem, o lote e sua quantidade não serão incluídos no cálculo. **Exemplo** O exemplo a seguir mostra um cálculo de média ponderada para um lote mesclado. Dois dos lotes de origem tem um valor em branco para um tipo de atributo de lote que é um número inteiro. O seguinte atributo é atribuído aos lotes de origem.
+Quando você selecionar os lotes de origem para combinar no lote mesclado, o Supply Chain Management verificará se todos os lotes têm as características ou os valores de atributo. Quando um valor de atributo é o mesmo, um valor será sugerido para o lote mesclado. É possível alterar esse valor. Os valores de atributo que não são iguais são deixados em branco para o lote mesclado, e você pode inserir estes valores manualmente. Se o tipo de atributo de lote do valor do atributo for um número inteiro ou uma fração, e os valores forem diferentes para todos os lotes de origem, o valor será calculado usando o cálculo de média ponderada. O valor calculado é arredondado para cima ou para baixo até o incremento mais próximo. Se o valor estiver em branco para um lote de origem, o lote e sua quantidade não serão incluídos no cálculo. **Exemplo** O exemplo a seguir mostra um cálculo de média ponderada para um lote mesclado. Dois dos lotes de origem tem um valor em branco para um tipo de atributo de lote que é um número inteiro. O seguinte atributo é atribuído aos lotes de origem.
 
 | Atributo | Mínimo | Incremento | Máximo |
 |-----------|---------|-----------|---------|

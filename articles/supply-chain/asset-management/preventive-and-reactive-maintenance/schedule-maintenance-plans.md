@@ -3,7 +3,7 @@ title: Agendar planos de manutenção
 description: Este tópico explica os planos de manutenção do agendamento no Gerenciamento de Ativos.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b6e5bde83474fe8971e482af518f7cee23a2220
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 698888533bf503838f455585f61cc7afc7239b05
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875500"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922036"
 ---
 # <a name="schedule-maintenance-plans"></a>Agendar planos de manutenção
 
@@ -49,11 +49,11 @@ A programação de manutenção preventiva gera entradas de calendário de ativo
 
 - Com relação ao agendamento de planos de manutenção sobre locais funcionais: se você atualizar a configuração de tipos de ativos, fabricantes e modelos de planos de manutenção na Guia Rápida **Todos os locais funcionais** > **Planos de manutenção** após ter agendado planos de manutenção, as entradas da agenda de manutenção existentes relacionadas a esse local funcional serão excluídas automaticamente. Para criar novas entradas de calendário, que correspondam ao plano de manutenção atualizado no local funcional, você deve executar uma nova agenda de plano de manutenção para esse local funcional. Ler mais sobre a configuração de tipos de ativos, fabricantes e modelos nos locais funcionais em [Criar locais funcionais](../functional-locations/create-functional-locations.md).
 
->*Exemplo:* você deseja criar um plano de manutenção para um local funcional específico, significando que todos os ativos configurados naquele local funcional a qualquer momento serão incluídos quando você agenda o plano de manutenção. Nesse caso, você cria um plano de manutenção e seleciona o local funcional específico, mas você NÃO adiciona quaisquer objetos no plano de manutenção. O resultado é quando você agenda esse plano de manutenção, linhas de agendamento de manutenção serão criadas para todos os ativos relacionados ao local funcional naquele momento.
+>*Exemplo:* você deseja criar um plano de manutenção para um local funcional específico, significando que todos os ativos configurados naquele local funcional a qualquer momento serão incluídos quando você agenda o plano de manutenção. Nesse caso, você cria um plano de manutenção e seleciona o local funcional específico, mas NÃO adiciona quaisquer ativos no plano de manutenção. O resultado é quando você agenda esse plano de manutenção, linhas de agendamento de manutenção serão criadas para todos os ativos relacionados ao local funcional naquele momento.
 
 - Se você alterar esses tipos de ativos, fabricantes e modelos nos **Tipos de ativos**, essas mudanças afetam apenas novos ativos que usam o tipo de ativo atualizado. Ler mais sobre a configuração do tipo de ativo fixo em [Tipos de ativo](../setup-for-objects/object-types.md).  
 
-5. Clique em **OK** para iniciar a geração de entradas do plano de manutenção de ativos. As entradas geradas serão mostradas na página de lista **Todos os planos de manutenção**.
+5. Clique em **OK** para iniciar a geração de entradas do plano de manutenção de ativos. As entradas geradas serão mostradas na página de lista **Todos os planos de manutenção**. A ilustração a seguir mostra um exemplo da caixa de diálogo **Agendar planos de manutenção**.
 
 ![Figura 1](media/09-preventive-maintenance.png)
 
@@ -75,3 +75,4 @@ Os exemplos descritos aqui mostrar que todos os registros de contados feitos em 
 ![Figura 3](media/11-preventive-maintenance.png)
 
 ![Figura 4](media/12-preventive-maintenance.png)
+

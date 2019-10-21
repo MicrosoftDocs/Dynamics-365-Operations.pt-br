@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8138b6144cc6ba09834f2bfb61cc7334767307d6
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: 45d3d962958d0487c9e65910a2dce24097a83773
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916544"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017749"
 ---
 # <a name="base-price-and-trade-agreements"></a>Preço base e contratos comerciais
 
@@ -56,7 +56,7 @@ Este procedimento orienta na criação de contratos comerciais de preço de vend
 24. Criar em **Criar contratos comerciais**.
 25. Clique em **Novo**.
 26. No campo **Nome**, clique no botão suspenso para abrir a pesquisa.
-27. Na lista, selecione 'Varejo'. Nos dados de demonstração, o nome do diário 'Varejo' tem a relação de 'Preço (vendas)' padrão. Isso significa que todas as novas linhas criadas assumirão como padrão os contratos comerciais de preço de venda.  
+27. Na lista, selecione **Varejo**. Nos dados de demonstração, o nome do diário **Varejo** tem a relação de **Preço (vendas)** padrão. Isso significa que todas as novas linhas criadas assumirão como padrão os contratos comerciais de preço de venda.  
 28. No **Painel de ação**, clique em **Linhas**.
 29. No campo **Código da conta**, selecione "Grupo".
 30. No campo **Seleção de conta**, clique no botão suspenso para abrir a pesquisa.

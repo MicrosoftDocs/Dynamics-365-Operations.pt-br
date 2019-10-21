@@ -1,6 +1,6 @@
 ---
 title: Layouts de tela para o ponto de venda (PDV)
-description: Este tópico fornece informações sobre layouts de tela para experiências com o PDV (ponto de venda) do Microsoft Dynamics 365 for Retail.
+description: Este tópico fornece informações sobre layouts de tela para experiências com o PDV (ponto de venda) do Dynamics 365 Retail.
 author: jblucher
 manager: AnnBe
 ms.date: 05/20/2019
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e9536563ce7ddfc4aef54ae05267316ea8139263
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: 4852ec9b347f119a1007b63476b8609a3e38ba57
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1607025"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025256"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Layouts de tela para o ponto de venda (PDV)
 
 [!include [banner](includes/banner.md)]
 
-Este tópico fornece informações sobre layouts de tela para experiências com o PDV (ponto de venda) do Microsoft Dynamics 365 for Retail.
+Este tópico fornece informações sobre layouts de tela para experiências com o PDV (ponto de venda) do Dynamics 365 Retail.
 
 A interface de usuário do Retail POS pode ser configurada usando uma combinação de perfis visuais e layouts de tela que são atribuídos a lojas, caixas registradoras e/ou usuários.
 
@@ -50,7 +50,7 @@ Os perfis visuais são atribuídos às caixas registradoras e usados para especi
 - **Descrição** – você pode especificar um nome significativo que ajudará a identificar o perfil correto de sua situação.
 - **Tema** – os usuários podem selecionar entre os temas de aplicativo Claro ou Escuro. O tema afetará as cores da fonte e o plano de fundo em todo o aplicativo.
 - **Cor de destaque** – a cor de destaque é usada em todo o PDV para diferenciar ou destacar elementos visuais específicos, como blocos, botões de comando e hyperlinks. Normalmente, esses elementos são acionáveis.
-- **Cor do cabeçalho** – você pode configurar a cor do cabeçalho da página para atender aos requisitos de identidade visual do varejista. Este recurso está disponível somente na versão 1611 do Microsoft Dynamics 365 for Retail.
+- **Cor do cabeçalho** – você pode configurar a cor do cabeçalho da página para atender aos requisitos de identidade visual do varejista. Este recurso está disponível somente na versão 1611 do Retail.
 - **Mostrar data/hora** – Quando habilitado, a data e a hora atuais serão exibidas no cabeçalho do PDV.
 - **Segundo plano de logon** – você pode especificar uma imagem de plano de fundo para a tela de entrada. O tamanho do arquivo de imagens de plano de fundo deve ser o menor possível, pois armazenar e carregar arquivos grandes pode afetar o comportamento e o desempenho do aplicativo.
 - **Plano de fundo do aplicativo** – você pode especificar uma imagem de plano de fundo para ser usada no lugar da cor sólida do tema no aplicativo. Quanto ao segundo plano de logon, o tamanho do arquivo deve ser o menor possível.

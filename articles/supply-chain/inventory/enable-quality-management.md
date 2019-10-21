@@ -1,6 +1,6 @@
 ---
 title: Visão geral do gerenciamento de qualidade
-description: Este tópico descreve como usar o gerenciamento de qualidade no Microsoft Dynamics 365 for Finance and Operations para ajudar a melhorar a qualidade do produto na cadeia de suprimentos.
+description: Este tópico descreve como usar o gerenciamento de qualidade no Dynamics 365 Supply Chain Management para ajudar a melhorar a qualidade do produto na cadeia de suprimentos.
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
@@ -19,24 +19,24 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1630d13437d7e930fdf32ed5fdc61fc62bc33817
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c9600e165da76948bb53a0188ec0b212a0fed84a
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557491"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249562"
 ---
 # <a name="quality-management-overview"></a>Visão geral do gerenciamento de qualidade
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como usar o gerenciamento de qualidade no Microsoft Dynamics 365 for Finance and Operations para ajudar a melhorar a qualidade do produto na cadeia de suprimentos.
+Este tópico descreve como usar o gerenciamento de qualidade no Dynamics 365 Supply Chain Management para ajudar a melhorar a qualidade do produto na cadeia de suprimentos.
 
-O gerenciamento de qualidade pode ajudar a gerenciar o tempo de resposta ao lidar com produtos fora de conformidade, independentemente do ponto de origem. Como os tipos de diagnóstico são vinculados ao relatório de correção, o Microsoft Dynamics 365 for Finance and Operations pode agendar tarefas para corrigir problemas e impedir que eles ocorram novamente.
+O gerenciamento de qualidade pode ajudar a gerenciar o tempo de resposta ao lidar com produtos fora de conformidade, independentemente do ponto de origem. Como os tipos de diagnóstico são vinculados ao relatório de correção, o Finance and Operations pode agendar tarefas para corrigir problemas evitar que se repitam.
 
 Além da funcionalidade para gerenciar a não conformidade, o gerenciamento de qualidade inclui a função de rastrear saídas por tipo de problema (até mesmo problemas internos), e para identificar soluções como a curto prazo ou a longo prazo. As estatísticas sobre os principais indicadores de desempenho (KPIs) fornecem ideias sobre o histórico de saídas anteriores de não conformidade e as soluções que foram usadas para corrigi-los. Você pode usar dados históricos para revisar a eficácia das medidas de qualidade anteriores e determinar as medidas apropriadas a serem usadas no futuro.
 
-Ao configurar uma associação de qualidade, o Finance and Operations pode gerar ordens de qualidade para vários processos comerciais, eventos, e condições. A associação de qualidade pode cobrir item específico, um grupo específico de itens ou todos os itens.
+Ao configurar uma associação de qualidade, o Supply Chain Management pode gerar ordens de qualidade para vários processos comerciais, eventos, e condições. A associação de qualidade pode cobrir item específico, um grupo específico de itens ou todos os itens.
 
 ## <a name="examples-of-the-use-of-quality-management"></a>Exemplo de utilização do gerenciamento de qualidade
 O gerenciamento de qualidade é flexível e pode ser implementado de várias maneiras para atender aos requisitos de níveis específicos das operações da cadeia de suprimento. Os exemplos a seguir ilustram as possíveis aplicações destes recursos:

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b50aa1df7a169e71d3e2e477bd1515d70cedccab
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 316e1e1f0db9343e414ddeafe9e00beac87b5b76
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865367"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249485"
 ---
 # <a name="product-configuration-overview"></a>Visão geral de configuração do produto
 
@@ -60,6 +60,9 @@ Um modelo de configuração do produto consiste em um ou mais componentes que s�
 
 Cada componente tem um ou mais atributos que identificam suas propriedades. Os atributos são o que os usuários escolherão durante o processo de configuração. Os atributos controlam relacionamentos inter e intracomponentes através da inclusão em restrições ou cálculos. Com as condições aplicadas às linhas da BOM, os atributos podem ser usados para determinar as partes físicas que constituem o produto configurado. Além disso, um atributo pode controlar a propriedade de uma linha BOM através de um mecanismo de mapeamento. Existe funcionalidade semelhante para as operações de roteiro, relativas às configurações de inclusão e propriedade.
 
+>[!NOTE]
+> Ao criar tipos de atributo, evite criar um grande número de valores para o tipo de atributo domínio. Isso pode causar lentidões no configurador de produtos. 
+
 ### <a name="expression-constraints"></a>Restrições de expressão
 
 O uso de um modelo de configuração do produto baseado em restrição implica que existem algumas limitações quando o usuário seleciona valores para os diversos atributos. Essas restrições podem ser implementadas como restrições da expressão usando a OML (Optimization Modeling Language). Como alternativa, uma restrição pode ser implementada sob a forma de uma restrição de tabela.
@@ -70,7 +73,7 @@ As restrições de tabela podem ser definidas pelo usuário ou pelo sistema.
 
 Uma restrição de tabela definida pelo usuário é criada pelo usuário. O usuário seleciona uma combinação dos tipos de atributo para representar as colunas da tabela e insere valores dos domínios dos tipos de atributo selecionados para formar as linhas na restrição de tabela.  
 
-Para determinar uma restrição de tabela definida pelo sistema, selecione a tabela do Microsoft Dynamics 365 for Finance and Operations a ser usada como referência e os campos dessa tabela para formar as colunas na restrição. As linhas de restrição da tabela são as linhas da tabela do Finance and Operations que estão presentes no período de configuração.  
+Para determinar uma restrição de tabela definida pelo sistema, selecione a tabela a ser usada como referência e os campos dessa tabela para formar as colunas na restrição. As linhas de restrição da tabela são as linhas da tabela do Finance and Operations que estão presentes no período de configuração.  
 
 Uma restrição de tabela é incluída em um modelo de configuração do produto, referenciando a definição de restrição de tabela e mapeando os atributos relevantes no modelo para as colunas na restrição da tabela.
 

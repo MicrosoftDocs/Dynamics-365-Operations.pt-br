@@ -3,7 +3,7 @@ title: Criação de ordens de serviço
 description: Este tópico explica como criar ordens de serviço no Gerenciamento de Ativos.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,22 +16,20 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b23ed3251b2f6cf4f34b423ce2f85301d6ab31a1
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 0a348bc9b7f5a24c5a3ac57113d430a92020b893
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875499"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922105"
 ---
 # <a name="creating-work-orders"></a>Criação de ordens de serviço
-
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [banner](../../includes/preview-banner.md)]
-
 
 Quando você agendar trabalhos de manutenção preventiva, a próxima etapa é criar ordens de serviço para os trabalhos. Isso é feito em um dos agendamentos de manutenção. Os trabalhos agendados em um agendamento de manutenção podem ter diferentes tipos de referência:
 
@@ -44,13 +42,13 @@ Quando você agendar trabalhos de manutenção preventiva, a próxima etapa é c
 
 1. Clique em **Gerenciamento de ativos** > **Comum** > **Todos os planos de manutenção** ou **Abrir linhas do agendamento de manutenção** ou **Abrir grupos de agendamento de manutenção**.
 
-2. Selecione os trabalhos de manutenção agendados para os quais deseja criar uma ordem de serviço e clique em **Ordem de serviço**. O número total de horas de previsão para as linhas selecionadas é mostrado no campo **Horas de previsão de manutenção**.
+2. Selecione os trabalhos de manutenção agendados para os quais deseja criar uma ordem de serviço e clique em **Ordem de serviço**. Na caixa de diálogo **Criar ordens de serviço**, o número total de horas de previsão das linhas selecionadas é mostrado no campo **Horas de previsão de manutenção**.
 
 3. Na seção **Parâmetros**, selecione quantas ordens de serviço devem ser criadas. Você pode criar uma ordem de serviço por linha de programação de manutenção ou várias ordens de serviço com base nas suas seleções na seção **Uma ordem de serviço por**.
 
-4. Selecione um **Tipo de ordem de trabalho** que será usado em todas as ordens de serviço que você criar.
-
-5. Clique em **OK**. Uma ou mais ordens de serviço são criadas.
+4. Selecione um **Tipo de ordem de trabalho** que será usado em todas as ordens de serviço que você criar. A ilustração a seguir mostra um exemplo da caixa de diálogo **Criar ordens de serviço** .
 
 ![Figura 1](media/18-preventive-maintenance.png)
+
+5. Clique em **OK**. Uma ou mais ordens de serviço são criadas.
 

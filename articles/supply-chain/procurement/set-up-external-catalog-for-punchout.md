@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39baa331120d765543c3cf662ce53d2bcfe404ab
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: e9b6c3cb5b6bbc83604bee11a2472b2ad1136269
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595602"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249371"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Configurar um catálogo externo para compras eletrônicas de PunchOut
 
@@ -37,12 +37,12 @@ Para configurar a comunicação, o seu fornecedor deve fornecer peças de inform
 
 ## <a name="setting-up-an-external-catalog"></a>Configurando um catálogo externo
 
-O catálogo externo deve permitir que um funcionário que insere uma requisição de compra seja redirecionado para um site externo para selecionar produtos. Os produtos que o funcionário seleciona do catálogo externo são devolvidos ao Dynamics 365 for Finance and Operations com informações de preços atualizadas e, a partir daqui, elas podem ser adicionadas à requisição de compra. A intenção não é permitir que os funcionários façam um pedido no site externo. Ao configurar o catálogo externo, você precisa ter certeza de que o objetivo do site acessível pelo catálogo externo seja coletar informações de cotação e não abrir uma ordem real.
+O catálogo externo deve permitir que um funcionário que insere uma requisição de compra seja redirecionado para um site externo para selecionar produtos. Os produtos que o funcionário seleciona do catálogo externo são devolvidos com informações de preços atualizadas e, a partir daqui, elas podem ser adicionadas à requisição de compra. A intenção não é permitir que os funcionários façam um pedido no site externo. Ao configurar o catálogo externo, você precisa ter certeza de que o objetivo do site acessível pelo catálogo externo seja coletar informações de cotação e não abrir uma ordem real.
 
 ### <a name="to-set-up-an-external-vendor-catalog-complete-the-following-tasks"></a>Para configurar um catálogo externo de fornecedor, conclua as tarefas a seguir:
 
 1. Configurar uma hierarquia de categorias de compras. Para obter mais informações, consulte [Configurar políticas para hierarquias de categoria de aquisição](tasks/set-up-policies-procurement-category-hierarchies.md).
-2. Registre o fornecedor no Finance and Operations. Antes de estabelecer as configurações para acessar o catálogo externo de um fornecedor, é necessário configurar o fornecedor e o contato do fornecedor no Microsoft Dynamics 365. O catálogo externo do fornecedor também deve ser adicionado à categoria de compras selecionada. Para obter mais informações sobre como registrar fornecedores no Microsoft Dynamics 365, consulte [Gerenciar usuários de colaboração do fornecedor](manage-vendor-collaboration-users.md). Para obter informações sobre como atribuir fornecedores a uma categoria de aquisição, consulte [Aprovar fornecedores para categorias específicas de aquisição](tasks/approve-vendors-specific-procurement-categories.md).
+2. Registrar o fornecedor no Supply Chain Management. Antes de estabelecer as configurações para acessar o catálogo externo de um fornecedor, é necessário configurar o fornecedor e o contato do fornecedor no Microsoft Dynamics 365. O catálogo externo do fornecedor também deve ser adicionado à categoria de compras selecionada. Para obter mais informações sobre como registrar fornecedores, consulte [Gerenciar usuários de colaboração do fornecedor](manage-vendor-collaboration-users.md). Para obter informações sobre como atribuir fornecedores a uma categoria de aquisição, consulte [Aprovar fornecedores para categorias específicas de aquisição](tasks/approve-vendors-specific-procurement-categories.md).
 3. Certifique-se de que as unidades de medida e a moeda que o fornecedor usa estejam configuradas. Para obter informações sobre como criar uma unidade de medida, consulte [Gerenciar unidades de medida](../pim/tasks/manage-unit-measure.md).
 4. Configurar o catálogo externo de fornecedor usando os requisitos do site do catálogo externo do fornecedor. Para obter mais detalhes sobre essa tarefa, consulte [Configurar o catálogo de fornecedor externo](#configure-the-external-vendor-catalog).
 5. Teste as configurações do catálogo externo do fornecedor para verificar se as configurações são válidas e se você pode acessar o catálogo externo do fornecedor. Use a ação **Validar configurações** para validar a mensagem de configuração de solicitação que você definiu. Esta mensagem deve fazer com que o site do catálogo externo dos vendedores seja aberto em uma janela do navegador. Durante a validação, você não pode encomendar itens e serviços do fornecedor. Para encomendar itens e serviços, você deve acessar o catálogo do fornecedor de uma requisição de compra.
@@ -90,9 +90,9 @@ O fornecedor pode ter um requerimento para receber um elemento no extrínseco de
 Para obter mais informações sobre o protocolo cXML, consulte o [site do cXML.org](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Mensagem pós-datada
-A mensagem pós-datada é a mensagem que é recebida do fornecedor quando o usuário verifica o site externo e retorna para Finance and Operations. As mensagens pós-datadas não podem ser configuradas. As mensagens são baseadas na definição do protocolo de cXML. Aqui está a informação que pode ser parte da mensagem pós-datada da mensagem que é recebida em uma linha de requisição:
+A mensagem pós-datada é a mensagem que é recebida do fornecedor quando o usuário verifica o site externo e retorna para Supply Chain Management. As mensagens pós-datadas não podem ser configuradas. As mensagens são baseadas na definição do protocolo de cXML. Aqui está a informação que pode ser parte da mensagem pós-datada da mensagem que é recebida em uma linha de requisição.
 
-| Mensagem recebida do fornecedor | Copiado para a linha de requisição no Finance and Operations|
+| Mensagem recebida do fornecedor | Copiada para a linha de requisição|
 |------------------------------|----------------------------------------------------------|
 |< ItemIn quantity=”” > |Quantidade|
 |< ItemIn>< ItemID >< SupplierPartID >< /SupplierPartID >|ID de item externo|

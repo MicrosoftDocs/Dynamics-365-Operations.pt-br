@@ -1,6 +1,6 @@
 ---
 title: Configurar e criar formatos de recibo
-description: Este artigo descreve como modificar layouts de formulário para controlar como os recibos, as notas fiscais e outros documentos serão impressos. O Microsoft Dynamics 365 for Retail inclui um designer do layout de formulário que você pode usar para criar e modificar de modo fácil e gráfico diversos tipos de layouts de formulário.
+description: Este artigo descreve como modificar layouts de formulário para controlar como os recibos, as notas fiscais e outros documentos serão impressos. O Dynamics 365 Retail inclui um designer do layout de formulário que você pode usar para criar e modificar de modo fácil e gráfico diversos tipos de layouts de formulário.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 13249e1b109586b2c520a1be30c47ac4393abe49
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: eb85752b53d0d48f07bfed9423637cb6c646ab61
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553059"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025116"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Configurar e criar formatos de recibo
 
 [!include [banner](includes/banner.md)]
 
-Este artigo descreve como modificar layouts de formulário para controlar como os recibos, as notas fiscais e outros documentos serão impressos. O Microsoft Dynamics 365 for Retail inclui um designer do layout de formulário que você pode usar para criar e modificar de modo fácil e gráfico diversos tipos de layouts de formulário.
+Este artigo descreve como modificar layouts de formulário para controlar como os recibos, as notas fiscais e outros documentos serão impressos. O Dynamics 365 Retail inclui um designer do layout de formulário que você pode usar para criar e modificar facilmente vários tipos de layout de formulário
 
 > [!IMPORTANT]
 > Você deve configurar layouts de formulário e perfis de recibo para imprimir recibos e outros documentos no Retail Modern POS e no Cloud POS. Você pode incluir vários layouts de formulário em um perfil de recibo. Em seguida, você pode atribuir o perfil de recibo a uma impressora modificando um perfil de hardware.
@@ -55,7 +55,7 @@ Use o designer de layout de formulário para criar graficamente o layout do docu
 2. Na página **Formato de recibo**, selecione um layout de formulário e clique em **Designer**.
 3. Clique em **Executar** para começar a instalar o host de designer Retail.
 4. Na barra de notificação exibida na parte inferior da janela do Internet Explorer, clique em **Abrir** para começar a instalação do designer de um clique. (A barra de notificação poderá aparecer em um outro local em outros browsers.) O indicador de progresso mostra o progresso do processo de instalação.
-5. Depois que a instalação for concluída, insira seu nome de usuário e senha do Dynamics 365 for Retail, e clique em **Entrar** para iniciar o designer.
+5. Depois que a instalação for concluída, insira seu nome de usuário e senha do Retail, e clique em **Entrar** para iniciar o designer.
 6. Depois que suas credenciais forem validadas e o designer for iniciado, você poderá começar a criar o formato de recibo ou modificar um formato existente.
 7. Para criar os elementos do formulário, selecione a seção **Cabeçalho**, **Linhas** ou **Rodapé** e arraste um elemento dessa seção para o espaço de trabalho. A maioria dos elementos contém variáveis que são preenchidas automaticamente com dados do banco de dados. Outros elementos, como **Texto**, permitem imprimir texto personalizado no recibo.
 

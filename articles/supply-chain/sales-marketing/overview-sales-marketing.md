@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10c8b548f2e295bf344459370ab6eecd577a0efb
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 5d55dfe26cd298372701aeb98a6aafc49977f381
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865984"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248622"
 ---
 # <a name="sales-and-marketing-overview"></a>Visão geral de Vendas e marketing
 
@@ -41,7 +41,7 @@ Em vendas e marketing, as interações iniciais com clientes potenciais podem oc
 
 ### <a name="campaigns"></a>Campanhas
 
-Uma campanha tem como alvo os contatos de clientes potenciais, clientes potenciais, oportunidades e clientes que foram selecionados para participar da campanha. No Microsoft Dynamics 365 for Finance and Operations, você pode criar vários tipos de campanhas, como telemarketing, endereçamento e campanhas de e-mail para maximizar seu cliente potencial. Como sua campanha progride e você recebe respostas positivas, você pode começar o processo de vendas com os destinatários que responderam positivamente a campanha.
+Uma campanha tem como alvo os contatos de clientes potenciais, clientes potenciais, oportunidades e clientes que foram selecionados para participar da campanha. No Supply Chain Management, você pode criar vários tipos de campanhas, como telemarketing, endereçamento e campanhas de email, para maximizar seu potencial de clientes. Como sua campanha progride e você recebe respostas positivas, você pode começar o processo de vendas com os destinatários que responderam positivamente a campanha.
 
 ## <a name="sales"></a>Venda
 Você pode usar a funcionalidade de venda para criar cotações de venda e vendas cruzadas para clientes novos e existentes, criar ordens de venda e criar notas fiscais de venda para clientes. O fluxo de processo a seguir ilustra o processo comercial de vendas. [![Processo empresarial para vendas](./media/sales01.jpg)](./media/sales01.jpg)

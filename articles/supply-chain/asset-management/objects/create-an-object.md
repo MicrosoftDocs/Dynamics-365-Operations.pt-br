@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f15c6c5ccdcddebe7aa428cff48ca6e3b120d7f
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: bd963caed7f49db5dd7550dd30c3f831318d2b7a
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783069"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250889"
 ---
 # <a name="create-an-asset"></a>Crie um ativo
 
@@ -63,12 +63,12 @@ Os campos **Nível de serviço** e **Severidade** estão relacionados a ordens d
 
 ## <a name="asset"></a>Ativo
 
-Você pode selecionar um **Recurso** para o ativo. A seleção do recurso determina o calendário que é usado para o agendamento da ordem de serviço. A seleção do recurso costuma ser usada para ativos fixos. No Dynamics 365 for Finance and Operations, os recursos e os grupos de recursos são configurados em **Administração da organização** > **Recursos** > **Grupos de recursos** ou **Recursos**.
+Você pode selecionar um **Recurso** para o ativo. A seleção do recurso determina o calendário que é usado para o agendamento da ordem de serviço. A seleção do recurso costuma ser usada para ativos fixos. Os recursos e grupos de recursos são configurados em **Administração da organização** > **Recursos** > **Grupos de recursos** ou **Recursos**.
 
 No campo **Número de ativos fixos**, selecione um ativo fixo a ser relatado no ativo. Isso será relevante caso o ativo esteja relacionada a um projeto de investimento.
 
 - Se o ativo estiver relacionada a um ativo fixo, você poderá criar um tipo de ordem de serviço a ser usado para ordens de serviço relativas a um projeto de investimento. 
-- Informações sobre ativos fixos para um ativo estão relacionadas ao módulo **Ativos fixos** no Dynamics 365 for Finance and Operations. Isso significa que, em **Ativos fixos** > **Ativos fixos** > **Ativos fixos**, você pode obter uma visão geral de projetos de Gerenciamento de Ativos que podem estar relacionados a um ativo fixo, selecionando o ativo da lista e exibindo o conteúdo no painel **Informações relacionadas** > seção **Projetos associados**.
+- Informações sobre ativos fixos para um ativo estão relacionadas ao módulo **Ativos fixos** no Dynamics 365 Supply Chain Management. Isso significa que, em **Ativos fixos** > **Ativos fixos** > **Ativos fixos**, você pode obter uma visão geral de projetos de Gerenciamento de Ativos que podem estar relacionados a um ativo fixo, selecionando o ativo da lista e exibindo o conteúdo no painel **Informações relacionadas** > seção **Projetos associados**.
 
 
 ## <a name="details"></a>Detalhes

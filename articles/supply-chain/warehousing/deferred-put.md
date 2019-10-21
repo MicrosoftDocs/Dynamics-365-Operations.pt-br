@@ -1,6 +1,6 @@
 ---
 title: Processamento adiado de trabalho de depósito
-description: Este tópico descreve a funcionalidade que disponibiliza o processamento adiado de operações colocadas do trabalho de depósito no Microsoft Dynamics 365 for Finance and Operations.
+description: Este tópico descreve a funcionalidade que disponibiliza o processamento adiado de operações colocadas do trabalho de depósito no Dynamics 365 Supply Chain Management.
 author: josaw1
 manager: AnnBe
 ms.date: 06/17/2019
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4905084f9bc28e55c307921280733c6acb80db86
-ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
+ms.openlocfilehash: 1acfa41b9a94b5f27eefda006c8e2950059f3489
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863577"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026903"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Processamento adiado de trabalho de depósito
 
@@ -29,7 +29,8 @@ ms.locfileid: "1863577"
 
 [!include [banner](../includes/pivate-preview-banner.md)]
 
-Este tópico descreve a funcionalidade que disponibiliza o processamento adiado de operações colocadas do trabalho de depósito no Microsoft Dynamics 365 for Finance and Operations.
+Este tópico descreve a funcionalidade que disponibiliza o processamento adiado de operações colocadas do trabalho de depósito no Dynamics 365 Supply Chain Management.
+
 
 A funcionalidade de processamento adiado permite que trabalhadores de depósito continuem a fazer outros trabalhos enquanto a operação colocada é processada em segundo plano. O processamento adiado é útil quando várias linhas de trabalho devem ser processadas e o trabalhador pode deixar esse trabalho ser processado de forma assíncrona. Também é útil quando o servidor pode ter aumentos ad hoc ou não planejados no tempo de processamento e o tempo de processamento maior pode afetar a produtividade do usuário.
 

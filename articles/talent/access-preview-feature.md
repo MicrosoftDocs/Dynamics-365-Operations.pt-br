@@ -1,6 +1,6 @@
 ---
-title: Acessar os recursos de visualização no Microsoft Dynamics 365 for Talent
-description: Este tópico descreve como um administrador poderá habilitar os recursos de exibição no Microsoft Dynamics 365 for Talent e listar os recursos que estão habilitados atualmente para visualização.
+title: Acessar os recursos de visualização no Microsoft Dynamics 365 Talent
+description: Este tópico descreve como um administrador poderá habilitar os recursos de exibição no Microsoft Dynamics 365 Talent e listar os recursos que estão habilitados atualmente para visualização.
 author: tracykeya
 manager: AnnBe
 ms.date: 05/30/2019
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 6a5aa8d6ea72ec3d3910edea291c4340ab607326
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: e607c2ba4b544d60c97d98bd49b07d912d83ebc6
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739578"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008693"
 ---
 # <a name="manage-preview-features"></a>Gerenciar recursos de visualização
 
 [!include[banner](../includes/banner.md)]
 
-Como parte de liberação contínua de funcionalidades de gerenciamento de capital humano (HCM) do Microsoft Dynamics 365 for Talent, queremos que nossos clientes aproveitem novos recursos o mais rápido possível. Os administradores podem consultar e usar recursos de exibição nos ambientes. Esses recursos estão quase prontos para disponibilidade geral e passam por um teste extenso. Estamos procurando apenas um círculo final de comentários de cliente e validação antes de liberá-los para disponibilidade geral.
+Como parte de liberação contínua de funcionalidades de gerenciamento de capital humano (HCM) do Microsoft Dynamics 365 Talent, queremos que nossos clientes aproveitem novos recursos o mais rápido possível. Os administradores podem consultar e usar recursos de exibição nos ambientes. Esses recursos estão quase prontos para disponibilidade geral e passam por um teste extenso. Estamos procurando apenas um círculo final de comentários de cliente e validação antes de liberá-los para disponibilidade geral.
 
-Este tópico descreve como você poderá habilitar os recursos de exibição, e listar os recursos que estão disponíveis atualmente para visualização. A lista será atualizada conforme os recursos são liberados para disponibilidade geral e conforme novos recursos são liberados para visualização. Nenhuma notificação é dada quando novos recursos são liberados para visualização. Os usuários começarão a ver apenas os recursos. Para obter mais informações sobre novos recursos no Talent, consulte [Novidades ou alterações no Dynamics 365 for Talent](./whats-new.md) e [Notas de versão do Dynamics 365 e da Power Platform](https://docs.microsoft.com/business-applications-release-notes).
+Este tópico descreve como você poderá habilitar os recursos de exibição, e listar os recursos que estão disponíveis atualmente para visualização. A lista será atualizada conforme os recursos são liberados para disponibilidade geral e conforme novos recursos são liberados para visualização. Nenhuma notificação é dada quando novos recursos são liberados para visualização. Os usuários começarão a ver apenas os recursos. Para obter mais informações sobre novos recursos no Talent, consulte [Novidades ou alterações no Dynamics 365 Talent](./whats-new.md) e [Notas de versão do Dynamics 365 e da Power Platform](https://docs.microsoft.com/business-applications-release-notes).
 
 ## <a name="enable-or-disable-preview-features"></a>Habilitar ou desabilitar recursos de visualização
 
@@ -40,9 +40,9 @@ Para acessar os recursos de visualização, primeiro é preciso ativá-los no am
 > [!IMPORTANT]
 > Ao ativar a configuração de **Recursos de visualização**, você habilita recursos de visualização para todos os usuários da organização que estão no ambiente. Ao desativar a configuração, você desabilita recursos de visualização e os torna inacessíveis a seus usuários. Os recursos de visualização limitaram o suporte em Talent. Eles podem usar menos medidas de privacidade e segurança, e elas não estão incluídas no contrato de nível de serviço (SLA) de Talent. Você não deve usar recursos de visualização para processar dados pessoais (isso é, quaisquer informações que podem identificar você), ou para processar outros dados que estão sujeitos a requisitos de conformidade regulatório.
 
-### <a name="attract"></a>Atrair
+### <a name="attract"></a>Attract
 
-1. Entre no Microsoft Dynamics 365 for Talent: Attract.
+1. Entre no Microsoft Dynamics 365 Talent: Attract.
 2. No menu **Configuração** (símbolo de engrenagem) no canto superior direito, selecione **Centro de administração**.
 3. Na guia **Gerenciamento de recursos**, selecione a opção próxima a **Recursos de visualização** para que se torne azul e informe **Ativo**.
 
@@ -69,11 +69,11 @@ Para acessar os recursos de visualização, primeiro é preciso ativá-los no am
 
 ### <a name="onboard"></a>Integração
 
-Nenhum recurso de visualização está disponível atualmente para o Microsoft Dynamics 365 for Talent: Onboard.
+No momento, não há nenhum recurso de visualização disponível para o Microsoft Dynamics 365 Talent: Onboard.
 
 ## <a name="features-that-are-currently-in-preview"></a>Características que estão atualmente em exibição
 
-### <a name="attract"></a>Atrair
+### <a name="attract"></a>Attract
 
 - [Recomendação de candidato](./intelligent-recommendations.md#candidate-recommendations) – Se houver mais de dez candidatos com currículos ou perfis completos, aqueles que atenderem mais rigorosamente os requisitos de um trabalho aparecerão na seção **Candidatos a considerar** na página do trabalho.
 - [Recomendação de trabalho](./intelligent-recommendations.md#job-recommendations) – Se mais de dez trabalhos forem publicados no site de carreiras, o Attract fornecerá recomendações de trabalho para clientes potenciais.

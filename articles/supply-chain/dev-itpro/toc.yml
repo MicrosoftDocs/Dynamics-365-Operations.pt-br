@@ -1,0 +1,1620 @@
+- name: Desenvolvimento e administração do Finance and Operations
+  href: ../../dev-itpro/index.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Novidades ou alterações
+  items:
+    - name: Recursos de visualização na Platform update 30 (novembro de 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-30.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Platform update‎ 29 (novembro de 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-29.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Platform update 28 (julho de 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-28.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Platform update 27 (junho de 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-27.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Platform update 26 (maio de 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-26.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Platform update 25 (abril de 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-25.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Platform update 24 (março de 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-24.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Platform update 23 (janeiro de 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-23.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Platform update 22 (dezembro de 2018)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-22.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Platform update 21 (novembro de 2018)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-21.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Platform update 20 (setembro de 2018)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-20.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Platform update 15 (março de 2018)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-15.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Eventos de negócios
+  items:
+    - name: Visão geral sobre eventos de negócios
+      href: ../../dev-itpro/business-events/home-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Eventos de negócios de aplicativos
+      href: ../../dev-itpro/business-events/app-business-events.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Eventos de negócios de fluxos de trabalho
+      href: ../../dev-itpro/business-events/business-events-workflow.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Alertas como eventos de negócios
+      href: ../../dev-itpro/business-events/alerts-business-events.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Eventos de negócios no Microsoft Flow
+      href: ../../dev-itpro/business-events/business-events-flow.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Documentação do desenvolvedor de eventos de negócios
+      href: ../../dev-itpro/business-events/business-events-dev-doc.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Solucionar problemas de eventos de negócios
+      href: ../../dev-itpro/business-events/troubleshooting.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Casos de uso de eventos de negócios
+      href: ../../dev-itpro/business-events/potential-use-cases.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Tutoriais
+      items:
+        - name: Eventos de negócios e Microsoft Flow
+          href: ../../dev-itpro/business-events/how-to/how-to-flow.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Eventos de negócios e Grade de Eventos do Azure
+          href: ../../dev-itpro/business-events/how-to/how-to-eventgrid.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Eventos de negócios e Barramento de Serviço do Azure
+          href: ../../dev-itpro/business-events/how-to/how-to-servicebus.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Eventos de negócios e aprovações de fluxo de trabalho
+          href: ../../dev-itpro/business-events/how-to/how-to-workflow.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Eventos de negócios e Microsoft Forms Pro
+          href: ../../dev-itpro/business-events/how-to/FormsPro.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Eventos de negócios e Hubs de Eventos do Azure
+          href: ../../dev-itpro/business-events/how-to/event-hub.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Entrega contínua
+  items:
+    - name: Home page de Entrega contínua
+      href: ../../dev-itpro/dev-tools/continuous-delivery-home-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Perguntas frequentes sobre Entrega contínua e desenvolvimento
+      href: ../../dev-itpro/dev-tools/continuous-delivery-faq.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: ​Excluir pacotes de teste da saída de compilação
+      href: ../../dev-itpro/dev-tools/exclude-test-packages.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Gerenciar modelos de terceiros e pacotes de tempo de execução usando o controle de origem
+      href: ../../dev-itpro/dev-tools/manage-runtime-packages.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Atualizar versões do modelo na compilação automatizada
+      href: ../../dev-itpro/dev-tools/version-models-build.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Integração de dados
+  items:
+    - name: Escolher uma estratégia de integração de dados (importação/exportação)
+      href: ../../dev-itpro/data-entities/integration-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: APIs de integração de dados
+      items:
+        - name: REST API do pacote de gerenciamento de dados
+          href: ../../dev-itpro/data-entities/data-management-api.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Pontos de extremidade de serviço
+          items:
+            - name: Visão geral de empresas de serviço
+              href: ../../dev-itpro/data-entities/services-home-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Solução de problemas de autenticação de serviço
+              href: ../../dev-itpro/data-entities/troubleshoot-service-authentication.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: OData
+          href: ../../dev-itpro/data-entities/odata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Desenvolvimento de serviço personalizado
+          href: ../../dev-itpro/data-entities/custom-services.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Integrações recorrentes
+          href: ../../dev-itpro/data-entities/recurring-integrations.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Testar serviços com utilitários de terceiros
+          href: ../../dev-itpro/data-entities/third-party-service-test.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Conector do Finance and Operations
+      href: ../../dev-itpro/data-entities/fin-ops-connector.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Desenvolvimento para integração
+      items:
+        - name: Integração de dados usando entidades de dados
+          items:
+            - name: Visão geral de integração de dados usando entidades de dados
+              href: ../../dev-itpro/data-entities/data-management-integration-data-entity.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: ​Desenvolver uma entidade para migração de dados​
+              href: ../../dev-itpro/data-entities/develop-entity-for-data-migration.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Desenvolver entidades de dados compostas
+              href: ../../dev-itpro/data-entities/develop-composite-data-entities.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Configurar o compartilhamento de dados financeiros entre empresas
+              href: ../../dev-itpro/data-entities/tasks/configure-financial-cross-company-data-sharing.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Criar modelos de registros para facilitar a entrada de dados
+              href: ../../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Criar registros usando modelos de registros
+              href: ../../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Integração de dados usando o Common Data Service
+          items:
+            - name: Visão geral da integração de dados usando o Common Data Service
+              href: ../../dev-itpro/data-entities/data-integration-cds.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: 'Integração síncrona, bidirecional'
+              items:
+                - name: Integração de dados quase em tempo real
+                  href: ../../dev-itpro/data-entities/dual-write-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Hierarquia da organização no Common Data Service
+                  href: ../../dev-itpro/data-entities/dual-write-organization.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Conceito de empresa em Common Data Services
+                  href: ../../dev-itpro/data-entities/dual-write-company.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Cliente Mestre Integrado
+                  href: ../../dev-itpro/data-entities/dual-write-customer.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Experiência unificada de produto
+                  href: ../../dev-itpro/data-entities/dual-write-product.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Fornecedor Mestre Integrado
+                  href: ../../dev-itpro/data-entities/dual-write-vendor.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Sites e depósitos integrados
+                  href: ../../dev-itpro/data-entities/dual-write-sites-and-warehouses.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Sincronização inicial
+                  href: ../../dev-itpro/data-entities/dual-write-initial.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Solução de problemas de integração de dados
+                  href: ../../dev-itpro/data-entities/dual-write-troubleshooting.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: 'Integração assíncrona, unidirecional'
+              items:
+                - name: Configurar um cenário de cliente potencial ao pagamento à vista
+                  items:
+                    - name: Cliente potencial ao pagamento à vista
+                      href: ../../supply-chain/sales-marketing/prospect-to-cash.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Sincronizar contas diretamente do Sales com clientes no Finance and Operations
+                      href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Sincronizar produtos diretamente do Finance and Operations com produtos do Sales
+                      href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Sincronizar contatos diretamente do Sales com contatos ou clientes do Finance and Operations
+                      href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Sincronizar cabeçalhos e linhas de cotação de venda diretamente do Sales para o Finance and Operations
+                      href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Sincronização de ordens de venda diretamente entre o Sales e o Finance and Operations
+                      href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Sincronizar cabeçalhos e linhas da fatura de venda diretamente do Finance and Operations para o Sales
+                      href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Configurar a integração com o Field Service
+                  items:
+                    - name: Visão geral de configuração da integração com o Field Service
+                      href: ../../supply-chain/sales-marketing/field-service.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Sincronizar produtos no Finance and Operations com produtos no Field Service
+                      href: ../../supply-chain/sales-marketing/field-service-product.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Sincronizar ordens de trabalho no Field Service com ordens de venda no Finance and Operations
+                      href: ../../supply-chain/sales-marketing/field-service-work-order.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Sincronizar faturas de contrato no Field Service com faturas de texto livre no Finance and Operations
+                      href: ../../supply-chain/sales-marketing/field-service-invoice.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Sincronizar transferências e ajustes de estoque do Field Service no Finance and Operations
+                      href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Sincronizar informações do nível de estoque do Finance and Operations no Field Service
+                      href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Sincronizar produtos com unidade de estoque do Finance and Operations no Field Service
+                      href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Sincronizar lista de projetos do Finance and Operations no Field Service
+                      href: ../../supply-chain/sales-marketing/synchronize-project-list.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Sincronizar depósitos do Finance and Operations no Field Service
+                      href: ../../supply-chain/sales-marketing/synchronize-warehouse.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Sincronizar ordens de trabalho com o projeto do Field Service no Finance and Operations
+                      href: ../../supply-chain/sales-marketing/synchronize-work-orders.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Configurar integração do Project Service Automation
+                  items:
+                    - name: Visão geral do Project Service Automation
+                      href: ../../financials/project-management/PSA-integration.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Parâmetros de integração do Project Service Automation
+                      href: ../../financials/project-management/PSA-parameters.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Sincronizar contratos de projeto e projetos
+                      href: ../../financials/project-management/project-contracts-templates.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Sincronizar tarefas do projeto
+                      href: ../../financials/project-management/project-tasks-template.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Sincronizar categorias de despesas do projeto
+                      href: ../../financials/project-management/project-categories-templates.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Sincronizar estimativas de projeto para previsões de projeto
+                      href: ../../financials/project-management/project-estimates-templates.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Sincronizar números reais do projeto com o diário de integração do projeto
+                      href: ../../financials/project-management/project-actuals-templates.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Consumo de serviços Web externos
+      href: ../../dev-itpro/data-entities/consume-external-web-service.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Mensagens eletrônicas
+      href: ../../financials/general-ledger/electronic-messaging.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Gerenciamento de dados
+  items:
+    - name: Visão geral do gerenciamento de dados
+      href: ../../dev-itpro/data-entities/data-entities-data-packages.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Entidades de dados
+      items:
+        - name: Visão geral de entidades de dados
+          href: ../../dev-itpro/data-entities/data-entities.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Projetos de dados de configuração
+          href: ../../dev-itpro/data-entities/configuration-data-projects.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Copiar dados de configuração entre empresas ou entidades legais
+          items:
+            - name: Visão geral de cópia de dados de configuração
+              href: ../../dev-itpro/data-entities/copy-configuration.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Pacotes de dados de configuração
+              href: ../../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Pacotes de dados de configuração (somente a versão de julho de 2017)
+              href: ../../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Disponibilizar o Repositório de Entidades como um Data Lake
+              href: ../../dev-itpro/data-entities/entity-store-data-lake.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Modelos de dados de configuração
+          href: ../../dev-itpro/data-entities/configuration-data-templates.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Controlar alterações em uma entidade
+          href: ../../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Encontrar informações sobre entidades de dados padrão
+          href: ../../dev-itpro/data-entities/data-entities-report.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Modelos de dados com várias planilhas
+          href: ../../dev-itpro/data-entities/excel-template-multiple.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Habilitar o controle de alterações para entidades
+          href: ../../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Chaves de configuração e entidades de dados
+          href: ../../dev-itpro/data-entities/config-key-entities.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Pacotes de dados de configuração
+          href: ../../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Trabalhos de importação e exportação de dados
+      items:
+        - name: Visão geral de trabalhos de importação e exportação de dados
+          href: ../../dev-itpro/data-entities/data-import-export-job.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: ​Práticas recomendadas para importar comprovantes usando a entidade Diário geral​
+          href: ../../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Desenvolvimento para entidades de dados
+      items:
+        - name: Princípios e práticas recomendadas de Design para entidades de dados
+          href: ../../dev-itpro/dev-tools/design-best-practices.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Criar novas entidades de dados
+          href: ../../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Propriedades da entidade de dados
+          href: ../../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Criar colunas computadas e campos virtuais
+          href: ../../dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: ​Comportamento interempresarial​
+          href: ../../dev-itpro/data-entities/cross-company-behavior.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Manuseio de códigos de países/regiões
+          href: ../../dev-itpro/data-entities/countryregion-codes-configuration-keys.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: ​Padrões de herança​
+          href: ../../dev-itpro/data-entities/support-super-type-sub-type.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Regras do assistente de entidade de dados
+          href: ../../dev-itpro/data-entities/data-entity-wizard-rules.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: ​Propriedades de metadados​
+          href: ../../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: '​Validações, padrões e campos não mapeados​'
+          href: ../../dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: ​Segurança e entidades de dados​
+          href: ../../dev-itpro/data-entities/security-data-entities.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Usar o utilitário de teste de serviço de terceiros
+          href: ../../dev-itpro/data-entities/third-party-service-test.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Criar entidades somente leitura que exponham dimensões financeiras
+          href: ../../dev-itpro/financial/read-only-entity-financial.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Trazer seu próprio banco de dados
+      href: ../../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Atualização do repositório de Entidades Automatizadas
+      href: ../../dev-itpro/analytics/automated-entity-store-refresh.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Automação de tarefa de dados
+      href: ../../dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Espaço de trabalho da lista de verificação de validação de dados
+      href: ../../dev-itpro/user-interface/data-validation-workspace.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Descrições dos erros de gerenciamento de dados
+      href: ../../dev-itpro/data-entities/dm-error-descriptions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Operações de movimento de banco de dados
+  items:
+    - name: Visão geral
+      href: ../../dev-itpro/database/dbmovement-operations.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Guias de início rápido
+      items:
+        - name: Atualizar banco de dados
+          href: ../../dev-itpro/database/database-refresh.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Exportar um banco de dados
+          href: ../../dev-itpro/database/export-database.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Importar um banco de dados
+          href: ../../dev-itpro/database/import-database.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Restauração pontual de banco de dados
+          href: ../../dev-itpro/database/database-point-in-time-restore.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Tutoriais
+      items:
+        - name: Atualização para fins de treinamento
+          href: ../../dev-itpro/database/dbmovement-scenario-general-refresh.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Depurar uma cópia do banco de dados de produção
+          href: ../../dev-itpro/database/dbmovement-scenario-debugdiag.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Exportar uma cópia do banco de dados padrão do teste de aceitação de usuário (UAT)
+          href: ../../dev-itpro/database/dbmovement-scenario-exportuat.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Promoção de configuração dourada
+          href: ../../dev-itpro/database/dbmovement-scenario-goldenconfig.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Teste destrutivo
+          href: ../../dev-itpro/database/dbmovement-scenario-destructivetests.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Dados de demonstração
+  items:
+    - name: Visão geral dos dados de demonstração
+      href: ../../fin-and-ops/get-started/demo-data.md?toc=/dynamics365/unified-operations/supply-chain/toc.json?toc=/dev-itpro/toc.json
+    - name: Gerenciar dados de demonstração usando pacotes de dados
+      href: ../../dev-itpro/data-entities/generate-demo-data-packages.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Implantação
+  items:
+    - name: Implantar ambientes de demonstração
+      href: ../../dev-itpro/deployment/deploy-demo-environment.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Implantação de nuvem
+      items:
+        - name: Visão geral da implantação de nuvem
+          href: ../../dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Implantação de autoatendimento
+          items:
+            - name: Visão geral da Implantação de autoatendimento
+              href: ../../dev-itpro/deployment/infrastructure-stack.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Implantar um novo ambiente
+              href: ../../dev-itpro/deployment/deployenvironment-newinfrastructure.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Perguntas frequentes sobre implantação
+              href: ../../dev-itpro/deployment/deploymentFAQ.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Problemas conhecidos com a implantação de autoatendimento
+              href: ../../dev-itpro/deployment/known-issues-new-deployment-experience.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Operações de manutenção para implantações
+              href: ../../dev-itpro/deployment/maintenanceoperationsguide-newinfrastructure.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Atualizar um ambiente
+              href: ../../dev-itpro/deployment/updateenvironment-newinfrastructure.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Solucionar problemas de ambientes implantados por meio da implantação de autoatendimento
+              href: ../../dev-itpro/deployment/troubleshoot-newinfrastructure.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Integração completa do Azure Resource Manager
+          href: ../../dev-itpro/deployment/arm-onboarding.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Azure ExpressRoute e Finance and Operations
+          href: ../../dev-itpro/deployment/expressroute.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Arquitetura do Finance and Operations
+          href: ../../fin-and-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Aplicar atualizações a ambientes de nuvem
+          href: ../../dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Aplicar atualizações e extensões a componentes do canal do Retail hospedados na nuvem
+          href: ../../dev-itpro/deployment/Update-retail-channel.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Inicializar Retail Cloud Scale Unit
+          href: ../../dev-itpro/deployment/Initialize-Retail-Channels.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Residência de dados do Retail
+          href: ../../dev-itpro/deployment/retail-data-residency.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: ​Implantação local​
+      items:
+        - name: Home page Implantação local
+          href: ../../dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Visão geral da Implantação local
+          href: ../../dev-itpro/deployment/on-premises-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Planejar e preparar para implantações locais
+          href: ../../dev-itpro/deployment/plan-onprem-deployment.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Requisitos de dimensionamento de hardware
+          href: ../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dynamics365/unified-operations/supply-chain/toc.json?toc=/dev-itpro/toc.json
+        - name: Configurar projetos locais
+          href: ../../dev-itpro/lifecycle-services/lbd-create-lcs-on-prem-project.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Configurar e implantar ambientes locais
+          items:
+            - name: Home page Configurar e implantar ambientes locais
+              href: ../../dev-itpro/deployment/setup-deploy-on-premises-environments.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Implantar ambientes locais (Platform update 12 e posterior)
+              href: ../../dev-itpro/deployment/setup-deploy-on-premises-pu12.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Implantar ambientes locais (Platform updates 8 e 11)
+              href: ../../dev-itpro/deployment/setup-deploy-on-premises-pu8-pu11.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Etapas de instalação dos componentes do canal do Retail em um ambiente local
+              href: ../../dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Desenvolver e implantar modelos personalizados em ambientes locais
+          href: ../../dev-itpro/deployment/develop-deploy-custom-models-on-premises.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Integração do PowerBI.com com ambientes locais
+          href: ../../dev-itpro/analytics/entity-store-on-prem.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Configurar proxies reversos para ambientes locais
+          href: ../../dev-itpro/deployment/onprem-reverseproxy.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Aplicar atualizações a uma implantação local
+          href: ../../dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Diagnósticos locais
+          href: ../../dev-itpro/deployment/on-premises-diagnostics.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Reimplantar implantações locais
+          href: ../../dev-itpro/deployment/redeploy-on-prem.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Agente local
+          items:
+            - name: Compatibilidade entre AD FS e Office 365
+              href: ../../dev-itpro/deployment/onprem-adfscompatibility.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Scripts de agente local de pré-implantação e pós-implantação
+              href: ../../dev-itpro/lifecycle-services/pre-post-scripts.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Atualizar o agente local
+              href: ../../dev-itpro/lifecycle-services/update-local-agent.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Reconfigurar ambientes
+          href: ../../dev-itpro/lifecycle-services/reconfigure-environment.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Conectividade da Internet do cliente
+          href: ../../dev-itpro/user-interface/client-disconnected.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Solucionar problemas de implantações locais
+          href: ../../dev-itpro/deployment/troubleshoot-on-prem.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Rotação de certificados
+          href: ../../dev-itpro/deployment/certificate-rotation-on-prem.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Implantar código personalizado
+      items:
+        - name: Criar pacotes de modelos implantáveis
+          href: ../../dev-itpro/deployment/create-apply-deployable-package.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Instalar pacotes implantáveis da linha de comando
+          href: ../../dev-itpro/deployment/install-deployable-package.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Desinstalar um pacote
+          href: ../../dev-itpro/deployment/uninstall-deployable-package.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Solucionar problemas de aplicativo do pacote
+          href: ../../dev-itpro/deployment/deployable-package-troubleshooting.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Desenvolver e personalizar
+  items:
+    - name: Home page de Desenvolver e personalizar
+      href: ../../dev-itpro/dev-tools/developer-home-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Pilha de aplicativos e arquitetura do servidor
+      href: ../../dev-itpro/dev-tools/application-stack-server-architecture.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: ​Obter cópias de avaliação​
+      href: ../../dev-itpro/dev-tools/get-evaluation-copy.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Inscrever-se em assinaturas de versão prévia
+      href: ../../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Implantar e acessar ambientes de desenvolvimento
+      items:
+        - name: Ambientes de desenvolvimento
+          href: ../../dev-itpro/dev-tools/access-instances.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Configurar ambientes de desenvolvimento de uma caixa
+          href: ../../dev-itpro/dev-tools/configure-developer-vm.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Criar novos usuários em computadores de desenvolvimento
+          href: ../../dev-itpro/dev-tools/enable-development-machine.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Perguntas Frequentes sobre desenvolvimento e compilação de VMs que não permitem o acesso do administrador
+          href: ../../dev-itpro/sysadmin/VMs-no-admin-access.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Renomear ambientes locais para acessar o Azure DevOps
+          href: ../../dev-itpro/migration-upgrade/vso-machine-renaming.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Requisitos do sistema de desenvolvimento
+          href: ../../dev-itpro/dev-tools/development-system-requirements.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: 'Controle de versão, pesquisa de metadados e navegação'
+      href: ../../dev-itpro/dev-tools/version-control-metadata-navigation.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Aplicativo de exemplo de Gerenciamento de Frota
+      items:
+        - name: Cenário de ponta a ponta para o aplicativo de exemplo de Gerenciamento de Frota
+          href: ../../dev-itpro/dev-tools/fleet-management-sample.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Aplicativo de exemplo de Gerenciamento de Frota
+          href: ../../dev-itpro/dev-tools/introduction-fleet-management-sample.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Ferramentas do Visual Studio
+      items:
+        - name: Ferramentas de desenvolvimento
+          href: ../../dev-itpro/dev-tools/development-tools-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Tutorial sobre as ferramentas de desenvolvimento
+          href: ../../dev-itpro/dev-tools/introduction-visual-studio.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Verificador de Aplicativo
+          items:
+            - name: Instalar BaseX para o Verificador de Aplicativo
+              href: ../../dev-itpro/dev-tools/install-basex.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Explorador de Aplicativos
+          href: ../../dev-itpro/dev-tools/application-explorer.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Compilar e depurar projetos
+          href: ../../dev-itpro/dev-tools/build-debug-project.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Operações de compilação
+          href: ../../dev-itpro/dev-tools/build-operations.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Recursos do Editor de códigos
+          href: ../../dev-itpro/dev-tools/code-editor.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: ​Criar modelos e elementos de modelo de dados​
+          items:
+            - name: Visão geral de ​Criar modelos e elementos de modelo de dados​
+              href: ../../dev-itpro/dev-tools/create-data-model-elements.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Diretrizes de nomenclatura para extensões
+              href: ../../dev-itpro/extensibility/NamingGuidelines.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: ​Desativar a personalização de modelos e substituir a funcionalidade​
+              href: ../../dev-itpro/dev-tools/lock-models.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: ​Relatório de Análise de Personalizações​
+          href: ../../dev-itpro/dev-tools/customization-analysis-report.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: ​Designers de elementos​
+          href: ../../dev-itpro/dev-tools/element-designers.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Comandos para determinar o uso de elementos
+          href: ../../dev-itpro/dev-tools/element-usage.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Exportar e importar modelos
+          href: ../../dev-itpro/dev-tools/models-export-import.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Pesquisa de metadados no Visual Studio
+          href: ../../dev-itpro/dev-tools/metadata-search-visual-studio.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Modelos e pacotes
+          href: ../../dev-itpro/dev-tools/models.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Tipo de projeto do Finance and Operations
+          href: ../../dev-itpro/dev-tools/projects.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Suplementos de ferramentas para o Visual Studio
+          href: ../../dev-itpro/dev-tools/developer-tools-add-ins.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Atualizar as ferramentas de desenvolvimento do Visual Studio
+          href: ../../dev-itpro/dev-tools/update-development-tools.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Linguagem de programação X++
+      items:
+        - name: Recursos de X++ e depurador
+          href: ../../dev-itpro/dev-tools/new-x-debugger-features.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Depurar código X++
+          href: ../../dev-itpro/dev-tools/debug-xpp.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Classes EventHandlerResult em cenários de solicitação ou resposta
+          href: ../../dev-itpro/dev-tools/event-handler-result-class.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: 'Escrever lógica comercial usando código-fonte C# e X++'
+          href: ../../dev-itpro/dev-tools/write-business-logic.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Alterações em X++ e no compilador X++
+          href: ../../dev-itpro/dev-tools/programming-language-support.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: 'Provedor LINQ para C#'
+          href: ../../dev-itpro/dev-tools/linq-provider-c.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Escrever regras de práticas recomendadas
+          href: ../../dev-itpro/dev-tools/author-best-practice-rules.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Propriedades do Explorador de Aplicativos
+          href: ../../dev-itpro/dev-ref/application-explorer-aot-properties.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Referência da linguagem X++
+          items:
+            - name: Visão geral da Referência da linguagem X++
+              href: ../../dev-itpro/dev-ref/xpp-language-reference.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Variáveis e tipos de dados
+              items:
+                - name: Variáveis
+                  href: ../../dev-itpro/dev-ref/xpp-variables-data-types.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Tipos de dados primitivos
+                  href: ../../dev-itpro/dev-ref/xpp-data-primitive.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Tipos de dados compostos
+                  href: ../../dev-itpro/dev-ref/xpp-data-composite.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Classes da coleção
+                  href: ../../dev-itpro/dev-ref/xpp-data-collection.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Tipos de dados estendidos
+                  href: ../../dev-itpro/dev-ref/xpp-data-edt.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: 'Instruções, loops e tratamento de exceções'
+              items:
+                - name: 'Comentários, utilização e impressão'
+                  href: ../../dev-itpro/dev-ref/xpp-statements-loops.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Instruções condicionais
+                  href: ../../dev-itpro/dev-ref/xpp-conditional.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Instruções de loop
+                  href: ../../dev-itpro/dev-ref/xpp-loops.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Tratamento de exceções
+                  href: ../../dev-itpro/dev-ref/xpp-exceptions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Exceção da X++ para o erro de conexão do SQL
+              href: ../../dev-itpro/dev-ref/sql-connection-error.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Operadores da X++
+              href: ../../dev-itpro/dev-ref/xpp-operators.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Precedência dos operadores da X++
+              href: ../../dev-itpro/dev-ref/xpp-operator-precedence.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes e métodos da X++
+              items:
+                - name: Classes e métodos
+                  href: ../../dev-itpro/dev-ref/xpp-classes-methods.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Herança
+                  href: ../../dev-itpro/dev-ref/xpp-inheritance.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Membros de classe estática
+                  href: ../../dev-itpro/dev-ref/xpp-static-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Interfaces
+                  href: ../../dev-itpro/dev-ref/xpp-interfaces.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Bibliotecas
+                  href: ../../dev-itpro/dev-ref/xpp-library-objects.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Eventos
+                  href: ../../dev-itpro/dev-ref/xpp-events.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Manipulação e seleção de dados da X++
+              href: ../../dev-itpro/dev-ref/xpp-data-query.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Acesso a dados usando a API do SysDa
+              href: ../../dev-itpro/dev-ref/sysda.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Macros da X++
+              href: ../../dev-itpro/dev-ref/xpp-macros.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes de atributo da X++
+              href: ../../dev-itpro/dev-ref/xpp-attribute-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: 'Comparação entre X++ e C#'
+              href: ../../dev-itpro/dev-ref/xpp-cs-comparison.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Sintaxe da X++
+              href: ../../dev-itpro/dev-ref/xpp-syntax.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: '​Referência de API, classes e tabelas​'
+      items:
+        - name: '​Recursos de API, classes e tabelas​'
+          href: ../../dev-itpro/dev-ref/api-reference.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Funções em tempo de compilação da X++
+          href: ../../dev-itpro/dev-ref/xpp-compile-time-functions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Funções em tempo de execução da X++
+          items:
+            - name: Recursos de Funções em tempo de execução da X++​
+              href: ../../dev-itpro/dev-ref/xpp-run-time-functions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: ​Funções de negócios em tempo de execução da X++​
+              href: ../../dev-itpro/dev-ref/xpp-business-run-time-functions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: ​Funções de contêiner em tempo de execução da X++​
+              href: ../../dev-itpro/dev-ref/xpp-container-run-time-functions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Funções de conversão em tempo de execução da X++
+              href: ../../dev-itpro/dev-ref/xpp-conversion-run-time-functions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Funções de data em tempo de execução da X++
+              href: ../../dev-itpro/dev-ref/xpp-date-run-time-functions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: ​Funções matemáticas em tempo de execução da X++​
+              href: ../../dev-itpro/dev-ref/xpp-math-run-time-functions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: ​Funções de reflexão em tempo de execução da X++​
+              href: ../../dev-itpro/dev-ref/xpp-reflection-run-time-functions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: ​Funções de sessão em tempo de execução da X++​
+              href: ../../dev-itpro/dev-ref/xpp-session-run-time-functions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: ​Funções de cadeia de caracteres em tempo de execução da X++​
+              href: ../../dev-itpro/dev-ref/xpp-string-run-time-functions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Tabelas do sistema
+          href: ../../dev-itpro/dev-ref/system-tables.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Classes do sistema
+          items:
+            - name: Classes A
+              href: ../../dev-itpro/dev-ref/a-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes B
+              href: ../../dev-itpro/dev-ref/b-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes C
+              href: ../../dev-itpro/dev-ref/c-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes D
+              href: ../../dev-itpro/dev-ref/d-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes E
+              href: ../../dev-itpro/dev-ref/e-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes F (FieldBinding a FormBuildAnimateControl)
+              href: ../../dev-itpro/dev-ref/fieldbinding-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes F (FormBuildButtonControl a FormBuildFastTabSummarySeparator)
+              href: ../../dev-itpro/dev-ref/formbuildbuttoncontrol-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes F (FormBuildFilterPaneControl a FormBuildRealControl)
+              href: ../../dev-itpro/dev-ref/formbuildfilterpanecontrol-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes F (FormBuildReferenceControl a FormButtonSeparatorControl)
+              href: ../../dev-itpro/dev-ref/formbuildreferencecontrol-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes F (FormChangeTracker a FormControlEventArgs)
+              href: ../../dev-itpro/dev-ref/formchangetracker-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes F (FormDataObject a FormFastTabHeaderControl)
+              href: ../../dev-itpro/dev-ref/formdataobject-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes F (FormFastTabSummarySeparator a FormGridControl)
+              href: ../../dev-itpro/dev-ref/formfasttabsummaryseparator-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes F (FormGroupControl a FormIntControl)
+              href: ../../dev-itpro/dev-ref/formgroupcontrol-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes F (FormListBoxControl a FormNotifyEventArgs)
+              href: ../../dev-itpro/dev-ref/formlistboxcontrol-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes F (FormObject a FormRealControl)
+              href: ../../dev-itpro/dev-ref/formobject-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes F (FormReferenceControl a FormStringControl)
+              href: ../../dev-itpro/dev-ref/formreferencecontrol-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes F (FormTabControl a FormWindowControl)
+              href: ../../dev-itpro/dev-ref/formtabcontrol-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes G
+              href: ../../dev-itpro/dev-ref/g-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes H
+              href: ../../dev-itpro/dev-ref/h-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes I
+              href: ../../dev-itpro/dev-ref/i-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes J
+              href: ../../dev-itpro/dev-ref/j-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes K
+              href: ../../dev-itpro/dev-ref/k-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes L
+              href: ../../dev-itpro/dev-ref/l-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes M
+              href: ../../dev-itpro/dev-ref/m-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes N
+              href: ../../dev-itpro/dev-ref/n-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes O
+              href: ../../dev-itpro/dev-ref/o-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes P
+              href: ../../dev-itpro/dev-ref/p-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes Q
+              href: ../../dev-itpro/dev-ref/q-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes R
+              href: ../../dev-itpro/dev-ref/r-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes S
+              href: ../../dev-itpro/dev-ref/s-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes T
+              href: ../../dev-itpro/dev-ref/t-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes U
+              href: ../../dev-itpro/dev-ref/u-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes V
+              href: ../../dev-itpro/dev-ref/v-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes W
+              href: ../../dev-itpro/dev-ref/w-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes X
+              href: ../../dev-itpro/dev-ref/x-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Extensibilidade
+      items:
+        - name: Home page da extensibilidade
+          href: ../../dev-itpro/extensibility/extensibility-home-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Introdução e começar a usar
+          items:
+            - name: Plano de extensibilidade de aplicativo
+              href: ../../dev-itpro/extensibility/extensibility-roadmap.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Solicitações de extensibilidade
+              href: ../../dev-itpro/extensibility/extensibility-requests.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Perguntas frequentes de extensibilidade
+              href: ../../dev-itpro/extensibility/app-sealing-faq.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Migrar de sobreposições para extensões
+              href: ../../dev-itpro/extensibility/migrate-overlayer-extension.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Personalizar elementos do modelo por meio de extensão (tutorial)
+              href: ../../dev-itpro/extensibility/customize-model-elements-extensions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Personalizar por meio de extensão e sobreposição
+              href: ../../dev-itpro/extensibility/customization-overlayering-extensions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Novidades
+          items:
+            - name: Novidades ou alterações da extensibilidade
+              href: ../../dev-itpro/extensibility/extensibility-new.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Alterações de extensibilidade na versão 10.0.3
+              href: ../../dev-itpro/extensibility/extensibility-changes-10-3.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Alterações de extensibilidade na versão 10.0.2
+              href: ../../dev-itpro/extensibility/extensibility-changes-10-2.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Alterações de extensibilidade na versão 10.0.1
+              href: ../../dev-itpro/extensibility/extensibility-changes-10-1.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Alterações de extensibilidade na versão 10.0
+              href: ../../dev-itpro/extensibility/extensibility-changes-10.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Alterações de extensibilidade na versão 8.1.3
+              href: ../../dev-itpro/extensibility/extensibility-changes-813.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Alterações de extensibilidade na versão 8.1.2
+              href: ../../dev-itpro/extensibility/extensibility-changes-812.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Alterações de extensibilidade na versão 8.1.1
+              href: ../../dev-itpro/extensibility/extensibility-changes-811.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Alterações de extensibilidade na versão 8.1
+              href: ../../dev-itpro/extensibility/extensibility-changes-81.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Alterações de extensibilidade na versão 8.0.4
+              href: ../../dev-itpro/extensibility/extensibility-changes-804.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Alterações de extensibilidade na versão 8.0.3
+              href: ../../dev-itpro/extensibility/extensibility-changes-803.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Alterações de extensibilidade na versão 8.0.2
+              href: ../../dev-itpro/extensibility/extensibility-changes-802.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Alterações de extensibilidade na versão 8.0.1
+              href: ../../dev-itpro/extensibility/extensibility-changes-801.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Alterações de extensibilidade na versão 8.0
+              href: ../../dev-itpro/extensibility/changes-80.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Alterações de extensibilidade na versão 7.3
+              href: ../../dev-itpro/extensibility/extensibility-changes-73.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Alterações de extensibilidade em julho de 2017
+              href: ../../dev-itpro/extensibility/changes-july-2017.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Conceitos básicos
+          items:
+            - name: Personalizações intrusivas
+              href: ../../dev-itpro/extensibility/intrusive-customizations.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Modelo de extensão de classes
+              href: ../../dev-itpro/extensibility/class-extensions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Extensão de classe via disposição e cadeia de comando do método
+              href: ../../dev-itpro/extensibility/method-wrapping-coc.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Diretrizes de nomenclatura para extensões
+              href: ../../dev-itpro/extensibility/naming-guidelines-extensions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Relaxar restrições do modelo para refatorar a sobreposição de camadas em extensões
+              href: ../../dev-itpro/extensibility/refactoring-over-layering.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Criando extensões
+          items:
+            - name: Adicionar valores a enumerações
+              href: ../../dev-itpro/extensibility/add-enum-value.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Modificar tipos de dados estendidos
+              href: ../../dev-itpro/extensibility/modify-edt.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Registrar subclasses para métodos de fábrica
+              href: ../../dev-itpro/extensibility/register-subclass-factory-methods.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Responder usando EventHandlerResult
+              href: ../../dev-itpro/extensibility/respond-event-handler-result.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Estender a classe RunBase​
+              href: ../../dev-itpro/extensibility/extend-runbase-class.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Personalizar a inicialização do aplicativo usando delegados
+              href: ../../dev-itpro/extensibility/startup-customizations.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Modificar campos existentes em uma tabela
+              href: ../../dev-itpro/extensibility/modify-existing-field.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Adicionar campos a tabelas
+              href: ../../dev-itpro/extensibility/add-field-extension.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Adicionar índices a tabelas
+              href: ../../dev-itpro/extensibility/add-index.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Adicionar relações a tabelas
+              href: ../../dev-itpro/extensibility/add-relation.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Modificar propriedades da tabela
+              href: ../../dev-itpro/extensibility/modify-properties.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Adicionar métodos a tabelas
+              href: ../../dev-itpro/extensibility/add-method-table.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Executar ações comerciais no ciclo de vida de registros de tabela
+              href: ../../dev-itpro/extensibility/subscribe-table-events.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Adicionar fontes de dados aos formulários
+              href: ../../dev-itpro/extensibility/add-datasource.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Alterar legendas do formulário
+              href: ../../dev-itpro/extensibility/change-caption-form.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Modificar propriedades de controle de formulário
+              href: ../../dev-itpro/extensibility/modify-control-properties.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: ​Estender o escopo das sequências numérica​s
+              href: ../../dev-itpro/extensibility/extend-number-sequence-scope.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Adicionar novas dimensões de estoque
+              href: ../../dev-itpro/extensibility/inventory-dimensions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Extensibilidade de preço e desconto
+              href: ../../dev-itpro/extensibility/pricing-app73.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Extensão do mapa de tabela
+              href: ../../dev-itpro/extensibility/map-extensions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Estender mapas de tabela usados como interfaces
+              href: ../../dev-itpro/extensibility/maps-as-interfaces.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Estender mapas de tabela usados para controle de versão
+              href: ../../dev-itpro/extensibility/maps-with-versioning.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Estendendo a precisão de ponto decimal para os tipos de dados selecionados
+              href: ../../dev-itpro/extensibility/decimal-point-precision.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Criando soluções extensíveis
+          items:
+            - name: Escrever código extensível
+              href: ../../dev-itpro/extensibility/writing-extensible-code.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes
+              href: ../../dev-itpro/extensibility/extensible-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Métodos
+              href: ../../dev-itpro/extensibility/extensible-methods.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Formulários
+              href: ../../dev-itpro/extensibility/extensible-forms.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipos de dados estendidos
+              href: ../../dev-itpro/extensibility/extensible-edts.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Enumerações extensíveis
+              href: ../../dev-itpro/extensibility/extensible-enums.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Delegados
+              href: ../../dev-itpro/extensibility/extensible-code-delegates.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tabelas
+              href: ../../dev-itpro/extensibility/extensible-tables.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Atributos de extensibilidade para métodos
+              href: ../../dev-itpro/extensibility/extensibility-attributes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Últimas alterações
+              href: ../../dev-itpro/extensibility/breaking-changes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Desempenho
+      items:
+        - name: Fazer rastreamentos usando o Trace Parser
+          href: ../../dev-itpro/perf-test/trace-trace-tutorial.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Teste de um único usuário com o Gravador de Tarefas e o SDK de desempenho
+          href: ../../dev-itpro/perf-test/single-user-test-perf-sdk.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Teste de vários usuários com o SDK de desempenho e um controlador de teste local
+          href: ../../dev-itpro/perf-test/multi-user-testing-local-test-controller.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Teste de vários usuários com o SDK de desempenho e o Azure DevOps
+          href: ../../dev-itpro/perf-test/multi-user-testing-perfsdk-azuredevops.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Guia de solução de problemas de teste de um único usuário ou de vários usuários com o SDK de desempenho
+          href: ../../dev-itpro/perf-test/troubleshoot-perf-sdk-user-testing.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Testes de SDK de desempenho e de multiusuários em ambientes locais
+          href: ../../dev-itpro/perf-test/perfsdk-tutorial-lbd.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Diagnosticar problemas e analisar o desempenho usando o Trace parser
+          href: ../../dev-itpro/perf-test/trace-parser.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Temporizador de desempenho
+          href: ../../dev-itpro/perf-test/performance-timer.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Teste de suporte no Visual Studio
+      items:
+        - name: Testes e validações
+          href: ../../dev-itpro/perf-test/testing-validation.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Testar projetos no Visual Studio
+          href: ../../dev-itpro/perf-test/testing-support.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Implantar ambientes que ofereçam suporte à contínua automação de compilações e testes
+          href: ../../dev-itpro/perf-test/continuous-build-test-automation.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Filtragem de SysTest usando atributos de classe e método
+          href: ../../dev-itpro/perf-test/systest-filtering.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Biblioteca de testes de aceitação
+          items:
+            - name: Recursos da Biblioteca de testes de aceitação
+              href: ../../dev-itpro/perf-test/acceptance-test-library.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Conceitos de navegação
+              href: ../../dev-itpro/perf-test/concepts-navigation.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Métodos de dados de teste
+              href: ../../dev-itpro/perf-test/test-data-methods.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Entidades na biblioteca de testes de aceitação
+              href: ../../dev-itpro/perf-test/concepts-entities.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Comandos da biblioteca de testes de aceitação
+              href: ../../dev-itpro/perf-test/concepts-commands.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Criadores na biblioteca de testes de aceitação
+              href: ../../dev-itpro/perf-test/concepts-creators.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Consultas na biblioteca de testes de aceitação
+              href: ../../dev-itpro/perf-test/concepts-queries.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Classes de especificação
+              href: ../../dev-itpro/perf-test/concepts-specifications.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Assistente de geração de código da biblioteca de testes de aceitação
+              href: ../../dev-itpro/perf-test/code-generation-wizard.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Práticas recomendadas para a biblioteca de testes de aceitação
+              href: ../../dev-itpro/perf-test/atl-best-practices.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Perguntas frequentes
+              href: ../../dev-itpro/perf-test/atl-faq.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Efetividade de data
+      href: ../../dev-itpro/dev-tools/date-effectivity.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Licenciamento do ISV
+      href: ../../dev-itpro/dev-tools/isv-licensing.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Licenciamento do ISV local
+      href: ../../dev-itpro/dev-tools/isv-licensing-on-prem.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Regulamento Geral sobre a Proteção de Dados (RGPD)
+  items:
+    - name: Visão geral do Regulamento Geral sobre a Proteção de Dados (RGPD)
+      href: ../../dev-itpro/gdpr/gdpr-guide.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Responder a solicitações de dados do RGPD
+      items:
+        - name: Recursos de Responder a solicitações de dados do RGPD
+          href: ../../dev-itpro/gdpr/gdpr-home-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Classificações de ativos
+          href: ../../dev-itpro/gdpr/gdpr-asset-classification-values.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Relatório de pesquisa de pessoas
+          href: ../../dev-itpro/gdpr/gdpr-person-search-report.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Estender o relatório de Pesquisa de pessoas
+          href: ../../dev-itpro/gdpr/gdpr-extend-person-search-report.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Gerenciar o acesso a dados confidenciais
+          href: ../../dev-itpro/gdpr/gdpr-auditing-sensitive-data.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: ​Responder a solicitações de dados pessoais usando o Talent​
+          href: ../../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Responder a solicitações de dados pessoais no AX 2012
+          href: ../../dev-itpro/gdpr/gdpr-ax2012.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Solicitações de dados do RGPD para o LCS
+          href: ../../dev-itpro/gdpr/gdpr-lcs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Lifecycle Services
+  items:
+    - name: Recursos do Lifecycle Services
+      items:
+        - name: Recursos do Lifecycle Services
+          href: ../../dev-itpro/lifecycle-services/lcs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: ​LCS para clientes​
+          href: ../../dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: LCS para parceiros
+          href: ../../dev-itpro/lifecycle-services/getting-started-lcs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Novidades
+          href: ../../dev-itpro/lifecycle-services/whats-new-lcs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: ​Problemas conhecidos​
+          href: ../../dev-itpro/lifecycle-services/known-issues.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: ​Guia do usuário do Lifecycle Services​
+      href: ../../dev-itpro/lifecycle-services/lcs-user-guide.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Avaliador de subscrição
+      href: ../../dev-itpro/lifecycle-services/subscription-estimator.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: ​Configurar segurança​
+      href: ../../dev-itpro/lifecycle-services/configure-lcs-security.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Pesquisa de problemas
+      href: ../../dev-itpro/lifecycle-services/issue-search-lcs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Gerenciador de configurações
+      items:
+        - name: Visão geral do Gerenciador de configurações
+          href: ../../dev-itpro/lifecycle-services/configuration-manager-lcs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Instalar o Gerenciador de configurações
+          href: ../../dev-itpro/lifecycle-services/set-up-configuration-manager-lcs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Configurar o serviço de upgrade de código
+      href: ../../dev-itpro/lifecycle-services/configure-execute-code-upgrade.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Criar ou atualizar metodologias
+      href: ../../dev-itpro/lifecycle-services/create-methodology.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Modelador de processo de negócios
+      href: ../../dev-itpro/lifecycle-services/bpm-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Bibliotecas de processos de negócios no Modelador de processo de negócios
+      href: ../../dev-itpro/lifecycle-services/business-process-libraries-business-process-modeler.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: 'Criar, editar e procurar bibliotecas do Modelador de processo de negócios'
+      href: ../../dev-itpro/lifecycle-services/creating-editing-browsing.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Concluir tarefas no Modelador de processo de negócios
+      href: ../../dev-itpro/lifecycle-services/complete-tasks-bpm.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Trabalhar com diagramas de atividades em bibliotecas do BPM
+      href: ../../dev-itpro/lifecycle-services/using-activity-diagrams.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Sincronizar bibliotecas do BPM com o Azure DevOps
+      href: ../../dev-itpro/lifecycle-services/synchronize-bpm-vsts.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Criar bibliotecas de teste de aceitação de usuário usando o BPM e os guias de tarefas
+      href: ../../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: ​Fluxogramas no modelador de processo de negócios​
+      href: ../../dev-itpro/lifecycle-services/flowcharts-business-process-modeler.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Carregar processos de negócios personalizados no Modelador de processo de negócios
+      href: ../../dev-itpro/lifecycle-services/upload-business-processes-bpm-task-recorder.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Monitoramento e diagnóstico
+      href: ../../dev-itpro/lifecycle-services/monitoring-diagnostics.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Reiniciar serviços de ambiente
+      href: ../../dev-itpro/lifecycle-services/restart-environment-services.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Relatar uma interrupção de produção
+      href: ../../dev-itpro/lifecycle-services/report-production-outage.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Rastrear entradas dos usuários
+      href: ../../dev-itpro/lifecycle-services/user-logins.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Biblioteca de ativos
+      href: ../../dev-itpro/lifecycle-services/asset-library.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Solução de problemas de desempenho usando as ferramentas no LCS
+      href: ../../dev-itpro/lifecycle-services/performancetroubleshooting.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Guia de consultas
+      href: ../../dev-itpro/lifecycle-services/querycookbook.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Microsoft Dynamics 365 Translation Service
+      items:
+        - name: Visão geral do Dynamics 365 Translation Service
+          href: ../../dev-itpro/lifecycle-services/translation-service-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Traduzir arquivos da interface do usuário
+          href: ../../dev-itpro/lifecycle-services/use-translation-service.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Traduzir arquivos de documentação
+          href: ../../dev-itpro/lifecycle-services/use-translation-service-ua.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Arquivos da memória de tradução
+          href: ../../dev-itpro/lifecycle-services/use-translation-service-tm.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Plataforma móvel
+  items:
+    - name: Recursos da plataforma móvel
+      href: ../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Comece a usar
+      items:
+        - name: Introdução à plataforma móvel
+          href: ../../dev-itpro/mobile-apps/platform/mobile-platform-getting-started.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Considerações da arquitetura e design
+          href: ../../dev-itpro/mobile-apps/platform/mobile-platform-architecture.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Eventos de lógica comercial
+          href: ../../dev-itpro/mobile-apps/platform/business-logic-events-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Diretrizes de design de página
+          href: ../../dev-itpro/mobile-apps/platform/page-design-guidelines.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Diretrizes de design de ação
+          href: ../../dev-itpro/mobile-apps/platform/action-design-guidelines.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Requisitos de design de formulários
+          href: ../../dev-itpro/mobile-apps/platform/form-design-requirements.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Tarefas comuns
+      items:
+        - name: Configurar espaços de trabalho usando a classe SysAppWorkspace
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/mobile-workspace-configuration.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Tornar clicáveis campos em páginas de aplicativos móveis
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/make-workspace-field-clickable.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Mostrar contagens em campos
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/display-count-workspace.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Ajudar a proteger espaços de trabalho móveis
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/secure-mobile-workspace.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Localizar espaços de trabalho móveis
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/localize-workspaces-on-server.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Tornar campos obrigatórios usando classes do espaço de trabalho
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/make-field-mandatory.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Referência de desenvolvimento do servidor
+      items:
+        - name: Desenvolvimento do servidor (APIs da X++ de espaços de trabalho)
+          href: ../../dev-itpro/mobile-apps/platform/mobile-workspace-server-apis.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Referência de desenvolvimento do cliente
+      items:
+        - name: APIs de criação do cliente
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/client-api-design-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: APIs de cliente
+          items:
+            - name: Home page APIs de cliente
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/client-apis-reference.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Enumeração de PageState
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Módulo do aplicativo
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/services-application.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Adiar módulo
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/defer.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Módulo de evento
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/event-ievent.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Módulo de controle
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Módulo de contêiner
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-container-icontainercontrol.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Módulo de campo
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-field-ifield.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Módulo de carregador do arquivo
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-fileuploader-ifileuploader.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Módulo de grupo
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-group-igroup.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Módulo de hiperlink
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-hyperlink-ihyperlink.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Módulo de imagem
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-image-iimage.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Módulo de entrada
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-iinputcontrol.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Módulo de lista
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-list-ilist.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Módulo de pesquisa
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-lookup-ilookup.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Módulo de pesquisa múltipla
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-lookup-imultilookup.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Módulo de página
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-ipage.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Módulo de pagelink
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-pagelink-ipagelink.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Módulo de parte
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-part-ipart.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Módulo de serviços
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/services-business-logic-services.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Módulo de valor
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-value-ivalue.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de aplicativo
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-application-iapplication.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de ApplicationMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-application-iapplicationmetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de AsyncService
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-iasyncservice.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de CacheService
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-icacheservice.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de CompleteEventArgs
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-icompleteeventargs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de ContainerControl
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrol.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de ContainerControlDesign
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontroldesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de ContainerControlMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrolmetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de ControlMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrolmetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de DataService
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-idataservice.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de Deferred<T>
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/defer-ideferred.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de Design
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-idesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de EventHook<T>
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/event-ievent-ieventhook.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de campo
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifield.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de FieldDesign
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifielddesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de FieldMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifieldmetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de FileUploader
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploader.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de FileUploaderDesign
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploaderdesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de FileUploaderMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploadermetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de GenericValue
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-igenericvalue.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de getDataSource
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrol.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de grupo
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroup.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de GroupDesign
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupdesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de GroupMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupmetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de Hyperlink
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlink.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de HyperLinkDesign
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkdesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de HyperLinkMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkmetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de imagem
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimage.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de ImageDesign
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagedesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de ImageMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagemetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de InputControl
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrol.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de InputControlDesign
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontroldesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de InputControlMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrolmetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de lista
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilist.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de ListDesign
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistdesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de ListMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistmetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de pesquisa
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookup.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de LookupDesign
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupdesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de LookupMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupmetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de MetadataService
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-imetadataservice.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de MultiLookup
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookup.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de MultiLookupDesign
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupdesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de MultiLookupMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupmetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de NavigationArgs
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-inavigationargs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de NumberSequenceConfig
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-inumbersequenceconfig.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de página
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipage.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de PageData
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-ipagedata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de PageLink
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelink.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de PageLinkDesign
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkdesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de PageLinkMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkmetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de PageMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagemetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de PageOptions
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipageoptions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de PageSubmitArgs
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagesubmitargs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de PageTarget
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagetarget.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de Part
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipart.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de PartDesign
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartdesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de PartMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de linha
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de valor
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de ValueDesign
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tipo de ValueMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Regression Suite Automation Tool
+  items:
+    - name: Visão geral da Regression Suite Automation Tool
+      href: ../../dev-itpro/perf-test/rsat/rsat-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Instalação e configuração
+      href: ../../dev-itpro/perf-test/rsat/rsat-install-configure.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Testes desconhecidos de dados usando a Regression Suite Automation Tool
+      href: ../../fin-and-ops/get-started/recommendation-data-agnostic-testing-rsat.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Executar casos de teste
+      href: ../../dev-itpro/perf-test/rsat/rsat-run.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Validar valores esperados
+      href: ../../dev-itpro/perf-test/rsat/rsat-validate-expected.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Agrupar casos de teste
+      href: ../../dev-itpro/perf-test/rsat/rsat-chain-test-cases.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Casos de teste derivados
+      href: ../../dev-itpro/perf-test/rsat/rsat-derived-test-cases.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Usar o tutorial sobre a Regression Suite Automation Tool
+      href: ../../fin-and-ops/get-started/hol-use-regression-suite-automation-tool.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Práticas recomendadas
+      href: ../../dev-itpro/perf-test/rsat/rsat-best-practices.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Solução de problemas
+      href: ../../dev-itpro/perf-test/rsat/rsat-troubleshooting.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Liberar soluções usando o Lifecycle Services
+  items:
+    - name: Desenvolver e liberar
+      href: ../../dev-itpro/lcs-solutions/lcs-solutions-app-source.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Preparar e publicar
+      href: ../../dev-itpro/lcs-solutions/marketing-content-lcs-solutions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Adicionar metodologias
+      href: ../../dev-itpro/lcs-solutions/methodologies-lcs-solutions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Configurar bibliotecas do Modelador de processo de negócios
+      href: ../../dev-itpro/lcs-solutions/business-process-modeler-libraries-lcs-solutions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Migrar código
+      href: ../../dev-itpro/lcs-solutions/code-migration-lcs-solutions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Validar aplicativos
+      href: ../../dev-itpro/lcs-solutions/app-validation-lcs-solutions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Processar e consumir pacotes de dados
+      href: ../../dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Fazer backup de bancos de dados de solução
+      href: ../../dev-itpro/lcs-solutions/database-backup-lcs-solutions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Recursos regulatórios e de localização
+      items:
+        - name: Recursos de globalização
+          href: ../../dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Classificação de recursos de localização
+          href: ../../dev-itpro/lcs-solutions/classify-localization-features.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Aplicar contexto de país/região
+          href: ../../dev-itpro/lcs-solutions/apply-country-context.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Informações de certificações regulatórias em títulos de recursos
+          href: ../../dev-itpro/lcs-solutions/regulatory-certifications.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Atualizações regulatórias
+          href: ../../dev-itpro/lcs-solutions/regulatory-watch-communication.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Separação de modelos de localização
+          href: ../../dev-itpro/lcs-solutions/separate-localization-models.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Enviar alertas regulatórios
+          href: ../../dev-itpro/lcs-solutions/submit-localization-alerts.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Suporte
+  items:
+    - name: Obter suporte para o Finance and Operations e o Lifecycle Services
+      href: ../../dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Visão geral do suporte do Dynamics 365
+      href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/unified-operations/retail/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
+    - name: Obter suporte para o Finance and Operations operado pela 21Vianet na China
+      href: ../../dev-itpro/lifecycle-services/21vianet-support.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Registrar em log um tíquete de suporte premier
+      href: ../../dev-itpro/lifecycle-services/premier-support.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Enviar solicitações para a equipe de engenharia de serviço do Dynamics
+      href: ../../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Configurar o suporte técnico para o Finance and Operations
+      href: ../../dev-itpro/lifecycle-services/support-experience.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Perguntas frequentes sobre janela de manutenção planejada
+      href: ../../dev-itpro/lifecycle-services/planned-maintenance-window-faq.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Operações e manutenção de nuvem
+      href: ../../dev-itpro/lifecycle-services/cloud-operations-servicing.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Gerenciar experiências de suporte ao Finance and Operations
+      href: ../../dev-itpro/lifecycle-services/cloud-powered-support-lcs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Administração do sistema
+  items:
+    - name: Home page de Administração do sistema
+      href: ../../dev-itpro/sysadmin/system-administration-home-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Adicionar links aos termos legais e à política de privacidade
+      href: ../../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: ​Relatório de códigos de licença e chaves de configuração​
+      href: ../../dev-itpro/sysadmin/license-codes-configuration-keys-report.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: ​Compartilhamento de dados interempresarial​
+      href: ../../dev-itpro/sysadmin/cross-company-data-sharing.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Modo de manutenção
+      href: ../../dev-itpro/sysadmin/maintenance-mode.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Contas do sistema pré-configuradas
+      href: ../../dev-itpro/sysadmin/pre-configured-system-accounts.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Exportar usuários B2B para o Azure AD
+      href: ../../dev-itpro/sysadmin/implement-b2b.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Segurança
+      items:
+        - name: Segurança baseada em função
+          href: ../../dev-itpro/sysadmin/role-based-security.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Arquitetura de segurança
+          href: ../../dev-itpro/sysadmin/security-architecture.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Definir o tempo limite de ociosidade da sessão
+          href: ../../dev-itpro/sysadmin/session-idle-timeout.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Relatórios de segurança prontos para uso
+          href: ../../dev-itpro/sysadmin/security-reports.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Criar usuários
+          href: ../../dev-itpro/sysadmin/tasks/create-new-users.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Importar usuários em massa
+          href: ../../dev-itpro/sysadmin/tasks/import-bulk-users.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Configurar diferenciação de direitos
+          href: ../../dev-itpro/sysadmin/tasks/set-up-segregation-duties.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Identificar e resolver conflitos na diferenciação de direitos
+          href: ../../dev-itpro/sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Atribuir usuários a funções de segurança
+          href: ../../dev-itpro/sysadmin/tasks/assign-users-security-roles.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Processamento em lotes
+      items:
+        - name: Visão geral do Processamento em lotes
+          href: ../../dev-itpro/sysadmin/batch-processing-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Servidores de lote e processamento em lotes
+          href: ../../dev-itpro/sysadmin/batch-server-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Criar trabalhos em lotes
+          href: ../../dev-itpro/sysadmin/tasks/create-batch-job.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Copiar um trabalho em lotes
+          href: ../../dev-itpro/sysadmin/copy-batch-job.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Períodos de lote ativos
+          href: ../../dev-itpro/sysadmin/activeperiod.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Função de segurança do gerente de lotes
+          href: ../../dev-itpro/sysadmin/runby.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Trabalhos em lotes para tratar da desfragmentação de índice SQL
+          href: ../../dev-itpro/sysadmin/batch-job-SQL-defragmentation.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Configurar alertas em lotes
+          href: ../../dev-itpro/sysadmin/alerts.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Formulários de lote aprimorados
+          href: ../../dev-itpro/sysadmin/enhanced-forms.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Limpar o histórico de lotes
+          href: ../../dev-itpro/sysadmin/batch-history-cleanup.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Anular um trabalho em lotes em execução
+          href: ../../dev-itpro/sysadmin/batch-abort.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Supervisor de otimização
+      items:
+        - name: Visão geral do Supervisor de otimização
+          href: ../../dev-itpro/sysadmin/optimization-advisor-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Criar regras para o Supervisor de otimização
+          href: ../../dev-itpro/sysadmin/create-rules-optimization-advisor.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Relatar uma interrupção de produção
+      href: ../../dev-itpro/lifecycle-services/report-production-outage.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: 'Upgrades, atualizações e hotfixes'
+  items:
+    - name: 'Recursos de upgrades, atualizações e hotfixes'
+      href: ../../dev-itpro/migration-upgrade/upgrade-home-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Upgrade do AX 2012
+      items:
+        - name: ​Upgrade do AX 2012 para o Finance and Operations
+          href: ../../dev-itpro/migration-upgrade/upgrade-overview-2012.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Upgrade do AX 2012 — Planejamento usando a ferramenta Analisador de atualizações
+          href: ../../dev-itpro/migration-upgrade/upgrade-analyzer-tool.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Upgrade do AX 2012 — Estimar o esforço usando o serviço Atualização de código
+          href: ../../dev-itpro/migration-upgrade/analyze-code-upgrade.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Upgrade do AX 2012 — Implantar um ambiente de demonstração para análise
+          href: ../../dev-itpro/migration-upgrade/analysis-sandbox.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Upgrade do AX 2012 — Atualização de dados em ambientes de desenvolvimento
+          href: ../../dev-itpro/migration-upgrade/data-upgrade-2012.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Upgrade do AX 2012 — Lista de verificação de pré-atualização para a atualização de dados
+          href: ../../dev-itpro/migration-upgrade/prepare-data-upgrade.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Upgrade do AX 2012 — Atualização de dados em ambientes de área restrita
+          href: ../../dev-itpro/migration-upgrade/upgrade-data-sandbox.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Upgrade do AX 2012 — Testes de substituição
+          href: ../../dev-itpro/migration-upgrade/upgrade-cutover-testing.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Upgrade do AX 2012 — Tarefas de pós-atualização
+          href: ../../dev-itpro/migration-upgrade/app-validation-process.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Upgrade do AX 2012 — Teste funcional aprovado
+          href: ../../dev-itpro/migration-upgrade/upgrade-functional-validation.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Upgrade do AX 2012 - ​Preparar para a ativação​
+          href: ../../dev-itpro/migration-upgrade/upgrade-go-live-prep.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Upgrade do AX 2012 — Ativar
+          href: ../../dev-itpro/migration-upgrade/2012-upgrade-cutover.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Alterações que afetam a atualização do AX 2012
+          items:
+            - name: O delimitador do plano de contas deve ser exclusivo
+              href: ../../dev-itpro/migration-upgrade/chart-accounts-delimiter-unique.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: ​Atualizar diários de comprovante único e reavaliações de moeda
+              href: ../../dev-itpro/migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: ​Modelo de dados de agendamento de recursos de projeto​
+              href: ../../dev-itpro/migration-upgrade/data-model-changes-resource-management.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Alterações no subsistema de fluxo de trabalho
+              href: ../../dev-itpro/migration-upgrade/workflow-subsystem.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Agregar os modelos usados em vez de cubos para análise
+              href: ../../dev-itpro/migration-upgrade/in-memory-real-time-aggregate-models.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Migrar upgrades de cubo de vendas para o repositório de entidades
+              href: ../../dev-itpro/migration-upgrade/migrate-upgraded-cube-entity-store.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Upgrade de planejamento de orçamento
+              href: ../../dev-itpro/migration-upgrade/upgrade-budget-planning.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Migrar dados do AX 2009
+      items:
+        - name: Migrar dados do AX 2009 para o Finance and Operations
+          href: ../../dev-itpro/migration-upgrade/data-migration-tool.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Migração do AX 2009 — Instalar a Ferramenta de migração de dados
+          href: ../../dev-itpro/migration-upgrade/install-dmt.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Migração do AX 2009 — Gerar mapas
+          href: ../../dev-itpro/migration-upgrade/generate-maps.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Migração do AX 2009 — Criar modelos
+          href: ../../dev-itpro/migration-upgrade/create-package-templates-dmt.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Migração do AX 2009 — Criar grupos de migração
+          href: ../../dev-itpro/migration-upgrade/create-definition.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Migração do AX 2009 — Exportar pacotes
+          href: ../../dev-itpro/migration-upgrade/ax2009-upgrade-export-package.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Migração do AX 2009 — Importar pacotes
+          href: ../../dev-itpro/migration-upgrade/ax2009-upgrade-import-package.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Migração e upgrade de código
+      items:
+        - name: Home page Migração e upgrade de código
+          href: ../../dev-itpro/migration-upgrade/code-migration-home-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Preparar para migrar o código
+          href: ../../dev-itpro/migration-upgrade/prepare-migration.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Configurar mapeamento do Azure DevOps
+          href: ../../dev-itpro/migration-upgrade/configure-vso-solution.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Divisão de modelos
+          href: ../../dev-itpro/dev-tools/model-split.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Resolver dependências entre os modelos que usam delegados
+          href: ../../dev-itpro/migration-upgrade/delegates-migration.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Fazer upgrade para uma versão recente (nuvem)
+      items:
+        - name: Processo de migração para a atualização mais recente
+          href: ../../dev-itpro/migration-upgrade/upgrade-latest-update.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Caminhos para o serviço One Version
+          items:
+            - name: Upgrade de autoatendimento para a versão mais recente
+              href: ../../dev-itpro/migration-upgrade/self-service-upgrade.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Recriar e atualizar para a versão mais recente
+              href: ../../dev-itpro/migration-upgrade/appupdate-80-81.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Política de ciclo de vida do software e versões de nuvem
+          href: ../../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Aplicar a atualização mais recente da plataforma aos ambientes
+          href: ../../dev-itpro/migration-upgrade/upgrade-latest-platform-update.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Upgrade de dados em ambientes de desenvolvimento ou demonstração
+          href: ../../dev-itpro/migration-upgrade/upgrade-data-to-latest-update.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Atualizar ferramentas de desenvolvimento
+          href: ../../dev-itpro/dev-tools/update-development-tools.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Planejar e preparar para a compilação de código em relação à última atualização
+          href: ../../dev-itpro/migration-upgrade/compile-considerations.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Fazer upgrade para uma versão recente (local)
+      items:
+        - name: Aplicar atualizações a implantações locais
+          href: ../../dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Reimplantar uma implantação local
+          href: ../../dev-itpro/deployment/redeploy-on-prem.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Atualização in-loco de 7.x para 8.1 local
+          href: ../../dev-itpro/migration-upgrade/on-prem-upgrade.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Hotfixes
+      items:
+        - name: Obter atualizações do Lifecycle Services
+          href: ../../dev-itpro/migration-upgrade/download-hotfix-lcs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Aplicar atualizações a ambientes de nuvem
+          href: ../../dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Instalar hotfixes de metadados em ambientes de desenvolvimento
+          href: ../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Aplicar patches ao Reporting Services em ambientes de uma caixa
+          href: ../../dev-itpro/migration-upgrade/patch-reporting-service-environment.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Atualizar ferramentas de desenvolvimento do Visual Studio
+          href: ../../dev-itpro/dev-tools/update-development-tools.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Substituições
+      items:
+        - name: Recursos removidos ou obsoletos
+          href: ../../dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Substituição de métodos e elementos de metadados
+          href: ../../dev-itpro/migration-upgrade/deprecation-deletion-apis.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: APIs preteridas
+          href: ../../dev-itpro/migration-upgrade/deprecated-apis.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Desenvolvimento da interface do usuário
+  items:
+    - name: Home page de Desenvolvimento da interface do usuário
+      href: ../../dev-itpro/user-interface/user-interface-development-home-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Tutoriais
+      items:
+        - name: ​Criar o formulário Tipo de encargo de aluguel​
+          href: ../../dev-itpro/user-interface/build-rental-charge-type-form.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Criar o formulário Cliente
+          href: ../../dev-itpro/user-interface/build-customer-form.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Criar a navegação
+          href: ../../dev-itpro/user-interface/build-navigation.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Criar espaços de trabalho
+          href: ../../dev-itpro/user-interface/build-workspace.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Formulários
+      items:
+        - name: Conceitos de navegação
+          href: ../../dev-itpro/user-interface/page-navigation.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Layout de página no cliente Web
+          href: ../../dev-itpro/user-interface/page-layout.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Fonte de símbolos do Dynamics
+          href: ../../dev-itpro/user-interface/symbol-font.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Exibições salvas
+          href: ../../fin-and-ops/get-started/saved-views.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Criar formulários que utilizam totalmente as exibições salvas
+          href: ../../dev-itpro/user-interface/understanding-saved-views.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Testar fFormulários que usam padrões personalizados
+          href: ../../dev-itpro/user-interface/testing-forms-custom-patterns.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Criar URLs compartilháveis e protegidas (links profundos)
+          href: ../../dev-itpro/user-interface/create-deep-links.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: 'Acessibilidade em formulários, produtos e controles'
+          href: ../../dev-itpro/user-interface/enable-accessibility.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Personalizar descrições de campos
+          href: ../../dev-itpro/user-interface/customize-field-help.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Controles
+      items:
+        - name: Controles de ação
+          href: ../../dev-itpro/user-interface/action-controls.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Controles de entrada e tamanhos de coluna de grade
+          href: ../../dev-itpro/user-interface/sizing-input-controls-grid-columns.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Suporte a caixas de seleção em controles de árvore
+          href: ../../dev-itpro/user-interface/check-box-tree-controls.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Opções de filtragem
+          href: ../../dev-itpro/user-interface/filtering.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Controle Host do PowerApps
+          href: ../../dev-itpro/user-interface/powerapps-host-control.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Gerenciamento de janelas
+      items:
+        - name: Migrar código do menu de contexto
+          href: ../../dev-itpro/migration-upgrade/code-migration-context-menus.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Migrar a lógica de clique duplo de mouse
+          href: ../../dev-itpro/migration-upgrade/code-migration-double-click.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Entrada de dados contextuais para pesquisas
+          href: ../../dev-itpro/user-interface/contextual-data-entry-lookups.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Controle HierarchyViewer
+          href: ../../dev-itpro/user-interface/hierarchy-viewer-control.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Controles de pesquisa
+          href: ../../dev-itpro/user-interface/lookups-controls.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Controle de upload de arquivo
+          href: ../../dev-itpro/user-interface/file-upload-control.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Botões definidos pelo sistema
+          href: ../../dev-itpro/user-interface/system-defined-buttons.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Imagens em uma página ou em uma grade
+          href: ../../dev-itpro/user-interface/images-form-grid.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: 'Cores de fonte e de plano de fundo para controles de entrada, de tabela e de grade'
+          href: ../../dev-itpro/user-interface/specify-color-font-background-controls.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Suporte a idiomas da direita para a esquerda e texto bidirecional
+          href: ../../dev-itpro/user-interface/bidirectional-support.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Criar ícones para blocos do espaço de trabalho
+          href: ../../dev-itpro/user-interface/create-icons-workspace-tiles.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: APIs JavaScript públicas para controles extensíveis
+          href: ../../dev-itpro/user-interface/public-javascript-apis.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Controlar lista de verificação
+          href: ../../dev-itpro/user-interface/control-checklist.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Mensagens
+      items:
+        - name: Recurso de texto explicativo
+          href: ../../dev-itpro/user-interface/feature-callouts.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Caixas de diálogo Controle deslizante e MessageBox
+          href: ../../dev-itpro/user-interface/slider-messagebox.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: 'API do centro de mensagens, da barra de mensagens e dos detalhes da mensagem'
+          href: ../../dev-itpro/user-interface/messaging-api-center-bar-details.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: 'Perguntas frequentes sobre o centro de mensagens, a barra de mensagens e os detalhes da mensagens'
+          href: ../../dev-itpro/user-interface/messaging-user.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Diretrizes do padrão de formulário
+      items:
+        - name: Padrões de formulário para formulários migrados
+          href: ../../dev-itpro/user-interface/select-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Estilos e padrões de formulário
+          href: ../../dev-itpro/user-interface/form-styles-patterns.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Suplementos do Visual Studio com suporte a padrões de formulário
+          href: ../../dev-itpro/user-interface/form-pattern-add-ins.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Padrões de formulário
+      items:
+        - name: ​Diretrizes gerais de formulário​
+          href: ../../dev-itpro/user-interface/general-form-guidelines.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: ​Padrão de formulário Mestre Detalhado​
+          href: ../../dev-itpro/user-interface/details-master-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Padrão de formulário Transação Detalhada
+          href: ../../dev-itpro/user-interface/details-transaction-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Padrões de formulário Lista de Seções de Parte do Formulário
+          href: ../../dev-itpro/user-interface/section-list-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Padrão de formulário Página de Listagem
+          href: ../../dev-itpro/user-interface/list-page-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Padrão de formulário Detalhes Simples
+          href: ../../dev-itpro/user-interface/simple-details-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Padrão de formulário Lista e Detalhes Simples
+          href: ../../dev-itpro/user-interface/simple-list-details-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Padrão de formulário Lista Simples
+          href: ../../dev-itpro/user-interface/simple-list-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Padrão de formulário Sumário
+          href: ../../dev-itpro/user-interface/table-of-contents-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Padrão de formulário Tarefa Dupla
+          href: ../../dev-itpro/user-interface/task-double-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Padrão de formulário Tarefa Única
+          href: ../../dev-itpro/user-interface/task-single-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Padrão de formulário Assistente
+          href: ../../dev-itpro/user-interface/wizard-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Padrão de formulário Espaço de Trabalho
+          href: ../../dev-itpro/user-interface/workspace-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Padrões de formulário secundários
+      items:
+        - name: Padrão de formulário Seleção avançada
+          href: ../../dev-itpro/user-interface/advanced-selection-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Padrão de formulário Diálogo
+          href: ../../dev-itpro/user-interface/dialog-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Padrão de formulário Descartar Diálogo
+          href: ../../dev-itpro/user-interface/drop-dialog-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Padrão de formulário Pesquisa
+          href: ../../dev-itpro/user-interface/lookup-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Padrões de formulário Quadro de Fatos
+          href: ../../dev-itpro/user-interface/factbox-form-patterns.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Subpadrões
+      items:
+        - name: Subpadrão Grupo de Filtros Personalizados
+          href: ../../dev-itpro/user-interface/custom-filter-group-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Subpadrão Controle Entrada de dimensão
+          href: ../../dev-itpro/financial/dimension-entry-control-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Subpadrão Construtor de Expressões de Dimensão
+          href: ../../dev-itpro/financial/dimension-expression-builder-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Subpadrão Campos e Grupos de Campos
+          href: ../../dev-itpro/user-interface/fields-field-groups-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Subpadrões Filtros e Barra de Ferramentas
+          href: ../../dev-itpro/user-interface/filters-toolbar-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Subpadrão Texto de Preenchimento
+          href: ../../dev-itpro/user-interface/fill-text-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Subpadrão Campos Horizontais e Grupo de Botões
+          href: ../../dev-itpro/user-interface/horizontal-fields-buttons-group-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Subpadrão Visualização de Imagem
+          href: ../../dev-itpro/user-interface/image-preview-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Subpadrão Painel de Listagem
+          href: ../../dev-itpro/user-interface/list-panel-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Subpadrão Lista Simples e Detalhes Aninhados
+          href: ../../dev-itpro/user-interface/nested-simple-list-details-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Padrão de formulário Gráfico de Seção
+          href: ../../dev-itpro/user-interface/section-chart-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Subpadrão Power BI de Seção
+          href: ../../dev-itpro/user-interface/section-powerbi-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Subpadrão Links Relacionados à Seção
+          href: ../../dev-itpro/user-interface/section-related-links-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Subpadrão Gráfico Empilhado de Seção
+          href: ../../dev-itpro/user-interface/section-stacked-chart-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Subpadrão Lista com Guias de Seção
+          href: ../../dev-itpro/user-interface/section-tabbed-list-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Subpadrão Blocos de Seção
+          href: ../../dev-itpro/user-interface/section-tiles-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Subpadrão Campos de Tabela
+          href: ../../dev-itpro/user-interface/tabular-fields-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Subpadrão Barra de Ferramentas e Campos
+          href: ../../dev-itpro/user-interface/toolbar-fields-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Subpadrão Barra de Ferramentas e Lista
+          href: ../../dev-itpro/user-interface/toolbar-list-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Subpadrão do Grupo de Filtros da Página de Espaço de Trabalho
+          href: ../../dev-itpro/user-interface/workspace-filter-group-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Extensibilidade de controles
+      items:
+        - name: Criar controles extensíveis
+          href: ../../dev-itpro/user-interface/build-extensible-control.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Atalhos de teclado para controles extensíveis
+          href: ../../dev-itpro/user-interface/keyboard-shortcuts-controls.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Referência de programação de controle extensível
+          href: ../../dev-itpro/user-interface/extensible-control-programming-reference.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Extensibilidade de controles
+          href: ../../dev-itpro/user-interface/control-extensibility.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Criar etiquetas localizáveis
+          href: ../../dev-itpro/user-interface/create-localizable-labels-client.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Diretrizes de layout de controles extensíveis
+          href: ../../dev-itpro/user-interface/extensible-controls-layout.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Controlar o texto gerado pelo Gravador de Tarefas para um controle
+          href: ../../dev-itpro/user-interface/task-recorder-control-text.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Criar espaços de trabalho
+      items:
+        - name: Criar espaços de trabalho operacionais
+          href: ../../dev-itpro/user-interface/build-workspaces.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Cache de blocos e listas para espaços de trabalho
+          href: ../../dev-itpro/user-interface/tile-list-caching-workspaces.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: ​Gravador de Tarefas​
+      items:
+        - name: Recursos do Gravador de Tarefas
+          href: ../../dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Referência rápida do Gravador de Tarefas
+          href: ../../dev-itpro/user-interface/task-recorder-quick-reference.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Criar documentação ou treinamento por gravações de tarefas
+          href: ../../dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.openlocfilehash: 85950a1413cfd8745bb78a52eb9f7c81b8976605
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 51f8102afc28b3836d5fee13aa1e950351af3c4f
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517321"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008352"
 ---
 # <a name="formalize-business-processes"></a>Formalizar processos empresariais
 
@@ -43,7 +43,7 @@ Para cada processo comercial, você pode definir um proprietário de processo. O
 Um proprietário de processo não pode criar novos processos comerciais ou modelos de processo comercial, nem excluir processos comerciais ativos ou modelos de processo comercial.
 
 ## <a name="tasks"></a>Tarefas
-Um processo comercial geralmente consiste em várias tarefas. Algumas tarefas, como uma revisão de ofertas internas de curso, podem ser concluídas no Microsoft Dynamics 365 for Talent[?]. Nesse caso, uma opção é selecionada no campo **Link da tarefa**. Outras tarefas podem envolver a revisão ou o preenchimento de páginas em um site. Nesse caso, **URL** é selecionado no campo **Link da tarefa** e, em seguida, o endereço da Web pode ser inserido. Você pode inserir URLs para sites internos e externos. Você também pode criar tarefas para atividades que conclui manualmente, como uma revisão da acessibilidade de todas as estruturas. Nesse caso, um link de tarefa não é obrigatório. Essa flexibilidade permite acompanhar vários tipos de tarefas em um processo abrangente.
+Um processo comercial geralmente consiste em várias tarefas. Algumas tarefas, como uma revisão das ofertas de cursos internos, podem ser realizadas no Microsoft Dynamics 365 Talent. Nesse caso, uma opção é selecionada no campo **Link da tarefa**. Outras tarefas podem envolver a revisão ou o preenchimento de páginas em um site. Nesse caso, **URL** é selecionado no campo **Link da tarefa** e, em seguida, o endereço da Web pode ser inserido. Você pode inserir URLs para sites internos e externos. Você também pode criar tarefas para atividades que conclui manualmente, como uma revisão da acessibilidade de todas as estruturas. Nesse caso, um link de tarefa não é obrigatório. Essa flexibilidade permite acompanhar vários tipos de tarefas em um processo abrangente.
 
 As tarefas podem ser atribuídas a um trabalhador específico ou a uma posição. Por exemplo, o Gerente de remuneração e benefícios sempre será a pessoa que faz uma análise dos prêmios de seguro. Portanto, ao criar essa tarefa, selecione **Posição** no campo **Tipo de atribuição** e, em seguida, selecione **Gerente de remuneração e benefícios** na lista de **Posições**. Quando o processo comercial é iniciado, a tarefa é atribuída ao trabalhador que estiver na posição de **Gerente de remuneração e benefícios**. Para atribuir uma tarefa a um trabalhador específico, selecione **Trabalhador** no campo **Tipo de atribuição** e, em seguida, selecione a pessoa apropriada.
 

@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 351fd03f6a27073b850729e2eef5516556292225
-ms.sourcegitcommit: b24c36cdd3b6f6085447bf81cb034d13d5b081fe
+ms.openlocfilehash: 64871eb5f7175701cfe1c9fefcc04b9da488748b
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "1773238"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008446"
 ---
 # <a name="create-a-job"></a>Criar um trabalho
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve os elementos de um trabalho no Microsoft Dynamics 365 for Talent Attract. Ele também explica como criar um trabalho.
+Este tópico descreve os elementos de um trabalho no Microsoft Dynamics 365 Talent: Attract. Ele também explica como criar um trabalho.
 
 ## <a name="job-creation"></a>Criação do trabalho
 
@@ -74,7 +74,7 @@ Para obter mais informações sobre as atividades que podem ser adicionadas ao p
 
 ## <a name="postings"></a>Lançamentos
 
-Após um trabalho ser ativado, ele poderá ser lançado. Somente os recrutadores e os administradores podem lançar trabalhos. O trabalho pode ser lançado no Talent Careers (site de carreiras do Microsoft Dynamics 365 for Talent) ou no LinkedIn. A equipe do Attract trabalha continuamente para fazer parceria com os agregadores do quadro de trabalho. Essa lista se expandirá com o tempo. Quando um trabalho é lançado como somente interno, os candidatos precisam de uma conta do AAD para visualizar e se candidatar ao trabalho. Se o trabalho é listado como público, os candidatos podem visualizar e se candidatar ao trabalho usando todas as opções de autenticação. 
+Após um trabalho ser ativado, ele poderá ser lançado. Somente os recrutadores e os administradores podem lançar trabalhos. O trabalho pode ser postado no Talent Careers (site de carreiras do Dynamics 365 Talent) ou no LinkedIn. A equipe do Attract trabalha continuamente para fazer parceria com os agregadores do quadro de trabalho. Essa lista se expandirá com o tempo. Quando um trabalho é lançado como somente interno, os candidatos precisam de uma conta do AAD para visualizar e se candidatar ao trabalho. Se o trabalho é listado como público, os candidatos podem visualizar e se candidatar ao trabalho usando todas as opções de autenticação. 
 
 Para obter mais informações sobre lançamentos de trabalho, consulte [Funcionalidade do site de carreiras no Attract](career-site.md).
 

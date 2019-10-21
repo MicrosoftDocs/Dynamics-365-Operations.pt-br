@@ -1,9 +1,9 @@
 ---
-title: Home page do Gerenciamento da cadeia de fornecedores
-description: Esta página oferece uma lista de tópicos da Ajuda e outros recursos de gerenciamento da cadeia de fornecedores do Microsoft Dynamics 365 for Finance and Operations.
-author: ShylaThompson
+title: Recursos de ajuda do Supply Chain Management
+description: Esta página oferece uma lista de tópicos de ajuda e outros recursos de Supply Chain Management.
+author: josaw1
 manager: AnnBe
-ms.date: 05/09/2018
+ms.date: 10/01/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 391f63fba2916b613f66bfd36cfbd3a052cbc8fe
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8bc9445bacc764bd0c70be4a55d621fc3f8fb270
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557583"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278315"
 ---
-# <a name="supply-chain-management-home-page"></a>Home page do Gerenciamento da cadeia de fornecedores
+# <a name="help-resources-for-supply-chain-management"></a>Recursos de ajuda do Supply Chain Management
 
 [!include [banner](includes/banner.md)]
 
-Este tópico oferece uma lista de tópicos da Ajuda e outros recursos de gerenciamento da cadeia de fornecedores do Microsoft Dynamics 365 for Finance and Operations. 
+Este tópico fornece uma lista de tópicos de ajuda e outros recursos no Dynamics 365 Supply Chain Management. 
 
 ## <a name="whats-new-and-in-development"></a>Novidades e o que está em desenvolvimento
 Acesse o <a href="https://roadmap.dynamics.com/">Roteiro do Dynamics 365</a> para conferir os novos recursos lançados e os novos recursos em desenvolvimento. 
@@ -38,6 +38,7 @@ Acesse o <a href="https://roadmap.dynamics.com/">Roteiro do Dynamics 365</a> par
 
 Escolha uma área de recursos para saber mais a respeito.
 
+- [Gerenciamento de ativos](asset-management/index.md)
 - [Contabilidade de custos](../financials/cost-accounting/cost-accounting-home-page.md)
 - [Gerenciamento de custos](cost-management/cost-management-home-page.md)  
 - [Gerenciamento de estoque](inventory/inventory-home-page.md)
@@ -49,6 +50,10 @@ Escolha uma área de recursos para saber mais a respeito.
 - [Gerenciamento de serviços](service-management/service-management-home-page.md)
 - [Gerenciamento de transporte](transportation/transportation-management-overview.md)
 - [Gerenciamento de depósito](warehousing/warehouse-configuration.md)
+
+## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
+
+Para obter mais informações sobre o Dynamics 365 Finance, acesse a página [Recursos de ajuda do Dynamics 365 Finance](../finance/index.md).
 
 ## <a name="videos"></a>Vídeos
 
@@ -113,6 +118,6 @@ Há muitos tópicos sobre gerenciamento de fabricação e de cadeia de fornecedo
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Mobilidade no depósito facilitada pelo Microsoft Dynamics 365 for Finance and Operations</a>
 
 ## <a name="elearning-courses"></a>Cursos de eLearning
-Para obter informações sobre o treinamento do Microsoft Dynamics 365 for Finance and Operations, consulte o <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Portal de aprendizagem do Microsoft Dynamics</a>. (requer uma conta do CustomerSource) 
+Para obter informações sobre o treinamento do Dynamics 365, consulte o <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Portal de aprendizagem do Microsoft Dynamics</a>. (requer uma conta do CustomerSource) 
 
 

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c9cd9197f395b69f65137a59392a4d83d692f6fa
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6939ed56944ecafb29c1cadd2744b5746b19cb46
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572118"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023355"
 ---
 # <a name="info-codes-and-info-code-groups"></a>Códigos de informação e grupos de códigos de informação
 
@@ -42,7 +42,7 @@ Os códigos de informações fornecem uma maneira de capturar dados em um regist
 
 ## <a name="info-codes-group"></a>Grupo de códigos informativos
 
-No Dynamics 365 for Retail é possível criar grupos de códigos de informações. Os grupos de códigos de informações adicionam flexibilidade, permitindo a definição de códigos de informações e seu uso de maneiras mais versáteis. É possível usar grupos de códigos de informações das seguintes maneiras:
+No Retail, é possível criar grupos de códigos informativos. Os grupos de códigos de informações adicionam flexibilidade, permitindo a definição de códigos de informações e seu uso de maneiras mais versáteis. É possível usar grupos de códigos de informações das seguintes maneiras:
 
 - Definir os códigos de informações e os reutilizar facilmente. Os códigos de informações incluídos em grupos de códigos de informações não têm dependência predefinida de outros códigos de informações. É possível incluir o mesmo código de informações em vários grupos de códigos de informações e usar a priorização para apresentar os mesmos códigos de informações na ordem em que fará sentido em qualquer situação específica.
 - Vincular códigos de informações para outros códigos de informações ou grupos de códigos de informações para coletar informações sobre um produto ou uma transação, sem ter que definir um código separado de informações ou código de informações vinculado para cada cenário.

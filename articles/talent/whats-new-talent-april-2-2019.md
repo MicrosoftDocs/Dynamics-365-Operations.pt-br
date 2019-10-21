@@ -1,6 +1,6 @@
 ---
-title: Novidades ou alterações no Dynamics 365 for Talent (2 de abril de 2019)
-description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 for Talent.
+title: Novidades ou alterações no Dynamics 365 Talent (2 de abril de 2019)
+description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/02/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f224114b132ae54dddb7766268c1fc5ec49e109d
-ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
+ms.openlocfilehash: 9cc45a3ed468541fc0a5c8e80e745854148165e4
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "1795235"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026062"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-2-2019"></a>Novidades ou alterações no Dynamics 365 for Talent (2 de abril de 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>Novidades ou alterações no Dynamics 365 Talent (2 de abril de 2019)
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 for Talent.
+Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Alterações no Attract
 
@@ -46,7 +46,7 @@ Você pode personalizar o conteúdo dos emails de aprovação com novos modelos.
 Melhorias na guia **Documentos** em perfis de grupos de talentos e solicitações de emprego agora mostram o nome e o tipo do documento.
 
 ## <a name="changes-in-onboard"></a>Alterações de Integração
-Esta versão inclui correções de bug menores para Dynamics 365 Talent: Onboard.
+Esta versão inclui correções de bug menores para o Dynamics 365 Talent: Onboard.
 
 ## <a name="coming-soon-attract-and-onboard"></a>Em breve (Attract e Onboard)
 
@@ -56,8 +56,8 @@ No Attract e no Onboard, os problemas registrados por usuários finais usando o 
 ## <a name="changes-in-core-hr"></a>Alterações no Core HR
 As alterações descritas nesta seção aplicam-se ao número da compilação 8.1.2216.
 
-### <a name="platform-update-25"></a>Update 25 para plataforma
-Para obter mais informações sobre a atualização de Plataforma 25, consulte [Exibição de recursos na atualização de Plataforma 25 do Dynamics 365 for Finance and Operations (abril de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
+### <a name="platform-update-25-for-finance-and-operations"></a>Atualização de plataforma 25 do Finance and Operations
+Para obter mais informações sobre a atualização de plataforma 25 do Finance and Operations, consulte [Recursos de visualização na atualização de plataforma 25 do Dynamics 365 for Finance and Operations (abril de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Segurança de compensação avançada (fixa e variável)
 Em muitas organizações, gerentes de remuneração e benefícios só podem ter acesso a alguns tipos de registro de remuneração. Esses registros podem incluir registros de executivos ou funcionários regionais. Essa alteração permite que o RH gerencie e mantenha planos de remuneração para diferentes grupos de funcionários da organização. É possível atribuir funções de segurança para planos fixos e variáveis. Essas funções de segurança determinam o acesso a planos e dados de funcionários relacionados, como registros de salário ou de bônus, por isso somente elas podem processar a remuneração dos grupos de funcionários.
@@ -79,4 +79,4 @@ As organizações podem exigir códigos de motivo para tipos de licença especí
 Com esta alteração, as duplicatas são detectadas conforme você digita nos campos de nome, e um status exibe o número de duplicatas localizado. Você pode selecionar o link fornecido para abrir uma nova página a fim de avaliar se deve usar ou não a correspondência detectada. Para evitar a interrupção da entrada de dados, as duplicatas não são abertas automaticamente.
 
 ###  <a name="email-support-for-alerts"></a>Suporte de email para alertas
-Com a atualização de Plataforma 25, os usuários podem criar regras de alerta que enviem automaticamente notificações por email a contatos quando disparadas por um evento. 
+Com a atualização de plataforma 25 do Finance and Operations, os usuários podem criar regras de alerta que enviem automaticamente notificações por email a contatos quando notificações são disparadas por um evento. 

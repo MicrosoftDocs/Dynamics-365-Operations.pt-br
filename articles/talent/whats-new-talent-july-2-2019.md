@@ -1,6 +1,6 @@
 ---
-title: Novidades ou alterações no Dynamics 365 for Talent (25 de junho de 2019)
-description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 for Talent.
+title: Novidades ou alterações no Dynamics 365 Talent (25 de junho de 2019)
+description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 07/02/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7c474b0ba40db238db33cfa45ddde55cd0724a9b
-ms.sourcegitcommit: f5556189a80ad9f23f1af3333837eae034ddb247
+ms.openlocfilehash: a5de33a3a4f22f2a5be672c492fc59a6429b49e1
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "1791967"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010282"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-02-2019"></a>Novidades ou alterações no Dynamics 365 for Talent (02 de julho de 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-july-02-2019"></a>Novidades ou alterações no Dynamics 365 Talent (02 de julho de 2019)
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 for Talent.
+Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Alterações no Attract
 
@@ -52,8 +52,8 @@ As aprovações aparecem em uma seção **Aprovações** no painel. Os aprovador
 
 ## <a name="changes-in-onboard"></a>Alterações de Integração
 
-Esta versão inclui correções de bug menores para Dynamics 365 Talent: Onboard.
+Esta versão inclui correções de bug menores para o Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Alterações no Core HR
 
-Esta versão inclui correções de bug menores para Dynamics 365 Talent: Core HR.
+Esta versão inclui correções de bug menores para o Dynamics 365 Talent: Core HR.

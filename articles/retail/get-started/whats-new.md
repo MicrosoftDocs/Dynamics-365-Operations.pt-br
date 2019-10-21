@@ -1,6 +1,6 @@
 ---
-title: Novidades ou alterações no Dynamics 365 for Retail
-description: Essa página indica recursos que podem ajudar você a conhecer os novos recursos das versões mais recentes do Microsoft Dynamics 365 for Retail.
+title: Novidades ou alterações no Dynamics 365 Retail
+description: Esta página indica recursos que podem ajudar você a conhecer os novos recursos das versões mais recentes do Microsoft Dynamics 365 Retail.
 author: sericks007
 manager: AnnBe
 ms.date: 10/20/2018
@@ -16,24 +16,24 @@ ms.search.industry: retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-07-31
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 23156e4f19beaf1bfe6ab9a66a326d55e7d85213
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d0f89cc5ec0a0a1bb174a031aa9b6c059d608be4
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845684"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025482"
 ---
-# <a name="whats-new-and-changed-in-dynamics-365-for-retail"></a>Novidades e alterações no Dynamics 365 for Retail
+# <a name="whats-new-and-changed-in-dynamics-365-retail"></a>Novidades e alterações no Dynamics 365 Retail
 
 [!include [banner](../../includes/banner.md)]
 
-Essa página indica recursos que podem ajudar você a conhecer os novos recursos e alterações nas versões mais recentes do Microsoft Dynamics 365 for Retail.
+Esta página indica recursos que podem ajudar você a conhecer os novos recursos e alterações nas versões mais recentes do Microsoft Dynamics 365 Retail.
 
 [!include [release notes](../includes/release-notes.md)]
 
-## <a name="releases-of-dynamics-365-for-retail"></a>Versões do Dynamics 365 for Retail
+## <a name="releases-of-dynamics-365-retail"></a>Versões do Dynamics 365 Retail
 
-| Liberar | Número da compilação | Disponibilidade | Saiba mais |
+| Liberação | Número da compilação | Disponibilidade | Saiba mais |
 |---------|--------------|--------------|------------|
 | Dynamics 365 for Finance & Operations - Retail - 7.3.5 | 7.3.11971.64930 | 2018 de setembro | [KB 4464337 Microsoft Dynamics 365 for Finance and Operations - Versão 7.3.5, (Parte binária)\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4464337&bugId=244892&qc=76dd5cdc0d340f5e68db3efa64d755ee83d747a3d786180a6dc9b99677bcb450), [KB 4463127 Microsoft Dynamics 365 for Finance and Operations - Version 7.3.5. (X++ part)\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4463127&bugId=244893&qc=76dd5cdc0d340f5e68db3efa64d755ee83d747a3d786180a6dc9b99677bcb450) |
 | Dynamics 365 for Finance & Operations - Retail - 7.3.4 | 7.3.11971.64556 | 2018 de agosto | [KB 4467783 Microsoft Dynamics 365 for Retail - Versão 7.3.5 - BugFix Package 2\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4467783&bugId=257914&qc=f3e2816c3b1434965bc738285fb40f4ad33661bdd853b799dca4c610608640af) |

@@ -1,6 +1,6 @@
 ---
-title: Novidades ou alterações no Dynamics 365 for Talent Core HR (14 de dezembro de 2018)
-description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 for Talent Core HR.
+title: Novidades ou alterações no Dynamics 365 Talent - Core HR (14 de dezembro de 2018)
+description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/14/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c2d209cac52665053b664a93bfb6c35e171b0948
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 36eb5722a7bd98c404fb6c8f5bde407ab38ec28d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517313"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024013"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>Novidades ou alterações no Dynamics 365 for Talent Core HR (14 de dezembro de 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-december-14-2018"></a>Novidades ou alterações no Dynamics 365 Talent: Core HR (14 de dezembro de 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -94,9 +94,9 @@ Quando a possibilidade de previsão for liberada, o saldo exibido será alterado
 
 ## <a name="known-issue"></a>Problema conhecido
 
-### <a name="mapping-errors-in-the-integration-with-finance-and-operations"></a>Erros de mapeamento na integração com o Finance and Operations
+### <a name="mapping-errors-in-the-integration-with-finance"></a>Erros de mapeamento na integração com o Finance
 
-Os problemas a seguir foram identificados no modelo atual de integração do Talent com o Dynamics 365 for Finance and Operations. Um novo modelo será publicado em breve e aplicado a todos os novos projetos de integração que forem criados. Para projetos de integração existentes, os mapeamentos de tarefas podem ser atualizados. Consulte a tabela a seguir para os mapeamentos atualizados. 
+Os problemas a seguir foram identificados no modelo atual de integração do Talent com o Dynamics 365 Finance. Um novo modelo será publicado em breve e aplicado a todos os novos projetos de integração que forem criados. Para projetos de integração existentes, os mapeamentos de tarefas podem ser atualizados. Consulte a tabela a seguir para os mapeamentos atualizados. 
 
 >[!NOTE]
 > A tarefa Posições de trabalho para Atribuição de Trabalho Pai às Posições não integra dados. Este é um problema que está sendo investigado no momento. Não há uma solução alternativa no mapeamento atual. 

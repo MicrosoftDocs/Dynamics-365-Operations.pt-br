@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 9e88a8b22b73aca5c2cee6984ecad3c62e597102
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 63cad6b2f7240bb14fe7a9237498c0140df77774
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567990"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025020"
 ---
 # <a name="retail-statements"></a>Demonstrativos de varejo
 
 [!include [banner](includes/banner.md)]
 
-No Microsoft Dynamics 365 for Retail, o processo de lançamento de demonstrativo é usado para registrar contabilmente as transações que ocorrem no ponto de venda (PDV) da nuvem ou Modern POS (MPOS). O processos de lançamentos de demonstrativos usa a agenda de distribuição para receber um conjunto de transações PDV no cliente das sedes (HQ). Os parâmetros definidos nas páginas **Parâmetros de varejo** e **Lojas** são usados para selecionar as transações que são recebidas em demonstrativos individuais.
+No Dynamics 365 Retail, o processo de lançamento de demonstrativo é usado para registrar contabilmente as transações que ocorrem no ponto de venda (PDV) da nuvem ou Modern POS (MPOS). O processos de lançamentos de demonstrativos usa a agenda de distribuição para receber um conjunto de transações PDV no cliente das sedes (HQ). Os parâmetros definidos nas páginas **Parâmetros de varejo** e **Lojas** são usados para selecionar as transações que são recebidas em demonstrativos individuais.
 
 A ilustração a seguir mostra o processo de lançamento do demonstrativo. Nesse processo, as transações que são registradas no PDV são transmitidas para o cliente usando o agendador do Retail. Depois que o cliente receber as transações, você poderá criar, calcular e lançar o demonstrativo de transação para a loja.
 
@@ -85,6 +85,6 @@ Se a caixa de seleção **Lançar como dia útil** for desmarcada para a mesma l
 Quando você lançar um demonstrativo, as ordens de venda e faturas são criadas para as vendas de varejo no demonstrativo.
 
 - As vendas à vista e realizadas são agregadas em ordens de venda e são faturadas para o cliente padrão que está atribuído à loja.
-- As vendas de varejo para as quais um cliente foi adicionado à transação no PDV do Microsoft Dynamics 365 for Retail geram ordens de venda e faturas separadas, uma para cada cliente exclusivo.
+- As vendas de varejo para as quais um cliente foi adicionado à transação no Retail POS geram ordens de venda e faturas separadas, uma para cada cliente exclusivo.
 
 Os diários de pagamentos são criados automaticamente para os pagamentos no demonstrativo e o estoque é atualizado para a loja POS.

@@ -1,6 +1,6 @@
 ---
-title: Sincronizar produtos com unidade de estoque do Finance and Operations no Field Service
-description: Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar produtos com unidades de estoque do Microsoft Dynamics 365 for Finance and Operations para o Microsoft Dynamics 365 for Field Service.
+title: Sincronizar produtos com a unidade de estoque do Supply Chain Management com o Field Service
+description: Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar produtos com unidades de estoque do Dynamics 365 Supply Chain Management para o Dynamics 365 Field Service.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 03/13/2019
@@ -19,38 +19,38 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 78e8d8fa609b015cf2fceaf498279fe091325dbb
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 8b65e9640106c5d351270074e39c121e70917228
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835685"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251215"
 ---
-# <a name="synchronize-products-with-inventory-unit-from-finance-and-operations-to-field-service"></a>Sincronizar produtos com unidade de estoque do Finance and Operations no Field Service
+# <a name="synchronize-products-with-inventory-unit-from-supply-chain-management-to-field-service"></a>Sincronizar produtos com a unidade de estoque do Supply Chain Management com o Field Service
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar produtos com unidades de estoque do Microsoft Dynamics 365 for Finance and Operations para o Microsoft Dynamics 365 for Field Service.
+Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar produtos com unidades de estoque do Dynamics 365 Supply Chain Management para o Dynamics 365 Field Service.
 
-[![Sincronização de processos empresariais entre o Finance and Operations e o Field Service](./media/FSProductsOW.png)](./media/FSProductsOW.png)
+[![Sincronização de processos empresariais entre o Supply Chain Management e o Field Service](./media/FSProductsOW.png)](./media/FSProductsOW.png)
 
-O modelo **Produtos do Field Service com Unidade de estoque (Fin and Ops com o Field Service)** usado é baseado no modelo **Produtos do Field Service (Fin and Ops com o Field Service)**. Para obter mais informações, consulte [Produtos do Field Service (Finance and Operations para Field Service)](field-service-product.md).
+O modelo **Produtos do Field Service com Unidade de estoque (Supply Chain Management para Field Service)** usado é baseado no modelo **Produtos do Field Service (Supply Chain Management para Field Service)**. Para obter mais informações, consulte [Produtos do Field Service (Supply Chain Management para Field Service)](field-service-product.md).
 
 Este tópico descreve apenas as diferenças entre os dois métodos: 
-- **Produtos do Field Service com Unidade de estoque (Fin and Ops com o Sales)**
-- **Produtos do Field Service (Fin and Ops com o Field Service)** 
+- **Produtos do Field Service com Unidade de estoque (Supply Chain Management para Sales)**
+- **Produtos do Field Service (Supply Chain Management para Field Service)** 
 
 ## <a name="templates-and-tasks"></a>Modelos e tarefas
 
 **Nome do modelo na Integração de dados:**
 
-- Produtos do Field Service com Unidade de estoque (Fin and Ops com o Sales)
+- Produtos do Field Service com Unidade de estoque (Supply Chain Management para Sales)
 
 **Nome da tarefa no projeto de Integração de dados:**
 
 - Produtos
 
-O modelo **Produtos do Field Service com Unidade de estoque (Fin and Ops com o Field Service)** inclui um mapeamento que não está no modelo **Produtos do Field Service (Fin and Ops com o Field Service)**. Esse mapeamento garante que a unidade de estoque necessária para a sincronização em nível de estoque seja incluída.
+O modelo **Produtos do Field Service com Unidade de estoque (Supply Chain Management para Field Service)** inclui um mapeamento que não está incluído nos **Produtos do Field Service (Supply Chain Management para Field Service)**. Esse mapeamento garante que a unidade de estoque necessária para a sincronização em nível de estoque seja incluída.
 
 ```
 INVENTORYUNITSYMBOL [INVENTORYUNITSYMBOL]         Fn        msdynce_inventoryunit.name [Inventory Unit(Name)] 
@@ -60,6 +60,6 @@ INVENTORYUNITSYMBOL [INVENTORYUNITSYMBOL]         Fn        msdynce_inventoryuni
 
 As ilustrações a seguir mostram um mapeamento de modelo na Integração de dados.
 
-### <a name="field-service-products-with-inventory-unit-fin-and-ops-to-field-service-products"></a>Produtos do Field Service com Unidade de estoque (Fin and Ops com o Field Service): Produtos
+### <a name="field-service-products-with-inventory-unit-supply-chain-management-to-field-service-products"></a>Produtos do Field Service com Unidade de estoque (Supply Chain Management para Field Service): Produtos
 
 [![Mapeamento de modelo na Integração de dados](./media/FSProduct1.png)](./media/FSProduct1.png)

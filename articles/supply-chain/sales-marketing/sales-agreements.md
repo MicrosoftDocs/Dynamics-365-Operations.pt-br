@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a14801f3aa486da3af252695a3e2ccd58c0e9059
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 37378b85b90f91c74da717f0a25c1847ac0b1598
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865960"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251284"
 ---
 # <a name="sales-agreements-overview"></a>Visão geral de contratos de venda
 
@@ -99,14 +99,14 @@ Se você criou (liberou) uma ordem de venda com um contrato de venda, determinad
 | Quantidade                                                          | Se você especificar uma quantidade que excede a quantidade especificada em uma linha de contrato de venda onde a caixa de seleção **Imposição de valor máx.** está marcada, uma caixa de mensagem solicitará que você salve a quantidade alterada. Clique em **Sim** para remover o link para a linha de contrato de venda e recalcular o preço. Clique em **Não** para remover o link para a linha de contrato de venda sem recalcular o preço.                                                            |
 
 ## <a name="returning-an-item-that-was-ordered-from-a-sales-agreement"></a>Devolvendo um item encomendado de um contrato de venda
-Quando um cliente devolve um produto que foi solicitado de um contrato de venda, o Microsoft Dynamics 365 for Finance and Operations pode localizar e atualizar automaticamente o compromisso do contrato de venda para refletir a mudança na quantidade ou no valor. Ao criar uma ordem de devolução com base na ordem de venda original que é vinculada a um contrato de venda, você estabelece uma relação entre o compromisso do contrato de venda, a linha da ordem de venda e a fatura da ordem de devolução.  
+Quando um cliente devolve um produto que foi solicitado de um contrato de venda, o Supply Chain Management pode localizar e atualizar automaticamente o compromisso do contrato de venda relacionado para refletir a mudança na quantidade ou no valor. Ao criar uma ordem de devolução com base na ordem de venda original que é vinculada a um contrato de venda, você estabelece uma relação entre o compromisso do contrato de venda, a linha da ordem de venda e a fatura da ordem de devolução.  
 
 Se não quiser deduzir a quantidade de item devolvido do compromisso do contrato de venda, você poderá usar o controle **Remover link** na **Ordem de devolução** para remover o link entre a ordem de devolução e o compromisso do contrato de venda. Se tiver que restabelecer o link posteriormente, clique **Criar link**.  
 
 **Observação:** Uma ordem de devolução pode ser vinculada somente a um contrato de venda. Se o cliente devolver vários produtos que foram solicitados de vários contratos de venda, você deverá criar uma nova ordem de devolução para cada produto e criar um link para o contrato de venda correspondente.
 
 ## <a name="automatic-search-for-sales-agreements"></a>Pesquisa automática por contratos de venda
-Em algumas situações em que as ordens de venda são criadas indiretamente, como quando você cria uma nota de crédito ou ordens de venda intercompanhia, é possível controlar se o Microsoft Dynamics 365 for Finance and Operations pesquisa automaticamente contratos de venda qualificados.
+Em algumas situações em que as ordens de venda são criadas indiretamente, como quando você cria uma nota de crédito ou ordens de venda intercompanhia, é possível controlar se o sistema pesquisará automaticamente os contratos de venda qualificados.
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>Dimensões financeiras nos contratos de venda
 Você pode copiar as dimensões financeiras para os cabeçalhos de documento ou para as linhas individuais de um contrato de venda. Você pode alterar as dimensões no cabeçalho do contrato ou em uma linha do contrato a qualquer momento. Nesse caso, as dimensões são copiadas automaticamente para o cabeçalho de liberação ou a linha de liberação das ordens de liberação.

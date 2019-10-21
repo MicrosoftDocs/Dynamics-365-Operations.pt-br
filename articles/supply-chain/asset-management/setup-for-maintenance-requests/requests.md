@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d238bb31537a21f46c252fbee400fe61901e650
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: dfd62a18d6b4cfc8c41d9025a8fc5deb8768ed3f
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790463"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250912"
 ---
 # <a name="maintenance-requests"></a>Solicitações de manutenção
 
@@ -31,7 +31,7 @@ ms.locfileid: "1790463"
 
 [!include [banner](../../includes/preview-banner.md)]
 
-Você pode configurar vários tipos de solicitações a serem usadas em sua empresa. As solicitações de manutenção são um tipo. As solicitações de serviço são usadas para solicitar que uma ordem de serviço seja necessária para um trabalho específico. Uma solicitação de manutenção pode ser criada por qualquer usuário que tenha acesso à funcionalidade Asset Management no Microsoft Dynamics 365 for Finance and Operations. Um planejador ou gerente pode então decidir se uma solicitação de manutenção deve ser convertida em uma ordem de serviço ou se deverá concluir seu próprio ciclo de vida.
+Você pode configurar vários tipos de solicitações a serem usadas em sua empresa. As solicitações de manutenção são um tipo. As solicitações de serviço são usadas para solicitar que uma ordem de serviço seja necessária para um trabalho específico. Uma solicitação de manutenção pode ser criada por qualquer usuário que tenha acesso à funcionalidade Gerenciamento de Ativos. Um planejador ou gerente pode então decidir se uma solicitação de manutenção deve ser convertida em uma ordem de serviço ou se deverá concluir seu próprio ciclo de vida.
 
 ## <a name="view-maintenance-requests"></a>Exibir solicitações de manutenção
 

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 47829a6fcae37e03510929dc46b942455016df0b
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 829fa771003de7759b237d4499aa038040b46a3f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577860"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018029"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Encargos automáticos avançados de omni-channel
 
@@ -34,7 +34,7 @@ Este tópico fornece informações sobre a configuração e a implementação de
 
 Quando os recursos avançados de encargos diversos forem habilitados, as ordens criadas em qualquer canal do Retail suportado (ponto de venda, (PDV) call center e online) podem ter a vantagem das configurações de [encargos automáticos](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) definidas no aplicativo ERP para o cabeçalho e encargos relacionados a linha-nível.
 
-Em versões anteriores a versão 10.0 do Dynamics 365 for Retail , [as configurações de encargo automático](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) estão acessíveis somente pelas ordens criadas nos canais de call center e de comércio eletrônico. Em versões 10.0 e posteriores várias ordens criadas de PDV podem aproveitar as configurações de encargos automáticos. Dessa forma, diversos encargos adicionais podem ser adicionados sistematicamente às transações de vendas.
+Em versões anteriores à versão 10.0 do Retail, as configurações de [encargo automático](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) estão acessíveis somente pelas ordens criadas nos canais de call center e de comércio eletrônico. Em versões 10.0 e posteriores várias ordens criadas de PDV podem aproveitar as configurações de encargos automáticos. Dessa forma, diversos encargos adicionais podem ser adicionados sistematicamente às transações de vendas.
 
 Ao usar versões anteriores à versão 10.0, um usuário do PDV deverá inserir manualmente qualquer taxa de remessa durante a criação de uma transação PDV "remeter tudo" ou "remeter selecionado". Quando os recursos de encargos diversos do aplicativo forem utilizados considerando como os encargos são gravados na ordem, um cálculo sistemático é fornecido – o cálculo considera a entrada de usuário para determinar o valor de encargos. Os encargos só podem ser adicionados como encargos únicos relacionados à "remessa" e não podem ser editados ou alterados facilmente no PDV, após serem criados.
 

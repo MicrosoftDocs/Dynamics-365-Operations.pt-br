@@ -1,6 +1,6 @@
 ---
 title: Entrada e navegação simplificada de funcionário
-description: A entrada de dados para trabalhadores no Dynamics 365 for Talent foi aprimorada para permitir entrada rápida para todos os funcionários, do passado, ativos ou futuros. Um modelo de navegação simplificado/consolidado foi atualizado para localizar rapidamente as informações relacionadas e exibir e fazer as atualizações necessárias.
+description: A entrada de dados para trabalhadores no Dynamics 365 Talent foi aprimorada para permitir entrada rápida para todos os funcionários, do passado, ativos ou futuros. Um modelo de navegação simplificado/consolidado foi atualizado para localizar rapidamente as informações relacionadas e exibir e fazer as atualizações necessárias.
 author: andreabichsel
 manager: AnnBe
 ms.date: 08/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent October 2019 update
-ms.openlocfilehash: be0253ffc4396f36050ef02c51a20d378e44473d
-ms.sourcegitcommit: 4176c333ce3f88c5c68e95bd47e5791d32365dd2
+ms.openlocfilehash: 40bbb8429355fa18fe12c7cf56f8d58f19766cad
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1918185"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009413"
 ---
 # <a name="streamlined-employee-entry-and-navigation"></a>Entrada e navegação simplificada de funcionário
 
 [!include [banner](includes/banner.md)]
 
-O Dynamics 365 for Talent permite a entrada eficiente do funcionário e dos dados de emprego. Você pode atualizar rapidamente as informações de histórico de trabalho para funcionários e prestadores de serviço do passado, ativos e futuros.
+O Dynamics 365 Talent permite a entrada eficiente do funcionário e dos dados de emprego. Você pode atualizar rapidamente as informações de histórico de trabalho para funcionários e prestadores de serviço do passado, ativos e futuros.
 
 Você também pode habilitar uma experiência de navegação simplificada para localizar informações relacionadas rapidamente e fazer as alterações necessárias. Esta funcionalidade agora está disponível em ambientes de área restrita. Para ativar este recurso, navegue até **Administração do sistema > Links > Configuração > Parâmetros do sistema > Recursos de visualização**. Selecione **Formulário e a navegação aprimorados do Trabalhador**. Isso habilitará estas alterações para todos os usuários. Você pode desativar esta opção a qualquer momento.
 

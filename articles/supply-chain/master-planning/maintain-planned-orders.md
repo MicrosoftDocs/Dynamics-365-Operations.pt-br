@@ -3,7 +3,7 @@ title: Manter ordens planejadas
 description: Este tópico fornece informações sobre como gerenciar ordens planejadas. Descreve como é possível atualizar o status de ordens planejadas, confirmá-las e filtrar ordens planejadas com o mesmo status como uma ordem planejada selecionada.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 10/02/2018
+ms.date: 09/09/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf578d98abc4825c5607ec031da6ab6737c3183a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5ddf2c7b4c67bec6c29387c78d1fdb021d85d702
+ms.sourcegitcommit: 620e15555d176eec3905b48d5001af1c50107ce6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560363"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "1993431"
 ---
 # <a name="maintain-planned-orders"></a>Manter ordens planejadas
 
@@ -32,19 +32,32 @@ ms.locfileid: "1560363"
 
 Este tópico fornece informações sobre como gerenciar ordens planejadas. Descreve como é possível atualizar o status de ordens planejadas, confirmá-las e filtrar ordens planejadas com o mesmo status como uma ordem planejada selecionada.
 
-Você pode gerenciar ordens planejados no espaço de trabalho **Planejamento mestre**, na lista **Ordem planejada** ou nas listas **Ordens de produção planejadas**, **Ordens de compra planejadas** e **Transferência planejada**. Você pode usar o campo **Status** para ajudar a acompanhar seu progresso. Os seguintes valores são usados:
+Você pode gerenciar ordens planejados no espaço de trabalho **Planejamento mestre**, na lista **Ordem planejada** ou nas listas **Ordens de produção planejadas**, **Ordens de compra planejadas** e **Transferência planejada**. 
+
+## <a name="planned-order-status"></a>Status da ordem planejada
+Você pode usar o campo **Status** para ajudar a acompanhar seu progresso. Os seguintes valores são usados:
 
 -   Quando o planejamento mestre gerar ordens planejadas, elas terão o status **Não processado**.
 -   Se você optar por não confirmar uma ordem planejada, poderá atribuir a ela o status **Concluído**.
--   Quando você optar por confirmar uma ordem planejada, atribuirá a ela o status **Aprovado**. Esse status indica que você aprova a confirmação da ordem planejada, mas que ela ainda não foi confirmada.
+-   Se você desejar confirmar uma ordem planejada, poderá alterar o status para **Aprovado**. Ordens planejadas com o status **Aprovado** são respeitadas pelo planejamento mestre, portanto, não são modificadas nem excluídas. 
 
-**Observação:** uma ordem planejada aprovada é transferida, no estado atual, para o próximo cálculo do planejamento mestre. É possível confirmar uma ordem planejada clicando em **Confirmar**. As seguintes ordens planejadas podem ser confirmadas:
+## <a name="firming-planned-orders"></a>Confirmar ordens planejadas 
+Ao confirmar ordens planejadas, ordens reais são criadas. Elas também são conhecidas como *ordens em aberto* ou *liberadas*. Ao ser confirmada, uma ordem planejada é movida para a seção de ordens do módulo relevante.
 
--   A ordem planejada selecionada.
--   Várias ordens planejadas.
--   Ordens planejadas geradas por um detalhamento da página **Detalhamento**. Clique em **Ordens planejadas**, selecione a ordem planejada e clique em **Confirmar**.
+Você pode selecionar duas opções de confirmação na página **Ordens planejadas**:
 
-Ao ser confirmada, uma ordem planejada é movida para a seção de ordens do módulo relevante. 
+-   **Confirmar** – Isso confirmará uma ou várias ordens planejadas selecionadas.
+-   **Confirmar tudo** – Isso confirmará todas as ordens planejadas no filtro. Ao usar **Confirmar tudo**, não é necessário selecionar a ordem planejada, todas as ordens planejadas no filtro serão confirmadas. Essa opção pode ser útil se você estiver confirmando uma grande quantidade de ordens planejadas.
+
+> [!NOTE]
+> É possível rastrear uma ordem planejada que foi confirmada no **Histórico de confirmação**, acessando **Formulário Ordens planejadas > Exibir > Histórico de confirmação**.
+
+## <a name="parallelize-firming"></a>Paralelizar confirmação
+Se você estiver planejando confirmar várias ordens ao mesmo tempo, a paralelização da execução pode melhorar o tempo de execução ou o desempenho. Essa opção está disponível ao confirmar várias ordens planejadas com **Confirmar** ou **Confirmar tudo**. Estão disponíveis os seguintes parâmetros:
+
+-   **Paralelizar confirmação** – Se estiver definido como **Sim**, o processo de confirmação será paralelizado com o número de threads definido em **Número de threads**.
+-   **Número de threads** – Controla o número de threads usado para paralelizar o processo de confirmação. O parâmetro será exibido somente quando **Paralelizar confirmação** estiver definido como **Sim**.
+
 
 <a name="additional-resources"></a>Recursos adicionais
 --------

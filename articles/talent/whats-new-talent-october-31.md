@@ -1,6 +1,6 @@
 ---
-title: Novidades ou alterações no Dynamics 365 for Talent Core HR (31 de outubro de 2018)
-description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 for Talent Core HR.
+title: Novidades ou alterações no Dynamics 365 Talent - Core HR (31 de outubro de 2018)
+description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 10/31/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d6942f8e4dc86f18a081b347df0567b1358a87ab
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d2ad9be740d917a760815718a1473d7bcba97968
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517360"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025923"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-31-2018"></a>Novidades ou alterações no Dynamics 365 for Talent Core HR (31 de outubro de 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-october-31-2018"></a>Novidades ou alterações no Dynamics 365 Talent: Core HR (31 de outubro de 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -33,15 +33,15 @@ ms.locfileid: "1517360"
 
 Este tópico descreve os recursos novos ou alterados no Core HR.
 
-## <a name="create-links-from-talent-to-finance-and-operations"></a>Cria links do Talent ao Finance and Operations
-Essa nova funcionalidade de navegação permite que você vincule o Talent ao Finance and Operations, oferecendo a você navegação direta nas páginas de Finance and Operations. Quando links são configurados, você pode especificar o nome e o grupo do link, onde o link deve aparecer no Talent, e a página de destino a ser aberta dentro de Finance and Operations.
+## <a name="create-links-from-talent-to-finance"></a>Criar links do Talent ao Finance
+Essa nova funcionalidade de navegação permite que você vincule o Talent ao Finance, oferecendo a você navegação direta nas páginas do Finance. Quando os links são configurados, você pode especificar o nome e o grupo do link, onde o link deve aparecer no Talent, e a página de destino a ser aberta no Finance.
 
 #### <a name="coming-soon"></a>Em breve
-O contexto de campo será adicionado no futuro para permitir a navegação direta aos registros correspondentes no Finance and Operations. Por exemplo, você pode usar **Link para campo** para fornecer o contexto para navegar diretamente a um funcionário ou a uma posição específica no Finance and Operations.
+O contexto de campo será adicionado no futuro para permitir a navegação direta aos registros correspondentes no Finance. Por exemplo, você pode usar **Link para campo** para fornecer o contexto para navegar diretamente a um funcionário ou a uma posição específica no Finance.
 
 ### <a name="configure-target-systems"></a>Configurar sistemas de destino
 
-No Talent, administradores do sistema podem definir links que serão exibidos por meio do espaço de trabalho do Sistema de administração. Parte da configuração são os ambientes do Finance and Operations onde gostaria de navegar para como "destino" do link. Você faz isso dando ao sistema de destino um nome e fornecendo a URL de ambiente do Finance and Operations. Aqui está um exemplo de uma URL de Finance and Operations que você fornece: https://devax00124aos.cloud.test.dynamics.com/. Após configurar sistemas de destino, você pode definir os links.
+No Talent, administradores do sistema podem definir links que serão exibidos por meio do espaço de trabalho do Sistema de administração. Parte da configuração são os ambientes do Finance para os quais você deseja navegar como o "destino" do link. Você faz isso dando ao sistema de destino um nome e fornecendo a URL de ambiente do Finance. Veja este exemplo de uma URL do Finance que você forneceria: https://devax00124aos.cloud.test.dynamics.com/. Após configurar sistemas de destino, você pode definir os links.
 
 ### <a name="configure-links"></a>Configurar links
 
@@ -51,27 +51,27 @@ Cada link criado terá as seguintes informações definidas.
 
 - Habilitar esse link - Defina para **Sim** para exibir o link para os usuários do Talent.
 
-- Nome para exibição - Defina o nome que parecerá como um link para Finance and Operations. Esses dados não são traduzidos no momento.
+- Nome para exibição - Defina o nome que parecerá como um link para o Finance. Esses dados não são traduzidos no momento.
 
 - Link de superfície no formulário - Escolha qual página gostaria de exibir o link.
 
 - Grupo - Grupos não são necessários, mas se quiser organizar seus links usando grupos, selecione um grupo existente ou crie um novo usando o campo **Grupo**.
 
-- Sistema de destino - Selecione o sistema de destino criado usando a opção **Configurar o sistema de destino**. Este será o ambiente de Finance and Operations que será usado para navegar pelo link.
+- Sistema de destino - Selecione o sistema de destino criado usando a opção **Configurar o sistema de destino**. Este será o ambiente do Finance que será usado ao navegar usando o link.
 
-- Use a empresa atual de usuário - Selecione **Sim** caso você queira usar o contexto da empresa atual do usuário para navegar para Finance and Operations. Se **Não** for selecionado, você poderá selecionar a empresa que deverá ser usada.
+- Use a empresa atual de usuário - Selecione **Sim** se deseja usar o contexto da empresa atual do usuário ao navegar para o Finance. Se **Não** for selecionado, você poderá selecionar a empresa que deverá ser usada.
 
-- Item de menu de destino - Digite o item de menu de Finance and Operations que o link deve usar ao navegar. Itens de menu onde você pode navegar diretamente estão disponíveis. Para localizar o item de menu, abra Finance and Operations e a página que é o destino da navegação. Copie o item de menu da URL. Por exemplo, se desejar que o link execute a lista de funcionários em Finance and Operations, insira o valor que surge após "&mi" na URL. https://devax00124aos.cloud.test.dynamics.com/?p=USMF&mi=HcmWorkerListPage_Employees. O item de menu para navegar para a página de listagem de funcionário neste exemplo é: HcmWorkerListPage_Employees.
+- Item de menu de destino - Digite o item de menu do Finance que o link deve usar ao navegar. Itens de menu onde você pode navegar diretamente estão disponíveis. Para localizar o item de menu obrigatório, abra o Finance e a página que é o destino da navegação. Copie o item de menu da URL. Por exemplo, se desejar que o link execute a lista de funcionários em Finance and Operations, insira o valor que surge após "&mi" na URL. https://devax00124aos.cloud.test.dynamics.com/?p=USMF&mi=HcmWorkerListPage_Employees. O item de menu para navegar para a página de listagem de funcionário neste exemplo é: HcmWorkerListPage_Employees.
 
 - Link para fonte de dados - selecione a fonte de dados com o qual o link está fazendo referência. As origens mais comuns como **Trabalhador** e **Posição** estão disponíveis.
 
-- Link para campo (Em breve) Este campo permitirá a navegação direta de um único registro em talento a um único registro em Finance and Operations.
+- Link para campo (Em breve) - Este campo permitirá a navegação direta de um único registro no Talent a um único registro no Finance.
 
 ### <a name="access-to-links"></a>Acesso a links
 
 Os administradores de sistema verão links recém-criados em páginas definidas se a opção **Habilitar esse link** estiver definida como **Não**. Isso pode ser usado antes testando links para aparecerem para outros funcionários. Todas funções restantes considerarão links configurados somente depois que a opção **Habilitar esse link** estiver definida como **Sim**. Os funcionários que têm acesso a páginas dos links terão acesso aos links.
 
-Os usuários também podem ter direitos de segurança em Finance and Operations definidos para acessar as páginas em Finance and Operations. Se não tiverem, uma caixa de diálogo de segurança será exibida usando o link.
+Os usuários também podem ter direitos de segurança no Finance definidos para acessar as páginas no Finance and Operations. Se não tiverem, uma caixa de diálogo de segurança será exibida usando o link.
 
 
 ## <a name="other-changesfixes"></a>Outras alterações/correções

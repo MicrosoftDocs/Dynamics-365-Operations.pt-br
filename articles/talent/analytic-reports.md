@@ -1,6 +1,6 @@
 ---
-title: Usar relatórios analíticos no Microsoft Dynamics 365 for Talent - Attract
-description: Este tópico descreve os relatórios analíticos para insights do processo de contratação no Microsoft Dynamics 365 for Talent - Attract
+title: Usar relatórios analíticos no Microsoft Dynamics 365 Talent - Attract
+description: Este tópico descreve os relatórios analíticos para insights do processo de contratação no Microsoft Dynamics 365 Talent - Attract
 author: fewatson
 manager: AnnBe
 ms.date: 04/30/2019
@@ -19,16 +19,16 @@ ms.search.industry: ''
 ms.author: fewatson
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent April 2019 update
-ms.openlocfilehash: f69c45e885d789d05a081064f30ccd6ce6bfec52
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: be62fe9a5021cfa83a465d316b182c0a154c0c50
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742876"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009994"
 ---
 # <a name="use-analytic-reports"></a>Usar relatórios analíticos
 
-Os relatórios analíticos no Attract fornecem uma solução pronta para uso (OOTB) para insights de processo de contratação. Os recursos disponíveis incluem:
+Os relatórios analíticos no Microsoft Dynamics 365 Talent: Attract fornecem uma solução pronta para uso (OOTB) para insights do processo de contratação. Os recursos disponíveis incluem:
 
 - **Análise de trabalho:** clique na guia **Análise** dentro de um trabalho para métricas sobre os candidatos do trabalho.
 - **Hub de análise:** clique em **Análise** na navegação à esquerda, para métricas agregadas nas tarefas.

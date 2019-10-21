@@ -1,6 +1,6 @@
 ---
-title: Sincronizar depósitos do Finance and Operations para o Field Service
-description: Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar depósitos do Microsoft Dynamics 365 for Finance and Operations com o Microsoft Dynamics 365 for Field Service.
+title: Sincronizar depósitos do Supply Chain Management com o Field Service
+description: Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar depósitos do Dynamics 365 Supply Chain Management com o Dynamics 365 Field Service.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 03/13/2019
@@ -19,41 +19,41 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: ae99624076eecda2969961d0361d1adf42c6c5f3
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 94fb6720152cbf6aec58d2b8d9d02fc5343c05e2
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835661"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251169"
 ---
-# <a name="synchronize-warehouses-from-finance-and-operations-to-field-service"></a>Sincronizar depósitos do Finance and Operations no Field Service
+# <a name="synchronize-warehouses-from-supply-chain-management-to-field-service"></a>Sincronizar depósitos do Supply Chain Management com o Field Service
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar depósitos do Microsoft Dynamics 365 for Finance and Operations com o Microsoft Dynamics 365 for Field Service.
+Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar depósitos do Dynamics 365 Supply Chain Management com o Dynamics 365 Field Service.
 
-[![Sincronização de processos empresariais entre o Finance and Operations e o Field Service](./media/FSWarehouseOW.png)](./media/FSWarehouseOW.png)
+[![Sincronização de processos empresariais entre o Supply Chain Management e o Field Service](./media/FSWarehouseOW.png)](./media/FSWarehouseOW.png)
 
 ## <a name="templates-and-tasks"></a>Modelos e tarefas
-O modelo a seguir e as tarefas subjacentes são usados para executar a sincronização de depósitos do Microsoft Dynamics 365 for Finance and Operations com o Microsoft Dynamics 365 for Field Service.
+O modelo a seguir e as tarefas subjacentes são usados para executar a sincronização de depósitos do Supply Chain Management com o Field Service.
 
 **Modelo na integração de dados**
-- Depósitos (Fin and Ops com o Field Service)
+- Depósitos (Supply Chain Management para Field Service)
 
 **Tarefas no projeto de integração de dados**
 - Depósito
 
 ## <a name="entity-set"></a>Conjunto de entidades
-| Field Service    | Finance and Operations                 |
+| Field Service    | Gerenciamento da Cadeia de Fornecedores                 |
 |------------------|----------------------------------------|
 | msdyn_warehouses | Depósitos                             |
 
 ## <a name="entity-flow"></a>Fluxo de entidades
-Os depósitos criados e mantidos no Finance and Operations podem ser sincronizados com o Field Service por meio de um projeto de integração de dados CDS (Common Data Service). Os depósitos que você quer sincronizar com o Field Service podem ser controlados com a Filtragem e consulta avançada no projeto. Os depósitos sincronizados do Finance and Operations são criados no Field Service com o campo **É mantido externamente** definido como **Sim** e o registro torna-se somente leitura.
+Os depósitos criados e mantidos no Supply Chain Management podem ser sincronizados com o Field Service por meio de um projeto de integração de dados do Common Data Service (CDS). Os depósitos que você quer sincronizar com o Field Service podem ser controlados com a Filtragem e consulta avançada no projeto. Os depósitos sincronizados do Supply Chain Management são criados no Field Service com o campo **É mantido externamente** definido como **Sim**, e o registro torna-se somente leitura.
 
 ## <a name="field-service-crm-solution"></a>Solução Field Service CRM
-Para oferecer suporte à integração entre o Field Service e o Finance and Operations, a funcionalidade adicional da solução Field Service do CRM é necessária. Na solução, o campo **É mantido externamente** foi adicionado à entidade **Depósito (msdyn_warehouses)**. Este campo ajuda a identificar se o depósito é tratado no Finance and Operations ou se ele só existe no Field Service. As configurações desse campo são:
-- **Sim** – O depósito foi originado do Finance and Operations e não será editável no Sales.
+Para oferecer suporte à integração entre o Field Service e o Finance and Operations, a funcionalidade adicional da solução Field Service do CRM é necessária. Na solução, o campo **É mantido externamente** foi adicionado à entidade **Depósito (msdyn_warehouses)**. Este campo ajuda a identificar se o depósito é tratado no Supply Chain Management ou se ele só existe no Field Service. As configurações desse campo são:
+- **Sim** – O depósito foi originado do Supply Chain Management e não será editável no Sales.
 - **Não** – o depósito foi inserido diretamente no Field Service e é mantido aqui.
 
 O campo **É mantido externamente** ajuda a controlar a sincronização dos níveis de estoque, ajustes, transferências e uso em ordens de trabalho. Somente os depósitos com **É mantido externamente** definido como **Sim** podem ser usados para sincronizar diretamente com o mesmo depósito no outro sistema. 
@@ -63,7 +63,7 @@ O campo **É mantido externamente** ajuda a controlar a sincronização dos nív
 
 ## <a name="prerequisites-and-mapping-setup"></a>Pré-requisitos e configuração de mapeamento
 ### <a name="data-integration-project"></a>Projeto de integração de dados
-Antes de sincronizar depósitos , verifique se você atualizou a Filtragem e consulta avançada no projeto para incluir apenas os depósitos que você deseja trazer do Finance and Operations para o Field Service. Observe que você precisará do depósito no Field Service para aplicá-lo em ordens de trabalho, ajustes e transferências.  
+Antes de sincronizar depósitos , verifique se você atualizou a Filtragem e consulta avançada no projeto para incluir apenas os depósitos que você deseja trazer do Supply Chain Management para o Field Service. Observe que você precisará do depósito no Field Service para aplicá-lo em ordens de trabalho, ajustes e transferências.  
 
 Para garantir que a **Chave de integração** exista para **msdyn_warehouses**:
 1. Vá para Integração de dados.
@@ -76,6 +76,6 @@ Para garantir que a **Chave de integração** exista para **msdyn_warehouses**:
 
 As ilustrações a seguir mostram um mapeamento de modelo na Integração de dados.
 
-### <a name="warehouses-fin-and-ops-to-field-service-warehouse"></a>Depósitos (Fin and Ops com o Field Service): Depósito
+### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>Depósitos (Supply Chain Management para Field Service): Depósito
 
 [![Mapeamento de modelo na Integração de dados](./media/Warehouse1.png)](./media/Warehouse1.png)

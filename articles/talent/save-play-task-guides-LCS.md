@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1128a1d9b54935e44be76bf93549c0cae82e1d38
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: e84f0c18cfb52de2c6c8c40af9a08a88c947e38c
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517331"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010559"
 ---
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>Salvar guias de tarefa no LCS e repeti-las
 
@@ -30,7 +30,7 @@ ms.locfileid: "1517331"
 
 **Detalhes do ambiente** 
 
-Microsoft Dynamics 365 for Talent, que foi implantado por meio do Microsoft Dynamics Lifecycle Services (LCS)
+Microsoft Dynamics 365 Talent, que foi implantado por meio do Microsoft Dynamics Lifecycle Services (LCS)
 
 **Saída**
 

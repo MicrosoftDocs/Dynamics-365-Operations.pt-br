@@ -1,6 +1,6 @@
 ---
 title: Visão geral de gerenciamento de transporte
-description: Este tópico mostra uma visão geral da funcionalidade de gerenciamento de transporte no Microsoft Dynamics 365 for Finance and Operations.
+description: Este tópico mostra uma visão geral da funcionalidade de gerenciamento de transporte no Finance and Operations.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 918167a3ab72b3d3665cf710d8e509417b94a056
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d976ec4d3c294f0ce8e9732b21b9a429f1e47315
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561138"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2027052"
 ---
 # <a name="transportation-management-overview"></a>Visão geral de gerenciamento de transporte
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico mostra uma visão geral da funcionalidade de gerenciamento de transporte no Microsoft Dynamics 365 for Finance and Operations.
+Este tópico mostra uma visão geral da funcionalidade de gerenciamento de transporte no Finance and Operations.
 
-O gerenciamento de transporte permite que você gerencie o transporte de sua empresa e também permite que você identifique soluções de fornecedor e de roteiro para ordens de entrada e de saída. Por exemplo, você pode identificar o roteiro mais rápido ou a taxa menos dispendiosa para uma remessa. A tabela a seguir descreve os principais cenários para o uso do Gerenciamento de transporte no Microsoft Dynamics 365 for Finance and Operations.
+O gerenciamento de transporte permite que você gerencie o transporte de sua empresa e também permite que você identifique soluções de fornecedor e de roteiro para ordens de entrada e de saída. Por exemplo, você pode identificar o roteiro mais rápido ou a taxa menos dispendiosa para uma remessa. A tabela a seguir descreve os principais cenários para o uso do Gerenciamento de transporte.
 
 <table>
 <colgroup>

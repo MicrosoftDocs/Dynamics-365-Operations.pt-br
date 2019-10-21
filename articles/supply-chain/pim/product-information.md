@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0ac817fc4e8329563e524cea967c8337262fe2c3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f4e378bc0a72e05f940ae352ad0f1c0709d9d3a4
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563519"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249462"
 ---
 # <a name="product-information-overview"></a>Visão geral das informações do produto
 
@@ -57,17 +57,17 @@ Um produto é definido principalmente por um número de produto, nome e descriç
 
 ## <a name="distribution-export-and-import-of-product-data"></a>Distribuição, exportação e importação de dados do produto
 
-A definição do produto pode ser criada no Microsoft Dynamics 365 for Finance and Operations. Também pode ser importado do gerenciamento do ciclo de vida do produto (PLM), do gerenciamento de dados do produto (PDM) ou dos sistemas de gerenciamento de informações do produto (PIM). Quando mais de uma instância do Finance and Operations é usada, uma instância normalmente é usada como o mestre dos dados do produto para todas as outras instâncias. Esta abordagem é suportada por um grande conjunto de entidades de dados que permitem exportar e importar dados de definição de produto de uma instância para outra.
+A definição do produto pode ser criada no Supply Chain Management. Também pode ser importado do gerenciamento do ciclo de vida do produto (PLM), do gerenciamento de dados do produto (PDM) ou dos sistemas de gerenciamento de informações do produto (PIM). Quando mais de uma instância do Supply Chain Management é usada, uma instância normalmente é usada como a mestre dos dados do produto para todas as outras instâncias. Esta abordagem é suportada por um grande conjunto de entidades de dados que permitem exportar e importar dados de definição de produto de uma instância para outra.
 
-Para suportar a distribuição de dados do produto em muitas instâncias, o Finance and Operations permite que você use o Common Data Service. As definições de produto podem ser exportadas de uma instância do Finance and Operations para o Common Data Service. As definições dos produtos podem então ser usadas para fornecer outros aplicativos de negócios, como o Microsoft Dynamics 365 for Sales, com dados do produto.
+Para oferecer suporte à distribuição de dados do produto em muitas instâncias, o Supply Chain Management permite que você use o Common Data Service. As definições de produto podem ser exportadas de uma instância do Supply Chain Management para o Common Data Service. As definições de produto podem então ser usadas para provisionar outros aplicativos de negócios, como o Dynamics 365 Sales, com dados do produto.
 
 Observe que, em organizações dinâmicas e ágeis, os dados da informação do produto são alterados todos os dias. Portanto, a manutenção de dados de produtos precisos e reais é um processo de negócios crítico por conta própria.
 
 ## <a name="product-masters-and-product-variants"></a>Mestres de produtos e variantes de produtos
 
-Em um mundo ágil, onde os produtos devem ser rapidamente adaptados aos requisitos do cliente, as definições dos produtos especificam um conjunto de produtos em vez de produtos distintos. No Microsoft Dynamics 365 for Finance and Operations, esses produtos genéricos são conhecidos como *produtos mestres*. Os mestres de produtos possuem a definição e as regras que especificam a forma como os produtos distintos são descritos e se comportam nos processos comerciais. Com base nessas definições, produtos distintos podem ser gerados. Esses produtos distintos são conhecidos como *variantes de produto*.
+Em um mundo ágil, onde os produtos devem ser rapidamente adaptados aos requisitos do cliente, as definições dos produtos especificam um conjunto de produtos em vez de produtos distintos. No Supply Chain Management, esses produtos genéricos são conhecidos como *produtos mestres*. Os mestres de produtos possuem a definição e as regras que especificam a forma como os produtos distintos são descritos e se comportam nos processos comerciais. Com base nessas definições, produtos distintos podem ser gerados. Esses produtos distintos são conhecidos como *variantes de produto*.
 
-No Finance and Operations, um mestre de produto está associado a um grupo de dimensão de produto e a uma tecnologia de configuração para especificar as regras de negócios. As dimensões do produto (cor, tamanho, estilo e configuração) são um conjunto específico de atributos que podem ser usados ​​em todo o aplicativo para definir e rastrear comportamentos específicos dos produtos relacionados. Essas dimensões também ajudam os usuários a procurar e identificar os produtos.
+Um produto mestre está associado a um grupo de dimensões do produto e a uma tecnologia de configuração para especificar as regras de negócios. As dimensões do produto (cor, tamanho, estilo e configuração) são um conjunto específico de atributos que podem ser usados ​​em todo o aplicativo para definir e rastrear comportamentos específicos dos produtos relacionados. Essas dimensões também ajudam os usuários a procurar e identificar os produtos.
 
 ## <a name="configuration-technologies"></a>Tecnologias de configuração
 
@@ -77,7 +77,7 @@ Você pode escolher entre três tecnologias de configuração:
 - A configuração baseada em dimensão geralmente é usada em cenários de fabricação e permite que você use a dimensão de configuração na definição de contas de materiais (BOMs). Depois que uma configuração específica é selecionada, o sistema usa o subconjunto de linhas BOM que são válidas para essa configuração para planejamento e produção. O conceito é conhecido como *BOM global*, pois uma BOM compartilhada é usada para todas as configurações de um produto.
 - A configuração baseada em restrições usa um modelo de configuração do produto para descrever todos os atributos e componentes possíveis que são necessários para descrever todas as variantes possíveis de um produto em um único modelo. As restrições de combinações de atributos podem ser descritas através de expressões regulares ou restrições baseadas em tabelas. Os modelos e configuradores de configuração tornam-se mais importantes no gerenciamento de informações do produto e são usados ​​em todas as indústrias.
 
-Quando você planeja a implementação do Finance and Operations, é muito importante que você escolha a tecnologia de configuração correta para um processo comercial. Um produto não pode ser convertido de um modelo para outro após a implementação.
+Ao planejar a implementação do Supply Chain Management, é muito importante que você escolha a tecnologia de configuração correta para um processo comercial. Um produto não pode ser convertido de um modelo para outro após a implementação.
 
 ## <a name="product-variant-model-definition-workspace"></a>Área de trabalho de definição de modelo de variante de produto
 

@@ -3,7 +3,7 @@ title: Verificar a disponibilidade do estoque
 description: Este procedimento mostra como verificar um valor disponível e o estoque físico disponível de um número de item específico.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5b78b2e4ec3179450d635857353846c9bcb23eed
-ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
+ms.openlocfilehash: e0c00b2a79ab588ff47c249f73570544d884b79e
+ms.sourcegitcommit: 25fe679b73663fda6b5b3c32646026d0993a9f00
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "1795163"
+ms.lasthandoff: 09/12/2019
+ms.locfileid: "1995230"
 ---
 # <a name="check-the-availability-of-stock"></a>Verificar a disponibilidade do estoque
 
@@ -31,40 +31,32 @@ Este procedimento mostra como verificar um valor disponível e o estoque físico
 
 
 ## <a name="check-on-hand-inventory-for-an-item"></a>Verifique estoque disponível de um item
-1. Vá para Gerenciamento de estoque > Consultas e relatórios > Estoque disponível.
-2. Selecione a linha do número do item.
-    * Para ver o estoque disponível por número de item, selecione a linha na tabela definida como o estoque disponível e o campo que está definido como o número do item.  
-3. No campo Critérios, selecione o item que você deseja consultar.
-    * Se você estiver usando a empresa de dados de demonstração USMF, poderá selecionar 'M9201'.  
-4. Clique em OK.
-5. Clique em Dimensões.
-    * A guia Dimensões permite selecionar quantos detalhes você deseja ver sobre seu estoque disponível. Se for necessário os dados relacionados à reserva, você deve exibir todas as dimensões de estoque dos itens que usam processos avançados de depósito (WHS).  
-6. Clique em OK.
-7. No Painel de Ação, clique em Informações relacionadas.
-    * Se não for exibido isso, talvez você precise clicar no botão de reticências (…) para ver opções adicionais do painel de ações.  
-8. Clique em Visão geral de fornecimento.
-    * A guia de visão geral de fornecimento fornece informações de fornecimento de um item específico, como a quantidade disponível, o tempo de entrega e informações do fornecedor.  
-9. Expanda a seção Disponível.
-10. Expanda a seção Fornecedores.
+1. Vá para **Painel de navegação > Módulos > Gerenciamento de estoque > Consultas e relatórios > Estoque disponível**.
+2. Selecione a linha **Número do item**. Para consultar o estoque disponível por número do item, selecione a linha em que a tabela está definida como **Estoque disponível** e o campo está definido como o número do **Item**.
+3. No campo **Critérios**, selecione o item que você deseja consultar. Se você estiver usando a empresa de dados de demonstração USMF, poderá selecionar 'M9201'.  
+4. Clique em **OK**.
+5. No **Painel de Ação**, clique em **Dimensões**. A guia **Dimensões** permite selecionar o nível de detalhes de seu estoque disponível que você deseja ver. Se for necessário os dados relacionados à reserva, você deve exibir todas as dimensões de estoque dos itens que usam processos avançados de depósito (WHS).
+6. Clique em **OK**.
+7. No **Painel de Ação**, clique em **Informações relacionadas**. Se essa opção não for exibida, talvez você precise clicar no botão de reticências (…) para ver opções adicionais do painel de ação.
+8. Clique em **Visão geral do fornecimento**. A guia **Visão geral do fornecimento** apresenta informações de fornecimento de um item específico, como a quantidade disponível, o tempo de entrega e informações do fornecedor.  
+9. Expanda a seção **Disponível**.
+10. Expanda a seção **Fornecedores**.
 11. Feche a página.
 12. Feche a página.
 
 ## <a name="check-physical-on-hand-inventory"></a>Verifique Estoque disponível físico
-1. Vá para Gerenciamento de depósito > Consultas e relatórios > Estoque disponível ou físico.
-2. No campo Número de item, digite um valor.
-    * Você pode usar os campos de site e depósito para filtrar a lista de itens.  
+1. Vá para **Painel de navegação > Módulos > Gerenciamento de depósito > Consultas e relatórios > Estoque disponível físico**.
+2. No campo **Número de item**, digite um valor. Você pode usar os campos de site e depósito para filtrar a lista de itens. 
 3. Atualize a página.
-4. Clique em Exibir dimensões.
-    * A guia Exibir dimensões permite selecionar quantos detalhes você deseja ver sobre seu estoque disponível.  
-5. Clique em OK.
+4. No **Painel de Ação**, clique em **Exibir Dimensões**. A guia Exibir dimensões permite selecionar quantos detalhes você deseja ver sobre seu estoque disponível.
+5. Clique em **OK**.
 6. Feche a página.
 
 ## <a name="check-on-hand-inventory-by-location"></a>Verifique o estoque disponível por localização
-1. Vá para Gerenciamento de depósito > Consultas e relatórios > Disponível por local.
-2. No campo Depósito, digite um valor.
-    * Se você estiver usando a empresa de dados de demonstração USMF, você pode usar '51'.  
+1. Vá para **Painel de navegação > Módulos > Gerenciamento de depósito > Consultas e relatórios > Disponibilidade por localização**.
+2. No campo **Depósito**, digite um valor. Se você estiver usando a empresa de dados de demonstração USMF, você pode usar '51'.  
 3. Atualize a página.
-4. Clique em Exibir dimensões.
-5. Clique em OK.
+4. Clique em **Exibir Dimensões**.
+5. Clique em **OK**.
 6. Feche a página.
 

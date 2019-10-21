@@ -1,6 +1,6 @@
 ---
 title: Extensibilidade no Attract
-description: Este tópico descreve como estender o aplicativo Microsoft Dynamics 365 for Talent - Attract usando a Plataforma Microsoft Power.
+description: Este tópico descreve como você pode estender o Microsoft Dynamics 365 Talent - Attract usando o Microsoft Power Platform.
 author: andreabichsel
 manager: AnnBe
 ms.date: 03/18/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 9360ac52bd53dc473ca61a424f3be933bcf357d1
-ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
+ms.openlocfilehash: 5db954d8847c252bee1c8e50acae546852ae9b94
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "1795211"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026224"
 ---
 # <a name="extensibility-in-attract"></a>Extensibilidade no Attract
 
 [!include[banner](../includes/banner.md)]
 
-O Microsoft Dynamics 365 for Talent foi desenvolvido a partir da plataforma do Common Data Service e pode ser estendido de várias maneiras usando a Microsoft Power Platform e os recursos oferecidos pelo Common Data Service . Portanto, você pode configurar e personalizar o sistema usando o Microsoft PowerApps e o Microsoft Flow. Você também pode obter análises adicionais sobre pessoas usando o Microsoft Power BI. Além disso, as novas atividades personalizados, como as atividades do PowerApps e conteúdo da Web (iframe), tornam o processo de contratação mais adaptável do que nunca. Usando essas atividades, você pode personalizar o processo da contratação de acordo com suas necessidades e processos de negócios, bem como garantir que a equipe de contratação e os candidatos tenham uma experiência completa, personalizada.
+O Microsoft Dynamics 365 Talent foi desenvolvido com base no Common Data Service e pode ser estendido de várias maneiras, usando o Microsoft Power Platform e os recursos oferecidos pelo Common Data Service. Portanto, você pode configurar e personalizar o sistema usando o Microsoft PowerApps e o Microsoft Flow. Você também pode obter análises adicionais sobre pessoas usando o Microsoft Power BI. Além disso, as novas atividades personalizadas, como PowerApps e atividades de conteúdo da Web (iframe), tornam o processo de contratação mais adaptável do que nunca. Usando essas atividades, você pode personalizar o processo da contratação de acordo com suas necessidades e processos de negócios, bem como garantir que a equipe de contratação e os candidatos tenham uma experiência completa, personalizada.
 
 ## <a name="extending-option-sets-in-attract"></a>Extensão dos conjuntos de opções no Attract
 
@@ -54,9 +54,9 @@ Abaixo estão listadas as etapas para atualizar o campo **Motivo da rejeição**
 12. Selecione **Salvar**.
 13. Selecione **Publicar** na parte superior da página.
 
-## <a name="take-advantage-of-the-microsoft-power-platform"></a>Aproveite o Microsoft Power Platform 
+## <a name="take-advantage-of-the-microsoft-power-platform"></a>Tire proveito do Microsoft Power Platform 
 
-Como todos os dados do Attract residem no Common Data Service, você pode usar ferramentas da Microsoft Power Platform para incorporar as necessidades exclusivas de seu negócio no Attract.
+Como todos os dados do Attract residem no Common Data Service, você pode usar ferramentas do Microsoft Power Platform para incorporar as necessidades exclusivas de seu negócio no Attract.
 
 ### <a name="powerapps"></a>PowerApps
 
@@ -76,9 +76,9 @@ O Power BI permite criar e exibir relatórios e painéis personalizados que ofer
 
 Você pode adicionar atividades personalizadas, como aplicativos do PowerApps e atividades de conteúdo da Web (iframe), em nível do modelo de processo de trabalho ou ao criar um novo trabalho. Essas atividades permitem personalizar o processo de contratação e trazer lógica de negócios exclusiva da sua organização para o Attract.
 
-#### <a name="powerapps-activity"></a>Atividade do PowerApps 
+#### <a name="powerapps-activity"></a>Atividade de PowerApps 
 
-A atividade do PowerApps permite ao criador de um trabalho ou do modelo de processo de trabalho inserir um aplicativo do PowerApps no fluxo de contratação. Após criar e publicar o aplicativo, você pode inserir a ID do aplicativo nas configurações da atividade. Usando um aplicativo do PowerApps, você pode ler e gravar dados no Common Data Service. Você pode até vincular o aplicativo a um fluxo. Por exemplo, você tem um aplicativo que os recrutadores utilizam para preencher um formulário enquanto conduzem entrevistas por telefone. Nesse caso, você pode vincular o aplicativo a um fluxo que avalia se um candidato pode avançar mais no processo de solicitação de emprego. Esse tipo de atividade pode ser exibido somente por membros da equipe de contratação. Para obter mais informações sobre como configurar a atividade do PowerApps, consulte [Atividades no Attract](./activities-attract.md).
+A atividade do PowerApps permite que o criador de um trabalho ou do modelo de processo de trabalho insira um aplicativo do PowerApps no fluxo de contratação. Após criar e publicar o aplicativo, você pode inserir a ID do aplicativo nas configurações da atividade. Usando um aplicativo do PowerApps, você pode ler e gravar dados no Common Data Service. Você pode até vincular o aplicativo a um fluxo. Por exemplo, você tem um aplicativo que os recrutadores utilizam para preencher um formulário enquanto conduzem entrevistas por telefone. Nesse caso, você pode vincular o aplicativo a um fluxo que avalia se um candidato pode avançar mais no processo de solicitação de emprego. Esse tipo de atividade pode ser exibido somente por membros da equipe de contratação. Para obter mais informações sobre como configurar a atividade do PowerApps, consulte [Atividades no Attract](./activities-attract.md).
 
 > [!NOTE]
 > A atividade de PowerApps está disponível somente com o complemento de Contratação abrangente.

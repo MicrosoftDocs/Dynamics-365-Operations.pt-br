@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39d66bb9fd2e121b7ce842d869c2a0a0fa5fa8a5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a7acf4e5397ee7276b0f881f4859267371266de0
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553429"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249531"
 ---
 # <a name="inventory-journals"></a>Diários de estoque
 
@@ -33,7 +33,7 @@ ms.locfileid: "1553429"
 
 Este tópico descreve como você pode usar diários de estoque para lançar vários tipos de transações de estoque físico.
 
-Os diários de estoque no Microsoft Dynamics 365 for Finance and Operations são usados para lançar transações de estoque físico de vários tipos, como lançamento de saídas e recebimentos, movimentos de estoque, criação de listas de materiais (BOMs), e reconciliação de estoque físico. Todos esses diários de estoque são usados de forma semelhante, mas são divididos em tipos diferentes.
+Os diários de estoque no Supply Chain Management são usados para lançar transações físicas do estoque de vários tipos, como lançamento de emissões e recebimentos, movimentações de estoque, criação de listas de materiais (BOMs) e reconciliação de estoque físico. Todos esses diários de estoque são usados de forma semelhante, mas são divididos em tipos diferentes.
 
 ## <a name="types-of-inventory-journals"></a>Tipos de diários de estoque
 Os tipos de diário de estoque disponíveis são os seguintes:
@@ -68,7 +68,7 @@ Ao relatar uma BOM como concluída, você pode criar um diário de BOM. Ao usar 
 
 ### <a name="item-arrival"></a>Entrada de item
 
-Você pode usar o diário de entrada de item para registrar o recebimento de itens (por exemplo, ordens de compra). Um diário de entrada de itens pode ser criado como parte do gerenciamento de entrada na página **Visão geral da entrada**, ou você pode criar manualmente uma entrada de diário na página **Entrada de item**. Se você habilitar o nome do diário de entrada de itens para verificar os locais de separação, o Finance and Operations irá procurar um local para os itens recebidos e, se houver espaço, gerará destinos de localização para os itens de entrada.
+Você pode usar o diário de entrada de item para registrar o recebimento de itens (por exemplo, ordens de compra). Um diário de entrada de itens pode ser criado como parte do gerenciamento de entrada na página **Visão geral da entrada**, ou você pode criar manualmente uma entrada de diário na página **Entrada de item**. Se você habilitar o nome do diário de entrada de itens para verificar os locais de separação, o Supply Chain Management procurará um local para os itens recebidos e, se houver espaço, gerará destinos de localização para os itens de entrada.
 
 ### <a name="production-input"></a>Entrada de produção
 
@@ -103,7 +103,7 @@ As entidades de dados oferecem suporte para os seguintes tipos de situações de
 Para obter mais informações, consulte [Entidades de dados](../../dev-itpro/data-entities/data-entities.md).
 
 > [!NOTE]
-> Nem todos os diários de estoque são habilitados por OData, portanto, você não pode usar o conector de dados do Excel para obter os dados publicados, atualizados e importados novamente para o Dynamics 365 for Finance and Operations. 
+> Nem todos os diários de estoque são habilitados por OData, portanto, você não pode usar o conector de dados do Excel para fazer com que os dados sejam publicados, atualizados e importados novamente para o Supply Chain Management. 
 
 Outra diferença entre as entidades de dados do diário é a capacidade de utilizar as entidades compostas, incluindo os dados do cabeçalho e da linha. Atualmente, você pode usar as entidades compostas para:
 -   Diário de ajuste de estoque

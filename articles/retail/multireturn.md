@@ -1,6 +1,6 @@
 ---
 title: Devolver itens em várias ordens e faturas de clientes
-description: Este tópico descreve a funcionalidade que habilita as devoluções em várias ordens e faturas de clientes no Microsoft Dynamics 365 for Retail.
+description: Este tópico descreve a funcionalidade que habilita as devoluções em várias ordens e faturas de clientes no Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 03/05/2019
@@ -18,19 +18,19 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c201311028b11121d626e93859a2b98497c047d1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 25a1081e5f903076e23089c41dda7437f8a70124
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565291"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017980"
 ---
 # <a name="return-items-across-multiple-customer-orders-and-invoices"></a>Devolver itens em várias ordens e faturas de clientes
 
 [!include [banner](includes/banner.md)]
 
 
-No Dynamics 365 for Finance and Operations versão 10.0, as devoluções podem ser feitas em várias ordens e faturas, enquanto nas versões anteriores, elas só podiam ser processadas por uma única fatura por vez. 
+É possível fazer devoluções em várias ordens e faturas de clientes. 
 
 ## <a name="configure-retail-to-support-returns-across-multiple-customer-order-and-invoices"></a>Configurar o Retail para oferecer suporte a devoluções em várias ordens e faturas de clientes
 

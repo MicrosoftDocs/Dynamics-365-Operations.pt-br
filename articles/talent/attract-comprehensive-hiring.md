@@ -1,6 +1,6 @@
 ---
-title: Qual versão do Microsoft Dynamics 365 for Talent - Attract
-description: Este tópico fornece informações sobre os recursos nas versões diferentes do Microsoft Dynamics 365 for Talent - Attract.
+title: Qual versão do Microsoft Dynamics 365 Talent - Attract
+description: Este tópico fornece informações sobre os recursos presentes nas diferentes versões do Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 04/04/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 59ab9f418c4d9039ca08a71de0dba0f96216aabb
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 59f3e78efa8801c81dccff2f45751b47fb30481f
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739693"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009937"
 ---
 # <a name="which-version-of-attract"></a>Qual versão do Attract?
 
 [!include[banner](../includes/banner.md)]
 
-A versão do Microsoft Dynamics 365 for Talent: Attract correta para você depende do tamanho e das necessidades de sua organização. A versão básica do Attract fornece um subconjunto de funcionalidades que são voltadas a equipes ou organizações menores em que o gerente de contratação é o principal usuário. Você pode começar a usar a versão básica do Attract com uma ou mais licenças.
+A versão do Microsoft Dynamics 365 Talent: Attract certa para você depende do tamanho e das necessidades de sua organização. A versão básica do Attract fornece um subconjunto de funcionalidades que são voltadas a equipes ou organizações menores em que o gerente de contratação é o principal usuário. Você pode começar a usar a versão básica do Attract com uma ou mais licenças.
 
 O Attract com o Complemento de Contratação Abrangente é destinado a equipes ou organizações de médio e grande em que o recrutador ou o especialista em talentos é o principal usuário. O Complemento de Contratação Abrangente requer que as licenças sejam compradas por meio de um [parceiro do Microsoft Dynamics 365](https://dynamics.microsoft.com/partners/find-a-partner/)
 

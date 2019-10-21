@@ -1,6 +1,6 @@
 ---
-title: Novidades ou alterações no Dynamics 365 for Talent (23 de julho de 2019)
-description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 for Talent.
+title: Novidades ou alterações no Dynamics 365 Talent (23 de julho de 2019)
+description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 07/23/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d631a2a2be4809352c31f2a8c47ea49823233b30
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 428e862b84a17f0d50edf034b4cc836e5ae7710d
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856392"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010259"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-23-2019"></a>Novidades ou alterações no Dynamics 365 for Talent (23 de julho de 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-july-23-2019"></a>Novidades ou alterações no Dynamics 365 Talent (23 de julho de 2019)
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 for Talent.
+Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Alterações no Attract
 
@@ -46,7 +46,7 @@ Ao planejar novos recursos de produtos ou enviar recursos de visualização, pro
 As aprovações aparecem em uma seção **Aprovações** no painel. Os aprovadores podem revisar suas aprovações em **Atribuída(s) a você**, que mostra a ID do trabalho, o cargo, outros aprovadores e a data em que o trabalho foi atribuído. Os usuários que enviam um trabalho para aprovação podem revisar seus trabalhos em **Solicitado por você**, que mostra os aprovadores que ainda precisam aprovar o trabalho enviado.
 
 ## <a name="changes-in-onboard"></a>Alterações de Integração
-Esta versão inclui correções de bug menores para Dynamics 365 Talent: Onboard.
+Esta versão inclui correções de bug menores para o Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Alterações no Core HR
 As alterações descritas nesta seção aplicam-se ao número da compilação 8.1.2394.
@@ -75,6 +75,6 @@ Uma nova opção permitirá que gerentes exibam o desempenho de seus relatórios
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>Suporte regional ao Canadá e ao sudeste da Ásia
 
-Temos o prazer de anunciar que as regiões do Canadá e do sudeste da Ásia estarão disponíveis para o Microsoft Dynamics 365 for Talent em 1º de agosto de 2019. Com essa alteração, você pode criar ambientes nas regiões do Canadá e da Ásia, e todos os dados do Talent serão mantidos apenas dentro desses locais. Você pode criar um ambiente nessas novas regiões selecionando o local na caixa de diálogo Novo ambiente e usar esse ambiente para provisionar o Talent no LCS conforme descrito aqui [Provisionar o Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Temos o prazer de anunciar que as regiões do Canadá e do sudeste da Ásia estarão disponíveis para o Talent em 1º de agosto de 2019. Com essa alteração, você pode criar ambientes nas regiões do Canadá e da Ásia, e todos os dados do Talent serão mantidos apenas dentro desses locais. Você pode criar um ambiente nessas novas regiões selecionando o local na caixa de diálogo Novo ambiente e usar esse ambiente para provisionar o Talent no LCS conforme descrito aqui [Provisionar o Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
 
 Não há suporte para a migração de dados de projetos existentes de outras regiões para as regiões canadense e asiática. Somente os novos projetos podem ser provisionados a essas novas regiões com suporte.

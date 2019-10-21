@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 03e090633276cd264ad03f561ddb425a9816357e
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: e97d96a5485f17d0abc7c2fc2f8c4fdf4bbd4bb4
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847496"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024628"
 ---
 # <a name="create-maintenance-requests"></a>Crie solicitações de manutenção
 
@@ -41,7 +41,7 @@ A seção **Solicitações de manutenção de ativos** do painel **Informações
 2. Selecione **Novo**.
 3. Na caixa de diálogo **Criar solicitação**, no campo **Tipo de solicitação de manutenção**, selecione o tipo de solicitação de manutenção. Um tipo padrão é sugerido.
 4. No campo **Descrição**, insira um nome ou título que descreva resumidamente a solicitação de manutenção.
-5. Nos campos **Local funcional** e **Ativo**, selecione um local funcional ou ativo, ou uma combinação de um local funcional e um ativo, conforme necessário. Crie uma solicitação de manutenção sem selecionar um ativo. O ativo poderá ser adicionado à solicitação de manutenção posteriormente. Se o funcionário de manutenção que está conectado ao Microsoft Dynamics 365 for Finance and Operations estiver relacionado a um recurso relativo a um ativo, o campo **Ativo** será definido automaticamente.
+5. Nos campos **Local funcional** e **Ativo**, selecione um local funcional ou ativo, ou uma combinação de um local funcional e um ativo, conforme necessário. Crie uma solicitação de manutenção sem selecionar um ativo. O ativo poderá ser adicionado à solicitação de manutenção posteriormente. Se o funcionário de manutenção que está conectado estiver relacionado a um recurso relativo a um ativo, o campo **Ativo** será definido automaticamente.
 
     Se uma solicitação de manutenção já estiver anexada ao ativo selecionado, uma barra de mensagem aparecerá na parte superior da caixa de diálogo **Criar solicitação** para notificá-lo sobre a ID da solicitação de manutenção existente. Uma barra de mensagem notifica-o também se o ativo é coberto por um contrato de garantia.
 

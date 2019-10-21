@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74e7c36fb912f35252d6e40d17477ac2962cbc23
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d9a5292e88fe022482ab9c6c5a8f016745946988
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558795"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026893"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Controlar o trabalho do depósito por meio de modelos de trabalho e diretivas de localização
 
@@ -31,7 +31,7 @@ ms.locfileid: "1558795"
 
 Este tópico descreve como usar modelos de trabalho e diretivas de localização para determinar como e onde o trabalho será executado no depósito.
 
-As instruções recebidas pelos funcionários do depósito em um dispositivo móvel são determinadas pelos modelos de trabalho configurados no Microsoft Dynamics 365 for Finance and Operations para definir os vários processos e tarefas do depósito. Os modelos de trabalho determinam como o trabalho será executado em cada processo de depósito. Ao vincular uma diretiva de localização a modelos de trabalho, você garantirá que o trabalho ocorrerá em áreas específicas dos depósitos.
+As instruções recebidas pelos funcionários do depósito em um dispositivo móvel são determinadas pelos modelos de trabalho do Dynamics 365 Supply Chain Management que você configura para definir os vários processos e tarefas do depósito. Os modelos de trabalho determinam como o trabalho será executado em cada processo de depósito. Ao vincular uma diretiva de localização a modelos de trabalho, você garantirá que o trabalho ocorrerá em áreas específicas dos depósitos.
 
 ## <a name="work-templates"></a>Modelos do trabalho
 A página **Modelos de trabalho** permite definir quais operações de trabalho devem ser executadas no depósito. Normalmente, as operações de trabalho de depósito consistem em duas ações: um trabalhador do depósito coleta o estoque disponível em um local e descarrega o estoque coletado em outro local. 
