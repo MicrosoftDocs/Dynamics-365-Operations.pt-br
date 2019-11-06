@@ -3,7 +3,7 @@ title: Gerenciamento de ordem distribuído (GOD)
 description: Este tópico descreve a funcionalidade Gerenciamento de ordem distribuído (GOD) do Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 11/15/2018
+ms.date: 10/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fee0d9257af86a734a60b469db3a006435f1d3d2
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 0ebac1c3f9f79ee49ae11a121a4a0dd3bd456c8f
+ms.sourcegitcommit: bdbca89bd9b328c282ebfb681f75b8f1ed96e7a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023410"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578475"
 ---
 # <a name="distributed-order-management-dom"></a>Gerenciamento de ordem distribuído (GOD)
 
@@ -94,6 +94,7 @@ A ilustração a seguir mostra o ciclo de vida de uma ordem de venda em um siste
         - **Atender linhas parciais?** – Se essa opção estiver definida como **Sim**, o GOD poderá atender uma quantidade parcial de linhas da ordem. Esse atendimento parcial é obtido pela divisão da linha da ordem.
         - **Atender a ordem apenas de um local** – Se essa opção estiver definida como **Sim**, o GOD fará com que todas as linhas em uma ordem sejam atendidas em um único local.
 
+
         A tabela a seguir explica o comportamento quando uma combinação desses parâmetros é definida.
 
         |      | Atender ordens parciais | Atender linhas parciais | Atender a ordem somente de um local | Descrição |
@@ -108,21 +109,24 @@ A ilustração a seguir mostra o ciclo de vida de uma ordem de venda em um siste
         | 8    | Sim                    | Não                    | Não                                   | Algumas linhas da ordem podem ser atendidas, mas as linhas individuais não podem ser parcialmente atendidas, e as várias linhas da ordem podem ser atendidas por mais de um local em uma instância da execução do GOD. |
         | 9\*  | Não                     | Não aplicável        | Sim                                  | Todas as linhas da ordem devem ser atendidas, e todas as linhas da ordem devem ser atendidas somente por um local. |
 
-        \* Se **Atender ordens parciais** estiver definido como **Não**, **Atender linhas parciais** será sempre considerado definido como **Não**, independentemente de como de fato foi definido.
+        \* Se a opção **Atender ordens parciais** estiver definida como **Não**, a opção **Atender linhas parciais** será sempre considerada definida como **Não**, independentemente de como foi definida de fato.
 
-    - **Regra de local de atendimento offline** – Esta regra permite que as organizações especifiquem um local ou grupo de locais como offline ou indisponível para o GOD, para que as ordens não possam ser atribuídas para atendimento.
+> [!NOTE]
+> No Retail versão de 10.0.5, o parâmetro **Atender a ordem somente de um local** foi alterado para **Máximo de locais de atendimento**. Em vez de permitir que um usuário configure se as ordens podem ser atendidas somente de um local ou ser atendidas do máximo de locais possível, os usuários agora podem especificar se o atendimento pode ser de um conjunto de locais definido (até 5) ou do máximo de locais possível. Isso proporciona mais flexibilidade em termos de a partir de quantos locais a ordem pode ser atendida.
+
+   - **Regra de local de atendimento offline** – Esta regra permite que as organizações especifiquem um local ou grupo de locais como offline ou indisponível para o GOD, para que as ordens não possam ser atribuídas a esses locais para atendimento.
     - **Regra de máximo de rejeições** – Esta regra permite que as organizações definam um limite para rejeições. Quando o limite é atingido, o processador do GOD marca uma ordem ou uma linha da ordem como uma exceção, e a exclui do processamento futuro.
 
         Depois que as linhas da ordem são atribuídas a um local, o local pode rejeitar uma linha de ordem atribuída, pois pode não conseguir atender essa linha por algumas razões. As linhas rejeitadas são marcadas como uma exceção e colocadas novamente no pool para processamento na próxima execução. Durante a próxima execução, o GOD tentará atribuir a linha rejeitada a um local diferente. O novo local também pode rejeitar a linha da ordem atribuída. Esse ciclo de atribuição e rejeição pode ocorrer várias vezes. Quando a contagem de rejeição bater o limite definido, o GOD marcará a linha da ordem como uma exceção permanente e não escolherá a linha para atribuição novamente. O GOD só vai considerar novamente a linha da ordem para reatribuição se um usuário redefinir manualmente o status da linha da ordem.
 
-    - **Regra da distância máxima** – Esta regra permite às organizações definir a distância máxima que um local ou um grupo de locais pode estar para que a ordem seja atendida. Se forem definidas para um local regras de distância máxima sobrepostas, o GOD aplicará a menor distância máxima definida para esse local.
+   - **Regra da distância máxima** – Esta regra permite às organizações definir a distância máxima que um local ou um grupo de locais pode estar para que a ordem seja atendida. Se forem definidas para um local regras de distância máxima sobrepostas, o GOD aplicará a menor distância máxima definida para esse local.
     - **Regra de máximo de ordens** – Esta regra permite que as organizações definam o número máximo de ordens que um local ou um grupo de locais pode processar durante um dia de calendário. Se o número máximo de ordens for atribuído a um local em um único dia, o GOD não atribuirá nenhuma outra ordem para esse local durante o restante do dia de calendário.
 
-    Aqui estão alguns atributos comuns que podem ser definidos para todos os tipos de regras acima:
+   Aqui estão alguns atributos comuns que podem ser definidos para todos os tipos de regras acima:
 
-    - **Data inicial** e **Data final** – Todas as regra podem ser atribuídas a uma data efetiva usando esses campos.
-    - **Desabilitado** – Apenas as regras com um valor **Não** para este campo são consideradas em uma execução do GOD.
-    - **Restrição rígida** – Uma regra pode ser definida como uma restrição rígida ou uma restrição não rígida. Todas as execuções do GOD passam por duas iterações. Na primeira iteração, todas as regras são tratadas como uma regra de restrição rígida, independentemente da configuração deste campo. Ou seja, todas as regras se aplicam. A única exceção é a regra **Prioridade do local**. Na segunda iteração, as regras que não foram definidas como regras de restrição rígidas serão removidas, e a ordem ou linhas da ordem que não foram atribuídas a locais quando todas as regras foram aplicadas serão atribuídas a locais.
+   - **Data inicial** e **Data final** – Todas as regra podem ser atribuídas a uma data efetiva usando esses campos.
+   - **Desabilitado** – Apenas as regras com um valor **Não** para este campo são consideradas em uma execução do GOD.
+   - **Restrição rígida** – Uma regra pode ser definida como uma restrição rígida ou uma restrição não rígida. Todas as execuções do GOD passam por duas iterações. Na primeira iteração, todas as regras são tratadas como uma regra de restrição rígida, independentemente da configuração deste campo. Ou seja, todas as regras se aplicam. A única exceção é a regra **Prioridade do local**. Na segunda iteração, as regras que não foram definidas como regras de restrição rígidas serão removidas, e a ordem ou linhas da ordem que não foram atribuídas a locais quando todas as regras foram aplicadas serão atribuídas a locais.
 
 10. Os perfis de atendimento são usados para agrupar um conjunto de regras, entidades legais, origens de ordem de venda e modos de entrega. Todas as execuções do GOD são para um perfil de atendimento específico. Assim, as organizações podem definir e executar um conjunto de regras para um conjunto de entidades legais, em ordens que têm origens de ordem de venda e modos de entrega específicos. Portanto, se diferentes conjuntos de regras devem ser executados para diferentes conjuntos de origens de ordem de venda ou modos de entrega, os perfis de atendimento podem ser definidos de acordo. Para configurar perfis de atendimento, siga estas etapas:  
 

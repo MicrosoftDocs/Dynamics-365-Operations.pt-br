@@ -3,7 +3,7 @@ title: Verificador de consistência das transações de varejo
 description: Este tópico descreve a funcionalidade do verificador de consistência das transações de varejo no Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 05/30/2019
+ms.date: 10/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0413c2b236e442fb56098f1902b4d5b247ed4649
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b956565ac15b3d7b638cedaadc20923ee87b9c61
+ms.sourcegitcommit: 0262a19e32b2c0c84c731d9f4fbe8ba91822afa3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2018404"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622588"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Verificador de consistência das transações de varejo
 
@@ -59,7 +59,10 @@ O processo em lote **Validar transações de loja** verifica a consistência das
 - **Item do cartão-presente** — o Retail não oferece suporte à devolução de itens do cartão-presente. No entanto, o saldo em um cartão-presente pode ser resgatado. Haverá falha no processo de lançamento de demonstrativo em qualquer item de cartão-presente que seja processado como uma linha de devolução em vez de uma linha de resgate. O processo de validação de itens de cartão-presente ajuda a garantir que somente os itens de cartão-presente devolvidos nas tabelas de transações de varejo sejam linhas de resgate de cartão-presente.
 - **Preço negativo** — valida se não há nenhum preço negativo nas linhas de transação.
 - **Item e grade** — valida se os itens e as grades nas linhas de transação existem no item e no arquivo mestre da grade.
-- **Valor do imposto** — valida se os registros de impostos correspondem aos valores de imposto nas linhas. 
+- **Valor do imposto** — valida se os registros de impostos correspondem aos valores de imposto nas linhas.
+- **Número de série** — valida se o número de série. está presente nas linhas de transação dos itens que são controlados por número de série.
+- **Sinal** — valida se o sinal na quantidade e no valor líquido são iguais em todas as linhas de transação.
+- **Data comercial** — valida se os períodos financeiros para todas as datas comerciais para as transações de varejo estão abertos.
 
 ## <a name="set-up-the-consistency-checker"></a>Configurar o verificador de consistência
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b48313e93573e3214de0ee02c4894b000dc18f67
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 34af4cc05b6966b5f118c1dd2adbda288a0f3da1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175826"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570116"
 ---
 # <a name="financial-management-home-page"></a>Home page de Gerenciamento financeiro
 
@@ -69,4 +69,8 @@ Confira os vídeos de instruções que agora estão disponíveis no [canal do Mi
 ### <a name="countryregion-functionality"></a>Funcionalidade de país/região
 
 As regulamentações do país/região afetam a configuração dos impostos e outras áreas de gerenciamento financeiro. Consulte a seção [Recursos de localização e regulatórios](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) de nosso conteúdo de ajuda para conhecer a funcionalidade específica de país/região.
+
+### <a name="additional-content"></a>Conteúdo adicional
+
+A funcionalidade de Supply Chain Management aborda partes do processo de compra ao pagamento que inclui a requisição, o pedido, o recebimento, o faturamento e o pagamento dos bens e serviços que sua organização comprar. Consulte a [home page do Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) para obter informações sobre os recursos para gerenciar as compras, o estoque e a fabricação. 
 

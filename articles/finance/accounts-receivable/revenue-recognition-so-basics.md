@@ -16,20 +16,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: f0a5e4c01b34b2adb8e7e0af967af2c2562b4d87
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f7d2cfb8e58221004ae5662aae3850adc577dc88
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175832"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570301"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>Reconhecimento de receita em ordens de venda
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> O recurso Reconhecimento de receita ainda não pode ser ativado por meio do Gerenciamento de recursos. No momento, você deve usar as chaves de configuração para ativá-lo.
+> O recurso Reconhecimento de receita não pode ser ativado por meio do Gerenciamento de recursos. No momento, você deve usar as chaves de configuração para ativá-lo.
 
 Este tópico descreve a funcionalidade básica para reconhecer receitas em ordens de venda e faturas. O reconhecimento de receita está disponível em uma ordem de venda e na fatura correspondente criada com a ordem de venda. A ordem de venda também pode ser criada com um projeto de Tempo e materiais.
 

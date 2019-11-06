@@ -1,5 +1,5 @@
 - name: Dynamics 365 for Talent
-  href: index.yml
+  href: talent-welcome.md
   items:
     - name: Comece a usar
       items:
@@ -8,6 +8,10 @@
         - name: Novidades ou alterações no Talent
           href: whats-new.md
           items:
+            - name: 23 de outubro de 2019
+              href: whats-new-talent-october-23-2019.md
+            - name: 8 de outubro de 2019
+              href: whats-new-talent-october-8-2019.md
             - name: 1º de outubro de 2019
               href: whats-new-talent-october-1-2019.md
             - name: 17 de setembro de 2019
@@ -385,18 +389,20 @@
           items:
             - name: Responder a uma solicitação de dados pessoais no Talent
               href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Formulário I-9 de verificação de emprego
+            - name: Verificação de emprego — Formulário I-9
               href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/dynamics365/unified-operations/talent/toc.json
             - name: Seguir a conformidade com a ADA
               href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
     - name: Integração
       items:
+        - name: Orientações sobre integração de dados para o Dynamics 365 for Talent
+          href: data-integration.md
+        - name: Configurar integração do Common Data Service
+          href: hr-common-data-service-integration.md
         - name: Integrar com o Dynamics 365 for Finance and Operations
           href: talent-financeandoperations-integration.md
         - name: Configurar a integração da folha de pagamento entre o Talent e o Dayforce
           href: configure-payroll-integration.md
-        - name: Orientações sobre integração de dados para o Dynamics 365 for Talent
-          href: data-integration.md
         - name: Perguntas frequentes sobre integração
           href: talent-fo-integration.md
         - name: Exportação de dados recorrentes usando Aplicativos Lógicos do Azure

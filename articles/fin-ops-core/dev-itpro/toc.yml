@@ -1,14 +1,16 @@
-- name: Desenvolvimento e administração do Finance and Operations
+- name: Desenvolvimento e administração de aplicativos do Finance and Operations
   items:
-    - name: Desenvolvimento e administração do Finance and Operations
+    - name: Desenvolvimento e administração de aplicativos do Finance and Operations
       items:
-        - name: Desenvolvimento e administração do Finance and Operations
+        - name: Desenvolvimento e administração de aplicativos do Finance and Operations
           href: index.md
         - name: Novidades ou alterações
           items:
-            - name: Recursos de visualização na Platform update 30 (novembro de 2019)
+            - name: Recursos de visualização na Platform update 31 (janeiro de 2020)
+              href: get-started/whats-new-platform-update-31.md
+            - name: Platform update 30 (novembro de 2019)
               href: ../fin-ops/get-started/whats-new-platform-update-30.md
-            - name: Platform update‎ 29 (novembro de 2019)
+            - name: Platform update‎ 29 (outubro de 2019)
               href: ../fin-ops/get-started/whats-new-platform-update-29.md
             - name: Platform update 28 (julho de 2019)
               href: ../fin-ops/get-started/whats-new-platform-update-28.md
@@ -62,11 +64,13 @@
                   href: business-events/how-to/FormsPro.md
                 - name: Eventos de negócios e Hubs de Eventos do Azure
                   href: business-events/how-to/event-hub.md
+                - name: Eventos de negócios no fechamento do período financeiro
+                  href: business-events/how-to/period-close.md
         - name: Entrega contínua
           items:
-            - name: Home page de Entrega contínua
+            - name: Home page da Entrega contínua
               href: dev-tools/continuous-delivery-home-page.md
-            - name: Perguntas frequentes sobre Entrega contínua e desenvolvimento
+            - name: Perguntas frequentes sobre entrega contínua e desenvolvimento
               href: dev-tools/continuous-delivery-faq.md
             - name: ​Excluir pacotes de teste da saída de compilação
               href: dev-tools/exclude-test-packages.md
@@ -80,11 +84,11 @@
               href: data-entities/integration-overview.md
             - name: APIs de integração de dados
               items:
-                - name: REST API do pacote de gerenciamento de dados
+                - name: API REST do pacote de gerenciamento de dados
                   href: data-entities/data-management-api.md
                 - name: Pontos de extremidade de serviço
                   items:
-                    - name: Visão geral de empresas de serviço
+                    - name: Visão geral de pontos de extremidade de serviço
                       href: data-entities/services-home-page.md
                     - name: Solução de problemas de autenticação de serviço
                       href: data-entities/troubleshoot-service-authentication.md
@@ -302,11 +306,31 @@
                   href: database/dbmovement-scenario-goldenconfig.md
                 - name: Teste destrutivo
                   href: database/dbmovement-scenario-destructivetests.md
+            - name: RESTful API
+              items:
+                - name: Visão Geral
+                  href: database/api/dbmovement-api-overview.md
+                - name: Controle de versão e suporte
+                  href: database/api/dbmovement-api-versioning-support.md
+                - name: Autenticação
+                  href: database/api/dbmovement-api-authentication.md
+                - name: Limitação
+                  href: database/api/dbmovement-api-throttling.md
+                - name: Referência
+                  items:
+                    - name: Referência v1 da API
+                      href: database/api/v1/dbmovement-api-v1-overview.md
+                    - name: Listar backups de banco de dados
+                      href: database/api/v1/reference-list-backups.md
+                    - name: Criar atualização de banco de dados
+                      href: database/api/v1/reference-create-refresh.md
+                    - name: Obter o status da atividade da operação
+                      href: database/api/v1/reference-get-status.md
         - name: Dados de demonstração
           items:
             - name: Visão geral dos dados de demonstração
               href: ../fin-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
-            - name: Gerenciar dados de demonstração usando pacotes de dados
+            - name: Gerar dados de demonstração usando pacotes de dados
               href: data-entities/generate-demo-data-packages.md
         - name: Implantação
           items:
@@ -1213,7 +1237,7 @@
             - name: Obter suporte para o Finance and Operations e o Lifecycle Services
               href: lifecycle-services/lcs-support.md
             - name: Visão geral do suporte do Dynamics 365
-              href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/dev-itpro/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
+              href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
             - name: Obter suporte para o Finance and Operations operado pela 21Vianet na China
               href: lifecycle-services/21vianet-support.md
             - name: Enviar solicitações para a equipe de engenharia de serviço do Dynamics
