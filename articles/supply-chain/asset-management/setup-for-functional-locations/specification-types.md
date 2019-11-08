@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 067d1085d9afa04cb76b78393a8a8b9834ce4d8c
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c07f303b72f286c33979181fca1592b47efa1303
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250935"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571222"
 ---
 # <a name="maintenance-attribute-types"></a>Manutenção dos tipos do atributo
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Este tópico explica como criar tipos de atributo no Asset Management. Os atributos são usados para descrever as propriedades dos vários elementos. Você pode configurar atributos nos seguintes elementos:
 

@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 05881b6e6e501ff3ac5a622d99fd1aaa311727a1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f4f6de139d0399263fa19507d63e9521f489dcbd
+ms.sourcegitcommit: 38ce9f4ef499ad208f2fbbc51bc21b12c67dfa16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249508"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "2574790"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Espaço de trabalho móvel de estoque disponível
 
@@ -56,9 +56,9 @@ Especificamente, espaço de trabalho móvel fornece esses recursos:
     -   Por físico disponível (Esta exibição representa o valor disponível que não tem reservas).
 
 ## <a name="prerequisites"></a>Pré-requisitos
-Os pré-requisitos variam conforme a versão do Microsoft Dynamics 365 implantada na organização.
+Os pré-requisitos diferem com base na versão do Supply Chain Management que foi implantada para sua organização.
 
-### <a name="prerequisites-if-you-use-finance-and-operations"></a>Pré-requisitos se você usa o Finance and Operations 
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Pré-requisito para usar o Supply Chain Management
 Se o Supply Chain Management tiver sido implantado para sua organização, o administrador do sistema deverá publicar o espaço de trabalho móvel **Estoque disponível**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-platform-update-3-or-later"></a>Pré-requisitos se você usa a Platform update 3 ou posterior 

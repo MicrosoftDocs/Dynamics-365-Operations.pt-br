@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b236013d19967295514bfc0ce3e94eb6765d620a
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: c585bce468f87a32204893ea20ce6954e92b0e38
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783084"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571797"
 ---
 # <a name="install-assets-on-functional-locations"></a>Instalar ativos em locais funcionais
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Após criar estruturas de locais funcionais, a próxima etapa será instalar ativos nos locais funcionais relevantes. Este tópico explica como instalar ativos nesses locais funcionais em Gerenciamento de Ativos. Para obter informações sobre como criar ativos, consulte [Ativos](../objects/introduction-to-objects.md).
 

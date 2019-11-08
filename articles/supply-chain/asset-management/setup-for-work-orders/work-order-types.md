@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 57120b51c069e49697f8ec4357265974a0d3afb4
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 3e813bd4f2d47b928b6184bb063d9afa45695727
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874569"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569722"
 ---
 # <a name="work-order-types"></a>Tipos de ordem de serviço
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Os tipos de ordem de serviço são usados para categorizar ordens de serviço. Por exemplo, você pode ter ordens de serviço relacionadas à manutenção preventiva ou manutenção corretiva.
 
@@ -51,4 +51,4 @@ Para obter mais informações sobre os estados de ciclo de vida da ordem de serv
 
 8. Selecione **Salvar**.
 
-![Figura 1](media/16-setup-for-work-orders.png)
+![Tipos de ordem de serviço](media/16-setup-for-work-orders.png)

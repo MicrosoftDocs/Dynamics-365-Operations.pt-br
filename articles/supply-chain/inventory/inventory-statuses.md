@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd86bf525ae33f78fb472e6c333083592ff8a012
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 79ddc91aa3bbe0613543595006b10e6e0bef4427
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024375"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653478"
 ---
 # <a name="inventory-statuses"></a>Status do estoque
 
@@ -42,7 +42,7 @@ Veja a seguir alguns exemplos de formas de uso dos status do estoque:
 
 O status de estoque é uma das dimensões do grupo de dimensão de armazenamento. Os status do estoque podem ser categorizados como disponível ou não disponível e você pode usar o parâmetro **Bloqueio de estoque** para bloquear os itens que possuem um status de estoque indisponível. Os itens com um status bloqueado são considerados um estoque físico e não podem ser usados em uma ordem de produção, ordem de venda, ordem de transferência ou transação de saída.
 
-Você pode usar itens de depósito com o status de estoque disponível ou indisponível para o trabalho de entrada. Por exemplo, você cria um status disponível que é chamado **Pronto**, um status indisponível que é chamado **Danificado** e um status bloqueado que é chamado **Bloqueado**. Quando você cria uma ordem de compra para itens recebidos ou devolvidos, se os item forem danificados ou interrompidos, é possível alterar o status do estoque dos itens para **Danificado** na linha da ordem de compra. Depois que os itens são recebidos, o status é automaticamente definido como **Bloqueado**. Se você digitalizar os itens danificados usando um dispositivo móvel, o Finance and Operations poderá usar diretivas de localização e modelos de trabalho para mostrar informações sobre um local ou uma variedade de locais apropriados onde esses itens podem ser armazenados. Para itens devolvidos, um tipo de problema de **Reserva** é criado na página **Transações do inventário**.
+Você pode usar itens de depósito com o status de estoque disponível ou indisponível para o trabalho de entrada. Por exemplo, você cria um status disponível que é chamado **Pronto**, um status indisponível que é chamado **Danificado** e um status bloqueado que é chamado **Bloqueado**. Quando você cria uma ordem de compra para itens recebidos ou devolvidos, se os item forem danificados ou interrompidos, é possível alterar o status do estoque dos itens para **Danificado** na linha da ordem de compra. Depois que os itens são recebidos, o status é automaticamente definido como **Bloqueado**. Se você pesquisa os itens danificados usando um dispositivo móvel, o Supply Chain Management pode usar diretivas de local e modelos de trabalho para mostrar informações sobre um local apropriado ou intervalo de locais onde você pode armazenar esses itens. Para itens devolvidos, um tipo de problema de **Reserva** é criado na página **Transações do inventário**.
 
 Para o trabalho de saída, use itens com status de estoque disponível. Se você tiver itens com um status de **Quebrado** e o planejamento mestre for executado nesses itens, os itens serão considerados faltantes e o estoque será reabastecido automaticamente.
 

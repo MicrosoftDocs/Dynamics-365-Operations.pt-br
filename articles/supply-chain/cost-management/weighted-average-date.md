@@ -19,18 +19,16 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9963c17d8ac1854a42cac2a0e19615f13e8cc006
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b89082ef0dcaafd059fdc496acf49efbf2b9324a
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543620"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569193"
 ---
 # <a name="weighted-average-date"></a>Data de média ponderada
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 A data de média ponderada é um modelo de estoque baseado no princípio de média ponderada. Para o princípio de média ponderada, as saídas do estoque são avaliadas pelo valor médio dos itens recebidos no estoque para cada dia no período de fechamento de estoque. 
 

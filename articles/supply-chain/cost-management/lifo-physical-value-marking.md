@@ -19,18 +19,16 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0ea2c71458f92d048706a6e263d0da1830bdcde
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 792ff4d7b72ce092fe1ad92e53172cf40f0ecf26
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565687"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569262"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>UEPS com marcação e valor físico
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 Último a entrar, Primeiro a sair (UEPS) é um modelo de estoque no qual os últimos (mais recentes) recebimentos são emitidos primeiro. As saídas do estoque são liquidadas em relação aos últimos recebimentos do estoque com base na data da transação de estoque. 
 
@@ -56,7 +54,9 @@ Neste exemplo, o grupo de modelo de item não está marcado para incluir o valor
 -   5b. Saída financeira de estoque para uma quantidade de 1 a um preço de custo de BRL 20,00 cada (média ponderada de transações atualizadas financeiramente).
 -   6. O fechamento de estoque é executado. Com base no método UEPS, a última saída atualizada financeiramente será liquidada para o último recebimento atualizado financeiramente. Um ajuste de BRL 10,00 será feito na transação de saída.
 
-O novo preço de custo médio reflete a média de transações atualizadas financeiramente em BRL 15,00. A ilustração a seguir mostra os efeitos do modelo de estoque LIFO nesta série de transações quando a opção **Incluir valor físico** não é usada. ![UEPS sem Incluir Valor Físico](./media/lifowithoutincludephysicalvalue.gif) 
+O novo preço de custo médio reflete a média de transações atualizadas financeiramente em BRL 15,00. A ilustração a seguir mostra os efeitos do modelo de estoque LIFO nesta série de transações quando a opção **Incluir valor físico** não é usada. 
+
+![UEPS sem Incluir Valor Físico](./media/lifowithoutincludephysicalvalue.gif) 
 
 **Chave para o diagrama**
 
@@ -90,7 +90,9 @@ A ilustração a seguir mostra essas transações:
 
 A transação 6a será ajustada para a transação de recebimento 4b. O sistema não liquidará essas transações, já que o recebimento é atualizado fisicamente, mas não financeiramente. Em vez disso, só será lançado um ajuste de BRL 8,75 para a transação de saída física. A transação 5b será ajustada para a transação de recebimento física 3a. O sistema não liquidará essas transações porque elas não estão atualizadas financeiramente. Em vez disso, só será feito um ajuste de BRL –3,75 para essa transação de saída. O novo preço de custo médio reflete a média das transações atualizadas financeira e fisicamente, em BRL 20,00. 
 
-A ilustração a seguir mostra os efeitos do modelo de estoque UEPS nesta série de transações quando a opção **Incluir valor físico** é usada. ![UEPS com Incluir Valor Físico](./media/lifowithincludephysicalvalue.gif) 
+A ilustração a seguir mostra os efeitos do modelo de estoque UEPS nesta série de transações quando a opção **Incluir valor físico** é usada. 
+
+![UEPS com Incluir Valor Físico](./media/lifowithincludephysicalvalue.gif) 
 
 **Chave para o diagrama**
 
@@ -132,7 +134,9 @@ A ilustração a seguir mostra essas transações:
 
 O novo preço de custo médio reflete a média das transações atualizadas financeira e fisicamente, em BRL 27,50. 
 
-A ilustração a seguir mostra os efeitos do modelo de estoque UEPS nesta série de transações quando a marcação entre saídas e recebimentos é usada. ![UEPS com Marcação    ](./media/lifowithmarking.gif) 
+A ilustração a seguir mostra os efeitos do modelo de estoque UEPS nesta série de transações quando a marcação entre saídas e recebimentos é usada. 
+
+![UEPS com Marcação    ](./media/lifowithmarking.gif) 
 
 **Chave para o diagrama**
 
@@ -146,7 +150,4 @@ A ilustração a seguir mostra os efeitos do modelo de estoque UEPS nesta série
 - Cada seta vertical é rotulada com um identificador sequencial, como *1a*. Os identificadores indicam a ordem de lançamentos de transação de estoque na linha do tempo.
 - Os fechamentos de estoque são representados por uma linha tracejada vertical vermelha e a etiqueta *Fechamento de Estoque*.
 - As liquidações executadas pelo fechamento de estoque são representadas por linhas tracejadas diagonais de um recebimento para uma saída.
-
-
-
 

@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aa5b726a7c400da09381944f3303f7ac4bb796aa
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 27498fb8290fa18abd64d7f306e9c0bf4713a72f
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182407"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2550125"
 ---
-# <a name="er-use-financial-dimensions-as-a-data-source-part-4-run-the-report"></a>O ER usa dimensões financeiras como uma fonte de dados (parte 4: executar o relatório)
+# <a name="er-use-financial-dimensions-as-a-data-source-part-4---run-the-report"></a>ER Usar dimensões financeiras como uma fonte de dados (Parte 4: Executar o relatório)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

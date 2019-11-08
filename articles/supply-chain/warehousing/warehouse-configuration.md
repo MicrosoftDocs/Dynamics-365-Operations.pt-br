@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05f8a71dde998abccc75bc962636f9eb04d7e8c2
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 54d6c432907b1b75307c56d3876c8b390d5ff376
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026707"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653409"
 ---
 # <a name="warehouse-configuration-overview"></a>Visão geral da configuração de depósito
 
@@ -34,7 +34,7 @@ Este artigo explica como configurar um depósito. Ele inclui informações sobre
 **Observação:** Este artigo se aplica aos recursos no módulo de **Gerenciamento de depósito** (estoque avançado). Não se aplica aos recursos de depósito no módulo de **Gerenciamento de depósito**.
 
 ## <a name="warehouse-layout"></a>Layout do depósito
-O sistema de gerenciamento de depósito no Finance and Operations proporciona uma maneira flexível de definir o layout de depósito para atender às necessidades em constante mudança, de forma que você possa obter máxima eficiência de depósito.
+O sistema de gerenciamento de depósito no Supply Chain Management proporciona uma maneira flexível de definir o layout de depósito para atender às necessidades em constante mudança, de forma que você possa obter máxima eficiência de depósito.
 
 -   Você pode liquidar áreas de armazenamento de alta e baixa prioridade para o posicionamento ideal de mercadorias.
 -   Você pode dividir o depósito em zonas para acomodar várias necessidades de armazenamento, como requisitos de temperatura, ou várias taxas de devolução de itens.
@@ -42,7 +42,7 @@ O sistema de gerenciamento de depósito no Finance and Operations proporciona um
 -   Você pode agrupar locais usando as configurações de restrição de capacidade física.
 -   Você pode controlar como os itens são armazenados e separados, com base em regras definidas pela consulta.
 
-Para usar o gerenciamento de depósito no Finance and Operations, você deve criar um depósito e habilitá-lo para as atividades de gerenciamento de depósito mais avançados ou mais especializadas. Na página **Depósitos**, selecione a opção **Usar processos de gerenciamento de depósito**.
+Para usar o gerenciamento de depósito no Supply Chain Management, você deve criar um depósito e habilitá-lo para as atividades de gerenciamento de depósito mais avançados ou mais especializadas. Na página **Depósitos**, selecione a opção **Usar processos de gerenciamento de depósito**.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Grupos de zonas, zonas, tipos de localização, e localizações
 
@@ -54,7 +54,7 @@ Como parte do processo para habilitar um layout de depósito, é preciso definir
 -   **Tipos de locais** – Um agrupamento lógico ou físico dos locais de depósito. Por exemplo, você pode criar um tipo de localização para todos os locais de preparo. As configurações obrigatórias na página **Parâmetros de gerenciamento de depósito** conduzem o processo de definição dos tipos de local de preparo e o tipo de local de entrega final.
 -   **Locais** – O nível mais baixo de informações sobre o local. Os locais são usados para controlar onde o estoque disponível é armazenado e separado em um depósito.
 
-As entidades que você cria para definir o layout de depósito são usadas nas consultas configuradas por você nos modelos de trabalho para conduzir as ordens de trabalho no depósito. Sendo assim, ao definir as zonas, tipos de local, e assim por diante, considerem como as áreas diferentes no depósito são usadas para processos diferentes. Além disso, considere os fatores como as características físicas de uma área específica. Por exemplo, pode haver áreas onde você pode usar apenas um tipo de empilhadeira. Ou, se sua empresa tiver produção e produtos acabados dentro da mesma instalação, talvez queira criar um único depósito no Finance and Operations, mas depois separar as duas operações criando dois grupos de zona. Dê nomes descritivos a suas entidades, para que seja fácil identificá-las quando você as usa em consultas de modelo.
+As entidades que você cria para definir o layout de depósito são usadas nas consultas configuradas por você nos modelos de trabalho para conduzir as ordens de trabalho no depósito. Sendo assim, ao definir as zonas, tipos de local, e assim por diante, considerem como as áreas diferentes no depósito são usadas para processos diferentes. Além disso, considere os fatores como as características físicas de uma área específica. Por exemplo, pode haver áreas onde você pode usar apenas um tipo de empilhadeira. Ou, se sua empresa tiver produção e produtos acabados dentro da mesma instalação, talvez queira criar um único depósito no Supply Chain Management, mas depois separar as duas operações criando dois grupos de zona. Dê nomes descritivos a suas entidades, para que seja fácil identificá-las quando você as usa em consultas de modelo.
 
 ### <a name="location-stocking-limits-location-profiles-and-fixed-picking-locations"></a>Limites de estoque de local, perfis de localização, e locais de separação fixos
 

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2dc72c61ed4dbb04122c6859123307dc79f2b233
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: e542a0bc7335d16139ef6e34b6794161ab4be195
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783059"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571176"
 ---
 # <a name="asset-lifecycle-states"></a>Estados de ciclo de vida de ativo
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Este tópico explica os estados de ciclo de vida de ativo e os modelos do ciclo de vida no Asset Management. Os estados de ciclo de vida de ativo são usados para definir se um ativo está ativo ou inativo. Por exemplo, você pode configurar os estados de ciclo de vida de ativo como **Criado**, **Ativo** e **Concluído**.
 

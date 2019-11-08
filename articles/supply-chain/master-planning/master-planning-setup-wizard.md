@@ -3,7 +3,7 @@ title: Assistente de configuração do planejamento mestre
 description: Este tópico descreve várias estratégias e parâmetros importantes que são usados para configurar o planejamento mestre.
 author: t-benebo
 manager: AnnBe
-ms.date: 08/05/2019
+ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,23 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 0310ac55d35421d8ad9080739fc5a393660ce520
-ms.sourcegitcommit: 261dc882710f29303b14f9be8a26d71d85d25345
+ms.openlocfilehash: 8fbccce6e23c9bc965f66f761f4c1cab32224ef1
+ms.sourcegitcommit: fbd6d027ef3b50c056260e30e78066839efa3ddb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "1999525"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "2635117"
 ---
 # <a name="master-planning-setup-wizard"></a>Assistente de configuração do planejamento mestre
 
 [!include [banner](../includes/banner.md)]
 
 Este tópico fornece um guia para o **Assistente de configuração do planejamento mestre**. Ele explica como sugestões de parâmetro são calculadas e também oferece exemplos para mostrar como empresas diferentes configuram o planejamento mestre com base nas necessidades comerciais.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3YnSB]
+
+O vídeo [Assistente de configuração do planejamento mestre no Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (mostrado acima) está incluído na [playlist Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
+
 
 ## <a name="specific-requirements-of-your-company"></a>Requisitos específicos da empresa
 

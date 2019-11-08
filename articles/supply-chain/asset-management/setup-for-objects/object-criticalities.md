@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 660038060826ade9301e50143e49b53ba3fcd3ab
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: f96fcc7ebb8928c6d6b17b30465ad1625d9b5be4
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783073"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571061"
 ---
-# <a name="asset-criticalities"></a>Severidade do ativo
+# <a name="asset-criticality-types"></a>Tipo de severidade do ativo
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 O tópico explica os tipos de severidade de ativos no Asset Management. A severidade de ativos está relacionada aos ativos e é transferida para as ordens de serviço. Não pode ser alterada em uma ordem de serviço. A severidade de ativos é usada para calcular a severidade da ordem de serviço durante seu agendamento. Em outras palavras, é usada para calcular até onde um trabalho de manutenção em um ativo afeta a agenda de produção e a produtividade da empresa. Para obter mais informações sobre a instalação relacionadas ao cálculo de pontuações de classificação para o agendamento da ordem de serviço, consulte [Parâmetros do Asset Management](../setup-for-objects/enterprise-asset-management-parameters.md).
 
@@ -43,7 +43,7 @@ Para configurar a severidade, primeiro você cria os tipos de severidade que dev
 4. No campo **Nome**, insira um nome para o tipo de severidade.
 5. No campo **Fator**, insira um fator. Esse fator é usado no cálculo de agendamento da ordem de serviço para determinar o registro de severidade que deve ser usado. (O registro com o fator mais alto será sempre usado). Essa configuração será relevante se, conforme mostrado na ilustração, as linhas de severidade forem criadas com o mesmo valor de severidade.
 
-    ![Figura 1](media/23-setup-for-objects.png)
+    ![Página Tipos de severidade](media/23-setup-for-objects.png)
 
 ## <a name="set-up-asset-criticalities"></a>Configurar severidades de ativo
 

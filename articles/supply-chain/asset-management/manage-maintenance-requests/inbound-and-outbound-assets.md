@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 62998da7f541379296d5ac325ae29f24a42f9b7c
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: bb318c24424c291f08ba7527b2258c0da4cba9a8
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847542"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571659"
 ---
 # <a name="inbound-and-outbound-assets"></a>Ativos de entrada e saída
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Se a empresa faz trabalhos de reparo ou trabalhos de manutenção em ativos que são recebidos de outros locais ou clientes, o Gerenciamento de Ativos pode rastrear ativos de entrada que estão sendo enviados à sua empresa e ativos saída que estão sendo devolvidos.
 
@@ -45,7 +45,7 @@ A configuração do Gerenciamento de Ativos determina se você pode trabalhar co
 3. Selecione **Atualizar estado de solicitação de manutenção**.
 4. Selecione **Entrada** (ou outro estado do ciclo de vida que você criou para ativos de entrada) e **OK**.
 
-![Figura 1](media/07-manage-maintenance-requests.png)
+![Registre ativos como entrada](media/07-manage-maintenance-requests.png)
 
 ## <a name="register-inbound-assets-as-received"></a>Registre ativos de entrada como recebido
 
@@ -54,7 +54,7 @@ A configuração do Gerenciamento de Ativos determina se você pode trabalhar co
 3. Selecione **Receber ativos**.
 4. No campo **Recebido**, insira a data e a hora. Em seguida, selecione **OK**. O registro é removido da página de lista **Ativos de entrada**.
 
-![Figura 2](media/08-manage-maintenance-requests.png)
+![Registre ativos de entrada como recebido](media/08-manage-maintenance-requests.png)
 
 ## <a name="register-assets-as-outbound"></a>Registre ativos como saída
 

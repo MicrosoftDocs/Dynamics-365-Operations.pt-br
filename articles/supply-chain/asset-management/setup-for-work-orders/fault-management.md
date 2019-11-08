@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 48c90a8b776cc16804de8e20ada7d8ca347fa5b9
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 78c062f9982ca7b18fa00d60928089d09a5d552d
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874730"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570946"
 ---
 # <a name="fault-management"></a>Gerenciamento de falhas
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 No Gerenciamento de ativos, você pode usar o designer de falhas para configurar sintomas, áreas e tipos de falha nos tipos de ativos. Assim, você pode gerenciar falhas detectadas nos ativos. Além disso, as causas e sugestões de falha para corrigir falhas podem ser registradas em uma ordem de serviço.
 
@@ -109,7 +109,7 @@ No designer de falhas, você configura os dados das falhas nos tipos de ativos.
 
 7. Selecione **Salvar** para salvar as alterações.
 
-![Figura 1](media/21-setup-for-work-orders.png)
+![Página do designer de falha](media/21-setup-for-work-orders.png)
 
 ## <a name="create-fault-causes"></a>Criar causas de falha
 

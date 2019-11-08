@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: de105e061712540fc8e3d720a65c029f865b8948
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 42eaa3df5ab09278ed96506d17e1b42d4fc2a9e1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187282"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570255"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>Descartar um ativo fixo como sucata
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 O tópico descreve o processo de eliminação de transações de um ativo fixo que foi descartado como sucata. Os tipos de transação que podem ser eliminados incluem transações depreciação acumulada e aquisição de um ativo, além de outras transações de ativos fixos. A eliminação dessas transações afeta as contas de balanço, como contas de ajuste de aquisição, ajuste de depreciação, reavaliação, valorização e desvalorização.
 

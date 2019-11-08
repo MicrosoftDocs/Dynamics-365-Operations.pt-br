@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5b791fd3e060c4f4ecdb1ca599a6041d421db74
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 5b830d835d99122a8c0572481f4c229c37d97d0c
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024513"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653242"
 ---
 # <a name="asset-documents"></a>Documentos do ativo
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Este tópico explica documentos de ativo no Asset Management.
 
-No Asset Management, você pode configurar documentos para que eles sejam automaticamente relacionados a tipos de trabalho, fabricantes de ativo, tipos de ativo ou ativos, por exemplo. Essa funcionalidade será útil quando versões atualizadas de documento forem liberadas. Nesse caso, você só precisará colocar o documento atualizado no local padrão utilizado para seus documentos do Finance and Operations e anexá-lo ao registro de documentos de ativo criado. O documento atualizado pode ser acessado dos itens de menu **Todos os ativos**, **Ativos ativos**, **Meus ativos ativos**, **Todas as ordens de trabalho** e **Trabalhos de ordem de serviço ativos**. O processo de anexação de documentos a um registro de documentos de ativo usa o sistema padrão de manuseio de documentos.
+No Asset Management, você pode configurar documentos para que eles sejam automaticamente relacionados a tipos de trabalho, fabricantes de ativo, tipos de ativo ou ativos, por exemplo. Essa funcionalidade será útil quando versões atualizadas de documento forem liberadas. Nesse caso, você só precisará colocar o documento atualizado no local padrão utilizado para seus documentos do Supply Chain Management e anexá-lo ao registro de documentos do ativo criado. O documento atualizado pode ser acessado dos itens de menu **Todos os ativos**, **Ativos ativos**, **Meus ativos ativos**, **Todas as ordens de trabalho** e **Trabalhos de ordem de serviço ativos**. O processo de anexação de documentos a um registro de documentos de ativo usa o sistema padrão de manuseio de documentos.
 
 **Exemplo 1:** um documento relacionado a um tipo de trabalho deve descrever um procedimento desse tipo de trabalho.
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aba85b63abc11c9f32023e8499a02728dfc86bd1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4d9a2f6efad6b8ddf3a445fe7831244e161c35d5
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188248"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578186"
 ---
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Configurar o processo de importação de reconciliação bancária avançada
 
@@ -36,7 +36,7 @@ A configuração de importação de extrato bancário varia de acordo com o form
 ## <a name="set-time-zone-preference"></a>Definir preferência de fuso horário
 Quando você configura as definições de importação do extrato bancário, pode ser importante considerar o fuso horário dos dados de data/hora nos arquivos de extrato bancário que serão importados. O padrão é supor que qualquer valor de data e hora já esteja em UTC (Tempo Universal Coordenado) e, portanto, nenhuma conversão de fuso horário será aplicada na importação dos dados. 
 
-Há uma opção disponível para especificar um fuso horário a ser usado para importação de dados. Essa opção está disponível no campo **Preferência de fuso horário** em cada página **Detalhes do formato de dados de origem** (FastTab **Espaço de trabalho de gerenciamento de dados > Configurar fontes de dados > Selecionar um formato de dados > Configurações regionais**). Essa preferência de fuso horário que você informa será aplicada a todas as importações que usam esse formato de dados de origem. Você pode criar quantos formatos de fonte de dados forem necessários para importação de dados de vários fusos horários. A preferência de fuso horário deve ser o fuso horário local dos dados de data e hora no arquivo de importação. A preferência de fuso horário deve ser o fuso horário local dos dados de data/hora no arquivo de importação. 
+Há uma opção disponível para especificar um fuso horário a ser usado para importação de dados. Essa opção está disponível no campo **Preferência de fuso horário** em cada página **Detalhes do formato de dados de origem** (FastTab **Espaço de trabalho de gerenciamento de dados > Configurar fontes de dados > Selecionar um formato de dados > Configurações regionais**). Essa preferência de fuso horário que você informa será aplicada a todas as importações que usam esse formato de dados de origem. Você pode criar quantos formatos de fonte de dados forem necessários para importação de dados de vários fusos horários.  
 
 Esse fuso horário pode não ser o mesmo que o do usuário ou da empresa. Portanto, certifique-se de esclarecer qual fuso horário os dados de data e hora estão usado. É recomendável considerar os pontos a seguir ao configurar uma preferência de fuso horário. 
 

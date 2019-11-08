@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 02ea3affca727802b241f87b801e0742ac0aa41a
-ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
+ms.openlocfilehash: 2d079c10331360c035ff800650ed3102c2cc3ad4
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1922082"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569975"
 ---
 # <a name="preventive-maintenance-overview"></a>Visão geral da manutenção preventiva
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Este tópico explica a manutenção preventiva no Gerenciamento de Ativos. A manutenção preventiva é uma disciplina envolvendo trabalhos de manutenção planejados, por exemplo, serviço periódico, calibração e inspeções. No **Gerenciamento de Ativos**, você pode criar planos de manutenção e configurá-los em ativos e locais funcionais. Você também pode configurar rounds de manutenção em locais funcionais. Planos de manutenção em ativos ficam ativados independentemente de onde o ativo é instalado. Os planos de manutenção e rounds de manutenção em local funcional ficam ativados para os ativos instalados no local. Em vez de configurar planos de manutenção em ativos ou configurar rounds de manutenção em locais funcionais, você pode criar rounds de manutenção que incluem vários ativos nos quais é necessário executar tipos relacionados de trabalhos de manutenção na mesma rotina de trabalho. Os rounds de manutenção criados a partir de ativos, em vez de criados em locais funcionais, indicam que você pode selecionar vários ativos para um round de manutenção, que não são instalados no mesmo local funcional.
 

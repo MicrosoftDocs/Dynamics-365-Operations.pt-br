@@ -3,7 +3,7 @@ title: Definições da árvore de relatórios em relatórios financeiros
 description: Este artigo fornece informações sobre definições da árvore de relatório. Uma relatório definição de árvore é um componente de relatório ou bloco de construção, que ajuda a definir a estrutura e a hierarquia de sua organização.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 10/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8127c694d21064392b1932525a87044b9554973d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6bb16ada206434c0588ed6c140a49b6a5d94d7ed
+ms.sourcegitcommit: a3fbcd63f10f204350a058a124ba80abeb34309e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181809"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "2564158"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Definições da árvore de relatórios em relatórios financeiros
 
@@ -50,7 +50,7 @@ A definição da árvore de relatório contém as colunas descritas na tabela a 
 
 | Coluna da árvore de relatório | Descrição |
 |-----------------------|-------------|
-| Empresa               | O nome da empresa para a unidade organizacional. O valor **@ANY**, que geralmente é atribuído apenas ao nível resumido, permite que a hierarquia organizacional seja usada em todas as empresas. Todas as ramificações filho que têm uma empresa atribuída a elas. |
+| Empresa               | O nome da empresa para a unidade organizacional. O valor **\@ANY**, que geralmente é atribuído apenas ao nível resumido, permite que a hierarquia organizacional seja usada em todas as empresas. Todas as ramificações filho que têm uma empresa atribuída a elas. |
 | Nome da unidade             | O código que identifica esta unidade de relatório na árvore gráfica do relatório. Certifique-se de estabelecer um sistema de codificação exclusivo que é consistente e que seja fácil de entender. |
 | Descrição da Unidade      | O título da unidade de relatório aparece no cabeçalho ou rodapé do relatório se você insere **UnitDesc** como um código na guia **Cabeçalhos e Rodapés** da definição de relatório. O título aparece na descrição da linha do relatório se você insere **UnitDesc** na célula **Descrição** de definição da linha. |
 | Dimensões            | Uma unidade de relatório que obtém informações diretamente dos dados financeiros. Ela define o posicionamento e os comprimentos lógicos da conta e os segmentos relacionados. Cada linha de unidade de relatório deve ter uma dimensão nesta coluna. Você também pode colocar uma dimensão em uma linha de resumo de unidade (por exemplo, para as despesas que estão diretamente relacionadas a essa unidade). Se você inserir uma dimensão em uma linha da unidade de resumo, as contas usadas em unidades pai não deverão ser usadas em unidades filho. Caso contrário, os valores podem ser duplicados. |

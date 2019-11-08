@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f86f6475e5226443f5e4d43fb91acafe2afdbb9
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: aa2d50a976af7ee7dde5335f94336b995fdc2d11
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887379"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652048"
 ---
 # <a name="maintenance-worker-calendar-and-scheduling"></a>Calendário e agendamento de funcionários de manutenção
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
-Ao agendar ordens de trabalho, você cria um agendamento para funcionários de manutenção, ferramentas e ativos. Para executar o agendamento dos funcionários de manutenção, um calendário deve ser configurado para cada funcionário de manutenção. Os funcionários de serviço são relacionados a um recurso e os calendários de produção são configurados nos recursos. Você configura o recurso e o calendário relacionado a um colaborador em **Gerenciamento de ativos** > **Configuração** > **Trabalhadores** > **Trabalhadores**, que é descrito em [Funcionários de manutenção e grupos de trabalhadores](../setup-for-objects/workers-and-worker-groups.md).
+Ao agendar ordens de trabalho, você cria um agendamento para funcionários de manutenção, ferramentas e ativos. Para agendar funcionários de manutenção, um calendário deve ser configurado para cada funcionário de manutenção. Os funcionários de manutenção são relacionados a um recurso e os calendários de produção são configurados para os recursos. Você deve configurar o recurso e o calendário em **Gerenciamento de ativos** > **Configurar** > **Trabalhadores** > **Trabalhadores**, que está descrito em [Funcionários de manutenção e grupos de trabalhadores](../setup-for-objects/workers-and-worker-groups.md).
 
 A captura de tela a seguir mostra um exemplo de um funcionário de manutenção que é relacionado a um recurso que usa o calendário de horas úteis "Produção".
 

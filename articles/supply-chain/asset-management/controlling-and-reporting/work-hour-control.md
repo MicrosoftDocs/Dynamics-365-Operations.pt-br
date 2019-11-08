@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 916e7b8d5d494dbae0659504957f7f0798a6834b
-ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.openlocfilehash: 1a59b4bbf1a4612cea1ba3bd536ba4b018fc621f
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "1918363"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652324"
 ---
 # <a name="work-hour-control"></a>Controle de horas de trabalho
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 No Gerenciamento de ativos, é possível calcular as horas para obter uma visão geral de horas reais em comparação com as horas de orçamento em ativos, locais funcionais ou ordens de serviço. As horas reais são baseadas em transações lançadas.
 
@@ -47,7 +47,11 @@ Os cálculos efetuados para ativos, locais funcionais e ordens de trabalho são 
 
 5. Selecione "Sim" no botão de alternância **Ignorar zero** se não desejar exibir resultados contendo zero horas.
 
-6. Você pode usar o campo **Nível** para indicar o nível de detalhamento desejado das linhas de controle de hora em relação aos locais funcionais. Por exemplo, se você inserir o número "1" no campo e tiver uma hierarquia de localização funcional em vários níveis, todas as linhas de controles de horas para um local funcional serão mostradas no nível superior e, portanto, as horas em uma linha poderão ser adicionadas em locais funcionais localizados em um nível inferior. Se você inserir o número "0" no campo **Nível**, verá um resultado detalhado mostrando todas as linhas de controle de horas em todo o nível do local funcional ao qual elas estão relacionadas.
+6. Você pode usar o campo **Nível** para indicar o nível de detalhamento desejado das linhas de controle de hora em relação aos locais funcionais. 
+
+    Por exemplo, se você inserir o número "1" no campo e tiver uma hierarquia de localização funcional em vários níveis, todas as linhas de controles de horas para um local funcional serão mostradas no nível superior e, portanto, as horas em uma linha poderão ser adicionadas em locais funcionais localizados em um nível inferior. 
+    
+    Se você inserir o número "0" no campo **Nível**, verá um resultado detalhado mostrando todas as linhas de controle de horas em todo o nível do local funcional ao qual elas estão relacionadas.
 
 7. Selecione "Sim" no botão de alternância **incluir subativos** para exibir custos relacionados a subativos como linhas separadas.
 
@@ -55,14 +59,18 @@ Os cálculos efetuados para ativos, locais funcionais e ordens de trabalho são 
 
 9. Clique em **OK**para iniciar o cálculo.
 
-10. Nos grupos do painel de ação **Agrupar por...** na página **Controle de custos de ativos**, clique nos botões relevantes para mostrar o nível de detalhe necessário do cálculo. Os botões do painel de ações selecionados são destacados. Clique em um botão para ativá-los ou desativá-los.
+10. Na página **Controle de hora de ativo**, clique nos botões de **Agrupar por** para mostrar o nível de detalhe necessário do cálculo. Os botões selecionados de **Agrupar por** são realçados. Clique em um botão para ativá-los ou desativá-los.
 
-A figura abaixo mostra um exemplo de cálculo de **Controle de hora de ativo**.
+## <a name="example"></a>Exemplo
 
-![Figura 1](media/04-controlling-and-reporting.png)
+A captura de tela abaixo mostra um exemplo de cálculo de **Controle de hora de ativo**.
+
+- O campo **Orçamento original** mostra as horas do orçamento da previsão da ordem de serviço. 
+- O campo **Horas reais** mostra as horas lançadas nas ordens de serviço. 
+- O campo **Horas comprometidas** mostra a quantidade de horas totais com os quais sua empresa está comprometida em relação às ordens de serviço.
+
+![Exemplo de cálculo de controle de hora de ativo](media/04-controlling-and-reporting.png)
 
 Outra maneira de fazer um cálculo de uma hora é selecionar vários ativos em **Todos os ativos** ou **Ativos válidos**. Em seguida, clique no botão **Controle de horas** na Guia Rápida **Geral**. Os ativos selecionados são inseridos automaticamente no campo **Ativo** na Guia Rápida **Registros a incluir**. Clique em **OK** na caixa de diálogo **Controle de horas de ativo** e o cálculo para os ativos selecionados é exibido. O mesmo procedimento pode ser feito para locais funcionais em **Todos os locais funcionais** ou **Locais funcionais ativos**, e para ordens de serviço **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
 
->[!NOTE]
->O campo **Orçamento original** mostra as horas do orçamento da previsão da ordem de serviço. O campo **Horas reais** mostra as horas lançadas nas ordens de serviço. O campo **Horas comprometidas** mostra a quantidade de horas totais com os quais sua empresa está comprometida em relação às ordens de serviço.
 

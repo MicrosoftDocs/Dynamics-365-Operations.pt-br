@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 571f443b02268cbee8fe787f25419e046ba99aeb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d25bacc2ec1f8e13376b96e188b099a184f7f8c6
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182844"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569123"
 ---
 # <a name="purchase-spend-analysis-power-bi-content"></a>Conteúdo de análise de gastos em compras do Power BI
 
@@ -62,7 +62,7 @@ As seções a seguir fornecem uma visão geral das visualizações.
 - Número total de fornecedores ativos
 
 **Exemplo**
-<img src="media/spend1.PNG" alt="Purchase by vendor">
+<img src="media/spend1.png" alt="Purchase by vendor">
 
 ### <a name="purchase-by-product-report-page"></a>Compra por página de relatórios de produto
 
@@ -79,7 +79,7 @@ As seções a seguir fornecem uma visão geral das visualizações.
 **Exemplo**
 
 
-<img src="media/purchaseByProduct.PNG" alt="Purchase by Product">
+<img src="media/purchaseByProduct.png" alt="Purchase by Product">
 
 ### <a name="purchase-by-period-report-page"></a>Compra por página de relatórios de período
 Essa página exibe compras este ano e no ano passado e crescimento por categoria de compra.
@@ -95,7 +95,7 @@ Essa página exibe compras este ano e no ano passado e crescimento por categoria
 - Porcentagem de crescimento de compra de YOY
 
 **Exemplo**
-<img src="media/purchaseByPeriod.PNG" alt="Purchase by Period">
+<img src="media/purchaseByPeriod.png" alt="Purchase by Period">
 
 ### <a name="purchase-by-vendor-location-report-page"></a>Compra por página de relatórios locais de fornecedor
 
@@ -105,7 +105,7 @@ Essa página exibe compras este ano e no ano passado e crescimento por categoria
 - Compra por país
 
 **Exemplo**
-<img src="media/purchByVendorLocation.PNG" alt="Purchase by Vendor Location">
+<img src="media/purchByVendorLocation.png" alt="Purchase by Vendor Location">
 
 ### <a name="purchase-spend-analysis-by-time-report-page"></a>Análise de gastos de compra por página de relatório de hora
 
@@ -114,7 +114,7 @@ Essa página exibe compras este ano e no ano passado e crescimento por categoria
 - Compra atual e do último ano (gráfico de linha e coluna)
 
 **Exemplo**
-<img src="media/PurchByTIme.PNG" alt="Purchase by Time">
+<img src="media/PurchByTIme.png" alt="Purchase by Time">
 
 ### <a name="purchase-spend-analysis-by-vendor-report-page"></a>Análise de gastos de compra por página de relatório de fornecedor
 
@@ -124,7 +124,7 @@ Essa página exibe compras este ano e no ano passado e crescimento por categoria
 - 10 principais fornecedores com gasto diminuído de YOY
 
 **Exemplo** 
-<img src="media/PurchSpendAnalysisByVendor.PNG" alt="Purchase spend by vendor">
+<img src="media/PurchSpendAnalysisByVendor.png" alt="Purchase spend by vendor">
 
 
 ## <a name="data-model-and-entities"></a>Modelo de dados e entidades

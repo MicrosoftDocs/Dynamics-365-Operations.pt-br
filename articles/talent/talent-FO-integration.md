@@ -3,7 +3,7 @@ title: FAQ sobre a integração do Dynamics 365 Talent com o Dynamics 365 Financ
 description: Este tópico explica quais dados são sincronizados em uma de integração do Talent com o Finance.
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/17/2019
+ms.date: 10/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 5bb855e6dd7ff236b7bda9e59e12ed8cc8ab9bc9
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 8b9fa6b8d5109f873c784d384d49f685f94da228
+ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251005"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622759"
 ---
 # <a name="dynamics-365-talent-to-dynamics-365-finance-integration-faq"></a>FAQ sobre a integração do Dynamics 365 Talent com o Dynamics 365 Finance
 
@@ -35,6 +35,10 @@ Esse tópico responde perguntas comuns associadas a quais dados são sincronizad
 Para o Core HR, um subconjunto de dados é sincronizado. Para uma lista das entidades, consulte [Integração do Dynamics 365 Talent com o Dynamics 365 Finance](talent-financeandoperations-integration.md).
 
 Para o Attract e o Onboard, todos os dados são nativos do Common Data Service.
+
+## <a name="why-dont-i-see-any-data-synced-to-common-data-service"></a>Por que não consigo ver dados sincronizados com o Common Data Service?
+
+Por padrão, a integração com o Common Data Service é desativada em ambientes novos que não incluem os dados de demonstração fornecidos. Por padrão, está ativado em novos ambientes que incluem os dados de demonstração e a sincronização de dados é iniciada quando o ambiente é provisionado. Depois que o ambiente estiver pronto para sincronizar dados, você poderá ativar a integração. Para obter mais informações, consulte [Configurar a integração com o Common Data Service](hr-common-data-service-integration.md).
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Posso criar um novo mapeamento sem usar os modelos?
 

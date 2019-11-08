@@ -3,7 +3,7 @@ title: Previsões de manutenção
 description: Este tópico explica as previsões de manutenção no Gerenciamento de Ativos.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,104 +16,111 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 383c910b40199f2da863144c6dc85a579d0091e9
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a1596b283c3eaffca25ff7f03c722a2bcce109fb
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024490"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626284"
 ---
 # <a name="maintenance-forecasts"></a>Previsões de manutenção
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
 
-Quando você cria uma ordem de serviço, você cria trabalhos da ordem de serviço com ativos e tipos de trabalho de manutenção relacionados. Quando você seleciona um tipo de trabalho de manutenção que contém previsões de manutenção, as previsões são copiadas automaticamente para a ordem de serviço.
+Quando cria uma ordem de serviço, você cria trabalhos da ordem de serviço que possuem ativos e tipos de trabalho de manutenção relacionados. Quando você seleciona um tipo de trabalho de manutenção que contém previsões de manutenção, as previsões são copiadas automaticamente para a ordem de serviço.
 
-Você pode adicionar ou excluir linhas de previsão em uma ordem de serviço. A configuração de um estado de ciclo de vida de ordem de serviço, o tipo de projeto relacionado e as regras de estágio relacionadas ao tipo de projeto determinam se você é capaz de adicionar ou editar linhas de previsão. 
+Você talvez possa adicionar ou excluir linhas de previsão de uma ordem de serviço. A configuração do estado de ciclo de vida da ordem de serviço, o tipo de projeto relacionado e as regras de estágio relacionadas ao tipo de projeto determinam se você pode adicionar ou editar as linhas de previsão. Para obter mais informações sobre os estados de ciclo de vida da ordem de serviço e os estágios do projeto relacionados, consulte [Previsões, ordens de serviço e projetos](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
 
-1. Clique em **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
+1. Selecione **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
 
-2. Selecione a ordem de serviço na lista e clique em **Previsão**. Na **Previsão de manutenção da ordem de serviço**, são exibidas as linhas de previsão do tipo de trabalho de manutenção selecionadas no trabalho da ordem de serviço.
+2. Selecione a ordem de serviço na lista e, em seguida, no Painel de Ação, na guia **Ordem de serviço**, no grupo **Projeto**, selecione **Previsão**. A página **Previsão de manutenção da ordem de serviço** mostra as linhas de previsão do tipo de trabalho de manutenção selecionado no trabalho da ordem de serviço.
 
 
-## <a name="add-hours-forecast-to-a-work-order"></a>Adicione a previsão de horas para uma ordem de serviço
+## <a name="add-an-hours-forecast-to-a-work-order"></a>Adicionar previsão de horas para uma ordem de serviço
 
-1. Selecione o trabalho da ordem de serviço para o qual você deseja adicionar uma previsão.
+1. Na página **Previsão de manutenção da ordem de serviço**, selecione o trabalho da ordem de serviço no qual adicionar uma previsão.
 
-2. Na Guia Rápida **Horas**, clique em **Adicionar** para criar uma nova linha.
+2. Na Guia Rápida **Horas**, selecione **Adicionar** para criar uma linha.
 
-3. Selecione uma categoria no campo **Categoria**.
+3. No campo **Categoria**, selecione uma categoria.
 
 4. Insira o número de horas previstas no campo **Horas**.
 
 5. No campo **Propriedade da linha**, selecione o tipo de encargo a ser usado na linha.
 
 
-## <a name="add-items-forecast-to-a-work-order"></a>Adicione a previsão de itens a uma ordem de serviço
+## <a name="add-an-items-forecast-to-a-work-order"></a>Adicionar previsão de itens em uma ordem de serviço
 
-Existem três maneiras de adicionar itens a uma previsão de manutenção de ordem de serviço: você pode criar linhas para itens (peças sobressalentes) que não estão incluídas na lista de peças de reposição ou BOM de ativos, é possível selecionar peças sobressalentes da lista de peças de reposição aprovadas e você pode selecionar itens da BOM de ativos.
+Há três maneiras de adicionar itens a uma previsão de manutenção de ordem de serviço. Você pode criar linhas para os itens (peças sobressalentes) que não foram incluídos na lista de peças sobressalentes ou na BOM (lista de materiais) de ativos, pode selecionar peças sobressalentes na lista aprovada de peças sobressalentes ou selecionar itens da BOM de ativos.
 
-1. Selecione o trabalho da ordem de serviço para o qual você deseja adicionar uma previsão.
+- Na página **Previsão de manutenção da ordem de serviço**, selecione o trabalho da ordem de serviço no qual adicionar uma previsão.
 
-2. Selecione a Guia Rápida **Itens**.
+- Na Guia Rápida **Itens**, adicione itens à previsão de manutenção usando o método apropriado.
 
-3. Clique em **Adicionar** para criar uma nova linha de uma peça sobressalente que não está na lista de peças sobressalentes ou na lista de BOM de ativos.
+Para criar uma linha para uma peça sobressalente que não está na lista de peças sobressalentes ou na BOM de ativos, siga estas etapas:
 
-4. Selecione o item no campo **Número do item**.
+1. Selecione **Adicionar**.
+2. No campo **Nº do item**, selecione o item.
+3. No campo **Quantidade de venda**, insira a quantidade.
+4. No campo **Unidade**, selecione a unidade de medida da quantidade.
+5. Nos campos **Preço de custo** e **Moeda**, informe os valores apropriados.
+6. No campo **Propriedade da linha**, selecione uma propriedade de linha.
+7. Para alterar a lista de dimensões exibida nas linhas do item, selecione **Estoque** > **Exibir dimensões**, selecione as dimensões e, depois, defina a opção **Salvar configuração** como **Sim**.
 
-5. Insira a quantidade no campo **Quantidade de venda** e selecione uma unidade de quantidade no campo **Unidade**.
+Para adicionar uma peça sobressalente de uma lista aprovada de peças sobressalentes, siga estas etapas:
 
-6. Insira o preço de custo estimado e a moeda nos campos relevantes e selecione uma **Propriedade da linha**.
+1. Selecione **Adicionar peças sobressalentes**.
+2. Selecione a peça sobressalente e edite as informações relacionadas, conforme o necessário.
+3. Selecione **OK**.
 
-7. Se quiser modificar a lista de dimensões exibidas nas linhas do item, clique em **Estoque** > **Dimensões de exibição**, selecione as dimensões e depois "Sim” no botão de alternância **Salvar configuração**.
+Para adicionar um item da BOM de ativos, siga estas etapas:
 
-8. Se quiser adicionar uma peça sobressalente aprovada à previsão de manutenção, clique em **Adicionar peças sobressalentes**, selecione a peça, edite as informações relacionadas, se necessário, e clique em **OK**.
+1. Selecione **Adicionar itens da BOM**.
+2. Selecione o item e edite as informações relacionadas, conforme o necessário.
+3. Selecione **OK**.
 
-9. Se quiser adicionar itens da BOM de ativos à previsão, clique em **Adicionar itens da BOM**, selecione o item, edite as informações relacionadas, se necessário, e clique em **OK**.
-
-10. Clique em **Item onde usado** se quiser obter uma visão geral de onde o item é usado na linha selecionada no Gerenciamento de Ativos em relação aos ativos, padrões do tipo de trabalho de manutenção, peças sobressalentes e ordens de serviço. 
+Para obter uma visão geral que mostre onde o item na linha selecionada é usado em relação a ativos, padrões de tipo de trabalho de manutenção, peças sobressalentes e ordens de serviço no Gerenciamento de Ativos, selecione **Item onde usado**. Para obter mais informações sobre essa visão geral, consulte [Item onde usado](../controlling-and-reporting/item-where-used.md).
 
 
+## <a name="add-an-expense-forecast-to-a-work-order"></a>Adicionar previsão de despesa a uma ordem de serviço
 
-## <a name="add-expense-forecast-to-a-work-order"></a>Adicione a previsão de despesa a uma ordem de serviço
+1. Na página **Previsão de manutenção da ordem de serviço**, selecione o trabalho da ordem de serviço no qual adicionar uma previsão.
 
-1. Este tópico explica como adicionar uma previsão de despesa a uma ordem de serviço. No lado esquerdo do formulário, selecione o trabalho da ordem de serviço no qual você deseja adicionar uma previsão.
+2. Na Guia Rápida **Despesa**, selecione **Adicionar** para criar uma linha.
 
-2. Selecione a Guia Rápida **Despesas**.
+3. No campo **Categoria**, selecione uma categoria.
 
-3. Clique em **Adicionar** para criar uma nova linha.
+4. No campo **Quantidade**, insira a quantidade.
 
-4. Selecione uma categoria no campo **Categoria**.
+5. Nos campos **Preço de custo**, **Moeda de venda** e **Preço de venda**, insira os valores apropriados.
 
-5. Insira quantidade no campo **Quantidade**.
-
-6. Insira preço de custo, moeda de vendas e preço de venda nos campos relevantes.
-
-7. No campo **Propriedade da linha**, selecione o tipo de encargo a ser usado na linha.
+6. No campo **Propriedade da linha**, selecione o tipo de encargo a ser usado na linha.
 
 >[!NOTE]
->Na Guia Rápida **Totais da previsão de manutenção**, você poderá ver uma visão geral do número de linhas criadas em cada guia, para o trabalho da ordem de serviço e para a ordem de serviço. Além disso, você poderá ver uma soma de horas de trabalho esperadas para o trabalho da ordem de serviço e para a ordem de serviço.
+>A Guia Rápida **Totais da previsão de manutenção** mostra uma visão geral do número de linhas que foram criadas em cada Guia Rápida para o trabalho da ordem de serviço selecionado e para a ordem de serviço. Também mostra o total de horas de trabalho previstas para o trabalho da ordem de serviço e para a ordem de serviço.
+
+A ilustração a seguir mostra um exemplo da página **Previsão de manutenção da ordem de serviço**.
 
 ![Figura 1](media/06-work-orders.png)
 
 
 ## <a name="automatic-update-of-work-order-forecasts"></a>Atualização automática de previsões de ordem de serviço
 
-No Gerenciamento de Ativos, você pode atualizar automaticamente todas as alterações nas previsões de ordem de serviço referentes a custos de horas, custos de itens e despesas, que foram atualizadas em outros módulos. Isso é feito para garantir que os preços de custo mais recentes sejam sempre usados nas previsões de ordem de serviço. Também é possível fazer atualizações semelhantes para [previsões do tipo de trabalho de manutenção](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
+Se os valores de custos por hora, custos do item e despesas forem atualizados em outros módulos do Microsoft Dynamics 365 for Finance and Operations, as previsões da ordem de serviço no Gerenciamento de Ativos poderão ser automaticamente atualizadas para refletir essas alterações. Esse recurso ajuda a garantir que os preços de custo mais recentes sejam sempre usados nas previsões de ordem de serviço. Você também pode fazer atualizações semelhantes para [previsões de tipo de trabalho de manutenção](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
 
-1. Clique em **Gerenciamento de ativos** > **Periódico** > **Previsão** > **Atualizar previsão da ordem de serviço**.
+1. Selecione **Gerenciamento de ativos** > **Periódico** > **Previsão** > **Atualizar previsão da ordem de serviço**.
 
-2. Na caixa de diálogo suspensa **Atualizar previsão da ordem de serviço** é possível adicionar seleções sobre ordens de serviço ou trabalhos da ordem de serviço específicos, se necessário. Clique em **Filtro** para fazer essas seleções.
+2. Na caixa de diálogo **Atualizar previsão da ordem de serviço**, na Guia Rápida **Registros a serem incluídos**, você pode adicionar seleções relacionadas a ordens de serviço ou trabalhos da ordem de serviço específicos, conforme o necessário. Clique em **Filtro** para fazer as seleções relevantes.
 
-3. Se necessário, você pode configurar a atualização automática como trabalho em lotes na Guia Rápida **Executar em segundo plano**.
+3. Na Guia Rápida **Executar em segundo plano**, você pode configurar a atualização automática como um trabalho em lote, conforme necessário.
 
-4. Clique em **OK** para iniciar a atualização da previsão.
+4. Selecione **OK** para iniciar a atualização da previsão.
 
+
+A ilustração a seguir mostra um exemplo da caixa de diálogo **Atualizar previsão da ordem de serviço**.
 
 ![Figura 2](media/07-work-orders.png)
-

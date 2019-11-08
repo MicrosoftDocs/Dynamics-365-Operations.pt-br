@@ -18,34 +18,34 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5271b673d758608cae8e43d72b7e75b259d5f142
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: e3a42d36fd137aa780886276a4235f1b8f3a3680
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024605"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653338"
 ---
 # <a name="functional-locations-and-assets"></a>Locais e ativos funcionais
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Este tópico descreve locais e ativos funcionais em Gerenciamento de Ativos. O Gerenciamento de Ativos é um módulo avançado para gerenciar ativos e trabalhos de manutenção no Dynamics 365 Supply Chain Management.
 
 ## <a name="overview"></a>Visão Geral
 
-O Gerenciamento de Ativos está perfeitamente integrado a vários módulos no Finance and Operations. A ilustração a seguir mostra as interfaces com outros módulos.
+O Gerenciamento de Ativos está perfeitamente integrado a vários módulos com outros aplicativos do Finance and Operations. A ilustração a seguir mostra as interfaces com outros módulos.
 
-![Figura 1](media/01-overview-image.png)
+![Diagrama mostrando como o Gerenciamento de Ativos interage com outros módulos](media/01-overview-image.png)
 
 O Gerenciamento de Ativos permite que você gerencie e execute com eficiência todas as tarefas relacionadas ao gerenciamento e à manutenção de vários tipos de equipamentos na sua empresa. Este equipamento inclui computadores, equipamento de produção e veículos. O Gerenciamento de Ativos também dá suporte a soluções em vários setores.
 
 A ilustração a seguir mostra uma visão geral da funcionalidade principal que é coberta pelo Gerenciamento de Ativos.
 
-![Figura 2](media/02-overview-image.png)
+![Diagrama mostrando a principal funcionalidade do Gerenciamento de Ativos](media/02-overview-image.png)
 
-## <a name="functional-locations-and-assets"></a>Locais e ativos funcionais
+## <a name="functional-locations-and-assets"></a>Locais funcionais e ativos
 
 Os locais funcionais são usados para gerenciar ativos em locais. Este gerenciamento inclui o controle de custos de ativos em locais funcionais. Os locais funcionais são estruturados hierarquicamente e os locais podem ter sublocais. A estrutura de locais funcionais é estática. Ou seja, locais não podem mudar de lugar. Ativos podem ser instalados em locais funcionais e, se necessário, podem ser instalados em outros locais funcionais posteriormente.
 
@@ -53,8 +53,8 @@ Custos de ativos sempre acompanham o local do ativo. Ou seja, se você instalar 
 
 A maneira que você cria a hierarquia de locais funcionais depende de requisitos da sua empresa para manter equipamentos internos ou atender equipamentos de clientes. A figura a seguir mostra um exemplo de locais funcionais baseados em localizações geográficas.
 
-![Figura 3](media/03-overview-image.png)
+![Diagrama mostrando locais funcionais com base em locais geográficos](media/03-overview-image.png)
 
 A figura a seguir mostra um exemplo de locais funcionais baseados em clientes.
 
-![Figura 4](media/04-overview-image.png)
+![Diagrama mostrando locais funcionais com base em clientes](media/04-overview-image.png)

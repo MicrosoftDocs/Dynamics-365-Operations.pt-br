@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 29f9975d8270b3f79d0aac0c62609b4a9c71ae89
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 322e3ac6f7c37fffdd4d59ed86bccec10559f4b9
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874615"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569768"
 ---
 # <a name="work-order-project-setup"></a>Configuração do projeto da ordem de serviço
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 No módulo **Gerenciamento de ativos**, uma relação de projeto é necessária para cada trabalho de ordem de serviço. O projeto associado a um trabalho de ordem de serviço permite que você controle os custos em diversos projetos relacionados ao Gerenciamento de Ativos, como projetos internos de manutenção, projetos de gerenciamento de serviços e projetos de investimentos. 
 
@@ -72,7 +72,7 @@ A configuração permite a integração completa com o módulo **Gerenciamento e
 
     Por padrão, a data de início é a data em que você adiciona o projeto de ordem de serviço à página. É controlada pelo campo **Válido a partir de**, que está oculto por padrão. Para mostrar o campo **Válido a partir de**, selecione **Exibir** \> **Tudo**. Você pode usar o campo **Válido a partir de** com o campo **Data de término** para configurar um período limitado de validade para o projeto de ordem de serviço.
 
-    ![Figura 1](media/17-setup-for-work-orders.png)
+    ![Página de configuração do projeto das ordens de serviço](media/17-setup-for-work-orders.png)
 
 6. Na guia **Grupo de projetos**, selecione **Adicionar**.
 7. No campo **Tipo de ordem de serviço**, selecione um tipo de ordem de serviço.
@@ -80,7 +80,7 @@ A configuração permite a integração completa com o módulo **Gerenciamento e
 9. No campo **Grupo de projetos**, selecione o grupo de projetos que deve estar relacionado ao tipo de ordem de serviço. Por exemplo, um tipo de ordem de serviço que é chamado de **Manutenção preventiva** pode ser associado a um grupo de projetos chamado **Manut Prev** ou **Interno**. Como alternativa, um tipo de ordem de serviço **Investimento** que é usado para ordens de serviço relacionadas a investimentos e ativos fixos pode ser associado a um grupo de projetos chamado **Investir** ou **Investimento**.
 10. Selecione **Salvar**.
 
-![Figura 2](media/18-setup-for-work-orders.png)
+![Página de configuração do projeto das ordens de serviço, Adicionar ordem de serviço](media/18-setup-for-work-orders.png)
 
 > [!NOTE]
 > Sempre que uma linha de ordem de serviço for criada, o Gerenciamento de Ativos pesquisa um grupo de projetos que deverá ser relacionado ao projeto de trabalho de ordem de serviço. A pesquisa baseia-se na configuração descrita neste tópico. Todos os grupos de projetos têm um tipo de projeto relacionado. Os grupos de projetos com o tipo de projeto **Tempo e material** ou **Preço fixo** são válidos somente para ativos relacionados a uma conta de cliente.

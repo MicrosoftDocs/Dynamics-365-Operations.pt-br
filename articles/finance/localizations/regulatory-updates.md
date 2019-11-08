@@ -3,7 +3,7 @@ title: Atualizações regulatórias
 description: Este tópico fornece uma lista de atualizações regulatórias planejadas e liberadas para o Microsoft Dynamics 365 Finance.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 09/30/2019
+ms.date: 10/23/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: dc5a9669a9c6c298a4f9df52346b8a075ba177e0
-ms.sourcegitcommit: a4e1a28b4733f3356e5a2237c8ba5d93f9799391
+ms.openlocfilehash: adb88a5fb79b24a26aa2976464d3e838922322c6
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2517302"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653195"
 ---
 # <a name="regulatory-updates"></a>Atualizações regulatórias
 
@@ -28,9 +28,7 @@ ms.locfileid: "2517302"
 
 Este tópico lista as atualizações regulatórias planejadas e liberadas em localizações compatíveis para o Dynamics 365 Finance. Os cronogramas de entrega podem mudar e a funcionalidade projetada pode ser diferente ou não ser liberada. Leia [Política da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2007332) para obter mais informações. 
 
-Atualizações regulatórias são recursos implementados para oferecer suporte a uma legislação nova ou modificada específica de um país. Para obter mais informações sobre outros recursos planejados ou liberados específicos de um país, consulte os seguintes recursos:
-- [Notas de versão do Dynamics 365 e da Power Platform](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Novidades para o Microsoft Dynamics 365 for Finance and Operations](../../fin-and-ops/get-started/whats-new-changed.md)
+Atualizações regulatórias são recursos implementados para oferecer suporte a uma legislação nova ou modificada específica de um país. Para obter mais informações sobre outros recursos planejados ou liberados específicos de um país, consulte os [Planos de versão do Dynamics 365 e Power Platform](https://docs.microsoft.com/business-applications-release-notes/index)
 
 A Microsoft se esforça para implementar novos requisitos regulatórios o mais cedo possível. A data de entrega real depende da data de anúncio da legislação, da disponibilidade dos detalhes da requisição por parte das autoridades locais, da disponibilidade de ferramentas de validação e do tamanho e da complexidade das alterações.
 
@@ -44,13 +42,19 @@ Para obter informações sobre os planos de atualizações regulatórias mais re
 
 |Data de lançamento planejada|Versão de lançamento|País/região|Atualização regulatória|
 |--------------------|---------------|-------|-------|
-|      Agosto de 2019          |   10.0.6(PEAP), 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brasil      |   Uma nova versão de notas técnicas para o NF-e: NT 2019.001 versão 1.10    |
-|      Agosto de 2019          |   10.0.6(PEAP), 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brasil      |   Uma nova versão de notas técnicas para o NF-e: NT 2019.001 versão 1.20    |
-|      Agosto de 2019          |   10.0.6(PEAP)      | Brasil      |   SC da declaração DRCST   |
-|      Agosto de 2019          |   10.0.6(PEAP), 10.0.5HF      | Brasil     |   Nova legislação é implementada pelo estado do RJ em relação a EFD-ICMS/IPI. A implementação da Resolução 13/19 do Rio de janeiro (RJ) é para que "Procedimentos especiais sejam aplicados em Exoneração"     |
-|      Agosto de 2019          |   10.0.6(PEAP)      | Brasil      |   Demonstrativo de imposto CAT 42/18    |
-|      Agosto de 2019          |   10.0.6(PEAP)      | Itália      |   Alterações no gerenciamento de IVA pela D.L. 119 de 23 de outubro de 2018 – Dynamics 365 for Finance and Operations v.10.0.6  |
-|      Agosto de 2019          |   10.0.6(PEAP), 10.0.5HF, 10.0.4HF, 10.0.3HF      | Japão      |   Alteração da alíquota de imposto de consumo e introdução da alíquota de imposto reduzida    |
+|      Novembro de 2019          |   10.0.7(PEAP)      | Itália      |   Alterações no gerenciamento de IVA pela D.L. 119 de 23 de out de 2019: comunicação trimestral de IVA ("Lipe 2018")    |
+|      Novembro de 2019          |   10.0.7(PEAP)      | Itália      |   Retail - gerenciar informações do cliente no PDV |
+|      Novembro de 2019          |   10.0.7(PEAP)      | Itália      |   Retail - imprimir informações do cliente no recibo fiscal | 
+|      Novembro de 2019          |   10.0.7(PEAP)      | Japão      |   A alteração da taxa de consumo e a taxa de imposto reduzida são introduzidas (layouts de fatura) | 
+|      Novembro de 2019          |   10.0.7(PEAP)      | México      |   Atualizar regra 2.7.2.9 - usando o fuso horário do CEP do estabelecimento que emite o documento de CFDI | 
+|      Novembro de 2019          |   10.0.7(PEAP)      | Reino Unido     |   Digitalizar impostos - criação de relatório de declaração de IVA de empresas relatadas como grupo de IVA dentro do mesmo banco de dados do sistema v.10 | 
+|      Novembro - Agosto de 2019          |   10.0.7(PEAP), 10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brasil      |   Uma nova versão de notas técnicas para o NF-e: NT 2019.001 versão 1.20    |
+|      Novembro - Agosto de 2019          |   10.0.7(PEAP), 10.0.6      | Brasil      |   SC da declaração DRCST   |
+|      Novembro - Agosto de 2019          |   10.0.7(PEAP), 10.0.6      | Itália      |   Alterações no gerenciamento de IVA pela D.L. 119 de 23 de out de 2018 - Dynamics 365 for Finance and Operations  |
+|      Agosto de 2019          |   10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brasil      |   Uma nova versão de notas técnicas para o NF-e: NT 2019.001 versão 1.10    |
+|      Agosto de 2019          |   10.0.6, 10.0.5HF      | Brasil     |   Nova legislação é implementada pelo estado do RJ em relação a EFD-ICMS/IPI. A implementação da Resolução 13/19 do Rio de janeiro (RJ) é para que "Procedimentos especiais sejam aplicados em Exoneração"     |
+|      Agosto de 2019          |   10.0.6      | Brasil      |   Demonstrativo de imposto CAT 42/18    |
+|      Agosto de 2019          |   10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Japão      |   Alteração da alíquota de imposto de consumo e introdução da alíquota de imposto reduzida    |
 |      Agosto – julho de 2019          |   10.0.5, 10.0.4HF, 10.0.3HF      | Espanha      |   Espanha SII: As regras de validação serão alteradas em 1º de outubro de 2019    |
 |      Julho de 2019          |   10.0.5, 10.0.4HF, 10.0.2HF      | Brasil      |   Uma nova versão de notas técnicas para o NF-e: NT 2019.001 versão 1.00  |
 |      Julho de 2019          |   10.0.5      | Brasil      |   Guia prático de contribuições do Sped 1.31. novas diretrizes    |
@@ -66,7 +70,7 @@ Para obter informações sobre os planos de atualizações regulatórias mais re
 |      2019 de abril          |   10.0.3, 10.0.2HF, 10.0.1HF      | Brasil     |   Layout 7 de SPED ECD    |
 |      2019 de abril          |   10.0.3      | Brasil      |   SPED ECF - Layout 5 de 2019    |
 |      2019 de abril          |   10.0.3      | Índia      |   Ajuste de imposto na moeda alfandegária no BOE em vez de realizar na moeda de transação    |
-|      2019 de abril          |   10.0.3      | Índia      |   Cálculo de imposto na moeda alfandegária no BOE em vez de realizar na moeda de transação)    |
+|      2019 de abril          |   10.0.3      | Índia      |   Cálculo de imposto na moeda alfandegária no BOE em vez de realizar na moeda de transação   |
 |      2019 de abril          |   10.0.3, 10.02HF, 10.0.1HF      | Índia      |   Alteração do formato do número IEC    |
 |      2019 de abril          |   10.0.3      | Lituânia      |   O relatório i.SAF da Lituânia permite que o usuário defina códigos de imposto do sistema em associação com códigos fiscais legais)    |
 |      2019 de abril          |   10.0.3      | Polônia      |   Faturas SAF (JPK_FA) v.2 de 1º de julho de 2019    |

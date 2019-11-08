@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 63e5ec5b2a47706763df8105932d722986535a9b
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: fa458d95592741eacc86ce96b794a7216b37ec84
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783067"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571406"
 ---
 # <a name="asset-view"></a>Exibir ativo
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Este tópico descreve a exibição de ativos no Asset Management. A página **Exibição de ativos** mostra os ativos e locais funcionais em uma exibição de árvore. Portanto, você pode obter com facilidade uma visão geral das relações de ativos a locais funcionais. Além disso, você pode exibir informações detalhadas sobre locais funcionais, ativos e listas de materiais (BOMs) relacionadas. Você também pode obter uma rápida visão geral de solicitações de manutenção ativa e ordens de serviço relacionadas a um ativo.
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbc8e4b942c3c5307d90bfd08a33a8b27c4352d2
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6c3d83334bcccc62a2cbe761272b13cc80e10c11
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249718"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658801"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Criar documentação ou treinamento com o Gravador de tarefas
 
@@ -68,21 +68,21 @@ Se você estiver criando uma nova gravação de tarefa ou baseando sua gravaçã
 
 Este é o painel de edição que é exibido quando você adiciona uma anotação durante a criação da gravação. Insira uma nota de título na caixa **Título**. 
 
-[![tela1](./media/screen1.png)](./media/screen1.png) 
+[![Painel de edição com a anotação do título](./media/screen1.png)](./media/screen1.png) 
 
 É assim que a anotação de título se parece na "bolha" no guia de tarefas. 
 
-[![tela2](./media/screen2.png)](./media/screen2.png)
+[![Aparência da anotação do título na guia de tarefas](./media/screen2.png)](./media/screen2.png)
 
 -   **Observações:** Uma anotação de observação aparecerá depois do texto da etapa que o gravador de tarefas gera automaticamente. No guia de tarefa isso será visível apenas se o usuário clicar no link **Mostrar mais** na bolha da guia de tarefa. Utilize este tipo de anotação para descrever qualquer coisa que um usuário precisa saber para concluir a etapa.
 
 Este é o painel de edição que é exibido quando você adiciona uma anotação durante a criação da gravação. Insira notas de título na caixa **Notas**. 
 
-[![tela3](./media/screen3.png)](./media/screen3.png) 
+[![Painel de edição com anotações na caixa Notas](./media/screen3.png)](./media/screen3.png) 
 
 É assim que as anotações de título se parece na "bolha" no guia de tarefas.
 
-[![tela4](./media/screen4.png)](./media/screen4.png)
+[![Aparência da anotação das Notas na guia de tarefas](./media/screen4.png)](./media/screen4.png)
 
 -   **Etapa informativa**: Essas anotações são criadas ao clicar com o botão direito do mouse em um controle ou em qualquer lugar de um formulário &lt; **Gravador de tarefas** &lt; **Adicionar etapa informativa. **Etapas informativas aparecem como uma etapa numerada no lugar e momento em que foram inseridas, mesmo que nenhuma ação tenha sido gravada na UI. Você pode adicionar uma etapa informativa de nível de formulário ou uma etapa informativa associada a um controle. Quando uma etapa informativa está associada a um formulário, a "bolha" do guia de tarefa irá aparecer em algum lugar do formulário, sem um ponteiro, quando o guia de tarefa for executado. Quando uma etapa de informação é associada a um controle, a guia de tarefas "bolha" aponta para o controle quando o guia de tarefas é reproduzido. No painel de Ajuda, uma anotação de passo de informações será exibida como uma etapa numerada com qualquer texto digitado. Utilize etapas informativas para preparar o usuário para as próximas etapas, para descrever etapas que devem ser feitas fora do aplicativo ou para fazer referência a outras gravações (embora não seja possível criar hiperlinks nas anotações).
 

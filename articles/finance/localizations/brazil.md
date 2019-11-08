@@ -16,12 +16,12 @@ ms.search.region: Brazil
 ms.author: shylaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: f23f571b5739db35915aebbd94ef73327f2823c5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 17c62a8f16a36ceeea9ddc75e7f5e079101bcaf0
+ms.sourcegitcommit: a8696b0542325d467eeb57b12fd643b1d9269f76
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183897"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2651768"
 ---
 # <a name="brazil-overview"></a>Visão geral de Brasil
 
@@ -53,6 +53,7 @@ Este tópico inclui informações e links para recursos que podem ajudar você a
 - [Parâmetros para entidades legais](latam-bra-legal-entity-parameters.md)
 - [Adquirir e alienar um ativo fixo do CIAP](latam-bra-ciap-fixed-asset.md)
 - [SPED ECD](latam-bra-sped-ecd.md)
+- [Resolução do SPED fiscal 13/2019 RJ](latam-bra-resolution-13-2019-RJ.md)
 - [Impostos](latam-bra-calculate-taxes.md)
   - [Calcular impostos em cotações de compra](tasks/br-00031-tax-calculation-purchase-quotation.md)
   - [Criar apuração de imposto – ICMS](tasks/br-10001-4-create-tax-assessment-icms.md)

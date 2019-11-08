@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdfc5eda1ebf78abe823908324ed9c35215e562e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c689df9b00ad2d4ce161c6fdb1193f48cacbfcbc
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249554"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653502"
 ---
 # <a name="demand-forecasting-setup"></a>Configuração da previsão de demanda
 
@@ -72,7 +72,7 @@ Para gerar a previsão, o Supply Chain Management usa um serviço Web de Aprendi
 
 **Observação:** o nome e a chave da conta de armazenamento do Azure serão necessários apenas se você usar uma conta de armazenamento personalizada. Se você implantar a versão local, deverá ter uma conta de armazenamento personalizada no Azure, para que o serviço de Aprendizado de Máquina acesse os dados históricos. 
 
-Para criar previsões de demanda, você pode implantar seu próprio serviço usando os experimentos de previsão de demanda do Estúdio de Aprendizado de Máquina ou do Supply Chain Management. As instruções para implantar os experimentos de previsão de demanda como um serviço Web estão disponíveis no Finance and Operations. Na página **Parâmetros de previsão de demanda**, clique na guia **Aprendizado de Máquina do Azure**.
+Para criar previsões de demanda, você pode implantar seu próprio serviço usando os experimentos de previsão de demanda do Estúdio de Aprendizado de Máquina ou do Supply Chain Management. As instruções para implantar os experimentos de previsão de demanda como um serviço Web estão disponíveis no Supply Chain Management. Na página **Parâmetros de previsão de demanda**, clique na guia **Aprendizado de Máquina do Azure**.
 
 ## <a name="settings-for-the-demand-forecasting-machine-learning-service"></a>Configurações do serviço de Aprendizado de Máquina da previsão de demanda.
 Para exibir os parâmetros que podem ser configurados para o serviço de previsão de demanda, vá para **Planejamento Mestre** &gt; **Configuração** &gt; **Previsão de demanda** &gt; **Prevendo parâmetros de algoritmo**. A pagina **Parâmetros do algoritmo de previsão** mostra os valores padrão dos parâmetros. Você pode substituir os parâmetros na página **Parâmetros de previsão de demanda**. Use a guia **Geral** para substituir os parâmetros globalmente ou use a guia **Chaves de alocação de itens** para substituir os parâmetros por chave de alocação de item. Os parâmetros que são substituídos em uma chave de alocação de item afetam apenas a previsão dos itens associados a essa chave de alocação de item.

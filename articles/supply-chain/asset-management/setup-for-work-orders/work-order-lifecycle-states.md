@@ -18,19 +18,19 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 69d06ff649f4453df22d55062b43bcc8d4ecd763
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: f531f51d7f42f88e4da2d046e61313e9ada2b259
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874707"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569791"
 ---
 # <a name="work-order-lifecycle-states"></a>Estados de ciclo de vida da ordem de serviço
 
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Os estados de ciclo de vida da ordem de serviço definem os estados pelos quais uma ordem de serviço pode passar. Exemplos incluem **Criado**, **Agendado**, **Em andamento** e **Encerrado**. Os estados de ciclo de vida da ordem de serviço podem ser atualizados manualmente em uma ordem de serviço, ou podem ser automaticamente atualizados (por exemplo, durante o agendamento da ordem de serviço).
 
@@ -38,7 +38,7 @@ Os estados de ciclo de vida da ordem de serviço necessários para as ordens de 
 
 A tabela a seguir descreve as opções nas seções **Ordem de serviço** e **Agenda** na FastTab **Geral** da página **Estado de ciclo de vida da ordem de serviço** (**Gerenciamento de Ativos**\> **Configuração**\> **Ordens de serviço**\> **Estados de ciclo de vida**).
 
-![Figura 1](media/09-setup-for-work-orders.png)
+![Página de estados do ciclo de vida da ordem de serviço](media/09-setup-for-work-orders.png)
 
 | Nome da opção                   | Descrição |
 |-------------------------------|-------------|
@@ -96,7 +96,7 @@ A tabela a seguir descreve as opções nas seções **Ordem de serviço** e **Ag
     - Se a opção **Tempo de inatividade de manutenção** estiver definida como **Sim** para o estado de ciclo de vida para o qual uma ordem de serviço é atualizada, a validação do tempo de inatividade de manutenção será feita no ativo relacionado à ordem de serviço. Se um registro do tempo de inatividade de manutenção foi feito, mas não houver nenhum registro **Encerrado**, a mensagem será exibida quando a ordem de serviço for atualizada para este estado de ciclo de vida.
     - Se a configuração padrão do projeto não inclui todos os estágios necessários para sua configuração de Gerenciamento de Ativos, você poderá configurar estágios do projeto definidos pelo usuário na guia **Estágio do projeto** da página **Parâmetros de gerenciamento e contabilidade de projetos**. A ilustração a seguir mostra a guia **Estágio do projeto** na página **Parâmetros de gerenciamento e contabilidade de projetos**.
 
-    ![Figura 2](media/10-setup-for-work-orders.png)
+    ![Página de configuração de fases do projeto dos vários tipos de projeto](media/10-setup-for-work-orders.png)
 
 > [!NOTE]
 > Se o estado de ciclo de vida para o qual você atualizar uma ordem de serviço estiver inativo, os diários relacionados à ordem de serviço mas que ainda não foram lançados serão excluídos automaticamente. Esse comportamento ajuda a garantir a limpeza automática de dados não utilizados. (O estado de ciclo de vida estará inativo se a opção **Ativo** estiver definida como **Não** na FastTab **Geral** da página **estado de ciclo de vida da ordem de serviço**.)
@@ -114,7 +114,7 @@ O motivo de usar tipos é que quando um tipo é definido em, por exemplo, uma or
 
 A ilustração a seguir mostra a relação entre os tipos de ordem de serviço, os modelos de ciclo de vida e os estados de ciclo de vida.
 
-![Figura 3](media/11-setup-for-work-orders.png)
+![Página de tipos de ordem de serviço comparada à página de modelos de ciclo de vida de ordem de serviço](media/11-setup-for-work-orders.png)
 
 ## <a name="work-order-lifecycle-models"></a>Modelos de ciclo de vida da ordem de serviço
 
@@ -138,4 +138,4 @@ Depois que você criar os estados de ciclo de vida da ordem de serviço que são
 8. No campo **Estado de ciclo de vida não agendado**, selecione o estado de ciclo de vida que sempre deverá ser selecionado para uma ordem de serviço se o agendamento da ordem de serviço for excluído.
 9. Salve o modelo de ciclo de vida da ordem de serviço.
 
-![Figura 4](media/15-setup-for-work-orders.png)
+![Página de modelos de ciclo de vida da ordem de serviço](media/15-setup-for-work-orders.png)
