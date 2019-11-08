@@ -3,7 +3,7 @@ title: Previsões de manutenção
 description: Este tópico explica as previsões de manutenção no Gerenciamento de Ativos.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,104 +16,111 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 383c910b40199f2da863144c6dc85a579d0091e9
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a1596b283c3eaffca25ff7f03c722a2bcce109fb
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024490"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626284"
 ---
-# <a name="maintenance-forecasts"></a><span data-ttu-id="aae36-103">Previsões de manutenção</span><span class="sxs-lookup"><span data-stu-id="aae36-103">Maintenance forecasts</span></span>
+# <a name="maintenance-forecasts"></a><span data-ttu-id="f61f5-103">Previsões de manutenção</span><span class="sxs-lookup"><span data-stu-id="f61f5-103">Maintenance forecasts</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
 
-<span data-ttu-id="aae36-104">Quando você cria uma ordem de serviço, você cria trabalhos da ordem de serviço com ativos e tipos de trabalho de manutenção relacionados.</span><span class="sxs-lookup"><span data-stu-id="aae36-104">When you create a work order, you create work order jobs with related assets and maintenance job types.</span></span> <span data-ttu-id="aae36-105">Quando você seleciona um tipo de trabalho de manutenção que contém previsões de manutenção, as previsões são copiadas automaticamente para a ordem de serviço.</span><span class="sxs-lookup"><span data-stu-id="aae36-105">When you select a maintenance job type containing maintenance forecasts, the forecasts are automatically copied to the work order.</span></span>
+<span data-ttu-id="f61f5-104">Quando cria uma ordem de serviço, você cria trabalhos da ordem de serviço que possuem ativos e tipos de trabalho de manutenção relacionados.</span><span class="sxs-lookup"><span data-stu-id="f61f5-104">When you create a work order, you create work order jobs that have related assets and maintenance job types.</span></span> <span data-ttu-id="f61f5-105">Quando você seleciona um tipo de trabalho de manutenção que contém previsões de manutenção, as previsões são copiadas automaticamente para a ordem de serviço.</span><span class="sxs-lookup"><span data-stu-id="f61f5-105">When you select a maintenance job type that contains maintenance forecasts, the forecasts are automatically copied to the work order.</span></span>
 
-<span data-ttu-id="aae36-106">Você pode adicionar ou excluir linhas de previsão em uma ordem de serviço.</span><span class="sxs-lookup"><span data-stu-id="aae36-106">You may be able to add or delete forecast lines on a work order.</span></span> <span data-ttu-id="aae36-107">A configuração de um estado de ciclo de vida de ordem de serviço, o tipo de projeto relacionado e as regras de estágio relacionadas ao tipo de projeto determinam se você é capaz de adicionar ou editar linhas de previsão.</span><span class="sxs-lookup"><span data-stu-id="aae36-107">The setup of a work order lifecycle state, the related project type, and the stage rules related to the project type determines if you are able to add or edit forecast lines.</span></span> 
+<span data-ttu-id="f61f5-106">Você talvez possa adicionar ou excluir linhas de previsão de uma ordem de serviço.</span><span class="sxs-lookup"><span data-stu-id="f61f5-106">You might be able to add forecast lines to a work order or delete them from a work order.</span></span> <span data-ttu-id="f61f5-107">A configuração do estado de ciclo de vida da ordem de serviço, o tipo de projeto relacionado e as regras de estágio relacionadas ao tipo de projeto determinam se você pode adicionar ou editar as linhas de previsão.</span><span class="sxs-lookup"><span data-stu-id="f61f5-107">The setup of the work order lifecycle state, the related project type, and the stage rules that are related to the project type determine whether you can add or edit forecast lines.</span></span> <span data-ttu-id="f61f5-108">Para obter mais informações sobre os estados de ciclo de vida da ordem de serviço e os estágios do projeto relacionados, consulte [Previsões, ordens de serviço e projetos](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).</span><span class="sxs-lookup"><span data-stu-id="f61f5-108">For more information about work order lifecycle states and related project stages, see [Forecasts, work orders, and projects](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).</span></span>
 
-1. <span data-ttu-id="aae36-108">Clique em **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**.</span><span class="sxs-lookup"><span data-stu-id="aae36-108">Click **Asset management** > **Common** > **Work orders** > **All work orders** or **Active work orders**.</span></span>
+1. <span data-ttu-id="f61f5-109">Selecione **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**.</span><span class="sxs-lookup"><span data-stu-id="f61f5-109">Select **Asset management** > **Common** > **Work orders** > **All work orders** or **Active work orders**.</span></span>
 
-2. <span data-ttu-id="aae36-109">Selecione a ordem de serviço na lista e clique em **Previsão**.</span><span class="sxs-lookup"><span data-stu-id="aae36-109">Select the work order in the list, and click **Forecast**.</span></span> <span data-ttu-id="aae36-110">Na **Previsão de manutenção da ordem de serviço**, são exibidas as linhas de previsão do tipo de trabalho de manutenção selecionadas no trabalho da ordem de serviço.</span><span class="sxs-lookup"><span data-stu-id="aae36-110">In **Work order maintenance forecast**, forecast lines from the maintenance job type selected on the work order job are displayed.</span></span>
-
-
-## <a name="add-hours-forecast-to-a-work-order"></a><span data-ttu-id="aae36-111">Adicione a previsão de horas para uma ordem de serviço</span><span class="sxs-lookup"><span data-stu-id="aae36-111">Add hours forecast to a work order</span></span>
-
-1. <span data-ttu-id="aae36-112">Selecione o trabalho da ordem de serviço para o qual você deseja adicionar uma previsão.</span><span class="sxs-lookup"><span data-stu-id="aae36-112">Select the work order job to which you want to add a forecast.</span></span>
-
-2. <span data-ttu-id="aae36-113">Na Guia Rápida **Horas**, clique em **Adicionar** para criar uma nova linha.</span><span class="sxs-lookup"><span data-stu-id="aae36-113">On the **Hours** FastTab, click **Add** to create a new line.</span></span>
-
-3. <span data-ttu-id="aae36-114">Selecione uma categoria no campo **Categoria**.</span><span class="sxs-lookup"><span data-stu-id="aae36-114">Select a category in the **Category** field.</span></span>
-
-4. <span data-ttu-id="aae36-115">Insira o número de horas previstas no campo **Horas**.</span><span class="sxs-lookup"><span data-stu-id="aae36-115">Insert number of forecasted hours in the **Hours** field.</span></span>
-
-5. <span data-ttu-id="aae36-116">No campo **Propriedade da linha**, selecione o tipo de encargo a ser usado na linha.</span><span class="sxs-lookup"><span data-stu-id="aae36-116">In the **Line property** field, select the charge type to be used on the line.</span></span>
+2. <span data-ttu-id="f61f5-110">Selecione a ordem de serviço na lista e, em seguida, no Painel de Ação, na guia **Ordem de serviço**, no grupo **Projeto**, selecione **Previsão**.</span><span class="sxs-lookup"><span data-stu-id="f61f5-110">Select the work order in the list, and then, on the Action Pane > **Work order** tab > the **Project** group, select **Forecast**.</span></span> <span data-ttu-id="f61f5-111">A página **Previsão de manutenção da ordem de serviço** mostra as linhas de previsão do tipo de trabalho de manutenção selecionado no trabalho da ordem de serviço.</span><span class="sxs-lookup"><span data-stu-id="f61f5-111">The **Work order maintenance forecast** page shows forecast lines from the maintenance job type that is selected on the work order job.</span></span>
 
 
-## <a name="add-items-forecast-to-a-work-order"></a><span data-ttu-id="aae36-117">Adicione a previsão de itens a uma ordem de serviço</span><span class="sxs-lookup"><span data-stu-id="aae36-117">Add items forecast to a work order</span></span>
+## <a name="add-an-hours-forecast-to-a-work-order"></a><span data-ttu-id="f61f5-112">Adicionar previsão de horas para uma ordem de serviço</span><span class="sxs-lookup"><span data-stu-id="f61f5-112">Add an hours forecast to a work order</span></span>
 
-<span data-ttu-id="aae36-118">Existem três maneiras de adicionar itens a uma previsão de manutenção de ordem de serviço: você pode criar linhas para itens (peças sobressalentes) que não estão incluídas na lista de peças de reposição ou BOM de ativos, é possível selecionar peças sobressalentes da lista de peças de reposição aprovadas e você pode selecionar itens da BOM de ativos.</span><span class="sxs-lookup"><span data-stu-id="aae36-118">There are three ways to add items to a work order maintenance forecast: You can create lines for items (spare parts) that are not included in the spare parts list or asset BOM, you can select spare parts from the approved spare parts list, and you can select items from the asset BOM.</span></span>
+1. <span data-ttu-id="f61f5-113">Na página **Previsão de manutenção da ordem de serviço**, selecione o trabalho da ordem de serviço no qual adicionar uma previsão.</span><span class="sxs-lookup"><span data-stu-id="f61f5-113">On the **Work order maintenance forecast** page, select the work order job to add a forecast to.</span></span>
 
-1. <span data-ttu-id="aae36-119">Selecione o trabalho da ordem de serviço para o qual você deseja adicionar uma previsão.</span><span class="sxs-lookup"><span data-stu-id="aae36-119">Select the work order job to which you want to add a forecast.</span></span>
+2. <span data-ttu-id="f61f5-114">Na Guia Rápida **Horas**, selecione **Adicionar** para criar uma linha.</span><span class="sxs-lookup"><span data-stu-id="f61f5-114">On the **Hours** FastTab, select **Add** to create a new line.</span></span>
 
-2. <span data-ttu-id="aae36-120">Selecione a Guia Rápida **Itens**.</span><span class="sxs-lookup"><span data-stu-id="aae36-120">Select the **Items** FastTab.</span></span>
+3. <span data-ttu-id="f61f5-115">No campo **Categoria**, selecione uma categoria.</span><span class="sxs-lookup"><span data-stu-id="f61f5-115">In the **Category** field, select a category.</span></span>
 
-3. <span data-ttu-id="aae36-121">Clique em **Adicionar** para criar uma nova linha de uma peça sobressalente que não está na lista de peças sobressalentes ou na lista de BOM de ativos.</span><span class="sxs-lookup"><span data-stu-id="aae36-121">Click **Add** to create a new line for a spare part that is not on the spare parts list or the asset BOM list.</span></span>
+4. <span data-ttu-id="f61f5-116">Insira o número de horas previstas no campo **Horas**.</span><span class="sxs-lookup"><span data-stu-id="f61f5-116">In the **Hours** field, enter the number of forecasted hours.</span></span>
 
-4. <span data-ttu-id="aae36-122">Selecione o item no campo **Número do item**.</span><span class="sxs-lookup"><span data-stu-id="aae36-122">Select the item in the **Item number** field.</span></span>
-
-5. <span data-ttu-id="aae36-123">Insira a quantidade no campo **Quantidade de venda** e selecione uma unidade de quantidade no campo **Unidade**.</span><span class="sxs-lookup"><span data-stu-id="aae36-123">Insert quantity in the **Sales quantity** field, and select a quantity unit in the **Unit** field.</span></span>
-
-6. <span data-ttu-id="aae36-124">Insira o preço de custo estimado e a moeda nos campos relevantes e selecione uma **Propriedade da linha**.</span><span class="sxs-lookup"><span data-stu-id="aae36-124">Insert cost price and currency in the relevant fields, and select a **Line property**.</span></span>
-
-7. <span data-ttu-id="aae36-125">Se quiser modificar a lista de dimensões exibidas nas linhas do item, clique em **Estoque** > **Dimensões de exibição**, selecione as dimensões e depois "Sim” no botão de alternância **Salvar configuração**.</span><span class="sxs-lookup"><span data-stu-id="aae36-125">If you want to change the list of dimensions displayed on the item lines, click **Inventory** > **Display dimensions**, select the dimensions, and select "Yes" on the **Save setup** toggle button.</span></span>
-
-8. <span data-ttu-id="aae36-126">Se quiser adicionar uma peça sobressalente aprovada à previsão de manutenção, clique em **Adicionar peças sobressalentes**, selecione a peça, edite as informações relacionadas, se necessário, e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="aae36-126">If you want to add an approved spare part to the maintenance forecast, click **Add spare parts**, select the spare part, edit related information if required, and click **OK**.</span></span>
-
-9. <span data-ttu-id="aae36-127">Se quiser adicionar itens da BOM de ativos à previsão, clique em **Adicionar itens da BOM**, selecione o item, edite as informações relacionadas, se necessário, e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="aae36-127">If you want to add asset BOM items to the forecast, click **Add BOM items**, select the item, edit related information if required, and click **OK**.</span></span>
-
-10. <span data-ttu-id="aae36-128">Clique em **Item onde usado** se quiser obter uma visão geral de onde o item é usado na linha selecionada no Gerenciamento de Ativos em relação aos ativos, padrões do tipo de trabalho de manutenção, peças sobressalentes e ordens de serviço.</span><span class="sxs-lookup"><span data-stu-id="aae36-128">Click **Item where used** if you want to get an overview of where the item on the selected line is used in Asset Management in relation to assets, maintenance job type defaults, spare parts, and work orders.</span></span> 
+5. <span data-ttu-id="f61f5-117">No campo **Propriedade da linha**, selecione o tipo de encargo a ser usado na linha.</span><span class="sxs-lookup"><span data-stu-id="f61f5-117">In the **Line property** field, select the type of charge that should be used on the line.</span></span>
 
 
+## <a name="add-an-items-forecast-to-a-work-order"></a><span data-ttu-id="f61f5-118">Adicionar previsão de itens em uma ordem de serviço</span><span class="sxs-lookup"><span data-stu-id="f61f5-118">Add an items forecast to a work order</span></span>
 
-## <a name="add-expense-forecast-to-a-work-order"></a><span data-ttu-id="aae36-129">Adicione a previsão de despesa a uma ordem de serviço</span><span class="sxs-lookup"><span data-stu-id="aae36-129">Add expense forecast to a work order</span></span>
+<span data-ttu-id="f61f5-119">Há três maneiras de adicionar itens a uma previsão de manutenção de ordem de serviço.</span><span class="sxs-lookup"><span data-stu-id="f61f5-119">There are three ways to add items to a work order maintenance forecast.</span></span> <span data-ttu-id="f61f5-120">Você pode criar linhas para os itens (peças sobressalentes) que não foram incluídos na lista de peças sobressalentes ou na BOM (lista de materiais) de ativos, pode selecionar peças sobressalentes na lista aprovada de peças sobressalentes ou selecionar itens da BOM de ativos.</span><span class="sxs-lookup"><span data-stu-id="f61f5-120">You can create lines for items (spare parts) that aren't included on the spare parts list or the asset bill of materials (BOM), you can select spare parts from the approved spare parts list, or you can select items from the asset BOM.</span></span>
 
-1. <span data-ttu-id="aae36-130">Este tópico explica como adicionar uma previsão de despesa a uma ordem de serviço.</span><span class="sxs-lookup"><span data-stu-id="aae36-130">This topic explains how to add an expense forecast to a work order.</span></span> <span data-ttu-id="aae36-131">No lado esquerdo do formulário, selecione o trabalho da ordem de serviço no qual você deseja adicionar uma previsão.</span><span class="sxs-lookup"><span data-stu-id="aae36-131">In the left-hand side of the form, select the work order job to which you want to add a forecast.</span></span>
+- <span data-ttu-id="f61f5-121">Na página **Previsão de manutenção da ordem de serviço**, selecione o trabalho da ordem de serviço no qual adicionar uma previsão.</span><span class="sxs-lookup"><span data-stu-id="f61f5-121">On the **Work order maintenance forecast** page, select the work order job to to add a forecast to.</span></span>
 
-2. <span data-ttu-id="aae36-132">Selecione a Guia Rápida **Despesas**.</span><span class="sxs-lookup"><span data-stu-id="aae36-132">Select the **Expense** FastTab.</span></span>
+- <span data-ttu-id="f61f5-122">Na Guia Rápida **Itens**, adicione itens à previsão de manutenção usando o método apropriado.</span><span class="sxs-lookup"><span data-stu-id="f61f5-122">On the **Items** FastTab, add items to the maintenance forecast by using the appropriate method.</span></span>
 
-3. <span data-ttu-id="aae36-133">Clique em **Adicionar** para criar uma nova linha.</span><span class="sxs-lookup"><span data-stu-id="aae36-133">Click **Add** to create a new line.</span></span>
+<span data-ttu-id="f61f5-123">Para criar uma linha para uma peça sobressalente que não está na lista de peças sobressalentes ou na BOM de ativos, siga estas etapas:</span><span class="sxs-lookup"><span data-stu-id="f61f5-123">To create a line for a spare part that isn't on the spare parts list or the asset BOM, follow these steps:</span></span>
 
-4. <span data-ttu-id="aae36-134">Selecione uma categoria no campo **Categoria**.</span><span class="sxs-lookup"><span data-stu-id="aae36-134">Select a category in the **Category** field.</span></span>
+1. <span data-ttu-id="f61f5-124">Selecione **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="f61f5-124">Select **Add**.</span></span>
+2. <span data-ttu-id="f61f5-125">No campo **Nº do item**, selecione o item.</span><span class="sxs-lookup"><span data-stu-id="f61f5-125">In the **Item number** field, select the item.</span></span>
+3. <span data-ttu-id="f61f5-126">No campo **Quantidade de venda**, insira a quantidade.</span><span class="sxs-lookup"><span data-stu-id="f61f5-126">In the **Sales quantity** field, enter the quantity.</span></span>
+4. <span data-ttu-id="f61f5-127">No campo **Unidade**, selecione a unidade de medida da quantidade.</span><span class="sxs-lookup"><span data-stu-id="f61f5-127">In the **Unit** field, select the unit of measure for the quantity.</span></span>
+5. <span data-ttu-id="f61f5-128">Nos campos **Preço de custo** e **Moeda**, informe os valores apropriados.</span><span class="sxs-lookup"><span data-stu-id="f61f5-128">In the **Cost price** and **Currency** fields, enter appropriate values.</span></span>
+6. <span data-ttu-id="f61f5-129">No campo **Propriedade da linha**, selecione uma propriedade de linha.</span><span class="sxs-lookup"><span data-stu-id="f61f5-129">In the **Line property** field, select a line property.</span></span>
+7. <span data-ttu-id="f61f5-130">Para alterar a lista de dimensões exibida nas linhas do item, selecione **Estoque** > **Exibir dimensões**, selecione as dimensões e, depois, defina a opção **Salvar configuração** como **Sim**.</span><span class="sxs-lookup"><span data-stu-id="f61f5-130">To change the list of dimensions that is shown on the item lines, select **Inventory** > **Display dimensions**, select the dimensions, and then set the **Save setup** option to **Yes**.</span></span>
 
-5. <span data-ttu-id="aae36-135">Insira quantidade no campo **Quantidade**.</span><span class="sxs-lookup"><span data-stu-id="aae36-135">Insert quantity in the **Quantity** field.</span></span>
+<span data-ttu-id="f61f5-131">Para adicionar uma peça sobressalente de uma lista aprovada de peças sobressalentes, siga estas etapas:</span><span class="sxs-lookup"><span data-stu-id="f61f5-131">To add a spare part from an approved spare parts list, follow these steps:</span></span>
 
-6. <span data-ttu-id="aae36-136">Insira preço de custo, moeda de vendas e preço de venda nos campos relevantes.</span><span class="sxs-lookup"><span data-stu-id="aae36-136">Insert cost price, sales currency, and sales price in the relevant fields.</span></span>
+1. <span data-ttu-id="f61f5-132">Selecione **Adicionar peças sobressalentes**.</span><span class="sxs-lookup"><span data-stu-id="f61f5-132">Select **Add spare parts**.</span></span>
+2. <span data-ttu-id="f61f5-133">Selecione a peça sobressalente e edite as informações relacionadas, conforme o necessário.</span><span class="sxs-lookup"><span data-stu-id="f61f5-133">Select the spare part, and edit the related information as you require.</span></span>
+3. <span data-ttu-id="f61f5-134">Selecione **OK**.</span><span class="sxs-lookup"><span data-stu-id="f61f5-134">Select **OK**.</span></span>
 
-7. <span data-ttu-id="aae36-137">No campo **Propriedade da linha**, selecione o tipo de encargo a ser usado na linha.</span><span class="sxs-lookup"><span data-stu-id="aae36-137">In the **Line property** field, select the charge type to be used on the line.</span></span>
+<span data-ttu-id="f61f5-135">Para adicionar um item da BOM de ativos, siga estas etapas:</span><span class="sxs-lookup"><span data-stu-id="f61f5-135">To add an item from the asset BOM, follow these steps:</span></span>
+
+1. <span data-ttu-id="f61f5-136">Selecione **Adicionar itens da BOM**.</span><span class="sxs-lookup"><span data-stu-id="f61f5-136">Select **Add BOM items**.</span></span>
+2. <span data-ttu-id="f61f5-137">Selecione o item e edite as informações relacionadas, conforme o necessário.</span><span class="sxs-lookup"><span data-stu-id="f61f5-137">Select the item, and edit the related information as you require.</span></span>
+3. <span data-ttu-id="f61f5-138">Selecione **OK**.</span><span class="sxs-lookup"><span data-stu-id="f61f5-138">Select **OK**.</span></span>
+
+<span data-ttu-id="f61f5-139">Para obter uma visão geral que mostre onde o item na linha selecionada é usado em relação a ativos, padrões de tipo de trabalho de manutenção, peças sobressalentes e ordens de serviço no Gerenciamento de Ativos, selecione **Item onde usado**.</span><span class="sxs-lookup"><span data-stu-id="f61f5-139">To get an overview that shows where the item on the selected line is used in relation to assets, maintenance job type defaults, spare parts, and work orders in Asset Management, select **Item where used**.</span></span> <span data-ttu-id="f61f5-140">Para obter mais informações sobre essa visão geral, consulte [Item onde usado](../controlling-and-reporting/item-where-used.md).</span><span class="sxs-lookup"><span data-stu-id="f61f5-140">For more information about this overview, see [Item where used](../controlling-and-reporting/item-where-used.md).</span></span>
+
+
+## <a name="add-an-expense-forecast-to-a-work-order"></a><span data-ttu-id="f61f5-141">Adicionar previsão de despesa a uma ordem de serviço</span><span class="sxs-lookup"><span data-stu-id="f61f5-141">Add an expense forecast to a work order</span></span>
+
+1. <span data-ttu-id="f61f5-142">Na página **Previsão de manutenção da ordem de serviço**, selecione o trabalho da ordem de serviço no qual adicionar uma previsão.</span><span class="sxs-lookup"><span data-stu-id="f61f5-142">On the **Work order maintenance forecast** page, select the work order job to add a forecast to.</span></span>
+
+2. <span data-ttu-id="f61f5-143">Na Guia Rápida **Despesa**, selecione **Adicionar** para criar uma linha.</span><span class="sxs-lookup"><span data-stu-id="f61f5-143">On the **Expense** FastTab, select **Add** to create a line.</span></span>
+
+3. <span data-ttu-id="f61f5-144">No campo **Categoria**, selecione uma categoria.</span><span class="sxs-lookup"><span data-stu-id="f61f5-144">In the **Category** field, select a category.</span></span>
+
+4. <span data-ttu-id="f61f5-145">No campo **Quantidade**, insira a quantidade.</span><span class="sxs-lookup"><span data-stu-id="f61f5-145">In the **Quantity** field, enter the quantity.</span></span>
+
+5. <span data-ttu-id="f61f5-146">Nos campos **Preço de custo**, **Moeda de venda** e **Preço de venda**, insira os valores apropriados.</span><span class="sxs-lookup"><span data-stu-id="f61f5-146">In the **Cost price**, **Sales currency**, and **Sales price** fields, enter appropriate values.</span></span>
+
+6. <span data-ttu-id="f61f5-147">No campo **Propriedade da linha**, selecione o tipo de encargo a ser usado na linha.</span><span class="sxs-lookup"><span data-stu-id="f61f5-147">In the **Line property** field, select the type of charge that should be used on the line.</span></span>
 
 >[!NOTE]
-><span data-ttu-id="aae36-138">Na Guia Rápida **Totais da previsão de manutenção**, você poderá ver uma visão geral do número de linhas criadas em cada guia, para o trabalho da ordem de serviço e para a ordem de serviço.</span><span class="sxs-lookup"><span data-stu-id="aae36-138">On the **Maintenance forecast totals** FastTab, you can see an overview of the number of lines created on each tab, for the selected work order job and for the work order.</span></span> <span data-ttu-id="aae36-139">Além disso, você poderá ver uma soma de horas de trabalho esperadas para o trabalho da ordem de serviço e para a ordem de serviço.</span><span class="sxs-lookup"><span data-stu-id="aae36-139">Also, you can see a sum of forecasted work hours for the work order job and for the work order.</span></span>
+><span data-ttu-id="f61f5-148">A Guia Rápida **Totais da previsão de manutenção** mostra uma visão geral do número de linhas que foram criadas em cada Guia Rápida para o trabalho da ordem de serviço selecionado e para a ordem de serviço.</span><span class="sxs-lookup"><span data-stu-id="f61f5-148">The **Maintenance forecast totals** FastTab shows an overview of the number of lines that have been created, for the selected work order job and for the work order, on each FastTab.</span></span> <span data-ttu-id="f61f5-149">Também mostra o total de horas de trabalho previstas para o trabalho da ordem de serviço e para a ordem de serviço.</span><span class="sxs-lookup"><span data-stu-id="f61f5-149">It also shows the total forecasted work hours for the work order job and the work order.</span></span>
+
+<span data-ttu-id="f61f5-150">A ilustração a seguir mostra um exemplo da página **Previsão de manutenção da ordem de serviço**.</span><span class="sxs-lookup"><span data-stu-id="f61f5-150">The illustration below shows an example of the **Work order maintenance forecast** page.</span></span>
 
 ![Figura 1](media/06-work-orders.png)
 
 
-## <a name="automatic-update-of-work-order-forecasts"></a><span data-ttu-id="aae36-141">Atualização automática de previsões de ordem de serviço</span><span class="sxs-lookup"><span data-stu-id="aae36-141">Automatic update of work order forecasts</span></span>
+## <a name="automatic-update-of-work-order-forecasts"></a><span data-ttu-id="f61f5-152">Atualização automática de previsões de ordem de serviço</span><span class="sxs-lookup"><span data-stu-id="f61f5-152">Automatic update of work order forecasts</span></span>
 
-<span data-ttu-id="aae36-142">No Gerenciamento de Ativos, você pode atualizar automaticamente todas as alterações nas previsões de ordem de serviço referentes a custos de horas, custos de itens e despesas, que foram atualizadas em outros módulos.</span><span class="sxs-lookup"><span data-stu-id="aae36-142">In Asset Management, you can automatically update any changes in work order forecasts regarding hour costs, item costs, and expenses, which have been updated in other modules.</span></span> <span data-ttu-id="aae36-143">Isso é feito para garantir que os preços de custo mais recentes sejam sempre usados nas previsões de ordem de serviço.</span><span class="sxs-lookup"><span data-stu-id="aae36-143">This is done to ensure that the latest cost prices are always used in your work order forecasts.</span></span> <span data-ttu-id="aae36-144">Também é possível fazer atualizações semelhantes para [previsões do tipo de trabalho de manutenção](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).</span><span class="sxs-lookup"><span data-stu-id="aae36-144">It is also possible to make similar updates for [maintenance job type forecasts](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).</span></span>
+<span data-ttu-id="f61f5-153">Se os valores de custos por hora, custos do item e despesas forem atualizados em outros módulos do Microsoft Dynamics 365 for Finance and Operations, as previsões da ordem de serviço no Gerenciamento de Ativos poderão ser automaticamente atualizadas para refletir essas alterações.</span><span class="sxs-lookup"><span data-stu-id="f61f5-153">If hour costs, item costs, and expenses are updated in other modules in Microsoft Dynamics 365 for Finance and Operations, work order forecasts in Asset Management can automatically be updated to reflect those changes.</span></span> <span data-ttu-id="f61f5-154">Esse recurso ajuda a garantir que os preços de custo mais recentes sejam sempre usados nas previsões de ordem de serviço.</span><span class="sxs-lookup"><span data-stu-id="f61f5-154">This capability helps guarantee that the latest cost prices are always used in your work order forecasts.</span></span> <span data-ttu-id="f61f5-155">Você também pode fazer atualizações semelhantes para [previsões de tipo de trabalho de manutenção](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).</span><span class="sxs-lookup"><span data-stu-id="f61f5-155">You can also do similar updates for [maintenance job type forecasts](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).</span></span>
 
-1. <span data-ttu-id="aae36-145">Clique em **Gerenciamento de ativos** > **Periódico** > **Previsão** > **Atualizar previsão da ordem de serviço**.</span><span class="sxs-lookup"><span data-stu-id="aae36-145">Click **Asset management** > **Periodic** > **Forecast** > **Update work order forecast**.</span></span>
+1. <span data-ttu-id="f61f5-156">Selecione **Gerenciamento de ativos** > **Periódico** > **Previsão** > **Atualizar previsão da ordem de serviço**.</span><span class="sxs-lookup"><span data-stu-id="f61f5-156">Select **Asset management** > **Periodic** > **Forecast** > **Update work order forecast**.</span></span>
 
-2. <span data-ttu-id="aae36-146">Na caixa de diálogo suspensa **Atualizar previsão da ordem de serviço** é possível adicionar seleções sobre ordens de serviço ou trabalhos da ordem de serviço específicos, se necessário.</span><span class="sxs-lookup"><span data-stu-id="aae36-146">In the **Update work order forecast** drop-down dialog, you can add selections regarding specific work orders or work order jobs, if required.</span></span> <span data-ttu-id="aae36-147">Clique em **Filtro** para fazer essas seleções.</span><span class="sxs-lookup"><span data-stu-id="aae36-147">Click **Filter** to make those selections.</span></span>
+2. <span data-ttu-id="f61f5-157">Na caixa de diálogo **Atualizar previsão da ordem de serviço**, na Guia Rápida **Registros a serem incluídos**, você pode adicionar seleções relacionadas a ordens de serviço ou trabalhos da ordem de serviço específicos, conforme o necessário.</span><span class="sxs-lookup"><span data-stu-id="f61f5-157">In the **Update work order forecast** dialog, on the **Records to include** FastTab, you can add selections regarding specific work orders or work order jobs, as you require.</span></span> <span data-ttu-id="f61f5-158">Clique em **Filtro** para fazer as seleções relevantes.</span><span class="sxs-lookup"><span data-stu-id="f61f5-158">Click **Filter** to make the relevant selections.</span></span>
 
-3. <span data-ttu-id="aae36-148">Se necessário, você pode configurar a atualização automática como trabalho em lotes na Guia Rápida **Executar em segundo plano**.</span><span class="sxs-lookup"><span data-stu-id="aae36-148">If required, you can set up the automatic update as a batch job on the **Run in the background** FastTab.</span></span>
+3. <span data-ttu-id="f61f5-159">Na Guia Rápida **Executar em segundo plano**, você pode configurar a atualização automática como um trabalho em lote, conforme necessário.</span><span class="sxs-lookup"><span data-stu-id="f61f5-159">On the **Run in the background** FastTab, you can set up the automatic update as a batch job, as you require.</span></span>
 
-4. <span data-ttu-id="aae36-149">Clique em **OK** para iniciar a atualização da previsão.</span><span class="sxs-lookup"><span data-stu-id="aae36-149">Click **OK** to start the forecast update.</span></span>
+4. <span data-ttu-id="f61f5-160">Selecione **OK** para iniciar a atualização da previsão.</span><span class="sxs-lookup"><span data-stu-id="f61f5-160">Select **OK** to start the forecast update.</span></span>
 
+
+<span data-ttu-id="f61f5-161">A ilustração a seguir mostra um exemplo da caixa de diálogo **Atualizar previsão da ordem de serviço**.</span><span class="sxs-lookup"><span data-stu-id="f61f5-161">The illustration below shows an example of the **Update work order forecast** dialog.</span></span>
 
 ![Figura 2](media/07-work-orders.png)
-
