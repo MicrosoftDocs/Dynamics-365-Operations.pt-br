@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33ce7b5418ab9e1a9abd6c3206c74c5a1cf739a3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 11ed2101304c4e09744bbd10e94e9cd2a8db4da5
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181878"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578232"
 ---
 # <a name="electronic-reporting-er-overview"></a>Visão geral de Relatório eletrônico (ER)
 
@@ -71,9 +71,8 @@ Um mapeamento de modelo que oferece suporte a documentos eletrônicos de saída 
 
 - Ele pode usar diferentes tipos de dados como fontes de dados para um modelo de dados. Por exemplo, ele pode usar tabelas, entidades de dados, métodos ou enumerações.
 - Ele suporta parâmetros de entrada do usuário que podem ser definidos como fontes para um modelo de dados quando alguns dados devem ser especificados em tempo de execução.
-- Ele oferece suporte à transformação dos dados para os grupos necessários. Também permite filtrar, classificar e somar dados, além de acrescentar, com lógica calculada, campos que são criados por meio de fórmulas que se assemelham às do Microsoft Excel, conforme mostrado na ilustração a seguir. Para obter mais informações, consulte [Designer de fórmulas no Relatório eletrônico](general-electronic-reporting-formula-designer.md).
+- Ele oferece suporte à transformação dos dados para os grupos necessários. Também permite filtrar, classificar e somar dados, além de acrescentar, com lógica calculada, campos que são criados por meio de fórmulas que se assemelham às do Microsoft Excel. Para obter mais informações, consulte [Designer de fórmulas no Relatório eletrônico](general-electronic-reporting-formula-designer.md).
 
-[![Designer de fórmulas](./media/ER-overview-01.png)](./media/ER-overview-01.png)
 
 Um mapeamento de modelo que oferece suporte a documentos eletrônicos de entrada tem os seguintes recursos:
 
@@ -196,9 +195,7 @@ Os repositórios de **Projeto LCS**, **Sistema de arquivo** e **Serviços de con
 ## <a name="supported-scenarios"></a>Cenários com suporte
 ### <a name="building-a-data-model"></a>Criação de um modelo de dados
 
-O ER fornece um designer de modelo que você pode usar para criar um modelo de dados para um domínio comercial específico. Todas as entidades comerciais específicas de domínio e relações entre elas são apresentadas em um modelo de dados como uma estrutura hierárquica. A ilustração a seguir mostra um exemplo desse tipo de modelo de dados (o pagamento dados do modelo de domínio).
-
-[![Modelo de dados de domínio de pagamento](./media/ER-overview-04.png)](./media/ER-overview-04.png)
+O ER fornece um designer de modelo que você pode usar para criar um modelo de dados para um domínio comercial específico. Todas as entidades comerciais específicas de domínio e relações entre elas são apresentadas em um modelo de dados como uma estrutura hierárquica. 
 
 Para se familiarizar com os detalhes deste cenário, rode o guia de tarefa **ER Projetar modelo de dados de domínio específico** (parte do processo de negócio **7.5.4.3 Adquirir/Desenvolver componentes de solução/serviço de TI (10677)**).
 
@@ -209,24 +206,14 @@ O conteúdo do modelo de dados (rótulos e descrições) pode ser traduzido para
 - No momento da criação, para tornar um conteúdo mais inteligível para criadores de formato que falam outros idiomas, e que usarão o modelo de dados para mapeamento de dados de componentes de formato.
 - No tempo execução, para tornar o conteúdo mais amigável, apresentando avisos e ajuda de parâmetros em tempo de execução, bem como mensagens de validação configuradas (erros e avisos), no idioma de preferência do usuário conectado.
 
-A ilustração a seguir mostra um exemplo de onde o conteúdo do modelo de dados está traduzido do inglês para japonês.
-
-[![Conteúdo de modelo de dados em Inglês](./media/ER-overview-05.png)](./media/ER-overview-05.png)
-
-[![Conteúdo de modelo de dados traduzido para japonês](./media/ER-overview-06.png)](./media/ER-overview-06.png)
-
 ### <a name="configuring-data-model-mappings-for-outgoing-documents"></a>Configurando mapeamentos de modelo de dados de documentos de saída
 
-O ER fornece um designer de mapeamento do modelo que permite que os usuários mapeiem modelos de dados que eles criaram da fontes de dados específica do aplicativo. Com base no mapeamento, os dados serão importados, em tempo de execução, das fontes de dados selecionadas para o modelo de dados. O modelo de dados é usado como uma fonte abstrata de dados de formatos ER que gera documentos eletrônicos de saída. O exemplo desse mapeamento de modelo de dados é mostrado na imagem a seguir (o mapeamento de modelo **Transferência de Crédito SEPA** do modelo de dados de domínio de pagamento).
-
-[![Exemplo de mapeamento de modelo de dados](./media/ER-overview-07.png)](./media/ER-overview-07.png)
+O ER fornece um designer de mapeamento do modelo que permite que os usuários mapeiem modelos de dados que eles criaram da fontes de dados específica do aplicativo. Com base no mapeamento, os dados serão importados, em tempo de execução, das fontes de dados selecionadas para o modelo de dados. O modelo de dados é usado como uma fonte abstrata de dados de formatos ER que gera documentos eletrônicos de saída. 
 
 Para familiarizar-se com este cenário em detalhes, execute os guias de tarefa **ER Definir o mapeamento do modelo e selecionar fontes de dados** e **ER Mapear modelo de dados para fontes de dados selecionadas** (parte do processo empresarial **7.5.4.3 Adquirir/Desenvolver componentes de solução/serviço de TI (10677)**).
 
 ### <a name="configuring-data-model-mappings-for-incoming-documents"></a>Configurando mapeamentos de modelo de dados de documentos de entrada
-ER fornece um designer de mapeamento do modelo que permite que os usuários mapeiem modelos de dados que eles criaram para destinos específicos. Por exemplo, os modelos de dados podem ser mapeados para os componentes de dados atualizáveis (tabelas, entidades de dados e exibições). Com base no mapeamento, os dados serão atualizados em tempo de execução usando os dados do modelo de dados. Como armazenamento abstrato do formato ER, o modelo de dados é preenchido com dados importados de um documento eletrônico de entrada. A ilustração a seguir mostra um exemplo desse tipo de mapeamento de modelo de dados. Neste exemplo, o mapeamento de modelo **Importar mapeamento para NETS** do modelo de dados de domínio de pagamento é usado para oferecer suporte à importação de extratos bancários no formato bancário NETS da Noruega.
-
-[![Importar mapeamento para o exemplo do modelo de dados NETS](./media/ER-overview-08.png)](./media/ER-overview-08.png)
+ER fornece um designer de mapeamento do modelo que permite que os usuários mapeiem modelos de dados que eles criaram para destinos específicos. Por exemplo, os modelos de dados podem ser mapeados para os componentes de dados atualizáveis (tabelas, entidades de dados e exibições). Com base no mapeamento, os dados serão atualizados em tempo de execução usando os dados do modelo de dados. Como armazenamento abstrato do formato ER, o modelo de dados é preenchido com dados importados de um documento eletrônico de entrada. 
 
 ### <a name="storing-a-designed-model-component-as-a-model-configuration"></a>Armazenamento do componente de modelo designado como uma configuração de modelo
 
@@ -236,24 +223,18 @@ Para se familiarizar com os detalhes deste cenário, rode o guia de tarefa **ER 
 
 ### <a name="building-a-format-that-uses-a-data-model-as-a-base"></a>Como criar um formato que usa um modelo de dados como base
 
-O ER oferece suporte a um designer de formato que você pode usar para criar o formato de um documento eletrônico para o domínio comercial selecionado, escolhendo o componente modelo como base. O mesmo designer de formato de ER oferece a capacidade de mapear o formato criado para o mapeamento do modelo de dados do domínio selecionado como uma fonte de dados. A ilustração a seguir mostra um exemplo desse tipo de formato (a configuração de formato que oferece suporte a **BACS** formato de pagamento para o Brasil).
-
-[![Exemplo de um formato que tem um modelo de dados como base](./media/ER-overview-09.png)](./media/ER-overview-09.png)
+O ER oferece suporte a um designer de formato que você pode usar para criar o formato de um documento eletrônico para o domínio comercial selecionado, escolhendo o componente modelo como base. O mesmo designer de formato de ER oferece a capacidade de mapear o formato criado para o mapeamento do modelo de dados do domínio selecionado como uma fonte de dados. 
 
 Para se familiarizar com os detalhes deste cenário, rode o guia de tarefa **ER Projetar formato de domínio específico** (parte do processo de negócio **7.5.4.3 Adquirir/Desenvolver componentes de solução/serviço de TI (10677)**).
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-openxml-worksheet-format"></a>Criando uma configuração para gerar documentos eletrônicos em formato de planilha do OPENXML
 
-O designer de formato ER pode ser usado para criar um documento eletrônico em formato de planilha do OPENXML. A ilustração a seguir mostra um exemplo desse tipo de formato (uma configuração de formato para gerar a planilha OPENXML com detalhes de um diário de pagamentos selecionado).
-
-[![Pic-ER-format-Excel](./media/ER-overview-10.png)](./media/ER-overview-10.png)
+O designer de formato ER pode ser usado para criar um documento eletrônico em formato de planilha do OPENXML. 
 
 Para se familiarizar com os detalhes deste cenário, rode o guia de tarefa **Criar uma configuração ER para gerar relatórios no formato OPENXML** (parte do processo de negócio **7.5.4.3 Adquirir/Desenvolver componentes de solução/serviço de TI (10677)**). Como parte da etapa de guia de tarefas para importar um modelo, use o arquivo de Excel [Modelo de relatório de pagamento (SampleVendPaymWsReport.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202) como modelo.
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-a-word-document-format"></a>Criando uma configuração para gerar documentos eletrônicos em formato de documento do Word
 O designer de formato ER pode ser usado para criar um documento eletrônico em formato de documento do Word. A ilustração a seguir mostra um exemplo desse tipo de formato. Observe que esse formato reutiliza a configuração ER existente que foi originalmente criada para gerar a saída de relatório no formato OPENXML.
-
-[![Pic-ER-format-Word](./media/ER-overview-11.png)](./media/ER-overview-11.png)
 
 Para se familiarizar com os detalhes deste cenário, reproduza a guia de tarefas Criar uma configuração ER para gerar relatórios no formato Microsoft WORD (parte do processo comercial 7.5.4.3 Adquirir/Desenvolver componentes de solução/serviço de TI (10677)). Como parte da etapa de guia de tarefas para importar um modelo, use os seguintes arquivos de Word como modelos para o formato ER:
 
@@ -261,11 +242,7 @@ Para se familiarizar com os detalhes deste cenário, reproduza a guia de tarefas
 - [Modelo limitado de relatório de pagamento (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
 
 ### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Criar uma configuração para importar dados de documentos eletrônicos de entrada
-O designer de formato ER pode ser usado para descrever um documento eletrônico planejado para importar dados em XML ou o formato de texto. O formato criado é usado para analisar um documento de entrada. O designer de mapeamento de formato ER pode ser usado para definir a associação dos elementos do formato criado com o modelo de dados. As ilustrações a seguir mostram um exemplo desse tipo de formato e mapeamento de formato. Neste exemplo, são importados extratos bancárias da NETS que incluem detalhes de pagamento do fornecedor no formato de texto.
-
-[![ER-format-designer](./media/ER-overview-12.png)](./media/ER-overview-12.png)
-
-[![ER-model-mapping-designer](./media/ER-overview-13.png)](./media/ER-overview-13.png)
+O designer de formato ER pode ser usado para descrever um documento eletrônico planejado para importar dados em XML ou o formato de texto. O formato criado é usado para analisar um documento de entrada. O designer de mapeamento de formato ER pode ser usado para definir a associação dos elementos do formato criado com o modelo de dados. 
 
 Para se familiarizar com os detalhes deste cenário, reproduza a guia de tarefas Criar configurações ER necessárias para importar os dados de um arquivo externo (parte do processo comercial 7.5.4.3 Adquirir/Desenvolver componentes de solução/serviço de TI (10677)). Usar os seguintes arquivos para reproduzir esta guia:
 
@@ -280,11 +257,7 @@ O ER pode armazenar um formato designado com os mapeamentos de dados configurado
 
 ### <a name="configuring-finance-to-start-to-use-a-created-format-internally"></a>Configuração do Finance para começar a usar o formato criado internamente
 
-O aplicativo pode ser configurado para começar a usar o formato criado para a geração de relatórios eletrônicos. A referência à configuração de formato criado deve ser definida em configurações específicas de um domínio. Por exemplo, para começar a usar uma configuração de formato de ER para pagamentos de fornecedores eletrônicos no formato BACS, a configuração de formato deve ser referenciada em métodos específicos de pagamento, conforme as ilustrações a seguir:
-
-[![Configuração de formato BACS (Reino Unido)](./media/ER-overview-14.png)](./media/ER-overview-14.png)
-
-[![Referenciando o formato BACS (Reino Unido) em um método de pagamento](./media/ER-overview-15.png)](./media/ER-overview-15.png)
+O aplicativo pode ser configurado para começar a usar o formato criado para a geração de relatórios eletrônicos. A referência à configuração de formato criado deve ser definida em configurações específicas de um domínio. Por exemplo, para começar a usar uma configuração de formato de ER para pagamentos de fornecedores eletrônicos no formato BACS, a configuração de formato deve ser referenciada em métodos específicos de pagamento.
 
 Execute a guia de tarefa **ER Usar formato para gerar documento eletrônico para pagamentos** (parte do **processo comercial 7.5.4.3 Adquirir/Desenvolver componentes de solução/serviço de TI (10677)**) para você familiarizar-se com este cenário em detalhes.
 
