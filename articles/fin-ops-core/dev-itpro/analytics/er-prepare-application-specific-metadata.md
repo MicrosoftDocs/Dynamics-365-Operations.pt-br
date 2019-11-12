@@ -16,14 +16,14 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c036eab38845db8427c447b27cce0be8048669fd
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 74750397dc344d74c018c27114357d3d05b95b7e
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248645"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2550098"
 ---
-# <a name="prepare-application-specific-metadata-for-rcs"></a>Prepare metadados específicos do aplicativo para o RCS
+# <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Prepare metadados específicos do aplicativo para RCS e ER
 
 [!include[banner](../includes/banner.md)]
 

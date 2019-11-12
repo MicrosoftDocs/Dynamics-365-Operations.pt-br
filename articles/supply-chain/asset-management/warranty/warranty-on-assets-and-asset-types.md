@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3b13f8aba7e1d2448495f97a4772eb573e08c025
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 6e69b471af0853159ba807af5f39db64dbbb04f8
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874592"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569699"
 ---
-# <a name="warranty-on-assets-and-asset-types"></a>Garantia em ativos e tipos de ativo
+# <a name="warranties-on-assets-and-asset-types"></a>Garantias em ativos e tipos de ativo
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 Este tópico explica como configurar garantias em ativos e tipos de ativos no Gerenciamento de Ativos.
@@ -50,7 +50,7 @@ Este tópico explica como configurar garantias em ativos e tipos de ativos no Ge
     > [!IMPORTANT]
     > Se uma data for selecionada no campo **Início da garantia** em uma ordem de serviço, a garantia se torna válida para a ordem de serviço nessa data. Quando você cria uma ordem de serviço, o campo **Início da garantia** está automaticamente definido para o dia da criação. Entretanto, você pode alterar a data para que ela corresponda a, por exemplo, a data de início de um contrato de garantia.
     >
-    > ![Figura 1](media/02-warranty.png)
+    > ![Página de ordens de serviço](media/02-warranty.png)
 
 > [!NOTE]
 > Quando você cria uma ordem de serviço para um ativo que está incluído na garantia de um fornecedor, se a ordem de serviço tiver uma data de início esperada durante o período de garantia, você receberá uma notificação sobre o acordo da garantia. Então, você pode cancelar a ordem de serviço, conforme necessário.

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8f4658696a2e6c2959b87aa852c25c108b9ba302
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 1776220766984339c7c289f7b55252fb0c0bb2a8
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024835"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570647"
 ---
 # <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>Configurar e gerenciar imagens para Retail Modern POS (MPOS)
 
@@ -83,9 +83,7 @@ Nos procedimentos a seguir, as imagens são configuradas para a entidade do cat�
     [![Caixa de diálogo Imagens](./media/catalog4.png)](./media/catalog4.png)
 
 > [!NOTE]
-> Você pode usar o mesmo procedimento para todas as cinco entidades com suporte: Trabalhador, Cliente, Catálogo, Categoria e Produtos. “Produtos do Catálogo” (produtos que são definidos em nível de catálogo) e “Produtos do Canal” (produtos que são definidos em nível de canal) usam o modelo da mídia que é definido para a entidade Produtos. No modelo de mídia Produtos, você pode selecionar o número de imagens do produto para mostrar por produto. Também pode definir a imagem padrão para um produto específico. Dessa forma, você pode evitar imagens em branco no MPOS, e ajudar a controlar a imagem que é usada como a imagem padrão para um item de produto. No exemplo a seguir, cada produto tem cinco imagens, e a primeira imagem é definida como a imagem padrão. As variantes de produtos são tratadas da mesma forma que os produtos mestre. O nome de arquivo do arquivo de imagem deve se basear no número do produto. Há também caracteres de escape enquanto o nome de arquivo é gerado. Portanto, convém verificar o nome do arquivo usando a seção **Gerenciar URLs de Imagem para o Excel**.
->
-> [![Caixa de diálogo Definir modelo de mídia](./media/prods.png)](./media/prods.png)
+> Você pode usar o mesmo procedimento para todas as cinco entidades com suporte: Trabalhador, Cliente, Catálogo, Categoria e Produtos. “Produtos do Catálogo” (produtos que são definidos em nível de catálogo) e “Produtos do Canal” (produtos que são definidos em nível de canal) usam o modelo da mídia que é definido para a entidade Produtos. No modelo de mídia Produtos, você pode selecionar o número de imagens do produto para mostrar por produto. Também pode definir a imagem padrão para um produto específico. Dessa forma, você pode evitar imagens em branco no MPOS, e ajudar a controlar a imagem que é usada como a imagem padrão para um item de produto. No exemplo a seguir, cada produto tem cinco imagens, e a primeira imagem é definida como a imagem padrão. As variantes de produtos são tratadas da mesma forma que os produtos mestre. O nome de arquivo do arquivo de imagem deve se basear no número do produto. Há também caracteres de escape enquanto o nome de arquivo é gerado. Portanto, convém verificar o nome do arquivo usando a seção **Gerenciar URLs de Imagem para o Excel**. Consulte a seção [Substituir usando Editar no Excel](#overwrite-by-using-edit-in-excel) posteriormente neste artigo.
 
 ## <a name="synchronization-jobs-to-send-a-media-template-to-the-channel-side"></a>Trabalhos de sincronização para enviar um modelo de mídia ao lado do canal
 
@@ -110,8 +108,6 @@ Como vimos na seção anterior, o modelo da mídia para determinada entidade dá
 
     > [!IMPORTANT]
     > Sempre que o modelo de mídia for alterado, clique em **Gerar** para poder usar a funcionalidade Editar no Excel.
-
-    [![Guia Rápida Gerenciar URLs de Imagem para o Excel](./media/excel1.jpg)](./media/excel1.jpg)
 
     Agora você tem uma visualização das URLs de imagem que foram geradas com base no último modelo de mídia salvo.
 

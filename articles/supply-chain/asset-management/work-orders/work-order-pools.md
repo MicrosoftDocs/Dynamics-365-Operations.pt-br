@@ -3,7 +3,7 @@ title: Grupos de ordens de serviço
 description: Este tópico descreve como trabalhar com grupos de ordens de serviço no Gerenciamento de ativos.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,95 +16,96 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 069fa02073808fd7bbaac9bc1603e49ce4d450eb
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 161244cb4451ddc7b13b579fd02e828a61adeea4
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875505"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626353"
 ---
 # <a name="work-order-pools"></a>Grupos de ordens de serviço
 
-
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+
+Você pode usar grupos de ordens de serviço para ordens de serviço de grupo com algo em comum. Veja alguns exemplos de situações para as quais você pode criar grupos de ordem de serviço:
+
+- Equipes de trabalho, por exemplo, Equipe de manutenção A ou Equipe de manutenção B  
+
+- Habilidades profissionais, como eletricistas ou encanadores  
+
+- Locais físicos  
+
+- Cronogramas, como semanas ou outros períodos  
+
+De acordo com a sua necessidade, você pode inserir uma ordem de serviço em vários grupos de ordens de serviço.
 
 
-Você pode usar grupos de ordens de serviço para ordens de serviço de grupo com algo em comum. Por exemplo, você pode criar grupos de ordens de serviço para
+## <a name="create-a-work-order-pool"></a>Criar um grupo de ordens de serviço
 
-- equipes de trabalho, por exemplo, Equipe de Manutenção A, Equipe de Manutenção B  
+Na página de listagem **Todos os grupos de ordens de serviço** ou **Grupos de ordens de serviço ativos**, você obterá uma visão geral dos grupos de ordens de serviço e criará novos grupos.
 
-- habilidades profissionais, por exemplo, eletricistas ou encanadores  
+1. Selecione **Gerenciamento de ativos** > **Comum** > **Grupos de ordens de serviço** > **Todos os grupos de ordens de serviço** ou **Grupos de ordens de serviço ativos**.
 
-- locais físicos  
+2. Selecione **Novo**.
 
-- cronogramas, por exemplo, semanas ou outros períodos  
+3. No campo **Grupo**, insira um identificador para o grupo de ordens de serviço.
 
+4. No campo **Nome**, insira um nome.
 
-Se necessário, uma ordem de serviço pode ser colocada em vários grupos de ordens de serviço.
+5. Defina a opção **Ativo** como **Sim** para indicar que o grupo de ordens de serviço está ativo.
 
+6. Defina a opção **Excluir relações de ordem de serviço** como **Sim** se desejar que as ordens de serviço sejam automaticamente removidas do grupo de ordens de serviço.
 
-## <a name="create-work-order-pool"></a>Criar grupo de ordens de serviço
+7. No campo **Excluir estado de ciclo de vida**, selecione o estado de ciclo de vida da ordem de serviço. Por exemplo, o estado de ciclo de vida da ordem de serviço para concluir uma ordem de serviço pode ser definido para excluir automaticamente as relações com grupos de ordens de serviço.
 
-Em **Todos os grupos de ordens de serviço** ou **Grupos de ordens de serviço ativos**, você obterá uma visão geral dos grupos de serviço e criará novos grupos.
+    Você pode começar a adicionar ordens de serviço ao seu grupo de ordens de serviço imediatamente.
 
-1. Clique em **Gerenciamento de ativos** > **Comum** > **Grupos de ordens de serviço** > **Todos os grupos de ordens de serviço** ou **Grupos de ordens de serviço ativos**.
+8. Na Guia Rápida **Ordens de serviço**, selecione **Adicionar linha**.
 
-2. Clique em **Novo**.
+9. No campo **Ordem de serviço**, selecione uma ordem de serviço. Os campos relacionados são automaticamente atualizados.
 
-3. Insira uma ID de grupo de ordens de serviço no campo **Grupo** e um nome no campo **Nome**.
+10. Repita as etapas 8 a 9 para adicionar mais ordens de serviço.
 
-4. Selecione "Sim" no botão de alternância **Ativo** para indicar que o grupo de ordens de serviço está ativo.
+11. Se as ordens de serviço adicionadas forem efetuadas em uma ordem específica, no campo **Ordem de classificação**, você pode inserir os números **1**, **2**, **3**, e assim por diante, para especificar a ordem.
 
-5. Selecione "Sim" no botão de alternância **Excluir relações de ordem de serviço** se desejar que as ordens de serviço sejam automaticamente removidas do grupo de ordens de serviço.
+12. Para visualizar uma lista de todas as ordens de serviço incluídas no grupo de ordens de serviço, no Painel de ações, na guia **Grupo de ordens de serviço**, no grupo **Visualizar grupo de ordens de serviço relacionado**, selecione **Ordens de serviço** para abrir a página de listagem **Todas as ordens de serviço**.
 
-6. No campo **Excluir estado de ciclo de vida**, selecione o estado de ciclo de vida da ordem de serviço. Por exemplo, o estado de ciclo de vida da ordem de serviço para concluir uma ordem de serviço pode ser definido para excluir automaticamente as relações com grupos de ordens de serviço.
+13. Para calcular e visualizar a capacidade máxima do agendamento de manutenção, ordens de serviço não agendadas e ordens de serviço agendadas, no Painel de ações, na guia **Grupo de ordens de serviço**, no grupo **Visualizar grupo de ordens de serviço relacionado**, selecione **Capacidade máxima** para abrir a caixa de diálogo **Calcular capacidade máxima**.
 
-7. Você pode começar a adicionar ordens de serviço ao seu grupo de ordens de serviço imediatamente. Na Guia Rápida **Ordens de serviço**, clique em **Adicionar linha**.
+14. Para calcular e visualizar previsões de itens (peças sobressalentes e outros itens necessários) relacionadas ao agendamento de manutenção, ordens de serviço não agendadas e ordens de serviço agendadas, no Painel de ações, na guia **Grupo de ordens de serviço**, no grupo **Visualizar grupo de ordens de serviço relacionado**, selecione **Previsão de itens** para abrir a caixa de diálogo **Calcular previsão de itens**.
 
-8. Selecione uma ordem de serviço no campo **Ordem de serviço**. Os campos relacionados são automaticamente atualizados.
+15. Para visualizar uma lista de requisições de compra relacionadas às ordens de serviço no grupo de ordens de serviço, no Painel de ações, na guia **Grupo de ordens de serviço**, no grupo **Compras**, selecione **Requisição de compra da ordem de serviço** para abrir a página de listagem **Requisição de compra da ordem de serviço**.
 
-9. Repita as etapas 7 e 8 se desejar adicionar mais ordens de serviço.
-
-10. No campo **Ordem de classificação**, você pode indicar se as ordens de serviço devem ser realizadas em qualquer ordem. Insira os números 1, 2, 3 e assim por diante para indicar uma sequência específica para as ordens de serviço selecionadas.
-
-11. Clique no botão **Ordens de serviço** para ver uma lista de todas as ordens de serviço incluídas no grupo de ordens de serviço.
-
-12. Clique no botão **Capacidade máxima** para abrir **Capacidade máxima** para calcular e exibir a capacidade máxima para o agendamento de manutenção, as ordens de serviço não agendadas e as ordens de serviço agendadas.
-
-13. Clique no botão **Previsão de itens** para abrir **Previsão de itens** para calcular e exibir previsões para itens (partes sobressalentes e outros itens obrigatórios) relacionados ao agendamento de manutenção, às ordens de serviço não agendadas e às ordens de serviço agendadas.
-
-14. Clique no botão **Requisição de compra da ordem de serviço** para abrir a lista **Requisição de compra da ordem de serviço** para ver uma lista de requisições de compra relacionadas às ordens de serviço no grupo de ordens de serviço.
-
-15. Clique no botão **Requisição de compra da ordem de serviço** para abrir a lista **Requisição de compra da ordem de serviço** para ver uma lista de ordens de compra relacionadas às ordens de serviço no grupo de ordens de serviço.
+16. Para visualizar uma lista de ordens de compra relacionadas às ordens de serviço no grupo de ordens de serviço, no Painel de ações, na guia **Grupo de ordens de serviço**, no grupo **Compras**, selecione **Compra da ordem de serviço** para abrir a página de listagem **Compra da ordem de serviço**.
 
 >[!NOTE]
->Quando um grupo de ordens de serviço não for mais relevante para seu planejamento de trabalho, defina a caixa de seleção **Ativo** do grupo como "Não" na exibição de lista **Grupo de ordens de serviço**.
+>Quando um grupo de ordens de serviço não for mais relevante para seu planejamento de trabalho, defina a opção **Ativo** do grupo como **Não** na exibição de lista da página **Grupo de ordens de serviço**.
 
-Marque a caixa de seleção **Excluir relações de ordem de serviço** se quiser excluir todas as linhas da ordem de serviço, por exemplo, para criar um grupo vazio que poderá ser usado posteriormente para outras ordens de serviço. Lembre-se de desmarcar a caixa de seleção **Excluir relações de ordem de serviço** se quiser usar o grupo de ordens de serviço para criar novas relações de ordem de serviço posteriormente.
+Para excluir todas as linhas da ordem de serviço, defina a opção **Excluir relações da ordem de serviço** como **Sim**. Esta opção é útil se, por exemplo, você quiser criar um grupo vazio que poderá usar posteriormente para outras ordens de serviço. Quando estiver pronto para usar o grupo de ordens de serviço para criar novas relações de ordens de serviço posteriormente, lembre-se de definir a opção **Excluir relações da ordem de serviço** como **Não**.
 
+A ilustração a seguir mostra um exemplo da página de listagem **Grupo de ordens de serviço**.
 
 ![Figura 1](media/22-work-orders.png)
 
 
-## <a name="add-work-order-to-a-work-order-pool"></a>Adicionar a ordem de serviço em um grupo de ordens de serviço
+## <a name="add-a-work-order-to-a-work-order-pool"></a>Adicionar uma ordem de serviço a um grupo de ordens de serviço
 
-Conforme descrito na seção acima, você poderá adicionar ordens de serviço a um grupo de ordens de serviço ao criá-lo. Você também pode adicionar uma ordem de serviço a um grupo de ordens de serviço de uma da lista **Todas as ordens de serviço**.
+Conforme descrito na seção anterior, você poderá adicionar ordens de serviço a um grupo de ordens de serviço ao criá-lo. Você também pode adicionar ordens de serviço a um grupo de ordens de serviço na página de listagem **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
 
-1. Clique em **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
+1. Selecione a ordem de serviço e, no Painel de Ação, na guia **Ordem de serviço**, no grupo **Manter**, selecione **Grupo de ordens de serviço**.
 
 2. Selecione a ordem de serviço na lista e clique em **Grupo de ordens de serviço**.
 
-3. Selecione "Adicionar" no campo **Adicionar/remover**.
+3. Na caixa de diálogo **Manter grupo de ordens de serviço**, no campo **Adicionar/remover**, selecione **Adicionar**.
 
-4. Selecione o grupo de ordens de serviço no campo **Grupo**.
+4. No campo **Grupo**, selecione o grupo de ordens de serviço.
 
-5. Clique em **OK**.
+5. Selecione **OK**.
 
-6. Depois de adicionar uma ordem de serviço a um grupo de ordens de serviço, se você quiser colocar a ordem de serviço em uma sequência específica no grupo: abra uma das páginas de listagem de grupos de ordens de serviço, selecione o grupo e clique em **Editar**, ajuste a ordem de classificação das ordens de serviço incluídas no grupo em formulário **Grupo de ordens de serviço** > Guia Rápida **Ordens de serviço** > campo **Ordem de classificação**.
+6. Para colocar a ordem de serviço que você adicionou em uma ordem específica no grupo de ordens de serviço, na página de listagem **Todos os grupos de ordens de serviço** ou **Grupos de ordens de serviço ativas**, selecione o grupo e depois **Editar**. Em seguida, na página **Grupo de ordens de serviço** na Guia Rápida **Ordens de serviço**, use o campo **Ordem de classificação** para ajustar a ordem das ordens de serviço incluídas no grupo.
 
-Se quiser remover a ordem de serviço selecionada em um grupo de ordens de serviço, selecione "Remover" na etapa 3.
+Para remover uma ordem de serviço de um grupo de ordens de serviço, repita essas etapas, mas selecione **Remover** na etapa 3.
 

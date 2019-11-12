@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 19d529df6c8aab036de59502b4f14101e1a07707
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 430e475b52638dd80512ffd79d42aac6f5f340e1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790465"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571130"
 ---
 # <a name="maintenance-request-types"></a>Tipos de solicitação de manutenção
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Os tipos de solicitação de manutenção são usados para categorizar solicitações de manutenção. Por exemplo, você pode ter os tipos de solicitação de manutenção relacionados à manutenção preventiva e manutenção corretiva. Ou pode ter um tipo especial de solicitação de manutenção que é usado para gerenciar o reparo de ativos (reparo de depósito).
 
@@ -44,4 +44,4 @@ Um tipo do solicitação de manutenção define a afiliação ao grupo de estado
 
 A ilustração a seguir mostra um exemplo da página **Tipos de solicitação de manutenção**.
 
-![Figura 1](media/07-setup-for-requests.png)
+![Página de tipos de solicitação de manutenção](media/07-setup-for-requests.png)

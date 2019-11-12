@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8c22137ad29bf947bc7a9e4c9a4d1332e03b1298
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: 1e3fc0e8cb5c9a6cc7729dfbddd5d918a1d6bdb5
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606955"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653362"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Aprimoramentos na funcionalidade de postagem de demonstrativo
 
@@ -37,7 +37,7 @@ Por padrão, durante a implementação de Finance and Operations 7.3.2, o progra
 
 Quando a nova chave de configuração **Demonstrativos de Retail** é ligada, um novo item de menu nomeado **Demonstrativos de Retail** está disponível. Esse item de menu permite criar, calcular e lançar demonstrativos manualmente. Qualquer instrução que cause um erro quando o processo de postagem de lotes é usado também estará disponível por meio deste item de menu. (Quando a chave de configuração **Demonstrativos de Retail (herdado)** é ligada, o item de menu é nomeado **Demonstrativos abertos**.)
 
-Finance and Operations inclui as seguintes validações relacionadas às chaves de configuração:
+Retail inclui as seguintes validações relacionadas às chaves de configuração:
 
 - As duas chaves de configuração não podem ser alternadas simultaneamente.
 - As mesmas chaves de configuração devem ser usadas para todas as operações executadas em um demonstrativo específico durante o ciclo de vida, (Criar, Calcular, Limpar, Lançar e etc.) Por exemplo, você não pode criar e calcular o demonstrativo quando a chave de configuração **Demonstrativos de Retail (herdados)** está ativada, e depois tentar lançá-la ao mesmo demonstrativo quando a chave de configuração **Demonstrativos de Retail** estiver ativada.

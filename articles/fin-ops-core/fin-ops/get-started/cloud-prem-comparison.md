@@ -3,7 +3,7 @@ title: Comparação de recursos de nuvem e locais
 description: O tópico mostra quais recursos são suportados na Nuvem e locais.
 author: sericks007
 manager: AnnBe
-ms.date: 10/02/2019
+ms.date: 10/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,115 +17,158 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 516bc1b5b27101a4b582c4d2d12756750cf353d2
-ms.sourcegitcommit: d554faca895609b8124bf2ea5aca5a55c407534a
+ms.openlocfilehash: 8fa5ff0de4e97d5dc178581f721f3a6ea72fc974
+ms.sourcegitcommit: 70c6257bd6833de3e8de34d9a7561088194e59cc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537871"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "2573921"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Comparação de recursos de nuvem e locais
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico mostra se cada recurso está disponível nestes produtos:
+Esse tópico mostra comparação recursos disponíveis na nuvem versus na infraestrutura local para os seguintes aplicativos:
 
-+ Finance and Operations (nuvem)
-+ Finance + Operations (local)
+- [Dynamics 365 Finance](cloud-prem-comparison.md#dynamics-365-finance)
+- [Dynamics 365 Supply Chain Management](cloud-prem-comparison.md#dynamics-365-supply-chain-management)
+- [Dynamics 365 Retail](cloud-prem-comparison.md#dynamics-365-retail)
+- [Dynamics 365 Talent](cloud-prem-comparison.md#dynamics-365-talent)
 
-As tabelas a seguir listam as áreas do produto. O suporte à nuvem e aos locais é listado para o recurso como um todo. Onde os recursos específicos da área total forem diferentes, os recursos são listados em uma linha separada na coluna Recurso.
+Informações sobre os [recursos de desenvolvimento e de administração](cloud-prem-comparison.md#development-and-administration-features) também foram incluídas.
 
-## <a name="finance-and-operations-applications"></a>Aplicativos do Finance and Operations
+As tabelas a seguir listam as áreas do aplicativo. O suporte à nuvem e aos locais é listado para o recurso como um todo. Onde os recursos específicos da área total forem diferentes, os recursos são listados em uma linha separada na coluna Recurso.
 
-| Área | Recurso | Nuvem | Local |
-|---|---|---|---|
-| Conformidade e certificações | | Sim | Sim |
-| | Certificação do Tipo 1 SOC 1 | Sim | Não |
-| Contabilização de custos | | Sim | Sim |
-| | Pacote de conteúdo de contabilização de custos para Power BI | Sim | Não |
-| | Espaço de trabalho da contabilidade de custos para aplicativo móvel | Sim | Não |
-| Gerenciamento de custo | | Sim | Sim |
-| | Pacote de conteúdo de gerenciamento de custos para Power BI | Sim | Não |
-| Integração e gerenciamento de dados | | Sim | Sim |
-| | Extensão acionada pela configuração | Sim | Não |
-| | Exportar dados para seu próprio depósito de dados | Sim | Sim |
-| | Habilitar a exportação de atualizações incrementais para uma entidade de dados | Sim | Não |
-| | Integrações de dados | Sim | Sim |
-| Gerenciamento de documentos | | Sim| Sim |
-| Gerenciamento financeiro | | Sim | Sim |
-| Ajuda | | Sim | Não |
-| Recursos humanos | | Sim | Sim |
-| Inteligência | | Sim | Sim |
-| | Relatório eletrônico (ER) | Sim | Sim |
-| | ER: integração como o LCS | Sim | Não |
-| | ER: integração como o SharePoint | Sim | Não |
-| | ER: integração com os Serviços de configuração regulatória (RCS) | Sim | Não |
-| | ER: usa o sistema de arquivos local como o armazenamento das configurações de ER acessíveis pelos repositórios de ER | Não | Sim |
-| | Integração com PowerBI.com | Sim | Não |
-| | Espaços de trabalho analíticos | Sim | Não |
-| | Processo de negócios do Intelligent: Recomendações | Sim | Não |
-| | Criação de relatórios do Power BI com OData usando ferramentas do Power BI Desktop ou do Power Query para Excel | Sim | Não |
-| | O SQL Server Reporting Services (SSRS) dá suporte à escala horizontal | Sim | Não |
-| | A telemetria é transferida para a nuvem | Sim | Não |
-| Gerenciamento de estoque | | Sim | Sim |
-| Lifecycle Services | | Sim | Sim |
-| | Processos de negócios configuráveis | Sim | Não |
-| Localizações | | Sim | Sim |
-| Fabricação | | Sim | Sim |
-| Planejamento e previsão mestre | | Sim | Sim |
-| Aplicativo móvel, espaços de trabalho e plataforma | | Sim | Sim |
-| Integração do Office | | Sim | Sim |
-| Administração da organização | | Sim | Sim |
-| Folha de Pagamento | | Sim | Sim |
-| | Depósito direto | Sim | Não |
-| Compras | | Sim | Sim |
-| | Punch-out para catálogo externo da requisição de compra | Sim | Não |
-| | Relatórios do Power BI de análise de gastos em compras | Sim | Não |
-| Gerenciamento de informações do produto | | Sim | Sim |
-| Dados de produto mestre | | Sim | Sim |
-| Produção | | Sim | Sim |
-| | Relatórios do Power BI de desempenho da produção | Sim | Não |
-| Gerenciamento e contabilidade de projeto | | Sim | Sim |
-| Vendas | | Sim | Sim |
-| | Relatórios do Power BI de desempenho de vendas e lucratividade | Sim | Não |
-| Segurança | | Sim | Sim |
-| Gerenciamento de serviços | | Sim | Sim |
-| Gerenciamento da cadeia de fornecedores | | Sim | Sim |
-| Gerenciamento de transporte | | Sim | Sim |
-| Colaboração do fornecedor | | Sim | Não |
-| Gerenciamento de depósito | | Sim | Sim |
-| | Aplicativo móvel de depósito | Sim | Sim |
-| | Relatórios do Power BI de depósito | Sim | Não |
-| Cliente web | | Sim | Sim |
-| | Gravador de tarefas - Salvar ou carregar gravações de tarefas da biblioteca de BPM | Sim | Não |
-| Suporte | | Sim | Sim |
-| | Acesso ao suporte por meio do menu Ajuda e Suporte | Sim | Não |
+## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
 
-### <a name="development-and-administration"></a>Desenvolvimento e administração
+| **Área**             | **Recurso**                | **Nuvem** | **Local** |
+|---------------------|-----------------------------|-----------|-----------------|
+| Conformidade e certificações        |                                                                                           | Sim       | Sim             |
+|                                      | Certificação do Tipo 1 SOC 1                                                                | Sim       | Não              |
+| Integração e gerenciamento de dados      |                                                                                           | Sim       | Sim             |
+|                                      | Extensão acionada pela configuração                                                            | Sim       | Não              |
+|                                      | Exportar dados para seu próprio depósito de dados                                                    | Sim       | Sim             |
+|                                      | Habilitar a exportação de atualizações incrementais para uma entidade de dados                                 | Sim       | Não              |
+|                                      | Integrações de dados                                                                         | Sim       | Sim             |
+| Gerenciamento de documentos                  |                                                                                           | Sim       | Sim             |
+| Gerenciamento financeiro                 |                                                                                           | Sim       | Sim             |
+| Ajuda                                 |                                                                                           | Sim       | Não              |
+| Recursos humanos                      |                                                                                           | Sim       | Sim             |
+| Inteligência                         |                                                                                           | Sim       | Sim             |
+|                                      | Relatório eletrônico (ER)                                                                 | Sim       | Sim             |
+|                                      | ER: integração como o LCS                                                                  | Sim       | Não              |
+|                                      | ER: integração como o SharePoint                                                           | Sim       | Não              |
+|                                      | ER: integração com os Serviços de configuração regulatória (RCS)                              | Sim       | Não              |
+|                                      | ER: usa o sistema de arquivos local como o armazenamento das configurações de ER acessíveis pelos repositórios de ER | Não        | Sim             |
+|                                      | Integração com PowerBI.com                                                              | Sim       | Não              |
+|                                      | Integração ao PowerBI Desktop                                                          | Não        | Sim             |
+|                                      | Espaços de trabalho analíticos                                                                     | Sim       | Não              |
+|                                      | Processo de negócios do Intelligent: Recomendações                                             | Sim       | Não              |
+|                                      | Criação de relatórios do Power BI com OData usando ferramentas do Power BI Desktop ou do Power Query para Excel    | Sim       | Não              |
+|                                      | O SQL Server Reporting Services (SSRS) dá suporte à escala horizontal                                 | Sim       | Não              |
+|                                      | A telemetria é transferida para a nuvem                                                   | Sim       | Não              |
+| Lifecycle Services                   |                                                                                           | Sim       | Sim             |
+|                                      | Processos de negócios configuráveis                                                           | Sim       | Não              |
+| Localizações                        |                                                                                           | Sim       | Sim             |
+| Aplicativo móvel, espaços de trabalho e plataforma |                                                                                           | Sim       | Sim             |
+| Integração do Office                   |                                                                                           | Sim       | Sim             |
+| Administração da organização          |                                                                                           | Sim       | Sim             |
+| Folha de Pagamento                              |                                                                                           | Sim       | Sim             |
+|                                      | Depósito direto                                                                            | Sim       | Não              |
+| Gerenciamento e contabilidade do projeto    |                                                                                           | Sim       | Sim             |
+| Segurança                             |                                                                                           | Sim       | Sim             |
+| Gerenciamento de serviços                   |                                                                                           | Sim       | Sim             |
+| Cliente web                           |                                                                                           | Sim       | Sim             |
+|                                      | Gravador de tarefas - Salvar ou carregar gravações de tarefas da biblioteca de BPM                         | Sim       | Não              |
+| Suporte                              |                                                                                           | Sim       | Sim             |
+|                                      | Acesso ao suporte por meio do menu Ajuda e Suporte                                             | Sim       | Não              |
 
-| Área | Recurso | Nuvem | Local |
-|---|---|---|---|
-| Criar e testar | | Sim | Sim |
-| Extensibilidade | | Sim | Sim |
-| Monitoramento e telemetria | | Sim | Sim |
-| Compatibilidade de plataforma | | Sim | Sim |
-| Atendimento | | Sim | Sim |
-| | Ambientes de atendimento | Sim | Não |
-| Trace Parser e PerfTimer | | Sim | Não |
-| Atualizar | | Sim | Sim |
-| | Atualizar | Sim | Não |
-| | Atualização e suporte para versões anteriores | Sim | Não |
-| Desenvolvimento no Visual Studio | | Sim | Sim |
+## <a name="dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 
 
-### <a name="dynamics-365-retail"></a>Dynamics 365 Retail 
-Para ver uma lista de recursos de varejo disponíveis em implantações locais, consulte [Recursos de varejo disponíveis em implantações locais](../../../retail/retail-onprem.md).
+| **Área**                | **Recurso**             | **Nuvem** | **Local** |
+|-------------------------|-------------------|-----------|-----------------|
+| Conformidade e certificações        |                                                                                           | Sim       | Sim             |
+|                                      | Certificação do Tipo 1 SOC 1                                                                | Sim       | Não              |
+| Contabilização de custos                      |                                                                                           | Sim       | Sim             |
+|                                      | Pacote de conteúdo de contabilização de custos para Power BI                                                 | Sim       | Não              |
+|                                      | Espaço de trabalho da contabilidade de custos para aplicativo móvel                                                  | Sim       | Não              |
+| Gerenciamento de custo                      |                                                                                           | Sim       | Sim             |
+|                                      | Pacote de conteúdo de gerenciamento de custos para Power BI                                                 | Sim       | Não              |
+| Integração e gerenciamento de dados      |                                                                                           | Sim       | Sim             |
+|                                      | Extensão acionada pela configuração                                                            | Sim       | Não              |
+|                                      | Exportar dados para seu próprio depósito de dados                                                    | Sim       | Sim             |
+|                                      | Habilitar a exportação de atualizações incrementais para uma entidade de dados                                 | Sim       | Não              |
+|                                      | Integrações de dados                                                                         | Sim       | Sim             |
+| Gerenciamento de documentos                  |                                                                                           | Sim       | Sim             |
+| Ajuda                                 |                                                                                           | Sim       | Não              |
+| Inteligência                         |                                                                                           | Sim       | Sim             |
+|                                      | Relatório eletrônico (ER)                                                                 | Sim       | Sim             |
+|                                      | ER: integração como o LCS                                                                  | Sim       | Não              |
+|                                      | ER: integração como o SharePoint                                                           | Sim       | Não              |
+|                                      | ER: integração com os Serviços de configuração regulatória (RCS)                              | Sim       | Não              |
+|                                      | ER: usa o sistema de arquivos local como o armazenamento das configurações de ER acessíveis pelos repositórios de ER | Não        | Sim             |
+|                                      | Integração com PowerBI.com                                                              | Sim       | Não              |
+|                                      | Integração ao PowerBI Desktop                                                          | Não        | Sim             |
+|                                      | Espaços de trabalho analíticos                                                                     | Sim       | Não              |
+|                                      | Processo de negócios do Intelligent: Recomendações                                             | Sim       | Não              |
+|                                      | Criação de relatórios do Power BI com OData usando ferramentas do Power BI Desktop ou do Power Query para Excel    | Sim       | Não              |
+|                                      | O SQL Server Reporting Services (SSRS) dá suporte à escala horizontal                                 | Sim       | Não              |
+|                                      | A telemetria é transferida para a nuvem                                                   | Sim       | Não              |
+| Gerenciamento de estoque                 |                                                                                           | Sim       | Sim             |
+| Lifecycle Services                   |                                                                                           | Sim       | Sim             |
+|                                      | Processos de negócios configuráveis                                                           | Sim       | Não              |
+| Localizações                        |                                                                                           | Sim       | Sim             |
+| Fabricação                        |                                                                                           | Sim       | Sim             |
+| Planejamento e previsão mestre      |                                                                                           | Sim       | Sim             |
+| Aplicativo móvel, espaços de trabalho e plataforma |                                                                                           | Sim       | Sim             |
+| Integração do Office                   |                                                                                           | Sim       | Sim             |
+| Administração da organização          |                                                                                           | Sim       | Sim             |
+| Compras e fornecimento             |                                                                                           | Sim       | Sim             |
+|                                      | Punch-out para catálogo externo da requisição de compra                                   | Sim       | Não              |
+|                                      | Relatórios do Power BI de análise de gastos em compras                                                  | Sim       | Não              |
+| Gerenciamento de informações do produto       |                                                                                           | Sim       | Sim             |
+| Dados de produto mestre                  |                                                                                           | Sim       | Sim             |
+| Produção                           |                                                                                           | Sim       | Sim             |
+|                                      | Relatórios do Power BI de desempenho da produção                                                   | Sim       | Não              |
+| Gerenciamento e contabilidade de projeto    |                                                                                           | Sim       | Sim             |
+| Vendas                                |                                                                                           | Sim       | Sim             |
+|                                      | Relatórios do Power BI de desempenho de vendas e lucratividade                                      | Sim       | Não              |
+| Segurança                             |                                                                                           | Sim       | Sim             |
+| Gerenciamento de serviços                   |                                                                                           | Sim       | Sim             |
+| Gerenciamento da cadeia de fornecedores              |                                                                                           | Sim       | Sim             |
+| Gerenciamento de transporte            |                                                                                           | Sim       | Sim             |
+| Colaboração do fornecedor                 |                                                                                           | Sim       | Não              |
+| Gerenciamento de depósito                 |                                                                                           | Sim       | Sim             |
+|                                      | Aplicativo móvel de depósito                                                                      | Sim       | Sim             |
+|                                      | Relatórios do Power BI de depósito                                                              | Sim       | Não              |
+| Cliente web                           |                                                                                           | Sim       | Sim             |
+|                                      | Gravador de tarefas - Salvar ou carregar gravações de tarefas da biblioteca de BPM                         | Sim       | Não              |
+| Suporte                              |                                                                                           | Sim       | Sim             |
+|                                      | Acesso ao suporte por meio do menu Ajuda e Suporte                                             | Sim       | Não              |
 
-## <a name="dynamics-365-talent"></a>Dynamics 365 Talent
+## <a name="dynamics-365-retail"></a>Dynamics 365 Retail 
 
-| Área | Recurso | Nuvem | Local |
-|---|---|---|---|
-| Todas as áreas do Talent | Todos os recursos do Talent | Sim | Não |
+Para ver uma lista de recursos de varejo disponíveis em implantações locais, consulte [Recursos de varejo disponíveis em implantações locais](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/PeterRFriis-patch-1/articles/retail/retail-onprem.md).
 
-## <a name="additional-resources"></a>Recursos adicionais
+## <a name="dynamics-365-talent"></a>Dynamics 365 Talent 
 
-- [Recursos não implementados em implantações locais](features-not-implemented-on-prem.md)
+| **Área**         | **Recurso**         | **Nuvem** | **Local** |
+|------------------|---------------------|-----------|-----------------|
+| Todas as áreas do Talent | Todos os recursos do Talent | Sim       | Não              |
+
+## <a name="development-and-administration-features"></a>Recursos de desenvolvimento e administração
+
+| **Área**                   | **Recurso**                               | **Nuvem** | **Local** |
+|----------------------------|-------------------------------------------|-----------|-----------------|
+| Criar e testar             |                                           | Sim       | Sim             |
+| Extensibilidade              |                                           | Sim       | Sim             |
+| Monitoramento e telemetria   |                                           | Sim       | Sim             |
+| Compatibilidade de plataforma     |                                           | Sim       | Sim             |
+| Atendimento                  |                                           | Sim       | Sim             |
+|                            | Ambientes de atendimento                    | Sim       | Não              |
+| Trace Parser e PerfTimer |                                           | Sim       | Não              |
+| Atualizar                    |                                           | Sim       | Sim             |
+|                            | Atualizar                                   | Sim       | Não              |
+|                            | Atualização e suporte para versões anteriores | Sim       | Não              |
+| Desenvolvimento no Visual Studio  |                                           | Sim       | Sim             |
+

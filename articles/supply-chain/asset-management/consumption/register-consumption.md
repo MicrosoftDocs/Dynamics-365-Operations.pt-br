@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 174c816c7a6442b07e4722c03045293b94c59153
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 43f14a1cbd016335b857fdff1147740b27d5c765
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024651"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653314"
 ---
 # <a name="register-consumption"></a>Registrar consumo
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Quando um trabalho de manutenção tiver sido concluído em uma ordem de serviço, a próxima etapa será criar registros de consumo e lançar diários. Você pode criar registros nos seguintes tipos de consumo: horas, itens e despesas. Os diferentes tipos de consumo são registrados e lançados na página **Diários de ordem de serviço**. A configuração de diário em **Gerenciamento de Ativos** é usada para criar e lançar diários separados para horas, itens e despesas no módulo **Gerenciamento e contabilidade de projeto**.
 
-Você pode adicionar ou excluir linhas de previsão em uma ordem de serviço. A configuração de um estado de ciclo de vida de ordem de serviço, o tipo de projeto relacionado e as regras de estágio relacionadas ao tipo de projeto determinam se você é capaz de adicionar ou editar linhas de diário. Leia mais sobre os estados de ciclo de vida de ordem de serviço e os estágios de projeto relacionados em [Integração ao Gerenciamento e contabilidade de projeto](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
+Em alguns casos, você pode adicionar ou excluir linhas de previsão em uma ordem de serviço. A configuração de um estado de ciclo de vida de ordem de serviço, o tipo de projeto relacionado e as regras de estágio relacionadas ao tipo de projeto determinam se você é capaz de adicionar ou editar linhas de diário. Leia mais sobre os estados de ciclo de vida de ordem de serviço e os estágios de projeto relacionados em [Integração ao Gerenciamento e contabilidade de projeto](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
 
 >[!NOTE]
 >É possível configurar o lançamento automático de diários em um estado de ciclo de vida de ordem de serviço. Consulte [Estados de ciclo de vida de ordem de serviço](../setup-for-work-orders/work-order-lifecycle-states.md) para obter mais informações.
@@ -50,10 +50,10 @@ Você pode adicionar ou excluir linhas de previsão em uma ordem de serviço. A 
 
 6. Clique em **Lançar diários** para lançar as linhas do diário.
 
-7. Após o lançamento dos diários de consumo, você poderá atualizar o estado de ciclo de vida de ordem de serviço, por exemplo, para "Concluído", para indicar que a ordem de serviço foi concluída.
+7. Após ter lançado os diários de consumo, você pode atualizar o estado do ciclo de vida da ordem de serviço. Por exemplo, para indicar que a ordem de serviço for concluída, você pode atualizar o estado do ciclo de vida para "concluído".
 
-- No campo **Mostrar**, na parte superior da página **Diários de ordem de serviço**, selecione quais linhas de diário você deseja ver: Todos, Não lançados ou Lançados. Os diários lançados têm uma marca de seleção na caixa de seleção **Lançados**.  
-- Quando linhas de item forem criadas no diário de ordem de serviço, as dimensões de produto e as dimensões de rastreamento relacionadas ao item serão automaticamente transferidas para a linha de diário.  
+    - No campo **Mostrar**, localizado na parte superior da página **Diários de ordem de serviço**, selecione quais linhas de diário você deseja ver: **Todos**, **Não lançados** ou **Lançados**. Os diários lançados têm uma marca de seleção na caixa de seleção **Lançados**.  
+    - Quando linhas de item forem criadas no diário de ordem de serviço, as dimensões de produto e as dimensões de rastreamento relacionadas ao item serão automaticamente transferidas para a linha de diário.  
 
 A captura de tela a seguir mostra um exemplo de registros de hora e item em uma ordem de serviço em **Diários de ordem de serviço**.
 
@@ -76,7 +76,7 @@ Se uma ordem de serviço contiver vários trabalhos de ordem de serviço, você 
 
 6. Insira o número de horas de trabalho a serem divididas no campo **Horas**.
 
-![Figura 2](media/02-consumption.png)
+    ![Figura 2](media/02-consumption.png)
 
 7. Clique em **OK**.
 
@@ -88,10 +88,10 @@ Se uma ordem de serviço contiver vários trabalhos de ordem de serviço, você 
 
 Quando você cria registros de consumo, as dimensões financeiras relacionados a diferentes tipos de registro serão adicionadas aos registros em uma sequência específica. 
 
-*Registros de Horas e Despesas:* primeiro, as dimensões financeiras do cabeçalho de diário são adicionadas, se houver. Em seguida, as dimensões financeiras do projeto de ordem de serviço relacionado são adicionadas. Por fim, as dimensões financeiras do recurso (trabalhador) são adicionadas.
+- *Registros de Horas e Despesas:* primeiro, as dimensões financeiras do cabeçalho de diário são adicionadas, se houver. Em seguida, as dimensões financeiras do projeto de ordem de serviço relacionado são adicionadas. Por fim, as dimensões financeiras do recurso (trabalhador) são adicionadas.
 
-*Registros de Item:* primeiro, as dimensões financeiras do cabeçalho de diário são adicionadas, se houver. Então, as dimensões financeiras do projeto de ordem de serviço relacionado são adicionadas. Em seguida, as dimensões financeiras do site são adicionadas. Por fim, as dimensões financeiras do item são adicionadas.
+- *Registros de Item:* primeiro, as dimensões financeiras do cabeçalho de diário são adicionadas, se houver. Então, as dimensões financeiras do projeto de ordem de serviço relacionado são adicionadas. Em seguida, as dimensões financeiras do site são adicionadas. Por fim, as dimensões financeiras do item são adicionadas.
 
 >[!NOTE]
->Para todos os três tipos de registro, a combinação de dimensão financeira é validada, e as combinações inválidas são anuladas. Essa é a instalação padrão no Finance and Operations.
+>Para todos os três tipos de registro, a combinação de dimensão financeira é validada, e as combinações inválidas são anuladas. Essa é a instalação padrão com outros aplicativos do Finance and Operations.
 

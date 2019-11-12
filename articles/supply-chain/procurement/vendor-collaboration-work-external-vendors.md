@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b38fb087fb572362c27e747e7909060c55a242a4
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 22d16219df9319d276514c62348c0e1995d22715
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250178"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653593"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Colaboração de fornecedores com fornecedores externos
 
@@ -190,7 +190,7 @@ A tabela a seguir mostra um exemplo das alterações de status e versão pelas q
 Os fornecedores não precisam confirmar uma OC usando a interface de colaboração do fornecedor. Eles também podem enviar um email ou comunicar a aceitação de uma OC por meio de outro canais. Em seguida, você poderá confirmar a ordem manualmente. Nesse caso, você receberá um aviso de que a ordem está sendo confirmada, mesmo que não haja nenhuma resposta do fornecedor. A OC aparecerá no histórico de confirmação como uma ordem confirmada aberta que não tem nenhuma resposta. Neste ponto, o fornecedor não terá mais a opção de confirmar ou rejeitar a OC.
 
 > [!NOTE]
-> A versão da OC disponível para outros processos no Finance and Operations sempre será a versão mais recente, mesmo se essa versão ainda não tiver sido registrada na interface de colaboração do fornecedor.
+> A versão da OC disponível para outros processos no Supply Chain Management sempre será a versão mais recente, mesmo se essa versão ainda não tiver sido registrada na interface de colaboração do fornecedor.
 
 ### <a name="versions-and-statuses-if-you-use-change-management"></a>Versões e status se você usar o gerenciamento de alterações
 

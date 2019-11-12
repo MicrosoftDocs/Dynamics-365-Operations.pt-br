@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 143cd51a3ea34a6b05da049d87819b3dfee95725
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b40f9a5677fd5375d7a19a75400d4305a8850392
+ms.sourcegitcommit: 399e861ca6f2bdcd4fe84d89fedc04b60d9f43e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181510"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "2564928"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Configurar a importação de dados do SharePoint
 
@@ -62,9 +62,9 @@ Executar os guias de tarefas **ER Importar dados de um arquivo do Microsoft Exce
 > O formato para importar transações do fornecedor é selecionado como o mapeamento de modelo padrão. Portanto, se você executar um mapeamento de modelo do **Modelo de pagamentos 1099** e esse mapeamento de modelo for do tipo **Para destino**, o mapeamento de modelo executa este formato para importar dados dos arquivos externos. Em seguida, usa esses dados para atualizar tabelas do aplicativo.
 
 ## <a name="configure-access-to-sharepoint-for-file-storage"></a>Configurar o acesso ao SharePoint para armazenamento de arquivos
-Para armazenar arquivos de relatórios eletrônicos em um local do SharePoint, você deve configurar o acesso à instância do SharePoint Server que será usada pela empresa atual. Neste exemplo, a empresa é USMF. Para obter instruções, consulte [Configurar armazenamento do SharePoint](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
+Para armazenar arquivos de relatórios eletrônicos em um local do SharePoint, você deve configurar o acesso à instância do SharePoint Server que será usada pela empresa atual. Neste exemplo, a empresa é USMF. Para obter instruções, consulte [Configurar armazenamento do SharePoint](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
 
-1. Execute as etapas em [Configurar armazenamento do SharePoint](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
+1. Execute as etapas em [Configurar armazenamento do SharePoint](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
 2. Abra o site configurado do SharePoint.
 3. Criar estas pastas onde os arquivos de relatórios eletrônicos de entrada possam ser armazenados:
 
@@ -80,7 +80,7 @@ Para armazenar arquivos de relatórios eletrônicos em um local do SharePoint, v
     - Pasta de arquivos com erros - esta pasta seria para os arquivos que não foram importados.
 
 4. Vá para **Administração da organização > Gerenciamento de documentos > Tipos de documento**.
-5. Crie os tipos de documento a seguir que serão usados para acessar as pastas do SharePoint recém-criadas. Para obter instruções, consulte [Configurar tipos de documento](../../fin-and-ops/organization-administration/configure-document-management.md#configure-document-types).
+5. Crie os tipos de documento a seguir que serão usados para acessar as pastas do SharePoint recém-criadas. Para obter instruções, consulte [Configurar tipos de documento](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types).
 
 |Tipo de documento       | Agrupar              | Localização      | Pasta do SharePoint      |
 |--------------------|--------------------|---------------|------------------------|

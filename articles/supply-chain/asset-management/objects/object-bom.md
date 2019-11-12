@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 761364c8c58258baf2268f917cb174ac300c4528
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 02686c97a19fa86c3ea93d7c400067f0855b5c4d
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783080"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571475"
 ---
 # <a name="asset-boms"></a>BOMs de Ativos
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Este tópico descreve listas de materiais (BOMs) de ativos no Asset Management. A **BOM de ativos** mostra uma lista de todos os itens (partes sobressalentes e outros itens) usados em um ativo durante toda sua vida útil. Quando você criar um novo ativo, considere a configuração de uma BOM de ativos como parte do procedimento de instalação. Assim, você pode controlar o histórico de itens do ativo desde a data de criação.
 

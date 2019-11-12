@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d3bd01f7aa1ef95230c37458a5676111a5efa23c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 29c13e729223a98d7f45244c5a796bca6e3baaf3
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182545"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2550824"
 ---
-# <a name="er-use-document-management-files-in-format-outputs-part-1-prepare-data-model"></a>O ER usar arquivos de gerenciamento de documentos em formato de saída (parte 1: preparar modelo de dados)
+# <a name="er-use-document-management-files-in-format-outputs-part-1---prepare-data-model"></a>ER Usar arquivos de gerenciamento de documentos em formato de saída (Parte 1 - Preparar modelo de dados)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

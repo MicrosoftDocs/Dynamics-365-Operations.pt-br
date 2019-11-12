@@ -3,7 +3,7 @@ title: Listas de verificação de manutenção
 description: Este tópico descreve listas de verificação de manutenção no Gerenciamento de Ativos.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,65 +16,67 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 325ff1fa0811d6aac5189cc69f21483fce6b3e8f
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 4ffdf2a997eab741521745ec8207f4f980740ecf
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875510"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626261"
 ---
 # <a name="maintenance-checklists"></a>Listas de verificação de manutenção
 
-
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
-As listas de verificação de manutenção são configuradas em tipos de trabalho de manutenção e usadas quando você trabalha em uma ordem de serviço. O preenchimento de listas de verificação de manutenção faz parte da conclusão da ordem de serviço. Consulte a seção [Categorias do tipo de trabalho e tipos de trabalho de manutenção, grades do tipo de trabalho de manutenção, comércios de trabalho de manutenção e listas de verificação de manutenção](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md) para obter mais informações sobre como configurar listas de verificação de manutenção nos tipos de trabalho de manutenção no formulário **Padrões do tipo de trabalho de manutenção**.
 
-Quando você trabalha com listas de verificação de manutenção em uma ordem de serviço, você pode preencher as listas de verificação de manutenção predefinidas relacionadas aos tipos de trabalho de manutenção. Também é possível incluir listas de verificação de manutenção adicionais.
+As listas de verificação de manutenção são configuradas em tipos de trabalho de manutenção. O preenchimento de listas de verificação de manutenção faz parte do processo de conclusão da ordem de serviço. Para obter mais informações sobre como configurar listas de verificação de manutenção em tipos de trabalho de manutenção na página **Padrões do tipo de trabalho de manutenção**, consulte [Categorias do tipo de trabalho e tipos de trabalho de manutenção, grades do tipo de trabalho de manutenção, ofício do trabalho de manutenção e listas de verificação de manutenção](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
 
-## <a name="fill-out-a-maintenance-checklist"></a>Preencha uma lista de verificação de manutenção
+Quando você trabalha com listas de verificação de manutenção em uma ordem de serviço, você pode preencher as listas de verificação de manutenção predefinidas relacionadas aos tipos de trabalho de manutenção. Você também pode adicionar mais listas de verificação de manutenção.
+
+
+## <a name="fill-in-a-maintenance-checklist"></a>Preencher uma lista de verificação de manutenção
 
 1. Clique em **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
 
-2. Selecione a ordem de serviço e clique em **Lista de verificação de manutenção**.
+2. Selecione a ordem de serviço e, no Painel de Ação, na guia **Ordem de serviço**, no grupo **Linhas**, selecione **Lista de verificação de manutenção**.
 
-3. Na **Lista de verificação do trabalho de manutenção da ordem de serviço**, você verá listas de verificação de manutenção para todos os trabalhos da ordem de serviço. Se os trabalhos da ordem de serviço tiverem tipos de trabalho de manutenção diferentes, as listas de verificação de manutenção podem ser diferentes em cada trabalho da ordem de serviço. Selecione um trabalho da ordem de serviço para trabalhar com lista de verificação de manutenção. Os detalhes de uma linha selecionada da lista de verificação de manutenção são mostrados na Guia Rápida **Detalhes da linha**.
+3. A **Lista de verificação do trabalho de manutenção da ordem de serviço** exibe as listas de verificação de todos os trabalhos da ordem de serviço. Se os trabalhos da ordem de serviço tiverem tipos de trabalho de manutenção diferentes, as listas de verificação de manutenção poderão ser diferentes para cada trabalho da ordem de serviço. Selecione um trabalho da ordem de serviço para trabalhar com lista de verificação de manutenção. Os detalhes da linha selecionada da lista de verificação de manutenção são mostrados na Guia Rápida **Detalhes da linha**.
 
-4. Conclua todas as linhas de lista de verificação de manutenção, uma de cada vez, na ordem sequencial em que são mostradas. Uma linha da lista de verificação de manutenção tipo "Cabeçalho" será usada como um título para agrupar as linhas da lista de verificação de manutenção abaixo. Não é necessário preencher um cabeçalho, mas, como em todos os tipos de linhas da lista de verificação de manutenção, é possível adicionar **Observação** ao cabeçalho.
+4. Complete todas as linhas da lista de verificação de manutenção, uma de cada vez, na ordem em que aparecem. Você completa uma linha da lista de verificação de manutenção preenchendo os campos da Guia Rápida **Detalhes da linha**. As informações necessárias para completar uma linha podem variar, dependendo do tipo de linha. Por exemplo, em uma linha do tipo **Texto**, você adiciona uma observação explicando qual foi o resultado da sua verificação. Em uma linha do tipo **Medida**, você deve inserir o valor do contador lido no equipamento e também pode adicionar uma observação, se necessário. Uma linha da lista de verificação de manutenção do tipo **Cabeçalho** é usada como um título para agrupar as linhas da lista de verificação de manutenção exibidas abaixo dela. Você não precisa preencher um cabeçalho. Assim como para todos os outros tipos de linhas da lista de verificação de manutenção, você pode adicionar uma observação em uma linha do tipo **Cabeçalho**.
 
-5. Se as instruções estiverem relacionadas a uma linha da lista de verificação de manutenção, a caixa de seleção **Instruções** será marcada. Leia as instruções para a linha da lista de verificação de manutenção selecionada na seção **Detalhes da linha** Guia rápida > **Instruções**.
+5. Se as instruções estiverem relacionadas a uma linha da lista de verificação de manutenção, a caixa de seleção **Instruções** será marcada. Leia as instruções para a linha selecionada da lista de verificação de manutenção no campo **Instruções** da Guia Rápida **Detalhes da linha**.
 
-6. As informações necessárias para concluir uma linha de lista de verificação de manutenção pode variar, dependendo do tipo da lista de verificação de manutenção. Você completa uma linha da lista de verificação de manutenção preenchendo os campos da Guia Rápida **Detalhes da linha**. Por exemplo, em uma linha do tipo "Texto", você adiciona uma **Observação** explicando qual foi o resultado dessa linha da lista de verificação. Em uma linha do tipo "Medida", você adiciona o **Valor do contador** que você lê no equipamento e também pode adicionar uma **Observação**, se necessário.
+6. Quando tiver preenchido uma linha da lista de verificação de manutenção, marque a caixa de seleção **Verificado** na linha para marcá-la como concluída. Para descartar uma linha da lista de verificação de manutenção porque ela não é relevante para o trabalho da ordem de serviço, marque a caixa de seleção **N/D** na linha. Se a caixa de seleção **Obrigatório** estiver marcada em uma linha da lista de verificação de manutenção, você deverá marcar a caixa de seleção **Verificado** ou **N/D**.
 
-- Quando tiver preenchido uma linha da lista de verificação de manutenção, marque a caixa de seleção **Marcada** na linha para marcá-la como concluída. Se quiser descartar uma linha da lista de verificação de manutenção porque ela não é relevante para o trabalho da ordem de serviço, marque a caixa de seleção **N/A** na linha. Se uma linha de lista de verificação de manutenção for marcada como **Obrigatória**, você deverá marcá-la como "Marcada" ou "N/A".  
-- Você só pode atualizar os registros da lista de verificação de manutenção se a ordem de serviço estiver em um estado do ciclo de vida [Ativo](../setup-for-work-orders/work-order-lifecycle-states.md).  
+>[!NOTE]
+>Você só pode atualizar os registros da lista de verificação de manutenção se a ordem de serviço estiver em um estado do ciclo de vida [Ativo](../setup-for-work-orders/work-order-lifecycle-states.md).  
 
 
 ## <a name="add-a-maintenance-checklist-line"></a>Adicionar uma linha da lista de verificação de manutenção
 
-As listas de verificação de manutenção são criadas do padrão de definição de tipo de trabalho de manutenção e transferidas para um trabalho de ordem de serviço. Se necessário, você pode adicionar linhas da lista de verificação de manutenção para um trabalho da ordem de serviço. As linhas da lista de verificação de manutenção adicionadas manualmente obtêm a referência "Manual".
+As listas de verificação de manutenção são criadas com base na definição no padrão de tipo de trabalho de manutenção e transferidas para um trabalho da ordem de serviço. Se necessitar, você poderá adicionar linhas da lista de verificação de manutenção em um trabalho da ordem de serviço. As linhas da lista de verificação de manutenção adicionadas manualmente obtêm a referência **Manual**.
 
-1. Na **Lista de verificação do trabalho de manutenção da ordem de serviço**, selecione o trabalho da ordem de serviço para o qual você deseja adicionar uma lista de verificação de manutenção.
+1. Na página **Lista de verificação do trabalho de manutenção da ordem de serviço**, selecione o trabalho da ordem de serviço para o qual você deseja adicionar uma lista de verificação de manutenção.
 
-2. Na Guia Rápida **Linhas da lista de verificação de manutenção**, selecione uma linha da lista de verificação de manutenção e pressione o botão de seta para baixo de seu teclado, se quiser inserir uma nova linha após a linha da lista de verificação de manutenção selecionada. O próximo número da sequência é inserido automaticamente no campo **Número da linha**. Você também pode selecionar uma linha de lista de verificação de manutenção e clicar no botão **Adicionar linha** se quiser inserir uma nova linha acima da linha de lista de verificação de manutenção selecionada.
+2. Na Guia Rápida **Linhas da lista de verificação de manutenção**, selecione uma linha da lista de verificação de manutenção. Em seguida, para inserir uma nova linha depois da linha selecionada, pressione a tecla **Seta para baixo**. O próximo número da sequência é inserido automaticamente no campo **Número da linha**. Para inserir uma nova linha antes da linha selecionada, selecione **Adicionar linha**. 
 
-3. Insira um nome para a linha da lista de verificação de manutenção no campo **Nome**.
+3. No campo **Nome**, insira um nome para a linha da lista de verificação de manutenção.
 
-4. No campo **Tipo**, selecione um tipo de linha da lista de verificação de manutenção. Para cada tipo de lista de verificação de manutenção, os campos relacionados são mostrados na Guia Rápida **Detalhes da linha**.  
-  a. O “texto” é usado para adicionar uma linha da lista de verificação de manutenção com uma descrição de texto sobre o que fazer. Este tipo de lista de verificação de manutenção pode ser usado se você quiser que um trabalhador verifique ou inspecione algo, sem esperar um resultado específico (mensurável). Insira uma descrição do que fazer na seção **Instruções** na Guia Rápida **Detalhes da linha**. b. "Cabeçalho" é usado como um título para agrupar as linhas da lista de verificação de manutenção mostradas abaixo do cabeçalho. Isso é útil se você tem diversas linhas da lista de verificação de manutenção que podem ser divididas em áreas específicas. Insira um nome descritivo no campo **Nome**.  
-  c. O "modelo" não é aplicável quando você adiciona uma linha da lista de verificação de manutenção manualmente em um trabalho da ordem de serviço.  
-  d. "Variável” é usada para definir um resultado possível em um intervalo em uma linha da lista de verificação de manutenção. A configuração de variáveis da lista de verificação de manutenção é descrita em [Categorias do tipo de trabalho e tipos de trabalho de manutenção, grades do tipo de trabalho de manutenção, comércios de trabalho de manutenção e listas de verificação de manutenção](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md). Insira um nome para descreve a variável no campo **Nome**. Selecione a variável no campo **Variável**. Insira uma descrição do que fazer na seção **Instruções** na Guia Rápida **Detalhes da linha**.  
-  e. "Medição" é usada para registrar uma medição específica. Insira um nome para a medição no campo **Nome**. Na Guia Rápida **Detalhes da linha**, selecione **Contador** e **Unidade**. Insira uma descrição do que fazer na seção **Instruções**.  
+4. No campo **Tipo**, selecione um tipo de linha da lista de verificação de manutenção. A Guia Rápida **Detalhes da linha** contém campos relacionados para cada tipo de lista de verificação de manutenção.
+    - **Texto** - Use este tipo para adicionar uma linha da lista de verificação de manutenção com o texto que descreve o que deve ser feito. Por exemplo, você pode usar este tipo se quiser que um trabalhador verifique ou inspecione algo, mas sem esperar um resultado específico (mensurável). Depois de selecionar este tipo, na Guia Rápida **Detalhes das linhas**, no campo **Instruções** , insira o texto que descreve o que deve ser feito.
+    - **Cabeçalho** - Uma linha da lista de verificação de manutenção deste tipo é usada como um título para agrupar as linhas da lista de verificação de manutenção exibidas abaixo dela. Este tipo é útil se você tiver diversas linhas da lista de verificação de manutenção que podem ser divididas em áreas específicas. Após selecionar este tipo, insira um nome descritivo no campo **Nome**.
+    - **Modelo** - Este tipo não é aplicável quando você adiciona manualmente uma linha da lista de verificação de manutenção em um trabalho da ordem de serviço.  
+    - **Variável** - Use este tipo para definir um resultado possível em um intervalo em uma linha da lista de verificação de manutenção. Para obter informações sobre como configurar variáveis da lista de verificação de manutenção, consulte [Categorias do tipo de trabalho e tipos de trabalho de manutenção, grades do tipo de trabalho de manutenção, ofício do trabalho de manutenção e listas de verificação de manutenção](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md). Após selecionar este tipo, insira um nome descritivo para a variável no campo **Nome**. Na Guia Rápida **Detalhes da linha**, no campo **Variável**, selecione a variável. No campo **Instruções**, insira um texto que descreva o que deve ser feito.
+    - **Medida** - Use este tipo para registrar uma medida específica na linha da lista de verificação de manutenção. Após selecionar este tipo, insira um nome para a medida no campo **Nome**. Na Guia Rápida **Detalhes da linha**, nos campos **Contador** e **Unidade**, selecione valores apropriados. No campo **Instruções**, insira um texto que descreva o que deve ser feito.
 
-5. Quando concluir a adição de linhas da lista de verificação de manutenção manualmente, preencha as linhas, conforme descrito na seção acima.
+5. Quando terminar de adicionar manualmente as linhas da lista de verificação de manutenção, preencha as linhas conforme descrito na seção **Preencher uma lista de verificação de manutenção** acima.
 
 >[!NOTE]
->Na **Lista de verificação do trabalho de manutenção da ordem de serviço**, você não pode excluir linhas da lista de verificação de manutenção com o "tipo de cargo" de referência. Você só pode excluir linhas da lista de verificação de manutenção com a referência "Manual" que você ou outros funcionários de manutenção criaram manualmente.
+>Na página **Lista de verificação do trabalho de manutenção da ordem de serviço**, não é possível excluir linhas da lista de verificação de manutenção com a referência **Tipo de trabalho**. Só é possível excluir linhas da lista de verificação de manutenção que você ou outros funcionários de manutenção tenham criado manualmente e que tenham a referência **Manual**.
 
+A ilustração a seguir mostra um exemplo de uma lista de verificação de manutenção.
 
 ![Figura 1](media/14-work-orders.png)
 

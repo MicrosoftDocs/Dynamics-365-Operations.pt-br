@@ -1,6 +1,6 @@
 ---
-title: Digitalizar códigos de barra usando uma câmera no aplicativo Dynamics 365 Supply Chain Management – Warehousing
-description: Este tópico explica como configurar o aplicativo Dynamics 365 Supply Chain Management – Warehousing para digitalizar códigos de barra usando uma câmera em um dispositivo móvel.
+title: Digitalizar códigos de barra usando uma câmera no aplicativo Dynamics 365 for Finance and Operations – Warehousing
+description: Este tópico explica como configurar o aplicativo Dynamics 365 for Finance and Operations – Warehousing para digitalizar códigos de barra usando uma câmera em um dispositivo móvel.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 01/03/2018
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 8062a981f792bcfed2713d3cb6a42f414394f6a4
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 58cf27a250778d68bdffa1eefa5e939276e467fc
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251445"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578140"
 ---
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-supply-chain-management---warehousing-app"></a>Digitalizar códigos de barra usando uma câmera no aplicativo Dynamics 365 Supply Chain Management – Warehousing
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como configurar o aplicativo Dynamics 365 Supply Chain Management – Warehousing para digitalizar códigos de barra usando uma câmera em um dispositivo móvel. 
+Este tópico explica como configurar o aplicativo Dynamics 365 for Finance and Operations – Warehousing para digitalizar códigos de barra usando uma câmera em um dispositivo móvel. 
 
 ## <a name="prerequisites"></a>Pré-requisitos
 Para usar esse recurso, você precisa ter instalada a versão 1.2.0.0 do aplicativo Warehousing, e o dispositivo deve ter uma câmera. Ao abrir o aplicativo depois da atualização, você será solicitado a permitir que o aplicativo use a câmera. Se o dispositivo não tiver uma câmera, nenhuma solicitação será mostrada, e você não poderá usar uma câmera como scanner. 
@@ -49,7 +49,7 @@ A página da câmera será iniciada em cada página em que o campo de entrada ti
 
 | Página Tarefa e detalhes | Página Câmera | 
 | :---------------------: | :--------------------: |
-| ![camera-scanning-example-task-detail-page](./media/camera-scanning-example-task-detail-page50.png)          | ![camera-scanning-example-camera-page-smaller](./media/camera-scanning-example-camera-page50.png)          |
+| ![Página de detalhes da tarefa de exemplo de verificação da câmera](./media/camera-scanning-example-task-detail-page50.png)          | ![Exemplo de verificação da câmera - página da câmera reduzida](./media/camera-scanning-example-camera-page50.png)          |
 
 Na página da câmera, ao clicar no botão Câmera, ele terá aparência esmaecida enquanto tenta identificar um código de barras. Se um código de barras não for identificado em 5 segundos, o processo atingirá o tempo limite e o botão Câmera ficará disponível novamente. Você poderá tentar digitalizar um código de barras novamente.
 

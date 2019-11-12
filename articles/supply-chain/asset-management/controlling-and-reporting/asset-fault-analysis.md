@@ -18,37 +18,45 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7c9330cc7b3a8839d94c8945418548033254786b
-ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.openlocfilehash: 43772903f6845409cb33c7f2a13a049a3e9aa208
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "1918432"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652393"
 ---
 # <a name="asset-fault-analysis"></a>Análise de falhas de ativos
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 No Gerenciamento de Ativos, você pode analisar os registros de falhas de ativos para obter uma visão geral do número total de falhas registradas durante um período específico. Os registros de falhas podem ser analisados de diferentes perspectivas; por exemplo, com foco em ativos, tipos de ativos, locais funcionais, sintomas de falhas ou tipos de falhas.
 
 1. Clique em **Gerenciamento de ativos** > **Consultas** > **Falha de ativo** > **Análise de falhas de ativos**.
 
-2. Na caixa de diálogo **Cálculo da análise de falhas de ativos**, você pode usar o campo**Nível** para indicar o grau de detalhamento nas linhas de falhas de ativos relativas a locais funcionais. Por exemplo, se você inserir o número "1" no campo e tiver uma estrutura de localização funcional em vários níveis, todas as linhas de falhas de ativos para um local funcional serão mostradas no nível superior e, portanto, as horas em uma linha poderão ser adicionadas em locais funcionais localizados em um nível inferior. Se você inserir o número "0" no campo **Nível**, verá um resultado detalhado mostrando todas as linhas de falhas de ativos em todo o nível do local funcional ao qual elas estão relacionadas.
+2. Na caixa de diálogo **Cálculo da análise de falhas de ativos**, você pode usar o campo**Nível** para indicar o grau de detalhamento nas linhas de falhas de ativos relativas a locais funcionais. 
+
+    Por exemplo, se você inserir o número "1" no campo e tiver uma estrutura de localização funcional em vários níveis, todas as linhas de falhas de ativos para um local funcional serão mostradas no nível superior e, portanto, as horas em uma linha poderão ser adicionadas em locais funcionais localizados em um nível inferior. 
+        
+    Se você inserir o número "0" no campo **Nível**, verá um resultado detalhado mostrando todas as linhas de falhas de ativos em todo o nível do local funcional ao qual elas estão relacionadas.
 
 3. Para limitar a pesquisa, você poderá selecionar ativos específicos, datas de falha, causas de falha e soluções de falha na Guia Rápida **Registros a serem incluídos**.
 
 4. Clique em **OK**para iniciar o cálculo.
 
-5. Na guia **Análise de falhas de ativos**, clique em um ou mais botões nos grupos do Painel de Ações **Agrupar por...** para exibir o nível de detalhes que deseja ver. Os botões ativados são realçados. Ative ou desative os botões clicando neles.
+5. Na guia **Análise de falhas de ativos**, clique em um ou mais botões **Agrupar por** para exibir o nível de detalhes que deseja ver. Os botões ativados são realçados. Ative ou desative os botões clicando neles.
 
 6. Clique em **Atualizar cálculos** para mostrar suas seleções na tela. 
 
 >[!NOTE]
->Sempre que ativar ou desativar botões nos grupos do Painel de Ações **Agrupar por...**, lembre-se de clicar no botão **Atualizar cálculos** depois de alterar as seleções. Isso é necessário porque uma grande quantidade de dados é processada à medida que você recalcula a probabilidade de falha.
+>Sempre que você ativar ou desativar um botão **Agrupar por**, lembre-e de clicar no botão **Atualizar cálculos** . Isso é necessário porque uma grande quantidade de dados é processada à medida que você recalcula a probabilidade de falha.
 
-Há várias formas de analisar registros de falhas. Abaixo você verá exemplos em cinco capturas de tela de como diferentes seleções de dados fornecem diferentes informações. Você verá como as diferentes seleções fornecem mais informações e detalhes na análise dos registros de falhas de ativos.
+## <a name="examples"></a>Exemplos
+
+Há várias formas de analisar registros de falhas. Esta seção tem cinco exemplos de como seleções de dados diferentes podem fornecer mais insight e detalhes na análise dos registros de falhas de ativos.
+
+### <a name="group-by-symptoms"></a>Agrupar por sintomas
 
 Na captura de tela abaixo, apenas o botão **Sintoma** está selecionado.
 
@@ -57,6 +65,7 @@ Na captura de tela abaixo, apenas o botão **Sintoma** está selecionado.
 
 ![Figura 1](media/06-controlling-and-reporting.png)
 
+### <a name="group-by-symptoms-and-time-period"></a>Agrupar por sintomas e período
 
 Na captura de tela abaixo, **Ano** e **Mês** são adicionados para mostrar como você pode exibir os registros de falhas durante um período selecionado.
 
@@ -65,9 +74,13 @@ Na captura de tela abaixo, **Ano** e **Mês** são adicionados para mostrar como
 
 ![Figura 2](media/07-controlling-and-reporting.png)
 
+### <a name="group-by-multiple-symptoms-and-assets"></a>Agrupar por vários sintomas e ativos
 
-- A combinação de ativos e um tipo de ativo é usada como base para os cálculos mostrados nas três capturas de tela abaixo, o que aumentará em nível de detalhes.  
-- Geralmente, os botões nos grupos do Painel de Ações **Agrupar por data**, **Agrupar por ativo**, **Agrupar por local funcional**, bem como o botão **Falha** (Fault ID), contêm períodos ou relações de ativos. Os botões **Sintoma**, **Área**, **Tipo**, **Causa** e **Recurso** são categorizações usadas no gerenciamento de falhas para analisar registros de falhas de ativos e identificar áreas problemáticas.  
+A combinação de ativos e um tipo de ativo é usada como base para os cálculos mostrados nas três capturas de tela abaixo, o que aumentará em nível de detalhes.  
+
+Geralmente, os botões nos grupos do Painel de Ações **Agrupar por data**, **Agrupar por ativo**, **Agrupar por local funcional**, bem como o botão **Falha** (Fault ID), contêm períodos ou relações de ativos. Os botões **Sintoma**, **Área**, **Tipo**, **Causa** e **Recurso** são categorizações usadas no gerenciamento de falhas para analisar registros de falhas de ativos e identificar áreas problemáticas.  
+
+**Agrupar por sintoma, ativo e tipo de ativo**
 
 Na captura de tela abaixo, **Ativo** e **Tipo de ativo** foram adicionados para fornecer mais detalhes sobre os registros de falhas.
 
@@ -76,6 +89,7 @@ Na captura de tela abaixo, **Ativo** e **Tipo de ativo** foram adicionados para 
 
 ![Figura 3](media/08-controlling-and-reporting.png)
 
+**Agrupar por dois sintomas, ativo e tipo de ativo**
 
 Na captura de tela abaixo, a **Área** foi adicionada a **Sintoma**, **Ativo** e **Tipo de ativo** para fornecer mais detalhes sobre os registros de falhas.
 
@@ -83,6 +97,7 @@ Na captura de tela abaixo, a **Área** foi adicionada a **Sintoma**, **Ativo** e
 
 ![Figura 4](media/09-controlling-and-reporting.png)
 
+**Agrupar por três sintomas, ativo e tipo de ativo**
 
 Na captura de tela abaixo, o **Tipo** foi adicionado e o cálculo mais detalhado neste exemplo é mostrado.
  

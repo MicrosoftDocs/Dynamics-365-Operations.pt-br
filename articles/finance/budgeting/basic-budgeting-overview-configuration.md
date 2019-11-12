@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 349f720ee4cfb612ca4f4f50a9e081f3343f756d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 36144474defc4849a112a180247f37796de00a27
+ms.sourcegitcommit: 1eaa3451275fe4223d4d25b37aaa1cd2b183e803
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188685"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "2667451"
 ---
 # <a name="budgeting-overview"></a>Visão geral de orçamento 
 
@@ -69,6 +69,12 @@ Crie *códigos de orçamento* que identifiquem o tipo de transações de orçame
 Os códigos de orçamento permitem ter uma trilha de auditoria de alterações de orçamento aprovadas no decorrer do ciclo orçamentário. Se um fluxo de trabalho estiver associado a um código de orçamento, o fluxo de trabalho será habilitado para todas as entradas de registro de orçamento que usam esse código de orçamento, e as etapas do fluxo de trabalho devem ser concluídas antes de a entrada de registro de orçamento atingir o estágio **Concluída**.  
 
 Você também pode configurar as *regras de transferência de orçamento*. Para usar as regras de transferência de orçamento, selecione **Usar regras para transferências de orçamento** na página **Parâmetros de orçamento**. Quando as regras de transferência de orçamento são usadas, se um usuário cria um documento usando um código de orçamento do tipo **Transferência**, os saldos do orçamento não são atualizados se as regras de transferência de orçamento são violadas. Por exemplo, você pode permitir documentos de transferência de orçamento, onde o orçamento de despesas é transferido entre as contas principais para o departamento de vendas e marketing, mas pode proibir que o orçamento seja transferido de ou para esse departamento, a menos que a aprovação do fluxo de trabalho seja concedida para esse tipo de entrada de conta de orçamento.
+
+Funcionalidade introduzida no Microsoft Dynamics 365 Finance versão 10.0.7 (janeiro de 2020) com capacidade e flexibilidade adicionais para entradas de registro de orçamento. Para habilitar as melhorias, vá para o espaço de trabalho **Gerenciamento de recursos** e selecione **Entradas de registro de orçamento somente para quantidade** e/ou **Entradas de registro de orçamento com tipo de valor como padrão**.
+
+O único recurso de **Entradas de registro de orçamento para quantidade** permite que você lance uma entrada de registro de orçamento com valores de somente quantidade. Por exemplo, você pode lançar uma entrada de orçamento com uma quantidade 32 e preço zero, o que resultará em um valor igual a zero. Você pode usar essa quantidade no contexto de um relatório financeiro para determinar um preço por quantidade. Observe que nenhum relatório ou consulta foi atualizado como parte desse recurso; o recurso só permite que você lance um valor igual a zero.
+
+O recurso **Entradas de registro de orçamento com tipo de valor como padrão** permite que o tipo de valor padrão em uma entrada do registro de orçamento seja um tipo de valor diferente da despesa. A linha de entrada do registro de orçamento agora terá como padrão a despesa quando o tipo de conta principal for despesa; terá como padrão a receita quando o tipo de conta principal for despesa e terá despesa como padrão para todos os outros tipos de conta.
 
 ## <a name="using-workspaces-and-inquiry-pages-to-track-budget-vs-actuals"></a>Uso de espaços de trabalho e páginas de consulta para rastrear o orçamento versus valores reais
 O gerente de orçamento pode analisar o estado atual de um orçamento no espaço de trabalho **Orçamentos e previsões do razão**. As guias **Despesa acima do orçamento** e **Receita abaixo do orçamento** fornecem uma visão rápida das combinações de dimensões financeiras em que os alvos de orçamento não são atendidos ou se aproximam do limite. Você pode personalizar a porcentagem do limite de orçamento e os conjuntos de dimensões financeiras que são usados nestas guias clicando em **Configurar meu espaço de trabalho**. Você pode clicar em **Gerentes de unidade** para ver os trabalhadores responsáveis pelas combinações de dimensões financeiras específicas que estão selecionadas nessas guias. Por exemplo, se você vir que o orçamento das despesas do departamento de operações está ultrapassando o limite de orçamento, procure localizar e contatar o gerente do departamento de operações para abordar o problema. 

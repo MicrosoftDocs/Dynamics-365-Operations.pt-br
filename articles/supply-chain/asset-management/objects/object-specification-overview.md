@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f20df04d9625fdf0edfd312c097293f9be6d0f0
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: b4564fb2670f75d64b0c5214fb430e5e3fa4405c
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783066"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571452"
 ---
 # <a name="asset-attribute-overview"></a>Visão geral de atributos de ativos
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Este tópico oferece uma visão geral sobre atributos de ativo no Asset Management. Os atributos do ativo são as propriedades relacionadas a um tipo de ativo ou a um ativo. Se tiver configurado [tipos de atributo](../setup-for-functional-locations/specification-types.md) e os usado em ativos, você poderá obter uma visão geral dos valores de atributo que estão configurados nos ativos. Esta visão geral é mostrada em duas páginas no Asset Management: **Visão geral de atributo de ativo** e **Atributo de ativo**.
 

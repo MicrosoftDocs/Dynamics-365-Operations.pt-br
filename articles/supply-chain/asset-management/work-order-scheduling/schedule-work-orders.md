@@ -18,20 +18,22 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b6fad4d57b8e08c839ac0ffac2324c02304335ef
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: 953c4bb17329205c5d8d14b6570a6bac152e9320
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887219"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652140"
 ---
 # <a name="schedule-work-orders"></a>Agendar ordens de serviço
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
-Este tópico explica como agendar ordens de serviço no Gerenciamento de Ativo. O número necessário de horas para uma ordem de serviço é definido pela soma das horas previstas nos trabalhos de ordem de serviço menos as horas lançadas. Se mais tempo for necessário, a previsão na ordem de serviço deve ser ajustada de acordo. Em **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**, você pode exibir ou editar previsões em uma ordem de serviço selecionando ordem de serviço e clicando em **Previsão** na guia **Ordem de serviço**. Quando ordens de serviço foram criadas e estimadas, a próxima etapa é alocar os funcionários de manutenção necessários e ferramentas para concluir ordens de serviço.
+Este tópico explica como agendar ordens de serviço no Gerenciamento de Ativo. 
+
+O número necessário de horas para uma ordem de serviço é definido pela soma das horas previstas menos as horas lançadas. Se mais tempo for necessário, a previsão deve ser ajustada de acordo. Em **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**, você pode exibir ou editar previsões em uma ordem de serviço selecionando ordem de serviço e clicando em **Previsão** na guia **Ordem de serviço**. Quando ordens de serviço foram criadas e estimadas, a próxima etapa para concluir ordens de serviço é alocar os funcionários de manutenção necessários e ferramentas.
 
 Somente ordens de serviço com um estado de ciclo de vida da ordem de serviço que permite agendamento podem ser agendadas. Permitir agendamento é configurado na Guia Rápida **Gerenciamento de ativos** > **Configuração** > **Ordens de serviço** > **Estados de ciclo de vida** > **Geral** > **Permitir agendamento**.
 
@@ -43,8 +45,8 @@ Somente ordens de serviço com um estado de ciclo de vida da ordem de serviço q
 
 4. Na caixa de diálogo **Agendar ordens de serviço**, você pode adicionar seleções com relação a data de início esperada e nível de serviço, se necessário. Se o processo de agendamento respeitar as limitações de capacidade em relação aos recursos já agendados em outros trabalhos, verifique se os botões de alternância **Ativo**, **Ferramenta** e **Trabalhador** estão definidos como "Sim".
 
->[!NOTE]
->Se você definir o **Ativo**, **Ferramenta** e os botões de alternância **Trabalhador** como "Não", reservas existentes serão ignoradas. No Log de Informações, uma lista de agendamentos de ordem de serviço sobrepostas será exibida, e você pode clicar nas mensagens para abrir uma ordem de serviço e reagendar, se necessário.
+    [!NOTE]
+    Se você definir o **Ativo**, **Ferramenta** e os botões de alternância **Trabalhador** como "Não", reservas existentes serão ignoradas. No Log de Informações, uma lista de agendamentos de ordem de serviço sobrepostas será exibida, e você pode clicar nas mensagens para abrir uma ordem de serviço e reagendar, se necessário.
 
 5. Para ver informações detalhadas sobre o processo de agendamento, selecione "Sim" no botão de alternância **Detalhado**. Isso significa que informações detalhadas sobre as pontuações calculadas nas ordens de serviço e funcionários de manutenção serão exibidas no Log de Informações.
 
@@ -114,5 +116,7 @@ As pontuações de classificação relacionadas para calcular quais funcionário
 
 ## <a name="competencies-used-in-work-order-scheduling"></a>Competências usadas no planejamento de trabalho
 
-As habilidades e requisitos de certificado podem ser configurados em tipos de trabalho de manutenção (**Gerenciamento de ativos** > **Configuração** > **Trabalhos** > **Tipos de trabalho de manutenção**) e em comércios de trabalho de manutenção (**Gerenciamento de ativos** > **Configuração** > **Trabalhos** > **Comércio de trabalho de manutenção**). Tipos de trabalho de manutenção e comércios de trabalho de manutenção são selecionados em trabalhos de ordem de serviço. Se habilidades ou certificados foram selecionados em um tipo de trabalho de manutenção ou comércio de trabalho de manutenção, e se o tipo de trabalho de manutenção ou comércio de trabalho de manutenção é usado em um trabalho de ordem de serviço, apenas funcionários de manutenção com habilidades e certificados que combinam são agendados para trabalhar na ordem de serviço.
+As habilidades e requisitos de certificado podem ser configurados em tipos de trabalho de manutenção (**Gerenciamento de ativos** > **Configuração** > **Trabalhos** > **Tipos de trabalho de manutenção**) e em comércios de trabalho de manutenção (**Gerenciamento de ativos** > **Configuração** > **Trabalhos** > **Comércio de trabalho de manutenção**). 
+
+Tipos de trabalho de manutenção e comércios de trabalho de manutenção são selecionados em trabalhos de ordem de serviço. Se habilidades ou certificados foram selecionados em um tipo de trabalho de manutenção ou comércio de trabalho de manutenção, e se o tipo de trabalho de manutenção ou comércio de trabalho de manutenção é usado em um trabalho de ordem de serviço, apenas funcionários de manutenção com habilidades e certificados que combinam são agendados para trabalhar na ordem de serviço.
 

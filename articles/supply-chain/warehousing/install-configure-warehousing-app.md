@@ -1,6 +1,6 @@
 ---
 title: Visão geral da instalação e configuração do aplicativo de depósito
-description: Este tópico descreve como instalar e configurar o aplicativo Dynamics 365 Supply Chain Management - Warehousing.
+description: Este tópico descreve como instalar e configurar o aplicativo Dynamics 365 for Finance and Operations – Warehousing.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 07/25/2019
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b8eb8dee88d8664391d2dcf485dff9dee4722cac
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f629fffc5c424c244a25bb8faef0435814398ee1
+ms.sourcegitcommit: 4aac45c84b87f463b22b318f5f6f729f8d737090
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251491"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2548959"
 ---
 # <a name="install-and-configure-the-warehousing-app-overview"></a>Visão geral da instalação e configuração do aplicativo de depósito
 
@@ -35,7 +35,7 @@ ms.locfileid: "2251491"
 > Este tópico descreve como configurar o depósito para implantações na nuvem. Se quiser saber como configurar o depósito para implantações locais, consulte [Depósito para implantações locais](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 
-Este tópico descreve como instalar e configurar o aplicativo Dynamics 365 Supply Chain Management - Warehousing.
+Este tópico descreve como instalar e configurar o aplicativo Dynamics 365 for Finance and Operations – Warehousing.
 
 O aplicativo Warehousing está disponível na Google Play Store e na Windows Store. Para a versão atual do Dynamics 365 Supply Chain Management, esse aplicativo é fornecido como um componente autônomo, o que significa a autoimplantação em dispositivos usados para tarefas de depósito. Para usar o aplicativo, você deve baixá-lo em cada dispositivo e configurá-lo para conectar-se ao seu ambiente do Supply Chain Management. Este tópico descreve como instalar o aplicativo em seus dispositivos. Também explica como configurar o aplicativo para conectar-se ao seu ambiente do Supply Chain Management.
 

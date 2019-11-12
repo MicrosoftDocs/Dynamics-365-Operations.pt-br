@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
-ms.openlocfilehash: 694835d20e3401aaeb22aa19082a2cd0e3a0163a
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 533b9abd3d57c5bf8f3d9da85020c86012436f2f
+ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010697"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622709"
 ---
-# <a name="create-a-process-template"></a>Criar um modelo de processo
+# <a name="create-a-process-template-in-attract"></a>Criar um modelo de processo no Attract
 
 [!include [banner](includes/banner.md)]
 
@@ -43,7 +43,7 @@ Apenas os administradores podem definir o modelo padrão. O modelo padrão é us
 
 ## <a name="create-a-process-template"></a>Criar um modelo de processo
 
-Os administradores, os recrutadores e os gerentes de contratação podem criar modelos de processo. Um modelo de processo consiste de *estágios* e *atividades*. Os estágios agrupam uma ou mais atividades. Por padrão, cada método de processo tem atividades de cliente potencial, de aplicativos e oferta. Os estágios que contêm essas atividades podem ser renomeados. Você pode adicionar mais estágios selecionando **+ Novo estágio**. Você pode levar as atividades a um estágio arrastando-as para o estágio apropriado ou com clique duplo nelas na lista de atividade.
+Os administradores, os recrutadores e os gerentes de contratação podem criar modelos de processo. Um modelo de processo consiste de *estágios* e *atividades*. Os estágios agrupam uma ou mais atividades. Por padrão, cada método de processo tem atividades de cliente potencial, de aplicativos e oferta. Os estágios que contêm essas atividades podem ser renomeados. Você pode adicionar mais estágios selecionando **+ Novo estágio**. Você pode adicionar as atividades a um estágio arrastando-as para o estágio apropriado ou com clique duplo nelas na lista de atividade.
 
 > [!NOTE]
 > Os nomes de estágio são visíveis candidatos na página **Status de solicitação**. Considere esses fatos quando escolher nomes de estágios.

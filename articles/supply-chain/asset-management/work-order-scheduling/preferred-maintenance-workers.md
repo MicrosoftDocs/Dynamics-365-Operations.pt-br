@@ -18,26 +18,26 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8f26be81e7057d0cea1473d81452216251633ad9
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: 3501cb49cbc8b3060da03b3d2e9badc949910a48
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887402"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652186"
 ---
-# <a name="preferred-maintenance-workers"></a>Funcionários de manutenção preferenciais
+# <a name="set-up-preferred-maintenance-workers"></a>Configurar funcionários de manutenção preferenciais
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
-Você pode criar uma preferência em relação a quais funcionários de manutenção estão alocados para concluir as ordens de serviço durante o agendamento da ordem de serviço. O uso dessa funcionalidade é opcional, mas pode ajudá-lo a escolher o funcionário de manutenção mais qualificado para concluir um trabalho, com base nas habilidades e competências do funcionário. Portanto, durante o agendamento da ordem de serviço, a configuração em **Funcionários de manutenção preferenciais** é usada para determinar se um funcionário de manutenção ou um grupo de funcionários deve ser agendado para uma ordem de serviço. Apenas os funcionários de manutenção disponíveis no momento do agendamento serão agendados. Se uma configuração do funcionário de manutenção corresponder a uma ordem de serviço durante o agendamento, mas o funcionário de manutenção estiver alocado para outros trabalhos, a ordem de serviço será agendada para outro funcionário de manutenção disponível.
+Durante o agendamento da ordem de serviço, você pode criar uma preferência em relação a qual funcionário de manutenção ou grupo de funcionários está alocado para concluir a ordem de serviço. O uso dessa funcionalidade é opcional, mas pode ajudá-lo a escolher o funcionário de manutenção mais qualificado para concluir um trabalho, com base nas habilidades e competências do funcionário. Apenas os funcionários de manutenção disponíveis no momento do agendamento serão agendados. Se uma configuração preferencial do funcionário de manutenção corresponder a uma ordem de serviço durante o agendamento, mas o funcionário de manutenção estiver alocado para outros trabalhos, a ordem de serviço será agendada para outro funcionário de manutenção disponível.
 
-Antes de configurar funcionários de manutenção preferenciais, você deverá primeiro configurar os funcionários e grupos de funcionários de manutenção que devem estar disponíveis para seleção. Consulte [Funcionários e grupos de funcionários de manutenção](../setup-for-objects/workers-and-worker-groups.md) para obter uma descrição de como configurar os funcionários e grupos de funcionários de manutenção.
+Para poder configurar funcionários de manutenção preferenciais, você deve primeiro configurar os funcionários de manutenção e os grupos de funcionários. Para obter uma descrição de como configurar os funcionários de manutenção e os grupos de funcionários, consulte [Funcionários de manutenção e grupos de trabalhadores](../setup-for-objects/workers-and-worker-groups.md).
 
 ## <a name="set-up-preferred-workers"></a>Configurar funcionários preferenciais
 
-Um funcionário ou grupo de funcionários de manutenção preferenciais podem estar relacionados a um determinado
+Um funcionário de manutenção ou grupo de funcionários preferencial pode estar relacionado a um ou mais do seguinte:
 
 - comércio  
 - grade do tipo de trabalho de manutenção  
@@ -46,26 +46,25 @@ Um funcionário ou grupo de funcionários de manutenção preferenciais podem es
 - ativo  
 - tipo de ativo  
 
-ou uma combinação dessas seleções. Quanto mais seleções você fizer no mesmo registro, mais específica será sua configuração.
+Quanto mais seleções você fizer no mesmo registro, mais específica será sua configuração.
 
 1. Clique **Gerenciamento de ativos** > **Configuração** > **Funcionários** > **Funcionários de manutenção preferenciais**.
 
 2. Clique em **Novo** para criar um novo registro.
 
-3. Comece criando uma configuração de funcionário de manutenção ou grupo de funcionários "padrão" que não possui seleções nos campos mostrados na lista de marcadores acima. Isso significa que você só faz uma seleção no campo **Grupo de funcionários de manutenção preferenciais** ou **Funcionário de manutenção preferencial**. Na figura abaixo, você vê um exemplo no primeiro registro em que "Solicitações" é selecionado como grupo de funcionários de manutenção preferenciais.
+3. Comece criando um funcionário de manutenção ou grupo de funcionários "padrão". Isso significa que você só faz uma seleção no campo **Grupo de funcionários de manutenção preferenciais** ou **Funcionário de manutenção preferencial**. Na captura de tela abaixo, é exibido um exemplo no primeiro registro em que "Solicitações" está selecionado como **Grupo de funcionários de manutenção preferencial**.
 
->[!NOTE]
->A configuração padrão será usada durante o agendamento da ordem de serviço, caso nenhuma outra combinação mais específica corresponda ao conteúdo da ordem de serviço durante o agendamento da ordem de serviço.
+    [!NOTE] A configuração padrão será usada durante o agendamento da ordem de serviço caso nenhuma outra combinação mais específica corresponda ao conteúdo da ordem de serviço.
 
-4. Repita a etapa 2 para criar um novo registro. Faça seleções necessárias, dependendo do nível de detalhe do funcionário ou grupo de funcionários preferenciais. *Exemplo:* Na figura abaixo, no sexto registro, o funcionário de manutenção Shawn Richardson foi selecionado como funcionário preferencial. Ele será selecionado automaticamente durante o agendamento de uma ordem de serviço que inclua o ativo "CH-BP1-03-02 e o tipo de trabalho de manutenção geral" Avaliação de instalações ", se ele estiver disponível no horário agendado.
+4. Repita a etapa 2 para criar um novo registro. Faça seleções necessárias, dependendo do nível de detalhe do funcionário ou grupo de funcionários preferenciais. 
 
->[!NOTE]
->Geralmente, quando um funcionário de manutenção preferencial é selecionado durante o agendamento da ordem de serviço, o Gerenciamento de Ativos passa por todos os registros de **Funcionários de manutenção preferenciais** verifica a existência uma correspondência possível, verificando sempre a combinação mais específica primeiro. Se nenhuma correspondência for encontrada, o registro "padrão" com uma seleção no campo **Grupo de funcionários de manutenção preferenciais** ou o campo **Funcionário de manutenção preferencial** é usado.
+    *Exemplo:* na captura de tela a seguir, no sexto registro, o funcionário de manutenção Shawn Richardson foi selecionado como funcionário preferencial. Ele será selecionado automaticamente durante o agendamento de uma ordem de serviço que inclua o ativo "CH-BP1-03-02" e o tipo de trabalho de manutenção "Avaliação de instalações", se ele estiver disponível no horário agendado.
 
+    [!NOTE] Geralmente, quando um funcionário de manutenção preferencial é selecionado durante o agendamento da ordem de serviço, o Gerenciamento de Ativos passa por todos os registros de **Funcionários de manutenção preferenciais** verifica a existência uma correspondência possível, verificando sempre a combinação mais específica primeiro. Se nenhuma correspondência for encontrada, o registro "padrão" com uma seleção no campo **Grupo de funcionários de manutenção preferenciais** ou o campo **Funcionário de manutenção preferencial** é usado.
 
 ![Figura 1](media/02-work-order-scheduling.png)
 
-Você também pode configurar os funcionários de manutenção responsáveis que podem ser selecionados quando a uma solicitação de manutenção ou uma ordem de serviço for criada. Em **Todas as ordens de trabalho** e **Todas as solicitações de manutenção**, você pode editar a seleção, se necessário. Consulte [Funcionários de manutenção responsáveis](../setup-for-maintenance-requests/responsible-workers.md) para obter mais informações.
+Você também pode configurar funcionários de manutenção *responsáveis*, que podem ser selecionados quando uma solicitação de manutenção ou uma ordem de serviço for criada. É possível editar a seleção em **Todas as ordens de serviço** e **Todas as solicitações de manutenção**, se necessário. Para obter mais informações, consulte [Funcionários de manutenção responsáveis](../setup-for-maintenance-requests/responsible-workers.md).
 
 Durante o agendamento da ordem de serviço, diferentes pontuações são calculadas para determinar quais funcionários devem concluir os trabalhos relacionados a uma ordem de serviço (aquelas pontuações são configuradas no link **parâmetros do Gerenciamento de ativos** > **agendamento da Ordem de serviço**). Se dois ou mais funcionários de manutenção preferenciais ou funcionários de manutenção responsáveis obtiverem a mesma pontuação durante o agendamento da ordem de serviço, um funcionário é selecionado aleatoriamente. Caso contrário, é sempre o funcionário com a pontuação mais alta que é alocado para concluir uma ordem de serviço.
 

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e97d96a5485f17d0abc7c2fc2f8c4fdf4bbd4bb4
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 7fc9ec2f6a9a8a11d824e4b5c13d5aa173541454
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024628"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571912"
 ---
 # <a name="create-maintenance-requests"></a>Crie solicitações de manutenção
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 As solicitações de manutenção poderão ser usadas se os funcionários de manutenção ou os funcionários de produção descobrirem que o equipamento exige reparo, mas o reparo não puder ser feito imediatamente.
 
@@ -55,7 +55,7 @@ A seção **Solicitações de manutenção de ativos** do painel **Informações
 11. No campo **Notas**, insira notas adicionais necessárias.
 12. Selecione **OK**.
 
-![Figura 1](media/03-manage-maintenance-requests.png)
+![Criar solicitação de manutenção](media/03-manage-maintenance-requests.png)
 
 ## <a name="subsequent-processing-of-maintenance-requests"></a>Processamento subsequente de solicitações de manutenção
 
@@ -70,7 +70,7 @@ Na exibição de detalhes, é possível atualizar várias informações. Eis alg
 - Selecione um tipo de trabalho de manutenção e, se essas informações forem relevantes, uma grade de trabalho de manutenção relacionada e um comércio de trabalho.
 - Nos campos **Latitude** e **Longitude**, insira coordenadas geográficas. Todas as coordenadas adicionadas a uma solicitação de manutenção são transferidas automaticamente a uma ordem de serviço relacionada. 
 
-![Figura 2](media/04-manage-maintenance-requests.png)
+![Atualizar solicitação de manutenção](media/04-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Se você selecionar um ativo ao criar uma solicitação de manutenção, poderá adicionar uma falha no ativo. Quando a solicitação de manutenção for criada, você poderá adicionar mais falhas, conforme necessário. Para adicionar falhas, selecione **Falha de ativo** na página **Todas as solicitações de manutenção**.

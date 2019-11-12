@@ -3,7 +3,7 @@ title: Atualização manual de contadores de ativo
 description: Este tópico descreve atualização manual de contadores de ativo no Gerenciamento de Ativos.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,47 +16,51 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1e7c5ec288404c18b00f9dcd0e66f50744d0aa2f
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 3072ab204b53b16988d2973b28a697041cb84c27
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875506"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626123"
 ---
 # <a name="manual-update-of-asset-counters"></a>Atualização manual de contadores de ativo
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
 
-Contadores são usados para criar registros em um ativo relacionado, por exemplo, o número de horas na operação, ou número de quantidades geradas.
+Os contadores são usados para criar registros em um ativo, como registros sobre o número de horas que o ativo esteve em operação ou a quantidade que foi produzida.
 
-Se o tipo de contador selecionado para um contador for definido para herdar valores do contador (**Gerenciamento de ativos** > **Configuração** > **Tipos de ativos** > **Contadores** > **Geral** Guia Rápida > **Herdar valores do contador de ativos** botão de alternância definido como "Sim"), então, quando você criar uma nova linha do contador desse tipo, cada ativo filho que usa o mesmo tipo de contador é atualizado automaticamente.
+O tipo selecionado para um contador deve ser definido para herdar valores do contador. Ou seja, a opção **Herdar valores do contador de ativos** é definida como **Sim** na Guia Rápida **Geral** da página **Contadores** (**Gerenciamento de ativos** > **Configurar** > **Tipos de ativo** > **Contadores**). Nesse caso, ao criar uma nova linha de contador desse tipo, cada ativo filho que usar o mesmo tipo de contador será atualizado automaticamente.
 
-Em **Todos os ativos**, você cria horas ou registros do contador da quantidade em um ativo com base nas leituras do ativo.
+Na página **Todos os ativos**, você pode criar os registros de contador de horas ou quantidade em um ativo com base nas leituras do ativo.
 
-1. Clique em **Gerenciamento de ativos** > **Comum** > **Ativos** > **Todos os ativos**.
+1. Selecione **Gerenciamento de ativos** > **Comum** > **Ativos** > **Todos os ativos**.
 
-2. Selecione o ativo da lista e clique em **Contadores**. No formulário **Contadores de ativo**, você verá uma lista de todos os registros do contador anteriores no ativo selecionado.
+2. Selecione o ativo e, depois, no Painel de Ação, na guia **Ativo** , no grupo **Preventivo** , selecione **Contadores**. A página **Contadores de ativos** exibe uma lista de todos os registros do contador anteriores que foram feitos no ativo selecionado.
 
-3. Clique em **Novo** para criar um novo registro. O ID do ativo é inserido automaticamente.
+3. Selecione **Novo** para criar um registro. A ID de ativo é inserida automaticamente no campo **Ativo**.
 
-4. No campo **Contador**, selecione o contador relevante. Somente estão disponíveis contadores relacionados ao tipo de ativo selecionado no ativo. A unidade relacionada é inserida automaticamente no campo **Unidade**.
+4. No campo **Contador**, selecione o contador relevante. Somente os contadores relacionados ao tipo de ativo selecionado no ativo estão disponíveis para seleção. A unidade relacionada é inserida automaticamente no campo **Unidade**.
 
-5. Selecione a data e a hora do registro do contador.
+5. No campo **Registrado**, selecione a data e a hora para o registro do contador.
 
-6. No campo **Valor**, insira o número desde o último registro do contador ou no campo **Valor agregado**, insira o número total de contagem.
+6. No campo **Valor**, insira o número desde o último registro do contador. Alternativamente, no campo **Valor agregado**, insira o número de contagem total.
 
-- Se você instalar fisicamente um novo contador em um ativo, você precisará registrar a alteração no ativo em **Contadores de ativo**. Em seguida, crie duas linhas de registro com carimbos de data/hora idênticos, e na linha referente ao novo contador, marque a caixa de seleção **Redefinição do contador**. Ao criar as duas linhas de registro, a primeira linha deve ser para o contador que você está substituindo. No campo **Totais**, o número de contagem total é a soma total do contador de todos os valores registrados nesse tipo de contador.  
-- Se a caixa de seleção **Redefinir contador** for selecionada em um ativo que usa um plano de manutenção com um tipo de intervalo "Uma vez..." ou "Uma vez atingido...", o contador ainda ficará ativo na nova linha do contador porque você cria uma linha do contador separada e inicia um novo contador.
+Observe os seguintes pontos:
+
+- Se instalar fisicamente um novo contador em um ativo, você deverá registrar a alteração no ativo na página **Contadores de ativos**. Em seguida, você deve criar duas linhas de registro com carimbos de data/hora idênticos. A primeira linha deve ser para o contador que está sendo substituído. Na linha relacionada ao novo contador, marque a caixa de seleção **Redefinir contador**. No campo **Totais**, o número de contagem total é a soma dos totais do contador de todos os valores registrados nesse tipo de contador.
+
+- Se a caixa de seleção **Redefinir contador** for marcada em um ativo que usa um plano de manutenção com um tipo de intervalo "Uma vez de..." ou "Uma vez atingido...", o contador ainda ficará ativo na nova linha do contador, pois você cria uma linha de contador separada e inicia com um novo contador.
+
+A ilustração a seguir mostra um exemplo da página **Contadores de ativos**.
 
 ![Figura 1](media/11-work-orders.png)
 
-
-Se precisar efetuar registros do contador em vários ativos, isso poderá ser feito em **Gerenciamento de ativos** > **Consultas** > **Ativos** > **Contadores de ativos**.
+Na página **Contadores de ativos** (**Gerenciamento de ativos** > **Consultas** > **Ativos** > **Contadores de ativos**), você pode criar registros de contador em vários ativos ao mesmo tempo, conforme o necessário.
 
 >[!NOTE]
->Você pode configurar um intervalo para definir desvios em registros de contadores manuais, e o tipo de mensagem a ser exibido se os registros estiverem fora do intervalo definido. Consulte o tópico [Contadores](../setup-for-objects/counters.md) referente à configuração dos contadores.
+>Você pode configurar um intervalo para definir os desvios em registros de contador manuais. Também é possível especificar o tipo de mensagem exibida se os registros estiverem fora do intervalo definido. Para obter mais informações sobre como configurar contadores, consulte [Contadores](../setup-for-objects/counters.md).
+

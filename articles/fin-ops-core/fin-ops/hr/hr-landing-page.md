@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 828de71da3f16db9024b08c724eb784127b080dc
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d9db36b528de097aae613a5fbf5ee94f4cc79a0f
+ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176531"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553154"
 ---
 # <a name="human-resources-overview"></a>Visão geral de Recursos Humanos
 
@@ -45,9 +45,9 @@ Você pode usar Recursos humanos para realizas estas tarefas:
 
 Ao trabalhar com Recursos humanos, você decide como estruturar sua organização usando elementos, como departamentos, trabalhos e posições. Esses estão entre os elementos fundamentais que você irá configurar em Recursos humanos. Funcionários individuais são atribuídos a posições associadas a trabalhos.
 
-- [Organizar sua força de trabalho usando departamentos, trabalhos e posições](../../talent/departments-jobs-positions.md)
-- [Configurar parâmetros de RH específicos à empresa](../../talent/set-up-company-specific-hr-parameters.md)
-- [Configurar parâmetros de RH entre entidades legais](../../talent/set-up-hr-parameters-across-legal-entities.md)
+- [Organizar sua força de trabalho usando departamentos, trabalhos e posições](../../../talent/departments-jobs-positions.md)
+- [Configurar parâmetros de RH específicos à empresa](../../../talent/set-up-company-specific-hr-parameters.md)
+- [Configurar parâmetros de RH entre entidades legais](../../../talent/set-up-hr-parameters-across-legal-entities.md)
 
 ## <a name="recruit-hire-and-motivate-employees"></a>Recrutar, contratar e motivar funcionários
 
@@ -58,25 +58,25 @@ Os projetos de recrutamento gerenciam o conteúdo usado em anúncios para posiç
 
 Depois de contratar pessoal, você pode configurar planos para gerenciar a remuneração de maneira efetiva e imparcial, bem como gerenciar itens, como computadores ou telefones, que sua organização empresta a seus funcionários. Você pode criar planos de remuneração fixa e variável, bem como definir regras que se apliquem ao plano de remuneração para atender aos critérios desse plano.
 
-- [Planos de remuneração](../../talent/compensation-plans.md)
-- [Criar planos de remuneração fixa](../../talent/create-fixed-compensation-plans.md)
-- [Criar planos de remuneração variável](../../talent/create-variable-compensation-plans.md)
+- [Planos de remuneração](../../../talent/compensation-plans.md)
+- [Criar planos de remuneração fixa](../../../talent/create-fixed-compensation-plans.md)
+- [Criar planos de remuneração variável](../../../talent/create-variable-compensation-plans.md)
 
 ## <a name="develop-and-train-employees"></a>Desenvolver e treinar funcionários
 
 Para ajudar os funcionários a atingirem seus objetivos de carreira e, ao mesmo tempo atender necessidades críticas dos negócios, você pode configurar metas, criar avaliações de desempenho e rastrear comentários. Para ajudar os funcionários a desenvolver as habilidades necessárias, você também pode configurar instrutores, tipos de cursos, cursos, descrições do curso, agendas, acompanhamentos e sessões antes de atribuir um instrutor a um curso ou inscrever alguém em um curso. Os instrutores já devem existir como trabalhadores, candidatos ou contatos.
 
-- [Gerenciamento de desempenho](../../talent/performance-management-overview.md)
-- [Alinhar habilidades da força de trabalho e necessidades dos negócios](../../talent/skills.md)
-- [Administrar treinamento por meio de cursos](../../talent/courses.md)
+- [Gerenciamento de desempenho](../../../talent/performance-management-overview.md)
+- [Alinhar habilidades da força de trabalho e necessidades dos negócios](../../../talent/skills.md)
+- [Administrar treinamento por meio de cursos](../../../talent/courses.md)
 
 ## <a name="create-and-maintain-benefits"></a>Criar e manter benefícios
 
 Além de remunerar sua equipe com salários e bônus, você pode desenvolver programas de benefícios, como seguro de saúde e planos de aposentadoria. Você também pode gerenciar benefícios, como programas de empréstimo, nos quais sua empresa empresta itens, como computadores ou telefones, a seus funcionários.
 
-- [Gerenciar um programa de benefícios](../../talent/manage-benefit-program.md)
-- [Políticas de qualificação para benefícios](../../talent/benefit-eligibility-policies.md)
-- [Gerenciar itens emprestados aos trabalhadores](../../talent/loan-items.md)
+- [Gerenciar um programa de benefícios](../../../talent/manage-benefit-program.md)
+- [Políticas de qualificação para benefícios](../../../talent/benefit-eligibility-policies.md)
+- [Gerenciar itens emprestados aos trabalhadores](../../../talent/loan-items.md)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Manter a segurança e a conformidade do local de trabalho
 
@@ -90,7 +90,7 @@ O Microsoft Dynamics AX pode ajudá-lo a manter um ambiente de trabalho seguro q
 
 Você pode criar e administrar questionários para coletar informações que são usadas para vários objetivos. O recurso Questionário permite projetar e criar questionários. Quando um questionário está pronto, você o distribui de forma ampla ou para um conjunto específico de entrevistados para preenchimento. Depois que os entrevistados fornecerem as respostas, você poderá rever e analisar os resultados.
 
-- [Questionários](../../talent/questionnaires.md)
-- [Criar um questionário](../../talent/design-questionnaires.md)
-- [Distribuir e preencher um questionário](../../talent/distribute-questionnaires.md)
-- [Exibir e avaliar os resultados de um questionário](../../talent/evaluate-questionnaire-results.md)
+- [Questionários](../../../talent/questionnaires.md)
+- [Criar um questionário](../../../talent/design-questionnaires.md)
+- [Distribuir e preencher um questionário](../../../talent/distribute-questionnaires.md)
+- [Exibir e avaliar os resultados de um questionário](../../../talent/evaluate-questionnaire-results.md)

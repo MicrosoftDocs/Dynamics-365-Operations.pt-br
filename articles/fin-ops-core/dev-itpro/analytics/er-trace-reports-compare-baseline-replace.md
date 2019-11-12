@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: a260be0f8659106907b26bf69bee3b33b09d0c24
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1e144e2623f3ddfafaee749bb334de40ef5aec1b
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181326"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578209"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Melhorias no rastreamento dos resultados dos relatórios de ER gerados e na comparação deles com valores de linha de base
 
@@ -71,9 +71,6 @@ A linha de base foi adicionada para o formato selecionado **Formatar para aprend
 5. No campo **Inserir Id**, digite **1**.
 6. Defina a opção **Criar arquivos de linha de base** como **Sim**.
 7. Selecione **OK**.
-
-    ![Caixa de diálogo Parâmetros de relatório eletrônico](media/GER-BaselineSample-FormatRunToMakeBaselineFile3.PNG "Captura de tela da caixa de diálogo Parâmetros de relatório eletrônico")
-
 8. Selecione **Linhas de base**.
 
     ![Página Linhas de base do formato de relatório eletrônico](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Captura de tela da página Linhas de base do formato de relatório eletrônico")
@@ -140,9 +137,6 @@ Para concluir as etapas desse exemplo, primeiro você deve concluir as etapas no
 
 1. Na página **Configurações**, na Guia Rápida **Substituições**, marque **Selecionar componentes**.
 2. Na árvore de componentes de formato, expanda **Saída**, expanda **Saída\\Documento** e marque a caixa de seleção **Saída\\Documento\\ProcessamentoDataHora**.
-
-    ![Caixa de diálogo Selecionar Componentes](media/GER-BaselineSample-SelectComponentForBindingReplacement.PNG "Captura de tela da caixa de diálogo Selecionar Componentes")
-
 3. Selecione **OK**.
 
 ![Página Linhas de base do formato de relatório eletrônico](media/GER-BaselineSample-AddBaseline4.PNG "Captura de tela da página Linhas de base do formato de relatório eletrônico")
@@ -162,19 +156,14 @@ Ao configurar parâmetros específicos de ER, você pode suprimir notificações
 1. Na página **Configurações**, no Painel de Ações, na guia **Configurações**, selecione **Parâmetros de usuário**.
 2. Defina a opção **Suprimir avisos de linha de base** como **Sim** e selecione **OK**.
 
-![Caixa de diálogo Parâmetros de usuário](media/GER-BaselineSample-ERUserParameters1.png "Captura de tela da caixa de diálogo Parâmetros de usuário")
-
 ### <a name="review-the-generated-baseline-file"></a>Revise o arquivo de linha de base gerado.
 
 1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Selecione **Linhas de base**.
 3. Selecione **Anexos**.
-
-    ![Página Anexos](media/GER-BaselineSample-AttachedBaselineFile.PNG "Captura de tela da página Anexos")
-
     > [!NOTE]
     > O arquivo gerado contém o texto de data e hora de processamento (**"#"**) da associação que foi configurada na regra de linha de base adicionada, não da associação de formato.
-
+    
 4. Feche a página **Anexos**.
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>Execute o formato de ER criado e verifique o log para analisar os resultados

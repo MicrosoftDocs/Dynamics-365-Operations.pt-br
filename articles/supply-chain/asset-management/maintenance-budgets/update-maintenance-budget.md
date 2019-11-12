@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 486782968816cc585d9cf2d753f32e82f85e4f7e
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 8f3b771319eeb602a371500fdc69c68f88afe341
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874776"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571728"
 ---
 # <a name="update-maintenance-budgets"></a>Atualizar orçamentos de manutenção
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 A página **Linhas de orçamento de manutenção** exibe todas as linhas de orçamento que foram criadas para o orçamento selecionado na página **Orçamentos de manutenção**. (Para obter mais informações, consulte [Criar orçamentos de manutenção](create-maintenance-budget.md).) Você pode calcular novamente e ajudar linhas de orçamento de manutenção até que o orçamento de manutenção seja aprovado. Depois de o período de orçamento ter passado e custos tiverem sido lançados no Gerenciamento de Ativos, você também pode atualizar as linhas de orçamento com custos reais.
 

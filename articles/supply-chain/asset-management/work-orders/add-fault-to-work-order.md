@@ -3,7 +3,7 @@ title: Adicionar falha à ordem de serviço
 description: Este tópico descreve como adicionar registros de falha a ordens de serviço no Gerenciamento de Ativos.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,41 +16,42 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-31
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7c86973ca44d9113d14e180e27cc51343da5d2c0
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 2b58cc31578d7bb102c6b5aa8b4ce2d6cfe8c893
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875509"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626192"
 ---
 # <a name="add-fault-to-work-order"></a>Adicionar falha à ordem de serviço
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
 
-É possível adicionar falhas configuradas no designer de falhas a uma ordem de serviço. O ativo selecionado na ordem de serviço deve conter tipos de ativos que possuem um ou mais registros de falhas conectados a ele. Leia mais sobre a instalação na seção [Gerenciamento de falhas](../setup-for-work-orders/fault-management.md).
+É possível adicionar falhas que foram configuradas no designer de falhas a uma ordem de serviço. Um ou mais registros de falha devem estar conectados aos tipos de ativo usados para o ativo selecionado na ordem de serviço. Para obter mais informações sobre a configuração, consulte [Gerenciamento de falhas](../setup-for-work-orders/fault-management.md).
 
-1. Clique em **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
+1. Selecione **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
 
-2. Na lista, selecione a ordem de serviço na qual deseja registrar uma falha e clique em **Falha de ativo**.
+2. Selecione a ordem de serviço para a qual será criado um registro de falha e, em seguida, no Painel de Ação, na guia **Ordem de serviço**, no grupo **Ativo**, selecione **Falha de ativo**.
 
-3. Na Guia Rápida **Sintomas**, clique em **Adicionar linha**. Um número de falha sequencial é inserido automaticamente no campo **Falha**.
+3. Na Guia Rápida **Sintomas**, selecione **Adicionar linha**. Um número de falha sequencial é inserido automaticamente no campo **Falha**.
 
-4. Selecione o sintoma relevante no campo **Sintoma de falha**.
+4. No campo **Sintoma de falha**, selecione o sintoma relevante.
 
-5. Selecione **Área com falha** e **Tipo de falha**.
+5. Nos campos **Área de falha** e **Tipo de falha**, selecione os valores apropriados.
 
-6. No campo **Data da falha**, a data atual é inserida automaticamente. Você pode selecionar outra data, se necessário.
+6. No campo **Data da falha**, a data atual é inserida automaticamente. Você pode selecionar uma data diferente conforme o necessário.
 
-7. Na Guia Rápida **Causas do sintoma selecionado**, adicione uma linha descrevendo a causa do problema.
+7. Na Guia Rápida **Causas do sintoma selecionado**, adicione uma linha para descrever a causa do problema.
 
-8. Na Guia Rápida **Recursos do sintoma selecionado**, adicione uma linha descrevendo uma possível solução para o problema.
+8. Na Guia Rápida **Recursos para o sintoma selecionado**, adicione uma linha para descrever uma possível solução para o problema.
 
-9. Clique em **Salvar**.
+9. Selecione **Salvar**.
+
+A ilustração a seguir mostra um exemplo de um registro de falha.
 
 ![Figura 1](media/19-work-orders.png)
 
@@ -59,23 +60,23 @@ ms.locfileid: "1875509"
 
 Na lista **Falhas de ativo**, é possível obter uma visão geral de todas as falhas registradas nos ativos.
 
-Clique em **Gerenciamento de ativos** > **Consultas** > **Falha de ativo** > **Falhas de ativo** para abrir a lista.
+Na página de listagem **Falhas de ativo**, é possível obter uma visão geral de todas as falhas registradas nos ativos. Para abrir a página, selecione **Gerenciamento de ativos** > **Consultas** > **Falha de ativo** > **Falhas de ativo**.
 
 
 ## <a name="print-asset-fault-report"></a>Imprimir relatório de falha de ativo
 
-Na página da lista **Todos os ativos**, você pode imprimir um relatório de falhas de ativos exibindo todos os registros de falhas, bem como uma visão geral gráfica das estatísticas de falhas.
+Na página de listagem **Todos os ativos**, você pode imprimir um relatório de falhas de ativos que mostre todos os registros de falha e uma visão geral gráfica das estatísticas de falhas.
 
-1. Clique em **Gerenciamento de ativos** > **Comum** > **Ativos** > **Todos os ativos**.
+1. Selecione **Gerenciamento de ativos** > **Comum** > **Ativos** > **Todos os ativos**.
 
-2. Na lista **Ativos**, selecione o ativo para o qual você deseja imprimir um relatório de falhas.
+2. Selecione o ativo para o qual será impresso um relatório de falha.
 
-3. Na guia **Geral** > **seção Relatórios**, clique em **Falha de ativo**.
+3. No Painel de Ação, na guia **Geral**, no grupo **Relatórios**, selecione **Falha de ativo**.
 
 4. Insira um período específico ou selecione um tipo de falha.
 
-5. Clique em **OK** para imprimir o relatório.
+5. Selecione **OK** para imprimir o relatório.
 
 >[!NOTE]
->Você também pode imprimir um relatório de falhas para vários ativos ou tipos de ativos clicando em **Gerenciamento de ativos** > **Relatórios** > **Ativos** > **Falha de ativo**.
+>Para imprimir um relatório de falhas para vários ativos ou tipos de ativos, selecione **Gerenciamento de ativos** > **Relatórios** > **Ativos** > **Falha de ativo**.
 

@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f91faa03718830474e8e2a79015955bcad1d02e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6ecdece43b9d609e70e385dc5c3ec70b82f582ab
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249944"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653662"
 ---
 # <a name="routes-and-operations"></a>Roteiros e operações
 
@@ -35,7 +35,7 @@ Este tópico fornece informações sobre roteiros e operações. Um roteiro defi
 <a name="overview"></a>Visão Geral
 --------
 
-Um roteiro descreve a ordem de operações necessárias para produzir um produto ou grade de produto. Para cada operação, o roteiro também define os recursos de operações necessários, o tempo necessário para configurar e realizar a operação, e como o custo deve ser calculado. Você pode usar o mesmo roteiro para produzir vários produtos, ou você pode definir um roteiro exclusivo para cada produto ou grade de produto. Você pode ainda ter vários roteiros para o mesmo produto. Nesse caso, o roteiro utilizado varia de acordo com fatores tais como a quantidade que deve ser produzida. A definição de um roteiro no Finance and Operations consiste em quatro elementos distintos que, juntos, descrevem o processo de produção:
+Um roteiro descreve a ordem de operações necessárias para produzir um produto ou grade de produto. Para cada operação, o roteiro também define os recursos de operações necessários, o tempo necessário para configurar e realizar a operação, e como o custo deve ser calculado. Você pode usar o mesmo roteiro para produzir vários produtos, ou você pode definir um roteiro exclusivo para cada produto ou grade de produto. Você pode ainda ter vários roteiros para o mesmo produto. Nesse caso, o roteiro utilizado varia de acordo com fatores tais como a quantidade que deve ser produzida. A definição de um roteiro no Supply Chain Management consiste em quatro elementos distintos que, juntos, descrevem o processo de produção:
 
 -   **Roteiro** – Um roteiro define a estrutura do processo de produção. Em outras palavras, ele define a ordem de operações.
 -   **Operação** – Uma operação identifica uma etapa nomeada no roteiro, tal como **Montagem**. A mesma operação pode ocorrer em múltiplos roteiros e pode ter diferentes números de operação.

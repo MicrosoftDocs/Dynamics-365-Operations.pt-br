@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 432a235668bbd969f497003a98b7f66390e5308f
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 63f436ffd01ac56bb4bc0021e226dad46d7c3377
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790464"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569906"
 ---
 # <a name="responsible-maintenance-workers"></a>Funcionários de manutenção responsáveis
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Os funcionários de manutenção responsáveis podem ser relacionados a tipos de ativo, ativos, locais funcionais, categorias de tipo de trabalho de manutenção, tipos de trabalho de manutenção, variações de tipo de trabalho de manutenção e comércios. Eles podem ser usados em ordens de trabalho e em solicitações de manutenção para indicar uma preferência sobre os funcionários de manutenção que devem ser responsáveis por uma ordem de serviço. (No entanto, esses funcionários de manutenção não são necessariamente os mesmos funcionários agendados para a realização da ordem de serviço). O uso dessa funcionalidade é opcional. Por exemplo, pode ser usado para selecionar funcionários ou grupos de responsáveis para tipos de trabalho ou áreas de trabalho específicos.
 
@@ -53,4 +53,4 @@ Antes de configurar funcionários de manutenção responsáveis, você deverá c
 
 A ilustração a seguir mostra um exemplo da página **Funcionários de manutenção responsáveis**.
 
-![Figura 1](media/08-setup-for-requests.png)
+![Página de funcionários de manutenção responsáveis](media/08-setup-for-requests.png)

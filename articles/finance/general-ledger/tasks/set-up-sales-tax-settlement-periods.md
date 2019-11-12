@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2cff84f8f6c42fd064258b8ca53e24acc8059977
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c17a0240c29dad58c958ab1ce844ee5d8384bd1f
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175290"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658920"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Configurar períodos de liquidação do imposto
 
@@ -42,7 +42,7 @@ Esta tarefa usa a empresa de demonstração USMF.
 9. Insira o número das Unidades de intervalo de período por período. Por exemplo, um trimestre tem 3 meses.
 10. Marque ou desmarque o **Usar processamento em lotes para liquidação de imposto**. O processo de liquidação para o período de liquidação pode ser processado como trabalhos em lotes no plano de fundo. Isso é recomendável para um grande número de transações de imposto em um intervalo de períodos.  
     > [!NOTE]
-    > No momento, isso não tem suporte na Áustria, Bélgica, Espanha, Itália, no Japão e nos Países Baixos.
+    > No momento, isso não tem suporte na Espanha, no Japão e nos Países Baixos.
 11. Marque ou desmarque a caixa de seleção **Impedir a geração de transações de impostos de contrapartida**. Por padrão, o sistema gera transações de impostos de contrapartida durante o processo de liquidação, o que pode causar um problema de desempenho se houver um grande número de transações de imposto durante um intervalo de período. Marque essa caixa de seleção para impedir a geração de transações de impostos de contrapartida.
 12. Expanda a guia **Intervalos de períodos**.
 13. Selecione **Adicionar**.

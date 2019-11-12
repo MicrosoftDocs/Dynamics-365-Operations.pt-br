@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4fc32d337be1f71932555fcb062a8d05c9ca9bda
-ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.openlocfilehash: 1aee14c869d84bef38a738bfe78fd09ee7f82d94
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "1918409"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652370"
 ---
 # <a name="asset-kpis"></a>KPIs do ativo
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 No Gerenciamento de Ativos, é possível calcular vários KPIs (indicadores chave de desempenho) para ativos e tipos de ativos. Use KPIs para obter uma visão geral do desempenho dos ativos em relação a, por exemplo, tempo de atividade, tempo de inatividade, tempo de reparo e tempo médio entre falhas (Mean Time Between Failure, MTBF).
 
@@ -85,8 +85,8 @@ Na tabela abaixo, você encontrará uma descrição dos campos na página **KPIs
 
 A figura abaixo mostra uma captura de tela de um cálculo de KPI para quatro ativos.
 
-![Figura 1](media/11-controlling-and-reporting.png)
+![Captura de tela de um cálculo de KPI para quatro ativos](media/11-controlling-and-reporting.png)
 
-- Você pode selecionar vários ativos em **Todos os ativos** e clicar no botão **KPIs do ativo** na guia **General**. Depois, clique em **OK** na caixa de diálogo **Calcular KPIs de ativo** para calcular KPIs para os ativos selecionados.  
+- Você pode selecionar vários ativos em **Todos os ativos** e clicar no botão **KPIs do ativo** na guia **General**. Em seguida, clique em **OK** na caixa de diálogo **Calcular KPIs de ativo** para calcular KPIs para os ativos selecionados.  
 - Os resultados de um cálculo de KPI podem ou não incluir [registros de tempo de inatividade de manutenção](../work-orders/maintenance-downtime.md), dependendo da configuração e do uso dos códigos de motivo de tempo de inatividade de manutenção. 
 

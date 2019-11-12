@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f5f1860907e3cc3c4830cc385771d5924c609ea6
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: 0734416eccf149330b390cce897d2c254f6c698b
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847519"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571613"
 ---
 # <a name="maintenance-request-reports"></a>Relatórios de solicitação de manutenção
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Em Asset Management, você pode gerar dois relatórios relacionados a solicitações de manutenção. Um relatório mostra detalhes, e o outro relatório fornece uma lista que pode ser usada para planejamento e acompanhamento.
 
@@ -44,7 +44,7 @@ O relatório **Detalhes da solicitação de manutenção** mostra várias inform
 
 A ilustração a seguir mostra um exemplo do relatório **Detalhes da solicitação de manutenção**.
 
-![Figura 1](media/09-manage-maintenance-requests.png)
+![Relatório Detalhes da solicitação de manutenção](media/09-manage-maintenance-requests.png)
 
 ## <a name="create-a-maintenance-request-list-report"></a>Criar um relatório Lista de solicitações de manutenção
 
@@ -57,4 +57,4 @@ O relatório **Lista de solicitações de serviço** mostra uma lista com todas 
 
 A ilustração a seguir mostra um exemplo do relatório **Lista de solicitações de manutenção** para todas as solicitações de manutenção ativas.
 
-![Figura 2](media/10-manage-maintenance-requests.png)
+![Relatório Lista de solicitações de manutenção](media/10-manage-maintenance-requests.png)

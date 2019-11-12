@@ -3,7 +3,7 @@ title: Configurar um processo de reabastecimento mínimo/máximo
 description: Este procedimento mostra como configurar um novo processo de reabastecimento que usa estratégia de reabastecimento de mínimo/máximo.
 author: perlynne
 manager: AnnBe
-ms.date: 06/26/2019
+ms.date: 10/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ef3c33125850662cfb0dfba6e6349ce32ceda0af
-ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
+ms.openlocfilehash: e9002b1d9f8507af42277ccc47621d92a4a00f62
+ms.sourcegitcommit: 7b74425637ddcf02087f1d391755e5cb8ce25949
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "1924438"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "2559180"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Configurar um processo de reabastecimento mínimo/máximo
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimento mostra como configurar um novo processo de reabastecimento que usa estratégia de reabastecimento de mínimo/máximo. Se o estoque estiver abaixo do nível mínimo, o trabalho será criado para reabastecer o local. O procedimento também mostra como usar locais de separação fixos para permitir reabastecimento se o estoque ficar abaixo do mínimo, e como habilitar o processo de reabastecimento para executar regularmente usando um trabalho em lotes. Essas tarefas normalmente seriam realizadas por um gerente do depósito. Você pode executar este procedimento na empresa de dados de demonstração de USMF usando os valores das notas exemplo, ou pode executá-la em seus próprios dados. Se você estiver usando seus próprios dados, verifique se você tem um depósito que seja habilitado para os processos de gerenciamento de depósito.
+Este procedimento mostra como configurar um novo processo de reabastecimento que usa estratégia de reabastecimento de mínimo/máximo. Se o estoque estiver abaixo do nível mínimo, o trabalho será criado para reabastecer o local. O procedimento também mostra como usar locais de separação fixos para permitir reabastecimento se o estoque ficar abaixo do mínimo, e como habilitar o processo de reabastecimento para executar regularmente usando um trabalho em lotes. Essas tarefas normalmente seriam realizadas por um gerente do depósito. Você pode executar este procedimento na empresa de dados de demonstração de USMF usando os valores de exemplo abaixo, ou pode executá-lo em seus próprios dados. Se você estiver usando seus próprios dados, verifique se você tem um depósito que seja habilitado para os processos de gerenciamento de depósito.
 
 
 ## <a name="create-a-fixed-picking-location"></a>Criar um local de separação fixo

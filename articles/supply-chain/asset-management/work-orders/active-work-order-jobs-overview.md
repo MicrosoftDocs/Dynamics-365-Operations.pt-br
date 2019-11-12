@@ -3,7 +3,7 @@ title: Visão geral dos trabalhos de manutenção ativos de ordem de serviço
 description: Este tópico explica a visão geral dos trabalhos de manutenção ativos de ordem de serviço no Gerenciamento de Ativos.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,27 +16,30 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-31
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5f266609aba13925ef3ce27de3533b8701433880
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 14d9de01270bd5487d147dd0507edf98f789b13d
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875513"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626330"
 ---
 # <a name="active-work-order-maintenance-jobs-overview"></a>Visão geral dos trabalhos de manutenção ativos de ordem de serviço
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
-Nos **Trabalhos de manutenção ativos de ordem de serviço**, você pode obter uma visão geral das ordens de serviço em relação à quantidade de ordens de serviço criadas em ativos, tipos de ativos, fabricantes, modelos, tipos de trabalhos de manutenção específicos e assim por diante. Se você selecionar um trabalho de ordem de serviço e clicar em **Editar**, você abre a ordem de serviço relacionada. Se você selecionar um trabalho e clicar em um dos botões na guia **Trabalhos de manutenção da ordem de serviço**, você verá dados da ordem de serviço à qual o trabalho da ordem de serviço está relacionado.
 
-Clique em **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Trabalhos de manutenção ativos de ordem de serviço** para abrir a lista. A lista contém todos os trabalhos ativos da ordem de serviço e exibe algumas das informações relacionadas ao trabalho da ordem de serviço ou da ordem de serviço.
+Na página de listagem **Trabalhos de manutenção ativos de ordem de serviço**, você pode obter uma visão geral das ordens de serviço em relação à quantidade de ordens de serviço criadas em ativos, tipos de ativos, fabricantes, modelos, tipos de trabalhos de manutenção específicos e assim por diante. Ao selecionar um trabalho de ordem de serviço e então selecionar **Editar**, você poderá abrir a ordem de serviço relacionada. Selecionando um trabalho da ordem de serviço e selecionando um dos botões na guia **Trabalhos de manutenção da ordem de serviço** do Painel de Ação, você poderá exibir os dados da ordem de serviço à qual o trabalho da ordem de serviço está relacionado.
 
-Na coluna **%**, um número indica a conclusão da ordem de serviço em porcentagem. A conclusão é baseada em dois cálculos: horas lançadas em comparação às horas previstas e número de listas de verificação de manutenção concluídas.
+Para abrir a página de listagem, selecione **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Trabalhos de manutenção de ordem de serviço ativos** para abrir a lista. A página lista todos os trabalhos ativos da ordem de serviço e também algumas das informações relacionadas ao trabalho da ordem de serviço ou da ordem de serviço.
+
+Na coluna **%**, um número mostra a conclusão da ordem de serviço como uma porcentagem. A conclusão é baseada em dois cálculos: horas lançadas em comparação às horas previstas e o número de listas de verificação de manutenção concluídas.
+
+A ilustração a seguir mostra um exemplo da página de listagem **Trabalhos de manutenção da ordem de serviço ativos**.
 
 ![Figura 1](media/23-work-orders.png)
 
-Para obter uma breve descrição dos botões em **Trabalhos de manutenção ativos de ordem de serviço**, consulte [Introdução a ordens de serviço](../work-orders/introduction-to-work-orders.md) em que botões idênticos são descritos.
+Para obter uma breve descrição dos botões na página de listagem **Trabalhos de manutenção da ordem de serviço ativos**, consulte [Introdução às ordens de serviço](../work-orders/introduction-to-work-orders.md) em que botões idênticos são descritos.
+

@@ -3,7 +3,7 @@ title: Mensagens de ação
 description: Uma mensagem de ação é uma sugestão gerada pelo sistema para alterar uma ordem planejada ou firmada existente.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a417abc8b725f4d57ada595da57505ae1347bfc
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a74feeaf61e93ed2802b5f45941d7e15e947b615
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570425"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658943"
 ---
 # <a name="action-messages"></a>Mensagens de ação
 

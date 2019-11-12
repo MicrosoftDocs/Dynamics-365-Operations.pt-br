@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: Mirzaab
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 462d35ebf1015ace032c523a4efe92bc7594ba3c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 3f4f61da42e02bfbf648bd5f6f5fe60c97abf532
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026894"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2552177"
 ---
-# <a name="mobile-bar-code-support"></a>Suporte a código de barras em dispositivos móveis
+# <a name="mobile-barcode-support"></a>Suporte a leitor de código de barras móvel
 
 [!include [banner](../includes/banner.md)]
 

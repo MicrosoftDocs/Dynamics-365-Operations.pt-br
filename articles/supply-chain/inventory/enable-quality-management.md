@@ -3,7 +3,7 @@ title: Visão geral do gerenciamento de qualidade
 description: Este tópico descreve como usar o gerenciamento de qualidade no Dynamics 365 Supply Chain Management para ajudar a melhorar a qualidade do produto na cadeia de suprimentos.
 author: perlynne
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9600e165da76948bb53a0188ec0b212a0fed84a
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: ba38f9c43fed81768155a27dda88a4bfb4a7828e
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249562"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653547"
 ---
 # <a name="quality-management-overview"></a>Visão geral do gerenciamento de qualidade
 
@@ -32,7 +32,7 @@ ms.locfileid: "2249562"
 
 Este tópico descreve como usar o gerenciamento de qualidade no Dynamics 365 Supply Chain Management para ajudar a melhorar a qualidade do produto na cadeia de suprimentos.
 
-O gerenciamento de qualidade pode ajudar a gerenciar o tempo de resposta ao lidar com produtos fora de conformidade, independentemente do ponto de origem. Como os tipos de diagnóstico são vinculados ao relatório de correção, o Finance and Operations pode agendar tarefas para corrigir problemas evitar que se repitam.
+O gerenciamento de qualidade pode ajudar a gerenciar o tempo de resposta ao lidar com produtos fora de conformidade, independentemente do ponto de origem. Como os tipos de diagnóstico são vinculados ao relatório de correção, o Supply Chain Management pode agendar tarefas para corrigir problemas evitar que se repitam.
 
 Além da funcionalidade para gerenciar a não conformidade, o gerenciamento de qualidade inclui a função de rastrear saídas por tipo de problema (até mesmo problemas internos), e para identificar soluções como a curto prazo ou a longo prazo. As estatísticas sobre os principais indicadores de desempenho (KPIs) fornecem ideias sobre o histórico de saídas anteriores de não conformidade e as soluções que foram usadas para corrigi-los. Você pode usar dados históricos para revisar a eficácia das medidas de qualidade anteriores e determinar as medidas apropriadas a serem usadas no futuro.
 
@@ -290,6 +290,256 @@ A tabela a seguir fornece mais informações sobre como as ordens de qualidade p
 <td></td>
 <td></td>
 <td>Uma ordem de qualidade deve ser criada manualmente para a quantidade em estoque de um item. O estoque físico disponível do item é necessário.</td>
+</tr>
+</tbody>
+</table>
+
+## <a name="quality-order-auto-generation-examples"></a>Exemplos de geração automática de ordens de qualidade
+
+### <a name="purchasing"></a>Comprando
+
+Na compra, se você definir o campo **Tipo de evento** como **Recebimento de produtos** e o campo **Execução** como **Após** na página **Associações de qualidade**, você obterá os seguintes resultados: 
+
+- Se a opção **Quantidade por atualização** for definida como **Yes**, uma ordem de qualidade é gerada para cada recebimento em relação à ordem de qualidade, com base na quantidade e nas configurações recebidas na amostra do item. Sempre que uma quantidade é recebida em relação à ordem de compra, novos pedidos de qualidade são gerados com base na quantidade recém-recebida.
+- Se a opção **Quantidade por atualização** for definida como **Não**, uma ordem de qualidade será gerada para o primeiro recebimento em relação à ordem de qualidade, com base na quantidade recebida. Além disso, uma ou mais ordens de qualidade são criadas com base na quantidade restante, dependendo das dimensões de rastreamento. Os pedidos de qualidade não são gerados para recebimentos subsequentes em relação à ordem de compra.
+
+<table>
+<tbody>
+<tr>
+<th>Especificação de qualidade</th>
+<th>Quantidade por atualização</th>
+<th>Por dimensão de rastreamento</th>
+<th>Resultado</th>
+</tr>
+<tr>
+<td>Porcentagem: 10%</td>
+<td>Sim</td>
+<td>
+<p>Nº do lote: não</p>
+<p>Número de série: não</p>
+</td>
+<td>
+<p>Quantidade da ordem: 100</p>
+<ol>
+<li>Relatar como concluído para 30
+<ul>
+<li>Ordem de qualidade nº 1 para 3 (10% de 30)</li>
+</ul>
+</li>
+<li>Relatar como concluído para 70
+<ul>
+<li>Ordem de qualidade nº 2 para 7 (10% da quantidade restante da ordem, que é igual a 70 neste caso)</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Quantidade fixa: 1</td>
+<td>Não</td>
+<td>
+<p>Nº do lote: não</p>
+<p>Número de série: não</p>
+</td>
+<td>Quantidade da ordem: 100
+<ol>
+<li>Relatar como concluído para 30
+<ul>
+<li>A ordem de qualidade nº 1 é criado para 1 (para a primeira quantidade relatada como concluída, que tem um valor fixo de 1).</li>
+<li>Não são mais criadas ordens de qualidade em relação à quantidade restante.</li>
+</ul>
+</li>
+<li>Relatar como concluído para 10
+<ul>
+<li>Nenhuma ordem de qualidade é criada.</li>
+</ul>
+</li>
+<li>Relatar como concluído para 60
+<ul>
+<li>Nenhuma ordem de qualidade é criada.</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Quantidade fixa: 1</td>
+<td>Sim</td>
+<td>
+<p>Nº do lote: sim</p>
+<p>Número de série: sim</p>
+</td>
+<td>
+<p>Quantidade da ordem: 10</p>
+<ol>
+<li>Relatar como concluído para 3
+<ul>
+<li>Ordem de qualidade nº 1 para 1 do lote nº b1, série nº s1</li>
+<li>Ordem de qualidade nº 2 para 1 do lote nº b2, série nº s2</li>
+<li>Ordem de qualidade nº 3 para 1 do lote nº b3, série nº s3</li>
+</ul>
+</li>
+<li>Relatar como concluído para 2
+<ul>
+<li>Ordem de qualidade nº 4 para 1 do lote nº b4, série nº s4</li>
+<li>Ordem de qualidade nº 5 para 1 do lote nº b5, série nº s5</li>
+</ul>
+</li>
+</ol>
+<p><strong>Observação:</strong> o lote pode ser reutilizado.</p>
+</td>
+</tr>
+<tr>
+<td>Quantidade fixa: 2</td>
+<td>Não</td>
+<td>
+<p>Nº do lote: sim</p>
+<p>Número de série: sim</p>
+</td>
+<td>
+<p>Quantidade da ordem: 10</p>
+<ol>
+<li>Relatar como concluído para 4
+<ul>
+<li>Ordem de qualidade nº 1 para 1 do lote nº b1, série nº s1.</li>
+<li>Ordem de qualidade nº 2 para 1 do lote nº b2, série nº s2.</li>
+<li>Ordem de qualidade nº 3 para 1 do lote nº b3, série nº s3.</li>
+<li>Ordem de qualidade nº 4 para 1 do lote nº b4, série nº s4.</li>
+<li>Não são mais criadas ordens de qualidade em relação à quantidade restante.</li>
+</ul>
+</li>
+<li>Relatar como concluído para 6
+<ul>
+<li>Nenhuma ordem de qualidade é criada.</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+
+### <a name="production"></a>Produção
+
+Na produção, se você definir o campo **Tipo de evento** como **Relatar como concluído** e o campo **Execução** como **Após** na página **Associações de qualidade**, você obterá os seguintes resultados:
+
+- Se a opção **Quantidade por atualização** for definida como **Yes**, uma ordem de qualidade é gerada com base em todas as quantidades e configurações finalizadas na amostra do item. Sempre que uma quantidade é relatada como concluída em relação à ordem de produção, novas ordens de qualidade são geradas com base na quantidade recém-concluída. Essa lógica de geração é consistente com a compra.
+- Se a opção **Quantidade por atualização** for definida como **Não**, uma ordem de qualidade é gerada na primeira vez que uma quantidade é relatada como concluída, com base na quantidade concluída. Além disso, uma ou mais ordens de qualidade são criadas com base na quantidade restante, dependendo das dimensões de rastreamento da amostra do item. As ordens de qualidade não são geradas para quantidades concluídas subsequentes.
+
+<table>
+<tbody>
+<tr>
+<th>Especificação de qualidade</th>
+<th>Quantidade por atualização</th>
+<th>Por dimensão de rastreamento</th>
+<th>Resultado</th>
+</tr>
+<tr>
+<td>Porcentagem: 10%</td>
+<td>Sim</td>
+<td>
+<p>Nº do lote: não</p>
+<p>Número de série: não</p>
+</td>
+<td>
+<p>Quantidade da ordem: 100</p>
+<ol>
+<li>Relatar como concluído para 30
+<ul>
+<li>Ordem de qualidade nº 1 para 3 (10% de 30)</li>
+</ul>
+</li>
+<li>Relatar como concluído para 70
+<ul>
+<li>Ordem de qualidade nº 2 para 7 (10% da quantidade restante da ordem, que é igual a 70 neste caso)</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Quantidade fixa: 1</td>
+<td>Não</td>
+<td>
+<p>Nº do lote: não</p>
+<p>Número de série: não</p>
+</td>
+<td>Quantidade da ordem: 100
+<ol>
+<li>Relatar como concluído para 30
+<ul>
+<li>Ordem de qualidade nº 1 para 1 (para a primeira quantidade relatada como concluída, que tem um valor fixo de 1)</li>
+<li>Ordem de qualidade nº 2 para 1 (para a quantidade restante, que ainda possui um valor fixo de 1)</li>
+</ul>
+</li>
+<li>Relatar como concluído para 10
+<ul>
+<li>Nenhuma ordem de qualidade é criada.</li>
+</ul>
+</li>
+<li>Relatar como concluído para 60
+<ul>
+<li>Nenhuma ordem de qualidade é criada.</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Quantidade fixa: 1</td>
+<td>Sim</td>
+<td>
+<p>Nº do lote: sim</p>
+<p>Número de série: sim</p>
+</td>
+<td>
+<p>Quantidade da ordem: 10</p>
+<ol>
+<li>Relatar como concluído para 3: 1 para nº b1, nº s1; 1 para nº b2, nº s2; e 1 para nº b3, nº s3
+<ul>
+<li>Ordem de qualidade nº 1 para 1 do lote nº b1, série nº s1</li>
+<li>Ordem de qualidade nº 2 para 1 do lote nº b2, série nº s2</li>
+<li>Ordem de qualidade nº 3 para 1 do lote nº b3, série nº s3</li>
+</ul>
+</li>
+<li>Relatar como concluído para 2: 1 para nº b4, nº s4; e 1 para nº b5, nº s5
+<ul>
+<li>Ordem de qualidade nº 4 para 1 do lote nº b4, série nº s4</li>
+<li>Ordem de qualidade nº 5 para 1 do lote nº b5, série nº s5</li>
+</ul>
+</li>
+</ol>
+<p><strong>Observação:</strong> o lote pode ser reutilizado.</p>
+</td>
+</tr>
+<tr>
+<td>Quantidade fixa: 2</td>
+<td>Não</td>
+<td>
+<p>Nº do lote: sim</p>
+<p>Número de série: sim</p>
+</td>
+<td>
+<p>Quantidade da ordem: 10</p>
+<ol>
+<li>Relatar como concluído para 4: 1 para nº b1, nº s1; 1 para nº b2, nº s2; 1 para nº b3, nº s3; e 1 para nº b4, nº s4
+<ul>
+<li>Ordem de qualidade nº 1 para 1 do lote nº b1, série nº s1</li>
+<li>Ordem de qualidade nº 2 para 1 do lote nº b2, série nº s2</li>
+<li>Ordem de qualidade nº 3 para 1 do lote nº b3, série nº s3</li>
+<li>Ordem de qualidade nº 4 para 1 do lote nº b4, série nº s4</li>
+</ul>
+<ul>
+<li>Ordem de qualidade nº 5 para 2, sem referência a um lote e um número de série</li>
+</ul>
+</li>
+<li>Relatar como concluído para 6: 1 para nº b5, nº s5; 1 para nº b6, nº s6; 1 para nº b7, nº s7; 1 para nº b8, nº s8; 1 para nº b9, nº s9; e 1 para nº b10, nº s10
+<ul>
+<li>Nenhuma ordem de qualidade é criada.</li>
+</ul>
+</li>
+</ol>
+</td>
 </tr>
 </tbody>
 </table>
