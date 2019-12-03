@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 058adaef91a7b30e25bea603625116e97009cf55
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 795e9f5b843ba8e50dc091949c9732b8b033355e
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537015"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812079"
 ---
 # <a name="globalization-resources"></a>Recursos de globalização
 
@@ -45,10 +45,10 @@ Este tópico inclui lista de recursos que podem ajudar a fazer o seguinte:
 
 ### <a name="developing-localized-solutions"></a>Desenvolvendo soluções localizadas
 Os recursos a seguir fornecem orientação e informações que podem ajudar desenvolvedores e fornecedores independentes de software que estejam criando personalizações específicas para um país/região ou que estejam criando uma solução para um país sem suporte da Microsoft.
--   [Separar modelos de localização](separate-localization-models.md)
+-   [Separação de modelos de localização](separate-localization-models.md)
 -   [Aplicar contexto de país/região](apply-country-context.md)
--   [Certificações regulatórias](regulatory-certifications.md)
--   [Classificar recursos de localização](classify-localization-features.md)
+-   [Informações de certificações regulatórias em títulos de recursos](regulatory-certifications.md)
+-   [Classificação de recursos de localização](classify-localization-features.md)
 -   [Códigos de país – ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
 ### <a name="regulatory-updates-and-communication"></a>Comunicação e atualizações regulatórias
@@ -57,36 +57,36 @@ Os recursos a seguir fornecem informações sobre recursos de localização novo
 #### <a name="regulatory-updates"></a>Atualizações regulatórias
 -   [Atualizações regulatórias](../../../finance/localizations/regulatory-updates.md)
 -   [Portal de localização](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (atualizado semanalmente)
--   [Pesquisa de problemas de LCS](../lifecycle-services/issue-search-lcs.md) (atualizada diariamente)
+-   [Pesquisa de problemas no Lifecycle Services (LCS)](../lifecycle-services/issue-search-lcs.md) (atualizada diariamente)
 
 #### <a name="communication-and-alerts"></a>Comunicação e alertas
--   [Observação regulatória e comunicação de atualização regulatória](regulatory-watch-communication.md)
--   [Informar à Microsoft sobre alertas de regulamentação de país/região e acompanhar o status dos recursos regulatórios](submit-localization-alerts.md)
+-   [Observação regulatória e comunicação de atualizações regulatórias](regulatory-watch-communication.md)
+-   [Enviar alertas sobre recursos regulatórios específicos do país/região](submit-localization-alerts.md)
 
-#### <a name="dynamics-365-release-notes"></a>Notas de versão do Dynamics 365
-As [notas de versão do Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) fornecem descrições dos recursos novos e aprimorados que são planejados para os aplicativos de negócios do Dynamics 365 e para as plataformas de aplicativo. 
+#### <a name="dynamics-365-release-plans"></a>Planos de versão do Dynamics 365
+Os [planos de versão do Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) fornecem descrições dos recursos novos e aprimorados que são planejados para os aplicativos de negócios do Dynamics 365 e para as plataformas de aplicativos. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Novidades dos aplicativos do Finance and Operations
-As [conteúdo das Novidades](../../fin-ops/get-started/whats-new-changed.md) lista os recursos que estão incluídos em versões específicas dos aplicativos do Finance and Operations.
+A [home page Novidades ou alterações no Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) lista os recursos que estão incluídos em versões específicas dos aplicativos do Finance and Operations.
 
 ### <a name="electronic-reporting"></a>Relatório eletrônico
 A ferramenta ER (Relatório eletrônico) permite configurar formatos para documentos eletrônicos de acordo com os requisitos legais de vários países/regiões. O ER permite gerenciar esses formatos durante seu ciclo de vida. Para obter mais informações, confira um dos tópicos a seguir:
--   [Visão geral de Relatório eletrônico](../analytics/general-electronic-reporting.md)
--   [Gerenciar o ciclo de vida da configuração do Relatório eletrônico](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
--   [Criar uma configuração de Relatório eletrônico](../analytics/electronic-reporting-configuration.md)
--   [Estender a lista de funções de Relatório eletrônico](../analytics/general-electronic-reporting-formulas-list-extension.md)
--   [Destinos de Relatório eletrônico](../analytics/electronic-reporting-destinations.md)
+-   [Visão geral de Relatório eletrônico (ER)](../analytics/general-electronic-reporting.md)
+-   [Gerenciar o ciclo de vida da configuração de Relatório eletrônico (ER)](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
+-   [Criar configurações de Relatório eletrônico (ER)](../analytics/electronic-reporting-configuration.md)
+-   [Estender a lista de funções de Relatório eletrônico (ER)](../analytics/general-electronic-reporting-formulas-list-extension.md)
+-   [Destinos de Relatório eletrônico (ER)](../analytics/electronic-reporting-destinations.md)
 -   [Baixar configurações de Relatório eletrônico do Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
--   [​Importar configurações de Relatório eletrônico​](../analytics/electronic-reporting-import-ger-configurations.md)
--   [Configurar Relatório eletrônico para efetuar pull de dados no Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [Gerar documentos eletrônicos e atualizar dados do aplicativo com a ferramenta de Relatório eletrônico](../analytics/generate-electronic-documents-update-application-data.md)
+-   [Importar configurações de Relatório eletrônico (ER)](../analytics/electronic-reporting-import-ger-configurations.md)
+-   [Configurar Relatório eletrônico (ER) para extrair dados para o Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Gerar documentos eletrônicos e atualizar dados do aplicativo usando ER](../analytics/generate-electronic-documents-update-application-data.md)
 
 ### <a name="task-guides"></a>Guias de tarefas
 Os guias de tarefas estão disponíveis no painel da ajuda do produto e oferecem um guia passo a passo dos principais processos de negócios. Você pode abrir um guia de tarefas para ler as etapas de um processo de negócios ou executá-lo para seguir as etapas de um processo de negócios e inserir dados.
 
 Para localizar os guias de tarefas, navegue até uma página no aplicativo e clique em Ajuda. Os guias de tarefas que usam a página são listados no painel de ajuda. Você também pode usar o painel de ajuda para procurar guias de tarefas por título.
 
-Para saber mais, consulte [Guias de tarefas](../../fin-ops/get-started/help-overview.md#task-guides).
+Para saber mais, consulte [Sistema de ajuda](../../fin-ops/get-started/help-overview.md#task-guides).
 
 
 ### <a name="countryregion-specific-help-content"></a>Conteúdo da Ajuda específico para país/região

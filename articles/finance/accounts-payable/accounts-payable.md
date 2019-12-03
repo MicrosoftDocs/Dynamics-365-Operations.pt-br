@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce6ce9c3c08a165ca19eb8d83643fd87b970f1ca
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: e9fbc0e3f3960f25930f9587d489009bc34181c7
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658727"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772228"
 ---
 # <a name="accounts-payable-home-page"></a>Home page de Contas a pagar
 
@@ -41,7 +41,7 @@ Você pode inserir faturas de fornecedor manualmente ou recebê-las eletronicame
 
 Configure grupos de fornecedores, fornecedores, perfis de lançamento, várias opções de pagamento e parâmetros relacionados a fornecedores, encargos, entregas e destinos, notas promissórias e outros tipos de informações de Contas a pagar. 
 
-[Configurar Contas a pagar](accounts-payable-overview.md)
+[Visão geral sobre configurar contas a pagar](accounts-payable-overview.md)
 
 [Distribuições contábeis e entradas no diário-razão auxiliar para faturas de fornecedor](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
 
@@ -51,9 +51,9 @@ Configure grupos de fornecedores, fornecedores, perfis de lançamento, várias o
 
 Use Contas a pagar para rastrear faturas e despesas de saída para fornecedores.
 
-[Conciliação de faturas de contas a pagar](accounts-payable-invoice-matching.md)
+[Visão geral de conciliação de faturas de contas a pagar](accounts-payable-invoice-matching.md)
 
-[Perfis de lançamentos de fornecedores](vendor-posting-profiles.md)
+[Perfis de lançamento de fornecedores](vendor-posting-profiles.md)
 
 [Configurar a validação de conciliação de faturas de contas a pagar](tasks/set-up-accounts-payable-invoice-matching-validation.md)
 
@@ -61,7 +61,7 @@ Use Contas a pagar para rastrear faturas e despesas de saída para fornecedores.
 
 [Conciliação de faturas e ordens de compra intercompanhia](invoice-matching-intercompany-purchase-orders.md)
 
-[Resolver discrepâncias durante a conciliação de totais de fatura](resolve-invoice-totals-invoice-matching-discrepancies.md)
+[Visão geral de resolução de discrepâncias durante a conciliação de totais de fatura](resolve-invoice-totals-invoice-matching-discrepancies.md)
 
 [Contrapartidas padrão para diários de faturas de fornecedor e diários de aprovações de faturas](default-offset-accounts-vendor-invoice-journals.md)
 
@@ -93,27 +93,27 @@ Atribua um tipo de pagamento definido pelo sistema, como cheque, pagamento eletr
 
 [Obter um desconto à vista fora do período de desconto à vista](take-cash-discount-outside-cash-discount-timeframe.md)
 
-[Relatório eletrônico para cheques de fornecedores](electronic-reporting-sample-vendor-checks.md)
+[Exemplo de relatório eletrônico para cheques de fornecedores](electronic-reporting-sample-vendor-checks.md)
 
 [Reverter um pagamento de fornecedor](reverse-vendor-payment.md)
 
-[Visão geral de faturas de pagamento antecipado e de pagamentos antecipados](prepayments-invoices-vs-prepayments.md)
+[Faturas de pagamento antecipado versus pagamentos antecipados](prepayments-invoices-vs-prepayments.md)
 
 [Pagamentos centralizados de Contas a pagar](centralized-payments-accounts-payable.md)
 
 ## <a name="settlements"></a>Liquidações
 
-Os seguintes tópicos fornecem informações sobre liquidações. A liquidação é o processo de liquidar pagamentos com faturas. 
+Os tópicos a seguir fornecem informações sobre liquidações. A liquidação é o processo de liquidar pagamentos com faturas. 
 
 [Configurar liquidação](../cash-bank-management/configure-settlement.md)
 
-[Liquidar um pagamento parcial de fornecedor antes da data do desconto](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+[Liquidar um pagamento parcial de fornecedor antes da data do desconto com um pagamento final após a data do desconto](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
 
 [Liquidar um pagamento parcial de fornecedor que tem descontos sobre notas de crédito de fornecedor](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
 
 [Liquidar um pagamento parcial de fornecedor que tem vários períodos de desconto](settle-partial-vendor-payment-multiple-discount-periods.md)
 
-[Liquidar um pagamento parcial ou pagamento final de fornecedor antes do desconto](settle-partial-vendor-payment-or-final-payment-before-discount.md)
+[Liquidar um pagamento parcial de fornecedor e o pagamento final integralmente antes da data do desconto](settle-partial-vendor-payment-or-final-payment-before-discount.md)
 
 [Comprovante único com vários registros de cliente ou de fornecedor](single-voucher-multiple-customer-vendor-records.md)
 
@@ -123,11 +123,11 @@ Os seguintes tópicos fornecem informações sobre liquidações. A liquidação
 
 #### <a name="whats-new-and-in-development"></a>Novidades e o que está em desenvolvimento
 
-Acesse as [Notas de versão do Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) para ver quais novos recursos estão planejados. 
+Acesse os [planos de versão do Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) para ver quais novos recursos estão planejados. 
 
 #### <a name="blogs"></a>Blogs
 
-Você pode encontrar opiniões, notícias e outras informações sobre Contas a pagar e outras soluções no [blog do Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e no [blog de finanças do Microsoft Dynamics 365 Finance](https://community.dynamics.com/365/financeandoperations/b/financials).
+Você pode encontrar opiniões, notícias e outras informações sobre Contas a pagar e outras soluções no [blog do Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e no [blog de finanças do Microsoft Dynamics 365 Finance](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 O [Blog da Comunidade de Parceiros do Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) fornece aos Parceiros do Microsoft Dynamics um recurso único para saberem mais sobre as novidades e as tendências do MBS Operations.
 

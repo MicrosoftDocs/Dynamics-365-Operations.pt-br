@@ -565,15 +565,17 @@
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
                 - name: Data de média ponderada
                   href: cost-management/weighted-average-date.md
-                - name: ​Média ponderada com valor físico e marcação​
+                - name: Média ponderada com valor físico e marcação
                   href: cost-management/weighted-average-physical-value-marking.md
                 - name: Fechamento de estoque
                   href: cost-management/inventory-close.md
                 - name: Ajustar valores de custo de estoque disponível
                   href: cost-management/adjust-hand-inventory-cost-values.md
+                - name: Relatório de classificação por vencimento do estoque
+                  href: cost-management/inventory-aging-report-storage.md
             - name: Contabilidade de fabricação
               items:
-                - name: ​Cálculos de BOM​
+                - name: Cálculos de BOM
                   href: cost-management/bom-calculations.md
                 - name: Grupos de cálculos de BOM
                   href: cost-management/bom-calculation-groups.md
@@ -868,7 +870,13 @@
                         - name: Baixar configurações do repositório do ER do tipo do RCS
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Importar configurações do RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Tutoriais
+                      items:
+                        - name: Usar as fontes de dados JOIN para obter dados de várias tabelas de aplicativos nos mapeamentos do modelo de Relatório eletrônico (ER)
+                          href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Configurar mapeamentos do modelo de ER dependente do contexto do país
+                          href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Usar soluções de Relatório eletrônico no Finance and Operations
                   items:
                     - name: Configurar a estrutura
@@ -903,6 +911,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Visão geral de gerenciamento de documentos comerciais
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Adicionar novos campos a um modelo de documento comercial no Microsoft Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/supply-chain/toc.json
                 - name: API da estrutura de ER
                   items:
                     - name: Estender a lista de funções de Relatório eletrônico
@@ -1051,6 +1061,22 @@
           items:
             - name: Home page de Planejamento mestre
               href: master-planning/master-planning-home-page.md
+            - name: Otimização do Planejamento
+              items:
+                - name: Visão geral de Otimização do Planejamento
+                  href: master-planning/planning-optimization/planning-optimization-overview.md
+                - name: Comece a usar a Otimização de Planejamento
+                  href: master-planning/planning-optimization/get-started.md
+                - name: Análise de ajuste de Otimização de Planejamento
+                  href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: Aplicar filtros a um plano
+                  href: master-planning/planning-optimization/plan-filters.md
+                - name: Exibir histórico e logs de planejamento
+                  href: master-planning/planning-optimization/plan-history-logs.md
+                - name: Confirmação automática com a Otimização de Planejamento
+                  href: master-planning/planning-optimization/planning-optimization-auto-firming.md
+                - name: Cancelar um trabalho de planejamento
+                  href: master-planning/planning-optimization/cancel-planning-job.md
             - name: Planos mestres
               items:
                 - name: Visão geral de planos mestres

@@ -3,11 +3,19 @@
   items:
     - name: Comece a usar
       items:
-        - name: Introdução ao Talent
+        - name: Comece a usar o Talent
           href: talent-get-started.md
         - name: Novidades ou alterações no Talent
           href: whats-new.md
           items:
+            - name: 19 de novembro de 2019
+              href: whats-new-talent-november-19-2019.md
+            - name: 12 de novembro de 2019
+              href: whats-new-talent-november-12-2019.md
+            - name: 5 de novembro de 2019
+              href: whats-new-talent-november-5-2019.md
+            - name: 29 de outubro de 2019
+              href: whats-new-talent-oct-29-2019.md
             - name: 23 de outubro de 2019
               href: whats-new-talent-october-23-2019.md
             - name: 8 de outubro de 2019
@@ -26,18 +34,18 @@
               href: whats-new-talent-august-15-2019.md
             - name: 6 de agosto de 2019
               href: whats-new-talent-august-7-2019.md
-            - name: 30 de julho de 2019
-              href: whats-new-talent-july-31-2019.md
-            - name: 23 de julho de 2019
-              href: whats-new-talent-july-24-2019.md
-            - name: 16 de julho de 2019
-              href: whats-new-talent-july-16-2019.md
-            - name: 9 de julho de 2019
-              href: whats-new-talent-july-9-2019.md
-            - name: 2 de julho de 2019
-              href: whats-new-talent-july-2-2019.md
             - name: Arquivo morto das novidades de 2019
               items:
+                - name: 30 de julho de 2019
+                  href: whats-new-talent-july-31-2019.md
+                - name: 23 de julho de 2019
+                  href: whats-new-talent-july-24-2019.md
+                - name: 16 de julho de 2019
+                  href: whats-new-talent-july-16-2019.md
+                - name: 9 de julho de 2019
+                  href: whats-new-talent-july-9-2019.md
+                - name: 2 de julho de 2019
+                  href: whats-new-talent-july-2-2019.md
                 - name: 25 de junho de 2019
                   href: whats-new-talent-june-25-2019.md
                 - name: 18 de junho de 2019
@@ -116,10 +124,14 @@
                   href: whats-new-talent-august2018.md
                 - name: Julho de 2018
                   href: whats-new-talent-july2018.md
-        - name: Requisitos do sistema e política de atualização
+        - name: Requisitos do sistema
           href: talent-versions-update-policy.md
+        - name: Atualizações do Talent
+          href: talent-updates.md
         - name: Provisionar o Talent
           href: provisioning-talent.md
+        - name: Copiar uma instância do Core HR
+          href: hr-copy-instance.md
         - name: Remover ambientes do Talent
           href: remove-talent-environment.md
         - name: Provisionamento para o aplicativo Onboard
@@ -439,6 +451,18 @@
           href: extensibility-attract.md
         - name: Campos personalizados no Core HR
           href: corehr-custom-fields.md
+        - name: Referência da API da Entidade
+          items:
+            - name: Autenticação
+              href: api-odata-authentication.md
+            - name: Entidades
+              items:
+                - name: MyLeaveRequests
+                  items:
+                    - name: Visão geral de MyLeaveRequests
+                      href: api-myleaverequests-overview.md
+                    - name: Enviar uma solicitação de licença para o fluxo de trabalho
+                      href: api-myleaverequests-submit.md
     - name: Solucionar problemas do Talent
       items:
         - name: Otimizar o desempenho com tarefas de limpeza automática

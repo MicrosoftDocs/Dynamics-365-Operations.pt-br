@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92fec444834be8ca4943932730b94beb8a1902e7
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 5da4272e65940708d301d465966dea3f53498b48
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536838"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771555"
 ---
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>Home page de BI (business intelligence) e relatórios
 
@@ -48,7 +48,7 @@ Para saber mais, consulte os seguintes tópicos:
 - [Integração do Power BI Embedded](power-bi-embedded-integration.md)
 - [​Adicionar análise a espaços de trabalho usando o Power BI Embedded](add-analytics-tab-workspaces.md)
 - [Ajudar a proteger espaços de trabalho analíticos e relatórios usando o Power BI Embedded](secure-analytical-workspaces.md)
-- [Conteúdo do Power BI para o Finance and Operations](power-bi-home-page.md)
+- [Home page de conteúdo do Power BI](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>Documentos e impressões comerciais
 As soluções de relatório são frequentemente usadas para capturar e comunicar os detalhes de transações comerciais. Portanto, uma solução de relatório deve ser capaz de produzir manifestações físicas de dados comerciais usando dispositivos existentes, como impressoras de rede. Exemplos de documentos comerciais incluem faturas de vendas, demonstrativos do cliente e cheques.
@@ -57,9 +57,9 @@ As soluções de relatório são frequentemente usadas para capturar e comunicar
 
 Para saber mais, consulte os seguintes tópicos:
 
-- [Visão geral dos Document Reporting Services](document-reporting-services.md)
-- [Impressão em aplicativos do Finance and Operations](print-documents.md)
-- [Instalar o Agente de Roteamento de Documentos para habilitar dispositivos de impressora de rede](install-document-routing-agent.md)
+- [Serviços de relatório de documentos](document-reporting-services.md)
+- [Visão geral de impressão do documento](print-documents.md)
+- [Instalar o Agente de Roteamento de Documentos para habilitar a impressão de rede](install-document-routing-agent.md)
 
 ## <a name="electronic-reporting"></a>Relatório eletrônico
 ER (Relatório eletrônico) é a ferramenta que você usa para configurar formatos de documentos eletrônicos em conformidade com os requisitos legais de vários países ou regiões. Os aplicativos de relatório eletrônico incluem auditoria financeira, relatório de imposto e faturamento eletrônico.
@@ -68,9 +68,9 @@ ER (Relatório eletrônico) é a ferramenta que você usa para configurar format
 
 Para saber mais, consulte os seguintes tópicos:
 
-- [Visão geral de Relatório eletrônico](general-electronic-reporting.md)
-- [Gerenciar o ciclo de vida da configuração de Relatório eletrônico](general-electronic-reporting-manage-configuration-lifecycle.md)
-- [Criar uma configuração de Relatório eletrônico](electronic-reporting-configuration.md)
+- [Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
+- [Gerenciar o ciclo de vida da configuração de Relatório eletrônico (ER)](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [Criar configurações de Relatório eletrônico (ER)](electronic-reporting-configuration.md)
 
 ## <a name="financial-reporting"></a>Relatórios financeiros
 São fornecidos relatórios financeiros padrão que usam as categorias de conta principal padrão. Você pode usar o designer de relatórios para criar ou modificar demonstrativos financeiros tradicionais, como declarações de renda e balanços. Você poderá então compartilhar os resultados com outros membros de sua organização. Exemplos de relatório financeiro incluem balanços, fluxo de caixa e balancete de resumo ano a ano.
@@ -79,14 +79,14 @@ São fornecidos relatórios financeiros padrão que usam as categorias de conta 
 
 Para saber mais, consulte os seguintes tópicos:
 
-- [Relatório financeiro do Finance and Operations](financial-reporting-intro.md)
-- [Gerar um relatório financeiro](generate-financial-report.md)
+- [Relatórios financeiros](financial-reporting-intro.md)
+- [Gerar relatórios financeiros](generate-financial-report.md)
 - [Componentes de relatórios financeiros](financial-report-components.md)
 
 ## <a name="technical-reference-reports"></a>Relatórios de referência técnica
 Os seguintes relatórios fornecem informações de referência sobre os objetos:
 
-- [Relatório de entidades de dados](../data-entities/data-entities-report.md)
+- [Encontrar informações sobre entidades de dados padrão](../data-entities/data-entities-report.md)
 - [Relatório de códigos de licença e chaves de configuração](../sysadmin/license-codes-configuration-keys-report.md)
-- [Relatório de relatórios do SQL Server Reporting Services](SSRS-report.md)
+- [Relatórios disponíveis do SQL Server Reporting Services (SSRS)](SSRS-report.md)
 - [Relatório de tipos de fluxo de trabalho](../../fin-ops/organization-administration/workflow-types-report.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0c6a9e4dd3f3182c98a9f5491b07f8687c21e5c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 531fd219cc2db79e01a277c72eba66fb8a9b8bbd
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184062"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772642"
 ---
 # <a name="budgeting-home-page"></a>Home page de Orçamento
 
@@ -42,12 +42,12 @@ Os processos de planejamento estratégico de longo prazo e planejamento de orça
 
 Por fim, as organizações muito maduras podem estabelecer uma cultura organizacional na qual os funcionários são instruídos sobre os objetivos organizacionais e acompanham esses objetivos por meio de políticas como "Considerar reunião online em vez de deslocamento". O aplicativo inclui uma estrutura de controle de orçamento que permite ao gerenciamento da empresa optar pelo controle rígido (o qual evita lançamentos que excedem o orçamento) ou controle flexível (em que os usuários são alertados de que excederão os fundos de orçamento disponíveis, mas podem decidir como proceder). Por fim, você pode usar as previsões de rolamento. Uma previsão de rolamento é uma comparação regular de orçamento com números reais e é usada para definir o quão bem a empresa opera em relação ao orçamento. Uma previsão de rolamento também é usada para identificar tendências. No Finance and Operations, as previsões de rolamento têm suporte por meio de um documento de plano de orçamento na forma de atividades iniciais de planejamento. As previsões de rolamento podem ser executadas em paralelo ao planejamento para o próximo ciclo orçamentário.
 
--   [Orçamento básico: visão geral e configuração](basic-budgeting-overview-configuration.md)
--   [Controle de orçamento: visão geral e configuração](budget-control-overview-configuration.md)
--   [Planejamento de orçamento: visão geral e configuração](budget-planning-overview-configuration.md)
+-   [Visão geral de orçamento](basic-budgeting-overview-configuration.md)
+-   [Visão geral de controle de orçamento](budget-control-overview-configuration.md)
+-   [Visão geral de planejamento de orçamento](budget-planning-overview-configuration.md)
 -   [Previsão de posição](position-forecasting.md)
 -   [Documentos de justificativa de plano de orçamento](budget-planning-justification-docs.md)
--   [Modelos de planejamento de orçamento do Microsoft Excel](budget-planning-excel-templates.md)
+-   [Modelos de plano de orçamento para Excel](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>Ferramentas de orçamento
 [![Ferramentas de orçamento](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
