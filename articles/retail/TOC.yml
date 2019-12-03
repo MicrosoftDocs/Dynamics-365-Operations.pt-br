@@ -850,6 +850,8 @@
           items:
             - name: Visão geral de fidelidade
               href: set-up-customer-loyalty-program.md
+            - name: Visão geral de clientes
+              href: clienteling-overview.md
         - name: Pagamentos
           items:
             - name: Meios de pagamento
@@ -1242,7 +1244,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/retail/toc.json
             - name: Upgrade e suporte N-1
               items:
-                - name: Upgrade e suporte N-1 para o retail
+                - name: Upgrade e suporte N-1 para o Retail
                   href: dev-itpro/overview-upgrade-n-minus1.md
                 - name: 'Instalação, configuração e substituição de distribuição em fases (N-1)'
                   href: dev-itpro/n-1-installation-configuration.md
@@ -1268,8 +1270,6 @@
                   href: Open-URL-in-POS.md
                 - name: Instalar o designer de layout do PDV
                   href: install-pos-layout-designer.md
-                - name: Retail Modern POS no modo offline
-                  href: dev-itpro/retail-modern-pos-offline.md
                 - name: Estender a exibição dual do PDV
                   href: dev-itpro/pos-dual-display-extension.md
                 - name: Retail Modern POS e PDV em Nuvem disparam a extensibilidade
@@ -1330,8 +1330,10 @@
                   href: dev-itpro/commerce-runtime-extensibility-trigger.md
                 - name: Bloquear transações usando gatilhos
                   href: dev-itpro/trigger-example-blocking-transaction.md
-                - name: Implementar uma política de devolução usando disparadores
+                - name: Implementar uma política de devolução usando gatilhos
                   href: dev-itpro/trigger-example-return-policy.md
+                - name: Eventos de extensão de log para o Application Insights
+                  href: dev-itpro/commerce-application-insights.md
             - name: Extensibilidade do comércio eletrônico
               items:
                 - name: Configurar lojas online
@@ -1382,7 +1384,7 @@
                   href: dev-itpro/order-attributes.md
                 - name: Atributos de clientes
                   href: dev-itpro/customer-attributes.md
-                - name: '​Retail Typescript e C# proxies'
+                - name: '​Proxies C# e Retail Typescript'
                   href: dev-itpro/typescript-proxy-retail-pos.md
                 - name: Executar os exemplos do Retail POS
                   href: dev-itpro/pos-run-samples.md
