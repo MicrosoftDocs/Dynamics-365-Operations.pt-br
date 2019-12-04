@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bdfd8ca5e4feb236bc1b4e88a4dd3817a07e8a3f
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 2a5da707069966ea0dac282b2a0b2074ec5a41ff
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570992"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812228"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Categorias do tipo de trabalho e tipos de trabalho de manutenção, grades do tipo de trabalho de manutenção, ofício do trabalho de manutenção e listas de verificação de manutenção
 
@@ -33,7 +33,7 @@ ms.locfileid: "2570992"
 
 Um tipo de ativo está associado a cada ativo. Os tipos de ativos definem os tipos de trabalho de manutenção (e portanto, os trabalhos de manutenção) que podem ser executados nos ativos. Ao criar uma ordem de serviço, você deve selecionar um tipo de trabalho de manutenção. Você pode selecionar somente os tipos de trabalho de manutenção relacionados à configuração do tipo de ativo usado para o ativo.
 
-Para obter uma visão geral gráfica dos ativos e dos tipos de trabalho de manutenção e sua conexão às ordens de serviço, consulte [Ativos e ordens de serviço](../overview/functional-locations-and-objects.md).
+Para obter uma visão geral gráfica dos ativos e dos tipos de trabalho de manutenção e sua conexão às ordens de serviço, consulte [Locais funcionais e ativos](../overview/functional-locations-and-objects.md).
 
 As grades do tipo de trabalho de manutenção podem ser configuradas em um tipo de trabalho de manutenção. As grades do tipo de trabalho de manutenção definem variações de um tipo de trabalho, como tamanho (pequeno, médio, grande) ou períodos (semanal, quinzenal, um mês, ou três meses) e as configurações (baixo padrão, flexível ou alto desempenho).
 

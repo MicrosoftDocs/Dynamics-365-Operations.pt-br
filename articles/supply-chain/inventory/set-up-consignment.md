@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 24500ff46cc77ca8fa59c0c16427d9f05f33a87e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 04b3fb3038a1373e203ec240a0163cf67de655cc
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549973"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813823"
 ---
 # <a name="set-up-consignment"></a>Configurando consignação
 
@@ -31,7 +31,7 @@ ms.locfileid: "1549973"
 
 Este tópico explica como configurar operações de estoque de entrada de consignação.
 
-Estoque em consignação é o estoque a que pertence a um fornecedor, mas está armazenado em seu site. Quando estiver pronto para consumir ou usar o estoque, você obterá sobre a propriedade de estoque. Este tópico descreve a configuração necessária habilitar processos de consignação. Para obter mais informações sobre processos de consignação, consulte [Consignação](consignment.md).
+Estoque em consignação é o estoque a que pertence a um fornecedor, mas está armazenado em seu site. Quando estiver pronto para consumir ou usar o estoque, você obterá sobre a propriedade de estoque. Este tópico descreve a configuração necessária habilitar processos de consignação. Para obter mais informações sobre processos de consignação, consulte [Configurar a consignação](consignment.md).
 
 ## <a name="inventory-owners"></a>Proprietários de estoque
 Para registrar o estoque físico de entrada em consignação, você precisa definir o proprietário do fornecedor. Isso é feito na página **Proprietário de estoque**. Quando você seleciona uma **Conta de fornecedor** isso gera valores padrão para os campos **Nome** e **Proprietário**. O valor no campo **Proprietário** ficará visível ao fornecedor, para que você possa alterá-lo se os nomes de contas do fornecedor não forem fáceis para os contatos externos reconhecerem. É possível editar o campo **Proprietário**, mas somente até o ponto em que você salvar o registro **Proprietário de estoque**. O campo **Nome** é preenchido com o nome do participante da conta do fornecedor está associada, e este não pode ser alterada.
@@ -49,4 +49,4 @@ O diário **Alteração de propriedade de estoque**é usado para registrar a tra
 [![inventory-ownership-change-journal](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Colaboração de fornecedor em processos de consignação
-Se os fornecedores serão usando a interface de colaboração de fornecedor, pode usar isso para monitorar o consumo de estoque no site. Para obter mais informações sobre fornecedores de configuração para usar a colaboração de fornecedor, [Configuração de segurança para usuários de colaboração de fornecedor](../procurement/configure-security-vendor-portal-users.md).
+Se os fornecedores serão usando a interface de colaboração de fornecedor, pode usar isso para monitorar o consumo de estoque no site. Para obter mais informações sobre como configurar fornecedores para usar a colaboração do fornecedor, consulte [Segurança do usuário no portal de fornecedor](../procurement/configure-security-vendor-portal-users.md).

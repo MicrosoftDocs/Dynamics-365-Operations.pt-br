@@ -1,5 +1,5 @@
 ---
-title: Criar, aprovar e lançar trabalhos no Attract
+title: Criar um trabalho no Attract
 description: Este tópico descreve os elementos de um trabalho no Attract. Ele também explica como criar um trabalho.
 author: hasrivas
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: db725c230de5e3dfe971098249b280d9da47ae20
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 9dcdbcea995285c879f91c0bff435103865cc10f
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551063"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832922"
 ---
-# <a name="create-approve-and-post-jobs-in-attract"></a>Criar, aprovar e lançar trabalhos no Attract
+# <a name="create-a-job-in-attract"></a>Criar um trabalho no Attract
 
 [!include [banner](includes/banner.md)]
 
@@ -49,7 +49,7 @@ Se o gerenciamento de cargos estiver ativado no Centro de administração, a pes
 > [!NOTE]
 > O gerenciamento de posições está disponível com o Complemento de Contratação Abrangente.
 
-Dependendo das configurações da atividade Oferta do processo de contratação, um número de posição pode ser usado duas vezes em uma oferta. Para obter mais informações, consulte [Processo de contratação](./activities-attract.md).
+Dependendo das configurações da atividade Oferta do processo de contratação, um número de posição pode ser usado duas vezes em uma oferta. Para obter mais informações, consulte [Atividades nos processos de contratação](./activities-attract.md).
 
 O Attract inclui um conjunto padrão de **Habilidades**. Essas habilidades aparecem como sugestões à medida que você digita. Você pode adicionar mais habilidades inserindo o novo texto de habilidades no campo e pressionando Enter.
 
@@ -67,7 +67,7 @@ A equipe de contratação pode ser atualizada após o trabalho ser ativado.
 
 As informações padrão sobre o processo de contratação se baseiam no modelo do processo que foi selecionado quando o trabalho foi criado. Se um modelo específico não foi selecionado naquele momento, o modelo padrão será usado. Ao definir o processo de contratação, você pode adicionar ou remover vários estágios, exceto os estágios Cliente potencial, Solicitação de Emprego e Oferta. Embora o estágio Cliente potencial não possa ser removido, ele pode ser desativado. Em cada estágio, você pode adicionar ou remover uma ou mais atividades predefinidas.
 
-Para obter mais informações sobre as atividades que podem ser adicionadas ao processo de contratação, consulte [Atividades do processo de contratação no Attract](./activities-attract.md).
+Para obter mais informações sobre as atividades que podem ser adicionadas ao processo de contratação, consulte [Atividades nos processos de contratação](./activities-attract.md).
 
 > [!NOTE]
 > O processo de contratação não pode ser atualizado após um trabalho ser ativado.
@@ -76,7 +76,7 @@ Para obter mais informações sobre as atividades que podem ser adicionadas ao p
 
 Após um trabalho ser ativado, ele poderá ser lançado. Somente os recrutadores e os administradores podem lançar trabalhos. O trabalho pode ser postado no Talent Careers (site de carreiras do Dynamics 365 Talent) ou no LinkedIn. A equipe do Attract trabalha continuamente para fazer parceria com os agregadores do quadro de trabalho. Essa lista se expandirá com o tempo. Quando um trabalho é lançado como somente interno, os candidatos precisam de uma conta do AAD para visualizar e se candidatar ao trabalho. Se o trabalho é listado como público, os candidatos podem visualizar e se candidatar ao trabalho usando todas as opções de autenticação. 
 
-Para obter mais informações sobre lançamentos de trabalho, consulte [Funcionalidade do site de carreiras no Attract](career-site.md).
+Para obter mais informações sobre lançamentos de trabalho, consulte [Configurar seu site de carreiras no Microsoft Dynamics 365 Talent - Attract](career-site.md).
 
 > [!NOTE]
 > A funcionalidade do lançamento de trabalho está disponível apenas com o Complemento de Contratação Abrangente para o Attract.
@@ -90,7 +90,7 @@ Depois que um trabalho é ativado, é possível lançá-lo . Os clientes potenci
 
 ## <a name="prospects-and-applicants"></a>Clientes potenciais e candidatos
 
-A opção para adicionar clientes potenciais a um trabalho é definida na [atividade Cliente potencial](./activities-attract.md#prospect-activity) no processo de contratação. Essa opção deve ser definida antes de você ativar o trabalho. Depois que um trabalho é ativado, os clientes potenciais e candidatos podem ser adicionados a ele.
+A opção para adicionar clientes potenciais a um trabalho é definida nas [Atividades nos processos de contratação](./activities-attract.md#prospect-activity) no processo de contratação. Essa opção deve ser definida antes de você ativar o trabalho. Depois que um trabalho é ativado, os clientes potenciais e candidatos podem ser adicionados a ele.
 
 ## <a name="approvals"></a>Aprovações
 

@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: shylaw
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8a6bd4e0a652c50a380b1ae3c2a40c8049a96b24
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: da7dd4c32b39c2bdd8c0cfcf2c9d71829ebef7f3
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183895"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773440"
 ---
 # <a name="cancel-a-customer-fiscal-document-brazil"></a>Cancelar uma nota fiscal do cliente (Brasil)
 
@@ -59,4 +59,4 @@ Você pode cancelar uma nota fiscal de cliente incorreta usando a página **Canc
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Cancelar uma nota fiscal de fornecedor](latam-bra-cancel-vendor-fiscal-documents.md)
+[ Cancelar notas fiscais do fornecedor](latam-bra-cancel-vendor-fiscal-documents.md)

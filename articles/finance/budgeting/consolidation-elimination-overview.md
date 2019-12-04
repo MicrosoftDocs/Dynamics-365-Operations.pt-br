@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 266c594fda1609e4efdc8cdcd79767d94b755187
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 566b1ecef3f9e540c651fe214accadcf32f4fbed
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188524"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772044"
 ---
 # <a name="consolidation-and-elimination-overview"></a>Visão geral de consolidação e da eliminação
 
@@ -87,6 +87,6 @@ A opção **Relatório financeiro** é a solução. As hierarquias da organizaç
 Ao usar a opção **Exportar saldos da empresa** para expandir uma instância e usando a opção **Consolidar com importação** em outra instância, é possível consolidar os dados.
 
 
-Para obter mais informações, consulte [Reavaliação atual em uma empresa de consolidação](../general-ledger/currency-revaluation-consolidation-company.md).
+Para obter mais informações, consulte [Reavaliação de moeda em uma empresa de consolidação](../general-ledger/currency-revaluation-consolidation-company.md).
 
 

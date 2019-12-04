@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 037d4971fe0a5a9d08f0ed20d2482b8feb9aa4f2
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 44d404aaafd124a5d5a9d92cac8add51f1ee846a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176424"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771975"
 ---
 # <a name="cost-element-dimensions"></a>Dimensões do elemento de custo
 
@@ -66,7 +66,7 @@ Há dois tipos de elementos de custo previsto: elementos de custo previsto e pri
 ## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>Dimensões de elemento de custo previsto e membros da dimensão do elemento de custo previsto
 Elementos de custo previsto são referidos como *dimensões de elemento de custo previsto*. Os valores de dimensão específicos são chamados de *membros da dimensão do elemento de custo previsto*. Por exemplo, você tem um gráfico. de E contracheques. estrutura de contas (COA) que é a base para seu relatório legal. Este COA é usado como a dimensão do elemento de custo previsto. Contas, as quais são elementos de custos principais, previsto são representadas como membros da dimensão do elemento de custo estimado na contabilização de custo previsto. A captura de tela a seguir mostra um exemplo de como contas a dimensão do elemento de custo previsto com as listas principais real como membros da dimensão do elemento de custo previsto. 
 
-[![cost-element-dimensions](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
+[![Captura de tela de Contas Principais como dimensão do elemento de custo](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
 
 ## <a name="import-cost-element-dimension-members-through-data-connectors"></a>Membros de custo previsto de dimensão de elemento de importação em dos conectores de dados
 Para facilitar o de instalação de membros da dimensão do elemento de custo estimado na contabilização de custo previsto, você pode usar os conectores de dados que são ou criados anteriormente a compilação personalizado para recuperar os elementos de custo previsto principais de um ou vários sistemas de origem.

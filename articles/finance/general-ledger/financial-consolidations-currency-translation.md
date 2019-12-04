@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 7b6b3cced92920ef5a253ca15793f26f244475fa
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a67e5e3aea33e874f225a6af606fc8cde2bdc6bf
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186592"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771836"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Visão geral de consolidações financeiras e conversão de moeda
 
@@ -75,7 +75,7 @@ Na estrutura organizacional anterior, você deve ter uma entidade legal para a c
 
 Ao criar a entidade legal, você pode especificar se a empresa é usada para o processo de consolidação e o processo de eliminação ou para apenas um desses processos. Na ilustração a seguir, a empresa é usada para ambos os processos. Observe que você não pode lançar diários em uma empresa de consolidação, mas pode publicá-los em uma empresa de eliminação. Portanto, você pode querer ter uma empresa de eliminação separada.
 
-![Entidade legal usada para consolidação e eliminação](./media/sep-elimination-company.png "Entidade legal usada para consolidação e eliminação")
+![Entidade legal usada para a consolidação e eliminação](./media/sep-elimination-company.png "Entidade legal usada para a consolidação e alienação")
 
 ## <a name="main-accounts-and-consolidation-account-groups"></a>Contas principais e grupos de contas de consolidação
 É preciso escolher como deseja consolidar seu plano de contas. Durante o processo de consolidação, você tem três opções para consolidar as contas principais.
@@ -91,7 +91,7 @@ A terceira opção é usar grupos de contas de consolidação. Você pode defini
 ![Mapeamento na página Contas de consolidação adicionais](./media/additional-consolidation-accounts.png "Mapeamento na página Contas de consolidação adicionais")
 
 ## <a name="consolidating-online"></a>Consolidação online
-Para saber como inserir detalhes de consolidações online, consulte [Consolidar online](./consolidate-online.md).
+Para saber como inserir detalhes de consolidações online, consulte [Consolidações financeiras online](./consolidate-online.md).
 
 ## <a name="managing-consolidation-transactions"></a>Gerenciamento de transações de consolidação
 Para exibir os resultados da consolidação, você tem várias opções:
@@ -120,7 +120,7 @@ Você pode encontrar a configuração para as eliminações na área **Configura
 
 Você pode definir a data em que a regra de eliminação entra em vigor e a data em que ela expira, conforme necessário. Se quiser que a regra de eliminação esteja disponível no processo de proposta de eliminação, você deve definir a opção **Ativo** como **Sim**. Selecione um nome de diário do tipo **Eliminação**.
 
-![Propriedades básicas de uma regra de eliminação](./media/ledger-elimination-rule-journal.png "Propriedades básicas de uma regra de eliminação")
+![Propriedades básicas de uma regra de eliminação](./media/ledger-elimination-rule-journal.png "Propriedades básicas de uma regra de alienação")
 
 Após a definição das propriedades básicas, selecione **Linhas** para definir as regras de processamento reais. Há duas opções para eliminações: eliminar o valor líquido de modificação ou definir um valor fixo.
 
@@ -128,7 +128,7 @@ Selecione as contas de origem. Você pode usar asterisco (\*) como um caractere 
 
 Após a seleção das contas de origem, use o campo **Especificação da conta** para especificar a conta usada na empresa de destino. Selecione **Origem** para usar a mesma conta principal definida na conta de origem. Se você selecionar **Definido pelo usuário**, deverá especificar a conta de destino.
 
-![Página Linha da regra de eliminação do razão](./media/ledger-elimination-rule-line.png "Página Linha da regra de eliminação do razão")
+![Página Linha de regra de eliminação do razão](./media/ledger-elimination-rule-line.png "Página Linha de regra de eliminação do razão")
 
 O campo **Especificação da dimensão** funciona como o campo **Especificação da conta**. Selecione **Origem** para usar as mesmas dimensões da empresa de destino e da empresa de origem. Se você selecionar **Definido pelo usuário**, será necessário especificar as dimensões da empresa de destino, selecionando **Dimensões de destino**. Depois selecione as dimensões de origem e as dimensões financeiras e os valores usados como a fonte de eliminação.
 

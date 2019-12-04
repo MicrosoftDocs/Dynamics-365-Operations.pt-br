@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14a73f49064911a2b28c742cfc19469f4bf95e74
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: b77605070387871335c480e25cbe23af1155d6e8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2569952"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812159"
 ---
 # <a name="asset-manufacturers-and-models"></a>Fabricantes e modelos de ativo
 
@@ -45,7 +45,7 @@ Este tópico explica como configurar fabricantes de ativo e modelos relacionados
 8. No campo **Tipo de ativo**, selecione o tipo de ativo ao qual o modelo do fabricante deve estar relacionado.
 
     > [!NOTE]
-    > Você também pode configurar relações para tipos, fabricantes e modelos de ativo na pesquisa **Tipos de ativo**. Para saber mais, consulte [Criar um tipo de ativo](../setup-for-objects/object-types.md).
+    > Você também pode configurar relações para tipos, fabricantes e modelos de ativo na pesquisa **Tipos de ativo**. Para saber mais, consulte [Tipos de ativo](../setup-for-objects/object-types.md).
 
     Na Guia Rápida **Detalhes**, o campo **Modelos** mostra o número de modelos de ativo configurados no fabricante do ativo selecionado. O campo **Ativos** mostra o número de ativos que usam o fabricante selecionado.
     

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 167afa70bfa35b966081709f1587d61d401d318f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 23a4cff85bb5c9d119f9ec47e8421aa1964a3d4f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184338"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769601"
 ---
 # <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>Práticas recomendadas para importar vouchers usando a entidade Diário geral
 
@@ -57,7 +57,7 @@ As seções a seguir descrevem o efeito dessas configurações e também explica
 
 ### <a name="voucher-number"></a>Número do comprovante
 
-- Quando você usa a configuração **Processamento baseado em conjunto** na entidade Diário geral, o número do comprovante deve ser fornecido no arquivo importado. Todas as transações no diário geral são atribuída ao número do comprovante que é fornecido no arquivo importado, mesmo se o comprovante não for balanceado. Se você deseja usar o processamento baseado em conjunto, mas você também deseja usar a sequência numérica que é definida para números de comprovante, um hotfix foi fornecido para a versão de fevereiro de 2016. O número do hotfix é 3170316 e está disponível para download a partir do Lifecycle Services (LCS). Para obter mais informações, consulte [Baixar hotfixes do Lifecycle Services](../migration-upgrade/download-hotfix-lcs.md).
+- Quando você usa a configuração **Processamento baseado em conjunto** na entidade Diário geral, o número do comprovante deve ser fornecido no arquivo importado. Todas as transações no diário geral são atribuída ao número do comprovante que é fornecido no arquivo importado, mesmo se o comprovante não for balanceado. Se você deseja usar o processamento baseado em conjunto, mas você também deseja usar a sequência numérica que é definida para números de comprovante, um hotfix foi fornecido para a versão de fevereiro de 2016. O número do hotfix é 3170316 e está disponível para download a partir do Lifecycle Services (LCS). Para obter mais informações, consulte [Baixar atualizações do Lifecycle Services (LCS)](../migration-upgrade/download-hotfix-lcs.md).
 
     - Para habilitar essa funcionalidade, no nome do diário usado para importações, defina **Alocação de número no lançamento** para **Sim**.
     - Um número de comprovante ainda deve ser definido no arquivo importado. No entanto, esse número é temporário e é substituído pelo número do comprovante quando o diário é lançado. Você deve certificar-se de que as linhas do diário são agrupadas corretamente por número de comprovante temporário. Por exemplo, durante a postagem, é constatado que três linhas possuem um voucher temporário. O número de voucher temporário de todas as três linhas é substituído pelo número seguinte na sequência de números. Se essas três linhas não são uma entrada equilibrada, o comprovante não foi publicado. Em seguida, se linhas forem encontradas que possuem um número de comprovante temporário 2, esse número será substituído pelo próximo número de comprovante na sequência numérica e assim por diante.

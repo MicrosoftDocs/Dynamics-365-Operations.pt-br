@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 578aa96de28758a4dfff9f8c5f7782705ddd5f70
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 65c5702514a3bc9fe943959fd4ca032eb19bfe4c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556037"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814435"
 ---
 # <a name="set-up-consignment"></a>Configurar consignação
 
@@ -97,7 +97,7 @@ O diário **Alteração de propriedade de estoque**é usado para registrar a tra
 [![inventory-ownership-change-journal](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Colaboração de fornecedor em processos de consignação
-Se os fornecedores serão usando a interface de colaboração de fornecedor, pode usar isso para monitorar o consumo de estoque no site. Para obter mais informações sobre fornecedores de configuração para usar a colaboração de fornecedor, [Configuração de segurança para usuários de colaboração de fornecedor](../procurement/configure-security-vendor-portal-users.md).
+Se os fornecedores serão usando a interface de colaboração de fornecedor, pode usar isso para monitorar o consumo de estoque no site. Para obter mais informações sobre como configurar fornecedores para usar a colaboração do fornecedor, consulte [Segurança do usuário no portal de fornecedor](../procurement/configure-security-vendor-portal-users.md).
 
 
 

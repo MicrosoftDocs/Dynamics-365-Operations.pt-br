@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 902db94164b35077a876c8041c038af36561a634
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 2e44770af4a30f539e56d38b21c897cacd2707e7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025762"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812330"
 ---
 # <a name="call-center-sales-functionality"></a>Funcionalidade de vendas do call center
 
@@ -44,17 +44,17 @@ Esta página fornece links para a documentação relevante relacionada à instal
 
 ## <a name="configure-the-call-center"></a>Configurar o call center
 
-[Configurar opções de processamento de ordens](set-up-order-processing-options.md)
+[Configurar canais de call center](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a>Configurar processamento de ordem
 
-[Configurar alertas de fraude](set-up-fraud-alerts.md)
+[Configurar e trabalhar com alertas de fraude de call center](set-up-fraud-alerts.md)
 
-[Pendências de ordem manual](work-with-order-holds.md)
+[Configurar e trabalhar com bloqueios de ordem do call center](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a>Configurar processamento de pagamento
 
-[Métodos de pagamento em um call center](work-with-payments.md)
+[Meios de pagamento nos call centers](work-with-payments.md)
 
 ## <a name="configure-delivery-modes"></a>Configurar modos de entrega
 
@@ -64,8 +64,8 @@ Esta página fornece links para a documentação relevante relacionada à instal
 
 [Catálogos do call center](call-center-catalogs.md)
 
-[Configurar análise RFM](set-up-rfm-analysis.md)
+[Configurar análise de Recency, frequência e valor monetário (RFM)](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a>Configurar programas de continuidade
 
-[Configurar um programa de continuidade para um call center](set-up-continuity-program.md)
+[Configurar programas de continuidade para call centers](set-up-continuity-program.md)

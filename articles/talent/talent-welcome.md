@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: edc2f59752a32b9cd20902d0b7a1edfe3ba4d15b
-ms.sourcegitcommit: ff160a9f9879f3ec015ffef11fbc8b7c1b84a59d
+ms.openlocfilehash: 841ef8f2b7c319e0a6b3a9ce9a9e4959e70aa8cd
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552941"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812755"
 ---
 # <a name="welcome-to-dynamics-365-talent"></a>Bem-vindo ao Dynamics 365 Talent
 
@@ -56,7 +56,7 @@ Ao trabalhar com o Talent, você decide como estruturar sua organização usando
 -   [Configurar parâmetros de RH específicos da empresa](set-up-company-specific-hr-parameters.md)
 -   [Configurar parâmetros de RH entre entidades legais](set-up-hr-parameters-across-legal-entities.md) 
 -   [Perguntas frequentes sobre ações de pessoal](personnel-actions-faq.md)
--   [Visão geral de licença e ausência](leave-absence-overview.md)
+-   [Gerenciamento de licenças e ausências](leave-absence-overview.md)
 -   [Como usar o Dynamics 365 Talent: Licenças e ausências (vídeo)](https://www.youtube.com/watch?v=1q1UhKmO4tw)
 -   [Como gerenciar funcionários no Dynamics 365 Talent (vídeo)](https://www.youtube.com/watch?v=h1T5IjKKAuA)
 
@@ -64,8 +64,8 @@ Ao trabalhar com o Talent, você decide como estruturar sua organização usando
 
 O Talent inclui o Attract, que pode ajudá-lo a identificar, entrevistar e contratar os candidatos que tenham as habilidades de que sua organização precisa. Ao passar do recrutamento para a contratação, o aplicativo Onboard pode ajudá-lo a integrar o funcionário à organização definindo expectativas precisas, fornecendo as informações de que ele precisa para começar, conectando-o aos colegas e preparando-o para o sucesso em sua nova função.  
 
-- [Visão geral do Attract](attract-overview.md)
-- [Visão geral do Onboard](create-onboarding-experience.md)
+- [Microsoft Dynamics 365 Talent — Recursos e funcionalidades do Attract](attract-overview.md)
+- [Introdução ao Onboard](create-onboarding-experience.md)
 
 ## <a name="retain-and-motivate-employees"></a>Reter e motivar funcionários
 
@@ -82,15 +82,15 @@ O Talent inclui o Attract, que pode ajudá-lo a identificar, entrevistar e contr
 Para ajudar os funcionários a atingir seus objetivos de carreira e, ao mesmo tempo, atender necessidades comerciais críticas, você pode configurar metas, criar avaliações de desempenho e acompanhar comentários. Para ajudar os funcionários a desenvolver as habilidades necessárias, você também pode configurar instrutores, tipos de cursos, cursos, descrições do curso, agendas, acompanhamentos e sessões antes de atribuir um instrutor a um curso ou inscrever alguém em um curso. Os instrutores já devem existir como trabalhadores, candidatos ou contatos.
 
 -   [Gerenciamento de desempenho](performance-management-overview.md)
--   [Alinhar habilidades da força de trabalho e necessidades do negócio](skills.md)
--   [Administrar treinamento por meio de cursos](courses.md)
+-   [Alinhar habilidades da força de trabalho com as necessidades dos negócios](skills.md)
+-   [Configurar cursos de treinamento](courses.md)
 -   [Como gerenciar o desenvolvimento de funcionários no Dynamics 365 Talent (vídeo)](https://www.youtube.com/watch?v=xB8SU7fqBOQ)
 
 ## <a name="create-and-maintain-benefits"></a>Criar e manter benefícios
 
 Além de remunerar sua equipe com salários e bônus, você pode desenvolver programas de benefícios, como seguro de saúde e planos de aposentadoria. Você também pode gerenciar benefícios, como programas de empréstimo, nos quais sua empresa empresta itens, como computadores ou telefones, a seus funcionários.
 
--   [Gerenciar um programa de benefícios](manage-benefit-program.md)
+-   [Definir e gerenciar um programa de benefícios](manage-benefit-program.md)
 -   [Políticas de qualificação para benefícios](benefit-eligibility-policies.md)
 -   [Gerenciar itens emprestados aos trabalhadores](loan-items.md)
 -   [Como gerenciar benefícios de funcionários no Dynamics 365 Talent (vídeo)](https://www.youtube.com/watch?v=nUWkeJTad1o)
@@ -107,6 +107,6 @@ O Talent pode ajudar você a manter um ambiente de trabalho seguro em conformida
 Você pode criar e administrar questionários para coletar informações usadas para vários objetivos. O recurso Questionário permite projetar e criar questionários. Quando um questionário está pronto, você o distribui de forma ampla ou para um conjunto específico de entrevistados para preenchimento. Depois que os entrevistados fornecerem as respostas, você poderá rever e analisar os resultados.
 
 -   [Questionários](questionnaires.md)
--   [Criar um questionário](design-questionnaires.md)
--   [Distribuir e preencher um questionário](distribute-questionnaires.md)
--   [Exibir e avaliar os resultados de um questionário](evaluate-questionnaire-results.md)
+-   [Criar questionário](design-questionnaires.md)
+-   [Distribuir e agendar questionários](distribute-questionnaires.md)
+-   [Exibir e avaliar os resultados de questionários](evaluate-questionnaire-results.md)

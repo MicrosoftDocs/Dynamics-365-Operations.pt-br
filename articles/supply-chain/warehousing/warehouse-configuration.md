@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54d6c432907b1b75307c56d3876c8b390d5ff376
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: aa503f2ce3ae8ff6b221ea1d26a1c62d0ba37646
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653409"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814895"
 ---
 # <a name="warehouse-configuration-overview"></a>Visão geral da configuração de depósito
 
@@ -31,7 +31,8 @@ ms.locfileid: "2653409"
 
 Este artigo explica como configurar um depósito. Ele inclui informações sobre como habilitar um layout de depósito e processos de depósito.
 
-**Observação:** Este artigo se aplica aos recursos no módulo de **Gerenciamento de depósito** (estoque avançado). Não se aplica aos recursos de depósito no módulo de **Gerenciamento de depósito**.
+> [!NOTE]
+> Este artigo se aplica aos recursos no módulo **Gerenciamento de depósito** (armazenagem avançada). Não se aplica aos recursos de depósito no módulo de **Gerenciamento de depósito**.
 
 ## <a name="warehouse-layout"></a>Layout do depósito
 O sistema de gerenciamento de depósito no Supply Chain Management proporciona uma maneira flexível de definir o layout de depósito para atender às necessidades em constante mudança, de forma que você possa obter máxima eficiência de depósito.
@@ -114,7 +115,7 @@ Para facilitar e agilizar a definição de ações associadas a cada linha de di
 <a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Configurar localizações em um depósito habilitado para WMS (guia de tarefas)](tasks/configure-locations-wms-enabled-warehouse.md)
+[Configurar localizações em um depósito habilitado para WMS](tasks/configure-locations-wms-enabled-warehouse.md)
 
 
 

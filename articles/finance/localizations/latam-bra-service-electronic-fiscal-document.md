@@ -18,12 +18,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 01e768bbf8b529cba74d96fa144a3ffe12f5a7bb
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: d0ee14c8fcbb2b4f30142f28dc4a262a3909ed8c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552347"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772831"
 ---
 # <a name="service-electronic-fiscal-document-for-brazil"></a>Nota fiscal eletrônica para serviços do Brasil
 
@@ -32,7 +32,6 @@ ms.locfileid: "2552347"
 Este tópico oferece uma visão geral da nota fiscal eletrônica de serviço.
 
 Quando uma nota fiscal for sobre serviços no Brasil, regras diferentes serão aplicadas a uma nota fiscal eletrônica comum. O modelo de uma nota fiscal de serviços no Brasil é SE e inclui os impostos ISS, PIS e COFINS. 
-[![Documento fiscal de serviço](./media/ServiceFiscalDocument.png)](./media/ServiceFiscalDocument.png) 
 
 ## <a name="recibo-provisorio-de-servicos-rps-document"></a>Documento RPS (Recibo Provisório de Serviços)
 Quando uma empresa emite uma nota fiscal de serviço, dependendo da cidade na qual a fatura foi emitida, alguma regras e formatos podem ser aplicados. Por exemplo, na cidade de São Paulo, a nota fiscal de serviço é emitida como uma fatura de serviço temporária ou RPS. Esse documento torna-se uma nota fiscal eletrônica de serviço oficial quando ele é aprovado pela autoridade fiscal da cidade. Depois de aprovada, a empresa emite uma nota fiscal eletrônica de serviço oficial.

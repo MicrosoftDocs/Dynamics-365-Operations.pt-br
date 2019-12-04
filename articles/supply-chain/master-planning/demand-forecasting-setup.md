@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c689df9b00ad2d4ce161c6fdb1193f48cacbfcbc
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 048b0e8e57211893cae538fae20e87186399dd38
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653502"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813790"
 ---
 # <a name="demand-forecasting-setup"></a>Configuração da previsão de demanda
 
@@ -70,7 +70,8 @@ Para gerar a previsão, o Supply Chain Management usa um serviço Web de Aprendi
 -   Nome da conta de armazenamento do Azure
 -   Chave da conta de armazenamento do Azure
 
-**Observação:** o nome e a chave da conta de armazenamento do Azure serão necessários apenas se você usar uma conta de armazenamento personalizada. Se você implantar a versão local, deverá ter uma conta de armazenamento personalizada no Azure, para que o serviço de Aprendizado de Máquina acesse os dados históricos. 
+> [!NOTE]
+> O nome e a chave da conta de armazenamento do Azure serão necessários apenas se você usar uma conta de armazenamento personalizada. Se você implantar a versão local, deverá ter uma conta de armazenamento personalizada no Azure, para que o serviço de Aprendizado de Máquina acesse os dados históricos. 
 
 Para criar previsões de demanda, você pode implantar seu próprio serviço usando os experimentos de previsão de demanda do Estúdio de Aprendizado de Máquina ou do Supply Chain Management. As instruções para implantar os experimentos de previsão de demanda como um serviço Web estão disponíveis no Supply Chain Management. Na página **Parâmetros de previsão de demanda**, clique na guia **Aprendizado de Máquina do Azure**.
 
@@ -93,11 +94,11 @@ Na guia **Chaves de alocação**, você pode definir **Prever parâmetros de alg
 <a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Introdução à previsão de demanda](introduction-demand-forecasting.md)
+[Visão geral da previsão de demanda](introduction-demand-forecasting.md)
 
-[Gerando uma previsão estatística](generate-statistical-baseline-forecast.md)
+[​Gerar uma previsão estatística​](generate-statistical-baseline-forecast.md)
 
-[Ajustes manuais na previsão estatística](manual-adjustments-baseline-forecast.md)
+[Faça ajustes manuais para a previsão estatística](manual-adjustments-baseline-forecast.md)
 
 
 

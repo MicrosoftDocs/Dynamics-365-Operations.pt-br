@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c78fc1f2f1bb08d01828a8b71ad5d3c16ad31b86
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: 98c84e987c40adf136d0240117f7b0f119bf2f59
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278362"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811108"
 ---
 # <a name="product-recommendations-on-pos"></a>Recomendações de produtos no PDV
 
@@ -40,13 +40,13 @@ As recomendações de produtos são habilitadas para os seguintes cenários de P
 
 1. Na página **Detalhes de produto**:
 
-    - • Se um associado da loja acessa uma página de **Detalhes de produto** ao procurar por transações anteriores entre diferentes canais, o serviço de recomendações sugere itens adicionais que provavelmente podem ser comprados juntos.
+    - Se um associado da loja acessa uma página de **Detalhes de produto** ao procurar por transações anteriores entre diferentes canais, o serviço de recomendações sugere itens adicionais que provavelmente podem ser comprados juntos.
 
     [![Recomendações na página Detalhes do produto](./media/proddetails.png)](./media/proddetails.png)
 
 2. Na página **Transação**:
 
-    - • O mecanismo de recomendação sugere itens com base na lista de itens inteira na cesta que são comprados juntos com frequência.
+    - O mecanismo de recomendação sugere itens com base na lista de itens inteira na cesta que são comprados juntos com frequência.
 
     > [!NOTE]
     > Para exibir recomendações na página **Transação**, o varejista precisa atualizar o layout da tela no Dynamics 365 for Retail. O controle das **Recomendações** deve ser colocado na página de **Transação**.
@@ -69,10 +69,12 @@ Para configurar as recomendações de produtos, siga estas etapas:
 
 - Navegue até **Parâmetros de Varejo** \> **Listas de recomendação** \> **Desabilitar recomendações de produtos** e execute **Trabalho de configuração global \[9999\]**. 
 - Se você adicionou o **Controle de recomendações** à sua tela de transação usando o **Designer do layout da tela**, remova-o também.
-- Se tiver outras dúvidas, confira as [Perguntas frequentes sobre recomendações](../commerce/faq-recommendations.md) para obter mais informações.
+- Se tiver outras dúvidas, confira as [Perguntas frequentes sobre recomendações do produto](../commerce/faq-recommendations.md) para obter mais informações.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Adicionar um controle de recomendações à página de transação em um dispositivo de PDV](add-recommendations-control-pos-screen.md)
+[Adicionar um controle de recomendações à tela de transação em dispositivos do PDV](add-recommendations-control-pos-screen.md)
+
 [Visão geral de recomendações de produtos](../commerce/product-recommendations.md)
+
 [Habilitar recomendações de produtos](../commerce/enable-product-recommendations.md) 

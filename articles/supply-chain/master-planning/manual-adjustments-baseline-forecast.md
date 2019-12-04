@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df9692dc168e9efb653b20c677cd6e3bb0bd8756
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 8897e0fe01e7ed5af9a8d5b99de6b9b4506554f1
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250705"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815125"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Faça ajustes manuais para a previsão estatística
 
@@ -66,7 +66,7 @@ A página **Detalhes de previsão de demanda** mostra as seguintes informações
 -   Os novos valores de previsão de demanda e os valores que serviram de base para o ajuste manual.
 -   O intervalo de confiança dos valores previstos.
 -   O modelo de previsão usado para gerar a previsão. Se você estiver exibindo dados agregados, verá a lista de todos os métodos usados em todas as séries de tempo agregada.
--   A precisão do modelo interno (MAPE). Para obter mais informações sobre a precisão da precisão, consulte [Monitorando a precisão da previsão](monitor-forecast-accuracy.md).
+-   A precisão do modelo interno (MAPE). Para obter mais informações sobre a precisão da previsão, consulte [Monitorar a precisão da previsão](monitor-forecast-accuracy.md).
 
 **Observações:**
 
@@ -78,9 +78,9 @@ Você também pode fazer ajustes manuais na previsão na página **Detalhes de p
 <a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Monitorando a precisão da previsão](monitor-forecast-accuracy.md)
+[​Monitorar precisão da previsão​](monitor-forecast-accuracy.md)
 
-[Gerando uma previsão estatística](generate-statistical-baseline-forecast.md)
+[​Gerar uma previsão estatística​](generate-statistical-baseline-forecast.md)
 
 
 

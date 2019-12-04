@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b09d09464eae932bf9caf4f2ea38cbbb3b4f0162
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d4032d5e56b9dd014ec0472abfc1b2ad4a15ff1d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190203"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811372"
 ---
 # <a name="configure-approval-processes-in-a-workflow"></a>Configurar processos de aprovação em um fluxo de trabalho
 
@@ -182,4 +182,4 @@ Um processo de aprovação consiste em etapas de aprovação. Conclua o procedim
 
 1. No editor de fluxo de trabalho, clique duas vezes no processo de aprovação. O editor de fluxo de trabalho exibe as etapas do processo de aprovação.
 2. Para adicionar uma etapa de aprovação, arraste-a da área **Elementos de fluxo de trabalho** para a tela.
-3. Para configurar uma etapa de aprovação, consulte [Configurar uma etapa de aprovação](configure-approval-step-workflow.md).
+3. Para configurar uma etapa de aprovação, consulte [Configurar etapas de aprovação em um fluxo de trabalho](configure-approval-step-workflow.md).

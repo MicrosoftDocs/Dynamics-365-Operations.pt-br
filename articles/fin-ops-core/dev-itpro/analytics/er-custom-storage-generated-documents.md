@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f65118b6a7393ced9d80c30fad7540a7b27da6c7
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 2c7ee610c6e3c446a4bcc9d6d46ca72dd71cb23c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2569075"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771389"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Especificar um local de armazenamento personalizado para os documentos gerados
 
@@ -54,7 +54,7 @@ Na topologia atual, [crie um novo formato de ER](tasks/er-format-configuration-2
 
 ## <a name="create-a-new-document-type"></a>Criar um novo tipo de documento
 
-Para especificar como os documentos gerados por um formato ER são roteados, você deve configurar [destinos de ER](electronic-reporting-destinations.md). Em cada destino de ER configurado para armazenar documentos gerados como arquivos, você deve especificar um tipo de documento da estrutura de gerenciamento de documentos. Diferentes tipos de documentos podem ser usados para rotear documentos gerados por diferentes formatos ER.
+Para especificar como os documentos gerados por um formato ER são roteados, você deverá configurar [destinos de ER (Relatórios eletrônicos)](electronic-reporting-destinations.md). Em cada destino de ER configurado para armazenar documentos gerados como arquivos, você deve especificar um tipo de documento da estrutura de gerenciamento de documentos. Diferentes tipos de documentos podem ser usados para rotear documentos gerados por diferentes formatos ER.
 
 1. Adicionar um novo [tipo de documento](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) para o formato ER que você criou ou importou anteriormente. Na ilustração a seguir, o tipo de documento é **FileX**.
 2. Para diferenciar esse tipo de documento de outros tipos de documentos, inclua uma palavra-chave específica em seu nome. Por exemplo, na ilustração a seguir, o nome é **Pasta (LOCAL)**.
@@ -173,5 +173,5 @@ O evento **AttachingFile()** é gerado quando os seguintes destinos de ER são p
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-- [Destinos de Relatório eletrônico](electronic-reporting-destinations.md)
+- [Destinos de relatório eletrônico (ER)](electronic-reporting-destinations.md)
 - [Home page da extensibilidade](../extensibility/extensibility-home-page.md)

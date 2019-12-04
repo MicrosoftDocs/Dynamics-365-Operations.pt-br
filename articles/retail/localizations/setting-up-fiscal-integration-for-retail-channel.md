@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: fda94e77480b9d9455fc0e214e43772ab2921f2d
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: a987e75834ddde486421a425a621e66f0b6e063f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577891"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811156"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Configurar a integração fiscal para canais de varejo
 
@@ -210,7 +210,7 @@ As opções de tratamento de erros disponíveis na integração fiscal são defi
 
 Para permitir que os relatórios fiscais X/Z sejam executados a partir do PDV, você deve adicionar novos botões a um layout de PDV.
 
-- Na página **Grades de botões**, siga as instruções em [Adicionar um botão de operação personalizada ao layout do PDV na sede do varejo](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) para instalar o designer e atualizar um layout de PDV.
+- Na página **Grades de botões**, siga as instruções em [Adicionar operações de PDV a layouts de PDV usando um Designer de grade de botões](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) para instalar o designer e atualizar um layout de PDV.
 
     1. Selecione o layout para atualizar. 
     2. Adicione um novo botão e defina a propriedade do botão **Leitura X**.
@@ -221,7 +221,7 @@ Para permitir que os relatórios fiscais X/Z sejam executados a partir do PDV, v
 
 Para habilitar a execução manual de um registro fiscal adiado, você deve adicionar um novo botão a um layout do PDV.
 
-- Na página **Grades de botões**, siga as instruções em [Adicionar um botão de operação personalizada ao layout do PDV na sede do varejo](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) para instalar o designer e atualizar um layout de PDV.
+- Na página **Grades de botões**, siga as instruções em [Adicionar operações de PDV a layouts de PDV usando um Designer de grade de botões](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) para instalar o designer e atualizar um layout de PDV.
 
     1. Selecione o layout para atualizar.
     2. Adicione um novo botão e defina a propriedade do botão **Concluir processo de registro fiscal**.

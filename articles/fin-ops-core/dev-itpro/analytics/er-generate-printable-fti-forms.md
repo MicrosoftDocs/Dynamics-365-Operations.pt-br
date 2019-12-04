@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 731b6a61bd78388f3db0a7007478e3a5e9629a49
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0bb817de583c231aa55fa81b9e28d788505e0a1f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181418"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771274"
 ---
 # <a name="generate-printable-fti-forms"></a>Gerar formulários de FTI imprimíveis
 
@@ -41,7 +41,7 @@ Além da capacidade existente de gerar formulários de FTI imprimíveis usando o
 Como parte de suas soluções personalizadas para formulários de FTI imprimíveis, você deve criar um conjunto de configurações de ER.
 
 ### <a name="configure-the-er-data-model"></a>Configurar o modelo de dados de ER
-Seu aplicativo deve incluir o modelo de dados de ER contendo um modelo de dados que descreva o domínio comercial do faturamento do cliente. Como requisito, o nome do modelo de dados deve ser **CustomersInvoicing**. Para obter informações sobre como criar modelos de dados de ER, consulte [Criar um modelo de dados de domínio específico para relatório eletrônico (ER)](tasks/er-design-domain-specific-data-model-2016-11.md).
+Seu aplicativo deve incluir o modelo de dados de ER contendo um modelo de dados que descreva o domínio comercial do faturamento do cliente. Como requisito, o nome do modelo de dados deve ser **CustomersInvoicing**. Para obter informações sobre como criar modelos de dados de ER, consulte [ER Criar modelo de dados de domínio específico](tasks/er-design-domain-specific-data-model-2016-11.md).
 
 ### <a name="configure-the-er-model-mapping"></a>Configurar o mapeamento de modelo de ER
 Seu aplicativo deve incluir o mapeamento de ER do modelo de dados CustomersInvoicing. O mapeamento de modelo pode estar na configuração do modelo de dados de ER ou na configuração de mapeamento de ER. Contudo, o nome do descritor raiz do mapeamento de modelo deve ser **FreeTextInvoice**.
@@ -62,7 +62,7 @@ O mapeamento deve conter as seguintes fontes de dados:
 
 Os detalhes da integração de aplicativo com a estrutura de ER podem ser encontrados na classe **ERPrintMgmtReportFormatSubscriber** (modelo de integração do pacote de aplicativos de ER) no código-fonte do aplicativo.
 
-Para obter mais informações sobre a criação de mapeamentos de modelo de ER, consulte [Definir o mapeamento de modelo e selecionar fontes de dados para relatório eletrônico (ER)](tasks/er-define-model-mapping-select-data-sources-2016-11.md).
+Para obter mais informações sobre a criação de mapeamentos de modelo de ER, consulte [Definir mapeamentos de modelos de ER e selecionar fontes de dados para eles](tasks/er-define-model-mapping-select-data-sources-2016-11.md).
 
 ### <a name="configure-the-er-format"></a>Configurar o formato de ER
 Na instância do seu aplicativo, você deve ter a configuração de formato de ER que será usada para gerar formulários de FTI. 
@@ -70,7 +70,7 @@ Na instância do seu aplicativo, você deve ter a configuração de formato de E
 > [!NOTE]
 > Essa configuração de formato deve ser criada para o modelo de dados CustomersInvoicing e deve usar o mapeamento de modelo com o descritor raiz **FreeTextInvoice**.
 
-Para obter informações sobre como configurar formatos de ER, consulte [Criar uma configuração de formato para relatório eletrônico (ER)](tasks/er-format-configuration-2016-11.md). Para obter informações sobre como criar formatos de ER para gerar relatórios no formato OpenXML, consulte [Criar uma configuração para gerar relatórios no formato OpenXML para relatório eletrônico (ER)](tasks/er-design-reports-openxml-2016-11.md).
+Para obter informações sobre como configurar formatos de ER, consulte [ER Criar uma configuração de formato (novembro de 2016)](tasks/er-format-configuration-2016-11.md). Para obter informações sobre como criar formatos de ER para gerar relatórios no formato OpenXML, consulte [ER Criar uma configuração para gerar relatórios no formato OPENXML (novembro de 2016)](tasks/er-design-reports-openxml-2016-11.md).
 
 ## <a name="configure-print-management"></a>Configurar gerenciamento de impressão
 Para gerar formulários de FTI usando a estrutura de ER, você pode atribuir os formatos de ER da mesma forma que você atribui relatórios de SSRS. Para associar o formato de ER a todos os FTIs de contas a receber, acesse **Contas a receber** \> **Configuração** \> **Formulários** \> **Configuração de formulário** \> **Geral** \> **Gerenciamento de impressão** \> **Fatura de texto livre** \> **Original**. Para associar o formato de ER a um cliente ou fatura específicos, siga estas etapas:
@@ -94,7 +94,7 @@ Para gerar formulários de FTI, você pode selecionar faturas por intervalo ou p
 
 ![Visualização de fatura](media/FTIbyGER-InvoiceExcelPreview.png)
 
-Quando você usa formatos de ER para imprimir formulários de FTI dessa forma, os destinos padrão do arquivo de ER são usados. Você não pode alterar o destino. Para obter mais informações sobre como configurar os destinos de ER para formatos de ER, consulte [Destinos de relatório eletrônico](electronic-reporting-destinations.md).
+Quando você usa formatos de ER para imprimir formulários de FTI dessa forma, os destinos padrão do arquivo de ER são usados. Você não pode alterar o destino. Para obter mais informações sobre como configurar os destinos de ER para formatos de ER, consulte [Destinos de ER (Relatórios eletrônicos)](electronic-reporting-destinations.md).
 
 Você também pode gerar formulários de FTI ao lançar um FTI, ativando **Imprimir fatura** e desativando **Usar os destinos do gerenciamento de impressão**.
 
@@ -224,4 +224,4 @@ A expressão **Emailing.TxtToUse.Body** do exemplo do formato está configurada 
 ![Email](media/FTIbyGER-Email.PNG)
 
 ## <a name="additional-resources"></a>Recursos adicionais
-[Visão geral de Relatório eletrônico](general-electronic-reporting.md)
+[Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)

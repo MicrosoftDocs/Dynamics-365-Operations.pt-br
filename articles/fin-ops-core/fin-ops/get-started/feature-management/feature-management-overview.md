@@ -3,7 +3,7 @@ title: Visão geral do gerenciamento de recursos
 description: Este tópico descreve o recurso de gerenciamento de recursos e como você pode usá-lo.
 author: mikefalkner
 manager: AnnBe
-ms.date: 09/11/2019
+ms.date: 09/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 6712e091d2a004f30c55bc8dc4be2073187d215c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a9be51c4a5cdadd968de160dc0b1406c95382eeb
+ms.sourcegitcommit: 260a820038c29f712e8f1483cca9315b6dd3df55
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191146"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2778696"
 ---
 # <a name="feature-management-overview"></a>Visão geral do gerenciamento de recursos
 

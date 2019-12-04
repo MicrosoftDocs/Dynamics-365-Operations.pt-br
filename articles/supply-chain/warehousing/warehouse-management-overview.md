@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abb78c9ac43dad80e45729f4b42651d9807f71f1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f50b950b8588f2b17611889e0cb0eeb6da359886
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251053"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813008"
 ---
 # <a name="warehouse-management-overview"></a>Visão geral de gerenciamento de depósito
 
@@ -36,7 +36,7 @@ Para começar o Gerenciamento de depósito, é necessário concluir a configura�
 
 É necessário configurar os componentes de fluxos de trabalho do processo de entrada e saída do depósito, de acordo com os requisitos de negócios. Os componentes mais importantes que você deve configurar são os modelos de onda, modelos de trabalho, grupos de trabalho, bem como diretivas de localização.
 
-- [Configuração de depósito](warehouse-configuration.md)
+- [Visão geral de configuração de depósito](warehouse-configuration.md)
 - [Controlar o trabalho do depósito por meio de modelos de trabalho e diretivas de localização](control-warehouse-location-directives.md)
 - [Configurar dispositivos móveis para trabalho de depósito](configure-mobile-devices-warehouse.md)
 - [Configurar uma diretiva de localização para o armazenamento da ordem de compra](../transportation/tasks/set-up-location-directive-purchase-order-put-away.md)

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c40877bc6557a81adc5c1b8d10afbbd26322b200
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3677db634366ecfe6a26f2f5e01532ce5a087593
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249914"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815240"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Liberar linhas de BOM e fórmula para o depósito
 
@@ -31,7 +31,7 @@ ms.locfileid: "2249914"
 Este tópico descreve o processo para liberar matéria-prima para linhas de BOM e linhas de fórmula para o depósito. Quando você libera uma linha da BOM e da fórmula para o depósito, o sistema determina primeiro se o material já está disponível no local de entrada de produção no chão de fábrica em que o material será consumido para o processo de produção.
 
 - Se o material estiver disponível no local de entrada de produção, é separado desse local imediatamente após o sinal ser fornecido para a liberação do material para o depósito.
-- Se o material não estiver disponível no local de entrada de produção, a liberação do material indique que o material deve ser movido de locais do depósito para o local de entrada de produção. O material é movido através do trabalho de depósito para separação de matérias-primas. Portanto, os processos de depósito para a separação de matérias-primas deverão ser configurados. Para obter mais informações, consulte [Reabastecimento](../warehousing/replenishment.md) e [Controlar o trabalho do depósito por meio de modelos de trabalho e diretivas de localização](../warehousing/control-warehouse-location-directives.md).
+- Se o material não estiver disponível no local de entrada de produção, a liberação do material indique que o material deve ser movido de locais do depósito para o local de entrada de produção. O material é movido através do trabalho de depósito para separação de matérias-primas. Portanto, os processos de depósito para a separação de matérias-primas deverão ser configurados. Para obter mais informações, consulte [Visão geral de reabastecimento](../warehousing/replenishment.md) e [Controlar o trabalho do depósito por meio de modelos de trabalho e diretivas de localização](../warehousing/control-warehouse-location-directives.md).
 
 ## <a name="methods-for-releasing-bom-and-formula-lines"></a>Métodos para liberar linhas da BOM e da fórmula
 

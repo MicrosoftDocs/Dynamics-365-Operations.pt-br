@@ -1,5 +1,5 @@
 ---
-title: Rastrear origens de perfis de candidatos e solicitações de emprego
+title: Rastrear origens do candidato no Attract
 description: Este tópico fornece informações sobre como rastrear a origem de perfis de candidatos e solicitações de emprego.
 author: hachandr
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5b368e97a716cd1ce4f668c2a97326877a2d3dff
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 8860f508eebc377042c4e101eeb08a14a737ba0c
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551878"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832630"
 ---
-# <a name="track-sources-for-candidate-profiles-and-applications"></a>Rastrear origens de perfis de candidatos e solicitações de emprego
+# <a name="track-candidate-sources-in-attract"></a>Rastrear origens do candidato no Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 > [!NOTE] 
 > A funcionalidade observada neste tópico está disponível para usuários como parte de uma revisão de versão prévia. O conteúdo e as funcionalidades estão sujeitos a alteração. Para usar o recurso, peça ao administrador habilitá-lo usando as **Configurações do administrador** no Attract. Uma versão futura fornecerá relatórios de rastreamento da origem. Para obter mais informações, consulte [Acessar os recursos de visualização no Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).

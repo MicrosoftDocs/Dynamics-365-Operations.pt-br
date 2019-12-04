@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: a4945f47c86d490f40a6b00cb823e6a6005e0ee4
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: e38d0bd75ad865b7885182f798beb43551576beb
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550500"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770887"
 ---
 # <a name="add-location-and-party-relationship-types"></a>Adicionar local e tipos de relacionamento do participante 
 
@@ -41,7 +41,7 @@ Há duas maneiras de adicionar novas funções do local para endereço e informa
 
     1.  Crie uma extensão para a enumeração **LogisticsLocationRoleType** e adicione a nova função na extensão. 
   
-        ![LogisticsLocationRoleType](media/Logistics.PNG)
+        ![Extensão para a enumeração LogisticsLocationRoleType](media/Logistics.PNG)
 
     2. Crie um novo arquivo de recursos para a nova função, e atribua um valor para suas propriedades.
      
@@ -69,7 +69,7 @@ Há duas maneiras de adicionar um novo tipo de relacionamento:
 
     2. Crie um inicializador para este novo tipo. Você pode encontrar vários exemplos no código principal, um deles é **DirRelationshipTypeChildInitialize**. Esta é uma classe do inicializador para o tipo de relacionamento da parte "Filho". Comece com o inicializador, copiando e colando este código e, em seguida, atualize as áreas destacadas.
     
-    ![DirRelationshipChild](media/DirRelationship.PNG)
+    ![Inicializador de DirRelationshipChild](media/DirRelationship.PNG)
 
     3.  Para testar o preenchimento do novo tipo de relacionamento você pode criar uma classe executável e chamar DirDataPopulation::insertDirRelationshipTypes() in Main(). Você deve verificar o novo tipo de relacionamento na **DirRelationshipTypeTable** e o novo tipo de relacionamento estará disponível na página **Tipos de relacionamento** .
 

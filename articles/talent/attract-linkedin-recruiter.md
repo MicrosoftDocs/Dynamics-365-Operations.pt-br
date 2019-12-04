@@ -1,5 +1,5 @@
 ---
-title: Contratar candidatos com o LinkedIn Recruiter no Microsoft Dynamics 365 Talent - Attract
+title: Contratar candidatos com o LinkedIn Recruiter no Attract
 description: Use a integração com o LinkedIn fornecida pelo Microsoft Dynamics 365 Talent - Attract para contratar candidatos a trabalho por meio do LinkedIn Recruiter.
 author: andreabichsel
 manager: AnnBe
@@ -19,15 +19,16 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8f2e95e74bbc8d78ed5d970f29b61150a45c6740
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: e05b902d745c26c08d1bac133991f51fd58c3e93
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551555"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833037"
 ---
-# <a name="source-candidates-with-linkedin-recruiter-in-microsoft-dynamics-365-talent---attract"></a>Contratar candidatos com o LinkedIn Recruiter no Microsoft Dynamics 365 Talent - Attract
-[!include[banner](../includes/banner.md)]
+# <a name="source-candidates-with-linkedin-recruiter-in-attract"></a>Contratar candidatos com o LinkedIn Recruiter no Attract
+
+[!include [banner](includes/banner.md)]
 
 O LinkedIn e a maior rede profissional online do mundo, dando a você acesso aos melhores talentos do mundo. O Microsoft Dynamics 365 Talent: Attract permite contratar candidatos diretamente no LinkedIn. Portanto, está mais fácil do que nunca encontrar os talentos de que você precisa para preencher os cargos abertos. Depois de configurar a conexão com o LinkedIn pelo Attract, você poderá exibir candidatos potenciais do LinkedIn aos cargos e exportá-los para o Attract com apenas um clique.
 
@@ -100,12 +101,12 @@ Se os candidatos concordarem em compartilhar seus perfis do LinkedIn com qualque
 
 ## <a name="see-also"></a>Consulte também
 
-[Perguntas frequentes sobre o LinkedIn](./attract-linkedin-faq.md)
+[Perguntas frequentes sobre a integração do Attract com o LinkedIn](./attract-linkedin-faq.md)
 
-[Configurar a integração com o LinkedIn](./attract-admin-linkedin.md)
+[Configurar a integração com o LinkedIn para o Microsoft Dynamics 365 Talent - Attract](./attract-admin-linkedin.md)
 
-[Criar trabalhos](./creating-jobs-attract.md)
+[Criar, aprovar e lançar trabalhos no Attract](./creating-jobs-attract.md)
 
-[Lançar trabalhos no LinkedIn do Attract](./attract-post-jobs-to-linkedin.md)
+[Postar trabalhos no LinkedIn usando o Microsoft Dynamics 365 Talent - Attract](./attract-post-jobs-to-linkedin.md)
 
-[Solucionar problemas de integração com o LinkedIn](./attract-troubleshoot-linkedin.md)
+[Solucionar problemas de integração entre o LinkedIn e o Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)

@@ -3,7 +3,7 @@ title: Incluir valor físico
 description: Você usa a caixa de seleção Incluir valor físico na Guia Rápida Modelo de estoque da página Grupos de modelos de item para especificar se as transações atualizadas fisicamente serão consideradas quando o preço de custo médio for calculado para um item.
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e96d5e2a658a027d66663868329cf4eedcb1d46f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 834438f8389e295bbb992f0b8397ff45559690c3
+ms.sourcegitcommit: 92322167f57b66d2accc134aaf862e6b9931ec94
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551959"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692988"
 ---
 # <a name="include-physical-value"></a>Incluir valor físico
 
@@ -47,10 +47,16 @@ A caixa de seleção tem efeitos ligeiramente diferentes, dependendo do modelo d
 
 **Exemplo 1** Você marcou a caixa de seleção**Incluir valor físico** e recebe as seguintes ordens de compra:
 
--   Uma ordem de compra para uma quantidade 2 e um preço de custo de BRL 10,00 que foi atualizado na guia de remessa
--   Uma ordem de compra para uma quantidade 3 e um preço de custo de BRL 12,00 que foi atualizado na fatura
+-   Uma ordem de compra para uma quantidade 2 e um preço de custo de BRL 10,00 que foi atualizado na guia de remessa.
+-   Uma ordem de compra para uma quantidade 3 e um preço de custo de BRL 12,00 que foi atualizado na fatura.
 
-Nesse caso, o preço de custo médio corrente será BRL 11,20 porque tanto as transações atualizadas fisicamente como as atualizadas financeiramente são usadas para calcular o preço de custo. **Exemplo 2** Você não marcou a caixa de seleção **Incluir valor físico** e o preço de custo na configuração do item é BRL 10,00. Você recebe uma ordem de compra para uma quantidade 20 e um preço de custo de BRL 12,00 que foi atualizado na guia de remessa. Quando uma ordem de venda é lançada, o valor de custo lançado é de BRL 10,00, pois o preço de custo médio corrente não incluirá as transações lançadas fisicamente. **Observação:** para comparação, se você marcar a caixa de seleção **Incluir valor físico** para esse item, quando uma ordem de venda for lançada, o valor de custo lançado será BRL 12,00.
+Nesse caso, o preço de custo médio corrente será de BRL 11,20 = (2x10+3x12)/(2+3), porque tanto as transações atualizadas fisicamente como as atualizadas financeiramente são usadas para calcular o preço de custo. 
 
+**Exemplo 2** Você não marcou a caixa de seleção **Incluir valor físico** e o preço de custo na configuração do item é BRL 10,00. 
 
+-   Você recebe uma ordem de compra para uma quantidade 20 e um preço de custo de BRL 12,00 que foi atualizado na guia de remessa.
 
+Quando uma ordem de venda é lançada, o valor de custo lançado é de BRL 10,00, pois o preço de custo médio corrente não incluirá as transações lançadas fisicamente. 
+
+> [!NOTE]
+> Para comparação, se você marcar a caixa de seleção **Incluir valor físico** para esse item, quando uma ordem de venda for lançada, o valor de custo lançado será de BRL 12,00.

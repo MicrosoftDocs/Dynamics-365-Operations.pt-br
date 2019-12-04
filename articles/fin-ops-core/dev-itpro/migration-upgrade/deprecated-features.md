@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e1c5dea039ae6482bfd9e036642c23463f5bc3a
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 52ed93ae425a821ebce4ed63f154e155cb161e94
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658681"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811984"
 ---
 # <a name="removed-or-deprecated-features-for-finance-and-operations"></a>Recursos removidos ou preteridos de Finance and Operations
 
@@ -270,7 +270,7 @@ Os principais indicadores de desempenho (KPIs) incorporados podem ser modelados 
 | **Status**                         | Preterido: o aviso se tornará um erro de tempo de compilação no futuro. No momento, estamos segmentando a atualização 30 da plataforma. |
 
 #### <a name="complete-list"></a>Lista completa
-Para acessar a lista completa de APIs que estão sendo reprovadas, consulte [Substituição de métodos e elementos de metadados](deprecation-deletion-apis.md).
+Para acessar a lista completa das APIs que estão sendo substituídas, consulte [Substituição de métodos e elementos de metadados](deprecation-deletion-apis.md).
 
 ## <a name="finance-and-operations-81-with-platform-update-20"></a>Finance and Operations 8.1 com atualização de plataforma 20
 
@@ -348,7 +348,7 @@ A partir de 15 de fevereiro de 2018, os varejistas não poderão exibir recomend
 | **Status**                         |Removido em 15 de fevereiro de 2018. Isso afeta os clientes que usam o Dynamics 365 for Operations 1611 e versões posteriores.  |
 
 ### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a>Extensão da lista de funções do ER (Relatório eletrônico)
-A possibilidade de introduzir funções personalizadas a serem usadas no construtor de expressões do ER (para obter mais informações, consulte [Estender a lista de funções de Relatório eletrônico](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) não tem mais suporte. Devido a alterações de APIs do ER, a API para chamar funções internas do construtor de expressões de ER tornou-se interna e não pode ser mais estendida.
+A possibilidade de introduzir funções personalizadas a serem usadas no construtor de expressões do ER (para obter mais informações, consulte [Estender a lista de funções do ER (Relatório eletrônico)](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) não tem mais suporte. Devido a alterações de APIs do ER, a API para chamar funções internas do construtor de expressões de ER tornou-se interna e não pode ser mais estendida.
 
 |   |  |
 |------------|--------------------|
@@ -474,7 +474,7 @@ O portal de dispositivos móveis de depósito (WMDP) é um componente autônomo 
 |   |  |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Funcionalidade duplicada.       |
-| **Substituída por outro recurso?**   | Sim. Este recurso foi substituído pelo Finance and Operations - Warehousing. Para obter mais informações sobre a configuração e os pré-requisitos, consulte [Instalação e configuração do Microsoft Dynamics 365 for Finance and Operations - Warehousing](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
+| **Substituída por outro recurso?**   | Sim. Este recurso foi substituído pelo Finance and Operations - Warehousing. Para obter mais informações sobre a configuração e os pré-requisitos, consulte [Visão geral da instalação e configuração do aplicativo de depósito](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Áreas afetadas do produto**         | Gerenciamento de depósito, Gerenciamento de transporte     |
 | **Opção de implantação**              | O portal de dispositivos móveis de depósito (WMDP) é um componente autônomo que foi criado para auto-implantação local.               |
 | **Status**                         | Preterido: o período determinado para a remoção da funcionalidade é o T4 de 2019.   |
@@ -1244,7 +1244,7 @@ O configurador de produtos foi usado para configurar itens dinamicamente a parti
 |   |  |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | O configurador de produtos expunha o código X++ para os usuários finais e não tem suporte na versão atual do Dynamics AX. Foi removido para evitar esforços de manutenção duplicados em códigos base de sobreposição, dimensionáveis.  |
-| **Substituída por outro recurso?**   | Sim. A configuração baseada em restrições foi introduzida no Dynamics AX 2012, já tendo sido anunciada a substituição do configurador de produtos em versões futuras. A tecnologia de configuração baseada em restrições foi selecionada nos produtos mestres para ativar a configuração. Para saber mais, consulte [Criar um modelo de configuração de produto](../../../supply-chain/pim/build-product-configuration-model.md). |
+| **Substituída por outro recurso?**   | Sim. A configuração baseada em restrições foi introduzida no Dynamics AX 2012, já tendo sido anunciada a substituição do configurador de produtos em versões futuras. A tecnologia de configuração baseada em restrições foi selecionada nos produtos mestres para ativar a configuração. Para saber mais, consulte [Visão geral de configuração do produto](../../../supply-chain/pim/build-product-configuration-model.md). |
 | **Áreas afetadas do produto**         | Gerenciamento de informações do produto, Vendas e marketing  |
 | **Status**                         | Removido a partir do Dynamics AX 7.0.      |
 

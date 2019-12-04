@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aef99a7e8964dba0e3c3a507bb214b79ae723357
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: d7ec95b230c5ea17f208bc1288c10fce15631a5d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251514"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813046"
 ---
 # <a name="cycle-counting"></a>Contagem cíclica
 
@@ -136,7 +136,7 @@ Uma diferença de contagem cíclica ocorrerá nos cenários a seguir se a opçã
 Você pode ajustar as diferenças no valor contado e aceitar o valor contado na página **Revisão de contagem de ciclo pendente** na página. Você pode verificar a contagem modificada da quantidade do item na página **Disponível por local**. O valor contado será rejeitado se a diferença não puder ser aprovada.
 
 ## <a name="additional-resources"></a>Recursos adicionais
-[Configurar dispositivos móveis para trabalho de depósito](configure-mobile-devices-warehouse.md)
+[​Configurar dispositivos móveis para trabalho de depósito​](configure-mobile-devices-warehouse.md)
 
 
 

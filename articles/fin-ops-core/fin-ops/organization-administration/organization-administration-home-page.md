@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 36784311294f80f56f680cd6d14cc989b629ba12
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9b1b519d116a55c255cf90d9478ee1714de90264
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176503"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811296"
 ---
 # <a name="organization-administration-home-page"></a>Home page de administração da organização
 
@@ -36,7 +36,7 @@ A maior parte do conteúdo listado aqui se aplica aos recursos no módulo **Admi
 
 As sequências numéricas são usadas para gerar identificadores exclusivos legíveis para registros de dados mestres e registros de transações que exigem identificadores. Um registro de dados mestres ou um registro de transação que exige um identificador é conhecido como *referência*. Antes de criar novos registros para referência, é necessário configurar uma sequência numérica e associá-la à referência.
 
-- [Visão geral de sequência numérica](number-sequence-overview.md)
+- [Visão geral de sequências numéricas](number-sequence-overview.md)
 - [Configurar sequências numéricas usando um assistente](tasks/set-up-number-sequences-wizard.md) (Guia de tarefas)
 - [Configurar sequências numéricas em uma base individual](tasks/set-up-number-sequences-individual-basis.md) (Guia de tarefas)
 
@@ -46,8 +46,8 @@ Uma organização é um grupo da pessoas que está trabalhando em conjunto para 
 
 Antes de configurar organizações e hierarquias organizacionais, certifique-se de planejar a forma como sua empresa será modelada. O modelo da organização tem um efeito significativo sobre a implementação e os processos comerciais.
 
-- [Organizações e hierarquias organizacionais](organizations-organizational-hierarchies.md)
-- [Planejar sua hierarquia organizacional](plan-organizational-hierarchy.md)
+- [Visão geral de organizações e hierarquias organizacionais](organizations-organizational-hierarchies.md)
+- [Planejar sua hierarquia da organização](plan-organizational-hierarchy.md)
 - [Criar uma hierarquia da organização](tasks/create-organization-hierarchy.md) (Guia de tarefas)
 - [Criar uma entidade legal](tasks/create-legal-entity.md) (Guia de tarefas)
 - [Criar uma unidade operacional](tasks/create-operating-unit.md) (Guia de tarefas)
@@ -58,8 +58,8 @@ O catálogo de endereços global é um repositório centralizado para os dados m
 
 Após criar o catálogo de endereços global, você pode criar catálogos de endereço adicionais conforme necessário, como um catálogo de endereço separado para cada empresa em sua organização ou para cada linha de negócios.
 
-- [Catálogo de endereços global](overview-global-address-book.md)
-- [Plano para configuração do catálogo de endereços global e dos catálogos de endereços adicionais](plan-configuration-global-address-book-additional-address-books.md)
+- [Visão geral do catálogo de endereços global](overview-global-address-book.md)
+- [Plano do catálogo de endereços global e outros catálogos de endereços](plan-configuration-global-address-book-additional-address-books.md)
 - [Configurar o catálogo de endereços global](tasks/configure-global-address-book.md)
 - [Perguntas frequentes sobre catálogos de endereços](qa-address-books.md)
 
@@ -67,10 +67,10 @@ Após criar o catálogo de endereços global, você pode criar catálogos de end
 
 O fluxo de trabalho é um sistema que você pode usar para criar fluxos de trabalho individuais ou processos comerciais. Ao criar um fluxo de trabalho, você especifica como um documento flui, ou se move, pelo sistema, mostrando quem deve concluir uma tarefa, tomar uma decisão ou aprovar um documento.
 
-- [Visão geral do fluxo de trabalho](overview-workflow-system.md)
+- [Visão geral do sistema de fluxo de trabalho](overview-workflow-system.md)
 - [Elementos de fluxo de trabalho](workflow-elements.md)
-- [Ações de fluxo de trabalho](workflow-actions.md)
-- [Criar um fluxo de trabalho](create-workflow.md)
+- [Ações nos processos de aprovação do fluxo de trabalho](workflow-actions.md)
+- [Visão geral de criação de fluxos de trabalho](create-workflow.md)
 
 ## <a name="electronic-signatures"></a>Assinaturas eletrônicas
 
@@ -78,21 +78,21 @@ Uma assinatura eletrônica confirma a identidade de uma pessoa que está prestes
 
 Você pode usar assinaturas eletrônicas para processos comerciais críticos. Alguns processos têm recursos internos de assinatura eletrônica. Você também pode criar requisitos de assinatura personalizados para qualquer tabela e campo de banco de dados.
 
-- [Visão geral das assinaturas eletrônicas](electronic-signature-overview.md)
+- [Visão geral de assinaturas eletrônicas](electronic-signature-overview.md)
 - [Configurar assinaturas eletrônicas](tasks/set-up-electronic-signatures.md) (Guia de tarefas)
 
 ## <a name="case-management"></a>Gerenciamento de casos
 
 Ao planejar, rastrear e analisar os casos, será possível desenvolver resoluções eficientes que podem ser usadas para problemas semelhantes. Por exemplo, quando os representantes de serviço ao cliente ou especialistas em Recursos Humanos criam casos, eles podem encontrar informações em artigos de conhecimento para ajudá-los a trabalhar ou resolver um caso de forma mais eficiente.
 
-- [Visão geral de gerenciamento de casos](cases.md)
-- [Configurar segurança, processos e categorias de casos](plan-case-management.md)
+- [Visão geral do gerenciamento de casos](cases.md)
+- [Planejar segurança de categoria de casos, processos de casos e categorias de casos](plan-case-management.md)
 
 ## <a name="record-templates"></a>Modelos de registro
 
 Os modelos de registro podem ajudá-lo a criar registros de forma mais rápida. Você pode criar um modelo de registro para que os valores de campo usados frequentemente não tenham que ser inseridos explicitamente para cada novo registro.
 
-- [Modelos de registro](record-templates.md)
+- [Visão geral de modelos de registro](record-templates.md)
 - [Criar um modelo de registro para facilitar a entrada de dados](../../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md) (Guia de tarefas)
 - [Usar um modelo de registro para criar um novo registro](../../dev-itpro/data-entities/tasks/use-record-template-new-record.md) (Guia de tarefas)
 

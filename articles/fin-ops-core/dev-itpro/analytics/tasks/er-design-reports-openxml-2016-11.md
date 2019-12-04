@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1229c89f43f9ded955dadf2f4d87825c9ab4e71
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fcceb0e4d5f3bec54598515da0a5cbd8d11def3d
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182568"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769846"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER Projetar uma configuração para gerar relatórios no formato OPENXML (Novembro de 2016)
 
@@ -36,7 +36,7 @@ Para completar essas etapas, você deve primeiro completar as etapas do procedim
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Carregar a configuração do modelo de dados de pagamentos
 1. No Painel de Navegação, vá para **Módulos > Administração da organização > Espaços de trabalho > Relatório eletrônico**.
-2. Na lista, marque o provedor de configuração para a empresa de exemplo, 'Litware, Inc.' Se você não visualizar o provedor de configuração, você deve primeiro concluir as etapas em [Criar um provedor de configuração e marcá-lo como ativo](er-configuration-provider-mark-it-active-2016-11.md).
+2. Na lista, marque o provedor de configuração para a empresa de exemplo, 'Litware, Inc.' Se você não visualizar o provedor de configuração, você deve primeiro concluir as etapas em [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md).
 3. Selecione **Definir como ativo**.
 4. Selecione **Repositórios**. Selecione um repositório para o tipo Recursos de operações, se disponível. Se estiver disponível, pule as etapas a seguir sobre criar um novo repositório.  
 5. Selecione **Adicionar** para abrir a caixa de diálogo suspensa.

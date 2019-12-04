@@ -1,5 +1,5 @@
 ---
-title: Acessar os recursos de visualização no Microsoft Dynamics 365 Talent
+title: Gerenciar recursos
 description: Este tópico descreve como um administrador poderá habilitar os recursos de exibição no Microsoft Dynamics 365 Talent e listar os recursos que estão habilitados atualmente para visualização.
 author: tracykeya
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 0f9a83aeea3942d3c56d32956f79490c91565e9e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 9f1fb4b929660bbe9018fb98169b3cfddcaec547
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551579"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833291"
 ---
-# <a name="access-preview-features-in-microsoft-dynamics-365-talent"></a>Acessar os recursos de visualização no Microsoft Dynamics 365 Talent
+# <a name="manage-features"></a>Gerenciar recursos
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Como parte de liberação contínua de funcionalidades de gerenciamento de capital humano (HCM) do Microsoft Dynamics 365 Talent, queremos que nossos clientes aproveitem novos recursos o mais rápido possível. Os administradores podem consultar e usar recursos de exibição nos ambientes. Esses recursos estão quase prontos para disponibilidade geral e passam por um teste extenso. Estamos procurando apenas um círculo final de comentários de cliente e validação antes de liberá-los para disponibilidade geral.
 
@@ -117,6 +117,6 @@ Não deixe de incluir dados pessoais (qualquer informação que pode te identifi
 ## <a name="see-also"></a>Consulte também
 
 - [Experimente ou compre aplicativos do Talent](https://dynamics.microsoft.com/talent/overview/)
-- [Novidades](./whats-new.md)
-- [Notas de versão](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Obter suporte para o Talent](./talent-support.md)
+- [Novidades ou alterações no Dynamics 365 Talent](./whats-new.md)
+- [Planos de versão](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Obter suporte para o Microsoft Dynamics 365 Talent](./talent-support.md)

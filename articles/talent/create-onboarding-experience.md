@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 97082533831d592817e54e77469a3e22b0b47610
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 8c11186ff3f95a7f1e00f9e42d7b78f5a68957b0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008119"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813928"
 ---
 # <a name="get-started-with-onboard"></a>Introdução ao Onboard
 
@@ -35,17 +35,17 @@ O Onboard permite criar rapidamente um guia de integração que dará as boas-vi
 
 Para aprender como baixar e usar o Onboard, consulte estes tópicos:
 
-- [Obter o aplicativo Onboard](./onboard-get-app.md)
-- [Criar um guia de integração](./onboard-create-guide.md)
-- [Criar um modelo de integração](./onboard-create-template.md)
-- [Editar guias e modelos de integração](./onboard-edit-guides-templates.md)
-- [Compartilhar conteúdo com outros contribuintes](./onboard-share-template.md)
-- [Exibir o status de tarefas e da integração de funcionários](./onboard-view-status.md)
-- [Criar equipes de contratação no Onboard](./onboard-create-team.md)
+- [Obter o aplicativo Dynamics 365 Talent - Onboard](./onboard-get-app.md)
+- [Criar e enviar um guia de integração usando o Dynamics 365 Talent - Onboard](./onboard-create-guide.md)
+- [Criar um modelo de integração usando o Dynamics 365 Talent - Onboard](./onboard-create-template.md)
+- [Editar guias e modelos de integração no Dynamics 365 Talent - Onboard](./onboard-edit-guides-templates.md)
+- [Compartilhar conteúdo com outros colaboradores no Dynamics 365 Talent - Onboard](./onboard-share-template.md)
+- [Exibir o status de novos funcionários e suas tarefas](./onboard-view-status.md)
+- [Criar uma equipe de contratação usando o Dynamics 365 Talent - Onboard](./onboard-create-team.md)
 
 ## <a name="see-also"></a>Consulte também
 
 - [Experimentar ou comprar o Onboard](https://dynamics.microsoft.com/talent/onboard/)
-- [Novidades](./whats-new.md)
-- [Notas de versão](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Obter suporte](./talent-support.md)
+- [Novidades ou alterações no Dynamics 365 Talent](./whats-new.md)
+- [Planos de versão](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Obter suporte para o Microsoft Dynamics 365 Talent](./talent-support.md)

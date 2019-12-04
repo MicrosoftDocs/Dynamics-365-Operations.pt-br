@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5493c46183e7b599e82153f5b3ac36c81faa4955
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f850b28c4d6ed6ce13438f4de87ef0c04065c7f9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174687"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770224"
 ---
 # <a name="public-sector-home-page"></a>Home page do Setor público
 
@@ -42,15 +42,15 @@ Use a funcionalidade Setor público para cumprir as regras, as regulamentações
 
   Para obter mais informações, consulte os seguintes tópicos:
 
-- [Planejamento da funcionalidade Setor público](plan-public-sector-functionality.md)
-- [Contas a pagar no Setor público](accounts-payable-public-sector.md)
-- [Contas a receber no Setor público](accounts-receivable-public-sector.md)
-- [Orçamento no Setor público](budgeting-public-sector.md)
-- [Ativos fixos no Setor público](fixed-asset-public-sector.md)
-- [Recursos regulatórios da França](../localizations/emea-fra-public-sector-accounting.md)
-- [Contabilidade no Setor público](general-ledger-public-sector.md)
-- [Compras e fornecimento no Setor público](procurement-sourcing-public-sector.md)
-- [Funções de segurança no Setor público](security-roles-public-sector.md)
+- [Plano da funcionalidade do setor público](plan-public-sector-functionality.md)
+- [Visão geral de contas a pagar no setor público](accounts-payable-public-sector.md)
+- [Visão geral de contas a receber no setor público](accounts-receivable-public-sector.md)
+- [Visão geral de orçamento no setor público](budgeting-public-sector.md)
+- [Ativos fixos no setor público](fixed-asset-public-sector.md)
+- [Contabilidade do setor público na França](../localizations/emea-fra-public-sector-accounting.md)
+- [Visão geral de contabilidade no setor público](general-ledger-public-sector.md)
+- [Compras e fornecimento no setor público](procurement-sourcing-public-sector.md)
+- [Funções de segurança no setor público](security-roles-public-sector.md)
 
 \* Aplicável somente se a sua organização estiver na França.
 
@@ -70,7 +70,7 @@ A tabela a seguir fornece informações sobre como essa chave de configuração 
 <a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Planejamento da funcionalidade Setor público](plan-public-sector-functionality.md)
+[Plano da funcionalidade do setor público](plan-public-sector-functionality.md)
 
 
 

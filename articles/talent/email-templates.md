@@ -1,5 +1,5 @@
 ---
-title: Modelos de email
+title: Criar modelos de email no Attract
 description: Este tópico fornece informações sobre os modelos de email que você pode criar e usar no Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,15 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7174fd96e5ddc9ba5a91eb423d08afd1daa45f48
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 55c12010cfd055ee6977f50e566b70f76a2e1682
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008027"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832875"
 ---
-# <a name="email-templates"></a>Modelos de email
-[!include[banner](../includes/banner.md)]
+# <a name="create-email-templates-in-attract"></a>Criar modelos de email no Attract
+
+[!include [banner](includes/banner.md)]
 
 Usando a biblioteca de modelos de email, os administradores podem criar um tema e identidade visual uniforme para todos os emails enviados pelo Microsoft Dynamics 365 Talent: Attract e Offer. Os administradores também podem coletar um conjunto de modelos de conteúdo de email que outros usuários podem consumir. A equipe de contratação pode usar esses modelos no fluxo de trabalho para enviar emails com maior eficiência. Alguns emails são configurados para serem enviados automaticamente. O administrador pode usar a biblioteca de modelos de email para personalizar o conteúdo desses emails.
 

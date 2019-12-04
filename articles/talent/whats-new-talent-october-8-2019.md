@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-08
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 159320dcbdf257862378b347172ef71832e293dc
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 496603731eb343a64be1e8d9482ac8d42e6aa79a
+ms.sourcegitcommit: 7ef9e61f0388b5241894d40ff39f84a112232a5f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626053"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2694397"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-8-2019"></a>Novidades ou alterações no Dynamics 365 Talent (8 de outubro de 2019)
 
@@ -57,15 +57,15 @@ A funcionalidade para a entrada e navegação de funcionários está disponível
 
 Para obter mais informações, consulte [Entrada de dados simplificada do funcionário](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-talent/streamlined-employee-data-entry) no plano da onda 2 da versão 2019 do Dynamics 365.
 
-### <a name="issue-attract-and-onboard-create-inactive-workers-in-core-hr-380517"></a>Problema: os recursos Attract e Onboard criam funcionários inativos no Core HR (380517)
+### <a name="attract-and-onboard-create-inactive-workers-in-core-hr-380517"></a>Os recursos Attract e Onboard criam trabalhadores inativos no Core HR (380517)
 
 A versão desta semana corrige um problema em que os recursos Attract e Onboard criam funcionários inativos no Core HR.
 
-### <a name="issue-the-workflow-fails-when-the-manager-is-signed-in-to-another-company-while-terminating-an-employee-346852"></a>Problema: o fluxo de trabalho falha quando o gerente é conectado a uma outra empresa ao demitir um funcionário (346852)
+### <a name="the-workflow-fails-when-the-manager-is-signed-in-to-another-company-while-terminating-an-employee-346852"></a>O fluxo de trabalho falha quando o gerente é conectado a uma outra empresa ao demitir um funcionário (346852)
 
 Não ocorrem mais falhas no fluxo de trabalho com base na entidade legal na qual o gerente está conectado.
 
-### <a name="issue-missing-information-on-hcmonboardingworkerchecklisttaskentity-349591"></a>Problema: informações ausentes no HcmOnboardingWorkerChecklistTaskEntity (349591)
+### <a name="missing-information-on-hcmonboardingworkerchecklisttaskentity-349591"></a>Informações ausentes sobre HcmOnboardingWorkerChecklistTaskEntity (349591)
 
 Esta versão inclui informações adicionais em **HcmOnboardingWorkerChecklistTaskEntity**. Eis alguns exemplos:
 
@@ -73,35 +73,35 @@ Esta versão inclui informações adicionais em **HcmOnboardingWorkerChecklistTa
 - **Nome do funcionário** quando o tipo atribuído for **funcionário**
 - **Nome do gerente** quando o tipo atribuído for **gerente**
 
-### <a name="issue-entities-arent-listed-in-alphabetical-order-in-common-data-service-administration-377414"></a>Problema: as entidades não estão listadas em ordem alfabética em Common Data Service Administration (377414)
+### <a name="entities-arent-listed-in-alphabetical-order-in-common-data-service-administration-377414"></a>As entidades não estão listadas em ordem alfabética em Common Data Service Administration (377414)
 
 Problema: agora estão listadas em ordem alfabética na página **CDS Administration**.
 
-### <a name="issue-changing-the-employment-type-with-a-future-date-doesnt-allow-a-position-assignment-339958"></a>Problema: alterar o tipo de emprego com uma data futura não permite uma atribuição de posição (339958)
+### <a name="changing-the-employment-type-with-a-future-date-doesnt-allow-a-position-assignment-339958"></a>A alteração do tipo de emprego com uma data futura não permite uma atribuição de posição (339958)
 
 Esta alteração permite atribuições de posição quando os tipos de trabalhador forem alterados (por exemplo, de funcionário para prestador de serviço).
 
-### <a name="issue-updating-the-common-data-service-leave-bank-transaction-entity-creates-a-new-record-in-talent-352938"></a>Problema: atualizar a entidade de transação bancária de licença do Common Data Service cria um novo registro em Talent (352938)
+### <a name="updating-the-common-data-service-leave-bank-transaction-entity-creates-a-new-record-in-talent-352938"></a>A atualização da entidade Sair de transação bancária do Common Data Service cria um novo registro no Talent (352938)
 
 A transação de licença é atualizada quando uma atualização é feita no Common Data Service para transações bancárias de licença.
 
-### <a name="issue-the-title-of-attachments-for-feedback-items-shows-the-feedback-description-343765"></a>Problema: o título de anexos para itens de comentário mostra a descrição de comentários (343765)
+### <a name="the-title-of-attachments-for-feedback-items-shows-the-feedback-description-343765"></a>O título de anexos de itens de comentário mostra a descrição do comentário (343765)
 
 A descrição do comentário não aparece mais no título do anexo.
 
-### <a name="issue-compensation-workflow-comments-field-shows-incorrect-content-339297"></a>Problema: o campo Comentários do fluxo de trabalho Compensação mostra um conteúdo incorreto (339297)
+### <a name="compensation-workflow-comments-field-shows-incorrect-content-339297"></a>O campo Comentários do fluxo de trabalho Compensação mostra um conteúdo incorreto (339297)
 
 Esta alteração mostra o conteúdo do campo **%HcmActionState.HcmWorkerActionComment.Comments%**.
 
-### <a name="issue-workcalendarentity-and-workcalendardayentity-arent-exposed-through-odata-376329"></a>Problema: WorkCalendarEntity e WorkCalendarDayEntity não são expostos por meio do OData (376329)
+### <a name="workcalendarentity-and-workcalendardayentity-arent-exposed-through-odata-376329"></a>WorkCalendarEntity e WorkCalendarDayEntity não são expostos por meio do OData (376329)
 
 Nesta versão, **WorkCalendarEntity** e **WorkCalendarDayEntity** estão disponíveis através do Open Data Protocol (OData).
 
-### <a name="issue-hcmworkerentity-is-slow-when-odata-is-used-375221"></a>Problema: HCMWorkerEntity fica lento quando o OData é usado (375221)
+### <a name="hcmworkerentity-is-slow-when-odata-is-used-375221"></a>HCMWorkerEntity fica lenta quando o OData é usado (375221)
 
 As alterações melhoram o desempenho de **HCMWorkerEntity** quando o designer de pastas de trabalho do Microsoft Excel é usado.
 
-### <a name="issue-manager-performance-journal-entry-shows-an-error-after-deleting-a-performance-journal-and-creating-a-new-one-336061"></a>Problema: a entrada de diário de desempenho do gerente mostra um erro após excluir um diário de desempenho e criar outro (336061)
+### <a name="manager-performance-journal-entry-shows-an-error-after-deleting-a-performance-journal-and-creating-a-new-one-336061"></a>A entrada de diário de desempenho do gerente mostra um erro após a exclusão de um diário de desempenho e a criação de outro (336061)
 
 Esta versão corrige um problema que ocorre após um diário de desempenho ser excluído e outro ser criado logo em seguida. Esta correção altera o comportamento em autoatendimento para gerentes.
 

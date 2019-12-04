@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22372bd2d42b526d10e39174e7fb5ec5281d1b73
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 544721af404775a6d8b65628848caa84ceaebe30
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572779"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813813"
 ---
 # <a name="quality-management-processes"></a>Processos de gerenciamento de qualidade
 
@@ -90,14 +90,14 @@ A página **Correções** permite criar uma lista de não conformidades que deve
 <a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Habilitando o gerenciamento de qualidade](enable-quality-management.md)
+[Visão geral do gerenciamento de qualidade](enable-quality-management.md)
 
-[Habilitando o gerenciamento de não conformidade](enable-nonconformance-management.md)
+[​Gerenciamento de não conformidade​](enable-nonconformance-management.md)
 
 [Bloqueio de estoque](inventory-blocking.md)
 
 [Ordens de quarentena](quarantine-orders.md)
 
-[Configurar ordens de qualidade (Guia de tarefas)](tasks/set-up-quality-orders.md)
+[Configurar ordens de qualidade](tasks/set-up-quality-orders.md)
 
-[Inspecionar a qualidade de mercadorias (Guia de tarefas)](tasks/inspect-quality-goods.md)
+[Verificar a qualidade de mercadorias](tasks/inspect-quality-goods.md)

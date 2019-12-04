@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a1fac239524d4873a782e6a3d177a573a382d0f6
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 55853418eacd179b7bb50b7e4385300bdcb27abe
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552019"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812893"
 ---
 # <a name="create-an-onboarding-template-by-using-dynamics-365-talent---onboard"></a>Criar um modelo de integração usando o Dynamics 365 Talent - Onboard
 
@@ -59,6 +59,6 @@ O Microsoft Dynamics 365 Talent: Onboard fornece vários modelos que podem ajuda
 ### <a name="see-also"></a>Consulte também
 
 - [Experimentar ou comprar o Onboard](https://dynamics.microsoft.com/talent/onboard/)
-- [Novidades](./whats-new.md)
-- [Notas de versão](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Obter suporte](./talent-support.md)
+- [Novidades ou alterações no Dynamics 365 Talent](./whats-new.md)
+- [Planos de versão](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Obter suporte para o Microsoft Dynamics 365 Talent](./talent-support.md)

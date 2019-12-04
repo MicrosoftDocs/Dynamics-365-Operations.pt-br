@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 219bb1b5ac8360acf267fb792b8e23f961096abc
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 89b3762a4d64861bac682c3f519c26e95cd944b2
+ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553059"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "2781864"
 ---
-# <a name="mobile-app-home-page"></a>Home page de aplicativo móvel
+# <a name="mobile-app-home-page"></a>Home page de Aplicativo móvel
 
 [!include [banner](../includes/banner.md)]
 

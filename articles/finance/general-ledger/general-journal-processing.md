@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2becf8213cfa46e2c0cf0c553f0b5e503dfc3704
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c067b7b6cbbcad4456df6037da8ab124776261e9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570231"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771813"
 ---
 # <a name="general-journal-processing"></a>Processamento do diário geral
 
@@ -85,9 +85,9 @@ A configuração da conta principal fornece várias opções para o processament
 As estruturas de contabilidade e as estruturas de regras avançadas são muito importantes para garantir que os dados necessários para relatórios financeiros e rastreamento de desempenho sejam capturados durante o processamento do diário geral e em qualquer outra documentação. As estruturas de contabilidade e as estruturas de regras avançadas permitem personalizar a experiência da entrada de dados. Você pode permitir a entrada de dados somente para as dimensões financeiras que são relevantes em cada situação, e também pode forçar a exigência de que dados precisos e obrigatórios sempre serão capturados.
 
 Para obter mais informações, consulte os seguintes tópicos:
-- [Planejamento: plano de contas](plan-chart-of-accounts.md) 
+- [​Planejar seu plano de contas​](plan-chart-of-accounts.md) 
 - [Criar regras avançadas para diários](tasks/create-advanced-rules-journals.md)
-- [Criar uma entrada de diário usando um modelo](tasks/create-journal-entry-template.md)
+- [Criar uma entrada de diário usando modelo](tasks/create-journal-entry-template.md)
 - [Criar e validar diários](tasks/create-validate-journals.md)
 - [Lançar diários periódicos](tasks/post-periodic-journals.md)
 - [Processar diário de alocação do razão](tasks/process-ledger-allocation-journal.md)

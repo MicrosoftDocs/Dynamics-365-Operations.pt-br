@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e0369be278519f39fc304b34ef3a270438f0bb1
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 242e9fd5fd4b22f3081367cf33ff18ff5e4174a5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026247"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814734"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Distribuir e planejar questionários
 
@@ -54,7 +54,8 @@ Para atribuir um grupo de questionários a um questionário, na página **Questi
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>Sessões de respostas planejadas em um questionário
 As sessões de respostas planejadas são os questionários para os quais você criou e selecionou os participantes. 
 
-> **Observação** Antes de configurar as sessões de respostas planejadas, você deverá criar um questionário. 
+> [!NOTE]
+>   Antes de configurar sessões de respostas planejadas, você deve criar um questionário. 
 
 N página **Sessão de respostas planejadas**, é possível criar uma sessão de resposta planejada para um funcionário individual. A lista na página exibe todos os questionários planejados. 
 
@@ -108,12 +109,14 @@ Se você usar uma sessão de resposta planejadas, você deve notificar a pessoa 
 
 Use a página **Agendas de questionário** para preparar e enviar um email a todos os entrevistados atribuídos ao questionário. Insira o texto do email na guia **Email para o autoatendimento para funcionários**. Depois que a agenda for iniciada, clique em **Funções** &gt; **Enviar email** para gerar e enviar o email para os entrevistados. Os entrevistados poderão efetuar logon no site e preencher o questionário. 
 
-> **Observação** Antes que você possa usar a funcionalidade de email, o administrador de TI deverá inserir as configurações de email na página **Parâmetros de email**.
+> [!NOTE]
+>   Para que você possa usar a funcionalidade de email, o administrador de TI deve inserir as configurações de email na página **Parâmetros de email**.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Finalizando um questionário planejado
 É possível encerrar um questionário planejado depois que todos os participantes concluírem as sessões de resposta atribuídas a eles. Depois que um questionário planejado for concluído, não será possível copiar as configurações para um novo agendamento. 
 
-> **Observação** Caso um ou mais participantes não tenham preenchido o questionário e você ainda queira encerrar o agendamento, você deve primeiro excluir os participantes relevantes da lista na página **Sessão de respostas planejadas**. Em seguida, será possível encerrar a agenda.
+> [!NOTE]
+>   Se um ou mais entrevistados não tiverem preenchido o questionário e você ainda quer encerrar o agendamento, primeiro exclua esses entrevistados da lista na página **Sessão de resposta planejada**. Em seguida, será possível encerrar a agenda.
 
 ## <a name="completing-questionnaires"></a>Preenchendo questionários
 Após criar e distribuir um questionário, este poderá ser preenchido por entrevistados selecionados. Você pode preencher os questionários disponíveis para você em dois locais:
@@ -126,10 +129,10 @@ Os questionários podem ficar disponíveis para usuários específicos, grupos d
 <a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Projetar questionários](design-questionnaires.md)
+[Criar questionários](design-questionnaires.md)
 
-[Usando questionários](questionnaires.md)
+[Questionários](questionnaires.md)
 
-[Exibindo e avaliando os resultados dos questionários](evaluate-questionnaire-results.md)
+[Exibir e avaliar os resultados de questionários](evaluate-questionnaire-results.md)
 
 

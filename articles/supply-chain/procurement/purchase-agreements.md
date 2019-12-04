@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e022fbf182da9a07fe20e5bebdd99cbff3d9c90
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: d3f90e963341efe854270134988cfc51b5280bf4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248912"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813353"
 ---
 # <a name="purchase-agreements"></a>Contratos de compra
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Este artigo fornece informações sobre contratos de compras. Um contrato de compra é um contrato que compromete uma organização a comprar uma quantidade ou um valor especificado usando várias ordens de compra ao longo do tempo. Em troca desse compromisso, o comprador obtém preços e descontos especiais. 
 
@@ -80,6 +81,9 @@ Quando você cria uma OC, pode aplicar um contrato de compra a ela. As informaç
 Você só poderá selecionar um contrato de compra quando estiver criando uma OC. Você não poderá selecionar um contrato de compra depois que a OC for criada.  
 Em algumas situações em que as OCs são criadas indiretamente, você pode controlar se o Supply Chain Management pesquisará automaticamente os contratos de compra aplicáveis. Por exemplo, você pode fazer isso quando estiver confirmando automaticamente OCs planejadas ou criando OCs baseadas em ordens de venda.
 
+## <a name="matching-policy-on-purchase-agreements"></a>Política de conciliação em contratos de compra
+Você pode definir uma política de conciliação de linha no cabeçalho do contrato de compra. Essa política de conciliação de linha respeitará a política de conciliação de linha dos parâmetros de contas a pagar quando o campo **Permitir substituição de política de conciliação** na página **Parâmetros de Contas a pagar** (na Guia Rápida **Conciliação de preço e quantidade**) estiver definido como **Maior do que a política da empresa**. Os documentos que fazem referência ao contrato de compra usam a política de conciliação de linha definida no cabeçalho do contrato de compra, a menos que seja definido de outra forma em item correspondente, item e fornecedor ou política de compra de categoria.
+
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Contratos de compra e comércio intercompanhia
 As relações comerciais intercompanhia podem ser criadas entre contas de fornecedor e contas de cliente que estão em entidades legais diferentes. Quando uma ordem de venda ou uma OC é criada para um dos participantes, é criada uma cadeia de ordem intercompanhia. Na cadeia de ordem, a ordem de venda e a OC são criadas nas entidades legais apropriadas.  
 
@@ -93,9 +97,9 @@ Você pode copiar as dimensões financeiras para os cabeçalhos de documento ou 
 <a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Criar um contrato de compra (Guia de tarefas)](tasks/create-purchase-agreement.md)
+[Criar um contrato de compra](tasks/create-purchase-agreement.md)
 
-[Criar uma ordem de liberação de compra de um contrato de compra (Guia de tarefas)](tasks/create-purchase-release-order-purchase-agreement.md)
+[Criar uma ordem de liberação de compra de um contrato de compra](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 

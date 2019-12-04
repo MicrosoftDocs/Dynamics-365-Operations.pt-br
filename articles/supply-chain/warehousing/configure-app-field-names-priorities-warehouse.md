@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a3251368e92eb2e24eb9e64bb615027d038ff660
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 11f6c96cc07c63d2c0c6a94385916b3396a77ed5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251076"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814964"
 ---
 # <a name="configure-app-field-names-in-warehousing-app"></a>Configurar nomes de campo de aplicativo no aplicativo de depósito
 
@@ -32,7 +32,8 @@ ms.locfileid: "2251076"
 
 Este tópico descreve como definir e configurar os nomes e prioridades de campos do aplicativo de depósito no Dynamics 365 Supply Chain Management. 
 
-**Observação:** este tópico se aplica aos recursos do Gerenciamento de depósito. Ele não se aplica aos recursos do Gerenciamento de estoque. O Warehousing é um aplicativo que você pode usar para realizar tarefas de depósito. Você pode definir e configurar os nomes de campo usados no aplicativo, bem como configurar a prioridade à qual os nomes de campo devem ser atribuídos. Este tópico explica como definir e configurar esses nomes e prioridades de campos do aplicativo de depósito e como eles são usados no Warehousing. Para obter informações detalhadas sobre como configurar a conexão com o Warehousing, consulte o tutorial [Instalar e configurar o Warehousing](install-configure-warehousing-app.md).
+> [!NOTE]
+> Este tópico se aplica a recursos do Gerenciamento de depósito. Ele não se aplica aos recursos do Gerenciamento de estoque. O Warehousing é um aplicativo que você pode usar para realizar tarefas de depósito. Você pode definir e configurar os nomes de campo usados no aplicativo, bem como configurar a prioridade à qual os nomes de campo devem ser atribuídos. Este tópico explica como definir e configurar esses nomes e prioridades de campos do aplicativo de depósito e como eles são usados no Warehousing. Para obter informações detalhadas sobre como configurar a conexão com o Warehousing, consulte o tutorial [Visão geral da instalação e configuração do aplicativo de depósito](install-configure-warehousing-app.md).
 
 ## <a name="configure-warehouse-app-field-names"></a>Configurar nomes de campo do aplicativo de depósito
 
@@ -142,4 +143,4 @@ Os metadados restantes, como Local, não serão exibidos na página de tarefas, 
 <a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Instalar e configurar o Microsoft Dynamics 365 for Finance and Operations – Warehousing](install-configure-warehousing-app.md)
+[Visão geral da instalação e configuração do aplicativo de depósito](install-configure-warehousing-app.md)

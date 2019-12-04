@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 932ba44b4223bf9c9d93ffb19e17f6e57bb303b5
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 5dad101ffe56c9266c0d81ede8be1f72b684a8fb
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553082"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771412"
 ---
 # <a name="backup-storage-of-er-templates"></a>Armazenamento em backup de modelos de ER
 
 [!include [banner](../includes/banner.md)]
 
-A [estrutura de relatório eletrônico (ER)](general-electronic-reporting.md) permite que usuários comerciais configurem formatos para documentos de saída de acordo com os requisitos legais de vários países e regiões. Os formatos de ER configurados podem usar modelos predefinidos para gerar documentos de saída em vários formatos, como pastas de trabalho do Microsoft Excel, documentos do Microsoft Word ou documentos em PDF. Os modelos são preenchidos com os dados exigidos pelo fluxo de dados configurado para os documentos gerados.
+A [Visão geral de ER (Relatórios eletrônicos)](general-electronic-reporting.md) permite que usuários comerciais configurem formatos para documentos de saída de acordo com os requisitos legais de vários países e regiões. Os formatos de ER configurados podem usar modelos predefinidos para gerar documentos de saída em vários formatos, como pastas de trabalho do Microsoft Excel, documentos do Microsoft Word ou documentos em PDF. Os modelos são preenchidos com os dados exigidos pelo fluxo de dados configurado para os documentos gerados.
 
 Cada formato configurado pode ser publicado como parte de uma solução de ER. Cada solução de ER pode ser exportada de uma instância do Finance and Operations e importada para outra instância.
 
-A estrutura de ER usa a [estrutura de gerenciamento de documentos](../../fin-ops/organization-administration/configure-document-management.md) para manter os modelos exigidos para a instância atual do Finance and Operations. Dependendo das configurações da estrutura de ER, o Armazenamento de Blob do Microsoft Azure ou uma pasta do Microsoft SharePoint podem ser selecionados como o local de armazenamento físico principal de modelos. (Para obter mais informações, consulte [Configurar a estrutura de ER](electronic-reporting-er-configure-parameters.md).) A tabela DocuValue mantém um registro individual para cada modelo. Em cada registro, o campo **AccessInformation** armazena o caminho de um arquivo de modelo que encontra-se no local de armazenamento configurado.
+A estrutura de ER usa [Configurar gerenciamento de documentos](../../fin-ops/organization-administration/configure-document-management.md) para manter os modelos exigidos para a instância atual do Finance and Operations. Dependendo das configurações da estrutura de ER, o Armazenamento de Blob do Microsoft Azure ou uma pasta do Microsoft SharePoint podem ser selecionados como o local de armazenamento físico principal de modelos. Para obter mais informações, consulte [Configurar a estrutura de ER (Relatórios eletrônicos)](electronic-reporting-er-configure-parameters.md). A tabela DocuValue mantém um registro individual para cada modelo. Em cada registro, o campo **AccessInformation** armazena o caminho de um arquivo de modelo que encontra-se no local de armazenamento configurado.
 
 Quando você gerencia as instâncias do Finance and Operations, pode decidir migrar a instância atual para outro local. Por exemplo, você poderá migrar sua instância de produção para um novo do ambiente de área restrita. Se você configurou a estrutura de ER para armazenar modelos no Armazenamento de Blob, a tabela DocuValue no novo ambiente de área restrita refere-se à instância de Armazenamento de Blob no ambiente de produção. Entretanto, essa instância não pode ser acessada do ambiente de área restrita, pois o processo de migração não dá suporte à migração de artefatos no Armazenamento de Blob. Portanto, se você tentar executar um formato de ER que usa um modelo para gerar documentos comerciais, ocorrerá uma exceção, e você será notificado sobre o modelo ausente. Você também é orientado a usar a ferramenta de limpeza de ER para excluir e depois reimportar a configuração de formato de ER que contém o modelo. Como você pode ter várias configurações de formato de ER, esse processo pode ser demorado.
 
@@ -94,6 +94,6 @@ No Finance and Operations versão 10.0.5, o recurso de armazenamento em backup d
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral de Relatório eletrônico](general-electronic-reporting.md)
+[Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
 
-[Configurar a estrutura de Relatórios eletrônicos](electronic-reporting-er-configure-parameters.md)
+[Configurar a estrutura de ER (Relatórios eletrônicos)](electronic-reporting-er-configure-parameters.md)

@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b220dfc90d4b850c774ff638c5b766f650dcef9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d4c912e8364a2503b98e511cbf22884528e467f0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190939"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811617"
 ---
 # <a name="new-task-guides-february-2016"></a>Novos guias de tarefas (fevereiro de 2016)
 
@@ -32,9 +32,9 @@ Este tópico lista os Guias de tarefa que foram lançados nas bibliotecas do Mic
 
 ## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Guias de tarefas na Biblioteca Unificada APQC (fevereiro de 2016) para Microsoft Dynamics AX
 
-A Biblioteca Unificada APQC (fevereiro 2016) contém os guias de Tarefas que devem ser usados para obter ajuda em relação ao Dynamics AX versão 7.0.0. Se você precisar de versões localizadas dessas guias de Tarefas, elas estão disponíveis na Biblioteca Unificada APQC (maio 2016) para Microsoft Dynamics AX. Para obter mais informações sobre como conectar o sistema de ajuda à uma biblioteca de Guias de tarefas, consulte [Introdução à ajuda](help-overview.md).
+A Biblioteca Unificada APQC (fevereiro 2016) contém os guias de Tarefas que devem ser usados para obter ajuda em relação ao Dynamics AX versão 7.0.0. Se você precisar de versões localizadas dessas guias de Tarefas, elas estão disponíveis na Biblioteca Unificada APQC (maio 2016) para Microsoft Dynamics AX. Para obter mais informações sobre como conectar o sistema da ajuda à uma biblioteca de Guia de tarefas, consulte [Sistema da Ajuda](help-overview.md).
 
-### <a name="accounts-payable"></a>Contas a Pagar
+### <a name="accounts-payable"></a>Contas a pagar
 
 | Linha de BPM                                                  | País/região |
 |-----------------------------------------------------------|----------------|

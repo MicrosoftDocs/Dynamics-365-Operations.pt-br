@@ -18,12 +18,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b7608334a3894fb2259e5b8879f5ccc245e9ea9a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f097cfe3bef7361939a60209364e5f1adb69555
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175195"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773397"
 ---
 # <a name="brazil-nf-e-process-overview"></a>Visão geral do processo de NF-e do Brasil 
 
@@ -62,7 +62,7 @@ Depois que o status da NF-e for recebido da SEFAZ, você poderá executar as seg
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
- - [Certificação de NF-e](latam-bra-nfe-certs.md)
+ - [Certificados de NF-e](latam-bra-nfe-certs.md)
  - [Configurar parâmetros federais de NF-e (Brasil)](tasks/br-00053-1-set-up-nf-e-federal-parameters.md)
  - [Configurar parâmetros de NF-e para um estabelecimento fiscal (Brasil)](tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md)
  - [Gerar emails para NF-e aprovada e anexar arquivos PDF do DANFE e arquivos XML da NF-e aos emails (Brasil)](tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md)

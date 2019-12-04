@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db85db993c5368eaaa6ddfcc3dd02a2c2aa2be01
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 184a6bf9ad43280de135a326688dedd4a5f03a6f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188294"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772596"
 ---
 # <a name="letters-of-credit"></a>Cartas de crédito
 
@@ -46,10 +46,10 @@ Uma nota de crédito pode ser revogável ou irrevogável. A natureza de uma nota
 
 Para obter mais informações, consulte os seguintes tópicos:
 
-[Importar uma carta de crédito](tasks/import-letter-credit.md)
+[Importar carta de crédito](tasks/import-letter-credit.md)
 
-[Exportar uma carta de crédito](tasks/export-letter-credit.md)
+[Exportar carta de crédito](tasks/export-letter-credit.md)
 
-[Criar um recurso bancário para uma carta de crédito](tasks/create-bank-facility-agreement-letter-credit.md)
+[Criar um contrato de recursos bancários para uma carta de crédito](tasks/create-bank-facility-agreement-letter-credit.md)
 
 

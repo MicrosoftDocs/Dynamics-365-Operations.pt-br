@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2339c6f901a3ef39ad4f9586b2f391b966a3df98
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2058eaac77282946559cae11fcec8152658fc96b
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190134"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811348"
 ---
 # <a name="configure-parallel-branches-in-a-workflow"></a>Configurar ramificações paralelas em um fluxo de trabalho
 
@@ -46,8 +46,8 @@ Siga estas etapas para inserir um nome para a ramificação paralela.
 Siga estas etapas para criar e configurar os elementos da ramificação paralela.
 
 1. Clique duas vezes na ramificação paralela.
-2. Arraste os elementos do fluxo de trabalho para a tela e configure-os como você faria para criar qualquer outro fluxo de trabalho. Para obter mais informações, consulte [Criar um fluxo de trabalho](create-workflow.md).
+2. Arraste os elementos do fluxo de trabalho para a tela e configure-os como você faria para criar qualquer outro fluxo de trabalho. Para obter mais informações, consulte [Visão geral de criação de fluxos de trabalho](create-workflow.md).
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Criar um fluxo de trabalho](create-workflow.md)
+[Visão geral de criação de fluxos de trabalho](create-workflow.md)

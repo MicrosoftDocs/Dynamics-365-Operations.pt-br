@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4e47aea3a9d1ce62a85aac9a4acce398b5847f1b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4bcc6937da0e9f66014d9c00668e0c6790433ba8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191399"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811961"
 ---
 # <a name="optimization-advisor-overview"></a>Visão geral do Supervisor de otimização
 
@@ -38,7 +38,7 @@ A definição e a configuração incorretas de um módulo podem afetar negativam
 
 O espaço de trabalho **Orientador de otimização** é uma ferramenta que permite que os usuários avançados, analistas comerciais, consultores funcionais e funções de suporte de TI identifiquem problemas na configuração do módulo e nos dados de negócios. O orientador de otimização sugere práticas recomendadas para a configuração do módulo e identifica os dados corporativos que estão obsoletos ou são incorretos.
 
-O orientador de otimização executa periodicamente um conjunto de regras de prática recomendada. Um conjunto padrão de regras está disponível, entretanto, os usuários também podem criar regras específicas às suas personalizações, soluções de fornecedores independentes de software (ISVs) e dados corporativos. Para obter mais informações sobre como criar regras, consulte [Criar novas regras](./create-rules-optimization-advisor.md).
+O orientador de otimização executa periodicamente um conjunto de regras de prática recomendada. Um conjunto padrão de regras está disponível, entretanto, os usuários também podem criar regras específicas às suas personalizações, soluções de fornecedores independentes de software (ISVs) e dados corporativos. Para obter mais informações sobre como criar regras, consulte [Criar regras para o Supervisor de otimização](./create-rules-optimization-advisor.md).
 
 Quando for detectada uma violação de regra, uma oportunidade de otimização será gerada e aparecerá no espaço de trabalho **Orientador de otimização**. Um usuário pode executar a ação corretiva adequada diretamente do espaço de trabalho **Orientador de otimização**.
 
@@ -92,6 +92,6 @@ Para desativar a avaliação de regras específicas, selecione a oportunidade qu
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Criar novas regras](./create-rules-optimization-advisor.md)
+[Criar regras para o Supervisor de otimização](./create-rules-optimization-advisor.md)
 
 [Assistente de otimização no Dynamics 365 for Finance and Operations (Vídeo)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)

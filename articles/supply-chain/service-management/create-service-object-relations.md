@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 792ceea52a9caa1a99217c77bb3fe4aafb80a0eb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 05d770234beb486eb3a8181b160967c802c15e8f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555004"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813146"
 ---
 # <a name="create-service-object-relations"></a>Criar relacionamentos de objeto de serviço 
 
@@ -63,11 +63,11 @@ Use as seguintes etapas para criar uma relação de objeto de serviço para uma 
 
 ## <a name="see-also"></a>Consulte também
 
-[Objetos de serviço](service-objects.md)
+[Visão geral de objetos de serviço](service-objects.md)
 
-[relações do objeto de serviço](service-object-relations.md)
+[Relações do objeto de serviço](service-object-relations.md)
 
-[BOMs de modelo](template-boms.md)
+[​BOMs de modelo​](template-boms.md)
 
   
 

@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9a12ab249129dce24cdca5e29d737fa9f68c0eac
-ms.sourcegitcommit: 6e0909e95f38b7487a4b7f68cc62b723f8b59bd4
+ms.openlocfilehash: 9efc63c385c31a6d8848d016c1a8689460908dcc
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572440"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769651"
 ---
 # <a name="organization-hierarchy-in-common-data-service"></a>Hierarquia da organização no Common Data Service
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 Como o Dynamics 365 Finance é um sistema financeiro, a *organização* é um conceito básico. A configuração do sistema começa com a configuração de uma hierarquia da organização. As finanças comerciais podem ser rastreadas em nível organizacional e também em qualquer nível da hierarquia da organização.
 
@@ -46,85 +44,35 @@ Um ecossistema comercial que consiste em aplicativos do Finance and Operations e
 
 Os mapas de entidades da hierarquia da organização estão disponíveis para sincronização unidirecional de dados de aplicativos do Finance and Operations para o Common Data Service.
 
+## <a name="templates"></a>Modelos
+
+As informações do produto contêm todos os dados relacionados ao produto e sua definição, como as dimensões do produto ou as dimensões de rastreamento e armazenamento. Como mostrado na tabela a seguir, é criada uma coleção de mapas de entidades para sincronizar produtos e as informações relacionadas.
+
+Finance and Operations | Outros aplicativos do Dynamics 365 | Descrição
+-----------------------|--------------------------------|---
+Finalidades da hierarquia da organização | msdyn_internalorganizationhierarchypurposes | Este modelo oferece sincronização unidirecional da entidade Finalidade da hierarquia da organização.
+Tipo de hierarquia da organização | msdyn_internalorganizationhierarchytypes | Este modelo oferece sincronização unidirecional da entidade Tipo da hierarquia da organização.
+Hierarquia da organização - publicada | msdyn_internalorganizationhierarchies | Este modelo oferece sincronização unidirecional da entidade Hierarquia da organização publicada.
+Unidade operacional | msdyn_internalorganizations | 
+Entidades legais | msdyn_internalorganizations | 
+Entidades legais | cdm_companies | Oferece sincronização bidirecional de informações da entidade legal (empresa).
+
+
 [!include [banner](../includes/dual-write-symbols.md)]
 
-## <a name="internal-organization-hierarchy-purpose"></a>Finalidade da hierarquia da organização interna
+[!include [Organization hierarchy purposes](dual-write/OrganizationHierarchyPurpose-msdyn-internalorganizationhierarchypurposes.md)]
 
-Este modelo oferece sincronização unidirecional da entidade de Finalidade da Hierarquia da Organização do Finance and Operations para outros aplicativos do Dynamics 365.
+[!include [Organization hierarchy type](dual-write/OrganizationHierarchyType-msdyn-internalorganizationhierarchytypes.md)]
 
-<!-- ![architecture image](media/dual-write-purpose.png) -->
-
-Campo de origem | Tipo de mapa | Campo de destino
----|---|---
-HIERARCHYTYPE | \> | msdyn\_hierarchypurposetypename
-HIERARCHYTYPE | \> | msdyn\_hierarchytype.msdyn\_name
-HIERARCHYPURPOSE | \>\> | msdyn\_hierarchypurpose
-IMMUTABLE | \>\> | msdyn\_immutable
-SETASDEFAULT | \>\> | msdyn\_setasdefault
-
-## <a name="internal-organization-hierarchy-type"></a>Tipo de hierarquia da organização interna
-
-Este modelo oferece sincronização unidirecional da entidade de Tipo de Hierarquia da Organização do Finance and Operations para outros aplicativos do Dynamics 365.
-
-<!-- ![architecture image](media/dual-write-type.png) -->
-
-Campo de origem | Tipo de mapa | Campo de destino
----|---|---
-NOME | \> | msdyn\_name
-
-## <a name="internal-organization-hierarchy"></a>Hierarquia da organização interna
-
-Este modelo oferece sincronização unidirecional da entidade de Hierarquia da Organização Publicada do Finance and Operations para outros aplicativos do Dynamics 365.
-
-<!-- ![architecture image](media/dual-write-organization.png) -->
-
-Campo de origem | Tipo de mapa | Campo de destino
----|---|---
-VALIDTO | \> | msdyn\_validto
-VALIDFROM | \> | msdyn\_validfrom
-HIERARCHYTYPE | \> | msdyn\_hierarchytypename
-PARENTORGANIZATIONPARTYNUMBER | \> | msdyn\_parentpartyid
-CHILDORGANIZATIONPARTYNUMBER | \> | msdyn\_childpartyid
-HIERARCHYTYPE | \> | msdyn\_hierarchytypeid.msdyn\_name
-CHILDORGANIZATIONPARTYNUMBER | \> | msdyn\_childid.msdyn\_partynumber
-PARENTORGANIZATIONPARTYNUMBER | \> | msdyn\_parentid.msdyn\_partynumber
+[!include [Organization hierarchy - published](dual-write/OrganizationHierarchyPublished-msdyn-internalorganizationhierarchies.md)]
 
 ## <a name="internal-organization"></a>Organização interna
 
 As informações internas da organização no Common Data Service vêm de duas entidades, **unidade operacional** e **entidades legais**.
 
-<!-- ![architecture image](media/dual-write-operating-unit.png) -->
+[!include [Operating unit](dual-write/OperatingUnit-msdyn-internalorganizations.md)]
 
-<!-- ![architecture image](media/dual-write-legal-entities.png) -->
+[!include [Legal entities](dual-write/LegalEntities-msdyn-internalorganizations.md)]
 
-### <a name="operating-unit"></a>Unidade operacional
+[!include [Legal entities](dual-write/LegalEntities-Companies.md)]
 
-Campo de origem | Tipo de mapa | Campo de destino
----|---|---
-LANGUAGEID | \> | msdyn\_languageid
-NAMEALIAS | \> | msdyn\_namealias
-NOME | \> | msdyn\_name
-PARTYNUMBER | \> | msdyn\_partynumber
-OPERATINGUNITTYPE | \>\> | msdyn\_type
-
-### <a name="legal-entity"></a>Pessoa jurídica em geral
-
-Campo de origem | Tipo de mapa | Campo de destino
----|---|---
-NAMEALIAS | \> | msdyn\_namealias
-LANGUAGEID | \> | msdyn\_languageid
-NOME | \> | msdyn\_name
-PARTYNUMBER | \> | msdyn\_partynumber
-nenhuma | \>\> | msdyn\_type
-LEGALENTITYID | \> | msdyn\_companycode
-
-## <a name="company"></a>Empresa
-
-Fornece sincronização bidirecional de informações da entidade legal (empresa) entre o Finance and Operations e outros aplicativos do Dynamics 365.
-
-<!-- ![architecture image](media/dual-write-company.png) -->
-
-Campo de origem | Tipo de mapa | Campo de destino
----|---|---
-NOME | = | cdm\_name
-LEGALENTITYID | = | cdm\_companycode

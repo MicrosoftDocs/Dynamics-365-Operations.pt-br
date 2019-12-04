@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6206b3a1ac298af98e4b69b6800b9a493658c4ea
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ecaeb80f3cda2ee24533ed263df63cc10c5ffc65
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181280"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771087"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Gerenciar o ciclo de vida da configuração de relatório eletrônico (ER)
 
@@ -33,7 +33,7 @@ Este tópico descreve como gerenciar o ciclo de vida de configurações de Relat
 
 ## <a name="overview"></a>Visão Geral
 
-O relatório eletrônico (ER) é um mecanismo que oferece suporte a documentos eletrônicos específicos do país e exigidos pela regulamentação. Geralmente, o ER considera uma capacidade de executar as seguintes tarefas para um único documento eletrônico. Para obter mais detalhes, consulte [Visão geral do relatório eletrônico](general-electronic-reporting.md).
+O relatório eletrônico (ER) é um mecanismo que oferece suporte a documentos eletrônicos específicos do país e exigidos pela regulamentação. Geralmente, o ER considera uma capacidade de executar as seguintes tarefas para um único documento eletrônico. Para obter mais detalhes, consulte [Visão geral de ER (Relatórios eletrônicos)](general-electronic-reporting.md).
 
 - Projete um modelo para um documento eletrônico:
 
@@ -87,4 +87,4 @@ As configurações de ER projetadas no ambiente de desenvolvimento podem ser car
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral de Relatório eletrônico](general-electronic-reporting.md)
+[Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)

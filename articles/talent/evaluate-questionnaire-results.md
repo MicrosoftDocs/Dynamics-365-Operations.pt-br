@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 38b694b6dd4b1b9a198452e409bd64d7934b4685
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6be2f79d4f0c234028c0cc98b81cfa8ff4fcc992
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517368"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813974"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>Exibir e avaliar os resultados dos questionários
 
@@ -57,7 +57,8 @@ Na página **Respostas**, você pode exibir detalhes sobre respostas, pontos gan
 -   **Relatório de respostas** – Este relatório mostra as respostas que o participante selecionou para cada pergunta do questionário.
 -   **Respostas incorretas** – Este relatório mostra informações relacionadas às respostas incorretas que o participante selecionou.
 
-**Observação:** O relatório de **Resultados** está disponível somente se você usar grupos de resultados do questionário, e se você selecionou **Página de resultados** na página **Questionários**. O relatório de **Respostas** e o relatório de **Respostas incorretas** só estarão disponíveis se você selecionou **Relatório de respostas** na página **Questionários**.
+> [!NOTE]
+> O relatório **Resultados** só estará disponível se você usar grupos de resultados do questionário e se tiver selecionado **Página de resultados** na página **Questionários**. O relatório de **Respostas** e o relatório de **Respostas incorretas** só estarão disponíveis se você selecionou **Relatório de respostas** na página **Questionários**.
 
 ## <a name="questionnaire-statistics"></a>Estatísticas do questionário
 Você pode usar as estatísticas do questionário para analisar os resultados de um questionário preenchido, com base nos cálculos definidos por você. Para definir os cálculos, você deve concluir as seguintes tarefas:
@@ -75,9 +76,9 @@ As configurações que você define são salvas e podem ser usadas para recalcul
 <a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Projetar questionários](design-questionnaires.md)
+[Criar questionários](design-questionnaires.md)
 
-[Usando questionários](questionnaires.md)
+[Questionários](questionnaires.md)
 
-[Distribuindo e preenchendo questionários](distribute-questionnaires.md)
+[Distribuir e agendar questionários](distribute-questionnaires.md)
 

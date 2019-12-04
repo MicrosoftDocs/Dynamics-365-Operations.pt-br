@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0734db6f777de2bcd6ea024c9255f589c155e44f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ec2874fb21184ccbf4f7039acf20db399e5cf5fb
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569813"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813330"
 ---
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a>Uso de catálogos externos para compras eletrônicas de PunchOut
 
@@ -41,7 +41,7 @@ Use a ação de linha **Catálogos externos** para abrir uma página que inclui 
 
 Dependendo das suas permissões, altere o solicitante, a entidade legal de compra, e a unidade operacional de recebimento. Uma alteração nesses valores pode alterar a lista de catálogos externos que estão disponíveis para um solicitante. Os catálogos externos disponíveis dependem das políticas de compra ativas atuais para a entidade legal de compra ou a unidade operacional de recebimento. Essas políticas podem permitir ou impedir o acesso a categorias específicas de aquisição. Portanto, a lista de catálogos externos que são mapeados para essas categorias de compras pode ser afetada.
 
-Para obter mais informações sobre as políticas, consulte [Políticas de compra](../procurement/purchase-policies.md).
+Para obter mais informações sobre as políticas, consulte [Visão geral de políticas de compra](../procurement/purchase-policies.md).
 
 - Para encontrar catálogos externos para categorias de contratos específicos, insira texto no campo de pesquisa do catálogo.
 - Para adicionar produtos do catálogo externo de um fornecedor no site do fornecedor, clique no catálogo externo. Em seguida, adicione produtos ao carrinho de compras e confira. As linhas do carrinho de compras serão transferidas para o Microsoft Dynamics 365.

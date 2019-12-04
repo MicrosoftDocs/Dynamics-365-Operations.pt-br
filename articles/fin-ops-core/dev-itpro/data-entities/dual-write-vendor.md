@@ -19,22 +19,20 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: d33625b94e7611a256c389a6de4692ae8f4ff2a7
-ms.sourcegitcommit: 6e0909e95f38b7487a4b7f68cc62b723f8b59bd4
+ms.openlocfilehash: da451c63c23444da564307505d38699faf9df19a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572463"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770967"
 ---
 # <a name="integrated-vendor-master"></a>Fornecedor mestre integrado
 
 [!include [banner](../includes/banner.md)]
 
-[!include [preview](../includes/preview-banner.md)]
-
 O termo *fornecedor* se refere a uma organização fornecedora ou um único proprietário que faça parte do processo da cadeia de suprimentos, e que forneça mercadorias para a empresa. Embora *fornecedor* seja um conceito estabelecido em aplicativos do Finance and Operations, ele não existe em outros aplicativos do Dynamics 365. No lugar, algumas empresas sobrecarregam a entidade Conta para armazenar as informações do cliente e as informações do fornecedor. Outras empresas usam um conceito personalizado de fornecedor. A integração do Common Data Service oferece suporte a ambos os designs. Portanto, você pode habilitar qualquer design, dependendo de seu cenário empresarial.
 
-A integração de dados do fornecedor entre aplicativos do Finance and Operations e outros aplicativos do Dynamics 365 permite vários dados mestre. Independentemente de onde os dados do fornecedor são originados, eles são integrados em segundo plano nos limites dos aplicativos e nas diferenças de infraestrutura. 
+A integração de dados dos fornecedores entre aplicativos do Finance and Operations e outros aplicativos do Dynamics 365 permite dominar os dados. Independentemente de onde os dados do fornecedor são originados, eles são integrados em segundo plano nos limites dos aplicativos e nas diferenças de infraestrutura. 
 
 ### <a name="vendor-data-flow"></a>Fluxo de dados do fornecedor
 
@@ -46,172 +44,30 @@ Se você deseja usar outros aplicativos do Dynamics 365 para controlar os fornec
 
 ![Fluxo de dados estendidos do fornecedor](media/dual-write-vendor-detail.jpg)
 
-As informações de contato do fornecedor se assemelham às informações de contato do cliente. Em segundo plano, as informações de contato da pessoa são armazenadas e recuperadas das mesmas entidades.
+As informações de contato do fornecedor se assemelham às informações de contato do cliente. Em segundo plano, as informações da pessoa de contato são armazenadas e recuperadas das mesmas entidades.
 
 ## <a name="templates"></a>Modelos
 
-Os dados do fornecedor incluem todas as informações sobre ele, como o grupo de fornecedores, os endereços, as informações de contato, o perfil do pagamento e o perfil da fatura. Uma coleção de mapas de entidades funcionam juntos durante a interação de dados do fornecedor, conforme mostrado na tabela a seguir.
+Os dados do fornecedor incluem todas as informações sobre ele, como o grupo de fornecedores, os endereços, as informações de contato, o perfil do pagamento e o perfil da fatura. Um conjunto de mapas de entidades funcionam juntos durante a interação de dados dos fornecedores, conforme mostrado na tabela a seguir.
 
-Aplicativos do Finance and Operations  | Outros aplicativos do Dynamics 365
-------------------------|---------------------------------
-Fornecedor V2               | Conta
-Fornecedor V2               | Msdyn\_vendors
-Contatos do CDS V2         | Contato
-Grupos de fornecedores           | Msdyn\_vendorgroups
-Método de Pagamento do Fornecedor   | Msdyn\_vendorpaymentmethods
-Agenda de Pagamento        | Msdyn\_paymentschedules
-Agenda de Pagamento        | Msdyn\_paymentschedulelines
-Dia de pagamento CDS         | Msdyn\_paymentdays
-Linhas de dia de pagamento CDS   | Msdyn\_paymentdaylines
-Condições de Pagamento        | Msdyn\_paymentterms
-Afixos de Nome            | Msdyn\_nameaffixes
+Aplicativos do Finance and Operations | Outros aplicativos do Dynamics 365         | Descrição
+----------------------------|---------------------------------|------------
+Fornecedor V2               | Conta | As empresas que usam a entidade Conta para armazenar informações do fornecedor podem continuar a usá-la da mesma maneira. Elas também podem aproveitar a funcionalidade explícita de fornecedor que será disponibilizada com a integração de aplicativos do Finance and Operations.
+Fornecedor V2               | Msdyn\_vendors | As empresas que usam uma solução personalizado para fornecedores podem aproveitar o conceito de fornecedor pronto para uso que está sendo apresentado no Common Data Service com a integração de aplicativos do Finance and Operations. 
+Grupos de fornecedores | msdyn_vendorgroups | Este modelo sincroniza informações do grupo de fornecedores.
+Método de pagamento do fornecedor | msdyn_vendorpaymentmethods | Este modelo sincroniza informações sobre o método de pagamento dos fornecedores.
+Contatos do CDS V2             | contatos                        | O modelo [contatos](dual-write-customer.md#cds-contacts-v2-to-contacts) sincroniza todas as informações de contato principais, secundárias e terciárias de clientes e fornecedores.
+Linhas de plano de pagamento      | msdyn_paymentschedulelines      | O modelo [linhas de plano de pagamento](dual-write-customer.md#payment-schedule-lines-to-msdyn_paymentschedulelines) sincroniza dados de referência de clientes e fornecedores.
+Agenda de pagamento            | msdyn_paymentschedules          | O modelo [planos de pagamento](dual-write-customer.md#payment-schedule-to-msdyn_paymentschedules) sincroniza dados de referência de planos de pagamento de clientes e fornecedores.
+Linhas de dia de pagamento CDS V2    | msdyn_paymentdaylines           | O modelo [linhas de dia de pagamento](dual-write-customer.md#payment-day-lines-cds-v2-to-msdyn_paymentdaylines) sincroniza dados de referência de linhas de dia de pagamento de clientes e fornecedores.
+Dias de pagamento CDS            | msdyn_paymentdays               | O modelo [dias de pagamento](dual-write-customer.md#payment-days-cds-to-msdyn_paymentdays) sincroniza dados de referência de dias de pagamento de clientes e fornecedores.
+Condições de pagamento            | msdyn_paymentterms              | O modelo [condições de pagamento](dual-write-customer.md#terms-of-payment-to-msdyn_paymentterms) sincroniza dados de referência de condições de pagamento de clientes e fornecedores.
+Afixos de nome                | msdyn_nameaffixes               | O modelo [afixos de nome](dual-write-customer.md#name-affixes-to-msdyn_nameaffixes) sincroniza dados de referência de afixos de nome de clientes e fornecedores.
 
-[!include [banner](../includes/dual-write-symbols.md)]
+[!include [symbols](../includes/dual-write-symbols.md)]
 
-## <a name="vendor-v2-and-account"></a>Fornecedor V2 e Conta 
+[!include [Vendors](dual-write/VendorsV2-msdyn-vendors.md)]
 
-As empresas que usam a entidade Conta para armazenar informações do fornecedor podem continuar a usá-la da mesma maneira. Elas também podem aproveitar a funcionalidade explícita de fornecedor que será disponibilizada com a integração de aplicativos do Finance and Operations.
+[!include [Vendor groups](dual-write/VendVendorGroup-msdyn-vendorgroups.md)]
 
-## <a name="vendor-v2-and-msdyn_vendors"></a>Fornecedor V2 e Msdyn\_vendors
-
-As empresas que usam uma solução personalizado para fornecedores podem aproveitar o conceito de fornecedor pronto para uso que está sendo apresentado no Common Data Service com a integração de aplicativos do Finance and Operations. 
-
-<!-- ![vendor mappings](media/dual-write-vendors-1.png) -->
-
-<!-- ![vendor mappings](media/dual-write-vendors-2.png) -->
-
-<!-- ![vendor mappings](media/dual-write-vendors-3.png) -->
-
-Campo de origem | Tipo de mapa | Campo de destino
----|---|---
-VENDORACCOUNTNUMBER | = | msdyn\_vendoraccountnumber
-VENDORGROUPID | = | msdyn\_vendorgroupid.msdyn\_vendorgroup
-VENDORORGANIZATIONNAME | = | msdyn\_name
-VENDORPARTYTYPE | \>\< | msdyn\_isperson
-PERSONFIRSTNAME | = | msdyn\_firstname
-PERSONLASTNAME | = | msdyn\_lastname
-CREDITLIMIT | = | msdyn\_vendorcreditlimit
-ISFOREIGNENTITY | \>\< | msdyn\_isforeignentity
-ISONETIMEVENDOR | \>\< | msdyn\_isonetimevendor
-ADDRESSBUILDINGCOMPLIMENT | = | msdyn\_addressbuildingcompliment
-PERSONCHILDRENNAMES | = | msdyn\_childrennames
-ADDRESSCITY | = | msdyn\_addresscity
-ADDRESSCOUNTRYREGIONID | = | msdyn\_addresscountryregionid
-ADDRESSCOUNTRYREGIONISOCODE | = | msdyn\_addresscountryregionisocode
-ADDRESSCOUNTYID | = | msdyn\_addresscountyid
-CREDITRATING | = | msdyn\_creditrating
-ADDRESSDESCRIPTION | = | msdyn\_addressdescription
-ADDRESSDISTRICTNAME | = | msdyn\_addressdistrictname
-DUNSNUMBER | = | msdyn\_dunsnumber
-ETHNICORIGINID | = | msdyn\_ethnicorigin
-FORMATTEDPRIMARYADDRESS | = | msdyn\_formattedprimaryaddress
-PERSONHOBBIES | = | msdyn\_hobbies
-PERSONINITIALS | = | msdyn\_initials
-LANGUAGEID | = | msdyn\_languageid
-PERSONLASTNAMEPREFIX | = | msdyn\_lastnameprefix
-PERSONMIDDLENAME | = | msdyn\_middlename
-ORGANIZATIONNUMBER | = | msdyn\_organizationnumber
-OURACCOUNTNUMBER | = | msdyn\_ourvendoraccountnumber
-PAYMENTID | = | msdyn\_paymentid
-PERSONPHONETICFIRSTNAME | = | msdyn\_phoneticfirstname
-PERSONPHONETICMIDDLENAME | = | msdyn\_phoneticmiddlename
-PERSONPHONETICLASTNAME | = | msdyn\_phoneticlastname
-ORGANIZATIONPHONETICNAME | = | msdyn\_organizationphoneticname
-ADDRESSPOSTBOX | = | msdyn\_addresspostbox
-PRIMARYURL | = | msdyn\_primarycontacturl
-PRIMARYEMAILADDRESS | = | msdyn\_primaryemailaddress
-PRIMARYEMAILADDRESSDESCRIPTION | = | msdyn\_primaryemailaddressdescription
-PRIMARYFACEBOOK | = | msdyn\_primaryfacebook
-PRIMARYFACEBOOKDESCRIPTION | = | msdyn\_primaryfacebookdescription
-PRIMARYFAXNUMBER | = | msdyn\_primaryfaxnumber
-PRIMARYFAXNUMBERDESCRIPTION | = | msdyn\_primaryfaxnumberdescription
-PRIMARYFAXNUMBEREXTENSION | = | msdyn\_primaryfaxnumberextension
-PRIMARYLINKEDIN | = | msdyn\_primarylinkedin
-PRIMARYLINKEDINDESCRIPTION | = | msdyn\_primarylinkedindescription
-PRIMARYPHONENUMBER | = | msdyn\_pimaryphonenumber
-PRIMARYPHONENUMBERDESCRIPTION | = | msdyn\_primaryphonenumberdescription
-PRIMARYPHONENUMBEREXTENSION | = | msdyn\_primaryphonenumberextension
-PRIMARYTELEX | = | msdyn\_primarytelex
-PRIMARYTELEXDESCRIPTION | = | msdyn\_primarytelexdescription
-PRIMARYTWITTER | = | msdyn\_primarytwitter
-PRIMARYTWITTERDESCRIPTION | = | msdyn\_primarytwitterdescription
-PRIMARYURLDESCRIPTION | = | msdyn\_primaryurldescription
-PERSONPROFESSIONALSUFFIX | = | msdyn\_professionalsuffix
-PERSONPROFESSIONALTITLE | = | msdyn\_professionatitle
-ADDRESSSTATEID | = | msdyn\_addressstateid
-ADDRESSSTREET | = | msdyn\_addressstreet
-ADDRESSSTREETNUMBER | = | msdyn\_addressstreetnumber
-VENDORKNOWNASNAME | = | msdyn\_vendorknownasname
-ADDRESSZIPCODE | = | msdyn\_addresszipcode
-DEFAULTPAYMENTDAYNAME | = | msdyn\_defaultpaymentdayname.msdyn\_name
-DEFAULTPAYMENTSCHEDULENAME | = | msdyn\_paymentschedule.msdyn\_name
-DEFAULTPAYMENTTERMSNAME | = | msdyn\_paymentterms.msdyn\_name
-HASONLYTAKENBIDS | \>\< | msdyn\_hasonlytakenbids
-ISMINORITYOWNED | \>\< | msdyn\_isminorityowned
-ISVENDORLOCALLYOWNED | \>\< | msdyn\_isvendorlocallyowned
-ISSERVICEVETERANOWNED | \>\< | msdyn\_isserviceveteranowned
-ISOWNERDISABLED | \>\< | msdyn\_ownerisdisabled
-ISWOMANOWNER | \>\< | msdyn\_womanowner
-PERSONANNIVERSARYDAY | = | msdyn\_personanniversaryday
-PERSONANNIVERSARYYEAR | = | msdyn\_anniversaryyear
-PERSONBIRTHDAY | = | msdyn\_birthday
-PERSONBIRTHYEAR | = | msdyn\_birthyear
-ORGANIZATIONEMPLOYEEAMOUNT | = | msdyn\_numberofemployees
-VENDORHOLDRELEASEDATE | = | msdyn\_vendoronholdreleasedate
-VENDORPARTYNUMBER | = | msdyn\_vendorpartynumber
-ADDRESSLOCATIONID | = | msdyn\_addresslocationid
-PERSONANNIVERSARYMONTH | = | msdyn\_vendorpersonanniversarymonth
-PERSONBIRTHMONTH | = | msdyn\_vendorpersonbirthmonth
-PERSONMARITALSTATUS | \>\< | msdyn\_maritalstatus
-ADDRESSLATITUDE | \>\> | msdyn\_addresslatitude
-ADDRESSLONGITUDE | \>\> | msdyn\_addresslongitude
-ONHOLDSTATUS | \>\< | msdyn\_onholdstatus
-CURRENCYCODE | = | msdyn\_currencycode.isocurrencycode
-ISVENDORLOCATEDINHUBZONE | \>\< | msdyn\_isvendorlocatedinhubzone
-DEFAULTVENDORPAYMENTMETHODNAME | = | msdyn\_vendorpaymentmethod.msdyn\_name
-INVOICEVENDORACCOUNTNUMBER | = | msdyn\_invoicevendoraccountnumber.msdyn\_vendoraccountnumber
-PERSONGENDER | \>\< | msdyn\_gender
-AREPRICESINCLUDINGSALESTAX | \>\< | msdyn\_priceincludessalestax
-SALESTAXGROUPCODE | = | msdyn\_taxgroup.msdyn\_name
-VENDORPRICETOLERANCEGROUPID | = | msdyn\_pricetolerancegroup.msdyn\_groupid
-
-## <a name="contacts"></a>Contatos
-
-Esse modelo sincroniza todas as informações de contato principais, secundárias e terciárias de clientes e fornecedores entre os aplicativos do Finance and Operations e outros aplicativos do Dynamics 365. Para obter detalhes do mapa de entidades, consulte [Cliente mestre integrado](dual-write-customer.md#contacts).
-
-## <a name="vendor-groups"></a>Grupos de Fornecedores
-
-Esse modelo sincroniza as informações do grupo de fornecedores entre aplicativos do Finance and Operations e outros aplicativos do Dynamics 365.
-
-<!-- ![vendor groups mappings](media/dual-write-vendor-groups.png) -->
-
-Campo de origem | Tipo de mapa | Campo de destino
----|---|---
-DEFAULTPAYMENTTERMNAME | = | msdyn\_paymentterms.msdyn\_name
-DESCRIÇÃO | = | msdyn\_description
-VENDORGROUPID | = | msdyn\_vendorgroup
-CLEARINGPERIODPAYMENTTERMNAME | = | msdyn\_clearingperiodpaymentpermname.msdyn\_name
-
-### <a name="vendor-payment-method"></a>Método de Pagamento do Fornecedor
-
-Esse modelo sincroniza as informações de método de pagamento de fornecedores entre o Finance and Operations e outros aplicativos do Dynamics 365.
-
-<!-- ![vendor payment method mappings](media/dual-write-vendor-payment-method.png) -->
-
-Campo de origem | Tipo de mapa | Campo de destino
----|---|---
-NOME | = | msdyn\_name
-DESCRIÇÃO | = | msdyn\_description
-SUMBYPERIOD | \>\< | msdyn\_sumbyperiod
-DISCOUNTGRACEPERIODDAYS | = | msdyn\_discountgraceperioddays
-PAYMENTSTATUS | \>\< | msdyn\_paymentstatus
-ALLOWPAYMENTCOPIES | \>\< | msdyn\_allowpaymentcopies
-PAYMENTTYPE | \>\< | msdyn\_paymenttype
-LASTFILENUMBER | = | msdyn\_lastfilenumber
-LASTFILENUMBERTODAY | = | msdyn\_lastfilenumbertoday
-ACCOUNTTYPE | \>\< | msdyn\_accounttype
-BRIDGINGPOSTINGENABLED | \>\< | msdyn\_bridgingposting
-ENABLEPOSTDATEDCHECKCLEARINGPOSTING | \>\< | msdyn\_postdatedcheckclearingposting
-PROMISSORYNOTEDRAFTTYPE | \>\< | msdyn\_promissorynotedrafttype
-DIRECTDEBIT | \>\< | msdyn\_directdebit
-
+[!include [Vendor payment methods](dual-write/VendorPaymentMethod-msdyn-vendorpaymentmethods.md)]

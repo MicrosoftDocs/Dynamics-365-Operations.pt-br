@@ -16,12 +16,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 36d39802ed3735b319ee937d27f001cf15de7257
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a203dd121536e687be3926d32efa47be7804b153
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175203"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772833"
 ---
 # <a name="brazil-taxes-overview"></a>Visão geral de impostos do Brasil
 
@@ -78,8 +78,8 @@ Para o valor de uma transação de base de R$ 1.000,00, uma taxa de imposto de 1
 Para transações de venda com códigos de tributação que têm um valor fiscal **1. com crédito/débito**, ou grupos de impostos do item para os quais a opção **Sem crédito de imposto** não estiver marcada, o valor do imposto real é lançado em contas principais para as quais **Imposto** e **Despesas com imposto** são selecionados no campo **Tipo de lançamento** na página **Contas para transações automáticas**. Para transações de compra com códigos de tributação que têm um valor fiscal **1. com crédito/débito**, ou grupos de impostos do item para os quais a opção **Sem crédito de imposto** não estiver marcada, o valor do imposto real é lançado em contas principais para as quais **Imposto** é selecionado no campo **Tipo de lançamento** na página **Contas para transações automáticas**.
 
 ## <a name="additional-resources"></a>Recursos adicionais
--   [Atributos de impostos brasileiros](latam-bra-tax-attributes.md)
--   [Pagamentos de impostos brasileiros](latam-bra-tax-payments.md)
+-   [Atributos de impostos do Brasil](latam-bra-tax-attributes.md)
+-   [Pagamentos de impostos no Brasil](latam-bra-tax-payments.md)
 -   [Impostos retidos na fonte no Brasil ](tasks/br-00009-brazilian-withholding-taxes.md)
 
 

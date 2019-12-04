@@ -3,7 +3,7 @@ title: Processamento adiado de trabalho de depósito
 description: Este tópico descreve a funcionalidade que disponibiliza o processamento adiado de operações colocadas do trabalho de depósito no Dynamics 365 Supply Chain Management.
 author: josaw1
 manager: AnnBe
-ms.date: 06/17/2019
+ms.date: 11/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1acfa41b9a94b5f27eefda006c8e2950059f3489
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b67b3899a506c02b581d04f51691cb4408ee012e
+ms.sourcegitcommit: 0af4caa9f5ea6f6c1d1f4b30090e02e7f755df36
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026903"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "2815779"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Processamento adiado de trabalho de depósito
 
@@ -30,7 +30,6 @@ ms.locfileid: "2026903"
 [!include [banner](../includes/pivate-preview-banner.md)]
 
 Este tópico descreve a funcionalidade que disponibiliza o processamento adiado de operações colocadas do trabalho de depósito no Dynamics 365 Supply Chain Management.
-
 
 A funcionalidade de processamento adiado permite que trabalhadores de depósito continuem a fazer outros trabalhos enquanto a operação colocada é processada em segundo plano. O processamento adiado é útil quando várias linhas de trabalho devem ser processadas e o trabalhador pode deixar esse trabalho ser processado de forma assíncrona. Também é útil quando o servidor pode ter aumentos ad hoc ou não planejados no tempo de processamento e o tempo de processamento maior pode afetar a produtividade do usuário.
 
@@ -50,6 +49,8 @@ Políticas são configuradas na página **Políticas de processamento de trabalh
 | Método de processamento de trabalho          | O método que é usado para processar a linha de trabalho. Se o método for definido como **Imediato**, o comportamento será parecido com o de quando nenhuma política de processamento de trabalho é usada para processar a linha. Se o método for definido como **Adiado**, o processamento adiado que utiliza a estrutura de lotes será usado. |
 | Limite de processamento adiado   | Um valor **0** (zero) indica que não há limite. Nesse caso, o processamento adiado será usado se puder ser usado. Se o cálculo de limite específico estiver abaixo do limite, o método imediato será usado. Caso contrário, o método adiado será usado se puder ser usado. Para vendas e trabalho relacionado a transferências, o limite é calculado como o número de linhas de carga da origem associadas que estão sendo processados para o trabalho. Para trabalhos de reabastecimento, o limite será calculado como o número de linhas de trabalho que estão sendo reabastecidas pelo trabalho. Por exemplo, ao definir um limite de **5** para venda, os trabalhos menores com menos de cinco linhas de carga de origem inicial não usarão o processamento adiado, mas trabalhos maiores o usarão. O limite terá um efeito apenas se o método de processamento do trabalho estiver definido como **Adiado**. |
 | Grupo de lote de processamento adiado |O grupo de lotes usado para processamento. |
+
+Para o processamento de inserção adiada, os seguintes tipos de ordem de serviço são suportados: ordem de venda, emissão de ordem de transferência e reabastecimento.
 
 ## <a name="assigning-the-work-creation-policy"></a>Atribuição da política de criação de trabalho
 
@@ -99,7 +100,7 @@ Há vários cenários onde o processamento colocado adiado não se aplica, embor
 - A conclusão do trabalho manual é usada.
 - O trabalho é concluído usando a conclusão automática.
 - Modelos de auditoria são usados.
-- O trabalho usa contêineres.
+
 
 ## <a name="monitoring-the-deferred-processing-tasks-from-the-outbound-work-monitoring-workspace"></a>Monitoramento do processamento adiado de tarefas do espaço de trabalho Monitoramento do trabalho de saída
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2e5144517a880c41cf04998ed53a826a75ecefb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3d1d8952324bb16bcfa6a8b42fc4f157edb75cf1
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176504"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811287"
 ---
 # <a name="electronic-signatures-overview"></a>Visão geral de assinaturas eletrônicas
 
@@ -44,7 +44,7 @@ As assinaturas eletrônicas são um requisito de regulamentações de conformida
 
 Você pode usar assinaturas eletrônicas para processos comerciais críticos. Alguns processos têm recursos internos de assinatura eletrônica. Você também pode criar requisitos de assinatura personalizados para qualquer tabela e campo de banco de dados.
 
-As assinaturas eletrônicas têm uma funcionalidade interna de assinatura digital. Cada usuário que assina documentos deve obter um certificado criptográfico válido. Quando um documento é assinado, a chave privada associada ao certificado é validada. As informações de assinatura eletrônica são registradas em um log para fornecer uma trilha de auditoria. Para configurar as assinaturas eletrônicas, consulte [Configurar assinaturas eletrônicas (Guia de tarefas)](tasks/set-up-electronic-signatures.md).
+As assinaturas eletrônicas têm uma funcionalidade interna de assinatura digital. Cada usuário que assina documentos deve obter um certificado criptográfico válido. Quando um documento é assinado, a chave privada associada ao certificado é validada. As informações de assinatura eletrônica são registradas em um log para fornecer uma trilha de auditoria. Para configurar as assinaturas eletrônicas, consulte [Configurar assinaturas eletrônicas](tasks/set-up-electronic-signatures.md).
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>Usuários que precisam de acesso para assinaturas eletrônicas
 

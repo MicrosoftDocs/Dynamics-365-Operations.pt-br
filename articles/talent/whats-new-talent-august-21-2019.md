@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 5e4272fa1c94a883a10b7893d5dc8addfa987e60
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a3e2178dbc60582d6167898c4c3446feac49dd04
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024059"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814481"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-august-20-2019"></a>Novidades ou alterações no Dynamics 365 Talent (20 de agosto 2019)
 
@@ -35,7 +35,7 @@ Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365
 
 ### <a name="simplified-apply-experience-for-candidates"></a>Experiência de candidatura simplificada para candidatos 
 
-Uma experiência de candidatura simplificada para candidatos já está disponível na visualização pública. Após a habilitação, os candidatos podem se candidatar a um trabalho usando o currículo, o **Candidatar-se com o LinkedIn** (caso esteja habilitado) ou o formulário de inscrição existente. Com essas alterações, os candidatos podem enviar rapidamente a solicitação de emprego com o mínimo de campos que precisam de inserção manual. Para obter informações sobre como habilitar este recurso, consulte [Habilitar ou desabilitar recursos de visualização](./access-preview-feature.md#enable-or-disable-preview-features).
+Uma experiência de candidatura simplificada para candidatos já está disponível na visualização pública. Após a habilitação, os candidatos podem se candidatar a um trabalho usando o currículo, o **Candidatar-se com o LinkedIn** (caso esteja habilitado) ou o formulário de inscrição existente. Com essas alterações, os candidatos podem enviar rapidamente a solicitação de emprego com o mínimo de campos que precisam de inserção manual. Para obter mais informações sobre como habilitar esse recurso, consulte [Acessar versões prévias do recurso no Microsoft Dynamics 365 Talent](./access-preview-feature.md#enable-or-disable-preview-features).
 
 ### <a name="view-rejection-comments-as-part-of-application-activity"></a>Visualizar comentários de rejeição como parte da atividade de solicitação de emprego
 

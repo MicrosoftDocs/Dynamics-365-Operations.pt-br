@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd1488fc6b2c29a4cfa4be18b9a88a07d693d7fa
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bfa6dcbd8d75c1a6c40896311ed367a835eccc7f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175828"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770749"
 ---
 # <a name="fixed-assets-home-page"></a>Home page de Ativos fixos
 
@@ -41,7 +41,7 @@ Os ativos fixos são itens de valor, por exemplo, imóveis, veículos, terrenos 
 
 #### <a name="whats-new-and-in-development"></a>Novidades e o que está em desenvolvimento
 
-Acesse as [Notas de versão do Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) para ver quais novos recursos foram planejados. 
+Acesse os [planos de versão do Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) para ver quais novos recursos foram planejados. 
 
 #### <a name="blogs"></a>Blogs
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
+ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -15,18 +16,18 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: ''
+ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 05dee1efc4e817795824e3fa1c41093d48a97d78
-ms.sourcegitcommit: 219a73371638a9a4c6076d4c88b95fb2ebe95b00
+ms.openlocfilehash: 0a2fa6a7f6efef05862a3727a80122c22d591487
+ms.sourcegitcommit: 4162d9ef4239c9d4e5297b8aaa903dd54f9cafc3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2652608"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "2824511"
 ---
 # <a name="business-document-management-overview"></a>Visão geral de gerenciamento de documentos comerciais
 
-Os usuários comerciais usam a [estrutura de Relatório eletrônico (ER)](general-electronic-reporting.md) para configurar formatos para documentos de saída de acordo com os requisitos legais de vários países/regiões. Os usuários também podem definir o fluxo de dados para especificar quais dados do aplicativo são colocados nos documentos gerados. A estrutura de ER gera documentos de saída nos formatos do Microsoft Office (pastas de trabalho do Excel ou documentos do Word) usando modelos predefinidos. Os modelos são preenchidos com os dados necessários de acordo com o fluxo de dados configurado enquanto os documentos necessários são gerados. Cada formato configurado pode ser publicado como parte de uma solução de ER para gerar documentos de saída específicos. Isso é representado por uma configuração de formato de ER que pode conter modelos usados para gerar diferentes documentos de saída. Os usuários comerciais podem usar essa estrutura para gerenciar os documentos comerciais necessários.
+Os usuários comerciais usam a [Visão geral de ER (Relatórios eletrônicos)](general-electronic-reporting.md) para configurar formatos para documentos de saída de acordo com os requisitos legais de vários países/regiões. Os usuários também podem definir o fluxo de dados para especificar quais dados do aplicativo são colocados nos documentos gerados. A estrutura de ER gera documentos de saída nos formatos do Microsoft Office (pastas de trabalho do Excel ou documentos do Word) usando modelos predefinidos. Os modelos são preenchidos com os dados necessários de acordo com o fluxo de dados configurado enquanto os documentos necessários são gerados. Cada formato configurado pode ser publicado como parte de uma solução de ER para gerar documentos de saída específicos. Isso é representado por uma configuração de formato de ER que pode conter modelos usados para gerar diferentes documentos de saída. Os usuários comerciais podem usar essa estrutura para gerenciar os documentos comerciais necessários.
 
 O **gerenciamento de documentos comerciais** é baseado na estrutura de ER e permite que os usuários comerciais editem modelos de documentos comerciais usando o serviço do Microsoft Office 365 ou o aplicativo de área de trabalho apropriado do Microsoft Office. As edições nos documentos podem incluir a alteração dos designs dos documentos comerciais e a adição de espaços reservados para dados adicionais sem alterações no código-fonte e novas implantações. Não é necessário conhecimento da estrutura de ER para atualizar modelos de documentos comerciais.
 
@@ -58,21 +59,17 @@ Os seguintes relatórios, com modelos baseados no Excel, estarão disponíveis c
 
 Mais relatórios estarão disponíveis. Notificações especiais sobre relatórios adicionais serão enviadas separadamente. 
 
-Uma lista completa de todos os relatórios planejados para a versão de outubro de 2019 pode ser encontrada em [Relatório configurável de documentos comerciais em Word e Excel](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
-
-# <a name="example-enable-configure-and-use-business-document-management"></a>Exemplo: habilitar, configurar e usar o gerenciamento de documentos comerciais
-
-Para saber mais sobre este recurso, conclua o exemplo neste tópico.
+Uma lista completa de todos os relatórios planejados para a versão de outubro de 2019 pode ser encontrada em [Relatório configurável de documentos comerciais em Word e Excel](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details). Para saber mais sobre este recurso, conclua o exemplo neste tópico.
 
 ## <a name="configure-er-parameters"></a>Configurar parâmetros de ER
 
-Como o gerenciamento de documentos comerciais é baseado na estrutura de ER, você deve configurar os parâmetros de ER para começar a trabalhar com o gerenciamento de documentos comerciais. Para isso, você precisa configurar os parâmetros de ER, conforme descrito em [Configurar a estrutura de ER](electronic-reporting-er-configure-parameters.md). Você também precisa adicionar um novo provedor de configuração, conforme descrito em [Criar provedores de configuração e marcá-los como ativos](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+Como o gerenciamento de documentos comerciais é baseado na estrutura de ER, você deve configurar os parâmetros de ER para começar a trabalhar com o gerenciamento de documentos comerciais. Para isso, você precisa configurar os parâmetros de ER, conforme descrito em [Configurar a estrutura de ER (Relatórios eletrônicos)](electronic-reporting-er-configure-parameters.md). Você também precisa adicionar um novo provedor de configuração, conforme descrito em [Criar provedores de configuração e marcá-los como ativos](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ![Espaço de trabalho ER](./media/BDM-Overview-ERSetting.png)
 
 ## <a name="import-er-solutions"></a>Importar soluções de ER
 
-Você deve importar configurações de ER que contêm modelos de documentos comerciais para a instância atual. Baixe e armazene localmente os seguintes arquivos para concluir este procedimento.
+As amostras de configurações de ER são usadas no exemplo deste procedimento. Você deve importar, na sua instância atual do Dynamics 365 Finance, as configurações de ER que contêm modelos de documentos comerciais que podem ser editados usando o gerenciamento de documentos comerciais. Baixe e armazene localmente os seguintes arquivos para concluir este procedimento.
 
 **Solução de faturamento de cliente de ER**
 
@@ -105,7 +102,13 @@ Use o procedimento a seguir para importar cada arquivo. Importe a configuração
 
 ![Página de configurações de ER](./media/BDM-Overview-ERSolutions.png)
 
+
+Como alternativa, você pode importar as configurações oficialmente publicadas no formato de ER desde o Microsoft Dynamics Lifecycle Service (LCS). Por exemplo, para concluir este procedimento poderá importá-las a versão mais recente do formato de ER **Fatura de texto livre (Excel)**. As configurações do modelo de dados de ER e do mapeamento do modelo de ER correspondentes serão importadas automaticamente.
+
+![Página de conteúdo da biblioteca de ativos compartilhados do LCS](./media/BDM-Overview-SharedAssetLibrary.png)
+
 Para obter mais informações sobre como importar configurações de ER, consulte [Gerenciar o ciclo de vida da configuração de relatório eletrônico (ER)](general-electronic-reporting-manage-configuration-lifecycle.md).
+
 
 ## <a name="enable-business-document-management"></a>Habilitar gerenciamento de documentos comerciais
 
@@ -118,9 +121,12 @@ Use o procedimento a seguir para habilitar a funcionalidade de gerenciamento de 
 3. Selecione **Habilitar agora** para ativar o recurso selecionado.
 4. Atualize a página para acessar o novo recurso.
 
+>[!NOTE]
+> Você também precisa habilitar a **experiência de interface de usuário semelhante à do Office para o Gerenciamento de documentos comerciais** para usá-la como a nova interface de gerenciamento de documentos comerciais
+
 ![Espaço de trabalho do gerenciamento de recursos](./media/BDM-Overview-FMEnabling.png)
 
-Para obter mais informações sobre como ativar novos recursos, consulte [Visão geral do gerenciamento de recursos](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Para obter mais informações sobre como ativar novos recursos, consulte [Visão geral do gerenciamento de recursos](../../fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="configure-parameters"></a>Configurar parâmetros
 
@@ -137,7 +143,7 @@ Para esse tipo de documento, os valores de atributo a seguir devem ser seleciona
 | Agrupar               | Arquivo                  |
 | Local            | SharePoint            |
 
-Para obter informações sobre como configurar os parâmetros e tipos de documento necessários para gerenciamento de documentos, consulte [Configurar gerenciamento de documentos](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management).
+Para obter informações sobre como configurar os parâmetros e tipos de documento necessários para gerenciamento de documentos, consulte [Configurar gerenciamento de documentos](../../fin-ops/organization-administration/configure-document-management.md).
 
 ![Configurar o tipo de documento de gerenciamento de documentos](./media/BDM-Overview-DMSetting.png)
 
@@ -179,21 +185,21 @@ Use o procedimento a seguir para configurar as permissões de gerenciamento de d
 1. Entre no como um usuário com acesso à página **Configurador de permissões de acesso**.
 2. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Gerenciamento de documentos comerciais** \> **Gerenciar permissões de acesso**.
 
-Preste atenção na notificação informando que o uso de permissões de acesso para gerenciamento de documentos comerciais não está habilitado no momento.
+    Preste atenção na notificação informando que o uso de permissões de acesso para gerenciamento de documentos comerciais não está habilitado no momento.
 
-![Página do configurador de permissões de acesso ao gerenciamento de documentos comerciais](./media/BDM-Overview-TemplatesAccess1.png)
+    ![Página do configurador de permissões de acesso ao gerenciamento de documentos comerciais](./media/BDM-Overview-TemplatesAccess1.png)
 
-Com essa configuração, todos os usuários atribuídos a qualquer função de segurança configurada para executar a obrigação **Gerenciar modelos de documento comercial** (nome da AOT **ERBDManageTemplates**) podem abrir o espaço de trabalho Gerenciamento de documentos comerciais e podem editar qualquer modelo disponível.
+    Com essa configuração, todos os usuários atribuídos a qualquer função de segurança configurada para executar a obrigação **Gerenciar modelos de documento comercial** (nome da AOT **ERBDManageTemplates**) podem abrir o espaço de trabalho Gerenciamento de documentos comerciais e podem editar qualquer modelo disponível.
 
-O gráfico a seguir mostra o que está disponível no espaço de trabalho Gerenciamento de documentos comerciais para usuários atribuídos à função **Auxiliar de contas a receber**. Com a configuração atual de permissões de acesso, o usuário pode editar modelos de documentos comerciais de diferentes áreas funcionais, incluindo faturamento, relatórios regulatórios e pagamentos.
+    O gráfico a seguir mostra o que está disponível no espaço de trabalho Gerenciamento de documentos comerciais para usuários atribuídos à função **Auxiliar de contas a receber**. Com a configuração atual de permissões de acesso, o usuário pode editar modelos de documentos comerciais de diferentes áreas funcionais, incluindo faturamento, relatórios regulatórios e pagamentos.
 
-![Página do espaço de trabalho de gerenciamento de documentos comerciais](./media/BDM-Overview-TemplatesForAlice1.png)
+    ![Página do espaço de trabalho de gerenciamento de documentos comerciais](./media/BDM-Overview-TemplatesForAlice1.png)
 
 3. Na página **Configurador de permissões de acesso**, selecione **Configuração de permissões de acesso**.
 4. Na caixa de diálogo **Configurações de permissões de acesso para editar modelos**, habilite a opção **Aplicar permissões de acesso configuradas**.
 5. Selecione **OK** para confirmar se as permissões de acesso ao gerenciamento de documentos comerciais foram habilitadas.
 
-![Página do configuração de permissões de acesso de gerenciamento de documentos comerciais](./media/BDM-Overview-TemplatesAccess2.png)
+    ![Página do configuração de permissões de acesso de gerenciamento de documentos comerciais](./media/BDM-Overview-TemplatesAccess2.png)
 
 6. Selecione **Adicionar** para inserir uma nova função comercial para a qual as permissões para acessar os modelos de gerenciamento de documentos comerciais devem ser configuradas.
 7. Na caixa de diálogo **Funções de segurança**, selecione a função **Auxiliar de contas a receber** e selecione **OK** para confirmar a seleção de função.
@@ -201,14 +207,14 @@ O gráfico a seguir mostra o que está disponível no espaço de trabalho Gerenc
 9. No campo **Tipo de etiqueta**, selecione **Área funcional** e, no campo **ID**, selecione **Faturamento**.
 10. Selecione **Salvar** para armazenar permissões de acesso configuradas da função selecionada.
 
-  A configuração atual significa que, para qualquer usuário que é atribuído à função **Auxiliar de contas a receber** e realizando a obrigação **Gerenciar modelos de documento comercial** (nome da AOT **ERBDManageTemplates**), modelos de configuração de formato de ER com o valor **Faturamento** da etiqueta **Área funcional** estarão disponíveis para edição no espaço de trabalho Gerenciamento de documentos comerciais.
+    A configuração atual significa que, para qualquer usuário que é atribuído à função **Auxiliar de contas a receber** e realizando a obrigação **Gerenciar modelos de documento comercial** (nome da AOT **ERBDManageTemplates**), modelos de configuração de formato de ER com o valor **Faturamento** da etiqueta **Área funcional** estarão disponíveis para edição no espaço de trabalho Gerenciamento de documentos comerciais.
 
 11. Alterne o painel **Informações relacionadas** no lado direito da página atual. O painel **Informações relacionadas** mostra como as permissões de acesso configuradas serão aplicadas, incluindo quais modelos de configuração de ER estarão disponíveis para usuários atribuídos à função **Auxiliar de contas a receber**.
 
-![Página do configuração de permissões de acesso de gerenciamento de documentos comerciais](./media/BDM-Overview-TemplatesAccess3.png)
+    ![Página do configuração de permissões de acesso de gerenciamento de documentos comerciais](./media/BDM-Overview-TemplatesAccess3.png)
 
 12. Na guia **Permissões de acesso por marcas de configurações**, selecione a opção **Adicionar**.
-13. Na caixa de diálogo **Select configuration**, marque a configuração de formato de ER **Relatório intrastat**.
+13. Na caixa de diálogo **Selecionar configuração**, marque a configuração de formato de ER **Relatório intrastat**.
 14. Selecione **OK** para confirmar a entrada das configurações selecionadas e selecione **Salvar** para armazenar as permissões de acesso configuradas da função selecionada.
 
 A configuração atual significa que, para qualquer usuário que é atribuído à função **Auxiliar de contas a receber** e realizando a obrigação **Gerenciar modelos de documento comercial** (nome da **ERBDManageTemplates**), os modelos a seguir estarão disponíveis para edição no espaço de trabalho Gerenciamento de documentos comerciais:
@@ -252,21 +258,31 @@ A opção **Editar modelo** está disponível para o modelo selecionado. Essa op
 
 ### <a name="initiate-editing-templates-owned-by-other-providers"></a>Iniciar modelos de edição pertencentes a outros provedores
 
-1. No espaço de trabalho Gerenciamento de documentos comerciais, selecione o modelo **Relatório de FTI do cliente (GER)** na lista.
-2. Selecione a guia **Detalhes**.
+1. No espaço de trabalho Gerenciamento de documentos comerciais, selecione **Novo documento**.
 
-![Página do espaço de trabalho de gerenciamento de documentos comerciais](./media/BDM-Overview-EditingTemplate3.png)
+![Página do espaço de trabalho de gerenciamento de documentos comerciais](./media/BDM_overview_new_template1.png)
 
-A opção **Novo documento** está disponível para o modelo selecionado. Essa opção está sempre disponível para um modelo em uma configuração de formato de ER fornecida por outro provedor (**Litware, Inc.** neste exemplo). Quando **Novo documento** é selecionado, um novo modelo estará disponível para edição. O modelo editado será armazenado em uma nova configuração de formato de ER que é gerada automaticamente.
+2. Selecione o documento que você deseja usar como um modelo.
+
+![Página do espaço de trabalho de gerenciamento de documentos comerciais](./media/BDM_overview_new_template2.png)
+
+3. Clique em **Criar documento**
+4. No campo **Cargo**, altere o título do modelo editável, se necessário. O texto será usado para nomear a configuração de formato de ER criada automaticamente. Observe que a versão de rascunho dessa configuração (**Cópia do relatório de FTI do cliente (GER)**) que conterá o modelo editado será automaticamente marcada para executar esse formato de ER para o usuário atual. Ao mesmo tempo, o modelo original não modificado da configuração básica do formato de ER será usado para executar esse formato de ER para qualquer outro usuário.
+5. No campo **Nome**, altere o nome da primeira revisão do modelo editável que será criado automaticamente.
+6. No campo **Comentário**, altere a observação para a revisão criada automaticamente do modelo editável.
+7. Selecione **OK** para confirmar o início do processo de edição
+
+![Página do espaço de trabalho de gerenciamento de documentos comerciais](./media/BDM_overview_new_template3.png)
+
+A opção **Novo documento** está sempre disponível para um modelo em uma configuração de formato de ER fornecida por outro provedor (a Microsoft, neste exemplo). Quando clicar em **Novo documento**, você verá todos os modelos de propriedade do provedor atual e de outros. Depois que você escolher o modelo, ele será aberto para edição. O modelo editado será armazenado em uma nova configuração de formato de ER que é gerada automaticamente.
 
 ### <a name="start-editing-a-template"></a>Começar a editar um modelo
 
-1. No modelo selecionado, selecione **Novo documento**.
-2. No campo **Cargo**, altere o título do modelo editável, se necessário. O texto será usado para nomear a configuração de formato de ER criada automaticamente. Observe que a versão de rascunho dessa configuração (**Cópia do relatório de FTI do cliente (GER)**) que conterá o modelo editado será automaticamente marcada para executar esse formato de ER para o usuário atual. Ao mesmo tempo, o modelo original não modificado da configuração básica do formato de ER será usado para executar esse formato de ER para qualquer outro usuário.
-3. No campo **Nome**, altere o nome da primeira revisão do modelo editável que será criado automaticamente.
-4. No campo **Comentário**, altere a observação para a revisão criada automaticamente do modelo editável.
+1. No modelo selecionado, selecione **Editar documento**.
+2. No campo **Nome**, altere o nome da primeira revisão do modelo editável que será criado automaticamente.
+3. No campo **Comentário**, altere a observação para a revisão criada automaticamente do modelo editável.
 
-![Página do espaço de trabalho de gerenciamento de documentos comerciais](./media/BDM-Overview-EditingTemplate4.png)
+    ![Página do espaço de trabalho de gerenciamento de documentos comerciais](./media/BDM_overview_new_template4.png)
 
 5. Selecione **OK** para confirmar o início do processo de edição.
 
@@ -285,15 +301,15 @@ Modifique o modelo usando a funcionalidade do Office 365. Por exemplo, no Office
 1. Selecione a opção **Abrir no Aplicativo de Área de Trabalho** para modificar o modelo usando a funcionalidade do aplicativo de área de trabalho do Office (Excel neste exemplo). O modelo editável é copiado do armazenamento permanente para o armazenamento temporário configurado nos parâmetros de gerenciamento de documentos comerciais como uma pasta do SharePoint.
 2. Confirme se deseja abrir o modelo do armazenamento de arquivos temporário no aplicativo de área de trabalho do Excel no Office.
 
-![Página do espaço de trabalho de gerenciamento de documentos comerciais](./media/BDM-Overview-EditingLayout3.png)
+    ![Página do espaço de trabalho de gerenciamento de documentos comerciais](./media/BDM-Overview-EditingLayout3.png)
 
 3. Modifique o modelo. Por exemplo, altere a fonte dos avisos dos campos no cabeçalho do modelo, atualizando a cor de **Preto** para **Azul**.
 
-![Página do editor de modelo de gerenciamento de documentos comerciais](./media/BDM-Overview-EditingLayout4.png)
+    ![Página do editor de modelo de gerenciamento de documentos comerciais](./media/BDM-Overview-EditingLayout4.png)
 
 4. Selecione **Salvar** no aplicativo de área de trabalho do Excel para armazenar as alterações de modelo no armazenamento temporário.
 
-![Página do editor de modelo de gerenciamento de documentos comerciais](./media/BDM-Overview-EditingLayout5.png)
+    ![Página do editor de modelo de gerenciamento de documentos comerciais](./media/BDM-Overview-EditingLayout5.png)
 
 5. Feche o aplicativo da área de trabalho do Excel.
 6. Selecione **Sincronizar cópia armazenada** para sincronizar o armazenamento de modelos temporário com o armazenamento de modelos permanente.
@@ -307,7 +323,7 @@ Modifique o modelo usando a funcionalidade do Office 365. Por exemplo, no Office
 2. Selecione **Mostrar formato** para exibir a estrutura atual do formato na configuração básica de formato de ER que deve estar alinhada com o modelo editável. 
 3. Selecione **Ocultar formato** para fechar o painel.
 
-![Página do editor de modelo de BDM](./media/BDM-Overview-EditingTemplate6.png)
+    ![Página do editor de modelo de BDM](./media/BDM-Overview-EditingTemplate6.png)
 
 4. Feche a página **Editor de modelo de BDM**.
 
@@ -323,7 +339,7 @@ O modelo atualizado é mostrado na guia **Modelo**. Observe que o status do mode
 4. Selecione o nível **Módulo - Contas a receber** \> **Documentos** \> **Fatura de texto livre** \> **Documento original** para especificar o escopo das faturas para processamento.
 5. No campo **Formato de relatório**, selecione o formato de ER **Cópia do relatório de FTI do cliente (GER)** para o nível do documento especificado.
 
-![Página de configuração de gerenciamento de impressão](./media/BDM-Overview-TestRun1.png)
+    ![Página de configuração de gerenciamento de impressão](./media/BDM-Overview-TestRun1.png)
 
 6. Pressione **Esc** para fechar a página atual.
 7. Selecione **Imprimir** e clique em **Selecionado**.
@@ -340,9 +356,9 @@ O modelo modificado é usado para gerar o relatório de fatura de texto livre pa
 3. Se necessário, no campo **Nome**, altere o nome da segunda revisão e baseie-o na primeira revisão atualmente ativa.
 4. Se necessário, no campo **Comentário**, altere a observação para a revisão criada automaticamente do modelo editável.
 
-![Página do espaço de trabalho de gerenciamento de documentos comerciais](./media/BDM-Overview-AddRevision.png)
+    ![Página do espaço de trabalho de gerenciamento de documentos comerciais](./media/BDM-Overview-AddRevision.png)
 
-Você criou uma revisão do seu modelo que foi armazenada no armazenamento permanente do modelo. Agora você pode continuar editando o modelo da segunda revisão atualmente selecionada como ativa.
+    Você criou uma revisão do seu modelo que foi armazenada no armazenamento permanente do modelo. Agora você pode continuar editando o modelo da segunda revisão atualmente selecionada como ativa.
 
 5. Selecione a primeira revisão e selecione **Definir como ativo**. É possível selecionar outra revisão como ativa para retornar a essa revisão do modelo a qualquer momento.
 6. Selecione a segunda revisão e selecione **Excluir**.
@@ -370,7 +386,7 @@ Ao editar o modelo de um formato de ER que pertence ao provedor ativo atual, voc
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
-#### <a name="i-selected-new-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>Selecionei **Novo documento**, mas, em vez de abrir a página **Editor de modelo de BDM** no Finance and Operations, fui direcionado à página da Web do Office 365.
+#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>Eu selecionei **Editar documento**, mas em vez de abrir a página **Editor de modelos de BDM** no Finance and Operations, fui direcionado à página da Web do Office 365.
 Esse é um problema conhecido de redirecionamento do Office 365. Isso acontece quando você entra no Office 365 pela primeira vez. Para contornar esse problema, selecione o botão **Voltar** do navegador para retornar.
 
 #### <a name="i-understand-how-to-edit-a-template-by-using-office-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-adjusting-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-do-this-using-the-office-desktop-application"></a>Entendo como editar um modelo usando o Office 365 na primeira sessão do aplicativo e como usar o modelo na segunda sessão do aplicativo ajustando o modelo para ver como minhas alterações afetam o documento comercial gerado. Posso fazer isso usando o aplicativo da área de trabalho do Office?
@@ -386,12 +402,12 @@ Provavelmente, você entrou na instância atual do aplicativo do domínio do Azu
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral de Relatório eletrônico](general-electronic-reporting.md)
+[Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
 
-[Criar uma configuração para gerar relatórios no formato OPENXML](tasks/er-design-reports-openxml-2016-11.md)
+[ER Projetar uma configuração para gerar relatórios no formato OPENXML (Novembro de 2016)](tasks/er-design-reports-openxml-2016-11.md)
 
 [Criar configurações de ER para gerar relatórios no formato do Word](tasks/er-design-configuration-word-2016-11.md)
 
 [Inserir imagens e formas em documentos que você gerar usando ER](electronic-reporting-embed-images-shapes.md)
 
-[Configurar Relatório eletrônico para efetuar pull de dados no Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+[Configurar ER (Relatórios eletrônicos) para efetuar pull de dados para o Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)

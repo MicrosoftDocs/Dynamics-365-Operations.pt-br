@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d51b9a7684e460d555632c3896e9dd8a4e10d92c
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 005b04bd4c3476356f30ba8e97564f83307a64c7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626169"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811729"
 ---
 # <a name="automatic-update-of-asset-counters"></a>Atualização automática de contadores de ativo
 
@@ -43,16 +43,16 @@ Como mencionado acima, os contadores automáticos podem ser atualizados por meio
 
 2. No campo **Data inicial**, selecione a data de início da atualização automática.
 
->[!NOTE]
->A data nesse campo é a data do "trabalho em andamento" em **Transações de roteiro** ( campo **Controle de produção** > **Consultas e relatórios** > **Produção** > **Transações de roteiro** > **Data física**).
+    >[!NOTE]
+    >A data nesse campo é a data do "trabalho em andamento" em **Transações de roteiro** ( campo **Controle de produção** > **Consultas e relatórios** > **Produção** > **Transações de roteiro** > **Data física**).
 
 3. Na Guia Rápida **Registros a incluir**, você pode selecionar ativos, tipos de ativo ou recursos específicos para a atualização automática. Selecione **Filtro** e faça as seleções relevantes.
 
 4. Na Guia Rápida **Executar em segundo plano**, você pode configurar a atualização automática como um trabalho em lote, conforme necessário.
 
-A ilustração a seguir mostra um exemplo do diálogo **Atualizar contadores de ativos**.
+    A ilustração a seguir mostra um exemplo do diálogo **Atualizar contadores de ativos**.
 
-![Figura 1](media/12-work-orders.png)
+    ![Figura 1](media/12-work-orders.png)
 
 5. Selecione **OK**. 
 

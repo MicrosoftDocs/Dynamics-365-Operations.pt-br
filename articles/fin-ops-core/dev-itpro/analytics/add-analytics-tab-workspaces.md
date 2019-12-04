@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: dd88537506521fd37aa170c7e8f43bcf5a106836
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1a357c4623f4f9dc441fe328ec0d5481c14ae4af
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174342"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771624"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Adicionar análise a espaços de trabalho usando o Power BI Embedded
 
@@ -102,7 +102,7 @@ Agora que você já adicionou os controles de formulário que serão usados para
 > [!NOTE]
 > Para espaços de trabalho incorporados, recomendamos o uso de extensões para ocultar as páginas **Painel de filtros** e **Guia** para que haja consistência.
 
-Agora você já concluiu a tarefa de estender a definição de formulário de aplicativo. Para obter mais informações sobre como usar extensões para realizar personalizações, consulte [Personalização: sobreposições e extensões](../extensibility/customization-overlayering-extensions.md).
+Agora você já concluiu a tarefa de estender a definição de formulário de aplicativo. Para obter mais informações sobre como usar extensões para fazer personalizações, consulte [Personalizar por meio de extensão e sobreposição](../extensibility/customization-overlayering-extensions.md).
 
 ## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>Adicionar a lógica comercial X++ para incorporar um controle mais amplo
 Siga essas etapas para adicionar a lógica comercial que inicializa o controle de relatório mais amplo incorporado no espaço de trabalho **Gerenciamento de reservas**.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08d128e3006d019fa19b52f320b262ae49105e5d
-ms.sourcegitcommit: ddd66bd329e76d88178032566b0a57637159b537
+ms.openlocfilehash: 16a67ef625fdde0755e96c959be1fb2989ca53b6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "2666821"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770657"
 ---
 # <a name="sales-tax-overview"></a>Visão geral de imposto
 
@@ -38,7 +38,7 @@ A estrutura de imposto dá suporte a muitos tipos de impostos indiretos, como im
 
 O diagrama a seguir mostra as entidades da configuração de imposto e a forma como estão relacionadas.
 
-[![TaxOverview](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
+[![Diagrama mostrando a visão geral de entidades de configuração de impostos](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
 Para cada imposto que uma empresa deve ser responsável, deve ser definido um código de imposto. Um código de imposto sobre vendas armazena as taxas de imposto e as regras de cálculo do imposto sobre vendas. 
 
@@ -55,7 +55,7 @@ A tabela a seguir descreve as entidades e a sequência para a configuração de 
 | Atividade de configuração                                                  | Necessária/Opcional e descrição                                                                                                                                                                                                                                                                                         |
 |-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Criar contas principais.                                           | Necessário. Antes de configurar a funcionalidade de imposto sobre vendas, as contas principais usadas pela empresa para pagar e registrar impostos deve ser criada.                                                                                                                                                                             |
-| Configurar grupos de lançamento contábil do imposto.                     | Necessário. Os grupos de lançamentos contábeis definem as contas principais para registrar e pagar impostos sobre vendas.   Para saber mais, consulte [Configurar grupos de lançamentos contábeis para impostos](tasks/set-up-ledger-posting-groups-sales-tax.md).                                                                                 |
+| Configurar grupos de lançamento contábil do imposto.                     | Necessário. Os grupos de lançamentos contábeis definem as contas principais para registrar e pagar impostos sobre vendas.   Para saber mais, consulte [Configurar grupos de lançamentos do Razão para impostos](tasks/set-up-ledger-posting-groups-sales-tax.md).                                                                                 |
 | Configurar autoridades de imposto.                                   | Necessário. As autoridades de impostos sobre vendas são as entidades para as quais o imposto deve ser informado e pago.    Para saber mais, consulte [Configurar autoridades de imposto](tasks/set-up-sales-tax-authorities.md).                                                                                                                                          |
 | Configurar períodos de liquidação do imposto.                            | Necessário. Os períodos de liquidação do imposto sobre vendas contêm informações sobre quando e com que frequência os impostos sobre vendas devem ser reportados e pagos. Estão relacionadas a uma autoridade de imposto sobre vendas.                                                                                                                                                       |
 | Defina códigos de isenção de imposto sobre vendas.                               | Opcional. Os códigos de relatório de imposto sobre vendas podem ser atribuídos aos códigos de imposto sobre vendas para reportar valores para diversos códigos de imposto sobre vendas sob um código de relatório de imposto sobre vendas. Para saber mais, consulte [Configurar códigos de relatório de imposto](tasks/set-up-sales-tax-reporting-codes.md).                                         |

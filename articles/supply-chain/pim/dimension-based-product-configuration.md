@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca7e5555a242c10d2268182ed440e686a1dc46ad
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: ad8c2c82f9104a350d37534e4d70372da82f40a7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865343"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815033"
 ---
 # <a name="dimension-based-product-configuration-overview"></a>Visão geral de configuração de produtos baseada em dimensão
 
@@ -79,12 +79,12 @@ A tecnologia de configuração baseada em dimensão é melhor usada para produto
 
 As seguintes oito guias de tarefa são listadas na ordem em que devem ser concluídas. 
 
-1.  [Criar um produto mestre baseado em dimensão (Guia de tarefas)](tasks/create-dimension-based-product-master.md)
-2.  [Lançar um produto mestre baseado em dimensão (Guia de tarefas)](tasks/release-dimension-based-product-master.md)
-3.  [Concluir a configuração básica de um produto mestre lançado (Guia de tarefas)](tasks/complete-basic-setup-released-product-master.md)
-4.  [Definir grupos de configuração (Guia de tarefas)](tasks/define-configuration-groups.md)
-5.  [Criar uma lista de materiais para um produto mestre baseado em dimensão (Guia de tarefas)](tasks/create-bill-materials-dimension-based-product-master.md)
-6.  [Definir roteiros de configuração (Guia de tarefas)](tasks/define-configuration-route.md)
-7.  [Criar regras de configuração (Guia de tarefas)](tasks/create-configuration-rules.md)
-8.  [Criar configurações baseadas em dimensão (Guia de tarefas)](tasks/create-dimension-based-configurations.md)
+1.  [Criar um produto mestre baseado em dimensão](tasks/create-dimension-based-product-master.md)
+2.  [Liberar um produto mestre baseado na dimensão](tasks/release-dimension-based-product-master.md)
+3.  [Completar instalação básica de um produto mestre lançado](tasks/complete-basic-setup-released-product-master.md)
+4.  [Definir grupos de configuração](tasks/define-configuration-groups.md)
+5.  [Criar uma lista de materiais para um produto mestre baseado na dimensão](tasks/create-bill-materials-dimension-based-product-master.md)
+6.  [Definir roteiros de configuração](tasks/define-configuration-route.md)
+7.  [Criar regras de configuração](tasks/create-configuration-rules.md)
+8.  [Criar configurações baseadas em dimensão](tasks/create-dimension-based-configurations.md)
 

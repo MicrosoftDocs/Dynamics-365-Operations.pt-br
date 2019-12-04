@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: b031fd95d2e7fc8405ad96139779091e00bb4d46
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 42065f3d6b7ae9e7ad99b26c7692e41f8c36934d
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551463"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832968"
 ---
 # <a name="troubleshoot-integration-with-linkedin-and-microsoft-dynamics-365-talent---attract"></a>Solucionar problemas de integração entre o LinkedIn e o Microsoft Dynamics 365 Talent - Attract
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Use as informações a seguir para ajudar a solucionar problemas que você possa ter ao tentar postar trabalhos no LinkedIn por meio do Microsoft Dynamics 365 Talent: Attract.
 
@@ -42,18 +42,18 @@ Caso esteja tendo problemas para entrar no LinkedIn pelo Attract, tente estas et
 
 Se os seus trabalhos não forem exibidos no LinkedIn depois de 24 horas, tente estas etapas:
 
-1. Verifique se a sua ID da Empresa no LinkedIn mapeia para a página de sua empresa no LinkedIn e se foi inserida corretamente no Centro de administração do Attract. Para obter mais informações sobre como alterar as configurações do LinkedIn no Centro de administração, consulte [Configurar a integração com o LinkedIn](attract-admin-linkedin.md). Para obter informações sobre IDs de Empresa no LinkedIn, consulte [Associando sua ID da Empresa no LinkedIn com o quadro de trabalhos do LinkedIn — Perguntas frequentes](https://www.linkedin.com/help/linkedin/answer/98972).
+1. Verifique se a sua ID da Empresa no LinkedIn mapeia para a página de sua empresa no LinkedIn e se foi inserida corretamente no Centro de administração do Attract. Para obter mais informações sobre como alterar as configurações do LinkedIn no Centro de administração, consulte [Configurar a integração com o LinkedIn para o Microsoft Dynamics 365 Talent - Attract](attract-admin-linkedin.md). Para obter informações sobre IDs de Empresa no LinkedIn, consulte [Associando sua ID da Empresa no LinkedIn com o quadro de trabalhos do LinkedIn — Perguntas frequentes](https://www.linkedin.com/help/linkedin/answer/98972).
 2. Verifique os detalhes do trabalho no LinkedIn para garantir que o endereço esteja completo. Para lançar um trabalho com êxito, o LinkedIn precisa, pelo menos, da cidade e do país ou da região do trabalho.
 3. Verifique se o trabalho não é uma trabalhos de outro trabalho que foi lançado no LinkedIn. O LinkedIn não lançará trabalhos que são duplicatas de Slots de Trabalho Premium ou de Listagens Limitadas do LinkedIn de outra origem. Verifique se outra pessoa em sua empresa já não lançou o trabalho manualmente.
 
 ## <a name="see-also"></a>Consulte também
 
-[Perguntas frequentes sobre o LinkedIn](./attract-linkedin-faq.md)
+[Perguntas frequentes sobre a integração do Attract com o LinkedIn](./attract-linkedin-faq.md)
 
-[Lançar trabalhos no LinkedIn do Attract](./attract-post-jobs-to-linkedin.md)
+[Postar trabalhos no LinkedIn usando o Microsoft Dynamics 365 Talent - Attract](./attract-post-jobs-to-linkedin.md)
 
-[Fornecer candidatos com o LinkedIn Recruiter](./attract-linkedin-recruiter.md)
+[Contratar candidatos com o LinkedIn Recruiter no Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md)
 
-[Criar trabalhos](./creating-jobs-attract.md)
+[Criar, aprovar e lançar trabalhos no Attract](./creating-jobs-attract.md)
 
-[Solucionar problemas de integração com o LinkedIn](./attract-troubleshoot-linkedin.md)
+[Solucionar problemas de integração entre o LinkedIn e o Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)

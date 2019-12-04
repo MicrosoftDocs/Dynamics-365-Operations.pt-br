@@ -1,6 +1,6 @@
 ---
-title: Recomendações inteligentes
-description: Este tópico explica como machine learning pode ser usado para fornecer recomendações para trabalhos e candidatos a trabalhos.
+title: Recomendações inteligentes no Attract
+description: Este artigo explica como o aprendizado de máquina pode ser usado para fornecer recomendações para trabalhos e candidatos a trabalhos no Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 05/16/2019
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: beb54753c50e398197353f86c2a1239a96b879eb
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: fa06821c98e42dcd8590a764db9beb4a5c33fca2
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741743"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832782"
 ---
-# <a name="intelligent-recommendations"></a>Recomendações inteligentes
+# <a name="intelligent-recommendations-in-attract"></a>Recomendações inteligentes no Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Machine learning pode ajudar a recrutar e contratar gerentes rapidamente a identificar os candidatos principais para uma posição. Também pode ajudar os clientes potenciais a encontrar a posição que melhor atenda seu perfil e juros. Conforme esses recursos são usados e comentários são fornecidos, recomendações são melhoradas.
 
 > [!NOTE] 
 > - Os recursos de recomendação inteligente estão disponíveis somente com o [complemento de Contratação abrangente](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
-> - A funcionalidade observada neste tópico está disponível para usuários como parte de uma revisão de versão prévia. O conteúdo e as funcionalidades estão sujeitos a alteração. Para usar o recurso, peça ao administrador habilitá-lo usando as **Centro de administração** no Attract. Defina **Recomendação de candidato**, **Recomendação de trabalho**, **Recomendação de colaborador potencial** como **Ativado**. Para obter mais informações, consulte [Acessar os recursos de visualização no Talent](./access-preview-feature.md). 
+> - A funcionalidade observada neste tópico está disponível para usuários como parte de uma revisão de versão prévia. O conteúdo e as funcionalidades estão sujeitos a alteração. Para usar o recurso, peça ao administrador habilitá-lo usando as **Centro de administração** no Attract. Defina **Recomendação de candidato**, **Recomendação de trabalho**, **Recomendação de colaborador potencial** como **Ativado**. Para obter mais informações, consulte [Acessar as versões prévias de recurso no Microsoft Dynamics 365 Talent](./access-preview-feature.md). 
 
 
 ## <a name="candidate-recommendations"></a>Recomendações de candidato

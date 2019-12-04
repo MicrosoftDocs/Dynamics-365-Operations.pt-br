@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 6c045f82f3288dba193721dd80c90e68750af9a7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 954e0669c3d24bcc20fe667c22b7dcc367aba1e7
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176427"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770795"
 ---
 # <a name="overhead-calculation"></a>Cálculo de custos indiretos
 
@@ -1411,7 +1411,7 @@ Na contabilidade financeira, um custo de 10,000.00 para a eletricidade é lança
 </table>
 
 > [!NOTE]
-> Esse tópico mostra como um elemento de custo principal, 10001 Eletricidade flui pelos objetos de custo. Portanto, esse custo geral indireto é alocado no nível mais baixo na organização. Em outras palavras, os objetos de custo no nível mais baixo assumem o custo. Se você exigir um fluxo visual de custo entre objetos de custo, é possível usar as regras de política de acúmulo de custos para visualizar o fluxo de custo. Para maiores informações, consulte [Acúmulo de custo](cost-rollup.md).
+> Esse tópico mostra como um elemento de custo principal, 10001 Eletricidade flui pelos objetos de custo. Portanto, esse custo geral indireto é alocado no nível mais baixo na organização. Em outras palavras, os objetos de custo no nível mais baixo assumem o custo. Se você exigir um fluxo visual de custo entre objetos de custo, é possível usar as regras de política de acúmulo de custos para visualizar o fluxo de custo. Para obter mais informações, consulte [Política de acúmulo de custo e cálculo de custos indiretos](cost-rollup.md).
 
 
 

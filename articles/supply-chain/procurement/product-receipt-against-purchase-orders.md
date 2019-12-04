@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b01e7e8e79061c7a306f00f041413cc1c5185cfe
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 2f39ce63b6d9d57e245fbdce27bd11a8cbc3eebf
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572258"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813397"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>​Recebimento de produtos contra ordens de compra​
 
@@ -59,13 +59,13 @@ Você pode acessar esta página a partir do grupo de ação **Recebimento** na p
 <a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Visão geral de ordem de compra](purchase-order-overview.md)
+[Visão geral de ordens de compra](purchase-order-overview.md)
 
-[Criação de ordem de compra](purchase-order-creation.md)
+[Criar ordens de compra](purchase-order-creation.md)
 
-[Confirmação e aprovação da ordem de compra](purchase-order-approval-confirmation.md)
+[Aprovar e confirmar ordens de compra](purchase-order-approval-confirmation.md)
 
-[Visão geral de faturas de fornecedor](../../financials/accounts-payable/vendor-invoices-overview.md)
+[​Visão geral de faturas de fornecedor​](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 
 

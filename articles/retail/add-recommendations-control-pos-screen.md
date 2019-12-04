@@ -19,19 +19,19 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d646c8ba559ba3e8d2175911e76c57d25eff02ca
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: e6f0b75c8d81a5ac6ec90020375aec39120d4406
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278120"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811207"
 ---
 # <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Adicionar um controle de recomendações à tela de transação em dispositivos do PDV
 
 [!include [banner](includes/banner.md)]
 
 
-Este tópico descreve como adicionar um controle de recomendações à tela da transação em um dispositivo de ponto de venda (PDV) usando o designer de layout de tela no Microsoft Dynamics 365 Retail. Para obter mais informações sobre recomendações de produtos, leia as [recomendações de produtos na documentação do PDV.](product.md)
+Este tópico descreve como adicionar um controle de recomendações à tela da transação em um dispositivo de ponto de venda (PDV) usando o designer de layout de tela no Microsoft Dynamics 365 Retail. Para obter mais informações sobre recomendações de produtos, leia as  [recomendações de produtos na documentação do PDV](product.md).
 
 
 Você pode exibir as recomendações de produtos no dispositivo do PDV ao usar o Microsoft Dynamics 365 Retail. Para exibir recomendações de produto, é necessário adicionar um controle à tela de transação usando o designer do layout da tela. 
@@ -98,6 +98,6 @@ Há duas opções de configurações disponíveis. Escolha a opção que funcion
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[recomendações de produtos no PDV](product.md)
+[Recomendações de produtos no PDV](product.md)
 
-[visão geral das recomendações de produtos](../commerce/product-recommendations.md)
+[Visão geral de recomendações de produtos](../commerce/product-recommendations.md)

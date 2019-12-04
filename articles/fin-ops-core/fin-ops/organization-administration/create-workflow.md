@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 2168b33c8495eab61ec0c8262b042cd16420031c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a643be553f3fcdfbe53f2024982a596e498830a8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190088"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811279"
 ---
 # <a name="create-workflows-overview"></a>Visão geral de criação de fluxos de trabalho
 
@@ -54,21 +54,21 @@ Execute as etapas abaixo para configurar as propriedades do fluxo de trabalho.
 
 1. Clique na tela para garantir que nenhum elemento do fluxo de trabalho esteja selecionado.
 2. Clique em **Propriedades** para abrir a página **Propriedades** para o fluxo de trabalho.
-3. Siga os procedimentos no tópico [Configurar as propriedades de um fluxo de trabalho](configure-workflow-properties.md).
+3. Siga os procedimentos no tópico [Configurar propriedades do fluxo de trabalho](configure-workflow-properties.md).
 
 ## <a name="configure-the-elements-of-the-workflow"></a>Configurar os elementos do fluxo de trabalho
 
 Configure cada elemento que você arrastou para a tela. Para obter informações sobre como configurar cada elemento do fluxo de trabalho, consulte os seguintes tópicos.
 
-- [Configurar uma tarefa manual](configure-manual-task-workflow.md)
-- [Configurar uma tarefa automatizada](configure-automated-task-workflow.md)
-- [Configurar um processo de aprovação](configure-approval-process-workflow.md)
-- [Configurar uma etapa de aprovação](configure-approval-step-workflow.md)
-- [Configurar uma decisão manual](configure-manual-decision-workflow.md)
-- [Configurar uma decisão condicional](configure-conditional-decision-workflow.md)
-- [Configurar uma atividade paralela](configure-parallel-activity-workflow.md)
+- [Configurar tarefas manuais em um fluxo de trabalho](configure-manual-task-workflow.md)
+- [Configurar tarefas automatizadas em um fluxo de trabalho](configure-automated-task-workflow.md)
+- [Configurar processos de aprovação em um fluxo de trabalho](configure-approval-process-workflow.md)
+- [Configurar etapas de aprovação em um fluxo de trabalho](configure-approval-step-workflow.md)
+- [Configurar decisões manuais em um fluxo de trabalho](configure-manual-decision-workflow.md)
+- [Configurar decisões condicionais em um fluxo de trabalho](configure-conditional-decision-workflow.md)
+- [Configurar ramificações paralelas em um fluxo de trabalho](configure-parallel-activity-workflow.md)
 - [Configurar uma ramificação paralela](configure-parallel-branch-workflow.md)
-- [Configurar um fluxo de trabalho de item de linha](configure-line-item-workflow.md)
+- [Configurar fluxos de trabalho de item de linha](configure-line-item-workflow.md)
 
 ## <a name="resolve-any-errors-or-warnings"></a>Resolver todos os erros ou avisos
 

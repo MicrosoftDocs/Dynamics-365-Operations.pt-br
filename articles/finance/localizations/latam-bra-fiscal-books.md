@@ -17,12 +17,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 189dd239c7c85b026f567f8c5ba413e73deb9ec7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9ffee71bf14f9897344985359199015d16598c62
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183892"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773394"
 ---
 # <a name="brazil-fiscal-books-overview"></a>Visão geral dos livros fiscais do Brasil
 
@@ -46,8 +46,8 @@ O SPED (Public Digital Bookkeeping System) ou Sistema Público de Escrituração
 ## <a name="additional-resources"></a>Recursos adicionais
 -   [Notas fiscais de transferência ou apropriação de imposto ICMS](latam-bra-icms-tax-fiscal-documents.md)         
 -   [Notas fiscais de importação](latam-bra-import-fiscal-documents.md)
--   [Importar e verificar os documentos XML da NF-e e os arquivos de DANFE](latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
--   [Notas fiscais](latam-bra-fiscal-documents-fiscal-document-framework.md) 
+-   [Importar e verificar documentos XML de NF-e e arquivos DANFE](latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
+-   [Notas fiscais e sua estrutura](latam-bra-fiscal-documents-fiscal-document-framework.md) 
 -   [Espaços reservados para texto da nota fiscal](latam-bra-fiscal-document-text-placeholders.md)
 -   [Notas fiscais complementares de compra](latam-bra-purchase-complementary-fiscal-documents.md) 
 -   [Notas fiscais referenciadas](latam-bra-referenced-fiscal-documents.md)         

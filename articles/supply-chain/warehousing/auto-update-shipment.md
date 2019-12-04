@@ -3,7 +3,7 @@ title: Atualizações automáticas de remessas
 description: Este tópico fornece uma visão geral da funcionalidade que permite atualizações automáticas de remessas.
 author: josaw1
 manager: AnnBe
-ms.date: 08/13/2019
+ms.date: 11/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,16 +18,15 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 160ad55a12d13fdb64e55effaabb1848179e71cf
-ms.sourcegitcommit: c35dfce2c0605d6f46365ce5d985c22187d21761
+ms.openlocfilehash: e42e7f19311adee7cc48f0ad0b59a4d0d54df9aa
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1986108"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773534"
 ---
 # <a name="shipment-auto-updates"></a>Atualizações automáticas de remessas
 
-[!include [banner](../includes/preview-banner.md)]
 [!include [banner](../includes/banner.md)]
 
 A funcionalidade de atualização automática de remessas atualiza automaticamente quantidades (aumentos e reduções) em uma linha de carga que esteja associada a uma remessa depois que a carga foi liberada para um depósito. Essa funcionalidade continua ativada até que linha de carga na remessa ou carga seja processada em uma onda. Quando usada, as atualizações de ordens podem passar automaticamente para o depósito, sem precisar de intervenção manual, até que o trabalho do depósito seja criado.

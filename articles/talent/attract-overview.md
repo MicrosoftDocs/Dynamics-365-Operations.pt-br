@@ -1,5 +1,5 @@
 ---
-title: Recursos e funcionalidades do Microsoft Dynamics 365 Talent - Attract
+title: Recursos e funcionalidades do Attract
 description: Este tópico descreve os recursos que o Microsoft Dynamics 365 Talent - Attract fornece para gerenciar o processo de contratação de novos talentos.
 author: andreabichsel
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c8860602bd293c158aa33ea22b5f73de15a6b6f
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4186dddc471de676cc6d26050f16711f581da7ca
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552062"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833060"
 ---
-# <a name="microsoft-dynamics-365-talent---attract-features-and-capabilities"></a>Recursos e funcionalidades do Microsoft Dynamics 365 Talent - Attract
+# <a name="attract-features-and-capabilities"></a>Recursos e funcionalidades do Attract
 
 [!include [banner](includes/banner.md)]
 
@@ -48,4 +48,4 @@ O Attract fornece um processo de contratação predefinido com quatro estágios 
 Logo após serem adicionados a um trabalho, os candidatos recebem um email que inclui um link para obter o aplicativo da Web. O aplicativo fornece detalhes do trabalho e é usado na comunicação com a equipe de contratação. Os candidatos também podem usá-lo para enviar sua disponibilidade para entrevistas.
 
 ## <a name="analytic-reports"></a>Relatórios analíticos
-As equipes de contratação podem usar as métricas do processo de contratação de chaves de visualização para um único trabalho ou agregadas em todos os trabalhos com [relatórios analíticos no Attract](analytic-reports.md). No momento, este recurso está em [visualização](access-preview-feature.md) para clientes com o [Complemento de Contratação Abrangente](attract-comprehensive-hiring.md).
+As equipes de contratação podem usar as métricas do processo de contratação de chaves de visualização para um único trabalho ou agregadas em todos os trabalhos com [relatórios analíticos no Attract](analytic-reports.md). No momento, este recurso está em [visualização](access-preview-feature.md) para clientes com o [Qual versão do Microsoft Dynamics 365 Talent - Attract](attract-comprehensive-hiring.md).

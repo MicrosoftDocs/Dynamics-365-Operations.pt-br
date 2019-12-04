@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a7db93e1877034051b6add4c11ddfe7cd7d17e0b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 575b27de845d931c990b1d19254b5218fa6e4199
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187903"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770841"
 ---
 # <a name="create-dimensions-and-import-dimension-members"></a>Criar dimensões e importar membros da dimensão
 
@@ -44,12 +44,11 @@ O diagrama a seguir ilustra as dimensões usadas na Contabilização de custos.
 Depois que dados são importados para a Contabilização de custo, você pode usá-los para construir as várias perspectivas que fornecem ideias a gerentes em todos os níveis da organização. Os seguintes tópicos fornecem informações sobre a criação de dimensões e a importação de membros da dimensão. 
 
 -  [Dimensões do elemento de custo](cost-elements.md)
--  [Criar elementos de custo (Guia de tarefas)](./tasks/create-cost-elements.md)
+-  [Criar elementos de custo](./tasks/create-cost-elements.md)
 -  [Dimensões de objeto de custo](cost-objects.md)
--  [Criar elementos de custo (Guia de tarefas)](./tasks/create-cost-objects.md)
--  [Mapear membros de dimensão de elemento de custo para um conjunto comum de membros de dimensão](map-cost-elements-dimension-members.md)
--  [Mapear uma dimensão de elemento de custo (Guia de tarefas)](./tasks/map-cost-element-dimension.md)
--  [Membros estatísticos de dimensões e modelos de fornecedores de medições estatísticas](statistical-measure-provider-template.md)
+-  [​Mapear membros de dimensão de elemento de custo para um conjunto comum de membros de dimensão​](map-cost-elements-dimension-members.md)
+-  [Mapear uma dimensão do elemento de custo](./tasks/map-cost-element-dimension.md)
+-  [​Membros estatísticos de dimensões e modelos de fornecedores de medidas estatísticas​](statistical-measure-provider-template.md)
 
 
 

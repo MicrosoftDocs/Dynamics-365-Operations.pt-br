@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 974f99632738cfc6eec5ff85965f4e9f9608a8b5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3e110c7fe6881825fe2b075c1795bc4f7e938da4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176535"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811498"
 ---
 # <a name="view-and-export-field-descriptions"></a>Exibir e exportar descrições de campos
 
@@ -35,7 +35,7 @@ Alguns dos campos mais complexos têm descrições de campos. Essas descrições
 
 Nem todas as páginas têm descrições de campo. Pretendemos fornecer descrições apenas dos campos mais complexos, e não daqueles cujo uso é evidente. Portanto, algumas páginas não têm todas as descrições de campo, algumas páginas possuem algumas descrições e algumas das páginas mais complexas, como muitas das páginas de parâmetros, há muitas descrições.
 
-Se você tiver acesso ao ambiente de desenvolvimento, poderá adicionar suas próprias novas descrições aos campos e personalizar as descrições existentes. Por exemplo, você pode adicionar informações específicas da empresa para uma descrição de campo. Para mais informações, consulte [Personalizar campo de ajuda](../../dev-itpro/user-interface/customize-field-help.md).
+Se você tiver acesso ao ambiente de desenvolvimento, poderá adicionar suas próprias novas descrições aos campos e personalizar as descrições existentes. Por exemplo, você pode adicionar informações específicas da empresa para uma descrição de campo. Para mais informações, consulte [Personalizar descrições de campo](../../dev-itpro/user-interface/customize-field-help.md).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Consulte as descrições na interface de usuário
 
@@ -107,4 +107,4 @@ Para obter informações sobre as várias maneiras de filtrar a lista de página
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Personalizar campo de ajuda](../../dev-itpro/user-interface/customize-field-help.md)
+[Personalizar descrições de campos](../../dev-itpro/user-interface/customize-field-help.md)

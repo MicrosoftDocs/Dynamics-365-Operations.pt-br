@@ -19,12 +19,12 @@ ms.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0383f78ea5cfa42183e0bfe8a96d7d3866766e7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 484471c6bbda1d7396dfcfa34c33f50d247dad98
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547712"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812663"
 ---
 #  <a name="restrictions-on-costing-versions-for-standard-costs"></a>Restrições em versões de avaliação de custo para custos padrão
 
@@ -45,9 +45,9 @@ Os dados de custo de item para custos padrão podem ser copiados em outra versã
 <a name="related-topics"></a>Tópicos relacionados
 --------
 
-[Versões de custos](costing-versions.md)
+[Visão geral de versões de avaliação de custo](costing-versions.md)
 
-[Atualizar custos padrão em um ambiente que não seja de manufatura](update-standard-costs-non-manufacturing-environment.md)
+[Atualizar custos padrão em um ambiente de não fabricação](update-standard-costs-non-manufacturing-environment.md)
 
 [Preparar para manter custos padrão para itens fabricados](update-standard-costs-manufacturing-environment.md)
 

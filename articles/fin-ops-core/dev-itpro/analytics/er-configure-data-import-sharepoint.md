@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: b40f9a5677fd5375d7a19a75400d4305a8850392
-ms.sourcegitcommit: 399e861ca6f2bdcd4fe84d89fedc04b60d9f43e6
+ms.openlocfilehash: c11123c0d53fcf4ba67e83fe64d2d6e692d5b6f1
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "2564928"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771343"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Configurar a importação de dados do SharePoint
 
@@ -43,7 +43,7 @@ Para concluir os exemplos neste tópico, você deve ter o seguinte acesso:
 - Configurações de formato e modelo de ER para pagamentos de 1099.
 
 ### <a name="create-required-er-configurations"></a>Criar configurações de ER necessárias
-Executar os guias de tarefas **ER Importar dados de um arquivo do Microsoft Excel**, que fazem parte do processo de negócios **7.5.4.3 Adquirir/Desenvolver componentes de serviço/solução de TI (10677)**. Esses guias de tarefas contêm orientações para o processo de criação e uso de configurações de ER para importar transações de fornecedores de maneira interativa a partir de arquivos do Microsoft Excel. Para obter mais informações, consulte [Analisar documentos de entrada no Microsoft Excel](parse-incoming-documents-excel.md). Depois de concluir as guias da tarefa, você terá a configuração a seguir.
+Executar os guias de tarefas **ER Importar dados de um arquivo do Microsoft Excel**, que fazem parte do processo de negócios **7.5.4.3 Adquirir/Desenvolver componentes de serviço/solução de TI (10677)**. Esses guias de tarefas contêm orientações para o processo de criação e uso de configurações de ER para importar transações de fornecedores de maneira interativa a partir de arquivos do Microsoft Excel. Para obter mais informações, consulte [Analisar documentos de entrada no formato do Excel](parse-incoming-documents-excel.md). Depois de concluir as guias da tarefa, você terá a configuração a seguir.
 
 #### <a name="er-configurations"></a>Configurações de ER
 

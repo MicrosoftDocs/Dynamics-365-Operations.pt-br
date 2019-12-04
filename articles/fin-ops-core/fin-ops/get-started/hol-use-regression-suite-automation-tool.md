@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9afa98156c58d10c19454430769a3d60343661dc
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 654685a382ca5f3f462ad8a9c506b51b52c3758c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550947"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811640"
 ---
 # <a name="use-the-regression-suite-automation-tool-tutorial"></a>Usa o tutorial da Regression Suite Automation Tool
 
@@ -44,7 +44,7 @@ Para obter informações sobre este recurso, consulte [Modificar uma gravação 
 
 ### <a name="derived-test-case"></a>Caso de teste derivado
 
-1. Abra a Regression Suite Automation Tool (RSAT) e selecione os casos de teste que você criou em [Configurar e instalar a Regression Suite Automation Tool](./hol-set-up-regression-suite-automation-tool.md).
+1. Abra a Regression Suite Automation Tool (RSAT) e selecione os casos de teste que você criou no [tutorial Configurar e instalar a Regression Suite Automation Tool](./hol-set-up-regression-suite-automation-tool.md).
 2. Selecione **Novo \> Criar caso de teste derivado**.
 
     ![Comando Criar caso de teste derivado no menu Novo](./media/use_rsa_tool_01.png)

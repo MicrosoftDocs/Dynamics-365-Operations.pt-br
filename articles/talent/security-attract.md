@@ -1,5 +1,5 @@
 ---
-title: Gerenciamento de segurança e funções no Attract
+title: Definir permissões de usuário no Attract
 description: Este tópico fornece informações sobre a segurança de função no Microsoft Dynamics 365 Talent – Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7db2ac241db121f07eb3524c7c5c9a8f64e78537
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: efac512cfa07bb2183f06b8be45f74bef9af0767
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551417"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832689"
 ---
-# <a name="security-and-role-management-in-attract"></a>Gerenciamento de segurança e funções no Attract
+# <a name="set-user-permissions-in-attract"></a>Definir permissões de usuário no Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 O Microsoft Dynamics 365 Talent: Attract usa segurança baseada em função. Em outras palavras, o acesso não é oferecido a usuários individuais, mas às funções de segurança que os usuários usam. Um usuário atribuído a uma função de segurança tem acesso ao conjunto do privilégio associado a essa função.
 
@@ -52,7 +52,7 @@ As seções a seguir fornecem uma descrição de alto nível de cada função. A
 
 ## <a name="administrator"></a>Administrador
 
-Os usuários atribuídos à função de Administrador podem acessar e alterar todos os dados no Attract. Os administradores podem criar, ler, excluir e atualizar dados. Eles também têm acesso ao Centro de administração, onde podem configurar o Attract e as informações do usuário. Recomendamos que pelo menos um indivíduo seja atribuído à função Administrador. Por padrão, o ambiente de admin no Microsoft PowerApps é definido como um admin no Attract. Caso você se inscreveu para a versão de avaliação do Attract, a função de Administrador será atribuída automaticamente. Atualmente, para criar trabalhos, os usuários com a função de Administrador também devem ter a função de recrutamento ou a função de gerente de projeto.
+Os usuários atribuídos à função de Administrador podem acessar e alterar todos os dados no Attract. Os administradores podem criar, ler, excluir e atualizar dados. Eles também têm acesso ao Centro de administração, onde podem configurar o Attract e as informações do usuário. Recomendamos que pelo menos um indivíduo seja atribuído à função Administrador. Por padrão, o ambiente de admin no Microsoft Power Apps é definido como um admin no Attract. Caso você se inscreveu para a versão de avaliação do Attract, a função de Administrador será atribuída automaticamente. Atualmente, para criar trabalhos, os usuários com a função de Administrador também devem ter a função de recrutamento ou a função de gerente de projeto.
 
 ## <a name="hiring-manager"></a>Gerente de Contratação
 

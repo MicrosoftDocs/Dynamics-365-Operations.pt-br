@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 7d3a4602a3d8462666dfcb26b97a4f652891f7bc
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 141464f2ce7cb4ccfd2a8fb7a266e657e8f52015
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249948"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814112"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Sincronizar contatos diretamente do Sales com contatos ou clientes do Supply Chain Management
 
@@ -135,7 +135,7 @@ As ilustrações a seguir mostram um exemplo de um mapeamento de modelo na Integ
 
 [Sincronizar produtos diretamente do Supply Chain Management com produtos do Sales](products-template-mapping-direct.md)
 
-[Sincronizar cabeçalhos e linhas da ordem de venda diretamente do Supply Chain Management com o Sales](sales-order-template-mapping-direct-two-ways.md)
+[Sincronização de ordens de venda diretamente entre o Sales e o Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)
 
 [Sincronizar cabeçalhos e linhas da fatura de venda diretamente do Supply Chain Management com o Sales](sales-invoice-template-mapping-direct.md)
 

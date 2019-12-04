@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 2a5c3e49f09bf4f1f90449db10d439f563ecc2c0
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: cf1c4cbc18728b6094f862792d20a893b2a8d6ea
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249817"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815263"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Visão geral da integração com o Microsoft Dynamics 365 Field Service
 
@@ -41,9 +41,9 @@ A primeira fase da integração entre o Field Service e o Supply Chain Managemen
 
 A primeira fase da integração entre o Field Service e o Supply Chain Management permite a sincronização dos seguintes itens:
 
-- [Produtos no Supply Chain Management para produtos no Field Service que incluem informações de Tipo de Produto](field-service-product.md)
-- [Ordens de serviço no Field Service para ordens de venda no Supply Chain Management](field-service-work-order.md)
-- [Faturas no Field Service para faturas de texto livre no Supply Chain Management](field-service-invoice.md)
+- [Sincronizar produtos no Supply Chain Management com produtos no Field Service](field-service-product.md)
+- [Sincronizar ordens de serviço no Field Service com ordens de venda no Supply Chain Management](field-service-work-order.md)
+- [Sincronizar faturas de contrato no Field Service com faturas de texto livre no Supply Chain Management](field-service-invoice.md)
 
 Para ver um exemplo de como você pode sincronizar uma ordem de serviço entre o Field Service e o Supply Chain Management, assista ao vídeo do YouTube [Como sincronizar uma ordem de serviço com a integração do Microsoft Dynamics 365](https://www.youtube.com/watch?v=46ylO7raZAo).
 

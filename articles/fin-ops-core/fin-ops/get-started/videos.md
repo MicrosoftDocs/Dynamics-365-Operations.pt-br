@@ -3,7 +3,7 @@ title: Vídeos
 description: Essa página lista vídeos de instruções e conversas sobre tecnologia relacionados aos aplicativos do Finance and Operations que estão disponíveis no YouTube e em outros sites.
 author: josaw1
 manager: AnnBe
-ms.date: 10/20/2019
+ms.date: 11/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: fb14ffa500fcf84030eca075545716a79d7b2b27
-ms.sourcegitcommit: fbd6d027ef3b50c056260e30e78066839efa3ddb
+ms.openlocfilehash: 00ea8de8ba0567e8cc086a754062b3fec9672937
+ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "2635094"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "2781841"
 ---
 # <a name="videos"></a>Vídeos 
 
@@ -82,7 +82,7 @@ No [canal do Microsoft Dynamics no YouTube](https://www.youtube.com/channel/UCJG
 
 ### <a name="customize-the-app"></a>Personalizar o aplicativo
 - [Adicionar campos personalizados](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
-- [Inserir o PowerApps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
+- [Inserir o Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
 
 ### <a name="expenses"></a>Despesas
 - [Experiência com despesas](https://youtu.be/Ocy-MsTvEE0)
@@ -101,6 +101,9 @@ No [canal do Microsoft Dynamics no YouTube](https://www.youtube.com/channel/UCJG
 ### <a name="organization-administration"></a>Administração da organização
 
 - [Gerenciamento de documentos](https://www.youtube.com/watch?v=p4rl1CkiLN4&feature=youtu.be)
+
+### <a name="revenue-recognition"></a>Reconhecimento de receita
+- [Como usar o reconhecimento de receita](https://youtu.be/v3amIsiqvoo)
 
 ### <a name="tax-engine"></a>Mecanismo de cálculo de impostos
 
