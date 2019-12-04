@@ -1,5 +1,5 @@
 ---
-title: Postar trabalhos no LinkedIn usando o Microsoft Dynamics 365 Talent - Attract
+title: Lançar trabalhos no LinkedIn do Attract
 description: Este tópico explica como usar o Dynamics 365 Talent - Attract para postar trabalhos no LinkedIn.
 author: andreabichsel
 manager: AnnBe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: e2b8065fe2521694efb30478a5a41676cff45127
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 782a2e5de6edf0e85c4d32a0910f5f3c01981a01
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551486"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832991"
 ---
-# <a name="post-jobs-to-linkedin-from-microsoft-dynamics-365-talent---attract"></a>Postar trabalhos no LinkedIn usando o Microsoft Dynamics 365 Talent - Attract
+# <a name="post-jobs-to-linkedin-from-attract"></a>Lançar trabalhos no LinkedIn do Attract
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 O LinkedIn e a maior rede profissional online, dando a você acesso aos melhores talentos do mundo. O Microsoft Dynamics 365 Talent: Attract ajuda você a conseguir os talentos de que precisa com a postagem de seus trabalhos diretamente do Attract no LinkedIn.
 
@@ -46,7 +46,7 @@ A tabela a seguir mostra as ações que você pode executar no LinkedIn, depende
 
 Para obter mais informações sobre funções de usuário no Attract, consulte [Gerenciamento de segurança e funções no Attract](./security-attract.md).
 
-Se você for um administrador e precisar de mais informações sobre como configurar a integração do LinkedIn com o Attract, consulte [Configurar a integração com o LinkedIn](./attract-admin-linkedin.md).
+Se você é um administrador e precisa de mais informações sobre como configurar a integração do LinkedIn com o Attract, consulte [Configurar a integração com o LinkedIn para o Microsoft Dynamics 365 Talent - Attract](./attract-admin-linkedin.md).
 
 Os trabalhos lançados no LinkedIn são exibidos no site ao vivo do LinkedIn. Não há um ambiente de teste para o lançamento de trabalhos no LinkedIn. Portanto, certifique-se de não lançar acidentalmente nenhum trabalho de teste.
 
@@ -67,15 +67,15 @@ Quando os candidatos interessados selecionarem **Exibir** ao lado de sua listage
 
 Todos os lançamentos de trabalho feitos por meio do Attract são Listagens Limitadas. Para obter mais informações sobre as Listagens Limitadas no LinkedIn, consulte [Listagens Limitadas versus Slots de Trabalho Premium para Disposição de Trabalho](https://www.linkedin.com/help/recruiter/answer/79049).
 
-Caso esteja tendo problemas no lançamento de trabalhos no LinkedIn, consulte [Solucionar problemas de lançamento de trabalhos no LinkedIn](./attract-troubleshoot-linkedin.md).
+Caso esteja tendo problemas para lançar trabalhos no LinkedIn, consulte [Solucionar problemas de integração entre o LinkedIn e o Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md).
 
 ## <a name="see-also"></a>Consulte também
 
-[Perguntas frequentes sobre o LinkedIn](./attract-linkedin-faq.md)
+[Perguntas frequentes sobre a integração do Attract com o LinkedIn](./attract-linkedin-faq.md)
 
-[Configurar a integração com o LinkedIn](./attract-admin-linkedin.md)
+[Configurar a integração com o LinkedIn para o Microsoft Dynamics 365 Talent - Attract](./attract-admin-linkedin.md)
 
-[Criar trabalhos](./creating-jobs-attract.md)
+[Criar, aprovar e lançar trabalhos no Attract](./creating-jobs-attract.md)
 
 [Fornecer candidatos com o LinkedIn Recruiter](./attract-linkedin-recruiter.md)
 

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bea02c6fe7b8e50be22be89eeb43a913851ddbfb
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 27c9bf32a88858ec2d2214f18ff96138c29e59bc
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653524"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815148"
 ---
 # <a name="demand-forecasting-overview"></a>Visão geral da previsão de demanda
 
@@ -76,13 +76,13 @@ A previsão de demanda é uma ferramenta que ajuda os clientes do setor de fabri
 
 [Configuração da previsão de demanda](demand-forecasting-setup.md)
 
-[Gerando uma previsão estatística](generate-statistical-baseline-forecast.md)
+[​Gerar uma previsão estatística​](generate-statistical-baseline-forecast.md)
 
-[Ajustes manuais na previsão estatística](manual-adjustments-baseline-forecast.md)
+[Faça ajustes manuais para a previsão estatística](manual-adjustments-baseline-forecast.md)
 
-[Autorizando a previsão ajustada](authorize-adjusted-forecast.md)
+[Autorizar uma previsão ajustada](authorize-adjusted-forecast.md)
 
-[Monitorando a precisão da previsão](monitor-forecast-accuracy.md)
+[​Monitorar precisão da previsão​](monitor-forecast-accuracy.md)
 
 [Remover exceções de dados históricos de transação ao calcular uma previsão de demanda](remove-historical-outliers-calculating-demand-forecast.md)
 

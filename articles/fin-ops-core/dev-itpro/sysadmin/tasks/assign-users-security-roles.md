@@ -3,7 +3,7 @@ title: Atribuir usuários a funções de segurança
 description: Para acessar os aplicativos Finance and Operations, os usuários devem ser atribuídos a funções de segurança.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 09/16/2019
+ms.date: 11/14/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a4daecc1acd589cd1656402244e5325382a407e7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e4f4ef4535de9e371829c2d86d4fdc1400510c7b
+ms.sourcegitcommit: 6aa74f66f1abd3a7977050a5339b0b17e62ff053
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180958"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2807987"
 ---
 # <a name="assign-users-to-security-roles"></a>Atribuir usuários a funções de segurança
 
@@ -37,6 +37,9 @@ Para usar qualquer coisa além das funcionalidades comuns, os usuários devem se
 5. Na lista **Nome da regra de associação**, clique no link na linha selecionada.
 6. Clique em **Editar consulta**. Edite a consulta, conforme necessário.  
 7. Clique em **OK**.
+8. Clique em **Executar atribuição de função automática**.
+9. Vá para **Painel de navegação > Módulos > Administração do sistema > Usuários > Usuários** (de preferência em outra guia do navegador).
+10. Examine as funções atribuídas para vários usuários para confirmar que a consulta de atribuição de função está correta. Faça os ajustes e execute novamente, se necessário.
 
 ## <a name="exclude-users-from-automatic-role-assignment"></a>Excluir usuários de atribuição de função automática
 1. Feche a página.

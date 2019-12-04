@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c585bce468f87a32204893ea20ce6954e92b0e38
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 8619c6cde484c41ec01e96eb4626366f1955b5d4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571797"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811807"
 ---
 # <a name="install-assets-on-functional-locations"></a>Instalar ativos em locais funcionais
 
@@ -31,7 +31,7 @@ ms.locfileid: "2571797"
 
  
 
-Após criar estruturas de locais funcionais, a próxima etapa será instalar ativos nos locais funcionais relevantes. Este tópico explica como instalar ativos nesses locais funcionais em Gerenciamento de Ativos. Para obter informações sobre como criar ativos, consulte [Ativos](../objects/introduction-to-objects.md).
+Após criar estruturas de locais funcionais, a próxima etapa será instalar ativos nos locais funcionais relevantes. Este tópico explica como instalar ativos nesses locais funcionais em Gerenciamento de Ativos. Para obter informações sobre como criar ativos, consulte [Introdução aos ativos](../objects/introduction-to-objects.md).
 
 Se você criou uma estrutura de ativos, a estrutura de ativos inteira deverá ser instalada em um local funcional. Portanto, apenas os ativos pai (ativos em nível superior sem ativos pai) podem ser selecionadas em um local funcional. Todos os ativos filho relacionados (subativos) também serão instalados no local funcional. Quando você instala ativos em um local funcional, as dimensões financeiras do local funcional devem ser transferidas automaticamente para eles, dependendo da configuração no tipo de local funcional selecionado para o local funcional. Para obter mais informações sobre como configurar tipos de locais funcionais, consulte [Tipos de locais funcionais](../setup-for-functional-locations/functional-location-types.md).
 

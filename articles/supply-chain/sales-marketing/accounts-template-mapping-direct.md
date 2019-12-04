@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 4624f7e31c6dca616ff4ee824453b8971c1865e7
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: ebca416e94f44d0448a4f4d0be08f13e30e749e9
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249879"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813215"
 ---
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>Sincronizar contas diretamente do Sales com clientes no Supply Chain Management
 
@@ -43,7 +43,7 @@ A solução Prospect to cash usa o recurso Integração de dados para sincroniza
 
 ## <a name="templates-and-tasks"></a>Modelos e tarefas
 
-Para acessar os modelos disponíveis, abra o [Centro de administração do PowerApps](https://preview.admin.powerapps.com/dataintegration). Selecione **Projetos** e, no canto superior direito, selecione **Novo projeto** para selecionar modelos públicos.
+Para acessar os modelos disponíveis, abra o [Centro de administração do Power Apps](https://preview.admin.powerapps.com/dataintegration). Selecione **Projetos** e, no canto superior direito, selecione **Novo projeto** para selecionar modelos públicos.
 
 O modelo e as tarefas subjacentes a seguir são usados para sincronizar contas do Sales com o Supply Chain Management:
 
@@ -111,7 +111,7 @@ As ilustrações a seguir mostram um exemplo de um mapeamento de modelo na Integ
 
 [Sincronizar contatos diretamente do Sales com contatos ou clientes do Supply Chain Management](contacts-template-mapping-direct.md)
 
-[Sincronizar cabeçalhos e linhas da ordem de venda diretamente do Supply Chain Management com o Sales](sales-order-template-mapping-direct-two-ways.md)
+[Sincronização de ordens de venda diretamente entre o Sales e o Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)
 
 [Sincronizar cabeçalhos e linhas da fatura de venda diretamente do Supply Chain Management com o Sales](sales-invoice-template-mapping-direct.md)
 

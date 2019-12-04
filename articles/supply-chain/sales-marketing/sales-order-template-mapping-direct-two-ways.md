@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 7c8831203ae30991ff8acf1926aafc2d1839aeb2
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c91a3b7e28bc55046ff6eeb37a5fddc8637aa230
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251261"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773302"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Sincronização de ordens de venda diretamente entre o Sales e o Supply Chain Management
 
@@ -40,7 +40,7 @@ A solução Prospect to cash usa o recurso Integração de dados para sincroniza
 
 ## <a name="templates-and-tasks"></a>Modelos e tarefas
 
-Para acessar os modelos disponíveis, abra o [Centro de administração do PowerApps](https://preview.admin.powerapps.com/dataintegration). Selecione **Projetos** e, no canto superior direito, selecione **Novo projeto** para selecionar modelos públicos.
+Para acessar os modelos disponíveis, abra o [Centro de administração do Power Apps](https://preview.admin.powerapps.com/dataintegration). Selecione **Projetos** e, no canto superior direito, selecione **Novo projeto** para selecionar modelos públicos.
 
 Os seguintes modelos e as tarefas subjacentes são usados para executar sincronização de ordens de venda diretamente entre o Sales e o Supply Chain Management.
 
@@ -206,4 +206,4 @@ As ilustrações a seguir mostram um exemplo de um mapeamento de modelo na Integ
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Prospect to cash](prospect-to-cash.md)
+[Cliente potencial ao pagamento à vista](prospect-to-cash.md)

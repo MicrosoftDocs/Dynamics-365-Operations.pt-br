@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 92ef83bc1783b00a4d7d9739ca1c17e863c7ff44
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8be4e225507a18a92d642ff0f3a6ca3d0ff68564
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185258"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772526"
 ---
 # <a name="parse-incoming-documents-in-json-format"></a>Analisar documentos de entrada no formato JSON
 
@@ -46,7 +46,7 @@ Antes de concluir o ER Criar uma configuração de formato para importar dados d
 - Matrizes JSON só podem ser elementos aninhados dos elementos de propriedade de um objeto.
 - Matrizes JSON só podem conter objetos JSON. Elas não podem conter cadeias de caracteres diretas/valores numéricos e matrizes aninhadas. Os elementos nessas matrizes serão analisados em ordem, como são especificados no formato. As configurações de multiplicidade em cada objeto JSON serão consideradas.
 
-Além disso, você deverá concluir o guia de tarefas [ER Criar as configurações necessárias para importar dados de um arquivo externo para relatório eletrônico](tasks/er-required-configurations-import-data.md) se ele ainda não tiver sido concluído. Baixe o arquivo a seguir para concluir o guia de tarefas.
+Além disso, você deverá concluir o guia de tarefas [ER Criar as configurações necessárias para importar dados de um arquivo externo](tasks/er-required-configurations-import-data.md) se ele ainda não tiver sido concluído. Baixe o arquivo a seguir para concluir o guia de tarefas.
 
 | Cargo                  | Nome do arquivo |
 |------------------------|-----------|

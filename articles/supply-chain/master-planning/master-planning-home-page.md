@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2dd3915d9eb5b255e9d84e5ec7c331d184e5f485
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 0588ad24cb28a32557361e1a2e5391502a8b46d7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250682"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814252"
 ---
 # <a name="master-planning-home-page"></a>Home page do planejamento mestre
 
@@ -39,9 +39,9 @@ O Planejamento mestre usa as informações para calcular as necessidades e gerar
 
 Os três processos de planejamento principais são:
 
--  **Planejamento mestre** - O Planejamento mestre calcula os requisitos líquidos. Ele se baseia em ordens reais atuais e permite que as empresas controlem o reabastecimento do estoque a curto prazo diariamente. Outro termo para descrevê-lo é o *Plano de requisições líquidas*. Para obter mais informações, consulte [Planejamento mestre](master-plans.md). 
+-  **Planejamento mestre** - O Planejamento mestre calcula os requisitos líquidos. Ele se baseia em ordens reais atuais e permite que as empresas controlem o reabastecimento do estoque a curto prazo diariamente. Outro termo para descrevê-lo é o *Plano de requisições líquidas*. Para obter mais informações, consulte [Visão geral de Planos mestre](master-plans.md). 
 
--  **Planejamento de previsão** - O Plano de previsão calcula os requisitos brutos. Ele se baseia em projeções futuras (ou previsões) e permite que as empresas realizem o planejamento de materiais e capacidade a longo prazo. Para obter mais informações, consulte [Planejamento de previsão](introduction-demand-forecasting.md). 
+-  **Planejamento de previsão** - O Plano de previsão calcula os requisitos brutos. Ele se baseia em projeções futuras (ou previsões) e permite que as empresas realizem o planejamento de materiais e capacidade a longo prazo. Para obter mais informações, consulte [Visão geral da previsão de demanda](introduction-demand-forecasting.md). 
 
 -  **Planejamento mestre intercompanhia** - O plano mestre intercompanhia calcula requisições líquidas entre entidades legais. Ele conecta demanda e fornecimento entre as empresas, não apenas em demanda e fornecimento de confirmação em curto prazo, mas também em demanda e fornecimento planejado a longo prazo. Para obter mais informações, consulte [Planejamento mestre intercompanhia](https://mbspartner.microsoft.com/AX/CourseOverview/1276)  (eLearning) (requer conta do CustomerSource). 
 
@@ -55,15 +55,15 @@ O mapa de aprendizado a seguir mostra os principais conceitos e tarefas que comp
 
 [![Mapa de aprendizado do planejamento mestre](./media/master-planning-learning-map.png)](./media/master-planning-learning-map.png)
 
-## <a name="quick-links"></a>Links Rápidos
+## <a name="quick-links"></a>Links rápidos
 
-- [Planos mestres](master-plans.md)  
+- [Visão geral de planos mestres](master-plans.md)  
 - [Gerar um plano restrito](./tasks/constrained-plan.md)
 - [Criar um plano de materiais para coprodutos](./tasks/create-material-plan-co-products.md)
-- [Planejamento mestre e funcionalidade multissite](master-plan-multisite-functionality.md)
+- [Visão geral de planejamento mestre e funcionalidade multissite](master-plan-multisite-functionality.md)
 - [Criar um plano intercompanhia](./tasks/create-intercompany-plan.md)
 - [Visão geral da previsão de demanda](introduction-demand-forecasting.md)
-- [Chaves de redução](reduction-keys.md)
+- [Chaves de redução da previsão](reduction-keys.md)
                                   
 ## <a name="additional-resources"></a>Recursos adicionais
 

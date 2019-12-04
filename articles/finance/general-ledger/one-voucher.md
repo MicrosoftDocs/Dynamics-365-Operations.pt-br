@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: a39654d4b6d74aa640db682fa052651736552db1
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 233f31bd0b20ad5dd8ba21077797dd2f65069deb
+ms.sourcegitcommit: bc6db23825c94cd8305ef37bc18296765e9ce8a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553178"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "2810690"
 ---
 # <a name="one-voucher"></a>Um comprovante
 
@@ -83,6 +83,9 @@ Com base em conversas com clientes, a Microsoft compilou a seguinte lista de cen
 
 Os cenários a seguir podem ser realizados apenas usando a funcionalidade Um comprovante único. Se sua organização tem algum desses cenários, você deve habilitar várias transações a serem inseridas em um comprovante mudando a alteração do parâmetro **Permitir várias transações em um comprovante** na página **Parâmetros de contabilidade**. Essas lacunas funcionais serão preenchidas por outros recursos nas versões posteriores.
 
+> [!Note]
+> [Para cada um dos seguintes cenários, o campo **Permitir várias transações em um comprovante** deve ser definido como Sim na Guia Rápida **Geral** na página **Parâmetros de contabilidade**].
+
 ### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>Lançar pagamentos do fornecedor ou do cliente em um formulário de resumo para uma conta bancária
 
 **Cenário** Uma organização comunica uma lista de fornecedores e valores ao banco, e o banco utiliza esta lista para pagar os fornecedores em nome da organização. O banco lança a soma dos pagamentos como uma retirada única na conta bancária.
@@ -120,6 +123,9 @@ As seguintes transações de ativo fixo também criam várias transações dentr
 - Um ativo é dividido.
 - Um parâmetro para calcular a depreciação na alienação é habilitado e, em seguida, o ativo é descartado.
 - A data de serviço de um ativo é anterior à data de aquisição. Portanto, um ajuste de depreciação é lançado.
+
+> [!Note]
+> Quando estiver inserindo transações, verifique se todas as transações se aplicam ao mesmo ativo fixo. O comprovante não será lançado se incluir mais de um ativo fixo, mesmo se o campo **Novo Comprovante** tiver sido definido como Apenas um número de comprovante na página **Nomes de diários** em Contabilidade. Se você incluir mais de um ativo fixo no comprovante, a mensagem **Só pode haver uma transação de ativo fixo por comprovante** será exibida e você não poderá lançar o comprovante.  
 
 ### <a name="bills-of-exchange-and-promissory-notes"></a> Notas promissórias e letras de câmbio
 Letras de câmbio e notas promissórias requerem que Um comprovante seja usado, porque as transações movem o saldo do cliente e do fornecedor de um Contas a receber/Contas a pagar contáveis a outro, com base no estado do pagamento.

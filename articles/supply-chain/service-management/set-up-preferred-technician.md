@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3175d7e604671901674975ee6fd1debd5955e8b1
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 43327b5c9077ab6cbde23fe069cccfc74a0edf88
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1743132"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815010"
 ---
 # <a name="set-up-a-preferred-technician"></a>Configurar um técnico preferido 
 
@@ -60,7 +60,7 @@ Você pode selecionar qualquer trabalhador como um técnico preferido para um co
 
 ## <a name="see-also"></a>Consulte também
 
-[Contratos de serviço](service-agreements.md)
+[Visão geral de desenvolvimento e estabelecimento de contratos de serviço](service-agreements.md)
 
 [Criar ordens de serviço manualmente](create-service-orders-manually.md)
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 511108e689c10e27a42253d95b02e5394f9eb713
-ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
+ms.openlocfilehash: 476b01a4bae34a271203f34481ff18042783d4df
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2652347"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811254"
 ---
 # <a name="item-where-used"></a>Item onde é usado
 
@@ -33,15 +33,15 @@ ms.locfileid: "2652347"
 
 Você pode criar um cálculo para que um item específico obtenha uma visão geral de onde o item foi usado no Gerenciamento de Ativos. Os resultados mostram o contexto no qual o item foi usado durante seu tempo de vida. A página **Item onde usado** pode ser aberta do menu principal do Gerenciamento de Ativos e também pode ser acessada das seguintes páginas:
 
-- [BOM de ativos](../objects/object-BOM.md)
+- [BOMs de Ativos](../objects/object-BOM.md)
 
-- [Peças sobressalentes nos padrões do tipo de ativo](../setup-for-objects/object-types.md)
+- [Peças sobressalentes nos padrões do tipo de ativo](../setup-for-objects/object-types.md#spare-parts-on-the-asset-type-setup)
 
-- [Previsão do item na previsão padrão do tipo de trabalho de manutenção](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)
+- [Categorias do tipo de trabalho e tipos de trabalho de manutenção, grades do tipo de trabalho de manutenção, comércios de trabalho de manutenção e listas de verificação de manutenção](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)
 
-- [Previsão de manutenção da ordem de serviço](../work-orders/maintenance-forecasts.md)
+- [Previsão de manutenção](../work-orders/maintenance-forecasts.md)
 
-- [Requisição de compra da ordem de serviço](../work-orders/procurement.md)
+- [Compras](../work-orders/procurement.md)
 
 - [Compra da ordem de serviço](../work-orders/procurement.md)
 

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 90d9176a2ca37b581ef82306cc1ceef515ceb624
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6c15402993568c53eda8e03351fc2fccbcd82ab8
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187880"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770818"
 ---
 # <a name="cost-object-dimensions"></a>Dimensões de objeto de custo
 
@@ -37,7 +37,7 @@ Um objeto de custo previsto pode ser qualquer tipo de objeto ao qual você desej
 ## <a name="cost-object-dimensions-and-cost-object-dimension-members"></a>Dimensões de elemento de custo previsto e membros da dimensão do elemento de custo previsto
 Os objetos de custo previsto são conhecidos como *dimensões de custo previsto do objeto*. Após decidir qual entidade a dimensão de custo previsto de objeto deve consulte, especifique os valores de dimensão ou importá-los individualmente na contabilização de custo previsto de outros sistemas de origem. Os valores de dimensão específicos são chamados de *membros da dimensão do elemento de custo previsto*. Por exemplo, desejar usar a dimensão financeira que é chamada centro de custo como a dimensão de custo previsto do objeto. Para ver como os custos para os centros de custo individuais, você deve importar os membros de custo previsto de dimensão de objeto. Nesse caso, os membros de custo previsto de dimensão de objetos são centros de custo real, como venda, produção, administração e localizações, em. A captura de tela a seguir mostra um exemplo de centros de custo como dimensão de objeto de custo com seus centros de custo real como membros de dimensão de objeto de custo. 
 
-[![cost-object-dimensions](./media/cost-object-dimensions.png)](./media/cost-object-dimensions.png)
+[![Captura de tela mostrando Centros de custo como dimensão de objeto de custo](./media/cost-object-dimensions.png)](./media/cost-object-dimensions.png)
 
 ## <a name="import-cost-object-dimension-members-through-data-connectors"></a>Membros de custo previsto de dimensão de objeto de importação em dos conectores de dados
 Para fazer a importação de objeto de custo previsto dimensionar membros mais disso, use conectores de dados para recuperar os valores das entidades que deseja usar como dimensões de custo previsto do objeto. Você pode usar os conectores compilados anteriormente dados ou dos conectores personalizados de dados que você cria.

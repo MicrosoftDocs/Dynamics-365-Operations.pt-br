@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2922b00dffe8e99f8331d7aaa7e2f1b7dc4f9ea6
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 405af4e3e122953bbfa74e7e91d2feef8f068708
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176442"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772619"
 ---
 # <a name="advanced-bank-reconciliation-setup-process"></a>Processo de configuração de reconciliação bancária avançada
 
@@ -31,7 +31,7 @@ ms.locfileid: "2176442"
 
 A reconciliação bancária avançada permite importar extratos bancários eletrônicos e reconciliá-los automaticamente com transações bancárias no Microsoft Dynamics 365 Finance. Este artigo irá explicar o processo de configuração da reconciliação.  
 
-Existem diversas partes que devem ser configuradas antes que a funcionalidade de reconciliação bancária avançada seja utilizada. Para obter mais informações sobre como configurar a importação de extrato bancário, consulte [Configurar o processo de importação de extratos bancários](set-up-advanced-bank-reconciliation-import-process.md).  Os requisitos para configurar o processo de reconciliação estão detalhados abaixo.
+Existem diversas partes que devem ser configuradas antes que a funcionalidade de reconciliação bancária avançada seja utilizada. Para obter mais informações sobre como configurar a importação de extrato bancário, consulte [Configurar o processo de importação de reconciliação bancária avançada](set-up-advanced-bank-reconciliation-import-process.md).  Os requisitos para configurar o processo de reconciliação estão detalhados abaixo.
 
 ## <a name="transaction-codes"></a>Códigos de transação
 Os códigos de transação podem ser usados como parte das regras de correspondência de reconciliação bancária. Os códigos de transação ajudarão na correspondência apenas dos mesmos tipos de transações entre o Finance and Operations e o seu extrato bancário. Para realizar esse tipo de correspondência, primeiro você deve definir os tipos de transação usados em transações bancárias no Finance e depois mapear esses tipos com os códigos de transação do extrato usados por seu banco. Os tipos de transação das transações bancárias são definidos na página **Tipo de transação bancária**. Também é aqui em que você define a conta principal a ser usada para postagens associadas a esse tipo de transação. 

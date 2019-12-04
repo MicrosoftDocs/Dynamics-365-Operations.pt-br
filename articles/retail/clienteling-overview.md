@@ -1,0 +1,126 @@
+---
+title: Visão geral de depoimentos de clientes
+description: Este tópico mostra uma visão geral dos novos recursos de depoimentos de clientes disponíveis no aplicativo de loja de varejo.
+author: bebeale
+manager: AnnBe
+ms.date: 11/01/19
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-retail
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
+ms.custom: 260624
+ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
+ms.search.region: global
+ms.search.industry: Retail
+ms.author: shajain
+ms.search.validFrom: 2018-10-01
+ms.dyn365.ops.version: Version 10.0.7
+ms.openlocfilehash: fb58022f61f9944d6e385874db1f2342bc111866
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773905"
+---
+# <a name="clienteling-overview"></a>Visão geral de depoimentos de clientes
+
+[!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
+
+Muitos varejistas, principalmente os especializados em tecnologia de ponta, querem que seus representantes de vendas estabeleçam relacionamentos duradouros com seus principais clientes. Os representantes devem saber do que os clientes gostam e não gostam, o histórico de compras, as preferências em termos de produtos, além de datas importantes, como aniversários e bodas. Os representantes precisam de um lugar onde possam capturar essas informações e encontrá-las com facilidade quando necessário. Se essas informações estiverem disponíveis em uma única exibição, os associados poderão selecionar facilmente os clientes que atendem a critérios específicos. Por exemplo, eles podem localizar todos os clientes que preferem comprar bolsas ou aqueles que têm um evento importante próximo, como um aniversário ou uma boda.
+
+## <a name="client-book"></a>Catálogo de clientes
+
+No Microsoft Dynamics 365 Retail, os varejistas podem usar a funcionalidade de registro de clientes para ajudar os representantes a desenvolver relacionamentos de longo prazo com seus principais clientes.
+
+O registro de clientes inclui cartões contendo as informações de contato de cada cliente, com três propriedades adicionais definidas pelo varejista e configuradas no Retail Headquarters. Os varejistas podem escolher as três coisas mais importantes que os representantes de vendas devem saber sobre os clientes. Por exemplo, um joalheiro pode incluir datas importantes, como aniversários ou bodas, que são ocasiões em que as pessoas podem querer comprar joias. Da mesma forma, um varejista de moda pode querer incluir os itens de interesse e as marcas preferidas dos clientes.
+
+Usando o registro de clientes, os representantes também podem filtrar a lista para mostrar apenas os clientes que atendem a critérios específicos. Por exemplo, a loja recebeu uma nova coleção de sapatos, e um representante quer informar aos clientes que gostam de comprar calçados. Nesse caso, ele pode filtrar o registro de clientes para localizar os clientes relevantes e realizar outras ações.
+
+Quando um cliente deixa de ser considerado principal por algum motivo e, portanto, não deve mais ser gerenciado de perto, os representantes de vendas podem removê-lo do registro de clientes.
+
+Alguns varejistas não querem gerenciar os clientes no nível do representante de vendas. Eles querem gerenciar uma lista dos principais clientes no nível da loja. Esses varejistas podem ver os clientes nos registros de clientes da loja. Usando esta opção, eles podem ver os clientes nos registros de clientes de todos os representantes de vendas cujo catálogo de endereços corresponde ao catálogo de endereços da loja atual. Assim, se um representante trabalha em várias lojas da entidade legal, o registro de clientes mostra os clientes de todas essas lojas. Esta funcionalidade é compatível com mais recursos. Por exemplo, é possível reatribuir clientes de um representante de vendas para outro. Este recurso é útil quando os representantes são transferidos ou saem da empresa.
+
+Cada representante de vendas pode ter um registro de clientes por entidade legal e pode adicionar um ou mais clientes ao seu registro de clientes. No Retail, hoje cada cliente só pode ser adicionado a um registro de clientes. No entanto, a Microsoft pretende adicionar uma funcionalidade que permite que um único cliente seja incluído em vários registros de clientes.
+
+> [!NOTE]
+> Diferentemente da pesquisa de cliente, o registro de clientes não filtra os registros de clientes com base nos catálogos de endereços da loja.
+
+## <a name="activities-and-notes"></a>Atividades e anotações
+
+Os canais online oferecem aos varejistas maneiras de saber quais são as preferências dos clientes sem que eles tenham de fornecer essas informações explicitamente. Por outro lado, quando os clientes interagem com os representantes de vendas na loja, eles compartilham explicitamente informações sobre suas preferências. Infelizmente, essas informações podem ser perdidas depois que a venda é concluída. Porém, quando registradas, elas podem ajudar os varejistas a entender melhor os clientes e também a fazer recomendações melhores e oferecer uma experiência melhor de compra.
+
+Para obter informações críticas compartilhadas pelos clientes, os representantes de vendas podem usar não apenas os atributos do registro de clientes mas também a funcionalidade de atividades e anotações. Os varejistas podem configurar os tipos de atividade, como informações sobre visitas à loja, endereço de email, número de telefone e compromissos. As atividades criadas pelos representantes podem ser vistas no formato de linha do tempo no ponto de venda (POS). Elas também podem ser vistas na guia **Atividades** da página **Todos os clientes \> Geral** do Retail Headquarters.
+
+Os representantes de vendas também podem usar anotações para obter informações genéricas dos clientes e consultá-las antes de cada interação. Essas anotações são salvas no Retail Headquarters e podem ser vistas no perfil do cliente ou na página de detalhes do cliente no call center.
+
+> [!NOTE]
+> No momento, todas as anotações e atividades podem ser vistas por qualquer representante de vendas que trabalha para a entidade legal e que pode ver as páginas de detalhes dos clientes. As anotações e atividades não ficam restritas aos representantes que adicionaram o cliente ao registro de clientes.
+
+## <a name="integration-with-dynamics-365-customer-insights"></a>Integração ao Dynamics 365 Customer Insights
+
+Usando o aplicativo Dynamics 365 Customer Insights, os varejistas podem agregar dados de vários sistemas que os clientes usam para interagir com a marca do varejista. Eles podem usar esses dados para gerar uma exibição única do cliente e para derivar informações. A integração do Customer Insights com o Retail permite que os varejistas selecionem uma ou mais medidas que devem ser mostradas no cartão do cliente no registro de clientes. Por exemplo, os varejistas podem usar os dados no Customer Insights para calcular a “probabilidade de rotatividade” de um cliente e definir “a próxima melhor ação”. Se esses valores forem definidos como medidas, poderão ver vistos no cartão do cliente e fornecer informações cruciais para os representantes de vendas. Para obter mais informações sobre o Customer Insights, consulte a documentação do [Dynamics 365 Customer Insights](https://docs.microsoft.com/dynamics365/ai/customer-insights/overview). Para obter mais informações sobre medidas. consulte [Medidas](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures).
+
+## <a name="set-up-clienteling"></a>Configurar os depoimentos de clientes
+
+Para ativar a funcionalidade de depoimentos de clientes no seu ambiente, siga estas etapas.
+
+1. No espaço de trabalho **Gerenciamento de recursos**, filtre os recursos pelo módulo **Varejo e comércio**.
+
+    ![Depoimentos de clientes na lista de recursos do módulo Varejo e comércio](./media/Enable_clienteling.png "Depoimentos de clientes na lista de recursos do módulo Varejo e comércio")
+
+2. Para ativar o recurso **Depoimentos de clientes**, selecione **Habilitar agora**.
+3. Na página **Parâmetros de Varejo**, na guia **Sequência numérica**, selecione a linha **Identificador do registro de clientes**. Depois, no campo **Código da sequência numérica**, selecione uma sequência numérica. O sistema usará essa sequência numérica para atribuir um ID aos registros de clientes.
+4. Selecione **Salvar**.
+5. Crie um novo grupo de atributos contendo os atributos que você quer obter dos clientes que são gerenciados nos registros de clientes. Para obter instruções, consulte [Atributos e grupos de atributos](https://docs.microsoft.com/dynamics365/retail/attribute-attributegroups-lifecycle).
+
+    - Defina os atributos necessários como **Pode ser refinado**. Os representantes de vendas podem usar esses atributos para filtrar o registro de clientes.
+    - Defina a ordem de exibição desses atributos. Essa ordem de exibição determina quais atributos devem ser mostrados no cartão do cliente no registro de clientes. Uma ordem de exibição 1 é considerada mais alta que uma ordem de exibição 2. Portanto, o atributo que tem uma ordem de exibição 1 será mostrado antes do atributo com ordem de exibição 2.
+
+    > [!NOTE]
+    > Você pode tornar o Customer Insights disponível na mesma página. Porém, é necessário criar um ID do aplicativo Azure e um segredo para fins de autenticação. (Para obter informações sobre os requisitos, consulte a seção [Ativar a integração do Customer Insights com o Retail](#turn-on-the-integration-of-customer-insights-with-retail) mais adiante neste tópico.) Se o Customer Insights estiver ativado e você selecionar uma ou mais medidas que devem ser mostradas no cartão do cliente, essas medidas serão mostradas primeiro. Em seguida, serão mostrados grupos de atributos do registro de clientes com base na ordem de exibição. Por exemplo, se você selecionar duas medidas do Customer Insights, essas duas medidas e um atributo do registro de clientes serão mostrados no cartão do cliente. (O atributo do registro de clientes a ser mostrado será o que tem a ordem de exibição mais alta.)
+
+6. Na página **Parâmetros de varejo**, na guia **Depoimentos de clientes**, no campo **Grupo de atributos do registro de clientes**, selecione o grupo de atributos que você acabou de criar.
+
+    ![Grupo de atributos selecionado do registro de clientes](./media/Client%20book%20attributes.png "Grupo de atributos selecionado do registro de clientes")
+
+7. Para capturar atividades que ocorrem no POS, defina os tipos de atividade na página **Tipos de atividade** (**Varejo \> Clientes \> Tipos de atividade**).
+
+    > [!NOTE]
+    > Os tipos de atividade são obtidos pelo Retail Server quando ele faz uma chamada em tempo real pela primeira vez. Depois que as atividades são obtidas, ficam armazenadas em cache por algumas horas. Se você alterar os tipos de atividade, espere até que o cache não seja mais válido. Se preferir, no caso de ambientes que não são de produção, reinicie o serviço de Retail Server.
+
+8. Adicione dois botões no layout da tela apropriada do PDV para que os representantes de vendas possam ver o próprio registro de clientes e o registro de clientes da loja. (Os registros de clientes da loja incluem clientes de todos os registros de clientes de todos os representantes que compartilham um catálogo de endereços com a loja.) As operações correspondentes são denominadas **Exibir clientes no registro de clientes** e **Exibir clientes nos registros de clientes da loja**, respectivamente. Há três operações adicionais disponíveis relacionadas a registros de clientes. Essas operações determinam quais representantes podem adicionar, remover e reatribuir clientes do registro de clientes. São elas **Adicionar cliente ao registro de clientes**, **Remover clientes do registro de clientes** e **Reatribuir clientes a um registro de clientes**, respectivamente.
+9. Execute os seguintes trabalhos da agenda de distribuição: 1040, 1150, 1110 e 1090.
+
+Depois que você concluir este procedimento, os representantes de vendas poderão abrir a página de detalhes do cliente no PDV e adicionar clientes ao seu registro de clientes, ver e capturar atividades e anotações de clientes e selecionar clientes usando atributos do cliente e do registro de clientes para filtrar o registro de clientes. A ilustração a seguir mostra um exemplo de registro de clientes.
+
+![Exemplo de registro de clientes](./media/client_book.png "Exemplo de registro de clientes")
+
+## <a name="turn-on-the-integration-of-customer-insights-with-retail"></a>Ativar a integração do Customer Insights com o Retail
+
+Para ativar a integração do Customer Insights com o Retail, você deve verificar se tem uma instância ativa do Customer Insights no inquilino onde o Retail está provisionado. Você também deve ter uma conta de usuário do Azure Active Directory (Azure AD) com uma assinatura do Azure.
+
+Siga estas etapas para configurar a integração.
+
+1. No portal do Azure, registre um aplicativo. Esse aplicativo será usado para autenticação no Customer Insights. Para obter instruções, consulte [Início rápido: Registrar um aplicativo na plataforma de identidade da Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+2. Gere um segredo para o aplicativo. Tome nota do segredo e guarde-o em um lugar seguro, pois você precisará dele posteriormente. Selecione também a duração da expiração do segredo.
+
+    > [!IMPORTANT]
+    > Execute as etapas para lembrar de mudar o segredo antes que ele expire. Do contrário, a integração será interrompida inesperadamente.
+
+3. Crie um Azure Key Vault e salve o segredo do aplicativo. Para obter instruções, consulte [Início rápido: Definir e recuperar um segredo do Azure Key Vault usando o portal do Azure](https://docs.microsoft.com/azure/key-vault/quick-create-portal).
+4. Ative o acesso ao Azure Key Vault no Retail. Para concluir esta etapa, você deve ter um ID e um segredo do aplicativo. O aplicativo pode ser o mesmo que você criou na etapa 1 ou pode ser um novo aplicativo. (Ou seja, você pode usar o aplicativo que criou na etapa 1 para acesso ao Key Vault e ao serviço Customer Insights ou pode criar um aplicativo exclusivo para cada tipo de acesso.) Para obter instruções, consulte [Armazenar as credenciais da entidade de serviço no Azure Stack Key Vault](https://docs.microsoft.com/azure-stack/user/azure-stack-key-vault-store-credentials?view=azs-1908#create-a-service-principal).
+5. No Retail Headquarters, vá para **Administração do sistema \> Configuração \> Parâmetros do Key Vault** e insira as informações necessárias para o Key Vault. Em seguida, no campo **Cliente do Key Vault**, insira o ID do aplicativo usado na etapa 4 para que o Retail pode acessar os segredos no Key Vault.
+6. Para adicionar o aplicativo criado na etapa 1 à lista de aplicativos seguros (também chamada de lista de permissões), vá para o Customer Insights e conceda o acesso **Exibir** ao aplicativo. Para obter instruções, consulte [Permissões](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
+7. No Retail, na página **Parâmetros de varejo**, na guia **Depoimentos de clientes** na guia rápida **Dynamics 365 Customer Insights**, siga estas etapas:
+
+    1. No campo **ID de aplicativo**, insira o ID de aplicativo usado na etapa 1.
+    2. No campo **Nome secreto**, insira o nome do segredo do Key Vault criado na etapa 5.
+    3. Defina a opção **Habilitar Customer Insights** como **Sim**. Se por algum motivo a configuração for malsucedida, você receberá uma mensagem de erro e a opção será definida como **Não**.
+    4. Você pode ter vários ambientes no Customer Insights, como o de teste e o de produção. No campo **ID da instância de ambiente**, insira o ambiente apropriado.
+    5. No campo **ID de cliente alternativo**, informe a propriedade no Customer Insights que está mapeada para o número da conta do cliente. (No Retail, o número da conta do cliente é o ID do cliente.)
+    6. As três propriedades restantes são as medidas que serão exibidas no cartão do cliente no registro de clientes. É possível selecionar até três medidas a serem exibidas no cartão do cliente. (No entanto, você não precisa selecionar nenhuma medida.) Conforme dissemos anteriormente, o sistema mostra esses valores primeiro e, depois, mostra os valores do grupo de atributos do registro de clientes.

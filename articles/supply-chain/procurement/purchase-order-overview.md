@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8e5fd05f3114eb99b7e8b4390827d5ccd52832a
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c527735ea65dad84c5d3d405eac2ead35d3c792d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572181"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815356"
 ---
 # <a name="purchase-order-overview"></a>Visão geral de ordem de compra
 
@@ -41,10 +41,10 @@ Os espaços de trabalho **Preparação da ordem de compra** e **Recebimento e ac
 
 Os artigos a seguir fornecem uma visão geral sobre os vários estágios pelos quais uma OC passa por:
 
--   [Criação de ordem de compra](purchase-order-creation.md)
--   [Confirmação e aprovação da ordem de compra](purchase-order-approval-confirmation.md)
--   [Recebimento de produtos contra ordens de compra](product-receipt-against-purchase-orders.md)
--   [Visão geral de faturas de fornecedor](../../financials/accounts-payable/vendor-invoices-overview.md)
+-   [Criar ordens de compra](purchase-order-creation.md)
+-   [Aprovar e confirmar ordens de compra](purchase-order-approval-confirmation.md)
+-   [​Recebimento de produtos contra ordens de compra​](product-receipt-against-purchase-orders.md)
+-   [​Visão geral de faturas de fornecedor​](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>Tipos de ordens de compra
 Existem três tipos de ordens de compra. Quando você cria uma OC, você deve especificar o tipo. Você pode configurar um tipo de ordem padrão para novas ordens na página **Parâmetros de compras**.
@@ -82,13 +82,13 @@ O campo **Status de aprovação** é usado quando uma ordem de compra passa por 
 <a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Criação de ordem de compra](purchase-order-creation.md)
+[Criar ordens de compra](purchase-order-creation.md)
 
-[Confirmação e aprovação da ordem de compra](purchase-order-approval-confirmation.md)
+[Aprovar e confirmar ordens de compra](purchase-order-approval-confirmation.md)
 
-[Recebimento de produtos contra ordens de compra](product-receipt-against-purchase-orders.md)
+[​Recebimento de produtos contra ordens de compra​](product-receipt-against-purchase-orders.md)
 
-[Visão geral de faturas de fornecedor](../../financials/accounts-payable/vendor-invoices-overview.md)
+[​Visão geral de faturas de fornecedor​](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 
 

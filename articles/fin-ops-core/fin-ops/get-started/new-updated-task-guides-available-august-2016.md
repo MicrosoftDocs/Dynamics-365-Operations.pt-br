@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: c7675ca0ef2f2477d510c956e63d824a5e6b0980
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8747df5513cab16ee3b609f405740e660753e086
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176540"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812523"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>Guias de tarefas novos ou atualizados (agosto de 2016)
 
@@ -32,7 +32,7 @@ Este tópico lista as Guias de tarefas novas ou atualizadas que foram lançadas 
 
 ## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>As Guias de tarefas na Biblioteca Unificada APQC (agosto de 2016 - todos os idiomas) para Microsoft Dynamics AX
 
-A Biblioteca Unificada APQC (agosto de 2016 - todos os idiomas) contém as Guias de tarefas que devem ser usadas para Ajuda com a atualização 2 (agosto de 2016) da plataforma do Microsoft Dynamics AX, a atualização do aplicativo Dynamics AX de maio de 2016 e a versão do Microsoft Dynamics AX de fevereiro de 2016. Para mais informações sobre essas versões, consulte [Novidades ou alterações](whats-new-changed.md). Versões localizadas nas guias de tarefas estão disponíveis nesta biblioteca. Para obter mais informações sobre como conectar o sistema de ajuda à uma biblioteca de Guia de tarefas, consulte [Introdução à Ajuda](help-overview.md).
+A Biblioteca Unificada APQC (agosto de 2016 - todos os idiomas) contém as Guias de tarefas que devem ser usadas para Ajuda com a atualização 2 (agosto de 2016) da plataforma do Microsoft Dynamics AX, a atualização do aplicativo Dynamics AX de maio de 2016 e a versão do Microsoft Dynamics AX de fevereiro de 2016. Para obter mais informações sobre essas versões, consulte [Novidades ou alterações na home page do Finance and Operations](whats-new-changed.md). Versões localizadas nas guias de tarefas estão disponíveis nesta biblioteca. Para obter mais informações sobre como conectar o sistema da Ajuda à uma biblioteca de Guia de tarefas, consulte [Sistema da Ajuda](help-overview.md).
 
 ### <a name="data-access"></a>Acesso a dados
 

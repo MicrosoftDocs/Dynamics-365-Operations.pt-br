@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 2bb5dd5e29559807e40b66ad7f9c061bf510ed67
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: ba0d11efe868d57c74f6ae4b069d1cb8351f7213
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026132"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773048"
 ---
 # <a name="provision-talent"></a>Provisionar o Talent
 
@@ -49,12 +49,12 @@ Depois de criar um projeto de LCS, você pode provisionar o Talent em um ambient
 1. Em seu projeto LCS, selecione o bloco **Gerenciamento do Aplicativo Talent**.
 2. Indique se esta é uma instância de Área restrita ou Produção do Talent. Os recursos de visualização antecipada podem estar disponíveis em instâncias de Área restrita para permitir comentários e testes antecipados. 
     > [!NOTE]
-    > O tipo de instância do Talent é separado do tipo de instância do ambiente do PowerApps, que você definiu no centro de administração do PowerApps.
+    > O tipo de instância do Talent é separado do tipo de instância do ambiente do Microsoft Power Apps, que você definiu no centro de administração do Power Apps.
 3. Selecione a opção **Incluir Dados de Demonstração** se quiser que o ambiente inclua o mesmo conjunto de dados de demonstração usado na experiência de test drive do Talent. Isso é interessante para ambientes de demonstração ou de treinamento de longo prazo, e nunca deve ser usado em ambientes de produção.  Observe que você deve selecionar esta opção na implantação inicial. Não é possível atualizar uma implantação já existente depois.
-4. O Talent sempre é provisionado em um ambiente do Microsoft PowerApps para permitir a integração e extensibilidade do PowerApps. Leia a seção "Selecionando um ambiente do PowerApps" deste tópico antes de prosseguir. Se você ainda não tem um ambiente do PowerApps, selecione Gerenciar ambientes no LCS ou vá para o Centro de administração do PowerApps. Em seguida, siga as etapas para [Criar um ambiente do PowerApps](https://docs.microsoft.com/powerapps/administrator/create-environment).
+4. O Talent sempre é provisionado em um ambiente do Microsoft Power Apps para permitir a integração e extensibilidade do Power Apps. Leia a seção "Selecionando um ambiente do Power Apps" deste tópico antes de prosseguir. Se você ainda não tem um ambiente do Power Apps, selecione Gerenciar ambientes no LCS ou vá para o Centro de administração do Power Apps. Em seguida, siga as etapas para [Criar um ambiente do Power Apps](https://docs.microsoft.com/powerapps/administrator/create-environment).
 
     > [!NOTE]
-    > Para exibir os ambientes existentes ou criar novos, o administrador do locatário que provisiona o Talent deve ter recebido a licença P2 do PowerApps. Se sua organização não tiver uma licença P2 do PowerApps, você poderá obter uma com o CSP ou na [página de preços do PowerApps](https://powerapps.microsoft.com/pricing/).
+    > Para exibir os ambientes existentes ou criar novos, o administrador do locatário que provisiona o Talent deve ter recebido a licença P2 do Power Apps. Se sua organização não tiver uma licença P2 do Power Apps, você poderá obter uma com o CSP ou na [página de preços do Power Apps](https://powerapps.microsoft.com/pricing/).
 
 5. Selecione o ambiente ao qual provisionar o Talent.
 6. Selecione **Sim** para concordar com os termos e começar a implantação.
@@ -68,19 +68,19 @@ Depois de criar um projeto de LCS, você pode provisionar o Talent em um ambient
 
     > Como apenas dois ambientes de LCS são permitidos como parte da assinatura do Talent, você pode considerar a possibilidade de aproveitar um [ambiente de teste do Talent](https://dynamics.microsoft.com/talent/overview/) grátis por 60 dias. Embora um ambiente de avaliação seja propriedade do usuário que o solicitou, outros usuários podem ser convidados por meio da experiência de administração do sistema para o Core HR. Os ambientes de avaliação contêm dados fictícios que podem ser usados para explorar o programa de forma segura. Eles não devem ser usados como ambientes de produção. Observe que, quando um ambiente de avaliação expirar após 60 dias, todos os dados que estão nele serão excluídos e não poderão ser recuperados. Você pode inscrever-se para um novo ambiente de avaliação após o ambiente existente expirar.
 
-## <a name="select-a-powerapps-environment"></a>Selecionar um ambiente do PowerApps
+## <a name="select-a-power-apps-environment"></a>Selecionar um ambiente do Power Apps
 
-A integração entre os ambientes do PowerApps e Talent permite que você integre e estenda o uso dos dados do Talent usando ferramentas do PowerApps. Entender a finalidade dos ambientes do PowerApps não só ajudará você a criar aplicativos para estender o Talent, mas também poderá ajudá-lo a selecionar o ambiente correto ao provisionar o Talent. Para obter mais informações sobre os ambientes do PowerApps, incluindo escopo do ambiente, acesso ao ambiente e criação e escolha do ambiente, consulte [Anunciando ambientes do PowerApps](https://powerapps.microsoft.com/blog/powerapps-environments/). 
+A integração entre os ambientes do Power Apps e Talent permite que você integre e estenda o uso dos dados do Talent usando ferramentas do Power Apps. Entender a finalidade dos ambientes do Power Apps não só ajudará você a criar aplicativos para estender o Talent, mas também poderá ajudá-lo a selecionar o ambiente correto ao provisionar o Talent. Para obter mais informações sobre os ambientes do Power Apps, incluindo escopo do ambiente, acesso ao ambiente e criação e escolha do ambiente, consulte [Anunciando ambientes do Power Apps](https://powerapps.microsoft.com/blog/powerapps-environments/). 
 
-Use as seguintes orientações ao determinar para qual ambiente do PowerApps o Talent será implantado: 
+Use as seguintes orientações ao determinar para qual ambiente do Power Apps o Talent será implantado: 
 
-1. No LCS, selecione **Gerenciar ambientes** ou vá diretamente para o Centro de administração do PowerApps, onde você poderá exibir os ambientes existentes e criar novos.
-2. Um ambiente único do Talent é mapeado para um ambiente único do PowerApps.
-3. Um ambiente do PowerApps contém o Talent, com os aplicativos correspondentes do PowerApps, Flow e Common Data Service. Se o ambiente do PowerApps for excluído, os aplicativos contidos nele também serão. Ao provisionar um ambiente do Talent, é possível provisionar um ambiente de **Teste** ou **Produção**. Escolha o tipo de ambiente baseado em como o ambiente será usado. 
-4. Estratégias de teste e integração de dados devem ser consideradas, como Área restrita, UAT ou Produção. É recomendável levar em consideração as várias implicações para sua implantação, pois não será fácil alterar posteriormente qual ambiente do Talent será mapeado para um ambiente do PowerApps.
-5. Os seguintes ambientes do PowerApps não podem ser usados para o Talent e serão filtrados na lista de seleção no LCS:
+1. No LCS, selecione **Gerenciar ambientes** ou vá diretamente para o Centro de administração do Power Apps, onde você poderá exibir os ambientes existentes e criar novos.
+2. Um ambiente único do Talent é mapeado para um ambiente único do Power Apps.
+3. Um ambiente do Power Apps contém o Talent, com os aplicativos correspondentes do Power Apps, Power Automate e Common Data Service. Se o ambiente do Power Apps for excluído, os aplicativos contidos nele também serão. Ao provisionar um ambiente do Talent, é possível provisionar um ambiente de **Teste** ou **Produção**. Escolha o tipo de ambiente baseado em como o ambiente será usado. 
+4. Estratégias de teste e integração de dados devem ser consideradas, como Área restrita, UAT ou Produção. É recomendável levar em consideração as várias implicações para sua implantação, pois não será fácil alterar posteriormente qual ambiente do Talent será mapeado para um ambiente do Power Apps.
+5. Os seguintes ambientes do Power Apps não podem ser usados para o Talent e serão filtrados na lista de seleção no LCS:
  
-    - **Ambientes padrão do PowerApps** – Embora cada locatário seja provisionado automaticamente com um ambiente padrão do PowerApps, não é recomendável usá-lo com o Talent, pois todos os usuários do locatário têm acesso ao ambiente do PowerApps e poderão corromper involuntariamente os dados de produção ao testar e explorar com integrações do PowerApps ou do Flow.
+    - **Ambientes padrão do Power Apps** – embora cada locatário seja provisionado automaticamente com um ambiente padrão do Power Apps, não é recomendável usá-lo com o Talent, pois todos os usuários do locatário têm acesso ao ambiente do Power Apps e poderão corromper involuntariamente os dados de produção ao testar e explorar com integrações do Power Apps ou do Power Automate.
    
     - **Ambientes de versão de avaliação** - Esses ambientes são criados com uma data de vencimento e expirarão após esse tempo, resultando na remoção automática do seu ambiente e de quaisquer instâncias do Talent contidas.
    

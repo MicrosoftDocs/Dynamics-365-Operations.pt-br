@@ -1,5 +1,5 @@
 ---
-title: Contratar candidatos com os grupos de talentos no Microsoft Dynamics 365 Talent - Attract
+title: Contratar candidatos com grupos de talento no Attract
 description: Este tópico explica como criar e configurar grupos de talentos no Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 454ba987eef924d520af17e8b9ae694fe9b82ec2
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: ea10ccd5e4b1f1ffbb8f736e886240e223a4eeb3
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551109"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833003"
 ---
-# <a name="source-candidates-with-talent-pools-in-microsoft-dynamics-365-talent---attract"></a>Contratar candidatos com os grupos de talentos no Microsoft Dynamics 365 Talent - Attract
+# <a name="source-candidates-with-talent-pools-in-attract"></a>Contratar candidatos com grupos de talento no Attract
 
-[!include[banner](../includes/banner.md)]
-
+[!include [banner](includes/banner.md)]
 
 Os recrutadores e gerentes de contratação podem organizar seus candidatos usando a funcionalidade grupos de talentos no Attract. Os grupos de talentos podem ajudar a controlar e a se envolver com todos os candidatos a posições em sua empresa.
 
@@ -116,7 +115,7 @@ Todas os usuários têm uma exibição comum dos perfis de candidato. A guia **P
 
     Para exibir um documento, selecione o nome do documento na lista de documentos. Você pode exibir documentos do Microsoft Word no aplicativo usando o Microsoft Office 365. Você também pode baixar os documentos para o computador local usando a opção **Download** para cada documento.
 
-- A guia **LinkedIn** mostra informações do candidato no LinkedIn. Para usar esta guia, é necessário conectar a conta do LinkedIn nas configurações do usuário, e a conexão com o LinkedIn Recruiter do seu ambiente deve ser estabelecida. Para obter mais informações, consulte [Obter informações do LinkedIn Recruiter](./attract-linkedin-recruiter.md).
+- A guia **LinkedIn** mostra informações do candidato no LinkedIn. Para usar esta guia, é necessário conectar a conta do LinkedIn nas configurações do usuário, e a conexão com o LinkedIn Recruiter do seu ambiente deve ser estabelecida. Para obter mais informações, consulte [Contratar candidatos com o LinkedIn Recruiter no Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md).
 
 > [!NOTE]
 > Somente os candidatos podem atualizar suas habilidades, histórico de formação educacional e experiência de trabalho.

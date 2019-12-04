@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 20d48795b23628bbba2896bf48940936a25e0435
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 3f331401f8d191243f72961333e4f1dbe84d0be5
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550075"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771320"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Suporte a chamadas parametrizadas de fontes de dados de ER do tipo Campo calculado
 
@@ -55,7 +55,7 @@ No [Centro de Download da Microsoft](https://go.microsoft.com/fwlink/?linkid=874
 | Configuração de formato de ER de exemplo        | Formato para conhecer chamadas parametrizadas.versão.1.1.xml  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>Entrar em sua instância do RCS
-Neste exemplo, você criará uma configuração para a empresa de exemplo, Litware, Inc. Primeiro, no RCS, você deve concluir as etapas do procedimento [Criar um provedor configuração e marcá-lo como ativo](tasks/er-configuration-provider-mark-it-active-2016-11.md):
+Neste exemplo, você criará uma configuração para a empresa de exemplo, Litware, Inc. Primeiro, no RCS, você deve concluir as etapas do procedimento [Criar provedores configuração e marcá-los como ativos](tasks/er-configuration-provider-mark-it-active-2016-11.md):
 
 1. No painel padrão, selecione **Relatório eletrônico**.
 2. Selecione **Configurações de relatórios**.
@@ -75,21 +75,21 @@ Neste exemplo, você criará uma configuração para a empresa de exemplo, Litwa
 3. Selecione **Designer**.
 4. Selecione **Designer**.  
    
-Esse mapeamento de modelos de ER foi criado para fazer o seguinte:
+    Esse mapeamento de modelos de ER foi criado para fazer o seguinte:
 
-- Obter a lista de códigos de imposto (fontes dados **Imposto**) na tabela **TaxTable**.
-- Obter a lista de transações de imposto (fonte de dados **Trans**) na tabela **TaxTrans**:
+    - Obtenha a lista de códigos de imposto (fonte de dados **Imposto**) na tabela **TaxTable**.
+    - Obtenha a lista de transações de imposto (fonte de dados **Trans**) na tabela **TaxTrans**:
     
-    - Agrupar a lista de transações obtidas (fonte de dados **Gr**) por código de imposto.
-    - Calcular transações agrupadas seguindo os valores agregados de acordo com o código de imposto:
+        - Agrupar a lista de transações obtidas (fonte de dados **Gr**) por código de imposto.
+        - Calcular transações agrupadas seguindo os valores agregados de acordo com o código de imposto:
 
-        - Soma dos valores de base do imposto.
-        - Soma dos valores do imposto.
-        - Valor mínimo da taxas de impostos aplicada.
+            - Soma dos valores de base do imposto.
+            - Soma dos valores do imposto.
+            - Valor mínimo da taxas de impostos aplicada.
 
-O mapeamento de modelos nesta configuração implementa o modelo de dados de base para qualquer dos formatos de ER criados para esse modelo e executados no Finance and Operations. Consequentemente, o conteúdo das fontes de dados **Imposto** e **Gr** é exposto para formatos de ER, como fontes de dados abstratos.
+    O mapeamento de modelos nesta configuração implementa o modelo de dados de base para qualquer dos formatos de ER criados para esse modelo e executados no Finance and Operations. Consequentemente, o conteúdo das fontes de dados **Imposto** e **Gr** é exposto para formatos de ER, como fontes de dados abstratos.
 
-  ![Página do Designer de mapeamento de modelos mostrando as fontes de dados Imposto e Gr](media/er-calculated-field-type-01.png)
+    ![Página do Designer de mapeamento de modelos mostrando as fontes de dados Imposto e Gr](media/er-calculated-field-type-01.png)
 
 5.  Feche a página **Designer de mapeamento de modelo**.
 6.  Feche a página **Mapeamento de modelos**.
@@ -100,25 +100,25 @@ O mapeamento de modelos nesta configuração implementa o modelo de dados de bas
 2. Selecione **Formato para conhecer chamadas parametrizadas**.
 3. Selecione **Designer**. Esse formato de ER foi criado para fazer o seguinte:
 
-  - Gerar um demonstrativo de imposto em formato XML.
-  - Apresentar os seguintes níveis de tributação no demonstrativo de imposto: normal, reduzido e nenhum.
-  - Apresentar vários detalhes em cada nível de tributação, com um número de detalhes diferente em cada nível.
+    - Gerar um demonstrativo de imposto em formato XML.
+    - Apresentar os seguintes níveis de tributação no demonstrativo de imposto: normal, reduzido e nenhum.
+    - Apresentar vários detalhes em cada nível de tributação, com um número de detalhes diferente em cada nível.
 
-  ![Página do designer de formatos](media/er-calculated-field-type-02.png)
+    ![Página do designer de formatos](media/er-calculated-field-type-02.png)
 
 4. Selecione **Mapeamento**.
 5. Expanda os itens **Modelo**, **Dados** e **Resumo**. 
 
-   O campo calculado **Model.Data.Summary.Level** contém a expressão que retorna o código do nível de tributação (**Normal**, **Reduzido**, **Nenhum** ou **Outro**) como um valor de texto para qualquer código de imposto que possa ser recuperado da fonte de dados **Model.Data.Summary** em tempo de execução.
+    O campo calculado **Model.Data.Summary.Level** contém a expressão que retorna o código do nível de tributação (**Normal**, **Reduzido**, **Nenhum** ou **Outro**) como um valor de texto para qualquer código de imposto que possa ser recuperado da fonte de dados **Model.Data.Summary** em tempo de execução.
 
-  ![Página do designer de formatos mostrando detalhes do modelo de dados Modelo para conhecer chamadas parametrizadas](media/er-calculated-field-type-03.png)
+    ![Página do designer de formatos mostrando detalhes do modelo de dados Modelo para conhecer chamadas parametrizadas](media/er-calculated-field-type-03.png)
 
 6. Expanda o item **Model**.**Data2**.
 7. Expanda o item **Model**.**Data2.Summary2**.
    
-   A fonte de dados **Model**.**Data2.Summary2** é configurada para agrupar os detalhes de transações da fonte de dados **Model.Data.Summary** por nível de tributação (retornado pelo campo calculado **Model.Data.Summary.Level**) e calcular as agregações.
+    A fonte de dados **Model**.**Data2.Summary2** é configurada para agrupar os detalhes de transações da fonte de dados **Model.Data.Summary** por nível de tributação (retornado pelo campo calculado **Model.Data.Summary.Level**) e calcular as agregações.
 
-  ![Página do designer de formatos mostrando detalhes da fonte de dados Model.Data2.Summary2](media/er-calculated-field-type-04.png)
+    ![Página do designer de formatos mostrando detalhes da fonte de dados Model.Data2.Summary2](media/er-calculated-field-type-04.png)
 
 8. Examine os campos calculados **Model**.**Data2.Level1**, **Model**.**Data2.Level2** e **Model**.**Data2.Level3**. Esses campos calculados são usados para filtrar a lista de registros **Model**.**Data2.Summary2** e retornar apenas os registros que representam um nível de tributação específico.
 9. Feche a página **Designer de formato**.
@@ -309,7 +309,7 @@ Quando um campo calculado parametrizado retorna um registro, você precisa dar s
 Você pode executar os formatos de ER inicial e aprimorados para garantir que os campos calculados parametrizados funcionam corretamente.
 
 ### <a name="import-er-configurations"></a>Importar configurações de ER
-Você pode importar configurações revisadas do RCS usando o repositório de ER do tipo **RCS**. Se você já passou pelas etapas do tópico [Importar configurações do relatório eletrônico do Regulatory Configuration Service](rcs-download-configurations.md), use o repositório de ER configurado para importar as configurações discutidas anteriormente neste tópico para o seu ambiente. Caso contrário, siga estas etapas:
+Você pode importar configurações revisadas do RCS usando o repositório de ER do tipo **RCS**. Se você já passou pelas etapas do tópico [Importar configurações de ER (Relatórios eletrônicos) do RCS (Regulatory Configuration Service)](rcs-download-configurations.md), use o repositório de ER configurado para importar as configurações discutidas anteriormente neste tópico para o seu ambiente. Caso contrário, siga estas etapas:
 
 1. Selecione a empresa **DEMF** e, no painel padrão, selecione **Relatório eletrônico**.
 2. Selecione **Configurações de relatórios**.
@@ -339,4 +339,4 @@ Você pode importar configurações revisadas do RCS usando o repositório de ER
 8. Compare o conteúdo das saídas geradas.
 
 ## <a name="additional-resources"></a>Recursos adicionais
-[Designer de fórmulas no Relatório eletrônico](general-electronic-reporting-formula-designer.md)
+[Designer de fórmulas no relatório eletrônico (ER)](general-electronic-reporting-formula-designer.md)

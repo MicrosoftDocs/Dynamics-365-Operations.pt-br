@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2bfe007995c894d6cc86d07ef2b52da65e32e950
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: aa8444b081650e3d375e6f28f47866c8d4853721
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182729"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772454"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>Acesse metadados de aplicativos usando a configuração de ER
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-As etapas a seguir explicam como um usuário do Regulatory Configuration Service (RCS) na função de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar um novo mapeamento de modelos de relatório eletrônico (ER) por meio dos metadados do aplicativo. Os metadados do aplicativo serão acessados por meio de uma configuração de metadados de ER contendo um conjunto de exemplo de metadados para acessar transações de comércio exterior. Para concluir estas etapas no RCS, primeiro é necessário concluir as etapas no procedimento do tópico, [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md). Em seguida, conclua as etapas no tópico [(ER) Preparar metadados do aplicativo a serem usados no RCS](prepare-application-metadata-rcs.md).
+As etapas a seguir explicam como um usuário do Regulatory Configuration Service (RCS) na função de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar um novo mapeamento de modelos de relatório eletrônico (ER) por meio dos metadados do aplicativo. Os metadados do aplicativo serão acessados por meio de uma configuração de metadados de ER contendo um conjunto de exemplo de metadados para acessar transações de comércio exterior. Para concluir estas etapas no RCS, primeiro é necessário concluir as etapas no procedimento do tópico, [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md). Em seguida, conclua as etapas no tópico [Preparar metadados do aplicativo a serem usados no RCS](prepare-application-metadata-rcs.md).
 
 ## <a name="prerequisites"></a>Pré-requisitos
 1. Vá para **Todos os espaços de trabalho** > **Relatório eletrônico**. 
@@ -35,7 +35,7 @@ As etapas a seguir explicam como um usuário do Regulatory Configuration Service
 
 ## <a name="import-metadata-configuration"></a>Importar configuração de metadados 
 1. Clique em **Configurações de metadados**. 
-2. Importe a configuração de metadados de ER que contém metadados que foram configurados para gerar documentos eletrônicos para negócios de comércio exterior. Essa configuração de metadados de ER foi exportada como o arquivo XML enquanto as etapas no procedimento [(ER) Preparar metadados do aplicativo a serem usados no RCS](prepare-application-metadata-rcs.md) foram concluídas. 
+2. Importe a configuração de metadados de ER que contém metadados que foram configurados para gerar documentos eletrônicos para negócios de comércio exterior. Essa configuração de metadados de ER foi exportada como arquivo XML enquanto as etapas no procedimento [Preparar metadados do aplicativo a serem usados no RCS](prepare-application-metadata-rcs.md) foram concluídas. 
 3. Clique em **Taxa de câmbio**. 
 4. Clique em **Carregar de um arquivo XML**. 
 5. Clique em **Procurar** e selecione o arquivo ‘Foreign trade metadata.xml’. 

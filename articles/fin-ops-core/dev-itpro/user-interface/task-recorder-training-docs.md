@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c3d83334bcccc62a2cbe761272b13cc80e10c11
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: b4bb523c2817a220623d8a1b6cc1ac04d7b96283
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658801"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812640"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Criar documentação ou treinamento com o Gravador de tarefas
 
@@ -84,7 +84,7 @@ Este é o painel de edição que é exibido quando você adiciona uma anotação
 
 [![Aparência da anotação das Notas na guia de tarefas](./media/screen4.png)](./media/screen4.png)
 
--   **Etapa informativa**: Essas anotações são criadas ao clicar com o botão direito do mouse em um controle ou em qualquer lugar de um formulário &lt; **Gravador de tarefas** &lt; **Adicionar etapa informativa. **Etapas informativas aparecem como uma etapa numerada no lugar e momento em que foram inseridas, mesmo que nenhuma ação tenha sido gravada na UI. Você pode adicionar uma etapa informativa de nível de formulário ou uma etapa informativa associada a um controle. Quando uma etapa informativa está associada a um formulário, a "bolha" do guia de tarefa irá aparecer em algum lugar do formulário, sem um ponteiro, quando o guia de tarefa for executado. Quando uma etapa de informação é associada a um controle, a guia de tarefas "bolha" aponta para o controle quando o guia de tarefas é reproduzido. No painel de Ajuda, uma anotação de passo de informações será exibida como uma etapa numerada com qualquer texto digitado. Utilize etapas informativas para preparar o usuário para as próximas etapas, para descrever etapas que devem ser feitas fora do aplicativo ou para fazer referência a outras gravações (embora não seja possível criar hiperlinks nas anotações).
+-   **Etapa de informações**: essas anotações são criadas clicando com o botão direito do mouse em um controle ou em qualquer lugar em um formulário &lt; **Gravador de tarefas** &lt; **Adicionar etapa de informações.** As etapas de informações aparecem como um passo numerado no ponto em que você o insere, mesmo que nenhuma ação tenha sido registrada na interface do usuário. Você pode adicionar uma etapa informativa de nível de formulário ou uma etapa informativa associada a um controle. Quando uma etapa informativa está associada a um formulário, a "bolha" do guia de tarefa irá aparecer em algum lugar do formulário, sem um ponteiro, quando o guia de tarefa for executado. Quando uma etapa de informação é associada a um controle, a guia de tarefas "bolha" aponta para o controle quando o guia de tarefas é reproduzido. No painel de Ajuda, uma anotação de passo de informações será exibida como uma etapa numerada com qualquer texto digitado. Utilize etapas informativas para preparar o usuário para as próximas etapas, para descrever etapas que devem ser feitas fora do aplicativo ou para fazer referência a outras gravações (embora não seja possível criar hiperlinks nas anotações).
 
 **Determine o tempo para fazer a gravação**
 
@@ -97,7 +97,7 @@ Este é o painel de edição que é exibido quando você adiciona uma anotação
 **Decida onde, na UI, para iniciar uma gravação** A página em que você está quando inicia a gravação de uma tarefa afeta a página na qual o guia de tarefas é exibido. Por exemplo, se desejar que a gravação da tarefa seja listada no painel Ajuda quando um usuário clicar em Ajuda na página de parâmetros do razão geral, você deve iniciar a gravação na página de parâmetros do razão geral. **Salvar gravações como arquivos .axtr** Quando você terminar de criar ou editar uma gravação de tarefa, existirão diversas opções para baixar ou salvar a gravação. Você pode baixar o arquivo como um pacote de gravação de tarefa (.axtr), baixar como um arquivo de gravação bruto (.xml), baixar como um documento de Word, ou salvar o arquivo a uma biblioteca do LCS. É recomendável sempre salvar sua gravação de tarefa como um pacote de arquivos de gravação de tarefa (.axtr). Isso tornará a manutenção do arquivo mais fácil caso os procedimentos ou anotações precisem ser alterados posteriormente. Se você deseja baixar o arquivo como um documento de Word, salve-o também como um pacote de arquivos de gravação de tarefa.
 
 ## <a name="create-your-task-recording"></a>Criar sua gravação de tarefa
-Para obter etapas detalhadas, consulte [Como criar uma gravação de tarefa](task-recorder.md).
+Para obter etapas detalhadas, consulte [Recursos do Gravador de tarefas](task-recorder.md).
 
 ## <a name="copy-and-customize-microsofts-task-recordings"></a>Copiar e personalizar gravações de tarefas da Microsoft
 Você pode baixar e editar gravações de tarefas da Microsoft para utilizá-las em sua própria documentação de ajuda ou materiais de treinamento. Para baixar uma gravação de tarefa do Microsoft, siga as etapas abaixo:
@@ -115,14 +115,14 @@ Você pode baixar e editar gravações de tarefas da Microsoft para utilizá-las
 11. Escolha como você deseja salvar a gravação de tarefa.
 
 ## <a name="include-your-task-recordings-in-the-help-pane"></a>Incluir suas gravações de tarefas no painel de ajuda
-Para mostrar suas próprias gravações de tarefas personalizadas no painel de ajuda para que possam ser executadas novamente como guias de tarefas ou visualizadas como texto, você deve salvar suas gravações de tarefas à sua própria biblioteca do BPM, e então atualizar os parâmetros do seu sistema de ajuda para que ele aponte para sua biblioteca do BPM. Para obter mais informações, consulte [Conectando o sistema de ajuda.](../../fin-ops/get-started/help-connect.md)
+Para mostrar suas próprias gravações de tarefas personalizadas no painel de ajuda para que possam ser executadas novamente como guias de tarefas ou visualizadas como texto, você deve salvar suas gravações de tarefas à sua própria biblioteca do BPM, e então atualizar os parâmetros do seu sistema de ajuda para que ele aponte para sua biblioteca do BPM. Para obter mais informações, consulte [Conectar-se ao sistema da Ajuda](../../fin-ops/get-started/help-connect.md).
 
 <a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Visão geral da ajuda](../../fin-ops/get-started/help-overview.md)
+[Sistema de ajuda](../../fin-ops/get-started/help-overview.md)
 
-[Ajuda para conexão](../../fin-ops/get-started/help-connect.md)
+[Conectar o Sistema de ajuda](../../fin-ops/get-started/help-connect.md)
 
 [Gravador de Tarefas](task-recorder.md)
 

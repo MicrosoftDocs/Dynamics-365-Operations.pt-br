@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 1a96b7cfa57ec72b25f21d94fadb2fbf9bc6ea3b
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: fb5abb983811ce736e3494bc85e8d9b23a2e373c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251337"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814066"
 ---
 # <a name="prospect-to-cash"></a>Cliente potencial ao pagamento à vista
 
@@ -36,12 +36,12 @@ Para obter mais informações sobre a integração Prospect to cash, assista ao 
 
 Na versão atual, a solução Prospect to cash fornece os seguintes tipos de sincronização direta:
 
-- [Manter contas no Sales e sincronizá-las diretamente do Sales para o Supply Chain Management](accounts-template-mapping-direct.md)
-- [Manter produtos no Supply Chain Management e sincronizá-los diretamente para o Sales](products-template-mapping-direct.md)
-- [Manter contatos no Sales e sincronizá-los diretamente com contatos ou clientes no Supply Chain Management](contacts-template-mapping-direct.md)
-- [Sincronizar cotações de venda diretamente do Sales para o Supply Chain Management](sales-quotation-template-mapping-sales-fin.md)
-- [Sincronizar ordens de venda diretamente entre o Sales e o Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)
-- [Sincronizar fatura de vendas diretamente do Supply Chain Management para o Sales](sales-invoice-template-mapping-direct.md)
+- [Sincronizar contas diretamente do Sales com clientes no Supply Chain Management](accounts-template-mapping-direct.md)
+- [Sincronizar produtos diretamente do Supply Chain Management com produtos do Sales](products-template-mapping-direct.md)
+- [Sincronizar contatos diretamente do Sales com contatos ou clientes do Supply Chain Management](contacts-template-mapping-direct.md)
+- [Sincronizar cabeçalhos e linhas da cotação de venda diretamente do Sales para o Supply Chain Management](sales-quotation-template-mapping-sales-fin.md)
+- [Sincronização de ordens de venda diretamente entre o Sales e o Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)
+- [Sincronizar cabeçalhos e linhas da fatura de venda diretamente do Supply Chain Management com o Sales](sales-invoice-template-mapping-direct.md)
 
 ## <a name="system-requirements-for-supply-chain-management"></a>Requisitos de sistema do Supply Chain Management
 A integração Prospect to cash tem suporte nas seguintes versões:

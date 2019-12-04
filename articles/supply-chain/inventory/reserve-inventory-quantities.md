@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89441ee4c799e2d1215fbd82e0490d7168e2aa1b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 859d769b95c57663dc1bb76a632e34728a6691b5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570800"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813855"
 ---
 # <a name="reserve-inventory-quantities"></a>Reservar quantidades do estoque
 
@@ -55,7 +55,7 @@ A seção **Políticas de estoque** contém as seguintes políticas de reserva.
 | Controlado por data PEPS    | Se você selecionar a opção **Controlado por data PEPS**, a reserva de estoque será controlada por uma data de classificação, de acordo com o princípio PEPS. Lotes são reservados com base na data mais antiga de recebimento de itens, de acordo com o princípio PEPS (primeiro a entrar, primeiro a sair).                                                                                                                                                                                                                                                                       |
 | Voltar a partir da data de remessa | Essa opção se tornará disponível apenas se você tiver selecionado a opção **Controlado por data PEPS**. Se você selecionar **Voltar a partir da data de remessa**, a reserva de estoque será feita a partir da data de remessa desejada, de acordo com o princípio UEPS (último a entrar, primeiro a sair). Se nenhum recebimento estiver disponível antes da data de remessa, será usada uma reserva PEPS.                                                                                                                                                                                                           |
 | Reserva de venda de item  | Determina se a reserva de itens é manual ou automática. Se a reserva é automática, o estoque é reservado quando as linhas de ordem são criadas. É possível fazer reservas no nível de número de item para BOMs (opção **Automática**) ou para os elementos individuais de uma BOM (opção **Explosão**). O valor padrão de **Reserva de venda de item** pode ser herdado de **Parâmetros de contas a receber.** Nesta página, o valor é definido no campo **Reserva** da seção **Valores padrão de vendas** da guia **Geral**. |
-| Seleção de mesmo lote    | A reserva de mesmo lote permite reservar estoque para uma linha de ordem de venda para um único lote de estoque. Se você deseja usar essa opção, deve também definir a opção **Consolidar necessidade** como **Sim**. Há configurações adicionais que são necessárias para o grupo de dimensões de rastreamento e o grupo de dimensões de armazenamento. Para obter mais informações, consulte [Reservando o mesmo lote para uma ordem de venda](../sales-marketing/reserve-same-batch-sales-order.md).                                                          |
+| Seleção de mesmo lote    | A reserva de mesmo lote permite reservar estoque para uma linha de ordem de venda para um único lote de estoque. Se você deseja usar essa opção, deve também definir a opção **Consolidar necessidade** como **Sim**. Há configurações adicionais que são necessárias para o grupo de dimensões de rastreamento e o grupo de dimensões de armazenamento. Para obter mais informações, consulte [Reservar o mesmo lote para uma ordem de venda](../sales-marketing/reserve-same-batch-sales-order.md).                                                          |
 | Consolidar necessidade | Essa opção é semelhante à opção **Seleção de mesmo lote** e consolida estoque reservado para linhas de ordem de venda em apenas uma necessidade.                                                                                                                                                                                                                                                                                                                                                                                      |
 | Controlado por data FEFO    | Essa opção permite que você reserve lotes próximos de suas datas de vencimento ou de validade. Também é necessário definir o campo **Critérios de separação** para escolher **Data de vencimento** ou **Data de validade**.                                                                                                                                                                                                                                                                                                                              |
 

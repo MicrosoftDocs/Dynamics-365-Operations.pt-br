@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 647ef586b64699a891bd3b6702ac93bc5ee8292e
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 03853e1f80bd32c1dfe5cfcbcd77e79168f26249
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025398"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812298"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Visão geral da integração fiscal dos Canais de varejo
 
@@ -36,7 +36,7 @@ Este tópico é uma visão geral dos recursos de integração fiscal disponívei
 - Enviar com segurança informações relacionadas a vendas e devoluções concluídas no Retail POS a um serviço Web externo operado pela autoridade fiscal.
 - Ajudar a garantir a inalterabilidade dos dados de transação de vendas por meio de assinaturas digitais.
 
-A funcionalidade de integração fiscal é uma estrutura que fornece uma solução comum para o desenvolvimento e a personalização da integração entre o Retail POS e os serviços e dispositivos fiscais. Ela também inclui exemplos de integração fiscal que oferecem suporte a cenários de varejo básicos para países ou regiões específicos e que funcionam com serviços ou dispositivos fiscais específicos. Um exemplo de integração fiscal consiste em várias extensões de componentes do Retail e está incluído no kit de desenvolvimento de software (SDK). Para obter mais informações sobre os exemplos de integração fiscal, consulte [Exemplos de integração fiscal no SDK do Retail](#fiscal-integration-samples-in-the-retail-sdk). Para obter informações sobre como instalar e usar o SDK do Retail, consulte [Visão geral do SDK do Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md).
+A funcionalidade de integração fiscal é uma estrutura que fornece uma solução comum para o desenvolvimento e a personalização da integração entre o Retail POS e os serviços e dispositivos fiscais. Ela também inclui exemplos de integração fiscal que oferecem suporte a cenários de varejo básicos para países ou regiões específicos e que funcionam com serviços ou dispositivos fiscais específicos. Um exemplo de integração fiscal consiste em várias extensões de componentes do Retail e está incluído no kit de desenvolvimento de software (SDK). Para obter mais informações sobre os exemplos de integração fiscal, consulte [Exemplos de integração fiscal no SDK do Retail](#fiscal-integration-samples-in-the-retail-sdk). Para obter informações sobre como instalar e usar o SDK do Retail, consulte [Arquitetura do SDK (software development kit) do Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
 Para oferecer suporte a outros cenários que não têm suporte de um exemplo de integração fiscal, integrar o Retail POS a outros serviços ou dispositivos fiscais ou cobrir requisitos de outros países ou regiões, é necessário estender um exemplo de integração fiscal existente ou criar um novo exemplo usando um existente como modelo.
 
@@ -67,7 +67,7 @@ O exemplo a seguir mostra um típico fluxo de execução de registro fiscal para
 
 ![Esquema da solução](media/emea-fiscal-integration-solution.png "Esquema da solução")
 
-## <a name="error-handling"></a>Tratamento de erro
+## <a name="error-handling"></a>Tratamento de erros
 
 A estrutura de integração fiscal fornece as seguintes opções para lidar com as falhas durante o registro fiscal:
 
@@ -141,6 +141,6 @@ Os seguintes exemplos de integração fiscal estão disponíveis atualmente no S
 
 A seguinte funcionalidade de integração fiscal também está disponível no SDK do Retail, mas atualmente não aproveita a estrutura de integração fiscal. A migração dessa funcionalidade para a estrutura de integração fiscal está planejada para atualizações posteriores.
 
-- [Assinatura digital para a França](emea-fra-cash-registers.md)
-- [Assinatura digital para a Noruega](emea-nor-cash-registers.md)
-- [Exemplo de integração da unidade de controle para a Suécia](./retail-sdk-control-unit-sample.md)
+- [Funcionalidade de caixa registradora para a França](emea-fra-cash-registers.md)
+- [Funcionalidade de caixa registradora para a Noruega](emea-nor-cash-registers.md)
+- [Exemplo para integração do Retail POS com unidades de controle para a Suécia](./retail-sdk-control-unit-sample.md)

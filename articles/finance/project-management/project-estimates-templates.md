@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 3b885610ac9ca8645358ba8ab6d46ab82143a534
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: ebf0fce60ad006e798aa4f404fbffcf10a0b31f9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250475"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770280"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizar estimativas de projeto diretamente do Project Service Automation para o Finance and Operations.
 
@@ -46,7 +46,7 @@ A ilustração a seguir mostra como os dados são sincronizados entre o Project 
 
 ### <a name="template-and-tasks"></a>Modelo e tarefas
 
-Para acessar os modelos disponíveis, no Centro de administração do Microsoft PowerApps, selecione **Projetos** e, no canto superior direito, marque **Novo projeto** para selecionar modelos públicos.
+Para acessar os modelos disponíveis, no Centro de administração do Microsoft Power Apps, selecione **Projetos** e, no canto superior direito, marque **Novo projeto** para selecionar modelos públicos.
 
 O seguinte modelo e as tarefas subjacentes são usados para sincronizar estimativas de tempo do projeto do Project Service Automation para o Finance:
 

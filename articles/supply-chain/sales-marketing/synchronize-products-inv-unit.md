@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 8b65e9640106c5d351270074e39c121e70917228
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 18bedcc99d7d70875ec363a97e4e6eccbace3a9c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251215"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814160"
 ---
 # <a name="synchronize-products-with-inventory-unit-from-supply-chain-management-to-field-service"></a>Sincronizar produtos com a unidade de estoque do Supply Chain Management com o Field Service
 
@@ -34,7 +34,7 @@ Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar
 
 [![Sincronização de processos empresariais entre o Supply Chain Management e o Field Service](./media/FSProductsOW.png)](./media/FSProductsOW.png)
 
-O modelo **Produtos do Field Service com Unidade de estoque (Supply Chain Management para Field Service)** usado é baseado no modelo **Produtos do Field Service (Supply Chain Management para Field Service)**. Para obter mais informações, consulte [Produtos do Field Service (Supply Chain Management para Field Service)](field-service-product.md).
+O modelo **Produtos do Field Service com Unidade de estoque (Supply Chain Management para Field Service)** usado é baseado no modelo **Produtos do Field Service (Supply Chain Management para Field Service)**. Para obter mais informações, consulte [Sincronizar produtos no Supply Chain Management com produtos no Field Service](field-service-product.md).
 
 Este tópico descreve apenas as diferenças entre os dois métodos: 
 - **Produtos do Field Service com Unidade de estoque (Supply Chain Management para Sales)**

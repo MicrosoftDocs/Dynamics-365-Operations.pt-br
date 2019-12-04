@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ce8c1e7a3a4533516d8f2e2b0af46633e4c7667
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c0d9b8708df413118d6e1c1dbe788ce4f6ed5b2f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250728"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815171"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>​Gerar uma previsão estatística​
 
@@ -56,7 +56,7 @@ O campo **Data de início de previsão de linha de base** - **Data inicial** dev
 
 O campo **Data de início de previsão de linha de base** - **Data inicial** pode ser definido para uma data no passado. Em outras palavras, é possível gerar uma previsão de demanda no passado. Isso será útil porque permite que os usuários ajustem os parâmetros do serviço de previsão para que a previsão estatística gerada no passado corresponda à demanda histórica real. Os usuários poderão, então, continuar usando essas configurações de parâmetro para gerar uma previsão estatística para o futuro. 
 
-Os ajustes manuais feitos nas iterações de previsão de demanda anteriores poderão ser aplicados automaticamente à nova previsão estatística se a caixa de seleção **Transferir ajustes manuais para a previsão de demanda**. Se a caixa de seleção estiver desmarcada, os ajustes manuais não serão adicionadas à previsão estatísticas, mas não serão excluídos. Os ajustes manuais feitos em uma previsão podem ser excluídos somente no momento da importação da previsão, desmarcando a caixa de seleção **Salvar os ajustes manuais feitos na previsão de demanda da linha de base**. Os ajustes manuais são salvos no momento da autorização. Portanto, se um usuário fizer ajustes manuais na previsão, mas não autorizar a previsão no Supply Chain Management, as alterações serão perdidas. Para obter mais informações sobre os ajustes manuais e como eles funcionam, consulte [Autorizando a previsão ajustada](authorize-adjusted-forecast.md). 
+Os ajustes manuais feitos nas iterações de previsão de demanda anteriores poderão ser aplicados automaticamente à nova previsão estatística se a caixa de seleção **Transferir ajustes manuais para a previsão de demanda**. Se a caixa de seleção estiver desmarcada, os ajustes manuais não serão adicionadas à previsão estatísticas, mas não serão excluídos. Os ajustes manuais feitos em uma previsão podem ser excluídos somente no momento da importação da previsão, desmarcando a caixa de seleção **Salvar os ajustes manuais feitos na previsão de demanda da linha de base**. Os ajustes manuais são salvos no momento da autorização. Portanto, se um usuário fizer ajustes manuais na previsão, mas não autorizar a previsão no Supply Chain Management, as alterações serão perdidas. Para obter mais informações sobre os ajustes manuais e como eles funcionam, consulte [Autorizar uma previsão ajustada](authorize-adjusted-forecast.md). 
 
 Uma geração de previsão de demanda pode ter um nome e comentários para facilitar a identificação da previsão gerada. Esses valores podem ser vistos no histórico de geração de previsão na página **Histórico de geração de previsão estatística**. 
 
@@ -75,6 +75,6 @@ Se a previsão não for gerada para um grande conjunto de itens, mas, por exempl
 
 - [Configuração da previsão de demanda](demand-forecasting-setup.md)
 
-- [Ajustes manuais na previsão estatística](manual-adjustments-baseline-forecast.md)
+- [Faça ajustes manuais para a previsão estatística](manual-adjustments-baseline-forecast.md)
 
-- [Autorizando a previsão ajustada](authorize-adjusted-forecast.md)
+- [Autorizar uma previsão ajustada](authorize-adjusted-forecast.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 074132af2111debee4bea894b559744b4470454d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 78b3b20ed56cbb6404f5526e90fdcefcaec9bf3f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176422"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771952"
 ---
 # <a name="cost-accounting-home-page"></a>Home page da contabilização de custos
 
@@ -39,17 +39,17 @@ O mapa de aprendizado a seguir mostra os principais conceitos e tarefas que comp
 
 |      |   |
 |------|---|
-|  [Configurar entidades base (eLearning)](https://mbspartner.microsoft.com/Home) (requer uma conta do CustomerSource)  |[Criar Dimensões](cost-elements.md)  |
-|  [Criar hierarquia de dimensão](dimension-hierarchy.md)  |[Criar configuração básica](./tasks/define-cost-control-units.md)| 
-| [Definir base de alocação](allocation-bases.md)|[Definir políticas](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
-| [Origem de dados e provedor de dados](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Origem de dados e provedor de dados](./tasks/process-trace-source-data.md)     | 
-|[Cálculo de custos indiretos](overhead-calculation.md)  | [Análise e relatório](cost-control-workspace.md)   |
+|  [Configurar entidades base (eLearning)](https://mbspartner.microsoft.com/Home) (requer uma conta do CustomerSource)  |[Dimensões do elemento de custo](cost-elements.md)  |
+|  [Hierarquia de dimensões](dimension-hierarchy.md)  |[Definir unidades de controle de custos](./tasks/define-cost-control-units.md)| 
+| [Bases de alocação](allocation-bases.md)|[Criar e atribuir uma política de alocação de custos para uma unidade de controle de custos](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
+| [Gerenciar uma fonte de dados para o razão de contabilização de custos](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Processar e rastrear dados de origem](./tasks/process-trace-source-data.md)     | 
+|[Cálculo de custos indiretos](overhead-calculation.md)  | [Espaço de trabalho de controle de custos](cost-control-workspace.md)   |
 
 ## <a name="get-started-videosbr"></a>Vídeos de introdução<br/>
 
 |  |  |                             |
 |------------------------|--------------------|-----------------------------|
 | [Introdução à contabilização de custos](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [Espaço de trabalho móvel de contabilização de custos](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [Usar Excel para análise da contabilização de custos](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
-|  |  |                             |
+
 
 

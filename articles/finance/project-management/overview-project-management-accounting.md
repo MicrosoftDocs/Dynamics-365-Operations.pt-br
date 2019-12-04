@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d461b85f89eff63c8747fb17b3ee34ebfeb2218
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 79e12f39589f9cf3f4b1515fa3ab10bb10ffb97f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185626"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770350"
 ---
 # <a name="project-management-and-accounting-overview"></a>Visão geral de gerenciamento e contabilidade de projeto
 
@@ -72,7 +72,7 @@ Para obter mais informações sobre os contratos do projeto, consulte [Contratos
 
 O nível de detalhe em uma WBS depende do nível de precisão exigido em estimativas e do nível de acompanhamento obrigatório em relação às estimativas. Projetos que têm tolerância muito baixa para deslizes na agenda ou no custo geralmente exigem uma WBS mais detalhada, e acompanhamento assíduo do progresso do trabalho e dos custos em relação à WBS. 
 
-Para obter mais informações, consulte [Estruturas de detalhamento de trabalho](work-breakdown-structures.md).
+Para obter mais informações, consulte [Visão geral de estruturas de detalhamento de trabalho](work-breakdown-structures.md).
 
 ### <a name="create-project-forecasts-and-budgets"></a>Criar previsões de projetos e de orçamentos
 
@@ -134,7 +134,7 @@ Durante a execução do projeto, os membros da equipe ou gestores registram o 
 
 Um WBS é uma descrição do trabalho que será concluído para um projeto. Um WBS é uma hierarquia de tarefas. Representa não apenas o trabalho para cada tarefa, mas também o tamanho, o custo, e a duração da tarefa. 
 
-Para obter mais informações, consulte [Estruturas de detalhamento de trabalho](work-breakdown-structures.md).
+Para obter mais informações, consulte [Visão geral de estruturas de detalhamento de trabalho](work-breakdown-structures.md).
 
 ### <a name="manage-project-forecasts-and-budgets"></a>Gerenciar previsões e orçamentos de projeto
 

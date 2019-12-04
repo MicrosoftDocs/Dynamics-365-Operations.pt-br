@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 43f14a1cbd016335b857fdff1147740b27d5c765
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 3d23375ec7ebe9b43c2d2e3e376e26c348131bd3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653314"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812251"
 ---
 # <a name="register-consumption"></a>Registrar consumo
 
@@ -33,7 +33,7 @@ ms.locfileid: "2653314"
 
 Quando um trabalho de manutenção tiver sido concluído em uma ordem de serviço, a próxima etapa será criar registros de consumo e lançar diários. Você pode criar registros nos seguintes tipos de consumo: horas, itens e despesas. Os diferentes tipos de consumo são registrados e lançados na página **Diários de ordem de serviço**. A configuração de diário em **Gerenciamento de Ativos** é usada para criar e lançar diários separados para horas, itens e despesas no módulo **Gerenciamento e contabilidade de projeto**.
 
-Em alguns casos, você pode adicionar ou excluir linhas de previsão em uma ordem de serviço. A configuração de um estado de ciclo de vida de ordem de serviço, o tipo de projeto relacionado e as regras de estágio relacionadas ao tipo de projeto determinam se você é capaz de adicionar ou editar linhas de diário. Leia mais sobre os estados de ciclo de vida de ordem de serviço e os estágios de projeto relacionados em [Integração ao Gerenciamento e contabilidade de projeto](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
+Em alguns casos, você pode adicionar ou excluir linhas de previsão em uma ordem de serviço. A configuração de um estado de ciclo de vida de ordem de serviço, o tipo de projeto relacionado e as regras de estágio relacionadas ao tipo de projeto determinam se você é capaz de adicionar ou editar linhas de diário. Leia mais sobre os estados de ciclo de vida da ordem de serviço e os estágios do projeto relacionados, consulte [Previsões, ordens de serviço e projetos](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
 
 >[!NOTE]
 >É possível configurar o lançamento automático de diários em um estado de ciclo de vida de ordem de serviço. Consulte [Estados de ciclo de vida de ordem de serviço](../setup-for-work-orders/work-order-lifecycle-states.md) para obter mais informações.

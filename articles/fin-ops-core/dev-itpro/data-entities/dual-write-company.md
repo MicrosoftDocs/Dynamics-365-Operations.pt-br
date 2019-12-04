@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: aa4d54fd7b3ab407751ad6ca1032d742c23eed41
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 21c2143f4fa58d51f64e349c7963cb17e04bad97
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184522"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772428"
 ---
 ## <a name="company-concept-in-common-data-service"></a>Conceito de empresa no Common Data Service
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 No Finance and Operations, o conceito de *empresa* é um conceito legal e um conceito comercial. Ele também é um limite de segurança e de visibilidade de dados. Os usuários trabalham sempre no contexto de uma única empresa e a maioria dos dados são distribuídos por empresa.
 
@@ -60,12 +58,14 @@ Conforme mostrado na ilustração anterior, este mapeamento 1:1 entre unidade de
 
 Um tópico final para discutir é como a gravação dupla determina à qual equipe proprietária deve-se atribuir registros. Esse comportamento é controlado pelo campo **Equipe proprietária padrão** do registro cdm\_Company. Quando um registro cdm\_Company estiver habilitado para gravação dupla, um plug-in criará automaticamente a unidade de negócios associada e a equipe proprietária (se ainda não existir) e definirá o campo **Equipe proprietária padrão**. O administrador pode alterar este campo para um valor diferente. No entanto, o administrador não pode desmarcar o campo desde que a entidade esteja habilitada para gravação dupla.
 
+> [!div class="mx-imgBorder"]
 ![Campo da equipe proprietária padrão](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>Divisão e inicialização de empresa
 
 A integração do Common Data Service faz a paridade empresarial usando um identificador empresarial aos dados de tarja. Como a ilustração a seguir mostra, todas as entidades específicas estão estendidas de forma que têm uma relação vários para um (N:1) com a entidade cdm\_Company.
 
+> [!div class="mx-imgBorder"]
 ![A relação N:1 entre uma entidade específica de empresa e a entidade cdm_Company](media/dual-write-bootstrapping.png)
 
 + Para registros, depois que uma empresa é adicionada e salva, torna-se o valor somente leitura. Portanto, os usuários devem garantir selecionam a empresa correta.

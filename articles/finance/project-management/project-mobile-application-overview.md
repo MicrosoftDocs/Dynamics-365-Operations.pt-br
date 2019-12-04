@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 521fdc98c8af51f6f244f9aa606ce047d014edf1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3cb3b25503b559f21c45c0232a8c0abd3e415eb3
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250429"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773613"
 ---
 # <a name="project-mobile-applications-overview"></a>Visão geral de aplicativos móveis do Project
 
@@ -45,4 +45,7 @@ Minhas folhas de ponto (otimizadas para dispositivo móvel) e Folhas de ponto pa
 
 ## <a name="for-more-information"></a>Para obter mais informações
 
-Para obter mais detalhes, consulte [Aplicativo móvel do Microsoft Dynamics 365 Project Timesheet](project-timesheet.md), [Entrada de hora do projeto]( project-time-entry-mobile-workspace.md), [Folhas de ponto do projeto em um dispositivo móvel](Mobile-timesheets.md) e [Implementar campos personalizados para o aplicativo móvel de folha de ponto do projeto](custom-fields-mobile.md).
+- [Aplicativo móvel de folha de ponto de projeto](project-timesheet.md)
+- [Entrada de hora do projeto]( project-time-entry-mobile-workspace.md)
+- [Folhas de ponto do projeto em um dispositivo móvel](Mobile-timesheets.md)
+- [Implementar campos personalizados para o aplicativo móvel do Microsoft Dynamics 365 Project Timesheet no iOS e Android](custom-fields-mobile.md)

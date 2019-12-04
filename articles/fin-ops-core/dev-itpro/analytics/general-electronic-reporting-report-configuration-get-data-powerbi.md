@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7be41e724cb715e4b7c9077bb30d26b2bd4899dd
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c5401f310138d19f78412dff318959414c31a191
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181901"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770014"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Configurar ER (Relatório eletrônico) para efetuar pull de dados no Power BI
 
@@ -184,7 +184,7 @@ Clique no botão **Configurações** para o novo registro de destino. Em seguida
     [![Mapa atualizado](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
 
 ## <a name="access-power-bi-report-in-finance"></a>Acessar o relatório do Power BI no Finance
-Configure a integração com o Power BI. Para saber mais, consulte [Configurando a integração do Power BI para espaços de trabalho](configure-power-bi-integration.md).
+Configure a integração com o Power BI. Para saber mais, consulte [Configurar a integração do Power BI para espaços de trabalho](configure-power-bi-integration.md).
 
 1. Na página de espaço de trabalho do **Relatório eletrônico** que oferece suporte à integração do Power BI (**Administração da organização** &gt; **Espaços de trabalho** &gt; **Espaço de trabalho do Relatório eletrônico**), clique em **Opções** &gt; **brir catálogo de relatórios**.
 2. Selecione o relatório do Power BI **Detalhes de importação e exportação** que você criou para mostrar esse relatório como um item de ação na página selecionada.
@@ -194,6 +194,6 @@ Configure a integração com o Power BI. Para saber mais, consulte [Configurando
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Destinos de Relatório eletrônico](electronic-reporting-destinations.md)
+[Destinos de relatório eletrônico (ER)](electronic-reporting-destinations.md)
 
-[Visão geral de Relatório eletrônico](general-electronic-reporting.md)
+[Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)

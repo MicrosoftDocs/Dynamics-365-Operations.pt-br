@@ -16,12 +16,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ae7792d7593204ca0d3203bb9b5a8c2c08add18b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6be6eff84f66dd8e6b34c4a5575578f9974cd987
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175188"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772832"
 ---
 # <a name="sped-reinf-tax-statement-brazil"></a>Declaração de imposto do SPED-Reinf (Brasil)
 
@@ -118,7 +118,7 @@ Para configurar a funcionalidade Mensagens eletrônicas para comunicações de e
 
 Cada evento criado, entregue e recebido é representado por uma mensagem e um item de mensagem.
 
-![Electronic-messages-structure](media/bra-electronic-messages-structure.png)
+![Estrutura de mensagens eletrônicas](media/bra-electronic-messages-structure.png)
 
 O item de mensagem é representado pela mensagem de evento XML e também inclui as seguintes informações adicionais que são armazenadas na mensagem ou atualizadas no Microsoft Dynamics:
 
@@ -136,7 +136,7 @@ O item de mensagem é representado pela mensagem de evento XML e também inclui 
 
 Você pode encontrar essa configuração em **Imposto \> Configuração \> Mensagens eletrônicas \> Campos adicionais**.
 
-![Electronic-messages-additional-fields](media/bra-electronic-messaging-additional-fields.png)
+![Campos adicionais de mensagens eletrônicas](media/bra-electronic-messaging-additional-fields.png)
 
 > [!NOTE]
 > Não remova esta configuração. Essa configuração está incluída no pacote.*
@@ -150,7 +150,7 @@ Os tipos de item de mensagem são classificados pelo tipo de evento em **Imposto
 
 Vá para **Imposto \> Configuração \> Parâmetros \> Parâmetros da contabilidade** e, em seguida, na guia **Sequências numéricas**, selecione **Mensagem** e **Item de mensagem** para configurar a sequência numérica para itens de mensagem.
 
-![Electronic-messages-number-sequences](media/bra-electronic-messages-number-sequences.png)
+![Sequências numéricas de mensagens eletrônicas](media/bra-electronic-messages-number-sequences.png)
 
 > [!NOTE]
 > A sequência numérica deve ser definida como não contínua.*
@@ -183,15 +183,15 @@ Sempre que uma mensagem é criada, preparada, validada, entregue ou recebida, a 
 
 -   **Preparação dos eventos –** Esta ação é usada para criar e preparar a mensagem XML. Ela solicita parâmetros adicionais, como **Data de escrituração**, **CNPJ** e **CNPJ raiz**, pois os eventos são gerados com base nessas informações.
 
-![Preparation-items](media/bra-preparation-items.png)
+![Itens de preparação](media/bra-preparation-items.png)
 
 -   **Processo de resposta** – Esta ação é usada para atualizar a mensagem entregue quando ela for aprovada pelo governo usando um número de protocolo. Além disso, a mensagem é atualizada conforme registrado no site do governo.
 
-![Preparation-items-process-response](media/bra-preparation-items-process-response.png)
+![Resposta ao processo de itens de preparação](media/bra-preparation-items-process-response.png)
 
 -   **Geração de relatório** – Esta ação é usada para enviar e receber o item de mensagem.
 
-![Generate-reports-parameters](media/bra-generate-reports-parameters.png)
+![Gerar parâmetros de relatórios](media/bra-generate-reports-parameters.png)
 
 > [!NOTE]
 > Não remova esta configuração. Essa configuração está incluída no pacote.*
@@ -202,7 +202,7 @@ Antes que uma mensagem seja entregue, você deve configurar a validação do esq
 
 Vá para **Administração da organização \> Gerenciamento de documentos \> Parâmetros de gerenciamento de documentos** e habilite arquivos XSD adicionando **XSD** como um novo tipo de arquivo.
 
-![Document-management-parameters](media/bra-document-management-parameters.png)
+![Parâmetros de gerenciamento de documentos](media/bra-document-management-parameters.png)
 
 Vá para **Imposto \> Configuração \> Mensagens eletrônicas \> Ações de processamento de mensagens** e selecione **Novo \> Arquivo** para anexar os esquemas (arquivos .xsd) para as seguintes ações:
 
@@ -214,11 +214,11 @@ Vá para **Imposto \> Configuração \> Mensagens eletrônicas \> Ações de pro
 
 Vá para **Imposto \> Configuração \> Mensagens eletrônicas \> Ações de processamento de mensagens**, selecione a ação **Preencher** (**Incluir**) e, em seguida, no campo **Ação de preencher registros**, selecione **Registrar transações**.
 
-![Message-Processing-actions](media/bra-message-processing-actions.png)
+![Ações de Processamento de Mensagens](media/bra-message-processing-actions.png)
 
 Vá para **Imposto \> Configuração \> Mensagens eletrônicas \> Configurações de serviço Web** e configure uma conexão de serviços Web e certificados para enviar e consultar eventos.
 
-![Webservices-settings](media/bra-web-service-settings.png)
+![Configurações de serviços Web](media/bra-web-service-settings.png)
 
 > [!NOTE]
 > Nas configurações do **SPED Reinf assíncrono**, inclua o endereço do serviço Web para consultar o evento R-5011.
@@ -231,7 +231,7 @@ A tabela de tipos de serviço representa a tabela 06 que as autoridades fiscais 
 
 2.  Selecione **Novo**, insira um código de classificação que tenha sido estabelecido pelas autoridades fiscais e insira uma descrição.
 
-![Service-types](media/bra-service-type-setup.png)
+![Tipos de serviço](media/bra-service-type-setup.png)
 
 Depois que a lista de tipos de serviço for criada, eles devem ser atribuídos a códigos de serviço. Vá para **Gerenciamento de estoque \> Configuração \> Informações fiscais \> Código de serviço** e, em seguida, para cada serviço, atribua o tipo de serviço relacionado.
 
@@ -239,23 +239,23 @@ Depois que a lista de tipos de serviço for criada, eles devem ser atribuídos a
 
 Vá para **Livros fiscais \> Configuração \> SPED Reinf \> Códigos de classificação de imposto** e insira os tipos de classificação disponíveis.
 
-![Tax-classification](media/bra-tax-classification-codes.png)
+![Classificação de imposto](media/bra-tax-classification-codes.png)
 
 Essa informação é atribuída à organização fiscal na FastTab **Geral** em **Livros fiscais \> Configuração \> Organização fiscal**.
 
-![Fiscal-organization](media/bra-fiscal-organization-setup.png)
+![Organização fiscal](media/bra-fiscal-organization-setup.png)
 
 ### <a name="set-up-codes-explanation-suspension"></a>**Configurar suspensão da explicação de códigos**
 
 Vá para **Livros fiscais \> Configuração \> SPED Reinf \> Suspensão da explicação de códigos** e configure os códigos que são usados no evento R-1070 quando a suspensão da retenção se aplica. Esses códigos são atribuídos em **Livros fiscais \> Atividades periódicas \> SPED Reinf \> Processo administrativo e judicial**.
 
-![Explanation-codes](media/bra-codes-explanation-suspension.png)
+![Códigos de explicação](media/bra-codes-explanation-suspension.png)
 
 ### <a name="set-up-fiscal-books-parameters"></a>**Configurar parâmetros de livros fiscais**
 
 Vá para **Livros fiscais \> Configuração \> Parâmetros de livros fiscais** e configure a sequência numérica para os eventos R-2010 e R-2020.
 
-![Fiscal-books-parameters](media/bra-sped-fiscal-books-parameters.png)
+![Parâmetros de livros fiscais](media/bra-sped-fiscal-books-parameters.png)
 
 > [!NOTE]
 > Se as sequências numéricas não tiverem sido inicializadas durante a lista de verificação da configuração para a instalação de KB, você poderá gerá-las usando um assistente. Para iniciar o assistente, vá para **Administração da organização \> Sequências numéricas \> Sequências numéricas** e selecione **Gerar**. Assim você poderá configurar a sequência numérica relacionada.
@@ -329,7 +329,7 @@ Os eventos são transmitidos às autoridades fiscais usando a funcionalidade Men
 
 As ilustrações a seguir mostram as ações que são realizadas e os status de itens de mensagem que causam a aprovação ou rejeição de cada evento ao ser entregue pela primeira vez (Inserção), atualizado (Aditamento/Atualização) ou cancelado ou excluído (Cancelamento/Exclusão).
 
-![Flow-actions](media/bra-flow-actions.png)
+![Ações de fluxo](media/bra-flow-actions.png)
 
 #### <a name="insertion"></a>**Inserção**
 
@@ -346,7 +346,7 @@ Este fluxo é usado para entregar qualquer evento pela primeira vez.
 
 #### <a name="inquire-event-5011-from-event-r-2099"></a>**Consultar evento 5011 (do evento R-2099)**
 
-![Inquire-event-5011](media/bra-inquire-event-5011.png)
+![Consultar evento 5011](media/bra-inquire-event-5011.png)
 
 #### <a name="manage-electronic-messages"></a>**Gerenciar mensagens eletrônicas** 
 
@@ -394,25 +394,25 @@ Como as comunicações podem falhar devido a problemas técnicos, como tempo lim
 
 3.  Defina a opção **Escolher ação** como **Sim** e, em seguida, no campo **Ação**, selecione **Incluir**.
 
-    ![Run-processing](media/bra-run-processing.png)
+    ![Executar processamento](media/bra-run-processing.png)
 
 4.  Selecione **OK** para confirmar as configurações.
 
 >   Um item de mensagem do tipo **Informações do contribuinte** é criado e seu status é definido como **Anexado**.
 
-![Electronic-message-items-insertion](media/bra-electronic-message-items-insertion.png)
+![Inserção de itens de mensagem eletrônica](media/bra-electronic-message-items-insertion.png)
 
 5.  Selecione **Executar processamento** novamente e, na caixa de diálogo, no campo **Processamento**, selecione **SPED Reinf**.
 
 6.  Defina a opção **Escolher ação** como **Sim** e, em seguida, no campo **Ação**, selecione **Parâmetros adicionais** para atualizar as informações relacionadas nos campos adicionais.
 
-![Run-processing-aditional-parameters](media/bra-run-processing-additional-parameters.png)
+![Executar parâmetros adicionais de processamento](media/bra-run-processing-additional-parameters.png)
 
-![Preparation-items](media/bra-preparation-items.png)
+![Itens de preparação](media/bra-preparation-items.png)
 
 7.  Selecione **OK** para confirmar as configurações. O item de mensagem do tipo **Informações do contribuinte** é atualizado e seu status é alterado para **Preparado**.
 
-![Electronic-message-items-status](media/bra-electronic-message-items-status.png)
+![Status de itens de mensagem eletrônica](media/bra-electronic-message-items-status.png)
 
 8.  Selecione **Executar processamento** novamente e, na caixa de diálogo, no campo **Processamento**, selecione **SPED Reinf**.
 
@@ -420,7 +420,7 @@ Como as comunicações podem falhar devido a problemas técnicos, como tempo lim
 
 10.  Selecione **OK** para confirmar as configurações. A caixa de diálogo **Gerar relatórios** aparece automaticamente. Na FastTab **Registros a serem incluídos**, nas opções de filtro, a ID do tipo de item de mensagem que está solicitando a geração de um arquivo XML é selecionada no campo **Item de mensagem**.
 
-![Generate-reports](media/bra-generate-reports.png)
+![Gerar relatórios](media/bra-generate-reports.png)
 
 11.  Selecione **OK** para confirmar as configurações. O item de mensagem do tipo **Informações do contribuinte** é atualizado e seu status é alterado para **Gerado**.
 
@@ -463,7 +463,7 @@ Antes da entrega do evento R-1070, você deve criar o processo relacionado e inc
 
 1.  Vá para **Livros fiscais \> Atividades periódicas \> SPED Reinf \> Processo administrativo e judicial**.
 
-![Administrative-judicial-process](media/bra-administrative-judicial-process.png)
+![Processo judicial administrativo](media/bra-administrative-judicial-process.png)
 
 1.  Selecione **Novo** e defina os campos a seguir.
 
@@ -519,7 +519,7 @@ Somente o imposto INSS Retido e o imposto sobre serviços devem ser selecionados
 
 -   O tipo de imposto é **INSS** e ele é retido (a caixa de seleção **Imposto retido/recuperável** é marcada).
 
-![Brazilian-taxes](media/bra-brazilian-taxes.png)
+![Impostos brasileiros](media/bra-brazilian-taxes.png)
 
 > [!NOTE]
 > Nunca use o tipo de imposto **INSS-CPRB**.

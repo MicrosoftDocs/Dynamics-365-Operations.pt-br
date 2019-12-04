@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9e2613a9adf60699a1c20b780e1acf2afb99d37d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0dc71f819f132b91fe153f83089eab24fa33173a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182867"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772479"
 ---
 # <a name="production-performance-power-bi-content"></a>Conteúdo de desempenho da produção do Power BI
 
@@ -62,7 +62,7 @@ A tabela a seguir fornece uma visão geral das visualizações incluídas.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
 
-Os seguintes dados são usados para as páginas de relatório no conteúdo do Power BI **Desempenho de produção**. Esses dados são representadas como medições agregadas que foram preparadas no Repositório de entidades. O Repositório de entidades é um banco de dados do Microsoft SQL Server otimizado para análise. Para saber mais sobre a loja da entidade, consulte [Integração do Power BI com o armazenamento de entidade](power-bi-integration-entity-store.md).
+Os seguintes dados são usados para as páginas de relatório no conteúdo do Power BI **Desempenho de produção**. Esses dados são representadas como medições agregadas que foram preparadas no Repositório de entidades. O Repositório de entidades é um banco de dados do Microsoft SQL Server otimizado para análise. Para saber mais sobre o repositório de entidades, consulte [Integração do Power BI com o repositório Entidade](power-bi-integration-entity-store.md).
 
 A tabela a seguir mostra as principais medidas agregadas que são usadas como base do conteúdo do Power BI.
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 21ff82df71e352ca176aa1635a5ffb478bbcaf0e
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 0fc9877fdca2d2f85f4f9609616d8d21ab7b5174
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536815"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771578"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Conteúdo de análise de contabilização de custos do Power BI
 
@@ -40,7 +40,7 @@ O conteúdo **Análise de contabilização de custos** permite que os contadores
 
 Para saber mais sobre contabilização de custos, consulte [Pagina inicial de contabilização de custos](../../../finance/cost-accounting/cost-accounting-home-page.md).
 
-Definindo a segurança no nível de acesso em Contabilização de custos e combinando-a com a segurança no nível de linha no Power BI, você pode conceder a todos os proprietários de objetos de custo acesso ao conteúdo de **Análise de contabilização de custos** do Power BI. Todos os dados nas visualizações serão então filtrados no nível de acesso que é controlado em Contabilização de custos. Para saber mais sobre a segurança nos níveis de acesso e de linha, consulte [Configurar a segurança do conteúdo de Contabilização de custos para Power BI](setup-security-cost-accounting-content-pack.md).
+Definindo a segurança no nível de acesso em Contabilização de custos e combinando-a com a segurança no nível de linha no Power BI, você pode conceder a todos os proprietários de objetos de custo acesso ao conteúdo de **Análise de contabilização de custos** do Power BI. Todos os dados nas visualizações serão então filtrados no nível de acesso que é controlado em Contabilização de custos. Para saber mais sobre a segurança nos níveis de acesso e de linha, consulte [Configurar segurança do conteúdo do Power BI da análise de contabilização de custos](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
 Você pode encontrar o conteúdo de **Análise de contabilização de custos** do Power BI na biblioteca de ativos compartilhados do Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações sobre como baixar o pacote de conteúdo e implementá-lo na sua organização, consulte [Conteúdo do Power BI no LCS da Microsoft e de seus parceiros](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
@@ -74,7 +74,7 @@ O conteúdo inclui um conjunto de páginas de relatório. Cada página consiste 
 |                                  | Custo real por nome do membro de dimensão de objeto de custo e nome do membro de dimensão de elemento de custo                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
-Os dados a seguir são usados para preencher as páginas de relatório no conteúdo de **Análise de contabilidade de custos** do Power BI. Esses dados são representadas como medições agregadas que foram preparadas no Repositório de entidades. O Repositório de entidades é um banco de dados do Microsoft SQL Server otimizado para análise. Para obter mais informações, consulte [Visão geral da integração do Power BI com o repositório de entidades](power-bi-integration-entity-store.md).
+Os dados a seguir são usados para preencher as páginas de relatório no conteúdo de **Análise de contabilidade de custos** do Power BI. Esses dados são representadas como medições agregadas que foram preparadas no Repositório de entidades. O Repositório de entidades é um banco de dados do Microsoft SQL Server otimizado para análise. Para obter mais informações, consulte [Integração do Power BI com o repositório Entidade](power-bi-integration-entity-store.md).
 
 As principais medidas agregadas a seguir são usadas como base do conteúdo.
 

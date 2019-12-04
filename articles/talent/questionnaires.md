@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: b5c54d921e2955bc866ffd1ca516169790d33127
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c8655af567ef56c535ce0e43cb76c28c58dc1eb3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024220"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814596"
 ---
 # <a name="questionnaires"></a>Questionários
 
@@ -44,7 +44,7 @@ A tabela a seguir fornece links para informações sobre as tarefas do question�
 | Tópico| descrição|
 |------|------------|
 | [Criar um questionário](design-questionnaires.md)  | Este artigo fornece informações sobre como criar um questionário. O processo de criação envolve a configuração de pré-requisitos, respostas e perguntas, e a combinação destes em um questionário. |
-| [Distribuir e concluir um questionário](distribute-questionnaires.md)  | Este artigo fornece informações sobre como distribuir um questionário aos participantes e como preencher questionários.                                                                       |
+| [Distribuir e agendar questionários](distribute-questionnaires.md)  | Este artigo fornece informações sobre como distribuir um questionário aos participantes e como preencher questionários.                                                                       |
 | [Exibir e avaliar os resultados de um questionário](evaluate-questionnaire-results.md) | Este artigo fornece informações sobre como avaliar resultados de questionários preenchidos.                                                                                        |
 
 
@@ -52,9 +52,9 @@ A tabela a seguir fornece links para informações sobre as tarefas do question�
 <a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Projetar questionários](design-questionnaires.md)
+[Criar questionários](design-questionnaires.md)
 
-[Distribuindo e preenchendo questionários](distribute-questionnaires.md)
+[Distribuir e agendar questionários](distribute-questionnaires.md)
 
-[Exibindo e avaliando os resultados dos questionários](evaluate-questionnaire-results.md)
+[Exibir e avaliar os resultados de questionários](evaluate-questionnaire-results.md)
 

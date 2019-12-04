@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4852ec9b347f119a1007b63476b8609a3e38ba57
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c4636f5a023786e3871eb5d907e2e9546181827a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025256"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811771"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Layouts de tela para o ponto de venda (PDV)
 
@@ -171,7 +171,7 @@ O designer de grade de botões permite que você configure grades de botões que
 
     - **Ação** – na lista de operações de PDV aplicáveis, selecione a operação que é invocada quando o botão é clicado no PDV.
 
-        Para obter a lista de operações de PDV com suporte, consulte [Operações de PDV, online e offline](pos-operations.md).
+        Para obter a lista de operações de PDV com suporte, consulte [Operações de pontos de venda (PDVs) online e offline](pos-operations.md).
 
     - **Parâmetros de ação** – algumas operações de PDV usam parâmetros adicionais quando são invocadas. Por exemplo, para a operação Adicionar produto, os usuários podem especificar o produto a ser adicionado.
     - **Texto do botão** – especifique o texto que aparece no botão no PDV.
@@ -193,4 +193,4 @@ O designer de grade de botões permite que você configure grades de botões que
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Instalar o designer de Layout do Retail POS](install-pos-layout-designer.md)
+[Instalar o designer de layout do Retail POS (ponto de venda)](install-pos-layout-designer.md)

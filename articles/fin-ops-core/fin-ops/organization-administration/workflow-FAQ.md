@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14aa9b56da005e8e3ca121589d0e22c60f34343b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0188e8ed3cbbfd7dbccd7d13cf6129e146a919ac
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189766"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772688"
 ---
 # <a name="workflow-faq"></a>Perguntas frequentes sobre fluxo de trabalho
 
@@ -50,4 +50,4 @@ Estes são alguns pontos importantes a serem observados para adicionar alertas a
     - As mensagens da Central de Ações podem ser criadas para usuários específicos, como uma mensagem criada de um fluxo de trabalho em X++.
     - [Fluxos de trabalho têm Eventos de Negócios](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) que o cliente pode usar para disparar fluxos com as notificações que ele está procurando.   
 
-Em resumo, se um usuário não receber a notificação adequada da Central de Ações quando um item de trabalho de fluxo de trabalho for atribuído a ele, aproveite [Eventos de Negócios de Fluxo de Trabalho](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) com o Microsoft Flow para fornecer notificações adicionais ou diferentes.
+Em resumo, se um usuário não receber a notificação adequada da Central de Ações quando um item de trabalho de fluxo de trabalho for atribuído a ele, aproveite [Eventos de Negócios de Fluxo de Trabalho](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) com o Microsoft Power Automate para fornecer notificações adicionais ou diferentes.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 5b52e1765d3afbe1730e96f58b601aebccd12787
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7154a6e8aff62b1ebf79edfecb1e1b99048f7c44
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181257"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771460"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinos de relatório eletrônico (ER)
 
@@ -122,7 +122,7 @@ Se você definir **Ativado** como **Sim**, será criada uma visualização da sa
 
 ### <a name="power-bi-destination"></a>Destino do Power BI
 
-Defina **Habilitado** como **Sim** para usar sua configuração de ER para organizar a transferência de dados de sua instância para os serviços do Microsoft Power BI. Os arquivos transferidos são armazenados em uma instância do Microsoft SharePoint Server que deve ser configurada para essa finalidade. Para obter mais informações, consulte [Usar uma configuração de relatório eletrônico para fornecer dados do Finance para o Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md).
+Defina **Habilitado** como **Sim** para usar sua configuração de ER para organizar a transferência de dados de sua instância para os serviços do Microsoft Power BI. Os arquivos transferidos são armazenados em uma instância do Microsoft SharePoint Server que deve ser configurada para essa finalidade. Para obter mais informações, consulte [Configurar o ER (relatório eletrônico) para extrair dados para o Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md).
 
 > [!TIP]
 > Para substituir o comportamento padrão (ou seja, a caixa de diálogo para uma configuração), você pode criar uma referência de destino e um destino de arquivo para o componente de saída principal e, em seguida, desabilitar todos os destinos.
@@ -163,4 +163,4 @@ O pré-requisito é que o formato deve estar disponível nas configurações de 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral de Relatório eletrônico](general-electronic-reporting.md)
+[Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)

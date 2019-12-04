@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1ecba97014d77c32855b5614c1feae8cbfab4cd5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 083b6cb604115c3f2a72a5ba23199e1517fc1ea1
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176421"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771891"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Política de acúmulo de custos e cálculo de custos indiretos 
 
@@ -299,5 +299,5 @@ A separação clara entre **Alocação de custo** e **Políticas de acúmulo de 
 ## <a name="additional-resources"></a>Recursos adicionais
 -  [Dimensões de objeto de custo](cost-objects.md)
 -  [Dimensões do elemento de custo](cost-elements.md)
--  [Hierarquias de dimensões](dimension-hierarchy.md)
+-  [Hierarquia de dimensões](dimension-hierarchy.md)
 -  [Cálculo de custos indiretos](overhead-calculation.md)

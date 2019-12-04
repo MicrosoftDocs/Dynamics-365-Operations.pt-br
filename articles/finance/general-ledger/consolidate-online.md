@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: eadf0af285213a972cac83d7b6fc6a47317b21bb
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 86be6d4cc0af3f2fd92523d4ecd3825f2383fc48
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551648"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770726"
 ---
 # <a name="online-financial-consolidations"></a>Consolidações financeiras online
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve consolidações financeiras online na contabilidade. Antes ler este tópico, leia o tópico [Consolidações financeiras e conversão de moeda](financial-consolidations-currency-translation.md).
+Este tópico descreve consolidações financeiras online na contabilidade. Antes ler este tópico, leia o tópico [Visão geral de consolidações financeiras e conversão de moeda](financial-consolidations-currency-translation.md).
 
 Depois de concluir sua instalação, insira os detalhes da consolidação na página **Consolidar [Online]** . Quando terminar, clique em **OK** ou **Lote** para processar a consolidação.
 
@@ -93,6 +93,6 @@ Na guia **Conversão de moeda**, você define a entidade legal, a conta, o tipo 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-Para obter mais informações sobre consolidação e conversão de moeda, consulte o tópico pai do tópico, [Consolidações financeiras e conversão de moeda](./financial-consolidations-currency-translation.md).
+Para obter mais informações sobre consolidação e conversão de moeda, consulte o tópico principal deste tópico, [Visão geral de consolidações financeiras e conversão de moeda](./financial-consolidations-currency-translation.md).
 
 Para obter informações sobre os cenários onde você poderá gerar demonstrativos financeiros consolidados, consulte [Gerar demonstrativos financeiros consolidados](./generating-consolidated-financial-statements.md).

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1e2f8d2ac0c48d4f92b15ec345ffa650b71df0b
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 6dad0cb480f69eac84df5ea9a67f2adb94e2f52c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571015"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811794"
 ---
 # <a name="asset-service-levels"></a>Níveis de serviço do ativo
 
@@ -33,7 +33,7 @@ ms.locfileid: "2571015"
 
 Este tópico explica níveis de serviço do ativo no Asset Management. Os níveis de serviço de ativos estão relacionados a ativos, e são transferidos para solicitações de manutenção e ordens de serviço. Eles são usados para calcular a prioridade de ordens de serviço durante o agendamento da ordem de serviço. Os níveis de serviço de ativo podem ser alterados, se alterações forem necessárias.
 
-Para obter mais informações sobre a configuração relacionadas ao cálculo de pontuações de classificação para o agendamento da ordem de serviço, consulte [Parâmetros de gerenciamento de ativos](../setup-for-objects/enterprise-asset-management-parameters.md). Você deve configurar pelo menos um registro padrão para o nível de serviço de ativo. Esse registro padrão será usado se nenhuma outra correspondência for encontrada durante o agendamento da ordem de serviço.
+Para obter mais informações sobre a instalação relacionadas ao cálculo de pontuações de classificação para o agendamento da ordem de serviço, consulte [Parâmetros do Asset Management](../setup-for-objects/enterprise-asset-management-parameters.md). Você deve configurar pelo menos um registro padrão para o nível de serviço de ativo. Esse registro padrão será usado se nenhuma outra correspondência for encontrada durante o agendamento da ordem de serviço.
 
 **Exemplo 1:** o nível de serviço padrão usado caso nenhuma outra correspondência seja encontrada. Nesse registro, você seleciona apenas um nível de serviço.
 

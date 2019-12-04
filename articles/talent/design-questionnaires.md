@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 8d94cf24040e5f653bc053f2df0a45e1afa23adc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6405b6a680f31c62e16f3bb707ec0a4ccdad3d23
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517354"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813905"
 ---
 # <a name="design-questionnaires"></a>Criar questionários
 
@@ -110,7 +110,8 @@ Os grupos de respostas e as respostas são componentes que compõem o corpo prin
 
 Um grupo de respostas pode ser usado para mais de uma pergunta no mesmo questionário e em mais de uma questionário. 
 
-**Observação:** Se você alterar o texto de resposta nos grupos de respostas que já foram usados em questionários preenchidos, os dados podem se tornar difíceis de avaliar, e os resultados do questionário podem não mais ser válidos. Se você precisar alterar um grupo de respostas, considere criar um novo grupo de respostas em vez de alterar o existente. Não é possível excluir grupos de resposta anexados a uma pergunta ou a uma resposta, ou que foram respondidos.
+> [!NOTE]
+> Se você modificar o texto de resposta nos grupos de respostas que já foram usados em questionários preenchidos, poderá ser difícil avaliar os dados e os resultados do questionário podem não mais ser válidos. Se você precisar alterar um grupo de respostas, considere criar um novo grupo de respostas em vez de alterar o existente. Não é possível excluir grupos de resposta anexados a uma pergunta ou a uma resposta, ou que foram respondidos.
 
 ### <a name="questions"></a>Perguntas
 
@@ -118,12 +119,16 @@ Um questionário deve conter perguntas. As perguntas podem ser abertas ou fechad
 
 -   As perguntas abertas não são controladas, e os respondentes poderão digite as respostas.
 -   As perguntas fechadas exigem uma lista de opções pré-definidas de respostas, e as perguntas podem ser estruturas para permitir que o participante selecione múltiplas respostas. As perguntas devem ser criadas para extrair informações específicas de um participante e devem estar vinculadas a um grupo de respostas que fornece opções de respostas para cada pergunta fechada. 
-     -  **Observação:** Para poder configurar perguntas fechadas, você deve criar grupos de respostas e respostas.
+
+    > [!NOTE]
+    > Para poder configurar perguntas fechadas, você deve criar grupos de respostas e respostas.
 
 As perguntas podem ser organizadas em uma hierarquia de perguntas condicionais, de tal modo que as perguntas secundárias sejam dependentes da resposta selecionada por um participante para a pergunta anterior. Você pode escrever as perguntas primeiro e então organizá-las em uma hierarquia posteriormente.
 
 ## <a name="setting-up-questionnaires"></a>Configurando questionários
-**Observação:** Para poder configurar um questionário, você deve configurar as respostas, perguntas e pré-requisitos. 
+
+> [!NOTE]
+> Para poder configurar um questionário, você deve configurar as respostas, perguntas e pré-requisitos. 
 
 Para cada questionário, você pode especificar as informações a seguir:
 
@@ -159,7 +164,8 @@ Você pode concluir as seguintes tarefas na página **Questionários**:
 -   Excluir e adicionar perguntas.
 -   Fazer alterações nos grupos de resultados e no número de seqüência. 
 
-**Atenção:** Tenha cuidado ao alterar os questionários já respondidos. As alterações podem reduzir a precisão da estatísticas e, consequentemente, torná-las uma base insuficiente para a avaliação. Considere a criação de uma nova pergunta em vez de alterar uma pergunta que foi respondida anteriormente.
+> [!CAUTION]
+> Cuidado quando você altera os questionários já respondidos. As alterações podem reduzir a precisão da estatísticas e, consequentemente, torná-las uma base insuficiente para a avaliação. Considere a criação de uma nova pergunta em vez de alterar uma pergunta que foi respondida anteriormente.
 
 Em um questionário, você não pode excluir os seguintes tipos de pergunta:
 
@@ -177,7 +183,8 @@ Um grupo de resultados é usado para calcular pontos e categorizar os resultados
 -   Gere estatísticas para cada grupo de resultados para ajudar na análise dos resultados.
 -   Imprimir um relatório que mostre os resultados para cada grupo de resultados e também pontos/textos opcionais que são baseados nos pontos obtidos em cada grupo de resultado.
 
-**Observação:** Antes de configurar grupos de resultados, você deve concluir as seguintes tarefas:
+> [!NOTE]
+> Para configurar grupos de resultados, você deve concluir as seguintes tarefas:
 
 -   Perguntas fechadas de configuração. Para uma pergunta fechada, o tipo de entrada na página **Perguntas** deve ser **Caixa de seleção**, **Botão alternativo**, ou **Caixa de combinação**.
 -   Definir pontos para respostas nos grupos de respostas que são atribuídos a cada pergunta.
@@ -187,7 +194,8 @@ Para anexar perguntas a um questionário usando grupos de resultados, primeiro c
 
 Você pode configurar vários grupos de resultados para avaliar os pontos obtidos por um participante em cada categoria. Depois que um questionário é concluído, você pode exibir os pontos que foram obtidos para cada grupo de resultados. 
 
-**Dica:** Para avaliar um questionário usando os pontos mas não separar categorias, você pode adicionar todas as perguntas a um único grupo de resultados. 
+> [!TIP]
+> Para avaliar um questionário usando os pontos, mas não categorias separadas, você pode adicionar todas as perguntas a um único grupo de resultados. 
 
 Para cada grupo de resultados, você também pode configurar uma ou mais mensagens baseadas em pontuação que são exibidas a um participante após a conclusão de um questionário. O texto exibido pode variar de acordo com a pontuação atingida pelo participante em um grupo de resultados. Para usar mensagens baseadas em pontuação, você deve definir intervalos de pontos e uma descrição de cada intervalo. Quando um participante alcança uma pontuação em um intervalo específico, o texto referente ao intervalo é incluído no relatório de resultados. 
 
@@ -213,13 +221,15 @@ A tabela mostra as mensagens baseadas em ponto que você define para o grupo de 
 
 Você pode configurar intervalos e textos de pontos para cada grupo de resultados de um questionário. Os textos que correspondem à pontuação de cada participante são exibidos para cada grupo de resultados. 
 
-**Observação:** Você pode alterar intervalos e textos. Contudo, depois que um questionário for concluído, as alterações poderão causar diferenças entre relatórios de resultados anteriores e novos.
+> [!NOTE]
+> Você pode alterar intervalos e textos. Contudo, depois que um questionário for concluído, as alterações poderão causar diferenças entre relatórios de resultados anteriores e novos.
 
 ### <a name="conditional-question-hierarchies"></a>Hierarquias de perguntas condicionais
 
 As hierarquias de perguntas condicionais são opcionais quando você configura um questionário. 
 
-**Observação:** Antes que você possa definir uma hierarquia de perguntas condicionais, você deve anexar as perguntas com os grupos de resposta atribuídos ao questionário. 
+> [!NOTE]
+> Para que você possa definir uma hierarquia de perguntas condicionais, anexe as perguntas com grupos de respostas atribuídos ao questionário. 
 
 Para usar perguntas condicionais para criar uma hierarquia de perguntas em um questionário, você pode fazer a sequência em que as perguntas são apresentadas de acordo com as respostas selecionadas por um participante para cada pergunta. Ao basear a sequência das perguntas na seleção de resposta do participante, você pode modificar o questionário conforme o participante o conclui.
 
@@ -232,9 +242,9 @@ Como alternativa, você pode definir um questionário para que se um participant
 <a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Usando questionários](questionnaires.md)
+[Questionários](questionnaires.md)
 
-[Distribuindo e preenchendo questionários](distribute-questionnaires.md)
+[Distribuir e agendar questionários](distribute-questionnaires.md)
 
-[Exibindo e avaliando os resultados dos questionários](evaluate-questionnaire-results.md)
+[Exibir e avaliar os resultados de questionários](evaluate-questionnaire-results.md)
 

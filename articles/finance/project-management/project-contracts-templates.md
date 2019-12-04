@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 76c62f3a503ff2a8c93143390fc91ef81fbf7d0f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: b44fc116f1dcaa1275b2262487ef9114bce639c6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250452"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773845"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizar contratos de projeto e projetos diretamente no Project Service Automation para o Finance and Operations
 
@@ -42,11 +42,11 @@ A solução de integração do Project Service Automation para o Finance utiliza
 
 A ilustração a seguir mostra como os dados são sincronizados entre o Project Service Automation e o Finance.
 
-[![Fluxo de dados da integração do Project Service Automation com o Finance](./media/ProjectsAndContractsFlow.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Fluxo de dados da integração do Project Service Automation com o Finance](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Modelos e tarefas
 
-Para acessar os modelos disponíveis, no Centro de administração do Microsoft PowerApps, selecione **Projetos** e, no canto superior direito, marque **Novo projeto** para selecionar modelos públicos.
+Para acessar os modelos disponíveis, no Centro de administração do Microsoft Power Apps, selecione **Projetos** e, no canto superior direito, marque **Novo projeto** para selecionar modelos públicos.
 
 Os seguintes modelos e as tarefas subjacentes são usados para sincronizar contratos de projeto e projetos do Project Service Automation para o Finance:
 

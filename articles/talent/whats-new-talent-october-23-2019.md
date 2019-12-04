@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 94243f83121a1306d8f9ae9be23d24e5c9b63a2d
-ms.sourcegitcommit: 07e109dec176a93eff0df8a37ba5d875f212e9f1
+ms.openlocfilehash: 66419d9093cff68aa6109b22ab57bcb46ac6c718
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "2662656"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772887"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-23-2019"></a>Novidades ou alterações no Dynamics 365 Talent (23 de outubro de 2019)
 
@@ -47,7 +47,7 @@ Para obter mais informações, consulte [Novidades ou alterações na atualizaç
 
 ### <a name="remove-benefits-open-enrollment-preview-feature"></a>Remova a versão prévia do recurso de inscrição aberta de benefícios
 
-Junto com o comunicado em Investimentos estratégicos na postagem do blog de incentivo à excelência operacional do core HR, a Microsoft removerá a versão prévia do recurso de inscrição aberta de benefícios da versão prévia pública em 18 de outubro de 2019. Em vez disso, a nova funcionalidade será lançada no futuro. O uso da produção do recurso de inscrição aberta de benefícios atualmente na versão prévia pública não será compatível.
+Junto com o comunicado em [Investimentos estratégicos](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/10/02/strategic-investments-in-core-hr-drive-operational-excellence) na postagem do blog de incentivo à excelência operacional do core HR, a Microsoft removerá a versão prévia da inscrição aberta de benefícios da versão prévia pública em 18 de outubro de 2019. Em vez disso, a nova funcionalidade será lançada no futuro. O uso da produção do recurso de inscrição aberta de benefícios atualmente na versão prévia pública não será compatível.
 
 ### <a name="error-while-selecting-the-countryregion-on-the-worker-form-a-second-time-350294"></a>Erro ao selecionar país/região no formulário do trabalhador pela segunda vez (350294)
 
@@ -69,7 +69,7 @@ Com a versão desta semana, adicionar um novo valor da lista a um campo personal
 
 Com esta versão, somente o contrato de trabalho dos funcionários selecionados serão abertos no Excel. A segurança de toda a empresa também será respeitada.
 
-### <a name="the-association-between-the-work-calendar-holiday-entity-and-the-work-calendar-entity-is-missing-in-common-data-service---324178"></a>A associação entre a entidade de feriados do calendário de trabalho e a entidade do calendário de trabalho está ausente no Common Data Service - (324178)
+### <a name="the-association-between-the-work-calendar-holiday-entity-and-the-work-calendar-entity-is-missing-in-common-data-service-324178"></a>A associação entre a entidade de feriados do Calendário de atividades e a entidade Calendário de atividades está ausente no Common Data Service (324178)
 
 Este relacionamento foi adicionado com a versão. Esta alteração habilitará a exibição dos dias úteis de um funcionário no PowerApps. 
 

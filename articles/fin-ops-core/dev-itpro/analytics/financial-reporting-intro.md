@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4e9fe8f78121428770e6516159f5eceb6976c4c9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cdfa9ed24d0456d9beaec03ebac89098131d0675
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181786"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771133"
 ---
 # <a name="financial-reporting"></a>Relatórios financeiros
 
@@ -47,14 +47,14 @@ Os componentes a seguir do relatório financeiro facilitam a criação, exibiç�
 | Componente        | Funções | Informações adicionais |
 |------------------|-----------|------------------------|
 | Designer de Relatórios  | A criação dos blocos de construção do relatório que podem ser combinados para definir e gerar um relatório. O assistente de relatório orienta usuários menos experientes no processo de design. Os usuários avançados podem criar novos blocos de construção de relatório ou mudar blocos de construção existentes para atender aos seus requisitos. | |
-| Agendas de relatórios | Agende um relatório único ou um grupo de relatórios para que ele seja gerado em uma base regular. | [Gerar um relatório financeiro](generate-financial-report.md) |
+| Agendas de relatórios | Agende um relatório único ou um grupo de relatórios para que ele seja gerado em uma base regular. | [Gerar relatórios financeiros](generate-financial-report.md) |
 
 ## <a name="features"></a>Recursos
 <table>
 <thead>
 <tr>
 <th>Recurso</th>
-<th>descrição</th>
+<th>Descrição</th>
 </tr>
 </thead>
 <tbody>
@@ -96,4 +96,4 @@ Os componentes a seguir do relatório financeiro facilitam a criação, exibiç�
 </table>
 
 ## <a name="additional-resources"></a>Recursos adicionais
-[Gerar um relatório financeiro](generate-financial-report.md)
+[Gerar relatórios financeiros](generate-financial-report.md)

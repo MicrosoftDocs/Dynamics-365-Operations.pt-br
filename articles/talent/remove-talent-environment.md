@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: d608ee3ad90d23279557e5e9be4d398ffac3a266
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: bbc65a77b7c3df6545dfd7aa2109aba5c4e1b57b
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010606"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773025"
 ---
 # <a name="remove-talent-environments"></a>Remover ambientes do Talent
 
@@ -34,7 +34,7 @@ Este tópico mostra o processo de remoção de um ambiente de produção ou de t
 
 Os test drives do Talent são provisionados com uma política de vencimento de 60 dias. No entanto, os proprietários de ambientes de test drive têm a opção de encerrar sua avaliação antecipadamente concluindo as seguintes etapas. 
 
-1. Navegue até o [Centro de administração do PowerApps](https://admin.businessplatform.microsoft.com/).
+1. Navegue até o [Centro de administração do Power Apps](https://admin.businessplatform.microsoft.com/).
 2. Selecione **Ambientes**.
 3. Selecione o ambiente de test drive, que possui um padrão de nomenclatura semelhante a este: TestDrive - alias@domain
 4. Selecione **Excluir** e confirme a decisão. 
@@ -45,14 +45,14 @@ O ambiente de test drive existente será removido. Quando for removido, inscreva
 
 Este tópico pressupõe que você adquiriu o Talent por meio de um Provedor de Soluções na Nuvem (CSP) ou de um contrato de arquitetura da empresa (EA). 
 
-Como um ambiente único do Talent é “contido" em um ambiente único do PowerApps, há duas opções a serem consideradas. A primeira opção envolve a remoção de todo o ambiente do PowerApps; a segunda opção envolve somente a remoção do Talent. A primeira opção é preferível quando você tiver criado um ambiente do PowerApps especificamente para provisionar o Talent e tiver acabado de iniciar a implementação, ou se não tiver nenhuma integração estabelecida. A segunda opção é recomendável quando você tiver um ambiente estabelecido do PowerApps preenchido com dados avançados aproveitados no PowerApps e nos fluxos.
+Como um ambiente único do Talent é “contido" em um ambiente único do Power Apps, há duas opções a serem consideradas. A primeira opção envolve a remoção de todo o ambiente do Power Apps; a segunda opção envolve somente a remoção do Talent. A primeira opção é preferível quando você tiver criado um ambiente do Power Apps especificamente para provisionar o Talent e tiver acabado de iniciar a implementação, ou se não tiver nenhuma integração estabelecida. A segunda opção será recomendável quando você tiver um ambiente estabelecido do Power Apps preenchido com dados avançados aproveitados no Power Apps e no Power Automate.
 
 > [!Important]
-> Antes de remover o ambiente do PowerApps, verifique se ele não está sendo usado para integrações de dados avançados fora do escopo do Talent. Observe também que os ambientes do PowerApps não podem ser removidos. 
+> Antes de remover o ambiente do Power Apps, verifique se ele não está sendo usado para integrações de dados avançados fora do escopo do Talent. Observe também que os ambientes do Power Apps não podem ser removidos. 
 
-Para remover todo o ambiente do PowerApps, incluindo o Talent e os aplicativos e fluxos associados:
+Para remover todo o ambiente do Power Apps, incluindo o Talent e os aplicativos e fluxos associados:
 
-1. Navegue até o [Centro de administração do PowerApps](https://admin.businessplatform.microsoft.com/).
+1. Navegue até o [Centro de administração do Power Apps](https://admin.businessplatform.microsoft.com/).
 2. Selecione **Ambientes**.
 3. Selecione o ambiente a ser removido.
 4. Selecione **Excluir** e confirme a decisão. 
@@ -63,7 +63,7 @@ Para remover todo o ambiente do PowerApps, incluindo o Talent e os aplicativos e
 9. Selecione a instância a ser removida. 
 10. Selecione **Remover instância** e confirme sua decisão.  
 
-Para remover um ambiente do Talent de um ambiente existente do PowerApps, conclua estas etapas. Observe que a necessidade de envolver o suporte e contatar a equipe do Talent DevOps é temporária até que esse recurso seja habilitado diretamente no LCS.
+Para remover um ambiente do Talent de um ambiente existente do Power Apps, conclua estas etapas. Observe que a necessidade de envolver o suporte e contatar a equipe do Talent DevOps é temporária até que esse recurso seja habilitado diretamente no LCS.
 
 1. Contate o suporte para iniciar uma solicitação de remoção.
 2. A equipe de suporte iniciará uma solicitação de remoção com a equipe do Talent DevOps. 

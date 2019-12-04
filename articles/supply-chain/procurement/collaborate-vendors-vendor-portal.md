@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3bb30ddffb86c7083f40863c0c336fc5f65ce8f5
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 96cd2fc988df11c616faf06cf0905acd6b3d6dcc
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248971"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813514"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Colaborar com fornecedores usando o Portal do fornecedor
 
@@ -31,7 +31,7 @@ ms.locfileid: "2248971"
 
 Este tópico descreve como os agentes de compras podem usar o portal do fornecedor para colaborar com os fornecedores externos durante o processo de confirmação da ordem de compra. Estas informações aplicam-se somente às versões de fevereiro e maio de 2016 do Dynamics AX.
 
-As informações neste tópico se aplicam somente às versões de fevereiro de 2016 e maio de 2016 do Dynamics AX. Para obter mais informações sobre a nova funcionalidade de colaboração do fornecedor, consulte [Usando colaboração do fornecedor para trabalhar com fornecedores externos](vendor-collaboration-work-external-vendors.md).  
+As informações neste tópico se aplicam somente às versões de fevereiro de 2016 e maio de 2016 do Dynamics AX. Para obter mais informações sobre a nova funcionalidade de colaboração do fornecedor, consulte [Colaboração de fornecedores com fornecedores externos](vendor-collaboration-work-external-vendors.md).  
 
 O portal do fornecedor destina-se aos fornecedores que não têm a integração EDI (intercâmbio eletrônico de dados) com o Microsoft Dynamics AX para trocar informações de ordens de compra (OC). O portal permite que os agentes de compras enviem uma OC ao fornecedor e recebam a resposta Confirmada ou Rejeitada diretamente no Dynamics AX.  
 
@@ -98,9 +98,9 @@ A tabela a seguir mostra um exemplo das alterações de status e versão pelas q
 <a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Configurando a segurança dos usuários de colaboração do fornecedor](configure-security-vendor-portal-users.md)
+[Segurança de usuário do portal do fornecedor](configure-security-vendor-portal-users.md)
 
-[Espaço de trabalho de faturamento de colaboração do fornecedor](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
+[Espaço de trabalho de faturamento da colaboração de fornecedores](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
 
 
 

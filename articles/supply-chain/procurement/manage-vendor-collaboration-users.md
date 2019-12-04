@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cb55d7d00e5676fc5a1326d77889b4adb86c3ca6
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 50ce332673e130dace38f596020973d37c34b566
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248948"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813491"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Gerenciar usuários de colaboração do fornecedor
 
@@ -31,7 +31,7 @@ ms.locfileid: "2248948"
 
 Este tópico descreve como você pode solicitar o provisionamento de novos usuários de colaboração do fornecedor e como adicionar novos contatos de colaboração do fornecedor. 
 
-A interface de colaboração do fornecedor no Dynamics 365 Supply Chain Management expõe informações sobre ordens de compra, faturas e estoque de consignação para fornecedores externos. Você pode criar novos contatos de colaboração de fornecedor e solicitar que os novos usuários sejam provisionados se você estiver trabalhando com um fornecedor externo com a função de segurança **Administrador do fornecedor (externo)** ou permissões semelhantes. Você também pode executar essas tarefas se estiver trabalhando como um profissional de compras. Neste tópico, essa função se refere a um profissional de compras que esteja trabalhando na empresa responsável pela instância do Supply Chain Management. Para obter mais informações sobre como usar a colaboração de fornecedor se você for um fornecedor externo, consulte [Fornecedor com clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+A interface de colaboração do fornecedor no Dynamics 365 Supply Chain Management expõe informações sobre ordens de compra, faturas e estoque de consignação para fornecedores externos. Você pode criar novos contatos de colaboração de fornecedor e solicitar que os novos usuários sejam provisionados se você estiver trabalhando com um fornecedor externo com a função de segurança **Administrador do fornecedor (externo)** ou permissões semelhantes. Você também pode executar essas tarefas se estiver trabalhando como um profissional de compras. Neste tópico, essa função se refere a um profissional de compras que esteja trabalhando na empresa responsável pela instância do Supply Chain Management. Para obter mais informações sobre como usar a colaboração de fornecedor se você for um fornecedor externo, consulte [Colaboração do fornecedor com clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
 Para obter mais informações sobre como usar a colaboração de fornecedor se você for um profissional de compras, consulte [Colaboração do fornecedor com fornecedores externos](vendor-collaboration-work-external-vendors.md).
 

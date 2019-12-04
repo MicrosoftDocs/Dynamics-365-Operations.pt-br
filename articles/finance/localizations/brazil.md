@@ -16,12 +16,12 @@ ms.search.region: Brazil
 ms.author: shylaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 17c62a8f16a36ceeea9ddc75e7f5e079101bcaf0
-ms.sourcegitcommit: a8696b0542325d467eeb57b12fd643b1d9269f76
+ms.openlocfilehash: 01e5c3bc9393e6b9513321d9406156994e846070
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2651768"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772868"
 ---
 # <a name="brazil-overview"></a>Visão geral de Brasil
 
@@ -36,7 +36,7 @@ Este tópico inclui informações e links para recursos que podem ajudar você a
   - [Exportar e importar transações da entidade legal da consolidação contábil](latam-bra-general-ledger-consolidation-transactions.md)
   - [Importar e verificar documentos XML de NF-e e arquivos DANFE](latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
   - [Processar remessas de pagamento eletrônico](latam-bra-process-electronic-payment-remittances.md)
-  - [Notas fiscais](latam-bra-fiscal-documents-fiscal-document-framework.md)
+  - [Notas fiscais e sua estrutura](latam-bra-fiscal-documents-fiscal-document-framework.md)
   - [Espaços reservados para texto da nota fiscal](latam-bra-fiscal-document-text-placeholders.md)
   - [Notas fiscais complementares de compra](latam-bra-purchase-complementary-fiscal-documents.md)
   - [Notas fiscais referenciadas](latam-bra-referenced-fiscal-documents.md)

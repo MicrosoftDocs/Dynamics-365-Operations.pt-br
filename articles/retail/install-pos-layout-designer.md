@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 98784c11c7393bb4c3e022d5bff4cca2daa1636e
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 67d8ee101546470ff54404eeebd736233e34f26f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025435"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811869"
 ---
 # <a name="install-the-retail-point-of-sale-pos-layout-designer"></a>Instalar o designer de layout do Retail POS (ponto de venda)
 
@@ -62,4 +62,4 @@ O design gráfico da interface do MPOS ou PDV em Nuvem é controlado pelo layout
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Configurar, baixar, instalar e ativar o Retail Modern POS](retail-modern-pos-device-activation.md)
+[Configurar, instalar e ativar o Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md)

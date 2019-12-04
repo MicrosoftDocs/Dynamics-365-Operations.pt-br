@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: c526bc42595c20024016d0d7da78b8638b0daa4b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a6e6b8d6243c1f7c5831baaee91baf38d51e0c26
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185235"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769988"
 ---
 # <a name="practice-manager-power-bi-content"></a>Conteúdo de gerente de prática do Power BI
 
@@ -58,7 +58,7 @@ Os gráficos e os blocos em todos esses relatórios podem ser filtrados e fixado
 
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
 
-Os seguintes dados são usados para preencher as páginas de relatório no conteúdo do Power BI **Gerente de práticas**. Esses dados são representadas como medições agregadas que foram preparadas no Repositório de entidades. O Repositório de entidades é um banco de dados do Microsoft SQL Server otimizado para análise. Para obter mais informações, consulte [Visão geral da integração do Power BI com o repositório de entidades](power-bi-integration-entity-store.md).
+Os seguintes dados são usados para preencher as páginas de relatório no conteúdo do Power BI **Gerente de práticas**. Esses dados são representadas como medições agregadas que foram preparadas no Repositório de entidades. O Repositório de entidades é um banco de dados do Microsoft SQL Server otimizado para análise. Para obter mais informações, consulte [Integração do Power BI com o repositório Entidade](power-bi-integration-entity-store.md).
 
 As seções a seguir descrevem as medidas agregadas usadas em cada entidade.
 

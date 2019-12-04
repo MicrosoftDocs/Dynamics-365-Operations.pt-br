@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8a8494bdefcf11dc331be18bfe02e0df1e39d602
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 2652458a5fea9e46b8b68d3b197d2ccb1385731d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626238"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811725"
 ---
 # <a name="manually-created-work-orders"></a>Ordens de serviço criadas manualmente
 
@@ -70,7 +70,7 @@ Observe os seguintes pontos:
 
 - Na exibição de detalhes da página de listagem **Todas ordens de serviço**, você pode incluir vários ativos para uma ordem de serviço, adicionando linhas na Guia Rápida **Trabalhos de manutenção da ordem de serviço**. Em um ativo, você pode selecionar apenas os tipos de trabalho de manutenção definidos no tipo de ativo selecionado no ativo.  
 
-- Se você alterar o nível de serviço ou a severidade de um ativo depois de já ter usado o ativo em uma ordem de serviço, o nível de serviço ou a severidade na ordem de serviço não será atualizada de forma correspondente. Para obter mais informações sobre níveis de serviço e severidades, consulte [Níveis de serviço do ativo](../setup-for-objects/object-priorities.md) e [Severidade do ativo](../setup-for-objects/object-criticalities.md).
+- Se você alterar o nível de serviço ou a severidade de um ativo depois de já ter usado o ativo em uma ordem de serviço, o nível de serviço ou a severidade na ordem de serviço não será atualizada de forma correspondente. Para obter mais informações sobre níveis de serviço e severidades, consulte [Níveis de serviço do ativo](../setup-for-objects/object-priorities.md) e [Tipos de severidade do ativo](../setup-for-objects/object-criticalities.md).
 
 - A severidade em uma ordem de serviço é recalculada sempre que um trabalho da ordem de serviço é adicionado ou excluído da ordem de serviço.
 

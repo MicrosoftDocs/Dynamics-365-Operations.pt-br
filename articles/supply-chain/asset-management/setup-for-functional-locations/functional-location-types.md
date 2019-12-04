@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74ccda77a97d1e104940bb10a605d3ebbf45af75
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 0468cb0b1717b7cf0ccb391da09a4e7d788124f3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571245"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812205"
 ---
 # <a name="functional-location-types"></a>Tipos de locais funcionais
 
@@ -56,7 +56,7 @@ O tipo de local funcional padrão a ser usado somente em um local funcional padr
 3. Insira uma ID de tipo de local funcional no campo **Tipo de local funcional** e um nome no campo **Nome**.
 4. Selecione um modelo do ciclo de vida no campo **Modelo do ciclo de vida de local funcional**. Consulte [Estados do ciclo de vida de local funcional](../setup-for-functional-locations/functional-location-stages.md) para obter mais informações sobre como os estados do ciclo de vida de local funcional e modelos do ciclo de vida.
 5. Selecione "Sim" no botão de alternância **Vários ativos** se for possível instalar vários ativos no local funcional usando este tipo de local funcional. Se você selecionar "Não", só poderá instalar *um* ativo em um local funcional usando esse tipo de local funcional.
-6. Selecione "Sim" no botão de alternância **Atualizar dimensão de ativo** se desejar que os ativos instalados em um local funcional deste tipo para usem automaticamente as dimensões financeiras relacionadas ao local funcional. Isso significa que, se você alterar dimensões financeiras no formulário [Local funcional](../functional-locations/create-functional-locations.md) e o local funcional usar um tipo de local funcional com este botão de alternância definido como "Sim", as dimensões financeiras serão atualizadas automaticamente em todos os ativos instalados nesse local. funcional.
+6. Selecione "Sim" no botão de alternância **Atualizar dimensão de ativo** se desejar que os ativos instalados em um local funcional deste tipo para usem automaticamente as dimensões financeiras relacionadas ao local funcional. Isso significa que, se você alterar dimensões financeiras no formulário [Criar locais funcionais](../functional-locations/create-functional-locations.md) e o local funcional usar um tipo de local funcional com esse botão de alternância definido como "Sim", as dimensões financeiras serão atualizadas automaticamente em todos os ativos instalados nesse local funcional.
 7. O campo **Tipo de ativo** é usado para criar automaticamente o ativo *um* para o local funcional com a mesma ID e nome que o local funcional que você está criando. Por exemplo, isso pode ser relevante se você cria um local funcional estático, como um prédio ou um pipeline. Nesse caso, selecione o tipo de ativo a ser usado para o ativo criado automaticamente. Lembre-se de que, se você fizer uma seleção neste campo, o botão de alternância **Vários ativos** deverá ser definido como "Não".
 8. Na Guia Rápida **Tipos de ativo**, selecione os tipos de ativo a serem relacionados ao tipo de local funcional. Selecione **Adicionar linha** e os tipos de ativos. Se você adicionar tipos de ativos aqui, somente os ativos que usam esses tipos de ativo poderão ser instalados em um local funcional usando esse tipo de local funcional. Se nenhum tipo de ativo for selecionado na Guia Rápida **Tipos de ativo**, todos os tipos de ativo poderão ser instalados.
 9. Na Guia Rápida **Planos de manutenção**, selecione planos de manutenção que devem ser automaticamente configurados em novos locais funcionais usando esse tipo de local funcional. Selecione **Adicionar linha** e os planos de manutenção. Se adicionar planos de manutenção aqui, somente esses planos poderão ser usados em um local funcional por meio desse tipo de local funcional.

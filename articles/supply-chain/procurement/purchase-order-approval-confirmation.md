@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 265e4dd4be63f70a29e46b6acf7db514feb599a4
-ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
+ms.openlocfilehash: 0d0fc75f233ee2eab42317f835834ff24b6ada2f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2652163"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813422"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>​Aprovar e confirmar ordens de compra​
 
@@ -90,9 +90,9 @@ Se uma OC no gerenciamento de alterações, todas as mudanças, como o cancelame
 
 [Visão geral de ordens de compra](purchase-order-overview.md)
 
-[Criação de ordem de compra](purchase-order-creation.md)
+[Criar ordens de compra](purchase-order-creation.md)
 
-[Recebimento de produtos contra ordens de compra](product-receipt-against-purchase-orders.md)
+[​Recebimento de produtos contra ordens de compra​](product-receipt-against-purchase-orders.md)
 
 [Visão geral de faturas de fornecedor](../../finance/accounts-payable/vendor-invoices-overview.md)
 

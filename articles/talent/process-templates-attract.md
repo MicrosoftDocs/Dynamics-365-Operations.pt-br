@@ -1,6 +1,6 @@
 ---
-title: Criar um modelo de processo no Attract
-description: Este tópico fornece informações sobre como criar um modelo de processo no Attract.
+title: Criar um modelo de processo de contratação no Attract
+description: Este tópico fornece informações sobre como criar um modelo de processo de contratação no Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 10/15/2017
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
-ms.openlocfilehash: 533b9abd3d57c5bf8f3d9da85020c86012436f2f
-ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
+ms.openlocfilehash: 82046d43cf7366b760c140bdb8b017337b4f41da
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622709"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832549"
 ---
-# <a name="create-a-process-template-in-attract"></a>Criar um modelo de processo no Attract
+# <a name="create-a-hiring-process-template-in-attract"></a>Criar um modelo de processo de contratação no Attract
 
 [!include [banner](includes/banner.md)]
 
@@ -48,7 +48,7 @@ Os administradores, os recrutadores e os gerentes de contratação podem criar m
 > [!NOTE]
 > Os nomes de estágio são visíveis candidatos na página **Status de solicitação**. Considere esses fatos quando escolher nomes de estágios.
 
-Para saber mais sobre atividades, consulte [Atividades do processo de contratação no Attract](./activities-attract.md).
+Para saber mais sobre atividades, consulte [Atividades em processos de contratação](./activities-attract.md).
 
 Siga estas etapas para criar um modelo de processo de contratação.
 

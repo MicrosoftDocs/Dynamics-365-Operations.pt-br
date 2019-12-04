@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11ed2101304c4e09744bbd10e94e9cd2a8db4da5
-ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
+ms.openlocfilehash: ad6c1c7544f3c9d53b9d5759b246f81dae6cfe2c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578232"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771064"
 ---
 # <a name="electronic-reporting-er-overview"></a>Visão geral de Relatório eletrônico (ER)
 
@@ -71,7 +71,7 @@ Um mapeamento de modelo que oferece suporte a documentos eletrônicos de saída 
 
 - Ele pode usar diferentes tipos de dados como fontes de dados para um modelo de dados. Por exemplo, ele pode usar tabelas, entidades de dados, métodos ou enumerações.
 - Ele suporta parâmetros de entrada do usuário que podem ser definidos como fontes para um modelo de dados quando alguns dados devem ser especificados em tempo de execução.
-- Ele oferece suporte à transformação dos dados para os grupos necessários. Também permite filtrar, classificar e somar dados, além de acrescentar, com lógica calculada, campos que são criados por meio de fórmulas que se assemelham às do Microsoft Excel. Para obter mais informações, consulte [Designer de fórmulas no Relatório eletrônico](general-electronic-reporting-formula-designer.md).
+- Ele oferece suporte à transformação dos dados para os grupos necessários. Também permite filtrar, classificar e somar dados, além de acrescentar, com lógica calculada, campos que são criados por meio de fórmulas que se assemelham às do Microsoft Excel. Para obter mais informações, consulte [Designer de fórmulas no ER (Relatórios eletrônicos)](general-electronic-reporting-formula-designer.md).
 
 
 Um mapeamento de modelo que oferece suporte a documentos eletrônicos de entrada tem os seguintes recursos:
@@ -362,5 +362,5 @@ O ER permite adotar automaticamente alterações na última versão do component
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-- [Requisitos de localização – criar uma configuração de relatórios eletrônica](electronic-reporting-configuration.md)
-- [Gerenciar o ciclo de vida da configuração de relatório eletrônico](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [Criar configurações de ER (Relatórios eletrônicos)](electronic-reporting-configuration.md)
+- [Gerenciar o ciclo de vida da configuração de relatório eletrônico (ER)](general-electronic-reporting-manage-configuration-lifecycle.md)

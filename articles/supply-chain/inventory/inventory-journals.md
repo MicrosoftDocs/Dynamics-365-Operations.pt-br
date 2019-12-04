@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c4a2696b015611f4430ad5dfa1c61c1c4f913a9
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c6774a41887e74bfdb1fa6a9221264b0c8454c70
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570785"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814343"
 ---
 # <a name="inventory-journals"></a>Diários de estoque
 
@@ -74,7 +74,7 @@ Os diários de entrada de produção trabalham como os diários de entrada de it
 
 ### <a name="counting"></a>Contando
 
-Os diários de contagem permitem corrigir o estoque disponível atual registrado para os itens ou grupos de itens e, em seguida, lançar a contagem física real, de modo que você possa fazer os ajustes necessários para reconciliar as diferenças. Você pode associar políticas de contagem com os grupos de contagem para ajudar os itens do grupo que têm diversas características, de modo que os itens possam ser incluídos em um diário de contagem. Por exemplo, você pode configurar grupos de contagem para itens com uma frequência específica, ou para contar itens quando o estoque ficar em um nível específico. Para obter informações sobre como definir grupos de contagem, consulte [Definir processos de contagem de estoque (Guia de tarefas)](tasks/define-inventory-counting-processes.md).
+Os diários de contagem permitem corrigir o estoque disponível atual registrado para os itens ou grupos de itens e, em seguida, lançar a contagem física real, de modo que você possa fazer os ajustes necessários para reconciliar as diferenças. Você pode associar políticas de contagem com os grupos de contagem para ajudar os itens do grupo que têm diversas características, de modo que os itens possam ser incluídos em um diário de contagem. Por exemplo, você pode configurar grupos de contagem para itens com uma frequência específica, ou para contar itens quando o estoque ficar em um nível específico. Para obter informações sobre como definir grupos de contagem, consulte [Definir processos de contagem de estoque](tasks/define-inventory-counting-processes.md).
 
 ### <a name="tag-counting"></a>Contagem de etiquetas
 

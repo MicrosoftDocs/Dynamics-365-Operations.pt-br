@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 9cc45a3ed468541fc0a5c8e80e745854148165e4
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 86d81d60fcbc77375f3b8c525e8c084e3a3d8a99
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026062"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773684"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>Novidades ou alterações no Dynamics 365 Talent (2 de abril de 2019)
 
@@ -63,7 +63,7 @@ Para obter mais informações sobre a atualização de plataforma 25 do Finance 
 Em muitas organizações, gerentes de remuneração e benefícios só podem ter acesso a alguns tipos de registro de remuneração. Esses registros podem incluir registros de executivos ou funcionários regionais. Essa alteração permite que o RH gerencie e mantenha planos de remuneração para diferentes grupos de funcionários da organização. É possível atribuir funções de segurança para planos fixos e variáveis. Essas funções de segurança determinam o acesso a planos e dados de funcionários relacionados, como registros de salário ou de bônus, por isso somente elas podem processar a remuneração dos grupos de funcionários.
 
 ### <a name="upgrade-to-common-data-service"></a>Atualizar para o Common Data Service
-Os prazos finais para atualizar para o Common Data Service estão se aproximando rapidamente. Entre na central de administração do PowerApps para determinar se sua base de dados precisa ser atualizada. Para obter mais informações sobre os prazos finais e as etapas necessárias para atualizar, consulte [Fazer upgrade para o Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+Os prazos finais para atualizar para o Common Data Service estão se aproximando rapidamente. Entre na central de administração do Microsoft Power Apps para determinar se sua base de dados precisa ser atualizada. Para obter mais informações sobre os prazos finais e as etapas necessárias para atualizar, consulte [Fazer upgrade para o Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Em visualização
 

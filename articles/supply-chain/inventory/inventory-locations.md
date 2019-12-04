@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 789272e1ee02c7f5dbab4e325cefe56425a3d1a7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ce1e33fab6704dd3387f0c2034a8a950a858b2e0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549946"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814297"
 ---
 # <a name="inventory-locations"></a>Localizações de estoque
 
@@ -65,4 +65,4 @@ Na página Localizações de estoque, você pode exibir o layout do depósito em
 <a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Criar um novo layout de depósito (Guia de tarefas)](tasks/create-new-warehouse-layout.md)
+[Criar um novo layout de depósito](tasks/create-new-warehouse-layout.md)

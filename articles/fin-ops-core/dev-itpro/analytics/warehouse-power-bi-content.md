@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c5d07cb9fbb32a2d9b8be11179dbba00ee73d28b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b5fbe5ffa74953588a2357948319f5cf21f7ad36
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184568"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769752"
 ---
 # <a name="warehouse-performance-power-bi-content"></a>Conteúdo do Power BI Desempenho de depósito
 
@@ -78,7 +78,7 @@ O conteúdo do Power BI **Desempenho de depósito** inclui um relatório. Esse r
 | Desempenho de remessa        | Enviada por site/depósito              | A porcentagem enviada com antecedência, no prazo ou com atraso por site ou depósito. |
 
 ## <a name="understanding-the-data-model-and-calculations"></a>Noções básicas sobre modelo de dados e cálculos
-Os seguintes dados são usados para preencher as páginas de relatório no conteúdo do Power BI **Desempenho de depósito**. Esses dados são representadas como medições agregadas que foram preparadas no Repositório de entidades. O Repositório de entidades é um banco de dados do Microsoft SQL Server otimizado para análise. Para obter mais informações, consulte [Visão geral da integração do Power BI com o repositório de entidades](power-bi-integration-entity-store.md).
+Os seguintes dados são usados para preencher as páginas de relatório no conteúdo do Power BI **Desempenho de depósito**. Esses dados são representadas como medições agregadas que foram preparadas no Repositório de entidades. O Repositório de entidades é um banco de dados do Microsoft SQL Server otimizado para análise. Para obter mais informações, consulte [Integração do Power BI com o repositório Entidade](power-bi-integration-entity-store.md).
 
 As principais medidas agregadas a seguir são usadas como base do conteúdo.
 

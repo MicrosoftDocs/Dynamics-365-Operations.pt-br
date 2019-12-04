@@ -3,7 +3,7 @@ title: Descontos com base no meio de pagamento
 description: Este tópico fornece uma visão geral da funcionalidade que permite que os varejistas configurem descontos para tipos específicos de meio de pagamento.
 author: bebeale
 manager: AnnBe
-ms.date: 10/25/19
+ms.date: 10/30/19
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 245ee647a3b86303df046fda5bba406c7a2485b5
-ms.sourcegitcommit: b0c176d5d24939307c6d0a6dbe7656007ca53710
+ms.openlocfilehash: ed17b43ac16ebcd310716271b84bbbd904a3253a
+ms.sourcegitcommit: dc31a0f0d9216aa05be76046ac7410702b20706f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "2673556"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692214"
 ---
 # <a name="tender-based-discounts"></a>Descontos com base no meio de pagamento
 
@@ -40,6 +40,7 @@ No Microsoft Dynamics 365 Retail, os varejistas podem configurar uma porcentagem
 Os descontos baseados em meios de pagamento não competem com descontos baseados em itens, como descontos periódicos ou manuais. Eles são sempre compostos com base nos descontos do item. Portanto, mesmo se um desconto periódico exclusivo for aplicado a um item, o desconto com base no meio de pagamento ainda é aplicado sobre o desconto periódico exclusivo. Da mesma forma, se um desconto de limite for aplicado à transação e o desconto baseado em meios de pagamento reduzir o total para abaixo do limite, o desconto de limite ainda será aplicado à transação.
 
 Mesmo que os descontos com base no meio de pagamento reduzam o subtotal da transação, as cobranças automáticas aplicadas à transação não serão afetadas. Por exemplo, se os encargos de entrega forem calculados como $5 porque o subtotal era superior a $100 e o desconto baseado em meios de pagamento reduzir o valor para que seja inferior a $100, os encargos de entrega ainda serão $5 para a ordem.
+
 
 > [!NOTE]
 > Os descontos baseados em meios de pagamento são distribuídos proporcionalmente às linhas de vendas qualificadas e reduzem o valor antes do imposto das linhas individuais. Se múltiplos descontos baseados em meios de pagamento estiverem configurados para um tipo de meio de pagamento (por exemplo, dinheiro), somente o melhor desconto com base no meio de pagamento será aplicado.
@@ -57,6 +58,7 @@ Para pagamentos em cartão, os varejistas podem definir o desconto com base no m
 
 Para ajudar a evitar situações como essa, se um cliente pagar com cartão de crédito, o caixa visualizará uma caixa de diálogo que lista os cartões de crédito que fornecerão economias adicionais para o cliente. O caixa poderá perguntar se o cliente deseja usar um dos cartões preferenciais para obter um desconto adicional. Se o caixa usar um cartão preferencial, o desconto com base no meio de pagamento será aplicado à transação e o valor com desconto será exibido na tela de pagamento. A autorização será para o valor com desconto. Se o cliente inserir um cartão diferente daquele selecionado pelo caixa, uma mensagem de erro será exibida e a autorização será anulada.
 
+
 ## <a name="call-center-user-experience"></a>Experiência de usuário de call center
 
 Quando o usuário selecionar **Concluir** durante uma ordem do call center, a tela **Totais** será exibida. Inicialmente, os totais nesta tela não incluem descontos com base no meio de pagamento, pois o método de pagamento ainda não foi selecionado. Na tela **Adicionar pagamento**, se o usuário selecionar o método de pagamento para o qual o desconto com base no meio de pagamento foi configurado, o valor do pagamento será ajustado automaticamente para refletir o valor com desconto. Assim como o cliente no PDV, o cliente do call center pode decidir se deseja realizar o pagamento parcial ou integral. Com base no valor pago, o desconto com base no meio de pagamento será aplicado à ordem de venda.
@@ -66,7 +68,7 @@ Quando o usuário selecionar **Concluir** durante uma ordem do call center, a te
 
 ## <a name="exclude-items-from-discounts"></a>Excluir itens dos descontos
 
-Os varejistas geralmente optam por excluir alguns produtos, como novos itens ou itens de demanda, dos descontos. No entanto, ainda podem querer aplicar descontos com base no meio de pagamento. Por exemplo, um varejista configura o Retail para não permitir descontos com base nos meios de pagamento ou descontos manuais. No entanto, se o cliente pagar usando o meio de pagamento preferencial, o Retail ainda aplicará o desconto baseado em meios de pagamento. Para configurar o Retail dessa forma, os varejistas devem desativar as opções **Impedir todos os descontos** e **Impedir descontos com base nos meios de pagamento** e ativar as opções **Impedir descontos de varejo** e **Impedir descontos manuais**. As opções estão na página **Produtos liberados** na guia **Retail**.
+Os varejistas geralmente optam por excluir alguns produtos, como novos itens ou itens de demanda, dos descontos. No entanto, ainda podem querer aplicar descontos com base no meio de pagamento. Por exemplo, um varejista configura o Retail para não permitir descontos com base nos meios de pagamento ou descontos manuais. No entanto, se o cliente pagar usando o meio de pagamento preferencial, o Retail ainda aplicará o desconto baseado em meios de pagamento. Para configurar o Retail dessa maneira, os varejistas deverão acessar **Gerenciamento de informações do produto > Produtos > Produtos lançados**, selecionar o item e depois, na Guia Rápida **Retail**, definir as opções **Impedir todos os descontos** e **Impedir descontos com base no meio de pagamento** como **Não**, e as opções **Impedir descontos de varejo** e **Impedir descontos manuais** como **Sim**.
 
 > [!NOTE]
-> Quando a configuração de **Impedir todos os descontos** estiver ativada, nenhum desconto será aplicado ao produto. Os descontos com base no meio de pagamento também não serão aplicados.
+> Quando a configuração **Impedir todos os descontos** estiver definida como **Sim**, nenhum desconto será aplicado ao produto. Os descontos com base no meio de pagamento também não serão aplicados.

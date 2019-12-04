@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a21394daeb797995418c3b139191dd700c129e12
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 3f0180f63c32f3e88d7f5e245716ccc908cc026d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2019384"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811231"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Conectar periféricos ao ponto de venda (PDV)
 
@@ -33,7 +33,7 @@ ms.locfileid: "2019384"
 O tópico aborda como conectar periféricos ao seu Retail POS.
 
 > [!NOTE]
-> Para obter instruções de instalação específicas, consulte [Configuração e instalação da estação de hardware de varejo](retail-hardware-station-configuration-installation.md) e [Download/instalação de autoatendimento do Retail Modern POS e ativação de dispositivo do Modern POS e do Cloud POS](retail-modern-pos-device-activation.md).
+> Para obter instruções de instalação específicas, consulte [Configurar e instalar a Retail Hardware Station](retail-hardware-station-configuration-installation.md) e [Configurar, instalar e ativar o Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md).
 
 ## <a name="key-components"></a>Componentes da chave
 
@@ -139,7 +139,7 @@ O perfil de funcionalidade é definido no nível da loja. É usado para especifi
 
 - Guia Rápida **Códigos informativos**:
 
-    - Todos os aspectos como códigos informativos são gerenciados no PDV. Para obter detalhes, consulte [Códigos de informação](info-codes-retail.md).
+    - Todos os aspectos como códigos informativos são gerenciados no PDV. Para obter detalhes, consulte [Códigos informativos e grupos de códigos informativos](info-codes-retail.md).
 
 - Guia Rápida **Numeração de recibo**:
 

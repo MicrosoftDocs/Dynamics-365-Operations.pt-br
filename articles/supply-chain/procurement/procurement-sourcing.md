@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 461c89a220ec75f3f693da6f52291ebb498e7a05
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cce822f76323b6ce514d3793ce19f0160957e7a8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558209"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813377"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Página inicial de compras
 
@@ -36,19 +36,19 @@ A aquisição e o fornecimento abrangem todas as etapas, desde a identificação
 -   [Visualização geral da requisição de compra](purchase-requisitions-overview.md)
 -   [Criar uma requisição para consumo](tasks/create-requisition-consumption.md)
 -   [Criar uma requisição que use um RFQ](tasks/create-requisition-uses-rfq.md)
--   [Configurando permissões para encomendar produtos em nome de qualquer outra pessoa](tasks/set-up-permissions-ordering-products.md)
+-   [Configurar permissões para solicitar produtos em nome de qualquer outra pessoa](tasks/set-up-permissions-ordering-products.md)
 
 ## <a name="requests-for-quotation"></a>Solicitações de cotação
--   [Solicitação de cotação](request-quotations.md)
+-   [Visão geral de solicitações de cotação (RFQs)](request-quotations.md)
 -   [Criar uma solicitação de cotação](tasks/create-request-quotation.md)
--   [Insira e compare lances RFQ e contratos de prêmio](tasks/enter-compare-rfq-bids-award-contracts.md)
+-   [Inserir e comparar lances RFQ e contratos de prêmio](tasks/enter-compare-rfq-bids-award-contracts.md)
 -   [Criar um método de avaliação para RFQs](tasks/create-scoring-method-rfqs.md)
 -   [Criar tipos de solicitação e critérios de avaliação para RFQs](tasks/create-solicitation-types-scoring-criteria-rfqs.md)
 
 ## <a name="vendor-management-and-collaboration"></a>Gerenciamento de fornecedor e colaboração
--   [Configurando contas de fornecedor](set-up-vendor-accounts.md)
+-   [​Configurar contas de fornecedor​](set-up-vendor-accounts.md)
 -   [Criar uma conta de fornecedor](tasks/create-vendor-account.md)
--   [Crie uma conta bancária de fornecedor](tasks/create-vendor-bank-account.md)
+-   [Criar uma conta bancária de fornecedor](tasks/create-vendor-bank-account.md)
 -   [Procurar fornecedores](tasks/search-vendors.md)
 -   [Fornecedores aprovados para produtos específicos](tasks/approve-vendors-specific-products.md)
 -   [Colaboração de fornecedores aos fornecedores externos](vendor-collaboration-work-external-vendors.md)
@@ -57,25 +57,25 @@ A aquisição e o fornecimento abrangem todas as etapas, desde a identificação
 -   [Configurar e manter colaboração de fornecedor](set-up-maintain-vendor-collaboration.md)
 -   [Script de entrada de demonstração de estoque de consignação para o Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(white paper)
 -   [Monitorar o estoque de consignação usando a colaboração de fornecedor](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
--   [Colaborando com fornecedores por meio do portal do fornecedor](collaborate-vendors-vendor-portal.md)  (versões de fevereiro de 2016 e maio de 2016 do Dynamics AX somente)
--   [Configuração de segurança para usuários do portal de fornecedor](configure-security-vendor-portal-users.md) (versões de 2016 e maio de 2016 do Finanças e Operações somente)
--   [Espaço de trabalho móvel de colaboração de fornecedor para o aplicativo Microsoft Dynamics 365 for Finance and Operations](vendor-collaboration-mobile-workspace.md)
+-   [Colaborar com fornecedores por meio do portal do fornecedor](collaborate-vendors-vendor-portal.md) (versões de fevereiro de 2016 e maio de 2016 do Dynamics AX somente)
+-   [Configuração de segurança do usuário no portal de fornecedor](configure-security-vendor-portal-users.md) (versões de 2016 e maio de 2016 do Finance and Operations somente)
+-   [​Espaço de trabalho móvel de colaboração de fornecedor​](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Gerenciamento de produto de compras
--   [Catálogos de compras](procurement-catalogs.md)
--   [Criar um catálogo de compras](tasks/create-procurement-catalog.md)
+-   [Visão geral de catálogos de compras](procurement-catalogs.md)
+-   [Criar ordens de compra](tasks/create-procurement-catalog.md)
 -   [Importação de catálogos do fornecedor](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/) (postagem de blog)
 -   [Configurar uma hierarquia de categorias de compras](tasks/set-up-procurement-category-hierarchy.md)
 -   [Configurar políticas para hierarquias de categoria de compras](tasks/set-up-policies-procurement-category-hierarchies.md)
 -   [Aprovar vendedores para categorias específicas da obtenção](tasks/approve-vendors-specific-procurement-categories.md)
 
 ## <a name="procurement"></a>Compras
--   [Visão geral de ordem de compra](purchase-order-overview.md)
+-   [Visão geral de ordens de compra](purchase-order-overview.md)
 -   [Criação de ordem de compra](purchase-order-creation.md)
--   [Confirmação e aprovação da ordem de compra](purchase-order-approval-confirmation.md)
+-   [Aprovar e confirmar ordens de compra](purchase-order-approval-confirmation.md)
 -   [Criar uma ordem de compra](tasks/create-purchase-order.md)
 -   [Criar uma ordem de compra repetida](tasks/create-repeat-purchase-order.md)
--   [Criar uma ordem de compra a partir de uma ordem de venda](../sales-marketing/tasks/create-purchase-order-sales-order.md)
+-   [Criar uma ordem de compra de uma ordem de venda](../sales-marketing/tasks/create-purchase-order-sales-order.md)
 -   [Criar itens suplementares para uma ordem de compra](tasks/create-purchase-order-one-time-supplier.md)
 -   [Criar uma ordem de compra com um agendamento de entrega](tasks/create-purchase-order-delivery-schedule.md)
 -   [Criar uma ordem de compra de devolução](tasks/create-purchase-return-order.md)
@@ -99,11 +99,8 @@ A aquisição e o fornecimento abrangem todas as etapas, desde a identificação
 -   [Registrar o recebimento de mercadorias na ordem de compra](tasks/record-receipt-goods-purchase-order.md)
 -   [Fluxo de trabalho de requisição de compra](purchase-requisitions-workflow.md)
 -   [Definir fluxos de trabalho de processos de negócios para requisições de compra](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (white paper)
--   [Políticas de compras](purchase-policies.md)
+-   [Visão geral de políticas de compras](purchase-policies.md)
 -   [Criar políticas de compras](tasks/create-purchasing-policies.md)
-
-
-
 
 
 

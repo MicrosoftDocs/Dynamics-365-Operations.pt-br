@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9db36b528de097aae613a5fbf5ee94f4cc79a0f
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: f701a61a718469023dfa57c160229108afeb421c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553154"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812427"
 ---
 # <a name="human-resources-overview"></a>Visão geral de Recursos Humanos
 
@@ -46,14 +46,14 @@ Você pode usar Recursos humanos para realizas estas tarefas:
 Ao trabalhar com Recursos humanos, você decide como estruturar sua organização usando elementos, como departamentos, trabalhos e posições. Esses estão entre os elementos fundamentais que você irá configurar em Recursos humanos. Funcionários individuais são atribuídos a posições associadas a trabalhos.
 
 - [Organizar sua força de trabalho usando departamentos, trabalhos e posições](../../../talent/departments-jobs-positions.md)
-- [Configurar parâmetros de RH específicos à empresa](../../../talent/set-up-company-specific-hr-parameters.md)
+- [Configurar parâmetros de RH específicos da empresa](../../../talent/set-up-company-specific-hr-parameters.md)
 - [Configurar parâmetros de RH entre entidades legais](../../../talent/set-up-hr-parameters-across-legal-entities.md)
 
 ## <a name="recruit-hire-and-motivate-employees"></a>Recrutar, contratar e motivar funcionários
 
 Os projetos de recrutamento gerenciam o conteúdo usado em anúncios para posições em aberto e podem ajudar você a gerenciar solicitações de emprego para vagas em aberto. Você pode usá-los para acompanhar respostas a ofertas de trabalho de um projeto de recrutamento específico ou de candidatos específicos e atualizar o status de posições em aberto. Você também pode contratar candidatos individuais ou gerenciar "projetos de contratação em massa" que facilitam a contratação de vários trabalhadores, por exemplo, para atender a necessidades sazonais dos negócios.
 
-- [Gerenciar um processo de recrutamento](manage-recruiting-process.md)
+- [​Gerenciar processos de recrutamento​](manage-recruiting-process.md)
 - [Projetos de contratação em massa](mass-hire-projects.md) 
 
 Depois de contratar pessoal, você pode configurar planos para gerenciar a remuneração de maneira efetiva e imparcial, bem como gerenciar itens, como computadores ou telefones, que sua organização empresta a seus funcionários. Você pode criar planos de remuneração fixa e variável, bem como definir regras que se apliquem ao plano de remuneração para atender aos critérios desse plano.
@@ -67,14 +67,14 @@ Depois de contratar pessoal, você pode configurar planos para gerenciar a remun
 Para ajudar os funcionários a atingirem seus objetivos de carreira e, ao mesmo tempo atender necessidades críticas dos negócios, você pode configurar metas, criar avaliações de desempenho e rastrear comentários. Para ajudar os funcionários a desenvolver as habilidades necessárias, você também pode configurar instrutores, tipos de cursos, cursos, descrições do curso, agendas, acompanhamentos e sessões antes de atribuir um instrutor a um curso ou inscrever alguém em um curso. Os instrutores já devem existir como trabalhadores, candidatos ou contatos.
 
 - [Gerenciamento de desempenho](../../../talent/performance-management-overview.md)
-- [Alinhar habilidades da força de trabalho e necessidades dos negócios](../../../talent/skills.md)
-- [Administrar treinamento por meio de cursos](../../../talent/courses.md)
+- [Alinhar habilidades da força de trabalho com as necessidades dos negócios](../../../talent/skills.md)
+- [Configurar cursos de treinamento](../../../talent/courses.md)
 
 ## <a name="create-and-maintain-benefits"></a>Criar e manter benefícios
 
 Além de remunerar sua equipe com salários e bônus, você pode desenvolver programas de benefícios, como seguro de saúde e planos de aposentadoria. Você também pode gerenciar benefícios, como programas de empréstimo, nos quais sua empresa empresta itens, como computadores ou telefones, a seus funcionários.
 
-- [Gerenciar um programa de benefícios](../../../talent/manage-benefit-program.md)
+- [Definir e gerenciar um programa de benefícios](../../../talent/manage-benefit-program.md)
 - [Políticas de qualificação para benefícios](../../../talent/benefit-eligibility-policies.md)
 - [Gerenciar itens emprestados aos trabalhadores](../../../talent/loan-items.md)
 
@@ -82,15 +82,15 @@ Além de remunerar sua equipe com salários e bônus, você pode desenvolver pro
 
 O Microsoft Dynamics AX pode ajudá-lo a manter um ambiente de trabalho seguro que é compatível com a legislação aplicável, incluindo a Lei de Americanos Portadores de Deficiências e as leis de imigração e naturalização, entre outras. Por exemplo, você pode gerenciar os requisitos físicos de trabalhos específicos, bem como acompanhar solicitações para acomodações que podem ajudar sua organização a otimizar as habilidades de sua força de trabalho.
 
-- [Verificação de emprego do formulário I-9](localizations/noam-usa-form-i-9-verification.md)
-- [Seguir a Lei de Americanos Portadores de Deficiências](localizations/noam-usa-comply-ada.md)
-- [Rastrear folgas para FMLA](localizations/noam-usa-track-time-for-fmla.md)
+- [Verificação do formulário I-9](localizations/noam-usa-form-i-9-verification.md)
+- [Conformidade com a Lei de Americanos Portadores de Deficiências (ADA)](localizations/noam-usa-comply-ada.md)
+- [Rastrear folgas para a Lei de Licença Médica-familiar (FMLA)](localizations/noam-usa-track-time-for-fmla.md)
 
 ## <a name="gather-information-using-questionnaires"></a>Coletar informações por meio de questionários
 
 Você pode criar e administrar questionários para coletar informações que são usadas para vários objetivos. O recurso Questionário permite projetar e criar questionários. Quando um questionário está pronto, você o distribui de forma ampla ou para um conjunto específico de entrevistados para preenchimento. Depois que os entrevistados fornecerem as respostas, você poderá rever e analisar os resultados.
 
 - [Questionários](../../../talent/questionnaires.md)
-- [Criar um questionário](../../../talent/design-questionnaires.md)
-- [Distribuir e preencher um questionário](../../../talent/distribute-questionnaires.md)
-- [Exibir e avaliar os resultados de um questionário](../../../talent/evaluate-questionnaire-results.md)
+- [Criar questionários](../../../talent/design-questionnaires.md)
+- [Distribuir e agendar questionários](../../../talent/distribute-questionnaires.md)
+- [Exibir e avaliar os resultados de questionários](../../../talent/evaluate-questionnaire-results.md)

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6bd76fc771c370d8d769a97d3b33003f632717f2
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d0bf2f843401811d601b5fe90709bf995f550870
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174181"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771508"
 ---
 # <a name="cost-management-power-bi-content"></a>Conteúdo de gerenciamento de custos do Power BI
 
@@ -37,7 +37,7 @@ O conteúdo de **Gerenciamento de custos** do Microsoft Power BI destina-se a co
 > [!NOTE]
 > O conteúdo de **Gerenciamento de custos** do Power BI descrito neste tópico aplica-se ao Dynamics 365 Finance and Operations 8.0.
 > 
-> O pacote de conteúdo de **Gerenciamento de custos** do Power BI disponível no site do AppSource foi substituído. Para obter mais informações sobre essa substituição, consulte [os pacotes de conteúdo do Power BI disponíveis no AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> O pacote de conteúdo de **Gerenciamento de custos** do Power BI disponível no site do AppSource foi substituído. Para obter mais informações sobre essa de substituição, consulte [Recursos removidos ou obsoletos no Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Este conteúdo do Power BI fornece um formato categorizado que ajuda a monitorar o desempenho dos estoques e visualizar o fluxo de custos. Você pode ganhar insights gerenciais, como o índice de giro, o número de dias que o estoque está disponível, a precisão, e a "classificação ABC" ao nível agregado preferido (empresa, item, grupo de itens, ou o site). As informações disponibilizadas também podem ser usadas como um suplemento detalhado para o demonstrativo financeiro.
 
@@ -172,7 +172,7 @@ As tabelas a seguir mostram uma visão geral das visualizações no conteúdo de
 
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
 
-Os dados do aplicativo são usados para preencher as páginas do relatório no conteúdo de **Gerenciamento de custos** do Power BI. Esses dados são representados como medidas agregadas que são preparadas no repositório de entidades, que é um banco de dados do Microsoft SQL Server otimizado para análise. Para obter mais informações, consulte [Integração do Power BI com o repositório de entidades](power-bi-integration-entity-store.md).
+Os dados do aplicativo são usados para preencher as páginas do relatório no conteúdo de **Gerenciamento de custos** do Power BI. Esses dados são representados como medidas agregadas que são preparadas no repositório de entidades, que é um banco de dados do Microsoft SQL Server otimizado para análise. Para obter mais informações, consulte [Integração do Power BI com o repositório Entidade](power-bi-integration-entity-store.md).
 
 As principais medidas agregadas dos objetos a seguir são usadas como base do conteúdo do Power BI.
 

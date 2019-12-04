@@ -16,26 +16,26 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a476163ba6f66ab60ed8bfea6198d02f13ac5136
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5020b523ca5d76d36f7436a8f43e8629c029e3e8
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182706"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769869"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Acessar metadados do aplicativo usando aplicativos conectados
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-As etapas a seguir explicam como um usuário do Regulatory Configuration Service (RCS) na função de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar um novo mapeamento de modelos de relatório eletrônico (ER) por meio dos metadados de Finance and Operations. Os metadados do aplicativo serão acessados online usando o aplicativo conectado de RCS. O mapeamento de modelo ER de exemplo será configurado para acessar transações de comércio exterior. Para concluir estas etapas, no RCS primeiro conclua as etapas do tópico, [Criar um provedor de configuração e marcá-lo como ativo](er-configuration-provider-mark-it-active-2016-11.md). Se você não concluiu as etapas do tópico [Acessar metadados do aplicativo usando a configuração ER](access-application-metadata-er-configuration.md), vá para a [página Exemplos de relatórios eletrônicos](https://go.microsoft.com/fwlink/?linkid=862266) para baixar e salvar as seguintes configurações de ER: Metadados de comércio exterior.xml; Modelo de comércio exterior.xml; Mapeamento de comércio exterior.xml e conclua as etapas no procedimento.
+As etapas a seguir explicam como um usuário do Regulatory Configuration Service (RCS) na função de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar um novo mapeamento de modelos de relatório eletrônico (ER) por meio dos metadados de Finance and Operations. Os metadados do aplicativo serão acessados online usando o aplicativo conectado de RCS. O mapeamento de modelo ER de exemplo será configurado para acessar transações de comércio exterior. Para concluir estas etapas, no RCS, primeiro conclua as etapas do tópico [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md). Se você não concluiu as etapas do tópico [Acessar metadados do aplicativo usando a configuração ER](access-application-metadata-er-configuration.md), vá para a [página Exemplos de relatórios eletrônicos](https://go.microsoft.com/fwlink/?linkid=862266) para baixar e salvar as seguintes configurações de ER: Metadados de comércio exterior.xml; Modelo de comércio exterior.xml; Mapeamento de comércio exterior.xml e conclua as etapas no procedimento.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 1. Vá para **Todos os espaços de trabalho** > **Relatório eletrônico**. 
-2. Verifique se o provedor de configuração da empresa exemplo, Litware, Inc., está disponível e marcado como **Ativo**. Se você não visualizar este provedor de configuração, conclua as etapas no procedimento [Criar um provedor de configuração e marcá-lo como ativo](er-configuration-provider-mark-it-active-2016-11.md). 
+2. Verifique se o provedor de configuração da empresa exemplo, Litware, Inc., está disponível e marcado como **Ativo**. Se você não visualizar este provedor de configuração, conclua as etapas no procedimento [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md). 
 
 ## <a name="get-required-er-configurations"></a>Obtenha configurações de ER necessárias
 1. Clique em **Configurações de relatórios**. 
-2. Se você já tiver concluído as etapas no procedimento [(RCS) Acessar metadados do aplicativo usando a configuração ER](access-application-metadata-er-configuration.md), já terá todas as configurações ER necessárias (metadados de comércio exterior, configurações de modelo e mapeamento) na instância do RCS atual. Você pode ignorar todas as etapas restantes desta subtarefa. 
+2. Se você já tiver concluído as etapas no procedimento [Acessar metadados do aplicativo usando a configuração ER](access-application-metadata-er-configuration.md), já terá todas as configurações ER necessárias (metadados de comércio exterior, configurações de modelo e mapeamento) na instância do RCS atual. Você pode ignorar todas as etapas restantes desta subtarefa. 
 3. Clique em **Taxa de câmbio**. 
 4. Clique em **Carregar de um arquivo XML**. 
 5. Clique em **Procurar** e selecione o arquivo **Metadados de comércio exterior.xml**. 
@@ -72,8 +72,8 @@ As etapas a seguir explicam como um usuário do Regulatory Configuration Service
 4. Na árvore, selecione **Modelo de comércio exterior\Mapeamento de comércio exterior**. 
 5. Expanda a seção **Pré-requisitos**. 
 
-> [!NOTE]
-> Atualmente, o mapeamento se refere à configuração dos metadados. Os metadados de aplicativos dessa configuração serão oferecidos durante a criação desse mapeamento de modelo. 
+    > [!NOTE]
+    > Atualmente, o mapeamento se refere à configuração dos metadados. Os metadados de aplicativos dessa configuração serão oferecidos durante a criação desse mapeamento de modelo. 
 
 6. Clique em **Designer**. 
 7. Clique em **Designer**. 
@@ -81,8 +81,8 @@ As etapas a seguir explicam como um usuário do Regulatory Configuration Service
 9. Clique em **Adicionar raiz**. 
 10. No campo **Tabela**, insira ou selecione um valor. 
 
-> [!NOTE]
-> Atualmente, o mapeamento se refere à configuração dos metadados. Os metadados de aplicativos dessa configuração serão oferecidos durante a criação desse mapeamento de modelo. 
+    > [!NOTE]
+    > Atualmente, o mapeamento se refere à configuração dos metadados. Os metadados de aplicativos dessa configuração serão oferecidos durante a criação desse mapeamento de modelo. 
 
 11. Clique em **Cancelar**. 
 12. Feche a página. 
@@ -92,8 +92,8 @@ As etapas a seguir explicam como um usuário do Regulatory Configuration Service
 1. Clique em **Editar**. 
 2. Selecione o aplicativo **MyConnectedApp**. 
 
-> [!NOTE]
-> Atualmente, este mapeamento refere-se aos metadados do aplicativo conectado selecionado. Quando o mesmo mapeamento referir-se à configuração de metadados e ao aplicativo associado simultaneamente, os metadados do aplicativo conectado serão usados. 
+    > [!NOTE]
+    > Atualmente, este mapeamento refere-se aos metadados do aplicativo conectado selecionado. Quando o mesmo mapeamento referir-se à configuração de metadados e ao aplicativo associado simultaneamente, os metadados do aplicativo conectado serão usados. 
 
 3. Clique em **Designer**. 
 4. Clique em **Designer**. 
@@ -101,14 +101,14 @@ As etapas a seguir explicam como um usuário do Regulatory Configuration Service
 6. Clique em **Adicionar raiz**. 
 7. No campo **Tabela**, insira ou selecione um valor. 
 
-> [!NOTE]
-> Mais de duas tabelas do aplicativo foram oferecidas agora pois esse mapeamento utiliza todos os metadados do aplicativo conectado que foram atribuídos a ele. 
+    > [!NOTE]
+    > Mais de duas tabelas do aplicativo foram oferecidas agora pois esse mapeamento utiliza todos os metadados do aplicativo conectado que foram atribuídos a ele. 
 
 8. Clique em **Cancelar**. 
 9. Clique em **Validar**. 
 
-> [!NOTE]
-> Associamos com êxito elementos de modelo de dados com itens de fontes de dados que serão descritos usando detalhes de metadados do aplicativo conectado que foram atribuídos a este mapeamento. 
+    > [!NOTE]
+    > Associamos com êxito elementos de modelo de dados com itens de fontes de dados que serão descritos usando detalhes de metadados do aplicativo conectado que foram atribuídos a este mapeamento. 
 
 10. Feche a página. 
 11. Feche a página. 

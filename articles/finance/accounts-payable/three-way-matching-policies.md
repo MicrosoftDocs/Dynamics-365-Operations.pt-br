@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9c177f7a7b713e7b8490b718650daafeca0e937
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d84e3ed050bacf7632d03cf0123f682c43fd7b58
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189375"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772734"
 ---
 # <a name="three-way-matching-policies"></a>Políticas de conciliação tripla
 
@@ -141,7 +141,7 @@ Observe os seguintes itens:
 Se a aprovação for necessária para o qual as faturas são lançadas com discrepâncias de conciliação de faturas, a opção Aprovar lançamento com discrepâncias de conciliação na página Detalhes de conciliação de faturas deve ser selecionada antes da fatura pode ser lançada com erros de conciliação de preço e erros na conciliação de quantidade. Se a aprovação não é necessária, o processamento da fatura pode continuar se não houver nenhum outro erro de lançamento.
 
 
-Para obter mais informações, consulte [Conciliação de faturas de Contas a pagar](accounts-payable-invoice-matching.md).
+Para obter mais informações, consulte [Visão geral de conciliação de faturas de Contas a pagar](accounts-payable-invoice-matching.md).
 
 
 

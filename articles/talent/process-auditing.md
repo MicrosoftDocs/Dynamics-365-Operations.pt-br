@@ -15,14 +15,16 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 448fceccb507bec5b60b686043a303c1997a9ac0
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 0b0be541416d2e4be78da223ec8e95c195d90bbc
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742656"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832620"
 ---
 # <a name="track-changes-in-recruiting-data"></a>Controlar alterações nos dados de recrutamento
+
+[!include [banner](includes/banner.md)]
 
 Você pode rastrear as alterações feitas a candidatos, oportunidades de emprego ou aplicações de trabalho, usando o processo de auditoria. Isso é útil por motivos de relatório ou conformidade.
 
@@ -31,7 +33,7 @@ Você pode exibir os dados rastreados no Power BI usando o conector OData. Para 
 ## <a name="track-changes"></a>Controlar alterações
 Para configurar o acompanhamento de alterações nos dados de recrutamento, siga estas etapas:
 
-1. Em [PowerApps](https://web.powerapps.com), selecione o ambiente apropriado.
+1. Em [Power Apps](https://web.powerapps.com), selecione o ambiente apropriado.
 
 2. Selecione **Configurações** (o ícone de ferragens), escolha **Personalizações avançadas**, e depois selecione **Recursos** em **Recursos de desenvolvedor**. 
 

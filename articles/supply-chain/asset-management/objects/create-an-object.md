@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a4759f55eceba923b47d906a764edcad34bf2f2
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 80236da5220aa9c70d5c488c09b457a470f0225a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571590"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811840"
 ---
 # <a name="create-an-asset"></a>Crie um ativo
 
@@ -36,15 +36,15 @@ Este tópico descreve como criar um ativo em Gerenciamento de Ativos.
 1. Clique em **Gerenciamento de ativos** > **Comum** > **ativos** > **Todos os ativos** ou **Ativos ativos**.
 2. Clique no botão **Novo**.
 3. Na caixa de diálogo **Criar ativos**, insira dados sobre o **Ativo** (a ID do ativo) e o nome do ativo. Selecione a data e a hora do ativo no campo **Efetivo**. A partir dessa data, é possível instalar o ativo em um local funcional bem como mover e substituir o ativo em uma estrutura de ativos.
-4. No campo **Tipo de ativo**, selecione o tipo de ativo para o ativo (campo obrigatório). Se necessário, selecione **Fabricante do ativo** e **Modelo de ativo** para o ativo. Se apenas um produto foi configurado, esse produto será automaticamente selecionado no campo **Fabricante de ativo**. As seleções disponíveis nos campos **Fabricante de ativo** e **Modelo de ativo** dependem da configuração em [Fabricante e modelo de ativo](../setup-for-objects/product-and-model.md).
+4. No campo **Tipo de ativo**, selecione o tipo de ativo para o ativo (campo obrigatório). Se necessário, selecione **Fabricante do ativo** e **Modelo de ativo** para o ativo. Se apenas um produto foi configurado, esse produto será automaticamente selecionado no campo **Fabricante de ativo**. As seleções disponíveis nos campos **Fabricante de ativo** e **Modelo de ativo** dependem da configuração em [Fabricantes e modelos de ativo](../setup-for-objects/product-and-model.md).
 5. No grupo **Ativo pai**, o campo **Ativo** está em branco como padrão. Se necessário, selecione um ativo pai e todos os campos no grupo **Ativo pai** serão preenchidos automaticamente.
 >[!NOTE]  
->Quando você seleciona um ativo principal, duas ou três guias estão disponíveis: a guia **Meus ativos** contém os ativos relativos aos locais funcionais em que você (o trabalhador de manutenção registrado no sistema) deve ser alocado. Se nenhum local funcional for configurada no trabalhador de manutenção no formulário [Trabalhadores de manutenção](../setup-for-objects/workers-and-worker-groups.md), a guia **Meus ativos** não ficará visível. A guia **Ativos ativos** contém uma lista de todos os ativos com o estado de ciclo de vida do ativo "Ativo". A guia **Exibição de ativo** exibe um modo de exibição de árvore dos locais funcionais e ativos instalados nesses locais.
+>Quando você seleciona um ativo principal, duas ou três guias estão disponíveis: a guia **Meus ativos** contém os ativos relativos aos locais funcionais em que você (o trabalhador de manutenção registrado no sistema) deve ser alocado. Se nenhum local funcional for configurado em um funcionário de manutenção no formulário [Funcionários de manutenção e grupos de trabalhadores](../setup-for-objects/workers-and-worker-groups.md), a guia **Meus ativos** não ficará visível. A guia **Ativos ativos** contém uma lista de todos os ativos com o estado de ciclo de vida do ativo "Ativo". A guia **Exibição de ativo** exibe um modo de exibição de árvore dos locais funcionais e ativos instalados nesses locais.
 
 6. O local funcional padrão que você configurou é sugerido para o ativo no grupo **Ativo** > campo **Local funcional**. Selecione outro local funcional, se necessário.
 
 >[!NOTE]
->Após criar um ativo, você poderá instalá-lo em outro local funcional, se necessário. Apenas os ativos em nível superior (ativos sem um ativo pai atual) podem ser instalados em um local funcional. Isso significa que você instala o nível superior bem como todos os ativos filho no local funcional selecionado. Ler mais sobre a instalação de ativos em locais funcionais em [Locais funcionais](../functional-locations/introduction-to-functional-locations.md).
+>Após criar um ativo, você poderá instalá-lo em outro local funcional, se necessário. Apenas os ativos em nível superior (ativos sem um ativo pai atual) podem ser instalados em um local funcional. Isso significa que você instala o nível superior bem como todos os ativos filho no local funcional selecionado. Leia mais sobre como instalar ativos em locais funcionais em [Introdução a locais funcionais](../functional-locations/introduction-to-functional-locations.md).
 
 7. Clique em **OK**.
 8. Selecione o ativo na lista **Todos os Ativos** e clique no botão **Editar** para adicionar mais informações ao ativo.
@@ -53,13 +53,13 @@ Este tópico descreve como criar um ativo em Gerenciamento de Ativos.
 
 O local funcional ao qual o ativo está relacionado aparece no campo **Local funcional**. Se o ativo for um ativo pai, o número de filhos relacionadas ao ativo será mostrado no campo **Filho**. Se o ativo for um subativo de um ativo existente, a ID do ativo pai será mostrada no campo **Pai**.
 
-Você pode editar as informações **Fabricante do ativo** e **Modelo de ativo** no ativo, que são usadas para gerenciar peças sobressalentes, peças sobressalentes alternativas e padrões de tipo de trabalho. Consulte [Fabricante e modelo do ativo](../setup-for-objects/product-and-model.md) para obter mais informações. Você também pode adicionar informações sobre **Ano do modelo** e **Número de série**, se necessário.
+Você pode editar as informações **Fabricante do ativo** e **Modelo de ativo** no ativo, que são usadas para gerenciar peças sobressalentes, peças sobressalentes alternativas e padrões de tipo de trabalho. Consulte [Fabricantes e modelos de ativo](../setup-for-objects/product-and-model.md) para obter mais informações. Você também pode adicionar informações sobre **Ano do modelo** e **Número de série**, se necessário.
 
 **Estado do ciclo de vida atual** é usado para definir se o ativo está ativo ou inativo. Ao criar um ativo, o estágio é sempre definido como o primeiro estágio no grupo de estágios do ativo. Quando você estiver pronto para ativar um ativo, clique em **Atualiza estado do ativo**, selecione o estado do ciclo de vida definido como "ativo ativo" e clique em **OK**.
 
 **Observação:** Quando um ativo estiver definido como "inativo", não será mais possível criar ordens de serviço para o ativo. Além disso, você não pode agendar trabalhos de manutenção preventiva para um valor inativo.
 
-Os campos **Nível de serviço** e **Severidade** estão relacionados a ordens de serviço criadas para o ativo. Os campos mostram os números de **Nível de serviço** e **Severidade** calculados para a configuração atual do ativo. Consulte [Níveis de serviço de ativo](../setup-for-objects/object-priorities.md) e [Severidades de ativo](../setup-for-objects/object-criticalities.md) em relação à configuração desses valores.
+Os campos **Nível de serviço** e **Severidade** estão relacionados a ordens de serviço criadas para o ativo. Os campos mostram os números de **Nível de serviço** e **Severidade** calculados para a configuração atual do ativo. Consulte [Níveis de serviço de ativo](../setup-for-objects/object-priorities.md) e [Tipos de severidade de ativo](../setup-for-objects/object-criticalities.md) em relação à configuração desses valores.
 
 ## <a name="asset"></a>Ativo
 

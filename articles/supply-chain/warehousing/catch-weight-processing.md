@@ -3,7 +3,7 @@ title: Processamento de produtos de peso variável com gerenciamento de depósit
 description: Este tópico descreve como usar modelos de trabalho e diretivas de localização para determinar como e onde o trabalho é realizado no depósito.
 author: perlynne
 manager: AnnBe
-ms.date: 08/19/2019
+ms.date: 11/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: d5e9f8e4d154e5f56ee7ceae666cd935d6ceb460
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: 5800f95de0ec773f40c506662a031887810b8c92
+ms.sourcegitcommit: db222a1719d4756d9ccb73fc71e7eaf4521c23a7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887126"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2696630"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Processamento de produtos de peso variável com gerenciamento de depósito
 
@@ -181,7 +181,7 @@ No momento, a funcionalidade de marcas de peso variável tem suporte apenas como
 - Ao processar um status de estoque que foi alterado usando o app de depósito.
 - Quando uma transferência de depósito é feita usando o app de depósito.
 - Ao processar ajustes dentro e para do app de depósito.
-- Quando o trabalho de separação é processado para ordens de venda e de transferência. (As marcas de peso variável não podem ser registradas para a separação de componentes de produção.)
+- Quando o trabalho de separação é processado para linhas de venda, de transferência e de produção.
 - Quando as quantidades separadas são reduzidas das linhas de carga, independentemente do uso de contêineres.
 - Quando os produtos são embalados em contêineres em uma estação de embalagem.
 - Quando os contêineres são reabertos.

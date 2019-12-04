@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b1334dcba7d12f2da301f70e21a08fceb88e2b4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d5d878b0fe4e6b65aa2439d7ef7312eda1895823
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559015"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814918"
 ---
 # <a name="schedule-workload-capacity"></a>Agendar capacidade da carga de trabalho
 
@@ -30,7 +30,7 @@ ms.locfileid: "1559015"
 
 É possível programar a capacidade de carga de trabalho para depósitos, e você também pode projetar cargas de trabalho atuais e futuras para os trabalhadores em depósitos individuais. É possível projetar a carga de trabalho para todo o depósito ou projetar a carga de trabalho separadamente para as cargas de trabalho de entrada e saída.
 
-Para projetar a carga de trabalho de saída para os depósitos selecionados, os dados do agendamento do planejamento mestre devem estar disponíveis para esses depósitos selecionados. Para obter mais informações, consulte [Planos mestre](../master-planning/master-plans.md).
+Para projetar a carga de trabalho de saída para os depósitos selecionados, os dados do agendamento do planejamento mestre devem estar disponíveis para esses depósitos selecionados. Para obter mais informações, consulte [Visão geral de Planos mestre](../master-planning/master-plans.md).
 
 ## <a name="schedule-and-view-workloads-for-a-warehouse"></a>Programar e exibir cargas de trabalho para um depósito
 

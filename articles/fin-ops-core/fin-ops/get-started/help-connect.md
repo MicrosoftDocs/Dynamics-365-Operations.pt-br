@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 491024c9c3d6c7d20ef212e167ceab6abac8dac7
-ms.sourcegitcommit: d554faca895609b8124bf2ea5aca5a55c407534a
+ms.openlocfilehash: 2955464aa8a220563db1b9ebbb348be52f520659
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537846"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812571"
 ---
 # <a name="connect-the-help-system"></a>Conectar o sistema de Ajuda
 
@@ -80,7 +80,7 @@ Você pode usar guias de tarefa para criar ajuda personalizada ou conectar a um 
 
 Você pode criar ajuda personalizada para o Finance, o Supply Chain Management e o Retail criando gravações de tarefas que refletem a sua implementação e salvando-as em uma biblioteca de processo comercial de LCS. Você não pode criar guias de tarefas personalizadas para o Talent.
 
-Para parceiros, se você promover uma biblioteca como sendo uma biblioteca corporativa, e incluí-la em uma solução, ela estará disponível para os clientes. Você também pode fazer uma cópia da biblioteca global unificada de APQC e, em seguida, abrir a cópia, abrir os registros de tarefa a partir dela, modificá-los, e salvar os registros com suas alterações. Para obter mais informações [Como criar um registro de tarefa para usar como documentação ou treinamento](../../dev-itpro/user-interface/task-recorder.md).
+Para parceiros, se você promover uma biblioteca como sendo uma biblioteca corporativa, e incluí-la em uma solução, ela estará disponível para os clientes. Você também pode fazer uma cópia da biblioteca global unificada de APQC e, em seguida, abrir a cópia, abrir os registros de tarefa a partir dela, modificá-los, e salvar os registros com suas alterações. Para obter mais informações, consulte [Recursos do Gravador de tarefas](../../dev-itpro/user-interface/task-recorder.md).
 
 ### <a name="connect-a-custom-site"></a>Conectar um site personalizado
 
@@ -91,8 +91,8 @@ A Microsoft fornece um white paper e um código de amostra que descreve como cri
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral da ajuda](help-overview.md)
+[Sistema de ajuda](help-overview.md)
 
-[Visão geral do Gravador de tarefas](../../dev-itpro/user-interface/task-recorder.md)
+[Recursos do Gravador de tarefas](../../dev-itpro/user-interface/task-recorder.md)
 
-[Como criar um registro de tarefa para usar como documentação ou treinamento](../../dev-itpro/user-interface/task-recorder-training-docs.md)
+[Criar documentação ou treinamento com o Gravador de Tarefas](../../dev-itpro/user-interface/task-recorder-training-docs.md)

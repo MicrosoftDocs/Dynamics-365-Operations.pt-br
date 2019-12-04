@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c16082bb18ac5c170aab30f1a2033e0790cbacc1
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a7a44e1c9d8dcb4b2cc81a682a044d26cdc1149e
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025993"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812686"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-20-2019"></a>Novidades ou alterações no Dynamics 365 Talent (20 de março de 2019)
 
@@ -43,7 +43,7 @@ Este recurso permite que os rastreadores alcancem e indexem posições de trabal
 Se um candidato esquecer as credenciais sociais que usaram para se candidatar a um trabalho enquanto estiver abrindo um link que foi salvo ou enviado por email a ele, o candidato poderá ver uma dica com o nome do provedor e o nome de usuário (ofuscados). Isso ajuda-o a usar as credenciais corretas para acessar candidatura ao trabalho.
 
 ### <a name="help-internal-candidates-explore-internal-jobs"></a>Ajudar candidatos internos a explorar trabalhos internos
-Foi corrigido um problema onde candidatos externos poderiam consultar o nome do recrutador ou gerente de contratação de um trabalho. Agora somente os candidatos internos podem ver os membros da equipe de contratação para um trabalho. Agora também ficou mais fácil para candidatos internos verem e candidatarem-se apenas aos cargos internos. Quando um candidato tentar acessar o link para ver ou candidatar-se apenas a um trabalho interno, ele será forçado a autenticar-se com as credenciais do Azure Active Directory. Os candidatos internos também têm capacidade de contatar o membro da equipe de contratação para expressar interesse ou saber mais sobre o trabalho. Essa funcionalidade está disponível para todos os trabalhos apenas para candidatos internos. Para obter mais informações, consulte [A funcionalidade do site de carreiras no Attract](./career-site.md).
+Foi corrigido um problema onde candidatos externos poderiam consultar o nome do recrutador ou gerente de contratação de um trabalho. Agora somente os candidatos internos podem ver os membros da equipe de contratação para um trabalho. Agora também ficou mais fácil para candidatos internos verem e candidatarem-se apenas aos cargos internos. Quando um candidato tentar acessar o link para ver ou candidatar-se apenas a um trabalho interno, ele será forçado a autenticar-se com as credenciais do Azure Active Directory. Os candidatos internos também têm capacidade de contatar o membro da equipe de contratação para expressar interesse ou saber mais sobre o trabalho. Essa funcionalidade está disponível para todos os trabalhos apenas para candidatos internos. Para obter mais informações, consulte [Configurar seu site de carreiras no Microsoft Dynamics 365 Talent - Attract](./career-site.md).
 
 ### <a name="designate-silver-medalists-to-assign-high-value-applicants-for-future-positions"></a>Designar medalhistas de prata para atribuir candidatos de alto valor para posições futuras
 Os recrutadores e os gerentes de contratação frequentemente mantêm uma lista atualizada de candidatos aptos para uma posição que não puderam receber uma oferta, pois a posição já tinha sido preenchida. Esses candidatos, chamados de medalhistas de prata, são valiosos, pois eles ajudam a reduzir o tempo de contratação quando uma posição semelhante é aberta. O Attract agora permite que os recrutadores e os gerentes de contratação designem esses medalhistas de prata à lista de candidatos se um candidato passar ao estágio de Oferta. A designação de medalhista de prata aparecerá na lista de candidatos para o trabalho, mas também na exibição de grupo de talentos quando esses candidatos forem membros de grupos do gerente de contratação ou recrutador. Adicionalmente, a designação aparecerá no histórico de trabalhos como parte do perfil de grupo de talentos de um candidato. Você pode visualizar esse recurso quando um administrador ativá-lo usando o [Gerenciamento de recursos no centro de administração](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).

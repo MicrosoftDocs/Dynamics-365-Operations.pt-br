@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c07f303b72f286c33979181fca1592b47efa1303
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 625e2c6a6b385c69d33ec4325a462310a37f1eed
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571222"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812182"
 ---
 # <a name="maintenance-attribute-types"></a>Manutenção dos tipos do atributo
 
@@ -34,7 +34,7 @@ ms.locfileid: "2571222"
 Este tópico explica como criar tipos de atributo no Asset Management. Os atributos são usados para descrever as propriedades dos vários elementos. Você pode configurar atributos nos seguintes elementos:
 
 - [Tipos de locais funcionais](../setup-for-functional-locations/functional-location-types.md)
-- [Locais funcionais](../functional-locations/create-functional-locations.md)
+- [Criar locais funcionais](../functional-locations/create-functional-locations.md)
 - [Tipos de ativo](../setup-for-objects/object-types.md)
 - Ativos
 

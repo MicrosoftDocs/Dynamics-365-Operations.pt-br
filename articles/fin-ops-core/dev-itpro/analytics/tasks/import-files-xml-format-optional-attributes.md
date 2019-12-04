@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e1290598d8dbd5b72d679ccf3e642e75b6dc3215
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f34302a32b2e06f281dc93d6df160b88ffac7123
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182177"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769776"
 ---
 # <a name="rcs-import-files-in-xml-format-with-optional-attributes"></a>(RCS) Importar arquivos no formato XML com atributos opcionais
 
@@ -30,7 +30,7 @@ ms.locfileid: "2182177"
 As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar uma configuração de formato ER para importar arquivos no formato XML contendo atributos opcionais. Para completar essas etapas, você deve primeiro completar as etapas do procedimento “Criar um provedor de configuração e marcá-lo como ativo“. Antes de começar, faça download e salve localmente o arquivo IncomingDocumentToLearnHowToHandleOptionalAttributes.xml do [Centro de Download da Microsoft](https://go.microsoft.com/fwlink/?linkid=874684).
 
 1.  Vá para **Todos os espaços de trabalho** > **Relatório eletrônico**.
-2.  Verifique se o provedor de configuração da empresa exemplo, Litware, Inc., está disponível e marcado como **Ativo**. Se você não visualizar este provedor de configuração, conclua as etapas no procedimento [Criar um provedor de configuração e marcá-lo como ativo](er-configuration-provider-mark-it-active-2016-11.md).
+2.  Verifique se o provedor de configuração da empresa exemplo, Litware, Inc., está disponível e marcado como **Ativo**. Se você não visualizar este provedor de configuração, conclua as etapas no procedimento [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md).
 3.  Clique em **Configurações de relatórios**.
 
 ## <a name="create-a-new-data-model-configuration"></a>Criar uma nova configuração de modelo de dados
