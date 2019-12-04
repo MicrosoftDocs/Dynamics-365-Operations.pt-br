@@ -18,56 +18,56 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 511108e689c10e27a42253d95b02e5394f9eb713
-ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
+ms.openlocfilehash: 476b01a4bae34a271203f34481ff18042783d4df
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2652347"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811254"
 ---
-# <a name="item-where-used"></a><span data-ttu-id="45c5b-103">Item onde é usado</span><span class="sxs-lookup"><span data-stu-id="45c5b-103">Item where used</span></span>
+# <a name="item-where-used"></a><span data-ttu-id="0a5dc-103">Item onde é usado</span><span class="sxs-lookup"><span data-stu-id="0a5dc-103">Item where used</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-<span data-ttu-id="45c5b-104">Você pode criar um cálculo para que um item específico obtenha uma visão geral de onde o item foi usado no Gerenciamento de Ativos.</span><span class="sxs-lookup"><span data-stu-id="45c5b-104">You can make a calculation for a specific item to get an overview of where in Asset Management the item has been used.</span></span> <span data-ttu-id="45c5b-105">Os resultados mostram o contexto no qual o item foi usado durante seu tempo de vida.</span><span class="sxs-lookup"><span data-stu-id="45c5b-105">The results show the context in which the item has been used during its lifetime.</span></span> <span data-ttu-id="45c5b-106">A página **Item onde usado** pode ser aberta do menu principal do Gerenciamento de Ativos e também pode ser acessada das seguintes páginas:</span><span class="sxs-lookup"><span data-stu-id="45c5b-106">The **Item where used** page can be opened from the main Asset Management menu, and it can also be accessed from the following pages:</span></span>
+<span data-ttu-id="0a5dc-104">Você pode criar um cálculo para que um item específico obtenha uma visão geral de onde o item foi usado no Gerenciamento de Ativos.</span><span class="sxs-lookup"><span data-stu-id="0a5dc-104">You can make a calculation for a specific item to get an overview of where in Asset Management the item has been used.</span></span> <span data-ttu-id="0a5dc-105">Os resultados mostram o contexto no qual o item foi usado durante seu tempo de vida.</span><span class="sxs-lookup"><span data-stu-id="0a5dc-105">The results show the context in which the item has been used during its lifetime.</span></span> <span data-ttu-id="0a5dc-106">A página **Item onde usado** pode ser aberta do menu principal do Gerenciamento de Ativos e também pode ser acessada das seguintes páginas:</span><span class="sxs-lookup"><span data-stu-id="0a5dc-106">The **Item where used** page can be opened from the main Asset Management menu, and it can also be accessed from the following pages:</span></span>
 
-- [<span data-ttu-id="45c5b-107">BOM de ativos</span><span class="sxs-lookup"><span data-stu-id="45c5b-107">Asset BOM</span></span>](../objects/object-BOM.md)
+- [<span data-ttu-id="0a5dc-107">BOMs de Ativos</span><span class="sxs-lookup"><span data-stu-id="0a5dc-107">Asset BOMs</span></span>](../objects/object-BOM.md)
 
-- [<span data-ttu-id="45c5b-108">Peças sobressalentes nos padrões do tipo de ativo</span><span class="sxs-lookup"><span data-stu-id="45c5b-108">Spare parts on asset type defaults</span></span>](../setup-for-objects/object-types.md)
+- [<span data-ttu-id="0a5dc-108">Peças sobressalentes nos padrões do tipo de ativo</span><span class="sxs-lookup"><span data-stu-id="0a5dc-108">Spare parts on asset type defaults</span></span>](../setup-for-objects/object-types.md#spare-parts-on-the-asset-type-setup)
 
-- [<span data-ttu-id="45c5b-109">Previsão do item na previsão padrão do tipo de trabalho de manutenção</span><span class="sxs-lookup"><span data-stu-id="45c5b-109">Item forecast on Maintenance job type defaults forecast</span></span>](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)
+- [<span data-ttu-id="0a5dc-109">Categorias do tipo de trabalho e tipos de trabalho de manutenção, grades do tipo de trabalho de manutenção, comércios de trabalho de manutenção e listas de verificação de manutenção</span><span class="sxs-lookup"><span data-stu-id="0a5dc-109">Maintenance job type categories and maintenance job types, maintenance job type variants, maintenance job trades, and maintenance checklists</span></span>](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)
 
-- [<span data-ttu-id="45c5b-110">Previsão de manutenção da ordem de serviço</span><span class="sxs-lookup"><span data-stu-id="45c5b-110">Work order maintenance forecast</span></span>](../work-orders/maintenance-forecasts.md)
+- [<span data-ttu-id="0a5dc-110">Previsão de manutenção</span><span class="sxs-lookup"><span data-stu-id="0a5dc-110">Maintenance forecast</span></span>](../work-orders/maintenance-forecasts.md)
 
-- [<span data-ttu-id="45c5b-111">Requisição de compra da ordem de serviço</span><span class="sxs-lookup"><span data-stu-id="45c5b-111">Work order purchase requisition</span></span>](../work-orders/procurement.md)
+- [<span data-ttu-id="0a5dc-111">Compras</span><span class="sxs-lookup"><span data-stu-id="0a5dc-111">Procurement</span></span>](../work-orders/procurement.md)
 
-- [<span data-ttu-id="45c5b-112">Compra da ordem de serviço</span><span class="sxs-lookup"><span data-stu-id="45c5b-112">Work order purchase</span></span>](../work-orders/procurement.md)
+- [<span data-ttu-id="0a5dc-112">Compra da ordem de serviço</span><span class="sxs-lookup"><span data-stu-id="0a5dc-112">Work order purchase</span></span>](../work-orders/procurement.md)
 
-## <a name="make-an-item-where-used-calculation"></a><span data-ttu-id="45c5b-113">Criar um cálculo de item onde usado</span><span class="sxs-lookup"><span data-stu-id="45c5b-113">Make an item-where-used calculation</span></span>
+## <a name="make-an-item-where-used-calculation"></a><span data-ttu-id="0a5dc-113">Criar um cálculo de item onde usado</span><span class="sxs-lookup"><span data-stu-id="0a5dc-113">Make an item-where-used calculation</span></span>
 
-1. <span data-ttu-id="45c5b-114">Clique em **Gerenciamento de ativos** > **Consultas** > **Item onde usado** ou selecione o botão **Item onde usado** em uma das páginas mencionadas acima.</span><span class="sxs-lookup"><span data-stu-id="45c5b-114">Click **Asset management** > **Inquiries** > **Item where used**, or select the **Item where used** button on one of the pages mentioned above.</span></span>
+1. <span data-ttu-id="0a5dc-114">Clique em **Gerenciamento de ativos** > **Consultas** > **Item onde usado** ou selecione o botão **Item onde usado** em uma das páginas mencionadas acima.</span><span class="sxs-lookup"><span data-stu-id="0a5dc-114">Click **Asset management** > **Inquiries** > **Item where used**, or select the **Item where used** button on one of the pages mentioned above.</span></span>
 
-2. <span data-ttu-id="45c5b-115">Na caixa de diálogo **Item onde usado**, selecione o item para o qual você deseja fazer o cálculo no campo **Número do item**.</span><span class="sxs-lookup"><span data-stu-id="45c5b-115">In the **Item where used** dialog, select the item for which you want to make the calculation in the **Item number** field.</span></span>
+2. <span data-ttu-id="0a5dc-115">Na caixa de diálogo **Item onde usado**, selecione o item para o qual você deseja fazer o cálculo no campo **Número do item**.</span><span class="sxs-lookup"><span data-stu-id="0a5dc-115">In the **Item where used** dialog, select the item for which you want to make the calculation in the **Item number** field.</span></span>
 
-3. <span data-ttu-id="45c5b-116">Você pode usar o campo **Nível** para indicar o nível de detalhamento desejado das linhas de item em relação aos locais funcionais.</span><span class="sxs-lookup"><span data-stu-id="45c5b-116">You can use the **Level** field to indicate how detailed you want the item lines to be regarding functional locations.</span></span> 
+3. <span data-ttu-id="0a5dc-116">Você pode usar o campo **Nível** para indicar o nível de detalhamento desejado das linhas de item em relação aos locais funcionais.</span><span class="sxs-lookup"><span data-stu-id="0a5dc-116">You can use the **Level** field to indicate how detailed you want the item lines to be regarding functional locations.</span></span> 
 
-    <span data-ttu-id="45c5b-117">Por exemplo, se você inserir o número “1 "no campo e tiver uma estrutura de local funcional com vários níveis, todas as linhas do item de um local funcional serão mostrados em nível superior.</span><span class="sxs-lookup"><span data-stu-id="45c5b-117">For example, if you insert the number "1" in the field, and you have a multi-level functional location structure, all item lines for a functional location will be shown on the top level.</span></span> <span data-ttu-id="45c5b-118">Portanto, relação/quantidade em uma linha podem ser adicionado de locais funcionais localizados em nível inferior.</span><span class="sxs-lookup"><span data-stu-id="45c5b-118">Therefore, relation/quantity on a line may be added up from functional locations located at a lower level.</span></span> 
+    <span data-ttu-id="0a5dc-117">Por exemplo, se você inserir o número “1 "no campo e tiver uma estrutura de local funcional com vários níveis, todas as linhas do item de um local funcional serão mostrados em nível superior.</span><span class="sxs-lookup"><span data-stu-id="0a5dc-117">For example, if you insert the number "1" in the field, and you have a multi-level functional location structure, all item lines for a functional location will be shown on the top level.</span></span> <span data-ttu-id="0a5dc-118">Portanto, relação/quantidade em uma linha podem ser adicionado de locais funcionais localizados em nível inferior.</span><span class="sxs-lookup"><span data-stu-id="0a5dc-118">Therefore, relation/quantity on a line may be added up from functional locations located at a lower level.</span></span> 
     
-    <span data-ttu-id="45c5b-119">Se você inserir o número "0" no campo **Nível**, verá um resultado detalhado mostrando todas as linhas de item em todos os níveis do local funcional ao qual elas estão relacionadas.</span><span class="sxs-lookup"><span data-stu-id="45c5b-119">If you insert the number "0" in the **Level** field, you will see a detailed result showing all item lines on all the functional location levels to which they are related.</span></span>
+    <span data-ttu-id="0a5dc-119">Se você inserir o número "0" no campo **Nível**, verá um resultado detalhado mostrando todas as linhas de item em todos os níveis do local funcional ao qual elas estão relacionadas.</span><span class="sxs-lookup"><span data-stu-id="0a5dc-119">If you insert the number "0" in the **Level** field, you will see a detailed result showing all item lines on all the functional location levels to which they are related.</span></span>
 
-4. <span data-ttu-id="45c5b-120">Na seção **Incluir**, selecione "Sim" nos botões de alternância que você deseja incluir no cálculo.</span><span class="sxs-lookup"><span data-stu-id="45c5b-120">In the **Include** section, select "Yes" on the toggle buttons that you want to include in the calculation.</span></span>
+4. <span data-ttu-id="0a5dc-120">Na seção **Incluir**, selecione "Sim" nos botões de alternância que você deseja incluir no cálculo.</span><span class="sxs-lookup"><span data-stu-id="0a5dc-120">In the **Include** section, select "Yes" on the toggle buttons that you want to include in the calculation.</span></span>
 
-5. <span data-ttu-id="45c5b-121">Clique em **OK**para iniciar o cálculo.</span><span class="sxs-lookup"><span data-stu-id="45c5b-121">Click **OK** to start the calculation.</span></span>
+5. <span data-ttu-id="0a5dc-121">Clique em **OK**para iniciar o cálculo.</span><span class="sxs-lookup"><span data-stu-id="0a5dc-121">Click **OK** to start the calculation.</span></span>
 
-6. <span data-ttu-id="45c5b-122">Na guia **Item onde usado**, selecione os botões **Agrupar por** para mostrar o nível de detalhe necessário do cálculo.</span><span class="sxs-lookup"><span data-stu-id="45c5b-122">On the **Item where used** tab, select the **Group by** buttons to show the required detail level of the calculation.</span></span> <span data-ttu-id="45c5b-123">Os botões selecionados de **Agrupar por** são realçados.</span><span class="sxs-lookup"><span data-stu-id="45c5b-123">The selected **Group by** buttons are highlighted.</span></span> <span data-ttu-id="45c5b-124">Clique em um botão para ativá-los ou desativá-los.</span><span class="sxs-lookup"><span data-stu-id="45c5b-124">Click on a button to activate or deactivate it.</span></span>
+6. <span data-ttu-id="0a5dc-122">Na guia **Item onde usado**, selecione os botões **Agrupar por** para mostrar o nível de detalhe necessário do cálculo.</span><span class="sxs-lookup"><span data-stu-id="0a5dc-122">On the **Item where used** tab, select the **Group by** buttons to show the required detail level of the calculation.</span></span> <span data-ttu-id="0a5dc-123">Os botões selecionados de **Agrupar por** são realçados.</span><span class="sxs-lookup"><span data-stu-id="0a5dc-123">The selected **Group by** buttons are highlighted.</span></span> <span data-ttu-id="0a5dc-124">Clique em um botão para ativá-los ou desativá-los.</span><span class="sxs-lookup"><span data-stu-id="0a5dc-124">Click on a button to activate or deactivate it.</span></span>
 
-7. <span data-ttu-id="45c5b-125">Se quiser mostrar as dimensões relacionadas ao item, clique em **Exibir dimensões** e selecione as dimensões a serem mostradas.</span><span class="sxs-lookup"><span data-stu-id="45c5b-125">If you want to show dimensions related to the item, click **Display dimensions**, and select the dimensions to be shown.</span></span>
+7. <span data-ttu-id="0a5dc-125">Se quiser mostrar as dimensões relacionadas ao item, clique em **Exibir dimensões** e selecione as dimensões a serem mostradas.</span><span class="sxs-lookup"><span data-stu-id="0a5dc-125">If you want to show dimensions related to the item, click **Display dimensions**, and select the dimensions to be shown.</span></span>
 
-## <a name="example"></a><span data-ttu-id="45c5b-126">Exemplo</span><span class="sxs-lookup"><span data-stu-id="45c5b-126">Example</span></span>
+## <a name="example"></a><span data-ttu-id="0a5dc-126">Exemplo</span><span class="sxs-lookup"><span data-stu-id="0a5dc-126">Example</span></span>
 
-<span data-ttu-id="45c5b-127">Na captura de tela abaixo, você verá um exemplo de um cálculo de item onde usado para o número do item "1000".</span><span class="sxs-lookup"><span data-stu-id="45c5b-127">In the screenshot below, you see an example of an item-where-used calculation for item number "1000".</span></span>
+<span data-ttu-id="0a5dc-127">Na captura de tela abaixo, você verá um exemplo de um cálculo de item onde usado para o número do item "1000".</span><span class="sxs-lookup"><span data-stu-id="0a5dc-127">In the screenshot below, you see an example of an item-where-used calculation for item number "1000".</span></span>
 
 ![Exemplo de item onde cálculo usado](media/12-controlling-and-reporting.png)
 
