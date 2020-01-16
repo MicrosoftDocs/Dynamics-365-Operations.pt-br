@@ -3,7 +3,7 @@ title: Recursos de ajuda do Supply Chain Management
 description: Esta página oferece uma lista de tópicos de ajuda e outros recursos de Supply Chain Management.
 author: josaw1
 manager: AnnBe
-ms.date: 10/01/2019
+ms.date: 11/26/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4926cd63aa360c7e08a0a435f7609017f02cb229
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 0b5f82d76f2e285b6318d900d41919aae14ec71a
+ms.sourcegitcommit: b8a51a0ba8fc33576ff78e5bbe826c14e1df2844
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814412"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2853979"
 ---
 # <a name="help-resources-for-supply-chain-management"></a>Recursos de ajuda do Supply Chain Management
 
@@ -115,9 +115,8 @@ Há muitos tópicos sobre gerenciamento de fabricação e de cadeia de fornecedo
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Laboratórios práticos de Contabilidade de custos</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean manufacturing: capacidade de comprometimento e agendamento de trabalhos kanban</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Cálculo de BOM usando uma folha de custos</a>
--  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Mobilidade no depósito facilitada pelo Microsoft Dynamics 365 for Finance and Operations</a>
 
 ## <a name="elearning-courses"></a>Cursos de eLearning
-Para obter informações sobre o treinamento do Dynamics 365, consulte o <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Portal de aprendizagem do Microsoft Dynamics</a>. (requer uma conta do CustomerSource) 
+Para obter informações sobre o treinamento do Dynamics 365, consulte o <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Portal de aprendizagem do Microsoft Dynamics</a>. (requer uma conta do CustomerSource) 
 
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 531fd219cc2db79e01a277c72eba66fb8a9b8bbd
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 5b56f56f5307c292ced30ec94d178244268c5e68
+ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772642"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935433"
 ---
 # <a name="budgeting-home-page"></a>Home page de Orçamento
 
@@ -57,7 +57,7 @@ Os recursos adicionais de planejamento e orçamento estão disponíveis e são i
 -   **Orçamentos de força de trabalho** – O orçamento da força de trabalho inclui um planejamento detalhado de componente de custo de orçamento para posições, grupos de remuneração e assim por diante.
 -   **Orçamentos de ativos fixos** – Com base nas informações de ativos fixos, você pode calcular a depreciação planejada e registrar outras transações planejadas relacionadas a ativos fixos.
 -   **Orçamentos de projeto** – No módulo dos projetos, você pode criar previsões de projeto detalhadas. As previsões de projetos incluirão detalhes sobre horas, despesas, taxas e itens planejados.
--   **Previsão de demanda**– Você pode estimar a demanda futura de estoque e criar previsões de demanda, com base nos dados históricos de transação.
+-   **Previsão de demanda** – você pode estimar a demanda futura de estoque e criar previsões de demanda, com base nos dados históricos de transação.
 
 Para obter informações sobre como exibir dados de planejamento de outros módulos nos planos de orçamento, consulte [Integração do planejamento de orçamento com outros módulos](budget-planning-integration-other-modules.md).
 
