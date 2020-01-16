@@ -4,7 +4,7 @@
       items:
         - name: Dynamics 365 Retail
           href: index.md
-        - name: Comece a usar
+        - name: Introdução
           items:
             - name: Antes de comprar
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/retail/toc.json
@@ -46,7 +46,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/retail/toc.json
                 - name: Implantação de nuvem
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/retail/toc.json
-                - name: Requisitos do sistema para implantações de nuvem
+                - name: Requisitos do sistema para componentes do cliente do Retail
                   href: get-started/system-requirements.md
                 - name: Implantação local
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/retail/toc.json
@@ -62,20 +62,14 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/retail/toc.json
             - name: Novidades ou alterações
               items:
-                - name: Recursos de visualização no Retail versão 10.0.7
+                - name: Retail versão 10.0.7
                   href: get-started/whats-new-10-0-7.md
                 - name: Retail versão 10.0.6
                   href: get-started/whats-new-10-0-6.md
-                - name: Retail versão 10.0.5
-                  href: get-started/whats-new-10-0-5.md
                 - name: Novidades ou alterações nas versões anteriores
                   items:
                     - name: Novidades ou alterações na home page do Finance and Operations
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/retail/toc.json
-                    - name: Aplicativos do Finance and Operations 10.0.5 (outubro de 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/retail/toc.json
-                    - name: Finance and Operations 10.0.4 (julho de 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/retail/toc.json
                     - name: 'Finance and Operations, Enterprise Edition 7.3'
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/retail/toc.json
                 - name: Recursos removidos ou obsoletos
@@ -752,7 +746,7 @@
                   href: online-stores.md
                 - name: Configurar canais de call center
                   href: set-up-order-processing-options.md
-                - name: Configurar hierarquias de varejo
+                - name: Configurar hierarquias do varejo
                   href: retail-hierarchies.md
                 - name: Gerenciamento de classificação
                   href: assortments.md
@@ -788,10 +782,8 @@
               href: ../supply-chain/pim/product-information.md?toc=/dynamics365/retail/toc.json
             - name: Hierarquias do varejo
               href: retail-hierarchies.md
-            - name: Atributos e grupos de atributos
+            - name: Gerenciar atributos e grupos de atributos
               href: attribute-attributegroups-lifecycle.md
-            - name: Criar e gerenciar atributos
-              href: create-manage-attributes.md
             - name: Configurar produtos de varejo
               href: set-up-retail-products.md
             - name: Criar um produto
@@ -1146,7 +1138,9 @@
               items:
                 - name: Funcionalidade de caixa registradora
                   href: localizations/emea-swe-cash-registers.md
-                - name: Exemplo para integração do Retail POS com unidades de controle
+                - name: Exemplo de integração da unidade de controle para a Suécia
+                  href: localizations/emea-swe-fi-sample.md
+                - name: Exemplo para integração do Retail POS com unidades de controle (herdado)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Tarefas do Retail
           items:

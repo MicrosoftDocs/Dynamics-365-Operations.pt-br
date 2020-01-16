@@ -4,7 +4,7 @@
       items:
         - name: Dynamics 365 Supply Chain Management
           href: index.md
-        - name: Comece a usar
+        - name: Introdução
           items:
             - name: Antes de comprar
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/supply-chain/toc.json
@@ -62,7 +62,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: Novidades ou alterações
               items:
-                - name: Recursos de visualização no Supply Chain Management versão 10.0.7 (dezembro de 2019)
+                - name: Supply Chain Management versão 10.0.7 (dezembro de 2019)
                   href: get-started/whats-new-scm-10-0-7.md
                 - name: Supply Chain Management 10.0.6 (novembro de 2019)
                   href: get-started/whats-new-scm-10-0-6.md
@@ -70,10 +70,6 @@
                   items:
                     - name: Novidades ou alterações na home page do Finance and Operations
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Aplicativos do Finance and Operations 10.0.5 (outubro de 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Finance and Operations 10.0.4 (julho de 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 'Finance and Operations, Enterprise Edition 7.3'
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Recursos removidos ou obsoletos
@@ -264,7 +260,7 @@
                 - name: Criar ativos com base nas ordens de compra
                   href: asset-management/objects/create-objects-based-on-purchase-orders.md
                 - name: BOM de ativos
-                  href: /asset-management/objects/object-bom.md
+                  href: asset-management/objects/object-bom.md
                 - name: Histórico de eventos do ativo
                   href: asset-management/objects/object-timeline.md
                 - name: Exibir ativo
@@ -592,7 +588,7 @@
                 - name: ​Análise de custo de ordem de produção​
                   href: cost-management/production-order-cost-analysis.md
                 - name: ​Estimativa de custo de ordem de produção​
-                  href: /cost-management/production-order-cost-estimation.md
+                  href: cost-management/production-order-cost-estimation.md
                 - name: Exibir status WIP atual em uma ordem de produção
                   href: cost-management/tasks/view-current-wip-status-production-order.md
                 - name: 'Comparar custos ativos, estimados e realizados em uma ordem de produção'
@@ -1065,7 +1061,7 @@
               items:
                 - name: Visão geral de Otimização do Planejamento
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Comece a usar a Otimização de Planejamento
+                - name: Introdução à Otimização de Planejamento
                   href: master-planning/planning-optimization/get-started.md
                 - name: Análise de ajuste de Otimização de Planejamento
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
@@ -1099,9 +1095,11 @@
                   href: master-planning/safety-stock-replenishment.md
                 - name: Atrasos
                   href: master-planning/delays.md
+                - name: Cancelar um trabalho mestre de planejamento
+                  href: master-planning/cancel-master-planning-job.md
                 - name: Use o rastreamento para detalhamento
                   href: master-planning/trace-explosion.md
-                - name: ​Mensagens de ação​
+                - name: Mensagens de ação
                   href: master-planning/action-messages.md
                 - name: Monitorar a execução de um planejamento mestre
                   href: master-planning/tasks/monitor-master-planning-run.md
@@ -1515,6 +1513,8 @@
                   href: pim/uom-conversion-per-product-variant.md
                 - name: Criar um produto lançado para uma única empresa
                   href: pim/tasks/create-released-product-single-company.md
+                - name: Usar entidades de dados
+                  href: pim/data-entities.md
                 - name: Estado do ciclo de vida do produto
                   items:
                     - name: Visão geral do estado do ciclo de vida do produto
@@ -2349,6 +2349,10 @@
                   href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                 - name: Cancelar trabalho de depósito para manuseio de exceção
                   href: warehousing/cancel-warehouse-work.md
+                - name: Separação de cluster direcionada pelo sistema
+                  href: warehousing/system-directed-cluster-pick.md
+                - name: Agrupamento de linhas de separação
+                  href: warehousing/pick-line-grouping.md
             - name: Contagem de estoque
               items:
                 - name: Exibir códigos de motivo de contagem de estoque

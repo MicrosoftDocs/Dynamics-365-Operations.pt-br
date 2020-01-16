@@ -8,7 +8,9 @@
           href: index.md
         - name: Novidades ou alterações
           items:
-            - name: Recursos de visualização na Platform update 31 (janeiro de 2020)
+            - name: Recursos de visualização na Platform update 32 (fevereiro de 2020)
+              href: get-started/whats-new-platform-update-32.md
+            - name: Platform update 31 (janeiro de 2020)
               href: get-started/whats-new-platform-update-31.md
             - name: Platform update 30 (novembro de 2019)
               href: ../fin-ops/get-started/whats-new-platform-update-30.md
@@ -34,6 +36,10 @@
               href: ../fin-ops/get-started/whats-new-platform-update-20.md
             - name: Platform update 15 (março de 2018)
               href: ../fin-ops/get-started/whats-new-platform-update-15.md
+            - name: Novidades ou alterações nas versões anteriores
+              items:
+                - name: Novidades ou alterações na home page do Finance and Operations
+                  href: ../fin-ops/get-started/whats-new-changed.md
         - name: Eventos de negócios
           items:
             - name: Visão geral sobre eventos de negócios
@@ -918,7 +924,7 @@
               items:
                 - name: Recursos do Lifecycle Services
                   href: lifecycle-services/lcs.md
-                - name: ​LCS para clientes​
+                - name: ​LCS para clientes
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS para parceiros
                   href: lifecycle-services/getting-started-lcs.md
@@ -926,11 +932,13 @@
                   href: lifecycle-services/whats-new-lcs.md
                 - name: ​Problemas conhecidos​
                   href: lifecycle-services/known-issues.md
+                - name: Recursos removidos ou preteridos em Lifecycle Services (LCS)
+                  href: lifecycle-services/removed-deprecated-features.md
             - name: ​Guia do usuário do Lifecycle Services​
               href: lifecycle-services/lcs-user-guide.md
             - name: Avaliador de subscrição
               href: lifecycle-services/subscription-estimator.md
-            - name: ​Configurar segurança​
+            - name: ​Configurar segurança
               href: lifecycle-services/configure-lcs-security.md
             - name: Pesquisa de problemas
               href: lifecycle-services/issue-search-lcs.md
@@ -990,7 +998,7 @@
           items:
             - name: Recursos da plataforma móvel
               href: mobile-apps/platform/mobile-platform-home-page.md
-            - name: Comece a usar
+            - name: Introdução
               items:
                 - name: Introdução à plataforma móvel
                   href: mobile-apps/platform/mobile-platform-getting-started.md
