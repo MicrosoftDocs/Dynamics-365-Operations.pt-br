@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ebfaeb0696d7200ddf3c715f96a259b91db08e7a
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3376a9aec5c0003e9cc7c076c4d221a697df61ce
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517316"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898285"
 ---
 # <a name="leave-and-absence-management"></a>Gerenciamento de licença e ausência
-
-[!include [banner](includes/banner.md)]
 
 O módulo **Gerenciamento de licenças e ausências** oferece uma estrutura flexível para definir o processo de gerenciamento de ausências. Planos de licenças e ausências podem ser criados para determinar como os funcionários acumulam ou recebem folgas. Depois que os funcionários são inscritos em um plano, eles podem enviar solicitações de folga para a aprovação dos gerentes. O rastreamento de licenças permite que gerentes de primeiro nível e gerentes de RH (Recursos Humanos) considerem quem está retirando folga e quantas folgas cada funcionário ainda tem.  
 

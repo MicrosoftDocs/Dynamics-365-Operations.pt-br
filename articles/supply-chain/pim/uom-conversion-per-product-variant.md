@@ -3,12 +3,12 @@ title: Conversão de unidade de medida por variante de produto
 description: Este tópico explica como as conversões de unidade de medida podem ser configuradas em grades do produto.
 author: johanhoffmann
 manager: AnnBe
-ms.date: 12/18/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: UnitOfMeasureConversion
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: josaw
@@ -17,34 +17,26 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 196b68db02867f8d864be8bcc593aa01f554f7c3
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c8181f0bda9b781a6c2b0feb0aba1beb51bfea65
+ms.sourcegitcommit: af36eb17b36092a3101bbfc96486b25036676558
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249439"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2935090"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Conversão de unidade de medida por variante de produto
 
 [!include [banner](../includes/banner.md)]
 
-[!include [pivate-preview](../includes/pivate-preview-banner.md)]
-
 Este tópico explica como as conversões de unidade de medida podem ser configuradas em grades do produto. Ele iInclui um exemplo da instalação.
 
 Esse recurso permite que as empresas definam a conversão de unidades diferentes entre as grades do mesmo produto. O exemplo a seguir é usado neste tópico. Uma empresa vende camisetas nos tamanhos pequeno, médio, grande e extra grande. A camiseta é definida como um produto; os diferentes tamanhos são definidos como grades do produto. As camisetas são embaladas em caixas e uma caixa pode conter cinco camisetas, exceto no tamanho extra grande, em que há espaço para apenas quatro camisetas. A empresa deseja rastrear as diferentes grades das camisetas na unidade em **Peças** mas está vendendo as camisetas na unidade **Caixas**. A conversão entre a unidade de estoque e a unidade de venda é 1 caixa = 5 peças, exceto para a grade extra grande, onde a conversão é 1 caixa = 4 peças.
-
-## <a name="setup"></a>Instalação
-
-Você pode configurar parâmetros para usar o recurso para produtos habilitados para **Todos os processos** ou apenas para produtos habilitados para **Processos de depósito** usando a opção **Habilitar conversações de unidade de medida** na página **Parâmetros de informações do produto**.
 
 ### <a name="set-up-a-product-for-unit-conversion-per-variant"></a>Configurar um produto para a conversão de unidade por grade
 
 Grades de produto só podem ser criadas para o **Subtipo de produto**: **Produto mestre**. Para obter mais informações, consulte [Criar um produto mestre](tasks/create-product-master.md).
 
 O recurso não está habilitado para produtos configurados para processos de peso variável. 
-
-Durante a criação de uma produto mestre, habilite a conversão de unidade de medida usando a opção **Habilite as conversões de unidade de medida** na página **Detalhes do produto**.
 
 Quando o produto mestre com grades de produtos liberados for criado, as conversões de unidade por grades poderão ser configuradas. Você pode encontrar o item de menu para abrir a página de conversão de unidade no contexto de um produto ou de uma grade de produtos nas páginas a seguir.
 

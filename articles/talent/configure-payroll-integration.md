@@ -15,16 +15,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ec1d14cb14ab709dfc1bead4be0785904efcce4e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 075b2bdfa08bb190f66b6d60074e1263feedcf70
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251030"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898518"
 ---
-# <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>Configurar a integração da folha de pagamento entre o Talent e o Dayforce
-
-[!include [banner](includes/banner.md)]
+# <a name="configure-payroll-integration-between-talent-and-dayforce"></a>Configurar integração da folha de pagamento entre o Talent e o Dayforce
 
 A integração entre o Microsoft Dynamics 365 Talent e o Ceridian Dayforce depende de várias etapas de configuração descritas neste tópico. Você deve configurar a integração no Talent e no Dayforce antes de poder processar uma execução de pagamento.
 
@@ -310,7 +308,7 @@ As principais datas de um funcionário são derivadas usando-se as informações
 Um plano de remuneração fixa deve estar associado à posição principal de cada funcionário durante um período de emprego. Esse período tem início na data em que o funcionário foi contratado (ou na data de início do emprego) e continua até a rescisão.
 
 - Data de vigência (obrigatória)
-- Data de validade
+- Data de vencimento
 - Taxa de pagamento (obrigatória)
 - Conversões de taxa de pagamento (obrigatórias)
 - Equivalente anual (obrigatório)

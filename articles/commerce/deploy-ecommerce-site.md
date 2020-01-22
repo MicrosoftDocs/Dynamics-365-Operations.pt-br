@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c2632632b9b21dd3a88e9a4df0e65cfd28e579d2
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 10dab1e62446ff7f60ad48fd0841bde5cfd29e12
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697442"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945504"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Implantar um novo locatário de comércio eletrônico
 
@@ -88,16 +88,16 @@ Para acessar o ambiente de criação, vá para a guia **Comércio online** na p�
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral de loja online](online-store-overview.md)
+[Configure seu nome de domínio](configure-your-domain-name.md)
 
 [Criar um site de comércio eletrônico](create-ecommerce-site.md)
 
 [Associar um site online a um canal](associate-site-online-store.md)
 
-[Configure seu nome de domínio](configure-your-domain-name.md)
+[Gerenciar arquivos robots.txt](manage-robots-txt-files.md)
+
+[Configurar páginas personalizadas para logons dos usuários](custom-pages-user-logins.md)
 
 [Adicionar suporte para uma rede de entrega de conteúdo (CDN)](add-cdn-support.md)
 
 [Habilitar detecção de lojas com base na localização](enable-store-detection.md)
-
-[Configurar páginas personalizadas para logons dos usuários](custom-pages-user-logins.md)

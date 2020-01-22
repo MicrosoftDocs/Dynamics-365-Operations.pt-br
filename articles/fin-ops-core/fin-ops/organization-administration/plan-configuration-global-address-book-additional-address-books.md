@@ -3,7 +3,7 @@ title: Plano para o catálogo de endereços global e outros catálogos de endere
 description: Este tópico descreve as considerações e as alterações que você deve fazer durante o processo de planejamento, antes de definir e configurar o catálogo de endereços global e todos os catálogos de endereços adicionais.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 25a99284b2773e7c9d473357356c69a39f23c92d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 89c6e71e5f537f0f9309eca1025c8e74cdce6716
+ms.sourcegitcommit: 75bbcff474cfb8d2f282be2b9d2d7984d1505fa3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190019"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883402"
 ---
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>Plano do catálogo de endereços global e outros catálogos de endereços
 
@@ -35,7 +35,7 @@ Este tópico descreve as considerações e as alterações que você deve fazer 
 
 Antes de começar a trabalhar com o catálogo de endereços global, você deve determinar os valores padrão para ele. Os valores padrão são usado para todos os catálogos de endereços adicionais que você criar.
 
-**Decisões:**
+**Decisões**
 
 - Em que sequência os nomes que devem ser exibidos para os registros de participante do tipo **Pessoa**? Por exemplo, uma sequência é: último nome, nome do meio, e primeiro nome.
 - Os registros de participante devem ser excluídos do catálogo de endereços quando a função de registro for excluída? Por exemplo, se um registro de cliente for excluído, o registro de participante também deve ser excluído?
@@ -58,11 +58,3 @@ Após criar o catálogo de endereços global, você pode criar catálogos de end
 **Decisão:**
 
 - Quantos catálogos de endereços adicionais serão criados?
-
-### <a name="address-book-security"></a>Segurança do catálogo de endereços
-
-Você pode criar catálogos de endereços a qualquer momento, e também poderá definir parâmetros de segurança para eles sempre que desejar. Não é necessário definir privilégios de segurança para um catálogo de endereços, mas se não o fizer, todos os funcionários da organização poderão visualizar todos os registros de participante no catálogo de endereços. Você pode definir privilégios de segurança para registros de participante no catálogo de endereços. Os privilégios de segurança são baseados em equipes. Esta abordagem garante que somente os trabalhadores de uma equipe com acesso a um catálogo de endereços podem visualizar os registros de participante nesse catálogo de endereços. Você deve selecionar as equipes que têm acesso a cada catálogo de endereços. Para cada catálogo de endereços, você pode definir os privilégios de segurança que permitem ou negam o acesso a equipes específicas. Se você conceder a uma equipe privilégios a um catálogo de endereços, todos os membros da equipe poderão visualizar os registros do catálogo de endereços. Se você não conceder a uma equipe acesso a um catálogo de endereços, os membros dessa equipe não poderão visualizar o catálogo de endereços nem seu conteúdo.
-
-**Decisão:**
-
-- Quais equipes devem ter acesso a todos os novos catálogo de endereços que serão criados?

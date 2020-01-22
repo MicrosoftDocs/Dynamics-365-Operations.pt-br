@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 3bb61297e294aa3f2d06f542bebe29d7afae9c3b
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 6c8a583a93c2ceb70d8c3b0e0047e2bf2047b56d
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832829"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898308"
 ---
 # <a name="extend-talent-with-power-apps-and-power-automate"></a>Estender o Talent com o Power Apps e o Power Automate
-
-[!include [banner](includes/banner.md)]
 
 Este tópico descreve alguns exemplos de cenários de extensibilidade para o Microsoft Dynamics 365 Talent que usam o Microsoft Power Apps e o Microsoft Power Automate. Você pode importar o pacote da solução associado a cada exemplo para o seu ambiente do Power Apps. Depois, você pode usar os pacotes como orientação ou como pontos de partida para implementar cenários aplicáveis à sua organização.
 
@@ -108,7 +106,7 @@ Você pode usar o aplicativo Referral para adicionar candidatos a um grupo de ta
 
 Você pode incorporar este aplicativo no Autoatendimento para funcionários (ESS) para enviar indicações, ou pode usá-lo como um hiperlink no portal corporativo e executá-lo como um aplicativo autônomo.
 
-Para baixar o **Aplicativo Referral**, acesse a solução de extensibilidade do [Dynamics 365 Talent: aplicativo Referral](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) no Microsoft Download Center. Você pode importar este aplicativo e personalizá-lo para adicionar funcionalidade.
+Para baixar o **Aplicativo Referral**, acesse a solução de extensibilidade do [Dynamics 365 Talent: aplicativo Referral](https://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) no Microsoft Download Center. Você pode importar este aplicativo e personalizá-lo para adicionar funcionalidade.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

@@ -3,7 +3,7 @@ title: Opções avançadas de filtragem e sintaxe de consulta
 description: Este artigo descreve as opções de filtragem e consulta disponíveis quando você usa a caixa de diálogo Filtro/Classificação Avançada ou o operador correspondências no Painel de filtragem ou nos filtros de cabeçalho de coluna de grade.
 author: jasongre
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9e57cac740a26c6c5b451c92d856e533c6db33e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c5a96921436311440ba60c3fa31135457cf9f291
+ms.sourcegitcommit: 8585de8acf579bcc033671ef270fa9d92230121b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180820"
+ms.lasthandoff: 01/02/2020
+ms.locfileid: "2931279"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Sintaxe avançada de filtragem e consulta
 
@@ -114,6 +114,12 @@ Este artigo descreve as opções de filtragem e consulta disponíveis quando voc
 <td>Correspondendo aos valores separados por vírgulas</td>
 <td>Digite todos os critérios, e separe-os usando vírgulas.</td>
 <td><strong>A, D, F, G</strong> localiza exatamente &quot;A&quot;, &quot;D&quot;, &quot;F&quot; e &quot;G&quot;. <strong>10, 20, 30, 100</strong> localiza exatamente &quot;10, 20, 30, 100&quot;.</td>
+</tr>
+<tr>
+<td>"" (duas aspas duplas)</td>
+<td>Coincidir um valor em branco</td>
+<td>Digite duas aspas duplas consecutivas para filtrar valores em branco nesse campo.</td>
+<td>Duas aspas duplas consecutivas (<strong>""</strong>) localiza linhas sem nenhum valor para a coluna atual.</td>
 </tr>
 <tr>
 <td>(<span class="code">Instrução SQL</span>) (instrução SQL entre parênteses)</td>

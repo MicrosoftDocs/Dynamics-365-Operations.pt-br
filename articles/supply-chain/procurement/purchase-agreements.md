@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3f90e963341efe854270134988cfc51b5280bf4
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: abe921b8658322bcf77aeea8fa05843e539f97f8
+ms.sourcegitcommit: 523d22f31010339b4ff5b4fbe0a75aa909843ba6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813353"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "2902423"
 ---
 # <a name="purchase-agreements"></a>Contratos de compra
 
@@ -36,7 +36,14 @@ Os contratos de compra podem ser aplicados a uma quantidade específica de um pr
 
 Na página **Contratos de compra**, é possível criar, aplicar e acompanhar os contratos de compra existentes entre sua organização e seus fornecedores. Por exemplo, após criar um contrato de compra, você pode fazer pedidos diretamente usando ele. Cada contrato de compra tem um período de validade que é definido pela pessoa que o cria. A data de entrega de uma compra deve estar nas datas efetivas desse período de validade.  
 
-Depois de criar um contrato de compra, você deverá ativá-lo para que ele entre em vigor. Para ativar um contrato de compra, defina a opção **Marcar contrato como efetivo** como **Sim**.
+Depois de criar um contrato de compra, você deverá ativá-lo para que ele entre em vigor. Para ativar um contrato de compra, defina a opção **Marcar contrato como efetivo** como **Sim**. 
+
+Para impedir que seu contrato de compra seja usado e confirmado, marque o status do contrato como **Fechado**. Você ainda pode atualizar o status para **Efetivo** a qualquer momento depois de fazer esta alteração.
+
+## <a name="responsible-workers-on-purchase-agreements"></a>Trabalhadores responsáveis em contratos de compra
+
+Você pode identificar um trabalhador responsável principal e um trabalhador responsável secundário na classificação do contrato de compra. Esses valores serão herdados pelo contrato de compra resultante. Não é necessário adicionar trabalhadores responsáveis ao contrato de compra, e eles podem ser modificados diretamente a cada caso no próprio contrato de compra. Não é possível especificar um trabalhador responsável secundário sem um trabalhador responsável principal, embora você não precise ter um trabalhador responsável secundário. Não é possível especificar o mesmo trabalhador como o trabalhador responsável principal e secundário. 
+
 
 ## <a name="commitment-types"></a>Tipos de compromisso
 Cada linha em um contrato de compra é um compromisso para comprar algum item. É possível usar linhas de várias ordens de compra (OCs) para atender ao compromisso. Existem quatro tipos de compromisso:

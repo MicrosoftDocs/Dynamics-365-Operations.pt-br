@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.openlocfilehash: 2a245891e2e3e8c0eae4f28d0932776c3ee976dc
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 0f4d2b8e5f78c5815c5ad7e5eae0d13ad7d15c12
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832806"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898680"
 ---
 # <a name="formalize-business-processes"></a>Formalizar processos empresariais
-
-[!include [banner](includes/banner.md)]
 
 O recurso Processo comercial permite criar um modelo de processo comercial para processos comerciais que devem ser concluídos na sua organização. Por exemplo, sua empresa conclui uma auditoria de recursos humanos (RH) todo ano. Nesse caso, você pode criar um modelo que rastreia todas as tarefas do processo de auditoria. Esse modelo poderá então ajudar a garantir que todas as tarefas sejam realizadas sempre que a auditoria for realizada. Além disso, se as tarefas tiverem que ser concluídas em uma ordem específica, o modelo pode ajudar a garantir que sejam feitas na ordem correta.
 

@@ -1,9 +1,9 @@
 ---
 title: Requisitos de dimensionamento de hardware para ambientes locais
 description: Este tópico lista os requisitos de dimensionamento de hardware para um ambiente local.
-author: kfend
+author: sericks007
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 11/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 65f21d71c22d295902b968e6c18134e1577e01f2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 8fa644f35a086af99cde74fd6a2062f9b59a6ff7
+ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812548"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2870255"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Requisitos de dimensionamento de hardware para ambientes locais
 
@@ -137,7 +137,7 @@ Para a versão de disponibilidade geral, somente um nó do SSRS poderá ser impl
 
 ## <a name="environment-orchestrator"></a>Orchestrator no ambiente
 
-O serviço Orchestrator é o serviço que gerencia sua implantação e a comunicação relacionada com o LCS. Esse serviço é implantado como o serviço principal do Service Fabric e exige pelo menos três VMs. Esse serviço está localizado no mesmo lugar dos serviços de orquestração do Service Fabric. Isso deve ser ajustado à carga de pico do cluster. Para obter mais informações, veja [Considerações de planejamento de capacidade do cluster do Service Fabric](/azure/service-fabric/service-fabric-cluster-capacity).
+O serviço Orchestrator é o serviço que gerencia sua implantação e a comunicação relacionada com o LCS. Esse serviço é implantado como o serviço principal do Service Fabric e exige pelo menos três VMs. Esse serviço está localizado no mesmo lugar dos serviços de orquestração do Service Fabric. Isso deve ser ajustado à carga de pico do cluster. Para obter mais informações, consulte [Planejar e preparar sua implantação de cluster autônomo do Service Fabric](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>Virtualização e excesso de subscrição
 

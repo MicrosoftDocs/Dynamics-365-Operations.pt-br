@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 03853e1f80bd32c1dfe5cfcbcd77e79168f26249
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 7e32f408e5c68a3422906347981c6fc4a4579daf
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812298"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915238"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Visão geral da integração fiscal dos Canais de varejo
 
@@ -138,9 +138,14 @@ Os seguintes exemplos de integração fiscal estão disponíveis atualmente no S
 - [Exemplo de integração da impressora fiscal para a Polônia](emea-pol-fpi-sample.md)
 - [Integração de serviços de registro fiscal para a Áustria](emea-aut-fi-sample.md)
 - [Integração de serviços de registro fiscal para a República Tcheca](emea-cze-fi-sample.md)
+- [Exemplo de integração da unidade de controle para a Suécia](./emea-swe-fi-sample.md)
 
 A seguinte funcionalidade de integração fiscal também está disponível no SDK do Retail, mas atualmente não aproveita a estrutura de integração fiscal. A migração dessa funcionalidade para a estrutura de integração fiscal está planejada para atualizações posteriores.
 
-- [Funcionalidade de caixa registradora para a França](emea-fra-cash-registers.md)
-- [Funcionalidade de caixa registradora para a Noruega](emea-nor-cash-registers.md)
-- [Exemplo para integração do Retail POS com unidades de controle para a Suécia](./retail-sdk-control-unit-sample.md)
+
+- [Assinatura digital para a França](emea-fra-cash-registers.md)
+- [Assinatura digital para a Noruega](emea-nor-cash-registers.md)
+
+A seguinte funcionalidade de integração fiscal herdada que está disponível no SDK do Retail não usa a estrutura de integração fiscal e será preterida em atualizações posteriores:
+
+- [Exemplo de integração da unidade de controle para a Suécia (herdada)](./retail-sdk-control-unit-sample.md)

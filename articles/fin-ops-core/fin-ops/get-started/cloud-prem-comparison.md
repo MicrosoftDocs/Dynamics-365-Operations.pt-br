@@ -3,7 +3,7 @@ title: Comparação de recursos de nuvem e locais
 description: O tópico mostra quais recursos são suportados na Nuvem e locais.
 author: sericks007
 manager: AnnBe
-ms.date: 10/11/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 8fa5ff0de4e97d5dc178581f721f3a6ea72fc974
-ms.sourcegitcommit: 70c6257bd6833de3e8de34d9a7561088194e59cc
+ms.openlocfilehash: 7837fbaaffdbd61a1adce1698800017bf4f6a018
+ms.sourcegitcommit: 282552609fdb82ec4463f801023b4bc01bc151d5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "2573921"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935378"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Comparação de recursos de nuvem e locais
 
@@ -48,7 +48,7 @@ As tabelas a seguir listam as áreas do aplicativo. O suporte à nuvem e aos loc
 | Integração e gerenciamento de dados      |                                                                                           | Sim       | Sim             |
 |                                      | Extensão acionada pela configuração                                                            | Sim       | Não              |
 |                                      | Exportar dados para seu próprio depósito de dados                                                    | Sim       | Sim             |
-|                                      | Habilitar a exportação de atualizações incrementais para uma entidade de dados                                 | Sim       | Não              |
+|                                      | Habilitar a exportação de atualizações incrementais para uma entidade de dados                                 | Sim       | Sim              |
 |                                      | Integrações de dados                                                                         | Sim       | Sim             |
 | Gerenciamento de documentos                  |                                                                                           | Sim       | Sim             |
 | Gerenciamento financeiro                 |                                                                                           | Sim       | Sim             |
@@ -148,7 +148,7 @@ As tabelas a seguir listam as áreas do aplicativo. O suporte à nuvem e aos loc
 
 ## <a name="dynamics-365-retail"></a>Dynamics 365 Retail 
 
-Para ver uma lista de recursos de varejo disponíveis em implantações locais, consulte [Recursos de varejo disponíveis em implantações locais](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/PeterRFriis-patch-1/articles/retail/retail-onprem.md).
+Para ver uma lista de recursos de varejo disponíveis em implantações locais, consulte [Recursos de varejo disponíveis em implantações locais](../../../retail/retail-onprem.md).
 
 ## <a name="dynamics-365-talent"></a>Dynamics 365 Talent 
 

@@ -3,7 +3,7 @@ title: Gerenciamento de desempenho
 description: O processo de gerenciamento de desempenho permite que os funcionários documentem e discutam seu desempenho com os gerentes. Por sua vez, os gerentes podem fornecer comentários e orientações aos funcionários.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 05d8986d69abba4dbba7c30aad5a7e4626ceb5b1
-ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
+ms.openlocfilehash: 18e9606e62bc2739da99b75ab56161bd7cc7eafe
+ms.sourcegitcommit: 724b72412861d342c138a7935319da700b63c234
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1590496"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2921141"
 ---
 # <a name="performance-management"></a>Gerenciamento de desempenho
-
-[!include [banner](includes/banner.md)]
 
 O processo de gerenciamento de desempenho permite que os funcionários documentem e discutam seu desempenho com os gerentes. Por sua vez, os gerentes podem fornecer comentários e orientações aos funcionários.  
 
@@ -91,6 +89,8 @@ Para revisões mais detalhadas, você pode obter as metas ativas e as concluída
 É possível também usar a seção **Competências** para discutir, avaliar e classificar as competências do funcionário. Você pode adicionar quantas competências forem necessárias e pode escolher se a competência deve ser classificada. 
 
 Você pode criar novas revisões baseadas nos modelos que você criou. Por exemplo, você pode ter um modelo para revisões individuais, planos de desenvolvimento, ou revisões periódicas. É possível selecionar o modelo ao criar uma nova revisão.
+
+Para imprimir revisões, selecione o botão **Imprimir revisão**. Se você não vir o botão na página **Revisão**, certifique-se de ter habilitado o recurso no espaço de trabalho **Gerenciamento de recursos**. Para obter mais informações sobre o Gerenciamento de recursos, consulte [Visão geral do gerenciamento de recursos](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 
 ## <a name="components-you-can-include-in-performance-reviews"></a>Componentes que podem ser incluídos em revisões de desempenho
 Você poderá incluir vários tipos de informações em revisões de desempenho. Entre eles estão os detalhes da revisão, as medidas, as atividades, as classificações, as aprovações e os anexos.

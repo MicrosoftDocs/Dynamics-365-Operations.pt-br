@@ -3,7 +3,7 @@ title: Gerenciamento de preços de vendas para varejo
 description: Este tópico descreve os conceitos para criar e gerenciar os preços de venda do Dynamics 365 Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 081fadf0c120eba50af9e6c396fb3e492051bb3c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: d8c6f8d7d368be8ffa192f8dee6b46a753b04cad
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025209"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934762"
 ---
 # <a name="retail-sales-price-management"></a>Gerenciamento de preços de vendas de varejo
 
@@ -221,11 +221,11 @@ Um mecanismo de única definição de preços é usado para calcular preços de 
 
 O preço de varejo é criado para trabalhar com entidades de varejo, em vez das entidades não varejo. Especificamente, é criado para definir preços por loja, não por depósito.
 
-O mecanismo de preços de varejo não suporta os seguintes recursos de preços:
+O mecanismo de preços de varejo **não suporta** os seguintes recursos de preços:
 
-- Definição de preço usando as dimensões de armazenamento de Site e Depósito
-- Preço com base no atributo
-- Passagem de desconto do fornecedor
+- Não há suporte para a definição de preços por meio de dimensões de armazenamento do Local e Depósito. Se você especificar somente a dimensão do Site nos contratos comerciais, a definição de preços de varejo ignorará o Site e aplicará o contrato comercial a todos os sites. Se você especificar o Local e o Depósito, o comportamento será indefinido/não testado porque espera-se que os varejistas usem os grupos de preços de armazenamento para controlar os preços de cada loja/depósito.
+- A definição de preços com base no atributo não é suportada.
+- A passagem de desconto do fornecedor não é suportada.
 
 Além disso, **somente** o mecanismo de preço de varejo suporta os seguintes recursos de preços:
 

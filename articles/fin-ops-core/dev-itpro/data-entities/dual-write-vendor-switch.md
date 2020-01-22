@@ -1,6 +1,6 @@
 ---
 title: Alternar entre designs de fornecedor
-description: ''
+description: Este tópico descreve como alternar entre a integração de dados do fornecedor entre aplicativos do Finance and Operations e o Common Data Service.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 09/20/2019
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 4e97ff0b0e6195b5e3703e15a0bb0de7644ef8d1
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 204d788e72e79e7acf744d24cbeacb0f9b47da7d
+ms.sourcegitcommit: 3306e451f04df01c51d8d332306b135d8ae1e254
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772355"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "2902716"
 ---
 # <a name="switch-between-vendor-designs"></a>Alternar entre designs de fornecedor
 
@@ -34,11 +34,11 @@ ms.locfileid: "2772355"
 
 Se você usa outros aplicativos do Dynamics 365 para controlar os fornecedores e quer separar as informações de fornecedores das informações de clientes, utilize este design básico de fornecedor.  
 
-![Fluxo básico de fornecedores](media/dual-write-switch-1.png)
+![Fluxo básico de fornecedores](media/dual-write-vendor-data-flow.png)
  
 Se você usa outros aplicativos do Dynamics 365 para controlar os fornecedores e quer continuar usando a entidade **Conta** para armazenar informações de fornecedores, utilize este design de fornecedor estendido. Neste design, informações estendidas de fornecedores, como status em espera e o perfil do fornecedor, são armazenadas na entidade **fornecedores** do Common Data Service. 
 
-![Fluxo estendido de fornecedores](media/dual-write-switch-2.png)
+![Fluxo estendido de fornecedores](media/dual-write-vendor-detail.jpg)
  
 Siga as etapas abaixo para usar o design estendido de fornecedor: 
  
@@ -60,5 +60,5 @@ Siga as etapas abaixo para usar o design estendido de fornecedor:
     4. Você pode configurar os fluxos de trabalho como fluxos de trabalho em tempo real ou em segundo plano de acordo com seus requisitos. 
         > [!div class="mx-imgBorder"]
         > ![Converter para fluxo de trabalho em segundo plano](media/dual-write-switch-8.png)
-    5. Ative os fluxos de trabalho que você criou nas entidades **Conta** e **Fornecedor** para começar a usar a entidade **Conta** do Customer Engagement para armazenar informações de fornecedor. 
+    5. Ative os fluxos de trabalho que você criou nas entidades **Conta** e **Fornecedor** para começar a usar a entidade **Conta** para armazenar informações de fornecedor. 
  

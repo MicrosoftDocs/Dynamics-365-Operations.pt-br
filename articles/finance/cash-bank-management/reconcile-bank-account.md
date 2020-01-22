@@ -17,12 +17,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3e1281171a656a73a35d4990fd8a34b35c1c6db8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fdfc65d02d4468aee094a92e6760400c5e25af8f
+ms.sourcegitcommit: 2b09ad8aaaf9bc765f8abb0311a763c5e794a4d0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188271"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2888646"
 ---
 # <a name="reconcile-a-bank-account"></a>Reconciliar uma conta bancária
 
@@ -64,7 +64,7 @@ Não é possível reconciliar um extrato bancário com uma conta bancária se al
 
 8.  Para exibir as transações bancárias que ainda não foram reconciliadas, use o relatório **Transações bancárias não reconciliadas**. Para exibir o extrato bancário de uma conta, use o relatório **Extrato bancário**.
 
-# <a name="cancel-bank-statement-reconciliation"></a>Cancelar reconciliação de extrato bancário 
+## <a name="cancel-bank-statement-reconciliation"></a>Cancelar reconciliação de extrato bancário 
 
 A funcionalidade Cancelar reconciliação de extrato bancário permite cancelar a reconciliação de extrato bancário. Para usar esse recurso, habilite **Cancelar reconciliação de extrato bancário** no espaço de trabalho **Gerenciamento de recursos**. Também será necessário habilitar o parâmetro **Permitir edição de extrato bancário**. Para fazer isso, vá para **Gerenciamento de dinheiro e banco > Configuração > Parâmetros do gerenciamento de dinheiro e banco**.
  

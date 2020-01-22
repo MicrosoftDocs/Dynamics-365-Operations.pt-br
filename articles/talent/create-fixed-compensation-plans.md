@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 3a6e7556705249296d4f5e5fb56f25b444f8f71a
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: b564b9726939b12fa420b230f569f5c3cba19e87
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008142"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898401"
 ---
 # <a name="create-fixed-compensation-plans"></a>Criar planos de remuneração fixa.
-
-[!include [banner](includes/banner.md)]
 
 A remuneração fixa se refere ao salário bruto normal ou ao salário de um funcionário. Este tópico descreve os componentes que devem ser configurados antes de criar um plano de remuneração fixo e inserir os funcionários.
 

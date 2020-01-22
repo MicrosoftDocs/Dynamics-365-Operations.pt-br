@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a542d6987280451910b4ff3bcfb3a109a0e028c6
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: c5fb59a9798e2cddfb75b71235ee7754e54b0e28
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697603"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945757"
 ---
 # <a name="enable-location-based-store-detection"></a>Habilitar detecção de lojas com base na localização
 
@@ -50,16 +50,16 @@ Para ativar a detecção de loja baseada em local no Comércio, siga estas etapa
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral de loja online](online-store-overview.md)
-
-[Criar um site de comércio eletrônico](create-ecommerce-site.md)
+[Configure seu nome de domínio](configure-your-domain-name.md)
 
 [Implantar um novo site de comércio eletrônico](deploy-ecommerce-site.md)
 
+[Criar um site de comércio eletrônico](create-ecommerce-site.md)
+
 [Associar um site online a um canal](associate-site-online-store.md)
 
-[Configure seu nome de domínio](configure-your-domain-name.md)
-
-[Adicionar suporte para uma rede de entrega de conteúdo (CDN)](add-cdn-support.md)
+[Gerenciar arquivos robots.txt](manage-robots-txt-files.md)
 
 [Configurar páginas personalizadas para logons dos usuários](custom-pages-user-logins.md)
+
+[Adicionar suporte para uma rede de entrega de conteúdo (CDN)](add-cdn-support.md)

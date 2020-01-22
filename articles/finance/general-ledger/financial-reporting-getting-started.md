@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: caa449feba22c5804799b5317a8e29c139cc440e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f67296797d9a671ae071a13b1bbda73cf3fc6e7f
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176372"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915168"
 ---
 # <a name="financial-reporting-overview"></a>Visão geral de relatórios financeiros
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Este tópico descreve onde acessar relatórios financeiros e como usar os recursos de relatório financeiro. Ele também inclui uma descrição de relatórios financeiros padrão fornecidos.
 
@@ -79,6 +81,18 @@ As funções de relatórios financeiros estão disponíveis para os usuários qu
 | Exibir relatórios financeiros                | Rever o desempenho financeiro          | Nenhum atribuído                                                                   |
 
 Depois que um usuário é adicionado ou uma função é alterada, o usuário deve acessar os relatórios financeiros em alguns minutos. **Observação:** A função sysadmin foi adicionada a todas as funções no relatório financeiro.
+
+## <a name="report-deletions-and-expirations"></a>Exclusão e vencimento de relatórios
+Os usuários que geram um relatório podem excluir seus próprios relatórios. Os usuários com a obrigação **Manter a segurança de relatórios financeiros** podem excluir os relatórios de outros usuários. 
+
+A partir da versão 10.0.7, o conceito de datas de vencimento foi introduzido. Um novo recurso obrigatório será habilitado no espaço de trabalho de gerenciamento de recursos. Esse recurso contém as seguintes alterações:
+* Os relatórios recém-gerados serão automaticamente marcados como tendo uma data de vencimento de 90 dias a partir do momento em que forem gerados.
+* Todos os relatórios existentes antes da instalação do recurso receberão um período de vencimento de 90 dias. A data pode aparecer em branco por um breve período de tempo até que o serviço de relatórios financeiros esteja em execução, um relatório seja gerado e o serviço execute a atualização em relatórios existentes com uma data de vencimento em branco. 
+* Os usuários com **Manter a segurança de relatórios financeiros** têm acesso a essa funcionalidade. Todos os usuários na obrigação **Manter relatórios financeiros** que tenham recebido o privilégio **Manter vencimento de relatórios financeiros** também terão a capacidade de modificar o período de vencimento. No momento, há duas opções de retenção disponíveis - 
+  * Um vencimento de 90 dias
+  * Uma opção para configurar o relatório para nunca vencer
+
+Quando um vencimento como 90 dias é selecionado, ele concede 90 dias a partir de hoje, o que é um comportamento diferente dos 90 dias a partir da data de geração original configurados durante a geração do relatório. 
 
 ## <a name="default-reports"></a>Relatórios padrão
 Os relatórios financeiros fornecem 22 relatórios financeiros padrão. Cada relatório usa as categorias de conta principal padrão. Você pode usar esses relatórios da forma como são ou como um ponto de partida para os relatórios financeiros necessários. Além dos demonstrativos financeiros tradicionais, como o demonstrativo de renda e o balanço, esses relatórios incluem relatórios que mostram os diferentes tipos de relatórios financeiros que você pode criar. 

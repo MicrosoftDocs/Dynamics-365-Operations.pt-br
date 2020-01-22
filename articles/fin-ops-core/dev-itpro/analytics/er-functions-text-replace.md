@@ -1,0 +1,84 @@
+---
+title: Função de ER REPLACE
+description: Este tópico fornece informações sobre como a função de relatório eletrônico (ER) REPLACE é usada.
+author: NickSelin
+manager: kfend
+ms.date: 12/10/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-platform
+ms.technology: ''
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+audience: Application User, IT Pro
+ms.reviewer: kfend
+ms.search.scope: Core, Operations
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.region: Global
+ms.author: nselin
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d9c66f4c96f35e3ad5fc92e7925b5cd07c956aac
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2916858"
+---
+# <a name="REPLACE">Função de ER REPLACE</a>
+
+[!include [banner](../includes/banner.md)]
+
+A função `REPLACE` retorna a cadeia de caracteres de texto especificada como um valor de *Cadeia de caracteres* após toda ou parte dela ser substituída por outra cadeia de caracteres.
+
+## <a name="syntax"></a>Sintaxe
+
+```
+REPLACE (text, pattern, replacement, regular expression flag)
+```
+
+## <a name="arguments"></a>Argumentos
+
+`text`: *Cadeia de caracteres*
+
+O caminho válido de uma fonte de dados do tipo *Cadeia de caracteres*.
+
+`pattern`: *Cadeia de caracteres*
+
+Se o argumento `regular expression flag` for **FALSE**, este argumento conterá o texto que deve ser substituído.
+
+Se o argumento `regular expression flag` for **TRUE**, este argumento conterá uma expressão regular que define um padrão de pesquisa e o texto substituto.
+
+`replacement`: *Cadeia de caracteres*
+
+Se o argumento `regular expression flag` for **FALSE**, este argumento conterá o texto a ser usado como substituto.
+
+Se o argumento `regular expression flag` for **TRUE**, este argumento não será usado.
+
+`regular expression flag`: *Booliano*
+
+Um valor *Booliano* que indica se uma expressão regular é usada para fazer a substituição.
+
+## <a name="return-values"></a>Valores de retorno
+
+*Cadeia de caracteres*
+
+O valor de texto resultante.
+
+## <a name="usage-notes"></a>Notas de uso
+
+Se o argumento `regular expression flag` for **TRUE**, esta função retornará a cadeia de caracteres especificada depois de ter sido alterada, aplicando a expressão regular especificada pelo argumento `pattern`. A expressão regular é usada para encontrar os caracteres que devem ser substituídos.
+
+Se o argumento `regular expression flag` for **FALSE**, esta função se comportará como [TRANSLATE](er-functions-text-translate.md). Os caracteres especificados pelo argumento `replacement` são usados para substituir os caracteres que são encontrados. 
+
+## <a name="example-1"></a>Exemplo 1
+
+`REPLACE ("+1 923 456 4971", "[^0-9]", "", true)` aplica uma expressão regular que remove todos os símbolos não numéricos e retorna **"19234564971"**. 
+
+## <a name="example-2"></a>Exemplo 2
+
+`REPLACE ("abcdef", "cd", "GH", false)` substitui o padrão **"cd"** pela cadeia de caracteres **"GH"** e retorna **"abGHef"**.
+
+## <a name="additional-resources"></a>Recursos adicionais
+
+[Funções de texto](er-functions-category-text.md)

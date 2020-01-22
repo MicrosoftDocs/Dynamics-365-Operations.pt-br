@@ -3,7 +3,7 @@ title: Configurar páginas personalizadas para entradas dos usuários
 description: Este tópico descreve como criar páginas personalizadas no Microsoft Dynamics 365 Commerce que manipula inscrições personalizadas para usuários nos locatários de business-to-consumer (B2C) do Azure Active Directory (Azure AD).
 author: brianshook
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 644d937ddd3c219ae869f22d977d2846dffc20e1
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 20bfacbc2374003814e12e7737644d118d404cc0
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697534"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945550"
 ---
 # <a name="set-up-custom-pages-for-user-logins"></a>Configurar páginas personalizadas para logons dos usuários
 
@@ -136,11 +136,11 @@ Para atualizar a política "Se inscrever e entrar" com informações de página 
 1. Na política **Se inscrever e entrar** que você configurou anteriormente, no painel de navegação, selecione **Layouts de página**.
 1. Selecione o layout **Unificar entrada ou inscrição na página**.
 1. Defina a opção **Usar conteúdo de página personalizado** como **Sim**.
-1. No campo **URL de página personalizada**, insira a URL de entrada completa. Inclua o sufixo **?preloadscripts=true**. Por exemplo, insira **www.\<my domain\>.com/sign-in?preloadscripts=true**.
+1. No campo **URL de página personalizada**, insira a URL de entrada completa. Inclua o sufixo **?preloadscripts=true**. Por exemplo, insira ``www.<my domain>.com/sign-in?preloadscripts=true``.
 1. No campo **Versão de layout de página (visualização)**, selecione **1.2.0**.
 1. Selecione o layout **Página de inscrição de conta local**.
 1. Defina a opção **Usar conteúdo de página personalizado** como **Sim**.
-1. No campo **URL de página personalizada**, insira a URL de entrada completa. Inclua o sufixo **?preloadscripts=true**. Por exemplo, insira **www.\<my domain\>.com/sign-in?preloadscripts=true**.
+1. No campo **URL de página personalizada**, insira a URL de entrada completa. Inclua o sufixo **?preloadscripts=true**. Por exemplo, insira ``www.<my domain>.com/sign-up?preloadscripts=true``.
 1. No campo **Versão de layout de página (visualização)**, selecione **1.2.0**.
 1. Na seção **Atributos de usuário**, siga estas etapas:
 
@@ -156,7 +156,7 @@ Para atualizar a política "Edição de perfil" com informações de página per
 1. Na política **Edição de perfil** que você configurou anteriormente, no painel de navegação, selecione **Layouts de página**.
 1. Selecione o layout **Página de edição de perfil**.
 1. Defina a opção **Usar conteúdo de página personalizado** como **Sim**.
-1. No campo **URL de página personalizada**, insira a URL de entrada completa. Inclua o sufixo **?preloadscripts=true**. Por exemplo, insira **www.\<my domain\>.com/sign-in?preloadscripts=true**.
+1. No campo **URL de página personalizada**, insira a URL de edição de perfil completa. Inclua o sufixo **?preloadscripts=true**. Por exemplo, insira ``www.<my domain>.com/profile-edit?preloadscripts=true``.
 1. No campo **Versão de layout de página (visualização)**, selecione **1.2.0**.
 1. Na seção **Atributos de usuário**, siga estas etapas:
 
@@ -170,12 +170,14 @@ Para atualizar a política "Redefinir senha" com informações de página person
 1. Na política **Redefinir senha** que você configurou anteriormente, no painel de navegação, selecione **Layouts de página**.
 1. Selecione o layout **Nova página de senha**.
 1. Defina a opção **Usar conteúdo de página personalizado** como **Sim**.
-1. No campo **URL de página personalizada**, insira a URL de entrada completa. Inclua o sufixo **?preloadscripts=true**. Por exemplo, insira **www.\<my domain\>.com/sign-in?preloadscripts=true**.
+1. No campo **URL de página personalizada**, insira a URL de redefinição de senha completa. Inclua o sufixo **?preloadscripts=true**. Por exemplo, insira ``www.<my domain>.com/passwordreset?preloadscripts=true``.
 1. No campo **Versão de layout de página (visualização)**, selecione **1.2.0**.
 1. Selecione o layout **Página de verificação de conta**.
 1. Defina a opção **Usar conteúdo de página personalizado** como **Sim**.
-1. No campo **URL de página personalizada**, insira a URL de entrada completa. Inclua o sufixo **?preloadscripts=true**. Por exemplo, insira **www.\<my domain\>.com/sign-in?preloadscripts=true**.
+1. No campo **URL de página personalizada**, insira a URL de verificação redefinição de senha completa. Inclua o sufixo **?preloadscripts=true**. Por exemplo, insira ``www.<my domain>.com/passwordreset-verification?preloadscripts=true``.
 1. No campo **Versão de layout de página (visualização)**, selecione **1.2.0**.
+
+
 
 ## <a name="customize-default-text-strings-for-labels-and-descriptions"></a>Personalizar caracteres de texto padrão e rótulos para descrições
 
@@ -193,15 +195,15 @@ Depois de atualizar o arquivo global.json e publicar suas alterações, o novo t
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral de loja online](online-store-overview.md)
-
-[Criar um site de comércio eletrônico](create-ecommerce-site.md)
+[Configure seu nome de domínio](configure-your-domain-name.md)
 
 [Implantar um novo site de comércio eletrônico](deploy-ecommerce-site.md)
 
+[Criar um site de comércio eletrônico](create-ecommerce-site.md)
+
 [Associar um site online a um canal](associate-site-online-store.md)
 
-[Configure seu nome de domínio](configure-your-domain-name.md)
+[Gerenciar arquivos robots.txt](manage-robots-txt-files.md)
 
 [Adicionar suporte para uma rede de entrega de conteúdo (CDN)](add-cdn-support.md)
 

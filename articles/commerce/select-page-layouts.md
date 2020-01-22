@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b1609927ed47ac90226967eba6950f8eb20e9fdb
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 8f86a0b651bfa16aeb1c483daceed321699ead83
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697764"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945642"
 ---
 # <a name="select-page-layouts"></a>Selecionar layouts de página
 
@@ -73,4 +73,6 @@ Para selecionar um layout diferente para uma página existente, siga estas etapa
 [Enriquecer uma página de produto](enrich-product-page.md)
 
 [Enriquecer uma página de aterrissagem da categoria](enrich-category-page.md)
+
+[Verificar acessibilidade de conteúdo da página](verify-accessibility.md)
 

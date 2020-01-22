@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 242e9fd5fd4b22f3081367cf33ff18ff5e4174a5
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: bc392c965a0d3bc308e0396263e84ecf1e713491
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814734"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898354"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Distribuir e planejar questionários
-
-[!include [banner](includes/banner.md)]
 
 Este tópico explica como distribuir os questionários criados por você, de modo que sejam disponibilizados para a pessoa ou grupo de pessoas que os preencherão. 
 

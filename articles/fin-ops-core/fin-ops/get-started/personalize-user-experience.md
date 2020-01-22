@@ -3,7 +3,7 @@ title: Personalizar a experiência do usuário
 description: Este tópico explica como você pode personalizar o aplicativo.
 author: jasongre
 manager: AnnBe
-ms.date: 10/16/2019
+ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3cf2b82470887ee617704b72e47a53d299911e3
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: ac8f154fdf892553f69d135727589bf13efd6076
+ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811522"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935456"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar a experiência do usuário
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Este tópico explica como você pode personalizar o aplicativo.
 

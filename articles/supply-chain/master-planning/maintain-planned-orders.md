@@ -3,7 +3,7 @@ title: Manter ordens planejadas
 description: Este tópico fornece informações sobre como gerenciar ordens planejadas. Descreve como é possível atualizar o status de ordens planejadas, confirmá-las e filtrar ordens planejadas com o mesmo status como uma ordem planejada selecionada.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 11/07/2019
+ms.date: 12/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68bccb632255eac975dc150cf322d4c579ff2f24
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: ec67caf596b0efc256c957eca17a04509fe86855
+ms.sourcegitcommit: 274ff2bb6872ff714781b348b29fd9f1affff9d0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813767"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "2904027"
 ---
 # <a name="maintain-planned-orders"></a>Manter ordens planejadas
 
@@ -39,7 +39,7 @@ Você pode usar o campo **Status** para ajudar a acompanhar seu progresso. Os se
 
 -   Quando o planejamento mestre gerar ordens planejadas, elas terão o status **Não processado**.
 -   Se você optar por não confirmar uma ordem planejada, poderá atribuir a ela o status **Concluído**.
--   Se você desejar confirmar uma ordem planejada, poderá alterar o status para **Aprovado**. As ordens planejadas com o status **Aprovada** são respeitadas pelo planejamento mestre e, portanto, não são modificadas nem excluídas durante uma execução de um planejamento mestre posterior. 
+-   Se você desejar confirmar uma ordem planejada, poderá alterar o status para **Aprovado**. As ordens planejadas com o status **Aprovada** são respeitadas pelo planejamento mestre e, portanto, não são modificadas nem excluídas durante uma execução de um planejamento mestre posterior. Para fazer isso, a lógica de planejamento copia as ordens planejadas **Aprovadas** da versão anterior do plano para a nova versão do plano durante o planejamento mestre.
 
 ## <a name="firming-planned-orders"></a>Confirmar ordens planejadas 
 Ao confirmar ordens planejadas, ordens reais são criadas. Elas também são conhecidas como *ordens em aberto* ou *liberadas*. Ao ser confirmada, uma ordem planejada é movida para a seção de ordens do módulo relevante.
@@ -58,6 +58,8 @@ Se você estiver planejando confirmar várias ordens ao mesmo tempo, a paraleliz
 -   **Paralelizar confirmação** – Se estiver definido como **Sim**, o processo de confirmação será paralelizado com o número de threads definido em **Número de threads**.
 -   **Número de threads** – Controla o número de threads usado para paralelizar o processo de confirmação. O parâmetro será exibido somente quando **Paralelizar confirmação** estiver definido como **Sim**.
 
+> [!NOTE]
+> A opção para **Paralelizar confirmação** só é mostrada quando você tem mais de uma ordem planejada selecionada para confirmação.
 
 <a name="additional-resources"></a>Recursos adicionais
 --------

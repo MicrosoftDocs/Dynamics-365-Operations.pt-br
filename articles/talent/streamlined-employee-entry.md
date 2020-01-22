@@ -18,20 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent October 2019 update
-ms.openlocfilehash: 40bbb8429355fa18fe12c7cf56f8d58f19766cad
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 35cceb97442b05abc243cf7341e0ce7a0d09c613
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009413"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915192"
 ---
 # <a name="streamlined-employee-entry-and-navigation"></a>Entrada e navegação simplificada de funcionário
 
-[!include [banner](includes/banner.md)]
-
 O Dynamics 365 Talent permite a entrada eficiente do funcionário e dos dados de emprego. Você pode atualizar rapidamente as informações de histórico de trabalho para funcionários e prestadores de serviço do passado, ativos e futuros.
 
-Você também pode habilitar uma experiência de navegação simplificada para localizar informações relacionadas rapidamente e fazer as alterações necessárias. Esta funcionalidade agora está disponível em ambientes de área restrita. Para ativar este recurso, navegue até **Administração do sistema > Links > Configuração > Parâmetros do sistema > Recursos de visualização**. Selecione **Formulário e a navegação aprimorados do Trabalhador**. Isso habilitará estas alterações para todos os usuários. Você pode desativar esta opção a qualquer momento.
+Você também pode habilitar uma experiência de navegação simplificada para localizar informações relacionadas rapidamente e fazer as alterações necessárias. Agora, esta funcionalidade está disponível em todos os ambientes. Para ativar esse recurso, navegue até **Administração do sistema > Gerenciamento de recursos > Novo > Entrada simplificada de funcionário > Habilitar**. Isso habilitará estas alterações para todos os usuários. Você pode desativar esta opção a qualquer momento.
 
 ## <a name="view-options"></a>Opções de exibição
 
