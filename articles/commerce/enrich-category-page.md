@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8d735b215132b90ca786d6967589496bee73f4d9
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 4ab152dff0925f9c816419083577b5272ac813be
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697580"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945764"
 ---
 # <a name="enrich-a-category-landing-page"></a>Enriquecer uma página de aterrissagem da categoria
 
@@ -65,3 +65,5 @@ Para enriquecer uma pagina de categoria, siga este procedimento.
 [Salvar, visualizar, e publicar uma página](save-preview-publish-page.md)
 
 [Enriquecer uma página de produto](enrich-product-page.md)
+
+[Verificar acessibilidade de conteúdo da página](verify-accessibility.md)

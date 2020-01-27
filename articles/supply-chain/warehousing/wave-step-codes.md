@@ -18,19 +18,17 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0f89c6098db9e2e3a9aa4ee3666e4b9ae608f054
-ms.sourcegitcommit: d8f1135cdbc2deca70bc4b2805a0519253c9a31f
+ms.openlocfilehash: 1a1a32495b63a5a67a49bf3b02710aba63c1e2f0
+ms.sourcegitcommit: bfd6142569196a060e3f37893c78f00c40a2a18c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1992348"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2946181"
 ---
 # <a name="wave-step-codes"></a>Códigos da etapa da onda
 
 [!include [banner](../includes/preview-banner.md)]
 [!include [banner](../includes/banner.md)]
-
-## <a name="about-wave-step-codes"></a>Sobre códigos da etapa da onda
 
 Os códigos da etapa da onda são códigos que os usuários podem configurar e usar para vincular instâncias específicas de métodos da onda a um modelo correspondente. Os modelos incluem modelos para reabastecimento, transporte em contêineres, impressão de etiquetas, criação de carga e classificação.
 
@@ -39,7 +37,7 @@ Quando os códigos da etapa da onda não forem usados, os usuários deverão ins
 Os códigos da etapa da onda para um tipo específico da etapa da onda são configurados em uma página separada. Para cada instância de método da etapa da onda em um modelo da onda que requer um código da etapa da onda, o código da etapa da onda deve ser selecionado na lista suspensa. A seleção na lista suspensa substitui a entrada de texto livre e ajuda a reduzir o risco e o impacto de erros humanos. Códigos de configuração são usados para vincular um método da etapa da onda a um modelo de destino da onda para o método.
 
 > [!NOTE]
-> O uso do recurso de códigos da etapa da onda é opcional, e a aceitação é por entidade legal. Portanto, se uma pessoa jurídica específica usar o recurso, todos os códigos existentes de etapa da onda na entidade legal serão atualizados para a nova estrutura.
+> O uso do recurso códigos de etapa da onda é opcional. Ela é habilitada em toda a organização para todas as entidades legais.
 
 ## <a name="setup-demo"></a>Demonstração de instalação 
 
@@ -49,20 +47,20 @@ Para esta demonstração, os dados de demonstração devem ser instalados, e voc
 
 Siga estas etapas para ativar o recurso de códigos da etapa da onda.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
-2. Na guia **Geral**, na guia rápida **Processamento da onda** , defina a opção **Habilitar códigos da etapa da onda** como **Sim**.
+1. Vá para **Gerenciamento de Recursos**.
+2. Selecione para habilitar o recurso chamado **Código de Etapa de Onda para Toda a Organização**.
 
-Todos os textos livres da etapa da onda existentes são atualizados para a nova estrutura. Depois que essa atualização for executada para uma entidade legal, a opção **Habilitar códigos da etapa da onda** não estará mais disponível na página **Parâmetros de gerenciamento de depósito**.
+Todos os textos livres da etapa da onda existentes em todas as entidades legais são atualizados para a nova estrutura. Depois que essa atualização for concluída para todas as entidades legais, o recurso será habilitado. Se o recurso não puder ser habilitado para uma ou mais entidades legais, o recurso não estará habilitado para nenhuma entidade legal.
 
-Validações são feitas durante a atualização, e, se a atualização falhar, você receberá uma mensagem de erro. Uma atualização pode falhar devido aos seguintes conflitos:
+Durante a habilitação, serão feitas validações durante a atualização de dados. Se a atualização falhar, você receberá uma mensagem de erro. Uma atualização pode falhar devido aos seguintes conflitos:
 
 - Existem textos livres da etapa da onda.
 - Existem Personalizações.
 - Um texto livre da etapa da onda que é associado a uma instância de método da etapa da onda não corresponde ao tipo de modelo esperado.
 
-Depois de resolver os conflitos identificados durante validações, você pode executar novamente o processo de atualização.
+Depois de resolver os conflitos identificados durante validações, você pode tentar habilitar o recurso.
 
-Quando a atualização for bem-sucedida, a página **Códigos da etapa da onda** (**Gerenciamento de depósito \> Configuração \> Ondas \> Códigos da etapa da onda**) será disponibilizada. Esta página lista os códigos da etapa da onda que foram atualizados quando o recurso de códigos da etapa da onda foi ativado.
+Quando o recurso for habilitado, a página **Códigos da etapa da onda** (**Gerenciamento de depósito \> Configuração \> Ondas \> Códigos da etapa da onda**) ficará disponível. Esta página lista os códigos da etapa da onda que foram atualizados quando o recurso Código de Etapa de Onda para Toda a Organização for habilitado.
 
 ### <a name="create-new-wave-step-codes"></a>Criar novos códigos da etapa da onda
 
@@ -94,3 +92,5 @@ O procedimento a seguir ajuda a garantir que o método de reabastecimento criado
 4. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos da onda** e selecione o modelo da onda que você deseja usar.
 5. No modelo, na guia rápida **Métodos**, selecione o método **Reabastecimento**.
 6. No campo **Código da etapa da onda**, selecione o código da etapa da onda selecionada no modelo de reabastecimento.
+
+Essas etapas são executadas para cada entidade legal.

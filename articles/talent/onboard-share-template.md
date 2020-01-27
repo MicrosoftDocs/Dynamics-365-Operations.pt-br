@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ee86f52a2e1c697d71549a39d9eb86bac33d9ff2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 474c7cc82aaccf6b3bcfb3bbe879725497961c43
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812824"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897131"
 ---
-# <a name="share-content-with-other-contributors-in-dynamics-365-talent---onboard"></a>Compartilhar conteúdo com outros colaboradores no Dynamics 365 Talent - Onboard
+# <a name="share-content-with-other-contributors"></a>Compartilhar conteúdo com outros contribuintes
 
 [!include [banner](includes/banner.md)]
 
@@ -34,7 +34,7 @@ O Microsoft Dynamics 365 Talent: Onboard permite compartilhar guias e modelos de
 1. No menu esquerdo, selecione **Guias** e depois a guia que você deseja compartilhar.
 2. Selecione o botão **Mais** (os três pontos verticais) no canto superior direito da página e depois **Compartilhar**.
 
-    ![[Compartilhando um guia de integração com outros trabalhadores](./media/onboard-share-guide.png)](./media/onboard-share-guide.png)
+    ![[Compartilhando um guia de integração com outros colaboradores](./media/onboard-share-guide.png)](./media/onboard-share-guide.png)
 
 3. Em **Compartilhar com**, se os destinatários puderem revisar o guia, defina a opção **Essas pessoas podem editar?** como **Ativada**. Se os destinatários tiverem que ser notificados por email de que você compartilhou o guia com eles, defina a opção **Enviar notificação por email para os destinatários** como **Ativado**.
 

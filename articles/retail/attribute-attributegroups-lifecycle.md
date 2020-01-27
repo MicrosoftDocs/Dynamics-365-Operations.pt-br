@@ -1,5 +1,5 @@
 ---
-title: Atributos e grupos de atributos
+title: Gerenciar atributos e grupos de atributos
 description: Este tópico descreve como usar atributos para fornecer uma forma de descrever um produto e suas características por meio de campos definidos pelo usuário.
 author: ashishmsft
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: c642e4f1b29ac21b6736e770c84f343e9265961d
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 5ba273265b677f71762c8beae3561712efb92645
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023627"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915263"
 ---
-# <a name="attributes-and-attribute-groups"></a>Atributos e grupos de atributos
+# <a name="manage-attributes-and-attribute-groups"></a>Gerenciar atributos e grupos de atributos
 
 [!include [banner](includes/banner.md)]
 

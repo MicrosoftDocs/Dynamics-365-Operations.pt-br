@@ -3,12 +3,12 @@ title: Identificadores do produto
 description: Este tópico fornece informações sobre os vários tipos de identificadores de produtos e explica como adicioná-los aos dados de produtos.
 author: cvocph
 manager: AnnBe
-ms.date: 03/23/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResProductEntityIdentifierCode
+ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 68be63370eca0089649c47de0ba0bc9bd335b905
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3199bccca19ab8ee4d7503e4a8443fcb05acbb1b
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250590"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934877"
 ---
 # <a name="product-identifiers"></a>Identificadores do produto 
 
@@ -43,6 +43,9 @@ Em muitos casos, o número do produto não é criado originalmente no Dynamics 3
 Ao implementar o Supply Chain Management, você deve dar atenção especial à sua estratégia de números de produto. Um bom sistema de numeração melhora os fluxos de logística e ajuda a evitar erros. Um bom identificador de produto tem no máximo 15 caracteres. O ideal é que tenha menos de 10 caracteres e que não inclua mais do que cinco caracteres de classificação. Você também pode usar nomes de pesquisa para habilitar pesquisas rápidas. Um nome de pesquisa é um nome adicional que representa as classificações de um produto.
 
 Quando usar o Common Data Service, o número do produto no Supply Chain Management também será o número do produto no Common Data Service. As grades de produtos são sincronizadas no Common Data Service como produtos distintos.
+
+> [!NOTE]
+> O número do produto não pode começar com "%".
 
 ## <a name="item-number-and-product-dimensions"></a>Número do item e dimensões do produto
 

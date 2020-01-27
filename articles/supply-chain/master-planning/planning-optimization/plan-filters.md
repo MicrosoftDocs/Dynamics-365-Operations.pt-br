@@ -3,7 +3,7 @@ title: Aplicar filtros a um plano
 description: Este tópico explica como usar filtros em um plano quando a funcionalidade Otimização de Planejamento for usada.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/30/2019
+ms.date: 01/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,21 +19,23 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: ff9c9f875368fcc4dd62b9c188d489e20a5c7960
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 9d1431cc8db6fb28d1f1ec73ee07dd15e78f82e8
+ms.sourcegitcommit: 65f4b8a751670a7fe9ef4cb8b218213f792d57a2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773903"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945410"
 ---
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
 
 # <a name="apply-filters-to-a-plan"></a>Aplicar filtros a um plano
 
-Quando a funcionalidade Otimização de Planejamento for usada, você poderá aplicar um filtro a um plano. O filtro de plano sempre será aplicado durante a execução de um planejamento mestre. Um filtro de plano é útil quando você deseja limitar um plano a um grupo de itens específico e garantir que nenhum outro item seja incluído como parte do planejamento mestre resultante.
+Quando a funcionalidade Otimização de Planejamento for usada, você poderá aplicar um filtro a um plano. O **Filtro do plano** sempre será aplicado durante uma execução de planejamento mestre. Um **Filtro do plano** é útil quando você deseja limitar um plano a um grupo de itens específico e garantir que nenhum outro item seja incluído como parte do planejamento mestre resultante.
 
-Se um filtro de plano for aplicado, e um filtro de runtime também é aplicado durante a execução do planejamento mestre, somente a interseção dos dois filtros será incluída na execução do planejamento.
+Se um **Filtro do plano** for aplicado, e um filtro de runtime também for aplicado durante a execução do planejamento mestre, somente a interseção dos dois filtros será incluída na execução do planejamento.
+
+O **Filtro do plano** pode ser acessado dos **Planos mestre** quando a Otimização de Planejamento for usada.
 
 ## <a name="example-scenario"></a>Cenário de exemplo
 

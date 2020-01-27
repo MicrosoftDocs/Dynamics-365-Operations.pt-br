@@ -3,7 +3,7 @@ title: Configuração da previsão de demanda
 description: Este tópico descreve as tarefas de configuração que devem ser executadas para preparar a previsão de demanda.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 09/16/2017
+ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 048b0e8e57211893cae538fae20e87186399dd38
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: f56157be8cc61486801fc4c01bb191432dd9a541
+ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813790"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935482"
 ---
 # <a name="demand-forecasting-setup"></a>Configuração da previsão de demanda
 
@@ -63,7 +63,7 @@ A qualquer momento, você pode adicionar dimensões de previsão à lista de dim
 
 Nem todos os itens se comportam da mesma forma sob uma perspectiva de previsão de demanda. Os itens semelhantes podem ser agrupados em uma única chave de alocação de item, e os parâmetros, como os tipos de transação e as configurações de método de previsão, podem ser definidos por chave de alocação de item. Clique em **Chaves de alocação de itens** no painel esquerdo da página **Parâmetros de previsão de demanda**. 
 
-Para gerar a previsão, o Supply Chain Management usa um serviço Web de Aprendizado de Máquina. Para se conectar ao serviço, você deve fornecer as seguintes informações se entrar no Microsoft Azure Machine Learning Studio:
+Para gerar a previsão, o Supply Chain Management usa um serviço Web de Aprendizado de Máquina. Para se conectar ao serviço, você deve fornecer as seguintes informações se entrar no Microsoft Azure Machine Learning Studio (clássico):
 
 -   Chave da API (interface de programação de aplicativos) do serviço Web
 -   URL do ponto de extremidade do serviço Web
@@ -71,7 +71,7 @@ Para gerar a previsão, o Supply Chain Management usa um serviço Web de Aprendi
 -   Chave da conta de armazenamento do Azure
 
 > [!NOTE]
-> O nome e a chave da conta de armazenamento do Azure serão necessários apenas se você usar uma conta de armazenamento personalizada. Se você implantar a versão local, deverá ter uma conta de armazenamento personalizada no Azure, para que o serviço de Aprendizado de Máquina acesse os dados históricos. 
+> O nome e a chave da conta de armazenamento do Azure serão necessários apenas se você usar uma conta de armazenamento personalizada. Se você implantar a versão local, deverá ter uma conta de armazenamento personalizada no Azure, para que o Aprendizado de Máquina acesse os dados históricos. 
 
 Para criar previsões de demanda, você pode implantar seu próprio serviço usando os experimentos de previsão de demanda do Estúdio de Aprendizado de Máquina ou do Supply Chain Management. As instruções para implantar os experimentos de previsão de demanda como um serviço Web estão disponíveis no Supply Chain Management. Na página **Parâmetros de previsão de demanda**, clique na guia **Aprendizado de Máquina do Azure**.
 

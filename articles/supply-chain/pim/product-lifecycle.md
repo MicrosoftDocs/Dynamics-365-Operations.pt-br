@@ -3,7 +3,7 @@ title: Visão geral do estado do ciclo de vida do produto
 description: O estado do ciclo de vida de um produto documenta o estado do ciclo de vida de um produto ou grade de produto liberado.
 author: cvocph
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c3674442dfec11afc26881f3e5c442ba05a4821b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: b5b0ceb1926de6efda239fdbc69fb36a9d4b28e0
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813537"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934831"
 ---
 # <a name="product-lifecycle-state-overview"></a>Visão geral do estado do ciclo de vida do produto
 
@@ -74,11 +74,7 @@ Para obter informações detalhadas sobre como usar o estado do ciclo de vida do
 
 ## <a name="default-migration-import-and-export"></a>Migração, importação e exportação padrão 
 
-Os estados do ciclo de vida do produto não são compatíveis com entidades de dados, e o estado do ciclo de vida não pode ser definido para um estado variável pelas entidades de dados de produto liberadas.
-
--  Na migração de versões anteriores, o estado do ciclo de vida de todos os produtos e as grades de produto ficarão em branco.  
--  Ao importar produtos liberados por uma entidade de dados, o estado do ciclo de vida padrão será aplicado na criação.  
--  Ao importar grades de produto liberadas por uma entidade de dados, o estado do ciclo de vida do produto do mestre de produto liberado será importado.   
+Os estados do ciclo de vida do produto não são compatíveis com entidades de dados, e o estado do ciclo de vida pode ser definido para um estado variável pelas entidades de dados de produto liberadas ou pela entidade de dados da variante liberada.
 
 ## <a name="find-obsolete-products-and-products-variants"></a>Localizar produtos e grades de produto obsoletos 
 

@@ -15,16 +15,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3dbf5807a213e425b24d5a4809df694393faeb9b
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 03e2557e29194f17a9a586470ced5b352408b07c
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832759"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898633"
 ---
 # <a name="leave-and-absence-concepts"></a>Conceitos de licença e ausência
-
-[!include [banner](includes/banner.md)]
 
 Os conceitos e termos descritos neste tópico podem ajudá-lo a determinar quando um funcionário pode ter folgas e como são calculados os saldos de tempo desse funcionário. Para obter mais informações sobre o gerenciamento de licenças e ausências, consulte [Gerenciamento de licenças e ausências](https://docs.microsoft.com/dynamics365/unified-operations/talent/leave-absence-overview).
 

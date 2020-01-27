@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8090fafc891d874c3f4fb646fe22a2b783ce37aa
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 7057c5b24ee3ae03574ec106a0c7d268dfffb98e
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814826"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897180"
 ---
-# <a name="create-a-hiring-team-by-using-dynamics-365-talent---onboard"></a>Criar uma equipe de contratação usando o Dynamics 365 Talent - Onboard
+# <a name="create-a-hiring-team"></a>Criar uma equipe de contratação
 
 [!include [banner](includes/banner.md)]
 
@@ -35,7 +35,7 @@ No Microsoft Dynamics 365 Talent: Onboard, é possível criar equipes de contrat
 2. Em **Equipes**, selecione o bloco **Adicionar** (sinal de adição \[**+**\]).
 3. Na caixa de diálogo **Criar nova equipe**, em **Nome da equipe**, digite um nome para a equipe de contratação.
 
-    ![[Criando uma nova equipe no Onboard](. /media/onboard-create-team.png)](./media/onboard-create-team.png)
+    ![[Criando uma nova equipe no Onboard](./media/onboard-create-team.png)](./media/onboard-create-team.png)
 
 4. Em **Escolher membros da equipe**, digite o nome ou o endereço de email de cada membro da equipe.
 
@@ -51,11 +51,11 @@ No Microsoft Dynamics 365 Talent: Onboard, é possível criar equipes de contrat
 2. Selecione a equipe.
 3. Na guia **Guias**, selecione **Adicionar guias**.
 
-    ![[Adicionando guias de integração a uma equipe](/media/onboard-add-guides-to-team.png)](./media/onboard-add-guides-to-team.png)
+    ![[Atribuir guias de integração a uma equipe](./media/onboard-add-guides-to-team.png)](./media/onboard-add-guides-to-team.png)
 
 4. Marque a caixa de seleção para cada guia de integração que deseja atribuir à equipe e selecione **Adicionar**.
 
-    ![[Selecionando os guias de integração para adicionar à equipe](./media/onboard-select-guides.png)](./media/onboard-select-guides.png)
+    ![[Selecionando as guias de integração para adicionar à equipe](./media/onboard-select-guides.png)](./media/onboard-select-guides.png)
 
 ## <a name="assign-onboarding-templates-to-a-hiring-team"></a>Atribuir modelos de integração a uma equipe de contratação
 
@@ -63,7 +63,7 @@ No Microsoft Dynamics 365 Talent: Onboard, é possível criar equipes de contrat
 2. Selecione a equipe.
 3. Na guia **Modelos**, selecione **Adicionar modelos**.
 
-    ![[Adicionando modelos a uma equipe](/media/onboard-add-templates-to-team.png)](./media/onboard-add-templates-to-team.png)
+    ![[Adicionando modelos à uma equipe](./media/onboard-add-templates-to-team.png)](./media/onboard-add-templates-to-team.png)
 
 4. Marque a caixa de seleção para cada modelo que deseja atribuir à equipe e selecione **Adicionar**.
 

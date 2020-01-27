@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5a2ff8b46d20fa012cbce817ae4e95b4799149ec
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f72f12e8afdf190865a77fc6153c0c0a111e5a7
+ms.sourcegitcommit: 2b09ad8aaaf9bc765f8abb0311a763c5e794a4d0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175288"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2888600"
 ---
 # <a name="view-posted-sales-tax-transactions"></a>Exibir transações de imposto lançadas
 
@@ -29,13 +29,13 @@ ms.locfileid: "2175288"
 
 Este tópico descreve alguns maneiras de exibir transações de impostos sobre vendas postadas. Você pode exibir transações de impostos sobre vendas de várias páginas dependendo do que você precisa exibir. Esta tarefa usa a empresa de demonstração USMF.
 
-# <a name="posted-sales-tax-page"></a>Página Imposto lançado
+## <a name="posted-sales-tax-page"></a>Página Imposto lançado
 
 1. No painel de navegação, acesse **Módulos > Imposto > Consultas e relatórios > Consultas de imposto > Imposto lançado**.
 2. Selecione **Exibir filtros** para refinar a exibição de transações específicas.
 3. Feche a página.
 
-# <a name="sales-tax-settlement-periods-page"></a>Página de períodos de liquidação de imposto
+## <a name="sales-tax-settlement-periods-page"></a>Página de períodos de liquidação de imposto
 
 1. No painel de navegação, acesse **Módulos > Imposto > Impostos indiretos > Impostos > Períodos de liquidação de imposto**.
 2. Expanda a seção **Intervalos de períodos**.
@@ -43,7 +43,7 @@ Este tópico descreve alguns maneiras de exibir transações de impostos sobre v
 4. Você pode filtrar a lista de transações de impostos sobre vendas.
 5. Feche a página.
 
-# <a name="sales-tax-codes-page"></a>Página Códigos de imposto
+## <a name="sales-tax-codes-page"></a>Página Códigos de imposto
 
 1. No painel de navegação, acesse **Módulos > Imposto > Impostos indiretos > Imposto > Códigos de imposto**.
 2. No Painel de Ação, selecione **Códigos de imposto**.

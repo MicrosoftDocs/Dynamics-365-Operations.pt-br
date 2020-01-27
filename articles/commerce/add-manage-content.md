@@ -3,7 +3,7 @@ title: Maneiras de adicionar conteúdo
 description: Este tópico fornece informações sobre como adicionar e gerenciar conteúdo no site do Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3d91235837aee9ad06466ffe47727b435e39094f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2232dc7cdd24416b0df0919b96cd5d1f8113299f
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770519"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914645"
 ---
 # <a name="ways-to-add-content"></a>Maneiras de adicionar conteúdo
 
@@ -44,9 +44,11 @@ Os tópicos a seguir fornecem informações detalhadas sobre como adicionar e ge
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Glossário de modelo da página](page-elements-overview.md)
+[Glossário do modelo de página](page-elements-overview.md)
 
 [Estados de documento e de ciclo de vida](document-states-overview.md)
+
+[Trabalhar com grupos de publicações](publish-groups.md)
 
 [Trabalhar com módulos](work-with-modules.md)
 

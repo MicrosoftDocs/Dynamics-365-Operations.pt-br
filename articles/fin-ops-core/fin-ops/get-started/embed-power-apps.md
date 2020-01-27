@@ -3,7 +3,7 @@ title: Inserir o Power Apps
 description: Este tópico descreve como inserir Power Apps no cliente para melhorar a funcionalidade do produto.
 author: jasongre
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 755a30f89725ca0a7e1c14252984c617d6ba280e
-ms.sourcegitcommit: 4162d9ef4239c9d4e5297b8aaa903dd54f9cafc3
+ms.openlocfilehash: 8b5e64cb9ba916f9cbd628703394318b4044867b
+ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "2824484"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2870232"
 ---
 # <a name="embed-microsoft-power-apps"></a>Inserir o Microsoft Power Apps
 
@@ -55,7 +55,7 @@ As instruções a seguir mostram como inserir um Power App no cliente web.
 
     - O campo **Nome** indica o texto mostrado para o botão ou a guia que conterá o Power App inserido. Muitas vezes, convém repetir o nome do Power App neste campo.
     - **ID do Aplicativo** é o GUID do Power App que você quer inserir. Para recuperar este valor, localize o Power App no [web.powerapps.com](https://web.powerapps.com) e localize o campo **ID do Aplicativo** em **Detalhes**.
-    - Para **Dados de entrada para o Power App**, você pode selecionar o campo contendo os dados que você quer informar para o Power App como entrada. Consulte a seção mais adiante neste tópico chamada [Criação de um Power App que aproveita dados de aplicativos do Finance and Operations](#building-a-powerapp-that-leverages-data-sent-from-finance-and-operations-apps) para obter detalhes sobre como o Power App pode acessar os dados enviados de aplicativos do Finance and Operations.
+    - Para **Dados de entrada para o Power App**, você pode selecionar o campo contendo os dados que você quer informar para o Power App como entrada. Consulte a seção mais adiante neste tópico chamada [Criação de um Power App que aproveita dados de aplicativos do Finance and Operations](#building-a-power-app-that-leverages-data-sent-from-finance-and-operations-apps) para obter detalhes sobre como o Power App pode acessar os dados enviados de aplicativos do Finance and Operations.
     - Selecione o **Tamanho do aplicativo** que corresponde ao tipo de Power App que você está inserindo. Selecione **Fino** para Power Apps criados para dispositivos móveis e **Largo** para Power Apps criados para tablets. Isso garantirá que uma quantidade suficiente de espaço seja alocada para o Power App inserido.
     - A guia rápida **Entidades legais** permite escolher para quais entidades legais o Power App está disponível. O padrão é mostrar o Power App em todas as entidades legais.
 
@@ -101,7 +101,7 @@ Siga estas etapas para editar a configuração de um Power App inserido:
 
 Depois que um Power App for inserido em uma página, há duas maneiras de removê-lo, se necessário:
 
-- Vá para o painel **Editar um Power App** usando as instruções da seção [Editando um Power App inserido](#editing-an-embedded-powerapp) anteriormente neste tópico. Confirme se o painel exibe informações do Power App inserido que você quer remover e clique no botão **Excluir**.
+- Vá para o painel **Editar um Power App** usando as instruções da seção [Editando um Power App inserido](#editing-an-embedded-power-app) anteriormente neste tópico. Confirme se o painel exibe informações do Power App inserido que você quer remover e clique no botão **Excluir**.
 - Como um Power App inserido é salvo como dados de personalização, limpar a personalização da página também removerá todos os Power Apps inseridos nessa página. Observe que a remoção da personalização da página é permanente e não pode ser desfeita. Para remover as personalizações de uma página, selecione **Opções** e clique em **Personalizar este formulário**. No menu **Gerenciar**, selecione o botão **Limpar**. Após atualizar seu browser, todas as personalizações anteriores desta página serão removidas. Consulte [Personalizar a experiência do usuário](personalize-user-experience.md) para obter mais informações sobre como otimizar as páginas usando a personalização.
 
 ## <a name="appendix"></a>Anexo

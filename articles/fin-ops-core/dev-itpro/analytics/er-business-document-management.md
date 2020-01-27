@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0a2fa6a7f6efef05862a3727a80122c22d591487
-ms.sourcegitcommit: 4162d9ef4239c9d4e5297b8aaa903dd54f9cafc3
+ms.openlocfilehash: 3aac66cc39d854cabdb3d29bde029d93683e2ef7
+ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "2824511"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2933899"
 ---
 # <a name="business-document-management-overview"></a>Visão geral de gerenciamento de documentos comerciais
 
-Os usuários comerciais usam a [Visão geral de ER (Relatórios eletrônicos)](general-electronic-reporting.md) para configurar formatos para documentos de saída de acordo com os requisitos legais de vários países/regiões. Os usuários também podem definir o fluxo de dados para especificar quais dados do aplicativo são colocados nos documentos gerados. A estrutura de ER gera documentos de saída nos formatos do Microsoft Office (pastas de trabalho do Excel ou documentos do Word) usando modelos predefinidos. Os modelos são preenchidos com os dados necessários de acordo com o fluxo de dados configurado enquanto os documentos necessários são gerados. Cada formato configurado pode ser publicado como parte de uma solução de ER para gerar documentos de saída específicos. Isso é representado por uma configuração de formato de ER que pode conter modelos usados para gerar diferentes documentos de saída. Os usuários comerciais podem usar essa estrutura para gerenciar os documentos comerciais necessários.
+Os usuários comerciais usam a [estrutura de Relatório eletrônico (ER)](general-electronic-reporting.md) para configurar formatos para documentos de saída de acordo com os requisitos legais de vários países/regiões. Os usuários também podem definir o fluxo de dados para especificar quais dados do aplicativo são colocados nos documentos gerados. A estrutura de ER gera documentos de saída nos formatos do Microsoft Office (pastas de trabalho do Excel ou documentos do Word) usando modelos predefinidos. Os modelos são preenchidos com os dados necessários de acordo com o fluxo de dados configurado enquanto os documentos necessários são gerados. Cada formato configurado pode ser publicado como parte de uma solução de ER para gerar documentos de saída específicos. Isso é representado por uma configuração de formato de ER que pode conter modelos usados para gerar diferentes documentos de saída. Os usuários comerciais podem usar essa estrutura para gerenciar os documentos comerciais necessários.
 
 O **gerenciamento de documentos comerciais** é baseado na estrutura de ER e permite que os usuários comerciais editem modelos de documentos comerciais usando o serviço do Microsoft Office 365 ou o aplicativo de área de trabalho apropriado do Microsoft Office. As edições nos documentos podem incluir a alteração dos designs dos documentos comerciais e a adição de espaços reservados para dados adicionais sem alterações no código-fonte e novas implantações. Não é necessário conhecimento da estrutura de ER para atualizar modelos de documentos comerciais.
 
@@ -59,7 +59,7 @@ Os seguintes relatórios, com modelos baseados no Excel, estarão disponíveis c
 
 Mais relatórios estarão disponíveis. Notificações especiais sobre relatórios adicionais serão enviadas separadamente. 
 
-Uma lista completa de todos os relatórios planejados para a versão de outubro de 2019 pode ser encontrada em [Relatório configurável de documentos comerciais em Word e Excel](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details). Para saber mais sobre este recurso, conclua o exemplo neste tópico.
+Uma lista completa de todos os relatórios planejados para a versão de outubro de 2019 pode ser encontrada em [Relatório configurável de documentos comerciais em Word e Excel](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details). Para saber mais sobre este recurso, conclua o exemplo neste tópico.
 
 ## <a name="configure-er-parameters"></a>Configurar parâmetros de ER
 

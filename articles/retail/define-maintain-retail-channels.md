@@ -3,7 +3,7 @@ title: Definir e manter canais de varejo
 description: Este tópico oferece uma visão geral do processo de configurar lojas tradicionais, chamadas de lojas de varejo no Dynamics 365 Retail. Inclui informações sobre as tarefas que devem ser concluídas antes e depois de você configurar uma loja de varejo.
 author: mugunthanm
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f55099ad283e665965aad0684b3c9d87223d5ed7
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 45d0386d215da15103a417502debb245c91f6309
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2019361"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934599"
 ---
 # <a name="define-and-maintain-retail-channels"></a>Definir e manter canais de varejo
 
@@ -85,3 +85,6 @@ Depois de inserir os detalhes da loja de varejo, conclua estas tarefas para envi
 ## <a name="organization-hierarchies"></a>Hierarquias da organização
 
 O Retail usa hierarquias da organização para estruturar canais de varejo. As hierarquias da organização representam os relacionamentos entre as organizações que compõem sua empresa. Ao configurar lojas, você pode adicioná-las a uma hierarquia da organização. As lojas compartilham dados usados para classificações, reabastecimento e relatórios.
+
+> [!NOTE]
+> Para usar a funcionalidade de vendas de Varejo, a chave de configuração **Diversos endereços de remessa** deve estar habilitada. Essa chave de configuração pode ser encontrada nas chaves **Configuração de troca** em **Administração do sistema**\> **Configuração** \> **Configurações do sistema**. Isso é necessário devido à funcionalidade do Varejo que executa várias validações com base no endereço de entrega configurado no nível da linha da ordem de venda.

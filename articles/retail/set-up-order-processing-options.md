@@ -3,7 +3,7 @@ title: Configurar canais de call center
 description: Este tópico oferece informações sobre como processar ordens de call centers usando o Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 04/16/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 36491e4d2e63819ce637afb69744089d820c69b0
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 4ebe25f91cd4228537254dc0b7891c8584981775
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024812"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934691"
 ---
 # <a name="set-up-call-center-channels"></a>Configurar canais de call center
 
@@ -81,3 +81,6 @@ Os usuários que não estiverem vinculados a um canal de call center usarão os 
 
 
 Depois de concluir a configuração do canal call center e de definir os usuários de canal, para ajudar a garantir o comportamento do sistema desejado, verifique se todos os Parâmetros de call center necessários foram definidos em **Retail** \> **Configuração de canal** \> **Configuração de call center** \> **Parâmetros de call center**. Verifique se as sequências numéricas relacionadas também foram definidas.
+
+> [!NOTE]
+> Para usar a funcionalidade do centro de chamada, a chave da configuração deve ser habilitada para **Diversos endereços de remessa**. Essa chave de configuração pode ser encontrada nas chaves **Configuração de troca** em **Administração do sistema**\> **Configuração** \> **Configurações do sistema**. Isso é necessário devido à funcionalidade do centro de chamada que executa várias validações com base no endereço de entrega configurado no nível da linha da ordem de venda. 

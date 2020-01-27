@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 11a5792c9c039eb76337309ef2fdb2b994ce191a
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 072564446b74318ffc8e8e6ad4fd16f4421e7854
+ms.sourcegitcommit: d0322d1ed6c798301058e44dae76227a0e1f49ac
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772378"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2853897"
 ---
 # <a name="near-real-time-data-integration-with-common-data-service"></a>Integração de dados quase em tempo real com o Common Data Service
 
@@ -59,7 +59,7 @@ Fluxos de dados assíncronos, bidirecionais quase em tempo real exigem as seguin
 Siga estas etapas para configurar a integração entre aplicativos do Finance and Operations e o Common Data Service.
     
 1. Para a configuração do sistema de gravação dupla, consulte [guia passo a passo](https://aka.ms/dualwrite-docs) Anunciando a exibição de gravação dupla.
-2. Baixe e instale a solução do grupo [Finance and Operations, Common Data Service e Customer Engagement Integration](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096) Yammer. O pacote contém cinco soluções:
+2. Baixe e instale a solução a partir do grupo [Integração com Fin Ops e CDS/CE por meio de gravação dupla](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096)Yammer. O pacote contém cinco soluções:
 
     + Dynamics365Company
     + CurrencyExchangeRates

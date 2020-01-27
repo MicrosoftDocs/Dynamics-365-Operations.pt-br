@@ -3,7 +3,7 @@ title: Módulo de reprodutor de vídeo
 description: Este tópico abrange os módulos de exibição e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 32504351f712c83ba8f593c17d2e51c532374311
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: 1c78583f39dbacdc7b38e89c33e67ae23731bf8a
+ms.sourcegitcommit: 96bfc20eb748f4090a2b5e1ff9f54997d5a5d359
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785320"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2885892"
 ---
 # <a name="video-player-module"></a>Módulo de reprodutor de vídeo
 
@@ -57,6 +57,8 @@ O módulo de reprodutor de vídeo de ambiente oferece suporte a vídeos informac
 ## <a name="video-player-module"></a>Módulo de reprodutor de vídeo
 
 O módulo de reprodução de vídeo pode ser usado para exibir vídeos em um site comercial online. Oferece suporte a todas as funcionalidades de reprodução, como reproduzir, pausar, modo tela cheia e legendas. O módulo de exibição de vídeo também oferece suporte à personalização de legendas atender aos padrões de acessibilidade da Microsoft. Por exemplo, você pode personalizar o tamanho da fonte e a cor de plano de fundo.
+
+O módulo player de vídeo também oferece suporte a faixas de áudio secundárias. Quando um vídeo é carregado, uma trilha de áudio secundária também pode ser carregada. O módulo de reprodutor de vídeo pode reproduzir a trilha de áudio secundária se um usuário selecioná-la.
 
 ### <a name="examples-of-video-player-modules-in-e-commerce"></a>Exemplos de módulos de reprodutor de vídeo no comércio online
 

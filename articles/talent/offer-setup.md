@@ -3,7 +3,7 @@ title: Configurar o gerenciamento de ofertas no Attract
 description: Este tópico descreve como configurar ofertas no Microsoft Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/04/2019
+ms.date: 12/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 63f45f1493935f543cfd25a7d8ed7b54170800a0
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: bc91a83afd5ce1627376685bcf612d6998ddbc02
+ms.sourcegitcommit: 5022d63a81c3715c9a3dcf2a68217bb6b17c7805
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832713"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "2890546"
 ---
 # <a name="set-up-offer-management-in-attract"></a>Configurar o gerenciamento de ofertas no Attract
 
@@ -45,9 +45,11 @@ Os dados da oferta são a menor unidade no modelo do pacote de oferta. Uma ofert
 
     >[!NOTE]
     > Na página **Dados da oferta**, há as seções **Detalhes do candidato** e **Detalhes do trabalho**. O Attract fornece alguns espaços reservados de dados da oferta prontos para uso.
-    
+    > 
     > Há seções na página para organizar diferentes espaços reservados de dados da oferta diferentes em grupos lógicos. Estas seções podem ajudar na manutenção de dados da oferta e na população de dados durante o processo de criação da oferta.
-
+    > 
+    > Para criar uma lista de valores para um espaço reservado, carregue uma planilha do Excel que tenha uma coluna com o espaço reservado como o título da coluna e a lista de opções nas linhas abaixo. Se o mesmo espaço reservado for referenciado em outro conjunto de regras de dados, verifique se eles têm um conjunto de valores comum.
+    
 1.  Para criar uma nova seção de dados da oferta, clique em **Adicionar uma seção** e insira um nome exclusivo para a seção.
 
 1.  Para adicionar espaços reservados de dados da oferta a qualquer seção, clique em **Adicionar dados da oferta** e insira um nome exclusivo para o espaço reservado.

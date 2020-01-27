@@ -3,7 +3,7 @@ title: Escopo da localização brasileira
 description: Este tópico descreve a estratégia e o escopo para leis e regulamentos tributários, financeiros e contábeis no Brasil.
 author: sndray
 manager: AnnBe
-ms.date: 08/02/2018
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: cccebf28937ee56cb1b59d71fae7ed48c92cf832
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 525b52d14a923242d25802553d4570ed6fc060ae
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250353"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915333"
 ---
 # <a name="scope-of-the-brazilian-localization"></a>Escopo da localização brasileira
 
@@ -95,10 +95,9 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <thead>
 <tr>
 <th>Área</th>
-<th>Item </th>
-<th>AX 2012 RTM-R2</th>
+<th>Item</th>
 <th>AX 2012 R3</th>
-<th>Finance and Operations</th>
+<th>Finanças</th>
 </tr>
 </thead>
 <tbody>
@@ -106,7 +105,7 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <td>Dados mestres</td>
 <td>Registros de entidades legais e estabelecimentos fiscais:
 <ul>
-<li>CNPJ/CPF</li>
+<li>CNPJ</li>
 <li>IE</li>
 <li>CCM</li>
 <li>IE do substituto tributário para vários estados</li>
@@ -115,13 +114,12 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 </td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Registros de clientes e fornecedores:
 <ul>
-<li>CNPJ/CPF</li>
+<li>CNPJ</li>
 <li>IE</li>
 <li>CCM</li>
 <li>NIT</li>
@@ -131,10 +129,9 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 </td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Características de impostos de itens:
 <ul>
 <li>Código de classificação fiscal e exceção</li>
@@ -144,12 +141,10 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 </td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
-<td>Tabela CFOP</td>
-<td>Sim</td>
+<td>&nbsp;</td>
+<td>Tabela de CFOP</td>
 <td>Sim</td>
 <td>Sim</td>
 </tr>
@@ -158,102 +153,88 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <td>Tipos de impostos: IPI, ICMS, substituição tributária do ICMS, diferencial de alíquotas do ICMS, DIFAL, imposto de importação, PIS, COFINS, CSLL, IRRF, INSS, INSS retido e ISS</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Modo de tributação por tipo de imposto:
 <ul>
-<li>1 – Tributável</li>
-<li>2 – Isento ou não tributável</li>
-<li>3 – Outros</li>
+<li>1 &ndash; Tributável</li>
+<li>2 &ndash; Isento ou não tributável</li>
+<li>3 &ndash; Outros</li>
 </ul>
 </td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Crédito de imposto baseado no modo de tributação</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Redução da base de cálculo do ICMS</td>
 <td>Sim</td>
 <td>Sim</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Substituição de imposto ICMS pelo cálculo baseado somente em marcação para notas fiscais de saída</td>
+<td>Sim</td>
 <td>Sim</td>
 </tr>
 <tr>
-<td></td>
-<td>Substituição tributária do ICMS com cálculo baseado no mark-up</td>
-<td>Sim</td>
-<td>Sim</td>
-<td>Sim</td>
-</tr>
-<tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Substituição tributária do ICMS simplificada</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Configuração independente para redução de base de cálculo do ICMS e substituição tributária</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>IPI para o usuário final</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>ICMS para uso e consumo</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Descontos dos impostos ICMS, PIS e COFINS para vendas à SUFRAMA</td>
 <td>Sim</td>
 <td>Sim</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Diferença de ICMS sobre vendas no consumidor final (DIFAL) apenas para base simplificada</td>
+<td>Sim</td>
 <td>Sim</td>
 </tr>
 <tr>
-<td></td>
-<td>Diferencial de alíquota aplicado ao ICMS na venda para o consumidor final (DIFAL)</td>
-<td>Não</td>
-<td>Sim</td>
-<td>Sim</td>
-</tr>
-<tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Diferencial de alíquota aplicado ao ICMS na compra</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Aplicação de impostos padrão configuráveis baseados em tipos de operações definidas ou especificadas pelo grupo do CFOP</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Cálculo de PIS e COFINS na importação de acordo com a lei 1.401/2013</td>
-<td>Sim</td>
 <td>Sim</td>
 <td>Sim</td>
 </tr>
@@ -262,26 +243,22 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <td>Requisições de compra, solicitações de cotação e ordens de compra localizadas para oferecer suporte aos impostos brasileiros de acordo com o escopo da localização brasileira</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Textos de notas fiscais em ordens de compra</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Cancelamento de notas fiscais de entrada emitidas</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Reversão de notas fiscais recebidas</td>
-<td>Sim</td>
 <td>Sim</td>
 <td>Sim</td>
 </tr>
@@ -301,68 +278,58 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 </td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Notas fiscais referenciadas</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Notas fiscais com processos referenciados</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Vários processos referenciados por textos de notas fiscais</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Ajustes de impostos durante o recebimento de notas fiscais de entrada</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>XML da nota fiscal eletrônica e DANFE carregados de uma conta de email de protocolo POP3</td>
 <td>Não</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Validação da chave de acesso de nota fiscal eletrônica na SEFAZ</td>
 <td>Não</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Arquivamento de XML de nota fiscal eletrônica junto com a nota fiscal recebida lançada</td>
 <td>Não</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Conciliação da quantidade e do preço unitário do XML da nota fiscal eletrônica carregado com a fatura do fornecedor gerada a partir da ordem de compra</td>
 <td>Não</td>
-<td>Sim</td>
 <td>Sim</td>
 </tr>
 <tr>
 <td>Devolução de compra</td>
 <td>Emissão de nota fiscal para devoluções de fornecedores</td>
-<td>Sim</td>
 <td>Sim</td>
 <td>Sim</td>
 </tr>
@@ -371,26 +338,22 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <td>Cotações de vendas, ordens de venda, faturas de texto livre e faturas de projetos localizadas para oferecer suporte aos impostos brasileiros de acordo com o escopo da localização brasileira</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Entrada de informações de transporte para notas fiscais</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Textos de notas fiscais em ordens de venda e faturas de texto livre</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Cancelamento de notas fiscais emitidas</td>
-<td>Sim</td>
 <td>Sim</td>
 <td>Sim</td>
 </tr>
@@ -410,134 +373,104 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 </td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Notas fiscais referenciadas</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Nota fiscal com processos referenciados</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Vários processos referenciados por textos de notas fiscais</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Imposto retido na fonte para IRRF, INSS e ISS</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Visualizador de notas fiscais de saída</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Exibição de impostos aproximados</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Manutenção manual da Ficha de Conteúdo de Importação (FCI) por produto, estabelecimento fiscal e período</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>A localização oferece suporte à emissão dos modelos de notas fiscais 1, 1-A e 55 e à nota fiscal de serviços para a cidade de São Paulo. Os parceiros devem personalizar os requisitos ou o comportamento de modelos de notas fiscais sem suporte.
 <p><strong>Observação:</strong> a localização não oferece suporte à geração de arquivos FCI, operações subsequentes, envio automático de arquivos FCI e cálculo automático de composição de importação.</p>
 </td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td>Retorno </td>
+<td>Devolução de venda</td>
 <td>Devoluções de clientes com emissão de nota fiscal de entrada de sua organização</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Devoluções de clientes com nota fiscal emitida pelo cliente</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Chave de acesso da nota fiscal eletrônica</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td>Inventário</td>
+<td>Estoque</td>
 <td>Emissão e recebimento de notas fiscais de transferências/devoluções de itens de estoque entre estabelecimentos fiscais.</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Emissão e recebimento de notas fiscais de remessas/devoluções de itens de estoque de terceiros</td>
-<td>Sim</td>
 <td>Sim</td>
 <td>Sim</td>
 </tr>
 <tr>
 <td>Produção</td>
-<td>Absorção de custos diretos e indiretos</td>
-<td>Sim</td>
+<td>Absorção de custo indireto e direto somente em ordens de produção de fabricação discreta</td>
 <td>Sim</td>
 <td>Sim</td>
 </tr>
 <tr>
 <td>NF-e (Federal)</td>
-<td>Suporte para NF‑e layout 2.0</td>
-<td>Sim</td>
-<td>Sim</td>
-<td>Sim</td>
-</tr>
-<tr>
-<td></td>
-<td>Suporte para NF‑e layout 3.10</td>
-<td>Sim</td>
+<td><span style="display: inline !important; float: none; background-color: #ffffff; color: #000000; cursor: text; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">Suporte para NF‑e layout 4.0</span></td>
 <td>Sim</td>
 <td>Sim</td>
 </tr>
 <tr>
-<td></td>
-<td>Suporte para NF‑e layout 4.0</td>
-<td>Sim</td>
-<td>Sim</td>
-<td>Sim</td>
-</tr>
-<tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Mensagens/eventos de NF-e:
 <ul>
-<li>Emitir</li>
+<li>Emissão</li>
 <li>Cancelar</li>
 <li>Descartar</li>
 <li>Carta de correção eletrônica (CC-e)</li>
@@ -545,61 +478,52 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 </td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Modo de contingência: formulário de segurança (FS ou FS-DA)</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Modo de contingência: SCAN</td>
-<td>Sim</td>
 <td>Sim</td>
 <td>Não</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Modo de contingência: SVC</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Visualizador de XML para notas fiscais eletrônicas emitidas e recebidas</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Envio automático de nota fiscal eletrônica por email para clientes, fornecedores e empresas de transporte</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td><strong>Fora do escopo:</strong> serviços de propósito geral na NF‑e</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td>Serviços de NFS-e(cidade de São Paulo)</td>
+<td>Serviços de NFS-e (cidade de São Paulo)</td>
 <td>Nota fiscal de serviços eletrônica usando arquivos .txt</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Recibo Provisório de Serviços (RPS) para a cidade de São Paulo</td>
-<td>Sim</td>
 <td>Sim</td>
 <td>Sim</td>
 </tr>
@@ -608,54 +532,46 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <td>Impostos IRRF, PIS, COFINS, CSLL, ISS e INSS retidos na fonte sobre pagamentos e recebimentos</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Limites dos impostos IRRF, PIS e COFINS retidos na fonte pela entidade legal</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Pagamento com cheque por banco</td>
 <td>Sim</td>
 <td>Sim</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Pagamento com Borderô Brasileiro</td>
+<td>Sim</td>
 <td>Sim</td>
 </tr>
 <tr>
-<td></td>
-<td>Pagamento com borderô brasileiro</td>
-<td>Sim</td>
-<td>Sim</td>
-<td>Sim</td>
-</tr>
-<tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Juros e multas sobre pagamentos e recebimentos, aplicando calendários de feriados federais, estaduais e municipais</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Juros, multas e impostos retidos na fonte sobre pagamentos centralizados</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Pagamento eletrônico baseado em arquivos configuráveis para o layout FCC-400</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Recebimento eletrônico baseado em arquivos configuráveis para o layout CNAB-240</td>
-<td>Sim</td>
 <td>Sim</td>
 <td>Sim</td>
 </tr>
@@ -664,24 +580,21 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <td>Consolidação contábil com transferências detalhadas de transações</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Nota fiscal para transferência de crédito de ICMS entre estabelecimentos fiscais</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Nota fiscal para créditos de ICMS 1/48</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Relatórios:
 <ul>
 <li>Livro diário</li>
@@ -690,157 +603,129 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 </ul>
 </td>
 <td>Sim</td>
-<td>Sim</td>
 <td>Não</td>
 </tr>
 <tr>
 <td>Retail Enterprise POS</td>
 <td>CPF/CNPJ do cliente em cupons fiscais</td>
 <td>Sim</td>
-<td>Sim</td>
 <td>Não</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Geração de arquivos para a Nota Fiscal Paulista</td>
 <td>Sim</td>
-<td>Sim</td>
 <td>Não</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Cálculo do imposto de acordo com a configuração do Microsoft Dynamics AX 2012</td>
 <td>Sim</td>
-<td>Sim</td>
 <td>Não</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Integração de impressora fiscal para impressoras Daruma, nos modelos FS600, FS700 (H, L e M), FS800i, Mach 1, Mach 2 e Mach 3</td>
 <td>Sim</td>
-<td>Sim</td>
 <td>Não</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Integração de impressora fiscal para impressoras Bematech, nos modelos MP2100 FI TH FI e MP4200 TH FI II</td>
 <td>Sim</td>
+<td>Não</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Requisitos legais de PDV de acordo com a lei PAF-ECF "ATO COTEPE/ICMS N° 9" de 2013, exceto para empresas identificadas como fora do escopo na seção <a href="#out-of-scope">Fora do Escopo</a> deste tópico</td>
 <td>Sim</td>
 <td>Não</td>
 </tr>
 <tr>
-<td></td>
-<td>Requisitos legais de PDV de acordo com a lei PAF-ECF "ATO COTEPE/ICMS N° 9" de 2013, exceto para as atividades de varejo identificadas como fora do escopo na seção <a href="#out-of-scope">Fora do escopo</a> deste tópico</td>
-<td>Sim</td>
-<td>Sim</td>
-<td>Não</td>
-</tr>
-<tr>
-<td></td>
-<td>Requisitos legais de PDV de acordo com a lei PAF-ECF "ATO COTEPE/ICMS N° 46" de 2014, exceto para as atividades de varejo identificadas como fora do escopo na seção <a href="#out-of-scope">Fora do escopo</a></td>
-<td>Sim</td>
+<td>&nbsp;</td>
+<td>Requisitos legais de PDV de acordo com a lei PAF-ECF "ATO COTEPE/ICMS N&deg;46" de 2014, exceto para as empresas identificadas como fora do escopo na seção <a href="#out-of-scope">Fora do escopo</a></td>
 <td>Sim</td>
 <td>Não</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Exibição de impostos aproximados em recibos fiscais</td>
 <td>Sim</td>
-<td>Sim</td>
 <td>Não</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Cancelar último recibo fiscal</td>
 <td>Sim</td>
-<td>Sim</td>
 <td>Não</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Pagamentos com vários cartões de crédito</td>
 <td>Sim</td>
-<td>Sim</td>
 <td>Não</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Integração de TEF com o software de terceiros D-TEF Dedicado, versão 8.1.37.2, comercializado pela Direção Processamento de Dados Ltda</td>
 <td>Sim</td>
-<td>Sim</td>
 <td>Não</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Integração de TEF com o software de terceiros SiTef, versão 4.0.111.6, comercializado pela Software Express Informática Ltda
 <p>Pré-vendas de acordo com a lei PAF‑ECF "ATO COTEPE/ICMS N° 46" de 2014</p>
 </td>
-<td>Não</td>
 <td>Sim</td>
 <td>Não</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Emissão de NF‑e de devolução no EPOS para devoluções de vendas</td>
-<td>Não</td>
 <td>Sim</td>
 <td>Não</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Emissão de NF-e vinculada ao cupom fiscal no EPOS</td>
-<td>Não</td>
 <td>Sim</td>
 <td>Não</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>AOS configurável para a troca de mensagens de NF‑e/NFC‑e com a SEFAZ</td>
-<td>Não</td>
 <td>Sim</td>
 <td>Não</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>O serviço de TEF deve ser contratado diretamente do fornecedor terceirizado e não é incluído em nenhuma licença de software da Microsoft.
-<p><strong>Observação:</strong> nem todas as operações do Enterprise POS são permitidas no Brasil devido a conflitos com a legislação do PAF‑ECF. Para obter mais detalhes, consulte <a href="https://www.microsoft.com/download/details.aspx?id=42938">o white paper Retail and Enterprise POS Localization for Brazil (Localização do Retail e Enterprise POS para o Brasil).</p>
+<p><strong>Observação:</strong> Nem todas as operações do Enterprise PDV são permitidas no Brasil devido a conflitos com a legislação do PAF-ECF. Para obter mais detalhes, consulte o white paper <a href="https://www.microsoft.com/download/details.aspx?id=42938"> Localização do Retail e Enterprise POS para o Brasil.</a></p>
 </td>
-<td>Sim</td>
 <td>Sim</td>
 <td>Não</td>
 </tr>
 <tr>
 <td>NFC‑e (Nota Fiscal do Consumidor Eletrônica) no Retail Enterprise POS</td>
-<td>Suporte para NFC‑e layout 3.10</td>
-<td>Não</td>
+<td><span style="display: inline !important; float: none; background-color: #ffffff; color: #000000; cursor: text; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">Suporte para NFC‑e layout 4.0</span></td>
 <td>Sim</td>
 <td>Não</td>
 </tr>
 <tr>
-<td></td>
-<td>Suporte para NFC‑e layout 4.0</td>
-<td>Não</td>
-<td>Sim</td>
-<td>Não</td>
-</tr>
-<tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Modo de contingência: offline</td>
-<td>Não</td>
 <td>Sim</td>
 <td>Não</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Modo de contingência para SP: SAT (modelo 59)</td>
-<td>Não</td>
 <td>Sim</td>
 <td>Não</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Tipo de presença de venda: pessoal</td>
-<td>Não</td>
 <td>Sim</td>
 <td>Não</td>
 </tr>
@@ -851,43 +736,38 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <li>Produtos lançados por categoria</li>
 <li>Planilha de atualização em massa</li>
 <li>Hierarquia de produtos de varejo</li>
-</ul></td>
-<td>Sim</td>
+</ul>
+</td>
 <td>Sim</td>
 <td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>SAT (modelo 59) para o estado de São Paulo com layout 0.07</td>
-<td>Não</td>
 <td>Sim</td>
 <td>Não</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Suporte para apenas um equipamento SAT por EPOS</td>
-<td>Não</td>
 <td>Sim</td>
 <td>Não</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Suporte para DLLs selecionadas de SAT, para compatibilidade com várias marcas</td>
-<td>Não</td>
 <td>Sim</td>
 <td>Não</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Referência de cupom fiscal</td>
 <td>Sim</td>
-<td>Sim</td>
 <td>Não</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Configuração automática de impressora fiscal</td>
-<td>Sim</td>
 <td>Sim</td>
 <td>Não</td>
 </tr>
@@ -896,26 +776,22 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <td>Notas de crédito</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
 <td>TMS</td>
 <td>Emissão de notas fiscais e notas fiscais eletrônicas de cargas, para transações derivadas de faturas de ordens de venda</td>
-<td>Não</td>
 <td>Sim</td>
 <td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Emissão de notas fiscais e notas fiscais eletrônicas de saída de cargas, para transações derivadas de ordens de transferência e de guias de pagamento das notas fiscais</td>
-<td>Não</td>
 <td>Sim</td>
 <td>Sim</td>
 </tr>
 <tr>
 <td>Call center</td>
 <td>Suporte para registro de CNPJ/CPF no gerenciamento de dados de clientes</td>
-<td>Não</td>
 <td>Sim</td>
 <td>Sim</td>
 </tr>
@@ -923,7 +799,7 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <td>Livros fiscais</td>
 <td>Relatórios de livros fiscais:
 <ul>
-<li>Apuração do imposto IPI</li>
+<li>Apuração de imposto IPI</li>
 <li>Apuração do imposto ICMS</li>
 <li>Apuração de imposto ICMS-ST para estados com registro de IE</li>
 <li>Entrada e modelo de entrada 1A</li>
@@ -937,17 +813,15 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 </td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Apurações de impostos</td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Geração de apuração e pagamento dos seguintes impostos:
 <ul>
 <li>IPI</li>
@@ -958,203 +832,149 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 </td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Geração de apuração e pagamento dos seguintes impostos:
 <ul>
 <li>INSS CPRB</li>
 </ul>
 </td>
-<td>Não</td>
 <td>Sim</td>
 <td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Geração de apuração e pagamento dos seguintes impostos:
 <ul>
 <li>PIS e COFINS no regime cumulativo</li>
-</ul>
-</td>
-<td>Não</td>
-<td>Sim</td>
-<td>Sim</td>
-</tr>
-<tr>
-<td></td>
-<td>Geração de apuração e pagamento dos seguintes impostos:
-<ul>
 <li>PIS e COFINS no regime não cumulativo</li>
-</ul>
-</td>
-<td>Não</td>
-<td>Sim</td>
-<td>Sim</td>
-</tr>
-<tr>
-<td></td>
-<td>Integração com o módulo <strong>Contabilidade</strong> do AX 2012:
-<ul>
-<li>Registro e lançamento de transações de ajuste para os impostos ICMS, ICMS-ST e IPI</li>
-<li>Registro e lançamento de operações não fiscais com o cálculo dos impostos PIS e COFINS</li>
-<li>Integração de pagamento de impostos com o módulo de <strong>Contas a pagar</strong></li>
+<li>Ambos(as)</li>
 </ul>
 </td>
 <td>Sim</td>
 <td>Sim</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><span style="display: inline !important; float: none; background-color: #ffffff; color: #000000; cursor: text; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">Controle CIAP e registro manual de parcelas de ICMS</span></td>
+<td>Sim</td>
 <td>Sim</td>
 </tr>
 <tr>
-<td></td>
-<td>Integração ao Microsoft Dynamics AX 2009</td>
-<td>Não</td>
-<td>Sim</td>
-<td>Não</td>
-</tr>
-<tr>
-<td></td>
+<td>
+<div>&nbsp;SPED Fiscal</div>
+<div>(ICMS, IPI)</div>
+</td>
 <td>Geração de um arquivo de texto e suporte para empresas definidas como Perfil A
 <p>Versões de layout disponíveis:</p>
 <ul>
-<li>Código de layout 08 – versão 1.07 de 01/01/2014 até 31/12/2014</li>
-<li>Código de layout 09 – versão 1.08 de 01/01/2015 até 31/12/2015</li>
-<li>Código de layout 10 – versão 1.09 de 01/01/2016 até 31/12/2016</li>
+<li>Código de Layout 13 e anterior</li>
 </ul>
 </td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
 </tr>
 <tr>
-<td></td>
-<td>Código de layout 11 – versão 1.10 de 01/01/2017 até 31/12/2017</td>
-<td>Sim</td>
-<td>Sim</td>
-<td>Sim</td>
-</tr>
-<tr>
-<td></td>
-<td>Código de layout 12 – versão 1.11 de 01/01/2018 até 31/12/2018</td>
-<td>Não</td>
-<td>Sim</td>
-<td>Sim</td>
-</tr>
-<tr>
-<td></td>
-<td>Controle CIAP e registro manual de parcelas de ICMS</td>
-<td>Sim</td>
-<td>Sim</td>
-<td>Sim</td>
-</tr>
-<tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Suporte para os seguintes registros para empresas definidas como Perfil A:
 <ul>
-<li>Bloco 0: 0000-0001-0005-0015-0100-0150-0190-0200-0220-0300-0305-0400-0450-0460-0500-0600-0990</li>
-<li>Bloco C: C001-C100-C101-C110-C111-C113-C120-C130-C140-C141-C160-C170-C172-C190-C195-C400-C405-C410-C420-C460-C470-C490-C500 (entrada)-C590 (entrada)-C990</li>
+<li>Bloco 0: 0000-0001-0005-0015-0100-0150-0190-0200-0210-0220-0300-0305-0400-0450-0460-0500-0600-0990</li>
+<li>Bloco C: C001-C100-C101-C110-C111-C113-C114-C120-C130-C140-C141-C160-C170-C172-C190-C195-C400-C405-C410-C420-C460-C470-C490-C500 (entrada)-C590 (entrada)-C990</li>
 <li>Bloco D (somente para notas fiscais de entrada): D001-D100-D190-D195-D500-D590-D990</li>
 <li>Bloco E: E001-E100-E110-E111-E116-E200-E210-E220-E250-E300-E310-E311-E312-E313-E316-E500-E510-E520-E530-E990</li>
 <li>Bloco G: G001-G110-G125-G126-G130-G140-G990</li>
-<li>Bloco H: H001-H005-H010-H990</li>
-<li>Bloco 1: 1001-1010-1990</li>
+<li>Bloco H: H001-H005-H010-H020-H990</li>
+<li>Bloco K:&nbsp;<span style="display: inline !important; float: none; background-color: #ffffff; color: #000000; cursor: text; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">K001-K100-K200-K220-K230-K235</span></li>
+<li>Bloco 1: 1001-1010-1990
+<ul>
+<li>Bloco 1900-1910-1920-1921-1923-1926-1990 only para o estado do Rio Grande do Sul</li>
+</ul>
+</li>
 </ul>
 </td>
 <td>Sim</td>
 <td>Sim</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Resolução 13/2019 e Portaria SUCIEF 55/2019-RJ</td>
+<td>&nbsp;Sim</td>
 <td>Sim</td>
 </tr>
 <tr>
-<td></td>
-<td>Bloco C: C114</td>
-<td>Não</td>
-<td>Sim</td>
-<td>Sim</td>
-</tr>
-<tr>
-<td></td>
-<td>Bloco K e relacionados: 0210- K001-K100-K200-K220-K230-K235</td>
-<td>Não</td>
+<td>&nbsp;</td>
+<td><strong>Fora do escopo:</strong> SPED Fiscal com requisitos específicos do estado/região, conforme descrito na seção <a href="#brazilian-localization-strategy">Estratégia de localização para o Brasil</a> deste tópico; e as empresas categorizadas como Perfil B e Perfil C.</td>
 <td>Sim</td>
 <td>Sim</td>
 </tr>
 <tr>
-<td></td>
-<td><strong>Fora do escopo:</strong> SPED Fiscal com requisitos específicos do estado ou região, conforme descrito na seção <a href="#brazilian-localization-strategy">Estratégia de localização para o Brasil</a> deste tópico; e as empresas categorizadas como Perfil B e Perfil C</td>
+<td>Portaria CAT 42/2018-SP</td>
+<td>
+<ul style="color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">
+<li>Layout 1.1 B</li>
+</ul>
+</td>
+<td>&nbsp;Sim</td>
 <td>Sim</td>
+</tr>
+<tr>
+<td><span style="display: inline !important; float: none; background-color: #ffffff; color: #000000; cursor: text; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">DRCST para o estado de Santa Catarina</span></td>
+<td>
+<ul>
+<li>Portaria SEF Nº 396/2018</li>
+<li>Portaria SEF Nº 208/2019</li>
+<li>Registros:
+<ul>
+<li>Bloco 0: 0000-0001-0005-0100-0190-0200-0220</li>
+<li>Bloco 2: 2100-2110-2113-2114-2115-2120-2121-2130-2132-2133</li>
+<li>Bloco H: H001-H005-H010-H990</li>
+<li>Bloco 9: 9001-9900-9990-9999</li>
+</ul>
+</li>
+</ul>
+</td>
 <td>Sim</td>
 <td>Sim</td>
 </tr>
 <tr>
 <td>Contribuições do SPED(PIS e COFINS)</td>
-<td>Geração de um arquivo de texto de acordo com o layout 004</td>
-<td>Não</td>
+<td>Geração de um arquivo de texto de acordo com o layout 005 e anterior</td>
 <td>Sim</td>
 <td>Sim</td>
 </tr>
 <tr>
-<td></td>
-<td>Suporte para o regime de apuração de imposto cumulativo</td>
-<td>Não</td>
-<td>Sim</td>
-<td>Sim</td>
-</tr>
-<tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Suporte para o tipo de empresa Sociedade empresária em geral</td>
-<td>Não</td>
 <td>Sim</td>
 <td>Sim</td>
 </tr>
 <tr>
-<td></td>
-<td>Suporte para o critério de escrituração Regime de competência – Escrituração detalhada somente</td>
-<td>Não</td>
+<td>&nbsp;</td>
+<td>Suporte para o critério de escrituração Regime de Competência – Escrituração detalhada somente</td>
 <td>Sim</td>
 <td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Suporte para os seguintes registros:
 <ul>
-<li>Bloco 0: 0000-0001-0100-0110-0140-0150-0190-0200-0400-0450-0990</li>
+<li>Bloco 0: 0000-0001-0100-0110-0111-0140-0150-0190-0200-0400-0450-0990</li>
 <li>Bloco A: A001-A010-A100-A110-A111-A120-A170-A990</li>
-<li>Bloco C: C001-C010-C100-C110-C111-C120-C170-C180-C181-C185-C188-C190-C191-C195-C198-C199-C380-C381-C385-C400-C405-C481-C485-C490-C491-C495-C500-C501-C505-C509</li>
+<li>Bloco C: C001-C010-C100-C110-C111-C120-C170-C175-C180-C181-C185-C188-C190-C191-C195-C198-C199-C380-C381-C385-C400-C405-C481-C485-C490-C491-C495-C500-C501-C505-C509</li>
 <li>Bloco D (somente para notas fiscais de entrada): D001-D010-D100-D101-D105-D111-D500-D501-D505-D509</li>
-<li>Bloco F: F010-F100-F111-F600-F990</li>
-</ul>
-</td>
-<td>Sim</td>
-<td>Sim</td>
-<td>Sim</td>
-</tr>
-<tr>
-<td></td>
-<td>Suporte para os seguintes registros:
-<ul>
-<li>Bloco 0: 0111</li>
-<li>Bloco C: C175</li>
-<li>Bloco F: F120-F129-F130-F139-F700-F800</li>
+<li>Bloco F: F010-F100-F111-F120-F129-F130-F600-F700-F800-F990</li>
 <li>Bloco M: M001-M100-M105-M110-M115-M200-M205-M210-M220-M225-M400-M410-M500-M505-M510-M515-M600-M606-M610-M620-M625-M800-M810-M990</li>
 <li>Bloco 1: 1100-1300-1500-1700</li>
 </ul>
 </td>
-<td>Não</td>
-<td>Sim</td>
-<td>Sim</td>
-</tr>
-<tr>
-<td></td>
-<td><strong>Fora do escopo:</strong> o processo de apuração de impostos e a geração de blocos relacionados (M) para os regimes Não cumulativo e Ambos</td>
-<td>Sim</td>
 <td>Sim</td>
 <td>Sim</td>
 </tr>
 <tr>
 <td>SPED ECF</td>
 <td>Geração de um arquivo de texto usando o Management Reporter
-<p>Layouts 001, 002, 003 e 004</p>
+<p>Layouts 005 e anterior</p>
 <p>Suporte para os seguintes blocos e registros:</p>
 <ul>
 <li>Bloco 0: 0000-0001-0010-0020-0030-0035-0930-0990</li>
@@ -1163,81 +983,64 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <li>Bloco V (DEREX): V001-V010-V020-V030-V100-V990</li>
 </ul>
 </td>
-<td>Não</td>
 <td>Sim</td>
 <td>Sim</td>
 </tr>
 <tr>
 <td>SPED Reinf</td>
-<td>Geração de eventos R-1000, R-1070, R-2010, R-2020, R-2060, R-2098, R-2099, R-5011
-<p>Versão do layout 1.3.02</p>
+<td>
+<div>Geração de eventos:</div>
+<ul>
+<li>R-1000, R-1070, R-2010, R-2020, R-2060, R-2098, R-2099, R-5011</li>
+<li>Versão do layout 1.4</li>
+</ul>
 </td>
-<td>Não</td>
 <td>Sim</td>
 <td>Sim</td>
 </tr>
 <tr>
 <td>SINTEGRA</td>
 <td>Geração de arquivos de texto de acordo com a versão 3 - ICMS‑76/03, que está disponível em <a href="http://www.sintegra.gov.br/">http://www.sintegra.gov.br</a></td>
-<td>Não</td>
 <td>Sim</td>
 <td>Não</td>
 </tr>
 <tr>
 <td>GIA-SP</td>
-<td>Geração de arquivos de texto da GIA do estado de São Paulo de acordo com a versão 08.00 (01/02/2013), que está disponível em <a href="http://www.fazenda.sp.gov.br/download/download_gia.shtm">http://www.fazenda.sp.gov.br/download/download_gia.shtm</a></td>
-<td>Não</td>
+<td>Geração de arquivos de texto da GIA do estado de S&atilde;o Paulo de acordo com a versão 08.00 (01/02/2013), que está disponível em <a href="http://www.fazenda.sp.gov.br/download/download_gia.shtm">http://www.fazenda.sp.gov.br/download/download_gia.shtm</a></td>
 <td>Sim</td>
 <td>Sim</td>
 </tr>
 <tr>
 <td>GIA-ST Nacional</td>
 <td>Geração de arquivos de texto da GIA‑ST de acordo com a versão 3.1, que está disponível em <a href="http://www.fazenda.sp.gov.br/download/downloadgiast.shtm">http://www.fazenda.sp.gov.br/download/downloadgiast.shtm</a></td>
-<td>Não</td>
 <td>Sim</td>
 <td>Sim</td>
 </tr>
 <tr>
 <td>SPED Contábil</td>
 <td>Geração de arquivos de texto do SPED Contábil
-<p>Versões de layout suportadas: 2.0, 3.0, 4.0, 5.0 e 6.0</p>
+<p>Versões de layout suportadas: 7.0 e anterior</p>
 </td>
-<td>Não</td>
 <td>Sim</td>
 <td>Sim</td>
 </tr>
 <tr>
-<td></td>
+<td>&nbsp;</td>
 <td>Suporte para o tipo G de escrituração contábil (Day Book - Livro Diário) e a geração dos seguintes blocos e registros:
 <ul>
-<li>Bloco 0: 0000-0001-0007-0220-0990</li>
-<li>Bloco I: I001-I010-I020-I050-I052-I100-I150-I155-I200-I250-I350-I355-I990</li>
-<li>Bloco J: J001-J005-J100-J150-J900-J930-J999</li>
-<li>Bloco 9: 9900-9999</li>
-</ul>
-<strong>Fora do escopo:</strong> Gráfico de conta referenciado (mapeamento entre CoA local e CoA do governo)</td>
-<td>Não</td>
-<td>Sim</td>
-<td>Sim</td>
-</tr>
-<tr>
-<td>Extensibilidade da obrigação fiscal</td>
-<td>A estrutura de obrigações fiscais visa oferecer uma experiência unificada para desenvolvedores de obrigações fiscais (por exemplo, parceiros e fornecedores independentes de software [ISVs]), para que eles possam disponibilizar suas obrigações fiscais aos usuários no módulo <strong>Livros fiscais</strong> do AX 2012. A estrutura consiste em um conjunto de artefatos de base e diretrizes de design orientadas a objetos que devem ser seguidos pelos fornecedores de obrigações fiscais. A Microsoft, enquanto fornecedora de obrigações fiscais, também desenvolve suas próprias obrigações fiscais aproveitando essa estrutura.
-<ul>
-<li>Sped Fiscal</li>
-<li>Contribuições EFD</li>
-<li>Sped ECD e ECF</li>
-<li>GIA-SP</li>
-<li>GIA-ST</li>
-<li>Sintegra</li>
+<li>Bloco 0: 0000-0001-0007-0020-0035-0150-0180-0990</li>
+<li>Bloco I: I001-I010-I030-I050-I051-I052-I100-I150-I155-I200-I250-I350-I355-I990</li>
+<li>Bloco J: J001-J005-J100-J150-J800-J801-J900-J930-J932-J935-J999</li>
+<li>Bloco 9: 9001-9900-9990-9999</li>
 </ul>
 </td>
-<td>Não</td>
 <td>Sim</td>
 <td>Sim</td>
 </tr>
 </tbody>
 </table>
+<p>&nbsp;</p>
+
 
 ## <a name="out-of-scope"></a>Fora do escopo
 

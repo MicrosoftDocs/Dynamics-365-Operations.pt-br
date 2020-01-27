@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2c18d753eba18c4cc7b2ba2d8dd35d8d99afae7e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 58acd34e411dc6deb5e369bb39165ce82fb1c44f
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517344"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898934"
 ---
 # <a name="use-workflows-to-manage-employee-information"></a>Use fluxos de trabalho para gerenciar informações de funcionário
-
-[!include [banner](includes/banner.md)]
 
 Este tópico explica como você pode usar o recurso de fluxo de trabalho para recursos humanos para gerenciar informações de funcionários. Por exemplo, você pode associar um fluxo de trabalho a uma posição e configurar um fluxo de trabalho de aprovação que é iniciado quando os funcionários alteram seu registro.
 

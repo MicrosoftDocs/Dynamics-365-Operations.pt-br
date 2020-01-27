@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8e0e98cf1a953355515f9145483aed8cbaa2ad2
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 7f05e119f02d2d5e7c76c554d6a8b3db97c86ab0
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653639"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934854"
 ---
 # <a name="product-configuration-overview"></a>Visão geral de configuração do produto
 
@@ -61,7 +61,7 @@ Um modelo de configuração do produto consiste em um ou mais componentes que s�
 Cada componente tem um ou mais atributos que identificam suas propriedades. Os atributos são o que os usuários escolherão durante o processo de configuração. Os atributos controlam relacionamentos inter e intracomponentes através da inclusão em restrições ou cálculos. Com as condições aplicadas às linhas da BOM, os atributos podem ser usados para determinar as partes físicas que constituem o produto configurado. Além disso, um atributo pode controlar a propriedade de uma linha BOM através de um mecanismo de mapeamento. Existe funcionalidade semelhante para as operações de roteiro, relativas às configurações de inclusão e propriedade.
 
 >[!NOTE]
-> Ao criar tipos de atributo, evite criar um grande número de valores para o tipo de atributo domínio. Isso pode causar lentidões no configurador de produtos. 
+> Ao criar tipos de atributo, evite criar um grande número de valores para o tipo de atributo de domínio. Isso pode causar lentidões no configurador de produtos. 
 
 ### <a name="expression-constraints"></a>Restrições de expressão
 

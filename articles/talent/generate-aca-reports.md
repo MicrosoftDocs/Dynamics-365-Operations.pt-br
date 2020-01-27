@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: f03e414683465e7275d6c48a843306abefbacaf0
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3490378ff2c4a05b490bf268aada6e8be17b77f9
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505832"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898657"
 ---
 # <a name="generate-affordable-care-act-aca-reports"></a>Gerar relatórios segundo a Lei de Serviços de Saúde Acessíveis (ACA)
-
-[!include [banner](includes/banner.md)]
 
 Esta funcionalidade está disponível para auxiliar empregadores que precisam rastrear as informações relatadas nos formulários 1095-B e 1095-C, em apoio à parte do **Mandato do Empregador** da Lei de Serviços de Saúde Acessíveis. Observe que esta funcionalidade está habilitada somente para entidades legais nos Estados Unidos.
 

@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: b44287bf22f0b6c4e33a29b4b86aaae934505a43
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 5bd11e5dceb831968c8458ec07d2aca8fb660763
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814680"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898471"
 ---
 # <a name="benefit-eligibility-policies"></a>Políticas de qualificação para benefícios
-
-[!include [banner](includes/banner.md)]
 
 Este tópico fornece informações sobre as diretivas de qualificação de benefício, o que ajuda a definir quem está qualificado para benefícios específicos.
 

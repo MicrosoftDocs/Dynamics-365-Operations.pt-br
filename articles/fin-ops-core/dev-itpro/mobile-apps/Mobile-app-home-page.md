@@ -3,7 +3,7 @@ title: Home page de aplicativo móvel
 description: Este tópico descreve o aplicativo móvel Finance and Operations e fornece links para recursos que podem ajudar você a implementá-lo em sua organização.
 author: sericks007
 manager: AnnBe
-ms.date: 09/17/2019
+ms.date: 11/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 89b3762a4d64861bac682c3f519c26e95cd944b2
-ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
+ms.openlocfilehash: aaff4e3b3bfb079e183a12a5a85e452eed6df51d
+ms.sourcegitcommit: e30ced8f136ef23017d2d8215a756236e42eec25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2781864"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2853923"
 ---
 # <a name="mobile-app-home-page"></a>Home page de Aplicativo móvel
 
@@ -149,3 +149,6 @@ A tabela a seguir inclui links para recursos que podem ajudá-lo a implementar o
 </tr>
 </tbody>
 </table>
+
+## <a name="troubleshooting"></a>Solução de problemas
+[Recursos da plataforma móvel](platform/mobile-platform-home-page.md#troubleshooting-the-app)

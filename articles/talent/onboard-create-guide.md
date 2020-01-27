@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a095fe97b05898403b501763204a462ee8dcc12a
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 2371d86165390503312c2848842acf4745a8ed7a
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814619"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898239"
 ---
-# <a name="create-and-send-an-onboarding-guide-by-using-dynamics-365-talent---onboard"></a>Criar e enviar um guia de integração usando o Dynamics 365 Talent - Onboard
+# <a name="create-and-send-an-onboarding-guide"></a>Criar e enviar uma guia de integração
 
 [!include [banner](includes/banner.md)]
 
@@ -105,7 +105,7 @@ Você pode salvar um guia de integração como modelo. Dessa forma, você poder�
 1. No menu esquerdo, selecione **Guias**.
 2. Selecione o botão **Mais** (as reticências \[**...**\]) no guia que deseja usar para criar um modelo e, em seguida, selecione **Salvar como modelo**.
 
-    ![[Salvando um guia de integração como modelo](./media/onboard-save-guide-as-template.png)](./media/onboard-save-guide-as-template.png)
+    ![[Salvando um guia de integração como um modelo](./media/onboard-save-guide-as-template.png)](./media/onboard-save-guide-as-template.png)
 
 3. Na janela **Salvar como um novo modelo**, digite um nome para o novo modelo e selecione **Salvar**.
 
