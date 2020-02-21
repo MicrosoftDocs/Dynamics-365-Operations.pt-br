@@ -1,0 +1,40 @@
+---
+title: Desabilitar regras no verificador de consistência das transações de varejo
+description: Este tópico descreve a funcionalidade para desabilitar as regras do verificador de consistência das transações de varejo no Microsoft Dynamics 365 Commerce.
+author: josaw1
+manager: AnnBe
+ms.date: 10/15/2019
+ms.topic: index-page
+ms.prod: ''
+ms.service: dynamics-365-retail
+ms.technology: ''
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: global
+ms.search.industry: Retail
+ms.author: josaw
+ms.search.validFrom: 2019-09-30
+ms.dyn365.ops.version: ''
+ms.openlocfilehash: b11b901fafc3907e9d3cae5cd554cc9a868a414c
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004334"
+---
+# <a name="disable-rules-in-the-retail-transaction-consistency-checker"></a><span data-ttu-id="a9d14-103">Desabilitar regras no verificador de consistência das transações de varejo</span><span class="sxs-lookup"><span data-stu-id="a9d14-103">Disable rules in the retail transaction consistency checker</span></span> 
+
+[!include [banner](../includes/banner.md)]
+
+[!include [banner](../includes/preview-banner.md)]
+
+<span data-ttu-id="a9d14-104">Os varejistas podem ter os cenários comerciais e processos que são exclusivos deles.</span><span class="sxs-lookup"><span data-stu-id="a9d14-104">Retailers can have business scenarios and processes that are unique to them.</span></span> <span data-ttu-id="a9d14-105">Portanto, nem todas as regras incluídas por padrão no verificador de consistência das transações de comércio são aplicáveis a todos os varejistas.</span><span class="sxs-lookup"><span data-stu-id="a9d14-105">Therefore, not all the rules that are included by default in the commerce transaction consistency checker are applicable to all retailers.</span></span> <span data-ttu-id="a9d14-106">Para acomodar diferenças, o Microsoft Dynamics 365 Commerce fornece uma funcionalidade que pode ser usada para desabilitar as regras que não são aplicáveis.</span><span class="sxs-lookup"><span data-stu-id="a9d14-106">To accommodate differences, Microsoft Dynamics 365 Commerce provides functionality that can be used to disable the rules that aren't applicable.</span></span>
+
+<span data-ttu-id="a9d14-107">Para exibir a lista de regras que estão disponíveis no verificador de consistência das transações de varejo em seu ambiente e para consultar e o status de cada regra, acesse **Varejo e Comércio \> Configuração da sede \> Parâmetros \> Parâmetros de comércio** e selecione a guia **Validação da transação**.</span><span class="sxs-lookup"><span data-stu-id="a9d14-107">To view the list of rules that are available in the transaction consistency checker in your environment, and to see the status of each rule, go to **Retail and Commerce \> Headquarters setup \> Parameters \> Commerce parameters**, and select the **Transaction validation** tab.</span></span>
+
+<span data-ttu-id="a9d14-108">Por padrão, o status de cada regra é definido como **Habilitado**.</span><span class="sxs-lookup"><span data-stu-id="a9d14-108">By default, the status of every rule is set to **Enabled**.</span></span> <span data-ttu-id="a9d14-109">Portanto, todas as regras são usadas para validar transações de varejo antes que elas sejam incluídas nos demonstrativos de comércio.</span><span class="sxs-lookup"><span data-stu-id="a9d14-109">Therefore, all the rules are used to validate transactions before they are pulled into the commerce statements.</span></span> <span data-ttu-id="a9d14-110">Para desabilitar uma regra, altere seu status para **Desabilitado**.</span><span class="sxs-lookup"><span data-stu-id="a9d14-110">To disable a rule, change its status to **Disabled**.</span></span> <span data-ttu-id="a9d14-111">As regras desabilitadas não serão consideradas quando as transações forem validadas durante o processo de cálculo do demonstrativo.</span><span class="sxs-lookup"><span data-stu-id="a9d14-111">Disabled rules aren't considered when transactions are validated during the statement calculation process.</span></span>
+
+<span data-ttu-id="a9d14-112">Para ignorar o processo de validação inteiro, independentemente das regras que estão habilitadas, acesse **Varejo e Comércio \> Configuração da sede \> Parâmetros \> Parâmetros de comércio** e, na guia **Validação da transação**, defina a opção **Desativar verificador de consistência das transações de comércio** como **Sim**.</span><span class="sxs-lookup"><span data-stu-id="a9d14-112">To bypass the whole validation process, regardless of the rules that are enabled, go to **Retail and Commerce \> Headquarters setup \> Parameters \> Commerce parameters**, and then, on the **Transaction validation** tab, set the **Disable consistency checker for Commerce transactions** option to **Yes**.</span></span> <span data-ttu-id="a9d14-113">Depois que essa opção for definida como **Não**, ela não poderá ser redefinida como **Sim** na interface do usuário (IU).</span><span class="sxs-lookup"><span data-stu-id="a9d14-113">After this option is set to **No**, it can't be set back to **Yes** from the user interface (UI).</span></span>

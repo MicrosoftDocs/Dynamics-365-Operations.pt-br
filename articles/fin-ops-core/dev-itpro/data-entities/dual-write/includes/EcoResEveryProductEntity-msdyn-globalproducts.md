@@ -1,0 +1,8 @@
+## <a name="all-products-to-msdyn_globalproducts"></a><span data-ttu-id="34ca2-101">Todos os produtos para msdyn_globalproducts</span><span class="sxs-lookup"><span data-stu-id="34ca2-101">All products to msdyn_globalproducts</span></span>
+
+<span data-ttu-id="34ca2-102">Este modelo sincroniza dados entre aplicativos do Finance and Operations e do Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="34ca2-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="34ca2-103">Campo do Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="34ca2-103">Finance and Operations field</span></span> | <span data-ttu-id="34ca2-104">Tipo de mapa</span><span class="sxs-lookup"><span data-stu-id="34ca2-104">Map type</span></span> | <span data-ttu-id="34ca2-105">Outro campo Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="34ca2-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="34ca2-106">Valor padrão</span><span class="sxs-lookup"><span data-stu-id="34ca2-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="34ca2-107">PRODUCTNAME</span><span class="sxs-lookup"><span data-stu-id="34ca2-107">PRODUCTNAME</span></span> | >> | <span data-ttu-id="34ca2-108">msdyn_productname</span><span class="sxs-lookup"><span data-stu-id="34ca2-108">msdyn_productname</span></span> | 
+<span data-ttu-id="34ca2-109">PRODUCTNUMBER</span><span class="sxs-lookup"><span data-stu-id="34ca2-109">PRODUCTNUMBER</span></span> | >> | <span data-ttu-id="34ca2-110">msdyn_productnumber</span><span class="sxs-lookup"><span data-stu-id="34ca2-110">msdyn_productnumber</span></span> | 

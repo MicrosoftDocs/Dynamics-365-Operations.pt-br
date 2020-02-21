@@ -1,0 +1,7 @@
+## <a name="organization-hierarchy-type-to-msdyn_internalorganizationhierarchytypes"></a><span data-ttu-id="2c68f-101">Tipo de hierarquia da organização para msdyn_internalorganizationhierarchytypes</span><span class="sxs-lookup"><span data-stu-id="2c68f-101">Organization hierarchy type to msdyn_internalorganizationhierarchytypes</span></span>
+
+<span data-ttu-id="2c68f-102">Este modelo sincroniza dados entre aplicativos do Finance and Operations e do Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="2c68f-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="2c68f-103">Campo do Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="2c68f-103">Finance and Operations field</span></span> | <span data-ttu-id="2c68f-104">Tipo de mapa</span><span class="sxs-lookup"><span data-stu-id="2c68f-104">Map type</span></span> | <span data-ttu-id="2c68f-105">Outro campo Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="2c68f-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="2c68f-106">Valor padrão</span><span class="sxs-lookup"><span data-stu-id="2c68f-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="2c68f-107">NAME</span><span class="sxs-lookup"><span data-stu-id="2c68f-107">NAME</span></span> | > | <span data-ttu-id="2c68f-108">msdyn_name</span><span class="sxs-lookup"><span data-stu-id="2c68f-108">msdyn_name</span></span> | 
