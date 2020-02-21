@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Esta funcionalidade está disponível como visualização pública em qualquer ambiente de área restrita ou de avaliação. Ele não está disponível em ambientes de produção. O conteúdo e as funcionalidades estão sujeitos a alteração. Para obter mais informações sobre os recursos de visualização, consulte [Gerenciar recursos](../hr-admin-manage-features.md).

@@ -1,7 +1,7 @@
-Ao copiar um banco de dados entre ambientes, você precisará executar a ferramenta de reprovisionamento de ambiente para que o banco de dados copiado fique totalmente funcional, para garantir que todos os componentes do Retail estejam atualizados.
+Ao copiar um banco de dados entre ambientes, você precisará executar a ferramenta de reprovisionamento de ambiente para que o banco de dados copiado seja totalmente funcional, para garantir que todos os componentes do Commerce estejam atualizados.
 
 > [!IMPORTANT]
-> Recomendamos que você execute esse procedimento mesmo que não esteja usando vários componentes do Retail, porque a funcionalidade do Retail é incluída em todos os ambientes. 
+> Recomendamos que você execute esse procedimento mesmo que não esteja usando vários componentes do Commerce, porque a funcionalidade do Commerce é incluída em todos os ambientes. 
 
 Antes de prosseguir, você deve verificar se os seguintes pré-requisitos são atendidos:
 1. Se você estiver fazendo upgrade para a versão de julho de 2017 (também conhecida como 7.2) 7.2.11792.56024, aplique os hotfixes X++ de aplicativo a seguir no ambiente de destino antes de executar o upgrade de dados no ambiente. Isso evitará que vários erros ocorram durante o upgrade de dados:
