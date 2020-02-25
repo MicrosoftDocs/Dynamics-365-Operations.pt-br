@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 642cb5c145dec68631eb9ab27d926ba8ab75c59b
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: c2235510c7ef386d66fe3b137f8e791d14706379
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914901"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001820"
 ---
 # <a name="customize-site-navigation"></a>Personalizar a navegação do site
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como criar uma hierarquia online personalizada de navegação para organizar seus produtos para procurar no site do Microsoft Dynamics 365 Commerce.
@@ -35,11 +35,11 @@ Este tópico descreve como criar uma hierarquia online personalizada de navegaç
 
 As lojas online normalmente permitem que os clientes descubram e naveguem entre produtos por meio de categorias de produto. Este recurso é normalmente fornecido por guias na parte superior da página ou na barra de navegação à esquerda. No Dynamics 365 Commerce, você pode criar e gerenciar uma estrutura hierárquica de navegação da categoria e os produtos que estão incluídos nas várias categorias.
 
-## <a name="create-a-retail-channel-navigation-hierarchy"></a>Criar uma hierarquia de navegação de canal de varejo
+## <a name="create-a-channel-navigation-hierarchy"></a>Criar uma hierarquia de navegação de canal
 
-Para criar uma hierarquia de navegação de canal de varejo, siga essas etapas.
+Para criar uma hierarquia de navegação de canal, siga estas etapas.
 
-1. Vá para **Varejo\> Produtos e categorias \> Gerenciamento de categorias e produtos**.
+1. Vá para **Varejo e Comércio \> Produtos e categorias \> Gerenciamento de categorias e produtos**.
 1. Selecione **Hierarquias de categoria** e depois **Novo**.
 1. Nomeie a hierarquia.
 
@@ -57,28 +57,28 @@ Por padrão, as categorias que você define em ordem alfabética aparecerão no 
 
 ## <a name="assign-a-category-hierarchy-type"></a>Atribuir um tipo de hierarquia de categoria
 
-1. Vá para **Varejo\> Produtos e categorias \> Gerenciamento de categorias e produtos**.
+1. Vá para **Varejo e Comércio \> Produtos e categorias \> Gerenciamento de categorias e produtos**.
 1. Selecione **Hierarquias de categoria**.
 1. No Painel de Ação, na guia **Hierarquias de categoria**, no grupo **Configurar**, selecione **Associar tipo de hierarquia**.
 1. Selecione **Novo**.
-1. No campo **Tipo de hierarquia de categoria**, selecione **Hierarquia de navegação de canal de varejo**.
+1. No campo **Tipo de hierarquia de categoria**, selecione **Hierarquia de navegação de canal**.
 1. No campo **Hierarquia de categoria**, selecione a hierarquia de navegação de canal criadas anteriormente.
 
 ## <a name="publish-new-or-updated-navigation-hierarchies"></a>Publicar hierarquias de navegação novas ou atualizadas
 
 Para tornar sua hierarquia de navegação disponível na loja online, siga essas etapas.
 
-1. Vá para **Varejo \> Configuração de canal \> Categorias do canal e atributos de produto**.
+1. Vá para **Varejo e Comércio \> Configuração de canal \> Categorias do canal e atributos de produto**.
 1. Na árvore a esquerda, selecione seu armazenamento online.
 1. Selecione **Publicar atualizações de canal**.
-1. Vá para **Varejo \> TI de varejo \> Agenda de distribuição**.
+1. Vá para **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**.
 1. Na lista, localize e selecione **Trabalho 1040**.
 1. Selecione **Executar agora**.
 1. Repita as etapas 5 e 6 para a trabalhos 1070 e 1150.
 
 ## <a name="show-categories-on-your-site"></a>Exibir categorias no site
 
-Para exibir sua hierarquia de categoria na loja online, você deve adicionar o módulo do menu de navegação no local apropriado em um modelo ou fragmento. O módulo de menu de navegação mostrará sua hierarquia de navegação, dado que você publicou a hierarquia de navegação de varejo para o canal que está associado ao site.
+Para exibir sua hierarquia de categoria na loja online, você deve adicionar o módulo do menu de navegação no local apropriado em um modelo ou fragmento. O módulo de menu de navegação mostrará a hierarquia de navegação, desde que você a tenha publicado no canal ao qual o site está associado.
 
 > [!NOTE]
 > O módulo de menu de navegação incluído no kit inicial de loja permite que os usuários naveguem apenas em categorias que não têm subcategorias. Se seus clientes podem navegar em categorias que têm subcategorias, você deve personalizar o módulo de menu de navegação.

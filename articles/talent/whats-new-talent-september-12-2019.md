@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-09-10
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 14e3482f366319851bed84b6cdd6135f0bcd1e80
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 0aadecd5b37759492f7895ccfda1a777793a08b3
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897319"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006232"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-september-10-2019"></a>Novidades ou alterações no Dynamics 365 for Talent (10 de setembro de 2019)
 
@@ -55,7 +55,7 @@ Para obter mais informações sobre como as alterações são publicadas, consul
 
 ### <a name="platform-update-29"></a>Update 29 para plataforma
 
-Para obter mais detalhes sobre a atualização de Plataforma 29, consulte [Exibição de recursos na atualização de plataforma 29 do Dynamics 365 for Finance and Operations (outubro de 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+Para obter mais detalhes sobre a atualização de Plataforma 29, consulte [Exibição de recursos na atualização de plataforma 29 do Dynamics 365 for Finance and Operations (outubro de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
 
 ### <a name="new-job-base-entity-available-in-data-management-framework-347202"></a>Nova entidade base de trabalho disponível na estrutura de gerenciamento de dados (347202)
 

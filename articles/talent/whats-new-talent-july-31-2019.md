@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 96937d48e0d1003adbc5f7fedc89b2686ace01cd
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 311042caf6a391a06c7e2d8c4c2c2f6e1f855437
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899013"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006278"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-30-2019"></a>Novidades ou alterações no Dynamics 365 Talent (30 de julho de 2019)
 
@@ -41,7 +41,7 @@ As alterações descritas nesta seção aplicam-se ao número da compilação 8.
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>Suporte regional ao Canadá e ao sudeste da Ásia
 
-Temos o prazer de anunciar que as regiões do Canadá e do sudeste da Ásia estarão disponíveis para o Talent em 1º de agosto de 2019. Com essa alteração, você pode criar ambientes nas regiões do Canadá e da Ásia, e todos os dados do Talent serão mantidos apenas dentro desses locais. Você pode criar um ambiente nessas novas regiões selecionando o local na caixa de diálogo Novo ambiente e usar esse ambiente para provisionar o Talent no LCS conforme descrito em [Provisionar o Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Temos o prazer de anunciar que as regiões do Canadá e do sudeste da Ásia estarão disponíveis para o Talent em 1º de agosto de 2019. Com essa alteração, você pode criar ambientes nas regiões do Canadá e da Ásia, e todos os dados do Talent serão mantidos apenas dentro desses locais. Você pode criar um ambiente nessas novas regiões selecionando o local na caixa de diálogo Novo ambiente e usar esse ambiente para provisionar o Talent no LCS conforme descrito em [Provisionar o Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
 
 Não há suporte para a migração de dados de projetos existentes de outras regiões para as regiões canadense e asiática. Somente os novos projetos podem ser provisionados a essas novas regiões com suporte.
 

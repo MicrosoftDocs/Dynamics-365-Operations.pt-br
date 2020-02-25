@@ -3,7 +3,7 @@ title: Módulo de contêiner
 description: Este tópico abrange os módulos de contêiner e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,27 +17,28 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 22a09b61fbe3bd1cca96011d3fb81a12ef1bc844
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 93c16da0988cc955835231bdd1f7342f19063f85
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697051"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025496"
 ---
 # <a name="container-module"></a>Módulo de contêiner
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Este tópico abrange os módulos de contêiner e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Visão geral
 
-Um módulo de contêiner é um módulo dentro do qual outros módulos são hospedados. É o contêiner mais genérico usado no Dynamics 365 Commerce. O objetivo principal de um módulo de contêiner é definir, por meio das suas propriedades definidas, o layout dos módulos que estão dentro dele. Por exemplo, esses módulos podem aparecer lado a lado em um layout de duas colunas, três colunas, quatro colunas ou seis colunas. Eles também podem ser limitados à largura do contêiner ou podem preencher a tela. Um cabeçalho também pode ser adicionado a cada módulo de contêiner.
+Um módulo de contêiner é um módulo dentro do qual outros módulos são hospedados. O objetivo principal de um módulo de contêiner é definir, por meio das suas propriedades definidas para isso, o layout dos módulos contidos nele. Por exemplo, esses módulos podem aparecer lado a lado em um layout de duas colunas, três colunas, quatro colunas ou seis colunas. Eles também podem ser limitados à largura do contêiner ou podem preencher a tela. Um cabeçalho também pode ser adicionado a cada módulo de contêiner.
 
-Existem três tipos padrão de módulos de contêiner: contêiner, contêiner com 2 slots e contêiner com 3 slots. Módulos de qualquer tipo de módulo podem ser colocados dentro desses contêineres. Também existem tipos especiais de módulos de contêiner, como carrossel, bloco de conteúdo sofisticado, posicionamento do conteúdo, carrinho, finalização de compra, caixa de compra, cabeçalho e rodapé. Esses contêineres têm finalidades específicas e apenas tipos específicos de módulos compatíveis podem ser colocados dentro deles.
+Há suporte para três módulos: contêiner, contêiner com 2 slots e contêiner com 3 slots. Módulos de qualquer tipo podem ser colocados dentro desses contêineres. 
 
-Recomendamos que você coloque módulos dentro de um contêiner, para que possam ser limitados à largura do contêiner.
+> [!NOTE] 
+> Recomendamos que você sempre coloque módulos dentro de um módulo de contêiner, para que possam ser limitados à largura do contêiner.
 
 ## <a name="examples-of-container-modules-in-e-commerce"></a>Exemplos de módulos de contêiner no comércio online
 
@@ -98,30 +99,27 @@ Propriedades adicionais podem ser usadas para otimizar o layout para diferentes 
 
 Para adicionar um módulo de reprodução de contêiner a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
-1. Criar um modelo da página chamado **modelo de contêiner**.
-1. No slot **Principal** da página padrão, adicione um módulo de contêiner.
-1. No módulo de contêiner, adicione um módulo de recurso.
-1. Faça check-in do modelo e publique-o.
+1. Criar um modelo da página chamado **modelo de contêiner**. 
+1. No slot **Corpo**, adicione um módulo **Página padrão**.
+1. Termine de editar o modelo e publique-o.
 1. Use o modelo de contêiner que criou para criar uma página nomeada **Página do contêiner**.
 1. No slot **Principal** da nova página, adicione um módulo de contêiner.
-1. No painel de propriedades do módulo de contêiner, defina a propriedade **Número de colunas** como **1** e a propriedade **Largura** como **Ajustar contêiner**.
-1. No módulo de contêiner, adicione um módulo de recurso.
-1. No painel de propriedades do módulo de recurso, configure um cabeçalho.
+1. No painel de propriedades do módulo de contêiner, defina a propriedade **Número de colunas** como **1** e a propriedade **Largura** como **Preencher contêiner**.
+1. No módulo de contêiner, adicione um módulo de bloco de conteúdo.
+1. No painel de propriedades do módulo de bloco de conteúdo, configure o título, a imagem e o layout.
 1. Salve e exiba a página. Você deve verificar um módulo de recurso que se ajusta à largura do módulo do contêiner.
 1. No painel de propriedades do módulo de contêiner, altere o valor da propriedade **Número de colunas** para **3**.
-1. Adicione mais dois módulos de recursos ao módulo de contêiner.
-1. Salve e exiba a página. Agora você deve verificar três módulos de recursos que aparecem lado a lado.
-1. Depois de atingir o layout desejado, verifique a página e publique-a.
+1. Adicione mais dois módulos de bloco de conteúdo ao módulo de contêiner.
+1. Salve e exiba a página. Agora você deverá ver os três módulos de bloco de conteúdo que aparecem lado a lado.
+1. Depois de obter o layout desejado, termine de editar a página e publique-a.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral do kit de início](starter-kit-overview.md)
 
-[Módulo de carrossel](add-carousel.md)
+[Módulo do carrossel](add-carousel.md)
 
-[Módulo de bloco de conteúdo sofisticado](add-content-rich-block.md)
-
-[Módulo de posicionamento de conteúdo](add-content-placement-modules.md)
+[Módulo de bloco de texto](add-content-rich-block.md)
 
 [Módulo de caixa de compra](add-buy-box.md)
 

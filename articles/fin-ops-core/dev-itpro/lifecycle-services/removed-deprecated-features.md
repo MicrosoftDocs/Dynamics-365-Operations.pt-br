@@ -1,9 +1,9 @@
 ---
 title: Recursos removidos ou preteridos em Lifecycle Services (LCS)
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção do Microsoft Dynamics Lifecycle Services (LCS).
-author: sericks007
+author: AngelMarshall
 manager: AnnBe
-ms.date: 12/02/2019
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -12,15 +12,15 @@ audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: sericks
+ms.author: tsmarsha
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c792d06e9b0aa42919de924bdcc9118358779b72
-ms.sourcegitcommit: 75bbcff474cfb8d2f282be2b9d2d7984d1505fa3
+ms.openlocfilehash: 96ecd040ef8661765c0a3861d8e07fee3c241161
+ms.sourcegitcommit: fb7d0efd97754f1ae0b5aa765d0eeb3f57b8078f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2885446"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3027971"
 ---
 # <a name="removed-or-deprecated-features-in-lifecycle-services-lcs"></a>Recursos removidos ou preteridos em Lifecycle Services (LCS)
 
@@ -53,7 +53,7 @@ Esta lista é para que você possa considerar essas remoções e reprovações c
 </tr>
 <tr>
 <td><strong>Status</strong></td>
-<td>Preterido: o componente de diagramas de fluxograma no BPM deve ser removido no início de fevereiro de 2020. A seguinte funcionalidade será removida:
+<td>Preterido: o componente de diagramas de fluxograma no BPM deve ser removido em 2020. A seguinte funcionalidade será removida:
 <ul>
 <li>Os fluxogramas existentes não estarão disponíveis para exibição ou edição. As propriedades de forma associadas a atividades de fluxograma também não estarão disponíveis, pois toda a guia <strong>Fluxograma</strong> será removida. Esses fluxogramas incluem os fluxogramas padrão gerados automaticamente e personalizados que são modificados com base nesses fluxogramas padrão.</li>
 <li>O recurso análise de lacuna/ajuste herdado não estará disponível. Portanto, nenhuma lista de lacunas será criada automaticamente ou estará disponível para exportação.

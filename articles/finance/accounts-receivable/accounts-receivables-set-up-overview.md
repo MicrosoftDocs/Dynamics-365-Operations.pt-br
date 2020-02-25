@@ -1,5 +1,5 @@
 ---
-title: Configurar cobranças e crédito em contas a receber
+title: Configurar Contas a receber, créditos e cobranças
 description: Configurar Contas a receber e Crédito e cobranças para rastrear faturas e pagamentos recebidos dos clientes.
 author: ShivamPandey-msft
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0593f993b12bf5448a4f8d6a564d808f85d0548
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e6a64aeb9a98eae7b54de5870118d6c49e5370cc
+ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176470"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "3000270"
 ---
-# <a name="configure-accounts-receivables-and-credit-and-collections"></a>Configurar cobranças e crédito em contas a receber
+# <a name="configure-accounts-receivables-and-credit-and-collections"></a>Configurar Contas a receber, créditos e cobranças
 
 [!include [banner](../includes/banner.md)]
 
@@ -91,7 +91,7 @@ A tabela a seguir lista as páginas que dão suporte à configuração e à manu
 |                                                      |                                      |                                                                                                                                                                                                                                                                                   |
 | Configurando cobranças e crédito                   | Parâmetros de contas a receber       | Configure os parâmetros para o módulo de cobranças e crédito.                                                                                                                                                                                                                          |
 |                                                      | Categorias de caso                      | Configure uma categoria de caso que será usada para casos de cobrança.                                                                                                                                                                                                                   |
-|                                                      | Carta de cobrança                    | Criar e gerenciar seqüências de carta de cobrança e conectá-las com linhas da carta de cobrança.                                                                                                                                                                                      |
+|                                                      | Carta de cobrança                    | Criar e gerenciar sequências de carta de cobrança e conectá-las com linhas da carta de cobrança.                                                                                                                                                                                      |
 |                                                      | Agente de cobranças                    | Configure agentes de cobranças para uso na página Cobranças.                                                                                                                                                                                                                        |
 |                                                      | Equipe de cobranças                     | Configure uma equipe de cobrança que representa os funcionários que podem ser configurados como agentes. Uma equipe chamada Cobranças será configurada automaticamente em Parâmetros de contas a pagar se nenhuma equipe existir.                                                                                 |
 |                                                      | Instantâneo de classificação por vencimento de cliente              | Criar instantâneos de classificação por vencimento de clientes. Um instantâneo de classificação por vencimento contém os saldos classificados por vencimento calculados para um grupo de clientes a determinado ponto no tempo. Esta etapa requer que uma definição de período de classificação por vencimento seja configurada.                                                                           |

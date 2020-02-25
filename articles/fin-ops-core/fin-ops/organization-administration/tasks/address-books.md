@@ -1,7 +1,7 @@
 ---
 title: Configurar catálogos de endereços
 description: Use esse procedimento, e as decisões feitas no tópico Planejando a configuração do catálogo de endereços global e de catálogos de endereços adicionais, para configurar catálogos de endereços adicionais para sua organização.
-author: kfend
+author: msftbrking
 manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: business-process
@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kfend
+ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f8ffba13b4a025f39b7ca26206b93a4bb646bac5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 797e635beb0caa3228b667798405fd7be4158800
+ms.sourcegitcommit: 7a855deed9f95ca2589f38db214890464b2b9061
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189927"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "2951177"
 ---
 # <a name="configure-address-books"></a>Configurar catálogos de endereços
 

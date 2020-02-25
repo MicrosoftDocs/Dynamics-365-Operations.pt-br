@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1f2c0638caa7e4f6f831e592e3f7e3f5ab7d1d81
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: c8149c6e443c77dabfa641a698c931176bedbc98
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697810"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002627"
 ---
 # <a name="work-with-preset-layouts"></a>Trabalhar com layouts predefinidos
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como trabalhar com layouts predefinidos no Microsoft Dynamics 365 Commerce.
@@ -70,7 +70,7 @@ Para criar um layout predefinido do zero, siga estas etapas.
 Para modificar um layout predefinido, siga estas etapas.
 
 1. No painel de navegação à esquerda, selecione **Layouts**.
-1. No editor do layout, na árvore de destaque à esquerda, selecione o módulo para alterar. Em seguida, siga quaisquer uma dessas etapas:
+1. No editor do layout, na árvore de estrutura de tópicos à esquerda, selecione o módulo para alterar. Em seguida, siga quaisquer uma dessas etapas:
 
     - Para mover um módulo para cima ou para baixo dentro de seu pai, selecione o botão de reticências (**...**) do módulo e selecione **Mover para cima** ou **Mover para baixo**.
     - Para alterar as configurações padrão de um módulo, use o painel de propriedades para inserir valores padrão e para bloquear-los opcionalmente para todas as páginas downstream.
@@ -83,7 +83,7 @@ Uma prática comum é definir um tema padrão para todas as páginas com um layo
 
 Para definir ou alterar um tema para todas as páginas filho com o layout predefinido, siga estas etapas.
 
-1. No editor do layout, na árvore de destaque à esquerda, selecione o módulo de contêiner. (Normalmente, este módulo é o segundo nó e é chamado **Página padrão**.)
+1. No editor do layout, na árvore de estrutura de tópicos à esquerda, selecione o módulo de contêiner. (Normalmente, este módulo é o segundo nó e é chamado **Página padrão**.)
 1. No painel de propriedade à direita, no campo **Tema** , selecione um tema.
 
 ## <a name="save-check-in-preview-and-publish-a-preset-layout"></a>Salvar, fazer check-in, visualizar e publicar um layout predefinido

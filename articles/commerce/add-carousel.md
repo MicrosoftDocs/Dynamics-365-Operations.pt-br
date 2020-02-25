@@ -3,7 +3,7 @@ title: Módulo de carrossel
 description: Este tópico abrange os módulos de carrossel e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,25 +18,25 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c2c5adc8ab2e0330f7b07e5153fd8332ab0203e5
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: f279d7db0a92df9e64b1d3f6ca01c65ca1478d79
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785228"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025772"
 ---
 # <a name="carousel-module"></a>Módulo de carrossel
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Este tópico abrange os módulos de carrossel e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Visão geral
 
-Um módulo de carrossel é usado para colocar vários itens promocionais em um carrossel que os clientes possam navegar. É um módulo de contêiner especial que hospeda outros módulos. Por exemplo, um varejista pode usar um módulo de carrossel em uma home page para exibir vários novos produtos ou promoções.
+Um módulo de carrossel é usado para colocar vários itens promocionais (incluindo imagens sofisticadas) em uma faixa de carrossel rotatória na qual os clientes possam navegar. Por exemplo, um varejista pode usar um módulo de carrossel em uma home page para exibir vários novos produtos ou promoções.
 
-Você pode adicionar módulos de hero e recurso dentro de um módulo de carrossel. As propriedades do módulo de carrossel definem como esses módulos são renderizados.
+Você pode adicionar módulos de bloco de conteúdo dentro de um módulo de carrossel. As propriedades do módulo de carrossel definem como esses módulos são renderizados.
 
 ## <a name="examples-of-carousel-modules-in-e-commerce"></a>Exemplos de módulos de carrossel no comércio online
 
@@ -46,45 +46,39 @@ Você pode adicionar módulos de hero e recurso dentro de um módulo de carrosse
 
 ## <a name="carousel-module-properties"></a>Propriedades do módulo de carrossel
 
-| Nome da propriedade             | Alíquota                                | Descrição |
-|---------------------------|--------------------------------------|-------------|
-| Reprodução automática                  | **Verdadeiro** ou **Falso**                | Se o valor estiver definido como **Verdadeiro**, a transição entre os itens dentro no carrossel ocorrerá automaticamente. Se o valor estiver definido como **Falso**, nenhuma transição ocorrerá, a menos que o cliente use o teclado ou o mouse para passar de um item para o próximo. |
-| Intervalo de transição de slides | Um valor em segundos                   | O intervalo para transições entre itens. |
-| Animação de transição      | **Slide** ou **Fade**                | O efeito de transição. |
-| Largura                     | **Ajustar contêiner** ou **Preencher tela** | Se o valor estiver definido como **Ajustar contêiner**, os itens dentro do carrossel serão restritos à largura do carrossel. Se o valor estiver definido como **Preencher tela**, os itens não serão restritos à largura do carrossel, mas poderão entrar no modo de tela cheia. É possível alterar o valor para obter o layout desejado. |
+| Nome da propriedade             | Alíquota                 | Descrição |
+|---------------------------|-----------------------|-------------|
+| Reprodução automática                  | **Verdadeiro** ou **Falso** | Se o valor estiver definido como **Verdadeiro**, a transição entre os itens dentro no carrossel ocorrerá automaticamente. Se o valor estiver definido como **Falso**, nenhuma transição ocorrerá, a menos que o cliente use o teclado ou o mouse para passar de um item para o próximo. |
+| Intervalo de transição de slides | Um valor em segundos    | O intervalo para transições entre itens. |
+| Tipo de transação           | **Slide** ou **Fade** | O efeito de transição entre itens. |
+| Ocultar palheta do carrossel     | **Verdadeiro** ou **Falso** | Se o valor for definido como **True**, a palheta do carrossel e o indicador de sequência ficarão ocultos. |
+| Permitir descarte do carrossel    | **Verdadeiro** ou **Falso** | Se o valor estiver definido como **True**, os usuários poderão dispensar o carrossel. |
 
 ## <a name="add-a-carousel-module-to-a-page"></a>Adicionar um módulo de carrossel a uma página
 
 Para adicionar um módulo de carrossel a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
 1. Criar um modelo da página chamado **modelo de carrossel**.
-1. No slot **Principal** da página padrão, adicione um módulo de carrossel.
-1. Adicione um módulo de hero ao módulo de carrossel.
-1. Adicione um módulo de recurso ao módulo de carrossel.
+1. No slot **Corpo**, adicione um módulo **Página padrão**.
 1. Faça check-in do modelo e publique-o. 
 1. Use o modelo de carrossel que criou para criar uma página nomeada **página do carrossel**.
-1. No slot **Principal** da nova página, adicione um módulo de carrossel.
-1. Defina a propriedade **Largura** do módulo de carrossel como **Preencher tela**. 
-1. Defina a propriedade **Animação de transição** como **Slide**.
-1. Adicione um módulo de hero ao módulo de carrossel.
-1. No módulo de hero, adicione uma imagem e um cabeçalho e selecione **Salvar**.
-1. Adicione um módulo de recurso ao módulo de carrossel.
-1. No módulo de recurso, adicione uma imagem, um cabeçalho e um parágrafo de texto.
+1. No slot **Principal** da nova página, adicione um módulo de contêiner. 
+1. No painel à direita, defina o valor da **Largura** como **Preencher Tela**.
+1. Em **Estrutura de Tópicos de Página**, adicione um módulo de carrossel ao módulo de contêiner.
+1. Adicione um módulo de bloco de conteúdo ao módulo de carrossel. Defina as propriedades do módulo de bloco de conteúdo fornecendo **Título**, **Link**, **Layout** e outras propriedades.
+1. Adicione e configure outro módulo de bloco de conteúdo.
+1. Defina propriedades adicionais para o módulo do carrossel conforme necessário.
 1. Salve e exiba a página. A página deve mostrar um carrossel que possui dois módulos (um módulo de hero e um módulo de recurso). Você pode alterar propriedades adicionais para os módulos de carrossel, hero e recurso, para obter o efeito desejado.
-1. Insira a página e publique-a.
+1. Termine de editar a página e publique-a.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral do kit de início](starter-kit-overview.md)
 
-[Módulo de alerta](add-alert.md)
+[Módulo de faixa promocional](add-alert.md)
 
-[Módulo de bloco de conteúdo sofisticado](add-content-rich-block.md)
+[Módulo de bloco de texto](add-content-rich-block.md)
 
-[Módulo de posicionamento de conteúdo](add-content-placement-modules.md)
-
-[Módulo de recurso](add-feature-module.md)
-
-[Módulo de hero](add-hero-module.md)
+[Módulo de bloco de conteúdo](add-hero-module.md)
 
 [Módulo de reprodutor de vídeo](add-video-player.md)

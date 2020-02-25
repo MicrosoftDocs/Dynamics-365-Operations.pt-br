@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d949be57d9e9fe744860f5c4045bef2923b7f284
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 97aedf17bb6fa67fd08497ec6e15a7c92866fa4d
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249172"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026101"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Definir a dependência de configurações de ER em outros componentes
 
@@ -28,7 +28,7 @@ ms.locfileid: "2249172"
 
 Para executar estas etapas, primeiro você deve executar as etapas no guia de tarefas, ER Gerenciar configurações do mapeamento de modelo, e deve ter acesso ao Microsoft Dynamics Lifecycle Services (LCS).
 
-Este procedimento mostra como criar uma configuração de relatório eletrônico (ER) e especificar sua dependência de outros componentes de software para ajudar a garantir que a configuração seja baixada corretamente para uma versão específica do Finance and Operations. Neste exemplo, você criará as configurações de ER necessárias para a empresa exemplo, Litware, Inc. 
+Este procedimento mostra como criar uma configuração de relatório eletrônico (ER) e especificar sua dependência de outros componentes de software, para ajudar a garantir que a configuração seja baixada corretamente para uma versão específica do Finance and Operations. Neste exemplo, você criará as configurações de ER necessárias para a empresa exemplo, Litware, Inc. 
 
 Esse procedimento é destinado a usuários com a função de Administrador do sistema ou Desenvolvedor de relatório eletrônico. As etapas podem ser realizadas em qualquer empresa, porque as configurações de ER são compartilhadas entre as empresas. 
 
@@ -109,7 +109,7 @@ Esse procedimento é destinado a usuários com a função de Administrador do si
     * A versão 1.1 dessa configuração de mapeamento de modelo foi carregada para LCS usando o projeto de LCS para o repositório de ER configurado anteriormente.   
 
 ## <a name="evaluate-er-configuration-dependencies"></a>Avaliar dependências de configuração de ER
-    * Excluiremos as configurações criadas do sistema e as baixaremos novamente do repositório LCS.  
+Excluiremos as configurações criadas do sistema e as baixaremos novamente do repositório LCS.  
 1. Na árvore, selecione "Modelo de dados de amostra\Mapeamento de amostra".
 2. Clique em Excluir.
 3. Clique em Sim.
@@ -139,5 +139,5 @@ Esse procedimento é destinado a usuários com a função de Administrador do si
 25. Vá para Administração da organização > Relatório eletrônico > Configurações.
 26. Na árvore, expanda 'Modelo de dados de amostra'.
     * Observe que a configuração de mapeamento do modelo 'Mapeamento de amostra' foi baixada com a configuração selecionada do modelo de dados. Os dois arquivos são baixados juntos porque o ‘Mapeamento de amostra’ foi definido como implementação do modelo de dados selecionado e porque é aplicável ao aplicativo. A configuração 'Mapeamento de amostra (alternativo)' não foi baixada porque a condição para a versão do aplicativo necessária não foi satisfeita.   
-    * Se você entrar no Finance and Operations, registre o mesmo provedor, acesse o mesmo projeto do LCS e baixe a mesma configuração do modelo de dados, a configuração 'Mapeamento de amostra (alternativo)' será baixada, enquanto a configuração 'Mapeamento de amostra' será ignorada.  
+    * Se você se conectar ao Finance and Operations, registrar o mesmo provedor, acessar o mesmo projeto de LCS e baixar a mesma configuração do modelo de dados, a configuração 'Mapeamento de amostra (alternativo)' será baixada, enquanto a configuração 'Mapeamento de amostra' será ignorada.  
 

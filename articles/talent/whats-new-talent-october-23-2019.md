@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7506953c797f5a55a93f1169bf48af8b06eb440e
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 68e3f428215bdc4f9a4ce0dd69cfd4482c72fbf3
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896787"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006255"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-23-2019"></a>Novidades ou alterações no Dynamics 365 Talent (23 de outubro de 2019)
 
@@ -39,9 +39,9 @@ Esta versão inclui correções de bug menores para o Dynamics 365 Talent: Onboa
 
 As alterações descritas nesta seção aplicam-se ao número da compilação 8.1.2569. Os números em parênteses em alguns cabeçalhos referem-se aos números de suporte no Microsoft Dynamics Lifecycle Services (LCS).
 
-### <a name="platform-update-30-for-finance-and-operations-apps"></a>Atualização de plataforma 30 para aplicativos do Finance and Operations
+### <a name="platform-update-30-for-finance-and-operations-apps"></a>Atualização de plataforma 30 para os aplicativos do Finance and Operations
 
-Para obter mais informações, consulte [Novidades ou alterações na atualização de plataforma 30 para aplicativos do Finance and Operations (novembro de 2019)](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/whats-new-platform-update-30)
+Para obter mais informações, consulte [Novidades ou alterações na Atualização de plataforma 30 para os aplicativos Finance and Operations (novembro de 2019)](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/whats-new-platform-update-30).
 
 ### <a name="remove-benefits-open-enrollment-preview-feature"></a>Remova a versão prévia do recurso de inscrição aberta de benefícios
 
@@ -65,7 +65,7 @@ Com a versão desta semana, adicionar um novo valor da lista a um campo personal
 
 ### <a name="on-the-terms-of-employment-page-all-employees-terms-of-employment-appear-after-selecting-open-in-excel-348073"></a>Na página Contrato de trabalho, os contratos de trabalho de todos os funcionários aparecerão após selecionar Abrir no Excel (348073)
 
-Com esta versão, somente o contrato de trabalho dos funcionários selecionados serão abertos no Excel. A segurança de toda a empresa também será respeitada.
+Com esta versão, somente o contrato de trabalho dos funcionários selecionados será aberto no Excel. A segurança de toda a empresa também será respeitada.
 
 ### <a name="the-association-between-the-work-calendar-holiday-entity-and-the-work-calendar-entity-is-missing-in-common-data-service-324178"></a>A associação entre a entidade de feriados do Calendário de atividades e a entidade Calendário de atividades está ausente no Common Data Service (324178)
 
@@ -89,4 +89,4 @@ Consulte [Revisões de desempenho de impressão](https://docs.microsoft.com/dyna
 
 Os recursos são adicionados e atualizados em cada versão. A experiência de gerenciamento de recursos fornece um espaço de trabalho no qual você pode exibir uma lista dos recursos que foram entregues em cada versão. Por padrão, os novos recurso estão desativados. Você pode usar o espaço de trabalho para ativá-los e exibir a documentação deles.
 
-Para saber mais sobre as mudanças que acompanham o gerenciamento de recursos, consulte [Visão geral do gerenciamento de recursos](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview)
+Para saber mais sobre as mudanças que acompanham o gerenciamento de recursos, consulte [Visão geral do gerenciamento de recursos](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview)

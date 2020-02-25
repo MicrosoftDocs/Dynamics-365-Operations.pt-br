@@ -3,7 +3,7 @@ title: Visão geral das páginas de detalhes do produto
 description: Este tópico fornece uma visão geral das páginas de detalhes do produto (PDPs) no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3b02d50adbfcda27d590bcb87fd9669d67d4a01c
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: dbf8f4c1ea479a508f4a0294020b7201b32fe228
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697856"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025916"
 ---
 # <a name="overview-of-product-details-pages"></a>Visão geral das páginas de detalhes do produto
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Este tópico fornece uma visão geral das páginas de detalhes do produto (PDPs) no Microsoft Dynamics 365 Commerce.
@@ -45,7 +45,7 @@ A parte superior de uma PDP possui um cabeçalho que mostra todas as categorias 
 
 ## <a name="buy-box-module"></a>Módulo de caixa de compra
 
-O módulo mais importante em uma PDP é o módulo de caixa de compra. Portanto, é o primeiro item na seção principal da página. Um módulo de caixa de compra é um módulo de contêiner e hospeda vários módulos que contêm as informações mais importantes sobre o produto. Essas informações incluem o nome do produto, imagens do produto, a descrição, preço, e as classificações do produto.
+O módulo mais importante em um PDP é o módulo de caixa de compra, que aparece como o primeiro item na seção principal da página. Um módulo de caixa de compra mostra informações importantes sobre os produtos, como o nome do produto, a descrição do produto, o preço do produto, imagens do produto e classificações de produtos.
 
 O módulo da caixa de compra permite que o cliente selecione as opções do produto (por exemplo, tamanho, estilo e cor) e adicione o produto ao carrinho. Ele também permite que o cliente compre o produto on-line e o retire em uma loja. O módulo de compra on-line e retirada na loja usa a integração com as APIs (interfaces de programação de aplicativos) do Bing Maps para encontrar lojas próximas em outro local que o cliente especificar.
 
@@ -53,7 +53,7 @@ Um módulo da caixa de compra requer uma ID de produto. Essa ID é derivada do c
 
 ## <a name="product-specifications-module"></a>Módulo de especificações do produto
 
-O módulo de especificações de produto pode ser usado para apresentar detalhes adicionais sobre o produto. Esses detalhes são obtidos dos atributos do produto no Dynamics 365 Retail. O módulo de especificações do produto mostra cada atributo onde a propriedade **visível** é definida como **verdadeiro**. Requer uma ID de produto para recuperar os atributos do produto.
+O módulo de especificações de produto pode ser usado para apresentar detalhes adicionais sobre o produto. Esses detalhes são obtidos dos atributos do produto no Commerce. O módulo de especificações do produto mostra cada atributo onde a propriedade **visível** é definida como **verdadeiro**. Requer uma ID de produto para recuperar os atributos do produto.
 
 ## <a name="recommendations-module"></a>Módulo de recomendações
 
@@ -62,24 +62,32 @@ O módulo de recomendações é um módulo importante em uma PDP. Enquanto os cl
 Diferentes tipos de listas de recomendações estão disponíveis:
 
 - A lista **As pessoas também gostam de** é baseada no aprendizado de máquina. Ela usa o histórico de transações de outros clientes para fornecer recomendações. Essa lista é gerada pelo serviço de recomendações e se parece com as listas "Clientes que compraram isso também compraram ...". Uma ID de produtos é necessária para gerar esta lista.
-- Uma lista **Relacionada** pode ser configurada para um produto no Varejo. Por exemplo, para uma bolsa de viagem de couro marrom, mais bolsas de couro ou projetadas para viagem podem ser configuradas para a lista relacionada. Outros tipos de listas relacionadas, como **Acessórios** e **Mais deste tipo**, também podem ser configurados no Varejo. Uma ID de produtos é necessária para gerar esta lista. Portanto, se ele for adicionado a uma página inicial, em que o contexto da página não inclua uma ID do produto, a lista ficará vazia.
+- Uma lista **Relacionada** pode ser configurada para um produto no Commerce. Por exemplo, para uma bolsa de viagem de couro marrom, mais bolsas de couro ou projetadas para viagem podem ser configuradas para a lista relacionada. Outros tipos de listas relacionadas, como **Acessórios** e **Mais deste tipo**, também podem ser configurados no Commerce. Uma ID de produtos é necessária para gerar esta lista. Portanto, se ele for adicionado a uma página inicial, em que o contexto da página não inclua uma ID do produto, a lista ficará vazia.
 - Listas de recomendações geradas algoritmicamente, como **Mais Populares**, **Mais Vendidos** e **Novo** podem ser usadas em PDPs. Embora essas listas possam não estar diretamente relacionadas ao produto na PDP, elas são outra maneira de ajudar os clientes a encontrar produtos que possam interessá-los. Esses tipos de listas não exigem uma ID de produto. São listas genéricas que são geradas com base nos padrões de compras no site.
 - As listas editoriais são listas selecionadas manualmente. Por exemplo, um fornecedor pode decidir selecionar as listas de produtos manualmente que ele deseja mostrar.
 
-## <a name="ratings-and-reviews-module"></a>Módulo de classificações e opiniões
+## <a name="ratings-and-reviews-modules"></a>Módulos de classificações e revisões
 
-O módulo de classificações e opiniões mostra classificações e opiniões fornecidas por outros clientes. Também permite que um cliente escreva sua própria revisão do produto. Além disso, inclui um histograma que mostra a tendência de classificação do produto. Para obter mais detalhes, consulte [Visão geral de classificações e opiniões](ratings-reviews-overview.md).
+Três módulos podem ser usados para mostrar e adicionar revisões:
+
+- **Revisões** – este módulo lista classificações e revisões fornecidas por outros clientes. Os clientes podem classificar e filtrar as revisões. Este módulo também permite que os clientes gostem ou não das revisões e relatem problemas.
+- **Escrever revisão** – este módulo permite que os clientes escrevam suas próprias revisões de um produto.
+- **Histograma de classificações** – este módulo inclui um histograma que mostra a tendência de classificações de um produto.
+
+Para obter mais detalhes, consulte [Visão geral de classificações e opiniões](ratings-reviews-overview.md).
 
 ## <a name="marketing-modules"></a>Módulos de marketing
 
-Se o conteúdo de marketing for exclusivo de um produto específico, qualquer módulo de marketing poderá ser adicionado à PDP. Você pode adicionar os módulos de marketing para uma PDP "enriquecendo" a página. 
+Se o conteúdo de marketing for exclusivo de um produto específico, qualquer módulo de marketing poderá ser adicionado à PDP. Você pode adicionar os módulos de marketing para uma PDP "enriquecendo" a página. Para obter mais detalhes, consulte [Enriquecer uma página de produto](enrich-product-page.md).
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral da página inicial](quick-tour-home-page.md)
+[Visão geral da home page](quick-tour-home-page.md)
 
 [Visão geral da página de aterrissagem da categoria padrão e da página de resultados da pesquisa](category-search-page-overview.md)
 
-[Visão geral das páginas de carrinho e check-out](quick-tour-cart-checkout.md)
+[Visão geral das páginas de carrinho e de finalização da compra](quick-tour-cart-checkout.md)
 
 [Visão geral das páginas de gerenciamento da conta](quick-tour-account-management.md)
+
+[Enriquecer uma página de detalhes de produto](enrich-product-page.md)

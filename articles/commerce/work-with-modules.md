@@ -3,7 +3,7 @@ title: Trabalhar com módulos
 description: Este tópico descreve como e quando usar os módulos no Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,18 +17,18 @@ ms.search.industry: ''
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3c4161e7a40cdbbb40292a6ce9acab58347460bd
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 769d6754fa944830b989d657e0dad9cc42212932
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914785"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025870"
 ---
 # <a name="work-with-modules"></a>Trabalhar com módulos
 
 Este tópico descreve como e quando usar os módulos no Microsoft Dynamics 365 Commerce.
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 ## <a name="overview"></a>Visão geral
@@ -99,12 +99,10 @@ Os procedimentos a seguir descrevem como configurar os módulos de conteúdo e c
 
 Para configurar um módulo de conteúdo em uma página, siga estas etapas.
 
-1. No painel da estrutura de tópicos à esquerda, selecione um tipo de módulo de conteúdo (por exemplo, **Recurso**, **Herói** ou **Banner**).
-1. No painel de propriedades à direita, expanda os controles aninhados selecionando os cabeçalhos e defina quaisquer valores de controle necessários.
-1. Se o painel de propriedades tiver uma seção de **Configuração de Dados**, selecione-a para expandi-la. Caso contrário, vá para a etapa 5.
-1. Se houver um botão **Adicionar Fonte de Dados** selecione-o e escolha os itens de conteúdo a serem adicionados.
-1. Insira as configurações para quaisquer controles de módulo necessários ou desejados.
-1. Selecione **Salvar**.
+1. No painel da estrutura de tópicos à esquerda, expanda a árvore e selecione qualquer módulo de conteúdo (por exemplo, **Recurso**, **Herói** ou **Banner**).
+1. No painel de propriedades à direita, localize os controles de conteúdo e configurações do módulo.
+1. Insira propriedades para qualquer controle de módulo desejado.
+1. Selecione **Salvar** na barra de comando. Isso também atualizará a tela de exibição.
 
 ### <a name="configure-a-container-module"></a>Configurar um módulo de contêiner
 
@@ -112,7 +110,7 @@ Para configurar um módulo de contêiner em uma página, siga estas etapas.
 
 1. Selecione um módulo de contêiner em sua página (por exemplo, um carrossel ou um módulo fluido do contêiner).
 1. No painel de propriedades à direita, expanda os controles aninhados selecionando os cabeçalhos e defina quaisquer valores de controle necessários.
-1. No painel de estrutura de tópicos à esquerda, selecione o botão de reticências ao lado do nome do contêiner ou de quaisquer slots dentro do contêiner e, em seguida, selecione **Adicionar Módulo**. Em seguida, adicione os módulos filho ao contêiner selecionado. Para obter mais informações, consulte o procedimento [Adicionar um módulo](#add-a-module) anterior neste tópico.
+1. No painel de estrutura de tópicos à esquerda, selecione o botão de reticências ao lado do nome do contêiner ou de quaisquer slots dentro do contêiner e, em seguida, selecione **Adicionar Módulo**. Em seguida, adicione os módulos filho ao contêiner selecionado. Para obter mais informações, consulte a seção [Trabalhar com módulos](#add-a-module) anterior nesse tópico.
 1. Se vários módulos filho existirem como irmãos um contêiner pai, poderá alterar a ordem de exibição no contêiner pai. Selecione o botão de reticências para um módulo, e use os botões de seta para cima e a seta para baixo.
 
 ## <a name="additional-resources"></a>Recursos adicionais
@@ -126,8 +124,6 @@ Para configurar um módulo de contêiner em uma página, siga estas etapas.
 [Trabalhar com fragmentos](work-with-fragments.md)
 
 [Adicionar um módulo de contêiner a uma página](add-container-module.md)
-
-[Adicionar módulos de posicionamento de conteúdo a uma página](add-content-placement-modules.md)
 
 [Trabalhar com grupos de publicações](publish-groups.md)
 

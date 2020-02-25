@@ -1,35 +1,37 @@
 ---
 title: Importar taxas de câmbio de moeda
-description: Se uma entidade legal recebeu faturas em moedas estrangeiras, é necessário converter a moeda estrangeira em moeda local. Isso significa que as taxas de câmbio atualizadas para diferentes moedas são necessárias. Este tópico fornece uma visão geral das definições e de processamento necessários para importar as taxas de referência da moeda estrangeira publicadas na Internet pelos provedores de taxa de câmbio, como o Banco Central Europeu e o Banco Central da Rússia.
+description: Este tópico fornece informações sobre os requisitos para importar taxas de referência de câmbio estrangeiras que são publicadas por provedores de taxa de câmbio.
 author: EvgenyPopovMBS
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 261374
 ms.assetid: b2b22868-de68-439f-914c-78c6930b7340
 ms.search.region: Global
 ms.author: epopov
-ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cdc9373ab22092e1f28bd087519f7476a7f2139a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.search.validFrom: 2020-02-03
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 6684a1ef041d624d6bfe80337c4db0913f0ca066
+ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186500"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3013131"
 ---
 # <a name="import-currency-exchange-rates"></a>Importar taxas de câmbio de moeda
 
 [!include [banner](../includes/banner.md)]
 
-Se uma entidade legal recebeu faturas em moedas estrangeiras, é necessário converter a moeda estrangeira em moeda local. Isso significa que as taxas de câmbio atualizadas para diferentes moedas são necessárias. Este tópico fornece uma visão geral das definições e de processamento necessários para importar as taxas de referência da moeda estrangeira publicadas na Internet pelos provedores de taxa de câmbio, como o Banco Central Europeu e o Banco Central da Rússia.
+[!include [banner](../includes/banner.md)]
+
+Se uma entidade legal tiver recebido faturas em moedas estrangeiras, a moeda estrangeira deverá ser convertida em moeda local. Isso significa que as taxas de câmbio atualizadas para diferentes moedas são necessárias. Este tópico fornece uma visão geral das definições e de processamento necessários para importar as taxas de referência da moeda estrangeira publicadas pelos provedores de taxa de câmbio, como o Banco Central Europeu e o Banco Central da Rússia.
 
 As seções a seguir descrevem o fluxo de informações usadas para configurar e processar a importação de taxas de câmbio.
 
@@ -40,23 +42,19 @@ Antes de importar taxas de câmbio, você deve configurar as informações neces
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Campo** | **Descrição**                                                                                                                                                                                                             |
 | **Nome**  | O nome do provedor de taxa de câmbio.                                                                                                                                                                                     |
-| **Chave**   | O identificador exclusivo das informações de configuração necessárias ao provedor. Essas informações são adicionadas automaticamente para cada fornecedor da taxa de câmbio que você adiciona quando clica no botão **Adicionar**. |
-| **Valor** | As informações sobre cada chave. Essas informações são adicionadas a cada provedor da taxa de câmbio que você adiciona quando clica no botão **Adicionar**.                                                                                         |
+| **Chave**   | O identificador exclusivo das informações de configuração necessárias ao provedor. Essas informações são adicionadas automaticamente a cada fornecedor da taxa de câmbio que você adiciona. |
+| **Value** | As informações sobre cada chave. Essas informações são adicionadas a cada fornecedor da taxa de câmbio que você adiciona.                                                                                         |
 
 ## <a name="import-currency-exchange-rates"></a>Importar taxas de câmbio de moeda
-Você pode importar taxas de câmbio de origem de provedores da taxa de câmbio, e configurá-las na página **Taxas de câmbio de moedas**. Use a página **Importar taxas de câmbio de moeda** para importar as taxas de câmbio. A tabela a seguir fornece descrições dos campos necessários para concluir com êxito o processo de importação.
+Você pode importar taxas de câmbio da origem de provedores da taxa de câmbio e adicioná-las à página **Taxas de câmbio de moedas**. Use a página **Importar taxas de câmbio de moeda** para importar as taxas de câmbio. A tabela a seguir fornece descrições de campos necessários para concluir com êxito o processo de importação.
 
 |                                        |                                                                                                                                                                                                                                                                                                                                                                             |
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Campo**                              | **Descrição**                                                                                                                                                                                                                                                                                                                                                             |
 | **Tipo de taxa de câmbio**                 | Um tipo de taxa de câmbio.                                                                                                                                                                                                                                                                                                                                                      |
 | **Provedor de taxa de câmbio**             | Um do provedor de taxa de câmbio.                                                                                                                                                                                                                                                                                                                                                  |
-| **Importar a partir de**                       | Este parâmetro gerencia se a importação deve ser feita na data de hoje ou para um intervalo de datas. Se quiser usar um intervalo de datas, insira ou selecione as datas de início e de término.                                                                                                                                                                                                                |
+| **Importar a partir de**                       | Este parâmetro gerencia se a importação deve ser feita na data de hoje ou em um intervalo específico de datas. Se quiser usar um intervalo de datas, insira ou selecione as datas inicial e final.                                                                                                                                                                                                                |
 | **Criar os pares de moedas necessários**    | Esta caixa de seleção gerencia a criação automática dos pares de moeda, se os pares de moeda que são importados não existirem. Esta opção talvez não esteja disponível para alguns provedores.                                                                                                                                                                                               |
 | **Substituir taxas de câmbio existentes**   | Esta caixa de seleção gerencia a atualização da taxa de câmbio existente para um par de moedas quando já existir a taxa de câmbio para uma data específica. Se você não marcar esta caixa de seleção, a taxa de câmbio para as datas específicas não será importada, se já existir outra taxa de câmbio.                                                                                       |
-| **Evitar importação em feriado nacional** | Esta caixa de seleção gerencia a importação da taxa de câmbio para uma data que seja um feriado. Por exemplo, se você marcar esta caixa de seleção e usar o Banco Central Europeu como o provedor da taxa de câmbio, o sistema não atualizará a taxa de câmbio em um feriado que é relacionado à entidade legal atual. Esta opção talvez não esteja disponível para alguns provedores. |
-
-
-
-
-
+| **Evitar importação em feriado nacional** | Esta caixa de seleção gerencia a importação da taxa de câmbio para a data de feriado público. Por exemplo, se você marcar esta caixa de seleção e usar o Banco Central Europeu como o provedor da taxa de câmbio, o sistema não atualizará a taxa de câmbio em um feriado que é relacionado à entidade legal atual. Esta opção talvez não esteja disponível para alguns provedores. |
+| **Taxa do dia anterior** | Esta caixa de seleção estará disponível se você habilitar o recurso **Importação do ECB na data atual ou anterior** na página **Gerenciamento de recursos**. Esta caixa de seleção está disponível apenas para o fornecedor *Banco Central Europeu*. Marque esta caixa de seleção para importar a taxa de câmbio da moeda publicada pelo Banco Central Europeu no dia útil anterior aproximadamente às 16h00 CET. Por padrão, a caixa de seleção é selecionada. Desmarque esta caixa de seleção para importar a taxa de câmbio da moeda que for publicada no mesmo dia útil.  |

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21ee0b835cbe6cc3a238247be29f8a8d3de42a8d
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: bdbff802ca85f7cc568efb8a1aacaf6f8fb2874a
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570739"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003987"
 ---
 # <a name="product-information-overview"></a>Visão geral das informações do produto
 
@@ -32,7 +32,7 @@ ms.locfileid: "2570739"
 
 Este tópico fornece informações sobre o gerenciamento de informações do produto. O gerenciamento de informações do produto funciona com uma definição, categorização e identificação de produtos compartilhados em todas as entidades legais, bem como configurações específicas de um produto, para se adequar aos processos de negócios. 
 
-A informação do produto é a espinha dorsal da cadeia de suprimentos e aplicações de varejo em todas as indústrias. Refere-se a processos e tecnologias que se concentram no gerenciamento centralizado de informações sobre produtos (por exemplo, através de cadeias de suprimentos). É crucial que as definições, documentação, atributos e identificadores de produtos compartilhados sejam usados. Nos vários módulos de uma solução de negócios, são necessárias informações e configuração específicas do produto para gerenciar os processos de negócios relacionados a produtos específicos, famílias de produtos ou categorias de produtos.
+As informações do produto são a base da cadeia de suprimentos e aplicações de comércio em todos os setores. Refere-se a processos e tecnologias que se concentram no gerenciamento centralizado de informações sobre produtos (por exemplo, através de cadeias de suprimentos). É crucial que as definições, documentação, atributos e identificadores de produtos compartilhados sejam usados. Nos vários módulos de uma solução de negócios, são necessárias informações e configuração específicas do produto para gerenciar os processos de negócios relacionados a produtos específicos, famílias de produtos ou categorias de produtos.
 
 ## <a name="product-definition"></a>Definição de produto
 

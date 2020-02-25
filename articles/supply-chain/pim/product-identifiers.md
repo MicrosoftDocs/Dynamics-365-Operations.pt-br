@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 3199bccca19ab8ee4d7503e4a8443fcb05acbb1b
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: 230cb7c2fe8f3c1972766a25414bb33a78b37a42
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934877"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004010"
 ---
 # <a name="product-identifiers"></a>Identificadores do produto 
 
@@ -88,7 +88,7 @@ Na página **Descrições externas de item**, você pode associar o número de i
 | descrição | O nome que o cliente associa ao item | O nome que o fornecedor associa ao item |
 | Texto de item externo | A descrição do item do cliente | A descrição do item do fornecedor |
 
-Se vários clientes ou fornecedores usarem os mesmos números de item (como no caso de uma associação de compra ou de um grupo de varejo, por exemplo), você poderá criar grupos de clientes ou fornecedores para simplificar a manutenção de informações sobre produtos externos.
+Se vários clientes ou fornecedores usarem os mesmos números de item (como no caso de uma associação de compra ou grupo de comércio, por exemplo), você poderá criar grupos de clientes ou fornecedores para simplificar a manutenção de informações sobre produtos externos.
 
 - Para grupos de clientes, vá para **Vendas** &gt; **Configuração** &gt; **Itens** &gt; **Descrição externa de item** para criar e manter os grupos e os números de itens relacionados. Para associar clientes a um grupo, vá para **Contas a receber** &gt; **Clientes** &gt; **Todos os clientes** e, em seguida, na Guia Rápida **Padrões da ordem de venda**, especifique um valor no campo **Item - Grupo de clientes**.
 - Para grupos de fornecedores, vá para **Compras e Fornecimento** &gt; **Configuração** &gt; **Grupo de descrições externas de item** para criar e manter os grupos e os números de itens relacionados. Para associar fornecedores a um grupo, vá para **Contas a pagar** &gt; **Fornecedores** &gt; **Todos os fornecedores** e, em seguida, na Guia Rápida **Padrões da ordem de compra**, especifique um valor no campo **Item - Grupo de fornecedores**.

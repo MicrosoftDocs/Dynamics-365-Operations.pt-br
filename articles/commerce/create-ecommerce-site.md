@@ -1,9 +1,9 @@
 ---
 title: Criar um site de comércio eletrônico
-description: Este tópico descreve as tarefas associadas à criação de um novo site comercial online no Dynamics 365 Commerce.
+description: Este tópico descreve as etapas e informações necessárias para criar um novo site de comércio eletrônico no assistente para criação de sites do Dynamics 365 Commerce.
 author: bicyclingfool
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,29 +19,31 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 54259d3f5dfd8c8e1ff2caaadfac497cc0e133e0
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 3d3d8a290f06d9734be21f2d59152acac6857506
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945826"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002004"
 ---
 # <a name="create-an-e-commerce-site"></a>Criar um site de comércio eletrônico
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve as tarefas associadas à criação de um novo site comercial online no Dynamics 365 Commerce.
+Este tópico descreve as etapas e informações necessárias para criar um novo site de comércio eletrônico no assistente para criação de sites do Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visão geral
+Antes de começar a desenvolver seu site de comércio eletrônico, primeiro você deve estabelecer um novo site no assistente para criação de sites. 
 
-Para começar a desenvolver seu site comercial online, primeiro você deve estabelecer um novo site no ambiente de criação de site. Antes de criar um novo site, pelo menos uma loja online deve ser criada no Dynamics 365 Retail. 
+
+Para começar a desenvolver seu site comercial online, primeiro você deve estabelecer um novo site no ambiente de criação de site. Antes de criar um novo site, crie pelo menos uma loja online no Commerce. 
+
 
 ## <a name="set-up-your-site"></a>Configurar seu site
 
 Para configurar seu site, faça o seguinte.
 
-1. No Microsoft Lifecycle Services (LCS), selecione o link do ambiente de criação do site. 
+1. Abra o ambiente do assistente para criação de sites. Você pode encontrar um link para o assistente de criação de sites no Microsoft Lifecycle Services (LCS), na página de recursos do ambiente do Commerce.
 1. Na página inicial do ambiente de criação local, selecione **Novo site**.
 1. Na caixa de diálogo **Novo site**, forneça as seguintes informações.
 

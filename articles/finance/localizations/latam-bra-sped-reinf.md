@@ -16,12 +16,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 6be6eff84f66dd8e6b34c4a5575578f9974cd987
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 3368b40169aef55d0818a04dc317359ff949742f
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772832"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003892"
 ---
 # <a name="sped-reinf-tax-statement-brazil"></a>Declaração de imposto do SPED-Reinf (Brasil)
 
@@ -44,7 +44,7 @@ O Microsoft Dynamics oferece suporte à geração de eventos do SPED-Reinf por m
 
 **Tabela de eventos**
 
-| **Evento** | **Descrição**                                                   | **Tipo de evento**             | **Com suporte no Microsoft Dynamics** | **Comentários**                                                                                                                                                                |
+| Evento | Descrição                                                   | Tipo de evento             | Com suporte no Microsoft Dynamics | Comentários                                                                                                                                                                |
 |-----------|-------------------------------------------------------------------|----------------------------|-------------------------------------|----------------------------------------|
 | R-1000    | Informações do contribuinte                                              | Inicial                    | **Sim**                             | Suporte para contribuintes como entidades legais.   |
 | R-1070    | Processo administrativo e judicial                               | Quando um processo está em vigor | **Sim**                             |                                              |
@@ -53,7 +53,7 @@ O Microsoft Dynamics oferece suporte à geração de eventos do SPED-Reinf por m
 | R-2030    | Valores recebidos por associações esportivas                            | Evento periódico             | **Não**                              |                                              |
 | R-2040    | Valores pagos a associações esportivas                                | Evento periódico             | **Não**                              |                                              |
 | R-2050    | Comércio da produção rural por entidades legais rurais ou pelo agronegócio | Evento periódico             | **Não**                              |                                               |
-| R-2060    | Apuração do INSS-CPRB                                              | Evento periódico             | **Sim**                             | Sem suporte para apuração do imposto CPRB das Operações de varejo.  |
+| R-2060    | Apuração do INSS-CPRB                                              | Evento periódico             | **Sim**                             | Sem suporte para apuração do imposto CPRB das operações do Commerce.  |
 | R-2070    | Retenção em pagamentos (IR, CSLL, PIS, COFINS)                   | Evento periódico             | **Não**                              | O suporte será incluído como um recurso separado na próxima versão. Para obter mais informações, consulte **Sped REINF - evento R-2070** no Microsoft Dynamics Lifecycle Services (LCS). |
 | R-2098    | Reabertura de atividades periódicas                                             | Evento periódico             | **Sim**                             |                                                |
 | R-2099    | Fechamento                                                           | Evento periódico             | **Sim**                             |                                              |
@@ -84,7 +84,7 @@ A funcionalidade Mensagens eletrônicas é nova no Dynamics 365 Finance. Ela per
 
 Antes de entregar eventos do SPED-Reinf ao site do governo, use a configuração predefinida que a Microsoft preparou para atender aos requisitos do SPED-Reinf. Essa configuração é fornecida como uma entidade de dados. Depois de importada para o Finance, os usuários poderão gerar, validar e entregar todos os eventos descritos no escopo do SPED-Reinf.
 
-#### <a name="import-the-configuration-from-the-data-entity"></a>**Importar a configuração da entidade de dados**
+#### <a name="import-the-configuration-from-the-data-entity"></a>Importar a configuração da entidade de dados
 
 Para configurar a funcionalidade Mensagens eletrônicas para comunicações de eventos do SPED-Reinf, use a configuração predefinida disponível no LCS.
 
@@ -110,11 +110,11 @@ Para configurar a funcionalidade Mensagens eletrônicas para comunicações de e
 
 11. Selecione **Importar**.
 
->   Você receberá uma notificação sobre o processo de importação. Também é possível atualizar a página manualmente para ver o andamento do processo de importação. Quando o processo for concluído, você poderá visualizar a página **Resumo de execução**.
+    Você receberá uma notificação sobre o processo de importação. Também é possível atualizar a página manualmente para ver o andamento do processo de importação. Quando o processo for concluído, você poderá visualizar a página **Resumo de execução**.
 
-![Página Resumo de execução](media/bra-execution-summary-page.png)
+    ![Página Resumo de execução](media/bra-execution-summary-page.png)
 
-#### <a name="structure-of-electronic-messages"></a>**Estrutura de mensagens eletrônicas**
+#### <a name="structure-of-electronic-messages"></a>Estrutura de mensagens eletrônicas
 
 Cada evento criado, entregue e recebido é representado por uma mensagem e um item de mensagem.
 
@@ -139,7 +139,7 @@ Você pode encontrar essa configuração em **Imposto \> Configuração \> Mensa
 ![Campos adicionais de mensagens eletrônicas](media/bra-electronic-messaging-additional-fields.png)
 
 > [!NOTE]
-> Não remova esta configuração. Essa configuração está incluída no pacote.*
+> Não remova esta configuração. Essa configuração está incluída no pacote.
 
 Os tipos de item de mensagem são classificados pelo tipo de evento em **Imposto \> Configuração \> Mensagens eletrônicas \> Tipos de item de mensagem**.
 
@@ -153,9 +153,9 @@ Vá para **Imposto \> Configuração \> Parâmetros \> Parâmetros da contabilid
 ![Sequências numéricas de mensagens eletrônicas](media/bra-electronic-messages-number-sequences.png)
 
 > [!NOTE]
-> A sequência numérica deve ser definida como não contínua.*
+> A sequência numérica deve ser definida como não contínua.
 
-#### <a name="certificates"></a>**Certificados**
+#### <a name="certificates"></a>Certificados
 
 Certificados confiáveis devem ser configurados e usados pelo Microsoft Dynamics, pois o SPED-Reinf deve ser sempre assinado por um certificado e-CNPJ autorizado pela entidade ICP-Brasil, independentemente de quaisquer outras assinaturas. Esse certificado e-CNPJ deve corresponder aos oito primeiros dígitos do CNPJ do estabelecimento fiscal matriz, pois o relatório é enviado por esse estabelecimento e pelos estabelecimentos fiscais relacionados.
 
@@ -167,36 +167,36 @@ Para obter informações sobre como configurar um cliente do Key Vault, consulte
 
 2.  Digite as seguintes informações:
 
--   URL do Key Vault
+    -  URL do Key Vault
 
--   Cliente do Key Vault
+    -  Cliente do Key Vault
 
--   Chave secreta do Key Vault
+    -  Chave secreta do Key Vault
 
--   ID secreta do Key Vault
+    -  ID secreta do Key Vault
 
 Após o registro, associe o certificado nos parâmetros de configuração para a ação **Geração de relatório**, conforme descrito na seção a seguir.
 
-#### <a name="setup-parameters"></a>**Parâmetros de configuração** 
+#### <a name="setup-parameters"></a>Parâmetros de configuração 
 
 Sempre que uma mensagem é criada, preparada, validada, entregue ou recebida, a ação relacionada deve ser identificada por meio de uma classe X++ em **Imposto \> Configuração \> Mensagens eletrônicas \> Configurações de classe executável**.
 
 -   **Preparação dos eventos –** Esta ação é usada para criar e preparar a mensagem XML. Ela solicita parâmetros adicionais, como **Data de escrituração**, **CNPJ** e **CNPJ raiz**, pois os eventos são gerados com base nessas informações.
 
-![Itens de preparação](media/bra-preparation-items.png)
+    ![Itens de preparação](media/bra-preparation-items.png)
 
 -   **Processo de resposta** – Esta ação é usada para atualizar a mensagem entregue quando ela for aprovada pelo governo usando um número de protocolo. Além disso, a mensagem é atualizada conforme registrado no site do governo.
 
-![Resposta ao processo de itens de preparação](media/bra-preparation-items-process-response.png)
+    ![Resposta ao processo de itens de preparação](media/bra-preparation-items-process-response.png)
 
 -   **Geração de relatório** – Esta ação é usada para enviar e receber o item de mensagem.
 
-![Gerar parâmetros de relatórios](media/bra-generate-reports-parameters.png)
+    ![Gerar parâmetros de relatórios](media/bra-generate-reports-parameters.png)
 
 > [!NOTE]
-> Não remova esta configuração. Essa configuração está incluída no pacote.*
+> Não remova esta configuração. Essa configuração está incluída no pacote.
 
-#### <a name="specific-actions"></a>**Ações específicas**
+#### <a name="specific-actions"></a>Ações específicas
 
 Antes que uma mensagem seja entregue, você deve configurar a validação do esquema XML para evitar rejeições do site do governo.
 
@@ -223,7 +223,7 @@ Vá para **Imposto \> Configuração \> Mensagens eletrônicas \> Configuraçõe
 > [!NOTE]
 > Nas configurações do **SPED Reinf assíncrono**, inclua o endereço do serviço Web para consultar o evento R-5011.
 
-### <a name="set-up-service-types"></a>**Configurar tipos de serviço**
+### <a name="set-up-service-types"></a>Configurar tipos de serviço
 
 A tabela de tipos de serviço representa a tabela 06 que as autoridades fiscais estabeleceram para classificar os serviços fornecidos, com base na atribuição de trabalho. Uma lista detalhada de valores disponíveis está à disposição no site do SPED.
 
@@ -231,7 +231,7 @@ A tabela de tipos de serviço representa a tabela 06 que as autoridades fiscais 
 
 2.  Selecione **Novo**, insira um código de classificação que tenha sido estabelecido pelas autoridades fiscais e insira uma descrição.
 
-![Tipos de serviço](media/bra-service-type-setup.png)
+    ![Tipos de serviço](media/bra-service-type-setup.png)
 
 Depois que a lista de tipos de serviço for criada, eles devem ser atribuídos a códigos de serviço. Vá para **Gerenciamento de estoque \> Configuração \> Informações fiscais \> Código de serviço** e, em seguida, para cada serviço, atribua o tipo de serviço relacionado.
 
@@ -245,13 +245,13 @@ Essa informação é atribuída à organização fiscal na FastTab **Geral** em 
 
 ![Organização fiscal](media/bra-fiscal-organization-setup.png)
 
-### <a name="set-up-codes-explanation-suspension"></a>**Configurar suspensão da explicação de códigos**
+### <a name="set-up-codes-explanation-suspension"></a>Configurar suspensão da explicação de códigos
 
 Vá para **Livros fiscais \> Configuração \> SPED Reinf \> Suspensão da explicação de códigos** e configure os códigos que são usados no evento R-1070 quando a suspensão da retenção se aplica. Esses códigos são atribuídos em **Livros fiscais \> Atividades periódicas \> SPED Reinf \> Processo administrativo e judicial**.
 
 ![Códigos de explicação](media/bra-codes-explanation-suspension.png)
 
-### <a name="set-up-fiscal-books-parameters"></a>**Configurar parâmetros de livros fiscais**
+### <a name="set-up-fiscal-books-parameters"></a>Configurar parâmetros de livros fiscais
 
 Vá para **Livros fiscais \> Configuração \> Parâmetros de livros fiscais** e configure a sequência numérica para os eventos R-2010 e R-2020.
 
@@ -315,7 +315,7 @@ Os certificados digitais que são usados para assinar os eventos enviados ao SPE
 
 Os eventos no SPED-Reinf devem ser transmitidos usando um certificado digital válido. No entanto, uma exceção será feita para micro e pequenas empresas (ME e EPP) que atendam aos critérios do Simples Nacional e possuam sete funcionários ou menos. Essas empresas podem transmitir seus eventos usando um código de acesso.
 
-### <a name="general-process"></a>**Processo geral** 
+### <a name="general-process"></a>Processo geral
 
 1.  Use uma mensagem eletrônica para criar, validar e entregar o evento ou lote de eventos por meio de itens de mensagem eletrônica.
 
@@ -331,28 +331,29 @@ As ilustrações a seguir mostram as ações que são realizadas e os status de 
 
 ![Ações de fluxo](media/bra-flow-actions.png)
 
-#### <a name="insertion"></a>**Inserção**
+#### <a name="insertion"></a>Inserção
 
 Este fluxo é usado para entregar qualquer evento pela primeira vez.
+
 ![Inserção](media/bra-insertion-flow.png)
 
-#### <a name="amendmentupdate"></a>**Aditamento/Atualização**
+#### <a name="amendmentupdate"></a>Aditamento/Atualização
 
 ![Atualização](media/bra-amendment-update-flow.png)
 
-#### <a name="canceldelete"></a>**Cancelamento/Exclusão**
+#### <a name="canceldelete"></a>Cancelamento/Exclusão
 
 ![Cancelar](media/bra-cancel-delete-flow.png)
 
-#### <a name="inquire-event-5011-from-event-r-2099"></a>**Consultar evento 5011 (do evento R-2099)**
+#### <a name="inquire-event-5011-from-event-r-2099"></a>Consultar evento 5011 (do evento R-2099)
 
 ![Consultar evento 5011](media/bra-inquire-event-5011.png)
 
-#### <a name="manage-electronic-messages"></a>**Gerenciar mensagens eletrônicas** 
+#### <a name="manage-electronic-messages"></a>Gerenciar mensagens eletrônicas 
 
 Todos os eventos são gerenciados e controlados em **Imposto \> Consultas e relatórios \> Mensagens eletrônicas \> Itens de mensagem eletrônica**.
 
-| **Nome do campo**      | **Descrição do campo**                                                                                                                                         |
+| Nome do campo      | Descrição do campo                                                                                                                                         |
 |---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Tipo de item de mensagem   | O tipo de evento:                                                                                                                                            |
 | Status de item de mensagem | O status atual do evento. Este campo é automaticamente preenchido e atualizado, com base na troca de mensagens entre a autoridade fiscal e o contribuinte. |
@@ -378,7 +379,7 @@ Todos os eventos são gerenciados e controlados em **Imposto \> Consultas e rela
 -   **Aceito com erros** – O evento foi enviado aos serviços Web e aceito pelo sistema da autoridade fiscal, apesar de haver erros.
 
 
-### <a name="event-r-1000-taxpayer-information"></a>**Evento R-1000, "Informações do contribuinte"**
+### <a name="event-r-1000-taxpayer-information"></a>Evento R-1000, "Informações do contribuinte"
 
 O evento R-1000 é usado para entregar informações sobre a empresa. Esse evento deve ser entregue apenas uma vez para registrar as informações no site do governo. No entanto, após esse registro inicial de informações, pode ser entregue quantas vezes for necessário para ações de manutenção como atualizações e exclusões de dados.
 
@@ -386,7 +387,7 @@ Portanto, sempre que qualquer atributo do contribuinte ou a data válida de info
 
 Como as comunicações podem falhar devido a problemas técnicos, como tempo limite ou falhas de Internet, o contador tributário deve ser capaz de renviar o evento. Além disso, como a validação do arquivo pelo serviço Web pode falhar, o contador tributário deve ser capaz de visualizar os detalhes e corrigir os erros relacionados. Após a validação do arquivo, o protocolo de recebimento que é retornado pelo serviço Web deve ser salvo e o contador tributário deve ser capaz de visualizar seus detalhes, como o número e o carimbo de data/hora.
 
-#### <a name="repro-step--insertion"></a>**Etapa de reprodução – Inserção**
+#### <a name="repro-step--insertion"></a>Etapa de reprodução – Inserção
 
 1.  Vá para **Imposto \> Consultas e relatórios \> Mensagens eletrônicas \> Itens de mensagem eletrônica**.
 
@@ -398,21 +399,21 @@ Como as comunicações podem falhar devido a problemas técnicos, como tempo lim
 
 4.  Selecione **OK** para confirmar as configurações.
 
->   Um item de mensagem do tipo **Informações do contribuinte** é criado e seu status é definido como **Anexado**.
+    Um item de mensagem do tipo **Informações do contribuinte** é criado e seu status é definido como **Anexado**.
 
-![Inserção de itens de mensagem eletrônica](media/bra-electronic-message-items-insertion.png)
+    ![Inserção de itens de mensagem eletrônica](media/bra-electronic-message-items-insertion.png)
 
 5.  Selecione **Executar processamento** novamente e, na caixa de diálogo, no campo **Processamento**, selecione **SPED Reinf**.
 
 6.  Defina a opção **Escolher ação** como **Sim** e, em seguida, no campo **Ação**, selecione **Parâmetros adicionais** para atualizar as informações relacionadas nos campos adicionais.
 
-![Executar parâmetros adicionais de processamento](media/bra-run-processing-additional-parameters.png)
+    ![Executar parâmetros adicionais de processamento](media/bra-run-processing-additional-parameters.png)
 
-![Itens de preparação](media/bra-preparation-items.png)
+    ![Itens de preparação](media/bra-preparation-items.png)
 
 7.  Selecione **OK** para confirmar as configurações. O item de mensagem do tipo **Informações do contribuinte** é atualizado e seu status é alterado para **Preparado**.
 
-![Status de itens de mensagem eletrônica](media/bra-electronic-message-items-status.png)
+    ![Status de itens de mensagem eletrônica](media/bra-electronic-message-items-status.png)
 
 8.  Selecione **Executar processamento** novamente e, na caixa de diálogo, no campo **Processamento**, selecione **SPED Reinf**.
 
@@ -420,13 +421,13 @@ Como as comunicações podem falhar devido a problemas técnicos, como tempo lim
 
 10.  Selecione **OK** para confirmar as configurações. A caixa de diálogo **Gerar relatórios** aparece automaticamente. Na FastTab **Registros a serem incluídos**, nas opções de filtro, a ID do tipo de item de mensagem que está solicitando a geração de um arquivo XML é selecionada no campo **Item de mensagem**.
 
-![Gerar relatórios](media/bra-generate-reports.png)
+     ![Gerar relatórios](media/bra-generate-reports.png)
 
 11.  Selecione **OK** para confirmar as configurações. O item de mensagem do tipo **Informações do contribuinte** é atualizado e seu status é alterado para **Gerado**.
 
 12.  Repita essas etapas até concluir todas as ações no fluxo [Inserção](#insertion).
 
-#### <a name="repro-step--amendment"></a>**Etapa de reprodução – Aditamento** 
+#### <a name="repro-step--amendment"></a>Etapa de reprodução – Aditamento 
 
 Se algum dado da organização fiscal foi alterado ou se for necessário excluir o evento por algum motivo, o evento R-1010 deve ser transmitido novamente, mas o status deve ser diferente.
 
@@ -437,11 +438,11 @@ O Microsoft Dynamics AX detectará quaisquer diferenças entre as informações 
 > [!NOTE]
 > Se as alterações não afetarem o evento R-1010 relacionado, você receberá a seguinte mensagem: “0 registros foram adicionados”.
 
-#### <a name="repro-step--cancel"></a>**Etapa de reprodução – Cancelamento**
+#### <a name="repro-step--cancel"></a>Etapa de reprodução – Cancelamento
 
 Se, por algum motivo, o contribuinte quiser cancelar/excluir um evento aceito, selecione **Cancelar** e confirme a operação. O status do evento será atualizado para **Excluído**. Conclua todas as ações no fluxo [Cancelamento/Exclusão](#canceldelete).
 
-### <a name="event-r-1070-administrative-and-judicial-process"></a>**Evento R-1070, "Processo administrativo e judicial"**
+### <a name="event-r-1070-administrative-and-judicial-process"></a>Evento R-1070, "Processo administrativo e judicial"
 
 O evento R-1070 é usado para relatar informações sobre os processos legais e administrativos ao sistema da autoridade fiscal.
 
@@ -459,46 +460,46 @@ Além das informações típicas que identificam o contribuinte e o evento, o ev
 
 Antes da entrega do evento R-1070, você deve criar o processo relacionado e incluir todas as informações relacionadas.
 
-#### <a name="repro-step--create-process"></a>**Etapa de reprodução – Criar processo**
+#### <a name="repro-step--create-process"></a>Etapa de reprodução – Criar processo
 
 1.  Vá para **Livros fiscais \> Atividades periódicas \> SPED Reinf \> Processo administrativo e judicial**.
 
-![Processo judicial administrativo](media/bra-administrative-judicial-process.png)
+    ![Processo judicial administrativo](media/bra-administrative-judicial-process.png)
 
 1.  Selecione **Novo** e defina os campos a seguir.
 
-| **Campo**                    | **Descrição**        |
-|------------------------------|-----------------------|
-| Número do processo        | Insira o número do processo atribuído pelas autoridades competentes. O sistema da autoridade fiscal valida o formato, pois há uma regra específica a ser considerada. |
-| Autor do processo            | Selecione a origem do processo:                                                                                                                   |
-| Tipo de processo              | Selecione o tipo de processo:                                                                                                                                           |
-| Cidade da vara judicial | Selecione a cidade relacionada onde o processo foi originado.                                                                                                                 |
-| Código da vara judicial | Insira o código da vara judicial.                                                                                                                              |
+    | **Campo**                    | **Descrição**        |
+    |------------------------------|-----------------------|
+    | Número do processo        | Insira o número do processo atribuído pelas autoridades competentes. O sistema da autoridade fiscal valida o formato, pois há uma regra específica a ser considerada. |
+    | Autor do processo            | Selecione a origem do processo:                                                                                                                   |
+    | Tipo de processo              | Selecione o tipo de processo:                                                                                                                                           |
+    | Cidade da vara judicial | Selecione a cidade relacionada onde o processo foi originado.                                                                                                                 |
+    | Código da vara judicial | Insira o código da vara judicial.                                                                                                                              |
 
--   Contribuinte
+    -   Contribuinte
 
--   Outros terceiros
+    -   Outros terceiros
 
--   Administrativo
+    -   Administrativo
 
--   Judicial
+    -   Judicial
 
 1.  Na seção **Detalhes**, insira os detalhes das notas fiscais registradas no Microsoft Dynamics e que são afetadas pelo processo registrado, pois algumas delas podem ter exceções nos impostos retidos na fonte. Você pode adicionar notas fiscais ou remover as que foram adicionadas anteriormente.
 
-| **Campo**                        | **Descrição**                                                                                           |
-|----------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Demonstrativo                        | O identificador exclusivo da relação entre o número do processo e a nota fiscal.                 |
-| Código                             | Selecione o código de suspensão da explicação.                                                                   |
-| Tipo de serviço                     | Selecione o tipo de serviço relacionado que é aplicável à nota fiscal.                               |
-| Nota fiscal                  | Selecione a nota fiscal.                                                                               |
-| Data da decisão                 | A data da decisão, da sentença ou do despacho administrativo.                                           |
-| Valor da retenção            | O valor da retenção que foi suspenso devido a um processo legal ou administrativo.            |
-| Valor da retenção adicional | O valor adicional da retenção que foi suspenso devido a um processo legal ou administrativo. |
+    | **Campo**                        | **Descrição**                                                                                           |
+    |----------------------------------|-----------------------------------------------------------------------------------------------------------|
+    | Demonstrativo                        | O identificador exclusivo da relação entre o número do processo e a nota fiscal.                 |
+    | Código                             | Selecione o código de suspensão da explicação.                                                                   |
+    | Tipo de serviço                     | Selecione o tipo de serviço relacionado que é aplicável à nota fiscal.                               |
+    | Nota fiscal                  | Selecione a nota fiscal.                                                                               |
+    | Data da decisão                 | A data da decisão, da sentença ou do despacho administrativo.                                           |
+    | Valor da retenção            | O valor da retenção que foi suspenso devido a um processo legal ou administrativo.            |
+    | Valor da retenção adicional | O valor adicional da retenção que foi suspenso devido a um processo legal ou administrativo. |
 
-> [!NOTE]
-> Siga as etapas descritas para o evento R-1000 a fim de inserir, atualizar ou cancelar o evento relacionado.*
+    > [!NOTE]
+    > Siga as etapas descritas para o evento R-1000 a fim de inserir, atualizar ou cancelar o evento relacionado.
 
-### <a name="event-r-2010-acquired-services"></a>**Evento R-2010, "Serviços adquiridos"**
+### <a name="event-r-2010-acquired-services"></a>Evento R-2010, "Serviços adquiridos"
 
 O evento periódico R-2010 é usado para relatar, ao sistema da autoridade fiscal, as informações sobre os valores de retenção para a previdência social que estão presentes em notas fiscais de serviço recebidas pelo estabelecimento fiscal. Esse evento não tem nenhuma outra finalidade além de relatar essas notas fiscais para o governo.
 
@@ -541,18 +542,18 @@ Sempre que uma suspensão de valores ocorrer, o processo legal ou administrativo
 O evento R-2010 usa o conceito de fechamento. Depois que esse evento for fechado, o serviço Web recusará quaisquer novas entradas ou modificações nele, a menos que seja reaberto manualmente.
 
 > [!NOTE]
-> Siga as etapas descritas para o evento R-1000 a fim de inserir, atualizar ou cancelar o evento relacionado.*
+> Siga as etapas descritas para o evento R-1000 a fim de inserir, atualizar ou cancelar o evento relacionado.
 
-### <a name="event-r-2020-provided-services"></a>**Evento R-2020, "Serviços fornecidos"**
+### <a name="event-r-2020-provided-services"></a>Evento R-2020, "Serviços fornecidos"
 
 O evento periódico R-2020 é usado para relatar, ao sistema da autoridade fiscal, as informações sobre os valores de retenção para a previdência social que estão presentes em notas fiscais de serviço emitidas pelos estabelecimentos fiscais de uma organização fiscal.
 
 Esse evento funciona como o evento R-2010, mas você deve considerar as contas de cliente e o modelo de nota fiscal SE (saída) que é emitido pelo estabelecimento fiscal.
 
 > [!NOTE]
-> Siga as etapas descritas para o evento R-1000 a fim de inserir, atualizar ou cancelar o evento relacionado.*
+> Siga as etapas descritas para o evento R-1000 a fim de inserir, atualizar ou cancelar o evento relacionado.
 
-### <a name="event-r-2060-inss-cprb"></a>**Evento R-2060, "INSS CPRB"**
+### <a name="event-r-2060-inss-cprb"></a>Evento R-2060, "INSS CPRB"
 
 O evento periódico R-2060 é usado para enviar informações sobre a apuração de imposto da retenção para a previdência social ao SPED-Reinf quando a organização fiscal escolher calcular a previdência social com base na receita bruta em vez da folha de pagamento.
 
@@ -575,7 +576,7 @@ Após a criação da apuração de imposto e a realização dos ajustes necessá
 
 O evento R-2060 inclui os totais da apuração de impostos e detalhes dos cálculos de impostos por código de atividade econômica, ajustes (adições e reduções, quando aplicável) e referências a processos legais e administrativos.
 
-#### <a name="repro-step--setup"></a>**Etapa de reprodução – Configuração**
+#### <a name="repro-step--setup"></a>Etapa de reprodução – Configuração
 
 1.  Vá para **Livros fiscais \> Configuração \> Organização fiscal**.
 
@@ -589,7 +590,7 @@ O evento R-2060 inclui os totais da apuração de impostos e detalhes dos cálcu
 
 6.  Na guia **Linha**, insira os produtos ou serviços que estão relacionados pela atividade econômica. Os produtos são identificados pelo código de classificação fiscal e os serviços pelo código de serviço (federal).
 
-#### <a name="repro-step--create-tax-assessment-option-1"></a>**Etapa de reprodução – Criar apuração de imposto (opção 1)**
+#### <a name="repro-step--create-tax-assessment-option-1"></a>Etapa de reprodução – Criar apuração de imposto (opção 1)
 
 1.  Vá para **Livros fiscais \> Comum \> Período de escrituração**.
 
@@ -597,7 +598,7 @@ O evento R-2060 inclui os totais da apuração de impostos e detalhes dos cálcu
 
 3.  No Painel de Ação, selecione **INSS-CPRN** e, em seguida, selecione **Novo** para criar uma apuração de imposto. O Microsoft Dynamics automaticamente cria a apuração de imposto para o período de escrituração selecionado.
 
-#### <a name="repro-step--create-tax-assessment-option-2"></a>**Etapa de reprodução – Criar apuração de imposto (opção 2)**
+#### <a name="repro-step--create-tax-assessment-option-2"></a>Etapa de reprodução – Criar apuração de imposto (opção 2)
 
 1.  Vá para **Livros fiscais \> Comum \> Apuração de imposto \> INSS-CPRB** e, em seguida, selecione **Apuração do imposto INSS-CPRB**.
 
@@ -606,21 +607,21 @@ O evento R-2060 inclui os totais da apuração de impostos e detalhes dos cálcu
 > [!NOTE]
 > Você poderá receber o seguinte aviso: “Linha XXXX: não foi possível identificar o código da atividade econômica”. Esse aviso indica que o Microsoft Dynamics não encontrou o código da atividade econômica para a linha e a nota fiscal relacionadas. Nesse caso, você deve concluir a configuração que é descrita na etapa de reprodução anterior.
 
->   **Excluir**
+**Excluir**
 
->   Você pode excluir uma apuração do imposto INSS-CPRB existente se o status for   **Aberto**.
+Você poderá excluir uma apuração do imposto INSS-CPRB existente se o status for **Aberto**.
 
->   **Notas fiscais e operações não fiscais**
+**Notas fiscais e operações não fiscais**
 
->   Quando os impostos INSS-CPRB são apurados, o valor tributável da nota fiscal é considerado e classificado durante o processo de apuração. Você pode visualizar as operações não fiscais e as notas fiscais relacionadas que fazem parte do cálculo do imposto.
+Quando os impostos INSS-CPRB são apurados, o valor tributável da nota fiscal é considerado e classificado durante o processo de apuração. Você pode visualizar as operações não fiscais e as notas fiscais relacionadas que fazem parte do cálculo do imposto.
 
->   **Transações de imposto**
+**Transações de imposto**
 
->   Quando os impostos INSS-CPRB são apurados, você pode visualizar os detalhes das transações de imposto que são gerados pelo processo.
+Quando os impostos INSS-CPRB são apurados, você pode visualizar os detalhes das transações de imposto que são gerados pelo processo.
 
->   **Ajuste**
+**Ajuste**
 
->   Você pode inserir transações de ajuste adicionais para ajustar (aumentar ou diminuir) o valor do INSS-CPRB calculado. Configure os códigos de ajuste em **Livros fiscais \> Configuração \> Códigos de ajuste de imposto \> Tabela de códigos de ajustes de INSS-CPRB**.
+Você pode inserir transações de ajuste adicionais para ajustar (aumentar ou diminuir) o valor do INSS-CPRB calculado. Configure os códigos de ajuste em **Livros fiscais \> Configuração \> Códigos de ajuste de imposto \> Tabela de códigos de ajustes de INSS-CPRB**.
 
 1.  Selecione **Ajuste** para adicionar uma transação de ajuste que diminuirá ou aumentará o valor do imposto (débito) que é calculado.
 
@@ -632,30 +633,30 @@ O evento R-2060 inclui os totais da apuração de impostos e detalhes dos cálcu
 
 5.  Especifique a data do ajuste.
 
-> [!NOTE]
-> Os ajustes de INSS-CPRB estão disponíveis apenas por meio desse procedimento. Esse tipo de ajuste não está disponível em **Livros fiscais \> Diários \> Ajuste geral de imposto/benefício/incentivo**.
+    > [!NOTE]
+    > Os ajustes de INSS-CPRB estão disponíveis apenas por meio desse procedimento. Esse tipo de ajuste não está disponível em **Livros fiscais \> Diários \> Ajuste geral de imposto/benefício/incentivo**.
 
->   **Finalizar e reabrir**
+**Finalizar e reabrir**
 
->   Você pode finalizar ou reabrir a apuração do imposto INSS-CPRB relacionada.
+Você pode finalizar ou reabrir a apuração do imposto INSS-CPRB relacionada.
 
->   Quando uma apuração do imposto INSS-CPRB é finalizada, nenhuma modificação é permitida nessa apuração para esse período, a menos que ela seja reaberta. Um comprovante é criado para lançar o imposto INSS-CPRB para coleta e as contas contábeis são definidas no lançamento contábil para o imposto INSS em **Imposto \> Configuração \> Imposto sobre vendas \> Grupos de lançamento contábil**.
+Quando uma apuração do imposto INSS-CPRB é finalizada, nenhuma modificação é permitida nessa apuração para esse período, a menos que ela seja reaberta. Um comprovante é criado para lançar o imposto INSS-CPRB para coleta e as contas contábeis são definidas no lançamento contábil para o imposto INSS em **Imposto \> Configuração \> Imposto sobre vendas \> Grupos de lançamento contábil**.
 
 > [!NOTE]
 > Na atual arquitetura do SPED-Reinf definida pelo governo, o processo de pagamento e liquidação do passivo criado pela apuração de imposto será relatado a outro sistema chamado de DCTF Web. Esse sistema consome a saída não apenas do SPED-Reinf, mas também de outros sistemas, como o eSocial e o PER/DCOMP. Portanto, o processo de pagamento atualmente está fora do escopo e é entregue por meio de outro recurso do Microsoft Dynamics.
 
->   A ação de reabertura estará disponível se o evento R-2060 já tiver sido fechado para o estabelecimento fiscal matriz e se a apuração de imposto já estiver finalizada. A ação de reabertura reverte o comprovante anterior que foi gerado pela ação de fechamento.
+A ação de reabertura estará disponível se o evento R-2060 já tiver sido fechado para o estabelecimento fiscal matriz e se a apuração de imposto já estiver finalizada. A ação de reabertura reverte o comprovante anterior que foi gerado pela ação de fechamento.
 
 > [!NOTE]
 > Siga as etapas descritas para o evento R-1000 a fim de inserir, atualizar ou cancelar o evento relacionado.
 
-### <a name="events-r-2090-closing-and-r-2098-reopen"></a>**Eventos R-2090, "Fechamento" e R-2098, "Reabertura"**
+### <a name="events-r-2090-closing-and-r-2098-reopen"></a>Eventos R-2090, "Fechamento" e R-2098, "Reabertura"
 
 **Fechamento**
 
 Os eventos periódicos R-2010, R-2010 e R-2060 devem ser fechados ao final de um período, quando não houver mais nenhuma transação a ser relatada nesse período.
 
-#### <a name="repro-step"></a>**Etapa de reprodução**
+#### <a name="repro-step"></a>Etapa de reprodução
 
 1.  Finalize a apuração do imposto INSS-CPRB, mesmo que você não apure o imposto INSS-CPRB.
 
@@ -665,7 +666,7 @@ Os eventos periódicos R-2010, R-2010 e R-2060 devem ser fechados ao final de um
 
 Depois que os eventos periódicos R-2010, R-2010 e R-2060 forem fechados por meio de um evento R-2099, eles poderão ser reabertos por meio de um evento R-2098. Você poderá então relatar novas transações ou modificar transações existentes para o período.
 
-#### <a name="repro-step"></a>**Etapa de reprodução**
+#### <a name="repro-step"></a>Etapa de reprodução
 
 1.  Reabra a apuração do imposto INSS-CPRB, mesmo que você não apure o imposto INSS-CPRB.
 

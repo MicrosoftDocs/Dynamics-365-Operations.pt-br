@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: a42e836c0b72798de3375c169e45b121debd55ec
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 12fadd8387054db3e19d4136555724c23548e05c
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191261"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3031010"
 ---
 # <a name="alerts-overview"></a>Visão geral dos alertas
 
@@ -82,14 +82,14 @@ As notificações por email de alertas ainda não estão habilitadas. Isso será
 
 ### <a name="how-to-use-alerts-to-monitor-filtered-data"></a>Como usar alertas para monitorar dados filtrados
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3DWZ3]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3DWZ3]
 
-O vídeo [Como usar alertas para monitorar dados filtrados](https://youtu.be/ZYKMcv6kl9s) (exibido acima) está incluído na [playlist Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
+O vídeo [Como usar alertas para monitorar dados filtrados](https://youtu.be/ZYKMcv6kl9s) (exibido acima) está na playlist [Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
 
 ### <a name="alert-rule-options"></a>Opções de regras de alerta
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3E4PV]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E4PV]
 
-O vídeo [Opções de regras de alerta](https://youtu.be/cpzimwOjicM) (mostrado acima) está incluído na [playlist Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
+O vídeo [Opções de regras de alerta](https://youtu.be/cpzimwOjicM) (mostrado acima) está na playlist [Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
 
 

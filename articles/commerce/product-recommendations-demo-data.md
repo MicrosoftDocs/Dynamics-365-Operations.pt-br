@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af8a30e69d9ed143e045950efdcece207f6da14c
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 6abac72b7530dc7b82c8e95faebdce791cf7dbd1
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697925"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003225"
 ---
 # <a name="get-product-recommendations-using-demo-data"></a>Obter recomendações de produtos usando dados de demonstração
 Este documento oferece orientações sobre como aproveitar recomendações de produtos do omnicanal em ambientes de uma caixa da Camada 1 usando dados de demonstração personalizáveis pré-preenchidos.
@@ -39,7 +39,7 @@ Para ambientes da Camada 1, as recomendações de produtos são baseadas somente
 Para habilitar a data de demonstração das recomendações do produto, você precisa implantar a Extensão da Demonstração da Versão Prévia do Dynamics 365 Commerce para o respectivo ambiente. Esta ação habilita automaticamente os dados de demonstração das recomendações.
 
 ## <a name="default-demo-data"></a>Dados de demonstração padrão
-Cada tipo de ambiente do Onebox vem com um conjunto pré-carregado de dados de demonstração das recomendações de produtos no arquivo separado por vírgulas ‘reco_demo_data.csv’, localizado no Retail Server.
+Cada tipo de ambiente do Onebox vem com um conjunto pré-carregado de dados de demonstração das recomendações de produtos no arquivo separado por vírgulas ‘reco_demo_data.csv’, localizado no Commerce Scale Unit.
 
 Os dados são estruturados ao longo das seguintes colunas:
 

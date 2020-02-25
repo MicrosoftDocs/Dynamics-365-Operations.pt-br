@@ -1,5 +1,5 @@
 ---
-title: Configurar um ambiente de visualização de comércio
+title: Configurar um ambiente de visualização do Dynamics 365 Commerce
 description: Este tópico explica como configurar um ambiente de visualização do Microsoft Dynamics 365 Commerce após ter sido provisionado.
 author: psimolin
 manager: annbe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f19d03f3f2f5a9f6f7ba08b682277e4e3b764d10
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 12d3a86698e9250f5d1645de51e0749c8d929f75
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906130"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024697"
 ---
-# <a name="configure-a-commerce-preview-environment"></a>Configurar um ambiente de visualização de comércio
+# <a name="configure-a-dynamics-365-commerce-preview-environment"></a>Configurar um ambiente de visualização do Dynamics 365 Commerce
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Este tópico explica como configurar um ambiente de visualização do Microsoft Dynamics 365 Commerce após ter sido provisionado.
@@ -142,13 +142,13 @@ Para configurar recursos opcionais de seu ambiente de visualização do Commerce
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral do ambiente de visualização do Commerce](cpe-overview.md)
+[Visão geral do ambiente de visualização do Dynamics 365 Commerce](cpe-overview.md)
 
-[Provisionar um ambiente de visualização do Commerce](provisioning-guide.md)
+[Provisionar um ambiente de visualização do Dynamics 365 Commerce](provisioning-guide.md)
 
-[Configurar recursos opcionais para um ambiente de visualização do Commerce](cpe-optional-features.md)
+[Configurar recursos opcionais para um ambiente de visualização do Dynamics 365 Commerce](cpe-optional-features.md)
 
-[Perguntas frequentes do ambiente de visualização do Commerce](cpe-faq.md)
+[Perguntas frequentes do ambiente de visualização do Dynamics 365 Commerce](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
@@ -157,5 +157,3 @@ Para configurar recursos opcionais de seu ambiente de visualização do Commerce
 [Portal do Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Site do Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
-
-[Recursos de ajuda do Dynamics 365 Retail](../retail/index.md)

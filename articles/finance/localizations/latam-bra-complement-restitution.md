@@ -18,12 +18,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f5094705d73c5fbf2a87e0e2b9be4e7d9cf31ed5
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 5b2fb132773e0fc4d8a9b6aeff64dde87b147534
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250349"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003771"
 ---
 # <a name="icms-st-complement-and-restitution-process-and-declaration-for-rs-sc-and-sp-states"></a>Processo e declaração de complemento e restituição do ICMS-ST para os Estados do RS, de SC e SP
 
@@ -76,7 +76,7 @@ As tabelas a seguir apresentam informações sobre os registros gerados por meio
 
 #### <a name="record-0000--statement-opening-and-taxpayer-identification-and-participant-identification"></a>Registro 0000 – Abertura do demonstrativo, identificação do contribuinte e identificação do participante
 
-| **Número** | **Campo** | **Descrição**                                                                                                                    |
+| Número | Campo | Descrição                                                                                                                    |
 |------------|-----------|------------------------------------------------------------------------------------------------------------------------------------|
 | 01         | REG       | Texto fixo definido como **0000**                                                                                                 |
 | 02         | PERÍODO   | Período do relatório                                                                                                               |
@@ -95,7 +95,7 @@ As tabelas a seguir apresentam informações sobre os registros gerados por meio
 
 Somente os usuários com transações no período de escrituração informado foram incluídos nesse registro. Há um registro por usuário.
 
-| **Número** | **Campo** | **Descrição**                                                                  |
+| Número | Campo | Descrição                                                                  |
 |------------|-----------|----------------------------------------------------------------------------------|
 | 01         | REG       | Texto fixo definido como **0150**                                               |
 | 02         | COD_PART  | O código de identificação do participante                                       |
@@ -110,7 +110,7 @@ Somente os usuários com transações no período de escrituração informado fo
 
 Somente os itens com transações no período de escrituração informado foram incluídos nesse registro. Há um registro por item.
 
-| **Número** | **Campo**  | **Descrição**                                               |
+| Número | Campo  | Descrição                                               |
 |------------|------------|---------------------------------------------------------------|
 | 01         | REG        | Texto fixo definido como **0200**                            |
 | 02         | COD_ITEM   | O código do item                                                 |
@@ -125,7 +125,7 @@ Somente os itens com transações no período de escrituração informado foram 
 
 Esse relatório informa o valor total (posição de estoque inicial e posição de estoque final) de 1.100 registros. Há um registro por item. As informações são coletadas da funcionalidade **Saldos tributados presumidos** na apuração do imposto ICMS-ST.
 
-| **Número** | **Campo**    | **Descrição**                                                                                                                              |
+| Número | Campo    | Descrição                                                                                                                              |
 |------------|--------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | 01         | REG          | Texto fixo definido como **1050**                                                                                                           |
 | 02         | COD_ITEM     | O código do item de acordo com o registro 0200                                                                                                       |
@@ -138,7 +138,7 @@ Esse relatório informa o valor total (posição de estoque inicial e posição 
 
 Este registro informa os detalhes de documentos fiscais eletrônicos. Essas informações são coletadas das informações armazenadas nas guias **Saída** e **Entrada** da página **Impostos presumidos**.
 
-| **Número** | **Campo** | **Descrição**                                                                                                                                     |
+| Número | Campo | Descrição                                                                                                                                     |
 |------------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | 01         | REG       | Texto fixo definido como **1100**                                                                                                                  |
 | 02         | CHV_DOC   | O valor **ACCESSKEY** da nota fiscal eletrônica                                                                                                |
@@ -158,7 +158,7 @@ Este registro informa os detalhes de documentos fiscais eletrônicos. Essas info
 
 A tabela a seguir descreve os códigos para a hipótese de restituição ou complemento de ICMS-ST.
 
-| **Código** | **Hipótese de restituição ou complemento ou ICMS-ST**                                                                         | **Observação**                                                                                             |
+| Código | Hipótese de restituição ou complemento ou ICMS-ST                                                                         | Observação                                                                                             |
 |----------|--------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | 1        | Operação onde a restituição ou o complemento do ICM-ST é aplicável na hipótese do Item I do Artigo 269 do RICMS | Nota fiscal de saída para consumidores finais com o código do tipo de imposto ICMS-ST e tributação = 60                    |
 | 2        | Operação onde a restituição do ICM-ST é aplicável na hipótese do Item II do Artigo 269 do RICMS              | Nota fiscal de saída para a redução de estoque CFOP 5.927/outros com o código do tipo de imposto ICMS e tributação = 90 |
@@ -178,7 +178,7 @@ O valor do ICMS-ST é calculado para complemento e restituição e é informado 
 
 #### <a name="non-retailer-companies"></a>Empresas de atacado
 
-| **Gravar** | **Nível** | **Descrição**                         | **Comentário**                                                                                                                                                                                                                                                                                                                             | **Parâmetros do Estado do RS**                                                                            |
+| Gravar | Nível | Descrição                         | Comentário                                                                                                                                                                                                                                                                                                                            | Parâmetros do Estado do RS                                                                            |
 |------------|-----------|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | 1001       | 1         | Abrir Bloco 1                         |                                                                                                                                                                                                                                                                                                                                         | A opção **Bloco 1900** é definida como **Sim**.                                                            |
 | 1900       | 2         | Indicador de subapuração de imposto ICMS-ST |                                                                                                                                                                                                                                                                                                                                         | Os campos **Indicador de subapuração de imposto** e **Descrição da subapuração de imposto**                      |
@@ -194,7 +194,7 @@ O valor do ICMS-ST é calculado para complemento e restituição e é informado 
 
 #### <a name="retail-companies"></a>Empresas de varejo
 
-| **Gravar** | **Nível** | **Descrição**                         | Comentários                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | **Parâmetros do Estado do RS**                                                                            |
+| Gravar | Nível | Descrição                         | Comentários                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Parâmetros do Estado do RS                                                                            |
 |------------|-----------|-----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | 1001       | 1         | Abrir Bloco 1                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | A opção **Bloco 1900** é definida como **Sim**.                                                            |
 | 1900       | 2         | Indicador de subapuração de imposto ICMS-ST |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Os campos **Indicador de subapuração de imposto** e **Descrição da subapuração de imposto**                      |
@@ -217,7 +217,7 @@ Na Portaria SEF Nº 396/2018, o Estado de SC estabeleceu o procedimento para cal
 
 ### <a name="scope"></a>Escopo
 
-| **Bloquear** | **Nível** | **Registros** | **Descrição**                                                                                                               |
+| Bloquear | Nível | Registros | Descrição                                                                                                              |
 |-----------|-----------|-------------|-------------------------------------------------------------------------------------------------------------------------------|
 | 0         | 0         | 0000        | Abrir arquivo                                                                                                                  |
 |           | 1         | 0001        | Abrir bloco 0                                                                                                               |
@@ -254,10 +254,10 @@ Os registros a seguir fazem parte do escopo: 2112 (notas fiscais de saída gerad
 1. Vá para **Administração da organização** \> **Configuração** \> **Parâmetros brasileiros**.
 2. Na guia **Nota fiscal** , na seção **ICMS-ST** , defina as opções **Sim**:
 
-  -  **Impostos presumidos do ICMS-ST** – Habilite esse processo para gerar marcas relacionadas no formato XML quando uma NF-e for emitida para autoridades fiscais.
-  -  **Livros fiscais de imposto presumido do ICMS-ST** – Habilite este processo para calcular valores de restituição e compensação do ICMS-ST e gerar relatórios relacionados, de acordo com o Estado onde o estabelecimento fiscal tem o registro do ICMS-ST (SC, SP ou RS).
+    -  **Impostos presumidos do ICMS-ST** – Habilite esse processo para gerar marcas relacionadas no formato XML quando uma NF-e for emitida para autoridades fiscais.
+    -  **Livros fiscais de imposto presumido do ICMS-ST** – Habilite este processo para calcular valores de restituição e compensação do ICMS-ST e gerar relatórios relacionados, de acordo com o Estado onde o estabelecimento fiscal tem o registro do ICMS-ST (SC, SP ou RS).
 
-  ![Página de parâmetros brasileiros, seção ISMS-ST](media/brazil-icms-01.png)
+    ![Página de parâmetros brasileiros, seção ISMS-ST](media/brazil-icms-01.png)
 
 3. Vá para **Livros fiscais** \> **Configuração** \> **Parâmetros de livros fiscais por Estado**, selecione o Estado adequado (**SP**, **SC**, ou **RS**).
 
@@ -276,7 +276,7 @@ No FastTab **Impostos presumidos** da página **Parâmetros de livros fiscais po
 
   ![Página de parâmetros de livros fiscais por Estado, FastTab de imposto presumido](media/brazil-icms-02.png)
 
-### <a name="icms-st-sub-tax-assessment-in-rs-state"></a>**subapuração do imposto ICMS-ST no Estado do RS**
+### <a name="icms-st-sub-tax-assessment-in-rs-state"></a>subapuração do imposto ICMS-ST no Estado do RS
 
 Para o Estado do RS, como os valores e os detalhes do cálculo das compensações e restituição do ICMS-ST são informados no SPED Fiscal no registro 1900 e outros registros relacionados, a configuração adicional é obrigatória para criar automaticamente as transações de ajuste estabelecidas pelo Decreto 54308/2018.
 
@@ -313,7 +313,7 @@ Antes de gerar um demonstrativo para cada Estado, é necessário criar um perío
 1. Vá para **Livros fiscais** \> **Comum** \> **Apuração de imposto** \> **ICMS-ST**.
 2. Na página **ICMS-ST**, no Painel de Ações, na guia **Geral**, no grupo **Exibir**, selecione **Saldo de impostos presumidos**.
 
-  ![Página ICMS-ST, guia Geral no Painel de Ações](media/brazil-icms-05.png)
+    ![Página ICMS-ST, guia Geral no Painel de Ações](media/brazil-icms-05.png)
 
 A página **Saldo de impostos presumidos** inclui os campos obrigatórios para fins de relatório. Veja alguns exemplos desses campos:
 
@@ -399,9 +399,9 @@ Dependendo do tipo de negócio da empresa (varejo ou atacado), o Finance gera os
 3. No campo **Versão do layout**, selecione a versão.
 4. No campo **Tipo de arquivo**, selecione o tipo de arquivo:
 
-  - Regular (início no primeiro dia do ano)
-  - Indicação específica
-  - Substituto
+    - Regular (início no primeiro dia do ano)
+    - Indicação específica
+    - Substituto
 
 O arquivo de texto gerado deve ser validado primeiro usando o aplicativo de autoridade fiscal Após o arquivo ser aprovado, é possível enviar as informações para as autoridades fiscais.
 
@@ -423,13 +423,13 @@ O arquivo de texto gerado deve ser validado primeiro usando o aplicativo de auto
 1. Vá para **Livros fiscais \> Configuração \> Parâmetros de demonstrativos de imposto** e selecione **SPED DRCST**.
 2. Na FastTab **Parâmetros de configuração**, adicione o endereço na internet e o endereço do cabeçalho da solicitação, para que o arquivo XML relacionado possa ser enviado para as autoridades fiscais do governo.
 
-  ![Página de parâmetros de demonstrativo de imposto, FastTab de parâmetros de configuração](media/brazil-icms-09.png)
+    ![Página de parâmetros de demonstrativo de imposto, FastTab de parâmetros de configuração](media/brazil-icms-09.png)
 
 3. Vá para **Administração da organização \> Configuração \> Parâmetros brasileiros**.
 4.  Na guia **Nota fiscal**, na seção, **ICMS-ST**, defina as opções como **Sim** para habilitar a funcionalidade para calcular impostos presumidos no processo de emissão de NF-e e na apuração de imposto ICMS-ST do SPED Fiscal:
 
-  - ICMS-ST presumido
-  - Imposto ICMS-ST presumido em livros fiscais
+    - ICMS-ST presumido
+    - Imposto ICMS-ST presumido em livros fiscais
 
 5. Vá para **Livros fiscais** \> **Comum** \> **Período de escrituração** e, em seguida, na guia **Demonstrativos de imposto**, selecione **SPED DRCST**. Este demonstrativo também está disponível na apuração de imposto ICMS-ST do Estado de SC.
 6.  No campo **Nome do arquivo**, insira o caminho completo no qual o arquivo de texto deve ser salvo. Inclua o nome do arquivo.

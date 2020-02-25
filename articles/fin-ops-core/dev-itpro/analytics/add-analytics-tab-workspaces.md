@@ -15,21 +15,21 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 1a357c4623f4f9dc441fe328ec0d5481c14ae4af
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: de85bf52d8e3415549db64501b2435ebd7377fef
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771624"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025845"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Adicionar análise a espaços de trabalho usando o Power BI Embedded
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Este recurso é compatível com o Finance and Operations (versão 7.2 e posterior).
+> Este recurso tem suporte no Finance and Operations (versões 7.2 e posterior).
 
-## <a name="introduction"></a>Apresentação
+## <a name="introduction"></a>Introdução
 Este tópico mostra como incorporar um relatório do Microsoft Power BI na guia **Análise** de um espaço de trabalho. No exemplo dado aqui, estenderemos o espaço de trabalho **Gerenciamento de reservas** no aplicativo de Gerenciamento de Frota para incorporar um espaço de trabalho analítico em uma guia **Análise**.
 
 ## <a name="prerequisites"></a>Pré-requisitos
@@ -111,7 +111,7 @@ Siga essas etapas para adicionar a lógica comercial que inicializa o controle d
 2. Pressione F7 para acessar o código por trás da definição de código.
 3. Adicione o código X++ a seguir.
 
-    ```
+    ```xpp
     [Form] 
     public class FMClerkWorkspace extends FormRun
     {
@@ -156,7 +156,7 @@ Agora você já concluiu a tarefa de adicionar a lógica comercial para iniciali
 Esta seção fornece informações sobre a classe auxiliar usada para incorporar um relatório do Power BI (recurso .pbix) em um controle de grupo de formulários.
 
 #### <a name="syntax"></a>Sintaxe
-```
+```xpp
 public static void initializeReportControl(
     str                 _resourceName,
     FormGroupControl    _formGroupControl,

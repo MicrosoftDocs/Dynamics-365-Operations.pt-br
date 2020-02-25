@@ -1,0 +1,90 @@
+---
+title: Configurar hierarquias da organização
+description: Este tópico descreve como configurar hierarquias da organização no Microsoft Dynamics 365 Commerce.
+author: samjarawan
+manager: annbe
+ms.date: 01/27/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-commerce
+ms.technology: ''
+audience: Application User
+ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: samjar
+ms.search.validFrom: 2020-01-20
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 6c19542089526c1e17fb1133d52cf042f244fb80
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002326"
+---
+# <a name="set-up-organization-hierarchies"></a>Configurar hierarquias da organização
+
+
+[!include [banner](includes/banner.md)]
+
+Este tópico descreve como configurar hierarquias da organização no Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visão geral
+
+Antes de criar canais, você precisa se certificar de configurar as hierarquias da organização.
+
+Você pode usar as hierarquias da organização para exibir e fazer relatórios sobre a empresa de várias perspectivas. Por exemplo, você pode configurar uma hierarquia para relatórios de impostos, legais ou estatutários. Você pode configurar outra hierarquia para criar relatórios sobre informações financeiras que não são necessárias legalmente, mas que são usadas para fins de relatórios internos.
+
+Antes de criar uma hierarquia da organização, você deve criar organizações. Para obter mais informações, consulte [Criar entidades legais](channels-legal-entities.md) ou [Criar unidades operacionais](../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/commerce/toc.json).
+
+
+Para obter mais informações, consulte os tópicos a seguir.
+- [Visão geral de organizações e hierarquias organizacionais](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies)
+- [Planejar sua hierarquia da organização](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy?toc=/dynamics365/commerce/toc.json)
+- [​Criar uma hierarquia da organização​](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy?toc=/dynamics365/commerce/toc.json)
+
+## <a name="create-an-organizational-hierarchy"></a>Criar uma hierarquia da organização
+
+Para criar uma hierarquia organizacional, siga estas etapas.
+
+1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Configuração de Canal \> Hierarquias da organização**.
+1. No painel de ação, selecione **Novo**.
+1. No campo **Nome**, insira um valor.
+1. Na seção **Finalidade**, selecione **Atribuir finalidade**.
+1. Na lista, localize e selecione o registro desejado. Selecione uma finalidade para atribuir a hierarquia da organização.
+1. Na seção **Hierarquias atribuídas**, selecione **Adicionar**.
+1. Na lista, marque a linha selecionada. Localizar a hierarquia que você acabou de criar.
+1. Selecione **OK**.
+
+A imagem a seguir mostra um exemplo de hierarquia organizacional criada para um conjunto de lojas "Adventure Works" fictícias.
+
+![Exemplo de hierarquias organizacional](media/organizational-hierarchies.png)
+
+### <a name="add-organizations-to-a-hierarchy"></a>Adicionar organizações a uma hierarquia
+
+Para adicionar organizações a uma hierarquia, siga estas etapas.
+
+1. Na lista, localize e selecione o registro desejado. Selecionar sua hierarquia.
+1. No painel de ação, selecione **Exibir**.
+1. Adicione organizações, conforme necessário.
+1. Para adicionar uma organização, selecione **Editar** e, depois, **Inserir**. Quando terminar de fazer alterações, você pode salvar um rascunho e publicar as alterações.
+
+A imagem a seguir mostra uma entidade legal adicionada na raiz da hierarquia, com quatro centros de custo adicionados para os canais "Shopping", "Loja", "Online" e "Call Center". Vários canais online, de varejo e de call center podem ser adicionados a cada um deles.
+
+![Exemplo de designer de hierarquia](media/hierarchy-designer.png)
+
+## <a name="additional-resources"></a>Recursos adicionais
+
+[Visão geral de organizações e hierarquias organizacionais](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+
+[Planejar sua hierarquia da organização](../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json)
+
+[Criar entidades legais](channels-legal-entities.md)
+
+[​Criar unidades operacionais](../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/commerce/toc.json)
+
+[Visão geral de canais](channels-overview.md)
+
+[Pré-requisitos de configuração de canal](channels-prerequisites.md)

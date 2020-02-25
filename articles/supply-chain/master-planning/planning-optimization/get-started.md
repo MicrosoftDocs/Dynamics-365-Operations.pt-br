@@ -3,7 +3,7 @@ title: Introdução à Otimização de Planejamento
 description: Este tópico explica como começar a usar a funcionalidade Otimização de Planejamento.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/29/2019
+ms.date: 01/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 37c2acb2397b2a0ad69272c0645bd200a8d7910d
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 3e0371c6addc0412dc2fc105891b012941e92a06
+ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773899"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "2971455"
 ---
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
@@ -47,15 +47,17 @@ Para usar a Otimização de Planejamento, instale o Suplemento Otimização de P
 
 1. Entre no LCS e abra o ambiente desejado.
 1. Vá para **Detalhes completos**.
-1. Selecione **Manter** ou role para baixo até a Guia Rápida **Suplementos de ambiente**.
+1. Role para baixo até a FastTab **Suplementos de ambiente**.
 1. Selecione **Instalar um novo suplemento**.
 1. Selecione **Otimização de Planejamento**.
 1. Acompanhe o guia de instalação e concorde com os termos e condições.
 1. Selecione **Instalar**.
+1. Na FastTab **Suplementos de ambiente**, você deverá ver que a Otimização do Planejamento está instalando.
+1. Após alguns minutos, **Instalando** deve mudar para **Instalado** (talvez você precise atualizar a página). Quando instalado, você estará pronto para ativar a Otimização do Planejamento no Dynamics 365 Supply Chain Management.
 
 ### <a name="planning-optimization-integration"></a>Integração da Otimização de Planejamento
 
-Para configurar se o Suplemento Otimização de Planejamento deve ser usado para o planejamento mestre, vá para **Planejamento mestre** \> **Configuração** \> **Integração da Otimização de Planejamento** \> **Parâmetros de integração**.
+Para configurar se o Suplemento Otimização do Planejamento deve ser usado para o planejamento mestre, vá para **Planejamento mestre** \> **Configuração** \> **Parâmetros de Otimização do Planejamento**.
 
 #### <a name="connection-status"></a>Status da conexão
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c28c9e8c2573bcd82434f88daa8f9cadc946209
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: fc9064f0386fe7c0f4093fc30587be4baa259eb0
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812377"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003670"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Visão geral de organizações e hierarquias organizacionais
 
@@ -47,7 +47,7 @@ Uma empresa é um tipo de entidade legal. Atualmente, empresas são o único tip
 
 Uma unidade operacional é uma organização usada para dividir o controle de recursos econômicos e os processos operacionais em uma empresa. As pessoas de uma unidade operacional têm um imposto para maximizar o uso de recursos escassos, melhorar os processos e a conta para o desempenho.
 
-Os tipos de unidades operacionais incluem centros de custos, unidades de negócios, fluxos de valor, departamentos e canais de varejo. A tabela a seguir fornece mais informações sobre cada tipo de unidade operacional.
+Os tipos de unidades operacionais incluem centros de custos, unidades de negócios, fluxos de valor, departamentos e canais de comércio. A tabela a seguir fornece mais informações sobre cada tipo de unidade operacional.
 
 | Tipo de unidade operacional | descrição | Finalidade |
 |---------------------|-------------|---------|
@@ -55,7 +55,7 @@ Os tipos de unidades operacionais incluem centros de custos, unidades de negóci
 | Unidade de negócios       | Uma unidade operacional semiautônoma criada para atender aos objetivos estratégicos de negócios. | Usado para relatórios financeiros baseados em setores ou nas linhas de produtos que a organização atua de forma independente das entidades legais. |
 | Fluxo de valor        | Uma unidade operacional que controla um ou mais fluxos de produção. | Comumente usado em lean manufacturing para controlar as atividades e os fluxos necessários para fornecer um produto ou serviço para os consumidores. |
 | Departamento          | Uma unidade operacional que representa uma categoria ou uma parte funcional de uma organização que execute uma tarefa específica, como vendas ou contabilidade. | Usado para registrar sobre as áreas funcionais. Um departamento pode ter a responsabilidade de lucros e perdas, e pode consistir de um grupo de centros de custo. |
-| Canal de varejo      | Uma unidade operacional que representa uma loja de tijolos e cimento, uma loja online ou um mercado online. | Usada para controle operacional e gerenciamento de uma ou mais lojas dentro das entidades legais ou por elas. |
+| Canal do Commerce      | Uma unidade operacional que representa uma loja de tijolos e cimento, uma loja online ou um mercado online. | Usada para controle operacional e gerenciamento de uma ou mais lojas dentro das entidades legais ou por elas. |
 
 ### <a name="teams"></a>Times
 

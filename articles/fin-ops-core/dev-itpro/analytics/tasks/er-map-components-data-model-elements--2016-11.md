@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9a033853be17d6013daa5550ca9c061198bb0330
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 548f16034ebdf7e0f29e8e89d85aac880f6323a1
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184729"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026231"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>ER Componentes do mapa do formato criado para elementos do modelo de dados (Novembro de 2016)
 
@@ -98,7 +98,7 @@ O seguinte procedimento mostra como um usuário na função de Administrador do 
 2. Feche a página.
 
 ## <a name="change-status-of-the-current-version-of-format-configuration"></a>Altere o status da versão atual da configuração de formato
-    * Nas próximas etapas, você irá alterar o status da configuração de formato de Rascunho para Concluído para torná-la disponível para geração de documento de pagamento.  
+Nas próximas etapas, você irá alterar o status da configuração de formato de Rascunho para Concluído para torná-la disponível para geração de documento de pagamento.  
 1. Clique em Alterar status.
 2. Clique em Concluir.
 3. No campo Descrição, digite um valor.
@@ -108,7 +108,7 @@ O seguinte procedimento mostra como um usuário na função de Administrador do 
     * Observe que a configuração será salva como versão concluída 1.1: versão 1 do formato baseado na versão 1 do modelo de dados.  
 
 ## <a name="define-effective-date-for-completed-version-of-format"></a>Definir a data efetiva para a versão concluída do formato
-    * Cada versão do formato pode ser configurada como disponível para uso a partir de uma data determinada. Quando mais de uma versão do formato estiver ativa em uma determinada data, o formato mais recente (com base no número de versão) será selecionado para o uso. O valor da data da sessão é utilizado na seleção da versão apropriada.  
+Cada versão do formato pode ser configurada como disponível para uso a partir de uma data determinada. Quando mais de uma versão do formato estiver ativa em uma determinada data, o formato mais recente (com base no número de versão) será selecionado para o uso. O valor da data da sessão é utilizado na seleção da versão apropriada.  
 
 ## <a name="restrict-access-to-created-format-from-companies"></a>Restrinja o acesso ao formato criado pelas empresas
 1. Expanda a seção Códigos ISO de país/região.

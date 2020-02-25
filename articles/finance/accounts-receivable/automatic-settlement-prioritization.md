@@ -3,7 +3,7 @@ title: Liquidação e priorização automáticas
 description: Este tópico descreve como as transações serão liquidadas se você selecionar a Liquidação automática na página de parâmetros de Contas a receber. Também explica como a liquidação automática pode ser usada em combinação com a prioridade de pagamento.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 01/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 73a4403ec3265d9ab68c5cd906965a1c28ca7352
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b596557e80035e8d62d01f156a6678c75e4ae573
+ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189214"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "3000038"
 ---
 # <a name="automatic-settlement-and-prioritization"></a>Liquidação e priorização automáticas
 
@@ -76,8 +76,8 @@ Se não houver nenhuma prioridade de liquidação definida pelo usuário, as tra
 |---------------|------------|---------|--------------------------------|------------------|---------|----------|
 | Fatura 1     | 15/08/2015  | 10001   | 100,00                         | 100,00           | 0,00    | USD      |
 | Fatura 2     | 01/09/2015   | 10002   | 250,00                         | 250,00           | 0,00    | USD      |
-| Fatura 3     | 15/10/2015 |         | 500,00                         | 350,00           | 150.00  | USD      |
-| Nota de juros | 15/10/2015 |         | 7:00                           | 0,00             | 0,00    | USD      |
+| Fatura 3     | 15/10/2015 |         | 500.00                         | 350.00           | 150.00  | USD      |
+| Nota de juros | 15/10/2015 |         | 7.00                           | 0,00             | 7.00    | USD      |
 
 
 

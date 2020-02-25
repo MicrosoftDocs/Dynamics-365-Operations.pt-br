@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf1a417130cb9d17f33d96f5e510582c79e875ca
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4594da0feeb3b74eb066fb5761e36398804b4fc2
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811663"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005694"
 ---
 # <a name="help-system"></a>Sistema de ajuda
 
@@ -32,9 +32,9 @@ ms.locfileid: "2811663"
 Este tópico fornece uma visão geral dos componentes do sistema de Ajuda. O sistema de Ajuda é compartilhado pelos seguintes produtos:
 
 - Dynamics 365 Finance 
-- Dynamics 365 Retail
+- Dynamics 365 Commerce
 - Dynamics 365 Supply Chain Management
-- Dynamics 365 Talent
+- Dynamics 365 Human Resources
 
 Você pode acessar a ajuda do painel de ajuda em qualquer produto que esteja usando. 
 
@@ -42,7 +42,7 @@ Você pode acessar a ajuda do painel de ajuda em qualquer produto que esteja usa
 
 ## <a name="help-on-docsmicrosoftcom"></a>Ajuda no docs.microsoft.com
 
-O site docs.microsoft.com ([docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/) é a principal fonte de documentação do produto dos aplicativos acima. O site oferece os seguintes recursos:
+O site docs.microsoft.com ([docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/)) é a principal fonte de documentação do produto dos aplicativos acima. O site oferece os seguintes recursos:
 
 - **Acesso ao conteúdo mais atualizado**– O site fornece uma maneira mais rápida e flexível para criar, entregar e atualizar a documentação do produto. Portanto, ajuda a garantir que você tenha acesso às informações técnicas mais recentes.
 - **Conteúdo escrito por especialistas**– O site fornece um conjunto rico de documentação do produto que pode ser aprimorado por membros da comunidade tanto de dentro quanto de fora da Microsoft.
@@ -73,7 +73,7 @@ Você pode colaborar e fazer edições na documentação. Para começar, clique 
 
 O vídeo [Como colaborar com a documentação do Microsoft Dynamics 365](https://youtu.be/m5djioozRbg) (mostrado acima) está incluído no canal do Microsoft Dynamics 365 no YouTube.
 
-Para obter mais informações, consulte o [guia do colaborador](https://docs.microsoft.com/en-us/contribute).
+Para obter mais informações, consulte o [guia do colaborador](https://docs.microsoft.com/contribute).
 
 > [!NOTE]
 > No momento, só aceitamos colaborações para nosso conteúdo em inglês.
@@ -106,12 +106,12 @@ Para acessar o conteúdo da Ajuda, clique no ícone **Ajuda** (**?**) e escolha 
 No painel de Ajuda, você pode acessar artigos que se aplicam ao cliente. Ao abrir o painel de Ajuda pela primeira vez e clicar na guia **Ajuda**, você verá os artigos que se aplicam à página em que você se encontra. Se nenhum artigo for encontrado, você poderá inserir palavras-chave para refinar a pesquisa. Quando você clicar em um artigo no painel de Ajuda, uma nova aba será aberta no seu navegador e exibirá o artigo.
 
 > [!IMPORTANT]
-> Esta seção não se aplica ao Dynamics 365 Talent. O sistema de Ajuda do Talent é automaticamente conectado às guias de Tarefas do produto. Além disso, você não pode criar guias de Tarefas personalizadas para o Talent.
+> Esta seção não se aplica ao Dynamics 365 Human Resources. O sistema de Ajuda do Human Resources é automaticamente conectado às Guias de tarefas do produto. Além disso, não é possível criar Guias de tarefas personalizadas para o Human Resources.
 
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>Acessando guias de tarefas através do painel de Ajuda
 
-Para poder acessar as guias de Tarefas no painel de Ajuda, um administrador do sistema precisa ir até a página **Parâmetros do sistema** no Finance, Supply Chain Management e Retail e definir algumas configurações.
+Para poder acessar as Guias de tarefas no painel Ajuda, um administrador do sistema precisa ir até a página **Parâmetros do sistema** no Finance, Supply Chain Management e Commerce e definir algumas configurações.
 
 > [!NOTE]
 > - Para configurar a Ajuda, você precisa estar conectado com uma conta no mesmo locatário como o locatário em que o aplicativo está implantado.

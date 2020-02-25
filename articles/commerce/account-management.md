@@ -3,7 +3,7 @@ title: Páginas e módulos de gerenciamento de contas
 description: Este tópico aborda páginas e módulos de gerenciamento de contas no Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 12/02/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f9fc3731cd9d21294b0161e1d419f255096d7790
-ms.sourcegitcommit: 96bfc20eb748f4090a2b5e1ff9f54997d5a5d359
+ms.openlocfilehash: 8787a7b01ecf15752569d2a3a8d7804fe492e63d
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "2885800"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025655"
 ---
 # <a name="account-management-pages-and-modules"></a>Páginas e módulos de gerenciamento de contas
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Este tópico aborda páginas e módulos de gerenciamento de contas no Microsoft Dynamics 365 Commerce.
@@ -40,13 +40,12 @@ O gerenciamento de contas refere-se a um grupo de páginas que é usado para ger
 
 A página de aterrissagem do gerenciamento de contas usa os seguintes módulos:
 
-- **Posicionamento de conteúdo** – Este módulo é um módulo de contêiner que contém todos os módulos na página de aterrissagem de gerenciamento de contas.
-- **Item de boas-vindas da conta** – Este módulo é usado para fornecer uma mensagem de boas-vindas na página de gerenciamento de contas. Inclui propriedades para o cabeçalho e o tamanho do bloco. A propriedade **Tamanho do bloco** define a largura do módulo no módulo de posicionamento de conteúdo. Os valores variam de **1** a **12**, em que **12** representa a largura total do contêiner de posicionamento de conteúdo.
-- **Item de colocação de ordens da conta** – Este módulo é usado para fornecer um resumo do número de ordens que foram realizadas pela conta do usuário. Inclui propriedades para o cabeçalho, o tamanho do bloco e o link "exibir detalhes". O link "exibir detalhes" deve ser configurado para redirecionamento à página do histórico de ordens.
-- **Item de colocação do perfil da conta** – Este módulo é usado para fornecer um resumo do perfil do usuário. Inclui propriedades para o cabeçalho, o tamanho do bloco e o link "exibir detalhes". O link "exibir detalhes" deve ser configurado para redirecionamento à página do perfil do usuário.
-- **Item da lista de desejos da conta** – Este módulo é usado para fornecer um resumo dos itens na lista de desejos do cliente. Por exemplo, pode indicar: "Você tem 10 itens na sua lista de desejos". Inclui propriedades para o cabeçalho, o tamanho do bloco e o link "exibir detalhes". O link "exibir detalhes" deve ser configurado para redirecionamento à página da lista de desejos.
-- **Item de endereço da conta** – Este módulo é usado para fornecer um resumo dos endereços do usuário. Por exemplo, pode indicar: "Você tem 2 endereços adicionados à sua conta". Inclui propriedades para o cabeçalho, o tamanho do bloco e o link "exibir detalhes". O link "exibir detalhes" deve ser configurado para redirecionamento à página do endereço do usuário.
-- **Item de fidelidade da conta** – Este módulo é usado para mostrar e vincular às informações do programa de fidelidade. Inclui propriedades para o cabeçalho, o tamanho do bloco, o link "exibir detalhes" e o link "tornar-se membro". O link "exibir detalhes" deve ser configurado para redirecionamento à página de fidelidade. O link "tornar-se membro" deve ser configurado para redirecionamento a uma página onde os usuários podem participar do programa de fidelidade.
+- **Contêiner** - Todos os módulos de página de aterrissagem de gerenciamento de contas devem ser colocados em um contêiner. 
+- **Bloco de boas-vindas da conta** – Este módulo é usado para fornecer uma mensagem de boas-vindas na página de gerenciamento de contas. Ele inclui propriedades para o título.
+- **Bloco genérico de conta** - Este módulo pode ser usado para fornecer títulos e links às páginas de gerenciamento de contas, como as páginas "Histórico de pedidos" ou "Meu perfil". O módulo de bloco genérico pode ser usado para configurar um bloco para qualquer página. Na Fabrikam, esse módulo é usado para links a página Histórico de pedidos" e "Meu perfil" na página de aterrissagem do gerenciamento de conta.
+- **Bloco da lista de desejos da conta** – Este módulo é usado para fornecer um resumo dos itens na lista de desejos do cliente. Por exemplo, pode indicar: "Você tem 10 itens na sua lista de desejos". Inclui propriedades para o título e o link "Exibir detalhes". O link "Exibir detalhes" deve ser configurado para redirecionamento à página da lista de desejos. 
+- **Bloco de endereços da conta** – Este módulo é usado para fornecer um resumo dos endereços do usuário. Por exemplo, pode indicar: "Você tem 2 endereços adicionados à sua conta". Inclui propriedades para o título e o link "Exibir detalhes". O link "Exibir detalhes" deve ser configurado para redirecionamento à página de endereços do usuário.
+- **Bloco de fidelidade da conta** – Este módulo é usado para exibir e vincular às informações do programa de fidelidade. Este bloco tem dois estados: um estado mostra links para ingressar em um programa de fidelidade se o usuário ainda não for um membro. O outro estado mostra links para exibir a página de detalhes do programa de fidelidade quando o usuário já for membro. As propriedades incluem o título, o link "Inscrição" e o link "Exibir fidelidade". O link "Exibir fidelidade" deve ser configurado para redirecionamento à página do programa de fidelidade. O link "Inscrição" deve ser configurado para redirecionamento a uma página onde os usuários podem ingressar no programa de fidelidade. 
 
 ### <a name="order-history-page"></a>Página de histórico de ordens
 
@@ -58,7 +57,7 @@ A página de detalhes da ordem fornece informações detalhadas para cada ordem 
 
 ### <a name="user-profile-page"></a>Página de perfil do usuário
 
-A página de perfil do usuário mostra detalhes da conta do usuário, como um nome e endereço de email do usuário. Ela usa o módulo de perfil de usuário. Embora o endereço de email não possa ser removido, ele pode ser editado. A página de perfil do usuário também mostra as preferências do usuário que permitem a um usuário optar por ou cancelar a partir de certos recursos, como personalização de listas de recomendação. 
+A página de perfil do usuário mostra detalhes da conta do usuário, como um nome e endereço de email do usuário. Ela usa os detalhes do perfil de usuário e os módulos de edição do perfil de usuário. Embora o endereço de email não possa ser removido, ele pode ser editado. A página de perfil do usuário também mostra as preferências do usuário que permitem a um usuário aceitar ou recusar o uso de alguns recursos, como personalização de listas de recomendação. 
 
 ### <a name="user-address-page"></a>Página de endereço do usuário
 
@@ -70,7 +69,9 @@ A página da lista de desejos mostra os itens que foram adicionados à lista de 
 
 ### <a name="loyalty-page"></a>Página de fidelidade
 
-A página de fidelidade permite que os clientes participem de um programa de fidelidade ou, se já são membros do programa de fidelidade, visualizem os detalhes do programa. Eles também podem ver os pontos que ganharam e resgataram em transações recentes.
+A página do programa de fidelidade permite que os clientes vejam os detalhes de sua participação se já forem membros do programa de fidelidade. Eles também podem ver os pontos que ganharam e resgataram em transações recentes. A página usa o módulo de detalhes da fidelidade para apresentar os detalhes da fidelidade. 
+
+Para ingressar no programa de fidelidade, uma página de marketing pode ser criada com módulos de condições de inscrição e fidelidade. Se o usuário não for membro de um programa de fidelidade, esses módulos permitirão que o usuário se inscreva.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

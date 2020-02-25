@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2c7ee610c6e3c446a4bcc9d6d46ca72dd71cb23c
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 45a2335d7a661ddc1d8907c56ae8193387f44e26
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771389"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030857"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Especificar um local de armazenamento personalizado para os documentos gerados
 
@@ -56,7 +56,7 @@ Na topologia atual, [crie um novo formato de ER](tasks/er-format-configuration-2
 
 Para especificar como os documentos gerados por um formato ER são roteados, você deverá configurar [destinos de ER (Relatórios eletrônicos)](electronic-reporting-destinations.md). Em cada destino de ER configurado para armazenar documentos gerados como arquivos, você deve especificar um tipo de documento da estrutura de gerenciamento de documentos. Diferentes tipos de documentos podem ser usados para rotear documentos gerados por diferentes formatos ER.
 
-1. Adicionar um novo [tipo de documento](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) para o formato ER que você criou ou importou anteriormente. Na ilustração a seguir, o tipo de documento é **FileX**.
+1. Adicionar um novo [tipo de documento](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) para o formato ER que você criou ou importou anteriormente. Na ilustração a seguir, o tipo de documento é **FileX**.
 2. Para diferenciar esse tipo de documento de outros tipos de documentos, inclua uma palavra-chave específica em seu nome. Por exemplo, na ilustração a seguir, o nome é **Pasta (LOCAL)**.
 3. No campo **Classe**, especifique **Anexar arquivo**.
 4. No campo **Grupo**, especifique **Arquivo**.
@@ -70,7 +70,7 @@ Para especificar como os documentos gerados por um formato ER são roteados, voc
 
 Revise o código do método **insertFile()** da classe **ERDocuManagement**. Observe que o evento **AttachingFile()** é gerado enquanto o arquivo gerado é anexado a um registro.
 
-```
+```xpp
 /// <summary>
 /// Inserts file as attachment in Document Management.
 /// </summary>
@@ -131,7 +131,7 @@ O evento **AttachingFile()** é gerado quando os seguintes destinos de ER são p
     1. Armazene arquivos gerados em uma pasta do sistema de arquivos local do servidor que executa o serviço Application Object Server (AOS).
     2. Armazene esses arquivos gerados somente quando o novo tipo de documento (por exemplo, o tipo **FileX** que possui a palavra-chave "(LOCAL)" em seu nome) for usado enquanto um arquivo estiver anexado ao registro no trabalho de execução de ER.
 
-    ```
+    ```xpp
     class ERDocuSubscriptionSample
     {
         void new()

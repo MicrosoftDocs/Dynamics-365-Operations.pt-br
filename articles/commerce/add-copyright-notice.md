@@ -3,7 +3,7 @@ title: Adicionar um aviso de direitos autorais
 description: Este tópico descreve como adicionar um aviso de direitos autorais ao seu site de comércio eletrônico.
 author: psimolin
 manager: AnnBe
-ms.date: 12/12/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 58c2949057ef777f706d12cee2dd3341d1a3b7e6
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 54b48ee74bc9d9f2b77f0584a0bf1739a8dfdbdb
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914554"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025472"
 ---
 # <a name="add-a-copyright-notice"></a>Adicionar um aviso de direitos autorais
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como adicionar um aviso de direitos autorais ao seu site de comércio eletrônico.
@@ -48,8 +48,8 @@ Para adicionar um aviso de direitos autorais na parte inferior de cada página q
 1. No painel de navegação, selecione o botão de reticências (**...**) ao lado de **Rodapé** e depois **Adicionar módulo**.
 1. Na caixa de diálogo, selecione **Categoria de rodapé** e depois **OK**.
 1. No painel de navegação, selecione o botão de reticências ao lado de **Categoria de rodapé** e depois **Adicionar módulo**.
-1. Na caixa de diálogo, selecione **Item de bloco de conteúdo sofisticado** e depois **OK**.
-1. No painel de navegação, selecione **Item de bloco de conteúdo sofisticado**.
+1. Na caixa de diálogo, selecione **Bloco de texto** e depois **OK**.
+1. No painel de navegação, selecione **Bloco de texto**.
 1. No painel de propriedades à direita, no campo **Parágrafo**, adicione sua mensagem de direitos autorais. Por exemplo, insira **(C) Fabrikam 2019**.
 1. Selecione **Save**, **Fazer Check-in** e depois **Publicar**.
 1. Vá para **Modelos**, selecione o modelo e depois **Fazer Check-out**.

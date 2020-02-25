@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f45c39769b71832afe531db8a55097ede8a3c769
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: adfb8ffce3f91c0e8e8b996c284414f5ddc1baf1
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562521"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004056"
 ---
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Item e rastreamento de matérias-primas em estoque, em produção e em vendas
 
@@ -44,7 +44,7 @@ O rastreamento de item é uma ferramenta de business intelligence (BI) que ofere
 -   Investigar onde um item ou uma matéria-prima foi consumida na produção de outro item.
 
 ## <a name="what-can-i-trace-and-are-there-any-limitations"></a>O que posso rastrear e existe alguma limitação?
-Você pode rastrear transações de estoque históricas de itens e matéria-prima com base em um número de item e uma dimensão de rastreamento, como um número de série, número de lote ou número de lote de fornecedor. Você só poderá rastrear um item ou uma matéria-prima se não tiver uma dimensão de rastreamento atribuída a ele. Como o rastreamento se baseia em transações de estoque, existem algumas limitações ao rastrear itens. Por exemplo, existem limitações relacionadas a transações para projetos, ativos fixos e varejo. Além disso, os coprodutos são mostrados nos detalhes de rastreamento, mas subprodutos não estão incluídos. O rastreamento inclui todas as transações do depósito de um local para outro. Consequentemente, os usuários podem localizar a quantidade de excesso de informações. O rastreamento é exibido para uma entidade legal de cada vez. Não há nenhum recursos entre empresas em um contexto intercompanhia. Você deve iniciar um novo rastreamento para cada empresa onde um item é recebido ou emitido.
+Você pode rastrear transações de estoque históricas de itens e matéria-prima com base em um número de item e uma dimensão de rastreamento, como um número de série, número de lote ou número de lote de fornecedor. Você só poderá rastrear um item ou uma matéria-prima se não tiver uma dimensão de rastreamento atribuída a ele. Como o rastreamento se baseia em transações de estoque, existem algumas limitações ao rastrear itens. Por exemplo, existem limitações relacionadas a transações para projetos, ativos fixos e comércio. Além disso, os coprodutos são mostrados nos detalhes de rastreamento, mas subprodutos não estão incluídos. O rastreamento inclui todas as transações do depósito de um local para outro. Consequentemente, os usuários podem localizar a quantidade de excesso de informações. O rastreamento é exibido para uma entidade legal de cada vez. Não há nenhum recursos entre empresas em um contexto intercompanhia. Você deve iniciar um novo rastreamento para cada empresa onde um item é recebido ou emitido.
 
 ## <a name="what-criteria-can-i-specify-for-an-item-trace"></a>Quais critérios posso especificar para um rastreamento de item?
 Os critérios necessários para um rastreamento de item são o número do item, uma dimensão de rastreamento (como um número de lote ou número de série) e a direção. A tabela a seguir descreve os critérios que podem ser usados em um rastreamento de item.
