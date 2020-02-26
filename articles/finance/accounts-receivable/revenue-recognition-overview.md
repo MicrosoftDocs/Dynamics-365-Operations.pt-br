@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 8743183c46463395cad3138261860442701e0178
-ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
+ms.openlocfilehash: c5a3a90b0065f8cd076117818df810cf10202d29
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2781887"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030959"
 ---
 # <a name="revenue-recognition-overview"></a>Visão geral do reconhecimento de receita
 
@@ -37,7 +37,7 @@ Em geral, o processo de reconhecimento de receita pode ser usado para realizar e
 * Alocar a receita, para ajudar a garantir que o preço adequado da receita seja reconhecido com base no valor dos componentes em ordens de vários elementos.
 * Adiar receita, com base em uma agenda de receita que representa o período e as porcentagens contratuais para reconhecer receitas ao longo do tempo.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE44iER]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44iER]
 
 O vídeo [Como usar o reconhecimento de receita no Dynamics 365 Finance](https://youtu.be/v3amIsiqvoo) (mostrado acima) está incluído na [playlist do Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
 

@@ -3,7 +3,7 @@ title: Pagamentos centralizados para Contas a receber
 description: As organizações que incluem várias entidades legais podem criar e gerenciar pagamentos usando uma entidade legal única que trate todos os pagamentos. Consequentemente, a mesma transação não precisa ser inserida em várias entidade legais. Este artigo fornece exemplos que mostram como a postagem de pagamentos centralizados é feita em vários cenários.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 02/13/2019
+ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59942fadb0fb702c59c95f75359f1a3036e4668f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 78c72bb9632d3501638d528822a3c30b05686796
+ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176469"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "3000084"
 ---
 # <a name="centralized-payments-for-accounts-receivable"></a>Pagamentos centralizados para Contas a receber
 
@@ -86,10 +86,10 @@ A Fabrikam recebe um pagamento de 580,00 na conta de cliente da Fabrikam 4000, a
 
 ### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-customer-4000"></a>A fatura é lançada na Fabrikam Leste para o cliente 4000 da Fabrikam Leste
 
-| Conta                             | Valor do débito | Valor do crédito |
+| Conta                             | Valor do débito | Valor de crédito |
 |-------------------------------------|--------------|---------------|
-| Contas a receber (Fabrikam Leste) | 600,00       |               |
-| Vendas (Fabrikam Leste)               |              | 600,00        |
+| Contas a receber (Fabrikam Leste) | 580.00       |               |
+| Vendas (Fabrikam Leste)               |              | 580.00        |
 
 ### <a name="payment-is-received-and-posted-in-fabrikam-for-fabrikam-customer-4000"></a>O pagamento é recebido e lançado na Fabrikam para o cliente 4000 da Fabrikam
 

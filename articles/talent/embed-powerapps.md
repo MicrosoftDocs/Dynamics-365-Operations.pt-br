@@ -1,5 +1,5 @@
 ---
-title: Inserir aplicativos Power Apps no Dynamics 365 - Core HR
+title: Inserir aplicativos do Power Apps no Dynamics 365 Human Resources
 description: Este tópico explica como resolver o problema quando o item do menu Microsoft Power Apps desapareceu do módulo de administração do sistema.
 author: andreabichsel
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b1dd1756be349d85af8e6d7159623a2a95e75526
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 8275a8a7c68fa13d6b9880c4c411deaa2dcbb998
+ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898703"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3017864"
 ---
-# <a name="embed-power-apps-apps-in-dynamics-365---core-hr"></a>Inserir aplicativos Power Apps no Dynamics 365 - Core HR
+# <a name="embed-power-apps-apps-in-dynamics-365-human-resources"></a>Inserir aplicativos do Power Apps no Dynamics 365 Human Resources
 
 **Emissão**
 
@@ -38,31 +38,31 @@ O design de interface de usuário (IU) foi alterado, e agora o Microsoft Power A
 
 A maneira como os Power Apps são inseridos mudou. Agora os Power Apps são adicionados por meio do modelo de personalização. Você pode adicionar Power Apps a quase todas as páginas do Microsoft Dynamics 365 Talent.
 
-Para obter informações sobre como inserir Power Apps no Talent, consulte [Inserir o Microsoft Power Apps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
+Para obter informações sobre como inserir Power Apps no Talent, consulte [Inserir o Power Apps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
 
 Qualquer cliente do Power Apps que inseriu aplicativos antes da mudança deve ter sido atualizado para o novo modelo.
 
-O botão **Power Apps** fica no canto superior direito de quase todas as páginas do Talent. Você pode usar esse botão para inserir Power Apps.
+O botão **Power Apps** fica no canto superior direito de quase todas as páginas do Talent. Você pode usar esse botão para inserir aplicativos.
 
 Veja aqui um exemplo.
 
 1. Acesse **Gerenciamento de equipe \> Links \> Trabalhadores \> Funcionários**.
-2. Selecione o botão **Power Apps** e selecione **Inserir um PowerApp**.
+2. Selecione o botão do **Power Apps** e, em seguida, selecione **Adicionar um aplicativo do Power Apps**.
 
     ![Botão Power Apps](media/png.png)
 
-3. Preencha os campos na caixa de diálogo **Inserir um PowerApp**.
+3. Preencha os campos na caixa de diálogo **Adicionar aplicativo do Power Apps**.
 
-    ![Inserir uma caixa de diálogo do PowerApp](media/insert-powerapp.png)
+    ![Adicionar um aplicativo da caixa de diálogo do Power Apps](media/insert-powerapp.png)
 
 Alternativamente, siga estas etapas.
 
-1. No painel de ação da página, na guia **Opções**, no grupo **Personalizar**, selecione **Personalizar esse formulário**.
+1. No painel de ação da página, na guia **Opções**, no grupo **Personalizar**, selecione **Personalizar essa página**.
 
     ![Personalizar grupo na guia Opções](media/options.png)
 
     A barra de ferramentas de personalização aparece.
 
-2. Na barra de ferramentas, selecione **Inserir \> PowerApp**.
+2. Na barra de ferramentas, selecione **Adicionar um aplicativo do Power Apps**.
 
-    ![Inserir um aplicativo Power Apps usando a barra de ferramentas de personalização](media/powerapp-bar.png)
+    ![Adicionar um aplicativo do Power Apps usando a barra de ferramentas de personalização](media/powerapp-bar.png)

@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 015f308640117b1354868c9f37e4b8df9cac6f2a
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: de0981d3200c2b1d62cab7600d2382bd11dd4b20
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697189"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002234"
 ---
 # <a name="cloud-powered-search-overview"></a>Visão geral da pesquisa habilitada para a nuvem
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Este tópico fornece uma visão geral de pesquisa baseada em nuvem no Microsoft Dynamics 365 Commerce.

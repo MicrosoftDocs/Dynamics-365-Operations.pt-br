@@ -3,7 +3,7 @@ title: Personalizar a experiência do usuário
 description: Este tópico explica como você pode personalizar o aplicativo.
 author: jasongre
 manager: AnnBe
-ms.date: 01/07/2020
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac8f154fdf892553f69d135727589bf13efd6076
-ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
+ms.openlocfilehash: c745248a0c7e54b58b1d3e491f3bbb067ec0e2c2
+ms.sourcegitcommit: d8a2301eda0e5d0a6244ebbbe4459ab6caa88a95
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935456"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "3029353"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar a experiência do usuário
 
@@ -59,7 +59,8 @@ Enquanto você usa o aplicativo, muitas de suas seleções são armazenadas para
 
 As personalizações implícitas são aquelas que você efetua ao interagir com controles que armazenam seu estado de visibilidade atual.
 
-- **Colunas de grade** – você pode ajustar a largura de uma coluna em uma grade ao selecionar a barra de dimensionamento à esquerda ou à direita do cabeçalho da coluna e deslizá-la para a esquerda ou a direita até a largura de coluna desejada. O aplicativo armazena a largura que você define para uma coluna. Na próxima vez que você abrir a página que inclui essa grade, a coluna será redimensionada para essa largura.
+- **Larguras de colunas de grade** – você pode ajustar a largura de uma coluna em uma grade ao selecionar a barra de dimensionamento à esquerda ou à direita do cabeçalho da coluna e deslizá-la para a esquerda ou a direita até a largura de coluna desejada. O aplicativo armazena a largura que você define para uma coluna. Na próxima vez que você abrir a página que inclui essa grade, a coluna será redimensionada para essa largura.
+- **Totais da coluna de grade** - (só está disponível com o novo controle de grade habilitado) você pode decidir se um total deve ou não ser mostrado na parte inferior de qualquer coluna numérica em uma grade, bem como se o rodapé de grade está visível. O aplicativo armazena esses dados de forma que essas preferências sejam lembradas na próxima vez que você abrir a página. Consulte o tópico [Recursos de grade](grid-capabilities.md) para obter mais informações. 
 - **Guias Rápidas** – algumas páginas têm seções expansíveis conhecidas como *Guias Rápidas*. O aplicativo armazena informações sobre as Guias Rápidas que você expandiu e recolheu. Na próxima vez que você abrir a página, as mesmas Guias Rápidas serão expandidas ou recolhidas, com base em sua última interação na página. Em alguns casos, você pode ajudar a melhorar o desempenho do sistema recolhendo uma Guia Rápida, pois o aplicativo não precisa recuperar as informações das Guias Rápidas até que elas sejam expandidas. Conforme explicado mais adiante neste tópico, também é possível alterar a ordem das Guias Rápidas em uma página.
 - **Quadros de Fatos** – Algumas páginas têm um painel **Informações relacionadas** que exibe informações somente leitura relacionadas ao assunto atual da página. Cada seção no painel **Informações relacionadas** é conhecida como um *Quadro de Fatos*. Você pode expandir ou recolher o painel **Informações relacionadas** e também pode expandir ou recolher Quadros de Fatos individuais. O aplicativo armazena essas preferências. Dessa maneira, na próxima vez que você abrir a página, o painel **Informações relacionadas** e o Quadro de Fatos individual estarão expandidos ou recolhidos, de acordo com sua última interação na página. Em alguns casos, você pode ajudar a melhorar o desempenho do sistema recolhendo um Quadro de Fatos, pois o aplicativo não precisa recuperar as informações de Quadros de Fatos até que eles sejam expandidos.
 - **Painéis de ações** – um *Painel de ações* aparece na parte superior da maioria das páginas. O Painel de ações contém botões para muitas das ações que você pode executar na página atual. Esses botões costumam ser organizados em guias. É possível "fixar" todo o Painel de Ação aberto ou deixá-lo recolhido por padrão. Na próxima vez que você abrir a página, o Painel de Ação estará aberto ou recolhido, de acordo com sua última interação na página. Se você fixou o Painel de Ação aberto, a última guia usada por você será exibida.
@@ -95,7 +96,7 @@ A janela de propriedades pode incluir outros recursos de personalização, depen
 
 Se deseja fazer várias alterações em uma página ou fazer alterações que não estejam disponíveis por meio de outros mecanismos (por exemplo, se você deseja reordenar elementos), use a barra de ferramentas **Personalização**. Para abrir a barra de ferramentas **Personalização**, siga uma dessas etapas:
 
-- Selecione **Personalizar este formulário** na janela de propriedades de um elemento.
+- Selecione **Personalizar esta página** na janela de propriedades de um elemento.
 - Selecione **Personalizar esta página** no grupo **Personalizar** da guia **Opções** no Painel de Ação de qualquer página.
 - Selecione o botão **Configurações** (símbolo de engrenagem) na barra de navegação e selecione **Personalizar**.
 
@@ -116,7 +117,8 @@ Estas ferramentas estão disponíveis na barra de ferramentas **Personalização
 - Use a ferramenta **Ignorar** para remover um elemento da sequência de guias de teclado da página. Quando você seleciona o botão **Ignorar** na barra de ferramentas, todos os elementos ignorados no momento são exibidos em um contêiner sombreado. Você pode interativamente remover ou adicionar campos à sequência de guias.
 - Use a ferramenta **Mostrar no cabeçalho** quando desejar que um campo seja exibido na seção de resumo da Guia Rápida. Quando você seleciona o botão **Mostrar no cabeçalho** na barra de ferramentas, todos os campos selecionados como campos de resumo são mostrados em um contêiner sombreado. Você pode interativamente adicionar e remover campos do resumo da Guia Rápida selecionando-os.
 - Use a ferramenta **Bloquear** para marcar um elemento como editável ou não editável. Quando você seleciona o botão **Bloquear** na barra de ferramentas, todos os elementos não editáveis no momento são exibidos em um contêiner sombreado. Você poderá torná-los editáveis novamente. Observe que alguns campos são obrigatórios e não podem ser alterados para não editáveis. Um símbolo de cadeado aparece ao lado desses campos.
-- Use o botão **Adicionar um PowerApp** para inserir na página um aplicativo criado usando o Microsoft PowerApps. Para obter informações detalhadas sobre como inserir um aplicativo do PowerApps em uma página, consulte [Inserir aplicativos do PowerApps](embed-power-apps.md).
+- Use o botão **Adicionar um aplicativo do Power Apps** para inserir na página um aplicativo criado usando o Microsoft Power Apps. Para obter informações detalhadas sobre como inserir um aplicativo do Power Apps em uma página, consulte [Inserir aplicativos do Power Apps](embed-power-apps.md). Esta opção está disponível somente quando o recurso [Exibições salvas](saved-views.md) estiver desabilitado.  
+- Use o botão **Adicionar um aplicativo** para inserir um aplicativo, criado do Microsoft Power Apps ou de terceiros, na página Esta opção está disponível somente quando o recurso [Exibições salvas](saved-views.md) estiver habilitado. 
 - Use a ferramenta **Limpar** para redefinir a página para o estado padrão instalado. Todas as personalizações na página atual serão limpas. Não é possível desfaz a ação. Portanto, use essa ferramenta somente se tiver certeza de que deseja redefinir a página.
 - Use a ferramenta **Importar** para carregar uma personalização de um arquivo que você ou outra pessoa criou anteriormente. Ao importar personalizações para uma página, é possível escolher se elas devem ser adicionadas ou se devem substituir todas as personalizações existentes na página. Não é possível desfaz a ação. Portanto, depois de importar as personalizações, você deve limpar ou desfazer manualmente todas as alterações que não desejar.
 - Use a ferramenta **Exportar** para salvar as personalizações da página em um arquivo. Em seguida, você poderá compartilhar as personalizações com outros usuários. Esses usuários só precisam importar o arquivo que contém as personalizações da página.
@@ -152,7 +154,7 @@ Geralmente, o painel é a primeira página que você vê ao abrir o aplicativo. 
 Para personalizar o painel, clique com o botão direito no bloco e selecione **Personalizar** para abrir a janela de propriedades do bloco.
 
 - Se desejar ocultar ou renomear o bloco selecionado, você poderá fazer essa alteração diretamente na janela de propriedades.
-- Para reordenar os blocos do espaço de trabalho, na janela de propriedades, selecione **Personalizar este formulário** para abrir a barra de ferramentas **Personalização**. Você poderá usar a ferramenta **Mover** para reorganizar os blocos como desejar.
+- Para reordenar os blocos do espaço de trabalho, na janela de propriedades, selecione **Personalizar esta página** para abrir a barra de ferramentas **Personalização**. Você poderá usar a ferramenta **Mover** para reorganizar os blocos como desejar.
 - Para adicionar um novo bloco de espaço de trabalho, na janela de propriedades, selecione **Adicionar um espaço de trabalho**. Um novo bloco do espaço de trabalho será criado na parte inferior do painel. Você poderá renomear esse novo bloco do espaço de trabalho como desejar. Você também pode adicionar listas, blocos e links ao espaço de trabalho, conforme descrito na seção [Como adicionar listas, blocos e links a espaços de trabalho](#adding-a-tile-list-or-link-to-a-workspace) deste tópico.
 
 ## <a name="administration-of-personalizations"></a>Administração de personalizações

@@ -10,17 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations, Talent
+ms.search.scope: Operations, Human Resources
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 272cf991301fa5c2df8a6de3354588fc372fa92f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c2ad5f30ed0e69df1769eb0379b5da2865d4ce4f
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248724"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005600"
 ---
 # <a name="my-team-mobile-workspace"></a>Meu espaço de trabalho móvel em equipe
 
@@ -30,7 +30,7 @@ Este tópico fornece informações sobre a área de trabalho móvel **Minha equi
 
 Esse espaço de trabalho móvel deve ser usado com o aplicativo móvel Finance and Operations.
 
-## <a name="overview"></a>Visão Geral 
+## <a name="overview"></a>Visão geral 
 O espaço de trabalho móvel **Minha equipe** permite que os gerentes executem as seguintes tarefas:
 
 - Exibir a lista de subordinados diretos do gerente.
@@ -53,11 +53,11 @@ Antes de usar este espaço de trabalho móvel, os seguintes pré-requisitos deve
 <tr class="odd">
 <td>Um destes seguintes produtos deve ser implantado na sua organização:
 <ul><li>Um aplicativo do Finance and Operations</li>
-<li>Microsoft Dynamics 365 Talent</li>
+<li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>
 <td>Administrador do sistema</td>
-<td>Se ainda não tiver um aplicativo do Finance and Operations implantado na sua organização, consulte <a href="../deployment/deploy-demo-environment.md">Implantar um ambiente de demonstração</a>. Se o Talent ainda não estiver implantado na organização, o administrador do sistema poderá acessar uma versão de avaliação na <a href="https://www.microsoft.com/dynamics365/talent">página da Web do Talent</a>.
+<td>Se você ainda não tem um aplicativo do Finance and Operations implantado na sua organização, consulte <a href="../deployment/deploy-demo-environment.md">Implantar um ambiente de demonstração</a>. Se o Human Resources ainda não está implantado na organização, o administrador do sistema pode acessar uma versão de avaliação na <a href="https://dynamics.microsoft.com/human-resources/overview/">página da Web do Human Resources</a>.
 </td>
 </tr>
 <tr class="even">

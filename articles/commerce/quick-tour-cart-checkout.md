@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 347db3af36521e11dc70d5188dcc54b07efa1fbe
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 07905b9a843eb42d3031dcc80b4e185c122a9e50
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697833"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002926"
 ---
 # <a name="overview-of-cart-and-checkout-pages"></a>Visão geral das páginas de carrinho e de finalização da compra
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Este tópico fornece uma visão geral páginas de carrinho e de finalização da compra no Microsoft Dynamics 365 Commerce.
@@ -65,11 +65,11 @@ O corpo principal da página de finalização de compra é onde todas as informa
 
 ### <a name="shipping-address"></a>Endereço de remessa
 
-É necessário um endereço de entrega, se os itens tiverem que ser enviados. O formato dos endereços de entrega para cada localidade pode ser configurado no Dynamics 365 Retail. Por exemplo, se os itens forem enviados para os Estados Unidos, o endereço de entrega deverá incluir um endereço, estado e CEP. Alguma validação básica de entrada é feita para campos de endereço de entrega, como validação para caracteres alfanuméricos, comprimento máximo e números. Embora a validade do endereço em si não seja verificada, essa verificação pode ser feita usando serviços personalizados de terceiros.
+É necessário um endereço de entrega, se os itens tiverem que ser enviados. O formato dos endereços de entrega para cada localidade pode ser configurado no Dynamics 365 Commerce. Por exemplo, se os itens forem enviados para os Estados Unidos, o endereço de entrega deverá incluir um endereço, estado e CEP. Alguma validação básica de entrada é feita para campos de endereço de entrega, como validação para caracteres alfanuméricos, comprimento máximo e números. Embora a validade do endereço em si não seja verificada, essa verificação pode ser feita usando serviços personalizados de terceiros.
 
 O endereço de entrega é aplicado a todos os itens do carrinho para os quais a opção "entrega" está selecionada. Se você usar o fluxo de finalização de compra fornecido no kit de início online, os itens individuais do carrinho não poderão ser enviados para endereços diferentes. Se você precisar desse recurso, ele poderá ser implementado através da personalização dos módulos de finalização de compra.
 
-Depois que o endereço de entrega for fornecido, os métodos de entrega disponíveis na loja online do Dynamics 365 Commerce serão mostrados. Os métodos de envio e os endereços que eles suportam podem ser configurados no Varejo.
+Depois que o endereço de entrega for fornecido, os métodos de entrega disponíveis na loja online do Dynamics 365 Commerce serão mostrados. Os métodos de envio e os endereços que eles apoiam podem ser configurados no Commerce.
 
 ### <a name="payment"></a>Pagamento
 

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: f5f6d41f3e65a3cf5b8c7c96f54b1c8c6cdfaefb
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c87e4cbfa375ef99d00c9a145c190af78e912d56
+ms.sourcegitcommit: d8a2301eda0e5d0a6244ebbbe4459ab6caa88a95
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249764"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "3029396"
 ---
 # <a name="synchronize-products-in-supply-chain-management-to-products-in-field-service"></a>Sincronizar produtos no Supply Chain Management com produtos no Field Service
 
@@ -48,13 +48,13 @@ Este tópico descreve somente as diferenças entre os modelos **Produtos do Fiel
 
 O modelo usado **Produtos do Field Service (Supply Chain Management para Field Service)** inclui um mapeamento que não está incluído no modelo **Produtos (Supply Chain Management para Sales) – Direto**. Esse mapeamento garante que o campo obrigatório **Tipo de produto de serviço** específico do Field Service seja definido corretamente.
 
-```
+```Text
 FIELDSERVICEPRODUCTTYPE        Fn        msdyn_fieldserciveproducttype
 ```
 
 O valor de mapeamento a seguir é usado.
 
-```
+```Text
 inventory     :  690970000
 nonInventory  :  690970001 
 service       :  690970002 

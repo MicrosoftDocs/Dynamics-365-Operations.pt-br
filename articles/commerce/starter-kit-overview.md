@@ -3,7 +3,7 @@ title: Visão geral do kit de início
 description: Este tópico fornece uma visão geral do kit de início do Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 73af7fc8845fe08bc4aa014abe4d8c6dcf7ccb7d
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: 1960e1354744fe1034783177ba331f5877d0bee7
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785251"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025893"
 ---
 # <a name="starter-kit-overview"></a>Visão geral do kit de início
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Este tópico fornece uma visão geral do kit de início do Microsoft Dynamics 365 Commerce.
@@ -43,7 +43,7 @@ Os temas podem ser aplicados aos módulos no kit de início para alterar a apar�
 Os seguintes tipos de módulos são fornecidos no kit de início:
 
 - **Módulo de contêiner** – Um módulo do contêiner é um módulo simples que atua como um host de outros módulos. Ele controla o layout de módulos que estão dentro deles.
-- **Módulos de marketing** – Os módulos de marketing contêm o herói, recurso, posicionamento de conteúdo, bloco de conteúdo sofisticado, player de vídeo e carrossel. Todos esses módulos podem ser usados para mostrar o conteúdo. Eles podem ser colocados em qualquer página e direcionados por dados do sistema de gerenciamento de conteúdo (CMS).
+- **Módulos de marketing** – Os módulos de marketing contêm o bloco de conteúdo, bloco de texto, player de vídeo e carrossel. Todos esses módulos podem ser usados para mostrar o conteúdo. Eles podem ser colocados em qualquer página e direcionados por dados do sistema de gerenciamento de conteúdo (CMS).
 - **Módulos de cabeçalho e rodapé** – Os módulos de cabeçalho e rodapé aparecem no cabeçalho e no rodapé de todas as páginas do site. Esse módulos podem ser configurados, conforme necessário, por meio de propriedades.
 - **Módulos de pesquisa** – Os produtos podem ser descobertos usando o módulo de pesquisa no cabeçalho. Os resultados de pesquisa aparecem na página de resultados de pesquisa. Os produtos também podem ser descobertos nas páginas da categoria, que são páginas dedicadas para cada categoria suportada na hierarquia de navegação do canal. Além disso, os módulos do refinador podem ser usados para filtrar os resultados nos resultados da pesquisa e nas páginas da categoria.
 - **Módulos da página de detalhes do produto** – As páginas de detalhes do produto usam vários módulos para mostrar informações sobre o produto. O módulo da caixa de compra permite que os clientes exibam os produtos e os adicionem ao carrinho. Outros módulos, tais como módulo específicos de tecnologia, mostram os detalhes do produto. O módulo de classificações e opiniões pode ser usado para exibir e fornecer opiniões.

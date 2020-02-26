@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 525b52d14a923242d25802553d4570ed6fc060ae
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: fbe148b091dfd33b8d27f6f4cbb77f030f4d5a8a
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915333"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003770"
 ---
 # <a name="scope-of-the-brazilian-localization"></a>Escopo da localização brasileira
 
@@ -45,7 +45,7 @@ Os parceiros de canal ou clientes são os únicos responsáveis por qualquer con
 - Qualquer configuração, modificação ou alteração que os parceiros ou clientes façam no software Microsoft Dynamics ou, quando aplicável, na documentação do software para atender às necessidades de negócios específicas de um cliente. Exemplos incluem adicionar ou renomear campos ou tabelas, criar relatórios personalizados ou integrar-se a soluções de terceiros.
 - Qualquer software que parceiros ou clientes desenvolvam para o software Microsoft Dynamics.
 
-**Localização** refere-se a qualquer modificação, adição ou adaptação no software Microsoft Dynamics para habilitar ou incluir determinados recursos ou funcionalidades específicos no software para fins de conformidade com requisitos regulatórios (incluindo, sem limitação, versões e atualizações do software Microsoft Dynamics, ferramentas de assistência ao usuário e documentação do usuário final). Exemplos de leis ou requisitos regulatórios que podem exigir localização do software incluem relatórios de impostos locais (por exemplo, para imposto sobre vendas, imposto sobre valor agregado e imposto sobre bens e serviços), rastreamento de notas fiscais por uma autoridade do governo, cálculos de impostos exigidos pelo governo, regras contábeis locais, e relatórios regulatórios e legais locais.
+**Localização** refere-se a qualquer modificação, adição ou adaptação no software Microsoft Dynamics para habilitar ou incluir determinados recursos ou funcionalidades específicos no software para fins de conformidade com requisitos regulatórios (incluindo, sem limitação, versões e atualizações do software Microsoft Dynamics, ferramentas de assistência ao usuário e documentação do usuário final). Exemplos de leis ou requisitos regulatórios que podem exigir localização do software incluem relatórios de impostos locais (por exemplo, para imposto sobre vendas, imposto sobre valor agregado [VAT] e imposto sobre bens e serviços [GST]), rastreamento de notas fiscais por uma autoridade do governo, cálculos de impostos exigidos pelo governo, regras contábeis locais, além de relatórios regulatórios e legais locais.
 
 **Padrões nacionais** referem-se a requisitos de recursos no software que são relacionados principalmente a práticas bancárias (por exemplo, métodos de pagamento, formatos de pagamento e extratos bancários). Menos frequentemente, os requisitos estão relacionados a documentos comerciais (como documentos fiscais eletrônicos). Os padrões nacionais são requisitos locais que não são exigidos por lei ou regulamentação, mas são amplamente adotados dentro de uma região geográfica e fundamentais para a venda de licenças de software de gestão de negócios nessa região geográfica.
 
@@ -606,7 +606,7 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <td>Não</td>
 </tr>
 <tr>
-<td>Retail Enterprise POS</td>
+<td>PDV Empresarial</td>
 <td>CPF/CNPJ do cliente em cupons fiscais</td>
 <td>Sim</td>
 <td>Não</td>
@@ -706,7 +706,7 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <td>Não</td>
 </tr>
 <tr>
-<td>NFC‑e (Nota Fiscal do Consumidor Eletrônica) no Retail Enterprise POS</td>
+<td>NFC‑e (Nota Fiscal do Consumidor Eletr&ocirc;nica) no PDV Empresarial</td>
 <td><span style="display: inline !important; float: none; background-color: #ffffff; color: #000000; cursor: text; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">Suporte para NFC‑e layout 4.0</span></td>
 <td>Sim</td>
 <td>Não</td>
@@ -735,7 +735,7 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <ul>
 <li>Produtos lançados por categoria</li>
 <li>Planilha de atualização em massa</li>
-<li>Hierarquia de produtos de varejo</li>
+<li>Hierarquia de produtos</li>
 </ul>
 </td>
 <td>Sim</td>
@@ -1101,9 +1101,9 @@ Os seguintes recursos e funcionalidades estão fora do escopo da localização p
 
         - Sites Services para Microsoft Dynamics ERP
         - Commerce Services para Microsoft Dynamics ERP
-        - Modern POS e Retail Server
+        - Modern POS e unidade de escala do Commerce
 
-    - **Varejistas:** o Retail POS não pode ser usado nas seguintes atividades de varejo nos estados em que a conformidade com a lei PAF‑ECF "ATO COTEPE/ICMS N° 46" de 2014 é obrigatória:
+    - **Varejistas:** o PDV não pode ser usado nas seguintes atividades de varejo nos estados em que a conformidade com a lei PAF‑ECF "ATO COTEPE/ICMS N° 46" de 2014 é obrigatória:
 
         - Posto de gasolina
         - Restaurante
@@ -1114,15 +1114,15 @@ Os seguintes recursos e funcionalidades estão fora do escopo da localização p
         - Pedágio de rodovia
         - Estacionamento
 
-    - **Recursos de impressora fiscal:** os seguintes recursos e funcionalidades de impressoras fiscais para empresas de varejo no Brasil estão fora do escopo da localização para o Brasil:
+    - **Recursos de impressora fiscal:** os seguintes recursos e funcionalidades de impressoras fiscais para empresas no Brasil estão fora do escopo da localização para o Brasil:
 
         - Impressoras fiscais que têm uma configuração diferente para tipos de meios de pagamento
         - Impressoras fiscais que possuem mais de um registro para a mesma alíquota de imposto
         - Arredondamento de valores, quantidades e valores no ponto de venda (PDV) usando uma regra diferente da impressora fiscal
 
-    - **Requisitos para o cálculo de impostos** os seguintes requisitos para o cálculo de impostos para empresas de varejo no Brasil estão fora do escopo da localização para o Brasil:
+    - **Requisitos para o cálculo de impostos:** os seguintes requisitos para o cálculo de impostos para empresas no Brasil estão fora do escopo da localização para o Brasil:
 
-        - Descontos dos impostos para vendas por meio do Retail Enterprise POS na SUFRAMA ou outra região de zona franca
+        - Descontos dos impostos para vendas por meio do PDV Empresarial na SUFRAMA ou outra região de zona franca
 
 ### <a name="out-of-scope-for-fiscal-books"></a>Fora do escopo para livros fiscais
 
@@ -1136,8 +1136,8 @@ Os seguintes requisitos de relatórios de impostos estão fora do escopo para li
 - Requisitos de agências ou autarquias regulatórias, como SUFRAMA, ANVISA e ANATEL
 - IN86
 - GIA para outros estados fora de São Paulo
-- Atualização dos dados dos livros fiscais do AX 2009 para AX 2012 R3 e o Finance and Operations
-- Atualização das notas fiscais do AX 2009 para AX 2012 R3 e o Finance and Operations
+- Atualização de dados para livros fiscais do AX 2009 para o AX 2012 R3 e o Finance and Operations
+- Atualização de dados de notas fiscais do AX 2009 para o AX 2012 R3 e o Finance and Operations
 
 ## <a name="references"></a>Referências
 

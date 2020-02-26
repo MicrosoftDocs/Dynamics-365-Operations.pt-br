@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d9c0f329d21cdda5c36a39a8c602d5925b720f52
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: d4c495fc6dfe4aa6561a1bb703253ef8ec71dc13
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945734"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003064"
 ---
 # <a name="enrich-a-product-page"></a>Enriquecer uma página de produto
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como enriquecer uma página de produto no Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Visão geral
 
-Por padrão, seu site usa uma página genérica para exibir dados de produto. Essa página inclui informações básicas sobre o produto e controles necessários para vendê-lo. Entretanto, você pode adicionar as informações que vem do servidor de varejo com imagens adicionais ou texto para um produto específico. Esse processo é conhecido como enriquecimento da página de produto.
+Por padrão, seu site usa uma página genérica para exibir dados de produto. Essa página inclui informações básicas sobre o produto e controles necessários para vendê-lo. Entretanto, você pode complementar as informações provenientes da Unidade de Escala do Commerce com imagens adicionais ou texto para um produto específico. Esse processo é conhecido como enriquecimento da página de produto.
 
-Em muitos casos, você desejará usar conteúdo adicional específico de seus produtos. Quando você vai para **Varejo** na ferramenta de criação, você verá uma lista de produtos no canal atribuído ao site. Na lista, a coluna **Enriquecido** indica se a página do produto de um produto foi enriquecida. Se uma marca de seleção é exibida na coluna, uma página enriquecida de produto existe para o produto. Se nenhuma marca de seleção for exibida, a página de produto padrão e o conteúdo são usados para o produto. Você pode visualizar as páginas de produto enriquecida e não enriquecida selecionando um nome de produto na lista.
+Em muitos casos, você desejará usar conteúdo adicional específico de seus produtos. Ao acessar **Retail e Commerce** na ferramenta de criação, você verá uma lista de produtos do canal atribuído ao site. Na lista, a coluna **Enriquecido** indica se a página do produto de um produto foi enriquecida. Se uma marca de seleção é exibida na coluna, uma página enriquecida de produto existe para o produto. Se nenhuma marca de seleção for exibida, a página de produto padrão e o conteúdo são usados para o produto. Você pode visualizar as páginas de produto enriquecida e não enriquecida selecionando um nome de produto na lista.
 
 ## <a name="enrich-a-product-page"></a>Enriquecer uma página de produto
 

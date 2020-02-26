@@ -3,7 +3,7 @@ title: Configurar processos de aprovação em um fluxo de trabalho
 description: Use os procedimentos a seguir para configurar as propriedades do processo de aprovação.
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d4032d5e56b9dd014ec0472abfc1b2ad4a15ff1d
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 1f58e227542b1e5ca1235748d14e71bddac826ee
+ms.sourcegitcommit: 759325234a763e14071348a6f5399999a92f8264
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811372"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "2983755"
 ---
 # <a name="configure-approval-processes-in-a-workflow"></a>Configurar processos de aprovação em um fluxo de trabalho
 
@@ -138,11 +138,12 @@ Você poderá enviar notificações às pessoas quando um documento tiver sido a
 
 ## <a name="specify-a-final-approver"></a>Especificar um aprovador final
 
-Você pode designar um aprovador final para cenários nos quais o aprovador for a pessoa que enviou o documento para aprovação. Siga estas etapas para especificar um aprovador final.
+Você pode designar um aprovador final para cenários em que o aprovador é a pessoa que enviou o documento para aprovação e a opção "Proibir aprovação pelo emissor" está sendo usada. Siga estas etapas para especificar um aprovador final.
 
-1. No painel esquerdo, clique em **Configurações avançadas**.
-2. Marque a caixa de seleção **Usar aprovador final**.
-3. Na lista, selecione o usuário que será o aprovador final.
+1. No editor de fluxo de trabalho, clique com o botão direito do mouse no elemento de aprovação e selecione **Propriedades** para abrir o formulário **Propriedades**.
+2. No painel esquerdo, clique em **Configurações avançadas**.
+3. Marque a caixa de seleção **Usar aprovador final**.
+4. Na lista, selecione um usuário que será o aprovador final.
 
 ## <a name="set-a-time-limit"></a>Definir um limite de tempo
 

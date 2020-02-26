@@ -3,7 +3,7 @@ title: Controlar o trabalho do depósito por meio de modelos de trabalho e diret
 description: Este tópico descreve como usar modelos de trabalho e diretivas de localização para determinar como e onde o trabalho será executado no depósito.
 author: perlynne
 manager: AnnBe
-ms.date: 09/21/2018
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9a5292e88fe022482ab9c6c5a8f016745946988
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 4645cf36201aa1b87c22ba4dbfb1b8d8117f425a
+ms.sourcegitcommit: fb7d0efd97754f1ae0b5aa765d0eeb3f57b8078f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026893"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3028019"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Controlar o trabalho do depósito por meio de modelos de trabalho e diretivas de localização
 
@@ -152,7 +152,7 @@ Selecione para usar estratégias de lote para os itens habilitados para lotes. S
 ### <a name="strategy"></a>Estratégia
 
 -   **Consolidar** - Essa estratégia é usada para consolidar itens em um local específico quando itens semelhantes já estiverem disponíveis. Isso funciona somente para o tipo de colocação da diretiva de localização. A configuração comum para o tipo Colocação será consolidada na primeira linha de ação e, em seguida, na segunda tentativa para colocar sem consolidação. A consolidação de mercadorias torna a separação posterior mais eficiente.
--   **Fazer a correspondência da quantidade da embalagem** - Essa estratégia é usada para verificar se um local de separação tem a quantidade de embalagem especificada. Isso funciona somente para diretiva de local do tipo Separação. 
+-   **Fazer a correspondência da quantidade da embalagem** – Esta estratégia encontrará um local com uma placa de licença que tem a quantidade exata necessária. Ela não pode ser usada com locais que não são controlados por placa de licença. Esta estratégia só funciona para uma diretiva de local do tipo de trabalho de Separação.
 -   **Reserva de lotes FEFO** - Esta estratégia é usada quando o estoque é localizado usando uma data de vencimento do lote e é alocado para reserva de lotes. Você só pode usar essa estratégia para itens habilitados para lote. Isso funciona somente para diretiva de local do tipo de trabalho de Separação. 
 -   **Arredondar até a LP completa** - Essa estratégia é usada para arredondar para cima a quantidade de estoque para corresponder à quantidade de placa de licença (LP) que é atribuída aos itens a serem separados. Você só pode usar essa estratégia para o tipo de reabastecimento de diretiva de localização do tipo Separação. 
 -   **Local vazio sem trabalho de entrada** - Esta estratégia é usada para detectar locais vazios. O local será considerada vazio se não houver estoque físico e nenhum trabalho de entrada esperado. Essa estratégia é usada somente em um tipo de Colocação de diretiva de localização. 

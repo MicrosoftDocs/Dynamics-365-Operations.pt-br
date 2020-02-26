@@ -3,7 +3,7 @@ title: Gerenciar classificações e opiniões
 description: Este tópico explica como gerenciar classificações e opiniões usando a ferramenta de moderação de classificações e opiniões do Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,15 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e9becdce5ae36ac637043b9d0febfbbff2392aa9
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: a7fa2ae3124a0a68b3890987c5dce2730e5c2183
+ms.sourcegitcommit: 1e6c8163da5818196769eb278afb3a2335d0cbe3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698017"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3027233"
 ---
 # <a name="manage-ratings-and-reviews"></a>Gerenciar classificações e opiniões
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Este tópico explica como gerenciar classificações e opiniões usando a ferramenta de moderação de classificações e opiniões do Microsoft Dynamics 365 Commerce.
@@ -39,6 +38,16 @@ O Dynamics 365 Commerce usa o Serviço Cognitivo do Microsoft Azure para moderar
 - Moderar as opiniões, respondendo-as ou removendo-as.
 - Excluir opiniões de um cliente na solicitação do cliente.
 - Importar em massa dados de classificações e opiniões de todos os produtos para um modelo do Power BI , para que as tendências para classificações e opiniões possam ser analisadas.
+
+## <a name="access-ratings-and-reviews-moderation-features"></a>Acessar recursos de Revisões, como relatórios e moderação.
+
+Para acessar avaliações e revisar recursos de moderação na ferramenta de gerenciamento de site de comércio eletrônico, siga estas etapas.
+
+1. Entre no [Microsoft Lifecycle Services (LCS)](https://lcs.dynamics.com).
+1. Abra o projeto que contém o ambiente onde você deseja inicializar o comércio online.
+1. Na seção **Ambientes**, selecione o ambiente.
+1. Em **Recursos do ambiente**, selecione **Gerenciamento de Varejo**.
+1. Na guia **Comércio eletrônico**, em **Links**, selecione **Ferramenta de gerenciamento de sites de comércio eletrônico**.
 
 ## <a name="read-a-review"></a>Ler uma opinião 
 

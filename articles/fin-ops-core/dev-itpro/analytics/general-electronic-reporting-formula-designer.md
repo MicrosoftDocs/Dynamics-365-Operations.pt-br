@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0028d1f64aced1bbff91b18456c81adbb95bce30
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 14539ed6c00915b7d59a5a3c4870ab6d1a96ad95
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914809"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002511"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Designer de fórmulas no relatório eletrônico (ER)
 
@@ -51,7 +51,7 @@ Você pode abrir a página **Designer de fórmulas** quando executar qualquer um
 - Definir as condições para as validações do controle de processo.
 - Definir o texto da mensagem para as validações do controle de processo.
 
-## <a name="Binding">Associação de dados</a>
+## <a name="Binding"></a>Associação de dados
 
 O designer de fórmulas de ER pode ser usado para definir uma expressão que transforme os dados recebidos das fontes de dados, de modo que eles possam ser inseridos no consumidor de dados das seguintes maneiras no tempo de execução:
 
@@ -69,7 +69,7 @@ A ilustração a seguir mostra como uma expressão desse tipo pode ser usada. Ne
 
 No tempo de execução, a fórmula criada, `ROUND (Intrastat.AmountMST, 2)`, arredonda o valor do campo **AmountMST** de cada registro na tabela Intrastat para duas casas decimais. Depois, insere o valor arredondado no componente **Transaction.InvoicedAmount** do modelo de dados **Relatório de imposto**.
 
-## <a name="Transformation">Formatação de dados</a>
+## <a name="Transformation"></a>Formatação de dados
 
 O designer de fórmulas de ER pode ser usado para definir uma expressão que formata os dados que são recebidos das fontes de dados, de modo que os dados podem ser enviados como parte da criação de um documento eletrônico. Você pode ter uma formatação que deve ser aplicada como uma regra comum que deve ser reutilizada para um formato. Neste caso, você pode apresentar essa formatação uma vez na configuração do formato, como uma transformação nomeada que tem uma expressão de formatação. Essa transformação nomeada poderá, em seguida, ser vinculada a vários componentes de formato cuja saída deve ser formatada de acordo com a expressão formatada criada.
 
@@ -87,7 +87,7 @@ Se você tiver uma formatação que precise ser aplicada individualmente, ela po
 
 [![Aplicar formatação a um componente individual](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
-## <a name="Validation">Controle do fluxo de processo</a>
+## <a name="Validation"></a>Controle do fluxo de processo
 
 O designer de fórmulas de ER pode ser usado para definir expressões que controlam o fluxo do processo de geração de documentos eletrônicos. Você pode executar estas tarefas:
 
@@ -112,7 +112,7 @@ O designer de fórmulas de ER também pode ser usado para gerar um nome de arqui
 
 [![Controle do fluxo de processo](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
 
-## <a name="Enabled">Controle de conteúdo de documentos</a>
+## <a name="Enabled"></a>Controle de conteúdo de documentos
 
 O designer de fórmulas de ER pode ser usado para configurar expressões que controlam quais dados serão inseridos nos documentos eletrônicos gerados no tempo de execução. As expressões podem habilitar ou desabilitar a saída de elementos específicos do formato de dados, dependendo dos dados de processamento e da lógica configurada. Essas expressões podem ser inseridas para um único elemento de formato no campo **Habilitado** na guia **Mapeamento** da página **Designer de operações**. Você pode inserir as expressões como uma condição lógica que retorna um valor *Booliano*:
 
@@ -139,7 +139,7 @@ A ilustração a seguir mostra expressões desse tipo. (A versão 11.12.11 da co
 > 
 > Com base nessa configuração, a mensagem gerada para cada pagamento de devedor, o elemento XML **Ustrd**, conterá o texto das notas de pagamento ou, quando esse texto estiver em branco, uma lista separada por vírgula dos números de fatura que são usados para liquidar o pagamento.
 
-## <a name="TestFormula">Validação de fórmulas configuradas</a>
+## <a name="TestFormula"></a>Validação de fórmulas configuradas
 
 Na página **Designer de fórmulas**, selecione **Testar** para validar como a fórmula configurada funciona.
 

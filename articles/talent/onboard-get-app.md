@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 8739bb1afdbea40c7f1c77064ee6b052516903d1
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 1b59fdbdd9ed46f42afd3e7310d2cd3f076edd95
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898193"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006370"
 ---
 # <a name="get-the-onboard-app"></a>Obter o aplicativo Onboard
 
@@ -32,7 +32,7 @@ Você pode visualizar uma demonstração e experimentar o aplicativo Microsoft D
 > [!NOTE]
 > A avaliação gratuita requer uma conta de email comercial.
 
-Você pode adquirir uma assinatura do Onboard como um aplicativo autônomo ou como parte do Dynamics 365 Talent. O Talent é um sistema abrangente de gerenciamento de capital humano (HCM) que inclui Dynamics 365 Talent: Attract, Onboard e Core HR. Para obter mais informações sobre como comprar o Onboard, consulte a [página do produto Onboard](https://dynamics.microsoft.com/talent/onboard/).
+Você pode adquirir uma assinatura do Onboard como um aplicativo autônomo ou como parte do Dynamics 365 Talent. Para obter mais informações sobre como comprar o Onboard, consulte a [página do produto Onboard](https://dynamics.microsoft.com/talent/onboard/).
 
 Durante o processo de avaliação ou de compra, você irá configurar seu endereço de email e senha do Microsoft 365. Certifique-se de anotar esses valores.
 

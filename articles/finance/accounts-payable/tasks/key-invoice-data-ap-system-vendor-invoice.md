@@ -1,5 +1,5 @@
 ---
-title: Dados principais de nota fiscal no sistema AP usando a nota fiscal de fornecedor
+title: Dados principais de fatura no AP usando uma fatura de fornecedor
 description: Este guia de tarefas ajudará você a criar uma fatura de fornecedor a partir de uma ordem de compra e exibir os resultados da conciliação da ordem de compra, do recebimento e da fatura (conciliação tripla).
 author: abruer
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7abae6d680d899a0294ad3c298a4b0264ba01d0b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 22df9b71c6809e7633b7d573e6992be9d868cbac
+ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189421"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "3000199"
 ---
-# <a name="key-invoice-data-in-ap-system-using-vendor-invoice"></a>Dados principais de nota fiscal no sistema AP usando a nota fiscal de fornecedor
+# <a name="key-invoice-data-in-ap-using-a-vendor-invoice"></a>Dados principais de fatura no AP usando uma fatura de fornecedor
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

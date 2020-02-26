@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cb9c850aa045b72137b8a1d3c8cdae51cf2fd7b6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ec17fc31df1daed943f9bc3f4cbe25a683c8ac7e
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843232"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026305"
 ---
 # <a name="reconcile-freight-manually"></a>Reconciliar frete manualmente
 
@@ -37,7 +37,7 @@ Este procedimento mostra como reconciliar manualmente o frete. Normalmente isso 
 3. Na lista, selecione custo indireto que tem a identificação ID 00006 de carga.
 
 ## <a name="create-a-carrier-invoice"></a>Criar uma fatura da transportadora
-    * Quando você reconciliar o frete manualmente e não receber notas fiscais da transportadora automaticamente, você pode criar uma nota fiscal com base na conta de frete.  
+Quando você reconciliar o frete manualmente e não receber notas fiscais da transportadora automaticamente, você pode criar uma nota fiscal com base na conta de frete.  
 1. Clique em Informações Relacionadas.
 2. Clique em Detalhes da nota de frete.
 3. Clique em gerar fatura da nota de frete.
@@ -45,7 +45,7 @@ Este procedimento mostra como reconciliar manualmente o frete. Normalmente isso 
 5. Clique em OK.
 
 ## <a name="reconcile-the-invoice"></a>Reconciliar a fatura
-    * Quando você reconciliar uma nota fiscal da transportadora e uma conta de frete, isso é feito linha por linha.  
+Quando você reconciliar uma nota fiscal da transportadora e uma conta de frete, isso é feito linha por linha.  
 1. Clique em Fazer correspondência de faturas e notas de frete.
 2. Expanda a seção Detalhes de fatura.
 3. Expanda a seção não correspondida de detalhes da conta de frete.

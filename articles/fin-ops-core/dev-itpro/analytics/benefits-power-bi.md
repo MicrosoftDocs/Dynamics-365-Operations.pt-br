@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: HcmBenefitWorkspace
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations, Talent
+ms.search.scope: Core, Operations, Human Resources
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 607458b129c1c8255b6ce1f3b1a38ca40dc9652d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f94799b892f09ed978a63ab7e7bd8a6b332ac22b
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181234"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005839"
 ---
 # <a name="benefits-power-bi-content"></a>Conteúdo de benefícios do Power BI
 
@@ -33,7 +33,7 @@ Este tópico descreve o conteúdo de **Benefícios** do Microsoft Power BI. Ele 
 O conteúdo de **Benefícios** do Power BI é mostrado no espaço de trabalho **Gerenciamento de benefícios** se você usa um dos seguintes produtos:
 
 - Microsoft Dynamics 365 Finance
-- Microsoft Dynamics 365 Talent
+- Microsoft Dynamics 365 Human Resources
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Relatórios incluídos no conteúdo do Power BI
 Os relatórios incluídos no conteúdo de **Benefícios** do Power BI têm gráficos e tabelas com informações adicionais. A tabela a seguir descreve os relatórios.

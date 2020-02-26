@@ -1,9 +1,9 @@
 ---
-title: Destinos de relatório eletrônico (ER)
-description: Você pode configurar uma meta para cada configuração de formato de relatório eletrônico (ER)e seu componente de saída (uma pasta ou um arquivo). Os usuários que têm direitos de acesso apropriados também podem modificar as configurações de destino em tempo de execução. Este artigo explica gerenciamento de destino do ER, os tipos de destinos que têm suporte e considerações de segurança.
-author: ShylaThompson
+title: Destinos de Relatório eletrônico (ER)
+description: Este tópico fornece informações sobre o gerenciamento de destinos de relatório eletrônico (ER), os tipos de destinos com suporte e considerações de segurança.
+author: nselin
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,119 +18,151 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 7154a6e8aff62b1ebf79edfecb1e1b99048f7c44
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2e4c6951afbff367dc93072d20395c3a37fffbcb
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771460"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030764"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinos de relatório eletrônico (ER)
 
 [!include [banner](../includes/banner.md)]
 
-Você pode configurar uma meta para cada configuração de formato de relatório eletrônico (ER)e seu componente de saída (uma pasta ou um arquivo). Os usuários que têm direitos de acesso apropriados também podem modificar as configurações de destino em tempo de execução. Este artigo explica gerenciamento de destino do ER, os tipos de destinos que têm suporte e considerações de segurança.
+Você pode configurar uma meta para cada configuração de formato de relatório eletrônico (ER)e seu componente de saída (uma pasta ou um arquivo). Os usuários que têm direitos de acesso apropriados também podem modificar configurações de destino em tempo de execução. Este tópico explica o gerenciamento de destinos de ER, os tipos de destinos que têm suporte e considerações de segurança.
 
-Configurações de formato (ER) geralmente contêm pelo menos um componente de saída de relatório eletrônico: um arquivo. Normalmente, as configurações contém vários componentes de saída de arquivos de tipos diferentes (por exemplo, XML, TXT ou XLSX) que são agrupados em uma única pasta ou várias pastas. Gerenciamento de destino do ER permite pré-configurar o que ocorre quando cada componente é executado. Por padrão, quando uma configuração é executada, uma caixa de diálogo é exibida que permite que o usuário salve ou abra o arquivo. O mesmo comportamento também é usado quando você importar uma configuração de ER e não configurar os destinos específicos para ele. Após a criação de um destino para um componente de saída principal, esse destino substitui o comportamento padrão e a pasta ou o arquivo é enviado de acordo com as configurações do destino.
+As configurações de formato de ER geralmente contêm pelo menos um componente de saída: um arquivo. Normalmente, as configurações contêm vários componentes de saída de arquivos de diferentes tipos (por exemplo, XML, TXT, XLSX, DOCX ou PDF) que são agrupados em uma única pasta ou em várias pastas. Gerenciamento de destino do ER permite pré-configurar o que ocorre quando cada componente é executado. Por padrão, quando uma configuração é executada, aparece uma caixa de diálogo que permite salvar ou abrir o arquivo. O mesmo comportamento também ocorre quando você importa uma configuração de ER e não configura destinos específicos para ele. Após a criação de um destino para um componente de saída principal, esse destino substitui o comportamento padrão e a pasta ou o arquivo é enviado de acordo com as configurações do destino.
 
 ## <a name="availability-and-general-prerequisites"></a>Disponibilidade e pré-requisitos gerais
-A funcionalidade de destinos de ER não está disponível no Microsoft Dynamics AX 7.0 (fevereiro de 2016). Portanto, você deve instalar o Microsoft Dynamics 365 for Operations versão 1611 (novembro de 2016) para usar todas as funções descritas neste tópico. Se preferir,, você pode instalar um dos seguintes pré-requisitos. Entretanto, note que essa alternativa permite uma experiência de destino de ER mais limitada.
+
+A funcionalidade de destinos de ER não está disponível no Microsoft Dynamics AX 7.0 (fevereiro de 2016). Por isso você deve instalar o Microsoft Dynamics 365 for Operations versão 1611 (novembro a 2016) ou posterior para usar os seguintes tipos de destino:
+
+- [Email](er-destination-type-email.md)
+- [Arquivar](er-destination-type-archive.md)
+- [Arquivo](er-destination-type-file.md)
+- [Tela](er-destination-type-screen.md)
+- [Power BI](er-destination-type-powerbi.md)
+
+Se preferir,, você pode instalar um dos seguintes pré-requisitos. Entretanto, essas alternativas proporcionam uma experiência de destino de ER mais limitada.
 
 - Versão 7.0.1 do aplicativo Microsoft Dynamics AX (maio de 2016)
-- Gerenciamento de destino do ER [hotfix do aplicativo](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
+- [Hotfix do aplicativo de gerenciamento de destino de relatório eletrônico](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
+
+Também existe um tipo de destino [Impressão](er-destination-type-print.md). Para usá-lo, você deve instalar o Microsoft Dynamics 365 Finance versão 10.0.9 (abril de 2020).
+
+## <a name="overview"></a>Visão geral
+
+Você pode configurar destinos somente para as configurações de ER [importadas](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) para a instância atual do Finance e para os formatos disponíveis na página **Configurações de Relatórios eletrônicos**. A funcionalidade de gerenciamento de destino de ER está disponível em **Administração da organização** \> **Relatório eletrônico** \> **Destino de relatório eletrônico**. Na página **Destino de relatório eletrônico**, é possível substituir o comportamento padrão de uma configuração. As configurações importadas não são mostradas nessa página até você selecionar **Novo** e, no campo **Referência**, selecionar uma configuração para criar configurações de destino.
+
+[![Selecionando uma configuração no campo Referência](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
+
+Depois de criar uma referência, você pode criar um destino de arquivo para cada componente de saída **Pasta** ou **Arquivo** do formato de ER referenciado.
+
+[![Criando um destino do arquivo](./media/ER_Destinations-ConfigureElementDestination.png)](./media/ER_Destinations-ConfigureElementDestination.png)
+
+Em seguida, na caixa de diálogo **Configurações de destino**, você pode habilitar e desabilitar destinos individuais para o destino do arquivo. O botão **Configurações** é usado para controlar todos os destinos de um destino de arquivo selecionado. Na caixa de diálogo **Configurações de destino**, você pode controlar cada destino separadamente, definindo a opção **Ativado** para ele.
+
+Em versões do Finance **antes da versão 10.0.9**, você pode criar **um destino de arquivo** para cada componente de saída do mesmo formato, como uma pasta ou um arquivo selecionado no campo **Nome do arquivo**. No entanto, na **versão 10.0.9 e posterior**, você pode criar **vários destinos de arquivo** para cada componente de saída do mesmo formato.
+
+Por exemplo, você pode usar esse recurso para configurar destinos de arquivo para um componente de arquivo usado para gerar um documento de saída no formato Excel. Um destino ([Arquivo](er-destination-type-archive.md)) pode ser configurado para armazenar o arquivo do Excel original no arquivo de trabalhos de ER, e outro destino ([Email](er-destination-type-email.md)) pode ser configurado para simultaneamente [converter](#OutputConversionToPDF) o arquivo do Excel em formato PDF e enviar o arquivo PDF por email.
+
+[![Configurando vários destinos para um único elemento de formato](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
+
+## <a name="destination-types"></a>Tipos de destino
+
+No momento, os destinos a seguir são aceitos para os formatos de ER. Você pode desativar ou ativar todos os tipos ao mesmo tempo. Dessa forma, você pode não fazer nada ou enviar o componente para todos os destinos configurados.
+
+- [Email](er-destination-type-email.md)
+- [Arquivar](er-destination-type-archive.md)
+- [Arquivo](er-destination-type-file.md)
+- [Tela](er-destination-type-screen.md)
+- [Power BI](er-destination-type-powerbi.md)
+- [Imprimir](er-destination-type-print.md)
+
+## <a name="applicability"></a>Aplicabilidade
 
 Você pode configurar destinos somente para configurações de ER que foram importadas e para os formatos que estão disponíveis na página **Configurações de relatório eletrônicas**.
 
-## <a name="overview"></a>Visão Geral
-A funcionalidade de gerenciamento de destino do ER está disponível em **Administração da organização** &gt; **Relatório eletrônico**. Aqui, você pode substituir o comportamento padrão para uma configuração. Configurações importadas não são mostradas aqui até que você clique em **Novo** e, em seguida, no campo **Referência**, selecione uma configuração para criar configurações de destino.
+> [!NOTE]
+> Os destinos configurados são específicos da empresa. Se você planeja usar um formato de ER em diferentes empresas da instância atual do Finance, deve configurar destinos para esse formato de ER para cada uma dessas empresas.
 
-[![Selecionando uma configuração no campo Referência](./media/ger-destinations-2-1611-1024x574.jpg)](./media/ger-destinations-2-1611.jpg)
+Quando você configura destinos de arquivo para um formato selecionado, eles são configurados para todo o formato.
 
-Após você ter criado uma referência, você pode criar um destino de arquivo para cada pasta ou para um arquivo.
+[![Link de configuração](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
 
-[![Criando um destino do arquivo](./media/ger-destinations-1611-1024x586.jpg)](./media/ger-destinations-1611.jpg)
+Ao mesmo tempo, você pode ter várias [versões](general-electronic-reporting.md#component-versioning) do formato que foram importadas para a instância atual do Finance. É possível vê-las selecionando o link **Configuração** que é exibido quando você seleciona o campo **Referência**.
+
+[![Versões da configuração](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
+
+Por padrão, os destinos configurados são aplicados somente quando você executa uma versão do formato de ER que tem o status **Concluído** ou **Compartilhado**. No entanto, às vezes você deve usar destinos configurados quando a versão de rascunho de um formato de ER é executada. Por exemplo, você modifica uma versão de rascunho do seu formato e quer usar destinos configurados para testar como a saída gerada será entregue. Siga estas etapas para aplicar os destinos de um formato de ER quando a versão de rascunho for executada.
+
+1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+2. Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
+3. Defina a opção **Usar destinos para status de rascunho** como **Sim**.
+
+[![Opção Usar destinos para status de rascunho](./media/ER_Destinations-UserSetting1.png)](./media/ER_Destinations-UserSetting1.png)
+
+Para usar a versão de rascunho de um formato de ER, você deve marcar o formato de ER adequadamente.
+
+1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+2. Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
+3. Defina a opção **Executar configuração** como **Sim**.
+
+[![Opção Executar configuração](./media/ER_Destinations-UserSetting2.png)](./media/ER_Destinations-UserSetting2.png)
+
+Depois de concluir essa configuração, a opção **Executar rascunho** fica disponível para os formatos de ER que você modificar. Defina esta opção como **Sim** para começar a usar a versão de rascunho do formato quando o formato for executado.
+
+[![Opção Executar rascunho](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
+
+## <a name="DestinationFailure"></a>Tratamento de falha no destino
+
+Normalmente, um formato de ER é executado no escopo de um processo de negócios específico. No entanto, às vezes, a entrega de um documento de saída gerado durante a execução de um formato de ER deve ser considerada como parte desse processo de negócios. Nesse caso, se a entrega de um documento de saída gerado em um destino configurado não for bem-sucedida, a execução do processo de negócios deverá ser cancelada. Para configurar o destino de ER apropriado, selecione a opção **Interromper processamento em caso de falha**.
+
+Por exemplo, você configura o processamento de pagamentos de fornecedor para que o formato de ER **Transferência de Crédito ISO20022** seja executado para gerar o arquivo de pagamento e os documentos complementares (por exemplo, a carta de apresentação e o relatório de controle). Se um pagamento tiver de ser considerado como tendo o processamento bem-sucedido somente se a carta de apresentação for entregue com êxito por email, você deverá marcar a caixa de seleção **Interromper processamento em caso de falha** para o componente **CoveringLetter** no destino de arquivo apropriado, conforme mostrado na ilustração a seguir. Nesse caso, o status do pagamento selecionado para processamento mudará de **Nenhum** para **Enviado** somente quando a carta de apresentação gerada for aceita com êxito para entrega por um provedor de email configurado na instância do Finance.
+
+[![Configurando o tratamento de processos em caso de falha no destino de arquivo](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)
+
+Se você desmarcar a caixa de seleção **Interromper processamento em caso de falha** para o componente **CoveringLetter** no destino, um pagamento será considerado como tendo o processamento bem-sucedido mesmo que a carta de apresentação não seja entregue com êxito por email. O status do pagamento mudará de **Nenhum** para **Enviado** mesmo que a carta de apresentação não possa ser enviada porque, por exemplo, o endereço de email do destinatário ou remetente está ausente ou incorreto.
+
+## <a name="OutputConversionToPDF"></a>Conversão de saída em PDF
+
+Você pode usar a opção de conversão em PDF para converter a saída em formato do Microsoft Office (Excel/Word) para PDF.
+
+### <a name="make-pdf-conversion-available"></a>Disponibilizar conversão em PDF
+
+Para disponibilizar a opção de conversão em PDF na instância atual do Finance, abra o espaço de trabalho **Gerenciamento de recursos** e ative o recurso **Converter documentos de saída do Relatório Eletrônico de formatos do Microsoft Office em PDF**.
+
+[![Ativando a conversão em PDF do recurso de documentos de saída no Gerenciamento de recursos](./media/ER_Destinations-EnablePdfConversionFeature.png)](./media/ER_Destinations-EnablePdfConversionFeature.png)
+
+### <a name="applicability"></a>Aplicabilidade
+
+A opção de conversão em PDF pode ser ativada somente para componentes de arquivo usados para gerar saída em formato do Microsoft Office Excel ou do Word (**Arquivo do Excel**). Quando esta opção está ativada, a saída gerada no formato do Office é convertida automaticamente para o formato PDF.
+
+### <a name="limitations"></a>Limitações
 
 > [!NOTE]
-> Você pode criar um destino de arquivo para cada componente de saída do mesmo formato, como uma pasta ou um arquivo que é selecionado no campo **Nome do arquivo**. Você pode ativar e desativar os destinos individuais para o destino do arquivo na caixa de diálogo **Configurações de destino**. O botão **Configurações** é usado para controlar todos os destinos de um destino de arquivo selecionado. Na caixa de diálogo **Configurações de destino**, você pode controlar cada destino separadamente, definindo a opção **Ativado** para ele.
-
-[![Caixa de diálogo de configurações de destino](./media/ger-destinations-settings-1611-1024x589.jpg)](./media/ger-destinations-settings-1611.jpg)
-
-## <a name="destination-types"></a>Tipos de destino
-Há suporte para vários tipos de destinos. Você pode desativar ou ativar todos os tipos ao mesmo tempo. Dessa forma, você pode não fazer nada ou enviar o componente para todos os destinos configurados. As seções a seguir descrevem os destinos que são suportados.
-
-### <a name="email-destination"></a>Destino de email
-
-Definir **Habilitado** para **Sim** para enviar um arquivo de saída por e-mail. Depois que esta opção for ativada, você pode especificar os destinatários de e-mail e editar o assunto e o corpo da mensagem de email. Você pode configurar textos constantes do assunto e do corpo de email, ou você pode usar ER de fórmulas para criar textos de email dinamicamente. Você pode configurar endereços de email para o ER de duas formas. A configuração pode ser concluída da mesma forma que o recurso de gerenciamento de impressão no aplicativo a conclui. Se preferir, você pode resolver um endereço de email usando uma referência direta para a configuração de ER através de uma fórmula.
-
-### <a name="email-address-types"></a>Tipos de endereço de email
-
-Quando você clica em **Editar** para o campo **Para** ou **Cc**, a caixa de diálogo **Email para** é exibida. Você pode selecionar o tipo de endereço de email para uso.
-
-[![Caixa de diálogo Email para](./media/ger-destinations-email-1-1611-1024x588.jpg)](./media/ger-destinations-email-1-1611.jpg)
-
-#### <a name="print-management"></a>Gerenciamento de impressão
-
-Se selecionar o tipo **Imprimir email de gerenciamento**, você pode inserir os endereços de e-mail fixos no campo **Para**. Para usar os endereços de e-mail não fixos, você deve selecionar o tipo de origem de e-mails para um destino de arquivo. Os valores a seguir são suportados: **Cliente**, **Fornecedor**, **Cliente potencial**, **Contato**, **Concorrente**, **Trabalhador**, **Candidato**, **Fornecedor potencial** e **Fornecedor não permitido**. Após selecionar um tipo de origem de email, use o botão ao lado do campo **Conta de origem do email** para abrir o formulário **Designer de fórmulas**. Você pode usar este formulário para anexar uma fórmula que representa a conta de participante selecionada para o destino de email.
-
-[![Configurar tipo de email do gerenciamento de impressão](./media/ger-destinations-email-2-1611-1024x588.jpg)](./media/ger-destinations-email-2-1611.jpg)
-
-Observe que as fórmulas são específicas da configuração de ER. Em **Fórmula**, digite uma referência específica a um tipo da parte do cliente ou fornecedor. Em vez de digitar, você pode encontrar um nó da fonte de dados que representa a conta de cliente ou fornecedor, e clicar no botão **Adicionar fonte de dados** para atualizar a fórmula. Exemplo: Se você usar a configuração da transferência de crédito ISO 20022, o nó que representa uma conta de fornecedor é **'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID**. Caso contrário, insira qualquer valor da cadeia de caracteres, como **DE-001**, para salvar a fórmula.
-
-[![Designer de fórmulas](./media/ger_formuladesignerfordestination-1024x541.jpg)](./media/ger_formuladesignerfordestination.jpg)
-
-Na caixa de diálogo **Email para**, clique na lixeira ao lado do campo **Conta de origem do email** para excluir permanentemente a fórmula para a conta de origem de email. Se preferir, abra o designer de fórmula para alterar uma fórmula que foi salva anteriormente. Para atribuir endereços de email, clique em **Editar** para abrir a caixa de diálogo **Atribuir endereços de email**.
-
-[![Atribuindo endereços de email para destino de email](./media/ger-destinations-email-3-1611-1024x587.jpg)](./media/ger-destinations-email-3-1611.jpg)
-
-#### <a name="configuration-email"></a>Email de configuração
-
-Use este tipo de email se a configuração que você usar tiver um nó nas fontes de dados que representam um endereço de email. Você pode usar fontes de dados e as funções no designer de fórmulas para obter um endereço de email corretamente formatado.
-
-[![Atribuindo uma fonte de dados do endereço de email para um destino de email](./media/ger-destinations-email-4-1611-1024x587.jpg)](./media/ger-destinations-email-4-1611.jpg)
+> Esse recurso está em versão prévia e está sujeito aos termos de uso que são descritos em [Termos de Uso Complementares para Versões Prévias do Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2105274).
 
 > [!NOTE]
-> Um servidor Simple Mail Transfer Protocol (SMTP) deve ser configurado e disponível. Você pode especificar o servidor SMTP em **Administração do sistema** &gt; **Configuração** &gt; **Email** &gt; **Parâmetros de email**.
+> A opção de conversão em PDF só está disponível para implantações em nuvem.
+>
+> O PDF produzido pode ter um número máximo de 300 páginas.
+>
+> No momento, apenas a orientação de página paisagem tem suporte no documento PDF produzido de uma saída do Excel.
+>
+> Somente as fontes de sistema comuns do sistema operacional Windows são usadas para a conversão de uma saída que não contém fontes incorporadas.
 
-### <a name="archive-destination"></a>Local do arquivo morto
+### <a name="use-the-pdf-conversion-option"></a>Usar a opção de conversão em PDF
 
-Você pode usar esta opção para enviar a saída para uma pasta do Microsoft SharePoint ou para o Armazenamento do Microsoft Azure. Definir **Habilitado** para **Sim** para enviar a saída para um destino que é definido pelo tipo de documento selecionado. Somente tipos de documento onde o grupo está definido para **Arquivo** estão disponíveis para seleção. Você define os tipos de documentos em **Administração da organização** &gt; **Gerenciamento de documentos** &gt; **Tipos de documentos**. A configuração de destinos de ER é o mesma que a configuração para o sistema de gerenciamento de documentos.
+Para ativar a conversão em PDF para um destino de arquivo, marque a caixa de seleção **Converter em PDF**.
 
-[![Página Tipos de documento](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg)
-
-O local determina onde o arquivo foi salvo. Depois que o destino do **Arquivo** for ativado, os resultados da execução da configuração podem ser salvos no arquivo de trabalho. Você pode exibir os resultados em **Administração da organização** &gt; **Relatório eletrônico** &gt; **Trabalhos arquivados de relatórios eletrônicos**.
-
-> [!NOTE]
-> Você pode selecionar um tipo de documento para o Arquivo de trabalho em **Administração da organização** &gt; **Espaços de trabalho** &gt; **Relatório eletrônico** &gt; **Parâmetros de relatório eletrônico**.
-
-#### <a name="sharepoint"></a>SharePoint
-
-Você pode salvar um arquivo em uma pasta designada do SharePoint. Você define o servidor padrão do SharePoint em **Administração da organização** &gt; **Gerenciamento de documentos** &gt; **Parâmetros de gerenciamento de documentos** na guia **SharePoint**. Depois que a pasta do SharePoint for configurada, você poderá selecioná-la como a pasta onde a saída de ER será salva para o tipo de documento.
-
-[![Selecionando uma pasta do SharePoint](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg)
-
-#### <a name="azure-storage"></a>Armazenamento do Azure
-
-Quando o local de tipo de documento é definido como **Diretório de arquivo morto**, você pode salvar um arquivo para o armazenamento do Azure.
-
-### <a name="file-destination"></a>Destino de arquivo
-
-Se você definir **Ativado** como **Sim**, uma caixa de diálogo abrir ou salvar será exibida quando a configuração terminar a execução.
-
-### <a name="screen-destination"></a>Destino da tela
-
-Se você definir **Ativado** como **Sim**, será criada uma visualização da saída. Você pode exibir alguns tipos de arquivo, como o XML, TXT, ou PDF diretamente em uma janela do navegador. Para outros tipos de arquivos, como Microsoft Excel ou Word, é usado o serviço do Microsoft Office Online.
-
-### <a name="power-bi-destination"></a>Destino do Power BI
-
-Defina **Habilitado** como **Sim** para usar sua configuração de ER para organizar a transferência de dados de sua instância para os serviços do Microsoft Power BI. Os arquivos transferidos são armazenados em uma instância do Microsoft SharePoint Server que deve ser configurada para essa finalidade. Para obter mais informações, consulte [Configurar o ER (relatório eletrônico) para extrair dados para o Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md).
-
-> [!TIP]
-> Para substituir o comportamento padrão (ou seja, a caixa de diálogo para uma configuração), você pode criar uma referência de destino e um destino de arquivo para o componente de saída principal e, em seguida, desabilitar todos os destinos.
+[![Ativando a conversão em PDF para um destino de arquivo](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
 
 ## <a name="security-considerations"></a>Considerações de segurança
-Dois tipos de direitos e privilégios são usados para destinos de ER. Um tipo controla a capacidade de manter os destinos gerais que estão configurados para uma entidade legal (isto é, controla o acesso à página **Destinos de relatório eletrônico**). O outro tipo controla a capacidade de um usuário do aplicativo para substituir, em tempo de execução, as configurações de destino são configuradas por um desenvolvedor de ER ou consultor funcional ER.
 
-| Função (nome da AOT)                     | Nome da função                                  | Direito (nome da AOT)                     | Nome do direito                                                        |
+Dois tipos de direitos e privilégios são usados para destinos de ER. Um tipo controla a capacidade geral do usuário de manter os destinos que estão configurados para uma entidade legal (isto é, controla o acesso à página **Destinos de Relatório eletrônico**). O outro tipo controla a capacidade de um usuário do aplicativo de substituir, em tempo de execução, as configurações de destino feitas por um desenvolvedor de ER ou consultor funcional ER.
+
+| Função (nome da AOT)                     | Nome da função                                  | Direito (nome da AOT)                     | Nome da obrigação                                                        |
 |-------------------------------------|--------------------------------------------|-------------------------------------|------------------------------------------------------------------|
 | ERDeveloper                         | Desenvolvedor de relatório eletrônico             | ERFormatDestinationConfigure        | Configurar destino de formato de relatório eletrônico                |
 | ERFunctionalConsultant              | Consultor funcional de relatório eletrônico | ERFormatDestinationConfigure        | Configurar destino de formato de relatório eletrônico                |
@@ -141,25 +173,26 @@ Dois tipos de direitos e privilégios são usados para destinos de ER. Um tipo c
 > Dois privilégios são usados em tarefas anteriores. Esses privilégios têm os mesmos nomes que as tarefas correspondentes: **ERFormatDestinationConfigure** e **ERFormatDestinationRuntimeConfigure**.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
+
 ### <a name="i-have-imported-electronic-configurations-and-i-see-them-on-the-electronic-reporting-configurations-page-but-why-dont-i-see-them-on-the-electronic-reporting-destinations-page"></a>Importei configurações eletrônicas e vejo na página de configurações de relatório eletrônico. Mas por que eu não os vejo na página de destinos de relatórios eletrônicos?
 
-Certifique-se de clicar em **Novo** e selecione uma configuração no campo **Referência**. Na página **Destinos de relatório eletrônico**, você pode ver apenas as configurações que foram configuradas para destinos.
+Selecione **Novo** e, depois, escolha uma configuração no campo **Referência**. A página **Destinos de Relatório eletrônico** mostra apenas as configurações definidas para os destinos.
 
-### <a name="is-there-any-way-to-define-which-azure-storage-account-and-azure-blob-storage-are-used"></a>Existe alguma maneira para definir qual conta de armazenamento do Azure e armazenamento de BLOBs do Azure são usados?
+### <a name="is-there-any-way-to-define-which-microsoft-azure-storage-account-and-azure-blob-storage-are-used"></a>Existe alguma forma de definir qual conta de armazenamento do Microsoft Azure e qual armazenamento de Blob do Azure são usados?
 
-Não. O armazenamento de Blob do Azure padrão que é definido e usado para o sistema de gerenciamento de documentos é usado.
+Nº É utilizado o armazenamento de Blob padrão do Microsoft Azure que é definido e usado para o sistema de gerenciamento de documentos.
 
 ### <a name="what-is-the-purpose-of-the-file-destination-in-the-destination-settings-what-does-that-setting-do"></a>Qual é a finalidade do destino do arquivo nas configurações de destino? O que faz essa configuração?
 
-O destino **Arquivo** é usado para controlar uma caixa de diálogo. Se você habilitar esse destino, ou se nenhum destino for definido para uma configuração, você verá uma caixa de diálogo abrir ou salvar após a criação de um arquivo de saída.
+O destino **Arquivo** é usado para controlar uma caixa de diálogo. Se você habilitar esse destino, ou se nenhum destino for definido para uma configuração, será exibida uma caixa de diálogo para abrir ou salvar após a criação de um arquivo de saída.
 
 ### <a name="can-you-give-an-example-of-the-formula-that-refers-to-a-vendor-account-that-i-can-send-email-to"></a>Pode dar um exemplo de fórmula que se refere a uma conta de fornecedor que eu possa enviar e-mail para?
 
 A fórmula é específica da configuração de ER. Por exemplo, se você usa a configuração de transferência de crédito ISO 20022, você pode usar **'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID** ou **model.Payments.Creditor.Identification.SourceID** para obter uma conta de fornecedor associada.
 
-### <a name="one-of-my-format-configurations-contains-multiple-files-that-are-group-into-one-folder-for-example-folder1-contains-file1-file2-and-file3-how-do-i-set-up-destinations-so-that-folder1zip-isnt-created-at-all-file1-is-sent-by-email-file2-is-sent-to-sharepoint-and-i-can-open-file3-immediately-after-the-configuration-is-run"></a>Uma das minhas configurações de formato contém vários arquivos de grupo em uma pasta (por exemplo, Pasta1 contém Arquivo1, Arquivo2 e Arquivo3). Como posso configurar destinos de forma que a Pasta1.zip não seja criada, o Arquivo1 seja enviado por email, o Arquivo2 seja enviado ao SharePoint e eu possa abrir o Arquivo3 logo depois que a configuração for executada?
+### <a name="one-of-my-format-configurations-contains-multiple-files-that-are-grouped-into-one-folder-for-example-folder1-contains-file1-file2-and-file3-how-do-i-set-up-destinations-so-that-folder1zip-isnt-created-at-all-file1-is-sent-by-email-file2-is-sent-to-sharepoint-and-i-can-open-file3-immediately-after-the-configuration-is-run"></a>Uma das minhas configurações de formato contém vários arquivos agrupados em uma pasta (por exemplo, Pasta1 contém Arquivo1, Arquivo2 e Arquivo3). Como posso configurar destinos de forma que a Pasta1.zip não seja criada, o Arquivo1 seja enviado por email, o Arquivo2 seja enviado ao SharePoint e eu possa abrir o Arquivo3 logo depois que a configuração for executada?
 
-O pré-requisito é que o formato deve estar disponível nas configurações de ER. Se você tiver o formato, abra a página **Destino de relatórios eletrônico** e crie uma nova referência para esta configuração. Em seguida, você deve ter quatro destinos de arquivo, um para cada componente de saída. Crie o destino do arquivo primeiro, dê a ele um nome como **Pasta** e selecione um nome de arquivo que representa uma pasta na sua configuração. Em seguida, clique em **Configurações** e certifique-se de que todos os destinos estão desativados. Para este destino do arquivo, a pasta não será criada. Por padrão, por causa das dependências hierárquicas entre os arquivos e pastas pai, os arquivos irão se comportar da mesma maneira. Em outras palavras, eles não serão enviados em qualquer lugar. Para substituir esse comportamento padrão, você deve criar três destinos mais de arquivo, um para cada arquivo. Nas configurações de destino de cada um, você deve habilitar o destino em que o arquivo deve ser enviado para.
+O formato deve estar disponível primeiro nas configurações de ER. Se esse pré-requisito for atendido, abra a página **Destino de relatório eletrônico** e crie uma nova referência para a configuração. Em seguida, você deve ter quatro destinos de arquivo, um para cada componente de saída. Crie o destino do arquivo primeiro, dê a ele um nome como **Pasta** e selecione um nome de arquivo que representa uma pasta na sua configuração. Depois, selecione **Configurações** e certifique-se de que todos os destinos estão desabilitados. Para este destino do arquivo, a pasta não será criada. Por padrão, por causa das dependências hierárquicas entre os arquivos e pastas pai, os arquivos irão se comportar da mesma maneira. Em outras palavras, eles não serão enviados em qualquer lugar. Para substituir esse comportamento padrão, você deve criar três destinos mais de arquivo, um para cada arquivo. Nas configurações de destino de cada um, você deve habilitar o destino em que o arquivo deve ser enviado para.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

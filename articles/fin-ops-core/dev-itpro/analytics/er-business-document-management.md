@@ -3,7 +3,7 @@ title: Visão geral de gerenciamento de documentos comerciais
 description: Este tópico fornece informações sobre como usar o recurso de gerenciamento de documentos comerciais da estrutura de ER.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/09/2019
+ms.date: 01/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3aac66cc39d854cabdb3d29bde029d93683e2ef7
-ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
+ms.openlocfilehash: 0deb51bb23851b179e2c4166b6444af654a64e1d
+ms.sourcegitcommit: 380664bf10bb25449e3af3d62e235b76d46c0c89
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2933899"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "2957358"
 ---
 # <a name="business-document-management-overview"></a>Visão geral de gerenciamento de documentos comerciais
 
@@ -122,7 +122,7 @@ Use o procedimento a seguir para habilitar a funcionalidade de gerenciamento de 
 4. Atualize a página para acessar o novo recurso.
 
 >[!NOTE]
-> Você também precisa habilitar a **experiência de interface de usuário semelhante à do Office para o Gerenciamento de documentos comerciais** para usá-la como a nova interface de gerenciamento de documentos comerciais
+> Para obter mais informações sobre como usar a nova interface de usuário de documento no Gerenciamento de documentos comerciais, consulte [Nova interface de usuário de documento no Gerenciamento de documentos comerciais](er-business-document-management-new-template-ui.md).
 
 ![Espaço de trabalho do gerenciamento de recursos](./media/BDM-Overview-FMEnabling.png)
 
@@ -147,7 +147,7 @@ Para obter informações sobre como configurar os parâmetros e tipos de documen
 
 ![Configurar o tipo de documento de gerenciamento de documentos](./media/BDM-Overview-DMSetting.png)
 
-### <a name="set-up-parameters"></a>Configurar parâmetros
+### <a name="SetupBdmParameters">Configurar parâmetros</a>
 
 Os parâmetros básicos de gerenciamento de documentos comerciais podem ser configurados na página **Parâmetros do documento comercial**. Somente usuários específicos podem acessar a página. Isso inclui:
 
@@ -166,6 +166,9 @@ Use o procedimento a seguir para configurar os parâmetros básicos de todas as 
 ![Configuração dos parâmetros de gerenciamento de documentos comerciais](./media/BDM-Overview-BDMSetting.png)
 
 O tipo de documento selecionado é específico da empresa e será usado quando o usuário estiver trabalhando com o gerenciamento de documentos comerciais na empresa para a qual o tipo de documento selecionado está configurado. Quando o usuário estiver trabalhando com o gerenciamento de documentos comerciais em outra empresa, o mesmo tipo de documento selecionado será usado se um não tiver sido configurado para esta empresa. Quando um tipo de documento for configurado, ele será usado em vez daquele selecionado no campo **Tipo de documento do SharePoint**.
+
+> [!NOTE]
+> O parâmetro **Tipo de documento do SharePoint** define uma pasta do SharePoint como armazenamento temporário para modelos que são editáveis usando o Microsoft Excel ou Word. Será necessário configurar esse parâmetro se você planeja usar esses aplicativos da área de trabalho do Office para editar modelos. Para obter mais informações, consulte [Editar um modelo no aplicativo da área de trabalho do Office](#EditInOfficeDesktopApp). É possível manter esse parâmetro em branco se você planeja modificar o modelo usando a funcionalidade no Office 365. Para obter mais informações, consulte [Editar um modelo no Office 365](#EditInOffice365).
 
 ## <a name="configure-access-permissions"></a>Configurar permissões de acesso
 
@@ -258,23 +261,18 @@ A opção **Editar modelo** está disponível para o modelo selecionado. Essa op
 
 ### <a name="initiate-editing-templates-owned-by-other-providers"></a>Iniciar modelos de edição pertencentes a outros provedores
 
-1. No espaço de trabalho Gerenciamento de documentos comerciais, selecione **Novo documento**.
+1. No espaço de trabalho Gerenciamento de documentos comerciais, selecione o documento que deseja usar como modelo.
 
-![Página do espaço de trabalho de gerenciamento de documentos comerciais](./media/BDM_overview_new_template1.png)
+![Página do espaço de trabalho de gerenciamento de documentos comerciais](./media/BDM-Overview-EditingTemplate3.png)
 
-2. Selecione o documento que você deseja usar como um modelo.
+3. Selecione **Novo documento** e, no campo **Título**, altere o título do modelo editável, se necessário. O texto será usado para nomear a configuração de formato de ER criada automaticamente. Observe que a versão de rascunho dessa configuração (**Cópia do relatório de FTI do cliente (GER)**) que conterá o modelo editado será automaticamente marcada para executar esse formato de ER para o usuário atual. Ao mesmo tempo, o modelo original não modificado da configuração básica do formato de ER será usado para executar esse formato de ER para qualquer outro usuário.
+4. No campo **Nome**, altere o nome da primeira revisão do modelo editável que será criado automaticamente.
+5. No campo **Comentário**, altere o comentário para a revisão criada automaticamente do modelo editável.
+6. Selecione **OK** para confirmar o início do processo de edição
 
-![Página do espaço de trabalho de gerenciamento de documentos comerciais](./media/BDM_overview_new_template2.png)
+![Página do espaço de trabalho de gerenciamento de documentos comerciais](./media/BDM-Overview-EditingTemplate4.png)
 
-3. Clique em **Criar documento**
-4. No campo **Cargo**, altere o título do modelo editável, se necessário. O texto será usado para nomear a configuração de formato de ER criada automaticamente. Observe que a versão de rascunho dessa configuração (**Cópia do relatório de FTI do cliente (GER)**) que conterá o modelo editado será automaticamente marcada para executar esse formato de ER para o usuário atual. Ao mesmo tempo, o modelo original não modificado da configuração básica do formato de ER será usado para executar esse formato de ER para qualquer outro usuário.
-5. No campo **Nome**, altere o nome da primeira revisão do modelo editável que será criado automaticamente.
-6. No campo **Comentário**, altere a observação para a revisão criada automaticamente do modelo editável.
-7. Selecione **OK** para confirmar o início do processo de edição
-
-![Página do espaço de trabalho de gerenciamento de documentos comerciais](./media/BDM_overview_new_template3.png)
-
-A opção **Novo documento** está sempre disponível para um modelo em uma configuração de formato de ER fornecida por outro provedor (a Microsoft, neste exemplo). Quando clicar em **Novo documento**, você verá todos os modelos de propriedade do provedor atual e de outros. Depois que você escolher o modelo, ele será aberto para edição. O modelo editado será armazenado em uma nova configuração de formato de ER que é gerada automaticamente.
+A opção **Novo documento** está sempre disponível para um modelo em uma configuração do formato do ER fornecido pelo provedor atual e algum outro (Microsoft neste exemplo) que não tem qualquer revisão. O modelo editado será armazenado em uma nova configuração de formato de ER que é gerada automaticamente.
 
 ### <a name="start-editing-a-template"></a>Começar a editar um modelo
 
@@ -282,7 +280,7 @@ A opção **Novo documento** está sempre disponível para um modelo em uma conf
 2. No campo **Nome**, altere o nome da primeira revisão do modelo editável que será criado automaticamente.
 3. No campo **Comentário**, altere a observação para a revisão criada automaticamente do modelo editável.
 
-    ![Página do espaço de trabalho de gerenciamento de documentos comerciais](./media/BDM_overview_new_template4.png)
+    ![Página do espaço de trabalho de gerenciamento de documentos comerciais](./media/BDM-Overview-EditingTemplate5.png)
 
 5. Selecione **OK** para confirmar o início do processo de edição.
 
@@ -290,13 +288,16 @@ A página **Editor de modelo de BDM** será aberta. O modelo selecionado estará
 
 ![Página do espaço de trabalho de gerenciamento de documentos comerciais](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name="edit-a-template-in-office-365"></a>Editar um modelo no Office 365
+### <a name="EditInOffice365">Editar um modelo no Office 365</a>
 
-Modifique o modelo usando a funcionalidade do Office 365. Por exemplo, no Office online, altere a fonte dos avisos do campo no cabeçalho do modelo de **Regular** para **Negrito**. Essas alterações são armazenadas automaticamente para o modelo editável armazenado no armazenamento do modelo principal (por padrão, o armazenamento de blob do Azure) configurado para a estrutura de ER.
+Você pode modificar o modelo usando o Office 365. Por exemplo, no Office online, altere a fonte dos avisos do campo no cabeçalho do modelo de **Regular** para **Negrito**. Essas alterações são armazenadas automaticamente no modelo editável que é guardado no armazenamento do modelo principal (por padrão, o armazenamento de blobs do Azure). Isso é configurado para a estrutura do ER.
 
 ![Página do editor de modelo de gerenciamento de documentos comerciais](./media/BDM-Overview-EditingLayout2.png)
 
-### <a name="edit-a-template-in-the-office-desktop-application"></a>Editar um modelo no aplicativo da área de trabalho do Office
+### <a name="EditInOfficeDesktopApp">Editar um modelo no aplicativo da área de trabalho do Office</a>
+
+> [!NOTE]
+> Essa função fica disponível somente quando o parâmetro **Tipo de documento do SharePoint** é configurado corretamente. Para obter mais informações, consulte [Configurar parâmetros](#SetupBdmParameters).
 
 1. Selecione a opção **Abrir no Aplicativo de Área de Trabalho** para modificar o modelo usando a funcionalidade do aplicativo de área de trabalho do Office (Excel neste exemplo). O modelo editável é copiado do armazenamento permanente para o armazenamento temporário configurado nos parâmetros de gerenciamento de documentos comerciais como uma pasta do SharePoint.
 2. Confirme se deseja abrir o modelo do armazenamento de arquivos temporário no aplicativo de área de trabalho do Excel no Office.
@@ -386,7 +387,7 @@ Ao editar o modelo de um formato de ER que pertence ao provedor ativo atual, voc
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
-#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>Eu selecionei **Editar documento**, mas em vez de abrir a página **Editor de modelos de BDM** no Finance and Operations, fui direcionado à página da Web do Office 365.
+#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>Eu selecionei **Editar documento**, mas em vez de abrir a página **Editor de modelo de BDM** no Finance and Operations, fui direcionado à página da Web do Office 365.
 Esse é um problema conhecido de redirecionamento do Office 365. Isso acontece quando você entra no Office 365 pela primeira vez. Para contornar esse problema, selecione o botão **Voltar** do navegador para retornar.
 
 #### <a name="i-understand-how-to-edit-a-template-by-using-office-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-adjusting-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-do-this-using-the-office-desktop-application"></a>Entendo como editar um modelo usando o Office 365 na primeira sessão do aplicativo e como usar o modelo na segunda sessão do aplicativo ajustando o modelo para ver como minhas alterações afetam o documento comercial gerado. Posso fazer isso usando o aplicativo da área de trabalho do Office?
@@ -411,3 +412,4 @@ Provavelmente, você entrou na instância atual do aplicativo do domínio do Azu
 [Inserir imagens e formas em documentos que você gerar usando ER](electronic-reporting-embed-images-shapes.md)
 
 [Configurar ER (Relatórios eletrônicos) para efetuar pull de dados para o Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d95feb3395c36f9cf8a23770dc3173377067d9b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6af7113031fd77a0a7e06ec23a149a3fa7ad0012
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184867"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026054"
 ---
 # <a name="generate-documents-that-have-application-data"></a>Gerar documentos com dados da solicitação de emprego
 
@@ -58,7 +58,7 @@ Este procedimento é criado para usuários com a função atribuída de administ
 6. Clique em OK.
 
 ## <a name="review-er-format-executions-results"></a>Revise os resultados de execução de formato do ER
-    * Revise o arquivo XML gerado.  
+Revise o arquivo XML gerado.  
 1. Feche a página.
 2. Vá para Imposto > Declarações > Comércio exterior > Intrastat.
     * Abra este formulário que contém as transações Intrastat que foram incluídas no documento eletrônico gerado.  

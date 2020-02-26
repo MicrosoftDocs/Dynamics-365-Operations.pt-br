@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8e25007cc4a204aeaf73a2e819c129fa8fa29d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f38c2ad9561cc1a1c775c27aec54681124cffeec
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563380"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004079"
 ---
 # <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a>Produtos de distribuição integrada de recebimento de depósitos para armazenamento
 
@@ -31,7 +31,7 @@ Este procedimento orienta nas etapas para criar e processar uma distribuição i
 
 1. Ir para Todas as ordens de compra.
 2. Selecione uma ordem de compra na lista e clique no link para abrir a ordem.
-3. No Painel de Ação, clique em Varejo.
+3. No Painel de Ação, clique em Varejo e Comércio.
 4. Clique em Distribuição integrada.
 5. Clique em Editar.
     * A categoria pode ser usada para filtrar os itens na seção Linhas.  

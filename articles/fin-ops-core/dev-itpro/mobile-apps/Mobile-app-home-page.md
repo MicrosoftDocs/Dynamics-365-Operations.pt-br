@@ -1,9 +1,9 @@
 ---
-title: Home page de aplicativo móvel
-description: Este tópico descreve o aplicativo móvel Finance and Operations e fornece links para recursos que podem ajudar você a implementá-lo em sua organização.
+title: Home page de Aplicativo móvel
+description: Este tópico descreve o aplicativo móvel Finance and Operations (Dynamics 365) e fornece links para recursos que podem ajudá-lo a implementá-lo em sua organização.
 author: sericks007
 manager: AnnBe
-ms.date: 11/26/2019
+ms.date: 01/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: aaff4e3b3bfb079e183a12a5a85e452eed6df51d
-ms.sourcegitcommit: e30ced8f136ef23017d2d8215a756236e42eec25
+ms.openlocfilehash: 012b51b66c831a66a54c7c868735e310f05eb8c1
+ms.sourcegitcommit: f939bc6292840e29bc0f498efc8f4641dfe8f994
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "2853923"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "2975188"
 ---
 # <a name="mobile-app-home-page"></a>Home page de Aplicativo móvel
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o aplicativo móvel Finance and Operations e fornece links para recursos que podem ajudar você a implementá-lo em sua organização.
+Este tópico descreve o aplicativo móvel **Finance and Operations (Dynamics 365)** e fornece links para recursos que podem ajudá-lo a implementá-lo em sua organização.
 
 <a name="overview"></a>Visão Geral
 --------
@@ -80,7 +80,7 @@ A tabela a seguir inclui links para recursos que podem ajudá-lo a implementar o
 <tr class="odd">
 <td>1</td>
 <td>Administrador do sistema</td>
-<td>Implemente aplicativos do Finance and Operations em sua organização.</td>
+<td>Implementar o aplicativo Finance and Operations na sua organização.</td>
 <td><ul><li>Caso ainda não tenha implantado uma versão do Microsoft Dynamics 365, consulte <a href="../deployment/deploy-demo-environment.md">Implantar um ambiente de demonstração</a>.</li><li>Para ver uma lista dos espaços de trabalho móveis que podem ser usados, consulte <a href="mobile-workspaces-released.md">Espaços de trabalho móveis lançados recentemente</a>.</li></ul></td>
 </tr>
 <tr class="even">
@@ -135,8 +135,8 @@ A tabela a seguir inclui links para recursos que podem ajudá-lo a implementar o
 <td>Usuário</td>
 <td>Baixe e instale o aplicativo móvel.</td>
 <td>
-<a href="https://go.microsoft.com/fwlink/?linkid=850662">Aplicativo do Finance and Operations para Android</a><BR/>
-<a href="https://go.microsoft.com/fwlink/?linkid=850663">Aplicativo do Finance and Operations para iOS</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">Aplicativo Finance and Operations para Android</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850663">Aplicativo Finance and Operations para iOS</a><BR/>
 (Windows Phone não tem suporte)
 </td>
 </tr>

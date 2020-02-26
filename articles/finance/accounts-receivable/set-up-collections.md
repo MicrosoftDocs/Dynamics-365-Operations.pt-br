@@ -1,5 +1,5 @@
 ---
-title: Configurar crédito e cobranças
+title: Configurar cobranças
 description: Este artigo explica como configurar a funcionalidade das coleções.
 author: ShivamPandey-msft
 manager: AnnBe
@@ -18,18 +18,30 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2ed075484f79d7ef7d0d4e6d62d037bb3e9cc96f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 58d3e7f66ab5816849d393098d073ea7629e6b7c
+ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176460"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3013154"
 ---
-# <a name="set-up-credit-and-collections"></a>Configurar crédito e cobranças
+# <a name="set-up-collections"></a>Configurar cobranças
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo explica como configurar a funcionalidade das coleções.
+Este artigo explica como configurar a funcionalidade das coleções. Execute algumas etapas de configuração ao usar o recurso de cobranças. Há também alguns recursos opcionais, incluindo grupos de clientes e equipes de cobranças. 
+
+- Definições do período de classificação por vencimento
+- Instantâneos de classificação por vencimento
+- Nomes de diário
+- Código de motivo para transações de baixa contábil
+- Agentes de cobranças
+- Dar baixa em conta
+- Informações de NSF (insuficiência de fundos)
+- Configurações do Outlook para aqueles que usam a **página Cobranças**
+- Endereços de email
+
+Estes pontos são discutidos em mais detalhes ao longo deste tópico. 
 
 <a name="set-up-aging-period-definitions"></a>Configurar definições de período de classificação por vencimento
 -------------------------------
@@ -46,7 +58,7 @@ Você pode configurar grupos de clientes para representar grupos de clientes. Vo
 Se várias pessoas de sua organização fizerem cobrança, você poderá configurar uma equipe de cobrança. Você pode selecionar a equipe na página **Parâmetros de contas a receber**. Se você não criar uma equipe de cobrança, uma será criada automaticamente quando você configurar agentes de cobranças na página **Agente de cobranças**.
 
 ## <a name="set-up-a-collections-case-category"></a>Configurar uma categoria de caso de cobrança
-Se você usa casos para organizar seu trabalho de cobrança, configure uma categoria de caso que tenha o tipo de categoria **Cobranças**. Essa configuração só será obrigatória caso você queira usar a funcionalidade da página **Cobranças**.
+Para usar casos para organizar seu trabalho de cobrança, configure uma categoria de caso que tenha o tipo de categoria **Cobranças**. Isto é obrigatório caso você queira usar a funcionalidade da página **Cobranças**.
 
 ## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>Configurar os nomes de diário (liquidação, baixa e NSF)
 Configure os nomes dos diários usados quando as transações forem processadas na página **Cobranças**. Esse processamento inclui a liquidação de uma transação, dar baixa em uma transação e o processamento de um pagamento NSF (insuficiência de fundos).
@@ -78,16 +90,19 @@ Atualize as contas bancárias de forma que elas tenham o diário correto quando 
 ## <a name="set-up-outlook-settings-for-users-of-the-collections-page"></a>Definir configurações do Outlook para usuários na página Cobranças
 Antes que os trabalhadores possam criar atividades ou enviar mensagens de email usando a página **Cobranças**, você deverá verificar se a chave de configuração **Sincronização do Microsoft Outlook** está selecionada e se a sincronização do Outlook está configurada para o trabalhador.
 
-## <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>Definir configurações de email e de endereço para contatos de cliente de cobrança
-Configure endereços de email para contatos de cliente se você deseja enviar mensagens de email para os contatos na página **Cobranças**. O contato de cobranças é usado como o contato padrão na página **Cobranças**. Você pode configurar um endereço do demonstrativo para um cliente se os demonstrativos tiverem de usar um endereço diferente do endereço principal. 
+## <a name="set-up-email-and-addresses"></a>Configurar email e endereços
+Você pode usar o email para se comunicar com clientes e vendedores sobre problemas de cobranças para enviar mensagens de email da página **Cobranças**. 
+
+### <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>Definir configurações de email e de endereço para contatos de cliente de cobrança
+Configure endereços de email para contatos de cliente para enviar mensagens de email para eles da página **Cobranças**. O contato de cobranças é usado como o contato padrão na página **Cobranças**. Você pode configurar um endereço do demonstrativo para um cliente se os demonstrativos tiverem de usar um endereço diferente do endereço principal. 
 
 Na Guia Rápida **Crédito e Cobranças** para um cliente, no campo **Contato de cobranças**, selecione a pessoa na organização do cliente que trabalha com o agente de cobranças. Essa pessoa é usada como o contato padrão na página **Cobranças** e as mensagens de email são enviadas para ela. 
 
 > [!NOTE] 
 > Se um contato de cobranças não for especificado para um cliente, o contato principal do cliente será usado. Se um contato principal não for especificado, as mensagens de email serão enviadas para o primeiro endereço listado na página **Contatos**.
 
-## <a name="set-up-email-settings-for-salespeople"></a>Definir configurações de email para vendedores
-Configure endereços de email para vendedores se quiser enviar mensagens de email para eles da página **Cobranças**. Configure um endereço de email para cada representante de vendas em cada grupo de vendas por comissão. O representante de vendas que tiver a opção **Contato** selecionada será o vendedor padrão para quem as mensagens de email serão enviadas. 
+### <a name="set-up-email-settings-for-salespeople"></a>Definir configurações de email para vendedores
+Configure endereços de email para vendedores para enviar mensagens de email para eles da página **Cobranças**. Configure um endereço de email para cada representante de vendas em cada grupo de vendas por comissão. O representante de vendas que tiver a opção **Contato** selecionada será o vendedor padrão para quem as mensagens de email serão enviadas. 
 
 Se um representante de vendas não for especificado, o vendedor principal da organização do cliente será usado. Se um vendedor principal não for especificado, as mensagens de email serão enviados para o primeiro vendedor listado no formulário.
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 80d71d2390e7b6e39798d0f061b584ad229a2459
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 20d3da65028b455ab1602e3a8b443ea7e585b1f0
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897295"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030887"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-september-17-2018"></a>Novidades ou alterações no Dynamics 365 Talent - Core HR (17 de setembro de 2018)
 
@@ -35,13 +35,13 @@ Este tópico descreve os recursos novos ou alterados no Core HR.
 
 Um novo tipo de competência foi adicionado aos planos de licença. A agenda de competência agora pode ser baseada em meses de serviço ou horas trabalhadas. Para obter mais informações, consulte [Acumular folga com base nas horas trabalhadas](leave-accrue-hours-worked.md).
 
-## <a name="platform-update-18-for-finance-and-operations"></a>Atualização de plataforma 18 do Finance and Operations
+## <a name="platform-update-18-for-finance-and-operations"></a>Atualização de plataforma 18 para o Finance and Operations
 
-Agora, a atualização de plataforma 18 do Finance and Operations faz parte da versão do Talent. 
+A atualização de plataforma 18 para o Finance and Operations agora é parte da versão do Talent. 
 
 -   Os campos obrigatórios e outros podem ser ocultos por meio da personalização. Isso permite que um usuário uma experiência simplificada em que os campos obrigatórios definidos como padrão pela lógica comercial não são mostrados. Os campos obrigatórios ocultos também ficam temporariamente visíveis se estiverem vazios ao tentar salvá-los.
 
--   Na Atualização de plataforma 18 do Finance and Operations, o cliente Web do Talent agora alinha seus elementos visuais com o Design Fluente da Microsoft.
+-   Na atualização de plataforma 18 para o Finance and Operations, o cliente Web do Talent agora alinha seus elementos visuais com o Design Fluente da Microsoft.
 
     -   Quando os campos estão em “modo de leitura”, basta selecionar a opção de edição nos campos para alternar o formulário para edição.
 
@@ -49,7 +49,7 @@ Agora, a atualização de plataforma 18 do Finance and Operations faz parte da v
 
     -   Os títulos em espaços de trabalho e páginas estão em negrito.
 
--   O comportamento de pesquisas de não substituição foi aprimorado. Para obter mais informações, consulte [Comportamento aprimorado para pesquisas de não substituição](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fbusiness-applications-release-notes%2FOctober18%2Fdynamics365-finance-operations%2Fnon-replacing-lookups&data=02%7C01%7C%7Ce0b3b3bee47b4424aaa208d619ce86f2%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636724772137980342&sdata=RN1qjtZSLtS010zgs0KlcwFrrB8Z7uWWGtFjdxdaamg%3D&reserved=0).
+-   O comportamento de pesquisas de não substituição foi aprimorado. Para obter mais informações, consulte [Comportamento aprimorado para pesquisas de não substituição](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/non-replacing-lookups).
 
 ## <a name="bug-fixes"></a>Correções de bug
 

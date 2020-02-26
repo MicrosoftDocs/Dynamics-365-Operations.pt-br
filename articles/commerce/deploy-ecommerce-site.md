@@ -3,7 +3,7 @@ title: Implantar um novo locatário de comércio eletrônico
 description: Este tópico descreve como implantar um novo locatário de comércio eletrônico usando Microsoft Dynamics Lifecycle Services (LCS).
 author: psimolin
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 10dab1e62446ff7f60ad48fd0841bde5cfd29e12
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 6d7dfcaf244260de5f39a1201ec1ea78e94351e7
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945504"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001774"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Implantar um novo locatário de comércio eletrônico
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como implantar um novo site de comércio eletrônico usando Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="overview"></a>Visão geral
-    
+
 Microsoft Dynamics Lifecycle Services (LCS) é um espaço de trabalho colaborativo baseado em nuvem que parceiros e clientes podem usar para gerenciar seus produtos e ambientes, exibir as informações mais recentes de produtos e serviços do Microsoft Dynamics, e criar, rastrear e navegar em incidentes de suporte. Os recursos de gerenciamento de comércio online são integrados no LCS.
 
 Para saber mais sobre LCS, consulte [Guia do usuário do Lifecycle Services](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide).
@@ -80,11 +80,16 @@ Depois que coletou informações obrigatórias, siga essas etapas para inicializ
 1. Na página a seguir, preencha as informações necessárias e depois envie o formulário. Você volta para a guia **Comércio online**, onde você pode ver que a inicialização foi iniciada.
 1. Para exibir o status de inicialização, **Atualize** ou retorne para a guia **Comércio online** posteriormente.
     
-Quando o comércio online é inicializado do LCS, o sistema provisiona vários componentes necessários para o comércio online para associá-los ao ambiente. Após provisionar ser concluído, a guia **Comércio online** na guia **Gerenciamento de retail** é atualizada para refletir o provisionamento. A página mostra as últimas implantações de personalização e o status de quaisquer outras implantações em andamento. Também inclui links para site de comércio eletrônico e a ferramenta de gerenciamento de site de comércio online (a ferramenta de criação).
+Quando o comércio online é inicializado do LCS, o sistema provisiona vários componentes necessários para o comércio online para associá-los ao ambiente. Depois que o provisionamento é concluído, a guia **Comércio eletrônico** na página **Gerenciamento de varejo** é atualizada para refletir o provisionamento. A página mostra as últimas implantações de personalização e o status de quaisquer outras implantações em andamento. Ela também inclui links para o site de comércio eletrônico e o assistente para criação de sites de comércio eletrônico, onde os sites são criados.
 
-## <a name="access-the-authoring-environment"></a>Acessar o ambiente de criação
+## <a name="access-site-builder"></a>Acessar o assistente para criação de sites
 
-Para acessar o ambiente de criação, vá para a guia **Comércio online** na página **Gerenciamento de retail**. Nele, você encontrará os links para o site de comércio online e a ferramenta de gerenciamento de site.
+Para acessar o assistente para criação de sites, vá para a guia **Comércio eletrônico** na página **Gerenciamento de varejo** no LCS e selecione o link **Ferramenta de gerenciamento de site de comércio eletrônico**. A página de aterrissagem do assistente para criação de sites mostra uma exibição no nível de locatário. Nesta página, você pode:
+
+- Modifique configurações no nível de locatário.
+- Navegar para qualquer site que você criou e tem permissão para exibir. 
+- Acessar recursos de Revisões, como relatórios e moderação.
+- Criar um novo site. Para obter mais informações sobre como criar um novo site, consulte [Criar um site de comércio eletrônico](create-ecommerce-site.md). 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

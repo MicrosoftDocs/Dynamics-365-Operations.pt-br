@@ -1,6 +1,6 @@
 ---
-title: Documentação do aplicativo do Finance and Operations
-description: Documentação para os aplicativos do Finance and Operations.
+title: Documentação de aplicativos do Finance and Operations
+description: Documentação para aplicativos do Finance and Operations.
 author: robinarh
 manager: AnnBe
 ms.date: 07/25/2019
@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89139c149146b64125370c3840f8d3011b92e067
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4249f2ec09e6742c843122c189cc7db7f72d1146
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770910"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005531"
 ---
-# <a name="finance-and-operations-application-documentation"></a>Documentação do aplicativo do Finance and Operations
+# <a name="finance-and-operations-application-documentation"></a>Documentação de aplicativos do Finance and Operations
 
 [!include [banner](includes/banner.md)]
 
-Saiba como fazer os aplicativos do Finance and Operations trabalharem para sua empresa usando os recursos neste tópico para encontrar excelente conteúdo para usuários finais, desenvolvedores e profissionais de TI. 
+Saiba como fazer os aplicativos do Finance and Operations trabalharem para sua empresa usando os recursos neste tópico para encontrar um excelente conteúdo para os usuários finais, desenvolvedores e profissionais de TI. 
 
-Grande parte desse conteúdo também se aplica aos produtos relacionados: Dynamics 365 Retail e Talent. 
+Grande parte desse conteúdo também se aplica aos produtos relacionados: Dynamics 365 Commerce e Dynamics 365 Human Resources. 
 
 <table>
 <colgroup>
@@ -84,9 +84,9 @@ Grande parte desse conteúdo também se aplica aos produtos relacionados: Dynami
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Recursos regulatórios regionais</a></p>
 
 <h3><a href="hr/hr-landing-page.md">Recursos humanos</a></h3>
-<p><a href="../../talent/manage-benefit-program.md">Benefícios</a></p>
-<p><a href="../../talent/performance-management-overview.md">Desenvolvimento e treinamento de funcionários</a></p>
-<p><a href="../../talent/questionnaires.md">Questionário</a></p>
+<p><a href="../../human-resources/hr-benefits-manage-program.md">Benefícios</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Desenvolvimento e treinamento de funcionários</a></p>
+<p><a href="../../human-resources/hr-learning-questionnaires.md">Questionários</a></p>
 <p><a href="hr/manage-recruiting-process.md">Recrutamento</a></p>
 <p><a href="hr/localizations/noam-usa-payroll.md">Folha de pagamento dos EUA</a></p>
 
@@ -129,16 +129,17 @@ Grande parte desse conteúdo também se aplica aos produtos relacionados: Dynami
 </td>
 <td>
 <h3>Produtos relacionados</h3>
-<h4><a href="../../retail/index.md">Dynamics 365 Retail</a></h4>
+<h4><a href="../../retail/index.md">Dynamics 365 Commerce</a></h4>
 <p><a href="../../retail/call-center-functionality.md">Call center</p>
 <p><a href="../../retail/define-maintain-retail-channels.md">Configuração e gerenciamento de canal</p>
 <p><a href="../../retail/retail-peripherals-overview.md">MPOS e PDV em Nuvem</p>
-<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">Desenvolvedor do Retail e administração</p>
+<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">Desenvolvedor do Commerce e administração</p>
 
-<h4><a href="../../talent/index.yml">Dynamics 365 Talent</a></h4>
-<p><a href="../../talent/manage-benefit-program.md">Benefícios</a></p>
-<p><a href="../../talent/performance-management-overview.md">Desenvolvimento e treinamento de funcionários</a></p>
-<p><a href="../../talent/questionnaires.md">Questionário</a></p>
+<h4><a href="../../human-resources/hr-welcome.md">Dynamics 365 Human Resources</a></h4>
+<p><a href="../../human-resources/hr-admin-overview.md">Guia do administrador</a></p>
+<p><a href="../../human-resources/hr-developer-overview.md">Guia do desenvolvedor</a></p>
+<p><a href="../../human-resources/hr-hrpro-overview.md">Guia do usuário</a></p>
+
 
 </td>
 </tr>

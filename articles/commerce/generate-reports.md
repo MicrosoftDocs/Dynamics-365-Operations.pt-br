@@ -1,6 +1,6 @@
 ---
 title: Gerar relatórios do canal online
-description: Este tópico descreve como gerar relatórios para o canal online em Microsoft Dynamics 365 Retail.
+description: Este tópico descreve como gerar relatórios para o canal online no Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
 ms.date: 10/01/2019
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 77737c134df8f3ba598fe9026fa7c01ca9976733
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: fd40aabdf40e0f2bb257b914326df5595a0e6945
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698041"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002995"
 ---
 # <a name="generate-online-channel-reports"></a>Gerar relatórios do canal online
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como gerar relatórios para o canal online em Microsoft Dynamics 365 Retail.
+Este tópico descreve como gerar relatórios para o canal online no Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Visão geral
 
-Você pode gerar e exibir vários relatórios em Varejo para ver como o canal online está se saindo.
+Você pode gerar e exibir vários relatórios no Commerce para ver como o canal online está se saindo.
 
 ## <a name="channel-summary-report"></a>Relatório de resumo do canal
 
@@ -46,7 +46,7 @@ O relatório **Resumo de canal** mostra um resumo das transações de canal sele
 
 Para gerar um relatório **Resumo de canal**, siga essas etapas.
 
-1. Vá para **Varejo \> Consultas e relatórios \> Relatórios de vendas \> Relatório de resumo de canal**.
+1. Vá para **Retail e Commerce \> Consultas e relatórios \> Relatórios de vendas \> Relatório de resumo de canal**.
 1. No campo **Data inicial**, insira uma data.
 1. No campo **Data final**, insira uma data.
 1. No campo **Canal**, selecione o canal online.
@@ -58,7 +58,7 @@ O relatório de **Vendas de canal por ano** mostra uma comparação de vendas ao
 
 Para gerar um relatório **Vendas de canal por ano**, siga essas etapas.
 
-1. Vá para **Varejo \> Consultas e relatórios \> Relatórios de vendas \> Relatório de vendas de canal por ano**.
+1. Vá para **Retail e Commerce \> Consultas e relatórios \> Relatórios de vendas \> Relatório de vendas do canal por ano**.
 1. No campo **Do ano civil**, insira um ano.
 1. No campo **Para ano civil**, insira um ano.
 1. No campo **Canal**, selecione o canal online.
@@ -70,7 +70,7 @@ O relatório **Canal de vendas por hora** mostra métricas de venda por hora par
 
 Para gerar um relatório **Vendas de canal por hora**, siga essas etapas.
 
-1. Vá para **Varejo \> Consultas e relatórios \> Relatórios de vendas \> Relatório de vendas de canal por hora**.
+1. Vá para **Retail e Commerce \> Consultas e relatórios \> Relatórios de vendas \> Relatório de vendas do canal por hora**.
 1. No campo **Data inicial**, insira uma data.
 1. No campo **Data final**, insira uma data.
 1. No campo **Canal**, selecione o canal online.
@@ -82,7 +82,7 @@ O relatório **Principais clientes** mostra métricas de venda para os principai
 
 Para gerar um relatório **Principais clientes**, siga essas etapas.
 
-1. Vá para **Varejo \> Consultas e relatórios \> Relatórios de vendas \> Relatório de principais clientes**.
+1. Vá para **Retail e Commerce \> Consultas e relatórios \> Relatórios de vendas \> Relatório de melhores clientes**.
 1. No campo **Data inicial**, insira uma data.
 1. No campo **Data final**, insira uma data.
 1. No campo **Canal**, selecione o canal online.
@@ -94,7 +94,7 @@ O relatório **Principais descontos** mostra métricas de venda para os principa
 
 Para gerar um relatório **Principais descontos**, siga essas etapas.
 
-1. Vá para **Varejo \> Consultas e relatórios \> Relatórios de vendas \> Relatório de principais descontos**.
+1. Vá para **Retail e Commerce \> Consultas e relatórios \> Relatórios de vendas \> Relatório de melhores descontos**.
 1. No campo **Data inicial**, insira uma data.
 1. No campo **Data final**, insira uma data.
 1. No campo **Canal**, selecione o canal online.
@@ -106,7 +106,7 @@ O relatório **Principais produtos** mostra métricas de venda para os principai
 
 Para gerar um relatório **Principais produtos**, siga essas etapas.
 
-1. Vá para **Varejo \> Consultas e relatórios \> Relatórios de vendas \> Relatório de principais produtos**.
+1. Vá para **Retail e Commerce \> Consultas e relatórios \> Relatórios de vendas \> Relatório de melhores produtos**.
 1. No campo **Data inicial**, insira uma data.
 1. No campo **Data final**, insira uma data.
 1. No campo **Canal**, selecione o canal online.
@@ -118,7 +118,7 @@ O relatório **Vendas de categoria** mostra métricas de venda em um período se
 
 Para gerar um relatório **Vendas de categoria**, siga essas etapas.
 
-1. Vá para **Varejo \> Consultas e relatórios \> Relatórios de vendas \> Relatório de vendas por categoria**.
+1. Vá para **Retail e Commerce \> Consultas e relatórios \> Relatórios de vendas \> Relatório de vendas por categoria**.
 1. No campo **Data inicial**, insira uma data.
 1. No campo **Data final**, insira uma data.
 1. No campo **Canal**, selecione o canal online.
@@ -126,11 +126,11 @@ Para gerar um relatório **Vendas de categoria**, siga essas etapas.
 
 ## <a name="organization-sales-report"></a>Relatório de vendas da organização
 
-O relatório **Vendas de organização** mostra o desempenho das lojas de varejo por unidade organizacional. Este relatório contém a quantidade de venda e o valor por loja, e a margem de lucro de cada loja. A unidade organizacional está baseada na hierarquia de relatório padrão.
+O relatório **Vendas da organização** mostra o desempenho das lojas por unidade organizacional. Este relatório contém a quantidade de venda e o valor por loja, e a margem de lucro de cada loja. A unidade organizacional está baseada na hierarquia de relatório padrão.
 
 Para gerar um relatório **Vendas organizacional**, siga essas etapas.
 
-1. Vá para **Varejo \> Consultas e relatórios \> Relatórios de vendas \> Relatório de vendas organizacional**.
+1. Vá para **Retail e Commerce \> Consultas e relatórios \> Relatórios de vendas \> Relatório de vendas da organização**.
 1. No campo **Data inicial**, insira uma data.
 1. No campo **Data final**, insira uma data.
 1. Selecione **OK**.

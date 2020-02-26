@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 654685a382ca5f3f462ad8a9c506b51b52c3758c
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 026d1d743b5150f152ef70aa642dcf6841a4e398
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811640"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025795"
 ---
 # <a name="use-the-regression-suite-automation-tool-tutorial"></a>Usa o tutorial da Regression Suite Automation Tool
 
@@ -93,7 +93,7 @@ Nas versões anteriores do RSAT, você pode validar valores somente se um valor 
 
 - Para usar este recurso, abra o arquivo **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** na pasta de instalação do RSAT (por exemplo, **C:\\Arquivos de Programas (x86)\\Regression Suite Automation Tool**) e altere o valor no seguinte elemento de **falso** para **verdadeiro**.
 
-    ```
+    ```xml
     <add key="AddOperatorFieldsToExcelValidation" value="false" />
     ```
 
@@ -136,7 +136,7 @@ Este recurso cria uma pasta que contém os logs dos casos de teste que foram exe
 
 - Para usar este recurso, abra o arquivo **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** na pasta de instalação do RSAT (por exemplo, **C:\\Arquivos de Programas (x86)\\Regression Suite Automation Tool**) e altere o valor no seguinte elemento de **falso** para **verdadeiro**.
 
-    ```
+    ```xml
     <add key="LogGeneration" value="false" />
     ```
 
@@ -155,7 +155,7 @@ Esse recurso faz capturas de tela das etapas executadas durante a gravação de 
 
 - Para usar este recurso, abra o arquivo **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** na pasta de instalação do RSAT (por exemplo, **C:\\Arquivos de Programas (x86)\\Regression Suite Automation Tool**) e altere o valor do seguinte elemento de **falso** para **verdadeiro**.
 
-    ```
+    ```xml
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
@@ -196,7 +196,7 @@ A ilustração a seguir mostra os processos empresariais para esse cenário no R
 - Use a restauração pontual do Azure para reexecutar testes nos ambientes que não estão na Camada 1.
 - Embora você possa usar as funções **RANDOM** e **NOW** do Excel para gerar uma combinação exclusiva, o esforço é consideravelmente alto. Veja aqui um exemplo.
 
-    ```
+    ```Excel
     product = "AT" &TEXT(NOW(),"yyymmddhhmm")
     ```
 
@@ -227,13 +227,13 @@ O RSAT pode ser chamado de uma janela do **Prompt de Comando**.
 1. Abra uma janela do **Prompt de Comando** como um administrador.
 2. Execute a ferramenta usando o diretório de instalação.
 
-    ```
+    ```Console
     cd "c:\Program Files (x86)\Regression Suite Automation Tool\"
     ```
 
 3. Liste todos os comandos.
 
-    ```
+    ```Console
     C:\Program Files (x86)\Regression Suite Automation Tool>Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe help
 
     Usage:
@@ -275,7 +275,7 @@ O seguinte exemplo usa um parâmetro, **iniciar**, para definir o primeiro núme
 
 Abra o Ambiente de Script Integrado (ISE) do Microsoft Windows PowerShell no modo de administração e cole o seguinte código na janela que é nomeada **Untitled1.ps1**.
 
-```
+```powershell
 param ( [int]$start = 1, [int]$nr = 1 )
 function UpdateCustomer
 {
@@ -314,7 +314,7 @@ for ($i = $start; $i -lt $start + $nr; $i++ )
 
 O exemplo a seguir usa uma chamada do Protocolo Open Data (OData) para localizar o status da ordem de uma ordem de compra. Se o status não for **faturado**, você pode, por exemplo, chamar um caso de teste RSAT que lança a fatura.
 
-```
+```xpp
 function Odata_Get
 {
     Param ( [string] $environment, [string] $cmd )

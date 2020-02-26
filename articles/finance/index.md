@@ -1,5 +1,5 @@
 ---
-title: Home page de Gerenciamento financeiro
+title: Home page do Finance
 description: Este tópico oferece uma lista de tópicos da Ajuda e outros recursos para o gerenciamento financeiro do Microsoft Dynamics 365 Finance.
 author: roschlom
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b5ed05e9c53b17632e94e913f7f3663676c3e91
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 797c549623a727e92a3dbe5e3457e1ddc09a5b0a
+ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770565"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "3000316"
 ---
-# <a name="financial-management-home-page"></a>Home page de Gerenciamento financeiro
+# <a name="finance-home-page"></a>Home page do Finance
 
 [!include [banner](includes/banner.md)]
 
@@ -60,7 +60,7 @@ Escolha uma área de recursos para saber mais a respeito.
 - [Blog da Comunidade de Parceiros do Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
 
 ### <a name="task-guides"></a>Guias de tarefas
-Há ajuda adicional disponível como guias de tarefas dentro do Finance and Operations. Para acessar os guias de tarefas, clique no botão Ajuda em qualquer página.
+Há ajuda adicional disponível como guias de tarefas no Finance and Operations. Para acessar os guias de tarefas, clique no botão Ajuda em qualquer página.
 
 ### <a name="videos"></a>Vídeos
 

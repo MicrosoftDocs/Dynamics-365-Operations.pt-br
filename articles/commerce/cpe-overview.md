@@ -1,5 +1,5 @@
 ---
-title: Visão geral do ambiente de visualização do Commerce
+title: Visão geral do ambiente de visualização do Dynamics 365 Commerce
 description: Este tópico fornece uma visão geral do ambiente de visualização do Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 901583afde4739be5313fa129ff0e52f11326881
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 1ff96aeb5963df9ddee56783a089dad129bbb71c
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906061"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024674"
 ---
-# <a name="commerce-preview-environment-overview"></a>Visão geral do ambiente de visualização do Commerce
+# <a name="dynamics-365-commerce-preview-environment-overview"></a>Visão geral do ambiente de visualização do Dynamics 365 Commerce
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Este tópico fornece uma visão geral do ambiente de visualização do Microsoft Dynamics 365 Commerce.
@@ -52,10 +52,10 @@ Para configurar o ambiente de visualização do Commerce, consulte [Provisionar 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Provisionar um ambiente de visualização do Commerce](provisioning-guide.md)
+[Provisionar um ambiente de visualização do Dynamics 365 Commerce](provisioning-guide.md)
 
-[Configurar um ambiente de visualização do Commerce](cpe-post-provisioning.md)
+[Configurar um ambiente de visualização do Dynamics 365 Commerce](cpe-post-provisioning.md)
 
-[Configurar recursos opcionais para um ambiente de visualização do Commerce](cpe-optional-features.md)
+[Configurar recursos opcionais para um ambiente de visualização do Dynamics 365 Commerce](cpe-optional-features.md)
 
-[Perguntas frequentes do ambiente de visualização do Commerce](cpe-faq.md)
+[Perguntas frequentes do ambiente de visualização do Dynamics 365 Commerce](cpe-faq.md)

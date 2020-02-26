@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 8fbccce6e23c9bc965f66f761f4c1cab32224ef1
-ms.sourcegitcommit: fbd6d027ef3b50c056260e30e78066839efa3ddb
+ms.openlocfilehash: 9d7da31f2df31c7e5cbac73b3232233090ac369e
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "2635117"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3031058"
 ---
 # <a name="master-planning-setup-wizard"></a>Assistente de configuração do planejamento mestre
 
@@ -32,9 +32,9 @@ ms.locfileid: "2635117"
 
 Este tópico fornece um guia para o **Assistente de configuração do planejamento mestre**. Ele explica como sugestões de parâmetro são calculadas e também oferece exemplos para mostrar como empresas diferentes configuram o planejamento mestre com base nas necessidades comerciais.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3YnSB]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YnSB]
 
-O vídeo [Assistente de configuração do planejamento mestre no Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (mostrado acima) está incluído na [playlist Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
+O vídeo [Assistente de configuração do planejamento mestre no Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (mostrado acima) está incluído na [playlist do Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
 
 
 ## <a name="specific-requirements-of-your-company"></a>Requisitos específicos da empresa
@@ -184,7 +184,7 @@ No assistente, os valores a seguir são inseridos para a Contoso Manufacturer:
 A Contoso Retailer é uma empresa de distribuição na indústria de moda. Ela usa o planejamento mestre para calcular quando as ordens de compra devem ser feitas com base nas vendas esperadas. Veja alguma de suas características:
 
 - A Contoso Retailer usa uma previsão de demanda para prever vendas. As ordens de compra serão planejadas de acordo com a previsão.
-- As lojas de varejo usam requisições para o reabastecimento.
+- As lojas usam requisições para o reabastecimento.
 - O prazo de entrega do depósito principal para cada loja é de aproximadamente duas semanas para todos os itens.
 
 No assistente, os valores a seguir são inseridos para a Contoso Retailer:
@@ -208,4 +208,4 @@ No assistente, os valores a seguir são inseridos para a Contoso Retailer:
     - **Pergunta:** "Você deseja incluir a demanda das requisições aprovadas para reabastecer as lojas de varejo?"
     - **Resposta:** "Sim, como definido no plano mestre." **1 dia** é inserido.
 
-    A Contoso usa as requisições aprovadas de suas lojas de varejo para criar ordens de compra planejadas para reabastecer essas lojas. Como o planejamento mestre é executado todos os dias, as requisições do último dia serão incluídas no planejamento.
+    A Contoso usa as requisições aprovadas de suas lojas para criar ordens de compra planejadas para reabastecer essas lojas. Como o planejamento mestre é executado todos os dias, as requisições do último dia serão incluídas no planejamento.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4bb523c2817a220623d8a1b6cc1ac04d7b96283
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 268b95aad57c2e4863a3f58cd54828dbb0e09465
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812640"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006186"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Criar documentação ou treinamento com o Gravador de tarefas
 
@@ -32,7 +32,7 @@ ms.locfileid: "2812640"
 Este tópico explica o que são o gravador de tarefas e os guias de tarefas, como criar gravações de tarefas e como personalizar guias de tarefas da Microsoft e incluí-los na sua Ajuda.
 
 > [!IMPORTANT]
-> Você pode registrar suas próprias guias de tarefa do Dynamics 365 Talent, mas você não pode salvá-las em uma biblioteca BPM (Modelador de Processo de Negócios) ou abri-las no painel Ajuda neste momento. Você pode salvá-las localmente ou em um local da rede e, em seguida, abrir e repeti-las usando o Gravador de tarefas. 
+> Você pode registrar suas próprias guias de tarefa para o Dynamics 365 Human Resources, mas não é possível salvá-las em uma biblioteca Modelador de Processo de Negócios (BPM) ou abri-las no painel Ajuda neste momento. Você pode salvá-las localmente ou em um local da rede e, em seguida, abrir e repeti-las usando o Gravador de tarefas. 
 
 <a name="learn-about-task-recorder"></a>Aprender sobre o Gravador de tarefas
 -------------------------

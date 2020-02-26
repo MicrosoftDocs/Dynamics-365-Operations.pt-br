@@ -3,7 +3,7 @@ title: Bloqueio de estoque
 description: Este tópico oferece uma visão geral do bloqueio de estoque, que faz parte do processo de inspeção de qualidade no Supply Chain Management. Você pode usar o bloqueio de estoque para evitar que os itens sejam processados ou consumidos.
 author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f41fbe6e2034c0e58fc03d1dfbbd87844f3a4466
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: e1a870936619d07db01d5a8fe83b3fab73693187
+ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814366"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "2971478"
 ---
 # <a name="inventory-blocking"></a>Bloqueio de estoque
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo oferece uma visão geral do bloqueio de estoque, que faz parte do processo de inspeção de qualidade no Supply Chain Management. Você pode usar o bloqueio de estoque para evitar que os itens sejam processados ou consumidos.
+Este tópico oferece uma visão geral do bloqueio de estoque, que faz parte do processo de inspeção de qualidade no Supply Chain Management. Você pode usar o bloqueio de estoque para evitar que os itens sejam processados ou consumidos.
 
 Você pode bloquear itens de estoque das seguintes maneiras:
 -   Manualmente
@@ -43,6 +43,9 @@ Você pode bloquear uma quantidade de um item criando uma transação na página
 
 ## <a name="blocking-items-by-creating-a-quality-order"></a>Bloqueando itens ao criar uma ordem de qualidade
 Você pode especificar os itens que devem ser inspecionados ao criar uma ordem de qualidade na página **Ordens de qualidade**. Quando você criar uma ordem de qualidade, a quantidade especificada para um item será bloqueada. O plano de amostragem associado aos controles de uma ordem de qualidade controla somente a quantidade de itens que devem ser inspecionados, e não a quantidade que está bloqueada. A quantidade inserida na ordem de qualidade é a quantidade bloqueada, independentemente da quantidade que o plano de amostragem especifica que deve ser enviada para inspeção.
+
+> [!NOTE]
+> O uso dos recursos data de vencimento do lote e status do estoque de bloqueio não têm suporte no planejamento mestre. Isso pode resultar em dupla exclusão do estoque disponível, que pode ocorrer durante o planejamento mestre. Recomendamos que você se baseie nos códigos de disposição em lotes, em vez do status do estoque, para bloquear lotes expirados.
 
 ## <a name="blocking-items-by-using-a-process-that-generates-a-quality-order"></a>Bloqueando itens ao usar um processo que gera uma ordem de qualidade
 Se um processo de qualidade especificar que um item deve ser inspecionado, uma quantidade do item será automaticamente bloqueada. Dessa forma, quando uma ordem de qualidade for gerada automaticamente, o plano de amostragem do item associado aos controles da ordem de qualidade controlará a quantidade de itens bloqueados, e não apenas a quantidade que deve ser inspecionada. Se a opção **Bloqueio total** da página **Amostragem de itens** estiver selecionada, a quantidade total de, por exemplo, uma linha de ordem de compra, será bloqueada durante a inspeção, independentemente da quantidade de amostragem do item.

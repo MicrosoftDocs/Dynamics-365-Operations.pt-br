@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3835502c33fbc63f68f2d6350d805badb3891568
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 17746d2923ab84311253c47647c0020807bdb75c
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697207"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002487"
 ---
 # <a name="overview-of-default-category-landing-page-and-search-results-page"></a>Visão geral da página de aterrissagem da categoria padrão e página de resultados da pesquisa
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Este tópico fornece uma visão geral da página de aterrissagem de categoria padrão e da página de resultados de pesquisa no comércio online do Microsoft Dynamics 365 Commerce.

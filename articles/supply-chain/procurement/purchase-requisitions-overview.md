@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bfec4660d9e6b0898cf81e1f1fdd2e4c1fdcaef
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 0a51d443e40dbf948a06657293dcca77dc177896
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815333"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003644"
 ---
 # <a name="purchase-requisition-overview"></a>Visualização geral da requisição de compra
 
@@ -81,7 +81,7 @@ O status geral de uma requisição de compra é determinado pelo status das linh
 <li><strong>Em revisão</strong> – as linhas da requisição de compra foram enviadas para a revisão. Quando o processo de fluxo de trabalho estiver concluído para uma linha da requisição de compra, o status da linha permanecerá <strong>Em revisão</strong> até que todas as linhas da requisição de compra sejam revisadas.</li>
 <li><strong>Rejeitado</strong> – Uma linha de requisição de compra foi rejeitada. As linhas da requisição de compra que são rejeitadas podem ser modificadas e reenviadas.</li>
 </ul>
-Se você reenviar uma linha da requisição de compra que foi rejeitada, o processo de revisão será iniciado novamente para todas as linhas na requisição de compra que ainda estão em revisão. <strong>Observação:</strong> é possível cancelar uma requisição de compra que já foi enviada. Quando você cancela uma requisição de compra, todas as outras linhas da requisição de compra também são canceladas. As linhas da requisição de compra que foram canceladas podem ser excluídas.</td>
+Se você reenviar uma linha da requisição de compra que foi rejeitada, o processo de revisão será iniciado novamente para todas as linhas na requisição de compra que ainda estão em revisão. </br><strong>Observação:</strong> é possível cancelar uma requisição de compra que já foi enviada. Quando você cancela uma requisição de compra, todas as outras linhas da requisição de compra também são canceladas. As linhas da requisição de compra que foram canceladas podem ser excluídas.</td>
 </tr>
 <tr class="odd">
 <td>Rejeitada</td>
@@ -109,7 +109,7 @@ Se você reenviar uma linha da requisição de compra que foi rejeitada, o proce
 <tr class="odd">
 <td>Cancelado</td>
 <td>Cancelado</td>
-<td>A requisição de compra e todas as linhas da requisição de compra foram canceladas. <strong>Observação:</strong> Caso não precise mais de um item que está em uma linha da requisição de compra, cancele a linha da requisição de compra se ela já tiver sido aprovada. Somente as linhas de requisição de compra que foram aprovadas podem ser canceladas. Se qualquer linha da requisição de compra estiver em revisão, a requisição de compra também terá um status <strong>Em revisão</strong>. Nesse caso, você poderá cancelar a requisição de compra e excluir a linha da requisição de compra apropriada.</td>
+<td>A requisição de compra e todas as linhas da requisição de compra foram canceladas.</br> <strong>Observação:</strong> Caso não precise mais de um item que está em uma linha da requisição de compra, cancele a linha da requisição de compra se ela já tiver sido aprovada. Somente as linhas de requisição de compra que foram aprovadas podem ser canceladas. Se qualquer linha da requisição de compra estiver em revisão, a requisição de compra também terá um status <strong>Em revisão</strong>. Nesse caso, você poderá cancelar a requisição de compra e excluir a linha da requisição de compra apropriada.</td>
 </tr>
 <tr class="even">
 <td>Fechado</td>
@@ -156,7 +156,8 @@ Em alguns casos, você deve iniciar um processo de solicitação de cotação (R
 
 Você pode colocar uma requisição de compra em espera selecionando a caixa de seleção **Em espera** na página **Detalhes da requisição de compra**. Processamento da requisição de compra pode continuar somente depois que você remover o bloqueio desmarcando a caixa de seleção.  
 
-**Observação:** em Compras eletrônicas, a RFQ da sua requisição de compra pode permitir que os fornecedores adicionem linhas alternativas. Nesse caso, sua requisição de compra refletirá as alternativas aprovadas.
+> [!NOTE]
+> Em Compras eletrônicas, a RFQ da sua requisição de compra pode permitir que os fornecedores adicionem linhas alternativas. Nesse caso, sua requisição de compra refletirá as alternativas aprovadas.
 
 ## <a name="demand-consolidation"></a>Consolidação de demanda
 Ao consolidar linhas de requisição de compra das diversas requisições de compra, você pode aumentar o seu poder de negociação com seus fornecedores para obter a melhor definição de preços, custos mais baixos de remessa e manuseio e reduzir custos gerais indiretos.  
@@ -172,7 +173,8 @@ Uma oportunidade de consolidação é um conjunto de linhas de requisição de c
 
 Depois de adicionar linhas de requisição a uma oportunidade de consolidação e fazer todas as alterações necessárias, você pode criar uma ordem de compra para as linhas de requisição de compra consolidadas.  
 
-**Observação:** as alterações feitas em uma linha de requisição de compra na página **Consolidação da requisição de compra** são refletidas na ordem de compra criada. Entretanto, a linha permanecerá inalterada na requisição de compra, de forma que o histórico seja preservado.  
+> [!NOTE]
+> As alterações feitas em uma linha de requisição de compra na página **Consolidação da requisição de compra** serão refletidas na ordem de compra criada. Entretanto, a linha permanecerá inalterada na requisição de compra, de forma que o histórico seja preservado.  
 
 Para criar uma ordem de compra para as linhas da requisição de compra não qualificadas para consolidação de demanda ou que não estejam selecionadas para uma oportunidade de consolidação, você deverá processar as linhas manualmente.
 

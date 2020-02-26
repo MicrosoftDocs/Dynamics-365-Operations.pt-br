@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: ff9cfdff410001f08f920e3c05df6bc4ab1b77fd
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c3a2881ede53e4adfba775b9bb23071468c8f602
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024230"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006508"
 ---
 # <a name="get-started-with-talent"></a>Introdução ao Talent
 
@@ -31,7 +31,7 @@ ms.locfileid: "2024230"
 No Microsoft Dynamics 365 Talent, é fácil alterar a interface de usuário e definir opções que tornam o software mais intuitivo para suas necessidades. Este tópico inclui links para tópicos que fornecem informações sobre como adaptar a interface de usuário às suas preferências. O tópico também inclui links para informações que podem ajudá-lo a encontrar informações no sistema, de forma eficaz e precisa. 
 
 > [!NOTE] 
-> Estes três produtos estão estreitamente relacionados: Dynamics 365 Finance; Dynamics 365 Retail e Dynamics 365 Talent. A mesma funcionalidade pode aparecer nos três produtos. Como resultado, em tópicos relacionados principalmente ao Retail, o nome do produto será Dynamics 365 Retail; em tópicos relacionados principalmente ao Talent, o nome do produto será Dynamics 365 Talent; em tópicos relacionados ao produto core, o nome do produto será Dynamics 365 Finance. Os tópicos redigidos para um produto podem se aplicar à mesma funcionalidade em um produto relacionado.
+> Estes três produtos estão estreitamente relacionados: Dynamics 365 Finance; Dynamics 365 Commerce e Dynamics 365 Talent. A mesma funcionalidade pode aparecer nos três produtos. Como resultado, em tópicos relacionados principalmente ao Commerce, o nome do produto será Dynamics 365 Commerce; em tópicos relacionados principalmente ao Talent, o nome do produto será Dynamics 365 Talent; em tópicos relacionados ao produto core, o nome do produto será Dynamics 365 Finance. Os tópicos redigidos para um produto podem se aplicar à mesma funcionalidade em um produto relacionado.
 
 ## <a name="personalizing-talent"></a>Personalizando o Talent 
 Os tópicos a seguir mostram como configurar vários recursos no Talent que facilitam e agilizam seu trabalho. 

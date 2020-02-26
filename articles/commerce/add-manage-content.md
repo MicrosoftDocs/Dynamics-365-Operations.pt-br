@@ -1,9 +1,9 @@
 ---
 title: Maneiras de adicionar conteúdo
-description: Este tópico fornece informações sobre como adicionar e gerenciar conteúdo no site do Microsoft Dynamics 365 Commerce.
+description: Este tópico apresenta uma visão geral e links selecionados que ensinam onde e como começar a gerenciar conteúdo usando o conjunto de ferramentas de criação para Web do assistente para criação de sites do Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,43 +17,40 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2232dc7cdd24416b0df0919b96cd5d1f8113299f
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 916e28c2628613332246d19af0fae81f258404b0
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914645"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025694"
 ---
 # <a name="ways-to-add-content"></a>Maneiras de adicionar conteúdo
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-Este tópico fornece informações sobre como adicionar e gerenciar conteúdo no site do Microsoft Dynamics 365 Commerce.
+Este tópico apresenta uma visão geral e links para a documentação sobre como gerenciar conteúdo usando o conjunto de ferramentas de criação para Web do assistente para criação de sites do Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Visão geral
 
-Há várias formas de alterar a aparência e o conteúdo do seu site. Dependendo do nível de personalização necessário, muitas dessas alterações podem ser implementadas por não desenvolvedores. Por exemplo, nenhum código precisa ser escrito para criar modelos, selecionar temas e escolher e configurar módulos. Em contraste, são necessárias habilidades de desenvolvimento para criar um tema ou módulo, porque o kit de desenvolvimento de software (software development kit, SDK) de comércio eletrônico e o fluxo de trabalho de implantação do Microsoft Dynamics Lifecycle Services (LCS) devem ser usados.
+Há várias formas de alterar a aparência e o conteúdo do seu site. Dependendo do nível necessário de personalização, muitas dessas alterações podem ser implementadas por não desenvolvedores no assistente para criação de sites, o conjunto de ferramentas de criação para Web incluído no Dynamics 365 Commerce. O assistente para criação de sites permite criar modelos, selecionar temas e escolher e configurar módulos sem escrever código. Em contraste, são necessárias habilidades de desenvolvimento para criar um tema ou módulo, porque o kit de desenvolvimento de software (software development kit, SDK) de comércio eletrônico e o fluxo de trabalho de implantação do Microsoft Dynamics Lifecycle Services (LCS) devem ser usados.
 
-Os tópicos a seguir fornecem informações detalhadas sobre como adicionar e gerenciar o conteúdo do site. Eles se concentram em áreas do seu site para as quais não é necessário um desenvolvedor. Quando necessário, eles apontam tarefas que exigem trabalho no SDK.
+Os tópicos a seguir são bons pontos de partida para começar a entender como adicionar e gerenciar conteúdo de site. A maioria dos tópicos listados se concentram em áreas do seu site que não exigem um desenvolvedor. Parte deles abordam a edição básica de conteúdo, enquanto outros se concentram nas tarefas de administrador do site. Cada um desses tópicos indicará tarefas específicas que podem exigir trabalho no SDK. Cada tópico pressupõe que você já provisionou um site e recebeu acesso ao conjunto de ferramentas do assistente para criação de sites.
 
+Para começar, selecione um dos tópicos a seguir.
+
+- Para se familiarizar com a terminologia de gerenciamento de conteúdo usada no assistente para criação de sites e nesta documentação, consulte [Glossário de modelo de página](page-elements-overview.md).
+- Para entender como os módulos funcionam dentro de fluxos de trabalho de gerenciamento de conteúdo, consulte [Trabalhar com módulos](work-with-modules.md).
 - Para alterar o texto, imagens ou vídeo em uma página de site existente, consulte [Trabalhar com módulos](work-with-modules.md).
-- Para ajudar a garantir uma experiência de criação na marca infalível para autores de conteúdo da Web, consulte [Trabalhar com módulos](work-with-templates.md).
+- Para ver como os fragmentos podem tornar o gerenciamento de conteúdo mais eficiente e flexível, consulte [Trabalhar com fragmentos](work-with-fragments.md).
+- Para ajudar a garantir uma experiência bem-sucedida de criação na marca para autores de conteúdo da Web, consulte [Visão geral de modelos e layouts](templates-layouts-overview.md) e [Trabalhar com modelos](work-with-templates.md).
 - Para reorganizar seções em uma página do site, consulte [Trabalhar com layouts](work-with-layouts.md).
-- Para alterar as fontes, cores e aparência geral das páginas do site, consulte [Selecionar um tema de site](select-site-theme.md).
+- Para alterar as fontes, cores e a aparência geral de páginas do site, consulte [Selecionar um tema de site](select-site-theme.md) ou [Trabalhar com arquivos de substituição CSS](css-override-files.md).
+- Para reorganizar ou adicionar novas opções de navegação, consulte [Personalizar a navegação do site](customize-site-navigation.md).
+- Para saber como preparar, visualizar e publicar um amplo conjunto de alterações simultâneas de conteúdo da Web, consulte [Trabalhar com grupos de publicações](publish-groups.md).
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Glossário do modelo de página](page-elements-overview.md)
+[Visão geral da página Criação](authoring-home-overview.md)
 
 [Estados de documento e de ciclo de vida](document-states-overview.md)
-
-[Trabalhar com grupos de publicações](publish-groups.md)
-
-[Trabalhar com módulos](work-with-modules.md)
-
-[Trabalhar com fragmentos](work-with-fragments.md)
-
-[Visão geral de modelos e layouts](templates-layouts-overview.md)
-
-[Personalizar a navegação do site](customize-site-navigation.md)

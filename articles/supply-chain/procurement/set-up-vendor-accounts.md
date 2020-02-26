@@ -3,7 +3,7 @@ title: Configurar contas de fornecedor
 description: Este tópico descreve os tipos de informações que você deve especificar quando cria uma nova conta de fornecedor.
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5ab1f10f0874df36d1227e39f2d2146e85de41e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 63843381207fbe6cb72ac1b5533eda754b1ba55b
+ms.sourcegitcommit: 5457cbec3399d8ed9f87c3a9dc586173b5616c11
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249373"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3012436"
 ---
 # <a name="set-up-vendor-accounts"></a>Configurar contas de fornecedor
 
@@ -88,7 +88,7 @@ Você pode colocar um fornecedor em espera em vários tipos de transação. As o
 -   **Fatura** – Nenhuma fatura pode ser postada para o fornecedor.
 -   **Tudo** – O fornecedor está em espera em todos os tipos de transação. Esses tipos de transações incluem requisições de compra, faturas e pagamentos.
 -   **Pagamento** – Nenhum pagamento pode ser gerado para o fornecedor.
--   **Requisição** – Somente requisições de compra podem ser criadas. Nenhuma transação pode ser criada.
+-   **Requisição:** – as requisições de compra não podem ser criadas para o fornecedor, e as linhas de requisição que foram criadas antes que o fornecedor fosse definido como "em espera" não podem ser convertidas em uma ordem de compra. As linhas de requisição para o fornecedor serão canceladas se a sua política estiver definida para criar ordens de compra automaticamente.
 -   **Nunca** – O fornecedor nunca é colocado em espera por inatividade.
 
 Quando você colocar um fornecedor em espera, também poderá especificar um motivo e uma data em que o status de suspensão será encerrado. Se você não inserir uma data final, o status de suspensão do fornecedor terá duração indeterminada.
