@@ -150,6 +150,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/finance/toc.json
                 - name: Exibições salvas
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/finance/toc.json
+                - name: Recursos de grade
+                  href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/finance/toc.json
                 - name: Criar e trabalhar com campos personalizados
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
                 - name: Inserir aplicativos PowerApps
@@ -940,6 +942,8 @@
                   href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
                 - name: Configurar códigos de relatório de imposto
                   href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                - name: Suporte a moeda dupla para imposto
+                  href: general-ledger/dual-currency-for-tax.md
                 - name: Especificação de imposto pelo relatório de transações do razão
                   href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
                 - name: Configurar períodos de liquidação do imposto
@@ -1102,9 +1106,11 @@
                   href: public-sector/interest-distribution.md
             - name: Compras e fornecimento no setor público
               href: public-sector/procurement-sourcing-public-sector.md
+            - name: 'Calcular a data de entrega de uma linha, com base no prazo de entrega'
+              href: public-sector/po-delivery-date.md
             - name: Funções de segurança no setor público
               href: public-sector/security-roles-public-sector.md
-            - name: ​Fundos no setor público​
+            - name: Fundos no setor público
               href: public-sector/funds-public-sector.md
             - name: Configurar um fundo no setor público
               href: public-sector/tasks/set-up-fund-public-sector.md
@@ -1294,10 +1300,12 @@
                   href: localizations/latam-bra-sped-reinf.md
                 - name: Resolução SPED fiscal 13/2019 RJ
                   href: localizations/latam-bra-resolution-13-2019-RJ.md
-                - name: SPED fiscal 2020 - informações complementares do ICMS-ST para o layout 014 do SPED fiscal
+                - name: SPED fiscal 2020 — informações complementares do ICMS-ST para o layout 014 do SPED fiscal
                   href: localizations/latam-bra-complementary-information-icms-st-sped-fiscal-2020-layout-014.md
-                - name: SPED fiscal – Layout 014
+                - name: SPED fiscal — Layout 014
                   href: localizations/latam-bra-sped-fiscal-layout-014.md
+                - name: Definir contribuições SPED EFD
+                  href: localizations/latam-bra-sped-contributions.md
                 - name: Parâmetros de entidades legais
                   href: localizations/latam-bra-legal-entity-parameters.md
                 - name: Configurar parâmetros da entidade legal
@@ -2805,13 +2813,15 @@
                   href: ../fin-ops-core/dev-itpro/analytics/workforce-analysis-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
             - name: Relatório e impressão de documento
               items:
-                - name: ​Visão geral dos Serviços de Relatório de Documento
+                - name: Visão geral dos Serviços de relatório de documentos
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/finance/toc.json
+                - name: Fontes com suporte
+                  href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/finance/toc.json
                 - name: Configurar o SSRS para implantações locais
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/finance/toc.json
-                - name: Imprimindo
+                - name: Impressão
                   items:
-                    - name: Visão geral de impressão do documento
+                    - name: Visão geral de impressão de documentos
                       href: ../fin-ops-core/dev-itpro/analytics/print-documents.md?toc=/dynamics365/finance/toc.json
                     - name: Instalar o Agente de Roteamento de Documentos para habilitar a impressão de rede
                       href: ../fin-ops-core/dev-itpro/analytics/install-document-routing-agent.md?toc=/dynamics365/finance/toc.json
@@ -3686,6 +3696,4 @@
     - name: Dynamics 365 Supply Chain Management
       href: ../supply-chain/index.md
     - name: Dynamics 365 Commerce
-      href: ../commerce/index.md
-    - name: Dynamics 365 Retail
       href: ../commerce/index.md

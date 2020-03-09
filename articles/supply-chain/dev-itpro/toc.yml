@@ -452,13 +452,11 @@
           href: ../../dev-itpro/dev-tools/build-operations.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Recursos do Editor de códigos
           href: ../../dev-itpro/dev-tools/code-editor.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: ​Criar modelos e elementos de modelo de dados​
+        - name: Criar modelos e elementos de modelo de dados
           items:
-            - name: Visão geral de ​Criar modelos e elementos de modelo de dados​
+            - name: Visão geral de Criar modelos e elementos de modelo de dados
               href: ../../dev-itpro/dev-tools/create-data-model-elements.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-            - name: Diretrizes de nomenclatura para extensões
-              href: ../../dev-itpro/extensibility/NamingGuidelines.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-            - name: ​Desativar a personalização de modelos e substituir a funcionalidade​
+            - name: Desativar a personalização de modelos e substituir a funcionalidade
               href: ../../dev-itpro/dev-tools/lock-models.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: ​Relatório de Análise de Personalizações​
           href: ../../dev-itpro/dev-tools/customization-analysis-report.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
