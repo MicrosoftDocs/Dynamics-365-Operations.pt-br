@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 9585d5a399ebf45b0ad7640f3c4e48d8afc46cd8
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 90422a34499dab7302ad7722cf84d40e1815991c
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3017719"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042933"
 ---
 # <a name="embed-microsoft-power-apps"></a>Inserir o Microsoft Power Apps
 
@@ -55,7 +55,7 @@ As instruções a seguir mostram como inserir um aplicativo do Power Apps no cli
 
     - O campo **Nome** indica o texto mostrado para o botão ou a guia que conterá o aplicativo inserido. Muitas vezes, convém repetir o nome do aplicativo neste campo.
     - **ID do Aplicativo** é o GUID do aplicativo que você quer inserir. Para recuperar este valor, localize o aplicativo no [web.powerapps.com](https://web.powerapps.com) e localize o campo **ID do Aplicativo** em **Detalhes**.
-    - Para **Dados de contexto para o aplicativo**, você pode selecionar o campo contendo os dados que você quer informar para o aplicativo como entrada. Consulte a seção posterior neste tópico chamada [Criação de aplicativos que aproveitam dados de aplicativos do Finance and Operations](#building-a-power-app-that-leverages-data-sent-from-finance-and-operations-apps) para obter detalhes sobre como o aplicativo pode acessar os dados enviados de aplicativos do Finance and Operations.
+    - Para **Dados de contexto para o aplicativo**, você pode selecionar o campo contendo os dados que você quer informar para o aplicativo como entrada. Consulte a seção posterior neste tópico chamada [Criando um aplicativo que utiliza os dados enviados de aplicativos do Finance and Operations](#building-an-app-that-leverages-data-sent-from-finance-and-operations-apps) para obter detalhes sobre como o aplicativo pode acessar os dados enviados de aplicativos do Finance and Operations.
     - Selecione o **Tamanho do aplicativo** que corresponde ao tipo de aplicativo que você está inserindo. Selecione **Fino** para aplicativos criados para dispositivos móveis e **Largo** para aplicativos criados para tablets. Isso garantirá que uma quantidade suficiente de espaço seja alocada para o aplicativo inserido.
     - A guia rápida **Entidades legais** fornece a capacidade de escolher para quais entidades legais o aplicativo está disponível. O padrão é tornar o aplicativo acessível para todas as entidades legais. Esta opção está disponível somente quando o recurso [Exibições salvas](saved-views.md) estiver desabilitado. 
 
@@ -76,7 +76,7 @@ Uma parte importante da criação de um aplicativo do Power Apps que será inser
 
 Por exemplo, na função OnStart do aplicativo, você pode definir os dados de entrada de aplicativos do Finance and Operations para uma variável como esta:
 
-```
+```powerapps
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
 ```
 
@@ -101,7 +101,7 @@ Siga estas etapas para editar a configuração de um aplicativo inserido:
 
 Depois que um aplicativo for inserido em uma página, há duas maneiras de removê-lo, se necessário:
 
-- Vá para o painel **Editar um aplicativo** usando as instruções da seção [Editando um aplicativo inserido](#editing-an-embedded-power-app) anteriormente neste tópico. Confirme se o painel exibe informações para o aplicativo inserido que você deseja remover e clique no botão **Excluir**.
+- Vá para o painel **Editar um aplicativo** usando as instruções da seção [Editando um aplicativo inserido](#editing-an-embedded-app) anteriormente neste tópico. Confirme se o painel exibe informações para o aplicativo inserido que você deseja remover e clique no botão **Excluir**.
 - Como um aplicativo inserido é salvo como dados de personalização, limpar a personalização da página também removerá todos os aplicativos inseridos nessa página. Observe que a remoção da personalização da página é permanente e não pode ser desfeita. Para remover as personalizações de uma página, selecione **Opções** e clique em **Personalizar esta página** e, por último, no botão **Limpar**. Após atualizar seu browser, todas as personalizações anteriores desta página serão removidas. Consulte [Personalizar a experiência do usuário](personalize-user-experience.md) para obter mais informações sobre como otimizar as páginas usando a personalização.
 
 ## <a name="appendix"></a>Anexo
@@ -115,7 +115,7 @@ Por padrão, os usuários podem inserir aplicativos em qualquer página, sob o b
 
 O exemplo a seguir mostra uma nova classe com os dois métodos necessários para configurar onde os aplicativos podem ser inseridos.
 
-```
+```powerapps
 [ExtensionOf(classStr(FormRunConfigurationPowerAppsConfiguration))]
 
 public final class ClassTest_Extension

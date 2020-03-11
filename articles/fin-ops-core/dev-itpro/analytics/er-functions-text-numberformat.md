@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 392135abaf7db05d5ac591ab56312a0e0f6ae5ff
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 41f48fb49b2d28acf69fe05fe87644a4c43e81fe
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916789"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070543"
 ---
 # <a name="NUMBERFORMAT">Função de ER NUMBERFORMAT</a>
 
@@ -33,13 +33,13 @@ A função `NUMBERFORMAT` retorna um valor de *Cadeia de caracteres* que apresen
 
 ## <a name="syntax-1"></a>Sintaxe 1
 
-```
+```vb
 NUMBERFORMAT (number, format)
 ```
 
 ## <a name="syntax-2"></a>Sintaxe 2
 
-```
+```vb
 NUMBERFORMAT (number, format, culture)
 ```
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e178b01740954b46e2afbd2a2be6200a652a18c0
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 6fbaf5952222d90a855956fb93713e0f9ef81305
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915593"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041014"
 ---
 # <a name="MID">Função de ER MID</a>
 
@@ -33,7 +33,7 @@ A função `MID` retorna um valor de *Cadeia de caracteres* que apresenta o núm
 
 ## <a name="syntax"></a>Sintaxe
 
-```
+```vb
 MID (text, starting position, number of characters)
 ```
 

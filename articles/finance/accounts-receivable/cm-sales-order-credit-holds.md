@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 23f819139e74d81d24810c63bae1de19358983b9
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 316a626e6a18f0afda632111138482f62f6809db
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015120"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057661"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Bloqueios de crédito para ordens de venda
 [!include [banner](../includes/banner.md)]
@@ -264,7 +264,7 @@ As ordens de venda que foram colocadas em espera forçada não podem ser process
 #### <a name="releasing-orders-that-were-added-to-the-credit-management-hold-list-with-a-forced-credit-hold"></a>Liberando ordens adicionadas à lista de bloqueio de gerenciamento de crédito com um bloqueio de crédito forçado
 As ordens de venda que têm um motivo de bloqueio forçado não podem ser liberadas automaticamente. Se a ordem de venda foi colocada em espera forçada e você usou um processo que libera as ordens de venda automaticamente, ela será mostrada como **Pronta para liberação** e permanecerá na lista de bloqueio. Você deve usar o menu **Liberar** para liberar a ordem.
  
-## <a name="free-text-invoices-retail-orders-and-project-invoice-support-in-credit-management"></a>Suporte para faturas de texto livre, ordens de venda e fatura de projeto no Gerenciamento de crédito 
-No momento, o gerenciamento de crédito só pode ser usado para ordens de venda. As faturas de texto livre, as ordens do Retail POS e as ordens de call center usarão os limites de crédito temporários e os seguros/garantias que você adicionar para ajustar o limite de crédito. Elas não usarão as regras de bloqueio e não serão colocadas na lista de bloqueio se houver um problema de limite de crédito.
+## <a name="free-text-invoices-orders-and-project-invoice-support-in-credit-management"></a>Suporte para faturas de texto livre, ordens e fatura de projeto no Gerenciamento de crédito 
+No momento, o gerenciamento de crédito só pode ser usado para ordens de venda. As faturas de texto livre, as ordens do ponto de venda e as ordens de call center usarão os limites de crédito temporários e os seguros/garantias que você adicionar para ajustar o limite de crédito. Elas não usarão as regras de bloqueio e não serão colocadas na lista de bloqueio se houver um problema de limite de crédito.
 
 Não há suporte para faturas de projeto no gerenciamento de crédito.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c68933352da1f9c7dc5dad76e8635981f8a89fce
-ms.sourcegitcommit: 9291e6dc0de076a16684980e528c5aa98845bb34
+ms.openlocfilehash: 5903f562b5f266572f999756539fa7b9ef145023
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2918970"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041322"
 ---
 # <a name="ROUNDAMOUNT">Função de ER ROUNDAMOUNT</a>
 
@@ -33,7 +33,7 @@ A função `ROUNDAMOUNT` retorna um valor *Real* como resultado do arredondament
 
 ## <a name="syntax"></a>Sintaxe
 
-```
+```vb
 ROUNDAMOUNT (number, decimals, round rule)
 ```
 

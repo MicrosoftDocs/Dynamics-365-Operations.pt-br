@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a46ff0a1d6e29cc567a86fae60ff803a102d1a2e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3b04f78f2a8210837e16c8246609ad2fddd804f0
+ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181211"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071581"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Opções avançadas de formatação no relatório financeiro
 
@@ -216,7 +216,7 @@ Neste exemplo, a fórmula de cálculo **@100+@330** significa que o valor da lin
 Quando a linha em uma definição de linha tem um código de formato **CAL**, e você insere um cálculo matemático na célula **Fórmulas/Linhas/Unidades Relacionadas**, também deve inserir a letra da coluna e da linha associadas no relatório. Por exemplo, insira **A.120** para representar a coluna A, linha 120. Outra alternativa é usar um arroba (@) para indicar todas as colunas. Por exemplo, insira **@120** para representar todas as colunas da linha 120. Qualquer cálculo matemático sem uma letra de coluna ou um arroba (@) é considerado como um número real.
 
 > [!NOTE]
-> Se você usar um código da linha de rótulo para referenciar uma linha, use um ponto (.) como separador entre a letra da coluna e o rótulo (por exemplo, **A.GROSS\_MARGIN/A.SALES**). Se você usar um sinal de arroba (@), um separador não será necessário (por exemplo, **@GROSS\_MARGIN/@SALES**)
+> Se você usar um código da linha de rótulo para referenciar uma linha, use um ponto (.) como separador entre a letra da coluna e o rótulo (por exemplo, **A.GROSS\_MARGIN/A.SALES**). Se você usar um sinal de arroba (@), um separador não será necessário (por exemplo, **\@GROSS\_MARGIN/@SALES**).
 
 ### <a name="example-of-a-calculation-formula-for-a-specific-column"></a>Exemplo de uma fórmula de cálculo para uma coluna específica
 

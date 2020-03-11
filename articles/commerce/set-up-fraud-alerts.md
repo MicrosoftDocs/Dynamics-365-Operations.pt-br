@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b4ee6b128e473d0999885f1cb1b4dbb015026c4e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 38649e40021d1caaf70f217b3ebae0d488806180
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021627"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057200"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Configurar e trabalhar com alertas de fraude de call center
 
@@ -54,6 +54,7 @@ Por fim, use o campo **Tipo de comentário sobre fraude** para especificar o tip
 O sistema faz referência a dois tipos de critérios de fraude para determinar se uma ordem deve ser colocada em espera para a revisão de fraude:
 
 - Os **dados de fraude estáticos** usam um valor específico, como um número de telefone que seja colocado em uma lista de telefones bloqueados ou um endereço de email que seja sinalizado porque sabe-se que ele foi usado em transações fraudulentas anteriores. Para configurar os dados de fraude estáticos, vá para **Retail e Commerce** \> **Configuração de canal** \> **Configuração de call center** \> **Fraude** \> **Dados de fraude estáticos**. Na página **Dados de fraude estáticos** , você pode adicionar os critérios de fraude manualmente ou por meio da importação de dados. As pontuações são anexadas às informações fraudulentas. Se o recurso de verificação de fraude estiver ativado, cada ordem de venda inserida será comparada aos dados estáticos. Se os dados forem encontrados no endereço de cobrança do cliente ou no endereço de entrega que esteja vinculado ao cabeçalho da ordem, ou se os dados forem encontrados em endereços de entrega que estejam vinculados a alguma das linhas nessa ordem de venda, as pontuações de todas as correspondências exclusivas serão somadas e comparadas com o valor **Pontuação mínima** para determinar se a ordem deve ser colocada em espera.
+
 - As **regras de fraude** consistem nas variáveis definidas pelo usuário e nas condições definidas para essas variáveis. Para criar regras, vá para **Retail e Commerce** \> **Configuração de canal** \> **Configuração de call center** \> **Fraude** \> **Regras**. As regras de fraude permitem que uma empresa configure um conjunto de regras mais complexo que pode incluir instruções **E** ou **OU** para avaliar várias condições. Por exemplo, um usuário deseja que todas as ordens para os clientes que pertencem a um determinado grupo de clientes e que encomendaram um produto específico seja colocada em espera para a revisão de fraude. Nesse caso, as condições para validar o cliente e os produtos são definidas na página **Regras** e uma condição E é usada. Uma ordem será então colocada em espera somente se as duas condições forem verdadeiras e se o valor da pontuação atribuído a essa regra mais o valor da pontuação de quaisquer outras regras que correspondam à ordem exceder o valor da **Pontuação mínima** definido na página **Parâmetros de call center**.
 
 > [!NOTE]

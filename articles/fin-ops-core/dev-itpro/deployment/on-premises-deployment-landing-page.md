@@ -1,9 +1,9 @@
 ---
 title: Home page Implantação local
 description: Este tópico fornece informações e vincula a conteúdo sobre implantações locais.
-author: kfend
+author: sericks007
 manager: AnnBe
-ms.date: 11/04/2019
+ms.date: 02/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -14,15 +14,15 @@ ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kfend
+ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 81698517dc501a6001f62216f3804510144c1045
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 50fb53902e9f9796cac958f7cea2605ba00ba1bd
+ms.sourcegitcommit: ae8625f44453a71a94df6fb98d054c1c56b76700
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770937"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "3090580"
 ---
 # <a name="on-premises-deployment-home-page"></a>Home page Implantação local
 
@@ -50,19 +50,19 @@ Você pode implantar o Dynamics 365 Finance + Operations (local). Quando você e
 - [Configurar gerenciamento de documentos](../../fin-ops/organization-administration/configure-document-management.md)
 - [Importar configurações de Relatório eletrônico (ER)](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Geração, publicação e impressão de documentos em implantações locais​](../analytics/printing-capabilities-on-premises.md)
-- [Configurar proxies para ambientes locais](onprem-reverseproxy.md)
+- [Configurar proxies reversos para ambientes locais](onprem-reverseproxy.md)
 - [Configurar o suporte técnico para aplicativos do Finance and Operations](../lifecycle-services/support-experience.md)
 - [Conectividade da Internet do cliente](../user-interface/client-disconnected.md)
 - [Aplicar atualizações a implantações locais](apply-updates-on-premises.md)
 - [Implantar novamente ambientes locais](redeploy-on-prem.md)
 
-## <a name="retail"></a>Retail
-- [Recursos de varejo disponíveis em implantações locais](../../../retail/retail-onprem.md)
+## <a name="commerce"></a>Commerce
+- [Recursos do Commerce disponíveis em implantações locais](../../../retail/retail-onprem.md)
 - [Etapas de instalação dos componentes do canal do Retail em um ambiente local](deploy-retail-onprem.md)
-- [Configurar, instalar e ativar o Retail Modern POS (MPOS)](../../../retail/retail-modern-pos-device-activation.md)
-- [Configurar e instalar o Retail Store Scale Unit](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+- [Configurar, instalar e ativar o Modern POS (MPOS)](../../../retail/retail-modern-pos-device-activation.md)
+- [Configurar e instalar Commerce Scale Unit](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
-## <a name="upgrade"></a>Atualizar
+## <a name="upgrade"></a>Atualização
 - [Processo do atualização no local de ambientes locais](../migration-upgrade/on-prem-upgrade.md)
 
 ## <a name="other-resources"></a>Outros recursos
@@ -71,6 +71,6 @@ Você pode implantar o Dynamics 365 Finance + Operations (local). Quando você e
 - [Rotação de certificados](certificate-rotation-on-prem.md)
 - [Diagnósticos locais](on-premises-diagnostics.md)
 - [Recursos não implementados em implantações locais](../../fin-ops/get-started/features-not-implemented-on-prem.md)
-- [Recursos removidos ou preterido no Finance and Operations](../migration-upgrade/deprecated-features.md)
+- [Recursos removidos ou preteridos de Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [Política de ciclo de vida do software e versões locais](../migration-upgrade/on-prem-version-update-policy.md)
  

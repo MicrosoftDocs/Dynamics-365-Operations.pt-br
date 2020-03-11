@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c0baf96315dd9fe6bc1984d337fd1c50ae47016a
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: cd6ec1013de757214db99ada02170bb6e2af96c0
+ms.sourcegitcommit: f52ddcad105aac4ad2caef709751ff80caf363c0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3031034"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "3036920"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Política de reserva de dimensão no nível de depósito flexível
 
@@ -46,7 +46,7 @@ Nesses cenários, o desafio é que apenas uma hierarquia de reservas de estoque 
 
 ### <a name="business-scenario"></a>Cenário de negócios
 
-Neste cenário, uma empresa usa uma estratégia de estoque em que mercadorias concluídas são rastreadas pelos números de lote. Essa empresa também usa a carga de trabalho do gerenciamento de depósito. Como essa carga de trabalho tem uma lógica bem montada para planejar e executar operações de separação e remessa de depósito dos itens habilitados para lote, a maioria dos itens concluídos é associada a uma hierarquia de reservas de estoque "Abaixo do lote\[local\]". A vantagem desse tipo de configuração operacional é que as decisões (que são efetivamente decisões de reserva) sobre quais lotes devem ser separados e onde colocá-los no depósito são adiadas até que as operações de separação de depósito comecem. Elas não são tomadas quando a ordem do cliente é realizada.
+Neste cenário, uma empresa usa uma estratégia de estoque em que mercadorias concluídas são rastreadas pelos números de lote. Essa empresa também usa a carga de trabalho do WMS. Como essa carga de trabalho tem uma lógica bem montada para planejar e executar operações de separação e remessa de depósito dos itens habilitados para lote, a maioria dos itens concluídos é associada a uma hierarquia de reservas de estoque "Abaixo do lote\[local\]". A vantagem desse tipo de configuração operacional é que as decisões (que são efetivamente decisões de reserva) sobre quais lotes devem ser separados e onde colocá-los no depósito são adiadas até que as operações de separação de depósito comecem. Elas não são tomadas quando a ordem do cliente é realizada.
 
 Embora a hierarquia de reservas "Abaixo do lote\[local\]" também atenda às metas de negócios da empresa, muitos dos clientes estabelecidos da empresa exigem o mesmo lote que compraram anteriormente quando repetiram a ordem de produtos. Portanto, a empresa está procurando flexibilidade no tratamento das regras de reserva de lotes para que, dependendo da demanda dos clientes pelo mesmo item, ocorram os seguintes comportamentos:
 

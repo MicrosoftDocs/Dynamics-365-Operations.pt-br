@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6820be1976e722f7b108b3e9303c8ed4d822ae9b
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: ccf8d373bb081270573f6f80711d8e31ff6c0dc3
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917594"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042495"
 ---
 # <a name="SUMIFS">Função SUMIFS ER</a>
 
@@ -33,7 +33,7 @@ A função `SUMIFS` retorna um valor *Real* que representa a soma de valores que
 
 ## <a name="syntax"></a>Sintaxe
 
-```
+```vb
 SUMIFS (key name for summing, condition 1 range, condition 1 value[, condition 2 range, condition 2 value, …, condition N range, condition N value])
 ```
 

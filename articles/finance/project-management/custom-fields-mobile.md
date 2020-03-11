@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: c0c578ca44919671b67daeea51a9ec7687f755c9
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 48854c15e429d51dcf30ea804eb636dee7965443
+ms.sourcegitcommit: a356299be9a593990d9948b3a6b754bd058a5b3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773636"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "3080763"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementar campos personalizados para o aplicativo móvel do Microsoft Dynamics 365 Project Timesheet no iOS e Android
 
@@ -183,7 +183,7 @@ O exemplo a seguir mostra um campo de sequência de caracteres nas entradas de h
 
 Observe o uso do método **TSTimesheetCustomField::newFromMetatdata()** para simplificar a inicialização das propriedades do campo personalizado: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** e **numberOfDecimals**. Você também pode definir esses parâmetros manualmente, como preferir.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetSettings))]
 final class TSTimesheetSettings_Extension
@@ -212,7 +212,7 @@ final class TSTimesheetSettings_Extension
 
 O método **buildCustomFieldListForEntry** é usado para inserir valores nas linhas de folha de ponto salvas no aplicativo móvel. Leva um registro TSTimesheetTrans como um parâmetro. Os campos desse registro podem ser usados para preencher o valor do campo personalizado no aplicativo.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetEntry))]
 final class TsTimesheetEntry_Extension
@@ -250,7 +250,7 @@ Para salvar um campo personalizado no banco de dados em uso típico, você deve 
 > [!NOTE]
 > O exemplo a seguir salva o valor **firstOption** ou **secondOption** que o usuário seleciona no banco de dados como um valor de sequência de caracteres não processado. Se o campo do banco de dados for um campo do tipo **Enumeração**, esses valores poderão ser mapeados manualmente para um valor de enumeração e, em seguida, salvos em um campo de enumeração na tabela do banco de dados.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TSTimesheetEntryService))]
 final class TSTimesheetEntryService_Extension
@@ -339,7 +339,7 @@ Este código controla as configurações de exibição do campo no aplicativo. P
 
 O exemplo a seguir mostra um valor computado na seção de cabeçalho no aplicativo.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetSettings))]
 final class TSTimesheetSettings_Extension
@@ -369,7 +369,7 @@ final class TSTimesheetSettings_Extension
 O método **buildCustomFieldListForHeader** é usado para preencher os detalhes do cabeçalho de folha de ponto no aplicativo para dispositivos móveis. Leva um registro TSTimesheetTable como um parâmetro. Os campos desse registro podem ser usados para preencher o valor do campo personalizado no aplicativo. O exemplo a seguir não lê nenhum valor do banco de dados. Em vez disso, ele usa a lógica X++ para gerar um valor computado que é exibido no aplicativo.
 
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TSTimesheetDetails))]
 final class TSTimesheetDetails_Extension

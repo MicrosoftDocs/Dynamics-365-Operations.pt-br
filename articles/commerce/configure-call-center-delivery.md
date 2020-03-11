@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9f043d66fbd417633de71b5fa12b13b3f04e3452
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 9919e76b5e3eb1a43c5a0ecd5dda1462bedad4f2
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021571"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057801"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Configurar modos de entrega e encargos do call center
 
@@ -66,7 +66,7 @@ Os encargos poderão ser configurados de forma que sejam aplicados para modo de 
 
 Na seção **Linhas** , você pode definir uma ou mais cobranças por moeda, conforme necessário. Os encargos devem ser vinculados a um código de encargos diversos que defina regras financeiras de lançamento do encargo. O campo **Categoria** é usado para definir como os encargos são calculados. Por exemplo, se os clientes precisarem cobrar uma taxa fixa de US$ 9,95 para que uma ordem seja enviada por um modo de entrega específico, use a categoria **Fixo** . Se a empresa decide cobrar os clientes um percentual do total da ordem para os encargos de entrega, use a categoria **Porcentagem** . O encargo real para os clientes é definido no campo **Valor dos encargos**.
 
-As empresas de varejo frequentemente configuram encargos diferenciados. Nesse caso, o valor que os clientes pagam pela entrega é baseado no valor da ordem. Para configurar os encargos diferenciados, insira os valores nos campos **Valor de origem** e **Valor de destino** além de definir o próprio encargo no campo **Valor dos encargos**. Por exemplo, para ordens com um valor menor que US$ 50, um varejista cobra US$ 5,95 pelo frete terrestre. Para ordens que tenham um valor igual ou maior que US$ 50, mas menos que US$100, o varejista cobra US$7, 95. Finalmente, para ordens que tenham um valor igual ou maior que US$ 100, o varejista fornece frete grátis. A ilustração a seguir mostra a configuração desses encargos.
+As empresas frequentemente configuram encargos diferenciados. Nesse caso, o valor que os clientes pagam pela entrega é baseado no valor da ordem. Para configurar os encargos diferenciados, insira os valores nos campos **Valor de origem** e **Valor de destino** além de definir o próprio encargo no campo **Valor dos encargos**. Por exemplo, para ordens com um valor menor que US$ 50, um varejista cobra US$ 5,95 pelo frete terrestre. Para ordens que tenham um valor igual ou maior que US$ 50, mas menos que US$100, o varejista cobra US$7, 95. Finalmente, para ordens que tenham um valor igual ou maior que US$ 100, o varejista fornece frete grátis. A ilustração a seguir mostra a configuração desses encargos.
 
 ![Exemplo de encargos diferenciados fixos](media/fixedtieredcharges.png)
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 08fb278a3de0c06715dcd9c252ee6c21b2172cff
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: ed7a47068c451cd3ffaa26ee709599373858721b
+ms.sourcegitcommit: 3cad15f8ecc257d3a45c1bc1fada7c094ff4bcec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008131"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "3087291"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Criar um plano de licença e ausência
 
@@ -61,8 +61,8 @@ Você também pode criar benefícios de licença baseada em posição, como hora
 
       | Base do período de competência | Descrição |
       | --- | --- |
-      | Data inicial do plano | A data inicial do período de competência é a data em que o plano está disponível. |
-      | Data específica do funcionário | A data de início do período de competência depende de um evento de funcionário:</br><ul><li>Personalizado (você deve especificar uma base de data de competência para cada inscrição individual)</li><li>Data do aniversário de tempo de serviço</li><li>Data original da contratação</li><li>Aniversário de tempo de serviço</li><li>Data inicial ajustada do trabalhador</li><li>Data inicial do trabalhador</li></ul> |
+      | **Data inicial do plano** | A data inicial do período de competência é a data em que o plano está disponível. |
+      | **Data específica do funcionário** | A data de início do período de competência depende de um evento de funcionário:</br><ul><li>Personalizado (você deve especificar uma base de data de competência para cada inscrição individual)</li><li>Data do aniversário de tempo de serviço</li><li>Data original da contratação</li><li>Aniversário de tempo de serviço</li><li>Data inicial ajustada do trabalhador</li><li>Data inicial do trabalhador</li></ul> |
 
    3. Selecione uma opção na caixa suspensa **Data de concessão da competência**:
 

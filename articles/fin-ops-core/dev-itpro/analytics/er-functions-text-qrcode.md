@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bac0910d213ee05a2a7a7b218a6714d4f935be16
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 8a52dbce29140591baf4be97baef237dce1f2511
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916743"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3040839"
 ---
 # <a name="QRCODE">Função de ER QRCODE</a>
 
@@ -33,7 +33,7 @@ A função `QRCODE` retorna um valor de *Contêiner* que apresenta a imagem do c
 
 ## <a name="syntax"></a>Sintaxe
 
-```
+```vb
 QRCODE (text)
 ```
 
@@ -53,7 +53,7 @@ O fluxo binário resultante.
 
 Você pode configurar um formato de relatório eletrônico (ER) para gerar um documento de saída em um formato do Microsoft Office (pastas de trabalho do Excel ou documentos do Word) usando um modelo predefinido. Esse modelo pode conter um objeto **Imagem** (pasta de trabalho do Excel) ou um **Controle de Conteúdo de Imagem** (documento do Word) como um espaço reservado para uma imagem de código QR. Você deve adicionar ao formato de ER configurado um elemento **Célula** que será usado para preencher esse espaço reservado. Para especificar quais informações serão armazenadas em um código QR, você precisa definir uma associação para esse elemento **Célula**. Por exemplo, você pode configurar essa associação como contendo a seguinte expressão:
 
-```
+```vb
 QRCODE (model.ListOfShelfLabels.LabelText)`
 ```
 

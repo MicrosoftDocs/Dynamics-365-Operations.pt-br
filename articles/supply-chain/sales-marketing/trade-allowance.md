@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: t-benebo
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 623c25490964ccdf6abc37acaffee7ac0844cf39
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 35aad9bf89ba8c1ed6451304d8fc4fc6ffa575b5
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251146"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057756"
 ---
 # <a name="trade-allowance-management"></a>Gerenciamento de bonificação comercial
 
 [!include [banner](../includes/banner.md)]
 
-O gerenciamento de bonificação comercial ajuda as empresas a gerenciar programas de promoção de vendas que oferecem recompensas monetárias de varejo de "pagamento por desempenho" aos clientes que atingem metas de volume e comportamentais. As capacidades do recurso foram desenvolvidas para empresas que se concentram em processos abrangentes de promoção para lucro, desde orçamento e alocação de fundos de promoção até configuração de contrato de bonificação, criação e processamento de solicitações, processamento de pagamentos e análise de eficácia de promoção.
+O gerenciamento de bonificação comercial ajuda as empresas a gerenciar programas de promoção de vendas que oferecem recompensas monetárias de "pagamento por desempenho" aos clientes que atingem metas de volume e comportamentais. As capacidades do recurso foram desenvolvidas para empresas que se concentram em processos abrangentes de promoção para lucro, desde orçamento e alocação de fundos de promoção até configuração de contrato de bonificação, criação e processamento de solicitações, processamento de pagamentos e análise de eficácia de promoção.
 
 
 Este artigo fornecerá uma visão geral ampla do recurso de gerenciamento de bonificação e permitirá que você se familiarize com o conjunto típico de tarefas incluídas no gerenciamento de um programa de promoção de vendas. Espera-se que vários tipos de usuários com responsabilidades operacionais e de tomada de decisão usem essa funcionalidade para atingir seus respectivos objetivos:
@@ -61,7 +61,7 @@ Um contrato de bonificação comercial é um programa de incentivo no qual recom
 
 Os fundos alocados para contratos de bonificação comercial são registrados na página **Fundos**. Para abrir a página **Fundos**, selecione **Vendas e marketing** \> **Incentivos comerciais** \> **Fundos** \> **Fundos**.
 
-![Página Fundos](./media/trade-allowance-management-funds-page.png "Página Fundos")
+![Página de fundos](./media/trade-allowance-management-funds-page.png "Página de fundos")
 
 Na página **Fundos**, você pode exibir os detalhes de fundos promocionais.
 
@@ -77,7 +77,7 @@ Após a definição do fundo, a próxima etapa no planejamento da promoção é 
 
 Os contratos de bonificação comercial são registrados na página **Contratos de bonificação comercial**. Para abrir a página **Contratos de bonificação comercial**, selecione **Vendas e marketing** \> **Incentivos comerciais** \> **Contratos de bonificação comercial**.
 
-![Página Contratos de bonificação comercial](./media/trade-allowance-management-agreements-page.png "Página Contratos de bonificação comercial")
+![Página de contratos de bonificação comercial](./media/trade-allowance-management-agreements-page.png "Página de contratos de bonificação comercial")
 
 #### <a name="header"></a>Cabeçalho
 
@@ -105,7 +105,7 @@ A guia **Eventos de merchandising** mostra os tipos de eventos cobertos por um c
 
 Quando você seleciona o evento de merchandising e, em seguida, seleciona a guia **Valores**, os detalhes do evento são encontrados.
 
-![Linhas do contrato de bonificação comercial](./media/trade-allowance-management-agreements-lines.png "Linhas do contrato de bonificação comercial")
+![Linhas de contrato de bonificação comercial](./media/trade-allowance-management-agreements-lines.png "Linhas de contrato de bonificação comercial")
 
 Na seção **Linhas de bonificação comercial**, você especifica as faixas de quantidade ou valor que o cliente deve atingir para que as definições obtenham as recompensas.
 

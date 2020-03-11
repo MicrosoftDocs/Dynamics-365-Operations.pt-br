@@ -3,7 +3,7 @@ title: Recursos de grade
 description: Este tópico descreve vários recursos avançados do controle de grade. O novo recurso de grade deve estar habilitado para ter acesso a esses recursos.
 author: jasongre
 manager: AnnBe
-ms.date: 01/20/2020
+ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -14,18 +14,19 @@ ms.reviewer: sericks
 ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2020-02-03
+ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b49d7823f48bcc9cdbb56b87d5fa72d46ddfa15c
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 7136edba828bf97b6e0c8d2a698b884640d680e5
+ms.sourcegitcommit: 880f617d1d6e95eccbed762c7ea04398553c2ec0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019631"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "3036256"
 ---
-# <a name="grid-capabilites"></a>Recursos de grade
+# <a name="grid-capabilities"></a>Recursos de grade
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 O novo controle de grade fornece vários recursos úteis e eficientes que podem ser usados para melhorar a produtividade do usuário, construir exibições mais interessantes dos dados e obter insights significativos sobre seus dados. Este artigo abordará os seguintes recursos: 
 
@@ -38,10 +39,11 @@ O novo controle de grade fornece vários recursos úteis e eficientes que podem 
 Nos aplicativos do Finance and Operations, os usuários podem ver os totais na parte inferior das colunas numéricas em grades. Esses totais são mostrados em uma seção de rodapé na parte inferior da grade. 
 
 ### <a name="showing-the-grid-footer"></a>Mostrando o rodapé da grade
-Cada grade tabular nos aplicativos do Finance and Operations tem uma área de rodapé na parte inferior que pode mostrar informações valiosas relacionadas aos dados que estão sendo exibidos. Essas informações incluem: 
--  O número de linhas selecionadas na tabela (quando mais de um registro é selecionado)
--  Totais gerais na parte inferior das colunas numéricas configuradas
--  O número de linhas no conjunto de dados 
+Existe uma área de rodapé na parte inferior de cada grade tabular nos aplicativos do Finance and Operations. O rodapé pode mostrar informações valiosas relacionadas aos dados que aparecem na grade. Veja alguns exemplos dessas informações:
+
+- O número de linhas selecionadas na tabela (quando mais de um registro é selecionado)
+- Totais gerais na parte inferior das colunas numéricas configuradas
+- O número de linhas no conjunto de dados 
 
 Esse rodapé é ocultado por padrão, mas pode ser facilmente ativado. Para mostrar o rodapé de uma grade, clique com o botão direito do mouse em um cabeçalho de coluna na grade e selecione a opção **Mostrar rodapé**. Depois que o rodapé tiver sido ativado para uma determinada grade, essa configuração será lembrada até que o usuário opte por ocultar o rodapé, o que pode ser feito clicando com o botão direito do mouse em um cabeçalho de coluna e selecionando **Ocultar rodapé**.  Observe que o posicionamento da ação **Mostrar rodapé/Ocultar rodapé** deve ser realocado em uma atualização futura. 
 
@@ -49,9 +51,16 @@ Esse rodapé é ocultado por padrão, mas pode ser facilmente ativado. Para most
 No momento, nenhuma coluna será configurada para mostrar os totais por padrão. Pelo contrário, essa atividade é considerada de configuração única, semelhante ao ajuste das larguras das colunas em grades. Após especificação de que deseja ver os totais de uma coluna, essa configuração será lembrada na próxima vez que você visitar a página.  
 
 Há duas maneiras de configurar uma coluna para mostrar um total: 
-1.  Clique com o botão direito do mouse na coluna na qual você está interessado em ver um total e selecione **Totalizar esta coluna**. Essa ação terá três consequências. Primeira, ela tornará o rodapé visível. Segunda, ela salvará sua preferência para ver um total nessa coluna. Terceira, essa ação iniciará um cálculo de totais para essa coluna e quaisquer outras anteriormente configuradas para ver os totais. O tempo necessário para que um total seja mostrado está diretamente relacionado ao tamanho do conjunto de dados que você está totalizando.  
 
-2.  Depois que o rodapé for exibido, se desejar, você poderá clicar no botão **Mostrar total** na região do rodapé, na parte inferior da coluna da qual você está interessado em ver o total. Se não houver colunas configuradas, o botão **Mostrar total** ficará visível para todas as colunas numéricas. Depois que houver pelo menos uma coluna configurada para totais, os botões **Mostrar total** só ficarão disponíveis com a passagem do mouse ou na focalização. Essa ação simplesmente salva sua preferência de ver um total nessa coluna para futuras visitas a essa página, e esse estado é indicado pelo traço que aparece no rodapé dessa coluna (ou um total será mostrado imediatamente se o conjunto de dados for suficientemente pequeno).
+- Clique com o botão direito do mouse na coluna da qual você deseja ver um total e selecione **Totalizar esta coluna**. Essa ação causa três eventos:
+
+    1. O rodapé fica visível. 
+    2. Sua preferência para ver um total dessa coluna é salva. 
+    3. Um cálculo de totais é iniciado para essa coluna e quaisquer outras colunas que você configurou anteriormente para ver totais. O tempo necessário para mostrar um total depende do tamanho do conjunto de dados que você está totalizando.
+
+- Depois que o rodapé estiver visível, selecione **Mostrar total** na área do rodapé na parte inferior da coluna da qual você deseja ver um total. Se não houver colunas configuradas, o botão **Mostrar total** estará disponível para todas as colunas numéricas. 
+
+    Depois que houver pelo menos uma coluna configurada para totais, os botões **Mostrar total** só ficarão disponíveis com a passagem do mouse ou na focalização. A ação de selecionar **Mostrar total** só salva sua preferência para ver um total nesta coluna, a fim de que a preferência seja aplicada durante futuras visitas à página. No rodapé, esse estado é indicado por um traço que aparece na coluna. (Como alternativa, se o conjunto de dados for pequeno o suficiente, um total será mostrado imediatamente.)
 
 Se você cometer um erro e não quiser mais ver um total em uma determinada coluna, clique com o botão direito do mouse na coluna e selecione **Ocultar total** ou selecione o botão **Ocultar total** no rodapé dessa coluna. Essa preferência também será salva para futuras visitas à página. 
 
@@ -67,18 +76,18 @@ Geralmente, os usuários corporativos precisam executar análises ad hoc de dado
 
 Para usar esse recurso, clique com o botão direito do mouse na coluna pela qual deseja agrupar e selecione **Agrupar por esta coluna**. Essa ação vai classificar os dados pela coluna selecionada, adicionar uma nova coluna Agrupar por ao início da grade e inserir "linhas do cabeçalho" no início de cada grupo. Essas linhas de cabeçalho fornecem as seguintes informações sobre cada grupo: 
 -  Valor de dados para o grupo 
--  Rótulo da coluna. Isso será especialmente útil quando houver suporte para vários níveis de agrupamento.  
+-  Etiqueta da coluna (Essas informações serão especialmente úteis depois que vários níveis de agrupamento forem compatíveis.)
 -  Número de linhas de dados neste grupo
 -  Subtotais de qualquer coluna configurada para mostrar totais
 
 Com [Exibições salvas](saved-views.md) habilitadas, esse agrupamento pode ser salvo por personalização como parte de uma exibição para acesso rápido na próxima vez que você visitar a página.  
 
-Se você selecionar **Agrupar por esta coluna** em uma coluna diferente, o agrupamento original será substituído, pois só há suporte para o nível de agrupamento na versão 10.0.9/Atualização 33 da plataforma.
+Se você selecionar **Agrupar por esta coluna** em uma coluna diferente, o agrupamento original será substituído, pois só há suporte para um nível de agrupamento na versão 10.0.9 com atualização 33 da plataforma.
 
 Para desfazer o agrupamento em uma grade, clique com o botão direito do mouse na coluna de agrupamento e selecione **Desagrupar**.  
 
 
 ## <a name="evaluating-math-expressions"></a>Avaliação de expressões matemáticas
-Como um acelerador de produtividade, o usuário pode inserir fórmulas matemáticas em células numéricas de uma grade, em vez de fazer cálculos em um aplicativo fora do sistema. Por exemplo, você pode inserir **=15\*4** e usar tab para sair do campo. O sistema avaliará a expressão e salvará um valor de "60" para o campo.
+Como um acelerador de produtividade, os usuários podem inserir fórmulas matemáticas em células numéricas em uma grade. Eles não precisam fazer o cálculo em um aplicativo fora do sistema. Por exemplo, se você digitar **=15\*4** e pressionar a tecla **Tab** para sair do campo, o sistema avaliará a expressão e salvará um valor de **60** para o campo.
 
-Para que o sistema reconheça um valor como uma expressão, inicie o valor com um sinal de igualdade (**=**). Para obter mais detalhes sobre os operadores e a sintaxe permitidos, consulte [Símbolos matemáticos permitidos](http://redhivesoftware.github.io/math-expression-evaluator/#supported-maths-symbols).  
+Para que o sistema reconheça um valor como uma expressão, inicie o valor com um sinal de igualdade (**=**). Para obter mais detalhes sobre os operadores e a sintaxe permitidos, consulte [Símbolos matemáticos permitidos](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).  

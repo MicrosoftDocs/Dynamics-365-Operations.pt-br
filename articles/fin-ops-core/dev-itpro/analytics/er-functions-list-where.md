@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 50d90697f522f3c4d7b62190928008b6d923ffc6
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 392cf7acebd7ad95bcc0f5d4b7a67500a412a795
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916076"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041821"
 ---
 # <a name="WHERE">Função de ER WHERE</a>
 
@@ -33,7 +33,7 @@ A função `WHERE` retorna a lista especificada como um valor de *Lista de regis
 
 ## <a name="syntax"></a>Sintaxe
 
-```
+```vb
 WHERE (list, condition)
 ```
 

@@ -17,12 +17,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 320c31348a7277d61ec04e09f221f3f91de67855
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f5bc9aa156dd9c3a2817ad6b1a3cc9d48e0ba006
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175193"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3058006"
 ---
 # <a name="referenced-fiscal-documents-for-brazil"></a>Notas fiscais referenciadas para o Brasil
 
@@ -91,7 +91,7 @@ Os espaços reservados de texto de nota fiscal são marcas predefinidas que repr
 | %FiscalRef\_InvAccIENumberRef         | O número de inscrição estadual (IE) da conta da fatura de referência.          |
 | %FiscalRef\_InvAccCNPJCPFNumRef       | O número de registro do contribuinte (CNPJ/CPF) da conta da fatura de referência. |
 | %FiscalRef\_FiscalPrinterSerialNumber | O número de série da impressora fiscal.                                      |
-| %FiscalRef\_ECFNumber                 | O número de impressora fiscal na fábrica.                                |
+| %FiscalRef\_ECFNumber                 | O número de impressora fiscal na loja.                                |
 
 
 

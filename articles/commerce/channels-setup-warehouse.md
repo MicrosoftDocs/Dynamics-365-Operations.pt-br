@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: fe785e3bfd503193a588958ae5df0d1c0fdb9e52
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 9ba12876a8c8f841733d8ec49c33e900211c4ab4
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002303"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057847"
 ---
 # <a name="warehouse-set-up"></a>Configuração do depósito
 
@@ -59,7 +59,7 @@ Para configurar um depósito, siga estas etapas.
 
 1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Configuração de canal \> Depósitos**.
 1. No painel de ação, selecione **Novo**.
-1. No campo **Depósito**, insira um valor.  No caso de um mapeamento 1:1 para uma loja de varejo, use o nome da loja ou o nome de um centro de distribuição regional.
+1. No campo **Depósito**, insira um valor.  No caso de um mapeamento 1:1 para uma loja, use o nome da loja ou o nome de um centro de distribuição regional.
 1. No campo **Nome**, insira um valor.
 1. Na lista suspensa **Site**, selecione o site de depósito criado anteriormente.
 1. No campo **Tipo**, selecione **Padrão**.

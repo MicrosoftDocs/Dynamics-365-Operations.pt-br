@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: dd72c8a54498cc6ffae7125c5c2f44bfac5a5995
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 88ba96b1d9d2f722528a4a920eabe4ab64304a7a
+ms.sourcegitcommit: 4f668b23f5bfc6d6502858850d2ed59d7a79cfbb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658635"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3059419"
 ---
 # <a name="mobile-invoice-approvals"></a>Aprovações de fatura móvel
 
@@ -54,8 +54,8 @@ Cada organização orquestra e define seu processo comercial para faturas de for
     -   Quantas distribuições contábeis (preço bruto, impostos, encargos, separações, e assim por diante) existem para uma linha de fatura? Novamente, aplique a regra 80-20.
     -   As faturas também têm distribuições contábeis no cabeçalho da fatura? Em caso afirmativo, essas distribuições contábeis devem estar disponíveis no dispositivo?
 
-> [!NOTE]
-> Este tópico explica como não editar distribuições contábeis, porque essa funcionalidade não é suportada atualmente para cenários móveis.
+    > [!NOTE]
+    > Este tópico explica como não editar distribuições contábeis, porque essa funcionalidade não é suportada atualmente para cenários móveis.
 
 -   Os usuários desejarão consultar anexos da fatura no dispositivo?
 
@@ -158,9 +158,9 @@ A primeira página móvel que você deve criar pela lista de faturas atribuídas
     - Número da fatura
     - Data da fatura
 
-  Depois dos campos serem adicionados, a página móvel deve ser semelhante à ilustração a seguir. 
+    Depois dos campos serem adicionados, a página móvel deve ser semelhante à ilustração a seguir. 
     
-   [![Página após os campos serem adicionados](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+    [![Página após os campos serem adicionados](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
 
 9.  Você também deve adicionar as seguintes colunas agora, para que possamos habilitar ações de fluxo de trabalho posteriormente.
     - Exibir tarefa concluída
@@ -247,9 +247,10 @@ Para adicionar ações de fluxo de trabalho, use a página **VendMobileInvoiceHe
     - Oculta colunas relacionadas a fluxo de trabalho extra que foram adicionadas anteriormente na página de listagem móvel. Nós adicionamos essas colunas de forma que o aplicativo tenha essas informações no contexto e possa executar a próxima etapa.
     - Com a etapa do fluxo de trabalho ativa, aplique a lógica para mostrar somente aquelas ações.
 
-> [!NOTE]
-> O nome das páginas e outros controles no código devem ser iguais aos nomes no espaço de trabalho.
+    > [!NOTE]
+    > O nome das páginas e outros controles no código devem ser iguais aos nomes no espaço de trabalho.
 
+    ```javascript
     function main(metadataService, dataService, cacheService, $q) {
            return {
                appInit: function (appMetadata) {
@@ -308,6 +309,7 @@ Para adicionar ações de fluxo de trabalho, use a página **VendMobileInvoiceHe
                  },
            };
         }
+    ```
 
 2.  Carregue o arquivo do código ao espaço de trabalho selecionando a guia **Lógica**.
 3.  Clique em **Concluído** para sair do modo de edição.
@@ -341,7 +343,7 @@ Os requisitos para este cenário confirmam que haverá apenas distribuições ao
 
 1.  Na URL, substitua o nome do item de menu, como fez anteriormente. A página que aparece deve ser semelhante à ilustração a seguir.
 
-[![Página de todas as distribuições](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+    [![Página de todas as distribuições](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
 
 2.  Abra o criador móvel a partir do botão **Configurações** (imagem).
 
@@ -367,16 +369,18 @@ Os requisitos para este cenário confirmam que haverá apenas distribuições ao
 
 10. Clique em **Publicar espaço de trabalho** para salvar seu trabalho
 
-> [!NOTE] 
-> A página móvel **Exibir contabilidade** não está vinculada atualmente a quaisquer páginas móveis que criamos até agora. Como o usuário deve poder navegar até a página **Exibir contabilidade** da página **Detalhes de fatura** no dispositivo móvel, devemos fornecer navegação da página **Detalhes da fatura** para a página **Exibir contabilidade**. Nós estabelecemos essa navegação usando a lógica adicional por JavaScript.
+#### <a name="adding-navigation-to-view-accounting-page"></a>Adicionando navegação à página "Exibir contabilidade"
+
+A página móvel **Exibir contabilidade** não está vinculada atualmente a quaisquer páginas móveis que criamos até agora. Como o usuário deve poder navegar até a página **Exibir contabilidade** da página **Detalhes de fatura** no dispositivo móvel, devemos fornecer navegação da página **Detalhes da fatura** para a página **Exibir contabilidade**. Nós estabelecemos essa navegação usando a lógica adicional por JavaScript.
 
 1.  Abra o arquivo .js criado anteriormente e adicione linhas realçadas no código a seguir. Este código faz duas coisas:
     1.  Ajuda a garantir que os usuários não consigam navegar diretamente do espaço de trabalho até a página **Exibir contabilidade**.
     2.  Estabelece o controle de navegação da página **Detalhes de fatura** até a página **Exibir contabilidade**.
 
-> [!NOTE] 
-> O nome das páginas e outros controles no código devem ser iguais aos nomes no espaço de trabalho.
+    > [!NOTE] 
+    > O nome das páginas e outros controles no código devem ser iguais aos nomes no espaço de trabalho.
 
+    ```javascript
     function main(metadataService, dataService, cacheService, $q) {
            return {
                appInit: function (appMetadata) {
@@ -439,7 +443,8 @@ Os requisitos para este cenário confirmam que haverá apenas distribuições ao
                  },
            };
         }
-
+    ```
+    
 2.  Carregue o arquivo do código ao espaço de trabalho selecionando a guia **Lógica** para sobrescrever o código a seguir.
 3.  Clique em **Concluído** para sair do modo de edição.
 4.  Clique em **Voltar** e depois em **Concluído** para sair da área de trabalho

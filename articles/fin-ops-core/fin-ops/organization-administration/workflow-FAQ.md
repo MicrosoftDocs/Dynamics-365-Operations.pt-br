@@ -3,7 +3,7 @@ title: Perguntas frequentes sobre fluxo de trabalho
 description: Esse tópico responde perguntas frequentes sobre o sistema de fluxo de trabalho.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdddd26a662e9334f6d3c9806871df5b58ec03c7
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: f7408424ff9344b3dcd054106f3f10b0dc1d687b
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934900"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076077"
 ---
 # <a name="workflow-faq"></a>Perguntas frequentes sobre fluxo de trabalho
 
@@ -34,7 +34,7 @@ Quando um item de trabalho é rejeitado, esse item de trabalho é concluído com
 Cada notificação é para um item de trabalho diferente, mas a similaridade pode causar confusão. Sempre estamos de olho em formas para aprimorar isso em uma versão futura.
 
 ## <a name="why-are-my-workflow-exports-failing"></a>Por que minhas exportações de fluxo de trabalho estão falhando?
-Atualmente, existe uma limitação no recurso de exportação de fluxo de trabalho para prevenir que nomes de fluxo de trabalho excedam 48 caracteres. Usar um nome maior que 48 caracteres pode resultar em um erro de "Falha do servidor ao autenticar a solicitação" e/ou prevenir que um arquivo seja exportado sem um tipo de arquivo. A postagem de blog a seguir fornece mais detalhes [Solução de problemas na exportação do fluxo de trabalho](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting).
+Atualmente, existe uma limitação no recurso de exportação de fluxo de trabalho para prevenir que nomes de fluxo de trabalho excedam 48 caracteres. Usar um nome maior que 48 caracteres pode resultar em um erro de "Falha do servidor ao autenticar a solicitação" e/ou prevenir que um arquivo seja exportado sem um tipo de arquivo. A postagem de blog a seguir fornece mais detalhes, [Solução de problemas na exportação do fluxo de trabalho](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting).
 
 ## <a name="can-the-submitter-of-a-workflow-also-approve-the-workflow"></a>O emissor de um fluxo de trabalho também pode aprovar o fluxo de trabalho?
 Sim, um emissor de fluxo de trabalho também poderá aprovar o fluxo de trabalho se ele estiver configurado dessa forma. Para impedir este comportamento, defina **Administração do sistema > Fluxo de trabalho > Parâmetros do fluxo de trabalho > Geral > Aprovador > Rejeitar aprovação pelo remetente** como **Sim**.
@@ -48,9 +48,13 @@ Estes são alguns pontos importantes a serem observados para adicionar alertas a
     - Em uma atualização futura, adicionaremos uma mensagem da Central de Ações para que seja atribuído um item de trabalho de fluxo de trabalho a um usuário. 
 - Como adicionar notificações a fluxos de trabalho
     - As mensagens da Central de Ações podem ser criadas para usuários específicos, como uma mensagem criada de um fluxo de trabalho em X++.
-    - [Fluxos de trabalho têm Eventos de Negócios](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) que o cliente pode usar para disparar fluxos com as notificações que ele está procurando.   
+    - [Fluxos de trabalho têm eventos de negócios](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) que o cliente pode usar para disparar fluxos com as notificações que ele está procurando.   
 
-Em resumo, se um usuário não receber a notificação adequada da Central de Ações quando um item de trabalho de fluxo de trabalho for atribuído a ele, aproveite [Eventos de Negócios de Fluxo de Trabalho](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) com o Microsoft Power Automate para fornecer notificações adicionais ou diferentes.
+Em resumo, se um usuário não receber a notificação adequada da Central de Ações quando um item de trabalho de fluxo de trabalho for atribuído a ele, aproveite [Eventos de negócios de fluxo de trabalho](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) com o Microsoft Power Automate para fornecer notificações adicionais ou diferentes.
 
-## <a name="workflow-editor-has-trouble-starting-under-adfs"></a>O editor do fluxo de trabalho tem problemas para ser iniciado no ADFS 
+## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>Por que o editor de fluxo de trabalho não consegue iniciar no AD FS?
 Ao executar no Active Directory Federation Services (AD FS) em um ambiente atualizado, o editor do fluxo de trabalho pode ter problemas ao iniciar. Se isso acontecer, certifique-se de que a URL "https://dynamicsaxworkfloweditor/" seja adicionada à propriedade **Microsoft Dynamics 365 for Operations Local - Fluxo de trabalho - Aplicativo nativo** nas configurações do ADFS.
+
+## <a name="why-am-i-getting-sql-deadlocks-on-workflow-processing"></a>Por que estou obtendo deadlocks de SQL no processamento do fluxo de trabalho? 
+O valor padrão do campo para o **Número de itens de fluxo de trabalho por lote** na página **Parâmetros de fluxo de trabalho** é 0. O valor 0 faz com que o padrão seja alterado para 20 itens por lote. Tenha cuidado ao ajustar esse valor porque um grande número de itens por lote (> 40) pode causar deadlocks no SQL.
+

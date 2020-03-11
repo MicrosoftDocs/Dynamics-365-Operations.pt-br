@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d66fed3815188fa7e31735e3523376ae4ea1cf46
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 5f299a4bb697afce152a61ec35fcefab7157f356
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917663"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042518"
 ---
 # <a name="FORMATELEMENTNAME">Função FORMATELEMENTNAME ER</a>
 
@@ -33,7 +33,7 @@ A função `FORMATELEMENTNAME` retorna um valor de *Cadeia de caracteres* que re
 
 ## <a name="syntax"></a>Sintaxe
 
-```
+```vb
 FORMATELEMENTNAME ()
 ```
 

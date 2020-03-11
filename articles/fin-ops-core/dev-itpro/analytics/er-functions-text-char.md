@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d42afcf97690351763138fd9e16265aa104a6bc4
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 7813b0c6002e47aef6a8c119c72728a49584401b
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915731"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041219"
 ---
 # <a name="CHAR">Função de ER CHAR</a>
 
@@ -33,7 +33,7 @@ A função `CHAR` retorna um valor de *Cadeia de caracteres* que apresenta um ca
 
 ## <a name="syntax"></a>Sintaxe
 
-```
+```vb
 CHAR (number)
 ```
 

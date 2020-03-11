@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11954f3e48d8dc2257b3a0bc8768df47af3c5c0c
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 07fe19c5f66c33e336f76f3a72d3bbda0c7e8d86
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916697"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3040900"
 ---
 # <a name="TRANSLATE">Função de ER TRANSLATE</a>
 
@@ -33,7 +33,7 @@ A função `TRANSLATE` retorna a cadeia de caracteres de texto especificada como
 
 ## <a name="syntax"></a>Sintaxe
 
-```
+```vb
 TRANSLATE (text , pattern, replacement)
 ```
 
