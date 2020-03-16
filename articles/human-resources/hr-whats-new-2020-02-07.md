@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-02-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 78043273fb98a12a8d33f7bb94ba8ad2e9fb49fb
-ms.sourcegitcommit: 13c4a6f98ccce243d6befde90992aefcf562bdab
+ms.openlocfilehash: c6ca9877eb172794c67ac55b8dc54ed28af9576d
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029948"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076261"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-7-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources (7 de fevereiro de 2020)
 
@@ -68,5 +68,11 @@ Uma nova solução de Common Data Service estará disponível em breve com as se
 | Novas entidades de configuração de remuneração variável | **Tipo de plano de remuneração variável**</br>**Plano de remuneração variável**</br>**Regras de benefício proporcional diferido**</br>**Nível do plano de remuneração variável** |
 | Nova entidade **Emprego do calendário do trabalhador** | **Entidade do calendário de trabalho** adicionada |
 | Nova entidade **Detalhe da posição de folha de pagamento** | **Detalhe da posição de folha de pagamento** adicionado |
-| Nova entidade **Bloco** | **Bloco** adicionado. A nova entidade **Bloco** será incluída no processo de sincronização entre o Human Resources e o Common Data Service, mas não será referenciada inicialmente da entidade **Cargo** ou **Trabalho**. |
+| Nova entidade **Bloco** | **Bloco** adicionado. A nova entidade **Título** será incluída no processo de sincronização entre Human Resources e Common Data Service. Não será inicialmente referenciada de entidades **Cargo** ou **Trabalho**. |
 
+## <a name="see-also"></a>Consulte também
+
+[Novidades ou alterações no Human Resources](hr-admin-whats-new.md)</br>
+[Visão geral da onda 2 da versão 2019 do Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Atualizar processo](hr-admin-setup-update-process.md)</br>
+[Gerenciar recursos](hr-admin-manage-features.md)

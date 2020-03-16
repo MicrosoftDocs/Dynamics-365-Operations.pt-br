@@ -3,7 +3,7 @@ title: Criar regras de alerta
 description: Este tópico fornece informações sobre os alertas e explica como criar uma regra de alerta para que você seja notificado sobre eventos, como uma data do evento ou uma alteração específica que ocorra.
 author: tjvass
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: c37ddc52ef576a15dd35cc155e99821c74631a46
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 85d4774bc710f0c48b384601e5505f11394cf5d5
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180705"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3075915"
 ---
 # <a name="create-alert-rules"></a>Criar regras de alerta
 
@@ -31,7 +31,11 @@ ms.locfileid: "2180705"
 
 Antes de configurar uma regra de alerta, decida quando ou em quais situações deseja receber alertas. Quando você souber sobre qual evento deseja ser notificado, localize a página onde aparecem os dados que causam o evento. O evento pode ser uma data de ocorrência ou uma alteração específica que ocorra. Portanto, você deve encontrar a página na qual a data é especificada ou onde aparece o campo que é alterado ou o novo registro que é criado. Quando tiver estas informações, você poderá criar a regra de alerta.
 
-Quando cria uma regra de alerta, você define os critérios que o sistema deve atender para que um alerta seja acionado. Pense nos critérios como uma coincidência entre a ocorrência de um evento e o preenchimento de condições específicas. Quando um evento ocorre, o sistema inicia a verificação de acordo com as condições configuradas.
+Quando cria uma regra de alerta, você define os critérios que o sistema deve atender para que um alerta seja acionado. Critérios são basicamente a coincidência entre a ocorrência de um evento e o preenchimento de condições específicas. Quando um evento ocorre, o sistema inicia a verificação de acordo com as condições configuradas.
+
+## <a name="ensure-the-alert-batch-jobs-are-running"></a>Verificar se os trabalhos em lotes de alerta estão em execução
+
+Os trabalhos em lotes para alertas de alteração de dados e data de vencimento precisam estar em execução para que as condições de alerta sejam processadas e as notificações sejam enviadas. Para executar trabalhos em lotes, acesse **Administração do sistema** > **Tarefas periódicas** > **Alertas** e adicione um novo trabalho em lotes para **Alterar alertas com base** e/ou **Alertas da data de vencimento**. Se for necessário um trabalho em lotes longo e em execução frequente, selecione **Recorrência** e defina **Nenhuma data final** com um **Padrão de recorrência** de **Minutos** e uma **Contagem** de **1**.
 
 ## <a name="events"></a>Eventos
 
@@ -70,16 +74,21 @@ Na guia rápida **Alertar-me com** da caixa de diálogo **Criar regra de alerta*
 
 ## <a name="user-id"></a>ID do usuário
 
-Na guia rápida **Alertar-me com** da caixa de diálogo **Criar regra de alerta**, você pode especificar qual usuário deve receber as mensagens de alerta. Por padrão, seu ID de usuário é selecionado. Esta opção está restrita a administradores da organização.
+Na guia rápida **Alertar-me com** da caixa de diálogo **Criar regra de alerta**, você pode especificar qual usuário deve receber as mensagens de alerta. Por padrão, seu ID de usuário é selecionado. A capacidade de alterar o usuário que recebe o alerta é restrita aos administradores da organização.
+
+## <a name="alerts-as-business-events"></a>Alertas como eventos de negócios
+
+Os alertas podem ser enviados externamente usando a estrutura de eventos de negócios. Ao criar um alerta, defina **Em toda a organização** como **Não** e **Enviar externamente** como **Sim**. Depois que o alerta disparar o evento de negócios, você poderá acionar um fluxo incorporado no Power Automate usando o gatilho **Quando um evento de negócios ocorre** no conector do Finance and Operations ou enviar explicitamente o evento para um ponto de extremidade de eventos de negócios por meio do **Catálogo de eventos de negócios**.
 
 ## <a name="create-an-alert-rule"></a>Crie uma regra de alerta
 
+0. Verifique se os trabalhos em lotes de alerta estão em execução (veja acima).
 1. Abra a página que contém os dados a serem monitorados.
 2. No Painel de Ação, na guia **Opções**, no grupo **Compartilhar**, selecione **Criar regra de alerta**.
 3. Na caixa de diálogo **Criar regra de alerta**, no campo **Campo**, selecione o campo a ser monitorado.
 4. No campo **Evento**, selecione o tipo de evento.
-5. Na guia rápida **Alertar-me para**, selecione uma opção.
+5. Na guia rápida **Alertar-me para**, selecione a opção desejada. Se você deseja enviar o alerta como um evento de negócios, verifique se **Em toda a organização** está definido como **Não**.
 6. Caso você queira que a regra de alerta se torne ativa em uma determinada data, na guia rápida **Alertar-me até**, selecione uma data final.
-7. Na guia rápida **Alertar-me com**, no campo **Assunto**, aceite o cabeçalho padrão do assunto para a mensagem de e-mail ou insira um novo assunto. O texto é usado como o título do assunto da mensagem de email recebida quando um alerta é acionado.
+7. Na guia rápida **Alertar-me com**, no campo **Assunto**, aceite o cabeçalho padrão do assunto para a mensagem de e-mail ou insira um novo assunto. O texto é usado como o título do assunto da mensagem de email recebida quando um alerta é acionado. Se você deseja enviar o alerta como um evento de negócios, defina **Enviar externamente** como **Sim**.
 8. No campo **Mensagem**, digite uma mensagem opcional. O texto é usado como a mensagem recebida quando um alerta é acionado.
 9. Selecione **OK** para salvar as configurações e criar a regra de alerta.

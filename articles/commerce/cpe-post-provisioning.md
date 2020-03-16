@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 12d3a86698e9250f5d1645de51e0749c8d929f75
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: d72caee25c03e8167b94dd387c7861f98bd0f4cb
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024697"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057708"
 ---
 # <a name="configure-a-dynamics-365-commerce-preview-environment"></a>Configurar um ambiente de visualização do Dynamics 365 Commerce
 
@@ -35,7 +35,7 @@ Este tópico explica como configurar um ambiente de visualização do Microsoft 
 
 Conclua os procedimentos neste tópico somente após o provisionamento do seu ambiente de visualização comercial. Para obter informações sobre como provisionar seu ambiente de visualização do Commerce depois, consulte [Provisionar um ambiente de visualização do Commerce](provisioning-guide.md).
 
-Depois que o ambiente de visualização comercial é provisionado de ponta a ponta, as etapas adicionais de configuração posteriores ao provisionamento devem ser concluídas para que você possa começar a avaliar o ambiente. Para concluir essas etapas, você deve usar Microsoft Dynamics Lifecycle Services (LCS), Dynamics 365 Commerce e Dynamics 365 Retail.
+Depois que o ambiente de visualização comercial é provisionado de ponta a ponta, as etapas adicionais de configuração posteriores ao provisionamento devem ser concluídas para que você possa começar a avaliar o ambiente. Para concluir essas etapas, você deve usar Microsoft Dynamics Lifecycle Services (LCS) e Dynamics 365 Commerce.
 
 ## <a name="before-you-start"></a>Antes de começar
 
@@ -53,7 +53,7 @@ Depois que o ambiente de visualização comercial é provisionado de ponta a pon
 
 Para associar um trabalhador à sua identidade no LCS, siga estas etapas.
 
-1. Use o menu à esquerda, vá para **Módulos \> Varejo \> Funcionários \> Trabalhadores**.
+1. Use o menu à esquerda, vá para **Módulos \> Varejo e comércio \> Funcionários \> Trabalhadores**.
 1. Na lista, encontre e selecione o registro a seguir: **000713 - Andrew Collette**.
 1. No Painel de Ação, selecione **Varejo**.
 1. Selecione **Associar identidade existente**.
@@ -91,12 +91,12 @@ Para iniciar a configuração do seu site de visualização no Commerce, siga es
 1. Deixe o valor do campo **Caminho** como está.
 1. Selecione **OK**. A lista de páginas do site é exibida.
 
-## <a name="enable-jobs-in-retail"></a>Habilitar trabalhos no Varejo
+## <a name="enable-jobs"></a>Habilitar trabalhos
 
-Para habilitar trabalhos em Varejo, siga estas etapas.
+Para habilitar trabalhos no Commerce, siga estas etapas.
 
 1. Entre no ambiente (Matriz).
-1. Use o menu à esquerda, vá para **Varejo \> Consultas e relatórios \> Trabalhos em lotes**.
+1. Use o menu à esquerda, vá para **Varejo e comércio \> Consultas e relatórios \> Trabalhos em lotes**.
 
     As etapas restantes deste procedimento devem ser concluídas para cada um dos seguintes trabalhos:
 
@@ -112,11 +112,11 @@ Para habilitar trabalhos em Varejo, siga estas etapas.
     1. No Painel de Ação, na guia **Trabalho em lotes**, selecione **Alterar status**.
     1. Selecione **Aguardando** e, depois, **OK**.
 
-### <a name="run-full-data-synchronization-in-retail"></a>Executar sincronização completa de dados no varejo
+### <a name="run-full-data-synchronization"></a>Executar sincronização de dados completa
 
-Para executar a sincronização completa dos dados no Varejo, siga estas etapas.
+Para executar a sincronização completa dos dados no Commerce, siga estas etapas.
 
-1. Use o menu à esquerda para ir para **Módulos \> Varejo \> configuração da Sede \> agendador do Retail \> Banco de dados do canal**.
+1. Use o menu à esquerda para ir para **Módulos \> Varejo e comércio \> configuração da Sede \> Agendador do Retail \> Banco de dados do canal**.
 1. Na lista à esquerda, o canal **Padrão** é selecionado. Selecione o outro canal disponível. Esse canal é nomeado **scXXXXXXXXX**.
 1. No Painel de Ação, selecione **Sincronização de dados completa**.
 1. Digite **9999** como a agenda de distribuição.

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 43b23b9ef881b2ab2f3d005d4ba761848a7fa4ed
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 4b17f8e9b0d8a9a62714d0073561e66642b2eaf9
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024720"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057731"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-preview-environment"></a>Configurar recursos opcionais para um ambiente de visualização do Dynamics 365 Commerce
 
@@ -63,8 +63,8 @@ Se você deseja avaliar os recursos de gerenciamento de ativos digitais ao inclu
 
 ### <a name="update-the-media-base-url"></a>Atualize a URL base da mídia
 
-1. Entre no Dynamics 365 Retail.
-1. Use o menu à esquerda, vá para **Módulos \> Varejo \> Configuração do Canal \> Perfis do canal**.
+1. Entre no Dynamics 365 Commerce.
+1. Use o menu à esquerda, vá para **Módulos \> Varejo e comércio \> Configuração do Canal \> Perfis do canal**.
 1. Selecione **Editar**.
 1. Em **Propriedades do perfil**, substitua o valor da propriedade da **URL Base do Servidor de Mídia** com a URL Base de Mídia que você criou anteriormente.
 1. Na lista à esquerda, em canal **Padrão**, selecione outro canal.
@@ -77,7 +77,7 @@ Se você deseja avaliar os recursos de gerenciamento de ativos digitais ao inclu
 > [!NOTE]
 > Observe que o servidor SMTP ou o serviço de email digitado aqui deve estar acessível na assinatura do Azure que você está usando para o ambiente.
 
-1. Entrar no Varejo.
+1. Entre no Commerce.
 1. Use o menu à esquerda para acessar **Módulos \> Administração de sistema \> Configuração \> Email \> Parâmetros de email**.
 1. Na guia **Configurações de SMTP**, no campo**Servidor de email de saída**, insira o FQDN ou o endereço IP do servidor SMTP ou serviço de email.
 1. No campo **Número da porta SMTP**, insira o número da porta. (Se você não estiver usando Secure Sockets Layer \[SSL\], o número da porta padrão é **25**.)
@@ -92,7 +92,7 @@ Se você deseja avaliar os recursos de gerenciamento de ativos digitais ao inclu
 
 Para cada evento transacional para o qual você deseja enviar emails, você deve atualizar o modelo de email com um endereço de email do remetente válido.
 
-1. Entrar no Varejo.
+1. Entre no Commerce.
 1. Use o menu à esquerda para acessar **Módulos \> Administração da organização \> Configurar \> Modelos de email da organização**.
 1. Selecione **Mostrar lista**.
 1. Para cada modelo na lista, siga estas etapas:
@@ -115,7 +115,7 @@ Você pode desejar personalizar os modelos de email para que eles usem imagens d
     - Separar modelo de ordem
 
 1. Personalizar os modelos usando um texto ou editor HTML. Consulte a lista de [tokens compatíveis](#supported-tokens-in-the-email-template) posteriormente neste tópico.
-1. Entrar no Varejo.
+1. Entre no Commerce.
 1. Use o menu à esquerda para acessar **Módulos \> Administração da organização \> Configurar \> Modelos de email da organização**.
 1. Expanda a lista à esquerda para consultar todos os modelos.
 1. Para cada modelo que você deseja personalizar, siga estas etapas:

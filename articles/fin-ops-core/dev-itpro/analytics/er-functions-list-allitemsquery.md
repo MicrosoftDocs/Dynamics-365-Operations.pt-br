@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 647019a103006c8b74bc26885c51f5372dcf0c42
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 99f2aa9863e36a2f2eb1db5d0569d2a82402969a
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917502"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070635"
 ---
 # <a name="ALLITEMSQUERY">Função de ER ALLITEMSQUERY</a>
 
@@ -33,7 +33,7 @@ A função `ALLITEMSQUERY` é executada como uma consulta SQL associada. Ela ret
 
 ## <a name="syntax"></a>Sintaxe
 
-```
+```vb
 ALLITEMSQUERY (path)
 ```
 
@@ -65,7 +65,7 @@ Você define as seguintes fontes de dados no mapeamento de modelo:
 
 Ao executar o mapeamento de modelo para chamar a fonte de dados **JourLines**, a seguinte instrução SQL é executada:
 
-```
+```sql
 SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN
 CUSTINVOICETRANS T3 WHERE...
 ```

@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f3f2616fd98b37576625d9586a1cda29ce1b89f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1eb0b218b9008b255cc5a09eefb8c7fa35836cd7
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021657"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057478"
 ---
 # <a name="retail-sales-price-management"></a>Gerenciamento de preços de vendas de varejo
 
@@ -43,23 +43,23 @@ Os seguintes termos são usados neste tópico.
 
 ## <a name="price-groups"></a>Grupos de preços
 
-Os grupos de preços estão no centro do gerenciamento de preços e desconto no Commerce. Os grupos de preços são usados para atribuir preços e descontos para entidades de varejo (isto é, canais, catálogos, afiliações e programas de fidelidade). Como os grupos de preços são usados para todos os preços e descontos, é muito importante você planejar como os usará, antes de começar.
+Os grupos de preços estão no centro do gerenciamento de preços e desconto no Commerce. Os grupos de preços são usados para atribuir preços e descontos para entidades de comércio (isto é, canais, catálogos, afiliações e programas de fidelidade). Como os grupos de preços são usados para todos os preços e descontos, é muito importante você planejar como os usará, antes de começar.
 
-Por si só, um grupo de preços é apenas um nome, uma descrição, e, opcionalmente, uma prioridade de preços. O ponto principal sobre os grupos de preços é que eles são usados para gerenciar os relacionamentos muitos para muitos que os descontos e preços têm com as entidades de varejo.
+Por si só, um grupo de preços é apenas um nome, uma descrição, e, opcionalmente, uma prioridade de preços. O ponto principal sobre os grupos de preços é que eles são usados para gerenciar os relacionamentos muitos para muitos que os descontos e preços têm com as entidades de comércio.
 
-A ilustração a seguir mostra como os grupos de preços são usados. Nesta ilustração, observe que o "Grupo de preços" está literalmente no centro do gerenciamento de preços e desconto. As entidades de varejo que você pode usar para gerenciar diferenciais de preços e descontos ficam à esquerda e os registros de preço e desconto reais ficam à direita.
+A ilustração a seguir mostra como os grupos de preços são usados. Nesta ilustração, observe que o "Grupo de preços" está literalmente no centro do gerenciamento de preços e desconto. As entidades de comércio que você pode usar para gerenciar diferenciais de preços e descontos ficam à esquerda e os registros de preço e desconto reais ficam à direita.
 
 ![Grupos de preços](./media/PriceGroups.png "Grupos de preços")
 
-Ao criar grupos de preços, você não deverá usar um único grupo de preços para vários tipos de entidades de varejo. Caso contrário, poderá ser difícil determinar porque um preço ou desconto específico está sendo aplicado a uma transação.
+Ao criar grupos de preços, você não deverá usar um único grupo de preços para vários tipos de entidades de comércio. Caso contrário, poderá ser difícil determinar porque um preço ou desconto específico está sendo aplicado a uma transação.
 
 Como a linha tracejada vermelha na ilustração mostra, o Commerce dá suporte à funcionalidade principal do Microsoft Dynamics 365 de um grupo de preços que é definido diretamente em um cliente. Entretanto, nesse caso, você obtém apenas os contratos comerciais de preço de venda. Se quiser aplicar preços específicos do cliente, recomendamos que você não defina grupos de preços diretamente no cliente. Em vez disso, você deverá usar afiliações.
 
-As seções a seguir fornecem mais informações sobre as entidades de varejo que você pode usar para definir preços distintos quando os grupos de preços forem usados. A configuração de preços e descontos para todas essas entidades é um processo de duas etapas. Essas etapas podem ser feitas em qualquer ordem. Entretanto, a ordem lógica é para definir os grupos de preços nas entidades primeiro, porque essa etapa é provavelmente uma configuração ocasional que é feita durante a implementação. Em seguida, conforme os preços e os descontos são criados, é possível definir grupos de preço nesses preços e descontos individualmente
+As seções a seguir fornecem mais informações sobre as entidades de comércio que você pode usar para definir preços distintos quando os grupos de preços forem usados. A configuração de preços e descontos para todas essas entidades é um processo de duas etapas. Essas etapas podem ser feitas em qualquer ordem. Entretanto, a ordem lógica é para definir os grupos de preços nas entidades primeiro, porque essa etapa é provavelmente uma configuração ocasional que é feita durante a implementação. Em seguida, conforme os preços e os descontos são criados, é possível definir grupos de preço nesses preços e descontos individualmente
 
 ### <a name="channels"></a>Canais
 
-No setor de varejo, é muito comum ter diferentes preços em diferentes canais. Os dois principais fatores que afetam os preços específicos do canal são custos e condições do mercado local.
+No setor de comércio, é muito comum ter diferentes preços em diferentes canais. Os dois principais fatores que afetam os preços específicos do canal são custos e condições do mercado local.
 
 - **Custos** – Quanto mais longe estiver um canal do produto de origem, maior o custo para armazenar um produto. Por exemplo, produtos frescos têm uma prateleira limitada e outros requisitos de produção específicos (por exemplo, uma estação de crescimento). Durante o inverno, a alface fresca provavelmente custa mais nos climas do norte do que nos climas do sul. Se estiver definindo preços para canais em uma grande área geográfica, provavelmente você vai querer definir preços diferentes em canais diferentes.
 - **Condições do mercado local** – Uma loja que tenha um concorrente direto do outro lado da rua será muito mais sensível ao preço do que uma loja que não tenha um concorrente direto nas proximidades.
@@ -84,7 +84,7 @@ Alguns varejistas usam catálogos físicos ou virtuais para comercializar produt
 
 ### <a name="best-practices-for-price-groups"></a>Práticas recomendadas para grupos de preços
 
-Não use um grupo de preços para vários tipos de entidades de varejo. Em vez disso, use um conjunto de grupos de preços para os canais, um conjunto diferente de grupos de preços para afiliações ou programas de fidelidade, etc. Você pode usar um prefixo ou sufixo no nome do grupo de preços para agrupar visualmente vários tipos de grupos de preços que você está usando.
+Não use um grupo de preços para vários tipos de entidades. Em vez disso, use um conjunto de grupos de preços para os canais, um conjunto diferente de grupos de preços para afiliações ou programas de fidelidade, etc. Você pode usar um prefixo ou sufixo no nome do grupo de preços para agrupar visualmente vários tipos de grupos de preços que você está usando.
 
 Evite definir grupos de preço diretamente em um cliente. Em vez disso, use uma afiliação. Dessa forma, você pode atribuir todos os tipos de preços e descontos para clientes, e não apenas contratos comerciais de preço de venda.
 
@@ -98,7 +98,7 @@ Para usar a prioridade do preço para preços, é necessário atribuir uma prior
 
 O recurso de prioridade de preço foi introduzido para oferecer suporte ao cenário no qual um varejista deseja aplicar preços mais alto em um conjunto específico de lojas. Por exemplo, um varejista definiu preços regionais para a costa leste dos Estados Unidos, mas quer preços mais altos para alguns produtos das lojas de Nova York porque é mais caro vender alguns produtos na cidades e/ou porque o mercado local suporta um preço mais alto.
 
-Conforme descrito na seção "Melhor preço" deste tópico, o mecanismo de precificação de varejo geralmente seleciona o menor dos dois preços. Portanto, o varejista geralmente evita usar o maior dos dois preços em uma loja que tem os dois grupos de preços na costa leste e em Nova York. Para resolver esse problema antes de o recurso de prioridade de preço ser introduzido, o varejista teve que definir preços para cada produto duas vezes, e não atribuir os dois grupos de preços. Como alternativa, o varejista teve que criar grupos de preço adicional para isolar produtos com um preço mais alto de produtos com preços usuais, mais baixo.
+Conforme descrito na seção "Melhor preço" deste tópico, o mecanismo de precificação geralmente seleciona o menor dos dois preços. Portanto, o varejista geralmente evita usar o maior dos dois preços em uma loja que tem os dois grupos de preços na costa leste e em Nova York. Para resolver esse problema antes de o recurso de prioridade de preço ser introduzido, o varejista teve que definir preços para cada produto duas vezes, e não atribuir os dois grupos de preços. Como alternativa, o varejista teve que criar grupos de preço adicional para isolar produtos com um preço mais alto de produtos com preços usuais, mais baixo.
 
 Entretanto, o recurso de prioridade de preços permite que o varejista crie uma prioridade de preços para preços de loja que seja maior do que a prioridade do preço para preços regionais. Como alternativa, o varejista pode criar uma prioridade de preços apenas para preços de loja e deixar os preços regionais na prioridade padrão de definição de preços, que é 0 (zero). As duas configurações ajudam a garantir que os preços de loja sempre serão usados antes de preços regionais.
 
@@ -142,7 +142,7 @@ O local mais fácil para definir o preço de um produto é diretamente no produt
 
 Se um produto tiver um preço para todos, o preço base oferece a forma mais eficiente de gerenciar o preço desse produto. Mesmo que você use contratos comerciais para definir preços, você também pode definir o preço base de um produto. Depois, se você não usar um contrato comercial **Tudo**, você terá um preço de fallback que é usado quando nenhum contrato comercial é aplicado.
 
-Se uma moeda do canal de varejo for diferente da moeda da empresa, o preço base nesse canal é determinado usando a conversão da moeda no preço que é definido no produto.
+Se uma moeda do canal for diferente da moeda da empresa, o preço base nesse canal é determinado usando a conversão da moeda no preço que é definido no produto.
 
 Embora a unidade de preço não esteja em um cenário comum, o mecanismo de preço a apoia. Se a unidade de preço for definida como um valor diferente de **0** (zero), o preço por unidade é igual a Preço ÷ Unidade de preço. Por exemplo, se o preço o produto for $10,00 e a unidade de preço for 50, o preço de uma quantidade 1 é $ 0,20 (=$10,00 ÷ 50).
 
@@ -150,9 +150,9 @@ Embora a unidade de preço não esteja em um cenário comum, o mecanismo de pre�
 
 Usando o diário de contrato comercial, você pode criar contratos comerciais de preço de vendas para cada produto. No Microsoft Dynamics 365, há três escopos de contratos comerciais de preço de venda: **Tabela**, **Grupo** e **Tudo**. O escopo do cliente determina os clientes aos quais um contrato comercial do preço de venda é aplicado.
 
-Um contrato comercial do preço de venda de **Tabela** é para um cliente único que é definido diretamente no contrato comercial. Esse cenário não é um cenário típico de business-to-consumer (B2C) de varejo. Porém, se ocorrer, o mecanismo do preço usa os contratos comerciais da **Tabela** ao determinar o preço.
+Um contrato comercial do preço de venda de **Tabela** é para um cliente único que é definido diretamente no contrato comercial. Esse cenário não é um cenário típico de business-to-consumer (B2C). Porém, se ocorrer, o mecanismo do preço usa os contratos comerciais da **Tabela** ao determinar o preço.
 
-Um contrato comercial do preço de venda **Grupo** é o tipo que é mais frequentemente usado com a funcionalidade de varejo. Fora do Commerce, os contratos comerciais do preço de vendas **Grupo** são para o grupo de clientes simples. Porém, no Commerce, o conceito de um grupo de clientes foi estendido, de forma que é um grupo do preço mais genérico. Um grupo de preço pode ser vinculado a um canal, uma afiliação, a um programa de fidelidade, ou um catálogo. Para informações detalhadas sobre grupos de preços, consulte a seção “Grupos de preços” anteriormente neste tópico.
+Um contrato comercial do preço de venda **Grupo** é o tipo que é mais frequentemente usado em conjunto. Fora do Commerce, os contratos comerciais do preço de vendas **Grupo** são para o grupo de clientes simples. Porém, no Commerce, o conceito de um grupo de clientes foi estendido, de forma que é um grupo do preço mais genérico. Um grupo de preço pode ser vinculado a um canal, uma afiliação, a um programa de fidelidade, ou um catálogo. Para informações detalhadas sobre grupos de preços, consulte a seção “Grupos de preços” anteriormente neste tópico.
 
 > [!NOTE]
 > Um preço do contrato comercial sempre é usado antes do preço base.
@@ -211,7 +211,7 @@ O Microsoft SQL Server Express é usado frequentemente para bancos de dados do c
 
 ## <a name="prices-that-include-tax-vs-prices-that-exclude-tax"></a>Os preços que incluem imposto versus preços que excluem imposto
 
-Quando os preços de vendas forem definidos no Dynamics 365, você não especifica se o valor do preço que você está definindo inclui ou exclui o imposto. O valor é apenas o preço. Porém, a configuração **Preço inclui imposto** nos canais de varejo permitem configurar canais, de forma que eles incluam ou excluam imposto de preços. Esta configuração é definida no canal e pode até mesmo mudar em uma única empresa.
+Quando os preços de vendas forem definidos no Dynamics 365, você não especifica se o valor do preço que você está definindo inclui ou exclui o imposto. O valor é apenas o preço. Porém, a configuração **Preço inclui imposto** nos canais permitem configurar canais, de forma que eles incluam ou excluam imposto de preços. Esta configuração é definida no canal e pode até mesmo mudar em uma única empresa.
 
 Se você trabalhar com tipos inclusivos e exclusivo de impostos, será muito importante que você defina preços corretamente porque a quantidade total que o cliente paga será alterada se a configuração **Preço inclui imposto** no canal for alterada.
 
@@ -219,15 +219,15 @@ Se você trabalhar com tipos inclusivos e exclusivo de impostos, será muito imp
 
 Um mecanismo de única definição de preços é usado para calcular preços em todos os canais: Call center, loja de varejo e lojas online. Isso ajuda a habilitar os cenários unificados de comércio.
 
-O preço de varejo é criado para trabalhar com entidades de varejo, em vez das entidades não varejo. Especificamente, é criado para definir preços por loja, não por depósito.
+O preço é criado para trabalhar com entidades de varejo, em vez das entidades não varejo. Especificamente, é criado para definir preços por loja, não por depósito.
 
-O mecanismo de preços de varejo **não suporta** os seguintes recursos de preços:
+O mecanismo de preços **não suporta** os seguintes recursos de preços:
 
-- Não há suporte para a definição de preços por meio de dimensões de armazenamento do Local e Depósito. Se você especificar somente a dimensão do Site nos contratos comerciais, a definição de preços de varejo ignorará o Site e aplicará o contrato comercial a todos os sites. Se você especificar o Local e o Depósito, o comportamento será indefinido/não testado porque espera-se que os varejistas usem os grupos de preços de armazenamento para controlar os preços de cada loja/depósito.
+- Não há suporte para a definição de preços por meio de dimensões de armazenamento do Local e Depósito. Se você especificar somente a dimensão do Site nos contratos comerciais, a definição de preços de mecanismo ignorará o Site e aplicará o contrato comercial a todos os sites. Se você especificar o Local e o Depósito, o comportamento será indefinido/não testado porque espera-se que os varejistas usem os grupos de preços de armazenamento para controlar os preços de cada loja/depósito.
 - A definição de preços com base no atributo não é suportada.
 - A passagem de desconto do fornecedor não é suportada.
 
-Além disso, **somente** o mecanismo de preço de varejo suporta os seguintes recursos de preços:
+Além disso, **somente** o mecanismo de preço suporta os seguintes recursos de preços:
 
 - O preço está baseado em dimensões do produto, na ordem do preço da grade mais específica para o preço da grade menos específico para o preço do produto mestre. Um preço definido com duas dimensões de produtos (por exemplo, cor e tamanho) é usado antes de um preço definido usando somente uma dimensão de produtos (por exemplo, por tamanho.)
 - O mesmo grupo de preços pode ser usado para controlar a definição de preços e descontos.

@@ -3,7 +3,7 @@ title: Visão geral de reabastecimento
 description: Este tópico descreve as estratégias de reabastecimento que estão disponíveis para os depósitos que usam a funcionalidade que está disponível no Gerenciamento de depósito.
 author: Mirzaab
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3c1989f11563db343129c678623725e2e61b27fc
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7aa17df3c3632c89f35a69022084bbd9f4171f36
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251451"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076331"
 ---
 # <a name="replenishment-overview"></a>Visão geral de reabastecimento
 
@@ -49,6 +49,8 @@ Diretivas locais são usadas para determinar qual local deve ser reabastecido. V
 Além de criar um modelo, você deve especificar algumas configurações de reabastecimento no modelo de onda. O modelo de onda deve conter uma etapa de onda para reabastecimento executada somente se um item não for alocado com sucesso. Esta etapa de onda de reabastecimento usa um código de etapa de onda para determinar qual modelo de reabastecimento deve ser usado. Além de ter uma etapa de onda para reabastecimento, você deve garantir que o **Reabastecimento** seja selecionado na seção **Métodos** do modelo de onda. 
 
 A página **Modelo de reabastecimento** inclui uma caixa de seleção **Permitir que a demanda de onda use quantidades não reservadas**. Marca esta caixa de seleção se o reabastecimento de demanda tiver que deduzir quantidades de trabalho não reservadas geradas do modelo selecionado de reabastecimento. Selecione esta caixa de seleção para cada modelo existente de reabastecimento para permitir que modelos de reabastecimento de demanda usem esta lógica. Quando o reabastecimento de demanda é disparado no depósito, ele deduzirá a demanda de trabalho de reabastecimento existente com quantidades não reservadas, se o trabalho for gerado por modelos de reabastecimento com a caia de seleção **Permitir que a demanda da onda use quantidades não reservadas** selecionada.
+
+**Unidade de reabastecimento** é a unidade mínima a ser reabastecida. Este deve ser um número inteiro que é um múltiplo da unidade. O sistema arredondará para a unidade mais alta possível ao criar trabalho.
 
 O reabastecimento de demanda é suportado para pedidos de vendas, ordens de transferência, ordens de produção e kanbans. 
 

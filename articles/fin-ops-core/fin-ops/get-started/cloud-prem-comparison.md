@@ -3,7 +3,7 @@ title: Comparação de recursos de nuvem e locais
 description: O tópico mostra quais recursos são suportados na Nuvem e locais.
 author: sericks007
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 02/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: aa60f3bc35f2bc10902da060ccacd7767bc9af8f
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: a918d9fa1ad7ed5adcbb1d056bb8cc3306507aec
+ms.sourcegitcommit: 8ff2413b6cb504d2b36fce2bb50441b2e690330e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005717"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "3081961"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Comparação de recursos de nuvem e locais
 
@@ -81,6 +81,7 @@ As tabelas a seguir listam as áreas do aplicativo. O suporte à nuvem e aos loc
 |                                      | Gravador de tarefas - Salvar ou carregar gravações de tarefas da biblioteca de BPM                         | Sim       | Não              |
 | Suporte                              |                                                                                           | Sim       | Sim             |
 |                                      | Acesso ao suporte por meio do menu Ajuda e Suporte                                             | Sim       | Não              |
+|                                      | Eventos de negócios                                                                           | Sim       | Sim (é necessária conectividade com a Internet ou pontos de extremidade personalizados devem ser implementados para enviar/receber eventos de negócios na intranet)              |
 
 ## <a name="dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 
 
@@ -147,7 +148,7 @@ As tabelas a seguir listam as áreas do aplicativo. O suporte à nuvem e aos loc
 
 ## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-Para ver uma lista de recursos disponíveis em implantações locais, consulte [Recursos de varejo disponíveis em implantações locais](../../../retail/retail-onprem.md).
+Para ver uma lista de recursos disponíveis em implantações locais, consulte [Recursos do Commerce disponíveis em implantações locais](../../../retail/retail-onprem.md).
 
 ## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 

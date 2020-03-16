@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cb9a387c8b68d0da4dd485116089f1cf4c5ab72c
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: d0df97234df41d11897473dea4e85354e82d36ec
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915961"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041690"
 ---
 # <a name="VALUEIN">Função de ER VALUEIN</a>
 
@@ -33,7 +33,7 @@ A função `VALUEIN` determina se a entrada especificada corresponde a algum val
 
 ## <a name="syntax"></a>Sintaxe
 
-```
+```vb
 VALUEIN (input, list, list item expression)
 ```
 
@@ -61,7 +61,7 @@ O valor *Booliano* resultante.
 
 Em geral, a função `VALUEIN` é convertida em um conjunto de condições **OR**.
 
-```
+```vb
 (input = list.item1.value) OR (input = list.item2.value) OR …
 ```
 
@@ -94,7 +94,7 @@ Você define as seguintes fontes de dados no mapeamento de modelo:
 
 Quando uma fonte de dados que tenha sido configurada como a expressão `FILTER (In, VALUEIN(In.Port, Port, Port.PortId)` é chamada, a seguinte instrução SQL é gerada para retornar registros filtrados da tabela Intrastat.
 
-```
+```vb
 select … from Intrastat
 exists join TableId from IntrastatPort
 where IntrastatPort.PortId = Intrastat.Port
@@ -111,7 +111,7 @@ Você define as seguintes fontes de dados no mapeamento de modelo:
 
 Quando uma fonte de dados que tenha sido configurada como a expressão `FILTER (In, VALUEIN (In.dataAreaId, Le, Le.Value)` é chamada, a instrução SQL final contém a seguinte condição.
 
-```
+```vb
 Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 ```
 

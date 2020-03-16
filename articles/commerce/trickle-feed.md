@@ -1,6 +1,6 @@
 ---
 title: Criação de ordens baseadas em um fluxo constante para transações de loja de varejo
-description: Este tópico descreve a criação de ordens baseadas em um fluxo constante para transações de loja de varejo do Microsoft Dynamics 365 Commerce.
+description: Este tópico descreve a criação de ordens baseadas em um fluxo constante para transações de loja no Microsoft Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
 ms.date: 10/14/2019
@@ -18,18 +18,16 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3f691017ad06d3416e4ba0e86d7a0bc207aba5bd
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 7d5812893edff24a60a0e2eb3607701ac47a8a78
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004265"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057133"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions-public-preview"></a>Criação de ordens baseadas em um fluxo constante para transações de loja de varejo (Visualização pública)
 
 [!include [banner](includes/banner.md)]
-
-
 
 No Dynamics 365 Retail versões 10.0.4 e anteriores, o lançamento de demonstrativo de varejo é uma operação de fechamento do dia e todas as transações são lançadas nos registros no final do dia. As grandes transações devem ser processadas em uma janela de tempo limitado, ocasionalmente resultando em falhas no lançamento de demonstrativo e bloqueios de carga. Os varejistas também podem não reconhecer receitas e pagamentos em seu registros durante o dia.
 
@@ -51,11 +49,11 @@ Com a visualização pública criação de ordens baseadas em um fluxo constante
       
      - O demonstrativo financeiro foi projetado para ser criado no final do dia e oferece suporte somente ao método de fechamento **Turno**. Esse demonstrativo estará limitado à reconciliação financeira e criará somente os diários para os valores de diferenças entre o valor contado e o valor da transação dos diferentes meios de pagamento, juntamente com os diários para outras transações de gerenciamento de caixa.   
 
-4. Para calcular o demonstrativo transacional, clique em **Varejo e Comércio > TI de Varejo e Comércio > Lançamento do PDV > Calcular demonstrativos transacionais em lote**. Para lançar os demonstrativos do demonstrativo transacional em lote, clique em **Varejo e Comércio > TI de Varejo e Comércio > Lançamento do PDV > Lançar demonstrativos financeiros em lote**.
+4. Para calcular o demonstrativo transacional, clique em **Retail e Commerce > TI de Retail e Commerce > Lançamento do PDV > Calcular demonstrativos transacionais em lote**. Para lançar os demonstrativos do demonstrativo transacional em lote, clique em **Retail e Commerce > TI de Retail e Commerce > Lançamento do PDV > Lançar demonstrativos financeiros em lote**.
 
-5. Para calcular o demonstrativo financeiro, clique em **Varejo e Comércio > TI de Varejo e Comércio > Lançamento do PDV > Calcular demonstrativos financeiros em lote**. Para lançar os demonstrativos financeiros em lote, clique em **Varejo e Comércio > TI de Varejo e Comércio > Lançamento do PDV > Lançar demonstrativos financeiros em lote**.
+5. Para calcular o demonstrativo financeiro, clique em **Retail e Commerce > TI de Retail e Commerce > Lançamento do PDV > Calcular demonstrativos financeiros em lote**. Para lançar os demonstrativos financeiros em lote, clique em **Retail e Commerce > TI de Retail e Commerce > Lançamento do PDV > Lançar demonstrativos financeiros em lote**.
 
 > [!NOTE]
-> Os itens de menu **Varejo e Comércio > TI de Varejo e Comércio > Lançamento do PDV > Calcular demonstrativos em lote** e **Varejo e Comércio > TI de Varejo e Comércio > Lançamento do PDV > Lançar demonstrativos em lote** foram removidos com este novo recurso.
+> Os itens de menu **Retail e Commerce > TI de Retail e Commerce > Lançamento do PDV > Calcular demonstrativos em lote** e **Retail e Commerce > TI de Retail e Commerce > Lançamento do PDV > Lançar demonstrativos em lote** foram removidos com este novo recurso.
 
-Como alternativa, os tipos de demonstrativo transacional e financeiro podem ser criados manualmente. Acesse **Varejo e Comércio > Canais > Lojas** e clique em **Demonstrativos**. Clique em **Novo** e escolha o tipo de demonstrativo que deseja criar. Os campos na página **Demonstrativos** e as ações no **Grupo de demonstrativos** da página mostrarão os dados relevantes e as ações baseadas no tipo de demonstrativo selecionado.
+Como alternativa, os tipos de demonstrativo transacional e financeiro podem ser criados manualmente. Acesse **Retail e Commerce > Canais > Lojas** e clique em **Demonstrativos**. Clique em **Novo** e escolha o tipo de demonstrativo que deseja criar. Os campos na página **Demonstrativos** e as ações no **Grupo de demonstrativos** da página mostrarão os dados relevantes e as ações baseadas no tipo de demonstrativo selecionado.

@@ -1,12 +1,12 @@
 ---
-title: Desenvolver estrutura e plano de remuneração/salário
-description: Essa guia da tarefa mostra o processo de criar um plano de remuneração fixa e de habilitar os funcionários a serem inseridos no plano com a qualificação.
+title: Desenvolver uma estrutura de remuneração
+description: Este artigo mostra como criar um plano de remuneração fixa e inserir funcionários no plano com a qualificação.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 02/10/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
@@ -16,62 +16,100 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5711dc8a7fbd44ea9c27e1d57b936765808d199e
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 124d0f7f83feebabf622f00732c25bfa0f6eccdd
+ms.sourcegitcommit: de715b7fda2f1548f2f443b9e0f6d09f5b881d61
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008142"
+ms.lasthandoff: 02/10/2020
+ms.locfileid: "3034254"
 ---
-# <a name="develop-salarycompensation-structure-and-plan"></a>Desenvolver estrutura e plano de remuneração/salário
+# <a name="develop-a-compensation-structure"></a>Desenvolver uma estrutura de remuneração
 
+Este artigo mostra como criar um plano de remuneração fixa e inserir funcionários no plano com a qualificação. Este artigo usa os dados de demonstração de USMF e se aplica aos gerentes de remuneração e benefícios.
 
+## <a name="create-a-fixed-compensation-plan"></a>Crie um plano de remuneração fixa
 
-Essa guia da tarefa mostra o processo de criar um plano de remuneração fixa e de habilitar os funcionários a serem inseridos no plano com a qualificação. A empresa de dados de demonstração usada para criar essa tarefa é a USMF e esta tarefa é destinada aos gerentes de Compensação e Benefícios.
+1. Selecione **Gerenciamento de remuneração**.
 
+2. Selecione **Planos de remuneração fixa**.
 
-## <a name="create-fixed-compensation-plan"></a>Criar planos de remuneração fixa.
-1. Clique em Gerenciamento de remuneração.
-2. Clique em Planos de remuneração fixa.
-3. Clique em Novo.
-4. No campo Plano, digite um valor.
-5. No campo Descrição, digite um valor.
-6. No campo Data efetiva, insira uma data.
-7. No campo Tipo, selecione se o plano de remuneração fixa é uma faixa, classificação ou plano de etapa.
-8. A caixa de seleção permitida recomendada atua como um valor padrão para todas as ações adicionadas a esse plano em um evento de processo.  Recomendações para permitir que seja possível substituir o valor de diretriz calculado ao processar a compensação.
-9. A Tolerância fora do intervalo permite que você especifique como deseja manipular os valores de remuneração que estejam fora do intervalo especificado da estrutura de remuneração para o nível específico.  A Tolerância fora de intervalo de Nenhum permitirá que qualquer valor de remuneração seja usado.  Uma tolerância de meios de pagamento advertirá o usuário se o valor de remuneração for menor do que o valor mínimo de ponto de referência para esse nível, ou maior do que o valor máximo para o nível. O usuário pode ignorar o aviso e continuar.  Uma tolerância em vigor gera uma mensagem de erro se a remuneração de um funcionário for ajustada fora dos pontos de referência mínimo e máximo para o nível e ajustará automaticamente a remuneração do funcionário para estar no intervalo.
-10. O campo da regra de contratação é usado quando um evento de processo de remuneração for executado para calcular a remuneração de um funcionário.  Uma regra de contratação de porcentagem calculará um aumento que é distribuído para o período de tempo no qual o funcionário foi contratado no ciclo.
-11. No campo Moeda, digite um valor.
-12. No campo Conversão da taxa de pagamento, insira ou selecione um valor.
-13. Expandir a seção Matriz de variação de utilização.
-    * Opcionalmente, adicione registros de utilização do intervalo para obter funcionários no valor médio mais rápido e lento para alcançar o máximo do intervalo.  
-14. Nesse ponto, você deve salvar o plano de remuneração fixa para habilitar o botão de instalação de remuneração e continuar a definir a estrutura de remuneração para o plano.  Clique em Salvar.
-15. Clique em Configurar remuneração.
-    * Há três maneiras de criar uma estrutura de remuneração. 1: Criar uma estrutura totalmente nova selecionando um conjunto de pontos de referência e adicionando os níveis para criar sua própria estrutura. 2: Copiar uma estrutura de remuneração de um plano existente como ponto de partida e altera-la para o novo plano. 3: Selecionar uma grade de remuneração existente. Se a grade de compensação já está sendo usada por outro plano, todas as alterações feitas na grade também serão refletidas em outro plano.  
-16. Marque a opção Criar novo da matriz de remuneração existente.
-17. No campo Copiar da grade, insira ou selecione um valor.
-    * Opcionalmente você pode alterar o nome da nova grade de compensação que será criada como uma cópia da grade selecionada.  
-18. Clique em OK.
-19. Clique em Alteração em massa.
-    * A alteração em massa permite que você mantenha os valores da matriz de remuneração aplicando uma porcentagem ou um valor de aumento liso a um ou vários níveis e/ou pontos de referência.  
-20. No campo Valor do ajuste, insira um número.
+3. Selecione **Novo**.
+
+4. No campo **Plano**, insira um valor.
+
+5. No campo **Descrição**, insira um valor.
+
+6. No campo **Data efetiva**, insira uma data.
+
+7. No campo **Tipo**, selecione se o plano de remuneração fixa é um plano **Faixa**, **Classificação** ou **Etapa**.
+
+8. A caixa de seleção **Recomendação permitida** atua como um valor padrão para todas as ações adicionadas a esse plano em um evento de processo. Recomendações para permitir que seja possível substituir o valor de diretriz calculado ao processar a compensação.
+
+9. O campo **Fora da tolerância de faixa salarial** permite que você especifique como deseja manipular os valores de remuneração que estejam fora do intervalo especificado da estrutura de remuneração para o nível específico. Definir o campo **Fora da tolerância de faixa salarial** como **Nenhum** permite usar qualquer valor de remuneração. A **tolerância de meios** adverte os usuários se o valor da remuneração for menor que o valor mínimo ou maior que o valor máximo de ponto de referência para esse nível. Os usuários podem ignorar o aviso e continuar. Uma **tolerância em vigor** gera uma mensagem de erro se a remuneração de um funcionário estiver fora dos pontos de referência mínimo e máximo para o nível e ajustará automaticamente a remuneração do funcionário para estar no intervalo.
+
+10. O campo **Regra de contratação** calcula a remuneração de um funcionário durante um evento do processo. Uma **Regra de contratação** de **Porcentagem** calcula um aumento que é distribuído para o período de tempo no qual o funcionário foi contratado no ciclo.
+
+11. No campo **Moeda**, digite um valor.
+
+12. No campo **Conversão da taxa de pagamento**, insira ou selecione um valor.
+
+13. Expandir a seção **Matriz de variação de utilização**. Opcionalmente, adicione registros de utilização do intervalo para obter funcionários no valor médio mais rápido e lento para alcançar o máximo do intervalo.
+
+14. Selecione **Salvar**. Isso habilita o botão **Configurar remuneração** e continua definindo sua estrutura de remuneração para o plano.
+
+15. Selecione **Configurar remuneração**. É possível criar uma estrutura de remuneração usando um destes três métodos:
+
+    - Criar uma estrutura totalmente nova selecionando um conjunto de pontos de referência e adicionando os níveis para criar sua própria estrutura.
+    - Copiar uma estrutura de remuneração de um plano existente como ponto de partida e altera-la para o novo plano.
+    - Selecionar uma grade de remuneração existente. Se um plano já estiver usando a grade de remuneração, o outro plano também refletirá todas as alterações feitas na grade.
+
+16. Selecione **Criar nova matriz de remuneração a partir de uma existente**.
+
+17. No campo **Copiar da grade**, insira ou selecione um valor. Opcionalmente, você pode alterar o nome da grade de remuneração criada, copiando a grade selecionada.
+
+18. Selecione **OK**.
+
+19. Selecione **Alteração em massa**. A **alteração em massa** permite que você mantenha os valores da matriz de remuneração aplicando uma porcentagem ou um valor de aumento liso a um ou vários níveis ou pontos de referência.
+
+20. No campo **Valor do ajuste**, insira um número.
+
 21. Na lista, marque ou desmarque todas as linhas.
-22. Clique em Aplicar à grade.
-23. Feche a página.
-    * Depois que uma estrutura de remuneração tiver sido criada ou marcada, você pode selecionar quais dos pontos de referência deve ser usado como o ponto de controle para o plano de remuneração fixa.  O ponto de controle é usado para calcular a taxa de Compa de um funcionário.  
-24. No campo Ponto de controle, insira ou selecione um valor.
+
+22. Clique em **Aplicar à grade**.
+
+23. Feche a página. Depois de criar a estrutura de remuneração, é possível selecionar qual dos pontos de referência usar como ponto de controle para o plano de remuneração fixa. O ponto de controle é usado para calcular a taxa de Compa de um funcionário.
+
+24. No campo **Ponto de controle**, insira ou selecione um valor.
+
 25. Feche a página.
 
-## <a name="create-an-eligibility-rule-for-the-new-fixed-compensation-plan"></a>Criar uma regra de qualificação para o novo Plano de remuneração fixa
-    * O novo plano de remuneração fixa não pode ser atribuído a um funcionário até que as regras de qualificação estejam definidas para o plano.  
-1. Clique em Regras de qualificação.
-2. Clique em Novo.
-3. No campo Qualificação, digite um valor.
-4. No campo Descrição, digite um valor.
-5. No campo Data efetiva, insira uma data.
-    * Regras de qualificação são usadas para planos de compensação Fixos e Variáveis.  No campo Tipo, selecione o tipo de plano para o qual esse grupo de regras de qualificação é feito.  
-6. No campo Plano, insira ou selecione um valor.
-    * Selecione os critérios que funcionário deve atender aos requisitos a seguir para serem qualificados para a inscrição em um plano de remuneração. Os critérios podem incluir um nível de departamento, associação de trabalhadores, de localização (região de remuneração), trabalhos, função, tipo de trabalho ou de remuneração. O funcionário deve atender todos os requisitos especificados para ser qualificado para a inscrição em um plano de remuneração. Se nenhum critério for especificado, todos os funcionários estão qualificadas para o plano de remuneração. Se um funcionário não atender aos critérios especificados na regra de qualificação, ou uma regra de qualificação não tiver sido especificada para um plano de remuneração, o plano de remuneração não aparece na pesquisa ao criar um registro de compensação fixa para um funcionário.  
+## <a name="create-an-eligibility-rule-for-the-fixed-compensation-plan"></a>Criar uma regra de qualificação para o plano de remuneração fixa
+
+Não é possível atribuir um plano de remuneração fixa a um funcionário até definir regras de qualificação para o plano.  
+
+1. Selecione **Regras de qualificação**.
+
+2. Selecione **Novo**.
+
+3. No campo **Qualificação**, insira um valor.
+
+4. No campo **Descrição**, insira um valor.
+
+5. No campo **Data efetiva**, insira uma data. Os planos de remuneração fixa e variável usam regras de qualificação. No campo **Tipo**, selecione o tipo de plano.
+
+6. No campo **Plano**, insira ou selecione um valor. Selecione os critérios que funcionário deve atender aos requisitos a seguir para serem qualificados para a inscrição em um plano de remuneração. Os critérios podem incluir:
+
+    - **Departamento**
+    - **Sindicato**
+    - **Localização** (**Região de remuneração**)
+    - **Trabalho**
+    - **Função**
+    - **Tipo de trabalho**
+    - **Nível salarial**
+    
+    O funcionário deve atender todos os requisitos especificados para ser qualificado para a inscrição em um plano de remuneração. Se nenhum critério for especificado, todos os funcionários estão qualificadas para o plano de remuneração. Se um funcionário não atender aos critérios especificados na regra de qualificação, ou uma regra de qualificação não tiver sido especificada para um plano de remuneração, o plano de remuneração não aparecerá na pesquisa ao criar um registro de compensação fixa para um funcionário.
+
 7. Feche a página.
+
 8. Feche a página.
 

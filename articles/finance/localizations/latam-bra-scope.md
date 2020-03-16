@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: fbe148b091dfd33b8d27f6f4cbb77f030f4d5a8a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: c26ece4683fe73574ac1ce12bb22c1437c2265d4
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003770"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3058005"
 ---
 # <a name="scope-of-the-brazilian-localization"></a>Escopo da localização brasileira
 
@@ -45,7 +45,7 @@ Os parceiros de canal ou clientes são os únicos responsáveis por qualquer con
 - Qualquer configuração, modificação ou alteração que os parceiros ou clientes façam no software Microsoft Dynamics ou, quando aplicável, na documentação do software para atender às necessidades de negócios específicas de um cliente. Exemplos incluem adicionar ou renomear campos ou tabelas, criar relatórios personalizados ou integrar-se a soluções de terceiros.
 - Qualquer software que parceiros ou clientes desenvolvam para o software Microsoft Dynamics.
 
-**Localização** refere-se a qualquer modificação, adição ou adaptação no software Microsoft Dynamics para habilitar ou incluir determinados recursos ou funcionalidades específicos no software para fins de conformidade com requisitos regulatórios (incluindo, sem limitação, versões e atualizações do software Microsoft Dynamics, ferramentas de assistência ao usuário e documentação do usuário final). Exemplos de leis ou requisitos regulatórios que podem exigir localização do software incluem relatórios de impostos locais (por exemplo, para imposto sobre vendas, imposto sobre valor agregado [VAT] e imposto sobre bens e serviços [GST]), rastreamento de notas fiscais por uma autoridade do governo, cálculos de impostos exigidos pelo governo, regras contábeis locais, além de relatórios regulatórios e legais locais.
+**Localização** refere-se a qualquer modificação, adição ou adaptação no software Microsoft Dynamics para habilitar ou incluir determinados recursos ou funcionalidades específicos no software para fins de conformidade com requisitos regulatórios (incluindo, sem limitação, versões e atualizações do software Microsoft Dynamics, ferramentas de assistência ao usuário e documentação do usuário final). Exemplos de leis ou requisitos regulatórios que podem exigir localização do software incluem relatórios de impostos locais (por exemplo, para imposto sobre vendas, imposto sobre valor agregado e imposto sobre bens e serviços), rastreamento de notas fiscais por uma autoridade do governo, cálculos de impostos exigidos pelo governo, regras contábeis locais, e relatórios regulatórios e legais locais.
 
 **Padrões nacionais** referem-se a requisitos de recursos no software que são relacionados principalmente a práticas bancárias (por exemplo, métodos de pagamento, formatos de pagamento e extratos bancários). Menos frequentemente, os requisitos estão relacionados a documentos comerciais (como documentos fiscais eletrônicos). Os padrões nacionais são requisitos locais que não são exigidos por lei ou regulamentação, mas são amplamente adotados dentro de uma região geográfica e fundamentais para a venda de licenças de software de gestão de negócios nessa região geográfica.
 
@@ -69,7 +69,7 @@ A localização brasileira desenvolvida pela Microsoft para o Microsoft Dynamics
 
 A interface do usuário (IU) e a Ajuda online do Microsoft Dynamics estão traduzidas para o português do Brasil. É possível que certas documentações adicionais, como white papers e materiais de treinamento, estejam disponíveis somente em inglês e talvez não estejam disponíveis quando o software for disponibilizado no Brasil.
 
-O escopo da localização do Microsoft Dynamics disponível no Brasil se restringe a cálculo de impostos, transações contábeis, emissão/recebimento de notas fiscais e emissão de cupons fiscais nos quatro seguintes cenários: compras a pagar, da cotação ao pagamento à vista, varejo e relatório regulatório/legal.
+O escopo da localização do Microsoft Dynamics disponível no Brasil se restringe a cálculo de impostos, transações contábeis, emissão/recebimento de notas fiscais e emissão de cupons fiscais nos quatro seguintes cenários: compras a pagar, da cotação ao pagamento à vista, comércio e relatório regulatório/legal.
 
 As funcionalidades que a Microsoft fornece e às quais oferece suporte como parte da localização do Microsoft Dynamics para o Brasil são listadas na seção [Recursos da localização para o Brasil](#brazilian-localization-features) deste tópico. Os detalhes sobre cada uma das funcionalidades podem ser encontrados na Ajuda do Microsoft Dynamics, bem como nos white papers publicados no [Portal de Localização do Microsoft Dynamics](https://mbs.microsoft.com/partnersource/deployment/resources/productreleases/gfmlocalizationportalmc.htm?printpage=false&sid=xdtafwuk1xh2l5jdjhhv0joy&stext=gfm%20localization%20portal).
 
@@ -700,7 +700,7 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <tr>
 <td>&nbsp;</td>
 <td>O serviço de TEF deve ser contratado diretamente do fornecedor terceirizado e não é incluído em nenhuma licença de software da Microsoft.
-<p><strong>Observação:</strong> Nem todas as operações do Enterprise PDV são permitidas no Brasil devido a conflitos com a legislação do PAF-ECF. Para obter mais detalhes, consulte o white paper <a href="https://www.microsoft.com/download/details.aspx?id=42938"> Localização do Retail e Enterprise POS para o Brasil.</a></p>
+<p><strong>Observação:</strong> Nem todas as operações do Enterprise PDV são permitidas no Brasil devido a conflitos com a legislação do PAF-ECF. Para obter mais detalhes, consulte o <a href="https://www.microsoft.com/download/details.aspx?id=42938">white paper Retail and Enterprise POS Localization for Brazil (Localização do Retail e Enterprise POS para o Brasil).</a></p>
 </td>
 <td>Sim</td>
 <td>Não</td>
@@ -730,8 +730,8 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <td>Não</td>
 </tr>
 <tr>
-<td>Retail</td>
-<td>Gerenciamento de itens de varejo:
+<td>Commerce</td>
+<td>Gerenciamento de itens de comércio:
 <ul>
 <li>Produtos lançados por categoria</li>
 <li>Planilha de atualização em massa</li>
@@ -1095,9 +1095,9 @@ Os seguintes recursos e funcionalidades estão fora do escopo da localização p
 
     - Setor Público
 
-- **Setor de varejo:**
+- **Setor de comércio:**
 
-    - **Serviços de varejo:** os seguintes serviços online estão fora do escopo do segmento de varejo na localização para o Brasil:
+    - **Serviços:** os seguintes serviços online estão fora do escopo do segmento de comércio na localização para o Brasil:
 
         - Sites Services para Microsoft Dynamics ERP
         - Commerce Services para Microsoft Dynamics ERP

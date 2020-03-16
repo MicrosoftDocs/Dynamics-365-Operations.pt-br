@@ -3,7 +3,7 @@ title: Operações de ponto de venda (PDV) online e offline
 description: Este tópico fornece detalhes sobre as operações de ponto de venda (PDV) no Dynamics 365 Commerce. Ele especifica em que ponto do aplicativo as operações podem ser invocadas, e se estão disponíveis no modo offline.
 author: jblucher
 manager: AnnBe
-ms.date: 05/21/2019
+ms.date: 02/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bf67c53ffd5bd530f484b60da604fd9338c964fd
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 24ef0ad8528d1d094f59736b7a36fd77f57fb227
+ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021663"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "3081330"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operações de ponto de venda (PDV) online e offline
 
@@ -52,6 +52,8 @@ As seguintes colunas especificam onde as operações podem ser invocados:
 | 137 | Adicionar afiliação ao cliente | Adicione uma afiliação a um cliente na página **Detalhes do cliente**. | Não | Não | Não | Sim | Não |
 | 138 | Remover afiliação do cliente | Remova uma afiliação na página **Detalhes do cliente**. | Não | Não | Não | Sim | Não |
 | 643 | Adicionar código do cupom | Adicionar um cupom inserindo seu código no PDV. | Sim | Sim | Não | Sim | Não |
+| 141 | Adicionar encargos de cabeçalho | Adicionar um encargo diverso ao cabeçalho da ordem. | Sim | Sim | Não | Não| Não |
+| 141 | Adicionar encargos de linha | Adicionar um encargo diverso a uma linha de venda selecionada. | Sim | Sim | Não | Não| Não |
 | 117 | Adicionar cartão de fidelidade | Solicitar que o usuário insira um número de cartão-fidelidade que será adicionado à transação atual. | Sim | Sim | Não | Sim | Não |
 | 136 | Adicionar número de série | Esta operação permite ao usuário especificar um número de série para os produtos selecionados no momento. | Sim | Sim | Não | Sim | Não |
 | 1214 | Adicionar Endereço de Remessa | Esta operação não tem suporte. | Não Aplicável | Não Aplicável | Não Aplicável | Não Aplicável | Não |
@@ -64,6 +66,7 @@ As seguintes colunas especificam onde as operações podem ser invocados:
 | 310 | Calcular total | Quando o cálculo de desconto é adiado, esta operação inicia o cálculo da transação atual. | Sim | Sim | Não | Sim | Não |
 | 642 | Executar Todos os Produtos | Definir o modo de entrega para todas as linhas como **Execução**. | Sim | Sim | Não | Sim\* | Não |
 | 641 | Executar os Produtos Selecionados | Definir o modo de entrega para as linhas selecionadas como **Execução**. | Sim | Sim | Não | Sim\* | Não |
+| 647 | Alterar modo de entrega | Alterar modo de entrega para linhas de venda pré-configuradas. | Sim | Sim | Não | Não| Não |
 | 1215 | Alterar senha | Esta operação permite ao usuário PDV alterar sua senha. | Sim | Sim | Sim | Não | Não |
 | 123 | Alterar Unidade de Medida | Alterar a unidade de medida para o item de linha selecionado. | Sim | Sim | Não | Sim | Não |
 | 639 | Limpar representante de vendas padrão na transação | Remover o grupo de vendas por comissão (representante de vendas) da transação. | Sim | Sim | Não | Sim | Não |
@@ -100,7 +103,8 @@ As seguintes colunas especificam onde as operações podem ser invocados:
 | 1218 | Forçar desbloqueio de periférico | O sistema usa essa operação internamente para desbloquear periféricos PDV. | Não Aplicável | Não Aplicável | Não Aplicável | Não Aplicável | Não |
 | 520 | Saldo do cartão-presente | Mostrar o saldo de um vale-presente. | Sim | Sim | Não | Não | Não |
 | 708 | Desativar dispositivo | Desativar o dispositivo atual, de modo que não possa ser usado como um registro PDV. | Não | Não | Não | Não | Não |
-| 517 | Contas de rendimento | Registrar dinheiro que é colocado na caixa registradora por um motivo diferente de uma venda. | Sim | Sim | Sim | Sim | Não |
+| 804 | Operação de entrada | Acessar os recursos do gerenciamento de estoque de armazenamento de entrada. | Sim | Não | Sim | Não| Não |
+| 517 | Contas de Receita | Registrar dinheiro que é colocado na caixa registradora por um motivo diferente de uma venda. | Sim | Sim | Sim | Sim | Não |
 | 801 | Pesquisa de estoque | Pesquisa disponível, na ordem, e quantidades de ATP (disponível para promessa) para a loja atual e outros locais disponíveis. | Sim | Sim | Sim | Não | Não |
 | 122 | Comentário da fatura | Esta operação permite que o usuário insira um comentário sobre a transação atual. | Sim | Sim | Não | Sim | Não |
 | 511 | Emitir Memorando de Crédito | Emitir um memorando de crédito para fornecer um comprovante, e não um reembolso. | Sim | Sim | Não | Não | Não |
@@ -111,10 +115,12 @@ As seguintes colunas especificam onde as operações podem ser invocados:
 | 703 | Bloquear registradora | Bloquear o registro atual, de modo que ele não possa ser usado, mas não desconectar o usuário atual. | Não | Não | Não | Sim | Não |
 | 701 | Logoff | Desconectar o usuário atual do registro. | Sim | Sim | Sim | Sim | Não |
 | 521 | Saldo de pontos do cartão-fidelidade | Mostrar o saldo dos pontos para o cartão-fidelidade especificado. | Sim | Sim | Não | Não | Não |
+| 142 | Gerenciar encargos | Exibir e gerenciar encargos diversos aplicados à transação. | Sim | Sim | Não | Não| Não |
 | 918 | Gerenciar turnos | Mostrar uma lista de turnos ativos, suspensos e fechados em branco. | Sim | Sim | Sim | Não | Não |
 | 914 | Minimizar janela do POS | Esta operação não tem suporte. | Não Aplicável | Não Aplicável | Não Aplicável | Não Aplicável | Não |
 | 1000 | Abrir Gaveta | Executar uma operação “sem venda" e abrir a gaveta do caixa atualmente selecionada. | Sim | Sim | Sim | Sim | Não |
 | 928 | Cumprimento da ordem | Esta operação permite que os usuários escolham, embalem, enviem, ou cancelem ordens para retirada do armazenamento. | Sim | Sim | Sim | Não | Não |
+| 805 | Operação de saída | Acessar recursos para gerenciar remessas de pedidos de transferência de saída. | Sim | Não | Sim | Não| Não |
 | 129 | Substituir imposto do produto de linha | Substituir o imposto sobre o item de linha selecionado e usar outro imposto especificado. | Sim | Sim | Não | Sim | Não |
 | 130 | Substituir imposto do produto de linha na lista | Substituir o imposto sobre o item de linha selecionado e usar o imposto que o usuário selecionar em uma lista. | Sim | Sim | Não | Sim | Não |
 | 127 | Substituir imposto da transação | Substituir o imposto sobre a transação e usar outro imposto especificado. | Sim | Sim | Não | Sim | Não |
@@ -147,6 +153,7 @@ As seguintes colunas especificam onde as operações podem ser invocados:
 | 108 | Pesquisa de produtos | Esta operação permite que o usuário busque um produto navegando até a página de pesquisa do produto no PDV. | Sim | Sim | Sim | Sim | Não |
 | 633 | Data de vencimento da cotação | Esta operação permite que o usuário exiba ou modifique a data de vencimento em uma cotação de venda. | Sim | Sim | Não | Sim\* | Não |
 | 627 | Recalcular | Recalcular todas as linhas e impostos de ordens de cliente, com base na configuração atual. | Sim | Sim | Não | Sim\* | Não |
+| 143 | Recalcular encargos | Recalcular os encargos automáticos aplicados ao pedido. | Sim | Sim | Não | Não| Não |
 | 515 | Cancelar ordem | Esta operação permite ao usuário procurar e recuperar ordens de clientes e cotações de venda. | Sim | Sim | Sim | Não | Não |
 | 504 | Recuperar Transação | Esta operação permite ao usuário recuperar uma transação suspensa anteriormente na loja atual. | Sim | Sim | Não | Sim‡ | Não |
 | 305 | Resgatar pontos de fidelidade | Esta operação não tem suporte. | Não Aplicável | Não Aplicável | Não Aplicável | Não Aplicável | Sim |

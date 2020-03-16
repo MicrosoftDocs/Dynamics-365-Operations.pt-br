@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 233f31bd0b20ad5dd8ba21077797dd2f65069deb
-ms.sourcegitcommit: bc6db23825c94cd8305ef37bc18296765e9ce8a4
+ms.openlocfilehash: 68ec3cb028462865e914cbcb25ff28dbaf9a4f01
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "2810690"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3058008"
 ---
 # <a name="one-voucher"></a>Um comprovante
 
@@ -156,7 +156,7 @@ As organizações geralmente querem lançar o resumo na contabilidade para minim
 
 ### <a name="settle-multiple-unposted-payments-to-the-same-invoice"></a>Liquidar vários pagamentos não lançados na mesma fatura
 
-Esse cenário geralmente é encontrado em organizações de varejo nas quais os clientes podem usar vários métodos de pagamento para pagar as compras. Neste cenário, a organização deve ser capaz de registrar vários pagamentos não lançados e liquidá-los com a fatura de cliente.
+Esse cenário geralmente é encontrado em organizações nas quais os clientes podem usar vários métodos de pagamento para pagar as compras. Neste cenário, a organização deve ser capaz de registrar vários pagamentos não lançados e liquidá-los com a fatura de cliente.
 
 Um novo recurso adicionado no Microsoft Dynamics 365 for Operations versão 1611 (Novembro de 2016) permite que vários pagamentos não contabilizados sejam liquidados com uma única fatura. Vários pagamentos do cliente não precisam mais ser inseridos em um único comprovante.
 

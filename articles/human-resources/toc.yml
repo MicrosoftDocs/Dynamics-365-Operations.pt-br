@@ -5,6 +5,10 @@
       items:
         - name: Novidades ou alterações no Human Resources
           href: hr-admin-whats-new.md
+        - name: 18 de fevereiro de 2020
+          href: hr-whats-new-2020-02-18.md
+        - name: 12 de fevereiro de 2020
+          href: hr-whats-new-2020-02-12.md
         - name: 7 de fevereiro de 2020
           href: hr-whats-new-2020-02-07.md
         - name: 3 de fevereiro de 2020
@@ -511,7 +515,7 @@
           items:
             - name: Configurar cursos de treinamento
               href: hr-learning-courses.md
-            - name: Visão geral de questionários
+            - name: Visão geral de Questionários
               href: hr-learning-questionnaires.md
             - name: Criar questionários
               href: hr-learning-design-questionnaires.md

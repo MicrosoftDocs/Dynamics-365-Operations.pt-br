@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a52e8f65e7e2a8d90ddf5efa47c07d6995ef645d
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 9593e8e54b18c6fe723a133eca699a30baabfdd0
+ms.sourcegitcommit: e0e013fa8a4cc994ef6d1e0a1a3389b36b5afffa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019637"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "3081142"
 ---
 # <a name="unified-product-experience"></a>Experiência unificada de produto
 
@@ -75,7 +75,7 @@ Unidade | uoms
 Conversões de unidades | msdyn_ unitofmeasureconversions
 Conversão de unidades de medida específica ao produto | msdyn_productspecificunitofmeasureconversion
 Categorias de produto | msdyn_productcategories | Cada uma das categorias de produto e as informações sobre sua estrutura e características estão contidas na entidade da categoria de produto. 
-Hierarquias de categoria de produto | msdyn_productcategoryhierarhies | Você usa as hierarquias de produto para categorizar ou agrupar produtos. As hierarquias de categoria estão disponíveis no Common Data Service usando a entidade Hierarquia de categoria de produto. 
+Hierarquias de categorias de produtos | msdyn_productcategoryhierarhies | Você usa as hierarquias de produto para categorizar ou agrupar produtos. As hierarquias de categoria estão disponíveis no Common Data Service usando a entidade Hierarquia de categoria de produto. 
 Funções de hierarquia de categorias de produtos | msdyn_productcategoryhierarchies | As hierarquias de produtos podem ser usadas em diferentes funções no D365 Finance and Operations. Para especificar qual categoria é usada em cada função, a entidade de função de categoria de produto é usada. 
 Atribuições de categoria de produtos | msdyn_productcategoryassignments | Para atribuir um produto a uma categoria, é possível usar a entidade de atribuições de categoria de produto.
 
@@ -109,7 +109,7 @@ Observe que a sincronização de produtos ocorre de aplicativos do Finance and O
 
 As dimensões do produto são características que identificam uma grade de produto. As quatro dimensões do produto (Cor, Tamanho, Estilo e Configuração) também são mapeadas para o Common Data Service para definir as grades de produtos. A ilustração a seguir mostra o modelo de dados para a dimensão do produto Cor. O mesmo modelo é aplicado a Tamanhos, Estilos e Configurações. 
 
-![Modelo de dados de produtos](media/dual-write-product-2.PNG)
+![Modelo de dados de produtos](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -145,7 +145,7 @@ As configurações de ordem padrão definem o local e o depósito de onde os ite
 
 As unidades de medida e suas respectivas conversões estão disponíveis no Common Data Service após o modelo de dados exibido no diagrama.
 
-![Modelo de dados de produtos](media/dual-write-product-3.PNG)
+![Modelo de dados de produtos](media/dual-write-product-three.png)
 
 O conceito de unidade de medida é integrado entre os aplicativos do Finance and Operations e outros aplicativos do Dynamics 365. Para cada classe de unidade em um aplicativo do Finance and Operations, é criado um grupo de unidades em um aplicativo do Dynamics 365, que contém as unidades que pertencem à classe de unidade. Uma unidade base padrão também é criada para cada grupo de unidades. 
 
@@ -205,13 +205,13 @@ Para identificar com exclusividade produtos entre o Dynamics 365 for Finance and
 
 Para usuários de outros aplicativos do Dynamics 365, o produto é identificado na interface de usuário com **msdyn_productnumber** (o rótulo do campo é **Número do produto**). No formulário do produto são mostrados tanto a empresa quanto msydn_productnumber. Entretanto, o campo (productnumber), a chave exclusiva de um produto, não é exibido. 
 
-Observe que, se os aplicativos são desenvolvidos com base no Common Data Service, é necessário prestar muita atenção ao uso de (productnumber), que é o ID de produto exclusivo, como a chave integração, e não usar msdyn_productnumber, que não é exclusivo. 
+Se você criar aplicativos em Common Data Service, deverá prestar atenção ao uso do **productnumber** (a ID do produto exclusiva) como a chave de integração. Não use **msdyn_productnumber**, pois ela não é exclusiva. 
 
 ## <a name="initial-synchronization-of-products-and-migration-of-data-from-common-data-service-to-finance-and-operations"></a>Sincronização inicial de produtos e migração de dados do Common Data Service para o Finance and Operations
 
 ### <a name="initial-synchronization-of-products"></a>Sincronização inicial de produtos 
 
-Quando a gravação dupla está habilitada, produtos do Dynamics 365 Finance and Operations são sincronizados com o Common Data Service e outros aplicativos do Dynamics 365. Observe que os produtos criados no Common Data Service e em outros aplicativos do Dynamics 365 antes da gravação dupla não serão atualizados ou combinados com dados de produtos do Finance and Operations.
+Quando a gravação dupla está habilitada, produtos do Finance and Operations apps são sincronizados com o Common Data Service e outros aplicativos impulsionados por modelo do Dynamics 365. Produtos criados no Common Data Service e em outros aplicativos do Dynamics 365 antes da gravação dupla ser lançada não serão atualizados ou combinados com dados de produtos do Finance and Operations apps.
 
 ### <a name="matching-product-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Correspondência de dados de produtos do Finance and Operations e de outros aplicativos do Dynamics 365
 

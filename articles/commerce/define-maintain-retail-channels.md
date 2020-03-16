@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 63639d69af90c6aa37bbf7af7868bca71942063f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0fbca2c9178cd372653287afdf72deaf75442604
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021566"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057905"
 ---
 # <a name="define-and-maintain-retail-channels"></a>Definir e manter canais de varejo
 
@@ -49,7 +49,7 @@ Você deve executar as seguintes tarefas antes de configurar uma loja:
 5. Configurar os métodos de pagamento que a loja aceita.
 6. Para processar transações de cartão de crédito em terminais de PDV, você também pode configurar os serviços de pagamento.
 7. Configurar grupos de impostos.
-8. Configurar produtos de varejo. Como parte desta tarefa, você também pode configurar hierarquias, grades e classificações de produtos.
+8. Configure produtos. Como parte desta tarefa, você também pode configurar hierarquias, grades e classificações de produtos.
 9. Configurar grupos de preços de produtos.
 10. Configure os preços dos produtos. Como parte desta tarefa, você também pode configurar ajustes de preço, descontos, e períodos de desconto.
 11. Configurar membros da equipe.
@@ -87,5 +87,5 @@ Depois de inserir os detalhes da loja, execute estas tarefas para enviar os dado
 O Commerce usa hierarquias da organização para estruturar canais. As hierarquias da organização representam os relacionamentos entre as organizações que compõem sua empresa. Ao configurar lojas, você pode adicioná-las a uma hierarquia da organização. As lojas compartilham dados usados para classificações, reabastecimento e relatórios.
 
 > [!NOTE]
-> Para usar a funcionalidade de vendas de Varejo, a chave de configuração **Diversos endereços de remessa** deve estar habilitada. Essa chave de configuração pode ser encontrada nas chaves **Configuração de troca** em **Administração do sistema**\> **Configuração** \> **Configurações do sistema**. Isso é necessário devido à funcionalidade do Varejo que executa várias validações com base no endereço de entrega configurado no nível da linha da ordem de venda.
+> Para usar a funcionalidade de vendas do Commerce, a chave de configuração **Diversos endereços de remessa** deve estar habilitada. Essa chave de configuração pode ser encontrada nas chaves **Configuração de troca** em **Administração do sistema**\> **Configuração** \> **Configurações do sistema**. Isso é necessário devido a várias validações com base no endereço de entrega configurado no nível da linha da ordem de venda.
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d8158f676a005f683d71f503c0a0eb3e50635e2a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 4fe97e3e2f8265c1dc67a4052f45125b693c7218
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003386"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057524"
 ---
 # <a name="create-new-address-book"></a>Criar novo catálogo de endereços
 
@@ -52,7 +52,7 @@ A imagem a seguir mostra a criação de um catálogo de endereços de funcionár
 
 [Códigos informativos e grupos de códigos informativos](info-codes-retail.md)           
 
-[Perfil de funcionalidade de varejo](retail-functionality-profile.md)   
+[Criar um perfil de funcionalidade de varejo](retail-functionality-profile.md)      
 
 [Visão geral do layout da tela](pos-screen-layouts.md)       
 

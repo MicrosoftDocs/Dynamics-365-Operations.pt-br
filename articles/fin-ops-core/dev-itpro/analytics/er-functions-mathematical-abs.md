@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b32c5e8a413be3583177f565e2d4909330ad1e0
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 214fb2808f024487795f27de45de1d4de8cead2d
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917088"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041644"
 ---
 # <a name="ABS">Função de ER ABS</a>
 
@@ -33,7 +33,7 @@ A função `ABS` retorna o valor absoluto (módulo) do número especificado como
 
 ## <a name="syntax"></a>Sintaxe
 
-```
+```vb
 ABS (number)
 ```
 

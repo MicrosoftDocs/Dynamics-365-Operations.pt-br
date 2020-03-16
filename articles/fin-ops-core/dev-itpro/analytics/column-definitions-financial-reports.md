@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 68a92610a880c574b4a3a48951c432bc2764c24b
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 408767539628a14f8ea039155c72f5e9aa6803af
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771532"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070751"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Definições de coluna nos relatórios financeiros
 
@@ -120,11 +120,11 @@ A tabela a seguir descreve os códigos de restrição de colunas.
 | ADJ                     | Restringe os valores na coluna para excluir os valores de ajuste de período, se esses valores estiverem disponíveis. |
 | XAD                     | Restringe os valores na coluna para excluir os valores de ajuste de período. |
 | PT                      | Restringe os valores na coluna, para que apenas transações lançadas sejam incluídas, se essas transações estiverem disponíveis. |
-| UPT                     | Restrinja os valores na coluna, para que apenas as transações não lançadas sejam incluídas, se essas transações estiverem disponíveis.<p><strong>Observação:</strong> nem todos os dados são compatíveis com as transações não lançadas. Para obter mais informações, consulte o <a href='https://go.microsoft.com/fwlink/?LinkID=162565'>guia de integração de dados</a> de seu sistema ERP Microsoft Dynamics.</p> |
+| UPT                     | Restrinja os valores na coluna, para que apenas as transações não lançadas sejam incluídas, se essas transações estiverem disponíveis.<p><strong>Observação:</strong> nem todos os dados são compatíveis com as transações não lançadas. </p> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Restringir uma coluna a uma unidade organizacional
 
-1. No Report Designer, abra a definição de coluna a ser modificada.
+1. No Designer de Relatórios, abra a definição de coluna que será modificada.
 2. Clique duas vezes na célula **Unidade de relatório** para que a coluna seja restringida.
 3. Na caixa de diálogo **Seleção de unidade de relatório**, na lista **Árvore de relatório**, selecione uma árvore.
 4. Expanda ou recolha a lista de unidades, selecione uma unidade de relatório e depois clique em **OK**.

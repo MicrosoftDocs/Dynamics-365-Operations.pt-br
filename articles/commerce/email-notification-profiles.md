@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: feb28b9c801786f63282c4189d3eeb6d53ed07e1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 320f21916a5f451ebf4f21e0075017a121ba6d6a
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003133"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057605"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Configurar perfil de notificação por email
 
@@ -41,7 +41,7 @@ Para obter informações adicionais sobre como configurar o email, consulte [Con
 
 Para criar um perfil de notificação por email, siga estas etapas.
 
-1. No painel de navegação, vá para **Módulos \> Retail e Commerce \> Configuração do Headquarters \> Perfil de notificação por email do Retail**.
+1. No painel de navegação, vá para **Módulos \> Retail e Commerce \> Configuração do Headquarters \> Perfil de notificação por email do Commerce**.
 1. No painel de ações, clique em **Novo**.
 1. No campo **Perfil de notificação por email**, insira um nome para identificar o perfil.
 1. No campo **Descrição**, insira uma descrição relevante.
@@ -71,16 +71,16 @@ A imagem a seguir mostra alguns exemplos de configurações de modelo de email.
 
 Para criar um evento de email, siga estas etapas.
 
-1. No painel de navegação, vá para **Módulos \> Retail e Commerce \> Configuração do Headquarters \> Perfil de notificação por email do Retail**.
+1. No painel de navegação, vá para **Módulos \> Retail e Commerce \> Configuração do Headquarters \> Perfil de notificação por email do Commerce**.
 1. Na lista, localize e selecione o registro desejado. 
 1. Selecione o modelo de email na lista suspensa **ID do Email**.
 1. Selecione o **Tipo de notificação por email** apropriado na lista suspensa.
 1. Marque a caixa de seleção **Ativo**.
 1. No painel de ação, selecione **Salvar**.
 
-A imagem a seguir mostra alguns exemplos de configurações de notificação de evento do varejo.
+A imagem a seguir mostra alguns exemplos de configurações de notificação de evento.
 
-![Configurações de notificação de evento do varejo](media/email-notification-profile.png)
+![Configurações de notificação de evento](media/email-notification-profile.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

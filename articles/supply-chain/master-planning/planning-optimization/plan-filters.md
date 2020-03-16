@@ -19,17 +19,17 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 9d1431cc8db6fb28d1f1ec73ee07dd15e78f82e8
-ms.sourcegitcommit: 65f4b8a751670a7fe9ef4cb8b218213f792d57a2
+ms.openlocfilehash: ca28953846b4f1978a453d2ab2aa9759e4f45221
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945410"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076100"
 ---
+# <a name="apply-filters-to-a-plan"></a>Aplicar filtros a um plano
+
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
-
-# <a name="apply-filters-to-a-plan"></a>Aplicar filtros a um plano
 
 Quando a funcionalidade Otimização de Planejamento for usada, você poderá aplicar um filtro a um plano. O **Filtro do plano** sempre será aplicado durante uma execução de planejamento mestre. Um **Filtro do plano** é útil quando você deseja limitar um plano a um grupo de itens específico e garantir que nenhum outro item seja incluído como parte do planejamento mestre resultante.
 

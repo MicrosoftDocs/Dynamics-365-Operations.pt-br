@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 026d1d743b5150f152ef70aa642dcf6841a4e398
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 6cdaa89fb6d50ebaaaefe7f92d7224a1567d17d1
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025795"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070811"
 ---
 # <a name="use-the-regression-suite-automation-tool-tutorial"></a>Usa o tutorial da Regression Suite Automation Tool
 
@@ -217,15 +217,15 @@ A ilustração a seguir mostra os processos empresariais para esse cenário no R
 
 ## <a name="advanced-scripting"></a>Script avançado
 
-### <a name="command-line"></a>Linha de comando
+### <a name="cli"></a>CLI
 
-O RSAT pode ser chamado de uma janela do **Prompt de Comando**.
+O RSAT pode ser chamado de uma janela do **Prompt de Comando** ou **PowerShell**.
 
 > [!NOTE]
 > Verifique se a variável de ambiente **TestRoot** está definida para o caminho de instalação de RSAT. (No Microsoft Windows, abra **Painel de Controle**, selecione **Sistema e segurança \> Sistema \> Configurações avançadas do sistema**, e **Variáveis de Ambiente**).
 
-1. Abra uma janela do **Prompt de Comando** como um administrador.
-2. Execute a ferramenta usando o diretório de instalação.
+1. Abra uma janela do **Prompt de Comando** ou **PowerShell** como um administrador.
+2. Navegue até o diretório de instalação do RSAT.
 
     ```Console
     cd "c:\Program Files (x86)\Regression Suite Automation Tool\"
@@ -242,22 +242,273 @@ O RSAT pode ser chamado de uma janela do **Prompt de Comando**.
         Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe /settings "C:\Path to\file.settings" command
 
     Available commands:
-        list
-        listtestsuite suite_name
-        download test_case_id output_dir
-        generate test_case_id output_dir
-        generatederived parent_test_case_id test_plan_id test_suite_id
-        generatetestonly test_case_id output_dir
-        edit excel_file
-        playback excel_file
-        playbackmany excel_file1 [excel_file2 [.. excel_fileN]]
-        playbackbyid test_case_id1 [test_case_id2 [.. test_case_idN]]
-        playbacksuite suite_name
-        clear
-        help
+        ?
         about
+        cls
+        download
+        edit
+        generate
+        generatederived
+        generatetestonly
+        generatetestsuite
+        help
+        list
+        listtestplans
+        listtestsuite
+        listtestsuitenames
+        playback
+        playbackbyid
+        playbackmany
+        playbacksuite
         quit
+        upload
+        uploadrecording
+        usage
     ```
+
+#### <a name=""></a>? 
+Mostra a ajuda sobre todos os comandos disponíveis e seus parâmetros.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``?``**``[command]``
+
+##### <a name="optional-parameters"></a>Parâmetros opcionais
+
+**``command``**
+
+
+Onde ``[command]`` é um dos comandos especificados abaixo.
+
+
+#### <a name="about"></a>sobre
+Exibe a versão atual.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``about``**
+
+#### <a name="cls"></a>cls
+Limpa a tela.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``cls``**
+
+
+#### <a name="download"></a>fazer download
+Baixa anexos para o caso de teste especificado no diretório de saída. Você pode usar o comando ``list`` para obter todos os casos de teste disponíveis. Use qualquer valor da primeira coluna como um parâmetro **test_case_id**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``download``**``[test_case_id] [output_dir]``
+
+##### <a name="required-parameters"></a>Parâmetros obrigatórios
+**``test_case_id``** Representa a ID do caso de teste.  
+**``output_dir``** Representa o diretório de saída. O diretório deve existir.
+
+##### <a name="examples"></a>Exemplos
+
+``download 123 c:\temp\rsat``   
+``download 765 c:\rsat\last``
+
+
+#### <a name="edit"></a>editar
+Permite abrir o arquivo de parâmetros no programa Excel e editá-lo.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``edit``**``[excel_file]``
+
+##### <a name="required-parameters"></a>Parâmetros obrigatórios
+**``excel_file``** Deve conter um caminho completo para um arquivo existente do Excel.
+
+##### <a name="examples"></a>Exemplos
+``edit c:\RSAT\TestCase_123_Base.xlsx``  
+``edit e:\temp\TestCase_456_Base.xlsx``
+
+
+#### <a name="generate"></a>gerar
+Gera arquivos de execução e parâmetro de teste para o caso de teste especificado no diretório de saída.
+Você pode usar o comando ``list`` para obter todos os casos de teste disponíveis. Use qualquer valor da primeira coluna como um parâmetro **test_case_id**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generate``**``[test_case_id] [output_dir]``
+
+##### <a name="required-parameters"></a>Parâmetros obrigatórios
+**``test_case_id``** Representa a ID do caso de teste.  
+**``output_dir``** Representa o diretório de saída. O diretório deve existir.
+
+##### <a name="examples"></a>Exemplos
+``generate 123 c:\temp\rsat``  
+``generate 765 c:\rsat\last``
+
+
+#### <a name="generatederived"></a>generatederived
+Gera um novo caso de teste, derivado do caso de teste fornecido. Você pode usar o comando ``list`` para obter todos os casos de teste disponíveis. Use qualquer valor da primeira coluna como um parâmetro **test_case_id**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatederived``**``[parent_test_case_id] [test_plan_id] [test_suite_id]``
+
+##### <a name="required-parameters"></a>Parâmetros obrigatórios
+**``parent_test_case_id``** Representa a ID do caso de teste pai.  
+**``test_plan_id``** Representa a ID do plano de teste.  
+**``test_suite_id``** Representa a ID do pacote de teste.
+
+##### <a name="examples"></a>Exemplos
+``generatederived 123 8901 678``
+
+
+#### <a name="generatetestonly"></a>generatetestonly
+Gera somente o arquivo de execução de teste para o caso de teste especificado no diretório de saída. Você pode usar o comando ``list`` para obter todos os casos de teste disponíveis. Use qualquer valor da primeira coluna como um parâmetro **test_case_id**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestonly``**``[test_case_id] [output_dir]``
+
+##### <a name="required-parameters"></a>Parâmetros obrigatórios
+**``test_case_id``** Representa a ID do caso de teste.  
+**``output_dir``** Representa o diretório de saída. O diretório deve existir.
+
+##### <a name="examples"></a>Exemplos
+``generatetestonly 123 c:\temp\rsat``  
+``generatetestonly 765 c:\rsat\last``
+
+
+#### <a name="generatetestsuite"></a>generatetestsuite
+Gera todos os casos de teste para o conjunto especificado no diretório de saída.
+Você pode usar o comando ``listtestsuitenames`` para obter todos os pacotes de teste disponíveis. Use qualquer valor da coluna como um parâmetro **test_suite_name**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestsuite``**``[test_suite_name] [output_dir]``
+
+##### <a name="required-parameters"></a>Parâmetros obrigatórios
+**``test_suite_name``** Representa o nome do pacote de teste.  
+**``output_dir``** Representa o diretório de saída. O diretório deve existir.
+
+##### <a name="examples"></a>Exemplos
+``generatetestsuite Tests c:\temp\rsat``   
+``generatetestsuite Purchase c:\rsat\last``
+
+
+#### <a name="help"></a>ajuda
+Idêntico ao [?](####?) comando
+
+
+#### <a name="list"></a>lista
+Lista todos os casos de teste disponíveis.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``list``**
+
+
+#### <a name="listtestplans"></a>listtestplans
+Lista todos os planos de teste disponíveis.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestplans``**
+
+
+#### <a name="listtestsuite"></a>listtestsuite
+Lista casos de teste para o pacote de teste especificado. Você pode usar o comando ``listtestsuitenames`` para obter todos os pacotes de teste disponíveis. Use qualquer valor da primeira coluna como parâmetro **suite_name**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuite``**``[suite_name]``
+
+##### <a name="required-parameters"></a>Parâmetros obrigatórios
+**``suite_name``** Nome do pacote desejado.
+
+##### <a name="examples"></a>Exemplos
+``listtestsuite "sample suite name"``  
+``listtestsuite NameOfTheSuite``
+
+
+#### <a name="listtestsuitenames"></a>listtestsuitenames
+Lista todos os pacotes de teste disponíveis.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuitenames``**
+
+
+#### <a name="playback"></a>reprodução
+Reproduz um caso de teste usando um arquivo do Excel.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playback``**``[excel_file]``
+
+##### <a name="required-parameters"></a>Parâmetros obrigatórios
+**``excel_file``** Um caminho completo para o arquivo do Excel. O arquivo deve existir. 
+
+##### <a name="examples"></a>Exemplos
+``
+playback c:\RSAT\TestCaseParameters\sample1.xlsx
+playback e:\temp\test.xlsx
+``
+
+
+#### <a name="playbackbyid"></a>playbackbyid
+Reproduz vários casos de teste de uma só vez.
+Você pode usar o comando ``list`` para obter todos os casos de teste disponíveis. Use qualquer valor da primeira coluna como um parâmetro **test_case_id**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackbyid``**``[test_case_id1] [test_case_id2] ... [test_case_idN]``
+
+##### <a name="required-parameters"></a>Parâmetros obrigatórios
+**``test_case_id1``** ID do caso de teste existente.  
+**``test_case_id2``** ID do caso de teste existente.  
+**``test_case_idN``** ID do caso de teste existente.  
+
+##### <a name="examples"></a>Exemplos
+``playbackbyid 878``  
+``playbackbyid 2345 667 135``
+
+
+#### <a name="playbackmany"></a>playbackmany
+Reproduz muitos casos de teste de uma só vez, usando arquivos do Excel.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackmany``**``[excel_file1] [excel_file2] ... [excel_fileN]``
+
+##### <a name="required-parameters"></a>Parâmetros obrigatórios
+**``excel_file1``** Caminho completo para o arquivo do Excel. O arquivo deve existir.  
+**``excel_file2``** Caminho completo para o arquivo do Excel. O arquivo deve existir.  
+**``excel_fileN``** Caminho completo para o arquivo do Excel. O arquivo deve existir.  
+
+##### <a name="examples"></a>Exemplos
+``playbackmany c:\RSAT\TestCaseParameters\param1.xlsx``  
+``playbackmany e:\temp\test.xlsx f:\rsat\sample1.xlsx c:\RSAT\sample2.xlsx``
+
+
+#### <a name="playbacksuite"></a>playbacksuite
+Reproduz todos os casos de teste do pacote de teste especificado. Você pode usar o comando ``listtestsuitenames`` para obter todos os pacotes de teste disponíveis. Use qualquer valor da primeira coluna como parâmetro **suite_name**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuite``**``[suite_name]``
+
+##### <a name="required-parameters"></a>Parâmetros obrigatórios
+**``suite_name``** Nome do pacote desejado.
+
+##### <a name="examples"></a>Exemplos
+``playbacksuite suiteName``  
+``playbacksuite sample_suite``
+
+
+#### <a name="quit"></a>encerrar
+Fecha o aplicativo.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``quit``**
+
+
+#### <a name="upload"></a>carregar
+Carrega todos os arquivos pertencentes ao pacote de teste ou casos de teste especificados.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``upload``**``[suite_name] [testcase_id]``
+
+#### <a name="required-parameters"></a>Parâmetros obrigatórios
+**``suite_name``** Todos os arquivos pertencentes ao pacote de teste especificado serão carregados.
+**``testcase_id``** Todos os arquivos pertencentes aos casos de teste especificados serão carregados.
+
+##### <a name="examples"></a>Exemplos
+``upload sample_suite``  
+``upload 123``  
+``upload 123 456``
+
+
+#### <a name="uploadrecording"></a>uploadrecording
+Carrega apenas o arquivo de gravação pertencente aos casos de teste especificados.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``uploadrecording``**``[testcase_id]``
+
+##### <a name="required-parameters"></a>Parâmetros obrigatórios
+**``testcase_id``** O arquivo de gravação pertencente aos casos de teste especificados será carregado.
+
+##### <a name="examples"></a>Exemplos
+``uploadrecording 123``  
+``uploadrecording 123 456``
+
+
+#### <a name="usage"></a>uso
+Mostra duas maneiras de chamar esse aplicativo: uma usando um arquivo de configuração padrão, outra fornecendo um arquivo de configuração.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``usage``**
+
 
 ### <a name="windows-powershell-examples"></a>Exemplos de Windows PowerShell
 

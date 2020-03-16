@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 51d344d7b7a792d0cdf3eeb7f5c6e1a9b2b8bf19
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ec64cb8a7c490c6798a897fd20a56e5af5c8be3a
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021567"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057928"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Conectar periféricos ao ponto de venda (PDV)
 
@@ -43,7 +43,7 @@ Vários componentes são usados para definir as relações entre uma loja, termi
 
 Navegação: Clique em **Varejo e Comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Terminais**.
 
-O terminal de PDV é uma entidade usada para definir as características de uma instância específica do PDV. Essas características incluem o perfil ou configuração de hardware para os periféricos de varejo que serão usados no registro, a loja em que o registro está mapeado, e a experiência visual para o usuário que se conecta ao registro.
+O terminal de PDV é uma entidade usada para definir as características de uma instância específica do PDV. Essas características incluem o perfil ou configuração de hardware para os periféricos que serão usados no registro, a loja em que o registro está mapeado, e a experiência visual para o usuário que se conecta ao registro.
 
 ### <a name="devices"></a>Dispositivos
 
@@ -67,7 +67,7 @@ Um perfil de hardware identifica o hardware que está conectado a uma registrado
 
 ### <a name="hardware-station"></a>Hardware Station
 
-Navegação: Clique em **Varejo e Comércio** &gt; **Canais** &gt; **Lojas de varejo** &gt; **Todas as lojas de varejo**. Selecione uma loja e clique na Guia Rápida **Estações de hardware**.
+Navegação: Clique em **Varejo e Comércio** &gt; **Canais** &gt; **Lojas** &gt; **Todas as lojas**. Selecione uma loja e clique na Guia Rápida **Estações de hardware**.
 
 Uma estação de hardware é uma instância da lógica de negócios que orienta periféricos de POS. Uma estação de hardware é automaticamente instalada junto com MPOS. Como alternativa, a estação de hardware pode ser instalada como um componente autônomo e então acessada pelo MPOS ou POS de nuvem por meio de um serviço da web. A estação de hardware deve ser definida no nível do canal.
 
@@ -87,7 +87,7 @@ Para conectar os MPOS periféricos POS em um cenário de POS tradicional fixo, p
 
 Depois de atribuir o perfil de hardware, sincronize as alterações com o banco de dados do canal usando a agenda de distribuição **Terminais**. Você pode encontrar as agendas de distribuição em **Varejo e Comércio** &gt; **TI de Varejo e Comércio** &gt; **Agenda de distribuição**. 
 
-Em seguida, defina uma estação de hardware "local" no canal. Clique em **Varejo e Comércio** &gt; **Canais** &gt; **Lojas de varejo** &gt; **Todas as lojas de varejo** e selecione uma loja. 
+Em seguida, defina uma estação de hardware "local" no canal. Clique em **Varejo e Comércio** &gt; **Canais** &gt; **Lojas** &gt; **Todas as lojas** e selecione uma loja. 
 
 Em seguida, na Guia Rápida **Estações de Hardware**, clique em **Adicionar** para adicionar uma estação de hardware. Insira uma descrição, digite **localhost** como o nome de host e sincronize as alterações com o canal usando a agenda de distribuição **Configuração de canal**. Você pode encontrar as agendas de distribuição em **Varejo e Comércio** &gt; **TI de Varejo e Comércio** &gt; **Agenda de distribuição**. 
 
@@ -104,7 +104,7 @@ Por fim, no MPOS, use a operação **Selecionar estação de hardware** para sel
 
 Nesse cenário, uma estação de hardware independente é compartilhada entre clientes MPOS e POS de nuvem. Esse cenário requer que você crie um perfil de estação de hardware para especificar o pacote de download, a porta e o perfil de hardware que a estação de hardware usa. Você pode localizar o perfil do Hardware Station em **Varejo e Comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Perfis de PDV** &gt; **Perfis do Hardware Station**. 
 
-Depois de criar o perfil do Hardware Station, navegue até o canal de varejo específico (**Varejo e Comércio** &gt; **Canais** &gt; **Lojas** &gt; **Todas as lojas**) e adicione um novo Hardware Station. Mapeie essa nova estação de hardware para o perfil de estação de hardware que foi criado anteriormente. 
+Depois de criar o perfil do Hardware Station, navegue até o canal específico (**Varejo e Comércio** &gt; **Canais** &gt; **Lojas** &gt; **Todas as lojas**) e adicione um novo Hardware Station. Mapeie essa nova estação de hardware para o perfil de estação de hardware que foi criado anteriormente. 
 
 Em seguida, forneça uma descrição que ajudará o caixa identificar a estação de hardware. No campo **Nome do host**, digite a URL do host de máquina no seguinte formato: `https://<MachineName:Port>/HardwareStation`. (Substitua **&lt;Nome_Máquina:Porta&gt;** pelo nome de máquina real da estação de hardware e pela porta especificada no perfil de estação de hardware). Para uma estação de hardware independente, você também deve especificar a transferência eletrônica de fundos (TEF) ID do terminal. Este valor identifica o terminal de TEF que é conectado à estação de hardware quando o conector de pagamento se comunica com o provedor de pagamentos. 
 

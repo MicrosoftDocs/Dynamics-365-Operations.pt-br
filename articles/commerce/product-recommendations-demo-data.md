@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6abac72b7530dc7b82c8e95faebdce791cf7dbd1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1456feb0665b6ec79a36a3704f17da80ffd759a0
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003225"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042771"
 ---
 # <a name="get-product-recommendations-using-demo-data"></a>Obter recomendações de produtos usando dados de demonstração
 Este documento oferece orientações sobre como aproveitar recomendações de produtos do omnicanal em ambientes de uma caixa da Camada 1 usando dados de demonstração personalizáveis pré-preenchidos.
@@ -57,10 +57,10 @@ Você pode editar os dados de demonstração padrão com quaisquer informações
 A extensão contém um arquivo de dados chamado 'RecoMockDataset.csv' que permite que você controle o conjunto de dados usado para fornecer os resultados fictícios das recomendações. O nome de arquivo pode ser controlado por meio da configuração da extensão usando a configuração **ext.Recommendations.DemoFilePath** . Isso permite que você tenha vários conjuntos de dados disponíveis que podem ser alternados com facilidade por meio da configuração.
 
 
-```
-  <settings>
+```xml
+<settings>
     <add name="ext.Recommendations.DemoFilePath" value="RecoMockDataset.csv" />
-  </settings>
+</settings>
 ```
 
 ## <a name="additional-resources"></a>Recursos Adicionais

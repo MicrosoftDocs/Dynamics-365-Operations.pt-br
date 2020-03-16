@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 612ded1f68cc8e1b26b8046501bae1707175e23a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a5e7e6897f19dc0303ffbd3111f93669a91daa1b
+ms.sourcegitcommit: 4f668b23f5bfc6d6502858850d2ed59d7a79cfbb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188317"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3059367"
 ---
 # <a name="bank-statement-file-import-troubleshooting"></a>Solução de problemas de importação do arquivo de extrato bancário
 
@@ -58,9 +58,11 @@ Os arquivos BAI2 e MT940 são baseados em texto e requerem um ajuste para habili
 
 1.  Crie um arquivo XML e copie o texto a seguir nele.
 
-        <Batch><![CDATA[PASTESTATEMENTFILEHERE
+    ```xml
+    <Batch><![CDATA[PASTESTATEMENTFILEHERE
         ]]></Batch>
-
+    ```
+    
 2.  Copie o conteúdo do arquivo de extrato bancário e cole-o no arquivo XML para que ele substitua **PASTESTATEMENTFILEHERE**.
 
 ### <a name="debug-the-xslt"></a>Depurar a XSLT

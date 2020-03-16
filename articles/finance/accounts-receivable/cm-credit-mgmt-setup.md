@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 02d7e2238e58098428397121de848a1947a991ad
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: b4234ac428cc80836852d4edfb0f37098b4a1e8e
+ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015117"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071651"
 ---
 # <a name="credit-management-parameters-setup"></a>Configuração dos parâmetros de gerenciamento de crédito
 
@@ -38,8 +38,8 @@ Existem quatro FastTabs onde é possível alterar os parâmetros que controlam o
 - Defina a opção **Permitir a edição das ordens de venda após a liberação do bloqueio da ordem** como **Sim** para exigir que as regras de lançamento sejam verificadas novamente se o valor da ordem de venda (preço bruto) tiver sido alterado desde que a ordem de venda foi liberada da lista de bloqueio. .
 - No campo **Motivos das ordens canceladas**, selecione o motivo de liberação que será usado por padrão quando uma ordem de venda que estava em bloqueio de gerenciamento de crédito for cancelada.
 - Defina a opção **Verificar limite de crédito de grupos de crédito de cliente** como **Sim** para verificar o limite de crédito de um grupo de crédito de cliente quando o cliente em uma ordem de venda pertencer a um grupo de crédito de cliente. O limite de crédito do grupo será verificado e, se for suficiente, o limite de crédito do cliente será verificado.
-- Defina a opção **Verificar o limite de crédito quando as condições de pagamento forem estendidas** como **Sim** para verificar as classificações de condições de pagamento a fim de determinar se as condições de pagamento na ordem de venda são diferentes daquelas na ordem de venda. Se as novas condições de pagamento tiverem uma classificação superior à das condições de pagamento originais, a ordem será colocada em bloqueio de gerenciamento de crédito.
-- Defina a opção **Verificar o limite de crédito quando um desconto de liquidação for aumentado** como **Sim** para verificar as classificações de desconto de liquidação a fim de determinar se o desconto à vista na ordem de venda é diferente daquele na ordem de venda. Se o novo desconto à vista tiver uma classificação superior à do desconto à vista original, a ordem será colocada em bloqueio de gerenciamento de crédito.
+- Defina a opção **Verificar o limite de crédito quando as condições de pagamento forem estendidas** como **Sim** para verificar as classificações de condições de pagamento a fim de determinar se as condições de pagamento na ordem de venda diferem das condições de pagamento padrão do cliente. Se as novas condições de pagamento tiverem uma classificação superior à das condições de pagamento originais, a ordem será colocada em bloqueio de gerenciamento de crédito.
+- Defina a opção **Verificar o limite de crédito quando um desconto de liquidação for aumentado** como **Sim** para verificar as classificações de desconto de liquidação a fim de determinar se o desconto à vista na ordem de venda difere do desconto à vista padrão do cliente. Se o novo desconto à vista tiver uma classificação superior à do desconto à vista original, a ordem será colocada em bloqueio de gerenciamento de crédito.
 - No campo **Motivo para liberar ordens modificadas**, selecione o motivo de liberação que será usado por padrão quando as ordens modificadas forem liberadas automaticamente do bloqueio de gerenciamento de crédito.
 - Defina a opção **Ignorar regra de limite de crédito expirado quando a data de vencimento estiver em branco** como **Sim** para controlar o comportamento da regra **Limite de crédito expirado**. Defina a opção como **Não** para bloquear uma ordem quando a data de vencimento estiver em branco.
 - No Gerenciamento de depósito, é possível criar cargas no momento da entrada da ordem de venda. Defina a opção **Remover linhas de carga bloqueadas** como **Não** para deixar linhas da ordem de venda na carga quando uma ordem de venda estiver em bloqueio de crédito. A carga não pode ser processada enquanto a ordem de venda está em espera. Defina a opção como **Sim** para remover linhas da ordem de venda da carga quando uma ordem de venda estiver em bloqueio de crédito. Dessa forma, a carga poderá ser processada.

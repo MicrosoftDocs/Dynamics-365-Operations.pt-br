@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b82b1719990caeb1b383ab806a3e09a4c4a6e41a
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c6085f2f06fb374887d504c332a34705f0fd9e99
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026125"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042818"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-1---prepare-data-model"></a>ER Usar arquivos de gerenciamento de documentos em formato de saída (Parte 1 - Preparar modelo de dados)
 
@@ -36,10 +36,14 @@ Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynam
 
 ## <a name="get-access-to-the-list-of-configurations-provided-by-microsoft"></a>Obter acesso à lista de configurações fornecidas pela Microsoft
 1. Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.
-    * Verifique se o provedor "Litware, Inc." está disponível e marcado como ativo.  
+
+    Verifique se o provedor "Litware, Inc." está disponível e marcado como ativo.  
+
 2. Selecione o "Litware, Inc." "Litware, Inc.".
 3. Clique em Repositórios.
-    * Se um repositório do tipo 'Recurso de operações' já existir, ignore as etapas restantes das subtarefa atual.  
+
+    Se um repositório do tipo 'Recurso de operações' já existir, ignore as etapas restantes das subtarefa atual.  
+
 4. Clique em Adicionar para abrir a caixa de diálogo suspensa.
 5. No campo Tipo de repositório de configuração, insira 'Recursos de operações'.
 6. Clique em Criar repositório.
@@ -51,9 +55,13 @@ Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynam
 3. Clique em Mostrar filtros.
 4. Clique em Abrir.
 5. Na árvore, selecione 'Modelo de fatura de cliente'.
-    * Selecione a configuração do modelo 'Modelo de fatura de cliente' para importá-la.  
+
+    Selecione a configuração do modelo 'Modelo de fatura de cliente' para importá-la.  
+
 6. Clique em Importar.
-    * Clique em Importar para a versão 1 da configuração selecionada.  
+
+    Clique em Importar para a versão 1 da configuração selecionada.  
+
 7. Clique em Sim.
 8. Feche a página.
 9. Feche a página.
@@ -65,6 +73,5 @@ Você criará nossa própria configuração do Modelo de fatura de cliente deriv
 1. Clique em Criar configuração para abrir a caixa de diálogo suspensa.
 2. No campo Novo, digite o nome 'Derivar do Nome: Modelo de fatura de cliente, Microsoft'.
 3. No campo Nome, digite 'Modelo de fatura de cliente (personalizada)'.
-    * Modelo de fatura de cliente (personalizada)  
 4. Clique em Criar configuração.
 

@@ -1,6 +1,6 @@
 ---
 title: Criar um perfil de funcionalidade de varejo
-description: Este tópico descreve como criar um perfil de funcionalidade de varejo no Microsoft Dynamics 365 Commerce.
+description: Este tópico descreve como criar um perfil de funcionalidade no Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -17,27 +17,27 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9fb0fd63b11e55f2b153fc9c135f148a6e343057
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6bee51eb25b04eb65e588dd4cf54a0cef587aa15
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002834"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057339"
 ---
 # <a name="create-a-retail-functionality-profile"></a>Criar um perfil de funcionalidade de varejo
 
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como criar um perfil de funcionalidade de varejo no Microsoft Dynamics 365 Commerce.
+Este tópico descreve como criar um perfil de funcionalidade no Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Visão geral
 
-O perfil de funcionalidade de varejo fornece várias configurações usadas em canais online. Cada canal de varejo deve especificar um perfil de funcionalidade de varejo.
+O perfil de funcionalidade de comércio fornece várias configurações usadas em canais online. Cada canal deve especificar um perfil de funcionalidade.
 
-## <a name="create-a-retail-functionality-profile"></a>Criar um perfil de funcionalidade de varejo
+## <a name="create-a-functionality-profile"></a>Criar um perfil de funcionalidade
 
-Para criar um novo perfil de funcionalidade, siga estas etapas:
+Para criar um novo perfil de funcionalidade, siga estas etapas.
 
 1. No painel de navegação, vá para **Módulos \> Configuração de canal \> Perfis de PDV \> Perfis de funcionalidade**.
 1. No painel de ação, selecione **Novo**.
@@ -51,9 +51,9 @@ Para criar um novo perfil de funcionalidade, siga estas etapas:
 1. Na seção **Códigos Informativos**, modifique as configurações, conforme necessário.
 1. Na seção **Numeração de recibo**, modifique as configurações, conforme necessário. 
   
-A imagem a seguir mostra um exemplo de perfil de funcionalidade de varejo.
+A imagem a seguir mostra um exemplo de perfil de funcionalidade.
   
-![Exemplo de perfil de funcionalidade de varejo](media/retail-functionality-profile.png)
+![Exemplo de perfil de funcionalidade](media/retail-functionality-profile.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

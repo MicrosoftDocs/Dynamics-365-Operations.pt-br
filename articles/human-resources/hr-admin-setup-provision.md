@@ -3,7 +3,7 @@ title: Provisionar o Human Resources
 description: ''
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f3a7987a9b385fb6ba0294dc46b0d66be8228f06
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: f105144047c64fc8e9d42da8d7525a8cc3912c33
+ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026258"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071605"
 ---
 # <a name="provision-human-resources"></a>Provisionar o Human Resources
 
@@ -62,9 +62,6 @@ Depois de criar um projeto de LCS, você pode provisionar o Human Resources em u
 3. Selecione a opção **Incluir Dados de Demonstração** se quiser que o ambiente inclua o mesmo conjunto de dados de demonstração usado na experiência de test drive do Human Resources. Isso é interessante para ambientes de demonstração ou de treinamento de longo prazo, e nunca deve ser usado em ambientes de produção.  Observe que você deve selecionar esta opção na implantação inicial. Não é possível atualizar uma implantação já existente depois.
 
 4. O Human Resources sempre é provisionado em um ambiente do Microsoft Power Apps para permitir a integração e extensibilidade do Power Apps. Leia a seção "Selecionando um ambiente do Power Apps" deste artigo antes de prosseguir. Se você ainda não tem um ambiente do Power Apps, selecione Gerenciar ambientes no LCS ou vá para o Centro de administração do Power Apps. Em seguida, siga as etapas para [Criar um ambiente do Power Apps](https://docs.microsoft.com/powerapps/administrator/create-environment).
-
-    > [!NOTE]
-    > Para exibir os ambientes existentes ou criar novos, o administrador do locatário que provisiona o Human Resources deve ter recebido a licença P2 do Power Apps. Se sua organização não tiver uma licença P2 do Power Apps, você poderá obter uma com o CSP ou na [página de preços do Power Apps](https://powerapps.microsoft.com/pricing/).
 
 5. Selecione o ambiente ao qual provisionar o Human Resources.
 

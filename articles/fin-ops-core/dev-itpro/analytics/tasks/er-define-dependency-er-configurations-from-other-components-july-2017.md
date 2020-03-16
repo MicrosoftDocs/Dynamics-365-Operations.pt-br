@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97aedf17bb6fa67fd08497ec6e15a7c92866fa4d
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 468a2637f4a5b2b7ff3514c92c52fb26b9231bc4
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026101"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042910"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Definir a dependência de configurações de ER em outros componentes
 
@@ -140,4 +140,3 @@ Excluiremos as configurações criadas do sistema e as baixaremos novamente do r
 26. Na árvore, expanda 'Modelo de dados de amostra'.
     * Observe que a configuração de mapeamento do modelo 'Mapeamento de amostra' foi baixada com a configuração selecionada do modelo de dados. Os dois arquivos são baixados juntos porque o ‘Mapeamento de amostra’ foi definido como implementação do modelo de dados selecionado e porque é aplicável ao aplicativo. A configuração 'Mapeamento de amostra (alternativo)' não foi baixada porque a condição para a versão do aplicativo necessária não foi satisfeita.   
     * Se você se conectar ao Finance and Operations, registrar o mesmo provedor, acessar o mesmo projeto de LCS e baixar a mesma configuração do modelo de dados, a configuração 'Mapeamento de amostra (alternativo)' será baixada, enquanto a configuração 'Mapeamento de amostra' será ignorada.  
-

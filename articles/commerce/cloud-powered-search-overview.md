@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: de0981d3200c2b1d62cab7600d2382bd11dd4b20
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 5501f4d39709990eb352511477b1427fb265afde
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002234"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057824"
 ---
 # <a name="cloud-powered-search-overview"></a>Visão geral da pesquisa habilitada para a nuvem
 
@@ -33,7 +33,7 @@ Este tópico fornece uma visão geral de pesquisa baseada em nuvem no Microsoft 
 
 ## <a name="overview"></a>Visão geral
 
-A descoberta de produto ajuda a garantir que clientes podem encontrar produtos rápido e facilmente navegando em categorias, pesquisa e filtros. Os varejistas consideram a descoberta de produto uma ferramenta primária para a interação do cliente em todos os canais de varejo.
+A descoberta de produto ajuda a garantir que clientes podem encontrar produtos rápido e facilmente navegando em categorias, pesquisa e filtros. Os varejistas consideram a descoberta de produtos a principal ferramenta para a interação com os clientes em todos os canais.
 
 Os clientes são acostumados à resposta quase que instantânea de mecanismos de pesquisa da Web, sites de comércio online sofisticados, aplicativos sociais, sugestões automáticas que aparecem conforme digitam termos de pesquisa, navegação multifacetada e destaques. Se os clientes não conseguem encontrar os produtos que estão procurando rapidamente suficiente em um armazenamento de comércio online, eles não hesitarão em ir para uma loja de comércio online diferente.
 

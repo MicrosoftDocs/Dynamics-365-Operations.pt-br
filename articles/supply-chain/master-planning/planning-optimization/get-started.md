@@ -3,7 +3,7 @@ title: Introdução à Otimização de Planejamento
 description: Este tópico explica como começar a usar a funcionalidade Otimização de Planejamento.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/17/2020
+ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,17 +19,17 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 3e0371c6addc0412dc2fc105891b012941e92a06
-ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
+ms.openlocfilehash: 3e64699005387adcc92e2e7c9fefad68a9de85c0
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "2971455"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076123"
 ---
+# <a name="get-started-with-planning-optimization"></a>Introdução à Otimização de Planejamento
+
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
-
-# <a name="get-started-with-planning-optimization"></a>Introdução à Otimização de Planejamento
 
 No momento, a funcionalidade Otimização de Planejamento não dá suporte a todos os recursos disponíveis no mecanismo de planejamento do Microsoft Dynamics 365 Supply Chain Management. Portanto, é importante que você avalie se o conjunto de recursos disponível no momento na Otimização de Planejamento atenderá aos seus requisitos. Por padrão, a funcionalidade Otimização de Planejamento não está ativada no Dynamics Lifecycle Services (LCS) por padrão. Portanto, você tem uma oportunidade de fazer sua avaliação antes de ativá-la.
 
@@ -44,6 +44,9 @@ Se você puder executar o planejamento mestre usando a licença atual, não ter�
 ### <a name="install-the-add-in"></a>Instalar o suplemento
 
 Para usar a Otimização de Planejamento, instale o Suplemento Otimização de Planejamento para o Dynamics 365 Supply Chain Management. Você pode acessar o suplemento do seu projeto do LCS e ativar a funcionalidade Otimização de Planejamento da interface do usuário (IU) do Supply Chain Management.
+
+> [!NOTE]
+> A necessidade de Otimização do Planejamento é um ambiente de alta disponibilidade habilitado para LCS (não um ambiente OneBox), com o Dynamics 365 Supply Chain Management versão 10.0.7 ou posterior.
 
 1. Entre no LCS e abra o ambiente desejado.
 1. Vá para **Detalhes completos**.
