@@ -4,14 +4,12 @@
       items:
         - name: Home page do Dynamics 365 Finance
           href: index.md
-        - name: Introdução
+        - name: Comece a usar
           items:
             - name: Antes de comprar
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: Inscrever-se em assinaturas de versão prévia
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/finance/toc.json
-            - name: Insights de pagamento de cliente (versão prévia)
-              href: accounts-receivable/payment-insights-overview.md
             - name: Atualizações do serviço One Version
               items:
                 - name: Visão geral de atualizações do serviço One Version
@@ -22,15 +20,17 @@
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/finance/toc.json
                 - name: Política de ciclo de vida do software — Locais
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/dynamics365/finance/toc.json
-                - name: Disponibilidade da atualização do serviço
+                - name: Disponibilidade de atualizações do serviço
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/finance/toc.json
                 - name: Aplicar atualizações a ambientes de nuvem
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/finance/toc.json
-                - name: Configurar atualizações de serviço
+                - name: Aplicar atualizações a implantações locais
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/finance/toc.json
+                - name: Configurar atualizações do serviço
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/finance/toc.json
-                - name: Pausar atualizações de serviço
+                - name: Pausar atualizações do serviço
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/finance/toc.json
-                - name: Receber notificações sobre atualizações de serviço
+                - name: Receber notificações sobre atualizações do serviço
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: Automação de tarefa de dados
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/finance/toc.json
@@ -70,20 +70,24 @@
                   items:
                     - name: Novidades ou alterações na home page do Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance versão 10.0.10 (maio de 2020)
+                      href: get-started/whats-new-changed-10-0-10.md
                     - name: Finance versão 10.0.9 (abril de 2020)
                       href: get-started/whats-new-changed-10-0-9.md
                     - name: Finance versão 10.0.8 (fevereiro de 2020)
                       href: get-started/whats-new-changed-10-0-8.md
-                    - name: Finance versão 10.0.7 (janeiro de 2020)
-                      href: get-started/whats-new-changed-10-0-7.md
-                - name: Recursos removidos ou obsoletos
+            - name: Recursos removidos ou obsoletos
+              items:
+                - name: Recursos removidos ou obsoletos do Dynamics 365 Finance
+                  href: get-started/removed-deprecated-features-finance.md
+                - name: Recursos removidos ou obsoletos em versões anteriores
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
-                - name: Recursos do AX 2012 que foram adiados
-                  href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
-                - name: Recursos não implementados em implantações locais
-                  href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/finance/toc.json
-                - name: Fim do suporte base ao Microsoft Dynamics AX 2009 e 2012
-                  href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
+            - name: Recursos do AX 2012 que foram postergados
+              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
+            - name: Recursos não implementados em implantações locais
+              href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/finance/toc.json
+            - name: Fim do suporte base ao Microsoft Dynamics AX 2009 e 2012
+              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
             - name: Recursos de documentação
               items:
                 - name: Sistema de ajuda
@@ -292,7 +296,7 @@
                   href: accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md
                 - name: Liquidar um pagamento parcial ou pagamento final de fornecedor antes da data do desconto
                   href: accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md
-                - name: Comprovante único com vários registros de cliente ou de fornecedor
+                - name: Comprovante único com vários registros de clientes ou de fornecedores
                   href: accounts-payable/single-voucher-multiple-customer-vendor-records.md
                 - name: Obter um desconto à vista fora do período de desconto à vista
                   href: accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md
@@ -306,17 +310,19 @@
           items:
             - name: Home page de Contas a receber
               href: accounts-receivable/accounts-receivable.md
-            - name: Estabelecer condições de pagamento de cliente
+            - name: Estabelecer condições de pagamento do cliente
               href: general-ledger/tasks/establish-customer-payment-terms.md
-            - name: Estabelecer método de pagamento de cliente
+            - name: Estabelecer forma de pagamento do cliente
               href: accounts-receivable/tasks/establish-customer-method-payment.md
-            - name: Estabelecer taxas de pagamento de cliente
+            - name: Estabelecer taxas de pagamento do cliente
               href: accounts-receivable/tasks/establish-customer-payment-fees.md
-            - name: Perfis de lançamentos de cliente
+            - name: Insights sobre o pagamento do cliente (versão prévia)
+              href: accounts-receivable/payment-insights-overview.md
+            - name: Perfis de lançamentos do cliente
               href: accounts-receivable/customer-posting-profiles.md
             - name: Copiar clientes usando sequências numéricas compartilhadas
               href: accounts-receivable/copy-customer.md
-            - name: Fluxo de trabalho de cliente
+            - name: Fluxo de trabalho do cliente
               href: accounts-receivable/customer-workflow.md
             - name: Créditos e cobranças em Contas a receber
               href: accounts-receivable/collections-credit-accounts-receivable.md
@@ -338,7 +344,7 @@
               href: accounts-receivable/set-up-process-recurring-invoices.md
             - name: Distribuições contábeis e entradas no diário-razão auxiliar para faturas de texto livre
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
-            - name: Perfis de lançamentos de cliente
+            - name: Perfis de lançamentos do cliente
               href: accounts-receivable/customer-posting-profiles.md
             - name: Visão geral de débito direto SEPA
               href: accounts-receivable/sepa-direct-debit-overview.md
@@ -1794,6 +1800,8 @@
                           href: localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
                         - name: Definir códigos de HSN e códigos de contabilidade de serviço
                           href: localizations/apac-ind-GST-hsn-service-accounting-codes.md
+                        - name: Criar tipo de taxa tributária
+                          href: localizations/apac-ind-GST-create-tax-rate-type.md
                         - name: Criar as contas principais para o tipo de lançamento de GST
                           href: localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
                         - name: Criar um período de liquidação do imposto
@@ -1922,17 +1930,18 @@
                   items:
                     - name: Visão geral do mecanismo de cálculo de impostos
                       href: general-ledger/tax-engine.md
-                      items:
-                        - name: Criar componentes do imposto
-                          href: localizations/tax-engine-create-tax-component.md
-                        - name: Importar configuração
-                          href: general-ledger/tax-engine-import-configuration.md
-                        - name: Aplicabilidade do mecanismo de cálculo de impostos
-                          href: general-ledger/tax-engine-applicability.md
-                        - name: Integração do mecanismo de cálculo de impostos
-                          href: general-ledger/tax-engine-integration.md
-                        - name: Estendendo o mecanismo de cálculo de impostos
-                          href: general-ledger/extend-tax-engine-configurations.md
+                    - name: Importar configuração
+                      href: general-ledger/tax-engine-import-configuration.md
+                    - name: Designer de fórmulas avançado
+                      href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
+                    - name: Aplicabilidade do mecanismo de cálculo de impostos
+                      href: general-ledger/tax-engine-applicability.md
+                    - name: Criar componentes do imposto
+                      href: localizations/tax-engine-create-tax-component.md
+                    - name: Integração do mecanismo de cálculo de impostos
+                      href: general-ledger/tax-engine-integration.md
+                    - name: Extensão do mecanismo de cálculo de impostos
+                      href: general-ledger/extend-tax-engine-configurations.md
                 - name: Perguntas frequentes sobre limites de impostos
                   href: localizations/apac-ind-tax-thresholds.md
                 - name: Transferências do estoque
@@ -2177,9 +2186,9 @@
               items:
                 - name: Visão geral da Malásia
                   href: localizations/malaysia.md
-                - name: Gerar crédito de cliente para vendas de projeto
+                - name: Gerar crédito de clientes para vendas de projeto
                   href: localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
-                - name: Gerar débito de cliente para vendas de projeto
+                - name: Gerar débito de clientes para vendas de projeto
                   href: localizations/tasks/my-00011-02-customer-debit-note-project-sales-2016-11.md
                 - name: GST (Imposto sobre Bens e Serviços)
                   href: localizations/apac-mys-gst.md
@@ -2209,7 +2218,7 @@
                   href: localizations/tasks/mx-00010-cancel-electronic-invoice.md
                 - name: Versão 3.3 do CFDI
                   href: localizations/latam-mex-cfdi-3-3.md
-                - name: IDs de registro de cliente e outras informações
+                - name: IDs de registro do cliente e outras informações
                   href: localizations/tasks/mx-00007-customer-registration-ids-other-information.md
                 - name: ​Demonstrativo de declaração DIOT​
                   href: localizations/latam-mex-diot-declaration-statement.md
@@ -2353,54 +2362,60 @@
                       href: localizations/rus-sales-books-purchase-books.md
                     - name: Gerenciamento de pagamentos antecipados
                       href: localizations/rus-prepayments-management.md
-                    - name: Restauração de IVA de entrada.
+                    - name: Restauração de IVA recebido
                       href: localizations/rus-incoming-VAT-restoring.md
                 - name: Ativos fixos
                   items:
-                    - name: Gerenciando ativos fixos
-                      href: localizations/rus-fixed-assets.md
                     - name: Visão geral de ativos fixos
-                      hfre: localizations/rus-fixed-assets-overview.md
+                      href: localizations/rus-fixed-assets-overview.md
                     - name: Configurar ativos fixos
-                      href: localizations/rus-set-up-fixed-assets.md
-                    - name: Adquirindo ativos fixos e colocando-os em operação
-                      href: localizations/rus-fixed-asset-acquisition.md
-                    - name: Registrar aquisições de ativos fixos
-                      href: localizations/rus-register-acquisition.md
-                    - name: Criar e lançar diários de orçamento para aquisições de ativos fixos
-                      href: localizations/rus-post-budget-fixed-asset-acquisition.md
-                    - name: Criar um arrendamento de ativo fixo e uma devolução da transação de arrendamento
-                      href: localizations/rus-fixed-asset-leasing.md
-                    - name: Contagem de ativos fixos
-                      href: localizations/rus-fixed-assets-counting.md
-                    - name: Reavaliação de moeda de ativos fixos
-                      href: localizations/rus-fixed-asset-currency-revaluation.md
-                    - name: Manter ativos fixos
-                      href: localizations/rus-maintain-fixed-assets.md
-                    - name: Reavaliar o custo e a depreciação do ativo fixo
-                      href: localizations/rus-fixed-assets-revaluation.md
-                    - name: Desmontagem parcial de ativos fixos (liquidação)
-                      href: localizations/rus-fixed-assets-disassembly.md
-                    - name: 'Venda, disposição e amortização de ativos'
-                      href: localizations/rus-sell-dispose-write-off-fixed-assets.md
-                    - name: Configurar localizações e numerações de ativos fixos
-                      href: localizations/rus-fixed-assets-locations-numbering.md
-                    - name: Configurar depreciação
-                      href: localizations/rus-depreciation-setup.md
-                    - name: Métodos de depreciação
-                      href: localizations/rus-depreciation-methods.md
-                    - name: Bônus de depreciação
-                      href: localizations/rus-bonus-depreciation.md
-                    - name: Calcular depreciação
-                      href: localizations/rus-depreciation-calculation.md
-                    - name: Transferir ativos fixos
-                      href: localizations/rus-fixed-asset-transfer.md
-                    - name: Formulários de impressão unificados para ativos fixos
-                      href: localizations/printing-forms-fixed-assets.md
-                    - name: Vestuário operacionais/contabilidade de equipamento especial (Rússia)
-                      href: localizations/rus-working-clothes-instruments-accounting.md
-                    - name: Ativos fixos não valiosos (NVFAs) (Rússia)
-                      href: localizations/rus-not-valuable-assets.md
+                      items:
+                        - name: Configurar ativos fixos
+                          href: localizations/rus-set-up-fixed-assets.md
+                        - name: Configurar depreciação
+                          href: localizations/rus-depreciation-setup.md
+                        - name: Métodos de depreciação
+                          href: localizations/rus-depreciation-methods.md
+                        - name: Bônus de depreciação
+                          href: localizations/rus-bonus-depreciation.md
+                        - name: Configurar locais e numerações dos ativos fixos
+                          href: localizations/rus-fixed-assets-locations-numbering.md
+                    - name: Trabalhar com ativos fixos
+                      items:
+                        - name: Criar ativos fixos
+                          href: localizations/rus-fixed-assets.md
+                        - name: Registrar aquisições dos ativos fixos
+                          href: localizations/rus-register-acquisition.md
+                        - name: Adquirir ativos fixos e colocá-los em operação
+                          href: localizations/rus-fixed-asset-acquisition.md
+                        - name: Calcular depreciação
+                          href: localizations/rus-depreciation-calculation.md
+                        - name: Desmontagem parcial de ativos fixos (liquidação)
+                          href: localizations/rus-fixed-assets-disassembly.md
+                        - name: 'Venda, disposição e baixa de ativos'
+                          href: localizations/rus-sell-dispose-write-off-fixed-assets.md
+                        - name: Criar um arrendamento de ativo fixo e uma devolução da transação de arrendamento
+                          href: localizations/rus-fixed-asset-leasing.md
+                        - name: Manter ativos fixos
+                          href: localizations/rus-maintain-fixed-assets.md
+                        - name: Contagem de ativos fixos
+                          href: localizations/rus-fixed-assets-counting.md
+                        - name: Reavaliação da moeda dos ativos fixos
+                          href: localizations/rus-fixed-asset-currency-revaluation.md
+                        - name: Reavaliar o custo e a depreciação do ativo fixo
+                          href: localizations/rus-fixed-assets-revaluation.md
+                        - name: Criar e lançar diários de orçamento para aquisições de ativos fixos
+                          href: localizations/rus-post-budget-fixed-asset-acquisition.md
+                        - name: Transferir ativos fixos
+                          href: localizations/rus-fixed-asset-transfer.md
+                    - name: Ativos fixos não valiosos e roupas ou trabalho
+                      items:
+                        - name: Ativos fixos não valiosos (NVFAs) (Rússia)
+                          href: localizations/rus-not-valuable-assets.md
+                        - name: Contabilidade de vestuário operacional e equipamentos especiais (Rússia)
+                          href: localizations/rus-working-clothes-instruments-accounting.md
+                        - name: Formulários de impressão unificados para ativos fixos
+                          href: localizations/printing-forms-fixed-assets.md
                 - name: Contas a pagar e a receber
                   items:
                     - name: Correções de nota de crédito (Rússia)
@@ -2427,15 +2442,23 @@
                           href: localizations/rus-register-transactions-with-reference-to-agreements.md
                         - name: Consultas e relatórios com contratos
                           href: localizations/rus-inquiries-reports-agreements.md
+                    - name: Transações por meio de intermediários
+                      items:
+                        - name: Visão geral sobre transações por meio de intermediários
+                          href: localizations/rus-transactions-through-intermediary.md
+                        - name: Compras por comissão
+                          href: localizations/rus-purchases-on-commission.md
+                        - name: Vendas por comissão
+                          href: localizations/rus-sales-on-commission.md
                 - name: Estoque
                   items:
                     - name: Mercadorias em trânsito do fornecedor
                       href: localizations/rus-goods-transit-vendor.md
-                    - name: Números da declaração de alfândega
+                    - name: Números da declaração alfandegária
                       href: localizations/rus-custom-declaration-number.md
-                    - name: Estrutura de custo de estoque
+                    - name: Estrutura de custo do estoque
                       href: localizations/rus-inventory-cost-structure.md
-                    - name: Assistente de ajuste de estoque
+                    - name: Assistente de ajuste do estoque
                       href: localizations/rus-inventory-adjustment-wizard.md
                 - name: Relatórios
                   items:
@@ -2531,13 +2554,15 @@
                   href: localizations/sweden.md
                 - name: Exportar informações financeiras para auditores na Suécia
                   href: localizations/emea-swe-sie-standard-report.md
-                - name: Formatos de pagamento de importação
+                - name: Importar formatos de pagamento
                   href: localizations/emea-swe-payment-formats-import.md
+                - name: Relatório de pagamento de impostos da Suécia
+                  href: localizations/emea-swe-sales-tax-payment-report-sweden.md
             - name: Suíça
               items:
                 - name: Visão geral da Suíça
                   href: localizations/switzerland.md
-                - name: Importar pagamentos de cliente em ESR
+                - name: Importar pagamentos de clientes no formato ESR
                   href: localizations/emea-che-esr-customer-payments-import.md
             - name: Tailândia
               items:
@@ -2561,25 +2586,29 @@
                   href: localizations/united-kingdom.md
                 - name: Esquema do Setor de Construção
                   href: localizations/emea-gbr-cis-construction-industry-scheme.md
-                - name: Criar um crédito no desconto de liquidação
-                  href: localizations/tasks/gb-00009-credit-note-settlement-discount.md
-                - name: Criar uma ordem de compra que inclui itens sujeitos a IVA de encargos revertidos
-                  href: localizations/tasks/purchase-order-reverse-charge-vat.md
-                - name: Criar uma ordem de venda que inclui itens sujeitos a IVA de encargos revertidos
-                  href: localizations/tasks/gb-00002-sales-order.md
-                - name: Configurar grupos de impostos de item para IVA de encargos revertidos
-                  href: localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
-                - name: 'Configurar grupos, regras e parâmetros de itens de IVA de encargos revertidos'
-                  href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
-                - name: Configurar grupos de impostos para IVA de encargos revertidos
-                  href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-                - name: Tornar o imposto digital para IVA
+                - name: Encargo revertido
+                  items:
+                    - name: Criar um crédito no desconto de liquidação
+                      href: localizations/tasks/gb-00009-credit-note-settlement-discount.md
+                    - name: Criar uma ordem de compra que inclua itens sujeitos a IVA de encargos revertidos
+                      href: localizations/tasks/purchase-order-reverse-charge-vat.md
+                    - name: Criar uma ordem de venda que inclui itens sujeitos a IVA de encargos revertidos
+                      href: localizations/tasks/gb-00002-sales-order.md
+                    - name: Configurar grupos de impostos de item para IVA de encargos revertidos
+                      href: localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
+                    - name: 'Configurar grupos, regras e parâmetros de itens de IVA de encargos revertidos'
+                      href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
+                    - name: Configurar grupos de impostos para IVA de encargos revertidos
+                      href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
+                - name: Tornar o imposto IVA digital
                   href: localizations/emea-gbr-mtd-vat-integration.md
+                - name: Relatório de estatísticas das práticas de pagamento
+                  href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: Estados Unidos
               items:
                 - name: Visão geral dos Estados Unidos
                   href: localizations/united-states.md
-                - name: Relatório 1099 do exercício dos Estados Unidos
+                - name: Relatório 1099 do exercício para os Estados Unidos
                   href: localizations/noam-usa-year-end-1099-reporting.md
                 - name: Formulário 1099 para o setor público
                   href: localizations/noam-usa-form-1099-public-sector.md
@@ -3141,6 +3170,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
                 - name: Selecionar definições de modelo de dados ao criar formatos
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
+                - name: Opções aprimoradas de filtro para localizar configurações no repositório global
+                  href: ../finance/localizations/enhanced-filtering-global-repo.md
                 - name: Gerar relatórios adicionando conteúdo como XML bruto
                   href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
                 - name: (ER) Fontes de dados interempresariais no Relatório eletrônico
