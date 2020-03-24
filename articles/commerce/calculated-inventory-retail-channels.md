@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 8bef8edb46a1942d3efc325e2c437a138ad44839
-ms.sourcegitcommit: e1a55b4dc43abedf523c33ba9a8abe7b073f2ec6
+ms.openlocfilehash: 5b85438bc23e8f6cef0730dee9ac2c7f6dc26589
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3083009"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113911"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Calcular a disponibilidade de estoque em canais de varejo
 
@@ -41,7 +41,7 @@ Este tópico explica os processos de sincronização de dados que podem ser exec
 Você pode usar as seguintes APIs para mostrar a disponibilidade do estoque de um produto quando seus clientes realizarem compras em um site de comércio eletrônico.
 
 - **GetEstimatedAvailabilty** – Use esta API para saber a disponibilidade de estoque do item no depósito do canal de comércio eletrônico ou em todos os depósitos vinculados à configuração do grupo de atendimento para o canal de comércio eletrônico. Essa API também pode ser usada para depósitos em uma área ou raio de pesquisa específico, com base em dados de longitude e latitude.
-- **ProductWarehouseInventoryAvailabilities** – Use esta API para solicitar estoque de um item em um depósito específico. Por exemplo, você pode usá-la para mostrar a disponibilidade do estoque em cenários que envolvem a retirada da ordem.
+- **GetEstimatedProductWarehouseAvailability** – Use esta API para solicitar estoque de um item em um depósito específico. Por exemplo, você pode usá-la para mostrar a disponibilidade do estoque em cenários que envolvem a retirada da ordem.
 
 > [!NOTE]
 > Essas APIs substituem as APIs **GetProductAvailabilities** e **GetAvailableInventoryNearby** na versão do Dynamics 365 Retail 10.0.7 e anterior.

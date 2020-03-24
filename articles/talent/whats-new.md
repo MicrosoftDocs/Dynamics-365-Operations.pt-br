@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 243fadd242c51440eae1ac7026c71a889a9fa81c
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: de05d685aecb117f51239884d67969591b0d78f0
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897249"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117257"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent"></a>Novidades ou alterações no Dynamics 365 Talent 
 
 Essa página fornece detalhes sobre como encontrar informações sobre as últimas versões do Microsoft Dynamics Talent Core HR.
 
-A cada semana saem novas versões do Talent. Essas versões são listadas no sumário do site docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../index.md)). Você poderá examinar o sumário ou usar o controle Filtro acima do sumário para localizar os tópicos mais recentes que está procurando. Os títulos de tópico começarão com "Novidades ou alterações no Dynamics 365 Talent…”.
+A cada semana saem novas versões do Talent. Essas versões são listadas no sumário do site docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../index.md)). Você poderá examinar o sumário ou usar o controle Filtro acima do sumário para localizar os tópicos mais recentes que está procurando. Os títulos de tópico começarão com "Novidades ou alterações no Dynamics 365 Talent…".
 
 O sumário continuará a ser atualizado a cada semana, portanto fique atento para localizar todos os novo recursos e alterações das últimas versões do Talent.
 
-[!include [release notes](../fin-ops-core/fin-ops/includes/release-notes.md)]

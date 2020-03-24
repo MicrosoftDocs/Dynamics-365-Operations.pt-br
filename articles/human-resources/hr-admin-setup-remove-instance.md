@@ -1,6 +1,6 @@
 ---
 title: Remover uma instância
-description: ''
+description: Este artigo mostra o processo de remoção de um ambiente de produção ou de test drive do Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5c5f875ad9361c31af4fbe863488b881cdd97a6e
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: a40b9619e92b81272208ad4241a2455330a342a7
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008043"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124419"
 ---
 # <a name="remove-an-instance"></a>Remover uma instância
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0deb51bb23851b179e2c4166b6444af654a64e1d
-ms.sourcegitcommit: 380664bf10bb25449e3af3d62e235b76d46c0c89
+ms.openlocfilehash: 11db3ee1e9407febce7731d0888e7a10375a90da
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "2957358"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117328"
 ---
 # <a name="business-document-management-overview"></a>Visão geral de gerenciamento de documentos comerciais
+
+[!include [banner](../includes/banner.md)]
 
 Os usuários comerciais usam a [estrutura de Relatório eletrônico (ER)](general-electronic-reporting.md) para configurar formatos para documentos de saída de acordo com os requisitos legais de vários países/regiões. Os usuários também podem definir o fluxo de dados para especificar quais dados do aplicativo são colocados nos documentos gerados. A estrutura de ER gera documentos de saída nos formatos do Microsoft Office (pastas de trabalho do Excel ou documentos do Word) usando modelos predefinidos. Os modelos são preenchidos com os dados necessários de acordo com o fluxo de dados configurado enquanto os documentos necessários são gerados. Cada formato configurado pode ser publicado como parte de uma solução de ER para gerar documentos de saída específicos. Isso é representado por uma configuração de formato de ER que pode conter modelos usados para gerar diferentes documentos de saída. Os usuários comerciais podem usar essa estrutura para gerenciar os documentos comerciais necessários.
 
@@ -147,7 +149,7 @@ Para obter informações sobre como configurar os parâmetros e tipos de documen
 
 ![Configurar o tipo de documento de gerenciamento de documentos](./media/BDM-Overview-DMSetting.png)
 
-### <a name="SetupBdmParameters">Configurar parâmetros</a>
+### <a name=""></a><a name="SetupBdmParameters">Configurar parâmetros</a>
 
 Os parâmetros básicos de gerenciamento de documentos comerciais podem ser configurados na página **Parâmetros do documento comercial**. Somente usuários específicos podem acessar a página. Isso inclui:
 
@@ -158,7 +160,7 @@ Use o procedimento a seguir para configurar os parâmetros básicos de todas as 
 
 1. Entre como um usuário com acesso à página **Parâmetros do documento comercial**.
 2. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Gerenciamento de documentos comerciais** \> **Parâmetros do documento comercial**.
-3.  Na página **Parâmetros do documento comercial**, na guia **Anexos**, no campo **Tipo de documento do SharePoint**, defina o tipo de documento que deve ser usado para armazenar temporariamente modelos nos formatos do Office enquanto eles são editados usando os aplicativos da área de trabalho do Office. 
+3.    Na página **Parâmetros do documento comercial**, na guia **Anexos**, no campo **Tipo de documento do SharePoint**, defina o tipo de documento que deve ser usado para armazenar temporariamente modelos nos formatos do Office enquanto eles são editados usando os aplicativos da área de trabalho do Office. 
 
 > [!NOTE]
 > Somente tipos de documentos configurados usando um local do SharePoint estão disponíveis para esse parâmetro.
@@ -288,13 +290,13 @@ A página **Editor de modelo de BDM** será aberta. O modelo selecionado estará
 
 ![Página do espaço de trabalho de gerenciamento de documentos comerciais](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name="EditInOffice365">Editar um modelo no Office 365</a>
+### <a name=""></a><a name="EditInOffice365">Editar um modelo no Office 365</a>
 
 Você pode modificar o modelo usando o Office 365. Por exemplo, no Office online, altere a fonte dos avisos do campo no cabeçalho do modelo de **Regular** para **Negrito**. Essas alterações são armazenadas automaticamente no modelo editável que é guardado no armazenamento do modelo principal (por padrão, o armazenamento de blobs do Azure). Isso é configurado para a estrutura do ER.
 
 ![Página do editor de modelo de gerenciamento de documentos comerciais](./media/BDM-Overview-EditingLayout2.png)
 
-### <a name="EditInOfficeDesktopApp">Editar um modelo no aplicativo da área de trabalho do Office</a>
+### <a name=""></a><a name="EditInOfficeDesktopApp">Editar um modelo no aplicativo da área de trabalho do Office</a>
 
 > [!NOTE]
 > Essa função fica disponível somente quando o parâmetro **Tipo de documento do SharePoint** é configurado corretamente. Para obter mais informações, consulte [Configurar parâmetros](#SetupBdmParameters).
@@ -398,7 +400,7 @@ Sim, você pode. Na primeira sessão do aplicativo, selecione **Abrir no Aplicat
 3. Na página **Editor de modelo de BDM** da primeira sessão do aplicativo, selecione **Sincronizar cópia armazenada**.
 4. Execute esse modelo de formato de ER na segunda sessão do aplicativo.
 
-#### <a name="i-get-the-error-value-cannot-be-null-parameter-name-externalid-when-i-select-open-in-desktop-app-how-do-i-work-around-this"></a>Recebo o erro: O valor não pode ser nulo. Nome do parâmetro: externalId quando seleciono **Abrir no Aplicativo de Área de Trabalho**. Como faço para resolver isso? 
+#### <a name="i-get-the-error-value-cannot-be-null-parameter-name-externalid-when-i-select-open-in-desktop-app-how-do-i-work-around-this"></a>Recebo o erro 'O valor não pode ser nulo. Nome do parâmetro: externalId' quando seleciono **Abrir no Aplicativo de Área de Trabalho**. Como faço para resolver isso? 
 Provavelmente, você entrou na instância atual do aplicativo do domínio do Azure AD, diferente do domínio do Azure AD que foi usado para implantar essa instância. Como o serviço do SharePoint, usado para armazenar modelos para disponibilizá-los para edição usando os aplicativos da área de trabalho do Office, pertence ao mesmo domínio, não temos permissões para acessar o serviço do SharePoint. Para resolver esse problema, entre na instância atual usando as credenciais de um usuário com o domínio correto do Azure AD.
 
 ## <a name="additional-resources"></a>Recursos adicionais

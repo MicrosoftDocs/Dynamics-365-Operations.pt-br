@@ -3,7 +3,7 @@ title: Habilitar detecção de lojas com base na localização
 description: Este tópico descreve como ativar a detecção de loja baseada em local para seu site do Dynamics 365 Commerce.
 author: brianshook
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 304d8d2f05916295b9c6320561d6a25ff40df955
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 66ffe56f9d969c9d62ed4ff49f0848fab7e58a56
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003082"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096860"
 ---
 # <a name="enable-location-based-store-detection"></a>Habilitar detecção de lojas com base na localização
 
@@ -50,9 +50,11 @@ Para ativar a detecção de loja baseada em local no Comércio, siga estas etapa
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Configure seu nome de domínio](configure-your-domain-name.md)
+[Configurar seu nome de domínio](configure-your-domain-name.md)
 
 [Implantar um novo site de comércio eletrônico](deploy-ecommerce-site.md)
+
+[Configurar um canal da loja online](online-stores.md)
 
 [Criar um site de comércio eletrônico](create-ecommerce-site.md)
 
@@ -60,6 +62,12 @@ Para ativar a detecção de loja baseada em local no Comércio, siga estas etapa
 
 [Gerenciar arquivos robots.txt](manage-robots-txt-files.md)
 
+[Carregar redirecionamentos de URL em massa](upload-bulk-redirects.md)
+
+[Configurar um locatário B2C do Commerce](set-up-B2C-tenant.md)
+
 [Configurar páginas personalizadas para logons dos usuários](custom-pages-user-logins.md)
+
+[Configurar múltiplos locatários B2C em um ambiente do Commerce](configure-multi-B2C-tenants.md)
 
 [Adicionar suporte para uma rede de entrega de conteúdo (CDN)](add-cdn-support.md)

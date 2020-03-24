@@ -1,9 +1,9 @@
 ---
 title: Criar e trabalhar com campos personalizados
-description: Este tópico mostra como criar campos personalizados para adequar o aplicativo à sua empresa.
+description: Este tópico mostra como criar campos personalizados por meio da interface do usuário para adequar o aplicativo à sua empresa.
 author: jasongre
 manager: AnnBe
-ms.date: 07/16/2018
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 9146921c47e89c5895a1a727de874b0ffbc93c37
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: f689bb3ec844459d1dd6e199804a30f3e0cb38bc
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812496"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112327"
 ---
 # <a name="create-and-work-with-custom-fields"></a>Criar e trabalhar com campos personalizados
 
 [!include [banner](../includes/banner.md)]
 
-Embora haja um conjunto extensivo de campos predefinidos para gerenciar uma ampla gama de processos empresariais, às vezes uma empresa precisa rastrear informações adicionais no sistema. Para acomodar essa necessidade, você pode criar campos personalizados para adequar o aplicativo à sua empresa, desde que você tenha permissões para o recurso.
+Embora haja um conjunto extensivo de campos predefinidos para gerenciar uma ampla gama de processos empresariais, às vezes uma empresa precisa rastrear informações adicionais no sistema. Embora os programadores possam ser usados para adicionar esses campos como extensões nas ferramentas de desenvolvedor, o recurso de campos personalizados permite que os campos sejam adicionados diretamente da interface de usuário, permitindo, dessa forma, adequar o aplicativo à sua empresa usando o navegador da Web.
 
-A capacidade de adicionar campos personalizados está disponível na atualização 13 da plataforma e posteriores.
+A capacidade de adicionar campos personalizados está disponível na atualização 13 da plataforma e posteriores. Somente os usuários com permissões especiais têm acesso a esse recurso.
 
 Este vídeo mostra como é fácil adicionar um campo personalizado a uma página: [Adicionando campos personalizados](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
 
@@ -159,3 +159,7 @@ Por motivos técnicos e de desempenho, apenas as tabelas que atendem às seguint
 - A tabela não pode estender outra tabela.
 - A tabela não pode ser marcada como uma tabela de sistema.
 - A tabela não pode ser uma tabela temporária.
+
+### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>Posso fazer referência a campos personalizados usando as ferramentas de desenvolvedor?  
+
+Os campos personalizados podem ser gerenciados somente por meio da interface do usuário e não podem ser referenciados por código. 

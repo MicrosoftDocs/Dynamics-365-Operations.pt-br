@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f5e2fbe74d24c729711c6b96d5ff2b7f0c82922c
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 9b236f489fa2045bdff05f76fadbeacc2f9ed2f4
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015115"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124199"
 ---
 # <a name="credit-limit-adjustments"></a>Ajustes do limite de crédito 
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Os ajustes de limite de crédito permitem que os gerentes de crédito atualizem os limites de crédito e as datas de vencimento de um único cliente, de um grupo de clientes ou de todos os clientes por meio de um processo de lançamento. Você pode adicionar entradas de ajuste de limite de crédito para atualizar clientes e grupos de crédito de clientes ou pode usá-las para calcular limites de crédito automáticos. As entradas podem ser revisadas, enviadas para aprovação por meio de um fluxo de trabalho e lançadas em contas de cliente.
 

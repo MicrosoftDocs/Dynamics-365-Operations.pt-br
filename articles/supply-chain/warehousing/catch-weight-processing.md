@@ -3,7 +3,7 @@ title: Processamento de produtos de peso variável com gerenciamento de depósit
 description: Este tópico descreve como usar modelos de trabalho e diretivas de localização para determinar como e onde o trabalho é realizado no depósito.
 author: perlynne
 manager: AnnBe
-ms.date: 01/10/2020
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 8bc3e3e7bea15127062edfcd362476de97bff07d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3014a7b22c47f99b5c57fd6acd9be8d89c6fb8ab
+ms.sourcegitcommit: 75974ae567bb0eacf0f65cac992b34ce5c680b93
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004102"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3095788"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Processamento de produtos de peso variável com gerenciamento de depósito
 
@@ -30,10 +30,10 @@ ms.locfileid: "3004102"
 
 ## <a name="feature-exposure"></a>Exposição de recurso
 
-Para usar o gerenciamento de depósito para processar produtos de peso variável, você deve usar uma chave de configuração de licença para ativar a funcionalidade. (Vá para **Administração do sistema \> Configuração \> Configuração da licença**. Em seguida, na guia **Chaves de configuração**, expanda **Comércio \> Gerenciamento de Depósito e Transporte** e marque a caixa de seleção para **Peso variável para depósito**).
+Para usar o gerenciamento de depósito para processar produtos de peso variável, você deve usar uma chave de configuração de licença para ativar a funcionalidade. Vá para **Administração de sistema \> Configurar \> Configuração de licença**. Em seguida, na guia **Chaves de configuração**, expanda **Comércio \> Gerenciamento de Depósito e Transporte** e marque a caixa de seleção para **Peso variável para depósito**.
 
 > [!NOTE]
-> Tanto a chave de configuração de licença de **Gerenciamento de Depósito e Transporte** quanto as chaves de configuração de licença de **Peso variável \> da distribuição de processos** também devem ser ativadas. Para definir as chaves de configuração para peso variável, você também deve ativar o recurso usando o espaço de trabalho **Gerenciamento de recursos**. O principal recurso que deve ser ativado é **Processamento de produtos de peso variável com gerenciamento de depósito**. Outro recurso relacionado, mas opcional, que convém ativar é **Alterações de status de estoque para produtos de peso variável**. Este recurso adiciona suporte para alterações no status de estoque de produtos habilitados para peso variável.
+> Tanto a chave de configuração de licença de **Gerenciamento de Depósito e Transporte** quanto as chaves de configuração de licença de **Peso variável \> da distribuição de processos** também devem ser ativadas. Para definir as chaves de configuração para peso variável, você também deve ativar o recurso usando o espaço de trabalho **Gerenciamento de recursos**. O principal recurso que deve ser ativado é **Processamento de produtos de peso variável com gerenciamento de depósito**. Dois recursos relacionados, mas opcionais, que talvez você queira ativar são **Alterações de status de estoque para produtos de peso variável** e **Usar as marcas de peso variável existentes ao relatar ordens de produção como concluídas**.
 
 Depois que a chave de configuração de licença está ativada, ao criar um produto liberado, você pode selecionar **Peso variável**. Você também pode associar o produto liberado a um grupo de dimensões de armazenamento para o qual o parâmetro **Usar processos de gerenciamento de depósito** foi selecionado.
 
@@ -107,6 +107,7 @@ Além disso, quando um item é rastreado por marca, há um parâmetro **Método 
 **Quando o rastreamento de marcas de peso variável é utilizado**, sempre deve ser criada uma marca para cada unidade de peso variável recebida, e cada marca sempre deve ser associada a um peso.
 
 Por exemplo, **Caixa** é a unidade de peso variável, e você recebe um palete de oito caixas. Nesse caso, devem ser criadas oito marcas de peso variável exclusivas e um peso deve ser associado a cada uma delas. Dependendo da marca de peso variável de entrada, o peso de todas as oito caixas poderá ser capturado e o peso médio poderá ser distribuído para cada caixa ou um peso único poderá ser capturado para cada caixa.
+Ao usar o recurso **Usar as marcas de peso variável existentes ao relatar ordens de produção como concluídas** com o processo habilitado por meio de um item de menu do dispositivo móvel, o inventário é atualizado com base nas informações existentes da marca de peso variável. Consequentemente, o aplicativo de depósito não solicita a captura dos dados da marca de peso variável como parte de um relatório de produção como uma operação finalizada.
 
 **Quando o rastreamento de marcas de peso variável não é usado**, é possível capturar o peso para cada conjunto de dimensões (por exemplo, para cada placa de licença e dimensão de rastreamento). Como alternativa, o peso pode ser capturado com base em um nível agregado, como cinco placas de licença (paletes).
 

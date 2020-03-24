@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16a67ef625fdde0755e96c959be1fb2989ca53b6
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: e827ede0508d07b6800ecdc4cc99cb2b6a0bcc78
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770657"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124488"
 ---
 # <a name="sales-tax-overview"></a>Visão geral de imposto
 
@@ -46,7 +46,7 @@ Cada código de imposto sobre vendas deve ser vinculado a um período de liquida
 
 Cada código de imposto sobre vendas também deve estar vinculado a um grupo de lançamento contábil. Um grupo de lançamento contável especifica as contas principais nas quais os valores dos códigos de imposto sobre vendas serão lançados. 
 
-Códigos de relatório de imposto sobre vendas opcionais também podem ser definidos. Eles podem ser atribuídos em códigos de imposto sobre vendas para vários tipos do valor que são calculados para o código do imposto sobre vendas. O relatório **Pagamento de imposto sobre vendas por código** mostra os totais por código de relatório de imposto sobre vendas para um determinado período e intervalo de liquidação de imposto sobre vendas. 
+Códigos de relatório de imposto sobre vendas opcionais também podem ser definidos. Eles podem ser atribuídos em códigos de imposto sobre vendas para vários tipos do valor que são calculados para o código do imposto sobre vendas. O relatório **Pagamento de imposto sobre vendas por código** mostra os totais por código de relatório de imposto para um determinado período e intervalo de liquidação de imposto sobre vendas. 
 
 Cada transação para qual o imposto sobre vendas precisa ser calculado e lançado deve ter um grupo de impostos sobre vendas e um grupo de impostos sobre vendas de item. Os grupos de impostos sobre vendas estão relacionadas ao participante (por exemplo, cliente ou fornecedor) da transação, enquanto os grupos de impostos sobre vendas de item estão relacionados ao recurso (por exemplo, categoria de item ou aquisição) da transação. Os grupos de impostos contêm uma lista dos códigos de imposto. Os códigos de imposto que estão presentes no grupo de imposto sobre vendas e no grupo de imposto sobre vendas de item para uma transação são os códigos de imposto que se aplicam a essa transação. 
 

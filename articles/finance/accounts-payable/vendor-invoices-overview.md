@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 411daa5bc08df530750fd5c09ca8b54bf537b548
-ms.sourcegitcommit: ba1c76497acc9afba85257976f0d4e96836871d1
+ms.openlocfilehash: 0cfa7d55f5d4d219c0bc43eb6313c0c6bd014ab6
+ms.sourcegitcommit: ac7c457bda3d8545ee8c0de45e4fcc24d677ffdc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "2890318"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3133887"
 ---
 # <a name="vendor-invoices-overview"></a>​Visão geral de faturas de fornecedor​
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Este tópico fornece informações gerais sobre notas fiscais de fornecedor. As notas fiscais de fornecedor são solicitações para pagamento dos produtos e serviços recebidos. As notas fiscais do fornecedor podem representar uma conta para serviços em andamento, ou podem se basear em ordens de compra para itens específicos e serviços.
 
@@ -66,6 +67,16 @@ Você pode adicionar uma linha que não estava na ordem de compra para a fatura 
 
 Sua organização pode usar os fluxos de trabalho para gerenciar o processo de revisão para faturas de fornecedores. A revisão de fluxo de trabalho poderá ser necessária para o cabeçalho ou a linha da fatura, ou ambos. Os controles do fluxo de trabalho se aplicam ao cabeçalho ou linha, dependendo de onde o foco estiver ao selecionar no controle. Em vez do botão **Lançar**, você verá o botão **Enviar** que você pode usar para enviar a fatura de fornecedor com o processo de revisão.
 
+### <a name="preventing-invoice-from-being-submitted-to-workflow"></a>Impedir que a fatura seja enviada para o fluxo de trabalho 
+
+A seguir, veja várias formas de impedir que uma fatura seja enviada para um fluxo de trabalho.
+
+- **O total da fatura e o total registrado não são iguais.** A pessoa que enviou a fatura receberá um alerta de que os totais não são iguais, para que possam corrigir os saldos antes de reenviar a fatura para o fluxo de trabalho. Este recurso estará disponível se o parâmetro **Proibir o envio para o fluxo de trabalho quando o total da fatura e o total da fatura registrada não forem iguais** na página **Gerenciamento de recursos** estiver ativado. 
+
+- **A fatura contém encargos não alocados.** A pessoa que enviou a fatura receberá um alerta de que os totais a fatura contém encargos não alocados, para que possam corrigir a fatura antes de reenviá-la para o fluxo de trabalho. Este recurso estará disponível se o parâmetro **Proibir o envio para o fluxo de trabalho quando houver encargos não alocados em uma fatura de fornecedor** na página **Gerenciamento de recursos** estiver ativado.
+
+- **A fatura contém o mesmo número de fatura de outra fatura lançada.** A pessoa que enviou a fatura receberá um alerta de que uma fatura com um número duplicado foi encontrada, para que possam corrigi-la antes de reenviá-la para o fluxo de trabalho. Esse alerta será exibido quando o parâmetro de Contas a pagar rotulado como **Verificar o número de fatura usado** estiver definido como **Rejeitar duplicata**. Este recurso estará disponível se o parâmetro **Proibir o envio para o fluxo de trabalho quando o número da fatura já existir em uma fatura lançada e o sistema não estiver configurado para aceitar números de fatura duplicados** na página **Gerenciamento de recursos** estiver ativado.  
+
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Conciliando faturas de fornecedor com os recebimentos de produtos
 
 Você pode inserir e salvar informações para as faturas de fornecedores e pode conciliar linhas de fatura a linhas de recebimento de produtos. Você também pode conciliar quantidades parciais para uma linha.
@@ -78,9 +89,19 @@ Esta opção pressupõe que pelo menos um recebimento de produtos tenha sido lan
 
 Para saber mais, consulte [Registrar fatura de fornecedor e corresponder com a quantidade recebida](../accounts-payable/tasks/record-vendor-invoice-match-against-received-quantity.md).
 
+## <a name="configure-an-automated-task-for-vendor-invoice-workflow-to-post-the-vendor-invoice-using-a-batch-job"></a>Configurar uma tarefa automatizada para o fluxo de trabalho da fatura de fornecedor lançar a fatura de fornecedor usando um trabalho em lotes
+
+Você pode adicionar uma tarefa de lançamento automatizada ao fluxo de trabalho da fatura de fornecedor para que as faturas sejam processadas em um lote. Lançar faturas em um lote permite que o processo do fluxo de trabalho continue sem precisar aguardar o lançamento ser concluído, o que aprimora o desempenho geral de todas as tarefas enviadas para o fluxo de trabalho.
+
+Para lançar uma fatura de fornecedor em um lote, na página **Gerenciamento de recursos**, acione o parâmetro **Lançamento em lotes de fatura de fornecedor**. Os fluxos de trabalho de fatura de fornecedor são configurados ao acessar **Contas a pagar > Configuração > Fluxos de trabalho de contas a pagar**.
+
+Você pode ver que a tarefa **Lançar a fatura de fornecedor usando um lote** no editor de fluxos de trabalho, independentemente do parâmetro do recurso, **Lançamento em lotes de fatura de fornecedor**, está habilitada. Quando o parâmetro do recurso não estiver habilitado, uma fatura que contenha **Lançar a fatura de fornecedor usando uma tarefa em lotes** não será processada no fluxo de trabalho até que o parâmetro seja habilitado. A tarefa **Lançar fatura de fornecedor usando um lote** não será usada no mesmo fluxo de trabalho da tarefa automatizada **Lançar faturas de fornecedor**. Além disso, a tarefa **Lançar a fatura de fornecedor usando um lote** deve ser o último elemento na configuração do fluxo de trabalho.
+
+Você pode especificar o número de faturas a ser incluído no lote, e o número de horas a aguardar antes de reagendar um lote, acessando **Contas a pagar > Configuração > Parâmetros de contas a pagar > Fatura > Fluxo de trabalho da fatura**. 
+
 ## <a name="working-with-multiple-invoices"></a>Trabalhando com diversas faturas
 
-Você pode trabalhar com várias faturas e lançá-las ao mesmo tempo. Se você precisar criar várias faturas, use a página **Faturas de fornecedor pendentes**. Se você precisar lançar e imprimir várias faturas de fornecedor, use o diário de aprovação de faturas. Se você estiver usando o diário de aprovação de fatura, pelo menos um recebimento de produtos deve ser lançado para a ordem de compra, e uma fatura para a ordem de compra deve ser lançada em um registro de fatura. As informações financeiras para a nota fiscal vêm da nota fiscal que foi lançada no registro.
+Você pode trabalhar com várias faturas ao mesmo tempo e lançar todas elas ao mesmo tempo. Se você precisar criar várias faturas, use a página **Faturas de fornecedor pendentes**. Se você precisar lançar e imprimir várias faturas de fornecedor, use o diário de aprovação de faturas. Se você estiver usando o diário de aprovação de fatura, pelo menos um recebimento de produtos deve ser lançado para a ordem de compra, e uma fatura para a ordem de compra deve ser lançada em um registro de fatura. As informações financeiras para a nota fiscal vêm da nota fiscal que foi lançada no registro.
 
 ## <a name="recovering-vendor-invoices-that-are-being-used"></a>Recuperando faturas de fornecedor em uso
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 320f21916a5f451ebf4f21e0075017a121ba6d6a
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 9e5d90eaf1815bbe54b0bea40d92a0a993a23b75
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057605"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113796"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Configurar perfil de notificação por email
 
@@ -35,7 +35,7 @@ Este tópico descreve como criar um perfil de notificação de email no Microsof
 
 Antes de criar canais, configure um perfil para garantir que as notificações de email possam ser enviadas para vários eventos, como criação da ordem, status da remessa da ordem e falha do pagamento.
 
-Para obter informações adicionais sobre como configurar o email, consulte [Configurar e enviar email](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-email).
+Para obter informações adicionais sobre como configurar o email, consulte [Configurar e enviar email](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
 ## <a name="create-an-email-notification-profile"></a>Criar perfil de notificação por email
 
@@ -84,7 +84,7 @@ A imagem a seguir mostra alguns exemplos de configurações de notificação de 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Configurar e enviar email](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-email)
+[Configurar e enviar email](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json)
 
 [Visão geral de canais](channels-overview.md)
 

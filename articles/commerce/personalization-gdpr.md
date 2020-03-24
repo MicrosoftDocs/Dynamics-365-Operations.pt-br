@@ -3,7 +3,7 @@ title: Cancelar recomendações personalizadas
 description: Este tópico explica como você pode permitir que os clientes optem por receber recomendações personalizadas no Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 01/28/2020
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8e7b800218f68167901d86d61ae483680a04cfab
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: a6d2388e863135c2b6d51af915b606a56f0603a8
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3025225"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127735"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Cancelar recomendações personalizadas
 
@@ -85,12 +85,22 @@ O exemplo a seguir mostra como um varejista pode realizar essa tarefa.
 
 [Visão geral de recomendações de produtos](product-recommendations.md)
 
+[Habilitar ADLS em um ambiente do Dynamics 365 Commerce](enable-adls-environment.md)
+
 [Habilitar recomendações de produtos](enable-product-recommendations.md)
 
 [Habilitar recomendações personalizadas](personalized-recommendations.md)
 
-[Adicionar listas de recomendações de produto às páginas](add-reco-list-to-page.md)
+[Adicionar listas de recomendações a um site de comércio eletrônico](add-reco-list-to-page.md)
 
-[Adicionar painel de recomendações a dispositivos POS](add-recommendations-control-pos-screen.md)
+[Adicionar recomendações de produtos no PDV](product.md)
 
-[Visão geral do módulo de coleta de produtos](product-collection-module-overview.md)
+[Adicionar recomendações à tela de transação](add-recommendations-control-pos-screen.md)
+
+[Ajustar os resultados das recomendações de AI-ML](modify-product-recommendation-results.md)
+
+[Criar manualmente recomendações selecionadas](create-editorial-recommendation-lists.md)
+
+[Criar recomendações com dados de demonstração](product-recommendations-demo-data.md)
+
+[Perguntas frequentes sobre recomendações de produtos](faq-recommendations.md)

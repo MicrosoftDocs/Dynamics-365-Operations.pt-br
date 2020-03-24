@@ -3,7 +3,7 @@ title: Exibições salvas
 description: Este tópico descreve como usar os recursos de exibições salvas.
 author: jasongre
 manager: AnnBe
-ms.date: 10/16/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 62d7dc1bd877cd1267f87ed24f8fb8be8f6c74a3
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: c6a5880c6ae9470dbf7986f39798ec888d0c22ea
+ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3017695"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "3100299"
 ---
 # <a name="saved-views"></a>Exibições salvas
 
@@ -71,7 +71,7 @@ Se você quiser salvar essas alterações, siga as etapas a seguir.
 2.  Para modificar a exibição existente:
      1. Selecione **Salvar**. Observe que essa ação não será habilitada para exibições bloqueadas. 
 3.  Para criar uma exibição:
-     1.    Selecione **Salvar como...**. 
+     1.    Selecione **Salvar como**. 
      2.    Insira um nome e (opcionalmente) uma descrição para a exibição.
      3.    Selecione **Salvar**.
 
@@ -83,9 +83,9 @@ Para alterar a exibição padrão de uma página, siga estas etapas:
 2.  Selecione o nome da exibição para abrir o seletor de exibição. 
 3.  Selecione **Mais** e depois **Fixar como padrão**.  
 
-Como alternativa, ao criar uma exibição (ao usar a ação **Salvar como...**), você pode tornar essa nova exibição a exibição padrão, definindo a opção **Fixar como padrão** antes de salvar a exibição.
+Como alternativa, ao criar uma exibição (ao usar a ação **Salvar como**), você pode tornar essa nova exibição a exibição padrão, definindo a opção **Fixar como padrão** antes de salvar a exibição.
 
-Observe que, em alguns casos, a consulta associada à exibição padrão não é executada quando você navega pela primeira vez até uma página. Por exemplo, se você navegar por um bloco até uma página, a consulta do bloco será executada, independentemente da consulta associada à exibição padrão. Além disso, se você navegar até uma página cuja exibição clássica já tenha uma consulta definida, a consulta original será executada originalmente no lugar da consulta da exibição padrão. Quando isso acontecer, você será alertado por uma mensagem informativa quando a exibição estiver sendo carregada. A alternância de exibições depois que a página foi carregada deve permitir que a consulta de exibição seja executada conforme o esperado.
+Observe que, em alguns casos, a consulta associada à exibição padrão não é executada quando você navega pela primeira vez até uma página. Por exemplo, se você navegar por um bloco até uma página, a consulta do bloco será executada, independentemente da consulta associada à exibição padrão. Além disso, se você navegar até uma página com exibição Padrão que já tenha uma consulta definida, a consulta original será executada originalmente no lugar da consulta da exibição padrão. Quando isso acontecer, você será alertado por uma mensagem informativa quando a exibição estiver sendo carregada. A alternância de exibições depois que a página foi carregada deve permitir que a consulta de exibição seja executada conforme o esperado. Iniciando na versão 10.0.10 da atualização de plataforma 34, a mensagem informativa terá uma ação incorporada que permite carregar diretamente a consulta do modo de exibição padrão.
 
 ## <a name="managing-personal-views"></a>Gerenciamento de exibições pessoais 
 A caixa de diálogo **Gerenciar minhas exibições** oferece recursos básicos de manutenção sobre suas exibições pessoais e a ordem das exibições no seletor de exibição. Para abrir essa página, clique no nome da exibição para abrir o menu suspenso do seletor de exibição, selecione **Mais** e depois selecione **Gerenciar minhas exibições**.  

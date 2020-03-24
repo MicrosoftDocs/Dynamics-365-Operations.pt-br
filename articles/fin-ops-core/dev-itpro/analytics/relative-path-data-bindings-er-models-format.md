@@ -1,6 +1,6 @@
 ---
 title: Use um caminho relativo em associações de dados de modelos e formatos de ER
-description: .
+description: A ferramenta ER (relatório eletrônico) permite que usuários definam estruturas em formato eletrônico e descrevam como essas estruturas devem ser preenchidas com dados e algoritmos existentes no aplicativo.
 author: NickSelin
 manager: AnnBe
 ms.date: 07/03/2019
@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a026eec379f98fd32080df50b5e114b423db34ad
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2940d99243ac52ee0d56a1c4423c4f0250f42f57
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182798"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3091763"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>Use um caminho relativo em associações de dados de modelos e formatos de ER
 

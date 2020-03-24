@@ -3,7 +3,7 @@ title: Habilitar ADLS em um ambiente do Dynamics 365 Commerce
 description: Este tópico explica como habilitar e testar o Azure Data Lake Storage (ADLS) para um ambiente do Dynamics 365 Commerce, que é um pré-requisito para habilitar recomendações de produto.
 author: bebeale
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 068eb522bd44e02dd31d3337a051691a956637fc
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: 553e1512ba72559923403eef741ce08222172a09
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3025224"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127758"
 ---
 # <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a>Habilitar ADLS em um ambiente do Dynamics 365 Commerce
 
@@ -95,8 +95,22 @@ Caso ainda não tenha sido concluído, siga as etapas para [habilitar as recomen
 
 [Habilitar recomendações de produtos](enable-product-recommendations.md)
 
-[Adicionar listas de recomendações de produto às páginas](add-reco-list-to-page.md)
+[Habilitar recomendações personalizadas](personalized-recommendations.md)
 
-[Adicionar um controle de recomendações à tela de transação em dispositivos do PDV](../retail/add-recommendations-control-pos-screen.md?toc=/dynamics365/commerce/toc.json)
+[Cancelar recomendações personalizados](personalization-gdpr.md)
+
+[Adicionar listas de recomendações a um site de comércio eletrônico](add-reco-list-to-page.md)
+
+[Adicionar recomendações de produtos no PDV](product.md)
+
+[Adicionar recomendações à tela de transação](add-recommendations-control-pos-screen.md)
+
+[Ajustar os resultados das recomendações de AI-ML](modify-product-recommendation-results.md)
+
+[Criar manualmente recomendações selecionadas](create-editorial-recommendation-lists.md)
+
+[Criar recomendações com dados de demonstração](product-recommendations-demo-data.md)
+
+[Perguntas frequentes sobre recomendações de produtos](faq-recommendations.md)
 
 

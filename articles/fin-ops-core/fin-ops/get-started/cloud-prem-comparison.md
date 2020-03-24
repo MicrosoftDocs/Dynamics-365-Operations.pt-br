@@ -3,7 +3,7 @@ title: Comparação de recursos de nuvem e locais
 description: O tópico mostra quais recursos são suportados na Nuvem e locais.
 author: sericks007
 manager: AnnBe
-ms.date: 02/24/2020
+ms.date: 03/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: a918d9fa1ad7ed5adcbb1d056bb8cc3306507aec
-ms.sourcegitcommit: 8ff2413b6cb504d2b36fce2bb50441b2e690330e
+ms.openlocfilehash: 50ab5827f864b53137acb77e75055e995ea6f439
+ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "3081961"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "3100273"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Comparação de recursos de nuvem e locais
 
@@ -97,7 +97,7 @@ As tabelas a seguir listam as áreas do aplicativo. O suporte à nuvem e aos loc
 | Integração e gerenciamento de dados      |                                                                                           | Sim       | Sim             |
 |                                      | Extensão acionada pela configuração                                                            | Sim       | Não              |
 |                                      | Exportar dados para seu próprio depósito de dados                                                    | Sim       | Sim             |
-|                                      | Habilitar a exportação de atualizações incrementais para uma entidade de dados                                 | Sim       | Não              |
+|                                      | Habilitar a exportação de atualizações incrementais para uma entidade de dados                                 | Sim       | Sim              |
 |                                      | Integrações de dados                                                                         | Sim       | Sim             |
 | Gerenciamento de documentos                  |                                                                                           | Sim       | Sim             |
 | Ajuda                                 |                                                                                           | Sim       | Não              |

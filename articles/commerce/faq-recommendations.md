@@ -3,7 +3,7 @@ title: Perguntas frequentes sobre recomendações de produtos
 description: Este tópico fornece informações sobre processos e ferramentas que você pode usar para solucionar problemas relacionados a recomendações de produtos ou resultados.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7951f92ef68a7a782f2874d7b73d7e45eba0afba
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3add4e2e0d5cc16b561b808aacf5cef94fea5ae5
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003018"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127781"
 ---
 # <a name="product-recommendations-faq"></a>Perguntas frequentes sobre recomendações de produtos
 
@@ -75,12 +75,28 @@ Para obter informações sobre como adicionar páginas de recomendação de prod
 
 ## <a name="how-do-i-enable-recommendations-on-pos"></a>Como habilito recomendações em PDV?
 
-Após habilitar recomendações de produto, é preciso adicionar o painel de recomendações à tela PDV de controle. Consulte [esta documentação de recurso](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/add-recommendations-control-pos-screen) para obter mais informações sobre como adicionar o painel de recomendações ao layout de seu dispositivo PDV.
+Após habilitar recomendações de produto, é preciso adicionar o painel de recomendações à tela PDV de controle. Para obter mais informações, consulte [Adicionar um controle de recomendação à tela de transação em dispositivos do PDV](add-recommendations-control-pos-screen.md).
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral de recomendações de produtos](product-recommendations.md)
 
+[Habilitar ADLS em um ambiente do Dynamics 365 Commerce](enable-adls-environment.md)
+
 [Habilitar recomendações de produtos](enable-product-recommendations.md)
 
-[Gerenciar resultados da recomendação de produtos com base em IA-ML](modify-product-recommendation-results.md)
+[Habilitar recomendações personalizadas](personalized-recommendations.md)
+
+[Cancelar recomendações personalizados](personalization-gdpr.md)
+
+[Adicionar listas de recomendações a um site de comércio eletrônico](add-reco-list-to-page.md)
+
+[Adicionar recomendações de produtos no PDV](product.md)
+
+[Adicionar recomendações à tela de transação](add-recommendations-control-pos-screen.md)
+
+[Ajustar os resultados das recomendações de AI-ML](modify-product-recommendation-results.md)
+
+[Criar manualmente recomendações selecionadas](create-editorial-recommendation-lists.md)
+
+[Criar recomendações com dados de demonstração](product-recommendations-demo-data.md)

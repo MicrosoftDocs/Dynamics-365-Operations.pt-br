@@ -3,7 +3,7 @@ title: Configurar um canal da loja online
 description: Este artigo oferece informações sobre canais de lojas online e como configurá-las no Dynamics 365 Commerce.
 author: kfend
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 03/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c427b0eba2120123a47f52029d70896be88b9ec0
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: b719e40720b091eec879edf332ab63db710a1ebc
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021671"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096885"
 ---
 # <a name="set-up-an-online-store-channel"></a>Configurar um canal da loja online
 
@@ -71,3 +71,27 @@ Hierarquias da organização são usadas para estruturar canais de comércio e p
 Ao criar uma hierarquia da organização, você atribui uma finalidade a ela. A finalidade indica como a hierarquia é usada na estrutura de negócios. Você pode criar uma hierarquia da organização para as operações da sua loja, e usar essa hierarquia para classificações, reabastecimento e relatórios. 
 
 Como alternativa, você pode criar uma hierarquia da organização separada para cada finalidade. Você também pode criar várias hierarquias com a mesma finalidade e atribuir um canal separado a cada uma delas. Se você pretende publicar catálogos de produtos na loja online, deve, no mínimo, adicionar a loja online a uma hierarquia da organização para classificações. Os produtos de um catálogo são selecionados das classificações atribuídas à loja online. Quando o catálogo é publicado, o processo de publicação compara as datas efetivas da classificação atribuída à loja online com os produtos incluídos no catálogo para determinar quais produtos devem ser disponibilizados na loja online.
+
+## <a name="additional-resources"></a>Recursos adicionais
+
+[Configurar seu nome de domínio](configure-your-domain-name.md)
+
+[Implantar um novo site de comércio eletrônico](deploy-ecommerce-site.md)
+
+[Criar um site de comércio eletrônico](create-ecommerce-site.md)
+
+[Associar um site online a um canal](associate-site-online-store.md)
+
+[Gerenciar arquivos robots.txt](manage-robots-txt-files.md)
+
+[Carregar redirecionamentos de URL em massa](upload-bulk-redirects.md)
+
+[Configurar um locatário B2C do Commerce](set-up-B2C-tenant.md)
+
+[Configurar páginas personalizadas para logons dos usuários](custom-pages-user-logins.md)
+
+[Configurar múltiplos locatários B2C em um ambiente do Commerce](configure-multi-B2C-tenants.md)
+
+[Adicionar suporte para uma rede de entrega de conteúdo (CDN)](add-cdn-support.md)
+
+[Habilitar detecção de lojas com base na localização](enable-store-detection.md)

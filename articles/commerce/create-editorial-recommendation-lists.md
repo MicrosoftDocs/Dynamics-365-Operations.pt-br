@@ -1,9 +1,9 @@
 ---
-title: Criar curated listas organizadas de recomendação de produtos
-description: Este tópico explica como vendedores podem criar e gerenciar listas de produto manuais do Microsoft Dynamics 365 Commerce.
+title: Criar manualmente recomendações selecionadas
+description: Este tópico explica como vendedores podem criar e gerenciar manualmente listas de produto do Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,18 +19,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 46fbd2d8c1235a6cb22c9341bcc21ee3754c8ede
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: b39ef61e7dabdd8a53d5666926a95cb7b9e6b9a5
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024924"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127712"
 ---
-# <a name="create-curated-product-recommendation-lists"></a>Criar curated listas organizadas de recomendação de produtos
+# <a name="manually-create-curated-recommendations"></a>Criar manualmente recomendações selecionadas
 
 [!include [banner](includes/banner.md)]
 
-Este tópico explica como vendedores podem criar e gerenciar listas de produto manuais do Microsoft Dynamics 365 Commerce.
+Este tópico explica como vendedores podem criar e gerenciar manualmente listas de recomendações de produto do Microsoft Dynamics 365 Commerce.
 
 As listas selecionadas são coleções de conteúdo individual criado e selecionado por pessoas.  
 
@@ -56,8 +56,22 @@ Para criar uma lista de recomendação de produto curada, siga estas etapas.
 
 [Visão geral de recomendações de produtos](product-recommendations.md)
 
+[Habilitar ADLS em um ambiente do Dynamics 365 Commerce](enable-adls-environment.md)
+
 [Habilitar recomendações de produtos](enable-product-recommendations.md)
 
-[Adicionar listas de recomendações de produto às páginas](add-reco-list-to-page.md)
+[Habilitar recomendações personalizadas](personalized-recommendations.md)
 
-[Visão geral do módulo de coleta de produtos](product-collection-module-overview.md)
+[Cancelar recomendações personalizados](personalization-gdpr.md)
+
+[Adicionar listas de recomendações a um site de comércio eletrônico](add-reco-list-to-page.md)
+
+[Adicionar recomendações de produtos no PDV](product.md)
+
+[Adicionar recomendações à tela de transação](add-recommendations-control-pos-screen.md)
+
+[Ajustar os resultados das recomendações de AI-ML](modify-product-recommendation-results.md)
+
+[Criar recomendações com dados de demonstração](product-recommendations-demo-data.md)
+
+[Perguntas frequentes sobre recomendações de produtos](faq-recommendations.md)
