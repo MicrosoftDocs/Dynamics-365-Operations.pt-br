@@ -1,6 +1,6 @@
 ---
-title: Visão geral
-description: ''
+title: Visão Geral
+description: O Guia do usuário do Dynamics 365 Human Resources fornece instruções sobre como configurar o Human Resources, configurar remuneração e benefícios para seus funcionários e gerenciar sua força de trabalho.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c489ddaec0363a5a6d68f0464786dfbe1b0e1349
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 7bef82f83de150df69a1a001fa9c07e34270742d
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008082"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3091715"
 ---
-# <a name="overview"></a>Visão geral
+# <a name="overview"></a>Visão Geral
 
 O Guia do usuário do Dynamics 365 Human Resources fornece instruções sobre como configurar o Human Resources, configurar remuneração e benefícios para seus funcionários e gerenciar sua força de trabalho.
 
@@ -74,7 +74,7 @@ O Guia do usuário do Dynamics 365 Human Resources fornece instruções sobre co
 [Criar planos de remuneração variável](hr-compensation-variable-plans.md)</br>
 [Inscrever funcionários em um plano de remuneração fixa](hr-compensation-enroll-employees-fixed.md)</br>
 [Inscrever funcionários em um plano de remuneração variável](hr-compensation-enroll-employees-variable.md)</br>
-[Definir processo de remuneração e calcular resultados](hr-compensation-define-process.md)</br>
+[Definir o processo de remuneração e calcular resultados](hr-compensation-define-process.md)</br>
 [Planos de compensação de processo](hr-compensation-process.md)</br>
 
 ## <a name="manage-benefits"></a>Gerenciar benefícios
@@ -116,7 +116,7 @@ O Guia do usuário do Dynamics 365 Human Resources fornece instruções sobre co
 ## <a name="create-courses"></a>Criar cursos
 
 [Configurar cursos de treinamento](hr-learning-courses.md)</br>
-[Visão geral de questionários](hr-learning-questionnaires.md)</br>
+[Visão geral de Questionários](hr-learning-questionnaires.md)</br>
 [Criar questionários](hr-learning-design-questionnaires.md)</br>
 [Distribuir e agendar questionários](hr-learning-distribute-questionnaires.md)</br>
 [Distribuir questionários usando agendamento](hr-learning-distribute-questionnaires-scheduling.md)</br>

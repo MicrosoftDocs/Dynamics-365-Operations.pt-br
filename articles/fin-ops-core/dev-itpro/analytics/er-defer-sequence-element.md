@@ -19,11 +19,11 @@ ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
 ms.openlocfilehash: 6efa4466dbf7f5ca1d3945acf15fac65d628d691
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015109"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124534"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Adiar a execução de elementos de sequência nos formatos de ER
 
@@ -45,7 +45,7 @@ A opção **Execução adiada** só tem suporte para os elementos de sequência 
 
 A opção **Execução adiada** não se aplica a sequências que foram configuradas como sequências aparadas em que o comprimento máximo é limitado.
 
-## <a name="Example"></a>Exemplo: Adiar a execução de um elemento de sequência em um formato de ER
+## <a name="example-defer-the-execution-of-a-sequence-element-in-an-er-format"></a><a name="Example"></a>Exemplo: Adiar a execução de um elemento de sequência em um formato de ER
 
 As etapas a seguir explicam como um usuário na [função](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles) de Administrador do sistema ou de Consultor funcional de relatório eletrônico pode configurar um formato de ER que contém um elemento de sequência em que a ordem da execução difere da ordem na hierarquia de formato.
 

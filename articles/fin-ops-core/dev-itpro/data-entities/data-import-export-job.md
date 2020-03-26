@@ -3,7 +3,7 @@ title: Visão geral de trabalhos de importação e exportação de dados
 description: Use o espaço de trabalho de gerenciamento de dados para criar e gerenciar trabalhos de importação e de exportação de dados.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 09/16/2019
+ms.date: 02/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87b852a73268251241cd66a07d7e4f4720706c0d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7a4b5396d2bb3fbb98b3f0f8a1bf59d62f673a3d
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184545"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124603"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Visão geral de trabalhos de importação e exportação de dados
 
@@ -191,8 +191,11 @@ Ao agendar o processo de limpeza, os parâmetros a seguir devem ser especificado
 
 -   **Número de dias para manter o histórico** – Esta configuração é usada para controlar o valor do histórico de execução a ser preservado. Isso é especificado em número de dias. Quando o trabalho de limpeza for agendado como um trabalho em lotes recorrente, essa configuração agirá como uma janela em movimento contínuo, sempre deixando o histórico para o número específico de dias intacto, excluindo o resto. O padrão são 7 dias.
 
--   **Número de horas para executar o trabalho** – Dependendo do valor do histórico a ser limpo, o tempo de execução total para o trabalho de limpeza pode variar de alguns minutos a algumas horas. Como a limpeza das tabelas mencionadas deve ser feita quando não há outra atividade de gerenciamento de dados no sistema, torna-se importante garantir que o trabalho de limpeza seja executado e termine antes do início da atividade comercial.
+-   **Número de horas para executar o trabalho** – Dependendo do valor do histórico a ser limpo, o tempo de execução total para o trabalho de limpeza pode variar de alguns minutos a algumas horas. Esse parâmetro deve ser definido como o número de horas que o trabalho será executado. Após a execução do trabalho de limpeza pelo número especificado de horas, o trabalho será encerrado e continuará a limpeza na próxima execução, com base no plano de recorrência.
 
     Pode-se especificar um tempo máximo de execução, definindo um limite máximo no número de horas em que o trabalho deve ser executado usando esta configuração. A lógica de limpeza passa por uma ID de execução de trabalho de cada vez em uma sequência disposta cronologicamente, com o mais antigo primeiro para a limpeza do histórico de execução relacionado. Não serão mais escolhidas novas IDs de execução para limpeza quando a duração de execução restante estiver nos últimos 10% da duração especificada. Em alguns casos, espera-se que o trabalho de limpeza continue além do tempo máximo especificado. Isso dependerá muito do número de registros a serem excluídos para a ID de execução atual que foi iniciada antes de o limite de 10% ser alcançado. A limpeza iniciada deve ser concluída para garantir a integridade dos dados. Isso significa que a limpeza continuará, apesar de exceder o limite especificado. Quando isso for concluído, as novas IDs de execução não serão retiradas e o trabalho de limpeza será concluído. O histórico de execução restante que não foi limpo, devido à falta de tempo suficiente de execução, será escolhido da próxima vez que o trabalho de limpeza for agendado. O valor padrão e mínimo para essa configuração está definido como 2 horas.
 
 -   **Lote recorrente** – O trabalho de limpeza pode ser executado como uma única execução manual ou pode ser agendado para execução recorrente em lotes. O lote pode ser agendado usando a configuração **Executar em segundo plano**, que é a configuração padrão do lote.
+
+> [!NOTE]
+> Se os registros nas tabelas de preparo não forem completamente limpos, verifique se o trabalho de limpeza está programado para ser executado em recorrência. Conforme explicado acima, em qualquer execução de limpeza, o trabalho limpará apenas o maior número possível de IDs de execução dentro das horas máximas fornecidas. Para continuar a limpeza de todos os registros de preparo restantes, o trabalho deve ser agendado para ser executado periodicamente.

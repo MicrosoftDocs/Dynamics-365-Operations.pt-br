@@ -1,6 +1,6 @@
 ---
 title: Criar tipos de plano
-description: ''
+description: Um tipo de plano no Microsoft Dynamics 365 Human Resources é um agrupamento de alto nível de tipos específicos de benefícios. Cada tipo de plano tem um código de tipo de plano que determina as regras para o tipo de plano.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c12eecb38bd943a9c604f878644da289783d3f74
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 8d9bb490326c6dbfafa0f186cd05185ac01bad30
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008098"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092352"
 ---
 # <a name="create-plan-types"></a>Criar tipos de plano
 

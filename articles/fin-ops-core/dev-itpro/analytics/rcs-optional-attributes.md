@@ -16,14 +16,16 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5e2989906c5aa3ead9e46b8ed5333e880e5cf1c6
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 10795c90cb90961c17a4326b71ed43dc72039f2b
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769938"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117416"
 ---
 # <a name="import-files-in-xml-format-with-optional-attributes"></a>Importar arquivos no formato XML com atributos opcionais
+
+[!include [banner](../includes/banner.md)]
 
 Você pode criar formatos de relatórios eletrônicos (ER) para analisar documentos eletrônicos de entrada no formato XML. Certos atributos de elementos XML podem ser especificados em formato de ER criado como opcional. Ele permitirá que você trate arquivos de entrada com e sem esses atributos XML corretamente. Você pode usar o conteúdo desses arquivos para atualizar dados do aplicativo.
 
@@ -52,17 +54,17 @@ As etapas a seguir explicam como um usuário no papel de Administrador do Sistem
 7. Clique em **Adicionar**.
 8. Clique em **Novo** para abrir a caixa de diálogo suspensa.
 9. No campo **Nome**, digite 'Lista'.
-10. No campo **Tipo de item**, selecione **Lista de registros**.
-11. Clique em **Adicionar**.
-12. Clique em **Novo** para abrir a caixa de diálogo suspensa.
-13. No campo **Nome**, digite 'Código'.
-14. No campo **Tipo de item**, selecione **String**.
-15. Clique em **Adicionar**.
-16. Clique em **Salvar**.
-17. Feche a página.
-18. Clique em **Alterar status**.
-19. Clique em **Concluir**.
-20. Clique em **OK**.
+10.    No campo **Tipo de item**, selecione **Lista de registros**.
+11.    Clique em **Adicionar**.
+12.    Clique em **Novo** para abrir a caixa de diálogo suspensa.
+13.    No campo **Nome**, digite 'Código'.
+14.    No campo **Tipo de item**, selecione **String**.
+15.    Clique em **Adicionar**.
+16.    Clique em **Salvar**.
+17.    Feche a página.
+18.    Clique em **Alterar status**.
+19.    Clique em **Concluir**.
+20.    Clique em **OK**.
 
 ## <a name="create-a-format-for-data-import"></a>Crie um formato de importação de dados
 1. Clique em **Criar configuração** para abrir a caixa de diálogo suspensa.
@@ -81,32 +83,32 @@ As etapas a seguir explicam como um usuário no papel de Administrador do Sistem
 7. Na árvore, selecione **XML\Elemento**.
 8. No campo **Nome**, digite 'documento'.
 9. No campo **Multiplicidade**, selecione **Um muitos**.
-10. Clique em **OK**.
-11. Na árvore, selecione **raiz\documento**.
-12. Clique em **Adicionar** para abrir a caixa de diálogo suspensa.
-13. Na árvore, selecione **XML\Attribute**.
-14. No campo **Nome**, digite 'id'.
-15. Clique em **OK**.
-16. Clique em **Salvar**.
+10.    Clique em **OK**.
+11.    Na árvore, selecione **raiz\documento**.
+12.    Clique em **Adicionar** para abrir a caixa de diálogo suspensa.
+13.    Na árvore, selecione **XML\Attribute**.
+14.    No campo **Nome**, digite 'id'.
+15.    Clique em **OK**.
+16.    Clique em **Salvar**.
 
 ## <a name="design-a-format-mapping-to-save-parsed-information-to-data-model"></a>Crie um mapeamento de formato para salvar informações analisadas modelo de dados
-1.  Clique em **Mapear formato para modelo**.
-2.  Clique em **Novo**.
-3.  No campo **Definição**, insira ou selecione um valor.
-4.  No campo **Nome**, digite 'Mapeamento'.
-5.  Clique em **Salvar**.
-6.  Clique em **Designer**.
-7.  Na árvore, expanda **formato**.
-8.  Na árvore, expanda **format\root: XML Element(root)**.
-9.  Na árvore, selecione **format\root: XML Element(root)\document: XML Element 1..* (documento)**.
-10. Clique em **Associar**.
-11. Na árvore, expanda **format\root: XML Element(root)\document: XML Element 1..* (documento)**.
-12. Na árvore, selecione **format\root: XML Element(root)\document: XML Element 1..* (documento)\id**.
-13. Na árvore, expanda **List = format.root.document**.
-14. Na árvore, selecione **List = format.root.document\Code**.
-15. Clique em **Associar**.
-16. Clique em **Salvar**.
-17. Feche a página.
+1.    Clique em **Mapear formato para modelo**.
+2.    Clique em **Novo**.
+3.    No campo **Definição**, insira ou selecione um valor.
+4.    No campo **Nome**, digite 'Mapeamento'.
+5.    Clique em **Salvar**.
+6.    Clique em **Designer**.
+7.    Na árvore, expanda **formato**.
+8.    Na árvore, expanda **format\root: XML Element(root)**.
+9.    Na árvore, selecione **format\root: XML Element(root)\document: XML Element 1..* (documento)**.
+10.    Clique em **Associar**.
+11.    Na árvore, expanda **format\root: XML Element(root)\document: XML Element 1..* (documento)**.
+12.    Na árvore, selecione **format\root: XML Element(root)\document: XML Element 1..* (documento)\id**.
+13.    Na árvore, expanda **List = format.root.document**.
+14.    Na árvore, selecione **List = format.root.document\Code**.
+15.    Clique em **Associar**.
+16.    Clique em **Salvar**.
+17.    Feche a página.
 
 ## <a name="run-format-mapping"></a>Execute o mapeamento de formato
 1. Clique em **Executar**.

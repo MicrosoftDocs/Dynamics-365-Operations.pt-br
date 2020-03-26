@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 230cb7c2fe8f3c1972766a25414bb33a78b37a42
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: adac308a17ac51ed6da28d04d8c69b01f579aab7
+ms.sourcegitcommit: 7789ef6b0d337bee6aa05110c40e002f02eec71b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004010"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3095608"
 ---
 # <a name="product-identifiers"></a>Identificadores do produto 
 
@@ -43,9 +43,6 @@ Em muitos casos, o número do produto não é criado originalmente no Dynamics 3
 Ao implementar o Supply Chain Management, você deve dar atenção especial à sua estratégia de números de produto. Um bom sistema de numeração melhora os fluxos de logística e ajuda a evitar erros. Um bom identificador de produto tem no máximo 15 caracteres. O ideal é que tenha menos de 10 caracteres e que não inclua mais do que cinco caracteres de classificação. Você também pode usar nomes de pesquisa para habilitar pesquisas rápidas. Um nome de pesquisa é um nome adicional que representa as classificações de um produto.
 
 Quando usar o Common Data Service, o número do produto no Supply Chain Management também será o número do produto no Common Data Service. As grades de produtos são sincronizadas no Common Data Service como produtos distintos.
-
-> [!NOTE]
-> O número do produto não pode começar com "%".
 
 ## <a name="item-number-and-product-dimensions"></a>Número do item e dimensões do produto
 

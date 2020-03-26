@@ -1,9 +1,9 @@
 ---
-title: Obter recomendações de produtos usando dados de demonstração
+title: Criar recomendações com dados de demonstração
 description: Este documento oferece orientações sobre como aproveitar recomendações de produtos do omnicanal em ambientes de uma caixa da Camada 1 usando dados de demonstração personalizáveis pré-preenchidos.
 author: bebeale
 manager: AnnBe
-ms.date: 10/01/19
+ms.date: 03/12/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,14 +19,17 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1456feb0665b6ec79a36a3704f17da80ffd759a0
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 2e790d78b4d5216822ffda3a3895feb674876bd8
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042771"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127827"
 ---
-# <a name="get-product-recommendations-using-demo-data"></a>Obter recomendações de produtos usando dados de demonstração
+# <a name="create-recommendations-with-demo-data"></a>Criar recomendações com dados de demonstração
+
+[!include [banner](includes/banner.md)]
+
 Este documento oferece orientações sobre como aproveitar recomendações de produtos do omnicanal em ambientes de uma caixa da Camada 1 usando dados de demonstração personalizáveis pré-preenchidos.
 
 As recomendações de produtos do omnicanal fornecem um conjunto de listas de produtos editorialmente organizados ou gerados de forma programática. Essas listas podem ser usadas em vários cenários, conforme a necessidade comercial. Para obter mais informações sobre listas de recomendações de produtos, consulte [Visão geral das recomendações de produtos.](product-recommendations.md)
@@ -39,7 +42,7 @@ Para ambientes da Camada 1, as recomendações de produtos são baseadas somente
 Para habilitar a data de demonstração das recomendações do produto, você precisa implantar a Extensão da Demonstração da Versão Prévia do Dynamics 365 Commerce para o respectivo ambiente. Esta ação habilita automaticamente os dados de demonstração das recomendações.
 
 ## <a name="default-demo-data"></a>Dados de demonstração padrão
-Cada tipo de ambiente do Onebox vem com um conjunto pré-carregado de dados de demonstração das recomendações de produtos no arquivo separado por vírgulas ‘reco_demo_data.csv’, localizado no Commerce Scale Unit.
+Cada tipo de ambiente do Onebox vem com um conjunto pré-carregado de dados de demonstração das recomendações de produtos no arquivo separado por vírgulas 'reco_demo_data.csv', localizado no Commerce Scale Unit.
 
 Os dados são estruturados ao longo das seguintes colunas:
 
@@ -49,7 +52,7 @@ Os dados são estruturados ao longo das seguintes colunas:
 | OperatingUnitNumber | :heavy_check_mark: | O número específico da unidade operacional na qual espera-se que surjam as recomendações de produtos.                                        |                                                                              |
 | Categoria            |                    |    A categoria para a qual a lista específica deve ser retornada. Se nenhuma categoria for especificada, a lista será somente para a parte superior da hierarquia de navegação.    |                                                                              |
 | SeedItemId          |                    |    Para listas que exigem semente (RecoPeopleAlsoBuy and RecoCart), o produto para o qual essas listas devem mostrar produtos adicionais.            |                                                                              |
-| ItemIds             | :heavy_check_mark: | Um ou mais produtos a serem retornados como o resultado, separados por ‘;’.                                                                  |                                                                              |
+| ItemIds             | :heavy_check_mark: | Um ou mais produtos a serem retornados como o resultado, separados por ';'.                                                                  |                                                                              |
 
 ## <a name="customize-demo-data"></a>Personalizar dados de demonstração
 Você pode editar os dados de demonstração padrão com quaisquer informações de produtos e categorias configurados na matriz. Depois que o .csv for atualizado, as recomendações de produtos retornadas para os clientes refletirão imediatamente as alterações.
@@ -67,4 +70,22 @@ A extensão contém um arquivo de dados chamado 'RecoMockDataset.csv' que permit
 
 [Visão geral de recomendações de produtos](product-recommendations.md)
 
-[Planejamento de ambiente](../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)
+[Habilitar ADLS em um ambiente do Dynamics 365 Commerce](enable-adls-environment.md)
+
+[Habilitar recomendações de produtos](enable-product-recommendations.md)
+
+[Habilitar recomendações personalizadas](personalized-recommendations.md)
+
+[Cancelar recomendações personalizados](personalization-gdpr.md)
+
+[Adicionar listas de recomendações a um site de comércio eletrônico](add-reco-list-to-page.md)
+
+[Adicionar recomendações de produtos no PDV](product.md)
+
+[Adicionar recomendações à tela de transação](add-recommendations-control-pos-screen.md)
+
+[Ajustar os resultados das recomendações de AI-ML](modify-product-recommendation-results.md)
+
+[Criar manualmente recomendações selecionadas](create-editorial-recommendation-lists.md)
+
+[Perguntas frequentes sobre recomendações de produtos](faq-recommendations.md)

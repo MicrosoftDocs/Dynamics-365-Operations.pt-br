@@ -1,9 +1,9 @@
 ---
-title: Adicionar listas de recomendações de produto às páginas
+title: Adicionar listas de recomendações a um site de comércio eletrônico
 description: Este tópico explica como adicionar uma lista de recomendações de produto a uma página de comércio eletrônico.
 author: bebeale
 manager: AnnBe
-ms.date: 01/28/2020
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,24 +19,23 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5c71c1cf91b1913f44546f40620aff358cf256b2
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 8fa8ee7c97299dde6397f853a128c9aaa663584d
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001291"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127643"
 ---
-# <a name="add-recommendation-lists-to-a-site"></a>Adicionar listas de recomendação a um site
-
+# <a name="add-recommendation-lists-an-e-commerce-site"></a>Adicionar listas de recomendações a um site de comércio eletrônico
 
 [!include [banner](includes/banner.md)]
 
 Este tópico explica como adicionar uma lista de recomendações de produto a uma página de comércio eletrônico.
 
 1. Em uma página do assistente para criação de sites de comércio eletrônico, selecione **Adicionar módulo**.
-2. Procure o módulo **coleta de produtos**.
-3. No assistente do módulo, selecione a lista para adicionar à página.
-4. Salve as alterações.
+1. Procure o módulo **coleta de produtos**.
+1. No assistente do módulo, selecione a lista para adicionar à página.
+1. Salve as alterações.
 
 Para saber mais sobre os tipos de lista que você pode adicionar a uma página, consulte [Visão geral do módulo de coleta de produtos](product-collection-module-overview.md).
 
@@ -45,10 +44,22 @@ Para saber mais sobre os tipos de lista que você pode adicionar a uma página, 
 
 [Visão geral de recomendações de produtos](product-recommendations.md)
 
+[Habilitar ADLS em um ambiente do Dynamics 365 Commerce](enable-adls-environment.md)
+
 [Habilitar recomendações de produtos](enable-product-recommendations.md)
 
-[Criar curated listas organizadas de recomendação de produtos](create-editorial-recommendation-lists.md)
+[Habilitar recomendações personalizadas](personalized-recommendations.md)
 
-[Gerenciar resultados da recomendação de produtos com base em IA-ML](modify-product-recommendation-results.md)
+[Cancelar recomendações personalizados](personalization-gdpr.md)
 
-[Visão geral do módulo de coleta de produtos](product-collection-module-overview.md)
+[Adicionar recomendações de produtos no PDV](product.md)
+
+[Adicionar recomendações à tela de transação](add-recommendations-control-pos-screen.md)
+
+[Ajustar os resultados das recomendações de AI-ML](modify-product-recommendation-results.md)
+
+[Criar manualmente recomendações selecionadas](create-editorial-recommendation-lists.md)
+
+[Criar recomendações com dados de demonstração](product-recommendations-demo-data.md)
+
+[Perguntas frequentes sobre recomendações de produtos](faq-recommendations.md)

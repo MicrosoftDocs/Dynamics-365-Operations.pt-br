@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 326d9375670cb4f4990a4f7070bf923a28b2c025
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2b8ce102086535a5462d3fa0e8ac76e9ec3dd15c
+ms.sourcegitcommit: 8fad5a8c7ea5d0d0037669e61e2313f684bcae23
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176453"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "3106850"
 ---
 # <a name="process-collection-letters"></a>Processar cartas de cobrança
 
@@ -70,7 +70,11 @@ Este tópico mostra como criar, imprimir e lançar cartas de cobrança. Esta tar
     1. No campo **Impresso**, selecione uma opção.
 
 ## <a name="control-collection-letters-at-the-customer-level"></a>Controle cartas de cobrança em nível de cliente
-Você também pode configurar cartas de cobrança em nível de cliente para que o código da carta de cobrança para cada transação seja rastreado, mas o processamento da carta de cobrança será baseado em um único nível de carta de cobrança que é armazenado para o cliente. A única carta de cobrança conterá todas as transações que estão vencidas para o cliente. Como os dias de carência agora são rastreados em nível de cliente, a próxima carta de cobrança não será enviada até que o número de dias de carência passe para a próxima carta de cobrança na sequência, mesmo que as transações expirem após o envio da última carta de cobrança. Esta opção reduz o número de cartas de cobrança enviadas por cliente. 
+Se as cartas de cobrança forem configuradas no nível da transação, várias letras poderão ser geradas para um cliente, com base na duração da transação. Se as transações aparecerem em sequências de cartas diferentes, as cartas de cobrança separadas serão geradas para cada grupo de transações vencidas para o cliente. Portanto, um cliente individual pode receber, por exemplo, uma carta de cobrança para transações que têm 60 dias de atraso e outra carta de cobrança para transações que estão vencidas a 90 dias. 
+
+Cada carta de cobrança também é associada a um código de carta de cobrança. O código da carta de cobrança é associado a transações individuais e é usado para determinar quando a próxima carta de cobrança deve ser gerada para cada transação. Por exemplo, se uma transação tiver mais de 30 dias de atraso, o código da carta de cobrança determinará que a próxima carta de cobrança será enviada quando a transação estiver vencida a 60 dias e não tiver sido paga. 
+
+As cartas de cobrança também podem ser configuradas no nível do cliente. Nesse caso, a carta de cobrança para cada transação é rastreada, mas o processamento da carta de cobrança será baseado em um único nível de carta de cobrança que é armazenado para o cliente. A única carta de cobrança conterá todas as transações que estão vencidas para o cliente. Como os dias de carência agora são rastreados em nível de cliente, a próxima carta de cobrança não será enviada até que o número de dias de carência passe para a próxima carta de cobrança na sequência, mesmo que as transações expirem após o envio da última carta de cobrança. Esta opção ajuda a reduzir o número de cartas de cobrança que você deve enviar para cada cliente.
 
 ### <a name="set-up-the-customer-to-control-collection-letters-at-the-customer-level"></a>Configure o cliente para controlar as cartas de cobrança em nível de cliente
 1.  Vá para **Painel de navegação > Módulos > Crédito e coleções > Configuração > Parâmetros de contas a receber** e selecione a guia **Cobranças**. 

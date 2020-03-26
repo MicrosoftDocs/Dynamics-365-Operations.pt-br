@@ -3,7 +3,7 @@ title: Habilitar recomendações de produtos
 description: Este tópico explica como fazer recomendações de produto com base aprendizado de máquina de inteligência artificial (AI-ML) disponível para Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2d3f1bc2526eeacb4bd6338a0679eadd95a75989
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: 879fccb063ca0b74e0f022a9edf6a15f7d1311ae
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024947"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127873"
 ---
 # <a name="enable-product-recommendations"></a>Habilitar recomendações de produtos
 
@@ -38,7 +38,7 @@ Antes de habilitar, observe que as recomendações de produto são suportadas ap
 
 Para ver etapas de como habilitar o ADLS, consulte [Como habilitar o ADLS em um ambiente do Dynamics 365](enable-ADLS-environment.md).
 
-Adicionalmente, verifique se as medições do RetailSale estão habilitadas. Para saber mais sobre esse processo de configuração, clique [aqui.](https://docs.microsoft.com/en-us/dynamics365/ai/customer-insights/pm-measures)
+Adicionalmente, verifique se as medições do RetailSale estão habilitadas. Para saber mais sobre esse processo de configuração, clique [aqui.](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures)
 
 
 ## <a name="turn-on-recommendations"></a>Ative as recomendações
@@ -70,13 +70,23 @@ Para saber mais sobre como receber recomendações personalizadas, consulte [Hab
 
 [Visão geral de recomendações de produtos](product-recommendations.md)
 
+[Habilitar ADLS em um ambiente do Dynamics 365 Commerce](enable-adls-environment.md)
+
 [Habilitar recomendações personalizadas](personalized-recommendations.md)
 
-[Adicionar listas de recomendações de produto às páginas](add-reco-list-to-page.md)
+[Cancelar recomendações personalizados](personalization-gdpr.md)
 
-[Adicionar painel de recomendações a dispositivos POS](add-recommendations-control-pos-screen.md)
+[Adicionar listas de recomendações a um site de comércio eletrônico](add-reco-list-to-page.md)
 
-[Visão geral do módulo de coleta de produtos](product-collection-module-overview.md)
+[Adicionar recomendações de produtos no PDV](product.md)
 
-[Habilitar o ADLS no ambiente do Dynamics 365](enable-ADLS-environment.md)
+[Adicionar recomendações à tela de transação](add-recommendations-control-pos-screen.md)
+
+[Ajustar os resultados das recomendações de AI-ML](modify-product-recommendation-results.md)
+
+[Criar manualmente recomendações selecionadas](create-editorial-recommendation-lists.md)
+
+[Criar recomendações com dados de demonstração](product-recommendations-demo-data.md)
+
+[Perguntas frequentes sobre recomendações de produtos](faq-recommendations.md)
 

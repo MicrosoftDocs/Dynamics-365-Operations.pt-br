@@ -3,7 +3,7 @@ title: Configurar páginas personalizadas para entradas dos usuários
 description: Este tópico descreve como criar páginas personalizadas no Microsoft Dynamics 365 Commerce que manipula inscrições personalizadas para usuários nos locatários de business-to-consumer (B2C) do Azure Active Directory (Azure AD).
 author: brianshook
 manager: annbe
-ms.date: 12/05/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fe2a716d370c350c0c7e034835ff755f1ec9c6a1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 210a7d1c2b0a9a9606723b48681cca3a50fcc05b
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001935"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096788"
 ---
 # <a name="set-up-custom-pages-for-user-logins"></a>Configurar páginas personalizadas para logons dos usuários
 
@@ -195,15 +195,23 @@ Depois de atualizar o arquivo global.json e publicar suas alterações, o novo t
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Configure seu nome de domínio](configure-your-domain-name.md)
+[Configurar seu nome de domínio](configure-your-domain-name.md)
 
 [Implantar um novo site de comércio eletrônico](deploy-ecommerce-site.md)
+
+[Configurar um canal da loja online](online-stores.md)
 
 [Criar um site de comércio eletrônico](create-ecommerce-site.md)
 
 [Associar um site online a um canal](associate-site-online-store.md)
 
 [Gerenciar arquivos robots.txt](manage-robots-txt-files.md)
+
+[Carregar redirecionamentos de URL em massa](upload-bulk-redirects.md)
+
+[Configurar um locatário B2C do Commerce](set-up-B2C-tenant.md)
+
+[Configurar múltiplos locatários B2C em um ambiente do Commerce](configure-multi-B2C-tenants.md)
 
 [Adicionar suporte para uma rede de entrega de conteúdo (CDN)](add-cdn-support.md)
 

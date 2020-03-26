@@ -1,6 +1,6 @@
 ---
-title: Visão geral
-description: ''
+title: Visão Geral
+description: Em Dynamics 365 Human Resources, o **espaço de trabalho de licença e ausência** fornece uma estrutura flexível para a criação de novos planos de licenças, de fluxos para gerenciar solicitações e uma página de auto-atendimento intuitiva para que os funcionários solicitem folga.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9a36f6b6ba696fa926ab3d6298568dddfce43a57
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 493bc3abe82103541125914896252b2eae596b38
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008132"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3091739"
 ---
-# <a name="overview"></a>Visão geral
+# <a name="overview"></a>Visão Geral
 
 O Dynamics 365 Human Resources ajuda a fornecer excelentes benefícios de licença para seus funcionários. O **espaço de trabalho** de licença e ausência fornece uma estrutura flexível para a criação de novos planos de licenças, de fluxos para gerenciar solicitações e uma página de auto-atendimento intuitiva para que os funcionários solicitem folga. Ajudar a organização a medir e monitorar os saldos de licenças e o uso de seus planos de licenças.
 

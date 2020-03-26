@@ -1,9 +1,9 @@
 ---
-title: Recomendações de produtos no PDV
+title: Adicionar recomendações de produtos no PDV
 description: Este tópico descreve o uso de recomendações de produtos em um dispositivo de ponto de venda (PDV).
 author: bebeale
 manager: AnnBe
-ms.date: 10/01/19
+ms.date: 03/12/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,14 +19,14 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bfb13904b774558907b29e74158b1e0a193e17cd
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 48533596c5bdc73dd8c815166e7dde0ca2f3cb4d
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057432"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127804"
 ---
-# <a name="product-recommendations-on-pos"></a>Recomendações de produtos no PDV
+# <a name="add-product-recommendations-on-pos"></a>Adicionar recomendações de produtos no PDV
 
 [!include [banner](includes/banner.md)]
 
@@ -71,8 +71,24 @@ Para configurar as recomendações de produtos, siga estas etapas:
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Adicionar um controle de recomendações à tela de transação em dispositivos do PDV](add-recommendations-control-pos-screen.md)
+[Visão geral de recomendações de produtos](product-recommendations.md)
 
-[Visão geral de recomendações de produtos](../commerce/product-recommendations.md)
+[Habilitar ADLS em um ambiente do Dynamics 365 Commerce](enable-adls-environment.md)
 
-[Habilitar recomendações de produtos](../commerce/enable-product-recommendations.md) 
+[Habilitar recomendações de produtos](enable-product-recommendations.md)
+
+[Habilitar recomendações personalizadas](personalized-recommendations.md)
+
+[Cancelar recomendações personalizados](personalization-gdpr.md)
+
+[Adicionar listas de recomendações a um site de comércio eletrônico](add-reco-list-to-page.md)
+
+[Adicionar recomendações à tela de transação](add-recommendations-control-pos-screen.md)
+
+[Ajustar os resultados das recomendações de AI-ML](modify-product-recommendation-results.md)
+
+[Criar manualmente recomendações selecionadas](create-editorial-recommendation-lists.md)
+
+[Criar recomendações com dados de demonstração](product-recommendations-demo-data.md)
+
+[Perguntas frequentes sobre recomendações de produtos](faq-recommendations.md)

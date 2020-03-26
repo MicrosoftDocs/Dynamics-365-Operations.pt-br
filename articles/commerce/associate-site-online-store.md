@@ -3,7 +3,7 @@ title: Associar um site de comércio online com um canal online
 description: Este tópico explica como associar seu site do Microsoft Dynamics 365 Commerce a um ou mais armazenamentos online.
 author: stuharg
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: bicyclingfool
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8de02eca941054c7c43dec1c904f461da1927230
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 30a992ae5cc68173b830224ae88ac3770b414b7a
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001199"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096692"
 ---
 # <a name="associate-an-e-commerce-site-with-an-online-channel"></a>Associar um site de comércio online com um canal online
 
@@ -40,15 +40,23 @@ Depois que o site for criado, você pode verificar se está associado ao reposit
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Configure seu nome de domínio](configure-your-domain-name.md)
+[Configurar seu nome de domínio](configure-your-domain-name.md)
 
 [Implantar um novo site de comércio eletrônico](deploy-ecommerce-site.md)
+
+[Configurar um canal da loja online](online-stores.md)
 
 [Criar um site de comércio eletrônico](create-ecommerce-site.md)
 
 [Gerenciar arquivos robots.txt](manage-robots-txt-files.md)
 
+[Carregar redirecionamentos de URL em massa](upload-bulk-redirects.md)
+
+[Configurar um locatário B2C do Commerce](set-up-B2C-tenant.md)
+
 [Configurar páginas personalizadas para logons dos usuários](custom-pages-user-logins.md)
+
+[Configurar múltiplos locatários B2C em um ambiente do Commerce](configure-multi-B2C-tenants.md)
 
 [Adicionar suporte para uma rede de entrega de conteúdo (CDN)](add-cdn-support.md)
 

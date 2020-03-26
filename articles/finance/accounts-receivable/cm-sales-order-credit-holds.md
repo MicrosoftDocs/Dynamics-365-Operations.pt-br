@@ -1,6 +1,6 @@
 ---
-title: Bloqueios de crédito para ordens de venda
-description: ''
+title: Retenções de crédito de ordens de venda
+description: Este tópico descreve a configuração das regras usadas para colocar uma ordem de venda em bloqueio de crédito.
 author: mikefalkner
 manager: AnnBe
 ms.date: 01/25/2019
@@ -9,25 +9,23 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschloma
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 316a626e6a18f0afda632111138482f62f6809db
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 8a0e006be8a72f35d6c6009ca9d67d083b8fac89
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057661"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124245"
 ---
-# <a name="credit-holds-for-sales-orders"></a>Bloqueios de crédito para ordens de venda
+# <a name="credit-holds-for-sales-orders"></a>Retenções de crédito de ordens de venda
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-
-Este tópico descreve a configuração das regras usadas para colocar uma ordem de venda em bloqueio de crédito. As regras de bloqueio de gerenciamento de crédito podem ser aplicadas a um cliente individual ou a um grupo de clientes.  As regras de bloqueio definem respostas para as seguintes circunstâncias:
+Este tópico descreve a configuração das regras usadas para colocar uma ordem de venda em bloqueio de crédito. As regras de bloqueio de gerenciamento de crédito podem ser aplicadas a um cliente individual ou a um grupo de clientes. As regras de bloqueio definem respostas para as seguintes circunstâncias:
 
 1. Número de dias de atraso
 2. Status da conta
@@ -87,9 +85,9 @@ Abra a guia **Limite de crédito expirado** se a regra de bloqueio se aplica a c
    - Selecione **Todos** se a regra se aplica a todos os clientes. 
 3. Selecione um **Grupo de risco** para limitar ainda mais a lista de clientes que serão colocados em bloqueio de gerenciamento de crédito. 
 4. Selecione o tipo de regra que você está configurando. 
-  - Selecione **Bloqueio** para criar uma regra que bloqueie uma ordem. 
-  - Selecione **Exclusão** para criar uma regra que impedirá que outra regra bloqueie uma ordem. 
-6. Insira o **Limite de crédito diário expirado** para a regra de bloqueio selecionada antes que uma ordem seja colocada em bloqueio de gerenciamento de crédito. O número de dias vencidos representa os dias de carência a mais que são adicionados ao número de dias que o limite de crédito expirou.
+   - Selecione **Bloqueio** para criar uma regra que bloqueie uma ordem. 
+   - Selecione **Exclusão** para criar uma regra que impedirá que outra regra bloqueie uma ordem. 
+5. Insira o **Limite de crédito diário expirado** para a regra de bloqueio selecionada antes que uma ordem seja colocada em bloqueio de gerenciamento de crédito. O número de dias vencidos representa os dias de carência a mais que são adicionados ao número de dias que o limite de crédito expirou.
 
 ### <a name="overdue-amount"></a>Valor vencido
 
@@ -104,11 +102,10 @@ Abra a guia **Valor vencido** se a regra de bloqueio se aplica a clientes com va
    - Selecione **Todos** se a regra se aplica a todos os clientes. 
 3. Selecione um **Grupo de risco** se quiser limitar ainda mais a lista de clientes a serem colocados em bloqueio de gerenciamento de crédito. 
 4. Selecione o tipo de regra que você está configurando. 
-  - Selecione **Bloqueio** para criar uma regra que bloqueie uma ordem. 
-  - Selecione **Exclusão** para criar uma regra que impedirá que outra regra bloqueie uma ordem. 
+   - Selecione **Bloqueio** para criar uma regra que bloqueie uma ordem. 
+   - Selecione **Exclusão** para criar uma regra que impedirá que outra regra bloqueie uma ordem. 
 5. Insira o **Valor vencido** para a regra de bloqueio selecionada antes que uma ordem seja colocada em bloqueio de gerenciamento de crédito para revisão. 
-6. Selecione o **Tipo de valor** que define o tipo de valor a ser usado para também testar quanto do limite de crédito foi usado. As regras de bloqueio exigem uma porcentagem, mas uma exclusão pode ter um valor fixo ou uma porcentagem.
-limite. O limite está relacionado ao limite de crédito.
+6. Selecione o **Tipo de valor** que define o tipo de valor a ser usado para também testar quanto do limite de crédito foi usado. As regras de bloqueio exigem uma porcentagem, mas uma exclusão pode ter um valor fixo ou uma porcentagem. O limite está relacionado ao limite de crédito.
 7. Insira o valor de **Limite de limite de crédito** para a regra selecionada antes que um cliente seja colocado em bloqueio de gerenciamento de crédito. Pode ser um valor ou uma porcentagem com base no tipo de valor selecionado.
 8. A regra verifica se o **Valor vencido** foi excedido e se o **Limite de limite de crédito** foi excedido. 
 
@@ -125,9 +122,9 @@ Selecione **Ordem de venda** se a regra de bloqueio se aplica ao valor da ordem 
    - Selecione **Todos** se a regra se aplica a todos os clientes. 
 3. Selecione um **Grupo de risco** se quiser limitar ainda mais a lista de clientes a serem colocados em bloqueio de gerenciamento de crédito. 
 4. Selecione o tipo de regra que você está configurando.  
-  - Selecione **Bloqueio** para criar uma regra que bloqueie uma ordem. 
-  - Selecione **Exclusão** para criar uma regra que impedirá que outra regra bloqueie uma ordem. 
-6. Insira o **Valor da ordem de venda** para a regra de bloqueio selecionada antes que uma ordem seja colocada em bloqueio de gerenciamento de crédito. 
+   - Selecione **Bloqueio** para criar uma regra que bloqueie uma ordem. 
+   - Selecione **Exclusão** para criar uma regra que impedirá que outra regra bloqueie uma ordem. 
+5. Insira o **Valor da ordem de venda** para a regra de bloqueio selecionada antes que uma ordem seja colocada em bloqueio de gerenciamento de crédito. 
 
 A regra de ordem de venda inclui uma configuração adicional que substitui todas as outras regras. Para criar uma exclusão que liberará a ordem de venda sem aplicar nenhuma outra regra, marque a caixa de seleção **Liberar ordem de venda** na linha de exclusão.
 
@@ -187,7 +184,7 @@ O comportamento da regra **Limite de crédito usado** será alterado com base na
 
 É possível excluir ordens do gerenciamento de crédito mesmo se há regras em vigor. 
 
-- Se você alterar as configurações **Excluir cliente do gerenciamento de crédito** em **Todos os clientes > selecionar um cliente > FastTab Crédito e cobranças** como **Sim**, nenhuma ordem desse cliente será processada
+- Se você alterar as configurações **Excluir cliente do gerenciamento de crédito** na FastTab **Todos os clientes > Selecionar um cliente > Crédito e cobranças** como **Sim**, nenhuma ordem desse cliente será processada
 - Se você alterar o valor **Excluir do gerenciamento de crédito** no **cabeçalho de ordens de venda** na **FastTab Gerenciamento de crédito** como **Sim**, as regras de gerenciamento de crédito não serão processadas. Essa configuração só pode ser feita pelo auxiliar de gerenciamento de crédito ou pelo gerente de crédito.
 
 ## <a name="processing-orders-on-hold-using-the-credit-management-hold-list"></a>Processando ordens em espera usando a lista de bloqueio de gerenciamento de crédito
@@ -216,8 +213,8 @@ Depois que você pesquisar e mitigar os motivos do bloqueio, poderá liberar as 
 2) Selecione um **Motivo da liberação** para a ordem selecionada para liberação.  
 3) Insira a **Data de revisão** de cada ordem selecionada para liberação.  
 4) Selecione o menu **Liberar** no painel de ação para liberar uma ordem. Este menu só ficará disponível depois que as transações forem selecionadas. Duas opções são apresentadas ao usuário:
- - Selecione **Com lançamento** para remover o bloqueio e lançar o documento usando o mesmo processo de lançamento que foi utilizado quando ele foi colocado em espera. Por exemplo, se a confirmação da ordem de venda foi colocada em espera, a confirmação será concluída após a liberação. O formulário lançamento da ordem de venda será exibido, permitindo que o usuário lance a confirmação.
- - Selecione **Sem lançamento** para remover o bloqueio sem processamento adicional. A ordem de venda pode ser lançada manualmente.
+   - Selecione **Com lançamento** para remover o bloqueio e lançar o documento usando o mesmo processo de lançamento que foi utilizado quando ele foi colocado em espera. Por exemplo, se a confirmação da ordem de venda foi colocada em espera, a confirmação será concluída após a liberação. O formulário lançamento da ordem de venda será exibido, permitindo que o usuário lance a confirmação.
+   - Selecione **Sem lançamento** para remover o bloqueio sem processamento adicional. A ordem de venda pode ser lançada manualmente.
 
 ### <a name="rejecting-orders-in-the-hold-list"></a>Rejeitando ordens na lista de bloqueio
 Você pode usar o menu **Rejeitar** do painel de ação para rejeitar uma ordem de venda

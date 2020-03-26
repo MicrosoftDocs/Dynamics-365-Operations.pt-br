@@ -3,7 +3,7 @@ title: Alocação de dados do planejamento de orçamento
 description: Este tópico descreve os métodos de alocação disponíveis no Microsoft Dynamics 365 Finance e como eles podem ser usados.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,23 +18,26 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8bcfb4d3720d03ce84024766a66ccfc546767ab
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: ceddeda5760d961568d58e7e4805955ea972c586
+ms.sourcegitcommit: 8fad5a8c7ea5d0d0037669e61e2313f684bcae23
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772067"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "3106873"
 ---
 # <a name="budget-planning-data-allocation"></a>Alocação de dados do planejamento de orçamento
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo descreve os métodos de alocação disponíveis no Microsoft Dynamics 365 Finance e como eles podem ser usados.  
+Este tópico descreve os métodos de alocação disponíveis no Microsoft Dynamics 365 Finance e como eles podem ser usados.  
 
 Você pode distribuir os dados em um plano de orçamento de várias formas para retratar com precisão os valores projetados.
 
 ## <a name="allocation-methods"></a>Métodos de alocação
 Três métodos de alocação (alocar entre períodos, Alocar para dimensões e Usar regras de alocação do razão) podem criar linhas de plano de orçamento baseadas nas linhas do mesmo plano de orçamento. Outros três métodos (Agregar, Distribuir e Copiar do plano de orçamento) podem criar linhas do plano de orçamento em outros planos de orçamento. Para todos os seis métodos de alocação, você especifica o cenário de destino. O cenário de destino pode ser igual ao cenário de origem ou diferente do cenário de origem. Além disso, você pode especificar se novas linhas são anexadas ao plano de orçamento, ou substituir as linhas atuais no plano de orçamento.
+
+> [!NOTE] 
+> Deve-se usar um cenário exclusivo para agregação diferente do cenário para distribuição ou outras modificações executadas anteriormente no plano principal.  
 
 [![Método de alocação Alocar entre períodos](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
 **Alocar entre períodos** – Uma categoria de alocação de período é usada para alocar as linhas do plano de orçamento do cenário do plano de orçamento de origem entre períodos no cenário de destino. O valor de origem é atribuído a várias linhas no cenário de destino, com base na porcentagem e na data definidas na categoria de alocação de período.         

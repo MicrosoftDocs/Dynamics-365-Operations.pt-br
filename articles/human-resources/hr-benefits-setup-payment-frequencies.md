@@ -1,6 +1,6 @@
 ---
-title: Definir frequências de pagamento
-description: ''
+title: Definir frequência de pagamento
+description: O Microsoft Dynamics 365 Human Resources usa frequências de pagamento para calcular o salário anual de benefício, determinar o valor Premium do benefício que um funcionário paga a cada período de pagamento e definir os pagamentos de frequência feitos aos provedores.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5fe0a16c4abbb9241fcdac88fd56e92bf04788c
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: b786485ab53dcdb3b7e5ff02562f674a7f8e6eae
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008149"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092582"
 ---
-# <a name="set-up-payment-frequencies"></a>Definir frequências de pagamento
+# <a name="set-up-payment-frequencies"></a>Definir frequência de pagamento
 
 [!include [banner](includes/preview-feature.md)]
 

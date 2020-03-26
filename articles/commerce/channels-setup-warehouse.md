@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9ba12876a8c8f841733d8ec49c33e900211c4ab4
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 6da72ae612f0520965a2b11a21123d4642303ac3
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057847"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113750"
 ---
 # <a name="warehouse-set-up"></a>Configuração do depósito
 
@@ -33,7 +33,7 @@ Este tópico descreve como configurar um depósito a ser usado com um novo canal
 
 ## <a name="overview"></a>Visão geral
 
-Cada canal do Commerce requer que um depósito configurado seja associado a ele. Os procedimentos a seguir fornecem a configuração mínima necessária para um depósito de um canal do Commerce. Para obter mais informações sobre configuração de depósitos, consulte a [Visão geral de gerenciamento de depósito](https://docs.microsoft.com/en-us/dynamics365/supply-chain/warehousing/warehouse-management-overview).
+Cada canal do Commerce requer que um depósito configurado seja associado a ele. Os procedimentos a seguir fornecem a configuração mínima necessária para um depósito de um canal do Commerce. Para obter mais informações sobre configuração de depósitos, consulte a [Visão geral de gerenciamento de depósito](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json).
 
 ## <a name="configure-a-warehouse-site"></a>Configurar um site de depósito
 
@@ -131,7 +131,7 @@ A imagem a seguir mostra detalhes de um depósito configurado.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral de gerenciamento de depósito](https://docs.microsoft.com/en-us/dynamics365/supply-chain/warehousing/warehouse-management-overview)
+[Visão geral de gerenciamento de depósito](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json)
 
 [Visão geral de canais](channels-overview.md)
 
