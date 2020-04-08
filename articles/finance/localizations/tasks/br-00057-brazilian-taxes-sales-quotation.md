@@ -16,55 +16,55 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62664a77b43dd88f4616ea0cb45bbc1e069b4205
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 21fbf5f0e41300d62b177f08fd1a5c895859dacd
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175177"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3139123"
 ---
-# <a name="brazilian-tax-in-sales-quotations"></a><span data-ttu-id="867f9-103">Impostos brasileiros nas cotações de venda</span><span class="sxs-lookup"><span data-stu-id="867f9-103">Brazilian tax in sales quotations</span></span>
+# <a name="brazilian-tax-in-sales-quotations"></a><span data-ttu-id="6e4a8-103">Impostos brasileiros nas cotações de venda</span><span class="sxs-lookup"><span data-stu-id="6e4a8-103">Brazilian tax in sales quotations</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="867f9-104">Use este procedimento para criar uma cotação de venda que usa impostos brasileiros.</span><span class="sxs-lookup"><span data-stu-id="867f9-104">Use this procedure to create a sales quotation that uses Brazilian taxes.</span></span> <span data-ttu-id="867f9-105">É possível criar uma cotação especificando as informações fiscais, como o tipo de operação e o CFOP (Código Fiscal de Operações e Prestações).</span><span class="sxs-lookup"><span data-stu-id="867f9-105">You can create a quotation by specifying fiscal information, such as the operation type and the Código Fiscal de Operações e Prestações (CFOP) code.</span></span> <span data-ttu-id="867f9-106">Ao criar uma linha de cotação, é possível selecionar um código de CFOP no campo CFOP.</span><span class="sxs-lookup"><span data-stu-id="867f9-106">When you create a quotation line, you can select a CFOP code in the CFOP field.</span></span> <span data-ttu-id="867f9-107">Os códigos de CFOP disponíveis neste campo dependem do estabelecimento fiscal do site selecionado no campo Site.</span><span class="sxs-lookup"><span data-stu-id="867f9-107">The CFOP codes that are available in this field depend on the fiscal establishment of the site that you selected in the Site field.</span></span> <span data-ttu-id="867f9-108">Os grupos de impostos nos campos Grupo de impostos sobre vendas e Imposto do item também são atualizados com base na matriz de imposto.</span><span class="sxs-lookup"><span data-stu-id="867f9-108">The tax groups in the Sales tax group and Item sales tax group fields are also updated based on the tax matrix.</span></span> <span data-ttu-id="867f9-109">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="867f9-109">This task uses the BRMF demo company.</span></span>
+<span data-ttu-id="6e4a8-104">Use este procedimento para criar uma cotação de venda que usa impostos brasileiros.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-104">Use this procedure to create a sales quotation that uses Brazilian taxes.</span></span> <span data-ttu-id="6e4a8-105">É possível criar uma cotação especificando as informações fiscais, como o tipo de operação e o CFOP (Código Fiscal de Operações e Prestações).</span><span class="sxs-lookup"><span data-stu-id="6e4a8-105">You can create a quotation by specifying fiscal information, such as the operation type and the Código Fiscal de Operações e Prestações (CFOP) code.</span></span> <span data-ttu-id="6e4a8-106">Ao criar uma linha de cotação, é possível selecionar um código de CFOP no campo CFOP.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-106">When you create a quotation line, you can select a CFOP code in the CFOP field.</span></span> <span data-ttu-id="6e4a8-107">Os códigos de CFOP disponíveis neste campo dependem do estabelecimento fiscal do site selecionado no campo Site.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-107">The CFOP codes that are available in this field depend on the fiscal establishment of the site that you selected in the Site field.</span></span> <span data-ttu-id="6e4a8-108">Os grupos de impostos nos campos Grupo de impostos sobre vendas e Imposto do item também são atualizados com base na matriz de imposto.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-108">The tax groups in the Sales tax group and Item sales tax group fields are also updated based on the tax matrix.</span></span> <span data-ttu-id="6e4a8-109">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-109">This task uses the BRMF demo company.</span></span>
 
-1. <span data-ttu-id="867f9-110">Vá para Vendas e marketing > Cotações de venda > Todas as cotações.</span><span class="sxs-lookup"><span data-stu-id="867f9-110">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
-2. <span data-ttu-id="867f9-111">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="867f9-111">Click New.</span></span>
-3. <span data-ttu-id="867f9-112">No campo Tipo de conta, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="867f9-112">In the Account type field, select an option.</span></span>
-4. <span data-ttu-id="867f9-113">No campo Conta de cliente, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="867f9-113">In the Customer account field, enter or select a value.</span></span>
-5. <span data-ttu-id="867f9-114">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="867f9-114">Click OK.</span></span>
-6. <span data-ttu-id="867f9-115">Clique em Sim.</span><span class="sxs-lookup"><span data-stu-id="867f9-115">Click Yes.</span></span>
-7. <span data-ttu-id="867f9-116">No campo Linhas ou cabeçalho, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="867f9-116">In the Lines or header field, select an option.</span></span>
-8. <span data-ttu-id="867f9-117">Expanda a seção Informações fiscais.</span><span class="sxs-lookup"><span data-stu-id="867f9-117">Expand the Fiscal information section.</span></span>
-    * <span data-ttu-id="867f9-118">Use esta seção para inserir informações fiscais.</span><span class="sxs-lookup"><span data-stu-id="867f9-118">Use this section to enter fiscal information.</span></span>  
-9. <span data-ttu-id="867f9-119">Selecione Sim no campo Usuário final.</span><span class="sxs-lookup"><span data-stu-id="867f9-119">Select Yes in the Final user field.</span></span>
-    * <span data-ttu-id="867f9-120">Selecione Sim se todas as linhas da cotação são para o usuário final.</span><span class="sxs-lookup"><span data-stu-id="867f9-120">Select Yes if all lines from the quotation are for a final user.</span></span>  <span data-ttu-id="867f9-121">Se você selecionar Sim, o ICMS (imposto sobre circulação de mercadorias e serviços) inclui o IPI (imposto sobre produtos industrializados) e todos os encargos de frete.</span><span class="sxs-lookup"><span data-stu-id="867f9-121">If you select Yes, the Imposto Sobre Circulação de Mercadorias e Serviços (ICMS) tax includes the Imposto Sobre Produtos Industrializados (IPI) tax and any freight charges.</span></span>  
-10. <span data-ttu-id="867f9-122">No campo Linhas ou cabeçalho, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="867f9-122">In the Lines or header field, select an option.</span></span>
-11. <span data-ttu-id="867f9-123">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="867f9-123">In the list, mark the selected row.</span></span>
-12. <span data-ttu-id="867f9-124">No campo Item, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="867f9-124">In the Item field, enter or select a value.</span></span>
-13. <span data-ttu-id="867f9-125">No campo Quantidade, insira um número.</span><span class="sxs-lookup"><span data-stu-id="867f9-125">In the Quantity field, enter a number.</span></span>
-14. <span data-ttu-id="867f9-126">No campo Local, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="867f9-126">In the Site field, enter or select a value.</span></span>
-15. <span data-ttu-id="867f9-127">No campo Depósito, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="867f9-127">In the Warehouse field, enter or select a value.</span></span>
-16. <span data-ttu-id="867f9-128">No campo CFOP, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="867f9-128">In the CFOP field, enter or select a value.</span></span>
-17. <span data-ttu-id="867f9-129">Expanda a seção Detalhes da linha.</span><span class="sxs-lookup"><span data-stu-id="867f9-129">Expand the Line details section.</span></span>
-18. <span data-ttu-id="867f9-130">Clique na guia Configuração.</span><span class="sxs-lookup"><span data-stu-id="867f9-130">Click the Setup tab.</span></span>
-19. <span data-ttu-id="867f9-131">No campo Grupo de impostos sobre vendas, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="867f9-131">In the Sales tax group field, enter or select a value.</span></span>
-20. <span data-ttu-id="867f9-132">No campo Grupo de impostos sobre vendas, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="867f9-132">In the Item sales tax group field, enter or select a value.</span></span>
-21. <span data-ttu-id="867f9-133">Clique na guia Informações fiscais.</span><span class="sxs-lookup"><span data-stu-id="867f9-133">Click the Fiscal information tab.</span></span>
-22. <span data-ttu-id="867f9-134">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="867f9-134">Click Save.</span></span>
-23. <span data-ttu-id="867f9-135">No Painel de Ação, clique em Cotação.</span><span class="sxs-lookup"><span data-stu-id="867f9-135">On the Action Pane, click Quotation.</span></span>
-24. <span data-ttu-id="867f9-136">Clique em Enviar cotação.</span><span class="sxs-lookup"><span data-stu-id="867f9-136">Click Send quotation.</span></span>
-25. <span data-ttu-id="867f9-137">Selecione Sim no campo Imprimir cotação.</span><span class="sxs-lookup"><span data-stu-id="867f9-137">Select Yes in the Print quotation field.</span></span>
-26. <span data-ttu-id="867f9-138">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="867f9-138">Click OK.</span></span>
-27. <span data-ttu-id="867f9-139">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="867f9-139">Close the page.</span></span>
-28. <span data-ttu-id="867f9-140">No Painel de Ação, clique em Acompanhamento.</span><span class="sxs-lookup"><span data-stu-id="867f9-140">On the Action Pane, click Follow up.</span></span>
-29. <span data-ttu-id="867f9-141">Clique em Confirmar.</span><span class="sxs-lookup"><span data-stu-id="867f9-141">Click Confirm.</span></span>
-30. <span data-ttu-id="867f9-142">Clique em Sim.</span><span class="sxs-lookup"><span data-stu-id="867f9-142">Click Yes.</span></span>
-31. <span data-ttu-id="867f9-143">No campo Motivo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="867f9-143">In the Reason field, enter or select a value.</span></span>
-32. <span data-ttu-id="867f9-144">Marque a caixa de seleção Imprimir confirmação.</span><span class="sxs-lookup"><span data-stu-id="867f9-144">Select the Print confirmation check box.</span></span>
-33. <span data-ttu-id="867f9-145">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="867f9-145">Click OK.</span></span>
-34. <span data-ttu-id="867f9-146">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="867f9-146">Close the page.</span></span>
-35. <span data-ttu-id="867f9-147">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="867f9-147">Close the page.</span></span>
-36. <span data-ttu-id="867f9-148">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="867f9-148">Close the page.</span></span>
+1. <span data-ttu-id="6e4a8-110">Vá para Vendas e marketing > Cotações de venda > Todas as cotações.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-110">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
+2. <span data-ttu-id="6e4a8-111">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-111">Click New.</span></span>
+3. <span data-ttu-id="6e4a8-112">No campo Tipo de conta, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-112">In the Account type field, select an option.</span></span>
+4. <span data-ttu-id="6e4a8-113">No campo Conta de cliente, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-113">In the Customer account field, enter or select a value.</span></span>
+5. <span data-ttu-id="6e4a8-114">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-114">Click OK.</span></span>
+6. <span data-ttu-id="6e4a8-115">Clique em Sim.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-115">Click Yes.</span></span>
+7. <span data-ttu-id="6e4a8-116">No campo Linhas ou cabeçalho, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-116">In the Lines or header field, select an option.</span></span>
+8. <span data-ttu-id="6e4a8-117">Expanda a seção Informações fiscais.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-117">Expand the Fiscal information section.</span></span>
+    * <span data-ttu-id="6e4a8-118">Use esta seção para inserir informações fiscais.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-118">Use this section to enter fiscal information.</span></span>  
+9. <span data-ttu-id="6e4a8-119">Selecione Sim no campo Usuário final.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-119">Select Yes in the Final user field.</span></span>
+    * <span data-ttu-id="6e4a8-120">Selecione Sim se todas as linhas da cotação são para o usuário final.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-120">Select Yes if all lines from the quotation are for a final user.</span></span>  <span data-ttu-id="6e4a8-121">Se você selecionar Sim, o ICMS (imposto sobre circulação de mercadorias e serviços) inclui o IPI (imposto sobre produtos industrializados) e todos os encargos de frete.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-121">If you select Yes, the Imposto Sobre Circulação de Mercadorias e Serviços (ICMS) tax includes the Imposto Sobre Produtos Industrializados (IPI) tax and any freight charges.</span></span>  
+10. <span data-ttu-id="6e4a8-122">No campo Linhas ou cabeçalho, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-122">In the Lines or header field, select an option.</span></span>
+11. <span data-ttu-id="6e4a8-123">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-123">In the list, mark the selected row.</span></span>
+12. <span data-ttu-id="6e4a8-124">No campo Item, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-124">In the Item field, enter or select a value.</span></span>
+13. <span data-ttu-id="6e4a8-125">No campo Quantidade, insira um número.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-125">In the Quantity field, enter a number.</span></span>
+14. <span data-ttu-id="6e4a8-126">No campo Local, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-126">In the Site field, enter or select a value.</span></span>
+15. <span data-ttu-id="6e4a8-127">No campo Depósito, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-127">In the Warehouse field, enter or select a value.</span></span>
+16. <span data-ttu-id="6e4a8-128">No campo CFOP, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-128">In the CFOP field, enter or select a value.</span></span>
+17. <span data-ttu-id="6e4a8-129">Expanda a seção Detalhes da linha.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-129">Expand the Line details section.</span></span>
+18. <span data-ttu-id="6e4a8-130">Clique na guia Configuração.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-130">Click the Setup tab.</span></span>
+19. <span data-ttu-id="6e4a8-131">No campo Grupo de impostos sobre vendas, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-131">In the Sales tax group field, enter or select a value.</span></span>
+20. <span data-ttu-id="6e4a8-132">No campo Grupo de impostos sobre vendas, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-132">In the Item sales tax group field, enter or select a value.</span></span>
+21. <span data-ttu-id="6e4a8-133">Clique na guia Informações fiscais.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-133">Click the Fiscal information tab.</span></span>
+22. <span data-ttu-id="6e4a8-134">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-134">Click Save.</span></span>
+23. <span data-ttu-id="6e4a8-135">No Painel de Ação, clique em Cotação.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-135">On the Action Pane, click Quotation.</span></span>
+24. <span data-ttu-id="6e4a8-136">Clique em Enviar cotação.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-136">Click Send quotation.</span></span>
+25. <span data-ttu-id="6e4a8-137">Selecione Sim no campo Imprimir cotação.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-137">Select Yes in the Print quotation field.</span></span>
+26. <span data-ttu-id="6e4a8-138">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-138">Click OK.</span></span>
+27. <span data-ttu-id="6e4a8-139">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-139">Close the page.</span></span>
+28. <span data-ttu-id="6e4a8-140">No Painel de Ação, clique em Acompanhamento.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-140">On the Action Pane, click Follow up.</span></span>
+29. <span data-ttu-id="6e4a8-141">Clique em Confirmar.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-141">Click Confirm.</span></span>
+30. <span data-ttu-id="6e4a8-142">Clique em Sim.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-142">Click Yes.</span></span>
+31. <span data-ttu-id="6e4a8-143">No campo Motivo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-143">In the Reason field, enter or select a value.</span></span>
+32. <span data-ttu-id="6e4a8-144">Marque a caixa de seleção Imprimir confirmação.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-144">Select the Print confirmation check box.</span></span>
+33. <span data-ttu-id="6e4a8-145">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-145">Click OK.</span></span>
+34. <span data-ttu-id="6e4a8-146">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-146">Close the page.</span></span>
+35. <span data-ttu-id="6e4a8-147">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-147">Close the page.</span></span>
+36. <span data-ttu-id="6e4a8-148">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="6e4a8-148">Close the page.</span></span>
 

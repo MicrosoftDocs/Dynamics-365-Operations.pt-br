@@ -17,30 +17,30 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3aef2725152d39e49070f33d0c56089200c94353
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 0bc65dd80221cedd25890037afcb3d2617f22793
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837797"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149175"
 ---
-# <a name="create-a-new-kanban-rule-by-duplicating-an-existing-kanban-rule"></a><span data-ttu-id="1d6d2-103">Criar uma nova regra kanban duplicando uma regra kanban existente</span><span class="sxs-lookup"><span data-stu-id="1d6d2-103">Create a new kanban rule by duplicating an existing kanban rule</span></span>
+# <a name="create-a-new-kanban-rule-by-duplicating-an-existing-kanban-rule"></a><span data-ttu-id="08d94-103">Criar uma nova regra kanban duplicando uma regra kanban existente</span><span class="sxs-lookup"><span data-stu-id="08d94-103">Create a new kanban rule by duplicating an existing kanban rule</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="1d6d2-104">Este procedimento tem como foco a criação de uma duplicata de uma regra kanban existente.</span><span class="sxs-lookup"><span data-stu-id="1d6d2-104">This procedure focuses on creating a duplicate of an existing kanban rule.</span></span> <span data-ttu-id="1d6d2-105">Ele é útil se você quiser criar regras kanban com base em regras kanban existentes.</span><span class="sxs-lookup"><span data-stu-id="1d6d2-105">This is useful if you want to create new kanban rules based on existing kanban rules.</span></span> <span data-ttu-id="1d6d2-106">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="1d6d2-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="1d6d2-107">Este procedimento destina-se ao engenheiro do processo ou gerente de fluxo de valor, pois eles preparam a produção para uma produção de fluxo ou um produto novo ou modificado.</span><span class="sxs-lookup"><span data-stu-id="1d6d2-107">This procedure is intended for the process engineer or the value stream manager as they prepare production for a changed production flow or a new replenishment rule.</span></span>
+<span data-ttu-id="08d94-104">Este procedimento tem como foco a criação de uma duplicata de uma regra kanban existente.</span><span class="sxs-lookup"><span data-stu-id="08d94-104">This procedure focuses on creating a duplicate of an existing kanban rule.</span></span> <span data-ttu-id="08d94-105">Ele é útil se você quiser criar regras kanban com base em regras kanban existentes.</span><span class="sxs-lookup"><span data-stu-id="08d94-105">This is useful if you want to create new kanban rules based on existing kanban rules.</span></span> <span data-ttu-id="08d94-106">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="08d94-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="08d94-107">Este procedimento destina-se ao engenheiro do processo ou gerente de fluxo de valor, pois eles preparam a produção para uma produção de fluxo ou um produto novo ou modificado.</span><span class="sxs-lookup"><span data-stu-id="08d94-107">This procedure is intended for the process engineer or the value stream manager as they prepare production for a changed production flow or a new replenishment rule.</span></span>
 
 
-## <a name="select-a-kanban-rule"></a><span data-ttu-id="1d6d2-108">Selecionar uma regra kanban</span><span class="sxs-lookup"><span data-stu-id="1d6d2-108">Select a kanban rule</span></span>
-1. <span data-ttu-id="1d6d2-109">Vá para Regras kanban.</span><span class="sxs-lookup"><span data-stu-id="1d6d2-109">Go to Kanban rules.</span></span>
-2. <span data-ttu-id="1d6d2-110">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="1d6d2-110">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="1d6d2-111">Selecione a regra kanban 000017 para produto M0006.</span><span class="sxs-lookup"><span data-stu-id="1d6d2-111">Select kanban rule 000017 for Product M0006.</span></span>  
+## <a name="select-a-kanban-rule"></a><span data-ttu-id="08d94-108">Selecionar uma regra kanban</span><span class="sxs-lookup"><span data-stu-id="08d94-108">Select a kanban rule</span></span>
+1. <span data-ttu-id="08d94-109">Vá para Regras kanban.</span><span class="sxs-lookup"><span data-stu-id="08d94-109">Go to Kanban rules.</span></span>
+2. <span data-ttu-id="08d94-110">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="08d94-110">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="08d94-111">Selecione a regra kanban 000017 para produto M0006.</span><span class="sxs-lookup"><span data-stu-id="08d94-111">Select kanban rule 000017 for Product M0006.</span></span>  
 
-## <a name="duplicate-a-kanban-rule"></a><span data-ttu-id="1d6d2-112">Duplicar uma regra kanban</span><span class="sxs-lookup"><span data-stu-id="1d6d2-112">Duplicate a kanban rule</span></span>
-1. <span data-ttu-id="1d6d2-113">Clique em Duplicar regra kanban.</span><span class="sxs-lookup"><span data-stu-id="1d6d2-113">Click Duplicate kanban rule.</span></span>
-    * <span data-ttu-id="1d6d2-114">Ao duplicar uma regra kanban, é possível alterar tipo, data, atividades e a seleção do produto.</span><span class="sxs-lookup"><span data-stu-id="1d6d2-114">When duplicating a kanban rule, it is possible to change type, dates, activities, and the product selection.</span></span> <span data-ttu-id="1d6d2-115">Altere o produto para o procedimento na próxima etapa.</span><span class="sxs-lookup"><span data-stu-id="1d6d2-115">Change the product for this procedure in the next step.</span></span>  
-2. <span data-ttu-id="1d6d2-116">No campo Produto, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="1d6d2-116">In the Product field, enter or select a value.</span></span>
-    * <span data-ttu-id="1d6d2-117">Selecione M0007.</span><span class="sxs-lookup"><span data-stu-id="1d6d2-117">Select M0007.</span></span>  
-3. <span data-ttu-id="1d6d2-118">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="1d6d2-118">Click OK.</span></span>
-    * <span data-ttu-id="1d6d2-119">Note que uma duplicata da regra kanban 000017 é criada.</span><span class="sxs-lookup"><span data-stu-id="1d6d2-119">Note that a duplicate of kanban rule 000017 is created.</span></span>    
+## <a name="duplicate-a-kanban-rule"></a><span data-ttu-id="08d94-112">Duplicar uma regra kanban</span><span class="sxs-lookup"><span data-stu-id="08d94-112">Duplicate a kanban rule</span></span>
+1. <span data-ttu-id="08d94-113">Clique em Duplicar regra kanban.</span><span class="sxs-lookup"><span data-stu-id="08d94-113">Click Duplicate kanban rule.</span></span>
+    * <span data-ttu-id="08d94-114">Ao duplicar uma regra kanban, é possível alterar tipo, data, atividades e a seleção do produto.</span><span class="sxs-lookup"><span data-stu-id="08d94-114">When duplicating a kanban rule, it is possible to change type, dates, activities, and the product selection.</span></span> <span data-ttu-id="08d94-115">Altere o produto para o procedimento na próxima etapa.</span><span class="sxs-lookup"><span data-stu-id="08d94-115">Change the product for this procedure in the next step.</span></span>  
+2. <span data-ttu-id="08d94-116">No campo Produto, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="08d94-116">In the Product field, enter or select a value.</span></span>
+    * <span data-ttu-id="08d94-117">Selecione M0007.</span><span class="sxs-lookup"><span data-stu-id="08d94-117">Select M0007.</span></span>  
+3. <span data-ttu-id="08d94-118">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="08d94-118">Click OK.</span></span>
+    * <span data-ttu-id="08d94-119">Note que uma duplicata da regra kanban 000017 é criada.</span><span class="sxs-lookup"><span data-stu-id="08d94-119">Note that a duplicate of kanban rule 000017 is created.</span></span>    
 

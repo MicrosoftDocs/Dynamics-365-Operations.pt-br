@@ -16,39 +16,39 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1a3e0d00d674af913953d7fd01183b0289c20d3d
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 57abbab21a20278d77001a39e226af11994230be
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844084"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149615"
 ---
-# <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a><span data-ttu-id="aa7b6-103">Criar tipos de solicitação e critérios de avaliação para RFQs</span><span class="sxs-lookup"><span data-stu-id="aa7b6-103">Create solicitation types and scoring criteria for RFQs</span></span>
+# <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a><span data-ttu-id="904bd-103">Criar tipos de solicitação e critérios de avaliação para RFQs</span><span class="sxs-lookup"><span data-stu-id="904bd-103">Create solicitation types and scoring criteria for RFQs</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="aa7b6-104">Este guia mostra como criar um tipo da solicitação e associar esse tipo com um método de avaliação.</span><span class="sxs-lookup"><span data-stu-id="aa7b6-104">This guide shows you how to create a solicitation type and associate this with a scoring method.</span></span> <span data-ttu-id="aa7b6-105">Ele também mostra como usar o tipo de solicitação em uma solicitação de cotação (RFQ) que então define o padrão do método de avaliação.</span><span class="sxs-lookup"><span data-stu-id="aa7b6-105">It also shows how to use the solicitation type on a request for quotation (RFQ) which then sets the default scoring method.</span></span> <span data-ttu-id="aa7b6-106">Essas tarefas são normalmente realizadas por um Gerente de compras.</span><span class="sxs-lookup"><span data-stu-id="aa7b6-106">These tasks would typically be carried out by a purchasing manager.</span></span> <span data-ttu-id="aa7b6-107">Você pode usar esse procedimento na empresa de dados demonstrativos USMF ou nos seus próprios dados.</span><span class="sxs-lookup"><span data-stu-id="aa7b6-107">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="aa7b6-108">Você precisa ter um método de marcação disponível antes de começar.</span><span class="sxs-lookup"><span data-stu-id="aa7b6-108">You need to have a scoring method available before you start.</span></span>
+<span data-ttu-id="904bd-104">Este guia mostra como criar um tipo da solicitação e associar esse tipo com um método de avaliação.</span><span class="sxs-lookup"><span data-stu-id="904bd-104">This guide shows you how to create a solicitation type and associate this with a scoring method.</span></span> <span data-ttu-id="904bd-105">Ele também mostra como usar o tipo de solicitação em uma solicitação de cotação (RFQ) que então define o padrão do método de avaliação.</span><span class="sxs-lookup"><span data-stu-id="904bd-105">It also shows how to use the solicitation type on a request for quotation (RFQ) which then sets the default scoring method.</span></span> <span data-ttu-id="904bd-106">Essas tarefas são normalmente realizadas por um Gerente de compras.</span><span class="sxs-lookup"><span data-stu-id="904bd-106">These tasks would typically be carried out by a purchasing manager.</span></span> <span data-ttu-id="904bd-107">Você pode usar esse procedimento na empresa de dados demonstrativos USMF ou nos seus próprios dados.</span><span class="sxs-lookup"><span data-stu-id="904bd-107">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="904bd-108">Você precisa ter um método de marcação disponível antes de começar.</span><span class="sxs-lookup"><span data-stu-id="904bd-108">You need to have a scoring method available before you start.</span></span>
 
 
-## <a name="create-a-solicitation-type"></a><span data-ttu-id="aa7b6-109">Criar um tipo de solicitação.</span><span class="sxs-lookup"><span data-stu-id="aa7b6-109">Create a solicitation type</span></span>
-1. <span data-ttu-id="aa7b6-110">Vá para Compras > Configuração > Solicitação de cotação > Tipo de solicitação.</span><span class="sxs-lookup"><span data-stu-id="aa7b6-110">Go to Procurement and sourcing > Setup > Request for quotation > Solicitation type.</span></span>
-2. <span data-ttu-id="aa7b6-111">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="aa7b6-111">Click New.</span></span>
-3. <span data-ttu-id="aa7b6-112">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="aa7b6-112">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="aa7b6-113">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="aa7b6-113">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="aa7b6-114">No campo Método de avaliação, selecione o método de avaliação que você deseja usar para este tipo de solicitação.</span><span class="sxs-lookup"><span data-stu-id="aa7b6-114">In the Scoring method field, select the scoring method that you want to use for this solicitation type.</span></span>
-6. <span data-ttu-id="aa7b6-115">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="aa7b6-115">Click Save.</span></span>
-7. <span data-ttu-id="aa7b6-116">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="aa7b6-116">Close the page.</span></span>
+## <a name="create-a-solicitation-type"></a><span data-ttu-id="904bd-109">Criar um tipo de solicitação.</span><span class="sxs-lookup"><span data-stu-id="904bd-109">Create a solicitation type</span></span>
+1. <span data-ttu-id="904bd-110">Vá para Compras > Configuração > Solicitação de cotação > Tipo de solicitação.</span><span class="sxs-lookup"><span data-stu-id="904bd-110">Go to Procurement and sourcing > Setup > Request for quotation > Solicitation type.</span></span>
+2. <span data-ttu-id="904bd-111">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="904bd-111">Click New.</span></span>
+3. <span data-ttu-id="904bd-112">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="904bd-112">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="904bd-113">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="904bd-113">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="904bd-114">No campo Método de avaliação, selecione o método de avaliação que você deseja usar para este tipo de solicitação.</span><span class="sxs-lookup"><span data-stu-id="904bd-114">In the Scoring method field, select the scoring method that you want to use for this solicitation type.</span></span>
+6. <span data-ttu-id="904bd-115">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="904bd-115">Click Save.</span></span>
+7. <span data-ttu-id="904bd-116">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="904bd-116">Close the page.</span></span>
 
-## <a name="use-the-solicitation-type"></a><span data-ttu-id="aa7b6-117">Use o tipo de solicitação</span><span class="sxs-lookup"><span data-stu-id="aa7b6-117">Use the solicitation type</span></span>
-1. <span data-ttu-id="aa7b6-118">Vá para Aquisição e fornecimento > Solicitações de cotações > Todas as solicitações de cotações.</span><span class="sxs-lookup"><span data-stu-id="aa7b6-118">Go to Procurement and sourcing > Requests for quotations > All requests for quotations.</span></span>
-2. <span data-ttu-id="aa7b6-119">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="aa7b6-119">Click New.</span></span>
-3. <span data-ttu-id="aa7b6-120">No campo Tipo de solicitação, selecione o tipo de solicitação que você acabou de criar.</span><span class="sxs-lookup"><span data-stu-id="aa7b6-120">In the Solicitation type field, select the solicitation type that you have just created.</span></span> 
+## <a name="use-the-solicitation-type"></a><span data-ttu-id="904bd-117">Use o tipo de solicitação</span><span class="sxs-lookup"><span data-stu-id="904bd-117">Use the solicitation type</span></span>
+1. <span data-ttu-id="904bd-118">Vá para Aquisição e fornecimento > Solicitações de cotações > Todas as solicitações de cotações.</span><span class="sxs-lookup"><span data-stu-id="904bd-118">Go to Procurement and sourcing > Requests for quotations > All requests for quotations.</span></span>
+2. <span data-ttu-id="904bd-119">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="904bd-119">Click New.</span></span>
+3. <span data-ttu-id="904bd-120">No campo Tipo de solicitação, selecione o tipo de solicitação que você acabou de criar.</span><span class="sxs-lookup"><span data-stu-id="904bd-120">In the Solicitation type field, select the solicitation type that you have just created.</span></span> 
     *   
-4. <span data-ttu-id="aa7b6-121">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="aa7b6-121">Click OK.</span></span>
-5. <span data-ttu-id="aa7b6-122">Clique em Critérios de pontuação.</span><span class="sxs-lookup"><span data-stu-id="aa7b6-122">Click Scoring criteria.</span></span>
-    * <span data-ttu-id="aa7b6-123">Os critérios de avaliação que são mostrados são esses do método de avaliação que você associou com o tipo da solicitação.</span><span class="sxs-lookup"><span data-stu-id="aa7b6-123">The scoring criteria that are shown are the ones from the scoring method that you associated with the solicitation type.</span></span> <span data-ttu-id="aa7b6-124">Você pode escolher adicionar ou suprimir critérios nesta página.</span><span class="sxs-lookup"><span data-stu-id="aa7b6-124">You can choose to add or delete criteria on this page.</span></span> <span data-ttu-id="aa7b6-125">É igualmente possível adicionar critérios novos copiando os de outros métodos de avaliação.</span><span class="sxs-lookup"><span data-stu-id="aa7b6-125">It's also possible to add new criteria by copying them from other scoring methods.</span></span>  
-6. <span data-ttu-id="aa7b6-126">Clique em Copiar critérios.</span><span class="sxs-lookup"><span data-stu-id="aa7b6-126">Click Copy criteria.</span></span>
-7. <span data-ttu-id="aa7b6-127">No campo Método de avaliação, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="aa7b6-127">In the Scoring method field, enter or select a value.</span></span>
-8. <span data-ttu-id="aa7b6-128">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="aa7b6-128">Click OK.</span></span>
-9. <span data-ttu-id="aa7b6-129">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="aa7b6-129">Close the page.</span></span>
+4. <span data-ttu-id="904bd-121">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="904bd-121">Click OK.</span></span>
+5. <span data-ttu-id="904bd-122">Clique em Critérios de pontuação.</span><span class="sxs-lookup"><span data-stu-id="904bd-122">Click Scoring criteria.</span></span>
+    * <span data-ttu-id="904bd-123">Os critérios de avaliação que são mostrados são esses do método de avaliação que você associou com o tipo da solicitação.</span><span class="sxs-lookup"><span data-stu-id="904bd-123">The scoring criteria that are shown are the ones from the scoring method that you associated with the solicitation type.</span></span> <span data-ttu-id="904bd-124">Você pode escolher adicionar ou suprimir critérios nesta página.</span><span class="sxs-lookup"><span data-stu-id="904bd-124">You can choose to add or delete criteria on this page.</span></span> <span data-ttu-id="904bd-125">É igualmente possível adicionar critérios novos copiando os de outros métodos de avaliação.</span><span class="sxs-lookup"><span data-stu-id="904bd-125">It's also possible to add new criteria by copying them from other scoring methods.</span></span>  
+6. <span data-ttu-id="904bd-126">Clique em Copiar critérios.</span><span class="sxs-lookup"><span data-stu-id="904bd-126">Click Copy criteria.</span></span>
+7. <span data-ttu-id="904bd-127">No campo Método de avaliação, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="904bd-127">In the Scoring method field, enter or select a value.</span></span>
+8. <span data-ttu-id="904bd-128">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="904bd-128">Click OK.</span></span>
+9. <span data-ttu-id="904bd-129">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="904bd-129">Close the page.</span></span>
 
