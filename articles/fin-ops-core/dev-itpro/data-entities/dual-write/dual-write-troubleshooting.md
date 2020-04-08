@@ -1,9 +1,9 @@
 ---
-title: Guia de solução de problemas para integração de dados
-description: Este tópico fornece informações de solução de problemas para integração de dados entre aplicativos do Finance and Operations e o Common Data Service.
+title: Solução de problemas gerais
+description: Este tópico fornece informações gerais de solução de problemas para integração de gravação dupla entre aplicativos do Finance and Operations e o Common Data Service.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,57 +18,98 @@ ms.search.region: global
 ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
-ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 87bdb72024c1c3844ff61e832a92f7edcc77c5d6
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.search.validFrom: 2020-03-16
+ms.openlocfilehash: f7ee0b5aa4e72614205e129acd986376b33efc70
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019641"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172682"
 ---
-# <a name="troubleshooting-guide-for-data-integration"></a><span data-ttu-id="3ae5d-103">Guia de solução de problemas para integração de dados</span><span class="sxs-lookup"><span data-stu-id="3ae5d-103">Troubleshooting guide for data integration</span></span>
+# <a name="general-troubleshooting"></a><span data-ttu-id="01c80-103">Solução de problemas gerais</span><span class="sxs-lookup"><span data-stu-id="01c80-103">General troubleshooting</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
 
-## <a name="enable-plug-in-trace-logs-in-common-data-service-and-inspect-the-dual-write-plug-in-error-details"></a><span data-ttu-id="3ae5d-104">Habilite o rastreamento de plug-in no Common Data Service e inspecione os detalhes de erro do plug-in de gravação dupla</span><span class="sxs-lookup"><span data-stu-id="3ae5d-104">Enable plug-in trace logs in Common Data Service and inspect the dual-write plug-in error details</span></span>
 
-<span data-ttu-id="3ae5d-105">Se você tiver um problema ou erro durante a sincronização de gravação dupla, siga estas etapas para inspecionar os erros no log de rastreamento.</span><span class="sxs-lookup"><span data-stu-id="3ae5d-105">If you experience an issue or error during dual-write synchronization, follow these steps to inspect the errors in the trace log.</span></span>
+<span data-ttu-id="01c80-104">Este tópico fornece informações gerais de solução de problemas para integração de gravação dupla entre aplicativos do Finance and Operations e o Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="01c80-104">This topic provides general troubleshooting information for dual-write integration between Finance and Operations apps and Common Data Service.</span></span>
 
-1. <span data-ttu-id="3ae5d-106">Antes de poder inspecionar os erros, você deve ativar os logs de rastreamento de plug-in.</span><span class="sxs-lookup"><span data-stu-id="3ae5d-106">Before you can inspect the errors, you must enable plug-in trace logs.</span></span> <span data-ttu-id="3ae5d-107">Para obter instruções, consulte a seção "Exibir logs de rastreamento" do [Tutorial: crie e registre um plug-in](https://docs.microsoft.com/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs).</span><span class="sxs-lookup"><span data-stu-id="3ae5d-107">For instructions, see the "View trace logs" section of [Tutorial: Write and register a plug-in](https://docs.microsoft.com/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs).</span></span>
+> [!IMPORTANT]
+> <span data-ttu-id="01c80-105">Alguns dos problemas que este tópico aborda podem exigir a função de administrador do sistema ou as credenciais de administrador do locatário Microsoft Azure Active Directory (Azure AD).</span><span class="sxs-lookup"><span data-stu-id="01c80-105">Some of the issues that this topic addresses might require either the system admin role or Microsoft Azure Active Directory (Azure AD) tenant admin credentials.</span></span> <span data-ttu-id="01c80-106">A seção para cada problema explica se uma função ou credenciais específicas são necessárias.</span><span class="sxs-lookup"><span data-stu-id="01c80-106">The section for each issue explains whether a specific role or credentials are required.</span></span>
 
-    <span data-ttu-id="3ae5d-108">Agora você pode inspecionar os erros.</span><span class="sxs-lookup"><span data-stu-id="3ae5d-108">You can now inspect the errors.</span></span>
+## <a name="when-you-try-to-install-the-dual-write-package-by-using-the-package-deployer-tool-no-available-solutions-are-shown"></a><span data-ttu-id="01c80-107">Ao tentar instalar o pacote de gravação dupla usando a ferramenta Package Deployer, nenhuma solução disponível é mostrada</span><span class="sxs-lookup"><span data-stu-id="01c80-107">When you try to install the dual-write package by using the package deployer tool, no available solutions are shown</span></span>
 
-2. <span data-ttu-id="3ae5d-109">Entre no Microsoft Dynamics 365 Sales.</span><span class="sxs-lookup"><span data-stu-id="3ae5d-109">Sign in to Microsoft Dynamics 365 Sales.</span></span>
-3. <span data-ttu-id="3ae5d-110">Selecione o botão **Configurações** (o símbolo da engrenagem) e selecione **Configurações Avançadas**.</span><span class="sxs-lookup"><span data-stu-id="3ae5d-110">Select the **Settings** button (the gear symbol), and then select **Advanced Settings**.</span></span>
-4. <span data-ttu-id="3ae5d-111">No menu **Configurações**, selecione **Personalização \> Log de Rastreamento de Plug-In**.</span><span class="sxs-lookup"><span data-stu-id="3ae5d-111">On the **Settings** menu, select **Customization \> Plug-In Trace Log**.</span></span>
-5. <span data-ttu-id="3ae5d-112">Selecione **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin** como o nome do tipo para mostrar os detalhes do erro.</span><span class="sxs-lookup"><span data-stu-id="3ae5d-112">Select **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin** as the type name to show the error details.</span></span>
+<span data-ttu-id="01c80-108">Algumas versões da ferramenta Package Deployer são incompatíveis com o pacote de solução de gravação dupla.</span><span class="sxs-lookup"><span data-stu-id="01c80-108">Some versions of the package deployer tool are incompatible with the dual-write solution package.</span></span> <span data-ttu-id="01c80-109">Para instalar o pacote com êxito, certifique-se de usar a [versão 9.1.0.20](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.PackageDeployment.Wpf/9.1.0.20) ou posterior da ferramenta Package Deployer.</span><span class="sxs-lookup"><span data-stu-id="01c80-109">To successfully install the package, be sure to use [version 9.1.0.20](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.PackageDeployment.Wpf/9.1.0.20) or later of the package deployer tool.</span></span>
 
-## <a name="inspect-dual-write-synchronization-errors"></a><span data-ttu-id="3ae5d-113">Verificar erros de sincronização de gravação dupla</span><span class="sxs-lookup"><span data-stu-id="3ae5d-113">Inspect dual-write synchronization errors</span></span>
+<span data-ttu-id="01c80-110">Depois de instalar a ferramenta do Package Deployer, instale o pacote de solução seguindo essas etapas.</span><span class="sxs-lookup"><span data-stu-id="01c80-110">After you install the package deployer tool, install the solution package by following these steps.</span></span>
 
-<span data-ttu-id="3ae5d-114">Siga estas etapas para inspecionar erros durante o teste.</span><span class="sxs-lookup"><span data-stu-id="3ae5d-114">Follow these steps to inspect errors during testing.</span></span>
+1. <span data-ttu-id="01c80-111">Baixe o arquivo de pacote de solução mais recente de Yammer.com.</span><span class="sxs-lookup"><span data-stu-id="01c80-111">Download the latest solution package file from Yammer.com.</span></span> <span data-ttu-id="01c80-112">Depois que o arquivo zip do pacote for baixado, clique nele com o botão direito do mouse e selecione **Propriedades**.</span><span class="sxs-lookup"><span data-stu-id="01c80-112">After the package zip file is downloaded, right-click it, and select **Properties**.</span></span> <span data-ttu-id="01c80-113">Marque caixa de seleção **Desbloquear** e selecione **Aplicar**.</span><span class="sxs-lookup"><span data-stu-id="01c80-113">Select the **Unblock** check box, and then select **Apply**.</span></span> <span data-ttu-id="01c80-114">Se você não vir a caixa de seleção **Desbloquear**, o arquivo zip já está desbloqueado e você pode ignorar essa etapa.</span><span class="sxs-lookup"><span data-stu-id="01c80-114">If you don't see the **Unblock** check box, the zip file is already unblocked, and you can skip this step.</span></span>
 
-1. <span data-ttu-id="3ae5d-115">Entre Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="3ae5d-115">Sign in to Microsoft Dynamics Lifecycle Services (LCS).</span></span>
-2. <span data-ttu-id="3ae5d-116">Abra o projeto do LCS que será submetido a testes de gravação dupla.</span><span class="sxs-lookup"><span data-stu-id="3ae5d-116">Open the LCS project to do dual-write testing for.</span></span>
-3. <span data-ttu-id="3ae5d-117">Selecione **Ambientes hospedados na nuvem**.</span><span class="sxs-lookup"><span data-stu-id="3ae5d-117">Select **Cloud-hosted environments**.</span></span>
-4. <span data-ttu-id="3ae5d-118">Estabeleça uma conexão de área de trabalho remota com a máquina virtual (VM) do aplicativo usando uma conta local que é mostrada no LCS.</span><span class="sxs-lookup"><span data-stu-id="3ae5d-118">Make a Remote desktop connection to the application virtual machine (VM) by using local account that is shown in LCS.</span></span>
-5. <span data-ttu-id="3ae5d-119">Abra o Visualizador de Eventos.</span><span class="sxs-lookup"><span data-stu-id="3ae5d-119">Open Event Viewer.</span></span> 
-6. <span data-ttu-id="3ae5d-120">Vá para **Registros de aplicativos e serviços \> Microsoft \> Dynamics \> AX-DualWriteSync \> Operacional**.</span><span class="sxs-lookup"><span data-stu-id="3ae5d-120">Go to **Applications and Services Logs \> Microsoft \> Dynamics \> AX-DualWriteSync \> Operational**.</span></span> <span data-ttu-id="3ae5d-121">Os erros e os detalhes são exibidos.</span><span class="sxs-lookup"><span data-stu-id="3ae5d-121">The errors and details are shown.</span></span>
+    ![Caixa de diálogo de propriedades](media/unblock_option.png)
 
-## <a name="unlink-one-common-data-service-environment-from-the-application-and-link-another-environment"></a><span data-ttu-id="3ae5d-122">Desvincular um ambiente do Common Data Service do aplicativo e vincular outro ambiente</span><span class="sxs-lookup"><span data-stu-id="3ae5d-122">Unlink one Common Data Service environment from the application and link another environment</span></span>
+2. <span data-ttu-id="01c80-116">Extraia o arquivo compactado no pacote e copie todos os arquivos na pasta **Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438**.</span><span class="sxs-lookup"><span data-stu-id="01c80-116">Extract the package zip file, and copy all the files in the **Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438** folder.</span></span>
 
-<span data-ttu-id="3ae5d-123">Siga as etapas a seguir para atualizar os links.</span><span class="sxs-lookup"><span data-stu-id="3ae5d-123">Follow these steps to update links.</span></span>
+    ![Conteúdo da pasta Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438](media/extract_package.png)
 
-1. <span data-ttu-id="3ae5d-124">Vá para o ambiente do aplicativo.</span><span class="sxs-lookup"><span data-stu-id="3ae5d-124">Go to the application environment.</span></span>
-2. <span data-ttu-id="3ae5d-125">Abra o Gerenciamento de Dados.</span><span class="sxs-lookup"><span data-stu-id="3ae5d-125">Open Data Management.</span></span>
-3. <span data-ttu-id="3ae5d-126">Selecione **Link para o CDS para aplicativos**.</span><span class="sxs-lookup"><span data-stu-id="3ae5d-126">Select **Link to CDS for apps**.</span></span>
-4. <span data-ttu-id="3ae5d-127">Selecione todos os mapeamentos em execução e depois **Parar**.</span><span class="sxs-lookup"><span data-stu-id="3ae5d-127">Select all the mappings that are running, and then select **Stop**.</span></span>
-5. <span data-ttu-id="3ae5d-128">Selecione todos os mapeamentos e depois **Excluir**.</span><span class="sxs-lookup"><span data-stu-id="3ae5d-128">Select all the mappings, and then select **Delete**.</span></span>
+3. <span data-ttu-id="01c80-118">Cole todos os arquivos copiados na pasta **Ferramentas** da ferramenta Package Deployer.</span><span class="sxs-lookup"><span data-stu-id="01c80-118">Paste all the copied files into the **Tools** folder of the package deployer tool.</span></span> 
+4. <span data-ttu-id="01c80-119">Execute **PackageDeployer.exe** para selecionar o ambiente Common Data Service e instale as soluções.</span><span class="sxs-lookup"><span data-stu-id="01c80-119">Run **PackageDeployer.exe** to select the Common Data Service environment and install the solutions.</span></span>
 
-    > [!NOTE]
-    > <span data-ttu-id="3ae5d-129">A opção **Excluir** não estará disponível se o modelo **CustomerV3-Account** estiver selecionado.</span><span class="sxs-lookup"><span data-stu-id="3ae5d-129">The **Delete** option isn't available if the **CustomerV3-Account** template is selected.</span></span> <span data-ttu-id="3ae5d-130">Limpe a seleção desse modelo, conforme necessário.</span><span class="sxs-lookup"><span data-stu-id="3ae5d-130">Clear the selection of this template as required.</span></span> <span data-ttu-id="3ae5d-131">**CustomerV3-Account** é um modelo provisionado mais antigo e funciona com a solução Prospect to Cash.</span><span class="sxs-lookup"><span data-stu-id="3ae5d-131">**CustomerV3-Account** is an older provisioned template and works with the Prospect to Cash solution.</span></span> <span data-ttu-id="3ae5d-132">Como ele é liberado globalmente, aparece em todos os modelos.</span><span class="sxs-lookup"><span data-stu-id="3ae5d-132">Because it's globally released, it appears under all templates.</span></span>
+    ![Conteúdo da pasta Ferramentas](media/paste_copied_files.png)
 
-6. <span data-ttu-id="3ae5d-133">Selecione **Desvincular ambiente**.</span><span class="sxs-lookup"><span data-stu-id="3ae5d-133">Select **Unlink environment**.</span></span>
-7. <span data-ttu-id="3ae5d-134">Selecione **Sim** para confirmar a operação.</span><span class="sxs-lookup"><span data-stu-id="3ae5d-134">Select **Yes** to confirm the operation.</span></span>
-8. <span data-ttu-id="3ae5d-135">Para vincular o novo ambiente, siga as etapas do [guia de instalação](https://aka.ms/dualwrite-docs).</span><span class="sxs-lookup"><span data-stu-id="3ae5d-135">To link the new environment, follow the steps in the [installation guide](https://aka.ms/dualwrite-docs).</span></span>
+## <a name="enable-and-view-the-plug-in-trace-log-in-common-data-service-to-view-error-details"></a><span data-ttu-id="01c80-121">Habilite e exiba o log de rastreamento de plug-in no Common Data Service para exibir detalhes do erro</span><span class="sxs-lookup"><span data-stu-id="01c80-121">Enable and view the plug-in trace log in Common Data Service to view error details</span></span>
+
+<span data-ttu-id="01c80-122">**Função necessária para ativar o log de rastreamento e erros de exibição**: administrador do sistema</span><span class="sxs-lookup"><span data-stu-id="01c80-122">**Required role to turn on the trace log and view errors:** System admin</span></span>
+
+<span data-ttu-id="01c80-123">Para ativar o log de rastreamento, siga estas etapas.</span><span class="sxs-lookup"><span data-stu-id="01c80-123">To turn on the trace log, follow these steps.</span></span>
+
+1. <span data-ttu-id="01c80-124">Efetue login no aplicativo Finance and Operations, abra a página **Configurações** e, em **Sistema**, selecione **Administração**.</span><span class="sxs-lookup"><span data-stu-id="01c80-124">Sign in to the Finance and Operations app, open the **Settings** page, and then, under **System**, select **Administration**.</span></span>
+2. <span data-ttu-id="01c80-125">Na página **Administração**, selecione **Configuração do sistema**.</span><span class="sxs-lookup"><span data-stu-id="01c80-125">On the **Administration** page, select **System Settings**.</span></span>
+3. <span data-ttu-id="01c80-126">Na guia **Personalização**, no campo **Rastreamento de atividade de fluxo de trabalho e plug-in**, selecione **Todos** para habilitar o log de rastreamento de plug-in.</span><span class="sxs-lookup"><span data-stu-id="01c80-126">On the **Customization** tab, in the **Plug-in and custom workflow activity tracing** field, select **All** to enable the plug-in trace log.</span></span> <span data-ttu-id="01c80-127">Se você deseja registrar logs de rastreamento somente quando ocorrerem exceções, em vez disso, você pode selecionar **Exceção**.</span><span class="sxs-lookup"><span data-stu-id="01c80-127">If you want to log trace logs only when exceptions occur, you can select **Exception** instead.</span></span>
+
+
+<span data-ttu-id="01c80-128">Para exibir o log de rastreamento, siga estas etapas.</span><span class="sxs-lookup"><span data-stu-id="01c80-128">To view the trace log, follow these steps.</span></span>
+
+1. <span data-ttu-id="01c80-129">Efetue login no aplicativo Finance and Operations, abra a página **Configurações** e, em **Personalização**, selecione **Log de rastreamento de plug-in**.</span><span class="sxs-lookup"><span data-stu-id="01c80-129">Sign in to the Finance and Operations app, open the **Settings** page, and then, under **Customization**, select **Plug-in Trace Log**.</span></span>
+2. <span data-ttu-id="01c80-130">Localize os logs de rastreamento no campo **Nome do tipo** e defina como **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin**.</span><span class="sxs-lookup"><span data-stu-id="01c80-130">Find the trace logs where the **Type Name** field is set to **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin**.</span></span>
+3. <span data-ttu-id="01c80-131">Clique duas vezes em um item para exibir o log completo e, em seguida, na Guia Rápida **Execução** revise o texto do **Bloco de mensagens**.</span><span class="sxs-lookup"><span data-stu-id="01c80-131">Double-click an item to view the full log, and then, on the **Execution** FastTab, review the **Message Block** text.</span></span>
+
+## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a><span data-ttu-id="01c80-132">Habilitar modo de depuração para solucionar problemas de sincronização dinâmica em aplicativos Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="01c80-132">Enable debug mode to troubleshoot live synchronization issues in Finance and Operations apps</span></span>
+
+<span data-ttu-id="01c80-133">**Função necessária para exibir os erros:** administrador do sistema</span><span class="sxs-lookup"><span data-stu-id="01c80-133">**Required role to view the errors:** System admin</span></span>
+
+<span data-ttu-id="01c80-134">Os erros de gravação dupla que originam-se no Common Data Service podem aparecer no aplicativo Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="01c80-134">Dual-write errors that originate in Common Data Service can appear in the Finance and Operations app.</span></span> <span data-ttu-id="01c80-135">Em alguns casos, o texto completo da mensagem de erro não está disponível porque a mensagem é muito longa ou contém informações de identificação pessoal (PII).</span><span class="sxs-lookup"><span data-stu-id="01c80-135">In some cases, the full text of the error message isn't available because the message is too long or contains personally identifying information (PII).</span></span> <span data-ttu-id="01c80-136">Você pode ativar o registro detalhado de erros ao seguir estas etapas.</span><span class="sxs-lookup"><span data-stu-id="01c80-136">You can turn on verbose logging for errors by following these steps.</span></span>
+
+1. <span data-ttu-id="01c80-137">Todas as configurações de projeto nos aplicativos Finance and Operations têm uma propriedade **IsDebugMode** na entidade **DualWriteProjectConfiguration**.</span><span class="sxs-lookup"><span data-stu-id="01c80-137">All project configurations in Finance and Operations apps have an **IsDebugMode** property in the **DualWriteProjectConfiguration** entity.</span></span> <span data-ttu-id="01c80-138">Abra a entidade **DualWriteProjectConfiguration** usando um suplemento do Excel.</span><span class="sxs-lookup"><span data-stu-id="01c80-138">Open the **DualWriteProjectConfiguration** entity by using the Excel add-in.</span></span>
+
+    > [!TIP]
+    > <span data-ttu-id="01c80-139">Uma forma simples de abrir a entidade é ativar o modo **Design** no suplemento do Excel e adicionar **DualWriteProjectConfigurationEntity** à planilha.</span><span class="sxs-lookup"><span data-stu-id="01c80-139">An easy way to open the entity is to turn on **Design** mode in the Excel add-in and then add **DualWriteProjectConfigurationEntity** to the worksheet.</span></span> <span data-ttu-id="01c80-140">Para obter mais informações, consulte [Abrir os dados da entidade no Excel e atualizá-los usando o suplemento do Excel](../../office-integration/use-excel-add-in.md).</span><span class="sxs-lookup"><span data-stu-id="01c80-140">For more information, see [Open entity data in Excel and update it by using the Excel add-in](../../office-integration/use-excel-add-in.md).</span></span>
+
+2. <span data-ttu-id="01c80-141">Defina a propriedade **IsDebugMode** como **Sim** para o projeto.</span><span class="sxs-lookup"><span data-stu-id="01c80-141">Set the **IsDebugMode** property to **Yes** for the project.</span></span>
+3. <span data-ttu-id="01c80-142">Execute o cenário que está gerando erros.</span><span class="sxs-lookup"><span data-stu-id="01c80-142">Run the scenario that is generating errors.</span></span>
+4. <span data-ttu-id="01c80-143">Os logs detalhados estão disponíveis na tabela DualWriteErrorLog.</span><span class="sxs-lookup"><span data-stu-id="01c80-143">The verbose logs are available in the DualWriteErrorLog table.</span></span> <span data-ttu-id="01c80-144">Para pesquisar dados no navegador da tabela, use a seguinte URL (substitua **XXX**, conforme apropriado):</span><span class="sxs-lookup"><span data-stu-id="01c80-144">To look up data in the table browser, use the following URL (replace **XXX** as appropriate):</span></span>
+
+    `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=>DualWriteErrorLog`
+
+## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a><span data-ttu-id="01c80-145">Verificar erros de sincronização na máquina virtual para o aplicativo Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="01c80-145">Check synchronization errors on the virtual machine for the Finance and Operations app</span></span>
+
+<span data-ttu-id="01c80-146">**Função necessária para exibir os erros:** administrador do sistema</span><span class="sxs-lookup"><span data-stu-id="01c80-146">**Required role to view the errors:** System admin</span></span>
+
+1. <span data-ttu-id="01c80-147">Entre Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="01c80-147">Sign in to Microsoft Dynamics Lifecycle Services (LCS).</span></span>
+2. <span data-ttu-id="01c80-148">Abra o projeto LCS escolhido para realizar testes de gravação dupla.</span><span class="sxs-lookup"><span data-stu-id="01c80-148">Open the LCS project that you chose to do the dual-write testing for.</span></span>
+3. <span data-ttu-id="01c80-149">Selecione o bloco **Ambientes hospedados na nuvem**.</span><span class="sxs-lookup"><span data-stu-id="01c80-149">Select the **Cloud-hosted environments** tile.</span></span>
+4. <span data-ttu-id="01c80-150">Use área de trabalho remota para fazer login na máquina virtual (VM) do aplicativo Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="01c80-150">Use Remote Desktop to sign in to the virtual machine (VM) for the Finance and Operations app.</span></span> <span data-ttu-id="01c80-151">Use a conta local que é mostrada em LCS.</span><span class="sxs-lookup"><span data-stu-id="01c80-151">Use the local account that is shown in LCS.</span></span>
+5. <span data-ttu-id="01c80-152">Abra o Visualizador de Eventos.</span><span class="sxs-lookup"><span data-stu-id="01c80-152">Open Event viewer.</span></span>
+6. <span data-ttu-id="01c80-153">Selecione **Registros de aplicativos e serviços \> Microsoft \> Dynamics \> AX-DualWriteSync \> Operacional**.</span><span class="sxs-lookup"><span data-stu-id="01c80-153">Select **Applications and Services Logs \> Microsoft \> Dynamics \> AX-DualWriteSync \> Operational**.</span></span>
+7. <span data-ttu-id="01c80-154">Revise a lista de erros recentes.</span><span class="sxs-lookup"><span data-stu-id="01c80-154">Review the list of recent errors.</span></span>
+
+## <a name="unlink-and-link-another-common-data-service-environment-from-a-finance-and-operations-app"></a><span data-ttu-id="01c80-155">Desvincular e vincular outro ambiente do Common Data Service de um aplicativo Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="01c80-155">Unlink and link another Common Data Service environment from a Finance and Operations app</span></span>
+
+<span data-ttu-id="01c80-156">**Credenciais necessárias para desvincular o ambiente:** administrador de locatário do Azure AD</span><span class="sxs-lookup"><span data-stu-id="01c80-156">**Required credentials to unlink the environment:** Azure AD tenant admin</span></span>
+
+1. <span data-ttu-id="01c80-157">Entrar no aplicativo Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="01c80-157">Sign in to the Finance and Operations app.</span></span>
+2. <span data-ttu-id="01c80-158">Vá para **Espaços de trabalho \> Gerenciamento de dados** e selecione o bloco **Gravação dupla**.</span><span class="sxs-lookup"><span data-stu-id="01c80-158">Go to **Workspaces \> Data management**, and select the **Dual Write** tile.</span></span>
+3. <span data-ttu-id="01c80-159">Selecione todos os mapeamentos em execução e selecione **Parar**.</span><span class="sxs-lookup"><span data-stu-id="01c80-159">Select all running mappings, and then select **Stop**.</span></span>
+4. <span data-ttu-id="01c80-160">Selecione **Desvincular ambiente**.</span><span class="sxs-lookup"><span data-stu-id="01c80-160">Select **Unlink environment**.</span></span>
+5. <span data-ttu-id="01c80-161">Selecione **Sim** para confirmar a operação.</span><span class="sxs-lookup"><span data-stu-id="01c80-161">Select **Yes** to confirm the operation.</span></span>
+
+<span data-ttu-id="01c80-162">Agora você pode vincular um novo ambiente.</span><span class="sxs-lookup"><span data-stu-id="01c80-162">You can now link a new environment.</span></span>

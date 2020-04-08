@@ -15,25 +15,25 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11e77d43cef8a991ed5f259819f0fffc90dc1716
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 619432ab11a54753ffea97ac549dc480f56fcaa3
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183853"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3137911"
 ---
-# <a name="service-electronic-fiscal-document-using-text-files-brazil"></a><span data-ttu-id="c96c5-103">Nota fiscal eletrônica de serviços usando arquivos de texto (Brasil)</span><span class="sxs-lookup"><span data-stu-id="c96c5-103">Service electronic fiscal document using text files (Brazil)</span></span>
+# <a name="service-electronic-fiscal-document-using-text-files-brazil"></a><span data-ttu-id="e9471-103">Nota fiscal eletrônica de serviços usando arquivos de texto (Brasil)</span><span class="sxs-lookup"><span data-stu-id="e9471-103">Service electronic fiscal document using text files (Brazil)</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="c96c5-104">Após a emissão de uma fatura de venda para um serviço na cidade de São Paulo, é possível gerar o RPS (Recibo Provisório de Serviço) de uma nota fiscal de determinado serviço que foi lançada.</span><span class="sxs-lookup"><span data-stu-id="c96c5-104">After a sales invoice for a service is issued in São Paulo city, you can generate the RPS (Recibo Provisorio de Serviço) for a given service fiscal document that has been posted.</span></span> <span data-ttu-id="c96c5-105">Este registro usa a empresa de dados de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="c96c5-105">This recording uses the BRMF demo company.</span></span>
+<span data-ttu-id="e9471-104">Após a emissão de uma fatura de venda para um serviço na cidade de São Paulo, é possível gerar o RPS (Recibo Provisório de Serviço) de uma nota fiscal de determinado serviço que foi lançada.</span><span class="sxs-lookup"><span data-stu-id="e9471-104">After a sales invoice for a service is issued in São Paulo city, you can generate the RPS (Recibo Provisorio de Serviço) for a given service fiscal document that has been posted.</span></span> <span data-ttu-id="e9471-105">Este registro usa a empresa de dados de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="e9471-105">This recording uses the BRMF demo company.</span></span>
 
-1. <span data-ttu-id="c96c5-106">Vá para Contas a receber > Tarefas periódicas > Exportação e importação de RPS > Exportar arquivo de RPS.</span><span class="sxs-lookup"><span data-stu-id="c96c5-106">Go to Accounts receivable > Periodic tasks > RPS export and import > Export RPS file.</span></span>
-2. <span data-ttu-id="c96c5-107">No campo De data, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="c96c5-107">In the From date field, enter a date.</span></span>
-3. <span data-ttu-id="c96c5-108">No campo Até, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="c96c5-108">In the To date field, enter a date.</span></span>
-4. <span data-ttu-id="c96c5-109">No campo Do cliente, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="c96c5-109">In the From customer field, enter or select a value.</span></span>
-5. <span data-ttu-id="c96c5-110">No campo Até o cliente, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="c96c5-110">In the To customer field, enter or select a value.</span></span>
-6. <span data-ttu-id="c96c5-111">No campo ID do estabelecimento fiscal, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="c96c5-111">In the Fiscal establishment ID field, enter or select a value.</span></span>
-7. <span data-ttu-id="c96c5-112">No campo Nota fiscal, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="c96c5-112">In the Fiscal document type field, enter or select a value.</span></span>
-8. <span data-ttu-id="c96c5-113">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="c96c5-113">Click OK.</span></span>
+1. <span data-ttu-id="e9471-106">Vá para Contas a receber > Tarefas periódicas > Exportação e importação de RPS > Exportar arquivo de RPS.</span><span class="sxs-lookup"><span data-stu-id="e9471-106">Go to Accounts receivable > Periodic tasks > RPS export and import > Export RPS file.</span></span>
+2. <span data-ttu-id="e9471-107">No campo De data, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="e9471-107">In the From date field, enter a date.</span></span>
+3. <span data-ttu-id="e9471-108">No campo Até, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="e9471-108">In the To date field, enter a date.</span></span>
+4. <span data-ttu-id="e9471-109">No campo Do cliente, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="e9471-109">In the From customer field, enter or select a value.</span></span>
+5. <span data-ttu-id="e9471-110">No campo Até o cliente, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="e9471-110">In the To customer field, enter or select a value.</span></span>
+6. <span data-ttu-id="e9471-111">No campo ID do estabelecimento fiscal, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="e9471-111">In the Fiscal establishment ID field, enter or select a value.</span></span>
+7. <span data-ttu-id="e9471-112">No campo Nota fiscal, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="e9471-112">In the Fiscal document type field, enter or select a value.</span></span>
+8. <span data-ttu-id="e9471-113">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="e9471-113">Click OK.</span></span>
 
