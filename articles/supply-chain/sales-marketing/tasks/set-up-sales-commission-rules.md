@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d575e609ac5289f9acb219322c9df93972e5dfc
-ms.sourcegitcommit: 25fe679b73663fda6b5b3c32646026d0993a9f00
+ms.openlocfilehash: d9036b5cbad10af725aaaf5d1d9498687c3a1d58
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "1995204"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146413"
 ---
 # <a name="set-up-sales-commission-rules"></a>Configurar regras de comissão de vendas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimento mostra como configurar e habilitar cálculo e controle de vendas. Este procedimento mostra como criar grupos de comissão de cliente e item e depois como vincular um cliente e produto selecionado aos respectivos grupos. Esses grupos são usados na configuração do cálculo da comissão para criar uma combinação de cliente, item e representantes de venda que deve ser correspondida pela ordem de venda para que os vendedores tenham direito à comissão. A criação de grupos de comissões de cliente e item é opcional, pois o cálculo da comissão também pode ser feito para um cliente e/ou item individuais. Você pode executar esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados.
 

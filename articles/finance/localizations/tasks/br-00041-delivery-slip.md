@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 83f55b3d78bd9804512b178b1d9a3cdea2cb383a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3496fd5a4d909ab52836c6c084248eb3a4df3159
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175181"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143498"
 ---
 # <a name="delivery-slips-brazil"></a>Guias de entrega (Brasil)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Você pode lançar uma guia de entrega para uma ordem de venda com várias linhas de ordem de venda com um código CFOP (Código Fiscal de Operações e Prestações). Para cada linha de ordem de venda, você deve especificar o código CFOP que tem um código CFOP de entrega atribuído a ele. Uma guia de entrega é usada quando o cliente para o qual você entrega itens difere do cliente que é faturado. (Ou seja, a conta do cliente e a conta da fatura diferem.) As guias de entrega são lançadas em ordem cronológica. É preciso anexar referências fiscais a guias de entrega antes de lançá-las. Esta tarefa usa a empresa de demonstração BRMF.
 

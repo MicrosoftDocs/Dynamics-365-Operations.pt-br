@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d78d59c4fcc22d58138073c90b9c644fb4e1bb01
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a2d0eab7e1a619d25820a10b07739e025553afb0
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183879"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138382"
 ---
 # <a name="fiscal-establishment-tax-attributes-brazil"></a>Atributos de imposto de estabelecimento fiscal (Brasil)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Use este procedimento para criar um ou mais estabelecimentos fiscais para uma entidade legal. Um estabelecimento fiscal requer um número de inscrição fiscal no CNPJ (Cadastro Nacional da Pessoa Jurídica) ou IE (Inscrição Estadual). Você pode agrupar estabelecimentos fiscais e configurar grupos de impostos para cada grupo de estabelecimentos fiscais na página Matriz de impostos. Esta tarefa usa a empresa de demonstração BRMF.
 

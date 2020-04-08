@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18991f5db3b4dbc8fe977dcbc1fd2ca0e77eeb2a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8223da04c91eabbb469a0a373d787ac905fd49f2
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183878"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138383"
 ---
 # <a name="receive-vendor-fiscal-documents-fixed-assets---pis-and-cofins-long-term-recoverable-brazil"></a>Receber notas fiscais de fornecedor (ativos fixos - PIS e COFINS recuperáveis a longo prazo) (Brasil)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Você pode lançar uma nota fiscal recebida da aquisição dos ativos fixos. Você pode recuperar o ICMS ou o PIS/COFINS, ou ambos. Você também pode recuperar mensalmente prestações de reembolso. Esses valores são usados para deduzir o valor devido durante a apuração de imposto. Esta tarefa usa a empresa de demonstração BRMF.
 

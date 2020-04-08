@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4ff8913f36ee9e9a3090f7f499868367e91e44d1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fdcb0ee14fbfa9523ce5831e6375d3d1b9881067
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174725"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138266"
 ---
 # <a name="issue-customer-fiscal-documents-fixed-assets-brazil"></a>Emitir notas fiscais para clientes (ativos fixos) (Brasil)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 É possível emitir uma nota fiscal a um cliente que adquiriu ativo fixo do estabelecimento fiscal. Nesse caso, a nota fiscal é emitida a partir da fatura de texto livre. Este registro usa a empresa de dados de demonstração BRMF.
 

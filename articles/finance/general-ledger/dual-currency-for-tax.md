@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 1ba4d09240888f0c533fb07614e75ffecea0742c
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 863403dc3b2444f00f0cac27a494fc49d3d70de7
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124084"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161583"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Suporte a moeda dupla para imposto
 [!include [banner](../includes/banner.md)]
@@ -34,7 +34,7 @@ O recurso de moeda dupla do Dynamics 365 Finance foi introduzido na versão 8.1 
 
 Nas versões anteriores, as transações eram convertidas para a moeda do relatório na seguinte sequência: 
 
-O total da transação foi calculado na moeda da transação > O valor da transação foi convertido para a moeda contábil > O valor da moeda contábil foi convertido para a moeda do relatório
+- O total da transação foi calculado na moeda da transação > O valor da transação foi convertido para a moeda contábil > O valor da moeda contábil foi convertido para a moeda do relatório
 
 Depois de habilitar o recurso de moeda dupla, as transações foram convertidas para a moeda do relatório na seguinte sequência:
 
@@ -48,8 +48,6 @@ Como consequência do suporte para moedas duplas, dois novos recursos estão dis
 - Saldo automático de liquidação de imposto na moeda do relatório (liberação na versão 10.0.11)
 
 O suporte de moeda dupla para impostos garante que os impostos sejam calculados com precisão na moeda do imposto e que o saldo de liquidação do imposto seja calculado com precisão na moeda contábil e na moeda de relatório. 
-
-Os novos recursos estão atualmente habilitados para clientes de visualização privada. Para habilitar os recursos, envie uma solicitação de serviço pelos canais correspondentes à Microsoft.
 
 ## <a name="sales-tax-conversion"></a>Conversão de imposto
 

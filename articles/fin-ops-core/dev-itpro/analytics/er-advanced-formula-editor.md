@@ -3,7 +3,7 @@ title: Editor de fórmula avançado do Relatório eletrônico
 description: Este tópico descreve como o editor de fórmula avançado pode ser usado para configurar expressões em componentes de formato e mapeamento de modelo do ER (Relatório eletrônico).
 author: NickSelin
 manager: AnnBe
-ms.date: 01/22/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: d183f77da1dda0c4f04e4e48ab3db0133f494a55
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: df402bc20753d2ba14295592f4b40e20f9fdc7bf
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015108"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138889"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Editor de fórmula avançado do Relatório eletrônico
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Além do [editor de fórmula](general-electronic-reporting-formula-designer.md) do [Relatório eletrônico](general-electronic-reporting.md), você pode usar o editor de fórmula avançado do Relatório eletrônico para aprimorar a experiência de configuração das expressões de ER (Relatório eletrônico). O editor avançado é baseado em navegador e conta com a tecnologia do [Monaco Editor](https://microsoft.github.io/monaco-editor). Os recursos do editor avançado usados com mais frequência são descritos neste tópico:
 
@@ -42,7 +40,7 @@ Além do [editor de fórmula](general-electronic-reporting-formula-designer.md) 
 - [Colagem de dados](#DataPasting)
 - [Colorização da sintaxe](#SyntaxColorization)
 
-## <a name="ActivateAdvEditor">Ativar o editor de fórmula avançado</a>
+## <a name=""></a><a name="ActivateAdvEditor">Ativar o editor de fórmula avançado</a>
 
 Conclua as etapas a seguir para começar a usar o editor de fórmula avançado em sua instância do Microsoft Dynamics 365 Finance.
 
@@ -55,7 +53,7 @@ Conclua as etapas a seguir para começar a usar o editor de fórmula avançado e
 > [!NOTE]
 > Lembre-se de que esse parâmetro é específico do usuário e da empresa.
 
-## <a name="Autoformatting">Autoformatação de código</a>
+## <a name=""></a><a name="Autoformatting">Autoformatação de código</a>
 
 Quando você escreve uma expressão complexa que consiste em várias linhas de código, o recuo de uma nova linha inserida será automático com base no recuo da linha anterior. Você pode selecionar linhas e alterar o respectivo recuo digitando **Tab** ou **Shift+Tab**.
 
@@ -63,13 +61,13 @@ Quando você escreve uma expressão complexa que consiste em várias linhas de c
 
 A Autoformatação permite manter toda a expressão formatada de modo a facilitar a manutenção adicional e simplificar a compreensão da lógica configurada.
 
-## <a name="IntelliSense">IntelliSense</a>
+## <a name=""></a><a name="IntelliSense">IntelliSense</a>
 
 O editor fornece o preenchimento de palavras, que ajuda você a escrever expressões mais rapidamente e a evitar erros de digitação. Quando você começa a adicionar um novo texto, o editor oferece automaticamente uma lista de funções aceitas nas funções do ER que contêm os caracteres inseridos. Também é possível disparar o IntelliSense em qualquer lugar de uma expressão configurada digitando **CTRL + espaço**.
 
 [![Editor de fórmula do ER](./media/ER-AdvEditor-Intelisense.gif)](./media/ER-AdvEditor-Intelisense.gif)
 
-## <a name="CodeCompletion">Preenchimento de código</a>
+## <a name=""></a><a name="CodeCompletion">Preenchimento de código</a>
 
 O editor fornece automaticamente o preenchimento de código com a:
 
@@ -81,7 +79,7 @@ O editor fornece automaticamente o preenchimento de código com a:
 
 Quando você aponta para o colchete digitado, o segundo colchete deste par é realçado automaticamente para mostrar a construção permitida.
 
-## <a name="CodeNavigation">Navegação de código</a>
+## <a name=""></a><a name="CodeNavigation">Navegação de código</a>
 
 Você pode localizar linhas ou símbolos necessários em sua expressão digitando o comando **Ir para** usando a paleta de comandos ou o menu de contexto.
 
@@ -95,7 +93,7 @@ Por exemplo, para pular para a linha **8**, faça o seguinte:
 
 [![Editor de fórmula do ER](./media/ER-AdvEditor-Goto.gif)](./media/ER-AdvEditor-Goto.gif)
 
-## <a name="CodeStructuring">Estruturação de código</a>
+## <a name=""></a><a name="CodeStructuring">Estruturação de código</a>
 
 O código para algumas funções, como [IF](er-functions-logical-if.md) ou [CASE](er-functions-logical-case.md), é estruturado automaticamente. Você pode expandir e recolher qualquer uma das regiões de dobra deste código para reduzir a parte editável de uma expressão a fim de focar somente na parte do código que requer sua atenção. Os comandos de alternância entre dobrar/desdobrar podem ser usados para isso.
 
@@ -117,7 +115,7 @@ Para desdobrar todas as regiões, faça o seguinte:
 
 [![Editor de fórmula do ER](./media/ER-AdvEditor-ToggleFold.gif)](./media/ER-AdvEditor-ToggleFold.gif)
 
-## <a name="FindAndReplace">Localizar e substituir</a>
+## <a name=""></a><a name="FindAndReplace">Localizar e substituir</a>
 
 Para encontrar ocorrências de determinado texto, selecione o texto na expressão e faça o seguinte:
 
@@ -145,13 +143,13 @@ Para alterar todas as ocorrências de um determinado texto, selecione o texto na
 
 [![Editor de fórmula do ER](./media/ER-AdvEditor-Find.gif)](./media/ER-AdvEditor-Find.gif)
 
-## <a name="DataPasting">Colagem de funções e fontes de dados</a>
+## <a name=""></a><a name="DataPasting">Colagem de funções e fontes de dados</a>
 
 Você pode selecionar **Adicionar fonte de dados**, que cola na expressão atual uma fonte de dados que está atualmente selecionada no painel esquerdo **Fonte de dados**. Da mesma forma, é possível selecionar **Adicionar função**, que cola na expressão atual uma função que está atualmente selecionada no painel direito **Funções**. Se você usar o editor de fórmula do ER, uma função selecionada ou uma fonte de dados selecionada sempre será colada no final da expressão configurada. Quando você usa o editor de fórmula avançado do ER, uma função selecionada ou uma fonte de dados selecionada pode ser colada em qualquer parte da expressão configurada. Será necessário usar o cursor para especificar onde deseja colar os dados.
 
 [![Editor de fórmula do ER](./media/ER-AdvEditor-PasteValue.gif)](./media/ER-AdvEditor-PasteValue.gif)
 
-## <a name="SyntaxColorization">Colorização da sintaxe</a>
+## <a name=""></a><a name="SyntaxColorization">Colorização da sintaxe</a>
 
 Atualmente, diferentes cores são usadas para realçar as seguintes partes das expressões:
 

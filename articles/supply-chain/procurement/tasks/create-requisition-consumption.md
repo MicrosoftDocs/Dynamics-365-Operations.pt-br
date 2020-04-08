@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2948282d8b40f7d34ffbae072a195cf954ab6e2
-ms.sourcegitcommit: 81e6eaa2178fda7f7d086ad978f4c891bc4ec10a
+ms.openlocfilehash: 6ca44b4793f61d1067b9e0740b9a447d3a2363c2
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "1738895"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147379"
 ---
 # <a name="create-a-requisition-for-consumption"></a>Criar uma requisição para consumo
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este tópico descreve o processo de criação de uma requisição. Mostra as diferentes formas de pesquisar por produtos no catálogo de aquisições e como adicionar um produto que não está no catálogo. Antes de iniciar esse procedimento, você deve ter uma política de compras configurada com Consumo como o tipo padrão de requisição. Você pode ver todo esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados. O procedimento só pode ser realizado por um perfil de usuário configurado como funcionário. Essa tarefa é normalmente realizada por um funcionário. O **Funcionário** usa função de segurança irá permitir que você realize as tarefas. Ou, se você estiver usando USMF, poderá fazer logon como **Alicia**.
 

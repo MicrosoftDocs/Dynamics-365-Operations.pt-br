@@ -3,7 +3,7 @@ title: Módulo de caixa de compra
 description: Este tópico abrange os módulos de caixa de compra e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 13d044a150651dd18c3a09c4db6a783fe8f42287
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 3417156cbf3cb20a5190e5e51b61b3423816895a
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025450"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154054"
 ---
 # <a name="buy-box-module"></a>Módulo de caixa de compra
 
@@ -58,7 +58,7 @@ Os temas podem ser usados para remover ou alterar a ordem das propriedades do pr
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Módulos que podem ser usados em um módulo de caixa de compra
 
 - **Galeria de mídia** – Este módulo é usado para mostrar imagens de um produto em uma página de detalhes do produto. Ele permite uma a muitas imagens. Ele também permite imagens em miniatura. As imagens em miniatura podem ser organizadas horizontalmente (como uma linha abaixo da imagem) ou verticalmente (como uma coluna ao lado da imagem). O módulo da galeria de mídia pode ser adicionado ao slot **Mídia** no módulo da caixa de compra. Atualmente, ele é compatível apenas com imagens. 
-- **Seletor de loja** – Este módulo mostra uma lista de lojas próximas, onde um item está disponível para retirada. Ele permite que os usuários insiram um local para encontrar lojas próximas. O módulo de seletor de loja é integrado à interface de programação de aplicativos (API) de Geocodificação do Bing Mapas para converter o local em latitude e longitude. Uma chave de API do Bing Mapas é necessária e deve ser adicionada à página parâmetros compartilhados de Varejo no Dynamics 365 Retail. Este módulo oferece suporte a duas propriedades **Raio de pesquisa,** e **Link dos Termos de Serviço**. A propriedade **Raio de pesquisa** define o raio da pesquisa para lojas, em milhas. Se nenhum valor for especificado, será usado o raio de pesquisa padrão, 50 milhas. Se o Bing Mapas ou qualquer serviço externo for usado, a propriedade **Link dos Termos de Serviço** poderá ser usada para fornecer um link para os termos de serviço. É necessário um link dos termos de serviço para o serviço Bing Mapas. 
+- **Seletor de loja** – Este módulo mostra uma lista de lojas próximas, onde um item está disponível para retirada. Ele permite que os usuários insiram um local para encontrar lojas próximas. Para obter mais informações sobre este módulo, consulte [Módulo do seletor de armazenamento](store-selector.md).
 
 ## <a name="buy-box-module-settings"></a>Configurações do módulo de caixa de compra
 
@@ -92,6 +92,8 @@ Para adicionar um módulo de caixa de compra a uma nova página e definir as pro
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral do kit de início](starter-kit-overview.md)
+
+[Módulo seletor de armazenamento](store-selector.md)
 
 [Módulo de contêiner](add-container-module.md)
 

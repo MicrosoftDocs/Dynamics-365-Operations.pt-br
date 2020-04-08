@@ -3,7 +3,7 @@ title: Criar documentação ou treinamento com o Gravador de tarefas
 description: Este tópico explica o que são o gravador de tarefas e os guias de tarefas, como criar gravações de tarefas e como personalizar guias de tarefas da Microsoft e incluí-los na sua Ajuda.
 author: josaw1
 manager: AnnBe
-ms.date: 10/24/2017
+ms.date: 03/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 268b95aad57c2e4863a3f58cd54828dbb0e09465
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 927f6475e60b5b93aac0e0c2840cb0b4fc7f0ac8
+ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006186"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3164549"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Criar documentação ou treinamento com o Gravador de tarefas
 
@@ -40,8 +40,6 @@ Este tópico explica o que são o gravador de tarefas e os guias de tarefas, com
 O gravador de tarefas é uma ferramenta que você pode usar para gravar ações que você leva na interface do usuário do produto (UI). Quando você utiliza o Gravador de tarefas, todos os eventos executados na UI que são executados em relação ao servidor—incluindo adicionar valores, alterar configurações, remover dados—são capturados. As etapas que você registra são chamadas coletivamente de *gravação de tarefa*. Gravações de tarefas podem ser utilizadas de diversas maneiras:
 
 -   **Gravações de tarefas podem ser executadas como guias de tarefas.** As guias de tarefas são parte integrante da experiência de ajuda. Uma guia de tarefas é uma experiência controlada, guiada e interativa por meio de etapas de um processo de negócios. O usuário é instruído na conclusão de cada etapa por meio de um lembrete pop-up (ou "bolha"), que será animado ao longo da UI e irá apontar para o elemento com o qual o usuário deve interagir. A "bolha" também fornece informações sobre como interagir com o elemento, como "Clique aqui" ou "Neste campo, insira um valor". Uma guia de tarefas é executada no conjunto de dados atual do usuário e os dados inseridos são salvos no ambiente do usuário.
--   **Gravações de tarefas podem ser exibidas como etapas de procedimento no painel de ajuda.** Você pode usar o painel de ajuda para pesquisar e exibir gravações de tarefas. Você pode acessar o painel de Ajuda clicando em **?** ícone na barra de navegação superior ou você pode usar a combinação de teclas de atalho **Ctrl+Shift+?**. Você pode ler as etapas de uma gravação de tarefa no painel de ajuda, ou você pode optar por executar a gravação como um guia de tarefa para que ele te apresente a UI.
--   **Gravações de tarefas podem ser salvas no BPM.** É possível salvar sua gravação de tarefa em uma linha de uma hierarquia em uma biblioteca do BPM no LCS (Lifecycle Services). Uma lista de etapas e um fluxograma do processo comercial serão gerados a partir da gravação. As gravações de tarefas que foram salvas em uma biblioteca BPM podem ser exibidas como Ajuda.
 -   **Gravações de tarefas podem ser salvas como documentos do Word.** Isso permite que você produza facilmente guias de treinamento imprimíveis.
 
 Você pode criar suas próprias gravações de tarefas, executar gravações de tarefas disponibilizadas pela Microsoft ou modificá-las para refletir a sua configuração. Para obter mais informações sobre o gravador de tarefas, consulte [Gravador de tarefas](task-recorder.md).
@@ -114,8 +112,7 @@ Você pode baixar e editar gravações de tarefas da Microsoft para utilizá-las
 10. Assim que a gravação for executado até o final, clique em **Parar** na barra do gravador de tarefas na parte superior da tela.
 11. Escolha como você deseja salvar a gravação de tarefa.
 
-## <a name="include-your-task-recordings-in-the-help-pane"></a>Incluir suas gravações de tarefas no painel de ajuda
-Para mostrar suas próprias gravações de tarefas personalizadas no painel de ajuda para que possam ser executadas novamente como guias de tarefas ou visualizadas como texto, você deve salvar suas gravações de tarefas à sua própria biblioteca do BPM, e então atualizar os parâmetros do seu sistema de ajuda para que ele aponte para sua biblioteca do BPM. Para obter mais informações, consulte [Conectar-se ao sistema da Ajuda](../../fin-ops/get-started/help-connect.md).
+
 
 <a name="additional-resources"></a>Recursos adicionais
 --------

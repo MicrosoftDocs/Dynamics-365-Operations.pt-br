@@ -3,7 +3,7 @@ title: Habilitar recomendações de produtos personalizados
 description: Este tópico descreve como disponibilizar recomendações de produtos personalizados para clientes no Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 03/12/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bdb56a1f45cdea1832bd269502e534efdb207b03
-ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
+ms.openlocfilehash: 9b847a67306861052a360e0137e2e257b056888e
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3127896"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154263"
 ---
 # <a name="enable-personalized-recommendations"></a>Habilitar recomendações personalizadas
 
@@ -112,11 +112,9 @@ Para aplicar a personalização a uma lista de recomendação existente no Comme
 
 [Habilitar ADLS em um ambiente do Dynamics 365 Commerce](enable-adls-environment.md)
 
-[Habilitar recomendações de produtos](enable-product-recommendations.md)
+[Habilitar recomendações dos produtos](enable-product-recommendations.md)
 
-[Cancelar recomendações personalizados](personalization-gdpr.md)
-
-[Adicionar listas de recomendações a um site de comércio eletrônico](add-reco-list-to-page.md)
+[Cancelar recomendações personalizadas](personalization-gdpr.md)
 
 [Adicionar recomendações de produtos no PDV](product.md)
 

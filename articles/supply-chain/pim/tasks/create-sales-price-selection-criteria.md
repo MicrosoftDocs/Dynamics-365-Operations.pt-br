@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72940f719baca5e8042c2f2caa8abbacb7d8264e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ed8c60b188b7c7090546e8367455e0f58ce9359b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844480"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147677"
 ---
 # <a name="create-sales-price-selection-criteria"></a>Criar critérios de seleção de preço de venda
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimento mostra como criar um critério de seleção preço de venda para modelos de preço de vendas baseado em atributo. Este procedimento exige que pelo menos um modelo de preço de vendas esteja disponível. Este exemplo usa o modelo de preço para o modelo de preço de vendas de solução do Palestrante na empresa de dados demo USMF. Normalmente, um gerente de produto usa este procedimento.
 
@@ -37,7 +37,7 @@ Este procedimento mostra como criar um critério de seleção preço de venda pa
 4. No Painel de Ação, clique em Modelo.
 5. Clique em Critério de modelo de preço.
 6. Clique em Novo.
-7. No campo Nome, digite 'Grupo de clientes 10'.
+7. No campo Nome, digite "Grupo de clientes 10".
     * O nome do critério de modelo de preço é usado para ajudar a identificar os critérios de seleção subjacentes.  
 8. No campo Modelo de preço, insira ou selecione um valor.
 9. No campo Tipo de ordem, selecione Ordem de venda.

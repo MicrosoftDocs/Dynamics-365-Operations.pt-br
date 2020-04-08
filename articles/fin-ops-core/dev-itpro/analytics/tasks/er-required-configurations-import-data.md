@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 48a327fc5033a7478d2ae5e401ffdce6e4546ad0
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 33d3f3773fdba4b704deeca48874b10958e2ea4e
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042864"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143306"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Criar configurações necessárias para importar os dados de um arquivo externo
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 As etapas a seguir explicam como um usuário na função de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar configurações de relatório eletrônico (ER) para importar dados para o aplicativo, partindo de um arquivo externo. Neste exemplo, você criará as configurações de ER necessárias para a empresa exemplo, Litware, Inc. Para concluir estas etapas, você deverá primeiramente concluir as etapas no Guia da tarefas, "ER Criar um provedor configuração" e marcá-lo como ativo. Estas etapas podem ser concluídas usando o conjunto de dados de USMF. Você também deve baixar e salvar os seguintes arquivos localmente usando os links do tópico da visão geral do Relatório eletrônico (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml e 1099entries.xlsx.
 
@@ -36,7 +36,7 @@ O cenário a seguir mostra os recursos da importação de dados de ER. Isso incl
 ## <a name="add-a-new-er-model-configuration"></a>Adicionar uma nova configuração de modelo de ER
 1. Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.
 
-    Verifique se o provedor de configuração para a empresa exemplo 'Litware, Inc.' está disponível e marcado como ativo. Se não visualizar este provedor de configuração, você deve primeiro concluir as etapas do procedimento "Criar um provedor de configuração e marcá-lo como ativo".   
+    Verifique se o provedor de configuração para a empresa exemplo "Litware, Inc." está disponível e marcado como ativo. Se não visualizar este provedor de configuração, você deve primeiro concluir as etapas do procedimento "Criar um provedor de configuração e marcá-lo como ativo".   
 
 2. Clique em Configurações de relatórios.
 
@@ -89,7 +89,7 @@ As etapas nesta subtarefa mostram como uma nova configuração de formato pode s
 ## <a name="review-the-settings-of-the-format-mapping-to-the-data-model"></a>Revise as configurações do mapeamento de formato para o modelo de dados
 1. Clique em Mapear formato para modelo.
 
-    O mapeamento “Para importar as transações de fornecedores" contém as regras de transferência de dados do arquivo XML de entrada para a parte selecionada do modelo de dados personalizado, que é estabelecido na definição 1099-MISC.  
+    O mapeamento "Para importar as transações de fornecedores" contém as regras de transferência de dados do arquivo XML de entrada para a parte selecionada do modelo de dados personalizado, que é estabelecido na definição 1099-MISC.  
 
 2. Clique em Designer.
 3. Ative "Mostrar detalhes".
@@ -107,7 +107,7 @@ As etapas nesta subtarefa mostram como uma nova configuração de formato pode s
     Observe que a apresentação de elementos obrigatórios e opcionais de formato é diferente no componente da fonte de dados do "formato" predefinido.  
 11. Na árvore, expanda "Transações: Lista de registros = format.settlement.'$enumerated''.
 
-    Observe que os elementos de formato que definem a estrutura do arquivo importado estão associados aos elementos do modelo de dados personalizado. Com base nessas associações, o conteúdo do arquivo XML importado será armazenado no tempo de execução no modelo de dados existente. Preste atenção na associação do elemento do país. Para qualquer elemento de transação no arquivo de entrada que não tem esse elemento, o código de país padrão "USA" será preenchido no modelo de dados.  
+    Observe que os elementos de formato que definem a estrutura do arquivo importado estão associados aos elementos do modelo de dados personalizado. Com base nessas associações, o conteúdo do arquivo XML importado será armazenado no tempo de execução no modelo de dados existente. Preste atenção na associação do elemento do país. Para qualquer elemento de transação no arquivo de entrada que não tenha esse elemento, o código de país padrão "EUA" será preenchido no modelo de dados.  
 
 12. Clique na guia Validações.
 
@@ -148,7 +148,7 @@ Execute este mapeamento de formato para fins de teste. Use o arquivo 1099entries
 8. Clique em Editar.
 9. Clique em Editar fórmula.
 
-    Quando pelo menos uma validação falha para uma única transação importada, esta transação será marcada como falha pelo atributo de fonte de dados “$failed".  
+    Quando pelo menos uma validação falha para uma única transação importada, esta transação será marcada como falha pelo atributo de fonte de dados "$failed".  
 
 10. Feche a página.
 11. Clique em Cancelar.
@@ -237,7 +237,7 @@ Execute este mapeamento de formato para fins de teste. Use o arquivo 1099entries
 19. Feche a página.
 20. Clique em Editar.
 
-    Se você instalou o hotfix “KB 4012871 Suporte de mapeamentos de modelo de GER em configurações separadas com uma capacidade de especificar diferentes tipos de pré-requisitos para implantar em diferentes versões do Dynamics 365 Finance” (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), execute a próxima etapa “Ativar o sinalizador ‘Padrão do mapeamento de modelo’” para a configuração de formato inserida. Caso contrário, ignore a próxima etapa.  
+    Se você instalou o hotfix "KB 4012871 Suporte de mapeamentos de modelo de GER em configurações separadas com uma capacidade de especificar diferentes tipos de pré-requisitos para implantar em diferentes versões do Dynamics 365 Finance" (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), execute a próxima etapa "Ativar o sinalizador 'Padrão do mapeamento de modelo'" para a configuração de formato inserida. Caso contrário, ignore a próxima etapa.  
 
 21. Selecione Sim no campo Padrão do mapeamento de modelo.
 22. Na árvore, selecione "Modelo de pagamento 1099".

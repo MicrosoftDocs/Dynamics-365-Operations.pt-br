@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8269e5119e45522373eca6cb8fb06bfb94a37566
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5155ada23fe4f559c79964e6bd10d86712009d1d
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845561"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145753"
 ---
 # <a name="correct-inventory-tracking-information"></a>Corrigir informações de rastreamento de estoque
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimento apresenta o processo de criação e lançamento de um diário de transferência de estoque para corrigir informações de rastreamento de estoque. Neste exemplo, vamos atualizar as informações de um item controlado por lote alterando um lote registrado incorretamente em outro lote. Você pode ver todo esse procedimento na empresa de dados de demonstração USPI, ou usando seus próprios dados. Se você usar seus próprios dados, precisará ter um item habilitado por lote, e não deve ser controlado por localização. Você também precisa ter um nome do diário de estoque configurado para transferências de estoque. Essas tarefas normalmente seriam realizadas por um funcionário do depósito.
 

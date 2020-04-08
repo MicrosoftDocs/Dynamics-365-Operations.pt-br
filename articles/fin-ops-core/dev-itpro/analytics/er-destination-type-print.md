@@ -3,7 +3,7 @@ title: Tipo de destino de ER da impressora
 description: Este tópico explica como você pode configurar um destino de impressora para cada componente de ARQUIVO ou PASTA de um formato de ER (Relatório eletrônico) configurado para gerar documentos de saída em PDF ou formatos do Microsoft Office (Excel\Word).
 author: NickSelin
 manager: AnnBe
-ms.date: 01/16/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 58e067baa130458e3a8e788d978604f208140a03
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 148da191ce4ea99c237895c40ec007a1aa0cd537
+ms.sourcegitcommit: 0d9ca44b48fb2e33d8160faccc1e6bd932e58934
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019627"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150783"
 ---
-# <a name="PrinterDestinationType"></a>Destino da impressora
+# <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Destino da impressora
 
 [!include [banner](../includes/banner.md)]
 
@@ -64,6 +64,8 @@ O destino da **Impressora** é implementado somente para implantações em nuvem
 
 > [!NOTE]
 > A opção **Converter em PDF** não precisa ser ativada quando você configura o destino da **Impressora**. A conversão em PDF para fins de impressão ocorrerá mesmo que a opção seja desativada.
+
+Para usar uma [orientação de página](electronic-reporting-destinations.md#SelectPdfPageOrientation) específica ao imprimir um documento de saída no formato Excel, você deve ativar a opção **Converter para PDF**. Quando você definir a opção **Converter para PDF** como **Sim**, o campo **Orientação da página** ficará disponível. No campo **Orientação da página**, você pode selecionar uma orientação de página.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

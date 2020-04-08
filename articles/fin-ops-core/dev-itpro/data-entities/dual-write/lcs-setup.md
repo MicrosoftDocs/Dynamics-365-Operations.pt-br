@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 75765c0cc03c64030fac6bc656f57a143828b85b
-ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
+ms.openlocfilehash: c78752aa1544b12f61071fa06617af4ac2809233
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2020
-ms.locfileid: "3112389"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172983"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Configuração de gravação dupla do Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+[!include [preview-banner](../../includes/preview-banner.md)]
 
 Este tópico explica como configurar uma conexão de gravação dupla entre um novo ambiente do Finance and Operations e um novo ambiente do Common Data Service a partir do Microsoft Dynamics Lifecycle Services (LCS).
 

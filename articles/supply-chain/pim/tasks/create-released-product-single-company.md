@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f4a34a03dc5bb3cec37bbccdf913bee5088af6a0
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: c5306d41ab91213fdc7de0d3dd23d6845c5b8657
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844600"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147724"
 ---
 # <a name="create-a-released-product-for-a-single-company"></a>Criar um produto lançado para uma única empresa
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimento demonstra como criar um único produto lançado no contexto de uma unidade legal única. Depois que o produto lançado é criado, ele está imediatamente disponível somente nessa unidade. Você pode explorar esse procedimento na empresa de dados demonstrativos USMF. Esta tarefa é executada geralmente por um designer de produto.
 

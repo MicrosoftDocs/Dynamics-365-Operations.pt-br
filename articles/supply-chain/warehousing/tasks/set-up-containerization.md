@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ba435ee145a8516391d7864bdfe338b0f3862f49
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: f9dbf62e1c518b0cd77da693127588a04f17d622
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847198"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148253"
 ---
 # <a name="set-up-containerization"></a>Configurar transporte em contêineres
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este tópico descreve como automatizar o transporte de cargas em contêineres no Gerenciamento de depósito. O posicionamento em contentores automatizado cria contêiner e o trabalho de separação para remessas quando uma onda é processada e linhas do trabalho pode ser dividida nas quantidades que atendam aos contêineres. Isso ajuda trabalhadores de depósito a separarem os itens diretamente no contêiner selecionado. Em comparação com o processo manual de embalagem, as tarefas como criar contêiner, atribuir itens e fechar contêiner são automatizadas pelo sistema. Este procedimento usa a empresa de demonstração USMF e é realizado por um gerente de depósito.
 

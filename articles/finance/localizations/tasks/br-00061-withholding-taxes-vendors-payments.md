@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b7da44bff495a6aef217d2d3165c3d7a4ef03dc
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a1fa7dfb1627c6810a8272544d0118cea3045464
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174731"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138298"
 ---
 # <a name="withholding-taxes-on-vendor-payments-brazil"></a>Impostos retidos na fonte em pagamentos de fornecedores (Brasil)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Você pode usar a página Comprovante de diário para inserir e lançar pagamentos que você fizer a um fornecedor para a compra de itens ou serviços. Quando você lança um diário de pagamentos do fornecedor, o grupo de impostos retidos na fonte que está configurado para o fornecedor é usado para calcular o imposto retido na fonte na transação. Esta tarefa usa a empresa de demonstração BRMF.
 

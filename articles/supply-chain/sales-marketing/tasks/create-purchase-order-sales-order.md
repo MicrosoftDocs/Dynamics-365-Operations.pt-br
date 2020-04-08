@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b346731ec80d08afabe648e1b47b30b53b29e744
-ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
+ms.openlocfilehash: 30ffb34e2aee984d29bedb47d6bfc9cb6173470a
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "1924392"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148667"
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>Criar uma ordem de compra a partir de uma ordem de venda
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimento mostra como criar uma ordem de compra que é baseada em uma ordem de venda. As quantidades do produto na ordem de compra são designadas para atender a demanda da ordem de venda original. Atender a demanda de vendas desta forma é uma alternativa a um método mais abrangente e mais otimizado de Planejamento de requisitos de distribuição. Você pode executar esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados.
 

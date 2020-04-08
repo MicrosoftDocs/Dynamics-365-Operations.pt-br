@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 10e7018c79e54841d0729636b08ad475a94d20d5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 135cca434a1689bf22ee468894dcf8746071e7ca
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185948"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144688"
 ---
 # <a name="set-up-withholding-tax"></a>Configurar imposto retido na fonte
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este tópico explica como configurar o imposto retido na fonte. O *imposto retido na fonte* é um imposto cobrado dos fornecedores, o que não cria transações de imposto. O imposto retido na fonte calculado sobre os pagamentos do fornecedor é um passivo. Por isso, apenas contas de balanço ou de passivos são contas válidas para o lançamento do imposto retido na fonte. Essa guia da tarefa demonstra como definir a retenção de imposto.
 

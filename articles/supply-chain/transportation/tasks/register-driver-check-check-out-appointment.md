@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 65227bb05bcbe0ba0d62100fecfb6aa0a49330f6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 8e57ca517ff90036408715fdc3f511b524cb709e
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836204"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146344"
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a>Registrar check-in e check-out do motorista para um compromisso
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimento mostra como registrar um check-in e o check-out do driver. Isso normalmente é feito por um coordenador de transporte. Você pode usar este procedimento na empresa USMF de dados de demonstração. Antes de começar, deve haver um compromisso configurado para um custo indireto. Para criar um compromisso, você pode executar o procedimento "Definir um compromisso para uma carga" como um pré-requisito.
 

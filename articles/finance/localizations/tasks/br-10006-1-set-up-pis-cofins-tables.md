@@ -15,16 +15,16 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b66eeee861adb22481179145046f841aa8d905c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9d27547b640e77ac42680a2028f7e4da545542a1
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174718"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3137964"
 ---
 # <a name="set-up-pis-and-cofins-tables-brazil"></a>Configurar tabelas de PIS e COFINS (Brasil)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Antes da apuração de imposto PIS e COFINS ser criada, você deve configurar as tabelas da fonte de crédito e do tipo de crédito. Como referência, você deve usar as tabelas 4.3.7 e 4.3.6 que são publicadas pela autoridade fiscal. Esta tarefa usa a empresa de demonstração BRMF.
 

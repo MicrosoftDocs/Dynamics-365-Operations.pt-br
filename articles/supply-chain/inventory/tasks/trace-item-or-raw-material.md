@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: pjacobse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fe0fd9a7c27efb71f15cca9d3a0341b550bf9698
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: ba64093dfe9ca28108456641ad17b5eda23d7f49
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916659"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148194"
 ---
 # <a name="trace-an-item-or-raw-material"></a>Rastrear um item ou uma matéria-prima
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimento demonstra como usar o rastreamento de itens para identificar onde itens ou matérias-primas foram usados ou estão sendo usados. Com esse procedimento, você pode identificar um item, rastreá-lo até sua origem e encaminhá-lo por meio da produção e venda do produto finalizado. O processo pode ser usado para investigar os clientes impactados, as ordens de venda afetadas etc. Este procedimento usa a empresa de dados de demonstração USP2.
 
@@ -48,7 +48,7 @@ O nó superior da árvore representa a quantidade disponível do item e lote sel
     Expanda: 'P9100 / 1 / 10 / como-12-344-01 ● 2 keg ● 7.00 gal  \P9100 ● Separado ● Ordem de venda 000072 ● 12/22/2015 ● -1 keg ● -4.00 gal ● Local=1, Depósito=10, Número do lote=as-12-344-01  \P9100 ● Produção B-000050 ● 12/9/2015● 7 keg ● 27.00 gal ● Local=1,Depósito=10, Número de lote=as-12-344-01 ● Coprodutos: P9101' e então selecione esse nó.     
 2. Na árvore, expanda "o nó descrito abaixo e selecione aquele nó".
     
-    A partir do nó que você acabou de selecionar, expanda 'M9103 ● Linha de produção B-000050 ● 12/9/2015 ● -160.00 libras ● Tamanho=70, Cor=OK, Local=1, Depósito=10, Número de lote=App01' e então selecione o nó.  
+    A partir do nó que você acabou de selecionar, expanda "M9103 ● Linha de produção B-000050 ● 12/9/2015 ● -160,00 libras ● Tamanho=70, Cor=OK, Local=1, Depósito=10, Número de lote=App01" e então selecione o nó.  
 3. Clique em **Rastreamento a partir do nó**.
 4. Clique em **Encaminhar**.
 5. No **Painel de Ação**, clique em **Rastreamento**.

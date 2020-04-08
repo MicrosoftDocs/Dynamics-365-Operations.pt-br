@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd51fa667fd48b7bab64c3566b616631c6f9bcd1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: df8552aab5f1566dccf0b905c2d5db372671ec09
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249623"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144102"
 ---
 # <a name="cost-management-home-page"></a>Página inicial de gerenciamento de custos
 
@@ -32,12 +32,13 @@ ms.locfileid: "2249623"
 
 [Gerenciamento de custos (vídeo)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) permite que você trabalhe com a avaliação e a contabilidade de materiais não processados, bens não concluídos, bens concluídos e ativos em progresso. É o processo de definir, gerenciar e relatar [Contabilidade de estoque](cost-object.md) e [Contabilidade de fabricação](bom-calculations.md).
 
-Você pode definir políticas de custo estimado nas seguintes áreas: 
--  [Custo predeterminado](costing-versions.md)
--  [Contabilidade de estoque](cost-object.md)
--  [Contabilidade de fabricação](bom-calculations.md)
--  [Contabilidade de custo indireto](costing-sheets.md)
--  [Integração com o razão](production-order-cost-analysis.md)
+Você pode definir políticas de custo estimado nas seguintes áreas:
+
+- [Custo predeterminado](costing-versions.md)
+- [Contabilidade de estoque](cost-object.md)
+- [Contabilidade de fabricação](bom-calculations.md)
+- [Contabilidade de custo indireto](costing-sheets.md)
+- [Integração com o razão](production-order-cost-analysis.md)
 
 Por exemplo, você pode definir quais métodos de avaliação de estoque, como [PEPS](fifo-physical-value-marking.md), [Média ponderada](weighted-average-physical-value-marking.md), [Custo padrão](prerequisites-standard-costs.md) ou [Média de movimentos](moving-average.md) que deseja aplicar aos produtos no [Grupo de modelo do item](../inventory/reserve-inventory-quantities.md) em Contabilidade de estoque.
 
@@ -51,23 +52,16 @@ O conteúdo de [Gerenciamento de custos do Power BI](../../dev-itpro/analytics/c
 
 #### <a name="whats-new-and-in-development"></a>Novidades e o que está em desenvolvimento
 
-Visite o [Roteiro do Microsoft Dynamics 365](https://roadmap.dynamics.com/) para conferir os novos recursos que foram lançados e os novos recursos em desenvolvimento. 
+Visite o [Roteiro do Microsoft Dynamics 365](https://roadmap.dynamics.com/) para conferir os novos recursos que foram lançados e os novos recursos em desenvolvimento.
 
 #### <a name="white-paper"></a>White paper
-[Cálculo de BOM usando uma folha de custos](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet) descreve como definir uma folha de contabilidade que inclua material e fabricação, e como a configuração afeta os resultados de cálculo do BOM. Para explicar de uma melhor forma os tópicos, ele fornece cenários concretos e dados que demonstram o efeito de várias definições e configurações. Nós não esperamos que você siga todos esses cenários, porque este documento não fornece detalhes o suficiente para configurá-los. No entanto, se você tiver o conhecimento básico, poderá tentar executar as guias de tarefa listadas abaixo na ordem em que elas aparecem. Use o conhecimento obtido com a leitura desse documento para realizar a análise de cálculo de bom. 
 
--  [Criar um produto finalizado](tasks/create-finished-product-2016-02.md)
--  [Criar um produto semifinalizado](tasks/create-semi-finished-product-2016-02.md)
--  [Criar matérias-primas](tasks/create-raw-materials-2016-02.md)
--  [Criar BOMs](tasks/create-boms-2016-02.md)
--  [Criar roteiros](tasks/create-routes-2016-02.md)
--  [Calcular um BOM usando uma estrutura de nível único](tasks/calculate-bom-single-level-structure-2016-02.md)
--  [Calcular um BOM usando uma estrutura de vários níveis](tasks/calculate-bom-multilevel-structure-2016-02.md)
-
+[Cálculo de BOM usando uma folha de custos](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet) descreve como definir uma folha de contabilidade que inclua material e fabricação, e como a configuração afeta os resultados de cálculo do BOM. Para explicar de uma melhor forma os tópicos, ele fornece cenários concretos e dados que demonstram o efeito de várias definições e configurações.
 
 #### <a name="blogs"></a>Blogs
+
 Você encontra opiniões, notícias e outras informações sobre gerenciamento de custos no [blog da equipe de P&D de Manufacturing do Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) e no [blog da equipe de P&D de Supply Chain Management do Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). Embora algumas dessas postagens tenham sido escritas para a versão anterior de Gerenciamento de custo, os mesmos conceitos ainda se aplicam, e os procedimentos também são semelhantes na versão atual.
 
 #### <a name="task-guides"></a>Guias de tarefas
-A ajuda adicional está disponível como guias de tarefas. Para acessar os guias de tarefas, clique no botão Ajuda em qualquer página.
 
+A ajuda adicional está disponível como guias de tarefas. Para acessar os guias de tarefas, clique no botão Ajuda em qualquer página.

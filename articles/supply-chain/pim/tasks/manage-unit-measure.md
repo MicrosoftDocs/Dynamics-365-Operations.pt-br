@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 042a7495d55fb9d884771972cfc18e5ddb25330d
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: f26b55f6e79200ac273fbb642c49998d8cd7e388
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844312"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147609"
 ---
 # <a name="manage-unit-of-measure"></a>Gerenciar unidade de medida
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimento mostra como definir uma unidade de medida, fornecer traduções para a unidade e para suas descrições, e definir regras de conversão para unidades relacionadas. Você pode explorar esse procedimento usando os dados demonstrativos, ou usando seus próprios dados.
 
