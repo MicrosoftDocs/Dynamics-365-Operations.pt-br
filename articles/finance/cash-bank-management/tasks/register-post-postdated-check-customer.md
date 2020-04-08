@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f27675a2aa2160619bf78eea33bba2ce0b7bd81
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 11089584e150a1a302eb969a5fb61cb9d1900901
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188087"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141732"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>Registrar e lançar um cheque pré-datado para um cliente
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-É possível registrar os detalhes de um cheque pré-datado recebido de um cliente. Você também pode lançar o cheque pré-datado e gerar transações financeiras.   Conclua as seguintes tarefas antes de registrar e lançar um cheque pré-datado recebido de um cliente:  • Configurar cheque pré-datado na página de Gerenciamento de dinheiro e banco • Configurar um método de pagamento para cheques pré-datados   A função para esse procedimento é Tesoureiro. Este procedimento usa a empresa de dados de demonstração USMF.
+É possível registrar os detalhes de um cheque pré-datado recebido de um cliente. Você também pode lançar o cheque pré-datado e gerar transações financeiras.   Conclua as seguintes tarefas antes de registrar e lançar um cheque pré-datado recebido de um cliente: * Configurar cheque pré-datado na página de Gerenciamento de dinheiro e banco * Configurar um método de pagamento para cheques pré-datados A função para esse procedimento é Tesoureiro. Este procedimento usa a empresa de dados de demonstração USMF.
 
 1. Vá para Contas a receber > Pagamentos > Diário de pagamentos.
 2. Clique em Novo.

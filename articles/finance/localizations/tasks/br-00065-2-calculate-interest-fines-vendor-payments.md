@@ -15,16 +15,16 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8682b30badfe341f58097b27720865526e5eb80
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 036edbcd41281001f731dae8fda34ef7820b957d
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174730"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138297"
 ---
 # <a name="calculate-interest-and-fines-on-vendor-payments-brazil"></a>Calcular juros e multas sobre pagamentos de fornecedores (Brasil)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Você pode aplicar juros e multas a pagamentos de fornecedor que estejam atrasados. Os valores dos juros e da multa que se aplicam a um pagamento podem ser calculados quando você faz um pagamento para um fornecedor. Antes de calcular os códigos de juros ou de multa para pagamentos de fornecedor, você deverá configurar uma lista de feriados bancários e de feriados nacionais. Uma data de feriado que é configurada na página Calendário de pagamentos será considerada como um dia que não é útil. Se uma fatura vencer em um dia que não seja útil, a data de vencimento se deslocará para o próximo dia útil no calendário, e os juros e as multas serão calculadas de acordo com essa data. Esta tarefa usa a empresa de demonstração BRMF.
 

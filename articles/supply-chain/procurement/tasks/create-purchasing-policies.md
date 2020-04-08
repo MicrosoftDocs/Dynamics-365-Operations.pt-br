@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e29df3b42479a215b66354f8dfceea002a146e74
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: c8416f9a869b9144a63a6fb08c667cc32dec9854
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856463"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149702"
 ---
 # <a name="create-purchasing-policies"></a>Criar políticas de compras
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este tópico mostra como criar políticas de compra para alinhar com seus processos de negócios de compra. Para que você possa criar políticas de compras, você deve configurar os parâmetros da política de compras. É possível criar, alterar e aposentar uma política de compra, mas você não pode suprimir uma política de compra. Normalmente essa procedimento é realizado por um Gerente de compras. Você pode usar esse procedimento na empresa de dados demonstrativos USMF ou nos seus próprios dados.
 
@@ -44,7 +44,7 @@ Este tópico mostra como criar políticas de compra para alinhar com seus proces
 1. Selecione **Novo**.
 2. No campo **Nome**, digite um valor.
 3. No campo **Descrição**, digite um valor.
-- Uma política de compras individual pode ser aplicada apenas a uma hierarquia da organização. Por exemplo, você poderia ter uma hierarquia chamada “geográfica” e uma chamada “departamento”, e uma política de compras diferente para cada uma.  
+- Uma política de compras individual pode ser aplicada apenas a uma hierarquia da organização. Por exemplo, você poderia ter uma hierarquia chamada "Geográfica" e uma chamada "Departamento", e uma política de compras diferente para cada uma.  
 - Selecione uma organização a que a política deva se aplicar.  
 4. Selecione a seta para adicionar a organização selecionada.
 - Você pode repetir este processo para adicionar mais organizações.  

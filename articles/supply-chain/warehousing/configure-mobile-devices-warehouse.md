@@ -3,7 +3,7 @@ title: ​Configurar dispositivos móveis para trabalho de depósito​
 description: Este tópico descreve como configurar os itens de menu que os trabalhadores de depósito usam para executar o trabalho em um dispositivo móvel.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 04/18/2019
+ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df3968c01006d773300593b966a69b5283a889a2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4c4b131c14101722593f685cbe1133b1aa1319b0
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813031"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161819"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>​Configurar dispositivos móveis para trabalho de depósito​
 
@@ -95,11 +95,11 @@ Você pode configurar um item de menu que cria trabalho para outro trabalhador, 
 </tr>
 <tr>
 <td>Recebimento da placa de licença</td>
-<td>Receba uma carga de entrada usando a ID da placa de licença.</td>
+<td>Receba um aviso de embarque de entrada (ASN) usando a ID da placa de licença.</td>
 </tr>
 <tr>
 <td>Recebimento e armazenamento da placa de licença</td>
-<td>Receba e armazene uma carga de entrada usando a ID da placa de licença.</td>
+<td>Receba e armazene um aviso de embarque de entrada (ASN) usando a ID da placa de licença.</td>
 </tr>
 <tr>
 <td>Recebimento do item de carga</td>
@@ -119,7 +119,7 @@ Você pode configurar um item de menu que cria trabalho para outro trabalhador, 
 <td>Registre o recebimento de uma quantidade de um item registrando o número RMA e armazene os itens. O mesmo trabalhador executa as duas ações.</td>
 </tr>
 <tr>
-<td rowspan="4">Ordem de transferência</td>
+<td rowspan="6">Ordem de transferência</td>
 <td>Recebimento do item da ordem de transferência</td>
 <td>Registre o recebimento de uma quantidade de um item e crie trabalho de armazenamento para outro trabalhador.
 
@@ -140,8 +140,16 @@ Você pode configurar um item de menu que cria trabalho para outro trabalhador, 
 <td>Registre o recebimento de uma quantidade de um item e armazene os itens. O mesmo trabalhador executa as duas ações.</td>
 </tr>
 <tr>
+<td>Recebimento da placa de licença</td>
+<td>Receba um aviso de embarque de entrada (ASN) usando a ID da placa de licença.</td>
+</tr>
+<tr>
+<td>Recebimento e armazenamento da placa de licença</td>
+<td>Receba e armazene um aviso de embarque de entrada (ASN) usando a ID da placa de licença.</td>
+</tr>
+<tr>
 <td rowspan="4">Produção</td>
-<td>Relatar como concluído</td>
+<td>Relatório de Conclusão</td>
 <td>Registre uma quantidade de um item concluído que tenha sido concluído para uma produção e crie o trabalho de armazenamento para outro trabalhador. A quantidade pode ser parte ou toda a quantidade planejada para a produção.</td>
 </tr>
 <tr>

@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5020b523ca5d76d36f7436a8f43e8629c029e3e8
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 28b8346b916729669af42ca47fe9a882e7a77bd0
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769869"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142191"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Acessar metadados do aplicativo usando aplicativos conectados
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-As etapas a seguir explicam como um usuário do Regulatory Configuration Service (RCS) na função de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar um novo mapeamento de modelos de relatório eletrônico (ER) por meio dos metadados de Finance and Operations. Os metadados do aplicativo serão acessados online usando o aplicativo conectado de RCS. O mapeamento de modelo ER de exemplo será configurado para acessar transações de comércio exterior. Para concluir estas etapas, no RCS, primeiro conclua as etapas do tópico [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md). Se você não concluiu as etapas do tópico [Acessar metadados do aplicativo usando a configuração ER](access-application-metadata-er-configuration.md), vá para a [página Exemplos de relatórios eletrônicos](https://go.microsoft.com/fwlink/?linkid=862266) para baixar e salvar as seguintes configurações de ER: Metadados de comércio exterior.xml; Modelo de comércio exterior.xml; Mapeamento de comércio exterior.xml e conclua as etapas no procedimento.
+As etapas a seguir explicam como um usuário do Regulatory Configuration Service (RCS) na função de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar um novo mapeamento de modelo de relatório eletrônico (ER) por meio de metadados do Finance and Operations. Os metadados do aplicativo serão acessados online usando o aplicativo conectado de RCS. O mapeamento de modelo ER de exemplo será configurado para acessar transações de comércio exterior. Para concluir estas etapas, no RCS, primeiro conclua as etapas do tópico [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md). Se você não concluiu as etapas do tópico [Acessar metadados do aplicativo usando a configuração ER](access-application-metadata-er-configuration.md), vá para a [página Exemplos de relatórios eletrônicos](https://go.microsoft.com/fwlink/?linkid=862266) para baixar e salvar as seguintes configurações de ER: Metadados de comércio exterior.xml; Modelo de comércio exterior.xml; Mapeamento de comércio exterior.xml e conclua as etapas no procedimento.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 1. Vá para **Todos os espaços de trabalho** > **Relatório eletrônico**. 
@@ -54,11 +54,11 @@ As etapas a seguir explicam como um usuário do Regulatory Configuration Service
 2. Feche a página. 
 3. Vá para **Todos os espaços de trabalho** > **Relatório eletrônico**. 
 4. Clique em **Aplicativos conectados**. 
-5. Verifique se o aplicativo configurado é baseado em Azura e está disponível para o usuário do RCS atual. Também é necessário que o usuário do RCS atual tenha acesso ao aplicativo selecionado e esteja registrado como um usuário desse aplicativo com uma função que lhe concede privilégios para acessar metadados do aplicativo. 
+5. Verifique se o aplicativo configurado é baseado em Azure e está disponível para o usuário do RCS atual. Também é necessário que o usuário do RCS atual tenha acesso ao aplicativo selecionado e esteja registrado como um usuário desse aplicativo com uma função que lhe concede privilégios para acessar metadados do aplicativo. 
 6. Clique em **Novo**. 
 7. No campo **Nome**, digite 'MyConnectedApp'. 
 8. No campo **Aplicativo**, digite 'https:// mycompany.operations.dynamics.com'. 
-9. No campo **Locatário**, digite 'mycompany.onmicrosoft.com'. 
+9. No campo **Locatário**, digite "mycompany.onmicrosoft.com". 
 10. Clique em **Salvar**. 
 11. Quando você verificar a conexão com o aplicativo, na página **Conectar-se ao aplicativo remoto**, clique no link **Clique aqui para conectar-se ao aplicativo remoto selecionado**. 
 12. Clique em **Verifique a conexão**. 

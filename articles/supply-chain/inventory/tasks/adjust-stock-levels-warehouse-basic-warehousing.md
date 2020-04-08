@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 450e95d8a4d5a216b84a3c944c6c63b4a8ad10c5
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: c617517109146b96075d03b6f3549639a99d7d1c
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838814"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146068"
 ---
 # <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a>Ajustar níveis de estoque no depósito (armazenamento básico)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Esse procedimento o orientará no processo de criação e lançamento de um diário de ajuste de estoque para que os níveis de estoque de produtos no depósito sejam ajustados. Você precisa definir um nome de diário de estoque para ajustes de estoque antes de criar este. Você pode ver todo esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados. Essas tarefas normalmente seriam realizadas por um funcionário do depósito.
 

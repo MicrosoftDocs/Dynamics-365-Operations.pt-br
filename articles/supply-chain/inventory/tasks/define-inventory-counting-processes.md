@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 016447bca53bbc7b2eb3d7ea0790837fa8035dc6
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: b4f83ae0e33520f1777cea31e2f986af1691bfa1
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867188"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145539"
 ---
 # <a name="define-inventory-counting-processes"></a>Definir processos de contagem de estoque
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este tópico descreve a configuração dos processos de contagem básicos de estoque criando um grupo de contagem e um diário de contagem. Ele também mostra como habilitar diretivas de contagem em um nível de depósito e do item. Essas tarefas normalmente seriam realizadas por um supervisor do depósito. É um pré-requisito para alguns produtos liberados e depósitos existentes. Se você for utilizar uma empresa de dados demonstrativos, você pode executar esse procedimento na empresa USMF com qualquer item em estoque.
 

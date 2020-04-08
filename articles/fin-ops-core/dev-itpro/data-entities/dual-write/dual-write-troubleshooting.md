@@ -1,9 +1,9 @@
 ---
-title: Guia de solução de problemas para integração de dados
-description: Este tópico fornece informações de solução de problemas para integração de dados entre aplicativos do Finance and Operations e o Common Data Service.
+title: Solução de problemas gerais
+description: Este tópico fornece informações gerais de solução de problemas para integração de gravação dupla entre aplicativos do Finance and Operations e o Common Data Service.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,57 +18,98 @@ ms.search.region: global
 ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
-ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 87bdb72024c1c3844ff61e832a92f7edcc77c5d6
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.search.validFrom: 2020-03-16
+ms.openlocfilehash: f7ee0b5aa4e72614205e129acd986376b33efc70
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019641"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172682"
 ---
-# <a name="troubleshooting-guide-for-data-integration"></a>Guia de solução de problemas para integração de dados
+# <a name="general-troubleshooting"></a>Solução de problemas gerais
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
 
-## <a name="enable-plug-in-trace-logs-in-common-data-service-and-inspect-the-dual-write-plug-in-error-details"></a>Habilite o rastreamento de plug-in no Common Data Service e inspecione os detalhes de erro do plug-in de gravação dupla
 
-Se você tiver um problema ou erro durante a sincronização de gravação dupla, siga estas etapas para inspecionar os erros no log de rastreamento.
+Este tópico fornece informações gerais de solução de problemas para integração de gravação dupla entre aplicativos do Finance and Operations e o Common Data Service.
 
-1. Antes de poder inspecionar os erros, você deve ativar os logs de rastreamento de plug-in. Para obter instruções, consulte a seção "Exibir logs de rastreamento" do [Tutorial: crie e registre um plug-in](https://docs.microsoft.com/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs).
+> [!IMPORTANT]
+> Alguns dos problemas que este tópico aborda podem exigir a função de administrador do sistema ou as credenciais de administrador do locatário Microsoft Azure Active Directory (Azure AD). A seção para cada problema explica se uma função ou credenciais específicas são necessárias.
 
-    Agora você pode inspecionar os erros.
+## <a name="when-you-try-to-install-the-dual-write-package-by-using-the-package-deployer-tool-no-available-solutions-are-shown"></a>Ao tentar instalar o pacote de gravação dupla usando a ferramenta Package Deployer, nenhuma solução disponível é mostrada
 
-2. Entre no Microsoft Dynamics 365 Sales.
-3. Selecione o botão **Configurações** (o símbolo da engrenagem) e selecione **Configurações Avançadas**.
-4. No menu **Configurações**, selecione **Personalização \> Log de Rastreamento de Plug-In**.
-5. Selecione **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin** como o nome do tipo para mostrar os detalhes do erro.
+Algumas versões da ferramenta Package Deployer são incompatíveis com o pacote de solução de gravação dupla. Para instalar o pacote com êxito, certifique-se de usar a [versão 9.1.0.20](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.PackageDeployment.Wpf/9.1.0.20) ou posterior da ferramenta Package Deployer.
 
-## <a name="inspect-dual-write-synchronization-errors"></a>Verificar erros de sincronização de gravação dupla
+Depois de instalar a ferramenta do Package Deployer, instale o pacote de solução seguindo essas etapas.
 
-Siga estas etapas para inspecionar erros durante o teste.
+1. Baixe o arquivo de pacote de solução mais recente de Yammer.com. Depois que o arquivo zip do pacote for baixado, clique nele com o botão direito do mouse e selecione **Propriedades**. Marque caixa de seleção **Desbloquear** e selecione **Aplicar**. Se você não vir a caixa de seleção **Desbloquear**, o arquivo zip já está desbloqueado e você pode ignorar essa etapa.
+
+    ![Caixa de diálogo de propriedades](media/unblock_option.png)
+
+2. Extraia o arquivo compactado no pacote e copie todos os arquivos na pasta **Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438**.
+
+    ![Conteúdo da pasta Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438](media/extract_package.png)
+
+3. Cole todos os arquivos copiados na pasta **Ferramentas** da ferramenta Package Deployer. 
+4. Execute **PackageDeployer.exe** para selecionar o ambiente Common Data Service e instale as soluções.
+
+    ![Conteúdo da pasta Ferramentas](media/paste_copied_files.png)
+
+## <a name="enable-and-view-the-plug-in-trace-log-in-common-data-service-to-view-error-details"></a>Habilite e exiba o log de rastreamento de plug-in no Common Data Service para exibir detalhes do erro
+
+**Função necessária para ativar o log de rastreamento e erros de exibição**: administrador do sistema
+
+Para ativar o log de rastreamento, siga estas etapas.
+
+1. Efetue login no aplicativo Finance and Operations, abra a página **Configurações** e, em **Sistema**, selecione **Administração**.
+2. Na página **Administração**, selecione **Configuração do sistema**.
+3. Na guia **Personalização**, no campo **Rastreamento de atividade de fluxo de trabalho e plug-in**, selecione **Todos** para habilitar o log de rastreamento de plug-in. Se você deseja registrar logs de rastreamento somente quando ocorrerem exceções, em vez disso, você pode selecionar **Exceção**.
+
+
+Para exibir o log de rastreamento, siga estas etapas.
+
+1. Efetue login no aplicativo Finance and Operations, abra a página **Configurações** e, em **Personalização**, selecione **Log de rastreamento de plug-in**.
+2. Localize os logs de rastreamento no campo **Nome do tipo** e defina como **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin**.
+3. Clique duas vezes em um item para exibir o log completo e, em seguida, na Guia Rápida **Execução** revise o texto do **Bloco de mensagens**.
+
+## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Habilitar modo de depuração para solucionar problemas de sincronização dinâmica em aplicativos Finance and Operations
+
+**Função necessária para exibir os erros:** administrador do sistema
+
+Os erros de gravação dupla que originam-se no Common Data Service podem aparecer no aplicativo Finance and Operations. Em alguns casos, o texto completo da mensagem de erro não está disponível porque a mensagem é muito longa ou contém informações de identificação pessoal (PII). Você pode ativar o registro detalhado de erros ao seguir estas etapas.
+
+1. Todas as configurações de projeto nos aplicativos Finance and Operations têm uma propriedade **IsDebugMode** na entidade **DualWriteProjectConfiguration**. Abra a entidade **DualWriteProjectConfiguration** usando um suplemento do Excel.
+
+    > [!TIP]
+    > Uma forma simples de abrir a entidade é ativar o modo **Design** no suplemento do Excel e adicionar **DualWriteProjectConfigurationEntity** à planilha. Para obter mais informações, consulte [Abrir os dados da entidade no Excel e atualizá-los usando o suplemento do Excel](../../office-integration/use-excel-add-in.md).
+
+2. Defina a propriedade **IsDebugMode** como **Sim** para o projeto.
+3. Execute o cenário que está gerando erros.
+4. Os logs detalhados estão disponíveis na tabela DualWriteErrorLog. Para pesquisar dados no navegador da tabela, use a seguinte URL (substitua **XXX**, conforme apropriado):
+
+    `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=>DualWriteErrorLog`
+
+## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Verificar erros de sincronização na máquina virtual para o aplicativo Finance and Operations
+
+**Função necessária para exibir os erros:** administrador do sistema
 
 1. Entre Microsoft Dynamics Lifecycle Services (LCS).
-2. Abra o projeto do LCS que será submetido a testes de gravação dupla.
-3. Selecione **Ambientes hospedados na nuvem**.
-4. Estabeleça uma conexão de área de trabalho remota com a máquina virtual (VM) do aplicativo usando uma conta local que é mostrada no LCS.
-5. Abra o Visualizador de Eventos. 
-6. Vá para **Registros de aplicativos e serviços \> Microsoft \> Dynamics \> AX-DualWriteSync \> Operacional**. Os erros e os detalhes são exibidos.
+2. Abra o projeto LCS escolhido para realizar testes de gravação dupla.
+3. Selecione o bloco **Ambientes hospedados na nuvem**.
+4. Use área de trabalho remota para fazer login na máquina virtual (VM) do aplicativo Finance and Operations. Use a conta local que é mostrada em LCS.
+5. Abra o Visualizador de Eventos.
+6. Selecione **Registros de aplicativos e serviços \> Microsoft \> Dynamics \> AX-DualWriteSync \> Operacional**.
+7. Revise a lista de erros recentes.
 
-## <a name="unlink-one-common-data-service-environment-from-the-application-and-link-another-environment"></a>Desvincular um ambiente do Common Data Service do aplicativo e vincular outro ambiente
+## <a name="unlink-and-link-another-common-data-service-environment-from-a-finance-and-operations-app"></a>Desvincular e vincular outro ambiente do Common Data Service de um aplicativo Finance and Operations
 
-Siga as etapas a seguir para atualizar os links.
+**Credenciais necessárias para desvincular o ambiente:** administrador de locatário do Azure AD
 
-1. Vá para o ambiente do aplicativo.
-2. Abra o Gerenciamento de Dados.
-3. Selecione **Link para o CDS para aplicativos**.
-4. Selecione todos os mapeamentos em execução e depois **Parar**.
-5. Selecione todos os mapeamentos e depois **Excluir**.
+1. Entrar no aplicativo Finance and Operations.
+2. Vá para **Espaços de trabalho \> Gerenciamento de dados** e selecione o bloco **Gravação dupla**.
+3. Selecione todos os mapeamentos em execução e selecione **Parar**.
+4. Selecione **Desvincular ambiente**.
+5. Selecione **Sim** para confirmar a operação.
 
-    > [!NOTE]
-    > A opção **Excluir** não estará disponível se o modelo **CustomerV3-Account** estiver selecionado. Limpe a seleção desse modelo, conforme necessário. **CustomerV3-Account** é um modelo provisionado mais antigo e funciona com a solução Prospect to Cash. Como ele é liberado globalmente, aparece em todos os modelos.
-
-6. Selecione **Desvincular ambiente**.
-7. Selecione **Sim** para confirmar a operação.
-8. Para vincular o novo ambiente, siga as etapas do [guia de instalação](https://aka.ms/dualwrite-docs).
+Agora você pode vincular um novo ambiente.

@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bf7f72be22539271649aa7f5541735b3d24dab66
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: e3bac0cab764436a618fa570901c84ab720dbc86
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021594"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140772"
 ---
 # <a name="posting-of-online-sales-and-payments"></a>Lançamento de vendas e pagamentos online
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este procedimento orienta como configurar e executar um trabalho em lotes periódico para criar ordens de venda e pagamentos para transações de lojas online.
 

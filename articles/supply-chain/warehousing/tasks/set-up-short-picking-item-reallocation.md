@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 964302cb7e7835b6e619602ac7165c9e7adbcefb
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: eae86b307ac8d8539c3897293c2fc21ea57d2d60
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916741"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148230"
 ---
 # <a name="set-up-short-picking-item-reallocation"></a>Configurar realocação de item de pouca seleção
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimento mostra como permitir que os trabalhadores do depósito encontrem rapidamente localizações alternativas se não houver estoque suficiente na localização para a qual eles foram direcionados. É possível usar um processo de realocação automática, que usa as diretivas de localização para recuperar as mercadorias se elas estiverem disponíveis em outras localizações. Como alternativa, quando a realocação manual for usada, uma lista das localizações com a quantidade disponível é mostrada no dispositivo móvel, permitindo que o trabalhador do depósito escolha em qual localização usar o estoque. Você pode usar este procedimento na empresa USMF de dados de demonstração. Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynamics 365 for Operations.
 

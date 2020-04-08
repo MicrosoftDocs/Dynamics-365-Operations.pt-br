@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f663c28dfcbf6b365e3e88d3a4f6385ce2fcca9f
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2bf4854b8c596abd45eb2cffd21cf03adff68982
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844384"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147632"
 ---
 # <a name="maintain-bom-for-a-product-configuration-model"></a>Manter BOM para um modelo de configuração de produtos
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Executar este procedimento exige um modelo de configuração de produto existente. O modelo de alto-falante avançado na empresa de demonstração USMF é usado para criar este procedimento.
 

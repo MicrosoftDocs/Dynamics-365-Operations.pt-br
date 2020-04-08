@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c1968703c7e9662b5cccdb71d049010bb4bd4534
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: e02e76cd5762fc683290eeee49d23c9fed8d4503
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836495"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150507"
 ---
 # <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016"></a>Calcular uma BOM usando uma estrutura de nível único (Fevereiro de 2016)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimento mostra como calcular o custo de um produto finalizado usando detalhamento de nível único baseado na folha de custos. Trata-se da sexta tarefa na série de cálculo BOM. A empresa de dados demo usada para criar esta tarefa é USMF.
 
@@ -41,6 +41,6 @@ Este procedimento mostra como calcular o custo de um produto finalizado usando d
     * Nesta demonstração, selecione 10. Trata-se da mesma versão de custos usada para adicionar o preço de custo aos componentes.  
 7. Clique em OK.
 8. Clique em Exibir detalhes do cálculo.
-    * Você pode clicar nas reticências (...) para ver essa opção no menu superior.    Esta é a composição do custo:  •    10 é derivado do ITEM_A, 10 do ITEM_B, 10 do BOM_2. Neste caso, não há detalhes para BOM_2 porque ele foi inserido como um custo padrão de 10, mas isso não foi feito por meio de cálculo.  •  7 é derivado do tempo de preparação, que é um custo constante, e o 7 adicional é derivado da operação de tempo de execução (Processo).  •   Também há outros valores que correspondem a custos indiretos.  
+    * Você pode clicar nas reticências (...) para ver essa opção no menu superior.    Esta é a composição do custo:  *    10 é derivado do ITEM_A, 10 do ITEM_B, 10 do BOM_2. Neste caso, não há detalhes para BOM_2 porque ele foi inserido como um custo padrão de 10, mas isso não foi feito por meio de cálculo.  *    7 é derivado do tempo de preparação, que é um custo constante, e o 7 adicional é derivado da operação de tempo de execução (Processo).  *    Também há outros valores que correspondem a custos indiretos.  
 9. @SysTaskRecorder:_RequestClose
 

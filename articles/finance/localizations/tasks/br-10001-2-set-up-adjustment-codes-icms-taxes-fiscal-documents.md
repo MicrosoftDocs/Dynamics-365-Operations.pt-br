@@ -15,16 +15,16 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fed52095c422c17daea5ac534e18a22d5c7f84ff
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a0c32d7f862ff95ad41e918c94a791e99054678d
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174722"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3137970"
 ---
 # <a name="set-up-adjustment-codes-for-icms-taxes-on-fiscal-documents-brazil"></a>Configurar códigos de ajuste para impostos ICMS em notas fiscais (Brasil)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Você pode criar códigos de ajuste de imposto para ajustar manualmente valores do ICMS em notas fiscais.
 

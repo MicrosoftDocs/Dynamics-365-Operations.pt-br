@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 66b9636f6d9da06f0ea65ab311dd9308ff6ae020
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 374c31b5ea9160fba773e82f658e8de05c67cab4
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184706"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143237"
 ---
 # <a name="select-data-model-definitions-when-you-create-formats"></a>Selecionar definições de modelo de dados ao criar formatos
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Para completar as etapas, neste procedimento você deve primeiro concluir o procedimento, ER Criar um provedor de configuração e marcá-lo como ativo. 
 

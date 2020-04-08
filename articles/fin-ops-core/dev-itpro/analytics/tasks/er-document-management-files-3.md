@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 618fabc96bdfeb0c2b577aa686702d9f1257ed70
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: a4324ed62c56abea6d90d83d950429b6ddf7a84b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550708"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141998"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-3---create-format"></a>O ER usar arquivos de gerenciamento de documentos em formato de saída (parte 3 - criar formato)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 As etapas a seguir explicam como um usuário atribuído à função de administrador do sistema ou desenvolvedor de relatório eletrônico pode configurar um formato de relatório eletrônico (ER) para usar arquivos de gerenciamento de documentos (anexos) na saída do ER. Essas etapas podem ser executadas em qualquer empresa.
 

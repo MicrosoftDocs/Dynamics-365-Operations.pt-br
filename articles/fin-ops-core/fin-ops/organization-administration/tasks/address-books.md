@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 797e635beb0caa3228b667798405fd7be4158800
-ms.sourcegitcommit: 7a855deed9f95ca2589f38db214890464b2b9061
+ms.openlocfilehash: 587f1b28a2745bd7f1a63bcc7f24c9a3ad876db1
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2020
-ms.locfileid: "2951177"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143986"
 ---
 # <a name="configure-address-books"></a>Configurar catálogos de endereços
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Use esse procedimento, e as decisões feitas no tópico Planejando a configuração do catálogo de endereços global e de catálogos de endereços adicionais, para configurar catálogos de endereços adicionais para sua organização.
 

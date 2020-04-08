@@ -3,7 +3,7 @@ title: Ajustar resultados da recomendação de produtos com base em IA-ML
 description: Este tópico explica como personalizar os resultados da recomendação do produto com base em aprendizado de máquina de inteligência artificial (AI-ML) para sua empresa.
 author: bebeale
 manager: AnnBe
-ms.date: 03/12/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4631ef03e1d73b70d80e774d1efa4909e619bbc0
-ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
+ms.openlocfilehash: afd9271c680b1f4248d6e60036f3e79d204dc3c2
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3127919"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154332"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>Ajustar resultados da recomendação de produtos com base em IA-ML
 
@@ -110,11 +110,9 @@ Siga estas etapas para adicionar ou remover manualmente os resultados de um prod
 
 [Cancelar recomendações personalizados](personalization-gdpr.md)
 
-[Adicionar listas de recomendações a um site de comércio eletrônico](add-reco-list-to-page.md)
+[Adicionar recomendações dos produtos no PDV](product.md)
 
-[Adicionar recomendações de produtos no PDV](product.md)
-
-[Adicionar recomendações à tela de transação](add-recommendations-control-pos-screen.md)
+[Adicionar recomendações à tela de transações](add-recommendations-control-pos-screen.md)
 
 [Criar manualmente recomendações selecionadas](create-editorial-recommendation-lists.md)
 

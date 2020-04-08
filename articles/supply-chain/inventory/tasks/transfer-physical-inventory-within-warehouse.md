@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7715c8e7a56703993e8512af03f2ab8d6802a987
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: 899701413814ce38a4367618ed72d1039eca0bf8
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916567"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148161"
 ---
 # <a name="transfer-physical-inventory-within-the-warehouse"></a>Transferir estoque físico no depósito
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimento aborda o processo de criação e lançamento de um diário de transferência de estoque para registrar a movimentação de um item de um local em um depósito para outro. Você precisa definir um nome de diário de estoque para transferências de estoque antes de criar este. Você pode seguir esse procedimento na empresa de dados de demonstração USMF usando os valores do exemplo que são mostrados ou usando seus próprios dados se tiver produtos e locais configurados. Essas tarefas normalmente seriam realizadas por um funcionário do depósito.
 

@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ''
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 0d32a5f7859f0200da823a73d94b9a6b2a9c8e7d
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: a4da37d45698290b40f6c72148f1500bef72127a
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019636"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173076"
 ---
 # <a name="integrated-tax"></a>Imposto integrado
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
+
 
 Os dados de configuração de imposto definem a configuração para os impostos indiretos (IVA, GST, imposto) e imposto retido na fonte. Eles descrevem as regras de cálculo de impostos, taxa de imposto, contabilidade de imposto, liquidação e outros conceitos.
 
@@ -38,16 +38,16 @@ Os dados de configuração de imposto definem a configuração para os impostos 
 
 Os dados de imposto incluem um conjunto de mapas de entidades que funcionam juntos durante a interação de dados, conforme mostrado na tabela a seguir.
 
-Finance and Operations   | Outros aplicativos do Dynamics 365
+| Aplicativos Finance and Operations | Aplicativos controlados por modelos no Dynamics 365 | descrição |
 -------------------------|---------------------------------
-Códigos de imposto                  | msdyn\_taxcodes.md
-Grupos de impostos               | msdyn\_taxgroups.md
-Grupos de itens de impostos          | msdyn\_taxitemgroups.md
-Isenções de impostos           | msdyn\_taxexemptcodes.md
-Autoridades fiscais          | msdyn\_taxauthorities.md
-Códigos de impostos retidos na fonte      | msdyn\_withholdingtaxcodes.md
-Grupos de impostos retidos na fonte   | msdyn\_withholdingtaxgroups.md
-Grupo de contas contábeis de imposto | msdyn\_taxpostinggroups  
+Códigos de imposto                   | msdyn\_taxcodes.md | 
+Grupos de impostos                 | msdyn\_taxgroups.md | 
+Grupos de itens de impostos             | msdyn\_taxitemgroups.md | 
+Isenções de impostos             | msdyn\_taxexemptcodes.md | 
+Autoridades fiscais             | msdyn\_taxauthorities.md | 
+Códigos de impostos retidos na fonte       | msdyn\_withholdingtaxcodes.md | 
+Grupos de impostos retidos na fonte     | msdyn\_withholdingtaxgroups.md | 
+Grupo de contas contábeis de imposto | msdyn\_taxpostinggroups     | 
 
 [!include [banner](../../includes/dual-write-symbols.md)]
 

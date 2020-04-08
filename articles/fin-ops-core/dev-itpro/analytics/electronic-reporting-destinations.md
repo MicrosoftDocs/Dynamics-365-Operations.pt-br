@@ -3,7 +3,7 @@ title: Destinos de Relatório eletrônico (ER)
 description: Este tópico fornece informações sobre o gerenciamento de destinos de relatório eletrônico (ER), os tipos de destinos com suporte e considerações de segurança.
 author: nselin
 manager: AnnBe
-ms.date: 02/07/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2e4c6951afbff367dc93072d20395c3a37fffbcb
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: 8a6536c82cd3407626fc0d8e102e3819c80cfd4b
+ms.sourcegitcommit: 0d9ca44b48fb2e33d8160faccc1e6bd932e58934
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030764"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150806"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinos de relatório eletrônico (ER)
 
@@ -114,7 +114,7 @@ Depois de concluir essa configuração, a opção **Executar rascunho** fica dis
 
 [![Opção Executar rascunho](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
 
-## <a name="DestinationFailure"></a>Tratamento de falha no destino
+## <a name="destination-failure-handling"></a><a name="DestinationFailure"></a>Tratamento de falha no destino
 
 Normalmente, um formato de ER é executado no escopo de um processo de negócios específico. No entanto, às vezes, a entrega de um documento de saída gerado durante a execução de um formato de ER deve ser considerada como parte desse processo de negócios. Nesse caso, se a entrega de um documento de saída gerado em um destino configurado não for bem-sucedida, a execução do processo de negócios deverá ser cancelada. Para configurar o destino de ER apropriado, selecione a opção **Interromper processamento em caso de falha**.
 
@@ -124,7 +124,7 @@ Por exemplo, você configura o processamento de pagamentos de fornecedor para qu
 
 Se você desmarcar a caixa de seleção **Interromper processamento em caso de falha** para o componente **CoveringLetter** no destino, um pagamento será considerado como tendo o processamento bem-sucedido mesmo que a carta de apresentação não seja entregue com êxito por email. O status do pagamento mudará de **Nenhum** para **Enviado** mesmo que a carta de apresentação não possa ser enviada porque, por exemplo, o endereço de email do destinatário ou remetente está ausente ou incorreto.
 
-## <a name="OutputConversionToPDF"></a>Conversão de saída em PDF
+## <a name="output-conversion-to-pdf"></a><a name="OutputConversionToPDF"></a>Conversão de saída em PDF
 
 Você pode usar a opção de conversão em PDF para converter a saída em formato do Microsoft Office (Excel/Word) para PDF.
 
@@ -157,6 +157,19 @@ A opção de conversão em PDF pode ser ativada somente para componentes de arqu
 Para ativar a conversão em PDF para um destino de arquivo, marque a caixa de seleção **Converter em PDF**.
 
 [![Ativando a conversão em PDF para um destino de arquivo](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
+
+### <a name=""></a><a name="SelectPdfPageOrientation">Selecione uma orientação de página para conversão em PDF</a>
+
+Se você gerar uma configuração ER no formato Excel e quiser convertê-la em formato PDF, poderá especificar a orientação de página do PDF. Quando você marca a caixa de seleção **Converter para PDF** para ativar a conversão em PDF para um arquivo de destino que produz um arquivo de saída no formato Excel, o campo **Orientação da página** fica disponível na página **Configurações de conversão para PDF**. No campo **Orientação da página**, você pode selecionar a orientação de sua preferência.
+
+[![Selecionando uma orientação de página para conversão em PDF](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
+
+> [!NOTE]
+> Para ter a opção de selecionar a orientação da página PDF, você deve instalar o Microsoft Dynamics 365 Finance versão 10.0.10 (maio de 2020) ou posterior.
+>
+> A orientação de página selecionada é aplicada a todas as configurações ER geradas no formato Excel e, em seguida, convertidas para o formato PDF.
+>
+> Se um PDF convertido for criado de uma configuração ER no formato Word, a orientação de página do PDF será retirada do documento do Word.
 
 ## <a name="security-considerations"></a>Considerações de segurança
 

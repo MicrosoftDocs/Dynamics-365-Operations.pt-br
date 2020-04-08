@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 78d38b00d8039612aa236b3aa9593693983407dc
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: dfd0bc7edb3236d016e64bd08b1858fd7b12417f
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914713"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145723"
 ---
 # <a name="set-up-prerequisites-for-nonconformance-management"></a>Configurar pré-requisitos do gerenciamento de não conformidade
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Use este tópico para habilitar processos de gerenciamento de não conformidade. Uma não conformidade descreve um item ou um procedimento com um problema de qualidade, na qual as informações descritivas incluem a origem e o tipo do problema. Este procedimento usa a empresa de dados de demonstração USMF. Esse procedimento geralmente é realizado por um gerente de qualidade.
 
@@ -40,7 +40,7 @@ Use este tópico para habilitar processos de gerenciamento de não conformidade.
 
 ## <a name="enable-user-for-nonconformance-processing"></a>Habilite o usuário para processar não conformidade
 1. No painel de navegação, vá para **Módulos > Administração do sistema > Usuários > Usuários**. 
-2. Use o Filtro Rápido para localizar o usuário que aprovará ou rejeitará os registros de não conformidade. Por exemplo, filtre o campo **Nome** com um valor de `Ricardo`. Para processar a aprovação de uma não conformidade, o usuário que aprova ou rejeita não conformidades precisa possuir um valor “Nome” atribuído na página **Usuários**. Para usar as notas do documento, o usuário também deve ter o Manuseio de documentos ativado nas opções do usuário.  
+2. Use o Filtro Rápido para localizar o usuário que aprovará ou rejeitará os registros de não conformidade. Por exemplo, filtre o campo **Nome** com um valor de `Ricardo`. Para processar a aprovação de uma não conformidade, o usuário que aprova ou rejeita não conformidades precisa possuir um valor "Nome" atribuído na página **Usuários**. Para usar as notas do documento, o usuário também deve ter o Manuseio de documentos ativado nas opções do usuário.  
 3. Marque a linha de registro desejada.
 4. Selecione **Opções de usuário**.
 5. Selecione a guia **Preferências**.

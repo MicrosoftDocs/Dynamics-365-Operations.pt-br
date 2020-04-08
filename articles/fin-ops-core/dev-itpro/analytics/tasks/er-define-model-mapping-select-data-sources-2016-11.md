@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 46dc13416aa094f33879c017c1a1815fc791409d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a6287fa95b7ce7341e99d1b1a6b972db68a30398
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185097"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142151"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>Definir mapeamentos do modelo de ER e selecionar fontes de dados para eles
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode selecionar fontes de dados para um modelo de dados do Relatório eletrônico (RE). As fontes de dados serão associadas a componentes individuais do modelo de dados selecionado durante o projeto e povoarão dados comerciais àquele modelo de dados durante a execução. Neste exemplo, você selecionará fontes de dados para um modelo de dados existentes que foi criado para a empresa de exemplo, Litware, Inc. Para concluir estas etapas, primeiro você deve concluir as etapas no procedimento "criar um novo modelo de dados".
+As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode selecionar fontes de dados para um modelo de dados do Relatório eletrônico (RE). As fontes de dados serão associadas a componentes individuais do modelo de dados selecionado durante o projeto e povoarão dados comerciais àquele modelo de dados durante a execução. Neste exemplo, você selecionará fontes de dados para um modelo de dados existentes que foi criado para a empresa de exemplo, Litware, Inc. Para concluir estas etapas, primeiro você deve concluir as etapas no procedimento "Criar um novo modelo de dados".
 
 
 ## <a name="open-the-electronic-reporting-configurations-tree"></a>Abrir a árvore de configurações Relatório eletrônico
@@ -78,7 +78,7 @@ As etapas a seguir explicam como um usuário no papel de Administrador do Sistem
 17. Na árvore, selecione 'Transações\Comprovante'.
 18. Clique em Adicionar fonte de dados.
 19. No campo Fórmula, insira "CONCATENATE(Transactions.Voucher, "-", ".
-    * Digite [ , “-“, ] no final da fórmula.  
+    * Digite [ , "-", ] no final da fórmula.  
 20. Na árvore, selecione 'Cadeia de caracteres\TEXTO'.
 21. Clique em Adicionar função.
 22. Na árvore, selecione 'Transações\ID-Registro(RecId)'.

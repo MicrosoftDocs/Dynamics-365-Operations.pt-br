@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4429bda6efddbb4f1fa7da06e91e51d885919c05
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: abe6745682030766eabcd4411121866c9d890be0
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914945"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149610"
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a>Criar uma requisição que use um RFQ
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este tópico explica como adicionar o preço e a informação do vendedor a uma requisição da compra de um processo do RFQ. O exemplo mostrado neste guia pode ser usado na empresa dos dados do programa demonstrativo de USMF, e você entrar como um Admin para terminar todas as etapas. As tarefas neste guia seriam feitas tipicamente por profissionais da obtenção.
 
@@ -56,7 +56,7 @@ A tarefa seguinte é criar um RFQ para obter ofertas dos vendedores para o produ
 2. Selecione **Exibir histórico**.
 3. Atualize a página.
 4. Expanda a seção **Rastrear detalhes**.
-5. Na árvore, selecione 'a linha em que começa com “Linha de fluxo de trabalho ativados em”.
+5. Na árvore, selecione "a linha em que começa com "Linha de fluxo de trabalho ativados em".
 6. Selecione **Exibir detalhes do fluxo de trabalho**.
 7. Expanda a seção **Itens de trabalho**.
 8. Selecione **Reatribuir**.

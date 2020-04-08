@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f61228d328521d0c6fe8e0ae704001a65d03151f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 207309e8be6c097cec187f3475a489330e1f6b6c
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249218"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142676"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Criar expressões de ER para chamar métodos de classe de aplicativo
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este guia fornece informações sobre como reutilizar a lógica de aplicativo existente em configurações de ER (relatório eletrônico) chamando métodos necessários de classes de aplicativos em expressões de ER. Os valores de argumentos para chamar classes podem ser definidos dinamicamente no tempo de execução: por exemplo, com base em informações no documento de análise para garantir sua exatidão. Neste guia, você criará as configurações de ER necessárias para a empresa de exemplo, Litware, Inc. Esse procedimento é criado para usuários com a função atribuída de Administrador de sistema ou Desenvolvedor de relatório eletrônico. 
 
 Estas etapas podem ser concluídas usando qualquer conjunto de dados. Você também deve baixar e salvar o próximo arquivo localmente: (https://go.microsoft.com/fwlink/?linkid=862266): SampleIncomingMessage.txt.
 
-Para concluir essas etapas, você deve primeiro concluir as etapas do procedimento “ER Criar um provedor de configuração e marcá-lo como ativo“.
+Para concluir essas etapas, você deve primeiro concluir as etapas do procedimento "ER Criar um provedor de configuração e marcá-lo como ativo".
 
 1. Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.
-    * Verifique se o provedor de configuração da empresa exemplo, Litware, Inc., está disponível e marcado como ativo. Se não visualizar esse provedor de configuração, você deve primeiro concluir as etapas do procedimento "Criar um provedor de configuração e marcá-lo como ativo".   
+    * Verifique se o provedor de configuração da empresa exemplo, Litware, Inc., está disponível e marcado como ativo. Se não visualizar este provedor de configuração, você deve primeiro concluir as etapas do procedimento "Criar um provedor de configuração e marcá-lo como ativo".   
     * Você está criando um processo para analisar extratos bancários de entrada para uma atualização de dados do aplicativo. Você receberá os extratos bancários de entrada como arquivos TXT que contêm códigos IBAN. Como parte do processo de importação do extrato bancário, você precisa validar a exatidão desses códigos IBAN usando a lógica que já está disponível.   
 
 ## <a name="import-a-new-er-model-configuration"></a>Importar uma nova configuração de modelo de ER
@@ -41,10 +41,10 @@ Para concluir essas etapas, você deve primeiro concluir as etapas do procedimen
     * Selecione o bloco do provedor Microsoft.  
 2. Clique em Repositórios.
 3. Clique em Mostrar filtros.
-4. Adicionar um campo de filtro 'Nome do tipo'. No campo Nome, digite o valor “recursos”, selecione o operador de filtro "contém" e clique em Aplicar.
+4. Adicionar um campo de filtro "Nome do tipo". No campo Nome, digite o valor "recursos", selecione o operador de filtro "contém" e clique em Aplicar.
 5. Clique em Abrir.
 6. Na árvore, selecione 'Modelo de pagamento'.
-    * Se o botão Importar na Guia Rápida Versões não estiver habilitado, você já importou a versão 1 da configuração de ER 'Modelo de pagamento'. Você pode ignorar as etapas restantes nesta subtarefa.   
+    * Se o botão Importar na Guia Rápida Versões não estiver habilitado, você já importou a versão 1 da configuração de ER "Modelo de pagamento". Você pode ignorar as etapas restantes nesta subtarefa.   
 7. Clique em Importar.
 8. Clique em Sim.
 9. Feche a página.
@@ -69,14 +69,14 @@ Para concluir essas etapas, você deve primeiro concluir as etapas do procedimen
 4. No campo Nome, digite "Raiz".
     * Raiz  
 5. No campo Caracteres especiais, selecione 'Nova linha - Windows (CR LF)'.
-    * A opção 'Nova linha - Windows (CR LF)' foi selecionada no campo 'Caracteres especiais'. Com base nessa configuração, cada linha no arquivo de análise é considerada um registro separado.  
+    * A opção "Nova linha - Windows (CR LF)" foi selecionada no campo "Caracteres especiais". Com base nessa configuração, cada linha no arquivo de análise é considerada um registro separado.  
 6. Clique em OK.
 7. Clique em Adicionar para abrir a caixa de diálogo suspensa.
 8. Na árvore, selecione 'Texto\Sequência'.
 9. No campo Nome, digite 'Linhas'.
     * Linhas  
 10. No campo Multiplicidade, selecione 'Um muitos'.
-    * A opção 'Um muitos' foi selecionada no campo 'Multiplicidade'. Com base nessa configuração, espera-se que pelo menos uma linha seja apresentada no arquivo de análise.  
+    * A opção "Um muitos" foi selecionada no campo "Multiplicidade". Com base nessa configuração, espera-se que pelo menos uma linha seja apresentada no arquivo de análise.  
 11. Clique em OK.
 12. Na árvore, selecione 'Raiz\Linhas'.
 13. Clique em Adicionar sequência.
@@ -142,7 +142,7 @@ Para concluir essas etapas, você deve primeiro concluir as etapas do procedimen
     * check_codes.verifyMOD1271_36(format.Root.Rows.Fields.IBAN)  
 39. Clique em Salvar.
 40. Feche a página.
-    * A condição de validação foi configurada para retornar FALSE para qualquer código IBAN inválido, chamando o método existente 'verifyMOD1271_36' da classe de aplicativo 'ISO7064'. Observe que o valor do código IBAN é definido dinamicamente no tempo de execução como o argumento do método de chamada baseado no conteúdo do arquivo TXT de análise.   
+    * A condição de validação foi configurada para retornar FALSE para qualquer código IBAN inválido, chamando o método existente "verifyMOD1271_36" da classe de aplicativo "ISO7064". Observe que o valor do código IBAN é definido dinamicamente no tempo de execução como o argumento do método de chamada baseado no conteúdo do arquivo TXT de análise.   
 41. Clique em Editar mensagem.
 42. No campo Fórmula, digite 'CONCATENATE("Invalid IBAN code has been found:  ", format.Root.Rows.Fields.IBAN)'.
     * CONCATENATE("Código IBAN inválido encontrado:  ", format.Root.Rows.Fields.IBAN)  
