@@ -660,7 +660,7 @@
               href: expense-management/expense-report-distributions.md
             - name: Despesas intercompanhia
               href: expense-management/intercompany-expense.md
-            - name: Políticas de despesas
+            - name: Definir políticas de despesas
               href: expense-management/travel-expense-policies.md
             - name: Exibir um relatório de despesas
               href: expense-management/view-expense-report.md
@@ -984,6 +984,8 @@
               href: project-management/project-contracts.md
             - name: Previsões e orçamentos do projeto
               href: project-management/project-forecasts-budgets.md
+            - name: Transferir orçamentos do projeto no final do ano fiscal
+              href: project-management/process-project-budgets-for-fiscal-year-end.md
             - name: Ordens de venda do projeto
               href: project-management/project-sales-orders.md
             - name: Ordens de compra para um projeto
@@ -1646,13 +1648,19 @@
                       href: localizations/tasks/create-submit-vat-report.md
                 - name: Exibir transações sobre liquidação
                   href: localizations/emea-transactions-settlement-form.md
+            - name: Finlândia
+              items:
+                - name: Visão geral da Finlândia
+                  href: localizations/finland.md
+                - name: Relatório de pagamento de impostos da Finlândia
+                  href: localizations/emea-fin-sales-tax-payment-report-finland.md
             - name: França
               items:
                 - name: Visão geral da França
                   href: localizations/france.md
                 - name: Setor público
                   items:
-                    - name: ​Contabilidade do setor público​
+                    - name: Contabilidade do setor público
                       href: localizations/emea-fra-public-sector-accounting.md
                     - name: Compromissos
                       href: localizations/emea-fra-commitments-public-sector.md
@@ -1692,10 +1700,12 @@
                   href: localizations/emea-fra-print-lump-sum-recovery-text.md
                 - name: ​Depreciação RB/SL​
                   href: localizations/emea-fra-rbsl-depreciation.md
-                - name: Configurar meio de pagamento
+                - name: Configurar método de pagamento
                   href: localizations/tasks/fr-00004-setup-method-payment.md
-                - name: Atualizar meio de pagamento do cliente
+                - name: Atualizar método de pagamento do cliente
                   href: localizations/tasks/fr-00004-update-method-payment-customer.md
+                - name: Relatório DAS-2
+                  href: localizations/emea-fra-das2-report.md
             - name: Alemanha
               items:
                 - name: Visão geral da Alemanha
@@ -1992,10 +2002,16 @@
                   href: localizations/emea-ita-exil-goods-for-free.md
                 - name: Consulta aprimorada em liquidações de débito ou de crédito
                   href: localizations/emea-ita-exil-improved-inquiry-settlement.md
+                - name: Liquidação de comissão sobre pagamentos
+                  href: localizations/emea-ita-exil-commission-settlement.md
                 - name: Simulações da contabilidade (Itália)
                   href: localizations/emea-ita-exil-general-ledger-simulations.md
+                - name: Perfis de lançamento configuráveis para bancos e tipos de remessa
+                  href: localizations/emea-ita-exil-bank-remittance.md
                 - name: Certificação exclusiva
                   href: localizations/emea-ita-exil-unique-certification.md
+                - name: Importação de protesto de letras de câmbio
+                  href: localizations/emea-ita-exil-protest-boe.md
             - name: Japão
               items:
                 - name: Visão geral do Japão
@@ -2460,6 +2476,8 @@
                       href: localizations/rus-inventory-cost-structure.md
                     - name: Assistente de ajuste do estoque
                       href: localizations/rus-inventory-adjustment-wizard.md
+                    - name: Relatórios de estoque
+                      href: localizations/rus-inventory-reports.md
                 - name: Relatórios
                   items:
                     - name: Relatórios financeiros

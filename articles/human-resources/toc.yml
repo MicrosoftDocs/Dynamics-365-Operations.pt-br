@@ -5,6 +5,8 @@
       items:
         - name: Novidades ou alterações no Human Resources
           href: hr-admin-whats-new.md
+        - name: 19 de março de 2020
+          href: hr-whats-new-2020-03-19.md
         - name: 10 de março de 2020
           href: hr-whats-new-2020-03-10.md
         - name: 3 de março de 2020
@@ -539,3 +541,9 @@
               href: hr-learning-create-closed-ended-question.md
             - name: Criar uma pergunta dependente
               href: hr-learning-depending-question.md
+        - name: Configurar autoatendimento de Funcionário e Gerente
+          items:
+            - name: Visão geral de autoatendimento de Funcionário e Gerente
+              href: hr-employee-manager-self-service-overview.md
+            - name: Editar informações pessoais
+              href: hr-employee-manager-self-service-edit-personal-information.md
