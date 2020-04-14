@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 48d371a3c03b623c97042c063930cee95c67c4fa
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3c57cffef851b6001844648a63ce53577e4f4798
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174719"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3137966"
 ---
 # <a name="tax-assessment-for-iss-tax-brazil"></a>Apuração de imposto ISS (Brasil)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 É possível fazer a avaliação fiscal de ISS de um determinado período de escrituração, considerando o valor de ISS a ser recuperado e o valor de ISS a ser pago a partir das notas fiscais. Quanto ao valor devido após a avaliação fiscal, você pode fazer o pagamento do valor para a autoridade fiscal. Esta tarefa usa a empresa de demonstração BRMF.
 

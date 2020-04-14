@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143782413359d87f3d4c46940f9a699fbf0e8f90
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 6d292d028ebc87892760524dbd7709e8f181fc5d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769800"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141801"
 ---
 # <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Criar configurações para gerar relatórios em formatos do Office com imagens incorporadas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Para concluir as etapas neste procedimento, você deve primeiro concluir o procedimento, "ER Criar um provedor de configuração e marcá-lo como ativo". Este procedimento explica como criar configurações de relatório eletrônico (ER) para gerar um documento do Microsoft Excel ou do Word contendo imagens incorporadas. Nesse procedimento, você criará as configurações de ER necessárias para a empresa de exemplo, a Litware, Inc. Essas etapas podem ser concluídas usando o conjunto de dados USMF. Este procedimento é criado para usuários com a função atribuída de administrador do sistema ou desenvolvedor de relatório eletrônico. Antes de começar, baixe e salve os arquivos listados no tópico da Ajuda [Inserir imagens e formas em documentos gerados usando ER](../electronic-reporting-embed-images-shapes.md). Os arquivos são: Model for cheques.xml, Cheques printing format.xml, Company logo.png, Signature image.png, Signature image 2.png, e Cheque template Word.docx.
 
 ## <a name="verify-prerequisites"></a>Verificar pré-requisitos  
  1. Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.  
- 2. Verifique se o provedor de configuração da empresa exemplo, Litware, Inc., está disponível e marcado como Ativo. Se você não visualizar esse provedor de configuração, conclua as etapas do procedimento “Criar um provedor de configuração e marcá-lo como ativo."   
+ 2. Verifique se o provedor de configuração da empresa exemplo, Litware, Inc., está disponível e marcado como Ativo. Se não visualizar este provedor de configuração, conclua as etapas no procedimento "Criar um provedor de configuração e marcá-lo como ativo".   
  3. Clique em Configurações de relatórios.  
  
 ## <a name="add-a-new-er-model-configuration"></a>Adicionar uma nova configuração de modelo de ER  
@@ -42,7 +42,7 @@ Para concluir as etapas neste procedimento, você deve primeiro concluir o proce
  6. O modelo carregado será usado como fonte de dados de informações para gerar documentos que contenham imagens no Excel e no Word.  
 
 ## <a name="add-a-new-er-format-configuration"></a>Adicionar uma nova configuração de formato de ER  
- 1. Em vez de criar um novo formato, você pode carregar o arquivo de configuração do formato de ER (Cheques printing format.xml) que salvou anteriormente. Esse arquivo contém o layout de exemplo do formato para imprimir cheques usando o formulário pré-impresso e o mapeamento desse formato para o modelo de dados 'Modelo de cheques'.   
+ 1. Em vez de criar um novo formato, você pode carregar o arquivo de configuração do formato de ER (Cheques printing format.xml) que salvou anteriormente. Esse arquivo contém o layout de exemplo do formato para imprimir cheques usando o formulário pré-impresso e o mapeamento desse formato para o modelo de dados "Modelo de cheques".   
  2. Clique em Trocar.  
  3. Clique em Carregar de um arquivo XML.  
  4. Clique em Procurar e selecione o arquivo Cheques printing format.xml.   
@@ -55,7 +55,7 @@ Para concluir as etapas neste procedimento, você deve primeiro concluir o proce
  1. No Painel de Ação, clique em Configurações.  
  2. Clique em Parâmetros de usuário.  
  3. Selecione Sim no campo Executar configurações.  
-  Ative o sinalizador 'Executar rascunho' para iniciar a versão de rascunho do formato selecionado em vez da versão concluída.  
+  Ative o sinalizador "Executar rascunho" para iniciar a versão de rascunho do formato selecionado em vez da versão concluída.  
  4. Clique em OK.  
 
 ## <a name="configure-cash--bank-management-parameters"></a>Configurar parâmetros de gerenciamento de banco e caixa  

@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 44f6ac3263f115e76d054e68c99d58dc11e6f1a0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cf19d69c498da32594e17e16fb83ed25e6747982
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182223"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142975"
 ---
 # <a name="er-map-data-model-to-selected-data-sources"></a>ER Mapear modelo de dados para fontes de dados selecionadas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode mapear um modelo de dados de relatório eletrônico (ER) para fontes de dados selecionadas. Esse mapeamento de modelo será usado posteriormente como uma fonte de dados em uma configuração de formato que será usada para gerenciar documentos de pagamento eletrônico. Neste exemplo, você mapeia um modelo de dados para a empresa exemplo, Litware, Inc., em fontes de dados. Para concluir essas etapas, você deve primeiro concluir as etapas do procedimento 'Selecionar fontes de dados para mapeamento de modelo'.
+As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode mapear um modelo de dados de relatório eletrônico (ER) para fontes de dados selecionadas. Esse mapeamento de modelo será usado posteriormente como uma fonte de dados em uma configuração de formato que será usada para gerenciar documentos de pagamento eletrônico. Neste exemplo, você mapeia um modelo de dados para a empresa exemplo, Litware, Inc., em fontes de dados. Para concluir essas etapas, você deve primeiro concluir as etapas do procedimento "Selecionar fontes de dados para mapeamento de modelo".
 
 
 ## <a name="open-er-configurations-tree"></a>Abra a árvore de Configurações de ER
@@ -36,7 +36,7 @@ As etapas a seguir explicam como um usuário no papel de Administrador do Sistem
 
 ## <a name="select-created-model-mapping"></a>Selecione o mapeamento de modelo criado
 1. Na árvore, selecione 'Pagamentos (modelo simplificado)'.
-    * Verifique se a configuração do modelo “Pagamentos (modelo simplificado)“ foi criada antecipadamente. Caso contrário, pare agora e retorne após a conclusão da guia de tarefas "Criar uma nova configuração com modelo de dados do domínio selecionado"  
+    * Verifique se a configuração do modelo "Pagamentos (modelo simplificado)" foi criada antecipadamente. Caso contrário, pare agora e retorne após a conclusão da guia de tarefas "Criar uma nova configuração com modelo de dados do domínio selecionado".  
 2. Clique em Designer de modelo.
 3. Clique em Mapear modelo para fonte de dados.
 4. Selecione o registro de 'Mapeamento CT'.

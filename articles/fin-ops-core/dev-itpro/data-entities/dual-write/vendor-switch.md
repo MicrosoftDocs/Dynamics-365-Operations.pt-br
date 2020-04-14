@@ -19,48 +19,61 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 587a9b98f28b11e303aff4b59e9726f220d956eb
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: ffd7a4c01810578b4abb6942aeff76e5147fafa9
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019633"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173030"
 ---
 # <a name="switch-between-vendor-designs"></a>Alternar entre designs de fornecedor
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
+
 
 ## <a name="vendor-data-flow"></a>Fluxo de dados do fornecedor 
 
-Se você usa outros aplicativos do Dynamics 365 para controlar os fornecedores e quer separar as informações de fornecedores das informações de clientes, utilize este design básico de fornecedor.  
+Se você optar por usar a entidade **Conta** para armazenar fornecedores do tipo **Organização** e a entidade **Contato** para armazenar fornecedores do tipo **Pessoa**, configure o seguinte fluxos de trabalho. Caso contrário, essa configuração não é necessária.
 
-![Fluxo básico de fornecedores](media/dual-write-vendor-data-flow.png)
- 
-Se você usa outros aplicativos do Dynamics 365 para controlar os fornecedores e quer continuar usando a entidade **Conta** para armazenar informações de fornecedores, utilize este design de fornecedor estendido. Neste design, informações estendidas de fornecedores, como status em espera e o perfil do fornecedor, são armazenadas na entidade **fornecedores** do Common Data Service. 
+## <a name="use-the-extended-vendor-design-for-vendors-of-the-organization-type"></a>Use o design de fornecedor estendido para fornecedores do tipo Organização
 
-![Fluxo estendido de fornecedores](media/dual-write-vendor-detail.jpg)
- 
-Siga as etapas abaixo para usar o design estendido de fornecedor: 
- 
-1. O pacote de soluções **SupplyChainCommon** contém os modelos do processo de fluxo de trabalho mostrados na imagem a seguir.
-    > [!div class="mx-imgBorder"]
-    > ![Modelos do processo de fluxo de trabalho](media/dual-write-switch-3.png)
-2. Crie novos processos de fluxo de trabalho usando os modelos do processo de fluxo de trabalho: 
-    1. Crie um novo processo de fluxo de trabalho para a entidade **Fornecedor** usando o modelo de processo de fluxo de trabalho **Criar Fornecedores na Entidade Conta** e clique em **OK**. Este fluxo de trabalho lida com o cenário de criação de fornecedor para a entidade **Conta**.
-        > [!div class="mx-imgBorder"]
-        > ![Criar Fornecedores na Entidade Conta](media/dual-write-switch-4.png)
-    2. Crie um novo processo de fluxo de trabalho para a entidade **Fornecedor** usando o modelo de processo de fluxo de trabalho **Atualizar Entidade Contas** e clique em **OK**. Este fluxo de trabalho lida com o cenário de atualização de fornecedor para a entidade **Conta**. 
-        > [!div class="mx-imgBorder"]
-        > ![Atualizar Entidade Contas](media/dual-write-switch-5.png)
-    3. Crie novos processos de fluxo de trabalho com base nos modelos criados na entidade **Contas**. 
-        > [!div class="mx-imgBorder"]
-        > ![Criar fornecedores na entidade fornecedores](media/dual-write-switch-6.png)
-        > [!div class="mx-imgBorder"]
-        > ![Atualizar a entidade fornecedores](media/dual-write-switch-7.png)
-    4. Você pode configurar os fluxos de trabalho como fluxos de trabalho em tempo real ou em segundo plano de acordo com seus requisitos. 
-        > [!div class="mx-imgBorder"]
-        > ![Converter para fluxo de trabalho em segundo plano](media/dual-write-switch-8.png)
-    5. Ative os fluxos de trabalho que você criou nas entidades **Conta** e **Fornecedor** para começar a usar a entidade **Conta** para armazenar informações de fornecedor. 
- 
+O pacote de solução **Dynamics365FinanceExtended** contém os seguintes modelos de processo de fluxo de trabalho. Você criará um fluxo de trabalho para cada modelo.
+
++ Criar fornecedores na entidade Contas
++ Criar fornecedores na entidade Fornecedores
++ Atualizar fornecedores na entidade Contas
++ Atualizar fornecedores na entidade Fornecedores
+
+Para criar processos de fluxo de trabalho usando os modelos de processo de fluxo de trabalho, siga estas etapas:
+
+1. Crie um processo de fluxo de trabalho para a entidade **Fornecedor** e selecione o modelo de processo de fluxo de trabalho **Criar fornecedores na entidade Contas**. Em seguida, selecione **OK**. Este fluxo de trabalho lida com o cenário de criação de fornecedor para a entidade **Conta**.
+
+    ![Criar fornecedores no processo de fluxo de trabalho da entidade Contas](media/create_process.png)
+
+2. Crie um processo de fluxo de trabalho para a entidade **Fornecedor** e selecione o modelo de processo de fluxo de trabalho **Atualizar fornecedores na entidade Contas**. Em seguida, selecione **OK**. Este fluxo de trabalho lida com o cenário de atualização de fornecedor para a entidade **Conta**.
+3. Crie um processo de fluxo de trabalho para a entidade **Conta** e selecione o modelo de processo de fluxo de trabalho **Criar fornecedores na entidade Fornecedores**.
+4. Crie um processo de fluxo de trabalho para a entidade **Conta** e selecione o modelo de processo de fluxo de trabalho **Atualizar fornecedores na entidade Fornecedores**.
+5. Você pode configurar os fluxos de trabalho como fluxos de trabalho em tempo real ou em segundo plano de acordo com seus requisitos. Para configurar um fluxo de trabalho como um fluxo de trabalho em segundo plano, selecione **Converter para fluxo de trabalho em segundo plano**.
+
+    ![Botão Converter para fluxo de trabalho em segundo plano](media/background_workflow.png)
+
+6. Ative os fluxos de trabalho que você criou para as entidades **Conta** e **Fornecedor** para começar a usar a entidade **Conta** para armazenar informações de fornecedores do tipo **Organização**.
+
+## <a name="use-the-extended-vendor-design-for-vendors-of-the-person-type"></a>Use o design de fornecedor estendido para fornecedores do tipo Pessoa
+
+O pacote de solução **Dynamics365FinanceExtended** contém os seguintes modelos de processo de fluxo de trabalho. Você criará um fluxo de trabalho para cada modelo.
+
++ Criar fornecedores do tipo Pessoa na entidade Fornecedores
++ Criar fornecedores do tipo Pessoa na entidade Contatos
++ Atualizar fornecedores do tipo Pessoa na entidade Contatos
++ Atualizar fornecedores do tipo Pessoa na entidade Fornecedores
+
+Para criar processos de fluxo de trabalho usando os modelos de processo de fluxo de trabalho, siga estas etapas:
+
+1. Crie um processo de fluxo de trabalho para a entidade **Fornecedor** e selecione o modelo de processo de fluxo de trabalho **Criar fornecedores do tipo Pessoa na entidade Contatos**. Em seguida, selecione **OK**. Este fluxo de trabalho lida com o cenário de criação de fornecedor para a entidade **Contato**.
+2. Crie um processo de fluxo de trabalho para a entidade **Fornecedor** e selecione o modelo de processo de fluxo de trabalho **Atualizar fornecedores do tipo Pessoa na entidade Contatos**. Em seguida, selecione **OK**. Este fluxo de trabalho lida com o cenário de atualização de fornecedor para a entidade **Contato**.
+3. Crie um processo de fluxo de trabalho para a entidade **Contato** e selecione o modelo de processo de fluxo de trabalho **Criar fornecedores do tipo Pessoa na entidade Fornecedores**.
+4. Crie um processo de fluxo de trabalho para a entidade **Contato** e selecione o modelo de processo de fluxo de trabalho **Atualizar fornecedores do tipo Pessoa na entidade Fornecedores**.
+5. Você pode configurar os fluxos de trabalho como fluxos de trabalho em tempo real ou em segundo plano de acordo com seus requisitos. Para configurar um fluxo de trabalho como um fluxo de trabalho em segundo plano, selecione **Converter para fluxo de trabalho em segundo plano**.
+6. Ative os fluxos de trabalho que você criou nas entidades **Contato** e **Fornecedor** para começar a usar a entidade **Contato** para armazenar informações de fornecedores do tipo **Pessoa**.

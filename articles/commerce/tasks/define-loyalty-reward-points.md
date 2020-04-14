@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9557b25af0fba6429d34564e1a3e158b6258698a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 4e40ebcbf3ab1befc641ae34571a8b974bd0425a
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021599"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140867"
 ---
 # <a name="define-loyalty-reward-points"></a>Definir pontos de premiação de fidelidade
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este procedimento orienta na definição de pontos de recompensa de fidelidade. Você deve definir pontos de recompensa de fidelidade antes de configurar um programa de fidelidade. Este procedimento usa a empresa de dados de demonstração USRT.
 
@@ -42,7 +42,7 @@ Este procedimento orienta na definição de pontos de recompensa de fidelidade. 
 8. No campo Classificação de resgate, insira um número.
     * A Classificação de resgate será usada quando dois ou mais pontos resgatáveis de recompensa possam ser usados para pagar por produtos. Se os dois pontos de recompensa tiverem a mesma classificação de resgate, o que necessitar do número mais baixo de pontos será usado.  
 9. No campo Valor do período de validade, insira um número.
-    * Os pontos de recompensa expirarão no número especificado de dias, meses ou anos depois que forem emitidos. Um valor de '0' significa que os pontos de recompensa de fidelidade nunca expirarão.  
+    * Os pontos de recompensa expirarão no número especificado de dias, meses ou anos depois que forem emitidos. Um valor de "0" significa que os pontos de recompensa de fidelidade nunca expirarão.  
 10. No campo Unidade do período de validade, selecione uma opção.
 11. Clique em Salvar.
 

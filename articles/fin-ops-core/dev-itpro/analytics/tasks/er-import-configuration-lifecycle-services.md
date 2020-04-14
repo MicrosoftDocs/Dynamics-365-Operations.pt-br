@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0830707885e8ed52581aa789df0279d78e3a9c10
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 67e09e3187ac49e12727116f55066b64a386e2de
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184821"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142377"
 ---
 # <a name="er-import-a-configuration-from-lifecycle-services"></a>Importação ER de uma configuração do Lifecycle Services
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode importar uma nova versão de uma configuração do Relatório eletrônico (RE) do Microsoft Lifecycle Services (LCS).
 
@@ -36,7 +36,7 @@ Neste exemplo, você selecionará a versão desejada da configuração de ER e a
 
 ## <a name="delete-a-shared-version-of-data-model-configuration"></a>Excluir uma versão compartilhada de configuração do modelo de dados
 1. Na árvore, selecione "Configuração do modelo de exemplo".
-    * A primeira versão de uma configuração do modelo de dados de amostra foi criada e publicada ao LCS durante o procedimento "Carregamento de uma configuração ER em um Lifecycle Services. Nesse procedimento, você excluirá esta versão da configuração de ER. Esta versão de configuração do modelo de dados de amostra será importada posteriormente do LCS.  
+    * A primeira versão de uma configuração do modelo de dados de amostra foi criada e publicada ao LCS durante o procedimento "Carregamento de uma configuração ER em um Lifecycle Services". Nesse procedimento, você excluirá esta versão da configuração de ER. Esta versão de configuração do modelo de dados de amostra será importada posteriormente do LCS.  
 2. Na lista, localize e selecione o PDV desejado.
     * Selecione a versão dessa configuração que tem um status "Compartilhado". Este status indica que a configuração esteve publicada ao LCS.  
 3. Clique em Alterar status.
@@ -52,7 +52,7 @@ Neste exemplo, você selecionará a versão desejada da configuração de ER e a
 
 ## <a name="import-a-shared-version-of-data-model-configuration-from-lcs"></a>Importar uma versão compartilhada de configuração do modelo de dados do LCS
 1. Na lista, marque a linha selecionada.
-    * Abra a lista de repositórios para a 'Litware, Inc.'. provedor de configuração.  
+    * Abra a lista de repositórios para a "Litware, Inc." provedor de configuração.  
 2. Clique em Repositórios.
 3. Clique em Abrir.
     * Selecione a loja de LCS e a abra.  

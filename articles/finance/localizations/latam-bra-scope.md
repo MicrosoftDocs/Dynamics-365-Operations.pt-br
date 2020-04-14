@@ -3,7 +3,7 @@ title: Escopo da localização brasileira
 description: Este tópico descreve a estratégia e o escopo para leis e regulamentos tributários, financeiros e contábeis no Brasil.
 author: sndray
 manager: AnnBe
-ms.date: 12/12/2019
+ms.date: 03/25/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: c26ece4683fe73574ac1ce12bb22c1437c2265d4
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 46040a5864c00a2ababc77594941f841feb680d6
+ms.sourcegitcommit: e4de5f2854c757d449de91986c631ca919e90cc1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3058005"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "3165568"
 ---
 # <a name="scope-of-the-brazilian-localization"></a>Escopo da localização brasileira
 
@@ -869,7 +869,7 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <td>Geração de um arquivo de texto e suporte para empresas definidas como Perfil A
 <p>Versões de layout disponíveis:</p>
 <ul>
-<li>Código de Layout 13 e anterior</li>
+<li>Código de Layout 14 e anterior</li>
 </ul>
 </td>
 <td>Sim</td>
@@ -879,15 +879,14 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <td>&nbsp;</td>
 <td>Suporte para os seguintes registros para empresas definidas como Perfil A:
 <ul>
-<li>Bloco 0: 0000-0001-0005-0015-0100-0150-0190-0200-0210-0220-0300-0305-0400-0450-0460-0500-0600-0990</li>
-<li>Bloco C: C001-C100-C101-C110-C111-C113-C114-C120-C130-C140-C141-C160-C170-C172-C190-C195-C400-C405-C410-C420-C460-C470-C490-C500 (entrada)-C590 (entrada)-C990</li>
+<li>Bloco 0: 0000-0001-0002-0005-0015-0100-0150-0190-0200-0210-0220-0300-0305-0400-0450-0460-0500-0600-0990</li>
+<li>Bloco C: C001-C100-C101-C110-C111-C113-C114-C120-C130-C140-C141-C160-C170-C172-C180-C185-C190-C191-C195-C400-C405-C410-C420-C460-C470-C490-C500(entrada)-C590 (entrada)-C990</li>
 <li>Bloco D (somente para notas fiscais de entrada): D001-D100-D190-D195-D500-D590-D990</li>
 <li>Bloco E: E001-E100-E110-E111-E116-E200-E210-E220-E250-E300-E310-E311-E312-E313-E316-E500-E510-E520-E530-E990</li>
 <li>Bloco G: G001-G110-G125-G126-G130-G140-G990</li>
-<li>Bloco H: H001-H005-H010-H020-H990</li>
-<li>Bloco K:&nbsp;<span style="display: inline !important; float: none; background-color: #ffffff; color: #000000; cursor: text; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">K001-K100-K200-K220-K230-K235</span></li>
-<li>Bloco 1: 1001-1010-1990
-<ul>
+<li>Bloco H: H001-H005-H010-H020-H030-H990. Observação: o H005 e os registros relacionados são compatíveis apenas com o código de razão = 01, 05 para o estado RS e 06.</li>
+<li>Bloco K: K001-K100-K200-K220-K230-K235</span></li>
+<li>Bloco 1: 1001-1010-1250-12251990
 <li>Bloco 1900-1910-1920-1921-1923-1926-1990 only para o estado do Rio Grande do Sul</li>
 </ul>
 </li>
@@ -924,10 +923,13 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <ul>
 <li>Portaria SEF Nº 396/2018</li>
 <li>Portaria SEF Nº 208/2019</li>
+<li>Portaria SEF Nº 254/2019</li>
+<li>Portaria SEF Nº 343/2019</li>
+<li>Portaria SEF Nº 416/2019</li>
 <li>Registros:
 <ul>
 <li>Bloco 0: 0000-0001-0005-0100-0190-0200-0220</li>
-<li>Bloco 2: 2100-2110-2113-2114-2115-2120-2121-2130-2132-2133</li>
+<li>Bloco 2: 2100-2110-2113-2114-2115-2120-2121-2130-2131-2132-2133-2134</li>
 <li>Bloco H: H001-H005-H010-H990</li>
 <li>Bloco 9: 9001-9900-9990-9999</li>
 </ul>
@@ -938,8 +940,9 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <td>Sim</td>
 </tr>
 <tr>
+
 <td>Contribuições do SPED(PIS e COFINS)</td>
-<td>Geração de um arquivo de texto de acordo com o layout 005 e anterior</td>
+<td>Geração de um arquivo de texto de acordo com o layout 006 e anterior</td>
 <td>Sim</td>
 <td>Sim</td>
 </tr>
@@ -959,13 +962,13 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <td>&nbsp;</td>
 <td>Suporte para os seguintes registros:
 <ul>
-<li>Bloco 0: 0000-0001-0100-0110-0111-0140-0150-0190-0200-0400-0450-0990</li>
+<li>Bloco 0: 0000-0001-0100-0110-0111-0140-0150-0190-0200-0400-0450-0900-0990</li>
 <li>Bloco A: A001-A010-A100-A110-A111-A120-A170-A990</li>
 <li>Bloco C: C001-C010-C100-C110-C111-C120-C170-C175-C180-C181-C185-C188-C190-C191-C195-C198-C199-C380-C381-C385-C400-C405-C481-C485-C490-C491-C495-C500-C501-C505-C509</li>
 <li>Bloco D (somente para notas fiscais de entrada): D001-D010-D100-D101-D105-D111-D500-D501-D505-D509</li>
 <li>Bloco F: F010-F100-F111-F120-F129-F130-F600-F700-F800-F990</li>
 <li>Bloco M: M001-M100-M105-M110-M115-M200-M205-M210-M220-M225-M400-M410-M500-M505-M510-M515-M600-M606-M610-M620-M625-M800-M810-M990</li>
-<li>Bloco 1: 1100-1300-1500-1700</li>
+<li>Bloco 1: 1100-1010-1011-1300-1500-1700</li>
 </ul>
 </td>
 <td>Sim</td>
@@ -1019,7 +1022,7 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <tr>
 <td>SPED Contábil</td>
 <td>Geração de arquivos de texto do SPED Contábil
-<p>Versões de layout suportadas: 7.0 e anterior</p>
+<p>Versões de layout suportadas: 8.0 e anterior</p>
 </td>
 <td>Sim</td>
 <td>Sim</td>

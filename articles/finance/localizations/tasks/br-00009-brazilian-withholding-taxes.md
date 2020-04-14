@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a6375455abcfc0dda719998ecb87e6e77145407
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 64cb3e23f2e4d808ad2f2bea7e2a9a4b2f0f2257
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175185"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138384"
 ---
 # <a name="brazilian-withholding-taxes"></a>Impostos retidos na fonte no Brasil 
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimento configura um código de imposto retido na fonte, um tipo de imposto retido na fonte e um parâmetro de cálculo para calcular o imposto retido na fonte para pagamentos de serviços da consulta ou de serviço profissional. Este procedimento usa a empresa de dados de demonstração BRMF.
 

@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1cf45e838afcb55e15175811f4d38be07d7a484d
-ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
+ms.openlocfilehash: 8200e0235fa78cbef4fdadd1d1c124446b89e72a
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "1874868"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145862"
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a>Alterar a propriedade de estoque de consignação com base na demanda de produção
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimento mostra como alterar o proprietário de estoque de remessa do fornecedor à entidade legal quando há uma demanda para o estoque na produção. Esta alteração de propriedade é feita criar e lançar um diário de alteração de propriedade do estoque. As linhas de diário da alteração de propriedade podem ser criadas manualmente ou, como mostra do registro, com base em demanda existente de produção. Normalmente, um supervisor de fábrica executa esta tarefa. Você pode usar esse procedimento na empresa de dados demonstrativos USMF ou nos seus próprios dados. Se estiver usando seus próprios dados, verifique se você tem os seguintes pré-requisitos: um nome de diário de estoque que é configurado para a alteração de propriedade de estoque, itens disponíveis fisicamente de lucros registrados, e uma ou mais linhas de ordem de produção para material. Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynamics 365 for Operations.
 

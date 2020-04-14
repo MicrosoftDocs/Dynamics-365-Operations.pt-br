@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e97ed469811c03c28d043ce9bab8ba0394447584
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bef818364b79ee23319daa76f7dae48ce5dfd851
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183865"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138290"
 ---
 # <a name="issue-icms-tax-credit-fiscal-documents-brazil"></a>Emitir notas fiscais de crédito de imposto ICMS (Brasil)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Você pode criar uma nota fiscal de transferência ou apropriação de imposto e gerar uma nota fiscal eletrônica (NF-e). Quando você lança o documento, uma mensagem XML da NF-e é gerada e enviada para a Secretaria da Fazenda (SEFAZ). Esta tarefa usa a empresa de demonstração BRMF.
 

@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d05020c5b83137d977d7260e269cb7d8c219406
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8f81f0f86c255d048393047965c0aa29cbef09d0
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184775"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143067"
 ---
 # <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Revisar configurações para criar relatórios em formatos do Office com imagens incorporadas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Para completar essas etapas, primeiro você deve concluir as etapas no guia de tarefas "ER Fazer relatórios nos formatos do MS Office com imagens incorporadas (Parte 1: Configurar parâmetros)".
+Para concluir essas etapas, primeiro você deve concluir as etapas no guia de tarefas "ER Criar relatórios nos formatos do MS Office com imagens incorporadas (Parte 1: Configurar parâmetros)".
 
 Este procedimento mostra como criar configurações de relatório eletrônico (ER) para gerar documentos eletrônicos contendo imagens incorporadas no Microsoft Excel e no Microsoft Word. Neste exemplo, você revisará as configurações de ER para a empresa exemplo, Litware, Inc. 
 
@@ -86,7 +86,7 @@ Esse procedimento é destinado a usuários com a função de Administrador do si
     * Observe que o elemento da célula de formato "CompLogo" representa o item do Excel que é usado para preencher a imagem do logotipo da empresa no relatório. Esse elemento de formato está associado ao elemento de modelo de dados de imagem que, em tempo de execução, contém uma imagem de logotipo da empresa no formato binário.   
 11. Clique na aba Mapeamento.
 12. Clique em Edição habilitada.
-    * Observe que você pode criar o elemento da célula de formato “CompLogo”, de modo que ele não seja mais habilitado. Nesse caso, o elemento de imagem associado do Excel ocultará um logotipo da empresa no relatório gerado. Se a expressão habilitada retornar TRUE e a associação definida não mostrar nenhuma imagem, o elemento de imagem associado do Excel mostrará uma imagem que foi salva no modelo do Excel.   
+    * Observe que você pode criar o elemento da célula de formato "CompLogo", de modo que ele não seja mais habilitado. Nesse caso, o elemento de imagem associado do Excel ocultará um logotipo da empresa no relatório gerado. Se a expressão habilitada retornar TRUE e a associação definida não mostrar nenhuma imagem, o elemento de imagem associado do Excel mostrará uma imagem que foi salva no modelo do Excel.   
 13. Feche a página.
 14. Na árvore, expanda “rótulos: Contêiner”.
     * Alguns rótulos que são apresentados no formulário pré-impresso do cheque serão incluídos no relatório quando ele for criado para fins de teste. Entretanto, esses rótulos não serão impressos durante a impressão real porque o formulário pré-impresso já os inclui.  

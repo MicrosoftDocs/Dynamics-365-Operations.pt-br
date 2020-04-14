@@ -15,16 +15,16 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac9235c33f0cdc48be8035411a2750fd88feb7a5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 05a01cd65947e0cffac658b969fe0220b071bd1b
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183859"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3137963"
 ---
 # <a name="create-a-tax-assessment---pis-and-cofins-tax-brazil"></a>Criar uma apuração de imposto - PIS e COFINS (Brasil)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Você pode criar uma avaliação de imposto para contribuições de PIS/COFINS por um período de escrituração específico. A avaliação de imposto considera o valor da contribuição de PIS/COFINS para recuperar e o valor da contribuição de PIS/COFINS para pagar os documentos fiscais. Para o valor devido após a apuração de imposto, crie o pagamento de impostos. Este registro usa a empresa de dados de demonstração BRMF.
 

@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 759869577ef30cd3f81eb74103a93cc5d1a3d608
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: dcc00bba4aa92ad089bcab83ee22f79c21ccc252
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042841"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141847"
 ---
-# <a name="generate-documents-that-have-application-data"></a>Gerar documentos com dados da solicitação de emprego
+# <a name="generate-documents-that-have-application-data"></a>Gerar documentos com dados do aplicativo
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Para concluir as etapas desse procedimento, você deve primeiramente concluir o procedimento, "ER Gerar documentos com atualização de dados de aplicativo (Parte 4: Modificar formato)".
 
@@ -43,10 +43,10 @@ Este procedimento é criado para usuários com a função atribuída de administ
 
     Arquivando detalhes de processo de relatório Intrastat, precisamos identificar registros de cada arquivo morto que criamos. Uma sequência numérica especial deve ser configurada para isso.  
 
-3. Selecione a referência 'ID de arquivo morto Intrastat'.
+3. Selecione a referência "ID de arquivo morto Intrastat".
 4. No campo Número, selecione campo Código, digite um valor.
 
-    No campo 'Código de sequência numérica', digite ou selecione o valor ‘Fore_2’.  
+    No campo "Código de sequência numérica", digite ou selecione o valor "Fore_2".  
 
 5. Altera o código de sequência numérica
 6. Clique em Salvar.

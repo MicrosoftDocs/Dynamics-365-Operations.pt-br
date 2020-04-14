@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14944ee701788b2d77958afe40b8d86956895c51
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 50f9f954bd4006adbf8723e0f056ea657468b1bc
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174716"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3137962"
 ---
 # <a name="non-fiscal-operations-brazil"></a>Operações não fiscais (Brasil)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Use este procedimento para criar transações não fiscais de documentos que serão incluídas no arquivo de texto do Sistema Público de Escrituração Fiscal Digital (SPED EFD). Os arquivos de texto das contribuições de SPED EFD são gerados por entidades legais que já têm a obrigação de emitir o SPED Fiscal e Contábil. Os arquivos de texto fornecem informações sobre as transações que representam as receitas tributáveis ou não tributáveis do Programa de Integração Social (PIS) e da Contribuição para o Financiamento da Seguridade Social (COFINS) e o custo ou as despesas com crédito de PIS e de COFINS. As operações que não estão relacionadas aos documentos fiscais, como aluguel ou receita ou despesas relacionadas às operações, devem ser incluídas no registro F100 do arquivo de texto. Esta tarefa usa a empresa de demonstração BRMF.
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 28a82ea8747fcbbceb835291ad5cd3d87091a736
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9a087fa63bfdf4c2340f0fe9a8bdbd9195a7b90b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190686"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144055"
 ---
 # <a name="approve-application-inbox-records"></a>Aprovar registros da caixa de entrada de solicitações de emprego
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimento mostra como revisar solicitações de emprego recebidas nas páginas de autosserviço do funcionário. Além de examinar solicitações de emprego, é possível aprovar a solicitação de emprego nos registros de caixa selecionado. Os registros de inbox de aplicativo representam as solicitações de emprego enviadas para a empresa para consideração. Após a aprovação de um registro do candidato, um registro será criado para a pessoa que enviou a solicitação de emprego. A empresa de dados demo usada para criar este procedimento é USMF.
 

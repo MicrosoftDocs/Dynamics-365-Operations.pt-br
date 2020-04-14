@@ -16,27 +16,27 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fcceb0e4d5f3bec54598515da0a5cbd8d11def3d
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: ea5b17873dea4508230f39ffb41a50e2f427584f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769846"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142123"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER Projetar uma configuração para gerar relatórios no formato OPENXML (Novembro de 2016)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este tópico explica como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar uma configuração de Relatório Eletrônico (RE) que contem um modelo para gerar os documentos eletrônicos no formato OPENXML. Essa configuração será usada para processar pagamentos do fornecedor.
 
 Neste exemplo, você criará uma configuração para a empresa de exemplo, Litware, Inc. Estas etapas podem ser executadas na empresa GBSI.
 
-Para completar essas etapas, você deve primeiro completar as etapas do procedimento “Criar um provedor de configuração e marcá-lo como ativo“. Você também deve ter um arquivo Excel que é importado ao criar o modelo. Esse arquivo pode ser acessado de [Modelo de relatório de pagamento](https://go.microsoft.com/fwlink/?linkid=862266).
+Para completar essas etapas, você deve primeiro completar as etapas do procedimento "Criar um provedor de configuração e marcá-lo como ativo". Você também deve ter um arquivo Excel que é importado ao criar o modelo. Esse arquivo pode ser acessado de [Modelo de relatório de pagamento](https://go.microsoft.com/fwlink/?linkid=862266).
 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Carregar a configuração do modelo de dados de pagamentos
 1. No Painel de Navegação, vá para **Módulos > Administração da organização > Espaços de trabalho > Relatório eletrônico**.
-2. Na lista, marque o provedor de configuração para a empresa de exemplo, 'Litware, Inc.' Se você não visualizar o provedor de configuração, você deve primeiro concluir as etapas em [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md).
+2. Na lista, marque o provedor de configuração para a empresa de exemplo, "Litware, Inc." Se você não visualizar o provedor de configuração, você deve primeiro concluir as etapas em [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md).
 3. Selecione **Definir como ativo**.
 4. Selecione **Repositórios**. Selecione um repositório para o tipo Recursos de operações, se disponível. Se estiver disponível, pule as etapas a seguir sobre criar um novo repositório.  
 5. Selecione **Adicionar** para abrir a caixa de diálogo suspensa.
@@ -55,7 +55,7 @@ Para completar essas etapas, você deve primeiro completar as etapas do procedim
 3. Selecione **Criar configuração** para abrir a caixa de diálogo suspensa.
 4. No campo **Novo**, insira `Format based on data model PaymentModel`. Criar um formato com base no modelo de dados do PaymentModel.
 5. No campo **Nome**, digite `Sample worksheet report`. Relatório da planilha de exemplo  
-6. No campo **Descrição**, digite `Sample worksheet report for vendors’ payments`. Relatório de planilha de amostra para pagamentos do fornecedor.  
+6. No campo **Descrição**, digite `Sample worksheet report for vendors' payments`. Relatório de planilha de amostra para pagamentos do fornecedor.  
 7. No campo **Definição do modelo de dados**, insira ou selecione um valor. Selecione a definição **CustomerCreditTransferInitiation**.  
 8. Selecione **Criar configuração**.
 

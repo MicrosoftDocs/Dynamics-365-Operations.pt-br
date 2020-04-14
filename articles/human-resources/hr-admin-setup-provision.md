@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f982f3c3b2703a71e6c8a1a0d1be15fb260a6ef1
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 4f2fd2b7bf9f09a61d07e1bc35ad48fe2c5d7383
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092237"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138350"
 ---
 # <a name="provision-human-resources"></a>Provisionar o Human Resources
 
@@ -56,7 +56,7 @@ Depois de criar um projeto de LCS, você pode provisionar o Human Resources em u
 2. Indique se esta é uma instância de Área restrita ou Produção do Human Resources. Os recursos de visualização antecipada podem estar disponíveis em instâncias de Área restrita para permitir comentários e testes antecipados.
    
     > [!NOTE]
-    > O tipo de instância do Talent não pode ser alterado após definido. Verifique se o tipo de instância correto está selecionado antes de continuar.</br></br>
+    > O tipo de instância do Human Resources não pode ser alterado após definido. Verifique se o tipo de instância correto está selecionado antes de continuar.</br></br>
     > O tipo de instância do Human Resources é separado do tipo de instância do ambiente do Microsoft Power Apps, que você definiu no centro de administração do Power Apps.
     
 3. Selecione a opção **Incluir Dados de Demonstração** se quiser que o ambiente inclua o mesmo conjunto de dados de demonstração usado na experiência de test drive do Human Resources. Isso é interessante para ambientes de demonstração ou de treinamento de longo prazo, e nunca deve ser usado em ambientes de produção.  Observe que você deve selecionar esta opção na implantação inicial. Não é possível atualizar uma implantação já existente depois.
@@ -74,7 +74,7 @@ Depois de criar um projeto de LCS, você pode provisionar o Human Resources em u
     > [!NOTE]
     > Se os requisitos finais ainda não foram aprovados, você pode implantar uma instância de teste do Human Resources no projeto. Você pode usar esta instância para testar a solução até que seja aprovada. Se usar o novo ambiente para teste, você deve repetir este procedimento para criar um ambiente de produção.
 
-    > Como apenas dois ambientes de LCS são permitidos como parte da assinatura do Human Resources, você pode considerar a possibilidade de aproveitar um [ambiente de teste do Human Resources](https://dynamics.microsoft.com/talent/overview/) grátis por 60 dias. Embora um ambiente de avaliação seja propriedade do usuário que o solicitou, outros usuários podem ser convidados por meio da experiência de administração do sistema para o Human Resources. Os ambientes de avaliação contêm dados fictícios que podem ser usados para explorar o programa de forma segura. Eles não devem ser usados como ambientes de produção. Observe que, quando um ambiente de avaliação expirar após 60 dias, todos os dados que estão nele serão excluídos e não poderão ser recuperados. Você pode inscrever-se para um novo ambiente de avaliação após o ambiente existente expirar.
+    > Você pode considerar o aproveitamento de um [ambiente de avaliação de recursos humanos](https://dynamics.microsoft.com/talent/overview/) de 60 dias gratuitos. Embora um ambiente de avaliação seja propriedade do usuário que o solicitou, outros usuários podem ser convidados por meio da experiência de administração do sistema para o Human Resources. Os ambientes de avaliação contêm dados fictícios que podem ser usados para explorar o programa de forma segura. Eles não devem ser usados como ambientes de produção. Observe que, quando um ambiente de avaliação expirar após 60 dias, todos os dados que estão nele serão excluídos e não poderão ser recuperados. Você pode inscrever-se para um novo ambiente de avaliação após o ambiente existente expirar.
 
 ## <a name="select-a-power-apps-environment"></a>Selecionar um ambiente do Power Apps
 
@@ -97,7 +97,10 @@ Use as seguintes orientações ao determinar para qual ambiente do Power Apps o 
     - **Ambientes de versão de avaliação** - Esses ambientes são criados com uma data de vencimento e expirarão após esse tempo, resultando na remoção automática do seu ambiente e de quaisquer instâncias do Human Resources contidas.
    
     - **Regiões sem suporte** - No momento, o Human Resources tem suporte apenas nas seguintes regiões: Estados Unidos, Europa, Reino Unido, Austrália, Canadá e Ásia.
-  
+
+    > [!NOTE]
+    > O ambiente de Human Resources é provisionado na mesma região em que o ambiente Power Apps é provisionado. Não há suporte para a migração de um ambiente de Human Resources para outra região.
+
 6. Depois de determinar o ambiente correto a ser usado, você poderá continuar com o processo de provisionamento. 
  
 ## <a name="grant-access-to-the-environment"></a>Conceder acesso ao ambiente

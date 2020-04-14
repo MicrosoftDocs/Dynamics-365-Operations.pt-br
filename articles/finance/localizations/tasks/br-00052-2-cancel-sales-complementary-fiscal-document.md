@@ -15,16 +15,16 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7869c1db94f0f092356eff3bd4386a40ae37c871
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f972bd968cc8841ea534cd331e62bc150ab6e011
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175179"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138376"
 ---
 # <a name="cancel-a-sales-complementary-fiscal-document-brazil"></a>Cancelar uma nota fiscal complementar de venda (Brasil)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 É possível cancelar uma nota fiscal complementar de vendas incorreta e fornecer um motivo para o cancelamento. Ao cancelar uma nota fiscal complementar de vendas, é criada uma nota fiscal complementar de vendas com os preços ou valores negativos de ICMS (Imposto Sobre Circulação de Mercadorias e Serviços), ou de IPI (Imposto Sobre Produtos Industrializados). Ao lançar a nota fiscal complementar de venda negativa, a nota fiscal complementar original é marcada como cancelada, e todas as transações do razão e as transações financeiras são revertidas. A nota fiscal complementar de venda original é relatada em livros fiscais como cancelada. A nota fiscal complementar de venda negativa não é relatada em livros fiscais. Esta tarefa usa a empresa de demonstração BRMF.
 

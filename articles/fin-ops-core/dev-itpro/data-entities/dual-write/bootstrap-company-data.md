@@ -19,18 +19,17 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 6ce6c4e85ac1ef27060b53f43732f095a4efe9e7
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 1ed97d7c388347eb5afe101f51173b6d48b18fcd
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019644"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172914"
 ---
 # <a name="bootstrap-with-company-data-faq"></a>Perguntas frequentes sobre bootstrap com dados da empresa
  
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
 
 ## <a name="why-do-i-need-bootstrapping"></a>Por que eu preciso fazer bootstrap? 
 Talvez você tenha uma instância existente do Common Data Service ou de outro aplicativo do Dynamics 365 com dados comerciais e queira habilitar a conexão de gravação dupla nela. Nesse caso, você precisa fazer bootstrap de dados do Common Data Service ou de outros aplicativos do Dynamics 365 com informações da empresa antes de habilitar a conexão de gravação dupla.  

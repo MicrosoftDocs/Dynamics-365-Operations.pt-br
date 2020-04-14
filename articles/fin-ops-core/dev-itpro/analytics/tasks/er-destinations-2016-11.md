@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cbef5410d0e6f15fbb5025f3831486d55cd06216
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e0fabf5c9475b5acd7cbd77a51c2912c96681894
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185051"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142630"
 ---
 # <a name="er-configure-destinations"></a>Configurar destinos ER
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimento demonstra como configurar e usar os diferentes componentes de saída para eletrônicos (ER), como uma pasta ou um arquivo. A empresa de dados demonstrativos utilizada para criar esse procedimento é a DEMF. Alemanha é o país/região de endereço principal da entidade legal; porém, você pode usar todas as entidade legais para este procedimento. 
 

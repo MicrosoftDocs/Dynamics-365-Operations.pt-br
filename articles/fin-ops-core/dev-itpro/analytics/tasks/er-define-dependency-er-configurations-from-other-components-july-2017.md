@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 468a2637f4a5b2b7ff3514c92c52fb26b9231bc4
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: e06fdda7d2d73c3fe4a4b9ee5bd44e6ef857b8d5
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042910"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142218"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Definir a dependência de configurações de ER em outros componentes
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Para executar estas etapas, primeiro você deve executar as etapas no guia de tarefas, ER Gerenciar configurações do mapeamento de modelo, e deve ter acesso ao Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -33,17 +33,17 @@ Este procedimento mostra como criar uma configuração de relatório eletrônico
 Esse procedimento é destinado a usuários com a função de Administrador do sistema ou Desenvolvedor de relatório eletrônico. As etapas podem ser realizadas em qualquer empresa, porque as configurações de ER são compartilhadas entre as empresas. 
 
 1. Vá para Administração da organização > Relatório eletrônico > Configurações.
-    * Verifique se a árvore de configurações contém a configuração de 'Modelo de dados de amostra' e subordine os itens. Se não, conclua as etapas na guia de tarefas, ER Gerenciar configurações de mapeamento de modelo, e inicie este guia novamente.   
+    * Verifique se a árvore de configurações contém a configuração de "Modelo de dados de amostra" e subordine os itens. Se não, conclua as etapas na guia de tarefas, ER Gerenciar configurações de mapeamento de modelo, e inicie este guia novamente.   
 
 ## <a name="define-the-dependency-of-er-configurations-from-other-components"></a>Definir a dependência de configurações de ER de outros componentes
 1. Na árvore, expanda 'Modelo de dados de amostra'.
 2. Na árvore, selecione "Modelo de dados de amostra\Mapeamento de amostra".
-    * Nós selecionamos a versão de rascunho da configuração de mapeamento do modelo 'Mapeamento de amostra'. Nós definiremos agora sua dependência de outros componentes de software. Esta etapa é considerada um pré-requisito para controlar o download de versão de configuração de um repositório de ER e qualquer outro uso desta versão.   
+    * Nós selecionamos a versão de rascunho da configuração de mapeamento do modelo "Mapeamento de amostra". Nós definiremos agora sua dependência de outros componentes de software. Esta etapa é considerada um pré-requisito para controlar o download de versão de configuração de um repositório de ER e qualquer outro uso desta versão.   
 3. Expanda a seção Pré-requisitos.
-    * Observe que o grupo de pré-requisitos "Implementações" foi adicionado automaticamente a este estágio. Este grupo contém o componente de pré-requisito que se refere à configuração do modelo de dados e têm o sinalizador de implementação ativado. Este sinalizador indica que a configuração de mapeamento 'Mapeamento de amostra' é considerada a implementação do modelo de dados 'Modelo de dados de amostra'. Este componente forçará o ER para baixar a configuração de mapeamento “Mapeamento de amostra” de um repositório de ER sempre que a configuração do modelo "Modelo de dados de amostra" for baixada.   
+    * Observe que o grupo de pré-requisitos "Implementações" foi adicionado automaticamente a este estágio. Este grupo contém o componente de pré-requisito que se refere à configuração do modelo de dados e têm o sinalizador de implementação ativado. Este sinalizador indica que a configuração de mapeamento "Mapeamento de amostra" é considerada a implementação do modelo de dados "Modelo de dados de amostra". Este componente forçará o ER para baixar a configuração de mapeamento "Mapeamento de amostra" de um repositório de ER sempre que a configuração do modelo "Modelo de dados de amostra" for baixada.   
 4. Clique em Editar.
     * Uma dependência única da versão atual de uma configuração de um componente de software pode ser especificada usando a definição do tipo de componente, e a versão do componente ou um intervalo de versões do componente.  
-    * As dependências desejadas podem ser agrupadas. Quando o tipo de agrupamento 'Todos de' for selecionado, a condição de dependência desse grupo será considerada preenchida quando cada condição de dependência deste grupo e do grupo subordinado é preenchida. Quando o tipo de agrupamento 'Um de' for selecionado, a condição de dependência desse grupo será considerada preenchida quando pelo menos uma condição de dependência deste grupo for preenchida.   
+    * As dependências desejadas podem ser agrupadas. Quando o tipo de agrupamento "Todos de" for selecionado, a condição de dependência desse grupo será considerada preenchida quando cada condição de dependência deste grupo e do grupo subordinado é preenchida. Quando o tipo de agrupamento "Um de" for selecionado, a condição de dependência desse grupo será considerada preenchida quando pelo menos uma condição de dependência deste grupo for preenchida.   
 5. Clique em Novo.
 6. Selecione o componente de pré-requisito do Produto.
 7. Selecione Microsoft Dynamics 365 for Operations (1611).
@@ -82,7 +82,7 @@ Esse procedimento é destinado a usuários com a função de Administrador do si
 8. No campo Tipo de repositório de configuração, insira 'LCS'.
 9. Clique em Criar repositório.
 10. No campo Projeto, insira ou selecione um valor.
-    * Selecione o projeto LCS desejado da pesquisa do campo 'Projeto'.  
+    * Selecione o projeto LCS desejado da pesquisa do campo "Projeto".  
 11. Clique em OK.
 12. Feche a página.
 
@@ -138,5 +138,5 @@ Excluiremos as configurações criadas do sistema e as baixaremos novamente do r
 24. Feche a página.
 25. Vá para Administração da organização > Relatório eletrônico > Configurações.
 26. Na árvore, expanda 'Modelo de dados de amostra'.
-    * Observe que a configuração de mapeamento do modelo 'Mapeamento de amostra' foi baixada com a configuração selecionada do modelo de dados. Os dois arquivos são baixados juntos porque o ‘Mapeamento de amostra’ foi definido como implementação do modelo de dados selecionado e porque é aplicável ao aplicativo. A configuração 'Mapeamento de amostra (alternativo)' não foi baixada porque a condição para a versão do aplicativo necessária não foi satisfeita.   
-    * Se você se conectar ao Finance and Operations, registrar o mesmo provedor, acessar o mesmo projeto de LCS e baixar a mesma configuração do modelo de dados, a configuração 'Mapeamento de amostra (alternativo)' será baixada, enquanto a configuração 'Mapeamento de amostra' será ignorada.  
+    * Observe que a configuração de mapeamento do modelo "Mapeamento de amostra" foi baixada com a configuração selecionada do modelo de dados. Os dois arquivos são baixados juntos porque o "Mapeamento de amostra" foi definido como implementação do modelo de dados selecionado e porque é aplicável ao aplicativo. A configuração "Mapeamento de amostra (alternativo)" não foi baixada porque a condição para a versão do aplicativo necessária não foi satisfeita.   
+    * Se você se conectar ao Finance and Operations, registrar o mesmo provedor, acessar o mesmo projeto de LCS e baixar a mesma configuração do modelo de dados, a configuração "Mapeamento de amostra (alternativo)" será baixada, enquanto a configuração "Mapeamento de amostra" será ignorada.  

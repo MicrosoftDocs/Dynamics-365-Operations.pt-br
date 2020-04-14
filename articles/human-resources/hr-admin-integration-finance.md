@@ -3,7 +3,7 @@ title: Configurar a integração com o Finance
 description: Este artigo descreve a funcionalidade disponível para integração de Dynamics 365 Human Resources e Dynamics 365 Finance.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,73 +18,75 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2e7070f627654c9eb889f3e0ee27e37681db0502
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 1558d050627c8dc64727884901ed0d0716df0c50
+ms.sourcegitcommit: f481dfd6bf93bb3e03a7bd9a765e2cfd14305d02
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008063"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3169268"
 ---
 # <a name="configure-integration-with-finance"></a>Configurar a integração com o Finance
 
-Este artigo descreve a funcionalidade disponível para integração de Dynamics 365 Human Resources e Dynamics 365 Finance. O modelo de Human Resources a Finance disponível com o [Integrador de Dados](https://docs.microsoft.com/powerapps/administrator/data-integrator) permite o fluxo de dados para trabalhos, posições e trabalhadores. Os dados fluem de Human Resources em Finance. O modelo não permite que os dados fluam de Finance de volta para Human Resources. 
+Para integrar o Dynamics 365 Human Resources com Dynamics 365 Finance, você pode usar o modelo Human Resources para Finance no [Integrador de Dados](https://docs.microsoft.com/powerapps/administrator/data-integrator). O modelo de Human Resources para Finance permite o fluxo de dados para trabalhos, posições e trabalhadores. O modelo permite que os dados fluam de Human Resources para Finance, mas não permite que os dados fluam de Finance para Human Resources.
 
-![Integração do Human Resources ao fluxo de integração do Finance](./media/TalentFinOpsFlow.png)
+![Integração do Human Resources ao fluxo de integração do Finance](./media/hr-admin-integration-finance-flow.png)
 
-A solução Human Resources para Finance fornece os seguintes tipos de sincronização de dados. 
+A solução Human Resources para Finance fornece os seguintes tipos de sincronização de dados:
 
-- Manter trabalhos em Human Resources e sincronizá-los de Human Resources para Finance.
-- Manter cargos e atribuições de cargo em Human Resources e sincronizá-los de Human Resources para Finance.
-- Manter empregos em Human Resources e sincronizá-los de Human Resources para Finance.
-- Manter trabalhadores e endereço de trabalhador em Human Resources e sincronizá-los de Human Resources para Finance.
+- Manter trabalhos em Human Resources e sincronizá-los de Human Resources para Finance
+- Manter cargos e atribuições de cargo em Human Resources e sincronizá-los de Human Resources para Finance
+- Manter empregos em Human Resources e sincronizá-los de Human Resources para Finance
+- Manter trabalhadores e endereço de trabalhador em Human Resources e sincronizá-los de Human Resources para Finance
 
 ## <a name="system-requirements-for-human-resources"></a>Requisitos de sistema para Human Resources
+
 A solução de integração requer as seguintes versões de Human Resources e Finance: 
-- Dynamics 365 Human Resources em Common Data Service.
-- Dynamics 365 Finance versão 7.2 e posterior.
+
+- Dynamics 365 Human Resources em Common Data Service
+- Dynamics 365 Finance versão 7.2 e posterior
 
 ## <a name="template-and-tasks"></a>Modelo e tarefas
 
-Para acessar o modelo, faça o seguinte.
+Para acessar o modelo Human Resources para Finance.
+
 1. Abrir [Centro de administração do Power Apps](https://admin.powerapps.com/). 
-1. Selecione **Projetos** e, no canto superior direito, selecione **Novo projeto** para selecionar modelos públicos. Será necessário criar um novo projeto para cada entidade legal que você deseja integrar em Finance.
 
-O modelo a seguir é usado para sincronizar registros de Human Resources para Finance.
+2. Selecione **Projetos** e, em seguida, selecione **Novo projeto** no canto superior direito. Criar um novo projeto para cada entidade legal que você deseja integrar em Finance.
 
-- **Nome do modelo na integração de dados:** Human Resources (Human Resources Common Data Service a Finance)
+3. Selecione o **Human Resources (Human Resources Common Data Service para Finance)** para sincronizar registros de Human Resources para Finance.
 
-  > [!NOTE]
-  > O nome da tarefa contém as entidades usadas em cada aplicativo. A origem (Human Resources) está à esquerda e o destino (Finance and Operations) está à direita.
+O modelo usa as tarefas subjacentes a seguir para sincronizar registros de Human Resources para Finance:
 
-As tarefas subjacentes a seguir são usadas para sincronizar registros de Human Resources para Finance.
-- Função de trabalho a função de trabalho de compensação
-- Departamentos a Unidade operacional
-- Tipos de trabalho a tipo de trabalho de compensação
-- Trabalhos a trabalhos
-- Trabalhos a Detalhes do Trabalho
-- Tipos de posição a tipo de posição
-- Cargos de trabalho a cargo base
-- Cargos de trabalho a detalhes de cargo
-- Cargos de trabalho a durações de cargo
-- Cargos de trabalho a hierarquias de cargo
-- Trabalhadores a Trabalhador
-- Empregos a emprego
-- Empregos a Detalhe de emprego
-- Atribuição do Trabalhador da Posição a Atribuições do Trabalhador da Posição
-- Endereços de trabalhador a endereço postal do trabalhador V2
+- **Função de trabalho a função de trabalho de compensação**
+- **Departamentos a Unidade operacional**
+- **Tipos de trabalho a tipo de trabalho de compensação**
+- **Trabalhos a trabalhos**
+- **Trabalhos a Detalhes do Trabalho**
+- **Tipos de posição a tipo de posição**
+- **Cargos de trabalho a cargo base**
+- **Cargos de trabalho a detalhes de cargo**
+- **Cargos de trabalho a durações de cargo**
+- **Cargos de trabalho a hierarquias de cargo**
+- **Trabalhadores a Trabalhador**
+- **Empregos a emprego**
+- **Empregos a Detalhe de emprego**
+- **Atribuição do Trabalhador da Posição a Atribuições do Trabalhador da Posição**
+- **Endereços de trabalhador a endereço postal do trabalhador V2**
 
 ## <a name="template-mappings"></a>Mapeamentos de modelo
 
+Nas seguintes tabelas de mapeamento de modelos, o nome da tarefa contém as entidades usadas em cada aplicativo. A origem (Human Resources) está à esquerda e o destino (Finance) está à direita.
+
 ### <a name="job-functions-to-compensation-job-function"></a>Função de trabalho a função de trabalho de compensação
 
-| Entidade do Common Data Service (origem)                 | Entidade do Finance and Operations (destino) |
+| Entidade do Common Data Service (origem) | Entidade do Finance (destino) |
 |-------------------------------------|---------------------------------------------|
 | cdm_name (cdm_Job   Nome da função)  | JOBFUNCTIONID   (JOBFUNCTIONID)            |
 | cdm_description   (cdm_description) | DESCRIPTION   (DESCRIPTION)                 |
 
 ### <a name="departments-to-operating-unit"></a>Departamentos a Unidade operacional
 
-| Entidade do Common Data Service (origem)                           | Entidade do Finance and Operations (destino) |
+| Entidade do Common Data Service (origem)           | Entidade do Finance (destino) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                           | NAME (NAME)                                 |
 | cdm_departmentnumber   (cdm_departmentnumber) | OPERATINGUNITNUMBER   (OPERATINGUNITNUMBER) |
@@ -93,7 +95,7 @@ As tarefas subjacentes a seguir são usadas para sincronizar registros de Human 
 
 ### <a name="job-types-to-compensation-job-type"></a>Tipos de trabalho a tipo de trabalho de compensação
 
-| Entidade do Common Data Service (origem)                   | Entidade do Finance and Operations (destino) |
+| Entidade do Common Data Service (origem)   | Entidade do Finance (destino) |
 |---------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                   | JOBTYPEID   (JOBTYPEID)                     |
 | cdm_description   (cdm_description)   | DESCRIPTION   (DESCRIPTION)                 |
@@ -101,7 +103,7 @@ As tarefas subjacentes a seguir são usadas para sincronizar registros de Human 
 
 ### <a name="jobs-to-jobs"></a>Trabalhos a trabalhos
 
-| Entidade do Common Data Service (origem)                                           | Entidade do Finance and Operations (destino)           |
+| Entidade do Common Data Service (origem)                           | Entidade do Finance (destino)           |
 |---------------------------------------------------------------|-------------------------------------------------------|
 | cdm_name (cdm_name)                                           | JOBID (JOBID)                                         |
 | cdm_maximumnumberofpositions   (cdm_maximumnumberofpositions) | MAXIMUMNUMBEROFPOSITIONS   (MAXIMUMNUMBEROFPOSITIONS) |
@@ -111,7 +113,7 @@ As tarefas subjacentes a seguir são usadas para sincronizar registros de Human 
 
 ### <a name="jobs-to-job-detail"></a>Trabalhos a Detalhes do Trabalho
 
-| Entidade do Common Data Service (origem)                                             | Entidade do Finance and Operations (destino) |
+| Entidade do Common Data Service (origem)                             | Entidade do Finance (destino) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                                             | JOBID (JOBID)                               |
 | cdm_jobtypeid.cdm_name   (Tipo de trabalho (Nome do tipo de trabalho))             | JOBTYPEID   (JOBTYPEID)                     |
@@ -122,7 +124,7 @@ As tarefas subjacentes a seguir são usadas para sincronizar registros de Human 
 
 ### <a name="position-types-to-position-type"></a>Tipos de posição a tipo de posição
 
-| Entidade do Common Data Service (origem)                       | Entidade do Finance and Operations (destino) |
+| Entidade do Common Data Service (origem)       | Entidade do Finance (destino) |
 |-------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                       | POSITIONTYPEID   (POSITIONTYPEID)           |
 | cdm_description   (cdm_description)       | DESCRIPTION   (DESCRIPTION)                 |
@@ -130,13 +132,13 @@ As tarefas subjacentes a seguir são usadas para sincronizar registros de Human 
 
 ### <a name="job-positions-to-base-position"></a>Cargos de trabalho a cargo base
 
-| Entidade do Common Data Service (origem)                           | Entidade do Finance and Operations (destino) |
+| Entidade do Common Data Service (origem)           | Entidade do Finance (destino) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Número da posição de cargo) | POSITIONID (POSITIONID)                      |
 
 ### <a name="job-positions-to-position-details"></a>Cargos de trabalho a detalhes de cargo
 
-| Entidade do Common Data Service (origem)                                                      | Entidade do Finance and Operations (destino)       |
+| Entidade do Common Data Service (origem)              | Entidade do Finance (destino)       |
 |--------------------------------------------------------------------------|---------------------------------------------------|
 | cdm_jobpositionnumber  (Número da posição de cargo)                            | POSITIONID (POSITIONID)                             |
 | cdm_jobid.cdm_name   (Cargo (Nome))                                        | JOBID (JOBID)                                    |
@@ -146,19 +148,19 @@ As tarefas subjacentes a seguir são usadas para sincronizar registros de Human 
 | cdm_avaialableforassignment   (Disponível para atribuição)                 | AVAILABLEFORASSIGNMENT   (AVAILABLEFORASSIGNMENT) |
 | cdm_validfrom   (Válido de)                                            | VALIDFROM   (VALIDFROM)                           |
 | cdm_validto (Válido até)                                                 | VALIDTO (VALIDTO)                               |
-| cdm_fulltimeequivalent   (Fulltime Equivalent)                           | FULLTIMEEQUIVALENT   (FULLTIMEEQUIVALENT)         |
+| cdm_fulltimeequivalent   (Equivalente ao horário integral)                           | FULLTIMEEQUIVALENT   (FULLTIMEEQUIVALENT)         |
 
 ### <a name="job-positions-to-position-durations"></a>Cargos de trabalho a durações de cargo
 
-| Entidade do Common Data Service (origem)                             | Entidade do Finance and Operations (destino) |
+| Entidade do Common Data Service (origem)             | Entidade do Finance (destino) |
 |-------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Número da posição de cargo)   | POSITIONID (POSITIONID)                      |
 | Ativação calculada (Ativação calculada) | VALIDFROM (VALIDFROM)                        |
 | Aposentadoria calculada (Aposentadoria calculada) | VALIDTO (VALIDTO)                         |
 
-### <a name="job-positions-to-position-hiearchies"></a>Cargos de trabalho a hierarquias de cargo
+### <a name="job-positions-to-position-hierarchies"></a>Cargos de trabalho a hierarquias de cargo
 
-| Entidade do Common Data Service (origem)                                                                           | Entidade do Finance and Operations (destino) |
+| Entidade do Common Data Service (origem)        | Entidade do Finance (destino) |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Número da posição de cargo)                                                 | POSITIONID(POSITIONID)                      |
 | cdm_parentjobpositionid.cdmjobpositionnumber   (cdm_parentjobpositionid.cdmjobpositionnumber) | PARENTPOSITIONID (PARENTPOSITIONID)         |
@@ -168,7 +170,7 @@ As tarefas subjacentes a seguir são usadas para sincronizar registros de Human 
 
 
 ### <a name="workers-to-worker"></a>Trabalhadores a Trabalhador
-| Entidade do Common Data Service (origem)                           | Entidade do Finance and Operations (destino)       |
+| Entidade do Common Data Service (origem)           | Entidade do Finance (destino)       |
 |-----------------------------------------------|---------------------------------------------------|
 | cdm_birthdate   (cdm_birthdate)               | BIRTHDATE   (BIRTHDATE)                           |
 | cdm_gender   (cdm_gender)                     | GENDER (GENDER)                                   |
@@ -187,7 +189,7 @@ As tarefas subjacentes a seguir são usadas para sincronizar registros de Human 
 
 ### <a name="employments-to-employment"></a>Empregos a emprego
 
-| Entidade do Common Data Service (origem)                                             | Entidade do Finance and Operations (destino) |
+| Entidade do Common Data Service (origem)                             | Entidade do Finance (destino) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE   (EMPLOYMENTSTARTDATE) |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | EMPLOYMENTENDDATE   (EMPLOYMENTENDDATE)     |
@@ -197,7 +199,7 @@ As tarefas subjacentes a seguir são usadas para sincronizar registros de Human 
 
 ### <a name="employments-to-employment-detail"></a>Empregos a Detalhe de emprego
 
-| Entidade do Common Data Service (origem)                                             | Entidade do Finance and Operations (destino)   |
+| Entidade do Common Data Service (origem)                             | Entidade do Finance (destino)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE   (EMPLOYMENTSTARTDATE)   |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | EMPLOYMENTENDDATE   (EMPLOYMENTENDDATE)       |
@@ -215,7 +217,7 @@ As tarefas subjacentes a seguir são usadas para sincronizar registros de Human 
 
 ### <a name="position-worker-assignment-to-position-worker-assignments"></a>Atribuição do Trabalhador da Posição a Atribuições do Trabalhador da Posição
 
-| Entidade do Common Data Service (origem)                                             | Entidade do Finance and Operations (destino)   |
+| Entidade do Common Data Service (origem)                             | Entidade do Finance (destino)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
 | cdm_jobpositionnumber   (Número da posição de cargo)                   | POSITIONID(POSITIONID)                        |
@@ -224,7 +226,7 @@ As tarefas subjacentes a seguir são usadas para sincronizar registros de Human 
 
 ### <a name="worker-addresses-to-worker-postal-address-v2"></a>Endereços de trabalhador a endereço postal do trabalhador V2
 
-| Entidade do Common Data Service (origem)                                             | Entidade do Finance and Operations (destino)   |
+| Entidade do Common Data Service (origem)                             | Entidade do Finance (destino)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
 | cdm_addresstype   (cdm_addresstype)                             | ADDRESSLOCATIONROLES   (ADDRESSLOCATIONROLES) |
@@ -239,9 +241,10 @@ As tarefas subjacentes a seguir são usadas para sincronizar registros de Human 
 | cdm_addresstype   (cdm_addresstype)                             | ADDRESSDESCRIPTION(ADDRESSDESCRIPTION)        |
 
 ## <a name="integration-considerations"></a>Considerações de integração
-Ao integrar dados deHuman Resources ao Finance, a integração tentará coincidir registros com base na ID. Se a correspondência ocorrer, os dados em Finance serão substituídos pelos valores de Human Resources. No entanto, um problema pode ocorrer se logicamente esses registros forem diferentes e a mesma ID tiver sido gerada tanto em Human Resources ou Finance com base na sequência numérica respectiva.
 
-As áreas em que isso pode ocorrer são Trabalhador, que usa o número de funcionários para fazer a correspondência e as posições. Os trabalhos não usam sequências numéricas. Como resultado, se a mesma ID de trabalho estiver presente em Human Resources e Finance, as informações de recursos humanos substituirão as informações de Dynamics 365 Finance. 
+A integração de Human Resources ao Finance tenta coincidir registros com base na ID. Se os registros forem correspondidos, o Integrador de dados substitui os dados no Finance com os valores no Human Resources. No entanto, um problema pode ocorrer se logicamente esses registros forem diferentes e a mesma ID tiver sido gerada tanto em Human Resources ou Finance com base na sequência numérica respectiva.
+
+Esse problema pode acontecer com **Trabalhador**, que usa **Número pessoal** para realizar a correspondência e **Posições**. Os trabalhos não usam sequências numéricas. Como resultado, se a mesma ID de trabalho existir em Human Resources e Finance, as informações de recursos humanos substituem as informações de Dynamics 365 Finance. 
 
 Para evitar problemas com IDs duplicadas, você pode adicionar um prefixo na [sequência numérica](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=/dynamics365/unified-operations/talent/toc.json) ou definir um número inicial na sequência numérica que está além do intervalo do outro sistema. 
 
@@ -250,5 +253,3 @@ A identificação de local usada para o endereço de trabalho não faz parte de 
 A ilustração a seguir mostra um exemplo de um mapeamento de modelo no Integrador de dados. 
 
 ![Mapeamento de modelo](./media/IntegrationMapping.png)
-
-

@@ -15,16 +15,16 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ac7fcf93e3001af15f422c5bbde1b6ccfa2579c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6ceb580e4e9f0aaea2899a8a552884017c52c306
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183872"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3139125"
 ---
 # <a name="generate-emails-for-approved-nf-e-and-attach-danfe-pdf-files-and-nf-e-xml-files-to-the-emails-brazil"></a>Gerar emails para NF-e aprovada e anexar arquivos PDF do DANFE e arquivos XML da NF-e aos emails (Brasil)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Você pode gerar o Documento Auxiliar da Nota Fiscal Eletrônica (DANFE) para uma Nota Fiscal eletrônica (NF-e) como um arquivo PDF. Você pode enviar o arquivo PDF de DANFE e o arquivo NF-e XML que são gerados para uma NF-e aprovada para um cliente ou fornecedor por e-mail. Antes de gerar mensagens de email para notas fiscais eletrônicas aprovadas, é preciso configurar um modelo de email. Esta tarefa usa a empresa de demonstração BRMF.
 

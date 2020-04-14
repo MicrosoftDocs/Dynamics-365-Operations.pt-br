@@ -15,16 +15,16 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9c1834e22b918685bcd19c9ff44ccf39a4218f3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 472f391b1b3752dc4f09508f405ed7a4890421bd
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174717"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143497"
 ---
 # <a name="enter-pis-and-cofins-tax-adjustment-transactions-brazil"></a>Inserir transações de ajuste de impostos PIS e COFINS (Brasil)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Em livros fiscais, você pode criar e lançar um diário para ajustes manuais de impostos PIS e COFINS usando os códigos de ajuste que são definidos pela autoridade fiscal. Depois que o ajuste for lançado, ele pode ser visualizado na apuração de imposto. Esta tarefa usa a empresa de demonstração BRMF.
 

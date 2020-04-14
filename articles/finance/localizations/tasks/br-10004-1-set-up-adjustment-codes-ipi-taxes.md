@@ -15,16 +15,16 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eea4e84685b79d694771b5a184c6ce5b583354f6
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3b1daa72002602d6e26320e2f55e04bebf7e2a19
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174721"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3137968"
 ---
 # <a name="set-up-adjustment-codes-for-ipi-taxes-brazil"></a>Configurar códigos de ajuste para impostos IPI (Brasil)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Use este procedimento para configurar códigos de ajuste de imposto para Imposto sobre Produtos Industrializados (IPI). Esta tarefa usa a empresa de demonstração BRMF.
 

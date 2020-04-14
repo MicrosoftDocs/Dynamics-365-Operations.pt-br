@@ -16,16 +16,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc7d50805ec771d042732f36a42c2d9fb3c16cdf
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: b265a94c6d8f9e2534e1509e4f33c6f8a05eded0
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021606"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140914"
 ---
 # <a name="create-point-of-sale-pos-visual-profiles"></a>Criar perfis visuais de ponto de venda (PDV)
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este procedimento orienta na criação de um novo perfil visual de ponto de venda (PDV). Um perfil visual contém informações básicas que determinam a aparência dos terminais de PDV. Você pode criar vários perfis visuais e atribuir perfis específicos para executar em registradoras específicas. Este procedimento usa a empresa de dados de demonstração USRT.
 

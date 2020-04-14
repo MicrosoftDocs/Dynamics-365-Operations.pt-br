@@ -15,26 +15,26 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47d8cf2ff1e275df0466a7fe327a3180c0399e49
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4cdcb9c337440b8fa9de2bdeb78d3b2d118e91ca
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186914"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138268"
 ---
 # <a name="reclassify-fixed-assets"></a>Reclassificar ativos fixos
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Para reclassificar um ativo fixo, você deve transferi-lo para um novo grupo de ativos fixos ou atribuir a ele um novo número de ativo fixo no mesmo grupo. 
 
 Quando um ativo fixo é reclassificado:
 
-• Todos os livros do ativo fixo existente são criados para o novo ativo fixo. Todas as informações configuradas para o ativo fixo original são copiadas para o novo ativo fixo. O status dos livros para o ativo fixo original é Fechado. 
+* Todos os livros do ativo fixo existente são criados para o novo ativo fixo. Todas as informações configuradas para o ativo fixo original são copiadas para o novo ativo fixo. O status dos livros para o ativo fixo original é Fechado. 
 
-• Os novos livros do novo ativo fixo contêm a data da reclassificação no campo **Data de aquisição**. A data indicada no campo **Data de execução da depreciação** é copiada das informações originais de ativo. Caso a depreciação já tenha sido iniciada, o campo **Data da última depreciação exibirá** a data da reclassificação. 
+* Os novos livros do novo ativo fixo contêm a data da reclassificação no campo **Data de aquisição**. A data indicada no campo **Data de execução da depreciação** é copiada das informações originais de ativo. Caso a depreciação já tenha sido iniciada, o campo **Data da última depreciação exibirá** a data da reclassificação. 
 
-• As transações de ativo fixo existentes para o ativo fixo original são canceladas e geradas novamente para o novo ativo fixo.
+* As transações de ativo fixo existentes para o ativo fixo original são canceladas e geradas novamente para o novo ativo fixo.
 
 Siga essa etapas para reclassificar um ativo fixo:
 

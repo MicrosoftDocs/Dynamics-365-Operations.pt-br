@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7777ba38e4bf41b17fae698200017b933fc9e876
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9196bedcea26a0024b3eabbbcb9c58a0155a7490
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188156"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141663"
 ---
 # <a name="customer-payment-overview"></a>Visão geral de pagamentos do cliente
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este guia de tarefas apresenta vários métodos utilizados para inserir pagamentos de clientes. Esta tarefa usa a empresa de demonstração USMF.
 
@@ -45,7 +45,7 @@ Este guia de tarefas apresenta vários métodos utilizados para inserir pagament
 14. No **Painel de Ação**, clique em Linhas. Quando você abrir Linhas, verá todos os pagamentos registrados na página **Inserir pagamentos de cliente** e salvos no diário. Você também pode usar essa página para inserir novos pagamentos de cliente ou editar os pagamentos de cliente existentes antes que eles sejam lançados.
 15. Clique em **Novo** para criar um outro pagamento. 
 16. Selecione o cliente do qual o pagamento foi recebido. Se você não sabe qual é o cliente mas tem as informações de uma fatura paga por este pagamento, use o campo Fatura para inserir manualmente ou selecionar a fatura. O cliente será definido como o padrão após a seleção da fatura.  
-17. Clique em **Liquidar transações** para marcar as faturas que foram pagas. Você não precisa liquidar o pagamento de nenhuma fatura. Se este for um pagamento antecipado ou se você não souber qual fatura foi paga, você poderá inserir e lançar o pagamento. O pagamento pode ser liquidado em uma fatura posteriormente.  
+17. Clique em **Liquidar transações** para marcar as faturas que foram pagas. Não é necessário liquidar o pagamento de nenhuma fatura. Se este for um pagamento antecipado ou se você não souber qual fatura foi paga, você poderá inserir e lançar o pagamento. O pagamento pode ser liquidado em uma fatura posteriormente.  
 18. Marque as faturas pagas por este pagamento. 
 19. No campo **Valor**, insira o valor do pagamento que será liquidado para a fatura.
 20. Clique em **OK**.

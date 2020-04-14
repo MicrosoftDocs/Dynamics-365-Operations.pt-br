@@ -3,7 +3,7 @@ title: Adicionar o código de script a páginas do site para oferecer suporte à
 description: Este tópico descreve como adicionar código de script do cliente às páginas do site para oferecer suporte à coleção de telemetria do cliente.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 03/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 674d00faf1b30f87a0b0062129e1b9fbff955dd4
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 81c36685c1eccceb2f1854fe7c866186120c08a3
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001268"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154077"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Adicionar o código de script a páginas do site para oferecer suporte à telemetria
-
 
 [!include [banner](includes/banner.md)]
 
@@ -38,25 +37,72 @@ A análise da Web é uma ferramenta essencial quando você deseja entender como 
 > [!NOTE]
 > As instruções neste tópico também se aplicam a outras funcionalidades personalizadas do cliente que o Microsoft Dynamics 365 Commerce não oferece nativamente.
 
-## <a name="create-a-reusable-fragment-for-your-script-code"></a>Criar um fragmento reutilizável para o seu código de script
+## <a name="create-a-reusable-page-fragment-for-your-script-code"></a>Criar um fragmento de página reutilizável para o seu código de script
 
-Depois de criar um fragmento para o seu código de script, ele pode ser reutilizado em todas as páginas do seu site.
+Um fragmento de página permite reutilizar o código de script interno ou externo em todas as páginas do site, independentemente do modelo usado.
 
-1. Vá para **Fragmentos \> Novo fragmento de página**.
-2. Selecione **Script externo**, insira um nome para o fragmento e selecione **OK**.
-3. Na hierarquia de fragmentos, selecione o filho do módulo **injetor de script** do fragmento que você acabou de criar.
-4. No painel de propriedades à direita, adicione seu script do cliente e defina outras opções de configuração conforme necessário.
+### <a name="create-a-reusable-page-fragment-for-your-inline-script-code"></a>Criar um fragmento de página reutilizável para o seu código de script embutido
 
-## <a name="add-the-fragment-to-templates"></a>Adicionar o fragmento aos modelos
+Para criar um fragmento de página reutilizável para o código de script embutido no site Builder, siga estas etapas.
+
+1. Vá para **Fragmentos de página** e selecione **Novo**.
+1. Na caixa de diálogo **Novo fragmento de página**, selecione **Script embutido**.
+1. Em **Nome do fragmento de página**, digite um nome para o fragmento e, em seguida, selecione **OK**.
+1. No fragmento de página criado, selecione o módulo de **Script embutido padrão**.
+1. No painel de propriedades, no lado direito, em **Script embutido**, insira o script de cliente. Em seguida, configure outras opções conforme necessário.
+1. Selecione **Salvar** e **Finalizar edição**.
+1. Selecione **Publicar**.
+
+### <a name="create-a-reusable-page-fragment-for-your-external-script-code"></a>Criar um fragmento de página reutilizável para o seu código de script externo
+
+Para criar um fragmento de página reutilizável para o código de script externo no site Builder, siga estas etapas.
+
+1. Vá para **Fragmentos de página** e selecione **Novo**.
+1. Na caixa de diálogo **Novo fragmento de página**, selecione **Script externo**.
+1. Em **Nome do fragmento de página**, digite um nome para o fragmento e, em seguida, selecione **OK**.
+1. No fragmento de página criado, selecione o módulo de **Script externo padrão**.
+1. No painel de propriedades no lado direito, em **Origem do script**, adicione um URL externo ou relativo para a origem de script externa. Em seguida, configure outras opções conforme necessário.
+1. Selecione **Salvar** e **Finalizar edição**.
+1. Selecione **Publicar**.
+
+## <a name="add-a-page-fragment-that-includes-script-code-to-a-template"></a>Adicionar um fragmento de página que inclua código de script a um modelo
+
+Para adicionar um fragmento de página que inclua código de script a um modelo no site builder, siga estas etapas.
 
 1. Vá para **Modelos** e abra o modelo para as páginas às quais você deseja adicionar seu código de script.
-2. No painel esquerdo, expanda a hierarquia do modelo para mostrar o slot **Head do HTML**.
-3. Selecione o botão de reticências (**...**) para o slot **Head do HTML** e depois selecione **Adicionar fragmento**.
-4. Selecione o fragmento que você criou para o seu código de script.
-5. Salve o modelo e faça check-in dele.
+1. No painel esquerdo, expanda a hierarquia do modelo para mostrar o slot **Head do HTML**.
+1. No slot **Head do HTML**, selecione o botão de reticências (**...**) e depois selecione **Adicionar fragmento de página**.
+1. Selecione o fragmento que você criou para o seu código de script.
+1. Selecione **Salvar** e **Finalizar edição**.
+1. Selecione **Publicar**.
 
-> [!NOTE]
-> Depois de terminar, você deve publicar o fragmento e o modelo mestre. 
+## <a name="add-an-external-script-or-inline-script-directly-to-a-template"></a>Adicionar um script externo ou script embutido diretamente a um modelo
+
+Se você deseja inserir um script embutido ou externo diretamente a um conjunto de páginas controlado por um único modelo, não é necessário criar um fragmento de página primeiro.
+
+### <a name="add-an-inline-script-directly-to-a-template"></a>Adicionar um script embutido diretamente a um modelo
+
+Para adicionar um script embutido diretamente a um modelo no site Builder, siga estas etapas.
+
+1. Vá para **Modelos** e abra o modelo para as páginas às quais você deseja adicionar seu código de script.
+1. No painel esquerdo, expanda a hierarquia do modelo para mostrar o slot **Head do HTML**.
+1. No slot **Head do HTML**, selecione o botão de reticências (**...**) e depois selecione **Adicionar módulo**.
+1. Na caixa de diálogo **Adicionar módulo**, selecione **Script embutido**.
+1. No painel de propriedades, no lado direito, em **Script embutido**, insira o script de cliente. Em seguida, configure outras opções conforme necessário.
+1. Selecione **Salvar** e **Finalizar edição**.
+1. Selecione **Publicar**.
+
+### <a name="add-an-external-script-directly-to-a-template"></a>Adicionar um script externo diretamente a um modelo
+
+Para adicionar um script externo diretamente a um modelo no site Builder, siga estas etapas.
+
+1. Vá para **Modelos** e abra o modelo para as páginas às quais você deseja adicionar seu código de script.
+1. No painel esquerdo, expanda a hierarquia do modelo para mostrar o slot **Head do HTML**.
+1. No slot **Head do HTML**, selecione o botão de reticências (**...**) e depois selecione **Adicionar módulo**.
+1. Na caixa de diálogo **Adicionar módulo**, selecione **Script externo**.
+1. No painel de propriedades no lado direito, em **Origem do script**, adicione um URL externo ou relativo para a origem de script externa. Em seguida, configure outras opções conforme necessário.
+1. Selecione **Salvar** e **Finalizar edição**.
+1. Selecione **Publicar**.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
@@ -73,4 +119,3 @@ Depois de criar um fragmento para o seu código de script, ele pode ser reutiliz
 [Adicionar um aviso de direitos autorais](add-copyright-notice.md)
 
 [Adicionar idiomas ao seu site](add-languages-to-site.md)
-

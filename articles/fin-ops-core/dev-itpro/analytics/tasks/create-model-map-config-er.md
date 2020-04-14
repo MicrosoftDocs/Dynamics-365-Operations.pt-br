@@ -15,29 +15,29 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bcfc258e7fe364779fd77cc79413e8d5e871e214
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c6ba23af5f7eb517cc58994e54e918b2a305da17
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182683"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142146"
 ---
 # <a name="create-electronic-reporting-er-model-mapping-configurations"></a>Gerenciar configurações de mapeamentos de modelo para relatórios eletrônicos (ER)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Use este procedimento para criar uma nova configuração de mapeamento de modelo de Relatório eletrônico (ER) e usar funções de ER internas para obter cálculos agregados eficientes. Neste procedimento, você criará uma configuração para a empresa de exemplo, Litware, Inc. 
 
 Este procedimento é criado para usuários com a função atribuída de Administrador do sistema ou Desenvolvedor de relatório eletrônico.
 
-Estas etapas podem ser concluídas usando qualquer conjunto de dados. Para concluir essas etapas, você deve primeiro concluir as etapas do procedimento “Criar um provedor de configuração e marcá-lo como ativo“.
+Estas etapas podem ser concluídas usando qualquer conjunto de dados. Para completar essas etapas, você deve primeiro completar as etapas do procedimento "Criar um provedor de configuração e marcá-lo como ativo".
 
 1. Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.
-    * Verifique se o provedor de configuração da empresa exemplo, Litware, Inc., está disponível e marcado como Ativo. Se não visualizar esse provedor de configuração, conclua as etapas do procedimento “Criar um provedor de configuração e marcá-lo como ativo“.  
+    * Verifique se o provedor de configuração da empresa exemplo, Litware, Inc., está disponível e marcado como Ativo. Se não visualizar este provedor de configuração, conclua as etapas no procedimento "Criar um provedor de configuração e marcá-lo como ativo".  
 2. Clique em Configurações de relatórios.
 3. Clique em Mostrar filtros.
 4. No campo "Nome", digite o valor de filtro "Intrastat" e use o operador de filtro "começa com".
-    * Aplique este filtro para localizar a configuração do modelo de dados 'intrastat'. Esse modelo pode já existir na árvore de configurações. Se existir, ignore a subtarefa a seguir.   
+    * Aplique este filtro para localizar a configuração do modelo de dados "Intrastat". Esse modelo pode já existir na árvore de configurações. Se existir, ignore a subtarefa a seguir.   
 
 ## <a name="get-the-intrastat-model-configuration-provided-by-microsoft"></a>Obter a configuração de modelo intrastat fornecida pela Microsoft
 1. Feche a página.

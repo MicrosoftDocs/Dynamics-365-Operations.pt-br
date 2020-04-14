@@ -1,6 +1,6 @@
 ---
 title: Gerar relatórios em formato do Office com imagens incorporadas
-description: As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de relatório eletrônico pode criar configurações de Relatório Eletrônico (RE) para gerar os documentos eletrônicos nos formatos do MS Office (Excel e Word) que contenham imagens incorporadas.
+description: As etapas a seguir explicam como um usuário no papel de "Administrador do Sistema" ou "Desenvolvedor de relatório eletrônico" pode criar configurações de Relatório Eletrônico (RE) para gerar os documentos eletrônicos nos formatos do MS Office (Excel e Word) que contenham imagens incorporadas.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/13/2017
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64fade6578e9cd4f8a51c524e4f6ebbf63b93f20
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fa6324b244195e9626e259e42eef9512e64cde86
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184752"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143089"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Gerar relatórios em formato do Office com imagens incorporadas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de relatório eletrônico pode criar configurações de Relatório Eletrônico (RE) para gerar os documentos eletrônicos nos formatos do MS Office (Excel e Word) que contenham imagens incorporadas.
+As etapas a seguir explicam como um usuário no papel de "Administrador do Sistema" ou "Desenvolvedor de relatório eletrônico" pode criar configurações de Relatório Eletrônico (RE) para gerar os documentos eletrônicos nos formatos do MS Office (Excel e Word) que contenham imagens incorporadas.
 
-Neste exemplo, você usará as configurações de ER criadas para a empresa exemplo, Litware, Inc.  Para completar essas etapas, primeiro você deve concluir as etapas no guia de tarefas "ER Fazer relatórios nos formatos do MS Office com imagens incorporadas (Parte 2: Revisar configurações). Essas etapas podem ser executadas na empresa "USMF".
+Neste exemplo, você usará as configurações de ER criadas para a empresa exemplo, "Litware, Inc.".  Para completar essas etapas, primeiro você deve concluir as etapas no guia de tarefas "ER Fazer relatórios nos formatos do MS Office com imagens incorporadas (Parte 2: Revisar configurações)". Essas etapas podem ser executadas na empresa "USMF".
 
 
 ## <a name="run-format-with-initial-model-mapping"></a>Executar formato com mapeamento de modelo inicial

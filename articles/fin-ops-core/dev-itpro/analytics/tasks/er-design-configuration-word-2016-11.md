@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 327f03435ab55551953fd998dd89c831c76c4c26
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 208b1be20a8833afbf4929a7ceda706aeb5bda3b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182591"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142077"
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>Criar configurações de ER para gerar relatórios no formato do Word
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 As etapas a seguir explicam como um usuário na função de administrador do sistema ou de desenvolvedor de relatórios eletrônicos pode configurar um formato de relatório eletrônico (ER) para gerar relatórios como arquivos do Microsoft Word. Essas etapas podem ser executadas na empresa GBSI.
 

@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: debf66029d6efa42fe6d85eadb3866aadb312a97
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 1ded87dcd553c0aa9c19ca273460f9adf0a4b542
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025819"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148621"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Pesquisar preços e descontos aplicáveis
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimento mostra como encontrar o preço e/ou desconto para um produto que é válido no momento para um cliente específico, sem criar uma ordem de venda. O procedimento aborda um exemplo específico, e você precisa seguir o exemplo utilizando a empresa de demonstração USMF para selecionar os valores necessários.
 

@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbed62c80c14e7cfe96d38d43a5db39b0469d939
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6132d48f276b27797e86fbcde11746b7e4da7d3b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184913"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142446"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Modificar formatos para gerar documentos com dados de aplicativo
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Para concluir as etapas desse procedimento, você deve primeiramente concluir o procedimento, "ER Gerar documentos com atualização de dados de aplicativo (Parte 3: Modificar modelo e mapeamento)".
 
@@ -97,12 +97,12 @@ As etapas desse procedimento explicam como criar configurações de Relatório e
 ## <a name="modify-format-to-memorize-details-of-reporting"></a>Modificar o formato para memorizar detalhes de relatório
 1. Clique em Mapear formato para modelo.
 2. Clique em Novo.
-3. No campo Definição, insira ou selecione o item raiz 'Para atualização de dados do aplicativo'.
+3. No campo Definição, insira ou selecione o item raiz "Para atualização de dados do aplicativo".
     * Para atualização de dados do aplicativo  
 4. No campo Nome, digite "Mapeamento de dados de atualização".
     * Mapeamento para atualizar dados  
 5. Clique em Salvar.
-    * Este mapeamento define como os detalhes do relatório Intrastat são reunidos no modelo de dados, a estrutura especificada pelo item raiz selecionado 'Para atualização de dados do aplicativo'. Esses detalhes, o mapeamento de modelo com o mesmo item raiz “Para atualização de dados do aplicativo”, e a direção e “Para destino” serão usados para a atualização de dados do aplicativo. A atualização de dados do aplicativo é iniciada imediatamente após o relatório Intrastat de saída ser gerado. Observe que a atualização de dados do aplicativo pode ser ignorada no tempo de execução, mas o modelo de dados deve estar vazio (contendo a lista de registros vazia).   
+    * Este mapeamento define como os detalhes do relatório Intrastat são reunidos no modelo de dados, a estrutura especificada pelo item raiz selecionado "Para atualização de dados do aplicativo". Esses detalhes, o mapeamento de modelo com o mesmo item raiz "Para atualização de dados do aplicativo", e a direção e "Para destino" serão usados para a atualização de dados do aplicativo. A atualização de dados do aplicativo é iniciada imediatamente após o relatório Intrastat de saída ser gerado. Observe que a atualização de dados do aplicativo pode ser ignorada no tempo de execução, mas o modelo de dados deve estar vazio (contendo a lista de registros vazia).   
 6. Clique em Designer.
     * Observe que o formato de relatório Intrastat de saída será adicionada, por padrão, como uma origem de dados para este mapeamento de modelo.  
     * Associe os elementos do relatório criado (apresentado como a fonte de dados) aos elementos do modelo de dados, que é filtrado com base no item raiz do modelo selecionado.  

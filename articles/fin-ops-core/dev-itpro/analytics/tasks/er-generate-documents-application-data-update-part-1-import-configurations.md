@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdd7a07d041373b266103f313df1bf2810e9c858
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0bfa09fe7059925249f20e1d93bc9d091d6bc63d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182338"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141893"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Configurações de importação para gerar documentos com dados da solicitação de emprego
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Para completar as etapas, neste procedimento você deve primeiro concluir o procedimento, "ER Criar um provedor de configuração e marcá-lo como ativo".
 
@@ -59,7 +59,7 @@ As etapas desse procedimento explicam como criar configurações de Relatório e
 16. Clique em Designer.
 17. Na árvore, expanda 'Lista'.
 18. Na árvore, expanda 'Transações= Lista'.
-    * Reveja a estrutura de mapeamento do modelo que usa o modelo de dados que é filtrado com base no item raiz 'Para documento de saída'. Observe que a fonte de dados adicionada, ‘Lista’, fornece acesso a dados de aplicativo necessários, que é a lista de registros de tabela intrastat.  
+    * Reveja a estrutura de mapeamento do modelo que usa o modelo de dados que é filtrado com base no item raiz "Para documento de saída". Observe que a fonte de dados adicionada, "Lista", fornece acesso a dados de aplicativo necessários, que é a lista de registros de tabela intrastat.  
 19. Feche a página.
 20. Feche a página.
 21. Clique em Trocar.
@@ -73,6 +73,6 @@ As etapas desse procedimento explicam como criar configurações de Relatório e
 27. Na árvore, selecione 'Arquivo\Declaração'.
 28. Clique na aba Mapeamento.
 29. Na árvore, selecione 'Arquivo'.
-    * Examine a estrutura do formato usado para gerar o relatório intrastat. Observe que ele foi criado para gerar um arquivo XML preenchendo dados do modelo de dados, que está baseado no item raiz 'Para documento de saída'. Verifique se o nome do arquivo gerado está definido no formulário da caixa de diálogo (a fonte de dados 'fn' é usada para isso.)   
+    * Examine a estrutura do formato usado para gerar o relatório intrastat. Observe que ele foi criado para gerar um arquivo XML preenchendo dados do modelo de dados, que está baseado no item raiz "Para documento de saída". Verifique se o nome do arquivo gerado está definido no formulário da caixa de diálogo do usuário (a fonte de dados "fn" é usada para isso).   
 30. Feche a página.
 

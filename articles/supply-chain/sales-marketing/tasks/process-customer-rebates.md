@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f3a6678b09ce4011b7f80d40979209cc2f588df8
-ms.sourcegitcommit: 58db26b7edf02e7c33aaaf1c934e3263aa74b01f
+ms.openlocfilehash: 73bc22949d0b19fa04bf27e6fd7df7b27832795b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "1994925"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148575"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Gerar e processar reembolsos de cliente
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimento demonstra como processar reembolsos de cliente desde a geração da reivindicação até o momento de passá-las como provisões para Contas a receber. Ele irá apresentar um exemplo específico para explicar como as diversas condições nas linhas de reembolso afetam o valor final que será creditado ao cliente. Você precisa utilizar a empresa de dados demonstrativos USMF, e executar as seguintes tarefas antes de iniciar o guia: (1) Vá para a página Parâmetros de contas a receber, e expanda a aba Preços e então a aba Detalhes do preço, e verifique se a opção Habilitar detalhes do preço está definida como Sim. (2) Vá para a página Contratos de reembolso e selecione o contrato de reembolso do cliente: USMF-000001. Se o campo Status de aprovação do fluxo de trabalho não estiver definido como Aprovado, você precisa clicar em Validação no Painel de ação para aprová-lo.
 
@@ -36,7 +36,7 @@ Este procedimento demonstra como processar reembolsos de cliente desde a geraç�
     - O contrato é para um cliente individual, neste exemplo para o cliente US-009.  
     - Reembolsos são dados para o cliente quando compram um produto específico. Nesse caso, o produto tem número de item T0020.   
     - O desempenho de vendas do cliente, sobre o qual os valores do reembolso são estimados, deve ser acumulado semanalmente.  
-    - A configuração para “Preço extraído de“ é Bruto, o que significa que a quantia de venda da linha sobre a qual a reivindicação é estimada não é reduzida pelo desconto de linha.  
+    - A configuração para "Preço extraído de" é Bruto, o que significa que a quantia de venda da linha sobre a qual a reivindicação é estimada não é reduzida pelo desconto de linha.  
     - O campo Tipo de divisão da linha de reembolso mostra o método para calcular os reembolsos. Nesse caso, a meta de vendas sobre a qual os reembolsos serão estimados é definida como Quantidade.   
     - As linhas do contrato especificam o tipo da quantia de reembolso, o valor real do reembolso, e os limites. Neste exemplo, o cliente irá se qualificar para um reembolso de 20 USD por unidade vendida, se suas compras semanais do produto estiverem entre 1 e 50 unidades; e um reembolso de 40 USD por unidade vendida, se comprarem acima de 50 unidades.  
 2. Feche a página.
@@ -65,10 +65,10 @@ Este procedimento demonstra como processar reembolsos de cliente desde a geraç�
 
 ## <a name="process-rebate-claims"></a>Solicitações de reembolso do processo
 1. Acesse **Painel de Navegação > Módulos > Vendas e marketing > Reembolsos de clientes > Reembolso**.
-    - A página Reembolsos atua como uma bancada na qual você pode revisar, aprovar, e processar reivindicações de reembolso. Você irá agora processar as reivindicações que foram criadas como resultado da cobrança de uma ordem de venda para o cliente US-009, que é o sujeito do contrato de reembolso USMF-000001.   
+    - A página Reembolsos atua como uma bancada na qual você pode revisar, aprovar, e processar reivindicações de reembolso. Agora você processará as reivindicações que foram criadas como resultado da cobrança de uma ordem de venda para o cliente US-009, que é o sujeito do contrato de reembolso USMF-000001.   
     - A primeira linha representa uma reivindicação de reembolso de 800 USD, com base nas vendas de 40 unidades do produto T0020, calculado a 20 USD por unidade. Isso corresponde às condições da primeira divisão de quantidade do acordo de reembolso.  
     - A segunda reivindicação é de 2.400 USD, que se baseia nas vendas de 60 unidades do produto T0020, calculada a 40 USD por unidade, como previsto pela segunda divisão de quantidade do contrato.  
-    - Ambas as reivindicações estão no estado “A ser calculada“. Isso significa que elas estão associadas a um contrato que rastreia o desempenho de vendas do cliente periodicamente e que elas devem ser calculadas novamente para levar em consideração o volume total de vendas dentro do respectivo período.   
+    - Ambas as reivindicações estão no estado "A ser calculada". Isso significa que elas estão associadas a um contrato que rastreia o desempenho de vendas do cliente periodicamente e que elas devem ser calculadas novamente para levar em consideração o volume total de vendas dentro do respectivo período.   
 2. Clique em **Acumular**.
 3. No campo **Cliente**, insira ou selecione um valor.
 4. No campo **Data de início**, selecione a data de hoje.

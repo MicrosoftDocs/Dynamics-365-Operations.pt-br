@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 73f2c10d7462c4b52a2b36dd5f221593707d2f4f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5408fd883e91bbff465434ab23974f22bb0f07da
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184660"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142981"
 ---
 # <a name="modify-formats-by-reapplying-excel-templates"></a>Modificar formatos ao reaplicar modelos do Excel
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Para completar as etapas deste procedimento, primeiro você deve concluir o procedimento ER - Criar uma configuração para gerar relatórios no formato OPENXML.
 
@@ -49,7 +49,7 @@ Este procedimento explica como modificar uma configuração de formato de relat�
     * Abre a versão de rascunho de formato de ER selecionado para edição.  
 2. No Painel de Ação, clique em Importar.
 3. Clique em Atualizar do Excel.
-    * Clique em ‘Atualizar modelo’ e, em seguida, selecione o arquivo, SampleVendPaymWsReport2.xlsx.  
+    * Clique em "Atualizar modelo" e, em seguida, selecione o arquivo, SampleVendPaymWsReport2.xlsx.  
     * Clique em Atualizar modelo e procure o arquivo SampleVendPaymWsReport2.xlsx baixado anteriormente.  
 4. Clique em OK.
     * O modelo SampleVendPaymWsReport2.xlsx é aplicado. A estrutura de formato de ER é sincronizada com o conteúdo do modelo, cujos elementos são adicionados ao formato de ER. Todos os elementos existentes no formato de ER que não estão incluídos no modelo são removidos da definição de formato.  

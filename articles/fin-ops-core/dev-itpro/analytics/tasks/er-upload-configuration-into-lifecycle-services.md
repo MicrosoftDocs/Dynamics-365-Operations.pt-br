@@ -16,23 +16,23 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 980ce00ae702ea0a3394efa15419e0f7b7dc2530
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5def757de8fb9d347f5fd0f828039dad5c989c19
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182200"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143267"
 ---
 # <a name="er-upload-a-configuration-into-lifecycle-services"></a>Carregamento ER de uma configuração no Lifecycle Services
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar uma nova configuração do Relatório eletrônico (RE) e carregá-la ao Microsoft Lifecycle Services (LCS).
 
-Neste exemplo, você criará e carregará uma configuração para o LCS (Lifecycle Services) da empresa de exemplo, Litware, Inc. Estas etapas podem ser executadas em qualquer empresa, uma vez que as configurações ER são compartilhadas entre todas as empresas. Para completar essas etapas, você deve primeiro completar as etapas do procedimento “Criar um provedor de configuração e marcá-lo como ativo“. O acesso ao LCS também é necessário para a conclusão dessas etapas.
+Neste exemplo, você criará e carregará uma configuração para o LCS (Lifecycle Services) da empresa de exemplo, Litware, Inc. Estas etapas podem ser executadas em qualquer empresa, uma vez que as configurações ER são compartilhadas entre todas as empresas. Para completar essas etapas, você deve primeiro completar as etapas do procedimento "Criar um provedor de configuração e marcá-lo como ativo". O acesso ao LCS também é necessário para a conclusão dessas etapas.
 
 1. Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.
-2. Selecione 'Litware, Inc.' e defina-a como ativa.
+2. Selecione "Litware, Inc." e defina-a como ativa.
 3. Clique em Configurações.
 
 ## <a name="create-a-new-data-model-configuration"></a>Criar uma nova configuração de modelo de dados
@@ -93,5 +93,5 @@ Neste exemplo, você criará e carregará uma configuração para o LCS (Lifecyc
 10. Clique em Abrir.
     * Selecione a loja de LCS e a abra.  
     * Observe que a configuração selecionada será mostrada como um ativo do projeto selecionado de LCS.  
-    * Abra LCS usando https://lcs.dynamics.com. Abra um projeto que tenha sido usado anteriormente para registro do repositório, abra a "Biblioteca de ativo" deste projeto, e expanda o conteúdo do tipo de ativo "Configuração GER"! - a configuração ER carregada estará disponível. Observe que a configuração carregada do LCS poderá ser importada para outra instância, se os provedores tiverem acesso a este projeto do LCS.  
+    * Abra LCS usando https://lcs.dynamics.com. Abra um projeto que tenha sido usado anteriormente para registro do repositório, abra a "Biblioteca de ativo" deste projeto, e expanda o conteúdo do tipo de ativo "Configuração GER" - a configuração ER carregada estará disponível. Observe que a configuração carregada do LCS poderá ser importada para outra instância, se os provedores tiverem acesso a este projeto do LCS.  
 

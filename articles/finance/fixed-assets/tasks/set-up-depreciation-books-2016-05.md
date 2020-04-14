@@ -1,6 +1,6 @@
 ---
-title: Configurar registros de depreciações (maio de 2016)
-description: Esse guia da tarefa criará um novo registro de depreciações e irá associá-lo com um grupo de ativo fixo.
+title: Configurar registros de depreciação
+description: Este procedimento explica o processo de criação de um registro de depreciações e o associa a um grupo de ativos fixos.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6840e211847494598a81cd3228dbd3796447e18c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 03f915fa91e0eeff2f26ab9a60bbd5118317e853
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186891"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154588"
 ---
-# <a name="set-up-depreciation-books-may-2016"></a>Configurar registros de depreciações (maio de 2016)
+# <a name="set-up-depreciation-books"></a>Configurar registros de depreciação 
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Esse guia da tarefa criará um novo registro de depreciações e irá associá-lo com um grupo de ativo fixo.  Ela usa a função de contador e os dados de demonstração da entidade legal de USMF.
-
+Este procedimento explica o processo de criação de um registro de depreciações e o associa a um grupo de ativos fixos. 
 
 ## <a name="create-a-depreciation-book"></a>Crie um registro de depreciação
 1. Vá para Ativos fixos > Configuração > Registros de depreciação.

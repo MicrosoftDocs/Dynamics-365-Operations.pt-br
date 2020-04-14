@@ -16,24 +16,24 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d7882a7a17f5736d9d5a11cd91ac963fa89ff12f
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: f2b93f74a121de4c23eb5dddfb94c6596b78544d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042887"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142653"
 ---
 # <a name="er-design-domain-specific-data-model"></a>ER Projetar modelo de dados de domínio específico
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar uma nova configuração de Relatório Eletrônico (RE) que contem um modelo de dados para os documentos de pagamento eletrônico. Esse modelo de dados será usado posteriormente como uma fonte de dados quando você criar o formato dos documentos de pagamento.
 
-Neste exemplo, será criado uma configuração para a empresa de exemplo, Litware, Inc. Essas etapas podem ser executadas em qualquer empresa, uma vez que configurações de ER são compartilhadas entre todas as empresas. Para completar essas etapas, você deve primeiro completar as etapas do procedimento “Criar um provedor de configuração e marcá-lo como ativo“.
+Neste exemplo, será criado uma configuração para a empresa de exemplo, Litware, Inc. Essas etapas podem ser executadas em qualquer empresa, uma vez que configurações de ER são compartilhadas entre todas as empresas. Para completar essas etapas, você deve primeiro completar as etapas do procedimento "Criar um provedor de configuração e marcá-lo como ativo".
 
 1. Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.
 
-    Selecione o provedor de configuração para a empresa de exemplo, "Litware, Inc." Se você não visualizar o provedor de configuração, você deve primeiro concluir as etapas do procedimento “Criar um provedor de configuração e marcá-lo como ativo“.  
+    Selecione o provedor de configuração para a empresa de exemplo, "Litware, Inc." Se não visualizar este provedor de configuração, você deve primeiro concluir as etapas do procedimento "Criar um provedor de configuração e marcá-lo como ativo".  
     
 2. Clique em Configurações de relatórios.
 
@@ -46,7 +46,7 @@ Neste exemplo, será criado uma configuração para a empresa de exemplo, Litwar
 
     O provedor de configuração ativo é automaticamente inserido aqui. Este provedor será capaz de manter essa configuração. Outros provedores podem usar esta configuração, mas não poderão mantê-la.  
 
-4. Clique no botão 'Criar configuração' para completar a tarefa de criação de configuração
+4. Clique no botão "Criar configuração" para completar a tarefa de criação de configuração
 
 ## <a name="create-a-data-model"></a>Criar um modelo de dados
 Você está criando um novo modelo de dados para a configuração selecionada. Essa versão de configuração terá um status de Rascunho.  

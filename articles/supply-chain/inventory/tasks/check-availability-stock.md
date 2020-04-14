@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e0c00b2a79ab588ff47c249f73570544d884b79e
-ms.sourcegitcommit: 25fe679b73663fda6b5b3c32646026d0993a9f00
+ms.openlocfilehash: a6ced839f93103a62bcfa8ea14ca463f0f1e174e
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "1995230"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145838"
 ---
 # <a name="check-the-availability-of-stock"></a>Verificar a disponibilidade do estoque
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimento mostra como verificar um valor disponível e o estoque físico disponível de um número de item específico. Ele também mostra como obter informações de fornecimento relacionadas ao item. O estoque físico disponível é o estoque disponível que está disponível ou seja, comprado, recebido e registrado. O estoque disponível inclui o estoque disponível, mas também o estoque que é ordenado e esperado, mas que ainda não foi recebido ou registrado. Você pode ver todo esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados. Se você estiver usando USMF você pode usar os valores de exemplo mostrados. Essas tarefas normalmente seriam realizadas por um funcionário do depósito.
 

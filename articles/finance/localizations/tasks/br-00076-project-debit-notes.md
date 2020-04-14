@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 83a434ac80609380b4de88b5758d0a058168b096
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 61ba5dafc8aa7a817a2609eaef6314ebdda487c4
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174727"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138291"
 ---
 # <a name="project-debit-notes-brazil"></a>Notas de débito do projeto (Brasil)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Você pode gerar notas de débito para projetos para obter reembolso de despesas ocorridas no projeto. A empresa de dados demo usada para criar este procedimento é BRMF.
 

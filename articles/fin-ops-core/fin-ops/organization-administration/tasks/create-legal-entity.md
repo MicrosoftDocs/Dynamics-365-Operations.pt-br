@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f63591d2bdb88de8c9bc7a544ac4f3adbab90a7c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cab889d89b239c746c98108a22746774203e4169
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176499"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140596"
 ---
 # <a name="create-a-legal-entity"></a>Criar uma entidade legal
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Uma entidade legal é uma organização que é identificada através de um registro com uma autoridade legal. As entidades legais podem participar de contratos e são obrigadas a elaborar demonstrativos que relatam seus desempenhos. O procedimento a seguir explica como criar uma entidade legal. A empresa de dados demo usada para criar este procedimento é USMF.
 

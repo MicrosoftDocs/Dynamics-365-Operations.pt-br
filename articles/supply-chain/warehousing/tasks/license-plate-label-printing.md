@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ed4fa28039c9320998f6524c9c9edb0a0301b7b0
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: 545f1c15888bcd0b46e1028f58cbe3a274846c92
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1866817"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146017"
 ---
 # <a name="enable-license-plate-label-printing"></a>Habilitar a impressão da etiqueta da placa de licença
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este tópico mostra como habilitar a impressão automática de um rótulo (SSCC) do código de série do contêiner de remessa depois que o último item for separado do estoque em um processo de trabalho de separação de vendas. Você pode executar este procedimento na empresa USMF de dados de demonstração. Se sua execução está usando seus próprios dados, você precisa ter uma sequência numérica configurada para matrículas. Será preciso configurar uma impressora de rótulo antes de iniciar a tarefa. Ir para Administração de organização > Configuração > Impressoras de rede. No painel de ações, clique em Opções, depois clique no botão de instalação de download do agente de roteiro do documento. Execute o instalador e verifique se você tem uma impressora de rede trabalhando definida como ativa antes de continuar com o procedimento.
 

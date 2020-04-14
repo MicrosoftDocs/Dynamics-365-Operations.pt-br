@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e9002b1d9f8507af42277ccc47621d92a4a00f62
-ms.sourcegitcommit: 7b74425637ddcf02087f1d391755e5cb8ce25949
+ms.openlocfilehash: e8210369139b3c3d4123deff5279abb26b1cbb17
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "2559180"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145953"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Configurar um processo de reabastecimento mínimo/máximo
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimento mostra como configurar um novo processo de reabastecimento que usa estratégia de reabastecimento de mínimo/máximo. Se o estoque estiver abaixo do nível mínimo, o trabalho será criado para reabastecer o local. O procedimento também mostra como usar locais de separação fixos para permitir reabastecimento se o estoque ficar abaixo do mínimo, e como habilitar o processo de reabastecimento para executar regularmente usando um trabalho em lotes. Essas tarefas normalmente seriam realizadas por um gerente do depósito. Você pode executar este procedimento na empresa de dados de demonstração de USMF usando os valores de exemplo abaixo, ou pode executá-lo em seus próprios dados. Se você estiver usando seus próprios dados, verifique se você tem um depósito que seja habilitado para os processos de gerenciamento de depósito.
 
@@ -34,7 +34,7 @@ Este procedimento mostra como configurar um novo processo de reabastecimento que
 ## <a name="create-a-fixed-picking-location"></a>Criar um local de separação fixo
 1. Vá para **Painel de navegação > Módulos > Gerenciamento de depósito > Configuração > Depósito >> Localizações fixas**. Esta é uma tarefa opcional para o reabastecimento mínimo/máximo, mas se você usar local fixo de separação, isso permite que o estoque seja reabastecido mesmo se estiver abaixo do nível mínimo, pois o sistema pode determinar os itens que precisam ser reabastecidos, mesmo se não for deixado.
 2. Clique em **Novo**.
-3. No campo **Número do item**, insira ou selecione um valor. Se você estiver usando USMF, é possível selecionar o item A0001.  
+3. No campo **Número do item**, insira ou selecione um valor. Se você estiver usando USMF, você pode o item A0001.  
 4. No campo **Local**, insira ou selecione um valor. Se você estiver usando USMF, você pode selecionar site 2.  
 5. No campo **Depósito**, insira ou selecione um valor. Se você estiver usando o USMF, você pode selecionar o depósito 24.  
 6. No campo **Localização**, insira ou selecione um valor. Se você estiver usando USMF, você pode selecionar CP-003.  

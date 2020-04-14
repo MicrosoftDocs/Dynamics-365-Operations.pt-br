@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26a3dee8b73ae710def7e526ceefa7194171d716
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a261acee47c6d52e3a1390d0e55cb3f9d197efec
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182660"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142219"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>Criar configurações ER para analisar documentos recebidos
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Este procedimento mostra como criar configurações de ER (relatório eletrônico) para analisar um documento eletrônico. Nesse procedimento, você importará as configurações de ER necessárias que foram criadas para a empresa exemplo, Litware, Inc., e irá usá-las para analisar a entrada de documentos eletrônicos. Para completar as etapas, neste procedimento você deve primeiro concluir o procedimento, "ER Criar um provedor de configuração e marcá-lo como ativo".
+Este procedimento mostra como criar configurações de ER (relatório eletrônico) para analisar um documento eletrônico. Nesse procedimento, você importará as configurações de ER necessárias que foram criadas para a empresa exemplo, Litware, Inc., e irá usá-las para analisar a entrada de documentos eletrônicos. Para completar as etapas, neste procedimento você deve primeiro concluir o procedimento, "ER Criar um provedor de configuração e marcá-lo como ativo."
 
 Este procedimento é criado para usuários com a função atribuída de Administrador do sistema ou Desenvolvedor de relatório eletrônico. 
 
-Estas etapas podem ser concluídas usando qualquer conjunto de dados. Antes de começar, baixe e salve os arquivos listados no tópico, “Analisar documentos de entrada para atualizar os dados da solicitação de emprego” (https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents). Os arquivos são: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
+Estas etapas podem ser concluídas usando qualquer conjunto de dados. Antes de começar, baixe e salve os arquivos listados no tópico, "Analisar documentos de entrada para atualizar os dados da solicitação de emprego" (https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents). Os arquivos são: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
 
 1. Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.
-    * Verifique se o provedor de configuração da empresa exemplo, Litware, Inc., está disponível e marcado como Ativo. Se não visualizar esse provedor de configuração, conclua as etapas do procedimento “Criar um provedor de configuração e marcá-lo como ativo“.  
+    * Verifique se o provedor de configuração da empresa exemplo, Litware, Inc., está disponível e marcado como Ativo. Se não visualizar este provedor de configuração, conclua as etapas no procedimento "Criar um provedor de configuração e marcá-lo como ativo".  
 2. Clique em Configurações de relatórios.
     * O cenário a seguir será usado para mostrar os recursos de análise de documentos eletrônicos de entrada no formato XML: o aplicativo de ERP solicita dados do serviço Web (como o serviço fiscal EFSTA http://efsta.org/) e analisa as respostas recebidas para atualizar os dados do aplicativo adequadamente. Para a maneira mais eficiente de analisar, um único formato de ER é usado apesar da estrutura diferente dos documentos de entrada esperados em formato XML.   
 
@@ -47,7 +47,7 @@ Importe a configuração de modelo de ER que contém o modelo de dados de exempl
 5. Clique em Designer.
     * Revise a estrutura do modelo de dados importado. Observe que a enumeração enumType é definida para reconhecer os seguintes tipos de respostas de serviço: para obter a confirmação sobre o envio da transação, obter informações sobre a última transação enviada e reconhecer os tipos de resposta sem suporte.   
 6. Na árvore, expanda 'Resposta'.
-    * Observe que o item raiz 'Resposta' é definido para especificar que tipo de dados deve ser obtido de uma resposta de serviço com suporte para atualizar os dados do aplicativo adequadamente.   
+    * Observe que o item raiz "Resposta" é definido para especificar que tipo de dados deve ser obtido de uma resposta de serviço com suporte para atualizar os dados do aplicativo adequadamente.   
 7. Feche a página.
     * Você importará a configuração de formato de ER que especifica como os documentos de entrada serão analisados para armazenar dados no modelo de dados de ER.   
 8. Clique em Trocar.
@@ -60,9 +60,9 @@ Importe a configuração de modelo de ER que contém o modelo de dados de exempl
 14. Clique em Expandir/recolher.
     * Observe que o elemento de formato CASE é usado como a raiz e contém três elementos FILE aninhados, o que significa que esse formato foi criado para analisar arquivos de entrada de vários formatos.  
 15. Na árvore, selecione 'Respostas\Conclusão de transação\TraC'.
-    * Observe que a resposta sobre a transação enviada parte do elemento raiz 'TraC'.   
+    * Observe que a resposta sobre a transação enviada parte do elemento raiz "TraC".   
 16. Na árvore, selecione 'Respostas\Última solicitação de transação\Tra'.
-    * Observe que a resposta sobre a última transação enviada parte do elemento raiz 'Tra'.   
+    * Observe que a resposta sobre a última transação enviada parte do elemento raiz "Tra".   
 17. Na árvore, selecione 'Respostas\Resposta inesperada\Texto'.
     * O terceiro elemento FILE com elemento TEXT aninhado foi adicionado para reconhecer quaisquer outros tipos de respostas que sejam diferentes dos mencionados acima.   
 18. Clique em Mapear formato para modelo.
@@ -70,9 +70,9 @@ Importe a configuração de modelo de ER que contém o modelo de dados de exempl
 19. Clique em Designer.
 20. Na árvore, expanda 'format'.
 21. Na árvore, expanda “formato\Respostas: Caso(Responses)'.
-    * Examine a estrutura da fonte de dados de ‘formato’. Observe que os três tipos de resposta são oferecidos separadamente.   
+    * Examine a estrutura da fonte de dados de "formato". Observe que os três tipos de resposta são oferecidos separadamente.   
 22. Na árvore, selecione “formato\Respostas: Caso(Responses)\aType'.
-    * O item da fonte de dados 'aType' foi adicionado para indicar o tipo de resposta e está associado ao item do modelo de dados 'Tipo'.  
+    * O item da fonte de dados "aType" foi adicionado para indicar o tipo de resposta e está associado ao item do modelo de dados "Tipo".  
 23. Clique na guia Validações.
 24. Na árvore, selecione 'Tipo = format.Responses.aType'.
     * Observe que a validação de ER foi configurada para informar ao usuário sobre a situação quando a estrutura de resposta não corresponde à confirmação sobre o envio da transação ou às informações sobre a última transação enviada (caso de resposta sem suporte).   
@@ -80,12 +80,12 @@ Importe a configuração de modelo de ER que contém o modelo de dados de exempl
 
 ## <a name="run-model-mapping-of-er-format-configured-for-parsing-incoming-files"></a>Executar mapeamento de modelo de formato de ER configurado para analisar arquivos de entrada
 Você executará o mapeamento de modelo criado para fins de teste para ver como o formato de ER configurado analisará respostas de serviços de entrada. Esta etapa usa diferentes arquivos XML para simular diferentes tipos de respostas de serviços Web.   
-1. Abra o arquivo Response1.xml em um leitor xml, como um navegador da Web. Observe que esse arquivo contém detalhes de confirmação sobre a transação concluída (‘TraC’ é o elemento raiz).   
+1. Abra o arquivo Response1.xml em um leitor xml, como um navegador da Web. Observe que esse arquivo contém detalhes de confirmação sobre a transação concluída ("TraC" é o elemento raiz).   
 2. Clique em Executar.
     * Clique em Procurar e selecione o arquivo Response1.xml.  
 3. Clique em OK.
     * Revise a saída gerada. Observe que o tipo de resposta foi corretamente reconhecido e analisado (ERModelEnumDataSourceHandler#EFSTA model#enumType#C significa caso de conclusão de transação).   
-    * Abra o arquivo Response2.xml em um leitor XML. Observe que esse arquivo contém informações sobre a última transação enviada (‘Tra’ é o elemento raiz).   
+    * Abra o arquivo Response2.xml em um leitor XML. Observe que esse arquivo contém informações sobre a última transação enviada ("Tra" é o elemento raiz).   
 4. Clique em Executar.
     * Clique em Procurar e selecione o arquivo Response2.xml.  
 5. Clique em OK.
@@ -95,7 +95,7 @@ Você executará o mapeamento de modelo criado para fins de teste para ver como 
     * Clique em Procurar e selecione o arquivo Response3.xml.  
 7. Clique em OK.
     * Revise a saída gerada. Observe que o tipo de resposta foi corretamente reconhecido como sem suporte (ERModelEnumDataSourceHandler#EFSTA model#enumType#U). A mensagem correspondente foi colocada no Log de Informações (de acordo com a configuração de validação de ER) e a maior parte do modelo de dados não foi preenchida.   
-    * Abra o arquivo Response4.xml em um leitor XML. Observe que a estrutura desse arquivo é praticamente igual à do arquivo analisado com êxito Response1.xml, exceto a sequência de elementos aninhados do elemento raiz 'TraC'.   
+    * Abra o arquivo Response4.xml em um leitor XML. Observe que a estrutura desse arquivo é praticamente igual à do arquivo analisado com êxito Response1.xml, exceto a sequência de elementos aninhados do elemento raiz "TraC".   
 8. Clique em Executar.
     * Clique em Procurar e selecione o arquivo Response4.xml.  
 9. Clique em OK.
@@ -103,7 +103,7 @@ Você executará o mapeamento de modelo criado para fins de teste para ver como 
 10. Feche a página.
 11. Na árvore, selecione 'Respostas\Conclusão de transação\TraC'.
 12. No campo Ordem de análise de elementos aninhados, selecione 'Qualquer'.
-    * Selecione Qualquer no campo 'Ordem de análise de elementos aninhados' para permitir qualquer sequência de elementos aninhados para este item XML raiz.  
+    * Selecione Qualquer no campo "Ordem de análise de elementos aninhados" para permitir qualquer sequência de elementos aninhados para este item XML raiz.  
 13. Clique em Salvar.
 14. Clique em Mapear formato para modelo.
 15. Clique em Executar.

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8e420e2bb47ae18e20d35731339b53f0f890b247
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 15b7386736a58048ff9d9bc6177c8384188c1b7b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184407"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142929"
 ---
 # <a name="use-record-template-to-create-a-new-record"></a>Use o modelo de registro para criar um novo registro
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimento mostra como usar um modelo de registro previamente definido para criar um novo registro. Para concluir esse procedimento, é preciso primeiro concluir o procedimento "Criar um modelo de registro para facilitar a entrada de dados".
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b616998738d6b6986f157d136fc56e061900ef41
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 501936734b6ec970062d0d2cbcc8a3cdc11b934f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550523"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142354"
 ---
 # <a name="er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1---design-format"></a>ER Usar intervalos expansíveis horizontalmente para adicionar colunas dinamicamente em relatórios do Excel (Parte 1 - Criar formato)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 As etapas a seguir explicam como um usuário atribuído à função de administrador do sistema ou de desenvolvedor de relatório eletrônico (ER) pode configurar um formato para gerar relatórios como arquivos OPENXML de planilhas de Excel em que as colunas exigidas possam ser criadas dinamicamente como intervalos expansíveis horizontalmente. Essas etapas podem ser executadas em qualquer empresa.
 
@@ -33,9 +33,9 @@ Para concluir essas etapas, primeiro você deve concluir essas guias de três ta
 
 "ER Criar um provedor de configuração e marcá-lo como ativo"
 
-"ER Usar dimensões financeiras como uma fonte de dados (Parte 1: Modelo de dados de design)"
+"ER Usar dimensões financeiras como uma fonte de dados (Parte 1: Criar modelo de dados)"
 
-"ER Usar dimensões financeiras como uma fonte de dados (Parte 2: mapeamento de modelo)"
+"ER Usar dimensões financeiras como uma fonte de dados (Parte 2: Mapeamento de modelo)"
 
 Você também deve baixar e salvar uma cópia local do modelo com um relatório de exemplo encontrado aqui, [Relatório de Serviço Web de Dimensões Financeiras de Exemplo](https://go.microsoft.com/fwlink/?linkid=862266).
 
@@ -57,7 +57,7 @@ Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynam
 
 ## <a name="design-the-report-format"></a>Criar o formato do relatório
 1. Clique em Designer.
-2. Ative o botão de alternância 'Mostrar detalhes'.
+2. Ative o botão de alternância "Mostrar detalhes".
 3. No Painel de Ação, clique em Importar.
 4. Clique em Importar do Excel.
 5. Clique em Anexos.

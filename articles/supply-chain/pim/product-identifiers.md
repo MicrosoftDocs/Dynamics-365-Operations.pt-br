@@ -3,7 +3,7 @@ title: Identificadores do produto
 description: Este tópico fornece informações sobre os vários tipos de identificadores de produtos e explica como adicioná-los aos dados de produtos.
 author: cvocph
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 03/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: adac308a17ac51ed6da28d04d8c69b01f579aab7
-ms.sourcegitcommit: 7789ef6b0d337bee6aa05110c40e002f02eec71b
+ms.openlocfilehash: 0aa8baf5802ccdd9a502e2a7d291a76fc4afe932
+ms.sourcegitcommit: d91d96c98b31ae59bc82ec91efbb7da86ffb25fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3095608"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172016"
 ---
-# <a name="product-identifiers"></a>Identificadores do produto 
+# <a name="product-identifiers"></a>Identificadores do produto
 
 [!include [banner](../includes/banner.md)]
 
@@ -36,7 +36,7 @@ Ao trabalhar com produtos no chão de fábrica ou em um depósito no Microsoft D
 
 ## <a name="unique-product-numberproduct-id"></a>Número do produto/ID do produto exclusivos
 
-No Dynamics 365 Supply Chain Management, o principal identificador de um produto é o número do produto (isto é, a ID exclusiva do produto). Esse número pode ser automaticamente gerado por uma sequência numérica, ou pode ser manualmente associado a um produto. No caso das grades de produtos, os números podem ser definidos por meio do modelo de nomenclatura de produtos.
+No Dynamics 365 Supply Chain Management, o principal identificador de um produto é o número do produto (isto é, a ID exclusiva do produto). Esse número pode ser gerado automaticamente por uma sequência numérica ou associado manualmente a um produto. No caso das grades de produtos, os números podem ser definidos por meio do modelo de nomenclatura de produtos.
 
 Em muitos casos, o número do produto não é criado originalmente no Dynamics 365 Supply Chain Management. Em vez disso, é associado a um produto em um sistema de gerenciamento do ciclo de vida do produto (PLM) ou em um sistema de gerenciamento de dados do produto (PDM). Nesse caso, você usa entidades de dados para importar os produtos e as grades de produtos. O Supply Chain Management depois usa os números em todas as operações.
 
@@ -53,6 +53,9 @@ Além disso, uma grade de produto não pode ser exclusivamente identificada por 
 Muitas páginas ainda têm o número do item e as dimensões do produto como os identificadores principais. No entanto, os números do produto podem ser usados para pesquisas. Em **Vendas e marketing** &gt; **Configuração** &gt; **Pesquisar** &gt; **Parâmetros de pesquisa**, você pode alterar a busca por pesquisa para que ela use números de produto em vez de números de item como estratégia de pesquisa principal. Se você definir a opção **Habilitar pesquisa para pesquisa de produtos** como **Sim**, a consulta mostrará não apenas os produtos mestres, mas também as grades de produtos. Para obter mais informações, consulte [Procurar produtos e grades de produtos durante uma entrada de ordem](search-products-product-variants.md).
 
 Além disso, você poderá pesquisar e filtrar pelo número do produto, pelo nome e a descrição do produto e pelas IDs de dimensão do produto da grade de produto. Ao selecionar uma grade, o número do item relacionado e todas as IDs de dimensão do produto serão selecionados. Portanto, você poderá encontrar e selecionar a grade correta mais facilmente. Essa configuração é altamente recomendável se você usar as grades de produtos e o número de produto exclusivo como os identificadores principais de produtos. A única exceção talvez seja a indústria da moda, na qual os processos de negócios normalmente exigem a seleção do mestre antes de selecionar uma grade. Você deve avaliar essa opção com cuidado antes de implementar o sistema de numeração.
+
+> [!NOTE]
+> O número do item de um produto não pode ser alterado depois que uma ou mais transações existem para esse produto.
 
 ## <a name="product-name-and-description"></a>Nome e descrição do produto
 
@@ -123,7 +126,7 @@ Infelizmente, não há nenhuma funcionalidade padrão que permite pesquisar prod
 | Produtos V2 | Número do produto, nome de pesquisa do produto, nome do produto, descrição do produto | Número do produto, nome de pesquisa do produto, nome do produto, descrição do produto | Dependendo das configurações da entidade e da sequência numérica do número do produto, o número do produto pode ser criado automaticamente no momento da importação. |
 | Variantes de produtos | Número do produto, nome de pesquisa do produto, nome do produto, descrição do produto | Número do produto, nome de pesquisa do produto, nome do produto, descrição do produto | Dependendo do modelo de nomenclatura de produtos, o número do produto pode ser criado automaticamente no momento da importação. No entanto, você pode importar qualquer número de produto exclusivo, e esse número de produto não precisa seguir a estrutura dos modelos de nomenclatura de produtos. |
 | Traduções do produto | Nome do produto, descrição do produto | Nome do produto, descrição do produto | Essa entidade substitui qualquer idioma. Observe que, quando o nome ou a descrição do idioma principal de uma entidade legal são substituídos, o nome e a descrição do produto são alterados. |
-| Produtos liberados V2 | Número do item, número do produto, nome de pesquisa do item| Número do item, número do produto, nome de pesquisa do item, nome de pesquisa do produto, nome do produto | Essa entidade pode ser um desafio quando sequências numéricas são usadas durante a criação de novos produtos liberados. Tanto a sequência numérica **Número do item** quanto a sequência numérica **Número do produto** têm uma influência. No entanto, a sequência numérica **Número do item** é por entidade legal, enquanto a sequência numérica **Número do produto** é global. Portanto, não é recomendável usar a sequência numérica **Número do item** ao implantar novos produtos liberados. Obviamente, quando a entidade é usada para liberar um produto existente, o número do produto deve ser fornecido na entidade. Para obter mais informações, consulte a seção “Sequências numéricas do item e do produto” neste tópico. |
+| Criação de produtos liberados V2 | Número do item, número do produto, nome de pesquisa do item| Número do item, número do produto, nome de pesquisa do item, nome de pesquisa do produto, nome do produto | Essa entidade pode ser um desafio quando sequências numéricas são usadas durante a criação de novos produtos liberados. Tanto a sequência numérica **Número do item** quanto a sequência numérica **Número do produto** têm uma influência. No entanto, a sequência numérica **Número do item** é por entidade legal, enquanto a sequência numérica **Número do produto** é global. Portanto, não é recomendável usar a sequência numérica **Número do item** ao implantar novos produtos liberados. Obviamente, quando a entidade é usada para liberar um produto existente, o número do produto deve ser fornecido na entidade. Para obter mais informações, consulte a seção “Sequências numéricas do item e do produto” neste tópico. |
 | Grades de produtos liberadas | Número do item, dimensões do produto, número do produto | Número do produto, nome de pesquisa do produto, nome do produto, descrição do produto, dimensões do produto | Assim como a entidade **Grades de produtos**, essa entidade pode ser usada para criar novos produtos que seguem o modelo de nomenclatura de produtos ou usam seus próprios números de produto para a grade. |
 | Descrição de itens externos para clientes | Número de item do cliente, nome de item do cliente, descrição do cliente, conta de cliente | Número de item do cliente, nome de item do cliente, descrição do cliente, conta de cliente | Um grupo de clientes (por exemplo, uma associação de compradores) pode ser agregado em um grupo usando a entidade **Grupos de clientes para descrição de item externo**. |
 | Descrição de itens externos para fornecedores | Número de item do fornecedor, nome de item do fornecedor, descrição do fornecedor, conta de fornecedor | Número de item do fornecedor, nome de item do fornecedor, descrição do fornecedor, conta de fornecedor | Um grupo de fornecedores (por exemplo, uma associação de vendas ou organização da indústria) pode ser agregado em um grupo usando a entidade **Grupos de fornecedores para descrição de item externo**. |
@@ -144,7 +147,7 @@ Você pode definir duas sequências numéricas diferentes:
 > [!NOTE]
 > Você deve usar o número do item como um identificador separado apenas quando migrar entidades legais diferentes de fontes diferentes com sistemas de numeração diferentes. Você sempre deve tentar usar um identificador de produto que seja exclusivo em todas as entidades legais. Portanto, você deve definir a opção **Manual** como **Sim** para a sequência numérica **Número do item**. Dessa forma, o número do item acompanhará o número do produto na criação. Se o Supply Chain Management não for o sistema principal para novos números de produto, você deverá definir a opção **Manual** como **Sim** para as sequências numéricas **Número do item** e **Número do produto**.
 
-Quando você usa a entidade **Produto liberado V2** para criar produtos, várias configurações podem afetar a maneira como as sequências numéricas são usadas para criar o número do produto e o número do item:
+Quando você usa a entidade **Criação de produtos liberados V2** para criar produtos, várias configurações podem afetar a maneira como as sequências numéricas são usadas para criar o número do produto e o número do item:
 
 - Configurações da sequência numérica **Número do produto**
 - Configurações da sequência numérica **Número do item**
@@ -155,9 +158,9 @@ A tabela a seguir fornece uma visão geral dos resultados de importação e cria
 
 | Sequência numérica de número do produto | Sequência numérica de número do item | Mapeamento do número do item | Mapeamento do número do produto | Resultado da importação da entidade | Resultado da criação manual | Conclusão |
 |--------------------------------|-----------------------------|----------------------------|-------------------------------|-------------------------|----------------------------|-----------|
-| Manual = Não | Manual = Não | Nenhum mapeamento | Nenhum mapeamento | Os números do produto usam a sequência numérica **Número do produto**. Os números do item usam a sequência numérica **Número do item**. | Os números do produto usam a sequência numérica **Número do produto**. Os números do item usam a sequência numérica **Número do item**. | Essas configurações podem ser usadas se você exigir um número diferente para produtos e itens. No entanto, não é recomendável usar números diferentes para itens e produtos. |
-| Manual = Não | Manual = Sim | Gerar automaticamente | Nenhum mapeamento | Os números do produto e os números do item usam a sequência numérica **Número do item**. | Os números do produto e os números do item usam a sequência numérica **Número do produto**. | Essas configurações não são recomendadas. A importação e a criação manual funcionam de maneira diferente. |
-| Manual = Não | Manual = Sim | Nenhum mapeamento | Nenhum mapeamento | Os números do produto e os números do item usam a sequência numérica **Número do produto**. | Os números do produto e os números do item usam a sequência numérica **Número do produto**. | Essas configurações são recomendadas caso os produtos precisem ter uma numeração automática consistente, independentemente do uso de importação ou criação manual. |
+| Manual = Não | Manual = Não | Nenhum mapeamento | Nenhum mapeamento | Os números do produto usam a sequência numérica **Número do produto**. Os números do item usam a sequência numérica **Número do item**. | Os números do produto usam a sequência numérica **Número do produto**. Os números do item usam a sequência numérica **Número do item**. | Com essa configuração, os números do produto seguirão a sequência do número do produto e os números do item seguirão a sequência do número do item. No entanto, essa configuração não funcionará se houver mais de um item (linha) a ser importado. |
+| Manual = Não | Manual = Sim | Gerar automaticamente | Nenhum mapeamento | Os números do produto e os números do item usam a sequência numérica **Número do item**. | Os números do produto e os números do item usam a sequência numérica **Número do produto**. | Os números do produto e do item seguirão a sequência do número do produto. Essa é a abordagem recomendada para importar produtos em massa com a entidade de dados Criação de produtos liberados V2. |
+| Manual = Não | Manual = Sim | Nenhum mapeamento | Nenhum mapeamento | Os números do produto e os números do item usam a sequência numérica **Número do produto**. | Os números do produto e os números do item usam a sequência numérica **Número do produto**. | Os números do produto e do item usarão a sequência do número do produto. No entanto, essa configuração não funcionará se houver mais de um item (linha) a ser importado. |
 | Manual = Sim | Não Aplicável | Não Aplicável | Gerar automaticamente | Você recebe a seguinte mensagem de erro: "A sequência numérica não pode ser detectada." | De acordo com a sequência numérica **Número do item** | Essa configuração não tem suporte para importação. |
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>Identificador de entidade Produto (Exportar todos os identificadores do produto)

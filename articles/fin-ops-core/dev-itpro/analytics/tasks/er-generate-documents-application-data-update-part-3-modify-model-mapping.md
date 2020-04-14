@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5df6128228b9ff620c606c550c5eb7a6039b915
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a4546de2c5c1773aadce0ec084ee7058ff2ae153
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182292"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141870"
 ---
 # <a name="modify-models-and-mappings-to-generate-documents-that-have-application-data"></a>Modificar modelos e mapeamentos para gerar documentos com dados da solicitação de emprego
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Para concluir as etapas desse procedimento, você deve primeiramente concluir o procedimento, "ER Gerar documentos com atualização de dados de aplicativo (Parte 2: Gerar documentos)". 
 
@@ -101,7 +101,7 @@ As etapas desse procedimento explicam como criar configurações de Relatório e
 10. Clique em Adicionar raiz.
 11. No campo Nome, digite 'modelo'.
     * modelo  
-12. No campo Definição, insira ou selecione o valor 'Para atualização de dados do aplicativo'.
+12. No campo Definição, insira ou selecione o valor "Para atualização de dados do aplicativo".
     * Para atualização de dados do aplicativo  
 13. Clique em OK.
 14. Na árvore, expanda 'modelo'.
@@ -129,7 +129,7 @@ As etapas desse procedimento explicam como criar configurações de Relatório e
     * Arquivar  
 32. No campo Nome de tabela, digite “IntrastatArchiveGeneral”.
     * IntrastatArchiveGeneral  
-    * Mantenha a ação de registro 'Inserir' para poder adicionar registros durante o arquivamento de detalhes de cada processo do relatório Intrastat.  
+    * Mantenha a ação de registro "Inserir" para poder adicionar registros durante o arquivamento de detalhes de cada processo do relatório Intrastat.  
 33. Selecione Sim no campo Log de informações sobre registro.
     * Selecione Sim para obter informações sobre problemas com a atualização de dados do aplicativo.  
 34. Selecione Sim no campo Ignorar validação da ação de registro.

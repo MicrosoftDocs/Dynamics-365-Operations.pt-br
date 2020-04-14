@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9593e8e54b18c6fe723a133eca699a30baabfdd0
-ms.sourcegitcommit: e0e013fa8a4cc994ef6d1e0a1a3389b36b5afffa
+ms.openlocfilehash: 7de7af1084b62a7248eeda54df215e56f2541286
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "3081142"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173191"
 ---
 # <a name="unified-product-experience"></a>Experiência unificada de produto
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
+
 
 Quando um ecossistema comercial é formado por aplicativos do Dynamics 365, como Finance, Supply Chain Management e Sales, muitas vezes as empresas usam esses aplicativos para obter dados do produto. Isso ocorre porque esses aplicativos fornecem uma infraestrutura de produto robusta, complementada por conceitos sofisticados de preços e dados de estoque disponível precisos. As empresas que usam um sistema externo de gerenciamento do ciclo de vida do produto (PLM) para obter dados do produto podem canalizar produtos de aplicativos do Finance and Operations para outros aplicativos do Dynamics 365. A experiência unificada de produto leva o modelo de dados do produto integrado para o Common Data Service, para que todos os usuários do aplicativo, inclusive usuários do Power Platform, possam aproveitar os valiosos dados do produto obtidos de aplicativos do Finance and Operations.
 
@@ -52,7 +52,7 @@ Os mapas de entidade de gravação dupla de produtos foram desenvolvidos para tr
 
 As informações do produto contêm todos os dados relacionados ao produto e sua definição, como as dimensões do produto ou as dimensões de rastreamento e armazenamento. Como mostrado na tabela a seguir, é criada uma coleção de mapas de entidades para sincronizar produtos e as informações relacionadas.
 
-Finance and Operations | Outros aplicativos do Dynamics 365 | Descrição
+Aplicativos Finance and Operations | Outros aplicativos do Dynamics 365 | descrição
 -----------------------|--------------------------------|---
 Produtos liberados V2 | msdyn\_sharedproductdetails | A entidade **msdyn\_sharedproductdetails** contém os campos de aplicativos do Finance and Operations que definem o produto e contém as informações de gerenciamento e financeiras do produto. 
 Produtos distintos liberados pelo Common Data Service | Produto | A entidade **Produto** contém os campos que definem o produto. Ela inclui produtos individuais (produto com o subtipo produto) e as grades de produtos. A tabela a seguir mostra os mapeamentos.
@@ -75,8 +75,8 @@ Unidade | uoms
 Conversões de unidades | msdyn_ unitofmeasureconversions
 Conversão de unidades de medida específica ao produto | msdyn_productspecificunitofmeasureconversion
 Categorias de produto | msdyn_productcategories | Cada uma das categorias de produto e as informações sobre sua estrutura e características estão contidas na entidade da categoria de produto. 
-Hierarquias de categorias de produtos | msdyn_productcategoryhierarhies | Você usa as hierarquias de produto para categorizar ou agrupar produtos. As hierarquias de categoria estão disponíveis no Common Data Service usando a entidade Hierarquia de categoria de produto. 
-Funções de hierarquia de categorias de produtos | msdyn_productcategoryhierarchies | As hierarquias de produtos podem ser usadas em diferentes funções no D365 Finance and Operations. Para especificar qual categoria é usada em cada função, a entidade de função de categoria de produto é usada. 
+Hierarquias de categorias de produtos | msdyn_productcategoryhierarhies | Use as hierarquias de produtos para categorizar ou agrupar produtos. As hierarquias de categorias estão disponíveis no Common Data Service usando a entidade de hierarquia de categorias de produtos. 
+Funções de hierarquia de categorias de produtos | msdyn_productcategoryhierarchies | As hierarquias de produtos podem ser usadas em diferentes funções no D365 Finance and Operations. Elas especificam qual categoria é usada em cada função, a entidade de função de categoria de produto é usada. 
 Atribuições de categoria de produtos | msdyn_productcategoryassignments | Para atribuir um produto a uma categoria, é possível usar a entidade de atribuições de categoria de produto.
 
 ## <a name="integration-of-products"></a>Integração de produtos
@@ -143,7 +143,7 @@ As configurações de ordem padrão definem o local e o depósito de onde os ite
 
 ## <a name="unit-of-measure-and-unit-of-measure-conversions"></a>Unidade de medida e conversões de unidade de medida
 
-As unidades de medida e suas respectivas conversões estão disponíveis no Common Data Service após o modelo de dados exibido no diagrama.
+As unidades de medida e sua respectiva conversão estão disponíveis no Common Data Service após o modelo de dados exibido no diagrama.
 
 ![Modelo de dados de produtos](media/dual-write-product-three.png)
 
@@ -153,26 +153,26 @@ O conceito de unidade de medida é integrado entre os aplicativos do Finance and
 
 [!include [unit of measure conversions](includes/UnitOfMeasureConversionEntity-msdyn-unitofmeasureconversions.md)]
 
-[!include [product specific unit of measure conversions](includes/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
+[!include [product-specific unit of measure conversions](includes/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
 
 ## <a name="initial-synchronization-of-units-data-matching-between-finance-and-operations-and-common-data-service"></a>Sincronização inicial de dados de unidade correspondentes entre o Finance and Operations e o Common Data Service
 
 ### <a name="initial-synchronization-of-units"></a>Sincronização inicial de unidades
 
-Quando a gravação dupla está habilitada, unidades de aplicativos do Finance and Operations são sincronizadas com outros aplicativos do Dynamics 365. Os grupos de unidades sincronizados de aplicativos do Finance and Operations no Common Data Service têm um sinalizador que indica que eles são “Mantidos externamente”.
+Quando a gravação dupla está habilitada, unidades de aplicativos do Finance and Operations são sincronizadas com outros aplicativos do Dynamics 365. Os grupos de unidades sincronizados de aplicativos do Finance and Operations no Common Data Service têm um sinalizador que indica que eles são "Mantidos externamente".
 
 ### <a name="matching-units-and-unit-classesgroups-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Unidades compatíveis e classes de unidade/grupos de dados do Finance and Operations e outros aplicativos do Dynamics 365
 
-Primeiramente, é importante observar que a chave de integração para unidade é msdyn_symbol. Portanto, esse valor deve ser exclusivo no Common Data Service ou em outros aplicativos do Dynamics 365. Como em outros aplicativos do Dynamics 365 é o par “ID de grupo de unidades” e “Nome” que define a exclusividade de uma unidade, você precisa considerar cenários diferentes para combinar dados de unidades entre aplicativos do Finance and Operations e o Common Data Service.
+Primeiramente, é importante observar que a chave de integração para unidade é msdyn_symbol. Portanto, esse valor deve ser exclusivo no Common Data Service ou em outros aplicativos do Dynamics 365. Como em outros aplicativos do Dynamics 365 é o par "ID de grupo de unidades" e "Nome" que define a exclusividade de uma unidade, você precisa considerar cenários diferentes para combinar dados de unidades entre aplicativos do Finance and Operations e o Common Data Service.
 
 Para unidades correspondentes/sobrepostas em aplicativos do Finance and Operations e em outros aplicativos do Dynamics 365:
 
-+ **A unidade pertence a um grupo de unidades em outros aplicativos do Dynamics 365 que corresponde à classe de unidade associada em aplicativos do Finance and Operations**. Nesse caso, o campo msdyn_symbol em outros aplicativos do Dynamics 365 deve ser preenchido com o símbolo de unidade de aplicativos do Finance and Operations. Portanto, quando os dados forem combinados e o grupo de unidades for definido como “Mantido externamente” em outros aplicativos do Dynamics 365.
++ **A unidade pertence a um grupo de unidades em outros aplicativos do Dynamics 365 que corresponde à classe de unidade associada em aplicativos do Finance and Operations**. Nesse caso, o campo msdyn_symbol em outros aplicativos do Dynamics 365 deve ser preenchido com o símbolo de unidade de aplicativos do Finance and Operations. Portanto, quando os dados forem combinados e o grupo de unidades for definido como "Mantido externamente" em outros aplicativos do Dynamics 365.
 + **A unidade pertence a um grupo de unidades em outros aplicativos do Dynamics 365 que não corresponde à classe de unidade associada em aplicativos do Finance and Operations (nenhuma classe de unidade existente em aplicativos do Finance and Operations para a classe de unidade em outros aplicativos do Dynamics 365).** Nesse caso, msdyn_symbol deve ser preenchido com uma cadeia de caracteres aleatória. Observe que esse valor deve ser exclusivo em outros aplicativos do Dynamics 365.
 
 Para unidades e classes de unidade no Finance and Operations não existentes em outros aplicativos do Dynamics 365:
 
-Como parte da gravação dupla, os grupos de unidades de aplicativos do Finance and Operations e suas unidades correspondentes são criados e sincronizados em outros aplicativos do Dynamics 365 e no Common Data Service, e o grupo de unidades será definido como “Mantido externamente”. Nenhum trabalho extra de bootstrapping é necessário.
+Como parte da gravação dupla, os grupos de unidades de aplicativos do Finance and Operations e suas unidades correspondentes são criados e sincronizados em outros aplicativos do Dynamics 365 e no Common Data Service, e o grupo de unidades será definido como "Mantido externamente". Nenhum trabalho extra de bootstrapping é necessário.
 
 Para unidades em outros aplicativos do Dynamics 365 que não existem em aplicativos do Finance and Operations:
 
@@ -223,4 +223,4 @@ Desse modo, a sincronização é habilitada e acontece, os produtos do Finance a
 
 ### <a name="migration-of-product-data-from-other-dynamics-365-apps-to-finance-and-operations"></a>Migração de dados de produtos de outros aplicativos do Dynamics 365 para o Finance and Operations
 
-Se outros aplicativos do Dynamics 365 tem produtos que não estão presentes no Finance and Operations, primeiro o administrador pode usar **EcoResReleasedProductCreationV2Entity** para importar esses produtos no Finance and Operations. Depois, ele pode corresponder os dados de produtos do Finance and Operations e de outros aplicativos do Dynamics 365, conforme descrito acima. 
+Se outros aplicativos do Dynamics 365 têm produtos que não estão presentes no Finance and Operations, primeiro o administrador pode usar **EcoResReleasedProductCreationV2Entity** para importar esses produtos no Finance and Operations. Depois, ele pode corresponder os dados de produtos do Finance and Operations e de outros aplicativos do Dynamics 365, conforme descrito acima. 

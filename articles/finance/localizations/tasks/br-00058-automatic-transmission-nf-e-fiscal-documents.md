@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3647d7afd883737e452db7fcea2cc99572ee8f3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9c788e8dc03e3c40fdccdc26e20a7dfc6f78000a
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183869"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138300"
 ---
 # <a name="automatic-transmission-of-nf-e-fiscal-documents-brazil"></a>Transmissão automática de notas fiscais eletrônicas (Brasil)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Use o procedimento a seguir para configurar parâmetros de email para enviar automaticamente uma Nota Fiscal eletrônica (NF-e) a um fornecedor ou um cliente após sua aprovação ou cancelamento, ou se você gerar uma carta de correção. Você pode configurar um grupo de lotes e modelos de e-mail para uma NF-e. Você deve criar modelos de e-mail separados para uma NF-e aprovada, uma NF-e cancelada e uma carta de correção. Então será possível criar um processo em lote para enviar a NF-e por email. Esta tarefa usa a empresa de demonstração BRMF.
 

@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da161c9066c822f8c09e5eda90994e8b03af4681
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: da25486207319879a9acc8376f3f2c78f9b8d939
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916844"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149679"
 ---
 # <a name="create-a-purchase-release-order-from-a-purchase-agreement"></a>Criar uma ordem de liberação de compra de um contrato de compra
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Este procedimento mostra como utilizar um contrato de compra quando você cria uma ordem de compra. O contrato de compra deve ser aplicado quando você cria a ordem de compra porque existem condições gerais que devem ser copiadas para o cabeçalho da ordem de compra. Normalmente essa tarefa é realizada por um agente de compras. Como um pré-requisito para esta guia, você deve ter um contrato de compra em vigor com um compromisso de quantidade do produto para um fornecedor e itens. O mesmo procedimento pode ser utilizado se você tiver um contrato de compra com outros tipos de compromissos. Você pode executar este guia na empresa USMF de dados de demonstração. Se você estiver usando USMF, é possível executar primeiro o guia “Criar um contrato de compra“ para configurar as pré-condições necessárias para este guia.
+Este procedimento mostra como utilizar um contrato de compra quando você cria uma ordem de compra. O contrato de compra deve ser aplicado quando você cria a ordem de compra porque existem condições gerais que devem ser copiadas para o cabeçalho da ordem de compra. Normalmente essa tarefa é realizada por um agente de compras. Como um pré-requisito para esta guia, você deve ter um contrato de compra em vigor com um compromisso de quantidade do produto para um fornecedor e itens. O mesmo procedimento pode ser utilizado se você tiver um contrato de compra com outros tipos de compromissos. Você pode executar este guia na empresa USMF de dados de demonstração. Se você estiver usando USMF, é possível executar primeiro o guia "Criar um contrato de compra" para configurar as pré-condições necessárias para este guia.
 
 
 ## <a name="create-a-purchase-order"></a>Criar uma ordem de compra

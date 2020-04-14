@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 632d49c7667b99e97bd90dd2c48f64d2e3ac9f95
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c810540c9efda9adfa1b0878b54a2ee6835a8e82
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183862"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143140"
 ---
 # <a name="issue-customer-fiscal-documents-project-brazil"></a>Emitir notas fiscais para clientes (projeto) (Brasil)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 É possível emitir uma nota fiscal para um projeto. A nota fiscal pode ser uma nota fiscal de serviço ou uma nota fiscal eletrônica. Esta tarefa usa a empresa de demonstração BRMF.
 

@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af3637845d686eef7d4bbff4721f0e22e1350dfb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0acf95a7289f5260c55e38f4a82b656297a61422
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175184"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138381"
 ---
 # <a name="receive-vendor-fiscal-documents-products-brazil"></a>Receber notas fiscais de fornecedor (produtos) (Brasil)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 É possível lançar uma nota fiscal que você recebeu na aquisição de mercadorias de estoque, em que o ICMS, IPI e PIS/COFINS são deduzidos do pagamento de apuração de imposto. Este registro usa a empresa de dados de demonstração BRMF.
 

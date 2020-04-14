@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0119ae07e490f048dbb021983e25889cb1cb42b3
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 9760aeb823730581aa1f02db1574e6f5eccd1f75
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845328"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145631"
 ---
 # <a name="set-up-quality-orders"></a>Configurar ordens de qualidade
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimento mostra como habilitar um processo de gerenciamento de qualidade no estoque de entrada que será inspecionado imediatamente após o registro de entrada. O procedimento será executado tipicamente por um gerente de qualidade. O processo inclui a criação de um grupo de qualidade, para definir os itens que estejam prestes a ser provados, e um grupo de teste para agrupar os testes que devem ser executados em itens no grupo de qualidade. Você pode executar este guia na empresa de dados de demonstração da USMF.
 
@@ -96,7 +96,7 @@ Este procedimento mostra como habilitar um processo de gerenciamento de qualidad
 ## <a name="create-a-test-group"></a>Criar um grupo de teste
 1. Vá para **Gerenciamento de estoque > Configuração > Controle de qualidade > Grupos de teste**.
 2. Clique em **Novo**.
-3. No campo **Grupo de teste**, digite um valor. Dê ao **Grupo de testes** um nome que ajude você a lembrar que tipo de teste está sendo executado, e com qual grupo de qualidade ele deve ser associado. Por exemplo, deve ser usado com um grupo de qualidade que selecione os itens que começam com “O”, você pode chamá-lo de “Testes de item T“.  
+3. No campo **Grupo de teste**, digite um valor. Dê ao **Grupo de testes** um nome que ajude você a lembrar que tipo de teste está sendo executado, e com qual grupo de qualidade ele deve ser associado. Por exemplo, deve ser usado com um grupo de qualidade que selecione os itens que começam com "T", você pode chamá-lo de "Testes de item T".  
 4. No campo **Descrição**, digite um valor.
 5. No campo **Amostragem do item**, selecione a linha de amostragem do item que você criou anteriormente.
 6. Na lista, localize e selecione o PDV desejado.

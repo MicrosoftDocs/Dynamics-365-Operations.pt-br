@@ -16,16 +16,16 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14e1fd19c6a27739ce9f57a4ab33f61e6baaeb2e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2b0084c6b4acbf14e3afec552575d5be26114237
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021605"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141352"
 ---
 # <a name="create-product-packages-for-purchase-orders"></a>Criar pacotes de produto para ordens de compra
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este procedimento mostra a criação de um pacote de produtos e a utilização dele em uma ordem de compra. A ordem de compra será usada para criar uma ordem para um conjunto predefinido de produtos. Este procedimento usa a empresa de dados de demonstração USRT.
 

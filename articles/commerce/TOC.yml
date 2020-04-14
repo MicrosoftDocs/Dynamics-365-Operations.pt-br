@@ -194,7 +194,7 @@
                   href: dev-itpro/retail-in-store-topology.md
                 - name: Commerce Data Exchange e comunicações do canal de comércio
                   href: dev-itpro/define-retail-channel-communications-cdx.md
-                - name: Arquitetura do Modern POS
+                - name: Arquitetura do Modern PDV
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: Arquitetura de publicação de loja online
                   href: dev-itpro/retail-online-store-publishing-architecture.md
@@ -210,7 +210,7 @@
                   href: dev-itpro/retail-store-system-begin.md
                 - name: Configurar e instalar Commerce Scale Unit
                   href: dev-itpro/retail-store-scale-unit-configuration-installation.md
-                - name: Configuração e instalação do Modern POS
+                - name: Configuração e instalação do Modern PDV
                   href: retail-modern-pos-device-activation.md
                 - name: Gerenciar contas e dispositivos do Headquarters
                   href: set-up-activation-accounts-validate-devices-hq.md
@@ -336,7 +336,7 @@
                       href: MPOS-or-CPOS.md
                     - name: Operações de PDV online e offline
                       href: pos-operations.md
-                    - name: Ativação de dispositivo de um Modern POS personalizado
+                    - name: Ativação de dispositivo de um Modern PDV personalizado
                       href: dev-itpro/retail-POS-activation-changes.md
                     - name: Habilitar autenticação do Azure Active Directory para entrada de PDV
                       href: aad-pos-logon.md
@@ -420,7 +420,7 @@
                   items:
                     - name: Configurar e criar formatos de recebimento
                       href: receipt-templates-printing.md
-                    - name: Enviar recibos por email do Modern POS (MPOS)
+                    - name: Enviar recibos por email do Modern PDV (MPOS)
                       href: email-receipts.md
                     - name: Redefinir números de recibo
                       href: reset_receipt_number_sequence.md
@@ -454,6 +454,8 @@
                   items:
                     - name: Configurar e usar encargos automáticos avançados
                       href: omni-auto-charges.md
+                    - name: Habilitar e configurar encargos automáticos por canal
+                      href: auto-charges-by-channel.md
                     - name: Ratear encargos do cabeçalho para as linhas de vendas correspondentes
                       href: pro-rate-charges-matching-lines.md
                 - name: Gerenciar programas de continuidade
@@ -525,7 +527,7 @@
                 - name: Criar um novo produto
                   items:
                     - name: Criar um novo produto no Commerce
-                      href: create-new-product.md
+                      href: create-new-product-commerce.md
                     - name: Gerenciar produtos e categorias de produtos
                       href: category-management-product-creation.md
                 - name: Atributos do produto
@@ -598,8 +600,6 @@
                       href: personalized-recommendations.md
                     - name: Cancelar recomendações personalizadas
                       href: personalization-gdpr.md
-                - name: Adicionar listas de recomendações de produtos a um site de comércio eletrônico
-                  href: add-reco-list-to-page.md
                 - name: Experiência do PDV
                   items:
                     - name: Adicionar recomendações dos produtos no PDV
@@ -944,6 +944,8 @@
                       href: add-checkout-module.md
                     - name: Módulo de confirmação da ordem
                       href: order-confirmation-module.md
+                    - name: Módulo de seletor de loja
+                      href: store-selector.md
                 - name: Módulos de gerenciamento de contas
                   items:
                     - name: Páginas e módulos de gerenciamento de contas
@@ -1994,7 +1996,7 @@
                   href: install-pos-layout-designer.md
                 - name: Estender a exibição dual do PDV
                   href: dev-itpro/pos-dual-display-extension.md
-                - name: Extensibilidade do Modern POS e do disparador do PDV em Nuvem
+                - name: Extensibilidade do Modern PDV e do disparador do PDV em Nuvem
                   href: dev-itpro/modern-pos-trigger-extensibility.md
                 - name: Adicionar controles personalizados a exibições de PDV
                   href: dev-itpro/pos-custom-control.md
@@ -2024,13 +2026,13 @@
                   href: dev-itpro/pos-app-signing-certificate.md
                 - name: Estender exibições de PDV para adicionar colunas personalizadas e botões da barra de aplicativos
                   href: dev-itpro/pos-view-extension.md
-                - name: Adicionar controles personalizados a páginas de transação do Modern POS
+                - name: Adicionar controles personalizados a páginas de transação do Modern PDV
                   href: dev-itpro/pos-custom-transaction.md
                 - name: Adicionar colunas personalizadas a uma grade de transação do PDV
                   href: dev-itpro/pos-custom-transaction-column.md
                 - name: Chamar APIs ou operações de PDV de extensões de PDV
                   href: dev-itpro/pos-api-extension.md
-                - name: Disparadores e impressão do Modern POS
+                - name: Disparadores e impressão do Modern PDV
                   href: dev-itpro/pos-trigger-printing.md
                 - name: Adicionar controles personalizados a exibições de PDV fora da tela e baseadas em designer
                   href: dev-itpro/pos-control-non-screen.md
@@ -2115,7 +2117,7 @@
                 - name: Uso de dados do pagamento
                   href: payment-connector-data-fields.md
                 - name: Habilitar a proteção de pagamentos duplicados para o conector de pagamento
-                  href: dev-itpro/duplicate-payment-protection.md
+                  href: dev-itpro/duplicate-payments-protection.md
                 - name: Criar pacote de pagamento para o Explorador de Aplicativos em implantações do Service Fabric
                   href: dev-itpro/payment-connector-package.md
             - name: Extensibilidade do comércio eletrônico de terceiros

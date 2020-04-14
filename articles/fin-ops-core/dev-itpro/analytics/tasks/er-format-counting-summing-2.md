@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d785b321037645837dbcbaf28c8ede9b8e97b79
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 20188438a4ca623fc926e6c373fb002f148c3df4
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550593"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142469"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-2---configure-computations"></a>ER Configurar formato para fazer contagem e soma (Parte 2 - Configurar cálculos)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 As etapas a seguir explicam como um usuário atribuído à função de administrador do sistema ou de desenvolvedor de relatório eletrônico pode configurar um formato de relatório eletrônico (ER) para fazer a contagem e soma com base nos dados já gerados do texto de saída. Essas etapas podem ser executadas em qualquer empresa.
 
@@ -82,7 +82,7 @@ Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynam
 31. Feche a página.
 32. Clique em OK.
 33. Na árvore, selecione 'Intrastat\Dados'.
-34. Clique no botão Editar do campo 'Nome da chave de dados coletada'
+34. Clique no botão Editar do campo "Nome da chave de dados coletada"
 35. Clique em Adicionar fonte de dados.
     * $BlockName  
 36. Clique em Salvar.
@@ -95,24 +95,24 @@ Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynam
     * Conte as linhas da sequência. Os resultados serão usados com o nome "bloco" separadamente para as diferentes direções. O valor "Importar" será usado para todas as transações intrastat de entrada. O valor "Exportar" será usado para todas as transações intrastat de expedição. Considere isso como uma planilha de Excel virtual. Para cada transação, uma linha em que a primeira coluna "bloco" será preenchida com os valores "Importar" e "Exportar" consequentemente.  
 42. Na árvore, expanda 'Intrastat\Dados: Sequência'.
 43. Na árvore, selecione 'Intrastat\Dados: Sequência\Entradas?'.
-44. Clique no botão Editar do campo 'Nome da chave de dados coletada',
+44. Clique no botão Editar do campo "Nome da chave de dados coletada".
     * Conte as linhas da sequência. Os resultados serão memorizados usando o nome "registro".  
 45. Na árvore, selecione '$RecName'.
 46. Clique em Adicionar fonte de dados.
 47. Clique em Salvar.
 48. Feche a página.
-49. Clique no botão Editar do campo 'Valor da chave de dados coletada'.
+49. Clique no botão Editar do campo "Valor da chave de dados coletada"
 50. No campo Fórmula, insira 'Intrastat.CommodityRecord.CommodityCode'.
 51. Clique em Salvar.
 52. Feche a página.
     * Conte as linhas da sequência. Os resultados serão usados com o nome "registro" separadamente para os diferentes códigos de mercadoria. Considere isso como uma planilha de Excel virtual. Para cada transação, uma linha na primeira coluna "bloco" será preenchida com valores "Importar" e "Exportar" consequentemente e o segundo bloco "registro" será preenchido com o valor do código de mercadoria.  
 53. Na árvore, selecione 'Intrastat\Dados: Sequência\Expedições?'.
-54. Clique no botão Editar do campo 'Nome da chave de dados coletada'
+54. Clique no botão Editar do campo "Nome da chave de dados coletada"
 55. Na árvore, selecione '$RecName'.
 56. Clique em Adicionar fonte de dados.
 57. Clique em Salvar.
 58. Feche a página.
-59. Clique no botão Editar do campo 'Valor da chave de dados coletada'.
+59. Clique no botão Editar do campo "Valor da chave de dados coletada".
 60. No campo Fórmula, insira 'Intrastat.CommodityRecord.CommodityCode'.
 61. Clique em Salvar.
 62. Feche a página.
@@ -121,7 +121,7 @@ Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynam
 65. Clique na guia Formato.
 66. Na árvore, selecione 'Intrastat\Dados\Expedições\Registro\Valor da fatura em EUR'.
 67. Clique na aba Mapeamento.
-68. Clique no botão Editar do campo 'Nome da chave de dados coletada',
+68. Clique no botão Editar do campo "Nome da chave de dados coletada",
 69. Na árvore, selecione '$InvName'.
 70. Clique em Adicionar fonte de dados.
 71. Clique em Salvar.
@@ -132,7 +132,7 @@ Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynam
 75. Clique na guia Formato.
 76. Na árvore, selecione 'Intrastat\Dados\Entradas\Registro\Valor da fatura em EUR'.
 77. Clique na aba Mapeamento.
-78. Clique no botão Editar do campo 'Nome da chave de dados coletada',
+78. Clique no botão Editar do campo "Nome da chave de dados coletada",
 79. Na árvore, selecione '$InvName'.
 80. Clique em Adicionar fonte de dados.
 81. Clique em Salvar.

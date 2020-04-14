@@ -15,16 +15,16 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd2fed7cd59247f9a1038b8c70e6e91949652a95
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e83bb5e287f8011bb5f06ca7b160b34a2329c464
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175186"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138385"
 ---
 # <a name="set-up-fiscal-document-source-text-brazil"></a>Configurar texto de origem da nota fiscal (Brasil)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Você pode anexar textos de nota fiscal à ordem de venda, ordem de compra ou fatura de texto livre. Os textos de nota fiscal anexados à ordem de venda, ordem de compra ou fatura de texto livre são impressos na nota fiscal. Os textos de nota fiscal fornecem informações adicionais sobre os impostos e as leis que são aplicados à nota fiscal. Também é possível incluir os espaços reservados no texto de origem da nota fiscal. Os espaços reservados serão substituídos pelo texto predefinido quando você lança o documento fiscal ao qual o texto da nota fiscal está anexado. Esta tarefa usa a empresa de demonstração BRMF.
 

@@ -15,16 +15,16 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ede72c3035cf70296c60e7fff63fd650eb88d80c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 397969fe9f263ae76d838b7413f3fded0ad91990
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183854"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3137935"
 ---
 # <a name="include-ciap-credit-from-a-previous-period-brazil"></a>Incluir o crédito CIAP de um período anterior (Brasil)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Use a página Transações de ativo fixo do CIAP para criar parcelas de crédito CIAP. Se uma parcela do CIAP não foi incluída em um período de escrituração anterior, uma parcela deverá ser criada de maneira que ela seja processada no período de escrituração atual, como uma apuração do imposto ICMS. Esta tarefa usa a empresa de demonstração BRMF.
 

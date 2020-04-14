@@ -15,16 +15,16 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c925619b2c7a9085b986d6797e53716812ae9d22
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 931c1622ccda07130c6f9d433f047b98b08ff24f
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174715"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3137960"
 ---
 # <a name="enter-a-ciap-transaction-brazil"></a>Inserir uma transação CIAP (Brasil)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Você pode inserir uma transação CIAP de duas maneiras: lançar um documento fiscal, ou inserir uma transação. Você pode vincular manualmente a uma nota fiscal, conforme necessário. Este registro usa a empresa de dados de demonstração BRMF.
 

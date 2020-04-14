@@ -16,16 +16,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 79abb6875e2f5b101410ca004b525c4b881621a2
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ea36732023092f714b3a783d98b512c0fea7dade
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021612"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141398"
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a>Criar dimensões financeiras para canais de varejo e configurar valores de dimensão em lojas
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este procedimento mostra como criar uma dimensão financeira de canal de comércio com os valores de dimensão e as etapas para configurar valores de dimensão financeira em lojas. O tópico não inclui outras etapas relacionadas, como a criação de conjuntos de dimensões e de estruturas de conta. Este procedimento usa a empresa USRT nos dados de demonstração.
 

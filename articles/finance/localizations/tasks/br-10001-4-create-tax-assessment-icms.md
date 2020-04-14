@@ -15,16 +15,16 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c14122ce2a03027f637c7fc2107b884ab14dd7d4
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 14522ae2567d9653b2b1acf7a864cc0ae4dd14b4
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183856"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138388"
 ---
 # <a name="create-a-tax-assessment---icms-brazil"></a>Criar uma apuração de imposto - ICMS (Brasil)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Você pode criar uma apuração de imposto para o ICMS de um período de escrituração selecionado. Este valor do imposto considera o valor de ICMS para recuperar e o valor de ICMS para pagar os documentos fiscais. Para o valor devido após a apuração de imposto, você pode fazer o pagamento do valor para a autoridade fiscal. Este registro usa a empresa de dados de demonstração BRMF.
 

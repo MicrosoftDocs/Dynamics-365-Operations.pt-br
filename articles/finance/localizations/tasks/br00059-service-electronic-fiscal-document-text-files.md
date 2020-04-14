@@ -15,16 +15,16 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11e77d43cef8a991ed5f259819f0fffc90dc1716
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 619432ab11a54753ffea97ac549dc480f56fcaa3
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183853"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3137911"
 ---
 # <a name="service-electronic-fiscal-document-using-text-files-brazil"></a>Nota fiscal eletrônica de serviços usando arquivos de texto (Brasil)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Após a emissão de uma fatura de venda para um serviço na cidade de São Paulo, é possível gerar o RPS (Recibo Provisório de Serviço) de uma nota fiscal de determinado serviço que foi lançada. Este registro usa a empresa de dados de demonstração BRMF.
 

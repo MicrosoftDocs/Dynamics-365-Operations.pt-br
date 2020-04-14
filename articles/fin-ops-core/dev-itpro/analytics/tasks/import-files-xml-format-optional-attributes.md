@@ -16,69 +16,69 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f34302a32b2e06f281dc93d6df160b88ffac7123
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: fc28e9a2170929c6cd8daafd7eae54713cec36ff
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769776"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143191"
 ---
 # <a name="rcs-import-files-in-xml-format-with-optional-attributes"></a>(RCS) Importar arquivos no formato XML com atributos opcionais
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar uma configuração de formato ER para importar arquivos no formato XML contendo atributos opcionais. Para completar essas etapas, você deve primeiro completar as etapas do procedimento “Criar um provedor de configuração e marcá-lo como ativo“. Antes de começar, faça download e salve localmente o arquivo IncomingDocumentToLearnHowToHandleOptionalAttributes.xml do [Centro de Download da Microsoft](https://go.microsoft.com/fwlink/?linkid=874684).
+As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar uma configuração de formato ER para importar arquivos no formato XML contendo atributos opcionais. Para completar essas etapas, você deve primeiro completar as etapas do procedimento "Criar um provedor de configuração e marcá-lo como ativo". Antes de começar, faça download e salve localmente o arquivo IncomingDocumentToLearnHowToHandleOptionalAttributes.xml do [Centro de Download da Microsoft](https://go.microsoft.com/fwlink/?linkid=874684).
 
-1.  Vá para **Todos os espaços de trabalho** > **Relatório eletrônico**.
-2.  Verifique se o provedor de configuração da empresa exemplo, Litware, Inc., está disponível e marcado como **Ativo**. Se você não visualizar este provedor de configuração, conclua as etapas no procedimento [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md).
-3.  Clique em **Configurações de relatórios**.
+1.    Vá para **Todos os espaços de trabalho** > **Relatório eletrônico**.
+2.    Verifique se o provedor de configuração da empresa exemplo, Litware, Inc., está disponível e marcado como **Ativo**. Se você não visualizar este provedor de configuração, conclua as etapas no procedimento [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md).
+3.    Clique em **Configurações de relatórios**.
 
 ## <a name="create-a-new-data-model-configuration"></a>Criar uma nova configuração de modelo de dados
-1.  Clique em **Criar configuração** para abrir a caixa de diálogo suspensa.
-2.  No campo **Nome**, digite 'Modelo para importar arquivo xml'.
-3.  Clique em **Criar configuração**.
-4.  Clique em **Designer**.
-5.  Clique em **Novo** para abrir a caixa de diálogo suspensa.
-6.  No campo **Nome**, digite 'Raiz'.
-7.  Clique em **Adicionar**.
-8.  Clique em **Novo** para abrir a caixa de diálogo suspensa.
-9.  No campo **Nome**, digite 'Lista'.
-10. No campo **Tipo de item**, selecione **Lista de registros**.
-11. Clique em **Adicionar**.
-12. Clique em **Novo** para abrir a caixa de diálogo suspensa.
-13. No campo **Nome**, digite 'Código'.
-14. No campo **Tipo de item**, selecione **String**.
-15. Clique em **Adicionar**.
-16. Clique em **Salvar**.
-17. Feche a página.
-18. Clique em **Alterar status**.
-19. Clique em **Concluir**.
-20. Clique em **OK**.
+1.    Clique em **Criar configuração** para abrir a caixa de diálogo suspensa.
+2.    No campo **Nome**, digite 'Modelo para importar arquivo xml'.
+3.    Clique em **Criar configuração**.
+4.    Clique em **Designer**.
+5.    Clique em **Novo** para abrir a caixa de diálogo suspensa.
+6.    No campo **Nome**, digite 'Raiz'.
+7.    Clique em **Adicionar**.
+8.    Clique em **Novo** para abrir a caixa de diálogo suspensa.
+9.    No campo **Nome**, digite 'Lista'.
+10.    No campo **Tipo de item**, selecione **Lista de registros**.
+11.    Clique em **Adicionar**.
+12.    Clique em **Novo** para abrir a caixa de diálogo suspensa.
+13.    No campo **Nome**, digite 'Código'.
+14.    No campo **Tipo de item**, selecione **String**.
+15.    Clique em **Adicionar**.
+16.    Clique em **Salvar**.
+17.    Feche a página.
+18.    Clique em **Alterar status**.
+19.    Clique em **Concluir**.
+20.    Clique em **OK**.
 
 ## <a name="create-a-format-for-data-import"></a>Crie um formato de importação de dados
-1.  Clique em **Criar configuração** para abrir a caixa de diálogo suspensa.
-2.  No campo **Novo**, insira 'Formato baseado no modelo de dados. Modelo para importar arquivo xml'.
-3.  No campo **Nome**, digite 'Formatar para importar arquivo xml'.
-4.  Selecione **Sim** no campo **Dá suporte à importação de dados**.
-5.  Clique em **Criar configuração**.
+1.    Clique em **Criar configuração** para abrir a caixa de diálogo suspensa.
+2.    No campo **Novo**, insira 'Formato baseado no modelo de dados. Modelo para importar arquivo xml'.
+3.    No campo **Nome**, digite 'Formatar para importar arquivo xml'.
+4.    Selecione **Sim** no campo **Dá suporte à importação de dados**.
+5.    Clique em **Criar configuração**.
 
 ## <a name="design-a-format-to-parse-incoming-file-in-xml-format"></a>Crie um formato para analisar o arquivo de entrada no formato xml
-1.  Clique em **Designer**.
-2.  Clique em **Adicionar raiz** para abrir a caixa de diálogo suspensa.
-3.  Na árvore, selecione **XML\Elemento**.
-4.  No campo **Nome**, digite 'raiz'.
-5.  Clique em **OK**.
-6.  Clique em **Adicionar** para abrir a caixa de diálogo suspensa.
-7.  Na árvore, selecione **XML\Elemento**.
-8.  No campo **Nome**, digite 'documento'.
-9.  No campo **Multiplicidade**, selecione **Um muitos**.
-10. Clique em **OK**.
-11. Na árvore, selecione **raiz\documento**.
-12. Clique em **Adicionar** para abrir a caixa de diálogo suspensa.
-13. Na árvore, selecione **XML\Attribute**.
-14. No campo **Nome**, digite 'ID'.
-15. Clique em **OK**.
-16. Clique em **Salvar**.
+1.    Clique em **Designer**.
+2.    Clique em **Adicionar raiz** para abrir a caixa de diálogo suspensa.
+3.    Na árvore, selecione **XML\Elemento**.
+4.    No campo **Nome**, digite 'raiz'.
+5.    Clique em **OK**.
+6.    Clique em **Adicionar** para abrir a caixa de diálogo suspensa.
+7.    Na árvore, selecione **XML\Elemento**.
+8.    No campo **Nome**, digite 'documento'.
+9.    No campo **Multiplicidade**, selecione **Um muitos**.
+10.    Clique em **OK**.
+11.    Na árvore, selecione **raiz\documento**.
+12.    Clique em **Adicionar** para abrir a caixa de diálogo suspensa.
+13.    Na árvore, selecione **XML\Attribute**.
+14.    No campo **Nome**, digite 'ID'.
+15.    Clique em **OK**.
+16.    Clique em **Salvar**.
 
 ## <a name="design-a-format-mapping-to-save-parsed-information-to-data-model"></a>Crie um mapeamento de formato para salvar informações analisadas modelo de dados
 1. Clique em **Mapear formato para modelo**.
@@ -90,15 +90,15 @@ As etapas a seguir explicam como um usuário no papel de Administrador do Sistem
 7. Clique em **Designer**.
 8. Na árvore, expanda **formato**.
 9. Na árvore, expanda **format\root: XML Element(root)**.
-10. Na árvore, selecione **format\root: XML Element(root)\document: XML Element 1..* (documento)**.
-11. Clique em **Associar**.
-12. Na árvore, expanda **format\root: XML Element(root)\document: XML Element 1..* (documento)**.
-13. Na árvore, selecione **format\root: XML Element(root)\document: XML Element 1..* (documento)\id**.
-14. Na árvore, expanda **List = format.root.document**.
-15. Na árvore, selecione **List = format.root.document\Code**.
-16. Clique em **Associar**.
-17. Clique em **Salvar**.
-18. Feche a página.
+10.    Na árvore, selecione **format\root: XML Element(root)\document: XML Element 1..* (documento)**.
+11.    Clique em **Associar**.
+12.    Na árvore, expanda **format\root: XML Element(root)\document: XML Element 1..* (documento)**.
+13.    Na árvore, selecione **format\root: XML Element(root)\document: XML Element 1..* (documento)\id**.
+14.    Na árvore, expanda **List = format.root.document**.
+15.    Na árvore, selecione **List = format.root.document\Code**.
+16.    Clique em **Associar**.
+17.    Clique em **Salvar**.
+18.    Feche a página.
  
 ## <a name="run-format-mapping"></a>Execute o mapeamento de formato
 1. Clique em **Executar**.

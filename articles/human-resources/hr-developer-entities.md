@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6879a45dd1fcc1ba718747aaaf0d7936c2eac49f
-ms.sourcegitcommit: 3cad15f8ecc257d3a45c1bc1fada7c094ff4bcec
+ms.openlocfilehash: c8e0288da16829c04a9b97c0a52caa8bd27cddf8
+ms.sourcegitcommit: fde8045ea49d0cf26d5e7ac5a0da5c0d3d69d5bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3087337"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3166489"
 ---
 # <a name="common-data-service-entities"></a>Entidades do Common Data Service
 
@@ -87,14 +87,19 @@ As entidades a seguir do Human Resources estão disponíveis no Common Data Serv
 | Posição de Trabalho | cdm_jobposition |
 | Tipo de Posição | cdm_positiontype |
 | Atribuição do Trabalhador da Posição | cdm_positionworkerassignmentmap |
-| Tipo de Trabalho | cdm_jobtype |
+| Dimensão da Posição de Trabalho | cdm_jobpositiondimension|
+| Tipo de trabalho | cdm_jobtype |
 | Idioma | cdm_language |
+| Cargo | cdm_title |
+
+> [!NOTE]
+> As dimensões financeiras para **Tipo de posição**, **Atribuição do trabalhador da posição** e **Emprego** fornecem integração de uma direção a Common Data Service. As atualizações de dimensões financeiras não são sincronizadas atualmente de Common Data Service a Recursos Humanos. 
 
 ## <a name="leave-and-absence-entities"></a>Entidades de licença e ausência
 
 | Nome | Entidade |
 | --- | --- |
-| Transação Bancária da Licença | cdm_leavebanktransaction |
+| Transação Bancária de Licença | cdm_leavebanktransaction |
 | Registro da Licença | cdm_leaveenrollment |
 | Plano de Licença | cdm_leaveplan |
 | Solicitação de Licença | cdm_leaverequest |

@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 249fde6f7bba5d6e0bc6cfde62fd792dee3f1301
-ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
+ms.openlocfilehash: 12a0e07d1c60a359b3ba6c0d20176927ffe89431
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2020
-ms.locfileid: "3112387"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172799"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Cliente potencial com pagamento à vista em gravação dupla
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+
 
 Um objetivo importante da maioria das empresas é converter clientes potenciais em clientes e, depois, manter um relacionamento contínuo de negócios com esses clientes. Nos aplicativos do Microsoft Dynamics 365, o processo de cliente potencial com pagamento à vista ocorre por meio de cotações ou fluxos de trabalho de processamento de pedidos e as finanças são reconciliadas e reconhecidas. A integração do cliente potencial com pagamento à vista em gravação dupla cria um fluxo de trabalho que recebe uma cotação e uma ordem que se origina no Dynamics 365 Sales ou Dynamics 365 Supply Chain Management e torna a cotação e a ordem disponíveis nos dois aplicativos.
 

@@ -16,17 +16,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d684eedd5b40ee9775ab779c243d05cdc6e01f58
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c0c5b20ff6fff2bc62daca68c46e949a38df8d92
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188846"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140257"
 ---
 # <a name="create-an-interest-code-with-a-range"></a>Criar um código de juros com um intervalo
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
+[!include [banner](../../includes/banner.md)]
 Os códigos de juros podem ser configurados para calcular os valores diferentes de juros com base em um intervalo de valores. Este procedimento mostrará como adicionar um código de juros e adicionar um intervalo a ele.
 
 1. Vá para Crédito e cobranças > Juros > Configurar códigos de juros.

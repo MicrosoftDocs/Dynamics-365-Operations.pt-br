@@ -15,16 +15,16 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4b9eaab79d076191402c925819e0ece708ce1d1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d89d89c758ff11a646952e11c4263fa379af29f6
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183880"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138386"
 ---
 # <a name="set-up-legal-entity-parameters-brazil"></a>Configurar parâmetros de entidade legal (Brasil)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Configurar parâmetros de entidade legal do Brasil. Esta tarefa usa a empresa de demonstração BRMF.
 

@@ -15,16 +15,16 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54b5634f3778e9dc1b0ee81f9167567a0da15b00
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e7070e79eba834cc8cd6a3c156a1ef5918f09afe
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183876"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138380"
 ---
 # <a name="create-and-post-a-purchase-complementary-fiscal-document-brazil"></a>Criar e lançar uma nota fiscal complementar de compra (Brasil)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Use este procedimento para criar uma nota fiscal complementar de compra para ajustar uma nota fiscal de compra que foi gerada por um preço ou valor incorreto de IPI (Imposto Sobre Produtos Industrializados) ou de ICMS (Imposto Sobre Circulação de Mercadorias e Serviços). Este registro usa a empresa de dados de demonstração BRMF.
 

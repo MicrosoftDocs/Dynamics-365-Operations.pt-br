@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da1573f9ca1ff5f2b1402ada59edd0a103c5fb20
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 690f0ecd24c8d73d5b0c4d1307ad69dce917dd0d
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183863"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138375"
 ---
 # <a name="issue-customer-fiscal-documents-services-brazil"></a>Emitir notas fiscais para clientes (serviços) (Brasil)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 É possível emitir uma nota fiscal de serviço a um cliente que adquiriu serviços do estabelecimento fiscal. Este registro usa a empresa de dados de demonstração BRMF.
 

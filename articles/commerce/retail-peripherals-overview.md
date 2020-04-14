@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 278cfe89181efbbb934e108708db8fc29c25ab62
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: dd2ce6b223c99d890691d5fdb9f93a5ceaf33a0d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124396"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154171"
 ---
 # <a name="peripherals"></a>Periféricos
 
@@ -158,7 +158,7 @@ As caixas registradoras endereçáveis por rede, impressoras de recibo e termina
 
 ### <a name="dedicated"></a>Dedicada
 
-Os clientes do Modern POS para Windows e Android incluem estações de hardware **Dedicadas** ou integradas. Esses clientes podem se comunicar diretamente com periféricos usando a lógica de negócios integrada aos aplicativos. O aplicativo Android oferece suporte somente a dispositivos de rede. Para obter mais informações sobre suporte a periféricos para o Android, acesse o artigo [Configurar aplicativo POS Hybrid no Android e iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
+Os clientes do Modern POS para Windows e Android incluem estações de hardware **Dedicadas** ou integradas. Esses clientes podem se comunicar diretamente com periféricos usando a lógica de negócios integrada aos aplicativos. O aplicativo Android oferece suporte somente a dispositivos de rede. Para obter mais informações sobre suporte a periféricos para o Android, acesse o artigo [Configurar aplicativo POS Hybrid no Android e iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
 
 Para usar a estação de hardware dedicada, atribua um perfil de hardware a um registro que usará o Modern POS para Windows ou aplicativo Android. Em seguida, crie uma estação de hardware do tipo **Dedicada** para a loja onde a registradora será utilizada. Inicie o Modern POS no modo sem gaveta e use a operação **Gerenciar estações de hardware** para acionar os recursos da estação de hardware, a estação de hardware dedicada estará ativa por padrão. Em seguida, faça logoff do Modern POS e entre novamente. Depois, abra um turno e os periféricos configurados no perfil de hardware poderão ser usados. 
 
@@ -199,7 +199,7 @@ Para obter informações, consulte [Configurar, instalar e ativar o Modern POS (
 
 ### <a name="modern-pos-for-android-and-ios-setup-and-configuration"></a>Instalação e configuração do Modern POS para Android e iOS
 
-Para obter informações, consulte [Configurar o aplicativo POS Hybrid no Android e iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
+Para obter informações, consulte [Configurar o aplicativo POS Hybrid no Android e iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
 
 ### <a name="opos-device-setup-and-configuration"></a>Instalação e configuração do dispositivo OPOS
 
@@ -494,7 +494,7 @@ Esta configuração é a configuração mais típica para as registradoras PDV f
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>Modern POS para Android com uma estação de hardware IPC (integrada)
 
-**Novo para 10.0.8** – impressoras de rede Epson e caixas registradoras conectadas a elas via porta DK agora oferecem suporte para Modern POS para o aplicativo Android. Para obter detalhes, acesse o artigo [Configurar o aplicativo POS Hybrid no Android e iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
+**Novo para 10.0.8** – impressoras de rede Epson e caixas registradoras conectadas a elas via porta DK agora oferecem suporte para Modern POS para o aplicativo Android. Para obter detalhes, acesse o artigo [Configurar o aplicativo POS Hybrid no Android e iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Todos os clientes de Modern POS que possuem uma estação de hardware IIS compartilhada comprometida
 

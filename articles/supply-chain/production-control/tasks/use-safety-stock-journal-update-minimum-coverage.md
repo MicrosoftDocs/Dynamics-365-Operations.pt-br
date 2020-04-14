@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 478dd85abebf76dd264e93bcbe3f218a0ff0a5a8
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: 1624f84db10ea7cc80bb94757f19484b8c403c5c
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916797"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148759"
 ---
 # <a name="use-the-safety-stock-journal-to-update-minimum-coverage"></a>Usar o diário de estoque de segurança para atualizar a cobertura mínima
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimento mostra como calcular propostas de cobertura mínima baseadas em transações históricas e, em seguida, atualizar a cobertura do item com as propostas. Isso é feito usando o diário de estoque de segurança. A empresa de dados demo usada para criar esta tarefa é USMF. Essa tarefa é pretendida para o planejador da produção, para ajudar a manter a cobertura mínima.
 
