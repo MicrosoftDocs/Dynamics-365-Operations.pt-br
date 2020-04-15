@@ -16,16 +16,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 462bfce89fa77c8830a93a22b0dd6c8c8fb2cde6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2aaceb78029408dcea67d0382fd1fc05e550d02a
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555297"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146183"
 ---
 # <a name="set-up-rate-masters"></a>Configurar mestres de taxa
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimento mostra como configurar um mestre de taxa. O gerente logístico geralmente configura os mestres de taxa, dependendo dos contratos assinados com as transportadoras. Neste cenário você irá configurar um mestre de taxa para um transportador aérea. A empresa de dados demo usada para criar este procedimento é USMF.
 

@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 788564bfd7c3df146266976d8eef6621ff37ca2a
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 48ce4942f8407242013df45f533390784694d4e6
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550616"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142538"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER Usar dimensões financeiras como uma fonte de dados (Parte 2 - Mapeamento de modelo)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 As etapas a seguir explicam como um usuário atribuído ao administrador do sistema ou função do desenvolvedor de relatório eletrônico pode configurar um modelo de relatório eletrônico (ER) para usar dimensões financeiras como uma fonte de dados para relatórios ER. Essas etapas podem ser executadas em qualquer empresa.
 
-Para concluir essas etapas, você deve primeiro concluir as etapas no procedimento “ER Usar dimensões financeiras como uma fonte de dados (Parte 1: Modelo de dados de design).
+Para concluir estas etapas, primeiramente conclua as etapas no procedimento "ER Usar dimensões financeiras como fonte de dados (Parte 1: projetar modelo de dados".
 
 
 ## <a name="add-required-data-sources-to-model-mapping"></a>Adicionar fontes de dados necessários para criar mapeamento
@@ -57,7 +57,7 @@ Para concluir essas etapas, você deve primeiro concluir as etapas no procedimen
 20. No campo de seleção Dimensões financeiras, selecione "Entidade legal".
     * Selecionar todos para permitir que o usuário seleciona dimensões de desejo para a instância atual no campo de pesquisa.  Selecionar Entidade legal para permitir que o usuário seleciona dimensões para a empresa no campo de pesquisa.  Selecione a dimensão para permitir que o usuário seleciona dimensões com um único conjunto de dimensões.  
 21. Selecione Sim no campo Pedir conta principal.
-    * Defina "Pedir para conta principal" como Sim para permitir que os usuários selecionem a conta principal como parte da lista de dimensões.   Se definido como Não, a conta principal não será incluída na lista de dimensões e a opção "Conta principal obrigatória" é ativada. Se "Conta principal obrigatória" é definido como Sim, inclui a conta principal na lista de dimensões independentemente da seleção do usuário.  
+    * Defina "Solicitar conta principal" como Sim para permitir que usuários selecionem a contra principal como parte da lista de dimensões.   Defina como Não. A contra principal não será incluída na lista de dimensões, e a opção "A conta principal é obrigatória?" será habilitada. Se "A conta principal é obrigatória?" for definida como Sim, inclua a contra principal na lista de dimensões, independentemente da seleção do usuário.  
 22. Clique em OK.
 23. Na árvore, selecione 'Dynamics 365 for Operations\Registros da tabela'.
 24. Clique em Adicionar raiz.
@@ -78,7 +78,7 @@ Para concluir essas etapas, você deve primeiro concluir as etapas no procedimen
 9. Na árvore, selecione 'Diário\Transações\Comprovante'.
 10. Clique em Associar.
 11. Na árvore, selecione "LedgerJournal\<Relações\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)".
-    * Lembre-se que para qualquer referência às dimensões financeiras a que é definido, por exemplo, LedgerDimension, de item correspondente fonte de dados disponível (LedgerDimension.Dimension). Esse item da fonte de dados oferece a dimensões financeiras de aquele que as dimensões definidas como a lista de registros.  
+    * Lembre-se que para qualquer referência às dimensões financeiras a que é definido, por exemplo, LedgerDimension, de item correspondente fonte de dados disponível (LedgerDimension.Dimension). Este item de fonte de dados oferece as dimensões financeiras das dimensões definidas como a lista do registro.  
 12. Na árvore, expanda "LedgerJournal\<Relações\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)".
 13. Na árvore, expanda "LedgerJournal\<Relações\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Conta principal e dimensões".
 14. Na árvore, expanda "LedgerJournal\<Relações\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Conta principal e dimensões\Valor".
@@ -137,7 +137,7 @@ Para concluir essas etapas, você deve primeiro concluir as etapas no procedimen
 66. Clique em Salvar.
 67. Feche a página.
 
-## <a name="complete-this-draft-models-version"></a>Preencher a versão do modelo de rascunho
+## <a name="complete-this-draft-models-version"></a>Conclua esta versão do modelo de rascunho
 1. Feche a página.
 2. Feche a página.
 3. Clique em Alterar status.

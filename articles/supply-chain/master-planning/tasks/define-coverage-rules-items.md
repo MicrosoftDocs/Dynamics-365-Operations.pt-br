@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 680d7c9339b089a4da82bef18bae3af41e23af30
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5ecd56c84b232fd7855bf2fb01eaebe3f3bd4440
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845155"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150277"
 ---
 # <a name="define-coverage-rules-for-items"></a>Definir regras de cobertura para itens
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 A empresa de dados demo usada para criar este procedimento é USMF. Este procedimento mostra como criar regras de cobertura e substituir configurações de cobertura para um item específico. Também mostra como especificar as configurações padrão de estoque.
 

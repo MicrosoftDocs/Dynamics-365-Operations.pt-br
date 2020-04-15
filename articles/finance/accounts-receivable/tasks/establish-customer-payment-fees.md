@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e5b94578e077834ce73c921dca18ad6e38c37659
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b6475671002379d84519df05a0198a17ac000677
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176455"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143733"
 ---
 # <a name="establish-customer-payment-fees"></a>Estabelecer taxas de pagamento de clientes
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Criar taxas de pagamento para pagamentos de clientes.
 
@@ -43,7 +43,7 @@ Esta tarefa usa a empresa de demonstração USMF.
 10. No campo **Agrupamentos**, selecione Tabela, Grupo ou Tudo para definir contas bancárias que serão avaliadas por essa taxa. Se você selecionar Tudo, todas as contas bancárias podem ser avaliadas por essa taxa.  Se você selecionar Tabela, apenas a conta bancária que você seleciona pode ser cobrada por essa taxa. Se você selecionar Grupo, somente as contas bancárias no grupo de bancos selecionado podem ser avaliadas por essa taxa.  
 11. No campo **Relação do banco**, selecione um grupo bancário ou uma conta bancária. Se você selecionou Tabela, a pesquisa exibirá contas bancárias. Se você selecionou Grupo, a pesquisa exibirá grupos bancários.  
 12. Na lista, clique no link na linha selecionada.
-13. No campo **Método de pagamento**, selecione o método de pagamento para o qual essa taxa será avaliada. Por exemplo, você pode classificar uma taxa para os clientes se enviar pagamentos como um cheque, em vez de como um pagamento eletrônico.  
+13. No campo **Método de pagamento**, selecione o Método de pagamento para o qual essa taxa será avaliada. Por exemplo, você pode classificar uma taxa para os clientes se enviar pagamentos como um cheque, em vez de como um pagamento eletrônico.  
 14. Na lista, localize e selecione o registro desejado.
 15. Se relevante, no campo **Moeda do pagamento**, insira uma moeda de pagamento. A moeda de pagamento é usada como critérios adicionais para se a taxa que será avaliada.  Por exemplo, seu banco pode cobrar uma taxa adicional para pagamentos recebidos na moeda USD, desde que transacionem normalmente somente na moeda de Euro.  
 16. Selecione se a taxa será uma porcentagem, um valor ou um intervalo.

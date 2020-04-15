@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9a76e5bb6f63f793e4644c2ccf70cef21785ff10
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5512c30be586c75d2571d60588a1179c0d47570b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564077"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146988"
 ---
 # <a name="create-a-production-flow-version"></a>Criar uma versão de fluxo de produção
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Esse procedimento tem como foco a criação de uma versão de fluxo de produção. Nesse procedimento, os parâmetros de produção para lean manufacturing e as unidades de medida para tempo de classe devem ser definidos. Também pode ser necessário definir um fluxo de valor e um perfil de produção. Para saber mais sobre fluxos e atividades de produção em lean manufacturing, consulte os white papers a respeito de Lean manufacturing para Microsoft Dynamics AX. A empresa de dados demo usada para criar este procedimento é USMF.
 
