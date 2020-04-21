@@ -1,5 +1,5 @@
 ---
-title: Home page de BI (business intelligence) e relatórios
+title: Relatórios e análises com a home page do Power BI
 description: Este tópico indica os recursos que você pode usar para saber mais sobre as ferramentas de business intelligence e de relatório que estão disponíveis.
 author: sericks007
 manager: AnnBe
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5da4272e65940708d301d465966dea3f53498b48
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 424da665f91820f3fe42c98b352a646dd3db72c5
+ms.sourcegitcommit: 728cd7f723ee821337eee315a27977e99a44d9d3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771555"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "3258571"
 ---
-# <a name="business-intelligence-bi-and-reporting-home-page"></a>Home page de BI (business intelligence) e relatórios
+# <a name="reporting-and-analytics-with-power-bi-home-page"></a>Relatórios e análises com a home page do Power BI
 
 [!include [banner](../includes/banner.md)]
 
 Este tópico indica os recursos que você pode usar para saber mais sobre as ferramentas de business intelligence (BI) e de relatório que estão disponíveis.
 
 ## <a name="get-started"></a>Comece a usar
-- [Acesso a informações e relatório](information-access-reporting.md)
-- [Conversa sobre tecnologia: opções de relatório](https://www.youtube.com/watch?v=NzZONjKs5xA) (vídeo)
+- [Acesso a informações e relatórios](information-access-reporting.md)
+- [Tech Talk: Opções de relatório](https://www.youtube.com/watch?v=NzZONjKs5xA) (vídeo)
 - [Finance and Operations: blog de análise e serviços de relatório do Power BI](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (blog)
 
 ## <a name="analytical-workspaces"></a>Espaços de trabalho analíticos
