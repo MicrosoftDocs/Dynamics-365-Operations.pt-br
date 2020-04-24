@@ -3,7 +3,7 @@ title: Criar um plano de licença e ausência
 description: Crie planos de licença no Dynamics 365 Human Resources para diferentes tipos de licença.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ed7a47068c451cd3ffaa26ee709599373858721b
-ms.sourcegitcommit: 3cad15f8ecc257d3a45c1bc1fada7c094ff4bcec
+ms.openlocfilehash: 532d9b276692858c77e4de41018775e9520f1882
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3087291"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197350"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Criar um plano de licença e ausência
 
@@ -42,6 +42,11 @@ Você também pode criar benefícios de licença baseada em posição, como hora
 1. Na página **Licença e ausência**, selecione **Criar novo plano**.
 
 2. Em **detalhes**, digite o **Nome**, a **Data de início**, a **Descrição** e o **Tipo de licença** para seu plano.
+
+Se o recurso **Configurar vários tipos de licença** para um único plano de licença e ausência estiver habilitado, os tipos de licença serão configurados em **Agenda de acúmulo** em vez de em **Detalhes**. Para cada registro na tabela de agenda de competência, você pode definir um tipo de licença.
+
+ > [!IMPORTANT]
+   > Após ativar esse recurso, você não poderá desativá-lo.
 
 3. Defina competências na guia **Competências**. As competências determinam quando e com que frequência um funcionário recebe folgas. Nesta etapa, você define as políticas sobre quando as competências devem ser concedidas e as políticas sobre os benefícios da licença de rateio.
 
@@ -95,8 +100,8 @@ Você também pode criar benefícios de licença baseada em posição, como hora
    Você pode criar camadas para conceder folgas com base em níveis diferentes.
 
    Caso tenha funcionários por hora, poderá conceder folga com base nas horas trabalhadas, e não no tempo de serviço na organização. Os dados de horas trabalhadas geralmente são armazenados em um sistema de horário e presença. É possível importar horas normais e hora extras trabalhadas do sistema de tempo e presença e usá-las como base para o prêmio de um funcionário.
-
-   1. Selecione uma opção na caixa suspensa **Tipo de competência**:
+   
+    1. Selecione uma opção na caixa suspensa **Tipo de competência**:
 
       - **Meses de serviço** - baseie a agenda de competência em meses de serviço.
 
@@ -117,6 +122,13 @@ Você também pode criar benefícios de licença baseada em posição, como hora
       - **Postergação máxima** - o processo de competência ajusta saldos de licença que excedem o saldo máximo de postergação no aniversário da data de início.
 
       - **Valor concedido** - é o número inicial de horas ou dias que é concedido aos funcionários quando se registram no plano de licença. O valor não é acumulado no cada período de competência.
+      
+Se o recurso **Configurar vários tipos de licença para um único plano de licença e ausência** estiver habilitado, selecione uma opção no **Tipo de licença**. 
+
+   > [!IMPORTANT]
+   > Após ativar esse recurso, você não poderá desativá-lo.
+
+Se o recurso **Usar equivalência a período integral** estiver habilitado, os Human Resources usarão a equivalência por tempo integral (FTE) definida para a posição para ratear a competência de um funcionário. Por exemplo, se a FTE for 0,5 e o valor acumulado for 10, o funcionário acumulará 5. Você só poderá usar esse recurso se habilitar vários tipos de licença.  
 
 5. Selecione **Salvar**.
 
@@ -357,19 +369,6 @@ Saldo previsto (30) = valor da competência (10 × 1) + saldo atual (40) – aju
 |---------------------|-------------------|-----------------|------------|----------------|-----------------|---------|
 | Jeannette Nicholson | 0,00              | 1/6/2018        | 1/6/2018   | 1.00           | 1/9/2018        | 3.00    |
 | Jay Norman          | 0,00              | 15/6/2018       | 15/6/2018  | 1.00           | 1/9/2018        | 2.00    |
-
-## <a name="configure-preview-features"></a>Configure recursos de visualização
-
-Se tiver habilitado recursos de visualização para licença e ausência, você também precisará definir configurações para eles.
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-1. **Recurso de visualização: Configurar vários tipos de licença para um único plano de licença e ausência**. Para cada registro na tabela de agenda de competência, você pode definir um tipo de licença.
-
-   > [!IMPORTANT]
-   > Após ativar esse recurso, você não poderá desativá-lo.
-
-2. **Recurso de visualização: Use a equivalência de período integral**. Se você habilitar esse recurso de visualização, os recursos humanos usarão a equivalência por tempo integral (FTE) definida para a posição para proavaliar a competência de um funcionário. Por exemplo, se a FTE for 0,5 e o valor acumulado for 10, o funcionário acumulará 5. Você só poderá usar esse recurso se habilitar vários tipos de licença.
 
 ## <a name="see-also"></a>Consulte também
 

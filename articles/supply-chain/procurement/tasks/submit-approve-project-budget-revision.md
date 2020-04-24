@@ -2,7 +2,7 @@
 title: Enviar e aprovar revisão de orçamento de projeto
 description: Este procedimento fornece informações sobre revisão de um orçamento do projeto.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage, ProjTable, ProjBudget, ProjBudgetRevision, WorkflowSubmitDialog
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d88ae709f55fb7e33e794a539cd78719bf7ac64f
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 3061084222c0b23c657973205c9c3e7002cdeeb2
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3147241"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207433"
 ---
 # <a name="submit-and-approve-project-budget-revision"></a>Enviar e aprovar revisão de orçamento de projeto
 

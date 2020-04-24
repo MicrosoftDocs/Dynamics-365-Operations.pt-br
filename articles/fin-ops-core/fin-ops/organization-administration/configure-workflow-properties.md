@@ -3,7 +3,7 @@ title: Configurar propriedades do fluxo de trabalho
 description: Este tópico explica como configurar as várias propriedades de um fluxo de trabalho.
 author: sericks007
 manager: AnnBe
-ms.date: 07/17/2018
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76d44c472989a73d71c2edd19f1187ecd09827ae
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d745389b37b899760ea32ae75c5cb80d9139be2d
+ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190111"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3199427"
 ---
 # <a name="configure-workflow-properties"></a>Configurar propriedades do fluxo de trabalho
 
@@ -75,9 +75,11 @@ Você pode fornecer instruções aos usuários que enviarão documentos para pro
     5. Para personalizar o texto, você poderá inserir espaços reservados. Para obter instruções sobre como inserir um espaço reservado, consulte a etapa 3.
     6. Clique em **Fechar**.
 
-## <a name="specify-when-this-workflow-is-used"></a>Especificar quando esse fluxo de trabalho será usado
+## <a name="specify-when-this-workflow-is-used-through-activation-conditions"></a>Especificar quando este fluxo de trabalho é usado por condições de ativação
 
-Você pode criar vários fluxos de trabalho baseados no mesmo tipo. Por exemplo, você pode criar um fluxo de trabalho de requisição de compra para cada país/região onde opera, como Requisições de Compra - Dinamarca e Requisições de Compra - Espanha. Se houver vários fluxos de trabalho baseados no mesmo tipo, será necessário especificar quando cada um deles será usado. No exemplo anterior, especifique as seguintes condições:
+Você pode criar vários fluxos de trabalho baseados no mesmo tipo de fluxo de trabalho. Se houver vários fluxos de trabalho baseados no mesmo tipo, será necessário especificar quando cada um deles será usado usando condições de ativação. Se as condições de ativação não forem atendidas, o fluxo de trabalho padrão será usado. Da mesma forma, se houver apenas uma configuração de fluxo de trabalho definida para um tipo de fluxo de trabalho, a configuração do fluxo de trabalho será usada independentemente das condições de ativação.
+
+Por exemplo, você pode criar um fluxo de trabalho de requisição de compra para cada país/região onde opera, como Requisições de Compra - Dinamarca e Requisições de Compra - Espanha, com as condições a seguir:
 
 - As Requisições de Compra - Dinamarca são usadas quando: país/região = DK
 - As Requisições de Compra - Espanha são usadas quando: país/região = DK

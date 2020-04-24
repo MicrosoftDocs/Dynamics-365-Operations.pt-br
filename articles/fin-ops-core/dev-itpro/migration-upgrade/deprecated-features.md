@@ -3,7 +3,7 @@ title: Recursos removidos ou obsoletos em versões anteriores
 description: Este tópico descreve os recursos que foram removidos ou que foram planejados para remoção do Dynamics 365 for Finance and Operations e versões anteriores desse produto.
 author: sericks007
 manager: AnnBe
-ms.date: 03/05/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2e079f1eb43d46acdc39819ae81e0472bba6aa1
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: c1aade5d1272e069c1c2e3470363ffd7d5fc3cdc
+ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124557"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3225119"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Recursos removidos ou obsoletos em versões anteriores
 
@@ -263,11 +263,11 @@ Os principais indicadores de desempenho (KPIs) incorporados podem ser modelados 
 
 |   |  |
 |------------|--------------------|
-| **Motivo para a reprovação/remoção** | É possível que as definições de metadados de tabela tenham grupos de campos contendo referências de campo inválidas. Esse problema é atualmente classificado como um *aviso do compilador* em vez de um *erro*, ou seja, a implantação e a criação de pacote implantável podem continuar sem corrigir o problema. Se implantada, ela pode causar falhas de tempo de execução no Financial Reporting e no SQL Server Reporting Services (SSRS). Para corrigir esse problema:<br><br>1. Remova a referência de campo inválida da definição do grupo de campos da tabela.<br><br>2. Recompile.<br><br>3. Certifique-se de que qualquer aviso ou erro seja tratado. |
-| **Substituída por outro recurso?**   | Esse aviso será substituído por um erro de compilação no futuro.  |
-| **Áreas afetadas do produto**         | Ferramentas de desenvolvimento do Visual Studio. |
-| **Opção de implantação**              | Tudo. |
-| **Status**                         | Preterido: o aviso se tornará um erro de tempo de compilação no futuro. No momento, estamos segmentando a atualização 30 da plataforma. |
+| **Motivo para a reprovação/remoção** | É possível que as definições de metadados de tabela tenham grupos de campos contendo referências de campo inválidas. Se implantada, ela pode causar falhas de tempo de execução no Financial Reporting e no SQL Server Reporting Services (SSRS). Esse problema é atualmente classificado como um *aviso do compilador* em vez de um *erro*, ou seja, a implantação e a criação de pacote implantável podem continuar sem corrigir o problema. Para corrigir esse problema:<br><br>1. Remova a referência de campo inválida da definição do grupo de campos da tabela.<br><br>2. Recompile.<br><br>3. Certifique-se de que qualquer aviso ou erro seja tratado. |
+| **Substituída por outro recurso?**   | Esse aviso será substituído por um erro de compilação no futuro. |
+| **Áreas afetadas do produto**         | Ferramentas de desenvolvimento do Visual Studio |
+| **Opção de implantação**              | Todas |
+| **Status**                         | Preterido: o aviso se tornará um erro de tempo de compilação no futuro. Essa alteração se destina a atualizações de plataforma para a versão 10.0.11 de aplicativos Finance and Operations. |
 
 #### <a name="complete-list"></a>Lista completa
 Para acessar a lista completa das APIs que estão sendo substituídas, consulte [Substituição de métodos e elementos de metadados](deprecation-deletion-apis.md).

@@ -2,7 +2,7 @@
 title: Crie ativos com base em ordens de compra
 description: Este tópico explica como criar uma lista de itens de ativo que pode ser usada como base para a criação de ativos para trabalhos de manutenção em Gerenciamento de Ativos.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6eba14e285f23338cad0243fca567b30c6d4d3f2
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 8dd52d877ee7f862577d8bfea113f22eca03c597
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571567"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209872"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>Crie ativos com base em ordens de compra
 

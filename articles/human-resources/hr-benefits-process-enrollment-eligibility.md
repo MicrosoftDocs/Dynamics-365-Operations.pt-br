@@ -3,7 +3,7 @@ title: Processar qualificação da inscrição
 description: Este artigo explica como executar o processo de qualificação da inscrição.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0344c48460a7d1540481e09ba106526e119de72b
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 1d978982213e713e362798c49aa57e6dc8b7a862
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008037"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230005"
 ---
 # <a name="process-enrollment-eligibility"></a>Processar qualificação da inscrição
-
-[!include [banner](includes/preview-feature.md)]
 
 Este artigo explica como executar o processo de qualificação da inscrição.
 
@@ -37,10 +35,10 @@ Este artigo explica como executar o processo de qualificação da inscrição.
 
    | Campo | Descrição |
    | --- | --- |
-   | Período de inscrição | O período de inscrição para processar a qualificação da inscrição. |
-   | Pessoa jurídica em geral | A entidade legal para processar a qualificação da inscrição. |
-   | Trabalhador | O trabalhador para processar a qualificação da inscrição. Se você deixar esse campo em branco, a qualificação da inscrição será processada para todos os trabalhadores. |
-   | Plano de benefícios | O plano de benefícios para processar a qualificação da inscrição.
+   | **Período de inscrição** | O período de inscrição para processar a qualificação da inscrição. |
+   | **Pessoa jurídica em geral** | A entidade legal para processar a qualificação da inscrição. |
+   | **Trabalhador** | O trabalhador para processar a qualificação da inscrição. Se você deixar esse campo em branco, a qualificação da inscrição será processada para todos os trabalhadores. |
+   | **Plano de benefícios** | O plano de benefícios para processar a qualificação da inscrição.
 
 3. Se você deseja executar o processo em segundo plano, selecione **Executar em segundo plano** e execute as seguintes tarefas:
 
@@ -53,3 +51,24 @@ Este artigo explica como executar o processo de qualificação da inscrição.
    4. Selecione **OK**. O processo será executado com os parâmetros definidos por você.
 
 4. Selecione **OK**.
+
+## <a name="view-process-results"></a>Exibir resultados do processo
+
+Este artigo explica como exibir os resultados de processo de qualificação.
+
+1.  No espaço de trabalho **Gerenciamento de benefícios**, em **Processando**, selecione **Resultados do processo**.
+
+2.  No formulário **Resultados do processo**, os seguintes campos são especificados:
+
+   | Campo | descrição |
+   | --- | --- |
+   | **ID de processo** | A identificação exclusiva da combinação de trabalhador, entidade legal e execução do processo. |
+   | **Tipo de processo** | Isso identifica o processo que foi executado. Por exemplo: Inscrição. |
+   | **Carimbo de data/hora** | A hora em que o processo de qualificação foi executado. |
+   | **Pessoa jurídica em geral** | A entidade legal especificada durante o processo de inscrição. |
+   | **Trabalhador** | O trabalhador que foi processado. |
+   | **Plano | O plano de benefícios para o qual o registro foi tentado. |
+   | **Regra de qualificação** | A regra de qualificação que foi processada. Se um erro tiver sido encontrado antes da qualificação ser executada, ele ficará em branco. Por exemplo: se a compensação não foi definida para um trabalhador, o processo de qualificação não será executado e este campo será deixado em branco. |
+   | **Status do resultado** | Ele será Qualificado ou Não qualificado. O status do resultado será inelegível se o trabalhador não atender aos critérios da regra de qualificação, se o trabalhador estiver sem informações necessárias, como uma frequência de pagamento ou uma remuneração fixa, ou se houver informações ausentes no plano de benefícios que impedem que os trabalhadores sejam inscritos. |
+   | **Mensagem de resultado** | Indica por que um trabalhador não é elegível para um plano de benefícios ou se a regra de qualificação foi aprovada. |
+

@@ -3,7 +3,7 @@ title: Provisionar um ambiente de visualização do Dynamics 365 Commerce
 description: Este tópico explica como provisionar um ambiente de visualização do Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 01/31/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cbd4c118de2e91c8849461b20a01403049a07e66
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: d54db89372a0f9ef5b267d25e14067e3243a803c
+ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024627"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "3254739"
 ---
 # <a name="provision-a-dynamics-365-commerce-preview-environment"></a>Provisionar um ambiente de visualização do Dynamics 365 Commerce
 
@@ -234,8 +234,6 @@ Para inicializar o comércio eletrônico, siga estas etapas.
 ## <a name="commerce-preview-environment-support"></a>Suporte ao ambiente de visualização do Commerce
 
 Se você tiver problemas ao concluir as etapas de provisionamento, visite [Visualização do Microsoft Dynamics 365 Commerce - grupo Yammer](https://aka.ms/Dynamics365CommercePreviewYammer) para obter ajuda.
-
-Se tiver problemas ao tentar acessar o grupo Yammer, poderá contatar a Microsoft por email em <Dynamics365Commerce@microsoft.com>. Esse endereço de email não está ativamente monitorado. Portanto, espere um atraso na resposta.
 
 ## <a name="next-steps"></a>Próximas etapas
 

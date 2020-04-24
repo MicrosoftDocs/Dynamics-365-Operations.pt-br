@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a37436eb15ee4c561d5d0c15c90e37815cb80860
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: aa61a70e14b7997258376beaf389129a4ad2fa73
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897916"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197258"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-16-2019"></a>Novidades ou alterações no Dynamics 365 Talent (16 de abril de 2019)
 
@@ -46,10 +46,6 @@ As alterações descritas nesta seção aplicam-se ao número da compilação 8.
 ### <a name="compensation-region-compensation-level-benefit-option-and-skill-type-entities-in-common-data-service-updated-to-include-customer-field-support"></a>Região de compensação, nível de compensação, opção de benefício e entidades de tipo de habilidade no Common Data Service atualizado para incluir suporte ao campo do cliente
 
 Com essa versão, essas entidades do Common Data Service foram atualizadas para incluir a capacidade de incluir campo personalizado adicionado por meio do Talent: Core HR.
-
-### <a name="new-common-data-service-entity-support-for-compensation-vesting-rules-compensation-variable-plan-variable-compensation"></a>Novo suporte de entidade Common Data Service para: regras de benefício proporcional diferido de remuneração, plano de remuneração variável, remuneração variável
-
-Com essa versão, entidades de regras de benefício proporcional diferido de remuneração, plano de remuneração variável, remuneração variável foram adicionadas ao Common Data Service. Essas entidades também oferecem suporte a campos personalizados adicionados por meio do Talent: Core HR.
 
 ### <a name="powerbi-refresh-issues-314342"></a>Problemas de atualização PowerBI (314342)
 
@@ -93,6 +89,6 @@ Com esta alteração, as duplicatas são detectadas conforme você digita nos ca
 
 ### <a name="email-support-for-alerts"></a>Suporte de email para alertas
 
-Com a atualização de plataforma 25 do Finance and Operations, os usuários podem criar regras de alerta que enviem automaticamente notificações por email a contatos quando notificações são disparadas por um evento.
+Com a atualização de Plataforma 25 do Finance and Operations, os usuários podem criar regras de alerta que enviem automaticamente notificações por email a contatos quando disparadas por um evento.
 
 

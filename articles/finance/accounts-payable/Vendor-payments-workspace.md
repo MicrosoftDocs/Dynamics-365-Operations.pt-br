@@ -3,7 +3,7 @@ title: Espaço de trabalho de pagamentos dos fornecedores
 description: Este tópico fornece informações sobre a área de trabalho móvel de pagamentos de fornecedor. A área de trabalho de pagamentos de fornecedor mostra informações relacionadas ao processamento de pagamentos de fornecedores.
 author: abruer
 manager: AnnBe
-ms.date: 06/25/2019
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 89ba0d68bd52413328dd583e87b09b01fd523d6f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 895725eeac46b5c20a2fb8dd932595a25fe372ce
+ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176491"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3225004"
 ---
 # <a name="vendor-payments-workspace"></a>Espaço de trabalho de pagamentos dos fornecedores
 
@@ -36,7 +36,7 @@ A configuração a seguir precisa ser concluída para que os dados sejam exibido
 1. Vá para **Administração do sistema > Configuração > Parâmetros do Sistema** para definir **Moeda do sistema** e **Taxa de Câmbio do Sistema**.
 2. Vá para **Contabilidade > Configuração > Razão** para definir **Moeda Contábil** e **Tipo de Taxa de Câmbio**. 
 2. Defina taxas de câmbio entre Moedas de transação e Moeda contábil, Moeda contábil e Moeda do sistema. Para fazer isso, vá para **Contabilidade > Moedas > Taxas de câmbio de moedas**.
-3. Vá para **Administração do sistema > Configuração > Repositório de Entidades** para atualizar a medida de agregação **VendPaymentBIMeasure**. 
+3. Vá para **Administração do sistema > Configuração > Repositório de Entidades** para atualizar a medida de agregação **VendPaymentBIMeasureV2**. 
 
 ## <a name="my-work-view"></a>Visualização Meu trabalho
 

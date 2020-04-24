@@ -3,7 +3,7 @@ title: Fechamento anual
 description: Este tópico descreve a configuração e as etapas necessárias para executar o processo de fechamento anual da contabilidade.
 author: kweekley
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3071365640eb6c012cb9af5461e885bb3f135143
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f5b81ed788536a8b81ca53d6b6f12200836b6f5
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175286"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259762"
 ---
 # <a name="year-end-close"></a>Fechamento anual
 
@@ -74,7 +74,7 @@ A guia **Dimensão financeira** é usada para definir quais dimensões financeir
 O processo de fechamento anual não segue as estruturas de conta. Isso porque as estruturas de conta podem mudar ao longo do ano fiscal e nem sempre é possível identificar a estrutura de conta relevante devido a todas essas alterações.  Quando as transações de abertura forem criadas, os saldos serão trazidos a diante com dimensões financeiras, como definido no modelo do fechamento anual. As entradas dos saldos iniciais podem incluir dimensões financeiras que já não estão na estrutura de conta atual e combinações de segmento que não são mais válidas na estrutura de conta atual. Se a sua organização deseja excluir uma dimensão financeira para o saldo inicial de rendimento retido, defina a dimensão financeira como **Fechar individual** e deixe o valor da dimensão vazio.
 
 ## <a name="run-the-year-end-close-process"></a>Executar o processo de fechamento anual
-Depois que os modelos de fechamento anual são criados, o processo de fechamento anual é iniciado selecionando **Executar ano fiscal** no Painel de Ação. Selecione todas ou um subconjunto de entidades no modelo sobre o qual será executado o fechamento anual. Ao executar o fechamento anual pela primeira vez em um ano fiscal, você provavelmente irá escolher todas as entidades para criar saldos iniciais para todas as entidades legais. Se você estiver executando o fechamento anual novamente, você pode escolher executar o processo apenas para as entidades legais para as quais entradas de ajuste foram lançadas. 
+Depois que os modelos de fechamento anual são criados, o processo de fechamento anual é iniciado selecionando **Executar fechamento de ano fiscal** no Painel de Ação. Selecione todas ou um subconjunto de entidades no modelo sobre o qual será executado o fechamento anual. Ao executar o fechamento anual pela primeira vez em um ano fiscal, você provavelmente irá escolher todas as entidades para criar saldos iniciais para todas as entidades legais. Se você estiver executando o fechamento anual novamente, você pode escolher executar o processo apenas para as entidades legais para as quais entradas de ajuste foram lançadas. 
 
 Selecione o ano fiscal sobre o qual você gostaria de executar o processo de fechamento anual. Caso exista mais de um período de fechamento para o último período do ano fiscal, o campo **Nome do período** ficará disponível para que você possa selecionar em qual período de fechamento lançar a transação de Fechamento, se a configuração está definida para criar a transação de Fechamento. 
 

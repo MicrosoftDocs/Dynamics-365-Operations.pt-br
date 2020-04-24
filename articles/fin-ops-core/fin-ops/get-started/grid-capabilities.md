@@ -3,7 +3,7 @@ title: Recursos de grade
 description: Este tópico descreve vários recursos avançados do controle de grade. O novo recurso de grade deve estar habilitado para ter acesso a esses recursos.
 author: jasongre
 manager: AnnBe
-ms.date: 02/10/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7136edba828bf97b6e0c8d2a698b884640d680e5
-ms.sourcegitcommit: 880f617d1d6e95eccbed762c7ea04398553c2ec0
+ms.openlocfilehash: 0fd0e15ea88e9f5f34d8dff82606a8d26616a16d
+ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "3036256"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3260451"
 ---
 # <a name="grid-capabilities"></a>Recursos de grade
 
@@ -90,4 +90,23 @@ Para desfazer o agrupamento em uma grade, clique com o botão direito do mouse n
 ## <a name="evaluating-math-expressions"></a>Avaliação de expressões matemáticas
 Como um acelerador de produtividade, os usuários podem inserir fórmulas matemáticas em células numéricas em uma grade. Eles não precisam fazer o cálculo em um aplicativo fora do sistema. Por exemplo, se você digitar **=15\*4** e pressionar a tecla **Tab** para sair do campo, o sistema avaliará a expressão e salvará um valor de **60** para o campo.
 
-Para que o sistema reconheça um valor como uma expressão, inicie o valor com um sinal de igualdade (**=**). Para obter mais detalhes sobre os operadores e a sintaxe permitidos, consulte [Símbolos matemáticos permitidos](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).  
+Para que o sistema reconheça um valor como uma expressão, inicie o valor com um sinal de igualdade (**=**). Para obter mais informações sobre os operadores e a sintaxe permitidos, consulte [Símbolos matemáticos permitidos](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
+
+## <a name="frequently-asked-questions"></a>Perguntas frequentes
+### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Como habilitar o novo controle de grade no meu ambiente? 
+
+**10.0.9 / Atualização de plataforma 33 e mais recente** O recurso **Novo controle de grade** está disponível diretamente no Gerenciamento de recursos em todos os ambientes. Assim como outros recursos de versão prévia pública, a ativação deste recurso na produção está sujeita ao [Contrato de Termos de Uso Complementares](https://go.microsoft.com/fwlink/?linkid=2105274).  
+
+**10.0.8 / Atualização de plataforma 32 e 10.0.7 / Atualização da plataforma 31** O recurso **Novo controle de grade** pode ser habilitado nos ambientes da Camada 1 (Desenvolvimento/Teste) e da Camada 2 (Área Restrita) a fim de fornecer testes adicionais e alterações de design seguindo as etapas abaixo.
+
+1.  **Habilitar a versão de pré-lançamento**: execute esta instrução SQL: 
+
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLIReactGridEnableFeature', 1, 0, 5637144576);`
+
+2. **Redefinir o IIS** para liberar o cachê de liberação estático. 
+
+3.  **Localizar o recurso**: navegue até o espaço de trabalho **Gerenciamento de recursos**. Se **Novo controle de grade** não aparecer na lista de todos os recursos, selecione **Verificar por atualizações**.   
+
+4.  **Habilitar o recurso**: localize o recurso **Novo controle de grade** na lista de recursos e selecione **Habilitar agora** no painel de detalhes. Observe que uma atualização do navegador é necessária. 
+
+Todas as sessões de usuário subsequentes começarão com o novo controle de grade habilitado.

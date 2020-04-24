@@ -3,7 +3,7 @@ title: Editor de fórmula avançado do Relatório eletrônico
 description: Este tópico descreve como o editor de fórmula avançado pode ser usado para configurar expressões em componentes de formato e mapeamento de modelo do ER (Relatório eletrônico).
 author: NickSelin
 manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: df402bc20753d2ba14295592f4b40e20f9fdc7bf
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.openlocfilehash: d9911c858d6832aa70378d37e0fd5cf7d7831b1b
+ms.sourcegitcommit: dce8c5d3b2fc4a752d676cf9ba91e0dea2fa80d8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138889"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "3257052"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Editor de fórmula avançado do Relatório eletrônico
 
@@ -156,6 +156,16 @@ Atualmente, diferentes cores são usadas para realçar as seguintes partes das e
 - O texto entre colchetes duplos que pode representar uma ID de etiqueta de uma constante de texto.
 
 [![Editor de fórmula do ER](./media/ER-AdvEditor-SyntaxColorization.png)](./media/ER-AdvEditor-SyntaxColorization.png)
+
+## <a name="limitations"></a>Limitações
+
+No momento, o editor é compatível com os seguintes navegadores da Web:
+
+- Chrome
+- Borda
+- Firefox
+- Opera
+- Safari
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

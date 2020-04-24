@@ -3,7 +3,7 @@ title: Realizar rateio de alterações de cabeçalho para linhas de vendas corre
 description: Este tópico descreve recursos adicionais para calcular e aplicar encargos automáticos dos pedidos de canal do Commerce usando o recurso de encargos automáticos avançado.
 author: hhaines
 manager: annbe
-ms.date: 04/23/2019
+ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 5c03b1a1db11098058022a6916dc5bddf5518f9b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 048885cac7a316e144b2df072da405d74096203f
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021655"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175122"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Realizar rateio de alterações de cabeçalho para linhas de vendas correspondentes
 
@@ -169,3 +169,9 @@ Portanto, neste exemplo, o item 81334 será atribuído ao encargo de frete de US
 ![Encargos em pró-rata sobre vendas para o item 81334](media/proratedlinecharge.png)
 
 Quando esse método de cálculo é usado em um cenário de devolução parcial, se o código de encargo é reembolsável, apenas a parte do encargo atribuído a essa linha será reembolsado quando o item é devolvido.
+
+## <a name="additional-resources"></a>Recursos adicionais
+
+[Encargos automáticos avançados de omnicanal](omni-auto-charges.md)
+
+[Habilitar e configurar encargos automáticos por canal](auto-charges-by-channel.md)

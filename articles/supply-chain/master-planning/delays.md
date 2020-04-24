@@ -2,15 +2,15 @@
 title: Atrasos
 description: Este tópico fornece informações sobre as datas em atraso no planejamento mestre. Uma data posterior é uma data de vencimento realista que uma transação recebe se a data de preenchimento mais recente que o planejamento mestre calcula é posterior a data solicitada.
 author: roxanadiaconu
-manager: AnnBe
-ms.date: 03/15/2019
+manager: tfehr
+ms.date: 03/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransFuturesListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1a8c738fffda76f2a8492c20e2c67a154c68559
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 34252e5cd9ee5151b1cba47975fc0cc612521a17
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1522280"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203839"
 ---
 # <a name="delays"></a>Atrasos
 
@@ -44,6 +44,12 @@ Na página **Parâmetros de planejamento mestre**, você pode definir a hora de 
 
 > [!NOTE]
 > Nas versões anteriores, os atrasos calculados eram conhecidos como *mensagens futuras*, a data atrasada era conhecida como *datas futuras* e uma transação atrasada foi mencionada como *uma transação definida no futuro*.
+
+## <a name="limited-delays-in-production-setup-with-multiple-bom-levels"></a>Atrasos limitados na configuração da produção com vários níveis de BOM
+Ao trabalhar com atrasos em uma configuração de produção que tem vários níveis de BOM, é importante observar que somente os itens diretamente acima do item (na estrutura da BOM) que causam o atraso, serão atualizados com um atraso como parte da execução do planejamento mestre. Os outros itens na estrutura da BOM não receberão o atraso aplicado até que o primeiro planejamento mestre seja executado, quando a ordem planejada para o nível superior for aprovada ou confirmada. 
+
+Para solucionar essa limitação conhecida, as ordens de produção no topo da estrutura da BOM com atrasos podem ser aprovadas (ou confirmadas) antes da próxima execução do planejamento mestre. Dessa forma, o atraso da ordem de produção planejada atrasada aprovada será mantido e todos os componentes subjacentes serão atualizados de acordo.
+As mensagens de ação também podem ser usadas para identificar ordens planejadas que podem ser movidas para uma data posterior, devido a outros atrasos na estrutura da BOM.
 
 ## <a name="desired-date"></a>Data desejada
 

@@ -1,30 +1,30 @@
 ---
-title: ​Aprovar e confirmar ordens de compra​
-description: Este tópico descreve os status pelos quais uma ordem de compra (OC) passa após ela ter sido criada e o efeito de habilitar o gerenciamento de alterações no PDV.
-author: FrankDahl
-manager: AnnBe
-ms.date: 06/20/2017
+title: Aprovar e confirmar ordens de compra
+description: Este tópico descreve os status pelos quais uma ordem de compra passa após ela ter sido criada e o efeito de habilitar o gerenciamento de alterações no PDV.
+author: mkirknel
+manager: tfehr
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
 ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: fdahl
+ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d0fc75f233ee2eab42317f835834ff24b6ada2f
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 6b331b7e7725b3dd284deb02e59fcf2d699822c4
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813422"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207985"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>​Aprovar e confirmar ordens de compra​
 
@@ -69,9 +69,10 @@ Em algumas situações, talvez seja necessário alterar uma ordem de compra depo
 
 Se o pedido de compra foi criado usando um processo de gerenciamento de alterações, você pode fazer alterações por retornar a ordem ou, se já tiver sido aprovada a ordem usando a ação **Solicitar alteração**. Nesse caso, o status de aprovação é alterado para **Rascunho** e, em seguida, você pode modificar a ordem. Depois que você terminar de fazer as alterações, pode ser necessário enviar a ordem de compra para aprovação novamente. Você pode configurar os tipos de alterações que requerem reaprovação usando uma regra de política **Regra de reaprovação de ordens de compra** na página **Políticas de compra**.
 
-Se parte da quantidade encomendada para uma linha de ordem de compra tiver sido entregue, você não poderá alterar a quantidade solicitada. No entanto, você pode alterar a quantidade **Entrega pendente** na linha. Você pode usar a ação **Finalizar** para cancelar linhas e evitar o processamento adicional. 
+Se parte da quantidade encomendada para uma linha de ordem de compra tiver sido entregue, você não poderá alterar a quantidade solicitada quando a ordem de compra estiver em status de **Rascunho**. No entanto, é possível alterar a quantidade de **Entrega pendente** na linha da ordem de compra que estiver em um status de **Rascunho**.
 
-Depois que um pedido foi confirmado, você não poderá excluí-lo. No entanto, você pode cancelar a quantidade total ou qualquer quantidade restante na ordem, desde que a quantidade ainda não tenha sido recebida ou faturada.
+Depois que um pedido foi confirmado, você não poderá excluí-lo. No entanto, você pode cancelar a quantidade total ou qualquer quantidade restante na ordem, desde que a quantidade ainda não tenha sido recebida ou faturada. Você pode usar a ação **Finalizar** para evitar o processamento adicional. 
+
 
 ## <a name="canceling-purchase-orders"></a>Cancelar ordens de compra
 

@@ -2,7 +2,7 @@
 title: Materiais e taxas de embalagem
 description: Este tópico fornece informações sobre as taxas de material de embalagem que são pagas para reciclar empresas em intervalos específicos.
 author: MarkusFogelberg
-manager: AnnBe
+manager: tfehr
 ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2351cce9dc6e1a554800817f75591c4a4e24d43
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 1061f336701461df7a2cf78661788e4c6100c84d
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076238"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215691"
 ---
 # <a name="packing-materials-and-fees"></a>Materiais e taxas de embalagem
 
@@ -39,7 +39,7 @@ Você pode definir uma ou mais unidades de embalagem para um único item, um gru
 > [!NOTE]
 > Mesmo que sua empresa não pague taxas de material de embalagem, você poderá usar a funcionalidade para calcular estatísticas de pesos dos materiais de embalagem.
 
-## <a name="allocations"></a>Configurar alocação de materiais de embalagem
+## <a name="set-up-packing-material-allocation"></a><a name="allocations"></a>Configurar alocação de materiais de embalagem
 
 Para poder calcular os pesos do material de embalagem, as taxas de material de embalagem ou ambas, você deve ativar o cálculo e definir quais materiais e taxas se aplicam a quais itens.
 

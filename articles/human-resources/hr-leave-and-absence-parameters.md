@@ -3,7 +3,7 @@ title: Configurar parâmetros de licença e ausência
 description: Definir parâmetros de recursos humanos para licença e ausência no Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2acb8502ebcab122a0a1ff21e9f5e23931026327
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: eb992cbfbed33f88e125d3a8b721f8815414599a
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008073"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197972"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Configurar parâmetros de licença e ausência
 
@@ -50,18 +50,25 @@ Antes de configurar os planos de licença e ausência no Dynamics 365 Human Reso
 
 7. Selecione **Salvar**.
 
-## <a name="configure-calendar-parameters"></a>Configure parâmetros de calendário.
-
-Se você tiver habilitado o recurso de visualização do calendário de licenças e ausências, será necessário configurar parâmetros adicionais. 
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-> [!NOTE]
-> Para a versão de visualização em 3 de fevereiro de 2020, somente **Solicitações de licença pendentes** estão habilitadas.
+## <a name="view-and-change-leave-and-absence-parameters"></a>Exibir e alterar parâmetros de licença e ausência
 
 1. Na página **Licença e ausência**, selecione a guia **Links**.
 
-2. Em **Configuração**, selecione **Parâmetros de recursos humanos**.
+2. Em **Configuração**, selecione **Parâmetros de licença e ausência**.
+
+3. Na guia **Geral**, defina os seguintes parâmetros:
+ 
+    - Defina a **Unidade para licença e ausência** em horas ou dias. Em caso de dias, você pode selecionar **Habilitar definição de meio dia** para permitir que os funcionários escolham a primeira ou a segunda metade do dia em suas solicitações de tempo limite. 
+
+    - Selecione **Meses de data de efetivação do serviço** para definir quando as taxas de acumulação entram em vigor para os planos de licença usando meses de serviço.
+
+    - Selecione **Cálculo de saldo** para exibir saldos a serem exibidos a partir de hoje ou a partir do período de acumulação. Se você selecionar **Saldo a partir de hoje**, o saldo exibirá o total de todas as competências, ajustes e solicitações a partir de hoje. Se você selecionar **Saldo como período de acumulação**, o saldo exibirá o total de todas as competências, ajustes e solicitações, a partir do período de acumulação definido pela frequência no plano de licença. 
+
+## <a name="configure-calendar-parameters"></a>Configure parâmetros de calendário.
+
+1. Na página **Licença e ausência**, selecione a guia **Links**.
+
+2. Em **Configuração**, selecione **Parâmetros de licença e ausência**.
 
 3. Na guia **Calendário**, altere as configurações de calendário, conforme necessário.
 

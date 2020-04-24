@@ -2,7 +2,7 @@
 title: Grupos de custos
 description: Os grupos de custos fornecem a base para a segmentação e análise de contribuições de custo no custo calculado de um item fabricado, como as contribuições de custo para materiais, trabalho e custos gerais indiretos. A segmentação de grupos de custo tem vários sinônimos dentro dos ambientes de fabricação, como divisão de custo, decomposição de custo ou classificação de custo.
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCostGroup
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 50871
 ms.assetid: 1855f744-f73f-4fa8-8290-a7ee126d368b
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f1f97981c33c72c71e055848e874002dad73813
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d78649cd371b51bf6b9403aea0358630ed57b8c7
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556843"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201792"
 ---
 # <a name="cost-groups"></a>Grupos de custos
 

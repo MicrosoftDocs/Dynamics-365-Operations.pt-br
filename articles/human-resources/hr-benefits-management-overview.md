@@ -1,9 +1,9 @@
 ---
 title: Visão geral do Gerenciamento de benefícios
-description: Visão geral da versão prévia do recurso de Gerenciamento de benefícios no Dynamics 365 Human Resources. Ofereça opções de benefícios estendidos aos seus funcionários com uma experiência online fácil de usar.
+description: Visão geral do recurso de Gerenciamento de benefícios no Dynamics 365 Human Resources. Ofereça opções de benefícios estendidos aos seus funcionários com uma experiência online fácil de usar.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 63db1b55bae9150dd87d9981136b96d72ffd0c59
-ms.sourcegitcommit: 523049c363a999050c58d20695f1c7d151b3fd3e
+ms.openlocfilehash: 91a4425b4f020f90843bb3b0b280b7ee28463670
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029454"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230145"
 ---
 # <a name="benefits-management-overview"></a>Visão geral do Gerenciamento de benefícios
 
-[!include [banner](includes/preview-feature.md)]
-
-Para permanecer em um mercado competitivo, é necessário oferecer um conjunto amplo de benefícios para atrair e reter os melhores funcionários. Além dos benefícios padrão, como plano de saúde e odontológico, ofereça serviços expandidos, como assistência à adoção, programas de recreação e auxílio-vestimenta. A versão prévia do recurso de Gerenciamento de benefícios do Microsoft Dynamics 365 Human Resources oferece uma solução flexível compatível com uma ampla variedade de opções de benefícios. O Human Resources também inclui uma experiência para funcionários fácil de usar e que mostra as ofertas.
+Para permanecer em um mercado competitivo, é necessário oferecer um conjunto amplo de benefícios para atrair e reter os melhores funcionários. Além dos benefícios padrão, como plano de saúde e odontológico, ofereça serviços expandidos, como assistência à adoção, programas de recreação e auxílio-vestimenta. O Gerenciamento de benefícios do Microsoft Dynamics 365 Human Resources oferece uma solução flexível compatível com uma ampla variedade de opções de benefícios. O Human Resources também inclui uma experiência para funcionários fácil de usar e que mostra as ofertas.
 
 - Os planos de benefícios aprimorados permitem criar e gerenciar planos de benefícios exclusivos e oferecem suporte a tabelas de taxas de benefícios complexas e camadas aninhadas. Você pode facilmente criar programas e pacotes de benefícios, além de regras de inscrição automática nos benefícios para facilitar a experiência dos funcionários.
 
@@ -39,30 +37,30 @@ Para permanecer em um mercado competitivo, é necessário oferecer um conjunto a
 
 - A inscrição online nos benefícios permite uma experiência fácil para os funcionários.
 
-- O processamento de evento de vida qualificado é integrado ao Autoatendimento para funcionários e também oferece suporte para eventos de vida futuros.
+- O processamento de eventos de vida útil é compatível com eventos de vida futuros.
 
 Se deseja acessar os dados de demonstração, será necessário implementar novamente o ambiente de área restrita.
 
-Você pode fornecer um feedback direto ou relatar problemas em: D365BenefitsPreview@microsoft.com.
-
 ## <a name="benefits-management-known-issues"></a>Problemas conhecidos do gerenciamento de benefícios
 
-### <a name="eligibility-processing"></a>Processamento de elegibilidade
+### <a name="flex-credit-programs"></a>Programas de crédito flexível
 
-Ao executar a elegibilidade para benefícios que usam 1-5X Salário, % do Salário e o valor de cobertura do Valor Simples, é necessário definir a data dos **Detalhes dos benefícios** como a **Data de início do funcionário** no **Histórico de empregos**. Também é necessário incluir **Horas trabalhadas**, **Frequência de pagamento** e **Valor do salário de benefícios anual**. Se o trabalhador tiver uma remuneração fixa, insira **Horas trabalhadas** e **Frequência de pagamento**. O valor do salário anual será calculado. Se o funcionário for assalariado, não será necessário inserir **Horas trabalhadas**. Recomendamos que, ao criar novos trabalhadores, insira a remuneração fixa primeiro. Para atualizar o registro dos detalhes dos benefícios, navegue até **Trabalhador > Histórico do trabalhador > Detalhes do emprego**. Ajuste a data para a data de início do trabalhador.
-
-### <a name="employee-self-service"></a>Autoatendimento para funcionários
-
-O valor do funcionário não é calculado ao atualizar o valor da cobertura do seguro de vida. Por exemplo, quando um funcionário é oferecido a um plano de seguro de vida, ele pode selecionar até US$ 50.000 em cobertura a um custo de US$ 0,36 por US$ 1.000 de cobertura.  Quando o funcionário atualiza o valor da cobertura, o custo associado do funcionário permanece em zero.
-
-Para um plano de benefícios que permite somente uma única seleção desse tipo de plano, o usuário receberá uma mensagem de erro se tentar cancelar um plano após selecioná-lo. Por exemplo, um usuário seleciona um plano médico e o coloca em seu carrinho. O usuário seleciona **Renunciar** a outro plano médico. O usuário receberá uma mensagem de erro.
+O valor de crédito total definido para um programa de crédito flexível não é exibido no formulário **Planos de benefícios do trabalhador**. Além disso, se você definir um programa de crédito flexível para ter uma regra de rateio de **Nenhum**, você recebe um erro no formulário **Plano de benefício do trabalhador** ao selecionar e confirmar planos.
 
 ## <a name="enable-benefits-management"></a>Habilitar o Gerenciamento de benefícios
 
-O Gerenciamento de benefícios é uma versão prévia do recurso e está disponível somente em ambientes de **Área restrita**. Esses artigos descrevem como acionar a versão prévia de recursos no Human Resources. Eles também informam quais recursos existentes no Human Resources são substituídos pelo Gerenciamento de benefícios ou quais são desabilitados após ativar o Gerenciamento de recursos.
+Este artigo descreve como acionar os recursos no Human Resources. Ele também informa quais recursos existentes no Human Resources são substituídos pelo Gerenciamento de benefícios ou quais são desabilitados após ativar o Gerenciamento de recursos.
+
+> [!IMPORTANT]
+> Depois de habilitar o gerenciamento de benefícios em um ambiente de **Produção** você pode desativá-lo. É recomendável habilitar e testar o gerenciamento de benefícios em um ambiente de **Área restrita** antes de ativá-lo em um ambiente de **Produção**. Há diferenças significativas entre a funcionalidade de benefício herdada e a nova funcionalidade de gerenciamento de benefícios que exigem configuração adicional e devem ser testadas antes de serem colocadas em produção.
 
 - [Gerenciar recursos](hr-admin-manage-features.md)
-- [Recurso de visualização: Gerenciamento de benefícios](hr-admin-manage-features.md?preview-feature-benefits-management)
+
+## <a name="configure-employee-information"></a>Configurar informações do funcionário
+
+Para poder inscrever funcionários em benefícios, você deve fornecer as informações necessárias. Você deve registrar um funcionário em um **Plano de compensação fixa** em sua data de início, e você deve selecionar uma **Frequência de pagamento de benefício** em **Detalhes de emprego** no formulário **Trabalhador**.
+
+Quando você cria um plano de benefícios que usa taxas baseadas em sexo ou idade, você deve inserir uma data de nascimento e um sexo para que o funcionário calcule o custo de benefício.
 
 ## <a name="configure-benefits-management"></a>Configurar Gerenciamento de benefícios
 
@@ -91,9 +89,7 @@ Antes de criar os planos de benefícios para seus funcionários, é necessário 
 Esses artigos mostram como criar planos de benefícios, incluindo pacotes e programas de crédito flexível.
 
 - [Configurar planos de benefícios](hr-benefits-plans-setup.md)
-- [Criar planos de benefícios do trabalhador](hr-benefits-plans-worker.md)
 - [Configurar programas de crédito flexível](hr-benefits-plans-flex-credit-programs.md)
-- [Configurar eventos de vida futuros](hr-benefits-plans-future-life-events.md)
 
 ## <a name="process-benefit-plans"></a>Processar planos de benefícios
 

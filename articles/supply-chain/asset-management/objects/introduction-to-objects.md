@@ -2,7 +2,7 @@
 title: Introdução aos ativos
 description: Este tópico oferece uma visão geral de ativos em Gerenciamento de Ativos.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf23d4b01729e6c1ece633b009f033b9d74bc7fe
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 2e5f3e4f428a231760b1169a860b230c1a76a64e
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571544"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212655"
 ---
 # <a name="introduction-to-assets"></a>Introdução aos ativos
 
@@ -37,7 +37,7 @@ Um ativo é atualizado automaticamente com informações relacionadas. Por exemp
 
 ## <a name="all-assets"></a>Todos os ativos
 
-Selecione **Gerenciamento de ativos** \> **Comum** \> **Ativos** \> **Todos os ativos**. A página de lista **Todos os ativos** mostra todos os ativos e algumas informações relacionadas a eles. Para exibir somente ativos que estão ativos, selecione **Ativos ativos**. Para exibir somente ativos que estão instalados em locais funcionais aos quais você está relacionado como um trabalhador de manutenção, selecione **Meus ativos ativos**. (Essa relação é configurada na página **Trabalhadores**. Para obter mais informações, consulte [Trabalhadores de manutenção e grupos de trabalhadores](../setup-for-objects/workers-and-worker-groups.md)).
+Selecione **Gerenciamento de ativos** \> **Comum** \> **Ativos** \> **Todos os ativos**. A página de lista **Todos os ativos** mostra todos os ativos e algumas informações relacionadas a eles. Para exibir somente ativos que estão ativos, selecione **Ativos ativos**. Para exibir somente ativos que estão instalados em locais funcionais aos quais você está relacionado como um trabalhador de manutenção, selecione **Meus ativos ativos**. (Essa relação é configurada na página **Trabalhadores**. Para obter mais informações, consulte [Trabalhadores de manutenção e grupos de trabalhadores](../setup-for-objects/workers-and-worker-groups.md).)
 
 Na exibição de grade **Todos os ativos**, selecione um link na coluna **Ativo** para exibir os detalhes do registro selecionado. Para editar o registro, selecione o botão **Editar**. A exibição de detalhes mostra informações detalhadas relacionadas ao ativo. Um painel **Informações relacionadas** à direita contém informações adicionais relativas ao ativo. Expanda o painel para mostrar as informações relacionadas para o ativo selecionado.
 

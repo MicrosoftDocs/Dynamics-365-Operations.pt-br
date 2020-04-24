@@ -3,7 +3,7 @@ title: Configurar códigos de camada
 description: O Dynamics 365 Human Resources usa códigos de camada com taxas de benefício pagas pelos funcionários e pelo empregador.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 15b6d84876b6f3907b052f6b297ab52bbd182a0f
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 26ff5459fc387dcb4192f0b558174700d081fecc
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092425"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229595"
 ---
 # <a name="set-up-tier-codes"></a>Configurar códigos de camada
-
-[!include [banner](includes/preview-feature.md)]
 
 O Dynamics 365 Human Resources usa códigos de camada com taxas de benefício pagas pelos funcionários e pelo empregador. Você pode definir um número ilimitado de códigos de camada e configurar cálculos de taxa para atender às necessidades da sua empresa.
 
@@ -39,7 +37,7 @@ O Dynamics 365 Human Resources usa códigos de camada com taxas de benefício pa
 
    | Campo | Descrição |
    | --- | --- |
-   | Código de camada | Um código ou número exclusivo da camada de benefícios para identificar o código de camada. |
-   | Descrição | Uma descrição do código de camada de benefício. |
+   | **Código de camada** | Um código ou número exclusivo da camada de benefícios para identificar o código de camada. |
+   | **Descrição** | Uma descrição do código de camada de benefício. |
 
 4. Selecione **Salvar**. 
