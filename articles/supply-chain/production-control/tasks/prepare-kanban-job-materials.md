@@ -2,7 +2,7 @@
 title: Preparar um trabalho kanban de processo quando os materiais estão disponíveis para a célula de trabalho
 description: Esta tarefa foca na preparação de um processo de trabalho kanban quanto todas materiais estão disponíveis para a célula de trabalho.
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,35 +10,35 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardWorkCell
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cf163968474e91da7e3d47fd638a857a76179645
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: cd6d5add4d11c917a705e88d10b589e2c43fab89
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3148950"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3206923"
 ---
-# <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a><span data-ttu-id="1ea7a-103">Preparar um trabalho kanban de processo quando os materiais estão disponíveis para a célula de trabalho</span><span class="sxs-lookup"><span data-stu-id="1ea7a-103">Prepare a process kanban job when materials are available for the work cell</span></span>
+# <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a><span data-ttu-id="5c9fd-103">Preparar um trabalho kanban de processo quando os materiais estão disponíveis para a célula de trabalho</span><span class="sxs-lookup"><span data-stu-id="5c9fd-103">Prepare a process kanban job when materials are available for the work cell</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="1ea7a-104">Esta tarefa foca na preparação de um processo de trabalho kanban quanto todas materiais estão disponíveis para a célula de trabalho.</span><span class="sxs-lookup"><span data-stu-id="1ea7a-104">This task focuses on preparing a process kanban job when all materials are available for the work cell.</span></span> <span data-ttu-id="1ea7a-105">A empresa de dados demo usada para criar esta tarefa é USMF.</span><span class="sxs-lookup"><span data-stu-id="1ea7a-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="1ea7a-106">Essa tarefa é destinado ao operador da máquina.</span><span class="sxs-lookup"><span data-stu-id="1ea7a-106">This task is intended for the machine operator.</span></span>
+<span data-ttu-id="5c9fd-104">Esta tarefa foca na preparação de um processo de trabalho kanban quanto todas materiais estão disponíveis para a célula de trabalho.</span><span class="sxs-lookup"><span data-stu-id="5c9fd-104">This task focuses on preparing a process kanban job when all materials are available for the work cell.</span></span> <span data-ttu-id="5c9fd-105">A empresa de dados demo usada para criar esta tarefa é USMF.</span><span class="sxs-lookup"><span data-stu-id="5c9fd-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="5c9fd-106">Essa tarefa é destinado ao operador da máquina.</span><span class="sxs-lookup"><span data-stu-id="5c9fd-106">This task is intended for the machine operator.</span></span>
 
-1. <span data-ttu-id="1ea7a-107">Vá para o quadro kanban para processar trabalhos.</span><span class="sxs-lookup"><span data-stu-id="1ea7a-107">Go to Kanban board for process jobs.</span></span>
-2. <span data-ttu-id="1ea7a-108">No campo Célula de trabalho, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="1ea7a-108">In the Work cell field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="1ea7a-109">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="1ea7a-109">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="1ea7a-110">Selecione célula de trabalho 1250 e clique em OK.</span><span class="sxs-lookup"><span data-stu-id="1ea7a-110">Select work cell 1250 and click OK.</span></span>  
-4. <span data-ttu-id="1ea7a-111">Na lista, selecione a linha 4.</span><span class="sxs-lookup"><span data-stu-id="1ea7a-111">In the list, select row 4.</span></span>
-    * <span data-ttu-id="1ea7a-112">Na empresa que limpa a demonstração, o kanban 000329 na linha 4 é o primeiro trabalho que não está encerrado.</span><span class="sxs-lookup"><span data-stu-id="1ea7a-112">In the clean demo company, Kanban 000329 in row 4 is the first job that is not completed yet.</span></span>  
-5. <span data-ttu-id="1ea7a-113">Alternar a expansão da seção Lista de separação.</span><span class="sxs-lookup"><span data-stu-id="1ea7a-113">Toggle the expansion of the Picking list section.</span></span>
-    * <span data-ttu-id="1ea7a-114">Verifique se o status de fornecimento estão disponíveis para todos os itens da lista de separação.</span><span class="sxs-lookup"><span data-stu-id="1ea7a-114">Verify that the supply status is available for all items in the picking list.</span></span>  
-    * <span data-ttu-id="1ea7a-115">Se vários trabalhos são selecionados, a lista de separação mostrará a soma de todos os itens necessários para o trabalho selecionado.</span><span class="sxs-lookup"><span data-stu-id="1ea7a-115">If multiple jobs are selected, the picking list will show the sum of all items needed for the selected jobs.</span></span>  
-6. <span data-ttu-id="1ea7a-116">Clique em Preparar.</span><span class="sxs-lookup"><span data-stu-id="1ea7a-116">Click Prepare.</span></span>
-    * <span data-ttu-id="1ea7a-117">O processo de preparação é concluído agora.</span><span class="sxs-lookup"><span data-stu-id="1ea7a-117">The preparation process is now completed.</span></span> <span data-ttu-id="1ea7a-118">A caixa de seleção marcada para todas as linhas da lista de separação indica que o status da fonte será separado.</span><span class="sxs-lookup"><span data-stu-id="1ea7a-118">The selected check box for all rows in the picking list indicates that the supply status is picked.</span></span>  
+1. <span data-ttu-id="5c9fd-107">Vá para o quadro kanban para processar trabalhos.</span><span class="sxs-lookup"><span data-stu-id="5c9fd-107">Go to Kanban board for process jobs.</span></span>
+2. <span data-ttu-id="5c9fd-108">No campo Célula de trabalho, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="5c9fd-108">In the Work cell field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="5c9fd-109">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="5c9fd-109">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="5c9fd-110">Selecione célula de trabalho 1250 e clique em OK.</span><span class="sxs-lookup"><span data-stu-id="5c9fd-110">Select work cell 1250 and click OK.</span></span>  
+4. <span data-ttu-id="5c9fd-111">Na lista, selecione a linha 4.</span><span class="sxs-lookup"><span data-stu-id="5c9fd-111">In the list, select row 4.</span></span>
+    * <span data-ttu-id="5c9fd-112">Na empresa que limpa a demonstração, o kanban 000329 na linha 4 é o primeiro trabalho que não está encerrado.</span><span class="sxs-lookup"><span data-stu-id="5c9fd-112">In the clean demo company, Kanban 000329 in row 4 is the first job that is not completed yet.</span></span>  
+5. <span data-ttu-id="5c9fd-113">Alternar a expansão da seção Lista de separação.</span><span class="sxs-lookup"><span data-stu-id="5c9fd-113">Toggle the expansion of the Picking list section.</span></span>
+    * <span data-ttu-id="5c9fd-114">Verifique se o status de fornecimento estão disponíveis para todos os itens da lista de separação.</span><span class="sxs-lookup"><span data-stu-id="5c9fd-114">Verify that the supply status is available for all items in the picking list.</span></span>  
+    * <span data-ttu-id="5c9fd-115">Se vários trabalhos são selecionados, a lista de separação mostrará a soma de todos os itens necessários para o trabalho selecionado.</span><span class="sxs-lookup"><span data-stu-id="5c9fd-115">If multiple jobs are selected, the picking list will show the sum of all items needed for the selected jobs.</span></span>  
+6. <span data-ttu-id="5c9fd-116">Clique em Preparar.</span><span class="sxs-lookup"><span data-stu-id="5c9fd-116">Click Prepare.</span></span>
+    * <span data-ttu-id="5c9fd-117">O processo de preparação é concluído agora.</span><span class="sxs-lookup"><span data-stu-id="5c9fd-117">The preparation process is now completed.</span></span> <span data-ttu-id="5c9fd-118">A caixa de seleção marcada para todas as linhas da lista de separação indica que o status da fonte será separado.</span><span class="sxs-lookup"><span data-stu-id="5c9fd-118">The selected check box for all rows in the picking list indicates that the supply status is picked.</span></span>  
 

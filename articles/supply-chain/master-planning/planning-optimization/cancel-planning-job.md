@@ -2,7 +2,7 @@
 title: Cancelar um trabalho de planejamento
 description: Este tópico explica como cancelar um trabalho de planejamento ativo que usa a funcionalidade de otimização do planejamento.
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,45 +19,45 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 18c5c7b8030fc6adbc548dab750e4f454aebc867
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: b731aa4573b438e594ede702e6556c1be2daa549
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076333"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3213460"
 ---
-# <a name="cancel-a-planning-job"></a><span data-ttu-id="9d963-103">Cancelar um trabalho de planejamento</span><span class="sxs-lookup"><span data-stu-id="9d963-103">Cancel a planning job</span></span>
+# <a name="cancel-a-planning-job"></a><span data-ttu-id="20451-103">Cancelar um trabalho de planejamento</span><span class="sxs-lookup"><span data-stu-id="20451-103">Cancel a planning job</span></span>
 
 [!include [banner](../../includes/banner.md)]
 [!include [banner](../../includes/preview-banner.md)]
 
-<span data-ttu-id="9d963-104">No Microsoft Dynamics 365 Supply Chain Management, você cancela um trabalho de planejamento ativo que usa a funcionalidade de otimização do planejamento.</span><span class="sxs-lookup"><span data-stu-id="9d963-104">In Microsoft Dynamics 365 Supply Chain Management, you can cancel an active planning job that uses the Planning optimization functionality.</span></span> <span data-ttu-id="9d963-105">Ao selecionar **Cancelar** na caixa de diálogo quando um trabalho de otimização de planejamento é acionado diretamente da interface do usuário (não em segundo plano), isso não cancelará o trabalho de otimização de planejamento.</span><span class="sxs-lookup"><span data-stu-id="9d963-105">When you select **Cancel** in the dialog box when a Planning optimization job is triggered directly from the user interface (not in the background), this will not cancel the Planning optimization job.</span></span> <span data-ttu-id="9d963-106">Mesmo se você receber um aviso como “Operação cancelada”, ainda será necessário seguir as etapas abaixo para cancelar um trabalho de planejamento com a otimização de planejamento.</span><span class="sxs-lookup"><span data-stu-id="9d963-106">Even if you receive a warning such as “Operation canceled”, you will still need to use the following steps to cancel a planning job with Planning optimization.</span></span>
+<span data-ttu-id="20451-104">No Microsoft Dynamics 365 Supply Chain Management, você cancela um trabalho de planejamento ativo que usa a funcionalidade de otimização do planejamento.</span><span class="sxs-lookup"><span data-stu-id="20451-104">In Microsoft Dynamics 365 Supply Chain Management, you can cancel an active planning job that uses the Planning optimization functionality.</span></span> <span data-ttu-id="20451-105">Ao selecionar **Cancelar** na caixa de diálogo quando um trabalho de otimização de planejamento é acionado diretamente da interface do usuário (não em segundo plano), isso não cancelará o trabalho de otimização de planejamento.</span><span class="sxs-lookup"><span data-stu-id="20451-105">When you select **Cancel** in the dialog box when a Planning optimization job is triggered directly from the user interface (not in the background), this will not cancel the Planning optimization job.</span></span> <span data-ttu-id="20451-106">Mesmo se você receber um aviso como “Operação cancelada”, ainda será necessário seguir as etapas abaixo para cancelar um trabalho de planejamento com a otimização de planejamento.</span><span class="sxs-lookup"><span data-stu-id="20451-106">Even if you receive a warning such as “Operation canceled”, you will still need to use the following steps to cancel a planning job with Planning optimization.</span></span>
 
 
-<span data-ttu-id="9d963-107">Para cancelar um trabalho de planejamento ativo, siga estas etapas.</span><span class="sxs-lookup"><span data-stu-id="9d963-107">To cancel an active planning job, follow these steps.</span></span> 
-
-> [!NOTE]
-> <span data-ttu-id="9d963-108">Somente é possível cancelar trabalhos ativos.</span><span class="sxs-lookup"><span data-stu-id="9d963-108">Only active jobs can be canceled.</span></span>
-
-1. <span data-ttu-id="9d963-109">Vá para **Planejamento mestre \> Configuração \> Planos**.</span><span class="sxs-lookup"><span data-stu-id="9d963-109">Go to **Master planning \> Setup \> Plans**.</span></span>
-2. <span data-ttu-id="9d963-110">Selecione um plano apropriado para a execução do planejamento.</span><span class="sxs-lookup"><span data-stu-id="9d963-110">Select an appropriate plan for the planning run.</span></span>
-3. <span data-ttu-id="9d963-111">Selecione **Histórico**.</span><span class="sxs-lookup"><span data-stu-id="9d963-111">Select **History**.</span></span>
-4. <span data-ttu-id="9d963-112">Selecione o trabalho de planejamento a ser cancelado.</span><span class="sxs-lookup"><span data-stu-id="9d963-112">Select the planning job to cancel.</span></span>
-5. <span data-ttu-id="9d963-113">Selecione **Cancelar**.</span><span class="sxs-lookup"><span data-stu-id="9d963-113">Select **Cancel**.</span></span>
-
-<span data-ttu-id="9d963-114">O status do trabalho será **Cancelando** até o serviço de otimização do planejamento confirmar que o trabalho foi cancelado.</span><span class="sxs-lookup"><span data-stu-id="9d963-114">The job status will be **Canceling** until the Planning Optimization service confirms that the job has been canceled.</span></span> <span data-ttu-id="9d963-115">O status mudará para **Cancelado**.</span><span class="sxs-lookup"><span data-stu-id="9d963-115">The status will then be changed to **Canceled**.</span></span>
+<span data-ttu-id="20451-107">Para cancelar um trabalho de planejamento ativo, siga estas etapas.</span><span class="sxs-lookup"><span data-stu-id="20451-107">To cancel an active planning job, follow these steps.</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="9d963-116">Para ver as alterações de status, atualize a página selecionando o botão **Atualizar**.</span><span class="sxs-lookup"><span data-stu-id="9d963-116">To see status changes, you must refresh the page by selecting the **Refresh** button.</span></span>
+> <span data-ttu-id="20451-108">Somente é possível cancelar trabalhos ativos.</span><span class="sxs-lookup"><span data-stu-id="20451-108">Only active jobs can be canceled.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="9d963-117">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="9d963-117">Additional resources</span></span>
+1. <span data-ttu-id="20451-109">Vá para **Planejamento mestre \> Configuração \> Planos**.</span><span class="sxs-lookup"><span data-stu-id="20451-109">Go to **Master planning \> Setup \> Plans**.</span></span>
+2. <span data-ttu-id="20451-110">Selecione um plano apropriado para a execução do planejamento.</span><span class="sxs-lookup"><span data-stu-id="20451-110">Select an appropriate plan for the planning run.</span></span>
+3. <span data-ttu-id="20451-111">Selecione **Histórico**.</span><span class="sxs-lookup"><span data-stu-id="20451-111">Select **History**.</span></span>
+4. <span data-ttu-id="20451-112">Selecione o trabalho de planejamento a ser cancelado.</span><span class="sxs-lookup"><span data-stu-id="20451-112">Select the planning job to cancel.</span></span>
+5. <span data-ttu-id="20451-113">Selecione **Cancelar**.</span><span class="sxs-lookup"><span data-stu-id="20451-113">Select **Cancel**.</span></span>
 
-[<span data-ttu-id="9d963-118">Visão geral de Otimização do Planejamento</span><span class="sxs-lookup"><span data-stu-id="9d963-118">Planning Optimization overview</span></span>](planning-optimization-overview.md)
+<span data-ttu-id="20451-114">O status do trabalho será **Cancelando** até o serviço de otimização do planejamento confirmar que o trabalho foi cancelado.</span><span class="sxs-lookup"><span data-stu-id="20451-114">The job status will be **Canceling** until the Planning Optimization service confirms that the job has been canceled.</span></span> <span data-ttu-id="20451-115">O status mudará para **Cancelado**.</span><span class="sxs-lookup"><span data-stu-id="20451-115">The status will then be changed to **Canceled**.</span></span>
 
-[<span data-ttu-id="9d963-119">Introdução à Otimização de Planejamento</span><span class="sxs-lookup"><span data-stu-id="9d963-119">Get started with Planning Optimization</span></span>](get-started.md)
+> [!NOTE]
+> <span data-ttu-id="20451-116">Para ver as alterações de status, atualize a página selecionando o botão **Atualizar**.</span><span class="sxs-lookup"><span data-stu-id="20451-116">To see status changes, you must refresh the page by selecting the **Refresh** button.</span></span>
 
-[<span data-ttu-id="9d963-120">Análise de ajuste da Otimização de Planejamento</span><span class="sxs-lookup"><span data-stu-id="9d963-120">Planning Optimization fit analysis</span></span>](planning-optimization-fit-analysis.md)
+## <a name="additional-resources"></a><span data-ttu-id="20451-117">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="20451-117">Additional resources</span></span>
 
-[<span data-ttu-id="9d963-121">Exibir logs de histórico de plano e de planejamento</span><span class="sxs-lookup"><span data-stu-id="9d963-121">View plan history and planning logs</span></span>](plan-history-logs.md)
+[<span data-ttu-id="20451-118">Visão geral de Otimização do Planejamento</span><span class="sxs-lookup"><span data-stu-id="20451-118">Planning Optimization overview</span></span>](planning-optimization-overview.md)
 
-[<span data-ttu-id="9d963-122">Aplicar filtros a um plano</span><span class="sxs-lookup"><span data-stu-id="9d963-122">Apply filters to a plan</span></span>](plan-filters.md)
+[<span data-ttu-id="20451-119">Introdução à Otimização de Planejamento</span><span class="sxs-lookup"><span data-stu-id="20451-119">Get started with Planning Optimization</span></span>](get-started.md)
+
+[<span data-ttu-id="20451-120">Análise de ajuste da Otimização de Planejamento</span><span class="sxs-lookup"><span data-stu-id="20451-120">Planning Optimization fit analysis</span></span>](planning-optimization-fit-analysis.md)
+
+[<span data-ttu-id="20451-121">Exibir logs de histórico de plano e de planejamento</span><span class="sxs-lookup"><span data-stu-id="20451-121">View plan history and planning logs</span></span>](plan-history-logs.md)
+
+[<span data-ttu-id="20451-122">Aplicar filtros a um plano</span><span class="sxs-lookup"><span data-stu-id="20451-122">Apply filters to a plan</span></span>](plan-filters.md)
