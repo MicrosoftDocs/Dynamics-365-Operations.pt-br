@@ -3,7 +3,7 @@ title: Módulo de caixa de compra
 description: Este tópico abrange os módulos de caixa de compra e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 03/19/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3417156cbf3cb20a5190e5e51b61b3423816895a
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 35b7027e0f0b680dd82ebfcea754fef1617c0163
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154054"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261389"
 ---
 # <a name="buy-box-module"></a>Módulo de caixa de compra
 
@@ -46,7 +46,7 @@ Na página de detalhes do produto, uma caixa de compra é dividida em duas regi�
 Um módulo de caixa de compra renderiza o título, a descrição, o preço e as classificações de um produto. Ele também permite que os clientes selecionem grades de produtos que têm atributos de produto diferentes, como tamanho, estilo e cor. Quando uma variante de produto é selecionada, outras propriedades na caixa de compra (por exemplo, a descrição e as imagens do produto) são atualizadas para refletir as informações da variante. 
 
 Um seletor de quantidade é fornecido para que os clientes possam especificar a quantidade de itens a comprar. A quantidade máxima que pode ser comprada pode ser definida nas configurações do site.
- 
+
 Na caixa comprar, os clientes também podem executar ações como adicionar um produto ao carrinho, adicionar um produto à sua lista de desejos e selecionar um local de retirada. Essas ações podem ser executadas em um produto ou em uma grade de produto. Para adicionar um produto a uma lista de desejos, o cliente deve estar conectado.
 
 Os temas podem ser usados para remover ou alterar a ordem das propriedades do produto da caixa de compra e os controles de ação. 
@@ -65,7 +65,8 @@ Os temas podem ser usados para remover ou alterar a ordem das propriedades do pr
 Os módulos de caixa de compra têm três configurações que podem ser definidas em **Configurações de Site \> Extensões**:
 
 - **Quantidade máxima** – Esta propriedade é usada para especificar o número máximo de cada item que pode ser adicionado ao carrinho. Por exemplo, um varejista pode decidir que apenas 10 de cada produto podem ser vendidos em uma única transação.
-- **Verificação de estoque** – Quando o valor é definido como **Verdadeiro**, um item é adicionado ao carrinho somente após o módulo da caixa de compra garantir que ele esteja em estoque. Essa verificação de estoque é feita tanto para os cenários em que o item será enviado como para os cenários em que ele será retirado na loja. Se o valor estiver definido como **Falso**, nenhuma verificação de estoque será feita antes que um item seja adicionado ao carrinho e a ordem seja feita.
+- **Verificação de estoque** – Quando o valor é definido como **Verdadeiro**, um item é adicionado ao carrinho somente após o módulo da caixa de compra garantir que ele esteja em estoque. Essa verificação de estoque é feita tanto para os cenários em que o item será enviado como para os cenários em que ele será retirado na loja. Se o valor estiver definido como **Falso**, nenhuma verificação de estoque será feita antes que um item seja adicionado ao carrinho e a ordem seja feita. Para obter informações sobre como definir as configurações de estoque no back office, consulte [Calcular a disponibilidade de estoque para canais de varejo](calculated-inventory-retail-channels.md).
+
 - **Buffer de estoque** – Esta propriedade é usada para especificar um número de buffer para o estoque. O estoque é mantido em tempo real e, quando muitos clientes fazem pedidos, pode ser difícil manter uma contagem precisa do estoque. Quando uma verificação de estoque é feita, se o estoque for menor que a quantidade do buffer, o produto é tratado como esgotado no estoque. Sendo assim, quando as vendas ocorrem rapidamente por meio de vários canais, e a contagem do estoque não está totalmente sincronizada, há menos risco de que um item esgotado no estoque seja vendido.
 
 ## <a name="commerce-scale-unit-interaction"></a>Interação do Commerce Scale Unit
@@ -93,11 +94,13 @@ Para adicionar um módulo de caixa de compra a uma nova página e definir as pro
 
 [Visão geral do kit de início](starter-kit-overview.md)
 
-[Módulo seletor de armazenamento](store-selector.md)
+[Módulo de seletor de loja](store-selector.md)
 
 [Módulo de contêiner](add-container-module.md)
 
 [Módulo de carrinho](add-cart-module.md)
+
+[Módulo de ícone de carrinho](cart-icon-module.md)
 
 [Módulo de finalização da compra](add-checkout-module.md)
 
@@ -106,3 +109,5 @@ Para adicionar um módulo de caixa de compra a uma nova página e definir as pro
 [Módulo de cabeçalho](author-header-module.md)
 
 [Módulo de rodapé](author-footer-module.md)
+
+[Calcular disponibilidade de estoque para canais de varejo](calculated-inventory-retail-channels.md)

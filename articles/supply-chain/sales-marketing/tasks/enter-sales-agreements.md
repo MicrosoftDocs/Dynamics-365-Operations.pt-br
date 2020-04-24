@@ -2,7 +2,7 @@
 title: Inserir contratos de venda
 description: Este tópico explica como criar um contrato de venda que compromete um de seus clientes a comprar um produto, com um valor acordado durante um período, em troca de descontos especiais.
 author: omulvad
-manager: AnnBe
+manager: tfehr
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesAgreementListPage, SalesAgreementCreate, SalesAgreement, InventItemIdLookupSimple, AgreementConfirmRunForm, SrsReportViewerForm
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 06d251992c7facca471ac893e5a0fee333e0cbed
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 723621f61a237d4b390271e65bce204c44ee4fc2
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3148644"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204323"
 ---
 # <a name="enter-sales-agreements"></a>Inserir contratos de venda
 

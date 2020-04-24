@@ -3,7 +3,7 @@ title: Criar um plano de benefícios
 description: Configure planos de benefícios no Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 97c3acf1294b7a8c2496f23a32918152f50a9e5e
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 6e3822a1071023898e459a82c14ff648d8cdebed
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008106"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230099"
 ---
 # <a name="create-a-benefits-plan"></a>Criar um plano de benefícios
-
-[!include [banner](includes/preview-feature.md)]
 
 Este artigo mostra como configurar planos de benefícios no Dynamics 365 Human Resources.
 
@@ -39,16 +37,16 @@ Este artigo mostra como configurar planos de benefícios no Dynamics 365 Human R
 
    | Campo | Descrição |
    | --- | --- |
-   | Plano | Um identificador exclusivo do plano. |
-   | Descrição | Uma descrição do plano. |
-   | Tipo de plano | Ao criar um plano, você precisa especificar o tipo de plano. Um tipo de plano é um agrupamento de alto nível de tipos específicos de benefícios. Cada tipo de plano especifica se um funcionário pode se inscrever em vários planos desse tipo, especifica se os contatos são beneficiários ou dependentes e define opções de cobertura. É possível criar tipos de planos personalizados para atender às necessidades de suas ofertas de benefícios. Os principais tipos de plano de benefícios são: <ul><li>401K</li><li>Morte ou invalidez por acidente</li><li>Odontológico</li><li>Bem-estar</li><li>FSA</li><li>Vida</li><li>Incapacidade duradoura</li><li>Médico</li><li>Folga remunerada</li><li>Incapacidade temporária</li><li>Oftalmológico</li></ul> |
-   | Código do tipo de plano | O código do tipo de plano do tipo de plano. |
-   | Programa | Especifica um programa ao qual atribuir opcionalmente o plano. |
-   | Pacote | Especifica um pacote ao qual atribuir opcionalmente o plano. |
-   | Mestre | Especifica se o plano é o plano mestre no pacote ao qual está atribuído. |
-   | Status | Indica o status atual do plano de benefícios. O valor padrão é Ativo. Se você alterar o status para Inativo, o plano não estará disponível como uma seleção durante a inscrição. |
-   | Válido a partir da data e hora | A data e a hora em que o plano tem início. O valor padrão é a data atual do sistema. |
-   | Válido até a data e hora | A data e a hora em que o plano termina (o status é definido como Inativo). O valor padrão é 12/31/2154, o que significa nunca. |
+   | **Plano** | Um identificador exclusivo do plano. |
+   | **Descrição** | Uma descrição do plano. |
+   | **Tipo de plano** | Ao criar um plano, você precisa especificar o tipo de plano. Um tipo de plano é um agrupamento de alto nível de tipos específicos de benefícios. Cada tipo de plano especifica se um funcionário pode se inscrever em vários planos desse tipo, especifica se os contatos são beneficiários ou dependentes e define opções de cobertura. É possível criar tipos de planos personalizados para atender às necessidades de suas ofertas de benefícios. Os principais tipos de plano de benefícios são: <ul><li>401K</li><li>Morte ou invalidez por acidente</li><li>Odontológico</li><li>Bem-estar</li><li>FSA</li><li>Vida</li><li>Incapacidade duradoura</li><li>Médico</li><li>Folga remunerada</li><li>Incapacidade temporária</li><li>Oftalmológico</li></ul> |
+   | **Código do tipo de plano** | O código do tipo de plano do tipo de plano. |
+   | **Programa** | Especifica um programa ao qual atribuir opcionalmente o plano. |
+   | **Pacote** | Especifica um pacote ao qual atribuir opcionalmente o plano. |
+   | **Mestre** | Especifica se o plano é o plano mestre no pacote ao qual está atribuído. |
+   | **Status** | Indica o status atual do plano de benefícios. O valor padrão é Ativo. Se você alterar o status para Inativo, o plano não estará disponível como uma seleção durante a inscrição. |
+   | **Válido a partir da data e hora** | A data e a hora em que o plano tem início. O valor padrão é a data atual do sistema. |
+   | **Válido até a data e hora** | A data e a hora em que o plano termina (o status é definido como Inativo). O valor padrão é 12/31/2154, o que significa nunca. |
 
 4. Na guia **Configuração**, especifique valores para os seguintes campos, dependendo do tipo de plano que você está criando:
 
@@ -77,42 +75,42 @@ Este artigo mostra como configurar planos de benefícios no Dynamics 365 Human R
 
    | Campo | Descrição |
    | --- | --- |
-   | Permitir/continuar inscrição | Especifica se os funcionários podem se inscrever no plano se atenderem aos requisitos de qualificação.</br></br>Se estiver definido como Não, o plano não estará disponível para os funcionários quando você processar a qualificação. |
-   | Inscrição automática do ano anterior | Especifica se um funcionário qualificado deve ser inscrito automaticamente no plano se ele estava inscrito no ano anterior. |
-   | Inscrição automática por padrão | Especifica se o plano de inscrição deve ser selecionado por padrão. Como o plano não é obrigatório, o funcionário pode alterar a seleção padrão. |
-   | Fechado para novas inscrições | Especifica se o plano deve ser restringido apenas aos funcionários qualificados inscritos no plano no ano anterior. |
-   | Plano obrigatório | Especifica se os funcionários devem ser inscritos automaticamente no plano. Os funcionários não podem alterar a seleção de inscrição. |
-   | Data de início | A data em que o plano foi criado na empresa. |
-   | Conta do fornecedor (fornecedor de benefícios) | O fornecedor ao qual a empresa paga prêmios pelo plano. |
-   | Nome (fornecedor de benefícios) | O nome do fornecedor. |
-   | Referência do fornecedor (fornecedor de benefícios) | A referência do fornecedor para o plano. Por exemplo, o número do plano de grupo da empresa. |
-   | Referência alternativa (fornecedor de benefícios) | A referência alternativa do fornecedor para o plano. Por exemplo, o número da conta da empresa. |
-   | Moeda (fornecedor de benefícios) | A moeda usada para pagar prêmios ao fornecedor. |
-   | Conta de despesa (fornecedor de benefícios) | A conta contábil que é usada como conta de despesa para os prêmios do plano. |
-   | Conta do fornecedor (administrador de benefícios) | O fornecedor que a empresa paga para administrar o plano. Se o plano for autoadministrado, deixe esse campo em branco. |
-   | Nome (administrador de benefícios) | O nome do fornecedor do administrador de benefícios. |
-   | Referência de fornecedor (administrador de benefícios) | A referência do fornecedor do administrador para o plano. |
-   | Referência alternativa (administrador de benefícios) | A referência alternativa do fornecedor do administrador para o plano. |
-   | Moeda (administrador de benefícios) | A moeda usada para pagar o administrador de benefícios. |
-   | Conta de despesa (administrador de benefícios) | A conta contábil que é usada como conta de despesa para os custos associados à administração do plano. |
+   | **Permitir/continuar inscrição** | Especifica se os funcionários podem se inscrever no plano se atenderem aos requisitos de qualificação.</br></br>Se estiver definido como Não, o plano não estará disponível para os funcionários quando você processar a qualificação. |
+   | **Inscrição automática do ano anterior** | Especifica se um funcionário qualificado deve ser inscrito automaticamente no plano se ele estava inscrito no ano anterior. |
+   | **Inscrição automática por padrão** | Especifica se o plano de inscrição deve ser selecionado por padrão. Como o plano não é obrigatório, o funcionário pode alterar a seleção padrão. |
+   | **Fechado para novas inscrições** | Especifica se o plano deve ser restringido apenas aos funcionários qualificados inscritos no plano no ano anterior. |
+   | **Plano obrigatório** | Especifica se os funcionários devem ser inscritos automaticamente no plano. Os funcionários não podem alterar a seleção de inscrição. |
+   | **Data de início** | A data em que o plano foi criado na empresa. |
+   | **Conta do fornecedor** (fornecedor de benefícios) | O fornecedor ao qual a empresa paga prêmios pelo plano. |
+   | **Nome** (fornecedor de benefícios) | O nome do fornecedor. |
+   | **Referência do fornecedor** (fornecedor de benefícios) | A referência do fornecedor para o plano. Por exemplo, o número do plano de grupo da empresa. |
+   | **Referência alternativa** (fornecedor de benefícios) | A referência alternativa do fornecedor para o plano. Por exemplo, o número da conta da empresa. |
+   | **Moeda** (fornecedor de benefícios) | A moeda usada para pagar prêmios ao fornecedor. |
+   | **Conta de despesa** (fornecedor de benefícios) | A conta contábil que é usada como conta de despesa para os prêmios do plano. |
+   | **Conta do fornecedor** (administrador de benefícios) | O fornecedor que a empresa paga para administrar o plano. Se o plano for autoadministrado, deixe esse campo em branco. |
+   | **Nome** (administrador de benefícios) | O nome do fornecedor do administrador de benefícios. |
+   | **Referência de fornecedor** (administrador de benefícios) | A referência do fornecedor do administrador para o plano. |
+   | **Referência alternativa** (administrador de benefícios) | A referência alternativa do fornecedor do administrador para o plano. |
+   | **Moeda** (administrador de benefícios) | A moeda usada para pagar o administrador de benefícios. |
+   | **Conta de despesa** (administrador de benefícios) | A conta contábil que é usada como conta de despesa para os custos associados à administração do plano. |
 
 6. Na guia **Filtros**, filtre conforme necessário. Você pode filtrar pelos seguintes campos:
 
-   - Unidade de negócios
-   - Departamento
-   - Pessoa jurídica em geral
-   - Local
-   - Cargo
+   - **Unidade de negócios**
+   - **Departamento**
+   - **Pessoa jurídica em geral**
+   - **Local**
+   - **Cargo**
 
 7. Na guia **Regras de qualificação**, especifique valores para os seguintes campos:
 
    | Campo | Descrição |
    | --- | --- |
-   | Número da linha | O número de linha da regra de qualificação. |
-   | Regra de qualificação | Uma regra de qualificação a ser aplicada ao plano de benefícios. Essa regra de qualificação será aplicada ao tipo de ação correspondente e associada ao período de espera da cobertura especificado e deduções. |
-   | Tipo de ação | A ação para aplicar a regra de qualificação a: inscrição de benefícios ou expiração de benefícios. |
-   | Período de espera da cobertura | Um valor do formulário Períodos de espera. O período de espera da cobertura determina o número de dias ou meses em que um funcionário aguarda a cobertura ou vencimento do benefício, com base nos critérios da regra de qualificação e do tipo de ação. |
-   | Período de espera da dedução | Um valor do formulário Períodos de espera. O período de espera da dedução determina o número de dias ou meses em que um funcionário aguarda deduções de benefícios de seu salário com base nos critérios da regra de qualificação e do tipo de ação. |
+   | **Número da linha** | O número de linha da regra de qualificação. |
+   | **Regra de qualificação** | Uma regra de qualificação a ser aplicada ao plano de benefícios. Essa regra de qualificação será aplicada ao tipo de ação correspondente e associada ao período de espera da cobertura especificado e deduções. |
+   | **Tipo de ação** | A ação para aplicar a regra de qualificação a: inscrição de benefícios ou expiração de benefícios. |
+   | **Período de espera da cobertura** | Um valor do formulário Períodos de espera. O período de espera da cobertura determina o número de dias ou meses em que um funcionário aguarda a cobertura ou vencimento do benefício, com base nos critérios da regra de qualificação e do tipo de ação. |
+   | **Período de espera da dedução** | Um valor do formulário Períodos de espera. O período de espera da dedução determina o número de dias ou meses em que um funcionário aguarda deduções de benefícios de seu salário com base nos critérios da regra de qualificação e do tipo de ação. |
 
 8. Selecione **Salvar**.
 

@@ -2,7 +2,7 @@
 title: Trabalhos de produção sequencial para manufatura de processos
 description: Este procedimento usa produtos de pintura como um exemplo para mostrar como sequenciar ordens planejadas de acordo com a prioridade de cor e de tamanho de pacote.
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransPo, PMFSeqReqRouteChangesListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 872b9733e18945ca2ff047820afd122025575601
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 422f05c6edcc8856192ba944c97c551eaba8a7c3
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3148776"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3210401"
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a>Trabalhos de produção sequencial para manufatura de processos
 

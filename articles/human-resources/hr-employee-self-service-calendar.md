@@ -3,7 +3,7 @@ title: Criar um calendário de equipe
 description: Exibir e criar calendários de equipe no Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,26 +18,32 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 22350e0a9da593d52278090dde298923d490cb8c
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 71637a659b26ea6912da993f1e899e33f7082512
+ms.sourcegitcommit: 9940ca772807d3c4e1ff3bf47f45b7251c4469ac
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008083"
+ms.lasthandoff: 04/04/2020
+ms.locfileid: "3226198"
 ---
 # <a name="view-team-and-company-calendars"></a>Exibir calendários da equipe e da empresa
 
 [!include [banner](includes/preview-feature.md)]
 
-Você pode exibir calendários da equipe e da empresa no Dynamics 365 Human Resources.
+Você pode exibir calendários da equipe e da empresa no Dynamics 365 Human Resources. Os calendários de equipe só exibem os relatórios diretos, conforme definido na hierarquia de linhas.
 
-## <a name="view-your-team-calendar"></a>Exibir seu calendário de equipe
-
-Os gerentes podem exibir calendários de equipe. Os calendários de equipe só exibem os relatórios diretos, conforme definido na hierarquia de linhas.
+## <a name="view-your-team-calendar-as-an-employee"></a>Exibir o calendário da equipe como um funcionário
 
 1. No espaço de trabalho **Autoatendimento para funcionários**, selecione **Minha equipe**.
 
 2. Selecione **Licença e ausência** e **Exibir calendário da equipe**.
+
+## <a name="view-your-team-calendar-as-a-manager"></a>Exibir o calendário da equipe como um gerente
+
+1. No espaço de trabalho **Autoatendimento para funcionários**, selecione **Minha equipe**.
+
+2. Selecione **Licença e ausência** e **Exibir calendário da equipe**.
+
+Os gerentes também podem acessar o calendário da equipe de **Solicitações de licença pendentes de minha equipe**, **Licença aprovada** e **Solicitações de licença**. 
 
 ## <a name="view-a-company-calendar"></a>Exibir um calendário da empresa
 
@@ -47,5 +53,7 @@ As pessoas que estão nas funções de recursos humanos podem exibir calendário
 
 2. Selecione **Calendário de licenças e ausências**.
 
-Para obter informações sobre configurações de calendário, consulte [Configurar parâmetros de calendário](hr-leave-and-absence-parameters.md?configure-calendar-parameters)
+As funções de recursos humanos também podem acessar o calendário da empresa em **Solicitações de licença e ausência**, **Licença aprovada** e **Solicitações de licença**. 
+
+Para obter informações sobre configurações de calendário, consulte [Configurar parâmetros de calendário](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 

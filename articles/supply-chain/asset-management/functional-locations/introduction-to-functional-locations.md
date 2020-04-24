@@ -2,7 +2,7 @@
 title: Introdução a locais funcionais
 description: Este tópico oferece uma visão geral de locais funcionais em Gerenciamento de Ativos.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 577c888393163bdb7e445e436c336f20381cc78f
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 6d0eca00e8c692e722a0b4276896966b7eef7cd2
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572143"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205359"
 ---
 # <a name="introduction-to-functional-locations"></a>Introdução a locais funcionais
 
@@ -60,7 +60,7 @@ Depois de criar uma hierarquia de locais funcionais, a próxima etapa será inst
 
 ## <a name="all-functional-locations"></a>Todos os locais funcionais
 
-Selecione **Gerenciamento de ativos** \> **Comum** \> **Locais funcionais** \> **Todos os locais funcionais** para abrir a página de lista **Todos os locais funcionais**. Esta página mostra todos os locais funcionais e algumas das informações relacionadas a cada um. Para exibir apenas locais funcionais ativos, selecione **Locais funcionais ativos**. Para exibir somente os locais funcionais aos quais você está relacionado como um trabalhador, selecione **Meus locais funcionais ativos**. (Essa relação é configurada na página **Trabalhadores**. Para obter mais informações, consulte [Trabalhadores de manutenção e grupos de trabalhadores](../setup-for-objects/workers-and-worker-groups.md)).
+Selecione **Gerenciamento de ativos** \> **Comum** \> **Locais funcionais** \> **Todos os locais funcionais** para abrir a página de lista **Todos os locais funcionais**. Esta página mostra todos os locais funcionais e algumas das informações relacionadas a cada um. Para exibir apenas locais funcionais ativos, selecione **Locais funcionais ativos**. Para exibir somente os locais funcionais aos quais você está relacionado como um trabalhador, selecione **Meus locais funcionais ativos**. (Essa relação é configurada na página **Trabalhadores**. Para obter mais informações, consulte [Trabalhadores de manutenção e grupos de trabalhadores](../setup-for-objects/workers-and-worker-groups.md).)
 
 Na página de lista **Todos os locais funcionais**, selecione um link na coluna **Local funcional** para exibir os detalhes do registro selecionado. Para editar o local funcional, selecione o botão **Editar**. A exibição de detalhes mostra informações detalhadas relacionadas ao local. Ela também incluem um painel **Informações relacionadas** à direita. Esse painel mostra a hierarquia de locais funcionais. Você pode expandir e recolher o painel **Informações relacionadas**.
 
