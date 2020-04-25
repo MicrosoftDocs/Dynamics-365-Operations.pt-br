@@ -2,7 +2,7 @@
 title: Importar catálogos do fornecedor
 description: Este tópico descreve o processo para importar dados do catálogo do fornecedor.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 03/20/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 9f85b1d1f0b1c2378dd3f278640d984c31923c35
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 35b8e2a87708c88b12c5c7605a7977712a35a0f4
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2017865"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207361"
 ---
 # <a name="import-vendor-catalogs"></a>Importar catálogos do fornecedor
 [!include[banner](../includes/banner.md)]
@@ -35,17 +35,16 @@ No Dynamics 365 Supply Chain Management, os profissionais de compra podem criar 
 Você pode carregar os dados do catálogo enviados por um fornecedor do cliente do Microsoft Dynamics 365.
 
 Os dados do produto que um fornecedor envia para você, na forma de um arquivo de solicitação de manutenção de catálogo (CMR), devem estar no formato de arquivo XML. O arquivo CMR deve conter todos os detalhes dos produtos que o fornecedor abastece na sua empresa.
-
+''''
 ## <a name="import-vendor-catalog-data"></a>Importar dados do catálogo do fornecedor
-
-Para importar os dados do catálogo do fornecedor, conclua as seguintes tarefas:
+"Para importar os dados do catálogo do fornecedor, conclua as seguintes tarefas:
 
 1.  Configure um projeto no espaço de trabalho de Gerenciamento de dados em que você definiu as regras de mapeamento de dados. Selecione **Gerenciamento de dados** e selecione **Configurar funções para projetos de dados**. 
-
+    ''
 2.  Configure uma hierarquia de categorias de compras e atribua seus fornecedores às categorias de compras. Se você usar códigos de mercadoria, adicione os códigos de mercadoria às categorias de compras. Para obter informações sobre como configurar uma hierarquia de categorias de compras, consulte [Configurar uma hierarquia de categorias de compras](../procurement/tasks/set-up-procurement-category-hierarchy.md).
-
+    ''
 3.  Configurar o fornecedor para importação de catálogo. Selecione um fornecedor e então selecione **Compras** > **Configurar** > **Configurar o fornecedor para importação de catálogo**.
-
+''''
 4.  Configure o fluxo de trabalho para importação de catálogo. Crie um modelo do arquivo CMR e compartilhe isso com o fornecedor.
 
 5.  Selecione **Compras e fornecimento** \> **Comum** \> **Catálogo** \> **Catálogos do fornecedor** para criar um catálogo do fornecedor. Os arquivos de solicitação de manutenção de catálogo (CMR) recebidos do fornecedor são agrupados nesse catálogo. 

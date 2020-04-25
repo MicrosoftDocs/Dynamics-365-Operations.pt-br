@@ -2,7 +2,7 @@
 title: Preencher contratos de serviço – visão geral
 description: Esse tópico fornece uma visão geral das tarefas para preencher contratos de serviço.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/03/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d37ba306ae972158fb2cea27579d8f204d33010
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8e5aaefc6fed6ffe8a2691c89c7ee4d8732d6d30
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553383"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3202344"
 ---
 # <a name="fulfill-service-agreements-overview"></a>Preencher contratos de serviço – visão geral 
 

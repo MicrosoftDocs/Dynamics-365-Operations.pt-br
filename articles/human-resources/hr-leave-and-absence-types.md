@@ -3,7 +3,7 @@ title: Configurar tipos de licença e ausência
 description: Configurar tipos de licença que os funcionários podem executar no Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1748ec2a888a50af9b9260720dfd439adc4686f9
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: df6e34fe6a23e6f0a8307a035752a35a15a3431c
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008130"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3198041"
 ---
 # <a name="configure-leave-and-absence-types"></a>Configurar tipos de licença e ausência
 
@@ -58,17 +58,21 @@ Os tipos de licenças no Dynamics 365 Human Resources definem os tipos de ausên
 
 9. Selecione **Salvar**.
 
-## <a name="configure-preview-features"></a>Configure recursos de visualização
-
-Se tiver habilitado recursos de visualização para licença e ausência, você também precisará definir configurações para eles.
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
+## <a name="configure-leave-type-rules"></a>Configurar regras de tipo de licença
 
 1. Defina as opções de arredondamento para o tipo de licença. As opções incluem **Nenhum**, **Para cima**, **Para baixo** e **Mais próximo**. Você também pode definir a precisão de arredondamento para o tipo de licença.
 
 2. Defina a **Correção de feriado** para o tipo de licença. Quando você seleciona esta opção, o Human Resources usa o número de feriados que caem em um dia útil para determinar como acumular folgas para o tipo de licença. Por exemplo, se o dia de Natal cair na segunda-feira, o Human Resources subtrairá um dia do tipo de licença ao processar competências.
 
    Você pode definir feriados no calendário de horário de trabalho. Para obter mais informações, consulte [Criar um calendário de horário de trabalho](hr-leave-and-absence-working-time-calendar.md)
+   
+## <a name="configure-preview-features"></a>Configure recursos de visualização
+
+Se tiver habilitado recursos de visualização para licença e ausência, você também precisará definir configurações para eles.
+
+[!include [banner](includes/preview-feature-leave-absence.md)]
+
+1. Escolha o tipo de licença para os saldos postergados a serem transferidos. Você também pode criar um novo tipo de licença para postergar. 
 
 ## <a name="see-also"></a>Consulte também
 

@@ -1,9 +1,9 @@
 ---
 title: Configurar integração do Common Data Service
-description: Você pode ativar ou desativar a integração entre o Common Data Service e a instância do Microsoft Dynamics 365 Human Resources. Também é possível exibir os detalhes da sincronização, limpar dados de rastreamento e ressincronizar uma entidade para ajudar com a solução de problemas de dados entre os dois ambientes.
+description: Você pode ativar ou desativar a integração entre o Common Data Service e Dynamics 365 Human Resources. Também é possível exibir os detalhes da sincronização, limpar dados de rastreamento e ressincronizar uma entidade para ajudar com a solução de problemas de dados entre os dois ambientes.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,31 +18,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 042daf3fdf7a906086af726472da050467d217e3
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 04280aa0908ed6dab86ef87b6c1843e4b4348e08
+ms.sourcegitcommit: c9657b44adb9c1a77c7c2f6ab63a58cc848974ea
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008064"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3198413"
 ---
 # <a name="configure-common-data-service-integration"></a>Configurar integração do Common Data Service
 
-Você pode ativar ou desativar a integração entre o Common Data Service e a instância do Microsoft Dynamics 365 Human Resources. Também é possível exibir os detalhes da sincronização, limpar dados de rastreamento e ressincronizar uma entidade para ajudar com a solução de problemas de dados entre os dois ambientes.
+Você pode ativar ou desativar a integração entre o Common Data Service e Dynamics 365 Human Resources. Também é possível exibir os detalhes da sincronização, limpar dados de rastreamento e ressincronizar uma entidade para ajudar com a solução de problemas de dados entre os dois ambientes.
 
 Quando você desativa a integração, os usuários podem fazer alterações no Human Resources ou no Common Data Service, mas essas alterações não são sincronizadas entre os dois ambientes.
 
-Por padrão, a integração entre o Human Resources e o Common Data Service é desativada ou ativada, dependendo da presença de dados de demonstração nos ambientes:
-
-- **Desativada** para novos ambientes que não incluem dados de demonstração
-- **Ativada** para novos ambientes que incluem dados de demonstração
-
-Novos ambientes que incluem dados de demonstração começarão a sincronizar dados quando eles forem provisionados.
+Por padrão, a integração de dados entre o Human Resources e o Common Data Service está desativada.
 
 Talvez você queira desativar a integração nestas situações:
 
 - Você está preenchendo dados por meio da Estrutura de Gerenciamento de Dados e deve importar os dados várias vezes para que fiquem no estado correto.
 
-- Há problemas com dados no Human Resources ou no Common Data Service. Se você desativar a integração, será possível excluir um registro em um ambiente sem excluí-lo de outro. Quando você reativar a integração, o registro no ambiente onde ele não foi excluído será sincronizado com o ambiente de onde ele foi excluído. A sincronização começa na próxima vez que o trabalho em lotes **Sincronização da solicitação perdida da integração do Common Data Service** for executado.
+- Há problemas com dados no Human Resources ou no Common Data Service. Se você desativar a integração, será possível excluir um registro em um ambiente sem excluí-lo de outro. Quando você reativar a integração, o registro no ambiente onde ele não foi excluído sincroniza com o ambiente de onde ele foi excluído. A sincronização começa na próxima vez que o trabalho em lotes **Sincronização da solicitação perdida da integração do Common Data Service** for executado.
 
 > [!WARNING]
 > Ao desativar a integração de dados, certifique-se de não editar o mesmo registro em ambos os ambientes. Quando você reativar a integração, o registro que você editou pela última vez será sincronizado. Portanto, se você não fizer as mesmas alterações no registro em ambos os ambientes, poderá ocorrer perda de dados.
@@ -103,9 +98,17 @@ Para executar uma sincronização completa na entidade depois de desmarcar o ras
 
 ## <a name="sync-an-entity-between-human-resources-and-common-data-service"></a>Sincronizar uma entidade entre o Human Resources e o Common Data Service
 
-Use este procedimento se as alterações do Common Data Service estiverem demorando muito para aparecer no Human Resources ou se você precisar atualizar a tabela de rastreamento depois de limpar o rastreamento.
+Use este procedimento quando:
 
-- Para executar uma sincronização completa em uma entidade entre o Human Resources e o Common Data Service, selecione a entidade no campo **Nome da entidade CDS** e, em seguida, selecione **Sincronizar agora**.
+- As alterações de Common Data Service são exibidas de forma muito longa em Human Resources.
+
+- Você deve atualizar a tabela de controle depois de limpar o rastreamento.
+
+Para executar uma sincronização completa em uma entidade entre Human Resources e Common Data Service:
+
+1. Selecione a entidade no campo **Nome da entidade CDS**.
+
+2. Selecione **Sincronizar agora**.
 
 [![Executando uma sincronização completa](./media/hr-common-data-service-configuration-sync-now.png)](./media/hr-common-data-service-configuration-sync-now.png)
 

@@ -3,7 +3,7 @@ title: Acumular planos de licença e ausência
 description: Você pode acumular licenças e ausências no Dynamics 365 Human Resources para vários funcionários ou para uma pessoa.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba60fc2e5b17ec32aa6ad7eb104e8ae55ddee3bb
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 3048f9b6b52a150219067430abb54e5b5bf5c3e4
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092329"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197304"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Acumular planos de licença e ausência
 
@@ -35,7 +35,7 @@ Você pode acumular licenças e ausências no Dynamics 365 Human Resources para 
 
 2. Em **Gerenciar licença**, selecione **Acumular planos de licença e ausência**.
 
-3. Na caixa de diálogo **Acumular planos de licença e ausência**, em **Acumular a partir de**, selecione **Data de hoje** ou selecione **Data personalizada** e digite uma data personalizada.
+3. A caixa de diálogo **Acumular planos de licença e ausência** é exibida. Em **Acumular a partir de**, selecione **Data de hoje** ou selecione **Data personalizada** e insira uma data personalizada.
 
 4. Se você deseja executar o processo de acúmulo em segundo plano, selecione **Executar em segundo plano** e execute as seguintes tarefas:
 
@@ -53,7 +53,7 @@ Você pode acumular licenças e ausências no Dynamics 365 Human Resources para 
 
 2. Selecione **Acumular licenças e ausências**.
 
-3. Na caixa de diálogo **Acumular planos de licença e ausência**, em **Acumular a partir de**, selecione **Data de hoje** ou selecione **Data personalizada** e digite uma data personalizada.
+3. A caixa de diálogo **Acumular planos de licença e ausência** é exibida. Em **Acumular a partir de**, selecione **Data de hoje** ou selecione **Data personalizada** e insira uma data personalizada.
 
 4. Se você deseja executar o processo de acúmulo em segundo plano, selecione **Executar em segundo plano** e execute as seguintes tarefas:
 
@@ -65,15 +65,43 @@ Você pode acumular licenças e ausências no Dynamics 365 Human Resources para 
 
    4. Selecione **OK**. O processo de acúmulo será executado com os parâmetros definidos por você.
 
-## <a name="preview-features-for-leave-and-absence"></a>Visualizar recursos para licença e ausência
+## <a name="delete-leave-and-absence-accruals-for-multiple-employees"></a>Excluir acúmulos de licenças e ausências para vários funcionários
 
-[!include [banner](includes/preview-feature-leave-absence.md)]
+Exclua os registros de acúmulo para um plano e um intervalo de datas específicos. As datas de acúmulo devem ser datadas hoje ou no futuro.
 
-Você pode habilitar os seguintes recursos de visualização para licença e ausência:
+1. Na página **Licença e ausência**, selecione a guia **Links**.
 
-- **Excluir acúmulos de licença e ausência**. Exclua os registros de acúmulo para um plano e um intervalo de datas específicos. As datas de acúmulo devem ser datadas hoje ou no futuro.
+2. Em **Gerenciar licença**, selecione **Excluir acúmulos de plano de licença e ausência**.
 
-- **Auditoria do acúmulo de licenças**. Exibido sempre que alguém executa ou exclui um acúmulo para um ou todos os funcionários, junto com a data e quem realizou a ação.
+3. Na caixa de diálogo **Excluir competências do plano de licença e ausência**, selecione o **Plano de licença**. 
+
+4. Se aplicável, escolha **Excluir ajustes de saldo**.
+
+5. Insira ou selecione uma **Data da competência de licença**. Essa data deve ser hoje ou futuramente. 
+
+6. Selecione **OK**. O processo de acúmulo excluirá acúmulos com os parâmetros definidos por você. 
+
+## <a name="delete-leave-and-absence-accruals-for-a-single-employee"></a>Excluir acúmulos de licenças e ausências para um único funcionário
+
+1. No registro do funcionário, selecione **Licença**.
+
+2. Selecione **Excluir competências do plano de licença e ausência**.
+
+3. Na caixa de diálogo **Excluir competências do plano de licença e ausência**, selecione o **Plano de licença**. 
+
+4. Se aplicável, escolha **Excluir ajustes de saldo**.
+
+5. Insira ou selecione uma **Data da competência de licença**. Essa data deve ser hoje ou futuramente. 
+
+6. Selecione **OK**. O processo de acúmulo excluirá acúmulos com os parâmetros definidos por você. 
+
+## <a name="review-leave-accrual-and-deletion-processes"></a>Revisar processos de acúmulo de licença e exclusão
+
+**Auditoria do acúmulo de folgas** é exibido cada vez que você executar ou excluir uma competência para um ou todos os funcionários. A data e a pessoa que executou a ação também são exibidas.
+
+1. Na página **Licença e ausência**, selecione a guia **Links**.
+
+2. Em **Gerenciar licença**, selecione **Excluir auditoria de acúmulo de licença**.
 
 ## <a name="see-also"></a>Consulte também
 

@@ -3,7 +3,7 @@ title: Configurar regras e opções de qualificação
 description: Configure regras e opções de qualificação no gerenciamento de benefícios no Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 448156a2428e99d8b95de547cb6f1621d49b1c7b
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 07dd8a6ca7edb460769f761950dc0c143112f708
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008153"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229892"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Configurar regras e opções de qualificação
-
-[!include [banner](includes/preview-feature.md)]
 
 Depois de configurar os parâmetros necessários para o gerenciamento de benefícios no Microsoft Dynamics 365 Human Resources, você poderá criar regras, pacotes, períodos e programas de qualificação que serão associados aos seus planos de benefícios.
 
@@ -57,6 +55,7 @@ Durante a inscrição aberta, os funcionários poderão selecionar planos de ben
    | **Categoria de emprego** | A categoria de emprego do funcionário se a opção **Usar categoria de emprego** estiver definida como **Sim**. |
    | **Usar nova regra de contratação** | Especifica se o valor de um novo período de contratação deve ser usado como parte da regra de qualificação de benefícios. |
    | **Período de inscrição** | O período em que a nova inscrição de contratação é permitida. Se você também defini-lo em parâmetros, a configuração de parâmetros terá prioridade sobre ele. |
+   | **Usar status de emprego anterior** | Especifica se deve usar um status de emprego anterior do funcionário como parte da regra de qualificação do benefício. Por exemplo, você pode especificar uma regra de qualificação que renuncia a um período de espera de cobertura para todos os funcionários que fizeram a transição de um status **Demitido** para um **Empregado** em 90 dias de seu emprego anterior. |
 
 4. Em **Critérios adicionais**, selecione as seguintes opções e adicione as informações conforme necessário:
 

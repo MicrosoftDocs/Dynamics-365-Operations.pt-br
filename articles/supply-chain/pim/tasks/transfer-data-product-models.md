@@ -2,7 +2,7 @@
 title: Transferir dados para modelos de produto
 description: Exportar dados para um modelo de configuração do produto requer que você tenha pelo menos um modelo de produto disponível.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cd2ac37fd1885a199e1af2ea74748650c2589b25
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 029f51466add340aead56aaad12afc3e1da374f2
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3147517"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3213000"
 ---
 # <a name="transfer-data-for-product-models"></a>Transferir dados para modelos de produto
 

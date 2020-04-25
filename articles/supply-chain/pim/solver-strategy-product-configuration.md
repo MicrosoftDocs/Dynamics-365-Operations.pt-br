@@ -2,7 +2,7 @@
 title: Estratégia do agente de resolução para configuração de produto
 description: Este tópico descreve como você pode usar a estratégia do agente de resolução para melhorar o desempenho da configuração de produto.
 author: cvocph
-manager: AnnBe
+manager: tfehr
 ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCCreateProductConfigurationModel, PCProductConfigurationModelListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 241e1ae9bfd347695d7a2dbb7b3e71a7d49c2b93
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 5ec7e81c3a0135b075ecb88ab5fc9e7c8b30588a
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814527"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209343"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Estratégia do agente de resolução para configuração de produto
 
@@ -43,7 +43,7 @@ O conceito de estratégia do agente de resolução agora consiste nas seguintes 
 
 ## <a name="solver-strategy"></a>Estratégia do agente de resolução 
 
-Um modelo de configuração de produto pode ser formulado como um [problema de satisfação de restrição (CSP)](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf). O Microsoft Solver Foundation (MSF) fornece dois tipos de estratégias do agente de resolução para resolver os CSPs que podem ser usados de modelos de configuração de produto. Essas estratégias do agente de resolução dependem da [heurística](https://techterms.com/definition/heuristic), usada para determinar a ordem na qual as variáveis dos CSPs são consideradas quando o problema está sendo resolvido. A heurística pode afetar significativamente o desempenho quando um problema ou uma classe de problemas estiverem sendo resolvidos.
+Um modelo de configuração de produto pode ser formulado como um [problema de satisfação de restrição (CSP)](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf). O Microsoft Solver Foundation (MSF) fornece dois tipos de estratégias do agente de resolução para resolver os CSPs que podem ser usados com base em modelos de configuração de produto. Essas estratégias do agente de resolução dependem da [heurística](https://techterms.com/definition/heuristic), usada para determinar a ordem na qual as variáveis dos CSPs são consideradas quando o problema está sendo resolvido. A heurística pode afetar significativamente o desempenho quando um problema ou uma classe de problemas estiverem sendo resolvidos.
 
 A estratégia do agente de resolução para modelos de configuração de produto determina qual agente de resolução é usado com a heurística. As estratégias **Padrão**, **Domínios mínimos primeiro** e **De cima para baixo** usam os dois agentes de resolução do MSF, enquanto a estratégia **Z3** usa o agente de resolução Z3. 
 

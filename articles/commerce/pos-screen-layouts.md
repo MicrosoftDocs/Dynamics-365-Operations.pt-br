@@ -1,9 +1,9 @@
 ---
-title: Layouts de tela para o ponto de venda (PDV)
+title: Configurações visuais da interface do usuário de PDV
 description: Este tópico fornece informações sobre layouts de tela para experiências com o PDV (ponto de venda) do Dynamics 365 Commerce.
-author: jblucher
-manager: AnnBe
-ms.date: 05/20/2019
+author: boycezhu
+manager: annbe
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -16,23 +16,22 @@ ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: jeffbl
+ms.author: boycezhu
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5bf7b3d20ff0b42eb9eaedf584b2a508c1307707
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3a84318f7156ef42f7e00f1e89228f541b1634ce
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021660"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261458"
 ---
-# <a name="screen-layouts-for-the-point-of-sale-pos"></a>Layouts de tela para o ponto de venda (PDV)
+# <a name="pos-user-interface-visual-configurations"></a>Configurações visuais da interface do usuário de PDV
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
-Este tópico fornece informações sobre layouts de tela para experiências com o PDV (ponto de venda) do Dynamics 365 Commerce.
-
-A interface de usuário (IU) de PDV pode ser configurada usando uma combinação de perfis visuais e layouts de tela que são atribuídos a lojas, registradoras e/ou usuários.
+A interface de usuário do ponto de venda (PDV) do Microsoft Dynamics 365 Commerce pode ser configurada usando uma combinação de perfis visuais e layouts de tela que são atribuídos a lojas, caixas registradoras e/ou usuários. Este tópico fornece links para obter mais informações sobre essas opções de configuração.
 
 A ilustração a seguir mostra as relações entre as várias entidades que compõem os aspectos configuráveis da interface do usuário do PDV.
 
@@ -40,7 +39,7 @@ A ilustração a seguir mostra as relações entre as várias entidades que comp
 
 ## <a name="visual-profile"></a>Perfil visual
 
-Os perfis visuais são atribuídos às caixas registradoras e usados para especificar os elementos visuais que são específicos da caixa registradora e compartilhados entre os usuários. Todo usuário que entrar na caixa registradora terá o mesmo tema, cores e imagens.
+Os perfis visuais são atribuídos às caixas registradoras e usados para especificar os elementos visuais que são específicos da caixa registradora e compartilhados entre os usuários. Todo usuário que entrar na caixa registradora terá o mesmo tema, layout, cores e imagens.
 
 ![Tela de boas-vindas do PDV com tema Claro](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
 
@@ -48,16 +47,24 @@ Os perfis visuais são atribuídos às caixas registradoras e usados para especi
 
 - **Número do perfil** – o número do perfil é o identificador exclusivo do perfil visual.
 - **Descrição** – você pode especificar um nome significativo que ajudará a identificar o perfil correto de sua situação.
-- **Tema** – os usuários podem selecionar entre os temas de aplicativo Claro ou Escuro. O tema afetará as cores da fonte e o plano de fundo em todo o aplicativo.
+- **Tema** – Você pode selecionar entre os temas de aplicativo **Claro** ou **Escuro**. O tema afetará as cores da fonte e o plano de fundo em todo o aplicativo.
 - **Cor de destaque** – a cor de destaque é usada em todo o PDV para diferenciar ou destacar elementos visuais específicos, como blocos, botões de comando e hyperlinks. Normalmente, esses elementos são acionáveis.
-- **Cor do cabeçalho** – você pode configurar a cor do cabeçalho da página para atender aos requisitos de identidade visual do varejista. Este recurso está disponível somente na versão 1611 do Retail.
-- **Mostrar data/hora** – Quando habilitado, a data e a hora atuais serão exibidas no cabeçalho do PDV.
-- **Segundo plano de logon** – você pode especificar uma imagem de plano de fundo para a tela de entrada. O tamanho do arquivo de imagens de plano de fundo deve ser o menor possível, pois armazenar e carregar arquivos grandes pode afetar o comportamento e o desempenho do aplicativo.
-- **Plano de fundo do aplicativo** – você pode especificar uma imagem de plano de fundo para ser usada no lugar da cor sólida do tema no aplicativo. Quanto ao segundo plano de logon, o tamanho do arquivo deve ser o menor possível.
+- **Cor do cabeçalho** – você pode configurar a cor do cabeçalho da página para atender aos requisitos de identidade visual do varejista.
+- **Esquema de fonte** – Você pode selecionar entre os esquemas de fonte **Padrão** e **Grande**. O esquema de fonte afeta o tamanho da fonte de todo o aplicativo. A seleção padrão é **Padrão**.
+- **Sempre mostrar etiquetas na barra de aplicativos** – Quando esta opção estiver habilitada, o texto da etiqueta estará sempre visível abaixo dos botões da barra de aplicativos.
+- **Layout** – Você pode selecionar entre os layouts **Centralizado** e **À direita**. O layout afeta o alinhamento da caixa de entrada na tela de entrada. A seleção padrão é **Centralizado**.
+- **Mostrar data/hora** – Quando esta opção está ativada, a data e a hora atuais são exibidas no cabeçalho do PDV e na tela de entrada.
+- **Teclado** – Você pode selecionar entre **Padronizar como teclado do SO** e **Mostrar teclado numérico** para especificar o teclado padrão usado para a entrada na tela de entrada. O teclado numérico é um teclado virtual usado principalmente para dispositivos baseados em toque. A seleção padrão é **Padronizar como teclado do OS**.
+- **Imagem do logotipo** – Você pode especificar uma imagem de logotipo mostrada na tela de entrada. Recomendamos usar uma imagem com um plano de fundo transparente. O tamanho do arquivo deve ser o menor possível, pois o comportamento e o desempenho do aplicativo podem ser afetados quando arquivos grandes forem armazenados e carregados.
+- **Segundo plano de logon** – você pode especificar uma imagem de plano de fundo para a tela de entrada. O tamanho do arquivo no segundo plano de logon deve ser o menor possível.
+- **Plano de fundo** – Você pode especificar uma imagem de plano de fundo para ser usada no lugar da cor sólida do tema no aplicativo. Quanto as imagens do plano de fundo para a tela de entrada, o tamanho do arquivo deve ser o menor possível.
+
+> [!NOTE]
+> O layout **À direita** e a exibição de data/hora não se aplicam à tela de entrada na exibição compacta.
 
 ## <a name="screen-layouts"></a>Layouts da tela
 
-As configurações do layout de tela determinam as ações, conteúdo e posicionamento dos controles de IU na tela de boas-vindas do PDV e na tela de **transação**.
+As configurações do layout de tela determinam as ações, conteúdo e posicionamento dos controles de IU na tela de **Boas-vindas** do PDV e na tela de **Transação**.
 
 ![Exibição do layout da tela do PDV](../commerce/media/POS-Screen-Layout-View.png)
 

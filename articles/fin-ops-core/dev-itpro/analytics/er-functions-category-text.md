@@ -3,7 +3,7 @@ title: Lista de funções ER na categoria de texto
 description: Este tópico fornece informações sobre as funções de texto que são compatíveis no relatório eletrônico (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/05/2019
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f519d242fe74196b0d12bdc9df4f1b4b0e585752
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: bd4dd7e9a3e1aa448adea5abd0c21b8133f34e3b
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916605"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201080"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Lista de funções ER na categoria de texto
 
@@ -52,7 +52,7 @@ As funções de texto de relatório eletrônico (ER) podem ser usadas para reali
 | [Substituir](er-functions-text-replace.md) | Essa função retorna a cadeia de caracteres de texto especificada como um valor de *Cadeia de caracteres* após toda ou parte dela ser substituída por outra cadeia de caracteres. |
 | [Direito](er-functions-text-right.md) | Essa função retorna um valor de *Cadeia de caracteres* que apresenta o número de caracteres especificado a partir do final da cadeia de caracteres especificada. |
 | [Texto](er-functions-text-text.md) | Essa função retorna o número especificado como um valor de *Cadeia de caracteres* após ele ser convertido em uma cadeia de caracteres de texto que é formatada de acordo com as configurações de localidade do servidor da instância atual do aplicativo. |
-| [Traduzir](er-functions-text-translate.md) | Essa função retorna a cadeia de caracteres de texto especificada como um valor de *Cadeia de caracteres* após toda ou parte dela ser substituída por outra cadeia de caracteres. |
+| [Traduzir](er-functions-text-translate.md) | Esta função retorna um valor *Cadeia de caracteres* que contém o resultado da substituição do texto especificado em caracteres para outro conjunto de caracteres fornecido. |
 | [Trim](er-functions-text-trim.md) | Essa função retorna a cadeia de caracteres de texto especificada como um valor de *Cadeia de caracteres* após os espaços à direita e à esquerda serem truncados e após vários espaços entre as palavras serem removidos. |
 | [Upper](er-functions-text-upper.md) | Essa função retorna a cadeia de caracteres de texto especificada como um valor de *Cadeia de caracteres* após ser convertida em letras maiúsculas. |
 

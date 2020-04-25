@@ -3,7 +3,7 @@ title: Encargos automáticos avançados de omni-channel
 description: Este tópico descreve recursos para gerenciar encargos adicionais da ordem para ordens do canal do Commerce usando recursos avançados de encargos automáticos.
 author: hhaines
 manager: annbe
-ms.date: 03/08/2019
+ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: fd02a81f35b40e5075ccfe5c9a617d7de4e8250d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 826c955b7c99073ff41c8a5ed75254c824359925
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021673"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175145"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Encargos automáticos avançados de omnicanal
 
 [!include [banner](includes/banner.md)]
 
-Este tópico fornece informações sobre a configuração e a implementação de recurso avançado da encargos disponíveis na versão 10.0 do Dynamics 365 for Retail.
+Este tópico fornece informações sobre a configuração e a implementação de recursos avançados da encargos disponíveis na versão 10.0 do Dynamics 365 for Retail.
 
 Quando os recursos avançados de encargos diversos forem habilitados, as ordens criadas em qualquer canal do Commerce suportado (ponto de venda, (PDV) call center e online) podem ter a vantagem das configurações de [encargos automáticos](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) definidas no aplicativo ERP para o cabeçalho e encargos relacionados a linha-nível.
 
@@ -77,7 +77,7 @@ Nesta seção, exemplos de casos de uso são apresentados para ajudar a entender
 
 #### <a name="use-case-scenario"></a>Cenário de caso de uso
 
-Um varejista deseja adicionar encargos de frete automaticamente quando as transações forem criadas em qualquer canal do Commerce que exija a remessa de produtos ao cliente. O varejista oferece 2 métodos de entrega: Terrestre e aéreo. Se um cliente escolher a entrega aérea e o valor da ordem for menor que US$ 100, o varejista quer cobrar um frete de US$ 10,00 do cliente. Se a ordem for maior que US$ 100 e o cliente escolher a entrega terrestre, o cliente não cobrará taxas de frete adicional. Se o cliente optar pelo método de entrega aéreo de todas as ordens, independentemente do valor total, será cobrado uma taxa de frete de US$ 20,00.
+Um varejista deseja adicionar encargos de frete automaticamente quando as transações forem criadas em qualquer canal do Commerce que exija a remessa de produtos ao cliente. O varejista oferece dois métodos de entrega: Terrestre e aéreo. Se um cliente escolher a entrega aérea e o valor da ordem for menor que US$ 100, o varejista quer cobrar um frete de US$ 10,00 do cliente. Se a ordem for maior que US$ 100 e o cliente escolher a entrega terrestre, o cliente não cobrará taxas de frete adicional. Se o cliente optar pelo método de entrega aéreo de todas as ordens, independentemente do valor total, será cobrado uma taxa de frete de US$ 20,00.
 
 #### <a name="setup-and-configuration"></a>Instalação e configuração
 
@@ -157,7 +157,7 @@ Esse processo pode ser aplicado no call center usando o recurso existente **Enca
 
 #### <a name="use-case-scenario"></a>Cenário de caso de uso
 
-Um cliente solicitou que 2 de 5 itens da mesma ordem de venda sejam embrulhados para presente. O varejista oferece este serviço opcional com uma taxa de US$ 2,00 por item. O tomador da ordem precisa adicionar essas taxas aos itens específicos que precisam ser embrulhados para presente.
+Um cliente solicitou que dois de cinco itens da mesma ordem de venda sejam embrulhados para presente. O varejista oferece este serviço opcional com uma taxa de US$ 2,00 por item. O tomador da ordem precisa adicionar essas taxas aos itens específicos que precisam ser embrulhados para presente.
 
 #### <a name="setup-and-configuration"></a>Instalação e configuração
 
@@ -215,3 +215,10 @@ Algumas organizações pode preferir aguardar até que o usuário conclua a adi�
 ### <a name="charges-override-reports"></a>Relatórios de substituições de encargos
 
 Se os usuários substituírem manualmente os encargos calculados ou adicionarem um encargo manual à transação, esses dados estarão disponíveis para auditoria no relatório **Histórico de substituições de encargos**. vO relatório pode ser acessado de **Retail e Commerce \> Consultas e relatórios \> Histórico de substituições de encargos**. É importante observar que os dados necessários para esse relatório são importados do banco de dados do canal para a matriz por meio dos trabalhos de agendamento da distribuição "P". Portanto, as informações sobre substituições executadas apenas no PDV podem não estar imediatamente disponíveis nesse relatório até que esse trabalho tenha carregado os dados da transação da loja na matriz.
+
+## <a name="additional-resources"></a>Recursos adicionais
+
+[Habilitar e configurar encargos automáticos por canal](auto-charges-by-channel.md)
+
+[Ratear encargos do cabeçalho para as linhas de vendas correspondentes](pro-rate-charges-matching-lines.md)
+

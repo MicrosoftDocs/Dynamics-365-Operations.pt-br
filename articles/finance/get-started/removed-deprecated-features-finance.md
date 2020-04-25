@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ec13076e6a05c3402af566487f7921f6971da215
-ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
+ms.openlocfilehash: aebce032d7d780b296ba74fea4467425a3cbe1a7
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3127968"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175099"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Recursos removidos ou obsoletos do Dynamics 365 Finance
 
@@ -47,6 +47,18 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 | **Áreas afetadas do produto**         | Requerimento |
 | **Opção de implantação**              | Todas |
 | **Status**                         | Preterido: até 1º de julho de 2021, planejamos não oferecer mais suporte aos relatórios SSRS: **registro de IVA de saída, registro de IVA de entrada, registro de IVA de resumo da UE – referência de recurso PL-00014**. Em vez disso, o exemplo de formato do Excel para arquivo de auditoria padrão com declaração de IVA (JPK_VDEK) será introduzido. |
+
+## <a name="features-removed-or-deprecated-in-the-finance-10011-release"></a>Recursos removidos ou substituídos na versão 10.0.11 do Finance
+
+### <a name="norwegian-standard-main-accounts"></a>Contas principais no padrão da Noruega
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Recriar  |
+| **Substituída por outro recurso?**   | Sim (Substituída pelos parâmetros específicos do aplicativo do formato ER) |
+| **Áreas afetadas do produto**         | Requerimento |
+| **Opção de implantação**              | Todas |
+| **Status**                         | Preterido: Em 1° de abril de 2021, planejamos descontinuar o suporte da funcionalidade relacionada às contas principais Padrão: Campo de referência, tabela relacionada, entidade de dados. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>Recursos removidos ou substituídos na versão 10.0.7 do Finance
 

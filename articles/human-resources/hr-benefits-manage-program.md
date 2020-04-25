@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c7ad8c6ee3450d57656f8c167ea8aa7554ac575a
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: b976bccf7f5da4483ec8a015f464db764b82a2f1
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008155"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197880"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>Definir e gerenciar um programa de benefícios
 
-O RH fornece um conjunto de ferramentas que podem ser usadas para configurar e manter benefícios, deduções e planos de compensação de trabalhadores que uma empresa oferece ou processa para os trabalhadores. Este artigo contém informações sobre como configurar e gerenciar os benefícios.
+O Human Resources fornece um conjunto de ferramentas que podem ser usadas para configurar e manter benefícios, deduções e planos de compensação de trabalhadores que uma empresa oferece ou processa para os trabalhadores. Este artigo contém informações sobre como configurar e gerenciar os benefícios.
 
 ## <a name="benefit-setup"></a>Configuração de benefício
 

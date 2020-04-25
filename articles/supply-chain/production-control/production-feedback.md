@@ -2,7 +2,7 @@
 title: Comentários sobre a produção
 description: Este artigo oferece informações sobre os comentários de produção, que oferece comentários de trabalhadores sobre trabalhos de produção. O artigo inclui informações sobre as diversas maneiras como os comentários de produção podem ser atualizados.
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistration, ProdJournalTransJob, ProdJournalTransRoute, ProdParmReportFinished
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 19351
 ms.assetid: bcc9e242-b4b8-4144-b14d-c3c106fb40ec
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b0a49cf05a7eee838dcf9fb699d273d0f7518a1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 0cc44592bd60e89f1dc67114098d701d8965e4fe
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548897"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212540"
 ---
 # <a name="production-feedback"></a>Comentários sobre a produção
 

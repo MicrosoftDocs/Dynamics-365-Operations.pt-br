@@ -3,7 +3,7 @@ title: Lista de funções ER na categoria de lista
 description: Este tópico fornece informações sobre as funções de lista que são compatíveis no relatório eletrônico (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9461d0afd75f421cf03ddefed5dac379f1369ec7
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: dcf1b755959c7ae25928e3f44e988f800027786a
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917755"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201034"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>Lista de funções ER na categoria de lista
 
@@ -46,6 +46,7 @@ As funções de lista de relatório eletrônico (ER) podem ser usadas para extra
 | [Índice](er-functions-list-index.md)                       | Essa função retorna um valor de *Contêiner (registro)* que é selecionado usando o índice numérico especificado na lista especificada. Se o índice estiver fora do intervalo dos registros na lista especificada, essa função gerará uma exceção. |
 | [IsEmpty](er-functions-list-isempty.md)                   | Essa função retorna um valor *Booliano* de **TRUE** se a lista especificada não contiver registros. Caso contrário, ela retorna um valor *Booliano* de **FALSE**. |
 | [Lista](er-functions-list-list.md)                         | Essa função retorna um valor de *Lista de registros* que consiste em uma nova lista criada a partir dos argumentos especificados.|
+| [ListJoin](er-functions-list-listjoin.md)                 | Essa função retorna um valor de *Lista de registros* que representa uma nova lista associada criada dos argumentos especificados.|
 | [ListOfFields](er-functions-list-listoffields.md)         | Essa função retorna um valor de *Lista de registros* que é criado com base na estrutura do argumento especificado do tipo *Enumeração* ou *Contêiner (registro)*. |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | Essa função retorna um valor de *Lista de registros* que consiste somente no primeiro registro da lista especificada.|
 | [OrderBy](er-functions-list-orderby.md)                   | Essa função retorna a lista especificada como um valor de *Lista de registros* após ela ser classificada de acordo com os argumentos especificados. Esses argumentos podem ser definidos como expressões. |

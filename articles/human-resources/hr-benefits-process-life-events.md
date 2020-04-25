@@ -3,7 +3,7 @@ title: Processar eventos de vida
 description: Durante o ciclo de vida do funcionário no Microsoft Dynamics 365 Human Resources, cada funcionário pode encontrar várias alterações de eventos de vida.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 91812432ead4b0afccfba30f8023f014e216236a
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: ba8d21482a18c6baa93437fc65c165907bdb515d
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008102"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229915"
 ---
 # <a name="process-life-events"></a>Processar eventos de vida
-
-[!include [banner](includes/preview-feature.md)]
 
 Durante o ciclo de vida do funcionário no Microsoft Dynamics 365 Human Resources, cada funcionário pode encontrar várias alterações de eventos de vida. Por exemplo, casamento, mudança de emprego ou alteração de dependente/beneficiário. Para usar eventos de vida, você deve habilitar eventos de vida no formulário de parâmetros de benefícios, configurar tipos de eventos de vida e configurar opções de eventos de vida para tipos de plano.
 
@@ -43,10 +41,10 @@ Por exemplo, se hoje for 1º de fevereiro, houver um agendamento para que trabal
 
    | Campo | Descrição |
    | --- | --- |
-   | Período de inscrição | O período de inscrição para processar eventos de vida. |
-   | Pessoa jurídica em geral | A entidade legal para processar eventos de vida. |
-   | Data do evento de vida | O sistema processa todos os eventos durante o período de inscrição que ocorrem até a data atual. |
-   | Trabalhador | O trabalhador para processar eventos de vida. Se você deixar esse campo em branco, os eventos de vida serão processados para todos os trabalhadores. |
+   | **Período de inscrição** | O período de inscrição para processar eventos de vida. |
+   | **Pessoa jurídica em geral** | A entidade legal para processar eventos de vida. |
+   | **Data do evento de vida** | O sistema processa todos os eventos durante o período de inscrição que ocorrem até a data atual. |
+   | **Trabalhador** | O trabalhador para processar eventos de vida. Se você deixar esse campo em branco, os eventos de vida serão processados para todos os trabalhadores. |
 
 3. Se você deseja executar o processo em segundo plano, selecione **Executar em segundo plano** e execute as seguintes tarefas:
 

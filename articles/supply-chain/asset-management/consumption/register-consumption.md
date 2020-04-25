@@ -2,7 +2,7 @@
 title: Registrar consumo
 description: Este tópico explica como registrar o consumo no Gerenciamento de Ativos.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 08/21/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3d23375ec7ebe9b43c2d2e3e376e26c348131bd3
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: c59664346c07f5e74825de41870f6635ced24ebd
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812251"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3216291"
 ---
 # <a name="register-consumption"></a>Registrar consumo
 
@@ -93,5 +93,5 @@ Quando você cria registros de consumo, as dimensões financeiras relacionados a
 - *Registros de Item:* primeiro, as dimensões financeiras do cabeçalho de diário são adicionadas, se houver. Então, as dimensões financeiras do projeto de ordem de serviço relacionado são adicionadas. Em seguida, as dimensões financeiras do site são adicionadas. Por fim, as dimensões financeiras do item são adicionadas.
 
 >[!NOTE]
->Para todos os três tipos de registro, a combinação de dimensão financeira é validada, e as combinações inválidas são anuladas. Essa é a instalação padrão com outros aplicativos do Finance and Operations.
+>Para todos os três tipos de registro, a combinação de dimensão financeira é validada, e as combinações inválidas são anuladas. Esta é a configuração padrão com outros aplicativos do Finance and Operations.
 

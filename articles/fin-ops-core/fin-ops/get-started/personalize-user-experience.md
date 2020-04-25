@@ -3,7 +3,7 @@ title: Personalizar a experiência do usuário
 description: Este tópico explica como você pode personalizar o aplicativo.
 author: jasongre
 manager: AnnBe
-ms.date: 02/05/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c745248a0c7e54b58b1d3e491f3bbb067ec0e2c2
-ms.sourcegitcommit: d8a2301eda0e5d0a6244ebbbe4459ab6caa88a95
+ms.openlocfilehash: d0a995d25cfc5e78cc76dd73ddea2fb8bd904328
+ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029353"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3260497"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar a experiência do usuário
 
@@ -80,7 +80,7 @@ Algumas das alterações mais comuns e importantes a serem feitas em uma pagina 
 
 Além disso, para disponibilizar os tipos mais básicos de personalização explícita, clique com o botão direito em um elemento e selecione **Personalizar**. (Observe que nem todos os elementos na página podem ser personalizados.) Quando você usar esse método de personalização, a janela de propriedades do elemento será exibida.
 
-![Personalização de propriedades de um elemento](./media/personalization-element-properties.png)
+![Personalização de propriedades de um elemento](./media/cli-element-property-window.png)
 
 Você pode usar a janela de propriedades para personalizar um elemento das seguintes maneiras:
 
@@ -89,6 +89,7 @@ Você pode usar a janela de propriedades para personalizar um elemento das segui
 - Incluir as informações na seção de resumo da Guia Rápida (se o elemento estiver em uma Guia Rápida).
 - Ignorar o campo, de forma que ele nunca receba o foco quando você percorrer a página usando a tecla Tab.
 - Evitar que os dados no campo sejam editados (para qualquer registro).
+- Designe um campo que será necessário para a entrada de dados. Se nenhum valor tiver sido inserido nesse campo, ele aparecerá com uma borda vermelha e um asterisco para indicar esse estado. Esta opção está disponível apenas a partir da versão 10.0.11, quando os campos [Exibições salvas](saved-views.md) e **Designar campos como obrigatórios usando personalização** estão ativados.
 
 A janela de propriedades pode incluir outros recursos de personalização, dependendo do elemento. Por exemplo, a janela de propriedades para um bloco permitirá que você promova esse bloco para um painel. E a janela de propriedades para um painel permitirá que você crie um novo espaço de trabalho nesse painel.
 
@@ -116,6 +117,7 @@ Estas ferramentas estão disponíveis na barra de ferramentas **Personalização
 - Use a ferramenta **Mover** para mover um elemento para um local diferente no grupo atual de elementos. Observe que não é possível mover um elemento para fora de seu grupo pai. Para usar essa ferramenta, selecione o botão **Mover** na barra de ferramentas e selecione o elemento a ser movido. Quando você seleciona um elemento, o aplicativo determina os locais para os quais o elemento pode ser movido. Esses locais são conhecidos como *zonas para soltar*. Quando você arrasta o elemento pelo grupo atual, cada zona para soltar é mostrada como uma linha colorida em negrito ao lado da área em que o elemento pode ser solto.
 - Use a ferramenta **Ignorar** para remover um elemento da sequência de guias de teclado da página. Quando você seleciona o botão **Ignorar** na barra de ferramentas, todos os elementos ignorados no momento são exibidos em um contêiner sombreado. Você pode interativamente remover ou adicionar campos à sequência de guias.
 - Use a ferramenta **Mostrar no cabeçalho** quando desejar que um campo seja exibido na seção de resumo da Guia Rápida. Quando você seleciona o botão **Mostrar no cabeçalho** na barra de ferramentas, todos os campos selecionados como campos de resumo são mostrados em um contêiner sombreado. Você pode interativamente adicionar e remover campos do resumo da Guia Rápida selecionando-os.
+- Use a ferramenta **Requer** para designar um elemento conforme necessário para a entrada de dados. Quando você seleciona o botão **Requer** na barra de ferramentas, todos os elementos personalizados como necessários são mostrados em um contêiner sombreado. Você pode torná-los desnecessários novamente. Esta opção está disponível apenas em uma versão futura quando os campos [Exibições salvas](saved-views.md) e **Designar campos como obrigatórios usando personalização** estão ativados.
 - Use a ferramenta **Bloquear** para marcar um elemento como editável ou não editável. Quando você seleciona o botão **Bloquear** na barra de ferramentas, todos os elementos não editáveis no momento são exibidos em um contêiner sombreado. Você poderá torná-los editáveis novamente. Observe que alguns campos são obrigatórios e não podem ser alterados para não editáveis. Um símbolo de cadeado aparece ao lado desses campos.
 - Use o botão **Adicionar um aplicativo do Power Apps** para inserir na página um aplicativo criado usando o Microsoft Power Apps. Para obter informações detalhadas sobre como inserir um aplicativo do Power Apps em uma página, consulte [Inserir aplicativos do Power Apps](embed-power-apps.md). Esta opção está disponível somente quando o recurso [Exibições salvas](saved-views.md) estiver desabilitado.  
 - Use o botão **Adicionar um aplicativo** para inserir um aplicativo, criado do Microsoft Power Apps ou de terceiros, na página Esta opção está disponível somente quando o recurso [Exibições salvas](saved-views.md) estiver habilitado. 

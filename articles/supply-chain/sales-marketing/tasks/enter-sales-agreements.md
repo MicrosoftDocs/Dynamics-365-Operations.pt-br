@@ -2,7 +2,7 @@
 title: Inserir contratos de venda
 description: Este tópico explica como criar um contrato de venda que compromete um de seus clientes a comprar um produto, com um valor acordado durante um período, em troca de descontos especiais.
 author: omulvad
-manager: AnnBe
+manager: tfehr
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,23 +10,23 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesAgreementListPage, SalesAgreementCreate, SalesAgreement, InventItemIdLookupSimple, AgreementConfirmRunForm, SrsReportViewerForm
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7699f426c102b4ae2610db0851ddd127e514b652
-ms.sourcegitcommit: 6545bef4584d72dd7789f2d3935cf00ac8f489b0
+ms.openlocfilehash: 723621f61a237d4b390271e65bce204c44ee4fc2
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1871020"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204323"
 ---
 # <a name="enter-sales-agreements"></a>Inserir contratos de venda
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este tópico explica como criar um contrato de venda que compromete um de seus clientes a comprar um produto, com um valor acordado durante um período, em troca de descontos especiais. Você pode executar esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados.
 
@@ -43,7 +43,7 @@ Este tópico explica como criar um contrato de venda que compromete um de seus c
 
 ## <a name="set-up-product-value-commitment-lines"></a>Configurar linhas de compromisso com o valor do produto
 1. Selecione **Adicionar linha**.
-2. No campo **Número do item**, selecione o registro desejado no menu suspenso. O tipo de compromisso escolhido para o contrato afeta o tipo de informação que você pode inserir para as linhas do contrato. Por exemplo, para um contrato baseado em valor, especifique o valor líquido total (na moeda concordada) para o qual o cliente se compromete a comprar suas mercadorias. Neste exemplo os campos **Quantidade** e **Unidade** na linha não estão disponíveis porque você está criando um acordo para que o cliente compre um valor específico de um produto.   
+2. No campo **Número do item**, selecione o registro desejado no menu suspenso. O tipo de compromisso escolhido para o contrato afeta o tipo de informação que você pode inserir para as linhas do contrato. Por exemplo, para um contrato baseado em valor, especifique o valor líquido total (na moeda concordada) para o qual o cliente se compromete a comprar suas mercadorias. Neste exemplo, os campos **Quantidade** e **Unidade** na linha estão indisponíveis porque você está criando um acordo para que o cliente compre um valor específico de um produto.   
 3. No campo **Valor líquido**, insira o valor monetário que o cliente confirmou para compra.
 4. No campo **Percentual de desconto**, insira um valor percentual que se aplica às linhas da ordem de venda do cliente que estão associadas a esse contrato.
 5. Expanda a seção **Detalhes da linha**.

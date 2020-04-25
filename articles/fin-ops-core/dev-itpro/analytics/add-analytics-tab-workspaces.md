@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: de85bf52d8e3415549db64501b2435ebd7377fef
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 442557a01b25e13b76074c865dfe5468bbc9fde0
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025845"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259623"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Adicionar análise a espaços de trabalho usando o Power BI Embedded
 
@@ -84,7 +84,7 @@ Siga essas etapas para estender a definição de formulário para o espaço de t
 8. Clique com o botão direito do mouse e depois selecione **Nova página de guia**.
 9. Renomeie a página de guia para algo significativo, como **Análise**.
 10. No designer de formulário, selecione **Análise (Página da Guia)**.
-11. Defina a propriedade **Legenda** como **Análise**.
+11. Defina a propriedade **Legenda** como **Analytics**, e defina a propriedade **Declaração automática** como **Sim**.
 12. Clique com o botão direito do mouse e depois selecione **Novo** \> **Grupo** para adicionar um novo controle de grupo de formulários.
 13. Renomeie o grupo do formulários para algo significativo, como **powerBIReportGroup**.
 14. No designer de formulário, selecione **PanoramaBody (Guia)** e depois arraste o controle até a guia **Espaço de trabalho**.

@@ -3,7 +3,7 @@ title: Gerenciar recursos
 description: Saiba como habilitar ou desabilitar novos recursos no Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 84ff11e8237ce0669f7f6ac70c5b4411c5d4b466
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 9176e9519c3bf65ef7a4f1b5ae43dbeb411750f5
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008061"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230191"
 ---
 # <a name="manage-features"></a>Gerenciar recursos
 
@@ -50,9 +50,14 @@ Para acessar os recursos de visualização, primeiro é preciso ativá-los no am
 
 3. Para habilitar um recurso de visualização, selecione-o na lista e, em seguida, selecione **Habilitar**. Para desabilitar um recurso de visualização, selecione-o na lista e, em seguida, selecione **Desabilitar**.
 
-## <a name="preview-feature-benefits-management"></a>Recurso de visualização: Gerenciamento de benefícios
+## <a name="enable-or-disable-benefits-management"></a>Habilitar ou desabilitar o Gerenciamento de benefícios
 
-O gerenciamento de benefícios oferece uma solução flexível que oferece suporte a uma ampla variedade de opções de benefícios, juntamente com uma experiência de funcionário fácil de usar que apresenta suas ofertas. Para obter mais informações sobre a configuração e o uso do gerenciamento de benefícios, consulte [Visão geral do Gerenciamento de benefícios](hr-benefits-management-overview.md).
+Para habilitar o gerenciamento de benefícios, use o mesmo procedimento em [Habilitar ou desabilitar recursos de visualização](hr-admin-manage-features.md?enable-or-disable-preview-features).
+
+> [!IMPORTANT]
+> Não é possível desabilitar o gerenciamento de benefícios em um ambiente de **Produção** após ativá-lo. No entanto, você pode desabilitar o gerenciamento de benefícios em ambientes de **Área restrita**.
+
+Para obter mais informações sobre a configuração e o uso do gerenciamento de benefícios, consulte [Visão geral do Gerenciamento de benefícios](hr-benefits-management-overview.md).
 
 O gerenciamento de benefícios substitui a funcionalidade do espaço de trabalho de **Benefícios**. Ao habilitar o recurso de visualização de gerenciamento de benefícios, não será mais possível acessar os seguintes formulários no espaço de trabalho **Benefícios**:
 
@@ -65,62 +70,23 @@ O gerenciamento de benefícios substitui a funcionalidade do espaço de trabalho
 - **Políticas de qualificação para benefícios**
 - **Eventos de qualificação**
 
-Você pode exibir as informações desses formulários no modo somente leitura. Se desejar editar as informações, você deve primeiro desabilitar o recurso de visualização de gerenciamento de benefícios.
+Você pode exibir as informações desses formulários no modo somente leitura. Se desejar editar as informações, você deve primeiro desabilitar o gerenciamento de benefícios (aplicável apenas a ambientes de **Área restrita**).
 
-### <a name="benefits-management-known-issues"></a>Problemas conhecidos do gerenciamento de benefícios
+## <a name="enable-or-disable-leave-and-absence"></a>Habilitar ou desabilitar a licença e a ausência
 
-#### <a name="life-events"></a>Eventos de vida
+Para habilitar Licença e ausência, use o mesmo procedimento em [Habilitar ou desabilitar recursos de visualização](hr-admin-manage-features.md?enable-or-disable-preview-features).
 
-Ao processar eventos de vida, o usuário receberá uma mensagem de erro:
+> [!IMPORTANT]
+> Você não pode desabilitar o recurso **Vários tipos de licença** na Licença e ausência após ativá-lo. Isso aplica-se a ambientes de **Área restrita** e **Produção**.
 
-A data inicial da cobertura deve estar entre o *início do período de plano* e *final do período de plano*. 
+Para obter mais informações sobre recursos de visualização em Licenças e ausência, consulte [Recursos de exibição de licenças e ausências](hr-leave-and-absence-overview.md?leave-and-absence-preview-features).
 
-O evento de vida continuará a ser processado conforme o esperado.
-
-#### <a name="eligibility-processing"></a>Processando qualificação
-
-Ao executar a qualificação para benefícios que usam um salário 1-5X, % de salário e valor de cobertura de valor simples, a data de detalhes do benefício deve ser definida como a data de início do funcionário no **Histórico de emprego**, com horas trabalhadas, frequência de pagamento e valor de salário de benefícios anuais. Se houver remuneração fixa para o funcionário, insira as horas trabalhadas juntamente com a frequência de pagamento e o valor do salário anual será calculado. Se o funcionário for assalariado, as horas trabalhadas não serão necessárias. Recomendamos que, ao criar novos trabalhadores, insira a remuneração fixa primeiro. Para atualizar o registro de detalhes de benefícios: navegue até o **Trabalhador > Histórico do trabalhador > Detalhes do emprego**. Ajuste a data para a data de início dos trabalhadores.
-
-#### <a name="employee-self-service"></a>Autoatendimento para funcionários
-
-Os funcionários podem selecionar um plano para o qual não são qualificados e fazer check-out. Por exemplo: um trabalhador não tem nenhum dependente, mas tem permissão para selecionar um plano médico com uma opção de cobertura familiar.
-
-O valor do funcionário não é calculado ao atualizar o valor da cobertura do seguro de vida útil. Por exemplo, quando um funcionário é oferecido a um plano de seguro de vida, ele pode selecionar até US$ 50.000 em cobertura a um custo de US$ 0,36 por US$ 1.000 de cobertura.  Quando o funcionário atualiza o valor da cobertura, o custo associado do funcionário permanece em zero.
-
-Para um plano de benefício que permita somente uma única seleção desse tipo de plano, o usuário receberá um erro, caso tente renunciar a um plano depois de selecionar um plano. Por exemplo, um usuário seleciona um plano médico e o coloca em seu carrinho. O usuário seleciona **Renunciar** a outro plano médico. O usuário receberá uma mensagem de erro.
-
-## <a name="preview-features-in-leave-and-absence"></a>Visualizar recursos na licença e ausência
-
-Visualizar recursos na licença e ausência inclui:
-
-- **Calendário de licenças e ausências da empresa** - Os parâmetros de licença e ausência moverão de **Parâmetros de recursos humanos** a uma nova tela chamada **Parâmetros de licença e ausência**. A nova tela inclui uma nova guia **Calendário**. Esta visualização habilita apenas um subconjunto dos parâmetros. Você pode acessar a nova tela na guia **Links** do espaço de trabalho **Licença e ausência**. Os calendários incluem:
-  - **Calendário da empresa** - mostra todas as solicitações de tempo limite do funcionário. As pessoas com a função **Human resources** podem acessar este calendário na guia **Links** da área de trabalho **Licença e ausência**.
-  - **Calendário da equipe do gerente** - mostra todas as solicitações de tempo limite dos relatórios diretos. Os gerentes podem acessar o calendário da guia **Minha equipe** no auto-atendimento para funcionários em **Licença e ausência**. 
-
-- **Calendários de férias e ausências** - Os tipos de licença incluem uma nova opção de **Feriado**, usada em conjunto com o calendário de horário de trabalho. Os dias definidos por feriados e recessos agora são designados como **Feriado** quando os dias de trabalho são gerados. Quando as competências são processadas, os ajustes são feitos aos funcionários atribuídos ao calendário para contabilizar os feriados que ocorrem em um dia útil.
-
-- **Manter auditoria de acumulação** - Uma nova tela permite que você examine quando as competências foram processadas e excluídas, ambas por funcionários e funcionários individuais. Você pode acessar essa nova tela na guia **Links** do espaço de trabalho **Licença e ausência**.
-
-- **Manter exclusão da competência** - Você pode excluir registros de competência para planos de licença específicos. Você pode acessar essa nova opção na guia **Links** do espaço de trabalho **Licença e ausência**. Para funcionários individuais, esta opção aparece no agrupamento de **Licenças e ausências** no perfil do funcionário. 
-
-- **Arredondamento de acúmulos de licença** - Novas opções para **Tipo de licença** definem qual tipo de arredondamento de acúmulos deve ser usado, mais a precisão decimal do arredondamento durante o processo de acumulação. Quando as competências são processadas, o arredondamento e a precisão são aplicados aos registros de competência. 
-
-- **Configurar vários tipos de licença em um único plano de licença** - Uma nova coluna no plano de acumulação de licença para tipos de licença permite definir vários tipos de licença em um planejamento de licença e ausência com diferentes agendas de competência. O campo **Tipo de licença** anterior é removido. Na inscrição do funcionário, os saldos para os tipos de licença agora são exibidos em uma tabela em vez de na parte superior da tela.
-
-  > [!IMPORTANT]
-  > Não é possível desativar esse recurso após ativá-lo.
-
-- **Use a equivalência de horário integral de um funcionário (FTE) para acumular** - Uma nova coluna na agenda de acumulação de licença permite o uso de FTE para acumulação. Quando as competências são processadas, o aplicativo usa a posição principal do funcionário e a FTE definida para determinar o valor acumulado rateado.
-
-  > [!NOTE]
-  > Este recurso só estará disponível se você habilitar **Configurar vários tipos de licença por licença**. 
-
-## <a name="feedback"></a>Comentários
+## <a name="send-us-feedback"></a>Envie seus comentários
 
 Queremos saber sua experiência com esses recursos de visualização. É recomendável postar regularmente seus comentários nos sites a seguir conforme você os usa ou quaisquer outros recursos:
 
 - [Comunidade](https://community.dynamics.com/enterprise/f/759?pi53869=0&category=Talent) Este site é um ótimo recurso onde os usuários podem discutir casos de uso, fazer perguntas e obter ajuda da comunidade.
-- Conte para nós os recursos que você deseja ver no produto ou as alterações que você acha que devemos fazer nos recursos existentes. Sugerir ideias de produtos em [Ideias de Human Resources](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)
+- Conte para nós os recursos que você deseja ver no produto ou as alterações que você acha que devemos fazer nos recursos existentes. Sugerir ideias de produtos em [Ideias de Human Resources](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources).
     
 Não inclua dados pessoais (qualquer informação que pode te identificar) em seus comentários ou envios de análise do produto. Informações coletadas podem ser analisadas mais profundamente, e elas não serão usadas para atender a solicitações em leis aplicáveis de privacidade. Dados pessoais que são coletados separadamente nestes programas estão sujeitos à [Política de Privacidade online da Microsoft](https://privacy.microsoft.com/privacystatement).
 

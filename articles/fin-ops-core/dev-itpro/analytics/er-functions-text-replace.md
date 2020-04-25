@@ -3,7 +3,7 @@ title: Função de ER REPLACE
 description: Este tópico fornece informações sobre como a função de relatório eletrônico (ER) REPLACE é usada.
 author: NickSelin
 manager: kfend
-ms.date: 12/10/2019
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba2590635ba465dae9ea50d3e4da989365548f3b
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 83d5095620a938f1ac4b8428fff9209fda7a7831
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040977"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201057"
 ---
-# <a name="REPLACE">Função de ER REPLACE</a>
+# <a name=""></a><a name="REPLACE">Função de ER REPLACE</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -69,7 +69,7 @@ O valor de texto resultante.
 
 Se o argumento `regular expression flag` for **TRUE**, esta função retornará a cadeia de caracteres especificada depois de ter sido alterada, aplicando a expressão regular especificada pelo argumento `pattern`. A expressão regular é usada para encontrar os caracteres que devem ser substituídos.
 
-Se o argumento `regular expression flag` for **FALSE**, esta função se comportará como [TRANSLATE](er-functions-text-translate.md). Os caracteres especificados pelo argumento `replacement` são usados para substituir os caracteres que são encontrados. 
+Se o argumento `regular expression flag` for **FALSE**, essa função retorna a cadeia de caracteres especificada após o conjunto de caracteres que foram definidos no argumento `pattern` foram substituídos pelos caracteres do argumento `replacement`. 
 
 ## <a name="example-1"></a>Exemplo 1
 

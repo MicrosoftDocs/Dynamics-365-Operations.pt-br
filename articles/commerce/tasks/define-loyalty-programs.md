@@ -16,16 +16,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b178f1c6a71b34b70db4dbcd1765117215a4d2a1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 91f30d4d1b66e5b4b90f7df67d8f76a95a100338
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021601"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141306"
 ---
 # <a name="define-loyalty-programs"></a>Definir programas de fidelidade
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este procedimento mostra como configurar um programa de fidelidade com as duas camadas de fidelidade. Este procedimento usa a empresa de dados de demonstração USRT.
 
@@ -73,7 +73,7 @@ Este procedimento mostra como configurar um programa de fidelidade com as duas c
 35. Clique em Grupos de preços.
     * Se desejar conceder descontos aos clientes do programa de fidelidade, será necessário atribuir um ou mais grupos de preços ao programa de fidelidade e atribuir os grupos de preços aos descontos. É uma prática recomendada não misturar grupos de preços nos diferentes tipos de entidades desconto.  Por exemplo, não use o mesmo grupo de preços para um desconto de fidelidade e um desconto de canal.  
 36. No campo Grupos de preços, clique no botão suspenso para abrir a pesquisa.
-    * O link Grupos de preços na parte superior da página é para o programa de fidelidade. O link Grupos de preços na guia rápida Camadas do programa é somente para uma camada específica de fidelidade.  
+    * O link Grupos de preços na parte superior da página é para o programa de fidelidade. O link de Grupos de preços na Guia rápida e níveis de programa é apenas para um nível de fidelidade específico.  
 37. Na lista, clique no link na linha selecionada.
 38. Clique em Salvar.
 39. Feche a página.

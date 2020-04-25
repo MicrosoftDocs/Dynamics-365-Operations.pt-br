@@ -3,7 +3,7 @@ title: Visão geral de gerenciamento de documentos comerciais
 description: Este tópico fornece informações sobre como usar o recurso de gerenciamento de documentos comerciais da estrutura de ER.
 author: NickSelin
 manager: AnnBe
-ms.date: 01/15/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 11db3ee1e9407febce7731d0888e7a10375a90da
-ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
+ms.openlocfilehash: 5a57b96387ca5746a30b2e438d6b5f0ce3040f54
+ms.sourcegitcommit: 728cd7f723ee821337eee315a27977e99a44d9d3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3117328"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "3258548"
 ---
 # <a name="business-document-management-overview"></a>Visão geral de gerenciamento de documentos comerciais
 
@@ -46,7 +46,7 @@ Para usar o gerenciamento de documentos comerciais para editar modelos nos forma
 
 ## <a name="business-document-availability"></a>Disponibilidade de documentos comerciais
 
-Os seguintes relatórios, com modelos baseados no Excel, estarão disponíveis com o lançamento da visualização pública:
+Os seguintes relatórios, com modelos baseados no Excel, se tornarão disponíveis com o lançamento da visualização pública:
 
 **Contas a receber** (agosto de 2019)
 
@@ -248,9 +248,18 @@ Use o procedimento a seguir para editar modelos de fatura de texto livre no espa
 1. Entre como um usuário com acesso ao espaço de trabalho Gerenciamento de documentos comerciais.
 2. Abra o espaço de trabalho Gerenciamento de documentos comerciais.
 
+Quando o recurso **Experiência de interface de usuário semelhante à do Office para o Gerenciamento de documentos comerciais** está desativado no espaço de trabalho **Gerenciamento de recurso**, a grade principal no espaço de trabalho **Gerenciamento de documentos comerciais** exibe os modelos ao seguir:
+
+- Modelos que são de propriedade do provedor de configuração ER (ou seja, o provedor marcado atualmente como ativo no espaço de trabalho do **Relatório eletrônico**). Depois de selecionar um desses modelos, você pode selecionar **Editar modelo** para iniciar ou continuar para editá-lo.
+- Modelos que são de propriedade de outros provedores de configuração ER. Depois de selecionar um desses modelos, você pode selecionar **Novo documento** para criar uma cópia dele pertencente ao provedor de configuração er e, em seguida, iniciar a edição da cópia.
+
 ![Página do espaço de trabalho de gerenciamento de documentos comerciais](./media/BDM-Overview-EditingTemplate1.png)
 
 A guia **Modelo** apresenta o conteúdo do modelo selecionado. Selecione a guia **Detalhes** para analisar os detalhes do modelo selecionado, bem como os detalhes de uma configuração de formato de ER em que esse modelo está. Observe que todos os modelos têm o status de **Publicado** e não contêm detalhes na coluna **Revisão**. Isso significa que esses modelos não estão sendo editados no momento.
+
+Quando o recurso **Experiência de interface de usuário semelhante à do Office para o Gerenciamento de documentos comerciais** estiver ativado no espaço de trabalho **Gerenciamento de recurso**, a grade principal no espaço de trabalho **Gerenciamento de documentos comerciais** exibe templates que são propriedade do fornecedor de configuração ER (ou seja, o fornecedor que está marcado atualmente como ativo no espaço de trabalho **Relatório eletrônico**). Depois de selecionar um desses modelos, você pode selecionar **Editar modelo** para iniciar ou continuar para editá-lo.
+
+Para trabalhar com modelos que são de propriedade de outros fornecedores de configuração ER, selecione **Novo documento** para criar uma cópia do modelo pertencente ao seu provedor de er. Você pode começar a editar a cópia. Para obter mais informações, consulte [Nova interface do usuário do documento no Gerenciamento de documentos comerciais](er-business-document-management-new-template-ui.md).
 
 ### <a name="initiate-editing-templates-owned-by-your-configuration-provider"></a>Iniciar modelos de edição pertencentes ao seu provedor de configuração
 
