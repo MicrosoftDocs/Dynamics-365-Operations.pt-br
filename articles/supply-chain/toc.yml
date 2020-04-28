@@ -70,12 +70,12 @@
                   items:
                     - name: Novidades ou alterações na home page do Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.11 (julho de 2020)
+                      href: get-started/whats-new-scm-10-0-11.md
                     - name: Supply Chain Management 10.0.10 (maio de 2020)
                       href: get-started/whats-new-scm-10-0-10.md
                     - name: Supply Chain Management 10.0.9 (abril de 2020)
                       href: get-started/whats-new-scm-10-0-9.md
-                    - name: Supply Chain Management 10.0.8 (fevereiro de 2020)
-                      href: get-started/whats-new-scm-10-0-8.md
                 - name: Recursos removidos ou obsoletos
                   items:
                     - name: Recursos removidos ou obsoletos do Dynamics 365 Supply Chain Management
@@ -349,6 +349,8 @@
               items:
                 - name: 'Previsões, ordens de serviço e projetos'
                   href: asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
+            - name: Integrar gerenciamento de ativos com ativos fixos
+              href: asset-management/integration-to-fixed-assets/fixed-asset-integration.md
             - name: Manutenção preventiva e reativa
               items:
                 - name: Visão geral da manutenção preventiva
@@ -563,11 +565,13 @@
                   href: cost-management/lifo-date-physical-value-marking.md
                 - name: ​UEPS com valor físico e marcação​
                   href: cost-management/lifo-physical-value-marking.md
-                - name: Média de movimentos
+                - name: Média móvel
                   href: cost-management/moving-average.md
-                - name: Atualizações físicas e financeirass
+                - name: Sequência de custos de fallback de média móvel
+                  href: cost-management/moving-average-fallback.md
+                - name: Atualizações físicas e financeiras
                   href: cost-management/physical-financial-updates.md
-                - name: ​Preço de custo médio​
+                - name: Preço de custo médio
                   href: cost-management/running-average-cost-price.md
                 - name: ​Rastreamento do custo médio por dimensão do estoque​
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
@@ -579,7 +583,9 @@
                   href: cost-management/inventory-close.md
                 - name: Ajustar valores de custo de estoque disponível
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: Relatório de classificação por vencimento do estoque
+                - name: Relatório de armazenamento de valor de estoque
+                  href: cost-management/inventory-value-report-storage.md
+                - name: Armazenamento de relatório de classificação por vencimento do estoque
                   href: cost-management/inventory-aging-report-storage.md
             - name: Contabilidade de fabricação
               items:
@@ -1223,6 +1229,8 @@
                   href: inventory/enable-quality-management.md
                 - name: Processos de gerenciamento de qualidade
                   href: inventory/quality-management-processes.md
+                - name: Gestão de qualidade para processos de depósito
+                  href: inventory/quality-management-for-warehouses-processes.md
                 - name: ​Gerenciamento de não conformidade​
                   href: inventory/enable-nonconformance-management.md
                 - name: Configurar pré-requisitos para gerenciamento
@@ -2549,6 +2557,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
                 - name: Agrupamento do sistema em uma lista de trabalho aberta
                   href: warehousing/system-group-on-open-work-list.md
+                - name: Layout de roteiro de documentos para etiquetas de placa de licença
+                  href: warehousing/document-routing-layout-for-license-plates.md
                 - name: Digitalizar códigos de barras usando uma câmera no Dynamics 365 for Finance and Operations
                   href: warehousing/scan-bar-codes-using-a-camera.md
                 - name: Suporte a leitor de código de barras móvel
@@ -2653,6 +2663,8 @@
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
                 - name: ​Configurar dispositivos móveis para trabalho de depósito​
                   href: warehousing/configure-mobile-devices-warehouse.md
+                - name: Recebimento da placa de licença com o aplicativo móvel de depósito
+                  href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                 - name: Configurar um item de menu de dispositivo móvel para concluir trabalhos em uma ordem de compra
                   href: warehousing/tasks/set-up-mobile-device-menu.md
                 - name: Configurar um item de menu do dispositivo móvel para registrar itens recebidos
@@ -2673,6 +2685,8 @@
                   href: warehousing/upgrade-migration-warehouse-management-processes.md
             - name: Recibos para registro e armazenamento
               items:
+                - name: Processamento de cargas de entrada das ordens de compra no depósito
+                  href: warehousing/inbound-load-handling.md
                 - name: Registrar itens para um item habilitado de depósito avançado usando um diário de entrada de item
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: Registrar itens para um item básico com armazenamento habilitado usando um diário de entrada de itens
@@ -2682,6 +2696,7 @@
                 - name: Configurar uma diretiva de localização para o registro da ordem de compra
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
                 - name: Configurar um modelo de trabalho para ordens de compra
+                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
         - name: Desenvolvimento do Supply Chain Management
           items:
             - name: Guia de desenvolvimento de controle de Gantt
