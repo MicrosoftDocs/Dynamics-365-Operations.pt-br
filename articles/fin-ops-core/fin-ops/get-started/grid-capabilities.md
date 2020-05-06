@@ -3,7 +3,7 @@ title: Recursos de grade
 description: Este tópico descreve vários recursos avançados do controle de grade. O novo recurso de grade deve estar habilitado para ter acesso a esses recursos.
 author: jasongre
 manager: AnnBe
-ms.date: 04/10/2020
+ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0fd0e15ea88e9f5f34d8dff82606a8d26616a16d
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: fd45f71fc15e467c461433682310ab7b7cc0158a
+ms.sourcegitcommit: 0d7b700950b1f95dc030ceab5bbdfd4fe1f79ace
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260451"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3284395"
 ---
 # <a name="grid-capabilities"></a>Recursos de grade
 
@@ -86,6 +86,23 @@ Se você selecionar **Agrupar por esta coluna** em uma coluna diferente, o agrup
 
 Para desfazer o agrupamento em uma grade, clique com o botão direito do mouse na coluna de agrupamento e selecione **Desagrupar**.  
 
+## <a name="typing-ahead-of-the-system"></a>Digitação à frente do sistema
+Em vários cenários comerciais, a capacidade de inserir rapidamente dados no sistema é muito importante. Antes que o novo controle de grade tenha sido introduzido, os usuários podem alterar os dados somente na linha atual. Antes de criar uma nova linha ou alternar para uma linha diferente, eles foram forçados a esperar o sistema validar com êxito as alterações. Para reduzir o tempo durante o qual os usuários esperam que as validações sejam concluídas e para melhorar a produtividade do usuário, a nova grade ajusta essas validações para que sejam assíncronas. Portanto, o usuário pode ir para outras linhas para fazer alterações enquanto as validações de linhas anteriores estão pendentes. 
+
+Para dar suporte a esse novo comportamento, uma nova coluna para o status da linha foi adicionada à parte superior da grade quando a grade está no modo de edição. Esta coluna indica um dos seguintes status:
+
+- **Em branco** – Nenhuma imagem de status indica que a linha foi salva com êxito pelo sistema.
+- **Processamento pendente** – Este status indica que as alterações na linha ainda não foram salvas pelo servidor, mas que estão em uma fila de alterações que devem ser processadas. Antes de executar a ação fora da grade, você deve aguardar até que todas as alterações pendentes sejam processadas. Além disso, o texto nessas linhas fica em itálico para indicar o status não salvo das linhas. 
+- **Aviso de validação** – Este status indica que o sistema não pode salvar as alterações na linha devido a algum problema de validação. Na grade antiga, você foi forçado a voltar para a linha a fim de corrigir o problema imediatamente. No entanto, na nova grade, você é notificado de que um problema de validação foi encontrado, mas pode decidir quando deseja corrigir os problemas na linha. Quando estiver pronto para corrigir o problema, você pode mover o foco manualmente de volta para a linha. Alternativamente, você pode selecionar a ação **Corrigir este problema**. Esta ação move imediatamente o foco para a linha que tem o problema e permite que você faça edições dentro ou fora da grade. Observe que o processamento de linhas pendentes subsequentes é interrompido até que este aviso de validação seja resolvido. 
+- **Em pausa** – Esse status indica que o processamento pelo servidor está pausado porque a validação da linha disparou uma caixa de diálogo pop-up que requer entrada do usuário. Como o usuário pode estar inserindo dados em alguma outra linha, a caixa de diálogo pop-up não é imediatamente apresentada ao usuário. Em vez disso, ele será apresentado quando o usuário optar por retomar o processamento. Esse status é acompanhado por uma notificação que informa o usuário sobre a situação. A notificação inclui uma ação **Retomar o processamento** que irá disparar a caixa de diálogo pop-up.  
+    
+Quando os usuários inserem dados antes do local em que o servidor está processando, eles podem esperar algumas degradações na experiência de entrada de dados, como a falta de pesquisas, a validação no nível de controle e a entrada de valores padrão. Recomenda-se que os usuários que precisam de uma lista suspensa para localizar um valor aguardem até que o servidor volte para a linha atual. A validação do nível de controle e a entrada de valores padrão também ocorrerão quando o servidor processar essa linha.   
+
+### <a name="pasting-from-excel"></a>Colando a partir do Excel
+Os usuários sempre foram capazes de exportar dados de grades em aplicativos do Finance and Operations para o Excel usando o mecanismo de **Exportação para o Excel**. No entanto, a capacidade de inserir dados antes do sistema permite que a nova grade dê suporte à cópia de tabelas do Excel e colando-as diretamente em grades em aplicativos do Finance and Operations. A célula de grade na qual a operação de colagem é iniciada determina onde a tabela copiada começa a ser colada. O conteúdo da grade é substituído pelo conteúdo da tabela copiada, exceto em dois casos:
+
+- Se o número de colunas na tabela copiada exceder o número de colunas que permanecem na grade, iniciando a partir do local de colagem, o usuário será notificado de que as colunas extras foram ignoradas. 
+- Se o número de linhas na tabela copiada exceder o número de linhas na grade, a partir do local de colagem, as células existentes serão sobrescritas pelo conteúdo colado e todas as linhas extras da tabela copiadas serão inseridas como novas linhas na parte inferior da grade. 
 
 ## <a name="evaluating-math-expressions"></a>Avaliação de expressões matemáticas
 Como um acelerador de produtividade, os usuários podem inserir fórmulas matemáticas em células numéricas em uma grade. Eles não precisam fazer o cálculo em um aplicativo fora do sistema. Por exemplo, se você digitar **=15\*4** e pressionar a tecla **Tab** para sair do campo, o sistema avaliará a expressão e salvará um valor de **60** para o campo.
@@ -110,3 +127,64 @@ Para que o sistema reconheça um valor como uma expressão, inicie o valor com u
 4.  **Habilitar o recurso**: localize o recurso **Novo controle de grade** na lista de recursos e selecione **Habilitar agora** no painel de detalhes. Observe que uma atualização do navegador é necessária. 
 
 Todas as sessões de usuário subsequentes começarão com o novo controle de grade habilitado.
+
+## <a name="known-issues"></a>Problemas conhecidos
+Esta seção mantém uma lista de problemas conhecidos do novo controle de grade enquanto o recurso está em um estado de visualização.  
+
+### <a name="open-issues"></a>Questões em aberto
+
+- As listas de cartões que foram processadas como várias colunas agora são processadas como uma única coluna.
+- As listas agrupadas não são processadas como grupos ou em colunas separadas.
+- As dicas de ferramentas não são mostradas para imagens.
+- As linhas de grade exibidas não funcionam para todos os tipos de campo.
+- Intermitentemente, você não pode clicar fora da grade após selecionar várias linhas.
+- As opções de Gravador de tarefas **Validar** e **Copiar** não estão disponíveis para controles de data/número.
+
+### <a name="fixed-as-part-of-10012"></a>Corrigido como parte do 10.0.12
+
+> [!Note]
+> As informações a seguir estão sendo fornecidas para que você possa planejar de acordo. Para obter mais informações sobre a agenda de lançamentos de destino da versão 10.0.12, consulte [Disponibilidade das atualizações do serviço](../../fin-ops/get-started/public-preview-releases.md).
+
+- [Questão 429126] Controles fora da grade não são atualizados após o último registro ser excluído.
+- [Questão 430575] Os controles de tabela não atualizam o conteúdo dos itens exibidos.
+- [KB 4558570] Os itens ainda são mostrados na página após a exclusão do registro.
+- [KB 4558584] Os números negativos não são renderizados corretamente.
+- [KB 4558575] Os campos não são atualizados depois que um processamento de alteração/grade de linha fica preso após a exclusão da linha.
+- [Questão 436980] Estilo associado à extensão estendida do painel de lista **ExtendedStyle** não é aplicado.
+- [KB 4558573] Os erros de validação não podem ser corrigidos quando a alteração necessária está fora da grade.
+    
+### <a name="quality-update-for-10011"></a>Atualização de qualidade para 10.0.11
+
+- [KB 4558381] Os números negativos não são renderizados corretamente/os usuários podem ficar presos depois que problemas de validação são encontrados.
+
+### <a name="fixed-as-part-of-10011"></a>Corrigido como parte do 10.0.11
+
+- [KB 4558374] Os registros que exigem uma caixa de diálogo de seletor polimórfico não podem ser criados.
+- [KB 4558382] Ocorreram erros inesperados do cliente.
+- [KB 4558375] O texto de ajuda não é exibido em colunas na nova grade.
+- [KB 4558376] As grades do painel de lista não são processadas na altura correta em Internet Explorer.
+- [KB 4558377] As colunas da caixa de combinação que têm largura de **SizeToAvailable** não são processadas em algumas páginas.
+- [KB 4549711] As linhas em uma proposta de pagamento não podem ser removidas corretamente após a habilitação do novo controle de grade.
+- [KB 4558378] A busca detalhada às vezes abre o registro errado.
+- [KB 4558379] Ocorre um erro quando as pesquisas são abertas onde **ReplaceOnLookup**=**Não**.
+- [KB 4558380] O espaço disponível na grade não é preenchido imediatamente depois que parte da página é recolhida.
+- [Questão 432458] Linhas vazias ou duplicadas são mostradas no início de algumas coleções filhas.
+- [KB 4558587] Os grupos de referência que possuem caixas de combinação para campos de substituição não mostram valores.
+
+### <a name="fixed-as-part-of-10010"></a>Corrigido como parte do 10.0.10
+
+- [Questão 414301] Alguns dados das linhas anteriores desaparecem quando novas linhas são criadas.
+- [KB 4550367] Os valores de tempo não estão formatados corretamente.
+- [KB 4549734] As linhas ativas não serão tratadas como marcadas se a coluna de marcação estiver oculta.
+- [Bug 417044] Não há mensagens de grade vazias para grades de estilo de lista.
+- [KB 4558367] A seleção de texto fica inconsistente quando as linhas são alteradas.
+- [KB 4558372] A nova grade ficará presa no modo de processamento se o número de colunas no conteúdo colado exceder o número de colunas restantes na grade.
+- [KB 4558368] Várias seleções via teclado são permitidas em cenários de seleção única.
+- [KB 4539058] Algumas grades (geralmente nas Guias Rápidas) não são renderizadas (mas serão processadas se você sair do zoom).
+- [KB 4558369] As imagens de status desaparecem na grade hierárquica.
+- [KB 4558370] Uma nova linha não é exibida com rolagem na exibição.
+- [KB 4549796] Os valores não podem ser editados em uma grade quando ela está em modo de exibição.
+
+### <a name="quality-update-for-1009platform-update-33"></a>Atualização de qualidade para 10.0.9/Atualização da plataforma 33
+
+- [KB 4550367] Os valores de tempo não estão formatados corretamente.

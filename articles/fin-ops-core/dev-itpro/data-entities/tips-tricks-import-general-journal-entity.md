@@ -1,9 +1,9 @@
 ---
 title: Práticas recomendadas para importar vouchers usando a entidade Diário geral
 description: Este tópico fornece dicas para importar dados para o diário geral usando Entidade de diário geral.
-author: ShylaThompson
+author: rcarlson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 23a4cff85bb5c9d119f9ec47e8421aa1964a3d4f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 13ea54a6fc4ccdfbcc917b533fe9896d57bcb347
+ms.sourcegitcommit: f1bef1cb4b3d2c9261e89820d624e4b0fe60d25c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769601"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3281477"
 ---
 # <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>Práticas recomendadas para importar vouchers usando a entidade Diário geral
 
@@ -30,7 +30,7 @@ ms.locfileid: "2769601"
 
 Este tópico fornece dicas para importar dados para o diário geral usando Entidade de diário geral.
 
-Você pode usar a entidade de diário geral para importar somente os comprovantes que têm um tipo de conta ou contrapartida de **Razão, Cliente, Fornecedor ou Banco**. O voucher pode ser digitado como uma linha, usando o campo **Conta** e o campo **Contrapartida**, ou como um comprovante de várias linhas, onde somente o campo **Conta** é usado (e **Contrapartida** é deixado em branco em cada linha). A entidade do diário geral não suporta cada tipo de conta. Em vez disso, existem outras entidades para cenários onde diferentes combinações de tipos de conta são necessárias. Por exemplo, para importar uma transação de projeto, use a entidade do diário de despesas do projeto. Cada entidade é projetada para suportar cenários específicos, o que significa que campos adicionais podem estar disponíveis em entidades para esses cenários, mas não em entidades para um cenário diferente.
+Você pode usar a entidade de diário geral para importar somente os comprovantes que têm um tipo de conta ou contrapartida de **Razão**, **Cliente**, **Fornecedor** ou **Banco**. O voucher pode ser digitado como uma linha, usando o campo **Conta** e o campo **Contrapartida**, ou como um comprovante de várias linhas, onde somente o campo **Conta** é usado (e **Contrapartida** é deixado em branco em cada linha). A entidade do diário geral não suporta cada tipo de conta. Em vez disso, existem outras entidades para cenários onde diferentes combinações de tipos de conta são necessárias. Por exemplo, para importar uma transação de projeto, use a entidade do diário de despesas do projeto. Cada entidade foi projetada para oferecer suporte a cenários específicos. Isso significa que campos adicionais podem estar disponíveis nas entidades para esses cenários. Contudo, campos adicionais podem não estar disponíveis em entidades para diferentes cenários.
 
 ## <a name="setup"></a>Instalação
 Antes de você importar usando a entidade diário geral, valide a configuração a seguir:
@@ -44,7 +44,7 @@ Duas configurações em Gerenciamento de dados afetam como o número de lote de 
 - **Processamento baseado conjunto** (na entidade de dados)
 - **Gerado automaticamente** (no mapeamento de campo)
 
-As seções a seguir descrevem o efeito dessas configurações e também explicam como os números de lote do diário e os números de comprovantes são gerados.
+As seções a seguir descrevem o efeito dessas configurações. Elas também explicam como o sistema gera números de lote para diários e números de comprovante.
 
 ### <a name="journal-batch-number"></a>Número do lote do diário
 
@@ -57,10 +57,10 @@ As seções a seguir descrevem o efeito dessas configurações e também explica
 
 ### <a name="voucher-number"></a>Número do comprovante
 
-- Quando você usa a configuração **Processamento baseado em conjunto** na entidade Diário geral, o número do comprovante deve ser fornecido no arquivo importado. Todas as transações no diário geral são atribuída ao número do comprovante que é fornecido no arquivo importado, mesmo se o comprovante não for balanceado. Se você deseja usar o processamento baseado em conjunto, mas você também deseja usar a sequência numérica que é definida para números de comprovante, um hotfix foi fornecido para a versão de fevereiro de 2016. O número do hotfix é 3170316 e está disponível para download a partir do Lifecycle Services (LCS). Para obter mais informações, consulte [Baixar atualizações do Lifecycle Services (LCS)](../migration-upgrade/download-hotfix-lcs.md).
+- Quando você usa a configuração **Processamento baseado em conjunto** na entidade Diário geral, o número do comprovante deve ser fornecido no arquivo importado. Todas as transações no diário geral são atribuída ao número do comprovante que é fornecido no arquivo importado, mesmo se o comprovante não for balanceado. Observe os pontos a seguir se você deseja usar o processamento baseado em conjunto, mas você também deseja usar a sequência numérica que é definida para números de comprovante.
 
     - Para habilitar essa funcionalidade, no nome do diário usado para importações, defina **Alocação de número no lançamento** para **Sim**.
-    - Um número de comprovante ainda deve ser definido no arquivo importado. No entanto, esse número é temporário e é substituído pelo número do comprovante quando o diário é lançado. Você deve certificar-se de que as linhas do diário são agrupadas corretamente por número de comprovante temporário. Por exemplo, durante a postagem, é constatado que três linhas possuem um voucher temporário. O número de voucher temporário de todas as três linhas é substituído pelo número seguinte na sequência de números. Se essas três linhas não são uma entrada equilibrada, o comprovante não foi publicado. Em seguida, se linhas forem encontradas que possuem um número de comprovante temporário 2, esse número será substituído pelo próximo número de comprovante na sequência numérica e assim por diante.
+    - Um número de comprovante ainda deve ser definido no arquivo importado. No entanto, esse número é temporário e será substituído pelo número do comprovante quando o diário é lançado. Certifique-se de que as linhas do diário são agrupadas corretamente por número de comprovante temporário. Por exemplo, durante a postagem, é constatado que três linhas possuem um voucher temporário. O número de voucher temporário de todas as três linhas é substituído pelo número seguinte na sequência de números. Se essas três linhas não são uma entrada equilibrada, o comprovante não será publicado. Em seguida, se linhas forem encontradas que possuem um número de comprovante temporário 2, esse número será substituído pelo próximo número de comprovante na sequência e assim por diante.
 
 - Se você não usar a configuração **Processamento baseado em conjunto**, não é necessário fornecer um número de voucher no arquivo importado. Os números de comprovante são criados durante a importação, com base na configuração do nome do diário (**Um comprovante só**, **Na conexão do saldo**, e assim por diante). Por exemplo, se o nome de diário é definido como **Na conexão do saldo**, a primeira linha recebe um novo número de comprovante padrão. Em seguida, o sistema avalia a linha para determinar se os débitos são iguais aos créditos. Se existir uma contrapartida na linha, a próxima linha importada recebe um novo número de comprovante. Se nenhuma contrapartida existir, o sistema avalia se os débitos são iguais aos créditos que cada nova linha é importada.
 - Se o campo **Número do comprovante** é definido como **Gerado automaticamente**, a importação não tem êxito. A configuração **Gerado automaticamente** para o campo **Número do comprovante** não é suportado.

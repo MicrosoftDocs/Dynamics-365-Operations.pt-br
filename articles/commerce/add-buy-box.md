@@ -3,7 +3,7 @@ title: Módulo de caixa de compra
 description: Este tópico abrange os módulos de caixa de compra e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/13/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 35b7027e0f0b680dd82ebfcea754fef1617c0163
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: 095374c14cddf1ae3608ae1427a7144b3e7ca7b2
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261389"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269742"
 ---
 # <a name="buy-box-module"></a>Módulo de caixa de compra
 
@@ -80,15 +80,15 @@ Para adicionar um módulo de caixa de compra a uma nova página e definir as pro
 1. Crie um fragmento denominado **fragmento da caixa de compra** e adicione um módulo de caixa de compra a ele.
 1. No slot **Mídia** do módulo da caixa de compra, adicione um módulo da galeria de mídia.
 1. No slot **Seletor de armazenamento** do módulo da caixa de compra, adicione um módulo de seletor de armazenamento.
-1. Insira a página e publique-a.
+1. Selecione **Salvar**, **Concluir edição** para fazer check-in do fragmento e depois selecione **Publicar** para publicá-lo.
 1. Crie um modelo para uma página de detalhes do produto e denomine-o **Modelo do PDP**.
 1. Adicione uma página padrão.
 1. No slot **Principal** da página padrão, adicione um fragmento da caixa de compra.
-1. Salve o modelo, termine de editá-lo e publique-o.
+1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
 1. Use o modelo que criou para criar uma página nomeada **Página PDP**.
 1. No slot **Principal** da nova página, adicione um fragmento da caixa de compra.
 1. Salve e exiba a página. Adicione o parâmetro da sequência de caracteres da consulta **?productid=&lt;product id&gt;** à URL da página de exibição. Dessa forma, o contexto do produto é usado para carregar e renderizar a página de exibição.
-1. Salve a página, termine de editá-la e publique-a. Uma caixa de compra deve aparecer na página de detalhes do produto.
+1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo. Uma caixa de compra deve aparecer na página de detalhes do produto.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

@@ -3,7 +3,7 @@ title: Trabalhar com layouts predefinidos
 description: Este tópico descreve como trabalhar com layouts predefinidos no Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c8149c6e443c77dabfa641a698c931176bedbc98
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: f31dfa1fdbb3732610748abe4a9de851033f2b89
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002627"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269880"
 ---
 # <a name="work-with-preset-layouts"></a>Trabalhar com layouts predefinidos
 
@@ -44,7 +44,7 @@ Há dois métodos para criar um layout predefinido. Você pode salvar um layout 
 Para criar um layout predefinido de um layout personalizado existente, siga estas etapas.
 
 1. Abra uma página existente que atualmente não use um layout predefinido e que tenha uma estrutura de módulo que você deseja reutilizar para outras páginas do seu site.
-1. Selecione **Fazer Check-Out**.
+1. Selecione **Editar** para verificar a página.
 1. Selecione **Salvar como novo layout**. A caixa de diálogo **Salvar como novo layout** será exibida.
 1. Digite um nome e uma descrição para seu layout predefinido. Os valores que você inserir serão mostrados a outros autores quando eles criarem novas páginas do seu layout ou mudarem para ele. Portanto, insira valores que serão úteis para os criadores de página.
 1. Selecione **OK**.
@@ -91,14 +91,14 @@ Para definir ou alterar um tema para todas as páginas filho com o layout predef
 Para salvar e fazer check-in do layout predefinido, siga estas etapas.
 
 1. Selecione **Salvar** na parte superior do editor do layout. As alterações salvas não afetam as páginas downstream até o check-in.
-1. Selecione **Fazer Check-In**. Suas alterações agora são detectáveis para fluxos de trabalho downstream.
+1. Selecione **Concluir edição**. Suas alterações agora são detectáveis para fluxos de trabalho downstream.
 
 Para visualizar as alterações, abra uma página existente que usa o layout predefinido ou crie uma nova página do layout.
 
 Depois que você visualizou alterações no layout predefinido, siga uma dessas etapas para publicar o layout em seu site ativo:
 
 * Vá para **Layouts**, selecione o layout depois **Publicar**.
-* No editor do layout, selecione **Publicar**.
+* Selecione o nome do layout para abrir o editor de layout e selecione **Publicar**.
 * Publicar uma página que faça referência ao layout não publicado. O layout será publicado automaticamente.
 
 > [!WARNING]

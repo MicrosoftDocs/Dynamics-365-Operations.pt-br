@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 679448255bd85aafb07270f4858d4b83d2fe643b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 4577b8b189403b3d71eb634e159d51d2fa53ce12
+ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204024"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3268784"
 ---
 # <a name="set-up-quality-orders"></a>Configurar ordens de qualidade
 
@@ -78,6 +78,9 @@ Este procedimento mostra como habilitar um processo de gerenciamento de qualidad
 8. Clique em **Salvar**.
 9. Feche a página.
 
+> [!NOTE]
+> *Gestão de qualidade para processos de depósito* fornece recursos adicionais de amostragem de itens. Ele adiciona um conceito de *escopo de amostragem de item* e permite definir uma placa completa como especificação de quantidade. Se você ativou esse recurso, consulte [Gestão de qualidade para processos de depósito](../quality-management-for-warehouses-processes.md) para obter detalhes.
+
 ## <a name="create-a-quality-group"></a>Criar um grupo de qualidade
 1. Vá para **Gerenciamento de estoque > Configuração > Controle de qualidade > Grupos de qualidade**.
 2. Clique em **Novo**.
@@ -127,7 +130,9 @@ Este procedimento mostra como habilitar um processo de gerenciamento de qualidad
 12. Na lista, clique no link na linha selecionada. Isso dependerá dos valores selecionados anteriormente. Selecione se os processos a seguir devem ser bloqueados durante as ordens de qualidade abertas vinculados a um documento de linha de origem.  
 13. Expanda ou recolha a seção **Especificações**.
 14. No campo **Grupo de teste**, selecione o grupo de teste criado anteriormente.
-15. Na lista, localize e selecione o registro desejado.
+15. Na lista, localize e selecione o PDV desejado.
 16. Clique em **Salvar**.
 17. Feche a página.
 
+> [!NOTE]
+> O recurso *Gestão de qualidade para processos de depósito* fornece opções adicionais para configurar associações de qualidade. Adiciona uma nova condição (**Tipo de depósito aplicável**) e uma nova configuração (**Política de processamento de qualidade**). Se você ativou esse recurso, consulte [Gestão de qualidade para processos de depósito](../quality-management-for-warehouses-processes.md) para obter detalhes.

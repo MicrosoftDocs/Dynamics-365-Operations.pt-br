@@ -3,7 +3,7 @@ title: Enriquecer uma página de aterrissagem da categoria
 description: Este tópico cobre o enriquecimento de páginas de categoria no Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71348efba9fc1374b9e6599eb23f198d3851036e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ca31ec7d2eee7d2b0c863506338341a870ff07ee
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003041"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269834"
 ---
 # <a name="enrich-a-category-landing-page"></a>Enriquecer uma página de aterrissagem da categoria
 
@@ -39,7 +39,7 @@ Entretanto, em vez de usar a página da categoria padrão, você poderá usar um
 
 ![Página de aterrissagem da categoria enriquecida](./media/CategoryLandingPages.png)
 
-Na ferramenta de criação, a página **Produto** inclui uma lista de categorias do canal que são atribuídas ao site. Se o status **Enriquecido** é selecionado para uma página de categoria, essa página de categoria foi enriquecida. Se não, a página da categoria padrão e o conteúdo são usados para a categoria. Você pode visualizar as páginas de categoria de produto enriquecida para a categoria selecionando o nome da categoria.
+Na construtor de sites do Commerce, a página **Produtos** inclui uma lista de categorias do canal que são atribuídas ao site. Se o status **Enriquecido** é selecionado para uma página de categoria, essa página de categoria foi enriquecida. Se não, a página da categoria padrão e o conteúdo são usados para a categoria. Você pode visualizar as páginas de categoria de produto enriquecida para a categoria selecionando o nome da categoria.
 
 Para enriquecer uma pagina de categoria, siga este procedimento.
 
@@ -48,9 +48,7 @@ Para enriquecer uma pagina de categoria, siga este procedimento.
 3. Selecione um modelo para a página de categoria enriquecida. Se estiver fazendo apenas alterações menores, selecione a página da categoria padrão. Alternativamente, você pode selecionar um modelo específico de página de categoria. Quando você seleciona o modelo, o editor de páginas é aberto e o modelo selecionado é usado para criar uma nova página de categoria para a categoria selecionada. A página realizará check-out, e agora você pode fazer as alterações.
 
 > [!NOTE]
-> Módulos que usam dados de especificação de categoria usam os dados da categoria selecionada.
->
-> As configurações do modelo selecionado determinam as alterações que você pode fazer.
+> Módulos que usam dados de especificação de categoria usam os dados da categoria selecionada. As configurações do modelo selecionado determinam as alterações que você pode fazer.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

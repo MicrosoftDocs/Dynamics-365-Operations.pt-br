@@ -3,7 +3,7 @@ title: Recursos e funcionalidades de acessibilidade
 description: Este tópico fornece informações sobre os recursos de acessibilidade e funcionalidades no Microsoft Dynamics 365 Commerce.
 author: BrianShook
 manager: annbe
-ms.date: 01/08/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3edc6250dd5438be31d80a9d6b0f3b730438ca53
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6f6bca3589da4055eef000fc3b2c88b93eabb4d5
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001751"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3274179"
 ---
 # <a name="accessibility-features-and-capabilities"></a>Recursos e funcionalidades de acessibilidade
 
@@ -49,7 +49,7 @@ O sistema de gerenciamento de ativos digitais Dynamics 365 Commerce oferece supo
 
 | Recurso de vídeo               | Descrição |
 |-----------------------------|-------------|
-| Legendagem oculta (CC)      | Texto que pode ser mostrado para os elementos descritivos de áudio e áudio de um vídeo, para ajudar os usuários com deficiência auditiva |
+| Legendagem oculta (CC)      | Texto que pode ser mostrado para os elementos descritivos de áudio e áudio de um vídeo, para ajudar os usuários surdos ou com dificuldades auditivas |
 | Subtítulos                   | Arquivos de legenda que mostram o texto de pistas de contexto ou diálogos na tela |
 | Transcrições de áudio           | Um transcrição textual de palavras faladas que é gerado pelo áudio de um ativo de vídeo |
 | Áudio descritivo           | Um canal de áudio não primário que descreve o conteúdo ou contexto que está ocorrendo na tela |
@@ -57,7 +57,7 @@ O sistema de gerenciamento de ativos digitais Dynamics 365 Commerce oferece supo
 
 ### <a name="configure-video-accessibility-elements"></a>Configurar elementos de acessibilidade de vídeo
 
-No Dynamics 365 Commerce, na seção **Ativos** do site, você pode carregar ativos de vídeo que tenham arquivos separados para legendas ocultas, áudio regular e áudio descritivo. As legendas ocultas também podem ser gerados automaticamente quando um ativo de vídeo é carregado.
+Na seção **Biblioteca de Mídia** do Commerce do site, você pode carregar ativos de vídeo que tenham arquivos separados para legendas ocultas, áudio regular e áudio descritivo. As legendas ocultas também podem ser gerados automaticamente quando um ativo de vídeo é carregado.
 
 #### <a name="generate-or-upload-closed-caption-files-during-video-asset-upload"></a>Gerar ou carregar arquivos de legendas ocultas durante o carregamento de ativos de vídeo
 
@@ -72,7 +72,7 @@ Para carregar manualmente um arquivo de legendas ocultas quando você carregar u
 Para carregar arquivos de áudio ou descritivos regulares para o vídeo, use o seletor de arquivos na caixa de diálogo **Carregar ativo**.
 
 > [!NOTE]
-> Legendas ocultas, áudio regular e ativos de áudio descritivos também podem ser adicionados depois que um ativo de vídeo for carregado. Vá para **Ativos**, selecione o ativo de vídeo e faça o check-out e, no painel de propriedades do ativo de vídeo, carregue os ativos adicionais.
+> Legendas ocultas, áudio regular e ativos de áudio descritivos também podem ser adicionados depois que um ativo de vídeo for carregado. Vá para **Biblioteca de Mídia**, selecione o ativo de vídeo e depois **Editar** para finalizar a compra. Em seguida, no painel de propriedades do ativo de vídeo, carregue os ativos adicionais.
 
 #### <a name="edit-cc-and-audio-transcript-files"></a>Editar arquivos de transcrição de áudio e CC
 
@@ -80,10 +80,10 @@ Os arquivos de transcrição de CC e de áudio podem ser editados diretamente na
 
 Para editar os arquivos de transcrição de áudio e de CC, siga estas etapas.
 
-1. Vá para **Ativos**, selecione o ativo de vídeo e, em seguida, selecione **Editar CC/transcrição**. O editor de conteúdo de transcrição e legendas ocultas é exibido.
-1. Selecione **Fazer Check-Out**.
+1. Vá para **Biblioteca de Mídia** e selecione o nome do arquivo do ativo do vídeo. O editor de conteúdo de transcrição e legendas ocultas é exibido.
+1. Selecione **Editar**.
 1. Edite as legendas ocultas ou o texto da transcrição.
-1. Quando terminar, selecione **Salvar** e depois **Check In**.
+1. Quando terminar, selecione **Salvar** e depois **Concluir a edição**.
 1. Quando estiver pronto para publicar, selecione **Publicar**.
 
 #### <a name="set-the-minimum-age-attribute"></a>Definir o atributo de idade mínima
@@ -92,8 +92,8 @@ Um atributo de metadados de **Idade mínima** pode ser associado a ativos de ví
 
 Para definir o atributo de **Idade mínima** de um ativo de vídeo, siga estas etapas.
 
-1. Vá para **Ativos**e selecione o ativo de vídeo.
-1. Selecione **Fazer Check-Out**.
+1. Vá para **Biblioteca de Mídia**e selecione o ativo de vídeo.
+1. Selecione **Editar**.
 1. No painel de propriedades do ativo de vídeo, defina o atributo **Idade mínima**.
 
 > [!NOTE]
@@ -112,3 +112,5 @@ Para definir o atributo de **Idade mínima** de um ativo de vídeo, siga estas e
 [Compatível com cookies](cookie-compliance.md)
 
 [Adicionar página de política de privacidade](add-privacy-page.md)
+
+[Substitua os IDs de usuário associados às alterações de conteúdo controladas](replace-IDs-tracked-changes.md)

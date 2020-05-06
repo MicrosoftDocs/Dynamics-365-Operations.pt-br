@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bdd8b9c120fc4a860717a66b9dfa66e6b0daed93
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 79b4640a23d4fc78ade4de57e4071abe6c9ecb56
+ms.sourcegitcommit: 0d7b700950b1f95dc030ceab5bbdfd4fe1f79ace
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042702"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3284347"
 ---
 # <a name="electronic-reporting-formula-language"></a>Linguagem da fórmula de relatório eletrônico
 
 [!include [banner](../includes/banner.md)]
 
-O relatório eletrônico (ER) oferece uma poderosa experiência de transformação de dados. O idioma usado para expressar as manipulações de dados necessárias no designer de fórmulas ER é semelhante ao idioma da fórmula no Microsoft Excel.
+O relatório eletrônico (ER) oferece uma poderosa experiência de transformação de dados. O idioma usado para expressar as manipulações de dados necessárias no designer de [fórmulas ERr](general-electronic-reporting-formula-designer.md) é semelhante ao idioma da fórmula no Microsoft Excel.
 
 ## <a name="basic-syntax"></a>Sintaxe básica
 
@@ -41,13 +41,13 @@ As expressões de ER podem conter alguns ou todos os elementos da seguir:
 - [Caminhos](#Paths)
 - [Funções](#Functions)
 
-## <a name="Constants">Constantes</a>
+## <a name=""></a><a name="Constants">Constantes</a>
 
 Quando você cria expressões, você pode usar constantes numéricas e de texto (isto é, valores que não são calculados). Por exemplo, a expressão `VALUE ("100") + 20` usa a constante numérica **20** e a cadeia constante **“100”**, e ele devolve o valor numérico **120**.
 
 O designer da fórmula de ER suporta sequências de escape. Portanto, você pode especificar uma sequência de caracteres da expressão que deve ser tratada de maneira diferente. Por exemplo, a expressão `"Leo Tolstoy ""War and Peace"" Volume 1"` retorna a sequência de caracteres de texto **Leo Tolstoy "War and Peace" Volume 1**.
 
-## <a name="Operators">Operadores</a>
+## <a name=""></a><a name="Operators">Operadores</a>
 
 A tabela a seguir mostra os operadores aritméticos que você pode usar para executar operações matemáticas, como adição, subtração, multiplicação e divisão.
 
@@ -91,7 +91,7 @@ A ordem em que as partes de uma expressão composta são avaliadas é importante
 
 Se uma expressão tiver vários operadores consecutivos com a mesma precedência, essas operações serão avaliadas da esquerda para a direita. Por exemplo, a expressão `1 + 6 / 2 \* 3 > 5` retorna **verdadeiro**. É recomendável usar parênteses para indicar explicitamente a ordem desejada das operações nas expressões, de forma que as expressões fiquem mais fáceis de ler e manter.
 
-## <a name="References">Referências</a>
+## <a name=""></a><a name="References">Referências</a>
 
 Todas as fontes de dados do componente do ER atual que estão disponíveis durante a criação de uma expressão podem ser usadas como referências nomeadas. O componente ER atual pode ser um mapeamento de modelo ou um formato. Por exemplo, o mapeamento de modelo atual de ER contém a fonte de dados **ReportingDate** que retorna o valor do tipo de dados *DateTime*. Para formatar corretamente esse valor no documento gerado, você pode fazer referência à fonte de dados na expressão como `DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")`.
 
@@ -112,7 +112,7 @@ Você pode delimitar a maneira como os valores são passados para parâmetros de
 - Apenas as constantes podem ser aprovadas para os métodos deste tipo. Os valores das constantes são definidos no tempo de design.
 - Somente os tipos de dados primitivos (básicos) são suportados para parâmetros deste tipo. Os tipos de dados primitivos incluem *Inteiro*, *Real*, *Booliano* e *Cadeia de caracteres*.
 
-## <a name="Paths">Caminhos</a>
+## <a name=""></a><a name="Paths">Caminhos</a>
 
 Quando uma expressão referencia uma fonte de dados estruturada, você pode usar a definição do caminho para selecionar um elemento específico primitivo dessa fonte de dados. Um caractere de ponto (.) é usado para separar os elementos individuais de uma fonte de dados estruturada. Por exemplo, o modelo atual de mapeamento ER contém a fonte de dados **InvoiceTransactions** e essa origem de dados retorna uma lista de registros. A estrutura de registro **InvoiceTransactions** contém os campos **AmountDebit** e **AmountCredit** e esses campos retornam valores numéricos. Portanto, você pode criar a seguinte expressão para calcular o valor faturado: `InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit`. A construção `InvoiceTransactions.AmountDebit` nessa expressão é o caminho usado para acessar o campo **AmountDebit** da fonte de dados **InvoiceTransactions** do tipo de *Lista de registros*.
 
@@ -130,7 +130,7 @@ A parte restante do caminho absoluto também é mostrada no [Editor de fórmula 
 
 ![Parte restante do caminho absoluto na página do designer de fórmula ER](./media/ER-FormulaLanguage-RelativePath2.png)
 
-## <a name="Functions">Funções</a>
+## <a name=""></a><a name="Functions">Funções</a>
 
 As funções internas do ER podem ser usadas em expressões ER. Todas as fontes de dados do contexto da expressão (ou seja, modelo atual do mapeamento ER ou formato ER) podem ser usadas como parâmetros de funções de chamada, de acordo com a lista de argumentos das funções de chamada. As constantes também podem ser usadas como parâmetros de funções de chamada. Por exemplo, o modelo atual de mapeamento ER contém a fonte de dados **InvoiceTransactions** e essa origem de dados retorna uma lista de registros. A estrutura de registro **InvoiceTransactions** contém os campos **AmountDebit** e **AmountCredit** e esses campos retornam valores numéricos. Portanto, para calcular o valor faturado, você pode criar a seguinte expressão que usa a função de arredondamento de ER incorporada: `ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)`.
 

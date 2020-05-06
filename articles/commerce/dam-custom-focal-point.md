@@ -3,7 +3,7 @@ title: Personalizar pontos focais da imagem
 description: Este tópico descreve como personalizar pontos focais da imagem no assistente para criação de sites do Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 03/03/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2c9bbd51f1fe9a19198a455eedd3ba744d54a165
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: af922e857e6bd7a58c0b9891939c8265568b549b
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3096969"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269512"
 ---
 # <a name="customize-image-focal-points"></a>Personalizar pontos focais da imagem
 
@@ -41,7 +41,7 @@ Para definir um ponto focal personalizado de uma imagem, siga as etapas a seguir
 
 1. No painel de navegação esquerdo do assistente para criação de sites do Commerce, selecione **Biblioteca de Mídia**.
 1. Na janela principal, selecione a imagem que deseja modificar.
-1. Na barra de comandos, selecione **Editar** para verificar o arquivo.
+1. Na barra de comandos, selecione **Editar**.
 1. Selecione a imagem para entrar no **Modo de Edição**.
 1. Em **Modo de Edição**, selecione **Alterar Ponto Focal**. Um controle circular do ponto focal aparece sobre a imagem.
 1. Selecione o controle do ponto focal para movê-lo sobre o ponto focal desejado.

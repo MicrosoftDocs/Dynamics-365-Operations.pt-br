@@ -3,7 +3,7 @@ title: Moeda dupla
 description: Este tópico fornece informações sobre moeda dupla, em que a moeda de relatório é usada como uma segunda moeda contábil para o Microsoft Dynamics 365 Finance.
 author: kweekley
 manager: AnnBe
-ms.date: 08/07/2019
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4a01b8387afd45648f1205d4246378edc8a9e79b
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 8b71b571b03e8fa2648c90258bbcaa020baeabc0
+ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249002"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "3270303"
 ---
 # <a name="dual-currency"></a>Moeda dupla
 
@@ -174,10 +174,10 @@ Além disso, foram feitas alterações importantes no processo de depreciação.
 
         | Ativo Fixo | Reserva      | Tipo de transação | Data da transação | Moeda | Valor na moeda da transação | Valor  | Taxa de câmbio | Valor na moeda de relatório |
         |-------------|-----------|------------------|------------------|----------|--------------------------------|---------|-----------|---------------------------|
-        | BUIL-00001  | 200\_SLLT | Aquisição      | 6/3/2016         | DKK      | 1.000.000                      | 500,000 | 2,5       | 250,000                   |
-        | BUIL-00001  | 200\_SLLT | Depreciação     | 6/3/2016         | DKK      | 50.000                         | 50.000  | 2,5       | 250,000                   |
-        | BUIL-00001  | 200\_SLLT | Depreciação     | 6/3/2016         | DKK      | 50.000                         | 50.000  | 2,5       | 250,000                   |
-        | BUIL-00001  | 200\_SLLT | Depreciação     | 6/3/2016         | DKK      | 50.000                         | 50.000  | 2,5       | 250,000                   |
+        | BUIL-00001  | 200\_SLLT | Aquisição      | 6/3/2016         | DKK      | 1.000.000                      | 500,000 | 2.5       | 250,000                   |
+        | BUIL-00001  | 200\_SLLT | Depreciação     | 6/3/2016         | USD      | 50,000                         | 50,000  | 2.5       |  25,000                   |
+        | BUIL-00001  | 200\_SLLT | Depreciação     | 6/3/2016         | USD      | 50,000                         | 50,000  | 2.5       |  25,000                   |
+        | BUIL-00001  | 200\_SLLT | Depreciação     | 6/3/2016         | USD      | 50,000                         | 50,000  | 2.5       |  25,000                   |
 
     - Muitos clientes acompanharam os detalhes da transação de ativos nas pastas de trabalho. Esses detalhes incluem as taxas de câmbio e os valores. Se você tiver esses dados em uma pasta de trabalho, poderá criar um tipo de taxa de câmbio personalizado e atualizá-lo com as taxas de câmbio desde a pasta de trabalho. Esse tipo de taxa de câmbio será então usado para inserir uma taxa de câmbio padrão na data de aquisição e para calcular o valor na moeda de relatório. Se um tipo de taxa de câmbio não estiver selecionado, o assistente usará o tipo de taxa de câmbio definido no razão.
     - Os valores da taxa de câmbio e da moeda de relatório não podem ser alterados. Se a taxa de câmbio for alterada, o valor na moeda de relatório será recalculado usando a nova taxa.

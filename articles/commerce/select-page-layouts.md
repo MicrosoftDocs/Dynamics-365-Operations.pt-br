@@ -3,7 +3,7 @@ title: Selecionar layouts de página
 description: Este tópico explica como criar e selecionar layouts de página no Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a3e8efcdc236911ac79007c606d5d1da56f6c424
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0cbcba7ce4f40298e0f2665fa811b125f11e9490
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002765"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269903"
 ---
 # <a name="select-page-layouts"></a>Selecionar layouts de página
 
@@ -39,7 +39,7 @@ Este tópico explica como criar e selecionar layouts de página no Microsoft Dyn
 Para criar layouts para uma página existente, siga estas etapas.
 
 1. Vá até **Páginas** e localize a página existente na lista. Use o recurso de pesquisa, conforme necessário.
-1. Selecione a página, confira-a e selecione-a para abri-la. Anote a ordem do módulo.
+1. Selecione a página, selecione **Editar** para fazer check-out e, em seguida, selecione o nome da página para abri-lo. Anote a ordem do módulo.
 1. Selecione **Salvar como Novo Layout**.
 1. Informe um nome para o layout e selecione **OK**.
 1. Selecione **Converter em Layout Inserido**.
@@ -47,6 +47,7 @@ Para criar layouts para uma página existente, siga estas etapas.
 1. Selecione **Salvar como Novo Layout**.
 1. Informe um nome para o layout e selecione **OK**.
 1. Selecione **Alterar Layout**, escolha o primeiro layout criado e depois **OK**. Anote a ordem do módulo. Altere-o para que ele corresponda à ordem do módulo que foi salva com o layout.
+1. Selecione **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo. 
 
 ## <a name="select-a-different-layout-for-an-existing-page"></a>Selecione um layout diferente para obter uma página existente
 
@@ -56,9 +57,10 @@ Para criar layouts para uma página existente, siga estas etapas.
 Para selecionar um layout diferente para uma página existente, siga estas etapas.
 
 1. Vá até **Páginas** e localize a página existente na lista. Use o recurso de pesquisa, conforme necessário.
-1. Selecione a página, confira-a e selecione-a para abri-la.
+1. Selecione a página, selecione **Editar** para fazer check-out e, em seguida, selecione o nome da página para abri-lo.
 1. Selecione **Alterar layout**.
 1. Selecione o novo layout da página e depois clique em **OK**. O editor de páginas é atualizado para mostrar o novo layout.
+1. Selecione **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

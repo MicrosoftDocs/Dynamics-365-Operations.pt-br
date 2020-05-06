@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 12a0e07d1c60a359b3ba6c0d20176927ffe89431
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 57aabeef0ee94b4b13bbe6e3925bcafe1e809ab2
+ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172799"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "3270279"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Cliente potencial com pagamento à vista em gravação dupla
 
@@ -66,6 +66,14 @@ As cotações de venda podem ser criadas em Vendas ou em Supply Chain Management
 + Você pode adicionar um desconto ao produto na cotação. Nesse caso, o desconto será sincronizado com Supply Chain Management. Os campos **Desconto**, **Encargos** e **Imposto** no cabeçalho são controlados por uma configuração no Supply Chain Management. Essa configuração não dá suporte ao mapeamento de integração. Em vez disso, os campos **Preço**, **Desconto**, **Encargo** e **Imposto** são mantidos e tratados pelo Supply Chain Management.
 + Os campos **% de Desconto**, **Desconto** e **Valor do Frete** no cabeçalho de cotação de vendas são campos apenas leitura.
 + Os campos **Condições de frete**, **Condições de entrega**, **Método de entrega** e **Modo de entrega** não estão incluídos no mapeamento padrão. Para mapear esses campos, é necessário configurar um mapeamento de valor que é específico para os dados nas organizações às quais a entidade está sincronizada.
+
+Se você também estiver usando a solução do Field Service, certifique-se de reabilitar o parâmetro **Criação Rápida de Linha de Cotação**. Habilitar novamente o parâmetro permite que você continue criando linhas de cotação usando a função de criação rápida.
+1. Navegue até o aplicativo Dynamics 365 Sales.
+2. Selecione o ícone configurações na barra de navegação superior.
+3. Selecione **Configurações Avançadas**.
+4. Escolha a opção **Personalizar o Sistema**.
+5. Selecione o item de menu **Linha de Cotação**.
+6. Acesse a seção **Serviços de Dados** e marque a caixa de seleção **Permitir criação rápida**.
 
 ## <a name="sales-orders"></a>Ordens de Venda
 

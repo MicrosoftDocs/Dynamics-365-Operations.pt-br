@@ -3,7 +3,7 @@ title: Provisionar o Human Resources
 description: Este artigo o orienta através do processo de provisionar um novo ambiente de produção para Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/18/2020
+ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4f2fd2b7bf9f09a61d07e1bc35ad48fe2c5d7383
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.openlocfilehash: 88a0be50a9b861190e7ce9b3f56bb4e583b791d1
+ms.sourcegitcommit: 33685a5cc37081a189279e917def7f122d3beaef
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138350"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "3285480"
 ---
 # <a name="provision-human-resources"></a>Provisionar o Human Resources
 
@@ -53,13 +53,13 @@ Depois de criar um projeto de LCS, você pode provisionar o Human Resources em u
 
 1. Em seu projeto LCS, selecione o bloco **Gerenciamento do Aplicativo de Human Resources**.
 
-2. Indique se esta é uma instância de Área restrita ou Produção do Human Resources. Os recursos de visualização antecipada podem estar disponíveis em instâncias de Área restrita para permitir comentários e testes antecipados.
+2. Indique se este ambiente é uma instância de Área restrita ou Produção do Human Resources. Os recursos de visualização antecipada podem estar disponíveis em instâncias de Área restrita para permitir comentários e testes antecipados.
    
     > [!NOTE]
     > O tipo de instância do Human Resources não pode ser alterado após definido. Verifique se o tipo de instância correto está selecionado antes de continuar.</br></br>
     > O tipo de instância do Human Resources é separado do tipo de instância do ambiente do Microsoft Power Apps, que você definiu no centro de administração do Power Apps.
     
-3. Selecione a opção **Incluir Dados de Demonstração** se quiser que o ambiente inclua o mesmo conjunto de dados de demonstração usado na experiência de test drive do Human Resources. Isso é interessante para ambientes de demonstração ou de treinamento de longo prazo, e nunca deve ser usado em ambientes de produção.  Observe que você deve selecionar esta opção na implantação inicial. Não é possível atualizar uma implantação já existente depois.
+3. Selecione a opção **Incluir Dados de Demonstração** se quiser que o ambiente inclua o mesmo conjunto de dados de demonstração usado na experiência de test drive do Human Resources. Dados de demonstração são interessantes para ambientes de demonstração ou de treinamento de longo prazo, e nunca devem ser usados em ambientes de produção. Você deve selecionar esta opção na implantação inicial. Não é possível atualizar uma implantação já existente depois.
 
 4. O Human Resources sempre é provisionado em um ambiente do Microsoft Power Apps para permitir a integração e extensibilidade do Power Apps. Leia a seção "Selecionando um ambiente do Power Apps" deste artigo antes de prosseguir. Se você ainda não tem um ambiente do Power Apps, selecione Gerenciar ambientes no LCS ou vá para o Centro de administração do Power Apps. Em seguida, siga as etapas para [Criar um ambiente do Power Apps](https://docs.microsoft.com/powerapps/administrator/create-environment).
 
@@ -74,27 +74,27 @@ Depois de criar um projeto de LCS, você pode provisionar o Human Resources em u
     > [!NOTE]
     > Se os requisitos finais ainda não foram aprovados, você pode implantar uma instância de teste do Human Resources no projeto. Você pode usar esta instância para testar a solução até que seja aprovada. Se usar o novo ambiente para teste, você deve repetir este procedimento para criar um ambiente de produção.
 
-    > Você pode considerar o aproveitamento de um [ambiente de avaliação de recursos humanos](https://dynamics.microsoft.com/talent/overview/) de 60 dias gratuitos. Embora um ambiente de avaliação seja propriedade do usuário que o solicitou, outros usuários podem ser convidados por meio da experiência de administração do sistema para o Human Resources. Os ambientes de avaliação contêm dados fictícios que podem ser usados para explorar o programa de forma segura. Eles não devem ser usados como ambientes de produção. Observe que, quando um ambiente de avaliação expirar após 60 dias, todos os dados que estão nele serão excluídos e não poderão ser recuperados. Você pode inscrever-se para um novo ambiente de avaliação após o ambiente existente expirar.
+    > Você pode considerar o aproveitamento de um [ambiente de avaliação de recursos humanos](https://go.microsoft.com/fwlink/p/?LinkId=2115962) de 60 dias gratuitos. Embora um ambiente de avaliação seja propriedade do usuário que o solicitou, outros usuários podem ser convidados por meio da experiência de administração do sistema para o Human Resources. Os ambientes de avaliação contêm dados fictícios que podem ser usados para explorar o programa de forma segura. Eles não devem ser usados como ambientes de produção. Observe que, quando um ambiente de avaliação expirar após 60 dias, todos os dados que estão nele serão excluídos e não poderão ser recuperados. Você pode inscrever-se para um novo ambiente de avaliação após o ambiente existente expirar.
 
 ## <a name="select-a-power-apps-environment"></a>Selecionar um ambiente do Power Apps
 
-A integração entre os ambientes do Power Apps e Human Resources permite que você integre e estenda o uso dos dados do Human Resources usando ferramentas do Power Apps. Entender a finalidade dos ambientes do Power Apps não só ajudará você a criar aplicativos para estender o Human Resources, mas também poderá ajudá-lo a selecionar o ambiente correto ao provisionar o Human Resources. Para obter mais informações sobre os ambientes do Power Apps, incluindo escopo do ambiente, acesso ao ambiente e criação e escolha do ambiente, consulte [Anunciando ambientes do Power Apps](https://powerapps.microsoft.com/blog/powerapps-environments/). 
+Você pode integrar e estender o uso de dados do Human Resources usando as ferramentas do Power Apps. Para obter mais informações sobre os ambientes do Power Apps, incluindo escopo do ambiente, acesso ao ambiente e criação e escolha do ambiente, consulte [Anunciando ambientes do Power Apps](https://powerapps.microsoft.com/blog/powerapps-environments/). 
 
 Use as seguintes orientações ao determinar para qual ambiente do Power Apps o Human Resources será implantado: 
 
-1. No LCS, selecione **Gerenciar ambientes** ou vá diretamente para o Centro de administração do Power Apps, onde você poderá exibir os ambientes existentes e criar novos.
+1. No LCS, selecione **Gerenciar ambientes**. Você também pode ir diretamente para o Centro de Administração do Power Apps, onde você pode visualizar os ambientes existentes e criar novos.
 
 2. Um ambiente único do Human Resources é mapeado para um ambiente único do Power Apps.
 
 3. Um ambiente do Power Apps contém o Human Resources, com os aplicativos correspondentes do Power Apps, Power Automate e Common Data Service. Se o ambiente do Power Apps for excluído, os aplicativos contidos nele também serão. Ao provisionar um ambiente do Human Resources, é possível provisionar um ambiente de **Teste** ou **Produção**. Escolha o tipo de ambiente baseado em como o ambiente será usado. 
 
-4. Estratégias de teste e integração de dados devem ser consideradas, como Área restrita, UAT ou Produção. É recomendável levar em consideração as várias implicações para sua implantação, pois não será fácil alterar posteriormente qual ambiente do Human Resources será mapeado para um ambiente do Power Apps.
+4. Estratégias de teste e integração de dados devem ser consideradas, como Área restrita, UAT ou Produção. Leve em consideração as implicações para sua implantação, pois não será fácil alterar qual ambiente do Human Resources será mapeado para um ambiente do Power Apps.
 
-5. Os seguintes ambientes do Power Apps não podem ser usados para o Human Resources e serão filtrados na lista de seleção no LCS:
+5. Você não pode usar os ambientes do Power Apps a seguir para Human Resources. Eles são filtrados a partir da lista de seleção dentro do LCS:
  
-    - **Ambientes padrão do Power Apps** – embora cada locatário seja provisionado automaticamente com um ambiente padrão do Power Apps, não é recomendável usá-lo com o Human Resources, pois todos os usuários do locatário têm acesso ao ambiente do Power Apps e poderão corromper involuntariamente os dados de produção ao testar e explorar com integrações do Power Apps ou do Power Automate.
+    - Ambientes **do Power Apps padrão** - Enquanto cada locatário é provisionado automaticamente com um ambiente do Power Apps padrão, não recomendamos usá-los com Human Resources. Todos os usuários de locatários podem acessar o ambiente do Power Apps e podem acidentalmente danificar dados de produção ao testar e explorar com integrações Power Apps ou Power Automate.
    
-    - **Ambientes de versão de avaliação** - Esses ambientes são criados com uma data de vencimento e expirarão após esse tempo, resultando na remoção automática do seu ambiente e de quaisquer instâncias do Human Resources contidas.
+    - **Ambientes de avaliação** - Esses ambientes são criados com uma data de validade. Após o vencimento, seu ambiente e quaisquer instâncias do Human Resources contidas nele serão removidos automaticamente.
    
     - **Regiões sem suporte** - No momento, o Human Resources tem suporte apenas nas seguintes regiões: Estados Unidos, Europa, Reino Unido, Austrália, Canadá e Ásia.
 
@@ -105,4 +105,4 @@ Use as seguintes orientações ao determinar para qual ambiente do Power Apps o 
  
 ## <a name="grant-access-to-the-environment"></a>Conceder acesso ao ambiente
 
-Por padrão, o administrador global que criou o ambiente tem acesso a ele. Entretanto, os usuários adicionais do aplicativo devem ter acesso explicitamente. Para conceder acesso, você precisa adicionar usuários e atribuir a eles as funções adequadas no ambiente do Human Resources. O administrador global que implantou o Human Resources também deve iniciar o Attract e o Onboard para concluir a inicialização e habilitar o acesso para outros usuários do locatário.  Até que isso ocorra, outros usuários não poderão acessar o Attract e o Onboard e receberão erros de violação de acesso. Para obter mais informações, consulte [Criar novos usuários](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) e [Atribuir usuários a funções de segurança](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+Por padrão, o administrador global que criou o ambiente tem acesso a ele. Os usuários adicionais do aplicativo devem ter acesso explicitamente. Você deve adicionar usuários e atribuir a eles as funções adequadas no ambiente do Human Resources. O administrador global que implantou o Human Resources também deve iniciar o Attract e o Onboard para concluir a inicialização e habilitar o acesso para outros usuários do locatário. Até que isso ocorra, outros usuários não poderão acessar o Attract e o Onboard e receberão erros de violação de acesso. Para obter mais informações, consulte [Criar novos usuários](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) e [Atribuir usuários a funções de segurança](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 

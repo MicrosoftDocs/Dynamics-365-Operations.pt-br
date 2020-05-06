@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 59384d8e8d043eb14231a471c7218ced2dddf739
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 53df00de82b101aa02160d865a9c3bbebcfcae15
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172868"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275455"
 ---
 # <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>Solucionar problemas relacionados a atualizações de aplicativos do Finance and Operations
 
@@ -85,9 +85,8 @@ Se o problema ainda não for solucionado, siga estas etapas.
 > Essas etapas o orientam no processo de exclusão de uma entidade e, em seguida, a adiciona novamente. Para evitar problemas, certifique-se de seguir as etapas exatamente.
 
 1. No aplicativo Finance and Operations, vá para **Espaços de trabalho \> Gerenciamento de dados** e selecione o bloco **Entidades de dados**.
-2. Localize a entidade que está sem o campo. Anote a entidade de destino, a tabela de preparo, o nome da entidade e outros valores da coluna.
-3. Se algum dos seus grupos de processamento depender dessa entidade, execute a ação apropriada para os grupos de processamento antes de excluir a entidade.
-4. Exclua a entidade que está sem o campo.
-5. Selecione **Novo** e adicione a entidade novamente. Especifique os valores que você anotou na etapa 2.
-6. Abra a página **Mapeamento da entidade** na página **Gravação dupla** no aplicativo Finance and Operations.
-7. Selecione **Atualizar lista de entidades** para preencher automaticamente os campos nos mapeamentos de entidade.
+2. Encontre a entidade que está sem o atributo. Clique em **Modificar mapeamento de destino** na barra de ferramentas.
+3. No painel **Mapear preparo para destino**, clique em **gerar mapeamento**.
+4. Abra a página **Mapeamento da entidade** na página **Gravação dupla** no aplicativo Finance and Operations.
+5. Se o atributo não estiver preenchido automaticamente no mapa, adicione-o manualmente, clicando no botão **Adicionar atributo** e clicando em **Salvar**. 
+6. Selecione o mapa e clique em **Executar**.

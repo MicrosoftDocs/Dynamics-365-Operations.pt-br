@@ -3,7 +3,7 @@ title: Adicionar um aviso de direitos autorais
 description: Este tópico descreve como adicionar um aviso de direitos autorais ao seu site de comércio eletrônico.
 author: psimolin
 manager: AnnBe
-ms.date: 01/23/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 54b48ee74bc9d9f2b77f0584a0bf1739a8dfdbdb
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: a2ed52dbd19508e07fcced92a7fad831180b1d1d
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025472"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269581"
 ---
 # <a name="add-a-copyright-notice"></a>Adicionar um aviso de direitos autorais
-
 
 [!include [banner](includes/banner.md)]
 
@@ -51,12 +50,12 @@ Para adicionar um aviso de direitos autorais na parte inferior de cada página q
 1. Na caixa de diálogo, selecione **Bloco de texto** e depois **OK**.
 1. No painel de navegação, selecione **Bloco de texto**.
 1. No painel de propriedades à direita, no campo **Parágrafo**, adicione sua mensagem de direitos autorais. Por exemplo, insira **(C) Fabrikam 2019**.
-1. Selecione **Save**, **Fazer Check-in** e depois **Publicar**.
-1. Vá para **Modelos**, selecione o modelo e depois **Fazer Check-out**.
+1. Selecione **Salvar**, **Concluir a edição** e depois **Publicar**.
+1. Vá para **Modelos**, selecione o modelo e depois **Editar**.
 1. Em **Estrutura de Tópicos da Página**, expanda **Corpo** e depois **Página Padrão**.
 1. Selecione o botão de reticências ao lado de **Slot de rodapé** e depois escolha **Adicionar fragmento**.
 1. Selecione o fragmento que você criou antes e escolha **Selecionar**.
-1. Faça check-in do modelo e publique-o.
+1. Selecione **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
 
 O rodapé que contém o aviso de direitos autorais aparece automaticamente na parte inferior de todas as páginas que usam o modelo selecionado.
 
