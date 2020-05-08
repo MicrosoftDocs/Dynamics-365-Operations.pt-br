@@ -3,7 +3,7 @@ title: Pagamentos de imposto e regras de arredondamento
 description: Este artigo explica como a configuração de regra de arredondamento funciona em Autoridades de imposto e o arredondamento do saldo de imposto durante o trabalho Liquidar e lançar imposto.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/30/2018
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: yijialuan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e66a62007025964b3d58ff0620ebecd6d9769f9
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: adc48d1841903670577684b1c3d773d323c19ea1
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771743"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275665"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>Pagamentos de imposto e regras de arredondamento
 
@@ -43,26 +43,26 @@ O imposto total para um período mostra um saldo de crédito de -98.765,43. A en
 
 A entidade legal quer usar um método de arredondamento que arredonda para o valor mais perto de 1,00. O usuário responsável pela contabilização do imposto conclua as etapas a seguir.
 
-1.  Clique em Imposto &gt; Impostos indiretos &gt; Imposto &gt; Autoridades do imposto
-2.  Na Guia Rápida Geral, selecione Normal no campo Forma de arredondamento.
-3.  No campo Arredondamento, digite 1,00.
-4.  Na época de pagar os impostos à autoridade fiscal, abra a página Liquidar e lançar imposto. (Clique em Imposto &gt; Declarações &gt; Imposto &gt; Liquidar e lançar imposto.)
-5.  Na conta de liquidação do imposto, o valor da obrigação fiscal de 98.765.43 foi arredondado para 98.765.
+1. Clique em **Imposto** > **Impostos indiretos** > **Imposto** > **Autoridades do imposto**.
+2. Na FastTab **Geral**, no campo **Forma de arredondamento**, selecione **Normal**.
+3. No campo **Arredondamento**, digite 1,00.
+4. Na época de pagar os impostos à autoridade fiscal, acesse **Imposto** > **Declarações** > **Imposto** > **Liquidar e lançar imposto**. Na conta de liquidação do imposto, você pode verificar se o valor da obrigação fiscal de **98.765,43** foi arredondado para **98.765**.
 
-A tabela a seguir mostra como um valor 98.765,43 é arredondado usando cada método de arredondamento que está disponível no campo Forma de arredondamento na página Autoridades do imposto.
+A tabela a seguir mostra como um valor 98.765,43 é arredondado usando cada método de arredondamento que está disponível no campo **Forma de arredondamento** na página **Autoridades do imposto**.
 
-| Opção da forma de arredondamento                | Valor de arredondamento = 0,01 | Valor de arredondamento = 0,10 | Valor de arredondamento = 1,00 | Valor de arredondamento = 100,00 |
-|-------------------------------------|------------------------|------------------------|------------------------|--------------------------|
-| Normal                              | 98,765.43              | 98,765.40              | 98,765.00              | 98,800.00                |
-| Para baixo                            | 98,765.43              | 98,765.40              | 98,765.00              | 98,700.00                |
-| Arredondamento                         | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                |
-| Vantagem própria, para um saldo de crédito | 98,765.43              | 98,765.40              | 98,765.00              | 98,700.00                |
-| Vantagem própria, para um saldo de débito  | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                |
+> [!NOTE]                                                                                  
+> Se o valor de arredondamento for definido como 0,00:
+>
+> - No arredondamentos normal, o comportamento de arredondamento é o mesmo aplicado em **Arredondamento = 0,01**.
+> - Nas **Opções da forma de arredondamento**, **Para baixo**, **Arredondamento** e **Vantagem própria**, o comportamento é o mesmo que o aplicado em **Arredondamento = 1,00**.
 
-
-### <a name="no-rounding-at-all-since-the-round-off-is-000"></a>Sem arredondamento, pois o arredondamento é 0,00
-
-arredondar (1,0151, 0,00) = 1,0151 (1,0149, 0,00) = 1,0149
+| Opção da forma de arredondamento                | Valor de arredondamento = 0,01 | Valor de arredondamento = 0,10 | Valor de arredondamento = 1,00 | Valor de arredondamento = 100,00 | Valor de arredondamento = 0,00   |
+|-------------------------------------|------------------------|------------------------|------------------------|--------------------------|--------------------------|
+| Normal                              | 98,765.43              | 98,765.40              | 98,765.00              | 98,800.00                | 98,765.43                |
+| Para baixo                            | 98,765.43              | 98,765.40              | 98,765.00              | 98,700.00                | 98,765.00                |
+| Arredondamento                         | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                | 98,766.00                |
+| Vantagem própria, para um saldo de crédito | 98,765.43              | 98,765.40              | 98,765.00              | 98,700.00                | 98,765.00                |
+| Vantagem própria, para um saldo de débito  | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                | 98,766.00                |
 
 ### <a name="normal-round-and-round-precision-is-001"></a>Arredondamento normal, e a precisão do arredondamento é de 0,01
 

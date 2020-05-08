@@ -3,7 +3,7 @@ title: Salvar, visualizar, e publicar uma página
 description: Este tópico descreve como salvar, visualizar e publicar uma página no Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 04200264fabca265484b5e66426810efe8028a50
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: e1e19594327c0042915bfae87f480434a7fcb159
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002795"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269972"
 ---
 # <a name="save-preview-and-publish-a-page"></a>Salvar, visualizar, e publicar uma página
-
 
 [!include [banner](includes/banner.md)]
 
@@ -33,7 +32,7 @@ Este tópico descreve como salvar, visualizar e publicar uma página no Microsof
 
 ## <a name="save-a-page"></a>Salvar uma página
 
-Para salvar uma página, você deve fazer check-out e abri-la no editor de páginas. Você deve salvar uma página imediatamente após modificá-la, para ajudar a garantir que suas alterações serão armazenadas.
+Para salvar uma página, você deve fazer check-out e abri-la no editor de páginas. Para fazer check-out de uma página, selecione **Editar** na barra de comandos. Depois de terminar de editar uma página, salve-a imediatamente para garantir que suas alterações sejam armazenadas.
 
 Ao salvar uma página, as alterações ficarão visível apenas para você. A operação de salvar destina-se principalmente a armazenar alterações enquanto a página ainda não está pronta para o check-in. Quando você terminar de modificar a página, recomendamos que faça o check-in, para que as alterações fiquem visíveis para outras pessoas. Nesse ponto, também pode ser feito check-out da página por outros usuários que precisam modificá-la.
 
@@ -50,7 +49,7 @@ Quando você terminar de modificar a página, convém visualizá-la para ver o q
 
 ## <a name="publish-a-page"></a>Publicar uma página
 
-Quando sua página estiver pronta, a próxima etapa será publicá-la, para que usuários externos possam visualizar o conteúdo. Antes de poder publicar uma página, você deve fazer check-in dela.
+Quando sua página estiver pronta, a próxima etapa será publicá-la, para que usuários externos possam visualizar o conteúdo. Antes de publicar uma página, você deve fazer check-in selecionando **Concluir edição** na barra de comandos.
 
 Você pode publicar e cancelar a publicação de páginas do inspetor ou do editor de páginas. O inspetor de páginas mostra uma lista de páginas e permite operações em massa. O editor de páginas pode ser usado para publicar ou cancelar a publicação apenas da única página aberta nela.
 
@@ -70,9 +69,9 @@ Para salvar, visualizar e publicar uma home page, siga estas etapas.
 1. Em **Sites**, selecione **Fabrikam** (ou o nome do seu site).
 1. No painel de navegação à esquerda, selecione **Páginas**.
 1. Localize e selecione a home page para abri-la no editor de páginas.
-1. Selecione **Fazer Check-Out**.
+1. Selecione **Editar**.
 1. Modifique a página, como necessário.
-1. Selecione **Salvar** e **Fazer Check-in**.
+1. Selecione **Salvar** e **Finalizar edição**.
 1. No campo **Comentários** , insira uma observação sobre as alterações feitas e selecione **OK**.
 1. Selecione **Visualizar** para exibir a página. Quando terminar, feche a guia de visualização para retornar à ferramenta de criação.
 1. Selecione **Publicar**.

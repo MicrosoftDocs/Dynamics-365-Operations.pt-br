@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b090450c6b39607f9661667f8063998bbe5ff52
-ms.sourcegitcommit: c79062ba89498aa3fe3d86e478d9f32484f5f6dc
+ms.openlocfilehash: e1d7828e6bb9a3684c1d76e2cfac96174a8dfbf4
+ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3224900"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3268807"
 ---
 # <a name="quality-management-overview"></a>Visão geral do gerenciamento de qualidade
 
@@ -43,7 +43,11 @@ O gerenciamento de qualidade é flexível e pode ser implementado de várias man
 
 -   Iniciar automaticamente um processo de controle de qualidade com base em critérios pré-definidos (após o registro do depósito de uma ordem de compra de um fornecedor específico).
 -   Bloquear o estoque durante a inspeção para evitar que o estoque não aprovado seja utilizado (bloqueio total das quantidades da ordem de compra).
--   Use a amostragem do item como parte de uma associação de qualidade para definir o valor de estoque físico atual que deve ser inspecionado. A amostragem pode se basear em quantidades fixas ou em uma porcentagem.
+-   Use a amostragem do item como parte de uma associação de qualidade para definir o valor de estoque físico atual que deve ser inspecionado. A amostragem pode se basear em quantidades fixas, em uma porcentagem ou na placa de licença completa.
+
+> [!NOTE]
+> O recurso _Gerenciamento de qualidade para processos de depósito_ estende as possibilidades de gerenciamento de qualidade. Se você estiver usando esse recurso, consulte [_Gerenciamento de qualidade para processos de depósito](quality-management-for-warehouses-processes.md) para obter exemplos de como o gerenciamento de qualidade funciona quando habilitado.
+
 -   Crie ordens de qualidade para recebimentos parciais. Para criar uma ordem de qualidade baseada na quantidade fisicamente recebida com uma ordem, marque a caixa de seleção **Por quantidade atualizada** no formulário **Amostragem de itens**.
 -   Crie tipos de teste que incluem valores de teste mínimos, máximos, e de destino, e realizar testes qualitativos versos quantitativos que possuem resultados de validação pré-definidos.
 -   Especifique um nível de qualidade aceitável (AQL) para controlar as tolerâncias da medição de qualidade.
@@ -428,6 +432,9 @@ Na produção, se você definir o campo **Tipo de evento** como **Relatar como c
 </tbody>
 </table>
 
+> [!NOTE]
+> O recurso *Gerenciamento de qualidade para processos de depósito* adiciona recursos para o processamento da ordem de qualidade para produção com o **Tipo de evento** definido como *Relatar como concluído* e **Em execução** definido como *Depois*, e para compras com o **Tipo de evento** definido como *Registro*. Para obter detalhes, consulte [Gerenciamento de qualidade para processos de depósito](quality-management-for-warehouses-processes.md).
+
 ## <a name="quality-management-pages"></a>Páginas de gerenciamento de qualidade
 <table>
 <colgroup>
@@ -438,7 +445,7 @@ Na produção, se você definir o campo **Tipo de evento** como **Relatar como c
 <thead>
 <tr class="header">
 <th>Página</th>
-<th>Descrição</th>
+<th>descrição</th>
 <th>Exemplo</th>
 </tr>
 </thead>
@@ -495,3 +502,5 @@ Na produção, se você definir o campo **Tipo de evento** como **Relatar como c
 [Processos de gerenciamento de qualidade](quality-management-processes.md)
 
 [​Gerenciamento de não conformidade​](enable-nonconformance-management.md)
+
+[Gestão de qualidade para processos de depósito](quality-management-for-warehouses-processes.md)

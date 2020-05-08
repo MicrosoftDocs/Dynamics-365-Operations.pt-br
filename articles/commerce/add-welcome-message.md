@@ -3,7 +3,7 @@ title: Adicionar uma mensagem de boas-vindas
 description: Este tópico descreve como adicionar uma mensagem de boas-vindas ao seu site Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ca10b01268b5dcd4c6fe448d90cd0ebd65a2673b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d2a125b4e71016ad620f128af2e3c9f29aa04f4c
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001245"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269604"
 ---
 # <a name="add-a-welcome-message"></a>Adicionar uma mensagem de boas-vindas
 
@@ -41,17 +41,14 @@ Quando uma mensagem de boas-vindas é adicionada a um fragmento de cabeçalho co
 
 Para adicionar uma mensagem de boas-vindas ao site, siga essas etapas.
 
-1. No Dynamics 365 Commerce, vá para o site.
+1. No construtor de sites do Commerce, navegue até o seu site.
 1. Selecionar **Fragmentos**.
 1. Selecione o fragmento do cabeçalho ao qual adicionar a mensagem.
 1. Na árvore em destaque, abra **Mensagens de erro/informações**.
-1. Selecione o módulo de alerta.
-
-    Se um módulo de alerta não existir ainda, selecione o botão de reticências (**...**) ao lado de **Mensagens de erro/ informações** e depois selecione, **Adicionar o módulo**. Selecione o módulo de alerta e, em seguida, selecione **OK**.
-
+1. Selecione o módulo de alerta e, em seguida, selecione **OK**. Se um módulo de alerta não existir ainda, primeiro selecione o botão de reticências (**...**) ao lado de **Mensagens de erro/ informações** e depois selecione, **Adicionar o módulo**.
 1. No painel de propriedade à direita, na guia **Dados**, selecione **Adicionar fonte de dados** e **Conteúdo**.
 1. No campo **Texto da entrada**, insira o texto da mensagem de boas-vindas.
-1. Salve o fragmento do cabeçalho, insira-o e publique-o.
+1. Selecione **Salvar**, **Concluir edição** para fazer check-in do fragmento do cabeçalho e depois selecione **Publicar** para publicá-lo. 
 
 A mensagem de boas-vindas aparecerá na parte superior de cada página do site usando o fragmento do cabeçalho selecionado.
 

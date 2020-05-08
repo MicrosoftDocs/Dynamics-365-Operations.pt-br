@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f734def69ff50549acae1506015ce9b23a1b8a93
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5c77f32caad5e2e79cbc0e21f72a3daa79acecb
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209895"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3274156"
 ---
 # <a name="create-an-asset"></a>Crie um ativo
 
@@ -38,13 +38,13 @@ Este tópico descreve como criar um ativo em Gerenciamento de Ativos.
 3. Na caixa de diálogo **Criar ativos**, insira dados sobre o **Ativo** (a ID do ativo) e o nome do ativo. Selecione a data e a hora do ativo no campo **Efetivo**. A partir dessa data, é possível instalar o ativo em um local funcional bem como mover e substituir o ativo em uma estrutura de ativos.
 4. No campo **Tipo de ativo**, selecione o tipo de ativo para o ativo (campo obrigatório). Se necessário, selecione **Fabricante do ativo** e **Modelo de ativo** para o ativo. Se apenas um produto foi configurado, esse produto será automaticamente selecionado no campo **Fabricante de ativo**. As seleções disponíveis nos campos **Fabricante de ativo** e **Modelo de ativo** dependem da configuração em [Fabricantes e modelos de ativo](../setup-for-objects/product-and-model.md).
 5. No grupo **Ativo pai**, o campo **Ativo** está em branco como padrão. Se necessário, selecione um ativo pai e todos os campos no grupo **Ativo pai** serão preenchidos automaticamente.
->[!NOTE]  
->Quando você seleciona um ativo principal, duas ou três guias estão disponíveis: a guia **Meus ativos** contém os ativos relativos aos locais funcionais em que você (o trabalhador de manutenção registrado no sistema) deve ser alocado. Se nenhum local funcional for configurado em um funcionário de manutenção no formulário [Funcionários de manutenção e grupos de trabalhadores](../setup-for-objects/workers-and-worker-groups.md), a guia **Meus ativos** não ficará visível. A guia **Ativos ativos** contém uma lista de todos os ativos com o estado de ciclo de vida do ativo "Ativo". A guia **Exibição de ativo** exibe um modo de exibição de árvore dos locais funcionais e ativos instalados nesses locais.
+    >[!NOTE]  
+    >Quando você seleciona um ativo principal, duas ou três guias estão disponíveis: a guia **Meus ativos** contém os ativos relativos aos locais funcionais em que você (o trabalhador de manutenção registrado no sistema) deve ser alocado. Se nenhum local funcional for configurado em um funcionário de manutenção no formulário [Funcionários de manutenção e grupos de trabalhadores](../setup-for-objects/workers-and-worker-groups.md), a guia **Meus ativos** não ficará visível. A guia **Ativos ativos** contém uma lista de todos os ativos com o estado de ciclo de vida do ativo "Ativo". A guia **Exibição de ativo** exibe um modo de exibição de árvore dos locais funcionais e ativos instalados nesses locais.
 
 6. O local funcional padrão que você configurou é sugerido para o ativo no grupo **Ativo** > campo **Local funcional**. Selecione outro local funcional, se necessário.
 
->[!NOTE]
->Após criar um ativo, você poderá instalá-lo em outro local funcional, se necessário. Apenas os ativos em nível superior (ativos sem um ativo pai atual) podem ser instalados em um local funcional. Isso significa que você instala o nível superior bem como todos os ativos filho no local funcional selecionado. Leia mais sobre como instalar ativos em locais funcionais em [Introdução a locais funcionais](../functional-locations/introduction-to-functional-locations.md).
+    >[!NOTE]
+    >Após criar um ativo, você poderá instalá-lo em outro local funcional, se necessário. Apenas os ativos em nível superior (ativos sem um ativo pai atual) podem ser instalados em um local funcional. Isso significa que você instala o nível superior bem como todos os ativos filho no local funcional selecionado. Leia mais sobre como instalar ativos em locais funcionais em [Introdução a locais funcionais](../functional-locations/introduction-to-functional-locations.md).
 
 7. Clique em **OK**.
 8. Selecione o ativo na lista **Todos os Ativos** e clique no botão **Editar** para adicionar mais informações ao ativo.

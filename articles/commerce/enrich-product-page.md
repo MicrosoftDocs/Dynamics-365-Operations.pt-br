@@ -3,7 +3,7 @@ title: Enriquecer uma página de produto
 description: Este tópico descreve como enriquecer uma página de produto no Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d4c495fc6dfe4aa6561a1bb703253ef8ec71dc13
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 12508a80c440894ec6e2073b5e550846480e6c45
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003064"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269811"
 ---
 # <a name="enrich-a-product-page"></a>Enriquecer uma página de produto
 
@@ -53,7 +53,7 @@ Para enriquecer uma página de produto, siga estas etapas.
 1. Selecione **Recurso** e, depois, **OK**.
 1. No painel de propriedades à direita, no campo **Texto rico**, digite a descrição atualizada do produto.
 1. No campo **Cabeçalho**, insira texto de cabeçalho e depois selecione **OK**.
-1. Selecione **Salvar** e **Fazer Check-in**.
+1. Selecione **Salvar** e **Finalizar edição**.
 1. No campo **Comentários**, insira **Enriqueceu um produto** e depois selecione **OK**.
 1. Selecione **Visualizar** para visualizar a página de produto enriquecida. Quando terminar, feche a guia de visualização para retornar à ferramenta de criação.
 1. Selecione **Publicar**.

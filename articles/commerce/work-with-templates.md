@@ -3,7 +3,7 @@ title: Trabalhar com modelos
 description: Este tópico descreve como trabalhar com modelos no Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 815565dd203925fa0acca9336c4ddc56db8c4058
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: a3fc4259a76f6edcfaa0b8f6e08292477c6c0835
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002558"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269857"
 ---
 # <a name="work-with-templates"></a>Trabalhar com modelos
 
@@ -132,14 +132,14 @@ Para adicionar um script a um modelo, siga estas etapas.
 Para salvar e fazer check-in em um modelo, siga estas etapas.
 
 1. Selecione **Salvar** na parte superior do editor de modelos. As alterações salvas não afetam as páginas downstream até o check-in.
-1. Selecione **Fazer Check-In**. Suas alterações agora são detectáveis para fluxos de trabalho downstream.
+1. Selecione **Concluir edição**. Suas alterações agora são detectáveis para fluxos de trabalho downstream.
 
 Para visualizar as alterações, abra uma página existente que usa o modelo ou crie uma nova página do modelo.
 
 Depois que você visualizou alterações no modelo, siga uma dessas etapas para publicar o modelo em seu site ativo:
 
 * Vá para **Modelos**, selecione o modelo e depois **Publicar**.
-* No editor de modelo, selecione **Publicar**.
+* Selecione o nome do layout para abrir o editor de layout e selecione **Publicar**.
 * Publicar uma página que faça referência ao modelo não publicado. O modelo será publicado automaticamente.
 
 > [!WARNING]

@@ -3,7 +3,7 @@ title: Visão geral de trabalhos de importação e exportação de dados
 description: Use o espaço de trabalho de gerenciamento de dados para criar e gerenciar trabalhos de importação e de exportação de dados.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 02/20/2020
+ms.date: 04/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a4b5396d2bb3fbb98b3f0f8a1bf59d62f673a3d
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: b25edf9fe09c130ea3d55b11f2698b29c7a39a8b
+ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124603"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3278889"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Visão geral de trabalhos de importação e exportação de dados
 
@@ -151,6 +151,18 @@ Os detalhes de execução mostram o estado de cada entidade de trabalho que trab
 Podem baixar os dados de preparo em um arquivo para exportação de trabalho, ou pode baixá-los como um pacote para trabalhos de importação e exportação.
 
 A partir dos detalhes de execução, você também pode abrir este log de execução.
+
+## <a name="parallel-imports"></a>Importações paralelas
+Para acelerar a importação de dados, o processamento paralelo da importação de um arquivo poderá ser habilitado se a entidade oferecer suporte a importações paralelas. Para configurar a importação paralela de uma entidade, execute as etapas a seguir.
+
+1. Vá para **Administração de sistema \> Locais de trabalho \> Gerenciamento de dados**.
+2. Na seção **Importar/Exportar**, selecione o bloco **Parâmetros da estrutura** para abrir a página **Parâmetros da estrutura de importação/exportação**.
+3. Na guia **Configurações da entidade**, selecione **Configurar parâmetros de execução da entidade** para abrir a página **Parâmetros de execução da importação da entidade**.
+4. Defina os seguintes campos para configurar a importação paralela de uma entidade:
+
+    - No campo **Entidade**, selecione a entidade legal.
+    - No campo **Contagem de registros do limite de importação**, insira a contagem de registros de limite para a importação. Isso determina a contagem de registros a ser processada por um thread. Se um arquivo tiver 10 mil registros, uma contagem de registros equivalente a 2500 com uma contagem de tarefas igual a 4 indica que cada thread processará 2500 registros.
+    - No campo **Contagem de tarefas de importação**, insira a contagem de tarefas de importação. Isto não deve ultrapassar o máximo de segmentos de lote alocados para o processamento em lote em **Administração do sistema \> Configuração do servidor**.
 
 ## <a name="clean-up-the-staging-tables"></a>Limpar as tabelas de preparo
 Começando no Update 29 para plataforma, essa funcionalidade foi substituída. Isso é substituído por uma nova versão da funcionalidade de limpeza de histórico de trabalho explicada abaixo.

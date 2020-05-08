@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: f7ee0b5aa4e72614205e129acd986376b33efc70
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: d5d9dbce0c74d32107db6bbae033b921e4201693
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172682"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275641"
 ---
 # <a name="general-troubleshooting"></a>Solução de problemas gerais
 
@@ -70,14 +70,12 @@ Para ativar o log de rastreamento, siga estas etapas.
 Para exibir o log de rastreamento, siga estas etapas.
 
 1. Efetue login no aplicativo Finance and Operations, abra a página **Configurações** e, em **Personalização**, selecione **Log de rastreamento de plug-in**.
-2. Localize os logs de rastreamento no campo **Nome do tipo** e defina como **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin**.
+2. Encontre os logs de rastreamento em que o campo **Nome do Tipo** esteja definido como **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Clique duas vezes em um item para exibir o log completo e, em seguida, na Guia Rápida **Execução** revise o texto do **Bloco de mensagens**.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Habilitar modo de depuração para solucionar problemas de sincronização dinâmica em aplicativos Finance and Operations
 
-**Função necessária para exibir os erros:** administrador do sistema
-
-Os erros de gravação dupla que originam-se no Common Data Service podem aparecer no aplicativo Finance and Operations. Em alguns casos, o texto completo da mensagem de erro não está disponível porque a mensagem é muito longa ou contém informações de identificação pessoal (PII). Você pode ativar o registro detalhado de erros ao seguir estas etapas.
+**Função necessária para exibir os erros:** erros de gravação dupla do administrador do sistema que se originam no Common Data Service e podem ser exibidos no aplicativo Finance and Operations. Em alguns casos, o texto completo da mensagem de erro não está disponível porque a mensagem é muito longa ou contém informações de identificação pessoal (PII). Você pode ativar o registro detalhado de erros ao seguir estas etapas.
 
 1. Todas as configurações de projeto nos aplicativos Finance and Operations têm uma propriedade **IsDebugMode** na entidade **DualWriteProjectConfiguration**. Abra a entidade **DualWriteProjectConfiguration** usando um suplemento do Excel.
 
@@ -104,7 +102,7 @@ Os erros de gravação dupla que originam-se no Common Data Service podem aparec
 
 ## <a name="unlink-and-link-another-common-data-service-environment-from-a-finance-and-operations-app"></a>Desvincular e vincular outro ambiente do Common Data Service de um aplicativo Finance and Operations
 
-**Credenciais necessárias para desvincular o ambiente:** administrador de locatário do Azure AD
+**Função necessária para desvincular o ambiente:** administrador do sistema para os aplicativos Finance and Operations ou Common Data Service.
 
 1. Entrar no aplicativo Finance and Operations.
 2. Vá para **Espaços de trabalho \> Gerenciamento de dados** e selecione o bloco **Gravação dupla**.
@@ -113,3 +111,13 @@ Os erros de gravação dupla que originam-se no Common Data Service podem aparec
 5. Selecione **Sim** para confirmar a operação.
 
 Agora você pode vincular um novo ambiente.
+
+## <a name="unable-to-view-the-sales-order-line-information-form"></a>Não é possível exibir o formulário de informações da linha da ordem de venda 
+
+Quando você cria uma ordem de venda no Dynamics 365 Sales, clicar em **Adicionar produtos** talvez redirecione você para o formulário da linha de ordem do Dynamics 365 Project Operations. Não há nenhuma maneira de esse formulário exibir o formulário de **Informações** da linha da ordem de venda. A opção de **Informações** não aparece na lista suspensa **Nova Linha da Ordem** abaixo. Isso ocorre porque o Project Operations foi instalado em seu ambiente.
+
+Para habilitar novamente a opção de formulário de **Informações**, siga estas etapas:
+1. Navegue até a entidade **Linha da Ordem**.
+2. Encontre o formulário de **Informações** no nó de formulários. 
+3. Selecione o formulário de **Informações** e clique em **Habilitar funções de segurança**. 
+4. Altere a configuração de segurança para **Exibir para todos**.

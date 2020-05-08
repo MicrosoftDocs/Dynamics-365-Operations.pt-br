@@ -3,7 +3,7 @@ title: Estados do ciclo de vida de solicitação de manutenção
 description: Este tópico descreve como configurar estados do ciclo de vida de solicitação de manutenção no Asset Management.
 author: josaw1
 manager: tfehr
-ms.date: 07/26/2019
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1e4412af0619b57467b5bcba75ea7259604d1d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 08c45742b064f3a13a0ea2704f8873b9c53aad4e
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208998"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275617"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>Estados do ciclo de vida da solicitação de manutenção
 
@@ -47,7 +47,7 @@ Os estados do ciclo de vida de solicitação de manutenção definem os estágio
 6. Defina a opção **Definir término real** como **Sim** se uma data e hora de término reais são inseridas automaticamente em uma solicitação de manutenção que esteja nesse estado de ciclo de vida.
 7. Defina a opção **Criar ordem de serviço** como **Sim** se uma ordem de serviço puder ser criada de uma solicitação de manutenção que esteja nesse estado de ciclo de vida.
 8. Defina a opção **Excluir** como **Sim** se uma solicitação de manutenção puder ser excluída quando estiver nesse estado de ciclo de vida.
-9. Na Guia Rápida **Atualizar**, as opções **Entrada** e **Saída** na seção **Ativo** serão relevantes se você usar o reparo de depósito. Defina a opção apropriada como **Sim** se o estado de ciclo de vida de ativo dos ativos selecionados em uma solicitação de manutenção tiver de ser automaticamente atualizado para **Entrada** ou **Saída** quando o estado de ciclo de vida de solicitação de manutenção dessa solicitação de manutenção estiver definido como **Entrada** ou **Saída**.
+9. Na FastTab **Atualizar**, as opções **Entrada** e **Saída** na seção **Ativo** são relevantes se você usar o reparo do depósito. Defina a opção adequada como **Sim** se o estado do ciclo de vida do ativo selecionado em uma solicitação de manutenção for atualizado automaticamente para **Entrada** ou **Saída** quando o estado do ciclo de vida da solicitação de manutenção dessa solicitação de manutenção está definida como **Entrada** ou **Saída**.
 
 A ilustração a seguir mostra um exemplo da página **Estados de ciclo de vida de solicitação de manutenção**.
 

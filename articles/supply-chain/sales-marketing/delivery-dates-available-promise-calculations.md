@@ -1,9 +1,9 @@
 ---
 title: Promessa de ordem
-description: Este artigo oferece informações sobre promessas de ordem. As promessas de ordem ajudam você a prometer, com segurança, datas de entrega aos clientes e lhe fornece flexibilidade para que possa atender a essas datas.
+description: Este tópico fornece informações sobre promessa de ordens. As promessas de ordem ajudam você a prometer, com segurança, datas de entrega aos clientes e lhe fornece flexibilidade para que possa atender a essas datas.
 author: ShylaThompson
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78b81431d44ea5f85676b6999eece1330d3101a4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: ccb7ef432553c0516eb49013eaad68dd21bf752c
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210036"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3270018"
 ---
 # <a name="order-promising"></a>Promessa de ordem
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo oferece informações sobre promessas de ordem. As promessas de ordem ajudam você a prometer, com segurança, datas de entrega aos clientes e lhe fornece flexibilidade para que possa atender a essas datas.
+Este tópico fornece informações sobre promessa de ordens. As promessas de ordem ajudam você a prometer, com segurança, datas de entrega aos clientes e lhe fornece flexibilidade para que possa atender a essas datas.
 
 A promessa da ordem calcula as datas de entrega e recebimento mais próximas, e se baseia no método de controle de data de entrega e nos dias de transporte. Você pode escolher entre quatro métodos controle de data de entrega:
 
@@ -47,11 +47,13 @@ O ATP é calculado através da seguinte fórmula:
 
 ATP = ATP do período anterior + Recibos do período atual – Problemas do período atual – Quantidade líquida de saída para cada período futuro até que o período em que a soma de recibos de todos os períodos futuros, até e incluindo o período futuro, seja maior que a soma de saídas, até e incluindo o período futuro.  
 
+Observe que o cálculo de ATP não inclui informações sobre data de vencimento e além do limite de tempo ATP que o sistema espera quando qualquer quantidade pode ser prometida.
+
 Quando não houver mais saídas ou emissões a serem consideradas, a quantidade ATP para as seguintes datas é a mesma que a última quantidade ATP calculada.  
 
 Se nem todas as dimensões usadas para um item forem fornecidas quando a verificação de ATP for concluída, estas ainda podem ser especificadas na saída e nos recebimentos. Nesse caso, no cálculo ATP, os recebimentos e saídas devem ser agregados para as dimensões existentes para reduzir o número de linhas de recebimentos e de saída usadas no cálculo ATP.  
 
-A quantidade ATP que é mostrada é sempre maior ou igual a 0 (zero). Se o cálculo retornar uma quantidade ATP negativa (por exemplo, se a quantidade prometida anteriormente exceder a quantidade disponível), o programa define automaticamente a quantidade para **0**.
+A quantidade ATP que é mostrada é sempre maior ou igual a 0 (zero). Se o cálculo retornar uma quantidade ATP negativa (por exemplo, se a quantidade prometida anteriormente exceder a quantidade disponível), a quantidade é definida automaticamente como 0.
 
 ### <a name="example"></a>Exemplo
 

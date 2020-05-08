@@ -3,7 +3,7 @@ title: Recursos removidos ou obsoletos em versões anteriores
 description: Este tópico descreve os recursos que foram removidos ou que foram planejados para remoção do Dynamics 365 for Finance and Operations e versões anteriores desse produto.
 author: sericks007
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1aade5d1272e069c1c2e3470363ffd7d5fc3cdc
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: be266f838c5e6cd10655546179e9075e36570bfc
+ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225119"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3284005"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Recursos removidos ou obsoletos em versões anteriores
 
@@ -230,7 +230,7 @@ Suporte à criação de ordens de venda baseadas no projeto em que o contrato de
 | **Substituída por outro recurso?**   | Nº |
 | **Áreas afetadas do produto**         | Gerenciamento de informações do produto |
 | **Opção de implantação**              | Todas  |
-| **Status**                         | Removido a partir do Finance and Operations 10.0.0 com atualização de plataforma 24. (Se e somente se você precisar reparar a corrupção de dados causada por uma renomeação anterior da chave primária de um produto lançado, entre em contato com o Suporte da Microsoft para solicitar a remoção temporária dessa restrição.) |
+| **Status**                         | Removido a partir do Finance and Operations 10.0.0 com atualização de plataforma 24.|
 
 
 ## <a name="finance-and-operations-813-with-platform-update-23"></a>Finance and Operations 8.1.3 com Platform update 23
@@ -267,7 +267,7 @@ Os principais indicadores de desempenho (KPIs) incorporados podem ser modelados 
 | **Substituída por outro recurso?**   | Esse aviso será substituído por um erro de compilação no futuro. |
 | **Áreas afetadas do produto**         | Ferramentas de desenvolvimento do Visual Studio |
 | **Opção de implantação**              | Todas |
-| **Status**                         | Preterido: o aviso se tornará um erro de tempo de compilação no futuro. Essa alteração se destina a atualizações de plataforma para a versão 10.0.11 de aplicativos Finance and Operations. |
+| **Status**                         | Preterido : O aviso é um erro de tempo de compilação nas atualizações de plataforma para a versão 10.0.11 dos aplicativos do Finance and Operations. |
 
 #### <a name="complete-list"></a>Lista completa
 Para acessar a lista completa das APIs que estão sendo substituídas, consulte [Substituição de métodos e elementos de metadados](deprecation-deletion-apis.md).

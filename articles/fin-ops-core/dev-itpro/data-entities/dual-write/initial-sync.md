@@ -19,22 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 4adb2c8d57ad8f67346b8d34212b7a4b0bd052ab
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 9ae14703941b97308bca5845eeac3eb9b181ae75
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173122"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275478"
 ---
 # <a name="entity-dependency-chain-synchronization-order"></a>Cadeia de dependência de entidade (ordem de sincronização)
 
 [!include [banner](../../includes/banner.md)]
 
-
-
-Nas tabelas a seguir, as entidades são listadas na ordem em que você deve habilitá-las. Quando você habilita um mapa para sincronização inicial, a gravação dupla detecta automaticamente outros mapas que devem ser habilitados. É possível usar a página **Gravação dupla** nos aplicativos do Finance and Operations para selecionar ou cancelar a seleção de entidades durante a sincronização inicial.
-
-Na versão mais recente da gravação dupla, é possível habilitar apenas algumas entidades, e as dependências são processadas para você.
+Este tópico especifica a ordem de sincronização que deve ser seguida para criar os dados iniciais se você não estiver usando as dependências de entidade fornecidas pelo recurso de **sincronização inicial**. Se você não estiver usando a **sincronização inicial**, deverá executar cada mapa de entidade individualmente.
 
 ## <a name="dynamics-365-supply-chain-management-entities"></a>Entidades do Dynamics 365 Supply Chain Management
 

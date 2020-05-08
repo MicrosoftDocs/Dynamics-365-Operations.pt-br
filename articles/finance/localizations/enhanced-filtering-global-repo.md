@@ -1,9 +1,9 @@
 ---
-title: Filtragem avançada no RCS/repositório global
+title: Filtragem avançada no RCS/Repositório global
 description: Este tópico descreve os recursos aprimorados de filtragem para o repositório global RCS, que foram aprimorados para incluir os filtros adicionais.
 author: JaneA07
 manager: AnnBe
-ms.date: 03/03/2020
+ms.date: 04/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,35 +18,31 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 1adbd690795139778dc77a574e9d5f91a4bdeb3c
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 1913b661c46af5e34da1a2939cb2a5d5b4e46411
+ms.sourcegitcommit: 7df49a85de484d013518217ba8ada6c61da4b6e4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249156"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "3287930"
 ---
-# <a name="enhanced-filtering-options-for-finding-configurations-in-the-global-repository"></a>Opções de filtragem aprimoradas para localizar configurações no repositório global
+# <a name="rcs-enhanced-filtering-options-for-finding-configurations-in-the-rcsglobal-repository"></a>Opções de filtragem avançada no RCS para encontrar configurações no RCS/Repositório global
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve os recursos aprimorados de filtragem para o repositório global do Regulatory Configuration Services (RCS), que foram aprimorados para incluir os filtros a seguir: 
-- **País/região** - baseado em códigos de país ISO  
-- **Tags** - para área funcional/recurso; indústria, tipo de documento comercial 
+Este tópico descreve os recursos de filtragem avançada para o repositório global do Regulatory Configuration Services (RCS), que foram aprimorados para incluir a possibilidade de filtrar com os seguintes critérios: 
+- **País/região** — com base nos códigos de país ISO  
+- Tipos de **marcas** para:
+  - Área funcional
+  - Área de recursos
+  - Indústria 
+  - Documento comercial 
 
-Você pode aplicar filtros, individualmente ou em grupos, para localizar configurações específicas ou relacionadas. Por exemplo, para localizar todos os documentos comerciais configuráveis relacionados a notas fiscais de fornecedor, você pode aplicar o filtro **Tipo de documento comercial**. 
-
-Você pode refinar ainda mais uma pesquisa selecionando o código do país e clicando em **Aplicar filtro**.  
+Para facilitar a descoberta de configurações específicas ou relacionadas às quais você pode aplicar filtros, individualmente ou em grupo. Por exemplo, para encontrar um único tipo de documento comercial configurável que esteja relacionado a notas fiscais de fornecedor, você pode aplicar um filtro de **Tipo de documento comercial** para procurar esse tipo de documento. 
 
 [![Filtrar seção do repositório global](media/rcs-enhanced-filter-section.JPG)](./media/rcs-enhanced-filter-section.JPG) 
 
-O exemplo a seguir mostra os resultados ao filtrar o **Tipo de documento comercial**. 
+É possível refinar ainda mais a pesquisa selecionando o tipo de documento, por exemplo "fatura de fornecedor" clicando em **Aplicar filtro**. O exemplo a seguir mostra os resultados ao filtrar em **Tipo de documento comercial** co o tipo de documento adicionado. 
 
 [![Filtro e importação aplicados para tipo de documento comercial](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG) 
 
-Os resultados filtrados podem ser importados para os usuários RCS ou ambiente do Dynamics 365 Finance, individualmente ou como um conjunto (selecionando o grupo de configurações) e clicando em **Importar**.
-
-
-
-
-
-
+Os resultados filtrados podem ser importados em um repositório do RCS ou em um ambiente do Dynamics 365 Finance dos usuários, individualmente ou como um conjunto. Para fazer isso, selecione o grupo de configurações e clique em **Importar**.

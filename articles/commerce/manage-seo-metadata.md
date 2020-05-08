@@ -3,7 +3,7 @@ title: Gerenciar metadados de SEO
 description: Este tópico descreve como gerenciar metadados da otimização do mecanismo de pesquisa (SEO) no Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1e7da7bf5c473746413e92babfa943f546b7724d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 74229628e48ffb8ac974acd868e325eeca77d91e
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003455"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3270038"
 ---
 # <a name="manage-seo-metadata"></a>Gerenciar metadados de SEO
 
@@ -72,13 +72,10 @@ Para modificar os metadados da página, siga estas etapas.
 1. Em **Sites**, selecione o **Fabrikam** (ou o nome do seu site).
 1. No painel de navegação à esquerda, selecione **Páginas**.
 1. Selecione a home page para abri-la no editor de páginas.
-1. No Painel de Ação, selecione **Fazer Check-Out**.
+1. Na barra de comandos, selecione **Editar**.
 1. No painel de propriedades à direita, expanda **Marcas meta padrão**.
-1. Para adicionar uma nova marca meta, selecione **Adicionar** e informe a marca no campo.
-
-    Para remover uma marca meta existente, selecione o símbolo da lata de lixo à direita dela.
-
-1. Selecione **Salvar** e **Fazer Check-in**.
+1. Para adicionar uma nova marca meta, selecione **Adicionar** e informe a marca no campo. Para remover uma marca meta existente, selecione o símbolo da lata de lixo à direita dela.
+1. Selecione **Salvar** e **Finalizar edição**.
 1. No campo **Comentários**, insira **Marcas meta atualizadas** e depois selecione **OK**.
 1. Selecione **Visualizar** para exibir a página. Quando terminar, feche a guia de visualização para retornar à ferramenta de criação.
 1. Selecione **Publicar**.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a3d0b6c4ef9e6f21e1542bece9046e98edcab6b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5cbf313666e03c0006bee985bcf622a20ce4e51
+ms.sourcegitcommit: f1bef1cb4b3d2c9261e89820d624e4b0fe60d25c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207824"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3281500"
 ---
 # <a name="purchase-requisition-workflow"></a>fluxo de trabalho de requisição de compra
 
@@ -85,6 +85,9 @@ Neste exemplo, o processo de fluxo de trabalho para as linhas de requisição de
 3.  O gerente de linha do solicitante examina e aprova as linhas de requisição de compra. A aprovação pode ser encaminhada para o gerente do solicitante se, por exemplo, o valor de uma linha da requisição de compra exceder o limite de gastos do solicitante para linhas da requisição de compra. O gerente poderá aprovar ou rejeitar uma ou ambas as linhas de requisição de compra.
 4.  O gerente de departamento para o departamento de Marketing examine as linhas de requisição de compra para os cartazes e as camisetas. O gerente do departamento de Vendas só examina a linha de requisição de compra para os cartazes, porque se trata do único custo que está sendo cobrado do departamento de Vendas.
 5.  O gerente do grupo examina e aprove a linha de requisição de compra para as camisetas somente se a aprovação do gerente do grupo for necessária porque, por exemplo, o valor na linha de requisição de compra excede o limite de aprovação do gerente de departamento. O gerente do grupo não precisa aprovar a linha de requisição de compra para os cartazes.
+
+> [!NOTE]
+> A moeda do sistema deverá ser definida se o fluxo de trabalho de cabeçalho de uma requisição de compra exigir aprovações relacionadas aos limites de assinatura.
 
 ## <a name="configuring-a-workflow-for-purchase-requisitions"></a>Configurando um fluxo de trabalho para requisições de compra
 Para rotear uma requisição de compra para revisão, você deverá configurar os processos de fluxo de trabalho da requisição de compra. O processo de fluxo de trabalho definido por você controla a interação entre o usuário que solicitou os itens (o solicitante) e o revisor e aprovador no fluxo de trabalho. O roteiro da requisição de compra depende das condições especificadas na configuração do fluxo de trabalho. Por exemplo, essas condições determinam quando a requisição de compra será enviada, o usuário ou a função para a qual ela deve ser enviada e as ações que os usuários podem executar.  

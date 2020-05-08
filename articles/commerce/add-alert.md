@@ -3,7 +3,7 @@ title: Módulo de faixa promocional
 description: Este tópico abrange os módulos de faixa promocional e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: da5e220e4578d1064eb7b627b441d3f585b3c095
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 12cabbf0b8d9f337f15a8cd6cb1f2a85100b75f7
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025611"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269765"
 ---
 # <a name="promo-banner-module"></a>Módulo de faixa promocional
 
@@ -64,16 +64,17 @@ As faixas promocionais podem ser usadas no cabeçalho do site para mostrar promo
 
 Para adicionar um módulo de faixa promocional a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
-1. Criar um modelo da página chamado **Modelo de faixa promocional**.
+1. Selecione **Novo** para criar um modelo de página.
+1. Na caixa de diálogo **Novo Modelo**, em **Nome do Modelo**, insira **Modelo do banner da promoção** e selecione **OK**.
 1. Em **Estrutura de Tópicos de Página**, adicione um módulo **Página padrão** ao slot **Corpo**. 
-1. Faça check-in do modelo e publique-o. 
+1. Selecione **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo. 
 1. Use o modelo que você acabou de criar para criar uma página com o nome **Página de faixa promocional**. 
 1. No slot **Principal** da nova página, adicione um módulo de contêiner. 
 1. No painel à direita, defina o valor da **Largura** como **Preencher Contêiner**.
 1. Em **Estrutura de Tópicos de Página**, adicione um módulo de faixa promocional ao módulo de contêiner.
 1. Nas configurações do módulo de faixa, adicione uma ou mais mensagens de faixa. Cada mensagem pode ter texto juntamente com um link. É possível editar as outras propriedades para personalizar ainda mais o módulo.
-1. Salve e exiba a página. Na parte superior da página, você verá um alerta que mostra o texto que você adicionou.
-1. Termine de editar a página e publique-a. 
+1. Selecione **Salvar** e depois selecione **Visualizar** para visualizar a página. Na parte superior da página, você verá um alerta que mostra o texto que você adicionou.
+1. Selecione **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo. 
 
 > [!NOTE]
 > Em geral, uma faixa promocional é usada no slot do cabeçalho da página ou em um slot de subcabeçalho.

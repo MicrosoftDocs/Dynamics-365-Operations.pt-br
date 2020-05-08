@@ -22,32 +22,6 @@
                   href: get-started/whats-new-platform-update-33.md
                 - name: Platform update 32 (fevereiro de 2020)
                   href: get-started/whats-new-platform-update-32.md
-                - name: Platform update 31 (janeiro de 2020)
-                  href: get-started/whats-new-platform-update-31.md
-                - name: Platform update 30 (novembro de 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-30.md
-                - name: Platform update‎ 29 (outubro de 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-29.md
-                - name: Platform update 28 (julho de 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-28.md
-                - name: Platform update 27 (junho de 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-27.md
-                - name: Platform update 26 (maio de 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-26.md
-                - name: Platform update 25 (abril de 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-25.md
-                - name: Platform update 24 (março de 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-24.md
-                - name: Platform update 23 (janeiro de 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-23.md
-                - name: Platform update 22 (dezembro de 2018)
-                  href: ../fin-ops/get-started/whats-new-platform-update-22.md
-                - name: Platform update 21 (novembro de 2018)
-                  href: ../fin-ops/get-started/whats-new-platform-update-21.md
-                - name: Platform update 20 (setembro de 2018)
-                  href: ../fin-ops/get-started/whats-new-platform-update-20.md
-                - name: Platform update 15 (março de 2018)
-                  href: ../fin-ops/get-started/whats-new-platform-update-15.md
             - name: Recursos removidos ou obsoletos
               items:
                 - name: Recursos de Platform removidos ou obsoletos
@@ -104,6 +78,8 @@
               href: dev-tools/exclude-test-packages.md
             - name: Gerenciar modelos de terceiros e pacotes de tempo de execução usando o controle de origem
               href: dev-tools/manage-runtime-packages.md
+            - name: Pacotes tudo em um implantáveis
+              href: dev-tools/aio-deployable-packages.md
             - name: Atualizar versões do modelo na compilação automatizada
               href: dev-tools/version-models-build.md
         - name: Integração de dados
@@ -526,7 +502,7 @@
                       href: lifecycle-services/reconfigure-environment.md
                     - name: Reimplantar implantações locais
                       href: deployment/redeploy-on-prem.md
-                    - name: Remover e reinstalar um nó AOS
+                    - name: Remover e reinstalar ou adicionar um nó AOS
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Reutilização da mesma instância do AD FS em vários ambientes
                       href: deployment/onprem-reuseadfs.md

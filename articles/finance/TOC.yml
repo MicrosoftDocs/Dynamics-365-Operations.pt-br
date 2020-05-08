@@ -70,12 +70,12 @@
                   items:
                     - name: Novidades ou alterações na home page do Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.11 (julho 2020)
+                      href: get-started/whats-new-changed-10-0-11.md
                     - name: Finance 10.0.10 (maio de 2020)
                       href: get-started/whats-new-changed-10-0-10.md
                     - name: Finance 10.0.9 (abril de 2020)
                       href: get-started/whats-new-changed-10-0-9.md
-                    - name: Finance 10.0.8 (fevereiro de 2020)
-                      href: get-started/whats-new-changed-10-0-8.md
             - name: Recursos removidos ou obsoletos
               items:
                 - name: Recursos removidos ou obsoletos do Dynamics 365 Finance
@@ -978,12 +978,16 @@
               href: project-management/tasks/configure-intercompany-project-invoicing.md
             - name: Configurar custos padrão para trabalho e despesas
               href: project-management/tasks/configure-standard-costs-labor-expenses.md
+            - name: Configurar e usar pagamentos de fornecedor de pagamento quando pago
+              href: project-management/setup-manage-vendor-payments.md
             - name: Acumulação de custos do projeto nos recibos de compras
               href: accounts-payable/project-cost-accrual-purchase-receipts.md
             - name: Faturamento do projeto
               href: accounts-payable/project-invoicing.md
             - name: Contratos do projeto
               href: project-management/project-contracts.md
+            - name: Criar contratos avançados para cobrança com base no progresso
+              href: project-management/project-create-advanced-contracts-for-billing-based-progress.md
             - name: Previsões e orçamentos do projeto
               href: project-management/project-forecasts-budgets.md
             - name: Transferir orçamentos do projeto no final do ano fiscal
@@ -1014,6 +1018,8 @@
                   href: project-management/mobile-timesheets.md
                 - name: Implementar campos personalizados do aplicativo móvel de folha de ponto do Project
                   href: project-management/custom-fields-mobile.md
+            - name: Concessões do projeto
+              href: project-management/project-grants.md
         - name: Setor público
           items:
             - name: Home page do Setor público
@@ -2016,6 +2022,8 @@
                   href: localizations/emea-ita-exil-unique-certification.md
                 - name: Importação de protesto de letras de câmbio
                   href: localizations/emea-ita-exil-protest-boe.md
+                - name: Teto de imposto
+                  href: localizations/emea-ita-exil-tax-plafond.md
             - name: Japão
               items:
                 - name: Visão geral do Japão

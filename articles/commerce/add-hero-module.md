@@ -3,7 +3,7 @@ title: Módulo de bloco de conteúdo
 description: Este tópico abrange os módulos de bloco de conteúdo e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f91de93ce5ed4813f9f2adbe7678229189b5af2f
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: daf9193a7fdc3b57defbb3250ae902f6eb6ee6c4
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025749"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269673"
 ---
 # <a name="content-block-module"></a>Módulo de bloco de conteúdo
 
@@ -79,10 +79,10 @@ A imagem a seguir mostra um exemplo de módulo de bloco de conteúdo com layout 
 
 Para adicionar um módulo de hero a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
-1. Vá para **Modelos** e crie um modelo de página chamado **modelo de bloco de conteúdo**.
+1. Vá para **Modelos** e crie um modelo de página chamado **Modelo de bloco de conteúdo**.
 1. No slot **Principal** da página padrão, adicione um módulo de hero.
-1. Faça check-in do modelo e publique-o.
-1. Use o modelo de hero recém-criado para criar uma página chamada **página de bloco de conteúdo**.
+1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
+1. Use o modelo de hero recém-criado para criar uma página chamada **Página de bloco de conteúdo**.
 1. No slot **Principal** da página padrão, selecione o botão de reticências (**...**) e, em seguida, selecione **Adicionar módulo**.
 1. Na caixa de diálogo **Adicionar módulo**, em **Selecionar módulos**, selecione um módulo de hero e depois selecione **OK**.
 1. Na árvore de estrutura de tópicos à esquerda, selecione o módulo de bloco de conteúdo.
@@ -93,14 +93,14 @@ Para adicionar um módulo de hero a uma nova página e definir as propriedades n
 1. Selecione **Adicionar Link**.
 1. Na caixa de diálogo **Link**, adicione o texto do link, uma URL do link e uma etiqueta ARIA para o link e selecione **OK**.
 1. Selecione o layout **Hero**.
-1. Salve a página e visualize suas alterações.
-1. Insira a página e publique-a.
+1. Selecione **Salvar** e depois selecione **Visualizar** para visualizar a página.
+1. Selecione **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo. 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral do kit de início](starter-kit-overview.md)
 
-[Módulo de faixa promocional](add-alert.md)
+[Módulo de banner de promoção](add-alert.md)
 
 [Módulo do carrossel](add-carousel.md)
 

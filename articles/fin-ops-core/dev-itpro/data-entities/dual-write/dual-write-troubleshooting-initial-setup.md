@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: e20c9c5e1250c8e65b5642a7c45d7ae859315697
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 76e104c9ebd7db7ebcbaf214e84be6c4353e8a73
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172659"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275432"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Solucionar problemas durante a configuração inicial
 
@@ -39,7 +39,7 @@ Este tópico fornece informações de solução de problemas para integração d
 
 ## <a name="you-cant-link-a-finance-and-operations-app-to-common-data-service"></a>Não é possível vincular um aplicativo Finance and Operations ao Common Data Service
 
-**Credenciais necessárias para configurar a gravação dupla: administrador de locatários do** Azure AD
+**Função necessária para configurar a gravação dupla:** administrador do sistema nos aplicativos Finance and Operations e Common Data Service.
 
 Erros na página **Configurar link para Common Data Service** geralmente são causados por configuração incompleta ou problemas de permissão. Verifique se toda a verificação de integridade foi aprovada na página **Configurar link para Common Data Service**, conforme mostrado na ilustração a seguir. Não é possível vincular a dupla gravação, a menos que toda a verificação de integridade seja aprovada.
 

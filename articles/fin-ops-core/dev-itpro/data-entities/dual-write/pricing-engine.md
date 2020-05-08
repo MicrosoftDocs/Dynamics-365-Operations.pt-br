@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: ef4465144155130087b078f9f96911df38b62c41
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 5ffc0358ff58b2a05aa84b4467a27d88b5e1ec42
+ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173168"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "3270327"
 ---
 # <a name="sync-with-the-dynamics-365-supply-chain-management-pricing-engine-on-demand"></a>Sincronizar com o mecanismo de preços sob demanda do Dynamics 365 Supply Chain Management
 
@@ -50,6 +50,12 @@ O Microsoft Dynamics 365 Supply Chain Management inclui um mecanismo de preços 
     + Valor do Frete
     + Total de Impostos
     + Valor total do CF -e-SAT
+    
+5. Para garantir que o sistema considera os contratos comerciais e de venda para calcular o preço:
+    1. Navegue até o ambiente Supply Chain Management.
+    2. Navegue até **Contas a receber \> Configuração \> Parâmetros de contas a receber**.
+    3. Selecione a guia **Preços** na barra de navegação lateral.
+    4. Na Guia Rápida **Avaliação de contrato comercial**, desmarque a opção **Entrada manual**.
 
 ## <a name="how-it-works"></a>Como funciona
 

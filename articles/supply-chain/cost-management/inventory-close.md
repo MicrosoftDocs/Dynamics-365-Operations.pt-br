@@ -3,7 +3,7 @@ title: Fechamento de estoque
 description: Como parte do processo para liquidar transações de saída com transações de recebimento, você também optar por atualizar a contabilidade para refletir os ajustes feitos.
 author: AndersGirke
 manager: tfehr
-ms.date: 10/24/2017
+ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 83c88a5fe52e41df5a0371d6666f544996bd3c76
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9e9f0608c9afc25e7ca6657f6a2e87d088d4cbad
+ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201616"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3283981"
 ---
 # <a name="inventory-close"></a>Fechamento de estoque
 
@@ -59,11 +59,10 @@ Várias tarefas que podem ser executadas da página **Fechamento e ajuste** caus
 
 As contas contábeis atualizadas por causa dessas tarefas são vinculadas à transação de estoque original. Por exemplo, se uma ordem de venda for liquidada para uma ordem de compra, as contas contábeis gerais que foram usadas para a ordem de venda original serão ajustadas. Esse comportamento ocorrerá mesmo se a conta contábil do grupo de itens atribuído a esse item for alterada desde que a ordem de venda foi lançada. Depois que o fechamento de estoque cria um valor de liquidação, esse valor ainda será lançado nas contas contábeis originais e não nas novas contas contábeis atribuídas ao item. A contabilidade também poderá ser atualizada, se você estornar um fechamento de estoque. 
 
-**Observações:**
-
--   O fechamento de estoque não será necessário se você usar o método Avaliação de custo padrão.
--   Antes de executar o procedimento de fechamento, você poderá exibir uma lista de itens que não pode ser liquidada durante a atualização
--   Recomendamos que você execute o fechamento de estoque durante horários de menor movimento para distribuir os recursos computacionais de maneira mais uniforme.
+> [!NOTE] 
+> - O fechamento de estoque é uma etapa obrigatória no procedimento de fechamento do mês final para todos os modelos de estoque. Isso inclui os custos de movimentação padrão e médio. Você não poderá fechar o período financeiro até que um fechamento de estoque tenha sido executado na data final do período.
+> - Antes de executar o procedimento de fechamento, você poderá exibir uma lista de itens que não pode ser liquidada durante a atualização
+> - Recomendamos que você execute o fechamento de estoque durante horários de menor movimento para distribuir os recursos computacionais de maneira mais uniforme.
 
 ## <a name="the-inventory-close-log"></a>O log de fechamento de estoque
 Depois de concluído o fechamento do estoque, uma mensagem no centro de mensagens pode informar você que um preço de custo unitário pode estar incorreto porque uma transação não pôde ser totalmente liquidada. 
@@ -85,7 +84,6 @@ Em algumas circunstâncias, talvez você não consiga fazer nada em relação ao
 ## <a name="reversing-a-completed-inventory-close"></a>Estornar um fechamento de estoque concluído
 Ocasionalmente, talvez seja necessário reverter um fechamento de estoque concluído, retornando as liquidações para o estado que tinham antes dos ajustes. Quando você reverte um fechamento de estoque concluído, o estoque é reaberto para habilitar o lançamento no período coberto pelo fechamento de estoque. As alterações relacionadas também podem ser feitas na contabilidade. Depois que concluir os ajustes, você poderá executar o fechamento de estoque novamente para o período em que está trabalhando. 
 
-**Observação:** somente o último período de estoque que foi fechado pode ser reaberto. Para estornar um fechamento de estoque anterior, você deverá estornar cada fechamento de estoque subsequente, um de cada vez, começando pelo fechamento mais recente.
-
-
+> [!NOTE] 
+> Somente o último período de estoque que foi fechado pode ser reaberto. Para estornar um fechamento de estoque anterior, você deverá estornar cada fechamento de estoque subsequente, um de cada vez, começando pelo fechamento mais recente.
 
