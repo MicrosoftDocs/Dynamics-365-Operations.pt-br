@@ -88,18 +88,18 @@
                   items:
                     - name: Novidades ou alterações na home page do Commerce
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.11 (julho 2020)
+                    - name: Commerce 10.0.11 (julho de 2020)
                       href: get-started/whats-new-commerce-10-0-11.md
                     - name: Commerce 10.0.10 (maio de 2020)
                       href: get-started/whats-new-commerce-10-0-10.md
                     - name: Commerce 10.0.9 (abril de 2020)
                       href: get-started/whats-new-10-0-9.md
-                    - name: Commerce 10.0.8 (fevereiro de 2020)
-                      href: get-started/whats-new-10-0-8.md
                 - name: Recursos removidos ou obsoletos
                   items:
                     - name: Recursos removidos ou obsoletos do Finance and Operations
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
+                    - name: Recursos removidos ou obsoletos do Dynamics 365 Commerce
+                      href: get-started/removed-deprecated-features-commerce.md
                 - name: Recursos do AX 2012 que foram postergados
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/commerce/toc.json
                 - name: Recursos não implementados em implantações locais
@@ -644,6 +644,8 @@
                       href: work-with-store-inventory.md
                     - name: Trabalhar com itens serializados
                       href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md?toc=/dynamics365/commerce/toc.json
+                    - name: Trabalhar com itens serializados no PDV
+                      href: pos-serialized-items.md
                     - name: Mover produtos do centro de distribuição para a loja usando a compra centralizada
                       href: tasks/push-products-distribution-center-store-buyers-push.md
                     - name: Configurar regras e parâmetros para a distribuição integrada e a compra centralizada
@@ -1002,7 +1004,7 @@
               href: store-performance-information.md
             - name: 'Configurar análise de Recency, frequência e valor monetário (RFM)'
               href: set-up-rfm-analysis.md
-        - name: Recursos regulatórios e de localização
+        - name: Globalização
           items:
             - name: Visão geral da integração fiscal do canal do Commerce
               href: localizations/fiscal-integration-for-retail-channel.md
@@ -1010,22 +1012,30 @@
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
             - name: Áustria
               items:
-                - name: Integração de serviços de registro fiscal para a Áustria
+                - name: Exemplo de integração de serviços de registro fiscal para a Áustria
                   href: localizations/emea-aut-fi-sample.md
-            - name: Leste Europeu
+            - name: Europa Oriental
               items:
-                - name: Faturas antecipadas para o Commerce no Leste Europeu
-                  href: localizations/emea-eeu-advance-invoices-for-retail.md
-                - name: Gerenciamento de caixa pequeno para o Commerce no Leste Europeu
-                  href: localizations/emea-eeu-petty-cash-for-retail.md
-                - name: Faturas de clientes e ordens de venda de devolução em países do Leste Europeu
-                  href: localizations/emea-eeu-retail-invoices.md
-                - name: 'Diretrizes de implantação de caixas registradoras para República Tcheca, Hungria e Polônia'
-                  href: localizations/emea-eeu-deployment.md
-                - name: Exemplo de integração da impressora fiscal para a Polônia
-                  href: localizations/emea-pol-fpi-sample.md
-                - name: Integração de serviços de registro fiscal para a República Tcheca
-                  href: localizations/emea-cze-fi-sample.md
+                - name: Comum
+                  items:
+                    - name: Faturas antecipadas para o Commerce no Leste Europeu
+                      href: localizations/emea-eeu-advance-invoices-for-retail.md
+                    - name: Gerenciamento de caixa pequeno para o Commerce no Leste Europeu
+                      href: localizations/emea-eeu-petty-cash-for-retail.md
+                    - name: Faturas de clientes e ordens de venda de devolução em países do Leste Europeu
+                      href: localizations/emea-eeu-retail-invoices.md
+                    - name: 'Diretrizes de implantação de caixas registradoras para República Tcheca, Hungria e Polônia'
+                      href: localizations/emea-eeu-deployment.md
+                - name: República Tcheca
+                  items:
+                    - name: Exemplo de integração de serviços de registro fiscal para a República Tcheca
+                      href: localizations/emea-cze-fi-sample.md
+                - name: Polônia
+                  items:
+                    - name: Exemplo de integração da impressora fiscal para a Polônia
+                      href: localizations/emea-pol-fpi-sample.md
+                    - name: Gerenciamento de informações do cliente para a Polônia
+                      href: localizations/emea-pol-customer-information.md
             - name: França
               items:
                 - name: Funcionalidade de caixa registradora
@@ -1044,6 +1054,8 @@
               items:
                 - name: Exemplo de integração da impressora fiscal para a Itália
                   href: localizations/emea-ita-fpi-sample.md
+                - name: Gerenciamento de informações do cliente para a Itália
+                  href: localizations/emea-ita-customer-information.md
             - name: México
               items:
                 - name: Faturas eletrônicas globais de CFDI para o México
@@ -1058,7 +1070,9 @@
               items:
                 - name: Funcionalidade de caixa registradora
                   href: localizations/emea-swe-cash-registers.md
-                - name: Exemplo para integração do POS com unidades de controle
+                - name: Exemplo de integração da unidade de controle para a Suécia
+                  href: localizations/emea-swe-fi-sample.md
+                - name: Exemplo para integração do Retail POS com unidades de controle (herdado)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Relatórios e integrações do Power BI
           items:
@@ -1564,13 +1578,13 @@
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
                 - name: Baixar configurações ER do repositório do RCS
                   items:
-                    - name: Baixar configurações do repositório do ER do tipo do RCS
+                    - name: Baixar configurações do repositório do ER do tipo RCS
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
                     - name: Importar configurações do RCS
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
             - name: Tutoriais
               items:
-                - name: Usar fontes de dados JOIN para obter dados de várias tabelas de aplicativos
+                - name: Usar fontes de dados JUNÇÃO para obter dados de várias tabelas de aplicativos
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: Configurar mapeamentos do modelo de ER dependente do contexto do país
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
