@@ -1,6 +1,6 @@
 ---
-title: Recebimento da placa de licença por meio do aplicativo móvel do depósito
-description: Este tópico explica como configurar o aplicativo móvel de depósito para oferecer suporte ao uso de um processo de recebimento de placa de licença para receber um estoque físico.
+title: Recebimento da placa de licença por meio do aplicativo do depósito
+description: Este tópico explica como configurar o aplicativo de depósito para oferecer suporte ao uso de um processo de recebimento de placa de licença para receber um estoque físico.
 author: perlynne
 manager: tfehr
 ms.date: 03/31/2020
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 98cd608edea1d5365d0d3532244f1fcdb6293d3c
-ms.sourcegitcommit: 3a823444005d316bd95fc663e2dbc8252ac7d93a
+ms.openlocfilehash: 7d5ac6598ab80ece0164d7c92f5d84e91d21b385
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261302"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346367"
 ---
-# <a name="license-plate-receiving-via-the-warehousing-mobile-app"></a>Recebimento da placa de licença por meio do aplicativo móvel do depósito
+# <a name="license-plate-receiving-via-the-warehousing-app"></a>Recebimento da placa de licença por meio do aplicativo do depósito
 
-Este tópico explica como configurar o aplicativo móvel de depósito para oferecer suporte ao uso de um processo de recebimento de placa de licença para receber um estoque físico.
+Este tópico explica como configurar o aplicativo de depósito para oferecer suporte ao uso de um processo de recebimento de placa de licença para receber um estoque físico.
 
 Você pode usar esta funcionalidade para registrar rapidamente o recebimento de um estoque de entrada relacionado a um aviso de embarque (ASN). O sistema automaticamente cria um ASN quando os processos de gerenciamento do depósito forem usados para remeter uma ordem de transferência. Para o processo da ordem de compra, um ASN pode ser registrado manualmente ou importado automaticamente usando um processo de entidade de dados do ASN de entrada.
 
@@ -63,7 +63,7 @@ For more information about the *Report as finished* production scenario, see the
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>Mostrar ou ignorar a página de resumo do recebimento
 
-Você pode usar o recurso *Controlar a exibição de uma página de resumo do recebimento em dispositivos móveis* para usar um fluxo de aplicativo adicional detalhado do Depósito como parte do processo de recebimento da placa de licença.
+Você pode usar o recurso *Controlar a exibição de uma página de resumo do recebimento em dispositivos móveis* para usar um fluxo de aplicativo adicional detalhado do depósito como parte do processo de recebimento da placa de licença.
 
 Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, este recurso está listado da seguinte forma:
 

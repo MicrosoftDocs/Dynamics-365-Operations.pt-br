@@ -3,7 +3,7 @@ title: Linguagem da fórmula de relatório eletrônico
 description: Este tópico fornece informações sobre como usar o idioma de fórmulas no relatório eletrônico (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/18/2019
+ms.date: 05/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 79b4640a23d4fc78ade4de57e4071abe6c9ecb56
-ms.sourcegitcommit: 0d7b700950b1f95dc030ceab5bbdfd4fe1f79ace
+ms.openlocfilehash: bb1f026b6a83aa8c1de0dc5088940d7377867a8b
+ms.sourcegitcommit: 139c8007e68d279d7ca9aa302598217522abb8cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "3284347"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3331338"
 ---
 # <a name="electronic-reporting-formula-language"></a>Linguagem da fórmula de relatório eletrônico
 
@@ -129,6 +129,8 @@ O exemplo na ilustração a seguir mostra como um caminho relativo é usado. O c
 A parte restante do caminho absoluto também é mostrada no [Editor de fórmula ER](general-electronic-reporting-formula-designer.md).
 
 ![Parte restante do caminho absoluto na página do designer de fórmula ER](./media/ER-FormulaLanguage-RelativePath2.png)
+
+Para obter mais informações, consulte [Usar um caminho relativo em associações de dados de modelos e formatos de ER](relative-path-data-bindings-er-models-format.md).
 
 ## <a name=""></a><a name="Functions">Funções</a>
 

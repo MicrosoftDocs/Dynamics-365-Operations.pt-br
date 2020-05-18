@@ -19,18 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2019-01-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9148a9032615222a1fdfe453488e716bacadbabc
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 1e68833cc2b4430f66419a67b1cba5f6c8c209f4
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275570"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323614"
 ---
 # <a name="inventory-aging-report-storage"></a>Armazenamento de relatório de classificação por vencimento do estoque
 
-
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 No Microsoft Dynamics 365 Supply Chain Management, você pode executar um relatório **Armazenamento de relatório de classificação por vencimento do estoque** e disponibilizar a saída como um formulário e um gráfico. No formulário, as colunas e os saldos agregação são ajustados dinamicamente, dependendo do layout configurado. O gráfico oferece uma visão geral visual que dá suporte à filtragem e permite que você faça uma busca detalhada. Adicionalmente, uma entidade de dados chamada **Relatório de classificação por vencimento de estoque** permite exportar os resultados de uma execução de um relatório **Armazenamento de relatório de classificação por vencimento do estoque** para um formato como um arquivo do Microsoft Excel ou um arquivo PDF.
 

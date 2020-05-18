@@ -3,7 +3,7 @@ title: Destinos de Relatório eletrônico (ER)
 description: Este tópico fornece informações sobre o gerenciamento de destinos de relatório eletrônico (ER), os tipos de destinos com suporte e considerações de segurança.
 author: nselin
 manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8a6536c82cd3407626fc0d8e102e3819c80cfd4b
-ms.sourcegitcommit: 0d9ca44b48fb2e33d8160faccc1e6bd932e58934
+ms.openlocfilehash: 1bad9e5094f0daa260f66ecd429233f20a2545a5
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3150806"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323683"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinos de relatório eletrônico (ER)
 
@@ -52,7 +52,36 @@ Também existe um tipo de destino [Impressão](er-destination-type-print.md). Pa
 
 ## <a name="overview"></a>Visão geral
 
-Você pode configurar destinos somente para as configurações de ER [importadas](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) para a instância atual do Finance e para os formatos disponíveis na página **Configurações de Relatórios eletrônicos**. A funcionalidade de gerenciamento de destino de ER está disponível em **Administração da organização** \> **Relatório eletrônico** \> **Destino de relatório eletrônico**. Na página **Destino de relatório eletrônico**, é possível substituir o comportamento padrão de uma configuração. As configurações importadas não são mostradas nessa página até você selecionar **Novo** e, no campo **Referência**, selecionar uma configuração para criar configurações de destino.
+Você pode configurar destinos somente para as configurações de ER [importadas](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) para a instância atual do Finance e para os formatos disponíveis na página **Configurações de Relatórios eletrônicos**. A funcionalidade de gerenciamento de destino de ER está disponível em **Administração da organização** \> **Relatório eletrônico** \> **Destino de relatório eletrônico**.
+
+### <a name="default-behavior"></a>Comportamento padrão
+
+O comportamento padrão de uma configuração de formato ER depende do tipo de execução que você especifica quando um formato ER é iniciado.
+
+Na caixa de diálogo **Relatório Intrastat**, na Guia Rápida **Executar o plano de fundo**, se você definir a opção de **Processamento em lotes** como **Não**, um formato ER será executado imediatamente no modo interativo. Quando essa execução é concluída com êxito, um documento de saída gerado é disponibilizado para download.
+
+Se você definir a opção de **Processamento em lotes** como **Sim**, um formato ER será executado no modo de [Lotes](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview). O trabalho em lotes apropriado é criado com base nos parâmetros especificados na guia **Executar no plano de fundo** da caixa de diálogo **Parâmetros de ER**.
+
+> [!NOTE]
+> A descrição do trabalho é iniciada para informá-lo sobre a execução de um mapeamento de formato ER. Também contém o nome do componente ER executado.
+
+[![Executando um formato ER](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
+
+Você pode encontrar informações sobre esse trabalho em vários locais:
+
+- Vá para **Comum** \> **Consultas** \> **Trabalhos em lotes** \> **Meus trabalhos em lotes** para verificar o status da tarefa agendada.
+- Vá para **Administração da organização** \> **Relatório eletrônico** \> **Trabalhos de relatórios eletrônicos** para verificar o status do trabalho agendado e os resultados da execução do trabalho concluído. Quando a execução do trabalho for concluída com êxito, selecione **Mostrar arquivos** na página **Trabalhos de relatório eletrônicos** para obter um documento de saída gerado.
+
+    > [!NOTE]
+    > Este documento está armazenado como um anexo do registro de trabalho atual e é controlado pela estrutura [Gerenciamento de documentos](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management). O [tipo de documento](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) usado para armazenar artefatos ER deste tipo é configurado nos [parâmetros ER](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
+
+- Na página **Trabalhos de relatório eletrônicos**, selecione **Mostrar arquivos** para exibir a lista de erros e avisos que foram gerados durante a execução do trabalho.
+
+    [![Examinando a lista de trabalhos ER](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
+
+### <a name="user-configured-behavior"></a>Comportamento configurado pelo usuário
+
+Na página **Destino de relatório eletrônico**, é possível substituir o comportamento padrão de uma configuração. As configurações importadas não são mostradas nessa página até você selecionar **Novo** e, no campo **Referência**, selecionar uma configuração para criar configurações de destino.
 
 [![Selecionando uma configuração no campo Referência](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
 
@@ -148,7 +177,7 @@ A opção de conversão em PDF pode ser ativada somente para componentes de arqu
 >
 > O PDF produzido pode ter um número máximo de 300 páginas.
 >
-> No momento, apenas a orientação de página paisagem tem suporte no documento PDF produzido de uma saída do Excel.
+> Na versão 10.0.9 do Microsoft Dynamics 365 Finance (abril de 2020), apenas a orientação de página paisagem tem suporte no documento PDF produzido de uma saída do Excel. Com o lançamento da versão 10.0.10 do Dynamics 365 Finance (maio de 2020), você pode [especificar orientação de página](#SelectPdfPageOrientation) no documento PDF produzido a partir de um Excel enquanto você configura um destino de ER.
 >
 > Somente as fontes de sistema comuns do sistema operacional Windows são usadas para a conversão de uma saída que não contém fontes incorporadas.
 

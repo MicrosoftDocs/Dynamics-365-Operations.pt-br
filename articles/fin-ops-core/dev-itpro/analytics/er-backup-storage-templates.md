@@ -3,7 +3,7 @@ title: Armazenamento em backup de modelos de ER
 description: Este tópico explica como usar o armazenamento de backup de relatórios eletrônicos (ER) para a recuperação de modelos.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/19/2019
+ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5dad101ffe56c9266c0d81ede8be1f72b684a8fb
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2e399290153c2c63ac1c02f0f9cdb956ff5031e5
+ms.sourcegitcommit: 5de75c61c33e57c813944f1ab6100aceb020d432
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771412"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "3321657"
 ---
 # <a name="backup-storage-of-er-templates"></a>Armazenamento em backup de modelos de ER
 
@@ -41,6 +41,8 @@ O recurso de armazenamento de backup de modelos de ER pode ajudar a produzir seu
 
 > [!NOTE]
 > Esse recurso pode ser usado somente quando o Armazenamento de Blob foi selecionado como local de armazenamento físico de modelos de ER.
+
+## <a name="automated-recovery-and-notification"></a>Recuperação e notificação automatizadas
 
 Para esse recurso, cada modelo de uma nova configuração de formato de ER no ambiente atual é salvo automaticamente no local de armazenamento de backup de modelos (a tabela de banco de dados ERDocuDatabaseStorage) quando ocorrem os seguintes eventos:
 
@@ -87,6 +89,10 @@ Se você definiu a opção **Parar de fazer backup cópias de modelos** como **S
 Se você atualizou seu ambiente para o Finance and Operations versão 10.0.5 (outubro de 2019) e deseja migrar para um novo ambiente que inclui as configurações de formato de ER que podem ser executadas, selecione **Preencher o armazenamento de backup** na página **Parâmetros de relatório eletrônico** antes da migração. Esse botão inicia o processo de fazer cópias de backup de todos os modelos disponíveis, de modo que elas possam ser armazenadas no local de armazenamento de backup de ER para modelos.
 
 ![Página de parâmetros de relatórios eletrônicos](./media/GER-BackupTemplates-5.png)
+
+## <a name="manual-recovery"></a>Recuperação manual
+
+Vá para **Administração da organização** \> **Relatório eletrônico** \> **Restaurar modelos desfeitos** para iniciar manualmente o processo de restaurar modelos de ER do local de armazenamento de backup para o local de armazenamento primário. Antes de iniciar este processo, na página **Restaurar modelos desfeitos**, é possível especificar se ele será executado de forma interativa ou se o processo em lote será agendado para isso.
 
 ## <a name="supported-deployments"></a>Implantações com suporte
 

@@ -3,7 +3,7 @@ title: Visão Geral
 description: Em Dynamics 365 Human Resources, o espaço de trabalho de licença e ausência fornece uma estrutura flexível para a criação de novos planos de licenças, fluxos para gerenciar solicitações e uma página de auto-atendimento intuitiva para que os funcionários solicitem licença.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 04/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5f7ba32b31a67d81ee5be568b0e64842f343f96b
-ms.sourcegitcommit: 9940ca772807d3c4e1ff3bf47f45b7251c4469ac
+ms.openlocfilehash: 2bb123b808615ff7d770c7c6b83338a32d922be3
+ms.sourcegitcommit: de217452a85429675994e9cc0e06eb4821cab3e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/04/2020
-ms.locfileid: "3226221"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3325756"
 ---
 # <a name="overview"></a>Visão Geral
 
@@ -78,8 +78,16 @@ Não é possível definir a **Precisão do arredondamento** ao definir o **Tipo 
 
 ## <a name="leave-and-absence-preview-features"></a>Recursos de visualização de licenças e ausências
 
-Você pode experimentar novos recursos de licença e visualização de ausência em **um** ambiente de área restrita. Para obter mais informações sobre os recursos de visualização, consulte [Gerenciar recursos](hr-admin-manage-features.md). Os recursos de visualização incluem:
+Você pode experimentar novos recursos de licença e visualização de ausência em **um** ambiente de área restrita. Para obter mais informações sobre os recursos de visualização, consulte [Gerenciar recursos](hr-admin-manage-features.md). 
 
-- **Suspensão da licença** - Você pode suspender a licença e a ausência em Human Resources para um funcionário. Suspender licença interrompe a acumulação de licenças de licença para os tipos de licença selecionados. Se a suspensão ocorrer depois de um processo de acumulação, a suspensão da licença cria um ajuste rateado para o saldo de licença do funcionário. 
+[!include [banner](includes/preview-feature.md)]
+
+Os recursos de visualização incluem:
+
+- **Suspensão da licença** - Você pode suspender a licença e a ausência em Human Resources para um funcionário. Suspender licença interrompe a acumulação de licenças de licença para os tipos de licença selecionados. Se a suspensão ocorrer depois de um processo de acumulação, a suspensão da licença cria um ajuste rateado para o saldo de licença do funcionário. Você também pode incluir códigos de motivo ao suspender a licença de um funcionário. A experiência do usuário foi atualizada para indicar suspensão. 
 
 - **Regras de postergação** - Você pode especificar um tipo de licença postergada para saldos postergados nos quais ajustes postergados são transferidos. Por exemplo, se um funcionário adianta 10 dias, você pode escolher um tipo de licença diferente para esses 10 dias. 
+
+- **Incluir código de motivo e comentários para ajustes** - é possível incluir um código de motivo e um comentário ao fazer um ajuste ao saldo da licença de um funcionário. 
+
+- **Transição para parâmetros de licença e de ausência** - é possível usar agora somente parâmetros de licença e ausência em vez de usar parâmetros de Human Resources. 

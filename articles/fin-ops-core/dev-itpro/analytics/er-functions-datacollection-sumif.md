@@ -3,7 +3,7 @@ title: Função SUMIF ER
 description: Este tópico fornece informações sobre como a função de relatório eletrônico (ER) SUMIF é usada.
 author: NickSelin
 manager: kfend
-ms.date: 12/04/2019
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 374569d3bbe59f1b96eee9c789b97b7b2a6004bf
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 9df7be0825203f91434d348385c1ee358ae555ea
+ms.sourcegitcommit: ef6fd78c817f93610771cfb2477f52f16b882164
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042472"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "3290191"
 ---
-# <a name="SUMIF">Função SUMIF ER</a>
+# <a name=""></a><a name="SUMIF">Função SUMIF ER</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -62,6 +62,8 @@ No argumento `condition value`, o caractere curinga **"\*"** pode ser usado para
 ## <a name="example"></a>Exemplo
 
 Para obter informações sobre como usar esta função, consulte o guia de tarefas [ER Usar dados de saída do formato contagem e soma](tasks/er-format-counting-summing-1.md), que faz parte do processo de negócios **Adquirir/Desenvolver componentes de solução/serviço de TI**.
+
+Para obter mais informações e exemplos sobre como usar essa função, consulte [Adiar a execução de elementos de sequência nos formatos ER](er-defer-sequence-element.md#Example) e [Adiar a execução de elementos XML nos formatos ER](er-defer-xml-element.md#Example).
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

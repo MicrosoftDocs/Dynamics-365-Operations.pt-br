@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a68ed1cf21039ec1077bae428dea242f19514b51
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 81a3d64d04ceb20fec2f5ca4bb005e7ecb3c1929
+ms.sourcegitcommit: d2b111bf7a5fbf62ff2874d6c57c5ef8412df82e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658611"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3331363"
 ---
 # <a name="project-invoicing"></a>Faturamento de projeto
 
@@ -112,6 +112,9 @@ Quando você solicitar um item de um fornecedor e atribuir o item a um projeto, 
 
 -   Fature o cliente do projeto para o item: Defina a propriedade da linha do item como um valor passível de cobrança na ordem de compra, e fature o cliente usando o método de faturamento de projeto correto.
 -   Não fature o cliente do projeto para o item: Não selecione a propriedade de linha **Passível de cobrança** na linha da ordem de compra para o item. Você pode faturar a ordem de compra e não será necessário tomar mais ações.
+
+> [!NOTE] 
+> As linhas de retenção de liberação não podem ser cobradas por padrão. Isso significa que a capacidade de criar uma proposta de nota fiscal para a retenção liberada não está habilitada.
 
 ## <a name="credit-notes"></a>Notas de crédito
 Quando um valor em uma fatura do cliente tem um valor negativo, a fatura é classificada como uma nota de crédito. Quando o documento é impresso, ele tem o título "Nota de crédito." 

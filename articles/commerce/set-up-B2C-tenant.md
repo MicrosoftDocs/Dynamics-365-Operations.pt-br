@@ -3,7 +3,7 @@ title: Configurar um locatário B2C do Commerce
 description: Este tópico descreve como configurar os locatários business-to-consumer (B2C) do Azure Active Directory (Azure AD) para a autenticação do site de usuário no Dynamics 365 Commerce.
 author: BrianShook
 manager: annbe
-ms.date: 04/17 /2020
+ms.date: 04/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BriShoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f4768eede43003aac892b861b4a86ababe98a189
-ms.sourcegitcommit: 063c4d7155be6c2cadcafa1630d16ee235285479
+ms.openlocfilehash: 22d62419c703c64470723cf82864a4782306ea8a
+ms.sourcegitcommit: 1b00e21faf89de8b3450936253a4c02cb4d12a3d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3270201"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "3295260"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Configurar um locatário B2C do Commerce
 
@@ -87,7 +87,7 @@ Para criar o aplicativo B2C, siga estas etapas.
 
 ### <a name="reply-urls"></a>URLs de resposta
 
-As URLs de resposta são importantes, pois permitem uma lista de permissões dos domínios de retorno quando o seu site chamar o B2C do Azure AD para autenticar um usuário. Isto permite o retorno do usuário autenticado para o domínio a partir do qual estão tentando fazer o logon (domínio do seu site). 
+As URLs de resposta são importantes, pois permitem uma lista de domínios de retorno quando o seu site chamar o B2C do Azure AD para autenticar um usuário. Isto permite o retorno do usuário autenticado para o domínio a partir do qual estão tentando fazer o logon (domínio do seu site). 
 
 Na caixa **URL de resposta** na tela **B2C do Azure AD – Aplicativos \> Novo aplicativo**, será necessário adicionar linhas separadas ao domínio do site e (após o ambiente ser provisionado) à URL gerada pelo Commerce. Essas URLs devem sempre usar um formato de URL válido e devem ser somente URLs base (sem barras ou caminhos à direita). A string ``/_msdyn365/authresp`` precisará ser inserida às URLs base, como nos seguintes exemplos.
 
@@ -121,7 +121,7 @@ Para criar uma política de fluxo de usuário de inscrição e logon, siga estas
 
     | **Coletar atributo** | **Retornar reivindicação** |
     | ---------------------- | ----------------- |
-    |                        | Endereços de Email   |
+    | Endereço de Email          | Endereços de Email   |
     | Nome Fornecido             | Nome Fornecido        |
     |                        | Provedor de Identidade |
     | Sobrenome                | Sobrenome           |
@@ -246,10 +246,6 @@ Para atualizar o headquarters com as novas informações do B2C do Azure AD, sig
     1. Na caixa **Tipo**, insira **Público**.
     1. Na caixa **Tipo de Usuário**, insira **Cliente**.
 1. No painel de ação, selecione **Salvar**.
-1. Na caixa de pesquisa do Commerce, procure **Sequências numéricas** (Administração da organização > Sequências numéricas).
-1. No painel de ação, selecione **Editar** em **Manter**.
-1. Na guia rápida **Geral**, selecione **Não** para **Manual**.
-1. No painel de ação, selecione **Salvar**. 
 1. Na caixa de pesquisa do Commerce, procure **Agenda de distribuição**
 1. No menu de navegação à esquerda da página **Agendas de distribuição**, selecione o trabalho **1110 Configuração global**.
 1. No painel de ação, selecione **Executar Agora**.
@@ -304,13 +300,14 @@ Para adicionar as informações do aplicativo locatário B2C do AAD ao Commerce,
 1. Insira os seguintes itens obrigatórios no formulário exibido usando valores do locatário e aplicativo B2C. Os campos que não são obrigatórios (sem um asterisco) podem ser deixados em branco.
 
     - **Nome do Aplicativo**: O nome do Aplicativo B2C, por exemplo, "Fabrikam B2C".
-    - **Nome do Locatário**: O nome do Locatário B2C, por exemplo, "Fabrikam".
+    - **Nome do locatário**: O nome de seu locatário B2C (por exemple, use "fabrikam" se o domínio aparecer como "fabrikam.onmicrosoft.com" para o locatário B2C). 
     - **ID da Política de Esquecer Senha**: A ID da política de fluxo de usuário de esquecer senha, por exemplo, "B2C_1_PasswordReset".
     - **ID da Política de Inscrição e Logon**: A ID da política do fluxo de usuário de inscrição e logon, por exemplo "B2C_1_signup_signin".
     - **GUID do Cliente**: A ID do aplicativo B2C, por exemplo "22290eb2-c52e-42e9-8b35-a2b0a3bcb9e6".
     - **ID da Política de Editar Perfil**: A ID da política do fluxo de usuário de edição de perfil, por exemplo "B2C_1A_ProfileEdit".
 
 1. Selecione **OK**. Agora você verá o nome do aplicativo B2C aparecer na lista.
+1. Selecione **Salvar** para salvar as alterações.
 
 ### <a name="associate-the-b2c-application-to-your-site-and-channel"></a>Associar o aplicativo B2C ao site e ao canal
 

@@ -3,7 +3,7 @@ title: Mostrar descontos em PDV
 description: Este tópico explica como Microsoft Dynamics 365 Commerce ajuda os representantes de vendas a aprender sobre promoções e como elas podem ser usadas para vendas cruzadas e vendas.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/06/2020
+ms.date: 05/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-Commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 89f7b79733f01c089a16c507b127b23ada5df1a6
-ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
+ms.openlocfilehash: 0ffa7ca6294c7b523ec743f1cb9bc4aef8ef46a8
+ms.sourcegitcommit: 4d5bcda288341572076364559125c86e2ec05273
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "3265565"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3334699"
 ---
 # <a name="show-discounts-in-pos"></a>Mostrar descontos em PDV
 
@@ -54,9 +54,9 @@ Na página **Todos os descontos**, as vendas associadas também podem pesquisar 
 
 Os descontos combinados, como descontos de quantidade, descontos de compra combinada e descontos de limite, são uma ótima maneira de motivar os clientes a comprar mais produtos para obter descontos maiores. Portanto, eles também ajudam a aumentar o tamanho do carrinho do cliente e da receita varejista. Esses descontos podem ser divulgados em sites de comércio eletrônico, em mídia social e em faixas na loja.
 
-No entanto, mesmo quando todos esses métodos de publicidade são usados, os clientes podem perder a oportunidade de aproveitar as promoções. Para facilitar para que os associados de vendas possam saber quais promoções são aplicáveis a uma linha selecionada, ou mesmo ao carrinho inteiro, os varejistas podem adicionar o botão para a operação "Exibir todos os descontos" a qualquer grade de botões no PDV. É recomendável que o botão seja adicionado à grade de botões na página **Transação**. Dessa forma, uma associação de vendas pode selecionar uma linha de transação e, em seguida, selecionar o botão para mostrar todos os descontos disponíveis para a linha selecionada. O associado de vendas também pode selecionar outra guia para mostrar descontos que se aplicam à transação inteira.
+No entanto, mesmo quando todos esses métodos de publicidade são usados, os clientes podem perder a oportunidade de aproveitar as promoções. Para facilitar para que os associados de vendas possam saber quais promoções são aplicáveis a uma linha selecionada, ou mesmo ao carrinho inteiro, os varejistas podem adicionar o botão para a operação "Exibir descontos disponíveis" na página **Transação**. Dessa forma, uma associação de vendas pode selecionar uma linha de transação e, em seguida, selecionar o botão para mostrar todos os descontos disponíveis para a linha selecionada. O associado de vendas também pode selecionar outra guia para mostrar descontos que se aplicam à transação inteira.
 
-A página **Todos os descontos** que foi mencionada anteriormente mostra apenas descontos que não competem com nenhum dos descontos aplicados. Esse comportamento ajuda a garantir que, se um associado de vendas informar um cliente sobre um desconto e o cliente executar a ação necessária (por exemplo, o cliente compra mais um item para obter 10% desativado), o desconto será aplicado à transação. Como mencionamos anteriormente, os descontos baseados em cupom são mostrados quando a opção **Aplicar sem um código de cupom** está ativada.
+A página **Todos os descontos** mostra apenas descontos que não competem com nenhum dos descontos aplicados. Esse comportamento ajuda a garantir que, se um associado de vendas informar um cliente sobre um desconto e o cliente executar a ação necessária (por exemplo, o cliente compra mais um item para obter 10% desativado), o desconto será aplicado à transação. Os descontos baseados em cupom são mostrados quando a opção **Aplicar sem um código de cupom** está ativada.
 
 Em um cenário simples no qual todos os descontos têm a mesma prioridade, o modo de concorrência de desconto é **Composto**, e o controle de concorrência de desconto é definido como **Melhor preço e composto em prioridade**, nunca composto entre as prioridades, a página **Todos os descontos** mostra os descontos disponíveis para um produto, pois todos os descontos são compostos e não são concorrentes entre si.
 
