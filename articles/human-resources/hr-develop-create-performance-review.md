@@ -1,9 +1,9 @@
 ---
 title: Criar avaliações de desempenho
-description: Este artigo explica como criar uma previsão dos resultados e descreve a finalidade de cada seção de revisão.
+description: Este tópico explica como criar uma previsão dos resultados e descreve a finalidade de cada seção de revisão.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/06/2019
+ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,18 +16,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 50ef3f305756f1ab0db895854cd7e1c71237cb48
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 22f3e82e7a1ebba689c1aa1ebbe75603a5c09188
+ms.sourcegitcommit: f06e48c7d487299aa4e2cff3e8f60cb8be0790df
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008090"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3334674"
 ---
 # <a name="create-performance-reviews"></a>Criar avaliações de desempenho
 
 
-
-Este artigo explica como criar uma previsão dos resultados e descreve a finalidade de cada seção de revisão. Este procedimento foi criado usando a empresa de dados de demonstração USMF.
+Este tópico explica como criar uma previsão dos resultados e descreve a finalidade de cada seção de revisão. Este procedimento foi criado usando a empresa de dados de demonstração USMF.
 
 1. Na página inicial, selecione o espaço de trabalho **Autoatendimento para funcionários**.
 2. Selecione **Nova revisão** para criar uma revisão.
@@ -37,7 +36,7 @@ Este artigo explica como criar uma previsão dos resultados e descreve a finalid
 6. Selecione **OK**. Você também pode criar uma revisão a partir de um modelo. Essa é a melhor maneira de criar uma revisão, já que cada ação conterá as informações que você precisa para iniciar uma revisão.  
 7. Você pode mostrar ou ocultar guias, como a guia de anexos:
 
-    1. No painel de ações, selecione **Exibir seções** para abrir a caixa de diálogo suspensa.
+    1. No Painel de Ações, selecione **Exibir seções** para abrir o menu de diálogo.
     1. Selecione **Sim** ou **Não** no campo **Exibir anexos** para mostrar ou ocultar a guia de anexos.
     1. Selecione **Salvar**.
 
@@ -51,7 +50,7 @@ Este artigo explica como criar uma previsão dos resultados e descreve a finalid
 15. Selecione **Adicionar comentário**.
 16. Selecione **Lançar**.
 17. Selecione a guia **Medições**.
-18. Selecione **Adicionar medida** para abrir a caixa de diálogo suspensa.
+18. Selecione **Adicionar medida** para abrir o menu de diálogo.
 19. No campo **Medida**, insira ou selecione um valor.
 26. No campo **Valor alvo**, insira um número.
 20. Selecione **OK**.
@@ -67,13 +66,13 @@ Este artigo explica como criar uma previsão dos resultados e descreve a finalid
 30. Selecione a guia **Classificações**.  
 
     - A Guia Rápida **Detalhes de classificação** permite que os funcionários se avaliem e que o gerente avalie os funcionários. Se pesos forem usados, o valor do peso dos pontos será calculado automaticamente.  
-    - Para ver essa seção, habilite as configurações de parâmetro para exibição das classificações do funcionário.  
+    - Para exibir essa seção, habilite as configurações de parâmetro para exibição das classificações do funcionário.  
 
 31. Selecione a guia **Aprovações**. Se a revisão usar um fluxo de trabalho, as aprovações aparecerão só depois da conclusão do fluxo de trabalho. Se nenhum fluxo de trabalho for usado, o trabalhador e o gerente estarão listados aqui. A caixa de seleção necessária é selecionada com base nas configurações do tipo de revisão.  
 32. Selecione a guia **Geral**.
 
     - O período de desempenho cria datas inicial e final padrão. Essas datas são editáveis.  
-    - Os status controlam o acesso à revisão. O status **Não iniciado** permite que todos editem a revisão. O status **Em andamento** permite que o funcionário só exiba e edite a revisão. Apronte para revisão permitir que somente o gerenciador exiba e edite a revisão. Status final da revisão permite que o funcionário e gerente exibam a revisão e também editá-la configuração se o tipo de análise. Os status **Concluído**, **Rejeitado** e **Cancelado** deixam a revisão apenas leitura.  
+    - Os status controlam o acesso à revisão. O status **Não iniciado** permite que todos editem a revisão. O status **Em andamento** permite que o funcionário só exiba e edite a revisão. **Aprontar para revisão** permite que somente o gerenciador exiba e edite a revisão. Status **final da revisão** permite que o funcionário e gerente exibam a revisão e também editá-la configuração se o tipo de análise. Os status **Concluído** e **Cancelado** deixam a revisão apenas leitura. Se uma revisão for **Rejeitada** e enviada de volta ao funcionário, o funcionário e o gerente poderão fazer as edições necessárias para que o funcionário possa reenviar.
 
 33. No campo **Visão geral**, digite um valor.
 34. Selecione a guia **Revisão**. Como revisão se move com o status, o funcionário e gerente podem adicionar comentários ou para cada meta competência.  

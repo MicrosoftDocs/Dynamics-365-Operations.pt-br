@@ -425,6 +425,8 @@
                   href: asset-management/controlling-and-reporting/item-where-used.md
                 - name: Status de manutenção
                   href: asset-management/controlling-and-reporting/maintenance-status.md
+            - name: Integrar gerenciamento de ativos com o Dynamics 365 Guides
+              href: asset-management/asset-management-guides-integration.md
             - name: Espaço de trabalho móvel de gerenciamento de ativos
               href: asset-management/asset-management-mobile-workspace.md
         - name: Gerenciamento de dados
@@ -1129,13 +1131,13 @@
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Baixar configurações ER do repositório do RCS
                   items:
-                    - name: Baixar configurações do repositório do ER do tipo do RCS
+                    - name: Baixar configurações do repositório do ER do tipo RCS
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Importar configurações do RCS
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
             - name: Tutoriais
               items:
-                - name: Usar fontes de dados JOIN para obter dados de várias tabelas de aplicativos
+                - name: Usar fontes de dados JUNÇÃO para obter dados de várias tabelas de aplicativos
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurar mapeamentos do modelo de ER dependente do contexto do país
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
@@ -1319,7 +1321,7 @@
               items:
                 - name: Visão geral de Otimização de Planejamento
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Disponível negativo é tratado como zero disponível
+                - name: Planejamento com quantidades disponíveis negativas
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Introdução à Otimização de Planejamento
                   href: master-planning/planning-optimization/get-started.md
@@ -2649,21 +2651,19 @@
                   href: warehousing/replenishment.md
                 - name: Reabastecimento imediato
                   href: warehousing/immediate-replenishment.md
-                - name: Reabastecimento com kanbans de retirada
+                - name: ​Reabastecimento com kanbans de retirada​
                   href: warehousing/material-replenishment-withdrawal-kanban.md
                 - name: Configurar um processo de reabastecimento mínimo/máximo
                   href: warehousing/tasks/set-up-min-max-replenishment-process.md
-                - name: Configurar um modelo de trabalho para ordens de compra
-                  href: ../supply-chain/warehousing/tasks/set-up-work-template-purchase-orders.md
-            - name: Instalar e configurar o aplicativo de depósito
+            - name: ​Instalar e configurar o aplicativo de depósito ​
               items:
                 - name: Visão geral de instalação e configuração
                   href: warehousing/install-configure-warehousing-app.md
                 - name: ​Configurar nomes de campos no aplicativo de depósito​
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
-                - name: ​Configurar dispositivos móveis para trabalho de depósito​
+                - name: Configurar dispositivos móveis para trabalho de depósito
                   href: warehousing/configure-mobile-devices-warehouse.md
-                - name: Recebimento da placa de licença com o aplicativo móvel de depósito
+                - name: Recebimento da placa de licença com o aplicativo de depósito
                   href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                 - name: Configurar um item de menu de dispositivo móvel para concluir trabalhos em uma ordem de compra
                   href: warehousing/tasks/set-up-mobile-device-menu.md

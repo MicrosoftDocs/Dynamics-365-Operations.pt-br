@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
-ms.search.form: ERSolutionTable , ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula
+ms.search.form: ERSolutionTable, ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2940d99243ac52ee0d56a1c4423c4f0250f42f57
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: c08e81b6e2983a8f16104698944820e93ba3852d
+ms.sourcegitcommit: 139c8007e68d279d7ca9aa302598217522abb8cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3091763"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3331315"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>Use um caminho relativo em associações de dados de modelos e formatos de ER
 
@@ -29,10 +29,10 @@ ms.locfileid: "3091763"
 
 A ferramenta ER (relatório eletrônico) permite que usuários definam estruturas em formato eletrônico e descrevam como essas estruturas devem ser preenchidas com dados e algoritmos existentes no aplicativo. Para obter mais informações, consulte [Criar configurações do ER (relatório eletrônico)](electronic-reporting-configuration.md). Para especificar o fluxo de dados para recuperar dados do Finance and Operations e usá-los para gerar um documento eletrônico, você precisa fazer o seguinte:
 
-- Associar fontes de dados configurados para elementos do modelo de dados específico do domínio criado. A estrutura de modelo e as fontes de dados selecionadas podem ser parte de uma estrutura hierárquica complexa. Por causa disso, as associações finais podem ser grandes o suficiente e conter muitos elementos de tipos diferentes (por exemplo, relações, tabelas e métodos). As associações podem ficar menos legíveis e mais complexas para examinar e entender, especialmente para não proprietários. 
-- Associe elementos do modelo de dados com componentes de formato para definir quais dados serão preenchidos do modelo de dados para a saída do formato gerado.
+- Associar fontes de dados configurados para elementos do [modelo de dados](general-electronic-reporting.md#data-model-and-model-mapping-components) específico do domínio criado. A estrutura de modelo e as fontes de dados selecionadas podem ser parte de uma estrutura hierárquica complexa. Por causa disso, as associações finais podem ser grandes o suficiente e conter muitos elementos de tipos diferentes (por exemplo, relações, tabelas e métodos). As associações podem ficar menos legíveis e mais complexas para examinar e entender, especialmente para não proprietários. 
+- Associe elementos do modelo de dados com componentes de [formato](general-electronic-reporting.md#FormatComponentOutbound) para definir quais dados serão preenchidos do modelo de dados para a saída do formato gerado.
 
-Para melhorar a usabilidade de designers de mapeamento do ER, o recurso de caminho relativo foi liberado. Por padrão, a opção da representação de caminho relativo será ativada para qualquer nova instância do aplicativo em que a experiência de design do ER estiver habilitada (Microsoft Dynamics 365 Finance, Microsoft Regulatory Configuration Service). Implementamos o parâmetro de caminho relativo para que os usuários possam continuar usando o caminho completo ao trabalhar com esta apresentação de associações do ER.
+Para melhorar a usabilidade de designers de mapeamento do ER, o recurso de [caminho relativo](er-formula-language.md#relative-path) foi liberado. Por padrão, a opção da representação de caminho relativo será ativada para qualquer nova instância do aplicativo em que a experiência de design do ER estiver habilitada (Microsoft Dynamics 365 Finance, Microsoft Regulatory Configuration Service). Implementamos o parâmetro de caminho relativo para que os usuários possam continuar usando o caminho completo ao trabalhar com esta apresentação de associações do ER.
 
 [![Parâmetros de usuário](./media/relative-path-01.png)](./media/relative-path-01.png)
 
@@ -54,3 +54,7 @@ Este recurso não elimina a compatibilidade com versões anteriores da estrutura
 
 > [!NOTE]
 > Todas as alterações que foram apresentadas pela modificação em massa de associações de elementos aninhados em mapeamentos de modelo são salvas corretamente em um delta de configuração (rastreamento de alterações). Isso permite que os clientes troquem a base da versão derivada de mapeamentos de modelo para qualquer nova versão de base dele que tenha sido modificada usando este recurso novo.
+
+## <a name="additional-resources"></a>Recursos adicionais
+
+[Linguagem da fórmula do ER](er-formula-language.md)

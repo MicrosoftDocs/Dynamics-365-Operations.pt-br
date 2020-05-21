@@ -3,7 +3,7 @@ title: Análise de ajuste da Otimização de Planejamento
 description: Este tópico explica como verificar sua configuração e seus dados atuais em relação aos recursos da funcionalidade Otimização de Planejamento.
 author: ChristianRytt
 manager: tfehr
-ms.date: 04/17/2020
+ms.date: 05/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,16 +19,15 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0382e78942e6cb2047e37b76f1daf5725638d5c3
-ms.sourcegitcommit: 915ee7c59ef5fbd4927c10840e5c5e8652f667a9
+ms.openlocfilehash: 9bf19604d246988e05b91c8a41b1f57b523d2192
+ms.sourcegitcommit: 73ae66c9464bcc9ddc1efbf4e76abb2758862fe6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3277789"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346644"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Análise de ajuste da Otimização de Planejamento
 
-[!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
 
 Para ver o grau de compatibilidade da sua configuração e seus dados atuais com a funcionalidade Otimização de Planejamento, acesse **Planejamento mestre** \> **Configuração** \> **Análise de ajuste à Otimização de Planejamento** e então selecione **Executar análise**. Se a análise localizar inconsistências, elas serão listadas na mesma página. (A análise pode demorar alguns minutos).
@@ -73,6 +72,7 @@ A tabela a seguir mostra os vários resultados que podem ser exibidos após uma 
 | Intercompanhia | Planos mestres incluindo a demanda downstream planejada: _\#_ | Este recurso está pendente. No momento, o planejamento mestre não inclui demanda planejada de downstream quando a otimização do planejamento é habilitada, independentemente dessa configuração. Observe que as ordens lançadas/confirmadas ainda funcionam com a funcionalidade intercompanhia normal e cobrir a maioria dos cenários. |
 | Kanban | Registros de cobertura de item com kanban do tipo de ordem planejada: _\#_ | Este recurso está pendente. No momento, a cobertura do item definida como kanban será ignorada quando a otimização do planejamento estiver habilitada. O tipo de ordem planejado para kanban criará um aviso durante o planejamento mestre e as ordens de compra planejadas serão criadas para cobrir a demanda relacionada. |
 | Kanban | Itens com o kanban do tipo de ordem padrão: _\#_ | No momento, um tipo de pedido padrão definido como kanban será ignorado quando a otimização do planejamento estiver habilitada. O tipo de ordem padrão para kanban criará um aviso durante o planejamento mestre e as ordens de compra planejadas serão criadas para cobrir a demanda relacionada. |
+| Estado do ciclo de vida de produto   | Estados do ciclo de vida do produto não ativos para planejamento: _\#_ | Este recurso está pendente. No momento o estado do ciclo de vida do produto é ignorado com a otimização de planejamento habilitada. Você pode ajustar o filtro de produto de nível de plano para evitar incluir produtos nos quais o estado do ciclo de vida do produto está desabilitado para planejamento. |
 | Produção | Linhas de BOM com arredondamento ou configuração múltipla: _\#_ | Este recurso está pendente. No momento, o arredondamento e várias configurações são ignorados nas linhas da BOM quando a otimização do planejamento é habilitada, independentemente dessa configuração. |
 | Produção | Linhas de fórmula/BOM com medida de fórmula: _\#_ | Este recurso está pendente. No momento, a medida da fórmula é ignorada na BOM e linhas de fórmula quando a otimização do planejamento é habilitada, independentemente dessa configuração. |
 | Produção | Linhas de fórmula/BOM com substituição de itens (grupos de planos): _\#_ | Este recurso está pendente. No momento, substituição de item (grupos de planejamento) é ignorada na BOM e linhas de fórmula quando a otimização do planejamento é habilitada, independentemente dessa configuração. |
@@ -99,7 +99,7 @@ A tabela a seguir mostra os vários resultados que podem ser exibidos após uma 
 | Cotações de venda | Planos mestres com cotações de venda habilitadas: _\#_ | Este recurso está pendente. No momento, cotações não são consideradas quando a otimização do planejamento for habilitada. Eles serão ignorados, independentemente dessa configuração. |
 | Validade | Planos mestres com validade habilitada: _\#_ | Este recurso está pendente. No momento, a validade não é configurada quando a otimização do planejamento é habilitada, independentemente dessa configuração. |
 
-## <a name="related-resources"></a>Recursos relacionados
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral de Otimização de Planejamento](planning-optimization-overview.md)
 

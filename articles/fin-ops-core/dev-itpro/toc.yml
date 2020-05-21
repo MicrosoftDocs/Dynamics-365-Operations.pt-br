@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-update-34.md
                 - name: Platform update 33 (abril de 2020)
                   href: get-started/whats-new-platform-update-33.md
-                - name: Platform update 32 (fevereiro de 2020)
-                  href: get-started/whats-new-platform-update-32.md
             - name: Recursos removidos ou obsoletos
               items:
                 - name: Recursos de Platform removidos ou obsoletos
@@ -140,8 +138,6 @@
                               href: data-entities/dual-write/connection-setup.md
                             - name: Configuração da gravação dupla do Lifecycle Services
                               href: data-entities/dual-write/lcs-setup.md
-                            - name: Sincronização inicial
-                              href: data-entities/dual-write/initial-sync.md
                             - name: Habilitar gravação dupla para aplicativos Finance and Operations existentes
                               items:
                                 - name: Habilitar gravação dupla para aplicativos Finance and Operations existentes
@@ -556,6 +552,16 @@
                   href: dev-tools/development-system-requirements.md
             - name: 'Controle de versão, pesquisa de metadados e navegação'
               href: dev-tools/version-control-metadata-navigation.md
+            - name: Criar automação usando o Azure
+              items:
+                - name: Criar automação usando agentes hospedados pela Microsoft e Azure Pipelines
+                  href: dev-tools/hosted-build-automation.md
+                - name: Adicionar arquivos de licença a um pacote implantável no Azure Pipelines
+                  href: dev-tools/pipeline-add-license-package.md
+                - name: Criar pacotes implantáveis no Azure Pipelines
+                  href: dev-tools/pipeline-create-deployable-package.md
+                - name: Controle de versão do modelo X++ no Azure Pipelines
+                  href: dev-tools/pipeline-model-version.md
             - name: Aplicativo de exemplo de Gerenciamento de Frota
               items:
                 - name: Cenário de ponta a ponta para o aplicativo de exemplo de Gerenciamento de Frota
@@ -1396,6 +1402,8 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: Atribuir usuários a funções de segurança
                   href: sysadmin/tasks/assign-users-security-roles.md
+                - name: Diagnóstico de segurança de gravações de tarefas
+                  href: sysadmin/tasks/security-diagstics-task-recordings.md
             - name: Processamento em lotes
               items:
                 - name: Visão geral do Processamento em lotes

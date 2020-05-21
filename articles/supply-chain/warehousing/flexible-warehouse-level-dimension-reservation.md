@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0fe9ed9f2bebe8683f3b8bb37b33e8a63b9521f6
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6c462a87494c434a6047542d448a85b3bce9f769
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205658"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346459"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Política de reserva de dimensão no nível de depósito flexível
 
@@ -233,7 +233,7 @@ As tabelas a seguir fornecem uma visão geral que mostra como o sistema manipula
 <td>Sim</td>
 <td>
 <ol>
-<li>Selecione o item de menu <strong>Substituir local</strong> no WMA (Aplicativo Móvel de Depósito) quando você iniciar o trabalho de separação.</li>
+<li>Selecione o item de menu <strong>Substituir local</strong> no aplicativo de depósito quando você iniciar o trabalho de separação.</li>
 <li>Selecione <strong>Sugerir</strong>.</li>
 <li>Confirme o novo local que é sugerido com base na disponibilidade da quantidade de lotes.</li>
 </ol>
@@ -244,13 +244,13 @@ As tabelas a seguir fornecem uma visão geral que mostra como o sistema manipula
 <li>Se a quantidade for encontrada em mais de uma placa de licença no novo local, a linha de separação original será dividida em várias linhas para correspondência com cada placa de licença.</li>
 </ul>
 </td>
-<td>Não aplicável</td>
+<td>Não Aplicável</td>
 </tr>
 <tr>
 <td>Não</td>
 <td>
 <ol>
-<li>Selecione o item de menu <strong>Substituir local</strong> no WMA quando você iniciar o trabalho de separação.</li>
+<li>Selecione o item de menu <strong>Substituir local</strong> no aplicativo de depósito quando você iniciar o trabalho de separação.</li>
 <li>Insira um local manualmente.</li>
 </ol>
 </td>
@@ -275,10 +275,10 @@ As tabelas a seguir fornecem uma visão geral que mostra como o sistema manipula
 <tbody>
 <tr>
 <td>A opção <strong>Permitir divisão do trabalho</strong> está habilitada no item de menu do dispositivo móvel.</td>
-<td>Não aplicável</td>
+<td>Não Aplicável</td>
 <td>
 <ol>
-<li>Selecione o item de menu <strong>Completo</strong> no WMA ao processar o trabalho de separação.</li>
+<li>Selecione o item de menu <strong>Completo</strong> no aplicativo de depósito ao processar o trabalho de separação.</li>
 <li>No campo <strong>Qtd da Separação</strong>, insira uma quantidade parcial da separação necessária para indicar a capacidade total.</li>
 </ol>
 </td>
@@ -353,7 +353,7 @@ As tabelas a seguir fornecem uma visão geral que mostra como o sistema manipula
 <td>Sim</td>
 <td>
 <ol>
-<li>Inicie um movimento no WMA.</li>
+<li>Inicie um movimento no aplicativo de depósito.</li>
 <li>Insira os locais "de" e "para".</li>
 </ol></td>
 <td>
@@ -469,7 +469,7 @@ As tabelas a seguir fornecem uma visão geral que mostra como o sistema manipula
 <td>Sim</td>
 <td>
 <ol>
-<li>Selecione o item de menu <strong>Separação insuficiente</strong> no WMA ao executar o trabalho de separação.</li>
+<li>Selecione o item de menu <strong>Separação insuficiente</strong> no aplicativo de depósito ao executar o trabalho de separação.</li>
 <li>No campo <strong>Separar quantidade</strong>, digite <strong>0</strong> (zero).</li>
 <li>No campo <strong>Motivo</strong>, insira <strong>Nenhuma realocação</strong>.</li>
 </ol>
@@ -498,7 +498,7 @@ As tabelas a seguir fornecem uma visão geral que mostra como o sistema manipula
 <td>Sim</td>
 <td>
 <ol>
-<li>Selecione o item de menu <strong>Separação insuficiente</strong> no WMA ao executar o trabalho de separação.</li>
+<li>Selecione o item de menu <strong>Separação insuficiente</strong> no aplicativo de depósito ao executar o trabalho de separação.</li>
 <li>No campo <strong>Separar quantidade</strong>, digite <strong>0</strong> (zero).</li>
 <li>No campo <strong>Motivo</strong>, insira <strong>Nenhuma realocação</strong>.</li>
 </ol>
@@ -522,7 +522,7 @@ As tabelas a seguir fornecem uma visão geral que mostra como o sistema manipula
 <td>Sim</td>
 <td>
 <ol>
-<li>Selecione o item de menu <strong>Separação insuficiente</strong> no WMA ao executar o trabalho de separação.</li>
+<li>Selecione o item de menu <strong>Separação insuficiente</strong> no aplicativo de depósito ao executar o trabalho de separação.</li>
 <li>No campo <strong>Separar Quantidade Insuficiente</strong>, digite <strong>0</strong> (zero).</li>
 <li>No campo <strong>Motivo</strong>, selecione <strong>Separação Insuficiente com realocação manual</strong>.</li>
 <li>Selecione o local/placa de licença na lista.</li>
@@ -548,7 +548,7 @@ As tabelas a seguir fornecem uma visão geral que mostra como o sistema manipula
 <td>Não</td>
 <td>
 <ol>
-<li>Selecione o item de menu <strong>Separação insuficiente</strong> no WMA ao executar o trabalho de separação.</li>
+<li>Selecione o item de menu <strong>Separação insuficiente</strong> no aplicativo de depósito ao executar o trabalho de separação.</li>
 <li>No campo <strong>Separar Quantidade Insuficiente</strong>, digite <strong>0</strong> (zero).</li>
 <li>No campo <strong>Motivo</strong>, selecione <strong>Separação Insuficiente com realocação manual</strong>.</li>
 </ol>
@@ -561,7 +561,7 @@ As tabelas a seguir fornecem uma visão geral que mostra como o sistema manipula
 <td>Não</td>
 <td>
 <ol>
-<li>Selecione o item de menu <strong>Separação insuficiente</strong> no WMA ao executar o trabalho de separação.</li>
+<li>Selecione o item de menu <strong>Separação insuficiente</strong> no aplicativo de depósito ao executar o trabalho de separação.</li>
 <li>No campo <strong>Separar Quantidade Insuficiente</strong>, digite <strong>0</strong> (zero).</li>
 <li>No campo <strong>Motivo</strong>, selecione <strong>Separação Insuficiente com realocação manual</strong>.</li>
 <li>Selecione o local/placa de licença na lista.</li>
@@ -582,10 +582,10 @@ As tabelas a seguir fornecem uma visão geral que mostra como o sistema manipula
 </tr>
 <tr>
 <td>Uma exceção de trabalho do tipo <strong>Separação insuficiente</strong> é configurada, onde <strong>Realocação de item</strong> = <strong>Automática</strong>, <strong>Ajustar estoque</strong> = <strong>Sim/Não</strong> e <strong>Remover reservas</strong> = <strong>Sim/Não</strong>.</td>
-<td>Não aplicável</td>
+<td>Não Aplicável</td>
 <td>
 <ol>
-<li>Selecione o item de menu <strong>Separação insuficiente</strong> no WMA ao executar o trabalho de separação.</li>
+<li>Selecione o item de menu <strong>Separação insuficiente</strong> no aplicativo de depósito ao executar o trabalho de separação.</li>
 <li>No campo <strong>Separar Quantidade Insuficiente</strong>, digite <strong>0</strong> (zero).</li>
 <li>No campo <strong>Motivo</strong>, selecione <strong>Separação Insuficiente com realocação automática</strong>.</li>
 </ol>

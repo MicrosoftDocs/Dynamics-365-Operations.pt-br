@@ -3,7 +3,7 @@ title: Usar as fontes de dados JOIN nos mapeamentos do modelo de ER para obter d
 description: Este tópico explica como você pode usar fontes de dados do tipo JOIN no relatório eletrônico (ER).
 author: NickSelin
 manager: AnnBe
-ms.date: 10/25/2019
+ms.date: 05/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: 224acc19ee5dda430cd9471aa50e9d870a4f8c60
-ms.sourcegitcommit: 564aa8eec89defdbe2abaf38d0ebc4cca3e28109
+ms.openlocfilehash: 668ab28297ee7baf8f28cbbaf179d13cb5151dc4
+ms.sourcegitcommit: 248369a0da5f2b2a1399f6adab81f9e82df831a1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "2667945"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3332313"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Usar as fontes de dados JOIN para obter dados de várias tabelas de aplicativos nos mapeamentos do modelo de relatório eletrônico (ER)
 
@@ -140,7 +140,7 @@ Revise as configurações do componente de mapeamento do modelo de ER. O compone
 
 7.  Feche a página.
 
-### <a name="review"></a> Revisar o mapeamento do modelo de ER (parte 2)
+### <a name="review-er-model-mapping-part-2"></a><a name="review"></a> Revisar o mapeamento do modelo de ER (parte 2)
 
 Revise as configurações do componente de mapeamento do modelo de ER. O componente está configurado para acessar informações sobre versões de configurações de ER, detalhes de configurações e provedores de configuração com o uso de fonte de dados do tipo **Join**.
 
@@ -185,7 +185,7 @@ Revise as configurações do componente de mapeamento do modelo de ER. O compone
 9.  Feche a página.
 10. Selecione **Cancelar**.
 
-### <a name="executeERformat"></a> Executar formato de ER
+### <a name="execute-er-format"></a><a name="executeERformat"></a> Executar formato de ER
 
 1.  Acesse o Finance ou o RCS na segunda sessão do seu navegador da Web, usando as mesmas credenciais e empresa da primeira sessão.
 2.  Vá para **Administração da organização \> Relatório eletrônico \> Configurações**.
@@ -240,7 +240,7 @@ Revise as configurações do componente de mapeamento do modelo de ER. O compone
 
     ![Página de diálogo do usuário de ER](./media/GER-JoinDS-Set2Run.PNG)
 
-#### <a name="analyze"></a> Analisar rastreio de execução do formato de ER
+#### <a name="analyze-er-format-execution-trace"></a><a name="analyze"></a> Analisar rastreio de execução do formato de ER
 
 1.  Na primeira sessão do Finance ou RCS, selecione **Designer**.
 2.  Selecione **Rastreamento de desempenho**.
@@ -256,6 +256,33 @@ Revise as configurações do componente de mapeamento do modelo de ER. O compone
     - O banco de dados do aplicativo foi chamado uma vez para calcular o número de versões de configuração usando junções configuradas na fonte de dados **Detalhes**.
 
     ![Página de designer de mapeamento de modelo de ER](./media/GER-JoinDS-Set2Run3.PNG)
+
+## <a name="limitations"></a>Limitações
+
+Como você pode ver no exemplo deste tópico, a fonte de dados **JOIN** pode ser criada a partir de várias fontes de dados que descrevem os conjuntos individuais dos registros que devem ser incluídos eventualmente. Você pode configurar essas fontes de dados usando a função de ER [FILTER](er-functions-list-filter.md) integrada. Ao configurar a fonte de dados de forma que ela seja chamada além da fonte de dados **JOIN**, você pode usar intervalos da empresa como parte da condição para a seleção de dados. A implementação inicial da fonte de dados **JOIN** não oferece suporte a fontes de dados deste tipo. Por exemplo, ao chamar uma fonte de dados baseada em [FILTER](er-functions-list-filter.md) no escopo de execução de uma fonte de dados **JOIN**, se a fonte de dados chamada contiver intervalos da empresa como parte da condição para a seleção de dados, ocorrerá uma exceção.
+
+Na versão 10.0.12 do Microsoft Dynamics 365 Finance (agosto de 2020), você pode usar intervalos da empresa como parte da condição para a seleção de dados em fontes de dados baseadas em [FILTER](er-functions-list-filter.md) que são chamados dentro do escopo de execução de uma fonte de dados **JOIN**. Devido às limitações do construtor de [consulta](../dev-ref/xpp-library-objects.md#query-object-model) de aplicativos, os intervalos da empresa têm suporte apenas para a primeira fonte de dados de uma fonte de dados **JOIN**.
+
+### <a name="example"></a>Exemplo
+
+Por exemplo, você deve fazer uma única chamada para o banco de dados do aplicativo para obter a lista de transações de comércio exterior de várias empresas e os detalhes do item de estoque referido nessas transações.
+
+Nesse caso, configure os seguintes artefatos no mapeamento do modelo de ER:
+
+- Fonte de dados raiz **Intrastat** que representa a tabela **Intrastat**.
+- Fonte de dados raiz de **Itens** que representa a tabela **InventTable**.
+- Fonte de dados raiz de **Empresas** que retorna a lista de empresas (**DEMF** e **GBSI** neste exemplo) onde as transações devem ser acessadas. O código da empresa está disponível no campo **Companies.Code**.
+- Fonte de dados raiz **X1** que tem a expressão `FILTER (Intrastat, VALUEIN(Intrastat.dataAreaId, Companies, Companies.Code))`. Como parte da condição para a seleção de dados, essa expressão contém a definição de intervalos da empresa `VALUEIN(Intrastat.dataAreaId, Companies, Companies.Code)`.
+- Fonte de dados **X2** como um item aninhado da fonte de dados **X1**. Ela inclui a expressão `FILTER (Items, Items.ItemId = X1.ItemId)`.
+
+Finalmente, você pode configurar uma fonte de dados **JOIN** na qual **X1** é a primeira fonte de dados e **X2** é a segunda fonte de dados. Você pode especificar a **Consulta** como a opção **Executar** para forçar o ER a executar essa fonte de dados no nível do banco como uma chamada SQL direta.
+
+Quando a fonte de dados configurada é executada enquanto a execução de ER é [rastreada](trace-execution-er-troubleshoot-perf.md), a instrução a seguir é mostrada no designer de mapeamento do modelo er como parte do rastreamento de desempenho ER.
+
+`SELECT ... FROM INTRASTAT T1 CROSS JOIN INVENTTABLE T2 WHERE ((T1.PARTITION=?) AND (T1.DATAAREAID IN (N'DEMF',N'GBSI') )) AND ((T2.PARTITION=?) AND (T2.ITEMID=T1.ITEMID AND (T2.DATAAREAID = T1.DATAAREAID) AND (T2.PARTITION = T1.PARTITION))) ORDER BY T1.DISPATCHID,T1.SEQNUM`
+
+> [!NOTE]
+> Ocorrerá um erro se você executar uma fonte de dados **JOIN** que foi configurada de forma a conter condições de seleção de dados que têm intervalos da empresa para fontes de dados adicionais da fonte de dados **JOIN** executada.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
