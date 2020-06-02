@@ -526,15 +526,41 @@
                   href: deployment/uninstall-deployable-package.md
                 - name: Solucionar problemas de aplicativo do pacote
                   href: deployment/deployable-package-troubleshooting.md
+            - name: Implantar ajuda personalizada
+              items:
+                - name: Visão geral da ajuda personalizada
+                  href: help/custom-help-overview.md
+                - name: Preparando conteúdo para uso com o painel Ajuda
+                  href: help/preparing-content.md
+                - name: Implantando a ajuda personalizada no Azure
+                  href: help/walkthrough-help-azure.md
+                - name: Conectar a ajuda personalizada ao painel Ajuda
+                  href: help/connect-help-pane.md
+                - name: Kit de ferramentas da ajuda personalizada
+                  items:
+                    - name: Visão Geral
+                      href: help/custom-help-toolkit.md
+                    - name: A ferramenta HTML From Repo Generator
+                      href: help/custom-help-toolkit-HtmlFromRepoGenerator.md
+                    - name: A ferramenta Convert HTML To JSON
+                      href: help/custom-help-toolkit-ConvertHtmlToJson.md
+                    - name: A ferramenta HTML Locale Changer
+                      href: help/custom-help-toolkit-HtmlLocaleChanger.md
+                    - name: Converter a ajuda personalizada do Dynamics AX para uso no Dynamics 365
+                      href: help/migrate-dynamicsax2012.md
+                - name: Descritores de idioma e localidade no produto e na ajuda
+                  href: help/language-locale.md
+                - name: 'Estender, personalizar e colaborar na ajuda'
+                  href: help/contributor-guide.md
         - name: Desenvolver e personalizar
           items:
-            - name: Home page de Desenvolver e personalizar
+            - name: Home page Desenvolver e personalizar
               href: dev-tools/developer-home-page.md
             - name: Pilha de aplicativos e arquitetura do servidor
               href: dev-tools/application-stack-server-architecture.md
             - name: ​Obter cópias de avaliação​
               href: dev-tools/get-evaluation-copy.md
-            - name: Inscrever-se em assinaturas de versão prévia
+            - name: Inscrever-se em assinaturas de versão preliminar
               href: dev-tools/sign-up-preview-subscription.md
             - name: Implantar e acessar ambientes de desenvolvimento
               items:
@@ -835,7 +861,7 @@
                     - name: Alterações de extensibilidade na versão 8.0.1
                       href: extensibility/extensibility-changes-801.md
                     - name: Alterações de extensibilidade na versão 8.0
-                      href: extensibility/changes-80.md
+                      href: extensibility/Changes-80.md
                     - name: Alterações de extensibilidade na versão 7.3
                       href: extensibility/extensibility-changes-73.md
                     - name: Alterações de extensibilidade em julho de 2017
@@ -1536,7 +1562,7 @@
                   href: dev-tools/update-development-tools.md
                 - name: Planejar e preparar para a compilação de código em relação à última atualização
                   href: migration-upgrade/compile-considerations.md
-            - name: Fazer upgrade para uma versão recente (local)
+            - name: Fazer upgrade para uma versão recente (on-premises)
               items:
                 - name: Aplicar atualizações a implantações locais
                   href: deployment/apply-updates-on-premises.md
