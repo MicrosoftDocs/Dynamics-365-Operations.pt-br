@@ -2,7 +2,7 @@
   items:
     - name: Dynamics 365 Commerce
       items:
-        - name: Dynamics 365 Commerce
+        - name: Home page do Dynamics 365 Commerce
           href: index.md
         - name: Introdução
           items:
@@ -66,7 +66,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/commerce/toc.json
                 - name: Etapas de instalação dos componentes do canal do Retail em um ambiente local
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
-                - name: Comprar o Finance + Operations (local)
+                - name: Comprar o Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Aplicativos do Finance and Operations operados pela 21Vianet na China
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
@@ -79,7 +79,7 @@
                 - name: 'Instalação, configuração e substituição de distribuição em fases (N-1)'
                   href: dev-itpro/n-1-installation-configuration.md
                 - name: Fazer upgrade da extensão do canal do Retail para o SDK do Retail mais recente
-                  href: dev-itpro/retailSDK-update.md
+                  href: dev-itpro/RetailSDK-update.md
             - name: Novidades ou alterações
               items:
                 - name: Novidades ou alterações nos aplicativos do Finance and Operations
@@ -112,8 +112,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Conectar o Sistema de ajuda
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/commerce/toc.json
-                - name: Conectar um site de ajuda personalizado
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/commerce/toc.json
+                - name: Visão geral da ajuda personalizada
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Exibir e exportar descrições de campos
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/commerce/toc.json
                 - name: Gravador de Tarefas
@@ -499,7 +499,9 @@
                     - name: Conector de pagamento Adyen
                       href: dev-itpro/adyen-connector.md
                     - name: Salvando meios de pagamento online com o conector Adyen
-                      href: dev-itpro/adyen-connector-listpi.md
+                      href: dev-itpro/adyen-connector-listPI.md
+                    - name: Autenticação de Cliente Forte (SCA) usando o conector Adyen
+                      href: adyen_redirect.md
                     - name: Alternância offline perfeita para operações de vale-presente e memorando de crédito
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: Configurar cenários de pagamentos de fatura
@@ -510,6 +512,8 @@
                       href: omni-channel-payments.md
                     - name: Perguntas frequentes sobre pagamentos
                       href: dev-itpro/payments-retail.md
+                - name: Gerenciar o Bing Mapas da sua organização
+                  href: dev-itpro/manage-bing-maps.md
         - name: Comercialização de seus produtos e serviços
           items:
             - name: 'Categorias, produtos e sortimentos'
@@ -680,7 +684,7 @@
                   href: POS-change-delivery-mode.md
             - name: Gerenciamento de ordem distribuído
               items:
-                - name: Visão geral do GOD
+                - name: Visão geral do DOM
                   href: dom.md
                 - name: Configuração de custos
                   href: cost.md
@@ -822,8 +826,10 @@
                   href: manage-ecommerce-users-roles.md
                 - name: Considerações de otimização do mecanismo de pesquisa (SEO) para seu site
                   href: search-engine-optimization-considerations.md
-                - name: Gerenciar a política de segurança de conteúdo (CSP)
+                - name: Gerenciar a Política de Segurança de Conteúdo (CSP)
                   href: manage-csp.md
+                - name: Cancelar a coleta de eventos da atividade Web
+                  href: web-activity-opt-out.md
             - name: Gerenciar o conteúdo de seu site
               items:
                 - name: Maneiras de adicionar conteúdo
@@ -1474,7 +1480,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/commerce/toc.json
                 - name: (ER) Criar configurações para gerar relatórios no formato Word
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/commerce/toc.json
-                - name: Criar configurações para preencher modelos de PDF
+                - name: Criar configurações para preencher modelos PDF
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/commerce/toc.json
             - name: Inserir imagens e formas
               items:
@@ -1714,6 +1720,8 @@
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/commerce/toc.json
             - name: Configurar e enviar email
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
+            - name: Criar modelos de email para eventos transacionais
+              href: email-templates-transactions.md
             - name: Desenvolver experiências de email
               href: ../fin-ops-core/dev-itpro/dev-tools/sysmailer-develop.md?toc=/dynamics365/commerce/toc.json
             - name: Solucionar problemas de integração do Office
@@ -2116,6 +2124,8 @@
                   href: dev-itpro/async-commerce-extension.md
                 - name: Colunas pré-estendidas no banco de dados do canal
                   href: dev-itpro/extended-columns.md
+                - name: Estender serviço do Commerce Data Exchange em tempo real
+                  href: dev-itpro/extend-commerce-data-exchange.md
             - name: Extensibilidade do conector de pagamento
               items:
                 - name: Criar uma integração de pagamento para um terminal de pagamento

@@ -1,6 +1,6 @@
 ---
-title: Recursos de ajuda do Supply Chain Management
-description: Esta página oferece uma lista de tópicos de ajuda e outros recursos de Supply Chain Management.
+title: Home page do Supply Chain Management
+description: Esta página oferece uma lista de tópicos de ajuda e outros recursos do Supply Chain Management.
 author: josaw1
 manager: tfehr
 ms.date: 11/26/2019
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 014b5db6efc15fbed7401d9a857586912c7578f2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cf505f3e84cb8a8b4a1ac0af9f776587c06acf77
+ms.sourcegitcommit: 261b70ea358b2c231e20f320ed8bd6adc1e7d715
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201516"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "3386378"
 ---
-# <a name="help-resources-for-supply-chain-management"></a>Recursos de ajuda do Supply Chain Management
+# <a name="supply-chain-management-home-page"></a>Home page do Supply Chain Management
 
 [!include [banner](includes/banner.md)]
 
@@ -42,6 +42,7 @@ Escolha uma área de recursos para saber mais a respeito.
 - [Contabilidade de custos](../finance/cost-accounting/cost-accounting-home-page.md)
 - [Gerenciamento de custos](cost-management/cost-management-home-page.md)  
 - [Gerenciamento de estoque](inventory/inventory-home-page.md)
+- [Inteligência da IoT](iot/iot-intelligence-home-page.md)
 - [Planejamento mestre](master-planning/master-planning-home-page.md)
 - [Compras e fornecimento](procurement/procurement-sourcing-overview.md)
 - [Gerenciamento de informações sobre produtos](pim/product-information.md)
@@ -109,7 +110,7 @@ Estas gravações de conferências técnicas discutem a funcionalidade do produt
 -  [Gerenciamento de transporte (TMS) no novo Microsoft Dynamics AX](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>Blogs
-Há muitos tópicos sobre gerenciamento de fabricação e de cadeia de fornecedores no <a href="https://blogs.msdn.microsoft.com/axmfg/">Blog da equipe de P&D de fabricação do Dynamics AX</a> e no <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Blog da equipe de P&D de gerenciamento da cadeia de fornecedores do Dynamics AX</a>. A maioria desses tópicos foi escrita para a versão anterior, mas os mesmos conceitos ainda se aplicam e os procedimentos são semelhantes na versão atual. 
+Há muitos tópicos sobre gerenciamento de fabricação e de cadeia de fornecedores no <a href="https://blogs.msdn.microsoft.com/axmfg/">Blog da equipe de P&D de fabricação do Dynamics AX</a> e no <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Supply Chain Management no Blog da equipe de P&D do Dynamics AX</a>. A maioria desses tópicos foi escrita para a versão anterior, mas os mesmos conceitos ainda se aplicam e os procedimentos são semelhantes na versão atual. 
 
 ## <a name="white-papers"></a>White papers
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Laboratórios práticos de Contabilidade de custos</a> 
