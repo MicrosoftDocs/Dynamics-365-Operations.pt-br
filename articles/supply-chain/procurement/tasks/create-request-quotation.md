@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d2c13ed20ec86108bcb9edc0d20d53ff98732b9d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 68624a0288f9eaaf8f74b361bb308b8ca3c03b29
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204737"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383152"
 ---
 # <a name="create-a-request-for-quotation"></a>Criar uma solicitação de cotação
 
@@ -67,7 +67,7 @@ Depois de ter especificado as informações básicas sobre sua RFQ, você especi
 7. No campo **Conta de fornecedor**, insira ou selecione um valor. Depois de selecionar um fornecedor, o status é Criado. Isso significa que as informações do fornecedor foram salvas na RFQ, mas você não enviou a RFQ para o fornecedor. Você pode adicionar um fornecedor a uma RFQ independentemente do status do fornecedor.  
 
 ## <a name="send-the-rfq-to-vendors"></a>Envie a RFQ aos fornecedores
-1. No **Painel de ação**, clique em **Enviar**. Na página Enviando solicitação de cotação, verifique se os fornecedores na lista são aqueles que você deseja que recebem a RFQ.  
+1. No **Painel de Ações**, clique em **Enviar**. Na página Enviando solicitação de cotação, verifique se os fornecedores na lista são aqueles que você deseja que recebem a RFQ.  
 2. Clique em **Imprimir**. Esta caixa de diálogo permite que você imprima a RFQ. Se você optar por imprimir uma folha de respostas, o conteúdo desta é definido nos parâmetros de aquisição e de fornecimento. Para escolher como imprimir folhas de respostas, depois que você abrir a caixa de diálogo de impressão, clique em Opções avançadas de impressão. Uma RFQ será impressa para cada fornecedor, contendo as linhas que têm o status de criado ou de enviado. As linhas canceladas e as linhas com respostas registradas não serão impressas.   
 3. Clique em **Cancelar**.
 4. Clique em **OK**.

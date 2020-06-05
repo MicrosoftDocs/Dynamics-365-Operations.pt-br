@@ -1,9 +1,9 @@
 ---
 title: Definir políticas de despesas
 description: Você pode definir políticas de despesas que seus trabalhadores devem seguir ao inserir e enviar relatórios de despesas e requisições de viagem no Microsoft Dynamics 365 Finance.
-author: ryansandness
+author: suvaidya
 manager: AnnBe
-ms.date: 04/26/2019
+ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7d3b4a8f6cf74bb1fe7e53a4dfdd607f604e16e3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 22504e0e26c025d117f29dee3b59b41d508e7724
+ms.sourcegitcommit: 4f90b9ddedf312e75a714e0ec7f7ee5fd43cac6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187443"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "3389706"
 ---
 # <a name="define-expense-policies"></a>Definir políticas de despesas
 
@@ -48,6 +48,7 @@ Você pode definir três tipos de política:
 Aqui estão algumas sugestões que podem ajudá-lo ao criar novas políticas para gerenciamento de despesas. 
 * As políticas têm data de efetivação e não começarão a valer se a política for cria com uma data após a data que a despesa ocorreu. Por exemplo, se você estiver criando uma nova política hoje para reforçar uma despesa de refeição máxima de $50, então qualquer despesas existentes inseridas a partir de ontem não serão verificadas contra esta política.
 * Ao criar uma política para uma categoria de despesa que pode ser especificada, considere adicionar uma condição para tipo de linha de despesa. Algumas políticas, como a necessidade de um recibo pode não fazer sentido para linhas especificadas e deve ser aplicado apenas a linha do cabeçalho ou a uma linha não especificada. 
+* Por padrão, as diretivas de gerenciamento de despesas são avaliadas com base na entidade de origem. Para cenários intercompanhia, você pode definir a diretiva a ser avaliada em relação à entidade de destino (entidade emprestada). Para executar as diretivas em relação à entidade de destino, ative o recurso "Avaliar a diretiva de despesas em relação à entidade legal de empréstimo" no espaço de trabalho **Gerenciamento de recursos**.
 
 ## <a name="when-to-evaluate-policies"></a>Quando avaliar políticas
 

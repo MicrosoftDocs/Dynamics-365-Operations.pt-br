@@ -17,26 +17,28 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e6493afb64acb4d7644aac8dad71a0917c76549
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 272c3a13b68e2b862faf20cc269ca790322b61de
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205773"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367282"
 ---
+# <a name="product-confirmation-for-cluster-picking"></a>Confirmação de produto para a separação do cluster
+
 [!include [banner](../includes/banner.md)]
 
-# <a name="product-confirmation-for-cluster-picking"></a>Confirmação de produto para a separação do cluster
 A separação do cluster permite que você escolha itens para várias ordens simultaneamente. Quando a separação do cluster é aplicada, confirmação do item é importante para verificar os itens adicionados aos clusters. Você pode verificar os itens na separação do cluster durante o processo de separação do cluster.
 
 ## <a name="where-it-applies"></a>Aplica-se a
+
 A verificação do item da separação do cluster funciona da mesma maneira que quando você verifica itens em processos de separação não cluster. A configuração é baseada na configuração de código de barras de produto.
 
 ## <a name="set-up-item-verification-with-cluster-picking"></a>Configurar verificação do item com separação de cluster
-1.  No item de menu do dispositivo móvel, abra o formulário de configuração para a confirmação de trabalho: **Gerenciamento de depósito** > **Gerenciamento de depósito** > **Configuração** > **Dispositivo móvel** > **Itens de menu do dispositivo móvel**.
-2.  Do item de menu de dispositivo móvel, abra a **Configuração de confirmação de trabalho**.
+
+1. No item de menu do dispositivo móvel, abra o formulário de configuração para a confirmação de trabalho: **Gerenciamento de depósito** > **Gerenciamento de depósito** > **Configuração** > **Dispositivo móvel** > **Itens de menu do dispositivo móvel**.
+1. Do item de menu de dispositivo móvel, abra a **Configuração de confirmação de trabalho**.
 
 |        Opção        |                                    descrição                                    |
 |----------------------|-----------------------------------------------------------------------------------|
 | Confirmação do produto | Permite a você verificar cada peça de estoque do dispositivo móvel quando examinado. |
-

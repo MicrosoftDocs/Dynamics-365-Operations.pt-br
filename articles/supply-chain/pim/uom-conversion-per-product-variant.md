@@ -1,9 +1,9 @@
 ---
-title: Conversão de unidade de medida por variante de produto
-description: Este tópico explica como as conversões de unidade de medida podem ser configuradas em grades do produto.
+title: Conversão de unidade de medida por grade de produto
+description: Este tópico explica como configurar conversões de unidade de medida para grades do produto. Ele iInclui um exemplo da instalação.
 author: johanhoffmann
 manager: tfehr
-ms.date: 01/06/2020
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,71 +17,93 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: e50be7fa6fa686a90b2dd5c5200c881e4629f019
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 71d35d47a703f0931ba3b4ab5df21c7199c7ea5b
+ms.sourcegitcommit: 92611ec276da6f7211d722cfcd66739b612296dc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204484"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3382788"
 ---
-# <a name="unit-of-measure-conversion-per-product-variant"></a>Conversão de unidade de medida por variante de produto
+# <a name="unit-of-measure-conversion-per-product-variant"></a>Conversão de unidade de medida por grade de produto
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como as conversões de unidade de medida podem ser configuradas em grades do produto. Ele iInclui um exemplo da instalação.
+Este tópico explica como configurar conversões de unidade de medida para várias grades do produto.
 
-Esse recurso permite que as empresas definam a conversão de unidades diferentes entre as grades do mesmo produto. O exemplo a seguir é usado neste tópico. Uma empresa vende camisetas nos tamanhos pequeno, médio, grande e extra grande. A camiseta é definida como um produto; os diferentes tamanhos são definidos como grades do produto. As camisetas são embaladas em caixas e uma caixa pode conter cinco camisetas, exceto no tamanho extra grande, em que há espaço para apenas quatro camisetas. A empresa deseja rastrear as diferentes grades das camisetas na unidade em **Peças** mas está vendendo as camisetas na unidade **Caixas**. A conversão entre a unidade de estoque e a unidade de venda é 1 caixa = 5 peças, exceto para a grade extra grande, onde a conversão é 1 caixa = 4 peças.
+Em vez de criar vários produtos individuais que devem ser mantidos, você pode usar variantes de produto para criar variações de um único produto. Por exemplo, uma grade de produto pode ser uma camiseta de um determinado tamanho e cor.
 
-### <a name="set-up-a-product-for-unit-conversion-per-variant"></a>Configurar um produto para a conversão de unidade por grade
+Anteriormente, as conversões de unidades podiam ser configuradas somente no produto mestre. Portanto, todas as grades de produto tinham as mesmas regras de conversão de unidades. No entanto, quando o recurso *Conversões de unidade de medida para variantes de produto* são ativadas, se suas camisas forem vendidas em caixas e o número de camisas que podem ser embaladas em uma caixa depender do tamanho das camisetas, você poderá configurar conversões de unidade entre os tamanhos de camisa diferentes e as caixas usadas para a embalagem.
 
-Grades de produto só podem ser criadas para o **Subtipo de produto**: **Produto mestre**. Para obter mais informações, consulte [Criar um produto mestre](tasks/create-product-master.md).
+## <a name="turn-on-the-feature-in-your-system"></a>Ative o recurso no seu sistema
 
-O recurso não está habilitado para produtos configurados para processos de peso variável. 
+Se você ainda não tiver visto esse recurso no sistema, vá para [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Conversões de unidade de medida para variantes de produtos*.
 
-Quando o produto mestre com grades de produtos liberados for criado, as conversões de unidade por grades poderão ser configuradas. Você pode encontrar o item de menu para abrir a página de conversão de unidade no contexto de um produto ou de uma grade de produtos nas páginas a seguir.
+## <a name="set-up-a-product-for-unit-conversion-per-variant"></a>Configurar um produto para a conversão de unidade por grade
 
--   Página **Detalhes de produto**
--   Página **Detalhes de produtos liberados**
--   Página **Grades de produtos liberados**
+Grades de produto só podem ser criadas para produtos que são produtos mestre. Para obter mais informações, consulte [Criar um produto mestre](tasks/create-product-master.md). O recurso *Conversões de unidade de medida para variantes de produto* não estão disponíveis para os produtos que estão configurados para processos de peso variável.
 
-Quando você abre a página **Conversão de unidades** no contexto de um produto mestre ou de uma grade de produtos liberados, pode selecionar se deseja configurar a conversão de unidade para o produto ou para uma grade de produtos. Para fazer isso, selecione **Grade de produto** ou **Produto** no campo **Criar conversão para**.
+Para configurar um produto mestre para oferecer suporte à conversão de unidades por grade, siga estas etapas.
 
-### <a name="product-variant"></a>Grade de produto
+1. Vá para **Gerenciamento de informações sobre produtos \> Produtos \> Produtos mestre**.
+1. Crie ou abra um produto mestre para ir para a **Página detalhes do produto**.
+1. Defina a opção **Habilitar conversões de unidade de medida** como *Sim*.
+1. No Painel de Ações, na guia **Produto**, no grupo **Configuração**, selecione **Conversões de unidade**.
+1. A página **Conversões de unidade** é aberta. Selecione uma das guias a seguir:
 
-Se você selecionar **Grade de produto**, poderá selecionar para que grade deseja configurar a conversão de unidade no campo **Grade de produto**.
+    - **Conversões entre classes** – Selecione esta guia para converter entre as unidades que pertencem à mesma classe de unidade.
+    - **Conversões entre classes** – Selecione esta guia para converter entre as unidades que pertencem à classes de unidade diferentes.
 
-### <a name="product"></a>Produto
+1. Selecione **Novo** para adicionar uma nova conversão de unidade.
+1. Defina o campo **Criar conversão para** como um dos seguintes valores:
 
-Se você selecionar **Produto**, poderá configurar uma conversão de unidade para os produtos mestres. Essa conversão de unidade será aplicada a todas as grades de produtos sem uma conversão de unidades definida.
+    - **Produto** – Se você selecionar esse valor, você pode configurar uma conversão de unidade para os produtos mestres. Essa conversão de unidade será usada como um fallback para todas as grades de produto para as quais nenhuma conversão de unidade é definida.
+    - **Grade de produto** – Se você selecionar esse valor, você pode configurar uma conversão de unidade para uma grade de produto específica. Use o campo **Grade do produto** para selecionar a grade.
 
-### <a name="example"></a>Exemplo
+    ![Adicionando uma nova conversão de unidades](media/uom-new-conversion.png "Adicionando uma nova conversão de unidades")
 
-Um produto mestre, **Camiseta**, tem quatro grades de produtos liberadas, pequeno, médio, grande e extra grande. As camisetas são embaladas em caixas e uma caixa pode conter cinco camisetas, exceto no tamanho extra grande, em que há espaço para apenas quatro camisetas.
+1. Use os outros campos fornecidos para configurar a conversão de unidades.
+1. Selecione **OK** para salvar a nova conversão de unidades.
 
-Primeiro, abra a página **Conversão de unidades** da página Detalhes de produtos liberados para **Camiseta**.
+> [!TIP]
+> Você pode abrir a página **Conversões de unidade** para um produto ou uma grade de produto em qualquer uma das páginas a seguir:
+> 
+> - Detalhes do produto
+> - Detalhes de produtos liberados
+> - Grades de produtos liberadas
 
-Na página **Conversão de unidades**, configure a conversão de unidades para a grade de produtos liberados Extra Grande.
+## <a name="example-scenario"></a>Cenário de exemplo
 
-| **Campo**             | **Configuração**             |
-|-----------------------|-------------------------|
-| Criar conversão para | Grade de produto         |
-| Grade de produto       | Camiseta: : extra grande: : |
-| De unidade             | Caixas                   |
-| Fator                | 4                       |
-| Para unidade               | Partes                  |
+Nesse cenário, uma empresa vende camisetas nos tamanhos pequeno, médio, grande e extra grande. A camiseta é definida como um produto; os diferentes tamanhos são definidos como grades desse produto. As camisas estão embaladas nas caixas. Para tamanhos pequenos, médios e grandes, pode haver cinco camisas em cada caixa. No entanto, para o tamanho extra-grande, há espaço para apenas quatro camisas em cada caixa.
 
-As variantes de produtos liberados pequena, médio e grande têm a mesma unidade de conversão entre a caixa de unidade e peças. Isso significa que você pode definir a conversão de unidade para essas grades de produtos no produto mestre.
+A empresa deseja rastrear as diferentes grades das camisetas na unidade em *Peças* mas está vendendo as camisetas na unidade *Caixas*. Para tamanhos pequenos, médios e grandes, a conversão entre a unidade de estoque e a unidade de vendas é de 1 caixa = 5 peças. Para tamanho extra-grande, a conversão é 1 caixa = 4 peças.
 
-| **Campo**             | **Configuração** |
-|-----------------------|-------------|
-| Criar conversão para | Produto     |
-| Produto               | Camiseta     |
-| De unidade             | Caixas       |
-| Fator                | 5           |
-| Para unidade               | Partes      |
+1. Na página **Detalhes de produto lançados** do produto **Camisa**, abra a página **Conversões de unidade**.
+1. Na página **Conversões de unidades**, configure a conversão de unidades a seguir para a grade de produtos liberados **Extra Grande**.
 
-### <a name="using-excel-to-update-the-unit-conversions"></a>Usando o Excel para atualizar as conversões de unidade
+    | Campo                 | Configuração                 |
+    |-----------------------|-------------------------|
+    | Criar conversão para | Grade de produto         |
+    | Grade de produto       | Camiseta: : extra grande: : |
+    | De unidade             | Caixas                   |
+    | Fator                | 4                       |
+    | Para unidade               | Peças                  |
 
-Se um produto tiver muitas grades de produtos com conversões de unidade diferentes, será aconselhável exportar as conversões de unidades da página **Conversão de unidades** para uma planilha do Excel, atualizar as conversões e publicá-las novamente no Supply Chain Mangement.
+1. Como as grades de produto **Pequeno**, **Médio** e **Grande** têm a mesma conversão de unidade entre unidades *Caixa* e *Peças*, você pode definir a conversão de unidade a seguir para elas no produto mestre.
 
-A opção para exportar para o Excel e publicar as edições no Supply Chain Mangement é habilitada do item de menu **Abrir no Microsoft Office** no Painel de ações na página **Conversão de unidade**.
+    | Campo                 | Configuração |
+    |-----------------------|---------|
+    | Criar conversão para | Produto |
+    | Produto               | Camiseta |
+    | De unidade             | Caixas   |
+    | Fator                | 5       |
+    | Para unidade               | Partes  |
+
+## <a name="using-excel-to-update-the-unit-conversions"></a>Usando o Excel para atualizar as conversões de unidade
+
+Se um produto tiver muitas grades de produto com diferentes conversões de unidade, é uma boa ideia exportar as conversões de unidade para uma pasta de trabalho do Microsoft Excel, atualizá-las e publicá-las novamente no Dynamics 365 Supply Chain Management.
+
+Para exportar conversões de unidade para o Excel, na página **Conversões de unidade**, no Painel de Ações, selecione **Abrir em Microsoft Office**.
+
+## <a name="additional-resources"></a>Recursos adicionais
+
+[Gerenciar unidade de medida](tasks/manage-unit-measure.md)

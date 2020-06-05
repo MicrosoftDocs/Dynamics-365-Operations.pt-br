@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eaab2093eb2531b63f27717d828f7064a8f9ed1d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e45c80718c73ad785643c2a5fc0e712b291104d5
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207499"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383104"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Configurar uma hierarquia de categorias de compras
 
@@ -31,8 +31,8 @@ Este procedimento mostra como criar novos nós em uma hierarquia de categorias d
 
 ## <a name="add-a-new-procurement-category"></a>Adicione uma nova categoria de aquisição.
 1. Vá para **Painel de navegação > Módulos > Compras e fornecimento > Consignação > Categorias de compras**.
-2. No painel de ação, selecione **Editar hierarquia de categoria**. A hierarquia de categorias de aquisição atual é exibida no lado esquerdo da página. Você está prestes a modificar a hierarquia.  
-3. No painel de ação, selecione **Novo nó de categoria**. O sistema seleciona o nó superior por padrão. Se você estiver executando esse procedimento como um guia de tarefa, é possível clicar no botão Desbloquear e selecionar outro nó superior onde irá inserir o novo nó. Assim que isso for feito, bloqueie o guia de tarefa novamente e clique em Novo nó de categoria.  
+2. No Painel de Ações, selecione **Editar hierarquia de categoria**. A hierarquia de categorias de aquisição atual é exibida no lado esquerdo da página. Você está prestes a modificar a hierarquia.  
+3. No Painel de Ações, selecione **Novo nó de categoria**. O sistema seleciona o nó superior por padrão. Se você estiver executando esse procedimento como um guia de tarefa, é possível clicar no botão Desbloquear e selecionar outro nó superior onde irá inserir o novo nó. Assim que isso for feito, bloqueie o guia de tarefa novamente e clique em Novo nó de categoria.  
 4. No campo **Nome**, digite um valor.
 5. No campo **Descrição**, digite um valor.
 6. No campo **Nome amigável**, digite um valor. O nome amigável é opcional. Ele será exibido nas pesquisas de categoria junto com o nome da categoria.  

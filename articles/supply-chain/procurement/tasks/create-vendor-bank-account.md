@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0a108b5c8b7f2f90a4d33d8a9ff088335c18d4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f8092ab7f960fd36515afb8448dfe1e262197595
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207640"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383127"
 ---
 # <a name="create-a-vendor-bank-account"></a>Criar uma conta bancária de fornecedor
 
@@ -33,7 +33,7 @@ Este procedimento mostra como criar uma conta de banco para um fornecedor. Você
 2. Selecione o fornecedor para o qual você deseja criar uma conta bancária e clique no link no campo **ID da conta do fornecedor**.
 3. No **Painel de Ações**, clique em **Fornecedor**.
 4. Clique em **Contas bancárias**.
-5. No **Painel de Ações**, clique em **Novo**.
+5. No **Painel de Ação**, clique em **Novo**.
 6. No campo **Conta bancária**, digite um valor. Esta identificação será usada para identificar a conta bancária no registro do vendedor.  
 7. No campo **Nome**, digite um valor.
 8. No campo **Grupos de banco**, insira ou selecione um valor.

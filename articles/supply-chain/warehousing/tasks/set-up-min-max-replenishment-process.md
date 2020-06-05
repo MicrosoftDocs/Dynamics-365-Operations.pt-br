@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b6b99cac46ea33b018a3f67dd4bf0164b8a7f0e6
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d2997a39311e371443de3bc11ace17ab36be20e8
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216864"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383564"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Configurar um processo de reabastecimento mínimo/máximo
 
@@ -43,7 +43,7 @@ Este procedimento mostra como configurar um novo processo de reabastecimento que
 ## <a name="create-a-replenishment-location-directive"></a>Criar uma diretiva de local de reabastecimento
 1. Vá para **Gerenciamento de depósito > Configuração > Diretivas de localização**. As diretivas de localização são usadas para determinar onde os itens deverão ser separados no processo de reabastecimento.
 2. No campo **Tipo de ordem de serviço**, selecione "Reabastecimento".
-3. No **Painel de Ações**, clique em **Novo**.
+3. No **Painel de Ação**, clique em **Novo**.
 4. No campo **Nome**, digite um valor.
 5. No campo **Tipo de trabalho**, selecione "Separar".
 6. No campo **Local**, insira ou selecione um valor. Se você estiver usando USMF, você pode selecionar site 2.  
@@ -58,14 +58,14 @@ Este procedimento mostra como configurar um novo processo de reabastecimento que
 15. Na lista, marque a linha selecionada.
 16. No campo **Nome**, digite um valor.
 17. Clique em **Salvar**.
-18. No **Painel de ação**, clique em **Editar consulta**. Você pode editar essa consulta para adicionar as restrições em que o estoque pode ser selecionado no processo de reabastecimento. Por exemplo, é possível que o estoque deva ser usado somente na área em massa do depósito.
+18. No **Painel de ações**, clique em **Editar consulta**. Você pode editar essa consulta para adicionar as restrições em que o estoque pode ser selecionado no processo de reabastecimento. Por exemplo, é possível que o estoque deva ser usado somente na área em massa do depósito.
 19. Clique em **OK**.
 20. Feche a página.
 
 ## <a name="create-a-replenishment-work-template"></a>Criar um modelo de trabalho de reabastecimento
 1. Vá para **Gerenciamento de depósito > Configuração > Trabalho > Modelos de trabalho**. O modelo de trabalho é usado para orientar o sistema como o trabalho de reabastecimento mínimo/máximo deve ser criado. No mínimo, deve haver uma linha de modelo de trabalho para separar e colocar. O modelo de trabalho dirá que não é válido até que todas as informações necessárias sejam preenchidas. 
 2. No campo **Tipo de ordem de serviço**, selecione "Reabastecimento".
-3. No **Painel de Ações**, clique em **Novo**.
+3. No **Painel de Ação**, clique em **Novo**.
 4. No campo **Modelo de trabalho**, digite um valor.
 5. Clique em **Salvar**.
 6. Na seção **Detalhes do modelo de trabalho**, clique em **Novo**.
@@ -80,7 +80,7 @@ Este procedimento mostra como configurar um novo processo de reabastecimento que
 
 ## <a name="create-a-new-replenishment-template"></a>Crie um novo modelo de reabastecimento
 1. Vá para **Gerenciamento de depósito > Configuração > Reabastecimento > Modelos de reabastecimento**. O modelo de reabastecimento é usado para definir as quantidades e os itens, e o local para reabastecer.
-2. No **Painel de Ações**, clique em **Novo**.
+2. No **Painel de Ação**, clique em **Novo**.
 3. No campo **Modelo de reabastecimento**, digite um valor. Insira um nome para o modelo para indicar direcionamento de reabastecimento mínimo/máximo.  
 4. No campo **Descrição**, digite um valor.
 5. Selecione a caixa de seleção **Permitir que a demanda da onda use quantidades não reservadas**. Se você selecionar esta opção, ela permite que o reabastecimento de demanda da onda consuma as quantidades relacionadas de reabastecimento mínimo/máximo. Por exemplo, isso pode ser útil se o trabalho de reabastecimento mínimo/máximo não é processado imediatamente, para evitar trabalho de reabastecimento de demanda desnecessário para ser criado.

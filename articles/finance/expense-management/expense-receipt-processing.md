@@ -3,7 +3,7 @@ title: Processamento de recibo de despesas
 description: Este tópico fornece informações sobre o processamento de OCR (reconhecimento óptico de caracteres) para recibos. Esse recurso foi desenvolvido para melhorar a experiência do usuário quando os relatórios de despesas são criados no Microsoft Dynamics 365 Finance.
 author: stsporen
 manager: AnnBe
-ms.date: 11/20/2019
+ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: efba2faf9428d9b556d74273bc7daadba7211c48
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 31c08ea264e6caec3217f4b424275495f39123e3
+ms.sourcegitcommit: 15c5ec742d648c5f3506d031a2ab6150dcbae348
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248954"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "3378222"
 ---
 # <a name="expense-receipt-processing"></a>Processamento de recebimento de despesas
 
@@ -36,24 +36,24 @@ A entrada de despesas foi aprimorada por meio da introdução do processamento d
 
 ## <a name="usage-examples"></a>Exemplos de uso
 
-- **Anexar automaticamente os recibos que incluem transações de cartão de crédito quando um relatório de despesas é criado.**
+Para anexar automaticamente os recibos que incluem transações de cartão de crédito quando um relatório de despesas é criado, faça o seguinte:
 
-    1. Abra o espaço de trabalho **Gerenciamento de despesas**.
-    2. Na guia **Recibos**, verifique se há recibos não anexados. Também é possível carregar recibos na guia **Recibos**.
-    3. Na guia **Despesas**, verifique se há despesas não anexadas. Normalmente, o administrador de despesas importa essas despesas do emissor do cartão de crédito.
-    4. Selecione **Novo relatório de despesa**. Observe que agora você também pode incluir despesas, e recibos, ao criar um relatório de despesas. Se você adicionar despesas e recibos, será disparada a correspondência automática de recibos em relação às despesas.
+  1. Abra o espaço de trabalho **Gerenciamento de despesas**.
+  2. Na guia **Recibos**, verifique se há recibos não anexados. Também é possível carregar recibos na guia **Recibos**.
+  3. Na guia **Despesas**, verifique se há despesas não anexadas. Normalmente, o administrador de despesas importa essas despesas do emissor do cartão de crédito.
+  4. Selecione **Novo relatório de despesa**. Observe que agora você também pode incluir despesas, e recibos, ao criar um relatório de despesas. Se você adicionar despesas e recibos, será disparada a correspondência automática de recibos em relação às despesas.
 
-- **Criar uma despesa ou fazer a correspondência de uma despesa usando um recibo.**
+Para criar uma despesa ou corresponder a uma despesa de um recibo, faça o seguinte:
 
-    1. Em um relatório de despesas, na guia **Recibos**, anexe um recibo selecionando **Adicionar recibos**.
-    2. Na imagem carregada do recibo, observe as opções **Criar** e **Fazer a Correspondência**.
+  1. Em um relatório de despesas, na guia **Recibos**, anexe um recibo selecionando **Adicionar recibos**.
+  2. Na imagem carregada do recibo, observe as opções **Criar** e **Fazer a Correspondência**.
 
-        - Selecione **Criar** para criar uma transação de despesa inserida manualmente e preencher os valores que são extraídos do recibo.
-        - Se você selecionar **Fazer a Correspondência**, o sistema tentará fazer a correspondência de uma despesa existente com o recibo.
+      - Selecione **Criar** para criar uma transação de despesa inserida manualmente e preencher os valores que são extraídos do recibo.
+      - Se você selecionar **Fazer a Correspondência**, o sistema tentará fazer a correspondência de uma despesa existente com o recibo.
 
 ## <a name="installation"></a>Instalação
 
-Esse recurso funciona em combinação com o recurso **Relatórios de despesas reformulados** para ajudar a simplificar a experiência de despesas.
+Esse recurso funciona em combinação com o recurso **Relatórios de despesas reformulados** para ajudar a simplificar a experiência de despesas. Este recurso só está disponível para ambientes de Camada 2+, que são Sandbox e Production.
 
 Para usar esses recursos avançados de despesa, instale o suplemento Serviço de Gerenciamento de Despesas para o Microsoft Dynamics 365 Finance e ative os recursos na sua instância. Você pode acessar o suplemento do seu projeto no Microsoft Dynamics Lifecycle Services (LCS).
 

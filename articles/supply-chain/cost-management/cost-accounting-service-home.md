@@ -1,5 +1,5 @@
 ---
-title: Home page do serviço de contabilidade de custos
+title: Home page do serviço de contabilidade de custos (versão prévia particular)
 description: Este tópico é a home page do serviço de contabilidade de custos.
 author: AndersGirke
 manager: tfehr
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: bdfdad92ddaf4f352e3807dbe72a8d42d46be2ef
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: e049af5e83343459546e1c3715415e9d7ffa9cab
+ms.sourcegitcommit: 7fec9dc5297ed6e687d4a0dff099922d59d6a830
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3276887"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372750"
 ---
-# <a name="cost-accounting-service-home-page"></a>Home page do serviço de contabilidade de custos
+# <a name="cost-accounting-service-home-page-private-preview"></a>Home page do serviço de contabilidade de custos (versão prévia particular)
 
 [!INCLUDE [banner](../includes/banner.md)]
 

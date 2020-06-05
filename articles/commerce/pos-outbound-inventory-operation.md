@@ -3,7 +3,7 @@ title: Operação de estoque de saída no POS
 description: Este tópico descreve os recursos da operação de saída do estoque do ponto de venda (POS).
 author: hhaines
 manager: annbe
-ms.date: 03/02/2020
+ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 26d8d67ac6d2fde0753104483fd2127f9acbaa05
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: 22f057c20898bb4b4c34e38d62313d2634a33511
+ms.sourcegitcommit: 3b6fc5845ea2a0de3db19305c03d61fc74f4e0d4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123913"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3384120"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Operação de estoque de saída no POS
 
@@ -52,7 +52,7 @@ Para configurar uma estrutura de documento assíncrona, conclua os procedimentos
 1. Vá para **Administração da organização \> Sequências numéricas \> Sequências numéricas**.
 2. Na página **Sequências numéricas**, crie uma sequência numérica.
 3. Nos campos **Código de sequência numérica** e **Nome**, insira valores definidos pelo usuário.
-4. Na guia rápida **Referências**, selecione **Adicionar**.
+4. Na Guia Rápida **Referências**, selecione **Adicionar**.
 5. No campo **Área**, selecione uma opção **Parâmetros do Commerce**.
 6. No campo **Referência**, selecione **Identificador da operação do documento de varejo**.
 7. Na Guia Rápida **Geral**, na seção **Configuração**, defina a opção **Contínuo** como **Não** para garantir que não haja problemas de desempenho.
@@ -117,6 +117,18 @@ Na exibição **Lista de ordem completa**, você pode selecionar manualmente uma
 ### <a name="over-delivery-shipping-validations"></a>Validações de remessa de entrega excedente
 
 As validações ocorrem durante o processo de recebimento para as linhas do documento. Eles incluem validações para entrega excedente. Se um usuário tentar receber um estoque maior que o solicitado na ordem de compra, mas a entrega excedida não tiver sido configurada ou se a quantidade recebida exceder a tolerância de entrega excedida configurada para a linha da ordem de compra, o usuário receberá uma mensagem de erro e não conseguirá receber a quantidade em excesso.
+
+### <a name="underdelivery-close-lines"></a>Linhas de fechamento insuficiente
+
+No Commerce versão 10.0.12, a funcionalidade foi adicionada, que permite aos usuários do PDV fechar ou cancelar quantidades restantes durante a remessa da ordem de saída se o depósito de saída determinar que ele não pode remeter a quantidade total solicitada. As quantidades também podem ser fechadas ou canceladas posteriormente. Para usar esse recurso, a empresa deve ser configurada para permitir a entrega de ordens de transferência. Além disso, uma porcentagem de entrega insuficiente deve ser definida para a linha da ordem de transferência.
+
+Para configurar a empresa para permitir a subentrega de ordens de transferência, no Commerce Headquarters, vá para **Gerenciamento de estoque \> Configuração \> Parâmetros de gerenciamento de estoque e depósito**. Na página **Parâmetros de gerenciamento de estoque e de depósito**, na guia **Transferir pedidos**, ative o parâmetro **Aceitar entrega insuficiente**. Em seguida, execute o trabalho do agendador de distribuição **1070** para sincronizar as alterações de parâmetro no canal de armazenamento.
+
+As porcentagens de entrega insuficiente para uma linha da ordem de transferência podem ser predefinidas em produtos como parte da configuração do produto no Commerce Headquarters. Como alternativa, eles podem ser definidos ou substituídos em uma linha de ordem de transferência específica por meio do Commerce Headquarters.
+
+Depois que uma organização concluir a configuração da entrega insuficiente da ordem de transferência, os usuários verão uma nova opção **Fechamento da quantidade restante** no painel **Detalhes** quando selecionarem uma linha da ordem de transferência de saída na operação **Operação de saída** no PDV. Depois, quando os usuários concluírem a remessa usando a operação **Conclusão final**, poderão enviar uma solicitação ao Commerce Headquarters para cancelar a quantidade não remetida restante. Se um usuário optar por fechar a quantidade pendente, o comércio faz uma validação para verificar se a quantidade que está sendo cancelada está dentro da tolerância da porcentagem de entrega insuficiente definida na linha da ordem de transferência. Se a tolerância de entrega insuficiente for ultrapassada, o usuário receberá uma mensagem de erro e não poderá fechar a quantidade restante até que a quantidade remetida e "remeter agora" tenha sido alcançada ou ultrapassar a tolerância de entrega insuficiente.
+
+Depois que a remessa é sincronizada com o Commerce Headquarters, as quantidades definidas no campo **Remeter agora** para a linha da ordem de transferência no PDV são atualizadas para um status remetido no Commerce Headquarters. Todas as quantidades não remetidas que anteriormente teriam sido consideradas como "quantidades de remessa restantes" (ou seja, as quantidades que serão remetidas posteriormente) serão consideradas as quantidades canceladas. A quantidade de "remessa restante" para a linha da ordem de transferência é definida como **0** (zero) e a linha é considerada totalmente remetida.
 
 ### <a name="shipping-location-controlled-items"></a>Enviando itens controlados pelo local
 

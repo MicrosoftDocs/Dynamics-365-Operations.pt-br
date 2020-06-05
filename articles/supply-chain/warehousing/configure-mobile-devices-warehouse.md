@@ -1,5 +1,5 @@
 ---
-title: ​Configurar dispositivos móveis para trabalho de depósito​
+title: Configurar dispositivos móveis para trabalho de depósito
 description: Este tópico descreve como configurar os itens de menu que os trabalhadores de depósito usam para executar o trabalho em um dispositivo móvel.
 author: MarkusFogelberg
 manager: tfehr
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 438e13d6887decc9867d474467efc06d7a2f3274
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6ae7587fc46d2907241a5da3b6329465d77b3555
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205704"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383081"
 ---
-# <a name="set-up-mobile-devices-for-warehouse-work"></a>​Configurar dispositivos móveis para trabalho de depósito​
+# <a name="set-up-mobile-devices-for-warehouse-work"></a>Configurar dispositivos móveis para trabalho de depósito
 
 [!include [banner](../includes/banner.md)]
 
@@ -224,7 +224,7 @@ Além de configurar itens de menu para criar o trabalho de depósito, você pode
 </tr>
 <tr class="even">
 <td>Sistema direcionado</td>
-<td>O Supply Chain Management controla o tipo de trabalho atribuído a um trabalhador e a ordem em que ele executa o trabalho. Ao selecionar essa opção, você pode clicar em <strong>Trabalho direcionado pelo sistema</strong> no Painel de Ação para abrir a página <strong>Ordem de classificação direcionada pelo sistema</strong>, na qual você pode configurar critérios de classificação para o trabalho. Os critérios de classificação controlam a ordem na qual o trabalhador executa o trabalho. Você pode adicionar quantos critérios forem necessários.</td>
+<td>O Supply Chain Management controla o tipo de trabalho atribuído a um trabalhador e a ordem em que ele executa o trabalho. Ao selecionar essa opção, você pode clicar em <strong>Trabalho direcionado pelo sistema</strong> no Painel de Ações para abrir a página <strong>Ordem de classificação direcionada pelo sistema</strong>, na qual você pode configurar os critérios de classificação para o trabalho. Os critérios de classificação controlam a ordem na qual o trabalhador executa o trabalho. Você pode adicionar quantos critérios forem necessários.</td>
 </tr>
 <tr class="odd">
 <td>Usuário direcionado</td>
@@ -257,7 +257,7 @@ Esta opção será útil quando, por exemplo, vários paletes foram preparados p
 </tr>
 <tr class="even">
 <td>Agrupamento de contagens cíclicas</td>
-<td>O trabalhador seleciona uma zona, um pool de trabalho ou um local, e o Supply Chain Management atribui o trabalho com base na seleção. Se selecionar esta opção, você poderá clicar em <strong>Contagem cíclica</strong> para especificar informações adicionais a serem exibidas, além de especificar o número de vezes que o trabalhador deverá repetir a contagem caso seja encontrada uma diferença</td>
+<td>O trabalhador seleciona uma zona, um pool de trabalho ou um local, e o Supply Chain Management atribui o trabalho com base na seleção. Se selecionar esta opção, você poderá clicar em <strong>Contagem cíclica</strong> no Painel de Ações para especificar informações adicionais a serem exibidas, além de especificar o número de vezes que o trabalhador deverá repetir a contagem caso seja encontrada uma diferença.</td>
 </tr>
  <tr class="odd">
 <td>Carga de transporte</td>

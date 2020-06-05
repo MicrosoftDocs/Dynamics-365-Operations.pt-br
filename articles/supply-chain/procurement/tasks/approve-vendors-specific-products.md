@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ccaeea8d0494644b4d55c29a778d9a8239de10b9
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: fafa2f7da5575206d452f31bb297790874369dfd
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207775"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383265"
 ---
 # <a name="approve-vendors-for-specific-products"></a>Aprovar fornecedores para produtos específicos
 
@@ -42,10 +42,10 @@ Este procedimento mostra como aprovar fornecedores de produto específico. Isso 
 11. No campo **Fornecedor**, insira ou selecione um valor.
 12. No campo **Vencimento**, insira uma data. Escolha uma data diferente da data de vencimento anterior.  
 13. Feche a página.
-14. No Painel de ação, clique em **Fornecedores aprovados**.
+14. No Painel de Ações, clique em **Fornecedores aprovados**.
 15. No campo **Vencimento**, insira uma data. Essa data atua como um filtro para que você possa ver quais os fornecedores são aprovados até uma determinada data.  
 16. Feche a página.
-17. No Painel de ação, clique em **Período efetivo**.
+17. No Painel de Ações, clique em **Período efetivo**.
 18. No campo **Mostrar fornecedores expirados por**, insira uma data. Você pode usar a página para identificar os fornecedores em que o status de aprovação expirará após uma determinada data.  
 19. Feche a página.
 20. Clique em **Editar**.
@@ -56,8 +56,8 @@ Este procedimento mostra como aprovar fornecedores de produto específico. Isso 
 25. No Painel de Navegação, vá para **Módulos > Aquisição e fornecimento > Fornecedores > Relações fornecedor/item > Lista de fornecedores aprovados por item**. Essa página apresenta uma visão geral de todos os produtos e fornecedores aprovados.  
 26. Feche a página.
 27. No Painel de Navegação, vá para **Módulos > Compras e fornecimento > Fornecedores > Todos os fornecedores**. Também é possível partir de um fornecedor e ir para a lista de produtos aprovados da conta do fornecedor.  
-28. Na lista, localize e selecione o registro desejado.
-29. No Painel de Ação, clique em **Compras**.
+28. Na lista, localize e selecione o PDV desejado.
+29. No Painel de Ações, clique em **Compras**.
 30. Clique em **Lista de fornecedores aprovados por fornecedor**.
 31. Feche a página.
 32. Feche a página.
