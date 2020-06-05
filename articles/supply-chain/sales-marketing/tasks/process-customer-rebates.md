@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 87ddaddb00da50ef9e9e1e7ecf7c3620dabb5a17
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c77129abc5c93d7b11445bdaa2c4851d73bb0b62
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209941"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383587"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Gerar e processar reembolsos de cliente
 
 [!include [banner](../../includes/banner.md)]
 
-Este procedimento demonstra como processar reembolsos de cliente desde a geração da reivindicação até o momento de passá-las como provisões para Contas a receber. Ele irá apresentar um exemplo específico para explicar como as diversas condições nas linhas de reembolso afetam o valor final que será creditado ao cliente. Você precisa utilizar a empresa de dados demonstrativos USMF, e executar as seguintes tarefas antes de iniciar o guia: (1) Vá para a página Parâmetros de contas a receber, e expanda a aba Preços e então a aba Detalhes do preço, e verifique se a opção Habilitar detalhes do preço está definida como Sim. (2) Vá para a página Contratos de reembolso e selecione o contrato de reembolso do cliente: USMF-000001. Se o campo Status de aprovação do fluxo de trabalho não estiver definido como Aprovado, você precisa clicar em Validação no Painel de ação para aprová-lo.
+Este procedimento demonstra como processar reembolsos de cliente desde a geração da reivindicação até o momento de passá-las como provisões para Contas a receber. Ele irá apresentar um exemplo específico para explicar como as diversas condições nas linhas de reembolso afetam o valor final que será creditado ao cliente. Você precisa utilizar a empresa de dados demonstrativos USMF, e executar as seguintes tarefas antes de iniciar o guia: (1) Vá para a página Parâmetros de contas a receber, e expanda a aba Preços e então a aba Detalhes do preço, e verifique se a opção Habilitar detalhes do preço está definida como Sim. (2) Vá para a página Contratos de reembolso e selecione o contrato de reembolso do cliente: USMF-000001. Se o campo Status de aprovação do fluxo de trabalho não estiver definido como Aprovado, você precisa clicar em Validação no Painel de Ações para aprová-lo.
 
 
 ## <a name="review-a-customer-rebate-agreement"></a>Revisar um contrato de reembolso do cliente

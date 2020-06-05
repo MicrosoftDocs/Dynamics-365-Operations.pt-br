@@ -1,5 +1,5 @@
 ---
-title: Introdução ao serviço de contabilidade de custos
+title: Introdução ao serviço de contabilidade de custos (versão prévia particular)
 description: Este tópico oferece detalhes de licenciamento e instruções de instalação do serviço de contabilidade de custos.
 author: AndersGirke
 manager: tfehr
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: cbbce7eaac264973bf0b95ad5175bf70ed2b4ae9
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: a82af9e8ec1806f470103897389d0316d33a4a06
+ms.sourcegitcommit: 7fec9dc5297ed6e687d4a0dff099922d59d6a830
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3276888"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372727"
 ---
-# <a name="get-started-with-the-cost-accounting-service"></a>Introdução ao serviço de contabilidade de custos
+# <a name="get-started-with-the-cost-accounting-service-private-preview"></a>Introdução ao serviço de contabilidade de custos (versão prévia particular)
 
 [!INCLUDE [banner](../includes/banner.md)]
 
@@ -43,16 +43,22 @@ O serviço de contabilização de serviço é um complemento. Para disponibiliza
 
 O serviço de contabilidade de custos atualmente não oferece suporte a todos os recursos de gerenciamento integrados ao Dynamics 365 Supply Chain Management. Portanto, é importante que você avalie se o conjunto de recursos disponível no momento atenderá aos seus requisitos.
 
-## <a name="licensing"></a>Licenciamento
-
-O serviço de contabilidade de custos é licenciado com os recursos padrão de contabilidade de estoque que estão disponíveis para o Supply Chain Management. Não é necessário comprar uma licença adicional para usar o serviço de contabilidade de custos.
-
-## <a name="install-the-add-in"></a>Instalar o suplemento
+## <a name="how-to-get-the-cost-accounting-service-private-preview"></a><a name="sign-up"></a>Como obter o serviço de contabilidade de custos (versão prévia particular)
 
 > [!IMPORTANT]
 > Para usar o serviço de contabilidade de custos, é necessário ter um ambiente de alta disponibilidade habilitado para LCS (não um ambiente OneBox) com o Dynamics 365 Supply Chain Management versão 10.0.11 ou posterior.
 
+Para inscrever-se na versão prévia particular do serviço de contabilidade de custos, envie sua ID de ambiente do LCS por email para [serviço de contabilidade de custos (versão prévia particular)](mailto:aevengir@microsoft.com?subject=Cost%20accounting%20service%20%28private%20preview%29). Ao aprová-lo no programa, enviaremos um email de acompanhamento que contém uma chave beta de serviço de contabilidade de custos. Ao receber a chave beta, você pode continuar [com a instalação do suplemento](#install).
+
+## <a name="licensing"></a>Licenciamento
+
+O serviço de contabilidade de custos é licenciado com os recursos padrão de contabilidade de estoque que estão disponíveis para o Supply Chain Management. Não é necessário comprar uma licença adicional para usar o serviço de contabilidade de custos.
+
+## <a name="install-the-add-in"></a><a name="install"></a>Instalar o suplemento
+
 Para usar o serviço de contabilidade de custos, instale o complemento do serviço de contabilidade de custos para o Supply Chain Management conforme descrito no procedimento a seguir.
+
+1. [Inscreva-se](#sign-up) no serviço de contabilidade de custos (versão prévia particular).
 
 1. Entre no LCS.
 
@@ -68,7 +74,7 @@ Para usar o serviço de contabilidade de custos, instale o complemento do servi�
 
 1. Vá para **Detalhes completos**.
 
-1. Role para baixo até a FastTab **Suplementos de ambiente**.
+1. Role para baixo até a Guia Rápida **Suplementos de ambiente**.
 
 1. Selecione **Instalar um novo suplemento**.
 
@@ -78,7 +84,7 @@ Para usar o serviço de contabilidade de custos, instale o complemento do servi�
 
 1. Selecione **Instalar**.
 
-1. Na FastTab **Complementos do ambiente**, você verá que o serviço de contabilidade de custos está sendo instalado. Após alguns minutos, o status deve mudar de **Instalando** para **Instalado**. (Talvez seja necessário atualizar a página para ver essa alteração.) Nesse momento, o serviço de contabilidade de custos já está pronto para uso.
+1. Na Guia Rápida **Complementos do ambiente**, você verá que o serviço de contabilidade de custos está sendo instalado. Após alguns minutos, o status deve mudar de **Instalando** para **Instalado**. (Talvez seja necessário atualizar a página para ver essa alteração.) Nesse momento, o serviço de contabilidade de custos já está pronto para uso.
 
 ## <a name="set-up-the-integration"></a>Configurar a integração
 

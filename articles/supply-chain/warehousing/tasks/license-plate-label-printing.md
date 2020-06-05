@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 484a1465dd41429fe201de18aac55f118a483cab
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 43dc913e84fa53179855d7ab8dbbf4d179e2cc63
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3217002"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383035"
 ---
 # <a name="enable-license-plate-label-printing"></a>Habilitar a impressão da etiqueta da placa de licença
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico mostra como habilitar a impressão automática de um rótulo (SSCC) do código de série do contêiner de remessa depois que o último item for separado do estoque em um processo de trabalho de separação de vendas. Você pode executar este procedimento na empresa USMF de dados de demonstração. Se sua execução está usando seus próprios dados, você precisa ter uma sequência numérica configurada para matrículas. Será preciso configurar uma impressora de rótulo antes de iniciar a tarefa. Ir para Administração de organização > Configuração > Impressoras de rede. No painel de ações, clique em Opções, depois clique no botão de instalação de download do agente de roteiro do documento. Execute o instalador e verifique se você tem uma impressora de rede trabalhando definida como ativa antes de continuar com o procedimento.
+Este tópico mostra como habilitar a impressão automática de um rótulo (SSCC) do código de série do contêiner de remessa depois que o último item for separado do estoque em um processo de trabalho de separação de vendas. Você pode executar este procedimento na empresa USMF de dados de demonstração. Se sua execução está usando seus próprios dados, você precisa ter uma sequência numérica configurada para matrículas. Será preciso configurar uma impressora de rótulo antes de iniciar a tarefa. Ir para Administração de organização > Configuração > Impressoras de rede. No Painel de Ações, clique em Opções, depois clique no botão de instalação de download do agente de roteiro do documento. Execute o instalador e verifique se você tem uma impressora de rede trabalhando definida como ativa antes de continuar com o procedimento.
 
 
 ## <a name="set-up-the-gs1-company-prefix"></a>Configurar o prefixo da empresa GS1

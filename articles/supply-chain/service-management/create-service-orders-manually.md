@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d80461694a28a0842155cbd8ca224c37bd85dde7
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 45261931d8083e179f0d3a8285b12fdaa2494adc
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202689"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383357"
 ---
 # <a name="create-service-orders-manually"></a>Criar ordens de serviço manualmente    
 
@@ -58,7 +58,7 @@ Você pode criar ordens de serviço manualmente usando um contrato de serviço o
 
 1.  Clique em **Gerenciamento e contabilidade de projeto** \> **Comum** \> **Projetos** \> **Todos os projetos**.
 
-2.  No formulário **Projetos**, no **Painel de Ação**, clique na guia **Gerenciar** \> clique e **Serviço** \> **Ordens de serviço**.
+2.  No formulário **Projetos**, no **Painel de Ações**, clique na guia **Gerenciar** \> clique em **Serviço** \> **Ordens de serviço**.
 
 3.  Siga o procedimento anterior para criar uma ordem de serviço manualmente no formulário **Ordens de serviço**. O campo **ID de projeto** exibe a referência do projeto.
 

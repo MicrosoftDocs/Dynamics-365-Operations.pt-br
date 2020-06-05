@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: daf8bc65dc937962e2e08b6f25805ddd3b8ee3c5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 86aed1b2071875117b74309030ac5e9008babdaf
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204277"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367398"
 ---
-[!include[banner](../includes/banner.md)]
-
 # <a name="set-up-cluster-picking"></a>Configurar separação de cluster
+
+[!include[banner](../includes/banner.md)]
 
 Este tópico descreve como habilitar os operadores para usarem os dispositivos móveis para agrupar o trabalho de separação em clusters, de forma que possam selecionar itens de um único local para várias ordens de trabalho ao mesmo tempo. Isso é chamado de *separação de cluster*.
 
@@ -36,35 +36,35 @@ Depois que as ordens de trabalho são liberadas para o depósito, o trabalhador 
 
 Se for necessário, um trabalhador poderá passar um cluster para outro trabalhador. Isso altera o status do cluster para Aprovado. Quando o trabalhador usa um dispositivo móvel para indicar que o trabalho de separação e armazenamento está concluído, a remessa ou carga deve ser confirmada no cliente.
 
-## <a name="set-up-cluster-picking"></a>Configurar separação de cluster
+## <a name="enable-cluster-picking"></a>Habilitar separação de cluster
 
 Para habilitar a separação de cluster, você deverá configurar o seguinte:
 
--   **Perfis do cluster** – especifique se deseja gerar automaticamente as IDs do cluster, o número de posições a serem usadas, quando dividir os clusters e como sequenciar e verificar o trabalho de separação.
+- **Perfis do cluster** – especifique se deseja gerar automaticamente as IDs do cluster, o número de posições a serem usadas, quando dividir os clusters e como sequenciar e verificar o trabalho de separação.
 
--   **Modelos de trabalho** – defina como criar o trabalho de separação para a separação do cluster.
+- **Modelos de trabalho** – defina como criar o trabalho de separação para a separação do cluster.
 
--   **Diretivas de local** – especifique de onde separar itens e onde colocá-los.
+- **Diretivas de local** – especifique de onde separar itens e onde colocá-los.
 
--   **Itens de menu do dispositivo móvel** – configure um item de menu do dispositivo móvel para usar o trabalho existente que é direcionado pela separação de cluster. Você deve adicionar o item de menu a um menu do dispositivo móvel de forma que seja exibido em dispositivos móveis.
+- **Itens de menu do dispositivo móvel** – configure um item de menu do dispositivo móvel para usar o trabalho existente que é direcionado pela separação de cluster. Você deve adicionar o item de menu a um menu do dispositivo móvel de forma que seja exibido em dispositivos móveis.
 
--   **Parâmetros de gerenciamento de depósito** – especifique a sequência numérica que será usada se você quiser gerar identificadores para clusters.
+- **Parâmetros de gerenciamento de depósito** – especifique a sequência numérica que será usada se você quiser gerar identificadores para clusters.
 
 ## <a name="set-up-a-cluster-profile"></a>Configurar um perfil de cluster
 
 Para configurar um perfil de cluster, siga estas etapas:
 
-1.  Clique em **Gerenciamento de depósito** \> **Configuração** \> **Dispositivo móvel** \> **Perfis do cluster**.
+1. Clique em **Gerenciamento de depósito** \> **Configuração** \> **Dispositivo móvel** \> **Perfis do cluster**.
 
-2.  Clique em **Novo** para criar um novo perfil.
+1. Clique em **Novo** para criar um novo perfil.
 
-3.  Clique em **Criar cluster** e, em **Classificação de cluster**, clique em **Novo** para configurar os critérios de classificação para o cluster. Os critérios de classificação controlam a ordem na qual o trabalhador realizará o trabalho de separação. É possível adicionar quantos critérios forem necessários.
+1. Clique em **Criar cluster** e, em **Classificação de cluster**, clique em **Novo** para configurar os critérios de classificação para o cluster. Os critérios de classificação controlam a ordem na qual o trabalhador realizará o trabalho de separação. É possível adicionar quantos critérios forem necessários.
 
-4.  No campo **Número de sequência**, insira um número para definir a ordem na qual os critérios de classificação são processados.
+1. No campo **Número de sequência**, insira um número para definir a ordem na qual os critérios de classificação são processados.
 
-5.  No campo **Nome do campo**, selecione o campo que determinará a classificação. Por exemplo, se você selecionar o campo **WMSLocationId**, o trabalho será classificado por local.
+1. No campo **Nome do campo**, selecione o campo que determinará a classificação. Por exemplo, se você selecionar o campo **WMSLocationId**, o trabalho será classificado por local.
 
-6.  No campo **Classificação**, selecione uma das seguintes opções.
+1. No campo **Classificação**, selecione uma das seguintes opções.
 
 | **Opção**     | **Descrição**                                                                                                                                                                                                                    |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -77,6 +77,6 @@ Quando a separação do cluster é aplicada, confirmação do item é importante
 
 ### <a name="set-up-item-verification-with-cluster-picking"></a>Configurar verificação do item com separação de cluster
 
-1.  No item de menu do dispositivo móvel, abra o formulário de configuração para a confirmação de trabalho: **Gerenciamento de depósito** \> **Gerenciamento de depósito** \> **Configuração** \> **Dispositivo móvel** \> **Itens de menu do dispositivo móvel**.
+1. No item de menu do dispositivo móvel, abra o formulário de configuração para a confirmação de trabalho: **Gerenciamento de depósito** \> **Gerenciamento de depósito** \> **Configuração** \> **Dispositivo móvel** \> **Itens de menu do dispositivo móvel**.
 
-2.  Do item de menu de dispositivo móvel, abra a **Configuração de confirmação de trabalho**. A opção **Confirmação do produto** permite que você verifique cada peça de estoque no dispositivo móvel quando verificado.
+1. Do item de menu de dispositivo móvel, abra a **Configuração de confirmação de trabalho**. A opção **Confirmação do produto** permite que você verifique cada peça de estoque no dispositivo móvel quando verificado.

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26112a9d25c0097bdbf30003247ce6dd4b4fb634
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7ed359521dd018047fdbd5312d0cb73d764de925
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204875"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383219"
 ---
 # <a name="create-a-purchase-order"></a>Criar uma ordem de compra
 
@@ -68,7 +68,7 @@ Este tópico mostra como criar uma ordem de compra manualmente. É mais comum pa
 ## <a name="review-order-totals"></a>Rever totais da ordem
 1. Selecione **Totais**.
 
-    - Se você não ver a ação **Totais**, selecione a guia **Ordem de Compra** na barra de ação.  
+    - Caso não veja a ação **Totais**, selecione a guia **Ordem de Compra** no Painel de Ações.  
     - Esta caixa de diálogo mostra os totais da ordem inteira.  
     - O campo **Seleção** permite que você altere a base de como os totais são calculados. Por exemplo, você pode escolher a **Quantidade de recebimento de produtos** para mostrar os totais relacionados à quantidade de produtos que foram recebidos, ou a **Quantidade encomendada** para mostrar o valor dos produtos que foram encomendados.  
 

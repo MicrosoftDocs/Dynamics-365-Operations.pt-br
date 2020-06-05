@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-30
 ms.dyn365.ops.version: AX 10.0.7
-ms.openlocfilehash: 81c26b8a99f86d663d91ac4f549987262c0541ad
-ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
+ms.openlocfilehash: e412ccbc7c44d41e0a70ef8b5436901e01c671e6
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3323522"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383679"
 ---
 # <a name="auto-firming-with-planning-optimization"></a>Confirmação automática com Otimização de Planejamento
 
@@ -47,7 +47,7 @@ Para ativar a confirmação automática, siga estas etapas.
 O limite de tempo de confirmação é calculado a partir da data de execução do planejamento mestre. Ele é definido pelo número de dias inserido. Você pode controlar o limite de tempo de confirmação das seguintes maneiras:
 
 - Para definir o limite de tempo de confirmação padrão para um grupo de cobertura, vá para **Planejamento mestre** \> **Configuração** \> **Cobertura** \> **Grupos de cobertura** e selecione um grupo de cobertura. Em seguida, na Guia Rápida **Outro**, no campo **Limite de tempo de confirmação automática (dias)**, insira o número de dias.
-- Para substituir o limite de tempo de confirmação definido para o grupo de cobertura para um item específico, vá para **Gerenciamento de informações do produto** \> **Produtos liberados** e, no painel de ações, selecione **Plano** e **Cobertura de item**. Em seguida, na guia **Geral**, selecione **Limite de tempo de substituição** e, no campo **Limite de tempo de confirmação automática (dias)**, insira o número de dias.
+- Para substituir o limite de tempo de confirmação definido para o grupo de cobertura para um item específico, vá para **Gerenciamento de informações do produto** \> **Produtos liberados** e, no Painel de Ações, selecione **Plano** e **Cobertura de item**. Em seguida, na guia **Geral**, selecione **Limite de tempo de substituição** e, no campo **Limite de tempo de confirmação automática (dias)**, insira o número de dias.
 - Para substituir o limite de tempo de confirmação definido para o grupo de cobertura e a cobertura de item para um plano mestre específico, acesse **Planejamento mestre** \> **Configuração** \> **Planos mestres** e selecione um Plano mestre. Em seguida, na Guia Rápida **Limite de tempo em dias**, defina **Congelar** como **Sim** e insira o número de dias.
 
 Se a confirmação automática estiver ativada para uma execução de planejamento mestre que use a Otimização de Planejamento, o processo de confirmação automática será concluído de acordo com a configuração de confirmação automática. Se a confirmação automática não estiver ativada, ou se o planejamento tiver sido iniciado da página **Requisitos líquidos**, o processo de confirmação automática será ignorado.

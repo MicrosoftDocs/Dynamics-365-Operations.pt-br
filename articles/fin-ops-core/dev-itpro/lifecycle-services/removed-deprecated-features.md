@@ -3,7 +3,7 @@ title: Recursos removidos ou preteridos em Lifecycle Services (LCS)
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção do Microsoft Dynamics Lifecycle Services (LCS).
 author: AngelMarshall
 manager: AnnBe
-ms.date: 02/05/2020
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tsmarsha
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 96ecd040ef8661765c0a3861d8e07fee3c241161
-ms.sourcegitcommit: fb7d0efd97754f1ae0b5aa765d0eeb3f57b8078f
+ms.openlocfilehash: 5c5c525b403715ba8dfd3c1bc2dfac4dd69f4a3d
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3027971"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367259"
 ---
 # <a name="removed-or-deprecated-features-in-lifecycle-services-lcs"></a>Recursos removidos ou preteridos em Lifecycle Services (LCS)
 
@@ -53,9 +53,9 @@ Esta lista é para que você possa considerar essas remoções e reprovações c
 </tr>
 <tr>
 <td><strong>Status</strong></td>
-<td>Preterido: o componente de diagramas de fluxograma no BPM deve ser removido em 2020. A seguinte funcionalidade será removida:
+<td>Preterido: o componente de diagramas de fluxograma no BPM deve ser removido em 2020. A seguinte funcionalidade estará indisponível:
 <ul>
-<li>Os fluxogramas existentes não estarão disponíveis para exibição ou edição. As propriedades de forma associadas a atividades de fluxograma também não estarão disponíveis, pois toda a guia <strong>Fluxograma</strong> será removida. Esses fluxogramas incluem os fluxogramas padrão gerados automaticamente e personalizados que são modificados com base nesses fluxogramas padrão.</li>
+<li>Todos os fluxogramas serão somente leitura e não estarão disponíveis para edição. As propriedades de forma associadas a atividades de fluxograma também não estarão disponíveis. Esses fluxogramas incluem os fluxogramas padrão gerados automaticamente e personalizados que são modificados com base nesses fluxogramas padrão.</li>
 <li>O recurso análise de lacuna/ajuste herdado não estará disponível. Portanto, nenhuma lista de lacunas será criada automaticamente ou estará disponível para exportação.
 <p><strong>Observação:</strong> este recurso foi substituído anteriormente e substituído pelas integrações do Microsoft Azure DevOps.</p>
 </li>

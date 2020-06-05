@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2b5ad1bdd91a2fb9109f29400f082e9a8af009ba
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f0f042e6ffe5ecf01b9e5044fc83d081528fbc56
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216933"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383288"
 ---
 # <a name="set-up-containerization"></a>Configurar transporte em contêineres
 
@@ -60,7 +60,7 @@ Este tópico descreve como automatizar o transporte de cargas em contêineres no
 
 ## <a name="set-up-a-container-group"></a>Configurar um grupo de contêineres
 1. No painel de navegação, vá para **Módulos > Gerenciamento de depósito > Configuração > Contêineres > Grupos de contêiner**.
-2. No painel de ações, selecione **Novo**. Você pode configurar grupos lógicos de tipos de contêiner. Para cada grupo, você pode especificar a sequência na qual serão embalados os contêineres e a porcentagem de contêineres a serem preenchidos. As dimensões de tamanho do item são usadas para determinar se ele caberá em um contêiner. O contêiner que é o mais próximo às dimensões de tamanho do item será usado. Se você tiver vários tipos de contêiner em um grupo, recomendamos que você organize a sequência pelo tamanho, de forma o contêiner maior é o primeiro, número 1 na sequência, e o contêiner menor é o último.    
+2. No Painel de Ações, selecione **Novo**. Você pode configurar grupos lógicos de tipos de contêiner. Para cada grupo, você pode especificar a sequência na qual serão embalados os contêineres e a porcentagem de contêineres a serem preenchidos. As dimensões de tamanho do item são usadas para determinar se ele caberá em um contêiner. O contêiner que é o mais próximo às dimensões de tamanho do item será usado. Se você tiver vários tipos de contêiner em um grupo, recomendamos que você organize a sequência pelo tamanho, de forma o contêiner maior é o primeiro, número 1 na sequência, e o contêiner menor é o último.    
 3. No campo **ID do grupo de contêineres** , digite um valor que você criou anteriormente.
 4. No campo **Descrição**, digite um valor.
 5. Repita as etapas 2 a 4 para todos os três tipos de contêiner criados anteriormente.

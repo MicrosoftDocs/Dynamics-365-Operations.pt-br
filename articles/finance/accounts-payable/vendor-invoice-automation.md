@@ -3,7 +3,7 @@ title: Automação das faturas dos fornecedores
 description: Este tópico explica os recursos disponíveis para a automação ponta a ponta de notas fiscais de fornecedor, até mesmo notas fiscais que incluem anexos.
 author: abruer
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 05/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba986afb5c17c7a317b47d1e9cf4ae57ac29da97
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4560d7b61fa8f014f9a1185da087df8b1c8e61ba
+ms.sourcegitcommit: b7af921189048d9f2eb4d3fd57c704c742bc96e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176473"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "3396000"
 ---
 # <a name="vendor-invoice-automation"></a>Automação das faturas dos fornecedores
 
@@ -61,7 +61,7 @@ Um pacote de dados é a unidade de trabalho que deve ser enviada para que cabeç
 
 O anexo do documento de fatura do fornecedor é uma nova entidade de dados que é introduzida como parte desse recurso. A entidade do cabeçalho da fatura de fornecedor foi modificada para que ele suporte anexos. A entidade da linha de fatura do fornecedor não foi modificada para esse recurso.
 
-Este tópico não fornece uma definição detalhada de um pacote de dados. Também não explica como criar pacotes de dados. Para essa informações, consulte [Estrutura entidades de dados e pacotes](../../dev-itpro/data-entities/data-entities-data-packages.md).
+Para obter informações detalhadas sobre pacotes de dados, consulte [Visão geral de gerenciamento de dados](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Para obter informações sobre como criar pacotes de dados usando o espaço de trabalho de gerenciamento de dados, consulte [Processar e consumir pacotes de dados na solução de aplicativos do Dynamics 365 Finance and Operations](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
 
 Para gerar rapidamente dados de teste que incluem faturas e anexos, siga estas etapas.
 

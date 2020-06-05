@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9aa46f959c35c209791457aa697ab829264b3275
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 1642da7b06363d1f704e51276b5cb36823707231
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211942"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383404"
 ---
 # <a name="create-a-new-trade-agreement"></a>Criar um novo contrato comercial
 
@@ -33,8 +33,8 @@ Este procedimento mostra como criar um contrato comercial no qual você registra
 1. Vá para **Painel de navegação > Módulos > Vendas e marketing > Preços e descontos > Diários de contratos comerciais**.
 2. Clique em **Novo**.
 3. No campo **Nome**, clique no botão suspenso para abrir a pesquisa.
-4. Na lista, localize e selecione o registro desejado.
-5. No **Painel de ação**, clique em **Linhas**.
+4. Na lista, localize e selecione o PDV desejado.
+5. No **Painel de Ações**, clique em **Linhas**.
 6. No campo **Código da conta**, selecione 'Tabela'.
     
     Neste exemplo, você está atualizando o preço para um cliente específico, o que significa quem você precisa selecionar Tabela. Se você estava atualizando o preço da lista de produtos, selecionaria 'Todos'; assim, o novo preço seria válido para todos os clientes. Se você estava diferenciando preços entre diferentes segmentos de clientes, então você deve selecionar Grupo. Para selecionar Grupo, é necessário configurar Grupos de preços ao cliente.  

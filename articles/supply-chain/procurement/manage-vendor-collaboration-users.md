@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8491fd7c5af015989d409391e3ac143d88b6ad92
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 29930fdb65f96e281e0f0f01db41ec1475ad81c2
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207154"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383058"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Gerenciar usuários de colaboração do fornecedor
 
@@ -49,7 +49,7 @@ Se quiser excluir um contato, você poderá excluir somente aqueles que criou.
 Solicitações de usuário de colaboração do fornecedor podem ser feitas por um profissional de compras ou por um administrador de fornecedores externos.
 
 -   Se for um fornecedor externo, você envia solicitações da página **Todos os contatos** no módulo **Colaboração do fornecedor**.
--   Se você for um profissional de compras, envie solicitações da página **Exibir contatos**. Para fazer isso, no registro de fornecedor, na seção **Configuração** no painel Ação, selecione **Contatos** &gt; **Exibir contatos**.
+-   Se você for um profissional de compras, envie solicitações da página **Exibir contatos**. Para fazer isso, no registro de fornecedor, na seção **Configuração** no Painel de Ações, selecione **Contatos** &gt; **Exibir contatos**.
 
 Você pode fazer uma solicitação para provisionar um usuário, desativar um usuário ou modificar funções de segurança. Se você for um administrador de fornecedores externos, você deve estar registrado como uma pessoa de contato para contas de fornecedor para as quais deseja fazer solicitações de usuário e deverá ter acesso à interface de colaboração do fornecedor para essas contas de fornecedor.  
 

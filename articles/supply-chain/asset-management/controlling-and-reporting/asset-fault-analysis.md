@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 67ccbb742bb4e2283c30b4dec055d137b4a51e40
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 32cd8fb55cd9245a9a7c426a7c956bb40c3fdb0e
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216404"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383541"
 ---
 # <a name="asset-fault-analysis"></a>Análise de falhas de ativos
 
@@ -35,7 +35,7 @@ No Gerenciamento de Ativos, você pode analisar os registros de falhas de ativos
 
 1. Clique em **Gerenciamento de ativos** > **Consultas** > **Falha de ativo** > **Análise de falhas de ativos**.
 
-2. Na caixa de diálogo **Cálculo da análise de falhas de ativos**, você pode usar o campo**Nível** para indicar o grau de detalhamento nas linhas de falhas de ativos relativas a locais funcionais. 
+2. Na caixa de diálogo **Cálculo da análise de falhas de ativos**, você pode usar o campo **Nível** para indicar o grau de detalhamento nas linhas de falhas de ativos relativas a locais funcionais. 
 
     Por exemplo, se você inserir o número "1" no campo e tiver uma estrutura de localização funcional em vários níveis, todas as linhas de falhas de ativos para um local funcional serão mostradas no nível superior e, portanto, as horas em uma linha poderão ser adicionadas em locais funcionais localizados em um nível inferior. 
         
@@ -43,7 +43,7 @@ No Gerenciamento de Ativos, você pode analisar os registros de falhas de ativos
 
 3. Para limitar a pesquisa, você poderá selecionar ativos específicos, datas de falha, causas de falha e soluções de falha na Guia Rápida **Registros a serem incluídos**.
 
-4. Clique em **OK**para iniciar o cálculo.
+4. Clique em **OK** para iniciar o cálculo.
 
 5. Na guia **Análise de falhas de ativos**, clique em um ou mais botões **Agrupar por** para exibir o nível de detalhes que deseja ver. Os botões ativados são realçados. Ative ou desative os botões clicando neles.
 
@@ -78,7 +78,7 @@ Na captura de tela abaixo, **Ano** e **Mês** são adicionados para mostrar como
 
 A combinação de ativos e um tipo de ativo é usada como base para os cálculos mostrados nas três capturas de tela abaixo, o que aumentará em nível de detalhes.  
 
-Geralmente, os botões nos grupos do Painel de Ações **Agrupar por data**, **Agrupar por ativo**, **Agrupar por local funcional**, bem como o botão **Falha** (Fault ID), contêm períodos ou relações de ativos. Os botões **Sintoma**, **Área**, **Tipo**, **Causa** e **Recurso** são categorizações usadas no gerenciamento de falhas para analisar registros de falhas de ativos e identificar áreas problemáticas.  
+Geralmente, os botões nos grupos do Painel de Ações **Agrupar por data**, **Agrupar por ativo**, **Agrupar por local funcional**, bem como o botão **Falha** (ID da Falha), contêm períodos ou relações de ativos. Os botões **Sintoma**, **Área**, **Tipo**, **Causa** e **Recurso** são categorizações usadas no gerenciamento de falhas para analisar registros de falhas de ativos e identificar áreas problemáticas.  
 
 **Agrupar por sintoma, ativo e tipo de ativo**
 

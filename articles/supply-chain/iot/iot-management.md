@@ -1,0 +1,64 @@
+---
+title: Monitorar e gerenciar a inteligência IoT
+description: Este tópico explica como monitorar e gerenciar a Inteligência de IoT.
+author: robinarh
+manager: AnnBe
+ms.date: 08/16/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: ''
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.search.region: Global
+ms.author: ''
+ms.search.validFrom: 2020-04-04
+ms.dyn365.ops.version: 10.0.5
+ms.openlocfilehash: 97a87b78a0178424f00e464262bb7f69e8a5b4a0
+ms.sourcegitcommit: 261b70ea358b2c231e20f320ed8bd6adc1e7d715
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "3386484"
+---
+# <a name="monitor-and-manage-iot-intelligence"></a>Monitorar e gerenciar a inteligência IoT
+
+[!include [banner](../../includes/banner.md)]
+
+Este tópico explica como monitorar e gerenciar a Inteligência de IoT.
+
+## <a name="monitor-scenarios-in-microsoft-dynamics-365-supply-chain-management"></a><a id="monitor-scenarios"></a>Monitorar cenários no Microsoft Dynamics 365 Supply Chain Management
+
+Você pode monitorar o processamento de Inteligência de IoT a partir de vários locais:
+
++ **Módulos \> Controle de produção \> Consultas e relatórios \> Inteligência de IoT \> Notificações** – Exibir a lista de notificações não resolvidas.
++ **Módulos \> Controle de produção \> Consultas e relatórios \> Inteligência de IoT \> Notificações fechadas** – Exibir a lista de notificações que foram solucionadas ou descartadas.
++ **Módulos \> Controle de produção \> Consultas e relatórios \> Inteligência de IoT \> Chaves de métrica** – Exibir as chaves de métrica para os gráficos de série **Status de recurso**.
++ **Módulos \> Controle de produção \> Execução de fabricação \> Status de recurso** – Rastrear métricas específicas usando a caixa de diálogo **Configurar**. Se um cenário detecta uma exceção, uma notificação mostra os detalhes da exceção.
++ **Espaços de trabalho \> Gerenciamento do chão de fábrica \> Notificações** – Exibir a lista de notificações não resolvidas.
+
+## <a name="modify-a-running-iot-intelligence-scenario"></a>Modificar um cenário de Inteligência IoT em execução
+
+Quando um cenário está em execução, você pode fazer as seguintes alterações:
+
++ Adicionar novas definições de esquema de sensor.
++ Selecione novos valores de dados de sinal.
++ Cancela a seleção de valores de dados de sinal existentes.
++ Adicione e mapeie novos valores de dados de sinal.
++ Atualize os valores de limite.
+
+Quando um cenário está em execução, essas alterações são proibidas:
+
++ Exclua ou modifique qualquer definição de esquema consumida no momento por um cenário habilitado.
++ Altera os caminhos de esquema selecionados do cenário habilitado.
+
+## <a name="simulation-options"></a>Opções de simulação
+
+Você pode simular os sinais da máquina de fábrica. Para obter mais informações, consulte esses tópicos:
+
++ [Conectar IoT DevKit AZ3166 ao Hub IoT do Azure](https://docs.microsoft.com/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
++ [Conectar simulador online Raspberry Pi ao Hub IoT do Azure (Node.js)](https://docs.microsoft.com/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
++ [Visão geral do acelerador de soluções de simulação de dispositivo](https://docs.microsoft.com/azure/iot-accelerators/iot-accelerators-device-simulation-overview)

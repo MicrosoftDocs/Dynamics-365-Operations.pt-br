@@ -2,13 +2,13 @@
   items:
     - name: Dynamics 365 Supply Chain Management
       items:
-        - name: Dynamics 365 Supply Chain Management
+        - name: Home page do Dynamics 365 Supply Chain Management
           href: index.md
         - name: Introdução
           items:
             - name: Antes de comprar
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Inscrever-se em assinaturas de versão prévia
+            - name: Inscrever-se em assinaturas de versão preliminar
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/supply-chain/toc.json
             - name: Atualizações do serviço One Version
               items:
@@ -54,7 +54,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Requisitos do sistema para implantações locais
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Comprar o Finance + Operations (local)
+                - name: Comprar o Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurar a armazenagem para implantações locais
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
@@ -94,8 +94,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Conectar o Sistema de ajuda
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Conectar um site de ajuda personalizado
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Visão geral da ajuda personalizada
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Exibir e exportar descrições de campos
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Gravador de Tarefas
@@ -1027,7 +1027,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                 - name: (ER) Criar configurações para gerar relatórios no formato Word
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Criar configurações para preencher modelos de PDF
+                - name: Criar configurações para preencher modelos PDF
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/supply-chain/toc.json
             - name: Inserir imagens e formas
               items:
@@ -1309,13 +1309,29 @@
                   href: cost-management/inventory-close.md
                 - name: ​Preço de custo médio​
                   href: cost-management/running-average-cost-price.md
-                - name: ​Ajustar valor de custo de estoque disponível​
+                - name: Ajustar valor de custo de estoque disponível
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: Rastreamento do custo médio por dimensão do estoque
+                - name: ​Rastreamento do custo médio por dimensão do estoque​
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
+        - name: Inteligência da IoT
+          items:
+            - name: Home page de Inteligência da IoT
+              href: iot/iot-intelligence-home-page.md
+            - name: Configurar recursos do Azure
+              href: iot/iot-azure-setup.md
+            - name: Formatos de esquema de mensagem para Hub IoT
+              href: iot/iot-schema-format.md
+            - name: Instalar o suplemento no LCS
+              href: iot/iot-lcs-setup.md
+            - name: Configurar medições
+              href: iot/iot-metrics-setup.md
+            - name: Configuração de cenário
+              href: iot/iot-scenario-setup.md
+            - name: Monitorar e gerenciar
+              href: iot/iot-management.md
         - name: Planejamento mestre
           items:
-            - name: Home page de Planejamento mestre
+            - name: Home page Planejamento mestre
               href: master-planning/master-planning-home-page.md
             - name: Otimização de Planejamento
               items:
@@ -1335,6 +1351,8 @@
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: Cancelar um trabalho de planejamento
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Solucionar Problemas de Otimização de Planejamento
+                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
             - name: Planos mestres
               items:
                 - name: Visão geral de planos mestres
@@ -2655,9 +2673,9 @@
                   href: warehousing/material-replenishment-withdrawal-kanban.md
                 - name: Configurar um processo de reabastecimento mínimo/máximo
                   href: warehousing/tasks/set-up-min-max-replenishment-process.md
-            - name: ​Instalar e configurar o aplicativo de depósito ​
+            - name: Instalar e configurar o aplicativo de depósito
               items:
-                - name: Visão geral de instalação e configuração
+                - name: Instalar e conectar o aplicativo de depósito
                   href: warehousing/install-configure-warehousing-app.md
                 - name: ​Configurar nomes de campos no aplicativo de depósito​
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
@@ -2697,6 +2715,22 @@
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
                 - name: Configurar um modelo de trabalho para ordens de compra
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
+            - name: Políticas de consolidação da remessa
+              items:
+                - name: Políticas de consolidação da remessa
+                  href: warehousing/about-shipment-consolidation-policies.md
+                - name: Configurar políticas de consolidação de remessa
+                  href: warehousing/configure-shipment-consolidation-policies.md
+                - name: Cenário 1 - Consolidar remessas quando elas forem liberadas para o depósito usando a liberação Automática de ordens de venda
+                  href: warehousing/consolidate-shipments-automatic.md
+                - name: Cenário 2 - Consolidar remessas quando a política de consolidação de remessa for substituída na página Liberar para o depósito
+                  href: warehousing/consolidate-shipments-release-to-warehouse-override.md
+                - name: Cenário 3 - Consolidar remessas usando Liberar para o depósito da Bancada de planejamento de carga
+                  href: warehousing/consolidate-shipments-load-planning-workbench.md
+                - name: Cenário 4 - Consolidar remessas usando a bancada de consolidação de remessa
+                  href: warehousing/consolidate-shipments-manual-workbench.md
+                - name: Cenário 5 - Consolidar remessas manualmente usando a página Consolidar remessas
+                  href: warehousing/consolidate-shipments-manual-form.md
         - name: Desenvolvimento do Supply Chain Management
           items:
             - name: Guia de desenvolvimento de controle de Gantt

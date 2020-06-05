@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c83cafd3a8934c488bb7a9f315bd5cb154f88c09
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: b4587c9d64c2456e5f9f27cdb19625d9537f1e29
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204803"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383196"
 ---
 # <a name="create-a-purchase-return-order"></a>Criar uma ordem de devolução de compra
 
@@ -34,7 +34,7 @@ Este procedimento mostra a você como criar uma ordem do retorno de compra usand
 2. Clique em **Novo**.
 3. No campo **Conta de fornecedor**, digite "US-102".
 4. Clique em **OK**.
-5. No **Painel de Ação**, clique em **Compra**.
+5. No **Painel de Ações**, clique em **Compra**.
 6. Clique em **Nota de crédito**. Esta é a página da qual você pode copiar as faturas de fornecedor existente para sua ordem de devolução. Esta é a mesma página é usada para outras ações da cópia. Mas, como nós o abrimos da ação da nota de crédito, a página é configurada para oferecer suporte a criação de uma ordem de devolução que desativa as faturas de fornecedor.  
 7. Expanda a seção **Parâmetros**.
     - A opção **Reverter sinal** é selecionada automaticamente e não pode ser alterada. Isto assegura que o sinal esteja ajustado às quantidades, e que as linhas da ordem que são adicionadas desativarão a fatura do vendedor.  

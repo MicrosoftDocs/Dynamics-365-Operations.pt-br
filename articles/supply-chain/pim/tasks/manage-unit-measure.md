@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a7f7e2220a8eca9f9bf45216491f606ef0a2eb18
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: abc02c73ae36975fa4872d638fe53cbf0379d15d
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203510"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383656"
 ---
 # <a name="manage-unit-of-measure"></a>Gerenciar unidade de medida
 
@@ -41,13 +41,13 @@ Este procedimento mostra como definir uma unidade de medida, fornecer traduçõe
 6. Clique em **Salvar**.
 
 ## <a name="define-unit-translations"></a>Definir traduções de unidades
-1. No **Painel de ação**, clique em **Textos de unidade**.
+1. No **Painel de Ações**, clique em **Textos de unidade**.
 2. Clique em **Novo**. Use texto de unidade para criar uma tradução de ID ou símbolo que representa a unidade de medida para o uso em documentos externos nos idiomas específicos do cliente ou fornecedor.  
 3. No campo **Idioma**, insira ou selecione um valor.
 4. No campo **Texto**, digite um valor.
 5. Clique em **Salvar**.
 6. Feche a página.
-7. No **Painel de ação**, clique em **Descrição da unidade traduzida**.
+7. No **Painel de Ações**, clique em **Descrição da unidade traduzida**.
 8. Clique em **Novo**. Defina descrições específicas para um idioma para a unidade de medida.  
 9. No campo **Idioma**, insira ou selecione um valor.
 10. No campo **Descrição**, digite um valor.
@@ -55,7 +55,7 @@ Este procedimento mostra como definir uma unidade de medida, fornecer traduçõe
 12. Feche a página.
 
 ## <a name="define-unit-conversion-rules"></a>Definir regras de conversão de unidades
-1. No **Painel de ação**, clique em **Conversões de unidade**. Defina regras de conversão da unidade de medida de e para outras unidades de medida da classe de unidades selecionada.  
+1. No **Painel de Ações**, clique em **Conversões de unidade**. Defina regras de conversão da unidade de medida de e para outras unidades de medida da classe de unidades selecionada.  
 2. Clique em **Novo** para abrir a caixa de diálogo suspensa.
 3. No campo **Fator**, insira um número. Fator de conversão entre De unidade e Para unidade. Por exemplo, o fator de conversão de centímetro para metro é 100 porque existem 100 centímetros em um metro.  
 4. No campo **Para unidade**, insira ou selecione um valor.

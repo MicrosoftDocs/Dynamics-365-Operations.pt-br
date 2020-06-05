@@ -3,7 +3,7 @@ title: Calcular a disponibilidade de estoque em canais de varejo
 description: Este tópico descreve as opções para mostrar o estoque disponível da loja e dos canais online.
 author: hhainesms
 manager: annbe
-ms.date: 02/25/2020
+ms.date: 05/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 5b85438bc23e8f6cef0730dee9ac2c7f6dc26589
-ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
+ms.openlocfilehash: 51e6633caa49daeedca685f3323eaf4e14e788a5
+ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "3113911"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "3379227"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Calcular a disponibilidade de estoque em canais de varejo
 
@@ -50,12 +50,7 @@ Ambas as APIs buscam dados do servidor do Commerce e fornecem uma estimativa do 
 
 ### <a name="get-started-with-e-commerce-calculated-inventory-availability"></a>Introdução à disponibilidade calculada de estoque do comércio eletrônico
 
-Antes de usar as duas APIs mencionadas anteriormente, você deve fazer uma alteração de parâmetro na sede do Commerce para garantir que o instantâneo dos valores de estoque que a sede do Commerce calcula usando o trabalho **Disponibilidade do produto** insira dados nas tabelas corretas.
-
-Para definir o parâmetro, siga as etapas a seguir.
-
-1. Vá para **Varejo e Comércio \> Configuração da sede \> Parâmetros \> Parâmetros compartilhados com o comércio**.
-1. Na guia **Estoque**, na seção **Trabalho de disponibilidade do produto**, selecione **Usar processo otimizado para trabalho de disponibilidade do produto**. Essa configuração garante que o conjunto de recursos ideal seja usado para calcular o estoque disponível do canal por meio do servidor do Commerce.
+Antes de usar as duas APIs mencionadas anteriormente, você deve habilitar o recurso **Cálculo otimizado de disponibilidade de produtos** pelo espaço de trabalho **Gerenciamento de recursos** na Matriz do Commerce.
 
 Antes que as APIs possam calcular a melhor estimativa de disponibilidade de estoque de um item, um instantâneo periódico da disponibilidade de estoque da sede do Commerce deve ser processado e enviado ao banco de dados do canal usado pela unidade de escala do Commerce de comércio eletrônico. O instantâneo representa as informações que a sede do Commerce tem sobre a disponibilidade de estoque quanto a uma combinação específica de um produto ou variante de produto e um depósito. Pode incluir ajustes ou movimentos de estoque devidos a recebimentos de estoque, remessas ou outros processos executados na sede do Commerce e sobre os quais o canal de comércio eletrônico tem informações apenas em razão do processo de sincronização.
 
@@ -85,20 +80,15 @@ Quando configurado e gerenciado corretamente, o cálculo de canal pode fornecer 
 
 ### <a name="get-started-with-pos-channel-side-calculated-inventory-availability"></a>Introdução à disponibilidade de estoque calculada de canal do PDV
 
-Para usar a lógica de cálculo de canal e desativar as chamadas de serviço em tempo real em pesquisas de estoque usando o aplicativo de PDV, primeiro é preciso fazer duas alterações nos parâmetros. É preciso sincronizar as alterações no canal por meio do processo de agenda de distribuição.
+Para usar a lógica de cálculo no lado do canal e desativar as chamadas de serviço em tempo real para pesquisas de estoque no aplicativo de PDV, primeiro você deve habilitar o recurso **Cálculo otimizado de disponibilidade de produtos** pelo espaço de trabalho **Gerenciamento de recursos** na Matriz do Commerce. Além de habilitar o recurso, você deve fazer alterações no **Perfil da funcionalidade**.
 
-Para definir o primeiro parâmetro, siga as etapas a seguir.
-
-1. Vá para **Varejo e Comércio \> Configuração da sede \> Parâmetros \> Parâmetros compartilhados com o comércio**.
-1. Na guia **Estoque**, na seção **Trabalho de disponibilidade do produto**, selecione **Usar processo otimizado para trabalho de disponibilidade do produto**. Essa configuração garante que o conjunto de recursos ideal seja usado para calcular o estoque disponível do canal por meio do servidor do Commerce.
-
-Para definir o segundo parâmetro, siga as etapas a seguir.
+Para alterar o **Perfil da funcionalidade**, siga estas etapas:
 
 1. Vá para **Retail e Commerce \> Configuração de canal \> Configuração do PDV \> Perfis de PDV \> Perfis de funcionalidade**.
 1. Selecione um perfil de funcionalidade.
 1. Na Guia Rápida **Funções**, na seção **Cálculo da disponibilidade de estoque**, altere o valor do campo **Modelo de cálculo da disponibilidade de estoque** de **Serviço em tempo real** para **Canal**. Por padrão, todos os perfis de funcionalidade usam chamadas de serviço em tempo real. Portanto, você deve alterar o valor desse campo se desejar usar a lógica de cálculo de canal. Toda loja de varejo vinculada ao perfil de funcionalidade selecionado será afetada por essa alteração.
 
-Para atualizar os servidores, siga as etapas a seguir.
+Em seguida, você deve sincronizar as alterações no canal usando o processo de agenda de distribuição executando as seguintes etapas:
 
 1. Vá para **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**.
 1. Execute o trabalho **1070** (**Configuração do canal**).
