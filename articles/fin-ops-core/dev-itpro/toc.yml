@@ -14,6 +14,8 @@
               items:
                 - name: Novidades ou alterações na home page de Platform updates
                   href: get-started/whats-new-home-page.md
+                - name: Platform updates para 10.0.12 (agosto de 2020)
+                  href: get-started/whats-new-platform-update-10-0-12.md
                 - name: Platform updates para 10.0.11 (julho de 2020)
                   href: get-started/whats-new-platform-update-35.md
                 - name: Platform updates para 10.0.10 (maio de 2020)
@@ -198,6 +200,8 @@
                               href: data-entities/dual-write/in-house-assets.md
                             - name: 'Trabalhador, trabalho e cargo integrados'
                               href: data-entities/dual-write/integrated-hr.md
+                            - name: Disponibilidade de estoque
+                              href: data-entities/dual-write/inventory-availability.md
                         - name: Suporte para gravação dupla
                           items:
                             - name: Suporte para soluções do Field Service e do Project Service Automation
@@ -452,9 +456,9 @@
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: Aplicar atualizações a ambientes de nuvem
                   href: deployment/apply-deployable-package-system.md
-                - name: Aplicar atualizações e extensões a componentes do canal do Retail hospedados na nuvem
+                - name: Aplicar atualizações e extensões à Commerce Scale Unit (nuvem)
                   href: deployment/Update-retail-channel.md
-                - name: Inicializar Retail Cloud Scale Unit
+                - name: Inicializar a Commerce Scale Unit (nuvem)
                   href: deployment/Initialize-Retail-Channels.md
                 - name: Residência de dados do Retail
                   href: deployment/retail-data-residency.md
@@ -488,7 +492,9 @@
                       href: deployment/certificate-rotation-on-prem.md
                     - name: Conectividade da Internet do cliente
                       href: user-interface/client-disconnected.md
-                    - name: Configurar proxies reversos para ambientes locais
+                    - name: Configurar nós do AOS Somente em lote e Somente interativos em implantações locais
+                      href: deployment/onprem-batchonly.md
+                    - name: Configurar proxies para ambientes locais
                       href: deployment/onprem-reverseproxy.md
                     - name: Diagnósticos locais
                       href: deployment/on-premises-diagnostics.md
@@ -1044,13 +1050,15 @@
                   href: lifecycle-services/whats-new-lcs.md
                 - name: Problemas conhecidos
                   href: lifecycle-services/known-issues.md
-                - name: Recursos removidos ou obsoletos no Lifecycle Services (LCS)
+                - name: Recursos removidos ou obsoletos do Lifecycle Services (LCS)
                   href: lifecycle-services/removed-deprecated-features.md
-            - name: ​Guia do usuário do Lifecycle Services​
+            - name: Guia do usuário do Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
-            - name: Avaliador de subscrição
+            - name: Integração do Project
+              href: lifecycle-services/project-onboarding.md
+            - name: Avaliador de assinatura
               href: lifecycle-services/subscription-estimator.md
-            - name: ​Configurar segurança
+            - name: Configurar segurança
               href: lifecycle-services/configure-lcs-security.md
             - name: Pesquisa de problemas
               href: lifecycle-services/issue-search-lcs.md
@@ -1118,6 +1126,20 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Arquivos da memória de tradução
                   href: lifecycle-services/use-translation-service-tm.md
+        - name: Integração do Microsoft Power Platform
+          items:
+            - name: Integração do Microsoft Power Platform com o Finance and Operations
+              href: power-platform/overview.md
+            - name: Modelagem de entidade
+              href: power-platform/entity-modeling.md
+            - name: Gerenciamento do ciclo de vida de aplicativos
+              href: power-platform/application-lifecycle-management.md
+            - name: Referência de administração do Finance and Operations e do Common Data Service
+              href: power-platform/admin-reference.md
+            - name: Portais do Power Apps com o Finance and Operations
+              href: power-platform/power-portal-reference.md
+            - name: Perguntas frequentes sobre entidades virtuais do Finance and Operations
+              href: power-platform/faq.md
         - name: Plataforma móvel
           items:
             - name: Recursos da plataforma móvel
@@ -1330,9 +1352,7 @@
               href: perf-test/rsat/rsat-overview.md
             - name: Instalação e configuração
               href: perf-test/rsat/rsat-install-configure.md
-            - name: Testes desconhecidos de dados usando a Regression Suite Automation Tool
-              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
-            - name: Executar casos de teste
+            - name: Usar a Regression Suite Automation Tool
               href: perf-test/rsat/rsat-run.md
             - name: Validar valores esperados
               href: perf-test/rsat/rsat-validate-expected.md
@@ -1340,10 +1360,12 @@
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Casos de teste derivados
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: Usar o tutorial sobre a Regression Suite Automation Tool
+            - name: Tutorial sobre a Regression Suite Automation Tool e outros recursos
               href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
             - name: Práticas recomendadas
               href: perf-test/rsat/rsat-best-practices.md
+            - name: Testes independentes de dados usando a Regression Suite Automation Tool
+              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
             - name: Solução de problemas
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: Liberar soluções usando o Lifecycle Services
@@ -1442,6 +1464,8 @@
                   href: sysadmin/copy-batch-job.md
                 - name: Períodos de lote ativos
                   href: sysadmin/activeperiod.md
+                - name: Suporte ao horário de verão para períodos de lote ativos
+                  href: sysadmin/batch-active-period-dst.md
                 - name: Função de segurança do gerente de lotes
                   href: sysadmin/runby.md
                 - name: Trabalhos em lotes para tratar da desfragmentação de índice SQL

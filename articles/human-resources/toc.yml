@@ -5,6 +5,8 @@
       items:
         - name: Novidades ou alterações no Human Resources
           href: hr-admin-whats-new.md
+        - name: 28 de maio de 2020
+          href: hr-whats-new-2020-05-28.md
         - name: 14 de maio de 2020
           href: hr-whats-new-2020-05-14.md
         - name: 1º de maio de 2020
@@ -509,6 +511,8 @@
               href: hr-leave-and-absence-accrue.md
             - name: Suspender licença
               href: hr-leave-and-absence-suspend-leave.md
+            - name: Solicitação de licença
+              href: hr-employee-self-service-request-leave-of-absence.md
             - name: Gerenciar licença de funcionário
               href: hr-leave-and-absence-manage-employee-leave.md
             - name: Exibir análises de licenças e ausências
@@ -519,6 +523,10 @@
               href: hr-employee-self-service-request-time-off.md
             - name: Exibir calendários da equipe e da empresa
               href: hr-employee-self-service-calendar.md
+            - name: Gerenciar políticas de compra e venda de licenças
+              href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
+            - name: Comprar e vender licenças
+              href: hr-employee-self-service-buy-sell-leave.md
         - name: Gerenciar solicitações de licença no Teams
           href: hr-teams-leave-app.md
         - name: Desenvolver funcionários
