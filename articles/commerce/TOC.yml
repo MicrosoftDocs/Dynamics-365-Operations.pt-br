@@ -88,6 +88,8 @@
                   items:
                     - name: Novidades ou alterações na home page do Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.12 (agosto de 2020)
+                      href: get-started/whats-new-commerce-10-0-12.md
                     - name: Commerce 10.0.11 (julho de 2020)
                       href: get-started/whats-new-commerce-10-0-11.md
                     - name: Commerce 10.0.10 (maio de 2020)
@@ -212,13 +214,13 @@
               items:
                 - name: Sincronizar instaladores de autoatendimento no Dynamics 365 Commerce
                   href: dev-itpro/Synchronize-installers.md
-                - name: Commerce Scale Unit
+                - name: Commerce Scale Unit (auto-hospedada)
                   href: dev-itpro/retail-store-system-begin.md
-                - name: Configurar e instalar o Commerce Scale Unit
+                - name: Configurar e instalar Commerce Scale Unit (auto-hospedada)
                   href: dev-itpro/retail-store-scale-unit-configuration-installation.md
                 - name: Configuração e instalação do Modern PDV
                   href: retail-modern-pos-device-activation.md
-                - name: Gerenciar contas e dispositivos do Headquarters
+                - name: Gerenciar contas e dispositivos da sede
                   href: set-up-activation-accounts-validate-devices-hq.md
                 - name: Ativação de dispositivo do PDV
                   href: dev-itpro/retail-device-activation.md
@@ -428,7 +430,7 @@
                   items:
                     - name: Configurar e criar formatos de recebimento
                       href: receipt-templates-printing.md
-                    - name: Enviar recibos por email do Modern POS (MPOS)
+                    - name: Enviar recibos por email do Modern PDV (MPOS)
                       href: email-receipts.md
                     - name: Redefinir números de recibo
                       href: reset_receipt_number_sequence.md
@@ -602,11 +604,11 @@
                   href: tasks/category-pricing-rules-trade-agreements.md
             - name: Recomendações
               items:
-                - name: Visão geral das recomendações dos produtos
+                - name: Visão geral das recomendações de produtos
                   href: product-recommendations.md
-                - name: Habilitar ADLS em um ambiente do Dynamics 365 Commerce
+                - name: Habilitar Azure Data Lake Storage em um ambiente do Dynamics 365 Commerce
                   href: enable-ADLS-environment.md
-                - name: Habilitar recomendações dos produtos
+                - name: Habilitar recomendações de produtos
                   href: enable-product-recommendations.md
                 - name: Recomendações personalizadas
                   items:
@@ -646,8 +648,8 @@
                   items:
                     - name: Gerenciamento de estoque de loja
                       href: work-with-store-inventory.md
-                    - name: Trabalhar com itens serializados
-                      href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md?toc=/dynamics365/commerce/toc.json
+                    - name: Configurar buffers de estoque e níveis de estoque
+                      href: inventory-buffers-levels.md
                     - name: Trabalhar com itens serializados no PDV
                       href: pos-serialized-items.md
                     - name: Mover produtos do centro de distribuição para a loja usando a compra centralizada
@@ -824,6 +826,8 @@
                   href: authoring-home-overview.md
                 - name: Gerenciar usuários e funções
                   href: manage-ecommerce-users-roles.md
+                - name: Aplicar configurações de estoque
+                  href: inventory-settings.md
                 - name: Considerações de otimização do mecanismo de pesquisa (SEO) para seu site
                   href: search-engine-optimization-considerations.md
                 - name: Gerenciar a Política de Segurança de Conteúdo (CSP)
@@ -846,8 +850,10 @@
                       href: add-logo.md
                     - name: Selecionar um tema de site
                       href: select-site-theme.md
-                    - name: Trabalhar com arquivos de substituição CSS
+                    - name: Trabalhar com arquivos de substituição do CSS
                       href: css-override-files.md
+                    - name: Trabalhar com predefinições de estilo
+                      href: style-presets.md
                     - name: Adicionar um favicon
                       href: add-favicon.md
                     - name: Adicionar uma mensagem de boas-vindas
@@ -932,6 +938,10 @@
                   items:
                     - name: Módulo de contêiner
                       href: add-container-module.md
+                    - name: Módulo de Accordion
+                      href: add-accordion.md
+                    - name: Módulo de guia
+                      href: add-tab.md
                 - name: Módulos de marketing
                   items:
                     - name: Módulo de banner de promoção
@@ -974,10 +984,14 @@
                   items:
                     - name: Páginas e módulos de gerenciamento de contas
                       href: account-management.md
-                - name: Módulos de coleta de produtos
+                - name: Módulos de coleção de produtos
                   items:
-                    - name: Módulos de coleta de produtos
+                    - name: Módulos de coleção de produtos
                       href: product-collection-module-overview.md
+                - name: Módulos de navegação
+                  items:
+                    - name: Módulo de trilha de navegação
+                      href: add-breadcrumb.md
             - name: Pesquisar
               items:
                 - name: Página de aterrissagem da categoria padrão e página de resultados da pesquisa
@@ -1048,6 +1062,10 @@
                   href: localizations/emea-fra-cash-registers.md
                 - name: Diretrizes de implantação para caixas registradoras
                   href: localizations/emea-fra-deployment.md
+            - name: Alemanha
+              items:
+                - name: Exemplo de integração de serviços de registro fiscal para a Alemanha
+                  href: localizations/emea-deu-fi-sample.md
             - name: Índia
               items:
                 - name: Integração de impostos sobre bens e serviços (GST) para caixas registradoras
@@ -1078,7 +1096,7 @@
                   href: localizations/emea-swe-cash-registers.md
                 - name: Exemplo de integração da unidade de controle para a Suécia
                   href: localizations/emea-swe-fi-sample.md
-                - name: Exemplo para integração do Retail POS com unidades de controle (herdado)
+                - name: Exemplo para integração do Retail PDV com unidades de controle (herdado)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Relatórios e integrações do Power BI
           items:
@@ -1976,7 +1994,9 @@
                       href: e-commerce-extensibility/create-theme.md
                     - name: Definir configurações de tema
                       href: e-commerce-extensibility/configure-theme-settings.md
-                    - name: Estender um tema
+                    - name: Estender um tema para adicionar extensões de módulo
+                      href: e-commerce-extensibility/theme-module-extensions.md
+                    - name: Estender um tema de um tema base
                       href: e-commerce-extensibility/extend-theme.md
                 - name: Injetar o script
                   items:
@@ -2072,11 +2092,11 @@
                   href: dev-itpro/hardware-device-extension.md
             - name: Extensibilidade do Retail Server
               items:
-                - name: Estender um controlador Retail Server OData
+                - name: Estender um controlador OData da Commerce Scale Unit
                   href: dev-itpro/extend-retail-server-odata-controller.md
-                - name: Cliente do Retail Server e APIs de consumo
+                - name: APIs de cliente e consumidor da Commerce Scale Unit
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: Estender o controlador de metadados do Retail Server padrão
+                - name: Estender o controlador de metadados padrão da Commerce Scale Unit
                   href: dev-itpro/extend-metadata.md
                 - name: Chamar o serviço CRT no modo offline
                   href: dev-itpro/call-crt-service-offline.md
@@ -2096,8 +2116,6 @@
                   href: dev-itpro/add-customer-preference-channel.md
                 - name: Gerenciar segredos para canais do Retail
                   href: dev-itpro/manage-secrets.md
-                - name: Adicionar propriedades a ordens de venda
-                  href: dev-itpro/add-properties-sales-order.md
                 - name: Extensibilidade e gatilhos do CRT
                   href: dev-itpro/commerce-runtime-extensibility-trigger.md
                 - name: Bloquear transações usando gatilhos
