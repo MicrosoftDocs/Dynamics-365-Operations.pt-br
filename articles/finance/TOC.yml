@@ -2371,7 +2371,7 @@
                     - name: Visão geral de titulares avançados da Rússia
                       href: localizations/rus-advance-holders.md
                     - name: Criar um titular avançado
-                      href: 'localizations/emea-advance-holders.md#create-an-advance-holder'
+                      href: localizations/emea-advance-holders.md#create-an-advance-holder
                     - name: Operações diárias para titulares avançados
                       href: localizations/rus-advance-holders-daily-operations.md
                     - name: Relatórios de adiantamento com controles de orçamento
@@ -3346,7 +3346,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
                 - name: Regulatory services (RCS)
                   items:
-                    - name: Regulatory Configuration Service (RCS) — Recursos de globalização
+                    - name: Regulatory Configuration Services (RCS) — Recursos de globalização
                       href: localizations/rcs-globalization-feature.md
                     - name: Baixar configurações ER no Finance
                       items:
