@@ -3,7 +3,7 @@ title: Criar recomendações com dados de demonstração
 description: Este tópico oferece orientações sobre como aproveitar recomendações de produtos do omnicanal em ambientes de uma caixa da Camada 1 usando dados de demonstração personalizáveis pré-preenchidos.
 author: bebeale
 manager: AnnBe
-ms.date: 03/30/20
+ms.date: 05/26/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ec23461352abc53b90b6af539a3dd1764e4b5460
-ms.sourcegitcommit: 67cf9e2cf0f75e90526cae6bf176a40156c62a53
+ms.openlocfilehash: 68275f3e36bce0f641b0273cf3b3b8c8ce9db137
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "3175540"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404316"
 ---
 # <a name="create-recommendations-with-demo-data"></a>Criar recomendações com dados de demonstração
 
@@ -71,9 +71,9 @@ A extensão contém um arquivo de dados chamado 'RecoMockDataset.csv', que permi
 
 [Visão geral das recomendações dos produtos](product-recommendations.md)
 
-[Habilitar ADLS em um ambiente do Dynamics 365 Commerce](enable-adls-environment.md)
+[Habilitar Azure Data Lake Storage em um ambiente do Dynamics 365 Commerce](enable-adls-environment.md)
 
-[Habilitar recomendações de produtos](enable-product-recommendations.md)
+[Habilitar recomendações dos produtos](enable-product-recommendations.md)
 
 [Habilitar recomendações personalizadas](personalized-recommendations.md)
 

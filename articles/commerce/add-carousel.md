@@ -3,7 +3,7 @@ title: Módulo de carrossel
 description: Este tópico abrange os módulos de carrossel e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f399e4c5618b65b781fdd3ec835e841614579313
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 35aaf35419a8c5b83b2a3e1136a02200bf347c6b
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269719"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411287"
 ---
 # <a name="carousel-module"></a>Módulo de carrossel
 
-
+[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Este tópico abrange os módulos de carrossel e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
@@ -44,9 +44,13 @@ Você pode adicionar módulos de bloco de conteúdo dentro de um módulo de carr
 - Um carrossel que possui vários módulos promocionais pode ser usado em uma página de detalhes do produto.
 - Um carrossel pode ser usado em qualquer página de marketing para promover várias promoções ou produtos.
 
+A imagem a seguir mostra um exemplo de um módulo de carrossel que é usado em uma home page. Este módulo de carrossel contém vários itens de bloco de conteúdo.
+
+![Exemplo de um módulo de carrossel](./media/Hero.PNG)
+
 ## <a name="carousel-module-properties"></a>Propriedades do módulo de carrossel
 
-| Nome da propriedade             | Alíquota                 | Descrição |
+| Nome da propriedade             | Alíquota                 | descrição |
 |---------------------------|-----------------------|-------------|
 | Reprodução automática                  | **Verdadeiro** ou **Falso** | Se o valor estiver definido como **Verdadeiro**, a transição entre os itens dentro no carrossel ocorrerá automaticamente. Se o valor estiver definido como **Falso**, nenhuma transição ocorrerá, a menos que o cliente use o teclado ou o mouse para passar de um item para o próximo. |
 | Intervalo de transição de slides | Um valor em segundos    | O intervalo para transições entre itens. |
@@ -58,7 +62,7 @@ Você pode adicionar módulos de bloco de conteúdo dentro de um módulo de carr
 
 Para adicionar um módulo de carrossel a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
-1. Selecione **Novo** para criar um modelo de página.
+1. Vá para **Modelos** e selecione **Novo** para criar um novo modelo.
 1. Na caixa de diálogo **Novo Modelo**, em **Nome do Modelo**, insira **Modelo de carrossel** e selecione **OK**.
 1. No slot **Corpo**, adicione um módulo **Página padrão**.
 1. Selecione **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.  

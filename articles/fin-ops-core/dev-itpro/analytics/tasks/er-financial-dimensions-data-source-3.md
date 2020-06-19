@@ -3,7 +3,7 @@ title: 'ER Usar dimensões financeiras como uma fonte de dados (Parte 3: Criar o
 description: As etapas a seguir explicam como um usuário atribuído ao administrador do sistema ou função do desenvolvedor de relatório eletrônico pode configurar um modelo de relatório eletrônico (ER) para usar dimensões financeiras como uma fonte de dados para relatórios ER.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7bbbc81eaf8c13e8d13e30a0276e38453e07ead9
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: cef61787e50561eaac4fd52741ab5f90d9c4171d
+ms.sourcegitcommit: d9125c20b21459076e4fd92fd9ebfe2e53a0431b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142515"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "3406488"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER Usar dimensões financeiras como uma fonte de dados (Parte 3: Criar o relatório)
 
@@ -95,6 +95,7 @@ Para completar essas etapas, primeiro você deve concluir as etapas "Dimensões 
 59. Clique em Adicionar atributo.
 60. No campo Nome, digite "Desc".
 61. Clique em OK.
+![Página do designer de operações de ER](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>Mapear elementos de relatório para fontes de dados
 1. Clique na aba Mapeamento.
@@ -143,4 +144,5 @@ Para completar essas etapas, primeiro você deve concluir as etapas "Dimensões 
 44. Clique em Associar.
 45. Clique em Salvar.
 46. Feche a página.
+![Página do designer de operações de ER](../media/er-financial-dimensions-guides-format2.png)
 

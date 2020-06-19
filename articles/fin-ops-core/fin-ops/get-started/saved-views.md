@@ -3,7 +3,7 @@ title: Exibições salvas
 description: Este tópico descreve como usar os recursos de exibições salvas.
 author: jasongre
 manager: AnnBe
-ms.date: 04/10/2020
+ms.date: 05/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: fe79558b9d2ac4ef1c83918b949d11983b2cc0d8
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: f6b7f1c64c273f52dc1d414185ba54efdfb8e5c0
+ms.sourcegitcommit: dc67232c9aa3223d42f22cc1f7aafbd121e7e616
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260474"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3412321"
 ---
 # <a name="saved-views"></a>Exibições salvas
 
@@ -137,7 +137,7 @@ Se as alterações que você deseja fazer em uma exibição publicada envolverem
 7. [10.0.9/Atualização de plataforma 33 ou mais recente] Se tivesse escolhido anteriormente esta exibição publicada como padrão, ela seria a exibição padrão para esses usuários novamente após a nova publicação.  
 
 Se as alterações na exibição publicada envolverem modificações nas personalizações ou nos filtros associados à exibição, siga estas etapas: 
-1.  Alterne para a exibição publicada que você deseja modificar. 
+1.  Carregue a exibição publicada que você deseja modificar. 
 2.  Salve uma cópia da exibição publicada para criar um rascunho local da exibição publicada. 
 3.  Modifique o rascunho local com as alterações necessárias.
 4.  Publique a exibição com o nome original. 
@@ -149,14 +149,27 @@ Enquanto todos os usuários veem uma guia **Minhas exibições** mostrando suas 
 
 Para a lista de todas as exibições publicadas da página, o seguinte conjunto de ações está disponível. 
 
--    **Publicar**: use a ação **Publicar** para publicar novamente uma exibição após os parâmetros de publicação (nome, descrição, funções de segurança ou entidades legais) terem sido alterados.
--    **Remover**: use a ação **Remover** para excluir permanentemente uma exibição publicada. Essa ação remove a exibição de todos os usuários no sistema. A remoção de exibições publicadas será efetivada após selecionar o botão **Salvar**.
+-    **Publicar** - use a ação **Publicar** para publicar novamente uma exibição após os parâmetros de publicação (nome, descrição, funções de segurança ou entidades legais) terem sido alterados.
+-    **Salvar como pessoal** – use a ação **Salvar como pessoal** para criar uma cópia de rascunho pessoal da exibição publicada. Esse recurso pode ajudá-lo a compreender o conteúdo de uma exibição que não foi publicada ou que ainda não foi publicada. Você também pode usá-lo para editar e depois republicar uma exibição. Esse recurso foi introduzido na versão 10.0.12.  
+-    **Remover** - use a ação **Remover** para excluir permanentemente uma exibição publicada. Essa ação remove a exibição de todos os usuários no sistema. A remoção de exibições publicadas será efetivada após selecionar o botão **Salvar**.
+
+## <a name="managing-views-globally"></a>Como gerenciar exibições globalmente
+Embora alguns recursos de gerenciamento sejam reproduzidos em todas as páginas, como indicado neste tópico, os **administradores do sistema** e os **administradores da exibição salva** podem gerenciar as exibições de forma mais holística para o sistema por meio da página **Personalização**. Em particular, essa página tem as seguintes seções e recursos: 
+
+- **Exibições publicadas** – essa seção lista todas as exibições que foram publicadas para sua organização. A partir daqui, você pode republicar uma exibição depois de ajustar as funções de segurança ou entidades legais de destino da exibição. Também pode exportar ou excluir uma ou mais exibições publicadas. Na versão 10.0.12 e posteriores, você pode usar a ação **Salvar como pessoal** para criar uma cópia pessoal do modo de exibição, de forma que possa atualizar a exibição ou entender melhor seu conteúdo. 
+- **Exibições não publicadas** – essa seção lista todas as exibições que foram importadas para o sistema, mas que ainda não foram publicadas. Você pode publicar, exportar ou excluir essas exibições. A ação **Publicação rápida** adicionada à versão 10.0.12 permite que várias exibições desta seção sejam publicadas em uma ação, usando as configurações de direito de acesso e entidade legal existentes. Na versão 10.0.12 e posteriores, você pode usar a ação **Salvar como pessoal** para criar uma cópia pessoal dessas exibições, de forma que possa atualizar a exibição ou entender melhor seu conteúdo.   
+- **Exibições pessoais** – essa seção lista todas as exibições criadas por usuários no sistema. A partir daqui, você pode publicar uma exibição pessoal para a organização ou copiar uma ou mais dessas exibições para outros usuários. Você também pode exportar ou excluir essas exibições, conforme necessário.
+- **Usuários** – selecione um usuário para exibir uma lista de páginas que ele visitou. Então, você pode ajustar a capacidade do usuário de usar a personalização para páginas específicas ou para todo o sistema. Também é possível importar, exportar ou limpar uma personalização para o usuário. Além disso, você pode redefinir o recurso de textos explicativos para o usuário. Em seguida, se o usuário tiver ignorado anteriormente qualquer janela pop-up que introduzisse novos recursos, ela será exibida novamente na próxima vez que ele encontrar esses recursos.
+- **Sistema** – É possível desativar temporariamente as personalizações de todos os usuários no sistema. Nesse caso, todas as personalizações são excluídas para todos os usuários e todas as páginas são redefinidos para seu estado padrão. Se, mais tarde, você ativar novamente a personalização, todas as personalizações serão reaplicadas. Também é possível excluir permanentemente todas as personalizações de todos os usuários do sistema. Não é possível recuperar as personalizações que foram excluídas. Portanto, antes de executar essa tarefa, verifique se você exportou todas as personalizações de que talvez precise posteriormente.
+
+Os usuários com acesso à página **Personalização** também podem importar exibições pessoais ou de modelo usando o botão **Importar exibições** no Painel de Ação. Na versão 10.0.12 e posteriores, foi adicionado um mecanismo para a publicação imediata de exibições depois de importadas.  
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Como faço para habilitar as exibições salvas no meu ambiente? 
-Observação: O recurso **Exibições salvas** exige que o sistema de Personalização em Finance and Operations esteja habilitado. Se a personalização estiver desativada para todo o ambiente, as exibições serão desabilitadas mesmo se você seguir as etapas abaixo. 
+> [!NOTE]
+> O recurso **Exibições salvas** exige que o sistema de Personalização no Finance and Operations esteja habilitado. Se a personalização estiver desativada para todo o ambiente, as exibições serão desabilitadas mesmo se você seguir as etapas abaixo. 
 
-**10.0.9 / Atualização de plataforma 33 e mais recente** O recurso **Exibições salvas** está disponível diretamente no Gerenciamento de recursos em todos os ambientes. Assim como outros recursos de versão prévia pública, a ativação deste recurso na produção está sujeita ao [Contrato de Termos de Uso Complementares](https://go.microsoft.com/fwlink/?linkid=2105274).  
+**10.0.9 / Atualização de plataforma 33 e mais recente** O recurso **Exibições salvas** está disponível diretamente no Gerenciamento de recursos em todos os ambientes. Quanto aos outros recursos de versão preliminar, a habilitação desse recurso em produção está sujeita ao [Contrato de Termos de Uso Complementares](https://go.microsoft.com/fwlink/?linkid=2105274).  
 
 **10.0.8 / Atualização de plataforma 32 e anterior** O recurso **Exibições salvas** pode ser habilitado nos ambientes da Camada 1 (Desenvolvimento/Teste) e da Camada 2 (Área Restrita) a fim de fornecer testes adicionais e alterações de design seguindo as etapas abaixo.
 

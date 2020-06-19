@@ -3,7 +3,7 @@ title: Módulo de caixa de compra
 description: Este tópico abrange os módulos de caixa de compra e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 095374c14cddf1ae3608ae1427a7144b3e7ca7b2
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 583937be92b62991cd13f0806df4a0a6c9ac049c
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269742"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411333"
 ---
 # <a name="buy-box-module"></a>Módulo de caixa de compra
 
-
+[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Este tópico abrange os módulos de caixa de compra e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
@@ -38,6 +38,10 @@ O termo *caixa de compra* geralmente se refere à área de uma página de detalh
 Um módulo de caixa de compra é um contêiner especial usado para hospedar todos os módulos mostrados na área da caixa de compra de uma página de detalhes do produto.
 
 A URL da página de detalhes do produto inclui a ID do produto. Todas as informações necessárias para renderizar um módulo de caixa de compra são derivadas dessa ID de produto. Se uma ID de produto não for fornecida, o módulo da caixa de compra não será renderizado corretamente em uma página. Portanto, um módulo de caixa de compra pode ser usado somente em páginas que têm contexto de produto. Para usá-lo em uma página que não tenha um contexto de produto (por exemplo, uma página inicial ou uma página de marketing), você deve fazer personalizações adicionais.
+
+A imagem a seguir mostra um exemplo de um módulo de caixa de compra em uma página de detalhes de produtos.
+
+![Exemplo de um módulo de caixa de compra](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="buy-box-module-properties-and-slots"></a>Propriedades e slots do módulo de caixa de compra 
 
@@ -58,35 +62,47 @@ Os temas podem ser usados para remover ou alterar a ordem das propriedades do pr
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Módulos que podem ser usados em um módulo de caixa de compra
 
 - **Galeria de mídia** – Este módulo é usado para mostrar imagens de um produto em uma página de detalhes do produto. Ele permite uma a muitas imagens. Ele também permite imagens em miniatura. As imagens em miniatura podem ser organizadas horizontalmente (como uma linha abaixo da imagem) ou verticalmente (como uma coluna ao lado da imagem). O módulo da galeria de mídia pode ser adicionado ao slot **Mídia** no módulo da caixa de compra. Atualmente, ele é compatível apenas com imagens. 
-- **Seletor de loja** – Este módulo mostra uma lista de lojas próximas, onde um item está disponível para retirada. Ele permite que os usuários insiram um local para encontrar lojas próximas. Para obter mais informações sobre este módulo, consulte [Módulo do seletor de armazenamento](store-selector.md).
+- **Seletor de loja** – Este módulo mostra uma lista de lojas próximas, onde um item está disponível para retirada. Ele permite que os usuários insiram um local para encontrar lojas próximas. Para obter mais informações sobre esse módulo, consulte [Módulo de seletor de loja](store-selector.md).
 
 ## <a name="buy-box-module-settings"></a>Configurações do módulo de caixa de compra
 
-Os módulos de caixa de compra têm três configurações que podem ser definidas em **Configurações de Site \> Extensões**:
+As seguintes configurações de módulo de caixa de compra podem ser definidas em **Configurações de Site \> Extensões**:
 
-- **Quantidade máxima** – Esta propriedade é usada para especificar o número máximo de cada item que pode ser adicionado ao carrinho. Por exemplo, um varejista pode decidir que apenas 10 de cada produto podem ser vendidos em uma única transação.
-- **Verificação de estoque** – Quando o valor é definido como **Verdadeiro**, um item é adicionado ao carrinho somente após o módulo da caixa de compra garantir que ele esteja em estoque. Essa verificação de estoque é feita tanto para os cenários em que o item será enviado como para os cenários em que ele será retirado na loja. Se o valor estiver definido como **Falso**, nenhuma verificação de estoque será feita antes que um item seja adicionado ao carrinho e a ordem seja feita. Para obter informações sobre como definir as configurações de estoque no back office, consulte [Calcular a disponibilidade de estoque para canais de varejo](calculated-inventory-retail-channels.md).
+- **Limite de quantidade de linha de carrinho** – Esta propriedade é usada para especificar o número máximo de cada item que pode ser adicionado ao carrinho. Por exemplo, um varejista pode decidir que apenas 10 de cada produto podem ser vendidos em uma única transação.
+- **Estoque** – para obter informações sobre como aplicar configurações de estoque, consulte [Aplicar configurações de estoque](inventory-settings.md).
+- **Adicionar ao carrinho** – esta propriedade é usada para especificar o comportamento depois que um item é adicionado ao carrinho. Os valores possíveis são **Navegar até o carrinho**, **Não navegar até o carrinho** e **Mostrar notificações**. Quando o valor for definido como **Navegar até o carrinho**, os usuários serão enviados para a página do carrinho depois que adicionarem um item. Quando o valor for definido como **Não navegar até o carrinho**, os usuários não serão enviados para a página do carrinho depois que adicionarem um item. Quando o valor for definido como **Mostrar notificações**, os usuários receberão uma notificação de confirmação e poderão continuar a procurar na página detalhes do produto. 
 
-- **Buffer de estoque** – Esta propriedade é usada para especificar um número de buffer para o estoque. O estoque é mantido em tempo real e, quando muitos clientes fazem pedidos, pode ser difícil manter uma contagem precisa do estoque. Quando uma verificação de estoque é feita, se o estoque for menor que a quantidade do buffer, o produto é tratado como esgotado no estoque. Sendo assim, quando as vendas ocorrem rapidamente por meio de vários canais, e a contagem do estoque não está totalmente sincronizada, há menos risco de que um item esgotado no estoque seja vendido.
+    A imagem a seguir mostra um exemplo de notificação de confirmação "adicionado ao carrinho" no site da Fabrikam.
+
+    ![Exemplo de um módulo de notificação](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Interação do Commerce Scale Unit
 
-O módulo de caixa de compra recupera informações do produto usando as APIs de Commerce Scale Unit. A ID de produto na página de detalhes do produto é usada para recuperar todas as informações.
+O módulo de caixa de compra recupera informações do produto usando as interfaces de programação de aplicativos (APIs) de Commerce Scale Unit. A ID de produto na página de detalhes do produto é usada para recuperar todas as informações.
 
 ## <a name="add-a-buy-box-module-to-a-page"></a>Adicionar um módulo de caixa de compra a uma página
 
 Para adicionar um módulo de caixa de compra a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
-1. Crie um fragmento denominado **fragmento da caixa de compra** e adicione um módulo de caixa de compra a ele.
-1. No slot **Mídia** do módulo da caixa de compra, adicione um módulo da galeria de mídia.
-1. No slot **Seletor de armazenamento** do módulo da caixa de compra, adicione um módulo de seletor de armazenamento.
+1. Vá para **Fragmentos de Página** e selecione **Novo** para criar um novo fragmento.
+1. Na caixa de diálogo **Novo Fragmento de Página**, selecione o módulo **Caixa de compra**.
+1. Em **Nome do Fragmento de Página**, digite o nome **Fragmento de caixa de compra** e selecione **OK**.
+1. No slot **Galeria de Mídia** do módulo de caixa de compra, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Galeria de mídia** e, depois, **OK**.
+1. No slot **Seletor de loja** do módulo de caixa de compra, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Seletor de loja** e, depois, **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do fragmento e depois selecione **Publicar** para publicá-lo.
-1. Crie um modelo para uma página de detalhes do produto e denomine-o **Modelo do PDP**.
-1. Adicione uma página padrão.
-1. No slot **Principal** da página padrão, adicione um fragmento da caixa de compra.
+1. Vá para **Modelos** e selecione **Novo** para criar um novo modelo.
+1. Na caixa de diálogo **Novo Modelo**, em **Nome do modelo**, insira **Modelo PDP** e selecione **OK**.
+1. No slot **Corpo**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Página Padrão** e, depois, **OK**.
+1. No slot **Principal** da página padrão, selecione as reticências (**...**) e, depois, **Adicionar Fragmento de Página**.
+1. Na caixa de diálogo **Selecionar Fragmento de Página**, selecione o fragmento **Fragmento de caixa de compra** criado mais cedo e selecione **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
-1. Use o modelo que criou para criar uma página nomeada **Página PDP**.
-1. No slot **Principal** da nova página, adicione um fragmento da caixa de compra.
+1. Vá para **Páginas** e selecione **Novo** para criar uma nova página.
+1. Na caixa de diálogo **Escolher um modelo**, selecione o modelo **Modelo de PDP**. Em **Nome da página**, insira **Página PDP** e selecione **OK**.
+1. No slot **Principal** da nova página, selecione as reticências (**...**) e, depois, **Adicionar Fragmento de Página**.
+1. Na caixa de diálogo **Selecionar Fragmento de Página**, selecione o fragmento **Fragmento de caixa de compra** criado mais cedo e selecione **OK**.
 1. Salve e exiba a página. Adicione o parâmetro da sequência de caracteres da consulta **?productid=&lt;product id&gt;** à URL da página de exibição. Dessa forma, o contexto do produto é usado para carregar e renderizar a página de exibição.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo. Uma caixa de compra deve aparecer na página de detalhes do produto.
 
