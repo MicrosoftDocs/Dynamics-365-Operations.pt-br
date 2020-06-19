@@ -3,7 +3,7 @@ title: Gerenciamento de preços de vendas para varejo
 description: Este tópico descreve os conceitos para criar e gerenciar os preços de venda do Dynamics 365 Commerce.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1eb0b218b9008b255cc5a09eefb8c7fa35836cd7
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 84d673bef8597bd7d376c5c74737d5c7db247759
+ms.sourcegitcommit: 97206552616b248f88e516fea08b3f059257e8d1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057478"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431992"
 ---
 # <a name="retail-sales-price-management"></a>Gerenciamento de preços de vendas de varejo
 
@@ -53,7 +53,9 @@ A ilustração a seguir mostra como os grupos de preços são usados. Nesta ilus
 
 Ao criar grupos de preços, você não deverá usar um único grupo de preços para vários tipos de entidades de comércio. Caso contrário, poderá ser difícil determinar porque um preço ou desconto específico está sendo aplicado a uma transação.
 
-Como a linha tracejada vermelha na ilustração mostra, o Commerce dá suporte à funcionalidade principal do Microsoft Dynamics 365 de um grupo de preços que é definido diretamente em um cliente. Entretanto, nesse caso, você obtém apenas os contratos comerciais de preço de venda. Se quiser aplicar preços específicos do cliente, recomendamos que você não defina grupos de preços diretamente no cliente. Em vez disso, você deverá usar afiliações.
+Como a linha tracejada vermelha na ilustração mostra, o Commerce dá suporte à funcionalidade principal do Microsoft Dynamics 365 de um grupo de preços que é definido diretamente em um cliente. Entretanto, nesse caso, você obtém apenas os contratos comerciais de preço de venda. Se quiser aplicar preços específicos do cliente, recomendamos que você não defina grupos de preços diretamente no cliente. Em vez disso, você deverá usar afiliações. 
+
+Observe que, se o grupo de preços for definido no cliente, então esse grupo de preços será associado ao cabeçalho da ordem de venda das ordens criadas para esse cliente. Se o usuário alterar o grupo de preços no cabeçalho da ordem, o grupo de preços antigo será substituído pelo novo grupo de preços somente para a ordem atual. Por exemplo, o grupo de preços antigo não afetará a ordem atual, mas ainda estará associado ao cliente para ordens futuras.
 
 As seções a seguir fornecem mais informações sobre as entidades de comércio que você pode usar para definir preços distintos quando os grupos de preços forem usados. A configuração de preços e descontos para todas essas entidades é um processo de duas etapas. Essas etapas podem ser feitas em qualquer ordem. Entretanto, a ordem lógica é para definir os grupos de preços nas entidades primeiro, porque essa etapa é provavelmente uma configuração ocasional que é feita durante a implementação. Em seguida, conforme os preços e os descontos são criados, é possível definir grupos de preço nesses preços e descontos individualmente
 
@@ -226,6 +228,7 @@ O mecanismo de preços **não suporta** os seguintes recursos de preços:
 - Não há suporte para a definição de preços por meio de dimensões de armazenamento do Local e Depósito. Se você especificar somente a dimensão do Site nos contratos comerciais, a definição de preços de mecanismo ignorará o Site e aplicará o contrato comercial a todos os sites. Se você especificar o Local e o Depósito, o comportamento será indefinido/não testado porque espera-se que os varejistas usem os grupos de preços de armazenamento para controlar os preços de cada loja/depósito.
 - A definição de preços com base no atributo não é suportada.
 - A passagem de desconto do fornecedor não é suportada.
+- O mecanismo de preços de Supply Chain Management padrão oferece suporte ao cálculo de preços com base na "Data de remessa solicitada" e na "Data de recebimento solicitada", juntamente com a data atual. No entanto, os preços de varejo não oferecem suporte a esses valores no momento. O motivo é que para os cenários de B2C, os clientes não esperam a data de entrega solicitada afetar o preço do item. Em alguns casos, os varejistas têm operações B2B e B2C. Para operações B2B, é comum alterar os preços com base nas datas de entrega. Esses varejistas podem usar os preços de Supply Chain Management para seus negócios B2B e de varejo para seus negócios B2C. O preço varejo só aparecerá se o usuário do aplicativo for adicionado como um usuário do call center, de forma que os varejistas possam atribuir certos usuários que trabalharão com os preços de Supply Chain Management e atribuir outros que trabalharão com o Preço de varejo, ou seja, esses usuários deverão ser adicionados como usuários do call center. Além disso, a propriedade **Usar a data de hoje para calcular preços** na seção **Parâmetros de comércio > preços e descontos > Diversos** deve estar ativada. Dessa forma, eles podem manter o valor do parâmetro de contas a receber em uso para Data de remessa solicitada ou Data de recebimento solicitada para os preços de Supply Chain Management, mas os preços do varejo continuarão usando a data atual para o cálculo de preços.
 
 Além disso, **somente** o mecanismo de preço suporta os seguintes recursos de preços:
 

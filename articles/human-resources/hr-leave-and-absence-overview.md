@@ -3,12 +3,12 @@ title: Visão Geral
 description: Em Dynamics 365 Human Resources, o espaço de trabalho de licença e ausência fornece uma estrutura flexível para a criação de novos planos de licenças, fluxos para gerenciar solicitações e uma página de auto-atendimento intuitiva para que os funcionários solicitem licença.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/30/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2bb123b808615ff7d770c7c6b83338a32d922be3
-ms.sourcegitcommit: de217452a85429675994e9cc0e06eb4821cab3e5
+ms.openlocfilehash: ec72d2d741f7f8428a7daa97bb982e9fc00b8c3f
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3325756"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428958"
 ---
 # <a name="overview"></a>Visão Geral
 
@@ -84,10 +84,9 @@ Você pode experimentar novos recursos de licença e visualização de ausência
 
 Os recursos de visualização incluem:
 
-- **Suspensão da licença** - Você pode suspender a licença e a ausência em Human Resources para um funcionário. Suspender licença interrompe a acumulação de licenças de licença para os tipos de licença selecionados. Se a suspensão ocorrer depois de um processo de acumulação, a suspensão da licença cria um ajuste rateado para o saldo de licença do funcionário. Você também pode incluir códigos de motivo ao suspender a licença de um funcionário. A experiência do usuário foi atualizada para indicar suspensão. 
+- **Acúmulo de licenças por empresa ou plano** - você pode executar o processo de acúmulo para todas as empresas ou para uma única empresa. Você também pode executar o processo de acúmulo para um plano de licença e ausência específico para uma empresa específica. 
 
-- **Regras de postergação** - Você pode especificar um tipo de licença postergada para saldos postergados nos quais ajustes postergados são transferidos. Por exemplo, se um funcionário adianta 10 dias, você pode escolher um tipo de licença diferente para esses 10 dias. 
+- **Comprar licenças** - você pode habilitar e criar políticas de compra de licenças para que os funcionários enviem solicitações de compra. Os funcionários podem enviar solicitações de compra e fazer com que os saldos sejam automaticamente atualizados para refletir a solicitação.  
 
-- **Incluir código de motivo e comentários para ajustes** - é possível incluir um código de motivo e um comentário ao fazer um ajuste ao saldo da licença de um funcionário. 
+- **Adicionar anexos a solicitações de licença aprovadas** - você pode adicionar um anexo a uma solicitação de licença que já foi aprovada. 
 
-- **Transição para parâmetros de licença e de ausência** - é possível usar agora somente parâmetros de licença e ausência em vez de usar parâmetros de Human Resources. 

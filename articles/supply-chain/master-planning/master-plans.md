@@ -3,7 +3,7 @@ title: Visão geral de planos mestres
 description: Use diversos planos mestre para oferecer suporte a operações de produção diárias da empresa, simular diferentes estratégias de planejamento que deseja monitorar e implementar uma política corporativa, por exemplo, com relação ao desempenho interno ou à satisfação do cliente.
 author: roxanadiaconu
 manager: tfehr
-ms.date: 07/25/2019
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56c9c3f910c5c5386cdab25566b43198288eb419
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5b37347cf2d5b720ed7ac364800fb8cfe2d67ca
+ms.sourcegitcommit: ace6451fde3e4b20cbcaa6279fa1da4d7151ad1e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213529"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3409513"
 ---
 # <a name="master-plans-overview"></a>Visão geral de planos mestres
 
@@ -35,7 +35,7 @@ Use diversos planos mestre para oferecer suporte a operações de produção di�
 Você pode configurar planos mestres na página **Planos mestres**.
 
 Há dois tipos de planos:
--   **Plano estático** - o cálculo do planejamento mestre usa os dados atuais para gerar um plano de requisições líquidas. Esse plano permanece inalterado até a próxima vez que você executar o planejamento mestre. É um plano de operações que várias pessoas da empresa, como um comprador ou planejador de produção, podem usar como base de suas decisões e para a realização de tarefas e atividades diárias.
+-   **Plano estático** - o cálculo do planejamento mestre usa os dados atuais para gerar um plano de requisições líquidas. Esse plano permanecerá inalterado até a próxima vez que você executar o planejamento mestre ou alterar manualmente o plano. É um plano de operações que várias pessoas da empresa, como um comprador ou planejador de produção, podem usar como base de suas decisões e para a realização de atividades diárias.
 -   **Plano dinâmico** - este plano é iniciado com o mesmo plano de requisições líquidas gerado pelo planejamento mestre. Contudo, é possível atualizar o plano dinâmico a cada vez que os dados mestres são alterados. Isso pode ocorrer na criação de uma nova ordem de venda, por exemplo. Isso permite que você monitore a rede de ordens em alteração e a disponibilidade do item sem atrapalhar o plano estático que outros usam para seus processos de trabalho.
 
 Uma empresa pode optar por trabalhar apenas com um plano dinâmico ou usar tanto planos estáticos quanto dinâmicos. Além disso, é possível configurar qualquer plano mestre para refletir uma determinada estratégia ou abordar um problema. Os exemplos são os seguintes:

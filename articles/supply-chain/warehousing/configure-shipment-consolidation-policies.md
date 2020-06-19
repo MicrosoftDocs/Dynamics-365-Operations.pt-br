@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: v-olbara
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: e879ec53a88e5e30257608cba7604b404ac2368a
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: e11ccdf138adbf05ae1fc8ef739687b9212ae1fe
+ms.sourcegitcommit: 52ba8d3e6af72df5dab6c04b9684a61454d353ad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383712"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3403326"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Configurar políticas de consolidação de remessa
 
@@ -270,7 +270,7 @@ Neste exemplo, você criará uma política *Clientes permitem consolidação* qu
 
 - A política consultará um grupo de ordens específico para identificar clientes que aceitam remessas consolidadas.
 - A consolidação com remessas abertas está desativada.
-- A consolidação é realizada em ordens usando os campos selecionados pela política CrossOrder padrão (para replicar a caixa de seleção **Depósito** anterior).
+- A consolidação é realizada em ordens usando os campos selecionados pela política CrossOrder padrão (para replicar a caixa de seleção **Consolidar a remessa na liberação para o depósito** anterior).
 
 - Você pode substituir a regra em uma ordem de venda selecionando um grupo de ordens diferente.
 
@@ -306,7 +306,7 @@ Neste exemplo, você criará uma política *Depósitos permitem consolidação* 
 
 - A política consultará um grupo de ordens específico para identificar depósitos que podem consolidar remessas.
 - A consolidação com remessas abertas está desativada.
-- A consolidação é realizada em ordens usando os campos selecionados pela política CrossOrder padrão (para replicar a caixa de seleção **Depósito** anterior).
+- A consolidação é realizada em ordens usando os campos selecionados pela política CrossOrder padrão (para replicar a caixa de seleção **Consolidar a remessa na liberação para o depósito** anterior).
 
 Normalmente, esse caso de negócios pode ser resolvido usando as políticas padrão criadas no [cenário 1](#scenario-1). No entanto, você também pode criar manualmente políticas semelhantes seguindo essas etapas.
 

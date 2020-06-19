@@ -3,7 +3,7 @@ title: Módulo de reprodutor de vídeo
 description: Este tópico abrange os módulos de exibição e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e94658eed12b12d6666e63d2c06b86646c81a120
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 0612682d310362c7523bf08db40faf51c80ea2e3
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025634"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411150"
 ---
 # <a name="video-player-module"></a>Módulo de reprodutor de vídeo
 
@@ -47,9 +47,13 @@ O módulo player de vídeo também oferece suporte a faixas de áudio secundári
 - Vídeos promocionais ou vídeos sobre políticas em qualquer página de marketing
 - Vídeos de marketing que destacam recursos de produto em páginas de detalhes de produto ou páginas de marketing
 
+A imagem a seguir mostra um exemplo de módulo de reprodutor de vídeo em uma home page.
+
+![Exemplo de módulo de reprodutor de vídeo](./media/ecommerce-videoplayer.PNG)
+
 ### <a name="video-player-module-properties"></a>Propriedades de módulo de reprodutor de vídeo
 
-| Nome da propriedade         | Alíquota                               | Descrição |
+| Nome da propriedade         | Alíquota                               | descrição |
 |-----------------------|-------------------------------------|-------------|
 | Reprodução automática             | **Verdadeiro** ou **Falso**               | Quando o valor é definido como **Verdadeiro**, o vídeo é executado automaticamente. |
 | Ativar Mudo                  | **Verdadeiro** ou **Falso**               | Quando o valor é definido como **Verdadeiro**, o áudio fica no mudo. Para esse reprodutor, o valor padrão é **Falso**. No navegador do Chrome, vídeos reproduzidos automaticamente são mudos por padrão e o áudio é reproduzido apenas se o usuário reproduzir manualmente o vídeo. |
@@ -68,22 +72,34 @@ O módulo player de vídeo também oferece suporte a faixas de áudio secundári
 
 Para adicionar um módulo de reprodução de vídeo a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
-1. Criar um modelo da página chamado **modelo de reprodutor de vídeo**.
-1. No slot **Principal** da página padrão, adicione um módulo de contêiner.
-1. No módulo de contêiner, adicione os módulos de reprodutor de vídeo e reprodutor de vídeo ambiente.
-1. Termine de editar o modelo e publique-o.
-1. Use o modelo de player de vídeo que você criou para criar uma página chamada **página do player de vídeo**.
-1. No slot **Principal** da nova página, adicione um módulo de reprodução de vídeo.
-1. No painel de propriedades do módulo de player de vídeo, selecione **Adicionar um vídeo**.
+1. Vá para **Modelos** e selecione **Novo** para criar um novo modelo.
+1. Na caixa de diálogo **Novo Modelo**, em **Nome do modelo**, insira **Modelo de reprodutor de vídeo** e selecione **OK**.
+1. No slot **Corpo**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Página Padrão** e, depois, **OK**.
+1. No slot **Principal** do módulo **Página Padrão**, selecione as reticências (**...**) e, em seguida, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.
+1. No slot **Contêiner**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Reprodutor de vídeo** e, depois, **OK**.
+1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo. 
+1. Vá para **Páginas** e selecione **Novo** para criar uma nova página.
+1. Na caixa de diálogo **Escolher um modelo**, selecione o modelo de reprodutor de vídeo que você criou. Em **Nome da página**, insira **Página do reprodutor de vídeo** e selecione **OK**.
+1. No slot **Principal** da nova página, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.
+1. No slot **Contêiner**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Reprodutor de vídeo** e, depois, **OK**.
+1. No painel de propriedades do módulo de reprodutor de vídeo, selecione **Adicionar um vídeo**.
 1. Na caixa de diálogo **Seletor de Mídia**, selecione um vídeo e clique em **Carregar novo item de mídia**.
-1. Salve e exiba a página. Você deve ver o módulo de vídeo na página. Você pode alterar outras configurações para personalizar o comportamento do módulo.
-1. Termine de editar a página e publique-a.
+1. No explorador de arquivos, selecione um arquivo de vídeo e **Abrir**.
+1. Na caixa de diálogo **Carregar item de mídia**, insira um título e outras informações, conforme necessário, e selecione **OK**.
+1. Na caixa de diálogo **Seletor de Mídia**, selecione **Fechar**.
+1. Selecione **Salvar** e depois selecione **Visualizar** para visualizar a página. Você deve ver o módulo de vídeo na página. Você pode alterar outras configurações para personalizar o comportamento do módulo.
+1. Selecione **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo. 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral do kit de início](starter-kit-overview.md)
 
-[Módulo de faixa promocional](add-alert.md)
+[Módulo de banner de promoção](add-alert.md)
 
 [Módulo do carrossel](add-carousel.md)
 

@@ -3,7 +3,7 @@ title: Módulo de faixa promocional
 description: Este tópico abrange os módulos de faixa promocional e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,15 +18,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 12cabbf0b8d9f337f15a8cd6cb1f2a85100b75f7
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: dae824cdbaaf56f85f125c5f36aaa56171bbd6bc
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269765"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411356"
 ---
 # <a name="promo-banner-module"></a>Módulo de faixa promocional
-
 
 [!include [banner](includes/banner.md)]
 
@@ -48,9 +47,15 @@ As faixas promocionais podem ser usadas no cabeçalho do site para mostrar promo
 
 "Economize bastante com a venda na volta às aulas. Compre agora."
 
+"Comprar em VENDA de ação de graças!" 
+
+A imagem a seguir mostra um exemplo de uma faixa promocional.
+
+![Exemplo de um módulo de faixa promocional](./media/ecommerce-Promobanner.PNG)
+
 ## <a name="promo-banner-module-properties"></a>Propriedades do módulo de faixa promocional
 
-| Nome da propriedade             | Value                              | Descrição |
+| Nome da propriedade             | Alíquota                              | descrição |
 |---------------------------|------------------------------------|-------------|
 | Mensagens da faixa           | Textos e links                     | Uma matriz de texto e links. |
 | Reprodução automática                  | **Verdadeiro** ou **Falso**              | Um valor que indica se é possível percorrer automaticamente as mensagens caso várias mensagens estejam configuradas. |
@@ -64,7 +69,7 @@ As faixas promocionais podem ser usadas no cabeçalho do site para mostrar promo
 
 Para adicionar um módulo de faixa promocional a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
-1. Selecione **Novo** para criar um modelo de página.
+1. Vá para **Modelos** e selecione **Novo** para criar um novo modelo.
 1. Na caixa de diálogo **Novo Modelo**, em **Nome do Modelo**, insira **Modelo do banner da promoção** e selecione **OK**.
 1. Em **Estrutura de Tópicos de Página**, adicione um módulo **Página padrão** ao slot **Corpo**. 
 1. Selecione **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo. 
@@ -74,7 +79,7 @@ Para adicionar um módulo de faixa promocional a uma nova página e definir as p
 1. Em **Estrutura de Tópicos de Página**, adicione um módulo de faixa promocional ao módulo de contêiner.
 1. Nas configurações do módulo de faixa, adicione uma ou mais mensagens de faixa. Cada mensagem pode ter texto juntamente com um link. É possível editar as outras propriedades para personalizar ainda mais o módulo.
 1. Selecione **Salvar** e depois selecione **Visualizar** para visualizar a página. Na parte superior da página, você verá um alerta que mostra o texto que você adicionou.
-1. Selecione **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo. 
+1. Selecione **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
 
 > [!NOTE]
 > Em geral, uma faixa promocional é usada no slot do cabeçalho da página ou em um slot de subcabeçalho.

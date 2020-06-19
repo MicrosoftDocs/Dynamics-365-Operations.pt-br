@@ -3,12 +3,12 @@ title: Acumular planos de licença e ausência
 description: Você pode acumular licenças e ausências no Dynamics 365 Human Resources para vários funcionários ou para uma pessoa.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3048f9b6b52a150219067430abb54e5b5bf5c3e4
-ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
+ms.openlocfilehash: f045cb7ab9f5e7aa4259f29e1b026f110425c236
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3197304"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3429050"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Acumular planos de licença e ausência
 
@@ -103,7 +103,19 @@ Exclua os registros de acúmulo para um plano e um intervalo de datas específic
 
 2. Em **Gerenciar licença**, selecione **Excluir auditoria de acúmulo de licença**.
 
+## <a name="configure-preview-features"></a>Configure recursos de visualização
+
+[!include [banner](includes/preview-feature-leave-absence.md)]
+
+Se tiver habilitado recursos de visualização para licença e ausência, você também precisará definir configurações para eles.
+
+### <a name="accrue-leave-per-company-or-per-leave-plan"></a>Acumular a licença por empresa ou por plano de licença
+
+Ao acumular planos de licença e ausência, você pode optar por acumular para todas as empresas. Se você escolher todas as empresas, não poderá selecionar planos de licença individuais. Se você optar por não acumular para todas as empresas, poderá acumular um plano de licença específico. 
+
+Essas opções estão disponíveis ao acumular para todos os funcionários ou funcionários individuais. 
+
 ## <a name="see-also"></a>Consulte também
 
-- [Visão geral de licença e ausência](hr-leave-and-absence-overview.md)
-- [Criar um plano de licença e ausência](hr-leave-and-absence-plans.md)
+[Visão geral de licença e ausência](hr-leave-and-absence-overview.md)</br>
+[Criar um plano de licença e ausência](hr-leave-and-absence-plans.md)

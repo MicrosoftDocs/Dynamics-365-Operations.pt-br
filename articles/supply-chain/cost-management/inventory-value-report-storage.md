@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 03426e86186c6aa283531eb37ae26527e6891042
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 2742c5c12dcc554745b618dd1ff819c8c1e1d05f
+ms.sourcegitcommit: b0e4fa3fb43cf05fce4c833da73012cb01450125
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3276886"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3413090"
 ---
 # <a name="inventory-value-storage-report"></a>Relatório de armazenamento de valor de estoque
 
@@ -50,7 +50,7 @@ Siga estas etapas para gerar e armazenar um relatório de **Armazenamento de val
 1. Selecione **Novo**.
 1. Na caixa de diálogo **Valor do estoque** que aparece, defina os valores a seguir para definir quais registros serão incluídos no relatório:
 
-    - Na guia rápida **Parâmetros**, digite um nome exclusivo para o relatório e use os campos na seção  **Intervalo de datas** definir quais registros serão incluídos no relatório. Para definir o intervalo de datas, você pode selecionar um intervalo predefinido (relativo à data de geração do relatório) no campo **Código do intervalo de datas** ou selecionar datas específicas nos campos **De** e **Até**. <!-- KFM: What is the ID setting for here? What do its values mean? -->
+    - Na guia rápida **Parâmetros**, digite um nome exclusivo para o relatório e use os campos na seção  **Intervalo de datas** definir quais registros serão incluídos no relatório. Para definir o intervalo de datas, você pode selecionar um intervalo predefinido (relativo à data de geração do relatório) no campo **Código do intervalo de datas** ou selecionar datas específicas nos campos **De** e **Até**.
     - Na Guia Rápida **Registros a serem incluídos**, configure filtros e restrições para definir quais dados são incluídos no relatório.
     - Na Guia Rápida **Executar no plano de fundo**, especifique como, quando e com que frequência o relatório é gerado.
 
