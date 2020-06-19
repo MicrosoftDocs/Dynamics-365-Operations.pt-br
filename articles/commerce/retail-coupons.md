@@ -3,7 +3,7 @@ title: Configurar cupons para vendas de varejo
 description: Este tópico fornece uma visão geral de cupons e explica como defini-los.
 author: scott-tucker
 manager: AnnBe
-ms.date: 05/22/2017
+ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4c580e40ae1f0398ab9f8437d42ddcb2979558c3
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
+ms.sourcegitcommit: 97206552616b248f88e516fea08b3f059257e8d1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057362"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431969"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Configurar cupons para vendas de varejo
 
@@ -48,8 +48,10 @@ Os cupons podem ser configurados como cupons de uso limitado. O limite de uso po
 
 O limite é aplicado por código de cupom em um cupom. Por exemplo, um cupom de uso único que possui dois códigos de cupom pode ser usado duas vezes: uma vez por cada código de cupom. Cada código em um cupom pode ser definido de forma independente como ativo.
 
+Os cupons podem ser usados em qualquer canal de venda, mas, para ordens de call center, os cupons de uso limitados podem ser usados apenas para essas ordens de centros de atendimento nas quais a **configuração de conclusão da ordem** na central de chamadas está habilitada. Se isso não estiver habilitado, somente os cupons de tipo de uso não limitados poderão ser usados em ordens de call center.
+
 > [!NOTE]
-> Depois que um código de cupom atingiu seu limite de uso, o sistema *não* alterará automaticamente o status do código de cupom “Usado”. Entretanto, o sistema não permitirá o uso adicional de um código de cupom que atingiu seu limite de uso. Se o status de um código de cupom está definido manualmente como algo diferente de “Ativo”, o código de cupom não pode ser usado em nenhum canal.
+> Depois que um código de cupom tiver atingido seu limite de uso, o sistema *não* alterará automaticamente o status do código de cupom para “Usado”. No entanto, o código de cupom atingiu seu limite de uso e não poderá ser usado. Se o status de um código de cupom está definido manualmente como algo diferente de **Ativo**, o código de cupom não pode ser usado em nenhum canal.  
 
 ## <a name="managing-coupons"></a>Gerenciando cupons
 

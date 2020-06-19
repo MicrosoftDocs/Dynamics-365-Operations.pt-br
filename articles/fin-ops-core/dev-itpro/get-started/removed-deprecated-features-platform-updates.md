@@ -3,7 +3,7 @@ title: Recursos de plataforma removidos ou obsoletos
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção nas atualizações de plataforma do Finance and Operations apps.
 author: sericks007
 manager: AnnBe
-ms.date: 04/17/2020
+ms.date: 06/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: f6365d42de5d19d960641f188cb6052ef07d721f
-ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
+ms.openlocfilehash: 6fc699907d30fff2d05e752ea055cae8d1134d9b
+ms.sourcegitcommit: 3eaa71c889545318737b3bc88b05eae1a47ad2c0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3268738"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "3433913"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Recursos de plataforma removidos ou obsoletos
 
@@ -36,7 +36,39 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 > [!NOTE]
 > Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
 
+## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.12 dos aplicativos do Finance and Operations
+
+### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Extensões do formulário de controle de grade ou grupo contendo referências de campo inválidas
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | A propriedade de grupo de dados nos controles de grade ou grupo é usada para mostrar automaticamente todos os campos de um grupo de campos. Um controle de grade ou grupo adicionado por extensão pode conter campos que não estejam mais definidos no grupo de campos ou que talvez não tenham campos definidos no grupo de campos. Isso pode causar inconsistência no comportamento em tempo de execução. Agora, as atualizações de plataforma para a versão 10.0.12 dos aplicativos do Finance and Operations categorizam esse problema como um *aviso* do compilador. Para corrigir esse problema, abra a extensão do formulário e salve-a.
+| **Substituída por outro recurso?**   | Este aviso do compilador será substituído por um erro do compilador em uma atualização futura. |
+| **Áreas afetadas do produto**         | Ferramentas de desenvolvimento do Visual Studio |
+| **Opção de implantação**              | Todas |
+| **Status**                         | Um aviso do compilador foi introduzido em atualizações de plataforma para a versão 10.0.12 dos aplicativos do Finance and Operations. |
+
 ## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.11 dos aplicativos do Finance and Operations
+
+### <a name="explicit-whitelisting-for-self-service-environments"></a>Listas de permissões explícitas para ambientes de autoatendimento
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | O processo para a criação de listas de permissões de IP foi alterado. O autoatendimento não oferece mais suporte a listas de permissões de IP. |
+| **Substituída por outro recurso?**   | Para obter mais informações, consulte [Configuração do acesso condicional ao Azure Active Directory](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access).|
+| **Áreas afetadas do produto**         | Segurança |
+| **Opção de implantação**              | Nuvem |
+| **Status**                         | **Preterido:** esse recurso foi totalmente substituído por implantações de autoatendimento. |
+
+### <a name="visual-studio-2015"></a>Visual Studio2015
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Para dar suporte às versões mais recentes do Visual Studio, algumas alterações devem ser feitas nas extensões X++ para Visual Studio. Essas alterações são incompatíveis com o Visual Studio 2015. |
+| **Substituída por outro recurso?**   | O Visual Studio 2017 substituirá o Visual Studio 2015 como a versão implantada e necessária. |
+| **Áreas afetadas do produto**         | Ferramentas de desenvolvimento do Visual Studio |
+| **Opção de implantação**              | Todas |
+| **Status**                         | Depois que a disponibilidade de novas máquinas virtuais (VMs) com o Visual Studio 2017 for anunciada, as VMs existentes que tiverem somente o Visual Studio 2015 precisarão ser reimplantadas pela Onda de Versão 1 de 2021. |
 
 ### <a name="field-groups-containing-invalid-field-references"></a>Grupos de campos contendo referências de campo inválidas
 
