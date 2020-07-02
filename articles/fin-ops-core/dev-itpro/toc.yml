@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-update-35.md
                 - name: Platform updates para 10.0.10 (maio de 2020)
                   href: get-started/whats-new-platform-update-34.md
-                - name: Platform update 33 (abril de 2020)
-                  href: get-started/whats-new-platform-update-33.md
             - name: Recursos removidos ou obsoletos
               items:
                 - name: Recursos de Platform removidos ou obsoletos
@@ -150,6 +148,8 @@
                                   href: data-entities/dual-write/link-your-environment.md
                                 - name: Habilitar mapa de entidade para gravação dupla
                                   href: data-entities/dual-write/enable-entity-map.md
+                            - name: Migração do tipo de dados de moeda para gravação dupla
+                              href: data-entities/dual-write/currrency-decimal-places.md
                         - name: Gerenciando a gravação dupla
                           items:
                             - name: Personalizar mapeamentos de entidades e campos
@@ -364,6 +364,8 @@
           items:
             - name: Visão geral do Azure Data Lake
               href: data-entities/azure-data-lake-overview.md
+            - name: Configurar a exportação para o Azure Data Lake
+              href: data-entities/configure-export-data-lake.md
             - name: Aplicativos do Finance and Operations no Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
             - name: Disponibilizar repositório de entidades como um Data Lake
@@ -498,6 +500,8 @@
                       href: deployment/onprem-reverseproxy.md
                     - name: Diagnósticos locais
                       href: deployment/on-premises-diagnostics.md
+                    - name: Configuração de recuperação de desastre local
+                      href: deployment/onprem-dr.md
                     - name: Integração do PowerBI.com com ambientes locais
                       href: analytics/entity-store-on-prem.md
                     - name: Reconfigurar ambientes
@@ -652,11 +656,11 @@
                   href: dev-tools/debug-xpp.md
                 - name: Classes EventHandlerResult em cenários de solicitação ou resposta
                   href: dev-tools/event-handler-result-class.md
-                - name: 'Escrever lógica comercial usando código-fonte C# e X++'
+                - name: Escrever lógica comercial usando código-fonte C# e X++
                   href: dev-tools/write-business-logic.md
                 - name: Alterações em X++ e no compilador X++
                   href: dev-tools/programming-language-support.md
-                - name: 'Provedor LINQ para C#'
+                - name: Provedor LINQ para C#
                   href: dev-tools/linq-provider-c.md
                 - name: Escrever regras de práticas recomendadas
                   href: dev-tools/author-best-practice-rules.md
@@ -716,7 +720,7 @@
                       href: dev-ref/xpp-macros.md
                     - name: Classes de atributo da X++
                       href: dev-ref/xpp-attribute-classes.md
-                    - name: 'Comparação entre X++ e C#'
+                    - name: Comparação entre X++ e C#
                       href: dev-ref/xpp-cs-comparison.md
                     - name: Sintaxe da X++
                       href: dev-ref/xpp-syntax.md
@@ -1436,6 +1440,8 @@
                   href: sysadmin/role-based-security.md
                 - name: Arquitetura de segurança
                   href: sysadmin/security-architecture.md
+                - name: Criptografia em aplicativos do Finance and Operations
+                  href: sysadmin/encryption.md
                 - name: Definir o tempo limite de ociosidade da sessão
                   href: sysadmin/session-idle-timeout.md
                 - name: Relatórios de segurança prontos para uso

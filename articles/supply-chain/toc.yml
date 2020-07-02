@@ -589,6 +589,8 @@
                   href: cost-management/inventory-value-report-storage.md
                 - name: Armazenamento de relatório de classificação por vencimento do estoque
                   href: cost-management/inventory-aging-report-storage.md
+                - name: Exemplos de relatório de classificação por vencimento do estoque e lógica
+                  href: cost-management/inventory-aging-report.md
             - name: Contabilidade de fabricação
               items:
                 - name: Cálculos de BOM
