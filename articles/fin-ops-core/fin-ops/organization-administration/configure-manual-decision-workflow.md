@@ -3,7 +3,7 @@ title: Configurar decisões manuais em um fluxo de trabalho
 description: Este tópico explica como configurar as propriedades de uma decisão manual.
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f46b875f52d3d3e7c755ee92dcd5faddf0d94356
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 130cb50369c13bc3478340023c94f169ee5250cf
+ms.sourcegitcommit: a5009c8958037afbaa1dd4f1469255b187ced93a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176506"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3455024"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>Configurar decisões manuais em um fluxo de trabalho
 
@@ -239,26 +239,6 @@ Siga estas etapas para especificar a quem uma decisão manual deve ser atribuíd
     <li>Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</li>
     <li>A lista <strong>Usuários disponíveis</strong> inclui todos os usuários. Selecione os usuários aos quais deseja atribuir a decisão e mova-os para a lista <strong>Usuários selecionados</strong>.</li>
     </ol>
-    </td>
-    </tr>
-    <tr>
-    <td>Fila</td>
-    <td>Uma fila de itens de trabalho</td>
-    <td>
-    <ol>
-    <li>Após selecionar <strong>Fila</strong>, clique na guia <strong>Fila baseada</strong>.</li>
-    <li>Para atribuir a decisão a uma fila específica, siga estas etapas: <ol>
-    <li>Na lista <strong>Tipo de fila</strong>, selecione <strong>Fila de itens de trabalho</strong>.</li>
-    <li>Na lista <strong>Nome da fila</strong>, selecione a fila.</li>
-    </ol>
-    </li>
-    <li>Se uma condição específica tiver que determinar a qual fila atribuir a decisão, siga estas etapas: <ol>
-    <li>Na lista <strong>Tipo de fila</strong>, selecione <strong>Filas de itens de trabalho condicionais</strong>.</li>
-    <li>Na lista <strong>Nome da fila</strong>, selecione <strong>Fila condicional</strong>.</li>
-    </ol>
-    </li>
-    </ol>
-    <blockquote>[!NOTE] Esta opção é usada apenas para alguns fluxos de trabalho, como Gerenciamento de casos.</blockquote>
     </td>
     </tr>
     </tbody>

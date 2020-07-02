@@ -3,7 +3,7 @@ title: Visão geral do portal do cliente para o Dynamics 365 Supply Chain Manage
 description: Este tópico apresenta o portal do cliente e explica quem deve usá-lo e como ele funciona.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6b57365d8042c1d791ee2c50c5458a6595a58270
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 709ba18be9e2edd5d0a7f143aaed5ef94f365b91
+ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413933"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456917"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Visão geral do portal do cliente para o Dynamics 365 Supply Chain Management
 
@@ -37,6 +37,12 @@ O modelo de portal de clientes tem todos os recursos de personalização ofereci
 
 > [!NOTE]
 > A documentação do portal do cliente é voltada para administradores, personalizadores e integradores de sistemas que configurarão o portal do cliente para instalação do Supply Chain Management. Ele usa os termos _cliente_ e _usuário_ para descrever as pessoas que são clientes da organização que está executando o Supply Chain Management e quem usará o próprio portal final.
+
+## <a name="video"></a>Vídeo
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
+
+O vídeo [Visão geral do modelo do portal do Cliente no Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (exibido acima) está incluído na [Playlist do Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
 
 ## <a name="who-should-use-it"></a>Quem deve usá-lo?
 
@@ -58,6 +64,6 @@ O portal do cliente é fornecido como um modelo de portais do Power Apps. Ele de
 
 A [gravação dupla](https://docs.microsoft.com/powerapps/maker/portals/overview) é um produto de infraestrutura pronta para uso que fornece interação quase em tempo real entre aplicativos baseados em modelo no Dynamics 365 e aplicativos do Finance and Operations. A gravação dupla fornece integração bidirecional entre aplicativos do Finance and Operations e o Common Data Service. Portanto, ela fornece uma experiência de usuário integrada nos aplicativos. O portal do cliente depende das entidades sincronizadas com a gravação dupla. Para que os dados do Supply Chain Management sejam exibidos no portal do cliente, a gravação dupla deve ser habilitada para todas as entidades apropriadas.
 
-![![Dependências do portal do cliente](media/customer-portal-elements.png "Dependências do portal do cliente")](media/customer-portal-elements.png "Customer portal dependencies")
+![Dependências do portal do cliente](media/customer-portal-elements.png "Dependências do portal do cliente")
 
 O portal do cliente atua como um ponto de partida para organizações que desejam usar portais do Power Apps para criar um site externamente que use dados da instalação do Supply Chain Management. Ele ajuda as organizações a conectar gravação dupla, Supply Chain Management e portais do Power Apps.

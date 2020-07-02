@@ -3,7 +3,7 @@ title: Recursos de plataforma removidos ou obsoletos
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção nas atualizações de plataforma do Finance and Operations apps.
 author: sericks007
 manager: AnnBe
-ms.date: 06/02/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 6fc699907d30fff2d05e752ea055cae8d1134d9b
-ms.sourcegitcommit: 3eaa71c889545318737b3bc88b05eae1a47ad2c0
+ms.openlocfilehash: 1faee75c9112b3aa584ad021ffdc1144fcf4ba32
+ms.sourcegitcommit: 3485d7f36058151cb4fff5c425ef27f56e3ee7d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "3433913"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "3457557"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Recursos de plataforma removidos ou obsoletos
 
@@ -36,6 +36,22 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 > [!NOTE]
 > Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
 
+## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.13 dos aplicativos do Finance and Operations
+
+> [!NOTE]
+> A versão 10.0.13 ainda não foi lançada. Essas informações são fornecidas para fins de planejamento. O conteúdo e a funcionalidade da versão 10.0.13 estão sujeitos a alterações. Para obter informações sobre as versões, consulte [Disponibilidade de atualizações do serviço](../../fin-ops/get-started/public-preview-releases.md).
+
+
+### <a name="upgrade-of-three-jquery-component-libraries"></a>Atualização de três bibliotecas de componentes jQuery 
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Três bibliotecas de componentes jQuery estão sendo atualizadas para correções de segurança e para manter a moeda.   
+| **Substituída por outro recurso?**   | As seguintes bibliotecas estão sendo afetadas: jQuery (para a versão 3.5.0 da versão 2.1.4), IU do jQuery (para a versão 1.12.1 da versão 1.11.4), jQuery qTip (para versão 3.0.3 da 2.2.1). As diretrizes de migração foram fornecidas online pelo jQuery.  |
+| **Áreas afetadas do produto**         | Controles extensíveis, especificamente códigos JavaScript personalizados usando APIs preteridas ou removidas |
+| **Opção de implantação**              | Todas |
+| **Status**                         | Com a versão 10.0.13/Atualizaçãod e plataforma 37, os clientes podem, opcionalmente, mudar para as bibliotecas mais recentes habilitando o recurso "Atualizar três bibliotecas de componentes jQuery". A mudança para as novas bibliotecas será obrigatória na versão de abril de 2021 para permitir o tempo de migração de APIs afetadas.   |
+
 ## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.12 dos aplicativos do Finance and Operations
 
 ### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Extensões do formulário de controle de grade ou grupo contendo referências de campo inválidas
@@ -50,11 +66,11 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 ## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.11 dos aplicativos do Finance and Operations
 
-### <a name="explicit-whitelisting-for-self-service-environments"></a>Listas de permissões explícitas para ambientes de autoatendimento
+### <a name="explicit-safe-lists-for-self-service-environments"></a>Listas de confiança explícitas para ambientes de autoatendimento
 
 |   |  |
 |------------|--------------------|
-| **Motivo para a reprovação/remoção** | O processo para a criação de listas de permissões de IP foi alterado. O autoatendimento não oferece mais suporte a listas de permissões de IP. |
+| **Motivo para a reprovação/remoção** | O processo de movimentação de IP para listas de confiança foi alterado. O autoatendimento não oferece mais suporte a listas de confiança de IP. |
 | **Substituída por outro recurso?**   | Para obter mais informações, consulte [Configuração do acesso condicional ao Azure Active Directory](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access).|
 | **Áreas afetadas do produto**         | Segurança |
 | **Opção de implantação**              | Nuvem |

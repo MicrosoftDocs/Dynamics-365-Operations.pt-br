@@ -3,7 +3,7 @@ title: PEPS com marcação e valor físico
 description: Primeiro a entrar, Primeiro a sair (PEPS) é um modelo de estoque em que os primeiros recebimentos obtidos são emitidos primeiro. As saídas atualizadas financeiramente do estoque são liquidadas contra os primeiros recebimentos atualizados financeiramente no estoque, com base na data financeira da transação de estoque.
 author: AndersGirke
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e237d1e9f9bb83d0fe65556eca07c8757f920664
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: a66a1b977a4e36f9ad057683366c39a81ba1d833
+ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201746"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454617"
 ---
 # <a name="fifo-with-physical-value-and-marking"></a>PEPS com marcação e valor físico
 
@@ -49,8 +49,8 @@ Neste exemplo, o grupo de modelo de item não está marcado para incluir o valor
 -   4a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
 -   4b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
 -   5a. Saída física de estoque para uma quantidade de 1 a um preço de custo de BRL 20,00 cada (média ponderada de transações atualizadas financeiramente).
--   5b. Saída financeira de estoque para uma quantidade de 1 a um preço de custo de BRL 20,00 cada (média ponderada de transações atualizadas financeiramente).
--   6. O fechamento de estoque é executado. Com base no método PEPS, a primeira saída atualizada financeiramente será liquidada no primeiro recebimento atualizado financeiramente. Um ajuste de BRL –10,00 será feito na transação de saída.
+-   5b. Saída financeira de estoque para uma quantidade de 1 a um preço de custo de BRL 15,00 cada (média ponderada de transações atualizadas financeiramente).
+-   6. O fechamento de estoque é executado. Com base no método PEPS, a primeira saída atualizada financeiramente será liquidada no primeiro recebimento atualizado financeiramente. Um ajuste de BRL –5,00 será feito na transação de saída.
 
 O novo preço de custo médio reflete a média de transações atualizadas financeiramente. As ilustrações a seguir mostram os efeitos do modelo de estoque PEPS nesta série de transações quando a opção **Incluir valor físico** não é usada. 
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9da6fc7338942e97a1a7417dbd4dfca55fa95272
-ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
+ms.openlocfilehash: 981a66706c07bb350dd08307213f654e56b232ac
+ms.sourcegitcommit: 88f38d584c5befb96e4d1daab4b28af5519ef125
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "3410049"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "3443409"
 ---
 # <a name="overview"></a>Visão geral
 
@@ -50,6 +50,8 @@ Este Guia do Administrador ajuda você a configurar, gerenciar e solucionar prob
     - [Solucionar problemas de integração do Office](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
 
 - [Gerenciar recursos](hr-admin-manage-features.md)
+
+- [Configurar e gerenciar o log de banco de dados](hr-admin-database-logging.md)
 
 - Explorar a interface do usuário
   - [Elementos da interface do usuário](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)

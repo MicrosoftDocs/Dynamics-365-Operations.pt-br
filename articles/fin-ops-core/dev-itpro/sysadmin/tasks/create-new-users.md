@@ -3,7 +3,7 @@ title: Criar novos usuários
 description: Os usuários são funcionários internos da sua organização, ou clientes e fornecedores externos, que precisam de acesso ao sistema para realizar seus trabalhos.
 author: maertenm
 manager: AnnBe
-ms.date: 02/06/2020
+ms.date: 06/08/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9db4b6d355d6499bce6c550b2fbe76b82cf69fd4
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: d126b449074663772549b96b86acb53db971a5d4
+ms.sourcegitcommit: 7d943499f302298c6ff127f56cecc34af6cee289
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143550"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435575"
 ---
 # <a name="create-new-users"></a>Criar novos usuários
 
@@ -50,8 +50,9 @@ Os usuários externos ao locatário em que o ambiente foi implantado precisam se
 10. Selecione **Salvar**.
 
 ## <a name="import-users"></a>Importar usuários
-1. No Painel de Ação, selecione **Importar usuários**.
-2. Na lista, marque a linha selecionada.
-3. Selecione **Importar usuários**.
-4. Selecione **Fechar**.
+1. Vá para **Administração do sistema \> Usuários \> Usuários**.
+2. No Painel de Ação, selecione **Importar usuários**.
+3. Na lista, marque a linha selecionada.
+4. Selecione **Importar usuários**.
+5. Selecione **Fechar**.
 

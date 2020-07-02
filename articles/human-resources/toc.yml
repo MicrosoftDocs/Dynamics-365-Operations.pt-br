@@ -5,6 +5,8 @@
       items:
         - name: Novidades ou alterações no Human Resources
           href: hr-admin-whats-new.md
+        - name: 11 de junho de 2020
+          href: hr-whats-new-2020-06-11.md
         - name: 28 de maio de 2020
           href: hr-whats-new-2020-05-28.md
         - name: 14 de maio de 2020
@@ -23,16 +25,18 @@
           href: hr-whats-new-2020-03-10.md
         - name: 3 de março de 2020
           href: hr-whats-new-2020-03-03.md
-        - name: 25 de fevereiro de 2020
-          href: hr-whats-new-2020-02-25.md
-        - name: 18 de fevereiro de 2020
-          href: hr-whats-new-2020-02-18.md
-        - name: 12 de fevereiro de 2020
-          href: hr-whats-new-2020-02-12.md
-        - name: 7 de fevereiro de 2020
-          href: hr-whats-new-2020-02-07.md
-        - name: 3 de fevereiro de 2020
-          href: hr-whats-new-2020-02-03.md
+        - name: Arquivo morto das novidades de 2020
+          items:
+            - name: 25 de fevereiro de 2020
+              href: hr-whats-new-2020-02-25.md
+            - name: 18 de fevereiro de 2020
+              href: hr-whats-new-2020-02-18.md
+            - name: 12 de fevereiro de 2020
+              href: hr-whats-new-2020-02-12.md
+            - name: 7 de fevereiro de 2020
+              href: hr-whats-new-2020-02-07.md
+            - name: 3 de fevereiro de 2020
+              href: hr-whats-new-2020-02-03.md
     - name: Guia do administrador
       items:
         - name: Visão geral
@@ -75,6 +79,8 @@
                   href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Gerenciar recursos
           href: hr-admin-manage-features.md
+        - name: Configurar e gerenciar o log de banco de dados
+          href: hr-admin-database-logging.md
         - name: Explorar a interface do usuário
           items:
             - name: Elementos da interface do usuário

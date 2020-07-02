@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c386025843edef83d229a42d3f2314678fadae20
-ms.sourcegitcommit: beddfba095c23b3265f0004f5124c4e9dc6404cc
+ms.openlocfilehash: 37f21fffe209e17a6fe89c2661e49fc0dc8b9655
+ms.sourcegitcommit: 88f38d584c5befb96e4d1daab4b28af5519ef125
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411921"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "3443455"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-28-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources (28 de maio de 2020)
 
@@ -79,7 +79,10 @@ O recurso de log de banco de dados permite determinar a tabela e os campos que d
 
 ## <a name="buy-and-sell-leave-in-preview-june-1"></a>Licença de compra e venda (na visualização de 1º de junho)
 
-Algumas organizações fornecem um benefício que permite que os funcionários comprem ou vendam licenças. Esse processo costuma ser gerenciado manualmente. Esse recurso oferece uma forma mais automatizada de gerenciar políticas e solicitações para o departamento de RH, além de ajudar a eliminar erros e simplificar o processo de gerenciamento de licenças.
+Algumas organizações fornecem um benefício que permite que os funcionários comprem ou vendam licenças. Esse processo costuma ser gerenciado manualmente. Esse recurso oferece uma forma mais automatizada de gerenciar políticas e solicitações para o departamento de RH, além de ajudar a eliminar erros e simplificar o processo de gerenciamento de licenças. Para obter mais informações, consulte:
+
+- [Gerenciar políticas de compra e venda de licenças](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+- [Comprar e vender licenças](hr-employee-self-service-buy-sell-leave.md)
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Entidades da estrutura de gerenciamento de dados (DMF) para gerenciamento de benefícios
  

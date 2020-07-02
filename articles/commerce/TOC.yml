@@ -74,7 +74,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: Upgrade e suporte N-1
               items:
-                - name: Upgrade e suporte N-1 para o Retail
+                - name: Upgrade e suporte N-1 para o Commerce
                   href: dev-itpro/overview-upgrade-n-minus1.md
                 - name: 'Instalação, configuração e substituição de distribuição em fases (N-1)'
                   href: dev-itpro/n-1-installation-configuration.md
@@ -94,8 +94,6 @@
                       href: get-started/whats-new-commerce-10-0-11.md
                     - name: Commerce 10.0.10 (maio de 2020)
                       href: get-started/whats-new-commerce-10-0-10.md
-                    - name: Commerce 10.0.9 (abril de 2020)
-                      href: get-started/whats-new-10-0-9.md
                 - name: Recursos removidos ou obsoletos
                   items:
                     - name: Recursos removidos ou obsoletos do Finance and Operations
@@ -500,10 +498,12 @@
                       href: tasks/configure-credit-card-processing.md
                     - name: Conector de pagamento Adyen
                       href: dev-itpro/adyen-connector.md
-                    - name: Salvando meios de pagamento online com o conector Adyen
+                    - name: Salvando meios de pagamento online com o conector para Adyen
                       href: dev-itpro/adyen-connector-listPI.md
-                    - name: Autenticação de Cliente Forte (SCA) usando o conector Adyen
+                    - name: Autenticação de Cliente Forte (SCA) usando o conector para Adyen
                       href: adyen_redirect.md
+                    - name: Terminais de pagamento dedicados e solicitações para uma impressora e caixa registradora
+                      href: pos-multi-hws.md
                     - name: Alternância offline perfeita para operações de vale-presente e memorando de crédito
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: Configurar cenários de pagamentos de fatura
@@ -566,12 +566,16 @@
                       href: set-up-assortments.md
                     - name: Gerenciar sortimentos
                       href: tasks/manage-assortments-2016-11.md
-                - name: Códigos de barras
+                - name: Códigos de barra
                   items:
                     - name: Configurar códigos de barras
                       href: set-up-bar-codes.md
                     - name: Configurar máscaras de código de barras
                       href: set-up-bar-code-masks.md
+                - name: Garantias
+                  items:
+                    - name: Criar e configurar garantias estendidas
+                      href: extended-warranty.md
             - name: Preços e descontos
               items:
                 - name: Descontos
@@ -974,11 +978,11 @@
                       href: cart-icon-module.md
                     - name: Módulo de finalização da compra
                       href: add-checkout-module.md
-                    - name: Módulo de confirmação da ordem
+                    - name: Módulo de detalhes da ordem
                       href: order-confirmation-module.md
                     - name: Módulo de seletor de loja
                       href: store-selector.md
-                    - name: Módulo do vale-presente
+                    - name: Módulo de vale-presente
                       href: add-giftcard.md
                 - name: Módulos de gerenciamento de contas
                   items:
@@ -1096,7 +1100,7 @@
                   href: localizations/emea-swe-cash-registers.md
                 - name: Exemplo de integração da unidade de controle para a Suécia
                   href: localizations/emea-swe-fi-sample.md
-                - name: Exemplo para integração do Retail PDV com unidades de controle (herdado)
+                - name: Exemplo para integração do Retail POS com unidades de controle (herdado)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Relatórios e integrações do Power BI
           items:
@@ -1896,7 +1900,9 @@
                       href: e-commerce-extensibility/setup-dev-environment.md
                     - name: Configurar um arquivo de ambiente de desenvolvimento (.env)
                       href: e-commerce-extensibility/configure-env-file.md
-                    - name: Configurar o compartilhamento de código do Azure DevOps e criar um pipeline de compilação
+                    - name: Depuração em relação a um ambiente de desenvolvimento do Commerce de Camada 1
+                      href: e-commerce-extensibility/debug-tier-1.md
+                    - name: Configurar o compartilhamento de código do Azure DevOps e criar um pipeline de build
                       href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
                 - name: Visão geral da plataforma
                   items:
@@ -2028,6 +2034,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-packaging.md
                 - name: Desenvolvimento em ambientes de desenvolvimento hospedados em nuvem sem acesso de administrador
                   href: dev-itpro/cloud-dev-box.md
+                - name: Configurar o pipeline de build do SDK do Commerce
+                  href: dev-itpro/retail-sdk/SDK-build-pipeline.md
             - name: Extensibilidade de ponto de venda
               items:
                 - name: Layouts da tela de PDV
@@ -2102,7 +2110,7 @@
                   href: dev-itpro/call-crt-service-offline.md
                 - name: Criar nova extensão do Retail Server
                   href: dev-itpro/retail-server-extension.md
-                - name: 'Proxies C# e Retail Typescript'
+                - name: Proxies C# e Retail Typescript
                   href: dev-itpro/typescript-proxy-retail-pos.md
             - name: Extensibilidade do Commerce Runtime (CRT)
               items:

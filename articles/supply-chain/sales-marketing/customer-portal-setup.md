@@ -3,7 +3,7 @@ title: Instalar, configurar e atualizar o portal do cliente
 description: Este tópico oferece detalhes de licenciamento e instruções de configuração para o portal do cliente.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b9d1e742f78254d949dc49fda008d63b8bff4d65
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 0343100362c4d7bc3e09334fb7890919bdb84941
+ms.sourcegitcommit: 7d943499f302298c6ff127f56cecc34af6cee289
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413934"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435598"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Instalar, configurar e atualizar o portal do cliente
 
@@ -35,7 +35,7 @@ Para implementar o portal do cliente, você deve ter as seguintes licenças:
 
 O portal do cliente depende de portais do Power Apps e da gravação dupla, conforme mostrado na ilustração a seguir.
 
-![![Dependências do portal do cliente](media/customer-portal-elements.png "Dependências do portal do cliente")](media/customer-portal-elements.png "Customer portal dependencies")
+![Dependências do portal do cliente](media/customer-portal-elements.png "Dependências do portal do cliente")
 
 Diferente de outros recursos do Supply Chain Management, o modelo de portal do cliente reside em portais do Power Apps. Portanto, o portal do cliente é limitado pela funcionalidade e recursos fornecidos pelos portais do Power Apps e pelas entidades em gravação dupla.
 
@@ -59,7 +59,7 @@ Antes de começar, verifique se você já concluiu a [configuração necessária
 
 1. Vá para [make.powerapps.com](https://make.powerapps.com/).
 2. Verifique se você está usando o ambiente no qual ativou a gravação dupla.
-3. Na guia **Criar**, role para baixo até a seção **Iniciar do modelo** e selecione o modelo denominado **Cliente do Supply Chain Management**.
+3. Na guia **Criar**, role para baixo até a seção **Iniciar do modelo** e selecione o modelo denominado **Portal do Cliente**.
 4. Siga as instruções na tela.
 
 Após a conclusão do provisionamento, você poderá acessar o portal do cliente na seção **Seus aplicativos** da página **Inicial**.
@@ -71,7 +71,7 @@ Após a conclusão do provisionamento, você poderá acessar o portal do cliente
 
 Mais funcionalidades poderão ser adicionadas ao portal do cliente posteriormente. As alterações que a Microsoft fizer nos componentes da solução subjacente aparecerão automaticamente no seu ambiente. No entanto, o site provisionado no seu ambiente não refletirá automaticamente as alterações feitas nos dados de configuração. Será necessário aplicar manualmente essas alterações obtendo o código do novo modelo e mesclando-o com o site provisionado.
 
-## <a name="resources"></a>Recursos
+## <a name="additional-resources"></a>Recursos adicionais
 
 Para saber como você pode configurar e personalizar o portal do cliente, comece analisando a seguinte documentação para as tecnologias subjacentes:
 
