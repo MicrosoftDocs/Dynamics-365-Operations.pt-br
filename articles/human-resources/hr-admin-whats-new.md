@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: SystemAdministrationWorkspaceForm, FeatureManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f14056735b927d9b14f686f43bd9be121808ba23
-ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
+ms.openlocfilehash: 33c436c0ac65470c6237d079314222b2925cfca7
+ms.sourcegitcommit: 88f38d584c5befb96e4d1daab4b28af5519ef125
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "3379274"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "3443432"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Novidades ou alterações no Human Resources
 
@@ -41,7 +41,10 @@ Para obter mais informações sobre os recursos futuros ou o processo de atualiz
 
 Para ver o que há de novo ou alterado em cada versão quinzenal do Human Resources, consulte os seguintes artigos:
 
-[14 de maio de 2020](hr-whats-new-2020-05-14.md)</br>[1 de maio de 2020](hr-whats-new-2020-05-01.md)</br>
+[11 de junho de 2020](hr-whats-new-2020-06-11.md)</br>
+[28 de maio de 2020](hr-whats-new-2020-05-28.md)</br>
+[14 de maio de 2020](hr-whats-new-2020-05-14.md)</br>
+[1 de maio de 2020](hr-whats-new-2020-05-01.md)</br>
 [13 de abril de 2020](hr-whats-new-2020-04-13.md)</br>
 [3 de abril de 2020](hr-whats-new-2020-04-03.md)</br>
 [24 de março de 2020](hr-whats-new-2020-03-24.md)</br>

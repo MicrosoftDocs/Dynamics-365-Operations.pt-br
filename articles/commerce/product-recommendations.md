@@ -3,7 +3,7 @@ title: Visão geral de recomendações de produtos
 description: Este tópico fornece informações gerais sobre as recomendações do produto. As recomendações de produtos permitem que os clientes encontrem com facilidade e rapidez os produtos que desejam e até produtos que não pretendiam comprar originalmente.
 author: Moonma
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e61136ed296d673e14600762c6f6199093530546
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 1b01589322c26b6a7b69d1b992b03603f5f3d29a
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154217"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404339"
 ---
 # <a name="product-recommendations-overview"></a>Visão geral de recomendações de produtos
 
@@ -40,7 +40,7 @@ No comércio eletrônico, as recomendações de produtos são baseadas nas tecno
 
 O serviço de recomendações de produtos utiliza as tecnologias de inteligência artificial e de vida de máquina (AI-ML) da seguinte maneira:
 
-- Os dados no formato que o serviço de Recomendação exige é extraído do banco de dados operacional do Commerce e enviado à loja da Azure data lake storage (ADLS) ou Entidade.
+- Os dados no formato que o serviço de Recomendação exige é extraído do banco de dados operacional do Commerce e enviado ao Azure Data Lake Storage ou à loja da Entidade.
 - O serviço da recomendações usa os dados armazenados para treinar modelos da recomendação para as listas **As pessoas também gostam de**, **Frequentemente comprado junto**, **Novo**, **Mais vendidos** e **Mais populares** .
 
 ## <a name="scenarios"></a>Cenários
@@ -67,9 +67,9 @@ A tabela a seguir descreve vários tipos de recomendações de produto automatiz
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Habilitar ADLS em um ambiente do Dynamics 365 Commerce](enable-adls-environment.md)
+[Habilitar Azure Data Lake Storage em um ambiente do Dynamics 365 Commerce](enable-adls-environment.md)
 
-[Habilitar recomendações de produtos](enable-product-recommendations.md)
+[Habilitar recomendações dos produtos](enable-product-recommendations.md)
 
 [Habilitar recomendações personalizadas](personalized-recommendations.md)
 

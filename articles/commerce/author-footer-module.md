@@ -3,7 +3,7 @@ title: Módulo de rodapé
 description: Este tópico abrange os módulos de rodapés e como criá-los no Dynamics 365 Commerce.
 author: anupamar
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 51f8d26d6223dcd1f6961058cd9d772a67c69670
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 87ffc0204019f2f7122c40dc21bdb5de012929d6
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269620"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411186"
 ---
 # <a name="footer-module"></a>Módulo de rodapé  
-
 
 [!include [banner](includes/banner.md)]
 
@@ -35,6 +34,10 @@ Este tópico abrange os módulos de rodapé e descreve como criá-los no Microso
 
 O módulo de rodapé é um contêiner especial usado para armazenar os módulos que aparecem no rodapé da página. Por exemplo, pode incluir os links para várias páginas no site, como **Fale conosco** e **Armazenar políticas**.
 
+A imagem a seguir mostra um exemplo de um módulo de rodapé em uma página de site.
+
+![Exemplo de um módulo de rodapé](./media/ecommerce-footer.PNG)
+
 ## <a name="footer-module-properties"></a>Propriedades de módulo de rodapé 
 
 Como a maioria dos contêineres, o módulo de rodapé oferece suporte a propriedades para o título e a largura. Também oferece suporte a adição de diversos módulos de categoria de rodapé. Cada módulo de categoria de rodapé que é adicionado é renderizado como uma coluna no módulo de rodapé.
@@ -43,27 +46,27 @@ Como a maioria dos contêineres, o módulo de rodapé oferece suporte a propried
 
 **Itens do rodapé** – Um módulo de itens do rodapé pode conter um título, uma figura e um link. O cabeçalho pode ser usados independentemente ou em combinação com uma imagem e um link. Cada link no rodapé pode ser configurado de forma que tenha apenas texto (por exemplo, links de "Fale conosco" e "Privacidade"), de forma que possua um texto e uma imagem (por exemplo, links de mídias sociais.)
 
-**Voltar para a parte superior** – Um módulo para voltar ao módulo superior fornece um link para navegação rápida ao topo da página. Um destino é necessário. O valor de destino padrão é #, que leva o usuário ao topo da página.
+**Voltar para a parte superior** – Um módulo para voltar ao módulo superior fornece um link para navegação rápida ao topo da página. Um destino é necessário. O valor de destino padrão é \#, que leva o usuário ao topo da página.
 
-## <a name="author-a-footer-module"></a>Criar um módulo de rodapé
+## <a name="create-a-footer-module"></a>Criar um módulo de rodapé
 
-1. No painel de navegação, selecione **Fragmentos** e depois **Novo fragmento de página**.
-1. Na caixa de diálogo **Novo fragmento de página**, selecione o módulo do rodapé, insira um nome para a parte mais importante de página, e selecione **OK**.
-1. Na árvore em destaque à esquerda, selecione o botão de reticências (**…**) no módulo de rodapé, e depois selecione **Adicionar módulo**.
-1. Na caixa de diálogo **Adicionar módulo**, selecione o módulo da categoria do rodapé, e depois selecione **OK**.
-1. Na árvore em destaque, selecione o botão de reticências no módulo de categoria do rodapé, e depois selecione **Adicionar módulo**.
-1. Na caixa de diálogo **Adicionar módulo**, selecione o módulo de item do rodapé, e depois selecione **OK**.
-1. Na árvore em destaque, selecione o módulo de item do rodapé. Em seguida, no painel de propriedades à direita, configure o cabeçalho, link e vincule texto e imagem como quiser.
-1. Para adicionar mais itens de rodapé, repita as etapas 5 a 7.
-1. Para adicionar um link "voltar ao topo" em seu rodapé, selecione o botão de reticências no módulo de categoria do rodapé, e depois selecione **Adicionar módulo**.
-1. Na caixa de diálogo **Adicionar módulo**, selecione o módulo voltar ao topo, e depois selecione **OK**.
-1. Na árvore em destaque, selecione o módulo voltar ao topo. Em seguida, no painel de propriedades à direita, configure o módulo voltar ao topo conforme necessário.
-1. Selecione **Salvar**, **Concluir edição** para fazer check-in do fragmento da página e depois selecione **Publicar** para publicá-lo.
+1. Vá para **Fragmentos de Página** e selecione **Novo** para criar um novo fragmento.
+1. Na caixa de diálogo **Novo Fragmento de Página**, selecione o módulo **Contêiner**, insira um nome para o fragmento de página e selecione **OK**.
+1. No slot **Contêiner padrão**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Categoria do rodapé** e, depois, **OK**.
+1. No slot **Categoria de rodapé**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Item do rodapé** e, depois, **OK**.
+1. Selecione o slot **Item de rodapé** e, depois, no painel de propriedades à direita, configure cabeçalho, link, texto do link e imagem conforme necessário.
+1. Para adicionar mais itens de rodapé, repita as etapas 5 a 7 para cada.
+1. Para adicionar um link "voltar ao topo" ao rodapé, selecione as reticências (**...**) no slot **Categoria do rodapé** e, depois, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Voltar ao topo** e, depois, **OK**.
+1. Selecione o slot **Voltar ao tipo** e, depois, no painel de propriedades à direita, configure texto e outras propriedades do módulo, conforme necessário.
+1. Selecione **Concluir edição** para fazer check-in do fragmento e, depois, selecione **Publicar** para publicá-lo.
 
-Em cada modelo da página criada no site, siga essas etapas.
+Para ajudar a garantir que um cabeçalho aparece em cada página, siga estas etapas em cada modelo da página que é desenvolvido para o site.
 
-1. No slot **Principal** da página padrão, no módulo de rodapé, adicione a parte mais importante de rodapé que você criou.
-1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
+1. No slot **Rodapé** do módulo **Página padrão**, adicione o fragmento de rodapé que você criou.
+1. Selecione **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
 
 Ao adicionar o fragmento de página aos modelos de página, você ajuda a garantir que o rodapé está renderizado em cada página.
 

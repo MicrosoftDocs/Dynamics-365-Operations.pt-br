@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7cd3e2ac729bdb3ecc8e7bfacb060e433b185f09
-ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
+ms.openlocfilehash: d050bfa5b28219ef421dba4ed3a72f11bfd4daee
+ms.sourcegitcommit: 7816902b59aa61d9183d54b50a86e282661e3971
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2933923"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "3421646"
 ---
 # <a name="electronic-reporting-er-overview"></a>Visão geral de Relatório eletrônico (ER)
 
@@ -40,7 +40,7 @@ O ER atualmente suporta os formatos de planilha texto, XML, documento do Microso
 ## <a name="capabilities"></a>Capacidades
 O mecanismo ER tem os seguintes recursos:
 
-- Ele representa uma única ferramenta compartilhada para relatórios eletrônicos em domínios diferentes e substitui mais de 20 mecanismos diferentes que geram algum tipo de relatório eletrônico para o Finance and Operations.
+- Ele representa uma única ferramenta compartilhada para relatórios eletrônicos em domínios diferentes, e substitui mais de 20 mecanismos diferentes que fazem algum tipo de relatório eletrônico para Finance and Operations.
 - Isso torna o formato do relatório isolado da implementação atual. Em outras palavras, o formato é aplicável a várias versões.
 - Ele suporta a criação de um formato personalizado que é baseado no formato original. Ele também inclui recursos para atualizar automaticamente o formato personalizado quando o formato original é alterado devido aos requisitos de localização/personalização.
 - Ele se torna o padrão principal de suporte de requisitos de localização no relatório eletrônico para a Microsoft e parceiros da Microsoft.
@@ -81,7 +81,7 @@ Um mapeamento de modelo que oferece suporte a documentos eletrônicos de entrada
 
 Um componente do modelo de dados é criado para cada domínio corporativo que deve ser usado como fonte de dados unificada para relatórios que isole os relatórios da implementação física das fontes de dados. Ele representa conceitos e funcionalidades comerciais específicas de domínio de uma forma que torna o design inicial do formato de relatório e a manutenção adicional mais eficientes.
 
-#### <a name="FormatComponentOutbound"></a>Componentes de formato para documentos eletrônicos de saída
+#### <a name="format-components-for-outgoing-electronic-documents"></a><a name="FormatComponentOutbound"></a>Componentes de formato para documentos eletrônicos de saída
 
 Um componente de formato é o esquema de saída do relatório que será gerado em tempo de execução. Um esquema é composto dos seguintes elementos:
 
@@ -107,7 +107,7 @@ A ilustração a seguir mostra como os dados fluem para esses formatos.
 
 Para executar uma única configuração de formato ER e gerar um documento eletrônico de saída é preciso identificar o mapeamento da configuração de formato.
 
-#### <a name="FormatComponentInbound"></a>Componentes de formato para documentos eletrônicos de entrada
+#### <a name="format-components-for-incoming-electronic-documents"></a><a name="FormatComponentInbound"></a>Componentes de formato para documentos eletrônicos de entrada
 Um componente de formato é o esquema do documento de entrada que é importado em tempo de execução. Um esquema é composto dos seguintes elementos:
 
 - Um formato que define a estrutura e o conteúdo do documento eletrônico de entrada que contém dados importados em tempo de execução. Um componente de formato é usado para analisar um documento de entrada em vários formatos, como texto e XML.
@@ -144,7 +144,7 @@ O acesso aos componentes no formato ER depende da definição de códigos de pa�
 
 Versões diferentes de um componente de formato de dados podem ter diferentes configurações de códigos de país/região ISO.
 
-#### <a name="Configuration"></a>Configuração
+#### <a name="configuration"></a><a name="Configuration"></a>Configuração
 
 Uma configuração ER é o wrapper de um componente ER específico. Esse componente pode ser um componente de modelo de dados ou um componente de formato. Uma configuração pode incluir versões diferentes de um componente ER. Cada configuração é marcada como propriedade de um provedor de configuração específico. A versão **Rascunho** de um componente de uma configuração está disponível para edição quando o proprietário da configuração foi selecionado como provedor ativo nas configurações ER do aplicativo.
 
@@ -154,26 +154,26 @@ A configuração de formato criada contém um componente de formato. O component
 
 Uma configuração de ER é compartilhada para empresas do aplicativo.
 
-#### <a name="Provider"></a>Provedor
+#### <a name="provider"></a><a name="Provider"></a>Provedor
 
-O provedor de ER é a identificação de uma parte que é usada para indicar o autor (proprietário) de cada configuração de ER. ER permite que você gerencie a lista de provedores de configuração. As configurações de formato que são liberadas para documentos eletrônicos como parte da solução do Finance and Operations são marcadas como pertencentes ao fornecedor de configuração da **Microsoft**.
+O provedor de ER é a identificação de uma parte que é usada para indicar o autor (proprietário) de cada configuração de ER. ER permite que você gerencie a lista de provedores de configuração. Configurações de formato que são lançadas para documentos eletrônicos como parte da solução do Finance and Operations são marcadas como pertencentes ao fornecedor de configuração **Microsoft**.
 
 Para aprender a registrar um novo provedor de ER, execute a guia de tarefas **ER Criar um provedor de configuração e marcá-lo como ativo** (parte do processo comercial **7.5.4.3 Adquirir/Desenvolver componentes de solução/serviço de TI (10677)**).
 
-#### <a name="Repository"></a>Repositório
+#### <a name="repository"></a><a name="Repository"></a>Repositório
 
 Um repositório armazena as configurações de RE. Os tipos de repositórios de ER a seguir têm suporte no momento: 
 
 - Biblioteca compartilhada do LCS
 - Projeto do LCS
 - Sistema de arquivos
-- Serviços de configuração regulatória (RCS)
+- RCS
 - Recursos de operações
-
+- Repositório global
 
 Um repositório da **biblioteca compartilhada do LCS** fornece acesso à lista de configurações na biblioteca de ativos compartilhados no Lifecycle Services (LCS). Esse tipo repositório de ER só pode ser registrado para o provedor Microsoft. Por meio da biblioteca de ativos compartilhados do LCS, você pode importar as versões mais recentes das configurações de ER para a instância atual.
 
-Um repositório de **projeto do LCS** fornece acesso à lista de configurações de projeto do LCS (biblioteca de ativos do projeto do LCS) que foi selecionado na fase de registro do repositório. O ER permite carregar configurações compartilhadas da instância atual para um repositório específico do **Projeto do LCS**. Você também pode importar configurações do repositório de um **Projeto LCS** na instância do Finance and Operations atual.
+Um repositório de **Projeto LCS** fornece acesso à lista de configurações de um projeto LCS específico (biblioteca de ativos do projeto LCS) selecionado quando o repositório foi registrado. O ER permite carregar configurações compartilhadas da instância atual para um repositório específico do **Projeto do LCS**. Você também pode importar configurações de um repositório do **projeto LCS** na instância atual do Finance and Operations.
 
 Um repositório do **Sistema de arquivos** fornece acesso à lista de definições que estão localizadas como arquivos xml na pasta específica do sistema de arquivos local do computador onde o serviço AOS está hospedado. A pasta necessária está selecionada no estágio de registro do armazenamento. Você também pode importar configurações de um repositório do **Sistema de arquivos** na instância atual. 
 
@@ -184,9 +184,13 @@ Observe que esse tipo de repositório pode ser acessado nos seguintes ambientes:
 
 Para obter mais informações, consulte [Importar configurações do ER (Relatório eletrônico)](./electronic-reporting-import-ger-configurations.md).
 
-Um repositório de **Instância do RCS** fornece acesso à lista de configurações de uma instância RCS específica que foi selecionada na fase de registro do repositório. O ER permite que você importe configurações concluídas ou compartilhadas da instância selecionada do RCS para a instância atual para que você possa usá-las em relatórios eletrônicos.
+Um repositório **RCS** fornece acesso à lista de configurações de uma instância específica de [Serviço de configuração (RCS)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) que foi selecionada na fase de registro do repositório. O ER permite que você importe configurações concluídas ou compartilhadas da instância selecionada do RCS para a instância atual para que você possa usá-las em relatórios eletrônicos.
 
-Para obter mais informações, consulte [Importar configurações do ER (Relatório eletrônico) dos RCS (Serviços de configuração regulatória)](./rcs-download-configurations.md).
+Para obter mais informações, consulte [Importar configurações do ER (relatório eletrônico) de RCS](./rcs-download-configurations.md).
+
+Um repositório **Repositório global** permite acessar a lista de configurações no repositório global no [Serviço de configuração](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration). Esse tipo repositório de ER só pode ser registrado para o provedor Microsoft. No repositório global, você pode importar as versões mais recentes de configurações de ER para a instância atual.
+
+Para obter mais informações, consulte [Importar configurações do ER (relatório eletrônico) do repositório global do serviço de configuração](./er-download-configurations-global-repo.md).
 
 Um repositório de **Recursos de operações** dá acesso à lista de configurações que a Microsoft, como provedora de configuração de ER, libera inicialmente como parte da solução do aplicativo. Essas configurações podem ser importadas para a instância atual e usadas para relatórios eletrônicos ou para a reprodução de exemplos de guias da tarefa. Elas também podem ser usadas para localizações e personalizações adicionais. Observe que as versões mais recentes fornecidas pelas configurações de Relatórios eletrônicos da Microsoft devem ser importadas da biblioteca de ativos compartilhados do LCS usando o repositório de ER correspondente.
 

@@ -3,7 +3,7 @@ title: Personalizar a experiência do usuário
 description: Este tópico explica como você pode personalizar o aplicativo.
 author: jasongre
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 05/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0a995d25cfc5e78cc76dd73ddea2fb8bd904328
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: bb66db1e41dce6987bdfc52dd58e2b704ce36720
+ms.sourcegitcommit: dc67232c9aa3223d42f22cc1f7aafbd121e7e616
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260497"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3412345"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar a experiência do usuário
 
@@ -117,7 +117,11 @@ Estas ferramentas estão disponíveis na barra de ferramentas **Personalização
 - Use a ferramenta **Mover** para mover um elemento para um local diferente no grupo atual de elementos. Observe que não é possível mover um elemento para fora de seu grupo pai. Para usar essa ferramenta, selecione o botão **Mover** na barra de ferramentas e selecione o elemento a ser movido. Quando você seleciona um elemento, o aplicativo determina os locais para os quais o elemento pode ser movido. Esses locais são conhecidos como *zonas para soltar*. Quando você arrasta o elemento pelo grupo atual, cada zona para soltar é mostrada como uma linha colorida em negrito ao lado da área em que o elemento pode ser solto.
 - Use a ferramenta **Ignorar** para remover um elemento da sequência de guias de teclado da página. Quando você seleciona o botão **Ignorar** na barra de ferramentas, todos os elementos ignorados no momento são exibidos em um contêiner sombreado. Você pode interativamente remover ou adicionar campos à sequência de guias.
 - Use a ferramenta **Mostrar no cabeçalho** quando desejar que um campo seja exibido na seção de resumo da Guia Rápida. Quando você seleciona o botão **Mostrar no cabeçalho** na barra de ferramentas, todos os campos selecionados como campos de resumo são mostrados em um contêiner sombreado. Você pode interativamente adicionar e remover campos do resumo da Guia Rápida selecionando-os.
-- Use a ferramenta **Requer** para designar um elemento conforme necessário para a entrada de dados. Quando você seleciona o botão **Requer** na barra de ferramentas, todos os elementos personalizados como necessários são mostrados em um contêiner sombreado. Você pode torná-los desnecessários novamente. Esta opção está disponível apenas em uma versão futura quando os campos [Exibições salvas](saved-views.md) e **Designar campos como obrigatórios usando personalização** estão ativados.
+- Use a ferramenta **Requer** para designar um elemento conforme necessário para a entrada de dados. Quando você seleciona o botão **Exigir** na barra de ferramentas, todos os elementos personalizados como necessários são mostrados em um contêiner sombreado. Você pode torná-los desnecessários novamente. Esta opção está disponível apenas a partir da versão 10.0.12, quando o recurso **Designar campos como obrigatórios usando personalização** está habilitado.
+
+    > [!IMPORTANT]
+    > A versão 10.0.12 é uma versão preliminar. O conteúdo e a funcionalidade estão sujeitos a alterações. Para obter informações sobre as versões prévias, consulte [Disponibilidade das atualizações do serviço](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
 - Use a ferramenta **Bloquear** para marcar um elemento como editável ou não editável. Quando você seleciona o botão **Bloquear** na barra de ferramentas, todos os elementos não editáveis no momento são exibidos em um contêiner sombreado. Você poderá torná-los editáveis novamente. Observe que alguns campos são obrigatórios e não podem ser alterados para não editáveis. Um símbolo de cadeado aparece ao lado desses campos.
 - Use o botão **Adicionar um aplicativo do Power Apps** para inserir na página um aplicativo criado usando o Microsoft Power Apps. Para obter informações detalhadas sobre como inserir um aplicativo do Power Apps em uma página, consulte [Inserir aplicativos do Power Apps](embed-power-apps.md). Esta opção está disponível somente quando o recurso [Exibições salvas](saved-views.md) estiver desabilitado.  
 - Use o botão **Adicionar um aplicativo** para inserir um aplicativo, criado do Microsoft Power Apps ou de terceiros, na página Esta opção está disponível somente quando o recurso [Exibições salvas](saved-views.md) estiver habilitado. 
@@ -159,28 +163,21 @@ Para personalizar o painel, clique com o botão direito no bloco e selecione **P
 - Para reordenar os blocos do espaço de trabalho, na janela de propriedades, selecione **Personalizar esta página** para abrir a barra de ferramentas **Personalização**. Você poderá usar a ferramenta **Mover** para reorganizar os blocos como desejar.
 - Para adicionar um novo bloco de espaço de trabalho, na janela de propriedades, selecione **Adicionar um espaço de trabalho**. Um novo bloco do espaço de trabalho será criado na parte inferior do painel. Você poderá renomear esse novo bloco do espaço de trabalho como desejar. Você também pode adicionar listas, blocos e links ao espaço de trabalho, conforme descrito na seção [Como adicionar listas, blocos e links a espaços de trabalho](#adding-a-tile-list-or-link-to-a-workspace) deste tópico.
 
+
+## <a name="sharing-personalizations"></a>Como compartilhar personalizações
+Após personalizar uma página, você pode compartilhar as personalizações com outros usuários exportando a página personalizada. Você pode solicitar que outros usuários abram a página personalizada e importem o arquivo personalização que você criou. Outra opção é ceder suas personalizações a um usuário que possua privilégios de administrador. Esse usuário pode então aplicar seu arquivo de personalização a vários usuários ao mesmo tempo usando a página de administração **Personalização**.
+
 ## <a name="administration-of-personalizations"></a>Administração de personalizações
+A página **Personalização** é o hub central para o gerenciamento de personalizações em um nível organizacional. O conteúdo e os recursos desta página dependem de o recurso **Exibições salvas** ter sido habilitado.  
 
-Após personalizar uma página, você pode compartilhar as personalizações com outros usuários exportando a página personalizada. Você pode solicitar que outros usuários abram a página personalizada e importem o arquivo personalização que você criou. Outra opção é ceder suas personalizações a um usuário que possua privilégios de administrador. Esse usuário poderá aplicar seu arquivo de personalização a vários usuários ao mesmo tempo.
+Para os clientes que habilitaram o recurso **Exibições salvas**, consulte a seção "Como gerenciar exibições globalmente" no tópico [Exibições salvas](saved-views.md).  
 
-Os usuários com privilégios de administrador também podem gerenciar personalizações para outros usuários na página **Personalização**.
-
-Para os clientes que não ativaram o recurso [Exibições salvas](saved-views.md), essa página possui quatro guias:
+Para os clientes que ainda não habilitaram o recurso [Exibições salvas](saved-views.md), essa página tem quatro guias:
 
 - **Aplicar** – Você pode importar ou selecionar uma personalização de um ou mais usuários. Para aplicar uma personalização a um ou mais usuários, primeiro selecione uma função e os usuários que tenham essa função. Em seguida, selecione uma personalização existente para aplicar aos usuários selecionados ou importe um arquivo de personalização. A personalização será validada e aplicada a todos os usuários selecionados na próxima vez que eles abrirem a página selecionada.
 - **Limpar** – você pode limpar todas as personalizações de uma página ou espaço de trabalho para um ou mais usuários. Primeiro, selecione uma página ou espaço de trabalho para ver uma lista de usuários que personalizaram essa página ou espaço de trabalho. Em seguida, selecione os usuários que devem ter as personalizações dessa página ou espaço de trabalho desmarcadas e selecione **Limpar**. Todas as personalizações que os usuários selecionados aplicaram à página ou ao espaço de trabalho selecionado serão excluídas. Essa ação não pode ser desfeita. Entretanto, se uma personalização tiver sido salva para a página ou o espaço de trabalho, essa personalização poderá ser reimportada.
 - **Usuários** – Selecione um usuário para ver a lista de páginas que ele personalizou. Você pode habilitar ou desabilitar a capacidade de o usuário selecionado utilizar personalizações para páginas específicas ou para todo o sistema. Também é possível importar, exportar ou limpar uma personalização para o usuário. Além disso, você pode redefinir o recurso de textos explicativos para o usuário. Nesse caso, se o usuário tiver ignorado anteriormente qualquer janela pop-up que apresentava novos recursos, ela será exibida novamente na próxima vez que ele encontrar esses recursos.
 - **Sistema** – É possível desativar temporariamente as personalizações de todos os usuários no sistema. Nesse caso, todas as personalizações são excluídas para todos os usuários e todas as páginas são redefinidos para seu estado padrão. Se, mais tarde, você ativar novamente a personalização, todas as personalizações serão reaplicadas. Também é possível excluir permanentemente todas as personalizações de todos os usuários do sistema. Não é possível recuperar as personalizações que foram excluídas. Portanto, antes de executar essa tarefa, verifique se você exportou todas as personalizações de que talvez precise posteriormente.
-
-Para os clientes que ativaram o recurso [Exibições salvas](saved-views.md), a página **Personalização** possui cinco guias:
-
-- **Exibições publicadas** – Essas exibições foram publicadas para a sua organização. Para alterar os usuários para os quais são destinadas essas exibições, você pode modificar as funções de segurança ou as entidades legais associadas a cada exibição. Também pode exportar ou excluir uma ou mais exibições publicadas.
-- **Exibições não publicadas** – Essas são exibições de modelo que foram importadas para o sistema, mas ainda não foram publicadas. Você pode publicar, exportar ou excluir essas exibições.
-- **Exibições pessoais** – Essas exibições foram criadas por usuários no sistema. Você pode publicar uma exibição pessoal para a organização ou copiar uma ou mais dessas exibições para outros usuários. Você também pode exportar ou excluir essas exibições, conforme necessário.
-- **Usuários** – Selecione um usuário para ver a lista de páginas que ele personalizou. Você pode habilitar ou desabilitar a capacidade de o usuário selecionado utilizar personalizações para páginas específicas ou para todo o sistema. Também é possível importar, exportar ou limpar uma personalização para o usuário. Além disso, você pode redefinir o recurso de textos explicativos para o usuário. Nesse caso, se o usuário tiver ignorado anteriormente qualquer janela pop-up que apresentava novos recursos, ela será exibida novamente na próxima vez que ele encontrar esses recursos.
-- **Sistema** – É possível desativar temporariamente as personalizações de todos os usuários no sistema. Nesse caso, todas as personalizações são excluídas para todos os usuários e todas as páginas são redefinidos para seu estado padrão. Se, mais tarde, você ativar novamente a personalização, todas as personalizações serão reaplicadas. Também é possível excluir permanentemente todas as personalizações de todos os usuários do sistema. Não é possível recuperar as personalizações que foram excluídas. Portanto, antes de executar essa tarefa, verifique se você exportou todas as personalizações de que talvez precise posteriormente.
-
-Os usuários com acesso à página **Personalização** também podem importar exibições pessoais ou de modelo usando o botão **Importar exibições** no Painel de Ação.
 
 ## <a name="personalizing-inventory-dimensions"></a>Personalizar dimensões de estoque
 

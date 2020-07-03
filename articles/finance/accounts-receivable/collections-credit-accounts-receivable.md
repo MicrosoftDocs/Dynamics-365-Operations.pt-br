@@ -1,6 +1,6 @@
 ---
-title: Crédito e cobranças em Contas a receber
-description: As informações de cobranças de contas a receber são gerenciadas em uma exibição central usando a página Cobranças do Microsoft Dynamics 365 Finance. Os gerentes de Crédito e cobranças podem usar essa exibição central para gerenciar cobranças. Os agentes de cobranças podem iniciar o processo de cobranças a partir das listas de clientes que são geradas usando critérios de cobrança predefinidos ou da página Clientes.
+title: Cobranças em Contas a receber
+description: As informações de cobranças de contas a receber são gerenciadas em uma exibição central usando a página Cobranças do Microsoft Dynamics 365 Finance. Os gerentes de Crédito e cobranças podem usar essa exibição central para gerenciar cobranças. Os agentes de cobranças podem iniciar o processo de cobranças em listas de clientes que são geradas com o uso de critérios de cobrança predefinidos ou na página Clientes.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 471de43bc0d171e60100613a6d779a249cd9e92f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c150eb7283b34c82e728da36ed0e1e6643eff46a
+ms.sourcegitcommit: be7e4378c8122c6e7cfc4e7991efbdffee45e006
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189168"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "3426387"
 ---
-# <a name="credit-and-collections-in-accounts-receivable"></a>Crédito e cobranças em Contas a receber
+# <a name="collections-in-accounts-receivable"></a>Cobranças em Contas a receber
 
 [!include [banner](../includes/banner.md)]
 

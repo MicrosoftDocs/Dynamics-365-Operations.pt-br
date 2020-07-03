@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 14cee020cc8aead627180343c82bf23534ae83c4
-ms.sourcegitcommit: 0681a00d60c9f8cc8f7b9888b8c5ddf07279fc04
+ms.openlocfilehash: bdaabad39484cb12537bc5f94c34dcb2575a5b2f
+ms.sourcegitcommit: ef27189efc15ce79c3c31ce2e41ef8a606fc5429
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3131722"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410404"
 ---
 # <a name="set-up-a-call-center-channel"></a>Configurar um canal de call center
 
@@ -31,10 +31,10 @@ ms.locfileid: "3131722"
 
 Este tópico descreve como criar um novo canal de call center no Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 
-No Dynamics 365 Commerce, call center é um tipo de canal de varejo que pode ser definido no aplicativo. Definir um canal para as entidades de call center permite que o sistema vincule dados e padrões de processamento de ordens específicos a ordens de venda. Embora uma empresa possa definir vários canais de call center no Commerce, é importante observar que um usuário individual pode estar vinculado apenas a um canal de call center. 
+No Dynamics 365 Commerce, o call center é um tipo de canal do Commerce que pode ser definido no aplicativo. Definir um canal para as entidades de call center permite que o sistema vincule dados e padrões de processamento de ordens específicos a ordens de venda. Embora uma empresa possa definir vários canais de call center no Commerce, é importante observar que um usuário individual pode estar vinculado apenas a um canal de call center. 
 
 Antes de criar um novo canal de call center, verifique se você concluiu os [Pré-requisitos de configuração de canal](channels-prerequisites.md).
 
@@ -84,7 +84,7 @@ Para configurar métodos de pagamento, siga as etapas a seguir para cada tipo de
 
 A imagem a seguir mostra um exemplo de método de pagamento à vista.
 
-![Exemplo de métodos de pagamento](media/channel-setup-retail-5.png)
+![Exemplo de métodos de pagamento](media/channel-setup-callcenter-payments.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Configurar os modos de entrega
 

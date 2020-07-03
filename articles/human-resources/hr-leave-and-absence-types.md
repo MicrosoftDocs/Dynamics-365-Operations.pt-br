@@ -3,12 +3,12 @@ title: Configurar tipos de licença e ausência
 description: Configurar tipos de licença que os funcionários podem executar no Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: df6e34fe6a23e6f0a8307a035752a35a15a3431c
-ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
+ms.openlocfilehash: 1802938f54a1d78e6ea60572a76177a037192ae0
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3198041"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428584"
 ---
 # <a name="configure-leave-and-absence-types"></a>Configurar tipos de licença e ausência
 
@@ -56,7 +56,9 @@ Os tipos de licenças no Dynamics 365 Human Resources definem os tipos de ausên
 
 8. Em **Restringir acesso a funções selecionadas**, escolha se deseja restringir o acesso. Em seguida, selecione as funções de segurança em **Funções de segurança para este tipo de licença**. As funções de segurança são definidas no fluxo de trabalho selecionado em **ID do fluxo de trabalho**, que vimos antes neste procedimento.
 
-9. Selecione **Salvar**.
+9. Em **Relações de suspensão**, escolha se você deseja que esse tipo de licença suspenda outro tipo de licença ou seja suspenso por outro tipo de licença. Quando uma solicitação de licença for enviada para o tipo de licença de suspensão, uma suspensão de licença será automaticamente criada para o tipo de licença suspensa. 
+
+10. Selecione **Salvar**.
 
 ## <a name="configure-leave-type-rules"></a>Configurar regras de tipo de licença
 
@@ -66,16 +68,15 @@ Os tipos de licenças no Dynamics 365 Human Resources definem os tipos de ausên
 
    Você pode definir feriados no calendário de horário de trabalho. Para obter mais informações, consulte [Criar um calendário de horário de trabalho](hr-leave-and-absence-working-time-calendar.md)
    
-## <a name="configure-preview-features"></a>Configure recursos de visualização
-
-Se tiver habilitado recursos de visualização para licença e ausência, você também precisará definir configurações para eles.
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-1. Escolha o tipo de licença para os saldos postergados a serem transferidos. Você também pode criar um novo tipo de licença para postergar. 
-
+ 3. Defina **Postergar tipo de licença** para o tipo de licença. Quando você selecionar esta opção, qualquer saldo de postergação será transferido para o tipo de licença especificado. O tipo de licença de postergação também precisa ser incluído no plano de licença e ausência. 
+ 
+ 4. Defina **Regras de expiração** para o tipo de licença. Ao configurar esta opção, você pode escolher a unidade de dias ou meses e definir a duração da expiração. Você também pode definir a data de efetivação da regra de vencimento. Os saldos de licença existentes no momento da expiração serão subtraídos do tipo de licença e serão refletidos no saldo de licença. 
+ 
+ 
 ## <a name="see-also"></a>Consulte também
 
 - [Visão geral de licença e ausência](hr-leave-and-absence-overview.md)
 - [Criar um plano de licença e ausência](hr-leave-and-absence-plans.md)
 - [Criar um calendário de horas úteis](hr-leave-and-absence-working-time-calendar.md)
+- [Suspender licença](hr-leave-and-absence-suspend-leave.md)
+

@@ -1,9 +1,9 @@
 ---
 title: Visão geral do gerenciamento de recursos
 description: Este tópico descreve o recurso de gerenciamento de recursos e como você pode usá-lo.
-author: mikefalkner
+author: ChrisGarty
 manager: AnnBe
-ms.date: 09/12/2019
+ms.date: 06/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -13,17 +13,17 @@ audience: IT Pro, Application user
 ms.reviewer: sericks
 ms.search.scope: Operations, Core
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: cgarty
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: a9be51c4a5cdadd968de160dc0b1406c95382eeb
-ms.sourcegitcommit: 260a820038c29f712e8f1483cca9315b6dd3df55
+ms.openlocfilehash: 416c19dcf5b2c983afff7d2e8a9797fb0c0e2780
+ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2778696"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456588"
 ---
 # <a name="feature-management-overview"></a>Visão geral do gerenciamento de recursos
 
@@ -144,3 +144,34 @@ O gerenciamento de recursos permite que você controle os recursos que são entr
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>Usando o gerenciamento de recursos para desativar recursos de ISV ou recursos personalizados
 
 Atualmente, o gerenciamento de recursos não está disponível para recursos de fornecedores de software independentes (ISVs) e recursos personalizados. Contudo, a Microsoft está adicionando mais funcionalidades para aprimorar o gerenciamento de recursos. Após a conclusão de aprimoramentos, a Microsoft disponibilizará o gerenciamento de recursos para todos os recursos e fornecerá instruções para atualizar seus recursos para usá-lo.
+
+## <a name="frequently-asked-questions-faq"></a>Perguntas frequentes
+
+### <a name="when-are-features-added-removed-or-changed"></a>Quando os recursos são adicionados, removidos ou alterados? 
+Recursos são adicionados, removidos e alterados por meio de alterações de código. Os ambientes devem ser atualizados para receber essas alterações.
+
+### <a name="does-a-feature-become-mandatory-automatically"></a>Um recurso se torna obrigatório automaticamente? 
+Não, um recurso tornar-se obrigatório não é uma ação automática. As equipes de produto precisam fazer uma alteração no código.
+
+### <a name="when-do-features-become-mandatory"></a>Quando os recursos se tornam obrigatórios? 
+A política é que todos os novos recursos terão aceitação por um período de 12 meses e não exigirão nenhum gerenciamento de alterações até que o recurso seja habilitado. As equipes de produto podem optar por tornar um recurso obrigatório depois que esse período terminar. 
+
+### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>Por que não há uma "data de habilitação obrigatória" específica? 
+O tempo de liberação das atualizações é variável, o tempo de atualização de ambiente é variável, e os clientes podem optar por ignorar algumas atualizações. Como resultado, datas específicas são difíceis de determinar. 
+
+### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Onde está a documentação dos recursos que estão se tornando obrigatórios? 
+Essa documentação vem das equipes do aplicativo. Geralmente, elas serão mencionadas em [Recursos removidos ou substituídos](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features). 
+
+### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>Há uma notificação ou um sinal no produto de que um recurso terá a habilitação obrigatória? 
+Atualmente, não existe um mecanismo de notificação para informar que um recurso se tornará obrigatório.
+
+### <a name="do-features-ever-get-enabled-without-the-customer-knowing-about-it"></a>Os recursos podem ser habilitados sem que o cliente saiba disso? 
+Sim, se os recursos não tiverem um impacto funcional, eles poderão ser habilitados por padrão.
+
+### <a name="what-is-feature-flighting-and-how-does-it-relate-to-feature-management"></a>O que é a liberação de versões dos recursos e como ela se relaciona com o gerenciamento de recursos? 
+As liberações de versões de pré-lançamento dos recursos são botões ligar/desligar em tempo real que a Microsoft controla. Eles são separados do controle do cliente fornecido pelo Gerenciamento de Recursos. 
+- Os recursos de versão preliminar privada não serão listados no Gerenciamento de Recursos até que sejam liberadas versões de pré-lançamento. Na produção, o cliente deve concordar em fazer parte de um programa especial para que isso ocorra.
+- Os recursos em Versão Preliminar Pública e Liberados (em disponibilidade geral) serão listados no Gerenciamento de Recursos, a menos que sejam sejam disponibilizados em versão piloto. A liberação de versões de pré-lançamento de um recurso é considerada uma última opção para as equipes de produto, caso um problema crítico seja encontrado e geralmente seja uma operação por cliente.
+
+### <a name="do-features-ever-get-flighted-off-without-the-customer-knowing-about-it"></a>Os recursos podem ter liberação de versões de pré-lançamento sem que o cliente saiba disso? 
+Sim, se um recurso estiver causando impacto no funcionamento de um ambiente que não tenha um impacto funcional, eles poderão ser habilitados por padrão.

@@ -3,24 +3,24 @@ title: Habilitar a autenticação do Azure Active Directory para acesso ao PDV
 description: Este tópico explica como configurar a experiência de logon no ponto de venda (PDV) do Microsoft Dynamics 365 Commerce para que ele use a autenticação do Azure Active Directory.
 author: boycezhu
 manager: annbe
-ms.date: 03/08/2020
+ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: v-chgri
 ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycezhu
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: dfc49585434383385b6b993893d93b95ef888384
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 4f5a02348e8cef44424ae5d6a49de02d762ba245
+ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248931"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3410026"
 ---
 # <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>Habilitar a autenticação do Azure Active Directory para acesso ao PDV
 [!include [banner](includes/banner.md)]
@@ -47,6 +47,8 @@ Para aplicar as configurações aos clientes de PDV, siga as etapas a seguir.
 
 > [!NOTE]
 > A autenticação do Azure AD requer uma conexão com a Internet. Não funcionará quando o PDV estiver no modo offline.
+> 
+> No momento, a função **substituição do gerente** não oferece suporte ao Azure AD como método de autenticação. Uma ID de operador e uma senha são necessárias mesmo que o Azure AD esteja configurado como o método de autenticação para a entrada do PDV.
 
 ## <a name="associate-an-azure-ad-account-with-a-worker"></a>Associar uma conta do Azure AD a um trabalhador
 

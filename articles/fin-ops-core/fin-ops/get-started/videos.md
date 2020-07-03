@@ -3,7 +3,7 @@ title: Vídeos
 description: Essa página lista "como fazer" criados pela Microsoft e conversas tecnológicas em vídeos relacionadas a aplicativos do Finance and Operations que estão disponíveis no YouTube e em outros sites.
 author: josaw1
 manager: AnnBe
-ms.date: 05/11/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: f5e7751b71c75f80f1c3031ef00b32e80e7db42a
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: e4756e4d1697fdba40ad8a71a5d33594583a219a
+ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367120"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456940"
 ---
 # <a name="videos"></a>Vídeos 
 
@@ -123,11 +123,14 @@ No [canal do Microsoft Dynamics no YouTube](https://www.youtube.com/channel/UCJG
 - [Introdução à Contabilidade de custos](https://youtu.be/1pUDtJQZ8FU)
 - [Usar o Excel para análise de custos](https://youtu.be/-HKHYdClvx8)
 
+### <a name="customer-portal"></a>Portal do cliente
+- [Visão geral do modelo de portal do Cliente no Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8)
+
 ### <a name="help-system"></a>Sistema de ajuda
 
 - [Como colaborar com a documentação do Microsoft Dynamics 365](https://youtu.be/m5djioozRbg)
 
-### <a name="master-planning"></a>Planejamento mestre
+### <a name="master-planning"></a>Planejamento Mestre
 - [Assistente de configuração do planejamento mestre](https://youtu.be/c-e6n-8rZb4)
 
 ### <a name="office-integration"></a>Integração do Office

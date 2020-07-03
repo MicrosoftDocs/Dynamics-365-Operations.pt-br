@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: FeatureManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 423ec36a73e8af9d915c5cfe16bd4d552448e2b6
-ms.sourcegitcommit: d1541831d556b722a71aed442043ffb4a4576d87
+ms.openlocfilehash: 36684710e39c27840cc4aaa259a85579104fd8d6
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "3388107"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431121"
 ---
 # <a name="human-resources-app-in-teams"></a>Aplicativo Human Resources no Teams
 
@@ -45,6 +45,7 @@ Para obter informações sobre como gerenciar permissões de aplicativo no Teams
 
 | Problema | Status |
 | --- | --- |
+| Erro: há um problema ao encontrar um ambiente ao qual se conectar. | Você poderá receber esse erro mesmo que tenha verificado que o usuário pode acessar um ou mais ambientes de recursos humanos. Além disso, talvez você não veja todos os ambientes esperados. Até corrigir esse problema, exclua o usuário e importe-os novamente para resolver o problema. |
 | O saldo exibido ao enviar folga para uma data futura está incorreto. | A previsão ainda não está disponível. O saldo é exibido para a data atual. |
 | Ao reduzir o número de horas tiradas em uma solicitação existente, o **Saldo restante** diminui em vez de aumentar. | Abordaremos esse problema conhecido no futuro. A exibição está incorreta, mas os valores corretos são ajustados após o envio. |
 | Dois cartões de **Próxima folga** são exibidos para as mesmas datas. | Os cartões representam envios individuais. Continuaremos recebendo feedback e fazendo ajustes. |

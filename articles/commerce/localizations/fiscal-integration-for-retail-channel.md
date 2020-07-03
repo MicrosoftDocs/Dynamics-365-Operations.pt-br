@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 45677681ebae40210d6e2d896323f7e691b765e2
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: d2455f775fcf41bbcb1388b2e8053ede8512335d
+ms.sourcegitcommit: 52ba8d3e6af72df5dab6c04b9684a61454d353ad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057547"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3403206"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Visão geral da integração fiscal dos canais do Commerce
 
@@ -137,8 +137,9 @@ Os seguintes exemplos de integração fiscal estão disponíveis atualmente no S
 - [Exemplo de integração da impressora fiscal para a Itália](emea-ita-fpi-sample.md)
 - [Exemplo de integração da impressora fiscal para a Polônia](emea-pol-fpi-sample.md)
 - [Integração de serviços de registro fiscal para a Áustria](emea-aut-fi-sample.md)
-- [Integração de serviços de registro fiscal para a República Tcheca](emea-cze-fi-sample.md)
+- [Exemplo de integração de serviços de registro fiscal para a República Tcheca](emea-cze-fi-sample.md)
 - [Exemplo de integração da unidade de controle para a Suécia](./emea-swe-fi-sample.md)
+- [Exemplo de integração de serviços de registro fiscal para a Alemanha](./emea-deu-fi-sample.md)
 
 A seguinte funcionalidade de integração fiscal também está disponível no SDK do Retail, mas atualmente não aproveita a estrutura de integração fiscal. A migração dessa funcionalidade para a estrutura de integração fiscal está planejada para atualizações posteriores.
 

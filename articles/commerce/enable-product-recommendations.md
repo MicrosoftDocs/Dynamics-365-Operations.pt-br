@@ -3,7 +3,7 @@ title: Habilitar recomendações de produtos
 description: Este tópico explica como fazer recomendações de produto com base aprendizado de máquina de inteligência artificial (AI-ML) disponível para Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d38d7b0e98d84e23d7a51c5d8ee65df4a3b9e4a7
-ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
+ms.openlocfilehash: 694e5a451b8e25f3729364dfaed0adc7d242f2fe
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "3259785"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404200"
 ---
 # <a name="enable-product-recommendations"></a>Habilitar recomendações de produtos
 
@@ -34,11 +34,11 @@ Este tópico explica como fazer recomendações de produto com base aprendizado 
 
 ## <a name="recommendations-pre-check"></a>Recomendações de pré-verificação
 
-Antes de habilitar, observe que as recomendações de produto são suportadas apenas para clientes do Commerce que migraram seu armazenamento para usar o Azure Data Lake Storage (ADLS). 
+Antes de habilitar, observe que as recomendações de produto têm suporte apenas para clientes do Commerce que migraram o armazenamento para usar o Azure Data Lake Storage. 
 
 As configurações a seguir devem ser habilitadas no back office antes da habilitação das recomendações:
 
-1. Verifique se o ADLS foi comprado e verificado com êxito no ambiente. Para obter mais informações, consulte [Verificar se o ADLS foi comprado e verificado com êxito no ambiente](enable-ADLS-environment.md).
+1. Verifique se o Azure Data Lake Storage foi comprado e verificado com êxito no ambiente. Para obter mais informações, consulte [Verificar se o Azure Data Lake Storage foi comprado e verificado com êxito no ambiente](enable-ADLS-environment.md).
 2. Verifique se a atualização do armazenamento de entidade foi automatizada. Para obter mais informações, consulte [Garantir se a atualização do armazenamento de entidade foi automatizada](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 3. Confirme se a configuração da entidade Azure AD contém uma entrada para Recomendações. Veja a seguir mais informações sobre como executar essa ação.
 
@@ -90,9 +90,9 @@ Para saber mais sobre recomendações personalizadas, consulte [Habilitar recome
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral de recomendações de produtos](product-recommendations.md)
+[Visão geral das recomendações dos produtos](product-recommendations.md)
 
-[Habilitar ADLS em um ambiente do Dynamics 365 Commerce](enable-adls-environment.md)
+[Habilitar Azure Data Lake Storage em um ambiente do Dynamics 365 Commerce](enable-adls-environment.md)
 
 [Habilitar recomendações personalizadas](personalized-recommendations.md)
 

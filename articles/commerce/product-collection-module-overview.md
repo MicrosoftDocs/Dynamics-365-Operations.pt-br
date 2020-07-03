@@ -3,7 +3,7 @@ title: Módulos de coleta de produtos
 description: Este tópico fornece uma visão geral das páginas dos módulos de coleta de produtos no Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 01/07/2020
+ms.date: 06/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 069fa1cb6acad4b8d6618cebb754cbc0892ca9cf
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 698bdd22cffad26bc9126fca5649f091fbeef4dd
+ms.sourcegitcommit: 49656661c89c864e8e067259a601c3bbceb8bef4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025939"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "3464944"
 ---
 # <a name="product-collection-modules"></a>Módulos de coleta de produtos
 
@@ -72,16 +72,17 @@ A tabela a seguir descreve vários tipos de módulos de coleta de produtos no Dy
 
 Para adicionar um módulo de coleta de produtos a uma página de categoria, siga estas etapas.
 
-1. No Dynamics 365 Commerce, acesse seu site e crie uma página que usa o mesmo modelo da sua página de categoria padrão.
-1. Na estrutura de tópicos da página, selecione o slot de **Sub-rodapé**, selecione o botão de reticências (**...**) e depois **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione **Contêiner** e depois **OK**.
-1. No módulo de contêiner, selecione o botão de reticências e selecione**Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo**, selecione **Coleta do produto** e depois **OK**.  
-1. Defina as configurações selecionando uma fonte de dados e entradas apropriadas para a coleta de produtos.
+1. Vá para **Páginas** e selecione **Novo** para criar uma nova página.
+1. Na caixa de diálogo **Escolher um modelo**, selecione o mesmo modelo usado pela página de categoria padrão. Em **Nome da página**, insira um nome apropriado e selecione **OK**.
+1. No slot **Sub-rodapé**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.
+1. No slot **Contêiner**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Coleção de produtos** e, depois, **OK**.  
 1. No painel de propriedades do módulo de coleta de produtos, selecione **Adicionar uma lista de produtos**.
-1. Na caixa de diálogo **Selecionar configuração da lista de produtos** selecione o tipo de lista, insira o número de itens e qualquer outra opção disponível para o tipo de lista. Para obter mais informações sobre os tipos de listas, consulte a tabela a seguir. 
+1. Na caixa de diálogo **Selecionar configuração da lista de produtos**, selecione o tipo de lista, a origem da lista e insira o número de itens e qualquer outra opção disponível para o tipo de lista. Configure quaisquer outras opções disponíveis para o tipo de lista. Para obter mais informações sobre os tipos de listas, consulte a tabela a seguir. 
 1. Selecione **OK**.
-1. Salve a página e faça check-in.
+1. Selecione **Salvar** e depois selecione **Visualizar** para visualizar a página.
+1. Selecione **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
 
 A tabela a seguir mostra os tipos de lista disponíveis para seleção na caixa de diálogo **Selecionar configuração da lista de produtos**.
 

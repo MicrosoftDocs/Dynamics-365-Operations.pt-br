@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ''
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a4da37d45698290b40f6c72148f1500bef72127a
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 69521ec8c664a7025050c94105eca58f7f2c5c00
+ms.sourcegitcommit: 7d943499f302298c6ff127f56cecc34af6cee289
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173076"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435551"
 ---
 # <a name="integrated-tax"></a>Imposto integrado
 
@@ -38,30 +38,30 @@ Os dados de configuração de imposto definem a configuração para os impostos 
 
 Os dados de imposto incluem um conjunto de mapas de entidades que funcionam juntos durante a interação de dados, conforme mostrado na tabela a seguir.
 
-| Aplicativos Finance and Operations | Aplicativos controlados por modelos no Dynamics 365 | descrição |
--------------------------|---------------------------------
-Códigos de imposto                   | msdyn\_taxcodes.md | 
-Grupos de impostos                 | msdyn\_taxgroups.md | 
-Grupos de itens de impostos             | msdyn\_taxitemgroups.md | 
-Isenções de impostos             | msdyn\_taxexemptcodes.md | 
-Autoridades fiscais             | msdyn\_taxauthorities.md | 
-Códigos de impostos retidos na fonte       | msdyn\_withholdingtaxcodes.md | 
-Grupos de impostos retidos na fonte     | msdyn\_withholdingtaxgroups.md | 
-Grupo de contas contábeis de imposto | msdyn\_taxpostinggroups     | 
+Aplicativos Finance and Operations | Aplicativos controlados por modelos no Dynamics 365 | descrição |
+-------------------------|---------------------------------|----|
+Grupo de impostos do item | msdyn_taxitemgroups |
+Autoridades do imposto | msdyn_taxauthorities |
+CDS de entidade de código de isenção de imposto | msdyn_taxexemptcodes |
+Grupos de impostos | msdyn_taxgroups |
+Grupos de lançamentos contábeis de imposto V2 | msdyn_taxpostinggroups |
+Códigos de impostos retidos na fonte | msdyn_withholdingtaxcodes |
+Grupos de impostos retidos na fonte | msdyn_withholdingtaxgroups | 
+
 
 [!include [banner](../../includes/dual-write-symbols.md)]
 
-[!include [Tax groups](includes/TaxGroupEntity-msdyn-taxgroups.md)]
-
 [!include [Tax item groups](includes/TaxItemGroupHeadings-msdyn-taxitemgroups.md)]
+
+[!include [Tax Authorities](includes/SalesTaxAuthorities-msdyn-taxauthorities.md)]
 
 [!include [Tax Exemptions](includes/CdsTaxExemptCodes-msdyn-taxexemptcodes.md)]
 
-[!include [Tax Authorities](includes/SalesTaxAuthorities-msdyn-taxauthorities.md)]
+[!include [Tax groups](includes/TaxGroupEntity-msdyn-taxgroups.md)]
+
+[!include [Tax Ledger Account Group](includes/TaxPostingGroupsV2--msdyn-taxpostinggroups.md)]
 
 [!include [Withholding tax codes](includes/WithholdingCode-msdyn-withholdingtaxcodes.md)]
 
 [!include [Withholding tax groups](includes/WithholdingGroups-msdyn-withholdingtaxgroups.md)]
-
-[!include [Tax Ledger Account Group](includes/TaxPostingGroupsV2--msdyn-taxpostinggroups.md)]
 

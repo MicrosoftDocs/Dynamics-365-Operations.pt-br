@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55820d7376750c210d2b7f214f705ffcb222c6cd
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0513392fe066e02f0789bcfadb0ee676559cb223
+ms.sourcegitcommit: f3456df4d91cf0c51cd395ae64e3c192bd46835e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212494"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428391"
 ---
 # <a name="production-setup-requirements"></a>Requisitos da configuração da produção
 
@@ -71,7 +71,7 @@ Se você estiver trabalhando com roteiros, as operações deverão ser definidas
 2.  **Grupos de custo** - configure grupos de custos para criar e manter tipos diferentes de avaliações de custo.
 3.  **Grupos de roteiros** - configure grupos de roteiros para definir parâmetros relacionados a grupos de roteiros. Você deverá configurar grupos de roteiros antes de criar roteiros de produção.
 4.  **Roteiros** - configure roteiros de produção e defina as configurações padrão para controlar o planejamento, os custos e a definição de preços de operações de roteiro, assim como o relatório de progresso.
-5.  **Roteiros** - configure versões de roteiro para habilitar variações de item na produção.
+5.  **Versão do roteiro** - configure versões de roteiro para habilitar variações de item em produção.
 
 ## <a name="optional-advanced-settings"></a>Configurações avançadas opcionais
 1.  **Grupos de produção** - configure grupos de produção para estabelecer relações entre a ordem de produção e as contas contábeis. As contas contábeis são usadas para lançar ou para agrupar ordens para relatório.

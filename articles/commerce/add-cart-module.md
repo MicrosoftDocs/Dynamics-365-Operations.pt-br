@@ -3,7 +3,7 @@ title: Módulo de carrinho
 description: Este tópico abrange os módulos de carrinho e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/13/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d91f6ff24f8f2c051ed23565983c2bc6a2c12b55
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: 3ba46fd90507a9cf8da92598c8449a2e553da352
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261412"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411264"
 ---
 # <a name="cart-module"></a>Módulo de carrinho
 
+[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Este tópico abrange os módulos de carrinho e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
@@ -36,7 +37,11 @@ Um módulo de carrinho mostra os itens que foram adicionados ao carrinho antes d
 
 O módulo do carrinho oferece suporte a finalização de compra em conexão e a finalização de compra de convidado. Ele também oferece suporte ao link **Voltar para compra**. Você pode configurar o roteiro desse link em **Configurações de Site \> Extensões \> Roteiros**.
 
-O módulo do carrinho processa os dados com base na ID do carrinho, que é um cookie do navegador disponível em todo o site.
+O módulo do carrinho processa os dados com base na ID do carrinho, que é um cookie do navegador disponível em todo o site. 
+
+A imagem a seguir mostra um exemplo de uma página de carrinho no site da Fabrikam.
+
+![Exemplo de um módulo de carrinho](./media/cart2.PNG)
 
 ## <a name="cart-module-properties-and-slots"></a>Propriedades e slots do módulo de carrinho
 
@@ -47,14 +52,12 @@ O módulo do carrinho tem uma propriedade **Título** que pode ser definida com 
 - **Bloco de texto** – Este módulo fornece suporte a mensagens personalizadas no módulo de carrinho. As mensagens são direcionadas pelo sistema de gerenciamento de conteúdo (CMS). Qualquer mensagem pode ser adicionada, como "Caso você tenha problemas com o pedido, entre em contato com 1-800-Fabrikam".
 - **Seletor de loja** – Este módulo mostra uma lista de lojas próximas, onde um item está disponível para retirada. Ele permite que os usuários insiram um local para encontrar lojas próximas. Para obter mais informações sobre este módulo, consulte [Módulo do seletor de armazenamento](store-selector.md).
 
-
 ## <a name="module-properties"></a>Propriedades do módulo
 
-Os módulos de carrinho têm as seguintes configurações que podem ser definidas em **Configurações de Site \> Extensões**:
+As seguintes configurações de módulo de carrinho podem ser definidas em **Configurações de Site \> Extensões**:
 
 - **Quantidade máxima** – Esta propriedade é usada para especificar o número máximo de cada item que pode ser adicionado ao carrinho. Por exemplo, um varejista pode decidir que apenas 10 de cada produto podem ser vendidos em uma única transação.
-- **Verificação de estoque** – Quando o valor é definido como **Verdadeiro**, um item é adicionado ao carrinho somente após o módulo da caixa de compra garantir que ele esteja em estoque. Essa verificação de estoque é feita tanto para os cenários em que o item será enviado como para os cenários em que ele será retirado na loja. Se o valor estiver definido como **Falso**, nenhuma verificação de estoque será feita antes que um item seja adicionado ao carrinho e a ordem seja feita. Para obter informações sobre como definir as configurações de estoque no back office, consulte [Calcular a disponibilidade de estoque para canais de varejo](calculated-inventory-retail-channels.md).
-- **Buffer de estoque** – Esta propriedade é usada para especificar um número de buffer para o estoque. O estoque é mantido em tempo real e, quando muitos clientes fazem pedidos, pode ser difícil manter uma contagem precisa do estoque. Quando uma verificação de estoque é feita, se o estoque for menor que a quantidade do buffer, o produto é tratado como esgotado no estoque. Sendo assim, quando as vendas ocorrem rapidamente por meio de vários canais, e a contagem do estoque não está totalmente sincronizada, há menos risco de que um item esgotado no estoque seja vendido.
+- **Estoque** – para obter informações sobre como aplicar configurações de estoque, consulte [Aplicar configurações de estoque](inventory-settings.md).
 - **Voltar para compra** – Esta propriedade é usada para especificar o roteiro do link **Voltar para compra**. O roteiro pode ser configurado no nível do site, permitindo que os varejistas retornem o cliente para a Home Page ou qualquer outra página no site.
 
 ## <a name="commerce-scale-unit-interaction"></a>Interação do Commerce Scale Unit
@@ -65,15 +68,23 @@ O módulo de carrinho recupera informações do produto usando as APIs de Commer
 
 Para adicionar um módulo de carrinho a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
-1. Crie um fragmento chamado **Fragmento do carrinho** e adicione um módulo ao novo fragmento.
-1. Adicione um título ao módulo de carrinho.
-1. Adicione um módulo de seletor de loja ao módulo de carrinho.
-1. Salve o fragmento, termine de editá-lo e publique o fragmento.
-1. Crie um modelo chamado **Modelo de carrinho** e adicione o fragmento do carrinho que você acabou de criar.
-1. Salve o modelo, termine de editá-lo e publique o modelo.
-1. Crie uma página que use o novo modelo.
-1. Salve e exiba a página.
-1. Termine a edição da página e publique-a.
+1. Vá para **Fragmentos de Página** e selecione **Novo** para criar um novo fragmento.
+1. Na caixa de diálogo **Novo Fragmento de Página**, selecione o módulo **Carrinho**.
+1. Em **Nome do Fragmento de Página**, digite o nome **Fragmento de carrinho** e selecione **OK**.
+1. Selecione o slot **Carrinho**.
+1. No painel de propriedades à direita, selecione o símbolo de lápis, digite o texto do título no campo e, em seguida, selecione o símbolo de marca de seleção.
+1. No slot **Carrinho**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Seletor de loja** e, depois, **OK**.
+1. Selecione **Salvar**, **Concluir edição** para fazer check-in do fragmento e depois selecione **Publicar** para publicá-lo.
+1. Vá para **Modelos** e selecione **Novo** para criar um novo modelo.
+1. Na caixa de diálogo **Novo Modelo**, em **Nome do modelo**, insira um nome para o modelo.
+1. Na árvore de estrutura de tópicos, selecione o slot **Corpo**, as reticências (**...**) e, depois, **Adicionar Fragmento**.
+1. Na caixa de diálogo **Selecionar Fragmento de Página**, selecione o fragmento **Fragmento de carrinho** e **OK**.
+1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
+1. Vá para **Páginas** e selecione **Novo** para criar uma nova página.
+1. Na caixa de diálogo **Escolher um modelo**, selecione o modelo que você criou, insira um nome de página e selecione **OK**.
+1. Selecione **Salvar** e depois selecione **Visualizar** para visualizar a página.
+1. Selecione **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

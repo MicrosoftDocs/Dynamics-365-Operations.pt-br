@@ -3,7 +3,7 @@ title: Criar modelos de email para eventos transacionais
 description: Este tópico descreve como criar, carregar e configurar modelos de email para eventos transacionais no Microsoft Dynamics 365 Commerce.
 author: stuharg
 manager: annbe
-ms.date: 05/11/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 5cd928e90654cca639ed1e163be9192c0dffd9ad
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: a02839088addfa9b405af486f3b795eace1671cc
+ms.sourcegitcommit: 4db8c30c2f26af1896938dd3ece3756577374ecb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367166"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3416570"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Criar modelos de email para eventos transacionais
 
@@ -40,7 +40,7 @@ Para poder mapear um evento transacional específico para um modelo de email, vo
 
 Para criar um modelo de email, siga estas etapas.
 
-1. Em Commerce Headquarters, vá para **Varejo e Comércio \> Configuração da sede \> Modelos de email da organização**.
+1. No Commerce headquarters, vá para **Modelos de email da organização**, que está em **Retail e Commerce \> Configuração da sede \> Modelos de email da organização** ou **Administração de organização \> Configuração \> Modelos de email da organização**.
 1. Selecione **Novo**.
 1. Em **Geral**, defina os seguintes campos:
 

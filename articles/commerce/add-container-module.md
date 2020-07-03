@@ -3,7 +3,7 @@ title: Módulo de contêiner
 description: Este tópico abrange os módulos de contêiner e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 93c16da0988cc955835231bdd1f7342f19063f85
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c7d607047aab92144932b4b59db050a588d6483d
+ms.sourcegitcommit: 2683aacb426bfb3b541637edf1f8ec2d6cb5a745
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025496"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3417337"
 ---
 # <a name="container-module"></a>Módulo de contêiner
-
 
 [!include [banner](includes/banner.md)]
 
@@ -46,9 +45,13 @@ Há suporte para três módulos: contêiner, contêiner com 2 slots e contêiner
 - O autor do site deseja um layout de seis colunas, onde seis módulos apareçam lado a lado. Portanto, o autor do site usa um contêiner do tipo de contenção que possui seis colunas.
 - O autor do site deseja colocar um módulo em uma página, mas não deseja que ele preencha a tela. Sendo assim, o autor do site adiciona o módulo a um módulo de contêiner e define a propriedade **Largura** do contêiner como **Ajustar contêiner**.
 
+A imagem a seguir mostra um exemplo de um módulo contêiner que contém um módulo carrossel no assistente para criação de sites do Commerce. Neste exemplo, a propriedade **Largura** do módulo contêiner está definida como **Preencher Tela**.
+
+![Exemplo de um módulo contêiner](./media/ecommerce-container.PNG)
+
 ## <a name="container-module-properties"></a>Propriedades de módulo de contêiner
 
-| Nome da propriedade     | Valores | Descrição |
+| Nome da propriedade     | Valores | descrição |
 |-------------------|--------|-------------|
 | Cabeçalho           | Texto do cabeçalho e tag do cabeçalho (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Um cabeçalho opcional pode ser fornecido para o contêiner. Por padrão, a tag de cabeçalho **H2** é usada para o cabeçalho. No entanto, a tag pode ser alterada para atender aos requisitos de acessibilidade. |
 | Largura             | **Ajustar contêiner** ou **Preencher tela** | Se o valor estiver definido como **Ajustar contêiner** (o valor padrão), os módulos dentro do contêiner serão limitados à largura do contêiner. Se o valor estiver definido como **Preencher tela**, os módulos não estarão limitados à largura do contêiner, mas poderão preencher a tela. |
@@ -99,23 +102,32 @@ Propriedades adicionais podem ser usadas para otimizar o layout para diferentes 
 
 Para adicionar um módulo de reprodução de contêiner a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
-1. Criar um modelo da página chamado **modelo de contêiner**. 
-1. No slot **Corpo**, adicione um módulo **Página padrão**.
-1. Termine de editar o modelo e publique-o.
-1. Use o modelo de contêiner que criou para criar uma página nomeada **Página do contêiner**.
-1. No slot **Principal** da nova página, adicione um módulo de contêiner.
+1. Vá para **Modelos** e selecione **Novo** para criar um novo modelo.
+1. Na caixa de diálogo **Novo Modelo**, em **Nome do modelo**, insira **Modelo de contêiner** e selecione **OK**.
+1. No slot **Corpo**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Página Padrão** e, depois, **OK**.
+1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo. 
+1. Vá para **Páginas** e selecione **Novo** para criar uma nova página.
+1. Na caixa de diálogo **Escolher um modelo**, selecione o modelo de reprodutor de vídeo que você criou. Em **Nome da página**, insira **Página Contêiner** e selecione **OK**.
+1. No slot **Principal** da nova página, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.
 1. No painel de propriedades do módulo de contêiner, defina a propriedade **Número de colunas** como **1** e a propriedade **Largura** como **Preencher contêiner**.
-1. No módulo de contêiner, adicione um módulo de bloco de conteúdo.
+1. No slot **Contêiner**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Bloco de conteúdo** e, depois, **OK**.
 1. No painel de propriedades do módulo de bloco de conteúdo, configure o título, a imagem e o layout.
-1. Salve e exiba a página. Você deve verificar um módulo de recurso que se ajusta à largura do módulo do contêiner.
+1. Selecione **Salvar** e depois selecione **Visualizar** para visualizar a página. Você deve verificar um módulo de recurso que se ajusta à largura do módulo do contêiner.
 1. No painel de propriedades do módulo de contêiner, altere o valor da propriedade **Número de colunas** para **3**.
-1. Adicione mais dois módulos de bloco de conteúdo ao módulo de contêiner.
-1. Salve e exiba a página. Agora você deverá ver os três módulos de bloco de conteúdo que aparecem lado a lado.
-1. Depois de obter o layout desejado, termine de editar a página e publique-a.
+1. Adicione mais dois módulos de bloco de conteúdo ao módulo de contêiner e configure-os.
+1. Selecione **Salvar** e depois selecione **Visualizar** para visualizar a página. Agora você deverá ver os três módulos de bloco de conteúdo que aparecem lado a lado.
+1. Depois de obter o layout desejado, selecione **Concluir edição** para fazer check-in da página e, depois, selecione **Publicar** para publicá-la.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral do kit de início](starter-kit-overview.md)
+
+[Módulo acordeão](add-accordion.md)
+
+[Módulo de guia](add-tab.md)
 
 [Módulo do carrossel](add-carousel.md)
 

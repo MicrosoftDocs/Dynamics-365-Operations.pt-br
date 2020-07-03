@@ -3,7 +3,7 @@ title: Provisionar um ambiente de visualização do Dynamics 365 Commerce
 description: Este tópico explica como provisionar um ambiente de visualização do Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 04/10/2020
+ms.date: 06/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d54db89372a0f9ef5b267d25e14067e3243a803c
-ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
+ms.openlocfilehash: c109c2326cf01739255b49587c15aa34ad884f6a
+ms.sourcegitcommit: be7e4378c8122c6e7cfc4e7991efbdffee45e006
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "3254739"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "3426456"
 ---
 # <a name="provision-a-dynamics-365-commerce-preview-environment"></a>Provisionar um ambiente de visualização do Dynamics 365 Commerce
 
@@ -39,7 +39,7 @@ Antes de começar, recomendamos que você faça uma verificação rápida deste 
 
 ## <a name="overview"></a>Visão geral
 
-Para provisionar com êxito o seu ambiente de visualização do Commerce, você deve criar um projeto com um nome e um tipo de produto específicos. O ambiente e o commerce scale unit (CSU) também têm alguns parâmetros específicos que você deve usar ao provisionar o comércio eletrônico posteriormente. As instruções neste tópico descrevem todas as etapas necessárias para concluir o provisionamento e os parâmetros que devem ser usados.
+Para provisionar com êxito o seu ambiente de visualização do Commerce, você deve criar um projeto com um nome e um tipo de produto específicos. O ambiente e o Commerce Scale Unit (CSU) também têm alguns parâmetros específicos que você deve usar ao provisionar o comércio eletrônico posteriormente. As instruções neste tópico descrevem todas as etapas necessárias para concluir o provisionamento e os parâmetros que devem ser usados.
 
 Após o provisionamento bem-sucedido de seu ambiente de visualização do Commerce, você deve concluir algumas etapas de pós-provisionamento para prepará-lo. Algumas etapas são opcionais, dependendo dos aspectos do sistema você deseja avaliar. Você sempre poderá concluir as etapas opcionais posteriormente.
 
@@ -193,7 +193,7 @@ Para implantar o ambiente, siga estas etapas.
 
 1. Antes de continuar, verifique se o status de ambiente está **Implantado**.
 
-### <a name="initialize-the-commerce-scale-unit-csu"></a>Inicializar o commerce scale unit (CSU)
+### <a name="initialize-the-commerce-scale-unit-cloud"></a>Inicializar o Commerce Scale Unit (nuvem)
 
 Para inicializar sua CSU, siga estas etapas.
 
@@ -215,7 +215,7 @@ Para inicializar o comércio eletrônico, siga estas etapas.
 
 1. Na guia **Comércio eletrônico**, revise o consentimento da visualização e, depois, selecione **Configurar**.
 1. No campo **Nome do locatário de comércio eletrônico**, informe um nome. No entanto, observe que este nome estará visível em algumas das URLs que apontam para sua instância de comércio eletrônico.
-1. No campo **Nome de commerce scale unit**, selecione o seu CSU na lista. (A lista deve ter apenas uma opção).
+1. No campo **Nome do Commerce Scale Unit**, selecione o seu CSU na lista. (A lista deve ter apenas uma opção).
 
     O **Geografia de comércio eletrônico** é definido automaticamente, e o valor não pode ser alterado.
 
@@ -251,7 +251,7 @@ Para continuar o processo de provisionamento e configuração de seu ambiente de
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Commerce Scale Unit (nuvem)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Portal do Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 

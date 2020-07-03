@@ -3,7 +3,7 @@ title: Ajustar resultados da recomendação de produtos com base em IA-ML
 description: Este tópico explica como personalizar os resultados da recomendação do produto com base em aprendizado de máquina de inteligência artificial (AI-ML) para sua empresa.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: afd9271c680b1f4248d6e60036f3e79d204dc3c2
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 0b4228583c4a2b89d7139b51880cea0288d7fe49
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154332"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404362"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>Ajustar resultados da recomendação de produtos com base em IA-ML
 
@@ -100,11 +100,11 @@ Siga estas etapas para adicionar ou remover manualmente os resultados de um prod
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral de recomendações de produtos](product-recommendations.md)
+[Visão geral das recomendações dos produtos](product-recommendations.md)
 
-[Habilitar ADLS em um ambiente do Dynamics 365 Commerce](enable-adls-environment.md)
+[Habilitar Azure Data Lake Storage em um ambiente do Dynamics 365 Commerce](enable-adls-environment.md)
 
-[Habilitar recomendações de produtos](enable-product-recommendations.md)
+[Habilitar recomendações dos produtos](enable-product-recommendations.md)
 
 [Habilitar recomendações personalizadas](personalized-recommendations.md)
 

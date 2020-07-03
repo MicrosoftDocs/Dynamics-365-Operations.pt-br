@@ -3,7 +3,7 @@ title: Adicionar recomendações à tela de transação
 description: Este tópico descreve como adicionar um controle de recomendações à tela da transação em um dispositivo de ponto de venda (PDV) usando o designer de layout de tela no Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/20
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a39389da0908953cbbc161f07d067ce3fc569a1b
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 760e6e093dbe0ba6b2781f90af7fbb614c492b93
+ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154123"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454570"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Adicionar recomendações à tela de transação
 
@@ -98,11 +98,11 @@ Há duas opções de configurações disponíveis. Escolha a opção que funcion
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral de recomendações de produtos](product-recommendations.md)
+[Visão geral das recomendações dos produtos](product-recommendations.md)
 
-[Habilitar ADLS em um ambiente do Dynamics 365 Commerce](enable-adls-environment.md)
+[Habilitar Azure Data Lake Storage em um ambiente do Dynamics 365 Commerce](enable-adls-environment.md)
 
-[Habilitar recomendações de produtos](enable-product-recommendations.md)
+[Habilitar recomendações dos produtos](enable-product-recommendations.md)
 
 [Habilitar recomendações personalizadas](personalized-recommendations.md)
 
