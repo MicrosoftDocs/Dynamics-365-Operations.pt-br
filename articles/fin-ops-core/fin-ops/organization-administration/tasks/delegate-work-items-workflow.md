@@ -1,9 +1,9 @@
 ---
 title: Delegar itens de trabalho em um fluxo de trabalho
 description: Se você planeja se ausentar do escritório ou ficar indisponível para executar ações em itens de trabalho, poderá delegar ou reatribuir seus itens de trabalho a outros usuários.
-author: jasongre
+author: ChrisGarty
 manager: AnnBe
-ms.date: 07/01/2019
+ms.date: 06/23/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: jasongre
+ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aceafbe8dfcdac2ac7b97a4f77a9a30599c60c51
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 7d98d84b89f1f3322a9c896b74b63a3b6425b13b
+ms.sourcegitcommit: 267864eb0dccd6e26d49d280bd4ad1b770a73a77
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140573"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "3515755"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>​Delegar itens de trabalho em um fluxo de trabalho​
 
@@ -30,6 +30,16 @@ ms.locfileid: "3140573"
 ## <a name="manually-delegate-a-work-item"></a>Delegar um item de trabalho manualmente
 
 Para delegar um item de trabalho específico, selecione a opção **Delegar** no menu **Fluxo de Trabalho** e insira o usuário a ser delegado junto com um comentário. Isso atribuirá novamente o item de trabalho para que esse usuário possa concluí-lo.
+
+## <a name="manually-delegate-multiple-work-items"></a>Delegar manualmente vários itens de trabalho
+
+Vários itens de trabalho podem ser delegados em conjunto na página **Itens de trabalho atribuídos a mim**. Os seguintes tipos de fluxo de trabalho estão qualificados para delegação em massa: Fluxo de trabalho de aprovação do contrato de compra, Fluxo de trabalho da ordem de compra, Revisão da requisição de compra e Fluxo de trabalho da fatura de fornecedor. O recurso **Delegar vários itens de trabalho** é desabilitado por padrão e pode ser habilitado em **Espaços de trabalho > Gerenciamento de recursos**. Entre em contato com o administrador do sistema para obter ajuda para habilitar este recurso.
+1.  Vá para **Comum > Comum > Itens de trabalho > Itens de trabalho atribuídos a mim**.
+2.  Selecione os itens de trabalho que serão delegados.
+3.  Clique no menu **Delegar itens de trabalho**.
+4.  No campo **Usuário**, selecione o usuário ao qual delegar os itens de trabalho.
+5.  No campo **Comentário**, insira um comentário que explique o motivo de você estar delegando os itens de trabalho.
+6.  Clique no botão **Delegar itens de trabalho** para concluir a delegação.
 
 ## <a name="automatically-delegate-work-items"></a>Delegar itens de trabalho automaticamente
 
@@ -47,5 +57,5 @@ Se pretende se ausentar do escritório ou ficar indisponível para executar aç�
 6. No campo **Data/hora inicial**, insira uma data e hora.
 7. No campo **Data/hora final**, insira uma data e hora.
 8. Marque a caixa de seleção **Habilitado** para ativar a regra de delegação. Se você selecionou **Módulo** o como o Escopo, em seguida, você deve selecionar o módulo no campo Nome. Se você selecionou **Fluxo de trabalho** como o Escopo, em seguida, você deve selecionar fluxo de trabalho específico para delegar no campo Nome.  
-9. No campo **Comentário**, insira um comentário que explique o motivo pelo qual você está delegando os itens de trabalho.
+9. No campo **Comentário**, insira um comentário que explique o motivo de você estar delegando os itens de trabalho.
 

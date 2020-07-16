@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: boycezhu
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 3a84318f7156ef42f7e00f1e89228f541b1634ce
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: a037c8514d7838b3a4797f21b3ef3f6d5736e840
+ms.sourcegitcommit: f7294160d18f15cb762c24f2459b4f0887c37541
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261458"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3505625"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Configurações visuais da interface do usuário de PDV
 
@@ -101,7 +101,7 @@ Durante a inicialização, o aplicativo de PDV selecionará automaticamente o ta
 > [!TIP]
 > Você pode saber o tamanho de layout necessário para uma tela de PDV vendo a resolução no aplicativo. Inicie o PDV e acesse **Configurações \> Informações da sessão**. O PDV exibirá o layout de tela que está carregado no momento, o tamanho do layout, e a resolução da janela do aplicativo.
 
-![Tamanhos de layout do PDV](../commerce/media/POS-Session-Information.png)
+![Página de informações da sessão de PDV mostrando o layout de tela, o tamanho de layout e a resolução da janela do aplicativo carregados no momento](../commerce/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a>Grades de botões
 

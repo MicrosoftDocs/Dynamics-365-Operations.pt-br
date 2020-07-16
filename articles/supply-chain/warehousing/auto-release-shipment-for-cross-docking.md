@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: d11db378be6b2ba845de0ac0a2252092a50bc96a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 2d8d6e67040f19cac99f8e0164296ef49768496e
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201470"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530227"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Remessa da versão automática para a distribuição integrada
 
@@ -125,7 +125,7 @@ Para a distribuição integrada, assim como para o armazenamento normal de bens 
 2. No campo **Tipo de ordem de serviço**, selecione **Distribuição integrada**.
 3. Selecione **Novo**.
 4. No campo **Número de sequência**, insira **1**.
-5. No campo **Nome** , insira um nome, como **Baydoor**.
+5. No campo **Nome** , insira um nome, como **Porta da baía**.
 6. No campo **Tipo de trabalho**, selecione **Colocar**.
 7. No campo **Local**, selecione **5**.
 8. No campo **Depósito**, selecione **51**.
@@ -133,7 +133,7 @@ Para a distribuição integrada, assim como para o armazenamento normal de bens 
 10. No campo **Quantidade final**, insira a quantidade máxima do intervalo, como **1000000**.
 11. Selecione **Salvar**.
 12. Na Guia Rápida **Ações de Diretivas de Localização**, selecione **Novo**.
-13. No campo **Nome** , insira um nome, como **Baydoor**.
+13. No campo **Nome** , insira um nome, como **Porta da baía**.
 14. Selecione **Salvar**.
 15. Você pode usar o recurso de consulta padrão para limitar locais de colocação a um ou mais locais específicos. Selecione **Editar consulta** e selecione **51** como critério para o campo **Depósito** na tabela **Locais**.
 
@@ -164,7 +164,7 @@ Para fazer a distribuição cruzada da quantidade de bens acabados para o local 
 8. Na página **Ordem de produção**, no Painel de Ação, na guia **Ordem de produção**, no grupo **Processar**, selecione **Previsão** e selecione **OK**. A ordem é estimada e a quantidade de matéria-prima é reservada para a produção.
 9. No Painel de Ação, na guia **Ordem de produção**, no grupo **Processar**, selecione **Liberar** e selecione **OK**. O trabalho de separação de depósito é criado para as matérias-primas.
 10. Abra e revise o trabalho. No Painel de Ação, na guia **Depósito**, no grupo **Geral**, selecione **Detalhes do trabalho**. Anote a ID do trabalho.
-11. Abra e conecte-se ao aplicativo Dynamics 365 for Finance and Operations – Warehousing para executar o trabalho no depósito 51.
+11. Entre no aplicativo de depósito para executar o trabalho no depósito 51.
 12. Vá para **Produção** \> **Separação da produção**.
 13. Insira a ID do trabalho para iniciar e concluir a separação de matéria-prima. 
 

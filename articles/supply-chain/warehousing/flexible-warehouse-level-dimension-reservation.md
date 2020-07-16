@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 6c462a87494c434a6047542d448a85b3bce9f769
-ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
+ms.openlocfilehash: ec80346126713cc604b00e6ca7f6e8f4c242dc6f
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "3346459"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530296"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Política de reserva de dimensão no nível de depósito flexível
 
@@ -118,7 +118,7 @@ Para este exemplo, os dados de demonstração devem ser instalados, e você deve
 
     | Depósito | Nº do lote | Local | Placa de licença | Quantidade |
     |-----------|--------------|----------|---------------|----------|
-    | 24        | B11          | BULK-001 | Nenhuma          | 10       |
+    | 24        | B11          | MASSA-001 | Nenhuma          | 10       |
     | 24        | B11          | FL-001   | LP11          | 10       |
     | 24        | B22          | FL-002   | LP22          | 10       |
 
@@ -139,7 +139,7 @@ Para este exemplo, os dados de demonstração devem ser instalados, e você deve
 
     Em geral, essa página funciona e interage da mesma maneira que funciona e interage para itens que têm uma hierarquia de reservas associada do tipo "Acima do lote\[local\]". No entanto, as seguintes exceções se aplicam:
 
-    - A FastTab **Números de lote confirmados para linha de origem** mostra os números de lote que são reservados para a linha da ordem. Os valores de lote na grade serão mostrados durante todo o ciclo de atendimento da linha da ordem, incluindo as fases de processamento do depósito. Em contrapartida, na FastTab **Visão Geral**, a reserva regular da linha da ordem (isto é, a reserva que é feita para as dimensões acima do nível **Local**) é mostrada na grade até o ponto em que o trabalho de depósito é criado. A entidade de trabalho assume a reserva de linha, e a reserva de linha não aparece mais na página. A FastTab **Números de lote confirmados para linha de origem** ajuda a garantir que o processador de ordem de venda possa ver os números de lotes que foram confirmados na ordem do cliente em qualquer ponto do seu ciclo de vida, até o faturamento.
+    - A FastTab **Números de lote confirmados para linha de origem** mostra os números de lote que são reservados para a linha da ordem. Os valores de lote na grade serão mostrados durante todo o ciclo de atendimento da linha da ordem, inclusive nos estágios de processamento do depósito. Em contrapartida, na FastTab **Visão Geral**, a reserva regular da linha da ordem (isto é, a reserva que é feita para as dimensões acima do nível **Local**) é mostrada na grade até o ponto em que o trabalho de depósito é criado. A entidade de trabalho assume a reserva de linha, e a reserva de linha não aparece mais na página. A FastTab **Números de lote confirmados para linha de origem** ajuda a garantir que o processador de ordem de venda possa ver os números de lotes que foram confirmados na ordem do cliente em qualquer ponto do seu ciclo de vida, até o faturamento.
     - Além de reservar um lote específico, um usuário pode selecionar manualmente o local específico e a placa de licença do lote em vez de permitir que o sistema os selecione automaticamente. Esse recurso está relacionado ao design do mecanismo de reserva de lotes confirmados na ordem. Como foi mencionado anteriormente, quando um número de lote é reservado para um item de acordo com a política de reserva "Abaixo do lote\[local\]", o sistema deve reservar todas as dimensões até local. Portanto, o trabalho de depósito carregará as mesmas dimensões de armazenamento que foram reservadas pelos usuários que trabalharam com as ordens, e isso nem sempre representará o posicionamento de armazenamento do item que é conveniente, ou mesmo possível, para as operações de separação. Se os processadores de ordem estiverem cientes das restrições do depósito, talvez eles queiram selecionar manualmente os locais específicos e as placas de licença quando reservarem um lote. Nesse caso, o usuário deve usar a funcionalidade **Exibir dimensões** no cabeçalho da página, bem como deve adicionar o local e a placa de licença na grade, na FastTab **Visão Geral**.
 
 6. Na página **Reserva de lotes**, selecione a linha para o lote **B11** e, em seguida, selecione **Reservar linha**. Não há lógica designada para atribuir locais e placas de licença durante a reserva automática. Você pode inserir manualmente a quantidade no campo **Reserva**. Observe que, na FastTab **Números de lote confirmados para linha de origem**, o lote **B11** é mostrado como **Confirmado**.
@@ -158,7 +158,7 @@ Para este exemplo, os dados de demonstração devem ser instalados, e você deve
 8. Revise as transações de estoque do item relacionadas à reserva da linha da ordem de venda.
 
     - Uma transação em que o campo **Referência** é definido como **Ordem de venda** e o campo **Saída** é definido como **Qtd. reservada** representa a reserva da linha da ordem para as dimensões de estoque acima do nível **Local**. De acordo com a hierarquia de reservas de estoque do item, essas dimensões são site, depósito e status do estoque.
-    - Uma transação em que o campo **Referência** é definido como **Reserva confirmada na ordem** e o campo **Saída** é definido como **Qtd. reservada** representa a reserva da linha da ordem para o lote específico e todas as dimensões de estoque acima dele. De acordo com a hierarquia de reservas de estoque do item, essas dimensões são número do lote e local. Neste exemplo, o local é **Bulk-001**.
+    - Uma transação em que o campo **Referência** é definido como **Reserva confirmada na ordem** e o campo **Saída** é definido como **Qtd. reservada** representa a reserva da linha da ordem para o lote específico e todas as dimensões de estoque acima dele. De acordo com a hierarquia de reservas de estoque do item, essas dimensões são número do lote e local. Neste exemplo, o local é **Massa-001**.
 
 9. No cabeçalho da ordem de venda, selecione **Depósito** \> **Ações** \> **Liberar para o depósito**. A linha da ordem agora é ondulada, e são criados uma carga e um trabalho.
 
@@ -184,9 +184,9 @@ Para este exemplo, os dados de demonstração devem ser instalados, e você deve
 
 2. No dispositivo móvel, termine a separação e a colocação do trabalho.
 
-    A quantidade de **10** para o número de lote **B11** agora está separada para a linha da ordem de venda e foi posicionada no local **Baydoor**. Neste ponto, ele está pronto para ser carregado no caminhão e enviado para o endereço do cliente.
+    A quantidade de **10** para o número de lote **B11** agora está separada para a linha da ordem de venda e foi posicionada no local **Porta da baía**. Neste ponto, ele está pronto para ser carregado no caminhão e enviado para o endereço do cliente.
 
-## <a name="exception-handling-of-warehouse-work-thas-has-order-committed-batch-numbers"></a>Tratamento de exceção do trabalho de depósito que tem números de lote confirmados na ordem
+## <a name="exception-handling-of-warehouse-work-that-has-order-committed-batch-numbers"></a>Tratamento de exceção do trabalho de depósito que tem números de lote confirmados na ordem
 
 O trabalho de depósito para separação de números de lote confirmados na ordem está sujeito ao mesmo tratamento de exceção de depósito e às mesmas ações que o trabalho regular. De modo geral, o trabalho em aberto ou linha do trabalho pode ser cancelado, pode ser interrompido porque o local de um usuário está cheio, a quantidade separada é insuficiente e pode ser atualizado devido a uma movimentação. Da mesma forma, a quantidade separada de trabalho que já foi concluída pode ser reduzida, ou o trabalho pode ser revertido.
 
@@ -207,7 +207,7 @@ Um exemplo desse cenário é uma situação em que o trabalho concluído anterio
 Veja a seguir os resultados da ação de desfazer a separação:
 
 - O status do trabalho anteriormente fechado é definido como **Cancelado**.
-- O novo trabalho do tipo **Movimento do estoque** é criado para a quantidade não separada de **10** para o número de lote **B11**. Esse trabalho representa o movimento do local **Baydoor** para a placa de licença **LP33** no local **FL-001**. O status é definido como **Fechado**.
+- O novo trabalho do tipo **Movimento do estoque** é criado para a quantidade não separada de **10** para o número de lote **B11**. Esse trabalho representa o movimento do local **Porta da baía** para a placa de licença **LP33** no local **FL-001**. O status é definido como **Fechado**.
 - O sistema reserva novamente o número do lote que foi originalmente pedido e atribui as IDs de local e placa de licença. (Esse processo equivale a executar a função **Reservar linha** para a linha de ordem de um determinado número de lote.) Consequentemente, o lote **B11** é mostrado como confirmado na FastTab **Números de lote confirmados para linha de origem** da página **Reserva de lote**, e o campo **Reserva** contém uma quantidade de **10** para o número de lote **B11**. Além disso, o campo **Local** é definido como **FL-001** e o campo **Placa de licença** é definido como **LP11**. (Você pode adicionar esses campos à grade se eles não estiverem visíveis.)
 
 As tabelas a seguir fornecem uma visão geral que mostra como o sistema manipula a reserva de lotes confirmada na ordem para ações de depósito específicas. Para interpretar o conteúdo das tabelas, suponha que cada ação de depósito seja executada no contexto do trabalho de depósito existente que se origina de uma reserva de lotes confirmada na ordem ou que a execução de cada ação de depósito afete trabalhos desse tipo.
@@ -233,7 +233,7 @@ As tabelas a seguir fornecem uma visão geral que mostra como o sistema manipula
 <td>Sim</td>
 <td>
 <ol>
-<li>Selecione o item de menu <strong>Substituir local</strong> no aplicativo de depósito quando você iniciar o trabalho de separação.</li>
+<li>Selecione o item de menu <strong>Substituir local</strong> no aplicativo de depósito quando iniciar o trabalho de separação.</li>
 <li>Selecione <strong>Sugerir</strong>.</li>
 <li>Confirme o novo local que é sugerido com base na disponibilidade da quantidade de lotes.</li>
 </ol>
@@ -250,7 +250,7 @@ As tabelas a seguir fornecem uma visão geral que mostra como o sistema manipula
 <td>Não</td>
 <td>
 <ol>
-<li>Selecione o item de menu <strong>Substituir local</strong> no aplicativo de depósito quando você iniciar o trabalho de separação.</li>
+<li>Selecione o item de menu <strong>Substituir local</strong> no aplicativo de depósito quando iniciar o trabalho de separação.</li>
 <li>Insira um local manualmente.</li>
 </ol>
 </td>
@@ -353,7 +353,7 @@ As tabelas a seguir fornecem uma visão geral que mostra como o sistema manipula
 <td>Sim</td>
 <td>
 <ol>
-<li>Inicie um movimento no aplicativo de depósito.</li>
+<li>Inicie uma movimentação no aplicativo de depósito.</li>
 <li>Insira os locais "de" e "para".</li>
 </ol></td>
 <td>

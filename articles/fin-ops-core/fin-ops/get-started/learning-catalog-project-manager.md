@@ -11,12 +11,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7521784931cc4aac5a7e7729d045e501cba9460e
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: b310b787906850a60c9e2a453ce2d13330dad212
+ms.sourcegitcommit: 26399aafe2b02732c79073455f5bc9ac07bab4b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3278923"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "3502104"
 ---
 # <a name="implementation-project-manager-learning-catalog"></a>Catálogo de aprendizado do gerente de projeto de implementação
 
@@ -29,7 +29,7 @@ O catálogo a seguir é organizado com base no conhecimento fundamental para dom
 | Conteúdo | descrição  | Formatar  | Extensão    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|-----------|
 | [Conheça o valor comercial do Microsoft Dynamics 365 e do Power Platform](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Quer aprender mais sobre aplicativos de negócios? Talvez você não saiba onde começar com Microsoft Dynamics 365 e aplicativos do Power Platform? Saiba como o poder dos aplicativos comerciais pode ajudar a transformar seus negócios. | Caminho de aprendizado online, gratuito, baseado no seu ritmo   | 7 horas   |
-| [Conceitos básicos do Dynamics 365 e do Power Platform](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/ | Quer aprender mais sobre aplicativos de negócios? Comece com este caminho de aprendizado para ver como os aplicativos do Dynamics 365 são usados. Aprenda sobre os conceitos de nuvem, sobre o Power Platform e como usar os aplicativos do Dynamics 365. | Caminho de aprendizado online, gratuito, baseado no seu ritmo   | 5.5 horas |
+| [Conceitos básicos do Dynamics 365 e do Power Platform](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Quer aprender mais sobre aplicativos de negócios? Comece com este caminho de aprendizado para ver como os aplicativos do Dynamics 365 são usados. Aprenda sobre os conceitos de nuvem, sobre o Power Platform e como usar os aplicativos do Dynamics 365. | Caminho de aprendizado online, gratuito, baseado no seu ritmo   | 5.5 horas |
 | [Introdução aos aplicativos do Finance and Operations](https://docs.microsoft.com/learn/paths/get-started-finance-operations/)  | Aprenda como os aplicativos do Finance and Operations oferecem suporte de negócios para gerenciar sistemas financeiros globais, processos de negócios operacionais e cadeias de fornecedores simplificadas permitindo aos usuários tomarem decisões rápidas e informadas. Na primeira etapa de sua carreira trabalhando com os aplicativos do Finance and Operations, você deve se familiarizar com os recursos e as funcionalidades, independentemente de sua função desejada. | Caminho de aprendizado online, gratuito, baseado no seu ritmo   | 2 horas   |
 | [Antes de comprar](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/before-you-buy)  | Dê uma olhada nas orientações passo a passo para avaliação do Finance and Operations ou para quando você estiver pronto para fazer uma compra.| Documentação  |           |
 | [Liberar planos](https://docs.microsoft.com/dynamics365/release-plans/)  | Saiba mais sobre os recursos e aperfeiçoamentos mais recentes do Dynamics 365  | Documentação  |           |
