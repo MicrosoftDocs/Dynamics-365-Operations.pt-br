@@ -1,6 +1,6 @@
 ---
-title: Digitalizar códigos de barra usando uma câmera no aplicativo Dynamics 365 for Finance and Operations – Warehousing
-description: Este tópico explica como configurar o aplicativo Dynamics 365 for Finance and Operations – Warehousing para digitalizar códigos de barra usando uma câmera em um dispositivo móvel.
+title: Digitalizar códigos de barras usando uma câmera no aplicativo de depósito
+description: Este tópico explica como configurar o aplicativo de depósito para digitalizar códigos de barras usando uma câmera em um dispositivo móvel.
 author: MarkusFogelberg
 manager: tfehr
 ms.date: 01/03/2018
@@ -17,26 +17,26 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 9d3b807b18a0a9c7d24763a2a2a7ea9eccf9c2bb
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: fd4818ab936e1c93000793da756c97df6d05b2a9
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205843"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529997"
 ---
-# <a name="scan-bar-codes-using-a-camera-in-dynamics-365-supply-chain-management---warehousing-app"></a>Digitalizar códigos de barra usando uma câmera no aplicativo Dynamics 365 Supply Chain Management – Warehousing
+# <a name="scan-bar-codes-using-a-camera-in-the-warehouse-app"></a>Digitalizar códigos de barras usando uma câmera no aplicativo de depósito
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como configurar o aplicativo Dynamics 365 for Finance and Operations – Warehousing para digitalizar códigos de barra usando uma câmera em um dispositivo móvel. 
+Este tópico explica como configurar o aplicativo de depósito para digitalizar códigos de barras usando uma câmera em um dispositivo móvel. 
 
 ## <a name="prerequisites"></a>Pré-requisitos
-Para usar esse recurso, você precisa ter instalada a versão 1.2.0.0 do aplicativo Warehousing, e o dispositivo deve ter uma câmera. Ao abrir o aplicativo depois da atualização, você será solicitado a permitir que o aplicativo use a câmera. Se o dispositivo não tiver uma câmera, nenhuma solicitação será mostrada, e você não poderá usar uma câmera como scanner. 
+Para usar este recurso, você precisa ter instalada a versão 1.2.0.0 do aplicativo de depósito, e o dispositivo deve ter uma câmera. Ao abrir o aplicativo depois da atualização, você será solicitado a permitir que o aplicativo use a câmera. Se o dispositivo não tiver uma câmera, nenhuma solicitação será mostrada, e você não poderá usar uma câmera como scanner. 
 
-## <a name="setup"></a>Configurar
+## <a name="setup"></a>Instalação
 Nas Configurações de exibição do aplicativo de depósito, você pode selecionar se a câmera deve ser usada para digitalização de códigos de barras. Se você habilitar **Usar a câmera como scanner**, você pode usar a câmera em cada campo de entrada que tenha o modo de entrada preferido definido como **Digitalização**. 
 
-Para controlar se um campo de entrada pode ser digitalizado ou não, na página **Nomes de campo no aplicativo de depósito**, defina o **Modo de entrada preferido** como **Digitalização**. Quando esta opção for selecionada, uma câmera poderá ser usada para digitalização no aplicativo de depósito. Para obter informações sobre como configurar nomes de campos no aplicativo de depósito, consulte [Configurar nomes de campo no aplicativo de depósito](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse).
+Para controlar se um campo de entrada pode ser digitalizado ou não, na página **Nomes de campo no aplicativo de depósito**, defina o **Modo de entrada preferido** como **Digitalização**. Quando esta opção for selecionada, uma câmera poderá ser usada para digitalização no aplicativo de depósito. Para obter informações sobre como configurar nomes de campos do aplicativo no Warehousing, consulte [Configurar nomes de campos no aplicativo de depósito](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse).
 
 ## <a name="supported-bar-code-formats"></a>Formatos de código de barras compatíveis
 Os formatos de código de barras mais comuns são compatíveis, incluindo os códigos 128, 39, 93, EAN-8, EAN-13, UPC-E, UPC-A e QR. 

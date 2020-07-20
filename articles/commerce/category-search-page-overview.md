@@ -1,9 +1,9 @@
 ---
-title: Visão geral da página de aterrissagem da categoria padrão e página de resultados da pesquisa
+title: Visão geral da página de aterrissagem da categoria padrão e da página de resultados da pesquisa
 description: Este tópico fornece uma visão geral da página de aterrissagem de categoria padrão e da página de resultados de pesquisa no Dynamics 365 Commerce.
-author: v-chgri
+author: ashishmsft
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 17746d2923ab84311253c47647c0020807bdb75c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: e85449c10fa4a768a144ce423a77bd1fc2c94352
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002487"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527459"
 ---
-# <a name="overview-of-default-category-landing-page-and-search-results-page"></a>Visão geral da página de aterrissagem da categoria padrão e página de resultados da pesquisa
-
+# <a name="default-category-landing-page-and-search-results-page-overview"></a>Visão geral da página de aterrissagem da categoria padrão e da página de resultados da pesquisa
 
 [!include [banner](includes/banner.md)]
 
@@ -96,13 +95,19 @@ Os componentes a seguir são essenciais para uma página de resultados de pesqui
 - A **Paginação** permite que os visitantes de site movam-se de uma página de resultados de produto categorizado a outra página.
 - **Contagem total** fornece o número total de produtos definidos em uma categoria e que correspondem ao critério de pesquisa.
 
+>[!NOTE]
+>Esses recursos de pesquisa habilitados para a nuvem estão disponíveis a partir da versão 10.0.8. Verifique se em **Parâmetros do Commerce > Parâmetros de Configuração** há uma entrada para "ProductSearch.UseAzureSearch definido como 'true'". 
+![Parâmetros de configuração para pesquisa habilitada para a nuvem](./media/CloudPoweredSearchConfigurationParameters.png)
+
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral da página inicial](quick-tour-home-page.md)
+[Visão geral da pesquisa habilitada para a nuvem](cloud-powered-search-overview.md)
 
-[Visão geral das páginas de detalhes de produto](quick-tour-pdp.md)
+[Visão geral da home page](quick-tour-home-page.md)
 
-[Visão geral das páginas de carrinho e check-out](quick-tour-cart-checkout.md)
+[Visão geral das páginas de detalhes do produto](quick-tour-pdp.md)
+
+[Visão geral das páginas de carrinho e de finalização da compra](quick-tour-cart-checkout.md)
 
 [Visão geral das páginas de gerenciamento da conta](quick-tour-account-management.md)
 

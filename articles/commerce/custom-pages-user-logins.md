@@ -3,7 +3,7 @@ title: Configurar páginas personalizadas para entradas dos usuários
 description: Este tópico descreve como criar páginas personalizadas no Microsoft Dynamics 365 Commerce que manipula inscrições personalizadas para usuários nos locatários de business-to-consumer (B2C) do Azure Active Directory (Azure AD).
 author: brianshook
 manager: annbe
-ms.date: 06/16/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71c0f0b6969985b04262b522dd2165eb1475878d
-ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
+ms.openlocfilehash: e9e78a4d6dc4189c927d9ef321f1eb5a6c120ee2
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456963"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533450"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Configurar páginas personalizadas para entradas dos usuários
 
@@ -195,11 +195,9 @@ Depois de atualizar o arquivo global.json e publicar suas alterações, o novo t
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Configurar seu nome de domínio](configure-your-domain-name.md)
+[Configure seu nome de domínio](configure-your-domain-name.md)
 
 [Implantar um novo site de comércio eletrônico](deploy-ecommerce-site.md)
-
-[Configurar um canal da loja online](online-stores.md)
 
 [Criar um site de comércio eletrônico](create-ecommerce-site.md)
 

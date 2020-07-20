@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 826c955b7c99073ff41c8a5ed75254c824359925
-ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
+ms.openlocfilehash: c397354ade1ac1d4f5f9bc0e6bb5d4be5a7ae9f3
+ms.sourcegitcommit: f7294160d18f15cb762c24f2459b4f0887c37541
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "3175145"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3505602"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Encargos automáticos avançados de omnicanal
 
@@ -40,7 +40,7 @@ Ao usar versões anteriores à versão 10.0, um usuário do PDV deverá inserir 
 
 O uso de solicitações manuais para adicionar encargos de remessa ainda está disponível nas versões 10.0 e posterior. Se uma organização não habilitar o parâmetro **Encargos Automáticos Avançados**, o PDV solicita que a entrada manual de encargos permaneça igual.
 
-Com o recurso avançado de encargos automáticos, os usuários do PDV podem ter cálculos sistemáticos para quaisquer encargos diversos definidos com base nas tabelas de configuração de encargos automáticos. Além disso, os usuários terão a capacidade de adicionar ou editar um valor de encargos adicionais e taxas para qualquer transação de vendas de PDV em nível de cabeçalho ou linha (para cash and carry ou ordem do cliente).
+Com o recurso avançado de encargos automáticos, os usuários do PDV podem ter cálculos sistemáticos para quaisquer encargos diversos definidos com base nas tabelas de configuração de encargos automáticos. Além disso, os usuários terão a capacidade de adicionar ou editar um número ilimitado de encargos e taxas para qualquer transação de vendas de PDV em nível de cabeçalho ou linha (para cash and carry ou ordem do cliente).
 
 ## <a name="enabling-advanced-auto-charges"></a>Habilitando encargos automáticos avançados
 
@@ -52,7 +52,7 @@ Quando os encargos automáticos avançados forem habilitados, não será mais so
 
 Quando os encargos automáticos avançados são ativados, os **Parâmetros do Commerce** do **Código de encargos de remessa** e **Encargos de remessa de reembolso** não são mais utilizados. Esses parâmetros são aplicáveis somente se o parâmetro **Usar encargos automáticos avançados** for definido como **Não**.
 
-Antes que você habilite este recurso, garanta que você testou e treinou seus funcionários, pois isso alterará o fluxo do processo de negócios de como os encargos de remessa e outros encargos são calculados e adicionados às ordens de venda de PDV. Certifique-se de que você entende o impacto do fluxo do processo para criação de transações de PDV. Para ordens de call center e de comércio eletrônico, o impacto ao habilitar os encargos automáticos avançados é mínimo. Os aplicativos de call center e de comércio eletrônico continuarão tendo o mesmo comportamento que tiveram relacionado historicamente às tabelas de encargos automáticos ao calcular taxas de ordem adicionais. Os usuários do canal do call center continuarão tendo a capacidade de editar manualmente quaisquer encargos automáticos calculados pelo sistema em nível de cabeçalho ou linha, ou adicionar diversos encargos adicionais em nível de cabeçalho ou linha.
+Antes de habilitar este recurso, teste e treine seus funcionários, pois o recurso habilitado alterará o fluxo de processo empresarial de como os encargos de remessa e outros encargos são calculados e adicionados às ordens de venda de PDV. Certifique-se de que você entende o impacto do fluxo do processo para criação de transações de PDV. Para ordens de call center e de comércio eletrônico, o impacto ao habilitar os encargos automáticos avançados é mínimo. Os aplicativos de call center e de comércio eletrônico continuarão tendo o mesmo comportamento que tiveram relacionado historicamente às tabelas de encargos automáticos ao calcular taxas de ordem adicionais. Os usuários do canal do call center continuarão tendo a capacidade de editar manualmente quaisquer encargos automáticos calculados pelo sistema em nível de cabeçalho ou linha, ou adicionar diversos encargos adicionais em nível de cabeçalho ou linha.
 
 ## <a name="additional-pos-operations"></a>Operações adicionais de PDV
 
@@ -89,7 +89,7 @@ Configurar dois encargos automáticos em nível de cabeçalho diferentes. Config
 
 Para os encargos de entrega terrestre, na seção de linhas da página **Encargos automáticos**, defina um encargo que será aplicado para ordens entre US$ 0,01 e US$ 100 como US$ 10,00. Crie outra linha de encargos para indicar que ordens acima de US$ 100,01 não terão encargos.
 
-![Exemplo de encargos automáticos](media/headerchargesexample.png)
+![Exemplo de duas tabelas de encargos automáticos](media/headerchargesexample.png)
 
 Para os encargos de entrega aérea, na seção de linhas do formulário de encargos automáticos, defina um encargo de US$ 20,00 que será aplicado a todas as ordens (entre um valor de US$ 0,01 a US$ 9.999.999).
 
@@ -119,7 +119,7 @@ Vá para **Contas a Receber \> Configuração de encargos \> Encargos automátic
 
 Defina o menu suspenso **Nível** como **Linha** e crie um novo registro de encargos automáticos para todos os clientes e para o produto específico ou grupo de produtos onde as taxas de instalação serão cobradas.
 
-![Exemplo de encargos automáticos](media/linechargesexample.png)
+![Exemplo de uma tabela de encargos automáticos em nível de linha](media/linechargesexample.png)
 
 Envie as cobranças para o Commerce Scale Unit/BD de Canal, de forma que o PDV possa utilizá-las ao executar o trabalho **agenda de distribuição 1040**.
 
@@ -173,7 +173,7 @@ A operação **Adicionar encargos de linha** deve ser configurado no [Layout da 
 
 Para executar o cenário no aplicativo do PDV, o usuário do PDV criará a transação de venda como de costume, adicionando os produto e as outras configurações à venda. Antes de coletar o pagamento, o usuário deve selecionar a linha específica onde o encargo será aplicado da exibição da lista de itens de PDV e executar a operação **Adicionar encargo de linha**. Será solicitado que o usuário selecione um código de encargos e insira o valor de encargos. Depois que o usuário concluir o processo, o encargo será vinculado à linha e adicionado à ordem total como um encargo em nível de linha. O usuário pode repetir o processo para adicionar encargos de linha adicionais para outras linhas de itens na transação, se necessário.
 
-O mesmo processo poderá ser aplicado no call center usando o recurso “manter encargos” localizado no menu suspenso **Finanças** na seção **Linhas de ordem de venda** na página **Ordem de venda**. Será aberta a página **Manter encargos** onde o usuário pode adicionar um novo encargo específico de linha à transação.
+O mesmo processo poderá ser aplicado no call center usando o recurso “manter encargos” localizado no menu suspenso **Finanças** na seção **Linhas de ordem de venda** na página **Ordem de venda**. A seleção dessa opção abrirá a página **Manter encargos** onde o usuário pode adicionar um novo encargo específico de linha à transação.
 
 ## <a name="additional-features"></a>Recursos adicionais
 

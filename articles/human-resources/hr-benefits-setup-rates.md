@@ -3,7 +3,7 @@ title: Configurar taxas
 description: As taxas no Microsoft Dynamics 365 Human Resources definem o quanto empregadores e funcionários contribuem para um benefício.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/06/2020
+ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c90a45b79f2a383f0ace0cb07e791f6613d7a3c3
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: e397e20b6b6307349020c8dfd238b4b59eeca527
+ms.sourcegitcommit: 1e6a7b50596eaf9d965e0155f3f2c50f7f50747e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429902"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3497347"
 ---
 # <a name="configure-rates"></a>Configurar taxas
 
@@ -75,15 +75,15 @@ Você também pode usar camadas duplas. Se você selecionar **Camada dupla** par
 
 3. Especifique valores para os seguintes campos:
 
-   | Campo | Descrição |
+   | Campo | descrição |
    | --- | --- | 
-   | **Descrição** | O valor do campo Descrição será aplicado a partir da descrição no registro de configuração da taxa. Isso ajuda a identificar a qual configuração de taxa as taxas de camadas estão vinculadas. |
+   | **Descrição** | O valor do campo **Descrição** é aplicado com base na descrição no registro de configuração da taxa. Isso ajuda a identificar a qual configuração de taxa as taxas de camadas estão vinculadas. |
    | **Código de camada** | Selecione um código de camada. Os códigos de camada são definidos no formulário códigos de camada. O sistema exibirá automaticamente a descrição do código de camada na grade à esquerda. |
-   | **Tipo de camada** | Especifica o campo a ser usado como um critério de seleção para o processo de cálculo da taxa de camada. Por exemplo:</br></br><ul><li>Se a idade for usada, o sistema usará a data de nascimento do funcionário no processo de cálculo da taxa de benefícios.</li><li>Se o salário for usado, o sistema usará o salário de benefício anual do funcionário no processo de cálculo da taxa de benefícios.</li><li>Se o tipo de trabalho for usado, o sistema usará o registro de posição ativo atual do funcionário para determinar o tipo de trabalho pelo registro de trabalho vinculado à posição.</li></ul></br></br>Os tipos de camada são idade, salário, físico, sexo, equivalente ao horário integral, tipo de trabalho, região de remuneração e nível. | 
-   | **Nível** | O valor a ser usado com o tipo de camada durante o processo de cálculo da taxa de benefícios. Por exemplo:</br></br><ul><li>Se o tipo de camada for idade, este será o valor de idade.</li><li>Se o tipo de camada for salário, este será o valor de salário.</li><li> Se o tipo de camada for tipo de trabalho, este será tipo de trabalho.</li></ul></br></br>Com um tipo de camada de idade ou salário, o sistema usa uma abordagem crescente durante a seleção de taxa de níveis, o que significa que o valor no campo nível representa o limite inferior da camada. Com um tipo de camada de tipo de trabalho, o sistema usa uma abordagem de correspondência exata durante a seleção de taxa de camada. |
+   | **Tipo de camada** | Especifica o campo a ser usado como um critério de seleção para o processo de cálculo da taxa de camada. Por exemplo:</br></br><ul><li>Se for utilizada a **Idade**, o sistema usará a data de nascimento do funcionário no processo de cálculo da taxa de benefícios.</li><li>Se for usado o **Salário**, o sistema usará o salário de benefício anual do funcionário no processo de cálculo da taxa de benefícios.</li><li>Se for usado o **Tipo de trabalho**, o sistema usará o registro de cargo ativo atual do funcionário para determinar o tipo de trabalho pelo registro de trabalho vinculado ao cargo.</li></ul></br></br>Os tipos de camada são **Idade**, **Salário**, **Físico**, **Sexo**, **Equivalente ao horário integral**, **Tipo de trabalho**, **Região de remuneração** e **Nível**. | 
+   | **Nível** | O valor a ser usado com o tipo de camada durante o processo de cálculo da taxa de benefícios. Por exemplo:</br></br><ul><li>Se o tipo de camada for **Idade**, este será o valor de idade.</li><li>Se o tipo de camada for **Salário**, este será o valor de salário.</li><li> Se o tipo de camada for **Tipo de trabalho**, este será o tipo de trabalho.</li></ul></br></br>Com um tipo de camada de **Idade** ou **Salário**, o valor no campo **Nível** representa o limite superior da camada. Com um tipo de camada de **Tipo de trabalho**, o sistema usa uma abordagem de correspondência exata durante a seleção da taxa de camada. |
    | **Tipo de cálculo** | Especifica como usar o valor no campo valor do cálculo e qual cálculo de matemática deve ser realizado, se necessário. Se o tipo de cálculo for um valor simples, o sistema usará os campos de valor como estão. Se o tipo de cálculo for por valor de salário ou cobertura, o sistema usará o valor de cálculo e a direção de cálculo em seu cálculo de matemática.</br></br>Se o tipo de cálculo for por valor de salário, o sistema usará a seguinte equação matemática:</br></br>Salário anual de benefício dividido pelo valor do cálculo (arredondado para cima ou para baixo) multiplicado pelos valores de fumante e não fumante por funcionário ou empregador.</br></br>Se o tipo de cálculo for por valor de cobertura, o sistema usará a seguinte equação matemática:</br></br>Valor de cobertura dividido pelo valor do cálculo (arredondado para cima ou para baixo) multiplicado pelos valores de fumante e não fumante por funcionário ou empregador.</br></br>Em ambos os cálculos, a direção do cálculo é usada para determinar se é necessário arredondar o salário anual de benefício ou o valor de cobertura dividido pelo valor de cálculo para cima ou para baixo. |
    | **Valor do cálculo** | O valor a ser usado durante o processo de cálculo da taxa de benefício. Esse valor será o divisor durante o cálculo matemático da taxa de camadas. |
-   | **Direção do cálculo** | A direção (aumentar ou diminuir) em que o valor do resultado calculado deve ser arredondado. O sistema dá suporte a três direções de cálculo: em branco (método exato), aumentar e diminuir.</br></br><ul><li>Se estiver em branco, o sistema usará o cálculo exato do salário/valor de cobertura dividido pelo valor do cálculo. Se esse valor tiver uma fração, o sistema usará isso em seu cálculo.</li><li>Se aumentar, o sistema aumentará o cálculo matemático do valor de salário/cobertura dividido pelo valor de cálculo para o próximo inteiro, o que significa que 12,25 aumentaria para 13.</li><li>Se diminuir, o sistema diminuirá o cálculo matemático do valor de salário/cobertura dividido pelo valor de cálculo para o inteiro atual, o que significa que 12,25 diminuiria para 12.</li></ul> |
+   | **Direção do cálculo** | A direção para a qual o valor do resultado calculado deve ser arredondado. O sistema permite três direções de cálculo: em branco (método exato), **Aumentar** e **Diminuir**.</br></br><ul><li>Se estiver em branco, o sistema usará o cálculo exato do salário/valor de cobertura dividido pelo valor do cálculo. Se esse valor tiver uma fração, o sistema usará isso em seu cálculo.</li><li>Se **Aumentar**, o sistema aumentará o cálculo matemático do valor de salário/cobertura dividido pelo valor de cálculo para o próximo inteiro, o que significa que 12,25 aumentaria para 13.</li><li>Se **Diminuir**, o sistema diminuirá o cálculo matemático do valor de salário/cobertura dividido pelo valor de cálculo para o inteiro atual, o que significa que 12,25 diminuiria para 12.</li></ul> |
    | **Valor do funcionário não fumante** | O valor que um provedor de benefícios cobra de um funcionário não fumante. Esse é o valor que o empregador paga ao fornecedor de benefícios e deve se basear na frequência de pagamento para a configuração de taxa. |
    | **Valor do empregador não fumante** | O valor que um provedor de benefícios cobra de um funcionário não fumante. Esse é o valor que o empregador paga ao fornecedor de benefícios e deve se basear na frequência de pagamento para a configuração de taxa. |
    | **Valor do funcionário fumante** | O valor que um provedor de benefícios cobra de um funcionário não fumante. Esse é o valor que o empregador paga ao fornecedor de benefícios e deve se basear na frequência de pagamento para a configuração de taxa. |

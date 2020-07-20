@@ -3,7 +3,7 @@ title: Reconciliar extratos bancários utilizando a reconciliação bancária av
 description: O recurso Reconciliação bancária avançada permite que você importe extratos bancários eletrônicos e os reconcilie automaticamente com as transações bancárias do Microsoft Dynamics 365 Finance. Este tópico descreve o processo de reconciliação.
 author: saraschi2
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b37cf8d83c7134ae65da6a885bffeb01d16f9f06
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c13203217af1788fe3b8a6f9bbf805e03b650a0d
+ms.sourcegitcommit: 8a1621327568edf49758b70964e0a3e637527e1b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176436"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3497136"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Reconciliar extratos bancários usando reconciliação bancária avançada
 
@@ -41,9 +41,9 @@ Você pode carregar um extrato bancário que contém informações sobre uma ún
 -   Para importar um arquivo de extrato bancário único sobre uma única conta, defina a opção **Importar extrato para múltiplas contas bancárias em todas entidades legais** para **Não**, e selecione a conta bancária associada ao extrato. Clique em **Procurar** para selecionar o arquivo de extrato bancário associado e, em seguida, clique em **Carregar**.
 -   Para importar um arquivo de extrato bancário único sobre várias contas, defina a opção **Importar extrato para múltiplas contas bancárias em todas entidades legais** para **Sim**. Clique em **Procurar** para selecionar o arquivo de extrato bancário associado e, em seguida, clique em **Carregar**.
 
-Se nenhuma instruções no arquivo eletrônico não podem ser associadas com uma conta bancária usando os campos de identificação, não serão importados. No entanto, outras instruções em arquivo ainda podem ser importados. O usuário receberá uma mensagem para os que a importação de extrato bancário foi malsucedida para contas bancárias específicas. Observe que o usuário que está importando o arquivo de extrato bancário deve ter acesso a uma entidade legal às instruções de importação para contas bancárias da entidade legal. 
+Se alguma instrução no arquivo eletrônico não puder ser associada a uma conta bancária ou se estiver associada a várias contas bancárias usando os campos de identificação, não será importada. No entanto, outras instruções em arquivo ainda podem ser importados. O usuário receberá uma mensagem para os que a importação de extrato bancário foi malsucedida para contas bancárias específicas. Observe que o usuário que está importando o arquivo de extrato bancário deve ter acesso a uma entidade legal às instruções de importação para contas bancárias da entidade legal. 
 
-Você pode usar um arquivo zip para carregar vários arquivos de extrato para o Finance em um único processo. Para importar vários arquivos de extrato bancário sobre várias contas, combine todos os arquivos de extrato bancário em um arquivo zip. Na caixa de diálogo **Importar extratos bancários**, defina a opção **Importar extrato para múltiplas contas bancárias em todas entidades legais** para **Sim**. Clique em **Procurar** para selecionar o arquivo zip que contém os arquivos de extratos bancários e, em seguida, clique em **Carregar**. O processo de importação reconhecerá o arquivo relevante e cobrar cada demonstrativo que estão incluídas nele, independentemente de entidade legal da conta bancária. 
+Você pode usar um arquivo zip para carregar vários arquivos de extrato para o Finance em um único processo. Para importar vários arquivos de extrato bancário sobre várias contas, combine todos os arquivos de extrato bancário em um arquivo zip. Na caixa de diálogo **Importar extratos bancários**, defina a opção **Importar extrato para múltiplas contas bancárias em todas entidades legais** para **Sim**. Clique em **Procurar** para selecionar o arquivo zip que contém os arquivos de extratos bancários e, em seguida, clique em **Carregar**. O processo de importação reconhecerá o arquivo relevante e cobrar cada demonstrativo que estão incluídas nele, independentemente de entidade legal da conta bancária.
 
 A opção **Reconciliar após a importação** está disponível. Quando essa opção está definida como **Sim**, o sistema automaticamente valida o extrato bancário, cria uma nova reconciliação bancária e planilha, e executa o conjunto de regras de correspondência padrão assim que o extrato bancário é carregado. Essa funcionalidade automatiza o processo até o ponto em que as transações devem ser correspondidas manualmente.
 

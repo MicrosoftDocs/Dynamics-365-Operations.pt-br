@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 481f7787e21cd9a00ed1798d4d2588e93ca73b56
-ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
+ms.openlocfilehash: 3469c8936dd2eaa53e541f0ea684ea1eb12db4cb
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "3346528"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530112"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Gestão de qualidade para processos de depósito
 
@@ -46,7 +46,7 @@ O recurso _Gestão de qualidade para processos de depósito_ gera automaticament
 
 Quando o recurso _Gestão de qualidade para processos de depósito_ é ativado, ele altera a configuração das principais entidades de gerenciamento de depósito e gerenciamento de qualidade. A ilustração a seguir fornece uma visão geral das entidades que permitem ordens de qualidade para os processos de depósito. O texto entre parênteses indica ações sugeridas quando o gerenciamento de qualidade foi aplicado antes que o recurso _Gestão de qualidade para processos de gerenciamento de depósito_ fosse ativado.
 
-![![Entidades de gerenciamento de qualidade](media/quality-management-entity-diagram.png "Entidades de gerenciamento de qualidade")](media/quality-management-entity-diagram.png "Quality management entities")
+![Entidades de gerenciamento de qualidade](media/quality-management-entity-diagram.png "Entidades de gerenciamento de qualidade")
 
 ## <a name="enablers-the-quality-item-sampling-and-quality-order-work-order-types"></a>Ativadores: os tipos de amostragem de item de qualidade e ordem de serviço de ordem de qualidade
 
@@ -239,7 +239,7 @@ No exemplo a seguir, o valor **Tipo de referência** é _Compra_.
     - **Grupo de teste:** *Cone*
     - **Amostragem de item:** *10%*
 
-Uma ordem de compra para uma quantidade de 10 do item A0001 agora é criada para o fornecedor 104. Em seguida, uma linha de ordem com uma quantidade de 10 é registrada como recebida em uma placa de licença usando o aplicativo de depósito. Este é o resultado:
+Uma ordem de compra para uma quantidade de 10 do item A0001 agora é criada para o fornecedor 104. Em seguida, uma linha da ordem de compra com uma quantidade de 10 é registrada como recebida em uma placa de licença usando o aplicativo de depósito. Este é o resultado:
 
 - Há uma ordem de qualidade da primeira associação de qualidade para o grupo de teste *Anexo*. A quantidade é 5. Não há ordem de qualidade da segunda associação de qualidade, porque os critérios para a primeira associação de qualidade são mais específicos em relação ao grupo *Anexo*.
 - Há uma ordem de qualidade da terceira associação de qualidade para o grupo de teste *Impedância*. A quantidade é 10. Não há ordem de qualidade da quarta associação de qualidade, porque os critérios para a primeira associação de qualidade são mais específicos em relação ao grupo *Impedância*.
@@ -549,7 +549,7 @@ Agora você continuará com a configuração básica necessária da classe de tr
 
     - **Tabela:** *Localizações*
     - **Campo:** *ID da zona*
-    - **Critérios:** *Em massa*
+    - **Critérios:** *Massa*
 
 1. Selecione **OK** para salvar a consulta e fechar a caixa de diálogo.
 1. No Painel de ações, selecione **Salvar** para salvar a nova diretiva de localização.
@@ -593,7 +593,7 @@ Agora você continuará com a configuração básica necessária da classe de tr
 1. Selecione o item de menu do dispositivo móvel **Armazenamento de QMS**.
 1. Na FastTab **Classes de trabalho**, adicione a ID da classe de trabalho *QualityPut*.
 
-Agora os funcionários do depósito poderão selecionar ordens de qualidade usando o item de menu **Armazenamento de QMS**. As mercadorias que falharam no controle de qualidade podem ser colocadas em um local de devolução e as mercadorias que passaram podem ser colocadas na localização bulk-001.
+Agora os funcionários do depósito poderão selecionar ordens de qualidade usando o item de menu **Armazenamento de QMS**. As mercadorias que falharam no controle de qualidade podem ser colocadas em um local de devolução e as mercadorias que passaram podem ser colocadas na localização massa-001.
 
 #### <a name="summary-your-setup-to-move-goods-from-quality-control"></a>Resumo: sua configuração para mover mercadorias do controle de qualidade
 
@@ -605,7 +605,7 @@ Você configurou os dados de trabalho e localização para o depósito 51, para 
 1. Selecione a primeira ordem de qualidade para as quantidades que foram registradas.
 1. Selecione **Validar**. O status do teste é atualizado para *Reprovado*.
 1. Vá para **Gerenciamento de depósito \> Todos os trabalhos**.
-1. Abra o trabalho que você acabou de criar e observe que o valor **Tipo de ordem de serviço** é *Ordem de qualidade*. O trabalho inclui uma linha em que a localização de armazenamento é *Devolução* e o status é *Reprovado*. (Se o status da ordem de qualidade fosse *Aprovado*, o local da venda seria *Em massa* em vez disso.)
+1. Abra o trabalho que você acabou de criar e observe que o valor **Tipo de ordem de serviço** é *Ordem de qualidade*. O trabalho inclui uma linha em que a localização de armazenamento é *Devolução* e o status é *Reprovado*. (Se o status da ordem de qualidade fosse *Aprovado*, o local da venda seria *Massa* em vez disso.)
 1. Retorne para **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Ordens de qualidade**.
 1. Selecione a segunda ordem de qualidade para os itens que foram registrados.
 1. Selecione **Resultados** acima da grade inferior. Atualize o valor **Quantidade do resultado** para *5* e verifique se o valor **Resultado do teste** é alterado para uma marca de seleção.
@@ -616,7 +616,7 @@ Você configurou os dados de trabalho e localização para o depósito 51, para 
     > O evento de validação aciona a criação do trabalho da ordem de qualidade para mover a quantidade do local do controle de qualidade para um novo local.
 
 1. Vá para **Gerenciamento de depósito \> Todos os trabalhos**.
-1. Selecione o trabalho que acabou de ser criado e observe que um cabeçalho de trabalho da segunda ordem de qualidade foi criado, em que a localização de armazenamento é *BULK-001*.
+1. Selecione o trabalho que acabou de ser criado e observe que um cabeçalho de trabalho da segunda ordem de qualidade foi criado, em que a localização de armazenamento é *MASSA-001*.
 1. Acesse um dispositivo móvel ou emulador que esteja executando o aplicativo de depósito e entre no depósito 51 usando *51* como a ID de usuário e *1* como a senha.
 1. Acesse **Qualidade \> Armazenamento de QMS** e processe cada uma das duas placas de licença relacionadas aos dois trabalhos para que todo o trabalho seja fechado.
 

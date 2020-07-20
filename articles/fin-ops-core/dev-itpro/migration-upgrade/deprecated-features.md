@@ -3,7 +3,7 @@ title: Recursos removidos ou obsoletos em versões anteriores
 description: Este tópico descreve os recursos que foram removidos ou que foram planejados para remoção do Dynamics 365 for Finance and Operations e versões anteriores desse produto.
 author: sericks007
 manager: AnnBe
-ms.date: 04/17/2020
+ms.date: 06/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be266f838c5e6cd10655546179e9075e36570bfc
-ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
+ms.openlocfilehash: 8a73231a8286a412e9ec8a4eef6c58d7afd73ec0
+ms.sourcegitcommit: bdfc84aa7f607511981c0b2f20f03fabcb773510
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "3284005"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "3500403"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Recursos removidos ou obsoletos em versões anteriores
 
@@ -588,7 +588,7 @@ eGiro é baseado no padrão internacional da UN EDIFACT CREMUL(mensagem de aviso
 |   |  |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Os formatos de pagamento não são mais usados.                                                     |
-| **Substituída por outro recurso?**   | Não. O formato será substituído pela ISO 20022 formatos de importação do demonstrativo nas versões futuras. |
+| **Substituída por outro recurso?**   | Sim, a importação de notificação ISO20022 Camt.054. |
 | **Áreas afetadas do produto**         | Contas a Receber                                                                       |
 | **Status**                         | Preterido: Uma data de remoção não foi definida para esse recurso.                            |
 
@@ -621,7 +621,7 @@ Você pode selecionar um formato de importação para pagamentos finlandeses que
 |   |  |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Os formatos de pagamento não são mais usados.                                                     |
-| **Substituída por outro recurso?**   | Não. O formato será substituído pela ISO 20022 formatos de importação do demonstrativo nas versões futuras. |
+| **Substituída por outro recurso?**   | Sim, a importação de notificação ISO20022 Camt.054. |
 | **Áreas afetadas do produto**         | Contas a Receber                                                                       |
 | **Status**                         | Preterido: Uma data de remoção não foi definida para esse recurso.                            |
 
@@ -632,7 +632,7 @@ Um formato que é específico para a Finlândia para importar transações de co
 |   |  |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Os formatos de pagamento não são mais usados.                                                     |
-| **Substituída por outro recurso?**   | Não. O formato será substituído pela ISO 20022 formatos de importação do demonstrativo nas versões futuras. |
+| **Substituída por outro recurso?**   | Sim, a importação do extrato bancário ISO20022 Camt.053 usando a Reconciliação Bancária Avançada. |
 | **Áreas afetadas do produto**         | Contas a Receber                                                                       |
 | **Status**                         | Preterido: Uma data de remoção não foi definida para esse recurso.                            |
 
@@ -698,7 +698,7 @@ Os formatos Telehansa e TeleTeenus são usados para importação de pagamento ba
 |   |  |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Os formatos de pagamento não são mais usados.                                                    |
-| **Substituída por outro recurso?**   | Não. Os formatos são substituídos pelos formatos de importação de demonstrativo da ISO 20022 em versões futuras. |
+| **Substituída por outro recurso?**   | Sim, a importação de notificação do banco ISO20022 Camt.054. |
 | **Áreas afetadas do produto**         | Contas a Receber                                                                        |
 | **Status**                         | Preterido: Uma data de remoção não foi definida para esse recurso.                             |
 
@@ -784,7 +784,7 @@ Os formatos de pagamento Telepay incluem exportação de pagamento de fornecedor
 |   |  |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Os formatos de pagamento não são mais usados.                                                        |
-| **Substituída por outro recurso?**   | Sim, formato de pagamento de transferência de crédito ISO20022 e cliente de formato de pagamento AvtaleGiro para Noruega |
+| **Substituída por outro recurso?**   | Sim, formato de pagamento de transferência de crédito ISO20022 e formato de pagamento de cliente AvtaleGiro para a Noruega, bem como importação de arquivos de retorno de notificação do banco pain.002 e camt.054a. |
 | **Áreas afetadas do produto**         | Contas a pagar, Contas a receber                                                          |
 | **Status**                         | Preterido: Uma data de remoção não foi definida para esse recurso.                                 |
 
@@ -844,7 +844,7 @@ Um fluxo de trabalho para gerenciar a criação das metas de funcionários for u
 
 ### <a name="aif-axd-and-axbc-integrations"></a>Integrações de AIF, AxD e AxBC
 
-Na Estrutura de Integração de Aplicativos (AIF), os dados podem ser trocados com sistemas externos através da lógica comercial que é exposta como serviços. O Dynamics AX inclui serviços que são baseados em documentos e no.NET Business Connector (AxBC.) Um documento é criado usando XML. O XML inclui informações de cabeçalho adicionadas para criar uma *mensagem* que pode ser transferida para o/do Dynamics AX. Os exemplos de documentos incluem ordens de venda e ordens de compra. No entanto, quase todas as entidades, como um cliente, podem ser representadas por um documento. Os serviços baseados em documentos usam as classes **Axd \<Documento\>**.
+Na Estrutura de Integração de Aplicativos (AIF), os dados podem ser trocados com sistemas externos através da lógica comercial que é exposta como serviços. O Dynamics AX inclui serviços que são baseados em documentos e no.NET Business Connector (AxBC.) Um documento é criado usando XML. O XML inclui informações de cabeçalho adicionadas para criar uma *mensagem* que pode ser transferida para o/do Dynamics AX. Os exemplos de documentos incluem ordens de venda e ordens de compra. No entanto, quase todas as entidades, como um cliente, podem ser representadas por um documento. Os serviços baseados em documentos usam as classes **Axd \<Document\>**.
 
 |   |  |
 |------------|--------------------|
@@ -1125,13 +1125,13 @@ A geração de pré-registros não poderá ser feita usando um lote, mas poderá
 | **Áreas afetadas do produto**         | Todos os módulos  |
 | **Status**                         | Preterido: Uma data de remoção não foi definida para esse recurso. |
 
-### <a name="german-dtazv-payment-format"></a>Formato de pagamento de DTAZV alemão
+### <a name="german-dtazv-payment-format-in-domestic-currency"></a>Formato de pagamento alemão DTAZV em moeda local
 
 |   |  |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | O formato não é mais aplicável na Alemanha porque foi substituído pela funcionalidade de SEPA. |
 | **Substituída por outro recurso?**   | Exportação de pagamentos no SEPA    |
-| **Áreas afetadas do produto**         | Todos os módulos   |
+| **Áreas afetadas do produto**         | Contas a Pagar   |
 | **Status**                         | Preterido: Uma data de remoção não foi definida para esse recurso.    |
 
 ### <a name="german-mt940-import"></a>Importação MT940 alemão
@@ -1248,12 +1248,12 @@ O configurador de produtos foi usado para configurar itens dinamicamente a parti
 | **Áreas afetadas do produto**         | Gerenciamento de informações do produto, Vendas e marketing  |
 | **Status**                         | Removido a partir do Dynamics AX 7.0.      |
 
-### <a name="production-floor-app"></a>Aplicativo de produção de piso
+### <a name="production-floor-app"></a>Aplicativo de chão de produção
 Este é o aplicativo para dispositivos de tablet executando Windows 8.1 RT e Windows 8.1 Pro.
 
 |   |  |
 |------------|--------------------|
-| **Motivo para a reprovação/remoção** | Com a mudança para um cliente baseado na Web, é possível entregar funcionalidade semelhante por meio do cliente nativo do Dynamics AX 7.0. O dispositivo Ficha de Trabalho fornece interface de usuário de piso de produção que é otimizado para fatores de formulário de toque e tablet. |
+| **Motivo para a reprovação/remoção** | Com a mudança para um cliente baseado na Web, é possível entregar funcionalidade semelhante por meio do cliente nativo do Dynamics AX 7.0. O dispositivo Ficha de Trabalho fornece interface de usuário de chão de produção que é otimizado para fatores de formulário de toque e tablet. |
 | **Substituída por outro recurso?**   | Sim. O dispositivo de ficha de trabalho, que é um componente nativo do Dynamics AX 7.0.                                                                           |
 | **Áreas afetadas do produto**         | Controle de produção                                                |
 | **Status**                         | Substituir: Uma data de remoção de armazenamento da Microsoft não foi definida para esse recurso ainda.                                                |

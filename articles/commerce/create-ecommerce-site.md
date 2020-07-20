@@ -3,7 +3,7 @@ title: Criar um site de comércio eletrônico
 description: Este tópico descreve as etapas e informações necessárias para criar um novo site de comércio eletrônico no assistente para criação de sites do Dynamics 365 Commerce.
 author: bicyclingfool
 manager: AnnBe
-ms.date: 03/02/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,25 +19,20 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7177bae911dfa91a645b40581bf23b3ed76562a3
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: ea3517a4f2b84db8a87a97d2f644bb4436f8693f
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3096765"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533427"
 ---
 # <a name="create-an-e-commerce-site"></a>Criar um site de comércio eletrônico
-
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve as etapas e informações necessárias para criar um novo site de comércio eletrônico no assistente para criação de sites do Dynamics 365 Commerce.
 
-Antes de começar a desenvolver seu site de comércio eletrônico, primeiro você deve estabelecer um novo site no assistente para criação de sites. 
-
-
-Para começar a desenvolver seu site comercial online, primeiro você deve estabelecer um novo site no ambiente de criação de site. Antes de criar um novo site, crie pelo menos uma loja online no Commerce. 
-
+Quando você licenciar os recursos de comércio eletrônico, o Site Builder será provisionado com um site de início que você poderá usar como base para seu próprio site. Mas se você quiser começar do zero ou estabelecer um segundo site, precisará estabelecer um novo site no ambiente de criação de sites. 
 
 ## <a name="set-up-your-site"></a>Configurar seu site
 
@@ -61,11 +56,9 @@ Depois que o site for criado, você pode verificar se está associado ao reposit
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Configurar seu nome de domínio](configure-your-domain-name.md)
+[Configure seu nome de domínio](configure-your-domain-name.md)
 
 [Implantar um novo site de comércio eletrônico](deploy-ecommerce-site.md)
-
-[Configurar um canal da loja online](online-stores.md)
 
 [Associar um site online a um canal](associate-site-online-store.md)
 

@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dbf8f4c1ea479a508f4a0294020b7201b32fe228
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c53e74204fad2960dfba972a38c511df7d6672d8
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025916"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527530"
 ---
-# <a name="overview-of-product-details-pages"></a>Visão geral das páginas de detalhes do produto
-
+# <a name="product-details-pages-overview"></a>Visão geral das páginas de detalhes do produto
 
 [!include [banner](includes/banner.md)]
 
@@ -83,8 +82,6 @@ Se o conteúdo de marketing for exclusivo de um produto específico, qualquer m�
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral da home page](quick-tour-home-page.md)
-
-[Visão geral da página de aterrissagem da categoria padrão e da página de resultados da pesquisa](category-search-page-overview.md)
 
 [Visão geral das páginas de carrinho e de finalização da compra](quick-tour-cart-checkout.md)
 

@@ -3,7 +3,7 @@ title: Configurar um canal online
 description: Este tópico descreve como criar um novo canal online no Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
-ms.date: 01/27/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9b7a2b8fd157df8b39e9e227d188a3802cacb4e3
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0d803b23f9de9daf624537d1d1ef30f17dc05fea
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002418"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533312"
 ---
 # <a name="set-up-an-online-channel"></a>Configurar um canal online
 
@@ -35,9 +35,9 @@ Este tópico descreve como criar um novo canal online no Microsoft Dynamics 365 
 
 O Dynamics 365 Commerce oferece suporte a vários canais de varejo. Esses canais de varejo incluem lojas online, call centers e lojas de varejo (também chamadas de lojas tradicionais). As lojas online oferecem aos clientes a opção de comprar produtos na loja online do varejista, além das lojas físicas.
 
-Para criar uma loja online no Commerce, primeiro você deve criar um canal online. 
+Para criar uma loja online no Commerce, primeiro você deve criar um canal online. Antes de criar um novo canal online, verifique se você concluiu os [Pré-requisitos de configuração de canal](channels-prerequisites.md).
 
-Antes de criar um novo canal online, verifique se você concluiu os [Pré-requisitos de configuração de canal](channels-prerequisites.md).
+Antes de criar um novo site, crie pelo menos uma loja online no Commerce. Para obter mais informações, consulte [Criar um site de comércio eletrônico](create-ecommerce-site.md).
 
 ## <a name="create-and-configure-a-new-online-channel"></a>Criar e configurar um novo canal online
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 709a75a259b1f8daa5b72e76b56942573c403f43
-ms.sourcegitcommit: 3a823444005d316bd95fc663e2dbc8252ac7d93a
+ms.openlocfilehash: 9a030f2e219c7c389d6255254545f3f895eff75b
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261300"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530572"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Processamento de cargas de entrada das ordens de compra no depósito
 
@@ -66,7 +66,7 @@ Quando uma carga de entrada chega primeiro ao depósito, os funcionários do dep
 
 - **Um menu de dispositivo móvel configurado para permitir o recebimento de carga**
 
-    O [aplicativo Dynamics 365 for Finance and Operations – Warehousing](install-configure-warehousing-app.md) para dispositivos móveis é compatível com os seguintes processos de criação de trabalho:
+    O [aplicativo de depósito](install-configure-warehousing-app.md) para dispositivos móveis é compatível com os seguintes processos de criação de trabalho:
 
     - Recebimento do item de carga
     - Recebimento e armazenamento do item de carga

@@ -3,7 +3,7 @@ title: Visão geral do gerenciamento de recursos
 description: Este tópico descreve o recurso de gerenciamento de recursos e como você pode usá-lo.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/12/2020
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 416c19dcf5b2c983afff7d2e8a9797fb0c0e2780
-ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
+ms.openlocfilehash: ae2c7a0d089c81a62932c415eed5f752e7fb4ffa
+ms.sourcegitcommit: 17a8e3d48da4354ba74e35031c320a16369bfcd5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456588"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "3499610"
 ---
 # <a name="feature-management-overview"></a>Visão geral do gerenciamento de recursos
 
@@ -140,6 +140,10 @@ Os exemplos a seguir descrevem o que ocorre quando você usa a entidade **Gerenc
 ## <a name="feature-management-and-flighting"></a>Gerenciamento recursos e liberação de versões
 
 O gerenciamento de recursos permite que você controle os recursos que são entregues em cada versão. A liberação de versões permite que as equipes da Microsoft liberem recursos para um número limitado de clientes, de maneira que os recursos possam ser testados e validados sem afetar todos os clientes. O gerenciamento de recursos não controla a liberação de versões dos recursos.
+
+## <a name="new-features-are-optional-for-12-months"></a>Novos recursos são opcionais por 12 meses
+
+Quando um novo recurso não crítico for instalado, ele será opcional por um período de 12 meses. Isso permite que você e a equipe da organização se planejem com antecedência sobre quando adotar um recurso e testá-lo em suas operações diárias. Para obter informações, consulte [Perguntas frequentes sobre as atualizações do serviço One Version](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/one-version#what-about-new-features).
 
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>Usando o gerenciamento de recursos para desativar recursos de ISV ou recursos personalizados
 

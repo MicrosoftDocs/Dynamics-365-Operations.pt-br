@@ -3,7 +3,7 @@ title: Configurar um ambiente de visualização do Dynamics 365 Commerce
 description: Este tópico explica como configurar um ambiente de visualização do Microsoft Dynamics 365 Commerce após ter sido provisionado.
 author: psimolin
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d72caee25c03e8167b94dd387c7861f98bd0f4cb
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: ad05996eaabd3965308370649a27b8bc3080c7ce
+ms.sourcegitcommit: f72e90dccc80718e99cab2752eaf8931dcbb915e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057708"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3534058"
 ---
 # <a name="configure-a-dynamics-365-commerce-preview-environment"></a>Configurar um ambiente de visualização do Dynamics 365 Commerce
 
@@ -116,7 +116,7 @@ Para habilitar trabalhos no Commerce, siga estas etapas.
 
 Para executar a sincronização completa dos dados no Commerce, siga estas etapas.
 
-1. Use o menu à esquerda para ir para **Módulos \> Varejo e comércio \> configuração da Sede \> Agendador do Retail \> Banco de dados do canal**.
+1. Use o menu à esquerda para ir para **Módulos \> Varejo e comércio \> Configuração da sede \> Agendador do Commerce \> Banco de dados do canal**.
 1. Na lista à esquerda, o canal **Padrão** é selecionado. Selecione o outro canal disponível. Esse canal é nomeado **scXXXXXXXXX**.
 1. No Painel de Ação, selecione **Sincronização de dados completa**.
 1. Digite **9999** como a agenda de distribuição.
