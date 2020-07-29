@@ -2540,12 +2540,14 @@
                       href: localizations/rus-inventory-adjustment-wizard.md
                     - name: Relatórios de estoque
                       href: localizations/rus-inventory-reports.md
-                    - name: Visão geral do perfil de estoque
-                      href: localizations/rus-inventory-profile-overview.md
-                    - name: Configurar um perfil de estoque
-                      hreF: localizations/rus-set-up-inventory-profile.md
-                    - name: Usar um perfil de estoque em documentos e consultas
-                      href: localizations/rus-use-inventory-profile-documents-queries.md
+                    - name: Perfil de estoque
+                      items:
+                        - name: Visão geral do perfil de estoque
+                          href: localizations/rus-inventory-profile-overview.md
+                        - name: Configurar um perfil de estoque
+                          hreF: localizations/rus-set-up-inventory-profile.md
+                        - name: Usar um perfil de estoque em documentos e consultas
+                          href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: Relatórios
                   items:
                     - name: Financial Reporting

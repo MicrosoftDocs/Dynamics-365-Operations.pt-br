@@ -74,6 +74,8 @@
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (julho de 2020)
                       href: get-started/whats-new-scm-10-0-11.md
+                    - name: Supply Chain Management 10.0.10 (maio de 2020)
+                      href: get-started/whats-new-scm-10-0-10.md
                 - name: Recursos removidos ou obsoletos
                   items:
                     - name: Recursos removidos ou obsoletos do Dynamics 365 Supply Chain Management
@@ -1355,6 +1357,8 @@
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: Cancelar um trabalho de planejamento
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Extensibilidade da Otimização de Planejamento
+                  href: master-planning/planning-optimization/extensibility.md
                 - name: Solucionar Problemas de Otimização de Planejamento
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
             - name: Planos mestres
@@ -1509,8 +1513,10 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurar sequências numéricas individualmente
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ​Configurar sequências numéricas usando um assistente​
+                - name: Configurar sequências numéricas usando um assistente
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Configurar sequências numéricas para fluxos de depósito
+                  href: warehousing/configure-number-sequence-extensions.md?toc=/dynamics365/supply-chain/toc.json
             - name: Organizações e hierarquias organizacionais
               items:
                 - name: Visão geral de organizações e hierarquias organizacionais
@@ -1815,9 +1821,13 @@
                       href: pim/tasks/product-lifecycle-state-released-product.md
                     - name: Localizar grades de produtos obsoletos
                       href: pim/tasks/obsolete-product-variants.md
-                    - name: Excluir o planejamento mestre
+                    - name: Excluir produtos do Planejamento mestre
                       href: pim/tasks/exclude-products-master-planning.md
-                - name: Criar um código de barra para um produto
+                - name: Mercadorias de uso duplo
+                  href: pim/dual-use.md
+                - name: País de origem
+                  href: pim/country-of-origin.md
+                - name: Criar um código de barras para um produto
                   href: pim/tasks/create-bar-code-product.md
                 - name: Inserir o código GTIN para um produto
                   href: pim/tasks/enter-gtin-code-product.md
@@ -2565,22 +2575,20 @@
               href: warehousing/warehouse-management-overview.md
             - name: Operações de depósito de entrada
               items:
-                - name: Recibos para registro e armazenamento
-                  items:
-                    - name: Processamento de cargas de entrada das ordens de compra no depósito
-                      href: warehousing/inbound-load-handling.md
-                    - name: Registrar itens para um item habilitado de depósito avançado usando um diário de entrada de item
-                      href: warehousing/tasks/register-items-advanced-warehousing.md
-                    - name: Registrar itens para um item básico com armazenamento habilitado usando um diário de entrada de itens
-                      href: warehousing/tasks/register-items-basic-warehousing.md
-                    - name: Produtos de distribuição integrada de recebimento de depósitos para armazenamento
-                      href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
-                    - name: Configurar uma diretiva de localização para o registro da ordem de compra
-                      href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
-                    - name: Configurar um modelo de trabalho para ordens de compra
-                      href: warehousing/tasks/set-up-work-template-purchase-orders.md
-                    - name: Combinação de dimensões do produto de localização
-                      href: warehousing/location-product-dimension-mixing.md
+                - name: Processamento de cargas de entrada das ordens de compra no depósito
+                  href: warehousing/inbound-load-handling.md
+                - name: Registrar itens para um item habilitado de depósito avançado usando um diário de entrada de item
+                  href: warehousing/tasks/register-items-advanced-warehousing.md
+                - name: Registrar itens para um item básico com armazenamento habilitado usando um diário de entrada de itens
+                  href: warehousing/tasks/register-items-basic-warehousing.md
+                - name: Produtos de distribuição integrada de recebimento de depósitos para armazenamento
+                  href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
+                - name: Configurar uma diretiva de localização para o registro da ordem de compra
+                  href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
+                - name: Configurar um modelo de trabalho para ordens de compra
+                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
+                - name: Combinação de dimensões do produto de localização
+                  href: warehousing/location-product-dimension-mixing.md
             - name: Operações de depósito de saída
               items:
                 - name: Reservas no gerenciamento de depósito
@@ -2597,14 +2605,14 @@
                   items:
                     - name: Configurar separação de cluster
                       href: warehousing/set-up-cluster-picking.md
+                    - name: Separação de cluster direcionada pelo sistema
+                      href: warehousing/system-directed-cluster-pick.md
                     - name: Configurar transporte em contêineres
                       href: warehousing/tasks/set-up-containerization.md
-                    - name: ​Confirmação de lote e placa de licença​
+                    - name: Confirmação de lote e placa de licença
                       href: warehousing/batch-and-license-plate-confirmation.md
                     - name: Habilitar a impressão da etiqueta da placa de licença
                       href: warehousing/tasks/license-plate-label-printing.md
-                    - name: Digitalizar códigos de barras usando uma câmera no Dynamics 365 for Finance and Operations
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Confirmação de separação de peças
                       href: warehousing/piece-picking-confirmation.md
                     - name: Materiais e taxas de embalagem
@@ -2615,14 +2623,18 @@
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                     - name: Cancelar trabalho de depósito para manuseio de exceção
                       href: warehousing/cancel-warehouse-work.md
-                    - name: Separação de cluster direcionada pelo sistema
-                      href: warehousing/system-directed-cluster-pick.md
                     - name: Sequenciamento do trabalho direcionado pelo sistema
                       href: warehousing/system-directed-work-sequencing.md
                     - name: Agrupamento de linhas de separação
                       href: warehousing/pick-line-grouping.md
                     - name: Slots de depósito
                       href: warehousing/warehouse-slotting.md
+                    - name: Classificação por vencimento de separação de estoque de diretiva de localização
+                      href: warehousing/location-directive-inventory-picking-aging.md
+                    - name: Classificação de saída
+                      href: warehousing/outbound-sorting.md
+                    - name: Colocar no mural/Colocar na loja
+                      href: warehousing/put-to-wall-put-to-store.md
                 - name: Reabastecimento
                   items:
                     - name: Visão geral de reabastecimento
@@ -2645,6 +2657,8 @@
                       href: warehousing/release-to-warehouse-rule.md
                     - name: Agrupamento de modelos de onda
                       href: warehousing/wave-template-grouping.md
+                    - name: Reimprimir e anular etiquetas de onda
+                      href: warehousing/reprint-and-void-wave-labels.md
                 - name: Políticas de consolidação da remessa
                   items:
                     - name: Políticas de consolidação da remessa
@@ -2715,6 +2729,10 @@
                       href: warehousing/work-line-details.md
                     - name: Posicionamento da placa de licença de localização
                       href: warehousing/location-license-plate-positioning.md
+                    - name: Alterar pool de trabalho no trabalho
+                      href: warehousing/change-work-pool-on-work.md
+                    - name: Consolidação do item – utilização do local
+                      href: warehousing/item-consolidation-location-utilization.md
             - name: Configuração do depósito
               items:
                 - name: Configuração de depósito
@@ -2723,12 +2741,14 @@
                       href: warehousing/warehouse-configuration.md
                     - name: Configurar um depósito usando um modelo de configuração de depósito
                       href: inventory/warehouse-template.md
-                    - name: Controlar trabalho usando modelos de trabalho e diretivas de localização
+                    - name: Controlar o trabalho usando modelos de trabalho e diretivas de localização
                       href: warehousing/control-warehouse-location-directives.md
                     - name: Códigos da etapa da onda
                       href: warehousing/wave-step-codes.md
                     - name: Configurar processamento da onda
                       href: warehousing/tasks/configure-wave-processing.md
+                    - name: Configurar e usar impressão de etiqueta de onda
+                      href: warehousing/configure-wave-label-printing.md
                     - name: Atualização automática de remessas
                       href: warehousing/auto-update-shipment.md
                     - name: Criar um perfil de localização
@@ -2753,8 +2773,6 @@
                       href: warehousing/system-group-on-open-work-list.md
                     - name: Layout de roteiro de documentos para etiquetas de placa de licença
                       href: warehousing/document-routing-layout-for-license-plates.md
-                    - name: Digitalizar códigos de barras usando uma câmera no Dynamics 365 for Finance and Operations
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Suporte a leitor de código de barras móvel
                       href: warehousing/mobile-barcode-support.md
                     - name: Configurar depósito para ordens de transferência
@@ -2767,6 +2785,8 @@
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Configurar dispositivos móveis para trabalho de depósito
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Digitalizar códigos de barras usando uma câmera no aplicativo de depósito
+                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Recebimento da placa de licença com o aplicativo de depósito
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Configurar um item de menu de dispositivo móvel para concluir trabalhos em uma ordem de compra

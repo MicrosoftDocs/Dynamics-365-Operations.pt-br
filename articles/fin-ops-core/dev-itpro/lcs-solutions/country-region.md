@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 795e9f5b843ba8e50dc091949c9732b8b033355e
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 89c38b354bbca022e80ace4aa8d0b947cfe67f3e
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812079"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598172"
 ---
 # <a name="globalization-resources"></a>Recursos de globalização
 
 ## <a name="local-and-regional-deployments"></a>Implantações locais ou regionais
 Caso suas regulamentações governamentais exijam que os dados sejam armazenados ou fornecidos de uma forma diferente daquela exigida por outros países/regiões, talvez você deva considerar certos requisitos de país/região durante a implantação. Considere os seguintes recursos que possam ser relevantes para você:
 
-[Aplicativos do Microsoft Dynamics 365 Finance and Operations operados pela 21Vianet na China](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[Aplicativos do Finance and Operations operados pela 21Vianet na China](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 
 ## <a name="localization-and-regulatory-features"></a>Recursos regulatórios e de localização
 
 [!include [banner](../includes/banner.md)]
 
-Os aplicativos do Dynamics 365 Finance and Operations incluem funcionalidade para países/regiões documentadas no [Guia de disponibilidade de tradução e localização de produtos](https://aka.ms/dynamics_365_international_availability_deck). Essa funcionalidade é habilitada com base no endereço principal da entidade legal ativa. 
+Os aplicativos do Finance and Operations incluem funcionalidade para países/regiões documentadas no [Guia de disponibilidade de tradução e localização de produtos](https://aka.ms/dynamics_365_international_availability_deck). Essa funcionalidade é habilitada com base no endereço principal da entidade legal ativa. 
 
 Este tópico inclui lista de recursos que podem ajudar a fazer o seguinte: 
 - Aprender mais sobre como desenvolver soluções específicas para o país/região.

@@ -36,19 +36,19 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/commerce/toc.json
                 - name: Criar e automatizar testes de aceitação de usuário
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/commerce/toc.json
-            - name: Configurar um ambiente de visualização do Dynamics 365 Commerce
+            - name: Configurar um ambiente de avaliação do Dynamics 365 Commerce
               items:
-                - name: Visão geral do ambiente de visualização do Dynamics 365 Commerce
+                - name: Visão geral do ambiente de avaliação do Dynamics 365 Commerce
                   href: cpe-overview.md
-                - name: Provisionar um ambiente de visualização do Dynamics 365 Commerce
+                - name: Provisionar um ambiente de avaliação do Dynamics 365 Commerce
                   href: provisioning-guide.md
-                - name: Configurar um ambiente de visualização do Dynamics 365 Commerce
+                - name: Configurar um ambiente de avaliação do Dynamics 365 Commerce
                   href: cpe-post-provisioning.md
-                - name: Configurar BOPIS em um ambiente do Dynamics 365 Commerce
+                - name: Configurar BOPIS em um ambiente de avaliação do Dynamics 365 Commerce
                   href: cpe-bopis.md
-                - name: Configurar recursos opcionais para um ambiente de visualização do Dynamics 365 Commerce
+                - name: Configurar recursos opcionais para um ambiente de avaliação do Dynamics 365 Commerce
                   href: cpe-optional-features.md
-                - name: Perguntas frequentes do ambiente de visualização do Dynamics 365 Commerce
+                - name: Perguntas frequentes sobre ambiente de avaliação do Dynamics 365 Commerce
                   href: cpe-faq.md
             - name: Considerações sobre implantação
               items:
@@ -72,6 +72,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: Aplicativos do Finance and Operations na França
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
+            - name: Obter suporte para o Dynamics 365 Commerce
+              href: retail-support.md
             - name: Upgrade e suporte N-1
               items:
                 - name: Upgrade e suporte N-1 para o Commerce
@@ -192,6 +194,8 @@
                   href: commerce-architecture.md
                 - name: Fluxos de autenticação do Dynamics 365 Commerce
                   href: arch-auth-flow.md
+                - name: Requisitos de versionamento de componentes do Dynamics 365 Commerce
+                  href: arch-component-versioning.md
                 - name: Arquitetura da Commerce Scale Unit
                   href: dev-itpro/retail-server-architecture.md
                 - name: Selecionar uma topologia na loja
@@ -1984,6 +1988,8 @@
                       href: e-commerce-extensibility/create-observable-data-action.md
                     - name: Compartilhar estado entre módulos
                       href: e-commerce-extensibility/share-state-across-modules.md
+                    - name: Configurações de cache de ação de dados
+                      href: e-commerce-extensibility/data-action-cache-settings.md
                     - name: Substituições de ação de dados
                       href: e-commerce-extensibility/data-action-overrides.md
                     - name: Ganchos de ação de dados
