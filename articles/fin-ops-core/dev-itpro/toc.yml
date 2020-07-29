@@ -1434,8 +1434,6 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: Exportar usuários B2B para o Azure AD
               href: sysadmin/implement-b2b.md
-            - name: Automação de processos
-              href: sysadmin/process-automation.md
             - name: Segurança
               items:
                 - name: Segurança baseada em função
@@ -1458,13 +1456,19 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: Atribuir usuários a funções de segurança
                   href: sysadmin/tasks/assign-users-security-roles.md
+                - name: Importar ou exportar a configuração de segurança personalizada usando o Gerenciamento de dados
+                  href: sysadmin/import-export-customized-security.md
                 - name: Diagnóstico de segurança de gravações de tarefas
                   href: sysadmin/tasks/security-diagstics-task-recordings.md
+                - name: Políticas de segurança de dados extensíveis
+                  href: sysadmin/extensible-data-security-policies.md
+                - name: Criar uma política de segurança
+                  href: sysadmin/create-simple-security-policy.md
             - name: Automação de processos
-              href: /sysadmin/process-automation.md
+              href: sysadmin/process-automation.md
             - name: Processamento em lotes
               items:
-                - name: Visão geral do Processamento em lotes
+                - name: Visão geral do processamento em lotes
                   href: sysadmin/batch-processing-overview.md
                 - name: Servidores de lote e processamento em lotes
                   href: sysadmin/batch-server-overview.md
@@ -1670,7 +1674,7 @@
                   href: user-interface/check-box-tree-controls.md
                 - name: Opções de filtragem
                   href: user-interface/filtering.md
-                - name: Controle Host do PowerApps
+                - name: Controle Host do Power Apps
                   href: user-interface/powerapps-host-control.md
             - name: Gerenciamento de janelas
               items:
