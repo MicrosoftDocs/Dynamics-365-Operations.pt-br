@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 12fadd8387054db3e19d4136555724c23548e05c
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: 755181e956a3d93d87e9e5d57622283ff7bf4944
+ms.sourcegitcommit: f62c2151be477acfaeace73878471abb9b1b832d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3031010"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3602520"
 ---
 # <a name="alerts-overview"></a>Visão geral dos alertas
 
@@ -73,10 +73,6 @@ Uma regra de alerta tem cinco componentes:
 
     > [!NOTE]
     > Esta opção está restrita a administradores da organização.
-
-## <a name="email-notifications-from-alerts"></a>Notificações por email de alertas
-
-As notificações por email de alertas ainda não estão habilitadas. Isso será habilitado em uma atualização futura.
 
 ## <a name="videos"></a>Vídeos
 

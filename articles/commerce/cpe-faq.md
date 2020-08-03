@@ -1,9 +1,9 @@
 ---
-title: Perguntas frequentes do ambiente de visualização do Dynamics 365 Commerce
-description: Este tópico dá respostas às perguntas frequentes sobre o ambiente de visualização do Microsoft Dynamics 365 Commerce.
+title: Perguntas frequentes sobre o ambiente de avaliação do Dynamics 365 Commerce
+description: Este tópico fornece respostas às perguntas frequentes sobre o ambiente de avaliação do Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 04/10/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,73 +17,57 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5321d7937a9de3ba39f7a88bf0e9c26f4e62d7bc
-ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
+ms.openlocfilehash: 637714e28b9f8f4aa66e251e709d8f78bff2739d
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "3254715"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599741"
 ---
-# <a name="dynamics-365-commerce-preview-environment-faq"></a>Perguntas frequentes do ambiente de visualização do Dynamics 365 Commerce
+# <a name="dynamics-365-commerce-evaluation-environment-faq"></a>Perguntas frequentes sobre o ambiente de avaliação do Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Este tópico dá respostas às perguntas frequentes sobre o ambiente de visualização do Microsoft Dynamics 365 Commerce.
+Este tópico fornece respostas às perguntas frequentes sobre o ambiente de avaliação do Microsoft Dynamics 365 Commerce.
 
-**É possível transferir meu convite para o ambiente de visualização do Commerce para outro locatário?**
+**É possível usar o ambiente de avaliação do Commerce como uma vitrine do e-Commerce para clientes que atualmente implementam o Retail?**
 
-Sim. Para transferências de convite, você pode usar o [Formulário de transferência de exibição do Commerce](https://aka.ms/Dynamics365CommercePreviewTransferForm).
+Não. O ambiente de avaliação do Commerce é somente para avaliação. Se você precisar de um ambiente para um cliente que implemente Varejo, contate a Microsoft.
 
-**Quanto tempo a transferência de convites demora?**
+**O ambiente de avaliação do Commerce pode ser usado para provisionar os recursos do e-Commerce sobre um aplicativo/ambiente existente que implementa o Retail?**
 
-A transferência leva uma média de cerca de três a cinco dias úteis. No entanto, podem ser aplicadas exceções.
+Não (normalmente). Os componentes de avaliação do Commerce estão disponíveis somente para ambientes que correspondam às configurações especificadas no guia de pré-requisitos e provisionamento. Além disso, os dados de demonstração base necessários não estarão disponíveis em ambientes implantados com uma versão inicial anterior à 10.0.8. 
 
-**O ambiente de visualização do Commerce trabalha com projetos do Dynamics 365 Finance ou do Dynamics 365 Supply Chain?**
+**Quais são os custos envolvidos na implantação do ambiente de avaliação do Commerce no Microsoft Azure via Microsoft Dynamics Lifecycle Services (LCS)?**
 
-Nº O ambiente de visualização do Commerce funciona somente com projetos do Dynamics 365 Retail.
+Um ambiente de demonstração de sede tradicional (máquina virtual \[VM\]) do Dynamics 365 Finance/Dynamics 365 Supply Chain Management/Dynamics 365 Commerce será hospedado na sua assinatura do Azure. Você pode usar a [Calculadora de preços do Azure](https://azure.microsoft.com/pricing/calculator/) para estimar esse custo.
 
-**É possível usar o ambiente de visualização do Commerce como uma vitrine de comércio eletrônico para clientes que atualmente implementam Varejo?**
+Outros componentes, como o Commerce Scale Unit, o construtor de sites do Commerce e seu site do e-Commerce, estarão disponíveis como software como serviço (SaaS) e serão hospedados pela Microsoft.
 
-Nº O ambiente de visualização do Commerce é apenas o ambiente de avaliação. Se você precisar de um ambiente para um cliente que implemente Varejo, contate a Microsoft.
+**Quais regiões do Azure são atualmente compatíveis com o ambiente de avaliação do Commerce?**
 
-**O ambiente de visualização do Commerce pode ser usado para provisionar os recursos de comércio eletrônico na parte superior de um aplicativo/ambiente existente que implementa Varejo?**
-
-Nº O ambiente de visualização do Commerce está disponível no momento somente em novos ambientes que foram implantados em projetos de unidade de manutenção de estoque de varejo (SKU) que têm dados de demonstração da versão 10.0.6.
-
-**Quais são os custos envolvidos na implantação do ambiente de visualização do Commerce Microsoft Azure via Microsoft Dynamics Lifecycle Services (LCS)?**
-
-O varejo é o único componente que está hospedado na sua assinatura. Outros componentes, como Retail Cloud Scale Unit (RCSU) e comércio eletrônico serão hospedados em assinaturas da Microsoft. Você pode usar a [Calculadora de preços do Azure](https://azure.microsoft.com/pricing/calculator/) para estimar esse custo.
-
-**Quais regiões do Azure são atualmente compatíveis com o ambiente de visualização do Commerce?**
-
-O ambiente de visualização do Commerce só pode ser implantado na geografia da América do Norte.
+O ambiente de avaliação do Commerce só pode ser implantado na América do Norte.
 
 **Há um disco rígido virtual (VHD) baixado que tem a opção de máquina virtual (VM) OneBox completa?**
 
-O Dynamics 365 Retail Cloud Scale Unit (RCSU) e o comércio eletrônico são totalmente software como serviço (SaaS) e devem ser hospedados na nuvem.
+O Dynamics 365 Commerce e o Commerce Scale Unit são totalmente software como serviço (SaaS) e devem ser hospedados na nuvem.
 
-**Por quanto tempo o ambiente de visualização do Commerce pode ser usado?**
+**Por quanto tempo o ambiente de avaliação do Commerce pode ser usado?**
 
-O ambiente de visualização do Commerce tem um limite de tempo de 30 dias a partir da data de provisionamento do comércio eletrônico.
+O ambiente de avaliação do Commerce tem um limite de tempo de 30 dias a partir da data em que componentes SaaS, como o Commerce Scale Unit, o construtor de sites do Commerce e seu site do e-Commerce, são provisionados.
 
-**É possível estender o limite de tempo para meu ambiente de demonstração do Commerce?**
+**É possível estender o limite de tempo para meu ambiente de avaliação do Commerce?**
 
-Sim. Você pode entrar em contato com a equipe de suporte usando o [Formulário de extensão de visualização do Commerce](https://aka.ms/Dynamics365CommercePreviewExtensionForm).
-
-**Podemos fazer várias solicitações para um ambiente de visualização do Commerce?**
-
-A Microsoft concede uma cota de um ambiente de visualização do Commerce para cada solicitação aceita. Se você precisar de mais de um ambiente de visualização, contate a Microsoft. Para obter informações de contato, consulte a próxima seção.
-
-## <a name="dynamics-365-commerce-preview-environment-contact-information"></a>Informações de contato do ambiente de visualização do Dynamics 365 Commerce
-
-Para contatar a Microsoft se tiver perguntas ou solicitações relacionadas ao ambiente de visualização do Commerce, visite o grupo de [Visualização do Microsoft Dynamics 365 Commerce Yammer](https://aka.ms/Dynamics365CommercePreviewYammer) para obter ajuda.
+A extensão do limite de tempo é uma exceção à norma e é considerada caso a caso. Fale com o contato do seu parceiro Microsoft para obter ajuda.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral do ambiente de visualização do Dynamics 365 Commerce](cpe-overview.md)
+[Visão geral do ambiente de avaliação do Dynamics 365 Commerce](cpe-overview.md)
 
-[Provisionar um ambiente de visualização do Dynamics 365 Commerce](provisioning-guide.md)
+[Provisionar um ambiente de avaliação do Dynamics 365 Commerce](provisioning-guide.md)
 
-[Configurar um ambiente de visualização do Dynamics 365 Commerce](cpe-post-provisioning.md)
+[Configurar um ambiente de avaliação do Dynamics 365 Commerce](cpe-post-provisioning.md)
 
-[Configurar recursos opcionais para um ambiente de visualização do Dynamics 365 Commerce](cpe-optional-features.md)
+[Configurar BOPIS em um ambiente de avaliação do Dynamics 365 Commerce](cpe-bopis.md)
+
+[Configurar recursos opcionais para um ambiente de avaliação do Dynamics 365 Commerce](cpe-optional-features.md)

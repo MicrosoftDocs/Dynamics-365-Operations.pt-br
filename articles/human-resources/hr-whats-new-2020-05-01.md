@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f1a0cfd1c1b0dcc9defaad7e4cce22ebe1e91fae
-ms.sourcegitcommit: cc5dc0bd90277f1ba684dd310da3274886ce573c
+ms.openlocfilehash: e4da626ce3412fba6f90dd7f953c1cbc79ab60c3
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "3320910"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555114"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-1-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources (1 de maio de 2020)
 
@@ -102,3 +102,10 @@ Se a visualização de documentos armazenados no SharePoint não funcionar, tent
 3. Acesse um anexo no SharePoint para iniciar a visualização do documento.
 
 4. Entre com outra conta de usuário que tenha acesso a anexos e verifique se a visualização funciona conforme o esperado.
+
+## <a name="see-also"></a>Consulte também
+
+[Novidades ou alterações no Human Resources](hr-admin-whats-new.md)</br>
+[Visão geral da onda 2 da versão 2019 do Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Atualizar processo](hr-admin-setup-update-process.md)</br>
+[Gerenciar recursos](hr-admin-manage-features.md)

@@ -3,7 +3,7 @@ title: Visão geral da previsão de demanda
 description: A previsão de demanda é usada para prever a demanda independente nas ordens de venda e a demanda dependente em qualquer ponto de dissociação das ordens dos clientes. As regras aprimoradas de redução de previsão de demanda oferecem uma solução ideal para a personalização em massa.
 author: roxanadiaconu
 manager: tfehr
-ms.date: 01/07/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be60bb5c856020d76d185249fddf09493ea1d2ed
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 1033432d0d820516d8c9b2f58f27241351e7c64b
+ms.sourcegitcommit: 2e7454c07adfc05164121307050f6f24303d36d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213874"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3550031"
 ---
 # <a name="demand-forecasting-overview"></a>Visão geral da previsão de demanda
 
@@ -48,7 +48,7 @@ Estes são alguns dos principais recursos de previsão de demanda:
 Os três temas principais são implementados na previsão de demanda:
 
 -   **Modularidade** – A previsão de demanda é modular e fácil de configurar. Você pode ativar e desativar a funcionalidade alterando a chave de configuração em **Comércio** &gt; **Previsão de estoque** &gt; **Previsão de demanda**.
--   **Reutilização da pilha da Microsoft** – O Microsoft iniciou a plataforma Aprendizado de Máquina em fevereiro de 2015. O Aprendizado de Máquina, que agora faz parte da Microsoft Cortana Analytics Suite, permite criar rápida e facilmente experimentos de análise preditiva, como experiências de estimativa de demanda, usando linguagens de programação R ou Python e uma interface simples de arrastar e soltar.
+-   **Reutilização da Microsoft Stack** – O Machine Learning, que agora faz parte do Microsoft Cortana Analytics Suite, permite criar experimentos de análise preditiva de maneira rápida e fácil, como experiências de estimativa de demanda, usando algoritmos R ou linguagens de programação Python e uma interface simples de arrastar e soltar.
     -   Você pode baixar os experimentos de previsão de demanda, alterá-los para atender às suas necessidades de negócios, publicá-los como um serviço Web no Azure e usá-los para gerar previsões de demanda. Os experimentos estarão disponíveis para download se você tiver adquirido uma assinatura do Supply Chain Management para um planejador de produção como usuário em nível empresarial.
     -   Você pode baixar qualquer experimento de previsão de demanda atualmente disponível na [Galeria de Análise da Cortana](https://gallery.cortanaanalytics.com/). Enquanto os experimentos de previsão de demanda são automaticamente integrados ao Supply Chain Management, os clientes e parceiros devem lidar com a integração dos experimentos baixados da [Galeria de Análise da Cortana](https://gallery.cortanaanalytics.com/). Portanto, os experimentos da [Galeria de Análise da Cortana](https://gallery.cortanaanalytics.com/) não são tão simples de usar quanto os experimentos de previsão de demanda do Finance and Operations. Você deve modificar o código dos experimentos de modo que eles usem a API (interface de programa aplicativo) do Finance and Operations.
     -   Você pode criar seus próprios experimentos no Microsoft Azure Machine Learning Studio (clássico), publicá-los como serviços no Azure e usá-los para gerar previsões de demanda.
@@ -70,6 +70,16 @@ Você pode usar o Supply Chain Management para visualizar e modificar as previs�
 
 ## <a name="limitations"></a>Limitações
 A previsão de demanda é uma ferramenta que ajuda os clientes do setor de fabricação a criar processos de previsão. Ela oferece a funcionalidade principal de uma solução de previsão de demanda e é criada de modo que possa ser facilmente estendida. A previsão de demanda pode não ser o melhor ajuste para clientes de setores como comércio, atacado, armazenamento, transporte ou outros serviços profissionais.
+
+### <a name="demand-forecast-variant-conversion-limitation"></a>Limitação de conversão de grade de previsão de demanda
+
+A unidade de medida (UOM) por conversão de grade não tem suporte completo ao gerar a previsão de demanda se a UOM do estoque é diferente da UOM da previsão de demanda.
+
+A geração de previsão (**UOM de estoque > UOM de previsão de demanda**) usa conversão de UOM de produto. Ao carregar dados históricos para geração da previsão de demanda, a conversão da UOM no nível de produto será sempre usada ao converter de UOM de estoque para UOM de previsão de demanda, mesmo se houver conversões definidas no nível da grade.
+
+A primeira parte de autorizar a previsão (**UOM de previsão de demanda > UOM de estoque**) usa conversão de UOM de produto. A segunda parte de autorizar a previsão (**UOM de estoque > UOM de vendas**) usa a conversão de UOM de grade. Quando a previsão de demanda gerada for autorizada, a conversão para UOM de estoque de UOM de previsão de demanda será feita usando a conversão de UOM no nível de produto. Ao mesmo tempo, a conversão entre a unidade de estoque e a UOM de vendas respeitará as conversões definidas no nível de grade.
+
+Observe que a UOM de previsão de demanda não precisa ter um significado específico. Ela pode ser definida como "Unidade de previsão de demanda". Para cada um dos produtos, é possível definir a conversão como 1:1 com a UOM de estoque.
 
 <a name="additional-resources"></a>Recursos adicionais
 --------

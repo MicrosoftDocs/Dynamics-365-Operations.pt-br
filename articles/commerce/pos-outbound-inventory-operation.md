@@ -3,7 +3,7 @@ title: Operação de estoque de saída no POS
 description: Este tópico descreve os recursos da operação de saída do estoque do ponto de venda (POS).
 author: hhaines
 manager: annbe
-ms.date: 05/14/2020
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 22f057c20898bb4b4c34e38d62313d2634a33511
-ms.sourcegitcommit: 3b6fc5845ea2a0de3db19305c03d61fc74f4e0d4
+ms.openlocfilehash: c2c8acfaf7b84870ce00bf1ae84440dd369df9da
+ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3384120"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3551616"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Operação de estoque de saída no POS
 
@@ -58,6 +58,9 @@ Para configurar uma estrutura de documento assíncrona, conclua os procedimentos
 7. Na Guia Rápida **Geral**, na seção **Configuração**, defina a opção **Contínuo** como **Não** para garantir que não haja problemas de desempenho.
 
 ### <a name="create-and-schedule-two-batch-jobs-for-the-document-processing-and-monitoring-tasks"></a>Criar e agendar dois trabalhos em lote para o processamento de documentos e as tarefas de monitoramento
+
+> [!NOTE]
+> No Commerce versão 10.0.13 e posterior, você não precisa configurar os trabalhos em lotes por meio da estrutura do trabalho em lotes. Os processos em lotes podem ser configurados no menu **Retail e Commerce > TI de Varejo e Comércio**. Use as opções de menu **Monitor da operação do documento de varejo** e **Processamento da operação de documento de varejo** para configurar os trabalhos em lotes
 
 Os trabalhos em lotes que você criar serão usados para processar documentos que falharam ou expiram. Eles também serão usados quando o número de documentos de estoque ativos que estão sendo processados no PDV exceder um valor configurado pelo sistema.
 

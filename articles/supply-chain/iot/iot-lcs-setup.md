@@ -2,8 +2,8 @@
 title: Instale o suplemento de Inteligência de IoT no LCS
 description: Este tópico explica como instalar o suplemento de Inteligência de IoT no Microsoft Dynamics Lifecycle Services (LCS).
 author: robinarh
-manager: AnnBe
-ms.date: 08/16/2019
+manager: tfehr
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: ''
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 04333b3659f090b15cc0d0ee216f14dabc588883
-ms.sourcegitcommit: 261b70ea358b2c231e20f320ed8bd6adc1e7d715
+ms.openlocfilehash: d2bcbf69362e4ca3a156d1d404e15489ddb3f0d0
+ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "3386485"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3597207"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>Instale o suplemento de Inteligência de IoT no LCS
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico explica como instalar o suplemento de Inteligência de IoT no Microsoft Dynamics Lifecycle Services (LCS). Para poder instalar o suplemento, você deve [criar os recursos do Azure](iot-azure-setup.md).
+Este tópico explica como instalar o suplemento de Inteligência de IoT no Microsoft Dynamics Lifecycle Services (LCS). Observe que não é possível instalar suplementos em um ambiente de demonstração/avaliação. Para poder instalar o suplemento, você deve [criar os recursos do Azure](iot-azure-setup.md).
 
 ## <a name="set-up-the-lcs-environment"></a>Configurar o ambiente LCS
 

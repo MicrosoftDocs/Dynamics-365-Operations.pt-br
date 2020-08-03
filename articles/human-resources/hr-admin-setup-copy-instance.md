@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8385b7dfcd1d7294542c7f54f609b26b7988ac4
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: b14baf49517f5d606038af20366944788b22eba2
+ms.sourcegitcommit: 1ec931f8fe86bde27f6def36ea214a2a05fb22f6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431236"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3554316"
 ---
 # <a name="copy-an-instance"></a>Copiar uma instância
 
@@ -108,6 +108,6 @@ Além disso, os seguintes status são alterados ao copiar uma instância:
 
 ## <a name="environment-admin"></a>Administrador do ambiente
 
-Todos os usuários no ambiente de área de proteção de destino, incluindo os administradores, são substituídos pelos usuários do ambiente de origem. Antes de copiar uma instância, verifique se você é um administrador no ambiente de destino. Se não estiver, não será possível fazer logon no ambiente de área de proteção de destino após a conclusão da cópia.
+Todos os usuários no ambiente de área de proteção de destino, incluindo os administradores, são substituídos pelos usuários do ambiente de origem. Antes de copiar uma instância, verifique se você é um administrador no ambiente de origem. Se não estiver, não será possível fazer logon no ambiente de área de proteção de destino após a conclusão da cópia.
 
 Todos os usuários que não são administradores no ambiente de área de proteção de destino são desabilitados para evitar a entrada indesejada no ambiente de área restrita. Os administradores podem habilitar novamente os usuários, se necessário.

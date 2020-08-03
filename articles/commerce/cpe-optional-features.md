@@ -1,9 +1,9 @@
 ---
-title: Configurar recursos opcionais para um ambiente de visualização do Dynamics 365 Commerce
-description: Este tópico explica como configurar recursos opcionais para um ambiente de visualização do Microsoft Dynamics 365 Commerce.
+title: Configurar recursos opcionais para um ambiente de avaliação do Dynamics 365 Commerce
+description: Este tópico explica como configurar recursos opcionais para um ambiente de avaliação do Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,28 +17,25 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4b17f8e9b0d8a9a62714d0073561e66642b2eaf9
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 6f7ba7e6de3791720458b509059f008423c73a82
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057731"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599811"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-preview-environment"></a>Configurar recursos opcionais para um ambiente de visualização do Dynamics 365 Commerce
-
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Configurar recursos opcionais para um ambiente de avaliação do Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Este tópico explica como configurar recursos opcionais para um ambiente de visualização do Microsoft Dynamics 365 Commerce.
+Este tópico explica como configurar recursos opcionais para um ambiente de avaliação do Microsoft Dynamics 365 Commerce.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
 Se quiser avaliar os recursos transacionais de email, os seguintes pré-requisitos deverão ser atendidos:
 
-- Você tem um servidor de email disponível (servidor Simple Mail Transfer Protocol \[SMTP\]) que pode ser usado da assinatura de Microsoft Azure onde você provisionou o ambiente de visualização.
+- Há um servidor de email disponível (servidor Simple Mail Transfer Protocol \[SMTP\]) que pode ser usado da assinatura do Microsoft Azure onde você provisionou o ambiente de avaliação.
 - Você tem o nome de domínio totalmente qualificado (FQDN)/endereço IP do servidor, o número da porta SMTP e os detalhes de autenticação disponíveis.
-
-Se você deseja avaliar os recursos de gerenciamento de ativos digitais ao incluir novas imagens do Omni Channel, você deve ter o nome do seu locatário sistema de gerenciamento de conteúdo (CMS) disponível. As instruções para encontrar esse nome são fornecidas posteriormente neste tópico. >>>(P: onde estão as instruções?)
 
 ## <a name="configure-the-image-back-end"></a>Configurar o back-end de imagem
 
@@ -47,9 +44,9 @@ Se você deseja avaliar os recursos de gerenciamento de ativos digitais ao inclu
 > [!NOTE]
 > Antes de concluir este procedimento, você deve concluir as etapas em [Configurar seu site no Commerce](cpe-post-provisioning.md#set-up-your-site-in-commerce).
 
-1. Efetue login na ferramenta de gerenciamento de site do Commerce usando a URL que você fez uma observação ao inicializar o comércio eletrônico durante o provisionamento (consulte [Inicializar comércio eletrônico](provisioning-guide.md#initialize-e-commerce)).
+1. Entre no construtor de sites do Commerce usando a URL que você anotou ao inicializar o e-Commerce durante o provisionamento (consulte [Inicializar o e-Commerce](provisioning-guide.md#initialize-e-commerce)).
 1. Abra o site **Fabrikam**.
-1. No menu à esquerda, selecione **Ativos**.
+1. No menu à esquerda, selecione **Biblioteca de Mídia**.
 1. Selecione qualquer ativo único da imagem.
 1. No Inspetor de propriedades à direita, localize a propriedade de **URL pública**. O valor é uma URL. Este é um exemplo:
 
@@ -63,22 +60,22 @@ Se você deseja avaliar os recursos de gerenciamento de ativos digitais ao inclu
 
 ### <a name="update-the-media-base-url"></a>Atualize a URL base da mídia
 
-1. Entre no Dynamics 365 Commerce.
+1. Entre na sede do Commerce.
 1. Use o menu à esquerda, vá para **Módulos \> Varejo e comércio \> Configuração do Canal \> Perfis do canal**.
 1. Selecione **Editar**.
 1. Em **Propriedades do perfil**, substitua o valor da propriedade da **URL Base do Servidor de Mídia** com a URL Base de Mídia que você criou anteriormente.
-1. Na lista à esquerda, em canal **Padrão**, selecione outro canal.
+1. Selecione o canal chamado **scXXXXXXXXX**.
 1. Em **Propriedades de perfil**, selecione **Adicionar**.
 1. Para a propriedade adicionada, selecione **URL Base do Servidor de Mídia** como a chave de propriedade. Como o valor da propriedade, insira a URL base da mídia criada anteriormente.
 1. Selecione **Salvar**.
 
-## <a name="configure-the-email-server"></a>Configurar o servidor de email
+## <a name="configure-and-test-the-email-server"></a>Configurar e testar o servidor de email
 
 > [!NOTE]
 > Observe que o servidor SMTP ou o serviço de email digitado aqui deve estar acessível na assinatura do Azure que você está usando para o ambiente.
 
-1. Entre no Commerce.
-1. Use o menu à esquerda para acessar **Módulos \> Administração de sistema \> Configuração \> Email \> Parâmetros de email**.
+1. Entre na sede do Commerce.
+1. Use o menu à esquerda para acessar **Módulos \> Retail e Commerce \> Configuração da sede \> Parâmetros \> Parâmetros de email**.
 1. Na guia **Configurações de SMTP**, no campo**Servidor de email de saída**, insira o FQDN ou o endereço IP do servidor SMTP ou serviço de email.
 1. No campo **Número da porta SMTP**, insira o número da porta. (Se você não estiver usando Secure Sockets Layer \[SSL\], o número da porta padrão é **25**.)
 1. Se a autenticação for necessária, insira os valores nos campos **Nome de usuário** e **Senha**.
@@ -92,8 +89,8 @@ Se você deseja avaliar os recursos de gerenciamento de ativos digitais ao inclu
 
 Para cada evento transacional para o qual você deseja enviar emails, você deve atualizar o modelo de email com um endereço de email do remetente válido.
 
-1. Entre no Commerce.
-1. Use o menu à esquerda para acessar **Módulos \> Administração da organização \> Configurar \> Modelos de email da organização**.
+1. Entre na sede do Commerce.
+1. Use o menu à esquerda para acessar **Módulos \> Retail e Commerce \> Configuração da sede \> Parâmetros \> Modelos de email da organização**.
 1. Selecione **Mostrar lista**.
 1. Para cada modelo na lista, siga estas etapas:
 
@@ -104,9 +101,9 @@ Para cada evento transacional para o qual você deseja enviar emails, você deve
 
 ## <a name="customize-email-templates"></a>Personalizar modelos de email
 
-Você pode desejar personalizar os modelos de email para que eles usem imagens diferentes. Ou, talvez queira atualizar os links nos modelos para que eles possam ir para o seu ambiente de visualização. Esse procedimento explica como baixar os modelos padrão, personalizá-los e atualizar os modelos no sistema.
+Você pode desejar personalizar os modelos de email para que eles usem imagens diferentes. Ou, talvez queira atualizar os links nos modelos para que eles levem você ao seu ambiente de avaliação. Esse procedimento explica como baixar os modelos padrão, personalizá-los e atualizar os modelos no sistema.
 
-1. Em um navegador da Web, baixe o arquivo compactado de modelos de email padrão para visualização da [Microsoft Dynamics 365 Commerce](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) para seu computador local. Esse arquivo contém os seguintes documentos HTML:
+1. Em um navegador da Web, baixe o [arquivo zip de modelos de email padrão para Avaliação do Microsoft Dynamics 365 Commerce](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) no seu computador local. Esse arquivo contém os seguintes documentos HTML:
 
     - Módulo de confirmação da ordem
     - Emitir modelo de vale-presente
@@ -156,12 +153,12 @@ Os seguintes tokens são substituídos com valores para cada produto no pedido.
 > [!NOTE]
 > Coloque o token **Lista de produtos - iniciar** no início do bloqueio de HTML que é repetido para cada produto, e insere o token **Lista de produto - fim** no final do bloqueio.
 
-| Nome do token      | Token  |
+| Nome do token      | Token |
 |------------------------|-------|
 | Lista de produtos - início   | \<!--%tablebegin.salesline% --\> |
 | Lista de produtos - fim     | \<!--%tableend.salesline%--\> |
 | Nome do produto           | %lineproductname% |
-| Descrição            | %lineproductdescription% |
+| descrição            | %lineproductdescription% |
 | Quantidade               | %linequantity% |
 | Preço unitário da linha        | %lineprice% (verificação) |
 | total do item de linha        | %linenetamount% |
@@ -173,13 +170,15 @@ Os seguintes tokens são substituídos com valores para cada produto no pedido.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral do ambiente de visualização do Dynamics 365 Commerce](cpe-overview.md)
+[Visão geral do ambiente de avaliação do Dynamics 365 Commerce](cpe-overview.md)
 
-[Provisionar um ambiente de visualização do Dynamics 365 Commerce](provisioning-guide.md)
+[Provisionar um ambiente de avaliação do Dynamics 365 Commerce](provisioning-guide.md)
 
-[Configurar um ambiente de visualização do Dynamics 365 Commerce](cpe-post-provisioning.md)
+[Configurar um ambiente de avaliação do Dynamics 365 Commerce](cpe-post-provisioning.md)
 
-[Perguntas frequentes do ambiente de visualização do Dynamics 365 Commerce](cpe-faq.md)
+[Configurar BOPIS em um ambiente de avaliação do Dynamics 365 Commerce](cpe-bopis.md)
+
+[Perguntas frequentes sobre o ambiente de avaliação do Dynamics 365 Commerce](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
