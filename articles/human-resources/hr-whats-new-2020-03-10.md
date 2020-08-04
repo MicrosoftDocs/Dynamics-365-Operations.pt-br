@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c1a9f10a434343e4c9c8a42ec5c0b7a1a18ad36
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: 1843095c41428d377341154c9f2140085831e770
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3124007"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555235"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-10-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources (10 de março de 2020)
 
@@ -97,3 +97,10 @@ Os seguintes recursos de visualização foram disponibilizados em 3 de fevereiro
 - Campos recomendados - Geralmente, os usuários precisam adicionar campos a uma grade ou a uma página. Isso pode ser difícil com tantos campos disponíveis. Em vez de ter de pesquisar uma lista grande, este recurso permite que o sistema alcance um conjunto de campos recomendados com base no que os outros usuários adicionam com mais frequência em cenários semelhantes.
 
 - Ações adesivas padrão em grades-este recurso garante que a ação padrão em uma grade esteja vinculada a uma coluna específica em uma grade, independentemente da coluna ser movida ou ocultada.
+
+## <a name="see-also"></a>Consulte também
+
+[Novidades ou alterações no Human Resources](hr-admin-whats-new.md)</br>
+[Visão geral da onda 2 da versão 2019 do Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Atualizar processo](hr-admin-setup-update-process.md)</br>
+[Gerenciar recursos](hr-admin-manage-features.md)

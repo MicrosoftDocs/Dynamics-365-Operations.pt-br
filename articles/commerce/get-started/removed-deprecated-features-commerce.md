@@ -3,7 +3,7 @@ title: Recursos removidos ou obsoletos do Dynamics 365 Commerce
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção de Dynamics 365 Commerce.
 author: josaw
 manager: AnnBe
-ms.date: 06/10/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 64241ef1c25359c7b3b305c4e8f2b24de7e8f5e4
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: aa18e7446a72a907fcad70f92ea529088b6cecbd
+ms.sourcegitcommit: 83c7e5ab54c1cad2e21e33769cc524cfa4213f58
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3443909"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3539870"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Recursos removidos ou obsoletos do Dynamics 365 Commerce
 
@@ -41,8 +41,35 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 |   |  |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | O recurso de ganchos de ação de dados foi substituído devido a problemas de desempenho. |
-| **Substituída por outro recurso?**   | Em vez disso, recomenda-se usar [substituições de ação de dados](../e-commerce-extensibility/data-action-overrides.md) para modificar a lógica comercial na camada de ação de dados.|
+| **Substituída por outro recurso?**   | Recomendamos o uso de [substituições de ação de dados](../e-commerce-extensibility/data-action-overrides.md) para modificar a lógica comercial na camada de ação de dados.|
 | **Áreas afetadas do produto**         | Ações de dados de extensibilidade do comércio eletrônico |
+| **Opção de implantação**              | Todas |
+| **Status**                         | botãoPreterido: a partir da versão 10.0.11 |
+
+### <a name="retail-sdk-support-for-visual-studio-2015-msbuild-140-and-retail-sdkreference-libraries-and-tools"></a>Suporte do SDK do Retail para o Visual Studio 2015, msbuild 14.0 e bibliotecas e ferramentas do SDK\Referência do Retail
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | O suporte do SDK do Retail para o Visual Studio 2015 foi preterido e atualizado para o suporte ao VS 2017, ao msbuild 15.0 e a todas as bibliotecas de referência e ferramentas do gerador de proxy do Commerce na pasta RetailSDK\References movidas para pacotes NuGet para simplificar o processo de extensão e de atualização do SDK.|
+| **Substituída por outro recurso?**   | Recomendamos que você siga as informações em [Migrar o SDK do Retail do Visual Studio 2015 para o Visual Studio 2017](../dev-itpro/retail-sdk/migrate-sdk.md) para atualizar seu sistema. |
+| **Áreas afetadas do produto**         | Extensões do SDK do Retail |
+| **Opção de implantação**              | Todas |
+| **Status**                         | botãoPreterido: a partir da versão 10.0.11 |
+
+### <a name="retail-server-extension-using-iedmmodelextender-and-commercecontroller"></a>Extensão do Servidor do Retail usando IEdmModelExtender e CommerceController
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | A extensão do Servidor do Retail usando IEdmModelExtender e CommerceController foi preterida para fornecer um modelo de extensão simplificado. A nova implementação terá somente a classe Controller sem nenhuma implementação de classe IEdmModelExtender adicional. Isso também evita a dependência com uma versão do OData específica (se a versão do OData for atualizada, as extensões poderão ser quebradas.) |
+| **Substituída por outro recurso?**   |  Recomendamos que você use o modelo de extensão de classe IController, importando o pacote NuGet (Microsoft.Dynamics.Commerce.Hosting.Contracts). |
+| **Áreas afetadas do produto**         | Extensões do servidor do Retail |
+| **Opção de implantação**              | Todas |
+| **Status**                         | botãoPreterido: a partir da versão 10.0.11 |
+
+### <a name="hardware-station-extension-using-ihardwarestationcontroller"></a>Extensão do Hardware Station usando IHardwareStationController
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | A extensão da estação de hardware usando o IHardwareStationController foi preterida para fornecer um modelo de extensão simplificado. A nova implementação terá somente a classe IController sem qualquer implementação de classe adicional e, para evitar a dependência com as principais bibliotecas do Hardware Station, a extensão anterior precisará se referir a várias bibliotecas. |
+| **Substituída por outro recurso?**   | Recomendamos o uso do modelo de extensão de classe IController, importando o pacote NuGet (Microsoft.Dynamics.Commerce.Hosting.Contracts). |
+| **Áreas afetadas do produto**         | Extensões do Hardware Station |
 | **Opção de implantação**              | Todas |
 | **Status**                         | botãoPreterido: a partir da versão 10.0.11 |
 

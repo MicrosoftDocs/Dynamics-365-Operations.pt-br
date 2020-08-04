@@ -3,7 +3,7 @@ title: Visão geral dos relatórios financeiros
 description: Este tópico descreve onde acessar relatórios financeiros no Microsoft Dynamics 365 Finance e como usar os recursos de relatório financeiro. Ele inclui uma descrição de relatórios financeiros padrão que são fornecidos.
 author: aprilolson
 manager: AnnBe
-ms.date: 04/14/2020
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6cd77e22f9c6f90f6aa9934d70a121008e1274dd
-ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
+ms.openlocfilehash: 015f0282a2defcd7a8388eeaa70e0de6fb7cac78
+ms.sourcegitcommit: faaa4215f513885dd92cf7430b3612848ec09893
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262640"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "3609580"
 ---
 # <a name="financial-reporting-overview"></a>Visão geral de relatórios financeiros
 
@@ -45,10 +45,11 @@ Você pode encontrar o menu **Relatórios financeiros** nos seguintes locais:
 Para criar e gerar relatórios financeiros para uma entidade legal, você deve configurar as informações a seguir para essa entidade legal:
 
 -   Calendário fiscal
--   Razão
--   Plano de contas
+-   Ledger
+-   Plano de Contas
 -   Moeda
 
+## <a name="granting-security-access-to-financial-reporting"></a>Conceder acesso de segurança ao Financial Reporting
 As funções de relatórios financeiros estão disponíveis para os usuários que têm os privilégios e os direitos apropriados atribuídos a eles com as funções de segurança. As seções a seguir listam os privilégios e direitos, juntamente com as funções associadas.
 
 ### <a name="duties"></a>Direitos
@@ -78,15 +79,26 @@ As funções de relatórios financeiros estão disponíveis para os usuários qu
 | Gerar relatórios financeiros            | Gerar relatórios financeiros            | CEO, CFO, Contador                                                            |
 | Exibir relatórios financeiros                | Rever o desempenho financeiro          | Nenhum atribuído                                                                   |
 
-Depois que um usuário é adicionado ou uma função é alterada, o usuário deve acessar os relatórios financeiros em alguns minutos. **Observação:** A função sysadmin foi adicionada a todas as funções no relatório financeiro.
+Depois que um usuário é adicionado ou uma função é alterada, o usuário deve acessar os relatórios financeiros em alguns minutos. 
+
+> [!NOTE]
+> A função sysadmin foi adicionada a todas as funções no Financial Reporting.
 
 ## <a name="report-deletions-and-expirations"></a>Exclusão e vencimento de relatórios
 Os usuários que geram um relatório podem excluir seus próprios relatórios. Os usuários com a obrigação **Manter a segurança de relatórios financeiros** podem excluir os relatórios de outros usuários. 
 
-Na versão 10.0.8, o conceito de datas de vencimento foi introduzido. Um novo recurso necessário será habilitado na página **Todos** no espaço de trabalho gerenciamento de recursos. O recurso **Políticas de retenção de relatórios financeiros** contém as seguintes alterações:
+A partir da versão 10.0.7, foi introduzido o conceito de datas de vencimento. Um novo recurso exigido será habilitado no espaço de trabalho de gerenciamento de recursos. Esse recurso contém as seguintes alterações:
+
 * Os relatórios recém-gerados serão automaticamente marcados como tendo uma data de vencimento de 90 dias a partir do momento em que forem gerados.
 * Todos os relatórios existentes antes da instalação do recurso receberão um período de vencimento de 90 dias. A data pode aparecer em branco por um breve período de tempo até que o serviço de relatórios financeiros esteja em execução, um relatório seja gerado e o serviço execute a atualização em relatórios existentes com uma data de vencimento em branco. 
-* Os usuários com **Manter a segurança de relatórios financeiros** têm acesso a essa funcionalidade. Todos os usuários na obrigação **Manter relatórios financeiros** que tenham recebido o privilégio **Manter vencimento de relatórios financeiros** também terão a capacidade de modificar o período de vencimento. No momento, há duas opções de retenção disponíveis. 
+* Os usuários com **Manter a segurança de relatórios financeiros** têm acesso a essa funcionalidade. Todos os usuários na obrigação **Manter relatórios financeiros** que tenham recebido o privilégio **Manter vencimento de relatórios financeiros** também terão a capacidade de modificar o período de vencimento. No momento, há duas opções de retenção disponíveis:
+   * Um vencimento de 90 dias
+   * Uma opção para configurar o relatório para nunca vencer
+
+Quando um vencimento, como 90 dias, é selecionado, são aplicados 90 dias a partir de hoje, o que é um comportamento diferente dos 90 dias a partir da data de geração original definida quando o relatório foi gerado. Na versão 10.0.8, foi introduzido o conceito de datas de vencimento. Um novo recurso necessário foi habilitado na página **Todos** do espaço de trabalho de gerenciamento de recursos. O recurso **Políticas de retenção de relatórios financeiros** contém as seguintes alterações:
+* Os relatórios recém-gerados serão automaticamente marcados como tendo uma data de vencimento de 90 dias a partir do momento em que forem gerados.
+* Todos os relatórios existentes antes da instalação do recurso receberão um período de vencimento de 90 dias. A data pode aparecer em branco por um breve período de tempo até que o serviço de relatórios financeiros esteja em execução, um relatório seja gerado e o serviço execute a atualização em relatórios existentes com uma data de vencimento em branco. 
+* Os usuários com **Manter a segurança de relatórios financeiros** têm acesso a essa funcionalidade. Todos os usuários na obrigação **Manter relatórios financeiros** que tenham recebido o privilégio **Manter vencimento de relatórios financeiros** também terão a capacidade de modificar o período de vencimento. No momento, há duas opções de retenção disponíveis: 
   * Um vencimento de 90 dias.
   * Uma opção para configurar o relatório para nunca vencer.
   
@@ -125,16 +137,36 @@ Os relatórios financeiros fornecem 22 relatórios financeiros padrão. Cada rel
 | Fundos de Orçamento Disponíveis - Padrão                         | Exibir uma comparação detalhada de orçamento revisado, despesas efetivas, reservas de orçamento e dos fundos de orçamento disponíveis para todas as contas                                                                                                                                                                                  |
 
 ## <a name="opening-financial-reports"></a>Abrindo relatórios financeiros
-Ao clicar no menu **Relatórios financeiros**, a lista de relatórios financeiros padrão da empresa será exibida. É possível abrir ou modificar um relatório. Para abrir um dos relatórios padrão, selecione o nome do relatório. Na primeira vez que um relatório for aberto, será gerado automaticamente para o mês anterior. Por exemplo, se você abrir um relatório pela primeira vez em agosto de 2016, o relatório é gerado para 31 de julho de 2016. Depois que um relatório for aberto, você pode começar a explorá-la ao aprofundamento de partes específicas de dados e alterar opções de relatório.
+Quando você seleciona o menu **Relatórios financeiros**, é exibida a lista de relatórios financeiros padrão da empresa. É possível abrir ou modificar um relatório. Para abrir um dos relatórios padrão, selecione o nome do relatório. Na primeira vez que um relatório for aberto, será gerado automaticamente para o mês anterior. Por exemplo, se você abrir um relatório pela primeira vez em agosto de 2019, o relatório é gerado para 31 de julho de 2019. Depois que um relatório for aberto, você pode começar a explorá-la ao aprofundamento de partes específicas de dados e alterar opções de relatório.
 
 ## <a name="creating-and-modifying-financial-reports"></a>Criando e modificando relatórios financeiros
-Na lista de relatórios financeiros, você pode criar um novo relatório ou modificar um existente relatório. Se você tiver as permissões apropriadas, poderá criar um novo relatório financeiro clicando em **Novo** no painel de Ação. Um programa de designer de relatórios é baixado para seu dispositivo. Depois que o designer de relatórios for iniciado é possível criar o novo relatório. Depois de salvar o novo relatório, ele aparecerá na lista de relatórios financeiros. A lista mostra apenas os relatórios que foram criados para a empresa que você está usando no Finance. 
+Na lista de relatórios financeiros, você pode criar um novo relatório ou modificar um existente relatório. Se você tiver as permissões apropriadas, poderá criar um novo relatório financeiro selecionando **Novo** no Painel de Ação. Um programa de designer de relatórios é baixado para seu dispositivo. Depois que o designer de relatórios for iniciado é possível criar o novo relatório. Depois de salvar o novo relatório, ele aparecerá na lista de relatórios financeiros. A lista mostra apenas os relatórios que foram criados para a empresa que você está usando no Dynamics 365 Finance. 
 
-> [!NOTE] 
-> O computador no qual você está baixando o cliente do designer de relatórios deve ter a versão 4.6.2 do Microsoft .NET Framework instalada. Esta versão do Microsoft .NET Framework pode ser baixada e instalada do [Centro de Download da Microsoft](https://www.microsoft.com/download/details.aspx?id=53345). Se estiver usando o Chrome, instale uma extensão de ClickOnce para baixar o cliente de designer de relatórios. Se estiver executando no modo incógnito, verifique se a extensão de ClickOnce está habilitada para modo incógnito. Você também pode modificar um relatório que aparece na lista de relatórios financeiros. Quando a área em torno do nome do relatório é selecionada, clique em **Editar** no Painel de Ação. O Report Designer é inicializado.
+## <a name="troubleshooting-issues-opening-report-designer"></a>Solucionar problemas ao abrir o Designer de Relatórios
+Existem alguns problemas comuns que podem causar transtornos quando você abre o Designer de Relatórios. Veja a seguir esses problemas e as etapas para solucioná-los.
+
+Problema 1: o Designer de Relatórios não inicia quando você seleciona **Novo** ou **Editar**.
+
+* No Internet Explorer, selecione **Configurações** e **Opções da Internet**. Selecione a guia **Segurança**, clique em Sites Confiáveis e selecione **Sites**. Em **Adicionar este site à zona**, insira "\*\.dynamics.com" (sem aspas) e selecione **Adicionar**. 
+* No Internet Explorer, selecione **Configurações** e **Opções da Internet**. Selecione a guia **Segurança**. Selecione Sites Confiáveis. Na área Nível de segurança desta zona, mude a opção para **Médio-baixo**.
+* Desabilite o bloqueador de pop-up no navegador.
+* As estações de trabalho devem instalar o Visual Studio .NET 4.6.2 ou posterior.
+
+Esta versão do Microsoft .NET Framework pode ser baixada e instalada do [Centro de Download da Microsoft](https://www.microsoft.com/download/details.aspx?id=53345).
+* Se você usa o navegador Chrome, deve instalar uma extensão ClickOnce para baixar o cliente do Designer de Relatórios. Se estiver executando no modo anônimo, verifique se a extensão ClickOnce está habilitada para esse modo. Se você não conseguir entrar com o Chrome, tente seguir as etapas de configuração descritas em Problema 1 usando o Internet Explorer ou o Edge. 
+
+Problema 2: O usuário não recebeu as permissões necessárias para usar o Financial Reporting. 
+
+* Para verificar se o usuário não tem permissão, selecione **Sim** no erro “Não é possível conectar ao servidor do Financial Reporting. Selecione Sim se deseja continuar e especifique outro endereço de servidor.” Depois selecione **Testar Conexão**. Se você não tiver permissão, verá uma mensagem informando "Falha na tentativa de conexão. O usuário não tem as permissões apropriadas para se conectar ao servidor. Entre em contato com o administrador do sistema.”
+* As permissões necessárias estão listadas acima, em [Conceder acesso de segurança ao Financial Reporting](#granting-security-access-to-financial-reporting). A segurança no Financial Reporting se baseia nesses privilégios. Você só terá acesso se esses privilégios (ou a outra função de segurança que inclua esses privilégios) estiverem atribuídos a você. 
+* A tarefa de integração **Provedor de Usuários da Empresa para Empresas** (que também é responsável por e conhecido como integração do usuário) é executada em um intervalo de 5 minutos. Pode levar até 10 minutos para as alterações de permissão entrarem em vigor no Financial Reporting. 
+  Se outro usuário puder abrir o Designer de Relatórios, selecione **Ferramentas** e **Status de Integração**. Verifique se o mapa de integração, "Provedor de Usuários da Empresa para Empresas", foi executado com êxito porque você recebeu permissão para usar o Financial Reporting. 
+* Pode ser possível que outro erro tenha impedido que a **Integração de usuário do usuário do Dynamics com o Financial Reporting**. Também é possível que uma redefinição do datamart tenha sido iniciada e ainda não foi concluída ou que outro erro do sistema tenha ocorrido. Tente executar o processo novamente mais tarde. Se o problema persistir, entre em contato com o administrador do sistema.
+
+Problema 3: Você conseguirá passar pela página de entrada no Designer de Relatórios, mas não poderá entrar no Designer de Relatórios. 
+
+* A hora definida no computador local quando você insere as credenciais de logon deve estar dentro de cinco minutos da hora no servidor do Financial Reporting. Se houver uma diferença de mais de cinco minutos, o sistema não permitirá a entrada. 
+* Nesse caso, é recomendável habilitar a opção do Windows para definir a hora do PC automaticamente. 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 - [Exibir relatórios financeiros](view-financial-reports.md)
-
-
-

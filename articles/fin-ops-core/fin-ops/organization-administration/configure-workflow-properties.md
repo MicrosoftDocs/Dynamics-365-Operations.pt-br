@@ -3,7 +3,7 @@ title: Configurar propriedades do fluxo de trabalho
 description: Este tópico explica como configurar as várias propriedades de um fluxo de trabalho.
 author: sericks007
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d745389b37b899760ea32ae75c5cb80d9139be2d
-ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
+ms.openlocfilehash: 268448049955170b8eb9e64cbd50416565a041b1
+ms.sourcegitcommit: 561d06c2a74602dfaa40334d8afac5053aebc055
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3199427"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3541100"
 ---
 # <a name="configure-workflow-properties"></a>Configurar propriedades do fluxo de trabalho
 
@@ -91,12 +91,7 @@ Siga estas etapas para especificar quando o fluxo de trabalho que você está co
 3. Clique em **Adicionar condição**.
 4. Insira uma condição.
 5. Insira quaisquer condições adicionais necessárias.
-6. Para verificar se as condições inseridas foram definidas corretamente, execute estas etapas:
-
-    1. Clique em **Teste**.
-    2. Na página **Testar condição de fluxo de trabalho**, na área **Validar condição**, selecione um registro.
-    3. Clique em **Teste**. O sistema avaliará o registro para determinar se ele atende às condições especificadas. Por exemplo, se você estiver criando um fluxo de trabalho de requisição de compra para a Espanha, a área **Validar condição** da página exibirá uma lista de requisições de compra. Quando você clicar em **Testar**, o sistema avaliará a requisição de compra selecionada para determinar se o país/região é ES.
-    4. Clique em **OK** ou **Cancelar** para retornar à página **Propriedades**.
+6. Execute o fluxo de trabalho com alguns registros de destino para verificar se a condição inclui e exclui corretamente os registros.
 
 ## <a name="specify-when-notifications-are-sent"></a>Especificar quando enviar notificações
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 37f21fffe209e17a6fe89c2661e49fc0dc8b9655
-ms.sourcegitcommit: 88f38d584c5befb96e4d1daab4b28af5519ef125
+ms.openlocfilehash: 7664afbd0b1fd4e2c9686053fa102d85809c0411
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "3443455"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555306"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-28-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources (28 de maio de 2020)
 
@@ -103,3 +103,10 @@ Nesta versão, o HR pode criar uma regra para suspender as competências de lice
 ## <a name="dmf-entity-available-for-accrual-suspensions-june-1"></a>Entidade DMF disponível para suspensões de acúmulos (1º de junho)
 
 Uma entidade DMF disponível para suspensões de acúmulos.
+
+## <a name="see-also"></a>Consulte também
+
+[Novidades ou alterações no Human Resources](hr-admin-whats-new.md)</br>
+[Visão geral da onda 2 da versão 2019 do Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Atualizar processo](hr-admin-setup-update-process.md)</br>
+[Gerenciar recursos](hr-admin-manage-features.md)

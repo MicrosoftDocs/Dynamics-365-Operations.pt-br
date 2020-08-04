@@ -3,7 +3,7 @@ title: Operação de estoque de entrada no POS
 description: Este tópico descreve os recursos da operação de entrada do estoque do ponto de venda (POS).
 author: hhaines
 manager: annbe
-ms.date: 03/12/2020
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: b212906dcf037171af264c60720f361215eed599
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: cf3bec8ab0bfafccfe4b2b5b245d00fd6aeff635
+ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123890"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3551592"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Operação de estoque de entrada no POS
 
@@ -51,12 +51,15 @@ Para configurar uma estrutura de documento assíncrona, conclua os procedimentos
 1. Vá para **Administração da organização \> Sequências numéricas \> Sequências numéricas**.
 2. Na página **Sequências numéricas**, crie uma sequência numérica.
 3. Nos campos **Código de sequência numérica** e **Nome**, insira valores definidos pelo usuário.
-4. Na guia rápida **Referências**, selecione **Adicionar**.
+4. Na Guia Rápida **Referências**, selecione **Adicionar**.
 5. No campo **Área**, selecione uma opção **Parâmetros do Commerce**.
 4. No campo **Referência**, selecione **Identificador da operação do documento de varejo**.
 5. Na Guia Rápida **Geral**, na seção **Configuração**, defina a opção **Contínuo** como **Não** para garantir que não haja problemas de desempenho.
 
 ### <a name="create-and-schedule-two-batch-jobs-for-the-document-processing-and-monitoring-tasks"></a>Criar e agendar dois trabalhos em lote para o processamento de documentos e as tarefas de monitoramento
+
+> [!NOTE]
+> No Commerce versão 10.0.13 e posterior, você não precisa configurar esses trabalhos em lotes por meio da estrutura do trabalho em lotes. Os processos em lotes podem ser configurados no menu **Retail e Commerce > TI de Varejo e Comércio**. Use as opções de menu **Monitor da operação do documento de varejo** e **Processamento da operação de documento de varejo** para configurar os trabalhos em lotes.
 
 Os trabalhos em lotes que você criar serão usados para processar documentos que falharam ou expiram. Eles também serão usados quando o número de documentos de estoque ativos que estão sendo processados no PDV exceder um valor configurado pelo sistema.
 

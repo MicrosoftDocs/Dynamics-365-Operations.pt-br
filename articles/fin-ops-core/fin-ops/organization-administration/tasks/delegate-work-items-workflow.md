@@ -3,7 +3,7 @@ title: Delegar itens de trabalho em um fluxo de trabalho
 description: Se você planeja se ausentar do escritório ou ficar indisponível para executar ações em itens de trabalho, poderá delegar ou reatribuir seus itens de trabalho a outros usuários.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/23/2020
+ms.date: 07/07/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d98d84b89f1f3322a9c896b74b63a3b6425b13b
-ms.sourcegitcommit: 267864eb0dccd6e26d49d280bd4ad1b770a73a77
+ms.openlocfilehash: 96777b66645453bc909bd4053e2724a37771d5d6
+ms.sourcegitcommit: 561d06c2a74602dfaa40334d8afac5053aebc055
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "3515755"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3541076"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>​Delegar itens de trabalho em um fluxo de trabalho​
 
@@ -49,13 +49,15 @@ Se pretende se ausentar do escritório ou ficar indisponível para executar aç�
 1. Vá para **Comum > Configuração > Opções do usuário**.
 2. Clique na guia **Fluxo de trabalho**. Verifique se a seção Delegação está expandida. Para configurar o sistema para delegar automaticamente seus itens de trabalho a outros usuários, você deve criar a regra de delegação, que especifique quando determinados tipos de itens de trabalho serão delegados. Siga estas etapas para criar uma regra de delegação.  
 3. Clique em **Adicionar**.
-4. No campo **Escopo**, selecione uma opção.
+4. No campo **Escopo**, selecione uma opção:
     - Tudo - delega todos os itens de trabalho atribuídos a você.
-    - Módulo – Delega apenas os itens de trabalho relacionados a um tipo específico de fluxo de trabalho. Se você selecionar essa opção, selecione o tipo de fluxo de trabalho no campo Nome.
-    - Fluxo de Trabalho – Delega apenas os itens de trabalho relacionados a um fluxo de trabalho específico. Se você selecionar essa opção, selecione o fluxo de trabalho no campo Nome.  
-5. No campo **Delegar**, selecione o usuário para delegar os itens de trabalho. Use os campos Data/hora inicial e Data/hora final para especificar quando você quer que os itens de trabalho sejam delegados automaticamente.  
-6. No campo **Data/hora inicial**, insira uma data e hora.
-7. No campo **Data/hora final**, insira uma data e hora.
-8. Marque a caixa de seleção **Habilitado** para ativar a regra de delegação. Se você selecionou **Módulo** o como o Escopo, em seguida, você deve selecionar o módulo no campo Nome. Se você selecionou **Fluxo de trabalho** como o Escopo, em seguida, você deve selecionar fluxo de trabalho específico para delegar no campo Nome.  
-9. No campo **Comentário**, insira um comentário que explique o motivo de você estar delegando os itens de trabalho.
-
+    - Módulo – Delega apenas os itens de trabalho relacionados a um tipo específico de fluxo de trabalho. Se você selecionar essa opção, deverá selecionar o tipo de fluxo de trabalho no campo **Nome**.
+    - Fluxo de Trabalho – Delega apenas os itens de trabalho relacionados a um fluxo de trabalho específico. Se você selecionar essa opção, deverá selecionar o fluxo de trabalho no campo **Nome**.  
+5. No campo **Nome**:
+    - Para o escopo **Módulo**, selecione o módulo de destino.
+    - Para o escopo **Fluxo de trabalho**, selecione o fluxo de trabalho de destino.
+6. No campo **Delegar**, selecione o usuário para delegar os itens de trabalho. Use os campos **Data/hora inicial** e **Data/hora final** para especificar quando você quer que os itens de trabalho sejam delegados automaticamente.  
+7. No campo **Data/hora inicial**, insira uma data e hora.
+8. No campo **Data/hora final**, insira uma data e hora.
+9. Marque a caixa de seleção **Habilitado** para ativar a regra de delegação. 
+10. No campo **Comentário**, insira um comentário que explique o motivo de você estar delegando os itens de trabalho.
