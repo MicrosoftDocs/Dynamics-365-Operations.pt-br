@@ -14,6 +14,8 @@
               items:
                 - name: Novidades ou alterações na home page de Platform updates
                   href: get-started/whats-new-home-page.md
+                - name: Platform updates para 10.0.13 (outubro de 2020)
+                  href: get-started/whats-new-platform-updates-10-0-13.md
                 - name: Platform updates para 10.0.12 (agosto de 2020)
                   href: get-started/whats-new-platform-update-10-0-12.md
                 - name: Platform updates para 10.0.11 (julho de 2020)
@@ -82,6 +84,8 @@
           items:
             - name: Escolher uma estratégia de integração de dados (importação/exportação)
               href: data-entities/integration-overview.md
+            - name: Limitação baseada em prioridade
+              hreF: data-entities/priority-based-throttling.md
             - name: APIs de integração de dados
               items:
                 - name: API REST do pacote de gerenciamento de dados
@@ -152,6 +156,8 @@
                           items:
                             - name: Personalizar mapeamentos de entidades e campos
                               href: data-entities/dual-write/customizing-mappings.md
+                            - name: Editar uma entidade legal após configuração de gravação dupla
+                              href: data-entities/dual-write/edit-legal-entity.md
                             - name: Gerenciamento de erros e notificações de alerta
                               href: data-entities/dual-write/errors-and-alerts.md
                             - name: Gerenciamento do ciclo de vida de aplicativos
