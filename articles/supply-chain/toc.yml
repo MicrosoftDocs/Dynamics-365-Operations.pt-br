@@ -70,12 +70,12 @@
                   items:
                     - name: Novidades ou alterações na home page do Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.13 (outubro de 2020)
+                      href: get-started/whats-new-scm-10-0-13.md
                     - name: Supply Chain Management 10.0.12 (agosto de 2020)
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (julho de 2020)
                       href: get-started/whats-new-scm-10-0-11.md
-                    - name: Supply Chain Management 10.0.10 (maio de 2020)
-                      href: get-started/whats-new-scm-10-0-10.md
                 - name: Recursos removidos ou obsoletos
                   items:
                     - name: Recursos removidos ou obsoletos do Dynamics 365 Supply Chain Management
@@ -109,23 +109,23 @@
             - name: Catálogo de aprendizados
               items:
                 - name: Home page de Catálogo de aprendizados
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Tomadores de decisões de negócios
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-bdm.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Usuários comerciais
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: Gerentes de projeto de implementação
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: Administradores
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: Desenvolvedores
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: Parceiro de vendas e marketing
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: Consultores funcionais
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: Arquitetos de solução
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: Explorar a interface do usuário
               items:
                 - name: Elementos da interface do usuário
@@ -1257,6 +1257,8 @@
               items:
                 - name: Diários de estoque
                   href: inventory/inventory-journals.md
+                - name: Fluxos de trabalho de aprovação de diário de estoque
+                  href: inventory/inventory-journal-workflow.md
                 - name: Localizações de estoque
                   href: inventory/inventory-locations.md
                 - name: Status do estoque
@@ -1267,13 +1269,15 @@
                   href: inventory/tasks/maintain-barcode-types.md
                 - name: Verificar a disponibilidade do estoque
                   href: inventory/tasks/check-availability-stock.md
+                - name: Lista de estoque disponível
+                  href: inventory/inventory-on-hand-list.md
                 - name: Inicializar níveis de estoque no depósito
                   href: inventory/tasks/initialize-stock-levels-warehouse.md
                 - name: Transferir estoque físico no depósito
                   href: inventory/tasks/transfer-physical-inventory-within-warehouse.md
                 - name: Ajustar níveis de estoque no depósito (armazenamento básico)
                   href: inventory/tasks/adjust-stock-levels-warehouse-basic-warehousing.md
-                - name: ​Contagem de etiquetas do estoque​
+                - name: ​Contagem de rótulos do estoque​
                   href: inventory/inventory-tag-counting.md
                 - name: Contar estoque em um depósito
                   href: inventory/tasks/count-inventory-warehouse.md
@@ -1951,7 +1955,7 @@
                       href: production-control/tasks/define-resource-capabilities.md
                     - name: ​Roteiros e operações​
                       href: production-control/routes-operations.md
-                    - name: Políticas de trabalho de depósito
+                    - name: Políticas de trabalho
                       href: warehousing/warehouse-work-policies.md
                     - name: Criar propriedades do agendamento de horário de trabalho
                       href: production-control/tasks/create-working-time-scheduling-properties.md
@@ -2589,6 +2593,8 @@
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
                 - name: Combinação de dimensões do produto de localização
                   href: warehousing/location-product-dimension-mixing.md
+                - name: Verificação de qualidade
+                  href: warehousing/quality-check.md
             - name: Operações de depósito de saída
               items:
                 - name: Reservas no gerenciamento de depósito
@@ -2647,10 +2653,14 @@
                       href: warehousing/tasks/set-up-min-max-replenishment-process.md
                     - name: Reabastecimento de limite de zona
                       href: warehousing/zone-threshold-replenishment.md
+                    - name: Reabastecimento sobre a capacidade do local
+                      href: warehousing/replenishment-over-location-capacity.md
                 - name: Criação de carga e remessas
                   items:
                     - name: Confirmar e transferir
                       href: warehousing/confirm-and-transfer.md
+                    - name: Confirmar remessas de saída de trabalhos em lote
+                      href: warehousing/confirm-outbound-shipments-from-batch-jobs.md
                     - name: Criação de carga avançada durante uma onda
                       href: warehousing/advanced-load-building-during-wave.md
                     - name: Regra Liberar para o depósito
@@ -2679,10 +2689,8 @@
               items:
                 - name: Políticas de trabalho de depósito
                   items:
-                    - name: Visão geral de políticas de trabalho de depósito
+                    - name: Políticas de trabalho
                       href: warehousing/warehouse-work-policies.md
-                    - name: Configurar políticas de trabalho de depósito
-                      href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
                     - name: Movimento de estoque com trabalho associado no Gerenciamento de depósitos
                       href: warehousing/move-inventory-associated-work.md
                     - name: Criar uma classe de trabalho
@@ -2715,13 +2723,13 @@
                       href: warehousing/tasks/define-partial-location-cycle-counting-process.md
                     - name: Trabalho de limpeza de entradas disponíveis do gerenciamento de depósito
                       href: warehousing/onhand-cleanup.md
-                    - name: Diário de estoque
+                    - name: Diários de estoque
                       href: inventory/inventory-journals.md
-                    - name: Localização de estoque
+                    - name: Localização do estoque
                       href: inventory/inventory-locations.md
                     - name: Status do estoque
                       href: inventory/inventory-statuses.md
-                    - name: Contagem de etiquetas do estoque
+                    - name: Contagem de rótulos do estoque
                       href: inventory/inventory-tag-counting.md
                 - name: Trabalho do depósito
                   items:
