@@ -3,7 +3,7 @@ title: Módulo de caixa de compra
 description: Este tópico abrange os módulos de caixa de compra e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,17 +17,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 583937be92b62991cd13f0806df4a0a6c9ac049c
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 9780aabbac6d01d41dae526c7c06139eba07de4e
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411333"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645330"
 ---
 # <a name="buy-box-module"></a>Módulo de caixa de compra
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Este tópico abrange os módulos de caixa de compra e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 
@@ -61,7 +61,7 @@ Os temas podem ser usados para remover ou alterar a ordem das propriedades do pr
 
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Módulos que podem ser usados em um módulo de caixa de compra
 
-- **Galeria de mídia** – Este módulo é usado para mostrar imagens de um produto em uma página de detalhes do produto. Ele permite uma a muitas imagens. Ele também permite imagens em miniatura. As imagens em miniatura podem ser organizadas horizontalmente (como uma linha abaixo da imagem) ou verticalmente (como uma coluna ao lado da imagem). O módulo da galeria de mídia pode ser adicionado ao slot **Mídia** no módulo da caixa de compra. Atualmente, ele é compatível apenas com imagens. 
+- **Galeria de mídia** – Este módulo é usado para mostrar imagens de um produto em uma página de detalhes do produto. Para obter mais informações sobre esse módulo, consulte [Módulo de galeria de mídia](mediagallery-module.md).
 - **Seletor de loja** – Este módulo mostra uma lista de lojas próximas, onde um item está disponível para retirada. Ele permite que os usuários insiram um local para encontrar lojas próximas. Para obter mais informações sobre esse módulo, consulte [Módulo de seletor de loja](store-selector.md).
 
 ## <a name="buy-box-module-settings"></a>Configurações do módulo de caixa de compra
@@ -111,6 +111,8 @@ Para adicionar um módulo de caixa de compra a uma nova página e definir as pro
 [Visão geral do kit de início](starter-kit-overview.md)
 
 [Módulo de seletor de loja](store-selector.md)
+
+[Módulo de galeria de mídia](media-gallery-module.md)
 
 [Módulo de contêiner](add-container-module.md)
 

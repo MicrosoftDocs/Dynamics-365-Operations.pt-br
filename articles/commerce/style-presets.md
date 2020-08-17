@@ -17,16 +17,15 @@ ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b972c1de9f110ffb1ee1a52d9a9a1e3fa3fd9513
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 250f2386cefee8bef45df66c4eef31b4e7fc2686
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411505"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621262"
 ---
 # <a name="work-with-style-presets"></a>Trabalhar com estilos predefinidos
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como trabalhar com layouts predefinidos de site no Microsoft Dynamics 365 Commerce.

@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: fd64a4ea53976293a6ff484a370d7804bf6c724f
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: 22ebe1640f17163351b63710534052ce3d810986
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3542115"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652050"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.12 (agosto de 2020)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Este tópico lista os recursos novos ou alterados no Microsoft Dynamics 365 Supply Chain Management, versão prévia 10.0.12. Esta versão tem um número de compilação de 10.0.507 e está disponível da seguinte maneira:
 
@@ -39,15 +38,15 @@ Este tópico lista os recursos novos ou alterados no Microsoft Dynamics 365 Supp
 
 Os seguintes recursos estão incluídos nesta versão. Os títulos do recurso estão associados a informações adicionais no site [Planos de versão](https://docs.microsoft.com/dynamics365/release-plans/). Links adicionais direcionam para documentações adicionais ou vídeos atualmente disponíveis para esse recurso. A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) antes que você possa usá-los.
 
-- [Permitir o bloqueio da tela touch da ficha de trabalho para limpeza](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization) - para obter mais informações, consulte [Configurar a ficha de trabalho para dispositivos](../production-control/config-job-card-device.md).
-- [Capture grades de produto e dimensões de rastreamento no aplicativo de depósito durante o recebimento de itens de carga](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving) – Para obter mais informações, consulte [Configurar dispositivos móveis para trabalho de depósito](../warehousing/configure-mobile-devices-warehouse.md).
-- Nível de cálculo de custo (novo nível de BOM) - para obter mais informações, consulte [Nível de cálculo de custo](../cost-management/cost-calculation-level.md).
-- [Portal do cliente para o Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences) - para obter mais informações, consulte [Visão geral do portal do cliente para o Dynamics 365 Supply Chain Management](../sales-marketing/customer-portal-overview.md).
-- [Insights principais da Inteligência IoT ](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) -para obter mais informações, consulte [Home page da Inteligência IoT](../iot/iot-intelligence-home-page.md).
-- [Aprimoramentos do recebimento da placa de licença para o aplicativo do depósito (continuação)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued) – Para obter mais informações, consulte [Recebimento da placa de licença por meio do aplicativo do depósito](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
-- [Implantação em massa do Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app) – Para obter mais informações, consulte [Visão geral de instalação e configuração do aplicativo de depósito](../warehousing/install-configure-warehousing-app.md).
-- [Tempo máximo de execução para o trabalho de limpeza de entradas disponíveis no gerenciamento de depósito](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job) - para obter mais informações, consulte [Trabalho de limpeza de entradas disponíveis no gerenciamento de depósito](../warehousing/onhand-cleanup.md).
-- [Suporte à otimização de planejamento para contratos comerciais de compra](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements) - para obter mais informações, consulte [Planejamento mestre com contratos comerciais de compra](../master-planning/planning-optimization/purchase-trade-agreement.md).
+- [Permitir bloqueio da tela touch da ficha de trabalho para limpeza](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization)<br> - Para obter mais informações, consulte [Configurar ficha de trabalho para dispositivos](../production-control/config-job-card-device.md).
+- [Capturar grades de produtos e dimensões de rastreamento no aplicativo de depósito durante recebimento do item de carga](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving)<br> - Para obter mais informações, consulte [Configurar dispositivos móveis para trabalho de depósito](../warehousing/configure-mobile-devices-warehouse.md).
+- Nível de cálculo de custo (novo nível de BOM)<br> - Para obter mais informações, consulte [Nível de cálculo de custo](../cost-management/cost-calculation-level.md).
+- [Portal do cliente do Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences)<br> - Para obter mais informações, consulte [Visão geral do portal do cliente do Dynamics 365 Supply Chain Management](../sales-marketing/customer-portal-overview.md).
+- [Insights principais de inteligência da IoT](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - Para obter mais informações, consulte [Home page de inteligência da IoT](../iot/iot-intelligence-home-page.md).
+- [Aprimoramentos de recebimento da placa de licença para o aplicativo de depósito (continuação)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Para obter mais informações, consulte [Recebimento da placa de licença por meio do aplicativo de depósito](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Implantação em massa para o Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Para obter mais informações, consulte [Visão geral da instalação e configuração do aplicativo de depósito](../warehousing/install-configure-warehousing-app.md).
+- [Tempo de execução máximo para o trabalho de limpeza de entradas disponíveis no gerenciamento de depósito](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Para obter mais informações, consulte [Trabalho de limpeza de entradas disponíveis do gerenciamento de depósito](../warehousing/onhand-cleanup.md).
+- [Suporte de Otimização de Planejamento para contratos comerciais de compra](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements)<br> - Para obter mais informações, consulte [Planejamento mestre com contratos comerciais de compra](../master-planning/planning-optimization/purchase-trade-agreement.md).
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

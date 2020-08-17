@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32271e967da2e7f3702b0c6c2dcdba460aa1b382
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4c8216ebdd1f26601743e6b35849be0813d06b4a
+ms.sourcegitcommit: 4676ea9646fa1a182103ecab93e78a69001f0b8d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770611"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3612653"
 ---
 # <a name="process-allocations"></a>​Processar alocações​
 
@@ -34,8 +34,8 @@ Este artigo fornece informações sobre alocações, opções para processamento
 Os seguintes recursos oferecem suporte a esse processo:
 
 -   Alocar valores de transações manualmente usando a ação dividida em distribuições contábeis, ou aplicando modelos padrão de dimensão financeira para um documento. Para obter mais informações, consulte [Distribuições contábeis](../accounts-payable/accounting-distributions.md).
--   Alocar automaticamente os valores das transações com base nas condições de alocação definidas na lista principal individual. As entradas da conta de alocação serão geradas para cada diário com base na porcentagem e na conta contábil de destino sempre que uma entrada contábil atender aos critérios definidos como a conta contábil de origem.
--   Alocar automaticamente os saldos ou valores fixos do razão com base nas regras de alocação do razão. As regras de alocação do razão são processadas periodicamente usando diários de alocação. 
+-   Alocar automaticamente os valores das transações com base nas condições de alocação definidas na lista principal individual. As entradas da conta de alocação serão geradas para cada diário com base na porcentagem e na conta contábil de destino sempre que uma entrada contábil atender aos critérios definidos como a conta contábil de origem. Para saber mais, consulte [Termos de alocação da conta principal](../general-ledger/main-account-allocation-terms.md)
+-   Alocar automaticamente os saldos ou valores fixos do razão com base nas regras de alocação do razão. As regras de alocação do razão são processadas periodicamente usando diários de alocação. Para obter mais informações, consulte [Regras de alocação](../general-ledger/ledger-allocation-rules.md).
 
 ###  <a name="allocations-in-budget-planning"></a>Alocações no planejamento de orçamento
 
@@ -43,8 +43,4 @@ As regras de alocação do razão podem ser usadas para planos de orçamento. Qu
 
 > [!NOTE]
 > Você não pode usar as regras de alocação do razão intercompanhia para o planejamento de orçamento.
-
-
-
-
 

@@ -3,7 +3,7 @@ title: Trabalhar com fragmentos
 description: Este tópico descreve por que, quando e como usar fragmentos no Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 01/31/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,17 +17,17 @@ ms.search.industry: retail
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f29046ded47ed9c49a2cc841aa7c1f6492b49aec
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 7ae834f38fe380ce0a66f5b1968f1261af670979
+ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124350"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645982"
 ---
 # <a name="work-with-fragments"></a>Trabalhar com fragmentos 
 
-
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Este tópico descreve por que, quando e como usar fragmentos no Microsoft Dynamics 365 Commerce.
 
@@ -62,9 +62,10 @@ Você pode criar um novo fragmento ou salvar uma configuração de módulo exist
 Para converter um módulo configurado anteriormente a um fragmento reutilizável, siga estas etapas.
 
 1. Abra uma página ou modelo que contém o módulo que você deseja converter em um fragmento.
-1. No painel de estrutura de tópicos à esquerda, selecione o botão de reticências (**…**) próximo ao nome do módulo. 
-1. Selecione **Compartilhar como Fragmento**. 
-1. Uma caixa de diálogo será exibida. Digite um nome e metadados para o fragmento.
+1. No painel de estrutura de tópicos à esquerda ou diretamente na tela principal, selecione o módulo configurado anteriormente.
+1. Selecione as reticências (**...**) ao lado do nome do módulo no painel de estrutura de tópicos ou na barra de ferramentas do módulo selecionado na tela. 
+1. Selecione **Compartilhar como Fragmento de Página**. 
+1. Na caixa de diálogo **Salvar como Fragmento de Página**, insira um nome para o fragmento.
 1. Selecione **OK** para salvar a configuração do módulo como um fragmento que possa ser adicionado a outras páginas.
 
 A imagem a seguir mostra como salvar uma configuração de módulo como fragmento.
@@ -94,15 +95,16 @@ Os procedimentos a seguir descrevem como adicionar, remover e edite fragmentos.
 
 Para adicionar um fragmento a uma página, siga estas etapas.
 
-1. No painel de estrutura de tópicos à esquerda, selecione um contêiner ou slot aos quais os módulos filho podem ser adicionados.
-1. Selecione o botão de reticências ao lado do nome do contêiner ou do slot e selecione **Adicionar Fragmento**. Uma caixa de diálogo será exibida.
+1. No painel de estrutura de tópicos à esquerda ou diretamente na tela principal, selecione um contêiner ou slot ao qual os módulos filho possam ser adicionados.
+1. No painel online, selecione as reticências (**...**) ao lado do nome do contêiner ou slot.  Como alternativa, se usar a tela principal, selecione o símbolo de adição (**+**).  
+1. Selecione **Adicionar Fragmento**.
 
     ![Uma captura de tela de como adicionar um fragmento existente a um slot ou contêiner](./media/add-fragment.png)
  
     > [!NOTE]
     > Se o contêiner ou slot não suportar novos módulos filhos, a opção **Adicionar Fragmento** não ficará disponível.
     
-1. Na caixa de diálogo, procure e selecione um fragmento para adicionar. Se nenhum fragmento disponível estiver listado, você poderá primeiro criar um fragmento a partir de um tipo de módulo suportado pelo contêiner ou slot selecionado.
+1. Na caixa de diálogo **Adicionar Fragmento**, procure e selecione um fragmento a ser adicionado. Se nenhum fragmento disponível estiver listado, você poderá primeiro criar um fragmento a partir de um tipo de módulo suportado pelo contêiner ou slot selecionado.
 1. Selecione o fragmento desejado para adicionar ao contêiner ou ao slot na sua página.
 
     ![Uma captura de tela da janela modal do seletor de fragmento](./media/fragment-picker.png)
@@ -114,7 +116,7 @@ Para adicionar um fragmento a uma página, siga estas etapas.
 
 Para remover um fragmento de um slot ou contêiner em uma página, siga estas etapas.
 
-1. No painel de estrutura de tópicos à esquerda, selecione o botão de reticências ao lado do nome do fragmento a ser removido e, em seguida, selecione o botão da lixeira.
+1. No painel de estrutura de tópicos à esquerda, selecione as reticências (**...**) ao lado do nome do fragmento a ser removido e, depois, selecione o símbolo de lixeira.  Como alternativa, você pode selecionar o fragmento na tela e selecionar o símbolo de lixeira na barra de ferramentas do fragmento.
 1. Quando for solicitado para confirmar se você deseja remover o fragmento, selecione **OK**.
 
 > [!NOTE]

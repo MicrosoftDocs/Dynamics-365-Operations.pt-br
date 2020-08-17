@@ -1,9 +1,9 @@
 ---
 title: Política de reserva de dimensão no nível de depósito flexível
 description: Este tópico descreve a política de reserva de estoque que permite às empresas que vendem produtos rastreados por lote e executam suas logísticas como operações habilitadas para WMS reservem lotes específicos para ordens de venda do cliente, mesmo que a hierarquia de reservas associada aos produtos não permita a reserva de lotes específicos.
-author: omulvad
+author: perlynne
 manager: tfehr
-ms.date: 02/07/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -13,25 +13,29 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: omulvad
+ms.author: perlynne
 ms.search.validFrom: 2020-01-15
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: ec80346126713cc604b00e6ca7f6e8f4c242dc6f
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 65304216b579b8def493d1e4218174cb9617013d
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530296"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652170"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Política de reserva de dimensão no nível de depósito flexível
 
 [!include [banner](../includes/banner.md)]
 
-Quando uma hierarquia de reservas de estoque do tipo "Abaixo do lote\[local\]" é associada a produtos, as empresas que vendem produtos rastreados por lote e executam suas logísticas como operações que são habilitadas para o Microsoft Dynamics 365 Warehouse Management System (WMS) não podem reservar lotes específicos desses produtos para ordens de venda do cliente. Este tópico descreve a política de reserva de estoque que permite a essas empresas reservar lotes específicos, mesmo quando os produtos são associados a uma hierarquia de reservas "Abaixo do lote\[local\].
+Quando uma hierarquia de reservas de estoque do tipo "Abaixo do lote\[local\]" é associada a produtos, as empresas que vendem produtos rastreados por lote e executam suas logísticas como operações que são habilitadas para o Microsoft Dynamics 365 Warehouse Management System (WMS) não podem reservar lotes específicos desses produtos para ordens de venda do cliente.
+
+De forma semelhante, as placas de licença específicas não podem ser reservadas para produtos em ordens de venda quando esses produtos são associados à hierarquia de reserva padrão.
+
+Este tópico descreve a política de reserva de estoque que permite a essas empresas reservar lotes específicos ou placas de licença, mesmo quando os produtos são associados a uma hierarquia de reservas "Abaixo do lote\[local\]".
 
 ## <a name="inventory-reservation-hierarchy"></a>Hierarquia de reservas de estoque
 
-Esta seção resume a hierarquia de reservas de estoque existente. Ela se concentra em como os itens rastreados por lote e por série são manipulados.
+Esta seção resume a hierarquia de reservas de estoque existente.
 
 A hierarquia de reservas de estoque determina que, no que diz respeito às dimensões de armazenamento, a ordem de demanda comporta as dimensões obrigatórias de site, depósito e status do estoque, enquanto a lógica do depósito é responsável por atribuir um local às quantidades solicitadas e reservar o local. Em outras palavras, nas interações entre a ordem de demanda e as operações de depósito, espera-se que a ordem de demanda indique de onde a ordem deve ser remetida (ou seja, de qual site e depósito). O depósito conta com sua lógica para encontrar a quantidade necessária no local do depósito.
 
@@ -64,7 +68,7 @@ Quando o nível **Número do lote** na hierarquia é selecionado, todas as dimen
 > [!NOTE]
 > A caixa de seleção **Permitir reserva na ordem de demanda** se aplica somente aos níveis de hierarquia de reservas que estão abaixo da dimensão de local do depósito.
 >
-> O **número do lote** é o único nível na hierarquia que está aberto para a política de reserva flexível. Em outras palavras, você não pode marcar a caixa de seleção **Permitir reserva na ordem de demanda** para o nível **Local**, **Placa de licença** ou **Número de série**.
+> **Número do lote** e **Placa de licença** são os únicos níveis na hierarquia que estão abertos para a política de reserva flexível. Em outras palavras, você não pode marcar a caixa de seleção **Permitir reserva na ordem de demanda** para o nível de **Local** ou **Número de série**.
 >
 > Se a hierarquia de reservas incluir a dimensão de número de série (que deve estar sempre abaixo do nível **Número do lote**) e se você tiver ativado a reserva específica do lote para o número do lote, o sistema continuará tratando a reserva de número de série e as operações de separação, com base nas regras que se aplicam à política de reserva "Abaixo da série\[local\].
 
@@ -90,11 +94,11 @@ O conjunto de regras seguinte é válido quando as quantidades são processadas,
 
 O exemplo a seguir mostra o fluxo de ponta a ponta.
 
-## <a name="example-scenario"></a>Cenário de exemplo
+## <a name="example-scenario-batch-number-allocation"></a>Cenário de exemplo: alocação de número de lote
 
 Para este exemplo, os dados de demonstração devem ser instalados, e você deve usar a empresa de dados de demonstração **USMF**.
 
-### <a name="set-up-an-inventory-reservation-hierarchy-to-allow-batch-specific-reservation"></a>Configurar uma hierarquia de reservas de estoque para permitir reserva específica de lote
+### <a name="set-up-an-inventory-reservation-hierarchy-to-allow-batch-specific-reservation"></a><a name="Example-batch-allocation"></a>Configurar uma hierarquia de reservas de estoque para permitir reserva específica de lote
 
 1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Estoque \> Hierarquia de reservas**.
 2. Selecione **Novo**.
@@ -122,7 +126,7 @@ Para este exemplo, os dados de demonstração devem ser instalados, e você deve
     | 24        | B11          | FL-001   | LP11          | 10       |
     | 24        | B22          | FL-002   | LP22          | 10       |
 
-### <a name="enter-sales-order-details"></a>Inserir detalhes da ordem de venda
+### <a name="enter-sales-order-details"></a><a name="sales-order-details"></a>Inserir detalhes da ordem de venda
 
 1. Vá para **Vendas e marketing** \> **Ordens de venda** \> **Todas as ordens de venda**.
 2. Selecione **Novo**.
@@ -186,6 +190,176 @@ Para este exemplo, os dados de demonstração devem ser instalados, e você deve
 
     A quantidade de **10** para o número de lote **B11** agora está separada para a linha da ordem de venda e foi posicionada no local **Porta da baía**. Neste ponto, ele está pronto para ser carregado no caminhão e enviado para o endereço do cliente.
 
+## <a name="flexible-license-plate-reservation"></a>Reserva de placa de licença flexível
+
+### <a name="business-scenario"></a>Cenário de negócios
+
+Neste cenário, uma empresa usa o gerenciamento de depósito e o processamento de trabalho e manipula o planejamento de carga no nível de paletes/contêineres individuais fora do Supply Chain Management, antes que o trabalho seja criado. Esses recipientes são representados por placas de licença nas dimensões de estoque. Portanto, para essa abordagem, as placas de licença específicas devem ser previamente atribuídas a linhas de ordem de venda, antes da realização do trabalho de separação. A empresa está procurando flexibilidade na forma como as regras de reserva da placa de licença são manipuladas, de forma que os seguintes comportamentos ocorram:
+
+- Uma placa de licença pode ser registrada e reservada quando a ordem for realizada pelo processador de vendas e não pode ser alterada durante as operações de depósito e/ou retirada por outras demandas. Esse comportamento ajuda a garantir que a placa de licença que foi planejada seja enviada ao cliente.
+- Se a placa de licença ainda não estiver atribuída a uma linha da ordem de venda, o pessoal do depósito poderá selecionar uma placa de licença durante o trabalho de separação, depois que o registro e a reserva da ordem de venda forem concluídos.
+
+### <a name="turn-on-flexible-license-plate-reservation"></a>Ativar reserva de placa de licença flexível
+
+Antes de usar a reserva de placa de licença flexível, dois recursos devem ser ativados em seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status desses recursos e ativá-los, se necessário. Você deve ativar os recursos na seguinte ordem:
+
+1. **Nome do recurso:** *Reserva de dimensão em nível de depósito flexível*
+1. **Nome do recurso:** *Reserva de placa de licença confirmada por ordem flexível*
+
+### <a name="reserve-a-specific-license-plate-on-the-sales-order"></a>Reservar uma placa de licença específica na ordem de venda
+
+Para habilitar a reserva da placa de licença em uma ordem, você deve marcar a caixa de seleção **Permitir reserva na ordem de demanda** para o nível da **Placa de licença** na página **Hierarquias da reserva de estoque** da hierarquia associada ao item relevante.
+
+![Página de hierarquias da reserva de estoque para uma hierarquia flexível de reservas da placa de licença](media/Flexible-LP-reservation-hierarchy.png)
+
+Você pode habilitar a reserva da placa de licença na ordem em qualquer ponto da implantação. Essa alteração não afetará as reservas nem o trabalho de depósito aberto que foram criados antes da alteração. No entanto , a caixa de seleção **Permitir reserva na ordem de demanda** não poderá ser desmarcada se existirem transações de estoque de saída que tem um status de emissão de *Na ordem*, *Encomendada reservada* ou *Encomendada* para um ou mais itens que são associados a essa hierarquia de reservas.
+
+Mesmo que a caixa de seleção **Permitir reserva em ordem de demanda** esteja marcada para o nível de **Placa de licença**, ainda é possível *não* reservar uma placa de licença específica na ordem. Nesse caso, a lógica de operações de depósito padrão válida para a hierarquia de reserva é aplicada.
+
+Para reservar uma placa de licença específica, você deve usar um processo [Protocolo de Dados Aberto (OData)](../../fin-ops-core/dev-itpro/data-entities/odata.md). No aplicativo, é possível fazer essa reserva diretamente de uma ordem de venda usando a opção de **Reservas confirmadas na ordem por placa de licença** do comando **Abrir no Excel**. Nos dados da entidade que são abertos no suplemento do Excel, você deve inserir os seguintes dados relacionados à reserva e selecionar **Publicar** para enviar os dados de volta ao Supply Chain Management:
+
+- Referência (só o valor *Ordem de venda* é suportado.)
+- Número da ordem (o valor pode ser derivado do lote.)
+- ID do lote
+- Placa de licença
+- Quantidade
+
+Se for necessário reservar uma placa de licença específica para um item controlado por lote, use a página **Reserva de lote**, conforme descrito na seção [Inserir detalhes da ordem de venda](#sales-order-details).
+
+Quando a linha da ordem de venda que usa uma reserva de placa de licença confirmada por ordem é processada pelas operações de depósito, as diretivas de localização não são usadas.
+
+Se um item de trabalho de depósito consistir em linhas que são iguais a um palete completo e têm uma placa de licença – quantidades confirmadas, você poderá otimizar o processo de separação usando um item de menu de dispositivo móvel no qual a opção **Manipular por placa de licença** está definida como *Sim*. Um trabalho de depósito pode, então, verificar uma placa de licença para concluir uma separação, em vez de ter que verificar os itens do trabalho, um a um.
+
+![Item de menu de dispositivo móvel no qual a opção Manipular por placa de licença está definida como Sim](media/Handle-by-LP-menu-item.png)
+
+Como a funcionalidade **Manipular por placa de licença** é incompatível com o trabalho que cobre vários paletes, é melhor ter um item de trabalho separado para placa de licença diferentes. Para usar essa abordagem, adicione o campo **ID da placa de licença confirmada por ordem** como uma quebra de cabeçalho de trabalho na página **Modelo de trabalho**.
+
+## <a name="example-scenario-set-up-and-process-an-order-committed-license-plate-reservation"></a>Exemplo de cenário: configurar e processar uma reserva de placa de licença confirmada por ordem
+
+Este cenário mostra como configurar e processar uma reserva de placa de licença confirmada por ordem.
+
+### <a name="make-demo-data-available"></a>Disponibilizar dados de demonstração
+
+Este cenário faz referência a valores e registros incluídos nos dados de demonstração padrão que são fornecidos para o Supply Chain Management. Se quiser trabalhar no cenário usando os valores fornecidos aqui, trabalhe em um sistema em um ambiente no qual os dados de demonstração estejam instalados. Além disso, defina a entidade legal **USMF** antes de começar.
+
+### <a name="create-an-inventory-reservation-hierarchy-that-allows-for-license-plate-reservation"></a>Criar uma hierarquia de reserva de estoque que permite reservas de placas de licença
+
+1. Vá para **Gerenciamento de depósito \> Configuração \> Estoque \> Hierarquia da reserva**.
+1. Selecione **Novo**.
+1. No campo **Nome**, insira um valor (por exemplo, *FlexibleLP*).
+1. No campo **Descrição**, insira um valor (por exemplo, *Reserva de placa de licença flexível*).
+1. Na lista **Selecionada**, selecione o **Número do lote**, **Número de série** e o **Proprietário**.
+1. Selecione o botão **Remover** ![seta para trás](media/backward-button.png) para mover os registros selecionados para a lista **Disponível**.
+1. Selecione **OK**.
+1. Na linha do nível de dimensão **Placa de licença**, marque a caixa de seleção **Permitir reserva na ordem de demanda**. O nível **Local** é selecionado automaticamente, e não é possível desmarcar a caixa de seleção dele.
+1. Selecione **Salvar**.
+
+### <a name="create-two-released-products"></a>Crie dois produtos lançados
+
+1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
+1. No Painel de Ações, selecione **Novo**.
+1. Na caixa de diálogo **Novo produto lançado**, defina os seguintes valores:
+
+    - **Número do produto:** *Item1*
+    - **Número do item:** *Item1*
+    - **Grupo de modelo do item:** *FIFO*
+    - **Grupo de itens:** *Áudio*
+    - **Grupo de dimensões de armazenamento:** *Ware*
+    - **Grupo de dimensões de rastreamento:** *Nenhum*
+    - **Hierarquia de reserva:** *FlexibleLP*
+
+1. Selecione **OK** para criar o produto e fechar a caixa de diálogo.
+1. O novo produto é aberto. Na guia rápida **Depósito**, no campo **ID do grupo de sequências de unidade**, insira *cada*.
+1. Repita as etapas anteriores para criar um segundo produto que tenha as mesmas configurações, mas defina os campos **Número do produto** e **Número do item** como *Item2*.
+1. No Painel de Ação, na guia **Gerenciar estoque**, no grupo **Exibir**, selecione **Estoque físico**. Em seguida, selecione **Ajuste de quantidade**.
+1. Ajuste o estoque disponível dos novos itens, conforme especificado na tabela a seguir.
+
+    | Item   | Depósito | Localização | Placa de licença | Quantidade |
+    |-------|-----------|----------|---------------|----------|
+    | Item1 | 24        | FL-010   | LP01          | 10       |
+    | Item1 | 24        | FL-011   | LP02          | 10       |
+    | Item2 | 24        | FL-010   | LP01          | 5        |
+    | Item2 | 24        | FL-011   | LP02          | 5        |
+
+    > [!NOTE]
+    > Você deve criar as duas placas de licença e os locais de uso que permitem itens mistos, como *FL-010* e *FL-011*.
+
+### <a name="create-a-sales-order-and-reserve-a-specific-license-plate"></a>Criar uma ordem de venda e reservar uma placa de licença específica
+
+1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Selecione **Novo**.
+1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
+
+    - **Conta de cliente:** *US-001*
+    - **Depósito:** *24*
+
+1. Selecione **OK** para fechar a caixa de diálogo **Criar ordem de venda** e abrir a nova ordem de venda.
+1. Na guia rápida **Linhas da ordem de venda**, adicione uma linha que tenha as seguintes configurações:
+
+    - **Número do item:** *Item1*
+    - **Quantidade:** *10*
+
+1. Adicione uma segunda linha da ordem de venda com as seguintes configurações:
+
+    - **Número do item:** *Item2*
+    - **Quantidade:** *5*
+
+1. Selecione **Salvar**.
+1. Na guia rápida **Detalhes da linha**, na guia **Configuração**, anote o valor do **ID do lote** de cada linha. Esses valores serão necessários durante a reserva de placas de licença específicas.
+
+    > [!NOTE]
+    > Para reservar uma placa de licença específica, você deve usar a entidade de dados **Reservas confirmadas na ordem por placa de licença**. Para reservar um item controlado por lote em uma placa de licença específica você também pode usar a página **Reserva de lote**, conforme descrito na seção [Inserir detalhes da ordem de venda](#sales-order-details).
+    >
+    > Se você inserir a placa de licença diretamente na linha da ordem de venda e confirmá-la no sistema, o processamento do gerenciamento de depósito não será usado para a linha.
+
+1. Selecione **Abrir no Microsoft Office**, selecione **Reservas confirmadas na ordem por placa de licença** e baixe o arquivo.
+1. Abra o arquivo baixado no Excel e selecione **Habilitar edição** para permitir que o suplemento do Excel seja executado.
+1. Caso esteja executando o suplemento do Excel pela primeira vez, selecione **Confiar nesse Suplemento**.
+1. Se for solicitado que você entre no sistema, selecione **Entrar** e use as mesmas credenciais usadas para entrar no Supply Chain Management.
+1. Para reservar um item em uma placa de licença específica, no suplemento do Excel, selecione **Novo** para adicionar uma linha de reserva e, em seguida, defina os seguintes valores:
+
+    - **ID do lote:** Insira o **ID do lote** encontrado para a linha da ordem de venda para *Item1*.
+    - **Placa de licença:** *LP02*
+    - **ReservedInventoryQuantity:** *10*
+
+1. Selecione **Novo** para adicionar outra linha de reserva e defina os seguintes valores:
+
+    - **ID do lote:** Insira o **ID do Lote** encontrado para a linha da ordem de venda para *Item2*.
+    - **Placa de licença:** *LP02*
+    - **ReservedInventoryQuantity:** *5*
+
+1. No suplemento do Excel, selecione **Publicar** para enviar os dados novamente para o Supply Chain Management.
+
+    > [!NOTE]
+    > A linha de reserva será exibida no sistema somente se a publicação for concluída sem erros.
+
+1. Volte para Supply Chain Management. 
+1. Para revisar a reserva do item, na guia rápida **Linhas da ordem de venda**, no menu **Estoque**, selecione **Manter \> Reserva**. Observe que, para a linha da ordem de venda para *Item1*, o estoque de *10* é reservado e para a linha da ordem de venda para *item2*, o estoque de *5* é reservado.
+1. Para revisar as transações de estoque relacionadas à reserva da linha da ordem de venda, na guia rápida **Linhas da ordem de venda**, no menu **Estoque**, selecione **Exibir \> Transações**. Observe que há duas transações relacionadas à reserva: uma na qual o campo **Referência** está definido como *Ordem de venda* e outra na qual o campo **Referência** está definido como *Reserva de ordem confirmada*.
+
+    > [!NOTE]
+    > Uma transação na qual o campo **Referência** é definido como *Ordem de venda* representa a reserva da linha para dimensões de estoque que estão acima do nível do **Local** (status de local, depósito e estoque). Uma transação na qual o campo **Referência** está definido como *Reserva confirmada na ordem* representa a reserva da linha da ordem para a placa e a localização da licença específica.
+
+1. Para liberar a ordem de venda, no Painel de Ação, na guia **Depósito**, no grupo **Ações**, selecione **Liberar para o depósito**.
+
+### <a name="review-and-process-warehouse-work-with-order-committed-license-plates-assigned"></a>Revisar e processar trabalho de depósito com placas de licença confirmadas por ordem atribuídas
+
+1. Na guia rápida **Linhas da ordem de venda**, no menu **Depósito**, selecione **Detalhes do trabalho**.
+
+    Como quando a reserva é feita para um lote específico, o sistema não usa diretivas de localização quando cria o trabalho para a ordem de venda que usa a reserva da placa de licença. Como a reserva de ordem confirmada especifica todas as dimensões de estoque, incluindo a localização, as diretivas de local não precisam ser usadas, pois essas dimensões de estoque são inseridas no trabalho. São mostradas na seção **Das dimensões de estoque** na página **Transações de estoque de trabalho**.
+
+    > [!NOTE]
+    > Depois que o trabalho é criado, a transação de estoque do item na qual o campo **Referência** está definido como *Reserva confirmada na ordem* é removida. A transação de estoque na qual o campo **Referência** está definido como *Trabalho* agora contém a reserva física para todas as dimensões de estoque da quantidade.
+
+1. No dispositivo móvel, termine a separação e coloque o trabalho usando um item de menu no qual a caixa de seleção **Manipular por placa de licença** está marcada.
+
+    > [!NOTE]
+    > A funcionalidade **Manipular por placa de licença** o ajuda a processar toda a placa de licença. Se você precisar processar parte da placa de licença, não poderá usar essa funcionalidade.
+    >
+    > É recomendável que você tenha um trabalho separado gerado para cada placa de licença. Para obter esse resultado, use o recurso **Quebras de cabeçalho de trabalho** na página **Modelo de trabalho**.
+
+    A placa de licença *LP02* agora está separada para as linhas da ordem de venda e colocada no local *Baydoor*. Neste ponto, ele está pronto para ser carregado e enviado para o cliente.
+
 ## <a name="exception-handling-of-warehouse-work-that-has-order-committed-batch-numbers"></a>Tratamento de exceção do trabalho de depósito que tem números de lote confirmados na ordem
 
 O trabalho de depósito para separação de números de lote confirmados na ordem está sujeito ao mesmo tratamento de exceção de depósito e às mesmas ações que o trabalho regular. De modo geral, o trabalho em aberto ou linha do trabalho pode ser cancelado, pode ser interrompido porque o local de um usuário está cheio, a quantidade separada é insuficiente e pode ser atualizado devido a uma movimentação. Da mesma forma, a quantidade separada de trabalho que já foi concluída pode ser reduzida, ou o trabalho pode ser revertido.
@@ -194,7 +368,7 @@ A importante regra a seguir é aplicada a todas as ações de tratamento de exce
 
 ### <a name="example-scenario"></a>Cenário de exemplo
 
-Um exemplo desse cenário é uma situação em que o trabalho concluído anteriormente está sendo retirado usando a função **Reduzir quantidade separada**. Este exemplo continua o exemplo anterior neste tópico.
+Um exemplo desse cenário é uma situação em que o trabalho concluído anteriormente está sendo retirado usando a função **Reduzir quantidade separada**. Este exemplo supõe que você já tenha concluído as etapas descritas no [Exemplo de cenário: alocação de número de lote](#Example-batch-allocation). Ele continua com base nesse exemplo.
 
 1. Vá para **Gerenciamento de depósito** \> **Cargas** \> **Cargas ativas**.
 2. Selecione a carga que foi criada em relação à remessa da ordem de venda.

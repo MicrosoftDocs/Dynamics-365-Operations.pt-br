@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 50362ccd9df7a44961bd6e46fa16779829b1c408
-ms.sourcegitcommit: 96ec8b7252296de0049bff406c743f8da9e0f0be
+ms.openlocfilehash: 393349240d16636d3eec747126cc1ee6f6f9998d
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "3606813"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651657"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Recursos de plataforma removidos ou obsoletos
 
@@ -38,8 +38,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.13 dos aplicativos do Finance and Operations
 
 > [!NOTE]
-> A versão 10.0.13 ainda não foi lançada. Essas informações são fornecidas para fins de planejamento. O conteúdo e a funcionalidade da versão 10.0.13 estão sujeitos a alterações. Para obter informações sobre as versões, consulte [Disponibilidade de atualizações do serviço](../../fin-ops/get-started/public-preview-releases.md).
-
+> A versão 10.0.13 é uma versão preliminar. O conteúdo e a funcionalidade estão sujeitos a alterações. Para obter informações sobre as versões prévias, consulte [Disponibilidade das atualizações do serviço](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
 
 ### <a name="upgrade-of-three-jquery-component-libraries"></a>Atualização de três bibliotecas de componentes jQuery 
 
@@ -50,6 +49,27 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | **Áreas afetadas do produto**         | Controles extensíveis, especificamente códigos JavaScript personalizados usando APIs preteridas ou removidas |
 | **Opção de implantação**              | Todas |
 | **Status**                         | Com a versão 10.0.13/Atualizaçãod e plataforma 37, os clientes podem, opcionalmente, mudar para as bibliotecas mais recentes habilitando o recurso "Atualizar três bibliotecas de componentes jQuery". A mudança para as novas bibliotecas será obrigatória na versão de abril de 2021 para permitir o tempo de migração de APIs afetadas.   |
+
+### <a name="existing-grid-controlforcelegacygrid-api"></a>Controle de grade existente/API forceLegacyGrid()
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | O controle de grade existente está sendo substituído pelo novo controle de grade. |
+| **Substituída por outro recurso?**   | O [novo controle de grade](../..//fin-ops/get-started/grid-capabilities.md) |
+| **Áreas afetadas do produto**         | Cliente web |
+| **Opção de implantação**              | Todas |
+| **Status**                         | Na versão 10.0.13, o novo controle de grade está geralmente disponível e os clientes podem ativar esse recurso opcionalmente. O novo controle de grade se tornará obrigatório na versão de outubro de 2021. Quando o novo controle de grade se tornar obrigatório, a API **forceLegacyGrid()** não será mais respeitada. |
+
+### <a name="personalization-without-saved-views"></a>Personalização sem exibições salvas 
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | O subsistema de personalização foi revisado com o recurso de exibições salvas para oferecer um melhor desempenho e recursos adicionais. |
+| **Substituída por outro recurso?**   | Exibições salvas |
+| **Áreas afetadas do produto**         | Cliente web |
+| **Opção de implantação**              | Todas |
+| **Status**                         | Na versão 10.0.13/atualização de Plataforma 37, o recurso de exibições salvas está geralmente disponível e os clientes podem ativar esse recurso opcionalmente. O recurso de exibições salvas se tornará obrigatório na versão de outubro de 2021. |
+
 
 ## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.12 dos aplicativos do Finance and Operations
 

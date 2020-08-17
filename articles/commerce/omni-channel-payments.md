@@ -3,7 +3,7 @@ title: Visão geral de pagamentos de omni-channel
 description: Este tópico fornece uma visão geral de pagamentos de omni-channel no Dynamics 365 Commerce.
 author: rubendel
 manager: AnnBe
-ms.date: 11/26/2019
+ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 2251e523f7dfa3a06f0c45a4e156dbe097587f9a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2127eb60a82bef8c6b5f5e9a917160331c483649
+ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021672"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "3613168"
 ---
 # <a name="omni-channel-payments-overview"></a>Visão geral de pagamentos de omni-channel
 
@@ -68,11 +68,13 @@ Os seguintes componentes e etapas de configuração são necessários:
 
 - **Integração de comércio eletrônico:** é necessária uma integração com o Commerce para dar suporte a cenários em que uma ordem se origina em uma vitrine online. Para obter mais informações sobre o SDK de comércio eletrônico do Retail, consulte [kit de desenvolvimento de software (SDK) da plataforma de comércio eletrônico](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk). Em um ambiente de demonstração, a vitrine de referência oferece suporte a cenários de pagamento de omni-channel. 
 - **Configuração de pagamentos online:** a configuração do canal online deve incluir um conector de pagamento que foi atualizado para oferecer suporte a pagamentos de omni-channel. Como alternativa, o conector de pagamento pronto para uso pode ser usado. Para obter informações sobre como configurar o conector de pagamento de Adyen para lojas online, consulte [Conector de pagamento de Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce). Além das etapas de configuração do comércio eletrônico descritas neste tópico, o parâmetro **Permitir salvar informações de pagamento no comércio eletrônico** deve ser definido como **Verdadeiro** nas configurações do conector de Adyen. 
-- **Configuração de pagamentos de omni-channel:** no back office, vá para **Retail e Commerce \> Configuração da sede \> Parâmetros \> Parâmetros compartilhados do Commerce**. Depois, na guia **Pagamentos de omni-channel**, define a opção **Usar pagamentos de omni-channel** como **Sim**.
+- **Configuração de pagamentos de omni-channel:** no back office, vá para **Retail e Commerce \> Configuração da sede \> Parâmetros \> Parâmetros compartilhados do Commerce**. Depois, na guia **Pagamentos de omni-channel**, define a opção **Usar pagamentos de omni-channel** como **Sim**. No Commerce versões 10.0.12 e posterior, essa configuração está no espaço de trabalho **Gerenciamento de Recursos**. Selecione o recurso **Pagamentos de omnicanal** e clique em **Habilitar agora**. 
 - **Serviços de pagamento:** o call center usa o conector de pagamento padrão na página **Serviços de pagamento** para processar pagamentos. Para suportar cenários como "Comprar em uma call center, retirar na loja", esse conector de pagamento padrão deve ser o conector de pagamento de Adyen ou um conector de pagamento que atenda aos requisitos de implementação para pagamentos de omni-channel.
 - **Serviço de TEF:** os pagamentos por meio de um terminal de pagamento devem ser configurados na Guia Rápida **Serviço de TEF** do perfil de hardware. O conector de Adyen oferece suporte a cenários de pagamentos de omni-channel prontos para uso. Outros conectores de pagamento que oferecem suporte à interface **iNamedRequestHandler** também podem ser usados se permitirem pagamentos de omni-channel.
 - **Disponibilidade do conector de pagamento:** quando uma ordem é cancelada, as linhas de proposta de pagamento que são canceladas juntamente com a ordem incluem o nome do conector de pagamento que foi usado para criar as autorizações associadas a essa ordem. Quando a ordem é atendida, o SDK de pagamentos tenta usar o mesmo conector usado para criar a autorização original. Portanto, um conector de pagamento que tenha as mesmas propriedades do comerciante deve estar disponível para captura. 
 - **Tipos de cartão:** para que os cenários de omni-channel funcionem corretamente, cada canal deve ter a mesma configuração para os tipos de proposta que podem ser usados para o omni-channel. Essa configuração inclui IDs de método de pagamento e IDs de tipo de cartão. Por exemplo, se o tipo de proposta **Cartões** tiver uma ID de **2** na configuração da loja online, ele deverá ter a mesma ID na configuração da loja de varejo. O mesmo requisito se aplica às IDs do tipo de cartão. Se o número do cartão **12** estiver definido como **VISA** na loja online, a mesma ID deverá ser configurada para a loja de varejo. 
+- O Retail Modern POS para Windows ou Android com uma estação de hardware integrada — ou —
+- Modern POS para iOS ou PDV em Nuvem com estação de hardware compartilhada conectada. 
 
 ### <a name="basic-principle-supporting-omni-channel-payments"></a>Princípio básico com suporte aos pagamentos de omni-channel
 
@@ -100,8 +102,10 @@ As seções a seguir descrevem as etapas para cada cenário e mostram como execu
 Antes de começar, verifique se os seguintes pré-requisitos estão atendidos:
 
 - Você tem uma loja de referência onde o conector de Adyen está configurado.
-- A opção **Pagamentos de omni-channel** na página **Parâmetros compartilhados do Commerce** é definida como **Verdadeiro**.
+- A opção **Pagamentos de omni-channel** na página **Parâmetros compartilhados do Commerce** é definida como **Verdadeiro**. Em versões mais recentes, essa configuração foi movida para o espaço de trabalho **Gerenciamento de Recursos**, no qual você pode selecionar o recurso **Pagamentos de omnicanal** e clicar em **Habilitar agora**. 
 - O conector de pagamento de Adyen é configurado para o registro de PDV de Houston.
+- O Retail Modern POS para Windows ou Android com uma estação de hardware integrada — ou —
+- Modern POS para iOS ou PDV em Nuvem com estação de hardware compartilhada conectada. 
 
 Siga estas etapas para executar o cenário.
 
@@ -229,3 +233,5 @@ Quando uma ordem que tem várias propostas e várias linhas é selecionado, o ca
 
 - [Perguntas frequentes sobre pagamentos](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
 - [Conector de Pagamento do Dynamics 365 para Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
+- [Configurar BOPIS em um ambiente de avaliação do Dynamics 365 Commerce](https://docs.microsoft.com/en-us/dynamics365/commerce/cpe-bopis)
+

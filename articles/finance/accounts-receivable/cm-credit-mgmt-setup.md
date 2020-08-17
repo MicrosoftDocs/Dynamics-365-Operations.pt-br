@@ -3,7 +3,7 @@ title: Configuração dos parâmetros de gerenciamento de crédito
 description: Este tópico descreve as opções que você pode usar para configurar o Gerenciamento de crédito de acordo com as necessidades da sua empresa.
 author: mikefalkner
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6d4ced14e51dd28d51d2081d8e92891e31eea49d
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: c4930d346ddc4679e6a3196c5f35adb598ed38c1
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154519"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651896"
 ---
 # <a name="credit-management-parameters-setup"></a>Configuração dos parâmetros de gerenciamento de crédito
 
@@ -34,7 +34,7 @@ Existem quatro FastTabs na seção **Crédito** onde é possível alterar os par
 
 ### <a name="credit-holds"></a>Bloqueios de crédito
 
-- Defina a opção **Permitir a edição das ordens de venda após a liberação do bloqueio da ordem** como **Sim** para exigir que as regras de lançamento sejam verificadas novamente se o valor da ordem de venda (preço bruto) tiver sido alterado desde que a ordem de venda foi liberada da lista de bloqueio. .
+- Defina a opção **Permitir a edição das ordens de venda após a liberação do bloqueio da ordem** como **Sim** para exigir que as regras de lançamento sejam verificadas novamente se o valor da ordem de venda (preço bruto) tiver sido aumentada desde que a ordem de venda foi liberada da lista de bloqueio. .
 - No campo **Motivos das ordens canceladas**, selecione o motivo de liberação que será usado por padrão quando uma ordem de venda que estava em bloqueio de gerenciamento de crédito for cancelada.
 - Defina a opção **Verificar limite de crédito de grupos de crédito de cliente** como **Sim** para verificar o limite de crédito de um grupo de crédito de cliente quando o cliente em uma ordem de venda pertencer a um grupo de crédito de cliente. O limite de crédito do grupo será verificado e, se for suficiente, o limite de crédito do cliente será verificado.
 - Defina a opção **Verificar o limite de crédito quando as condições de pagamento forem estendidas** como **Sim** para verificar as classificações de condições de pagamento a fim de determinar se as condições de pagamento na ordem de venda diferem das condições de pagamento padrão do cliente. Se as novas condições de pagamento tiverem uma classificação superior à das condições de pagamento originais, a ordem será colocada em bloqueio de gerenciamento de crédito.

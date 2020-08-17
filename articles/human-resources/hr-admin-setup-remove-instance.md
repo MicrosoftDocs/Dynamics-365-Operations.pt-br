@@ -3,7 +3,7 @@ title: Remover uma instância
 description: Este artigo mostra o processo de remoção de um ambiente de produção ou de test drive do Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 17f299f81d1326dfb06c11a6125acc54b8ef2a6e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: a384801060b2b684f7908daaac2311edd27c773a
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431190"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621371"
 ---
 # <a name="remove-an-instance"></a>Remover uma instância
 
@@ -67,8 +67,21 @@ Para remover um ambiente do Human Resources de um ambiente existente do Power Ap
 1. Contate o suporte para iniciar uma solicitação de remoção.
 2. A equipe de suporte iniciará uma solicitação de remoção com a equipe do Human Resources DevOps. 
 3. Continue após ser informado de que o ambiente foi removido.
-4.  Entre no LCS usando a conta utilizada para inscrever-se no Human Resources. 
+4. Entre no LCS usando a conta utilizada para inscrever-se no Human Resources. 
 5. Selecione o projeto do Human Resources que contém o ambiente. 
 6. Em seu projeto LCS, selecione o bloco **Gerenciamento do Aplicativo de Human Resources**. 
 7. Selecione a instância que você deseja remover, que deve estar marcada com um status de implantação **Reprovado**.
 8. Selecione **Remover instância** e confirme sua decisão. 
+
+## <a name="recover-a-soft-deleted-environment"></a>Recuperar um ambiente excluído de forma reversível
+
+Se você excluir o ambiente do Power Apps ao qual o seu ambiente de Recursos Humanos está conectado, o status do ambiente de Recursos Humanos no Lifecycle Services será **Excluído de forma reversível**. Nesse caso, os usuários não podem se conectar aos Recursos Humanos.
+
+Para restaurar o ambiente:
+
+1. Siga as instruções no [ambiente Recuperar o Power Apps](/power-platform/admin/recover-environment.md).
+
+2. Entre em contato com o suporte para restaurar o ambiente de Recursos Humanos. Para obter mais informações, consulte [Obter suporte](hr-admin-troubleshooting-support.md).
+
+> [!Warning]
+> Os ambientes do Power Apps só são salvos por sete dias após a exclusão. Você deve recuperar o ambiente no período de sete dias.

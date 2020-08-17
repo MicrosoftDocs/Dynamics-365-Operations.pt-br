@@ -3,7 +3,7 @@ title: Visão geral dos relatórios financeiros
 description: Este tópico descreve onde acessar relatórios financeiros no Microsoft Dynamics 365 Finance e como usar os recursos de relatório financeiro. Ele inclui uma descrição de relatórios financeiros padrão que são fornecidos.
 author: aprilolson
 manager: AnnBe
-ms.date: 07/10/2020
+ms.date: 07/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 015f0282a2defcd7a8388eeaa70e0de6fb7cac78
-ms.sourcegitcommit: faaa4215f513885dd92cf7430b3612848ec09893
+ms.openlocfilehash: 86022b662c265b4b98f6df86647f61ea35d31432
+ms.sourcegitcommit: f5200f37c6c436183b4ee5711026ef92a7cb9538
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "3609580"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3618029"
 ---
 # <a name="financial-reporting-overview"></a>Visão geral de relatórios financeiros
 
@@ -87,24 +87,16 @@ Depois que um usuário é adicionado ou uma função é alterada, o usuário dev
 ## <a name="report-deletions-and-expirations"></a>Exclusão e vencimento de relatórios
 Os usuários que geram um relatório podem excluir seus próprios relatórios. Os usuários com a obrigação **Manter a segurança de relatórios financeiros** podem excluir os relatórios de outros usuários. 
 
-A partir da versão 10.0.7, foi introduzido o conceito de datas de vencimento. Um novo recurso exigido será habilitado no espaço de trabalho de gerenciamento de recursos. Esse recurso contém as seguintes alterações:
-
-* Os relatórios recém-gerados serão automaticamente marcados como tendo uma data de vencimento de 90 dias a partir do momento em que forem gerados.
-* Todos os relatórios existentes antes da instalação do recurso receberão um período de vencimento de 90 dias. A data pode aparecer em branco por um breve período de tempo até que o serviço de relatórios financeiros esteja em execução, um relatório seja gerado e o serviço execute a atualização em relatórios existentes com uma data de vencimento em branco. 
-* Os usuários com **Manter a segurança de relatórios financeiros** têm acesso a essa funcionalidade. Todos os usuários na obrigação **Manter relatórios financeiros** que tenham recebido o privilégio **Manter vencimento de relatórios financeiros** também terão a capacidade de modificar o período de vencimento. No momento, há duas opções de retenção disponíveis:
-   * Um vencimento de 90 dias
-   * Uma opção para configurar o relatório para nunca vencer
-
-Quando um vencimento, como 90 dias, é selecionado, são aplicados 90 dias a partir de hoje, o que é um comportamento diferente dos 90 dias a partir da data de geração original definida quando o relatório foi gerado. Na versão 10.0.8, foi introduzido o conceito de datas de vencimento. Um novo recurso necessário foi habilitado na página **Todos** do espaço de trabalho de gerenciamento de recursos. O recurso **Políticas de retenção de relatórios financeiros** contém as seguintes alterações:
+Na versão 10.0.8, foi introduzido o conceito de datas de vencimento. Um novo recurso necessário foi habilitado na página **Todos** do espaço de trabalho de gerenciamento de recursos. O recurso **Políticas de retenção de relatórios financeiros** contém as seguintes alterações:
 * Os relatórios recém-gerados serão automaticamente marcados como tendo uma data de vencimento de 90 dias a partir do momento em que forem gerados.
 * Todos os relatórios existentes antes da instalação do recurso receberão um período de vencimento de 90 dias. A data pode aparecer em branco por um breve período de tempo até que o serviço de relatórios financeiros esteja em execução, um relatório seja gerado e o serviço execute a atualização em relatórios existentes com uma data de vencimento em branco. 
 * Os usuários com **Manter a segurança de relatórios financeiros** têm acesso a essa funcionalidade. Todos os usuários na obrigação **Manter relatórios financeiros** que tenham recebido o privilégio **Manter vencimento de relatórios financeiros** também terão a capacidade de modificar o período de vencimento. No momento, há duas opções de retenção disponíveis: 
   * Um vencimento de 90 dias.
   * Uma opção para configurar o relatório para nunca vencer.
   
-Opções adicionais serão consideradas em futuras funcionalidades. O vencimento de 90 dias será o padrão, e os usuários com as permissões apropriadas poderão substituir o padrão na página de lista **Relatórios financeiros**.    
+Quando uma expiração, como 90 dias, é selecionada, ela é aplicada 90 dias a partir de hoje. Esse comportamento é diferente de 90 dias a partir da data da geração original definida quando o relatório foi gerado. 
   
-Quando um vencimento como 90 dias é selecionado, ele concede 90 dias a partir de hoje, o que é um comportamento diferente dos 90 dias a partir da data de geração original configurados durante a geração do relatório. 
+Opções adicionais serão consideradas em futuras funcionalidades. O vencimento de 90 dias será o padrão, e os usuários com as permissões apropriadas poderão substituir o padrão na página de lista **Relatórios financeiros**.    
 
 ## <a name="default-reports"></a>Relatórios padrão
 Os relatórios financeiros fornecem 22 relatórios financeiros padrão. Cada relatório usa as categorias de conta principal padrão. Você pode usar esses relatórios da forma como são ou como um ponto de partida para os relatórios financeiros necessários. Além dos demonstrativos financeiros tradicionais, como o demonstrativo de renda e o balanço, esses relatórios incluem relatórios que mostram os diferentes tipos de relatórios financeiros que você pode criar. 
@@ -153,7 +145,7 @@ Problema 1: o Designer de Relatórios não inicia quando você seleciona **Novo*
 * As estações de trabalho devem instalar o Visual Studio .NET 4.6.2 ou posterior.
 
 Esta versão do Microsoft .NET Framework pode ser baixada e instalada do [Centro de Download da Microsoft](https://www.microsoft.com/download/details.aspx?id=53345).
-* Se você usa o navegador Chrome, deve instalar uma extensão ClickOnce para baixar o cliente do Designer de Relatórios. Se estiver executando no modo anônimo, verifique se a extensão ClickOnce está habilitada para esse modo. Se você não conseguir entrar com o Chrome, tente seguir as etapas de configuração descritas em Problema 1 usando o Internet Explorer ou o Edge. 
+* Se você usa o navegador Chrome, deve instalar uma extensão ClickOnce para baixar o cliente do Designer de Relatórios. Se estiver executando no modo anônimo, verifique se a extensão ClickOnce está habilitada para esse modo. Se você não conseguir entrar com o Chrome, tente seguir as etapas de configuração descritas em Problema 1 usando o Internet Explorer ou o Micrososft Edge. 
 
 Problema 2: O usuário não recebeu as permissões necessárias para usar o Financial Reporting. 
 

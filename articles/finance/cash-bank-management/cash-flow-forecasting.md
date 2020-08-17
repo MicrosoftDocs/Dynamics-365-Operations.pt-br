@@ -3,7 +3,7 @@ title: Previsão de fluxo de caixa
 description: Este tópico fornece uma visão geral do processo de previsão de fluxo de caixa. Também explica como a previsão de fluxo de caixa é integrada a outros módulos no sistema.
 author: saraschi2
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9795758a60d7913d306488ae6fbbfb7f9865cfc4
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2ffb8522729049ca98acfb70992738b45c05b552
+ms.sourcegitcommit: cf39369545a94201f367a4efada595a04a319d42
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188409"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3653767"
 ---
 # <a name="cash-flow-forecasting"></a>Previsão de fluxo de caixa
 
@@ -104,6 +104,13 @@ Calcule a previsão de fluxo de caixa com a página **Calcular previsões de flu
 
 Você também pode usar o processamento em lotes para a previsão de fluxo de caixa. Para ajudar a garantir que a análise de previsão será atualizada regularmente, configure um processo em lote recorrente para o cálculo de previsão de fluxo de caixa.
 
+Na versão 10.0.13, foi liberado um aperfeiçoamento para o processo de cálculo que usa a estrutura de automação de processos para programar o trabalho de cálculo do fluxo de caixa. Isso é habilitado usando o recurso **Automação de previsão de fluxo de caixa** no espaço de trabalho **Gerenciamento de Recursos**. Uma vez habilitado, selecione o link **Automação de previsão de fluxo de caixa** para exibir a nova página de automação na qual você pode programar o processo de cálculo do fluxo de caixa. Para criar um novo plano de previsão de fluxo de caixa, selecione **Criar nova automação do processo** e, em seguida, selecione **Automação de previsão de fluxo de caixa** no menu suspenso **Tipo de agendamento**. Você deve definir uma agenda para cada empresa para a qual está atualizando os dados de previsão de fluxo de caixa.  Esta página também mostra os trabalhos de automação de previsão de fluxo de caixa que estão pendentes e quando o último trabalho foi concluído.  
+
+> [!NOTE] 
+> Se os trabalhos em lote existentes já estiverem agendados para previsões de fluxo de caixa, você receberá uma mensagem de erro e não poderá habilitar esse recurso. Os trabalhos em lotes existentes precisarão ser limpos para que você possa habilitar esse recurso. 
+
+Para obter mais informações, consulte [Automação de processos](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md).
+
 ### <a name="reporting"></a>Relatório
 
 Após o cálculo de previsão de fluxo de caixa, é necessário atualizar informações associadas da entidade para o relatório analítico. Na página **Repositório de entidades**, selecione a medida, **Agregação de LedgerCovLiquidityMeasurement** e clique em **Atualizar**.
@@ -128,7 +135,7 @@ O espaço de trabalho **Visão geral de caixa – todas as empresas** mostra a a
 
 O espaço de trabalho **Visão geral de caixa – empresa atual** mostra a análise da previsão de fluxo de caixa na moeda contábil definida da empresa. A moeda contábil usada para a análise é definida na página **Razão**. Este espaço de trabalho mostra uma visão geral dos saldos da conta bancária e de previsão de fluxo de caixa para a empresa atual. Um plano dos fluxos de entrada e de saída de caixa oferece uma visão geral dos movimentos futuros de caixa e os saldos na moeda contábil, com informações detalhadas sobre as transações de previsão. Você também pode consultar os saldos da moeda previstos.
 
-Para obter mais informações sobre a análise da previsão de fluxo de caixa, consulte o tópico de conteúdo Visão geral de caixa do Power BI.
+Para obter mais informações sobre a análise da previsão de fluxo de caixa, consulte o tópico [Visão geral do conteúdo do Power BI](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-overview-power-bi-content).
 
 Além disso, é possível exibir dados de previsão de fluxo de caixa para contas, ordens e itens específicos nas páginas seguintes:
 

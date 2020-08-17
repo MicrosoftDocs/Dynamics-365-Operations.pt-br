@@ -3,7 +3,7 @@ title: Gerenciamento de desempenho
 description: O processo de gerenciamento de desempenho permite que os funcionários documentem e discutam seu desempenho com os gerentes. Por sua vez, os gerentes podem fornecer comentários e orientações aos funcionários.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/20/2020
+ms.date: 07/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4786717826592973d3b049c4aa5ca615332d5bc6
-ms.sourcegitcommit: 98cfbb42fc556e1afcb2fab50d8dff0ae2b7aa67
+ms.openlocfilehash: 7e2c7753da69f85307eccd22f6a315e9fd1e4bd6
+ms.sourcegitcommit: 3ae002804858f201297a729d03ec7eab8209be34
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3609763"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628444"
 ---
 # <a name="performance-management"></a>Gerenciamento de desempenho
 
@@ -37,6 +37,7 @@ Conforme mostrado no diagrama a seguir, há três páginas que ajudam você a ge
 O diagrama a seguir mostra como os componentes principais do gerenciamento de desempenho estão relacionados entre si. [![Visão geral do processo de desempenho](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
 
 ## <a name="performance-journal"></a>Diário de desempenho
+
 Sendo um funcionário, antes da revisão, você geralmente reúne informações sobre atividades ou eventos que contribuíram para o seu sucesso durante o período de revisão. O diário de desempenho é o lugar em que você pode documentar essas atividades e eventos. Além disso, você pode criar atividades futuras que devem ser concluídas para ajudar a atingir uma meta, atender aos requisitos de um plano de desenvolvimento ou cumprir um compromisso de desempenho. Os diários de desempenho não são exigidos para criar metas ou revisões de desempenho. 
 
 Há duas versões do diário de desempenho: a versão do funcionário, que está disponível no espaço de trabalho **Autoatendimento para funcionários** (**ESS**) e a versão do gerente, que está disponível no espaço de trabalho **Autoatendimento para gerentes** (**MSS**). Os funcionários podem criar diários para si próprios e podem optar por compartilhá-los com seus gerentes. Os gerentes podem criar diários para suas equipes e podem optar por compartilhá-los com seus funcionários. 
@@ -58,6 +59,7 @@ Você também pode vincular o diário de desempenho a um site externo armazenand
 O diário de desempenho contém um recurso adicional chamado Comentário. Ao clicar em **Enviar comentário**, você pode selecionar um funcionário e fornecer comentários a ele por email. A mensagem é enviada ao funcionário que está recebendo o comentário, ao gerente desse funcionário, ao funcionário que está enviando o comentário e ao gerente desse funcionário. Uma entrada no diário de desempenho é criada para cada pessoa que recebe a mensagem do comentário.
 
 ## <a name="goals"></a>Metas
+
 A página **metas de desempenho** ajuda a monitorar as metas que você e seu gerente criaram para você. Você pode criar várias metas, e essas metas podem abranger períodos e revisões de desempenho diferentes. Você também pode criar metas simples ou complexas, dependendo da quantidade de informações que quiser inserir sobre a meta. As metas não são exigidas para as revisões de desempenho. 
 
 Uma meta básica deve incluir as seguintes informações:
@@ -80,6 +82,7 @@ Se você quiser anexar um documento à meta, como um certificado de conclusão, 
 Você pode criar um modelo a partir de uma meta e depois usar o modelo para criar novas metas baseadas nele. Quando você cria um modelo a partir de uma meta, a descrição, os tópicos e as medidas de destino são salvos. No entanto, as medidas, as datas de conclusão e os comentários do tópico são removidos.
 
 ## <a name="performance-reviews"></a>Revisões de desempenho
+
 As revisões de desempenho são conhecidas mais formalmente como discussões. Elas agora são flexíveis o suficiente para dar suporte a comentários contínuos, planos de desenvolvimento e revisões mais formais. Você pode criar rapidamente pequenas reuniões para duas pessoas, como uma reunião particular ou pode criar uma revisão mais complexa que corresponda ao processo de revisão da empresa. 
 
 Uma reunião como a particular é uma revisão simples e requer um nome curto, uma descrição mais longa do conteúdo da reunião e a data em que ocorrerá. Uma revisão simples inclui a mesmas informações, além do período de revisão sendo discutido. Os gerentes também verão o nome da pessoa para quem a revisão foi criada. 
@@ -92,7 +95,11 @@ Você pode criar novas revisões baseadas nos modelos que você criou. Por exemp
 
 Para imprimir revisões, selecione o botão **Imprimir revisão**. Se você não vir o botão na página **Revisão**, certifique-se de ter habilitado o recurso no espaço de trabalho **Gerenciamento de recursos**. Para obter mais informações sobre o Gerenciamento de recursos, consulte [Visão geral do gerenciamento de recursos](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 
+> [!NOTE]
+> A capacidade de imprimir revisões de desempenho só está disponível em Recursos Humanos. Não está disponível no Dynamics 365 Finance.
+
 ## <a name="components-you-can-include-in-performance-reviews"></a>Componentes que podem ser incluídos em revisões de desempenho
+
 Você poderá incluir vários tipos de informações em revisões de desempenho. Entre eles estão os detalhes da revisão, as medidas, as atividades, as classificações, as aprovações e os anexos.
 
 ### <a name="review-detail"></a>Detalhes da revisão
@@ -119,24 +126,30 @@ O funcionário e/ou o gerente serão listados na revisão com base nos parâmetr
 
 Você pode anexar um documento à uma revisão na seção **Anexos** da página de **revisões**. É fornecido um visualizador de documentos para que você possa exibir rapidamente o conteúdo de qualquer documento anexado.
 
-### 
-
 ## <a name="workflow-for-performance-management"></a>Fluxo de trabalho para o gerenciamento de desempenho
+
 Você pode usar o fluxo de trabalho de revisão do trabalhador para controlar a aprovação de uma revisão. Você também pode optar por ignorar o fluxo de trabalho automatizado e alterar manualmente o status da revisão, que permite criar documentos mais simples, como uma revisão individual, sem precisar usar o processo de fluxo de trabalho. O acesso a uma revisão é controlado pelo status dela.
 
 1.  Quando a revisão é criada, ela é definida como **Não iniciada**. A revisão é editável por qualquer pessoa.
+
 2.  Assim que o funcionário pressionar o botão **Iniciar revisão**, a revisão será definida como **Em andamento**. O funcionário então começa a adicionar conteúdo. A partir daí, o gerente não poderá mais exibir o documento de revisão.
+
 3.  O funcionário altera o status para **Pronto para Revisão**.
+
 4.  O gerente pode adicionar comentários e classificações. Neste momento, somente o gerente poderá ver a revisão.
+
 5.  O gerente altera o status para **Revisão Final**, para que o gerente e o funcionário possam ver a revisão e conversar sobre ela. Você pode especificar nos parâmetros se a revisão pode ou não ser editada a partir desse ponto. Esta etapa também é opcional se o gerente deseja apenas compartilhar a revisão com funcionário e marcá-la como **Concluída** quando terminarem.
+
 6.  Depois que as aprovações forem concluídas, o status será alterado para **Concluída**. Neste momento, a revisão não poderá ser alterada.
 
 O fluxo de trabalho de revisão do trabalhador tem dois elementos:
 
 1.  Aprovar revisão. Adicione este elemento para controlar a alteração do status de **Em andamento** para **Pronto para Revisão**. Altere a atribuição para usar a hierarquia administrativa em que o nível de gerente de Employee.line seja = 1.
+
 2.  Revisão final. Adicione este elemento para controlar a alteração do status de **Pronto para Revisão** para **Revisão Final**. Modifica a atribuição para usar a hierarquia administrativa onde o nível do gerente de Employee.line = 1 se desejar que o gerente aprove a revisão final. Altere a atribuição para Fluxo de trabalho do usuário se você quiser que o funcionário aprove-a. Se quiser que o gerente e o funcionário aprovem a revisão, adicione as duas etapas ao fluxo de trabalho e faça a atribuição apropriada para cada etapa na ordem que você quiser que as aprovações sigam.
 
 ## <a name="setup"></a>Instalação
+
 Há três páginas que ajudam você a definir as informações necessárias para concluir o processo de desempenho: a página de **medidas**, a página de **Tipos de origem do diário de desempenho** a página de **tipos de revisão**.
 
 ### <a name="measurements"></a>Medições
@@ -150,6 +163,3 @@ Os tipos de origem do diário de desempenho descrevem de onde os diários de des
 ### <a name="review-types"></a>Tipos de revisão
 
 Os tipos de revisão de desempenho ajudam você a controlar o comportamento de uma revisão. Você pode habilitar ou desabilitar o fluxo de trabalho para uma revisão. Se a revisão não usar o fluxo de trabalho, você poderá definir o status padrão que será usado quando a revisão for criada. Também pode decidir se o funcionário, o gerente ou ambos são necessários para a aprovação da revisão.
-
-
-

@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6d956f63eb5525e45651e8b0698f6f0989f4a3cb
-ms.sourcegitcommit: a0fe7187b1120dc41b3c03d248a20c36d3fc28a2
+ms.openlocfilehash: a875343d9b93f5ebf2c2992fba8b2f182310461e
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "3435738"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621184"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Criar e configurar garantias estendidas
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Este tópico abrange as garantias estendidas e descreve como criá-las e configurá-las no Microsoft Dynamics 365 Commerce.
 

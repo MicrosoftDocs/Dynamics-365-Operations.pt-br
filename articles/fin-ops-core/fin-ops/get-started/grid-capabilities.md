@@ -3,7 +3,7 @@ title: Recursos de grade
 description: Este tópico descreve vários recursos avançados do controle de grade. O novo recurso de grade deve estar habilitado para ter acesso a esses recursos.
 author: jasongre
 manager: AnnBe
-ms.date: 06/04/2020
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 88a4e2fe69000f8034729d468ad5fd108d435c3e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: b1dd5e852bdc116d0848687782c930b19eae7900
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431351"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651681"
 ---
 # <a name="grid-capabilities"></a>Recursos de grade
 
@@ -128,20 +128,47 @@ Para que o sistema reconheça um valor como uma expressão, inicie o valor com u
 
 Todas as sessões de usuário subsequentes começarão com o novo controle de grade habilitado.
 
+## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Desenvolvedor] Impedir que páginas individuais use a nova grade 
+Se a sua organização descobre uma página que tem algumas questões usando a nova grade, uma API está disponível para permitir que um formulário individual use o controle de grade herdado enquanto ainda permite que o restante do sistema utilize o novo controle de grade. Para recusar uma página individual da nova grade, adicione a seguinte postagem de chamada `super()` no método do formulário `run()`.
+
+        this.forceLegacyGrid();
+
+Esta API será honrada até o lançamento de outubro de 2021, quando o novo controle de grade se torna obrigatório. Relate quaisquer problemas à Microsoft que exija que essa API seja usada. 
+
 ## <a name="known-issues"></a>Problemas conhecidos
 Esta seção mantém uma lista de problemas conhecidos do novo controle de grade enquanto o recurso está em um estado de visualização.  
 
 ### <a name="open-issues"></a>Questões em aberto
+-  Depois de habilitar o recurso **Novo controle de grade**, algumas páginas continuarão a usar o controle de grade existente. Isso acontecerá nas seguintes situações:  
+    -  Há uma lista de cartões na página que é renderizada em várias colunas.
+    -  Existe uma lista de placas agrupadas na página.
+    -  Uma coluna de grade com um controle extensível sem reação.
 
-- As listas de cartões que foram processadas como várias colunas agora são processadas como uma única coluna.
-- As listas agrupadas não são processadas como grupos ou em colunas separadas.
+    Quando um usuário encontra primeiro uma dessas situações, uma mensagem será exibida sobre a atualização da página. Depois que esta mensagem for exibida, a página continuará a utilizar a grade existente para todos os usuários até a próxima atualização da versão do produto. Uma melhor manipulação desses cenários, de forma que a nova grade possa ser utilizada, será considerada para uma atualização futura.     
 
 ### <a name="fixed-as-part-of-10013"></a>Corrigido como parte do 10.0.13
 
-> [!NOTE]
-> As informações a seguir estão sendo fornecidas para que você possa planejar de acordo. Para obter mais informações sobre a agenda de lançamentos de destino da versão 10.0.13, consulte [Disponibilidade das atualizações do serviço](../../fin-ops/get-started/public-preview-releases.md).
-
-- [KB 4563317] As dicas de ferramentas não são mostradas para imagens.
+-  [Bug 470173] Caixas de seleção em linhas inativas são alternadas quando se clica no espaço em branco na célula
+-  [Bug 474848] Visualizações aperfeiçoadas com grades não são exibidas
+-  [Bug 474851] Hiperlinks nos controles do grupo de referência não funcionam 
+-  [Bug 471777] Não é possível selecionar campos em uma grade para editar ou criar um aplicativo móvel
+-  [KB 4569441] Problemas com a renderização de listas de cartões de várias colunas, dicas de ferramentas em imagens e opções de exibição em alguns campos
+-  [KB 4575279] Nem todas as linhas marcadas são excluídas no diário geral
+-  [KB 4575233] As opções de exibição não são restauradas após a movimentação para outra linha
+-  [KB 4571095] O lançamento de recebimento de produtos ocorre quando você pressiona acidentalmente Enter (manipulação correta da ação padrão de uma página)
+-  [KB 4575437] Pesquisas com controles editáveis são fechadas inesperadamente
+-  [KB 4569418] Linha duplicada criada no formulário agenda de entrega
+-  [KB 4575435] A visualização avançada às vezes persiste mesmo quando o ponteiro do mouse não está próximo ao campo
+-  [KB 4575434] A pesquisa não filtra quando o campo for modificado
+-  [KB 4575430] Os valores nos campos de senha não são mascarados na grade
+-  [KB 4569438] "O processamento parou devido a um problema de validação" exibido após a marcação de linhas durante a liquidação de transações do fornecedor
+-  [KB 4569434] A atualização do formulário entidades legais resulta em menos registros
+-  [KB 4575297] O foco continua movendo-se para o painel do gravador de tarefas durante a edição e a tabulação em uma grade
+-  [KB 4566773] Transações de correção não exibidas como negativas na consulta de transações do comprovante 
+-  [KB 4575288] O foco é redefinido para a linha ativa ao selecionar a borda entre as linhas em uma lista simples
+-  [KB 4575287] O foco não retorna para a primeira coluna quando a seta para baixo é usada para criar uma nova linha em diários
+-  [KB 4564819] Não é possível excluir linhas em uma fatura de texto livre (porque a fonte de dados ChangeGroupMode = ImplicitInnerOuter)
+-  [KB 4563317] As dicas de ferramentas/visualizações aperfeiçoadas não são mostradas para imagens
 
 ### <a name="fixed-as-part-of-10012"></a>Corrigido como parte do 10.0.12
 
@@ -158,6 +185,7 @@ Esta seção mantém uma lista de problemas conhecidos do novo controle de grade
 - [KB 4562647] O foco é redefinido para o primeiro controle na caixa de diálogo **Publicar** após uma nova linha ser adicionada na grade de funções de segurança.
 - [KB 4563310] A visualização avançada não é fechada após a alteração de uma linha.
 - [KB 4563313] Um "erro de cliente inesperado" ocorre no Internet Explorer quando um valor é selecionado em uma pesquisa.
+- [KB 4564557] As pesquisas e os menus suspensos não são abertos no Internet Explorer
 - [KB 4563324] A navegação não funciona após a abertura do espaço de trabalho **Gerenciamento de pessoal**.
 
 ### <a name="fixed-as-part-of-10011"></a>Corrigido como parte do 10.0.11
