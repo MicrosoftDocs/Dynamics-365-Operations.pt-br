@@ -3,7 +3,7 @@ title: Pesquisa de produto e de cliente no ponto de venda (PDV)
 description: Este tópico fornece uma visão geral de melhorias feitas à funcionalidade de pesquisa de produto e cliente no Dynamics 365 Commerce.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 07/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 2b4c17b41056a35c2d2caaedb4f52998179b3c3e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 415e8268c504487f2b66afc2ac9a50de1b538911
+ms.sourcegitcommit: a8201e0b9033c2afc2b1702b0337facaf7ad4b92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021556"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628900"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Pesquisa de produto e de cliente no ponto de venda (PDV)
 
@@ -95,6 +95,9 @@ Em uma pesquisa remota de cliente, o ID do cliente não é mostrado para os clie
 
 As pesquisas baseadas no número do telefone foram simplificadas. Essas pesquisas ignoram agora caracteres especiais, como espaços, hífens e colchetes, que podem ter sido adicionados quando o cliente for criado. Portanto, os caixas não devem se preocupar sobre o formato de telefone durante a pesquisa. Eles também podem procurar clientes digitando um número de telefone parcial. Se um número de telefone tiver caracteres especiais, ele também pode ser encontrado procurando números exibidos após os caracteres especiais. Por exemplo, se o número de telefone de um cliente foi inserido como **123-456-7890**, um caixa pode procurar o cliente digitando **123**, **456**, **7890** ou **1234567890**, ou digitando alguns dos primeiros números do telefone.
 
+> [!NOTE]
+> Um cliente pode ter vários números de telefone e vários emails. O algoritmo de pesquisa de cliente também pesquisa esses emails e números de telefone secundários, mas a página de resultados de pesquisa de cliente exibe somente o email e o número de telefone principais. Isso pode causar certa confusão, pois os resultados exibidos do cliente não mostram o email ou o número de telefone pesquisado. Em uma futura versão, planejamos aprimorar a tela de resultados de pesquisa de cliente para mostrar essas informações.
+
 A busca tradicional do cliente pode levar muito tempo porque ela faz a pesquisa em vários campos. Em vez disso, os caixas agora podem pesquisar em uma única propriedade de cliente, como nome, endereço de email ou número de telefone. As propriedades que o algoritmo de pesquisa do cliente usa são conhecidas coletivamente como *critérios de pesquisa do cliente*. O sistema administrativo pode configurar facilmente um ou mais critérios como os atalhos que aparecerão no PDV. Como a pesquisa é limitada a um único critério, somente resultados de pesquisa relevantes são exibidos, e o desempenho é muito melhor do que o desempenho de uma pesquisa de clientes padrão. A ilustração a seguir mostra os atalhos pesquisa de cliente no PDV.
 
 ![Atalhos de pesquisa de cliente](./media/SearchShortcutsPOS.png "Atalhos de pesquisa de cliente")
@@ -114,3 +117,4 @@ O campo **Ordem de exibição** determina a ordem em que os atalhos são exibido
 Na próxima versão do Commerce, os varejistas poderão definir o modo de pesquisa de cliente padrão no PDV como **Pesquisar todas as lojas**. Esta configuração pode ser útil em cenários em que os clientes criados fora do PDV podem ser pesquisados imediatamente (por exemplo, mesmo antes do trabalho de distribuição ser executado.) Uma nova opção **Modo de pesquisa de cliente padrão** estará disponível no perfil de funcionalidade do PDV. Defina-a como **Ativo** para definir o modo de pesquisa padrão como **Pesquisar todas as lojas**. Cada tentativa de pesquisa de cliente executará uma chamada em tempo real para a sede.
 
 Para ajudar a evitar problemas inesperados de desempenho, essa configuração está oculta por trás do sinalizador de liberação de versões de pré-lançamento denominada **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Assim, para mostrar a configuração de **Modo de pesquisa de cliente padrão** na interface de usuário, o varejista deve criar um tíquete de suporte para o teste de aceitação de usuário (UAT) e ambientes de produção. Depois do tíquete ser recebido, a equipe da engenharia trabalhará com o varejista para garantir que ele faça testes nos ambientes de não produção para avaliar o desempenho e a implementação de otimizações necessárias.
+

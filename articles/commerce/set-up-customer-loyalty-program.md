@@ -3,7 +3,7 @@ title: Visão geral de fidelidade
 description: Este tópico descreve os recursos de fidelidade no Dynamics 365 Commerce e as etapas de instalação correspondentes para oferecer ao fornecedor uma introdução aos programas programas de fidelidade.
 author: scott-tucker
 manager: AnnBe
-ms.date: 03/08/2019
+ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 337ede63cb9175f2674bae8f2caaac5f1ba5f5cb
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: fd0ceefe1890214ab5fe2f619f6bf8ce718dec11
+ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021648"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "3613194"
 ---
 # <a name="loyalty-overview"></a>Visão geral de fidelidade
 
@@ -55,7 +55,7 @@ A tabela a seguir descreve cada componente e o local onde ele será usado na con
 | Configurar descontos (pré-requisito)                  | Configurar descontos que você oferece ao seus clientes do programa de fidelidade. Por exemplo, você pode oferecer 5% de desconto em todos os produtos de equipamento. | Os descontos devem ser adicionados a grupos de preços antes de serem incluídos em um programa de fidelidade. Os grupos de preços são atribuídos a programas de fidelidade e a camadas do programa de fidelidade. |
 | Configurar grupos de preços (pré-requisito)               | Grupos de preços são usados para criar e gerenciar preços e descontos para produtos. Configure os grupos de preços que incluem os descontos que se aplicam aos seus programas de fidelidade. | Os grupos de preços são atribuídos a seus programas de fidelidade e às camadas do programa de fidelidade. |
 | Configurar canais (pré-requisito)                   | Os canais de comércio são as lojas que participam de seus programas de fidelidade, como uma loja tradicional, uma loja online ou um call center. Você deve configurar os canais para poder atribuir programas de fidelidade a eles. | Você atribuirá canais a um programa de fidelidade caso o canal esteja participando dele. |
-| Configurar o método de pagamento de fidelidade (pré-requisito) | Configure um método de pagamento para que um cartão-fidelidade possa ser usado em um registro, e para que os pontos de fidelidade possam ser resgatados como parte de um programa de fidelidade. Você também deve adicionar o método de pagamento do programa de fidelidade ao canal antes de os clientes resgatarem os pontos de fidelidade como pagamento de produtos. | Configure um método de pagamento do tipo de programa de fidelidade e então atribua o método de pagamento de programa de fidelidade aos canais que estejam participando do programa de fidelidade. |
+| Configurar o método de pagamento de fidelidade (pré-requisito) | Para garantir que os pontos de fidelidade sejam resgatados em qualquer canal, como lojas tradicionais, lojas online ou call centers, é necessário configurar o intervalo binário para cartões-fidelidade na página **Números de cartão**. | Configure um método de pagamento do tipo de programa de fidelidade e então atribua o método de pagamento de programa de fidelidade aos canais que estejam participando do programa de fidelidade. |
 | Configurar intervalos de datas                            | Os intervalos de datas fornecem uma maneira flexível de definir o período aplicado a camadas do programa de fidelidade. Use os intervalos de datas para especificar por quanto tempo um cliente poderá ficar em uma camada ou quanto tempo o cliente tem para concluir uma atividade para se qualificar para uma camada. | Os intervalos de datas só se aplicarão se você usar camadas em seus programas de fidelidade. Selecione o intervalo de datas que se aplique a camadas do programa e também os intervalos de datas que se apliquem a regras de camada do programa. |
 | Configurar pontos de recompensa                             | Os pontos de recompensa são os tipos de recompensa que você oferece aos seus clientes. Os pontos de recompensa podem ser resgatáveis ou não resgatáveis. Os pontos de recompensa resgatáveis podem ser trocados por produtos. Os pontos de recompensa não resgatáveis são usados para fins de rastreamento ou para fazer um cliente avançar para a próxima camada de um programa de fidelidade. | Os pontos de recompensa são mencionados na camada de regra e são usados para qualificar um cliente para uma camada específica. Os pontos de recompensa também são mencionados em esquemas de fidelidade em regras de ganhos e de resgate. Em regras de ganhos, você especifica as recompensas que um cliente poderá ganhar para uma atividade específica. Em regras de resgate, você especifica a recompensa que o cliente pode resgatar. |
 | Configurar programas de fidelidade                          | Os programas de fidelidade são a entidade principal de fidelidade que você oferece. Cada programa de fidelidade também pode ter camadas de fidelidade atribuídas a ele. Os grupos de descontos e preços são atribuídos aos programas de fidelidade no nível de programa ou de camada. | Você cria esquemas de fidelidade para seus programas de fidelidade. Você atribui cartões-fidelidade a seus programas de fidelidade, e podem ser atribuídos cartões-fidelidade a um cliente. Os canais participam dos programas de fidelidade atribuídos aos esquemas de fidelidade. Qualquer cliente com um cartão-fidelidade pode participar de programas de fidelidade atribuídos ao cartão. |

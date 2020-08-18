@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 7de7af1084b62a7248eeda54df215e56f2541286
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 3b9a1485d37da614eea2427735e0e1323897682d
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173191"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621319"
 ---
 # <a name="unified-product-experience"></a>Experiência unificada de produto
 
@@ -86,7 +86,7 @@ Neste modelo, o produto é representado pela combinação de duas entidades do C
 Como o produto é representados como uma SKU, os conceitos de produtos distintos, produtos mestres e grades de produtos podem ser capturados no Common Data Service da seguinte maneira:
 
 - **Produtos com o subtipo produto** são produtos definidos por si só. Não é preciso definir nenhuma dimensão. Um exemplo é um livro específico. Para esses produtos, é criado um registro na entidade **Produto** e é criado um registro na entidade **msdyn\_sharedproductdetails**. Não é criado nenhum registro da família de produtos.
-- **Produtos mestres** são usados como produtos genéricos que detêm a definição e as regras que determinam o comportamento em processos comerciais. Com base nessas definições, é possível gerar produtos distintos que são conhecidos como grades de produtos. Por exemplo, Camiseta é o produto mestre, que pode ter as dimensões Cor e Tamanho. Podem ser liberadas variações com diferentes combinações dessas dimensões, como uma camiseta azul pequena ou uma camiseta verde média. Na integração, é criado um registro por variação na tabela de produtos. Esse registro contém informações específicas da variação, como as diversas dimensões. As informações genéricas do produto são armazenadas na entidade **msdyn\_sharedproductdetails**. (Essa informações genéricas são mantidas no produto mestre.) Além disso, é criado um registro da família de produtos por produto mestre. As informações do produto mestre são sincronizadas com o Common Data Service assim que o produto mestre liberado é criado (mas antes da liberação das variações).
+- **Produtos mestres** são usados como produtos genéricos que detêm a definição e as regras que determinam o comportamento em processos comerciais. Com base nessas definições, é possível gerar produtos distintos que são conhecidos como grades de produtos. Por exemplo, Camiseta é o produto mestre, que pode ter as dimensões Cor e Tamanho. Podem ser liberadas variações com diferentes combinações dessas dimensões, como uma camiseta azul pequena ou uma camiseta verde média. Na integração, é criado um registro por variação na tabela de produtos. Esse registro contém informações específicas da variação, como as diversas dimensões. As informações genéricas do produto são armazenadas na entidade **msdyn\_sharedproductdetails**. (Estas informações genéricas são mantidas no produto mestre.) As informações do produto mestre são sincronizadas com o Common Data Service assim que o produto mestre liberado é criado (mas antes da liberação das variações).
 - **Produtos distintos** refere-se a todos os produtos com o subtipo produto e todas as grades de produtos. 
 
 ![Modelo de dados de produtos](media/dual-write-product.png)

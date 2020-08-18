@@ -1,9 +1,9 @@
 ---
 title: Configurações de ordem padrão para dimensões e variantes de produto
 description: As configurações de ordem padrão definem o local e o depósito de onde os itens serão originários ou armazenados, as quantidades mínima, máxima, múltiplas e padrão que serão usadas para a comercialização ou o gerenciamento de estoque, os prazos de entrega, o sinalizador de parada e o método de promessa de ordens.
-author: roxanadiaconu
+author: t-benebo
 manager: tfehr
-ms.date: 11/03/2017
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,15 +16,15 @@ ms.custom: 223084
 ms.assetid: fbfbcd7b-dc75-44ab-bffc-8bad576804a4
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roxanad
+ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 46b1efb274c9f54f27c26884dc18fc4a317786be
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 13df8eb7873495847d994922be1acd77e57f8f23
+ms.sourcegitcommit: dfe5916d982eaa879e2afef7440c30b1d0f4380a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211557"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "3637747"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>​Configurações de ordem padrão para dimensões e grades de produtos​
 
@@ -32,55 +32,58 @@ ms.locfileid: "3211557"
 
 As configurações de ordem padrão no Dynamics 365 Supply Chain Management definem o local e o depósito de onde os itens serão originários ou armazenados, as quantidades mínima, máxima, múltipla e padrão que serão usadas para a comercialização ou o gerenciamento de estoque, os prazos de entrega, o sinalizador de parada e o método de promessa de ordens. As configurações de ordem padrão são usadas durante a criação de ordens de compra, ordens de venda, ordens de transferência, diários de estoque e pelo planejamento mestre para a geração de ordens planejadas. As configurações de ordem padrão podem ser específicas por item, local, grade de produto ou dimensão de produto.
 
-Você pode definir as configurações de ordem padrão na página **Configurações de ordem padrão**. Para abrir esta página, vá para **Gerenciamento de informações do produto** &gt; **Produtos** &gt; **Produtos liberados** &gt; **Selecione um produto liberado** &gt; no Painel de Ação **Plano** ou  **Gerenciar estoque** &gt; **Configurações da ordem** &gt; **Configurações padrão da ordem**.
+Você pode definir as configurações de ordem padrão na página **Configurações de ordem padrão**. Para abrir esta página, vá para **Gerenciamento de informações do produto** &gt; **Produtos** &gt; **Produtos liberados** &gt; **Selecionar um produto liberado** &gt; no **Plano**. Você também pode ir para **Gerenciar estoque** &gt; **Configurações da ordem** &gt; **Configurações da ordem padrão**.
 
 ## <a name="default-order-settings"></a>Configurações Padrão da Ordem
+
 Há três tipos de configurações de ordem padrão para compras, vendas e estoque. As configurações de ordem padrão para compras são usadas ao criar:
 
--   Linhas de ordem de compra
--   Linhas do contrato de compra
--   Linhas da solicitação de cotação
--   Linhas de requisição de compra
--   Linhas de reabastecimento de consignação
--   Ordens de Compra Planejadas
+- Linhas de ordem de compra
+- Linhas do contrato de compra
+- Linhas da solicitação de cotação
+- Linhas de requisição de compra
+- Linhas de reabastecimento de consignação
+- Ordens de Compra Planejadas
 
 As configurações de ordem padrão para vendas são usadas ao criar:
 
--   Linhas de ordem de venda
--   Linhas do contrato de venda
--   Linhas de cotação de venda
--   Linhas de ordem de devolução e linhas de substituição de item
--   LInhas de previsão de demanda
+- Linhas de ordem de venda
+- Linhas do contrato de venda
+- Linhas de cotação de venda
+- Linhas de ordem de devolução e linhas de substituição de item
+- LInhas de previsão de demanda
 
 As configurações de ordem padrão para vendas também são aplicáveis ao criar:
 
--   Requisitos de itens de projeto
--   Requisições de itens da ordem de serviço
+- Requisitos de itens de projeto
+- Requisições de itens da ordem de serviço
 
 As configurações de ordem padrão para estoque são usadas ao criar:
 
--   Diários de estoque
--   Ordens de transferência
--   Ordens de transferência planejadas
+- Diários de estoque
+- Ordens de transferência
+- Ordens de transferência planejadas
 
 As configurações de ordem padrão para estoque também são aplicáveis ao criar:
 
--   Ordens de quarentena
--   Ordens de qualidade
--   Ordens de Produção
--   Linhas de BOM
--   Ordens de produção planejadas
+- Ordens de quarentena
+- Ordens de qualidade
+- Ordens de Produção
+- Linhas de BOM
+- Ordens de produção planejadas
 
 ## <a name="full-definition-of-a-released-product"></a>Definição completa de um produto liberado
+
 Ao criar uma transação, é necessário especificar a definição completa de um produto liberado na linha para que o Supply Chain Management tente identificar as configurações de ordem padrão. A definição completa de um produto liberado significa que o número de item e todas as dimensões ativas do produto, como configuração, tamanho, estilo e cor estão especificadas na transação. Por exemplo, se você criar manualmente uma linha de ordem de compra para uma grade do produtos liberada, é preciso especificar todas as dimensões do produto necessárias antes que o local, o depósito, a quantidade e o prazo de entrega sejam exibidos por padrão na linha da ordem. 
 
-Nem todos os parâmetros das configurações de ordem padrão são aplicados ao criar linhas de ordem ou de diário. As quantidades e os prazos de entrega somente serão exibidos por padrão quando apropriado. Por exemplo, ao contar uma linha de diário, somente o local e o depósito serão exibidos por padrão quando a linha for criada. Obviamente, nenhuma quantidade padrão ou verificações de múltiplos e mínimos são executadas ao criar a linha ou ao lançar o diário. 
+Nem todos os parâmetros das configurações de ordem padrão são aplicados ao criar linhas de ordem ou de diário. As quantidades e os prazos de entrega somente serão exibidos por padrão quando apropriado. Por exemplo, ao contar uma linha de diário, somente o local e o depósito serão exibidos por padrão quando a linha for criada. Por este motivo, nenhuma quantidade padrão ou verificações de múltiplos e mínimos são executadas ao criar a linha ou ao lançar o diário. 
 
 Os sistema sempre tenta encontrar um local e um depósito padrão quando uma linha de ordem ou de diário é criada. O local nem é sempre exibido por padrão nas configurações da ordem. Por exemplo, ao criar uma ordem de venda ou de compra, o local do cabeçalho da ordem é usado automaticamente nas linhas. Ao criar uma linha de BOM, o local do cabeçalho de BOM é usado. Depois que o local for determinado, ele será usado para localizar quaisquer configurações de ordem específicas do local que possam ser usadas como o padrão para o depósito. 
 
-O tipo de ordem padrão, a compra e os prazos de entrega de estoque podem ser substituídos pelas regras de cobertura do item na página **Cobertura de item**. Embora as configurações de ordem padrão não permitam a distinção entre a produção e o prazo de entrega de transferência, as regras de cobertura de item permitem essa distinção. No entanto, a configuração da cobertura do item será usada somente pelo MRP ao criar a produção planejada e as ordens de transferência planejadas e não será aplicável quando as ordens de produção e de transferência forem criadas manualmente. 
+O tipo de ordem padrão, a compra e os prazos de entrega de estoque podem ser substituídos pelas regras de cobertura do item na página **Cobertura de item**. Embora as configurações de ordem padrão não permitam a distinção entre a produção e o prazo de entrega de transferência, as regras de cobertura de item permitem essa distinção. No entanto, a configuração da cobertura do item será usada somente pelo planejamento mestre (MRP) ao criar a produção planejada e as ordens de transferência planejadas e não será aplicável quando as ordens de produção e de transferência forem criadas manualmente. 
 
 ## <a name="default-order-settings-rules"></a>Regras das configurações de ordem padrão
+
 Você pode definir configurações gerais de ordem padrão e qualquer número de regras de configuração de ordem padrão que sejam aplicáveis somente em certas condições, como o local ou uma dimensão de produtos específica ou combinação de dimensões do produto. Não é possível definir configurações específicas da ordem de depósito.
 
 ### <a name="rank-in-default-order-settings"></a>Classificar configurações de ordem padrão
@@ -89,13 +92,13 @@ As regras de configurações de ordem padrão têm classificações. Quanto mais
 
 ### <a name="default-order-settings-for-released-products"></a>Configurações de ordem padrão para produtos liberados
 
-Para produtos liberados distintos, você pode definir configurações gerais da ordem ou configurações específicas da ordem. As configurações gerais da ordem terão sempre a classificação zero. Se você definir novas configurações de ordem de venda, de compra e de estoque juntas simultaneamente, é recomendável que você use a **Exibição de detalhes** na página **Configurações de ordem padrão**. Para alternar para a exibição de detalhes, vá para o Painel de Ação **Opções** &gt; **Opções de página** &gt; **Alterar exibição** &gt; **Exibição de detalhes**.
+Para produtos liberados distintos, você pode definir configurações gerais da ordem ou configurações específicas da ordem. As configurações gerais da ordem terão sempre a classificação zero. Se você definir novas configurações de ordem de venda, de compra e de estoque juntas simultaneamente, é recomendável que você use a **Exibição de detalhes** na página **Configurações de ordem padrão**. Para alternar para a exibição de detalhes, vá para **Opções** &gt; **Opções da página** &gt; **Alterar exibição** &gt; **Exibição de detalhes**.
 
-### <a name="site-specific-order-settings"></a>Configurações de Ordem Específicas do Local
+### <a name="site-specific-order-settings"></a>Configurações de ordem específica do site
 
-Para criar configurações específicas de ordem de local, clique em **Novo**. Na **Exibição de detalhes**, preencha o local no campo **Configurações aplicáveis a** &gt; **Local**. Em **Exibição de grade**, preencha o local na coluna **Local**. A nova regra obterá automaticamente um novo valor de classificação, maior que zero. Você pode criar quantas regras específicas de local forem necessárias e pode atribuir a mesma classificação a todas as regras específicas de local, para indicar que elas têm a mesma importância. 
+Para criar configurações específicas de ordem do local, selecione **Novo**. Na **Exibição de detalhes**, preencha o local no campo **Configurações aplicáveis a** &gt; **Local**. Em **Exibição de grade**, preencha o local na coluna **Local**. A nova regra obterá automaticamente um novo valor de classificação, maior que zero. Você pode criar quantas regras específicas de local forem necessárias e pode atribuir a mesma classificação a todas as regras específicas de local, para indicar que elas têm a mesma importância. 
 
-Se estiver em **Exibição de detalhes**, você não poderá obter uma visão geral das regras criadas para o item. Ative o botão **Mostrar/ocultar lista** para consultar as informações da visão geral. Quando uma linha da ordem de qualquer tipo é criada e nenhum site é fornecido, o Supply Chain Management procura uma regra sem um site especificado. Isso pode ajudar a determinar um local padrão na linha da ordem. Esse local será então usado para pesquisar por uma regra específica de local, em que um depósito padrão possa ter sido definido. Esse depósito será aplicado à linha da ordem.
+Se estiver em **Exibição de detalhes**, você não poderá obter uma visão geral das regras criadas para o item. Use o botão **Mostrar/Ocultar lista** para ver as informações da visão geral. Quando uma linha da ordem de qualquer tipo é criada e nenhum site é fornecido, o Supply Chain Management procura uma regra sem um site especificado. Isso ajuda a determinar um local padrão na linha da ordem. Esse local será então usado para pesquisar por uma regra específica de local, em que um depósito padrão possa ter sido definido. Esse depósito será aplicado à linha da ordem.
 
 ### <a name="specific-order-settings-for-product-dimension"></a>Configurações específicas da ordem para a dimensão do produto
 
@@ -142,7 +145,7 @@ Considere as regras de configuração de ordem padrão a seguir.
 | 10   |      | C1            |  R2   |  2           |  21               |                                                |                    |
 | 0    |      |               |       | 1            | 11                |                                                |                    |
 
-O sistema percorre o conjunto de regras duas vezes para determinar o local e o depósito. Quando uma linha de ordem de compra for criada para a configuração C1, estilo R2, o local será determinado com base na regra com classificação 10. O sistema então procurará por uma regra para o local 2 para determinar um depósito. A regra 20 será encontrada e por ter uma classificação maior, o depósito na linha da ordem de compra será 22, e não 21. 
+O sistema percorre o conjunto de regras duas vezes para determinar o local e o depósito. Quando uma linha de ordem de compra for criada para a configuração C1, estilo R2, o local será determinado com base na regra com classificação 10. O sistema então procurará por uma regra para o local 2 para determinar um depósito. A regra 20 será encontrada e por ter uma classificação maior, o depósito na linha da ordem de compra será 22, e não 21.
 
 Como regra geral, regras específicas e regras para as dimensões que sejam mais importantes do que outras dimensões obtêm classificações mais altas, enquanto regras mais genéricas obtêm classificações mais baixas. 
 
@@ -150,11 +153,11 @@ A regra com classificação zero serve como uma rede de segurança. Se nenhuma o
 
 Como o número de classificação é muito importante, no Painel de Ação **Configurações de ordem padrão**, há funções para mover uma regra para cima ou para baixo e para renumerar as regras, de forma que estejam sempre em incrementos de 10. 
 
-O número de regras criadas para um produto liberado pode ser variado. Para compreender melhor o que cada regra substitui e porque ela é necessária, recomendamos usar a **Exibição de grade** na página **Configurações de ordem padrão**. Você pode habilitar a exibição de grade acessando o Painel de Ação **Opções** &gt; **Opções de página** &gt; **Alterar exibição** &gt; **Exibição de grade**. O número de colunas exibidas na grade pode ser bastante significativo, principalmente para as guias vendas e estoque. Para limitar o número de colunas mostradas na grade, os grupos de colunas podem ser ocultados ou exibidos usando-se os botões no menu **Configurações de ordem padrão** &gt; **Exibição por coluna**.
+O número de regras criadas para um produto liberado pode ser variado. Para compreender melhor o que cada regra substitui e porque ela é necessária, recomendamos usar a **Exibição de grade** na página **Configurações de ordem padrão**. Você pode habilitar a exibição de grade acessando **Opções** &gt; **Opções de página** &gt; **Alterar exibição** &gt; **Exibição de grade**. O número de colunas exibidas na grade pode ser bastante significativo, principalmente para as guias vendas e estoque. Para limitar o número de colunas mostradas na grade, os grupos de colunas podem ser ocultados ou exibidos usando-se os botões no menu **Configurações de ordem padrão** &gt; **Exibição por coluna**.
 
 ### <a name="specific-order-settings-for-released-product-variant"></a>Configurações específicas da ordem para grades de produtos liberadas
 
-Se o sistema de regras para as configurações de ordem padrão for muito complicado, há a opção de simplesmente definir as configurações de ordem padrão para cada grade de produto. Os exemplos a seguir mostram como os produtos serão procurados e os casos descritos acima.
+Se o sistema de regras para as configurações de ordem padrão for muito complicado, há a opção de simplesmente definir as configurações de ordem padrão para cada grade de produto. O exemplo a seguir mostra como o produto será procurado e os casos descritos acima.
 
 | Classificação | Local | Configuração | Estilo | Compra – substituir configurações padrão | Prazo de entrega da compra | Compra – parada | Vendas – substituir configurações padrão | Vendas – parada |
 |------|------|---------------|-------|--------------------------------------|--------------------|--------------------|-----------------------------------|-----------------|
@@ -166,7 +169,26 @@ Se o sistema de regras para as configurações de ordem padrão for muito compli
 | 10   |      | C1            | R1    | Sim                                  | 2                  | Sim                | Sim                               | Sim             |
 | 0    |      |               |       |                                      | 5                  |                    |                                   |                 |
 
-A classificação nesse caso não tem importância, portanto você pode optar por ocultá-la. Esta solução apresenta potencialmente um problema de manutenção. No entanto, você pode querer usar esta configuração se estiver considerando a integração com sistemas PLM (Gerenciamento do Ciclo de Vida do Produto).
+A classificação nesse caso não tem importância, portanto você pode optar por ocultá-la. Esta solução apresenta potencialmente um problema de manutenção. No entanto, você pode usar esta configuração se estiver considerando a integração com sistemas PLM (Gerenciamento do Ciclo de Vida do Produto).
 
+## <a name="use-strict-or-standard-validation-of-default-order-quantities"></a>Usar validação estrita ou padrão de quantidades de ordem padrão
 
+Você pode escolher o rigor que o sistema deve ser ao validar as quantidades inseridas nas **Configurações de ordem padrão** para um produto. Quando você usa a nova opção restrita, a **Quantidade de ordem padrão** sempre deve ser um múltiplo do valor **Múltiplo** especificado para ordens de compra, estoque e ordens de venda. Se você estiver usando uma validação restrita, não poderá salvar as configurações de ordem padrão que não atendem a esse requisito (e um erro é exibido na barra de mensagens). 
 
+A validação restrita aplica-se aos valores **Quantidade de ordem padrão** especificados nas guias rápidas **Ordem de compra**, **Estoque** e **Ordem de venda** da página **Configurações da ordem padrão**. Cada guia rápida tem sua própria configuração **Múltipla** para validar o valor **Quantidade de ordem padrão** especificado para essa guia rápida.
+
+### <a name="enable-the-strict-validation-option"></a>Habilitar a opção de validação restrita
+
+Para que você possa usar a opção de validação restrita, ela deve ser habilitada em seu sistema. Os administradores podem usar a página [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo, se necessário. Aqui o recurso está listado como:
+
+- **Módulo** - *Gerenciamento de informações sobre o produto*
+- **Nome do recurso** - *Validação restrita nas quantidades da ordem padrão*
+
+### <a name="set-the-validation-option"></a>Definir a opção de validação
+
+Para definir a opção de validação:
+
+1. Vá para **Gerenciamento de informações sobre produtos \> Configuração \> Parâmetros de gerenciamento de informações do produto**.
+1. Na guia **Geral**, defina **Validação nas quantidades da ordem padrão** para um dos seguintes valores:
+    - **Restrito** -Selecione esta opção para garantir que todos os valores da **Quantidade da ordem padrão** serão um valor **Múltiplo** de cada guia rápida (**Ordem de compra**, **Estoque** e **Ordem de venda**).
+    - **Padrão** - Selecione esta opção para usar a validação padrão (que funciona da mesma maneira quando esse recurso não está habilitado).

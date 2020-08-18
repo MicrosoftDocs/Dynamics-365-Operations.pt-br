@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: fdf4464e5b6fc6f2f4b99dcac80eb199799bf13d
-ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
+ms.openlocfilehash: e9ca2d2cd018777b4c5c01fb10d63505af3940c4
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3268761"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652098"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.10 (maio de 2020)
 
@@ -39,11 +39,11 @@ Este tópico lista os recursos novos ou alterados no Microsoft Dynamics 365 Supp
 Os seguintes recursos estão incluídos nesta versão. Os títulos do recurso estão associados a informações adicionais no site [Planos de versão](https://docs.microsoft.com/dynamics365/release-plans/). Links adicionais direcionam para documentações adicionais ou vídeos atualmente disponíveis para esse recurso. A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) antes que você possa usá-los.
 
 - [Aprimoramento para usar as marcas de peso variável existentes com gerenciamento de depósito](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/enhancement-use-existing-catch-weight-tags-warehouse-management)
-- [Aprimoramentos no gerenciamento de carga de entrada para gerenciamento de depósito](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement) - Para obter mais informações, consulte [Processamento de cargas de entrada das ordens de compra no depósito](../warehousing/inbound-load-handling.md).
-- [Aprimoramentos na impressão de etiquetas do gerenciamento de depósito](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management) - Para obter mais informações, consulte [Layout de roteamento de documentos para etiquetas da placa de licença](../warehousing/document-routing-layout-for-license-plates.md).
+- [Aprimoramentos no gerenciamento de carga de entrada para gerenciamento de depósito](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Para obter mais informações, consulte [Manuseio de depósito de cargas de entrada para ordens de compra](../warehousing/inbound-load-handling.md).
+- [Aprimoramentos de impressão de etiquetas para o gerenciamento de depósito](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Para obter mais informações, consulte [Layout de roteamento de documentos para etiquetas de placa de licença](../warehousing/document-routing-layout-for-license-plates.md).
 - [O planejamento mestre inclui itens com estoque disponível quando os filtros de pré-processamento estão habilitados](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
 - [Novas entidades de dados da área de fabricação](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
-- [Gestão de qualidade para processos de depósito](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes) - Para obter mais informações, consulte [Gestão de qualidade para processos de depósito](../inventory/quality-management-for-warehouses-processes.md).
+- [Gestão de qualidade para processos de depósito](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)<br> - Para obter mais informações, consulte [Gerenciamento de qualidade para processos de depósito](../inventory/quality-management-for-warehouses-processes.md).
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0efc2b50b080b769cb103d1519217517b8330668
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 3478c4c2acb134df1c293c1c33f615595aeaadd0
+ms.sourcegitcommit: 3ae002804858f201297a729d03ec7eab8209be34
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429643"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628420"
 ---
 # <a name="view-team-and-company-calendars"></a>Exibir calendários da equipe e da empresa
 
@@ -33,15 +33,13 @@ Você pode exibir calendários da equipe e da empresa no Dynamics 365 Human Reso
 
 ## <a name="view-your-team-calendar-as-an-employee"></a>Exibir o calendário da equipe como um funcionário
 
-1. No espaço de trabalho **Autoatendimento para funcionários**, selecione **Minha equipe**.
-
-2. Selecione **Licença e ausência** e **Exibir calendário da equipe**.
+1. No espaço de trabalho **Autoatendimento para funcionários**, selecione **Calendário de ausências da equipe** em **Resumo**.
 
 ## <a name="view-your-team-calendar-as-a-manager"></a>Exibir o calendário da equipe como um gerente
 
 1. No espaço de trabalho **Autoatendimento para funcionários**, selecione **Minha equipe**.
 
-2. Selecione **Licença e ausência** e **Exibir calendário da equipe**.
+2. Selecione **Licença e ausência** e depois **Exibir calendário de ausências do gerente**.
 
 Os gerentes também podem acessar o calendário da equipe de **Solicitações de licença pendentes de minha equipe**, **Licença aprovada** e **Solicitações de licença**. 
 

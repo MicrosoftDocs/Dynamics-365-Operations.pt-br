@@ -3,7 +3,7 @@ title: Mostrar descontos em PDV
 description: Este tópico explica como Microsoft Dynamics 365 Commerce ajuda os representantes de vendas a aprender sobre promoções e como elas podem ser usadas para vendas cruzadas e vendas.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 05/05/2020
+ms.date: 07/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-Commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 0ffa7ca6294c7b523ec743f1cb9bc4aef8ef46a8
-ms.sourcegitcommit: 4d5bcda288341572076364559125c86e2ec05273
+ms.openlocfilehash: 7531e250580019a1e9892d22fc7761770227c61f
+ms.sourcegitcommit: db1a8ffcaebc2896e8f528d7807c54f8597f450e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3334699"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "3638173"
 ---
 # <a name="show-discounts-in-pos"></a>Mostrar descontos em PDV
 
@@ -54,7 +54,7 @@ Na página **Todos os descontos**, as vendas associadas também podem pesquisar 
 
 Os descontos combinados, como descontos de quantidade, descontos de compra combinada e descontos de limite, são uma ótima maneira de motivar os clientes a comprar mais produtos para obter descontos maiores. Portanto, eles também ajudam a aumentar o tamanho do carrinho do cliente e da receita varejista. Esses descontos podem ser divulgados em sites de comércio eletrônico, em mídia social e em faixas na loja.
 
-No entanto, mesmo quando todos esses métodos de publicidade são usados, os clientes podem perder a oportunidade de aproveitar as promoções. Para facilitar para que os associados de vendas possam saber quais promoções são aplicáveis a uma linha selecionada, ou mesmo ao carrinho inteiro, os varejistas podem adicionar o botão para a operação "Exibir descontos disponíveis" na página **Transação**. Dessa forma, uma associação de vendas pode selecionar uma linha de transação e, em seguida, selecionar o botão para mostrar todos os descontos disponíveis para a linha selecionada. O associado de vendas também pode selecionar outra guia para mostrar descontos que se aplicam à transação inteira.
+No entanto, mesmo quando todos esses métodos de publicidade são usados, os clientes podem perder a oportunidade de aproveitar as promoções. Para facilitar para que os associados de vendas possam saber quais promoções são aplicáveis a uma linha selecionada, ou mesmo ao carrinho inteiro, os varejistas podem adicionar o botão para a operação **"Exibir descontos disponíveis"** na página **Transação**. Como resultado, uma associação de vendas pode selecionar uma linha de transação e, em seguida, selecionar o botão para mostrar todos os descontos disponíveis para a linha selecionada. O associado de vendas também pode selecionar outra guia para mostrar descontos que se aplicam à transação inteira. É importante observar que a opção **Exibir descontos disponíveis** não mostra os descontos já aplicados na linha de venda porque as informações de desconto já são mostradas na linha de venda. A finalidade desse cenário é mostrar apenas os descontos que ainda não foram aplicados. A exceção a isso é que os descontos aplicados com base em um cupom são marcados como "Aplicar sem um código de cupom". Isso facilita para que a venda associada remova facilmente o cupom que aplicou.
 
 A página **Todos os descontos** mostra apenas descontos que não competem com nenhum dos descontos aplicados. Esse comportamento ajuda a garantir que, se um associado de vendas informar um cliente sobre um desconto e o cliente executar a ação necessária (por exemplo, o cliente compra mais um item para obter 10% desativado), o desconto será aplicado à transação. Os descontos baseados em cupom são mostrados quando a opção **Aplicar sem um código de cupom** está ativada.
 

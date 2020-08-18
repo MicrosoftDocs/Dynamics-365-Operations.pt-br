@@ -3,7 +3,7 @@ title: Configurar integração do Common Data Service
 description: Você pode ativar ou desativar a integração entre o Common Data Service e Dynamics 365 Human Resources. Também é possível exibir os detalhes da sincronização, limpar dados de rastreamento e ressincronizar uma entidade para ajudar com a solução de problemas de dados entre os dois ambientes.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7aad8217d48917d6855046a6810fe994f5564d94
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 8cbead2961c4576a5394080aae2fec109bce3f10
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431305"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621295"
 ---
 # <a name="configure-common-data-service-integration"></a>Configurar integração do Common Data Service
 
@@ -66,6 +66,9 @@ Talvez você queira desativar a integração nestas situações:
 - Para desativar a integração, defina a opção como **Não**.
 
 [![Ativando ou desativando a integração do Common Data Service](./media/hr-enable-or-disable-common-data-service-integration.png)](./media/hr-enable-or-disable-common-data-service-integration.png)
+
+> [!WARNING]
+> É altamente recomendável desativar a integração do Common Data Service enquanto as tarefas de migração de dados são executadas. Grandes uploads de dados podem afetar significativamente o desempenho. Por exemplo, fazer upload de 2000 trabalhadores pode levar várias horas quando a integração estiver habilitada e menos de uma hora quando estiver desabilitada. Os números fornecidos neste exemplo são somente para fins de demonstração. A quantidade exata de tempo necessária para importar registros pode variar bastante com base em vários fatores.
 
 ## <a name="view-data-integration-details"></a>Exibir detalhes da integração de dados
 

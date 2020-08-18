@@ -3,7 +3,7 @@ title: Habilitar a autenticação do Azure Active Directory para acesso ao PDV
 description: Este tópico explica como configurar a experiência de logon no ponto de venda (PDV) do Microsoft Dynamics 365 Commerce para que ele use a autenticação do Azure Active Directory.
 author: boycezhu
 manager: annbe
-ms.date: 05/20/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: boycezhu
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 4f5a02348e8cef44424ae5d6a49de02d762ba245
-ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
+ms.openlocfilehash: ccb2d62b09153d03b064d9661227f3499d67bca2
+ms.sourcegitcommit: dc1dcd0ccc40be5d45701114fa8c952c13488344
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "3410026"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "3641024"
 ---
 # <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>Habilitar a autenticação do Azure Active Directory para acesso ao PDV
 [!include [banner](includes/banner.md)]
@@ -63,6 +63,9 @@ Para associar uma conta do Azure AD a um trabalhador, siga as etapas a seguir.
 1. Selecione a conta do Azure AD retornada e, em seguida, selecione **OK**.
 
 Os campos **Alias**, **UPN** e **Subidentificador externo** na guia **Commerce** da página de detalhes do trabalhador serão preenchidos.
+
+> [!NOTE]
+> Depois que um registro de trabalhador é atualizado, por exemplo, se uma nova conta do Azure AD for associada, uma senha será alterada ou um catálogo de endereços de funcionário será atualizado. Recomendamos executar a agenda de distribuição **1060** (**Equipe**) para sincronizar as informações mais recentes sobre a equipe para o canal. Dessa forma, o aplicativo PDV pode buscar os dados corretos para a autenticação de usuário e verificação de autorização.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

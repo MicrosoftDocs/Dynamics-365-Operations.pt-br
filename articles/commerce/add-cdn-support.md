@@ -3,7 +3,7 @@ title: Adicionar suporte para uma rede de entrega de conteúdo (CDN)
 description: Este tópico descreve como adicionar uma rede de entrega de conteúdo (CDN) ao ambiente do Microsoft Dynamics 365 Commerce.
 author: brianshook
 manager: annbe
-ms.date: 07/02/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: febef3bcc06dc1b5868a0decebee33d76110c505
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 662d26c0157377977bd1031cd7bb13a8e692f37e
+ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533335"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3646030"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Adicionar suporte para uma rede de entrega de conteúdo (CDN)
 
@@ -35,7 +35,7 @@ Este tópico descreve como adicionar uma rede de entrega de conteúdo (CDN) ao a
 
 Ao configurar um ambiente de comércio eletrônico no Dynamics 365 Commerce, você pode configurá-lo para funcionar com o serviço de CDN. 
 
-Seu domínio personalizado pode ser habilitado durante o processo de provisionamento para o seu ambiente de comércio eletrônico. Como alternativa, você pode usar uma solicitação de serviço para configurá-la após a conclusão do processo de provisionamento. O processo de provisionamento para o ambiente de comércio eletrônico gera um nome de host associado ao ambiente. Este nome de host tem o seguinte formato, em que *e-commerce-tenant-name* é o nome do seu ambiente:
+Seu domínio personalizado pode ser habilitado durante o processo de provisionamento para o seu ambiente de comércio eletrônico. Como alternativa, você pode usar uma solicitação de serviço para configurá-la após a conclusão do processo de provisionamento. O processo de provisionamento para o ambiente de comércio eletrônico gera um nome de host associado ao ambiente. Este nome de host tem o seguinte formato, no qual \<*e-commerce-tenant-name*\> é o nome de seu ambiente:
 
 &lt;e-commerce-tenant-name&gt;.commerce.dynamics.com
 
@@ -74,18 +74,20 @@ Qualquer serviço de CDN pode ser usado, mas, por exemplo, neste tópico, o Azur
 
 Para obter informações sobre como configurar o Azure Front Door Service, consulte [Início Rápido: Crie um Front Door para um aplicativo Web global altamente disponível](https://docs.microsoft.com/azure/frontdoor/quickstart-create-front-door).
 
-### <a name="configure-a-back-end-pool-in-azure-front-door-service"></a>Configurar um pool de back-end no Azure Front Door Service
+### <a name="configure-a-backend-pool-in-azure-front-door-service"></a>Configurar um pool de back-end no Azure Front Door Service
 
 Para configurar um pool de back-end no Azure Front Door Service, siga estas etapas.
 
-1. Adicione **&lt;ecom-tenant-name&gt;.commerce.dynamics.com** para um pool de back-end como um host personalizado que tenha um cabeçalho de host de back-end vazio.
-1. Em **Sondas de integridade**, no campo **Caminho**, insira **/keepalive**.
-1. No campo **Intervalos (segundos)**, insira **255**.
+1. Adicione **&lt;ecom-tenant-name&gt;.commerce.dynamics.com** a um pool de back-end como um host personalizado que tenha um cabeçalho de host de back-end vazio.
 1. Em **Balanceamento de carga**, deixe os valores padrão.
 
-A ilustração a seguir mostra a caixa de diálogo **Adicionar um pool de back-end** no Azure Front Door Service.
+A ilustração a seguir mostra a caixa de diálogo **Adicionar um pool de back-end** no Azure Front Door Service com o nome do host de back-end inserido.
 
 ![Caixa de diálogo Adicionar um pool de back-end](./media/CDN_BackendPool.png)
+
+A ilustração a seguir mostra a caixa de diálogo **Adicionar um pool de back-end** no Azure Front Door Service com os valores de balanceamento de carga padrão.
+
+![Adicionar uma caixa de diálogo do pool de back-end continuada](./media/CDN_BackendPool_2.png)
 
 ### <a name="set-up-rules-in-azure-front-door-service"></a>Configurar regras no Azure Front Door Service
 
@@ -121,20 +123,22 @@ A ilustração a seguir mostra a caixa de diálogo **Adicionar uma regra** no Az
 
 ![Caixa de diálogo Adicionar uma regra](./media/CDN_CachingRule.png)
 
-Depois que essa configuração inicial é implantada, é preciso adicionar seu domínio personalizado à configuração do Azure Front Door Service. Para adicionar o domínio personalizado (por exemplo, `www.fabrikam.com`), você deve configurar um nome canônico (CNAME) para o domínio.
+> [!WARNING]
+> Se o domínio que você usar já estiver ativo e ao vivo, crie um tíquete de suporte do bloco **Suporte** no [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) para obter ajuda para as próximas etapas. Para obter mais informações, consulte [Obter suporte para aplicativos do Finance and Operations ou Lifecycle Services (LCs)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
+
+Se o domínio for novo e não for um domínio dinâmico pré-existente, você poderá adicionar seu domínio personalizado à configuração do Azure Front Door Service. Isso permitirá que o tráfego da Web direcione ao seu site por meio da instância do Azure Front Door. Para adicionar o domínio personalizado (por exemplo, `www.fabrikam.com`), você deve configurar um nome canônico (CNAME) para o domínio.
 
 A ilustração a seguir mostra a caixa de diálogo **Configuração de CNAME** no Azure Front Door Service.
 
 ![Caixa de diálogo Configuração de CNAME](./media/CNAME_Configuration.png)
-
-> [!NOTE]
-> Se o domínio que você usará já estiver ativo, entre em contato com o suporte para habilitar esse domínio com o Azure Front Door Service para configurar um teste.
 
 É possível usar o Azure Front Door Service para gerenciar o certificado ou usar seu próprio certificado para o domínio personalizado.
 
 A ilustração a seguir mostra a caixa de diálogo **HTTPS de domínio personalizado** no Azure Front Door Service.
 
 ![Caixa de diálogo HTTPS de domínio personalizado](./media/Custom_Domain_HTTPS.png)
+
+Para obter instruções detalhadas sobre como adicionar um domínio personalizado ao seu Azure Front Door, consulte [Adicionar um domínio personalizado ao seu Front Door](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain).
 
 Agora sua CDN deve estar configurada corretamente para poder ser usada com o site do Commerce.
 

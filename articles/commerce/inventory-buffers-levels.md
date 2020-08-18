@@ -15,29 +15,28 @@ ms.search.region: global
 ms.author: boycezhu
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: cbc1f5f6fb2c35b009d65b03ffcaffc75a73f188
-ms.sourcegitcommit: 2683aacb426bfb3b541637edf1f8ec2d6cb5a745
+ms.openlocfilehash: 8a07e951aadaa1cc44b637ef9fd77f5f4e84cbda
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3417498"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621158"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>Configurar buffers de estoque e níveis de estoque
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Este tópico explica como configurar buffers de estoque e níveis de estoque que determinam as mensagens sobre disponibilidade de estoque em sites do Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Visão Geral
 
-A matriz do Dynamics 365 Commerce contém dados de estoque e vários canais, como aplicativos de ponto de venda (PDV), lojas de comércio eletrônico e outros aplicativos integrados personalizados que recebem e empurram o estoque de forma assíncrona. Portanto, os valores de estoque disponíveis obtidos por meio da página de estoque disponível na matriz do Commerce, por meio da interface de usuário do PDV (IU) e por APIs de disponibilidade de estoque de comércio eletrônico nem sempre são 100% precisos em tempo real.
+A sede do Dynamics 365 Commerce contém dados de estoque e vários canais, como aplicativos de ponto de venda (PDV), lojas de comércio eletrônico e outros aplicativos integrados personalizados que recebem e empurram o estoque de forma assíncrona. Portanto, os valores de estoque disponíveis obtidos por meio da página de estoque disponível na sede do Commerce, por meio da interface de usuário do PDV (IU) e por APIs de disponibilidade de estoque de comércio eletrônico nem sempre são 100% precisos em tempo real.
 
 Em vez de mostrar valores de estoque reais em lojas de comércio eletrônico, muitos varejistas preferem apenas mostrar as mensagens sobre o status de disponibilidade do estoque (por exemplo, "Disponível" ou "Esgotado") para informar aos clientes se um item está disponível para compra ou potencialmente esgotado. Para essa abordagem, os buffers de estoque e os níveis de estoque que determinam as mensagens de disponibilidade de estoque devem ser disponibilizados e configurados.
 
 ## <a name="prerequisite-turn-on-the-inventory-buffers-and-inventory-levels-feature"></a>Pré-requisito: Ativar o recurso de buffers de estoque e níveis de estoque
 
-O recurso para buffers de estoque e níveis de estoque é controlado pelo gerenciamento de recursos na matriz do Commerce. Para ativar o recurso, siga estas etapas.
+O recurso para buffers de estoque e níveis de estoque é controlado pelo gerenciamento de recursos na sede do Commerce. Para ativar o recurso, siga estas etapas.
 
 1. Vá para **Administrador do sistema** \> **Espaços de trabalho** \> **Gerenciamento de recursos**.
 1. Procure o recurso **Habilitar buffers de estoque e níveis de estoque**, selecione sua linha e, em seguida, selecione **Habilitar agora**.
@@ -131,7 +130,7 @@ Para sincronizar as configurações de buffers de estoque com os canais, siga es
 
 ## <a name="use-inventory-buffers-and-inventory-levels-in-e-commerce-scenario"></a>Usar buffers de estoque e níveis de estoque no cenário de comércio eletrônico
 
-O construtor de sites do Commerce usa os recursos do nível de estoque e de buffer de estoque na matriz do Commerce para determinar a disponibilidade de estoque em sites de comércio eletrônico. Para obter mais informações, [aplicar configurações de inventário](inventory-settings.md).
+O construtor de sites do Commerce usa os recursos do nível de estoque e de buffer de estoque na sede do Commerce para determinar a disponibilidade de estoque em sites de comércio eletrônico. Para obter mais informações, consulte [aplicar configurações de estoque](inventory-settings.md).
 
 Como alternativa, se você integrar com uma solução de comércio eletrônico de terceiros, poderá usar as APIs **GetEstimatedAvailability** e **GetEstimatedProductWarehouseAvailability** para mostrar a disponibilidade do estoque para um produto no cenário de comércio eletrônico. Para obter mais informações sobre essas APIs, consulte [Calcular disponibilidade de estoque para canais de varejo](calculated-inventory-retail-channels.md).
 
@@ -139,7 +138,7 @@ A introdução de buffers de estoque e níveis de estoque permite que essas APIs
 
 Para configurar a resposta das APIs de disponibilidade do produto, siga estas etapas.
 
-1. Vá para **Retail e Commerce** \> **Configuração da matriz** \> **Parâmetros** \> **Parâmetros do Commerce**.
+1. Vá para **Retail e Commerce** \> **Configuração da sede** \> **Parâmetros** \> **Parâmetros do Commerce**.
 1. Na seção **Estoque de loja**, na guia **Estoque**, no campo **APIs de disponibilidade do produto para comércio eletrônico**, selecione um valor.
 1. Para aplicar as configurações aos canais, execute o trabalho de agendamento de distribuição **1110** (**Configuração global**).
 

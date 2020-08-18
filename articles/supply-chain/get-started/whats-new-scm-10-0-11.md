@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 0d5265079dd96b272d13b30436b83b94bdb7297f
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: fa67cdc7ad07c1384c4a0bad453447a464adf144
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530273"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652074"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.11 (julho de 2020)
 
@@ -39,11 +39,11 @@ Este tópico lista os recursos novos ou alterados no Microsoft Dynamics 365 Supp
 Os seguintes recursos estão incluídos nesta versão. Os títulos do recurso estão associados a informações adicionais no site [Planos de versão](https://docs.microsoft.com/dynamics365/release-plans/). Links adicionais direcionam para documentações adicionais ou vídeos atualmente disponíveis para esse recurso. A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) antes que você possa usá-los.
 
 - [Armazenamento de relatório de estoque disponível](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
-- [Aprimoramentos do recebimento da placa de licença para o aplicativo do depósito](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app) – Para obter mais informações, consulte [Recebimento da placa de licença por meio do aplicativo do depósito](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
-- [Aprimoramentos da reserva de linha para o formulário de reserva do número do lote](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form) - para obter mais informações, consulte [Reservar o mesmo lote para uma ordem de venda](../sales-marketing/reserve-same-batch-sales-order.md)
+- [Aprimoramentos de recebimento da placa de licença para o aplicativo de depósito](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - Para obter mais informações, consulte [Recebimento da placa de licença por meio do aplicativo de depósito](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Aprimoramentos da reserva de linha para o formulário de reserva de número de lote](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - Para obter mais informações, consulte [Reservar o mesmo lote para uma ordem de venda](../sales-marketing/reserve-same-batch-sales-order.md).
 - [Novas entidades de dados da área de fabricação](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
-- [Excesso no recebimento de quantidades de carga](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement) – Para obter mais informações, consulte [Processamento de cargas de entrada das ordens de compra no depósito](../warehousing/inbound-load-handling.md).
-- [Relatório de conclusão sobre números de lote do dispositivo de ficha de trabalho](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device) -para obter mais informações, consulte [Relatório de conclusão do dispositivo de ficha de trabalho](../production-control/report-finished-job-device.md)
+- [Recebimento a mais de quantidade de carga](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Para obter mais informações, consulte [Manuseio de depósito de cargas de entrada para ordens de compra](../warehousing/inbound-load-handling.md).
+- [Relatar como concluído nos números do lote do dispositivo da ficha de trabalho](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)<br> - Para obter mais informações, consulte [Relatar como concluído no dispositivo de ficha de trabalho](../production-control/report-finished-job-device.md).
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

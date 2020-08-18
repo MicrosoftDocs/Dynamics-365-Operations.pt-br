@@ -70,6 +70,8 @@
                   items:
                     - name: Novidades ou alterações na home page do Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.13 (outubro de 2020)
+                      href: get-started/whats-new-changed-10-0-13.md
                     - name: Finance 10.0.12 (agosto de 2020)
                       href: get-started/whats-new-changed-10-0-12.md
                     - name: Finance 10.0.11 (julho 2020)
@@ -107,23 +109,23 @@
             - name: Catálogo de aprendizados
               items:
                 - name: Home page de Catálogo de aprendizados
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog.md
                 - name: Tomadores de decisões de negócios
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-bdm.md
                 - name: Usuários comerciais
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: Gerentes de projeto de implementação
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: Administradores
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: Desenvolvedores
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: Parceiro de vendas e marketing
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: Consultores funcionais
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: Arquitetos de solução
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: Explorar a interface do usuário
               items:
                 - name: Elementos da interface do usuário
@@ -846,6 +848,8 @@
                   href: accounts-payable/accounting-distributions.md
                 - name: Processar alocações
                   href: general-ledger/process-allocations.md
+                - name: Termos de alocação
+                  href: general-ledger/main-account-allocation-terms.md
                 - name: Dimensões financeiras
                   href: general-ledger/financial-dimensions.md
                 - name: Grupos de conta de consolidação e contas de consolidação adicionais
@@ -1122,6 +1126,8 @@
                   href: public-sector/advanced-ledger-entries-public-sector.md
                 - name: Criar uma entrada avançada no razão no setor público
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
+                - name: Balancete com relatório de detalhes transacionais
+                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Usar limites de controle de caixa
                   href: public-sector/cash-control.md
                 - name: Processamento de fechamento do exercício no setor público
@@ -1146,6 +1152,8 @@
               href: public-sector/tasks/create-fund-type-public-sector.md
             - name: Adicionar um tipo de certificação a um fornecedor no setor público
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
+            - name: Calculando Imposto sobre Vendas Harmonizado Canadense
+              href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
         - name: Financial Reporting
           items:
             - name: Visão geral do Financial Reporting
@@ -1846,6 +1854,8 @@
                           href: localizations/apac-ind-news-letter-10-0-10.md
                         - name: Novidades ou alterações no 10.0.11
                           href: localizations/apac-ind-news-letter-10-0-11.md
+                        - name: Novidades ou alterações no 10.0.12
+                          href: localizations/apac-ind-news-letter-10-0-12.md
                     - name: Grupos de referência de GST da Índia
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: Integração de GST para caixas registradoras
@@ -2632,10 +2642,14 @@
                   href: localizations/emea-esp-promissory-note-options.md
                 - name: Relatório 340
                   href: localizations/emea-esp-report-340.md
+                - name: Relatório 347 de declaração
+                  href: localizations/emea-esp-declaration-347-report.md
                 - name: ​Ciclos de vendas e compras​
                   href: localizations/emea-esp-sales-purchase-cycle.md
                 - name: ​Entradas especiais e folhas de abertura​
                   href: localizations/emea-esp-opening-sheets-spain.md
+                - name: Fornecimento imediato de informações sobre IVA
+                  href: localizations/emea-esp-sii.md
             - name: Suécia
               items:
                 - name: Visão geral da Suécia
