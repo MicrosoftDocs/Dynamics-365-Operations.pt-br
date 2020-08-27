@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ab0c66ad0536b20b1ab23e9498ca3cb56b98ccf5
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: d601ca9b28bb720fd05e25ef66df7be12a08f7e0
+ms.sourcegitcommit: e2a953bea055611023c00a55c00391d14daaca25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530250"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "3696121"
 ---
 # <a name="supply-chain-management-home-page"></a>Home page do Supply Chain Management
 
@@ -89,8 +89,6 @@ As seguintes gravações de conferência técnica abordam a funcionalidade do ge
   - [Configurador de produto no Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
 - **Gerenciamento de depósito:**
   - [Obter o máximo do sistema de gerenciamento de depósito](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
-  - [Gerenciamento de depósito avançado R3 – processamento de entrada e reabastecimento mínimo/máximo](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
-  - [Gerenciamento de depósito avançado R3 – um dia na vida, processamento de saída e Reabastecimento de demanda](https://youtu.be/Og0gLlVp7jA)
   - [Rótulos no novo gerenciamento de depósito do Microsoft Dynamics AX 2012 R3](https://youtu.be/5w1MngVchBA)
   - [Dynamics AX 2012 R3: gerenciamento de depósito avançado – um dia na vida da fabricação de processos](https://www.youtube.com/embed/QUxXUrN-7n4)
 - **Vídeos de controle de produção:**

@@ -156,6 +156,8 @@
                           items:
                             - name: Personalizar mapeamentos de entidades e campos
                               href: data-entities/dual-write/customizing-mappings.md
+                            - name: Manuseando múltiplos mapas de entidades
+                              href: data-entities/dual-write/multiple-entity-maps.md
                             - name: Editar uma entidade legal após configuração de gravação dupla
                               href: data-entities/dual-write/edit-legal-entity.md
                             - name: Gerenciamento de erros e notificações de alerta
