@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c2ec629d9fd027be01652351ab1c99001e063e30
-ms.sourcegitcommit: 49656661c89c864e8e067259a601c3bbceb8bef4
+ms.openlocfilehash: 5876b953a3b3d960c106acf37731fde13b93f8e7
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "3464921"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661163"
 ---
 # <a name="order-details-module"></a>Módulo de detalhes da ordem
-
 
 [!include [banner](includes/banner.md)]
 
@@ -72,16 +71,16 @@ Para adicionar um módulo de detalhes da ordem a uma nova página e definir as p
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral do kit de início](starter-kit-overview.md)
-
-[Módulo de contêiner](add-container-module.md)
-
-[Módulo de caixa de compra](add-buy-box.md)
-
 [Módulo de carrinho](add-cart-module.md)
+
+[Módulo de ícone de carrinho](cart-icon-module.md)
 
 [Módulo de finalização da compra](add-checkout-module.md)
 
-[Módulo de cabeçalho](author-header-module.md)
+[Módulo de pagamento](payment-module.md)
 
-[Módulo de rodapé](author-footer-module.md)
+[Módulo do endereço de remessa](ship-address-module.md)
+
+[Módulo de opções de entrega](delivery-options-module.md)
+
+[Módulo de vale-presente](add-giftcard.md)

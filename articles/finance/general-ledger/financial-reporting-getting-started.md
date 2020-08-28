@@ -1,9 +1,9 @@
 ---
 title: Visão geral dos relatórios financeiros
-description: Este tópico descreve onde acessar relatórios financeiros no Microsoft Dynamics 365 Finance e como usar os recursos de relatório financeiro. Ele inclui uma descrição de relatórios financeiros padrão que são fornecidos.
+description: Este tópico descreve onde acessar relatórios financeiros no Microsoft Dynamics 365 Finance e como usar os recursos de relatório financeiro.
 author: aprilolson
 manager: AnnBe
-ms.date: 07/23/2020
+ms.date: 08/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86022b662c265b4b98f6df86647f61ea35d31432
-ms.sourcegitcommit: f5200f37c6c436183b4ee5711026ef92a7cb9538
+ms.openlocfilehash: 1944eda5fe933ff9fdf2b9a837eb2336e8b3a0d5
+ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3618029"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "3696679"
 ---
-# <a name="financial-reporting-overview"></a>Visão geral de relatórios financeiros
+# <a name="get-started-with-financial-reporting"></a>Introdução ao Financial Reporting 
 
 [!include [banner](../includes/banner.md)]
 
@@ -134,6 +134,12 @@ Quando você seleciona o menu **Relatórios financeiros**, é exibida a lista de
 ## <a name="creating-and-modifying-financial-reports"></a>Criando e modificando relatórios financeiros
 Na lista de relatórios financeiros, você pode criar um novo relatório ou modificar um existente relatório. Se você tiver as permissões apropriadas, poderá criar um novo relatório financeiro selecionando **Novo** no Painel de Ação. Um programa de designer de relatórios é baixado para seu dispositivo. Depois que o designer de relatórios for iniciado é possível criar o novo relatório. Depois de salvar o novo relatório, ele aparecerá na lista de relatórios financeiros. A lista mostra apenas os relatórios que foram criados para a empresa que você está usando no Dynamics 365 Finance. 
 
+## <a name="reporting-tree-definitions"></a>Definições de árvore de relatórios 
+Um dos componentes usados para criar relatórios financeiros é uma definição de árvore de relatórios. Uma relatório de definição de árvore ajuda a definir a estrutura e a hierarquia de sua organização. Você pode criar hierarquias em várias dimensões com base nas relações dimensionais nos dados financeiros. Ele fornece informações no nível de unidade de geração de relatórios e no nível de resumo para todas as unidades na árvore.
+
+Você pode criar um número ilimitado de árvores de relatórios para exibir os dados da organização de várias formas. Cada árvore de relatórios pode conter qualquer combinação de departamentos e unidades de resumo, mas uma definição de relatório só pode ser vinculada a uma árvore de relatórios de cada vez. 
+
+
 ## <a name="troubleshooting-issues-opening-report-designer"></a>Solucionar problemas ao abrir o Designer de Relatórios
 Existem alguns problemas comuns que podem causar transtornos quando você abre o Designer de Relatórios. Veja a seguir esses problemas e as etapas para solucioná-los.
 
@@ -162,3 +168,4 @@ Problema 3: Você conseguirá passar pela página de entrada no Designer de Rela
 
 ## <a name="additional-resources"></a>Recursos adicionais
 - [Exibir relatórios financeiros](view-financial-reports.md)
+- [Definições da árvore de relatórios em relatórios financeiros](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)

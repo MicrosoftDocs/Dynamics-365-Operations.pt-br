@@ -3,7 +3,7 @@ title: Remover uma instância
 description: Este artigo mostra o processo de remoção de um ambiente de produção ou de test drive do Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/27/2020
+ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a384801060b2b684f7908daaac2311edd27c773a
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 0a8eac74f0d840251ab56445dd5af4d19d3c0490
+ms.sourcegitcommit: f759d361fa505323b8b171a98024dca9cc9fa0f0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621371"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3668316"
 ---
 # <a name="remove-an-instance"></a>Remover uma instância
 
@@ -70,7 +70,7 @@ Para remover um ambiente do Human Resources de um ambiente existente do Power Ap
 4. Entre no LCS usando a conta utilizada para inscrever-se no Human Resources. 
 5. Selecione o projeto do Human Resources que contém o ambiente. 
 6. Em seu projeto LCS, selecione o bloco **Gerenciamento do Aplicativo de Human Resources**. 
-7. Selecione a instância que você deseja remover, que deve estar marcada com um status de implantação **Reprovado**.
+7. Selecione a instância que você deseja remover, que deve estar marcada com um status de implantação **Excluído**.
 8. Selecione **Remover instância** e confirme sua decisão. 
 
 ## <a name="recover-a-soft-deleted-environment"></a>Recuperar um ambiente excluído de forma reversível

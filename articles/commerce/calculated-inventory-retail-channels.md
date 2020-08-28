@@ -3,7 +3,7 @@ title: Calcular a disponibilidade de estoque em canais de varejo
 description: Este tópico descreve as opções para mostrar o estoque disponível da loja e dos canais online.
 author: hhainesms
 manager: annbe
-ms.date: 05/15/2020
+ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 51e6633caa49daeedca685f3323eaf4e14e788a5
-ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
+ms.openlocfilehash: 6d25a426268ebfb6990eb3dadb1ad451f86f59a1
+ms.sourcegitcommit: 65a8681c46a1d99e7ff712094f472d5612455ff0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "3379227"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3694913"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Calcular a disponibilidade de estoque em canais de varejo
 
@@ -40,7 +40,7 @@ Este tópico explica os processos de sincronização de dados que podem ser exec
 
 Você pode usar as seguintes APIs para mostrar a disponibilidade do estoque de um produto quando seus clientes realizarem compras em um site de comércio eletrônico.
 
-- **GetEstimatedAvailabilty** – Use esta API para saber a disponibilidade de estoque do item no depósito do canal de comércio eletrônico ou em todos os depósitos vinculados à configuração do grupo de atendimento para o canal de comércio eletrônico. Essa API também pode ser usada para depósitos em uma área ou raio de pesquisa específico, com base em dados de longitude e latitude.
+- **GetEstimatedAvailability** – use esta API para saber a disponibilidade de estoque do item no depósito do canal de comércio eletrônico ou em todos os depósitos vinculados à configuração do grupo de atendimento para o canal de comércio eletrônico. Essa API também pode ser usada para depósitos em uma área ou raio de pesquisa específico, com base em dados de longitude e latitude.
 - **GetEstimatedProductWarehouseAvailability** – Use esta API para solicitar estoque de um item em um depósito específico. Por exemplo, você pode usá-la para mostrar a disponibilidade do estoque em cenários que envolvem a retirada da ordem.
 
 > [!NOTE]
@@ -66,7 +66,7 @@ Após a execução do trabalho **Disponibilidade do produto**, os dados coletado
 1. Vá para **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**.
 1. Execute o trabalho **1130** (**Disponibilidade do produto**) para sincronizar os dados do instantâneo que o trabalho **Disponibilidade do produto** criou da sede do Commerce para os bancos de dados do canal.
 
-Quando a disponibilidade de estoque é solicitada na API **GetEstimatedAvailabilty** ou **ProductWarehouseInventoryAvailabilities**, um cálculo é executado para tentar obter a melhor estimativa possível de estoque do produto. O cálculo faz referência a quaisquer ordens de clientes de comércio eletrônico que estão no banco de dados do canal, mas que não foram incluídas nos dados de instantâneo fornecidos pelo trabalho 1130. Essa lógica se dá por meio do rastreamento da última transação do estoque processada na sede do Commerce e da comparação desta com as transações no banco de dados do canal. Ela fornece uma linha de base para a lógica de cálculo de canal, para que os movimentos de estoque adicionais que ocorreram nas transações de ordens de venda do cliente no banco de dados do canal de comércio eletrônico possam ser considerados no valor de estoque estimado fornecido pela API.
+Quando a disponibilidade de estoque é solicitada na API **GetEstimatedAvailability** ou **GetEstimatedProductWarehouseAvailability**, um cálculo é executado para tentar obter a melhor estimativa possível de estoque do produto. O cálculo faz referência a quaisquer ordens de clientes de comércio eletrônico que estão no banco de dados do canal, mas que não foram incluídas nos dados de instantâneo fornecidos pelo trabalho 1130. Essa lógica se dá por meio do rastreamento da última transação do estoque processada na sede do Commerce e da comparação desta com as transações no banco de dados do canal. Ela fornece uma linha de base para a lógica de cálculo de canal, para que os movimentos de estoque adicionais que ocorreram nas transações de ordens de venda do cliente no banco de dados do canal de comércio eletrônico possam ser considerados no valor de estoque estimado fornecido pela API.
 
 A lógica de cálculo de canal retorna um valor fisicamente disponível estimado e um valor total disponível para o produto e o depósito solicitados. Os valores podem ser mostrados no seu site de comércio eletrônico, se você preferir, ou podem ser usados para acionar outra lógica comercial no seu site de comércio eletrônico. Por exemplo, você pode mostrar uma mensagem "fora de estoque" em vez da quantidade disponível real fornecida pela API.
 
@@ -107,6 +107,8 @@ Para garantir a melhor estimativa de estoque possível, é essencial que você u
 - **Lançar demonstrativos financeiros em lote** – Este trabalho também é necessário para lançamento de fluxo constante. Segue o trabalho **Calcular demonstrativos transacionais em lote**. Esse trabalho lança sistematicamente os demonstrativos calculados, para que as ordens de vendas de cash-and-carry sejam criadas na sede do Commerce e esta reflita com mais precisão o estoque da loja.
 - **Disponibilidade do produto** – Este trabalho cria o instantâneo do estoque da sede do Commerce.
 - **1130 (Disponibilidade do produto)** – Este trabalho é encontrado na página **Agendas de distribuição** e deve ser executado imediatamente após o trabalho **Disponibilidade do produto**. Ele desloca os dados do instantâneo do estoque da sede do Commerce para os bancos de dados do canal.
+
+Recomendamos não executar esses trabalhos em lote com muita frequência (em intervalos de alguns minutos). As execuções frequentes sobrecarregarão o Commerce Headquarters (HQ) e podem afetar o desempenho. Em geral, é uma boa prática executar a disponibilidade do produto e 1130 trabalhos por hora e agendar o trabalho P, sincronizar ordens e reduzir trabalhos relacionados à publicação de feed com a mesma frequência ou uma frequência superior.
 
 > [!NOTE]
 > Por razões de desempenho, quando os cálculos de disponibilidade de estoque de canal são usados para fazer uma solicitação de disponibilidade de estoque usando a API de comércio eletrônico ou a nova lógica de estoque do canal de PDV, o cálculo usa um cache para determinar se já passou tempo suficiente para justificar a execução da lógica de cálculo novamente. O cache padrão é definido como 60 segundos. Por exemplo, você ativou o cálculo do canal da sua loja e exibiu o estoque disponível de um produto na página **Pesquisa de estoque**. Se uma unidade do produto for vendida, a página **Pesquisa de estoque** não mostrará o estoque reduzido até que o cache tenha sido limpo. Depois que os usuários lançam transações no PDV, eles devem esperar 60 segundos antes de verificar se o estoque disponível foi reduzido.

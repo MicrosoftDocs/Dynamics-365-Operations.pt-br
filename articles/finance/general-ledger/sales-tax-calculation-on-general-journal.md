@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: dd1df355d39065d6959915cc916987d3c58b15a6
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 93c9f2bebd038723d50e64bdaa0e0992c003f88d
+ms.sourcegitcommit: cec5de2dcfc7210a86a220e308f80ab204f12383
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570185"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665833"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Cálculo de imposto nas linhas do diário geral
 [!include [banner](../includes/banner.md)]
@@ -64,23 +64,6 @@ O diagrama a seguir ilustra a regra graficamente.
 
 Se um comprovante tiver uma linha de diário, onde o tipo de conta for **Fornecedor**, todas as linhas do diário no comprovante aplicarão a mesma direção de imposto. Os seguintes pontos mostram as possíveis direções de imposto para contas de fornecedor. 
 
-•   Se o código do imposto for isenção de imposto, a direção do imposto será Compra Isenta de Imposto.
-
-•   Se o código do imposto for IVA intracom, a direção do imposto será Imposto a Receber.
-
-•   Se o código do imposto for encargo revertido, a direção do imposto será Imposto a Receber.
-
-
-Caso contrário, a direção do imposto será Imposto a Pagar.
-
-O diagrama a seguir ilustra a regra graficamente.
-
-![Possibilidades de direção do imposto para contas de fornecedor](media/Sales-Tax-Direction-Vendor.jpg)
-
-### <a name="account-type-is-customer"></a>Tipo de conta é Cliente
-
-Se um comprovante tiver uma linha de diário, onde o tipo de conta for **Cliente**, todas as linhas do diário no comprovante aplicarão a mesma direção de imposto. Os seguintes pontos mostram as possíveis direções de imposto para contas de cliente.
-
 •   Se o código do imposto for imposto sobre uso, a direção do imposto será Imposto sobre o Uso.
 
 •   Se o código do imposto for isenção de imposto, a direção do imposto será Compra Isenta de Imposto.
@@ -90,6 +73,22 @@ Se um comprovante tiver uma linha de diário, onde o tipo de conta for **Cliente
 •   Se o código do imposto for encargo revertido, a direção do imposto será Imposto a Pagar.
 
 Caso contrário, a direção do imposto será Imposto a Receber.
+
+O diagrama a seguir ilustra a regra graficamente.
+
+![Possibilidades de direção do imposto para contas de fornecedor](media/Sales-Tax-Direction-Vendor.jpg)
+
+### <a name="account-type-is-customer"></a>Tipo de conta é Cliente
+
+Se um comprovante tiver uma linha de diário, onde o tipo de conta for **Cliente**, todas as linhas do diário no comprovante aplicarão a mesma direção de imposto. Os seguintes pontos mostram as possíveis direções de imposto para contas de cliente.
+
+•   Se o código do imposto for isenção de imposto, a direção do imposto será Compra Isenta de Imposto.
+
+•   Se o código do imposto for IVA intracom, a direção do imposto será Imposto a Receber.
+
+•   Se o código do imposto for encargo revertido, a direção do imposto será Imposto a Receber.
+
+Caso contrário, a direção do imposto será Imposto a Pagar.
 
 O diagrama a seguir ilustra a regra graficamente.
 

@@ -3,7 +3,7 @@ title: Módulo de finalização da compra
 description: Este tópico descreve como adicionar um módulo de finalização da compra a uma página e definir as propriedades necessárias.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 08/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,17 +17,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: bd1d66fc39872019fc38dbbfb56dc3015d57d0dd
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 1d913fdc9ab9a3dbf7d5534fba38add7f942652a
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411175"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686733"
 ---
 # <a name="checkout-module"></a>Módulo de finalização da compra
 
-
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Este tópico descreve como adicionar um módulo de finalização da compra a uma página e definir as propriedades necessárias.
 
@@ -45,51 +45,67 @@ A imagem a seguir mostra um exemplo de um módulo de finalização da compra da 
 
 Um módulo de finalização de compra mostra um resumo do pedido e fornece a funcionalidade para a realização de um pedido. Para coletar todas as informações de cliente necessárias antes que um pedido possa ser feito, os módulos adicionais devem ser adicionados ao módulo de finalização de compra. Portanto, os varejistas têm a flexibilidade de adicionar módulos personalizados ao fluxo de finalização de compra ou a excluir módulos, de acordo com suas necessidades.
 
-### <a name="modules-that-can-be-used-in-the-checkout-module"></a>Módulos que podem ser usados no módulo de finalização da compra
+| Nome da propriedade | Valores | descrição |
+|----------------|--------|-------------|
+| Título da finalização da compra | Texto do cabeçalho e uma tag do cabeçalho (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Um cabeçalho para o módulo de finalização da compra. |
+| Título do resumo da ordem | Texto do título | Um cabeçalho para a seção de resumo do pedido do módulo. |
+| Título dos itens de linha do carrinho | Texto do título | Um título para os itens da linha do carrinho que são mostrados no módulo de finalização da compra. |
+| Mostrar encargos de remessa no item de linha | **Verdadeiro** ou **Falso** | Se esta propriedade for definida como **True**, os encargos de remessa aplicáveis para itens de linha serão mostrados nas linhas do carrinho. Se o recurso **Encargo de cabeçalho sem rateio** for ativado no Commerce Headquarters, o encargo de remessa será aplicado no nível do cabeçalho, não no nível da linha. Esse recurso foi adicionado no Commerce versão 10.0.13. |
 
-- **Endereço de remessa** – Este módulo permite que um cliente adicione ou selecione o endereço de remessa para uma ordem. Se o cliente estiver conectado, quaisquer endereços que foram salvos anteriormente para esse cliente serão mostrados. O cliente pode então selecionar entre esses endereços. O cliente também pode adicionar um novo endereço. O endereço de remessa é usado para todos os itens na ordem que requerem remessa. Não é possível personalizá-lo para itens de linha individuais. Os formatos de endereço de remessa são definidos para cada país ou região e as regras específicas de país/região são aplicadas por esse módulo. Embora esse módulo não forneça validação de endereço, a validação de endereço pode ser implementada por meio da personalização. Se a ordem incluir somente itens que serão retirados na loja, esse módulo ficará oculto automaticamente.
+## <a name="modules-that-can-be-used-in-the-checkout-module"></a>Módulos que podem ser usados no módulo de finalização da compra
+
+- **Endereço de remessa** – Este módulo permite que um cliente adicione ou selecione o endereço de remessa para uma ordem. Para obter mais informações sobre esse módulo, consulte [Módulo de endereço de remessa](ship-address-module.md).
 
     A imagem a seguir mostra um exemplo de um módulo de endereço de remessa em uma página de finalização da compra.
 
     ![Exemplo de módulo de endereço de remessa](./media/ecommerce-shippingaddress.PNG)
 
-- **Opções de entrega** – Este módulo permite que um cliente selecione uma opção de entrega para uma ordem. As opções de entrega são baseadas no endereço de remessa. Se o endereço de remessa for alterado, as opções de entrega deverão ser recuperadas novamente. Se a ordem incluir somente itens que serão retirados na loja, esse módulo ficará oculto automaticamente.
+- **Opções de entrega** – Este módulo permite que um cliente selecione um modo de entrega para um pedido. Para obter mais informações sobre esse módulo, consulte [Módulo de opções de entrega](delivery-options-module.md).
 
     A imagem a seguir mostra um exemplo de um módulo de opções de entrega em uma página de finalização da compra.
-
+ 
     ![Exemplo de um módulo opções de entrega](./media/ecommerce-deliveryoptions.PNG)
 
 - **Contêiner da seção de finalização da compra** – Este módulo é um contêiner dentro do qual é possível colocar vários módulos para criar uma seção dentro do fluxo de finalização da compra. Por exemplo, você pode colocar todos os módulos relacionados a pagamento dentro desse contêiner para que eles apareçam como uma seção. Esse módulo afeta apenas o layout do fluxo.
-- **Vale-presente** – Este módulo permite que um cliente pague uma ordem usando um vale-presente. Ele só é compatível com vales-presente do Microsoft Dynamics 365 Commerce. Um ou mais vales-presente podem ser aplicados a uma ordem. Se o saldo do vale-presente não cobrir o valor do carrinho, ele poderá ser combinado com outra forma de pagamento. Os vales-presente podem ser resgatados apenas se o cliente estiver conectado.
+
+- **Vale-presente** – Este módulo permite que um cliente pague uma ordem usando um vale-presente. Para obter mais informações sobre esse módulo, consulte [Módulo de cartão-presente](add-giftcard.md).
+
 - **Pontos de fidelidade** – Este módulo permite que um cliente pague uma ordem usando pontos de fidelidade. Ele fornece um resumo dos pontos disponíveis e pontos vencidos e permite que o cliente selecione o número de pontos a serem resgatados. Se o cliente não estiver conectado ou não for um membro de fidelidade, ou se o valor total no carrinho for 0 (zero), esse módulo ficará oculto automaticamente.
-- **Pagamento** – Este módulo permite que um cliente pague um pedido usando um cartão de crédito. Se o valor total do carrinho estiver coberto por pontos de fidelidade ou vale-presente e ou se for 0 (zero), esse módulo ficará oculto automaticamente. A integração do cartão de crédito é fornecida pelo conector de pagamento Adyen para esse módulo. Para obter mais informações sobre como usar esse conector, consulte o [Conector de pagamento do Dynamics 365 para Adyen](dev-itpro/adyen-connector.md).
-- **Endereço de cobrança** – Este módulo permite que um cliente forneça informações de cobrança. Essas informações são processadas, juntamente com as informações do cartão de crédito, pela Adyen. Essas informações são processadas, juntamente com as informações do cartão de crédito, pela Adyen.
 
-    A imagem a seguir mostra um exemplo de um cartão-presente, pontos de fidelidade, pagamento e módulos de endereço de cobrança em uma página de finalização de compra.
+- **Pagamento** – este módulo permite que um cliente pague um pedido usando um cartão de crédito ou de débito. Os clientes também podem fornecer um endereço de cobrança para a opção de pagamento selecionada. Para obter mais informações sobre esse módulo, consulte [Módulo de pagamento](payment-module.md).
 
-    ![Exemplo de um cartão-presente, pontos de fidelidade, pagamento e módulos de endereço de cobrança](./media/ecommerce-payments.PNG)
+    A imagem a seguir mostra um exemplo de um cartão-presente, pontos de fidelidade e módulos de pagamento em uma página de finalização de compra.
+
+    ![Exemplo de um cartão-presente, pontos de fidelidade e módulos de pagamento em uma página de finalização de compra](./media/ecommerce-payments.PNG)
 
 - **Informações de contato** – Este módulo permite que um cliente adicione ou altere as informações de contato (endereço de email) de uma ordem.
 
 - **Bloco de texto** – Este módulo contém mensagens controladas pelo sistema de gerenciamento de conteúdo (CMS). Por exemplo, ele pode conter uma mensagem informando "Caso você tenha problemas com uma ordem, entre em contato com 1-800-Fabrikam". 
 
+- **Termos e condições de finalização da compra** – este módulo mostra um arquivo Rich Text que contém os termos e condições e uma caixa de seleção para a entrada do cliente. A caixa de seleção é opcional e configurável. A entrada é capturada pelo módulo e pode ser usada como uma verificação antes que a colocação do pedido seja acionada, mas ela não é incluída nas informações de resumo do pedido. Este módulo pode ser adicionado ao contêiner de finalização da compra, ao contêiner da seção de finalização da compra ou ao slot de termos e condições, de acordo com as necessidades comerciais. Se for adicionado ao contêiner de finalização da compra ou ao slot do contêiner da seção de finalização da compra, ele será exibido como uma etapa no processo de finalização da compra. Se for adicionado ao slot de termos e condições, ele aparecerá próximo ao botão de colocação do pedido.
+
+    A imagem a seguir mostra um exemplo de termos e condições em uma página de finalização de compra.
+
+    ![Exemplo de termos e condições em uma página de finalização da compra](./media/ecommerce-checkout-terms.PNG)
+
 ## <a name="commerce-scale-unit-interaction"></a>Interação do Commerce Scale Unit
 
-A maioria das informações de finalização da compra, como endereço e método de remessa, é armazenada no carrinho e processada como parte da ordem. A única exceção são as informações de cartão de crédito. Essas informações são processadas diretamente usando o conector de pagamento Adyen. O pagamento é autorizado, mas não é cobrado.
+A maioria das informações de finalização da compra, como endereço e método de remessa, é armazenada no carrinho e processada como parte da ordem. A única exceção são as informações de cartão de crédito. Essas informações são processadas diretamente usando o conector de pagamento Adyen. O pagamento é autorizado, mas não é cobrado até o pedido ser cumprido.
 
 ## <a name="add-a-checkout-module-to-a-page-and-set-the-required-properties"></a>Adicionar um módulo de finalização da compra a uma página e definir as propriedades necessárias
 
 Para adicionar um módulo de finalização da compra a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
-1. Vá para **Fragmentos de Página** e selecione **Novo** para criar um novo fragmento.
-1. Na caixa de diálogo **Novo Fragmento de Página**, selecione o módulo **Finalização da compra**.
-1. Em **Nome do Fragmento de Página**, digite o nome **Fragmento de finalização da compra** e selecione **OK**.
+1. Vá para **Fragmentos** e selecione **Novo** para criar um novo fragmento.
+1. Na caixa de diálogo **Novo fragmento de página**, selecione o módulo **Finalização da compra**.
+1. Em **Nome do fragmento de página**, digite o nome **Fragmento de finalização da compra** e selecione **OK**.
 1. Selecione o slot **Módulo de finalização da compra**.
 1. No painel de propriedades à direita, selecione o símbolo de lápis, digite o texto do título no campo e, em seguida, selecione o símbolo de marca de seleção.
 1. No slot **Informações de finalização da compra**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione os módulos **Endereço de remessa**, **Opções de entrega**, **Contêiner de seção de finalização da compra** e **Informações de contato** e, depois, selecione **OK**.
 1. No slot **Contêiner da seção de finalização da compra**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione os módulos **Cartão-presente**, **Fidelidade**, and **Pagamento** e, depois, selecione **OK**. Dessa forma, verifique se todos os métodos de pagamento aparecem juntos em uma seção.
+1. No slot **Termos e condições**, adicione um módulo de **Termos e condições de finalização da compra**, se necessário. No painel de propriedades do módulo, configure o texto dos termos e condições conforme apropriado.
 1. Selecione **Salvar** e, depois, **Visualizar** para visualizar o fragmento. Alguns módulos que não tem um contexto de carrinho talvez não sejam renderizados na visualização.
 1. Selecione **Concluir edição** para fazer check-in do fragmento e, depois, selecione **Publicar** para publicá-lo.
 1. Crie um modelo que use o novo fragmento de finalização da compra.
@@ -97,16 +113,16 @@ Para adicionar um módulo de finalização da compra a uma nova página e defini
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral do kit de início](starter-kit-overview.md)
-
-[Módulo de contêiner](add-container-module.md)
-
-[Módulo de caixa de compra](add-buy-box.md)
-
 [Módulo de carrinho](add-cart-module.md)
 
-[Módulo de confirmação da ordem](order-confirmation-module.md)
+[Módulo de ícone de carrinho](cart-icon-module.md)
 
-[Módulo de cabeçalho](author-header-module.md)
+[Módulo de pagamento](payment-module.md)
 
-[Módulo de rodapé](author-footer-module.md)
+[Módulo do endereço de remessa](ship-address-module.md)
+
+[Módulo de opções de entrega](delivery-options-module.md)
+
+[Módulo de detalhes da ordem](order-confirmation-module.md)
+
+[Módulo de vale-presente](add-giftcard.md)

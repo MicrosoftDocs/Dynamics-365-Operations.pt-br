@@ -19,12 +19,12 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e27e4c4d8bdf614d6f55f44daeac3bc152219004
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: cf3df2267671b50c20b28dbdb1c6a21696bf2515
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404293"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3664969"
 ---
 # <a name="product-recommendations-faq"></a>Perguntas frequentes sobre recomendações de produtos
 
@@ -87,11 +87,13 @@ Após habilitar recomendações de produto, é preciso adicionar o painel de rec
 
 [Habilitar recomendações personalizadas](personalized-recommendations.md)
 
-[Cancelar recomendações personalizados](personalization-gdpr.md)
+[Cancelar recomendações personalizadas](personalization-gdpr.md)
 
-[Adicionar recomendações de produtos no PDV](product.md)
+[Habilitar recomendações de "comprar looks semelhantes"](shop-similar-looks.md)
 
-[Adicionar recomendações à tela de transação](add-recommendations-control-pos-screen.md)
+[Adicionar recomendações dos produtos no PDV](product.md)
+
+[Adicionar recomendações à tela de transações](add-recommendations-control-pos-screen.md)
 
 [Ajustar os resultados das recomendações de AI-ML](modify-product-recommendation-results.md)
 

@@ -19,15 +19,14 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5fc0673dcdcc8b761089be2c2d201c8488128865
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 62b8237fa0c30fa9d901d670de38416cf8615c8d
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025668"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686637"
 ---
 # <a name="add-a-logo"></a>Adicionar um logotipo
-
 
 [!include [banner](includes/banner.md)]
 
@@ -51,7 +50,7 @@ Para poder adicionar um logotipo a todas as páginas do site, você deve executa
 
 Para adicionar um logotipo ao fragmento do cabeçalho ao site, siga estas etapas.
 
-1. No painel de navegação à esquerda, selecione **Fragmentos de Página**.
+1. No painel de navegação à esquerda, selecione **Fragmentos**.
 1. Selecione o fragmento de cabeçalho que você criou antes e selecione **Editar**.
 1. Expanda o módulo de cabeçalho.
 1. No painel de propriedades do módulo de cabeçalho, forneça uma imagem e um link para o logotipo. 

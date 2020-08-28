@@ -3,7 +3,7 @@ title: Automação de processos
 description: Este tópico fornece detalhes sobre como a automação de processos permite o agendamento simples de processos que serão executados pelo servidor de lote.
 author: RyanCCarlson2
 manager: tonyafehr
-ms.date: 06/24/2020
+ms.date: 08/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: 2ab4e7510ff98b9fbf0223096b905e9de47f52e1
-ms.sourcegitcommit: 1833c1e07a32c8ad41e4a1516e78100ae04a2156
+ms.openlocfilehash: 320e18f7fc61300ed2966afef530907fc9fc5ca5
+ms.sourcegitcommit: e2a47d31175bbd60acfd7a23ffea70c669358572
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "3508176"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "3690037"
 ---
 # <a name="process-automation"></a>Automação de processos
 
@@ -32,6 +32,8 @@ A automação de processos permite o agendamento simples de processos que serão
 ## <a name="administration"></a>Administração
 
 A página de administração central de todas as automações de processos é encontrada no módulo Administração do Sistema no menu **Configurar**. Essa página listará todos os processos automatizados (série) que estão configurados no sistema. Ela também permitirá que você adicione novas automações de processos diretamente nela. Depois que uma série é configurada, é possível gerenciá-la nesta lista. Você pode optar por editar toda a série, excluí-la, exibir todas as ocorrências em uma exibição de lista ou desabilitar a série se desejar pausar o trabalho agendado por um período de tempo. 
+
+Qualquer processo desabilitado no gerenciamento de recursos não será exibido quando o recurso for desabilitado. Além disso, o mecanismo de plano de automação do processo não agendará ocorrências ou processos em segundo plano para um recurso desabilitado. A reabilitação do recurso levará qualquer ocorrência agendada ou processo em segundo plano no passado a ser executado imediatamente.
 
 ## <a name="calendar-view"></a>Exibição de calendário 
 Uma das principais vantagens da automação de processos é a capacidade de ver o trabalho agendado em uma exibição de calendário simples.  Essa exibição permite ver o trabalho de uma semana por vez. Você verá essa exibição no lado direito da página **Automação de processos**. Ela será preenchida com o trabalho agendado para a série selecionada. 

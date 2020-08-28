@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a8428963e105e422dcd048863c17df0926a409ac
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 41f808d671bf5e7425390484ea30470e044899d8
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411103"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661233"
 ---
 # <a name="gift-card-module"></a>Módulo do vale-presente
 
@@ -63,8 +63,18 @@ Para obter instruções sobre como adicionar um módulo de cartão-presente a um
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral do kit de início](starter-kit-overview.md)
+[Módulo de carrinho](add-cart-module.md)
+
+[Módulo de ícone de carrinho](cart-icon-module.md)
 
 [Módulo de finalização da compra](add-checkout-module.md)
+
+[Módulo de pagamento](payment-module.md)
+
+[Módulo do endereço de remessa](ship-address-module.md)
+
+[Módulo de opções de entrega](delivery-options-module.md)
+
+[Módulo de detalhes da ordem](order-confirmation-module.md)
 
 [Suporte a cartões-presente externos](./dev-itpro/gift-card.md)

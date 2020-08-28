@@ -3,7 +3,7 @@ title: Aplicativo Human Resources no Teams
 description: Este tópico apresenta o aplicativo Microsoft Dynamics 365 Human Resources no Microsoft Teams.
 author: andreabichsel
 manager: AnnBe
-ms.date: 05/18/2020
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 36684710e39c27840cc4aaa259a85579104fd8d6
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 4822cc6560926df878a8b4e9f821b331ede27a8c
+ms.sourcegitcommit: 15c68822f4d412bfc609be31b3702f18c81ea0bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431121"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3666351"
 ---
 # <a name="human-resources-app-in-teams"></a>Aplicativo Human Resources no Teams
 
@@ -45,10 +45,10 @@ Para obter informações sobre como gerenciar permissões de aplicativo no Teams
 
 | Problema | Status |
 | --- | --- |
+| O rolamento horizontal não funciona em telefones Android | O rolamento horizontal não é um problema em dispositivos iOS ou de desktop. Estamos trabalhando em uma correção para o Android. |
 | Erro: há um problema ao encontrar um ambiente ao qual se conectar. | Você poderá receber esse erro mesmo que tenha verificado que o usuário pode acessar um ou mais ambientes de recursos humanos. Além disso, talvez você não veja todos os ambientes esperados. Até corrigir esse problema, exclua o usuário e importe-os novamente para resolver o problema. |
 | O saldo exibido ao enviar folga para uma data futura está incorreto. | A previsão ainda não está disponível. O saldo é exibido para a data atual. |
 | Ao reduzir o número de horas tiradas em uma solicitação existente, o **Saldo restante** diminui em vez de aumentar. | Abordaremos esse problema conhecido no futuro. A exibição está incorreta, mas os valores corretos são ajustados após o envio. |
-| Dois cartões de **Próxima folga** são exibidos para as mesmas datas. | Os cartões representam envios individuais. Continuaremos recebendo feedback e fazendo ajustes. |
 | Não é possível cancelar uma solicitação **Em revisão**. | Atualmente, essa funcionalidade não tem suporte e será adicionada em uma versão futura. |
 | As informações de saldo são calculadas a partir de hoje. | O sistema atualmente não exibe os saldos a partir do período de acúmulo, mesmo se estiver configurado nos parâmetros de Licença e ausência. |
 

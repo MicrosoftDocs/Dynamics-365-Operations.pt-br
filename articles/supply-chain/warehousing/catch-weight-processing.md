@@ -3,7 +3,7 @@ title: Processamento de produtos de peso variável com gerenciamento de depósit
 description: Este tópico descreve como usar modelos de trabalho e diretivas de localização para determinar como e onde o trabalho é realizado no depósito.
 author: perlynne
 manager: tfehr
-ms.date: 03/03/2020
+ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: c6598a9ac2beb799ddfc4e3cce182e1281ae8d03
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: b1d106fa6fe5072eb74813495253731dd988c376
+ms.sourcegitcommit: 9a0be1ceee90e80f4c75f241aba847547b5032e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530526"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693270"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Processamento de produtos de peso variável com gerenciamento de depósito
 
@@ -168,7 +168,7 @@ Nem todos os fluxos de trabalho dão suporte ao processamento de produtos de pes
 
 - A funcionalidade de separação de cluster não tem suporte para produtos de peso variável.
 - O processamento do depósito de separação e embalagem não tem suporte para produtos de peso variável.
-- Para produtos de peso variável, o trabalho definido em um modelo de trabalho pode ser executado automaticamente.
+- Para produtos de peso variável, o trabalho definido em um modelo de trabalho não pode ser executado automaticamente.
 - Para produtos de peso variável, o sistema não oferece suporte para o processamento manual da estação de embalagem onde o trabalho de separação de contêineres embalados é criado após o fechamento dos contêineres.
 - A funcionalidade de verificação pcs por pcs não tem suporte para produtos de peso variável.
 

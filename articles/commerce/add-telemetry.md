@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 81c36685c1eccceb2f1854fe7c866186120c08a3
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 4f26ed5b6674566f579e801f4b7be63c2d0dc38d
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154077"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686805"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Adicionar o código de script a páginas do site para oferecer suporte à telemetria
 
@@ -45,7 +45,7 @@ Um fragmento de página permite reutilizar o código de script interno ou extern
 
 Para criar um fragmento de página reutilizável para o código de script embutido no site Builder, siga estas etapas.
 
-1. Vá para **Fragmentos de página** e selecione **Novo**.
+1. Vá para **Fragmentos** e selecione **Novo**.
 1. Na caixa de diálogo **Novo fragmento de página**, selecione **Script embutido**.
 1. Em **Nome do fragmento de página**, digite um nome para o fragmento e, em seguida, selecione **OK**.
 1. No fragmento de página criado, selecione o módulo de **Script embutido padrão**.
@@ -57,7 +57,7 @@ Para criar um fragmento de página reutilizável para o código de script embuti
 
 Para criar um fragmento de página reutilizável para o código de script externo no site Builder, siga estas etapas.
 
-1. Vá para **Fragmentos de página** e selecione **Novo**.
+1. Vá para **Fragmentos** e selecione **Novo**.
 1. Na caixa de diálogo **Novo fragmento de página**, selecione **Script externo**.
 1. Em **Nome do fragmento de página**, digite um nome para o fragmento e, em seguida, selecione **OK**.
 1. No fragmento de página criado, selecione o módulo de **Script externo padrão**.

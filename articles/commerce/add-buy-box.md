@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9780aabbac6d01d41dae526c7c06139eba07de4e
-ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
+ms.openlocfilehash: 3fe5c1eb5808ef778aeda29442fa884556671296
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3645330"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686661"
 ---
 # <a name="buy-box-module"></a>Módulo de caixa de compra
 
@@ -61,7 +61,7 @@ Os temas podem ser usados para remover ou alterar a ordem das propriedades do pr
 
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Módulos que podem ser usados em um módulo de caixa de compra
 
-- **Galeria de mídia** – Este módulo é usado para mostrar imagens de um produto em uma página de detalhes do produto. Para obter mais informações sobre esse módulo, consulte [Módulo de galeria de mídia](mediagallery-module.md).
+- **Galeria de mídia** – Este módulo é usado para mostrar imagens de um produto em uma página de detalhes do produto. Para obter mais informações sobre esse módulo, consulte [Módulo de galeria de mídia](media-gallery-module.md).
 - **Seletor de loja** – Este módulo mostra uma lista de lojas próximas, onde um item está disponível para retirada. Ele permite que os usuários insiram um local para encontrar lojas próximas. Para obter mais informações sobre esse módulo, consulte [Módulo de seletor de loja](store-selector.md).
 
 ## <a name="buy-box-module-settings"></a>Configurações do módulo de caixa de compra
@@ -84,9 +84,9 @@ O módulo de caixa de compra recupera informações do produto usando as interfa
 
 Para adicionar um módulo de caixa de compra a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
-1. Vá para **Fragmentos de Página** e selecione **Novo** para criar um novo fragmento.
-1. Na caixa de diálogo **Novo Fragmento de Página**, selecione o módulo **Caixa de compra**.
-1. Em **Nome do Fragmento de Página**, digite o nome **Fragmento de caixa de compra** e selecione **OK**.
+1. Vá para **Fragmentos** e selecione **Novo** para criar um novo fragmento.
+1. Na caixa de diálogo **Novo fragmento de página**, selecione o módulo **Caixa de compra**.
+1. Em **Nome do fragmento de página**, digite o nome **Fragmento de caixa de compra** e selecione **OK**.
 1. No slot **Galeria de Mídia** do módulo de caixa de compra, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Galeria de mídia** e, depois, **OK**.
 1. No slot **Seletor de loja** do módulo de caixa de compra, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
@@ -97,12 +97,12 @@ Para adicionar um módulo de caixa de compra a uma nova página e definir as pro
 1. No slot **Corpo**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Página Padrão** e, depois, **OK**.
 1. No slot **Principal** da página padrão, selecione as reticências (**...**) e, depois, **Adicionar Fragmento de Página**.
-1. Na caixa de diálogo **Selecionar Fragmento de Página**, selecione o fragmento **Fragmento de caixa de compra** criado mais cedo e selecione **OK**.
+1. Na caixa de diálogo **Selecionar fragmento de página**, selecione o fragmento **Fragmento de caixa de compra** criado mais cedo e selecione **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
 1. Vá para **Páginas** e selecione **Novo** para criar uma nova página.
 1. Na caixa de diálogo **Escolher um modelo**, selecione o modelo **Modelo de PDP**. Em **Nome da página**, insira **Página PDP** e selecione **OK**.
 1. No slot **Principal** da nova página, selecione as reticências (**...**) e, depois, **Adicionar Fragmento de Página**.
-1. Na caixa de diálogo **Selecionar Fragmento de Página**, selecione o fragmento **Fragmento de caixa de compra** criado mais cedo e selecione **OK**.
+1. Na caixa de diálogo **Selecionar fragmento de página**, selecione o fragmento **Fragmento de caixa de compra** criado mais cedo e selecione **OK**.
 1. Salve e exiba a página. Adicione o parâmetro da sequência de caracteres da consulta **?productid=&lt;product id&gt;** à URL da página de exibição. Dessa forma, o contexto do produto é usado para carregar e renderizar a página de exibição.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo. Uma caixa de compra deve aparecer na página de detalhes do produto.
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87ffc0204019f2f7122c40dc21bdb5de012929d6
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: e81617979a945274500c9f4ceaa8078d8dfd79e8
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411186"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686709"
 ---
 # <a name="footer-module"></a>Módulo de rodapé  
 
@@ -50,8 +50,8 @@ Como a maioria dos contêineres, o módulo de rodapé oferece suporte a propried
 
 ## <a name="create-a-footer-module"></a>Criar um módulo de rodapé
 
-1. Vá para **Fragmentos de Página** e selecione **Novo** para criar um novo fragmento.
-1. Na caixa de diálogo **Novo Fragmento de Página**, selecione o módulo **Contêiner**, insira um nome para o fragmento de página e selecione **OK**.
+1. Vá para **Fragmentos** e selecione **Novo** para criar um novo fragmento.
+1. Na caixa de diálogo **Novo fragmento de página**, selecione o módulo **Contêiner**, insira um nome para o fragmento de página e selecione **OK**.
 1. No slot **Contêiner padrão**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Categoria do rodapé** e, depois, **OK**.
 1. No slot **Categoria de rodapé**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
