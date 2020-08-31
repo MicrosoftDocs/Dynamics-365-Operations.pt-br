@@ -3,7 +3,7 @@ title: Ordens de cliente no Modern POS (MPOS)
 description: Este tópico fornece informações sobre ordens de cliente no Modern POS (MPOS). Ordens de cliente também são conhecidas como ordens especiais O tópico inclui uma discussão sobre parâmetros relacionados e fluxos de transação.
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b8ea8339c2ad25ceed2415eb5ccf5e2048c612fa
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 87d1217204e0c5cb22f567793b043bf399ca5685
+ms.sourcegitcommit: b07434f2bd6db67d8dd712f096329acc902751ae
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021569"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "3699360"
 ---
 # <a name="customer-orders-in-modern-pos-mpos"></a>Ordens de cliente no Modern POS (MPOS)
 
@@ -53,6 +53,8 @@ Estes são alguns dos parâmetros que podem ser definidos na página **Parâmetr
 
     - Encargos são aplicados no nível do cabeçalho das ordens de venda e, quando alguma quantidade de uma linha de produto é devolvida, não é possível determinar o reembolso máximo de encargos de remessa permitido para os produtos e a quantidade de uma forma que funcione para todos os clientes.
     - Encargos de remessa são utilizados para todas as instâncias de remessa. Se um cliente devolver produtos várias vezes e a política do revendedor especificar que o revendedor arcará com o custo de reembolso de encargos de remessa, o reembolso de encargos de remessa será superior aos encargos reais de remessa.
+    
+- **Comportamento do cálculo de imposto** - **Recalcular** é a configuração padrão e tradicional referente a como os impostos são recalculados quando o pedido é importado para o back office. **Não recalcular** desabilita o recálculo de impostos até ou a menos que o pedido seja editado no back office, quando o recálculo é disparado. 
 
 ## <a name="transaction-flow-for-customer-orders"></a>Fluxo de transações para ordens de cliente
 

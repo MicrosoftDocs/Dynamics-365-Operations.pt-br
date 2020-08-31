@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a5f7ad7d9c5ff63c3c3a8fe38275eec0d138891d
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: e7dde3ba1ad375b309ae66cc6d31ccad85615e45
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411188"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686613"
 ---
 # <a name="header-module"></a>Módulo de cabeçalho
 
@@ -62,8 +62,8 @@ Os módulos a seguir podem ser usados em um módulo de cabeçalho:
 
 Para criar um módulo de cabeçalho, siga estas etapas.
 
-1. Vá para **Fragmentos de Página** e selecione **Novo** para criar um novo fragmento.
-1. Na caixa de diálogo **Novo Fragmento de Página**, selecione o módulo **Contêiner**, insira um nome para o fragmento de página e selecione **OK**.
+1. Vá para **Fragmentos** e selecione **Novo** para criar um novo fragmento.
+1. Na caixa de diálogo **Novo fragmento de página**, selecione o módulo **Contêiner**, insira um nome para o fragmento de página e selecione **OK**.
 1. Selecione o slot **Contêiner padrão** e, no painel de propriedades à direita, defina a propriedade **Largura** como **Preencher contêiner**.
 1. No slot **Contêiner padrão**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione os módulos **Faixa promocional** e **Consentimento de cookie** e, depois, selecione **OK**.

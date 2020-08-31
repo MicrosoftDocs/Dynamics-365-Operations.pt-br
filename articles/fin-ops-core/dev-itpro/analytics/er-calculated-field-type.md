@@ -3,7 +3,7 @@ title: Suporte a chamadas parametrizadas de fontes de dados de ER do tipo Campo 
 description: Este tópico fornece informações sobre como usar o tipo Campo calculado de fontes de dados de ER.
 author: NickSelin
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f331401f8d191243f72961333e4f1dbe84d0be5
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 02d53f4326d8f31abf6ec7404575728837954bef
+ms.sourcegitcommit: c9baf9a3b4552f0317b5ec87d252834f52df1b98
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771320"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665601"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Suporte a chamadas parametrizadas de fontes de dados de ER do tipo Campo calculado
 
@@ -45,14 +45,14 @@ Para concluir os exemplos neste tópico, você deve ter o seguinte acesso:
     - Consultor funcional de relatório eletrônico
     - Administrador do sistema
 
-No [Centro de Download da Microsoft](https://go.microsoft.com/fwlink/?linkid=874684), baixe o arquivo compactado **Suporte a chamadas parametrizadas de fontes de dados de ER do tipo Campo calculado**. Ele contém as configurações de ER a seguir que devem ser extraídas e armazenadas localmente.
+Você também deve baixar e armazenar localmente os arquivos a seguir.
 
 | **Conteúdo**                           | **Nome do arquivo**                                        |
 |---------------------------------------|------------------------------------------------------|
-| Configuração do modelo de dados de ER de exemplo    | Modelo para conhecer chamadas parametrizadas.versão.1.xml     |
-| Configuração de metadados de ER de exemplo      | Metadados para conhecer chamadas parametrizadas.versão.1.xml  |
-| Configuração do mapeamento do modelo de ER de exemplo | Mapeamento para conhecer chamadas parametrizadas.versão.1.1.xml |
-| Configuração de formato de ER de exemplo        | Formato para conhecer chamadas parametrizadas.versão.1.1.xml  |
+| Configuração do modelo de dados de ER de exemplo    | [Modelo para conhecer chamadas parametrizadas.versão.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)     |
+| Configuração de metadados de ER de exemplo      | [Metadados para conhecer chamadas parametrizadas.versão.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
+| Configuração do mapeamento do modelo de ER de exemplo | [Mapeamento para conhecer chamadas parametrizadas.versão.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Configuração de formato de ER de exemplo        | [Formato para conhecer chamadas parametrizadas.versão.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>Entrar em sua instância do RCS
 Neste exemplo, você criará uma configuração para a empresa de exemplo, Litware, Inc. Primeiro, no RCS, você deve concluir as etapas do procedimento [Criar provedores configuração e marcá-los como ativos](tasks/er-configuration-provider-mark-it-active-2016-11.md):
@@ -87,7 +87,7 @@ Neste exemplo, você criará uma configuração para a empresa de exemplo, Litwa
             - Soma dos valores do imposto.
             - Valor mínimo da taxas de impostos aplicada.
 
-    O mapeamento de modelos nesta configuração implementa o modelo de dados de base para qualquer dos formatos de ER criados para esse modelo e executados no Finance and Operations. Consequentemente, o conteúdo das fontes de dados **Imposto** e **Gr** é exposto para formatos de ER, como fontes de dados abstratos.
+    O mapeamento de modelos nesta configuração implementa o modelo de dados de base para qualquer formato de ER criado para esse modelo e executado no Finance and Operations. Consequentemente, o conteúdo das fontes de dados **Imposto** e **Gr** é exposto para formatos de ER, como fontes de dados abstratos.
 
     ![Página do Designer de mapeamento de modelos mostrando as fontes de dados Imposto e Gr](media/er-calculated-field-type-01.png)
 

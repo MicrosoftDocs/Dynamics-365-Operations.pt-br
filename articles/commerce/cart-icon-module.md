@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6771a84118504cd5c8e44302380eb970e4658902
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 137debe3f4cad3948d20b2902ea80e66fa74ffd4
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411080"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661138"
 ---
 # <a name="cart-icon-module"></a>Módulo de ícone de carrinho
 
@@ -42,22 +42,22 @@ A imagem a seguir mostra um exemplo de um módulo de ícone de carrinho que exib
 
 - **Mostrar mini carrinho** – Quando verdadeiro, esta propriedade permite que um resumo do carrinho (mini carrinho) seja exibido quando o ícone do carrinho é focalizado. Essa funcionalidade só tem suporte em portas de exibição de desktop.
 
-
 ## <a name="add-a-cart-icon-module-to-a-page"></a>Adicionar um módulo do ícone de carrinho a uma página
 
 Para adicionar um módulo de ícone de carrinho, consulte [Módulo de cabeçalho](author-header-module.md).
 
-
 ## <a name="additional-resources"></a>Recursos adicionais
-
-[Módulo de caixa de compra](add-buy-box.md)
 
 [Módulo de carrinho](add-cart-module.md)
 
 [Módulo de finalização da compra](add-checkout-module.md)
 
-[Módulo de confirmação da ordem](order-confirmation-module.md)
+[Módulo de pagamento](payment-module.md)
 
-[Módulo de cabeçalho](author-header-module.md)
+[Módulo do endereço de remessa](ship-address-module.md)
 
-[Módulo de rodapé](author-footer-module.md)
+[Módulo de opções de entrega](delivery-options-module.md)
+
+[Módulo de detalhes da ordem](order-confirmation-module.md)
+
+[Módulo de vale-presente](add-giftcard.md)

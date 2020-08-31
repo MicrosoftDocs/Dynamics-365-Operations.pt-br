@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1b01589322c26b6a7b69d1b992b03603f5f3d29a
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: 5aa7db8e53906f9e1416b912fe2c3b70d5430258
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404339"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3664873"
 ---
 # <a name="product-recommendations-overview"></a>Visão geral de recomendações de produtos
 
@@ -73,11 +73,13 @@ A tabela a seguir descreve vários tipos de recomendações de produto automatiz
 
 [Habilitar recomendações personalizadas](personalized-recommendations.md)
 
-[Cancelar recomendações personalizados](personalization-gdpr.md)
+[Cancelar recomendações personalizadas](personalization-gdpr.md)
 
-[Adicionar recomendações de produtos no PDV](product.md)
+[Habilitar recomendações de "comprar looks semelhantes"](shop-similar-looks.md)
 
-[Adicionar recomendações à tela de transação](add-recommendations-control-pos-screen.md)
+[Adicionar recomendações dos produtos no PDV](product.md)
+
+[Adicionar recomendações à tela de transações](add-recommendations-control-pos-screen.md)
 
 [Ajustar os resultados das recomendações de AI-ML](modify-product-recommendation-results.md)
 

@@ -1152,11 +1152,11 @@
               href: public-sector/tasks/create-fund-type-public-sector.md
             - name: Adicionar um tipo de certificação a um fornecedor no setor público
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
-            - name: Calculando Imposto sobre Vendas Harmonizado Canadense
+            - name: Calculando Imposto Harmonizado Canadense
               href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
         - name: Financial Reporting
           items:
-            - name: Visão geral do Financial Reporting
+            - name: Introdução ao Financial Reporting
               href: general-ledger/financial-reporting-getting-started.md
             - name: Visão geral do Financial Reporting
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
@@ -2600,6 +2600,12 @@
                       href: localizations/rus-counting-deferrals.md
                     - name: Relatório dos diferimentos
                       href: localizations/rus-reporting-deferrals.md
+                - name: Contabilidade de imposto
+                  items:
+                    - name: Códigos de despesas e de receitas
+                      href: localizations/rus-expense-and-income-codes.md
+                    - name: Registros de impostos sobre ativos
+                      href: localizations/rus-assets-tax-registers.md
             - name: Arábia Saudita
               items:
                 - name: Visão geral da Arábia Saudita
@@ -3100,7 +3106,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/finance/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/finance/toc.json
-                    - name: Lista
+                    - name: List
                       items:
                         - name: Funções de listagem
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/finance/toc.json
@@ -3112,20 +3118,22 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-count.md?toc=/dynamics365/finance/toc.json
                         - name: EmptyList
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-emptylist.md?toc=/dynamics365/finance/toc.json
-                        - name: Enumerar
+                        - name: Enumerate
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-enumerate.md?toc=/dynamics365/finance/toc.json
-                        - name: Filtro
+                        - name: Filter
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-filter.md?toc=/dynamics365/finance/toc.json
-                        - name: Primeiro
+                        - name: First
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-first.md?toc=/dynamics365/finance/toc.json
                         - name: FirstOrNull
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-firstornull.md?toc=/dynamics365/finance/toc.json
-                        - name: Índice
+                        - name: Index
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-index.md?toc=/dynamics365/finance/toc.json
                         - name: IsEmpty
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/finance/toc.json
                         - name: List
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/finance/toc.json
+                        - name: ListDistinct
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listdistinct.md?toc=/dynamics365/finance/toc.json
                         - name: ListJoin
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listjoin.md?toc=/dynamics365/finance/toc.json
                         - name: ListOfFields
@@ -3134,7 +3142,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?toc=/dynamics365/finance/toc.json
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?toc=/dynamics365/finance/toc.json
-                        - name: Reverter
+                        - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?toc=/dynamics365/finance/toc.json
                         - name: Dividir
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/finance/toc.json
@@ -3413,7 +3421,9 @@
             - name: Guias de início rápido
               items:
                 - name: Ajustar um formato de ER para gerar um documento eletrônico personalizado
-                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md?toc=/dynamics365/finance/toc.json
+                - name: Criar uma solução ER para imprimir um relatório personalizado
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start1-new-solution.md?toc=/dynamics365/finance/toc.json
             - name: Tutoriais
               items:
                 - name: Saiba como usar fontes de dados

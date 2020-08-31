@@ -3,7 +3,7 @@ title: Configurações de ordem padrão para dimensões e variantes de produto
 description: As configurações de ordem padrão definem o local e o depósito de onde os itens serão originários ou armazenados, as quantidades mínima, máxima, múltiplas e padrão que serão usadas para a comercialização ou o gerenciamento de estoque, os prazos de entrega, o sinalizador de parada e o método de promessa de ordens.
 author: t-benebo
 manager: tfehr
-ms.date: 07/27/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,13 +18,13 @@ ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 13df8eb7873495847d994922be1acd77e57f8f23
-ms.sourcegitcommit: dfe5916d982eaa879e2afef7440c30b1d0f4380a
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 0654ba019b71dc952ea52f206bc60d8fa05dd4ff
+ms.sourcegitcommit: f9917706d45693e8d3f9f6224dca9e601db44bae
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "3637747"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "3657331"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>​Configurações de ordem padrão para dimensões e grades de produtos​
 
@@ -32,7 +32,16 @@ ms.locfileid: "3637747"
 
 As configurações de ordem padrão no Dynamics 365 Supply Chain Management definem o local e o depósito de onde os itens serão originários ou armazenados, as quantidades mínima, máxima, múltipla e padrão que serão usadas para a comercialização ou o gerenciamento de estoque, os prazos de entrega, o sinalizador de parada e o método de promessa de ordens. As configurações de ordem padrão são usadas durante a criação de ordens de compra, ordens de venda, ordens de transferência, diários de estoque e pelo planejamento mestre para a geração de ordens planejadas. As configurações de ordem padrão podem ser específicas por item, local, grade de produto ou dimensão de produto.
 
-Você pode definir as configurações de ordem padrão na página **Configurações de ordem padrão**. Para abrir esta página, vá para **Gerenciamento de informações do produto** &gt; **Produtos** &gt; **Produtos liberados** &gt; **Selecionar um produto liberado** &gt; no **Plano**. Você também pode ir para **Gerenciar estoque** &gt; **Configurações da ordem** &gt; **Configurações da ordem padrão**.
+Para definir as configurações da ordem padrão de um produto, siga estas etapas.
+
+1. Vá para **Gerenciamento de informações do produto** &gt; **Produtos** &gt; **Produtos liberados**.
+1. Selecione o produto relevante na grade.
+1. No Painel de Ações, siga uma destas etapas para abrir a página **Configurações Padrão da Ordem** do produto selecionado:
+
+    - Na guia **Plano**, no grupo **Configurações da ordem**, selecione **Configurações padrão da ordem**.
+    - Na guia **Gerenciar estoque**, no grupo **Configurações da ordem**, selecione **Configurações padrão da ordem**.
+
+1. Defina as configurações conforme descrito no restante deste tópico.
 
 ## <a name="default-order-settings"></a>Configurações Padrão da Ordem
 
@@ -70,11 +79,11 @@ As configurações de ordem padrão para estoque também são aplicáveis ao cri
 - Ordens de qualidade
 - Ordens de Produção
 - Linhas de BOM
-- Ordens de produção planejadas
+- Ordens de Produção Planejadas
 
 ## <a name="full-definition-of-a-released-product"></a>Definição completa de um produto liberado
 
-Ao criar uma transação, é necessário especificar a definição completa de um produto liberado na linha para que o Supply Chain Management tente identificar as configurações de ordem padrão. A definição completa de um produto liberado significa que o número de item e todas as dimensões ativas do produto, como configuração, tamanho, estilo e cor estão especificadas na transação. Por exemplo, se você criar manualmente uma linha de ordem de compra para uma grade do produtos liberada, é preciso especificar todas as dimensões do produto necessárias antes que o local, o depósito, a quantidade e o prazo de entrega sejam exibidos por padrão na linha da ordem. 
+Ao criar uma transação, é necessário especificar a definição completa de um produto liberado na linha para que o Supply Chain Management possa tentar identificar as configurações de ordem padrão. Na definição completa de um produto liberado, o número de item e todas as dimensões ativas do produto, como configuração, tamanho, estilo, versão e cor estão especificadas na transação. Por exemplo, se você criar manualmente uma linha de ordem de compra para uma grade do produtos liberada, é preciso especificar todas as dimensões do produto necessárias antes que o local, o depósito, a quantidade e o prazo de entrega sejam exibidos por padrão na linha da ordem. 
 
 Nem todos os parâmetros das configurações de ordem padrão são aplicados ao criar linhas de ordem ou de diário. As quantidades e os prazos de entrega somente serão exibidos por padrão quando apropriado. Por exemplo, ao contar uma linha de diário, somente o local e o depósito serão exibidos por padrão quando a linha for criada. Por este motivo, nenhuma quantidade padrão ou verificações de múltiplos e mínimos são executadas ao criar a linha ou ao lançar o diário. 
 
@@ -96,7 +105,7 @@ Para produtos liberados distintos, você pode definir configurações gerais da 
 
 ### <a name="site-specific-order-settings"></a>Configurações de ordem específica do site
 
-Para criar configurações específicas de ordem do local, selecione **Novo**. Na **Exibição de detalhes**, preencha o local no campo **Configurações aplicáveis a** &gt; **Local**. Em **Exibição de grade**, preencha o local na coluna **Local**. A nova regra obterá automaticamente um novo valor de classificação, maior que zero. Você pode criar quantas regras específicas de local forem necessárias e pode atribuir a mesma classificação a todas as regras específicas de local, para indicar que elas têm a mesma importância. 
+Para criar configurações específicas de ordem do local, selecione **Novo**. Na **Exibição de detalhes**, insira o local no campo **Local** na seção **Configurações aplicáveis a**. Em **Exibição de grade**, insira o local na coluna **Local**. A nova regra é automaticamente atribuída a um novo valor de classificação maior que zero (0). Você pode criar quantas regras específicas do local forem necessárias. Para indicar que são igualmente importantes, é possível atribuir o mesmo valor de classificação a todas as regras específicas do local.
 
 Se estiver em **Exibição de detalhes**, você não poderá obter uma visão geral das regras criadas para o item. Use o botão **Mostrar/Ocultar lista** para ver as informações da visão geral. Quando uma linha da ordem de qualquer tipo é criada e nenhum site é fornecido, o Supply Chain Management procura uma regra sem um site especificado. Isso ajuda a determinar um local padrão na linha da ordem. Esse local será então usado para pesquisar por uma regra específica de local, em que um depósito padrão possa ter sido definido. Esse depósito será aplicado à linha da ordem.
 
@@ -111,41 +120,41 @@ Considere o produto de exemplo a seguir:
 | **Nome do produto**                                    | Sensor fotoelétrico                    |
 | **Nº de itens**                                     | XW56                                    |
 | **Configuração** (usado para indicar o tipo de luz) | C1 – Luz vermelha visível, C2 – Luz infravermelha |
-| **Estilo** (usado para indicar a revisão da engenharia)  | R1, R2, R3                              |
+| **Versão** | V1, V2, V3                              |
 
 Por exemplo, suponha que o produto seja adquirido e não produzido. Suponha também que a configuração C1 é mais comumente usada, portanto tem prazo de entrega menor. 
 
 Crie as seguintes configurações de ordem padrão para indicar esse cenário.
 
-| Classificação | Local | Configuração | Estilo | Compra – substituir configurações padrão | Prazo de entrega da compra | Compra – parada | Vendas – substituir configurações padrão | Vendas – parada |
+| Classificação | Site | Configuração | Versão | Compra – substituir configurações padrão | Prazo de entrega da compra | Compra – parada | Vendas – substituir configurações padrão | Vendas – parada |
 |------|------|---------------|-------|--------------------------------------|--------------------|--------------------|-----------------------------------|-----------------|
 | 10   |      | C1            |       | Sim                                  | 2                  |                    |                                   |                 |
 | 0    |      |               |       |                                      | 5                  |                    |                                   |                 |
 
-Quando uma linha de ordem de compra ou de ordem de compra planejada for criada para XW56, Configuração C1, independentemente da revisão ou do local em que for colocada, o prazo de entrega será considerado 2. Suponha que todas as revisões além de R3 estejam paradas.
+Quando uma linha de ordem de compra ou de ordem de compra planejada for criada para o item XW56, configuração C1, independentemente da versão ou do local em que for colocada, o prazo de entrega será considerado 2. Suponha que todas as versões além da V3 estejam paradas.
 
 Você pode criar as regras de configurações de ordem padrão a seguir:
 
-| Classificação | Local | Configuração | Estilo | Compra – substituir configurações padrão | Prazo de entrega da compra | Compra – parada | Vendas – substituir configurações padrão | Vendas – parada |
+| Classificação | Site | Configuração | Versão | Compra – substituir configurações padrão | Prazo de entrega da compra | Compra – parada | Vendas – substituir configurações padrão | Vendas – parada |
 |------|------|---------------|-------|--------------------------------------|--------------------|--------------------|-----------------------------------|-----------------|
-| 20   |      |               | R2    | Sim                                  |                    | Sim                | Sim                               | Sim             |
-| 20   |      |               | R1    | Sim                                  |                    | Sim                | Sim                               | Sim             |
+| 20   |      |               | V2    | Sim                                  |                    | Sim                | Sim                               | Sim             |
+| 20   |      |               | V1    | Sim                                  |                    | Sim                | Sim                               | Sim             |
 | 10   |      | C1            |       | Sim                                  | 2                  |                    |                                   |                 |
 | 0    |      |               |       |                                      | 5                  |                    |                                   |                 |
 
-As duas regras para parar as revisões antigas têm a mesma classificação, o que significa que elas têm a mesma importância. Ambas têm uma classificação mais alta do que a regra para a configuração C1, o que significa que elas têm precedência sobre a regra para a configuração C1. 
+As duas regras para interromper versões antigas têm a mesma classificação. Portanto, são igualmente importantes. Como ambas as regras têm uma classificação mais alta do que a regra para a configuração C1, elas têm precedência sobre a regra para a configuração C1. 
 
-Este exemplo explica a necessidade para a classificação. Se uma ordem de compra fosse criada para a configuração C1 e a para revisão R2 e se não houvesse classificação, as duas regras definidas para R2 e C1 seriam ambíguas. Para resolver a ambiguidade, o Supply Chain Management pesquisará as regras na ordem decrescente de classificação e usará a primeira regra aplicável. No exemplo atual, quando uma linha de ordem de compra for criada para a configuração C1 e a para revisão R2, o usuário receberá uma mensagem de aviso que o item está em espera e que isso foi causado pelo valor de revisão. Se a regra da configuração tivesse uma classificação maior do que a da revisão, a criação de uma linha de compra para a configuração C1 e para a revisão R2 teria êxito e nenhuma mensagem de "item em espera" seria enviada ao usuário. 
+Este exemplo explica a necessidade para a classificação. Se uma classificação não for usada, quando uma ordem de compra for criada para a configuração C1 e a versão V2, as duas regras definidas para V2 e C1 serão ambíguas. Para resolver a ambiguidade, o Supply Chain Management pesquisará as regras na ordem decrescente de classificação e usará a primeira regra aplicável. No exemplo atual, quando uma linha de ordem de compra for criada para a configuração C1 e a versão V2, o usuário receberá uma mensagem de aviso informando que o item está em espera e que essa espera foi causada pelo valor de versão. Se a regra da configuração tivesse uma classificação maior do que a da versão, uma linha de compra seria criada com êxito para a configuração C1 e para a versão V2 e o usuário não receberia uma mensagem de "item em espera". 
 
 Considere as regras de configuração de ordem padrão a seguir.
 
-| Classificação | Local | Configuração | Estilo | Site padrão | Depósito padrão | Compra – substituir dimensões de armazenamento padrão | Depósito de compra |
+| Classificação | Site | Configuração | Versão | Site padrão | Depósito padrão | Compra – substituir dimensões de armazenamento padrão | Depósito de compra |
 |------|------|---------------|-------|--------------|-------------------|------------------------------------------------|--------------------|
 | 20   | 2    |               |       |              |                   | Sim                                            | 22                 |
-| 10   |      | C1            |  R2   |  2           |  21               |                                                |                    |
+| 10   |      | C1            |  V2   |  2           |  21               |                                                |                    |
 | 0    |      |               |       | 1            | 11                |                                                |                    |
 
-O sistema percorre o conjunto de regras duas vezes para determinar o local e o depósito. Quando uma linha de ordem de compra for criada para a configuração C1, estilo R2, o local será determinado com base na regra com classificação 10. O sistema então procurará por uma regra para o local 2 para determinar um depósito. A regra 20 será encontrada e por ter uma classificação maior, o depósito na linha da ordem de compra será 22, e não 21.
+O sistema percorre o conjunto de regras duas vezes para determinar o local e o depósito. Quando uma linha de ordem de compra for criada para a configuração C1, versão V2, o local será determinado com base na regra com classificação 10. O sistema então procurará por uma regra para o local 2 para determinar um depósito. A regra 20 será encontrada e por ter uma classificação maior, o depósito na linha da ordem de compra será 22, não 21.
 
 Como regra geral, regras específicas e regras para as dimensões que sejam mais importantes do que outras dimensões obtêm classificações mais altas, enquanto regras mais genéricas obtêm classificações mais baixas. 
 
@@ -159,14 +168,14 @@ O número de regras criadas para um produto liberado pode ser variado. Para comp
 
 Se o sistema de regras para as configurações de ordem padrão for muito complicado, há a opção de simplesmente definir as configurações de ordem padrão para cada grade de produto. O exemplo a seguir mostra como o produto será procurado e os casos descritos acima.
 
-| Classificação | Local | Configuração | Estilo | Compra – substituir configurações padrão | Prazo de entrega da compra | Compra – parada | Vendas – substituir configurações padrão | Vendas – parada |
+| Classificação | Site | Configuração | Versão | Compra – substituir configurações padrão | Prazo de entrega da compra | Compra – parada | Vendas – substituir configurações padrão | Vendas – parada |
 |------|------|---------------|-------|--------------------------------------|--------------------|--------------------|-----------------------------------|-----------------|
-| 10   |      | C2            | R3    | Sim                                  | 5                  |                    |                                   |                 |
-| 10   |      | C2            | R2    | Sim                                  | 5                  | Sim                | Sim                               | Sim             |
-| 10   |      | C2            | R1    | Sim                                  | 5                  | Sim                | Sim                               | Sim             |
-| 10   |      | C1            | R3    | Sim                                  | 2                  |                    |                                   |                 |
-| 10   |      | C1            | R2    | Sim                                  | 2                  | Sim                | Sim                               | Sim             |
-| 10   |      | C1            | R1    | Sim                                  | 2                  | Sim                | Sim                               | Sim             |
+| 10   |      | C2            | V3    | Sim                                  | 5                  |                    |                                   |                 |
+| 10   |      | C2            | V2    | Sim                                  | 5                  | Sim                | Sim                               | Sim             |
+| 10   |      | C2            | V1    | Sim                                  | 5                  | Sim                | Sim                               | Sim             |
+| 10   |      | C1            | V3    | Sim                                  | 2                  |                    |                                   |                 |
+| 10   |      | C1            | V2    | Sim                                  | 2                  | Sim                | Sim                               | Sim             |
+| 10   |      | C1            | V1    | Sim                                  | 2                  | Sim                | Sim                               | Sim             |
 | 0    |      |               |       |                                      | 5                  |                    |                                   |                 |
 
 A classificação nesse caso não tem importância, portanto você pode optar por ocultá-la. Esta solução apresenta potencialmente um problema de manutenção. No entanto, você pode usar esta configuração se estiver considerando a integração com sistemas PLM (Gerenciamento do Ciclo de Vida do Produto).

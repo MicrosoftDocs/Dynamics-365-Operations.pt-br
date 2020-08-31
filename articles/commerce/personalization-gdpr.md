@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 87c031c045249dbcde274d7c741beb72c3216aa8
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: a51c8c0e2743b67df9d66a8c45ab7a69597f4002
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404270"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3664921"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Cancelar recomendações personalizadas
 
@@ -87,13 +87,15 @@ O exemplo a seguir mostra como um varejista pode realizar essa tarefa.
 
 [Habilitar Azure Data Lake Storage em um ambiente do Dynamics 365 Commerce](enable-adls-environment.md)
 
-[Habilitar recomendações dos produtos](enable-product-recommendations.md)
+[Habilitar recomendações de produtos](enable-product-recommendations.md)
 
 [Habilitar recomendações personalizadas](personalized-recommendations.md)
 
+[Habilitar recomendações de "comprar looks semelhantes"](shop-similar-looks.md)
+
 [Adicionar recomendações dos produtos no PDV](product.md)
 
-[Adicionar recomendações à tela de transação](add-recommendations-control-pos-screen.md)
+[Adicionar recomendações à tela de transações](add-recommendations-control-pos-screen.md)
 
 [Ajustar os resultados das recomendações de AI-ML](modify-product-recommendation-results.md)
 

@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0e49b4db17ffd792e8dd536a1671773253c74d71
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: 4103096f23e5568cc2bf64f21720c7c16d3e0cd1
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404131"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3664849"
 ---
 # <a name="enable-personalized-recommendations"></a>Habilitar recomendações personalizadas
 
@@ -108,11 +108,13 @@ Para aplicar a personalização a uma lista de recomendação existente no Comme
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral das recomendações dos produtos](product-recommendations.md)
+[Visão geral das recomendações de produtos](product-recommendations.md)
 
 [Habilitar Azure Data Lake Storage em um ambiente do Dynamics 365 Commerce](enable-adls-environment.md)
 
-[Habilitar recomendações dos produtos](enable-product-recommendations.md)
+[Habilitar recomendações de produtos](enable-product-recommendations.md)
+
+[Habilitar recomendações de "comprar looks semelhantes"](shop-similar-looks.md)
 
 [Cancelar recomendações personalizadas](personalization-gdpr.md)
 

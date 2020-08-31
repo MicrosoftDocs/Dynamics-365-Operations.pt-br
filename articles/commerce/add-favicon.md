@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2d95e8b799c3b89418657342868e0ec7e94a86f9
-ms.sourcegitcommit: ce79fb570e299a26a644e29da7ceb5a57a1374e6
+ms.openlocfilehash: 198927e3391bdb577ebc845ff41d49ca798251ff
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "3295071"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686781"
 ---
 # <a name="add-a-favicon"></a>Adicionar um favicon
 
@@ -62,8 +62,8 @@ Para criar o HTML do favicon, use a seguinte cadeia de caracteres de código de 
 
 Para criar um fragmento de página que contenha uma marca meta para sua favicon, siga estas etapas.
 
-1. Vá para **Fragmentos de página** e selecione **Novo**.
-1. Na caixa de diálogo **Nova fragmentação de página**, selecione **Marcas meta** como o módulo no qual o fragmento de página se baseia.
+1. Vá para **Fragmentos** e selecione **Novo**.
+1. Na caixa de diálogo **Novo fragmento de página**, selecione **Marcas meta** como o módulo no qual o fragmento de página se baseia.
 1. Informe um nome para o fragmento de página e selecione **OK**.
 1. Na árvore de hierarquia de fragmento, selecione o filho **Padrão de marcas meta**.
 1. No painel à direita, em **Marcas meta**, selecione **Adicionar** e, em seguida, insira a cadeia de caracteres HTML criada anteriormente para o favicon. 

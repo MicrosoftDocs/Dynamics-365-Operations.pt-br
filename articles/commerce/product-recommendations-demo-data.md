@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 59b4dd7a29af739d92a20f6fe55eff9f201fcb6d
-ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
+ms.openlocfilehash: cca6913375eec2565852676f3c1da5a67f71e14f
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454547"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3664897"
 ---
 # <a name="create-recommendations-with-demo-data"></a>Criar recomendações com dados de demonstração
 
@@ -77,11 +77,13 @@ A extensão contém um arquivo de dados chamado 'RecoMockDataset.csv', que permi
 
 [Habilitar recomendações personalizadas](personalized-recommendations.md)
 
-[Cancelar recomendações personalizados](personalization-gdpr.md)
+[Cancelar recomendações personalizadas](personalization-gdpr.md)
 
-[Adicionar recomendações de produtos no PDV](product.md)
+[Habilitar recomendações de "comprar looks semelhantes"](shop-similar-looks.md)
 
-[Adicionar recomendações à tela de transação](add-recommendations-control-pos-screen.md)
+[Adicionar recomendações dos produtos no PDV](product.md)
+
+[Adicionar recomendações à tela de transações](add-recommendations-control-pos-screen.md)
 
 [Ajustar os resultados das recomendações de AI-ML](modify-product-recommendation-results.md)
 
