@@ -130,6 +130,8 @@
                       items:
                         - name: Home page da gravação dupla
                           href: data-entities/dual-write/dual-write-home-page.md
+                        - name: Novidades ou alterações na gravação dupla
+                          href: data-entities/dual-write/whats-new-dual-write.md
                         - name: Visão geral da gravação dupla
                           href: data-entities/dual-write/dual-write-overview.md
                         - name: Configuração da gravação dupla
@@ -1472,6 +1474,8 @@
                   href: sysadmin/extensible-data-security-policies.md
                 - name: Criar uma política de segurança
                   href: sysadmin/create-simple-security-policy.md
+            - name: Manter a conformidade com os requisitos de licenciamento do usuário
+              href: sysadmin/stay-compliant-user-license-requirement.md
             - name: Automação de processos
               href: sysadmin/process-automation.md
             - name: Processamento em lotes

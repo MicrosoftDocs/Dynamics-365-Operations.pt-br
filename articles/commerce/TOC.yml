@@ -68,6 +68,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
                 - name: Comprar o Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
+                - name: Orientações de implementação do Commerce Data Exchange
+                  href: dev-itpro/implementation-considerations-cdx.md
                 - name: Aplicativos do Finance and Operations operados pela 21Vianet na China
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: Aplicativos do Finance and Operations na França
@@ -178,7 +180,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: Criar e trabalhar com campos personalizados
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
-                - name: Inserir aplicativos PowerApps
+                - name: Incorporar Microsoft Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
                 - name: Localizar informações usando pesquisas
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
@@ -202,9 +204,15 @@
                   href: dev-itpro/retail-server-architecture.md
                 - name: Selecionar uma topologia na loja
                   href: dev-itpro/retail-in-store-topology.md
-                - name: Commerce Data Exchange e comunicações do canal de comércio
-                  href: dev-itpro/define-retail-channel-communications-cdx.md
-                - name: Arquitetura do Modern PDV
+                - name: Commerce Data Exchange
+                  items:
+                    - name: Práticas recomendadas do Commerce Data Exchange
+                      href: dev-itpro/CDX-Best-Practices.md
+                    - name: Commerce Data Exchange e comunicações do canal de comércio
+                      href: dev-itpro/define-retail-channel-communications-cdx.md
+                    - name: Solução de problemas do Commerce Data Exchange
+                      href: dev-itpro/CDX-Troubleshooting.md
+                - name: Arquitetura do Modern POS
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: Arquitetura de publicação de loja online
                   href: dev-itpro/retail-online-store-publishing-architecture.md
@@ -222,13 +230,13 @@
                   href: dev-itpro/retail-store-system-begin.md
                 - name: Configurar e instalar Commerce Scale Unit (auto-hospedada)
                   href: dev-itpro/retail-store-scale-unit-configuration-installation.md
-                - name: Configuração e instalação do Modern PDV
+                - name: Configuração e instalação do Modern POS
                   href: retail-modern-pos-device-activation.md
                 - name: Gerenciar contas e dispositivos da sede
                   href: set-up-activation-accounts-validate-devices-hq.md
                 - name: Ativação de dispositivo do PDV
                   href: dev-itpro/retail-device-activation.md
-                - name: ​Ajudar a proteger o PDV em nuvem em ambientes compartilhados
+                - name: Ajudar a proteger o PDV em Nuvem em ambientes compartilhados
                   href: dev-itpro/secure-retail-cloud-pos.md
                 - name: Configuração e instalação do Retail Hardware Station
                   href: retail-hardware-station-configuration-installation.md
@@ -352,7 +360,7 @@
                       href: MPOS-or-CPOS.md
                     - name: Operações de PDV online e offline
                       href: pos-operations.md
-                    - name: Ativação de dispositivo de um Modern PDV personalizado
+                    - name: Ativação de dispositivo de um Modern POS personalizado
                       href: dev-itpro/retail-POS-activation-changes.md
                     - name: Habilitar autenticação do Azure Active Directory para entrada de PDV
                       href: aad-pos-logon.md
@@ -432,7 +440,7 @@
                   items:
                     - name: Configurar e criar formatos de recebimento
                       href: receipt-templates-printing.md
-                    - name: Enviar recibos por email do Modern PDV (MPOS)
+                    - name: Enviar recibos por email do Modern POS (MPOS)
                       href: email-receipts.md
                     - name: Redefinir números de recibo
                       href: reset_receipt_number_sequence.md
@@ -516,11 +524,13 @@
                       href: duplicate-payment-protection.md
                     - name: Visão geral de pagamentos de omnicanal
                       href: omni-channel-payments.md
+                    - name: Pagamentos de ordens de omnicanal do Commerce
+                      href: dev-itpro/commerce-payments.md
                     - name: Perguntas frequentes sobre pagamentos
                       href: dev-itpro/payments-retail.md
                 - name: Gerenciar o Bing Mapas da sua organização
                   href: dev-itpro/manage-bing-maps.md
-        - name: Comercialização de seus produtos e serviços
+        - name: Merchandising de seus produtos e serviços
           items:
             - name: 'Categorias, produtos e sortimentos'
               items:
@@ -536,7 +546,7 @@
                       href: create-product-hierarchy.md
                     - name: Gerenciar produtos e categorias de produtos
                       href: category-management-product-creation.md
-                    - name: Alterar a ordem de classificação das entidades de comercialização
+                    - name: Alterar a ordem de classificação das entidades de venda
                       href: custom-order-categories-nav-retail-prod-hierarchy.md
                 - name: Dimensões do produto
                   items:
@@ -758,8 +768,6 @@
               href: disable-consistency-check-rule.md
             - name: Editar e auditar transações de loja de varejo
               href: edit-audit-retail-transactions.md
-            - name: 'Criar, calcular e lançar demonstrativos para uma loja de varejo'
-              href: tasks/create-calculate-post-statement-retail-store.md
             - name: Criação de ordens baseadas em um fluxo constante para transações de loja de varejo
               href: trickle-feed.md
             - name: 'Criar, calcular e lançar demonstrativos para uma loja de varejo'
@@ -1130,13 +1138,13 @@
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/commerce/toc.json
             - name: Acesso a informações e relatórios
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/commerce/toc.json
-            - name: Opções de personalização com o PowerBI.com
+            - name: Opções de personalização com o Power BI
               items:
-                - name: Recursos disponíveis por meio da integração do PowerBI.com
+                - name: Recursos disponíveis por meio da integração do Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/commerce/toc.json
-                - name: Fixar conteúdo do PowerBI.com
+                - name: Fixar conteúdo do Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
-                - name: Selecionar espaços de trabalho analíticos do PowerBI.com
+                - name: Selecionar espaços de trabalho analíticos do Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/commerce/toc.json
             - name: Conteúdo do Power BI
               items:
@@ -1188,7 +1196,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/dynamics365/commerce/toc.json
                 - name: Resolver problemas após manutenção do Repositório de entidades
                   href: ../fin-ops-core/dev-itpro/analytics/entity-store-maintenance.md
-                - name: Configurar integração do PowerBI.com
+                - name: Configurar a integração do Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md?toc=/dynamics365/commerce/toc.json
                 - name: Trazer seu próprio banco de dados
                   href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/commerce/toc.json
@@ -1354,7 +1362,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-case.md?toc=/dynamics365/commerce/toc.json
                         - name: If
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-if.md?toc=/dynamics365/commerce/toc.json
-                        - name: Não
+                        - name: Not
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-not.md?toc=/dynamics365/commerce/toc.json
                         - name: Or
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-or.md?toc=/dynamics365/commerce/toc.json
@@ -2046,9 +2054,9 @@
                       href: e-commerce-extensibility/telemetry-logger.md
                 - name: Implantação e manutenção
                   items:
-                    - name: Empacotar configurações e implantá-las a um ambiente online
+                    - name: Empacotar configurações e implantá-las em um ambiente online
                       href: e-commerce-extensibility/package-deploy.md
-                    - name: SDK e atualizações da biblioteca principal
+                    - name: Atualizações do kit do iniciante do SDK e da loja
                       href: e-commerce-extensibility/sdk-updates.md
             - name: SDK do Retail
               items:
@@ -2110,7 +2118,7 @@
                   href: dev-itpro/pos-app-signing-certificate.md
                 - name: Estender exibições de PDV para adicionar colunas personalizadas e botões da barra de aplicativos
                   href: dev-itpro/pos-view-extension.md
-                - name: Adicionar controles personalizados a páginas de transação do Modern PDV
+                - name: Adicionar controles personalizados a páginas de transação do Modern POS
                   href: dev-itpro/pos-custom-transaction.md
                 - name: Adicionar colunas personalizadas a uma grade de transação do PDV
                   href: dev-itpro/pos-custom-transaction-column.md
@@ -2186,6 +2194,8 @@
                   href: 'https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The Guide to Implementing Payment Connector and Payment Device_update.pdf'
                 - name: Implantar conectores de pagamento
                   href: dev-itpro/deploy-payment-connector.md
+                - name: Captura incremental para faturamento de back office
+                  href: dev-itpro/incremental-capture.md
                 - name: Criar mensagens de erro localizadas personalizadas para extensões de terminais de pagamento
                   href: dev-itpro/payment-custom-error-messages.md
                 - name: Criar instaladores do Windows para conectores de pagamento
