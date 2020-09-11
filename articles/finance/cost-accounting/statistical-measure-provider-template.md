@@ -20,11 +20,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: c46a9e042482ad66e769383b4e81e2df85a5e97b
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.sourcegitcommit: fa5c45f7842c4d20c994ac1655e2fbf2a1cf14a9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124511"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "3734901"
 ---
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Membros estatísticos de dimensões e modelos de fornecedores de medições estatísticas
 

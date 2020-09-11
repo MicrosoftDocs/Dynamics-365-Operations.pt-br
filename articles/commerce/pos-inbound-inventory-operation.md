@@ -3,7 +3,7 @@ title: Operação de estoque de entrada no POS
 description: Este tópico descreve os recursos da operação de entrada do estoque do ponto de venda (POS).
 author: hhaines
 manager: annbe
-ms.date: 07/27/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: aba4f2d7932ebc3a0129f04c60c8b6358da68c64
-ms.sourcegitcommit: 0aabe4157f82d8c59dd2d285ab0b33f3c8ec5bbc
+ms.openlocfilehash: 16a786a4b3ca1bcbd202f6753bdf3bf7233a4333
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3627529"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710300"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Operação de estoque de entrada no POS
 
@@ -143,6 +143,20 @@ A operação respeita a configuração **Recibo em branco permitido** na dimens�
 ### <a name="receive-all"></a>Receber tudo
 
 Conforme necessário, é possível selecionar **Remover tudo** na barra de aplicativos para atualizar rapidamente a quantidade de **Recebendo agora** de todas as linhas de documento até o valor máximo disponível a ser recebido para essas linhas.
+
+### <a name="receipt-of-unplanned-items-on-purchase-orders"></a>Recebimento de itens não planejados em ordens de compra
+
+Na versão 10.0.14 e posterior do Commerce, os usuários podem receber um produto que não estava originalmente na ordem de compra. Para habilitar essa funcionalidade, ative **Adicionar linhas à Ordem de Compra durante o recebimento do Ponto de Venda**.  
+
+Este recurso só funciona para recebimento da ordem de compra. Não é possível receber itens em ordens de transferência quando os itens não foram previamente encomendados e enviados do depósito de saída.
+
+Os usuários não poderão adicionar novos produtos à ordem de compra durante o recebimento do PDV, se a ordem de compra [fluxo de trabalho do gerenciamento de alteração](https://docs.microsoft.com/dynamics365/supply-chain/procurement/purchase-order-approval-confirmation) estiver ativado no Commerce headquarters (HQ). Para habilitar o gerenciamento de alterações, todas as alterações em uma ordem de compra devem ser aprovadas primeiro, antes que o recebimento seja permitido. Como esse processo permite que um destinatário adicione novas linhas à ordem de compra, o recebimento falhará, se o fluxo de trabalho de gerenciamento de alterações estiver habilitado. Se o gerenciamento de alterações estiver habilitado para todas as ordens de compra ou para o fornecedor vinculado à ordem de compra que está sendo recebida ativamente no PDV, o usuário não poderá adicionar novos produtos à ordem de compra durante o recebimento no PDV.
+
+A funcionalidade que permite a adição de linhas não pode ser usada como solução para o recebimento de quantidades adicionais de produtos que já estão na ordem de compra. O recebimento em excesso é gerenciado por meio das configurações padrão [recebimento em excesso](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation#over-receiving-validations) da linha de produto na ordem de compra.
+
+Se a opção **Adicionar linhas à Ordem de Compra durante o recebimento do Ponto de Venda** estiver ativada e um usuário estiver recebendo com a **Operação de entrada** no PDV, se o usuário digitalizar ou digitar um código de barras ou número do produto que não é reconhecido como um item na ordem de compra atual, mas é reconhecido como um item válido, o usuário recebe uma mensagem sobre a adição do item à ordem de compra. Se o usuário adicionar o item à ordem de compra, a quantidade inserida em **Recebendo agora** é considerada a quantidade encomendada para a linha da ordem de compra.
+
+Quando o recebimento da ordem de compra é concluído e enviado para HQ para processamento, as linhas adicionadas são criadas no documento mestre da ordem de compra. Na linha da ordem de compra no HQ, haverá um sinalizador **Adicionador por PDV** na guia **Geral** da linha da ordem de compra. O sinalizador **Adicionador por PDV** indica que a linha da ordem de compra foi adicionada pelo processo de recebimento do PDV e não é uma linha que estava na ordem de compra antes do recebimento.
 
 ### <a name="cancel-receiving"></a>Cancelar recebimento
 

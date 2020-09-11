@@ -3,7 +3,7 @@ title: Habilitar recomendações de produtos personalizados
 description: Este tópico descreve como disponibilizar recomendações de produtos personalizados para clientes no Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4103096f23e5568cc2bf64f21720c7c16d3e0cd1
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.openlocfilehash: 8a61ef0720839d371701f2f0a1fdec7e85a5feb7
+ms.sourcegitcommit: d3b970c3b93d8be12886b1c5a6bf91f0b33726dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3664849"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3700857"
 ---
 # <a name="enable-personalized-recommendations"></a>Habilitar recomendações personalizadas
 
@@ -49,11 +49,13 @@ Para obter mais informações sobre recomendações de produtos, consulte a [Vis
 
 Para ativar a personalização, siga estas etapas.
 
-1. Acesse **Varejo e comércio \> Recomendações de produto \> Parâmetros de recomendação**.
-1. Na lista de parâmetros compartilhados de varejo, selecione **Listas de recomendação**.
-1. Defina a opção **Habilitar personalização** como **Sim**.
+1. Em Commerce headquarters, procure por **Gerenciamento de Recursos**.
+1. Selecione **Tudo** para ver uma lista de recursos disponíveis. 
+1. Na caixa de pesquisa, insira **Recomendações**.
+1. Selecione o recurso **Recomendações personalizadas de produtos**.
+1. No painel de propriedades **Recomendações personalizadas de produtos**, selecione **Habilitar agora**.
 
-![Ativar personalização](./media/enablepersonalization.png)
+![Ativar personalização](./media/FeatureManagement_Personalized.PNG)
 
 > [!NOTE]
 > Quando você ativa a personalização, o processo de geração de listas personalizadas de recomendação de produtos é iniciado. Talvez seja necessário até um dia para que essas listas estejam disponíveis e visíveis online e no PDV.

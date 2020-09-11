@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3b5b82917e3083b5ffe4546a6a15fd14938383a
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: c7f78b687865e63e658c1c1c4f148b50595bf063
+ms.sourcegitcommit: 54bdcf8e9b6d1b1aae2a244f7a82754879d12053
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249026"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "3740654"
 ---
 # <a name=""></a><a name="LISTJOIN">Função LISTJOIN ER</a>
 
@@ -69,8 +69,18 @@ Em seguida, você insere a fonte de dados **Registro 2** do tipo `Container`. Es
 - **Valor**: este campo contém uma expressão que retorna um valor do tipo `Real`.
 - **IsValid**: este campo contém uma expressão que retorna um valor do tipo `Boolean`.
 
-Nesse caso, a expressão `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` retorna uma nova lista que contém dois registros. A estrutura dessa lista consiste em um único campo **Valor** do tipo `Real`, pois esse campo é o único apresentado em todos os argumentos da função chamada.
+![Página de designer de mapeamento de modelo de ER](./media/er-functions-list-listjoin-image1.gif)
+
+Nesse caso, a expressão `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` retorna uma nova lista que contém dois registros.
+
+![Página de designer de mapeamento de modelo de ER](./media/er-functions-list-listjoin-image2.gif)
+
+A estrutura dessa lista consiste em um único campo **Valor** do tipo `Real`, pois esse campo é o único apresentado em todos os argumentos da função chamada.
+
+![Página de designer de mapeamento de modelo de ER](./media/er-functions-list-listjoin-image3.gif)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções de listagem](er-functions-category-list.md)
+
+[Depurar fontes de dados de um formato de relatório eletrônico executado para analisar o fluxo de dados e a transformação](er-debug-data-sources.md)

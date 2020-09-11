@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: conradv
 ms.search.validFrom: 2019-10-14
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5006f06d90ddcc314a51878e9e21337de7d493e7
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 079c8d23250368c92e5d79f0e2624f8340db2077
+ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208447"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "3699527"
 ---
 # <a name="hazardous-materials"></a>Materiais perigosos
 
@@ -35,7 +35,7 @@ As informações sobre materiais perigosos são configuradas no Gerenciamento de
 Quando você envia materiais que são classificados como mercadorias perigosas, a papelada adicional deve ser incluída nas remessas. A funcionalidade de materiais perigosos permite que os clientes armazenem informações de classificação e as relacionem para liberar itens. Essas informações podem ser usadas para ajudar a preparar a documentação de remessa.
 
 > [!IMPORTANT]
-> Para ajudar a gerenciar remessas de mercadorias perigosas, o Microsoft Dynamics 365 Supply Chain Management permite configurar informações de referência adicionais relacionadas aos produtos. Você também pode configurar documentos de remessa adicionais. No entanto, o sistema não é compatível automaticamente com as regulamentações de seu país ou região. Em vez disso, é uma ferramenta que pode ajudar eu programa geral.
+> Os recursos de materiais perigosos no Microsoft Dynamics 365 Supply Chain Management fornecem uma coleção de campos úteis de informações de produtos e funcionalidades relacionadas que podem ajudar você a registrar e consultar informações relacionadas aos produtos perigosos. Esses recursos também podem ajudá-lo a criar e imprimir documentos de remessa que incluam algumas das mesmas informações sobre materiais perigosos que você está enviando. No entanto, o sistema não o tornará automaticamente compatível com todos os regulamentos aplicáveis em seu país ou região. Embora essas ferramentas tenham a finalidade de ajudá-lo a cumprir as regulamentações comuns, elas não são suficientes, nem garantidas. Sua organização é responsável por conhecer todas as regulamentações aplicáveis e por executar todas as etapas necessárias para cumpri-las.
 
 Para poder usar essa funcionalidade, é necessária a seguinte configuração:
 

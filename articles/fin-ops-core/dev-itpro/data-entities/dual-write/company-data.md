@@ -3,7 +3,7 @@ title: Conceito de empresa no Common Data Service
 description: Este tópico descreve a integração de dados de empresa entre o Finance and Operations e o Common Data Service.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 07/15/2019
+ms.date: 08/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9a39cf5fa980d9a815ba675e410589dbd1279c83
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 444bfc1698a206ca34e67f742df63431a3b02649
+ms.sourcegitcommit: 7da8811f1a7db858efb76edb0bdf857a47d07600
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172891"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "3728404"
 ---
 # <a name="company-concept-in-common-data-service"></a>Conceito de empresa no Common Data Service
 
@@ -72,3 +72,32 @@ A integração do Common Data Service faz a paridade empresarial usando um ident
 + Para registros, depois que uma empresa é adicionada e salva, torna-se o valor somente leitura. Portanto, os usuários devem garantir selecionam a empresa correta.
 + Somente os registros com dados da empresa estão qualificados para gravação dupla entre o aplicativo e o Common Data Service.
 + Para dados existentes do Common Data Service, uma experiência de inicialização conduzida pelo administrador logo estará disponível.
+
+
+## <a name="autopopulate-company-name-in-customer-engagement-apps"></a>Preencher automaticamente o nome da empresa nos aplicativos de participação do cliente
+
+Há várias maneiras de preencher automaticamente o nome da empresa nos aplicativos de participação do cliente.
+
++ Se você for um administrador de sistema, poderá definir a empresa padrão navegando até **Configurações Avançadas > Sistema > Segurança > Usuários**. Abra o formulário **Usuário** e na seção **Informações sobre a Organização**, defina o valor **Empresa como padrão nos Formulários**.
+
+    :::image type="content" source="media/autopopulate-company-name-1.png" alt-text="Definir a empresa padrão na seção Informações da Organização.":::
+
++ Se tiver acesso de **Gravação** para a entidade **SystemUser** para o nível **Unidade de Negócio**, você poderá alterar a empresa padrão em qualquer formulário, selecionando a empresa do menu suspenso **Empresa**.
+
+    :::image type="content" source="media/autopopulate-company-name-2.png" alt-text="Alterar o nome da empresa em uma nova conta.":::
+
++ Se tiver o acesso de **Gravação** para dados em mais de uma empresa, então você pode alterar a empresa padrão, escolhendo um registro que pertence a outra empresa.
+
+    :::image type="content" source="media/autopopulate-company-name-3.png" alt-text="A escolha de um registro altera a empresa padrão.":::
+
++ Se você for um configurador de sistema ou administrador e quiser preencher automaticamente os dados da empresa em um formulário personalizado, poderá usar os [eventos do formulário](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids). Adicione uma referência JavaScript ao **msdyn_/DefaultCompany.js** e use os eventos a seguir. Você pode usar qualquer formulário predefinido, por exemplo, o formulário **Conta**.
+
+    + Evento **OnLoad** do formulário: Defina o campo **defaultCompany**.
+    + Evento **OnChange** para o campo **Empresa**: Defina o campo **updateDefaultCompany**.
+
+## <a name="apply-filtering-based-on-the-company-context"></a>Aplicar filtrar com base no contexto da empresa
+
+Para aplicar filtragem com base no contexto da empresa nos formulários personalizados ou em campos de pesquisa personalizados adicionados aos formulários padrão, abra o formulário e use a seção **Filtragem de Registros Relacionados** para aplicar o filtro da empresa. Você deve definir isso para cada campo de pesquisa que exija filtragem com base na empresa subjacente em um determinado registro. A configuração é mostrada para a **Conta** na ilustração a seguir.
+
+:::image type="content" source="media/apply-company-context.png" alt-text="Aplicar contexto da empresa":::
+

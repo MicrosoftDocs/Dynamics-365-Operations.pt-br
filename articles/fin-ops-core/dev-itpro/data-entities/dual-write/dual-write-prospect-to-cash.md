@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: b10e5f0fe97e65ad380e85815c56e88a3ce4e303
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: a2ca0ce277a062c8d525b6a3619eaf1b0114667b
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3443886"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719255"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Cliente potencial com pagamento à vista em gravação dupla
 
@@ -79,7 +79,7 @@ Se você também estiver usando a solução do Field Service, certifique-se de r
 
 As ordens de venda podem ser criadas em Vendas ou em Supply Chain Management. Se você criar uma ordem de venda em Vendas, ela será sincronizada com Supply Chain Management em tempo real. Da mesma forma, se você criar uma ordem de venda em Supply Chain Management, ela é sincronizada em Vendas em tempo real. Observe os seguintes pontos:
 
-+ Você pode ativar e sincronizar ordens somente de vendas se todos os produtos da ordem vierem de aplicativos Finance and Operations. Portanto, não pode haver nenhum produto inserido.
++ Os produtos inseridos no Dynamics 365 Sales serão exibidos como categorias de produtos no Dynamics 365 Supply Chain Management.
 + Cálculo de desconto e arredondamento:
 
     - O modelo de cálculo de desconto no Sales difere do modelo de cálculo de desconto no Supply Chain Management. No Supply Chain Management, o valor final de descontos em uma linha de venda pode ser o resultado de uma combinação de valores de desconto e porcentagens de desconto. Se este valor final de descontos for dividido pela quantidade na linha, poderá haver um arredondamento. No entanto, esse arredondamento não é considerado se um valor de desconto por unidade arredondado é sincronizado para o Sales. Para ajudar a garantir que o valor total do desconto da linha de venda no Supply Chain Management seja sincronizado corretamente para o Sales, o valor total deve ser sincronizado sem ser dividido pela quantidade da linha. Portanto, você deve definir o método de cálculo de desconto como **Item de linha** em Sales.

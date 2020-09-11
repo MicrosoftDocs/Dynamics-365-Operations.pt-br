@@ -3,7 +3,7 @@ title: Habilitar recomendações de produtos
 description: Este tópico explica como fazer recomendações de produto com base aprendizado de máquina de inteligência artificial (AI-ML) disponível para Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d2dacd4a94f706be5aa65947c0b6a92e281733ca
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.openlocfilehash: b201e5481cfaf5bb6cd64a89cdb6b5a91f31447f
+ms.sourcegitcommit: d3b970c3b93d8be12886b1c5a6bf91f0b33726dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3665017"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3700833"
 ---
 # <a name="enable-product-recommendations"></a>Habilitar recomendações de produtos
 
@@ -65,11 +65,13 @@ Salve e feche a página.
 
 Para ativar as recomendações de produtos, siga estas etapas.
 
-1. Acesse **Retail e Commerce &gt; Recomendações de produto &gt; Parâmetros de recomendação**.
-1. Na lista de parâmetros compartilhados, selecione **Listas de Recomendação**.
-1. Defina a opção **Habilitar recomendações** como **Sim**.
+1. Em Commerce headquarters, procure por **Gerenciamento de Recursos**.
+1. Selecione **Tudo** para ver uma lista de recursos disponíveis. 
+1. Na caixa de pesquisa, insira **Recomendações**.
+1. Selecione o recurso **Recomendações de produtos**.
+1. No painel de propriedades **Recomendações de produtos**, selecione **Habilitar agora**.
 
-![Ativando as recomendações](./media/enablepersonalization.png)
+![Ativando as recomendações](./media/FeatureManagement_Recommendations.PNG)
 
 > [!NOTE]
 > Este procedimento inicia o processo de geração de listas recomendação de produto. Pode levar várias horas antes que as listas estejam disponíveis e possam ser vistas no ponto de venda (PDV) ou em Dynamics 365 Commerce.

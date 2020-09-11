@@ -3,7 +3,7 @@ title: Calendários e planejamento mestre
 description: Este tópico fornece uma visão geral de calendários de cadeia de suprimentos e como afetam o planejamento mestre.
 author: t-benebo
 manager: tfehr
-ms.date: 05/08/2019
+ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,18 @@ ms.search.industry: Manufacturing
 ms.author: t-benebo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d542c52623c1b3c0aa4b23159d56791cdc981f48
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 373af2e7bdcbf6860f21e049403fdf174d5e8ca7
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213467"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710324"
 ---
 # <a name="calendars-and-master-planning"></a>Calendários e planejamento mestre
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece uma visão geral de calendários de cadeia de suprimentos e como afetam o planejamento mestre.  Os calendários diferentes usados no mecanismo de planejamento mestre são explicados, incluindo como afetam a remessa e o recebimento de datas em ordens planejadas. Finalmente, são fornecidas recomendações referentes à atribuição, ao uso e à atualização dos calendários.
+Este tópico fornece uma visão geral de calendários de cadeia de suprimentos e como afetam o planejamento mestre.  Os calendários diferentes usados no mecanismo de planejamento mestre são explicados, incluindo como afetam as datas de remessa e recebimento em ordens planejadas. Finalmente, são fornecidas recomendações referentes à atribuição, ao uso e à atualização dos calendários.
 
 ## <a name="definition-of-a-calendar"></a>Definição de um calendário.
 
@@ -105,28 +105,28 @@ A data da ordem em uma ordem de compra planejada indica a data em que a ordem é
 
 ### <a name="delivery-date-of-a-planned-purchase-order"></a>Data de entrega de uma ordem de compra planejada
 A data de recebimento de uma compra indica a data em que você receberá as mercadorias. Será uma data aberta no calendário. O calendário que será levado em conta para indicar quais dias as ordens de compra podem ser recebidas são estes, em ordem de prioridade, da maior para a menor: 
-    1. Calendário do fornecedor
-    2. Calendário do grupo de cobertura
-    3. Calendário do depósito para o depósito de recebimento
+1. Calendário do fornecedor
+1. Calendário do grupo de cobertura
+1. Calendário do depósito para o depósito de recebimento
 
 Observe que o calendário do grupo de cobertura pode ser definido em páginas diferentes e assumirá a prioridade na seguinte ordem:
-    1. Grupo de cobertura de item na página **Detalhes dos produtos liberados**
-    2. Grupo de cobertura de item na página **Cobertura de item**
-    3. Grupo de cobertura de item padrão em **Parâmetros de planejamento mestre**
+1. Grupo de cobertura de item na página **Cobertura de item**
+1. Grupo de cobertura de item na página **Detalhes dos produtos liberados**
+1. Grupo de cobertura de item padrão em **Parâmetros de planejamento mestre**
 
 ### <a name="shipping-date-of-a-planned-transfer-order"></a>Data de remessa de uma ordem de transferência planejada
 Quando você cria uma ordem de transferência entre dois depósitos, a data de remessa e a data de recebimento serão incluídas no cabeçalho da ordem de transferência, juntamente com o depósito "De" e do depósito "Para". A diferença entre essas duas datas é o tempo esperado de transporte (em dias) entre os depósitos.
 
 A data de remessa de uma ordem de transferência planejada indica a data em que as mercadorias são enviadas do depósito "De". Os calendários usados especificando a data de remessa disponível são listados por prioridade: 
-    1. O calendário do depósito do depósito "De"
-    2. Calendário do grupo de cobertura (consulte a ordem de fallback para este calendário acima) Se houver um calendário do depósito definido, a data de remessa será uma data aberta no calendário. Se não houver calendário do depósito definido, será usado o calendário do grupo de cobertura. 
+1. O calendário do depósito do depósito "De"
+1. Calendário do grupo de cobertura (consulte a ordem de fallback para este calendário acima) Se houver um calendário do depósito definido, a data de remessa será uma data aberta no calendário. Se não houver calendário do depósito definido, será usado o calendário do grupo de cobertura. 
 
 ### <a name="receipt-date-of-a-planned-transfer-order"></a>Data de recebimento de uma ordem de transferência planejada
 A data de recebimento de uma ordem de transferência indica a data em que as mercadorias são recebidas no depósito "Para".
 
 Os calendários usados para especificar a data de recebimento são os listados por prioridade: 
-    1. Calendário do grupo de cobertura 
-    2. Calendário de depósito do depósito "Para" Se houver um calendário de cobertura definido, a data de recebimento será uma data aberta no calendário. Se não houver calendário do grupo de cobertura definido, será usado o calendário do depósito. 
+1. Calendário do grupo de cobertura 
+1. Calendário de depósito do depósito "Para" Se houver um calendário de cobertura definido, a data de recebimento será uma data aberta no calendário. Se não houver calendário do grupo de cobertura definido, será usado o calendário do depósito. 
 
 Ao localizar as datas de remessa e recebimento de transferência planejada, as margens definidas pelo usuário para remessa e recebimento também serão consideradas. 
 
