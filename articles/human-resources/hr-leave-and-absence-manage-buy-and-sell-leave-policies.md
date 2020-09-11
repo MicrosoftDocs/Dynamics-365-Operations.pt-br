@@ -3,7 +3,7 @@ title: Gerenciar políticas de licença de compra e venda
 description: Você pode habilitar funcionários a comprar e vender licenças no Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/01/2020
+ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,24 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 859445f2b6e980b5960e512e69129f6a8fc6df2b
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 55d29c42cc1b2d69517e2fcd458ee6a1bdf5277f
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429004"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712101"
 ---
-# <a name="manage-buy-and-sell-leave-policies"></a>Gerenciar políticas de licença de compra e venda
+# <a name="manage-buy-and-sell-leave-policies"></a>Gerenciar políticas de compra e venda de licenças
 
-[!include [banner](includes/preview-feature.md)]
-
-Você pode permitir que os funcionários comprem licenças criando uma política de licença de compra.  
+Você pode permitir que os funcionários comprem e vendam licenças criando uma política de licença de compra e venda. Você pode configurar essas políticas para usar o fluxo de trabalho para aprovações, definir valores e taxas máximos e definir taxas para compras e vendas. 
 
 ## <a name="enable-employees-to-buy-and-sell-leave"></a>Habilitar funcionários a comprar e vender licenças
 
-1. Na página **Parâmetros de licença e ausência**, selecione **Sim** para **Permitir que os funcionários comprem licenças**. 
+1. Na página **Parâmetros de licença e ausência**, selecione **Sim** para **Permitir que os funcionários comprem licenças** e **Permitir que os funcionários vendam licenças**.
 
-## <a name="create-a-buy-leave-policy"></a>Criar uma política de licença de compra
+## <a name="create-a-buy-and-sell-leave-policy"></a>Criar uma política de compra e venda de licenças
 
 1. Na página **Licença e ausência**, selecione a guia **Links**. 
 
@@ -51,19 +49,23 @@ Você pode permitir que os funcionários comprem licenças criando uma política
 
 6. Selecione uma **Data inicial** e uma **Data final** para a política. As solicitações para comprar ou vender licenças só estarão disponíveis para envio durante esse período. 
 
-7. Em **Política de compra**, selecione **Equivalência de tempo integral** (FTE) para rateio do valor máximo com base no FTE definido na posição do funcionário. Se o tipo de política for **Valor**, insira um **Valor fixo máximo**. 
+7. Selecione uma **ID de fluxo de trabalho** para a política. As solicitações de compra e venda usarão este fluxo de trabalho para revisão e aprovação. 
 
-8. Selecione **Adicionar** para adicionar os tipos de licença para funcionários comprarem licenças. Você pode adicionar vários tipos de licença à política. 
+8. Em **Política de compra**, selecione **Equivalência de tempo integral** (FTE) para rateio do valor máximo com base no FTE definido na posição do funcionário. Se o tipo de política for **Valor**, insira um **Valor fixo máximo**. 
 
-9. Insira os **Meses de serviço** do tipo de licença para habilitar diferentes meses de serviço para determinar o valor máximo que um funcionário pode comprar. 
+9. Selecione **Adicionar** para adicionar os tipos de licença para funcionários comprarem licenças. Você pode adicionar vários tipos de licença à política. 
 
-10. Insira o **Valor máximo** para o tipo de licença. 
+10. Insira os **Meses de serviço** do tipo de licença para habilitar diferentes meses de serviço para determinar o valor máximo que um funcionário pode comprar. 
 
-11. Insira a **Taxa** na qual o funcionário comprará a licença. 
+11. Insira o **Valor máximo** para o tipo de licença. 
 
-12. Opcionalmente, insira o **Código de ganhos** a ser usado para comprar a licença. 
+12. Insira a **Taxa** na qual o funcionário comprará a licença. 
 
-13. Opcionalmente, defina se o FTE deve ser usado para determinar o valor máximo para o tipo de licença. 
+13. Opcionalmente, insira o **Código de ganhos** a ser usado para comprar a licença. 
+
+14. Opcionalmente, defina se o FTE deve ser usado para determinar o valor máximo para o tipo de licença. 
+
+15. Para criar uma política de venda, siga as etapas 8 a 14 na **Política de venda**. 
 
 ## <a name="add-the-buy-and-sell-leave-policy-to-a-leave-and-absence-plan"></a>Adicionar a política de licença de compra e venda a um plano de licença e ausência
 

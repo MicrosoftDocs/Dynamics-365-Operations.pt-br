@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f045cb7ab9f5e7aa4259f29e1b026f110425c236
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 43c16c5d0de91bf1f433f4fde36e7d13775f44a0
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429050"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712150"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Acumular planos de licença e ausência
 
@@ -37,7 +37,9 @@ Você pode acumular licenças e ausências no Dynamics 365 Human Resources para 
 
 3. A caixa de diálogo **Acumular planos de licença e ausência** é exibida. Em **Acumular a partir de**, selecione **Data de hoje** ou selecione **Data personalizada** e insira uma data personalizada.
 
-4. Se você deseja executar o processo de acúmulo em segundo plano, selecione **Executar em segundo plano** e execute as seguintes tarefas:
+4. Se quiser executar competências para todas as empresas, selecione **Todas as empresas**. Se quiser processar competências para um único plano de licença, selecione **Não** para **Todos os planos** e selecione um **Plano de licença**. Se selecionar todas as empresas, não poderá selecionar um plano de licença individual. 
+
+5. Se você deseja executar o processo de acúmulo em segundo plano, selecione **Executar em segundo plano** e execute as seguintes tarefas:
 
    1. Insira informações para o processo de acúmulo.
 
@@ -55,7 +57,9 @@ Você pode acumular licenças e ausências no Dynamics 365 Human Resources para 
 
 3. A caixa de diálogo **Acumular planos de licença e ausência** é exibida. Em **Acumular a partir de**, selecione **Data de hoje** ou selecione **Data personalizada** e insira uma data personalizada.
 
-4. Se você deseja executar o processo de acúmulo em segundo plano, selecione **Executar em segundo plano** e execute as seguintes tarefas:
+4. Se quiser executar competências para todas as empresas, selecione **Todas as empresas**. Se quiser processar competências para um único plano de licença, selecione **Não** para **Todos os planos** e selecione um **Plano de licença**. Se selecionar todas as empresas, não poderá selecionar um plano de licença individual. 
+
+5. Se você deseja executar o processo de acúmulo em segundo plano, selecione **Executar em segundo plano** e execute as seguintes tarefas:
 
    1. Insira informações para o processo de acúmulo.
 
@@ -102,18 +106,6 @@ Exclua os registros de acúmulo para um plano e um intervalo de datas específic
 1. Na página **Licença e ausência**, selecione a guia **Links**.
 
 2. Em **Gerenciar licença**, selecione **Excluir auditoria de acúmulo de licença**.
-
-## <a name="configure-preview-features"></a>Configure recursos de visualização
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-Se tiver habilitado recursos de visualização para licença e ausência, você também precisará definir configurações para eles.
-
-### <a name="accrue-leave-per-company-or-per-leave-plan"></a>Acumular a licença por empresa ou por plano de licença
-
-Ao acumular planos de licença e ausência, você pode optar por acumular para todas as empresas. Se você escolher todas as empresas, não poderá selecionar planos de licença individuais. Se você optar por não acumular para todas as empresas, poderá acumular um plano de licença específico. 
-
-Essas opções estão disponíveis ao acumular para todos os funcionários ou funcionários individuais. 
 
 ## <a name="see-also"></a>Consulte também
 

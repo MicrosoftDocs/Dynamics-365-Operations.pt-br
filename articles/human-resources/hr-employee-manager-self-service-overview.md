@@ -3,7 +3,7 @@ title: Visão geral do autoatendimento para funcionários e gerentes
 description: Este artigo fornece uma visão geral do espaço de trabalho de autoatendimento para funcionários e gerentes.
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5934b6a1a1a8aa30aa18d9be26845c84acfa2fd0
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: fd642d0976c607b47a7874d0771e441153272ec9
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429787"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712223"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Visão geral do autoatendimento para funcionários e gerentes
 
@@ -32,6 +32,25 @@ Este artigo fornece uma visão geral do espaço de trabalho de autoatendimento p
 ## <a name="edit-personal-details"></a>Editar informações pessoais
 
 Se você precisar adicionar ou alterar qualquer informação pessoal, consulte [Editar informações pessoais](hr-employee-manager-self-service-edit-personal-information.md).
+
+## <a name="user-not-assigned-to-a-worker-record"></a>Usuário não atribuído a um registro de trabalhador
+
+Se você não tiver vinculado seu usuário a um registro de **Trabalhador** na página **Usuários**, a seguinte mensagem será exibida:
+
+**Sua ID de usuário não está associada ao seu registro de funcionário no sistema. Você não poderá exibir ou atualizar suas informações até que isso seja feito. Entre em contato com seu gerente ou a equipe de suporte para obter ajuda.**
+
+Para associar um usuário a um registro do **Trabalhador**, navegue até **Usuários** e selecione o usuário. Selecione **Editar**, adicione o trabalhador correspondente no campo **Pessoa** no formulário e selecione **Salvar**. Agora você deve ter acesso ao Autoatendimento para funcionários.
+
+## <a name="security-requirements-for-employee-and-manager-self-service"></a>Requisitos de segurança para Autoatendimento de Funcionário e Gerente
+
+Autoatendimento de Funcionário e Gerente requer duas funções de segurança:
+
+- Funcionários exigem a função de funcionário.
+- Gerentes exigem as funções Funcionário e Gerente.
+
+>[!NOTE]
+>Você também pode usar as funções personalizadas para acessar o Autoatendimento de Funcionário e Gerente desde que tenha acesso a espaços de trabalho de Funcionário e Gerente.<br>
+>O acesso do Gerenciador às informações do funcionário se baseia na hierarquia da linha da posição atual definida em Recursos Humanos.
 
 ## <a name="employee-self-service"></a>Autoatendimento para funcionários
 

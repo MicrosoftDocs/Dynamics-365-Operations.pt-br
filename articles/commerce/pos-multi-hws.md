@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 41b0faa7ef24bdae229f7e6760d22357cb87eb0d
-ms.sourcegitcommit: 7b7cc93c0f78c6bfc7a3ea66a74a29ba0f218553
+ms.openlocfilehash: 03cb68ede82668523e6970d33df676738e65fd83
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3658349"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719205"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Terminais de pagamento dedicados e solicitações para uma impressora e caixa registradora
 
@@ -78,8 +78,8 @@ Para configurar o perfil de hardware atribuído à registradora, siga estas etap
 
     | Dispositivo | Tipo | Nome do dispositivo | Detalhes adicionais |
     |---|---|---|---|
-    | Impressora | Fallback | **Epson** ou **Star** | O nome do dispositivo diferencia letras maiúsculas de minúsculas. A **ID do perfil de recibo** deve ser igual à **ID do perfil de recibo** mapeada para a impressora de rede que está configurada no perfil de hardware atribuído à estação de hardware no nível do canal. |
-    | Caixa registradora | Fallback | **Epson** ou **Star** | O nome do dispositivo diferencia letras maiúsculas de minúsculas. Defina a opção **Usar turno compartilhado** como **Sim**. |
+    | Impressora | Fallback | *Qualquer* | O nome do dispositivo diferencia letras maiúsculas de minúsculas. A **ID do perfil de recibo** deve ser igual à **ID do perfil de recibo** mapeada para a impressora de rede que está configurada no perfil de hardware atribuído à estação de hardware no nível do canal. |
+    | Caixa registradora | Fallback | *Qualquer* | O nome do dispositivo diferencia letras maiúsculas de minúsculas. Defina a opção **Usar turno compartilhado** como **Sim**. |
     | Serviço de TEF | Adyen | Não Aplicável | Para obter informações sobre como configurar o conector Adyen pronto para uso, consulte [Dynamics 365 Payment Connector for Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3). Outros conectores de pagamento podem ter suporte por meio do [kit de desenvolvimento de software (SDK) do Commerce para pagamentos](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/end-to-end-payment-extension). |
     | Teclado do PIN | Rede | **MicrosoftAdyenDeviceV001** | Nenhum. |
 
@@ -103,7 +103,7 @@ Para configurar o perfil de hardware usado para agrupar a impressora de recibo d
     | Dispositivo | Tipo | descrição | Detalhes adicionais |
     |---|---|---|---|
     | Impressora | Rede | **Epson** ou **Star** | O nome do dispositivo diferencia letras maiúsculas de minúsculas. A **ID do perfil de recibo** deve ser igual à **ID do perfil de recibo** mapeada para a impressora de rede que está configurada no perfil de hardware atribuído à registradora. |
-    | Caixa registradora | Fallback | **Epson** ou **Star** | O nome do dispositivo diferencia letras maiúsculas de minúsculas. defina a opção **Usar turno compartilhado** como **Sim**. |
+    | Caixa registradora | Rede | **Epson** ou **Star** | O nome do dispositivo diferencia letras maiúsculas de minúsculas. defina a opção **Usar turno compartilhado** como **Sim**. |
 
 5. Selecione **Salvar**.
 

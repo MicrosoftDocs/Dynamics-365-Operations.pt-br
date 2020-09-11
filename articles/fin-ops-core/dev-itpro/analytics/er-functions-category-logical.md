@@ -3,7 +3,7 @@ title: Lista de funções ER na categoria lógica
 description: Este tópico fornece informações sobre as funções lógicas que são compatíveis no relatório eletrônico (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 408b3c5ec37b24e0ccf6e368012a936701eedf0f
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: e622778c60646e5cc84cd6e23a5d4954a0fe0bb3
+ms.sourcegitcommit: 38ad6f791c3d5688a5dc201a234ba89f155f7f03
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916628"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3705086"
 ---
 # <a name="list-of-er-functions-in-the-logical-category"></a>Lista de funções ER na categoria lógica
 
@@ -41,6 +41,8 @@ As funções lógicas relatório eletrônico (ER) podem ser usadas para trabalha
 | [Não](er-functions-logical-not.md)                       | Essa função retorna o valor lógico revertido da condição especificada como um valor *Booliano*. |
 | [Or](er-functions-logical-or.md)                         | Essa função retorna um valor *Booliano* de **FALSE** se todas as condições especificadas forem falsas. Se qualquer condição especificada for verdade, a função retorna um valor *Booliano* como **TRUE**. |
 | [ValueIn](er-functions-logical-valuein.md)               | Essa função determina se a entrada especificada corresponde a algum valor de um item especificado na lista especificada. Ela retorna um valor *Booliano* de **TRUE** se a entrada especificada corresponder ao resultado da execução da expressão especificada para pelo menos um registro da lista especificada. Caso contrário, ela retorna um valor *Booliano* de **FALSE**. |
+| [ValueInLarge](er-functions-logical-valueinlarge.md)     | Esta função determina se a entrada especificada do tipo *Int64* ou *Inteiro* corresponde a algum valor de um item especificado na lista especificada. Ela retorna um valor *Booliano* de **TRUE** se a entrada especificada corresponder ao resultado da execução da expressão especificada para pelo menos um registro da lista especificada. Caso contrário, ela retorna um valor *Booliano* de **FALSE**. |
+
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

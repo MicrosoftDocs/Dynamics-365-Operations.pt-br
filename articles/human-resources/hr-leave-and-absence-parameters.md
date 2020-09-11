@@ -3,7 +3,7 @@ title: Configurar parâmetros de licença e ausência
 description: Definir parâmetros de recursos humanos para licença e ausência no Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5e4d3b3e4b373631bed5e2d7e3c3a4e14f0c5c98
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 196c3901b5bc19f73b882bac7d3361e5bcc37e07
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428935"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712367"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Configurar parâmetros de licença e ausência
 
@@ -46,8 +46,6 @@ Antes de configurar os planos de licença e ausência no Dynamics 365 Human Reso
 
 5. Na guia **Autoatendimento para funcionários**, indique se os gerentes podem inserir solicitações de licença e ausência em nome de seus funcionários.
 
-6. Na guia **Licença e ausência**, verifique as configurações e altere conforme necessário.
-
 7. Selecione **Salvar**.
 
 ## <a name="view-and-change-leave-and-absence-parameters"></a>Exibir e alterar parâmetros de licença e ausência
@@ -62,7 +60,11 @@ Antes de configurar os planos de licença e ausência no Dynamics 365 Human Reso
 
     - Selecione **Meses de data de efetivação do serviço** para definir quando as taxas de acumulação entram em vigor para os planos de licença usando meses de serviço.
 
-    - Selecione **Cálculo de saldo** para exibir saldos a serem exibidos a partir de hoje ou a partir do período de acumulação. Se você selecionar **Saldo a partir de hoje**, o saldo exibirá o total de todas as competências, ajustes e solicitações a partir de hoje. Se você selecionar **Saldo como período de acumulação**, o saldo exibirá o total de todas as competências, ajustes e solicitações, a partir do período de acumulação definido pela frequência no plano de licença. 
+    - Selecione **Cálculo de saldo** para exibir saldos a partir de hoje ou a partir do período de competência. Se você selecionar **Saldo a partir de hoje**, o saldo exibirá o total de todas as competências, ajustes e solicitações a partir de hoje. Se você selecionar **Saldo como período de acumulação**, o saldo exibirá o total de todas as competências, ajustes e solicitações, a partir do período de acumulação definido pela frequência no plano de licença. 
+
+    - Defina a hora inicial do trabalho em lotes de expiração postergada.  
+    
+    - Selecione **Sim** para **Permitir que os funcionários comprem licenças** e **Permitir que os funcionários vendam licença**. Se você selecionar **Sim** para essas opções, poderá criar políticas de licença de compra e venda e permitir que os funcionários enviem solicitações de compra e venda de licenças.
 
 ## <a name="configure-calendar-parameters"></a>Configure parâmetros de calendário.
 

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 87d1217204e0c5cb22f567793b043bf399ca5685
-ms.sourcegitcommit: b07434f2bd6db67d8dd712f096329acc902751ae
+ms.openlocfilehash: a6fdc7b8d7ad65c9e4bf1d3b932b62918dea6e77
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699360"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710250"
 ---
 # <a name="customer-orders-in-modern-pos-mpos"></a>Ordens de cliente no Modern POS (MPOS)
 
@@ -54,7 +54,10 @@ Estes são alguns dos parâmetros que podem ser definidos na página **Parâmetr
     - Encargos são aplicados no nível do cabeçalho das ordens de venda e, quando alguma quantidade de uma linha de produto é devolvida, não é possível determinar o reembolso máximo de encargos de remessa permitido para os produtos e a quantidade de uma forma que funcione para todos os clientes.
     - Encargos de remessa são utilizados para todas as instâncias de remessa. Se um cliente devolver produtos várias vezes e a política do revendedor especificar que o revendedor arcará com o custo de reembolso de encargos de remessa, o reembolso de encargos de remessa será superior aos encargos reais de remessa.
     
-- **Comportamento do cálculo de imposto** - **Recalcular** é a configuração padrão e tradicional referente a como os impostos são recalculados quando o pedido é importado para o back office. **Não recalcular** desabilita o recálculo de impostos até ou a menos que o pedido seja editado no back office, quando o recálculo é disparado. 
+
+## <a name="disable-option-to-pay-later"></a>Desabilitar opção para pagar depois
+
+Na versão 10.0.12 e posterior do Commerce, os comerciantes podem remover a opção de pagar depois quando uma ordem de cliente é criada no PDV. Para desativar a opção, abra o **Perfil de funcionalidade** para o canal em que a opção pagar depois não é permitida e selecione **Editar**. Na guia **Geral**, selecione a lista suspensa para **Exigir pagamento para atendimento**. Se pagar depois não for permitido no PDV, selecione **Cartão obrigatório** e selecione **Salvar**. Execute a agenda de distribuição **1070** para sincronizar esta alteração no canal. 
 
 ## <a name="transaction-flow-for-customer-orders"></a>Fluxo de transações para ordens de cliente
 

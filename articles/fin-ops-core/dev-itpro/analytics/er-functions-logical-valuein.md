@@ -3,7 +3,7 @@ title: Função de ER VALUEIN
 description: Este tópico fornece informações sobre como a função de relatório eletrônico (ER) VALUEIN é usada.
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0df97234df41d11897473dea4e85354e82d36ec
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 44459ae56891a08eb11a6c254f4b4d5652a0e693
+ms.sourcegitcommit: 38ad6f791c3d5688a5dc201a234ba89f155f7f03
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041690"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3705110"
 ---
-# <a name="VALUEIN">Função de ER VALUEIN</a>
+# <a name=""></a><a name="VALUEIN">Função de ER VALUEIN</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -59,7 +59,7 @@ O valor *Booliano* resultante.
 
 ## <a name="usage-notes"></a>Notas de uso
 
-Em geral, a função `VALUEIN` é convertida em um conjunto de condições **OR**.
+Em geral, a função `VALUEIN` é convertida em um conjunto de condições **OR**. Se a lista de condições **OU** for grande e o tamanho máximo total de uma instrução SQL puder ser excedido, use a função [`VALUEINLARGE`](er-functions-logical-valueinlarge.md).
 
 ```vb
 (input = list.item1.value) OR (input = list.item2.value) OR …
@@ -77,13 +77,13 @@ Quando uma fonte de dados é chamada, se tiver sido configurada como a expressã
 
 O limite superior para o número de caracteres no texto dessa condição é de 32.768 caracteres. Portanto, você não deve criar fontes de dados que possam exceder esse limite no tempo de execução. Se o limite for excedido, o aplicativo interrompe a execução e uma exceção é gerada. Por exemplo, essa situação poderá ocorrer se a fonte de dados for configurada como `WHERE (List1, VALUEIN (List1.ID, List2, List2.ID)` e as listas **List1** e **List2** contiverem muitos registros.
 
-Em alguns casos, a função `VALUEIN` é convertida em uma instrução de banco de dados usando o operador `EXISTS JOIN`. Esse comportamento ocorre quando a função [FILTER](er-functions-list-filter.md) é usada e as seguintes condições são atendidas:
+Em alguns casos, a função `VALUEIN` é convertida em uma instrução de banco de dados usando o operador `EXISTS JOIN`. Esse comportamento ocorre quando a função [`FILTER`](er-functions-list-filter.md) é usada e as seguintes condições são atendidas:
 
 - A opção **SOLICITAR CONSULTA** é desativada para a fonte de dados da função `VALUEIN` que se refere à lista de registros. Nenhuma condição adicional será aplicada a essa fonte de dados no tempo de execução.
 - Nenhuma expressão aninhada é configurada para a fonte de dados da função `VALUEIN` que se refere à lista de registros.
 - Um item de lista da função `VALUEIN` se refere a um campo da fonte de dados especificada, não a uma expressão ou um método dessa fonte de dados.
 
-Considere usar esta opção em vez da função [WHERE](er-functions-list-where.md) descrita anteriormente neste exemplo.
+Use esta opção, em vez da função [`WHERE`](er-functions-list-where.md) descrita anteriormente neste exemplo.
 
 ## <a name="example-2"></a>Exemplo 2
 
@@ -118,3 +118,5 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções lógicas](er-functions-category-logical.md)
+
+[Funções VALUEINLARGE](er-functions-logical-valueinlarge.md)

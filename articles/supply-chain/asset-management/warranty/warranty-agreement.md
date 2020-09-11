@@ -3,7 +3,7 @@ title: Contratos de garantia
 description: Este tópico explica contratos de garantia no Gerenciamento de Ativos.
 author: josaw1
 manager: tfehr
-ms.date: 08/30/2019
+ms.date: 08/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e9cbb9068101f3004179f338da18af0369190807
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f049165fd12dfae672293e0c30ddb186ad3ed12c
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215369"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719229"
 ---
 # <a name="warranty-agreements"></a>Contratos de garantia
 
@@ -42,12 +42,12 @@ Um contrato da garantia pode incluir diversas linhas de contrato para cobrir a g
 
 1. Selecione **Gerenciamento de ativos** \> **Configuração** \> **Ativos** \> **Garantia**.
 2. Selecione **Nova** para criar um produto.
-3. No campo **Garantia**, insira um ID de garantia.
+3. No campo **Garantia**, insira um ID de garantia. 
 4. No campo **Nome**, insira uma descrição.
 
     Na Guia Rápida **Detalhes**, o campo **Ativos** exibe o número de ativos válidos que usam o contrato de garantia.
 
-5. Nas Guias Rápidas **Garantia de hora** e **Garantia de item**, siga estas etapas para adicionar linhas que devem ser incluídas em um contrato de garantia que pertence a horas ou itens:
+5. Na guia rápida **Linhas da garantia**, siga as etapas a seguir para adicionar linhas que devem ser incluídas em um contrato de garantia:
 
     1. Selecione **Adicionar linha** para adicionar uma nova condição à garantia. Um número de linha sequencial é inserido automaticamente no campo **Linha**.
     2. No campo **Período**, selecione o tipo de período de garantia.

@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações no Dynamics 365 Human Resources (06 de agosto 2020)
-description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources.
+description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 06 de agosto de 2020.
 author: darinkramer
 manager: AnnBe
 ms.date: 8/06/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c0903be5ead66e09a3e571b523ad4bc20bf92eeb
-ms.sourcegitcommit: 6cb0fb3f6fcffa872b855cffa11105f8e3ce074b
+ms.openlocfilehash: 94d8291190b6c08c6e0e5241513989354df7939d
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3698569"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3711833"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources (06 de agosto 2020)
 
@@ -100,7 +100,7 @@ Algumas organizações fornecem um benefício que permite que os funcionários c
 
 ## <a name="leave-accrual-for-a-single-company-or-single-plan"></a>Deixar o acúmulo para uma única empresa ou um plano
 
-Os clientes podem processar acúmulos para uma única empresa ou um único plano de licença e de ausência. Essa capacidade esclarece sobre o processo de competência para clientes com diferentes políticas de anos de licença ou acúmulo de licenças. Para obter mais informações, consulte [Acumular licenças por empresa ou por plano de licença](hr-leave-and-absence-accrue.md#accrue-leave-per-company-or-per-leave-plan).
+Os clientes podem processar acúmulos para uma única empresa ou um único plano de licença e de ausência. Essa capacidade esclarece sobre o processo de competência para clientes com diferentes políticas de anos de licença ou acúmulo de licenças. Para obter mais informações, consulte [Acumular licenças por empresa ou por plano de licença](hr-leave-and-absence-accrue.md).
 
 ## <a name="add-attachments-to-time-off-requests"></a>Adicionar anexos a solicitações de folga
 
