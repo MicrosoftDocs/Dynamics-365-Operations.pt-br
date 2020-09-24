@@ -8,6 +8,8 @@
         - name: Novidades ou alterações no Talent
           href: whats-new.md
           items:
+            - name: 1º de setembro de 2020
+              href: whats-new-talent-september-01-2020.md
             - name: 21 de janeiro de 2020
               href: whats-new-talent-january-21-2020.md
             - name: 14 de janeiro de 2020

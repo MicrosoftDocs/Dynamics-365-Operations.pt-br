@@ -70,6 +70,8 @@
                   items:
                     - name: Novidades ou alterações na home page do Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.14 (novembro de 2020)
+                      href: get-started/whats-new-changed-10-0-14.md
                     - name: Finance 10.0.13 (outubro de 2020)
                       href: get-started/whats-new-changed-10-0-13.md
                     - name: Finance 10.0.12 (agosto de 2020)
@@ -412,6 +414,8 @@
                   href: accounts-receivable/set-up-collections.md
                 - name: Revisar informações sobre cobranças
                   href: accounts-receivable/tasks/review-collections-information.md
+                - name: Automação do processo de cobranças
+                  href: accounts-receivable/collections-process-automate.md
                 - name: Configuração de gerenciamento de crédito
                   href: accounts-receivable/cm-credit-mgmt-setup.md
                 - name: Informações de gerenciamento de crédito
@@ -752,11 +756,13 @@
                   href: fixed-assets/125-percent-reducing-balance-depreciation.md
                 - name: Depreciação por declínio de 150 por cento
                   href: fixed-assets/150-percent-reducing-balance-depreciation.md
-                - name: Depreciação por declínio de 175 por cento
+                - name: Depreciação por declínio de 175%
                   href: fixed-assets/175-percent-reducing-balance-depreciation.md
                 - name: Depreciação por declínio de 200%
                   href: fixed-assets/200-percent-reducing-balance-depreciation.md
-                - name: ​Depreciação extra​
+                - name: Metodologia de convenção de depreciação semestral
+                  href: fixed-assets/half-year-depreciation-methodology.md
+                - name: Depreciação extra
                   href: fixed-assets/bonus-depreciation.md
                 - name: Configurar depreciação extra
                   href: fixed-assets/tasks/set-up-bonus-depreciation.md
@@ -1008,12 +1014,32 @@
               href: project-management/project-purchase-orders.md
             - name: Cotações do projeto
               href: project-management/project-quotations.md
-            - name: 'Confirmar, atualizar e enviar uma cotação de projeto'
+            - name: 'Confirmar, atualizar e enviar uma cotação do projeto'
               href: project-management/confirm-update-send-project-quotation.md
-            - name: Transferir uma cotação a um projeto
+            - name: Transferir uma cotação para um projeto
               href: project-management/transfer-quote-new-existing-project.md
             - name: Recursos do projeto
-              href: project-management/project-resourcing.md
+              items:
+                - name: Visão geral de recursos do projeto
+                  href: project-management/project-resourcing.md
+                - name: Configurar recursos do projeto
+                  href: project-management/set-up-project-resources.md
+                - name: Gerenciar competências do recurso
+                  href: project-management/manage-resource-competencies.md
+                - name: Criar um projeto
+                  href: project-management/create-new-project.md
+                - name: Configurar preços baseados em função
+                  href: project-management/set-up-role-based-pricing.md
+                - name: Criar uma equipe de projeto
+                  href: project-management/create-project-team.md
+                - name: Sincronizar capacidade do recurso
+                  href: project-management/synchronize-resource-capacity.md
+                - name: Desempenho do agendamento de recursos de projeto
+                  href: project-management/project-scheduling-performance.md
+                - name: Configurar funções nos modelos da Estrutura de detalhamento de trabalho
+                  href: project-management/set-up-roles-wbs-template.md
+                - name: Preenchimento de recurso para recursos planejados
+                  href: project-management/resource-fulfillment-planned-resources.md
             - name: Receber itens na ordem de compra da requisição de itens
               href: project-management/tasks/receive-items-purchase-order-item-requirement.md
             - name: Estruturas de detalhamento de trabalho
@@ -1224,11 +1250,21 @@
                   href: localizations/emea-aut-packing-material-fee-calculation.md
                 - name: Demonstrativo de IVA
                   href: localizations/emea-aut-vat-statement-details.md
+            - name: Bahrein
+              items:
+                - name: Visão geral do Bahrein
+                  href: localizations/bahrain.md
+                - name: Configurar layout de fatura para o Bahrein
+                  href: localizations/emea-bhr-invoice-layout.md
+                - name: Declaração de IVA para o Bahrein
+                  href: localizations/emea-bhr-vat-declaration.md
+                - name: Prazo final de emissão de fatura
+                  href: localizations/gcc-invoice-issue-deadline.md
             - name: Bélgica
               items:
-                - name: Visão geral de Bélgica
+                - name: Visão geral da Bélgica
                   href: localizations/belgium.md
-                - name: ​Extrato bancário CODA​
+                - name: Extrato bancário CODA
                   href: localizations/emea-bel-coda-bank-statement-import.md
                 - name: Criar e transferir transações para o BLWI
                   href: localizations/tasks/be-00011-create-transfer-blwi.md
@@ -1492,11 +1528,13 @@
                   href: localizations/emea-set-up-signers-for-printing-forms.md
                 - name: Dividir períodos em diários periódicos
                   href: localizations/emea-create-post-periodic-journals.md
-                - name: ​Atualizar como os valores são exibidos em relatórios e documentos​
+                - name: Atualizar como os valores são exibidos em relatórios e documentos
                   href: localizations/emea-amount-printing-forms.md
                 - name: Demonstrativo de IVA
                   href: localizations/emea-cze-vat-statement-details.md
-                - name: ​Fechamento do exercício​
+                - name: Declaração de IVA (República Tcheca)
+                  href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
+                - name: Fechamento do exercício
                   href: localizations/emea-cze-hun-year-end.md
             - name: Dinamarca
               items:
@@ -1780,6 +1818,8 @@
                   href: localizations/emea-cze-hun-year-end.md
                 - name: Sistema de faturamento online
                   href: localizations/emea-hun-online-invoicing.md
+                - name: Cálculos de imposto adiados
+                  href: localizations/emea-hun-deferred-vat.md
             - name: Islândia
               items:
                 - name: Visão geral da Islândia
@@ -2074,7 +2114,7 @@
                   href: localizations/emea-ita-exil-unique-certification.md
                 - name: Importação de protesto de letras de câmbio
                   href: localizations/emea-ita-exil-protest-boe.md
-                - name: Teto de imposto
+                - name: Teto de impostos
                   href: localizations/emea-ita-exil-tax-plafond.md
                 - name: Faturas eletrônicas do cliente
                   href: localizations/emea-ita-e-invoices.md
@@ -2238,13 +2278,17 @@
                   href: localizations/tasks/use-assemble-list-fixed-asset.md
                 - name: Usar lista de desmontagem de ativos fixos
                   href: localizations/tasks/use-disassemble-list-fixed-assets.md
+            - name: Kuwait
+              items:
+                - name: Visão geral do Kuwait
+                  href: localizations/kuwait.md
             - name: Letônia
               items:
                 - name: Visão geral da Letônia
                   href: localizations/latvia.md
-                - name: ​Contabilidade de ativos fixos​
+                - name: Contabilidade de ativos fixos
                   href: localizations/emea-lva-fixed-assets-accounting.md
-                - name: ​Controle de alterações de local de ativos fixos​
+                - name: Controle de alterações de local de ativos fixos
                   href: localizations/emea-lva-fixed-assets-location-fields-change.md
                 - name: Numeração de faturas e guias de remessa
                   href: localizations/emea-invoices-packing-slips-numbering.md
@@ -2288,13 +2332,15 @@
                   href: localizations/tasks/my-00007-self-billed-invoices.md
                 - name: Configurar cláusulas de compensação GST
                   href: localizations/tasks/my-00006-01-gst-relief-clauses.md
+                - name: Declaração de SST-02 para a Malásia
+                  href: localizations/apac-mys-sst-declaration.md
             - name: México
               items:
                 - name: Visão geral do México
                   href: localizations/mexico.md
                 - name: Escopo da localização
                   href: localizations/latam-mex-scope.md
-                - name: ​Relatório de declaração de inflação de ajuste​
+                - name: Relatório de declaração de inflação de ajuste
                   href: localizations/latam-mex-adjustment-inflation-declaration-report.md
                 - name: Cancelar uma fatura eletrônica
                   href: localizations/tasks/mx-00010-cancel-electronic-invoice.md
@@ -2328,6 +2374,10 @@
                   href: localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
                 - name: IDs de registro de fornecedor
                   href: localizations/tasks/mx-00008-vendor-registration-ids.md
+            - name: Omã
+              items:
+                - name: Visão geral de Omã
+                  href: localizations/oman.md
             - name: Países Baixos
               items:
                 - name: Visão geral dos Países Baixos
@@ -2386,6 +2436,10 @@
                   href: localizations/emea-pol-turnover-balances-statement.md
                 - name: Diferença cambial dividida de contas a pagar/contas a receber
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
+            - name: Catar
+              items:
+                - name: Visão geral do Catar
+                  href: localizations/qatar.md
             - name: Rússia
               items:
                 - name: Visão geral da Rússia
@@ -2724,6 +2778,8 @@
                   href: localizations/noam-usa-year-end-1099-reporting.md
                 - name: Formulário 1099 para o setor público
                   href: localizations/noam-usa-form-1099-public-sector.md
+                - name: Configurar fornecedores para o relatório 1099
+                  href: localizations/noam-usa-set-up-vndrs-1099-rprtg.md
         - name: Human Resources
           items:
             - name: Visão geral do Human Resources
@@ -2970,6 +3026,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Experiências de relatório padrão em ambientes de IaaS
                   href: ../fin-ops-core/dev-itpro/analytics/reporting-experience-iias-environments.md?toc=/dynamics365/finance/toc.json
+                - name: Opções de visualização de relatório do documento
+                  href: ../fin-ops-core/dev-itpro/analytics/reporting-printing-preview-page-options.md
                 - name: Impressão
                   items:
                     - name: Visão geral de impressão de documentos
@@ -3322,7 +3380,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
                         - name: 'Texto: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
-            - name: Criar formatos de ER para gerar documentos de saída eletrônicos em vários formatos
+            - name: Criar formatos ER para gerar documentos de saída eletrônicos em vários formatos
               items:
                 - name: Criar configurações para gerar documentos de saída no formato Excel
                   items:
@@ -3330,7 +3388,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/finance/toc.json
                     - name: Exemplo de geração de relatórios no formato OPENXML
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
-                    - name: Modificar formatos de ER ao reaplicar modelos do Excel
+                    - name: Modificar formatos ER ao reaplicar modelos do Excel
                       href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
                     - name: Adicionar colunas dinamicamente a relatórios do Excel como intervalos expansíveis horizontalmente
                       items:
@@ -3384,7 +3442,7 @@
                   items:
                     - name: Importar arquivos no formato XML com atributos opcionais
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/finance/toc.json
-                    - name: Configurar formatos de ER para importar arquivos de formato XML com atributos opcionais
+                    - name: Configurar formatos ER para importar arquivos de formato XML com atributos opcionais
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/finance/toc.json
             - name: Ciclo de vida da configuração
               items:
@@ -3424,7 +3482,7 @@
                           href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
             - name: Guias de início rápido
               items:
-                - name: Ajustar um formato de ER para gerar um documento eletrônico personalizado
+                - name: Ajustar um formato ER para gerar um documento eletrônico personalizado
                   href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md?toc=/dynamics365/finance/toc.json
                 - name: Criar uma solução ER para imprimir um relatório personalizado
                   href: ../fin-ops-core/dev-itpro/analytics/er-quick-start1-new-solution.md?toc=/dynamics365/finance/toc.json
@@ -3437,8 +3495,12 @@
                     - name: Usar XML BRUTO para adicionar conteúdo
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
                     - name: Suporte a chamadas parametrizadas de fontes de dados de CAMPO CALCULADO
-                      href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/finance/toc.json
-                    - name: Fontes de dados de ER interempresariais
+                      items:
+                        - name: Melhorar a experiência do usuário e a manutenção da usabilidade
+                          href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/finance/toc.json
+                        - name: Melhorar o desempenho do acesso aos dados
+                          href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-ds-performance.md?toc=/dynamics365/finance/toc.json
+                    - name: Fontes de dados ER interempresariais
                       href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Usar fontes de dados de DETALHES DE DIMENSÕES FINANCEIRAS
                       items:
@@ -3478,19 +3540,19 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
                 - name: Configurar mapeamentos de modelo
                   items:
-                    - name: Configurar mapeamentos do modelo de ER dependente do contexto do país
+                    - name: Configurar mapeamentos do modelo ER dependente do contexto do país/região
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=dynamics365/finance/toc.json
-                    - name: Gerenciar o mapeamento do modelo de ER em configurações ER separadas
+                    - name: Gerenciar o mapeamento do modelo ER em configurações ER separadas
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
                 - name: Configurar formatos
                   items:
                     - name: Selecionar definições de modelo ao criar formatos
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
-                    - name: Configurar formatos de ER para usar parâmetros especificados de acordo com a entidade legal
+                    - name: Configurar formatos ER para usar parâmetros especificados de acordo com a entidade legal
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
-                    - name: Configurar os parâmetros de um formato de ER de acordo com a entidade legal
+                    - name: Configurar os parâmetros de um formato ER de acordo com a entidade legal
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
-                    - name: Adiar execução de elementos de formato de ER
+                    - name: Adiar execução de elementos de formato ER
                       items:
                         - name: Adiar a execução de um elemento de sequência
                           href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
@@ -3506,11 +3568,11 @@
                   items:
                     - name: Configurar a estrutura de Relatórios eletrônicos
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/finance/toc.json
-                    - name: Fazer backup e recuperar modelos de ER
+                    - name: Fazer backup e recuperar modelos ER
                       items:
-                        - name: Armazenamento em backup de modelos de ER
+                        - name: Armazenamento em backup de modelos ER
                           href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/finance/toc.json
-                        - name: Limpeza de migração de ER
+                        - name: Limpeza de migração ER
                           href: ../fin-ops-core/dev-itpro/analytics/er-migration-cleanup.md?toc=/dynamics365/finance/toc.json
                     - name: Criar provedores de configuração e marcá-los como ativos
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/dynamics365/finance/toc.json
@@ -3534,13 +3596,13 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md
                     - name: Configurar destinos
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
-                - name: Configurar uma referência a um formato de ER
+                - name: Configurar uma referência a um formato ER
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                 - name: Validar automaticamente os relatórios gerados
                   items:
                     - name: Rastrear resultados dos relatórios gerados e compará-los com os valores da linha de base
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/finance/toc.json
-                    - name: Melhorias nos resultados do rastreamento dos relatórios de ER gerados e comparações de valores de linha de base
+                    - name: Melhorias nos resultados do rastreamento dos relatórios ER gerados e comparações de valores de linha de base
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
                     - name: Automatizar testes com Relatório eletrônico
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json
@@ -3550,7 +3612,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/finance/toc.json
                     - name: Gerar formulários imprimíveis de fatura de texto livre (FTI)
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/finance/toc.json
-                - name: Rastrear a execução de formatos de ER para solucionar problemas de desempenho
+                - name: Rastrear a execução de formatos ER para solucionar problemas de desempenho
                   href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                 - name: Gerenciamento de documentos comerciais
                   items:
@@ -3560,7 +3622,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md
                     - name: Adicionar novos campos a um modelo de documento comercial no Microsoft Excel
                       href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
-            - name: API da estrutura de ER
+            - name: API da estrutura ER
               items:
                 - name: Estender a lista de funções internas
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/finance/toc.json
