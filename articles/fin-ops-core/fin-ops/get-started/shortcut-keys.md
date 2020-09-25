@@ -1,6 +1,6 @@
 ---
 title: Atalhos de teclado
-description: Os atalhos de teclado a seguir podem ajudá-lo e inserir vários dados com rapidez e eficiência.
+description: Este tópico fornece uma visão geral das combinações de teclas de atalho que você pode usar ao trabalhar com aplicativos do Finance and Operations.
 author: jasongre
 manager: AnnBe
 ms.date: 10/02/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa35037b435bafa3f22013e41f0692f836e99a14
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 41d5fb270e7b01effc650b24626b81ced647a399
+ms.sourcegitcommit: 95d06006142e6bf83351fb075b413fdc2074d5ee
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811546"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761612"
 ---
 # <a name="keyboard-shortcuts"></a>Atalhos de teclado
 
 [!include [banner](../includes/banner.md)]
 
-Os atalhos de teclado a seguir podem ajudá-lo e inserir vários dados com rapidez e eficiência.
+Os atalhos de teclado a seguir podem ajudá-lo e inserir vários dados com rapidez e eficiência em aplicativos do Finance and Operations.
 
 > [!NOTE]
 > As teclas de atalho descritas aqui referem-se ao layout de teclado dos Estados Unidos. As teclas de outros layouts de teclado podem não corresponder exatamente às teclas do teclado dos EUA.
@@ -236,6 +236,7 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 | Mover para cima/para baixo na pesquisa                                                                                        | Seta para cima/Seta para baixo            |
 | Mover uma página para cima/para baixo na pesquisa                                                                                       | Page Up / Page Down              |
 | Mover para o topo/parte inferior da pesquisa                                                                                    | Início/Fim                       |
+
 ## <a name="additional-resources"></a>Recursos adicionais
 
 - [Atalhos de teclado para a análise de conta ausente](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)

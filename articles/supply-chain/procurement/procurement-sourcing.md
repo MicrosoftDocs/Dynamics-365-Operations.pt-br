@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a23e445fa6a3133c5248aef1e5dc9fdf5aeb162
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d38490e9155106d09c432fd965c95ad45f707b41
+ms.sourcegitcommit: 9c694772e1484df10afd72ea1a717fda0861627e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209205"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3813825"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Página inicial de compras
 
@@ -55,7 +55,7 @@ A aquisição e o fornecimento abrangem todas as etapas, desde a identificação
 -   [Colaboração de fornecedor com clientes](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Gerenciar usuários de colaboração do fornecedor](manage-vendor-collaboration-users.md)
 -   [Configurar e manter colaboração de fornecedor](set-up-maintain-vendor-collaboration.md)
--   [Script de entrada de demonstração de estoque de consignação para o Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(white paper)
+-   [Script de entrada de demonstração de estoque de consignação para o Microsoft Dynamics 365 for Finance and Operations](https://www.microsoft.com/download/details.aspx?id=101945)(white paper)
 -   [Monitorar o estoque de consignação usando a colaboração de fornecedor](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [Colaborar com fornecedores por meio do portal do fornecedor](collaborate-vendors-vendor-portal.md) (versões de fevereiro de 2016 e maio de 2016 do Dynamics AX somente)
 -   [Configuração de segurança do usuário no portal de fornecedor](configure-security-vendor-portal-users.md) (versões de 2016 e maio de 2016 do Finance and Operations somente)
@@ -98,7 +98,7 @@ A aquisição e o fornecimento abrangem todas as etapas, desde a identificação
 -   [Fluxos de trabalho de compras](procurement-sourcing-workflows.md)
 -   [Registrar o recebimento de mercadorias na ordem de compra](tasks/record-receipt-goods-purchase-order.md)
 -   [Fluxo de trabalho de requisição de compra](purchase-requisitions-workflow.md)
--   [Definir fluxos de trabalho de processos de negócios para requisições de compra](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (white paper)
+-   [Definir fluxos de trabalho de processos de negócios para requisições de compra](https://www.microsoft.com/download/details.aspx?id=101821) (white paper)
 -   [Visão geral de políticas de compras](purchase-policies.md)
 -   [Criar políticas de compras](tasks/create-purchasing-policies.md)
 

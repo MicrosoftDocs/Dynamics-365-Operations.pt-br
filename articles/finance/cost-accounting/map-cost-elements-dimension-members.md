@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CAMDimension, CAMDimensionMember
+ms.search.form: CAMDimension, CAMDimensionMember, CAMDimensionMapping
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: deb9b5aab9cd69270c78d4e1ea0e2a6cac6ac370
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 835a542ad5f7606f76805e54fda9f49ecc79205f
+ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176419"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759271"
 ---
 # <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Mapear membros de dimensão de elemento de custo para um conjunto comum de membros de dimensão
 
@@ -43,7 +43,7 @@ O exemplo a seguir mostra como é, como controlador de custo previsto, pode cria
 | 5030: Publicidade                                                     | 6390: Compra de estoque\*                                                    | 7000: Limpeza de despesas                                                 |
 | 7001: Limpeza de despesas                                               | 7001: Despesa de viagens                                                      | 7001: Despesa de viagens                                                   |
 
-\***O membro francês dimensão de elemento de custo previsto de compra de estoque não é mapeado.
+\*O membro francês dimensão de elemento de custo previsto de compra de estoque não é mapeado.
 
 ## <a name="currency-conversion"></a>Conversão de moeda
 Vários gráficos de contas usado podem ser definidos para usar moedas diferentes. Nesse caso, verifique especifique uma conversão de moedas, de modo que os dados de custo previsto são processados usando a moeda correta, como definido no razão da contabilização de custo estimado nos membros da dimensão do elemento de custo previsto são usados. No exemplo acima, se os dólares americanos (USD) são usados no razão da contabilização de custo previsto, você deve criar uma conversão de moeda USD em euro (EUR) para processar transações dos membros mapeados dimensão de elemento de custo previsto.
