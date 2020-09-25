@@ -3,7 +3,7 @@ title: Módulo de caixa de compra
 description: Este tópico abrange os módulos de caixa de compra e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3fe5c1eb5808ef778aeda29442fa884556671296
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 6556ee8acf1e24a9f6ceddb622960cb3ac891852
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686661"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761288"
 ---
 # <a name="buy-box-module"></a>Módulo de caixa de compra
 
@@ -59,10 +59,13 @@ Os temas podem ser usados para remover ou alterar a ordem das propriedades do pr
 
 - **Marca do título** – Esta propriedade define a marca do título para o título do produto. Se a caixa de compra estiver na parte superior da página, essa propriedade deverá ser definida como **h1** para atender aos padrões de acessibilidade. 
 
+- **Habilitar recomendações de "comprar looks semelhantes"** - Esta propriedade permite à caixa de compra mostrar links para produtos semelhantes ao item exibido no momento. Este recurso está disponível nas versões 10.0.13 e posterior do Commerce.
+
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Módulos que podem ser usados em um módulo de caixa de compra
 
 - **Galeria de mídia** – Este módulo é usado para mostrar imagens de um produto em uma página de detalhes do produto. Para obter mais informações sobre esse módulo, consulte [Módulo de galeria de mídia](media-gallery-module.md).
 - **Seletor de loja** – Este módulo mostra uma lista de lojas próximas, onde um item está disponível para retirada. Ele permite que os usuários insiram um local para encontrar lojas próximas. Para obter mais informações sobre esse módulo, consulte [Módulo de seletor de loja](store-selector.md).
+- **Compartilhamento social** - Este módulo pode ser adicionado à caixa de compra para permitir que os usuários compartilhem informações do produto nas redes sociais. Para obter mais informações, consulte [Módulo de compartilhamento social](social-share-module.md).
 
 ## <a name="buy-box-module-settings"></a>Configurações do módulo de caixa de compra
 
@@ -85,8 +88,8 @@ O módulo de caixa de compra recupera informações do produto usando as interfa
 Para adicionar um módulo de caixa de compra a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
 1. Vá para **Fragmentos** e selecione **Novo** para criar um novo fragmento.
-1. Na caixa de diálogo **Novo fragmento de página**, selecione o módulo **Caixa de compra**.
-1. Em **Nome do fragmento de página**, digite o nome **Fragmento de caixa de compra** e selecione **OK**.
+1. Na caixa de diálogo **Novo fragmento**, selecione o módulo **Caixa de compra**.
+1. Em **Nome do fragmento**, digite o nome **Fragmento de caixa de compra** e selecione **OK**.
 1. No slot **Galeria de Mídia** do módulo de caixa de compra, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Galeria de mídia** e, depois, **OK**.
 1. No slot **Seletor de loja** do módulo de caixa de compra, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
@@ -96,13 +99,13 @@ Para adicionar um módulo de caixa de compra a uma nova página e definir as pro
 1. Na caixa de diálogo **Novo Modelo**, em **Nome do modelo**, insira **Modelo PDP** e selecione **OK**.
 1. No slot **Corpo**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Página Padrão** e, depois, **OK**.
-1. No slot **Principal** da página padrão, selecione as reticências (**...**) e, depois, **Adicionar Fragmento de Página**.
-1. Na caixa de diálogo **Selecionar fragmento de página**, selecione o fragmento **Fragmento de caixa de compra** criado mais cedo e selecione **OK**.
+1. No slot **Principal** da página padrão, selecione as reticências (**...**) e, em seguida, selecione **Adicionar fragmento**.
+1. Na caixa de diálogo **Selecionar fragmento**, selecione o fragmento **Fragmento de caixa de compra** criado anteriormente e, em seguida, selecione **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
 1. Vá para **Páginas** e selecione **Novo** para criar uma nova página.
 1. Na caixa de diálogo **Escolher um modelo**, selecione o modelo **Modelo de PDP**. Em **Nome da página**, insira **Página PDP** e selecione **OK**.
-1. No slot **Principal** da nova página, selecione as reticências (**...**) e, depois, **Adicionar Fragmento de Página**.
-1. Na caixa de diálogo **Selecionar fragmento de página**, selecione o fragmento **Fragmento de caixa de compra** criado mais cedo e selecione **OK**.
+1. No slot **Principal** da nova página, selecione as reticências (**...**) e, em seguida, selecione **Adicionar fragmento**.
+1. Na caixa de diálogo **Selecionar fragmento**, selecione o fragmento **Fragmento de caixa de compra** criado anteriormente e, em seguida, selecione **OK**.
 1. Salve e exiba a página. Adicione o parâmetro da sequência de caracteres da consulta **?productid=&lt;product id&gt;** à URL da página de exibição. Dessa forma, o contexto do produto é usado para carregar e renderizar a página de exibição.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo. Uma caixa de compra deve aparecer na página de detalhes do produto.
 
@@ -118,8 +121,6 @@ Para adicionar um módulo de caixa de compra a uma nova página e definir as pro
 
 [Módulo de carrinho](add-cart-module.md)
 
-[Módulo de ícone de carrinho](cart-icon-module.md)
-
 [Módulo de finalização da compra](add-checkout-module.md)
 
 [Módulo de confirmação da ordem](order-confirmation-module.md)
@@ -127,5 +128,7 @@ Para adicionar um módulo de caixa de compra a uma nova página e definir as pro
 [Módulo de cabeçalho](author-header-module.md)
 
 [Módulo de rodapé](author-footer-module.md)
+
+[Módulo de compartilhamento social](social-share-module.md)
 
 [Calcular disponibilidade de estoque para canais de varejo](calculated-inventory-retail-channels.md)

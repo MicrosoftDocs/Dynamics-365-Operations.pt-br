@@ -1,5 +1,5 @@
 ---
-title: Recursos de visualização no Dynamics 365 Supply Chain Management 10.0.13 (outubro de 2020)
+title: Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.13 (outubro de 2020)
 description: Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 Supply Chain Management 10.0.13.
 author: kamaybac
 manager: tfehr
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: dae936ea9a72b865096cdda54d767f3e44816e20
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: af468f0cc5d5f1baab62afb3cf90dfca353b3291
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652212"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802934"
 ---
-# <a name="preview-features-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Recursos de visualização no Dynamics 365 Supply Chain Management 10.0.13 (outubro de 2020)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.13 (outubro de 2020)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Este tópico lista os recursos novos ou alterados no Microsoft Dynamics 365 Supply Chain Management, versão prévia 10.0.13. Esta versão tem um número de compilação de 10.0.569 e está disponível da seguinte maneira: 
+Este tópico lista os recursos novos ou alterados no Microsoft Dynamics 365 Supply Chain Management, versão prévia 10.0.13. Esta versão tem um número de compilação de 10.0.569 e está disponível da seguinte maneira:
 
 - **Versão de teste:** agosto de 2020
 - **Disponibilidade geral (autoatualização):** setembro de 2020
@@ -61,17 +60,17 @@ Os seguintes recursos estão incluídos nesta versão. Os títulos do recurso es
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Atualizações da plataforma para os aplicativos do Finance and Operations
 
-O Microsoft Dynamics 365 Supply Chain Management 10.0.13 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações de plataforma para a versão 10.0.13 dos aplicativos do Finance and Operations (outubro de 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-13.md).
+O Microsoft Dynamics 365 Supply Chain Management 10.0.13 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações de plataforma para a versão 10.0.13 dos aplicativos do Finance and Operations (outubro de 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md).
 
 ### <a name="bug-fixes"></a>Correções de bug
 
 Para obter informações sobre as correções de bug incluídas em cada uma das atualizações que fazem parte do 10.0.13, faça logon no Lifecycle Services (LCS) e exiba o [Artigo da base de dados de conhecimento](https://fix.lcs.dynamics.com/Issue/Details?bugId=476824&dbType=3&qc=18d329e7d9887a622bada690791f5814dbbef22bb6f4eaada3718299f40132fd). 
 
-### <a name="dynamics-365-2020-release-wave-2-plan"></a>Dynamics 365: plano da onda 2 da versão 2020
+### <a name="dynamics-365-2020-release-wave-2-plan"></a>Dynamics 365: plano do ciclo de lançamentos 2 de 2020
 
 Quer saber sobre os futuros recursos e as funcionalidades lançadas recentemente em nossos aplicativos ou plataforma de negócios?
 
-Confira o [Dynamics 365: plano da onda 2 da versão 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). Capturamos todos os detalhes, de todos os ângulos, em um único documento que você pode usar para o planejamento.
+Confira o [Dynamics 365: plano do ciclo de lançamentos 2 de 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). Capturamos todos os detalhes, de todos os ângulos, em um único documento que você pode usar para o planejamento.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Recursos removidos e preteridos do Supply Chain Management
 

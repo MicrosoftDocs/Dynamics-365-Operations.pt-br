@@ -3,7 +3,7 @@ title: Adicionar um favicon
 description: Este tópico explica como adicionar um favicon ao seu site.
 author: bicyclingfool
 manager: annbe
-ms.date: 04/27/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 198927e3391bdb577ebc845ff41d49ca798251ff
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 262e478d426fd913130b21a3434331c7d27b54b2
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686781"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761144"
 ---
 # <a name="add-a-favicon"></a>Adicionar um favicon
 
@@ -58,30 +58,30 @@ Para criar o HTML do favicon, use a seguinte cadeia de caracteres de código de 
 
 `<link rel="shortcut icon" href="Public_URL_for_your_favicon">`
 
-## <a name="create-a-page-fragment-that-contains-a-metatag-for-your-favicon"></a>Criar um fragmento de página que contenha uma marca meta para sua favicon
+## <a name="create-a-fragment-that-contains-a-metatag-for-your-favicon"></a>Criar um fragmento que contenha uma marca meta para o seu favicon
 
-Para criar um fragmento de página que contenha uma marca meta para sua favicon, siga estas etapas.
+Para criar um fragmento que contenha uma marca meta para o seu favicon, siga estas etapas.
 
 1. Vá para **Fragmentos** e selecione **Novo**.
-1. Na caixa de diálogo **Novo fragmento de página**, selecione **Marcas meta** como o módulo no qual o fragmento de página se baseia.
-1. Informe um nome para o fragmento de página e selecione **OK**.
+1. Na caixa de diálogo **Novo fragmento**, selecione **Marcas meta** como o módulo no qual o fragmento se baseia.
+1. Informe um nome para o fragmento e selecione **OK**.
 1. Na árvore de hierarquia de fragmento, selecione o filho **Padrão de marcas meta**.
 1. No painel à direita, em **Marcas meta**, selecione **Adicionar** e, em seguida, insira a cadeia de caracteres HTML criada anteriormente para o favicon. 
-1. Selecione **Concluir edição** e depois selecione **Publicar** para publicar o fragmento de página.
+1. Selecione **Concluir edição** e, em seguida, selecione **Publicar** para publicar o fragmento.
 
-## <a name="add-the-metatag-page-fragment-to-the-html-head-section-of-your-pages"></a>Adicionar o fragmento de página da marca meta à seção de cabeçalho HTML de suas páginas
+## <a name="add-the-metatag-fragment-to-the-html-head-section-of-your-pages"></a>Adicionar o fragmento da marca meta à seção head do HTML de suas páginas
 
-Para adicionar o fragmento de página da marca meta à seção de **cabeçalho** HTML de suas páginas, siga estas etapas.
+Para adicionar o fragmento da marca meta à seção **head** do HTML de suas páginas, siga estas etapas.
 
 1. Vá para **Modelos** e abra o modelo para as páginas às quais você deseja adicionar seu favicon e seleciona **Editar**.
-1. Na árvore de hierarquia de modelos, selecione o botão de reticências (**...**) à direita do contêiner de **Cabeçalho de HTML** e selecione **Adicionar fragmento de página**.
-1. Na caixa de diálogo **Selecionar fragmento de página**, selecione a página criada mais cedo e selecione **OK**.
+1. Na árvore de hierarquia de modelos, selecione o botão de reticências (**...**) à direita do contêiner **Head do HTML** e, em seguida, selecione **Adicionar fragmento**.
+1. Na caixa de diálogo **Selecionar fragmento**, selecione o fragmento da marca meta criado anteriormente e, em seguida, selecione **OK**.
 1. Selecione **Concluir edição** e depois selecione **Publicar** para publicar o modelo.
 
 > [!NOTE]
-> Se o site usar mais de um modelo, você deverá adicionar o fragmento de página de marcas meta a todos eles.
+> Se o site usar mais de um modelo, você deverá adicionar o fragmento de marcas meta a todos eles.
 
-Ao visualizar páginas baseadas no modelo ao qual você adicionou o fragmento de página de marcas meta, você verá agora o favicon na guia do navegador.
+Ao visualizar páginas baseadas no modelo ao qual você adicionou o fragmento de marcas meta, você verá agora o favicon na guia do navegador.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

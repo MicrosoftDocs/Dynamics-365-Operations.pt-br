@@ -3,7 +3,7 @@ title: Recursos de grade
 description: Este tópico descreve vários recursos avançados do controle de grade. O novo recurso de grade deve estar habilitado para ter acesso a esses recursos.
 author: jasongre
 manager: AnnBe
-ms.date: 08/03/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,24 +16,23 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b1dd5e852bdc116d0848687782c930b19eae7900
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: b4efad8423ab42bf6f7f6e2d1054307c11d31d2c
+ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651681"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760390"
 ---
 # <a name="grid-capabilities"></a>Recursos de grade
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 O novo controle de grade fornece vários recursos úteis e eficientes que podem ser usados para melhorar a produtividade do usuário, construir exibições mais interessantes dos dados e obter insights significativos sobre seus dados. Este artigo abordará os seguintes recursos: 
 
 -  Calculando totais
--  Agrupamento de dados
 -  Digitação à frente do sistema
 -  Avaliação de expressões matemáticas 
+-  Agrupando de dados tabulares (habilitados separadamente usando o recurso **Agrupamento (versão prévia) em grades**)
 
 ## <a name="calculating-totals"></a>Calculando totais
 Nos aplicativos do Finance and Operations, os usuários podem ver os totais na parte inferior das colunas numéricas em grades. Esses totais são mostrados em uma seção de rodapé na parte inferior da grade. 
@@ -71,21 +70,6 @@ Se o cálculo estiver demorando muito, você poderá cancelar a operação selec
 
 Os totais serão atualizados automaticamente à medida que você atualizar, excluir ou criar linhas no conjunto de dados.  
 
-## <a name="grouping-data"></a>Agrupamento de dados
-Geralmente, os usuários corporativos precisam executar análises ad hoc de dados. Embora isso possa ser feito por meio da exportação de dados do Microsoft Excel e usando tabelas dinâmicas, o recurso **Agrupamento** nas grades tabulares permite que os usuários organizem seus dados de modos atrativos em seus aplicativos do Finance and Operations. Como esse recurso estende o recurso **Totais** , o **Agrupamento** também permite obter insights significativos sobre os dados fornecendo subtotais no nível de grupo.
-
-Para usar esse recurso, clique com o botão direito do mouse na coluna pela qual deseja agrupar e selecione **Agrupar por esta coluna**. Essa ação vai classificar os dados pela coluna selecionada, adicionar uma nova coluna Agrupar por ao início da grade e inserir "linhas do cabeçalho" no início de cada grupo. Essas linhas de cabeçalho fornecem as seguintes informações sobre cada grupo: 
--  Valor de dados para o grupo 
--  Etiqueta da coluna (Essas informações serão especialmente úteis depois que vários níveis de agrupamento forem compatíveis.)
--  Número de linhas de dados neste grupo
--  Subtotais de qualquer coluna configurada para mostrar totais
-
-Com [Exibições salvas](saved-views.md) habilitadas, esse agrupamento pode ser salvo por personalização como parte de uma exibição para acesso rápido na próxima vez que você visitar a página.  
-
-Se você selecionar **Agrupar por esta coluna** em uma coluna diferente, o agrupamento original será substituído, pois só há suporte para um nível de agrupamento na versão 10.0.9 com atualização 33 da plataforma.
-
-Para desfazer o agrupamento em uma grade, clique com o botão direito do mouse na coluna de agrupamento e selecione **Desagrupar**.  
-
 ## <a name="typing-ahead-of-the-system"></a>Digitação à frente do sistema
 Em vários cenários comerciais, a capacidade de inserir rapidamente dados no sistema é muito importante. Antes que o novo controle de grade tenha sido introduzido, os usuários podem alterar os dados somente na linha atual. Antes de criar uma nova linha ou alternar para uma linha diferente, eles foram forçados a esperar o sistema validar com êxito as alterações. Para reduzir o tempo durante o qual os usuários esperam que as validações sejam concluídas e para melhorar a produtividade do usuário, a nova grade ajusta essas validações para que sejam assíncronas. Portanto, o usuário pode ir para outras linhas para fazer alterações enquanto as validações de linhas anteriores estão pendentes. 
 
@@ -109,6 +93,32 @@ Como um acelerador de produtividade, os usuários podem inserir fórmulas matem�
 
 Para que o sistema reconheça um valor como uma expressão, inicie o valor com um sinal de igualdade (**=**). Para obter mais informações sobre os operadores e a sintaxe permitidos, consulte [Símbolos matemáticos permitidos](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
+## <a name="grouping-tabular-data"></a>Agrupando de dados tabulares
+[!include [preview banner](../includes/preview-banner.md)]
+
+Geralmente, os usuários corporativos precisam executar análises ad hoc de dados. Embora isso possa ser feito por meio da exportação de dados do Microsoft Excel e usando tabelas dinâmicas, o recurso **Agrupamento (versão prévia) em grandes**, que depende do novo recurso de controle de grade, permite que usuários organizem dados tabulares de forma interessante em aplicativos do Finance and Operations. Como esse recurso estende o recurso **Totais**, o **Agrupamento** permite obter insights significativos sobre os dados fornecendo subtotais no nível de grupo.
+
+Para usar esse recurso, clique com o botão direito do mouse na coluna a ser agrupada e selecione **Agrupar por esta coluna**. Essa ação classificará os dados pela coluna selecionada, adicionará nova **Agrupar por coluna** ao início da grade e inserirá "linhas do cabeçalho" no início de cada grupo. Essas linhas de cabeçalho fornecem as seguintes informações sobre cada grupo: 
+-  Valor de dados para o grupo 
+-  Nome da coluna (Essas informações serão especialmente úteis depois que vários níveis de agrupamento forem compatíveis.)  
+-  Número de linhas de dados neste grupo
+-  Subtotais de qualquer coluna configurada para mostrar totais
+
+Com [Exibições salvas](saved-views.md) habilitadas, esse agrupamento pode ser salvo por personalização como parte de uma exibição para acesso rápido na próxima vez que você visitar a página.  
+
+Se você selecionar **Agrupar por esta coluna** em uma coluna diferente, o agrupamento original será substituído, pois só há suporte a um nível de agrupamento a parir da versão 10.0.9/Platform update 33.
+
+Para desfazer o agrupamento em uma grade, clique com o botão direito do mouse na coluna de agrupamento e selecione **Desagrupar**.  
+
+### <a name="expanding-and-collapsing-groups"></a>Como expandir e recolher grupos
+O agrupamento inicial de dados terá todos os grupos expandidos. Você pode criar exibições resumidas dos dados recolhendo grupos individuais ou pode usar a expansão e o recolhimento de grupos para auxiliar na navegação pelos dados. Para expandir ou recolher um grupo, selecione o botão de divisa (>) na linha de cabeçalho de grupo correspondente. Observe que o estado de expandir/recolher de grupos individuais **não** é salvo na personalização.
+
+### <a name="selecting-and-unselecting-rows-at-the-group-level"></a>Seleção e cancelamento de seleção de linhas em nível de grupo
+Da mesma forma que você pode selecionar (ou cancelar) todas as linhas na grade, marcando a caixa de seleção na parte superior da primeira coluna na grade, você também pode selecionar rapidamente (ou cancelar a seleção) todas as linhas de um grupo marcando a caixa de seleção na linha de cabeçalho de grupo correspondente. A caixa de seleção na linha de cabeçalho de grupo sempre refletirá o estado de seleção atual das linhas desse grupo, independentemente da seleção: todas as linhas, nenhuma linha apenas algumas linhas.
+
+### <a name="hiding-column-names"></a>Ocultar nomes de coluna
+Ao agrupar dados, o comportamento padrão é mostrar o nome da coluna na linha de cabeçalho do grupo. A partir da versão 10.0.14/Platform update 38, você pode optar por suprimir o nome da coluna nas linhas do cabeçalho de grupo, selecionando **Opções de grade** > **Ocultar nome da coluna do grupo**.
+
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Como habilitar o novo controle de grade no meu ambiente? 
 
@@ -131,7 +141,7 @@ Todas as sessões de usuário subsequentes começarão com o novo controle de gr
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Desenvolvedor] Impedir que páginas individuais use a nova grade 
 Se a sua organização descobre uma página que tem algumas questões usando a nova grade, uma API está disponível para permitir que um formulário individual use o controle de grade herdado enquanto ainda permite que o restante do sistema utilize o novo controle de grade. Para recusar uma página individual da nova grade, adicione a seguinte postagem de chamada `super()` no método do formulário `run()`.
 
-        this.forceLegacyGrid();
+ ```this.forceLegacyGrid();```
 
 Esta API será honrada até o lançamento de outubro de 2021, quando o novo controle de grade se torna obrigatório. Relate quaisquer problemas à Microsoft que exija que essa API seja usada. 
 

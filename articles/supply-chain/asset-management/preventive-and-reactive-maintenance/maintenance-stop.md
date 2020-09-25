@@ -1,6 +1,6 @@
 ---
-title: Tempo de inatividade de manutenção
-description: Este tópico explica o tempo de inatividade de manutenção no Gerenciamento de Ativos.
+title: Atividades de tempo de inatividade de manutenção
+description: Este tópico explica como o tempo de inatividade de manutenção é usado para obter uma visão geral da capacidade necessária para executar trabalhos de manutenção em ativos específicos durante um período específico.
 author: josaw1
 manager: tfehr
 ms.date: 08/27/2019
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c1b219d352b6b090c5c2cd3c063d7f890beaa35c
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 2f864e7fe0129f8487cddadc99b32f75a2b6d9ca
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383518"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802812"
 ---
-# <a name="maintenance-downtime"></a>Tempo de inatividade de manutenção
+# <a name="maintenance-downtime-activities"></a>Atividades de tempo de inatividade de manutenção
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 O tempo de inatividade de manutenção é usado para obter uma visão geral da capacidade necessária para executar trabalhos de manutenção em ativos específicos durante um período específico. Por exemplo, você pode criar um registro do tempo de inatividade de manutenção para a linha de produção 10 no Espaço de Produção 29-A no local de produção 02. O registro do tempo de inatividade de manutenção tem uma data de início e de término indicando o período no qual os ativos relacionados à parada de manutenção não estão disponíveis para produção.
 
@@ -79,7 +77,7 @@ A ilustração a seguir mostra um exemplo da exibição de detalhes **Atividades
 
 ![Figura 3](media/21-preventive-maintenance.png)
 
-11. Depois de obter uma visão geral da capacidade máxima, se quiser fazer ajustes em trabalhos de manutenção da ordem de serviço ou em linhas de agendamento de manutenção, retorne para a exibição de detalhes **Atividades do tempo de inatividade de manutenção** e selecione as linhas que deseja ajustar nas Guias Rápidas **Trabalhos de manutenção da ordem de serviço resultantes** e **Linhas de agendamento de manutenção**.
+11. Depois de obter uma visão geral da capacidade máxima, se quiser fazer ajustes em trabalhos de manutenção da ordem de serviço ou em linhas de agendamento de manutenção, retorne à exibição de detalhes **Atividades do tempo de inatividade de manutenção** e selecione as linhas que deseja ajustar nas FastTabs **Trabalhos de manutenção da ordem de serviço resultantes** e **Linhas de agendamento de manutenção**.
 
 12. Clique no botão **Ajustar** e atualize as datas de início/de término esperada, nível de serviço ou funcionários de manutenção responsáveis para os trabalhos de manutenção da ordem de serviço ou as linhas de agendamento de manutenção.
 

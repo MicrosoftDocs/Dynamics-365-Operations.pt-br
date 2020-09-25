@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 77598717129742f291fae4df8f09953027ce0c60
-ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
+ms.openlocfilehash: d3573aa5f8f986fa4fbf1c9ea8b322a1256aee36
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699586"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3803180"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>Materiais perigosos em produtos, ordens, remessas e cargas
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Este tópico explica como definir propriedades de materiais perigosos para produtos liberados, como colocar limites de estoque em itens perigosos e como incluir materiais perigosos em uma ordem de venda, remessa ou carga.
 

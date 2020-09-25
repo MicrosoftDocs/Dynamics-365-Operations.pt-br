@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: kamaybac1
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c5ff02ea2d9b54272b260e951ca3626673bc0a77
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 81fea8cb5be4d99247da5f6f373aa4250859fcda
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204991"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802862"
 ---
 # <a name="whats-new-and-changed-in-dynamics-365-supply-chain-management-1007-january-2020"></a>Novidades e alterações no Dynamics 365 Supply Chain Management 10.0.7 (janeiro de 2020)
 
@@ -50,10 +50,10 @@ Para obter informações sobre as correções de bug incluídas em cada uma das 
 ### <a name="platform-update-31"></a>Update 31 para plataforma
 O Microsoft Dynamics 365 Supply Chain Management 10.0.7 inclui a Atualização de plataforma 31. Para saber mais sobre a Atualização de plataforma 31, consulte [Novidades e alterações da Atualização de plataforma 31](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-31.md).
 
-### <a name="dynamics-365-2019-release-wave-2-plan"></a>Dynamics 365: plano da onda 2 da versão 2019
+### <a name="dynamics-365-2019-release-wave-2-plan"></a>Dynamics 365: plano do ciclo de lançamentos 2 de 2019
 Quer saber sobre os futuros recursos e as funcionalidades lançadas recentemente em nossos aplicativos ou plataforma de negócios?
 
-Confira o [Dynamics 365: plano da onda 2 da versão 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/). Capturamos todos os detalhes, de todos os ângulos, em um único documento que você pode usar para o planejamento.
+Confira o [Dynamics 365: plano do ciclo de lançamentos 2 de 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/). Capturamos todos os detalhes, de todos os ângulos, em um único documento que você pode usar para o planejamento.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Recursos removidos e preteridos do Supply Chain Management
 
