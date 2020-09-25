@@ -3,7 +3,7 @@ title: Módulo de carrinho
 description: Este tópico abrange os módulos de carrinho e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/05/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 07d485012bfc93c957b3dc42e3b0ed62e761dee1
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 07d121d5a68970dd29f0e77babda735de12871ca
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686757"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761120"
 ---
 # <a name="cart-module"></a>Módulo de carrinho
 
@@ -77,8 +77,8 @@ O módulo de carrinho recupera informações do produto usando as APIs de Commer
 Para adicionar um módulo de carrinho a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
 1. Vá para **Fragmentos** e selecione **Novo** para criar um novo fragmento.
-1. Na caixa de diálogo **Novo fragmento de página**, selecione o módulo **Carrinho**.
-1. Em **Nome do fragmento de página**, digite o nome **Fragmento de carrinho** e selecione **OK**.
+1. Na caixa de diálogo **Novo fragmento**, selecione o módulo **Carrinho**.
+1. Em **Nome do fragmento**, digite o nome **Fragmento de carrinho** e selecione **OK**.
 1. Selecione o slot **Carrinho**.
 1. No painel de propriedades à direita, selecione o símbolo de lápis, digite o texto do título no campo e, em seguida, selecione o símbolo de marca de seleção.
 1. No slot **Carrinho**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
@@ -86,8 +86,8 @@ Para adicionar um módulo de carrinho a uma nova página e definir as propriedad
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do fragmento e depois selecione **Publicar** para publicá-lo.
 1. Vá para **Modelos** e selecione **Novo** para criar um novo modelo.
 1. Na caixa de diálogo **Novo Modelo**, em **Nome do modelo**, insira um nome para o modelo.
-1. Na árvore de estrutura de tópicos, selecione o slot **Corpo**, as reticências (**...**) e, depois, **Adicionar fragmento de página**.
-1. Na caixa de diálogo **Selecionar fragmento de página**, selecione o fragmento **Fragmento de carrinho** e **OK**.
+1. Na árvore de estrutura de tópicos, selecione o slot **Corpo**, as reticências (**...**) e, em seguida, selecione **Adicionar fragmento**.
+1. Na caixa de diálogo **Selecionar fragmento**, selecione o fragmento **Fragmento de carrinho** e, em seguida, selecione **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
 1. Vá para **Páginas** e selecione **Novo** para criar uma nova página.
 1. Na caixa de diálogo **Escolher um modelo**, selecione o modelo que você criou, insira um nome de página e selecione **OK**.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a20be4730189f1f81a08b5dda21e97aaedd7d3b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c757779d60147748e305d85fbc2b0bf6b0eedaf3
+ms.sourcegitcommit: 9c694772e1484df10afd72ea1a717fda0861627e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209228"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3813903"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>Fluxos de trabalho de compras
 
@@ -70,7 +70,7 @@ Você pode atribuir uma etapa de aprovação aos grupos de participantes a segui
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-- [Definir fluxos de trabalho de processos de negócios para requisições de compra](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
+- [Definir fluxos de trabalho de processos de negócios para requisições de compra](https://www.microsoft.com/download/details.aspx?id=101821)
 
 - [Fluxo de trabalho de requisição de compra](purchase-requisitions-workflow.md)
 
