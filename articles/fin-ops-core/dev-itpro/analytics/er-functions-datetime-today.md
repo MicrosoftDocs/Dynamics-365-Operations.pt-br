@@ -18,35 +18,35 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 94ef15d1971287e8bf13944bc8f693b567950031
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: e2ee153c1dde99810a78ed15c7505fa705088797
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411428"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745432"
 ---
-# <a name=""></a><span data-ttu-id="d6b68-103"><a name="TODAY">Função de ER TODAY</a></span><span class="sxs-lookup"><span data-stu-id="d6b68-103"><a name="TODAY">TODAY ER function</a></span></span>
+# <a name="today-er-function"></a><span data-ttu-id="2ecd5-103">Função de ER TODAY</span><span class="sxs-lookup"><span data-stu-id="2ecd5-103">TODAY ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d6b68-104">A função `TODAY` retorna um valor de *Data* que representa a data atual do servidor do aplicativo.</span><span class="sxs-lookup"><span data-stu-id="d6b68-104">The `TODAY` function returns a *Date* value that represents the current application server date.</span></span>
+<span data-ttu-id="2ecd5-104">A função `TODAY` retorna um valor de *Data* que representa a data atual do servidor do aplicativo.</span><span class="sxs-lookup"><span data-stu-id="2ecd5-104">The `TODAY` function returns a *Date* value that represents the current application server date.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d6b68-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="d6b68-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2ecd5-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="2ecd5-105">Syntax</span></span>
 
 ```xpp
 TODAY ()
 ```
 
-## <a name="return-values"></a><span data-ttu-id="d6b68-106">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="d6b68-106">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="2ecd5-106">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="2ecd5-106">Return values</span></span>
 
-<span data-ttu-id="d6b68-107">*Data*</span><span class="sxs-lookup"><span data-stu-id="d6b68-107">*Date*</span></span>
+<span data-ttu-id="2ecd5-107">*Data*</span><span class="sxs-lookup"><span data-stu-id="2ecd5-107">*Date*</span></span>
 
-<span data-ttu-id="d6b68-108">O valor de data resultante.</span><span class="sxs-lookup"><span data-stu-id="d6b68-108">The resulting date value.</span></span>
+<span data-ttu-id="2ecd5-108">O valor de data resultante.</span><span class="sxs-lookup"><span data-stu-id="2ecd5-108">The resulting date value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="d6b68-109">Exemplo</span><span class="sxs-lookup"><span data-stu-id="d6b68-109">Example</span></span>
+## <a name="example"></a><span data-ttu-id="2ecd5-109">Exemplo</span><span class="sxs-lookup"><span data-stu-id="2ecd5-109">Example</span></span>
 
-<span data-ttu-id="d6b68-110">`DATEFORMAT (TODAY (), "dd-MM-yyyy")` retorna a data atual do servidor do aplicativo, 24 de dezembro de 2015, como a cadeia de caracteres **"24-12-2015"**, com base no formato personalizado especificado.</span><span class="sxs-lookup"><span data-stu-id="d6b68-110">`DATEFORMAT (TODAY (), "dd-MM-yyyy")` returns the current application server date, December 24, 2015, as the string **"24-12-2015"**, based on the specified custom format.</span></span>
+<span data-ttu-id="2ecd5-110">`DATEFORMAT (TODAY (), "dd-MM-yyyy")` retorna a data atual do servidor do aplicativo, 24 de dezembro de 2015, como a cadeia de caracteres **"24-12-2015"**, com base no formato personalizado especificado.</span><span class="sxs-lookup"><span data-stu-id="2ecd5-110">`DATEFORMAT (TODAY (), "dd-MM-yyyy")` returns the current application server date, December 24, 2015, as the string **"24-12-2015"**, based on the specified custom format.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="d6b68-111">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="d6b68-111">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="2ecd5-111">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="2ecd5-111">Additional resources</span></span>
 
-[<span data-ttu-id="d6b68-112">Funções de data e de hora</span><span class="sxs-lookup"><span data-stu-id="d6b68-112">Date and time functions</span></span>](er-functions-category-datetime.md)
+[<span data-ttu-id="2ecd5-112">Funções de data e de hora</span><span class="sxs-lookup"><span data-stu-id="2ecd5-112">Date and time functions</span></span>](er-functions-category-datetime.md)

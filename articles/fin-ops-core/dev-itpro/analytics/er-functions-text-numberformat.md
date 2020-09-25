@@ -18,63 +18,63 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41f48fb49b2d28acf69fe05fe87644a4c43e81fe
-ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
+ms.openlocfilehash: 8a431414044846bf4e79e6b9f0e5b27281ea8f46
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "3070543"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744398"
 ---
-# <span data-ttu-id="f9aed-103"><a name="NUMBERFORMAT">Função de ER NUMBERFORMAT</a></span><span class="sxs-lookup"><span data-stu-id="f9aed-103"><a name="NUMBERFORMAT">NUMBERFORMAT ER function</a></span></span>
+# <a name="numberformat-er-function"></a><span data-ttu-id="762c2-103">Função de ER NUMBERFORMAT</span><span class="sxs-lookup"><span data-stu-id="762c2-103">NUMBERFORMAT ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="f9aed-104">A função `NUMBERFORMAT` retorna um valor de *Cadeia de caracteres* que apresenta o número especificado no formato especificado e em uma [cultura](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) opcionalmente especificada.</span><span class="sxs-lookup"><span data-stu-id="f9aed-104">The `NUMBERFORMAT` function returns a *String* value that presents the specified number in the specified format and in an optionally specified [culture](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes).</span></span> <span data-ttu-id="f9aed-105">Para obter informações sobre os formatos com suporte, consulte [padrão](https://msdn.microsoft.com/library/dwhawy9k(v=vs.110).aspx) e [personalizado](https://msdn.microsoft.com/library/0c899ak8(v=vs.110).aspx).</span><span class="sxs-lookup"><span data-stu-id="f9aed-105">For information about the supported formats, see [standard](https://msdn.microsoft.com/library/dwhawy9k(v=vs.110).aspx) and [custom](https://msdn.microsoft.com/library/0c899ak8(v=vs.110).aspx).</span></span>
+<span data-ttu-id="762c2-104">A função `NUMBERFORMAT` retorna um valor de *Cadeia de caracteres* que apresenta o número especificado no formato especificado e em uma [cultura](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) opcionalmente especificada.</span><span class="sxs-lookup"><span data-stu-id="762c2-104">The `NUMBERFORMAT` function returns a *String* value that presents the specified number in the specified format and in an optionally specified [culture](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes).</span></span> <span data-ttu-id="762c2-105">Para obter informações sobre os formatos com suporte, consulte [padrão](https://msdn.microsoft.com/library/dwhawy9k(v=vs.110).aspx) e [personalizado](https://msdn.microsoft.com/library/0c899ak8(v=vs.110).aspx).</span><span class="sxs-lookup"><span data-stu-id="762c2-105">For information about the supported formats, see [standard](https://msdn.microsoft.com/library/dwhawy9k(v=vs.110).aspx) and [custom](https://msdn.microsoft.com/library/0c899ak8(v=vs.110).aspx).</span></span>
 
-## <a name="syntax-1"></a><span data-ttu-id="f9aed-106">Sintaxe 1</span><span class="sxs-lookup"><span data-stu-id="f9aed-106">Syntax 1</span></span>
+## <a name="syntax-1"></a><span data-ttu-id="762c2-106">Sintaxe 1</span><span class="sxs-lookup"><span data-stu-id="762c2-106">Syntax 1</span></span>
 
 ```vb
 NUMBERFORMAT (number, format)
 ```
 
-## <a name="syntax-2"></a><span data-ttu-id="f9aed-107">Sintaxe 2</span><span class="sxs-lookup"><span data-stu-id="f9aed-107">Syntax 2</span></span>
+## <a name="syntax-2"></a><span data-ttu-id="762c2-107">Sintaxe 2</span><span class="sxs-lookup"><span data-stu-id="762c2-107">Syntax 2</span></span>
 
 ```vb
 NUMBERFORMAT (number, format, culture)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="f9aed-108">Argumentos</span><span class="sxs-lookup"><span data-stu-id="f9aed-108">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="762c2-108">Argumentos</span><span class="sxs-lookup"><span data-stu-id="762c2-108">Arguments</span></span>
 
-<span data-ttu-id="f9aed-109">`number`: *Inteiro* ou *Real*</span><span class="sxs-lookup"><span data-stu-id="f9aed-109">`number`: *Integer* or *Real*</span></span>
+<span data-ttu-id="762c2-109">`number`: *Inteiro* ou *Real*</span><span class="sxs-lookup"><span data-stu-id="762c2-109">`number`: *Integer* or *Real*</span></span>
 
-<span data-ttu-id="f9aed-110">Um valor numérico que especifica o número que deve ser formatado.</span><span class="sxs-lookup"><span data-stu-id="f9aed-110">A numeric value that specifies the number that must be formatted.</span></span>
+<span data-ttu-id="762c2-110">Um valor numérico que especifica o número que deve ser formatado.</span><span class="sxs-lookup"><span data-stu-id="762c2-110">A numeric value that specifies the number that must be formatted.</span></span>
 
-<span data-ttu-id="f9aed-111">`format`: *Cadeia de caracteres*</span><span class="sxs-lookup"><span data-stu-id="f9aed-111">`format` : *String*</span></span>
+<span data-ttu-id="762c2-111">`format`: *Cadeia de caracteres*</span><span class="sxs-lookup"><span data-stu-id="762c2-111">`format` : *String*</span></span>
 
-<span data-ttu-id="f9aed-112">Um valor de *Cadeia de caracteres* que representa o formato.</span><span class="sxs-lookup"><span data-stu-id="f9aed-112">A *String* value that represents the format.</span></span>
+<span data-ttu-id="762c2-112">Um valor de *Cadeia de caracteres* que representa o formato.</span><span class="sxs-lookup"><span data-stu-id="762c2-112">A *String* value that represents the format.</span></span>
 
-<span data-ttu-id="f9aed-113">`culture`: *Cadeia de caracteres*</span><span class="sxs-lookup"><span data-stu-id="f9aed-113">`culture`: *String*</span></span>
+<span data-ttu-id="762c2-113">`culture`: *Cadeia de caracteres*</span><span class="sxs-lookup"><span data-stu-id="762c2-113">`culture`: *String*</span></span>
 
-<span data-ttu-id="f9aed-114">Um valor de *Cadeia de caracteres* que representa a cultura a ser usada para a formatação.</span><span class="sxs-lookup"><span data-stu-id="f9aed-114">A *String* value that represents the culture to use for formatting.</span></span>
+<span data-ttu-id="762c2-114">Um valor de *Cadeia de caracteres* que representa a cultura a ser usada para a formatação.</span><span class="sxs-lookup"><span data-stu-id="762c2-114">A *String* value that represents the culture to use for formatting.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="f9aed-115">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="f9aed-115">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="762c2-115">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="762c2-115">Return values</span></span>
 
-<span data-ttu-id="f9aed-116">*Cadeia de caracteres*</span><span class="sxs-lookup"><span data-stu-id="f9aed-116">*String*</span></span>
+<span data-ttu-id="762c2-116">*Cadeia de caracteres*</span><span class="sxs-lookup"><span data-stu-id="762c2-116">*String*</span></span>
 
-<span data-ttu-id="f9aed-117">O valor de texto resultante.</span><span class="sxs-lookup"><span data-stu-id="f9aed-117">The resulting text value.</span></span>
+<span data-ttu-id="762c2-117">O valor de texto resultante.</span><span class="sxs-lookup"><span data-stu-id="762c2-117">The resulting text value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="f9aed-118">Notas de uso</span><span class="sxs-lookup"><span data-stu-id="f9aed-118">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="762c2-118">Notas de uso</span><span class="sxs-lookup"><span data-stu-id="762c2-118">Usage notes</span></span>
 
-<span data-ttu-id="f9aed-119">Se a cultura não estiver definida como um argumento da função chamada, o contexto no qual esta função é executada determinará a cultura usada para formatar números.</span><span class="sxs-lookup"><span data-stu-id="f9aed-119">If the culture isn't defined as an argument of the called function, the context that this function is run in determines the culture that is used to format numbers.</span></span>
+<span data-ttu-id="762c2-119">Se a cultura não estiver definida como um argumento da função chamada, o contexto no qual esta função é executada determinará a cultura usada para formatar números.</span><span class="sxs-lookup"><span data-stu-id="762c2-119">If the culture isn't defined as an argument of the called function, the context that this function is run in determines the culture that is used to format numbers.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="f9aed-120">Exemplo 1</span><span class="sxs-lookup"><span data-stu-id="f9aed-120">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="762c2-120">Exemplo 1</span><span class="sxs-lookup"><span data-stu-id="762c2-120">Example 1</span></span>
 
-<span data-ttu-id="f9aed-121">Para a cultura **EN-US**, `NUMBERFORMAT (0.45, "p")` retorna **"45.00 %"** e `NUMBERFORMAT (10.45, "#")` retorna **"10"**.</span><span class="sxs-lookup"><span data-stu-id="f9aed-121">For the **EN-US** culture, `NUMBERFORMAT (0.45, "p")` returns **"45.00 %"**, and `NUMBERFORMAT (10.45, "#")` returns **"10"**.</span></span>
+<span data-ttu-id="762c2-121">Para a cultura **EN-US**, `NUMBERFORMAT (0.45, "p")` retorna **"45.00 %"** e `NUMBERFORMAT (10.45, "#")` retorna **"10"**.</span><span class="sxs-lookup"><span data-stu-id="762c2-121">For the **EN-US** culture, `NUMBERFORMAT (0.45, "p")` returns **"45.00 %"**, and `NUMBERFORMAT (10.45, "#")` returns **"10"**.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="f9aed-122">Exemplo 2</span><span class="sxs-lookup"><span data-stu-id="f9aed-122">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="762c2-122">Exemplo 2</span><span class="sxs-lookup"><span data-stu-id="762c2-122">Example 2</span></span>
 
-<span data-ttu-id="f9aed-123">`NUMBERFORMAT (10/3, "F2", "de")` retorna **3,33**, enquanto `NUMBERFORMAT (10/3, "F2", "en-us")` retorna **3.33**.</span><span class="sxs-lookup"><span data-stu-id="f9aed-123">`NUMBERFORMAT (10/3, "F2", "de")` returns **3,33**, whereas `NUMBERFORMAT (10/3, "F2", "en-us")` returns **3.33**.</span></span>
+<span data-ttu-id="762c2-123">`NUMBERFORMAT (10/3, "F2", "de")` retorna **3,33**, enquanto `NUMBERFORMAT (10/3, "F2", "en-us")` retorna **3.33**.</span><span class="sxs-lookup"><span data-stu-id="762c2-123">`NUMBERFORMAT (10/3, "F2", "de")` returns **3,33**, whereas `NUMBERFORMAT (10/3, "F2", "en-us")` returns **3.33**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="f9aed-124">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="f9aed-124">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="762c2-124">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="762c2-124">Additional resources</span></span>
 
-[<span data-ttu-id="f9aed-125">Funções de texto</span><span class="sxs-lookup"><span data-stu-id="f9aed-125">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="762c2-125">Funções de texto</span><span class="sxs-lookup"><span data-stu-id="762c2-125">Text functions</span></span>](er-functions-category-text.md)

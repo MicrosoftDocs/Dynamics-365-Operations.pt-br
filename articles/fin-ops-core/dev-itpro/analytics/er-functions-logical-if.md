@@ -18,55 +18,55 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 198210f15e75de761dbb03e5087ba7c77a95721a
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 87e252a2751beeecb51e512cae38b271c1456fae
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041736"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744686"
 ---
-# <span data-ttu-id="8540a-103"><a name="IF">Função de ER IF</a></span><span class="sxs-lookup"><span data-stu-id="8540a-103"><a name="IF">IF ER function</a></span></span>
+# <a name="if-er-function"></a><span data-ttu-id="79198-103">Função de ER IF</span><span class="sxs-lookup"><span data-stu-id="79198-103">IF ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="8540a-104">A função `IF` retorna o primeiro valor especificado se a condição especificada for atendida.</span><span class="sxs-lookup"><span data-stu-id="8540a-104">The `IF` function returns the first specified value if the specified condition is met.</span></span> <span data-ttu-id="8540a-105">Caso contrário, ele retorna o segundo valor especificado.</span><span class="sxs-lookup"><span data-stu-id="8540a-105">Otherwise, it returns the second specified value.</span></span> <span data-ttu-id="8540a-106">O valor retornado pode ser um valor de qualquer um dos tipos de dados com suporte.</span><span class="sxs-lookup"><span data-stu-id="8540a-106">The value that is returned can be a value of any of the supported data types.</span></span>
+<span data-ttu-id="79198-104">A função `IF` retorna o primeiro valor especificado se a condição especificada for atendida.</span><span class="sxs-lookup"><span data-stu-id="79198-104">The `IF` function returns the first specified value if the specified condition is met.</span></span> <span data-ttu-id="79198-105">Caso contrário, ele retorna o segundo valor especificado.</span><span class="sxs-lookup"><span data-stu-id="79198-105">Otherwise, it returns the second specified value.</span></span> <span data-ttu-id="79198-106">O valor retornado pode ser um valor de qualquer um dos tipos de dados com suporte.</span><span class="sxs-lookup"><span data-stu-id="79198-106">The value that is returned can be a value of any of the supported data types.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8540a-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="8540a-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="79198-107">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="79198-107">Syntax</span></span>
 
 ```vb
 IF (condition, first value, second value) as any of the supported data types
 ```
 
-## <a name="arguments"></a><span data-ttu-id="8540a-108">Argumentos</span><span class="sxs-lookup"><span data-stu-id="8540a-108">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="79198-108">Argumentos</span><span class="sxs-lookup"><span data-stu-id="79198-108">Arguments</span></span>
 
-<span data-ttu-id="8540a-109">`condition`: *Booliano*</span><span class="sxs-lookup"><span data-stu-id="8540a-109">`condition`: *Boolean*</span></span>
+<span data-ttu-id="79198-109">`condition`: *Booliano*</span><span class="sxs-lookup"><span data-stu-id="79198-109">`condition`: *Boolean*</span></span>
 
-<span data-ttu-id="8540a-110">Uma expressão condicional válida que deve ser testada.</span><span class="sxs-lookup"><span data-stu-id="8540a-110">A valid conditional expression that must be tested.</span></span>
+<span data-ttu-id="79198-110">Uma expressão condicional válida que deve ser testada.</span><span class="sxs-lookup"><span data-stu-id="79198-110">A valid conditional expression that must be tested.</span></span>
 
-<span data-ttu-id="8540a-111">`first value`: *Qualquer um dos tipos de dados com suporte*</span><span class="sxs-lookup"><span data-stu-id="8540a-111">`first value`: *Any of the supported data types*</span></span>
+<span data-ttu-id="79198-111">`first value`: *Qualquer um dos tipos de dados com suporte*</span><span class="sxs-lookup"><span data-stu-id="79198-111">`first value`: *Any of the supported data types*</span></span>
 
-<span data-ttu-id="8540a-112">O resultado que será retornado se a condição for atendida.</span><span class="sxs-lookup"><span data-stu-id="8540a-112">The result that is returned if the condition is met.</span></span>
+<span data-ttu-id="79198-112">O resultado que será retornado se a condição for atendida.</span><span class="sxs-lookup"><span data-stu-id="79198-112">The result that is returned if the condition is met.</span></span>
 
-<span data-ttu-id="8540a-113">`second value`: *Qualquer um dos tipos de dados com suporte*</span><span class="sxs-lookup"><span data-stu-id="8540a-113">`second value`: *Any of the supported data types*</span></span>
+<span data-ttu-id="79198-113">`second value`: *Qualquer um dos tipos de dados com suporte*</span><span class="sxs-lookup"><span data-stu-id="79198-113">`second value`: *Any of the supported data types*</span></span>
 
-<span data-ttu-id="8540a-114">O resultado que será retornado se a condição não for atendida.</span><span class="sxs-lookup"><span data-stu-id="8540a-114">The result that is returned if the condition isn't met.</span></span>
+<span data-ttu-id="79198-114">O resultado que será retornado se a condição não for atendida.</span><span class="sxs-lookup"><span data-stu-id="79198-114">The result that is returned if the condition isn't met.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="8540a-115">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="8540a-115">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="79198-115">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="79198-115">Return values</span></span>
 
-<span data-ttu-id="8540a-116">*Qualquer um dos tipos de dados com suporte*</span><span class="sxs-lookup"><span data-stu-id="8540a-116">*Any of the supported data types*</span></span>
+<span data-ttu-id="79198-116">*Qualquer um dos tipos de dados com suporte*</span><span class="sxs-lookup"><span data-stu-id="79198-116">*Any of the supported data types*</span></span>
 
-<span data-ttu-id="8540a-117">O valor resultante de qualquer um dos tipos de dados com suporte.</span><span class="sxs-lookup"><span data-stu-id="8540a-117">The resulting value of any of the supported data types.</span></span>
+<span data-ttu-id="79198-117">O valor resultante de qualquer um dos tipos de dados com suporte.</span><span class="sxs-lookup"><span data-stu-id="79198-117">The resulting value of any of the supported data types.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="8540a-118">Notas de uso</span><span class="sxs-lookup"><span data-stu-id="8540a-118">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="79198-118">Notas de uso</span><span class="sxs-lookup"><span data-stu-id="79198-118">Usage notes</span></span>
 
-<span data-ttu-id="8540a-119">Os argumentos `first value` e `second value` devem ser especificados usando o mesmo tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="8540a-119">The `first value` and `second value` arguments must be specified by using the same data type.</span></span> <span data-ttu-id="8540a-120">Uma exceção é gerada no momento do design se os tipos de dados dos valores configurados não forem correspondentes.</span><span class="sxs-lookup"><span data-stu-id="8540a-120">An exception is thrown at design time if the data types of the configured values don't match.</span></span>
+<span data-ttu-id="79198-119">Os argumentos `first value` e `second value` devem ser especificados usando o mesmo tipo de dados.</span><span class="sxs-lookup"><span data-stu-id="79198-119">The `first value` and `second value` arguments must be specified by using the same data type.</span></span> <span data-ttu-id="79198-120">Uma exceção é gerada no momento do design se os tipos de dados dos valores configurados não forem correspondentes.</span><span class="sxs-lookup"><span data-stu-id="79198-120">An exception is thrown at design time if the data types of the configured values don't match.</span></span>
 
-<span data-ttu-id="8540a-121">Se o primeiro e o segundo valor forem valores do tipo de dados *Contêiner (registro)* ou *Lista de registros*, o resultado terá somente os campos existentes nos dois valores.</span><span class="sxs-lookup"><span data-stu-id="8540a-121">If the first value and the second value are values of the *Container (record)* or *Record list* data type, the result has only the fields that exist in both values.</span></span>
+<span data-ttu-id="79198-121">Se o primeiro e o segundo valor forem valores do tipo de dados *Contêiner (registro)* ou *Lista de registros*, o resultado terá somente os campos existentes nos dois valores.</span><span class="sxs-lookup"><span data-stu-id="79198-121">If the first value and the second value are values of the *Container (record)* or *Record list* data type, the result has only the fields that exist in both values.</span></span>
 
-## <a name="example"></a><span data-ttu-id="8540a-122">Exemplo</span><span class="sxs-lookup"><span data-stu-id="8540a-122">Example</span></span>
+## <a name="example"></a><span data-ttu-id="79198-122">Exemplo</span><span class="sxs-lookup"><span data-stu-id="79198-122">Example</span></span>
 
-<span data-ttu-id="8540a-123">`IF (1=2, "condition is met", "condition is not met")` retorna a cadeia de caracteres **"condição não atendida"**.</span><span class="sxs-lookup"><span data-stu-id="8540a-123">`IF (1=2, "condition is met", "condition is not met")` returns the string **"condition is not met"**.</span></span>
+<span data-ttu-id="79198-123">`IF (1=2, "condition is met", "condition is not met")` retorna a cadeia de caracteres **"condição não atendida"**.</span><span class="sxs-lookup"><span data-stu-id="79198-123">`IF (1=2, "condition is met", "condition is not met")` returns the string **"condition is not met"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="8540a-124">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="8540a-124">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="79198-124">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="79198-124">Additional resources</span></span>
 
-[<span data-ttu-id="8540a-125">Funções lógicas</span><span class="sxs-lookup"><span data-stu-id="8540a-125">Logical functions</span></span>](er-functions-category-logical.md)
+[<span data-ttu-id="79198-125">Funções lógicas</span><span class="sxs-lookup"><span data-stu-id="79198-125">Logical functions</span></span>](er-functions-category-logical.md)
