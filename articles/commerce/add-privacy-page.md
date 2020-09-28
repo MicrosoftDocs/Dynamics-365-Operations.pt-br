@@ -3,7 +3,7 @@ title: Adicionar página de política de privacidade
 description: Este tópico descreve como adicionar uma página de política de privacidade ao seu site no Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2ee361c2e99b79e503e8d94c12602f9427f1ed5c
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: ce6491d176f90717877f084b11546010084c5f3b
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686686"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761264"
 ---
 # <a name="add-a-privacy-policy-page"></a>Adicionar página de política de privacidade
 
@@ -89,8 +89,8 @@ Você pode adicionar um link à página de política de privacidade a um fragmen
 Para adicionar um link a um fragmento de rodapé, siga estas etapas.
 
 1. Vá para **Fragmentos** e selecione **Novo** para criar um fragmento de página.
-1. Na caixa de diálogo **Novo fragmento de página**, selecione o módulo **Rodapé**.
-1. Em **Nome do fragmento de página**, digite um nome para o fragmento e, em seguida, selecione **OK**.
+1. Na caixa de diálogo **Novo fragmento**, selecione o módulo **Rodapé**.
+1. Em **Nome do fragmento**, digite um nome para o fragmento e, em seguida, selecione **OK**.
 1. No slot **Categoria de rodapé**, adicione um módulo de **Item de cabeçalho**.
 1. No painel de propriedades à direita, selecione **Vincular texto**.
 1. Na caixa de diálogo **Vincular texto**, insira o texto de link e destino do link da página de política de privacidade, e depois clique em **OK**.

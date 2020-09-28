@@ -3,7 +3,7 @@ title: Criar um plano de licença e ausência
 description: Crie planos de licença no Dynamics 365 Human Resources para diferentes tipos de licença.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 75a70c5784e7032cfebbe58c1d173923a3023507
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: cb42860292c5e3e654917cf2f62b525993aa795a
+ms.sourcegitcommit: 1edd3d4642f8fdc801b43b981b7c1a1c36ae0645
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428700"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "3796488"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Criar um plano de licença e ausência
 
@@ -43,7 +43,15 @@ Você também pode criar benefícios de licença baseada em posição, como hora
 
 2. Em **detalhes**, digite o **Nome**, a **Data de início**, a **Descrição** e o **Tipo de licença** para seu plano.
 
-Se o recurso **Configurar vários tipos de licença** para um único plano de licença e ausência estiver habilitado, os tipos de licença serão configurados em **Agenda de acúmulo** em vez de em **Detalhes**. Para cada registro na tabela de agenda de competência, você pode definir um tipo de licença.
+Se o recurso **Configurar vários tipos de licença** para um único plano de licença e ausência estiver habilitado, os tipos de licença serão configurados em **Agenda de acúmulo** em vez de em **Detalhes**. Para cada registro na tabela de agenda de competência, você pode definir um tipo de licença. Além disso, ao habilitar esse recurso, você precisará usar novas entidades de dados para integrações ou outros cenários nos quais precisa usar entidades. 
+
+As novas entidades são:
+
+- V2 da transação bancária de licença e ausência
+- V2 da registro para licença e ausência
+- V2 da camada do plano de licença e ausência
+- V2 do plano de licença e ausência
+- Solicitação de folga V2
 
  > [!IMPORTANT]
    > Após ativar esse recurso, você não poderá desativá-lo.
@@ -67,7 +75,7 @@ Se o recurso **Configurar vários tipos de licença** para um único plano de li
       | Base do período de competência | Descrição |
       | --- | --- |
       | **Data inicial do plano** | A data inicial do período de competência é a data em que o plano está disponível. |
-      | **Data específica do funcionário** | A data de início do período de competência depende de um evento de funcionário:</br><ul><li>Personalizado (você deve especificar uma base de data de competência para cada inscrição individual)</li><li>Data do aniversário de tempo de serviço</li><li>Data original da contratação</li><li>Aniversário de tempo de serviço</li><li>Data inicial ajustada do trabalhador</li><li>Data inicial do trabalhador</li></ul> |
+      | **Data específica do funcionário** | A data de início do período de competência depende de um evento de funcionário:</br><ul><li>Personalizado (você deve especificar uma base de data de competência para cada registro individual)</li><li>Data do aniversário de tempo de serviço</li><li>Data original da contratação</li><li>Aniversário de tempo de serviço</li><li>Data inicial ajustada do trabalhador</li><li>Data inicial do trabalhador</li></ul> |
 
    3. Selecione uma opção na caixa suspensa **Data de concessão da competência**:
 
@@ -195,7 +203,7 @@ Uma única data só pode ter um de cada tipo associado a ela.
 
 ## <a name="enrollments-and-balances"></a>Registros e saldos
 
-### <a name="enrollment-date"></a>Data da inscrição
+### <a name="enrollment-date"></a>Data da registro
 
 A data do registro determina quando um funcionário pode iniciar o acúmulo de folgas. Por exemplo, se um funcionário tiver se registrado em um plano de férias no 15 de junho de 2018, ela não pode acumular folgas antes do dia 15 de junho de 2018.
 

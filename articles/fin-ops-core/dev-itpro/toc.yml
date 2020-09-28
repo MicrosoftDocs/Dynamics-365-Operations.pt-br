@@ -14,12 +14,12 @@
               items:
                 - name: Novidades ou alterações na home page de Platform updates
                   href: get-started/whats-new-home-page.md
+                - name: Platform updates para 10.0.14 (novembro de 2020)
+                  href: get-started/whats-new-platform-updates-10-0-14.md
                 - name: Platform updates para 10.0.13 (outubro de 2020)
                   href: get-started/whats-new-platform-updates-10-0-13.md
                 - name: Platform updates para 10.0.12 (agosto de 2020)
                   href: get-started/whats-new-platform-update-10-0-12.md
-                - name: Platform updates para 10.0.11 (julho de 2020)
-                  href: get-started/whats-new-platform-update-35.md
             - name: Recursos removidos ou obsoletos
               items:
                 - name: Recursos de Platform removidos ou obsoletos
@@ -606,6 +606,14 @@
                   href: dev-tools/pipeline-create-deployable-package.md
                 - name: Controle de versão do modelo X++ no Azure Pipelines
                   href: dev-tools/pipeline-model-version.md
+                - name: Baixar ativos usando o Azure Pipelines
+                  href: dev-tools/pipeline-asset-download.md
+                - name: Carregar ativos usando o Azure Pipelines
+                  href: dev-tools/pipeline-asset-upload.md
+                - name: Implantar ativos usando o Azure Pipelines
+                  href: dev-tools/pipeline-deploy-asset.md
+                - name: Criar uma conexão do Lifecycle Services (LCS) no Azure Pipelines
+                  href: dev-tools/pipeline-lcs-connection.md
             - name: Aplicativo de exemplo de Gerenciamento de Frota
               items:
                 - name: Cenário de ponta a ponta para o aplicativo de exemplo de Gerenciamento de Frota
@@ -1614,7 +1622,7 @@
                   href: dev-tools/update-development-tools.md
                 - name: Planejar e preparar para a compilação de código em relação à última atualização
                   href: migration-upgrade/compile-considerations.md
-            - name: Fazer upgrade para uma versão recente (on-premises)
+            - name: Fazer upgrade para uma versão recente (local)
               items:
                 - name: Aplicar atualizações a implantações locais
                   href: deployment/apply-updates-on-premises.md

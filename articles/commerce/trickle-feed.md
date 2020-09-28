@@ -3,7 +3,7 @@ title: Criação de ordens baseadas em um fluxo constante para transações de l
 description: Este tópico descreve a criação de ordens baseadas em um fluxo constante para transações de loja no Microsoft Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
-ms.date: 06/08/2020
+ms.date: 09/04/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6e097ead7cacb3f71452323656546a4be661457f
-ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
+ms.openlocfilehash: 79f99b9b401de3e3bcca6ec5a13a3b4f7bad6f8c
+ms.sourcegitcommit: 5b620f670ac0f403a0fdcdeb9c3f970b163191ee
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3710274"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "3766727"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Criação de ordens baseadas em um fluxo constante para transações de loja de varejo
 
@@ -36,22 +36,20 @@ Com a criação de ordens baseadas em um fluxo constante apresentada no Retail v
 
 ## <a name="how-to-use-trickle-feed-based-posting"></a>Como usar o lançamento baseado em um fluxo constante
   
-1. Para habilitar o lançamento baseado em um fluxo constante de transações, acesse **Administração do sistema > Configurar > Configuração da licença** e desabilite a chave **Demonstrativos**.
+1. Para habilitar o lançamento de transações de varejo baseado em um fluxo constante, habilite o recurso chamado **Demonstrativos de varejo — Fluxo constante** usando o gerenciamento de recursos.
 
-2. Na mesma página, habilite a chave de licença **Demonstrativos (fluxo constante) - Visualização**. Ao habilitar essa chave, verifique se não há nenhum demonstrativo pendente aguardando para ser lançado. 
+    > [!IMPORTANT]
+    > Antes de habilitar o recurso, verifique se não há nenhum demonstrativo pendente aguardando para ser lançado.
 
-    > [!Important]
-    > Antes de habilitar a chave de licença **Demonstrativos (fluxo constante) - Visualização**, verifique se não há nenhum demonstrativo pendente aguardando para ser lançado.
+2. O documento do demonstrativo atual será dividido em dois tipos: demonstrativo transacional e demonstrativo financeiro.
 
-3. O documento do demonstrativo atual será dividido em dois tipos diferentes: demonstrativo transacional e demonstrativo financeiro.
-
-      - O demonstrativo transacional pegará todas as transações de varejo não lançadas validadas e criará ordens de venda, faturas de vendas, diários de pagamentos e de desconto e transações de receita/despesa na cadência que você configurar. Configure esse processo para ser executado com alta frequência para que os documentos sejam criados quando as transações forem carregadas no Headquarters pelo trabalho P. Com o demonstrativo transacional que já cria ordens de venda e faturas de vendas, não há necessidade real de configurar o trabalho em lotes **Lançar estoque**. No entanto, você ainda poderá usá-lo para atender a necessidades comerciais específicas que possa ter.  
+      - O demonstrativo transacional pegará todas as transações de varejo não lançadas e validadas e criará ordens de venda, faturas de vendas, diários de pagamentos e de desconto e transações de receita/despesa na cadência que você configurar. Configure esse processo para ser executado com alta frequência para que os documentos sejam criados quando as transações forem carregadas no Headquarters pelo trabalho P. Com o demonstrativo transacional que já cria ordens de venda e faturas de vendas, não há necessidade real de configurar o trabalho em lotes **Lançar estoque**. No entanto, você ainda poderá usá-lo para atender a necessidades comerciais específicas que possa ter.  
       
      - O demonstrativo financeiro foi projetado para ser criado no final do dia e oferece suporte somente ao método de fechamento **Turno**. Esse demonstrativo estará limitado à reconciliação financeira e criará somente os diários para os valores de diferenças entre o valor contado e o valor da transação dos diferentes meios de pagamento, juntamente com os diários para outras transações de gerenciamento de caixa.   
 
-4. Para calcular o demonstrativo transacional, clique em **Retail e Commerce > TI de Retail e Commerce > Lançamento do PDV > Calcular demonstrativos transacionais em lote**. Para lançar os demonstrativos do demonstrativo transacional em lote, clique em **Retail e Commerce > TI de Retail e Commerce > Lançamento do PDV > Lançar demonstrativos financeiros em lote**.
+3. Para calcular o demonstrativo transacional, acesse **Retail e Commerce > TI de Retail e Commerce > Lançamento do PDV > Calcular demonstrativos transacionais em lote**. Para lançar os demonstrativos transacionais em lote, acesse **Retail e Commerce > TI de Retail e Commerce > Lançamento do PDV > Lançar demonstrativos financeiros em lote**.
 
-5. Para calcular o demonstrativo financeiro, clique em **Retail e Commerce > TI de Retail e Commerce > Lançamento do PDV > Calcular demonstrativos financeiros em lote**. Para lançar os demonstrativos financeiros em lote, clique em **Retail e Commerce > TI de Retail e Commerce > Lançamento do PDV > Lançar demonstrativos financeiros em lote**.
+4. Para calcular o demonstrativo financeiro, acesse **Retail e Commerce > TI de Retail e Commerce > Lançamento do PDV > Calcular demonstrativos financeiros em lote**. Para lançar os demonstrativos financeiros em lote, acesse **Retail e Commerce > TI de Retail e Commerce > Lançamento do PDV > Lançar demonstrativos financeiros em lote**.
 
 > [!NOTE]
 > Os itens de menu **Retail e Commerce > TI de Retail e Commerce > Lançamento do PDV > Calcular demonstrativos em lote** e **Retail e Commerce > TI de Retail e Commerce > Lançamento do PDV > Lançar demonstrativos em lote** foram removidos com este novo recurso.

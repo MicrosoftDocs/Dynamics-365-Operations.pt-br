@@ -3,7 +3,7 @@ title: Compatível com cookies
 description: Este tópico descreve considerações sobre conformidade de cookies e as diretivas padrão incluídas no Microsoft Dynamics 365 Commerce.
 author: BrianShook
 manager: annbe
-ms.date: 06/12/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e1fa016dc9f46b048220f0f83e4b0783087de91e
-ms.sourcegitcommit: c66c4c67a21e7d7d3a94a3fd766c3184b6e65c4e
+ms.openlocfilehash: 4f54b9b8130a167dbecdb13fccd7039f827f6ed0
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3446904"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761312"
 ---
 # <a name="cookie-compliance"></a>Compatível com cookies
 
@@ -56,6 +56,10 @@ A tabela a seguir mostra a lista de referência atual de cookies colocados por s
 | x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Usado para manter a sessão SSO.                        |
 | x-ms-cpim-trans                             | Usado para rastrear transações (o número de guias abertas na autenticação de um site business-to-consumer (B2C)), incluindo a transação atual. |
 
+## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>Consentimento de cookie de usuário de site em um site de comércio eletrônico 
+
+Se um recurso ou módulo de site de comércio eletrônico usar um cookie não essencial, o consentimento do usuário do site deverá ser obtido antes que o cookie seja rastreado. Para permitir que os usuários do site forneçam consentimento de cookie no site de comércio eletrônico, um autor do site deve adicionar e configurar um módulo de consentimento de cookie no módulo de cabeçalho da página para garantir que o consentimento seja solicitado e recebido. O consentimento do usuário do site deve ser fornecido antes que um recurso ou módulo que use um cookie não essencial possa ser renderizado em uma página do site.
+
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Recursos e funcionalidades de acessibilidade](accessibility.md)
@@ -64,4 +68,8 @@ A tabela a seguir mostra a lista de referência atual de cookies colocados por s
 
 [Adicionar página de política de privacidade](add-privacy-page.md)
 
-[Substitua os IDs de usuário associados às alterações de conteúdo controladas](replace-IDs-tracked-changes.md)
+[Substituir IDs de usuário associadas a alterações de conteúdo acompanhados](replace-IDs-tracked-changes.md)
+
+[Módulo de consentimento de cookie](cookie-consent-module.md) 
+ 
+[Módulo de cabeçalho](author-header-module.md)

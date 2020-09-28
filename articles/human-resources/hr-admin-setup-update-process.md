@@ -3,7 +3,7 @@ title: Atualizar processo
 description: O Microsoft Dynamics 365 Human Resources é um software como serviço (SaaS) que disponibiliza atualizações de serviço contínuas e touchless para alterações de aplicação e plataforma.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/27/2020
+ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 006f3c7218436c1c70e29e51f8b1b784ae36b2dd
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: be9be5509f933ecbda5bf6d040027a7bac8b666d
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431167"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759950"
 ---
 # <a name="update-process"></a>Atualizar processo
 
@@ -33,7 +33,7 @@ O Microsoft Dynamics 365 Human Resources é um software como serviço (SaaS) que
 
 As atualizações são lançadas regularmente para todos os ambientes. O Human Resources oferecem suporte de acordo com a [política de Ciclo de Vida da Microsoft](https://support.microsoft.com/hub/4095338/microsoft-lifecycle-policy), que oferece diretrizes consistentes e previsíveis para a disponibilidade de suporte.
 
-## <a name="release-cadence"></a>Cadência da versão
+## <a name="release-cadence"></a>Cadência da versão 
 
 As atualizações do Human Resources são aplicadas a todos os ambientes automaticamente. O Human Resources oferece dois tipos de versão:
 
@@ -56,14 +56,12 @@ As versões são analisadas, testadas e validadas em um ambiente interno. Após 
 
 ## <a name="release-cadence-exceptions-in-2020"></a>Exceções de cadência da versão em 2020
 
-As datas a seguir são exceções à agenda de lançamentos regular:
+Para contabilizar feriados, a agenda de lançamentos para novembro e dezembro de 2020 é a seguinte:
 
-| Data  | descrição |
-| --- | --- |
-| Semana do dia 23 de novembro | Nenhuma atualização |
-| Semana do dia 14 de dezembro | Somente atualizações secundárias |
-| Semana do dia 21 de dezembro | Nenhuma atualização |
-| Semana do dia 28 de dezembro | Nenhuma atualização |
+- Lançamento de novembro: 2 de novembro - 13 de novembro
+- Lançamento de dezembro: 30 de novembro - 11 de dezembro
+ 
+A cadência de lançamentos de duas semanas será retomada normalmente em 11 de janeiro de 2021.
 
 ## <a name="communications"></a>Comunicações
 

@@ -15,18 +15,26 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: fd234c57bf9893e9b8bcfa5ada7439a642f7a288
-ms.sourcegitcommit: 70d0b4e6bdacc15ec75935550ae55fc02cb79624
+ms.openlocfilehash: d0d93a02817bab8e188818862c1bb7f84b498fc1
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "3596202"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802788"
 ---
 # <a name="country-of-origin"></a>País de origem
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Muitas organizações emitem certificados para seus fornecedores a fim de garantir que os produtos atendam a padrões de certificação específicos. Esses certificados geralmente dependem do país de origem. O recurso de país de origem permite vincular um produto ao país de origem e monitorar as certificações de produtos.
+
+## <a name="turn-on-the-country-of-origin-feature"></a>Ativar o recurso de país de origem
+
+Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+
+- **Módulo:** *Gerenciamento de informações sobre produtos*
+- **Nome do recurso:** *Recurso de gerenciamento do país de origem*
 
 ## <a name="configure-source-and-destination-countries"></a>Configurar países de origem e de destino
 

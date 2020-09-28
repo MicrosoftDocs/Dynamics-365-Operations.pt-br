@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdc3fe95ec0917c09128997e254f29ce863dcc38
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 253177103435c765bfe45daffeae0c436617af21
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208008"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3803154"
 ---
 # <a name="purchase-agreements"></a>Contratos de compra
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Este artigo fornece informações sobre contratos de compras. Um contrato de compra é um contrato que compromete uma organização a comprar uma quantidade ou um valor especificado usando várias ordens de compra ao longo do tempo. Em troca desse compromisso, o comprador obtém preços e descontos especiais. 
 
@@ -42,8 +41,13 @@ Para impedir que seu contrato de compra seja usado e confirmado, marque o status
 
 ## <a name="responsible-workers-on-purchase-agreements"></a>Trabalhadores responsáveis em contratos de compra
 
-Você pode identificar um trabalhador responsável principal e um trabalhador responsável secundário na classificação do contrato de compra. Esses valores serão herdados pelo contrato de compra resultante. Não é necessário adicionar trabalhadores responsáveis ao contrato de compra, e eles podem ser modificados diretamente a cada caso no próprio contrato de compra. Não é possível especificar um trabalhador responsável secundário sem um trabalhador responsável principal, embora você não precise ter um trabalhador responsável secundário. Não é possível especificar o mesmo trabalhador como o trabalhador responsável principal e secundário. 
+Você pode identificar um trabalhador responsável principal e um trabalhador responsável secundário na classificação do contrato de compra. Esses valores serão herdados pelo contrato de compra resultante. Não é necessário adicionar trabalhadores responsáveis ao contrato de compra, e eles podem ser modificados diretamente a cada caso no próprio contrato de compra. Não é possível especificar um trabalhador responsável secundário sem um trabalhador responsável principal, embora você não precise ter um trabalhador responsável secundário. Não é possível especificar o mesmo trabalhador como o trabalhador responsável principal e secundário.
 
+> [!IMPORTANT]
+> Para que você possa usar o recurso de participante responsável, ele deve estar ativado no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+> 
+> - **Módulo:** *Tarefas de compras e fornecimento*
+> - **Nome do recurso:** *participante responsável pelo contrato de compra*
 
 ## <a name="commitment-types"></a>Tipos de compromisso
 Cada linha em um contrato de compra é um compromisso para comprar algum item. É possível usar linhas de várias ordens de compra (OCs) para atender ao compromisso. Existem quatro tipos de compromisso:

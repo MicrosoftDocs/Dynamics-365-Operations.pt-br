@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d91caff1a1b89e060a16833e53f3647208ed3826
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 7e3c164c6d54d8387eed5018219da5fd82c765c8
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041414"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744110"
 ---
-# <a name="GETCURRENTCOMPANY">Função de ER GETCURRENTCOMPANY</a>
+# <a name="getcurrentcompany-er-function"></a>Função de ER GETCURRENTCOMPANY
 
 [!include [banner](../includes/banner.md)]
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
-ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0bf2f843401811d601b5fe90709bf995f550870
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 54da05bb6b84390f9928d8400e3dafc3228ee2fc
+ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771508"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759247"
 ---
 # <a name="cost-management-power-bi-content"></a>Conteúdo de gerenciamento de custos do Power BI
 
@@ -37,7 +37,7 @@ O conteúdo de **Gerenciamento de custos** do Microsoft Power BI destina-se a co
 > [!NOTE]
 > O conteúdo de **Gerenciamento de custos** do Power BI descrito neste tópico aplica-se ao Dynamics 365 Finance and Operations 8.0.
 > 
-> O pacote de conteúdo de **Gerenciamento de custos** do Power BI disponível no site do AppSource foi substituído. Para obter mais informações sobre essa de substituição, consulte [Recursos removidos ou obsoletos no Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> O pacote de conteúdo de **Gerenciamento de custos** do Power BI disponível no site do AppSource foi substituído. Para obter mais informações sobre essa substituição, consulte [Recursos removidos ou obsoletos no Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Este conteúdo do Power BI fornece um formato categorizado que ajuda a monitorar o desempenho dos estoques e visualizar o fluxo de custos. Você pode ganhar insights gerenciais, como o índice de giro, o número de dias que o estoque está disponível, a precisão, e a "classificação ABC" ao nível agregado preferido (empresa, item, grupo de itens, ou o site). As informações disponibilizadas também podem ser usadas como um suplemento detalhado para o demonstrativo financeiro.
 
@@ -176,7 +176,7 @@ Os dados do aplicativo são usados para preencher as páginas do relatório no c
 
 As principais medidas agregadas dos objetos a seguir são usadas como base do conteúdo do Power BI.
 
-| Objeto                          | Principais medidas agregadas | A fonte de dados para o Finance and Operations | Campo               |
+| Objeto                          | Principais medidas agregadas | Fonte de dados para o Finance and Operations | Campo               |
 |---------------------------------|----------------------------|----------------------------------------|---------------------|
 | CostObjectStatementCacheMonthly | Valor                     | CostObjectStatementCache               | Valor              |
 | CostObjectStatementCacheMonthly | Quantidade                   | CostObjectStatementCache               | Qtd.                 |
@@ -193,10 +193,10 @@ A tabela a seguir mostra a principais medidas calculadas no conteúdo do Power B
 | Quantidade do saldo final                | Quantidade do saldo final = CALCULATE(SUM(\[QTY\]), FILTER(ALL(FiscalCalendar),FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\]))) |
 | Alteração líquida                         | Alteração líquida = SUM(\[AMOUNT\]) |
 | Quantidade da alteração líquida                    | Quantidade da alteração líquida = SUM(\[QTY\]) |
-| Índice de giro de estoque por valor | Índice de giro de estoque por valor = if(OR(\[Saldo médio de estoque\] \<= 0, \[Problemas de estoque vendido ou consumido\] \>= 0), 0, ABS(\[Problemas de estoque vendido ou consumido\])/\[Saldo médio de estoque\]) |
+| Índice de giro de estoque por valor | Índice de giro de estoque por valor = if(OR(\[Saldo médio de estoque\] \<= 0, \[Inventory sold or consumed issues\] \>= 0), 0, ABS(\[Problemas de estoque vendido ou consumido\])/\[Saldo médio de estoque\]) |
 | Saldo médio de estoque          | Saldo médio de estoque = ((\[Saldo final\] + \[Saldo inicial\]) / 2) |
 | Dias de estoque disponível             | Dias de estoque disponível = 365 / CostObjectStatementEntries\[Índice de giro de estoque por valor\] |
-| Precisão do estoque                 | Precisão do estoque por valor = IF(\[Saldo final\] \<= 0, IF(OR(\[Valor contado de estoque\] \<\> 0, \[Saldo final\] \< 0), 0, 1), MAX(0, (\[Saldo final\] - ABS(\[Valor contado de estoque\]))/\[Saldo final\])) |
+| Precisão do estoque                 | Precisão do estoque por valor = IF(\[Saldo final\] \<= 0, IF(OR(\[Inventory counted amount\] \<\> 0, \[Saldo final\] \< 0), 0, 1), MAX(0, (\[Saldo final\] - ABS(\[Valor contado de estoque\]))/\[Saldo final\])) |
 
 As principais dimensões a seguir são usadas como filtros para dividir as medidas agregadas, para que você possa obter maior granularidade e obter insights analíticos mais profundos.
 

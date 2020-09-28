@@ -1,9 +1,9 @@
 ---
 title: Novidades ou alterações no Human Resources
-description: A cada semana, fornecemos uma nova versão do Microsoft Dynamics 365 Human Resources. Os artigos listados aqui detalham as alterações feitas toda semana.
+description: A cada semana, fornecemos uma nova versão do Microsoft Dynamics 365 Human Resources. Os tópicos listados aqui detalham as alterações feitas toda semana.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/06/2020
+ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,20 +18,28 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 34e80ace6a0676e5702f633554a5f241cc8b00a7
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: f814395405003464e9f101fb0f46b64e64971b68
+ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712155"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760292"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Novidades ou alterações no Human Resources
 
-A cada duas semanas, fornecemos uma nova versão do Microsoft Dynamics 365 Human Resources. Os artigos nesta seção detalham as alterações feitas com cada versão.
+A cada duas semanas, fornecemos uma nova versão do Microsoft Dynamics 365 Human Resources. Os tópicos listados aqui detalham as alterações feitas com cada versão.
 
-Para obter mais informações sobre os recursos futuros ou o processo de atualização do Human Resources, consulte os artigos a seguir:
+>[!NOTE]
+>Para contabilizar feriados, a agenda de lançamentos para novembro e dezembro de 2020 é a seguinte:
+>
+>- Lançamento de novembro: 2 de novembro - 13 de novembro
+>- Lançamento de dezembro: 30 de novembro - 11 de dezembro
+> 
+>A cadência de lançamentos de duas semanas será retomada normalmente em 11 de janeiro de 2021.
 
-- [Visão geral da onda 2 da versão 2019 do Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
+Para obter mais informações sobre os recursos futuros ou o processo de atualização do Human Resources, consulte os artigos a seguir: 
+
+- [Visão geral do ciclo de lançamentos 2 de 2019 do Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
 
 - [Atualizar processo](hr-admin-setup-update-process.md)
 
@@ -39,8 +47,9 @@ Para obter mais informações sobre os recursos futuros ou o processo de atualiz
 
 ## <a name="human-resources-weekly-releases"></a>Lançamentos semanais do Human Resources
 
-Para ver o que há de novo ou alterado em cada versão quinzenal do Human Resources, consulte os seguintes artigos:
+Para descobrir as novidades ou o que foi alterado em cada versão quinzenal do Human Resources, consulte os seguintes artigos:
 
+[3 de setembro de 2020](hr-whats-new-2020-09-03.md)</br>
 [20 de agosto de 2020](hr-whats-new-2020-08-20.md)</br>
 [6 de agosto de 2020](hr-whats-new-2020-08-06.md)</br>
 [23 de julho de 2020](hr-whats-new-2020-07-23.md)</br>
@@ -64,6 +73,6 @@ Para ver o que há de novo ou alterado em cada versão quinzenal do Human Resour
 
 ## <a name="see-also"></a>Consulte também
 
-[Visão geral da onda 2 da versão 2019 do Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Visão geral do ciclo de lançamentos 2 de 2019 do Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Atualizar processo](hr-admin-setup-update-process.md)</br>
 [Gerenciar recursos](hr-admin-manage-features.md)

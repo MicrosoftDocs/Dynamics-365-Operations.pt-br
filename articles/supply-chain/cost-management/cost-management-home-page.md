@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5dbb9876b5df3309d280f242a9fce8f79f12afeb
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9caea2d41e6d3ba74e4d156d8aeae6c4693ce7e2
+ms.sourcegitcommit: 9c694772e1484df10afd72ea1a717fda0861627e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214731"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3813849"
 ---
 # <a name="cost-management-home-page"></a>Página inicial de gerenciamento de custos
 
@@ -56,7 +56,7 @@ Visite o [Roteiro do Microsoft Dynamics 365](https://roadmap.dynamics.com/) para
 
 #### <a name="white-paper"></a>White paper
 
-[Cálculo de BOM usando uma folha de custos](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet) descreve como definir uma folha de contabilidade que inclua material e fabricação, e como a configuração afeta os resultados de cálculo do BOM. Para explicar de uma melhor forma os tópicos, ele fornece cenários concretos e dados que demonstram o efeito de várias definições e configurações.
+[Cálculo de BOM usando uma folha de custos](https://www.microsoft.com/download/details.aspx?id=101937) descreve como definir uma folha de contabilidade que inclua material e fabricação, e como a configuração afeta os resultados de cálculo do BOM. Para explicar de uma melhor forma os tópicos, ele fornece cenários concretos e dados que demonstram o efeito de várias definições e configurações.
 
 #### <a name="blogs"></a>Blogs
 

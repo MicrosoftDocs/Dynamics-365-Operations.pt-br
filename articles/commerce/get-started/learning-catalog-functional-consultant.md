@@ -5,18 +5,21 @@ author: margoc
 ms.topic: article
 ms.date: 07/27/2020
 ms.author: margoc
+ms.prod: ''
+ms.service: Dynamics365Operations
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: dd74bd244d796659e0029a93748c196c47085dfa
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 8e029c128140b5773f6ceef882d3f6cd0c0dd750
+ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646854"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "3793288"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-functional-consultants"></a>Catálogo de aprendizagem para consultores funcionais do Dynamics 365 Commerce
 
@@ -32,8 +35,6 @@ Para obter treinamento sobre recursos compartilhados com outros aplicativos Fina
 
 | Conteúdo| descrição  | Formatar  | Extensão  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|
-| [Conheça o valor do negócio do Microsoft Dynamics 365 e do Power Platform](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/)   | A experiência de aprendizado o guiará para uma jornada que começará mostrando como a transformação digital e os aplicativos de negócios podem transformar a sua empresa. Discutiremos como o Dynamics 365 e o Power Platform o ajudam a tomar decisões informadas com base nas necessidades e nas metas da sua organização, em quatro blocos de construção de transformação digital—moderno, unificado, inteligente e adaptável. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 6.5 horas |
-| [Introdução ao Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/get-started-dynamics-365-commerce/) | O Dynamics 365 Commerce, com base nos recursos comprovados do Dynamics 365 Retail, fornece uma solução completa de omnicanal que unifica as experiências no back office, na loja, no call center e digitais. O Dynamics 365 Commerce permite criar a fidelidade com a marca por meio de envolvimentos de cliente personalizados, aumentar renda com produtividade de funcionário aprimorada, otimizar operações para reduzir custos e impulsionar eficiência de cadeia de fornecimento, e por fim fornecendo melhores resultados de negócios. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 2 horas   |
 | [Introdução ao Dynamics 365 Fraud Protection](https://docs.microsoft.com/learn/modules/get-started-fraud-protection/)| O Dynamics 365 Fraud Protection é uma solução baseada em nuvem criada para comércio eletrônico, lojas físicas e comerciantes do omnicanal para ajudar a proteger sua receita e reputação, fornecendo ferramentas e recursos para diminuir fraudes e abusos, reduzir despesas operacionais e aumentar as taxas de aceitação, ao mesmo tempo que protege as contas de usuário contra a exposição de fraudes. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 35 minutos |
 
 ## <a name="commerce"></a>Commerce<a name="commerce"></a>

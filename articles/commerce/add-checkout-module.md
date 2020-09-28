@@ -3,7 +3,7 @@ title: Módulo de finalização da compra
 description: Este tópico descreve como adicionar um módulo de finalização da compra a uma página e definir as propriedades necessárias.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/05/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1d913fdc9ab9a3dbf7d5534fba38add7f942652a
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 389e3e9d631574eac499f7c6146e2776b8126a52
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686733"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761096"
 ---
 # <a name="checkout-module"></a>Módulo de finalização da compra
 
@@ -97,8 +97,8 @@ A maioria das informações de finalização da compra, como endereço e método
 Para adicionar um módulo de finalização da compra a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
 1. Vá para **Fragmentos** e selecione **Novo** para criar um novo fragmento.
-1. Na caixa de diálogo **Novo fragmento de página**, selecione o módulo **Finalização da compra**.
-1. Em **Nome do fragmento de página**, digite o nome **Fragmento de finalização da compra** e selecione **OK**.
+1. Na caixa de diálogo **Novo fragmento**, selecione o módulo **Finalização da compra**.
+1. Em **Nome do fragmento**, digite o nome **Fragmento de finalização da compra** e selecione **OK**.
 1. Selecione o slot **Módulo de finalização da compra**.
 1. No painel de propriedades à direita, selecione o símbolo de lápis, digite o texto do título no campo e, em seguida, selecione o símbolo de marca de seleção.
 1. No slot **Informações de finalização da compra**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.

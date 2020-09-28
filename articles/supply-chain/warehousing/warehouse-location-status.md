@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 128083b22bb14d9b445863a0ba1217f723727ee4
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: 7b17df2afee22dde1af5c44de31c585069daa349
+ms.sourcegitcommit: d03f301633175b15d46690fc97067820bf21579f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597497"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "3775165"
 ---
 # <a name="warehouse-location-status"></a>Status da localização do depósito
 
@@ -76,6 +76,9 @@ O cenário de exemplo requer que você prepare dois perfis de local.
     Essas opções controlam se os campos de referência no local estão ativos.
 
 1. Repita as etapas 3 a 4 para o perfil **SEPARAÇÃO-06**.
+
+> [!NOTE]
+> Quando os parâmetros no perfil de localidade (**Habilitar item no local**, **Habilitar atividade local**, **Habilitar o status local**) forem definidos como *Sim*, o sistema imediatamente atualiza os locais relevantes executando o trabalho *verificação de consistência do status local do depósito*.
 
 ### <a name="scenario"></a>Cenário
 

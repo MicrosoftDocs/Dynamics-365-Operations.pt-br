@@ -1,9 +1,9 @@
 ---
-title: Carregamento ER de uma configuração no Lifecycle Services
-description: As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar uma nova configuração do Relatório eletrônico (RE) e carregá-la ao Microsoft Lifecycle Services (LCS).
+title: Carregar uma configuração no Lifecycle Services
+description: Este tópico explica como um usuário na função de Administrador do sistema ou Desenvolvedor de relatório eletrônico pode criar uma nova configuração do Relatório eletrônico (ER) e carregá-la no Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 09/14/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,82 +16,133 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5def757de8fb9d347f5fd0f828039dad5c989c19
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: c43bad3ee2530a454de718a0a7da4d1e468a4af4
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143267"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810682"
 ---
-# <a name="er-upload-a-configuration-into-lifecycle-services"></a>Carregamento ER de uma configuração no Lifecycle Services
+# <a name="upload-a-configuration-into-lifecycle-services"></a>Carregar uma configuração no Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
-As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar uma nova configuração do Relatório eletrônico (RE) e carregá-la ao Microsoft Lifecycle Services (LCS).
+Este tópico explica como um usuário na função de Administrador do sistema ou Desenvolvedor de relatório eletrônico pode criar uma nova [configuração do Relatório eletrônico (ER)](../general-electronic-reporting.md#Configuration) e carregá-la na [biblioteca Ativo em nível de projeto](../../lifecycle-services/asset-library.md) no Microsoft Dynamics Lifecycle Services (LCS).
 
-Neste exemplo, você criará e carregará uma configuração para o LCS (Lifecycle Services) da empresa de exemplo, Litware, Inc. Estas etapas podem ser executadas em qualquer empresa, uma vez que as configurações ER são compartilhadas entre todas as empresas. Para completar essas etapas, você deve primeiro completar as etapas do procedimento "Criar um provedor de configuração e marcá-lo como ativo". O acesso ao LCS também é necessário para a conclusão dessas etapas.
+Neste exemplo, você criará uma configuração e a carregará no LCS para uma empresa de exemplo chamada Litware, Inc. Estas etapas podem ser concluídas em qualquer empresa, pois as configurações ER são compartilhadas entre todas as empresas. Para concluir estas etapas, primeiro conclua as etapas em [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md). O acesso ao LCS também é necessário.
 
-1. Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.
-2. Selecione "Litware, Inc." e defina-a como ativa.
-3. Clique em Configurações.
+1. Entre no aplicativo usando uma das seguintes funções:
+
+    - Desenvolvedor de relatório eletrônico
+    - Administrador do sistema
+
+2. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+3. Selecione **Litware, Inc.** e marque-a como **Ativa**.
+4. Selecione **Configurações**.
+
+<a name="accessconditions"></a>
+> [!NOTE]
+> Verifique se o usuário atual do Dynamics 365 Finance é membro do projeto LCS que contém a [biblioteca de ativos](../../lifecycle-services/asset-library.md#asset-library-support) que é usada para importar configurações ER.
+>
+> Não é possível acessar um projeto LCS a partir de um repositório ER que representa um domínio diferente daquele usado no Finance. Se você tentar, uma lista vazia de projetos LCS será mostrada e não será possível importar configurações ER da biblioteca de ativos em nível de projeto no LCS. Para acessar as bibliotecas de ativos em nível de projeto a partir de um repositório ER usado para importar configurações ER, entre no Finance usando as credenciais de um usuário que pertença ao locatário (domínio) para o qual a instância do Finance atual foi provisionada.
 
 ## <a name="create-a-new-data-model-configuration"></a>Criar uma nova configuração de modelo de dados
-1. Clique em Criar configuração para abrir a caixa de diálogo suspensa.
-    * Você irá criar uma configuração que contém um modelo de dados de exemplo para documentos eletrônicos. Esta configuração do modelo de dados será carregada no LCS posteriormente.  
-2. No campo Nome, digite "Configuração de modelo de exemplo".
-    * Configuração do modelo de exemplo  
-3. No campo Descrição, digite 'Configuração do modelo de exemplo'.
-    * Configuração do modelo de exemplo  
-4. Clique em Criar configuração.
-5. Clique em Designer de modelo.
-6. Clique em Novo.
-7. No campo Nome, digite "Ponto de entrada".
-    * Ponto de entrada  
-8. Clique em Adicionar.
-9. Clique em Salvar.
-10. Feche a página.
-11. Clique em Alterar status.
-12. Clique em Concluir.
-13. Clique em OK.
 
-## <a name="register-a-new--repository"></a>Registrar um novo repositório
-1. Feche a página.
-2. Clique em Repositórios.
-    * Isso permite que você abra a lista de repositórios para o provedor de configuração da Litware, Inc.  
-3. Clique em Adicionar para abrir a caixa de diálogo suspensa.
-    * Isso permite que você adicione um novo armazenamento.  
-4. No campo Tipo de configuração do repositório, selecione LCS.
-5. Clique em Criar repositório.
-6. No campo Projeto, insira ou selecione um valor.
-    * Selecione o projeto LCS desejado. Você deve ter acesso ao projeto.  
-7. Clique em OK.
-    * Concluir uma nova entrada de armazenamento.  
-8. Na lista, marque a linha selecionada.
-    * Selecionar o registro de repositório LCS.  
-    * Observe que uma loja registrada está marcada por importância atual do fornecedor que as únicas configurações de propriedade do fornecedor podem ser colocadas para esta loja e, consequentemente, ser cobradas no projeto selecionado de LCS.  
-9. Clique em Abrir.
-    * Abra o armazenamento para exibir a lista de configurações de ER. Ficará vazio se o projeto ainda não foi usado para compartilhamento das configurações de ER.  
-10. Feche a página.
+1. Vá para **Administração da organização \> Relatório eletrônico \> Configurações**.
+2. Na página **Configurações**, selecione **Criar configuração** para abrir a caixa de diálogo suspensa.
+
+    Neste exemplo, você criará uma configuração contendo um modelo de dados de exemplo para documentos eletrônicos. Esta configuração do modelo de dados será carregada no LCS posteriormente.
+
+3. No campo **Nome**, insira **Configuração do modelo de exemplo**.
+4. No campo **Descrição**, insira **Configuração do modelo de exemplo**.
+5. Selecione **Criar configuração**.
+6. Selecione **Designer de modelos**.
+7. Selecione **Novo**.
+8. No campo **Nome**, insira **Ponto de entrada**.
+9. Selecione **Adicionar**.
+10. Selecione **Salvar**.
 11. Feche a página.
+12. Selecione **Alterar status**.
+13. Selecione **Concluir**.
+14. Selecione **OK**.
+15. Feche a página.
 
-## <a name="upload-configuration-into-lcs"></a>Carregar configuração para o LCS
-1. Clique em Configurações.
-2. Na árvore, selecione "Configuração do modelo de exemplo".
-    * Selecione uma configuração criada que já esteja concluída.  
-3. Na lista, localize e selecione o PDV desejado.
-    * Selecione a versão da configuração selecionada com o status de "Concluído".  
-4. Clique em Alterar status.
-5. Clique em Compartilhar.
-    * O status da configuração será alterado de "Concluído" para "Compartilhado" quando for publicado no LCS.  
-6. Clique em OK.
-7. Na lista, localize e selecione o PDV desejado.
-    * Selecione a versão da configuração com o status de "Compartilhado".  
-    * Observe que o status da versão selecionada foi alterado de "Concluído" para "Compartilhado".  
+## <a name="register-a-new-repository"></a>Registrar um novo repositório
+
+1. Ir para **Administração da organização \> Espaços de trabalho \> Relatório eletrônico**.
+
+2. Na seção **Provedores de configuração**, selecione o bloco **Litware, Inc.**.
+
+3. No bloco **Litware, Inc.**, selecione **Repositórios**.
+
+    Agora é possível abrir a lista de repositórios para o provedor de configuração da Litware, Inc.
+
+4. Selecione **Adicionar** para abrir a caixa de diálogo suspensa.
+
+    Agora você pode adicionar um novo repositório.
+
+5. No campo **Tipo de repositório de configuração**, selecione **LCS**.
+6. Selecione **Criar repositório**.
+7. No campo **Projeto**, insira ou selecione um valor.
+
+    Para este exemplo, selecione o projeto LCS desejado. Você deve ter [acesso](#accessconditions) ao projeto.
+
+8. Selecione **OK**.
+
+    Concluir uma nova entrada de armazenamento.
+
+9. Na lista, marque a linha selecionada.
+
+    Para este exemplo, selecione o registro de repositório **LCS**.
+
+    Observe que um repositório registrado é marcado pelo provedor atual. Em outras palavras, somente as configurações pertencentes a esse provedor podem ser colocadas neste repositório e, portanto, carregadas no projeto LCS selecionado.
+
+10. Selecione **Abrir**.
+
+    Você abre o repositório para exibir a lista de configurações ER. Se o projeto selecionado ainda não tiver sido usado para compartilhamento de configurações ER, a lista estará vazia.
+
+11. Feche a página.
+12. Feche a página.
+
+## <a name="upload-a-configuration-into-lcs"></a>Carregar uma configuração no LCS
+
+1. Vá para **Administração da organização \> Relatório eletrônico \> Configurações**.
+2. Na página **Configurações**, na árvore de configurações, selecione **Configuração do modelo de exemplo**.
+
+    Selecione uma configuração criada que já esteja concluída.
+
+3. Na lista, localize e selecione o registro desejado.
+
+    Para este exemplo, selecione a versão da configuração selecionada com um status **Concluído**.
+
+4. Selecione **Alterar status**.
+5. Selecione **Compartilhar**.
+
+    O status da configuração é alterado de **Concluído** para **Compartilhado** quando a configuração é publicada no LCS.
+
+6. Selecione **OK**.
+7. Na lista, localize e selecione o registro desejado.
+
+    Neste exemplo, selecione a versão da configuração com status **Compartilhado**.
+
+    Observe que o status da versão selecionada foi alterado de **Concluído** para **Compartilhado**.
+
 8. Feche a página.
-9. Clique em Repositórios.
-    * Isso permite que você abra a lista de repositórios para o provedor de configuração da Litware, Inc.  
-10. Clique em Abrir.
-    * Selecione a loja de LCS e a abra.  
-    * Observe que a configuração selecionada será mostrada como um ativo do projeto selecionado de LCS.  
-    * Abra LCS usando https://lcs.dynamics.com. Abra um projeto que tenha sido usado anteriormente para registro do repositório, abra a "Biblioteca de ativo" deste projeto, e expanda o conteúdo do tipo de ativo "Configuração GER" - a configuração ER carregada estará disponível. Observe que a configuração carregada do LCS poderá ser importada para outra instância, se os provedores tiverem acesso a este projeto do LCS.  
+9. Selecione **Repositórios**.
 
+    Agora é possível abrir a lista de repositórios para o provedor de configuração da Litware, Inc.
+
+10. Selecione **Abrir**.
+
+    Para este exemplo, selecione o repositório **LCS** e abra-o.
+
+    Observe que a configuração selecionada será mostrada como um ativo do projeto do LCS selecionado.
+
+11. Para abrir o LCS, acesse <https://lcs.dynamics.com>.
+12. Abra um projeto que foi usado anteriormente para registro do repositório.
+13. Abra a biblioteca de ativos do projeto.
+14. Selecione o tipo de ativo **Configuração GER**.
+
+    A configuração do ER que você carregou deve ser listada.
+
+    Observe que a configuração do LCS carregado poderá ser importada para outra instância se os provedores tiverem acesso a esse projeto do LCS.

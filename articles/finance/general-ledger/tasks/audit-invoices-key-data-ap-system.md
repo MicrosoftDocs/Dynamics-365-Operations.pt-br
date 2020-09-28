@@ -1,6 +1,6 @@
 ---
-title: Auditar faturas e dados-chave no sistema de AP
-description: Ao receber uma fatura de um fornecedor para bens em uma ordem de compra, seus processos de negócios podem necessitar que os bens ou serviços sejam recebidos antes que a nota fiscal possa ser aprovada para pagamento.
+title: Auditar faturas e dados-chave em contas a pagar
+description: Este tópico mostra como auditar faturas e dados-chave em contas a pagar.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6e1af0dac107be6009eb3ca576c49ac5abbd9848
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 5bb89f0adce41b045b1f573c4c0e841f78b2248c
+ms.sourcegitcommit: 95d06006142e6bf83351fb075b413fdc2074d5ee
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3139924"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761540"
 ---
-# <a name="audit-invoices-and-key-data-in-ap-system"></a>Auditar faturas e dados-chave no sistema de AP
+# <a name="audit-invoices-and-key-data-in-accounts-payable"></a>Auditar faturas e dados-chave em contas a pagar
 
 [!include [banner](../../includes/banner.md)]
 
 Ao receber uma fatura de um fornecedor para bens em uma ordem de compra, seus processos de negócios podem necessitar que os bens ou serviços sejam recebidos antes que a nota fiscal possa ser aprovada para pagamento. Antes de começar, verifique se a configuração conciliação de faturas está marcada. 
 
-Na página de parâmetros de contas a pagar, verifique se a opção de validação de conciliação de nota fiscal está selecionada, o campo Lançar nota fiscal com discrepâncias é configurado para exigir aprovação, e o campo da diretiva de conciliação de linha está definido à conciliação tripla.
+Na página **Parâmetros de contas a pagar**, verifique se a opção Habilitar validação da conciliação de faturas está selecionada, o campo **Lançar fatura com discrepâncias** está definido como **Exigir aprovação** e o campo **Política de conciliação de linha** está definido como **Conciliação tripla**.
 
 Este procedimento usa a empresa de dados de demonstração USMF. A função gerente de contas a pagar ou gerente de contabilidade executaria estas etapas.
 

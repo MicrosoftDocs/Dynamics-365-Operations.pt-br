@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 227111f4703d9dc381270382dcb796874d7de937
-ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
+ms.openlocfilehash: 34c0a19308bb5159faa9a4ab06bf65e58da0deb1
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699585"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802740"
 ---
 # <a name="hazardous-materials-overview"></a>Visão geral de materiais perigosos
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Para permanecer em conformidade com as regulamentações de remessa e transporte, as organizações que enviam materiais que são classificados como mercadorias perigosas devem incluir documentos adicionais com suas remessas. O recurso materiais perigosos permite que os clientes armazenem informações relacionadas aos itens liberados. Essas informações podem ser usadas para ajudar a preparar a documentação de remessa. Uma organização que envia mercadorias perigosas deve ter seus próprios processos e procedimentos para o gerenciamento do processo de remessa. O Microsoft Dynamics 365 Supply Chain Management é a ferramenta que pode ajudar a gerar os documentos necessários.
 

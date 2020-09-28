@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 415e8268c504487f2b66afc2ac9a50de1b538911
-ms.sourcegitcommit: a8201e0b9033c2afc2b1702b0337facaf7ad4b92
+ms.openlocfilehash: 10c843670a280c86790185c8a39cb2943e2838f9
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3628900"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759926"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Pesquisa de produto e de cliente no ponto de venda (PDV)
 
@@ -93,7 +93,7 @@ Em uma pesquisa remota de cliente, o ID do cliente não é mostrado para os clie
 
 ### <a name="enhancements-to-local-customer-search"></a>Aprimoramentos em pesquisa local do cliente
 
-As pesquisas baseadas no número do telefone foram simplificadas. Essas pesquisas ignoram agora caracteres especiais, como espaços, hífens e colchetes, que podem ter sido adicionados quando o cliente for criado. Portanto, os caixas não devem se preocupar sobre o formato de telefone durante a pesquisa. Eles também podem procurar clientes digitando um número de telefone parcial. Se um número de telefone tiver caracteres especiais, ele também pode ser encontrado procurando números exibidos após os caracteres especiais. Por exemplo, se o número de telefone de um cliente foi inserido como **123-456-7890**, um caixa pode procurar o cliente digitando **123**, **456**, **7890** ou **1234567890**, ou digitando alguns dos primeiros números do telefone.
+As pesquisas baseadas no número do telefone foram simplificadas. Essas pesquisas ignoram agora caracteres especiais, como espaços, hífens e colchetes, que podem ter sido adicionados quando o cliente for criado. Portanto, os caixas não devem se preocupar sobre o formato de telefone durante a pesquisa. Por exemplo, se o número de telefone de um cliente foi inserido como **123-456-7890**, um caixa pode procurar o cliente digitando **1234567890** ou digitando alguns dos primeiros números do telefone.
 
 > [!NOTE]
 > Um cliente pode ter vários números de telefone e vários emails. O algoritmo de pesquisa de cliente também pesquisa esses emails e números de telefone secundários, mas a página de resultados de pesquisa de cliente exibe somente o email e o número de telefone principais. Isso pode causar certa confusão, pois os resultados exibidos do cliente não mostram o email ou o número de telefone pesquisado. Em uma futura versão, planejamos aprimorar a tela de resultados de pesquisa de cliente para mostrar essas informações.

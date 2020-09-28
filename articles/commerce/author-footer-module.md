@@ -3,7 +3,7 @@ title: Módulo de rodapé
 description: Este tópico abrange os módulos de rodapés e como criá-los no Dynamics 365 Commerce.
 author: anupamar
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e81617979a945274500c9f4ceaa8078d8dfd79e8
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 6dd9f214fbeeeaabadac4853916363c20a3288ca
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686709"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761192"
 ---
 # <a name="footer-module"></a>Módulo de rodapé  
 
@@ -51,7 +51,7 @@ Como a maioria dos contêineres, o módulo de rodapé oferece suporte a propried
 ## <a name="create-a-footer-module"></a>Criar um módulo de rodapé
 
 1. Vá para **Fragmentos** e selecione **Novo** para criar um novo fragmento.
-1. Na caixa de diálogo **Novo fragmento de página**, selecione o módulo **Contêiner**, insira um nome para o fragmento de página e selecione **OK**.
+1. Na caixa de diálogo **Novo fragmento**, selecione o módulo **Contêiner**, insira um nome para o fragmento e, em seguida, selecione **OK**.
 1. No slot **Contêiner padrão**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Categoria do rodapé** e, depois, **OK**.
 1. No slot **Categoria de rodapé**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
@@ -68,7 +68,7 @@ Para ajudar a garantir que um cabeçalho aparece em cada página, siga estas eta
 1. No slot **Rodapé** do módulo **Página padrão**, adicione o fragmento de rodapé que você criou.
 1. Selecione **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
 
-Ao adicionar o fragmento de página aos modelos de página, você ajuda a garantir que o rodapé está renderizado em cada página.
+Ao adicionar o fragmento aos modelos de página, você ajuda a garantir que o rodapé seja renderizado em todas as páginas.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

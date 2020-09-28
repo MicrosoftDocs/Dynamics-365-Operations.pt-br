@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d601ca9b28bb720fd05e25ef66df7be12a08f7e0
-ms.sourcegitcommit: e2a953bea055611023c00a55c00391d14daaca25
+ms.openlocfilehash: 95cf53cbbd7863590f08afa72143effaa80ba8de
+ms.sourcegitcommit: 9c694772e1484df10afd72ea1a717fda0861627e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "3696121"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3813800"
 ---
 # <a name="supply-chain-management-home-page"></a>Home page do Supply Chain Management
 
@@ -103,7 +103,7 @@ Há muitos tópicos sobre gerenciamento da cadeia de suprimentos e de fabricaç�
 ## <a name="white-papers"></a>White papers
 
 - [Lean manufacturing: capacidade de comprometimento e agendamento de trabalhos kanban](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/)
-- [Cálculo de BOM usando uma folha de avaliação de custos](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/)
+- [Cálculo de BOM usando uma folha de avaliação de custos](https://www.microsoft.com/download/details.aspx?id=101937/)
 
 ## <a name="elearning-courses"></a>Cursos de eLearning
 
