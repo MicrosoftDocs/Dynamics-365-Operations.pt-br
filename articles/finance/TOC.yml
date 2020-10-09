@@ -76,8 +76,6 @@
                       href: get-started/whats-new-changed-10-0-13.md
                     - name: Finance 10.0.12 (agosto de 2020)
                       href: get-started/whats-new-changed-10-0-12.md
-                    - name: Finance 10.0.11 (julho 2020)
-                      href: get-started/whats-new-changed-10-0-11.md
             - name: Recursos removidos ou obsoletos
               items:
                 - name: Recursos removidos ou obsoletos do Dynamics 365 Finance
@@ -160,9 +158,9 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/finance/toc.json
                 - name: Criar e trabalhar com campos personalizados
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
-                - name: Incorporar Microsoft Power Apps
+                - name: Incorporar aplicativos de tela a partir do Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/finance/toc.json
-                - name: Localizar informações usando pesquisas
+                - name: Encontrar informações usando pesquisas
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/finance/toc.json
                 - name: Alterar a data de uma sessão
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/finance/toc.json
@@ -1228,6 +1226,22 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
             - name: Atualizações regulatórias
               href: localizations/regulatory-updates.md
+            - name: Complemento do faturamento eletrônico
+              items:
+                - name: Visão geral de faturamento eletrônico
+                  href: localizations/e-invoicing-service-overview.md
+                - name: Criar uma conta de armazenamento do Azure e um Cofre de Chaves
+                  href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
+                - name: Introdução ao complemento do faturamento eletrônico
+                  href: localizations/e-invoicing-get-started.md
+                - name: Introdução ao complemento do faturamento eletrônico para o Brasil
+                  href: localizations/e-invoicing-bra-get-started.md
+                - name: Introdução ao complemento do faturamento eletrônico para a Itália
+                  href: localizations/e-invoicing-ita-get-started.md
+                - name: Introdução ao complemento do faturamento eletrônico para o México
+                  href: localizations/e-invoicing-mex-get-started.md
+                - name: Configurar o complemento do faturamento eletrônico
+                  href: localizations/e-invoicing-setup.md
             - name: Austrália
               items:
                 - name: Visão geral de Austrália
@@ -1268,9 +1282,11 @@
                   href: localizations/emea-bel-coda-bank-statement-import.md
                 - name: Criar e transferir transações para o BLWI
                   href: localizations/tasks/be-00011-create-transfer-blwi.md
+                - name: Exportar transações do razão
+                  href: localizations/emea-bel-export-ledger-transactions.md
                 - name: Declaração de imposto INTERVAT
                   href: localizations/emea-bel-intervat-tax-declaration.md
-                - name: ​Relatórios de reconciliação​
+                - name: Relatórios de reconciliação
                   href: localizations/emea-bel-reconciliation-reports.md
                 - name: Configurar relatórios de saldo de pagamento
                   href: localizations/tasks/be-00011-set-up-payment-balance-reporting.md
@@ -2036,6 +2052,8 @@
                       href: localizations/apac-ind-GST-tax-journal.md
                     - name: Gerar os dados do relatório de GSTR para declarações de imposto
                       href: localizations/apac-ind-GST-tax-returns.md
+                    - name: Habilitar o processamento de vários lotes para relatórios de GSTR
+                      href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
                     - name: Consultas de impostos
                       href: localizations/apac-ind-GST-tax-inquiry.md
                 - name: Mecanismo de cálculo de impostos
@@ -3560,6 +3578,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
                     - name: Criar relatórios multilíngues
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
+                    - name: Compactar documentos de saída grandes
+                      href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/finance/toc.json
                 - name: Caminho relativo em associações de dados
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: Usar soluções de Relatórios eletrônicos no Finance and Operations

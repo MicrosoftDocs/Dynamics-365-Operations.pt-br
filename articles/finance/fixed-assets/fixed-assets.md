@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bfa6dcbd8d75c1a6c40896311ed367a835eccc7f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: e761283057ff71fb10d4a5333a0b0dd4b6b6149e
+ms.sourcegitcommit: 71a7fb9e7133d872790ec25def5453bbbb17c627
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770749"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3888075"
 ---
 # <a name="fixed-assets-home-page"></a>Home page de Ativos fixos
 
@@ -47,10 +47,10 @@ Acesse os [planos de versão do Microsoft Dynamics 365](https://go.microsoft.com
 
 Você pode encontrar opiniões, notícias e outras informações no [blog do Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e no [blog de finanças do Microsoft Dynamics 365 Finance and Operations](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-O [Blog da Comunidade de Parceiros do Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) fornece aos Parceiros do Microsoft Dynamics um recurso único para saberem mais sobre as novidades e as tendências do MBS Operations.
+O [Blog da Comunidade de Parceiros do Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) fornece aos parceiros do Microsoft Dynamics um recurso único para saberem mais sobre as novidades e as tendências do Dynamics 365.
 
 #### <a name="task-guides"></a>Guias de tarefas
-Há ajuda adicional disponível como guias de tarefas. Para acessar os guias de tarefas, clique no botão Ajuda em qualquer página.
+Há ajuda adicional disponível, como guias de tarefas. Para acessar os guias de tarefas, clique no botão Ajuda em qualquer página.
 
 #### <a name="videos"></a>Vídeos
 
