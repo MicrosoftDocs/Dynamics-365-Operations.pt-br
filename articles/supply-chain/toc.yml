@@ -158,9 +158,9 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Criar e trabalhar com campos personalizados
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Incorporar Microsoft Power Apps
+                - name: Incorporar aplicativos de tela a partir do Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Localizar informações usando pesquisas
+                - name: Encontrar informações usando pesquisas
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Alterar a data de uma sessão
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/supply-chain/toc.json
@@ -1653,8 +1653,10 @@
           items:
             - name: Visão geral de compras e fornecimento
               href: procurement/procurement-sourcing-overview.md
-            - name: ​Fluxo de trabalho de compras​ e fornecimento
+            - name: Fluxo de trabalho de compras e fornecimento
               href: procurement/procurement-sourcing-workflows.md
+            - name: Solucionar problemas de fluxos de trabalho de compras e fornecimento
+              href: procurement/troubleshoot-procurementworkflows.md
             - name: Catálogos de compras
               items:
                 - name: Visão geral de catálogos de compras
@@ -1691,13 +1693,15 @@
                   href: procurement/purchase-order-overview.md
                 - name: ​Aprovar e confirmar ordens de compra​
                   href: procurement/purchase-order-approval-confirmation.md
-                - name: ​Espaço de trabalho móvel de aprovação de ordem de compra​
+                - name: Espaço de trabalho móvel de aprovação de ordem de compra
                   href: procurement/purchase-order-mobile-workspace.md
                 - name: Registrar o recebimento de mercadorias na ordem de compra
                   href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                - name: Solucionar problemas de ordens de compra
+                  href: procurement/troubleshoot-purchaseorders.md
             - name: Criação de ordem de compra
               items:
-                - name: Criar manualmente ordens de compra
+                - name: Criar ordens de compra manualmente
                   href: procurement/purchase-order-creation.md
                 - name: Criar uma ordem de compra
                   href: procurement/tasks/create-purchase-order.md
@@ -1725,7 +1729,9 @@
                   href: procurement/tasks/create-purchase-agreement.md
                 - name: Reembolsos de fornecedor
                   href: procurement/vendor-rebates.md
-            - name: Políticas de compras
+                - name: 'Solucionar problemas de preços, descontos, contratos e reembolsos'
+                  href: procurement/troubleshooting-pricediscountagreements.md
+            - name: Políticas de compra
               items:
                 - name: Visão geral de políticas de compras
                   href: procurement/purchase-policies.md
@@ -1735,13 +1741,15 @@
                   href: procurement/tasks/set-up-policies-procurement-category-hierarchies.md
             - name: Recebimentos e faturamento de produtos
               items:
-                - name: ​Recebimento de produtos contra ordens de compra​
+                - name: Recebimento de produtos contra ordens de compra
                   href: procurement/product-receipt-against-purchase-orders.md
-                - name: ​Visão geral de faturas de fornecedor​
+                - name: Visão geral de faturas de fornecedor
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Solucionar problemas de recebimentos e faturamento de produtos
+                  href: procurement/troubleshooting-productreceiptinvoicing.md
             - name: Gerenciamento de fornecedor e colaboração
               items:
-                - name: ​Configurar e manter colaboração de fornecedor​
+                - name: Configurar e manter colaboração de fornecedor
                   href: procurement/set-up-maintain-vendor-collaboration.md
                 - name: ​Gerenciar usuários de colaboração do fornecedor​
                   href: procurement/manage-vendor-collaboration-users.md
@@ -1763,11 +1771,13 @@
                   href: procurement/vendor-collaboration-work-customers-dynamics-365-operations.md
                 - name: Importar catálogos do fornecedor
                   href: procurement/vendor-catalogs-import.md
-                - name: ​Configurar um catálogo externo para compras eletrônicas de PunchOut​
+                - name: Configurar um catálogo externo para compras eletrônicas de PunchOut
                   href: procurement/set-up-external-catalog-for-punchout.md
-                - name: ​Uso de catálogos externos para compras eletrônicas de PunchOut​
+                - name: Aprimoramentos ao cXML de compra
+                  href: procurement/purchasing-cxml-enhancements.md
+                - name: Usar catálogos externos para compras eletrônicas de PunchOut
                   href: procurement/use-external-catalogs-for-punchout.md
-                - name: ​Espaço de trabalho móvel de colaboração de fornecedor​
+                - name: Espaço de trabalho móvel de colaboração de fornecedor
                   href: procurement/vendor-collaboration-mobile-workspace.md
                 - name: Aprovar fornecedores para categorias específicas da compras
                   href: procurement/tasks/approve-vendors-specific-procurement-categories.md
@@ -2261,6 +2271,8 @@
                   href: sales-marketing/tasks/manage-order-holds.md
                 - name: Confirmar ordens de venda
                   href: sales-marketing/tasks/confirm-sales-orders.md
+                - name: Solucionar problemas de ordens de venda
+                  href: sales-marketing/troubleshooting-sales.md
             - name: Contratos de venda
               items:
                 - name: Visão geral de contratos de venda
@@ -2283,6 +2295,8 @@
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: Criar e editar cotações de venda
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
+                - name: Solucionar problemas de cotações de venda
+                  href: sales-marketing/troubleshooting-salesquotation.md
             - name: Devoluções
               items:
                 - name: Devoluções de vendas
@@ -2807,18 +2821,20 @@
                   items:
                     - name: Instalar e conectar o aplicativo de depósito
                       href: warehousing/install-configure-warehousing-app.md
+                    - name: Digitalizar códigos de barras usando uma câmera no aplicativo de depósito
+                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Configurar nomes de campos no aplicativo de depósito
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Configurar dispositivos móveis para trabalho de depósito
                       href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: Digitalizar códigos de barras usando uma câmera no aplicativo de depósito
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Recebimento da placa de licença com o aplicativo de depósito
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Configurar um item de menu de dispositivo móvel para concluir trabalhos em uma ordem de compra
                       href: warehousing/tasks/set-up-mobile-device-menu.md
                     - name: Configurar um item de menu do dispositivo móvel para registrar itens recebidos
                       href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: Configurar um item de menu de dispositivo móvel para fornecer uma visão geral da linha de separação
+                      href: warehousing/pick-line-overview.md
                     - name: Criar um item de menu de dispositivo móvel para consolidação de placa de licença
                       href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
                     - name: Recebimento de placa de licença mista em um dispositivo móvel
