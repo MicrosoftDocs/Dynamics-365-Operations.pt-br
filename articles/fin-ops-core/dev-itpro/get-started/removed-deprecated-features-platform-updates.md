@@ -3,7 +3,7 @@ title: Recursos de plataforma removidos ou obsoletos
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção nas atualizações de plataforma do Finance and Operations apps.
 author: sericks007
 manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b2d54cfaddc1697eda543952831e745182df2753
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: 0b78401f4c1cf289247cd2d600f097ecdf6a712c
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3803130"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819880"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Recursos de plataforma removidos ou obsoletos
 
@@ -34,6 +34,22 @@ Este tópico descreve os recursos que já foram removidos ou foram planejados pa
 Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovações para seu próprio planejamento. 
 
 Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
+
+## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.14 dos aplicativos do Finance and Operations
+
+> [!NOTE]
+> A versão 10.0.14 é uma versão preliminar. O conteúdo e a funcionalidade estão sujeitos a alterações. Para obter informações sobre as versões prévias, consulte [Disponibilidade das atualizações do serviço](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
+
+### <a name="online-users-page"></a>Página de usuários online 
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Esta é uma página herdada criada para a arquitetura anterior de cliente/servidor. As informações nesta página nem sempre são precisas, podem ser confusas e enganosas. |
+| **Substituída por outro recurso?**   | Forneceremos uma nova página em uma atualização futura.|
+| **Áreas afetadas do produto**         | Administração do Sistema |
+| **Opção de implantação**              | Todas |
+| **Status**                         | Em outubro de 2021 este formulário será removido.   |
 
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.13 dos aplicativos do Finance and Operations
 
@@ -56,7 +72,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | **Substituída por outro recurso?**   | As seguintes bibliotecas estão sendo afetadas: jQuery (para a versão 3.5.0 da versão 2.1.4), IU do jQuery (para a versão 1.12.1 da versão 1.11.4), jQuery qTip (para versão 3.0.3 da 2.2.1). As diretrizes de migração foram fornecidas online pelo jQuery.  |
 | **Áreas afetadas do produto**         | Controles extensíveis, especificamente códigos JavaScript personalizados usando APIs preteridas ou removidas |
 | **Opção de implantação**              | Todas |
-| **Status**                         | Com a versão 10.0.13/Atualizaçãod e plataforma 37, os clientes podem, opcionalmente, mudar para as bibliotecas mais recentes habilitando o recurso "Atualizar três bibliotecas de componentes jQuery". A mudança para as novas bibliotecas será obrigatória na versão de abril de 2021 para permitir o tempo de migração de APIs afetadas.   |
+| **Status**                         | Com a versão 10.0.13/Platform update 37, os clientes podem, opcionalmente, mudar para as bibliotecas mais recentes habilitando o recurso "Atualizar três bibliotecas de componentes jQuery". A mudança para as novas bibliotecas será obrigatória na versão de abril de 2021 para permitir o tempo de migração de APIs afetadas.   |
 
 ### <a name="existing-grid-controlforcelegacygrid-api"></a>Controle de grade existente/API forceLegacyGrid()
 
@@ -76,7 +92,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | **Substituída por outro recurso?**   | Exibições salvas |
 | **Áreas afetadas do produto**         | Cliente web |
 | **Opção de implantação**              | Todas |
-| **Status**                         | Na versão 10.0.13/atualização de Plataforma 37, o recurso de exibições salvas está geralmente disponível e os clientes podem ativar esse recurso opcionalmente. O recurso de exibições salvas se tornará obrigatório na versão de outubro de 2021. |
+| **Status**                         | Na versão 10.0.13/Platform update 37, o recurso de exibições salvas está geralmente disponível e os clientes podem ativar esse recurso opcionalmente. O recurso de exibições salvas se tornará obrigatório na versão de outubro de 2021. |
 
 
 ## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.12 dos aplicativos do Finance and Operations
@@ -117,7 +133,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 |   |  |
 |------------|--------------------|
-| **Motivo para a reprovação/remoção** | Os grupos de campos nas definições de metadados da tabela podem conter referências de campo inválidas. Se esses grupos de campos forem implantados, eles pode causar falhas de tempo de execução no Financial Reporting e no Microsoft SQL Server Reporting Services (SSRS). A atualização de plataforma 23 apresentou um *aviso* do compilador que permitiu que esse problema de metadados fosse solucionado. As atualizações de plataforma para a versão 10.0.11 dos aplicativos do Finance and Operations categorizam esse problema como um *erro* do compilador.<p>Para corrigir esse problema, siga estas etapas.</p><ol><li>Remova a referência de campo inválida da definição do grupo de campos da tabela.</li><li>Recompilar.</li><li>Certifique-se de que os erros sejam solucionados.</li></ol> |
+| **Motivo para a reprovação/remoção** | Os grupos de campos nas definições de metadados da tabela podem conter referências de campo inválidas. Se esses grupos de campos forem implantados, eles pode causar falhas de tempo de execução no Financial Reporting e no Microsoft SQL Server Reporting Services (SSRS). A platform update 23 apresentou um *aviso* do compilador que permitiu que esse problema de metadados fosse solucionado. As atualizações de plataforma para a versão 10.0.11 dos aplicativos do Finance and Operations categorizam esse problema como um *erro* do compilador.<p>Para corrigir esse problema, siga estas etapas.</p><ol><li>Remova a referência de campo inválida da definição do grupo de campos da tabela.</li><li>Recompilar.</li><li>Certifique-se de que os erros sejam solucionados.</li></ol> |
 | **Substituída por outro recurso?**   | Este erro do compilador substitui permanentemente o aviso do compilador.  |
 | **Áreas afetadas do produto**         | Ferramentas de desenvolvimento do Visual Studio |
 | **Opção de implantação**              | Todas |
@@ -133,7 +149,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | **Opção de implantação**              | Todas |
 | **Status**                         | <strong>Preterido</strong> : Licenças ISV criadas usando o algoritmo de hash SHA1. Esse algoritmo dependia de certificados que eram criados usando o utilitário MakeCert, e esse utilitário foi preterido.<p><strong>Preterido</strong> : O uso de SHA1 para fins de segurança ou hash. O funcionamento do SHA1 será descontinuado no início de 2021. Portanto, não deve mais ser usado.<p><strong>Removido:</strong> Suporte para solicitações de entrada ou saída do Transport Layer Security (TLS) 1.0 e TLS 1.1. |
 
-## <a name="platform-update-32"></a>Update 32 para plataforma
+## <a name="platform-update-32"></a>Platform update 32
 
 ### <a name="workflow-request-change-dialog-box-no-longer-includes-user-selection-drop-down-list"></a>Caixa de diálogo Alterar solicitação de fluxo de trabalho não inclui mais a seleção do usuário de lista suspensa
 |   |  |
@@ -142,7 +158,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | **Substituída por outro recurso?**   | Não |
 | **Áreas afetadas do produto**         | Fluxo de Trabalho |
 | **Opção de implantação**              | Todas |
-| **Status**                         | A lista suspensa de seleção de usuário foi removida da caixa de diálogo alteração de solicitação na atualização de plataforma 32. Solicitações de alteração de solicitação serão enviadas automaticamente para o originador conforme pretendido. Para obter mais informações sobre essa funcionalidade, consulte [Ações em processos de aprovação de fluxo de trabalho](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/workflow-actions?toc=%2Fdynamics365%2Fcommerce%2Ftoc.json#request-change). |
+| **Status**                         | A lista suspensa de seleção de usuário foi removida da caixa de diálogo alteração de solicitação na platform update 23. Solicitações de alteração de solicitação serão enviadas automaticamente para o originador conforme pretendido. Para obter mais informações sobre essa funcionalidade, consulte [Ações em processos de aprovação de fluxo de trabalho](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/workflow-actions?toc=%2Fdynamics365%2Fcommerce%2Ftoc.json#request-change). |
 
 ### <a name="embedded-drill-through-links-are-no-longer-supported-in-paginated-documents-rendered-by-the-cloud-hosted-service"></a>Links de detalhamento incorporados não são mais compatíveis em documentos paginados renderizados pelo serviço armazenado em nuvem 
 |   |  |

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d6e0f2c914b8d348ef6eac42557fb46c53df04a9
-ms.sourcegitcommit: d16d370dab734e09312cb06711beca9cca52d4c9
+ms.openlocfilehash: 8c3a905c90f5dd4ad3487f004a958c0dcd52115d
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809511"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893238"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>Adicionar novos campos a um modelo de documento comercial no Microsoft Excel
 
@@ -67,7 +67,7 @@ Para obter mais informações sobre como importar configurações de ER, consult
 5.  No campo **Título** , insira **Fatura de texto livre (Excel) Contoso** como o título do novo modelo.
 6.  Selecione **OK** para confirmar o início do processo de edição.
 
-A página do editor de modelo de BDM aparece. Você pode usar o Microsoft Office 365 para editar o modelo online selecionado no controle inserido.
+A página do editor de modelo de BDM aparece. Você pode usar o Microsoft 365 para editar o modelo online selecionado no controle inserido.
 
 ![Página do editor de modelo de BDM](./media/BDM-AddFldExcel-EditableTemplate.png)
 

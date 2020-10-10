@@ -17,17 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 07d121d5a68970dd29f0e77babda735de12871ca
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: d9a15f85838849796d6ce4674712636251c75bf3
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761120"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818266"
 ---
 # <a name="cart-module"></a>Módulo de carrinho
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Este tópico abrange os módulos de carrinho e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 
@@ -41,11 +40,11 @@ O módulo do carrinho processa os dados com base na ID do carrinho, que é um co
 
 A imagem a seguir mostra um exemplo de uma página de carrinho no site da Fabrikam.
 
-![Exemplo de um módulo de carrinho](./media/cart2.PNG)
+![Exemplo de um módulo de carrinho no site da Fabrikam](./media/cart2.PNG)
 
 A imagem a seguir mostra um exemplo de uma página de carrinho no site da Fabrikam. Neste exemplo, há uma taxa de manuseio para um item de linha.
 
-![Exemplo de um módulo de carrinho](./media/ecommerce-handling-fee.png)
+![Exemplo de um módulo de carrinho com uma taxa de manuseio para um item de linha](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>Propriedades e slots do módulo de carrinho
 

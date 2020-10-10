@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4acde9703c721ab7c20d1603299a10dda91b23c4
-ms.sourcegitcommit: b8f8ccab2cd9d848e5ecd71caaf0a63237e2236b
+ms.openlocfilehash: 015b595f85397fc1cf2c0368814ddc0369176f82
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "2957054"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893186"
 ---
 # <a name="new-document-user-interface-in-business-document-management"></a>Nova interface de usuário de documento no Gerenciamento de documentos comerciais
 
 [!include [banner](../includes/banner.md)]
 
-O Gerenciamento de documentos comerciais permite que os usuários empresariais editem modelos de documento comercial usando um serviço do Microsoft Office 365 ou o aplicativo da área de trabalho apropriado do Microsoft Office. As edições podem incluir alterações de design ou novas implantações, ou os usuários podem adicionar espaços reservados para incluir dados adicionais sem precisar alterar o código-fonte. Para obter mais informações sobre como trabalhar com o Gerenciamento de documentos comerciais, consulte [Visão geral do Gerenciamento de documentos comerciais](er-business-document-management.md).
+O Gerenciamento de documentos comerciais permite que os usuários empresariais editem modelos de documento comercial usando um serviço do Microsoft 365 ou o aplicativo da área de trabalho apropriado do Microsoft Office. As edições podem incluir alterações de design ou novas implantações, ou os usuários podem adicionar espaços reservados para incluir dados adicionais sem precisar alterar o código-fonte. Para obter mais informações sobre como trabalhar com o Gerenciamento de documentos comerciais, consulte [Visão geral do Gerenciamento de documentos comerciais](er-business-document-management.md).
 
 A nova interface de usuário de documento está menos poluída e mais confortável de usar. A área **Documento comercial** mostra apenas os modelos disponíveis para o provedor atual.
 

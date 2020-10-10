@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 60449e9492c8e831b4ec6b2896f1ab471ef9d499
-ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
+ms.openlocfilehash: 39e597b88afcca69623b1a23acc95e4da3873082
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "3661188"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818290"
 ---
 # <a name="delivery-options-module"></a>Módulo de opções de entrega
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Este tópico abrange os módulos de opções de entrega e explica como configurá-los no Microsoft Dynamics 365 Commerce.
 

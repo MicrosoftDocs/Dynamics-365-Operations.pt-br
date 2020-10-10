@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 022db9365f25c1d3e387870dd9d173077d864b3d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 44dc059f7bfc3ba83a375c197ce67f1378a9bc9b
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141513"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899340"
 ---
 # <a name="base-price-and-trade-agreements"></a>Preço base e contratos comerciais
 
@@ -58,7 +58,7 @@ Este procedimento orienta na criação de contratos comerciais de preço de vend
 26. No campo **Nome**, clique no botão suspenso para abrir a pesquisa.
 27. Na lista, selecione **Comércio**. Nos dados de demonstração, o nome do diário **Comércio** tem a relação de **Preço (vendas)** padrão. Isso significa que todas as novas linhas criadas assumirão como padrão os contratos comerciais de preço de venda.  
 28. No **Painel de ação**, clique em **Linhas**.
-29. No campo **Código da conta**, selecione "Grupo".
+29. No campo **Tipo de código de participante**, selecione "Grupo".
 30. No campo **Seleção de conta**, clique no botão suspenso para abrir a pesquisa.
 31. Na lista, localize e selecione o PDV desejado. Isso completará o link do canal com o grupo de preços com o contrato comercial.  
 32. No campo **Relação de item**, digite um valor.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ae7587fc46d2907241a5da3b6329465d77b3555
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: e6a3330b0123605d4c7b86cedcb8bc95b3cf6de8
+ms.sourcegitcommit: a52a789044ca66c6771224a6cf0be8749bc99e5a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383081"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "3837254"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Configurar dispositivos móveis para trabalho de depósito
 
@@ -399,6 +399,9 @@ A seguinte tabela descreve as opções.
 <tr class="odd">
 <td>Código do modelo de trabalho</td>
 <td>Selecione o modelo de trabalho que criará o trabalho para um processo. Por exemplo, se você receber um item para uma ordem de compra, o trabalho de armazenamento será gerado com base no modelo de trabalho. Se você não selecionar um modelo de trabalho, o Supply Chain Management atribuirá um modelo com base nos critérios de consulta. Para obter mais informações sobre modelos de trabalho, consulte <a href="control-warehouse-location-directives.md">Controlando o trabalho do depósito com modelos de trabalho e diretivas de localização</a>.</td>
+<tr class="even">
+<td>Mostrar lista de linhas de trabalho</td>
+<td>Selecione uma opção para como os trabalhadores poderão exibir e interagir com as linhas do trabalho de separação selecionado no momento. Para obter mais informações sobre essa opção, consulte <a href="pick-line-overview.md">Configurar um item de menu de dispositivo móvel para fornecer uma visão geral da linha de separação</a>.</td>
 </tr>
 </tbody>
 </table>
