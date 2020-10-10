@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: a2ca0ce277a062c8d525b6a3619eaf1b0114667b
-ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
+ms.openlocfilehash: 6fe42f43277448dc5918597ed8bb1b68f2266b6a
+ms.sourcegitcommit: 4ba10abe5be8a21b95370cd970a622e954970984
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "3719255"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3829203"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Cliente potencial com pagamento à vista em gravação dupla
 
@@ -99,29 +99,7 @@ Se você sincronizar de Supply Chain Management às Vendas, obterá o seguinte r
 
 ## <a name="dual-write-solution-for-sales"></a>Solução de gravação dupla para Vendas
 
-Novos campos foram adicionados à entidade **Ordem** e são exibidos na página. A maioria desses campos aparece na guia **Integração** em Vendas. Há alguns campos especiais:
-
-+ O campo **Status de processamento** mostra o status de processamento da ordem no Supply Chain Management. Este campo está bloqueado e mostra somente o status da ordem do Supply Chain Management. Os valores a seguir estão disponíveis:
-
-    + **Ativo** – O status depois que a ordem é ativada no Sales usando o botão **Ativar**.
-    + **Confirmada**
-    + **Entregues**
-    + **Faturadas**
-    + **Parcialmente entregue**
-    + **Parcialmente faturada**
-    + **Separado**
-    + **Cancelada**
-
-    A tabela a seguir mostra como o status de processamento é mapeado para o valor do **Código de status do CRM**.
-
-    | Status do processamento           | Código de status do CRM    |
-    |-----------------------------|--------------------|
-    | Ativos                      | Novo/Pendente/Em espera |
-    | Confirmado/Separado            | Em andamento        |
-    | Parcialmente entregue         | Parcial            |
-    | Entregues                   | Completo           |
-    | Faturado/Parcialmente faturado | Faturadas           |
-    | Cancelada                    | Sem dinheiro           |
+Novos campos foram adicionados à entidade **Ordem** e são exibidos na página. A maioria desses campos aparece na guia **Integração** em Vendas. Para saber mais sobre como os campos de status são mapeados, consulte o tópico da documentação para [Configurar o mapeamento para campos de status da ordem de venda](https://review.docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/sales-status-map?branch=robin-dw-status-map)
 
 + Os botões **Criar fatura** e **Cancelar pedido** na página **Ordem de venda** estão ocultos em Vendas.
 + O valor de **Status da ordem de venda** permanecerá **Ativo** para ajudar a garantir que as alterações no Supply Chain Management possam fluir para a ordem de venda em Vendas. Para controlar este comportamento, defina o padrão do valor **Statecode \[Status\]** para **Ativo**.

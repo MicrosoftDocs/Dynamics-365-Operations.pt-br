@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ReqCreatePlanWorkspace
+ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: ce1bbb18e9a448e84d001a4195421d2b0e4af5be
-ms.sourcegitcommit: c0d37fdd70f3dec4605fdee6f981f84a49be9b9e
+ms.openlocfilehash: 04b39469ccf4f088bb33bdfc73ce40eece6f5f2e
+ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3339869"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3887255"
 ---
 # <a name="get-started-with-planning-optimization"></a>Introdução à Otimização de Planejamento
 
@@ -54,12 +54,12 @@ Para usar a Otimização de Planejamento, instale o Suplemento Otimização de P
 
 1. Entre no LCS e abra o ambiente desejado.
 1. Vá para **Detalhes completos**.
-1. Role para baixo até a FastTab **Suplementos de ambiente**.
+1. Role para baixo até a Guia Rápida **Suplementos de ambiente**.
 1. Selecione **Instalar um novo suplemento**.
 1. Selecione **Otimização de Planejamento**.
 1. Acompanhe o guia de instalação e concorde com os termos e condições.
 1. Selecione **Instalar**.
-1. Na FastTab **Suplementos de ambiente**, você deverá ver que a Otimização do Planejamento está instalando.
+1. Na Guia Rápida **Suplementos de ambiente**, você deverá ver que a Otimização do Planejamento está instalando.
 1. Após alguns minutos, **Instalando** deve mudar para **Instalado** (talvez você precise atualizar a página). Quando instalado, você estará pronto para ativar a Otimização do Planejamento no Dynamics 365 Supply Chain Management.
 
 ### <a name="planning-optimization-integration"></a>Integração da Otimização de Planejamento

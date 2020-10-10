@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage
+ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage, GanttColorTable, GanttReqExplosionColor, GanttReqExplosionSetup, GanttTable, GanttTimescaleSetup, GanttWrkCtr, GanttWrkCtrColor, GanttWrkCtrJobInfo, GanttWrkCtrLoadResources, GanttWrkCtrMoveJob, GanttWrkCtrSetup, GanttWrkCtrView
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 430a012fbc198b90df0c0bf4084705037c95f7be
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e194f379d118ee174095229d38ba5b0a679f49ac
+ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210148"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3887231"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>Gráfico de Gantt para agendamento de trabalho
 
@@ -38,7 +38,7 @@ O gráfico de Gantt é uma representação visual de atividades programadas em u
 -   Trabalhos de ordens de produção planejadas.
 -   Atividades de projetos programados de trabalhos do tipo Previsões de horas.
 
-O gráfico de Gantt pode ser aberto em dois modos de exibição diferentes, **Modo de exibição de ordem** e **Modo de exibição de recurso**[](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true). No **Modo de exibição de ordem**, as atividades são agrupadas em ordens de produção. Isso pode ser útil, por exemplo, se você quiser manter uma visão geral de todos os trabalhos pertencentes às mesmas ordens. No **Modo de exibição de recurso**, todos os trabalhos são agrupados em recursos individuais. Essa exibição pode ser útil na otimização do plano em nível de recurso, como uma máquina ou um grupo de máquinas. O gráfico de Gantt exibido nas ilustrações abaixo mostra **Modo de exibição de ordem** e **Modo de exibição de recurso** com estes principais elementos:
+O gráfico de Gantt pode ser aberto em dois modos de exibição diferentes, **Modo de exibição de ordem** e **Modo de exibição de recurso**. No **Modo de exibição de ordem**, as atividades são agrupadas em ordens de produção. Isso pode ser útil, por exemplo, se você quiser manter uma visão geral de todos os trabalhos pertencentes às mesmas ordens. No **Modo de exibição de recurso**, todos os trabalhos são agrupados em recursos individuais. Essa exibição pode ser útil na otimização do plano em nível de recurso, como uma máquina ou um grupo de máquinas. O gráfico de Gantt exibido nas ilustrações abaixo mostra **Modo de exibição de ordem** e **Modo de exibição de recurso** com estes principais elementos:
 
 1.  Atividade de gráfico de Gantt
 2.  Ícone de escassez de material

@@ -3,7 +3,7 @@ title: Visão geral da home page
 description: Este tópico fornece uma visão geral da home page no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/30/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c51c5af38f4ba50bbad124de4ac7f66be4001fa6
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: 3ebc8b4ebd3720815cdaaab708fbfdd8302cbea1
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527566"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817745"
 ---
 # <a name="home-page-overview"></a>Visão geral da home page
 
@@ -34,7 +34,7 @@ Este tópico fornece uma visão geral da home page no Microsoft Dynamics 365 Com
 
 A home page é página padrão para a qual os compradores vão quando visitam um site de comércio eletrônico. Normalmente, esta página apresenta produtos e promoções com uma combinação de módulos de marketing. A home page deve ser sofisticada, com imagens e texto para manter os compradores envolvidos.
 
-A ilustração a seguir mostra um exemplo de uma home page que é criada com o kit inicial online e o tema “Fabrikam”.
+A ilustração a seguir mostra um exemplo de uma home page que é criada com a biblioteca de módulos e o tema “Fabrikam”.
 
 ![Exemplo de uma home page](./media/Homepage2.PNG)
 

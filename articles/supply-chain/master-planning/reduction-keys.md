@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ReqPlanSched
+ms.search.form: ReqPlanSched, ReqReduceKeyDefaultDataWizard, ReqReduceKey
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6191b4809c3785d92395bec1b7d51bfc978f9245
-ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
+ms.openlocfilehash: 76105cad18047d58a835b6c325575c58451a7c1a
+ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262687"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3887055"
 ---
 # <a name="forecast-reduction-keys"></a>Chaves de redução da previsão
 
@@ -212,17 +212,17 @@ Uma chave de redução da previsão é usada nos métodos **Transações - chave
 Uma chave de redução da previsão deve ser atribuída ao grupo de cobertura do item. Siga estas etapas para atribuir uma chave de redução ao grupo de cobertura de um item.
 
 1. Vá para **Planejamento mestre \> Configuração \> Cobertura \> Grupos de cobertura**.
-2. Na FastTab **Outro**, no campo **Chave de redução**, selecione a chave de redução para atribuir ao grupo de cobertura. A chave de redução é aplicada a todos os itens que pertencem ao grupo de cobertura.
+2. Na Guia Rápida **Outro**, no campo **Chave de redução**, selecione a chave de redução para atribuir ao grupo de cobertura. A chave de redução é aplicada a todos os itens que pertencem ao grupo de cobertura.
 3. Para usar uma chave de redução para calcular a redução da previsão durante o agendamento do planejamento mestre, você deve definir esse parâmetro na configuração do plano de previsão ou do plano mestre. Vá para um dos seguintes locais:
 
     - Planejamento mestre \> Configuração \> Planos \> Planos de previsão
     - Planejamento mestre \> Configuração \> Planos \> Planos mestres
 
-4. Na página **Planos de previsão** ou **Planos mestres**, na FastTab **Geral**, no campo **Método usado para reduzir os requisitos de previsão**, selecione **Percentual - chave de redução** ou **Transações - chave de redução**.
+4. Na página **Planos de previsão** ou **Planos mestres**, na Guia Rápida **Geral**, no campo **Método usado para reduzir os requisitos de previsão**, selecione **Percentual - chave de redução** ou **Transações - chave de redução**.
 
 ## <a name="reduce-a-forecast-by-transactions"></a>Reduzir uma previsão por transações
 
-Quando você seleciona **Transações - chave de redução** ou **Transações - período dinâmico** como método para reduzir os requisitos de previsão, pode especificar quais transações reduzem a previsão. Na página **Grupos de cobertura**, na FastTab **Outro**, no campo **Reduzir a previsão por**, selecione **Todas as transações**, se todas as transações tiverem que reduzir a previsão, ou **Ordens**, se somente as ordens de venda devem reduzir a previsão.
+Quando você seleciona **Transações - chave de redução** ou **Transações - período dinâmico** como método para reduzir os requisitos de previsão, pode especificar quais transações reduzem a previsão. Na página **Grupos de cobertura**, na Guia Rápida **Outro**, no campo **Reduzir a previsão por**, selecione **Todas as transações**, se todas as transações tiverem que reduzir a previsão, ou **Ordens**, se somente as ordens de venda devem reduzir a previsão.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

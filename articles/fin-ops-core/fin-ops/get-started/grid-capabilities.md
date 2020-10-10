@@ -3,7 +3,7 @@ title: Recursos de grade
 description: Este tópico descreve vários recursos avançados do controle de grade. O novo recurso de grade deve estar habilitado para ter acesso a esses recursos.
 author: jasongre
 manager: AnnBe
-ms.date: 08/31/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b4efad8423ab42bf6f7f6e2d1054307c11d31d2c
-ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
+ms.openlocfilehash: 1f1c27444b38360072beb5277c445161983a2480
+ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3760390"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3835077"
 ---
 # <a name="grid-capabilities"></a>Recursos de grade
 
@@ -33,6 +33,7 @@ O novo controle de grade fornece vários recursos úteis e eficientes que podem 
 -  Digitação à frente do sistema
 -  Avaliação de expressões matemáticas 
 -  Agrupando de dados tabulares (habilitados separadamente usando o recurso **Agrupamento (versão prévia) em grades**)
+-  Colunas de sistema fixadas
 
 ## <a name="calculating-totals"></a>Calculando totais
 Nos aplicativos do Finance and Operations, os usuários podem ver os totais na parte inferior das colunas numéricas em grades. Esses totais são mostrados em uma seção de rodapé na parte inferior da grade. 
@@ -119,12 +120,19 @@ Da mesma forma que você pode selecionar (ou cancelar) todas as linhas na grade,
 ### <a name="hiding-column-names"></a>Ocultar nomes de coluna
 Ao agrupar dados, o comportamento padrão é mostrar o nome da coluna na linha de cabeçalho do grupo. A partir da versão 10.0.14/Platform update 38, você pode optar por suprimir o nome da coluna nas linhas do cabeçalho de grupo, selecionando **Opções de grade** > **Ocultar nome da coluna do grupo**.
 
+## <a name="pinned-system-columns"></a>Colunas de sistema fixadas
+A coluna de seleção de linha e a coluna de status de linha na nova grade são fixadas, ou congeladas, na parte mais à esquerda da grade. Portanto, quando essas colunas são incluídas em uma grade, elas sempre estarão visíveis para o usuário, independentemente da posição de rolagem horizontal na grade.   
+
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Como habilitar o novo controle de grade no meu ambiente? 
 
-**10.0.9 / Atualização de plataforma 33 e mais recente** O recurso **Novo controle de grade** está disponível diretamente no Gerenciamento de recursos em todos os ambientes. Assim como outros recursos de versão prévia pública, a ativação deste recurso na produção está sujeita ao [Contrato de Termos de Uso Complementares](https://go.microsoft.com/fwlink/?linkid=2105274).  
+**10.0.9/Platform update 33 e posterior**
 
-**10.0.8 / Atualização de plataforma 32 e 10.0.7 / Atualização da plataforma 31** O recurso **Novo controle de grade** pode ser habilitado nos ambientes da Camada 1 (Desenvolvimento/Teste) e da Camada 2 (Área Restrita) a fim de fornecer testes adicionais e alterações de design seguindo as etapas abaixo.
+O recurso **Novo controle de grade** está disponível diretamente em Gerenciamento de recursos em qualquer ambiente. Assim como outros recursos de versão prévia pública, a ativação deste recurso na produção está sujeita ao [Contrato de Termos de Uso Complementares](https://go.microsoft.com/fwlink/?linkid=2105274).  
+
+**10.0.8/Platform update 32 e 10.0.7/Platform update 31**
+
+O recurso **Novo controle de grade** pode ser ativado nos ambientes da Camada 1 (Desenvolvimento/Teste) e da Camada 2 (Área Restrita) para fornecer testes adicionais e alterações de design seguindo as etapas abaixo.
 
 1.  **Habilitar a versão de pré-lançamento**: execute esta instrução SQL: 
 
@@ -139,11 +147,14 @@ Ao agrupar dados, o comportamento padrão é mostrar o nome da coluna na linha d
 Todas as sessões de usuário subsequentes começarão com o novo controle de grade habilitado.
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Desenvolvedor] Impedir que páginas individuais use a nova grade 
-Se a sua organização descobre uma página que tem algumas questões usando a nova grade, uma API está disponível para permitir que um formulário individual use o controle de grade herdado enquanto ainda permite que o restante do sistema utilize o novo controle de grade. Para recusar uma página individual da nova grade, adicione a seguinte postagem de chamada `super()` no método do formulário `run()`.
+Se a sua organização descobre uma página que tem algumas questões usando a nova grade, uma API está disponível a partir da versão 10.0.13/Platform update 37 para permitir que um formulário individual use o controle de grade herdado enquanto ainda permite que o restante do sistema utilize o novo controle de grade. Para recusar uma página individual da nova grade, adicione a seguinte postagem de chamada `super()` no método do formulário `run()`.
 
  ```this.forceLegacyGrid();```
 
-Esta API será honrada até o lançamento de outubro de 2021, quando o novo controle de grade se torna obrigatório. Relate quaisquer problemas à Microsoft que exija que essa API seja usada. 
+Esta API será honrada até o lançamento de outubro de 2021, quando o novo controle de grade se torna obrigatório. Se algum problema exigir o uso dessa API, informe-o à Microsoft.
+
+## <a name="developer-size-to-available-width-columns"></a>[Desenvolvedor] Colunas de tamanho para largura disponível
+Se um desenvolvedor definir a propriedade **WidthMode** como **SizeToAvailable** para colunas dentro da nova grade, essas colunas terão inicialmente a mesma largura que teriam se a propriedade fosse definida como **SizeToContent**. No entanto, elas se estendem para usar qualquer largura extra disponível dentro da grade. Se a propriedade for definida como **SizeToAvailable** para várias colunas, todas essas colunas compartilham qualquer largura extra disponível dentro da grade. No entanto, se um usuário redimensionar manualmente uma dessas colunas, a coluna se torna estática. Ele permanecerá nessa largura e não será mais esticado para ocupar a largura de grade disponível extra.  
 
 ## <a name="known-issues"></a>Problemas conhecidos
 Esta seção mantém uma lista de problemas conhecidos do novo controle de grade enquanto o recurso está em um estado de visualização.  
@@ -230,6 +241,6 @@ Esta seção mantém uma lista de problemas conhecidos do novo controle de grade
 - [KB 4558372] A nova grade ficará presa no modo de processamento se o número de colunas no conteúdo colado exceder o número de colunas restantes na grade.
 - [KB 4562631] Os valores de tempo não estão formatados corretamente.
 
-### <a name="quality-update-for-1009platform-update-33"></a>Atualização de qualidade para 10.0.9/Atualização da plataforma 33
+### <a name="quality-update-for-1009platform-update-33"></a>Atualização de qualidade para 10.0.9/Platform update 33
 
 - [KB 4550367] Os valores de tempo não estão formatados corretamente.

@@ -1,9 +1,9 @@
 ---
 title: Módulo de rodapé
 description: Este tópico abrange os módulos de rodapés e como criá-los no Dynamics 365 Commerce.
-author: anupamar
+author: anupamar-ms
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -14,15 +14,15 @@ ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anupamar-ms
+ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6dd9f214fbeeeaabadac4853916363c20a3288ca
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: 42a71ea9498461febca80952acc3158517918332
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761192"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3816952"
 ---
 # <a name="footer-module"></a>Módulo de rodapé  
 
@@ -72,11 +72,11 @@ Ao adicionar o fragmento aos modelos de página, você ajuda a garantir que o ro
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral do kit de início](starter-kit-overview.md)
+[Visão geral da biblioteca de módulos](starter-kit-overview.md)
 
 [Módulo de contêiner](add-container-module.md)
 
-[Comprar módulo de caixa](add-buy-box.md)
+[Módulo de caixa de compra](add-buy-box.md)
 
 [Módulo de carrinho](add-cart-module.md)
 

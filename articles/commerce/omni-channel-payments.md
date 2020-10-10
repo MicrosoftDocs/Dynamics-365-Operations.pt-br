@@ -3,7 +3,7 @@ title: Visão geral de pagamentos de omni-channel
 description: Este tópico fornece uma visão geral de pagamentos de omni-channel no Dynamics 365 Commerce.
 author: rubendel
 manager: AnnBe
-ms.date: 07/21/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 2127eb60a82bef8c6b5f5e9a917160331c483649
-ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
+ms.openlocfilehash: 80eaf36fb382e0ebe0a66383ea17ab76faa07dfa
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "3613168"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819804"
 ---
 # <a name="omni-channel-payments-overview"></a>Visão geral de pagamentos de omni-channel
 
@@ -92,6 +92,9 @@ Os seguintes cenários de pagamento de omni-channel são compatíveis:
 - Comprar em uma call center, retirar na loja
 - Comprar na loja A, retirar na loja B
 - Comprar na loja A, enviar ao cliente
+
+    > [!NOTE]
+    > Os pagamentos feitos no call center que mapeiam para a função de pagamento "Normal" devem ser marcados como **Pagamento antecipado** = **Sim** para ser refletido no valor devido ao recuperar a ordem no PDV. Pagamentos não antecipados do tipo "Normal" não são reconhecidos quando a ordem é recuperada no PDV. 
 
 Variações desses cenários também são compatíveis. Por exemplo, uma ordem online pode incluir as duas linhas que serão enviadas ao cliente e as linhas que serão retiradas em uma loja. Todas as opções de atendimento de ordens são permitidas por meio de pagamentos de omni-channel. 
 
@@ -190,8 +193,8 @@ Siga estas etapas para executar o cenário.
 2. Na página **Transação**, adicione Karen Berg à transação usando o teclado numérico para inserir **2001**.
 3. Adicione uma ou mais linhas à transação.
 4. Selecione **Ordens** para ver as opções de ordem.
-5. Selecione **Retirar tudo** e, depois, quando for solicitado, selecione **Ordem do cliente**.
-6. Na barra de pesquisa, insira **Seattle** e depois selecione a loja de **Seattle** para retirada. 
+5. Selecione **Remeter tudo** e, depois, quando for solicitado, selecione **Ordem do cliente**.
+6. Na página do método de remessa, selecione **Padrão durante a noite** e, em seguida, selecione **OK** para aceitar a data de hoje como a data de envio. 
 7. Selecione **OK** para aceitar a data atual como a data de retirada.
 8. Selecione **Pagar cartão** para iniciar o pagamento.
 9. Conceda o pagamento com cartão para o valor que é devido para o depósito. 
@@ -233,5 +236,5 @@ Quando uma ordem que tem várias propostas e várias linhas é selecionado, o ca
 
 - [Perguntas frequentes sobre pagamentos](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
 - [Conector de Pagamento do Dynamics 365 para Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
-- [Configurar BOPIS em um ambiente de avaliação do Dynamics 365 Commerce](https://docs.microsoft.com/en-us/dynamics365/commerce/cpe-bopis)
+- [Configurar BOPIS em um ambiente de avaliação do Dynamics 365 Commerce](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
 

@@ -3,7 +3,7 @@ title: Módulo do mapa
 description: Este tópico abrange os módulos do módulo e descreve como configurá-los no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ca531e6cbf0a1044b0a13e5cdf42c7b4f0498fe5
-ms.sourcegitcommit: 629988f1a704d62648d98649056931b8c33b9e08
+ms.openlocfilehash: d2cbc67a186a76647a4f7ddc7942b15d3e469ece
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3811175"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817197"
 ---
 # <a name="map-module"></a>Módulo do mapa
 
@@ -38,7 +38,8 @@ Um módulo de mapa mostra os locais de armazenamentos em um mapa interativo proc
 
 Um módulo de mapa trabalha em conjunto com o módulo seletor de lojas para determinar os locais geográficos das lojas que devem ser renderizados em um mapa. O seletor de armazenamento e os módulos de mapa interagem quando um usuário seleciona um armazenamento em um desses módulos em uma página do site. Os módulos de mapa podem ser estendidos para outros cenários, além da interação com os módulos do seletor de loja. No entanto, a personalização do módulo é necessária.
 
-O módulo do mapa foi introduzido no Commerce versão 10.0.13.
+> [!NOTE]
+> O mapa está disponível na versão 10.0.13 do Dynamics 365 Commerce.
 
 A imagem a seguir mostra um exemplo de um módulo de mapa que é usado em uma página de locais da loja.
 
@@ -70,7 +71,7 @@ Para obter informações detalhadas sobre como configurar um módulo de mapa em 
  
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral do kit de início](starter-kit-overview.md)
+[Visão geral da biblioteca de módulos](starter-kit-overview.md)
 
 [Módulo de caixa de compra](add-buy-box.md)
 

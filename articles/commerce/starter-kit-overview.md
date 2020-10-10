@@ -1,9 +1,9 @@
 ---
-title: Visão geral do kit de início
-description: Este tópico fornece uma visão geral do kit de início do Microsoft Dynamics 365 Commerce.
+title: Visão geral da biblioteca de módulos
+description: Este tópico fornece uma visão geral da biblioteca de módulos do Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,29 +18,28 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1960e1354744fe1034783177ba331f5877d0bee7
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: dfc52dd8e14bb2e9f2f9c026ee0e058aee4cedcb
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025893"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817817"
 ---
-# <a name="starter-kit-overview"></a>Visão geral do kit de início
-
+# <a name="module-library-overview"></a>Visão geral da biblioteca de módulos
 
 [!include [banner](includes/banner.md)]
 
-Este tópico fornece uma visão geral do kit de início do Microsoft Dynamics 365 Commerce.
+Este tópico fornece uma visão geral da biblioteca de módulos do Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
-O Kit do acionador inicial do Dynamics 365 Commerce é um conjunto de módulos que pode ser usado para criar um site de comércio eletrônico. Os módulos têm tanto aspectos da interface do usuário (IU) quanto do comportamento funcional.
+A biblioteca de módulos do Dynamics 365 Commerce é um conjunto de módulos que pode ser usado para criar um site de comércio eletrônico. Os módulos têm tanto aspectos da interface do usuário (IU) quanto do comportamento funcional.
 
-Os temas podem ser aplicados aos módulos no kit de início para alterar a aparência. Os temas usam Folhas de Estilos em Cascata (CSS). Um tema para um site de comércio eletrônico fictício chamado "Fabrikam" é fornecido como parte do kit de início e pode ser usado como uma referência.
+Os temas podem ser aplicados aos módulos na biblioteca de módulos para alterar a aparência. Os temas usam Folhas de Estilos em Cascata (CSS). Um tema para um site de comércio eletrônico fictício chamado "Fabrikam" é fornecido como parte da biblioteca de módulos e pode ser usado como uma referência.
 
-## <a name="starter-kit-modules"></a>Módulos do kit de início
+## <a name="module-library-modules"></a>Módulos da biblioteca de módulos
 
-Os seguintes tipos de módulos são fornecidos no kit de início:
+Os seguintes tipos de módulos são fornecidos na biblioteca de módulos:
 
 - **Módulo de contêiner** – Um módulo do contêiner é um módulo simples que atua como um host de outros módulos. Ele controla o layout de módulos que estão dentro deles.
 - **Módulos de marketing** – Os módulos de marketing contêm o bloco de conteúdo, bloco de texto, player de vídeo e carrossel. Todos esses módulos podem ser usados para mostrar o conteúdo. Eles podem ser colocados em qualquer página e direcionados por dados do sistema de gerenciamento de conteúdo (CMS).

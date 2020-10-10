@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 3b9a1485d37da614eea2427735e0e1323897682d
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: ed8f0351d1e16cceb6c9749f434a8980ef2be29d
+ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621319"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "3835845"
 ---
 # <a name="unified-product-experience"></a>Experiência unificada de produto
 
@@ -91,7 +91,7 @@ Como o produto é representados como uma SKU, os conceitos de produtos distintos
 
 ![Modelo de dados de produtos](media/dual-write-product.png)
 
-Com a funcionalidade de gravação dupla habilitada, os aplicativos do Finance and Operations serão sincronizados em outros aplicativos do Dynamics 365 no estado **Rascunho**. Eles são adicionados à primeira lista de preços com a mesma moeda. Ou seja, eles são adicionados à primeira lista de preços em um aplicativo do Dynamics 365 que correlaciona a moeda da entidade legal em que o produto é liberado em um aplicativo do Finance and Operations. 
+Com a funcionalidade de gravação dupla habilitada, os produtos do Finance and Operations serão sincronizados em outros produtos do Dynamics 365 no estado **Rascunho**. Eles são adicionados à primeira lista de preços com a mesma moeda. Ou seja, eles são adicionados à primeira lista de preços em um aplicativo do Dynamics 365 que correlaciona a moeda da entidade legal em que o produto é liberado em um aplicativo do Finance and Operations. 
 
 Por padrão, os produtos de aplicativos do Finance and Operations são sincronizados com outros aplicativos do Dynamics 365 no estado **Rascunho**. Para sincronizar o produto com estado **Ativo** para poder usá-lo diretamente em cotações de ordens de venda, por exemplo, é necessário escolher a seguinte configuração: **Sistema > Administração > Administração do sistema > Configurações do sistema > guia Vendas** e selecione **Criar produtos em estado ativo = sim**. 
 

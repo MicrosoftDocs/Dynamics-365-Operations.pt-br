@@ -3,7 +3,7 @@ title: Módulo de seletor de loja
 description: Este tópico abrange o módulo de seletor de loja e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1531b27dad4188dca96cf5728a9858f94001977c
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 4438e46d4653a0cd2060092695f08613cd696f4e
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646126"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818241"
 ---
 # <a name="store-selector-module"></a>Módulo de seletor de loja
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Este tópico abrange o módulo de seletor de loja e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
 
@@ -65,7 +64,7 @@ Para que esse cenário funcione, os produtos devem ser configurados para usar o 
 
 A imagem a seguir mostra um exemplo de um módulo de seletor de loja usado em uma PDP.
 
-![Exemplo de um módulo de seletor de loja](./media/BOPIS.PNG)
+![Exemplo de um módulo de seletor de loja usado em um PDP](./media/BOPIS.PNG)
 
 ## <a name="find-stores-mode"></a>Modo Localizar lojas
 
@@ -73,7 +72,7 @@ O módulo de seletor de loja também oferece suporte para um modo **Localizar lo
 
 A ilustração a seguir mostra um exemplo de um módulo de seletor de loja usado com um módulo de mapa na página de localizações da loja.
 
-![Exemplo de um módulo de seletor de loja](./media/ecommerce-Storelocator.PNG)
+![Exemplo de um módulo de seletor de armazenamento e um módulo de mapa em uma página de locais de armazenamento](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="render-a-map"></a>Renderizar um mapa
 
@@ -127,7 +126,7 @@ Para configurar o módulo de seletor de loja a fim de mostrar as lojas disponív
  
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral do kit de início](starter-kit-overview.md)
+[Visão geral da biblioteca de módulos](starter-kit-overview.md)
 
 [Módulo de caixa de compra](add-buy-box.md)
 
