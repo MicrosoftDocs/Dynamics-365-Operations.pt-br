@@ -3,12 +3,12 @@ title: Configurações de ordem padrão para dimensões e variantes de produto
 description: As configurações de ordem padrão definem o local e o depósito de onde os itens serão originários ou armazenados, as quantidades mínima, máxima, múltiplas e padrão que serão usadas para a comercialização ou o gerenciamento de estoque, os prazos de entrega, o sinalizador de parada e o método de promessa de ordens.
 author: t-benebo
 manager: tfehr
-ms.date: 07/31/2020
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: InventItemOrderSetup
+ms.search.form: InventItemOrderSetup, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleasedStoppedAllChartPart, UnitTestPartitions
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0654ba019b71dc952ea52f206bc60d8fa05dd4ff
-ms.sourcegitcommit: f9917706d45693e8d3f9f6224dca9e601db44bae
+ms.openlocfilehash: c3aa800c1a996a062bcb737afa23f00a9e52bb48
+ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3657331"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3895587"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>​Configurações de ordem padrão para dimensões e grades de produtos​
 
@@ -51,8 +51,11 @@ Há três tipos de configurações de ordem padrão para compras, vendas e estoq
 - Linhas do contrato de compra
 - Linhas da solicitação de cotação
 - Linhas de requisição de compra
-- Linhas de reabastecimento de consignação
+- Linhas de reabastecimento de consignação (com suporte parcial, veja a observação)
 - Ordens de Compra Planejadas
+
+> [!NOTE]
+> Para linhas de ordem de reabastecimento de consignação, as únicas configurações da Guia Rápida **Ordem de compra** da página **Configurações de ordem padrão** que se aplicam são o campo **Site padrão**, o campo **Depósito padrão** e a caixa de seleção **Parado**.
 
 As configurações de ordem padrão para vendas são usadas ao criar:
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
+ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetWorkerGroupCopyFromResourceGroup, EntAssetWorkerGroup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6cf7e8e796032b348cff5a77c10b376dbbeef974
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 29fb487f02c28dbe940a1e00891f1e7ed20135b2
+ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214771"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3889880"
 ---
 # <a name="maintenance-workers-and-worker-groups"></a>Funcionários de manutenção e grupos de trabalhadores
 
@@ -43,16 +43,16 @@ Você também pode criar grupos de funcionários de manutenção e associar func
 3. No campo **Trabalhador**, selecione o trabalhador.
 4. Defina a opção **Ativo** como **Sim** para agendar o trabalhador em ordens de serviço.
 
-    Na FastTab **Geral**, os campos **Recurso** e **Descrição** serão preenchidos automaticamente se um determinado recurso foi selecionado para o trabalhador. O campo **Calendário** também será preenchido automaticamente, uma vez que você tenha configurado o trabalhador como um recurso e alocado um calendário para o recurso na página **Recursos** (**Administração da organização** \> **Recursos** \> **Recursos**).
+    Na Guia Rápida **Geral**, os campos **Recurso** e **Descrição** serão preenchidos automaticamente se um determinado recurso foi selecionado para o trabalhador. O campo **Calendário** também será preenchido automaticamente, uma vez que você tenha configurado o trabalhador como um recurso e alocado um calendário para o recurso na página **Recursos** (**Administração da organização** \> **Recursos** \> **Recursos**).
 
-5. Na FastTab **Grupos**, selecione **Adicionar** e selecione um grupo de funcionários de manutenção para o trabalhador. Um trabalhador pode ser afiliado a mais de um grupo.
+5. Na Guia Rápida **Grupos**, selecione **Adicionar** e selecione um grupo de funcionários de manutenção para o trabalhador. Um trabalhador pode ser afiliado a mais de um grupo.
 6. Na configuração padrão, a afiliação de um trabalhador a um grupo é válida a partir da data em que você adiciona o grupo e ela nunca expira. Essa data é exibida no campo **Efetivação**. Para ver o campo **Efetivação**, selecione **Exibir** \> **Tudo**. Se a afiliação do trabalhador a um grupo estiver limitada a um determinado período, use os campos **Efetivação** e **Término** para definir o período.
-7. Na FastTab **Locais funcionais**, selecione **Adicionar** e selecione um local funcional para o funcionário de manutenção. Também especifique qual é o local funcional principal para o trabalhador.
+7. Na Guia Rápida **Locais funcionais**, selecione **Adicionar** e selecione um local funcional para o funcionário de manutenção. Também especifique qual é o local funcional principal para o trabalhador.
 
     > [!NOTE]
     > Ao adicionar locais funcionais a um trabalhador, todos os ativos em ação relacionados a esses locais funcionais aparecem em vários itens de menu, como **Meus ativos em ação** e **Meus locais funcionais ativos**. Também aparecem nas pesquisas de ativo que são exibidas quando você cria um novo ativo, solicitação de manutenção ou ordem de serviço.
 
-    Os campos na FastTab **Detalhes** mostram o número de grupos de funcionários de manutenção e de locais funcionais aos quais o funcionário de manutenção selecionado está relacionado.
+    Os campos na Guia Rápida **Detalhes** mostram o número de grupos de funcionários de manutenção e de locais funcionais aos quais o funcionário de manutenção selecionado está relacionado.
 
 ## <a name="create-worker-groups"></a>Criar grupos de trabalhadores
 
@@ -60,7 +60,7 @@ Você também pode criar grupos de funcionários de manutenção e associar func
 2. Selecione **Novo** para adicionar um grupo de trabalhadores à lista.
 3. No campo **Grupo de funcionários de manutenção**, insira uma ID de grupo.
 4. No campo **Nome**, insira um nome.
-5. Na FastTab **Trabalhadores**, selecione **Adicionar** e selecione um funcionário de manutenção para o grupo de trabalhadores. Para obter informações sobre os campos **Efetivação** e **Término**, consulte a etapa 6 no procedimento anterior.
+5. Na Guia Rápida **Trabalhadores**, selecione **Adicionar** e selecione um funcionário de manutenção para o grupo de trabalhadores. Para obter informações sobre os campos **Efetivação** e **Término**, consulte a etapa 6 no procedimento anterior.
 6. Se um grupo de recursos deve estar relacionado ao grupo de funcionários de manutenção selecionado, selecione **Copiar do grupo de recursos**. No campo **Grupo**, selecione o grupo de recursos do qual as configurações de calendário serão copiadas. Em seguida, no campo **Grupo de trabalhadores**, selecione o grupo de trabalhadores para o qual as configurações de calendário do grupo de recursos serão copiadas. Esta etapa é relevante somente se você quiser que os funcionários de manutenção usem o calendário que está relacionado a um recurso (centro de trabalho) durante o agendamento da ordem de serviço.
 
-    O campo na FastTab **Detalhes** mostra o número de funcionários de manutenção que foram definidos no grupo de funcionários de manutenção selecionado.
+    O campo na Guia Rápida **Detalhes** mostra o número de funcionários de manutenção que foram definidos no grupo de funcionários de manutenção selecionado.

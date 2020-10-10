@@ -3,7 +3,7 @@ title: Aplicar configurações de estoque
 description: Este tópico abrange as configurações de estoque e descreve como aplicá-las no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 737e71dc73750bf151629fd904081924ac15b91e
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: d7d25fd62efca52dd2d60ed3435104c3507a1d19
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621212"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817600"
 ---
 # <a name="apply-inventory-settings"></a>Aplicar configurações de estoque
 
@@ -38,6 +38,9 @@ As configurações de estoque especificam se o estoque deverá ser verificado an
 O Dynamics 365 Commerce fornece estimativas de disponibilidade em estoque para produtos. Para obter informações sobre como é calculada a disponibilidade em estoque estimada, consulte [Calcular a disponibilidade de estoque para canais de varejo](calculated-inventory-retail-channels.md).
 
 No construtor de sites do Commerce, os limites de estoque e intervalos podem ser definidos para um produto ou uma categoria. Eles determinam se o estoque pode ser classificado como em estoque, estoque baixo ou esgotado. Para obter detalhes, consulte [Configurar buffers de estoque e níveis de estoque](inventory-buffers-levels.md).
+
+> [!NOTE]
+> O suporte para limites e intervalos de estoque está disponível na versão 10.0.12 do Dynamics 365 Commerce.
 
 ## <a name="inventory-settings"></a>Configurações de estoque
 
@@ -55,6 +58,9 @@ No Commerce, as configurações de estoque são definidas em **Configurações d
     - Quando **Esgotado** não estiver selecionado, apenas a mensagem "Esgotado" será mostrada.
 
 - **Limite de esgotado** – essa configuração numérica antiga só entrará em vigor se o valor **Limite de esgotado** estiver selecionado para a configuração **Nível de estoque com base em**.
+
+> [!IMPORTANT] 
+> Essas configurações estão disponíveis na versão 10.0.12 do Dynamics 365 Commerce. Se estiver atualizando de uma versão mais antiga do Dynamics 365 Commerce, você deverá atualizar manualmente o arquivo appsettings.json. Para obter instruções sobre como atualizar o arquivo appsettings.json, consulte [SDK e atualizações da biblioteca de módulos](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 ## <a name="modules-that-use-inventory-settings"></a>Módulos que usam configurações de estoque
 
@@ -74,7 +80,7 @@ A imagem a seguir mostra um exemplo de um carrinho mostrando uma mensagem de em 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral do kit de início](starter-kit-overview.md)
+[Visão geral da biblioteca de módulos](starter-kit-overview.md)
 
 [Configurar buffers de estoque e níveis de estoque](inventory-buffers-levels.md)
 
@@ -85,3 +91,5 @@ A imagem a seguir mostra um exemplo de um carrinho mostrando uma mensagem de em 
 [Páginas e módulos de gerenciamento de contas](account-management.md)
 
 [Módulo de seletor de loja](store-selector.md)
+
+[SDK e atualizações da biblioteca de módulos](e-commerce-extensibility/sdk-updates.md)

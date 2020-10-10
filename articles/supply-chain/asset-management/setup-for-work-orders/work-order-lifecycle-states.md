@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EntAssetWorkOrderLifecycleState, EntAssetWorkOrderLifecycleModel
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3bff0c7334a9e05c3f455ffc9b3c82863964785e
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: b6e96f2f6b324ffe44e8684d9bd2a42fb52d0aed
+ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215461"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3889256"
 ---
 # <a name="work-order-lifecycle-states"></a>Estados de ciclo de vida da ordem de serviço
 
@@ -36,7 +36,7 @@ Os estados de ciclo de vida da ordem de serviço definem os estados pelos quais 
 
 Os estados de ciclo de vida da ordem de serviço necessários para as ordens de serviço devem ser anexados a estágios do projeto correspondentes na página **Parâmetros de gerenciamento e contabilidade de projetos** (**Gerenciamento e contabilidade de projeto**\> **Parâmetros de gerenciamento e contabilidade de projetos**). Primeiramente, configure os estágios do projeto em Gerenciamento e contabilidade de projeto. Em seguida, configure os estados de ciclo de vida da ordem de serviço e os modelos de ciclo de vida da ordem de serviço em Gerenciamento de Ativos.
 
-A tabela a seguir descreve as opções nas seções **Ordem de serviço** e **Agenda** na FastTab **Geral** da página **Estado de ciclo de vida da ordem de serviço** (**Gerenciamento de Ativos**\> **Configuração**\> **Ordens de serviço**\> **Estados de ciclo de vida**).
+A tabela a seguir descreve as opções nas seções **Ordem de serviço** e **Agenda** na Guia Rápida **Geral** da página **Estado de ciclo de vida da ordem de serviço** (**Gerenciamento de Ativos**\> **Configuração**\> **Ordens de serviço**\> **Estados de ciclo de vida**).
 
 ![Página de estados do ciclo de vida da ordem de serviço](media/09-setup-for-work-orders.png)
 
@@ -70,38 +70,38 @@ A tabela a seguir descreve as opções nas seções **Ordem de serviço** e **Ag
 6. No campo **Estado de ciclo de vida**, insira uma ID para o estado de ciclo de vida.
 7. No campo **Nome**, insira um nome.
 
-    Na FastTab **Detalhes**, o campo **Modelos de ciclo de vida** mostra o número de modelos de ciclo de vida de ordem de serviço que usam esse estado de ciclo de vida.
+    Na Guia Rápida **Detalhes**, o campo **Modelos de ciclo de vida** mostra o número de modelos de ciclo de vida de ordem de serviço que usam esse estado de ciclo de vida.
 
-8. Na FastTab **Geral**, na seção **Ordem de serviço**, selecione as funções que devem estar disponíveis para esse estado de ciclo de vida definindo as opções relevantes como **Sim**. Para obter descrições das opções, consulte a tabela anterior deste tópico.
+8. Na Guia Rápida **Geral**, na seção **Ordem de serviço**, selecione as funções que devem estar disponíveis para esse estado de ciclo de vida definindo as opções relevantes como **Sim**. Para obter descrições das opções, consulte a tabela anterior deste tópico.
 9. Na seção **Projeto**, no campo **Estágio**, selecione o estágio do projeto que deve estar relacionado a esse estado de ciclo de vida.
 10. Na seção **Projeto**, defina a opção **Fechar atividades** como **Sim** se atividades do projeto que estão relacionadas a cada trabalho da ordem de serviço deverão ser fechadas automaticamente quando a ordem de serviço estiver nesse estado de ciclo de vida.
 
     > [!NOTE]
-    > Para encontrar o número da atividade do projeto relacionada a um trabalho da ordem de serviço, selecione **Gerenciamento de ativos**\> **Comum**\> **Ordens de serviço**\> **Todas as ordens de serviço**, **Ordens de serviço ativas** ou **Minhas ordens de serviço ativas**. Abra a ordem de serviço e selecione o trabalho da ordem de serviço. O número da atividade é exibido no campo **Número da atividade** na seção **Projeto** na guia **Geral** da FastTab **Detalhes da linha**.
+    > Para encontrar o número da atividade do projeto relacionada a um trabalho da ordem de serviço, selecione **Gerenciamento de ativos**\> **Comum**\> **Ordens de serviço**\> **Todas as ordens de serviço**, **Ordens de serviço ativas** ou **Minhas ordens de serviço ativas**. Abra a ordem de serviço e selecione o trabalho da ordem de serviço. O número da atividade é exibido no campo **Número da atividade** na seção **Projeto** na guia **Geral** da Guia Rápida **Detalhes da linha**.
 
 11. Na seção **Previsão**, defina a opção **Copiar previsão de horas**, **Copiar previsão de item**e/ou **Copiar previsão de despesas** como **Sim** se as previsões do projeto da ordem de serviço devem ser copiadas automaticamente nos diários de ordens de serviço quando a ordem de serviço estiver neste estado de ciclo de vida.
 12. Na seção **Agenda**, defina uma das opções como **Sim** se o status da agenda para os trabalhos da ordem de serviço for atualizado quando a ordem de serviço estiver neste estado de ciclo de vida. Para obter descrições das opções **Pronto**, **Iniciar**, **Encerrar**e **Excluir linhas da agenda**, consulte a tabela anterior deste tópico.
 
     > [!NOTE]
-    > Para exibir linhas da agenda que estão relacionadas a trabalhos da ordem de serviço, selecione **Gerenciamento de ativos**\> **Comum**\> **Ordens de serviço**\> **Todas as ordens de serviço**, **Ordens de serviço ativas** ou **Minhas ordens de serviço ativas**. Abra a ordem de serviço, selecione o trabalho da ordem de serviço na FastTab **Trabalhos da ordem de serviço** e exiba as informações relacionadas na FastTab **Detalhes da linha**. O campo **Status** na guia **Agenda** mostra o status do trabalho da ordem de serviço. O campo **Status** pode ser definido como os seguintes valores: **Agendado**, **Pronto**, **Iniciado**, **Parado** e **Encerrado**.
+    > Para exibir linhas da agenda que estão relacionadas a trabalhos da ordem de serviço, selecione **Gerenciamento de ativos**\> **Comum**\> **Ordens de serviço**\> **Todas as ordens de serviço**, **Ordens de serviço ativas** ou **Minhas ordens de serviço ativas**. Abra a ordem de serviço, selecione o trabalho da ordem de serviço na Guia Rápida **Trabalhos da ordem de serviço** e exiba as informações relacionadas na Guia Rápida **Detalhes da linha**. O campo **Status** na guia **Agenda** mostra o status do trabalho da ordem de serviço. O campo **Status** pode ser definido como os seguintes valores: **Agendado**, **Pronto**, **Iniciado**, **Parado** e **Encerrado**.
 
 13. Na seção **Solicitações de manutenção**, no campo **estado de ciclo de vida**, selecione o estado de ciclo de vida de solicitação de manutenção para o qual as solicitações de manutenção relacionadas devem ser atualizadas. Essa atualização ocorre automaticamente. Ela poderá ser feita somente se o estado de ciclo de vida da solicitação de manutenção estiver selecionado no modelo do ciclo de vida da solicitação de manutenção usado para a solicitação de manutenção.
 14. Na seção **Ativo**, defina a opção **Atualizar BOM de ativos** como **Sim** se todos os itens que serão usados em uma ordem de serviço deverão ser atualizados automaticamente na **BOM de ativos** quando a ordem de serviço for atualizada para este estado de ciclo de vida. Essa configuração pode ser relevante se, por exemplo, o estado de ciclo de vida da ordem de serviço define a ordem de serviço como concluída ou encerrada.
 15. Na seção **Grupo de ordens de serviço**, defina a opção **Excluir referência de grupo** como **Sim** se as ordens de serviço que estiverem nesse estado de ciclo de vida deverão ser excluídas automaticamente nos grupos de ordens de serviço.
-16. Na FastTab **Validar**, selecione os tipos de validação que deverão ser ativados neste estado de ciclo de vida definindo as opções relevantes como **Sim**. Em seguida, no campo **Tipo** de cada tipo de validação selecionada, selecione o tipo de mensagem que deverá ser exibida se os campos obrigatórios relacionados ao tipo de validação não forem validados. Se você selecionar **Erro**, a atualização do estado de ciclo de vida da ordem de serviço será cancelada até que os campos obrigatórios relacionados sejam atualizados na ordem de serviço.
+16. Na Guia Rápida **Validar**, selecione os tipos de validação que deverão ser ativados neste estado de ciclo de vida definindo as opções relevantes como **Sim**. Em seguida, no campo **Tipo** de cada tipo de validação selecionada, selecione o tipo de mensagem que deverá ser exibida se os campos obrigatórios relacionados ao tipo de validação não forem validados. Se você selecionar **Erro**, a atualização do estado de ciclo de vida da ordem de serviço será cancelada até que os campos obrigatórios relacionados sejam atualizados na ordem de serviço.
 
     - As opções **Tempo de inatividade de manutenção**, **Lista de verificação de manutenção**, **Sintoma da falha**, **Causa da falha** e **Correção da falha** estão relacionados às opções na seção **Obrigatório** na página **Tipos de ordem de serviço** (**Gerenciamento de ativos**\> **Configuração**\> **Ordens de serviço**\> **Tipos de ordem de serviço**). Para ativar as validações, as opções relacionadas também devem ser definidas como **Sim** no tipo de ordem de serviço usado.
     - Se a opção **Lista de verificação de manutenção** estiver definida como **Sim** para o estado de ciclo de vida para o qual uma ordem de serviço é atualizada, a validação será realizada para verificar se as linhas de lista de verificação de manutenção marcadas como **Obrigatório** foram registradas como **Verificado** ou **Não aplicável**. Se nenhum desses registros foi feito nas linhas obrigatórias, um erro informativo ou uma mensagem de aviso será exibida quando a ordem de serviço for atualizada para este estado de ciclo de vida.
-    - Se a opção **Custo comprometido** estiver definida como **Sim** para o estado de ciclo de vida para o qual uma ordem de serviço é atualizada, o valor total do custo comprometido (ou seja, o valor total de despesas que a entidade legal se comprometeu a pagar) será calculado para cada trabalho da ordem de serviço. Uma mensagem será exibida se o valor do custo comprometido for maior que 0 (zero). Selecione os tipos de compromisso de custo incluídos na FastTab **Compromissos de custo** na guia **Controle de custos** da página **Parâmetros de gerenciamento e contabilidade de projetos** (**Gerenciamento e contabilidade de projeto**\> **Configuração**\> **Parâmetros de gerenciamento e contabilidade de projetos**).
+    - Se a opção **Custo comprometido** estiver definida como **Sim** para o estado de ciclo de vida para o qual uma ordem de serviço é atualizada, o valor total do custo comprometido (ou seja, o valor total de despesas que a entidade legal se comprometeu a pagar) será calculado para cada trabalho da ordem de serviço. Uma mensagem será exibida se o valor do custo comprometido for maior que 0 (zero). Selecione os tipos de compromisso de custo incluídos na Guia Rápida **Compromissos de custo** na guia **Controle de custos** da página **Parâmetros de gerenciamento e contabilidade de projetos** (**Gerenciamento e contabilidade de projeto**\> **Configuração**\> **Parâmetros de gerenciamento e contabilidade de projetos**).
     - Se a opção **Tempo de inatividade de manutenção** estiver definida como **Sim** para o estado de ciclo de vida para o qual uma ordem de serviço é atualizada, a validação do tempo de inatividade de manutenção será feita no ativo relacionado à ordem de serviço. Se um registro do tempo de inatividade de manutenção foi feito, mas não houver nenhum registro **Encerrado**, a mensagem será exibida quando a ordem de serviço for atualizada para este estado de ciclo de vida.
     - Se a configuração padrão do projeto não inclui todos os estágios necessários para sua configuração de Gerenciamento de Ativos, você poderá configurar estágios do projeto definidos pelo usuário na guia **Estágio do projeto** da página **Parâmetros de gerenciamento e contabilidade de projetos**. A ilustração a seguir mostra a guia **Estágio do projeto** na página **Parâmetros de gerenciamento e contabilidade de projetos**.
 
     ![Página de configuração de fases do projeto dos vários tipos de projeto](media/10-setup-for-work-orders.png)
 
 > [!NOTE]
-> Se o estado de ciclo de vida para o qual você atualizar uma ordem de serviço estiver inativo, os diários relacionados à ordem de serviço mas que ainda não foram lançados serão excluídos automaticamente. Esse comportamento ajuda a garantir a limpeza automática de dados não utilizados. (O estado de ciclo de vida estará inativo se a opção **Ativo** estiver definida como **Não** na FastTab **Geral** da página **estado de ciclo de vida da ordem de serviço**.)
+> Se o estado de ciclo de vida para o qual você atualizar uma ordem de serviço estiver inativo, os diários relacionados à ordem de serviço mas que ainda não foram lançados serão excluídos automaticamente. Esse comportamento ajuda a garantir a limpeza automática de dados não utilizados. (O estado de ciclo de vida estará inativo se a opção **Ativo** estiver definida como **Não** na Guia Rápida **Geral** da página **estado de ciclo de vida da ordem de serviço**.)
 >
-> No entanto, se você definir manualmente uma ordem de serviço para que ela fique inativa, os diários relacionados à ordem de serviço mas que ainda não foram lançados **não** serão excluídos automaticamente. (Para desativar manualmente uma ordem de serviço, selecione **Gerenciamento de ativos**\> **Comum**\> **Ordens de serviço**\> **Todas as ordens de serviço** ou **Ordens de serviço ativas**. Abra a ordem de serviço e alterne para a exibição do **Cabeçalho**. Na FastTab **Geral**, selecione **Editar** e defina a opção **Ativo** como **Não**.)
+> No entanto, se você definir manualmente uma ordem de serviço para que ela fique inativa, os diários relacionados à ordem de serviço mas que ainda não foram lançados **não** serão excluídos automaticamente. (Para desativar manualmente uma ordem de serviço, selecione **Gerenciamento de ativos**\> **Comum**\> **Ordens de serviço**\> **Todas as ordens de serviço** ou **Ordens de serviço ativas**. Abra a ordem de serviço e alterne para a exibição do **Cabeçalho**. Na Guia Rápida **Geral**, selecione **Editar** e defina a opção **Ativo** como **Não**.)
 
 ## <a name="relations-among-work-order-lifecycle-models-work-order-types-and-work-order-lifecycle-states"></a>Relações entre modelos de ciclo de vida, tipos de ordem de serviço e estados de ciclo de vida da ordem serviço
 
@@ -125,7 +125,7 @@ Depois que você criar os estados de ciclo de vida da ordem de serviço que são
 3. No campo **Modelo de ciclo de vida**, insira a ID do modelo de ciclo de vida.
 4. No campo **Nome**, insira um nome.
 
-    Na FastTab **Detalhes**, o campo **Estados de ciclo de vida** mostra o número de estados de ciclo de vida selecionados no modelo de ciclo de vida. O campo **Tipos de ordem de serviço** mostra o número de tipos de ordem de serviço que usam esse modelo de ciclo de vida.
+    Na Guia Rápida **Detalhes**, o campo **Estados de ciclo de vida** mostra o número de estados de ciclo de vida selecionados no modelo de ciclo de vida. O campo **Tipos de ordem de serviço** mostra o número de tipos de ordem de serviço que usam esse modelo de ciclo de vida.
 
 5. Na Guia Rápida **Estados de ciclo de vida**, selecione os estados de ciclo de vida que devem ser incluídos no modelo de ciclo de vida:
 
@@ -134,7 +134,7 @@ Depois que você criar os estados de ciclo de vida da ordem de serviço que são
     - Para remover um estado de ciclo de vida do modelo de ciclo de vida, selecione-o na seção **Estados de ciclo de vida selecionados** e selecione o botão de seta para a esquerda ![Seta para a esquerda](media/14-setup-for-work-orders.png) para movê-lo até a seção **Estados de ciclo de vida restantes**.
 
 6. Selecione **Atualizações do estado de ciclo de vida** para definir os estados de ciclo de vida que podem acompanhar um estado de ciclo de vida selecionado.
-7. Na FastTab **Atualizações**, no campo **Estado agendado**, selecione o estado de ciclo de vida que sempre deverá ser selecionado para uma ordem de serviço para a qual você concluiu o agendamento da ordem de serviço, independentemente estado de ciclo de vida anterior da ordem de serviço.
+7. Na Guia Rápida **Atualizações**, no campo **Estado agendado**, selecione o estado de ciclo de vida que sempre deverá ser selecionado para uma ordem de serviço para a qual você concluiu o agendamento da ordem de serviço, independentemente estado de ciclo de vida anterior da ordem de serviço.
 8. No campo **Estado de ciclo de vida não agendado**, selecione o estado de ciclo de vida que sempre deverá ser selecionado para uma ordem de serviço se o agendamento da ordem de serviço for excluído.
 9. Salve o modelo de ciclo de vida da ordem de serviço.
 

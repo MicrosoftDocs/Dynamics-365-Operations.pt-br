@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PlanActivity, ReqSupplyDemandSchedule
+ms.search.form: PlanActivity, ReqSupplyDemandSchedule, EcoResProductProdTypeFormulaNoActiveFormulaFormPart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a67fa0409226432d2068c7ed4f6a876a9278d365
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0ebe6228bdf94bbe7c8ffa282f9cd633ad25bc78
+ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202045"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3886935"
 ---
 # <a name="formulas-and-formula-versions"></a>Fórmulas e versões de fórmulas
 
@@ -44,7 +44,7 @@ Quando você cria uma linha da fórmula, você usa o tipo de linha para indicar 
 | Tipo de linha     | descrição  |
 |---------------|--------------|
 | Item          | Selecione **Item** quando o item for uma matéria-prima ou um item semiacabado separado do estoque ou quando o item for um serviço. |
-| Fantasma       | Selecione **Fantasma** quando quiser detalhar quaisquer itens de fórmula de nível inferior contidos nas linhas de fórmula. Quando você estimar a ordem de lote e os itens de fórmula forem detalhados, os itens de componente serão listados como linhas da fórmula na ordem de lote. Além de isso, os roteiros correspondentes serão adicionadas ao roteiro de produção. Os itens de fórmula são detalhados usando a configuração atual. Ao usar o tipo de linha **Fantasma**, você poderá tratar as configurações de produção e de medição que ocorrem em diferentes níveis da fórmula. Se você selecionar **Fantasma** para um produto na FastTab **Engenharia** da página **Detalhes do produto liberado** e depois usar esse produto em uma fórmula, o tipo de linha da fórmula será alterado para **Fantasma**. Você não pode selecionar **Fantasma** para um item de peso variável ou para itens em que o tipo de produção é **Coproduto**, **Subproduto**, ou **Item de planejamento**. |
+| Fantasma       | Selecione **Fantasma** quando quiser detalhar quaisquer itens de fórmula de nível inferior contidos nas linhas de fórmula. Quando você estimar a ordem de lote e os itens de fórmula forem detalhados, os itens de componente serão listados como linhas da fórmula na ordem de lote. Além de isso, os roteiros correspondentes serão adicionadas ao roteiro de produção. Os itens de fórmula são detalhados usando a configuração atual. Ao usar o tipo de linha **Fantasma**, você poderá tratar as configurações de produção e de medição que ocorrem em diferentes níveis da fórmula. Se você selecionar **Fantasma** para um produto na Guia Rápida **Engenharia** da página **Detalhes do produto liberado** e depois usar esse produto em uma fórmula, o tipo de linha da fórmula será alterado para **Fantasma**. Você não pode selecionar **Fantasma** para um item de peso variável ou para itens em que o tipo de produção é **Coproduto**, **Subproduto**, ou **Item de planejamento**. |
 | Fornecimento vinculado | Selecione **Suprimento vinculado** para criar uma ordem de lotes, ordem de produção, um kanban, uma ordem de transferência, ou uma ordem de compra do ingrediente que estará contido na linha fórmula. A ordem relacionada é determinada com base nas configurações de ordem padrão e no tipo de produção de ingrediente, e será criada quando você estimar a ordem de lote. As quantidades necessárias do ingrediente serão reservadas para a ordem de lote. |
 | Fornecedor        | Selecione **Fornecedor** se o processo de produção usar um subcontratado e você desejar criar uma subprodução ou uma ordem de compra para o subcontratado. O serviço ou trabalho realizado pelo subcontratado deve ser criado usando um item de fórmula ou um Item de serviço. Você poderá associar o item ao item principal como uma linha da fórmula. O roteiro deverá conter uma operação atribuída ao recurso de operações do subcontratado. Essa operação é associada à linha da fórmula usando o campo **Nº Oper.** . |
 
