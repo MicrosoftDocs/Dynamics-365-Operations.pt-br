@@ -3,7 +3,7 @@ title: Módulo do vale-presente
 description: Este tópico abrange os módulos de cartão-presente e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4cc947b9d6f3cfa51bce2155170c49e9529d0f7d
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: fc47d590789c79c08af7555222aa7cc9409da23c
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761072"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817417"
 ---
 # <a name="gift-card-module"></a>Módulo do vale-presente
 
@@ -35,10 +35,16 @@ Este tópico abrange os módulos de cartão-presente e descreve como adicioná-l
 
 Os módulos de cartão-presente podem ser usados em módulos de finalização de compra para aceitar cartões-presente, uma forma comum de pagamento usada para transações de comércio eletrônico. O módulo de cartão-presente oferece suporte a cartões-presente Dynamics 365, SVS e Givex. Os cartões-presente SVS e Givex são resgatados por meio do provedor de pagamentos Adyen. Para obter mais informações sobre suporte a cartões-presente externos, como SVS e Givex, consulte [Suporte a cartões-presente externos](./dev-itpro/gift-card.md).
 
+> [!NOTE]
+> O suporte para o resgate de vales-presentes SVS e Givex durante o fluxo de finalização de compra está disponível na versão 10.0.11 do Dynamics 365 Commerce. 
+
 Há dois módulos de cartão-presente disponíveis:
 
 - **Cartão-presente** - Este módulo pode ser usado em uma página de finalização de compra para resgatar um cartão-presente como meio de pagamento. 
 - **Verificação de saldo do cartão-presente** - Este módulo pode ser usado em qualquer página para verificar o saldo de um cartão-presente. Este módulo está disponível nas versões 10.0.14 e posterior do Commerce.
+
+> [!NOTE]
+> O suporte para o módulo de verificação de saldo de vale-presente está disponível na versão do 10.0.14 do Dynamics 365 Commerce.
 
 A imagem a seguir mostra um exemplo de um módulo de cartão-presente em uma página de finalização de compra.
 
@@ -61,6 +67,9 @@ No construtor de sites do Commerce em **Configurações de site \> Extensões**,
 - **Cartões-presente SVS e Givex** - Quando essa configuração é aplicada, o módulo do cartão-presente só permite o resgate dos cartões-presente Givex e SVS. Essa configuração tem suporte para usuários conectados e anônimos no site de comércio eletrônico.
 - **Cartões-presente Dynamics 365, SVS e Givex** - Quando essa configuração é aplicada, o módulo do cartão-presente só permite o resgate dos cartões-presente Dynamics 365, Givex e SVS. Essa configuração só tem suporte para usuários conectados no site de comércio eletrônico.
 
+> [!IMPORTANT]
+> Essas configurações estão disponíveis na versão 10.0.11 do Dynamics 365 Commerce e são necessárias somente se você precisar de suporte para vales-presente SVS ou Givex. Se estiver atualizando de uma versão mais antiga do Dynamics 365 Commerce, você deverá atualizar manualmente o arquivo appsettings.json. Para obter instruções sobre como atualizar o arquivo appsettings.json, consulte [SDK e atualizações da biblioteca de módulos](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
+
 ## <a name="add-a-gift-card-module-to-a-page"></a>Adicionar um módulo de cartão-presente a uma página
 
 Para obter instruções sobre como adicionar um módulo de cartão-presente a uma página de check-in e definir as propriedades necessárias, consulte [Módulo de finalização](add-checkout-module.md).
@@ -82,3 +91,5 @@ Para obter instruções sobre como adicionar um módulo de cartão-presente a um
 [Módulo de detalhes da ordem](order-confirmation-module.md)
 
 [Suporte a cartões-presente externos](./dev-itpro/gift-card.md)
+
+[SDK e atualizações da biblioteca de módulos](e-commerce-extensibility/sdk-updates.md)

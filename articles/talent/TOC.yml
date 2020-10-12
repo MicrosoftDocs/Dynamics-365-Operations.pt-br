@@ -148,9 +148,9 @@
           href: access-preview-feature.md
         - name: Provisionar o Onboard
           href: modular-app-tech-faq.md
-        - name: Exportar dados do Attract e Onboard
+        - name: Exportar dados do Attract e do Onboard
           href: attract-onboard-export-data.md
-        - name: Incorporar Microsoft Power Apps
+        - name: Incorporar aplicativos de tela a partir do Power Apps
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Obter suporte para o Talent
           href: talent-support.md
@@ -252,3 +252,5 @@
           href: user-access-core-hr.md
         - name: Usuários do Azure Active Directory não encontrados no Seletor de Pessoas
           href: people-picker-user-not-found.md
+        - name: Os usuários do Attract não podem se candidatar a empregos pelo portal de carreiras
+          href: attract-troubleshoot-career-portal.md

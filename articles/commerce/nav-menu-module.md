@@ -3,7 +3,7 @@ title: Módulo do menu de navegação
 description: Este tópico abrange os módulos do menu de navegação e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 9f66bbe7bf436ab6360dda7d92d6d51e47eedf16
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: 91239bd1db3f5819b7ad8d45ccfd8ab0d88b1b41
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761367"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817865"
 ---
 # <a name="navigation-menu-module"></a>Módulo do menu de navegação
 
@@ -58,7 +58,7 @@ Para obter detalhes sobre como adicionar um módulo de menu de navegação a um 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral do kit de início](starter-kit-overview.md)
+[Visão geral da biblioteca de módulos](starter-kit-overview.md)
 
 [Módulo de caixa de compra](add-buy-box.md)
 

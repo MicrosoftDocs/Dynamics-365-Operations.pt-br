@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 05ac817081689f27cdf55cb86a3235d7707a737b
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: 8ab5f1c3cdfa990a73951ddc5a7469644954d5c2
+ms.sourcegitcommit: 646a0e7c8b8a7f2d00a50eddfa65500d0f8afbaf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3803412"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "3814891"
 ---
 # <a name="safety-margins"></a>Margens de segurança
 
@@ -107,7 +107,7 @@ Para aplicar uma margem de segurança a um grupo de cobertura, siga estas etapas
 
 1. Vá para **Planejamento mestre \> Configuração \> Grupos de cobertura**.
 1. No painel de lista, selecione o grupo de cobertura desejado.
-1. Na FastTab **Outro**, na seção **Margens de segurança em dias**, use os campos a seguir para definir as margens de segurança necessárias (em dias):
+1. Na Guia Rápida **Outro**, na seção **Margens de segurança em dias**, use os campos a seguir para definir as margens de segurança necessárias (em dias):
 
     - Margem de recebimento adicionada à data obrigatória
     - Margem de emissão deduzida da data obrigatória
@@ -119,7 +119,7 @@ Para aplicar uma margem de segurança a um plano mestre, siga estas etapas.
 
 1. Vá para **Planejamento mestre \> Configuração \> Planos \> Planos mestres**.
 1. No painel de lista, selecione o plano mestre desejado.
-1. Na FastTab **Margens de segurança em dias**, na seção Margens de segurança em dias, use os campos a seguir para definir as margens de segurança necessárias (em dias):
+1. Na Guia Rápida **Margens de segurança em dias**, na seção Margens de segurança em dias, use os campos a seguir para definir as margens de segurança necessárias (em dias):
 
     - Margem de recebimento adicionada à data obrigatória
     - Margem de emissão deduzida da data obrigatória
@@ -162,13 +162,13 @@ As regras a seguir são aplicadas para determinar se o mecanismo de planejamento
 
 #### <a name="calendar-setup-overview-matrix"></a>Matriz de visão geral da configuração do calendário
 
-A ilustração a seguir apresenta uma matriz que resume quais calendários se aplicam quando as margens de segurança são calculadas. As seguintes abreviações e cores são usadas para indicar onde cada tipo de calendário é especificado:
+A ilustração a seguir apresenta uma matriz que resume quais calendários se aplicam quando as margens de segurança são calculadas. (Selecione a imagem para abrir uma versão de alta resolução dela.) As seguintes abreviações e cores são usadas para indicar onde cada tipo de calendário é especificado:
 
 - **Grupo de cobertura (CG):** verde
 - **Depósito (WH):** amarelo
 - **Fornecedor (V):** azul
 
-![Matriz de visão geral da configuração do calendário](media/safety-margins-calendar-matrix.png)
+[![Matriz de visão geral da configuração do calendário](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
 
 ## <a name="calculating-delays"></a>Calculando atrasos
 

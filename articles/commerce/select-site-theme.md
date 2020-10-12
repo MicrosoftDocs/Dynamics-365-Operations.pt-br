@@ -3,7 +3,7 @@ title: Selecionar um tema de site
 description: Este tópico descreve como configurar ou alterar um tema do site no Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 45184c7b0e29d1258b26368fbc7221df91013cc3
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1f92b31e870cbb4d3cc04870273693bed1378c5e
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002742"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817697"
 ---
 # <a name="select-a-site-theme"></a>Selecionar um tema de site
-
 
 [!include [banner](includes/banner.md)]
 
@@ -35,7 +34,7 @@ Este tópico descreve como configurar ou alterar um tema do site no Microsoft Dy
 
 O layout e o estilo de um site (por exemplo, fontes, tamanhos e cores) são definidos pelo tema que você seleciona e aplica ao site. Um tema é criado e implantado por um desenvolvedor em sua empresa. Para obter uma visão geral dos temas, consulte [Visão geral de Temas](http://). Para obter mais informações sobre como criar e implantar os temas, consulte [Criar um novo tema](http://).
 
-Por padrão, quando você cria um site pela primeira vez, ele usa um tema chamado **Fabrikam**. Este tema padrão é fornecido como parte do kit de início. Depois que tiver implantado temas adicionais para seu site, você pode configurar o site de forma que use um deles.
+Por padrão, quando você cria um site pela primeira vez, ele usa um tema chamado **Fabrikam**. Este tema padrão é fornecido como parte da biblioteca de módulos do Comércio. Depois que tiver implantado temas adicionais para seu site, você pode configurar o site de forma que use um deles.
 
 ## <a name="select-the-site-theme"></a>Selecione o tema do site
 

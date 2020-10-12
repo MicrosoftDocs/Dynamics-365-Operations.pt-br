@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5a57b96387ca5746a30b2e438d6b5f0ce3040f54
-ms.sourcegitcommit: 728cd7f723ee821337eee315a27977e99a44d9d3
+ms.openlocfilehash: 65874e5ca73c18c3df7b94b8abb6eb15491482bf
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "3258548"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893126"
 ---
 # <a name="business-document-management-overview"></a>Visão geral de gerenciamento de documentos comerciais
 
@@ -31,7 +31,7 @@ ms.locfileid: "3258548"
 
 Os usuários comerciais usam a [estrutura de Relatório eletrônico (ER)](general-electronic-reporting.md) para configurar formatos para documentos de saída de acordo com os requisitos legais de vários países/regiões. Os usuários também podem definir o fluxo de dados para especificar quais dados do aplicativo são colocados nos documentos gerados. A estrutura de ER gera documentos de saída nos formatos do Microsoft Office (pastas de trabalho do Excel ou documentos do Word) usando modelos predefinidos. Os modelos são preenchidos com os dados necessários de acordo com o fluxo de dados configurado enquanto os documentos necessários são gerados. Cada formato configurado pode ser publicado como parte de uma solução de ER para gerar documentos de saída específicos. Isso é representado por uma configuração de formato de ER que pode conter modelos usados para gerar diferentes documentos de saída. Os usuários comerciais podem usar essa estrutura para gerenciar os documentos comerciais necessários.
 
-O **gerenciamento de documentos comerciais** é baseado na estrutura de ER e permite que os usuários comerciais editem modelos de documentos comerciais usando o serviço do Microsoft Office 365 ou o aplicativo de área de trabalho apropriado do Microsoft Office. As edições nos documentos podem incluir a alteração dos designs dos documentos comerciais e a adição de espaços reservados para dados adicionais sem alterações no código-fonte e novas implantações. Não é necessário conhecimento da estrutura de ER para atualizar modelos de documentos comerciais.
+O **gerenciamento de documentos comerciais** é baseado na estrutura de ER e permite que os usuários comerciais editem modelos de documentos comerciais usando o serviço do Microsoft 365 ou o aplicativo de área de trabalho apropriado do Microsoft Office. As edições nos documentos podem incluir a alteração dos designs dos documentos comerciais e a adição de espaços reservados para dados adicionais sem alterações no código-fonte e novas implantações. Não é necessário conhecimento da estrutura de ER para atualizar modelos de documentos comerciais.
 
 > [!NOTE]
 > Saiba que o gerenciamento de documentos comerciais permite modificar modelos usados para produzir documentos comerciais, como pedidos, faturas etc. Embora um modelo tenha sido modificado e uma nova versão tenha sido publicada, essa versão é usada para gerar documentos comerciais necessários. O gerenciamento de documentos comerciais não pode ser usado para modificar documentos comerciais já gerados.
@@ -170,7 +170,7 @@ Use o procedimento a seguir para configurar os parâmetros básicos de todas as 
 O tipo de documento selecionado é específico da empresa e será usado quando o usuário estiver trabalhando com o gerenciamento de documentos comerciais na empresa para a qual o tipo de documento selecionado está configurado. Quando o usuário estiver trabalhando com o gerenciamento de documentos comerciais em outra empresa, o mesmo tipo de documento selecionado será usado se um não tiver sido configurado para esta empresa. Quando um tipo de documento for configurado, ele será usado em vez daquele selecionado no campo **Tipo de documento do SharePoint**.
 
 > [!NOTE]
-> O parâmetro **Tipo de documento do SharePoint** define uma pasta do SharePoint como armazenamento temporário para modelos que são editáveis usando o Microsoft Excel ou Word. Será necessário configurar esse parâmetro se você planeja usar esses aplicativos da área de trabalho do Office para editar modelos. Para obter mais informações, consulte [Editar um modelo no aplicativo da área de trabalho do Office](#EditInOfficeDesktopApp). É possível manter esse parâmetro em branco se você planeja modificar o modelo usando a funcionalidade no Office 365. Para obter mais informações, consulte [Editar um modelo no Office 365](#EditInOffice365).
+> O parâmetro **Tipo de documento do SharePoint** define uma pasta do SharePoint como armazenamento temporário para modelos que são editáveis usando o Microsoft Excel ou Word. Será necessário configurar esse parâmetro se você planeja usar esses aplicativos da área de trabalho do Office para editar modelos. Para obter mais informações, consulte [Editar um modelo no aplicativo da área de trabalho do Office](#EditInOfficeDesktopApp). É possível manter esse parâmetro em branco se você planeja modificar o modelo usando a funcionalidade no Microsoft 365. Para obter mais informações, consulte [Editar um modelo no Microsoft 365](#EditInOffice365).
 
 ## <a name="configure-access-permissions"></a>Configurar permissões de acesso
 
@@ -295,13 +295,13 @@ A opção **Novo documento** está sempre disponível para um modelo em uma conf
 
 5. Selecione **OK** para confirmar o início do processo de edição.
 
-A página **Editor de modelo de BDM** será aberta. O modelo selecionado estará disponível para edição online usando o Office 365.
+A página **Editor de modelo de BDM** será aberta. O modelo selecionado estará disponível para edição online usando o Microsoft 365.
 
 ![Página do espaço de trabalho de gerenciamento de documentos comerciais](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name=""></a><a name="EditInOffice365">Editar um modelo no Office 365</a>
+### <a name=""></a><a name="EditInOffice365">Editar um modelo no Microsoft 365</a>
 
-Você pode modificar o modelo usando o Office 365. Por exemplo, no Office online, altere a fonte dos avisos do campo no cabeçalho do modelo de **Regular** para **Negrito**. Essas alterações são armazenadas automaticamente no modelo editável que é guardado no armazenamento do modelo principal (por padrão, o armazenamento de blobs do Azure). Isso é configurado para a estrutura do ER.
+Você pode modificar o modelo usando o Microsoft 365. Por exemplo, no Office online, altere a fonte dos avisos do campo no cabeçalho do modelo de **Regular** para **Negrito**. Essas alterações são armazenadas automaticamente no modelo editável que é guardado no armazenamento do modelo principal (por padrão, o armazenamento de blobs do Azure). Isso é configurado para a estrutura do ER.
 
 ![Página do editor de modelo de gerenciamento de documentos comerciais](./media/BDM-Overview-EditingLayout2.png)
 
@@ -398,10 +398,10 @@ Ao editar o modelo de um formato de ER que pertence ao provedor ativo atual, voc
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
-#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>Eu selecionei **Editar documento**, mas em vez de abrir a página **Editor de modelo de BDM** no Finance and Operations, fui direcionado à página da Web do Office 365.
-Esse é um problema conhecido de redirecionamento do Office 365. Isso acontece quando você entra no Office 365 pela primeira vez. Para contornar esse problema, selecione o botão **Voltar** do navegador para retornar.
+#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-microsoft-365-web-page"></a>Eu selecionei **Editar documento**, mas em vez de abrir a página **Editor de modelo de BDM** no Finance and Operations, fui direcionado à página da Web do Microsoft 365.
+Esse é um problema conhecido de redirecionamento do Microsoft 365. Isso acontece quando você entra no Microsoft 365 pela primeira vez. Para contornar esse problema, selecione o botão **Voltar** do navegador para retornar.
 
-#### <a name="i-understand-how-to-edit-a-template-by-using-office-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-adjusting-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-do-this-using-the-office-desktop-application"></a>Entendo como editar um modelo usando o Office 365 na primeira sessão do aplicativo e como usar o modelo na segunda sessão do aplicativo ajustando o modelo para ver como minhas alterações afetam o documento comercial gerado. Posso fazer isso usando o aplicativo da área de trabalho do Office?
+#### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-adjusting-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-do-this-using-the-office-desktop-application"></a>Entendo como editar um modelo usando o Microsoft 365 na primeira sessão do aplicativo e como usar o modelo na segunda sessão do aplicativo ajustando o modelo para ver como minhas alterações afetam o documento comercial gerado. Posso fazer isso usando o aplicativo da área de trabalho do Office?
 Sim, você pode. Na primeira sessão do aplicativo, selecione **Abrir no Aplicativo de Área de Trabalho**. Seu modelo será armazenado no armazenamento de arquivos temporário e aberto no aplicativo da área de trabalho do Office. Em seguida, conclua as etapas a seguir para visualizar suas alterações de modelo no documento comercial gerado:
 
 1. Faça alterações no modelo usando o aplicativo da área de trabalho do Office.

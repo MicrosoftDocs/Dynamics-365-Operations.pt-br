@@ -3,7 +3,7 @@ title: Configurar páginas personalizadas para entradas dos usuários
 description: Este tópico descreve como criar páginas personalizadas no Microsoft Dynamics 365 Commerce que manipula inscrições personalizadas para usuários nos locatários de business-to-consumer (B2C) do Azure Active Directory (Azure AD).
 author: brianshook
 manager: annbe
-ms.date: 07/02/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e9e78a4d6dc4189c927d9ef321f1eb5a6c120ee2
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 0b54bf6234dcb87c84b21259c30ca5c321869adf
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533450"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817297"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Configurar páginas personalizadas para entradas dos usuários
 
@@ -120,7 +120,7 @@ Quando você cria páginas, siga estas diretrizes:
 
 - Para cada página ou módulo, use o layout e estilo que melhor atende aos seus requisitos de empresa.
 - Publicar todas as páginas e URLs que devem ser usadas na configuração do Azure AD B2C.
-- Após as páginas e URLs serem publicados, colete os URLs que devem ser usados para configurações da política Azure AD B2C. Um sufixo **?preloadscripts=true** será adicionado a cada URL quando é usado.
+- Após as páginas e URLs serem publicadas, colete as URLs que devem ser usadas para configurações da política Azure AD B2C. Um sufixo **?preloadscripts=true** será adicionado a cada URL quando é usado.
 
 > [!IMPORTANT]
 > Não reutilize cabeçalhos e rodapés universais com links relacionados. Como essas páginas estão hospedadas no domínio Azure AD B2C quando são usadas, apenas URLs absolutas devem ser usadas para todos os links.
@@ -181,17 +181,17 @@ Para atualizar a política "Redefinir senha" com informações de página person
 
 ## <a name="customize-default-text-strings-for-labels-and-descriptions"></a>Personalizar caracteres de texto padrão e rótulos para descrições
 
-No pacote inicial, módulos de inscrição são preenchidos com caracteres de texto padrão para rótulos e descrições. Você pode personalizar esses caracteres no kit de desenvolvimento de software (SDK) atualizando os valores no arquivo global.json para entrar no módulo.
+Na biblioteca de módulos, os módulos de entrada são previamente preenchidos com caracteres de texto padrão para os rótulos e descrições. Você pode personalizar esses caracteres no kit de desenvolvimento de software (SDK) atualizando os valores no arquivo global.json para entrar no módulo.
 
 Por exemplo, o texto padrão para o link de senha esquecida é **Esqueceu a senha?**. A seguir veja um texto padrão na página de entrada.
 
 ![Texto padrão para o link de senha esquecida na página de entrada](./media/B2C_SignUp_ModuleFace.png)
 
-No entanto, no arquivo global.json para o módulo de entrada de kit inicial, você pode editar o texto para **Esqueceu a senha?**, como visto na ilustração a seguir.
+No entanto, no arquivo global.json para o módulo de entrada da biblioteca de módulos, você pode editar o texto para **Esqueceu a senha?**, conforme mostrado na ilustração a seguir.
 
 ![Texto de link atualizado no arquivo global.json do módulo de entrada](./media/B2C_CustomizingStringsForModule.png)
 
-Depois de atualizar o arquivo global.json e publicar suas alterações, o novo texto de link aparece no módulo de entrada em Comércio e na página de entrada ao vivo.
+Depois de atualizar o arquivo global.json e publicar suas alterações, o novo texto de link será exibido no módulo de entrada no Commerce e na página de entrada ativa.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

@@ -3,7 +3,7 @@ title: Personalizar a navegação do site
 description: Este tópico descreve como criar uma hierarquia online personalizada de navegação para organizar seus produtos para procurar no site do Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ae7696dcb5cdd99cd46b89ed1de1b03c16146e2d
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: c2b6a7a3b35873e80be391c627d0397fd6398a99
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269650"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817221"
 ---
 # <a name="customize-site-navigation"></a>Personalizar a navegação do site
 
@@ -81,7 +81,7 @@ Para tornar sua hierarquia de navegação disponível na loja online, siga essas
 Para exibir sua hierarquia de categoria na loja online, você deve adicionar o módulo do menu de navegação no local apropriado em um modelo ou fragmento. O módulo de menu de navegação mostrará a hierarquia de navegação, desde que você a tenha publicado no canal ao qual o site está associado.
 
 > [!NOTE]
-> O módulo de menu de navegação incluído no kit inicial de loja permite que os usuários naveguem apenas em categorias que não têm subcategorias. Se seus clientes podem navegar em categorias que têm subcategorias, você deve personalizar o módulo de menu de navegação.
+> O módulo de menu de navegação incluído na biblioteca de módulos permite que os usuários naveguem somente até categorias que não tenham subcategorias. Se seus clientes podem navegar em categorias que têm subcategorias, você deve personalizar o módulo de menu de navegação.
 
 ## <a name="add-custom-navigation-options"></a>Adicionar opções de navegação personalizadas
 

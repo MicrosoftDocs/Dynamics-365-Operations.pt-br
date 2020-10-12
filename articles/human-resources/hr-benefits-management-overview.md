@@ -3,7 +3,7 @@ title: Visão geral do Gerenciamento de benefícios
 description: Visão geral do recurso de Gerenciamento de benefícios no Dynamics 365 Human Resources. Ofereça opções de benefícios estendidos aos seus funcionários com uma experiência online fácil de usar.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/16/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1043fb18c33e5ec0cde13008b168fd317c7c7be6
-ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
+ms.openlocfilehash: e2e8fcdd0b6124b459c4dc073e2929418d18bcc5
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3599371"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819756"
 ---
 # <a name="benefits-management-overview"></a>Visão geral do Gerenciamento de benefícios
 
@@ -41,15 +41,9 @@ Para permanecer em um mercado competitivo, é necessário oferecer um conjunto a
 
 Se deseja acessar os dados de demonstração, será necessário implementar novamente o ambiente de área restrita.
 
-## <a name="benefits-management-known-issues"></a>Problemas conhecidos do gerenciamento de benefícios
-
-### <a name="flex-credit-programs"></a>Programas de crédito flexível
-
-O valor de crédito total definido para um programa de crédito flexível não é exibido no formulário **Planos de benefícios do trabalhador**. Além disso, se você definir um programa de crédito flexível para ter uma regra de rateio de **Nenhum**, você recebe um erro no formulário **Plano de benefício do trabalhador** ao selecionar e confirmar planos.
-
 ## <a name="enable-benefits-management"></a>Habilitar o Gerenciamento de benefícios
 
-Este artigo descreve como acionar os recursos no Human Resources. Ele também informa quais recursos existentes no Human Resources são substituídos pelo Gerenciamento de benefícios ou quais são desabilitados após ativar o Gerenciamento de recursos.
+Este tópico descreve como acionar os recursos no Human Resources. Ele também informa quais recursos existentes no Human Resources são substituídos pelo Gerenciamento de benefícios ou quais são desabilitados após ativar o Gerenciamento de recursos.
 
 > [!IMPORTANT]
 > Depois de habilitar o gerenciamento de benefícios em um ambiente de **Produção** você pode desativá-lo. É recomendável habilitar e testar o gerenciamento de benefícios em um ambiente de **Área restrita** antes de ativá-lo em um ambiente de **Produção**. Há diferenças significativas entre a funcionalidade de benefício herdada e a nova funcionalidade de gerenciamento de benefícios que exigem configuração adicional e devem ser testadas antes de serem colocadas em produção.

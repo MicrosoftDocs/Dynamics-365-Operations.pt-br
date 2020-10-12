@@ -3,7 +3,7 @@ title: Função de ER GETENUMVALUEBYNAME
 description: Este tópico fornece informações sobre como a função de relatório eletrônico (ER) GETENUMVALUEBYNAME é usada.
 author: NickSelin
 manager: kfend
-ms.date: 12/12/2019
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33ccf358dc5355cd00d5ff41ebd8148a334cba38
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 722ea8ea233d617b0584e21e98073428f16c0801
+ms.sourcegitcommit: ad5b7676fc1213316e478afcffbfaee7d813f3bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3743846"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3885218"
 ---
 # <a name="getenumvaluebyname-er-function"></a>Função de ER GETENUMVALUEBYNAME
 
@@ -61,11 +61,11 @@ O valor de enumeração resultante.
 
 Nenhuma exceção é gerada se um valor de *Enum.* não for encontrado usando o nome do valor de enumeração especificado como um valor de *Cadeia de caracteres*.
 
-## <a name="example"></a>Exemplo
+## <a name="example-1"></a>Exemplo 1
 
 Na ilustração a seguir, a enumeração de **ReportDirection** é apresentada em um modelo de dados. Observe que os rótulos são definidos para os valores de enumeração.
 
-<p><a href="./media/ER-data-model-enumeration-values.PNG"><img src="./media/ER-data-model-enumeration-values.PNG" alt="Available values for a data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>
+![Valores disponíveis para uma enumeração de modelo de dados](./media/ER-data-model-enumeration-values.PNG)
 
 A ilustração a seguir mostra estes detalhes:
 
@@ -73,8 +73,48 @@ A ilustração a seguir mostra estes detalhes:
 - A expressão `$IsArrivals` foi criada para usar a fonte de dados **$Direction** baseada na enumeração do modelo como um parâmetro desta função.
 - O valor dessa expressão de comparação é **TRUE**.
 
-<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>
+![Exemplo de enumeração de modelo de dados](./media/ER-data-model-enumeration-usage.PNG)
+
+## <a name="example-2"></a>Exemplo 2
+
+As funções `GETENUMVALUEBYNAME` e [`LISTOFFIELDS`](er-functions-list-listoffields.md) permitem buscar valores e etiquetas de enumerações com suporte como valores de texto. (As enumerações com suporte são enumerações de aplicativo, enumerações de modelo de dados e enumerações de formato.)
+
+Na ilustração a seguir, a fonte de dados **TransType** é apresentada em um mapeamento de modelo. Essa fonte de dados refere-se à enumeração de aplicativo **LedgerTransType**.
+
+![Fonte de dados de um mapeamento de modelo que se refere a uma enumeração de aplicativo](./media/er-functions-text-getenumvaluebyname-example2-1.png)
+
+A ilustração a seguir mostra a fonte de dados **TransTypeList** configurada em um mapeamento de modelo. Essa fonte de dados é configurada com base na enumeração do aplicativo **TransType**. A função `LISTOFFIELDS` é usada para retornar todos os valores de enumeração como uma lista de registros que contêm campos. Dessa forma, os detalhes de cada valor de enumeração são expostos.
+
+> [!NOTE]
+> O campo **EnumValue** é configurado para a fonte de dados **TransTypeList** usando a expressão `GETENUMVALUEBYNAME(TransType, TransTypeList.Name)`. Esse campo retorna um valor de enumeração para cada registro nessa lista.
+
+![Fonte de dados de um mapeamento de modelo que retorna todos os valores de enumeração de uma enumeração selecionada como uma lista de registros](./media/er-functions-text-getenumvaluebyname-example2-2.png)
+
+A ilustração a seguir mostra a fonte de dados **VendTrans** configurada em um mapeamento de modelo. Essa fonte de dados retorna registros de transações do fornecedor da tabela de aplicativos **VendTrans**. O tipo de razão de cada transação é definido pelo valor do campo **TransType**.
+
+> [!NOTE]
+> O campo **TransTypeTitle** é configurado para a fonte de dados **VendTrans** usando a expressão `FIRSTORNULL(WHERE(TransTypeList, TransTypeList.EnumValue = @.TransType)).Label`. Esse campo retorna o rótulo de um valor de enumeração da transação atual como texto, se esse valor de enumeração estiver disponível. Caso contrário, ele retorna um valor de cadeia de caracteres em branco.
+>
+> O campo **TransTypeTitle** está vinculado ao campo **LedgerType** de um modelo de dados que permite que essas informações sejam usadas em todos os formatos ER que usam o modelo de dados como fonte de dados.
+
+![Fonte de dados de um mapeamento de modelo que retorna as transações do fornecedor](./media/er-functions-text-getenumvaluebyname-example2-3.png)
+
+A ilustração a seguir mostra como você pode usar o [depurador da fonte de dados](er-debug-data-sources.md) para testar o mapeamento do modelo configurado.
+
+![Uso do depurador de fonte de dados para testar o mapeamento do modelo configurado](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
+
+O campo **LedgerType** de um modelo de dados expõe etiquetas de tipos de transação conforme o esperado.
+
+Se você planeja usar essa abordagem para uma grande quantidade de dados transacionais, deve considerar o desempenho de execução. Para obter mais informações, consulte [Rastrear a execução de formatos de ER para solucionar problemas de desempenho](trace-execution-er-troubleshoot-perf.md).
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções de texto](er-functions-category-text.md)
+
+[Rastrear a execução de formatos de ER para solucionar problemas de desempenho](trace-execution-er-troubleshoot-perf.md)
+
+[Função de ER LISTOFFIELDS](er-functions-list-listoffields.md)
+
+[Função de ER FIRSTORNULL](er-functions-list-firstornull.md)
+
+[Função de ER WHERE](er-functions-list-where.md)

@@ -1,9 +1,9 @@
 ---
 title: Distribuições contábeis
-description: Este artigo fornece informações sobre distribuições contábeis e descreve as opções disponíveis para o processamento. As distribuições contábeis são usadas para alocar valores monetários para um documento de origem em contas contábeis específicas.
+description: Este tópico fornece informações sobre distribuições contábeis e descreve as opções disponíveis para o processamento.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e9f185ac95371bb841e55184650b8089040676c
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: c9a627ba33065086d21c758a1b8d8f2fa2f6ef02
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772251"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819830"
 ---
 # <a name="accounting-distributions"></a>Distribuições contábeis
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo fornece informações sobre distribuições contábeis e descreve as opções disponíveis para o processamento. As distribuições contábeis são usadas para alocar valores monetários para um documento de origem em contas contábeis específicas. 
+Este tópico fornece informações sobre distribuições contábeis e descreve as opções disponíveis para o processamento. As distribuições contábeis são usadas para alocar valores monetários para um documento de origem em contas contábeis específicas. 
 
 As distribuições contábeis são um recurso do programa que é usado e estendido por cada documento de origem, como uma ordem de compra, uma fatura de fornecedor, um relatório de despesas e uma fatura de texto livre. Por padrão, uma distribuição contábil padrão é gerada para cada linha do documento de origem e o valor monetário é habilitada condicionalmente para a alteração. 
 
-> [!Note] 
+> [!NOTE] 
 > Alguns documentos também oferecem suporte de valores monetários para documentos de cabeçalho, como encargos diversos para ordens e faturas. 
 
 Os recursos de distribuição contábil genéricos fornecem as seguintes opções para processar distribuições contábeis:
@@ -47,14 +47,13 @@ Os recursos de distribuição contábil genéricos fornecem as seguintes opçõe
     -   O botão **Redefinir** pode ser habilitado para distribuições pai quando há mais de uma distribuição. **Redefinir** reverte qualquer alteração manual na distribuição excluindo as distribuições existentes e regenerando as distribuições padrão.
     -   Qualquer distribuição filho, como desconto, encargo e imposto está de acordo com a a distribuição pai. É possível visualizar a relação pai/filho em **Referência** &gt; **Informações sobre pai**.
     -   A conta principal e a dimensão financeira também podem ser editáveis para filho.
-    -   As dimensões financeiras nas distribuições contábeis seguem um padrão de que o documento pode ser estendido. Para obter mais detalhes, consulte os artigos relacionados.
+    -   As dimensões financeiras nas distribuições contábeis seguem um padrão de que o documento pode ser estendido.
     -   As distribuições de variação podem ser geradas em cenários correspondentes, como a correspondência entre uma fatura e a ordem de compra. É possível visualizar as relações de conciliação entre a distribuição contábil em **Referência** &gt; **Informações do documento**.
     -   O botão **Corrigir** é exibido para documentos que suportam correções. **Corrigir** cria novas distribuições. Primeiro, as distribuições criadas que invertem as distribuições originais. Essas distribuições não podem ser alteradas. Em seguida, as novas distribuições contábeis corretas são criadas. Essas distribuições podem ser alteradas se as distribuições originais puderem ser alteradas.
     -   O botão **Detalhes do projeto** é habilitado como uma extensão quando uma linha estiver relacionada a um projeto. As distribuições contábeis do projeto permitem alterar detalhes como a fonte de financiamento e a propriedade da linha.
     -   É possível visualizar o status atual da contabilidade do documento em **Referência**. O status se refere a todo o documento e indica se ele está sendo processado ou se ele foi concluído.
--   **Distribuições de exibição** – Exiba as distribuições contábeis para todas as linhas e valores monetários no documento. Você não pode alterar as distribuições contábeis nesse modo de exibição.
+-   **Exibir distribuições** – Exiba as distribuições contábeis para todas as linhas e valores monetários no documento. Você não pode alterar as distribuições contábeis nesse modo de exibição.
 
+Na versão 10.0.13, um recurso adicionado que valida a tabela de distribuição contábil para garantir que os novos campos estejam configurados corretamente. Esse recurso é chamado **Habilitar a validação adicional de dados para documentos usando a estrutura contábil do documento de origem**. Para usar o recurso, você deve habilitá-lo usando o espaço de trabalho **Gerenciamento de recursos**. Para habilitar o recurso, procure o nome do recurso no campo **Pesquisar** na página **Gerenciamento de recursos** e selecione **Habilitar agora**.
 
 Para obter mais informações, consulte [Distribuições contábeis e entradas no diário-razão auxiliar para faturas de fornecedor](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
-
-

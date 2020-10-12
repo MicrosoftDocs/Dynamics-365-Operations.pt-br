@@ -3,7 +3,7 @@ title: Visão geral dos relatórios financeiros
 description: Este tópico descreve onde acessar relatórios financeiros no Microsoft Dynamics 365 Finance e como usar os recursos de relatório financeiro.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/14/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1944eda5fe933ff9fdf2b9a837eb2336e8b3a0d5
-ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
+ms.openlocfilehash: a7cc238c573a319073b451063782762c19a80017
+ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "3696679"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3835101"
 ---
 # <a name="get-started-with-financial-reporting"></a>Introdução ao Financial Reporting 
 
@@ -148,9 +148,7 @@ Problema 1: o Designer de Relatórios não inicia quando você seleciona **Novo*
 * No Internet Explorer, selecione **Configurações** e **Opções da Internet**. Selecione a guia **Segurança**, clique em Sites Confiáveis e selecione **Sites**. Em **Adicionar este site à zona**, insira "\*\.dynamics.com" (sem aspas) e selecione **Adicionar**. 
 * No Internet Explorer, selecione **Configurações** e **Opções da Internet**. Selecione a guia **Segurança**. Selecione Sites Confiáveis. Na área Nível de segurança desta zona, mude a opção para **Médio-baixo**.
 * Desabilite o bloqueador de pop-up no navegador.
-* As estações de trabalho devem instalar o Visual Studio .NET 4.6.2 ou posterior.
-
-Esta versão do Microsoft .NET Framework pode ser baixada e instalada do [Centro de Download da Microsoft](https://www.microsoft.com/download/details.aspx?id=53345).
+* As estações de trabalho devem instalar o Microsoft .NET Framework 4.6.2 ou posterior. Esta versão do Microsoft .NET Framework pode ser baixada e instalada do [Centro de Download da Microsoft](https://www.microsoft.com/download/details.aspx?id=53345).
 * Se você usa o navegador Chrome, deve instalar uma extensão ClickOnce para baixar o cliente do Designer de Relatórios. Se estiver executando no modo anônimo, verifique se a extensão ClickOnce está habilitada para esse modo. Se você não conseguir entrar com o Chrome, tente seguir as etapas de configuração descritas em Problema 1 usando o Internet Explorer ou o Micrososft Edge. 
 
 Problema 2: O usuário não recebeu as permissões necessárias para usar o Financial Reporting. 

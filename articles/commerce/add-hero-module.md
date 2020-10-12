@@ -3,7 +3,7 @@ title: Módulo de bloco de conteúdo
 description: Este tópico abrange os módulos de bloco de conteúdo e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: daf9193a7fdc3b57defbb3250ae902f6eb6ee6c4
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 7a8b1c214ba31b7c47cecbe67bef493f5fa450fc
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269673"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817345"
 ---
 # <a name="content-block-module"></a>Módulo de bloco de conteúdo
 
@@ -65,7 +65,7 @@ A imagem a seguir mostra um exemplo de módulo de bloco de conteúdo com layout 
 | Imagem          | Arquivo de imagem | Uma imagem pode ser usada para mostrar um produto ou uma promoção. Uma imagem pode ser carregada na galeria de imagens ou uma imagem existente pode ser usada. |
 | Cabeçalho        | Texto do cabeçalho e tag do cabeçalho (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Todo módulo de hero pode ter um cabeçalho. Por padrão, a tag de cabeçalho **H2** é usada para o cabeçalho. No entanto, a tag pode ser alterada para atender aos requisitos de acessibilidade. |
 | Parágrafo      | Texto de parágrafo | Os módulos de hero é compatível com texto de parágrafo em formato rich text. Alguns recursos básicos de rich text são compatíveis, como negrito, sublinhado, itálico e hiperlinks. Alguns desses recursos podem ser substituídos pelo tema da página aplicado ao módulo. |
-| Vincular           | Texto do link, URL do link, etiqueta ARIA (Accessible Rich Internet Applications) e **Abrir link em uma nova guia** | Os módulos de hero oferecem suporte a um ou mais links de "chamada à ação". Se um link for adicionado, será necessário o texto do link, um URL e uma etiqueta ARIA. As etiquetas ARIA devem ser descritivas para atender aos requisitos de acessibilidade. Os links podem ser configurados para serem abertos em uma nova guia. |
+| Vincular           | Texto do link, URL do link, etiqueta ARIA (Accessible Rich Internet Applications) e **Abrir link em uma nova guia** | Os módulos de hero oferecem suporte a um ou mais links de "chamada à ação". Se um link for adicionado, será necessário o texto do link, uma URL e uma etiqueta ARIA. As etiquetas ARIA devem ser descritivas para atender aos requisitos de acessibilidade. Os links podem ser configurados para serem abertos em uma nova guia. |
 
 ## <a name="content-block-module-properties-exposed-by-the-fabrikam-theme"></a>Propriedades do módulo de bloco de conteúdo expostas pelo tema Fabrikam 
 
@@ -98,7 +98,7 @@ Para adicionar um módulo de hero a uma nova página e definir as propriedades n
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral do kit de início](starter-kit-overview.md)
+[Visão geral da biblioteca de módulos](starter-kit-overview.md)
 
 [Módulo de banner de promoção](add-alert.md)
 

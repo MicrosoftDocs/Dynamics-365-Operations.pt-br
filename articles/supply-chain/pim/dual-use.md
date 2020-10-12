@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: COODualUseCerts, COORules, COODualUseCountries
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 0847dc1ce01a6e6f4f8b72db115445f75de4aac2
-ms.sourcegitcommit: 70d0b4e6bdacc15ec75935550ae55fc02cb79624
+ms.openlocfilehash: 8f2b738fd87219be383b103eaf5fafeb971fc702
+ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "3596201"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3895464"
 ---
 # <a name="dual-use-goods"></a>Mercadorias de uso duplo
 
@@ -84,7 +85,7 @@ Para identificar um produto como uma mercadoria de uso duplo e aplicar uma categ
 
 1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
 1. Selecione ou crie um produto para abrir sua página **Detalhes do produto liberado**.
-1. Na FastTab **Comércio exterior**, defina a opção **Produtos de uso duplo** como **Sim** para identificar o produto atual como uma mercadoria de uso duplo.
+1. Na Guia Rápida **Comércio exterior**, defina a opção **Produtos de uso duplo** como **Sim** para identificar o produto atual como uma mercadoria de uso duplo.
 1. Defina o campo **Código de uso duplo** como o código que se aplica ao produto atual. (Você definiu esse código na página **Categorias de uso duplo** .)
 
 Essa configuração é verificada quando você cria uma ordem de venda.

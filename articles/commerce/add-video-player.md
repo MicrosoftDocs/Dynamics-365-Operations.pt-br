@@ -3,7 +3,7 @@ title: Módulo de reprodutor de vídeo
 description: Este tópico abrange os módulos de exibição e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0612682d310362c7523bf08db40faf51c80ea2e3
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 3cf7ead9a5340d5db37a87bdf131ba87681d5a82
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411150"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817052"
 ---
 # <a name="video-player-module"></a>Módulo de reprodutor de vídeo
 
@@ -97,7 +97,7 @@ Para adicionar um módulo de reprodução de vídeo a uma nova página e definir
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral do kit de início](starter-kit-overview.md)
+[Visão geral da biblioteca de módulos](starter-kit-overview.md)
 
 [Módulo de banner de promoção](add-alert.md)
 

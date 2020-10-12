@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 8957065bcadc3f33adb60c2a8f2be78710289631
-ms.sourcegitcommit: d03f301633175b15d46690fc97067820bf21579f
+ms.openlocfilehash: 1eb5e4ea8d086baeee686ccb3d044b3ef9d2a4fa
+ms.sourcegitcommit: b3df62842e62234e8eaa16992375582518976131
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "3775138"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3818563"
 ---
 # <a name="dual-write-overview"></a>Visão geral de gravação dupla
 
@@ -86,7 +86,7 @@ A gravação dupla cria um mapeamento entre conceitos em aplicativos do Finance 
 A gravação dupla fornece integração de dados nos aplicativos do Microsoft Dynamics 365. Essa estrutura robusta vincula ambientes e permite que diferentes aplicativos comerciais trabalhem juntos. Aqui estão os principais motivos pelos quais você deve usar a gravação dupla:
 
 + A gravação dupla fornece integração bidirecional e extremamente interligada, em tempo quase real e bidirecional entre aplicativos do Finance and Operations e aplicativos baseados em modelo no Dynamics 365. Essa integração convertem o Microsoft Dynamics 365 no principal espaço para todas as suas soluções empresariais. Os clientes que usam o Dynamics 365 Finance e o Dynamics 365 Supply Chain Management, mas que usam soluções que não são da Microsoft para gerenciamento de relacionamento com o cliente (CRM), estão migrando para o Dynamics 365 para obter suporte para gravação dupla.
-+ Os dados de clientes, produtos, operações, projetos e a Internet das Coisas (IoT) fluem automaticamente para o Common Data Service por meio de gravação dupla. Essa conexão é útil para empresas interessadas em expansões do Microsoft Power Platform.
++ Os dados de clientes, produtos, operações, projetos e a Internet das Coisas (IoT) fluem automaticamente para o Common Data Service por meio de gravação dupla. Essa conexão é útil para empresas interessadas em expansões do Power Platform.
 + A infraestrutura de gravação dupla segue o princípio sem codificação/com pouca codificação. É necessário um esforço mínimo de engenharia para estender os mapas tabela a tabela padrão e incluir mapas personalizados.
 + A gravação dupla é compatível com os modos online e offline. A Microsoft é a única empresa que oferece suporte aos modos online e offline.
 

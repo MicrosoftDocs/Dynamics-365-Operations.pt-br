@@ -14,12 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 565ff2ca0475ec8a41f1d9606f7bd81403bb678c
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: 398bc231870a8573103ee7c7c63e96322b0b62a1
+ms.sourcegitcommit: ea335b4536342e496e8b61847b1ae6da3924f94c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793312"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "3821139"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-developers"></a>Catálogo de aprendizagem para desenvolvedores do Dynamics 365 Commerce
 
@@ -41,4 +41,4 @@ Para obter treinamento sobre recursos compartilhados com outros aplicativos Fina
 
 | Conteúdo  | descrição  | Formatar  | Extensão    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
-| [Implantar o Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/deploy-dynamics-365-commerce/) | Este caminho de aprendizado descreve como implantar os ambientes do Dynamics 365 Commerce e executar etapas pós-provisionamento para implementações de comércio eletrônico bem-sucedidas usando a topologia correta para as necessidades comerciais de cada varejista. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 5 horas |
+| [Implantar e estender o Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/deploy-dynamics-365-commerce/) | Este caminho de aprendizado descreve como implantar os ambientes do Dynamics 365 Commerce e executar etapas pós-provisionamento para implementações de comércio eletrônico bem-sucedidas usando a topologia correta para as necessidades comerciais de cada varejista. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 5 horas |

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a67e5e3aea33e874f225a6af606fc8cde2bdc6bf
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
+ms.sourcegitcommit: 7537aa8ef619eea6c48467a3ca86e3372415f8a7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771836"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "3823446"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Visão geral de consolidações financeiras e conversão de moeda
 
@@ -103,6 +103,7 @@ Para exibir os resultados da consolidação, você tem várias opções:
     ![Transações de consolidação na página Consolidações](./media/managing-consolidation-transactions.png "Transações de consolidação na página Consolidações")
 
 Para executar a consolidação novamente, basta processar a consolidação. Como alternativa, você pode primeiro selecionar **Remover as transações** na página **Consolidações**.
+Caso os saldos da sua conta consolidada não sejam exatos, esses saldos podem ser corrigidos usando a página **Ajustes do período de fechamento**.
 
 ## <a name="consolidate-with-import"></a>Consolidar com importação
 A funcionalidade Consolidar com importação funciona como a funcionalidade Consolidar online. Quando você seleciona as entidades legais, você navega até o arquivo de origem que contém os dados.
@@ -156,6 +157,7 @@ Para mais informações sobre como a reavaliação de moeda funciona no módulo 
 - Os diários de eliminação podem ser lançados apenas no nível Atual.
 - Apenas os saldos operacionais são consolidados. Portanto, para ver os saldos iniciais, você ainda deve executar um fechamento de exercício na empresa de consolidação.
 - Você pode lançar um diário em uma empresa de eliminação, mas não em uma empresa de consolidação.
+- Ajustes nos saldos em uma empresa de consolidação só podem ser feitos por meio da página **Ajustes do período de fechamento**. 
 
 ## <a name="benefits-of-using-financial-reporting-for-financial-consolidations-and-currency-translation-or-to-complement-consolidate-online-for-consolidated-reporting"></a>Benefícios ao usar o Relatório financeiro para consolidações financeiras e conversão de moeda ou para complementar Consolidar online para relatórios consolidados
 Os clientes que usam o Relatório financeiro para consolidações financeiras e conversão de moeda ou para complementar Consolidar online para relatórios consolidados receberão vários benefícios:

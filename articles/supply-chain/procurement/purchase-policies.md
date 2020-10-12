@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c46c4c060d61503779726c68d32449c87b441f1
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7f170fc501e995bf9497d86501f4e086e486d0fb
+ms.sourcegitcommit: 8fe59d216154dbed1208274f44707465b668a8e0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207893"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3830740"
 ---
 # <a name="purchasing-policies-overview"></a>Visão geral de políticas de compras
 
@@ -102,9 +102,9 @@ A regra RFQ de requisição de compra:define os critérios para exigir uma solic
 
 ### <a name="purchase-requisition-control-rule"></a>Regra de controle de requisição de compra
 
-A regra de controle de requisição de compra é uma regra opcional. Ao criar regras desse tipo, você poderá definir opções em várias guias:
+A regra de controle de requisição de compra para requisições do tipo **consumo** é uma regra opcional. Ao criar regras desse tipo, você poderá definir opções em várias guias:
 
--   Na guia **Envio do fluxo de trabalho**, você pode configurar os campos que devem ser inseridos na linha da requisição para a requisição a ser enviada para aprovação quando sua finalidade for **Consumo**.
+-   Na guia **Envio do fluxo de trabalho**, você pode configurar os campos que devem ser inseridos na linha da requisição para a requisição a ser enviada para aprovação.
 -   Na guia **Quantidades da ordem**, você pode configurar os campos necessários à requisição de compra em certas condições. Também é possível impor as quantidades da ordem.
 -   Na guia **Datas** você pode configurar se a data contábil é igual à data solicitada
 -   Na guia **Endereço**, você pode definir se é permitido para o usuário criar novos endereços no sistema a serem aplicados à requisição de compra.

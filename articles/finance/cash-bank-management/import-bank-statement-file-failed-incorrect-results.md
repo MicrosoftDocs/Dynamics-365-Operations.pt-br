@@ -1,7 +1,7 @@
 ---
 title: Solução de problemas de importação do arquivo de extrato bancário
 description: É importante que o arquivo de extrato bancário do banco corresponda ao layout ao qual o Microsoft Dynamics 365 Finance oferece suporte. Devido a padrões restritos de extratos bancários, a maioria das integrações funcionarão corretamente. No entanto, algumas vezes, o arquivo de extrato bancário não é importado ou apresenta resultados incorretos. Normalmente, esses problemas são causados por pequenas diferenças no arquivo de extrato bancário. Este artigo explica como corrigir essas diferenças e resolver os problemas.
-author: ShylaThompson
+author: panolte
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 141273
 ms.assetid: 3ee2f32b-02aa-420b-8990-e6aa5fc6bda3
 ms.search.region: global
-ms.author: saraschi
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a5e7e6897f19dc0303ffbd3111f93669a91daa1b
-ms.sourcegitcommit: 4f668b23f5bfc6d6502858850d2ed59d7a79cfbb
+ms.openlocfilehash: 09b24b88ee5f8104aabd11397d5bd2745e846cb0
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3059367"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899561"
 ---
 # <a name="bank-statement-file-import-troubleshooting"></a>Solução de problemas de importação do arquivo de extrato bancário
 

@@ -3,7 +3,7 @@ title: Módulo de caixa de compra
 description: Este tópico abrange os módulos de caixa de compra e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6556ee8acf1e24a9f6ceddb622960cb3ac891852
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: e07bf02f10c943947fdf9ed3333373b859ff5b6c
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761288"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817076"
 ---
 # <a name="buy-box-module"></a>Módulo de caixa de compra
 
@@ -75,9 +75,12 @@ As seguintes configurações de módulo de caixa de compra podem ser definidas e
 - **Estoque** – para obter informações sobre como aplicar configurações de estoque, consulte [Aplicar configurações de estoque](inventory-settings.md).
 - **Adicionar ao carrinho** – esta propriedade é usada para especificar o comportamento depois que um item é adicionado ao carrinho. Os valores possíveis são **Navegar até o carrinho**, **Não navegar até o carrinho** e **Mostrar notificações**. Quando o valor for definido como **Navegar até o carrinho**, os usuários serão enviados para a página do carrinho depois que adicionarem um item. Quando o valor for definido como **Não navegar até o carrinho**, os usuários não serão enviados para a página do carrinho depois que adicionarem um item. Quando o valor for definido como **Mostrar notificações**, os usuários receberão uma notificação de confirmação e poderão continuar a procurar na página detalhes do produto. 
 
-    A imagem a seguir mostra um exemplo de notificação de confirmação "adicionado ao carrinho" no site da Fabrikam.
+> [!IMPORTANT]
+> As configurações de **Adicionar ao carrinho** do site estão disponíveis na versão 10.0.11 do Dynamics 365 Commerce. Se estiver atualizando de uma versão mais antiga do Dynamics 365 Commerce, você deverá atualizar manualmente o arquivo appsettings.json. Para obter instruções sobre como atualizar o arquivo appsettings.json, consulte [SDK e atualizações da biblioteca de módulos](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
 
-    ![Exemplo de um módulo de notificação](./media/ecommerce-addtocart-notifications.PNG)
+A imagem a seguir mostra um exemplo de notificação de confirmação "adicionado ao carrinho" no site da Fabrikam.
+
+![Exemplo de um módulo de notificação](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Interação do Commerce Scale Unit
 
@@ -111,7 +114,7 @@ Para adicionar um módulo de caixa de compra a uma nova página e definir as pro
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral do kit de início](starter-kit-overview.md)
+[Visão geral da biblioteca de módulos](starter-kit-overview.md)
 
 [Módulo de seletor de loja](store-selector.md)
 
@@ -132,3 +135,5 @@ Para adicionar um módulo de caixa de compra a uma nova página e definir as pro
 [Módulo de compartilhamento social](social-share-module.md)
 
 [Calcular disponibilidade de estoque para canais de varejo](calculated-inventory-retail-channels.md)
+
+[SDK e atualizações da biblioteca de módulos](e-commerce-extensibility/sdk-updates.md)

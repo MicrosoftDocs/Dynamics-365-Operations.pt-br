@@ -3,7 +3,7 @@ title: Módulo de trilha de navegação
 description: Este tópico abrange os módulos de trilha de navegação e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 38efc3a60ae0ba49db2036dc84c49e4896727d94
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 7c6f215c3a7539cc16b0d72594702e6bdde7c58e
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621051"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817101"
 ---
 # <a name="breadcrumb-module"></a>Módulo de trilha de navegação
 
@@ -37,6 +37,9 @@ Os módulos de trilha de navegação são usados para fornecer navegação secun
 
 Nas páginas que têm contexto de categoria de produto, como as páginas PDPs e de categoria, os módulos de trilha de navegação mostram a hierarquia de categoria. Em páginas sem contexto de categoria, os módulos de trilha de navegação mostram **&lt;Site raiz&gt; / &lt;Página atual&gt;** por padrão. Os módulos de trilha de navegação também podem ser configurados manualmente em outros tipos de páginas do site para mostrar links para páginas específicas no site.
 
+> [!NOTE]
+> O módulo de trilha de navegação está disponível na versão 10.0.12 do Dynamics 365 Commerce.
+
 A imagem a seguir mostra um exemplo de um módulo de trilha de navegação que mostra a hierarquia de categoria em um PDP.
 
 ![Exemplo de um módulo de trilha de navegação](./media/ecommerce-breadcrumb.PNG)
@@ -48,6 +51,9 @@ O módulo de trilha de navegação depende da configuração de **Tipo de exibi�
 - **Mostrar hierarquia de categoria** – quando esse valor for selecionado, o módulo de trilha de navegação mostrará a hierarquia de categoria completa do produto exibido no PDP.
 - **Mostrar voltar para resultados** – quando esse valor for selecionado, o módulo de trilha de navegação mostrará um link "Voltar para resultados" em um PDP se o usuário abrir o PDP a partir de um módulo que permita um link "Voltar para resultados". Essa funcionalidade está disponível quando os usuários navegam em páginas de listagem de categorias, pesquisa, listas e recomendação. Para dar suporte a essa funcionalidade, a coleção de produtos e os módulos de resultados de pesquisa têm uma propriedade denominada **Permitir voltar para resultados em PDP**. Essa propriedade oferece a flexibilidade de definir quais módulos devem dar suporte à funcionalidade de link "Voltar para resultados" no PDP. Por exemplo, quando **Mostrar voltar para resultados** for selecionado para a configuração **Tipo de exibição de trilha de navegação no PDP** do módulo de trilha de navegação e **Permitir voltar para resultados no PDP** for selecionado para o módulo de resultados de pesquisa da página de pesquisa, um link "Voltar para resultados" será mostrado quando os usuários navegarem da página de pesquisa para um PDP.
 - **Mostrar hierarquia de categoria e voltar para resultados** – esse valor é uma combinação dos dois anteriores. Quando esse valor for selecionado, o módulo de trilha de navegação mostrará a hierarquia de categoria completa e um link "Voltar para resultados" (se estiver configurado) em um PDP.
+
+> [!IMPORTANT]
+> Essas configurações estão disponíveis na versão 10.0.12 do Dynamics 365 Commerce. Se estiver atualizando de uma versão mais antiga do Dynamics 365 Commerce, você deverá atualizar manualmente o arquivo appsettings.json. Para obter instruções sobre como atualizar o arquivo appsettings.json, consulte [SDK e atualizações da biblioteca de módulos](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 ## <a name="breadcrumb-module-properties"></a>Propriedades do módulo de trilha de navegação
 
@@ -76,10 +82,12 @@ Para adicionar um módulo de trilha de navegação a um PDP e definir as proprie
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral do kit de início](starter-kit-overview.md)
+[Visão geral da biblioteca de módulos](starter-kit-overview.md)
 
 [Visão geral da página de aterrissagem da categoria padrão e da página de resultados da pesquisa](category-search-page-overview.md)
 
-[Módulos de coleta de produtos](product-collection-module-overview.md)
+[Módulos de coleção de produtos](product-collection-module-overview.md)
 
 [Módulo de caixa de compra](add-buy-box.md)
+
+[SDK e atualizações da biblioteca de módulos](e-commerce-extensibility/sdk-updates.md)

@@ -1,12 +1,12 @@
 ---
 title: Obter suporte para aplicativos do Finance and Operations ou o Lifecycle Services (LCS)
 description: Este tópico explica como obter ajuda com aplicativos do Finance and Operations ou o Microsoft Dynamics Lifecycle Services (LCS).
-author: kfend
+author: EricMoos
 manager: AnnBe
-ms.date: 10/14/2019
+ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: IT Pro, Developer, Application user
 ms.reviewer: sericks
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ac2cf0c2b78dd3456c5c1a69981a4e498b115ae
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: e839c6e29a76d7f08f23e007c1e7b8c4699c7580
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005507"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817889"
 ---
 # <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Obter suporte para aplicativos do Finance and Operations ou o Lifecycle Services (LCS)
 
@@ -30,66 +30,42 @@ ms.locfileid: "3005507"
 
 Este tópico explica como obter ajuda com aplicativos do Finance and Operations ou o Microsoft Dynamics Lifecycle Services (LCS). 
 
-## <a name="contact-support"></a>Entrar em contato com o suporte
-
-Use as informações neste artigo para contatar a Microsoft se você tiver dúvidas técnicas ou se precisar de ajuda para acessar o Microsoft Dynamics Lifecycle Services (LCS).
-
-### <a name="finance-and-operations-apps-support"></a>Suporte a aplicativos do Finance and Operations
-
-Para obter suporte, use os recursos na tabela a seguir. Esses recursos estão listados na ordem que recomendamos ser seguida quando você estiver solucionando problemas.
-
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Tarefa</th>
 <th>Mais informações</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Pergunte à comunidade.</td>
-<td>Acesse a <a href="https://go.microsoft.com/fwlink/?linkid=2013438"><span style="color: #0066cc;">Página da comunidade</span></a> para tirar as suas dúvidas junto à comunidade do Dynamics.</td>
+<td>Acesse a página da <a href="https://community.dynamics.com/">Comunidade do Dynamics 365</a> para tirar as suas dúvidas junto à comunidade do Microsoft Dynamics.</td>
 </tr>
-<tr class="even">
-<td>Use a ferramenta de Pesquisa de problemas.</td>
-<td>No <a href="https://lcs.dynamics.com/"><span style="color: #0066cc;">LCS</span></a>, use a Pesquisa de problemas para pesquisar rapidamente artigos da Base de Dados de Conhecimento Microsoft, hotfixes e soluções alternativas para problemas relatados. Você pode ver quais problemas relatados estão em processo de correção ou já foram corrigidos para uma área funcional específica. Para saber mais, consulte <a href="issue-search-lcs.md"><span style="color: #0066cc;">Pesquisa de problemas (LCS, Lifecycle Services)</span></a>.</td>
+<tr>
+<td>Obtenha ajuda com dúvidas sobre licenciamento.</td>
+<td>Contate seu parceiro ou representante de vendas da Microsoft.</td>
 </tr>
-<tr class="odd">
-<td>Use a ferramenta Suporte habilitado para a nuvem</td>
-<td>No <a href="https://lcs.dynamics.com/"><span style="color: #0066cc;">LCS</span></a>, o bloco <strong>Suporte</strong> é uma ferramenta que ajuda você a gerenciar incidentes de suporte. Para enviar problemas diretamente à Microsoft, vá para o bloco <strong>Suporte</strong> em seu projeto do LCS. De lá, é possível enviar problemas de duas maneiras:
+<tr>
+<td>Use a ferramenta de <strong>Pesquisa de problemas</strong>.</td>
+<td>No <a href="https://lcs.dynamics.com/">LCS</a>, use a ferramenta de <strong>Pesquisa de problemas</strong> para pesquisar rapidamente artigos da Base de Dados de Conhecimento Microsoft, hotfixes e soluções alternativas para problemas relatados. Você pode ver quais problemas relatados estão em processo de correção para uma área funcional específica e quais problemas já foram corrigidos. Para saber mais, consulte <a href="issue-search-lcs.md">Pesquisa de problemas (LCS, Lifecycle Services)</a>.</td>
+</tr>
+<tr>
+<td>Obter suporte no aplicativo.</td>
+<td>Selecione o botão <strong>Ajuda</strong> (<strong>?</strong>) no canto superior direito do aplicativo, e depois selecione <strong>Suporte</strong>. Os problemas serão informados na guia <strong>Problemas ativos</strong> do LCS. Nessa guia, os administradores podem determinar se devem fornecer suporte interno ou enviar os problemas à Microsoft.</td>
+</tr>
+<tr>
+<td>Abra um tíquete de suporte com a equipe de suporte da Microsoft.</td>
+<td>No <a href="https://lcs.dynamics.com/">LCS</a>, o bloco <strong>Suporte</strong> abre uma ferramenta que ajuda você a gerenciar incidentes de suporte. Para enviar problemas diretamente à Microsoft, selecione o bloco <strong>Suporte</strong> em seu projeto do LCS. Você pode enviar problemas de duas maneiras:
 <ul>
-<li>Na guia <strong>Problema ativo</strong>, selecione o problema e clique em <strong>Enviar para a Microsoft</strong>.</li>
-<li>Na guia <strong>Enviado à Microsoft</strong>, clique em <strong>Enviar um novo incidente</strong> para enviar o problema.</li>
+<li>Na guia <strong>Problema ativo</strong>, selecione o problema e selecione <strong>Enviar para a Microsoft</strong>.</li>
+<li>Na guia <strong>Enviado à Microsoft</strong>, selecione <strong>Enviar um incidente</strong> e siga as instruções na tela para enviar o incidente. Depois de enviar um incidente, você receberá uma mensagem de email do engenheiro de Suporte da Microsoft designado para o seu caso.</li>
 </ul>
-Observação: os clientes e parceiros Premier da Microsoft também podem enviar tíquetes de suporte premier usando as etapas acima.</td>
+</td>
 </tr>
-<tr class="even">
-<td>Abra um tíquete de suporte com a equipe de suporte.</td>
-<td>Se tiver problemas ao tentar enviar um tíquete para a Microsoft do bloco de <strong>Suporte</strong> no LCS, consulte <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng"><span style="color: #0066cc;">Contatar o suporte do Microsoft Business Solutions</span></a> para obter informações sobre como contatar um Centro de Operações Regional do Microsoft Dynamics. A equipe de suporte pode ajudar você a resolver os seguintes tipos de problemas técnicos:
-<ul>
-<li>Erros que ocorrem quando você usa o LCS ou problemas que surgem quando você tentar acessar o LCS.</li>
-<li>Erros que ocorrem ao usar o aplicativos do Finance and Operations.</li>
-</ul>
-Para questões técnicas relacionadas à entrada e ao acesso ao CustomerSource, e-learning, Pesquisa, Base de Dados de Conhecimento, download de arquivos e erros de página ou do sistema, acesse <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx"><span style="color: #0066cc;">Suporte do Site</span></a>.</td>
-</tr>
-<tr class="odd">
-<td>Obter ajuda com dúvidas sobre o licenciamento de aplicativos do Finance and Operations.</td>
-<td>Contate seu parceiro, LAR (Revendedor de Conta Grande) ou representante de vendas da Microsoft.</td>
-</tr>
-<tr class="even">
-<td>Use o painel de monitoramento de evento do LCS.</td>
-<td>Para ver o estado atual de integridade da plataforma e dos serviços, vá para a seção <strong>Ambientes</strong> de seu projeto do LCS.</td>
+<tr>
+<td>Solicite novos recursos e funcionalidades.</td>
+<td>Acesse <a href="https://experience.dynamics.com/ideas/">Ideias de aplicação do Dynamics 365</a> para exibir, buscar ou votar em ideias existentes, ou para adicionar novas ideias.</td>
 </tr>
 </tbody>
 </table>
-
-
-## <a name="additional-resources"></a>Recursos adicionais
-- [Obter suporte para o Dynamics 365 Retail](../../../retail/retail-support.md)
-- [Obter suporte para o Microsoft Dynamics 365 Human Resources](../../../human-resources/hr-admin-troubleshooting-support.md)
-- Para obter mais informações sobre as ofertas de suporte do Microsoft Dynamics, consulte [Gerenciar as experiências de suporte para aplicativos do Finance and Operations](cloud-powered-support-lcs.md).
-

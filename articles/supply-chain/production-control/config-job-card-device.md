@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgRegistrationSetupTouch
+ms.search.form: JmgRegistrationSetupTouch, JmgRegistrationTouchUserConfiguration
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: fc698ac7e0cfc8d6b196abf35658688ad1bc8bc7
-ms.sourcegitcommit: 6319a07ee6c36ebb28acaf205bc79d2fd8f7dd5d
+ms.openlocfilehash: e072f99b0b0df75f1b9706362b429bbc4568473a
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "3413161"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826685"
 ---
 # <a name="configure-job-card-for-devices"></a>Configurar o cartão de trabalho para dispositivos
 
@@ -64,7 +64,7 @@ Consulte as seções a seguir para obter detalhes sobre cada configuração para
 
 ## <a name="general-settings"></a>Configurações gerais
 
-A FastTab **Geral** permite configurar cada uma das várias opções disponíveis para a configuração de dispositivo selecionada. As seguintes configurações estão disponíveis:
+A Guia Rápida **Geral** permite configurar cada uma das várias opções disponíveis para a configuração de dispositivo selecionada. As seguintes configurações estão disponíveis:
 
 - **Quantidade de relatório em registro de saída** - defina isso como **Sim** para que os funcionários relatem comentários sobre os trabalhos em andamento durante o registro de saída. Quando definido como **Não**, os funcionários não serão solicitados.
 - **Bloquear funcionário** - quando esta opção for definida como **Não**, cada trabalhador será desconectado imediatamente depois de criar um registro (como um novo trabalho) e, depois, o dispositivo retornará à página de logon. Quando esta opção for definida como **Sim**, cada trabalhador permanecerá conectado ao dispositivo de ficha de trabalho. No entanto, o trabalhador ainda poderá fazer logout manualmente para permitir que outro trabalhador efetue login enquanto o dispositivo de ficha de trabalho continuar sendo executado na mesma conta de usuário do sistema. Para obter mais informações sobre esses tipos de contas, consulte [Usuários atribuídos](#assigned-users).
@@ -84,7 +84,7 @@ A FastTab **Geral** permite configurar cada uma das várias opções disponívei
 
 ## <a name="assigned-users"></a>Usuários atribuídos
 
-Use a FastTab **Usuários atribuídos** para associar um ou mais usuários do sistema à configuração do dispositivo atual. Cada usuário do sistema pode ter apenas uma configuração de dispositivo de trabalho atribuída.
+Use a Guia Rápida **Usuários atribuídos** para associar um ou mais usuários do sistema à configuração do dispositivo atual. Cada usuário do sistema pode ter apenas uma configuração de dispositivo de trabalho atribuída.
 
 Ao configurar um dispositivo, um trabalho de TI costuma entrar no Supply Chain Management usando uma conta de usuário do sistema. Daí em diante, a configuração do dispositivo de trabalho associada a esse usuário do sistema se aplicará, desde que o usuário do sistema permaneça conectado. Essas contas de usuário do sistema são normalmente limitadas para permitir o acesso somente à página de dispositivo de ficha de trabalho e nenhuma outra parte do Supply Chain Management.
 

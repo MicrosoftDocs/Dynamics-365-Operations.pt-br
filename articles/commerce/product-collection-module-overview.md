@@ -3,7 +3,7 @@ title: Módulos de coleta de produtos
 description: Este tópico fornece uma visão geral das páginas dos módulos de coleta de produtos no Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 06/18/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 698bdd22cffad26bc9126fca5649f091fbeef4dd
-ms.sourcegitcommit: 49656661c89c864e8e067259a601c3bbceb8bef4
+ms.openlocfilehash: 2d19cac142b870d8ecc677665443602b0a8837d2
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "3464944"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817564"
 ---
 # <a name="product-collection-modules"></a>Módulos de coleta de produtos
 
@@ -94,11 +94,11 @@ A tabela a seguir mostra os tipos de lista disponíveis para seleção na caixa 
 | Algorítmico                | <ul><li>**Novos** – Uma lista de produtos mais novos que foram classificadas para canais e os catálogos.</li><li>**Mais vendidos** – Uma lista de produtos que estão classificados por número mais alto de venda.</li><li>**Mais populares** – Uma lista de produtos de melhor desempenho para um determinado período.</li></ul> | Página inicial, página de categoria enriquecida e páginas de carrinho e de finalização de compra | Categoria do contexto da página (por exemplo, uma página de categoria) | A categoria que é determinada pelo autor do site | Suportado |
 | Frequentemente comprado junto | Uma lista que usa o aprendizado de máquina para analisar padrões de compra do consumidor e recomendar itens relacionados que são frequentemente comprados em conjunto com um determinado produto. | Este tipo de lista é aplicável somente à página do carrinho. | Carrinho | Não aplicável | Suportado |
 | As pessoas também gostam           | Uma lista que usa o aprendizado de máquina para analisar padrões de compra do consumidor e recomendar itens relacionados a um determinado produto. | Esse tipo de lista é usado no PDPs para mostrar os produtos que outros clientes compraram. | Contexto do produto na página | O produto que é fornecido pelo autor do site | Suportado |
-| Seleções para Você              | Uma lista que usa o aprendizado de máquina para determinar as preferências do cliente. | Este tipo de lista pode ser usado em qualquer página. | Não aplicável| Não aplicável | Suportado | 
+| Seleções para Você              | Uma lista que usa o aprendizado de máquina para determinar as preferências do cliente. | Este tipo de lista pode ser usado em qualquer página. | Não Aplicável| Não Aplicável | Suportado | 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral do kit de início](starter-kit-overview.md)
+[Visão geral da biblioteca de módulos](starter-kit-overview.md)
 
 [Módulo do carrossel](add-carousel.md)
 

@@ -3,7 +3,7 @@ title: Páginas e módulos de gerenciamento de contas
 description: Este tópico aborda páginas e módulos de gerenciamento de contas no Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,15 +18,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8787a7b01ecf15752569d2a3a8d7804fe492e63d
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: b0f963bcf65ae622522fe52fd59996c6ec0ecf17
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025655"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817149"
 ---
 # <a name="account-management-pages-and-modules"></a>Páginas e módulos de gerenciamento de contas
-
 
 [!include [banner](includes/banner.md)]
 
@@ -75,11 +74,11 @@ Para ingressar no programa de fidelidade, uma página de marketing pode ser cria
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral do kit de início](starter-kit-overview.md)
+[Visão geral da biblioteca de módulos](starter-kit-overview.md)
 
 [Módulo de contêiner](add-container-module.md)
 
-[Comprar módulo de caixa](add-buy-box.md)
+[Módulo de caixa de compra](add-buy-box.md)
 
 [Módulo de carrinho](add-cart-module.md)
 

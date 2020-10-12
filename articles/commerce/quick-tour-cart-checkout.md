@@ -3,7 +3,7 @@ title: Visão geral das páginas de carrinho e de finalização da compra
 description: Este tópico fornece uma visão geral páginas de carrinho e de finalização da compra no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/30/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c879b90cf49dcab9cf069e4f3613602bd6673aa9
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: e932be31a301ef5aacb68fa4e710d8a9137b7263
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527553"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817769"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Visão geral das páginas de carrinho e de finalização da compra
 
@@ -40,7 +40,7 @@ A página de finalização de compra de um site de comércio eletrônico apresen
 
 A página do carrinho serve como sacola de compras e contém todos os itens que foram adicionados ao carrinho.
 
-A ilustração a seguir mostra um exemplo de uma página do carrinho que foi criada usando o kit de início on-line e o tema "Fabrikam".
+A ilustração a seguir mostra um exemplo de uma página do carrinho que é criada com a biblioteca de módulos e o tema “Fabrikam”.
 
 ![Exemplo de uma página do carrinho](./media/cart2.PNG)
 
@@ -56,7 +56,7 @@ Para obter informações sobre como criar uma página de carrinho, consulte [Adi
 
 A página de finalização de compra é onde os clientes inserem as informações necessárias para fazer um pedido.
 
-A ilustração a seguir mostra um exemplo de uma página de finalização de compra que foi criada usando o kit de início online.
+A ilustração a seguir mostra um exemplo de uma página de finalização de compra que foi criada usando a biblioteca de módulos.
 
 ![Exemplo de uma página de finalização de compra](./media/Checkout.PNG)
 
@@ -66,7 +66,7 @@ O corpo principal da página de finalização de compra é onde todas as informa
 
 É necessário um endereço de entrega, se os itens tiverem que ser enviados. O formato dos endereços de entrega para cada localidade pode ser configurado no Dynamics 365 Commerce. Por exemplo, se os itens forem enviados para os Estados Unidos, o endereço de entrega deverá incluir um endereço, estado e CEP. Alguma validação básica de entrada é feita para campos de endereço de entrega, como validação para caracteres alfanuméricos, comprimento máximo e números. Embora a validade do endereço em si não seja verificada, essa verificação pode ser feita usando serviços personalizados de terceiros.
 
-O endereço de entrega é aplicado a todos os itens do carrinho para os quais a opção "entrega" está selecionada. Se você usar o fluxo de finalização de compra fornecido no kit de início online, os itens individuais do carrinho não poderão ser enviados para endereços diferentes. Se você precisar desse recurso, ele poderá ser implementado através da personalização dos módulos de finalização de compra.
+O endereço de entrega é aplicado a todos os itens do carrinho para os quais a opção "entrega" está selecionada. Se você usar o fluxo de finalização de compra fornecido na biblioteca de módulos, os itens individuais do carrinho não poderão ser enviados para endereços diferentes. Se você precisar desse recurso, ele poderá ser implementado através da personalização dos módulos de finalização de compra.
 
 Depois que o endereço de entrega for fornecido, os métodos de entrega disponíveis na loja online do Dynamics 365 Commerce serão mostrados. Os métodos de envio e os endereços que eles apoiam podem ser configurados no Commerce.
 
@@ -80,7 +80,7 @@ Durante o fluxo de pagamento, um cliente que é membro de um programa de fidelid
 
 #### <a name="gift-cards"></a>Cartões-presente
 
-O kit de início on-line permite que vales-presentes internos sejam resgatados para um pedido. Para aplicar um vale-presente interno, o cliente precisar estar conectado. Para segurança adicional, recomendamos que você personalize o fluxo usando um número de identificação pessoal (PIN) para vales-presentes internos.
+A biblioteca de módulos permite que vales-presentes internos sejam resgatados para uma ordem. Para aplicar um vale-presente interno, o cliente precisar estar conectado. Para segurança adicional, recomendamos que você personalize o fluxo usando um número de identificação pessoal (PIN) para vales-presentes internos.
 
 ### <a name="signed-in-and-guest-users"></a>Usuários conectados e convidados
 

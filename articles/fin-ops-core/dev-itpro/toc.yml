@@ -86,6 +86,8 @@
               href: data-entities/integration-overview.md
             - name: Limitação baseada em prioridade
               hreF: data-entities/priority-based-throttling.md
+            - name: Perguntas frequentes sobre limitação baseada em prioridade
+              href: data-entities/throttling-faq.md
             - name: APIs de integração de dados
               items:
                 - name: API REST do pacote de gerenciamento de dados
@@ -154,6 +156,8 @@
                                   href: data-entities/dual-write/enable-entity-map.md
                             - name: Migração do tipo de dados de moeda para gravação dupla
                               href: data-entities/dual-write/currrency-decimal-places.md
+                            - name: Configurar o mapeamento dos campos de status da ordem de venda
+                              href: data-entities/dual-write/sales-status-map.md
                         - name: Gerenciando a gravação dupla
                           items:
                             - name: Personalizar mapeamentos de entidades e campos
@@ -518,11 +522,11 @@
                       href: deployment/redeploy-on-prem.md
                     - name: Remover e reinstalar ou adicionar um nó AOS
                       href: deployment/onprem-remove-reinstall-AOS-node.md
-                    - name: Reutilização da mesma instância do AD FS em vários ambientes
+                    - name: Reutilizar a mesma instância do AD FS em vários ambientes
                       href: deployment/onprem-reuseadfs.md
                 - name: Agente local
                   items:
-                    - name: Compatibilidade entre AD FS e Office 365
+                    - name: Compatibilidade entre AD FS e o Microsoft 365
                       href: deployment/onprem-adfscompatibility.md
                     - name: Scripts de agente local de pré-implantação e pós-implantação
                       href: lifecycle-services/pre-post-scripts.md
@@ -626,10 +630,8 @@
                   href: dev-tools/development-tools-overview.md
                 - name: Tutorial sobre as ferramentas de desenvolvimento
                   href: dev-tools/introduction-visual-studio.md
-                - name: Verificador de Aplicativo
-                  items:
-                    - name: Instalar BaseX para o Verificador de Aplicativo
-                      href: dev-tools/install-basex.md
+                - name: Verificador de aplicativo
+                  href: dev-tools/application-checker.md
                 - name: Explorador de Aplicativos
                   href: dev-tools/application-explorer.md
                 - name: Compilar e depurar projetos
@@ -1368,6 +1370,24 @@
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
                     - name: Tipo de ValueMetadata
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
+        - name: Estrutura de automação de processos
+          items:
+            - name: Desenvolvimento da estrutura de automação de processos
+              href: process-automation/process-automation-framework.md
+            - name: Tipo de registro
+              href: process-automation/type-registration.md
+            - name: Registro da série
+              href: process-automation/series-registration.md
+            - name: Parâmetros do processo
+              href: process-automation/process-parameters.md
+            - name: Consultas configuráveis pelo usuário
+              href: process-automation/user-queries.md
+            - name: Executar o processo
+              href: process-automation/run-process.md
+            - name: Registrar em log resultados e mensagens
+              href: process-automation/log-results.md
+            - name: Personalizar a interface do usuário
+              href: process-automation/ui-customization.md
         - name: Regression Suite Automation Tool
           items:
             - name: Visão geral da Regression Suite Automation Tool
@@ -1395,7 +1415,7 @@
             - name: Desenvolver e liberar
               href: lcs-solutions/lcs-solutions-app-source.md
             - name: Preparar e publicar
-              href: lcs-solutions/marketing-content-lcs-solutions.md
+              href: /azure/marketplace/partner-center-portal/create-new-operations-offer
             - name: Adicionar metodologias
               href: lcs-solutions/methodologies-lcs-solutions.md
             - name: Configurar bibliotecas do Modelador de processo de negócios

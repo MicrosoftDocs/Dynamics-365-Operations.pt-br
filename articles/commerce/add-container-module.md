@@ -3,7 +3,7 @@ title: Módulo de contêiner
 description: Este tópico abrange os módulos de contêiner e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c7d607047aab92144932b4b59db050a588d6483d
-ms.sourcegitcommit: 2683aacb426bfb3b541637edf1f8ec2d6cb5a745
+ms.openlocfilehash: 9bb2c7d56184d009492b4aa839a3546160ad342f
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3417337"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817393"
 ---
 # <a name="container-module"></a>Módulo de contêiner
 
@@ -123,9 +123,9 @@ Para adicionar um módulo de reprodução de contêiner a uma nova página e def
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral do kit de início](starter-kit-overview.md)
+[Visão geral da biblioteca de módulos](starter-kit-overview.md)
 
-[Módulo acordeão](add-accordion.md)
+[Módulo de Accordion](add-accordion.md)
 
 [Módulo de guia](add-tab.md)
 

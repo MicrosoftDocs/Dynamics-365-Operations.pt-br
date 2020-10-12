@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3b365bf99fcb5c97a1afe1675ddcf34a0db8f07
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e09c4ebd3ee978076ac4f1d0b71041e7c1e954be
+ms.sourcegitcommit: b281ac04157f6ccbd159fc89f58910b430a3b6a9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207847"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826891"
 ---
 # <a name="purchase-requisition-overview"></a>Visualização geral da requisição de compra
 
@@ -157,7 +157,7 @@ Em alguns casos, você deve iniciar um processo de solicitação de cotação (R
 Você pode colocar uma requisição de compra em espera selecionando a caixa de seleção **Em espera** na página **Detalhes da requisição de compra**. Processamento da requisição de compra pode continuar somente depois que você remover o bloqueio desmarcando a caixa de seleção.  
 
 > [!NOTE]
-> Em Compras eletrônicas, a RFQ da sua requisição de compra pode permitir que os fornecedores adicionem linhas alternativas. Nesse caso, sua requisição de compra refletirá as alternativas aprovadas.
+> Em compras eletrônicas, a RFQ da sua requisição de compra pode permitir que os fornecedores adicionem linhas alternativas. Nesse caso, sua requisição de compra refletirá as alternativas aprovadas.
 
 ## <a name="demand-consolidation"></a>Consolidação de demanda
 Ao consolidar linhas de requisição de compra das diversas requisições de compra, você pode aumentar o seu poder de negociação com seus fornecedores para obter a melhor definição de preços, custos mais baixos de remessa e manuseio e reduzir custos gerais indiretos.  

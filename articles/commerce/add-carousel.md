@@ -3,7 +3,7 @@ title: Módulo de carrossel
 description: Este tópico abrange os módulos de carrossel e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 10ff0cd566a1a8d89ccadce9571dafc5a592520b
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: f09f3f98d174f965a75e27ee6a5c2ed8599042fc
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3620977"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3816977"
 ---
 # <a name="carousel-module"></a>Módulo de carrossel
 
@@ -77,7 +77,7 @@ Para adicionar um módulo de carrossel a uma nova página e definir as proprieda
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral do kit de início](starter-kit-overview.md)
+[Visão geral da biblioteca de módulos](starter-kit-overview.md)
 
 [Módulo de banner de promoção](add-alert.md)
 

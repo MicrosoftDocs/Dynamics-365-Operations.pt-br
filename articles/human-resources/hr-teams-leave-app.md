@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0fbf44fe35af3147fd5fb478b6cbfc5a5d0b109d
-ms.sourcegitcommit: 5b620f670ac0f403a0fdcdeb9c3f970b163191ee
+ms.openlocfilehash: c7b74983cbddf661456b0a65939e272078d59f6d
+ms.sourcegitcommit: e27510ba52623c801353eed4853f8c0aeea3bb2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "3766751"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3828935"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Gerenciar solicitações de licença no Teams
 
 [!include [banner](includes/preview-feature.md)]
 
-O aplicativo Microsoft Dynamics 365 Human Resources no Microsoft Teams permite solicitar folgas rapidamente, além de visualizar as informações de saldo de folgas no Microsoft Teams. Você pode interagir com um bot para solicitar informações. A guia **Folga** fornece informações mais detalhadas.
+O aplicativo Microsoft Dynamics 365 Human Resources no Microsoft Teams permite solicitar folgas rapidamente, além de visualizar as informações de saldo de folgas no Microsoft Teams. Você pode interagir com um bot para solicitar informações e iniciar uma solicitação de licença. A guia **Folga** fornece informações mais detalhadas. Além disso, você pode enviar às pessoas informações sobre suas próximas folgas em equipes e bate-papos fora do aplicativo Human Resources.
 
 ## <a name="install-the-app"></a>Instalar o aplicativo
 
@@ -56,8 +56,8 @@ Se o aplicativo não fizer logon automaticamente, selecione a guia **Configuraç
 
 Se você tiver acesso a mais de uma instância do Human Resources, poderá selecionar a qual ambiente deseja se conectar na guia **Configurações**.
 
-> [!WARNING]
-> Atualmente o aplicativo não oferece suporte à função de segurança do Administrador do Sistema e exibirá uma mensagem de erro caso você entre com uma conta de Administrador do Sistema. Para entrar com uma conta diferente, na guia **Configurações**, selecione o botão **Alternar contas** e entre com uma conta de usuário sem os privilégios de Administrador do Sistema.
+> [!NOTE]
+> O aplicativo agora oferece suporte à função de segurança Administrador do sistema.
  
 ## <a name="use-the-bot"></a>Usar o bot
 
@@ -130,13 +130,33 @@ A guia **Folga** permite exibir:
 
    ![Editar rascunho no aplicativo de licença do Human Resources Teams](./media/hr-teams-leave-app-drafts-edit.png)
    
-### <a name="teams-notifications"></a>Notificações do Teams
+### <a name="respond-to-teams-notifications"></a>Responder a notificações do Teams
 
 Quando você ou um trabalhador para o qual você é um aprovador enviar uma solicitação de licença, você receberá uma notificação no aplicativo Human Resources no Teams. Você pode selecionar a notificação para exibi-la. As notificações também aparecem na área **Chat** .
 
 Se você for aprovador, poderá selecionar **Aprovar** ou **Negar** na notificação. Você também pode fornecer uma mensagem opcional.
 
 ![Deixar uma notificação de solicitação no aplicativo Human Resources no Teams](./media/hr-teams-leave-app-notification.png)
+
+## <a name="send-upcoming-time-off-information-to-your-coworkers"></a>Enviar informações sobre as próximas folgas para seus colegas de trabalho
+
+Depois de instalar o aplicativo Human Resources para o Teams, você pode enviar facilmente informações sobre sua próxima folga para seus colegas de trabalho em equipes ou bate-papos.
+
+1. Em uma equipe ou chat no Teams, selecione o botão do Human Resources abaixo da janela de chat.
+
+   ![Botão do Human Resources abaixo da janela de bate-papo](./media/hr-teams-leave-app-chat-button.png)
+
+2. Selecione a solicitação de licença que deseja compartilhar. Se você deseja compartilhar um rascunho de solicitação de licença, selecione **Rascunhos** primeiro.
+
+   ![Selecionar uma próxima solicitação de licença para compartilhar](./media/hr-teams-leave-app-chat-search.png)
+
+Sua solicitação de licença será exibida no chat.
+
+![Cartão de solicitação de licença do Human Resources](./media/hr-teams-leave-app-chat-card.png)
+
+Se você compartilhou uma solicitação de rascunho, ela será exibida como rascunho:
+
+![Rascunho do cartão de solicitação de licença do Human Resources](./media/hr-teams-leave-app-chat-draft-card.png)
 
 ## <a name="view-your-teams-leave-calendar"></a>Exibir o calendário de licença da equipe
 
@@ -164,9 +184,15 @@ O conteúdo das consultas e das mensagens do usuário é mantido no sistema do L
 
 Para gerenciar as configurações de administração de aplicativos no Microsoft Teams, vá para o [centro de administração do Microsoft Teams](https://admin.teams.microsoft.com/).
 
-### <a name="microsoft-azure-event-grid-and-microsoft-teams"></a>Grade de Eventos do Microsoft Azure e Microsoft Teams
+### <a name="microsoft-teams-azure-event-grid-and-azure-cosmos-db"></a>Microsoft Teams, Azure Event Grid e Azure Cosmos DB
 
-Ao usar o recurso de notificações do aplicativo Dynamics 365 Human Resources no Teams, determinados dados do cliente fluirão fora da região geográfica em que o serviço de Human Resources do locatário é implantado. O Dynamics 365 Human Resources transmite detalhes da solicitação de licença e da tarefa de fluxo de trabalho do funcionário para a Grade de Eventos do Microsoft Azure e o Microsoft Teams . Esses dados podem ser armazenados por até 24 horas e processados nos Estados Unidos, são criptografados em trânsito e em repouso, e não são usados pela Microsoft ou subprocessadores para treinamento ou melhorias de serviço.
+Ao usar o aplicativo Dynamics 365 Human Resources no Microsoft Teams, determinados dados do cliente podem fluir fora da região geográfica em que o serviço de Human Resources do locatário é implantado.
+
+O Dynamics 365 Human Resources transmite detalhes da solicitação de licença e da tarefa de fluxo de trabalho do funcionário para a Grade de Eventos do Microsoft Azure e o Microsoft Teams . Esses dados podem ser armazenados na Grade de Eventos do Microsoft Azure por até 24 horas e podem ser processados nos Estados Unidos, são criptografados em trânsito e em repouso, e não são usados pela Microsoft ou subprocessadores para treinamento ou melhorias de serviço. Para entender onde seus dados são armazenados no Teams, consulte: [Localização dos dados no Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
+
+Ao conversar com o bot de bate-papo no aplicativo Human Resources, o conteúdo da conversa pode ser armazenado no Azure Cosmos DB e transmitido ao Microsoft Teams. Esses dados podem ser armazenados no Azure Cosmos DB por até 24 horas e podem ser processados fora da região geográfica onde o serviço do Human Resources do seu locatário está implantado, é criptografado em trânsito e em repouso e não é usado pela Microsoft ou seus subprocessadores para treinamento ou melhorias de serviço. Para entender onde seus dados são armazenados no Teams, consulte: [Localização dos dados no Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
+ 
+Para restringir o acesso ao aplicativo Human Resources no Microsoft Teams para sua organização ou usuários dentro de sua organização, consulte [Gerenciar políticas de permissão de aplicativo no Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
 
 ## <a name="see-also"></a>Consulte também
 
