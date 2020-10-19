@@ -70,12 +70,12 @@
                   items:
                     - name: Novidades ou alterações na home page do Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.15 (dezembro de 2020)
+                      href: get-started/whats-new-scm-10-0-15.md
                     - name: Supply Chain Management 10.0.14 (novembro de 2020)
                       href: get-started/whats-new-scm-10-0-14.md
                     - name: Supply Chain Management 10.0.13 (outubro de 2020)
                       href: get-started/whats-new-scm-10-0-13.md
-                    - name: Supply Chain Management 10.0.12 (agosto de 2020)
-                      href: get-started/whats-new-scm-10-0-12.md
                 - name: Recursos removidos ou obsoletos
                   items:
                     - name: Recursos removidos ou obsoletos do Dynamics 365 Supply Chain Management
@@ -194,6 +194,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Mover projetos de implementação do LCS para diferentes locatários do Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Mover projetos de implementação do LCS de local para a nuvem
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Vários ambientes de produção e projetos do LCS em um locatário do Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/supply-chain/toc.json
         - name: Globalização
@@ -202,6 +204,10 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/supply-chain/toc.json
             - name: Atualizações regulatórias
               href: ../finance/localizations/regulatory-updates.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Índia
+              items:
+                - name: Ordens de transferência do estoque
+                  href: ../finance/localizations/apac-ind-stock-transfer.md
             - name: Rússia
               items:
                 - name: Visão geral da Rússia
@@ -1407,6 +1413,8 @@
                   href: master-planning/supply-chain-calendars-master-planning.md
                 - name: Melhorar o desempenho de planejamento mestre
                   href: master-planning/master-planning-performance.md
+                - name: Melhorar o desempenho do mecanismo de agendamento
+                  href: master-planning/scheduling-engine-performance.md
                 - name: Planos mestres e funcionalidade multissite
                   items:
                     - name: Visão geral de planejamento mestre e funcionalidade multissite
@@ -1939,6 +1947,8 @@
                       href: pim/tasks/maintain-bom-product-configuration-model.md
                     - name: Manter um roteiro para um modelo de produtos
                       href: pim/tasks/maintain-route-product-model.md
+                    - name: Preços de venda com base em atributo para a configuração de produtos baseada em restrição
+                      href: pim/attribute-based-product-configurator.md
                     - name: Aprovar um modelo da configuração do produto
                       href: pim/tasks/approve-product-configuration-model.md
                     - name: Transferir dados para modelos de produto
@@ -2035,6 +2045,8 @@
                       href: production-control/config-job-card-device.md
                     - name: Relatar como concluído no dispositivo de ficha de trabalho
                       href: production-control/report-finished-job-device.md
+                    - name: Fornecer Guias de realidade misturada a trabalhadores na produção
+                      href: production-control/instruction-guides-in-production-overview.md
                     - name: Reverter o status da ordem de produção
                       href: production-control/reverse-production-order-status.md
                     - name: Visibilidade de exceções materiais
@@ -2649,6 +2661,10 @@
                       href: warehousing/batch-and-license-plate-confirmation.md
                     - name: Habilitar a impressão da etiqueta da placa de licença
                       href: warehousing/tasks/license-plate-label-printing.md
+                    - name: Criar ordens de transferência do aplicativo de depósito
+                      href: warehousing/create-transfer-order-from-warehouse-app.md
+                    - name: Processamento de eventos do aplicativo de depósito
+                      href: warehousing/warehouse-app-events.md
                     - name: Confirmação de separação de peças
                       href: warehousing/piece-picking-confirmation.md
                     - name: Materiais e taxas de embalagem
@@ -2845,7 +2861,9 @@
                       href: warehousing/pick-oldest-batch.md
                     - name: Processar estrutura de guia
                       href: warehousing/process-guide-framework.md
-                - name: Atualização e migração
+                    - name: Solucionar problemas de conexão do aplicativo de depósito
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
+                - name: Atualizar e fazer a migração
                   items:
                     - name: Atualizar os processos de gerenciamento de depósito do Microsoft Dynamics AX 2012 para o Finance and Operations
                       href: warehousing/upgrade-migration-warehouse-management-processes.md

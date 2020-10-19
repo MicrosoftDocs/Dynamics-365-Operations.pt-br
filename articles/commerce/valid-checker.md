@@ -3,7 +3,7 @@ title: Verificador de consistência das transações de varejo
 description: Este tópico descreve a funcionalidade do verificador de consistência das transações no Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
-ms.date: 10/14/2019
+ms.date: 10/07/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: eb5c7389ba29d50232f9321e40bccceecd5f5fc6
-ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
+ms.openlocfilehash: 3c7ca41b9e8a4c3127c98c756348959530a87996
+ms.sourcegitcommit: 1631296acce118c51c182c989e384e4863b03f10
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "3265609"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3968763"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Verificador de consistência das transações de varejo
 
@@ -47,24 +47,25 @@ O processo em lote **Validar transações de loja** verifica a consistência das
 
 - **Conta de cliente** - valida se a conta de cliente nas tabelas de transações de varejo existe no cliente mestre da matriz.
 - **Contagem de linhas** - valida se o número de linhas, como capturado na tabela de cabeçalho de transações, corresponde ao número de linhas nas tabelas de transações de vendas.
-- **Preço incluindo imposto** — valida se o parâmetro **Preço incluindo imposto** é consistente nas linhas de transação.
-- **Valor do pagamento** — valida se os registros de pagamento corresponderem ao valor do pagamento no cabeçalho.
-- **Valor bruto** — valida se o valor bruto no cabeçalho é a soma dos valores líquidos nas linhas mais o valor do imposto.
-- **Valor líquido** — valida se o valor líquido no cabeçalho é a soma dos valores líquidos nas linhas mais o valor do imposto.
-- **Pagamento a maior/a menor** — valida se a diferença entre o valor bruto no cabeçalho e o valor do pagamento não excede a configuração de pagamento maior/a menor máximo.
-- **Valor de desconto** - valida se o valor de desconto nas tabelas do desconto e o valor de desconto na linha das tabelas de transações são consistentes, e se o valor de desconto no cabeçalho é a soma dos valores dos descontos nas linhas.
-- **Desconto de linha** - valida se o desconto de linha na linha de transação é a soma de todas as linhas na tabela de desconto que corresponde à linha de transação.
+- **Preço inclui imposto** — valida se o parâmetro **Preço inclui imposto** está consistente em todas as linhas de transação e se o preço na linha de vendas está de acordo com a configuração de preço inclui imposto e de isenção de imposto.
+- **Valor do pagamento** — valida se os registros de pagamento correspondem ao valor do pagamento no cabeçalho, ao mesmo tempo que também usa a fatoração na configuração de arredondamento de centavos na contabilidade.
+- **Valor bruto** — valida se o valor bruto no cabeçalho é a soma dos valores líquidos nas linhas mais o valor do imposto, ao mesmo tempo que também usa a fatoração na configuração de arredondamento de centavos na contabilidade.
+- **Valor líquido** — valida se o valor líquido no cabeçalho é a soma dos valores líquidos nas linhas, ao mesmo tempo que também usa a fatoração na configuração de arredondamento de centavos na contabilidade.
+- **Pagamento a maior/a menor** — valida se a diferença entre o valor bruto no cabeçalho e o valor do pagamento não excede a configuração de pagamento maior/a menor máximo, ao mesmo tempo que também usa a fatoração na configuração de arredondamento de centavos na contabilidade.
+- **Valor de desconto** — valida se o valor de desconto nas tabelas do desconto e o valor de desconto na linha das tabelas de linha de transação são consistentes e se o valor de desconto no cabeçalho é a soma dos valores dos descontos nas linhas, ao mesmo tempo que também usa a fatoração na configuração de arredondamento de centavos na contabilidade.
+- **Desconto de linha** — valida se o desconto de linha na linha de transação é a soma de todas as linhas na tabela de descontos que corresponde à linha de transação.
 - **Item do cartão-presente** - o Commerce não oferece suporte à devolução de itens do cartão-presente. No entanto, o saldo em um cartão-presente pode ser resgatado. Haverá falha no processo de lançamento de demonstrativo em qualquer item de cartão-presente que seja processado como uma linha de devolução em vez de uma linha de resgate. O processo de validação de itens de cartão-presente ajuda a garantir que somente os itens de cartão-presente devolvidos nas tabelas de transação sejam linhas de resgate de cartão-presente.
 - **Preço negativo** - valida se não há nenhum preço negativo nas linhas de transação.
 - **Item e grade** — valida se os itens e as grades nas linhas de transação existem no item e no arquivo mestre da grade.
 - **Valor do imposto** — valida se os registros de impostos correspondem aos valores de imposto nas linhas.
 - **Número de série** — valida se o número de série. está presente nas linhas de transação dos itens que são controlados por número de série.
 - **Sinal** — valida se o sinal na quantidade e no valor líquido são iguais em todas as linhas de transação.
-- **Data comercial** - valida se os períodos financeiros para todas as datas comerciais para as transações estão abertos.
+- **Data comercial** — valida se os períodos financeiros para todas as datas comerciais para as transações estão abertos.
+- **Encargos** — valida se o cabeçalho e o valor dos encargos da linha estão de acordo com o preço, incluindo a configuração de imposto e de isenção de imposto.
 
 ## <a name="set-up-the-consistency-checker"></a>Configurar o verificador de consistência
 
-Configure o processo em lote "Validar transações de loja" em **Varejo e Comércio \> TI de Varejo e Comércio \> Lançamento do PDV** para execuções periódicas. O trabalho em lotes pode ser agendado com base na hierarquia da organização da loja, semelhante a como os processos "Calcular demonstrativos em lote" e "Lançar demonstrativos em lote" são configurados. É recomendável configurar esse processo em lote para ser executado várias vezes em um dia e agendá-lo de forma que isso ocorra ao final de cada execução de trabalho P.
+Configure o processo em lote "Validar transações de loja" em **Retail e Commerce \> TI de Retail e Commerce \> Lançamento do PDV** para execuções periódicas. O trabalho em lotes pode ser agendado com base na hierarquia da organização da loja, semelhante a como os processos "Calcular demonstrativos em lote" e "Lançar demonstrativos em lote" são configurados. É recomendável configurar esse processo em lote para ser executado várias vezes em um dia e agendá-lo de forma que isso ocorra ao final de cada execução de trabalho P.
 
 ## <a name="results-of-validation-process"></a>Resultados do processo de validação
 
