@@ -74,8 +74,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: Aplicativos do Finance and Operations na França
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
-            - name: Obter suporte para o Dynamics 365 Commerce
-              href: retail-support.md
+            - name: Obter suporte
+              href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
             - name: Upgrade e suporte N-1
               items:
                 - name: Upgrade e suporte N-1 para o Commerce
@@ -92,6 +92,8 @@
                   items:
                     - name: Novidades ou alterações na home page do Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.15 (janeiro de 2021)
+                      href: get-started/whats-new-commerce-10-0-15.md
                     - name: Commerce 10.0.14 (novembro de 2020)
                       href: get-started/whats-new-commerce-10-0-14.md
                     - name: Commerce 10.0.13 (outubro de 2020)
@@ -274,6 +276,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
                 - name: Mover projetos de implementação do LCS para diferentes locatários do Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: Mover projetos de implementação do LCS de local para a nuvem
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
                 - name: Vários ambientes de produção e projetos do LCS em um locatário do Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
                 - name: Implementar projetos do Commerce no Finance and Operations
@@ -706,6 +710,8 @@
                   href: customer-orders-overview.md
                 - name: Ordens híbridas de cliente
                   href: hybrid-customer-orders.md
+                - name: Cancelar operação de ordem no PDV
+                  href: enhancedorderrecall.md
             - name: Ordens de venda
               items:
                 - name: Criar uma ordem de call center
@@ -780,8 +786,6 @@
               href: statement-posting-eod.md
             - name: Manuseio aprimorado de itens de lote rastreados
               href: batch.md
-            - name: Configurar os parâmetros do Commerce que afetam os demonstrativos
-              href: tasks/parameter-configurations-retail-statements.md
             - name: Definir configurações de método de pagamento que afetam demonstrativos de varejo
               href: tasks/payment-configurations-retail-statements.md
             - name: Configurar e executar um trabalho para calcular demonstrativos
@@ -868,6 +872,8 @@
                   href: document-states-overview.md
                 - name: Trabalhar com grupos de publicações
                   href: publish-groups.md
+                - name: Habilitar e usar o compartilhamento entre canais
+                  href: cross-channel-sharing.md
                 - name: Colocar uma marca em seu site e adicionar detalhes da loja
                   items:
                     - name: Adicionar um logotipo
@@ -1048,6 +1054,24 @@
               items:
                 - name: Gerar relatórios do canal online
                   href: generate-reports.md
+            - name: Experimentação
+              items:
+                - name: Experimentação no Dynamics 365 Commerce
+                  href: experimentation-overview.md
+                - name: Identificar uma hipótese e determinar as métricas para um experimento
+                  href: experimentation-identify.md
+                - name: Configurar um experimento
+                  href: experimentation-setup.md
+                - name: Conectar e editar um experimento
+                  href: experimentation-connect-edit.md
+                - name: Visualizar e publicar um experimento
+                  href: experimentation-preview-publish.md
+                - name: Executar e monitorar um experimento
+                  href: experimentation-run-monitor.md
+                - name: Promover uma variação e concluir um experimento
+                  href: experimentation-review-complete.md
+                - name: Revisar o status de um experimento
+                  href: experimentation-status.md
             - name: Tratamento de erros
               items:
                 - name: Criar páginas de resposta personalizadas para erros do código de status 4xx/5xx
@@ -1076,10 +1100,16 @@
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: Configurar integração fiscal do canal do Commerce
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+            - name: Perfis de certificado definidos pelo usuário para lojas de varejo
+              href: localizations/certificate-profiles-for-retail-stores.md
             - name: Áustria
               items:
                 - name: Exemplo de integração de serviços de registro fiscal para a Áustria
                   href: localizations/emea-aut-fi-sample.md
+            - name: Brasil
+              items:
+                - name: Localização do Commerce para o Brasil
+                  href: localizations/latam-bra-commerce-localization.md
             - name: Europa Oriental
               items:
                 - name: Comum
@@ -2052,6 +2082,8 @@
                       href: e-commerce-extensibility/theme-module-extensions.md
                     - name: Estender um tema de um tema base
                       href: e-commerce-extensibility/extend-theme.md
+                    - name: Adicionar recursos personalizados ao seu código de personalização
+                      href: e-commerce-extensibility/add-custom-resources.md
                 - name: Injetar o script
                   items:
                     - name: Injetores de script
@@ -2164,6 +2196,8 @@
                   href: dev-itpro/retail-server-extension.md
                 - name: Proxies C# e Retail Typescript
                   href: dev-itpro/typescript-proxy-retail-pos.md
+                - name: APIs de consumo do Retail Server em aplicativos externos
+                  href: dev-itpro/consume-retail-server-api
             - name: Extensibilidade do Commerce Runtime (CRT)
               items:
                 - name: Arquitetura e configuração do CRT
