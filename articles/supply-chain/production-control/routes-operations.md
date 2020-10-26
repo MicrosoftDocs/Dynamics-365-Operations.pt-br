@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4bb2f340afffc5f62c200b4daac311db435d796e
-ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
+ms.openlocfilehash: adf890f5305f4e6a62c2d7527ff3b593ed61eff3
+ms.sourcegitcommit: c55fecae96b4bb27bc313ba10a97eddb9c91350a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895368"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "3989232"
 ---
 # <a name="routes-and-operations"></a>Roteiros e operações
 
@@ -37,10 +37,10 @@ Este tópico fornece informações sobre roteiros e operações. Um roteiro defi
 
 Um roteiro descreve a ordem de operações necessárias para produzir um produto ou grade de produto. Para cada operação, o roteiro também define os recursos de operações necessários, o tempo necessário para configurar e realizar a operação, e como o custo deve ser calculado. Você pode usar o mesmo roteiro para produzir vários produtos, ou você pode definir um roteiro exclusivo para cada produto ou grade de produto. Você pode ainda ter vários roteiros para o mesmo produto. Nesse caso, o roteiro utilizado varia de acordo com fatores tais como a quantidade que deve ser produzida. A definição de um roteiro no Supply Chain Management consiste em quatro elementos distintos que, juntos, descrevem o processo de produção:
 
--   **Roteiro** – Um roteiro define a estrutura do processo de produção. Em outras palavras, ele define a ordem de operações.
--   **Operação** – Uma operação identifica uma etapa nomeada no roteiro, tal como **Montagem**. A mesma operação pode ocorrer em múltiplos roteiros e pode ter diferentes números de operação.
--   **Relação de operação** – Uma relação de operação define as propriedades operacionais de uma operação, tais como os tempos de configuração e execução, categorias de custo, parâmetros de consumo e requisitos de recursos. A relação de operação permite que as propriedades operacionais de uma operação varie, de acordo com o roteiro em que a operação é usada ou com os produtos que estão sendo produzidos.
--   **Versão do roteiro** – Uma versão do roteiro define o roteiro usado para produzir um produto ou grade de produto. As versões de roteiros permitem que os roteiros sejam reutilizados em diferentes produtos ou modificados com o passar do tempo. Elas também permitem que diferentes roteiros sejam utilizados para produzir o mesmo produto. Nesse caso, o roteiro utilizado varia de acordo com fatores tais como a localização ou a quantidade que deve ser produzida.
+- **Roteiro** – Um roteiro define a estrutura do processo de produção. Em outras palavras, ele define a ordem de operações.
+- **Operação** – Uma operação identifica uma etapa nomeada no roteiro, tal como **Montagem**. A mesma operação pode ocorrer em múltiplos roteiros e pode ter diferentes números de operação.
+- **Relação de operação** – Uma relação de operação define as propriedades operacionais de uma operação, tais como os tempos de configuração e execução, categorias de custo, parâmetros de consumo e requisitos de recursos. A relação de operação permite que as propriedades operacionais de uma operação varie, de acordo com o roteiro em que a operação é usada ou com os produtos que estão sendo produzidos.
+- **Versão do roteiro** – Uma versão do roteiro define o roteiro usado para produzir um produto ou grade de produto. As versões de roteiros permitem que os roteiros sejam reutilizados em diferentes produtos ou modificados com o passar do tempo. Elas também permitem que diferentes roteiros sejam utilizados para produzir o mesmo produto. Nesse caso, o roteiro utilizado varia de acordo com fatores tais como a localização ou a quantidade que deve ser produzida.
 
 ## <a name="routes"></a>Roteiros
 Um roteiro descreve a ordem de operações usadas para produzir um produto ou grade de produto. Cada operação recebe um número de operação e uma operação sucessora. A ordem de operações forma uma rede de roteiros que pode ser representada por um gráfico direcionado que possui um ou mais pontos de início e um único ponto de término. No Supply Chain Management, os roteiros são diferenciados com base no tipo de estrutura. Os dois tipos de roteiros são roteiros simples e redes de roteiros. Nos parâmetros de Controle de produção, você pode especificar se apenas roteiros simples podem ser usados, ou se redes de roteiros mais complexas podem ser usadas.
@@ -60,9 +60,9 @@ Se você habilitar as redes de roteiros mais complexas nos parâmetros de Contro
 [![Rede de roteiro](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
-> -   Cada operação pode ter apenas uma operação sucessora, e todo o roteiro deve terminar em uma única operação.
-> -   Isso não garante que várias operações que tenham a mesma operação sucessora (por exemplo, as operações 30 e 40 na ilustração anterior) sejam executadas em paralelo. A disponibilidade e a capacidade de recursos pode colocar restrições no modo como as operações são agendadas.
-> -   Você não pode usar 0 (zero) como número de operação. Esse número é reservado e utilizado para especificar que a última operação do roteiro não possui uma operação sucessora.
+> - Cada operação pode ter apenas uma operação sucessora, e todo o roteiro deve terminar em uma única operação.
+> - Isso não garante que várias operações que tenham a mesma operação sucessora (por exemplo, as operações 30 e 40 na ilustração anterior) sejam executadas em paralelo. A disponibilidade e a capacidade de recursos pode colocar restrições no modo como as operações são agendadas.
+> - Você não pode usar 0 (zero) como número de operação. Esse número é reservado e utilizado para especificar que a última operação do roteiro não possui uma operação sucessora.
 
 ### <a name="parallel-operations"></a>Operações paralelas
 
@@ -99,12 +99,12 @@ As propriedades operacionais da operação, tais como os tempos de configuraçã
 ## <a name="operation-relations"></a>Relações de operação
 As seguintes propriedades operacionais de uma operação são mantidas na relação de operação:
 
--   Categorias de custo
--   Parâmetros de consumo
--   Tempos de processamento
--   Quantidades de processamento
--   Requisitos de recursos
--   Observações e instruções
+- Categorias de custo
+- Parâmetros de consumo
+- Tempos de processamento
+- Quantidades de processamento
+- Requisitos de recursos
+- Observações e instruções
 
 Você pode definir várias relações de operação para a mesma operação. No entanto, cada relação de operação é específica para uma operação, e armazena propriedades que são específicas de um roteiro, produto lançado ou um conjunto de produtos lançados relacionados a um grupo de itens. Portanto, a mesma operação pode ser usada em diversos roteiros com propriedades operacionais diferentes. Além disso, você pode preservar seus dados mestre com mais facilidade se usar operações padrão que possuam as mesmas propriedades operacionais, independentemente do roteiro utilizado e do produto produzido. O escopo da relação de operação é definido pelas propriedades **Código do item**, **Relação do item**, **Código do roteiro** e **Relação do roteiro**, como mostrado na tabela a seguir.
 
@@ -166,12 +166,13 @@ Quando o Supply Chain Management busca a relação de operação mais relevante 
 Portanto, uma operação deve ser usada apenas uma vez em cada roteiro. Se a operação ocorre várias vezes no mesmo roteiro, todas as ocorrências dessa operação terão a mesma relação de operação, e não será possível ter propriedades diferentes (por exemplo, tempos de execução) para cada ocorrência.
 
 ## <a name="route-versions"></a>Versões de roteiro
+
 As versões de roteiro são usadas para acomodar variações na produção de produtos ou proporcionar maior controle sobre o processo de produção. Elas definem qual roteiro deve ser usado quando um produto específico ou grade de produto específica é produzido(a). Você pode usar as seguintes restrições para definir qual roteiro é usado para um produto lançado:
 
--   Dimensões do produto (tamanho, cor, estilo ou configuração)
--   Quantidade de produção
--   Local de produção
--   Data de produção
+- Dimensões do produto (tamanho, cor, estilo ou configuração)
+- Quantidade de produção
+- Local de produção
+- Data de produção
 
 Quando estiver produzindo o produto em um local específico, com uma quantidade específica, ou em um período específico, você pode designar uma versão de roteiro específica como a versão de roteiro padrão. No entanto, observe que é permitido apenas um roteiro ativo para um certo produto lançado e um certo conjunto de restrições.  
 
@@ -194,6 +195,7 @@ Caso precise manter um registro sobre quem aprova e ativa cada versão do roteir
 O caso de alteração de produto para aprovação ou ativação de roteiros ou versões de roteiros novos ou modificados oferece uma maneira fácil para visualizar um resumo das restrições da versão do roteiro. Você também pode aprovar e ativar todos os roteiros relacionadas a uma alteração específica em uma operação e documentar os resultados no caso de alteração de produto.
 
 ## <a name="maintaining-routes"></a>Mantendo roteiros
+
 Dependendo das suas necessidades comerciais, você poderá reduzir o esforço necessário para manter suas definições de processo.
 
 ### <a name="making-routes-independent-of-resources"></a>Tornar os roteiros independentes dos recursos
@@ -224,10 +226,10 @@ Ao utilizar essa abordagem, a página **Relações de operações** se torna seu
 
 Se você não especificar um recurso de operações ou um grupo de recursos como parte dos requisitos de recurso para uma operação, os recursos aplicáveis podem operar em velocidades diferentes. Portanto, o tempo necessário para processar uma operação poderá variar. Para solucionar esse problema, você pode usar o campo **Fórmula** na relação de operação para especificar como o tempo de processo é calculado. As opções a seguir estão disponíveis:
 
--   **Padrão** – (Opção padrão) O cálculo utiliza apenas os campos da relação de operação e multiplica o tempo de execução pela quantidade da ordem.
--   **Capacidade** – O cálculo inclui o campo **Capacidade** do recurso de operações. Portanto, o tempo depende do recurso. O valor especificado no recurso de operações é a capacidade por hora. O **Tempo de processamento** é calculado como a **Quantidade da ordem** dividida pela **Capacidade**.
--   **Lote** – Uma capacidade de lote é calculada utilizando informação da relação de operações. O número de lotes e, consequentemente, o tempo de processo podem então ser calculados com base na quantidade da ordem.
--   **Lote de recursos** – Essa opção é basicamente a mesma opção que **Lote**. No entanto, o cálculo inclui o campo **Capacidade de lote** do recurso de operações. Portanto, o tempo depende do recurso.
+- **Padrão** – (Opção padrão) O cálculo utiliza apenas os campos da relação de operação e multiplica o tempo de execução pela quantidade da ordem.
+- **Capacidade** – O cálculo inclui o campo **Capacidade** do recurso de operações. Portanto, o tempo depende do recurso. O valor especificado no recurso de operações é a capacidade por hora. O **Tempo de processamento** é calculado como a **Quantidade da ordem** dividida pela **Capacidade**.
+- **Lote** – Uma capacidade de lote é calculada utilizando informação da relação de operações. O número de lotes e, consequentemente, o tempo de processo podem então ser calculados com base na quantidade da ordem.
+- **Lote de recursos** – Essa opção é basicamente a mesma opção que **Lote**. No entanto, o cálculo inclui o campo **Capacidade de lote** do recurso de operações. Portanto, o tempo depende do recurso.
 
 ### <a name="set-up-route-groups"></a>Configurar grupos de roteiros
 
