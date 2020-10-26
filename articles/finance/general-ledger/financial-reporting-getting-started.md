@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7cc238c573a319073b451063782762c19a80017
-ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
+ms.openlocfilehash: 363ce16b31a199e519c969746c4f10430d9d7497
+ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3835101"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "3967249"
 ---
 # <a name="get-started-with-financial-reporting"></a>Introdução ao Financial Reporting 
 
@@ -149,7 +149,12 @@ Problema 1: o Designer de Relatórios não inicia quando você seleciona **Novo*
 * No Internet Explorer, selecione **Configurações** e **Opções da Internet**. Selecione a guia **Segurança**. Selecione Sites Confiáveis. Na área Nível de segurança desta zona, mude a opção para **Médio-baixo**.
 * Desabilite o bloqueador de pop-up no navegador.
 * As estações de trabalho devem instalar o Microsoft .NET Framework 4.6.2 ou posterior. Esta versão do Microsoft .NET Framework pode ser baixada e instalada do [Centro de Download da Microsoft](https://www.microsoft.com/download/details.aspx?id=53345).
-* Se você usa o navegador Chrome, deve instalar uma extensão ClickOnce para baixar o cliente do Designer de Relatórios. Se estiver executando no modo anônimo, verifique se a extensão ClickOnce está habilitada para esse modo. Se você não conseguir entrar com o Chrome, tente seguir as etapas de configuração descritas em Problema 1 usando o Internet Explorer ou o Micrososft Edge. 
+* Se você usa o Microsoft Edge com o navegador Chrome, deverá instalar uma extensão ClickOnce para baixar o cliente do Designer de Relatórios. Se estiver executando no modo anônimo, verifique se a extensão ClickOnce está habilitada para esse modo. 
+     1. Abra um novo navegador no Microsoft Edge.
+     2. Insira **edge://flags** e selecione **Enter**.
+     3. Procure a opção de **Suporte do ClickOnce** ou use este link direto: **edge://flags/#edge-click-once**.
+     4. Defina a opção de menu suspenso como **Habilitado**.
+     5. Selecione **Reiniciar Navegador**.
 
 Problema 2: O usuário não recebeu as permissões necessárias para usar o Financial Reporting. 
 

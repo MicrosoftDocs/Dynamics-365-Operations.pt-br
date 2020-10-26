@@ -3,7 +3,7 @@ title: Estados de documento e de ciclo de vida
 description: Este tópico abrange vários estados do documento de elementos de página no Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 04/13/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4a00f1c363e5ecb0e3e64637a8f487c48df2df72
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: 8aad7ef8425e46182c669686710dfc178abc418f
+ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261504"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3974021"
 ---
 # <a name="document-states-and-lifecycle"></a>Estados de documento e de ciclo de vida
-
 
 [!include [banner](includes/banner.md)]
 
@@ -52,6 +51,8 @@ A tabela a seguir mostra os estados possíveis de documento de elementos de pág
 [Glossário do modelo de página](page-elements-overview.md)
 
 [Trabalhar com grupos de publicações](publish-groups.md)
+
+[Habilitar e usar o compartilhamento entre canais](cross-channel-sharing.md)
 
 [Trabalhar com módulos](work-with-modules.md)
 

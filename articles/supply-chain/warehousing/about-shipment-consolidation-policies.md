@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: v-olbara
+ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 53bfd24085160227639af1aa5c398e56517805b3
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 4afa037ce9e446402128e4908a61ed32a30ebd59
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383709"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986941"
 ---
 # <a name="shipment-consolidation-policies"></a>Políticas de consolidação da remessa
 
@@ -130,7 +130,7 @@ A tabela a seguir resume como a consolidação de remessa funciona quando você 
 | O procedimento *Liberação de cargas para o depósito* na página **Bancada de planejamento de carga** usa seu próprio código separado para criar remessas e ondas. | As políticas de consolidação de remessa são aplicadas para determinar quais campos devem ser avaliados para consolidação. As remessas agora são consolidadas em somente uma única carga. |
 | Você seleciona manualmente **Consolidar remessas** na página **Todas as remessas** e, em seguida, seleciona a remessa "base" de destino. O filtro sugerirá todas as remessas existentes que tenham valores correspondentes a vários campos-chave. | Você seleciona manualmente **Consolidar remessas** na página **Todas as remessas** e, em seguida, seleciona a remessa "base" de destino. O sistema sugerirá outras remessas existentes fazendo a correspondência dos valores de vários campos-chave configurados para as política de consolidação de remessa relevantes. |
 | Você pode usar o comando **Consolidar remessas** na página **Todas as remessas** para uma única remessa. | A página **Bancada de consolidação de remessas** ajuda você a encontrar um conjunto de remessas que ainda não estejam em um estado Enviado. Essas remessas são analisadas com base em vários campos-chave configurados nas políticas de consolidação de remessa. As remessas em que haja correspondência nos valores desses campos serão sugeridas para consolidação.<p>Você pode manter a consolidação manualmente, removendo remessas das consolidações sugeridas e/ou adicionando remessas a elas. Vários tipos de erros podem ocorrer, mas é possível substituir alguns deles.</p> |
-| **Observação de design:** o procedimento *Liberação automática de ordens para o depósito* divide as linhas de venda em grupos. Cada grupo tem seu próprio valor exclusivo de **ReleaseToWarehouseId** e é processado separadamente pelo procedimento *Liberar para depósito*. Esse procedimento cria um trabalho independentemente da configuração de intervalo de trabalho. | ***Observação de design:** o procedimento *Liberação automática de ordens para o depósito* atribui o mesmo valor de **ReleaseToWarehouseId** a todas as linhas de venda que estão sendo processadas. Todas as linhas de venda são processadas pelo procedimento *Liberar para o depósito* ao mesmo tempo. Para garantir o comportamento anterior, você deve configurar o intervalo de trabalho por ID de remessa. |
+| **Observação de design:** o procedimento *Liberação automática de ordens para o depósito* divide as linhas de venda em grupos. Cada grupo tem seu próprio valor exclusivo de **ReleaseToWarehouseId** e é processado separadamente pelo procedimento *Liberar para depósito*. Esse procedimento cria um trabalho independentemente da configuração de intervalo de trabalho. | **Observação de design:** o procedimento *Liberação automática de ordens para o depósito* atribui o mesmo valor de **ReleaseToWarehouseId** a todas as linhas de venda que estão sendo processadas. Todas as linhas de venda são processadas pelo procedimento *Liberar para o depósito* ao mesmo tempo. Para garantir o comportamento anterior, você deve configurar o intervalo de trabalho por ID de remessa. |
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
