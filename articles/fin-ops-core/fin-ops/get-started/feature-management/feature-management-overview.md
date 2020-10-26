@@ -3,7 +3,7 @@ title: Visão geral do gerenciamento de recursos
 description: Este tópico descreve o recurso de gerenciamento de recursos e como você pode usá-lo.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/15/2020
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: ae2c7a0d089c81a62932c415eed5f752e7fb4ffa
-ms.sourcegitcommit: 17a8e3d48da4354ba74e35031c320a16369bfcd5
+ms.openlocfilehash: 22e5333859d37ad33f5806d63fc874b1b5a52831
+ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3499610"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "3967325"
 ---
 # <a name="feature-management-overview"></a>Visão geral do gerenciamento de recursos
 
@@ -179,3 +179,24 @@ As liberações de versões de pré-lançamento dos recursos são botões ligar/
 
 ### <a name="do-features-ever-get-flighted-off-without-the-customer-knowing-about-it"></a>Os recursos podem ter liberação de versões de pré-lançamento sem que o cliente saiba disso? 
 Sim, se um recurso estiver causando impacto no funcionamento de um ambiente que não tenha um impacto funcional, eles poderão ser habilitados por padrão.
+
+### <a name="how-can-feature-enablement-be-checked-in-code"></a>Como a habilitação do recurso pode ser verificada no código?
+Use o método **isFeatureEnabled** na classe **FeatureStateProvider**, passando uma instância da classe feature. Exemplo: 
+
+    if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))
+
+### <a name="how-can-feature-enablement-be-checked-in-metadata"></a>Como a habilitação do recurso pode ser verificada nos metadados?
+A propriedade **FeatureClass** pode ser usada para indicar que alguns metadados estão associados a um recurso. O nome da classe para o recurso deve ser usado, como **BatchContentionPreventionFeature**. Esses metadados estão visíveis somente nesse recurso. A propriedade **FeatureClass** está disponível em menus, itens de menu, valores de enumeração e campos de tabela/exibição.
+
+### <a name="what-is-a-feature-class"></a>O que é uma classe de recurso?
+Os recursos no Gerenciamento de Recursos são definidos como *classes de recursos*. Uma classe de recurso **implementa IFeatureMetadata** e usa o atributo de classe do recurso para se identificar para o espaço de trabalho Gerenciamento de Recursos. Há vários exemplos de classes de recursos disponíveis que podem ser verificadas em caso de habilitação no código usando a API **FeatureStateProvider** e em metadados usando a propriedade **FeatureClass**. Exemplo: 
+
+    [ExportAttribute(identifierStr(Microsoft.Dynamics.ApplicationPlatform.FeatureExposure.IFeatureMetadata))]
+    internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMetadata
+    
+### <a name="what-is-the-ifeaturelifecycle-implemented-by-some-feature-classes"></a>O que é o IFeatureLifecycle implementado por algumas classes de recursos?
+O IFeatureLifecycle é um mecanismo interno da Microsoft para indicar o estágio do ciclo de vida do recurso. Os recursos podem ser:
+- PrivatePreview - precisa de uma versão de pré-lançamento visível.
+- PublicPreview - mostrado por padrão, mas com um aviso de que o recurso está em versão preliminar.
+- Liberado - totalmente liberado.
+

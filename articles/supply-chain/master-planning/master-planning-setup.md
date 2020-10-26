@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 1e7775e797708668a339b6b02ed822261406c829
-ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
+ms.openlocfilehash: a74d2987eac7409b5f576a52eccc37cf29566c7b
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3323660"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958784"
 ---
 # <a name="set-up-master-planning"></a>Configurar planejamento mestre
 
@@ -120,7 +120,7 @@ Agendamento de trabalho é um método de agendamento mais detalhado onde cada op
 Para cada plano, é possível selecionar até que ponto, no futuro, os diversos requisitos e outras considerações devem ser calculados pelo planejamento mestre. O período é conhecido como *limite de tempo*. Para melhorar o desempenho do planejamento mestre, recomendamos que você ajuste os vários limites de tempo para atender às suas necessidades comerciais. Para cada plano, você pode localizar os limites de tempo na Guia Rápida **Limites de tempo em dias** da página **Planos mestres** (**Planejamento mestre \> Configuração \> Planos \> Planos mestres**).
 
 > [!NOTE]
-> Os limites de tempo indicam até que ponto, no futuro, os diversos requisitos e outras considerações são calculados pelo planejamento mestre. Os limites de tempo selecionados nesta página substituirão os limites de tempo definidos no grupo de cobertura. Isso significa que a opção do limite de tempo para sim e a definição dos dias substituirão o limite de tempo definido no grupo de cobertura. Quando definido como Não, o limite de tempo será definido no grupo de cobertura. Por fim, se não quiser ou precisar usar uma opção (por exemplo, não quiser usar as mensagens de ação), defina-a como **Sim** e, em seguida, defina o limite de tempo como **0** (zero) dias.
+> Os limites de tempo indicam até que ponto, no futuro, os diversos requisitos e outras considerações são calculados pelo planejamento mestre. Os limites de tempo selecionados nesta página substituirão os limites de tempo definidos no grupo de cobertura. Isso significa que definir uma opção do limite de tempo como sim e a definição dos dias substituirão o limite de tempo definido no grupo de cobertura. Quando definido como Não, o limite de tempo será definido no grupo de cobertura. Por fim, se não quiser ou precisar usar uma opção (por exemplo, não quiser usar as mensagens de ação), defina-a como **Sim** e, em seguida, defina o limite de tempo como **0** (zero) dias.
 
 ### <a name="coverage"></a>Cobertura
 

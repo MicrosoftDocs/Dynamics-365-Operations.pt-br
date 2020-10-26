@@ -3,7 +3,7 @@ title: Introdução ao complemento de faturamento eletrônico
 description: Este tópico fornece informações que ajudarão você a começar a usar o complemento de faturamento eletrônico no Microsoft Dynamics 365 Finance e no Dynamics 365 Supply Chain Management.
 author: gionoder
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 61933bb846383932d7dd73e9c4d3c2db7a515a98
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: e7f58b8a449e056c4718ac6db30dcd0f0623d2a4
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835906"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971463"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on"></a>Introdução ao complemento de faturamento eletrônico
 
@@ -62,7 +62,7 @@ Você pode usar o Complemento de faturamento eletrônico com sua licença atual.
 Antes de concluir as etapas neste tópico, você precisa preencher os seguintes pré-requisitos:
 
 - Acesso à sua conta LCS.
-- Um projeto de implantação do LCS que inclui o Finance ou o Supply Chain Management versão 10.0.12 ou posterior.
+- Um projeto de implantação do LCS que inclui o Finance ou o Supply Chain Management versão 10.0.13 ou posterior.
 - Acesso à sua conta RCS.
 - Ative o recurso Globalização para sua conta RCS por meio do módulo **Gerenciamento de recursos**. Para obter mais informações, consulte [Regulatory Configuration Services (RCS) — Recursos de globalização](rcs-globalization-feature.md)
 - Crie um recurso de cofre de chaves e uma conta de armazenamento no Azure. Para obter mais informações, consulte [Criar conta de armazenamento do Azure e cofre de chaves](e-invoicing-create-azure-storage-account-key-vault.md).
@@ -85,16 +85,18 @@ A ilustração a seguir mostra as cinco etapas principais que serão concluídas
 ## <a name="lcs-setup"></a>Configuração do LCS
 
 1. Entre em sua conta do LCS.
-2. Selecione o projeto de implantação de LCS. Antes de poder selecionar o projeto, ele deve estar em execução.
-3. Na Guia Rápida **Complementos do ambiente**, selecione **Instalar um novo complemento**.
-4. Selecione **Envio de Documento Comercial**.
-5. Na caixa de diálogo **Suplemento de configuração**, no campo **ID do aplicativo do AAD**, insira **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Esse valor é um valor fixo.
-6. No campo **ID de locatário AAD**, insira a ID da sua conta de assinatura do Azure.
+2. Selecione o bloco **Gerenciamento de versão preliminar pública** e, no grupo de campos **Recursos de versão preliminar pública** , selecione **BusinessDocumentSubmission**.
+3. Marque o campo **Recurso de versão preliminar habilitado**.
+4. Selecione o projeto de implantação de LCS. Antes de poder selecionar o projeto, ele deve estar em execução.
+5. Na Guia Rápida **Complementos do ambiente**, selecione **Instalar um novo complemento**.
+6. Selecione **Envio de Documento Comercial**.
+7. Na caixa de diálogo **Suplemento de configuração**, no campo **ID do aplicativo do AAD**, insira **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Esse valor é um valor fixo.
+8. No campo **ID de locatário AAD**, insira a ID da sua conta de assinatura do Azure.
 
     ![Caixa de diálogo Suplemento de configuração no LCS](media/e-invoicing-services-get-started-lcs-addin-setup.png)
 
-7. Marque a caixa de seleção para aceitar os termos e condições.
-8. Selecione **Instalar**.
+9. Marque a caixa de seleção para aceitar os termos e condições.
+10. Selecione **Instalar**.
 
 ## <a name="rcs-setup"></a>Configuração do RCS
 
@@ -124,7 +126,7 @@ Durante a configuração do RCS, você concluirá estas tarefas:
 
     ![Campo URI do Key Vault](media/e-invoicing-services-get-started-enter-key-vault-uri.png)
 
-7. Na Guia Rápida **Certificados**, selecione **Adicionar** e insira os nomes de certificados digitais e os segredos do cofre de chaves. Os dois conjuntos de valores são configurados no recurso cofre de chaves no Azure.
+7. Na Guia Rápida **Certificados**, selecione **Adicionar** para inserir todos os nomes de certificado digital e segredos do cofre de chaves necessários para estabelecer conexões confiáveis. Na coluna **Tipo**, você pode especificar se é um Certificado ou um Segredo. Os dois conjuntos de valores são configurados no recurso cofre de chaves no Azure.
 
     ![Adicionar certificados](media/e-invoicing-services-get-started-add-digital-certificates.png)
 
@@ -132,9 +134,9 @@ Durante a configuração do RCS, você concluirá estas tarefas:
 
 ### <a name="set-up-the-rcs-integration-with-the-electronic-invoicing-add-on-server"></a>Configurar a integração do RCS com o servidor do Complemento de faturamento eletrônico
 
-1. No espaço de trabalho **Recursos de globalização**, na seção **Links relacionados**, selecione o link **Parâmetros de relatório eletrônico**.
+1. No espaço de trabalho **Recursos de globalização**, na seção **Configurações relacionadas**, selecione o link **Parâmetros de relatório eletrônico**.
 2. Selecione **Clique aqui para conectar-se ao Lifecycle Service**. Se não desejar se conectar ao LCS, selecione **Cancelar**.
-3. Na guia **Complemento de faturamento eletrônico**, no campo **URI de ponto de extremidade do serviço**, insira `https://businessdocumentsubmission.us.operations365.dynamics.com/`.
+3. Na guia **Serviços de faturamento eletrônico**, no campo **URI de ponto de extremidade de serviço**, insira o valor de acordo com as regiões geográficas disponíveis: `https://businessdocumentsubmission.us.operations365.dynamics.com/` ou `https://businessdocumentsubmission.eu.operations365.dynamics.com/`.
 4. No campo **ID do aplicativo**, verifique se ele mostra a ID **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Esse valor é um valor fixo.
 5. No campo **ID de Ambiente do LCS**, insira a ID da sua conta de assinatura do LCS.
 

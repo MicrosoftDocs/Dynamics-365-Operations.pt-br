@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e1e19594327c0042915bfae87f480434a7fcb159
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: db4866b22060b764fdde3e4a44e99e969133c0a0
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269972"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961601"
 ---
 # <a name="save-preview-and-publish-a-page"></a>Salvar, visualizar, e publicar uma página
 
@@ -38,9 +38,9 @@ Ao salvar uma página, as alterações ficarão visível apenas para você. A op
 
 ## <a name="preview-a-page"></a>Visualizar uma página
 
-A ferramenta de criação oferece dois tipos de recursos de visualização: um painel de visualização "você vê como vai aparecer" (WYSIWYG) no editor de páginas e uma janela de visualização separada.
+A ferramenta de criação oferece dois tipos de recursos de visualização: construtor de página visual, que é um painel de visualização "você vê como vai aparecer" (WYSIWYG) no editor de páginas e uma janela de visualização separada.
 
-Ao usar o editor de páginas, uma visualização "você vê como vai aparecer" (WYSIWYG) aparece no painel central. Essa visualização é automaticamente atualizada sempre que você salvar a página. Você também pode atualizá-la manualmente, selecionando **Atualizar** na barra de comandos. A visualização WYSIWYG renderiza a página exatamente como os usuários do site a verão, mas os auxiliares de criação são renderizados em cima dela.
+Ao usar o editor de páginas, uma visualização "você vê como vai aparecer" (WYSIWYG) aparece no painel central. Essa visualização é automaticamente atualizada sempre que você salvar a página. Você também pode atualizá-la manualmente, selecionando **Atualizar** na barra de comandos. A visualização renderiza a página exatamente como os usuários do site a verão, mas os auxiliares de criação serão renderizados na parte superior dela.
 
 Quando você terminar de modificar a página, convém visualizá-la para ver o que os clientes verão. Para visualizar uma página, selecione **Visualizar** na barra de comandos. A visualização aparecerá em uma janela separada do navegador. A página na janela de visualização é renderizada exatamente como o usuário do site a vê. Você pode redimensionar a janela para garantir que os módulos responsivos sejam renderizados corretamente em todas as portas de exibição.
 
