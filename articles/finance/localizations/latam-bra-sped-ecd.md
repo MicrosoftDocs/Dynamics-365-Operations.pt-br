@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Brazil
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 59320a415eb2d6e5b04a9c8fac8177a0c618051e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3e8d591bbb9ff0ae0a5c81704eb8623dbcf416e8
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175190"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982758"
 ---
 # <a name="sped-ecd"></a>SPED ECD
 

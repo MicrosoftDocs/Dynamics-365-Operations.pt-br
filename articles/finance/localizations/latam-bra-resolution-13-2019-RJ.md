@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Brazil
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7
-ms.openlocfilehash: 0692f8489badaa9e23da38eb2c6b6df6f8bc505a
-ms.sourcegitcommit: a8696b0542325d467eeb57b12fd643b1d9269f76
+ms.openlocfilehash: 3a3d3b9eb35d380ec26ae38f761ddf4688c96cf1
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2651792"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3979620"
 ---
 # <a name="sped-fiscal-resolution-132019-rj"></a>Resolução do SPED fiscal 13/2019 RJ
 
@@ -66,15 +66,15 @@ Veja alguns exemplos de transações de ajuste criadas automaticamente no SPED F
 
 - O código de observação atribuído ao item e estado relacionados da nota fiscal gera registros C195 e 0460:
 
-    \|C195\|\<Código de observação\>\|\<Descrição do código de observação\>\|
+    \|C195\|\<Observation code\>\|\<Observation code description\>\|
 
-    \|0460\|\<Código de observação\>\|\<Descrição do código de observação\>\|
+    \|0460\|\<Observation code\>\|\<Observation code description\>\|
 
 Para registrar o estorno de crédito, crie um ajuste manual no diário Ajuste geral de imposto/benefício/incentivo e adicione o código da tabela 5.2 ao campo **Descrição**.
 
 Veja um exemplo de uma transação de ajuste criada automaticamente no SPED Fiscal:
 
-\|E111\|RJ18003\|RJ801137\|\<Valor do ajuste\>\|
+\|E111\|RJ18003\|RJ801137\|\<Adjustment amount\>\|
 
 ### <a name="reduction-of-tax-base-or-percentage"></a>Redução da base tributária ou percentual
 
@@ -100,9 +100,9 @@ Veja alguns exemplos de transações de ajuste criadas automaticamente no SPED F
 
 - O código de observação atribuído ao item e estado relacionados da nota fiscal gera registros C195 e 0460:
 
-    \|C195\|\<Código de observação\>\|\<Descrição do código de observação\>\|
+    \|C195\|\<Observation code\>\|\<Observation code description\>\|
 
-    \|0460\|\<Código de observação\>\|\<Descrição do código de observação\>\|
+    \|0460\|\<Observation code\>\|\<Observation code description\>\|
 
 ### <a name="presumed-credit"></a>Crédito presumido
 
@@ -112,7 +112,7 @@ Para registrar o estorno de créditos, crie um ajuste manual no diário Ajuste g
 
 Veja um exemplo de uma transação de ajuste criada automaticamente no SPED Fiscal:
 
-\|E111\|RJ018003\|RJ805289\|\<Valor do ajuste\>\|
+\|E111\|RJ018003\|RJ805289\|\<Adjustment amount\>\|
 
 ### <a name="tax-on-total-sales-output-and-billing"></a>Imposto sobre vendas totais, produção e cobrança
 
@@ -134,11 +134,11 @@ Para registrar o estorno de créditos e débitos, crie ajustes manuais no diári
 
 Veja alguns exemplos de transações de ajuste criadas automaticamente no SPED Fiscal:
 
-\|E111\|RJ18003\|RJ822371\|\<Valor do ajuste\>\|
+\|E111\|RJ18003\|RJ822371\|\<Adjustment amount\>\|
 
-\|E111\|RJ38003\|RJ822371\|\<Valor do ajuste\>\|
+\|E111\|RJ38003\|RJ822371\|\<Adjustment amount\>\|
 
-\|E111\|RJ08006\|RJ822371\|\<Valor do ajuste\>\|
+\|E111\|RJ08006\|RJ822371\|\<Adjustment amount\>\|
 
 ### <a name="deferral"></a>Diferimento
 
@@ -164,9 +164,9 @@ Veja alguns exemplos de transações de ajuste criadas automaticamente no SPED F
 
 - O código de observação atribuído ao item e estado relacionados da nota fiscal gera registros C195 e 0460:
 
-    \|C195\|\<Código de observação\>\|\<Descrição do código de observação\>\|
+    \|C195\|\<Observation code\>\|\<Observation code description\>\|
 
-    \|0460\|\<Código de observação\>\|\<Descrição do código de observação\>\|
+    \|0460\|\<Observation code\>\|\<Observation code description\>\|
 
 ### <a name="enforceability-of-credit-reversal"></a>Aplicabilidade do estorno de crédito
 
@@ -192,15 +192,15 @@ Veja alguns exemplos de transações de ajuste criadas automaticamente no SPED F
 
 - O código de observação atribuído ao item e estado relacionados da nota fiscal gera registros C195 e 0460:
 
-    \|C195\|\<Código de observação\>\|\<Descrição do código de observação\>\|
+    \|C195\|\<Observation code\>\|\<Observation code description\>\|
 
-    \|0460\|\<Código de observação\>\|\<Descrição do código de observação\>\|
+    \|0460\|\<Observation code\>\|\<Observation code description\>\|
 
 Para registrar o estorno de créditos, crie ajustes manuais no diário Ajuste geral de imposto/benefício/incentivo e adicione o código da tabela 5.2 ao campo **Descrição**.
 
 Veja um exemplo de uma transação de ajuste criada automaticamente no SPED Fiscal:
 
-\|E111\|RJ18003\|RJ801163\|\<Valor do ajuste\>\|
+\|E111\|RJ18003\|RJ801163\|\<Adjustment amount\>\|
 
 ### <a name="pass-on-or-transfer-a-tax-credit"></a>Transmitir ou transferir um crédito tributário
 
@@ -215,13 +215,13 @@ Veja alguns exemplos de transações de ajuste criadas automaticamente no SPED F
 
 \|E115\|RJ821231\|0\|\|
 
-\|C197\|RJ40080001\|RJ821231\|codigoitem\|0,00\|0,00\|\<Valor de imposto\>\|0,00\|
+\|C197\|RJ40080001\|RJ821231\|codigoitem\|0.00\|0.00\|\<Tax amount\>\|0.00\|
 
 Veja alguns exemplos de transações de ajuste criadas automaticamente no SPED Fiscal para um destinatário:
 
 \|E115\|RJ821231\|0\|\|
 
-\|C197\|RJ10080002\|RJ821231\|codigoitem\|0,00\|0,00\|\<Valor de imposto\>\|0,00\|
+\|C197\|RJ10080002\|RJ821231\|codigoitem\|0.00\|0.00\|\<Tax amount\>\|0.00\|
 
 ## <a name="setup"></a>Configurar
 

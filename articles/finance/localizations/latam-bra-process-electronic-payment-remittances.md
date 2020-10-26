@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Brazil
-ms.author: v-gonode
+ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6151c984c35487646899faeed9b9bee03416f3ff
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 9304967a30926569f774c383c4318f2a6f95770d
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551132"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3979621"
 ---
 # <a name="process-electronic-payment-remittances"></a>Processar remessas de pagamento eletrônico
 

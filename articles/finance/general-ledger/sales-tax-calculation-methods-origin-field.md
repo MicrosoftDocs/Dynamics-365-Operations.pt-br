@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
-ms.author: vstehman
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d326480cc03d80d1ce27f8762e300dca3b0d325e
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 0eb3671051d9a3be9430050e2a0ad4227b17677e
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770634"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3979542"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Métodos de cálculo de imposto no campo Origem
 
@@ -118,7 +118,7 @@ O documento/diário é definido para Os valores incluem imposto = Sim Valor da l
 
 ### <a name="example-2"></a>Exemplo 2
 
-O documento/diário é definido para Os valores incluem imposto = Não Valor da linha da transação: 10,00 Taxa do imposto: 25% Imposto: (Valor da linha de transação x Taxa do imposto / (100 - taxa do imposto) (10,00 x 25%) / (100% - 25%) = 3,33 Valor base do imposto (valor do origem): Valor da linha da transação = 10.00
+O documento/diário é definido para Os valores incluem imposto = Não Valor da linha da transação: 10,00 Taxa do imposto: 25% Imposto: (Valor da linha de transação x Taxa do imposto) / (100 - taxa do imposto) (10,00 x 25%) / (100% - 25%) = 3,33 Valor base do imposto (valor do origem): Valor da linha da transação = 10.00
 
 
 
