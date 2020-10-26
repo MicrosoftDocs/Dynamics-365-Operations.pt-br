@@ -3,7 +3,7 @@ title: Criar regras de alerta
 description: Este tópico fornece informações sobre os alertas e explica como criar uma regra de alerta para que você seja notificado sobre eventos, como uma data do evento ou uma alteração específica que ocorra.
 author: tjvass
 manager: AnnBe
-ms.date: 02/19/2020
+ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 85d4774bc710f0c48b384601e5505f11394cf5d5
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 94b68138066867fad641c70a1674c9292920ec6a
+ms.sourcegitcommit: d540998ad6f9c894ca99498c045ae4b86b779806
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3075915"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970670"
 ---
 # <a name="create-alert-rules"></a>Criar regras de alerta
 
@@ -92,3 +92,14 @@ Os alertas podem ser enviados externamente usando a estrutura de eventos de neg�
 7. Na guia rápida **Alertar-me com**, no campo **Assunto**, aceite o cabeçalho padrão do assunto para a mensagem de e-mail ou insira um novo assunto. O texto é usado como o título do assunto da mensagem de email recebida quando um alerta é acionado. Se você deseja enviar o alerta como um evento de negócios, defina **Enviar externamente** como **Sim**.
 8. No campo **Mensagem**, digite uma mensagem opcional. O texto é usado como a mensagem recebida quando um alerta é acionado.
 9. Selecione **OK** para salvar as configurações e criar a regra de alerta.
+
+## <a name="limitations-and-workarounds"></a>Limitações e soluções alternativas
+
+### <a name="workaround-for-creating-alerts-for-the-secondary-data-sources-of-a-form"></a>Solução para a criação de alertas para as fontes de dados secundárias de um formulário
+Não é possível criar alertas para algumas fontes de dados secundárias em formulários. Por exemplo, ao criar alertas no formulário perfis de lançamento de cliente ou de fornecedor, somente os campos do cabeçalho (CustLedger ou VendLedger) estarão disponíveis e não as contas de dimensão. A solução para essa limitação é usar **SysTableBrowser** para abrir a tabela como a fonte de dados primária. 
+1. Abra a tabela no formulário **SysTableBrowser**.
+    ```
+        https://<EnvironmentURL>/?cmp=USMF&mi=SysTableBrowser&TableName=<TableName>
+    ```
+2. Crie um alerta do formulário SysTableBrowser.
+

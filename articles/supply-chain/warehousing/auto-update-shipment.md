@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: baa8207f9f3a3de071033c4c70f60a339ec5e083
-ms.sourcegitcommit: d25d0feb3f8a5a760eba50ba5f46e1db02737d25
+ms.openlocfilehash: 7fa2684340f5ce45b99ff9aee9937071f936b81a
+ms.sourcegitcommit: 2bc8e760c7a82572c7eafd51f2e57ef11b4ca98b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677329"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "3900977"
 ---
 # <a name="shipment-auto-updates"></a>Atualizações automáticas de remessas
 
@@ -39,7 +39,7 @@ A funcionalidade de atualização automática de remessas aplica-se a linhas de 
 
 A funcionalidade de atualização automática de remessas recorre principalmente ao status da remessa para determinar se a quantidade em uma linha de carga deve ser alterada quando ocorre uma mudança em uma linha da ordem de venda ou da ordem de transferência. Ela também depende principalmente do status da remessa para determinar quando uma nova linha de carga deve ser adicionada automaticamente a uma carga existente. Quando o status da remessa **Na Onda** ou superior, não ocorre nenhuma atualização automática.
 
-O status Na Onda também é considerado para atualizações automáticas. Quando a onda relacionada à linha de carga tem o status **Mantido**, **Executando**, **Liberado**, **Separado** ou **Remetido**, se um usuário tentar reduzir a quantidade em uma linha de carga (por meio de uma redução de quantidade na linha da ordem de venda ou na linha da ordem de transferência), a seguinte mensagem de erro será exibida: "As reservas não podem ser removidas porque há um trabalho criado com base nas reservas". Além disso, quando a onda tem um dos status de onda mencionados, se um usuário tentar aumentar indiretamente a quantidade da linha de carga reduzindo a quantidade na linha da ordem de venda ou na linha da ordem de transferência, a quantidade na linha de carga não será aumentada automaticamente. Nesse caso, a linha de carga deverá ser atualizada manualmente.
+O status Na Onda também é considerado para atualizações automáticas. Quando a onda relacionada à linha de carga tem o status **Mantido**, **Executando**, **Liberado**, **Separado** ou **Remetido**, se um usuário tentar reduzir a quantidade em uma linha de carga (por meio de uma redução de quantidade na linha da ordem de venda ou na linha da ordem de transferência), a seguinte mensagem de erro será exibida: "As reservas não podem ser removidas porque há um trabalho criado com base nas reservas". Além disso, quando a onda tem um dos status de onda mencionados, se um usuário tentar aumentar indiretamente a quantidade da linha de carga aumentando a quantidade na linha da ordem de venda ou na linha da ordem de transferência, a quantidade na linha de carga não será aumentada automaticamente. Nesse caso, a linha de carga deverá ser atualizada manualmente.
 
 ## <a name="scenarios"></a>Cenários
 

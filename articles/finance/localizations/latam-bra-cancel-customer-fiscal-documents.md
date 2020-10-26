@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Brazil
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: da7dd4c32b39c2bdd8c0cfcf2c9d71829ebef7f3
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: f9054ddb2962c2af64aead0ff2ffee1303d731ea
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773440"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3980678"
 ---
 # <a name="cancel-a-customer-fiscal-document-brazil"></a>Cancelar uma nota fiscal do cliente (Brasil)
 

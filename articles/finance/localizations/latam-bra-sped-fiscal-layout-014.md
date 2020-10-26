@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Brazil
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: e4ad7ce3a85ddd99c4a71ce7751b8cde40d77f31
-ms.sourcegitcommit: b3cd4f8da4b864b602b16d625cd7afe99c131ff8
+ms.openlocfilehash: f986fb232f1aee3a5c4ce7876739d211afc567eb
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "2974933"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3979055"
 ---
 # <a name="sped-fiscal-icms-ipi-layout-014"></a>SPED fiscal ICMS-IPI layout 014 
 

@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: PJacobse
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: v-olbara
+ms.author: kamaybac
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 49e0ef1b3020cd1236203c0f243f145dd7a7c10d
-ms.sourcegitcommit: 137e2bd30f0a85bd2e1baf1cf16b993edd2094f9
+ms.openlocfilehash: e3b04eea7bd7dd689f8a918820ffdb4a72d813dc
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "3546408"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986014"
 ---
 # <a name="set-up-and-use-wave-label-printing"></a>Configurar e usar a impressão de etiquetas de onda
 
@@ -84,7 +84,7 @@ Os modelos de onda permitem vincular instâncias específicas de métodos de ond
 
 1. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
 1. Selecione um modelo, como **Padrão de Remessa 62**.
-1. Na FastTab **Métodos**, mova o método ***Impressão de etiquetas de onda** para a coluna **Métodos selecionados**.
+1. Na FastTab **Métodos**, mova o método **Impressão de etiquetas de onda** para a coluna **Métodos selecionados**.
 1. Na coluna **Métodos selecionados**, selecione o método **Impressão de etiquetas de onda** e defina seu campo **Código da etapa da onda** como *PrintLabel*. Para obter mais informações sobre códigos da etapa da onda, consulte [Códigos da etapa da onda](wave-step-codes.md).
 
 ### <a name="create-a-wave-label-layout"></a>Criar um layout de etiqueta de onda
@@ -345,7 +345,7 @@ Os modelos de onda permitem vincular instâncias específicas de métodos de ond
 
 1. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
 1. Selecione um modelo, como **Transporte em Contêineres 63**.
-1. Na FastTab **Métodos**, mova o método ***Impressão de etiquetas de onda** para a coluna **Métodos selecionados**.
+1. Na FastTab **Métodos**, mova o método **Impressão de etiquetas de onda** para a coluna **Métodos selecionados**.
 1. Na coluna **Métodos selecionados**, selecione o método **Impressão de etiquetas de onda** e defina seu campo **Código da etapa da onda** como *PrintLabel*. Para obter mais informações sobre códigos da etapa da onda, consulte [Códigos da etapa da onda](wave-step-codes.md).
 
 ### <a name="create-a-wave-label-layout"></a>Criar um layout de etiqueta de onda
@@ -533,7 +533,7 @@ Para seguir este cenário, você deve ter dados de demonstração instalados e d
 
 1. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
 2. Selecione um modelo, como **Padrão de Remessa 62**.
-3. Na FastTab **Métodos**, mova o método ***Impressão de etiquetas de onda** para a coluna **Métodos selecionados**.
+3. Na FastTab **Métodos**, mova o método **Impressão de etiquetas de onda** para a coluna **Métodos selecionados**.
 4. Na coluna **Métodos selecionados**, atribua um valor de **Código da etapa da onda**, como *Caixa*, ao método **Impressão de etiquetas de onda**. Para obter mais informações sobre códigos da etapa da onda, consulte [Códigos da etapa da onda](wave-step-codes.md).
 5. Mova o método **Impressão de etiquetas de onda** para a coluna **Métodos selecionados** novamente.
 6. Na coluna **Métodos selecionados**, atribua um valor diferente de **Código da etapa da onda**, como *Palete*, ao segundo método **Impressão de etiquetas de onda**. Para obter mais informações sobre códigos da etapa da onda, consulte [Códigos da etapa da onda](wave-step-codes.md).
