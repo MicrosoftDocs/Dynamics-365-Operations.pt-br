@@ -16,35 +16,35 @@ ms.custom: 19211
 ms.assetid: fe08c2e6-9cc5-4e34-bbb2-cd07843403b5
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: roxanad
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 380f8069a726e53084164a5ac1fc0a0a99c83590
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 482c036294f525be5db1dc6efefe76a9ba5b3ce5
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213736"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3983686"
 ---
-# <a name="explosion-of-a-bom-version"></a><span data-ttu-id="66db3-103">Detalhamento de uma versão da BOM</span><span class="sxs-lookup"><span data-stu-id="66db3-103">Explosion of a BOM version</span></span>
+# <a name="explosion-of-a-bom-version"></a><span data-ttu-id="50133-103">Detalhamento de uma versão da BOM</span><span class="sxs-lookup"><span data-stu-id="50133-103">Explosion of a BOM version</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="66db3-104">Este artigo explica um cenário de planejamento mestre que envolve detalhamento de uma versão da lista de materiais (BOM).</span><span class="sxs-lookup"><span data-stu-id="66db3-104">This article explains a master planning scenario that involves explosion of a bill of materials (BOM) version.</span></span>
+<span data-ttu-id="50133-104">Este artigo explica um cenário de planejamento mestre que envolve detalhamento de uma versão da lista de materiais (BOM).</span><span class="sxs-lookup"><span data-stu-id="50133-104">This article explains a master planning scenario that involves explosion of a bill of materials (BOM) version.</span></span>
 
-<span data-ttu-id="66db3-105">Um detalhamento da demanda de uma versão da lista de materiais (BOM) cria uma demanda para cada item de linha da BOM em um site específico e, possivelmente, em um depósito específico.</span><span class="sxs-lookup"><span data-stu-id="66db3-105">A demand explosion of a bill of materials (BOM) version creates a demand for each BOM line item at a specific site and, possibly, at a specific warehouse.</span></span> <span data-ttu-id="66db3-106">Em uma BOM específica do site, um determinado depósito pode ser definido para cada linha de BOM.</span><span class="sxs-lookup"><span data-stu-id="66db3-106">In a site-specific BOM, a specific warehouse can be defined for each BOM line.</span></span> <span data-ttu-id="66db3-107">Além disso, para cada linha de BOM, as configurações de dimensão do item determinam se o depósito é necessário.</span><span class="sxs-lookup"><span data-stu-id="66db3-107">Additionally, for each BOM line, the item's dimension settings determine whether the warehouse is required.</span></span> <span data-ttu-id="66db3-108">A demanda resultante para cada item de linha de BOM se torna, então, o ponto de partida para detalhamento de demanda adicional.</span><span class="sxs-lookup"><span data-stu-id="66db3-108">The resulting demand for each BOM line item then becomes the starting point for additional demand explosion.</span></span> <span data-ttu-id="66db3-109">Este cenário de planejamento mestre envolve estas condições:</span><span class="sxs-lookup"><span data-stu-id="66db3-109">This master planning scenario involves the following conditions:</span></span>
+<span data-ttu-id="50133-105">Um detalhamento da demanda de uma versão da lista de materiais (BOM) cria uma demanda para cada item de linha da BOM em um site específico e, possivelmente, em um depósito específico.</span><span class="sxs-lookup"><span data-stu-id="50133-105">A demand explosion of a bill of materials (BOM) version creates a demand for each BOM line item at a specific site and, possibly, at a specific warehouse.</span></span> <span data-ttu-id="50133-106">Em uma BOM específica do site, um determinado depósito pode ser definido para cada linha de BOM.</span><span class="sxs-lookup"><span data-stu-id="50133-106">In a site-specific BOM, a specific warehouse can be defined for each BOM line.</span></span> <span data-ttu-id="50133-107">Além disso, para cada linha de BOM, as configurações de dimensão do item determinam se o depósito é necessário.</span><span class="sxs-lookup"><span data-stu-id="50133-107">Additionally, for each BOM line, the item's dimension settings determine whether the warehouse is required.</span></span> <span data-ttu-id="50133-108">A demanda resultante para cada item de linha de BOM se torna, então, o ponto de partida para detalhamento de demanda adicional.</span><span class="sxs-lookup"><span data-stu-id="50133-108">The resulting demand for each BOM line item then becomes the starting point for additional demand explosion.</span></span> <span data-ttu-id="50133-109">Este cenário de planejamento mestre envolve estas condições:</span><span class="sxs-lookup"><span data-stu-id="50133-109">This master planning scenario involves the following conditions:</span></span>
 
--   <span data-ttu-id="66db3-110">A dimensão do site é obrigatória e deve ser inserida na transação de demanda.</span><span class="sxs-lookup"><span data-stu-id="66db3-110">The site dimension is mandatory and must be entered on the demand transaction.</span></span>
--   <span data-ttu-id="66db3-111">A dimensão do site é consistente.</span><span class="sxs-lookup"><span data-stu-id="66db3-111">The site dimension is consistent.</span></span> <span data-ttu-id="66db3-112">Portanto, o site para demanda de nível inferior é o mesmo site na transação de demanda inicial.</span><span class="sxs-lookup"><span data-stu-id="66db3-112">Therefore, the site for lower-level demand is the same as the site on the initial demand transaction.</span></span>
+-   <span data-ttu-id="50133-110">A dimensão do site é obrigatória e deve ser inserida na transação de demanda.</span><span class="sxs-lookup"><span data-stu-id="50133-110">The site dimension is mandatory and must be entered on the demand transaction.</span></span>
+-   <span data-ttu-id="50133-111">A dimensão do site é consistente.</span><span class="sxs-lookup"><span data-stu-id="50133-111">The site dimension is consistent.</span></span> <span data-ttu-id="50133-112">Portanto, o site para demanda de nível inferior é o mesmo site na transação de demanda inicial.</span><span class="sxs-lookup"><span data-stu-id="50133-112">Therefore, the site for lower-level demand is the same as the site on the initial demand transaction.</span></span>
 
-<span data-ttu-id="66db3-113">A ilustração a seguir mostra como ocorre o processo de detalhamento da demanda do planejamento mestre.</span><span class="sxs-lookup"><span data-stu-id="66db3-113">The following illustration shows how the process for master planning demand explosion.</span></span> ![Explosão de demanda usando a versão da BOM](./media/multisitedemandexplosionscenariousingbomversion.gif)
+<span data-ttu-id="50133-113">A ilustração a seguir mostra como ocorre o processo de detalhamento da demanda do planejamento mestre.</span><span class="sxs-lookup"><span data-stu-id="50133-113">The following illustration shows how the process for master planning demand explosion.</span></span> ![Explosão de demanda usando a versão da BOM](./media/multisitedemandexplosionscenariousingbomversion.gif)
 
-<a name="additional-resources"></a><span data-ttu-id="66db3-115">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="66db3-115">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="50133-115">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="50133-115">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="66db3-116">Determinar a versão da BOM</span><span class="sxs-lookup"><span data-stu-id="66db3-116">Determine the BOM version</span></span>](master-plan-bom-version-determined.md)
+[<span data-ttu-id="50133-116">Determinar a versão da BOM</span><span class="sxs-lookup"><span data-stu-id="50133-116">Determine the BOM version</span></span>](master-plan-bom-version-determined.md)
 
-[<span data-ttu-id="66db3-117">Visão geral de planejamento mestre e funcionalidade multissite</span><span class="sxs-lookup"><span data-stu-id="66db3-117">Master planning and multisite functionality overview</span></span>](master-plan-multisite-functionality.md)
+[<span data-ttu-id="50133-117">Visão geral de planejamento mestre e funcionalidade multissite</span><span class="sxs-lookup"><span data-stu-id="50133-117">Master planning and multisite functionality overview</span></span>](master-plan-multisite-functionality.md)
 
 
 
