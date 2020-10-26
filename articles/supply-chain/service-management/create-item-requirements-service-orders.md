@@ -15,59 +15,59 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c5ca3c1e74c642de117c708c039614da9e0ec15
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 18484b637723cef43cad288c08ddfe53cddf9e03
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202850"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3978474"
 ---
-# <a name="create-item-requirements-for-service-orders"></a><span data-ttu-id="ef5a0-103">Criar requisições de itens para ordens de serviço</span><span class="sxs-lookup"><span data-stu-id="ef5a0-103">Create item requirements for service orders</span></span> 
+# <a name="create-item-requirements-for-service-orders"></a><span data-ttu-id="30e4e-103">Criar requisições de itens para ordens de serviço</span><span class="sxs-lookup"><span data-stu-id="30e4e-103">Create item requirements for service orders</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="ef5a0-104">Você pode criar uma ordem de serviço para rastrear e gerenciar os serviços que você presta para seus clientes.</span><span class="sxs-lookup"><span data-stu-id="ef5a0-104">You can create a service order to track and manage services that you provide to your customers.</span></span> <span data-ttu-id="ef5a0-105">Caso seja necessário reservar itens específicos para uma ordem de serviço, você poderá criar requisições de item de estoque para ele.</span><span class="sxs-lookup"><span data-stu-id="ef5a0-105">If you need to reserve specific items for a service order, you can create inventory item requirements for it.</span></span> <span data-ttu-id="ef5a0-106">Uma requisição de item pode ser consumida imediatamente do estoque ou pode iniciar uma ordem de produção do item.</span><span class="sxs-lookup"><span data-stu-id="ef5a0-106">An item requirement can be immediately consumed from inventory, or it can initiate a production order for the item.</span></span>
+<span data-ttu-id="30e4e-104">Você pode criar uma ordem de serviço para rastrear e gerenciar os serviços que você presta para seus clientes.</span><span class="sxs-lookup"><span data-stu-id="30e4e-104">You can create a service order to track and manage services that you provide to your customers.</span></span> <span data-ttu-id="30e4e-105">Caso seja necessário reservar itens específicos para uma ordem de serviço, você poderá criar requisições de item de estoque para ele.</span><span class="sxs-lookup"><span data-stu-id="30e4e-105">If you need to reserve specific items for a service order, you can create inventory item requirements for it.</span></span> <span data-ttu-id="30e4e-106">Uma requisição de item pode ser consumida imediatamente do estoque ou pode iniciar uma ordem de produção do item.</span><span class="sxs-lookup"><span data-stu-id="30e4e-106">An item requirement can be immediately consumed from inventory, or it can initiate a production order for the item.</span></span>
 
-<span data-ttu-id="ef5a0-107">Usando uma requisição em vez de uma transação de itens, é possível planejar que entrega ocorra antes do item ser efetivamente usado, criar uma ordem de compra, incluir o item na estrutura do acordo comercial e incluir a requisição do item no planejamento da produção.</span><span class="sxs-lookup"><span data-stu-id="ef5a0-107">By using an item requirement instead of an item transaction, you can plan for delivery just before the item is actually used, create a purchase order, include the item in the trade-agreement framework, and include the item requirement in production planning.</span></span>
+<span data-ttu-id="30e4e-107">Usando uma requisição em vez de uma transação de itens, é possível planejar que entrega ocorra antes do item ser efetivamente usado, criar uma ordem de compra, incluir o item na estrutura do acordo comercial e incluir a requisição do item no planejamento da produção.</span><span class="sxs-lookup"><span data-stu-id="30e4e-107">By using an item requirement instead of an item transaction, you can plan for delivery just before the item is actually used, create a purchase order, include the item in the trade-agreement framework, and include the item requirement in production planning.</span></span>
 
-<span data-ttu-id="ef5a0-108">As requisições de itens para ordens de serviço são processadas através de um projeto.</span><span class="sxs-lookup"><span data-stu-id="ef5a0-108">Item requirements for service orders are processed through a project.</span></span> <span data-ttu-id="ef5a0-109">Para criar uma requisição de item em uma ordem de serviço, a ordem de serviço deverá ser atribuída a um projeto.</span><span class="sxs-lookup"><span data-stu-id="ef5a0-109">To create an item requirement on a service order, the service order must be assigned to a project.</span></span> <span data-ttu-id="ef5a0-110">Depois de criar uma requisição de item para uma ordem de serviço, você poderá exibir a requisição de item no formulário **Projetos** do projeto selecionado.</span><span class="sxs-lookup"><span data-stu-id="ef5a0-110">After you create an item requirement for a service order, you can view the item requirement in the **Projects** form for the selected project.</span></span>
+<span data-ttu-id="30e4e-108">As requisições de itens para ordens de serviço são processadas através de um projeto.</span><span class="sxs-lookup"><span data-stu-id="30e4e-108">Item requirements for service orders are processed through a project.</span></span> <span data-ttu-id="30e4e-109">Para criar uma requisição de item em uma ordem de serviço, a ordem de serviço deverá ser atribuída a um projeto.</span><span class="sxs-lookup"><span data-stu-id="30e4e-109">To create an item requirement on a service order, the service order must be assigned to a project.</span></span> <span data-ttu-id="30e4e-110">Depois de criar uma requisição de item para uma ordem de serviço, você poderá exibir a requisição de item no formulário **Projetos** do projeto selecionado.</span><span class="sxs-lookup"><span data-stu-id="30e4e-110">After you create an item requirement for a service order, you can view the item requirement in the **Projects** form for the selected project.</span></span>
 
-## <a name="create-an-item-requirement-for-a-service-order"></a><span data-ttu-id="ef5a0-111">Criar uma requisição de itens para uma ordem de serviço</span><span class="sxs-lookup"><span data-stu-id="ef5a0-111">Create an item requirement for a service order</span></span>
+## <a name="create-an-item-requirement-for-a-service-order"></a><span data-ttu-id="30e4e-111">Criar uma requisição de itens para uma ordem de serviço</span><span class="sxs-lookup"><span data-stu-id="30e4e-111">Create an item requirement for a service order</span></span>
 
-1.  <span data-ttu-id="ef5a0-112">Clique em **Gerenciamento de serviços** \> **Comum** \> **Ordens de serviço** \> **Ordens de serviço**.</span><span class="sxs-lookup"><span data-stu-id="ef5a0-112">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="30e4e-112">Clique em **Gerenciamento de serviços** \> **Comum** \> **Ordens de serviço** \> **Ordens de serviço**.</span><span class="sxs-lookup"><span data-stu-id="30e4e-112">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="ef5a0-113">Selecione a ordem de serviço para a qual você deseja criar uma requisição de item.</span><span class="sxs-lookup"><span data-stu-id="ef5a0-113">Select the service order that you want to create an item requirement for.</span></span>
+2.  <span data-ttu-id="30e4e-113">Selecione a ordem de serviço para a qual você deseja criar uma requisição de item.</span><span class="sxs-lookup"><span data-stu-id="30e4e-113">Select the service order that you want to create an item requirement for.</span></span>
 
-3.  <span data-ttu-id="ef5a0-114">No **Painel de Ação**, na guia **Expedição**, clique em **Requisição de itens**.</span><span class="sxs-lookup"><span data-stu-id="ef5a0-114">On the **Action Pane**, on the **Dispatch** tab, click **Item requirement**.</span></span>
+3.  <span data-ttu-id="30e4e-114">No **Painel de Ação**, na guia **Expedição**, clique em **Requisição de itens**.</span><span class="sxs-lookup"><span data-stu-id="30e4e-114">On the **Action Pane**, on the **Dispatch** tab, click **Item requirement**.</span></span>
 
-4.  <span data-ttu-id="ef5a0-115">No formulário **Requisição de itens**, insira informações sobre o item requisitado.</span><span class="sxs-lookup"><span data-stu-id="ef5a0-115">In the **Item requirements** form, enter information for the required item.</span></span> <span data-ttu-id="ef5a0-116">Para obter informações sobre os campos específicos, consulte [Requisição de itens (formulário)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).</span><span class="sxs-lookup"><span data-stu-id="ef5a0-116">For more information about the specific fields, see [Item requirements (form)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).</span></span>
+4.  <span data-ttu-id="30e4e-115">No formulário **Requisição de itens**, insira informações sobre o item requisitado.</span><span class="sxs-lookup"><span data-stu-id="30e4e-115">In the **Item requirements** form, enter information for the required item.</span></span> <span data-ttu-id="30e4e-116">Para obter informações sobre os campos específicos, consulte [Requisição de itens (formulário)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).</span><span class="sxs-lookup"><span data-stu-id="30e4e-116">For more information about the specific fields, see [Item requirements (form)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).</span></span>
 
-## <a name="create-an-item-requirement-for-a-service-agreement"></a><span data-ttu-id="ef5a0-117">Criar uma requisição de item para um contrato de serviço</span><span class="sxs-lookup"><span data-stu-id="ef5a0-117">Create an item requirement for a service agreement</span></span>
+## <a name="create-an-item-requirement-for-a-service-agreement"></a><span data-ttu-id="30e4e-117">Criar uma requisição de item para um contrato de serviço</span><span class="sxs-lookup"><span data-stu-id="30e4e-117">Create an item requirement for a service agreement</span></span>
 
-1.  <span data-ttu-id="ef5a0-118">Clique em **Gerenciamento de serviços** \> **Comum** \> **Contratos de serviço** \> **Contratos de serviço**.</span><span class="sxs-lookup"><span data-stu-id="ef5a0-118">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
+1.  <span data-ttu-id="30e4e-118">Clique em **Gerenciamento de serviços** \> **Comum** \> **Contratos de serviço** \> **Contratos de serviço**.</span><span class="sxs-lookup"><span data-stu-id="30e4e-118">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
 
-2.  <span data-ttu-id="ef5a0-119">Abra o contrato de serviço para o qual você deseja criar uma requisição de item.</span><span class="sxs-lookup"><span data-stu-id="ef5a0-119">Open the service agreement for which you want to create an item requirement.</span></span>
+2.  <span data-ttu-id="30e4e-119">Abra o contrato de serviço para o qual você deseja criar uma requisição de item.</span><span class="sxs-lookup"><span data-stu-id="30e4e-119">Open the service agreement for which you want to create an item requirement.</span></span>
 
-3.  <span data-ttu-id="ef5a0-120">Na Guia Rápida **Linhas**, clique em **Adicionar** para criar uma nova linha.</span><span class="sxs-lookup"><span data-stu-id="ef5a0-120">On the **Lines** FastTab, click **Add** to create a new line.</span></span>
+3.  <span data-ttu-id="30e4e-120">Na Guia Rápida **Linhas**, clique em **Adicionar** para criar uma nova linha.</span><span class="sxs-lookup"><span data-stu-id="30e4e-120">On the **Lines** FastTab, click **Add** to create a new line.</span></span>
 
-4.  <span data-ttu-id="ef5a0-121">No campo **Tipo de transação**, selecione **Item**.</span><span class="sxs-lookup"><span data-stu-id="ef5a0-121">In the **Transaction type** field, select **Item**.</span></span>
+4.  <span data-ttu-id="30e4e-121">No campo **Tipo de transação**, selecione **Item**.</span><span class="sxs-lookup"><span data-stu-id="30e4e-121">In the **Transaction type** field, select **Item**.</span></span>
 
-5.  <span data-ttu-id="ef5a0-122">No campo **Configuração de item**, selecione **Requisição de itens**.</span><span class="sxs-lookup"><span data-stu-id="ef5a0-122">In the **Item setup** field, select **Item requirement**.</span></span>
+5.  <span data-ttu-id="30e4e-122">No campo **Configuração de item**, selecione **Requisição de itens**.</span><span class="sxs-lookup"><span data-stu-id="30e4e-122">In the **Item setup** field, select **Item requirement**.</span></span>
 
-6.  <span data-ttu-id="ef5a0-123">No campo **Número de item**, selecione o item necessário ao contrato de serviço.</span><span class="sxs-lookup"><span data-stu-id="ef5a0-123">In the **Item number** field, select the item that is required for the service agreement.</span></span>
+6.  <span data-ttu-id="30e4e-123">No campo **Número de item**, selecione o item necessário ao contrato de serviço.</span><span class="sxs-lookup"><span data-stu-id="30e4e-123">In the **Item number** field, select the item that is required for the service agreement.</span></span>
 
-7.  <span data-ttu-id="ef5a0-124">Na Guia Rápida **Detalhes de linha**, na guia **Dimensões de produto**, no campo **Local**, selecione o local de estoque do item.</span><span class="sxs-lookup"><span data-stu-id="ef5a0-124">On the **Line details** FastTab, on the **Product dimensions** tab, in the **Site** field, select the inventory site for the item.</span></span>
+7.  <span data-ttu-id="30e4e-124">Na Guia Rápida **Detalhes de linha**, na guia **Dimensões de produto**, no campo **Local**, selecione o local de estoque do item.</span><span class="sxs-lookup"><span data-stu-id="30e4e-124">On the **Line details** FastTab, on the **Product dimensions** tab, in the **Site** field, select the inventory site for the item.</span></span>
 
-8.  <span data-ttu-id="ef5a0-125">Para criar uma ordem de serviço da linha do contrato, na Guia Rápida **Linhas**, clique em **Criar ordens de serviço**, e insira as informações relevantes ao formulário **Criar ordens de serviço**.</span><span class="sxs-lookup"><span data-stu-id="ef5a0-125">To create a service order from the agreement line, on the **Lines** FastTab, click **Create service orders**, and then enter the relevant information in the **Create service orders** form.</span></span> 
+8.  <span data-ttu-id="30e4e-125">Para criar uma ordem de serviço da linha do contrato, na Guia Rápida **Linhas**, clique em **Criar ordens de serviço**, e insira as informações relevantes ao formulário **Criar ordens de serviço**.</span><span class="sxs-lookup"><span data-stu-id="30e4e-125">To create a service order from the agreement line, on the **Lines** FastTab, click **Create service orders**, and then enter the relevant information in the **Create service orders** form.</span></span> 
 
 
-## <a name="see-also"></a><span data-ttu-id="ef5a0-126">Consulte também</span><span class="sxs-lookup"><span data-stu-id="ef5a0-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="30e4e-126">Consulte também</span><span class="sxs-lookup"><span data-stu-id="30e4e-126">See also</span></span>
 
-<span data-ttu-id="ef5a0-127">[Criar ordens de serviço automaticamente](create-service-orders-automatically.md).</span><span class="sxs-lookup"><span data-stu-id="ef5a0-127">[Create service orders automatically](create-service-orders-automatically.md).</span></span>
+<span data-ttu-id="30e4e-127">[Criar ordens de serviço automaticamente](create-service-orders-automatically.md).</span><span class="sxs-lookup"><span data-stu-id="30e4e-127">[Create service orders automatically](create-service-orders-automatically.md).</span></span>
 
   
 

@@ -15,32 +15,32 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 234d430d75611dc777bb03fff1070f2a8c78ea6f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 4957d9a80ecb98b647ca73dfddc35cd450c6160e
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211735"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975695"
 ---
-# <a name="receive-returned-items"></a><span data-ttu-id="583fc-103">Receber itens devolvidos</span><span class="sxs-lookup"><span data-stu-id="583fc-103">Receive returned items</span></span> 
+# <a name="receive-returned-items"></a><span data-ttu-id="4e314-103">Receber itens devolvidos</span><span class="sxs-lookup"><span data-stu-id="4e314-103">Receive returned items</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="583fc-104">Quando uma remessa de devolução chega, você deve conciliá-la a uma ordem de devolução já criada.</span><span class="sxs-lookup"><span data-stu-id="583fc-104">When a return shipment arrives, you match it to a return order that has already been created.</span></span>
+<span data-ttu-id="4e314-104">Quando uma remessa de devolução chega, você deve conciliá-la a uma ordem de devolução já criada.</span><span class="sxs-lookup"><span data-stu-id="4e314-104">When a return shipment arrives, you match it to a return order that has already been created.</span></span>
 
-<span data-ttu-id="583fc-105">Dependendo das políticas da empresa, os itens na remessa de devolução podem ser enviados para quarentena para inspeção adicional ou podem ser devolvidos ao estoque.</span><span class="sxs-lookup"><span data-stu-id="583fc-105">Depending on company policies, the items in the return shipment can be sent to quarantine for additional inspection or they can be returned to inventory.</span></span>
+<span data-ttu-id="4e314-105">Dependendo das políticas da empresa, os itens na remessa de devolução podem ser enviados para quarentena para inspeção adicional ou podem ser devolvidos ao estoque.</span><span class="sxs-lookup"><span data-stu-id="4e314-105">Depending on company policies, the items in the return shipment can be sent to quarantine for additional inspection or they can be returned to inventory.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="583fc-106">Consulte também</span><span class="sxs-lookup"><span data-stu-id="583fc-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4e314-106">Consulte também</span><span class="sxs-lookup"><span data-stu-id="4e314-106">See also</span></span>
 
-[<span data-ttu-id="583fc-107">Registrar o recebimento de itens devolvidos</span><span class="sxs-lookup"><span data-stu-id="583fc-107">Register the receipt of returned items</span></span>](register-the-receipt-of-returned-items.md)
+[<span data-ttu-id="4e314-107">Registrar o recebimento de itens devolvidos</span><span class="sxs-lookup"><span data-stu-id="4e314-107">Register the receipt of returned items</span></span>](register-the-receipt-of-returned-items.md)
 
-[<span data-ttu-id="583fc-108">Lançar diário de entrada para produtos devolvidos</span><span class="sxs-lookup"><span data-stu-id="583fc-108">Post arrival journal for returned products</span></span>](post-arrival-journal-for-returned-products.md)
+[<span data-ttu-id="4e314-108">Lançar diário de entrada para produtos devolvidos</span><span class="sxs-lookup"><span data-stu-id="4e314-108">Post arrival journal for returned products</span></span>](post-arrival-journal-for-returned-products.md)
 
-[<span data-ttu-id="583fc-109">Submeter itens devolvidos à inspeção</span><span class="sxs-lookup"><span data-stu-id="583fc-109">Take returned items through inspection</span></span>](take-returned-items-through-inspection.md)
+[<span data-ttu-id="4e314-109">Submeter itens devolvidos à inspeção</span><span class="sxs-lookup"><span data-stu-id="4e314-109">Take returned items through inspection</span></span>](take-returned-items-through-inspection.md)
 
   
 

@@ -13,43 +13,43 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8cc44876938074e72526e75f0df5c119cbcfd845
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d8b9d5712dd1b4f9958de775e1a2224b64485d05
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213414"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3987205"
 ---
-# <a name="generate-a-constrained-plan"></a><span data-ttu-id="8be76-103">Gerar um plano restrito</span><span class="sxs-lookup"><span data-stu-id="8be76-103">Generate a constrained plan</span></span>
+# <a name="generate-a-constrained-plan"></a><span data-ttu-id="bcd0d-103">Gerar um plano restrito</span><span class="sxs-lookup"><span data-stu-id="bcd0d-103">Generate a constrained plan</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="8be76-104">Este tópico explica como criar um plano que leve em consideração restrições de materiais e de capacidade.</span><span class="sxs-lookup"><span data-stu-id="8be76-104">This topic explains how to create a plan that takes into account both material and capacity constraints.</span></span> <span data-ttu-id="8be76-105">O plano garante que a fabricação não seja iniciada antes dos materiais estarem disponíveis e os recursos e não estarem reservados.</span><span class="sxs-lookup"><span data-stu-id="8be76-105">The plan ensures that manufacturing doesn't start before materials are available and resources are not overbooked.</span></span> 
+<span data-ttu-id="bcd0d-104">Este tópico explica como criar um plano que leve em consideração restrições de materiais e de capacidade.</span><span class="sxs-lookup"><span data-stu-id="bcd0d-104">This topic explains how to create a plan that takes into account both material and capacity constraints.</span></span> <span data-ttu-id="bcd0d-105">O plano garante que a fabricação não seja iniciada antes dos materiais estarem disponíveis e os recursos e não estarem reservados.</span><span class="sxs-lookup"><span data-stu-id="bcd0d-105">The plan ensures that manufacturing doesn't start before materials are available and resources are not overbooked.</span></span> 
 
-<span data-ttu-id="8be76-106">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="8be76-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="8be76-107">Esse procedimento é criado para o planejador de produção.</span><span class="sxs-lookup"><span data-stu-id="8be76-107">This procedure is intended for the production planner.</span></span>
+<span data-ttu-id="bcd0d-106">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="bcd0d-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="bcd0d-107">Esse procedimento é criado para o planejador de produção.</span><span class="sxs-lookup"><span data-stu-id="bcd0d-107">This procedure is intended for the production planner.</span></span>
 
 
-## <a name="set-up-a-constrained-plan"></a><span data-ttu-id="8be76-108">Configurar um plano restrito</span><span class="sxs-lookup"><span data-stu-id="8be76-108">Set up a constrained plan</span></span>
-1. <span data-ttu-id="8be76-109">Na página inicial, selecione o espaço de trabalho **Planejamento mestre**.</span><span class="sxs-lookup"><span data-stu-id="8be76-109">In the home page, select the **Master planning** workspace.</span></span>
-2. <span data-ttu-id="8be76-110">Selecione **Planos mestres** na lista de links no lado direito da área de trabalho.</span><span class="sxs-lookup"><span data-stu-id="8be76-110">Select **Master plans** in the list of links on the far right side of the workspace.</span></span>
-3. <span data-ttu-id="8be76-111">Na lista, localize e selecione o registro desejado.</span><span class="sxs-lookup"><span data-stu-id="8be76-111">In the list, find and select the desired record.</span></span> <span data-ttu-id="8be76-112">Exemplo: **StaticPlan**</span><span class="sxs-lookup"><span data-stu-id="8be76-112">Example: **StaticPlan**</span></span>  
-4. <span data-ttu-id="8be76-113">Selecione **Sim** no campo **Capacidade finita**.</span><span class="sxs-lookup"><span data-stu-id="8be76-113">Select **Yes** in the **Finite capacity** field.</span></span>
-5. <span data-ttu-id="8be76-114">No campo **Limite de tempo de capacidade finita**, insira `30`.</span><span class="sxs-lookup"><span data-stu-id="8be76-114">In the **Finite capacity time fence** field, enter `30`.</span></span>
-6. <span data-ttu-id="8be76-115">Expanda a seção **Limites de tempo em dias**.</span><span class="sxs-lookup"><span data-stu-id="8be76-115">Expand the **Time fences in days** section.</span></span>
-7. <span data-ttu-id="8be76-116">Selecione **Sim** no campo **Capacidade**.</span><span class="sxs-lookup"><span data-stu-id="8be76-116">Select **Yes** in the **Capacity** field.</span></span>
-8. <span data-ttu-id="8be76-117">No campo **Limite de tempo de agendamento de capacidade (dias)**, insira um número.</span><span class="sxs-lookup"><span data-stu-id="8be76-117">In the **Capacity scheduling time fence (days)** field, enter a number.</span></span> <span data-ttu-id="8be76-118">Exemplo: `60`</span><span class="sxs-lookup"><span data-stu-id="8be76-118">Example: `60`</span></span>  
-9. <span data-ttu-id="8be76-119">Selecione **Sim** no campo **Atrasos calculados**.</span><span class="sxs-lookup"><span data-stu-id="8be76-119">Select **Yes** in the **Calculated delays** field.</span></span>
-10. <span data-ttu-id="8be76-120">No campo **Calcular limite de tempo para atrasos (dias)**, insira um número.</span><span class="sxs-lookup"><span data-stu-id="8be76-120">In the **Calculate delays time fence (days)** field, enter a number.</span></span> <span data-ttu-id="8be76-121">Exemplo: `60`</span><span class="sxs-lookup"><span data-stu-id="8be76-121">Example: `60`</span></span> 
-11. <span data-ttu-id="8be76-122">Expanda a seção **Atrasos calculados**.</span><span class="sxs-lookup"><span data-stu-id="8be76-122">Expand the **Calculated delays** section.</span></span>
-12. <span data-ttu-id="8be76-123">Selecione **Sim** em todos os campos **Adicionar o atraso calculado à data da requisição**.</span><span class="sxs-lookup"><span data-stu-id="8be76-123">Select **Yes** in all **Add the calculated delay to the requirement date** fields.</span></span>
-13. <span data-ttu-id="8be76-124">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="8be76-124">Close the page.</span></span>
+## <a name="set-up-a-constrained-plan"></a><span data-ttu-id="bcd0d-108">Configurar um plano restrito</span><span class="sxs-lookup"><span data-stu-id="bcd0d-108">Set up a constrained plan</span></span>
+1. <span data-ttu-id="bcd0d-109">Na página inicial, selecione o espaço de trabalho **Planejamento mestre**.</span><span class="sxs-lookup"><span data-stu-id="bcd0d-109">In the home page, select the **Master planning** workspace.</span></span>
+2. <span data-ttu-id="bcd0d-110">Selecione **Planos mestres** na lista de links no lado direito da área de trabalho.</span><span class="sxs-lookup"><span data-stu-id="bcd0d-110">Select **Master plans** in the list of links on the far right side of the workspace.</span></span>
+3. <span data-ttu-id="bcd0d-111">Na lista, localize e selecione o registro desejado.</span><span class="sxs-lookup"><span data-stu-id="bcd0d-111">In the list, find and select the desired record.</span></span> <span data-ttu-id="bcd0d-112">Exemplo: **StaticPlan**</span><span class="sxs-lookup"><span data-stu-id="bcd0d-112">Example: **StaticPlan**</span></span>  
+4. <span data-ttu-id="bcd0d-113">Selecione **Sim** no campo **Capacidade finita**.</span><span class="sxs-lookup"><span data-stu-id="bcd0d-113">Select **Yes** in the **Finite capacity** field.</span></span>
+5. <span data-ttu-id="bcd0d-114">No campo **Limite de tempo de capacidade finita**, insira `30`.</span><span class="sxs-lookup"><span data-stu-id="bcd0d-114">In the **Finite capacity time fence** field, enter `30`.</span></span>
+6. <span data-ttu-id="bcd0d-115">Expanda a seção **Limites de tempo em dias**.</span><span class="sxs-lookup"><span data-stu-id="bcd0d-115">Expand the **Time fences in days** section.</span></span>
+7. <span data-ttu-id="bcd0d-116">Selecione **Sim** no campo **Capacidade**.</span><span class="sxs-lookup"><span data-stu-id="bcd0d-116">Select **Yes** in the **Capacity** field.</span></span>
+8. <span data-ttu-id="bcd0d-117">No campo **Limite de tempo de agendamento de capacidade (dias)**, insira um número.</span><span class="sxs-lookup"><span data-stu-id="bcd0d-117">In the **Capacity scheduling time fence (days)** field, enter a number.</span></span> <span data-ttu-id="bcd0d-118">Exemplo: `60`</span><span class="sxs-lookup"><span data-stu-id="bcd0d-118">Example: `60`</span></span>  
+9. <span data-ttu-id="bcd0d-119">Selecione **Sim** no campo **Atrasos calculados**.</span><span class="sxs-lookup"><span data-stu-id="bcd0d-119">Select **Yes** in the **Calculated delays** field.</span></span>
+10. <span data-ttu-id="bcd0d-120">No campo **Calcular limite de tempo para atrasos (dias)**, insira um número.</span><span class="sxs-lookup"><span data-stu-id="bcd0d-120">In the **Calculate delays time fence (days)** field, enter a number.</span></span> <span data-ttu-id="bcd0d-121">Exemplo: `60`</span><span class="sxs-lookup"><span data-stu-id="bcd0d-121">Example: `60`</span></span> 
+11. <span data-ttu-id="bcd0d-122">Expanda a seção **Atrasos calculados**.</span><span class="sxs-lookup"><span data-stu-id="bcd0d-122">Expand the **Calculated delays** section.</span></span>
+12. <span data-ttu-id="bcd0d-123">Selecione **Sim** em todos os campos **Adicionar o atraso calculado à data da requisição**.</span><span class="sxs-lookup"><span data-stu-id="bcd0d-123">Select **Yes** in all **Add the calculated delay to the requirement date** fields.</span></span>
+13. <span data-ttu-id="bcd0d-124">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="bcd0d-124">Close the page.</span></span>
 
-## <a name="create-a-constrained-plan"></a><span data-ttu-id="8be76-125">Criar um plano restrito</span><span class="sxs-lookup"><span data-stu-id="8be76-125">Create a constrained plan</span></span>
-1. <span data-ttu-id="8be76-126">Selecione **Executar**.</span><span class="sxs-lookup"><span data-stu-id="8be76-126">Select **Run**.</span></span>
-2. <span data-ttu-id="8be76-127">No campo **Plano mestre**, insira ou selecione o plano para o qual você configurou restrições.</span><span class="sxs-lookup"><span data-stu-id="8be76-127">In the **Master plan** field, enter or select the plan for which you have set up constraints.</span></span>  
-3. <span data-ttu-id="8be76-128">Selecione **OK**.</span><span class="sxs-lookup"><span data-stu-id="8be76-128">Select **OK**.</span></span>
-4. <span data-ttu-id="8be76-129">Selecione **Ordens planejadas**.</span><span class="sxs-lookup"><span data-stu-id="8be76-129">Select **Planned orders**.</span></span>
+## <a name="create-a-constrained-plan"></a><span data-ttu-id="bcd0d-125">Criar um plano restrito</span><span class="sxs-lookup"><span data-stu-id="bcd0d-125">Create a constrained plan</span></span>
+1. <span data-ttu-id="bcd0d-126">Selecione **Executar**.</span><span class="sxs-lookup"><span data-stu-id="bcd0d-126">Select **Run**.</span></span>
+2. <span data-ttu-id="bcd0d-127">No campo **Plano mestre**, insira ou selecione o plano para o qual você configurou restrições.</span><span class="sxs-lookup"><span data-stu-id="bcd0d-127">In the **Master plan** field, enter or select the plan for which you have set up constraints.</span></span>  
+3. <span data-ttu-id="bcd0d-128">Selecione **OK**.</span><span class="sxs-lookup"><span data-stu-id="bcd0d-128">Select **OK**.</span></span>
+4. <span data-ttu-id="bcd0d-129">Selecione **Ordens planejadas**.</span><span class="sxs-lookup"><span data-stu-id="bcd0d-129">Select **Planned orders**.</span></span>
 
