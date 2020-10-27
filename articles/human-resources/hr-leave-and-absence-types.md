@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1802938f54a1d78e6ea60572a76177a037192ae0
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 6e6ca7d04b86232ba48474fcbe288a18995661ae
+ms.sourcegitcommit: 6a89816f94c8cdcae6e56fa89843eb99c28b21fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428584"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3969013"
 ---
 # <a name="configure-leave-and-absence-types"></a>Configurar tipos de licença e ausência
 
@@ -56,7 +56,9 @@ Os tipos de licenças no Dynamics 365 Human Resources definem os tipos de ausên
 
 8. Em **Restringir acesso a funções selecionadas**, escolha se deseja restringir o acesso. Em seguida, selecione as funções de segurança em **Funções de segurança para este tipo de licença**. As funções de segurança são definidas no fluxo de trabalho selecionado em **ID do fluxo de trabalho**, que vimos antes neste procedimento.
 
-9. Em **Relações de suspensão**, escolha se você deseja que esse tipo de licença suspenda outro tipo de licença ou seja suspenso por outro tipo de licença. Quando uma solicitação de licença for enviada para o tipo de licença de suspensão, uma suspensão de licença será automaticamente criada para o tipo de licença suspensa. 
+9. Em **Cor do calendário**, escolha a cor a ser exibida nos calendários de licença e ausência desse tipo de licença. 
+
+10. Em **Relações de suspensão**, escolha se você deseja que esse tipo de licença suspenda outro tipo de licença ou seja suspenso por outro tipo de licença. Quando uma solicitação de licença for enviada para o tipo de licença de suspensão, uma suspensão de licença será automaticamente criada para o tipo de licença suspensa. 
 
 10. Selecione **Salvar**.
 

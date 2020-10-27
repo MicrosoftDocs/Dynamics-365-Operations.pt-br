@@ -13,15 +13,15 @@ ms.reviewer: kfend
 ms.search.scope: Operations
 ms.custom: ''
 ms.search.region: Brazil
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7d0e9f1b35a91cf46973002422526a4bb8eb110a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c09dd5eff5e97a56465c0e70958dbf726d8a1e01
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183852"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3984648"
 ---
 # <a name="united-states"></a>Estados Unidos 
 

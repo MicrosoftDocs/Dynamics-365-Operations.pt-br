@@ -70,6 +70,8 @@
                   items:
                     - name: Novidades ou alterações na home page do Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.15 (janeiro de 2021)
+                      href: get-started/whats-new-changed-10-0-15.md
                     - name: Finance 10.0.14 (novembro de 2020)
                       href: get-started/whats-new-changed-10-0-14.md
                     - name: Finance 10.0.13 (outubro de 2020)
@@ -194,6 +196,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/finance/toc.json
                 - name: Mover projetos de implementação do LCS para diferentes locatários do Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/finance/toc.json
+                - name: Mover projetos de implementação do LCS de local para a nuvem
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/finance/toc.json
                 - name: Vários ambientes de produção e projetos do LCS em um locatário do Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/finance/toc.json
         - name: Contas a pagar
@@ -226,6 +230,16 @@
                   href: accounts-payable/accounts-payable-invoice-matching.md
                 - name: Configurar a validação de conciliação de faturas de Contas a pagar
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
+            - name: Automação de fatura de fornecedor
+              items:
+                - name: Visão geral de processos automatizados de faturas de fornecedor
+                  href: accounts-payable/auto-vendr-invc-process.md
+                - name: Configurar opções para automação de fatura de fornecedor
+                  href: accounts-payable/vnd-invoice-set-up-options.md
+                - name: Enviar faturas para o sistema do fluxo de trabalho e conciliar as linhas de recebimento de produtos
+                  href: accounts-payable/submit-invoice-workflow-automatically.md
+                - name: Exibir resultados da automação de fatura de fornecedor
+                  href: accounts-payable/view-automated-vendor-invoice.md
             - name: Distribuições contábeis e entradas no diário-razão auxiliar para faturas de fornecedor
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: Conciliação de faturas e ordens de compra intercompanhia
@@ -258,7 +272,7 @@
               href: accounts-payable/mobile-invoice-approvals.md
             - name: Espaço de trabalho de faturamento da colaboração de fornecedores
               href: accounts-payable/vendor-portal-invoicing-workspace.md
-            - name: Automação de fatura de fornecedor
+            - name: Automação de fatura para documentos digitalizados
               href: accounts-payable/vendor-invoice-automation.md
             - name: Gerenciamento de contratos de agente
               href: accounts-payable/broker-contract.md
@@ -450,6 +464,8 @@
               href: accounts-receivable/tasks/process-collection-letters.md
             - name: Configurar e gerar informações de classificação por vencimento de contas a receber
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Relatório de classificação por vencimento de clientes
+              href: accounts-receivable/customer-aging.md
             - name: Criar um diário de baixa para um cliente
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Gerenciamento de notas avançadas
@@ -792,13 +808,17 @@
                   href: fixed-assets/straight-line-life-remaining-depreciation.md
                 - name: Depreciação de vida útil linear
                   href: fixed-assets/straight-line-service-life-depreciation.md
+        - name: Arrendamento de ativos
+          items:
+            - name: Introdução ao arrendamento de ativos
+              href: asset-leasing/asset-leasing-quick-start.md
         - name: Contabilidade
           items:
             - name: Visão geral da contabilidade
               href: general-ledger/general-ledger.md
             - name: Contas
               items:
-                - name: ​Visão geral de competências​
+                - name: Visão geral de acúmulos
                   href: general-ledger/accruals-overview.md
                 - name: Regras de eliminação
                   href: general-ledger/elimination-rules.md
@@ -1884,7 +1904,7 @@
                   items:
                     - name: Visão geral de GST da Índia
                       href: localizations/apac-ind-gst.md
-                    - name: Novidades ou alterações para localização de GST da APAC/Índia
+                    - name: Novidades ou alterações para localização de GST da Índia
                       items:
                         - name: Novidades ou alterações no 10.0.0
                           href: localizations/apac-ind-news-letter-10-0-00.md
@@ -1912,6 +1932,8 @@
                           href: localizations/apac-ind-news-letter-10-0-11.md
                         - name: Novidades ou alterações no 10.0.12
                           href: localizations/apac-ind-news-letter-10-0-12.md
+                        - name: Novidades ou alterações no 10.0.13
+                          href: localizations/ind-news-letter-10-0-13.md
                     - name: Grupos de referência de GST da Índia
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: Integração de GST para caixas registradoras
@@ -2022,6 +2044,8 @@
                           href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
                     - name: Transação de estoque
                       items:
+                        - name: Ordens de transferência do estoque
+                          href: localizations/apac-ind-stock-transfer.md
                         - name: Ordens de transferência de estoque com impostos no preço de transferência
                           href: localizations/apac-ind-GST-stock-transfer-transactions.md
                     - name: Transação de pagamento de cliente
@@ -2070,21 +2094,19 @@
                       href: localizations/tax-engine-create-tax-component.md
                     - name: Integração do mecanismo de cálculo de impostos
                       href: general-ledger/tax-engine-integration.md
-                    - name: Extensão do Mecanismo de cálculo de impostos
+                    - name: Extensão do mecanismo de cálculo de impostos
                       href: general-ledger/extend-tax-engine-configurations.md
                     - name: Solucionar problemas de GTE
                       href: localizations/tax-engine-trouble-shooting.md
                 - name: Perguntas frequentes sobre limites de impostos
                   href: localizations/apac-ind-tax-thresholds.md
-                - name: Transferências do estoque
-                  href: localizations/apac-ind-stock-transfer.md
             - name: Itália
               items:
                 - name: Visão geral da Itália
                   href: localizations/italy.md
                 - name: Detalhes dos demonstrativos de IVA
                   href: localizations/emea-ita-vat-statements-details.md
-                - name: ​Relatório de lista de bloqueios​
+                - name: Relatório de lista de bloqueios
                   href: localizations/emea-ita-black-list-report.md
                 - name: Data da competência
                   href: localizations/emea-ita-competence-date.md

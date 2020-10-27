@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 026d25717dec8c5633f19fe63c6d6f64284d322d
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 1f74df94b1647520880ff994581872b9d9f8e067
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646150"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971536"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Operação de estoque de saída no POS
 
@@ -164,7 +164,7 @@ A função **Revisar** valida os seguintes problemas em um documento de saída:
 - **Localização não definida** – a localização não é especificada para um item controlado por localização, e a localização em branco não é permitida.
 - **Linhas excluídas** – as linhas da ordem foram excluídas por um usuário da Sede do Commerce (HQ) que não é conhecido pelo aplicativo de PDV.
 
-Se você definir o parâmetro **Habilitar validação automática** como **Sim** em **Parâmetros do Commerce** > **Estoque** > **Estoque da loja**, a validação será executada automaticamente ao selecionar a função **Concluir preenchimento**.
+Se você definir o parâmetro **Habilitar validação automática** como **Sim** em **Parâmetros de comércio** > **Estoque** > **Operações de estoque da loja**, a validação será executada automaticamente ao selecionar a função **Concluir atendimento**.
 
 ### <a name="finish-fulfillment"></a>Concluir atendimento
 

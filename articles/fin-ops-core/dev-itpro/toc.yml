@@ -14,6 +14,8 @@
               items:
                 - name: Novidades ou alterações na home page de Platform updates
                   href: get-started/whats-new-home-page.md
+                - name: Platform updates para 10.0.15 (janeiro de 2021)
+                  href: get-started/whats-new-platform-updates-10-0-15.md
                 - name: Platform updates para 10.0.14 (novembro de 2020)
                   href: get-started/whats-new-platform-updates-10-0-14.md
                 - name: Platform updates para 10.0.13 (outubro de 2020)
@@ -236,11 +238,13 @@
                                   href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
                                 - name: Solução de problemas gerais
                                   href: data-entities/dual-write/dual-write-troubleshooting.md
-                    - name: Integração com a Power Platform
+                        - name: Perguntas frequentes sobre gravação dupla
+                          href: data-entities/dual-write/dual-write-faq.md
+                    - name: Integração com o Power Platform
                       items:
-                        - name: Configurar um cenário do cliente potencial ao pagamento à vista
+                        - name: Configurar um cenário de cliente potencial ao pagamento à vista
                           items:
-                            - name: Do cliente potencial ao pagamento à vista
+                            - name: De cliente potencial ao pagamento à vista
                               href: ../../supply-chain/sales-marketing/prospect-to-cash.md
                             - name: Sincronizar contas diretamente do Sales com clientes do Finance and Operations
                               href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
@@ -384,11 +388,13 @@
               href: data-entities/entity-store-data-lake.md
         - name: Operações de movimento de banco de dados
           items:
-            - name: Visão Geral
+            - name: Visão geral
               href: database/dbmovement-operations.md
+            - name: Kit de ferramentas de movimento de banco de dados
+              href: database/database-movement-toolkit.md
             - name: Guias de início rápido
               items:
-                - name: Atualizar banco de dados
+                - name: Renovar banco de dados
                   href: database/database-refresh.md
                 - name: Exportar um banco de dados
                   href: database/export-database.md
@@ -1564,9 +1570,11 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: Upgrade do AX 2012 — Lista de verificação de pré-atualização para a atualização de dados
                   href: migration-upgrade/prepare-data-upgrade.md
+                - name: Upgrade do AX 2012 — Atualização de dados em ambientes de área restrita usando o processo DACPAC
+                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
                 - name: Upgrade do AX 2012 — Atualização de dados em ambientes de área restrita
                   href: migration-upgrade/upgrade-data-sandbox.md
-                - name: Upgrade do AX 2012 - Ambientes locais
+                - name: Upgrade do AX 2012 — Ambientes locais
                   href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: Upgrade do AX 2012 — Testes de substituição
                   href: migration-upgrade/upgrade-cutover-testing.md

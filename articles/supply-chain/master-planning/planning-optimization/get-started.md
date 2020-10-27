@@ -3,7 +3,7 @@ title: Introdução à Otimização de Planejamento
 description: Este tópico explica como começar a usar a funcionalidade Otimização de Planejamento.
 author: ChristianRytt
 manager: tfehr
-ms.date: 05/06/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,20 +19,25 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 04b39469ccf4f088bb33bdfc73ce40eece6f5f2e
-ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
+ms.openlocfilehash: 49025d0aa0f6a627b816a43dd4260449942b400c
+ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3887255"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973467"
 ---
 # <a name="get-started-with-planning-optimization"></a>Introdução à Otimização de Planejamento
 
 [!include [banner](../../includes/banner.md)]
 
-No momento, a funcionalidade Otimização de Planejamento não dá suporte a todos os recursos disponíveis no mecanismo de planejamento do Microsoft Dynamics 365 Supply Chain Management. Portanto, é importante que você avalie se o conjunto de recursos disponível no momento na Otimização de Planejamento atenderá aos seus requisitos. Por padrão, a funcionalidade Otimização de Planejamento não está ativada no Dynamics Lifecycle Services (LCS) por padrão. Portanto, você tem uma oportunidade de fazer sua avaliação antes de ativá-la.
+Como [anunciado anteriormente](https://docs.microsoft.com/dynamics365/supply-chain/get-started/removed-deprecated-features-scm-updates#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios), a Otimização de Planejamento está agendada para substituir o mecanismo de planejamento mestre existente.
 
-Eventualmente, a Otimização de Planejamento substituirá o mecanismo de planejamento interno do Supply Chain Management.
+Se estiver usando o mecanismo de planejamento mestre interno no momento, você deverá começar a planejar a migração para a Otimização de Planejamento agora. É importante iniciar o processo de migração imediatamente porque suas operações poderão ser afetadas quando a substituição for imposta. Para evitar problemas de última hora quando a substituição for imposta, é altamente recomendável que você conclua a migração antes de 1º de dezembro de 2020. 
+
+No momento, a funcionalidade Otimização de Planejamento não dá suporte a todos os recursos disponíveis no mecanismo de planejamento interno do Supply Chain Management. Portanto, é importante que você avalie se o conjunto de recursos disponível no momento na Otimização de Planejamento atenderá aos seus requisitos. No momento, a funcionalidade Otimização de Planejamento não está ativada por padrão no Dynamics Lifecycle Services (LCS), de modo que você tem a oportunidade de fazer a avaliação antes do recurso ser ativado.
+
+> [!NOTE]
+> Você precisará solicitar uma exceção da migração para a Otimização de Planejamento se o processo de planejamento mestre não incluir a produção (ordens de produção planejadas geradas pelo planejamento mestre) e se precisar do mecanismo de planejamento mestre interno além da versão 10.0.15. A partir da versão 10.0.16, um erro será mostrado nos ambientes durante a execução do planejamento mestre interno sem a geração de ordens de produção planejadas. A Otimização de Planejamento deverá ser usada para todas as novas implantações que não gerem ordens de produção planejadas durante o planejamento mestre. Os proprietários de ambientes existentes que executam o mecanismo de planejamento mestre interno sem a geração de ordens de produção planejadas receberão um email com detalhes sobre o processo de exceção. Recomendamos que você trabalhe com um parceiro para avaliar e planejar a migração para a Otimização de Planejamento.
 
 Antes de ativar a Otimização de Planejamento, recomendamos enfaticamente que você avalie os resultados da análise de ajuste da Otimização de Planejamento. Para obter mais informações, consulte [Introdução à análise de ajuste da Otimização de Planejamento](planning-optimization-fit-analysis.md).
 

@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Brazil
-ms.author: v-gonode
+ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4518b5e580f8f5cade9e866c9545d23092e01c09
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ef363045645a669668ff7a90dfd4ed359a50b1a7
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183890"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3980672"
 ---
 # <a name="export-and-import-transactions-for-general-ledger-consolidation-for-brazil"></a>Exportar e importar transações da consolidação de contabilidade para o Brasil
 

@@ -13,15 +13,15 @@ ms.reviewer: kfend
 ms.search.scope: Operations
 ms.custom: ''
 ms.search.region: Brazil
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 01e5c3bc9393e6b9513321d9406156994e846070
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: f7f98afe9968bf282eee6f7cbfc8836efc7d354d
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772868"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981880"
 ---
 # <a name="brazil-overview"></a>Visão geral de Brasil
 

@@ -1,9 +1,9 @@
 ---
 title: Gerenciar classificações e opiniões
-description: Este tópico explica como gerenciar classificações e opiniões usando a ferramenta de moderação de classificações e opiniões do Microsoft Dynamics 365 Commerce.
+description: Este tópico explica como gerenciar classificações e opiniões no construtor de site do Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 manager: annbe
-ms.date: 01/30/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,38 +18,30 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a7fa2ae3124a0a68b3890987c5dce2730e5c2183
-ms.sourcegitcommit: 1e6c8163da5818196769eb278afb3a2335d0cbe3
+ms.openlocfilehash: 3fc88bc5a5868dce7c0539bf3f0ddc5b751e7b75
+ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3027233"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973997"
 ---
 # <a name="manage-ratings-and-reviews"></a>Gerenciar classificações e opiniões
 
 [!include [banner](includes/banner.md)]
 
-Este tópico explica como gerenciar classificações e opiniões usando a ferramenta de moderação de classificações e opiniões do Microsoft Dynamics 365 Commerce.
+Este tópico explica como gerenciar classificações e opiniões no construtor de site do Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
-O Dynamics 365 Commerce usa o Serviço Cognitivo do Microsoft Azure para moderar automaticamente o texto da opinião, redigindo palavras profanas. Além disso, os moderadores podem usar a ferramenta de moderação de classificações e opiniões para as seguintes tarefas manuais:
+O Dynamics 365 Commerce usa o Serviço Cognitivo do Microsoft Azure para moderar automaticamente o texto da opinião, redigindo palavras profanas. Além disso, os moderadores podem usar o construtor de site do Dynamics 365 Commerce para implementar as seguintes tarefas manuais:
 
 - Moderar as opiniões, respondendo-as ou removendo-as.
 - Excluir opiniões de um cliente na solicitação do cliente.
 - Importar em massa dados de classificações e opiniões de todos os produtos para um modelo do Power BI , para que as tendências para classificações e opiniões possam ser analisadas.
 
-## <a name="access-ratings-and-reviews-moderation-features"></a>Acessar recursos de Revisões, como relatórios e moderação.
-
-Para acessar avaliações e revisar recursos de moderação na ferramenta de gerenciamento de site de comércio eletrônico, siga estas etapas.
-
-1. Entre no [Microsoft Lifecycle Services (LCS)](https://lcs.dynamics.com).
-1. Abra o projeto que contém o ambiente onde você deseja inicializar o comércio online.
-1. Na seção **Ambientes**, selecione o ambiente.
-1. Em **Recursos do ambiente**, selecione **Gerenciamento de Varejo**.
-1. Na guia **Comércio eletrônico**, em **Links**, selecione **Ferramenta de gerenciamento de sites de comércio eletrônico**.
-
 ## <a name="read-a-review"></a>Ler uma opinião 
+
+Para ler uma opinião no construtor de site do Commerce, siga estas etapas.
 
 1. Vá para **Início \> Opiniões \> Moderação**.
 1. Use o campo de pesquisa no canto superior direito da página para filtrar as opiniões mostradas por ID do produto, nome do produto ou texto da opinião.
@@ -62,7 +54,7 @@ Os filtros adicionais permitem delimitar as opiniões por período, classificaç
 
 Às vezes, os clientes que compraram um produto expressam sua satisfação ou insatisfação ou não sabem como usá-lo. Como moderador, você pode publicar uma resposta a uma opinião. Esta resposta aparece junto com a opinião no site. 
 
-Para responder a uma opinião, siga estas etapas.
+Para responder uma opinião no construtor de site do Commerce, siga estas etapas.
 
 1. Vá para **Início \> Opiniões \> Moderação**.
 1. Encontre e selecione a opinião que requer uma resposta.
@@ -76,20 +68,20 @@ Para responder a uma opinião, siga estas etapas.
 
 Às vezes, há uma justificativa comercial para que os moderadores desativem as opiniões dos clientes. 
 
-Para desativar uma opinião, siga estas etapas.
+Para desativar uma opinião no construtor de site do Commerce, siga estas etapas.
 
 1. Vá para **Início \> Opiniões \> Moderação**.
 1. Localize e selecione a opinião que deve ser desativada.
-1. No painel de propriedades à direita, selecione o motivo da desativação e depois **Desativar**.
+1. No painel de propriedades à direita, selecione o motivo da desativação em **Desativação da Opinião** e depois selecione **Desativar**.
     
 ## <a name="delete-a-customers-reviews-at-the-customers-request"></a>Excluir opiniões de um cliente na solicitação do cliente 
 
 Às vezes, os clientes querem que seus dados de classificações e opiniões sejam excluídos permanentemente de um site de comércio eletrônico. Um moderador que recebe uma solicitação de remoção de um cliente pode remover os dados do cliente usando o recurso de exclusão da opinião. Para localizar e excluir os dados de um cliente, o moderador exige o endereço de email que o cliente usou para entrar e dar as opiniões. 
 
-Para localizar e excluir os dados do cliente, siga estas etapas.
+Para localizar e excluir dados do cliente no construtor de site do Commerce, siga estas etapas.
 
 1. Vá para **Início \> Opiniões \> Excluir**.
-1. No campo **Procurar usuários por endereço de email** , insira o endereço de email do cliente e selecione **Pesquisar**.
+1. Na caixa **Procurar usuários por endereço de email** , insira o endereço de email do cliente e selecione **Pesquisar**.
 1. Se o cliente tiver alguma atividade de opinião (por exemplo, envios de opiniões, votos sobre a utilidade das opiniões de outro cliente ou comentários sobre a opinião de outro cliente), os resultados serão mostrados. Para cada item, há um botão **Excluir** .
 1. Para cada item a ser excluído, selecione **Excluir**. Quando for solicitado a confirmação, selecione **Sim**. 
     
@@ -101,23 +93,23 @@ Para localizar e excluir os dados do cliente, siga estas etapas.
 
 ## <a name="download-ratings-and-reviews-data"></a>Fazendo download de dados de classificações e opiniões
 
-A ferramenta de moderação de classificações e opiniões permite que os moderadores importem dados de classificações e opiniões em massa, para que possam analisar tendências. Um modelo do Power BI que inclui métricas básicas estará disponível. Os moderadores podem usar esse modelo para conectar dados importados em massa e visualizar um painel. Eles não precisam criar um painel personalizado. Os moderadores também podem personalizar o modelo do Power BI para atender às suas necessidades específicas. 
+O construtor de site do Commerce permite que os moderadores importem dados de classificações e opiniões em massa, para que possam analisar tendências. Um modelo do Power BI que inclui métricas básicas estará disponível. Os moderadores podem usar esse modelo para conectar dados importados em massa e visualizar um painel. Eles não precisam criar um painel personalizado. Os moderadores também podem personalizar o modelo do Power BI para atender às suas necessidades específicas. 
 
-Para baixar dados de classificações e opiniões, siga estas etapas.
+Para baixar dados de classificações e opiniões no construtor de site do Commerce, siga estas etapas.
 
 1. Vá para **Início \> Opiniões \> Relatórios**.
-1. Selecione **Fazer download de dados de opiniões** para fazer download de dados em massa de classificações e opiniões no formato de valores separados por vírgulas (CSV).
+1. Selecione **Baixar dados de opiniões** para baixar dados em massa de classificações e opiniões no formato de valores separados por vírgulas (CSV).
 
 ## <a name="view-ratings-and-reviews-trends"></a>Visualizar tendência de classificações e opiniões
 
 Os moderadores podem fazer download do modelo do Power BI, de forma que possam exibir as tendências em um painel.
 
-Para exibir as tendências de classificações e opiniões, siga estas etapas.
+Para exibir tendências de classificações e opiniões no construtor de site do Commerce, siga estas etapas.
 
 1. Vá para **Início \> Opiniões \> Relatórios**.
 1. Selecione **Modelo do PowerBI** para baixar o modelo.
 
-    ![Fazendo download do modelo do Power BI](media/rnr-moderation-reports.png) 
+    ![Baixe o modelo do Power BI](media/rnr-moderation-reports.png) 
 
 1. Abra o modelo baixado usando o aplicativo Power BI. Feche a caixa de diálogo **Acessar o conteúdo da Web** que é exibida e feche a mensagem de erro "Atualizar" que é exibida.
 1. Vá para **Início**, selecione **Editar consultas** e selecione **Configurações da fonte de dados**.

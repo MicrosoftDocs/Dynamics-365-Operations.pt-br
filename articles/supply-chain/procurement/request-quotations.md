@@ -3,7 +3,7 @@ title: Visão geral de solicitações de cotação (RFQs)
 description: Este tópico fornece uma visão geral das solicitações de cotação (RFQs). As organizações emitem RFQs quando desejam receber ofertas competitivas de vários fornecedores para os itens ou serviços que eles compram.
 author: mkirknel
 manager: tfehr
-ms.date: 07/25/2019
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eedf6b08ef9a4b7f164db60433dd16922a8ec807
-ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
+ms.openlocfilehash: 4aec0ce03d438f8153b9555a079b6fd97f6a95a5
+ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895611"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973491"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Visão geral de solicitações de cotação (RFQs)
 
@@ -34,23 +34,21 @@ Você também pode solicitar que os fornecedores especifiquem caso haja encargos
 
 O processo de RFQ consiste nas seguintes tarefas:
 
-1.  Criar e enviar uma RFQ a um ou mais fornecedores.
-
-2.  Receber e registrar lances (respostas da RFQ)
-
-3.  Transferir os lances aceitos para uma ordem de compra, um contrato de compra ou uma requisição de compra.
+1. Criar e enviar uma RFQ a um ou mais fornecedores.
+1. Receber e registrar lances (respostas da RFQ)
+1. Transferir os lances aceitos para uma ordem de compra, um contrato de compra ou uma requisição de compra.
 
 A ilustração a seguir mostra uma visão geral do processo de RFQ.
 
 [![Processo RFQ](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
 
-Você pode criar um caso de RFQ de ordens planejadas, de uma requisição de compra ou por entrada manual. O caso de RFQ é o documento base que você usa para emitir uma RFQ a cada fornecedor.+
+Você pode criar um caso de RFQ de ordens planejadas, de uma requisição de compra ou por entrada manual. O caso de RFQ é o documento base que você usa para emitir uma RFQ a cada fornecedor.
 
 Após preparar o caso de RFQ e adicionar fornecedores, selecione **Enviar** (**Enviar e publicar** para o setor público) no caso de RFQ. Um diário de RFQ é gerado para cada fornecedor para o qual você enviou a RFQ. Você pode definir as configurações de impressão para a ação de envio de forma que seja impresso um relatório para cada fornecedor em um arquivo ou que seja enviado um relatório para o endereço de e-mail de cada fornecedor. Além disso, você pode usar o diário de RFQ de cada fornecedor para gerar um relatório que você pode enviar ou reenviar a um fornecedor posteriormente. Você também pode configurar a ação Enviar, de forma que ela gere uma planilha de respostas que o fornecedor pode preencher.
 
 Este tópico abrange o processo para tratar RFQ quando a colaboração do fornecedor não for usada. Se o sistema estiver configurado para a colaboração do fornecedor, os fornecedores poderão inserir lances diretamente no Supply Chain Management. Para obter mais informações, consulte [Colaboração de fornecedores com clientes](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) e [Colaboração de fornecedores com fornecedores externos](vendor-collaboration-work-external-vendors.md).
 
-Se tiver que alterar uma RFQ após enviá-la, você poderá enviá-la novamente para os fornecedores quando tiver terminado usando as duas ações de alteração: criar e finalizar.+
+Se tiver que alterar uma RFQ após enviá-la, você poderá enviá-la novamente para os fornecedores quando tiver terminado usando as duas ações de alteração: Criar e Finalizar.
 
 Ao receber lances por email, você deverá gerenciá-los lances na página **Solicitação de cotação**.
 
@@ -68,15 +66,10 @@ Esses status serão descritos em mais detalhes posteriormente neste tópico.
 
 Antes de criar um exemplo de RFQ, é necessário configurar as informações de RFQ na página **Parâmetros de compras**. Quando você cria um exemplo de RFQ, você pode especificar os valores padrão que são copiados para a RFQ. É possível especificar os seguintes valores padrão:
 
--   O tipo de compra de novas RFQs: **Ordem de compra** ou **Contrato de compra**
-
--   A data de vencimento e a diferença de horário do dia em que o caso de RFQ foi criado
-
--   Tipo de solicitação, que pode ser usado como padrão a um método específico de pontuação no caso de RFQ
-
--   Informações de entrega e condições de pagamento
-
--   Campos que devem ser incluídos no lance
+- O tipo de compra de novas RFQs: **Ordem de compra** ou **Contrato de compra**
+- A data de vencimento e a diferença de horário do dia em que o caso de RFQ foi criado.
+- Tipo de solicitação, que pode ser usado como padrão a um método específico de pontuação no caso de RFQ.
+- Informações de entrega e condições de pagamento.
 
 Você pode substituir esses valores para um exemplo específico de RFQ.
 
@@ -84,37 +77,25 @@ Você também deve configurar o processo de aditamento. Como parte desta configu
 
 Na página **Parâmetros de compra**, você seleciona o modelo a ser usado para a notificação de email que foi enviada aos fornecedores. Quando um modelo é criado em **Modelos de email**, ele poderá conter os seguintes tokens de substituição:
 
--   %Caso de RFQ%
-
--   %Motivo do retorno do lance%
-
--   %Motivo do aditamento%
-
--   %Aditamento preparado por%
-
--   %Empresa%
-
--   %Nome do caso de RFQ%
-
--   %Data/hora de vencimento%
-
--   %Data%
+- %Caso de RFQ%
+- %Motivo do retorno do lance%
+- %Motivo do aditamento%
+- %Aditamento preparado por%
+- %Empresa%
+- %Nome do caso de RFQ%
+- %Data/hora de vencimento%
+- %Data%
 
 Os tokens %Motivo do retorno do lance% e %Motivo do aditamento% são substituídos pelo texto que o profissional de aquisição pode inserir quando ele concluir o aditamento no assistente **Aditamento**. Os valores dos tokens %Aditamento preparado por% e %Empresa% são automaticamente efetuados da RFQ. O token de %Date% é substituído na data atual.
 
-Para cancelar uma RFQ após seu envio, é possível fazer isso no caso de RFQ. Para cancelar, um modelo de email deve enviar a notificação de cancelamento às pessoas de contato do fornecedor. O modelo deve ser selecionado na página **Parâmetros de compras**. Quando o modelo for criado, ele poderá conter os seguintes tokens de substituição:
+Para cancelar uma RFQ após seu envio, é possível fazer isso no caso de RFQ. Para fazer o cancelamento, um modelo de email é obrigatório para enviar a notificação de cancelamento às pessoas de contato do fornecedor. O modelo deve ser selecionado na página **Parâmetros de compras**. Quando o modelo for criado, ele poderá conter os seguintes tokens de substituição:
 
--   %Motivo do cancelamento%
-
--   %Caso de RFQ%
-
--   %RFQ cancelada por%
-
--   %Empresa%
-
--   %Nome do caso de RFQ%
-
--   %Data%
+- %Motivo do cancelamento%
+- %Caso de RFQ%
+- %RFQ cancelada por%
+- %Empresa%
+- %Nome do caso de RFQ%
+- %Data%
 
 O token %Motivo do cancelamento% foi substituído pelo texto que o profissional de compras pode inserir no assistente de **Cancelamento**. O token de %Date% é substituído na data atual.
 
@@ -130,6 +111,19 @@ Ao criar um caso de RFQ do tipo ordem de compra e adicionar um item de estoque �
 
 Um gerente ou agente de compras pode criar e manter tipos de solicitações para ajustar aos requisitos de compras da organização. Cada tipo do possível pode ser associado a um método de pontuação. Os métodos de pontuação consistem em um conjunto de critérios que podem ser usados quando você pontua ofertas. Você deve configurar os tipos da solicitação, métodos de pontuação e critérios de pontuação nas páginas **Tipo de solicitação** e **Método de pontuação**.
 
+## <a name="choose-default-fields-to-include-in-vendor-rfq-reply-forms"></a><a name="default-reply-fields"></a>Escolher campos padrão a serem incluídos nos formulários de resposta de RFQ do fornecedor
+
+É possível descrever tipos específicos de informações que você deseja receber de fornecedores quando eles responderem a (cotar) uma solicitação de cotação (RFQ). Os campos marcados como padrão são incluídos no formulário online fornecido para a colaboração do fornecedor. Faça alterações nestas configurações:
+
+1. Se ainda não tiver feito isso, use a página [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para habilitar o recurso *Selecionar campos RFQ para incluir nos formulários de resposta de RFQ do fornecedor*.
+1. Vá para **Compras e fornecimento > Configuração >Parâmetros de compras**.
+1. Abra a guia **Solicitação de cotação**.
+1. Selecione o link de campos de resposta **Solicitações de cotação padrão** no título **Configurar valores padrão para solicitações de cotações**.
+1. A caixa de diálogo **Campos de resposta de solicitação de cotação padrão** será aberta.
+1. A seção **Campos de RFQ incluídos nos formulários de resposta de RFQ do fornecedor** incluem um controle deslizante para cada campo disponível para uso em formulários de resposta de RFQ. Os campos definidos como *Sim* nesta seção serão incluídos (juntamente com os valores) nos formulários de resposta de RFQ. Defina o controle deslizante como *Não* para cada campo em que você deseja impedir que os fornecedores vejam dados ao revisar os lances. Isso permite inserir valores estimados ou esperados durante a entrada de RFQ para finalidades internas sem que o fornecedor veja o que foi inserido.
+
+Você pode substituir essas configurações para ocorrências de RFQ individuais, conforme necessário.
+
 ## <a name="creating-and-sending-an-rfq"></a>Criando e enviando uma RFQ
 
 Crie um caso de RFQ, selecione os fornecedores aos quais deseja dar lances no caso de RFQ e envie as RFQs para eles. Você pode usar as configurações de impressão para encaminhar o relatório de RFQ e os relatórios de folha de resposta ao seu destino de preferência.
@@ -138,15 +132,13 @@ Você pode criar manualmente um caso de RFQ para os tipos de compra **Ordem de c
 
 Se o caso de RFQ é do tipo **Ordem de compra**, o seguinte comportamento que ocorre se diferencia dos outros tipos de casos de RFQ:
 
--   Quando as linhas de caso de RFQ forem criadas, as transações de estoque serão geradas com o status de recebimento **Recebimento de cotação**.
-
--   Quando você aceita uma oferta, uma ordem de compra é gerada.
+- Quando as linhas de caso de RFQ forem criadas, as transações de estoque serão geradas com o status de recebimento **Recebimento de cotação**.
+- Quando você aceita uma oferta, uma ordem de compra é gerada.
 
 Se o caso de RFQ é do tipo **Contrato de compra**, o seguinte comportamento que ocorre se diferencia dos outros casos de RFQ:
 
--   O caso de RFQ é usado para um contrato de comprar de uma quantidade ou um valor específico de produtos durante um certo período. Você deve selecionar o intervalo de datas que se aplica ao contrato de compra e o nome da pessoa que gerencia o contrato de compra.
-
--   Quando você aceita uma oferta, um contrato de compra é gerado.
+- O caso de RFQ é usado para um contrato de comprar de uma quantidade ou um valor específico de produtos durante um certo período. Você deve selecionar o intervalo de datas que se aplica ao contrato de compra e o nome da pessoa que gerencia o contrato de compra.
+- Quando você aceita uma oferta, um contrato de compra é gerado.
 
 Se um caso de RFQ for gerado a partir de uma requisição de compra, o tipo **Requisição de compra** é atribuído automaticamente. Você não pode criar manualmente um caso de RFQ do tipo **Requisição de compra**.
 
@@ -156,6 +148,7 @@ Ao criar um caso de RFQ, é possível selecionar um tipo de solicitação. O tip
 
 Você pode adicionar um questionário a um exemplo de RFQ. Este questionário é exibido em todas as respostas de RFQ depois que você envia a RFQ. A conclusão do questionário é uma tarefa obrigatória antes do lance ser enviado.
 
+Embora os padrões sejam fornecidos, você pode alterar as configurações de **Campos de RFQ incluídos nos formulários de resposta de RFQ de fornecedor** para cada caso de RFQ individual, conforme necessário. Para isso, crie ou abra um caso de RFQ. Em seguida, no Painel de Ação, abra guia **Cotação** e na seção **Respostas**, selecione **Definir padrões de resposta de RFQ**. A caixa de diálogo **Campos de resposta de solicitação de cotação padrão** é aberta, isso ocorre da mesma forma que ao configurar os padrões para formulários de resposta de RFQ de fornecedor, exceto que as alterações aqui afetarão somente o caso de RFQ atual. Para obter detalhes sobre como habilitar essa funcionalidade e como ela funciona, consulte [Escolher campos padrão a serem incluídos nos formulários de resposta de RFQ do fornecedor](#default-reply-fields).
 
 Há três maneiras de selecionar os fornecedores para adicionar um exemplo de RFQ:
 
@@ -166,7 +159,6 @@ Há três maneiras de selecionar os fornecedores para adicionar um exemplo de RF
 Quando o caso de RFQ estiver pronto, selecione **Enviar**. A ação de envio gera diários e relatórios que serão impressos, arquivados e enviados de acordo com as configurações de impressão.
 
 Se você definir **Usar fornecedor para recalcular preços** e **Usar informações de itens específicas do fornecedor** como **Sim** na página **Enviando uma solicitação de cotação** ao enviar a RFQ para o fornecedor, algumas informações específicas do fornecedor serão inseridas automaticamente na RFQ para ele.
-
 
 ## <a name="amending-an-rfq-case"></a>Alterando um caso de RFQ
 
@@ -179,7 +171,6 @@ Se você configurar o processo de alteração para que seja menos restritivo, n�
 Se os fornecedores usam a interface de colaboração de fornecedor para inserir ofertas, você sempre usar o processo de alteração para notificar fornecedores sobre alterações no caso de RFQ. Esse processo ajuda a evitar a situação em que os fornecedores dão um lance em um caso de RFQ desatualizado, enquanto o lance está em andamento. Para obter mais informações sobre colaboração do fornecedor, consulte [Colaboração do fornecedor com fornecedores externos](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
 
 Se quiser convidar fornecedores adicionais para fazer o lance, e nenhuma alteração foi feita no caso de RFQ, você poderá usar o botão **Enviar**. Os fornecedores que você adicionou aparecerão na página **Enviar** e receberão o convite por email.
-
 
 ## <a name="receiving-and-registering-rfq-replies"></a>Receber e registrar respostas da RFQ
 
@@ -208,29 +199,20 @@ Na resposta, você pode adicionar um código de motivo para explicar por que ace
 
 Ao aceitar um lance do tipo **Requisição de compra**, as linhas da requisição de compra serão atualizadas com as seguintes informações que refletem as informações do lance aceito:
 
--   Preço unitário
-
--   Percentual de desconto
-
--   Valor do desconto
-
--   Encargos de compra
-
--   Encargos da linha
-
--   Fornecedor
-
--  Número externo
-
--   Descrição externa
-
+- Preço unitário
+- Percentual de desconto
+- Valor do desconto
+- Encargos de compra
+- Encargos da linha
+- Fornecedor
+- Número externo
+- Descrição externa
 
 A tabela a seguir mostra como o status de RFQ é alterado, à medida que você aceita ou rejeita ofertas de fornecedores.
 
-<a name="statuses--highest-and-lowest"></a>Status – o mais baixo e o mais alto
------------------------------
+## <a name="statuses--highest-and-lowest"></a>Status – o mais baixo e o mais alto
 
-Na guia Fornecedor do caso de RFQ, você pode ver as linhas com o status mais baixo e o mais alto para um determinado fornecedor. Quando o fornecedor é adicionado, e nenhuma linha foi enviada, o status mais baixo e o mais alto é <strong>Criado</strong>. Quando a RFQ é enviada ao fornecedor com todas linhas, o status das duas linhas será <strong>Enviado</strong>. Se algumas linhas em um lance de um fornecedor são aceitas e outras são rejeitadas, as linhas rejeitadas receberão o status mais baixo, que é <strong>Rejeitado</strong>, e as linhas aceitas receberão o status mais alto, que é <strong>Aceito</strong>.
+Na guia Fornecedor do caso de RFQ, você pode ver as linhas com o status mais baixo e o mais alto para um determinado fornecedor. Quando o fornecedor é adicionado e nenhuma linha ainda foi enviada, os status mais baixo e mais alto são <strong>Criados.</strong> Quando a RFQ é enviada ao fornecedor com todas as linhas, o status das duas linhas será <strong>Enviado</strong>. Se algumas linhas em um lance de um fornecedor são aceitas e outras são rejeitadas, as linhas rejeitadas receberão o status mais baixo, que é <strong>Rejeitado</strong>, e as linhas aceitas receberão o status mais alto, que é <strong>Aceito</strong>.
 
 Nas linhas do caso de RFQ, você pode ver o status mais alto e o mais baixo por linha em todos os fornecedores. Se você enviou uma linha para todos os fornecedores do caso de RFQ, e ninguém tenha respondido ainda, o status mais baixo e o mais alto é **Enviado**. Quando pelo menos um fornecedor responder, o estado mais alto será alterado para **Recebido**. Se você adicionar um novo fornecedor ao caso, o status mais baixo será alterado para **Criado**
 

@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Brazil
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 80e0db1c8f3d87c19314a8e1f22c1e17388459e8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0ae6de1caabf16e7e39fed65254220f685cefd8d
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183896"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3980679"
 ---
 # <a name="transfer-orders-brazil"></a>Ordens de transferência (Brasil)
 

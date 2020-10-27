@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 65304216b579b8def493d1e4218174cb9617013d
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: d75e6a8b48447a33156e03d50e990b8514bacda9
+ms.sourcegitcommit: d540998ad6f9c894ca99498c045ae4b86b779806
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652170"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970694"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Política de reserva de dimensão no nível de depósito flexível
 
@@ -233,6 +233,9 @@ Se um item de trabalho de depósito consistir em linhas que são iguais a um pal
 ![Item de menu de dispositivo móvel no qual a opção Manipular por placa de licença está definida como Sim](media/Handle-by-LP-menu-item.png)
 
 Como a funcionalidade **Manipular por placa de licença** é incompatível com o trabalho que cobre vários paletes, é melhor ter um item de trabalho separado para placa de licença diferentes. Para usar essa abordagem, adicione o campo **ID da placa de licença confirmada por ordem** como uma quebra de cabeçalho de trabalho na página **Modelo de trabalho**.
+
+> [!NOTE]
+> Para o processo de criação de trabalho confirmado por ordem, um valor de "dimensão de estoque confirmada por ordem" será atribuído às linhas de trabalho de separação e não será possível exibir o valor da placa de licença diretamente. Somente o processo *Direcionado pelo usuário* tem suporte durante a configuração de um item de menu de dispositivo móvel.
 
 ## <a name="example-scenario-set-up-and-process-an-order-committed-license-plate-reservation"></a>Exemplo de cenário: configurar e processar uma reserva de placa de licença confirmada por ordem
 

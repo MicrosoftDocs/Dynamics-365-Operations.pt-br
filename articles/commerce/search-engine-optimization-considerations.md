@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7c7afed8e4620d5fe49ead47eb6c17d97d7492ad
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6ffc772addb330abe7205007662a3f3e08a3e47f
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002788"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961577"
 ---
 # <a name="search-engine-optimization-seo-considerations-for-your-site"></a>Considerações de otimização do mecanismo de pesquisa (SEO) para seu site
 
@@ -47,7 +47,7 @@ Para otimizar a indexação do mecanismo de pesquisa, a estrutura de renderizaç
 
 ### <a name="page-seo-settings-for-internal-preview-limited-audiences-and-all-audiences"></a>Configurações de SEO da página para visualização interna, público limitado e todos os públicos.
 
-Como o Dynamics 365 Commerce oferece suporte de visualizações autenticadas "você vê como vai aparecer" (WYSIWYG), os autores podem preparar o conteúdo da página sem se preocupar com o fato de as informações ficarem visíveis para os visitantes do site. Se uma página deve ser publicada, mas sua exposição deve ser limitada, ela deve ter a marca meta **NOINDEX** , de forma que não será indexada pelos mecanismos de pesquisa. Então, quando a página estiver pronta para todos os públicos, todos os metadados básicos de SEO deverão estar presentes, para maximizar a eficiência da indexação do mecanismo de pesquisa. Além disso, a marca meta **NOLIMIT** deverá ser removida.
+Como o Dynamics 365 Commerce oferece suporte de visualizações autenticadas "você vê como vai aparecer" (WYSIWYG) no construtor de página visual, os autores podem preparar o conteúdo da página sem se preocupar com o fato de as informações ficarem visíveis para os visitantes do site. Se uma página deve ser publicada, mas sua exposição deve ser limitada, ela deve ter a marca meta **NOINDEX** , de forma que não será indexada pelos mecanismos de pesquisa. Então, quando a página estiver pronta para todos os públicos, todos os metadados básicos de SEO deverão estar presentes, para maximizar a eficiência da indexação do mecanismo de pesquisa. Além disso, a marca meta **NOLIMIT** deverá ser removida.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Brazil
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: f58f69235d809c71bb7eefcac3d5e88657cdb4b1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 18bb2d2abb2314707344731e024441216ac4766c
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175189"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3979054"
 ---
 # <a name="sped-fiscal-files"></a>Arquivos fiscais SPED 
 

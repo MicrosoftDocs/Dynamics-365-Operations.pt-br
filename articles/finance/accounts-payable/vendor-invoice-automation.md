@@ -1,5 +1,5 @@
 ---
-title: Automação das faturas dos fornecedores
+title: Automação de fatura para documentos digitalizados
 description: Este tópico explica os recursos disponíveis para a automação ponta a ponta de notas fiscais de fornecedor, até mesmo notas fiscais que incluem anexos.
 author: abruer
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4560d7b61fa8f014f9a1185da087df8b1c8e61ba
-ms.sourcegitcommit: b7af921189048d9f2eb4d3fd57c704c742bc96e8
+ms.openlocfilehash: f6d19d0e10f477e498e8f0fff1f431bc4bfdd9a1
+ms.sourcegitcommit: 6ffbae02de2eee1f3be9bab2da37a3771aae8bec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "3396000"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "3904946"
 ---
-# <a name="vendor-invoice-automation"></a>Automação das faturas dos fornecedores
+# <a name="invoice-automation-for-scanned-documents"></a>Automação de fatura para documentos digitalizados
 
 [!include [banner](../includes/banner.md)]
 

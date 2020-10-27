@@ -3,7 +3,7 @@ title: Operação de estoque de entrada no POS
 description: Este tópico descreve os recursos da operação de entrada do estoque do ponto de venda (POS).
 author: hhaines
 manager: annbe
-ms.date: 08/18/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 16a786a4b3ca1bcbd202f6753bdf3bf7233a4333
-ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
+ms.openlocfilehash: 89021a85c2b215695d7cc25215c049205f71956d
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3710300"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971488"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Operação de estoque de entrada no POS
 
@@ -133,6 +133,18 @@ A exibição **Recebendo agora** oferece uma forma objetiva de os usuários visu
 As validações ocorrem durante o processo de recebimento para as linhas do documento. Eles incluem validações para entrega excedente. Se um usuário tentar receber um estoque maior que o solicitado na ordem de compra, mas a entrega excedida não tiver sido configurada ou se a quantidade recebida exceder a tolerância de entrega excedida configurada para a linha da ordem de compra, o usuário receberá uma mensagem de erro e não conseguirá receber a quantidade em excesso.
 
 O recebimento em excesso não é permitido para documentos da ordem de transferência. Os usuários sempre receberão erros se tentarem receber mais do que a quantidade que foi enviada para a linha da ordem de transferência.
+
+### <a name="close-purchase-order-lines"></a>Fechar linhas da ordem de compra
+
+Você pode fechar a quantidade restante em uma ordem de compra de entrada durante o processo de recebimento se a transportadora tiver confirmado que não pode remeter a quantidade total solicitada. Para fazer isso, a empresa deve ser configurada para permitir a entrega insuficiente de ordens de compra. Além disso, um percentual de entrega insuficiente deve ser definido para a linha da ordem de compra.
+
+Para configurar a empresa para permitir a entrega insuficiente de ordens de compra, no Commerce headquarters, vá até **Compras e fornecimento** > **Configuração** > **Parâmetros de compra**. Na guia **Entrega**, ative o parâmetro **Aceitar entrega insuficiente**. Em seguida, execute o trabalho de agendamento de distribuição **1070** (**Configuração global**) para sincronizar as alterações de configurações para os canais.
+
+Os percentuais de tolerância de entrega insuficiente para uma linha da ordem de compra podem ser predefinidos em produtos como parte das configurações do produto no Commerce headquarters. Como alternativa, eles podem ser definidos ou substituídos em uma ordem de compra específica no Commerce headquarters.
+
+Depois que uma organização concluir a configuração da entrega insuficiente da ordem de compra, os usuários do PDV verão uma nova opção **Fechamento da quantidade restante** no painel **Detalhes** quando selecionarem uma linha da ordem de compra de entrada na operação **Estoque de entrada**. Se o usuário fechar a quantidade restante o PDV faz uma validação para verificar se a quantidade que está sendo fechada está dentro do percentual de tolerância de entrega insuficiente definido na linha da ordem de compra. Se a tolerância de entrega insuficiente for excedida, será exibida uma mensagem de erro e o usuário não poderá fechar a quantidade restante até que a quantidade recebida anteriormente, além da quantidade de **Recebendo agora** atender ou ultrapassar a quantidade mínima que precisa ser recebida, com base no percentual de tolerância de entrega insuficiente. 
+
+Com a opção **Fechamento da quantidade restante** ativada para uma linha da ordem de compra, quando o usuário concluir o recebimento usando a ação **Concluir recebimento**, uma solicitação de fechamento também será enviada para o Commerce headquarters e qualquer quantidade não recebida dessa linha da ordem será cancelada. Nesse ponto, a linha é considerada totalmente recebida. 
 
 ### <a name="receiving-location-controlled-items"></a>Recebendo itens controlados pelo local
 

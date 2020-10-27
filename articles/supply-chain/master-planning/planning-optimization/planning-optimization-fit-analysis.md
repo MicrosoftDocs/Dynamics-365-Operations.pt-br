@@ -3,7 +3,7 @@ title: Análise de ajuste da Otimização de Planejamento
 description: Este tópico explica como verificar sua configuração e seus dados atuais em relação aos recursos da funcionalidade Otimização de Planejamento.
 author: ChristianRytt
 manager: tfehr
-ms.date: 09/23/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,22 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 73549097eed6d9418d5ff73e108d1dbae7ed66b3
-ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
+ms.openlocfilehash: 769bd84b4ba23c9de4638df9186381936221414a
+ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3887129"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973443"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Análise de ajuste da Otimização de Planejamento
 
 [!include [banner](../../includes/banner.md)]
 
-Para ver o grau de compatibilidade da sua configuração e seus dados atuais com a funcionalidade Otimização de Planejamento, acesse **Planejamento mestre** \> **Configuração** \> **Análise de ajuste à Otimização de Planejamento** e então selecione **Executar análise**. Se a análise localizar inconsistências, elas serão listadas na mesma página. (A análise pode demorar alguns minutos).
+Você deve analisar o resultado da análise de ajuste da Otimização de Planejamento, como parte do processo de migração. Observe que o escopo da Otimização de Planejamento não é igual à funcionalidade de planejamento mestre incorporado atual. Recomendamos que você trabalhe com seu parceiro e leia a documentação para se preparar para a migração. 
+
+A análise de ajuste da Otimização de Planejamento ajuda a identificar onde o resultado pode diferir entre o mecanismo de planejamento mestre e a Otimização de Planejamento internos. Essa análise é feita com base na configuração e nos dados atuais. 
+
+Para ver o resultado da análise de ajuste de Otimização de Planejamento, vá para o **Planejamento mestre** \> **Configuração** \> **Análise de ajuste da Otimização de Planejamento** e, depois selecione **Executar análise**. Se a análise localizar inconsistências, elas serão listadas na mesma página. (A análise pode demorar alguns minutos).
 
 > [!NOTE]
 > Se forem encontradas inconsistências, você ainda poderá usar a Otimização de Planejamento. Os resultados da análise de ajuste simplesmente mostram locais onde os serviços de planejamento não honrarão sua configuração atual. Em outras palavras, eles mostram os locais onde alguns processos podem estar sendo ignorados ou onde não têm suporte.
@@ -63,7 +67,7 @@ A tabela a seguir mostra os vários resultados que podem ser exibidos após uma 
 | Confirmação | Planos mestres com confirmação automática definida: _\#_ | Na versão 10.0.7 e mais recente, a confirmação automática é suportada como um trabalho em lotes de confirmação separado após a conclusão do planejamento mestre (desde que o recurso _Confirmação automática para a otimização de planejamento_ seja habilitado no [gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Observe que a confirmação automática para otimização de planejamento é baseada na data da ordem (data de início), e não na data do requisito (data final). Esse comportamento garante que a confirmação das ordens planejadas ocorra no tempo devido, sem que seja necessário incluir o prazo de entrega no limite de tempo de confirmação. | Suportado |
 | FitAnalysisPlanningItems | Itens de planejamento: _\#_ | Este recurso está pendente. No momento, o planejamento de itens é tratado como itens comuns quando a otimização do planejamento é habilitada. | 2021 de outubro |
 | Previsão | Grupos de cobertura com "Incluir ordens intercompanhia" habilitado: _\#_ | Este recurso está pendente. No momento, o planejamento mestre não inclui demanda planejada de downstream quando a otimização do planejamento é habilitada, independentemente dessa configuração. Observe que as ordens lançadas/confirmadas ainda funcionam com a funcionalidade intercompanhia regular e cobrir a maioria dos cenários. | 2020 de outubro |
-| Previsão | Os grupos de cobertura com a configuração "Reduzir previsão por" são definidos como um valor diferente de "Pedidos": _\#_ | Por padrão, a otimização do planejamento usa "Reduzir previsão por" para pedidos, independentemente dessa configuração. | 2020 de outubro |
+| Previsão | Os grupos de cobertura com a configuração "Reduzir previsão por" são definidos como um valor diferente de "Pedidos": _\#_ | Por padrão, a otimização do planejamento usa "Reduzir previsão por" para pedidos, independentemente dessa configuração. | Novembro de 2020 |
 | Previsão | Modelos de previsão com submodelos: _\#_ | Este recurso está pendente. No momento, as previsões que usam submodelos não têm suporte quando a otimização de planejamento está habilitada. Eles serão ignorados, independentemente dessa configuração. | 2021 de abril |
 | Previsão | Planejamentos mestres com "Incluir previsão de fornecimento" habilitado: _\#_ | Este recurso está pendente. No momento, as previsões de fornecimento não têm suporte quando a otimização de planejamento está habilitada. Eles serão ignorados, independentemente dessa configuração. | 2021 de outubro |
 | Congelar limite de tempo | Grupos de cobertura com limite de tempo de congelamento definido: _\#_ | O limite de tempo de congelamento não é geralmente usado e, no momento, não há planos para incluí-lo na otimização do planejamento. No momento, a configuração de limite de tempo de congelamento é ignorada quando a otimização do planejamento é habilitada, independentemente dessa configuração. | N/D |
@@ -72,7 +76,7 @@ A tabela a seguir mostra os vários resultados que podem ser exibidos após uma 
 | Intercompanhia | Planos mestres incluindo a demanda downstream planejada: _\#_ | Este recurso está pendente. No momento, o planejamento mestre não inclui demanda planejada de downstream quando a otimização do planejamento é habilitada, independentemente dessa configuração. Observe que as ordens lançadas/confirmadas ainda funcionam com a funcionalidade intercompanhia normal e cobrir a maioria dos cenários. | 2020 de outubro |
 | Kanban | Registros de cobertura de item com kanban do tipo de ordem planejada: _\#_ | Este recurso está pendente. No momento, a cobertura do item definida como kanban será ignorada quando a otimização do planejamento estiver habilitada. O tipo de ordem planejado para kanban criará um aviso durante o planejamento mestre e as ordens de compra planejadas serão criadas para cobrir a demanda relacionada. | 2021 de outubro |
 | Kanban | Itens com o kanban do tipo de ordem padrão: _\#_ | No momento, um tipo de pedido padrão definido como kanban será ignorado quando a otimização do planejamento estiver habilitada. O tipo de ordem padrão para kanban criará um aviso durante o planejamento mestre e as ordens de compra planejadas serão criadas para cobrir a demanda relacionada. | 2021 de outubro |
-| Estado do ciclo de vida do produto   | Estados do ciclo de vida do produto não ativos para planejamento: _\#_ | Este recurso está pendente. No momento o estado do ciclo de vida do produto é ignorado com a otimização de planejamento habilitada. Você pode ajustar o filtro de produto de nível de plano para evitar incluir produtos nos quais o estado do ciclo de vida do produto está desabilitado para planejamento. | 2020 de outubro |
+| Estado do ciclo de vida do produto   | Estados do ciclo de vida do produto não ativos para planejamento: _\#_ | Este recurso está pendente. No momento o estado do ciclo de vida do produto é ignorado com a otimização de planejamento habilitada. Você pode ajustar o filtro de produto de nível de plano para evitar incluir produtos nos quais o estado do ciclo de vida do produto está desabilitado para planejamento. | Novembro de 2020 |
 | Produção | Linhas de BOM com arredondamento ou configuração múltipla: _\#_ | Este recurso está pendente. No momento, o arredondamento e várias configurações são ignorados nas linhas da BOM quando a otimização do planejamento é habilitada, independentemente dessa configuração. | 2021 de abril |
 | Produção | Linhas de fórmula/BOM com medida de fórmula: _\#_ | Este recurso está pendente. No momento, a medida da fórmula é ignorada na BOM e linhas de fórmula quando a otimização do planejamento é habilitada, independentemente dessa configuração. | 2021 de outubro |
 | Produção | Linhas de fórmula/BOM com substituição de itens (grupos de planos): _\#_ | Este recurso está pendente. No momento, substituição de item (grupos de planejamento) é ignorada na BOM e linhas de fórmula quando a otimização do planejamento é habilitada, independentemente dessa configuração. | 2021 de outubro |

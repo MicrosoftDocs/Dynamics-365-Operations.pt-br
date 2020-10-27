@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6710dcb1cb53e7221b03b35ceee5ac8e055b6dd2
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.openlocfilehash: 45a63ab0f5baadf6bef646224b3f0bf5327ee923
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826397"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958732"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Agendamento visual para lean manufacturing
 
@@ -61,7 +61,7 @@ A página **Quadro de programação kanban** contém sete elementos principais, 
 
 ### <a name="view-the-time-scale"></a>Exibir a escala de tempo
 
-O quadro é dividido em períodos, cada um sendo representado como um nó (4). Os nós de período são listados no eixo vertical, e o acesso horizontal representa uma escala de tempo (7) que mostra a duração do período. Um período tem duração de um dia ou uma semana. A duração do período é determinada pela configuração da célula de trabalho selecionada para o quadro de programação kanban (2). Para cada nó de período, o quadro de programação kanban indica quanto os trabalhos kanban agendados estão carregando em relação ao período. Há também uma indicação da produtividade máxima referente ao período. Se a produtividade planejada exceder a produtividade máxima, o período será considerado como sobrecarregado, e aparecerá um símbolo de aviso vermelho. Um trabalho Kanban agendado será mostrado em um período com hora inicial e hora final programadas (5). A duração do trabalho é igual ao tempo de atividade. Os trabalhos kanban aparecerão como sobreposição em um período se seu tempo de atividade exceder o takt time da célula de trabalho.
+O quadro é dividido em períodos, cada um sendo representado como um nó (4). Os nós de período são listados no eixo vertical e o eixo horizontal representa uma escala de tempo (7) que mostra a duração do período. Um período tem duração de um dia ou uma semana. A duração do período é determinada pela configuração da célula de trabalho selecionada para o quadro de programação kanban (2). Para cada nó de período, o quadro de programação kanban indica quanto os trabalhos kanban agendados estão carregando em relação ao período. Há também uma indicação da produtividade máxima referente ao período. Se a produtividade planejada exceder a produtividade máxima, o período será considerado como sobrecarregado, e aparecerá um símbolo de aviso vermelho. Um trabalho Kanban agendado será mostrado em um período com hora inicial e hora final programadas (5). A duração do trabalho é igual ao tempo de atividade. Os trabalhos kanban aparecerão como sobreposição em um período se seu tempo de atividade exceder o tempo da tarefa da célula de trabalho.
 
 ### <a name="view-job-status"></a>Exibir status do trabalho
 

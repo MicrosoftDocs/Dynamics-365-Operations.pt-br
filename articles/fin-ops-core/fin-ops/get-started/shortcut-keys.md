@@ -3,7 +3,7 @@ title: Atalhos de teclado
 description: Este tópico fornece uma visão geral das combinações de teclas de atalho que você pode usar ao trabalhar com aplicativos do Finance and Operations.
 author: jasongre
 manager: AnnBe
-ms.date: 10/02/2019
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41d5fb270e7b01effc650b24626b81ced647a399
-ms.sourcegitcommit: 95d06006142e6bf83351fb075b413fdc2074d5ee
+ms.openlocfilehash: 982fbef1af504ad70aa0e7c4ecf19f09fb599d16
+ms.sourcegitcommit: ebb110b0b73c99929636d26811a6f9c186080ddb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761612"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3962511"
 ---
 # <a name="keyboard-shortcuts"></a>Atalhos de teclado
 
@@ -32,6 +32,8 @@ Os atalhos de teclado a seguir podem ajudá-lo e inserir vários dados com rapid
 
 > [!NOTE]
 > As teclas de atalho descritas aqui referem-se ao layout de teclado dos Estados Unidos. As teclas de outros layouts de teclado podem não corresponder exatamente às teclas do teclado dos EUA.
+
+Alguns dos atalhos nesta página são *pressionar simultaneamente*, que significa que são necessários dois conjuntos consecutivos de combinações de teclas (separadas por vírgula) que precisam ser pressionadas independentemente para disparar a ação necessária. Por exemplo, o atalho "Alt + M,A" exige que o usuário primeiro pressione "Alt + M", solte as teclas e pressione "A". 
 
 ## <a name="finding-a-shortcut"></a>Localizando um atalho
 
@@ -193,7 +195,7 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 | Mover para o conteúdo da página principal (com foco em outro painel)                    | Alt+M,M                    |
 | Mover para o painel Quadro de Fatos (que pode incluir sua abertura)                       | Alt+M,B ou Ctrl+F2         |
 
-## <a name="personalization-shortcuts"></a>Atalhos de personalização
+## <a name="personalization-shortcuts"></a>Atalhos de [Personalização](personalize-user-experience.md) 
 
 | Para                                                                                                             | Pressione                               |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
@@ -237,7 +239,20 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 | Mover uma página para cima/para baixo na pesquisa                                                                                       | Page Up / Page Down              |
 | Mover para o topo/parte inferior da pesquisa                                                                                    | Início/Fim                       |
 
+## <a name="task-recordershortcuts"></a>Atalhos do [Gravador de tarefas](../../dev-itpro/user-interface/task-recorder.md) 
+
+| Para                                                                    | Pressionar                       |
+|-------------------------------------------------------------------------------|----------------------------|
+| Parar a gravação (durante a gravação)                                          | Alt+R,S                    |
+| Alternar a visibilidade do painel do Gravador de tarefas (durante a gravação)             | Alt+R,T                    |
+| Alternar modo Trilhas (ao executar um guia de tarefas)                                | Alt+R,L                    |
+| Ir para a etapa anterior (durante a execução de um guia de tarefas)                          | Alt+R,P                    |
+| Ir para a próxima etapa (durante a execução de um guia de tarefas)                              | Alt+R,N                    |
+| Alternar o foco entre a página e o aviso de pop-up animado (durante a execução de um guia de tarefas) | Alt+R,F               |
+| Expandir/recolher o aviso de pop-up animado (ao executar um guia de tarefas)              | Alt+R,C                    |
+| Mostrar mais/menos informações no aviso de pop-up animado (durante a execução de um guia de tarefas) | Alt+R,M                    |
+
 ## <a name="additional-resources"></a>Recursos adicionais
 
-- [Atalhos de teclado para a análise de conta ausente](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
+[Atalhos de teclado para a análise de conta ausente](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
