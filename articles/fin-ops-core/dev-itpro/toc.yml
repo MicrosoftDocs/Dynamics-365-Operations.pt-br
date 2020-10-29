@@ -136,19 +136,21 @@
                           href: data-entities/dual-write/dual-write-home-page.md
                         - name: Novidades ou alterações na gravação dupla
                           href: data-entities/dual-write/whats-new-dual-write.md
-                        - name: Visão geral da gravação dupla
+                        - name: Visão geral de gravação dupla
                           href: data-entities/dual-write/dual-write-overview.md
                         - name: Configuração da gravação dupla
                           items:
                             - name: Requisitos do sistema para gravação dupla
                               href: data-entities/dual-write/dual-write-system-req.md
-                            - name: Cenários com suporte para configuração da gravação dupla
+                            - name: Orientações sobre como configurar a gravação dupla
                               href: data-entities/dual-write/connection-setup.md
+                            - name: Considerações para a sincronização inicial
+                              href: data-entities/dual-write/initial-sync-guidance.md
                             - name: Configuração da gravação dupla do Lifecycle Services
                               href: data-entities/dual-write/lcs-setup.md
-                            - name: Habilitar gravação dupla para aplicativos Finance and Operations existentes
+                            - name: Habilitar gravação dupla para aplicativos do Finance and Operations existentes
                               items:
-                                - name: Habilitar gravação dupla para aplicativos Finance and Operations existentes
+                                - name: Habilitar gravação dupla para aplicativos do Finance and Operations existentes
                                   href: data-entities/dual-write/enable-dual-write.md
                                 - name: Pré-requisitos e requisitos do sistema
                                   href: data-entities/dual-write/requirements-and-prerequisites.md
@@ -404,6 +406,8 @@
                   href: database/database-point-in-time-restore.md
                 - name: Restauração pontual do banco de dados de produção para um ambiente de área restrita
                   href: database/database-pitr-prod-sandbox.md
+                - name: Habilitar acesso ao banco de dados just-in-time
+                  href: database/database-just-in-time-jit-access.md
             - name: Tutoriais
               items:
                 - name: Atualização para fins de treinamento
@@ -480,6 +484,8 @@
                   href: deployment/Update-retail-channel.md
                 - name: Inicializar a Commerce Scale Unit (nuvem)
                   href: deployment/Initialize-Retail-Channels.md
+                - name: Migrar canais para uma Commerce Scale Unit diferente
+                  href: deployment/Reassign-CSU.md
                 - name: Residência de dados do Retail
                   href: deployment/retail-data-residency.md
             - name: Implantação local
@@ -1458,9 +1464,9 @@
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
             - name: Obter suporte para o Finance and Operations operado pela 21Vianet na China
               href: lifecycle-services/21vianet-support.md
-            - name: Configurar suporte técnico para o Finance and Operations
+            - name: Configurar suporte técnico para os aplicativos do Finance and Operations
               href: lifecycle-services/support-experience.md
-            - name: Gerenciar experiências de suporte do Finance and Operations
+            - name: Gerenciar experiências de suporte para os aplicativos do Finance and Operations
               href: lifecycle-services/cloud-powered-support-lcs.md
         - name: Administração do sistema
           items:
@@ -1582,7 +1588,7 @@
                   href: migration-upgrade/app-validation-process.md
                 - name: Upgrade do AX 2012 — Teste funcional aprovado
                   href: migration-upgrade/upgrade-functional-validation.md
-                - name: Upgrade do AX 2012 - ​Preparar para a ativação​
+                - name: Upgrade do AX 2012 - ​Preparar para o Go Live​
                   href: migration-upgrade/upgrade-go-live-prep.md
                 - name: Upgrade do AX 2012 — Ativar
                   href: migration-upgrade/2012-upgrade-cutover.md
