@@ -5,6 +5,12 @@
       items:
         - name: Novidades ou alterações no Human Resources
           href: hr-admin-whats-new.md
+        - name: 22 de outubro de 2002
+          href: hr-whats-new-2020-10-22.md
+        - name: 6 de outubro de 2020
+          href: hr-whats-new-2020-10-06.md
+        - name: 26 de setembro de 2020
+          href: hr-whats-new-2020-09-26.md
         - name: 16 de setembro de 2020
           href: hr-whats-new-2020-09-16.md
         - name: 3 de setembro de 2020
@@ -83,6 +89,8 @@
               href: hr-admin-integration-dayforce.md
             - name: Criar um aplicativo de exportação de dados recorrente
               href: hr-admin-integration-recurring-data-export.md
+            - name: Integrar com o LinkedIn Talent Hub
+              href: hr-admin-integration-linkedin.md
             - name: Integrar com o Office
               items:
                 - name: Tutorial de integração do Office
@@ -217,6 +225,10 @@
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
         - name: Aplicativo Human Resources no Teams
           href: hr-admin-teams-leave-app.md
+        - name: Preparar para o Go Live
+          href: hr-admin-go-live-prepare.md
+        - name: Perguntas frequentes sobre o Go Live
+          href: hr-admin-go-live-faq.md
         - name: Recursos de documentação
           items:
             - name: Sistema de ajuda
@@ -665,11 +677,13 @@
               href: hr-learning-create-closed-ended-question.md
             - name: Criar uma pergunta dependente
               href: hr-learning-depending-question.md
-        - name: Configurar autoatendimento de Funcionário e Gerente
+        - name: Configurar Autoatendimento para funcionários e gerentes
           items:
-            - name: Visão geral de autoatendimento de Funcionário e Gerente
+            - name: Visão geral de Autoatendimento para funcionários e gerentes
               href: hr-employee-manager-self-service-overview.md
-            - name: Alterar o nome do espaço de trabalho de autoatendimento do Funcionário
+            - name: Criar links personalizados no Autoatendimento para gerentes
+              href: hr-employee-manager-self-service-custom-links.md
+            - name: Alterar o nome do espaço de trabalho de Autoatendimento para funcionários
               href: hr-employee-self-service-workspace-name.md
             - name: Editar informações pessoais
               href: hr-employee-manager-self-service-edit-personal-information.md
