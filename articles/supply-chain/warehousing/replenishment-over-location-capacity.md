@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSReplenishmentTemplates, WHSLocationLimit
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 5591af5fce4eb3fc901919b98f654faa5e160c54
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 8e9ae16fea892d1d6b6a6b5d06137576623e7f5b
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652210"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016599"
 ---
 # <a name="replenishment-over-location-capacity"></a>Reabastecimento sobre a capacidade do local
 
@@ -52,7 +53,7 @@ Habilite a funcionalidade de reabastecimento sobre capacidade no perfil de local
 1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Perfis de localizações**.
 1. No painel esquerdo, selecione **PICK-06**.
 1. No Painel de Ações, selecione **Editar**.
-1. Na FastTab **Reabastecimento**, defina os seguintes valores:
+1. Na FastTab **Reabastecimento** , defina os seguintes valores:
 
     - **Exceder Capacidade de Localização:** *Sim*
 
@@ -97,7 +98,7 @@ Habilite a funcionalidade de reabastecimento sobre capacidade no perfil de local
         Os limites do estoque de localização são considerados quando a porcentagem da quantidade de trabalho é calculada. Se nenhum limite de estoque de localização for definido, a porcentagem da quantidade de trabalho será calculada por volume se as restrições de volume forem definidas para o perfil do local.
 
 > [!IMPORTANT]
-> Se você estiver usando os dados de demonstração da entidade legal **USMF** e previamente ativou o recurso *Posicionamento da placa de licença de localização*, desative a configuração **Habilitar posicionamento da placa de licença** para o perfil de localização **BULK-06** para concluir as etapas móveis no cenário de exemplo.
+> Se você estiver usando os dados de demonstração da entidade legal **USMF** e previamente ativou o recurso *Posicionamento da placa de licença de localização* , desative a configuração **Habilitar posicionamento da placa de licença** para o perfil de localização **BULK-06** para concluir as etapas móveis no cenário de exemplo.
 
 ### <a name="wave-step-code"></a>Código da etapa da onda
 
@@ -119,7 +120,7 @@ Modelos de reabastecimento são um conjunto de regras que controlam como e quand
 
 1. Vá para **Gerenciamento de depósito \> Configuração \> Reabastecimento \> Modelos de reabastecimento**.
 1. No Painel de Ações, selecione **Editar**.
-1. Na seção **Visão geral**, selecione a linha em que o campo **Modelo de reabastecimento** está definido como *Reabastecimento de demanda*.
+1. Na seção **Visão geral** , selecione a linha em que o campo **Modelo de reabastecimento** está definido como *Reabastecimento de demanda*.
 1. Defina os seguintes valores:
 
     - **Código da etapa da onda:** *Reabastecimento*
@@ -133,11 +134,11 @@ Modelos de reabastecimento são um conjunto de regras que controlam como e quand
 1. No painel esquerdo, defina o campo **Tipo de modelo de onda** como *Remessa*.
 1. Selecione o modelo **Remessa 61** na lista.
 1. No Painel de Ações, selecione **Editar**.
-1. Na FastTab **Geral**, defina a opção **Automatizar liberação do trabalho de reabastecimento** como *Sim*.
+1. Na FastTab **Geral** , defina a opção **Automatizar liberação do trabalho de reabastecimento** como *Sim*.
 
     Defina esta opção como *Sim* para criar o trabalho de reabastecimento baseado em demanda e liberá-lo automaticamente. Você deve adicionar o método de onda de reabastecimento ao modelo de onda e criar um modelo de reabastecimento do tipo **Demanda da onda**. Configure um modelo de reabastecimento na página **Modelos de reabastecimento**. Para configurar um modelo de reabastecimento, você deve adicionar o método de reabastecimento ao modelo de onda.
 
-1. Na FastTab **Métodos**, na coluna **Métodos selecionados**, localize a seguinte linha:
+1. Na FastTab **Métodos** , na coluna **Métodos selecionados** , localize a seguinte linha:
 
     - **Nome do método:** *reabastecimento*
     - **Nome:** *Reabastecimento*
@@ -166,10 +167,10 @@ Após disponibilizar todos os dados de exemplo descritos anteriormente e configu
     - **Número de item:** *T0100*
     - **Quantidade:** *40*
 
-1. Na FastTab **Linhas da ordem de venda**, selecione **Estoque \> Reserva**.
-1. Na página **Reserva**, selecione **Reservar lote**.
+1. Na FastTab **Linhas da ordem de venda** , selecione **Estoque \> Reserva**.
+1. Na página **Reserva** , selecione **Reservar lote**.
 1. Feche a página.
-1. No Painel de Ações, na guia **Depósito**, selecione **Liberar para o depósito**.
+1. No Painel de Ações, na guia **Depósito** , selecione **Liberar para o depósito**.
 
     Você recebe mensagens informativas que mostram IDs da onda e da remessa que foram criadas. Uma onda de reabastecimento também é criada.
 
@@ -177,7 +178,7 @@ Após disponibilizar todos os dados de exemplo descritos anteriormente e configu
 
 #### <a name="create-sales-order-2"></a>Criar ordem de venda 2
 
-1. Na página **Todas as ordens de venda**, no Painel de Ações, selecione **Novo** para abrir uma caixa de diálogo para criar uma nova ordem de venda.
+1. Na página **Todas as ordens de venda** , no Painel de Ações, selecione **Novo** para abrir uma caixa de diálogo para criar uma nova ordem de venda.
 1. Na caixa de diálogo , defina o seguinte valor:
 
     - **Conta de cliente:** *US-001*
@@ -189,10 +190,10 @@ Após disponibilizar todos os dados de exemplo descritos anteriormente e configu
     - **Número de item:** *T0100*
     - **Quantidade:** *60*
 
-1. Na FastTab **Linhas da ordem de venda**, selecione **Estoque \> Reserva**.
-1. Na página **Reserva**, selecione **Reservar lote**.
+1. Na FastTab **Linhas da ordem de venda** , selecione **Estoque \> Reserva**.
+1. Na página **Reserva** , selecione **Reservar lote**.
 1. Feche a página.
-1. No Painel de Ações, na guia **Depósito**, selecione **Liberar para o depósito**.
+1. No Painel de Ações, na guia **Depósito** , selecione **Liberar para o depósito**.
 
     Você recebe mensagens informativas que mostram IDs da onda e da remessa que foram criadas. Uma onda de reabastecimento também é criada.
 
@@ -200,7 +201,7 @@ Após disponibilizar todos os dados de exemplo descritos anteriormente e configu
 
 #### <a name="create-sales-order-3"></a>Criar ordem de venda 3
 
-1. Na página **Todas as ordens de venda**, no Painel de Ações, selecione **Novo** para abrir uma caixa de diálogo para criar uma nova ordem de venda.
+1. Na página **Todas as ordens de venda** , no Painel de Ações, selecione **Novo** para abrir uma caixa de diálogo para criar uma nova ordem de venda.
 1. Na caixa de diálogo , defina os seguintes valores:
 
     - **Conta de cliente:** *US-004*
@@ -212,10 +213,10 @@ Após disponibilizar todos os dados de exemplo descritos anteriormente e configu
     - **Número de item:** *T0100*
     - **Quantidade:** *30*
 
-1. Na FastTab **Linhas da ordem de venda**, selecione **Estoque \> Reserva**.
-1. Na página **Reserva**, selecione **Reservar lote**.
+1. Na FastTab **Linhas da ordem de venda** , selecione **Estoque \> Reserva**.
+1. Na página **Reserva** , selecione **Reservar lote**.
 1. Feche a página.
-1. No Painel de Ações, na guia **Depósito**, selecione **Liberar para o depósito**.
+1. No Painel de Ações, na guia **Depósito** , selecione **Liberar para o depósito**.
 
     Você recebe mensagens informativas que mostram IDs da onda e da remessa que foram criadas. Uma onda de reabastecimento também é criada.
 
@@ -224,11 +225,11 @@ Após disponibilizar todos os dados de exemplo descritos anteriormente e configu
 #### <a name="view-work-details"></a>Exibir detalhes do trabalho
 
 1. Vá para **Gerenciamento de depósito \> Trabalho \> Detalhes do trabalho**.
-1. Na seção **Visão geral**, filtre a coluna **Depósito** para o depósito *61*.
+1. Na seção **Visão geral** , filtre a coluna **Depósito** para o depósito *61*.
 1. Note que foram criadas sete IDs de trabalho para as três ordens de venda de demanda.
 
     - Três das sete IDs de trabalho têm um **Tipo de ordem de trabalho** com valor de *Reabastecimento* e quatro têm um **Tipo de ordem de trabalho** com valor de *Ordens de venda*.
-    - Todas as três IDs de trabalho com **Tipo de ordem de trabalho** com valor de *Reabastecimento* têm as mesmas localizações de *Separação* e *Colocação* na seção **Linhas**:
+    - Todas as três IDs de trabalho com **Tipo de ordem de trabalho** com valor de *Reabastecimento* têm as mesmas localizações de *Separação* e *Colocação* na seção **Linhas** :
 
         - **Separar:** *02A01R5S1B*
         - **Colocar:** *06A01R2S1B*
@@ -254,8 +255,8 @@ Para localizar as IDs de placa de licença que serão necessárias posteriorment
 
 1. Selecione **Aplicar**.
 1. No Painel de Ação, selecione **Dimensões**.
-1. Na caixa de diálogo **Exibição de dimensões**, na seção **Dimensões de Armazenamento**, selecione todos os valores.
-1. Na seção **Transações**, selecione **Número do item** e **Quantidade \<\> 0**.
+1. Na caixa de diálogo **Exibição de dimensões** , na seção **Dimensões de Armazenamento** , selecione todos os valores.
+1. Na seção **Transações** , selecione **Número do item** e **Quantidade \<\> 0**.
 1. Quando terminar, selecione **OK** para fechar a caixa de diálogo.
 1. A grade **Disponível** mostra os números das placas de licença para o item *T0100* em cada local. Anote a placa da licença que está em cada local, pois essas informações serão necessárias posteriormente.
 1. Feche a página.
@@ -271,7 +272,7 @@ Você executará o reabastecimento de localização de depósito para as duas pr
 
     Você será solicitado a concluir o primeiro trabalho de reabastecimento. O número do item, a quantidade e o local de separação são mostrados.
 
-1. No campo **LP**, insira o número da placa de licença para o item na localização que é mostrada.
+1. No campo **LP** , insira o número da placa de licença para o item na localização que é mostrada.
 1. Selecione o botão **OK** (símbolo de marca de seleção).
 
     O sistema gera um número de placa de licença de destino para a nova placa de licença para o item separado.
@@ -306,12 +307,12 @@ Antes da conclusão da tarefa de trabalho de reabastecimento restante, o estoque
 
     A página de tarefa **Ordens de venda: separar** mostra o número do item, a quantidade e o local para seleção para a primeira localização.
 
-1. No campo **LP**, insira o número da placa de licença para o item na localização que é mostrada.
+1. No campo **LP** , insira o número da placa de licença para o item na localização que é mostrada.
 1. Selecione o botão **OK** (símbolo de marca de seleção).
 
     A página de tarefa **Ordens de venda: separar** mostra o número do item, a quantidade e o local para seleção para a próxima localização.
 
-1. No campo **LP**, insira o número da placa de licença para o item na localização que é mostrada.
+1. No campo **LP** , insira o número da placa de licença para o item na localização que é mostrada.
 1. Selecione o botão **OK** (símbolo de marca de seleção).
 
     A página **Ordens de venda: colocar** orienta a armazenar os trabalhos de separação concluídos no local de preparo de saída.
@@ -328,7 +329,7 @@ Antes da conclusão da tarefa de trabalho de reabastecimento restante, o estoque
 
     A página de tarefa **Ordens de venda: separar** mostra o número do item, a quantidade e o local para seleção.
 
-1. No campo **LP**, insira o número da placa de licença para o item na localização que é mostrada.
+1. No campo **LP** , insira o número da placa de licença para o item na localização que é mostrada.
 
     A placa de licença especificada será uma das placas de licença geradas pelo sistema das tarefas de trabalho de reabastecimento. Para verificar se você captura a ID da placa de licença correta, verifique o estoque na página **Lista disponível** para o item, o local e a quantidade.
 
@@ -348,7 +349,7 @@ A ordem de venda 2 é bloqueada para separação porque a tarefa de reabastecime
 
     A página de tarefa **Ordens de venda: separar** mostra o número do item, a quantidade e o local para seleção.
 
-1. No campo **LP**, insira o número da placa de licença para o item na localização que é mostrada.
+1. No campo **LP** , insira o número da placa de licença para o item na localização que é mostrada.
 
     A placa de licença especificada será uma das placas de licença geradas pelo sistema das tarefas de trabalho de reabastecimento. Para verificar se você captura a ID da placa de licença correta, verifique o estoque na página **Lista disponível** para o item, o local e a quantidade.
 
@@ -360,7 +361,7 @@ A ordem de venda 2 é bloqueada para separação porque a tarefa de reabastecime
 
 Assim que a soma da quantidade disponível no local de separação e a quantidade de reabastecimento estiver abaixo do limite, você poderá processar o trabalho de reabastecimento restante.
 
-Retorne à página **Detalhes do trabalho** e observe que a disponibilidade do trabalho de reabastecimento para a parte final do reabastecimento (para a ordem de venda 2) está *Aberta*, pois há espaço suficiente no local para aceitar o reabastecimento.
+Retorne à página **Detalhes do trabalho** e observe que a disponibilidade do trabalho de reabastecimento para a parte final do reabastecimento (para a ordem de venda 2) está *Aberta* , pois há espaço suficiente no local para aceitar o reabastecimento.
 
 Agora você pode processar este trabalho de reabastecimento por meio do dispositivo móvel.
 
@@ -368,7 +369,7 @@ Agora você pode processar este trabalho de reabastecimento por meio do disposit
 
     Você será solicitado a concluir o trabalho restante de reabastecimento. O número do item, a quantidade e o local de separação são mostrados.
 
-1. No campo **LP**, insira o número da placa de licença para o item na localização que é mostrada.
+1. No campo **LP** , insira o número da placa de licença para o item na localização que é mostrada.
 1. Selecione o botão **OK** (símbolo de marca de seleção).
 
     O sistema gera um número de placa de licença de destino para a nova placa de licença para o item separado.
@@ -391,7 +392,7 @@ Agora, você pode separar a ordem de venda 2. Ele se tornou desbloqueada quando 
 
     A página de tarefa **Ordens de venda: separar** mostra o número do item, a quantidade e o local para seleção.
 
-1. No campo **LP**, insira o número da placa de licença para o item na localização que é mostrada.
+1. No campo **LP** , insira o número da placa de licença para o item na localização que é mostrada.
 
     A placa de licença especificada será a placa de licença gerada pelo sistema da tarefa de trabalho de reabastecimento. Para verificar se você captura a ID da placa de licença correta, verifique o estoque na página **Lista disponível** para o item, o local e a quantidade.
 

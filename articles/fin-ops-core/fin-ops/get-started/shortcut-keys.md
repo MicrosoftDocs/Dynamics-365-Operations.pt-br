@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 982fbef1af504ad70aa0e7c4ecf19f09fb599d16
-ms.sourcegitcommit: ebb110b0b73c99929636d26811a6f9c186080ddb
+ms.openlocfilehash: 1a69e262c1dc731839e0bf347a0fb14983742dbe
+ms.sourcegitcommit: 361050bed5e0feabd370d225ec70784fc1933258
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3962511"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4013171"
 ---
 # <a name="keyboard-shortcuts"></a>Atalhos de teclado
 
@@ -33,7 +33,7 @@ Os atalhos de teclado a seguir podem ajudá-lo e inserir vários dados com rapid
 > [!NOTE]
 > As teclas de atalho descritas aqui referem-se ao layout de teclado dos Estados Unidos. As teclas de outros layouts de teclado podem não corresponder exatamente às teclas do teclado dos EUA.
 
-Alguns dos atalhos nesta página são *pressionar simultaneamente*, que significa que são necessários dois conjuntos consecutivos de combinações de teclas (separadas por vírgula) que precisam ser pressionadas independentemente para disparar a ação necessária. Por exemplo, o atalho "Alt + M,A" exige que o usuário primeiro pressione "Alt + M", solte as teclas e pressione "A". 
+Alguns dos atalhos nesta página são *pressionar simultaneamente* , que significa que são necessários dois conjuntos consecutivos de combinações de teclas (separadas por vírgula) que precisam ser pressionadas independentemente para disparar a ação necessária. Por exemplo, o atalho "Alt + M,A" exige que o usuário primeiro pressione "Alt + M", solte as teclas e pressione "A". 
 
 ## <a name="finding-a-shortcut"></a>Localizando um atalho
 
@@ -239,7 +239,7 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 | Mover uma página para cima/para baixo na pesquisa                                                                                       | Page Up / Page Down              |
 | Mover para o topo/parte inferior da pesquisa                                                                                    | Início/Fim                       |
 
-## <a name="task-recordershortcuts"></a>Atalhos do [Gravador de tarefas](../../dev-itpro/user-interface/task-recorder.md) 
+## <a name="task-recorder-shortcuts"></a>Atalhos do [Gravador de tarefas](../../dev-itpro/user-interface/task-recorder.md) 
 
 | Para                                                                    | Pressionar                       |
 |-------------------------------------------------------------------------------|----------------------------|

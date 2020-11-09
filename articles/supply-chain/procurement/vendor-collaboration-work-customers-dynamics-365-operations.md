@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart
+ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart, VendVendorProfileCard, PurchVendorPortalAllResponse, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 240fdfb3519e1c4526c46fa3d5e3fbaa8e5a467e
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 540f4f4e4a047b5bc33c9be387c8940175f5f919
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207338"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018137"
 ---
 # <a name="vendor-collaboration-with-customers"></a>​Colaboração de fornecedores com clientes​
 
@@ -42,7 +42,7 @@ Os fornecedores também podem monitoram informações sobre o estoque em consign
 
 O espaço de trabalho **Confirmação de ordem de compra** permite que você responda a OCs enviadas para sua revisão. Ele também permite exibir informações sobre OCs que estão esperando uma ação do cliente e OCs que já foram confirmadas, mas ainda estão abertas.
 
-Há três listas no espaço de trabalho **Confirmação de ordem de compra**:
+Há três listas no espaço de trabalho **Confirmação de ordem de compra** :
 
 - **Ordens de compra para revisão** – Essa lista mostra as OCs que foram enviadas você e estão aguardando uma resposta sua. Depois de responder, a PO desaparece da lista. Se o cliente enviar uma nova versão da OC antes de você responder à versão anterior, apenas a versão mais recente será exibida.
 - **Aguardando ação do cliente** – essa lista mostra todas as OCs que você respondeu, mas que ainda não foram confirmadas pelo cliente. Se você aceitar a OC, você pode monitorá-la nessa lista até que o status mude para **Confirmada**. Se você rejeitar uma OC ou aceitá-la com alterações, você pode monitorá-la aqui até que o cliente envie uma nova versão.
@@ -59,13 +59,13 @@ Você pode usar os seguintes páginas para trabalhar com OCs:
 
 As OCs que o cliente envia para revisão são exibidas no espaço de trabalho **Confirmação da ordem de compra** e na página **Ordens de compra para revisão**. Depois de abrir uma OC, pode aceitá-la, rejeitá-la ou aceitá-la com alterações. Podem haver anexos no cabeçalho da OC ou nas linhas individuais. Também é possível anexar informações sobre sua resposta no cabeçalho da OC ou nas linhas individuais. Por exemplo, você pode sugerir um item substituto para uma das linhas.
 
-Você pode visualizar e imprimir a OC como um arquivo PDF usando a opção **Visualizar/Imprimir**. Você também pode usar a ação **Exibir dimensões** para ocultar ou mostrar as seguintes colunas da dimensão: **Local**, **Depósito**, **Cor**, **Tamanho**, **Estilo** e **Configuração**. 
+Você pode visualizar e imprimir a OC como um arquivo PDF usando a opção **Visualizar/Imprimir**. Você também pode usar a ação **Exibir dimensões** para ocultar ou mostrar as seguintes colunas da dimensão: **Local** , **Depósito** , **Cor** , **Tamanho** , **Estilo** e **Configuração**. 
 
-Se você usar a opção **Aceitar com alterações**, você pode aceitar ou rejeitar linhas individuais. Você também pode fazer as seguintes alterações em linhas:
+Se você usar a opção **Aceitar com alterações** , você pode aceitar ou rejeitar linhas individuais. Você também pode fazer as seguintes alterações em linhas:
 
 - Alterar datas ou quantidades. Para atualizar a data de entrega confirmada em todas as linhas, use a opção **Atualizar data de entrega** no cabeçalho da OC.
 - Dividir linhas para datas de entrega ou quantidades diferentes.
-- Substituir um item. In the **Detalhes da linha**, informe uma descrição do item e o número do item no campo **Externo**.
+- Substituir um item. In the **Detalhes da linha** , informe uma descrição do item e o número do item no campo **Externo**.
 
 Você não pode alterar informações de preço ou encargos, mas pode usar as notas para fazer sugestões para essas alterações.
 
@@ -124,13 +124,13 @@ As pessoas que trabalham no setor público podem ver RFQs abertas e expiradas qu
 - Selecione **Redefinir de RFQ** para redefinir os dados inseridos para uma oferta e reverte para a RFQ original. Você pode redefinir o cabeçalho ou a linha.
 - Selecione **Adicionar alternativa** ou **Remover alternativa** na grade de linha para trabalhar com alternativas.
 
-    Algumas RFQs permitem lances alternativos. Você pode especificar lances alternativos somente para linhas do tipo **Categoria**, pois os itens específicos não podem ser adicionados como alternativas. 
+    Algumas RFQs permitem lances alternativos. Você pode especificar lances alternativos somente para linhas do tipo **Categoria** , pois os itens específicos não podem ser adicionados como alternativas. 
 
 - Selecione **Anexo da RFQ** ou **Anexo de linhas de RFQ** para abrir qualquer anexo que o cliente adicionou a uma RFQ. Selecione **Anexos do lance** ou **Anexos de linha do lance** para carregar os anexos com o lance.
 
     Pode haver os questionários que você deve responder antes de ter permissão para enviar um lance.
 
-- Selecione **Recusar** se não quiser fazer o lance. Após selecionar **Recusar**, você não poderá cancelar a ação e inserir um lance.
+- Selecione **Recusar** se não quiser fazer o lance. Após selecionar **Recusar** , você não poderá cancelar a ação e inserir um lance.
 
 Se uma RFQ for alterada, você deve inserir um novo lance. Você pode encontrar informações sobre a alteração na guia **Alterações** da página de RFQ. As RFQs aparecem na página **Novos convites do lance**.
 

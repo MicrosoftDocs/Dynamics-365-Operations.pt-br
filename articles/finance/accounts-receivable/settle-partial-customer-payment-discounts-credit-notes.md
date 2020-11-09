@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1a37b7c5aea22711938133d43b552eec9260f0a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: da4353849b053ff94cf1fda7a03568438d0111da
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188961"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4014998"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Liquidar um pagamento parcial de cliente com descontos em notas de crédito
 
@@ -42,7 +42,7 @@ O cliente 4035 possui uma fatura de 1.000,00 e uma nota de crédito de 100,00. C
 | CCRN-10050 | Nota de crédito      | 28/6/2015 | CR-10050 |                                      | 100,00                                | -100,00  | USD      |
 
 ## <a name="settle-a-credit-note-with-an-invoice"></a>Liquidar uma nota de crédito com uma fatura
-Na página **Transações do cliente**, Arnie abre a página **Liquidar transações**. Ele pode usa a página **Liquidar transações** para liquidar a fatura e a nota de crédito. Como parte do processo de liquidação ele exibe as datas e os valores de desconto à vista. Ele marca os dois documentos e clica em **Lançar** para liquidar as transações. Há um desconto de -1,00 na nota de crédito, pois a Fabrikam permite descontos em notas de crédito.
+Na página **Transações do cliente** , Arnie abre a página **Liquidar transações**. Ele pode usa a página **Liquidar transações** para liquidar a fatura e a nota de crédito. Como parte do processo de liquidação ele exibe as datas e os valores de desconto à vista. Ele marca os dois documentos e clica em **Lançar** para liquidar as transações. Há um desconto de -1,00 na nota de crédito, pois a Fabrikam permite descontos em notas de crédito.
 
 | Marcar     | Usar desconto à vista | Comprovante    | Conta | Data      | Data de conclusão  | Fatura  | Valor na moeda da transação | Moeda | Valor para liquidar |
 |----------|-------------------|------------|---------|-----------|-----------|----------|--------------------------------|----------|------------------|
@@ -51,13 +51,11 @@ Na página **Transações do cliente**, Arnie abre a página **Liquidar transaç
 
 As informações do desconto aparecem na parte inferior da página **Liquidar transações**.
 
-|                              |           |
-|------------------------------|-----------|
-| Data do desconto à vista           | 12/7/2015 |
-| Valor de desconto à vista         | -1.00     |
-| Usar desconto à vista            | Normal    |
-| Desconto à vista obtido          | 0,00      |
-| Valor do desconto à vista a ser obtido | -1.00     |
+- **Data do desconto à vista** : 12/07/2015 
+- **Valor de desconto à vista** : -1,00     
+- **Usar desconto à vista** : Normal    
+- **Desconto à vista obtido** : 0,00      
+- **Valor do desconto à vista a ser obtido** : -1,00     
 
 A liquidação será de 100,00 e incluirá um pagamento de 99,00 e um desconto de 1,00.
 

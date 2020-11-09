@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
+ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationSetShipment
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 8320c8aab82a39a8a5565e6b3e805e1065c67453
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 1eec1a8e3a9a2a0f95302e1d6ea68eb90b9a3b93
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986806"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016807"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Consolidar remessas usando a bancada de consolidação de remessa
 
@@ -39,7 +39,7 @@ O cenário descrito aqui pressupõe que você já ativou o recurso, fez os exerc
 
 ## <a name="turn-on-the-manual-shipment-consolidation-feature"></a>Ative o recurso de consolidação de remessa manual
 
-Para usar o recurso *Consolidação de remessa manual*, você precisa ativá-lo no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+Para usar o recurso *Consolidação de remessa manual* , você precisa ativá-lo no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos** , o recurso está listado da seguinte forma:
 
 - **Módulo:** *Gerenciamento de Depósito*
 - **Nome do recurso:** *Consolidação de remessa manual*
@@ -100,13 +100,13 @@ Vá para **Contas a receber \> Ordens \> Todas as ordens de venda** e crie uma c
 
 1. Adicione uma linha da ordem com as seguintes configurações:
 
-    - **Número do item:** *M9200* (um item no qual o filtro **Código 4** está definido como *Inflamável*)
+    - **Número do item:** *M9200* (um item no qual o filtro **Código 4** está definido como *Inflamável* )
     - **Quantidade:** *1.00*
 
 1. Selecione **Estoque \> Reserva** e, no Painel de Ações, selecione **Reservar lote** para reservar a linha da ordem.
 1. Adicione uma segunda linha da ordem com as seguintes configurações:
 
-    - **Número do item:** *M9201* (um item no qual o filtro **Código 4** está definido como *Explosivo*)
+    - **Número do item:** *M9201* (um item no qual o filtro **Código 4** está definido como *Explosivo* )
     - **Quantidade:** *1.00*
     - **Modo de entrega:** *Airwa-Air*
 
@@ -208,14 +208,14 @@ Siga estas etapas para liberar cada ordem de venda criada para esse cenário par
 
 1. Vá para **Contas a receber \> Ordens \> Todas as ordens de venda**.
 1. Encontre e selecione a ordem de venda a ser liberada.
-1. No Painel de Ações, na guia **Depósito**, selecione **Ações \> Liberar para depósito** para liberar a ordem de venda selecionada.
+1. No Painel de Ações, na guia **Depósito** , selecione **Ações \> Liberar para depósito** para liberar a ordem de venda selecionada.
 1. Repita este procedimento para todas as outras ordens de venda criadas para esse cenário.
 
 ## <a name="consolidate-the-shipments-by-using-the-shipment-consolidation-workbench"></a>Consolidar as remessas usando a bancada de consolidação de remessa
 
 1. Vá para **Gerenciamento de depósito \> Liberar para depósito \> Bancada de consolidação de remessa**.
 1. No Painel de Ações, selecione **Editar consulta**.
-1. Na caixa de diálogo do editor de consulta, na guia **Intervalo**, selecione **Adicionar** para adicionar uma linha com as seguintes configurações à grade:
+1. Na caixa de diálogo do editor de consulta, na guia **Intervalo** , selecione **Adicionar** para adicionar uma linha com as seguintes configurações à grade:
 
     - **Tabela:** *Ordens de venda*
     - **Campo:** *Ordem de venda*
@@ -238,7 +238,7 @@ O procedimento a seguir permite verificar as remessas que foram criadas ou atual
 Duas remessas devem ter sido criadas:
 
 - A primeira remessa contém três linhas e foi criada usando a política de consolidação de remessa *CustomerMode*.
-- A segunda remessa, que não usa o modo de entrega *Airways*, foi criada usando a política de consolidação de remessa *CustomerOrderNo*.
+- A segunda remessa, que não usa o modo de entrega *Airways* , foi criada usando a política de consolidação de remessa *CustomerOrderNo*.
 
 ### <a name="related-shipments-for-order-set-2"></a>Remessas relacionadas para o conjunto de ordens 2
 

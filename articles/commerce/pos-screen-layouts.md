@@ -19,17 +19,17 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 75bce16c5e1b0898a0284659f9ce5e4716a93049
-ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
+ms.openlocfilehash: 2a6fdbc957a50adba38627bc37622c17ab4be419
+ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3834200"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022462"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Configurações visuais da interface do usuário de PDV
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 A interface de usuário do ponto de venda (PDV) do Microsoft Dynamics 365 Commerce pode ser configurada usando uma combinação de perfis visuais e layouts de tela que são atribuídos a lojas, caixas registradoras e/ou usuários. Este tópico fornece links para obter mais informações sobre essas opções de configuração.
 
@@ -62,7 +62,7 @@ Os perfis visuais são atribuídos às caixas registradoras e usados para especi
 > [!NOTE]
 > O layout **À direita** e a exibição de data/hora não se aplicam à tela de entrada na exibição compacta.
 
-Você precisa executar o trabalho de agendamento de distribuição **1090** (**Registros**) para sincronizar as configurações de perfil visual mais recentes com o banco de dados do canal.
+Você precisa executar o trabalho de agendamento de distribuição **1090** ( **Registros** ) para sincronizar as configurações de perfil visual mais recentes com o banco de dados do canal.
 
 ## <a name="screen-layouts"></a>Layouts da tela
 
@@ -84,7 +84,7 @@ As configurações do layout de tela determinam as ações, conteúdo e posicion
 
 Os layouts de tela podem ser atribuídos à loja, registro ou nível de usuário. A atribuição de usuário substitui as atribuições de caixa registradora e de loja, e a atribuição de caixa registradora substitui a atribuição de loja. Em um cenário simples, em que todos os usuários usam o mesmo layout independentemente da caixa registradora ou da função, o layout da tela pode ser definido apenas no nível da loja. Em cenários em que as caixas registradoras ou usuários específicos precisam de layouts especializados, é possível atribuí-los.
 
-Dependendo do nível em que os layouts de tela são atribuídos, você precisa executar os trabalhos de agendamento da distribuição **1070** (**Configuração do canal**), **1090** (**Registros**) e/ou **1060** (**Equipe**) para sincronizar as configurações de layout de tela mais recentes com o banco de dados do canal.
+Dependendo do nível em que os layouts de tela são atribuídos, você precisa executar os trabalhos de agendamento da distribuição **1070** ( **Configuração do canal** ), **1090** ( **Registros** ) e/ou **1060** ( **Equipe** ) para sincronizar as configurações de layout de tela mais recentes com o banco de dados do canal.
 
 ### <a name="layout-sizes"></a>Tamanhos de layout
 
@@ -119,7 +119,7 @@ Em layouts de PDV compactos, as grades de botões são apresentadas automaticame
 
 ### <a name="images"></a>Imagens
 
-Para cada tamanho de layout em um layout de tela, é possível especificar imagens a serem incluídas na interface do usuário do PDV. Para layouts de PDV completos, uma única imagem pode ser especificada para a tela de boas-vindas. Essa imagem aparecerá como o primeiro elemento de interface do usuário à esquerda. Na tela de **transação**, as imagens podem ser usadas como imagens de guia ou como um logotipo. Os layouts de PDV compactos não usam essas imagens.
+Para cada tamanho de layout em um layout de tela, é possível especificar imagens a serem incluídas na interface do usuário do PDV. Para layouts de PDV completos, uma única imagem pode ser especificada para a tela de boas-vindas. Essa imagem aparecerá como o primeiro elemento de interface do usuário à esquerda. Na tela de **transação** , as imagens podem ser usadas como imagens de guia ou como um logotipo. Os layouts de PDV compactos não usam essas imagens.
 
 ### <a name="screen-layout-designer"></a>Designer do layout da tela
 
@@ -192,8 +192,8 @@ O designer de grade de botões permite que você configure grades de botões que
 
         ![Tamanhos de botão do PDV em linhas e colunas](../commerce/media/POS-Button-Sizes-In-Rows-And-Columns.png)
 
-    - **Fonte personalizada** – ao marcar a caixa de seleção **Habilitar fonte personalizada para o PDV**, você poderá especificar uma fonte diferente da fonte padrão do sistema do PDV.
-    - **Tema personalizado** – por padrão, os botões do PDV usam a cor de destaque do perfil visual. Ao marcar a caixa de seleção **Usar tema personalizado**, você poderá especificar cores adicionais.
+    - **Fonte personalizada** – ao marcar a caixa de seleção **Habilitar fonte personalizada para o PDV** , você poderá especificar uma fonte diferente da fonte padrão do sistema do PDV.
+    - **Tema personalizado** – por padrão, os botões do PDV usam a cor de destaque do perfil visual. Ao marcar a caixa de seleção **Usar tema personalizado** , você poderá especificar cores adicionais.
 
         > [!NOTE]
         > O Modern POS e o PDV em Nuvem usam somente os valores **Cor do plano de fundo** e **Cor da fonte**.

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy
+ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: b1d106fa6fe5072eb74813495253731dd988c376
-ms.sourcegitcommit: 9a0be1ceee90e80f4c75f241aba847547b5032e5
+ms.openlocfilehash: 710446db7746ed3cd3fb9754caeaa15fd2f76641
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693270"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016251"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Processamento de produtos de peso variável com gerenciamento de depósito
 
@@ -30,7 +30,7 @@ ms.locfileid: "3693270"
 
 ## <a name="feature-exposure"></a>Exposição de recurso
 
-Para usar o gerenciamento de depósito para processar produtos de peso variável, você deve usar uma chave de configuração de licença para ativar a funcionalidade. Vá para **Administração de sistema \> Configurar \> Configuração de licença**. Em seguida, na guia **Chaves de configuração**, expanda **Comércio \> Gerenciamento de Depósito e Transporte** e marque a caixa de seleção para **Peso variável para depósito**.
+Para usar o gerenciamento de depósito para processar produtos de peso variável, você deve usar uma chave de configuração de licença para ativar a funcionalidade. Vá para **Administração de sistema \> Configurar \> Configuração de licença**. Em seguida, na guia **Chaves de configuração** , expanda **Comércio \> Gerenciamento de Depósito e Transporte** e marque a caixa de seleção para **Peso variável para depósito**.
 
 > [!NOTE]
 > Tanto a chave de configuração de licença de **Gerenciamento de Depósito e Transporte** quanto as chaves de configuração de licença de **Peso variável \> da distribuição de processos** também devem ser ativadas. Para definir as chaves de configuração para peso variável, você também deve ativar o recurso usando o espaço de trabalho **Gerenciamento de recursos**. O principal recurso que deve ser ativado é **Processamento de produtos de peso variável com gerenciamento de depósito**. Dois recursos relacionados, mas opcionais, que talvez você queira ativar são **Alterações de status de estoque para produtos de peso variável** e **Usar as marcas de peso variável existentes ao relatar ordens de produção como concluídas**.
@@ -55,7 +55,7 @@ Como o peso do estoque quando dá entrada em um depósito pode diferir do peso a
 
 **Exemplo 1**
 
-Durante o processo de produção **Relatar como concluído**, o peso de entrada de uma placa de licença contendo oito caixas de um produto de peso variável é capturado como 80,1 kg. A placa de licença é armazenada na área de mercadorias acabadas e, durante o período de armazenamento, há uma perda de peso.
+Durante o processo de produção **Relatar como concluído** , o peso de entrada de uma placa de licença contendo oito caixas de um produto de peso variável é capturado como 80,1 kg. A placa de licença é armazenada na área de mercadorias acabadas e, durante o período de armazenamento, há uma perda de peso.
 
 Posteriormente, como parte de um processo de separação de ordens de venda, o peso da mesma placa de licença é capturado como 79,8 kg. Portanto, no sistema, agora você tem uma diferença de peso como parte da dimensão física definida.
 
@@ -67,7 +67,7 @@ Em sua definição, um produto é configurado para tolerar um peso mínimo de 8 
 
 Você tem duas caixas do produto, e elas têm um peso registrado de 16 kg. Se um funcionário do depósito escolher e pesar uma das caixas, e o peso capturado for de 9 kg, a caixa restante pesará 7 kg. Porém, como 7 kg está abaixo do peso mínimo, o sistema faz um ajuste automático para aumentar o peso do estoque disponível em 1 kg.
 
-Para configurar as contas nas quais esses ajustes são lançados, vá para **Gerenciamento de custos \> Configuração das políticas de integração do razão \> Lançamento**. Depois, na guia **Estoque**, defina as seguintes contas:
+Para configurar as contas nas quais esses ajustes são lançados, vá para **Gerenciamento de custos \> Configuração das políticas de integração do razão \> Lançamento**. Depois, na guia **Estoque** , defina as seguintes contas:
 
 - Conta de perda de peso variável
 - Conta de lucro de peso variável
@@ -97,19 +97,19 @@ O processo de rastrear marcas de peso variável pode ser usado para itens que n�
 
 Outro parâmetro importante relacionado ao processamento de marcas de peso variável é **Método de rastreamento de dimensão de marca de peso variável**. As marcas podem ser parcialmente rastreadas ou totalmente rastreadas. Se uma marca é parcialmente rastreada, ela rastreia dimensões do produto, dimensões de rastreamento e status do estoque. Se uma marca é totalmente rastreada, ela rastreia dimensões do produto, dimensões de rastreamento e **todas** as dimensões de armazenamento.
 
-Além disso, quando um item é rastreado por marca, há um parâmetro **Método de captura de marca de saída**. Você pode definir este parâmetro para que você sempre seja solicitado a inserir a marca em transações de saída no dispositivo móvel. Como alternativa, você pode definir o parâmetro para ser solicitado a inserir as marcas somente quando elas forem necessárias. Por exemplo, há cinco marcas de peso variável no estoque em uma determinada placa de licença, e você indicou que quer separar todas as cinco marcas da placa de licença. Nesse caso, se o parâmetro **Método de captura de marca de saída** for definido como **Solicitar marca somente quando necessário**, as cinco marcas serão separadas automaticamente. Não é necessário verificar cada marca. Se o parâmetro for definido como **Sempre solicitar marca**, você deverá verificar cada marca, mesmo que todas as cinco marcas estejam sendo separadas.
+Além disso, quando um item é rastreado por marca, há um parâmetro **Método de captura de marca de saída**. Você pode definir este parâmetro para que você sempre seja solicitado a inserir a marca em transações de saída no dispositivo móvel. Como alternativa, você pode definir o parâmetro para ser solicitado a inserir as marcas somente quando elas forem necessárias. Por exemplo, há cinco marcas de peso variável no estoque em uma determinada placa de licença, e você indicou que quer separar todas as cinco marcas da placa de licença. Nesse caso, se o parâmetro **Método de captura de marca de saída** for definido como **Solicitar marca somente quando necessário** , as cinco marcas serão separadas automaticamente. Não é necessário verificar cada marca. Se o parâmetro for definido como **Sempre solicitar marca** , você deverá verificar cada marca, mesmo que todas as cinco marcas estejam sendo separadas.
 
 > [!NOTE]
 > Como regra, as marcas são capturadas e atualizadas somente dos itens de menu do dispositivo móvel. Contudo, existem alguns cenários em que as marcas são capturadas em outro local (por exemplo, na estação de embalagem manual). No entanto, em geral, os itens de menu do dispositivo móvel devem ser usados para todas as atividades de depósito se forem usadas marcas.
 
 ### <a name="how-to-capture-catch-weight"></a>Como capturar o peso variável
 
-**Quando o rastreamento de marcas de peso variável é utilizado**, sempre deve ser criada uma marca para cada unidade de peso variável recebida, e cada marca sempre deve ser associada a um peso.
+**Quando o rastreamento de marcas de peso variável é utilizado** , sempre deve ser criada uma marca para cada unidade de peso variável recebida, e cada marca sempre deve ser associada a um peso.
 
 Por exemplo, **Caixa** é a unidade de peso variável, e você recebe um palete de oito caixas. Nesse caso, devem ser criadas oito marcas de peso variável exclusivas e um peso deve ser associado a cada uma delas. Dependendo da marca de peso variável de entrada, o peso de todas as oito caixas poderá ser capturado e o peso médio poderá ser distribuído para cada caixa ou um peso único poderá ser capturado para cada caixa.
 Ao usar o recurso **Usar as marcas de peso variável existentes ao relatar ordens de produção como concluídas** com o processo habilitado por meio de um item de menu do dispositivo móvel, o inventário é atualizado com base nas informações existentes da marca de peso variável. Consequentemente, o aplicativo de depósito não solicita a captura dos dados da marca de peso variável como parte de um relatório de produção como uma operação finalizada.
 
-**Quando o rastreamento de marcas de peso variável não é usado**, é possível capturar o peso para cada conjunto de dimensões (por exemplo, para cada placa de licença e dimensão de rastreamento). Como alternativa, o peso pode ser capturado com base em um nível agregado, como cinco placas de licença (paletes).
+**Quando o rastreamento de marcas de peso variável não é usado** , é possível capturar o peso para cada conjunto de dimensões (por exemplo, para cada placa de licença e dimensão de rastreamento). Como alternativa, o peso pode ser capturado com base em um nível agregado, como cinco placas de licença (paletes).
 
 Para os métodos de captura de peso de saída, a opção **Por unidade de peso variável** permite especificar que a pesagem deve ser feita para cada unidade de peso variável (por exemplo, por caixa). A opção **Por unidade de separação** permite especificar que o peso deve ser capturado com base na quantidade que será separada (por exemplo, três caixas). Observe que, para os processos de separação de linha de produção e movimentação interna, o peso médio será usado se a opção **Não capturado** for usada.
 
@@ -209,4 +209,4 @@ Além das restrições que se aplicam no momento a produtos de peso variável, o
 - Não há suporte para a funcionalidade de reversão de trabalho para itens de peso variável que são rastreados pelo número da marca.
 
 > [!NOTE]
-> As informações anteriores sobre marcas de peso variável só são válidas se o produto de peso variável tem um método de rastreamento de dimensão de marca de peso variável que é totalmente rastreado (ou seja, se o parâmetro **Método de rastreamento de dimensão de marca de peso variável** na política de manuseio de itens de peso variável está definido como **Dimensões do produto, dimensões de rastreamento e todas as dimensões de armazenamento**). Se o item de peso variável só é parcialmente rastreado por marca (ou seja, se o parâmetro **Método de rastreamento de dimensão de marca de peso variável** na política de manuseio de itens de peso variável estiver definido como **Dimensões do produto, dimensões de rastreamento e status de estoque**), outras restrições são aplicadas. Como nesse caso a visibilidade é perdida entre a marca e o estoque, não há suporte para alguns cenários adicionais.
+> As informações anteriores sobre marcas de peso variável só são válidas se o produto de peso variável tem um método de rastreamento de dimensão de marca de peso variável que é totalmente rastreado (ou seja, se o parâmetro **Método de rastreamento de dimensão de marca de peso variável** na política de manuseio de itens de peso variável está definido como **Dimensões do produto, dimensões de rastreamento e todas as dimensões de armazenamento** ). Se o item de peso variável só é parcialmente rastreado por marca (ou seja, se o parâmetro **Método de rastreamento de dimensão de marca de peso variável** na política de manuseio de itens de peso variável estiver definido como **Dimensões do produto, dimensões de rastreamento e status de estoque** ), outras restrições são aplicadas. Como nesse caso a visibilidade é perdida entre a marca e o estoque, não há suporte para alguns cenários adicionais.

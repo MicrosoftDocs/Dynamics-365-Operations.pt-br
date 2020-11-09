@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSWaveTableListPage, WHSWaveTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 4dd188cbd17cfed372283ecb3389633b0c0021eb
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: 9cbc0b6655de740628bcf3709d250ac02238038b
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530457"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015817"
 ---
 # <a name="wave-template-grouping"></a>Agrupamento de modelos de onda
 
@@ -33,7 +34,7 @@ O agrupamento de modelos de onda permite que o sistema use configurações de [m
 
 ## <a name="turn-on-the-wave-template-grouping-feature"></a>Ativar o recurso Agrupamento de modelos de onda
 
-Para você usar o recurso *Agrupamento de modelos de onda*, ele deve estar ativado no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+Para você usar o recurso *Agrupamento de modelos de onda* , ele deve estar ativado no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos** , o recurso está listado da seguinte forma:
 
 - **Módulo:** *Gerenciamento de Depósito*
 - **Nome do recurso:** *Agrupamento de modelos de onda*
@@ -45,14 +46,14 @@ Para disponibilizar o agrupamento de modelos de onda, siga estas etapas para con
 1. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
 1. No painel esquerdo, selecione o modelo de onda a ser configurado. Se você estiver se preparando para trabalhar no cenário mais adiante neste tópico usando dados de demonstração, selecione o modelo **Padrão de remessa 62**.
 1. Selecione **Editar** para colocar a página no modo de edição.
-1. Na FastTab **Geral**, defina os seguintes valores:
+1. Na FastTab **Geral** , defina os seguintes valores:
 
     - **Automatizar criação da onda:** *Sim*
     - **Atribuir a ondas abertas:** *Sim*
     - **Processar onda na liberação para o depósito** *Não*
 
 1. No Painel de Ações, selecione **Editar consulta** para abrir a caixa de diálogo de consulta.
-1. Na caixa de diálogo de consulta, na guia **Classificação**, analise os critérios de classificação e verifique se há uma regra que inclua o campo que você deseja usar para agrupar suas ondas.
+1. Na caixa de diálogo de consulta, na guia **Classificação** , analise os critérios de classificação e verifique se há uma regra que inclua o campo que você deseja usar para agrupar suas ondas.
 
     Se você estiver se preparando para trabalhar no cenário usando dados de demonstração, adicione uma linha com os seguintes valores:
 
@@ -67,7 +68,7 @@ Para disponibilizar o agrupamento de modelos de onda, siga estas etapas para con
 
 1. Selecione **OK** para salvar as alterações e fechar a caixa de diálogo de consulta.
 1. No Painel de Ações, selecione **Agrupamento de modelos de onda**.
-1. Na página **Agrupamento de modelos de onda**, marque a caixa de seleção **Agrupar por** para cada linha que você deseja usar para agrupar linhas de ordem em ondas, conforme necessário. Se você estiver se preparando para trabalhar no cenário usando dados de demonstração, marque a caixa de seleção **Agrupar por** para a linha *Serviço da operadora*.
+1. Na página **Agrupamento de modelos de onda** , marque a caixa de seleção **Agrupar por** para cada linha que você deseja usar para agrupar linhas de ordem em ondas, conforme necessário. Se você estiver se preparando para trabalhar no cenário usando dados de demonstração, marque a caixa de seleção **Agrupar por** para a linha *Serviço da operadora*.
 1. Selecione **Salvar**.
 1. Feche a página **Agrupamento de modelos de onda**.
 1. Selecione **Salvar** para salvar o seu modelo.
@@ -92,30 +93,30 @@ Antes de começar, prepare o modelo de onda, conforme descrito na seção [Defin
 
 1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. Selecione **Novo** para criar uma ordem de venda.
-1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
+1. Na caixa de diálogo **Criar ordem de venda** , defina os seguintes valores:
 
-    - Na FastTab **Cliente**, defina o campo **Conta do cliente** como *US-004*.
-    - Na FastTab **Geral**, defina o campo **Depósito**, como *62*.
+    - Na FastTab **Cliente** , defina o campo **Conta do cliente** como *US-004*.
+    - Na FastTab **Geral** , defina o campo **Depósito** , como *62*.
 
 1. Selecione **OK** para criar a ordem de venda e fechar a caixa de diálogo **Criar ordem de venda**.
 1. A nova ordem de venda é aberta na exibição **Linhas**. Anote o número da ordem de venda.
 1. Alterne para a exibição do **Cabeçalho**.
-1. Na guia **Remessa**, na seção **Transporte**, defina os seguintes valores:
+1. Na guia **Remessa** , na seção **Transporte** , defina os seguintes valores:
 
     - **Transportadora:** *Carga aérea*
     - **Serviço da transportadora:** *Aéreo*
 
 1. Alterne novamente para a exibição **Linhas**.
-1. Na seção **Linhas da ordem de venda**, selecione **Adicionar linha** para adicionar uma linha à grade.
+1. Na seção **Linhas da ordem de venda** , selecione **Adicionar linha** para adicionar uma linha à grade.
 1. Na nova linha, defina os valores a seguir:
 
     - **Número de item:** *A0002*
     - **Quantidade:** *2*
 
-1. Selecione a nova linha da ordem e, no menu **Estoque**, acima da grade, selecione **Reserva**.
-1. Na página **Reserva**, no Painel de Ações, selecione **Reservar lote** para reservar a quantidade total da linha selecionada no depósito.
+1. Selecione a nova linha da ordem e, no menu **Estoque** , acima da grade, selecione **Reserva**.
+1. Na página **Reserva** , no Painel de Ações, selecione **Reservar lote** para reservar a quantidade total da linha selecionada no depósito.
 1. Feche a página **Reserva** para retornar à ordem de venda.
-1. No Painel de Ação, na guia **Depósito**, no grupo **Ações**, selecione **Liberar para o depósito**.
+1. No Painel de Ação, na guia **Depósito** , no grupo **Ações** , selecione **Liberar para o depósito**.
 1. Você recebe uma mensagem informativa que mostra a remessa e a onda dessa ordem. Anote o número da ID da onda e os números de ID da remessa.
 
 #### <a name="view-the-wave-that-was-created-from-sales-order-1"></a>Exibir a onda que foi criada com base na ordem de venda 1
@@ -129,30 +130,30 @@ Antes de começar, prepare o modelo de onda, conforme descrito na seção [Defin
 
 1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. Selecione **Novo** para criar uma ordem de venda.
-1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
+1. Na caixa de diálogo **Criar ordem de venda** , defina os seguintes valores:
 
-    - Na FastTab **Cliente**, defina o campo **Conta do cliente** como *US-005*.
-    - Na FastTab **Geral**, defina o campo **Depósito**, como *62*.
+    - Na FastTab **Cliente** , defina o campo **Conta do cliente** como *US-005*.
+    - Na FastTab **Geral** , defina o campo **Depósito** , como *62*.
 
 1. Selecione **OK** para criar a ordem de venda e fechar a caixa de diálogo **Criar ordem de venda**.
 1. A nova ordem de venda é aberta na exibição **Linhas**. Anote o número da ordem de venda.
 1. Alterne para a exibição do **Cabeçalho**.
-1. Na guia **Remessa**, na seção **Transporte**, defina os seguintes valores:
+1. Na guia **Remessa** , na seção **Transporte** , defina os seguintes valores:
 
     - **Transportadora:** *Movimento de flores*
     - **Serviço da operadora:** *Padrão*
 
 1. Alterne novamente para a exibição **Linhas**.
-1. Na seção **Linhas da ordem de venda**, selecione **Adicionar linha** para adicionar uma linha à grade.
+1. Na seção **Linhas da ordem de venda** , selecione **Adicionar linha** para adicionar uma linha à grade.
 1. Na nova linha, defina os valores a seguir:
 
     - **Número de item:** *A0001*
     - **Quantidade:** *1*
 
-1. Selecione a nova linha da ordem e, no menu **Estoque**, acima da grade, selecione **Reserva**.
-1. Na página **Reserva**, no Painel de Ações, selecione **Reservar lote** para reservar a quantidade total da linha selecionada no depósito.
+1. Selecione a nova linha da ordem e, no menu **Estoque** , acima da grade, selecione **Reserva**.
+1. Na página **Reserva** , no Painel de Ações, selecione **Reservar lote** para reservar a quantidade total da linha selecionada no depósito.
 1. Feche a página **Reserva** para retornar à ordem de venda.
-1. No Painel de Ação, na guia **Depósito**, no grupo **Ações**, selecione **Liberar para o depósito**.
+1. No Painel de Ação, na guia **Depósito** , no grupo **Ações** , selecione **Liberar para o depósito**.
 1. Você recebe uma mensagem informativa que mostra a remessa e a onda dessa ordem. Anote o número da ID da onda e os números de ID da remessa. Observe que a ID da onda difere da ID da onda da primeira ordem de venda.
 
 #### <a name="view-the-wave-that-was-created-from-sales-order-2"></a>Exibir a onda que foi criada com base na ordem de venda 2
@@ -168,30 +169,30 @@ Uma nova onda foi criada para essa remessa, pois ela usa um serviço de operador
 
 1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. Selecione **Novo** para criar uma ordem de venda.
-1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
+1. Na caixa de diálogo **Criar ordem de venda** , defina os seguintes valores:
 
-    - Na FastTab **Cliente**, defina o campo **Conta do cliente** como *US-006*.
-    - Na FastTab **Geral**, defina o campo **Depósito**, como *62*.
+    - Na FastTab **Cliente** , defina o campo **Conta do cliente** como *US-006*.
+    - Na FastTab **Geral** , defina o campo **Depósito** , como *62*.
 
 1. Selecione **OK** para criar a ordem de venda e fechar a caixa de diálogo **Criar ordem de venda**.
 1. A nova ordem de venda é aberta na exibição **Linhas**. Anote o número da ordem de venda.
 1. Alterne para a exibição do **Cabeçalho**.
-1. Na guia **Remessa**, na seção **Transporte**, defina os seguintes valores:
+1. Na guia **Remessa** , na seção **Transporte** , defina os seguintes valores:
 
     - **Transportadora:** *Carga Aérea*
     - **Serviço da transportadora:** *Aéreo*
 
 1. Alterne novamente para a exibição **Linhas**.
-1. Na seção **Linhas da ordem de venda**, selecione **Adicionar linha** para adicionar uma linha à grade.
+1. Na seção **Linhas da ordem de venda** , selecione **Adicionar linha** para adicionar uma linha à grade.
 1. Na nova linha, defina os valores a seguir:
 
     - **Número de item:** *A0001*
     - **Quantidade:** *1*
 
-1. Selecione a nova linha da ordem e, no menu **Estoque**, acima da grade, selecione **Reserva**.
-1. Na página **Reserva**, no Painel de Ações, selecione **Reservar lote** para reservar a quantidade total da linha selecionada no depósito.
+1. Selecione a nova linha da ordem e, no menu **Estoque** , acima da grade, selecione **Reserva**.
+1. Na página **Reserva** , no Painel de Ações, selecione **Reservar lote** para reservar a quantidade total da linha selecionada no depósito.
 1. Feche a página **Reserva** para retornar à ordem de venda.
-1. No Painel de Ação, na guia **Depósito**, no grupo **Ações**, selecione **Liberar para o depósito**.
+1. No Painel de Ação, na guia **Depósito** , no grupo **Ações** , selecione **Liberar para o depósito**.
 1. Você recebe uma mensagem informativa que mostra a remessa e a onda dessa ordem. Anote o número da ID da onda e os números de ID da remessa. A remessa foi atribuída à onda existente com base na primeira ordem de venda.
 
 #### <a name="view-the-wave-for-sales-orders-1-and-3"></a>Exibir a onda para as ordens de venda 1 e 3
@@ -199,4 +200,4 @@ Uma nova onda foi criada para essa remessa, pois ela usa um serviço de operador
 1. Vá para **Gerenciamento de depósito \> Ondas de saída \> Ondas de remessa \> Todas as ondas**.
 1. Selecione a ID da onda que foi criada com base na terceira ordem de venda.
 1. Selecione o link da ID da onda para abrir a página detalhes da onda.
-1. Observe que a remessa foi adicionada à FastTab **Linhas da onda**, junto com a remessa da primeira ordem de venda.
+1. Observe que a remessa foi adicionada à FastTab **Linhas da onda** , junto com a remessa da primeira ordem de venda.

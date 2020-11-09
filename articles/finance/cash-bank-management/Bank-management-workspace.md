@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 20847ea4651b816fc95135ca03667ae297cde5be
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4b7d2da346880278f684a796f2d649e7da52b647
+ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188478"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4097177"
 ---
 # <a name="bank-management-workspace"></a>​Espaço de trabalho de gerenciamento bancário​
 
@@ -33,7 +33,7 @@ O espaço de trabalho **Gerenciamento de banco** mostra informações relacionad
 
 ### <a name="summary"></a>Resumo
 
-Os quadros na seção **Resumo** fornecem uma visão geral das contas bancárias e fornecem acesso rápido às páginas que você precisa usar com mais frequência. As informações de reconciliação bancária são específicas à funcionalidade avançada de reconciliação bancária. As informações são incluídas somente para as contas bancárias que têm a opção **Reconciliação bancária avançada** definida como **Sim** na **Conta bancária**. Da seção **Resumo**, você pode importar arquivos eletrônicos bancários para contas bancárias em todas as entidades legais.
+Os quadros na seção **Resumo** fornecem uma visão geral das contas bancárias e fornecem acesso rápido às páginas que você precisa usar com mais frequência. As informações de reconciliação bancária são específicas à funcionalidade avançada de reconciliação bancária. As informações são incluídas somente para as contas bancárias que têm a opção **Reconciliação bancária avançada** definida como **Sim** na **Conta bancária**. Da seção **Resumo** , você pode importar arquivos eletrônicos bancários para contas bancárias em todas as entidades legais.
 
 ### <a name="bank-accounts"></a>Contas Bancárias
 
@@ -51,7 +51,7 @@ As informações sobre quando os dados foram atualizados pela última vez aparec
 
 ### <a name="related-information"></a>Informações Relacionadas
 
-Na seção **Informações relacionadas**, você pode abrir a página **Diário geral** para concluir as transferências bancárias. Você também pode abrir rapidamente as páginas **Transações bancárias** e **Transações de transição**.
+Na seção **Informações relacionadas** , você pode abrir a página **Diário geral** para concluir as transferências bancárias. Você também pode abrir rapidamente as páginas **Transações bancárias** e **Transações de transição**.
 
 ## <a name="analytics-view"></a>Exibição de análise
 
@@ -63,4 +63,4 @@ A página **Análise** fornece métricas importante sobre contas bancárias da e
 -   Saldo por conta bancária
 -   Saldo por moeda
 
-Você pode exibir a análise do banco em todas as empresas do espaço trabalho **Visão geral de caixa – todas as empresas**.
+Você pode exibir a análise do banco em todas as empresas do espaço trabalho **Visão geral de caixa – todas as empresas**. Para obter mais informações, consulte [Conteúdo de visão geral do caixa do Power BI](Cash-Overview-Power-BI-content.md).

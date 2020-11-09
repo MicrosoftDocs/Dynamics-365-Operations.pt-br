@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WHSRFMenuItem,WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Supply Chain Management
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 4b9cd7dac680c1691fb4c6dd4078f109254be784
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: b3497d43a500898207ed5154721ee0e3a327fb93
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215582"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017727"
 ---
 # <a name="pick-line-grouping"></a>Agrupamento de linhas de separação
 
@@ -36,24 +36,24 @@ No agrupamento de linhas de separação, várias linhas de trabalho que têm o m
 ### <a name="create-a-mobile-device-menu-item"></a>Criar um item de menu de dispositivo móvel
 
 1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel** e criar um novo item de menu que é nomeado **Separação de linha do grupo de vendas – Direcionada ao usuário**.
-2. Em **Itens de menu do dispositivo móvel**, defina os seguintes valores:
+2. Em **Itens de menu do dispositivo móvel** , defina os seguintes valores:
 
     - No campo **Nome do item de menu** digite **Separação de Vendas - Linha do grupo**.
-    - No campo **Título**, digite **Separação de Vendas - Linha do grupo**.
-    - No campo **Modo**, selecione **Trabalho**.
+    - No campo **Título** , digite **Separação de Vendas - Linha do grupo**.
+    - No campo **Modo** , selecione **Trabalho**.
     - Defina a opção **Usar trabalho existente** para **Sim**.
 
-3. Na Guia Rápida **Geral**, defina os seguintes valores:
+3. Na Guia Rápida **Geral** , defina os seguintes valores:
 
-    - No campo **Direcionado por**, selecione **Direcionado pelo usuário**.
+    - No campo **Direcionado por** , selecione **Direcionado pelo usuário**.
     - Defina a opção **Gerar placa de licença** como **Sim**.
     - Defina a opção **Separação por grupo** como **Sim**.
 
-4. Na Guia Rápida **Classes de trabalho**, siga estas etapas para configurar as classes de trabalho válidas para o item de menu do dispositivo móvel:
+4. Na Guia Rápida **Classes de trabalho** , siga estas etapas para configurar as classes de trabalho válidas para o item de menu do dispositivo móvel:
 
     1. Selecione **Novo**.
-    2. No campo **ID da classe de trabalho**, selecione **Vendas** ou **Separação de OV**, dependendo do depósito que você usará.
-    3. No campo **Tipo de ordem de trabalho**, selecione **Ordens de compra**.
+    2. No campo **ID da classe de trabalho** , selecione **Vendas** ou **Separação de OV** , dependendo do depósito que você usará.
+    3. No campo **Tipo de ordem de trabalho** , selecione **Ordens de compra**.
 
 ### <a name="set-up-a-mobile-device-menu"></a>Configura um menu de dispositivo móvel
 
@@ -65,12 +65,12 @@ No agrupamento de linhas de separação, várias linhas de trabalho que têm o m
 1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
 1. Localize o modelo de trabalho que deve ser usado com essa função. Para este exemplo, selecione o modelo de trabalho **51 Estágio de separação** Contoso.
 1. No menu, selecione **Editar consulta**.
-1. Na guia **Classificação**, selecione **Adicionar** e, em seguida, defina os seguintes valores:
+1. Na guia **Classificação** , selecione **Adicionar** e, em seguida, defina os seguintes valores:
 
-    - No campo **Tabela**, selecione **Transações de trabalho temporário**.
-    - No campo **Tabela derivada**, selecione **Transações de trabalho temporário**.
-    - No campo **Campo**, selecione **Número do item**.
-    - No campo **Direção da pesquisa**, selecione **Crescente**.
+    - No campo **Tabela** , selecione **Transações de trabalho temporário**.
+    - No campo **Tabela derivada** , selecione **Transações de trabalho temporário**.
+    - No campo **Campo** , selecione **Número do item**.
+    - No campo **Direção da pesquisa** , selecione **Crescente**.
 
 > [!NOTE]
 > Para que a funcionalidade agrupamento de linhas de separação funcione, as linhas de trabalho devem ser classificadas por ID do item. Se as linhas que têm os mesmos itens não forem sequenciadas uma após a outra, elas não serão agrupadas.
@@ -83,16 +83,16 @@ Antes de configurar o agrupamento de linhas de separação, você deve criar alg
 
 1. Vá para **Vendas e Marketing \> Ordens de venda \> Todas as ordens de venda**.
 2. Selecione **Novo** para criar uma ordem de venda. 
-3. No campo **Conta de cliente**, selecione qualquer cliente. 
-4. Na Guia Rápida **Geral**, no campo **Depósito**, selecione **51**. Em seguida, selecione **OK**.
-5. Nas **Linhas de ordem de venda**, adicione as seguintes seis linhas:
+3. No campo **Conta de cliente** , selecione qualquer cliente. 
+4. Na Guia Rápida **Geral** , no campo **Depósito** , selecione **51**. Em seguida, selecione **OK**.
+5. Nas **Linhas de ordem de venda** , adicione as seguintes seis linhas:
 
-    - **Linha 1:** No campo **Número do item**, selecione **M9200**. No campo **Quantidade**, insira **3**.
-    - **Linha 2:** No campo **Número do item**, selecione **M9201**. No campo **Quantidade**, insira **3**. 
-    - **Linha 3:** No campo **Número do item**, selecione **M9202**. No campo **Quantidade**, insira **2**. 
-    - **Linha 4:** No campo **Número do item**, selecione **M9200**. No campo **Quantidade**, insira **1**. 
-    - **Linha 5:** No campo **Número do item**, selecione **M9200**. No campo **Quantidade**, insira **3**.
-    - **Linha 6:** No campo **Número do item**, selecione **M9202**. No campo **Quantidade**, insira **7**. 
+    - **Linha 1:** No campo **Número do item** , selecione **M9200**. No campo **Quantidade** , insira **3**.
+    - **Linha 2:** No campo **Número do item** , selecione **M9201**. No campo **Quantidade** , insira **3**. 
+    - **Linha 3:** No campo **Número do item** , selecione **M9202**. No campo **Quantidade** , insira **2**. 
+    - **Linha 4:** No campo **Número do item** , selecione **M9200**. No campo **Quantidade** , insira **1**. 
+    - **Linha 5:** No campo **Número do item** , selecione **M9200**. No campo **Quantidade** , insira **3**.
+    - **Linha 6:** No campo **Número do item** , selecione **M9202**. No campo **Quantidade** , insira **7**. 
 
     Aqui está um resumo das quantidades totais de cada item:
 
@@ -130,3 +130,4 @@ Antes de configurar o agrupamento de linhas de separação, você deve criar alg
 >    - Separação de peças.
 >    - Linhas de trabalho que têm trabalho de reabastecimento não concluído.
 >    - Separação de ordens.
+>    - Separação insuficiente com realocação de item

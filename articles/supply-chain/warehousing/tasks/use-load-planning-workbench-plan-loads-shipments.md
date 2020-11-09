@@ -8,6 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSHistory, WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Operations
@@ -16,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7966c6e445e0e44cd4ff8518926aa6b410502e13
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: c37a98a3728cb1233a6e1207975a6b8f23f8120d
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980426"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015909"
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>Planejar cargas e remessas usando a Bancada de planejamento de carga
 
@@ -33,14 +34,14 @@ Este tópico mostra como usar a bancada de planejamento de carga para criar uma 
 ## <a name="create-a-sales-order"></a>Criar uma ordem de venda
 1. Vá para o **Painel de navegação > Módulos > Contas a receber > Ordens > Todas as ordens de venda**.
 2. Selecione **Novo**.
-3. No campo **Conta do cliente**, selecione o botão suspenso para abrir a pesquisa.
+3. No campo **Conta do cliente** , selecione o botão suspenso para abrir a pesquisa.
 4. Selecione a conta **US-004**.
 5. Selecione **OK**.
-6. No campo **Número do item**, selecione o botão suspenso para abrir a pesquisa.
+6. No campo **Número do item** , selecione o botão suspenso para abrir a pesquisa.
 7. Selecione o item **A0001**. **A0001** está habilitado para o gerenciamento de transporte.  
-8. No campo **Site**, selecione o botão suspenso para abrir a pesquisa e então selecione um item.
-9. No campo **Quantidade.**, insira um número
-10. No campo **Depósito**, digite '24' neste exemplo. Este depósito está habilitado para o gerenciamento de transporte e para o gerenciamento de depósito avançado.  
+8. No campo **Site** , selecione o botão suspenso para abrir a pesquisa e então selecione um item.
+9. No campo **Quantidade.** , insira um número
+10. No campo **Depósito** , digite '24' neste exemplo. Este depósito está habilitado para o gerenciamento de transporte e para o gerenciamento de depósito avançado.  
 11. Selecione **Salvar**.
 12. Feche a página.
 
@@ -49,7 +50,7 @@ Este tópico mostra como usar a bancada de planejamento de carga para criar uma 
 2. Selecione a guia **Linhas de vendas**. Agora você irá montar a carga para a ordem de venda que você acabou de criar. Cargas podem ser montadas de acordo com a oferta e procura das ordens de compra, ordens de transferência, e ordens de venda.  
 3. No Painel de Ação, selecione **Oferta e demanda**.
 4. Selecione **Para nova carga**.
-5. No campo **ID do modelo de carga**, selecione o botão suspenso para abrir a pesquisa. O modelo de carga define as medidas máximas para peso e volume da carga total. Por exemplo, o modelo de carga pode representar o tamanho de um contêiner ou caminhão. Selecione um item.
+5. No campo **ID do modelo de carga** , selecione o botão suspenso para abrir a pesquisa. O modelo de carga define as medidas máximas para peso e volume da carga total. Por exemplo, o modelo de carga pode representar o tamanho de um contêiner ou caminhão. Selecione um item.
 6. Selecione **OK**.
 
 ## <a name="rate-and-route-the-load"></a>Avaliar e encaminhar a carga

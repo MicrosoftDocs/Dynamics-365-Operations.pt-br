@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: cabeln
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: d8c2da17d4e3df37c55844f0aad00f883725f741
-ms.sourcegitcommit: c55fecae96b4bb27bc313ba10a97eddb9c91350a
+ms.openlocfilehash: 14645f592275d07a6b633146bb6da35b89c1bf77
+ms.sourcegitcommit: 6d2fc497c8a7f49c48e7662995e27b5f8cc10296
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989258"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4000969"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Fornecer guias de realidade combinada para trabalhadores na produção
 
@@ -124,7 +124,7 @@ Para configurar como os guias são exibidos no chão de fábrica, acesse **Reali
 
 Defina os seguintes campos:
 
-- **Subdomínio do ambiente do CDS** - Este campo já deve mostrar um valor. Este campo contém o subdomínio do ambiente do Common Data Service em que você cria os guias. O subdomínio é a primeira parte da URL e geralmente tem o nome de sua organização. Por exemplo, se a URL do Common Data Service for "contoso.crm4.dynamics.com", você deverá digitar *contoso* aqui. Esse valor é usado para compor os endereços dos guias e será codificado nos códigos QR.
+- **Subdomínio do ambiente do Common Data Service** - esse campo já deve mostrar um valor. Este campo contém o subdomínio do ambiente do Common Data Service em que você cria os guias. O subdomínio é a primeira parte da URL e geralmente tem o nome de sua organização. Por exemplo, se a URL do Common Data Service for "contoso.crm4.dynamics.com", você deverá digitar *contoso* aqui. Esse valor é usado para compor os endereços dos guias e será codificado nos códigos QR.
 - **Código QR** - Defina o tamanho do código QR renderizado. É recomendável escolher um tamanho que ocupará a maior parte da tela de exibição, mas não mais. Normalmente, *15* é um bom valor.
 - **Nível de correção de erro do código QR** - Defina a granularidade do código QR. A granularidade mais alta pode ajudar a aumentar a confiabilidade do código, mas o seu **tamanho de código QR** deve ser grande o suficiente para oferecer suporte ao nível de detalhes exigido pelo nível de correção selecionado.
 
@@ -196,7 +196,7 @@ Para adicionar um guia a um produto liberado:
 
 1. Vá para **Gerenciamento de informações de produção \> Produtos \> Produtos liberados**.
 1. Abra o produto ao qual você deseja atribuir um guia.
-1. No Painel de ações, abra a guia **Engenheiro** e, no grupo **Exibir**, selecione **Guias associados**.
+1. No Painel de ações, abra a guia **Engenheiro** e, no grupo **Exibir** , selecione **Guias associados**.
 1. A página **Guias associados** é aberta para o produto selecionado.
 1. Selecione **Adicionar** no Painel de ações para adicionar uma nova linha à grade. 
 1. Para a nova linha, use a lista suspensa na coluna **Nome** para escolher o guia que você deseja atribuir.
@@ -248,8 +248,8 @@ Para adicionar um guia a uma versão de fórmula:
 1. Acesse **Gerenciamento de informações de produção \> Listas de materiais e fórmulas \> Fórmulas**.
 1. Abra a fórmula que inclui uma versão à qual você deseja atribuir um guia.
 1. Abra a guia **Cabeçalho** acima da FastTab superior.
-1. Na FastTab **Versões da fórmula**, selecione a versão à qual você deseja atribuir um guia.
-1. Na barra de ferramentas **Versões de fórmula**, selecione **Guias associados**.
+1. Na FastTab **Versões da fórmula** , selecione a versão à qual você deseja atribuir um guia.
+1. Na barra de ferramentas **Versões de fórmula** , selecione **Guias associados**.
     ![Abrir os guias associados a uma versão de fórmula selecionada](media/instruction-guides-FormulaVersion.png "Abrir os guia associados a uma versão de fórmula selecionada")
 1. A página **Guias associados** é aberta para a versão de fórmula.
 1. Selecione **Adicionar** no Painel de ações para adicionar uma nova linha à grade. 
@@ -297,8 +297,8 @@ Para adicionar um guia a uma versão de lista de materiais:
 1. Acesse **Gerenciamento de informações de produção \> Listas de materiais e fórmulas \> Listas de materiais**.
 1. Abra a BOM que inclui uma versão à qual você deseja atribuir um guia.
 1. Abra a guia **Cabeçalho** acima da FastTab superior.
-1. Na FastTab **Versões de BOM**, selecione a versão à qual você deseja atribuir um guia.
-1. Na barra de ferramentas **Versões de BOM**, selecione **Guias associados**.
+1. Na FastTab **Versões de BOM** , selecione a versão à qual você deseja atribuir um guia.
+1. Na barra de ferramentas **Versões de BOM** , selecione **Guias associados**.
     ![Abrir os guias associados a uma versão de BOM selecionada](media/instruction-guides-BOMVersion.png "Abrir os guias associados a uma versão de BOM selecionada")
 1. A página **Guias associados** é aberta para a versão de BOM.
 1. Selecione **Adicionar** no Painel de ações para adicionar uma nova linha à grade.
@@ -340,8 +340,8 @@ Para adicionar um guia a uma versão de roteiro:
 
 1. Acesse **Controle de produção \> Todos os roteiros**.
 1. Abra o roteiro ao qual você deseja atribuir um guia.
-1. Na FastTab **Versões**, selecione a versão à qual você deseja atribuir um guia.
-1. Na barra de ferramentas **Versões**, selecione **Guias associados**.
+1. Na FastTab **Versões** , selecione a versão à qual você deseja atribuir um guia.
+1. Na barra de ferramentas **Versões** , selecione **Guias associados**.
     ![Abrir os guias associados a uma versão de roteiro selecionada](media/instruction-guides-RouteVersion.png "Abrir os guias associados a uma versão de roteiro selecionada")
 1. A página **Guias associados** é aberta para a versão de BOM.
 1. Selecione **Adicionar** no Painel de ações para adicionar uma nova linha à grade.
@@ -365,10 +365,10 @@ Para adicionar um guia a uma relação de operação de roteiro:
 
 1. Acesse **Controle de produção \> Todos os roteiros**.
 1. Abra o roteiro ao qual você deseja atribuir um guia.
-1. No Painel de ações, abra a guia **Roteiro** e, no grupo **Manter**, selecione **Detalhes do roteiro**.
+1. No Painel de ações, abra a guia **Roteiro** e, no grupo **Manter** , selecione **Detalhes do roteiro**.
 1. A **Detalhes do roteiro** é aberta para o roteiro selecionado.
 1. Na grade superior, selecione a operação para a qual você deseja oferecer orientações.
-1. Na grade inferior, selecione uma relação específica (ou a relação genérica **Todos**).
+1. Na grade inferior, selecione uma relação específica (ou a relação genérica **Todos** ).
     ![Selecionar uma operação e uma relação](media/instruction-guides-RouteOperationRelation.png "Selecionar uma operação e uma relação")
 1. Acima da grade inferior, abra a guia **Guias associados**. ![A guia Guias associados](media/instruction-guides-RouteOperationRelation-AddGuide.png "A guia Guias associados")
 1. Selecione **Adicionar** na barra de ferramentas na parte superior da grade inferior para adicionar uma nova linha à grade.

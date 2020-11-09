@@ -3,7 +3,7 @@ title: Adicionar um aviso de direitos autorais
 description: Este tópico descreve como adicionar um aviso de direitos autorais ao seu site de comércio eletrônico.
 author: psimolin
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a2ed52dbd19508e07fcced92a7fad831180b1d1d
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 838047cac694c65047332e146a7c43ee2ae0f401
+ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269581"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4019532"
 ---
 # <a name="add-a-copyright-notice"></a>Adicionar um aviso de direitos autorais
 
@@ -41,18 +41,18 @@ Antes de adicionar um aviso de direitos autorais ao seu site, você deve ter os 
 
 Para adicionar um aviso de direitos autorais na parte inferior de cada página que usa um modelo específico, siga as etapas a seguir.
 
-1. Vá para **Fragmentos** e selecione **Novo Fragmento de Página**.
-1. Na caixa de diálogo, selecione o módulo **Rodapé** e nomeie o fragmento. Por exemplo, insira **Footer-Copyright**.
+1. Vá para **Fragmentos** e selecione **Novo**.
+1. Na caixa de diálogo **Novo fragmento** , selecione o módulo **Rodapé** e nomeie o fragmento. Por exemplo, insira **Footer-Copyright**.
 1. Selecione **OK**.
-1. No painel de navegação, selecione o botão de reticências (**...**) ao lado de **Rodapé** e depois **Adicionar módulo**.
+1. No painel de navegação, selecione o botão de reticências ( **...** ) ao lado de **Rodapé** e depois **Adicionar módulo**.
 1. Na caixa de diálogo, selecione **Categoria de rodapé** e depois **OK**.
 1. No painel de navegação, selecione o botão de reticências ao lado de **Categoria de rodapé** e depois **Adicionar módulo**.
 1. Na caixa de diálogo, selecione **Bloco de texto** e depois **OK**.
 1. No painel de navegação, selecione **Bloco de texto**.
-1. No painel de propriedades à direita, no campo **Parágrafo**, adicione sua mensagem de direitos autorais. Por exemplo, insira **(C) Fabrikam 2019**.
-1. Selecione **Salvar**, **Concluir a edição** e depois **Publicar**.
-1. Vá para **Modelos**, selecione o modelo e depois **Editar**.
-1. Em **Estrutura de Tópicos da Página**, expanda **Corpo** e depois **Página Padrão**.
+1. No painel de propriedades à direita, no campo **Parágrafo** , adicione sua mensagem de direitos autorais. Por exemplo, insira **(C) Fabrikam 2019**.
+1. Selecione **Salvar** , **Concluir a edição** e depois **Publicar**.
+1. Vá para **Modelos** , selecione o modelo e depois **Editar**.
+1. Em **Estrutura de Tópicos da Página** , expanda **Corpo** e depois **Página Padrão**.
 1. Selecione o botão de reticências ao lado de **Slot de rodapé** e depois escolha **Adicionar fragmento**.
 1. Selecione o fragmento que você criou antes e escolha **Selecionar**.
 1. Selecione **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.

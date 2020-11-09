@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSCrossDockOpportunityPolicy
+ms.search.form: WHSCrossDockOpportunityPolicy, WHSReservationHierarchy, WHSInventTableReservationHierarchy, WHSItemGroupLoadTemplate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c47cb24e8fb14a46ee663ab9cf75679acdb6384
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 948db1f7308896209e195613d50b1d66b807b1bf
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211551"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016830"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Distribuição integrada de ordens de produção para docas de saída
 
@@ -36,7 +36,7 @@ Este tópico descreve como gerenciar o processo de distribuição integrada de m
 
 A distribuição integrada de produção para uma localização de saída é relevante para fabricantes que geram alto volume e querem enviar os produtos acabados, de preferência, assim que forem relatados como concluídos das linhas de produção. O objetivo é enviar os produtos a centros de distribuição que estão fisicamente localizados próximos à demanda do cliente, em vez de acumular estoque no site de fabricação.
 
-Quando não houver uma demanda imediata para um produto, ele deverá ser armazenado nos locais de armazenamento no site de fabricação. Esse processo também é conhecido como *distribuição integrada oportunista*, que indica que se houver uma demanda para enviar o produto, então esta oportunidade deverá ser usada, em vez de colocar o produto no armazenamento interno.
+Quando não houver uma demanda imediata para um produto, ele deverá ser armazenado nos locais de armazenamento no site de fabricação. Esse processo também é conhecido como *distribuição integrada oportunista* , que indica que se houver uma demanda para enviar o produto, então esta oportunidade deverá ser usada, em vez de colocar o produto no armazenamento interno.
 
 O exemplo a seguir mostra três variações de um fluxo que começa no fim da linha de produção (2).
 
@@ -71,7 +71,7 @@ Atualmente a distribuição integrada, pode ser configurada para apenas dois tip
 -   Armazenamento de mercadorias acabadas
 -   Armazenamento de coproduto e subproduto
 
-Na **política de distribuição integrada**, você define quais tipos de documento são aplicáveis para a distribuição integrada. Atualmente, o único tipo de documento que é suportado é **Ordens de transferência**. O exemplo a seguir mostra a configuração de uma política de distribuição integrada.
+Na **política de distribuição integrada** , você define quais tipos de documento são aplicáveis para a distribuição integrada. Atualmente, o único tipo de documento que é suportado é **Ordens de transferência**. O exemplo a seguir mostra a configuração de uma política de distribuição integrada.
 
 ### <a name="cross-docking-policy-name-transfer-order"></a>Nome da política de distribuição integrada: ordem de transferência
 
@@ -102,8 +102,8 @@ Depois que um produto for relatado como concluído na linha de produção, ele s
 4.  Configure as cargas de modo que sejam criadas automaticamente para ordens de transferência. Nos parâmetros do depósito, configure as cargas para que sejam criadas automaticamente quando as ordens de transferência forem criadas. Uma carga é um pré-requisito para tornar a ordem de transferência qualificado para a distribuição integrada.
 5.  Configure o mapeamento de carga do item. Vá para a página **Mapeamento de carga do item** e configure um modelo padrão de carga para o grupo de itens **CarAudio**. Esse mapeamento inserirá automaticamente o modelo de carga na carga quando a ordem de transferência for criada.
 6.  Criar uma ordem de transferência. Crie a ordem de transferência para o número de item L0101. Quantidade = 20.
-7.  Libere a ordem de transferência da bancada de planejamento de carga. Na guia **Remessa**, selecione o item de menu da bancada de planejamento de carga e no menu **Liberar** da linha de carga, selecione **Liberar para o depósito**. Uma linha de onda aberta do tipo **Transferência de saída** agora existe para a ordem de transferência.
-8.  Criar uma ordem de produção. Vá para a página **Ordem de produção**, e crie uma ordem de produção do produto L0101. Quantidade = 20. Estime e inicie a ordem de produção. Observe que o campo **Lançar lista de separação agora** permanece definido como **Não**.
+7.  Libere a ordem de transferência da bancada de planejamento de carga. Na guia **Remessa** , selecione o item de menu da bancada de planejamento de carga e no menu **Liberar** da linha de carga, selecione **Liberar para o depósito**. Uma linha de onda aberta do tipo **Transferência de saída** agora existe para a ordem de transferência.
+8.  Criar uma ordem de produção. Vá para a página **Ordem de produção** , e crie uma ordem de produção do produto L0101. Quantidade = 20. Estime e inicie a ordem de produção. Observe que o campo **Lançar lista de separação agora** permanece definido como **Não**.
 9.  Relate como concluído no dispositivo móvel. Vá para o portal do dispositivo móvel e selecione o item de menu **Relatar como concluído e armazenado**. Agora relate L0101 como acabado do dispositivo portátil. Quantidade = 10. Observe a localização de armazenamento é **BAYDOOR**. Esta localização é encontrada na diretiva de localização **Transferência de saída** para o tipo de ordem de serviço **Armazenar**. Observe também que um trabalho do tipo **Transferir saída** foi criado e concluído. Vá para detalhes da ordem de transferência verifique o trabalho.
 10. Agora relate 10 unidades adicionais do dispositivo móvel. Observe que a localização de armazenamento é novamente **BAYDOOR**. Observe também que um novo trabalho do tipo **Saída de transferência** foi criado para as 10 unidades.
 11. Agora tente iniciar mais 20 peças na ordem de produção e, depois, tente reportar 20 como concluídas usando o dispositivo portátil. Esse horário, local **LP-001** são sugeridos como localização de armazenamento. Esta localização é encontrada na diretiva da localização para **Armazenamento de mercadorias acabadas**. Esta diretiva de localização está sendo usada, pois não existe nenhuma oportunidade para distribuição integrada. A ordem de transferência para LP-001 foi totalmente atendida pelas duas atividades de distribuição integrada nas etapas 9 e 10. Observe que o trabalho do tipo **Armazenamento de mercadorias acabadas** foi criado e processado.
@@ -115,7 +115,7 @@ Depois de um produto ser relatado como concluído na linha de produção, ele é
 1.  Altere a política de distribuição integrada. Altere a política de distribuição integrada criada no cenário 1, marcando a caixa de seleção **A demanda de distribuição integrada requer localização**.
 2.  Crie uma nova ordem de transferência.
 3.  Abra a **Bancada de planejamento de carga**.
-4.  De bancada de planejamento de carga, vá para a seção **Cargas** e selecione **Agenda de compromisso** no menu **Transporte** para criar uma nova agenda de compromisso. Observe que a agenda de compromisso tem uma referência à ordem de transferência no campo **Número de ordem**. No campo **Data/hora inicial planejada na localização**, você pode definir a data e a hora do compromisso. Essas data e hora serão usadas quando a demanda de distribuição integrada for priorizada durante o processo de distribuição integrada. A data e hora definidas neste campo atualizará o campo **Data e a hora da remessa de carga agendada** da carga correspondente. A localização na Guia Rápida **Detalhes de remessa** determina a localização à qual a ordem de transferência será remetida.
+4.  De bancada de planejamento de carga, vá para a seção **Cargas** e selecione **Agenda de compromisso** no menu **Transporte** para criar uma nova agenda de compromisso. Observe que a agenda de compromisso tem uma referência à ordem de transferência no campo **Número de ordem**. No campo **Data/hora inicial planejada na localização** , você pode definir a data e a hora do compromisso. Essas data e hora serão usadas quando a demanda de distribuição integrada for priorizada durante o processo de distribuição integrada. A data e hora definidas neste campo atualizará o campo **Data e a hora da remessa de carga agendada** da carga correspondente. A localização na Guia Rápida **Detalhes de remessa** determina a localização à qual a ordem de transferência será remetida.
 5.  Na **Bancada de planejamento de carga** libere para o depósito.
 6.  Crie uma ordem de produção para o número de item **L0101** e defina o status como **Iniciado** com uma quantidade de 20.
 7.  Relate como concluído no dispositivo móvel.

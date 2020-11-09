@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 22e5333859d37ad33f5806d63fc874b1b5a52831
-ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
+ms.openlocfilehash: 46095e4ec21aac7cbf98dc1265ea7c8de27148ab
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967325"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015034"
 ---
 # <a name="feature-management-overview"></a>Visão geral do gerenciamento de recursos
 
@@ -43,7 +43,7 @@ A lista recursos inclui as seguintes informações:
 - **Recurso adicionado** — a data em que o recurso foi adicionado ao ambiente. Essa data é inserida automaticamente quando você atualiza seu ambiente durante ciclos mensais de lançamento.
 - **Módulo** — o módulo que é afetado pelo novo recurso.
 
-Ao selecionar um recurso, informações adicionais serão exibidas no painel de detalhes à direita da lista de recursos. Na parte superior do painel, você verá o nome do recurso, a data em que o recurso foi adicionado, o módulo que é afetado pelo recurso e um link **Saiba mais**. Selecione esse link para exibir a documentação do recurso. Se a documentação não estiver disponível, você será levado a uma página temporária. O painel de detalhes também inclui um campo **Comentários**, onde você pode adicionar seus próprios comentários sobre o recurso.
+Ao selecionar um recurso, informações adicionais serão exibidas no painel de detalhes à direita da lista de recursos. Na parte superior do painel, você verá o nome do recurso, a data em que o recurso foi adicionado, o módulo que é afetado pelo recurso e um link **Saiba mais**. Selecione esse link para exibir a documentação do recurso. Se a documentação não estiver disponível, você será levado a uma página temporária. O painel de detalhes também inclui um campo **Comentários** , onde você pode adicionar seus próprios comentários sobre o recurso.
 
 O espaço de trabalho **Gerenciamento de recursos** também possui várias guias, cada uma mostrando uma lista de recursos.
 
@@ -73,7 +73,7 @@ Os recursos que estão agendados para serem ativados no futuro aparecem na guia 
 Se um recurso tiver sido agendado para ser ativado no futuro, um botão **Agenda** será exibido no painel de detalhes. Você poderá usar este botão para alterar o valor **Data da habilitação** para uma data diferente.
 
 1. Selecione o recurso agendado para reagendar e, no painel de detalhes, selecione **Agenda**.
-2. Na caixa de diálogo exibida, no campo **Data da habilitação**, especifique a nova data em que o recurso deve ser ativado.
+2. Na caixa de diálogo exibida, no campo **Data da habilitação** , especifique a nova data em que o recurso deve ser ativado.
 3. Selecione **Habilitar** para reagendar o recurso ou **Desabilitar** para cancelar o agendamento.
 
 ## <a name="turn-off-a-feature"></a>Desativar um recurso
@@ -92,7 +92,7 @@ Depois que um recurso é desativado, uma mensagem será exibida abaixo do link *
 
 Por padrão, todos os recursos que são adicionados ao seu ambiente são desativados. Você pode habilitar todos os recursos selecionando o botão **Habilitar tudo**. 
 
-Quando você selecionar **Habilitar tudo**, aparecerá uma opção em que você precisa fornecer as seguintes informações:
+Quando você selecionar **Habilitar tudo** , aparecerá uma opção em que você precisa fornecer as seguintes informações:
 - Uma lista de todos os recursos que exigem confirmação antes de serem habilitados. Se você deseja habilitar os recursos na lista, selecione **Sim** para o botão **Habilitar recursos que exijam confirmação**.
 - Aparecerá uma lista de todos os recursos que não podem ser habilitados. Esses recursos não serão habilitados.
 
@@ -130,11 +130,11 @@ Uma entidade de dados chamada **Gerenciamento de recursos** permite exportar as 
 
 Os exemplos a seguir descrevem o que ocorre quando você usa a entidade **Gerenciamento de recursos** para importar dados.
 
-- Se você alterar o valor do campo **Habilitado** como **Sim**, o recurso será ativado e o campo **Data da habilitação** será definido como a data atual.
+- Se você alterar o valor do campo **Habilitado** como **Sim** , o recurso será ativado e o campo **Data da habilitação** será definido como a data atual.
 - Se você alterar o valor do campo **Habilitado** como **Não** ou deixar o campo **Data da habilitação** em branco, o recurso será desativado e o campo **Data da habilitação** será desmarcado. Você não pode desativar um recurso obrigatório ou um recurso que não pode ser desativado depois de ativado.
 - Se você alterar o valor do campo **Data da habilitação** para uma data futura, o recurso será agendado para essa data.
 - Se você alterar o valor do campo **Habilitado** para **Sim** e alterar o valor do campo **Data da habilitação** para uma data futura, o recurso será agendado para essa data. 
-- Se você alterar o valor do campo **Habilitado** para **Não**, mas também alterar o valor do campo **Data da habilitação** para uma data futura, o recurso será agendado para essa data.
+- Se você alterar o valor do campo **Habilitado** para **Não** , mas também alterar o valor do campo **Data da habilitação** para uma data futura, o recurso será agendado para essa data.
 - Se um recurso estiver ativado e você adicionar um campo **Data da habilitação** definido como uma data futura, o recurso permanecerá ativado. Para reagendar o recurso, você deve alterar o campo **Habilitado** como **Não**.
 
 ## <a name="feature-management-and-flighting"></a>Gerenciamento recursos e liberação de versões
@@ -181,9 +181,11 @@ As liberações de versões de pré-lançamento dos recursos são botões ligar/
 Sim, se um recurso estiver causando impacto no funcionamento de um ambiente que não tenha um impacto funcional, eles poderão ser habilitados por padrão.
 
 ### <a name="how-can-feature-enablement-be-checked-in-code"></a>Como a habilitação do recurso pode ser verificada no código?
-Use o método **isFeatureEnabled** na classe **FeatureStateProvider**, passando uma instância da classe feature. Exemplo: 
+Use o método **isFeatureEnabled** na classe **FeatureStateProvider** , passando uma instância da classe feature. Exemplo: 
 
-    if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))
+```xpp
+if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))
+```
 
 ### <a name="how-can-feature-enablement-be-checked-in-metadata"></a>Como a habilitação do recurso pode ser verificada nos metadados?
 A propriedade **FeatureClass** pode ser usada para indicar que alguns metadados estão associados a um recurso. O nome da classe para o recurso deve ser usado, como **BatchContentionPreventionFeature**. Esses metadados estão visíveis somente nesse recurso. A propriedade **FeatureClass** está disponível em menus, itens de menu, valores de enumeração e campos de tabela/exibição.
@@ -191,9 +193,11 @@ A propriedade **FeatureClass** pode ser usada para indicar que alguns metadados 
 ### <a name="what-is-a-feature-class"></a>O que é uma classe de recurso?
 Os recursos no Gerenciamento de Recursos são definidos como *classes de recursos*. Uma classe de recurso **implementa IFeatureMetadata** e usa o atributo de classe do recurso para se identificar para o espaço de trabalho Gerenciamento de Recursos. Há vários exemplos de classes de recursos disponíveis que podem ser verificadas em caso de habilitação no código usando a API **FeatureStateProvider** e em metadados usando a propriedade **FeatureClass**. Exemplo: 
 
-    [ExportAttribute(identifierStr(Microsoft.Dynamics.ApplicationPlatform.FeatureExposure.IFeatureMetadata))]
-    internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMetadata
-    
+```xpp
+[ExportAttribute(identifierStr(Microsoft.Dynamics.ApplicationPlatform.FeatureExposure.IFeatureMetadata))]
+internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMetadata
+```
+
 ### <a name="what-is-the-ifeaturelifecycle-implemented-by-some-feature-classes"></a>O que é o IFeatureLifecycle implementado por algumas classes de recursos?
 O IFeatureLifecycle é um mecanismo interno da Microsoft para indicar o estágio do ciclo de vida do recurso. Os recursos podem ser:
 - PrivatePreview - precisa de uma versão de pré-lançamento visível.

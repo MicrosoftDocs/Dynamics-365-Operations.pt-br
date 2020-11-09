@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchVendorPortalRequests
+ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests, CatExternalCatalogConfiguration, CatCXMLCartLogList
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7aecc2c4786a1912bf5ae44f3949428c778f1df9
-ms.sourcegitcommit: b281ac04157f6ccbd159fc89f58910b430a3b6a9
+ms.openlocfilehash: 5dc6a38b1a9eebdee64762671bb501e5e1294399
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826819"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018250"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>​Configurar um catálogo externo para PunchOut e-procurement
 
@@ -56,8 +56,8 @@ Esta seção fornece mais detalhes sobre a tarefa 4 na seção anterior.
 1. Digite um nome e uma descrição para o catálogo externo do fornecedor. O nome que você inseriu aparecerá no carrinho que representa o catálogo externo que é mostrado aos funcionários que criam uma requisição. Os funcionários podem clicar no carrinho para abrir o catálogo no site do catálogo externo do fornecedor.
 2. Adicione uma imagem usando a ação **Imagem externa de catálogo**. A imagem aparecerá no carrinho que representa o catálogo externo que é mostrado aos funcionários que criam uma requisição. Observe que a largura e a altura da imagem devem ser iguais. Caso contrário, a imagem não será exibida corretamente.
 3. Selecione se o site do catálogo externo do fornecedor deve aparecer na mesma janela do navegador como aquele em que o funcionário criou a requisição ou se deve abrir em uma nova janela.
-4. Selecione o fornecedor para o catálogo. Na lista **Entidades legais**, há uma linha para cada entidade legal na qual o fornecedor está configurado. Para permitir que os usuários solicitem produtos diretamente do catálogo do fornecedor em algumas entidades legais, mas não em outras, você pode usar o botão **Impedir acesso** ou **Permitir acesso** para cada entidade legal onde deseja que o catálogo esteja ou não disponível.
-5. No campo **Expiração padrão (dias)**, insira o número de dias que uma cotação recebida do catálogo externo é válida e pode ser usada para comprar do fornecedor externo. Quando uma cotação é criada e recuperada no site do catálogo externo do fornecedor, ela é válida a partir da data atual do sistema e permanece válida pelo número de dias especificado nesse campo.
+4. Selecione o fornecedor para o catálogo. Na lista **Entidades legais** , há uma linha para cada entidade legal na qual o fornecedor está configurado. Para permitir que os usuários solicitem produtos diretamente do catálogo do fornecedor em algumas entidades legais, mas não em outras, você pode usar o botão **Impedir acesso** ou **Permitir acesso** para cada entidade legal onde deseja que o catálogo esteja ou não disponível.
+5. No campo **Expiração padrão (dias)** , insira o número de dias que uma cotação recebida do catálogo externo é válida e pode ser usada para comprar do fornecedor externo. Quando uma cotação é criada e recuperada no site do catálogo externo do fornecedor, ela é válida a partir da data atual do sistema e permanece válida pelo número de dias especificado nesse campo.
 6. Clique no botão **Adicionar** para começar a mapear as categorias de compras no catálogo externo. Então, na lista Nome da categoria, selecione uma categoria. A lista de categorias é um super conjunto de categorias de compras no qual o fornecedor foi mapeado em todas as entidades legais que estão configuradas para o fornecedor.
 
     > [!NOTE]

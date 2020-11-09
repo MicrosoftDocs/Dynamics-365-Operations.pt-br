@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSCrossDockingTemplate, WHSLoadPostMethod, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSPlannedCrossDocking
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: ae805d9aac790a1a58478cf54d033ce758c5eca3
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: cc217f21a5fa70feb9ef9161f3ef2e2b6a333f35
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530089"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017750"
 ---
 # <a name="planned-cross-docking"></a>Distribuição integrada planejada
 
@@ -88,11 +89,11 @@ A distribuição integrada planejada é implementada como um método de lançame
 
     - **Revalidar no recebimento de fornecimento:** *Não*
 
-        Esta opção define se o fornecimento deve ser revalidado durante o recebimento. Se essa opção estiver definida como *Sim*, a janela de tempo máximo e o intervalo de dias para o vencimento serão verificados.
+        Esta opção define se o fornecimento deve ser revalidado durante o recebimento. Se essa opção estiver definida como *Sim* , a janela de tempo máximo e o intervalo de dias para o vencimento serão verificados.
 
     - **Validar janela de tempo:** *Sim*
 
-        Esta opção define se a janela de tempo máximo deve ser avaliada quando uma fonte de fornecimento é selecionada. Se essa opção estiver definida como *Sim*, os campos relacionados às janelas de tempo máximo e mínimo serão disponibilizados.
+        Esta opção define se a janela de tempo máximo deve ser avaliada quando uma fonte de fornecimento é selecionada. Se essa opção estiver definida como *Sim* , os campos relacionados às janelas de tempo máximo e mínimo serão disponibilizados.
 
     - **Janela de tempo máximo:** *5*
 
@@ -108,7 +109,7 @@ A distribuição integrada planejada é implementada como um método de lançame
 
         *Critérios de FEFO (primeiro a vencer, primeiro a sair):* Este campo define o número máximo de dias entre a data de vencimento do primeiro lote a vencer atualmente no depósito e do lote que está sendo recebido.
 
-1. Na FastTab **Fontes de fornecimento**, especifique os tipos de fornecimento válidos para o modelo. Selecione **Novo** e defina os valores a seguir:
+1. Na FastTab **Fontes de fornecimento** , especifique os tipos de fornecimento válidos para o modelo. Selecione **Novo** e defina os valores a seguir:
 
     - **Número de sequência:** *1*
     - **Fonte de fornecimento:** *Ordem de compra*
@@ -135,7 +136,7 @@ A distribuição integrada planejada é implementada como um método de lançame
     - **Descrição do modelo de trabalho:** *Distribuição Integrada 51*
 
 1. Selecione **Salvar** para disponibilizar a FastTab **Detalhes do Modelo de Trabalho**.
-1. Na FastTab **Detalhes do Modelo de Trabalho**, selecione **Novo** para adicionar uma linha à grade.
+1. Na FastTab **Detalhes do Modelo de Trabalho** , selecione **Novo** para adicionar uma linha à grade.
 1. Na nova linha, defina os valores a seguir:
 
     - **Tipo de trabalho:** *Separar*
@@ -164,14 +165,14 @@ A distribuição integrada planejada é implementada como um método de lançame
     - **Depósito:** *51*
 
 1. Selecione **Salvar** para disponibilizar a FastTab **Linhas**.
-1. Na FastTab **Linhas**, selecione **Novo** para adicionar uma linha à grade.
+1. Na FastTab **Linhas** , selecione **Novo** para adicionar uma linha à grade.
 1. Na nova linha, defina os valores a seguir:
 
     - **Quantidade inicial:** *1*
     - **Quantidade final:** *1000000*
 
 1. Selecione **Salvar** para disponibilizar a FastTab **Ações de Diretiva de Localização**.
-1. Na FastTab **Ações de Diretiva de Localização**, selecione **Novo** para adicionar uma linha à grade.
+1. Na FastTab **Ações de Diretiva de Localização** , selecione **Novo** para adicionar uma linha à grade.
 1. Na nova linha, defina os valores a seguir:
 
     - **Nome:** *Porta da baía*
@@ -179,7 +180,7 @@ A distribuição integrada planejada é implementada como um método de lançame
 
 1. Selecione **Salvar** para disponibilizar o botão **Editar consulta** na barra de ferramentas **Ações de Diretiva de Localização**.
 1. Selecione **Editar consulta** para abrir o editor de consultas.
-1. Na guia **Intervalo**, verifique se as duas linhas a seguir foram configuradas:
+1. Na guia **Intervalo** , verifique se as duas linhas a seguir foram configuradas:
 
     - Linha 1:
 
@@ -202,7 +203,7 @@ A distribuição integrada planejada é implementada como um método de lançame
 1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. Na lista de itens de menu no painel esquerdo, selecione **Armazenamento de compra**.
 1. Selecione **Editar**.
-1. Na FastTab **Classes de trabalho**, selecione **Novo** para adicionar uma linha à grade.
+1. Na FastTab **Classes de trabalho** , selecione **Novo** para adicionar uma linha à grade.
 1. Na nova linha, defina os valores a seguir:
 
     - **ID da classe de trabalho:** *CrossDock*
@@ -218,7 +219,7 @@ Siga estas etapas para criar uma ordem de compra como fonte de fornecimento.
 
 1. Acesse **Compras \> Ordens de compra \> Todas ordens de compra**.
 1. No Painel de Ações, selecione **Novo**.
-1. Na caixa de diálogo **Criar ordem de compra**, defina os seguintes valores:
+1. Na caixa de diálogo **Criar ordem de compra** , defina os seguintes valores:
 
     - **Conta do fornecedor:** *104*
     - **Depósito:** *51*
@@ -235,7 +236,7 @@ Siga estas etapas para criar uma ordem de venda como origem de demanda.
 
 1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. No Painel de Ações, selecione **Novo**.
-1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
+1. Na caixa de diálogo **Criar ordem de venda** , defina os seguintes valores:
 
     - **Conta de cliente:** *US-002*
     - **Depósito:** *51*
@@ -250,18 +251,18 @@ Siga estas etapas para criar uma ordem de venda como origem de demanda.
 
 Siga estas etapas para criar a distribuição integrada planejada com base na ordem de venda.
 
-1. Na página **Detalhes da ordem de venda** referente à ordem de venda que você acabou de criar, no Painel de Ação, na guia **Depósito**, no grupo **Ações**, selecione **Liberar para o depósito**.
+1. Na página **Detalhes da ordem de venda** referente à ordem de venda que você acabou de criar, no Painel de Ação, na guia **Depósito** , no grupo **Ações** , selecione **Liberar para o depósito**.
 
     A ação de liberação para o depósito cria uma linha de remessa e carga para a linha da ordem de venda e tenta alocar o estoque.
     
     Você receberá uma mensagem informativa. Você também receberá a seguinte mensagem de aviso: "Nenhum trabalho foi criado para a onda XXXX. Consulte o log de histórico de criação de trabalho para obter detalhes." Esse comportamento é esperado, pois não há estoque no depósito.
 
-1. Na FastTab **Linhas da ordem de venda**, no menu **Depósito**, selecione **Detalhes da remessa**.
+1. Na FastTab **Linhas da ordem de venda** , no menu **Depósito** , selecione **Detalhes da remessa**.
 
     A página **Detalhes da remessa** é exibida e mostra a remessa que foi criada para a ordem de venda.
 
-1. Na FastTab **Linhas de carga**, observe que o campo **Quantidade da Distribuição integrada planejada** está definido como *3*. Como não havia estoque disponível no depósito, mas uma fonte de fornecimento válida será recebida na janela de tempo definida no modelo de distribuição integrada, a quantidade de distribuição integrada foi criada.
-1. Na FastTab **Linhas de carga**, selecione **Distribuição integrada planejada** para exibir os detalhes da distribuição integrada que foi criada.
+1. Na FastTab **Linhas de carga** , observe que o campo **Quantidade da Distribuição integrada planejada** está definido como *3*. Como não havia estoque disponível no depósito, mas uma fonte de fornecimento válida será recebida na janela de tempo definida no modelo de distribuição integrada, a quantidade de distribuição integrada foi criada.
+1. Na FastTab **Linhas de carga** , selecione **Distribuição integrada planejada** para exibir os detalhes da distribuição integrada que foi criada.
 
 ## <a name="process-the-cross-docking"></a>Processar a distribuição integrada
 
@@ -275,12 +276,12 @@ Na segunda ID de trabalho criada, o **Tipo de ordem de serviço** tem o valor *O
 
 1. Entre no dispositivo móvel como um usuário no depósito *51*.
 1. Vá para **Entrada \> Recebimento de Compra**.
-1. No campo **PONum**, insira o número da ordem de compra.
-1. No campo **Qtd.**, insira *5*.
+1. No campo **PONum** , insira o número da ordem de compra.
+1. No campo **Qtd.** , insira *5*.
 1. Selecione **OK**.
 1. Na página seguinte, defina o campo **Item** como *A0001*.
 1. Selecione **OK**.
-1. Na página seguinte, confirme os valores de **PONum**, **Item** e **Qtd.** selecionando **OK**.
+1. Na página seguinte, confirme os valores de **PONum** , **Item** e **Qtd.** selecionando **OK**.
 
     Você receberá uma mensagem "Trabalho Concluído".
 
@@ -291,14 +292,14 @@ Na segunda ID de trabalho criada, o **Tipo de ordem de serviço** tem o valor *O
 No momento, ambas as IDs de trabalho têm a mesma placa de licença de destino. Para concluir as próximas etapas, você deve obter a ID de trabalho e a ID da placa de licença de destino. É possível obter essas informações nos detalhes do trabalho da linha de ordem de compra e da linha de ordem de venda. Como alternativa, você pode acessar **Gerenciamento de depósito \> Trabalho \> Detalhes do trabalho** e filtrar trabalhos em que o valor de **Depósito** seja *51*.
 
 1. No dispositivo móvel, vá para **Entrada \> Armazenamento de compra** e insira a placa de licença de destino do trabalho.
-1. No campo **ID**, insira a ID da placa de licença de destino nos detalhes do trabalho.
+1. No campo **ID** , insira a ID da placa de licença de destino nos detalhes do trabalho.
 
-    A página de separação da distribuição integrada mostra o local de separação (*RECV*), a placa de licença de destino (*placa de licença*), o item (*A0001*) e a quantidade (*3*).
+    A página de separação da distribuição integrada mostra o local de separação ( *RECV* ), a placa de licença de destino ( *placa de licença* ), o item ( *A0001* ) e a quantidade ( *3* ).
 
 1. Selecione **OK**.
-1. No campo **LP de destino**, insira uma placa de licença de destino para a ID da placa de licença que deve ser colocada (passar por distribuição integrada) no local de remessa. Você pode selecionar qualquer ID de placa de licença.
+1. No campo **LP de destino** , insira uma placa de licença de destino para a ID da placa de licença que deve ser colocada (passar por distribuição integrada) no local de remessa. Você pode selecionar qualquer ID de placa de licença.
 1. Selecione **OK**.
-1. Na página seguinte, no campo **ID**, insira a ID da placa de licença de destino.
+1. Na página seguinte, no campo **ID** , insira a ID da placa de licença de destino.
 1. Selecione **OK**.
 1. Confirme o trabalho para separar a quantidade restante de 2 e selecione **OK**.
 1. Na página seguinte, selecione **Concluído** para finalizar o processo de separação e iniciar o processo de armazenamento.

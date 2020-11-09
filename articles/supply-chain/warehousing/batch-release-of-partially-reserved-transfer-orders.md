@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSLoadPlanningWorkbench
+ms.search.form: WHSLoadPlanningWorkbench, WHSFulfillmentPolicy
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0707731caaf9b4852e3c19be899ad92f5b84e29
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7807ae109a4a708f3530112feed1a4fb210a30ef
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201286"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016277"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Versão do lote de ordens de transferência parcialmente reservadas
 
@@ -47,7 +47,7 @@ As políticas de atendimento para ordens de venda e ordens de transferência sã
 
 -   Para criar políticas de atendimento para ordens de transferência e ordens de venda, clique em **Gerenciamento de depósito** \> **Configuração** \> **Liberar para o depósito** \> **Política de atendimento** e, em seguida, crie uma política de atendimento inserindo um nome e uma descrição.
 
--   Para especificar uma taxa de atendimento, um tipo de valor e a mensagem que é mostrada, se a política de atendimento for violada, clique em **Gerenciamento de depósito** \> **Configurar** \> **Liberar para o depósito** \> **Política de atendimento** e, em seguida, defina os campos **Taxa de atendimento**, **Tipo de valor** e **Mensagem de violação de atendimento**.
+-   Para especificar uma taxa de atendimento, um tipo de valor e a mensagem que é mostrada, se a política de atendimento for violada, clique em **Gerenciamento de depósito** \> **Configurar** \> **Liberar para o depósito** \> **Política de atendimento** e, em seguida, defina os campos **Taxa de atendimento** , **Tipo de valor** e **Mensagem de violação de atendimento**.
 
 ### <a name="set-the-fulfillment-policies-for-transfer-orders-and-sales-orders"></a>Defina as políticas de atendimento para ordens de venda e ordens de transferência
 
