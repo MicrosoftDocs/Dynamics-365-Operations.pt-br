@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSLicensePlateLabel
+ms.search.form: WHSLicensePlateLabel, WHSLicensePlateLabelBuildConfig, WHSLicensePlateLabel, WHSDocumentRoutingLayout
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,22 +16,22 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 9af077022ab0759534d2c1da5f39997712e6a354
-ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
+ms.openlocfilehash: 8c96aef5d66ed8f8c44d74eee9b60f0a7d38a46d
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3763446"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017704"
 ---
-# <a name="document-routing-layout-for-license-plate-labels"></a><span data-ttu-id="95360-103">Layout de roteiro de documentos para etiquetas de placa de licença</span><span class="sxs-lookup"><span data-stu-id="95360-103">Document routing layout for license plate labels</span></span>
+# <a name="document-routing-layout-for-license-plate-labels"></a><span data-ttu-id="30576-103">Layout de roteiro de documentos para etiquetas de placa de licença</span><span class="sxs-lookup"><span data-stu-id="30576-103">Document routing layout for license plate labels</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="95360-104">O layout de circulação de documentos define o layout dos rótulos de placa de licença e os dados impressos neles.</span><span class="sxs-lookup"><span data-stu-id="95360-104">The document routing layout defines the layout of license plate labels, and the data that is printed on them.</span></span> <span data-ttu-id="95360-105">Os pontos do disparador de impressão são configurados quando você configura itens de menu e modelos de trabalho de dispositivo móvel.</span><span class="sxs-lookup"><span data-stu-id="95360-105">You configure the printing trigger points when you set up mobile device menu items and work templates.</span></span>
+<span data-ttu-id="30576-104">O layout de circulação de documentos define o layout dos rótulos de placa de licença e os dados impressos neles.</span><span class="sxs-lookup"><span data-stu-id="30576-104">The document routing layout defines the layout of license plate labels, and the data that is printed on them.</span></span> <span data-ttu-id="30576-105">Os pontos do disparador de impressão são configurados quando você configura itens de menu e modelos de trabalho de dispositivo móvel.</span><span class="sxs-lookup"><span data-stu-id="30576-105">You configure the printing trigger points when you set up mobile device menu items and work templates.</span></span>
 
-<span data-ttu-id="95360-106">Em um cenário típico, os auxiliares de recebimento de depósito imprimem etiquetas de placa de licença imediatamente após registrarem o conteúdo dos paletes que chegam na área de recebimento.</span><span class="sxs-lookup"><span data-stu-id="95360-106">In a typical scenario, warehouse receiving clerks print license plate labels immediately after they record the contents of pallets that arrive in the receiving area.</span></span> <span data-ttu-id="95360-107">As etiquetas físicas são aplicadas aos paletes.</span><span class="sxs-lookup"><span data-stu-id="95360-107">The physical labels are applied to the pallets.</span></span> <span data-ttu-id="95360-108">Em seguida, eles podem ser usados para validação como parte do processo de retirada que segue e operações de separação de saída futura.</span><span class="sxs-lookup"><span data-stu-id="95360-108">They can then be used for validation as part of the put-away process that follows and future outbound picking operations.</span></span>
+<span data-ttu-id="30576-106">Em um cenário típico, os auxiliares de recebimento de depósito imprimem etiquetas de placa de licença imediatamente após registrarem o conteúdo dos paletes que chegam na área de recebimento.</span><span class="sxs-lookup"><span data-stu-id="30576-106">In a typical scenario, warehouse receiving clerks print license plate labels immediately after they record the contents of pallets that arrive in the receiving area.</span></span> <span data-ttu-id="30576-107">As etiquetas físicas são aplicadas aos paletes.</span><span class="sxs-lookup"><span data-stu-id="30576-107">The physical labels are applied to the pallets.</span></span> <span data-ttu-id="30576-108">Em seguida, eles podem ser usados para validação como parte do processo de retirada que segue e operações de separação de saída futura.</span><span class="sxs-lookup"><span data-stu-id="30576-108">They can then be used for validation as part of the put-away process that follows and future outbound picking operations.</span></span>
 
-<span data-ttu-id="95360-109">Você pode imprimir etiquetas altamente complexas, desde que o dispositivo de impressão possa interpretar o texto enviado a ela.</span><span class="sxs-lookup"><span data-stu-id="95360-109">You can print highly complex labels, provided that the printing device can interpret the text that is sent to it.</span></span> <span data-ttu-id="95360-110">Por exemplo, um layout de linguagem de programação zebra (ZPL) que inclui um código de barras pode ser semelhante ao exemplo a seguir.</span><span class="sxs-lookup"><span data-stu-id="95360-110">For example, a Zebra Programming Language (ZPL) layout that includes a bar code might resemble the following example.</span></span>
+<span data-ttu-id="30576-109">Você pode imprimir etiquetas altamente complexas, desde que o dispositivo de impressão possa interpretar o texto enviado a ela.</span><span class="sxs-lookup"><span data-stu-id="30576-109">You can print highly complex labels, provided that the printing device can interpret the text that is sent to it.</span></span> <span data-ttu-id="30576-110">Por exemplo, um layout de linguagem de programação zebra (ZPL) que inclui um código de barras pode ser semelhante ao exemplo a seguir.</span><span class="sxs-lookup"><span data-stu-id="30576-110">For example, a Zebra Programming Language (ZPL) layout that includes a bar code might resemble the following example.</span></span>
 
 ```dos
 ^XA~TA000~JSN^LT0^MNW^MTD^PON^PMN^LH0,0^JMA^PR2,2~SD15^JUS^LRN^CI0^XZ
@@ -47,92 +47,92 @@ ms.locfileid: "3763446"
 ^PQ1,,,Y^XZ
 ```
 
-<span data-ttu-id="95360-111">Como parte do processo de impressão de etiquetas, o texto `$LicensePlateId$` neste exemplo será substituído por um valor de dados.</span><span class="sxs-lookup"><span data-stu-id="95360-111">As part of the label printing process, the text `$LicensePlateId$` in this example will be replaced with a data value.</span></span>
+<span data-ttu-id="30576-111">Como parte do processo de impressão de etiquetas, o texto `$LicensePlateId$` neste exemplo será substituído por um valor de dados.</span><span class="sxs-lookup"><span data-stu-id="30576-111">As part of the label printing process, the text `$LicensePlateId$` in this example will be replaced with a data value.</span></span>
 
-<span data-ttu-id="95360-112">Para ver os valores que serão impressos, vá para **Gerenciamento de depósito \> Consultas e relatórios \> Etiquetas de placa de licença**.</span><span class="sxs-lookup"><span data-stu-id="95360-112">To see the values that will be printed, go to **Warehouse management \> Inquiries and reports \> License plate labels**.</span></span>
+<span data-ttu-id="30576-112">Para ver os valores que serão impressos, vá para **Gerenciamento de depósito \> Consultas e relatórios \> Etiquetas de placa de licença**.</span><span class="sxs-lookup"><span data-stu-id="30576-112">To see the values that will be printed, go to **Warehouse management \> Inquiries and reports \> License plate labels**.</span></span>
 
-<span data-ttu-id="95360-113">Várias ferramentas de geração de etiquetas amplamente disponíveis podem ajudá-lo a formatar o texto para o layout da etiqueta.</span><span class="sxs-lookup"><span data-stu-id="95360-113">Several widely available label generation tools can help you format the text for the label layout.</span></span> <span data-ttu-id="95360-114">Muitas dessas ferramentas dão suporte ao formato `$FieldName$`.</span><span class="sxs-lookup"><span data-stu-id="95360-114">Many of these tools support the `$FieldName$` format.</span></span> <span data-ttu-id="95360-115">Além disso, o Microsoft Dynamics 365 Supply Chain Management usa lógica de formatação especial como parte do mapeamento de campos para o layout de roteiro de documentos.</span><span class="sxs-lookup"><span data-stu-id="95360-115">In addition, Microsoft Dynamics 365 Supply Chain Management uses special formatting logic as part of the field mapping for the document routing layout.</span></span>
+<span data-ttu-id="30576-113">Várias ferramentas de geração de etiquetas amplamente disponíveis podem ajudá-lo a formatar o texto para o layout da etiqueta.</span><span class="sxs-lookup"><span data-stu-id="30576-113">Several widely available label generation tools can help you format the text for the label layout.</span></span> <span data-ttu-id="30576-114">Muitas dessas ferramentas dão suporte ao formato `$FieldName$`.</span><span class="sxs-lookup"><span data-stu-id="30576-114">Many of these tools support the `$FieldName$` format.</span></span> <span data-ttu-id="30576-115">Além disso, o Microsoft Dynamics 365 Supply Chain Management usa lógica de formatação especial como parte do mapeamento de campos para o layout de roteiro de documentos.</span><span class="sxs-lookup"><span data-stu-id="30576-115">In addition, Microsoft Dynamics 365 Supply Chain Management uses special formatting logic as part of the field mapping for the document routing layout.</span></span>
 
-## <a name="custom-number-formats"></a><span data-ttu-id="95360-116">Formatos de número personalizados</span><span class="sxs-lookup"><span data-stu-id="95360-116">Custom number formats</span></span>
+## <a name="custom-number-formats"></a><span data-ttu-id="30576-116">Formatos de número personalizados</span><span class="sxs-lookup"><span data-stu-id="30576-116">Custom number formats</span></span>
 
-<span data-ttu-id="95360-117">Você pode personalizar a formatação de valores de campos numéricos que são impressos usando códigos que têm o seguinte formato.</span><span class="sxs-lookup"><span data-stu-id="95360-117">You can customize the formatting of numerical field values that are printed by using codes that have the following format.</span></span>
+<span data-ttu-id="30576-117">Você pode personalizar a formatação de valores de campos numéricos que são impressos usando códigos que têm o seguinte formato.</span><span class="sxs-lookup"><span data-stu-id="30576-117">You can customize the formatting of numerical field values that are printed by using codes that have the following format.</span></span>
 
 ```dos
 $FieldName:FormatString$
 ```
 
-<span data-ttu-id="95360-118">Aqui está uma explicação deste formato:</span><span class="sxs-lookup"><span data-stu-id="95360-118">Here is an explanation of this format:</span></span>
+<span data-ttu-id="30576-118">Aqui está uma explicação deste formato:</span><span class="sxs-lookup"><span data-stu-id="30576-118">Here is an explanation of this format:</span></span>
 
-- <span data-ttu-id="95360-119">`FieldName` é o nome do campo de dados (por exemplo**Qtd.**).</span><span class="sxs-lookup"><span data-stu-id="95360-119">`FieldName` is the name of the data field (such as **Qty**).</span></span>
-- <span data-ttu-id="95360-120">`FormatString` define como os dados devem ser impressos.</span><span class="sxs-lookup"><span data-stu-id="95360-120">`FormatString` defines how the data must be printed.</span></span>
+- <span data-ttu-id="30576-119">`FieldName` é o nome do campo de dados (por exemplo **Qtd.** ).</span><span class="sxs-lookup"><span data-stu-id="30576-119">`FieldName` is the name of the data field (such as **Qty** ).</span></span>
+- <span data-ttu-id="30576-120">`FormatString` define como os dados devem ser impressos.</span><span class="sxs-lookup"><span data-stu-id="30576-120">`FormatString` defines how the data must be printed.</span></span>
 
-<span data-ttu-id="95360-121">Os exemplos a seguir mostram como é possível personalizar o campo (**Qtd.**) de quantidade de trabalho:</span><span class="sxs-lookup"><span data-stu-id="95360-121">The following examples show how you can customize the work quantity (**Qty**) field:</span></span>
+<span data-ttu-id="30576-121">Os exemplos a seguir mostram como é possível personalizar o campo ( **Qtd.** ) de quantidade de trabalho:</span><span class="sxs-lookup"><span data-stu-id="30576-121">The following examples show how you can customize the work quantity ( **Qty** ) field:</span></span>
 
-- <span data-ttu-id="95360-122">Para mostrar sempre quatro dígitos (usando zeros como espaços reservados), use `$Qty:0000$`.</span><span class="sxs-lookup"><span data-stu-id="95360-122">To always show four digits (by using zeros as placeholders), use `$Qty:0000$`.</span></span> <span data-ttu-id="95360-123">Por exemplo, se a quantidade for 10, o rótulo mostrará "0010".</span><span class="sxs-lookup"><span data-stu-id="95360-123">For example, if the quantity is 10, the label will show "0010."</span></span>
-- <span data-ttu-id="95360-124">Para mostrar sempre duas casas decimais, use `$Qty:0.00$`.</span><span class="sxs-lookup"><span data-stu-id="95360-124">To always show two decimal places, use `$Qty:0.00$`.</span></span> <span data-ttu-id="95360-125">Por exemplo, se a quantidade for 10, o rótulo mostrará "10,00".</span><span class="sxs-lookup"><span data-stu-id="95360-125">For example, if the quantity is 10, the label will show "10.00."</span></span>
+- <span data-ttu-id="30576-122">Para mostrar sempre quatro dígitos (usando zeros como espaços reservados), use `$Qty:0000$`.</span><span class="sxs-lookup"><span data-stu-id="30576-122">To always show four digits (by using zeros as placeholders), use `$Qty:0000$`.</span></span> <span data-ttu-id="30576-123">Por exemplo, se a quantidade for 10, o rótulo mostrará "0010".</span><span class="sxs-lookup"><span data-stu-id="30576-123">For example, if the quantity is 10, the label will show "0010."</span></span>
+- <span data-ttu-id="30576-124">Para mostrar sempre duas casas decimais, use `$Qty:0.00$`.</span><span class="sxs-lookup"><span data-stu-id="30576-124">To always show two decimal places, use `$Qty:0.00$`.</span></span> <span data-ttu-id="30576-125">Por exemplo, se a quantidade for 10, o rótulo mostrará "10,00".</span><span class="sxs-lookup"><span data-stu-id="30576-125">For example, if the quantity is 10, the label will show "10.00."</span></span>
 
-<span data-ttu-id="95360-126">Para obter uma lista completa das cadeias de caracteres de formato de número disponíveis, consulte [Strings de formato numérico personalizado](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings).</span><span class="sxs-lookup"><span data-stu-id="95360-126">For a complete list of the available number format strings, see [Custom numeric format strings](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings).</span></span>
+<span data-ttu-id="30576-126">Para obter uma lista completa das cadeias de caracteres de formato de número disponíveis, consulte [Strings de formato numérico personalizado](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings).</span><span class="sxs-lookup"><span data-stu-id="30576-126">For a complete list of the available number format strings, see [Custom numeric format strings](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings).</span></span>
 
-## <a name="custom-string-formats"></a><span data-ttu-id="95360-127">Formatos de sequência de caracteres personalizados</span><span class="sxs-lookup"><span data-stu-id="95360-127">Custom string formats</span></span>
+## <a name="custom-string-formats"></a><span data-ttu-id="30576-127">Formatos de sequência de caracteres personalizados</span><span class="sxs-lookup"><span data-stu-id="30576-127">Custom string formats</span></span>
 
-<span data-ttu-id="95360-128">Você pode remover os primeiros caracteres de uma sequência usando o campo a seguir e código de formatação.</span><span class="sxs-lookup"><span data-stu-id="95360-128">You can remove the first characters of a string by using the following field and format code.</span></span>
+<span data-ttu-id="30576-128">Você pode remover os primeiros caracteres de uma sequência usando o campo a seguir e código de formatação.</span><span class="sxs-lookup"><span data-stu-id="30576-128">You can remove the first characters of a string by using the following field and format code.</span></span>
 
 ```dos
 $FieldName:#..$
 ```
 
-<span data-ttu-id="95360-129">Aqui, `#` especifica o número de caracteres a serem ignorados.</span><span class="sxs-lookup"><span data-stu-id="95360-129">Here, `#` specifies the number of characters to skip.</span></span> <span data-ttu-id="95360-130">Por exemplo, para imprimir um número de placa de licença de SSCC (código série do contêiner de remessa) que não inclua os dois primeiros caracteres, use `$LicensePlateId:2..$`.</span><span class="sxs-lookup"><span data-stu-id="95360-130">For example, to print a Serial Shipping Container Code (SSCC) license plate number that doesn't include the first two characters, use `$LicensePlateId:2..$`.</span></span> <span data-ttu-id="95360-131">Nesse caso, o número da placa de licença 0011111111111222221 será impresso como "11111111111222221."</span><span class="sxs-lookup"><span data-stu-id="95360-131">In this case, the license plate number 0011111111111222221 will be printed as "11111111111222221."</span></span>
+<span data-ttu-id="30576-129">Aqui, `#` especifica o número de caracteres a serem ignorados.</span><span class="sxs-lookup"><span data-stu-id="30576-129">Here, `#` specifies the number of characters to skip.</span></span> <span data-ttu-id="30576-130">Por exemplo, para imprimir um número de placa de licença de SSCC (código série do contêiner de remessa) que não inclua os dois primeiros caracteres, use `$LicensePlateId:2..$`.</span><span class="sxs-lookup"><span data-stu-id="30576-130">For example, to print a Serial Shipping Container Code (SSCC) license plate number that doesn't include the first two characters, use `$LicensePlateId:2..$`.</span></span> <span data-ttu-id="30576-131">Nesse caso, o número da placa de licença 0011111111111222221 será impresso como "11111111111222221."</span><span class="sxs-lookup"><span data-stu-id="30576-131">In this case, the license plate number 0011111111111222221 will be printed as "11111111111222221."</span></span>
 
-## <a name="custom-datetime-formats"></a><span data-ttu-id="95360-132">Formatos de data/hora personalizados</span><span class="sxs-lookup"><span data-stu-id="95360-132">Custom date/time formats</span></span>
+## <a name="custom-datetime-formats"></a><span data-ttu-id="30576-132">Formatos de data/hora personalizados</span><span class="sxs-lookup"><span data-stu-id="30576-132">Custom date/time formats</span></span>
 
-<span data-ttu-id="95360-133">O exemplo a seguir mostra como você pode controlar o formato usado para imprimir datas.</span><span class="sxs-lookup"><span data-stu-id="95360-133">The following example shows how you can control the format that is used to print dates.</span></span>
+<span data-ttu-id="30576-133">O exemplo a seguir mostra como você pode controlar o formato usado para imprimir datas.</span><span class="sxs-lookup"><span data-stu-id="30576-133">The following example shows how you can control the format that is used to print dates.</span></span>
 
 ```dos
 $PrintedDate:dd-MM-yyyy$
 ```
 
-<span data-ttu-id="95360-134">Neste exemplo, a data 30 de abril 2020 será impressa como "30-04-2020".</span><span class="sxs-lookup"><span data-stu-id="95360-134">In this example, the date April 30, 2020, will be printed as "30-04-2020."</span></span>
+<span data-ttu-id="30576-134">Neste exemplo, a data 30 de abril 2020 será impressa como "30-04-2020".</span><span class="sxs-lookup"><span data-stu-id="30576-134">In this example, the date April 30, 2020, will be printed as "30-04-2020."</span></span>
 
-<span data-ttu-id="95360-135">Para obter uma lista completa dos formatos de data/hora disponíveis, consulte [Strings de formato de data e hora personalizados](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings).</span><span class="sxs-lookup"><span data-stu-id="95360-135">For a complete list of the available date/time formats, see [Custom date and time format strings](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings).</span></span>
+<span data-ttu-id="30576-135">Para obter uma lista completa dos formatos de data/hora disponíveis, consulte [Strings de formato de data e hora personalizados](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings).</span><span class="sxs-lookup"><span data-stu-id="30576-135">For a complete list of the available date/time formats, see [Custom date and time format strings](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings).</span></span>
 
-## <a name="print-individual-lines-from-multiline-data"></a><span data-ttu-id="95360-136">Imprimir linhas individuais de dados de várias linhas</span><span class="sxs-lookup"><span data-stu-id="95360-136">Print individual lines from multiline data</span></span>
+## <a name="print-individual-lines-from-multiline-data"></a><span data-ttu-id="30576-136">Imprimir linhas individuais de dados de várias linhas</span><span class="sxs-lookup"><span data-stu-id="30576-136">Print individual lines from multiline data</span></span>
 
-<span data-ttu-id="95360-137">Se um campo de dados contiver várias linhas (ou seja, linhas separadas por quebras de linha), você poderá imprimir uma linha individual usando o formato a seguir.</span><span class="sxs-lookup"><span data-stu-id="95360-137">If a data field contains multiple lines (that is, lines that are separated by line breaks), you can print an individual line by using the following format.</span></span>
+<span data-ttu-id="30576-137">Se um campo de dados contiver várias linhas (ou seja, linhas separadas por quebras de linha), você poderá imprimir uma linha individual usando o formato a seguir.</span><span class="sxs-lookup"><span data-stu-id="30576-137">If a data field contains multiple lines (that is, lines that are separated by line breaks), you can print an individual line by using the following format.</span></span>
 
 ```dos
 $FieldName[#]$
 ```
 
-<span data-ttu-id="95360-138">Aqui, `#` é o número da linha que você deseja imprimir.</span><span class="sxs-lookup"><span data-stu-id="95360-138">Here, `#` is the line number that you want to print.</span></span> <span data-ttu-id="95360-139">(Use 1 para a primeira linha.)</span><span class="sxs-lookup"><span data-stu-id="95360-139">(Use 1 for the first line.)</span></span>
+<span data-ttu-id="30576-138">Aqui, `#` é o número da linha que você deseja imprimir.</span><span class="sxs-lookup"><span data-stu-id="30576-138">Here, `#` is the line number that you want to print.</span></span> <span data-ttu-id="30576-139">(Use 1 para a primeira linha.)</span><span class="sxs-lookup"><span data-stu-id="30576-139">(Use 1 for the first line.)</span></span>
 
-<span data-ttu-id="95360-140">Por exemplo, seu sistema tem um campo `AdditionalAddress` que armazena o seguinte endereço de várias linhas:</span><span class="sxs-lookup"><span data-stu-id="95360-140">For example, your system has an `AdditionalAddress` field that stores the following multiline address:</span></span>
+<span data-ttu-id="30576-140">Por exemplo, seu sistema tem um campo `AdditionalAddress` que armazena o seguinte endereço de várias linhas:</span><span class="sxs-lookup"><span data-stu-id="30576-140">For example, your system has an `AdditionalAddress` field that stores the following multiline address:</span></span>
 
-<span data-ttu-id="95360-141">Contoso Inc.</span><span class="sxs-lookup"><span data-stu-id="95360-141">Contoso Inc.</span></span>  
-<span data-ttu-id="95360-142">123 Nome da rua</span><span class="sxs-lookup"><span data-stu-id="95360-142">123 Street Name</span></span>  
-<span data-ttu-id="95360-143">Cidade, Estado</span><span class="sxs-lookup"><span data-stu-id="95360-143">Some City, Some State</span></span>
+<span data-ttu-id="30576-141">Contoso Inc.</span><span class="sxs-lookup"><span data-stu-id="30576-141">Contoso Inc.</span></span>  
+<span data-ttu-id="30576-142">123 Nome da rua</span><span class="sxs-lookup"><span data-stu-id="30576-142">123 Street Name</span></span>  
+<span data-ttu-id="30576-143">Cidade, Estado</span><span class="sxs-lookup"><span data-stu-id="30576-143">Some City, Some State</span></span>
 
-<span data-ttu-id="95360-144">Você pode imprimir este endereço, uma linha de cada vez, usando os códigos a seguir.</span><span class="sxs-lookup"><span data-stu-id="95360-144">You can print this address, one line at a time, by using the following codes.</span></span>
+<span data-ttu-id="30576-144">Você pode imprimir este endereço, uma linha de cada vez, usando os códigos a seguir.</span><span class="sxs-lookup"><span data-stu-id="30576-144">You can print this address, one line at a time, by using the following codes.</span></span>
 
-| <span data-ttu-id="95360-145">Código</span><span class="sxs-lookup"><span data-stu-id="95360-145">Code</span></span> | <span data-ttu-id="95360-146">Texto impresso</span><span class="sxs-lookup"><span data-stu-id="95360-146">Text that is printed</span></span> |
+| <span data-ttu-id="30576-145">Código</span><span class="sxs-lookup"><span data-stu-id="30576-145">Code</span></span> | <span data-ttu-id="30576-146">Texto impresso</span><span class="sxs-lookup"><span data-stu-id="30576-146">Text that is printed</span></span> |
 |---|---|
-| `$AdditionalAddress[1]$` | <span data-ttu-id="95360-147">Contoso Inc.</span><span class="sxs-lookup"><span data-stu-id="95360-147">Contoso Inc.</span></span> |
-| `$AdditionalAddress[2]$` | <span data-ttu-id="95360-148">123 Nome da rua</span><span class="sxs-lookup"><span data-stu-id="95360-148">123 Street Name</span></span> |
-| `$AdditionalAddress[3]$` | <span data-ttu-id="95360-149">Cidade, Estado</span><span class="sxs-lookup"><span data-stu-id="95360-149">Some City, Some State</span></span> |
+| `$AdditionalAddress[1]$` | <span data-ttu-id="30576-147">Contoso Inc.</span><span class="sxs-lookup"><span data-stu-id="30576-147">Contoso Inc.</span></span> |
+| `$AdditionalAddress[2]$` | <span data-ttu-id="30576-148">123 Nome da rua</span><span class="sxs-lookup"><span data-stu-id="30576-148">123 Street Name</span></span> |
+| `$AdditionalAddress[3]$` | <span data-ttu-id="30576-149">Cidade, Estado</span><span class="sxs-lookup"><span data-stu-id="30576-149">Some City, Some State</span></span> |
 
-## <a name="print-and-format-from-a-display-method"></a><span data-ttu-id="95360-150">Imprimir e formatar de um método de exibição</span><span class="sxs-lookup"><span data-stu-id="95360-150">Print and format from a display method</span></span>
+## <a name="print-and-format-from-a-display-method"></a><span data-ttu-id="30576-150">Imprimir e formatar de um método de exibição</span><span class="sxs-lookup"><span data-stu-id="30576-150">Print and format from a display method</span></span>
 
-<span data-ttu-id="95360-151">Você pode imprimir de um método de exibição usando o formato a seguir.</span><span class="sxs-lookup"><span data-stu-id="95360-151">You can print from a display method by using the following format.</span></span>
+<span data-ttu-id="30576-151">Você pode imprimir de um método de exibição usando o formato a seguir.</span><span class="sxs-lookup"><span data-stu-id="30576-151">You can print from a display method by using the following format.</span></span>
 
 ```dos
 $DisplayMethod()$
 ```
 
-<span data-ttu-id="95360-152">Você pode combinar esse formato com outros tipos que foram descritos anteriormente neste tópico.</span><span class="sxs-lookup"><span data-stu-id="95360-152">You can combine this format with other types that were described earlier in this topic.</span></span> <span data-ttu-id="95360-153">Por exemplo, você tem um método de exibição denominado `DisplayListOfItemsNumbers()` e deseja imprimir o primeiro número de item desse método.</span><span class="sxs-lookup"><span data-stu-id="95360-153">For example, you have a display method that is named `DisplayListOfItemsNumbers()`, and you want to print the first item number of this method.</span></span> <span data-ttu-id="95360-154">Nesse caso, você pode usar o código a seguir.</span><span class="sxs-lookup"><span data-stu-id="95360-154">In this case, you can use the following code.</span></span>
+<span data-ttu-id="30576-152">Você pode combinar esse formato com outros tipos que foram descritos anteriormente neste tópico.</span><span class="sxs-lookup"><span data-stu-id="30576-152">You can combine this format with other types that were described earlier in this topic.</span></span> <span data-ttu-id="30576-153">Por exemplo, você tem um método de exibição denominado `DisplayListOfItemsNumbers()` e deseja imprimir o primeiro número de item desse método.</span><span class="sxs-lookup"><span data-stu-id="30576-153">For example, you have a display method that is named `DisplayListOfItemsNumbers()`, and you want to print the first item number of this method.</span></span> <span data-ttu-id="30576-154">Nesse caso, você pode usar o código a seguir.</span><span class="sxs-lookup"><span data-stu-id="30576-154">In this case, you can use the following code.</span></span>
 
 ```dos
 $DisplayListOfItemsNumbers()[1]$
 ```
 
-## <a name="more-information-about-how-to-print-labels"></a><span data-ttu-id="95360-155">Mais informações sobre como imprimir etiquetas</span><span class="sxs-lookup"><span data-stu-id="95360-155">More information about how to print labels</span></span>
+## <a name="more-information-about-how-to-print-labels"></a><span data-ttu-id="30576-155">Mais informações sobre como imprimir etiquetas</span><span class="sxs-lookup"><span data-stu-id="30576-155">More information about how to print labels</span></span>
 
-<span data-ttu-id="95360-156">Para obter mais informações sobre como configurar e imprimir etiquetas, consulte [Habilitar impressão de etiqueta de placa de licença](tasks/license-plate-label-printing.md).</span><span class="sxs-lookup"><span data-stu-id="95360-156">For more information about how to set up and print labels, see [Enable license plate label printing](tasks/license-plate-label-printing.md).</span></span>
+<span data-ttu-id="30576-156">Para obter mais informações sobre como configurar e imprimir etiquetas, consulte [Habilitar impressão de etiqueta de placa de licença](tasks/license-plate-label-printing.md).</span><span class="sxs-lookup"><span data-stu-id="30576-156">For more information about how to set up and print labels, see [Enable license plate label printing](tasks/license-plate-label-printing.md).</span></span>

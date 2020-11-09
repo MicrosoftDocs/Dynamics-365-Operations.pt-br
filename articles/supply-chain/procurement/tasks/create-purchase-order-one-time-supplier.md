@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchCreateOrder
+ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,26 +16,26 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 76915772809d736cac9e8a9439d9e693a4490eec
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 3fc935b346adfe9548b024f22a2fbfb5af9a802d
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204898"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018089"
 ---
-# <a name="create-a-purchase-order-for-a-one-time-supplier"></a><span data-ttu-id="e565d-103">Criar uma ordem de compra para um fornecedor ocasional</span><span class="sxs-lookup"><span data-stu-id="e565d-103">Create a purchase order for a one-time supplier</span></span>
+# <a name="create-a-purchase-order-for-a-one-time-supplier"></a><span data-ttu-id="f07f2-103">Criar uma ordem de compra para um fornecedor ocasional</span><span class="sxs-lookup"><span data-stu-id="f07f2-103">Create a purchase order for a one-time supplier</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="e565d-104">Este procedimento mostra como criar uma ordem de compra de um fornecedor ocasional.</span><span class="sxs-lookup"><span data-stu-id="e565d-104">This procedure shows you how to create a purchase order for a one-time supplier.</span></span> <span data-ttu-id="e565d-105">O fornecedor é criado automaticamente com a ordem de compra, em vez de ter que criar manualmente a conta do vendedor.</span><span class="sxs-lookup"><span data-stu-id="e565d-105">The supplier is created automatically with the purchase order, rather than having to create the vendor account manually.</span></span> <span data-ttu-id="e565d-106">As ordens de compra geralmente são criadas com um agente de compra.</span><span class="sxs-lookup"><span data-stu-id="e565d-106">Purchase orders are typically created by a purchasing agent.</span></span> <span data-ttu-id="e565d-107">O exemplo mostrado neste guia pode ser usado na empresa dos dados do programa demonstrativo de USMF.</span><span class="sxs-lookup"><span data-stu-id="e565d-107">The example shown in this guide can be used in the USMF demo data company.</span></span> <span data-ttu-id="e565d-108">É uma condição prévia que uma única conta do vendedor estabeleceu na página dos parâmetros da conta a pagar.</span><span class="sxs-lookup"><span data-stu-id="e565d-108">It is a prerequisite that a one-time vendor account has been set up in the Account payable parameters page.</span></span>
+<span data-ttu-id="f07f2-104">Este procedimento mostra como criar uma ordem de compra de um fornecedor ocasional.</span><span class="sxs-lookup"><span data-stu-id="f07f2-104">This procedure shows you how to create a purchase order for a one-time supplier.</span></span> <span data-ttu-id="f07f2-105">O fornecedor é criado automaticamente com a ordem de compra, em vez de ter que criar manualmente a conta do vendedor.</span><span class="sxs-lookup"><span data-stu-id="f07f2-105">The supplier is created automatically with the purchase order, rather than having to create the vendor account manually.</span></span> <span data-ttu-id="f07f2-106">As ordens de compra geralmente são criadas com um agente de compra.</span><span class="sxs-lookup"><span data-stu-id="f07f2-106">Purchase orders are typically created by a purchasing agent.</span></span> <span data-ttu-id="f07f2-107">O exemplo mostrado neste guia pode ser usado na empresa dos dados do programa demonstrativo de USMF.</span><span class="sxs-lookup"><span data-stu-id="f07f2-107">The example shown in this guide can be used in the USMF demo data company.</span></span> <span data-ttu-id="f07f2-108">É uma condição prévia que uma única conta do vendedor estabeleceu na página dos parâmetros da conta a pagar.</span><span class="sxs-lookup"><span data-stu-id="f07f2-108">It is a prerequisite that a one-time vendor account has been set up in the Account payable parameters page.</span></span>
 
 
-## <a name="create-a-purchase-order-for-a-one-time-supplier"></a><span data-ttu-id="e565d-109">Criar uma ordem de compra para um fornecedor ocasional</span><span class="sxs-lookup"><span data-stu-id="e565d-109">Create a purchase order for a one-time supplier</span></span>
-1. <span data-ttu-id="e565d-110">Vá para Aquisição e fornecimento > Ordens de compra > Todas as ordens de compra.</span><span class="sxs-lookup"><span data-stu-id="e565d-110">Go to Procurement and sourcing > Purchase orders > All purchase orders.</span></span>
-2. <span data-ttu-id="e565d-111">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="e565d-111">Click New.</span></span>
-3. <span data-ttu-id="e565d-112">Selecione Sim no campo Fornecedor ocasional.</span><span class="sxs-lookup"><span data-stu-id="e565d-112">Select Yes in the One-time supplier field.</span></span>
-    * <span data-ttu-id="e565d-113">Uma conta do vendedor automaticamente é criada e atribuída à ordem de compra.</span><span class="sxs-lookup"><span data-stu-id="e565d-113">A vendor account is automatically created and assigned to the purchase order.</span></span> <span data-ttu-id="e565d-114">A conta do vendedor é criada com base no molde que é especificado na aba geral na página dos parâmetros das contas a pagar.</span><span class="sxs-lookup"><span data-stu-id="e565d-114">The vendor account is created based on the template that is specified on the General tab in the Accounts payable parameters page.</span></span>  
-4. <span data-ttu-id="e565d-115">No campo Nome, digite um nome para o fornecedor.</span><span class="sxs-lookup"><span data-stu-id="e565d-115">In the Name field, type a name for the supplier.</span></span>
-5. <span data-ttu-id="e565d-116">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="e565d-116">Click OK.</span></span>
-    * <span data-ttu-id="e565d-117">A ordem de compra pode agora ser concluída e processada como toda a outra ordem.</span><span class="sxs-lookup"><span data-stu-id="e565d-117">The purchase order can now be completed and processed like any other order.</span></span> <span data-ttu-id="e565d-118">Não há nenhuma característica especial relativa a como isto é feito.</span><span class="sxs-lookup"><span data-stu-id="e565d-118">There are no special characteristics related to how this is done.</span></span> <span data-ttu-id="e565d-119">A fatura explicará uma transação devida na conta do vendedor que foi criada com a ordem, e o pagamento será então processado.</span><span class="sxs-lookup"><span data-stu-id="e565d-119">The invoice will account a due transaction on the vendor account that was created with the order, and payment will then be processed.</span></span>
+## <a name="create-a-purchase-order-for-a-one-time-supplier"></a><span data-ttu-id="f07f2-109">Criar uma ordem de compra para um fornecedor ocasional</span><span class="sxs-lookup"><span data-stu-id="f07f2-109">Create a purchase order for a one-time supplier</span></span>
+1. <span data-ttu-id="f07f2-110">Vá para Aquisição e fornecimento > Ordens de compra > Todas as ordens de compra.</span><span class="sxs-lookup"><span data-stu-id="f07f2-110">Go to Procurement and sourcing > Purchase orders > All purchase orders.</span></span>
+2. <span data-ttu-id="f07f2-111">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="f07f2-111">Click New.</span></span>
+3. <span data-ttu-id="f07f2-112">Selecione Sim no campo Fornecedor ocasional.</span><span class="sxs-lookup"><span data-stu-id="f07f2-112">Select Yes in the One-time supplier field.</span></span>
+    * <span data-ttu-id="f07f2-113">Uma conta do vendedor automaticamente é criada e atribuída à ordem de compra.</span><span class="sxs-lookup"><span data-stu-id="f07f2-113">A vendor account is automatically created and assigned to the purchase order.</span></span> <span data-ttu-id="f07f2-114">A conta do vendedor é criada com base no molde que é especificado na aba geral na página dos parâmetros das contas a pagar.</span><span class="sxs-lookup"><span data-stu-id="f07f2-114">The vendor account is created based on the template that is specified on the General tab in the Accounts payable parameters page.</span></span>  
+4. <span data-ttu-id="f07f2-115">No campo Nome, digite um nome para o fornecedor.</span><span class="sxs-lookup"><span data-stu-id="f07f2-115">In the Name field, type a name for the supplier.</span></span>
+5. <span data-ttu-id="f07f2-116">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="f07f2-116">Click OK.</span></span>
+    * <span data-ttu-id="f07f2-117">A ordem de compra pode agora ser concluída e processada como toda a outra ordem.</span><span class="sxs-lookup"><span data-stu-id="f07f2-117">The purchase order can now be completed and processed like any other order.</span></span> <span data-ttu-id="f07f2-118">Não há nenhuma característica especial relativa a como isto é feito.</span><span class="sxs-lookup"><span data-stu-id="f07f2-118">There are no special characteristics related to how this is done.</span></span> <span data-ttu-id="f07f2-119">A fatura explicará uma transação devida na conta do vendedor que foi criada com a ordem, e o pagamento será então processado.</span><span class="sxs-lookup"><span data-stu-id="f07f2-119">The invoice will account a due transaction on the vendor account that was created with the order, and payment will then be processed.</span></span>
 
