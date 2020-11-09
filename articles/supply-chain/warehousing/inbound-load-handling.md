@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: f165a6187332a45e77c22de6eb10e227bc1c8f4c
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 41a05bcd0148d0a553cb50575cae47f48397ae9b
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985009"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017612"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Processamento de cargas de entrada das ordens de compra no depósito
 
@@ -44,7 +45,7 @@ A ilustração a seguir mostra o fluxo típico de processamento de cargas de ent
 
 1. **O fornecedor confirma a expedição da carga.**
 
-    Quando o fornecedor expede a carga, o coordenador de logística no depósito de recebimento confirma a remessa da carga. Se a empresa que recebe estiver usando o módulo **Gerenciamento de transporte**, a confirmação da remessa de entrada acionará outros processos de gerenciamento de carga associados às cargas de entrada. Para obter mais informações, consulte [Confirmar uma carga para envio](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
+    Quando o fornecedor expede a carga, o coordenador de logística no depósito de recebimento confirma a remessa da carga. Se a empresa que recebe estiver usando o módulo **Gerenciamento de transporte** , a confirmação da remessa de entrada acionará outros processos de gerenciamento de carga associados às cargas de entrada. Para obter mais informações, consulte [Confirmar uma carga para envio](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
 
 1. **A carga chega ao depósito e os funcionários registram as quantidades.**
 
@@ -74,11 +75,11 @@ Quando uma carga de entrada chega primeiro ao depósito, os funcionários do dep
     - Recebimento e armazenamento de placa de licença mista, em que o campo **Método de identificação da linha do documento de origem** para o item de menu do dispositivo móvel está definido como _Recebimento do item de carga_. Para obter mais informações, consulte [Recebimento de placa de licença mista](mixed-license-plate-receiving.md).
 
     > [!NOTE]
-    > Independentemente do processo, o sistema gerará trabalho para selecionar as quantidades registradas no local de recebimento e mantê-las no local de armazenamento regular. Quando o processo _Recebimento e armazenamento do item de carga_ ou _Recebimento e armazenamento de placa de licença mista_ é usado, o funcionário que registrou a quantidade de carga também será instruído pelo dispositivo a realizar o trabalho de armazenamento como parte da tarefa de registro. Por outro lado, para os processos _Recebimento do item de carga_ e _Recebimento de placa de licença mista_, a suposição é que o trabalho de armazenamento será realizado separadamente da tarefa de registro.
+    > Independentemente do processo, o sistema gerará trabalho para selecionar as quantidades registradas no local de recebimento e mantê-las no local de armazenamento regular. Quando o processo _Recebimento e armazenamento do item de carga_ ou _Recebimento e armazenamento de placa de licença mista_ é usado, o funcionário que registrou a quantidade de carga também será instruído pelo dispositivo a realizar o trabalho de armazenamento como parte da tarefa de registro. Por outro lado, para os processos _Recebimento do item de carga_ e _Recebimento de placa de licença mista_ , a suposição é que o trabalho de armazenamento será realizado separadamente da tarefa de registro.
 
 - **Um modelo de trabalho que define o trabalho de separação e armazenamento para cargas recebidas**
 
-    Esse item está relacionado aos itens anteriores. Você deve ter pelo menos um modelo de trabalho para o tipo de ordem de serviço _Ordem de serviço_, o qual deve conter um conjunto de tipos de trabalho de seleção/armazenamento.
+    Esse item está relacionado aos itens anteriores. Você deve ter pelo menos um modelo de trabalho para o tipo de ordem de serviço _Ordem de serviço_ , o qual deve conter um conjunto de tipos de trabalho de seleção/armazenamento.
 
 O dispositivo móvel orienta o auxiliar de recebimento de depósito através do fluxo para o registro da quantidade de carga. No mínimo, esse fluxo inclui as seguintes etapas para cada ID de carga:
 
@@ -121,8 +122,8 @@ Use o campo **Excesso no recebimento de carga** para os itens de menu relevantes
 
 - Recebimento do item de carga
 - Recebimento e armazenamento do item de carga
-- Recebimento de placa de licença mista (em que o campo **Método de identificação da linha do documento de origem** está definido como _Recebimento do item de carga_)
-- Recebimento e armazenamento de placa de licença mista (em que o campo **Método de identificação da linha do documento de origem** está definido como _Recebimento do item de carga_)
+- Recebimento de placa de licença mista (em que o campo **Método de identificação da linha do documento de origem** está definido como _Recebimento do item de carga_ )
+- Recebimento e armazenamento de placa de licença mista (em que o campo **Método de identificação da linha do documento de origem** está definido como _Recebimento do item de carga_ )
 
 A tabela a seguir explica as opções disponíveis para o campo **Excesso no recebimento de carga**.
 
@@ -154,24 +155,24 @@ Depois que as quantidades de produtos de entrada são registradas no sistema, el
 Para abrir uma página na qual possam lançar um recibo do produto, os membros da equipe de operações podem seguir qualquer _uma_ das etapas abaixo:
 
 - Abra o registro da carga relevante e selecione a ação **Recebimento de produtos**.
-- Acesse **Gerenciamento de depósito \> Tarefas periódicas \> Atualizar recebimentos de produtos** e, no campo **ID de carga**, especifique a carga que será lançada.
+- Acesse **Gerenciamento de depósito \> Tarefas periódicas \> Atualizar recebimentos de produtos** e, no campo **ID de carga** , especifique a carga que será lançada.
 - Abra a ordem de compra relevante e selecione a ação **Recebimento de produtos**.
 - Acesse **Compras e fornecimento \> Ordens de compra \> Recebendo produtos \> Trabalho Lançamento de recebimento de produtos**.
 
-A ação **Recebimento de produtos** disponível na página **Carga** (e na página equivalente do trabalho de atualização, a página **Atualizar recebimentos de produtos**) pode atualizar as quantidades de recebimento de produtos somente em quantidades de ordens de compra com status de _Registrada_. No entanto, a ação **Recebimento de produtos** disponível na página **Ordem de compra** pode incluir quantidades nos dois status de processamento (_Encomendado_ e _Registrado_). Ela também pode controlar o escopo do lançamento de recebimento de produtos por meio de parâmetros adicionais, como _Quantidade de recebimento atual_ e _Quantidade e serviços registrados_.
+A ação **Recebimento de produtos** disponível na página **Carga** (e na página equivalente do trabalho de atualização, a página **Atualizar recebimentos de produtos** ) pode atualizar as quantidades de recebimento de produtos somente em quantidades de ordens de compra com status de _Registrada_. No entanto, a ação **Recebimento de produtos** disponível na página **Ordem de compra** pode incluir quantidades nos dois status de processamento ( _Encomendado_ e _Registrado_ ). Ela também pode controlar o escopo do lançamento de recebimento de produtos por meio de parâmetros adicionais, como _Quantidade de recebimento atual_ e _Quantidade e serviços registrados_.
 
 Somente ordens com o status _Confirmada_ podem ser lançados como produto recebido. Para ordens de compra não confirmadas, a ação **Recebimento de produtos** aparecerá como indisponível.
 
 ### <a name="post-registered-quantities-from-the-load-page"></a>Lançar quantidades registradas na página Carga
 
-Para lançar quantidades registradas como produto recebido na página **Carga**, os seguintes pré-requisitos devem estar em vigor:
+Para lançar quantidades registradas como produto recebido na página **Carga** , os seguintes pré-requisitos devem estar em vigor:
 
 - A carga deve ter pelo menos uma unidade de quantidade com o status _Registrada_.
 - O status da carga deve ser _Remetida_.
 - A ordem de compra associada à carga deve ter o status de _Confirmada_.
 
 > [!NOTE]
-> Se o status da carga não tiver sido definido como _Remetida_, o sistema confirmará automaticamente a carga antes de executar a atualização de recebimento do produto. (O status da carga é definido como _Remetida_ quando um usuário registra a remessa de entrada da carga.)
+> Se o status da carga não tiver sido definido como _Remetida_ , o sistema confirmará automaticamente a carga antes de executar a atualização de recebimento do produto. (O status da carga é definido como _Remetida_ quando um usuário registra a remessa de entrada da carga.)
 
 Para lançar como produto recebido os registros de entrada associados a uma carga selecionada, o funcionário seleciona a ação **Recebimento de produtos** na página **Carga**. A página que é aberta possui os seguintes detalhes principais:
 
@@ -184,7 +185,7 @@ Para lançar como produto recebido os registros de entrada associados a uma carg
 >
 > | Versão | Cálculo |
 > |---|---|
-> | Versões anteriores à versão 10.0.10 e versões mais recentes, em que o recurso _Permitir vários recebimentos de produtos por carga_ não está ativado | A quantidade de linha é o total de todas as quantidades registradas _dessa linha de ordem de compra_, independentemente de o registro ter sido feito em várias cargas, independentemente da carga, em um dispositivo móvel ou no cliente. |
+> | Versões anteriores à versão 10.0.10 e versões mais recentes, em que o recurso _Permitir vários recebimentos de produtos por carga_ não está ativado | A quantidade de linha é o total de todas as quantidades registradas _dessa linha de ordem de compra_ , independentemente de o registro ter sido feito em várias cargas, independentemente da carga, em um dispositivo móvel ou no cliente. |
 > | Versão 10.0.10 e posterior, onde o recurso _Permitir vários recebimentos de produtos por carga_ está ativado | A quantidade de linha é o total de todas as quantidades registradas _do registro de carga_ no qual a ação **Lançamento do recebimento de produtos** foi iniciada. |
 
 Quando o usuário seleciona **OK** para confirmar o lançamento de recebimento de produtos, o sistema faz as atualizações a seguir importantes nas entidades apropriadas.
@@ -206,22 +207,22 @@ A tabela a seguir resume os efeitos da configuração **Permitir vários recebim
 |---|---|---|---|
 | Quando esse campo não está disponível (versões anteriores à 10.0.10) | <p>A quantidade de carga é definida para que seja igual à quantidade registrada.</p><p>Se a quantidade de carga for atualizada para 0 (zero), o que significa que nenhum registro foi feito, a linha de carga será excluída.</p><p>Se não houver linhas de carga na carga, a carga será excluída.</p> | _Recebida_ | Se houver várias cargas para a quantidade registrada da linha do pedido, somente o status da carga da qual o recebimento foi lançado será atualizado para _Recebida_. |
 | Não | <p>A quantidade de carga é definida para que seja igual à quantidade registrada associada à ID de carga.</p><p>Se nenhuma ID de carga for registrada para a transação de estoque, o comportamento corresponderá ao das versões anteriores à 10.0.10.</p> | _Recebida_ | |
-| Sim | Nenhuma atualização | _Recebida_, se a quantidade total de carga registrada for igual ou superior à quantidade de carga | |
-| Sim | Nenhuma atualização | _Remetida_ ou _Em processamento_, se a quantidade total de carga registrada for inferior à quantidade de carga | |
+| Sim | Nenhuma atualização | _Recebida_ , se a quantidade total de carga registrada for igual ou superior à quantidade de carga | |
+| Sim | Nenhuma atualização | _Remetida_ ou _Em processamento_ , se a quantidade total de carga registrada for inferior à quantidade de carga | |
 
-Depois que o campo **Status da carga** é definido como _Recebida_, não é possível fazer mais lançamentos de recebimento de produtos para essa carga. Entretanto, o funcionário pode registrar a quantidade restante da ordem na carga recebida nas condições a seguir. (Para obter mais informações, consulte a seção [Recebimento de carga em excesso](#load-over-receiving) anterior nesse tópico.)
+Depois que o campo **Status da carga** é definido como _Recebida_ , não é possível fazer mais lançamentos de recebimento de produtos para essa carga. Entretanto, o funcionário pode registrar a quantidade restante da ordem na carga recebida nas condições a seguir. (Para obter mais informações, consulte a seção [Recebimento de carga em excesso](#load-over-receiving) anterior nesse tópico.)
 
 - A versão do Supply Chain Management é anterior à versão 10.0.11.
 - O recurso _Excesso no recebimento de quantidades de carga_ está ativado e o campo **Excesso no recebimento de quantidade da linha de carga** no item de menu do dispositivo móvel em relação à ação de recebimento de itens de carga está definido como _Permitir_.
 
-Para lançar como produto recebido quantidades de carga registradas adicionais em relação a uma carga com o status de _Recebida_, o usuário deve executar a ação de lançamento na ordem de compra associada.
+Para lançar como produto recebido quantidades de carga registradas adicionais em relação a uma carga com o status de _Recebida_ , o usuário deve executar a ação de lançamento na ordem de compra associada.
 
 ### <a name="post-registered-quantities-from-the-purchase-order-page"></a>Lançar quantidades registradas na página Ordem de compra
 
-Para lançar como produto recebido quantidades registradas na página **Ordem de compra**, o usuário conclui as seguintes tarefas antes de selecionar a ação **Recebimento de produtos**:
+Para lançar como produto recebido quantidades registradas na página **Ordem de compra** , o usuário conclui as seguintes tarefas antes de selecionar a ação **Recebimento de produtos** :
 
 - Defina o campo **Quantidade** na seção **Parâmetros** na guia **Configurações** como _Quantidade registrada_.
-- No campo **Recebimento de produtos**, insira os números das ordens de compra incluídos no lançamento.
+- No campo **Recebimento de produtos** , insira os números das ordens de compra incluídos no lançamento.
 
 > [!NOTE]
 > A quantidade de linha que será incluída no escopo de lançamento é o total de todas as quantidades registradas para a linha da ordem, independentemente de o registro de quantidade ter sido feito em várias cargas, independentemente da carga, em um dispositivo móvel ou no cliente. A mesma regra se aplica quando o lançamento de recebimento de produtos é executado em uma carga, se feito onde o campo **Permitir vários recebimentos de produtos por carga** não estiver disponível ou não estiver ativado.
@@ -237,7 +238,7 @@ A tabela a seguir resume os efeitos da configuração **Permitir vários recebim
 
 | Permitir vários recebimentos de produtos por carga | Quantidade de carga | Status da carga | Observação |
 |---|---|---|---|
-| Quando esse campo está desativado ou indisponível (nas versões anteriores à 10.0.10) | Nenhuma atualização | Nenhuma atualização é feita. (O status permanece _Em aberto_, _Remetida_ ou _Em processamento_.) | Como o registro de recebimento de produtos é iniciado na ordem de compra, a lógica de atualização não possui informações sobre a associação entre as quantidades registradas dentro de seu escopo e as cargas nas quais o registro foi registrado. Portanto, ele não pode selecionar a carga para a atualização de status. |
+| Quando esse campo está desativado ou indisponível (nas versões anteriores à 10.0.10) | Nenhuma atualização | Nenhuma atualização é feita. (O status permanece _Em aberto_ , _Remetida_ ou _Em processamento_.) | Como o registro de recebimento de produtos é iniciado na ordem de compra, a lógica de atualização não possui informações sobre a associação entre as quantidades registradas dentro de seu escopo e as cargas nas quais o registro foi registrado. Portanto, ele não pode selecionar a carga para a atualização de status. |
 | Habilitada | Nenhuma atualização | <p>Ocorre uma das seguintes ações:</p><ul><li>O status será alterado para <i>Recebida</i> se as quantidades totais recebidas e compradas das transações de estoque de ordem de compra forem maiores ou iguais à quantidade da carga à qual estão associados.</li><li>O status permanece <i>Em aberto</i>, <i>Remetida</i> ou <i>Em processamento</i> se a condição anterior não for atendida para todas as linhas na carga.</li></ul> | |
 
 ### <a name="select-the-appropriate-product-receipt-posting-option-for-your-logistics-operations"></a>Selecione a opção apropriada de lançamento de recebimento de produtos para suas operações logísticas
@@ -267,12 +268,12 @@ Esses cenários exigem o recurso _Vários lançamentos de recebimento de produto
 
 1. Abra o espaço de trabalho **Gerenciamento de recursos**. (Para obter detalhes completos sobre como encontrar e usar esse espaço de trabalho, consulte [Visão geral do gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).)
 
-1. Ative o recurso _Associar transações de estoque da ordem de compra à carga_, listado da seguinte maneira:
+1. Ative o recurso _Associar transações de estoque da ordem de compra à carga_ , listado da seguinte maneira:
 
     - **Módulo:** _Gerenciamento de Depósito_
     - **Nome do recurso:** _Associar transações de estoque da ordem de compra à carga_
 
-1. Ative o recurso _Vários lançamentos de recebimento de produtos por carga_, listado da seguinte maneira:
+1. Ative o recurso _Vários lançamentos de recebimento de produtos por carga_ , listado da seguinte maneira:
 
     - **Módulo:** _Gerenciamento de Depósito_
     - **Nome do recurso:** _Vários lançamentos de recebimento de produtos por carga_
@@ -311,7 +312,7 @@ Neste procedimento, você criará manualmente uma ordem de compra e uma carga as
 
 1. Acesse **Compras \> Ordens de compra \> Todas ordens de compra**.
 1. Selecione **Novo**.
-1. Na caixa de diálogo **Criar ordem de compra**, defina o campo **Conta de fornecedor** como _1001_.
+1. Na caixa de diálogo **Criar ordem de compra** , defina o campo **Conta de fornecedor** como _1001_.
 1. Selecione **OK** para fechar a caixa de diálogo e criar a ordem de compra.
 1. A nova ordem de compra já inclui uma linha em **Linhas de ordem de compra**. Defina os seguintes valores para essa linha:
 
@@ -319,21 +320,21 @@ Neste procedimento, você criará manualmente uma ordem de compra e uma carga as
     - **Depósito:** _24_
     - **Quantidade:** _10_
 
-1. No Painel de ações, na guia **Compra**, selecione **Ações \> Confirmar**. O status da ordem agora é _Confirmada_.
-1. No Painel de ações, na guia **Depósito**, selecione **Ações \> Bancada do planejamento de carga**.
-1. Na página **Bancada de planejamento de carga**, no Painel de ações, na guia **Oferta e demanda**, selecione **Adicionar \> Para nova carga**.
-1. Na caixa de diálogo **Atribuição de modelo de carga**, defina o campo **ID do modelo de carga** como _Contêiner 20'_.
+1. No Painel de ações, na guia **Compra** , selecione **Ações \> Confirmar**. O status da ordem agora é _Confirmada_.
+1. No Painel de ações, na guia **Depósito** , selecione **Ações \> Bancada do planejamento de carga**.
+1. Na página **Bancada de planejamento de carga** , no Painel de ações, na guia **Oferta e demanda** , selecione **Adicionar \> Para nova carga**.
+1. Na caixa de diálogo **Atribuição de modelo de carga** , defina o campo **ID do modelo de carga** como _Contêiner 20'_.
 1. Selecione **OK** para fechar a caixa de diálogo e retornar ao ambiente de trabalho.
-1. Na seção **Cargas**, selecione **ID de carga** para abrir a carga recém-criada.
+1. Na seção **Cargas** , selecione **ID de carga** para abrir a carga recém-criada.
 1. Revise o cabeçalho de carga e os detalhes da linha e observe os seguintes pontos:
 
-    - Na FastTab **Carga**, o campo **Status da carga** é definido _Em aberto_.
-    - Na seção **Linhas de carga**, existe uma única linha em que o campo **Quantidade** é definido como _10_ e o campo **Quantidade de trabalho criado** é definido como _0_ (zero).
+    - Na FastTab **Carga** , o campo **Status da carga** é definido _Em aberto_.
+    - Na seção **Linhas de carga** , existe uma única linha em que o campo **Quantidade** é definido como _10_ e o campo **Quantidade de trabalho criado** é definido como _0_ (zero).
 
     ![Detalhes da carga](media/inbound-load-details.png "Detalhes da carga")
 
-1. No Painel de ações, na guia **Enviar e receber**, no grupo **Confirmar \> Remessa de entrada**. Observe que o **Status da carga** foi alterado para _Remetida_.
-1. Anote o valor **ID de carga**, para que você possa usá-lo no próximo procedimento.
+1. No Painel de ações, na guia **Enviar e receber** , no grupo **Confirmar \> Remessa de entrada**. Observe que o **Status da carga** foi alterado para _Remetida_.
+1. Anote o valor **ID de carga** , para que você possa usá-lo no próximo procedimento.
 
 #### <a name="register-receipt-of-the-quantities-that-arrived-on-the-load"></a>Registrar o recebimento das quantidades que chegaram na carga
 
@@ -344,7 +345,7 @@ Quando a carga chega à doca de recebimento do depósito, um auxiliar de recebim
 1. Siga as instruções de entrada de dados na tela para inserir os valores a seguir. (A ordem pode variar, dependendo do dispositivo móvel ou emulador que você está usando.)
 
     - **Carga** – Insira a ID de carga que você criou no procedimento anterior.
-    - **Item** – Insira _A0001_, que é o item esperado para essa carga.
+    - **Item** – Insira _A0001_ , que é o item esperado para essa carga.
     - **Qtd.** – Insira _9_ como a quantidade real presente na carga. Observe que essa quantidade é menor que a quantidade esperada.
 
 1. Continue passando pelo fluxo de trabalho, deixando todos os outros campos em branco ou com os valores padrão até o dispositivo informar que o trabalho foi concluído.
@@ -353,11 +354,11 @@ A tarefa de recebimento de carga agora está concluída, e o auxiliar de recebim
 
 1. Acesse **Gerenciamento de depósito \> Cargas \> Todas as cargas**.
 1. Na lista, encontre a carga que você acabou de receber. (Pode ser necessário marcar a caixa de seleção **Mostrar fechada** para incluir as cargas de entrada com um status de carga de _Remetida_.) Em seguida, selecione o link na coluna **ID de carga** para abrir a carga.
-1. No registro de carga, observe que o valor **Status da carga** permanece _Remetida_, mas o valor **Quantidade de trabalho criado** na linha de carga foi alterado para _9_.
+1. No registro de carga, observe que o valor **Status da carga** permanece _Remetida_ , mas o valor **Quantidade de trabalho criado** na linha de carga foi alterado para _9_.
 1. Acesse **Compras \> Ordens de compra \> Todas ordens de compra**.
 1. Na lista, localize a compra que você acabou de receber e selecione o link na coluna **Ordem de compra** para abrir a ordem.
 \
-1. Na FastTab **Linhas de ordem de compra**, selecione **Estoque \> Exibir \> Transações**.
+1. Na FastTab **Linhas de ordem de compra** , selecione **Estoque \> Exibir \> Transações**.
 1. Revise os detalhes das duas transações de ordem de compra. (Talvez você precise personalizar a página **Transações de estoque** para ver o campo **ID de carga** na grade.) Você deve ver duas transações:
 
     - A transação que possui um recebimento no status _Registrada_ representa a quantidade de registro de _9_ que foi executada em uma carga específica usando o dispositivo móvel. A **ID de carga** está associada à transação em questão.
@@ -369,13 +370,13 @@ Neste procedimento, você lançará como produto recebido o estoque que você re
 
 1. Acesse **Gerenciamento de depósito \> Cargas \> Todas as cargas**.
 1. Na lista, encontre a carga recebida. (Pode ser necessário marcar a caixa de seleção **Mostrar fechada** para incluir as cargas de entrada com um status de carga de _Remetida_.) Em seguida, selecione o link na coluna **ID de carga** para abrir a carga.
-1. No Painel de ações, na guia **Enviar e receber**, no grupo **Receber \> Recebimento de produtos**. Se você for solicitado a confirmar a ação, selecione **Sim**.
-1. Na caixa de diálogo **Lançamento de recebimento de produtos**, na FastTab **Lines**, inspecione a grade. Você deve ver a linha de ordem de compra para a qual a quantidade foi registrada na carga selecionada.
+1. No Painel de ações, na guia **Enviar e receber** , no grupo **Receber \> Recebimento de produtos**. Se você for solicitado a confirmar a ação, selecione **Sim**.
+1. Na caixa de diálogo **Lançamento de recebimento de produtos** , na FastTab **Lines** , inspecione a grade. Você deve ver a linha de ordem de compra para a qual a quantidade foi registrada na carga selecionada.
 
     > [!NOTE]
     > Nas versões em que o recurso _Vários lançamentos de recebimento de produtos por carga_ não está disponível ou não está ativado, a quantidade padrão mostrada na grade **Linhas de carga** será a quantidade total registrada em todas as cargas que estão associadas à linha de ordem de compra.
 
-1. Na FastTab **Visão geral**, inspecione o campo **Recebimento de produtos** na grade. Observe que ele é definido como um número que inclui a ID de carga selecionada.
+1. Na FastTab **Visão geral** , inspecione o campo **Recebimento de produtos** na grade. Observe que ele é definido como um número que inclui a ID de carga selecionada.
 1. Selecione **OK** para lançar o recebimento do produto e feche a caixa de diálogo **Lançamento de recebimento de produtos**.
 1. Você retornou aos detalhes da carga. Observe os seguintes pontos:
 
@@ -403,7 +404,7 @@ Esse cenário também mostra como processar vários lançamentos de recebimento 
 Neste procedimento, você habilitará vários lançamentos de recebimento de produtos da mesma carga.
 
 1. Vá para **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
-1. Na guia **Cargas**, defina o campo **Permitir vários recebimentos de produtos por carga** como _Sim_.
+1. Na guia **Cargas** , defina o campo **Permitir vários recebimentos de produtos por carga** como _Sim_.
 
 #### <a name="create-two-loads-to-plan-receipt-of-a-purchase-order"></a>Criar duas cargas para planejar o recebimento de uma ordem de compra
 
@@ -413,23 +414,23 @@ Você também aprenderá como definir a linha da ordem de compra para poder rece
 
 1. Acesse **Compras \> Ordens de compra \> Todas ordens de compra**.
 1. Selecione **Novo**.
-1. Na FastTab **Fornecedor**, defina o campo **Conta de fornecedor** como _1001_ e selecione **OK**.
+1. Na FastTab **Fornecedor** , defina o campo **Conta de fornecedor** como _1001_ e selecione **OK**.
 1. Sua ordem de compra é aberta e inclui uma linha em branco na grade **Linhas de ordem de compra**. Defina os seguintes valores para essa linha de ordem:
 
     - **Número de item:** _A0001_
     - **Depósito:** _24_
     - **Quantidade:** _10_
 
-1. Na FastTab **Detalhes da linha**, na guia **Entrega**, defina o campo **Entrega excedente** como _20_.
-1. No Painel de ações, na guia **Compra**, selecione **Ações \> Confirmar**. O status da ordem agora é _Confirmada_.
-1. No Painel de ações, na guia **Depósito**, selecione **Ações \> Bancada do planejamento de carga**.
-1. Na página **Bancada de planejamento de carga**, no Painel de ações, na guia **Oferta e demanda**, selecione **Adicionar \> Para nova carga**.
-1. Na caixa de diálogo **Atribuição de modelo de carga**, defina o campo **ID do modelo de carga** como _Contêiner 20'_. Na guia **Detalhes**, altere o valor **Quantidade** de _10_ para _5_ para adicionar parcialmente a quantidade da linha da ordem de compra.
+1. Na FastTab **Detalhes da linha** , na guia **Entrega** , defina o campo **Entrega excedente** como _20_.
+1. No Painel de ações, na guia **Compra** , selecione **Ações \> Confirmar**. O status da ordem agora é _Confirmada_.
+1. No Painel de ações, na guia **Depósito** , selecione **Ações \> Bancada do planejamento de carga**.
+1. Na página **Bancada de planejamento de carga** , no Painel de ações, na guia **Oferta e demanda** , selecione **Adicionar \> Para nova carga**.
+1. Na caixa de diálogo **Atribuição de modelo de carga** , defina o campo **ID do modelo de carga** como _Contêiner 20'_. Na guia **Detalhes** , altere o valor **Quantidade** de _10_ para _5_ para adicionar parcialmente a quantidade da linha da ordem de compra.
 1. Selecione **OK** para aplicar suas configurações e fechar a caixa de diálogo.
 1. Repita as etapas 8 a 10 para criar uma segunda carga. Dessa vez, o campo **Quantidade** já deve estar definido como _5_.
-1. Na página **Bancada do planejamento de carga**, na grade **Cargas**, selecione o valor **ID de carga** da primeira carga que você criou. A página **Detalhes da carga** é exibida e mostra a carga selecionada. Execute estas etapas:
+1. Na página **Bancada do planejamento de carga** , na grade **Cargas** , selecione o valor **ID de carga** da primeira carga que você criou. A página **Detalhes da carga** é exibida e mostra a carga selecionada. Execute estas etapas:
 
-    1. No Painel de ações, na guia **Enviar e receber**, no grupo **Confirmar \> Remessa de entrada**.
+    1. No Painel de ações, na guia **Enviar e receber** , no grupo **Confirmar \> Remessa de entrada**.
     1. Observe que o valor **Status da carga** foi alterado para _Remetida_.
     1. Selecione o botão Fechar para retornar à página **Bancada de planejamento de carga**.
 
@@ -447,14 +448,14 @@ Esse procedimento mostra como um auxiliar de recebimento registrará quantidades
 1. Siga as instruções de entrada de dados na tela para inserir os valores a seguir. (A ordem pode variar, dependendo do dispositivo móvel ou emulador que você está usando.)
 
     - **Carga** – Insira a primeira ID de carga que você criou no procedimento anterior.
-    - **Item** – Insira _A0001_, que é o item esperado para essa carga.
+    - **Item** – Insira _A0001_ , que é o item esperado para essa carga.
     - **Qtd.** – Digite _3_. Observe que essa quantidade é menor que a quantidade esperada. Nesse cenário, imagine que você, como auxiliar de recebimento, não tenha tempo para registrar todas as quantidades dessa carga. Posteriormente neste procedimento, você registrará as peças restantes repetindo essa etapa e configurando o campo **Qtd.** como _2_.
 
 1. Continue passando pelo fluxo de trabalho, deixando todos os outros campos em branco ou com os valores padrão até o dispositivo informar que o trabalho foi concluído.
 1. No cliente Web, acesse **Gerenciamento de depósito \> Cargas \> Todas as cargas**.
-1. Na lista, encontre a carga que você acabou de receber e selecione o valor **ID de carga** para abrir a carga. Observe que o valor **Status da carga** permanece _Remetida_, mas o valor **Quantidade de trabalho criado** na linha de carga foi alterado para _3_.
-1. No Painel de ações, na guia **Enviar e receber**, no grupo **Receber \> Recebimento de produtos**. Se você for solicitado a confirmar a ação, selecione **Sim**.
-1. Na caixa de diálogo **Lançamento de recebimento de produtos**, revise, mas não altere os valores mostrados e selecione **OK**.
+1. Na lista, encontre a carga que você acabou de receber e selecione o valor **ID de carga** para abrir a carga. Observe que o valor **Status da carga** permanece _Remetida_ , mas o valor **Quantidade de trabalho criado** na linha de carga foi alterado para _3_.
+1. No Painel de ações, na guia **Enviar e receber** , no grupo **Receber \> Recebimento de produtos**. Se você for solicitado a confirmar a ação, selecione **Sim**.
+1. Na caixa de diálogo **Lançamento de recebimento de produtos** , revise, mas não altere os valores mostrados e selecione **OK**.
 1. Você retornou à página **Detalhes da carga** da carga selecionada. Observe os seguintes pontos:
 
     - O campo **Status da carga** permanece definido como _Remetida_.
@@ -473,7 +474,7 @@ Nesse cenário, o auxiliar de recebimento registrará na entrada uma quantidade 
 1. Siga as instruções de entrada de dados na tela para inserir os valores a seguir. (A ordem pode variar, dependendo do dispositivo móvel ou emulador que você está usando.)
 
     - **Carga** – Insira a segunda ID de carga que você criou anteriormente.
-    - **Item** – Insira _A0001_, que é o item esperado para essa carga.
-    - **Qtd.** – Insira _7_, que é a quantidade restante que o fornecedor está autorizado a entregar como parte da quantidade total da ordem de compra de 12 (onde 10 é a quantidade original da ordem e 2 é a quantidade permitida de entrega excedente de 20%). Lembre-se de que 5 pcs já foram registradas na primeira carga.
+    - **Item** – Insira _A0001_ , que é o item esperado para essa carga.
+    - **Qtd.** – Insira _7_ , que é a quantidade restante que o fornecedor está autorizado a entregar como parte da quantidade total da ordem de compra de 12 (onde 10 é a quantidade original da ordem e 2 é a quantidade permitida de entrega excedente de 20%). Lembre-se de que 5 pcs já foram registradas na primeira carga.
 
 A segunda carga agora foi atualizada com a quantidade de 7 e pode ser atualizada como produto recebido com base nessa quantidade.

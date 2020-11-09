@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: 5ffc0358ff58b2a05aa84b4467a27d88b5e1ec42
-ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
+ms.openlocfilehash: 740ae20704abd9c59f64c2c7622fa96d65dccb1d
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2020
-ms.locfileid: "3270327"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997137"
 ---
 # <a name="sync-with-the-dynamics-365-supply-chain-management-pricing-engine-on-demand"></a>Sincronizar com o mecanismo de preços sob demanda do Dynamics 365 Supply Chain Management
 
@@ -55,7 +54,7 @@ O Microsoft Dynamics 365 Supply Chain Management inclui um mecanismo de preços 
     1. Navegue até o ambiente Supply Chain Management.
     2. Navegue até **Contas a receber \> Configuração \> Parâmetros de contas a receber**.
     3. Selecione a guia **Preços** na barra de navegação lateral.
-    4. Na Guia Rápida **Avaliação de contrato comercial**, desmarque a opção **Entrada manual**.
+    4. Na Guia Rápida **Avaliação de contrato comercial** , desmarque a opção **Entrada manual**.
 
 ## <a name="how-it-works"></a>Como funciona
 

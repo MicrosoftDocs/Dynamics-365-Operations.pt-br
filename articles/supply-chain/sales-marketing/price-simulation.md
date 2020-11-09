@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 336fb51dc5fb66dfbe14091d121e0a4471b9662b
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 18214ae3801b5fb0f927020041e997b7ea4f0df4
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978884"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006250"
 ---
 # <a name="price-simulation"></a>Simulação de preço
 
@@ -74,7 +74,7 @@ Você cria uma cotação que contém as linhas a seguir:
 
 A tabela a seguir mostra as linhas de cotação.
 
-|                            | Cálculo                          | Resultado   |
+|    &nbsp;                  | Cálculo                          | Resultado   |
 |----------------------------|--------------------------------------|----------|
 | Quantidade de venda             | 10 unidades + 12 unidades                  | 22 unidades |
 | Valor de venda em USD         | (10 × 15,32) + (12 × 13,75)          | 318,20   |
@@ -84,7 +84,7 @@ A tabela a seguir mostra as linhas de cotação.
 
 Você executa uma simulação de preços e aplica um desconto total de 15 por cento em toda a cotação ou no cabeçalho da cotação. A tabela a seguir mostra os novos totais da cotação após a execução da simulação de preço.
 
-|                                                      | Cálculo                               | Resultado   |
+|     &nbsp;                                           | Cálculo                               | Resultado   |
 |------------------------------------------------------|-------------------------------------------|----------|
 | Quantidade de venda                                       | 10 unidades + 12 unidades                       | 22 unidades |
 | Valor de venda antigo em USD                               | (10 × 15,32) + (12 × 13,75)               | 318,20   |
@@ -105,7 +105,7 @@ Você cria uma cotação que contém as linhas a seguir:
 
 A tabela a seguir mostra as linhas de cotação.
 
-|                                      | Cálculo                          | Resultado   |
+|      &nbsp;                          | Cálculo                          | Resultado   |
 |--------------------------------------|--------------------------------------|----------|
 | Quantidade de venda                       | 10 unidades + 12 unidades                  | 22 unidades |
 | Valor de vendas em USD de BR-12         | 10 × 15,32                           | 153,20   |
@@ -123,7 +123,7 @@ A tabela a seguir mostra as linhas de cotação.
 
 Você executa uma simulação de preços e aplica um desconto total de 10 por cento em unidades BR-12. A tabela a seguir mostra os novos totais da cotação após a execução da simulação de preço para o item de única linha.
 
-|                                                   | Cálculo                             | Resultado   |
+|    &nbsp;                                         | Cálculo                             | Resultado   |
 |---------------------------------------------------|-----------------------------------------|----------|
 | Quantidade de vendas                                    | 10 unidades + 12 unidades                     | 22 unidades |
 | Valor de venda antigo em USD de BR-12                  | 10 × 15,32                              | 153,20   |

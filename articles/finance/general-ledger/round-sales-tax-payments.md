@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 6134
 ms.assetid: 7dcd3cf5-ebdf-4a9f-806c-1296c7da0331
 ms.search.region: Global
-ms.author: yijialuan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adc48d1841903670577684b1c3d773d323c19ea1
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 998dbd01352d3fa5040187e81b564d14133464db
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275665"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4014950"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>Pagamentos de imposto e regras de arredondamento
 
@@ -44,8 +44,8 @@ O imposto total para um período mostra um saldo de crédito de -98.765,43. A en
 A entidade legal quer usar um método de arredondamento que arredonda para o valor mais perto de 1,00. O usuário responsável pela contabilização do imposto conclua as etapas a seguir.
 
 1. Clique em **Imposto** > **Impostos indiretos** > **Imposto** > **Autoridades do imposto**.
-2. Na FastTab **Geral**, no campo **Forma de arredondamento**, selecione **Normal**.
-3. No campo **Arredondamento**, digite 1,00.
+2. Na FastTab **Geral** , no campo **Forma de arredondamento** , selecione **Normal**.
+3. No campo **Arredondamento** , digite 1,00.
 4. Na época de pagar os impostos à autoridade fiscal, acesse **Imposto** > **Declarações** > **Imposto** > **Liquidar e lançar imposto**. Na conta de liquidação do imposto, você pode verificar se o valor da obrigação fiscal de **98.765,43** foi arredondado para **98.765**.
 
 A tabela a seguir mostra como um valor 98.765,43 é arredondado usando cada método de arredondamento que está disponível no campo **Forma de arredondamento** na página **Autoridades do imposto**.
@@ -54,7 +54,7 @@ A tabela a seguir mostra como um valor 98.765,43 é arredondado usando cada mét
 > Se o valor de arredondamento for definido como 0,00:
 >
 > - No arredondamentos normal, o comportamento de arredondamento é o mesmo aplicado em **Arredondamento = 0,01**.
-> - Nas **Opções da forma de arredondamento**, **Para baixo**, **Arredondamento** e **Vantagem própria**, o comportamento é o mesmo que o aplicado em **Arredondamento = 1,00**.
+> - Nas **Opções da forma de arredondamento** , **Para baixo** , **Arredondamento** e **Vantagem própria** , o comportamento é o mesmo que o aplicado em **Arredondamento = 1,00**.
 
 | Opção da forma de arredondamento                | Valor de arredondamento = 0,01 | Valor de arredondamento = 0,10 | Valor de arredondamento = 1,00 | Valor de arredondamento = 100,00 | Valor de arredondamento = 0,00   |
 |-------------------------------------|------------------------|------------------------|------------------------|--------------------------|--------------------------|

@@ -3,7 +3,7 @@ title: Introdução ao arrendamento de ativos
 description: Este tópico descreve o recurso Arrendamento de ativos e percorre as etapas para criar um arrendamento de ativos e exibir informações para esses arrendamentos.
 author: moaamer
 manager: Ann Beebe
-ms.date: 09/24/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5f8f86861f65f3da71843f6fd4a64e4199e86627
-ms.sourcegitcommit: 9668af8d918faec37abe1881e550872cd6b73259
+ms.openlocfilehash: 9e206569aad3f53a2f6f66e6d6253226e5980078
+ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3969999"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022558"
 ---
 # <a name="asset-leasing-get-started"></a>Introdução ao arrendamento de ativos
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Este tópico descreve o recurso Arrendamento de ativos e percorre as etapas para criar um arrendamento de ativos e exibir informações para esses arrendamentos. O tópico também define a terminologia usada na interface do usuário e na documentação. O arrendamento de ativos é um recurso avançado para gerenciar, rastrear e automatizar transações financeiras do locatário para ativos arrendados no Microsoft Dynamics 365 Finance. O arrendamento de ativos está em conformidade com padrões internacionais de contabilidade (IFRS 16) e padrões de GAAP dos EUA (ASC 842). O arrendamento de ativos captura e processa informações sobre os arrendamentos e ajuda a gerar entradas de diário durante o ciclo de vida da concessão das entradas de reconhecimento inicial, de diário mensal, para deficiências e encerramento da concessão. O arrendamento de ativos se integra perfeitamente a outros componentes do Dynamics 365 Finance, incluindo Ativos fixos, Contas a pagar e Contabilidade.
 
@@ -209,7 +208,7 @@ Isso representa a redução de saldo acumulado do ativo de direito de uso. Ident
 ## <a name="create-an-asset-lease"></a>Criar um arrendamento de ativo
 Conclua as etapas a seguir para criar um novo arrendamento. 
 
-1. Para usar o **Arrendamento de ativo**, você deverá habilitá-lo no espaço de trabalho **Gerenciamento de recursos**. No espaço de trabalho **Gerenciamento de recursos**, selecione **Tudo** para que todos os recursos estejam listados na página. Selecione **Arrendamento de ativo** e selecione **Habilitar agora**.
+1. Para usar o **Arrendamento de ativo** , você deverá habilitá-lo no espaço de trabalho **Gerenciamento de recursos**. No espaço de trabalho **Gerenciamento de recursos** , selecione **Tudo** para que todos os recursos estejam listados na página. Selecione **Arrendamento de ativo** e selecione **Habilitar agora**.
 2. Vá para **Arrendamento de ativo > Comum > Resumo do arrendamento**. Insira nos campos necessários na Guia Rápida **Geral**. 
    - **Detalhes do arrendamento**
    - **Vida útil do ativo (meses)**

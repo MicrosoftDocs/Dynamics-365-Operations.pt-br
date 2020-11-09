@@ -3,7 +3,7 @@ title: Comparação de recursos de nuvem e locais
 description: O tópico mostra quais recursos são suportados na Nuvem e locais.
 author: sericks007
 manager: AnnBe
-ms.date: 03/04/2020
+ms.date: 10/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 50ab5827f864b53137acb77e75055e995ea6f439
-ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
+ms.openlocfilehash: fd73dd649e7c10916835fbb4573dd2e65bbdb39c
+ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "3100273"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4040090"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Comparação de recursos de nuvem e locais
 
@@ -60,7 +60,7 @@ As tabelas a seguir listam as áreas do aplicativo. O suporte à nuvem e aos loc
 |                                      | ER: integração com os Serviços de configuração regulatória (RCS)                              | Sim       | Não              |
 |                                      | ER: usa o sistema de arquivos local como o armazenamento das configurações de ER acessíveis pelos repositórios de ER | Não        | Sim             |
 |                                      | Integração com PowerBI.com                                                              | Sim       | Não              |
-|                                      | Integração ao PowerBI Desktop                                                          | Não        | Sim             |
+|                                      | Integração com o PowerBI Desktop                                                          | Não        | Sim             |
 |                                      | Espaços de trabalho analíticos                                                                     | Sim       | Não              |
 |                                      | Processo de negócios do Intelligent: Recomendações                                             | Sim       | Não              |
 |                                      | Criação de relatórios do Power BI com OData usando ferramentas do Power BI Desktop ou do Power Query para Excel    | Sim       | Não              |
@@ -87,6 +87,7 @@ As tabelas a seguir listam as áreas do aplicativo. O suporte à nuvem e aos loc
 
 | **Área**                | **Recurso**             | **Nuvem** | **Local** |
 |-------------------------|-------------------|-----------|-----------------|
+| Gerenciamento de Ativos                     |                                                                                           | Sim       | Não |
 | Conformidade e certificações        |                                                                                           | Sim       | Sim             |
 |                                      | Certificação do Tipo 1 SOC 1                                                                | Sim       | Não              |
 | Contabilização de custos                      |                                                                                           | Sim       | Sim             |
@@ -108,7 +109,7 @@ As tabelas a seguir listam as áreas do aplicativo. O suporte à nuvem e aos loc
 |                                      | ER: integração com os Serviços de configuração regulatória (RCS)                              | Sim       | Não              |
 |                                      | ER: usa o sistema de arquivos local como o armazenamento das configurações de ER acessíveis pelos repositórios de ER | Não        | Sim             |
 |                                      | Integração com PowerBI.com                                                              | Sim       | Não              |
-|                                      | Integração ao PowerBI Desktop                                                          | Não        | Sim             |
+|                                      | Integração com o PowerBI Desktop                                                          | Não        | Sim             |
 |                                      | Espaços de trabalho analíticos                                                                     | Sim       | Não              |
 |                                      | Processo de negócios do Intelligent: Recomendações                                             | Sim       | Não              |
 |                                      | Criação de relatórios do Power BI com OData usando ferramentas do Power BI Desktop ou do Power Query para Excel    | Sim       | Não              |

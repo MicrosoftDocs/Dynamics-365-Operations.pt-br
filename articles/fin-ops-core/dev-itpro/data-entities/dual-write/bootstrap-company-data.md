@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 1ed97d7c388347eb5afe101f51173b6d48b18fcd
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: a2adf284111f2ccc9a830635ab3fb8f4731c84d9
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172914"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997567"
 ---
 # <a name="bootstrap-with-company-data-faq"></a>Perguntas frequentes sobre bootstrap com dados da empresa
  
@@ -52,16 +51,16 @@ Você deve usar bootstrap antes de habilitar mapas de entidade de gravação dup
 ## <a name="how-to-i-use-the-code-sample"></a>Como devo usar o exemplo de código?
 O exemplo de código é um aplicativo em C# que você pode carregar no Visual Studio. Ele usa as dependências de pacote NuGet no SDK do Common Data Service, que você pode atualizar por meio de ferramentas padrão do Visual Studio. 
 
-Depois de descompactar e abrir a solução no Visual Studio e de restaurar os pacotes NuGet, procure **TODO** no código. Cada decisão que você precisar tomar sobre como deseja fazer bootstrap das informações da empresa é registrada por um **TODO**, com um exemplo de código para implementação canônica. 
+Depois de descompactar e abrir a solução no Visual Studio e de restaurar os pacotes NuGet, procure **TODO** no código. Cada decisão que você precisar tomar sobre como deseja fazer bootstrap das informações da empresa é registrada por um **TODO** , com um exemplo de código para implementação canônica. 
 
-O exemplo de código mostra somente uma das várias maneiras pelas quais é possível categorizar registros de entidade por empresa. Alterando a lógica nas seções **TODO**, você pode criar uma categorização personalizada. 
+O exemplo de código mostra somente uma das várias maneiras pelas quais é possível categorizar registros de entidade por empresa. Alterando a lógica nas seções **TODO** , você pode criar uma categorização personalizada. 
  
 ## <a name="what-should-i-expect"></a>O que devo esperar?
-Por padrão, o aplicativo de exemplo permite fornecer um dicionário de mapeamentos de código de unidade de negócios para empresa. Qualquer entidade da qual você fizer bootstrap com um campo **OwningBusinessUnit** será definida automaticamente para usar a empresa especificada. Qualquer entidade sem um campo **OwningBusinessUnit**, como um produto, definirá a empresa com base no mapeamento com um valor de unidade de negócios vazio.
+Por padrão, o aplicativo de exemplo permite fornecer um dicionário de mapeamentos de código de unidade de negócios para empresa. Qualquer entidade da qual você fizer bootstrap com um campo **OwningBusinessUnit** será definida automaticamente para usar a empresa especificada. Qualquer entidade sem um campo **OwningBusinessUnit** , como um produto, definirá a empresa com base no mapeamento com um valor de unidade de negócios vazio.
 
-O aplicativo de console espera um parâmetro, que pode ser **–simulate** ou **–apply**. Se você usar o parâmetro de linha de comando **–simulate**, nenhum dado será atualizado. Somente arquivos **simulation_<entityname>.csv** são gerados no mesmo diretório da ferramenta, um para cada entidade que teria sido atualizada. Você pode examinar esses arquivos de modo iterativo e trabalhar para garantir que o código atualize os valores da empresa conforme esperado. 
+O aplicativo de console espera um parâmetro, que pode ser **–simulate** ou **–apply**. Se você usar o parâmetro de linha de comando **–simulate** , nenhum dado será atualizado. Somente arquivos **simulation_<entityname>.csv** são gerados no mesmo diretório da ferramenta, um para cada entidade que teria sido atualizada. Você pode examinar esses arquivos de modo iterativo e trabalhar para garantir que o código atualize os valores da empresa conforme esperado. 
 
-Quando terminar as atualizações simuladas, use o parâmetro **–apply**. Isso atualiza todos os registros que no momento possuem um valor de empresa incorreto, em lotes de 1000 registros de cada vez (por padrão). O código é idempotente como fornecido, o que significa que você pode reexecutá-lo e somente as empresas atribuídas de maneira incorreta serão atualizadas. Ao executar com **–apply**, o código gera arquivos CSV das alterações feitas, que são nomeados como **applied_<entityname>.csv**. 
+Quando terminar as atualizações simuladas, use o parâmetro **–apply**. Isso atualiza todos os registros que no momento possuem um valor de empresa incorreto, em lotes de 1000 registros de cada vez (por padrão). O código é idempotente como fornecido, o que significa que você pode reexecutá-lo e somente as empresas atribuídas de maneira incorreta serão atualizadas. Ao executar com **–apply** , o código gera arquivos CSV das alterações feitas, que são nomeados como **applied_<entityname>.csv**. 
 
  ```csharp
  using Microsoft.Crm.Sdk.Messages;

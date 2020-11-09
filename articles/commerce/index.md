@@ -19,15 +19,14 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 08e6a521818c919b364033e22643b9ee4ce0ec65
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 211bcf3f4938b438e417f92cd385aaa04278a404
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024651"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107152"
 ---
 # <a name="commerce-home-page"></a>Home page do Commerce
-
 
 [!include [banner](includes/banner.md)]
 
@@ -36,7 +35,7 @@ Dynamics 365 Commerce, com base nos recursos comprovados do Dynamics 365 Retail,
 
 Esta versão permite a criação das experiências digitais usando criação da Web integrada e ferramentas de desenvolvimento para produzir envolvimento e lojas digitais inteligentes. Um marketing conectado e plataforma de comércio sem cabeça possibilitam um gerenciamento mais suave de conteúdo, ativos, promoções, inventário e preços entre todos os canais.
 
-- **Tudo para criar e executar comércio digital**: simplifique seus negócios em uma solução de comércio de ponta a ponta que atenda às suas necessidades em canais tradicionais e emergentes. A criação da Web integrada e ferramentas de desenvolvimento possibilitam que você crie lojas digitais inteligentes e envolventes, enquanto uma plataforma de comércio sem cabeça e de marketing conectada possibilita gerenciamento perfeito de conteúdo, ativos, promoções, inventário e preços entre canais.
+- **Tudo para criar e executar comércio digital** : simplifique seus negócios em uma solução de comércio de ponta a ponta que atenda às suas necessidades em canais tradicionais e emergentes. A criação da Web integrada e ferramentas de desenvolvimento possibilitam que você crie lojas digitais inteligentes e envolventes, enquanto uma plataforma de comércio sem cabeça e de marketing conectada possibilita gerenciamento perfeito de conteúdo, ativos, promoções, inventário e preços entre canais.
 
 - **Crie lealdade e supere expectativas de cliente:** use ferramentas de depoimentos de clientes para obter uma exibição abrangente de seu cliente e atender às necessidades deles em todos os níveis de envolvimento, baseado no perfil do cliente, história e preferências que fluem entre canais físicos e digitais. Capacite seus funcionários para suportar relacionamentos duradouros por meio de recomendações impulsionadas por IA, insights de cliente e programas de fidelidade que elevam o desejo da marca.
 
@@ -50,8 +49,8 @@ Escolha uma área de recursos para saber mais a respeito.
 - [Configurar um ambiente de visualização do Commerce](provisioning-guide.md)
 - [Arquitetura do Commerce](retail-components.md)
 - [Configurar seus canais](channels-overview.md)
-- [Comercialização de seus produtos e serviços](set-up-retail-products.md)
-- [Gerenciar suas ordens](Order-fulfillment-overview.md)
+- [Merchandising de seus produtos e serviços](set-up-retail-products.md)
+- [Gerenciar suar ordens](Order-fulfillment-overview.md)
 - [Gerenciar seus clientes](set-up-customer-loyalty-program.md)
 - [Gerenciar suas finanças](retail-statements.md)
 - [Gerenciar seu site de comércio eletrônico](online-store-overview.md)

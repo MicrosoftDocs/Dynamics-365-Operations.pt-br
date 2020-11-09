@@ -3,7 +3,7 @@ title: Espaço de trabalho de pagamentos dos fornecedores
 description: Este tópico fornece informações sobre a área de trabalho móvel de pagamentos de fornecedor. A área de trabalho de pagamentos de fornecedor mostra informações relacionadas ao processamento de pagamentos de fornecedores.
 author: abruer
 manager: AnnBe
-ms.date: 07/16/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 86091e16712092086a641d79e49afbc5b205e934
-ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
+ms.openlocfilehash: 39a9ba54ba26db5904c2cd519be9f83bbc68c037
+ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3598100"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022510"
 ---
 # <a name="vendor-payments-workspace"></a>Espaço de trabalho de pagamentos dos fornecedores
 
@@ -43,13 +43,13 @@ A configuração a seguir precisa ser concluída para que os dados sejam exibido
 
 ### <a name="summary-tiles"></a>Blocos do resumo
 
-Os quadros na seção **Resumo** fornecem uma visão geral do estado das informações de pagamento. Você pode ver os diários de pagamento que ainda não foram postados, faturas vencidas, todos os vendedores e fornecedores que estão em espera. Na seção **Resumo**, você pode criar uma nova definição de pagamento.
+Os quadros na seção **Resumo** fornecem uma visão geral do estado das informações de pagamento. Você pode ver os diários de pagamento que ainda não foram postados, faturas vencidas, todos os vendedores e fornecedores que estão em espera. Na seção **Resumo** , você pode criar uma nova definição de pagamento.
 
 As informações na seção **Resumo** destinam-se à empresa à qual você está conectado.
 
 ### <a name="vendor-transactions-grids"></a>Grades de transações de fornecedor
 
-A seção **Transações de fornecedor** contém grades que mostram as faturas passadas e os pagamentos que não são liquidados. Na grade **Fatura atrasada**, você pode visualizar o histórico de liquidação de uma fatura selecionada. Na grade **Pagamentos não liquidados**, você pode visualizar o histórico de liquidação de uma fatura selecionada e liquidar a fatura.
+A seção **Transações de fornecedor** contém grades que mostram as faturas passadas e os pagamentos que não são liquidados. Na grade **Fatura atrasada** , você pode visualizar o histórico de liquidação de uma fatura selecionada. Na grade **Pagamentos não liquidados** , você pode visualizar o histórico de liquidação de uma fatura selecionada e liquidar a fatura.
 
 Funcionários de pagamento centralizados podem usar um filtro que aparece no topo de cada grade para selecionar uma empresa. A grade é filtrada de modo que mostre apenas as empresas que são definidas na hierarquia organizacional de pagamento centralizada que o funcionário de pagamento centralizado tem direitos de exibição.
 

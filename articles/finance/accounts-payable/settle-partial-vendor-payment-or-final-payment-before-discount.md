@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34d941c3806ccc9d2b8baa29eef45fbd4216686e
-ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
+ms.openlocfilehash: 202d6e8b0933522c2faf5fb49291f11200e4754f
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967301"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006132"
 ---
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Liquidar um pagamento parcial de fornecedor e liquidar o pagamento final em sua totalidade antes da data do desconto
 
@@ -40,7 +40,7 @@ Em 25 de junho, Amanda insere e lança uma fatura de 1.000,00 para o fornecedor 
 |-----------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
 | Inv-10010 | 25/6/2015 | 10010   |                                      | 1.000,00                              | -1.000,00 | USD      |
 
-Na página **Fornecedores**, Alice abre a página **Liquidar transações**. Ela pode usar a página **Liquidar transações** para exibir as datas e os valores de descontos à vista. A data de vencimento é 25 de julho, e um desconto à vista de -10,00 está disponível caso a fatura seja paga até 9 de julho.
+Na página **Fornecedores** , Alice abre a página **Liquidar transações**. Ela pode usar a página **Liquidar transações** para exibir as datas e os valores de descontos à vista. A data de vencimento é 25 de julho, e um desconto à vista de -10,00 está disponível caso a fatura seja paga até 9 de julho.
 
 | Marcar | Usar desconto à vista | Comprovante   | Conta | Data      | Data de conclusão  | Fatura | Valor na moeda da transação | Moeda | Valor para liquidar |
 |------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -48,7 +48,7 @@ Na página **Fornecedores**, Alice abre a página **Liquidar transações**. Ela
 
 As informações do desconto aparecem na parte inferior da página **Liquidar transações abertas**.
 
-|                              |           |
+|       &nbsp;                 | &nbsp;    |
 |------------------------------|-----------|
 | Data do desconto à vista           | 09/07/2015 |
 | Valor de desconto à vista         | -10,00    |
@@ -64,7 +64,7 @@ Alice clica na guia **Desconto à vista** para exibir o valor do desconto.
 | 25/7/2015          | 0,00                 | 1.000,00                       |
 
 ## <a name="partial-payment-on-july-1-by-using-the-settle-transactions-page"></a>Pagamento parcial em 1º de julho usando a página Liquidar transações
-Alice pode criar um diário de pagamento para esse pagamento abrindo a página **Diário de pagamento** em Contas a pagar. Ela cria um novo diário e insere uma linha para o fornecedor 3064. Ela então abre a página **Liquidar transações**, dessa forma, ela pode marcar a fatura para liquidação. Alice marca a fatura e altera o valor do campo **Valor a ser liquidado** para **-500,00**. Ela vê que o valor do campo **Valor do desconto à vista** é **-10,00** para a fatura total e que o valor do campo **Valor do desconto a vista a ser obtido** é **-5,05**. Consequentemente, Amanda está liquidando -505,05 desta fatura.
+Alice pode criar um diário de pagamento para esse pagamento abrindo a página **Diário de pagamento** em Contas a pagar. Ela cria um novo diário e insere uma linha para o fornecedor 3064. Ela então abre a página **Liquidar transações** , dessa forma, ela pode marcar a fatura para liquidação. Alice marca a fatura e altera o valor do campo **Valor a ser liquidado** para **-500,00**. Ela vê que o valor do campo **Valor do desconto à vista** é **-10,00** para a fatura total e que o valor do campo **Valor do desconto a vista a ser obtido** é **-5,05**. Consequentemente, Amanda está liquidando -505,05 desta fatura.
 
 | Marcar     | Usar desconto à vista | Comprovante   | Conta | Data      | Data de conclusão  | Fatura | Valor na moeda da transação | Moeda | Valor para liquidar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -72,7 +72,7 @@ Alice pode criar um diário de pagamento para esse pagamento abrindo a página *
 
 As informações do desconto aparecem na parte inferior da página **Liquidar transações abertas**.
 
-|                              |           |
+|  &nbsp;                      |  &nbsp;   |
 |------------------------------|-----------|
 | Data do desconto à vista           | 09/07/2015 |
 | Valor de desconto à vista         | -10,00    |
@@ -88,7 +88,7 @@ Alice deseja liquidar exatamente a metade da fatura. Portanto, ela altera o valo
 
 As informações do desconto aparecem na parte inferior da página **Liquidar transações abertas**.
 
-|                              |           |
+|  &nbsp;                      |  &nbsp;   |
 |------------------------------|-----------|
 | Data do desconto à vista           | 09/07/2015 |
 | Valor de desconto à vista         | -10,00    |
@@ -105,9 +105,9 @@ Alice fecha a página **Liquidar transações**. Uma linha de pagamento para 495
 | DISC-10010 | Desconto à vista    | 01/07/2015  |         | 5,00                                 |                                       | 0,00    | USD      |
 
 ## <a name="remaining-amount-paid-on-july-8"></a>O valor restante é pago em 8 de julho
-Amanda paga o restante da fatura para o fornecedor 3064 em 8 de julho, que está no período de desconto à vista. Amanda cria o diário de pagamentos em 8 de julho e marca a transação para liquidação. Ela vê que o valor que deve ser liquidado é de 495,00. O valor do campo **Desconto à vista estimado** é **-5,00**, já que o desconto de 5,00 foi obtido anteriormente.
+Amanda paga o restante da fatura para o fornecedor 3064 em 8 de julho, que está no período de desconto à vista. Amanda cria o diário de pagamentos em 8 de julho e marca a transação para liquidação. Ela vê que o valor que deve ser liquidado é de 495,00. O valor do campo **Desconto à vista estimado** é **-5,00** , já que o desconto de 5,00 foi obtido anteriormente.
 
-|                         |        |
+|  &nbsp;                 |  &nbsp; |
 |-------------------------|--------|
 | Total marcado            | 495.00 |
 | Estimativa de desconto em dinheiro | -5,00  |
@@ -120,7 +120,7 @@ As informações sobre a transação marcada aparecem na grade da página **Liqu
 
 As informações do desconto aparecem na parte inferior da página **Liquidar transações abertas**.
 
-|                              |           |
+|  &nbsp;                      | &nbsp;    |
 |------------------------------|-----------|
 | Data do desconto à vista           | 09/07/2015 |
 | Valor de desconto à vista         | 10.00     |

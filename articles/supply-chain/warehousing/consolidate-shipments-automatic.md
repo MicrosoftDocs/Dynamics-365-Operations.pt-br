@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
+ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFilterGroupTable, WHSShipmentConsolidation, WHSFilterGenerallyAvail
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: f4d095456435a3401daa173d79b80b81176a3c17
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: ac3ab25dc1355ee15e1209950ff0f3b3933b7095
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3987109"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016853"
 ---
 # <a name="consolidate-shipments-when-they-are-released-to-the-warehouse-by-using-automatic-release-of-sales-orders"></a>Consolidar remessas quando são liberadas para o depósito usando a liberação automática de ordens de venda
 
@@ -99,12 +99,12 @@ Vá para **Contas a receber \> Ordens \> Todas as ordens de venda** e crie uma c
 
 1. Adicione uma linha da ordem com as seguintes configurações:
 
-    - **Número do item:** *M9200* (um item no qual o filtro **Código 4** está definido como *Inflamável*)
+    - **Número do item:** *M9200* (um item no qual o filtro **Código 4** está definido como *Inflamável* )
     - **Quantidade:** *1.00*
 
 1. Adicione uma segunda linha da ordem com as seguintes configurações:
 
-    - **Número do item:** *M9201* (um item no qual o filtro **Código 4** está definido como *Explosivo*)
+    - **Número do item:** *M9201* (um item no qual o filtro **Código 4** está definido como *Explosivo* )
     - **Quantidade:** *1.00*
     - **Modo de entrega:** *Airwa-Air*
 
@@ -118,12 +118,12 @@ Vá para **Contas a receber \> Ordens \> Todas as ordens de venda** e crie uma c
 
 1. Adicione uma linha da ordem com as seguintes configurações:
 
-    - **Número do item:** *M9200* (um item no qual o filtro **Código 4** está definido como *Inflamável*)
+    - **Número do item:** *M9200* (um item no qual o filtro **Código 4** está definido como *Inflamável* )
     - **Quantidade:** *1.00*
 
 1. Adicione uma segunda linha da ordem com as seguintes configurações:
 
-    - **Número do item:** *M9201* (um item no qual o filtro **Código 4** está definido como *Explosivo*)
+    - **Número do item:** *M9201* (um item no qual o filtro **Código 4** está definido como *Explosivo* )
     - **Quantidade:** *1.00*
     - **Modo de entrega:** *Airwa-Air*
 
@@ -236,7 +236,7 @@ Para cada conjunto de ordens de venda criadas anteriormente, você concluirá os
 
 1. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
 1. Defina o campo **Tipo de modelo de onda** como *Remessa*.
-1. Localize e selecione o modelo de onda associado ao depósito que você usou nos conjuntos de ordens criados para esse cenário. Por exemplo, se você usou depósito *24*, selecione o modelo de onda **Padrão de 24 remessas**. Se você usou depósito *61*, selecione o modelo de onda **61 remessas**.
+1. Localize e selecione o modelo de onda associado ao depósito que você usou nos conjuntos de ordens criados para esse cenário. Por exemplo, se você usou depósito *24* , selecione o modelo de onda **Padrão de 24 remessas**. Se você usou depósito *61* , selecione o modelo de onda **61 remessas**.
 1. No Painel de Ações, selecione **Editar**.
 1. Defina a opção **Processar onda na liberação para o depósito** como *Não*.
 
@@ -244,8 +244,8 @@ Para cada conjunto de ordens de venda criadas anteriormente, você concluirá os
 
 1. Vá para **Gerenciamento de depósito \> Liberar para depósito \> Liberação automática de ordens de venda**.
 1. Defina o campo **Quantidade para liberação** como *Todos*.
-1. Na Guia Rápida **Registros para incluir**, selecione **Filtro** para abrir a caixa de diálogo de consulta.
-1. Na guia **Intervalo**, selecione **Adicionar** para adicionar uma linha com as seguintes configurações à grade:
+1. Na Guia Rápida **Registros para incluir** , selecione **Filtro** para abrir a caixa de diálogo de consulta.
+1. Na guia **Intervalo** , selecione **Adicionar** para adicionar uma linha com as seguintes configurações à grade:
 
     - **Tabela:** *Ordem de venda*
     - **Tabela derivada:** *Ordem de venda*
@@ -268,7 +268,7 @@ Siga o [procedimento básico de liberação para depósito](#release-procedure) 
 Quando terminar, você verá que duas remessas foram criadas:
 
 - A primeira remessa contém três linhas e foi criada usando a política de consolidação de remessa *CustomerMode*.
-- A segunda remessa, que não usa o modo de entrega *Airways*, foi criada usando a política de consolidação de remessa *CustomerOrderNo*.
+- A segunda remessa, que não usa o modo de entrega *Airways* , foi criada usando a política de consolidação de remessa *CustomerOrderNo*.
 
 ### <a name="release-sales-orders-from-order-set-2"></a>Libere ordens de venda do conjunto de ordens 2
 
@@ -292,7 +292,7 @@ Quando terminar, você verá que as seguintes ações ocorreram:
 
 Siga o [procedimento básico de liberação para depósito](#release-procedure) para liberar as ordens de venda do conjunto de ordens 4.
 
-Quando terminar, você verá que uma remessa existente (em que o campo **Requisição do cliente** está definido como *1*) foi atualizada. Uma nova linha foi adicionada.
+Quando terminar, você verá que uma remessa existente (em que o campo **Requisição do cliente** está definido como *1* ) foi atualizada. Uma nova linha foi adicionada.
 
 ### <a name="release-sales-orders-from-order-set-5"></a>Libere ordens de venda do conjunto de ordens 5
 
@@ -300,7 +300,7 @@ Siga o [procedimento básico de liberação para depósito](#release-procedure) 
 
 Quando terminar, você verá que as seguintes ações ocorreram:
 
-- Uma remessa existente (em que o campo **Requisição do cliente** é definido como *1*) foi atualizada. Uma linha da ordem de venda 5-3 (em que o campo **Requisição do cliente** está definido como *1*) foi adicionado.
+- Uma remessa existente (em que o campo **Requisição do cliente** é definido como *1* ) foi atualizada. Uma linha da ordem de venda 5-3 (em que o campo **Requisição do cliente** está definido como *1* ) foi adicionado.
 - Uma nova remessa foi criada, na qual as linhas das ordens de venda 5-1 e 5-2 são agrupadas em uma remessa.
 
 ### <a name="release-sales-orders-from-order-set-6"></a>Libere ordens de venda do conjunto de ordens 6

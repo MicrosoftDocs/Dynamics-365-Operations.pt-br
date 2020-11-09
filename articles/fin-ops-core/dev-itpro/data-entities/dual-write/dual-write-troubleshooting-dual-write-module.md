@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 853791d5ffc1d92b9fbafa2acc13cd5543c38196
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: f99f3760e75ec1bbf2ccdea497cf2eec3e28e233
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275524"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997365"
 ---
 # <a name="troubleshoot-issues-with-the-dual-write-module-in-finance-and-operations-apps"></a>Solucionar problemas com o módulo de gravação dupla em aplicativos do Finance and Operations
 
@@ -37,7 +36,7 @@ Este tópico fornece informações de solução de problemas para integração d
 
 ## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Não é possível carregar o módulo de gravação dupla em um aplicativo do Finance and Operations
 
-Se você não conseguir abrir a página **Gravação dupla** selecionando o bloco **Gravação dupla** no espaço de trabalho **Gerenciamento de dados**, o serviço de integração de dados está provavelmente desligado. Crie um tíquete de suporte para solicitar uma reinicialização do serviço de integração de dados.
+Se você não conseguir abrir a página **Gravação dupla** selecionando o bloco **Gravação dupla** no espaço de trabalho **Gerenciamento de dados** , o serviço de integração de dados está provavelmente desligado. Crie um tíquete de suporte para solicitar uma reinicialização do serviço de integração de dados.
 
 ## <a name="error-when-you-try-to-create-a-new-entity-map"></a>Erro ao tentar criar um novo mapa de entidade
 
@@ -50,7 +49,7 @@ A seguinte mensagem de erro poderá ser exibida quando você tentar configurar u
 
 ## <a name="error-when-you-open-the-dual-write-user-interface"></a>Erro ao abrir a interface do usuário de gravação dupla
 
-A seguinte mensagem de erro pode ser exibida ao tentar acessar a gravação dupla no espaço de trabalho do **Gerenciamento de dados**:
+A seguinte mensagem de erro pode ser exibida ao tentar acessar a gravação dupla no espaço de trabalho do **Gerenciamento de dados** :
 
 *login.microsoftonline.com recusou a conexão.*
 
@@ -62,7 +61,7 @@ Para corrigir o problema, faça login usando uma janela InPrivate no Microsoft E
 
 Você pode encontrar o seguinte erro ao vincular ou criar mapas:
 
-*O código de status de resposta não indica sucesso: 403 (tokenexchange).<br> ID da sessão: \<seu ID da sessão\><br> ID da atividade raiz: \<seu ID de atividade raiz\>*
+*O código de status de resposta não indica êxito: 403 (tokenexchange).<br> ID da sessão: \<your session id\><br> ID da atividade raiz: \<your root activity id\>*
 
 Este erro poderá ocorrer se você não tiver permissões suficientes para vincular duas gravações ou criar mapas. Esse erro também pode ocorrer se o ambiente do Common Data Service foi redefinido sem desvincular a gravação dupla. Qualquer usuário com a função de administrador do sistema nos aplicativos Finance and Operations e Common Data Service pode vincular os ambientes. Somente o usuário que configurou a conexão de gravação dupla poderá adicionar novos mapas de entidade. Após a configuração, qualquer usuário com a função de administrador do sistema poderá monitorar o status e editar os mapeamentos.
 
@@ -78,7 +77,7 @@ Para corrigir o problema, crie um tíquete para a equipe de integração de dado
 
 ## <a name="error-while-trying-to-start-an-entity-mapping"></a>Erro ao tentar iniciar um mapeamento de entidade
 
-A seguinte mensagem de erro pode ser exibida ao tentar definir esse estado de um mapeamento como **Em execução**:
+A seguinte mensagem de erro pode ser exibida ao tentar definir esse estado de um mapeamento como **Em execução** :
 
 *Não é possível concluir a sincronização de dados inicial. Erro: falha de gravação dupla — falha no registro do plug-in: não é possível criar metadados de pesquisa da gravação dupla. A referência do objeto do erro não está definida como uma instância de objeto.*
 

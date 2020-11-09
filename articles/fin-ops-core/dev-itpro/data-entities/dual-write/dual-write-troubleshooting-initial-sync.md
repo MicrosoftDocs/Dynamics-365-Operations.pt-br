@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: e4ee3bf07a1df445875197f38f655464cc9b44d3
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: 4d0ca1fb4b7a4964194516544686b6bb7d26e76c
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3443840"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997317"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Solucionar problemas durante a sincronização inicial
 
@@ -37,7 +36,7 @@ Este tópico fornece informações de solução de problemas para integração d
 
 ## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Verificar erros de sincronização inicial em um aplicativo do Finance and Operations
 
-Depois de habilitar os modelos de mapeamento, o status dos mapas deve estar em **Execução**. Se o status **Não estiver em execução**, ocorrerão erros durante a sincronização inicial. Para exibir os erros, selecione a guia **Detalhes de sincronização inicial** na página **Gravação dupla**.
+Depois de habilitar os modelos de mapeamento, o status dos mapas deve estar em **Execução**. Se o status **Não estiver em execução** , ocorrerão erros durante a sincronização inicial. Para exibir os erros, selecione a guia **Detalhes de sincronização inicial** na página **Gravação dupla**.
 
 ![Erro na guia Detalhes da sincronização inicial](media/initial_sync_status.png)
 
@@ -73,7 +72,7 @@ Se esse erro ocorrer consistentemente e você não puder concluir a sincronizaç
 
 1. Faça login na máquina virtual (VM) para o aplicativo Finance and Operations.
 2. Abra o console de gerenciamento da Microsoft.
-3. No painel **Serviços**, verifique se o serviço de estrutura de importação/exportação de dados do Microsoft Dynamics 365 está em execução. Reinicie-o se ele tiver sido interrompido, pois a sincronização inicial requer essa ação.
+3. No painel **Serviços** , verifique se o serviço de estrutura de importação/exportação de dados do Microsoft Dynamics 365 está em execução. Reinicie-o se ele tiver sido interrompido, pois a sincronização inicial requer essa ação.
 
 ## <a name="initial-synchronization-error-403-forbidden"></a>Erro de sincronização inicial: 403 Proibido
 
@@ -84,7 +83,7 @@ A seguinte mensagem de erro pode ser exibida durante sincronização inicial:
 Para corrigir o problema, siga estas etapas.
 
 1. Entrar no aplicativo Finance and Operations.
-2. Na página **aplicativo do Azure Active Directory**, exclua o cliente **DtAppID** e, em seguida, adicione-o novamente.
+2. Na página **aplicativo do Azure Active Directory** , exclua o cliente **DtAppID** e, em seguida, adicione-o novamente.
 
 ![Cliente DtAppID na lista de aplicativos do Azure AD](media/aad_applications.png)
 
@@ -108,11 +107,11 @@ Eis alguns exemplos:
 - *Não foi possível resolver a GUID do campo: msdyn\_vendorprimarycontactperson.msdyn\_contactpersonid. A pesquisa não foi encontrada: 000056. Experimente esta(s) URLs para verificar se os dados de referência existem: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
 - *Não foi possível resolver a GUID do campo: msdyn\_invoicevendoraccountnumber.msdyn\_vendoraccountnumber. A pesquisa não foi encontrada: V24-1. Experimente esta(s) URLs para verificar se os dados de referência existem: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/msdn_vendors?$select=msdyn_vendoraccountnumber,msdyn_vendorid&$filter=msdyn_vendoraccountnumber eq 'V24-1'`*
 
-Se algum registro na entidade fornecedor tiver valores nos campos **PrimaryContactPersonId** e **InvoiceVendorAccountNumber**, siga estas etapas para concluir a sincronização inicial.
+Se algum registro na entidade fornecedor tiver valores nos campos **PrimaryContactPersonId** e **InvoiceVendorAccountNumber** , siga estas etapas para concluir a sincronização inicial.
 
 1. No aplicativo Finance and Operations, exclua os campos **PrimaryContactPersonId** e **InvoiceVendorAccountNumber** do mapeamento e depois salve o mapeamento.
 
-    1. Na página de mapeamento de gravação dupla para **Fornecedores V2 (msdyn\_vendors)**, na guia **Mapeamentos de entidade**, no filtro esquerdo, selecione **Finance and Operations apps.Vendors V2**. No filtro direito, selecione **Sales.Vendor**.
+    1. Na página de mapeamento de gravação dupla para **Fornecedores V2 (msdyn\_vendors)** , na guia **Mapeamentos de entidade** , no filtro esquerdo, selecione **Finance and Operations apps.Vendors V2**. No filtro direito, selecione **Sales.Vendor**.
     2. Procure **primarycontactperson** para encontrar o campo de origem **PrimaryContactPersonId**.
     3. Selecione **Ações** e depois **Excluir**.
 
@@ -126,7 +125,7 @@ Se algum registro na entidade fornecedor tiver valores nos campos **PrimaryConta
 
 2. Desative o controle de alterações para a entidade **Fornecedor V2**.
 
-    1. No espaço de trabalho **Gerenciamento de dados**, selecione o bloco **Entidades de dados**.
+    1. No espaço de trabalho **Gerenciamento de dados** , selecione o bloco **Entidades de dados**.
     2. Selecione a entidade **Fornecedores V2**.
     3. No Painel de Ações, selecione **Opções** e depois selecione **Controle de Alterações**.
 
@@ -155,11 +154,11 @@ Eis alguns exemplos:
 - *Não foi possível resolver a GUID do campo: primarycontactid.msdyn\_contactpersonid. A pesquisa não foi encontrada: 000056. Experimente esta(s) URLs para verificar se os dados de referência existem: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
 - *Não foi possível resolver a GUID do campo: msdyn\_billingaccount.accountnumber. A pesquisa não foi encontrada: 1206-1. Experimente esta(s) URLs para verificar se os dados de referência existem: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/accounts?$select=accountnumber.account&$filter=accountnumber eq '1206-1'`*
 
-Se algum registro na entidade cliente tiver valores nos campos **ContactPersonID** e **InvoiceAccount**, siga estas etapas para concluir a sincronização inicial. Você pode usar essa abordagem para qualquer entidade pronta para uso, como **Contas** e **Contatos**.
+Se algum registro na entidade cliente tiver valores nos campos **ContactPersonID** e **InvoiceAccount** , siga estas etapas para concluir a sincronização inicial. Você pode usar essa abordagem para qualquer entidade pronta para uso, como **Contas** e **Contatos**.
 
 1. No aplicativo Finance and Operations, exclua os campos **ContactPersonID** e **InvoiceAccount** do mapeamento **Clientes V3 (contas)** e salve o mapeamento.
 
-    1. Na página de mapeamento de gravação dupla para **Clientes V3 (contas)**, na guia **Mapeamentos de entidade**, no filtro esquerdo, selecione **Finance and Operations app.Customers V3**. No filtro direito, selecione **Common Data Service.Account**.
+    1. Na página de mapeamento de gravação dupla para **Clientes V3 (contas)** , na guia **Mapeamentos de entidade** , no filtro esquerdo, selecione **Finance and Operations app.Customers V3**. No filtro direito, selecione **Common Data Service.Account**.
     2. Procure **contactperson** para encontrar o campo de origem **ContactPersonID**.
     3. Selecione **Ações** e depois **Excluir**.
 
@@ -173,7 +172,7 @@ Se algum registro na entidade cliente tiver valores nos campos **ContactPersonID
 
 2. Desative o controle de alterações para a entidade **Clientes V3**.
 
-    1. No espaço de trabalho **Gerenciamento de dados**, selecione o bloco **Entidades de dados**.
+    1. No espaço de trabalho **Gerenciamento de dados** , selecione o bloco **Entidades de dados**.
     2. Selecione a entidade **Clientes V3**.
     3. No Painel de Ações, selecione **Opções** e depois selecione **Controle de Alterações**.
 
@@ -187,7 +186,7 @@ Se algum registro na entidade cliente tiver valores nos campos **ContactPersonID
 4. Execute a sincronização inicial para o mapeamento de **Contatos de CDS V2 (contatos)**.
 
     > [!NOTE]
-    > Há dois mapas com o mesmo nome. Certifique-se de selecionar o mapa que tenha a seguinte descrição na guia **Detalhes**: **Gravação dupla para sincronização entre Contatos FO.CDS do Fornecedor V2 para CDS.Contacts. Exige novo pacote \[Dynamics365SupplyChainExtended\].**
+    > Há dois mapas com o mesmo nome. Certifique-se de selecionar o mapa que tenha a seguinte descrição na guia **Detalhes** : **Gravação dupla para sincronização entre Contatos FO.CDS do Fornecedor V2 para CDS.Contacts. Exige novo pacote \[Dynamics365SupplyChainExtended\].**
 
 5. Adicione os campos **InvoiceAccount** e **ContactPersonId** novamente no mapeamento **Clientes V3 (contas)** e depois salve o mapeamento. Os campos **InvoiceAccount** e **ContactPersonId** agora fazem parte do modo de sincronização ao vivo novamente. Na próxima etapa, você executará a sincronização inicial desses campos.
 6. Execute a sincronização inicial novamente para o mapeamento de **Clientes V3 (contas)**. Como o controle de alterações está desabilitado, os dados de **InvoiceAccount** e **ContactPersonId** serão sincronizados do aplicativo Finance and Operations para o Common Data Service.
@@ -199,11 +198,11 @@ Se algum registro na entidade cliente tiver valores nos campos **ContactPersonID
 
         ![Projeto de integração de dados para atualizar CustomerAccount e ContactPersonId](media/cust_selfref6.png)
 
-    2. Adicione os critérios da empresa no filtro do Common Data Service, para que somente os registros que correspondem aos critérios do filtro sejam atualizados no aplicativo do Finance and Operations. Para adicionar um filtro, selecione o botão de filtro. Em seguida, na caixa de diálogo **Editar consulta**, você pode adicionar uma consulta de filtro como **\_msdyn\_company\_value eq '\<guid\>'**. 
+    2. Adicione os critérios da empresa no filtro do Common Data Service, para que somente os registros que correspondem aos critérios do filtro sejam atualizados no aplicativo do Finance and Operations. Para adicionar um filtro, selecione o botão de filtro. Em seguida, na caixa de diálogo **Editar consulta** , você pode adicionar uma consulta de filtro como **\_msdyn\_company\_value eq '\<guid\>'**. 
 
         > [NOTA] Se o botão de filtro não estiver presente, crie um tíquete de suporte para solicitar que a equipe de integração de dados habilite a capacidade de filtro no seu locatário.
 
-        Se você não inserir uma consulta de filtro para **\_msdyn\_company\_value**, todos os registros serão sincronizados.
+        Se você não inserir uma consulta de filtro para **\_msdyn\_company\_value** , todos os registros serão sincronizados.
 
         ![Adicionando uma consulta de filtro](media/cust_selfref7.png)
 

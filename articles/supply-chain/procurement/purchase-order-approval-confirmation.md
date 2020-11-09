@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart, PurchOrderInReview, PurchOrderApproved, PurchOrderInDraft, PurchOrderAssignedToMe, VendPurchOrderJournalListPage, PurchTableWorkflowDropDialog, VendPurchOrderJournal
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b331b7e7725b3dd284deb02e59fcf2d699822c4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e3879079e233a881ea0adc1f5e2ba39ab70b372d
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207985"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018804"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>​Aprovar e confirmar ordens de compra​
 
@@ -35,7 +35,7 @@ Este tópico descreve os status pelos quais uma ordem de compra (OC) passa após
 Depois de criar uma ordem de compra (OC), ela terá que passar por um processo de aprovação. Depois que o fornecedor tiver concordado com a ordem, a ordem de compra é definida como um status de **Confirmado**.
 
 ## <a name="approval-of-purchase-orders"></a>Aprovação de ordens de compra
-As OCs que não usam o gerenciamento de alteração têm um status de **Aprovado** assim que elas são criadas, enquanto as OCs que usam o gerenciamento de alteração têm um status de **Rascunho** quando elas são criadas pela primeira vez. Além de isso, as ordens de compra criadas para confirmação ordens planejadas do planejamento mestre são definidos sempre como **Aprovado**, independentemente das configurações de gerenciamento de alterações. Uma OC cria transações de estoque somente quando ela atinge o status **Aprovado**. Portanto, o estoque não aparece como disponível para reserva ou marcação até que o pedido seja aceito.
+As OCs que não usam o gerenciamento de alteração têm um status de **Aprovado** assim que elas são criadas, enquanto as OCs que usam o gerenciamento de alteração têm um status de **Rascunho** quando elas são criadas pela primeira vez. Além de isso, as ordens de compra criadas para confirmação ordens planejadas do planejamento mestre são definidos sempre como **Aprovado** , independentemente das configurações de gerenciamento de alterações. Uma OC cria transações de estoque somente quando ela atinge o status **Aprovado**. Portanto, o estoque não aparece como disponível para reserva ou marcação até que o pedido seja aceito.
 
 Ativar o gerenciamento de alterações para POs definindo a opção **Ativar o gerenciamento de alterações** na página **Parâmetros de compras**. Quando o gerenciamento de alterações é habilitado, as POs devem passar por um fluxo de trabalho de aprovação depois que elas tiverem sido concluídas. O Supply Chain Management tem um editor de processos de fluxo de trabalho, onde você pode definir um fluxo de trabalho para representar o processo de aprovação. Este fluxo de trabalho pode incluir regras de aprovação automática, as regras que determinam o que será atribuído ao aprovar POs específicos e regras para escalar um fluxo de trabalho que estavam esperando aprovação por um longo tempo. Você pode habilitar o processo de gerenciamento de alterações para todos os fornecedores ou fornecedores específicos. Você também pode configurar o processo de forma que pode ser substituído por PDVs individuais.
 
@@ -80,7 +80,7 @@ Uma OC pode ser cancelada usando a ação **Cancelar** no cabeçalho.
 
 Se a quantidade tiver sido registrada, recebida ou faturada parcialmente, você pode cancelar somente a quantidade restante que não foi registrada, recebida ou faturada. A quantidade da ordem será reduzida de acordo. Quando a quantidade na linha for atualizada, o status da linha também será atualizado. Por exemplo, a quantidade original na linha é 5 e a quantidade recebida é 3. Nesse caso, é possível cancelar apenas 2. A linha é atualizada para o status **Recebido**.
 
-Se o restante da entrega for adicionado à linha da ordem e exceder a quantidade na linha da ordem, a ação **Cancelar** não cancelará a quantidade em excesso. Em vez disso, a linha permanecerá com status **Ordem em aberto**, pois tem uma quantidade pendente. Por exemplo, a quantidade original na linha é 5 e o restante da entrega é 7. Se a ordem for cancelada, 5 serão cancelados e 2 serão mantidos, conforme é possível ver nas transações de estoque.
+Se o restante da entrega for adicionado à linha da ordem e exceder a quantidade na linha da ordem, a ação **Cancelar** não cancelará a quantidade em excesso. Em vez disso, a linha permanecerá com status **Ordem em aberto** , pois tem uma quantidade pendente. Por exemplo, a quantidade original na linha é 5 e o restante da entrega é 7. Se a ordem for cancelada, 5 serão cancelados e 2 serão mantidos, conforme é possível ver nas transações de estoque.
 
 Para cancelar a quantidade total em uma linha da ordem de compra, cancele a quantidade restante da entrega na linha. A linha será atualizada para o status **Cancelado**.
 

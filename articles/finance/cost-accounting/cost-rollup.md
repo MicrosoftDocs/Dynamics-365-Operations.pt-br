@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c240e11394582ad1af563ee4a8e58632babfff3a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: b02bfd83cfc4f1585c9044ebca8b20413042124a
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976370"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006157"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Política de acúmulo de custos e cálculo de custos indiretos 
 
@@ -76,7 +76,7 @@ Uma hierarquia de dimensões que atende aos requisitos de relatórios da organiz
 
 **Hierarquia de dimensões**
 
-|              | Intervalos de membros de dimensão |                     |
+|    &nbsp;    | Intervalos de membros de dimensão | &nbsp;              |
 |--------------|-------------------------|---------------------|
 | **Nós**        | **Membro da dimensão de origem**   | **Membro da dimensão de destino** |
 | Organização |                         |                     |
@@ -97,7 +97,7 @@ Uma hierarquia de dimensões que atende ao requisito de relatório pode ser conf
 
 **Hierarquia de dimensões**
 
-|                         | Intervalos de membros de dimensão |                     |
+|      &nbsp;             | Intervalos de membros de dimensão |      &nbsp;         |
 |-------------------------|-------------------------|---------------------|
 | Nós                   | Membro da dimensão de origem   | Membro da dimensão de destino |
 | Demonstrativo de lucros e perdas |                         |                     |
@@ -105,7 +105,7 @@ Uma hierarquia de dimensões que atende ao requisito de relatório pode ser conf
 
 Depois que as entradas da contabilidade são processadas, o saldo de entrada de custo por objeto de custo parece com este.
 
-|                      | **Objeto de custo** |           |           |           | **Total**     |
+|      &nbsp;          | **Objeto de custo** | &nbsp;    |  &nbsp;   |  &nbsp;   | **Total**     |
 |----------------------|-----------------|-----------|-----------|-----------|---------------|
 | **Elemento de custo**     | **CC001**       | **CC002** | **CC003** | **CC004** |               |
 | **1001 Eletricidade** | 100,00          | 200.000    | 6.000,00  | 2.000,00  | **8.300,00**  |
@@ -159,7 +159,7 @@ Se quiser aprender como o custo flui entre os centros de custos na organização
 
 Os membros da dimensão do elemento de custo podem ser configurados como segue.
 
-| Elementos de custo | Tipo          |               |
+| Elementos de custo | Tipo          |     &nbsp;    |
 |---------------|---------------|---------------|
 | 1001          | eletricidade   | Principal       |
 | 1002          | Salários      | Principal       |
@@ -179,7 +179,7 @@ A hierarquia de dimensão **Demonstrativo de lucros e perdas** precisa ser atual
 
 **Hierarquia de dimensões**
 
-|                         | Intervalos de membros de dimensão |                     |
+|      &nbsp;             | Intervalos de membros de dimensão |  &nbsp;             |
 |-------------------------|-------------------------|---------------------|
 | Nós                   | Membro da dimensão de origem   | Membro da dimensão de destino |
 | Demonstrativo de lucros e perdas |                         |                     |
@@ -258,7 +258,7 @@ As hierarquias da dimensão permitem que você exiba os dados em diferentes nív
 
 Este é um exemplo de relatório do Power Pivot no Excel.
 
-| **Demonstrativo de lucros e perdas** | **Objeto de custo** |                |               |               |  **Total**    |
+| **Demonstrativo de lucros e perdas** | **Objeto de custo** |      &nbsp;    |   &nbsp;      |     &nbsp;    |  **Total**    |
 |-----------------------------|-----------------|----------------|---------------|---------------|---------------|
 |                             | **CC001**       | **CC002**      | **CC003**     | **CC004**     |               |
 | **Custo primário**            | **10.100,00**   | **14.200,00**  | **14.000,00** | **8.500,00**  | **46.800,00** |
@@ -276,7 +276,7 @@ Usar **Política de acúmulo de custo** e **Elementos de custo previsto do tipo 
 
 Se o mesmo exemplo tinha sido executado sem criar a **Política de acúmulo de custo,** o resultado do relatório seria como o mostrado a seguir. O custo flui corretamente, mas a rastreabilidade e as informações sobre como o custo flui entre os centros de custos são perdidas.
 
-| **Demonstrativo de lucros e perdas** | **Objeto de custo** |           |               |               |          **Total**  |
+| **Demonstrativo de lucros e perdas** | **Objeto de custo** |   &nbsp;  |    &nbsp;     |  &nbsp;       |          **Total**  |
 |-----------------------------|-----------------|-----------|---------------|---------------|---------------|
 |                             | **CC001**       | **CC002** | **CC003**     | **CC004**     |               |
 | **Custo primário**            | **0,00**        | **0,00**  | **31.082,75** | **15.717,25** | **46.800,00** |

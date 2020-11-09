@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSRFSystemDirectedWorkSequenceQuery, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 2884c480d20090266f7cffb5e7d0aca58c1174f0
-ms.sourcegitcommit: edb46dce498df42b09e8f5ad6de00f86c8022dfa
+ms.openlocfilehash: 86d396b069a354b8fa7e15793372a8293273d238
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "3534841"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017014"
 ---
 # <a name="system-directed-work-sequencing"></a>Sequenciamento do trabalho direcionado pelo sistema
 
@@ -59,7 +60,7 @@ Para trabalhar com o cenário usando os valores apresentados neste tópico, voc�
 1. Na lista de itens de menu de dispositivo móvel, selecione **Separação de Vendas – Sistema**. O item de menu necessário já deve existir. 
 1. Confirme as seguintes configurações:
 
-    - Na FastTab **Geral**, o campo **Direcionado por** deve ser definido como *Dirigido pelo sistema*.
+    - Na FastTab **Geral** , o campo **Direcionado por** deve ser definido como *Dirigido pelo sistema*.
     - A FastTab **Classes de trabalho** deve mostrar as seguintes configurações.
 
         | ID da classe de trabalho | Tipo de ordem de serviço |
@@ -78,7 +79,7 @@ Para trabalhar com o cenário usando os valores apresentados neste tópico, voc�
 
 1. Selecione **Salvar**.
 1. No Painel de Ações, selecione **Editar Consulta**.
-1. Na guia **Junções**, expanda a hierarquia de junções para mostrar a tabela **Linhas de trabalho**.
+1. Na guia **Junções** , expanda a hierarquia de junções para mostrar a tabela **Linhas de trabalho**.
 1. Selecione a junção de tabela **Linhas de trabalho**.
 1. Selecione **Adicionar junção de tabela**.
 1. Na lista exibida, localize e selecione a linha que tem as seguintes configurações:
@@ -90,7 +91,7 @@ Para trabalhar com o cenário usando os valores apresentados neste tópico, voc�
 
     Os locais são adicionados à junção da tabela.
 
-1. Na guia **Classificação**, selecione **Adicionar** para adicionar uma linha.
+1. Na guia **Classificação** , selecione **Adicionar** para adicionar uma linha.
 1. Na nova linha, defina os valores a seguir:
 
     - **Tabela:** *Linhas de trabalho*
@@ -129,7 +130,7 @@ Para trabalhar com o cenário usando os valores apresentados neste tópico, voc�
     - **Critérios:** *!ESTÁGIO*
 
         > [!IMPORTANT]
-        > Inclua o ponto de exclamação (*!*) antes de *ESTÁGIO*.
+        > Inclua o ponto de exclamação ( *!* ) antes de *ESTÁGIO*.
 
 1. Selecione **OK** para salvar e fechar a consulta.
 1. Selecione **Salvar**.
@@ -145,9 +146,9 @@ Para trabalhar com o cenário usando os valores apresentados neste tópico, voc�
 Se você estiver usando dados padrão da Contoso, a consulta para a ação diretiva de localização não exigirá alterações. No entanto, para verificar se as diretivas de localização capturarão os itens nas ordens de venda quando você aplicar o recurso em um ambiente que não seja da Contoso, crie uma nova diretiva de localização. Para verificar as configurações no ambiente de demonstração, siga estas etapas.
 
 1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Diretivas de localização**.
-1. No campo **Tipo de ordem de trabalho**, selecione *Ordens de compra*.
+1. No campo **Tipo de ordem de trabalho** , selecione *Ordens de compra*.
 1. Selecione a diretiva de localização chamada *Separação 51*.
-1. Na guia **Ações de Diretiva de Localização**, selecione a linha para a ação **Separação**.
+1. Na guia **Ações de Diretiva de Localização** , selecione a linha para a ação **Separação**.
 1. Selecione **Editar consulta** acima da grade.
 1. Analise a consulta **Intervalo**.
 
@@ -168,10 +169,10 @@ Você liberará cada ordem de venda para o depósito a fim de criar o trabalho d
 
 1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. No Painel de Ações, selecione **Novo** para criar a ordem de venda 1.
-1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
+1. Na caixa de diálogo **Criar ordem de venda** , defina os seguintes valores:
 
-    - Na seção **Cliente**, defina o campo **Conta do cliente** como *US-004*.
-    - Na seção **Geral**, defina o campo **Depósito** como *51*.
+    - Na seção **Cliente** , defina o campo **Conta do cliente** como *US-004*.
+    - Na seção **Geral** , defina o campo **Depósito** como *51*.
 
 1. Selecione **OK** para fechar a caixa de diálogo. Anote o número da ordem de venda.
 1. Adicione uma linha à nova ordem de venda e defina os seguintes valores:
@@ -180,16 +181,16 @@ Você liberará cada ordem de venda para o depósito a fim de criar o trabalho d
     - **Quantidade:** *20*
 
 1. No menu **Estoque** acima da grade, selecione **Reserva**.
-1. Na página **Reserva**, selecione **Reservar lote** para reservar o estoque.
+1. Na página **Reserva** , selecione **Reservar lote** para reservar o estoque.
 1. Feche a página **Reserva**.
-1. No Painel de Ações, na guia **Depósito**, selecione **Liberar para depósito** para criar trabalho para o depósito.
+1. No Painel de Ações, na guia **Depósito** , selecione **Liberar para depósito** para criar trabalho para o depósito.
 
     Você recebe mensagens informativas que mostram a ID da onda e as IDs de remessa que foram criadas para a ordem de venda.
 
 #### <a name="sales-order-2"></a>Ordem de venda 2
 
 1. No Painel de Ações, selecione **Novo** para criar a ordem de venda 2.
-1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
+1. Na caixa de diálogo **Criar ordem de venda** , defina os seguintes valores:
 
     - **Conta de cliente:** *US-007*
     - **Depósito:** *51*
@@ -211,7 +212,7 @@ Você liberará cada ordem de venda para o depósito a fim de criar o trabalho d
 #### <a name="sales-order-3"></a>Ordem de venda 3
 
 1. No Painel de Ações, selecione **Novo** para criar a ordem de venda 3.
-1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
+1. Na caixa de diálogo **Criar ordem de venda** , defina os seguintes valores:
 
     - **Conta de cliente:** *US-009*
     - **Depósito:** *51*
@@ -233,7 +234,7 @@ Você liberará cada ordem de venda para o depósito a fim de criar o trabalho d
 #### <a name="sales-order-4"></a>Ordem de venda 4
 
 1. No Painel de Ações, selecione **Novo** para criar a ordem de venda 4.
-1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
+1. Na caixa de diálogo **Criar ordem de venda** , defina os seguintes valores:
 
     - **Conta de cliente:** *US-010*
     - **Depósito:** *51*
@@ -268,7 +269,7 @@ Você liberará cada ordem de venda para o depósito a fim de criar o trabalho d
 Antes de executar o fluxo no dispositivo móvel, verifique se somente o trabalho recém-criado está com o status *Aberto* para o depósito *51* e o tipo de ordem de trabalho de *Ordem de venda*. Caso contrário, os resultados do teste podem variar, pois a separação direta do sistema incluirá todo o trabalho elegível.
 
 1. Vá para **Gerenciamento de depósito \> Trabalho \> Saída \> Trabalho de venda aberto**.
-1. Na grade **Trabalho de venda aberto**, filtre o campo **Depósito** para que somente o trabalho do depósito *51* seja exibido.
+1. Na grade **Trabalho de venda aberto** , filtre o campo **Depósito** para que somente o trabalho do depósito *51* seja exibido.
 1. Confirme se aparecem apenas as quatro IDs de trabalho criadas anteriormente.
 1. Feche a página **Trabalho**.
 
@@ -299,7 +300,7 @@ Lembre-se de que esta configuração capturará trabalhos com pelo menos uma lin
 
 ## <a name="tips"></a>Dicas
 
-As consultas de sequência de trabalho direcionadas pelo sistema são *inclusivas*. É importante lembrar desse fato para algumas configurações. Por exemplo, você deseja que um item de menu específico processe apenas o trabalho em que a unidade de trabalho seja *ea* e especifica essa restrição na guia **Intervalo** da consulta. Nesse caso, todos os trabalhos em que pelo menos uma linha de trabalho tenha a unidade de trabalho definida como *ea* serão alimentados para o trabalhador. Portanto, esse trabalho também podem incluir trabalho em que as linhas de trabalho tenham uma unidade de trabalho diferente de *ea* (como *caixa* ou *palete*). A consulta excluirá o trabalho apenas quando nenhuma linha de trabalho tiver a unidade de trabalho definida como *ea*.
+As consultas de sequência de trabalho direcionadas pelo sistema são *inclusivas*. É importante lembrar desse fato para algumas configurações. Por exemplo, você deseja que um item de menu específico processe apenas o trabalho em que a unidade de trabalho seja *ea* e especifica essa restrição na guia **Intervalo** da consulta. Nesse caso, todos os trabalhos em que pelo menos uma linha de trabalho tenha a unidade de trabalho definida como *ea* serão alimentados para o trabalhador. Portanto, esse trabalho também podem incluir trabalho em que as linhas de trabalho tenham uma unidade de trabalho diferente de *ea* (como *caixa* ou *palete* ). A consulta excluirá o trabalho apenas quando nenhuma linha de trabalho tiver a unidade de trabalho definida como *ea*.
 
 Portanto, no exemplo desse cenário, a ID de trabalho *4* também foi capturada pela consulta. Quando ela foi criada, duas linhas foram adicionadas: uma para 25 ea e outra para 10 ea. O trabalho ainda foi apresentado ao usuário porque pelo menos uma linha de trabalho tem uma quantidade inferior a 20 ea.
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 756924c87ced7cd2d5fc4e7c2a01b571558d3550
-ms.sourcegitcommit: 06f64550b2043582de4018bdd3924fcc1fd5d310
+ms.openlocfilehash: 1b18965b41822c6ae6c263948c6605a229277165
+ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3801449"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4012312"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.8 (Fevereiro de 2020)
 
@@ -39,10 +39,11 @@ Este tópico lista os recursos novos ou alterados no Microsoft Dynamics 365 Supp
 Os seguintes recursos estão incluídos nesta versão. Os títulos do recurso estão associados a informações adicionais no site [Planos de versão](https://docs.microsoft.com/dynamics365/release-plans/). Links adicionais direcionam para documentações adicionais ou vídeos atualmente disponíveis para esse recurso. Alguns desses recursos também podem ter sido incluídos em uma versão incremental anterior, mas não foram anunciados em um tópico *Novidades* anterior, portanto, foram adicionados aqui. A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) antes que você possa usá-los.
 
 - [Zona de localização adicional](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
+
 - [Gerenciamento de Ativos](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management)<br> - Para obter mais informações, consulte [Visão geral do gerenciamento de ativos](../asset-management/index.md).
 - [Cancelar trabalho](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work)<br> - Para obter mais informações, consulte [Cancelar trabalho de depósito para o tratamento de exceção](../warehousing/cancel-warehouse-work.md).
 - [Alterar pool de trabalho no trabalho](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)<br> - Para obter informações, consulte [Alterar pool de trabalho no trabalho](../warehousing/change-work-pool-on-work.md).
-- [Posição do cluster completa](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full) - Para obter mais informações, consulte [Posição do cluster completa](../warehousing/cluster-position-full.md).
+- [Posição de cluster completa](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)<br> - Para obter mais informações, consulte [Posição de cluster completa](../warehousing/cluster-position-full.md).
 - [Confirmar e transferir](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)<br> - Para obter mais informações, consulte [Confirmar e transferir](../warehousing/confirm-and-transfer.md).
 - [Classificação por vencimento de separação de estoque de diretiva de localização](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)<br> - Para obter mais informações, consulte [Vencimento de separação de estoque de diretiva de localização](../warehousing/location-directive-inventory-picking-aging.md).
 - [Status do local](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-status)

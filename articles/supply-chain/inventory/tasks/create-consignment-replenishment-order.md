@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple
+ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple, ConsignmentProductReceiptJournal, ConsignmentReplenishmentOrderLineQuantity
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 66611e2d8a88269fe727c46ef4aa6aa809cc7836
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9e993190150e2d82088390d8db4b7c5ada2b0161
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214035"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018344"
 ---
 # <a name="create-a-consignment-replenishment-order"></a>Criar uma ordem de reabastecimento de consignação
 
@@ -33,16 +33,16 @@ Este tópico explica como criar uma ordem de reabastecimento de remessa que poss
 ## <a name="create-a-consignment-replenishment-order"></a>Criar uma ordem de reabastecimento de consignação
 1. No Painel de Navegação, vá para **Módulos > Compras e fornecimento > Consignação > Ordens de reabastecimento de consignação**.
 2. Selecione **Novo**.
-3. No campo **Conta de fornecedor**, selecione o fornecedor **US-104** (é preciso selecionar um fornecedor registrado como proprietário na página **proprietários de estoque**). 
+3. No campo **Conta de fornecedor** , selecione o fornecedor **US-104** (é preciso selecionar um fornecedor registrado como proprietário na página **proprietários de estoque** ). 
 4. Selecione **OK**.
 5. Selecione **Adicionar linha**.
-6. No campo **Número do item**, digite `M9211CI` (é preciso selecionar um item configurado para o estoque em consignação).
-7. No campo **Quantidade.**, insira um número
-8. No campo **Data de entrega solicitada**, insira uma data. Datas solicitadas e confirmadas são usadas por mecanismo de MRP para entrada esperada de mercadorias.  
-9. No campo **Data de entrega confirmada**, insira uma data.
+6. No campo **Número do item** , digite `M9211CI` (é preciso selecionar um item configurado para o estoque em consignação).
+7. No campo **Quantidade.** , insira um número
+8. No campo **Data de entrega solicitada** , insira uma data. Datas solicitadas e confirmadas são usadas por mecanismo de MRP para entrada esperada de mercadorias.  
+9. No campo **Data de entrega confirmada** , insira uma data.
 10. Expanda a seção **Detalhes da linha**.
 11. Selecione a guia **Dimensões de estoque**.
-12. Para mostrar o proprietário no campo **Proprietário de dimensões de estoque**, atualize a página. O fornecedor US-104 agora está listado como proprietário.  
+12. Para mostrar o proprietário no campo **Proprietário de dimensões de estoque** , atualize a página. O fornecedor US-104 agora está listado como proprietário.  
 
 ## <a name="check-the-inventory-transaction-status"></a>Verifique o status da Data da transação de estoque
 1. Selecione **Estoque**.
@@ -52,8 +52,8 @@ Este tópico explica como criar uma ordem de reabastecimento de remessa que poss
 
 ## <a name="receive-items"></a>Receber itens
 1. Selecione **Recebimento de produtos**.
-2. No campo **Recebimento de produtos externos**, digite um valor.
-3. No campo **Quantidade**, insira um número que é menor que o número que é mostrado. 
+2. No campo **Recebimento de produtos externos** , digite um valor.
+3. No campo **Quantidade** , insira um número que é menor que o número que é mostrado. 
 4. Selecione **OK**.
 
 ## <a name="check-the-on-hand-inventory"></a>Verifique o estoque disponível

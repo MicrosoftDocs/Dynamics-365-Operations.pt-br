@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSPostMethod,WHSWaveTemplateTable,WHSLoadMixGroup,WHSLoadBuildTemplate
+ms.search.form: WHSPostMethod,WHSWaveTemplateTable,WHSLoadMixGroup,WHSLoadBuildTemplate, WHSWaveTableListPage, TMSLoadBuildTemplateApply, TMSLoadBuildTemplates
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Retail, Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 3bc82c3af2b99303a650f672f2b2ccd48c9889a9
-ms.sourcegitcommit: d25d0feb3f8a5a760eba50ba5f46e1db02737d25
+ms.openlocfilehash: 7fb47498cfb3756b0e180fe9e5500255c7312a92
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677425"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016323"
 ---
 # <a name="advanced-load-building-during-wave"></a>Criação de carga avançada durante ondas
 
@@ -34,12 +34,12 @@ Durante o processamento de ondas, o sistema normalmente cria uma nova carga para
 Para usar o recurso, é necessário configurar o sistema da seguinte maneira:
 
 - Crie *modelos de onda* que incluam o novo método **buildLoads**. Esse método torna a criação avançada de carga de onda disponível para ondas que usam esses modelos.
-- Configure *modelos de criação de carga*, cada um vinculado a um método e a um modelo de onda específicos. Os modelos de criação de carga controlam à qual carga (existente ou nova) as linhas de carga que estão na onda devem ser adicionadas. Você pode combinar ou separar remessas com base em critérios como o modelo de carga, o equipamento e outros valores de campo na linha de carga.
+- Configure *modelos de criação de carga* , cada um vinculado a um método e a um modelo de onda específicos. Os modelos de criação de carga controlam à qual carga (existente ou nova) as linhas de carga que estão na onda devem ser adicionadas. Você pode combinar ou separar remessas com base em critérios como o modelo de carga, o equipamento e outros valores de campo na linha de carga.
 - Defina *grupos mistos de carga* para controlar quais itens devem e não devem ser combinados em uma única carga. Também é possível especificar se a restrição deve gerar um aviso ou um erro e se é necessário avaliar a restrição volumétrica do modelo de carga.
 
 ## <a name="turn-on-advanced-wave-load-building-in-your-system"></a>Ativar a criação avançada de carga de onda no sistema
 
-Para poder usar a criação avançada de carga de onda, dois recursos devem estar ativados no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status desses recursos e ativá-los se necessário. No espaço de trabalho **Gerenciamento de recursos**, os recursos estão listados da seguinte forma:
+Para poder usar a criação avançada de carga de onda, dois recursos devem estar ativados no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status desses recursos e ativá-los se necessário. No espaço de trabalho **Gerenciamento de recursos** , os recursos estão listados da seguinte forma:
 
 - Recurso de criação de carga de onda:
 
@@ -59,7 +59,7 @@ Você também pode usar esta demonstração como orientação para usar o recurs
 
 ### <a name="make-sure-that-the-scenario-setup-includes-enough-available-inventory"></a>Verificar se a configuração do cenário inclui estoque disponível suficiente
 
-Se você estiver trabalhando com os dados de demonstração da **USMF**, primeiro deverá se certificar de que o sistema está configurado de maneira que haja estoque suficiente em cada local relevante. Para esta demonstração, a expectativa é de que o seguinte estoque esteja disponível no depósito *62*:
+Se você estiver trabalhando com os dados de demonstração da **USMF** , primeiro deverá se certificar de que o sistema está configurado de maneira que haja estoque suficiente em cada local relevante. Para esta demonstração, a expectativa é de que o seguinte estoque esteja disponível no depósito *62* :
 
 - **Item A0001:** 10 pacotes
 - **Item A0002:** 10 pacotes
@@ -71,15 +71,15 @@ O **Item M9200** deve ser adicionado ao depósito. Execute os procedimentos nas 
 
 1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Depósito** \> **Placas de licença**.
 1. No Painel de Ações, selecione **Novo**.
-1. Na nova linha, no campo **Placa de licença**, digite *LP6203*.
+1. Na nova linha, no campo **Placa de licença** , digite *LP6203*.
 1. Selecione **Salvar**.
 
 #### <a name="create-a-standard-cost-for-item-m9200-in-site-6"></a>Criar um custo padrão para o item M9200 no site 6
 
 1. Vá para **Gerenciamento de informações do produto** \> **Produtos** \> **Produtos liberados**.
 1. Pesquise **M9200**.
-1. Selecione a linha do item e, no Painel de Ação, na guia **Gerenciar custos**, no grupo **Configurar**, selecione **Preço do item**.
-1. Na página **Preço do item**, selecione a guia **Preços pendentes**.
+1. Selecione a linha do item e, no Painel de Ação, na guia **Gerenciar custos** , no grupo **Configurar** , selecione **Preço do item**.
+1. Na página **Preço do item** , selecione a guia **Preços pendentes**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na nova linha, defina os valores a seguir:
 
@@ -97,9 +97,9 @@ O **Item M9200** deve ser adicionado ao depósito. Execute os procedimentos nas 
 
 1. Vá para **Gerenciamento de estoque** \> **Entradas de diário** \> **Itens** \> **Ajuste de estoque**.
 1. No Painel de Ações, selecione **Novo**.
-1. Na caixa de diálogo **Criar diário do estoque**, na FastTab **Visão geral**, no campo **Depósito**, insira *62*. Aceite os valores padrão em todos os demais campos.
+1. Na caixa de diálogo **Criar diário do estoque** , na FastTab **Visão geral** , no campo **Depósito** , insira *62*. Aceite os valores padrão em todos os demais campos.
 1. Selecione **OK** para fechar a caixa de diálogo.
-1. A página **Ajuste de estoque** é aberta. Na FastTab **Linhas do diário**, selecione **Novo** para adicionar uma linha.
+1. A página **Ajuste de estoque** é aberta. Na FastTab **Linhas do diário** , selecione **Novo** para adicionar uma linha.
 1. Na nova linha, defina os valores a seguir. Aceite os valores padrão em todos os demais campos.
 
     - **Número de item:** *M9200*
@@ -108,15 +108,15 @@ O **Item M9200** deve ser adicionado ao depósito. Execute os procedimentos nas 
 
 1. No Painel de ações, selecione **Salvar**.
 1. No Painel de Ação, selecione **Validar** para verificar se há erros.
-1. Na caixa de diálogo **Verificar diário**, selecione **OK** para iniciar a verificação. Você receberá uma mensagem quando a verificação for concluída.
+1. Na caixa de diálogo **Verificar diário** , selecione **OK** para iniciar a verificação. Você receberá uma mensagem quando a verificação for concluída.
 1. No Painel de Ação, selecione **Lançar** para confirmar o ajuste de estoque.
-1. Na caixa de diálogo **Lançar diário**, selecione **OK** para começar a lançar. Você receberá uma mensagem quando o lançamento for concluído.
+1. Na caixa de diálogo **Lançar diário** , selecione **OK** para começar a lançar. Você receberá uma mensagem quando o lançamento for concluído.
 
 ## <a name="set-up-advanced-wave-load-building"></a>Configurar a criação avançada de carga de onda
 
 ### <a name="regenerate-wave-process-methods"></a>Regenerar métodos do processo de onda
 
-Pode ser necessário regenerar seus métodos do processo de onda para tornar o método de criação de carga (**buildLoads**) disponível.
+Pode ser necessário regenerar seus métodos do processo de onda para tornar o método de criação de carga ( **buildLoads** ) disponível.
 
 1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Ondas** \> **Métodos do processo de onda**.
 2. Verifique se **buildLoads** está na lista. Se não estiver, selecione **Regenerar métodos** no Painel de Ação para adicioná-lo.
@@ -128,21 +128,21 @@ Para aproveitar as vantagens da criação avançada de carga de onda, você deve
 1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Ondas** \> **Modelos de onda**.
 1. Selecione um modelo de onda.
 
-    Se você estiver trabalhando com os dados de demonstração da **USMF**, selecione o modelo **Padrão de Remessa 62**.
+    Se você estiver trabalhando com os dados de demonstração da **USMF** , selecione o modelo **Padrão de Remessa 62**.
 
 1. No Painel de Ação, selecione **Editar** para colocar a página no modo de edição.
-1. Na FastTab **Métodos**, na grade **Métodos restantes**, selecione o método **buildLoads**.
+1. Na FastTab **Métodos** , na grade **Métodos restantes** , selecione o método **buildLoads**.
 1. Selecione o botão de seta para a direita para mover o método **buildLoads** para a grade **Métodos selecionados**.
-1. Para atribuir um valor **Código da etapa da onda** para o método **buildLoads**, primeiro você deve criar um código na página **Códigos de etapa de onda**. Você pode usar qualquer valor que desejar, mas não se esqueça de anotá-lo porque precisará dele mais tarde. Siga estas etapas para criar o código **WSC2112**:
+1. Para atribuir um valor **Código da etapa da onda** para o método **buildLoads** , primeiro você deve criar um código na página **Códigos de etapa de onda**. Você pode usar qualquer valor que desejar, mas não se esqueça de anotá-lo porque precisará dele mais tarde. Siga estas etapas para criar o código **WSC2112** :
 
-    1. Na linha do método **buildLoads**, clique com o botão direito do mouse na seta para baixo do campo **Código da etapa da onda** e selecione **Exibir detalhes**.
-    1. Na página **Códigos de etapa de onda**, no Painel de Ação, selecione **Novo**.
-    1. No campo **Código da etapa da onda**, digite *WSC2112*.
-    1. No campo **Descrição da etapa da onda**, digite *WSC2112*.
-    1. No campo **Tipo de etapa de onda**, selecione *Criação de Carga*.
+    1. Na linha do método **buildLoads** , clique com o botão direito do mouse na seta para baixo do campo **Código da etapa da onda** e selecione **Exibir detalhes**.
+    1. Na página **Códigos de etapa de onda** , no Painel de Ação, selecione **Novo**.
+    1. No campo **Código da etapa da onda** , digite *WSC2112*.
+    1. No campo **Descrição da etapa da onda** , digite *WSC2112*.
+    1. No campo **Tipo de etapa de onda** , selecione *Criação de Carga*.
 
 1. Selecione **Salvar** e feche a página.
-1. Na linha do método **buildLoads**, no campo **Código da etapa da onda**, selecione o código que você acabou de criar (**WSC2112**).
+1. Na linha do método **buildLoads** , no campo **Código da etapa da onda** , selecione o código que você acabou de criar ( **WSC2112** ).
 1. No Painel de ações, selecione **Salvar**.
 
 > [!NOTE]
@@ -158,31 +158,31 @@ Os grupos mistos de carga estabelecem regras para os tipos de itens que podem se
 
 1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Carga** \> **Grupos mistos de carga**.
 1. No Painel de Ação, selecione **Novo** para criar um grupo de carga.
-1. No campo **ID de grupos mistos de carga**, insira um nome para o novo grupo.
+1. No campo **ID de grupos mistos de carga** , insira um nome para o novo grupo.
 
-    Se você estiver trabalhando com os dados de demonstração da **USMF**, defina os seguintes valores:
+    Se você estiver trabalhando com os dados de demonstração da **USMF** , defina os seguintes valores:
 
     - **ID de grupos mistos de carga:** *TV*
     - **Descrição:** *TV*
 
 1. No Painel de Ação, selecione **Salvar** para tornar a FastTab **Critérios de grupos mistos de carga** disponível.
-1. Na FastTab **Critérios de grupos mistos de carga**, selecione **Novo** para adicionar uma linha à grade.
+1. Na FastTab **Critérios de grupos mistos de carga** , selecione **Novo** para adicionar uma linha à grade.
 1. Na nova linha, defina os valores desejados em cada campo. Esses valores determinam os grupos de itens que são considerados para a combinação de cargas.
 
-    Se você estiver trabalhando com os dados de demonstração da **USMF**, selecione *TV e Vídeo* no campo **Grupo de itens**.
+    Se você estiver trabalhando com os dados de demonstração da **USMF** , selecione *TV e Vídeo* no campo **Grupo de itens**.
 
 1. No Painel de Ação, selecione **Salvar** para tornar a FastTab **Restrições de grupos mistos de carga** disponível.
-1. Na FastTab **Restrições de grupos mistos de carga**, selecione **Novo** para adicionar uma linha à grade.
+1. Na FastTab **Restrições de grupos mistos de carga** , selecione **Novo** para adicionar uma linha à grade.
 1. Na nova linha, defina os valores desejados em cada campo.
 
-    Se você estiver trabalhando com os dados de demonstração da **USMF**, defina os seguintes valores:
+    Se você estiver trabalhando com os dados de demonstração da **USMF** , defina os seguintes valores:
 
     - **Grupo de itens:** *CarAudio*
     - **Ação de criação de carga:** *Restringir* (Este valor impedirá que itens pertencentes ao grupo de itens **CarAudio** estejam na mesma carga que os itens pertencentes ao grupo de itens **TV e Vídeo**.)
 
 1. Continue a trabalhar com as regras até adicionar todos os critérios e restrições necessários para o grupo misto de cargas.
 
-Se estiver trabalhando com os dados de demonstração da **USMF**, agora você concluiu essa configuração.
+Se estiver trabalhando com os dados de demonstração da **USMF** , agora você concluiu essa configuração.
 
 ### <a name="set-up-load-build-templates"></a>Configurar modelos de criação de carga
 
@@ -201,13 +201,13 @@ Se estiver trabalhando com os dados de demonstração da **USMF**, agora você c
     | Equipamento | Os equipamentos para fazer a correspondência ao atribuir a cargas existentes e para inserir em novas cargas que são criadas. | Deixe esse campo em branco. |
     | ID de grupos mistos de carga | Selecione o grupo misto de cargas a ser usado se o item for permitido na carga. O grupo misto estabelece regras para os tipos de itens que podem ser combinados em uma única carga. Você deve selecionar um dos grupos mistos que criou anteriormente nesta configuração. | *TV* |
     | Usar cargas abertas | Selecione se as cargas abertas existentes devem ser adicionadas. As opções a seguir estão disponíveis:<ul><li>**Nenhuma** – Não adicione cargas abertas a nenhuma carga existente.</li><li>**Qualquer uma** — Adiciona cargas abertas a quaisquer cargas existentes válidas para a linha.</li><li>**Atribuída** – Adicione cargas abertas à carga que está atribuída à onda.</li></ul> | *Qualquer* |
-    | Criar cargas | Especifique se novas cargas devem ser criadas caso nenhuma carga existente corresponda aos critérios. | Selecionado (= *Sim*) |
-    | Permitir divisão de linha de remessa | Especifique se uma única linha de carga pode ser dividida entre várias cargas caso a linha inteira exceda a capacidade máxima do modelo de carga. | Desmarcado (= *Não*) |
-    | Validar volumetria | Especifique se a criação de carga deve verificar o peso e o volume conforme cada linha de carga for adicionada para garantir que os limites volumétricos do modelo de carga sejam respeitados. | Desmarcado (= *Não*) |
+    | Criar cargas | Especifique se novas cargas devem ser criadas caso nenhuma carga existente corresponda aos critérios. | Selecionado (= *Sim* ) |
+    | Permitir divisão de linha de remessa | Especifique se uma única linha de carga pode ser dividida entre várias cargas caso a linha inteira exceda a capacidade máxima do modelo de carga. | Desmarcado (= *Não* ) |
+    | Validar volumetria | Especifique se a criação de carga deve verificar o peso e o volume conforme cada linha de carga for adicionada para garantir que os limites volumétricos do modelo de carga sejam respeitados. | Desmarcado (= *Não* ) |
 
 1. No Painel de Ação, selecione **Salvar** para tornar a opção **Editar consulta** disponível.
 1. No Painel de Ação, selecione **Editar consulta** para abrir uma caixa de diálogo para editar a consulta.
-1. Na caixa de diálogo, na guia **Classificação**, selecione **Adicionar** para adicionar uma linha à grade.
+1. Na caixa de diálogo, na guia **Classificação** , selecione **Adicionar** para adicionar uma linha à grade.
 1. Na nova linha, defina as regras de classificação que você deseja usar. Por exemplo, defina os seguintes valores para classificar os resultados da pesquisa em ordem crescente por número de ordem:
 
     - **Tabela:** *Detalhes da carga*
@@ -216,7 +216,7 @@ Se estiver trabalhando com os dados de demonstração da **USMF**, agora você c
     - **Direção da pesquisa:** *Crescente*
 
 1. Selecione **OK** para salvar as alterações e fechar a caixa de diálogo.
-1. Na FastTab **Dividir por**, defina regras para controlar como as cargas são divididas. Normalmente, você pode dividir em campos personalizados que foram estendidos para a linha de carga, como **Roteiro**, **Tour** ou **Execução**. Por exemplo, para criar uma carga por número de ordem, marque a caixa de seleção **Dividir por** para a linha que tem os seguintes valores:
+1. Na FastTab **Dividir por** , defina regras para controlar como as cargas são divididas. Normalmente, você pode dividir em campos personalizados que foram estendidos para a linha de carga, como **Roteiro** , **Tour** ou **Execução**. Por exemplo, para criar uma carga por número de ordem, marque a caixa de seleção **Dividir por** para a linha que tem os seguintes valores:
 
     - **Nome da tabela de referência:** *Detalhes da carga*
     - **Nome do campo de referência:** *Número da ordem*
@@ -231,22 +231,22 @@ Este cenário mostra como as configurações descritas anteriormente neste tópi
 1. No Painel de Ação, selecione **Novo** para abrir a caixa de diálogo **Criar ordem de venda**.
 1. Na caixa de diálogo , defina os seguintes valores:
 
-    - Na FastTab **Cliente**, defina o campo **Conta do cliente** como *US-007*.
-    - Na FastTab **Geral**, defina o campo **Depósito**, como *62*.
+    - Na FastTab **Cliente** , defina o campo **Conta do cliente** como *US-007*.
+    - Na FastTab **Geral** , defina o campo **Depósito** , como *62*.
 
 1. Selecione **OK** para criar a ordem de venda e fechar a caixa de diálogo.
 1. A nova ordem de venda é aberta. Ele deve incluir uma nova linha vazia na grade da FastTab **Linhas de ordem de venda**. Nessa nova linha, defina o campo **Número do item** como *A0001* e o campo **Quantidade** como *1*.
 1. No menu **Estoque** acima da grade, selecione **Reserva**.
-1. Na página **Reserva**, no Painel de Ação, selecione **Reservar lote**.
-1. Selecione o botão **Fechar** (**X**) no canto superior direito da página para retornar à ordem de venda.
-1. No Painel de Ação, na guia **Depósito**, no grupo **Ações**, selecione **Liberar para o depósito**. O sistema cria uma remessa e a adiciona a uma nova carga, porque nenhuma carga existente contém linhas de carga com esse número de ordem.
+1. Na página **Reserva** , no Painel de Ação, selecione **Reservar lote**.
+1. Selecione o botão **Fechar** ( **X** ) no canto superior direito da página para retornar à ordem de venda.
+1. No Painel de Ação, na guia **Depósito** , no grupo **Ações** , selecione **Liberar para o depósito**. O sistema cria uma remessa e a adiciona a uma nova carga, porque nenhuma carga existente contém linhas de carga com esse número de ordem.
 
     Você recebe mensagens informativas que indicam o trabalho, a onda e a remessa que foram criados para a ordem.
 
-1. Para confirmar os detalhes da carga, da remessa e do trabalho na linha de venda, selecione a linha e, no menu **Depósito** acima da grade, selecione **Detalhes da carga**, **Detalhes da remessa** ou **Detalhes do trabalho**.
-1. Na ordem de venda recém-criada, na FastTab **Linhas de ordem de venda**, selecione **Adicionar linha** para adicionar outra linha.
+1. Para confirmar os detalhes da carga, da remessa e do trabalho na linha de venda, selecione a linha e, no menu **Depósito** acima da grade, selecione **Detalhes da carga** , **Detalhes da remessa** ou **Detalhes do trabalho**.
+1. Na ordem de venda recém-criada, na FastTab **Linhas de ordem de venda** , selecione **Adicionar linha** para adicionar outra linha.
 1. Na nova linha, defina o campo **Número do item** como *A0002* e o campo **Quantidade** como *1*.
 1. Repita as linhas de 6 a 9 para reservar a linha e liberá-la para o depósito. O sistema cria uma **nova** remessa para a linha que você adicionou. No entanto, como você está usando a criação avançada de carga de onda, o sistema adiciona essa remessa e a linha de carga à onda existente. Se você não estivesse usando a criação avançada de carga de onda, o sistema criaria uma nova carga para a remessa.
-1. Na ordem de venda recém-criada, na FastTab **Linhas de ordem de venda**, selecione **Adicionar linha** para adicionar outra linha.
+1. Na ordem de venda recém-criada, na FastTab **Linhas de ordem de venda** , selecione **Adicionar linha** para adicionar outra linha.
 1. Na nova linha, defina o campo **Número do item** como *M9200* e o campo **Quantidade** como *1*.
-1. Repita as linhas de 6 a 9 para reservar a linha e liberá-la para o depósito. Como anteriormente, o sistema cria uma **nova** remessa para a linha que você adicionou. Porém, como o item é proveniente do grupo de itens **CarAudio**, ele **não passa as restrições configuradas para o grupo misto de cargas**. Por esse motivo, ele é **adicionado a uma nova carga**. Se você não tivesse especificado um grupo misto de cargas no modelo de criação de carga, essa remessa teria sido adicionada à primeira carga.
+1. Repita as linhas de 6 a 9 para reservar a linha e liberá-la para o depósito. Como anteriormente, o sistema cria uma **nova** remessa para a linha que você adicionou. Porém, como o item é proveniente do grupo de itens **CarAudio** , ele **não passa as restrições configuradas para o grupo misto de cargas**. Por esse motivo, ele é **adicionado a uma nova carga**. Se você não tivesse especificado um grupo misto de cargas no modelo de criação de carga, essa remessa teria sido adicionada à primeira carga.

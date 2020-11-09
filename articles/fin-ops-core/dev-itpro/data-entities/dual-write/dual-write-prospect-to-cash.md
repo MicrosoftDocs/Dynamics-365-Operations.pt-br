@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 6fe42f43277448dc5918597ed8bb1b68f2266b6a
-ms.sourcegitcommit: 4ba10abe5be8a21b95370cd970a622e954970984
+ms.openlocfilehash: b21d468d672277be14877b93e291e9833659c54a
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3829203"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997390"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Cliente potencial com pagamento à vista em gravação dupla
 
@@ -63,9 +62,9 @@ Por exemplo, a sequência numérica em Supply Chain Management é **1, 2, 3, 4, 
 
 As cotações de venda podem ser criadas em Vendas ou em Supply Chain Management. Se você criar uma cotação em Vendas, ela será sincronizada com Supply Chain Management em tempo real. Da mesma forma, se você criar uma cotação em Supply Chain Management, ele é sincronizada em Vendas em tempo real. Observe os seguintes pontos:
 
-+ Você pode adicionar um desconto ao produto na cotação. Nesse caso, o desconto será sincronizado com Supply Chain Management. Os campos **Desconto**, **Encargos** e **Imposto** no cabeçalho são controlados por uma configuração no Supply Chain Management. Essa configuração não dá suporte ao mapeamento de integração. Em vez disso, os campos **Preço**, **Desconto**, **Encargo** e **Imposto** são mantidos e tratados pelo Supply Chain Management.
-+ Os campos **% de Desconto**, **Desconto** e **Valor do Frete** no cabeçalho de cotação de vendas são campos apenas leitura.
-+ Os campos **Condições de frete**, **Condições de entrega**, **Método de entrega** e **Modo de entrega** não estão incluídos no mapeamento padrão. Para mapear esses campos, é necessário configurar um mapeamento de valor que é específico para os dados nas organizações às quais a entidade está sincronizada.
++ Você pode adicionar um desconto ao produto na cotação. Nesse caso, o desconto será sincronizado com Supply Chain Management. Os campos **Desconto** , **Encargos** e **Imposto** no cabeçalho são controlados por uma configuração no Supply Chain Management. Essa configuração não dá suporte ao mapeamento de integração. Em vez disso, os campos **Preço** , **Desconto** , **Encargo** e **Imposto** são mantidos e tratados pelo Supply Chain Management.
++ Os campos **% de Desconto** , **Desconto** e **Valor do Frete** no cabeçalho de cotação de vendas são campos apenas leitura.
++ Os campos **Condições de frete** , **Condições de entrega** , **Método de entrega** e **Modo de entrega** não estão incluídos no mapeamento padrão. Para mapear esses campos, é necessário configurar um mapeamento de valor que é específico para os dados nas organizações às quais a entidade está sincronizada.
 
 Se você também estiver usando a solução do Field Service, certifique-se de reabilitar o parâmetro **Criação Rápida de Linha de Cotação**. Habilitar novamente o parâmetro permite que você continue criando linhas de cotação usando a função de criação rápida.
 1. Navegue até o aplicativo Dynamics 365 Sales.
@@ -111,7 +110,7 @@ As faturas de vendas são criadas no Supply Chain Management e sincronizadas no 
 + Um campo **Número de fatura** foi adicionado à entidade **Fatura** e aparece na página.
 + O botão **Criar fatura** na página **Ordem de venda** é ocultado, pois as faturas serão criadas no Supply Chain Management e sincronizadas com o Sales. A página **Fatura** não pode ser editada, pois as faturas serão sincronizadas do Supply Chain Management.
 + O valor do **Status da ordem de venda** é alterado automaticamente para **Faturado** quando a fatura relacionada do Supply Chain Management é sincronizada com o Sales. Além disso, o proprietário da ordem de venda da qual a fatura foi criada é atribuído como o proprietário da fatura. Portanto, o proprietário da ordem de venda pode exibir a fatura.
-+ Os campos **Condições de frete**, **Condições de entrega** e **Método de remessa** não estão incluídos no mapeamento padrão. Para mapear esses campos, é necessário configurar um mapeamento de valor que é específico para os dados nas organizações às quais a entidade está sincronizada.
++ Os campos **Condições de frete** , **Condições de entrega** e **Método de remessa** não estão incluídos no mapeamento padrão. Para mapear esses campos, é necessário configurar um mapeamento de valor que é específico para os dados nas organizações às quais a entidade está sincronizada.
 
 ## <a name="templates"></a>Modelos
 

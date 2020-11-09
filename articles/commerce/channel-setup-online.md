@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 0d803b23f9de9daf624537d1d1ef30f17dc05fea
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 07225d97af76ea665fa28362cc205c6e8dc4fdf4
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533312"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107221"
 ---
 # <a name="set-up-an-online-channel"></a>Configurar um canal online
 
@@ -45,15 +45,15 @@ Para criar e configurar um novo canal online, siga estas etapas.
 
 1. No painel de navegação, vá para **Módulos \> Canais \> Lojas Online**.
 1. No painel de ação, selecione **Novo**.
-1. No campo **Nome**, forneça um nome para o novo canal.
-1. Na lista suspensa **Entidade legal**, insira a entidade legal apropriada.
-1. Na lista suspensa **Depósito**, insira o depósito apropriado.
-1. No campo **Fuso horário da loja**, selecione o fuso horário apropriado.
-1. No campo **Moeda**, selecione a moeda apropriada.
-1. No campo **Cliente padrão**, forneça um cliente padrão válido.
-1. No campo **Catálogo de endereços do cliente**, forneça um catálogo de endereços válido.
-1. No campo **Perfil de funcionalidade**, selecione um perfil de funcionalidade se aplicável.
-1. No campo **Perfil de notificação por email**, forneça um perfil de notificação por email válido.
+1. No campo **Nome** , forneça um nome para o novo canal.
+1. Na lista suspensa **Entidade legal** , insira a entidade legal apropriada.
+1. Na lista suspensa **Depósito** , insira o depósito apropriado.
+1. No campo **Fuso horário da loja** , selecione o fuso horário apropriado.
+1. No campo **Moeda** , selecione a moeda apropriada.
+1. No campo **Cliente padrão** , forneça um cliente padrão válido.
+1. No campo **Catálogo de endereços do cliente** , forneça um catálogo de endereços válido.
+1. No campo **Perfil de funcionalidade** , selecione um perfil de funcionalidade se aplicável.
+1. No campo **Perfil de notificação por email** , forneça um perfil de notificação por email válido.
 1. No painel de ação, selecione **Salvar**.
 
 A imagem a seguir mostra a criação de um novo canal online.
@@ -70,13 +70,13 @@ Se o seu site de comércio eletrônico der suporte a vários idiomas, expanda a 
 
 ## <a name="set-up-payment-account"></a>Configurar conta de pagamento
 
-Na seção **Conta de pagamento**, você pode adicionar um provedor de serviço de pagamento terceirizado. Para obter informações sobre como configurar um conector de pagamento Adyen, consulte [Conector de pagamento do Dynamics 365 para Adyen](../retail/dev-itpro/adyen-connector.md).
+Na seção **Conta de pagamento** , você pode adicionar um provedor de serviço de pagamento terceirizado. Para obter informações sobre como configurar um conector de pagamento Adyen, consulte [Conector de pagamento do Dynamics 365 para Adyen](../retail/dev-itpro/adyen-connector.md).
 
-## <a name="additional-channel-set-up"></a>Outras configurações de canal
+## <a name="additional-channel-setup"></a>Configuração adicional do canal
 
-Outras tarefas necessárias para a configuração do canal online incluem configurar métodos de pagamento, modos de entrega e a atribuição de grupo de orçamento.
+Outras tarefas que são necessárias para a configuração do canal online incluem configurar métodos de pagamento, modos de entrega e a atribuição de grupo de orçamento.
 
-A imagem a seguir mostra opções de configuração de **Modos de entrega**, **Métodos de pagamento** e **Atribuição de grupo de orçamento** na guia **Configurar**.
+A imagem a seguir mostra opções de configuração de **Modos de entrega** , **Métodos de pagamento** e **Atribuição de grupo de orçamento** na guia **Configurar**.
 
 ![Outras ações de configuração do canal online](media/channel-setup-online-3.png)
 
@@ -87,7 +87,7 @@ Para configurar métodos de pagamento, siga estas etapas para cada tipo de pagam
 1. No painel de ação, selecione a guia **Configurar** e, depois, **Métodos de pagamento**.
 1. No painel de ação, selecione **Novo**.
 1. No painel de navegação, selecione o método de pagamento desejado.
-1. Na seção **Geral**, forneça um **Nome de operação** e defina quaisquer outras configurações desejadas.
+1. Na seção **Geral** , forneça um **Nome de operação** e defina quaisquer outras configurações desejadas.
 1. Defina as configurações adicionais necessárias para o tipo de pagamento.
 1. No painel de ação, selecione **Salvar**.
 
@@ -103,7 +103,7 @@ Para alterar ou adicionar um modo de entrega, siga estas etapas.
 
 1. No painel de navegação, vá para **Módulos \> Gerenciamento de estoque \> Modos de entrega**.
 1. No painel de ação, selecione **Novo** para criar um novo modo de entrega ou selecione um modo existente.
-1. Na seção **Canais de varejo**, selecione **Adicionar linha** para adicionar o canal. Adicionar canais usando nós de organização em vez de adicionar cada canal individualmente pode otimizar esse processo.
+1. Na seção **Canais de varejo** , selecione **Adicionar linha** para adicionar o canal. Adicionar canais usando nós de organização em vez de adicionar cada canal individualmente pode otimizar esse processo.
 
 A imagem a seguir mostra um exemplo de modo de entrega.
 
@@ -115,8 +115,8 @@ Para configurar uma atribuição de grupo de orçamento, siga estas etapas.
 
 1. No painel de ação, selecione a guia **Configurar** e, depois, **Atribuição de grupo de orçamento**.
 1. No painel de ação, selecione **Novo**.
-1. Na lista suspensa **Grupo de orçamento**, selecione um grupo de orçamento.
-1. Na lista suspensa **Descrição**, insira uma descrição.
+1. Na lista suspensa **Grupo de orçamento** , selecione um grupo de orçamento.
+1. Na lista suspensa **Descrição** , insira uma descrição.
 1. No painel de ação, selecione **Salvar**.
 
 A imagem a seguir mostra um exemplo de configuração de atribuição de grupo de orçamento.

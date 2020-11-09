@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSClusterProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 8d030afb568b158e6caf48b0044d595d6ec024f6
-ms.sourcegitcommit: 06f64550b2043582de4018bdd3924fcc1fd5d310
+ms.openlocfilehash: 3610725815b35609ee98b69b367db2945bbf166a
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3802205"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016162"
 ---
 # <a name="cluster-position-full"></a>Posição de cluster completa
 
@@ -32,7 +33,7 @@ Este recurso introduz a capacidade de executar o botão **Completo** em uma das 
 
 ## <a name="turn-on-the-cluster-position-full-feature"></a>Ativar o recurso Posição de cluster completa
 
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos** , o recurso está listado da seguinte forma:
 
 - **Módulo:** *Gerenciamento de Depósito*
 - **Nome do recurso:** *Posição de cluster completa*
@@ -53,7 +54,7 @@ Você deve especificar se as IDs de cluster são geradas automaticamente, quanta
 
 1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Perfis de cluster**.
 1. No painel de lista, selecione o registro **Criar Cluster**.
-1. Na FastTab **Geral**, verifique os valores a seguir:
+1. Na FastTab **Geral** , verifique os valores a seguir:
 
     - **Gerar ID do cluster:** *Sim*
     - **Ativar posições:** *Sim*
@@ -93,7 +94,7 @@ Você deve configurar um item de menu do dispositivo móvel para usar o trabalho
 1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. No painel de lista, selecione o registro **Criar Separação de Cluster**.
 1. Selecione **Editar** no Painel de Ações.
-1. Na FastTab **Geral**, defina os seguintes valores:
+1. Na FastTab **Geral** , defina os seguintes valores:
 
     - **Direcionado por:** *Separação de cluster*
     - **Gerar placa de licença:** *Sim*
@@ -102,7 +103,7 @@ Você deve configurar um item de menu do dispositivo móvel para usar o trabalho
 
     Aceite os valores padrão para todos os demais campos.
 
-1. Na FastTab **Classes de trabalho**, adicione as duas linhas a seguir, conforme necessário:
+1. Na FastTab **Classes de trabalho** , adicione as duas linhas a seguir, conforme necessário:
 
     - Linha 1 (normalmente presente em dados de demonstração):
 
@@ -130,32 +131,32 @@ Antes de iniciar a separação de cluster, você deve criar um trabalho de saíd
 
 1. Vá para **Vendas e Marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. Selecione **Novo** para criar a ordem de venda 1.
-1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
+1. Na caixa de diálogo **Criar ordem de venda** , defina os seguintes valores:
 
     - **Conta de cliente:** *US-010*
     - **Depósito:** *61*
 
 1. Selecione **OK**.
-1. A nova ordem de venda é aberta. Na guia rápida **Linhas da ordem de venda**, adicione uma linha que tenha as seguintes configurações:
+1. A nova ordem de venda é aberta. Na guia rápida **Linhas da ordem de venda** , adicione uma linha que tenha as seguintes configurações:
 
     - **Número de item:** *T0100*
     - **Quantidade:** *5*
 
-1. Na FastTab **Detalhes da linha**, na guia **Entrega**, defina o campo **Data de remessa confirmada** como a data de hoje.
-1. Na FastTab **Linhas da ordem de venda**, adicione uma segunda linha que tenha as seguintes configurações:
+1. Na FastTab **Detalhes da linha** , na guia **Entrega** , defina o campo **Data de remessa confirmada** como a data de hoje.
+1. Na FastTab **Linhas da ordem de venda** , adicione uma segunda linha que tenha as seguintes configurações:
 
     - **Número de item:** *L0101*
     - **Quantidade:** *20*
 
-1. Na FastTab **Detalhes da linha**, na guia **Entrega**, defina o campo **Data de remessa confirmada** como a data de hoje.
+1. Na FastTab **Detalhes da linha** , na guia **Entrega** , defina o campo **Data de remessa confirmada** como a data de hoje.
 1. Para cada linha que você acabou de adicionar, siga estas etapas para reservar o estoque:
 
     1. Selecione a linha a ser reservada.
-    2. Na FastTab **Linhas da ordem de venda**, selecione **Estoque \> Reserva**.
-    3. Na página **Reserva**, no Painel de Ação, selecione **Reservar lote** para reservar o estoque.
+    2. Na FastTab **Linhas da ordem de venda** , selecione **Estoque \> Reserva**.
+    3. Na página **Reserva** , no Painel de Ação, selecione **Reservar lote** para reservar o estoque.
     4. Feche a página **Reserva**.
 
-1. No Painel de Ações, na guia **Depósito**, selecione **Liberar para o depósito**.
+1. No Painel de Ações, na guia **Depósito** , selecione **Liberar para o depósito**.
 
     Quando a liberação é concluída, você recebe mensagens informativas que mostram as IDs do ciclo e da carga que foram criadas.
 
@@ -163,32 +164,32 @@ Antes de iniciar a separação de cluster, você deve criar um trabalho de saíd
 
 1. Vá para **Vendas e Marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. Selecione **Novo** para criar a ordem de venda 2.
-1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
+1. Na caixa de diálogo **Criar ordem de venda** , defina os seguintes valores:
 
     - **Conta de cliente:** *US-011*
     - **Depósito:** *61*
 
 1. Selecione **OK**.
-1. A nova ordem de venda é aberta. Na guia rápida **Linhas da ordem de venda**, adicione uma linha que tenha as seguintes configurações:
+1. A nova ordem de venda é aberta. Na guia rápida **Linhas da ordem de venda** , adicione uma linha que tenha as seguintes configurações:
 
     - **Número de item:** *L0101*
     - **Quantidade:** *20*
 
-1. Na FastTab **Detalhes da linha**, na guia **Entrega**, defina o campo **Data de remessa confirmada** como a data de hoje.
-1. Na FastTab **Linhas da ordem de venda**, adicione uma segunda linha que tenha as seguintes configurações:
+1. Na FastTab **Detalhes da linha** , na guia **Entrega** , defina o campo **Data de remessa confirmada** como a data de hoje.
+1. Na FastTab **Linhas da ordem de venda** , adicione uma segunda linha que tenha as seguintes configurações:
 
     - **Número de item:** *T0100*
     - **Quantidade:** *2*
 
-1. Na FastTab **Detalhes da linha**, na guia **Entrega**, defina o campo **Data de remessa confirmada** como a data de hoje.
+1. Na FastTab **Detalhes da linha** , na guia **Entrega** , defina o campo **Data de remessa confirmada** como a data de hoje.
 1. Para cada linha que você acabou de adicionar, siga estas etapas para reservar o estoque:
 
     1. Selecione a linha a ser reservada.
-    2. Na FastTab **Linhas da ordem de venda**, selecione **Estoque \> Reserva**.
-    3. Na página **Reserva**, no Painel de Ação, selecione **Reservar lote** para reservar o estoque.
+    2. Na FastTab **Linhas da ordem de venda** , selecione **Estoque \> Reserva**.
+    3. Na página **Reserva** , no Painel de Ação, selecione **Reservar lote** para reservar o estoque.
     4. Feche a página **Reserva**.
 
-1. No Painel de Ações, na guia **Depósito**, selecione **Liberar para o depósito**.
+1. No Painel de Ações, na guia **Depósito** , selecione **Liberar para o depósito**.
 
     Quando a liberação é concluída, você recebe mensagens informativas que mostram as IDs do ciclo e da carga que foram criadas.
 
@@ -197,12 +198,12 @@ Antes de iniciar a separação de cluster, você deve criar um trabalho de saíd
 Duas IDs de trabalho devem ter sido criadas, cada uma com duas linhas de separação. Siga estas etapas para localizar as IDs de trabalho e as atribuições das placas de licença.
 
 1. Vá para **Gerenciamento de depósito \> Trabalho \> Detalhes do trabalho**.
-1. Na grade **Visão geral**, procure na coluna **Número da ordem** as duas ordens de venda recém-criadas. Para cada ordem de venda, anote a ID de trabalho correspondente.
+1. Na grade **Visão geral** , procure na coluna **Número da ordem** as duas ordens de venda recém-criadas. Para cada ordem de venda, anote a ID de trabalho correspondente.
 1. Selecione a linha de cada ordem de venda para mostrar as informações relacionadas na grade **Linhas**. Anote o local de onde cada item será separado.
 1. Vá para **Gerenciamento de estoque \> Consultas e relatórios \> Lista disponível**.
 1. No Painel de Ações, selecione **Dimensões** para abrir a caixa de diálogo **Exibição de dimensão**.
-1. Verifique se as caixas de seleção **Placa de licença**, **Depósito** e **Número do item** estão marcadas e, em seguida, selecione **OK**.
-1. No painel **Filtro**, defina os seguintes filtros:
+1. Verifique se as caixas de seleção **Placa de licença** , **Depósito** e **Número do item** estão marcadas e, em seguida, selecione **OK**.
+1. No painel **Filtro** , defina os seguintes filtros:
 
     - **Número do item** – **é um de** – *L0101* e *T100*
     - **Depósito** – **começa com** – *61*
@@ -236,10 +237,10 @@ A qualquer momento durante as etapas a seguir, você pode selecionar a guia **De
 
     A página **TAREFA: Classificar: Criar Separação de Cluster** será exibida. Aqui, você classificará os dois paletes separados em uma posição de separação. Essa posição pode ser um tote ou contêiner usado para separar o estoque separado por ordem de venda.
 
-1. Veja os detalhes mostrados para o item (*L0101*) e a quantidade (*20* ea) que serão classificados na posição 1 (para a ordem de venda 1).
+1. Veja os detalhes mostrados para o item ( *L0101* ) e a quantidade ( *20* ea) que serão classificados na posição 1 (para a ordem de venda 1).
 1. Defina o campo **POSITION NA** como *1*.
 1. Selecione **OK** (símbolo de marca de seleção).
-1. Veja os detalhes mostrados para o item (*L0101*) e a quantidade (*20* ea) que serão classificados na posição 2 (para a ordem de venda 2).
+1. Veja os detalhes mostrados para o item ( *L0101* ) e a quantidade ( *20* ea) que serão classificados na posição 2 (para a ordem de venda 2).
 1. Defina o campo **POSITION NA** como *2*.
 1. Selecione **OK** (símbolo de marca de seleção).
 
@@ -258,10 +259,10 @@ Neste cenário, a posição 1 não pode aceitar a quantidade total de itens que 
 1. Selecione **OK** (símbolo de marca de seleção).
 1. Insira a placa de licença da qual o item está sendo separado, definindo o campo **LP** como *LPREPL04*.
 1. Selecione **OK** (símbolo de marca de seleção).
-1. Veja os detalhes mostrados para o item (*T0100*) e a quantidade (*2* ea) que serão classificados na posição 2 (para a ordem de venda 2).
+1. Veja os detalhes mostrados para o item ( *T0100* ) e a quantidade ( *2* ea) que serão classificados na posição 2 (para a ordem de venda 2).
 1. Defina o campo **POSITION NA** como *2*.
 1. Selecione **OK** (símbolo de marca de seleção).
-1. Veja os detalhes mostrados para o item (*T0100*) e a quantidade (*2* ea) que serão classificados na posição 1 (para a ordem de venda 1).
+1. Veja os detalhes mostrados para o item ( *T0100* ) e a quantidade ( *2* ea) que serão classificados na posição 1 (para a ordem de venda 1).
 1. Defina o campo **POSITION NA** como *1*.
 1. Selecione **OK** (símbolo de marca de seleção).
 

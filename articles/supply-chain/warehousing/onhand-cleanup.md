@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: f6d1f8a4c85c2161d1b79246d437bb3b4d223d1d
-ms.sourcegitcommit: a3cd2783ae120ac6681431c010b9b126a9ca7d94
+ms.openlocfilehash: 9d01c577fc33564d3517d242e9b01f73cc8e079c
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410926"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015932"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Trabalho de limpeza de entradas disponíveis do gerenciamento de depósito
 
@@ -53,7 +54,7 @@ Os usuários poderão ser afetados se o trabalho de limpeza de entradas disponí
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>Disponibilizar a configuração de tempo de execução máximo
 
-Por padrão, a configuração **Tempo de execução máximo** não está disponível. Se quiser usá-la, você deverá usar o [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para ativar o recurso relacionado no sistema. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+Por padrão, a configuração **Tempo de execução máximo** não está disponível. Se quiser usá-la, você deverá usar o [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para ativar o recurso relacionado no sistema. No espaço de trabalho **Gerenciamento de recursos** , o recurso está listado da seguinte forma:
 
 - **Módulo:** *Gerenciamento de Depósito*
 - **Nome do recurso:** *tempo de execução máximo para o trabalho de limpeza de entradas disponíveis no gerenciamento de depósito*

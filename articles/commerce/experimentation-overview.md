@@ -3,7 +3,7 @@ title: Experimentação no Dynamics 365 Commerce
 description: A experimentação habilita a criação, a edição e o gerenciamento do layout de página e dos tratamentos de conteúdo no construtor de sites. O suporte de experimentação de ponta a ponta é habilitado para páginas e entidades de comércio eletrônico em uma página.
 author: sushma-rao
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,20 +18,20 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8b2e97167d12b8ceecf72af075ee0362101c4fa0
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: 85eb7a661cc66c42699797cca4fa6820941de7c0
+ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930143"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4097130"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Experimentação no Dynamics 365 Commerce
 Use a experimentação no Dynamics 365 Commerce para validar hipóteses sobre a efetividade das suas páginas de comércio eletrônico e tome decisões com a confiança controlada por dados. O Commerce oferece suporte a testes A/B em páginas, módulos e fragmentos e permite que você meça o impacto das alterações propostas no seu site.
 
-Você pode criar, editar e gerenciar tratamentos de conteúdo e de página, conhecidos como **variações** no construtor de sites. O Commerce é integrado a serviços de terceiros que você pode usar para criar experimentos e atribuições de tratamento. Os fluxos de eventos em tempo real capturados no Commerce habilitam a análise que define os resultados da experimentação no serviço de terceiros. Em seguida, você pode aproveitar essas análises para ajudar a dar suporte ou refutar sua hipótese.
+Você pode criar, editar e gerenciar tratamentos de conteúdo e de página, conhecidos como **variações** no construtor de sites do Commerce. O Commerce é integrado a serviços de terceiros que você pode usar para criar experimentos e atribuições de tratamento. Os fluxos de eventos em tempo real capturados no Commerce habilitam a análise que define os resultados da experimentação no serviço de terceiros. Em seguida, você pode aproveitar essas análises para ajudar a dar suporte ou refutar sua hipótese.
 
 ## <a name="set-up-prerequisites"></a>Pré-requisitos de configuração
-1. **Obter a versão correta do Commerce** - atualize sua biblioteca de módulos, o SDK de extensibilidade de canal online e a Commerce Scale Unit para o Commerce versão 10.0.13 ou posterior.
+1. **Obter a versão correta do Commerce** - atualize sua biblioteca de módulos, o SDK (kit de desenvolvimento de software) de extensibilidade de canal online e a Commerce Scale Unit para o Commerce versão 10.0.13 ou posterior.
 1. **Configurar um conector de experimentação** - um conector de experimentos permite que o Commerce conecte com serviços de terceiros para recuperar a lista de experimentos e determinar quando mostrar um experimento para um usuário. Você pode adquirir um conector de terceiros do [AppSource](https://appsource.microsoft.com). Siga as instruções de configuração fornecidas pelo editor. Como alternativa, você pode usar o conector de teste de exemplo do Commerce para testar o fluxo de trabalho de experimentação sem a necessidade de configurar um serviço externo. Para obter mais informações, consulte [Configurar e habilitar conectores](e-commerce-extensibility/connectors.md). 
 1. **Ativar sinalizadores do recurso de experimentação no Commerce** - é possível habilitar a experimentação no nível do locatário em **Configurações de Locatário > Recursos** ou no nível do site, em **Configurações do Site > Recursos**.
     - Habilite o sinalizador **Experimentação** para criar variações de experimentos de módulos em uma página sem afetar ou copiar outros conteúdos que não fazem parte do experimento. Isso garante que atualizações de conteúdo contínuas fora do experimento permaneçam sincronizadas durante o ciclo de vida de experimento. A desabilitação deste sinalizador impedirá que todos os experimentos sejam mostrados para os usuários e removerá todas as funções de edição no construtor de sites.
@@ -53,7 +53,7 @@ Para saber mais sobre cada etapa do processo de experimentação, consulte os t�
 - [Promover uma variação e concluir um experimento](experimentation-review-complete.md)
 
 > [!NOTE]
-> Para saber onde um experimento está no ciclo de vida, vá para a guia **Experimentos** no construtor de sites. Uma lista de experimentos é exibida com o status de cada experimento no Commerce e no serviço de terceiros. Para obter mais informações, consulte [Analisar o status de um experimento](experimentation-status.md).
+> Para saber onde um experimento está no ciclo de vida, selecione **Experimentos** no painel de navegação esquerdo do construtor de sites. Uma lista de experimentos é exibida com o status de cada experimento no Commerce e no serviço de terceiros. Para obter mais informações, consulte [Analisar o status de um experimento](experimentation-status.md).
 
 ## <a name="next-step"></a>Próxima etapa
 [Identificar uma hipótese e determinar as métricas de sucesso para um experimento](experimentation-identify.md) 

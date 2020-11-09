@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchVendorPortalRequests
+ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b263b7c4f44871f81e8dd753f702327893f00d86
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e451b419da59817ccf397fbb231a1cd112fd45ca
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207123"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018436"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Colaborar com fornecedores usando o Portal do fornecedor
 
@@ -38,7 +38,7 @@ O portal do fornecedor destina-se aos fornecedores que não têm a integração 
 O processo pode ser configurado de modo que uma confirmação do fornecedor confirme automaticamente a ordem. Nesse caso, o acompanhamento só será necessário ocasionalmente, quando uma ordem for rejeitada ou se a confirmação do fornecedor for registrada como uma resposta, mas o status da OC não for atualizado para **Confirmada** devido a um problema durante processo de confirmação.
 
 ## <a name="po-confirmation-and-rejection"></a>Confirmação e rejeição de OC
-As OCs são preparadas no Dynamics AX. Quando você tiver uma CO com um status **Aprovado**, o enviará para o fornecedor para gerar uma solicitação de confirmação. Para chamar a atenção do fornecedor para a nova OC, você também pode usar o sistema de gerenciamento de impressão para enviar a OC por email. A OC é exibida no portal do fornecedor e inclui uma opção que o fornecedor pode usar para confirmá-la ou rejeitá-la. O fornecedor também pode adicionar comentários para comunicar informações como as alterações na OC.  
+As OCs são preparadas no Dynamics AX. Quando você tiver uma CO com um status **Aprovado** , o enviará para o fornecedor para gerar uma solicitação de confirmação. Para chamar a atenção do fornecedor para a nova OC, você também pode usar o sistema de gerenciamento de impressão para enviar a OC por email. A OC é exibida no portal do fornecedor e inclui uma opção que o fornecedor pode usar para confirmá-la ou rejeitá-la. O fornecedor também pode adicionar comentários para comunicar informações como as alterações na OC.  
 
 No portal do fornecedor, o fornecedor pode ver as linhas da ordem. Essas linhas incluem informações como o número do produto externo, as dimensões, as informações sobre preços, a quantidade, a data de entrega e o endereço de entrega. O fornecedor pode gerar um relatório que mostre as informações da OC e o preço total. Os encargos relevantes para o fornecedor serão mostrados se o fornecedor clicar no botão **Encargos** no cabeçalho ou nas linhas. Os fornecedores podem importar as informações da OC para seu próprio sistema usando a funcionalidade **Exportar para Excel**.  
 
@@ -46,8 +46,8 @@ A tabela a seguir mostra a troca comum de informações, dependendo da forma com
 
 | Tipo de resposta                                                                                                  | Resultado                                                                                                                                                                                                                                                                                          |
 |-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| O fornecedor confirma a ordem. O sistema está configurado para confirmar automaticamente as OCs quando o fornecedor confirmar.    | O status da ordem é atualizado para **Confirmada**. Se algo impedir que a ordem seja atualizada, a resposta do fornecedor ainda será registrada como **Confirmada**, mas o status da OC permanecerá **Em Revisão Externa**.                                                                       |
-| O fornecedor confirma a ordem. O sistema não está configurado para confirmar automaticamente as OCs quando o fornecedor confirmar. | A resposta do fornecedor é registrada como **Confirmada**, mas o status da OC permanece **Em Revisão Externa**.                                                                                                                                                                                      |
+| O fornecedor confirma a ordem. O sistema está configurado para confirmar automaticamente as OCs quando o fornecedor confirmar.    | O status da ordem é atualizado para **Confirmada**. Se algo impedir que a ordem seja atualizada, a resposta do fornecedor ainda será registrada como **Confirmada** , mas o status da OC permanecerá **Em Revisão Externa**.                                                                       |
+| O fornecedor confirma a ordem. O sistema não está configurado para confirmar automaticamente as OCs quando o fornecedor confirmar. | A resposta do fornecedor é registrada como **Confirmada** , mas o status da OC permanece **Em Revisão Externa**.                                                                                                                                                                                      |
 | O fornecedor rejeita a ordem.                                                                                     | A resposta do fornecedor é registrada como **Rejeitada** e o status da OC permanece **Em Revisão Externa**. A rejeição foi recebida junto com o motivo e uma sugestão de alteração, como uma data de entrega alternativa. Você atualiza a OC e então envia uma nova versão para confirmação. |
 
 ## <a name="changes-to-a-po"></a>Alterações em uma OC
@@ -56,7 +56,7 @@ Quando você tiver de alterar a OC que já foi confirmada, poderá enviar uma no
 Quando você cancela uma OC, o status é alterado novamente para **Aprovada**. Você deve enviar a OC novamente ao fornecedor por meio do portal do fornecedor para que ele possa confirmar ou rejeitar o cancelamento. Depois que o cancelamento for confirmado, a OC aparecerá na lista de OCs confirmadas como **Cancelada**.
 
 ## <a name="versions-status-transitions-and-change-management"></a>Versões, transições de status e gerenciamento de alterações
-Quando uma OC é enviada ao fornecedor, ela é registrada no sistema como uma versão específica da OC e o status é alterado de **Aprovada** para **Em Revisão Externa**. Se a OC for alterada posteriormente, uma nova versão da OC será criada, e o status retornará a **Aprovada** (ou será alterado para **Rascunho**, se o gerenciamento de alterações estiver ativado).  
+Quando uma OC é enviada ao fornecedor, ela é registrada no sistema como uma versão específica da OC e o status é alterado de **Aprovada** para **Em Revisão Externa**. Se a OC for alterada posteriormente, uma nova versão da OC será criada, e o status retornará a **Aprovada** (ou será alterado para **Rascunho** , se o gerenciamento de alterações estiver ativado).  
 
 A tabela a seguir mostra um exemplo das alterações de status e versão pelas quais uma OC pode passar.
 
@@ -70,7 +70,7 @@ A tabela a seguir mostra um exemplo das alterações de status e versão pelas q
 
 Para ver as versões da OC que foram enviadas ao fornecedor e suas respostas, clique em **Diários** &gt; **Solicitações de confirmação** na OC.  
 
-As ordens que foram enviadas ao fornecedor para a obtenção de uma resposta e com o status **Em Revisão Externa** aparecerão na lista **Ordens de compra enviadas para o portal do fornecedor, aguardando resposta** ou na lista **Ordens de compra enviadas para o portal do fornecedor, resposta requer ação**. Quando você alterar uma ordem que foi enviada ao fornecedor, para que o status seja alterado novamente para **Aprovada**, ela não aparecerá mais nessas listas. Para ver se houve uma resposta para a ordem do fornecedor, clique em **Diários** &gt; **Solicitações de confirmação**.  
+As ordens que foram enviadas ao fornecedor para a obtenção de uma resposta e com o status **Em Revisão Externa** aparecerão na lista **Ordens de compra enviadas para o portal do fornecedor, aguardando resposta** ou na lista **Ordens de compra enviadas para o portal do fornecedor, resposta requer ação**. Quando você alterar uma ordem que foi enviada ao fornecedor, para que o status seja alterado novamente para **Aprovada** , ela não aparecerá mais nessas listas. Para ver se houve uma resposta para a ordem do fornecedor, clique em **Diários** &gt; **Solicitações de confirmação**.  
 
 Os fornecedores não precisam confirmar a OC no portal do fornecedor. Eles também podem enviar uma mensagem de email ou comunicar a aceitação de uma OC por meio de outro canais. É possível confirmar a ordem manualmente no Dynamics AX. Nesse caso, você receberá um aviso de que a ordem está sendo confirmada mesmo que não haja nenhuma resposta do fornecedor. A OC aparece no histórico de confirmação no portal do fornecedor como uma ordem confirmada aberta que não tem nenhuma resposta. Além disso, o fornecedor não terá mais a opção de confirmar ou rejeitar a OC.  
 

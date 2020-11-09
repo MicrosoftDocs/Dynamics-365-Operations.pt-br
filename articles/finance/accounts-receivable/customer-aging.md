@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 062e8972c879d770cc4106c2811cd4c16fff0446
-ms.sourcegitcommit: 25909c6ad3616e4f75a2fe006057dda18d7cc856
+ms.openlocfilehash: 5f3a1bba4596c7b645c20a790a6cbe8725ab665d
+ms.sourcegitcommit: e43aef72b7d65db1dcb014dfada5233ac051ba7c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3974852"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4013044"
 ---
 # <a name="customer-aging-report"></a>Relatório de classificação por vencimento de clientes 
 
@@ -115,8 +115,9 @@ Quando você gera o relatório, os seguintes parâmetros padrão serão exibidos
 <tr class="even">
 <td><p><strong>Direção de impressão</strong></p></td>
 <td><p>Selecione se deseja calcular saldos e imprimir o relatório de classificação por vencimento para períodos passados ou futuros. As datas são avaliadas em relação à data selecionada no campo <strong>Saldo como em</strong>. Selecione <strong>Recuar</strong> para mostrar informações sobre períodos passados. Selecione <strong>Avançar</strong> para mostrar informações para períodos futuros.</p>
-
-**Observação:** as informações que você digitar no campo serão usadas somente se você não tiver selecionado uma definição de período de classificação por vencimento.</P>
+<div class="alert">
+  
+<STRONG>Observação:</STRONG> as informações que você digitar no campo serão usadas somente se você não tiver selecionado uma definição de período de classificação por vencimento.</P>
 
 
 </div></td>

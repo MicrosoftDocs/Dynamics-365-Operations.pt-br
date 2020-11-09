@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchCreateOrder, InventDimParmFixed, InventItemIdLookupPurchase, InventProductDimensionLookup, PurchTotals
+ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, InventDimParmFixed, InventItemIdLookupPurchase, InventProductDimensionLookup, PurchTotals
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ed359521dd018047fdbd5312d0cb73d764de925
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: ec91174f291bcfa7027a93ca344823561cc29e3f
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383219"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018136"
 ---
 # <a name="create-a-purchase-order"></a>Criar uma ordem de compra
 
@@ -45,22 +45,22 @@ Este tópico mostra como criar uma ordem de compra manualmente. É mais comum pa
 ## <a name="add-a-purchase-order-line"></a>Adicionar uma linha de ordem de compra
 1. Selecione uma **Linha de ordem de compra**.
 2. Selecione **Dimensões**. Os produtos podem estar em grades que são diferenciadas por dimensões, como tamanho, cor ou estilo. O produto também pode ser configurado para usar dimensões de armazenamento, como o site e o depósito. Também existem dimensões de rastreamento opcionais, como os números de lote e de série. Para aumentar a eficiência de entrada de ordem, você pode adicionar os campos de dimensão que você geralmente usa diretamente na grade da ordem.  
-3. Marque a caixa de seleção **Cor**. Opcional: Se você selecionar o campo **Salvar configuração**, as dimensões escolhidas também serão mostradas na grade da linha da ordem na próxima vez que você abrir a página da ordem de compra.  
+3. Marque a caixa de seleção **Cor**. Opcional: Se você selecionar o campo **Salvar configuração** , as dimensões escolhidas também serão mostradas na grade da linha da ordem na próxima vez que você abrir a página da ordem de compra.  
 4. Selecione **OK**.
-5. No campo **Número de item**, selecione **T0004**.
+5. No campo **Número de item** , selecione **T0004**.
 
     - As linhas de ordem são criadas para produtos e serviços especificando um número de item ou como despesas, especificando uma categoria de aquisição. 
     - O campo da categoria **Compras** é usado para adicionar as linhas em que os itens adquiridos são fixos diretamente, em vez de ir ao estoque. Isso significa que se você precisar de despesas de uma compra você pode fazer isso criando uma linha da ordem de compra que especifica uma categoria de aquisição, em vez de criar uma linha com um número de item. Os itens também podem ser associados a uma categoria de aquisição e, nesse caso, a categoria de aquisição é mostrada como somente informativa.  
 
-6. No campo **Cor**, insira ou selecione um valor. Os campos **Site** e **Depósito** normalmente são preenchidos com valores do cabeçalho da ordem, mas é possível substituir os campos se algumas linhas precisarem ser emitidas em locais diferentes.  
-7. No campo **Quantidade.**, insira um número
+6. No campo **Cor** , insira ou selecione um valor. Os campos **Site** e **Depósito** normalmente são preenchidos com valores do cabeçalho da ordem, mas é possível substituir os campos se algumas linhas precisarem ser emitidas em locais diferentes.  
+7. No campo **Quantidade.** , insira um número
 
     - Selecione a quantidade que você deseja comprar. O campo **Quantidade** é preenchido automaticamente com a quantidade mínima de ordens para os produtos, se este for configurado, ou com o valor de 1.  
     - O campo **Unidade** indica a unidade de medida para a quantidade solicitada. Normalmente, a unidade é fornecida automaticamente da unidade de compra nos dados mestre do produto, mas você pode alterá-la.  
     - O campo **Preço unitário** normalmente contém um valor de um contrato de compra ou de um contrato comercial. É possível alterar o preço unitário das linhas da ordem individuais por exemplo, se um preço for exclusivamente negociado com o fornecedor.  
     - O campo **Desconto** representa um valor de desconto por unidade. Esse desconto reduz consequentemente o preço unitário por desconto. O desconto é fornecido geralmente automaticamente a partir dos contratos de compra ou de contratos comerciais, mas é possível substituir as linhas individuais se os descontos forem negociados de forma exclusiva ao fornecedor.  
     - Um percentual de desconto pode ser inserido para reduzir o valor líquido da linha de acordo. A porcentagem de desconto é fornecida geralmente automaticamente a partir dos contratos de compra ou de contratos comerciais, mas é possível substituir as linhas individuais se as porcentagens dos descontos forem negociados de forma exclusiva ao fornecedor.  
-    - O valor no campo **Valor líquido** é calculado dos outros campos da linha que inclui a quantidade, o preço unitário, o desconto e a porcentagem de desconto. É possível alterar o Valor líquido, mas então os campos **Preço Unitário**, **Desconto** e **Porcentagem de desconto** ficarão vazios e quando você postar na linha, o valor postado será proporcional ao valor líquido. Geralmente, o campo **Valor líquido** é apenas usado para exibir o valor líquido da linha.  
+    - O valor no campo **Valor líquido** é calculado dos outros campos da linha que inclui a quantidade, o preço unitário, o desconto e a porcentagem de desconto. É possível alterar o Valor líquido, mas então os campos **Preço Unitário** , **Desconto** e **Porcentagem de desconto** ficarão vazios e quando você postar na linha, o valor postado será proporcional ao valor líquido. Geralmente, o campo **Valor líquido** é apenas usado para exibir o valor líquido da linha.  
 
 8. Expanda a seção **Detalhes da linha**.
 9. Selecione a guia **Entrega**. Uma data de entrega exclusiva pode ser atribuída a cada linha da ordem. A data é herdada do campo no cabeçalho da ordem de compra, mas você pode alterá-lo.  
@@ -68,7 +68,7 @@ Este tópico mostra como criar uma ordem de compra manualmente. É mais comum pa
 ## <a name="review-order-totals"></a>Rever totais da ordem
 1. Selecione **Totais**.
 
-    - Caso não veja a ação **Totais**, selecione a guia **Ordem de Compra** no Painel de Ações.  
+    - Caso não veja a ação **Totais** , selecione a guia **Ordem de Compra** no Painel de Ações.  
     - Esta caixa de diálogo mostra os totais da ordem inteira.  
     - O campo **Seleção** permite que você altere a base de como os totais são calculados. Por exemplo, você pode escolher a **Quantidade de recebimento de produtos** para mostrar os totais relacionados à quantidade de produtos que foram recebidos, ou a **Quantidade encomendada** para mostrar o valor dos produtos que foram encomendados.  
 

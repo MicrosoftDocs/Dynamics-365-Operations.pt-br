@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0848b7556100fba38fcab0aa2a1a109e2e055fc9
-ms.sourcegitcommit: b89baab13e530b5b1f079231619c628309a4742d
+ms.openlocfilehash: 0d6f79ea569a7a9b0d25e73e8666bf9ba19095d0
+ms.sourcegitcommit: a8665c47696028d371cdc4671db1fd8fcf9e1088
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3959566"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "4058145"
 ---
 # <a name="configure-common-data-service-virtual-entities"></a>Configurar entidades virtuais do Common Data Service
 
@@ -62,7 +62,7 @@ Primeiro, você precisa registrar o aplicativo no portal do Azure para que a pla
 
 3. Selecione **Novo registro**.
 
-4. No campo **Nome**, insira um nome descritivo para o aplicativo. Por exemplo, **Entidades virtuais do Dynamics 365 Human Resources**.
+4. No campo **Nome** , insira um nome descritivo para o aplicativo. Por exemplo, **Entidades virtuais do Dynamics 365 Human Resources**.
 
 5. No campo **URI de Redirecionamento** , insira a URL do namespace da sua instância do Human Resources.
 
@@ -87,7 +87,7 @@ Instale o aplicativo Dynamics 365 HR Virtual Entity no seu ambiente do Power App
 
 1. Abra o [centro de administração do Power Platform](https://admin.powerplatform.microsoft.com).
 
-2. Na lista **Ambientes**, selecione o ambiente do Power Apps associado à sua instância do Human Resources.
+2. Na lista **Ambientes** , selecione o ambiente do Power Apps associado à sua instância do Human Resources.
 
 3. Na seção **Recursos** da página, selecione **Aplicativos do Dynamics 365**.
 
@@ -109,13 +109,13 @@ A próxima etapa é configurar a fonte de dados de entidade virtual no ambiente 
 
 1. Abra o [centro de administração do Power Platform](https://admin.powerplatform.microsoft.com).
 
-2. Na lista **Ambientes**, selecione o ambiente do Power Apps associado à sua instância do Human Resources.
+2. Na lista **Ambientes** , selecione o ambiente do Power Apps associado à sua instância do Human Resources.
 
 3. Selecione a **URL de Ambiente** na seção **Detalhes** da página.
 
 4. No **Hub de Integridade da Solução** , selecione o ícone **Localização Avançada** no canto superior direito da página do aplicativo.
 
-5. Na página **Localização Avançada**, na lista suspensa **Procurar**, selecione **Configurações de Fonte de Dados Virtual do Finance and Operations**.
+5. Na página **Localização Avançada** , na lista suspensa **Procurar** , selecione **Configurações de Fonte de Dados Virtual do Finance and Operations**.
 
 6. Selecione **Resultados**.
 
@@ -123,10 +123,10 @@ A próxima etapa é configurar a fonte de dados de entidade virtual no ambiente 
 
 8. Insira as informações necessárias para a configuração da fonte de dados.
 
-   - **URL de Destino**: a URL do namespace do Human Resources.
-   - **ID do Locatário**: a ID do locatário do Azure Active Directory (Azure AD).
-   - **ID do Aplicativo AAD**: a ID do aplicativo (cliente) criada para o aplicativo registrado no portal do Microsoft Azure. Você recebeu essas informações antes durante a etapa [Registrar o aplicativo no Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
-   - **Segredo do Aplicativo AAD**: o segredo do cliente criado para o aplicativo registrado no portal do Microsoft Azure. Você recebeu essas informações antes durante a etapa [Registrar o aplicativo no Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
+   - **URL de Destino** : a URL do namespace do Human Resources.
+   - **ID do Locatário** : a ID do locatário do Azure Active Directory (Azure AD).
+   - **ID do Aplicativo AAD** : a ID do aplicativo (cliente) criada para o aplicativo registrado no portal do Microsoft Azure. Você recebeu essas informações antes durante a etapa [Registrar o aplicativo no Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
+   - **Segredo do Aplicativo AAD** : o segredo do cliente criado para o aplicativo registrado no portal do Microsoft Azure. Você recebeu essas informações antes durante a etapa [Registrar o aplicativo no Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
 
 9. Selecione **Salvar e Fechar**.
 
@@ -143,45 +143,46 @@ Conceda permissões para os dois aplicativos do Azure AD no Human Resources:
 
 2. Selecione **Novo** para criar um novo registro de aplicativo:
 
-    - No campo **ID do Cliente**, insira a ID do cliente do aplicativo registrado no portal do Microsoft Azure.
-    - No campo **Nome**, insira o nome do aplicativo registrado no portal do Microsoft Azure.
-    - No campo **ID do Usuário**, selecione a ID de usuário com permissões de administrador no Human Resources e no ambiente do Power Apps.
+    - No campo **ID do Cliente** , insira a ID do cliente do aplicativo registrado no portal do Microsoft Azure.
+    - No campo **Nome** , insira o nome do aplicativo registrado no portal do Microsoft Azure.
+    - No campo **ID do Usuário** , selecione a ID de usuário com permissões de administrador no Human Resources e no ambiente do Power Apps.
 
 3. Selecione **Novo** para criar um segundo registro de aplicativo:
 
-    - **ID do Cliente**: f9be0c49-aa22-4ec6-911a-c5da515226ff
-    - **Nome**: Dynamics 365 HR Virtual Entity
-    - No campo **ID do Usuário**, selecione a ID de usuário com permissões de administrador no Human Resources e no ambiente do Power Apps.
+    - **ID do Cliente** : f9be0c49-aa22-4ec6-911a-c5da515226ff
+    - **Nome** : Dynamics 365 HR Virtual Entity
+    - No campo **ID do Usuário** , selecione a ID de usuário com permissões de administrador no Human Resources e no ambiente do Power Apps.
 
 ## <a name="generate-virtual-entities"></a>Gerar entidades virtuais
 
 Quando a configuração for concluída, você poderá selecionar as entidades virtuais que deseja gerar e habilitar na instância do Common Data Service.
 
-1. Abra o [centro de administração do Power Platform](https://admin.powerplatform.microsoft.com).
+1. No Human Resources, abra a página **Integração do Common Data Service (CDS)**.
 
-2. Na lista **Ambientes**, selecione o ambiente do Power Apps associado à sua instância do Human Resources.
-
-3. Selecione a **URL de Ambiente** na seção **Detalhes** da página.
-
-4. No **Hub de Integridade da Solução** , selecione o ícone **Localização Avançada** no canto superior direito da página.
-
-5. Na página **Localização Avançada**, na lista suspensa **Procurar**, selecione **Entidades do HR Disponíveis**.
-
-6. Use as opções de filtro para localizar a entidade ou entidades que deseja habilitar.
-
-7. Selecione uma entidade na lista.
-
-8. Na página da entidade, altere a propriedade **Foi Gerada** para **Sim** para a entidade.
-
-9. Salve e feche a página da entidade.
+2. Selecione a guia **Entidades virtuais**.
 
 > [!NOTE]
-> Você pode gerar várias entidades virtuais de uma só vez usando a página **Alterar Vários Registros**. Selecione vários registros na página e selecione **Editar** na faixa de opções. Em seguida, você poderá alterar a propriedade **Foi Gerada** para todos os registros selecionados.
+> A alternância **Habilitar a entidade virtual** será definida como **Sim** automaticamente quando todas as configurações necessárias forem concluídas. Se a alternância estiver definida como **Não** , revise as etapas nas seções anteriores deste documento para verificar se toda a configuração de pré-requisitos foi concluída.
 
-![Entidades do HR Disponíveis](./media/hr-admin-integration-virtual-entities-available.jpg)
+3. Selecione a entidade ou entidades que deseja gerar no Common Data Service.
 
-> [!NOTE]
-> Para simplificar o processo de geração de entidades virtuais em versões futuras, o processo ocorrerá em uma página no Human Resources.
+4. Selecione **Gerar/atualizar**.
+
+![Integração do Common Data Service](./media/hr-admin-integration-common-data-service-integration.jpg)
+
+## <a name="check-entity-generation-status"></a>Verificar status de geração de entidade
+
+As entidades virtuais são geradas no Common Data Service por meio de um processo assíncrono em segundo plano. Atualizações na exibição do processo na central de ações. Os detalhes sobre o processo, incluindo logs de erros, são exibidos na página **Automações de processo**.
+
+1. No Human Resources, abra a página **Automações de processo**.
+
+2. Selecione a guia **Processos em segundo plano**.
+
+3. Selecione o **Processo em segundo plano de operação assíncrona de pesquisa de entidades virtuais**.
+
+4. Selecione **Exibir resultados mais recentes**.
+
+O painel deslizante exibe os resultados da execução mais recente para o processo. Você pode exibir o log do processo, incluindo todos os erros retornados do Common Data Service.
 
 ## <a name="see-also"></a>Consulte também
 
