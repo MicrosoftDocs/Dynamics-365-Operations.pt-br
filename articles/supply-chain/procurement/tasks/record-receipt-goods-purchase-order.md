@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines
+ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1aa4043aca2e53eae32256a98d556c25b4ec1957
-ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
+ms.openlocfilehash: bd8ca2cbd24f326c4eaf9cd39e32de0eca81149d
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454778"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018597"
 ---
 # <a name="record-the-receipt-of-goods-on-the-purchase-order"></a>Registrar o recebimento de mercadorias na ordem de compra
 
@@ -33,10 +33,10 @@ Este tópico explica como registrar o recebimento de mercadorias diretamente em 
 ## <a name="prepare-a-new-purchase-order-for-receipt-of-goods"></a>Registrar o recebimento de mercadorias para uma linha da ordem de compra
 1. Vá para **Painel de navegação > Módulos > Compras e fornecimento > Ordens de compra > Todas as ordens de compra**.
 2. Selecione **Novo**.
-3. No campo **Conta de fornecedor**, insira `US-101`.
+3. No campo **Conta de fornecedor** , insira `US-101`.
 4. Selecione **OK**.
-5. No campo **Número do item**, insira `M0001`.
-6. No campo **Quantidade**, insira `5`.
+5. No campo **Número do item** , insira `M0001`.
+6. No campo **Quantidade** , insira `5`.
 7. No Painel de Ação, selecione **Compra**.
 8. Selecione **Confirmar**.
 
@@ -44,7 +44,7 @@ Este tópico explica como registrar o recebimento de mercadorias diretamente em 
 1. No Painel de Ação, selecione **Receber**.
 2. Selecione **Recebimento de produtos**. O campo **Quantidade** permite que você selecione opções diferentes para a quantidade que você quer receber. Por exemplo, se uma quantidade tiver sido registrada previamente no armazém, você poderá selecionar **Quantidade registrada**. Neste exemplo, use o valor **Quantidade solicitada**.
 3. Expanda a seção **Visão geral**.
-4. No campo **Recebimento de produtos**, digite qualquer valor. Este campo é usado para inserir uma referência que seja usada como comprovante do diário de recebimentos de produtos.  
+4. No campo **Recebimento de produtos** , digite qualquer valor. Este campo é usado para inserir uma referência que seja usada como comprovante do diário de recebimentos de produtos.  
 5. Expanda a seção **Linhas**.
 6. Defina **Quantidade** como '4'. Aqui você pode especificar manualmente a quantidade que está sendo recebida para cada linha na ordem.  
 7. Selecione **OK**. As mercadorias foram agora registradas como recebidas na ordem de compra, e um diário de recebimentos de produtos foi criado como documento para refletir isto. Você pode usar a ação de Recebimento de produtos para revisar os diários criados com a ordem de compra e ver o que foi recebido, e quando.  

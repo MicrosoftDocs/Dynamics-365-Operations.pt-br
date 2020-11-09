@@ -180,9 +180,9 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Planejamento de ambiente
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Preparar para a ativação
+                - name: Preparar para o Go Live
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ​Perguntas frequentes sobre ativação​
+                - name: ​Perguntas frequentes sobre o Go Live​
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Enviar uma solicitação de serviço
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/supply-chain/toc.json
@@ -1735,6 +1735,8 @@
                   href: procurement/purchase-agreements.md
                 - name: Criar um contrato de compra
                   href: procurement/tasks/create-purchase-agreement.md
+                - name: Alocação automática de encargos
+                  href: procurement/automatic-charges-allocation.md
                 - name: Reembolsos de fornecedor
                   href: procurement/vendor-rebates.md
                 - name: 'Solucionar problemas de preços, descontos, contratos e reembolsos'
@@ -2041,7 +2043,15 @@
                       href: production-control/release-production-orders.md
                     - name: Relatar ordens de produção como concluídas
                       href: production-control/report-production-orders-as-finished.md
-                    - name: Configurar o cartão de trabalho para dispositivos
+                    - name: Configurar e usar a interface de execução de piso de produção
+                      items:
+                        - name: Configurar a interface de execução de piso de produção
+                          href: production-control/production-floor-execution-configure.md
+                        - name: Configurar um dispositivo para executar a interface de execução de piso de produção
+                          href: production-control/production-floor-execution-setup.md
+                        - name: Como os trabalhadores usam a interface de execução de piso de produção
+                          href: production-control/production-floor-execution-use.md
+                    - name: Configurar a ficha de trabalho para dispositivos
                       href: production-control/config-job-card-device.md
                     - name: Relatar como concluído no dispositivo de ficha de trabalho
                       href: production-control/report-finished-job-device.md
@@ -2275,6 +2285,8 @@
                   href: sales-marketing/tasks/ship-orders-direct-deliveries.md
                 - name: Enviar ordens de venda sem armazenamento
                   href: sales-marketing/tasks/ship-sales-orders-without-warehousing.md
+                - name: Alocação automática de encargos
+                  href: procurement/automatic-charges-allocation.md
                 - name: Criar uma ordem de compra de uma ordem de venda
                   href: sales-marketing/tasks/create-purchase-order-sales-order.md
                 - name: Criar ordens de venda
@@ -2663,8 +2675,6 @@
                       href: warehousing/tasks/license-plate-label-printing.md
                     - name: Criar ordens de transferência do aplicativo de depósito
                       href: warehousing/create-transfer-order-from-warehouse-app.md
-                    - name: Processamento de eventos do aplicativo de depósito
-                      href: warehousing/warehouse-app-events.md
                     - name: Confirmação de separação de peças
                       href: warehousing/piece-picking-confirmation.md
                     - name: Materiais e taxas de embalagem
@@ -2843,6 +2853,8 @@
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Configurar dispositivos móveis para trabalho de depósito
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Processamento de eventos do aplicativo de depósito
+                      href: warehousing/warehouse-app-events.md
                     - name: Recebimento da placa de licença com o aplicativo de depósito
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Configurar um item de menu de dispositivo móvel para concluir trabalhos em uma ordem de compra

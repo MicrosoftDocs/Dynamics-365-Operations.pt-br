@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,18 +18,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: ed8f0351d1e16cceb6c9749f434a8980ef2be29d
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: 3c564d580d2743d8a80cdf5667b1f95e00736d60
+ms.sourcegitcommit: afc43699c0edc4ff2be310cb37add2ab586b64c0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835845"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4000755"
 ---
 # <a name="unified-product-experience"></a>Experiência unificada de produto
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 Quando um ecossistema comercial é formado por aplicativos do Dynamics 365, como Finance, Supply Chain Management e Sales, muitas vezes as empresas usam esses aplicativos para obter dados do produto. Isso ocorre porque esses aplicativos fornecem uma infraestrutura de produto robusta, complementada por conceitos sofisticados de preços e dados de estoque disponível precisos. As empresas que usam um sistema externo de gerenciamento do ciclo de vida do produto (PLM) para obter dados do produto podem canalizar produtos de aplicativos do Finance and Operations para outros aplicativos do Dynamics 365. A experiência unificada de produto leva o modelo de dados do produto integrado para o Common Data Service, para que todos os usuários do aplicativo, inclusive usuários do Power Platform, possam aproveitar os valiosos dados do produto obtidos de aplicativos do Finance and Operations.
 
@@ -109,7 +106,7 @@ Observe que a sincronização de produtos ocorre de aplicativos do Finance and O
 
 As dimensões do produto são características que identificam uma grade de produto. As quatro dimensões do produto (Cor, Tamanho, Estilo e Configuração) também são mapeadas para o Common Data Service para definir as grades de produtos. A ilustração a seguir mostra o modelo de dados para a dimensão do produto Cor. O mesmo modelo é aplicado a Tamanhos, Estilos e Configurações. 
 
-![Modelo de dados de produtos](media/dual-write-product-two.png)
+![Modelo de dados para dimensões de produto](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -145,7 +142,7 @@ As configurações de ordem padrão definem o local e o depósito de onde os ite
 
 As unidades de medida e sua respectiva conversão estão disponíveis no Common Data Service após o modelo de dados exibido no diagrama.
 
-![Modelo de dados de produtos](media/dual-write-product-three.png)
+![Modelo de dados para unidade de medida](media/dual-write-product-three.png)
 
 O conceito de unidade de medida é integrado entre os aplicativos do Finance and Operations e outros aplicativos do Dynamics 365. Para cada classe de unidade em um aplicativo do Finance and Operations, é criado um grupo de unidades em um aplicativo do Dynamics 365, que contém as unidades que pertencem à classe de unidade. Uma unidade base padrão também é criada para cada grupo de unidades. 
 
@@ -203,9 +200,9 @@ As políticas de produtos são conjuntos de políticas usados para definir produ
 
 Para identificar com exclusividade produtos entre o Dynamics 365 for Finance and Operations e produtos no Common Data Service, são utilizadas chaves de integração. Para produtos, **(productnumber)** é a chave exclusiva que identifica um produto no Common Data Service. Ela é composta pela concatenação de: **(empresa, msdyn_productnumber)**. A **empresa** indica a entidade legal no Finance and Operations e **msdyn_productnumber** indica o número do produto no caso do produto específico no Finance and Operations. 
 
-Para usuários de outros aplicativos do Dynamics 365, o produto é identificado na interface de usuário com **msdyn_productnumber** (o rótulo do campo é **Número do produto**). No formulário do produto são mostrados tanto a empresa quanto msydn_productnumber. Entretanto, o campo (productnumber), a chave exclusiva de um produto, não é exibido. 
+Para usuários de outros aplicativos do Dynamics 365, o produto é identificado na interface de usuário com **msdyn_productnumber** (o rótulo do campo é **Número do produto** ). No formulário do produto são mostrados tanto a empresa quanto msydn_productnumber. Entretanto, o campo (productnumber), a chave exclusiva de um produto, não é exibido. 
 
-Se você criar aplicativos em Common Data Service, deverá prestar atenção ao uso do **productnumber** (a ID do produto exclusiva) como a chave de integração. Não use **msdyn_productnumber**, pois ela não é exclusiva. 
+Se você criar aplicativos em Common Data Service, deverá prestar atenção ao uso do **productnumber** (a ID do produto exclusiva) como a chave de integração. Não use **msdyn_productnumber** , pois ela não é exclusiva. 
 
 ## <a name="initial-synchronization-of-products-and-migration-of-data-from-common-data-service-to-finance-and-operations"></a>Sincronização inicial de produtos e migração de dados do Common Data Service para o Finance and Operations
 

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 53df00de82b101aa02160d865a9c3bbebcfcae15
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 07d6bd0bab796d7839daa2bad91f7e88c2e881b5
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275455"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997909"
 ---
 # <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>Solucionar problemas relacionados a atualizações de aplicativos do Finance and Operations
 
@@ -55,9 +54,9 @@ Para corrigir o problema, siga estas etapas.
 2. Abra Visual Studio como um administrador e abra a AOT (árvore de objetos de aplicativo).
 3. Procure **DualWriteProjectConfiguration**.
 4. No AOT, clique com o botão direito em **DualWriteProjectConfiguration** e selecione **Adicionar ao novo projeto**. Selecione **OK** para criar o novo projeto que usa opções padrão.
-5. No Gerenciador de Soluções, clique com o botão direito em **Propriedades de projeto** e defina**Sincronizar banco de dados no Build** como **Verdadeiro**.
+5. No Gerenciador de Soluções, clique com o botão direito em **Propriedades de projeto** e defina **Sincronizar banco de dados no Build** como **Verdadeiro**.
 6. Compile o projeto e confirme se a compilação foi bem-sucedida.
-7. No menu **Dynamics 365**, selecione **Sincronizar banco de dados**.
+7. No menu **Dynamics 365** , selecione **Sincronizar banco de dados**.
 8. Selecione **Sincronizar** para fazer uma sincronização de banco de dados completa.
 9. Depois que a sincronização completa do banco de dados for bem-sucedida, execute novamente a etapa de sincronização do banco de dados em Microsoft Dynamics Lifecycle Services (LCS) e use os scripts de atualização manual conforme aplicável, para que você possa continuar com a atualização.
 
@@ -65,17 +64,17 @@ Para corrigir o problema, siga estas etapas.
 
 **Função necessária para corrigir o problema:** administrador do sistema
 
-Na página **Gravação dupla**, você pode receber uma mensagem de erro parecida com o seguinte exemplo:
+Na página **Gravação dupla** , você pode receber uma mensagem de erro parecida com o seguinte exemplo:
 
-Nome do campo *Origem ausente \<\> no esquema.*
+*Nome do campo de origem \<field name\> ausente no esquema.*
 
 ![Exemplo da mensagem de erro de campo de origem ausente](media/error_missing_field.png)
 
 Para corrigir o problema, primeiro siga estas etapas para verificar se os campos estão na entidade.
 
 1. Faça login na VM para o aplicativo Finance and Operations.
-2. Acesse **Espaços de trabalho \> Gerenciamento de dados**, selecione o bloco **Parâmetros de estrutura** e, em seguida, na guia **Configurações da entidade**, selecione **Atualizar lista de entidade** para atualizar as entidades.
-3. Vá para **Espaços de trabalho \> Gerenciamento de dados**, selecione a guia **Entidades de dados** e certifique-se de que a entidade está listada. Se a entidade não estiver listada, faça login na VM para o aplicativo Finance and Operations e certifique-se de que a entidade está disponível.
+2. Acesse **Espaços de trabalho \> Gerenciamento de dados** , selecione o bloco **Parâmetros de estrutura** e, em seguida, na guia **Configurações da entidade** , selecione **Atualizar lista de entidade** para atualizar as entidades.
+3. Vá para **Espaços de trabalho \> Gerenciamento de dados** , selecione a guia **Entidades de dados** e certifique-se de que a entidade está listada. Se a entidade não estiver listada, faça login na VM para o aplicativo Finance and Operations e certifique-se de que a entidade está disponível.
 4. Abra a página **Mapeamento da entidade** na página **Gravação dupla** no aplicativo Finance and Operations.
 5. Selecione **Atualizar lista de entidades** para preencher automaticamente os campos nos mapeamentos de entidade.
 
@@ -86,7 +85,7 @@ Se o problema ainda não for solucionado, siga estas etapas.
 
 1. No aplicativo Finance and Operations, vá para **Espaços de trabalho \> Gerenciamento de dados** e selecione o bloco **Entidades de dados**.
 2. Encontre a entidade que está sem o atributo. Clique em **Modificar mapeamento de destino** na barra de ferramentas.
-3. No painel **Mapear preparo para destino**, clique em **gerar mapeamento**.
+3. No painel **Mapear preparo para destino** , clique em **gerar mapeamento**.
 4. Abra a página **Mapeamento da entidade** na página **Gravação dupla** no aplicativo Finance and Operations.
 5. Se o atributo não estiver preenchido automaticamente no mapa, adicione-o manualmente, clicando no botão **Adicionar atributo** e clicando em **Salvar**. 
 6. Selecione o mapa e clique em **Executar**.

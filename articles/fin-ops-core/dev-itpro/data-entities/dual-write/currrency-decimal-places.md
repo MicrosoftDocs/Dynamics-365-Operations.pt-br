@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 889337560f073708fb16b2dc173f9872593dd570
-ms.sourcegitcommit: be4fcf8f19c55e852a729b215a16e24e971ff5b7
+ms.openlocfilehash: 7e1f70d95f29dc154044f09c6020300a8e4f8987
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456805"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997469"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migração de tipo de dados de moeda para gravação dupla
 
@@ -81,13 +80,13 @@ Estas são algumas limitações:
 
 ### <a name="system-settings-currency-precision-for-pricing"></a>Configurações do Sistema: Precisão da moeda para precificação
 
-Após a conclusão da migração, os administradores podem definir a precisão da moeda. Vá para **Configurações \> Administração** e selecione **Configurações do Sistema**. Em seguida, na guia **Geral**, altere o valor do campo **Defina o número de decimais da moeda que será usada para precificação em todo o sistema**, conforme mostrado na ilustração a seguir.
+Após a conclusão da migração, os administradores podem definir a precisão da moeda. Vá para **Configurações \> Administração** e selecione **Configurações do Sistema**. Em seguida, na guia **Geral** , altere o valor do campo **Defina o número de decimais da moeda que será usada para precificação em todo o sistema** , conforme mostrado na ilustração a seguir.
 
 ![Configurações do sistema para moeda](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>Gerenciamento de Negócios: Moedas
 
-Se quiser que a precisão de uma moeda específica seja diferente da precisão da moeda usada para os preços, é possível alterá-la. Vá para **Configurações \> Gerenciamento de Negócios**, selecione **Moedas** e selecione a moeda a ser alterada. Em seguida, defina o campo **Precisão da Moeda** com o número de casas decimais que deseja, conforme mostrado na ilustração a seguir.
+Se quiser que a precisão de uma moeda específica seja diferente da precisão da moeda usada para os preços, é possível alterá-la. Vá para **Configurações \> Gerenciamento de Negócios** , selecione **Moedas** e selecione a moeda a ser alterada. Em seguida, defina o campo **Precisão da Moeda** com o número de casas decimais que deseja, conforme mostrado na ilustração a seguir.
 
 ![Configurações de moeda para uma localidade específica](media/specific-currency.png)
 

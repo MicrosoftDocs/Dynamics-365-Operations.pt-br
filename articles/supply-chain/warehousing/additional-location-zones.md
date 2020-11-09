@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSLocationBuild
+ms.search.form: WHSLocationBuild, WHSZone
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Supply Chain Management
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: c0bed8c95760b3dee350048c5f824f974b784f26
-ms.sourcegitcommit: 7b7cc93c0f78c6bfc7a3ea66a74a29ba0f218553
+ms.openlocfilehash: 6cf81939989b8faffcda51bbbd5bc6b27aec7eea
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3658325"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016288"
 ---
 # <a name="additional-location-zones"></a>Zonas de localização adicionais
 
@@ -35,7 +35,7 @@ Nenhuma configuração adicional é necessária para usar os campos de zona.
 
 ## <a name="turn-on-the-additional-location-zone-feature"></a>Ativar o recurso Zona de localização adicional
 
-Para que você possa usar o recurso *Zona de localização adicional*, ele deve estar ativado no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+Para que você possa usar o recurso *Zona de localização adicional* , ele deve estar ativado no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos** , o recurso está listado da seguinte forma:
 
 - **Módulo:** *Gerenciamento de Depósito*
 - **Nome do recurso:** *Zona de localização adicional*
@@ -45,16 +45,16 @@ Para que você possa usar o recurso *Zona de localização adicional*, ele deve 
 1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Assistente de configuração de localização**.
 2. Defina os seguintes valores:
 
-    - No campo **Depósito**, selecione _62_.
-    - No campo **ID da zona**, selecione _CHÃO_.
-    - No campo **Zona Adicional 1**, selecione _PICKZONE1_.
-    - No campo **Zona Adicional 2**, selecione _WEBSHOP1_.
-    - No campo **ID do perfil de localização**, selecione _FLOOR_.
+    - No campo **Depósito** , selecione _62_.
+    - No campo **ID da zona** , selecione _CHÃO_.
+    - No campo **Zona Adicional 1** , selecione _PICKZONE1_.
+    - No campo **Zona Adicional 2** , selecione _WEBSHOP1_.
+    - No campo **ID do perfil de localização** , selecione _FLOOR_.
 
 3. Selecione a linha **Chão**.
-4. No campo **Número inicial**, insira _1_. No campo **Número final**, insira _3_.
+4. No campo **Número inicial** , insira _1_. No campo **Número final** , insira _3_.
 5. Selecione a linha **Corredor**.
-6. No campo **Número inicial**, insira _1_. No campo **Número final**, insira _5_.
+6. No campo **Número inicial** , insira _1_. No campo **Número final** , insira _5_.
 7. Selecione **Criar**.
 8. Você recebe mensagens indicando que novas localizações foram adicionadas. Selecione o botão **Mostrar mensagens** para exibir as mensagens.
 9. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Localizações**. As novas localizações serão exibidas na lista, e todos os campos de zona estarão disponíveis (ou seja, o campo de zona existente e os novos campos de zona adicionais).

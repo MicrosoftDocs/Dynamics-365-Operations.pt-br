@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 8d531ed4e46d8ee5d2b0937b6efc480e051fe708
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 5c4cc92fd7809f4016d8421c98f41a85fcfedc7b
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173099"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997638"
 ---
 # <a name="integrated-vendor-master"></a>Fornecedor mestre integrado
 
@@ -42,7 +41,7 @@ Se não desejar armazenar dados do fornecedor na entidade **Conta/Contato** no C
 
 ![Fluxo de dados do fornecedor](media/dual-write-vendor-data-flow.png)
 
-Se você quiser continuar armazenando dados do fornecedor na entidade **Conta/Contato**, poderá usar o design de fornecedor estendido. Para usar o design de fornecedor estendido, você deverá configurar os fluxos de trabalho do fornecedor no pacote da solução de gravação dupla. Para obter mais informações, consulte [Alternar entre designs de fornecedor](vendor-switch.md).
+Se você quiser continuar armazenando dados do fornecedor na entidade **Conta/Contato** , poderá usar o design de fornecedor estendido. Para usar o design de fornecedor estendido, você deverá configurar os fluxos de trabalho do fornecedor no pacote da solução de gravação dupla. Para obter mais informações, consulte [Alternar entre designs de fornecedor](vendor-switch.md).
 
 ![Fluxo de dados estendidos do fornecedor](media/dual-write-vendor-detail.jpg)
 

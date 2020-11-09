@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-14.md
                     - name: Commerce 10.0.13 (outubro de 2020)
                       href: get-started/whats-new-commerce-10-0-13.md
-                    - name: Commerce 10.0.12 (agosto de 2020)
-                      href: get-started/whats-new-commerce-10-0-12.md
                 - name: Recursos removidos ou obsoletos
                   items:
                     - name: Recursos removidos ou obsoletos do Finance and Operations
@@ -262,9 +260,9 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/commerce/toc.json
                 - name: Planejamento de ambiente
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/commerce/toc.json
-                - name: Preparar para a ativação
+                - name: Preparar para o Go Live
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/commerce/toc.json
-                - name: ​Perguntas frequentes sobre ativação​
+                - name: ​Perguntas frequentes sobre o Go Live​
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/commerce/toc.json
                 - name: Enviar uma solicitação de serviço
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json
@@ -1040,6 +1038,8 @@
                       href: add-breadcrumb.md
                     - name: Módulos de menu de navegação
                       href: nav-menu-module.md
+                    - name: Módulo de seletor de site
+                      href: site-selector.md
                 - name: Módulos de conformidade
                   items:
                     - name: Módulo de consentimento de cookie
@@ -1986,9 +1986,11 @@
                       href: e-commerce-extensibility/cli-command-reference.md
                 - name: Anatomia de um módulo
                   items:
+                    - name: Visão geral de módulos
+                      href: e-commerce-extensibility/modules-overview.md
                     - name: Arquivo de definição do módulo
                       href: e-commerce-extensibility/module-definition-file.md
-                    - name: Arquivo do componente módulo React
+                    - name: Arquivo do componente React do módulo
                       href: e-commerce-extensibility/module-react-file.md
                     - name: Arquivo de exibição do módulo
                       href: e-commerce-extensibility/module-view-file.md
@@ -2030,17 +2032,23 @@
                       href: e-commerce-extensibility/app-settings.md
                     - name: Estender uma definição de módulo
                       href: e-commerce-extensibility/extend-module-definition.md
-                    - name: Visão geral da API de Cookies
+                    - name: Visão geral da API de cookies
                       href: e-commerce-extensibility/cookie-api-overview.md
                     - name: Visão geral de componentes interativos
                       href: e-commerce-extensibility/interactive-components.md
+                    - name: Simulação do estado conectado durante o desenvolvimento local
+                      href: e-commerce-extensibility/mock-sign-in.md
                     - name: Globalizar módulos usando a classe CultureInfoFormatter
                       href: e-commerce-extensibility/globalize-modules.md
+                    - name: Configurar o Azure Key Vault para o gerenciamento seguro de chaves
+                      href: e-commerce-extensibility/set-up-key-vault.md
                 - name: Desenvolver ações de dados
                   items:
                     - name: Visão geral de ações de dados
                       href: e-commerce-extensibility/data-actions.md
-                    - name: Testar ações dos dados com fictícios
+                    - name: Opções de cache de ação de dados
+                      href: e-commerce-extensibility/data-action-cache.md
+                    - name: Testar ações de dados com simulações
                       href: e-commerce-extensibility/test-data-action-mocks.md
                     - name: Carregamento da página de ações de dados
                       href: e-commerce-extensibility/page-load-data-action.md
@@ -2080,6 +2088,8 @@
                       href: e-commerce-extensibility/theme-style-presets.md
                     - name: Estender um tema para adicionar extensões de módulo
                       href: e-commerce-extensibility/theme-module-extensions.md
+                    - name: Substituir um componente de biblioteca de módulos em um tema
+                      href: e-commerce-extensibility/override-theme-component.md
                     - name: Estender um tema de um tema base
                       href: e-commerce-extensibility/extend-theme.md
                     - name: Adicionar recursos personalizados ao seu código de personalização
@@ -2102,6 +2112,10 @@
                       href: e-commerce-extensibility/package-deploy.md
                     - name: SDK e atualizações da biblioteca de módulos
                       href: e-commerce-extensibility/sdk-updates.md
+                - name: Práticas recomendadas
+                  items:
+                    - name: Práticas recomendadas para desenvolvimento do Dynamics 365 Commerce
+                      href: e-commerce-extensibility/best-practices-dev.md
             - name: SDK do Retail
               items:
                 - name: Arquitetura do SDK do Retail
@@ -2197,7 +2211,7 @@
                 - name: Proxies C# e Retail Typescript
                   href: dev-itpro/typescript-proxy-retail-pos.md
                 - name: APIs de consumo do Retail Server em aplicativos externos
-                  href: dev-itpro/consume-retail-server-api
+                  href: dev-itpro/consume-retail-server-api.md
             - name: Extensibilidade do Commerce Runtime (CRT)
               items:
                 - name: Arquitetura e configuração do CRT

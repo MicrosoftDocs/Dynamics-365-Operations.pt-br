@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal
+ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal, PurchLine, AgreementLines
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 253177103435c765bfe45daffeae0c436617af21
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: ce6b76d92526b9a353bda2524bdfd0f7f4a5f68e
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3803154"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018827"
 ---
 # <a name="purchase-agreements"></a>Contratos de compra
 
@@ -33,7 +33,7 @@ Este artigo fornece informações sobre contratos de compras. Um contrato de com
 
 Os contratos de compra podem ser aplicados a uma quantidade específica de um produto, a um valor de moeda específico de um produto ou a um valor de moeda específico dos produtos em uma categoria de compras. Os preços e os descontos do contrato de compra substituem os preços e os descontos que são especificados em qualquer contrato comercial existente.  
 
-Na página **Contratos de compra**, é possível criar, aplicar e acompanhar os contratos de compra existentes entre sua organização e seus fornecedores. Por exemplo, após criar um contrato de compra, você pode fazer pedidos diretamente usando ele. Cada contrato de compra tem um período de validade que é definido pela pessoa que o cria. A data de entrega de uma compra deve estar nas datas efetivas desse período de validade.  
+Na página **Contratos de compra** , é possível criar, aplicar e acompanhar os contratos de compra existentes entre sua organização e seus fornecedores. Por exemplo, após criar um contrato de compra, você pode fazer pedidos diretamente usando ele. Cada contrato de compra tem um período de validade que é definido pela pessoa que o cria. A data de entrega de uma compra deve estar nas datas efetivas desse período de validade.  
 
 Depois de criar um contrato de compra, você deverá ativá-lo para que ele entre em vigor. Para ativar um contrato de compra, defina a opção **Marcar contrato como efetivo** como **Sim**. 
 
@@ -44,7 +44,7 @@ Para impedir que seu contrato de compra seja usado e confirmado, marque o status
 Você pode identificar um trabalhador responsável principal e um trabalhador responsável secundário na classificação do contrato de compra. Esses valores serão herdados pelo contrato de compra resultante. Não é necessário adicionar trabalhadores responsáveis ao contrato de compra, e eles podem ser modificados diretamente a cada caso no próprio contrato de compra. Não é possível especificar um trabalhador responsável secundário sem um trabalhador responsável principal, embora você não precise ter um trabalhador responsável secundário. Não é possível especificar o mesmo trabalhador como o trabalhador responsável principal e secundário.
 
 > [!IMPORTANT]
-> Para que você possa usar o recurso de participante responsável, ele deve estar ativado no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+> Para que você possa usar o recurso de participante responsável, ele deve estar ativado no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos** , o recurso está listado da seguinte forma:
 > 
 > - **Módulo:** *Tarefas de compras e fornecimento*
 > - **Nome do recurso:** *participante responsável pelo contrato de compra*
@@ -93,7 +93,7 @@ Você só poderá selecionar um contrato de compra quando estiver criando uma OC
 Em algumas situações em que as OCs são criadas indiretamente, você pode controlar se o Supply Chain Management pesquisará automaticamente os contratos de compra aplicáveis. Por exemplo, você pode fazer isso quando estiver confirmando automaticamente OCs planejadas ou criando OCs baseadas em ordens de venda.
 
 ## <a name="matching-policy-on-purchase-agreements"></a>Política de conciliação em contratos de compra
-Você pode definir uma política de conciliação de linha no cabeçalho do contrato de compra. Essa política de conciliação de linha respeitará a política de conciliação de linha dos parâmetros de contas a pagar quando o campo **Permitir substituição de política de conciliação** na página **Parâmetros de Contas a pagar** (na Guia Rápida **Conciliação de preço e quantidade**) estiver definido como **Maior do que a política da empresa**. Os documentos que fazem referência ao contrato de compra usam a política de conciliação de linha definida no cabeçalho do contrato de compra, a menos que seja definido de outra forma em item correspondente, item e fornecedor ou política de compra de categoria.
+Você pode definir uma política de conciliação de linha no cabeçalho do contrato de compra. Essa política de conciliação de linha respeitará a política de conciliação de linha dos parâmetros de contas a pagar quando o campo **Permitir substituição de política de conciliação** na página **Parâmetros de Contas a pagar** (na Guia Rápida **Conciliação de preço e quantidade** ) estiver definido como **Maior do que a política da empresa**. Os documentos que fazem referência ao contrato de compra usam a política de conciliação de linha definida no cabeçalho do contrato de compra, a menos que seja definido de outra forma em item correspondente, item e fornecedor ou política de compra de categoria.
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Contratos de compra e comércio intercompanhia
 As relações comerciais intercompanhia podem ser criadas entre contas de fornecedor e contas de cliente que estão em entidades legais diferentes. Quando uma ordem de venda ou uma OC é criada para um dos participantes, é criada uma cadeia de ordem intercompanhia. Na cadeia de ordem, a ordem de venda e a OC são criadas nas entidades legais apropriadas.  

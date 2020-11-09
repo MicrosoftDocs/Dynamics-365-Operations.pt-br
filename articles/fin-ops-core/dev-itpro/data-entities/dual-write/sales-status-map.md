@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: dce4b6310e2f6d31a115302efa7fbc132799e48f
-ms.sourcegitcommit: 4ba10abe5be8a21b95370cd970a622e954970984
+ms.openlocfilehash: 5855581100606003c1faf6b88a0ab234ae378893
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3829276"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997665"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-fields"></a>Configurar o mapeamento dos campos de status da ordem de venda
 
@@ -45,7 +44,7 @@ A enumeração **Status** tem os seguintes valores:
 - Faturadas
 - Cancelado
 
-A enumeração **Status do Documento** especifica o documento mais recente que foi gerado para a ordem. Por exemplo, se a ordem for confirmada, este documento será uma confirmação de ordem de venda. Se uma ordem de venda for parcialmente faturada e a linha restante for confirmada, o status do documento permanecerá como **Fatura**, pois a fatura será gerada posteriormente no processo.
+A enumeração **Status do Documento** especifica o documento mais recente que foi gerado para a ordem. Por exemplo, se a ordem for confirmada, este documento será uma confirmação de ordem de venda. Se uma ordem de venda for parcialmente faturada e a linha restante for confirmada, o status do documento permanecerá como **Fatura** , pois a fatura será gerada posteriormente no processo.
 
 A enumeração **Status do Documento** tem os seguintes valores:
 
@@ -98,7 +97,7 @@ A tabela a seguir mostra o mapeamento do **Status de Processamento** entre Venda
 
 Para configurar o mapeamento dos campos de status da ordem de venda, você deve habilitar os atributos **IsSOPIntegrationEnabled** e **isIntegrationUser**.
 
-Para habilitar o atributo **IsSOPIntegrationEnabled**, siga estas etapas.
+Para habilitar o atributo **IsSOPIntegrationEnabled** , siga estas etapas.
 
 1. Em um navegador, vá para `https://<test-name>.crm.dynamics.com/api/data/v9.0/organizations`. Substitua **\<test-name\>** pelo link da sua empresa para Vendas.
 2. Na página que está aberta, localize **organizationid** e anote o valor.
@@ -128,9 +127,9 @@ Para habilitar o atributo **IsSOPIntegrationEnabled**, siga estas etapas.
 
     ![IsSOPIntegrationEnabled está definido como true](media/sales-map-integration-enabled.png)
 
-Para habilitar o atributo **isIntegrationUser**, siga estas etapas.
+Para habilitar o atributo **isIntegrationUser** , siga estas etapas.
 
-1. Em Vendas, vá para **Configuração \> Personalização \> Personalizar o Sistema**, selecione **Entidade do usuário** e abra **Formulário \> Usuário**.
+1. Em Vendas, vá para **Configuração \> Personalização \> Personalizar o Sistema** , selecione **Entidade do usuário** e abra **Formulário \> Usuário**.
 
     ![Abrindo o formulário do usuário](media/sales-map-user.png)
 

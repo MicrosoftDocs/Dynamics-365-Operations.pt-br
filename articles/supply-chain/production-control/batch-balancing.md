@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: BOMTable
+ms.search.form: BOMTable, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 555c76651609718aeed11230b4de4fec3bb39ce9
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 2ef0a43480e547c6bd19d5f9b7377ed8b73425e7
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203333"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016876"
 ---
 # <a name="batch-balancing"></a>Balanceamento de lote
 
@@ -97,7 +97,7 @@ O ingrediente B possui atributo base X e nível de destino 30, e faz parte de um
 
 ### <a name="none"></a>Nenhum(a)
 
-Ao aplicar o processo de balanceamento de lote quando o tipo de ingrediente é **Nenhum**, a quantidade prevista e a quantidade balanceada da linha de fórmula na ordem de lote são iguais.
+Ao aplicar o processo de balanceamento de lote quando o tipo de ingrediente é **Nenhum** , a quantidade prevista e a quantidade balanceada da linha de fórmula na ordem de lote são iguais.
 
 **Exemplo**
 
@@ -115,7 +115,7 @@ A relação entre um princípio ativo e um ingrediente complementar é configura
 
 Siga estas etapas para configurar as relações entre ingredientes.
 
-1.  Selecione **Gerenciamento de informações do produto** \> **Listas de materiais e fórmulas** \> **Fórmulas**, abra uma linha de fórmula e, em seguida, selecione **Ingredientes** para abrir a página **Princípio de compensação**.
+1.  Selecione **Gerenciamento de informações do produto** \> **Listas de materiais e fórmulas** \> **Fórmulas** , abra uma linha de fórmula e, em seguida, selecione **Ingredientes** para abrir a página **Princípio de compensação**.
 
 2.  Selecione a linha que representa um princípio de compensação e, em seguida, selecione o princípio ativo para compensar.
 
@@ -125,7 +125,7 @@ Siga estas etapas para configurar as relações entre ingredientes.
 
 O ingrediente B é um princípio ativo com atributo base X e nível de destino 30. Está incluído em uma fórmula que requer 30 litros do ingrediente B para cada 100 litros do produto. O ingrediente C é um ingrediente de compensação, e uma quantidade 10 está incluída na mesma fórmula. Um fator de compensação de 1,10 é configurado para o princípio de compensação. Portanto, a quantidade balanceada do ingrediente de compensação será reduzida pela diferença entre a quantidade balanceada do princípio ativo e a quantidade necessária prevista multiplicada por 1,10.
 
-No exemplo do tipo de ingrediente **Ativo**, a quantidade balanceada do princípio ativo necessário foi calculada como 25,71, e a quantidade necessária prevista foi calculada como 30. Nesse caso, a quantidade balanceada do ingrediente de compensação será calculada desta forma:
+No exemplo do tipo de ingrediente **Ativo** , a quantidade balanceada do princípio ativo necessário foi calculada como 25,71, e a quantidade necessária prevista foi calculada como 30. Nesse caso, a quantidade balanceada do ingrediente de compensação será calculada desta forma:
 
 1.  A diferença entre a quantidade prevista e a quantidade balanceada é determinada:
 
@@ -147,7 +147,7 @@ Um *excipiente* é um ingrediente neutro usado para alcançar a quantidade de sa
 
 **Exemplo**
 
-Você formulou um produto que inclui os ingredientes A, B, C e D para um tamanho de fórmula de 100 litros. Você calculou a quantidade balanceada de todos os tipos de ingrediente exceto do **Excipiente**, que é usado em uma linha.
+Você formulou um produto que inclui os ingredientes A, B, C e D para um tamanho de fórmula de 100 litros. Você calculou a quantidade balanceada de todos os tipos de ingrediente exceto do **Excipiente** , que é usado em uma linha.
 A quantidade balanceada do excipiente é calculada como a diferença entre o tamanho do lote de 100 litros e a soma dos ingredientes A, B e C:
 
 100 – (20 + 25,71 + 14,72) = 39,57
@@ -156,7 +156,7 @@ A quantidade balanceada do excipiente é calculada como a diferença entre o tam
 ---------------------------
 
 O processo de balanceamento de lote é executado da página **Balanceamento de lote**.
-Selecione **Gerenciamento de custo** \> **Ordens de lote** e, em seguida, na guia **Processo**, selecione **Balanceamento de lote**. O balanceamento de lote está disponível para ordens de lote que possuam um status **Iniciado**.
+Selecione **Gerenciamento de custo** \> **Ordens de lote** e, em seguida, na guia **Processo** , selecione **Balanceamento de lote**. O balanceamento de lote está disponível para ordens de lote que possuam um status **Iniciado**.
 
 Em geral, o balanceamento de lote pode ser aplicado a ordens de lote se a fórmula tiver pelo menos uma linha de fórmula em que o tipo de ingrediente seja **Ativo**. (Para conhecer a exceção a essa regra, consulte a seção “Ordens de lote não aplicáveis ao balanceamento de lote” posteriormente neste tópico.)
 
@@ -171,7 +171,7 @@ O processo de balanceamento de lote pode ser dividido em dois subprocessos:
 No subprocesso Balancear ingredientes do lote, a quantidade de ingredientes a ser usada no lote de produção é calculada com base nos lotes selecionados que têm princípios ativos. Geralmente, o cálculo só pode ser concluído se houver cobertura completa de todos os ingredientes. Você não pode balancear somente parte do lote que a ordem de lote está configurada para produzir.
 
 [!NOTE]
-Você não pode salvar um cálculo e concluir o processo de balanceamento de lote depois. Se você fechar a página **Balanceamento de lote**, deverá repetir o cálculo para concluir o processo.
+Você não pode salvar um cálculo e concluir o processo de balanceamento de lote depois. Se você fechar a página **Balanceamento de lote** , deverá repetir o cálculo para concluir o processo.
 
 ### <a name="confirm-and-release-the-formula"></a>Confirmar e liberar a fórmula
 

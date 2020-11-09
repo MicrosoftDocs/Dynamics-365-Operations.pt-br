@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSQualityCheckTemplate,WHSWorkClass,WHSWorkTemplateTable.WHSLocDirTable
+ms.search.form: WHSQualityCheckTemplate, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSQualityCheckResult
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 44a4694281f3dd53581c9d8245a0105b37b2b155
-ms.sourcegitcommit: 7dc2ff9461c310324937bea2fc160ff056fefd8a
+ms.openlocfilehash: dfb71f74732d65409003c4f6f74145442a1efa3f
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686348"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016622"
 ---
 # <a name="quality-check"></a>Verificação de qualidade
 
@@ -44,7 +44,7 @@ Esse processo também pode ser configurado de forma que todas as placas de licen
 
 ## <a name="turn-on-the-quality-check-feature"></a>Ativar o recurso Verificação de qualidade
 
-Para que você possa usar o recurso *Verificação de qualidade*, ele deve estar ativado no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+Para que você possa usar o recurso *Verificação de qualidade* , ele deve estar ativado no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos** , o recurso está listado da seguinte forma:
 
 - **Módulo:** *Gerenciamento de Depósito*
 - **Nome do recurso:** *Verificação de qualidade*
@@ -106,7 +106,7 @@ Classes de trabalho são usadas para direcionar e/ou limitar os tipos de linhas 
 
         Selecione o tipo de ordem de serviço que é criado pela classe de trabalho. Ao configurar o trabalho de controle de qualidade, sempre selecione *Qualidade na verificação de qualidade*.
 
-1. Na FastTab **Tipos de local de colocação válidos**, deixe o campo **Tipo de local** em branco.
+1. Na FastTab **Tipos de local de colocação válidos** , deixe o campo **Tipo de local** em branco.
 
     Se você selecionar um tipo de local, limite os locais em que os itens podem ser colocados após a separação. Essa campo é usado quando uma diretiva de localização tenta resolver a localização, ou quando um trabalhador do depósito especifica manualmente a localização do item de menu do dispositivo móvel.
 
@@ -121,9 +121,9 @@ Os modelos de trabalho permitem definir as operações de trabalho a serem execu
 1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
 1. No cabeçalho, defina o campo **Tipo de ordem de serviço** como *Ordens de compra*.
 1. No Painel de Ações, selecione **Editar**.
-1. Selecione um modelo de trabalho que deve incluir uma etapa de verificação de qualidade. Na seção **Visão geral**, no campo **Modelo de trabalho**, selecione *Recibo de OC 51*.
-1. Na seção **Detalhes do modelo de trabalho**, observe que a grade tem duas linhas existentes: uma para *Separar* e outra para *Colocar*.
-1. Na seção **Detalhes do modelo de trabalho**, selecione **Novo** para adicionar uma linha para controle de qualidade na grade. Observe que o campo **Número da linha** para a nova linha está definido como *3*.
+1. Selecione um modelo de trabalho que deve incluir uma etapa de verificação de qualidade. Na seção **Visão geral** , no campo **Modelo de trabalho** , selecione *Recibo de OC 51*.
+1. Na seção **Detalhes do modelo de trabalho** , observe que a grade tem duas linhas existentes: uma para *Separar* e outra para *Colocar*.
+1. Na seção **Detalhes do modelo de trabalho** , selecione **Novo** para adicionar uma linha para controle de qualidade na grade. Observe que o campo **Número da linha** para a nova linha está definido como *3*.
 1. Na nova linha, defina os valores a seguir. Aceite os valores padrão para os campos restantes.
 
     - **Tipo de trabalho:** *Verificação de qualidade*
@@ -138,7 +138,7 @@ Os modelos de trabalho permitem definir as operações de trabalho a serem execu
 
 1. Siga estas etapas para alterar o valor **Número da linha** da nova linha:
 
-    1. Na seção **Detalhes do modelo de trabalho**, selecione a linha em que o campo **Tipo de trabalho** está definido como *Verificação de qualidade*.
+    1. Na seção **Detalhes do modelo de trabalho** , selecione a linha em que o campo **Tipo de trabalho** está definido como *Verificação de qualidade*.
     2. Selecione o botão **Mover para cima** ou **Mover para baixo** para mover a linha *Verificação de qualidade* para que fique depois da linha *Separação*.
 
 1. No Painel de ações, selecione **Salvar**.
@@ -147,7 +147,7 @@ Os modelos de trabalho permitem definir as operações de trabalho a serem execu
 
 Em seguida, crie um modelo de trabalho para a verificação de qualidade.
 
-1. No cabeçalho da página **Modelos de trabalho**, altere o valor do campo **Tipo de ordem de trabalho** para *Qualidade na verificação de qualidade*.
+1. No cabeçalho da página **Modelos de trabalho** , altere o valor do campo **Tipo de ordem de trabalho** para *Qualidade na verificação de qualidade*.
 1. No Painel de Ações, selecione **Novo** para adicionar uma linha à grade na seção **Visão geral**.
 1. Na nova linha, defina os seguintes valores:
 
@@ -158,7 +158,7 @@ Em seguida, crie um modelo de trabalho para a verificação de qualidade.
     - **Descrição do modelo de trabalho:** *Verificação de qualidade 51*
 
 1. No Painel de Ações, selecione **Salvar** para disponibilizar a seção **Detalhes do modelo de trabalho**.
-1. Embora o novo modelo ainda esteja selecionado na seção **Visão geral**, selecione **Novo** na seção **Detalhes do modelo de trabalho** para adicionar uma linha à grade.
+1. Embora o novo modelo ainda esteja selecionado na seção **Visão geral** , selecione **Novo** na seção **Detalhes do modelo de trabalho** para adicionar uma linha à grade.
 1. Na nova linha, defina os seguintes valores:
 
     - **Tipo de trabalho:** *Separar*
@@ -166,7 +166,7 @@ Em seguida, crie um modelo de trabalho para a verificação de qualidade.
 
         Selecione o nome da [classe de trabalho](#work-class) criada anteriormente para o trabalho de controle de qualidade.
 
-1. Na seção **Detalhes do modelo de trabalho**, selecione **Novo** novamente para adicionar outra linha.
+1. Na seção **Detalhes do modelo de trabalho** , selecione **Novo** novamente para adicionar outra linha.
 1. Na nova linha, defina os seguintes valores:
 
     - **Tipo de trabalho:** *Colocar*
@@ -190,25 +190,25 @@ As diretivas de localização são regras que ajudam a identificar locais de sep
     - **Número de sequência:** aceite o valor padrão.
     - **Nome:** *51 para qualidade*
 
-1. Na FastTab **Diretivas de localização**, defina os valores a seguir. Aceite os valores padrão para os campos restantes.
+1. Na FastTab **Diretivas de localização** , defina os valores a seguir. Aceite os valores padrão para os campos restantes.
 
     - **Tipo de trabalho:** *Colocar*
     - **Local:** *5*
     - **Depósito:** *51*
 
 1. No Painel de Ações, selecione **Salvar** para salvar a diretiva e disponibilizar a FastTab **Linhas**.
-1. Na FastTab **Linhas**, selecione **Novo** para adicionar uma linha à grade.
+1. Na FastTab **Linhas** , selecione **Novo** para adicionar uma linha à grade.
 1. Na nova linha, defina os valores a seguir. Aceite os valores padrão para os campos restantes.
 
     - **Quantidade inicial:** *1*
     - **Quantidade final:** *1000000*
 
 1. No Painel de Ações, selecione **Salvar** para salvar a nova linha e disponibilizar a FastTab **Ações de diretiva de localização**.
-1. Enquanto a nova linha ainda estiver selecionada na FastTab **Linhas**, selecione **Novo** na FastTab **Ações de diretiva de localização** para adicionar uma linha à grade, permitindo que você configure uma ação para a linha.
+1. Enquanto a nova linha ainda estiver selecionada na FastTab **Linhas** , selecione **Novo** na FastTab **Ações de diretiva de localização** para adicionar uma linha à grade, permitindo que você configure uma ação para a linha.
 1. Na nova linha, defina o campo **Nome** como *Qualidade*. Aceite os valores padrão para os campos restantes.
 1. No Painel de Ações, selecione **Salvar** para disponibilizar o botão **Editar consulta** na FastTab **Ações de diretiva de localização**.
-1. Com a linha recém-adicionada ainda selecionada na FastTab **Ações de diretiva de localização**, selecione **Editar consulta** para abrir uma caixa de diálogo na qual você possa editar a consulta para a ação.
-1. Na guia **Intervalo**, selecione **Adicionar** para adicionar uma linha à consulta.
+1. Com a linha recém-adicionada ainda selecionada na FastTab **Ações de diretiva de localização** , selecione **Editar consulta** para abrir uma caixa de diálogo na qual você possa editar a consulta para a ação.
+1. Na guia **Intervalo** , selecione **Adicionar** para adicionar uma linha à consulta.
 1. Na nova linha, defina os seguintes valores:
 
     - **Tabela:** *Localizações*
@@ -219,7 +219,7 @@ As diretivas de localização são regras que ajudam a identificar locais de sep
     A localização *QMS* é uma localização de depósito para qualidade.
 
 1. Selecione **OK** para fechar a caixa de diálogo.
-1. Você deve alterar a sequência das diretivas de localização de ordens de compra para o depósito *51*. Salve a nova diretiva de localização *51 para qualidade*, atualize a página e selecione a diretiva de localização na lista. Em seguida, use os botões **Mover para cima** e **Mover para baixo** no Painel de Ações para colocar a diretiva de localização para o depósito *51* na ordem a seguir. (Antes de selecionar **Mover para cima** ou **Mover para baixo**, você deve selecionar uma diretiva de localização na lista.)
+1. Você deve alterar a sequência das diretivas de localização de ordens de compra para o depósito *51*. Salve a nova diretiva de localização *51 para qualidade* , atualize a página e selecione a diretiva de localização na lista. Em seguida, use os botões **Mover para cima** e **Mover para baixo** no Painel de Ações para colocar a diretiva de localização para o depósito *51* na ordem a seguir. (Antes de selecionar **Mover para cima** ou **Mover para baixo** , você deve selecionar uma diretiva de localização na lista.)
 
     1. 51 para qualidade
     2. OC Direta 51
@@ -234,7 +234,7 @@ Configure um item de menu para que os dispositivos móveis possam executar a fun
 1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. Na lista, selecione o item de menu **Armazenamento de compra**.
 1. No Painel de Ações, selecione **Editar**.
-1. Na seção **Classes de trabalho**, selecione **Novo** para adicionar uma linha à grade.
+1. Na seção **Classes de trabalho** , selecione **Novo** para adicionar uma linha à grade.
 1. Na nova linha, defina os seguintes valores:
 
     - **ID da classe de trabalho:** *Verificação de QC*
@@ -256,7 +256,7 @@ Configure um item de menu para que os dispositivos móveis possam executar a fun
     - **Modo:** *Trabalho*
     - **Usar trabalho existente:** *Não*
 
-1. Na FastTab **Geral**, defina os valores a seguir. Aceite os valores padrão para os campos restantes.
+1. Na FastTab **Geral** , defina os valores a seguir. Aceite os valores padrão para os campos restantes.
 
     - **Processo de criação de trabalho:** *Recebimento e armazenamento da linha da ordem de compra*
     - **Gerar placa de licença:** *Sim*
@@ -269,9 +269,9 @@ Configure um item de menu para que os dispositivos móveis possam executar a fun
 1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
 1. No painel esquerdo, selecione o menu **Entrada**.
 1. No Painel de Ações, selecione **Editar**.
-1. Na coluna **Menus e itens de menu disponíveis**, selecione o novo item de menu **Recebimento da linha da OC**.
+1. Na coluna **Menus e itens de menu disponíveis** , selecione o novo item de menu **Recebimento da linha da OC**.
 1. Selecione o botão de seta para a direita para mover **Recebimento da linha da OC** para a coluna **Estrutura de menu**.
-1. Na coluna **Estrutura de menu**, selecione **Recebimento da linha da OC** e, depois, selecione o botão de seta para cima ou seta para baixo para mover o item de menu para a posição desejada no menu dispositivo móvel.
+1. Na coluna **Estrutura de menu** , selecione **Recebimento da linha da OC** e, depois, selecione o botão de seta para cima ou seta para baixo para mover o item de menu para a posição desejada no menu dispositivo móvel.
 1. No Painel de ações, selecione **Salvar**.
 
 ## <a name="example-scenario"></a><a name="example-scenario"></a>Cenário de exemplo
@@ -282,13 +282,13 @@ Após disponibilizar todos os dados de exemplo descritos anteriormente e configu
 
 1. Acesse **Compras \> Ordens de compra \> Todas ordens de compra**.
 1. No Painel de Ações, selecione **Novo**.
-1. Na caixa de diálogo **Criar ordem de compra**, defina os seguintes valores:
+1. Na caixa de diálogo **Criar ordem de compra** , defina os seguintes valores:
 
     - **Conta do fornecedor:** *104*
     - **Depósito:** *51*
 
 1. Selecione **OK** para fechar a caixa de diálogo e abrir a nova ordem de compra.
-1. Na FastTab **Linhas de ordem de compra**, a grade contém uma linha nova, em branco. Nessa linha, defina os seguintes valores:
+1. Na FastTab **Linhas de ordem de compra** , a grade contém uma linha nova, em branco. Nessa linha, defina os seguintes valores:
 
     - **Número de item:** *M9203*
     - **Quantidade:** *3*
@@ -304,14 +304,14 @@ Depois que a ordem de compra for criada, ela poderá ser recebida usando o item 
 
 1. Entre no aplicativo do depósito como um usuário do depósito *51*. (Insira *51* como a ID do usuário e *1* como a senha.)
 1. Vá para **Entrada \> Recebimento da linha da OC**.
-1. No campo **PONUM**, insira o número da ordem de compra.
+1. No campo **PONUM** , insira o número da ordem de compra.
 1. Confirme o número da ordem de compra.
-1. No campo **LINENUM**, insira o número da linha da ordem de compra que está sendo recebida. Como a ordem tem apenas uma linha neste cenário, você inserirá *1* no campo **LINENUM** para cada etapa de recebimento.
+1. No campo **LINENUM** , insira o número da linha da ordem de compra que está sendo recebida. Como a ordem tem apenas uma linha neste cenário, você inserirá *1* no campo **LINENUM** para cada etapa de recebimento.
 1. Confirme o número da linha.
-1. No campo **QTD**, insira a quantidade a ser recebida. Como a ordem de compra é para três paletes (*PL*) neste cenário e há três etapas de recebimento, você inserirá *1* no campo **QTD** para cada etapa de recebimento.
+1. No campo **QTD** , insira a quantidade a ser recebida. Como a ordem de compra é para três paletes ( *PL* ) neste cenário e há três etapas de recebimento, você inserirá *1* no campo **QTD** para cada etapa de recebimento.
 1. Confirme a quantidade.
 
-    A página **Verificação de qualidade** que aparece não tem campos de entrada. Ela tem apenas o botão de confirmação (marca de seleção) na parte inferior e o botão de menu (**≡**) na parte superior. (Às vezes, o botão de menu é referenciado como hambúrguer ou botão de hambúrguer.) Para agilizar o processo de verificação de qualidade, quando o palete passa pela verificação de qualidade, o usuário apenas confirma a página **Verificação de qualidade**.
+    A página **Verificação de qualidade** que aparece não tem campos de entrada. Ela tem apenas o botão de confirmação (marca de seleção) na parte inferior e o botão de menu ( **≡** ) na parte superior. (Às vezes, o botão de menu é referenciado como hambúrguer ou botão de hambúrguer.) Para agilizar o processo de verificação de qualidade, quando o palete passa pela verificação de qualidade, o usuário apenas confirma a página **Verificação de qualidade**.
 
     ![Página Verificação de qualidade](media/quality-check.png "Página Verificação de qualidade")
 
@@ -337,13 +337,13 @@ Depois que a ordem de compra for criada, ela poderá ser recebida usando o item 
 
 Neste cenário, o palete 2 será rejeitado.
 
-1. No campo **LINENUM**, insira *1* e confirme o número da linha.
+1. No campo **LINENUM** , insira *1* e confirme o número da linha.
 1. O campo **QTD** agora está disponível. Insira *1* e confirme a quantidade.
 
     A página **Verificação de qualidade** é exibida. Para esse recebimento, o palete será rejeitado para qualidade e será colocado no local de qualidade *QMS*.
 
-1. Selecione o botão de menu (**≡**) na parte superior da página e, no menu, selecione **Rejeitar**.
-1. Na página **Tarefa**, insira **QMS** como o local *Colocar* para onde o palete será enviado para inspeção adicional.
+1. Selecione o botão de menu ( **≡** ) na parte superior da página e, no menu, selecione **Rejeitar**.
+1. Na página **Tarefa** , insira **QMS** como o local *Colocar* para onde o palete será enviado para inspeção adicional.
 
     A página **Qualidade na verificação de qualidade: colocar** que aparece mostra detalhes do trabalho de colocação:
 
@@ -371,7 +371,7 @@ Para obter mais informações sobre o gerenciamento de qualidade, consulte [Vis�
 
 Neste cenário, o palete 3 será aceito.
 
-1. No campo **LINENUM**, insira *1* e confirme o número da linha.
+1. No campo **LINENUM** , insira *1* e confirme o número da linha.
 1. O campo **QTD** agora está disponível. Insira *1* e confirme a quantidade.
 
     A página **Verificação de qualidade** é exibida. Para esse recebimento, o palete será aceito para qualidade e será colocado em um local de armazenamento em massa.
@@ -394,6 +394,6 @@ Neste cenário, o palete 3 será aceito.
 
     Na página **Tarefa** para recebimento de linha da ordem de compra, você recebe uma mensagem "Trabalho Concluído". O campo **LINENUM** está disponível para que você comece a receber o próximo palete.
 
-1. Selecione o botão de menu (**≡**) na parte superior da página e, no menu, selecione **Cancelar** para voltar ao menu.
+1. Selecione o botão de menu ( **≡** ) na parte superior da página e, no menu, selecione **Cancelar** para voltar ao menu.
 
 Agora você pode fechar o aplicativo móvel.

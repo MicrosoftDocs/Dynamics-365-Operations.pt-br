@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 8cc7c11233c745719af72222eba02fb71d7a8944
-ms.sourcegitcommit: 4edc658448612afbf1c1663c166d12e08e4c4165
+ms.openlocfilehash: c3352afd93dfc7c37a8af9dabaf85b7a1debad30
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3340921"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997245"
 ---
 # <a name="general-troubleshooting"></a>Solução de problemas gerais
 
@@ -43,7 +42,7 @@ Algumas versões da ferramenta Package Deployer são incompatíveis com o pacote
 
 Depois de instalar a ferramenta do Package Deployer, instale o pacote de solução seguindo essas etapas.
 
-1. Baixe o arquivo de pacote de solução mais recente de Yammer.com. Depois que o arquivo zip do pacote for baixado, clique nele com o botão direito do mouse e selecione **Propriedades**. Marque caixa de seleção **Desbloquear** e selecione **Aplicar**. Se você não vir a caixa de seleção **Desbloquear**, o arquivo zip já está desbloqueado e você pode ignorar essa etapa.
+1. Baixe o arquivo de pacote de solução mais recente de Yammer.com. Depois que o arquivo zip do pacote for baixado, clique nele com o botão direito do mouse e selecione **Propriedades**. Marque caixa de seleção **Desbloquear** e selecione **Aplicar**. Se você não vir a caixa de seleção **Desbloquear** , o arquivo zip já está desbloqueado e você pode ignorar essa etapa.
 
     ![Caixa de diálogo de propriedades](media/unblock_option.png)
 
@@ -58,18 +57,18 @@ Depois de instalar a ferramenta do Package Deployer, instale o pacote de soluç�
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-common-data-service-to-view-error-details"></a>Habilite e exiba o log de rastreamento de plug-in no Common Data Service para exibir detalhes do erro
 
-**Função necessária para ativar o log de rastreamento e erros de exibição**: administrador do sistema
+**Função necessária para ativar o log de rastreamento e erros de exibição** : administrador do sistema
 
 Para ativar o log de rastreamento, siga estas etapas.
 
-1. Efetue login no aplicativo baseado em modelo no Dynamics 365, abra a página **Configurações** e, em **Sistema**, selecione **Administração**.
-2. Na página **Administração**, selecione **Configuração do sistema**.
-3. Na guia **Personalização**, no campo **Rastreamento de atividade de fluxo de trabalho e plug-in**, selecione **Todos** para habilitar o log de rastreamento de plug-in. Se você deseja registrar logs de rastreamento somente quando ocorrerem exceções, em vez disso, você pode selecionar **Exceção**.
+1. Efetue login no aplicativo baseado em modelo no Dynamics 365, abra a página **Configurações** e, em **Sistema** , selecione **Administração**.
+2. Na página **Administração** , selecione **Configuração do sistema**.
+3. Na guia **Personalização** , no campo **Rastreamento de atividade de fluxo de trabalho e plug-in** , selecione **Todos** para habilitar o log de rastreamento de plug-in. Se você deseja registrar logs de rastreamento somente quando ocorrerem exceções, em vez disso, você pode selecionar **Exceção**.
 
 
 Para exibir o log de rastreamento, siga estas etapas.
 
-1. Efetue login no aplicativo baseado em modelo no Dynamics 365, abra a página **Configurações** e, em **Personalização**, selecione **Log de rastreamento de plug-in**.
+1. Efetue login no aplicativo baseado em modelo no Dynamics 365, abra a página **Configurações** e, em **Personalização** , selecione **Log de rastreamento de plug-in**.
 2. Encontre os logs de rastreamento em que o campo **Nome do Tipo** esteja definido como **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Clique duas vezes em um item para exibir o log completo e, em seguida, na Guia Rápida **Execução** revise o texto do **Bloco de mensagens**.
 
@@ -84,7 +83,7 @@ Para exibir o log de rastreamento, siga estas etapas.
 
 2. Defina a propriedade **IsDebugMode** como **Sim** para o projeto.
 3. Execute o cenário que está gerando erros.
-4. Os logs detalhados estão disponíveis na tabela DualWriteErrorLog. Para pesquisar dados no navegador da tabela, use a seguinte URL (substitua **XXX**, conforme apropriado):
+4. Os logs detalhados estão disponíveis na tabela DualWriteErrorLog. Para pesquisar dados no navegador da tabela, use a seguinte URL (substitua **XXX** , conforme apropriado):
 
     `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=>DualWriteErrorLog`
 
@@ -116,7 +115,7 @@ Agora você pode vincular um novo ambiente.
 
 Quando você cria uma ordem de venda no Dynamics 365 Sales, clicar em **Adicionar produtos** talvez redirecione você para o formulário da linha de ordem do Dynamics 365 Project Operations. Não há nenhuma maneira de esse formulário exibir o formulário de **Informações** da linha da ordem de venda. A opção de **Informações** não aparece na lista suspensa **Nova Linha da Ordem** abaixo. Isso ocorre porque o Project Operations foi instalado em seu ambiente.
 
-Para habilitar novamente a opção de formulário de **Informações**, siga estas etapas:
+Para habilitar novamente a opção de formulário de **Informações** , siga estas etapas:
 1. Navegue até a entidade **Linha da Ordem**.
 2. Encontre o formulário de **Informações** no nó de formulários. 
 3. Selecione o formulário de **Informações** e clique em **Habilitar funções de segurança**. 

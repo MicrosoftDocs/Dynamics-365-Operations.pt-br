@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart
+ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart, PurchaseOrderResponseActionRemarks, PurchVendorPortalAllResponse, PurchOrderInExternalReview, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b4b3120001ecd5340c063f80ad7471050b437fd2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 82249f460e5ddce9b9d43906008a3248a80daafb
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203425"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018735"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Colaboração de fornecedores com fornecedores externos
 
@@ -34,7 +34,7 @@ O módulo **Colaboração do fornecedor** é destinado a fornecedores que não t
 Para saber mais sobre o que os fornecedores externos podem fazer na interface de colaboração do fornecedor, consulte [Colaboração do fornecedor com clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
-> As informações sobre a colaboração de fornecedor neste tópico se aplicam apenas à versão atual do Supply Chain Management. No Microsoft Dynamics AX 7.0. (fevereiro de 2016) e no aplicativo do Microsoft Dynamics AX versão 7.0.1 (maio de 2016), você colabora com fornecedores usando o módulo **Portal do fornecedor**. Para obter informações sobre o módulo **Portal do fornecedor**, consulte [Colaborar com fornecedores usando o Portal do fornecedor](collaborate-vendors-vendor-portal.md).
+> As informações sobre a colaboração de fornecedor neste tópico se aplicam apenas à versão atual do Supply Chain Management. No Microsoft Dynamics AX 7.0. (fevereiro de 2016) e no aplicativo do Microsoft Dynamics AX versão 7.0.1 (maio de 2016), você colabora com fornecedores usando o módulo **Portal do fornecedor**. Para obter informações sobre o módulo **Portal do fornecedor** , consulte [Colaborar com fornecedores usando o Portal do fornecedor](collaborate-vendors-vendor-portal.md).
 
 Para saber mais sobre como os fornecedores podem usar a colaboração do fornecedor nos processos de faturamento, consulte [Espaço de trabalho de faturamento de colaboração do fornecedor](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Para saber mais sobre como provisionar novos usuários de colaboração do fornecedor, consulte [Gerenciar usuários de colaboração do fornecedor](manage-vendor-collaboration-users.md).
 
@@ -44,8 +44,8 @@ Quando os fornecedores respondem a uma OC enviada, eles veem uma das três caixa
 
 Para definir o texto que é mostrado na resposta da OC, siga estas etapas
 
-1. Na página **Informações para fornecedores em resposta a OCs**, selecione o tipo de resposta e selecione **Editar**.
-2. Na caixa **Mensagem de informações**, insira informações que deve ser exibidas a fornecedores na caixa de mensagem.
+1. Na página **Informações para fornecedores em resposta a OCs** , selecione o tipo de resposta e selecione **Editar**.
+2. Na caixa **Mensagem de informações** , insira informações que deve ser exibidas a fornecedores na caixa de mensagem.
 
 Se você precisar adicionar mensagens em mais de um idioma, crie mensagens separadas e especifique o código de idioma apropriado para cada uma. A mensagem que é mostrada a cada fornecedor estará no idioma que o fornecedor usa.
 
@@ -58,10 +58,10 @@ Um administrador configura as definições gerais para a colaboração do fornec
 
 ### <a name="enabling-vendor-collaboration"></a>Habilitando a colaboração do fornecedor
 
-Antes que as contas de usuário possam ser criadas para um fornecedor externo, você deve configurar a conta de fornecedor para permitir que ele use a colaboração do fornecedor. Na página **Fornecedores**, na guia **Geral**, defina o campo **Ativação de colaboração**. As opções a seguir estão disponíveis:
+Antes que as contas de usuário possam ser criadas para um fornecedor externo, você deve configurar a conta de fornecedor para permitir que ele use a colaboração do fornecedor. Na página **Fornecedores** , na guia **Geral** , defina o campo **Ativação de colaboração**. As opções a seguir estão disponíveis:
 
-- **Ativo (a OC é confirmada automaticamente)**– as OCs são confirmadas automaticamente, se o fornecedor as aceita sem alterações.
-- **Ativo (a OC não é confirmada automaticamente)**– as OCs precisam ser confirmadas manualmente por sua organização depois que o fornecedor aceitá-las.
+- **Ativo (a OC é confirmada automaticamente)** – as OCs são confirmadas automaticamente, se o fornecedor as aceita sem alterações.
+- **Ativo (a OC não é confirmada automaticamente)** – as OCs precisam ser confirmadas manualmente por sua organização depois que o fornecedor aceitá-las.
 
 ### <a name="specifying-whether-the-vendor-should-see-price-information"></a>Especificando se o fornecedor deverá ver as informações sobre preço
 
@@ -71,7 +71,7 @@ Para compartilhar as informações sobre preços das OCs por meio da interface d
 
 ### <a name="sending-a-po-to-a-vendor"></a>Enviando uma OC a um fornecedor
 
-As OCs são preparadas no Supply Chain Management. Quando a OC tiver um status de **Aprovada**, você a enviará ao fornecedor, selecionando **Enviar para confirmação** na página **Ordem de compra**. O status da OC será mudado para **Em Revisão externa**. Depois que a PO for enviada, o fornecedor pode vê-la na página **Ordens de compra para revisão** na interface de colaboração de fornecedor. O fornecedor pode então aceitar a OC, rejeitá-la ou sugerir mudanças nela. O fornecedor também pode adicionar comentários para comunicar informações como as alterações na OC. Se quiser chamar a atenção do fornecedor para a nova OC, você também pode usar o sistema de gerenciamento de impressão para enviar a OC por email.
+As OCs são preparadas no Supply Chain Management. Quando a OC tiver um status de **Aprovada** , você a enviará ao fornecedor, selecionando **Enviar para confirmação** na página **Ordem de compra**. O status da OC será mudado para **Em Revisão externa**. Depois que a PO for enviada, o fornecedor pode vê-la na página **Ordens de compra para revisão** na interface de colaboração de fornecedor. O fornecedor pode então aceitar a OC, rejeitá-la ou sugerir mudanças nela. O fornecedor também pode adicionar comentários para comunicar informações como as alterações na OC. Se quiser chamar a atenção do fornecedor para a nova OC, você também pode usar o sistema de gerenciamento de impressão para enviar a OC por email.
 
 ### <a name="confirmation-and-acceptance-of-a-po-by-a-vendor"></a>Confirmação e aceitação de uma OC por um fornecedor
 
@@ -120,7 +120,7 @@ O fornecedor não pode alterar as informações sobre preços e os encargos. En
 </tbody>
 </table>
 
-Você pode usar o espaço de trabalho **Preparação da ordem de compra** para monitorar as OCs respondidas pelo fornecedor. Este espaço de trabalho contém duas listas que contêm OCs com um status **Em Revisão Externa**:
+Você pode usar o espaço de trabalho **Preparação da ordem de compra** para monitorar as OCs respondidas pelo fornecedor. Este espaço de trabalho contém duas listas que contêm OCs com um status **Em Revisão Externa** :
 
 - Em revisão externa requer ação
 - Em revisão externa aguardando a resposta do fornecedor
@@ -141,7 +141,7 @@ Você pode adicionar anexos, como arquivos, imagens e anotações, à PO usando�
 
 Se um fornecedor respondeu a uma OC e sugeriu mudanças, o próximo passo é processar a resposta.
 
-No espaço de trabalho **Preparação da ordem de compra** na lista **Em revisão externa, requer ação**, você pode identificar OCs que um fornecedor aceitou com alterações. Desta lista, você também pode navegar até a resposta do fornecedor.
+No espaço de trabalho **Preparação da ordem de compra** na lista **Em revisão externa, requer ação** , você pode identificar OCs que um fornecedor aceitou com alterações. Desta lista, você também pode navegar até a resposta do fornecedor.
 
 Em uma resposta, um fornecedor pode alterar as seguintes informações no cabeçalho:
  
@@ -168,7 +168,7 @@ Você pode atualizar uma OC selecionando **Processar atualização de OC** na re
 
 Nem todas as alterações sugeridas podem ser atualizadas em uma PO. Somente as atualizações no cabeçalho e as atualizações das datas e quantidades nas linhas podem ser atualizadas automaticamente na OC. Para outras alterações, você deve atualizar manualmente a PO. Nesse caso, o valor do campo **A atualização da OC foi processada?** será **Atualização manual**. Por exemplo, se um fornecedor sugerir que uma linha seja dividida em uma agenda, essa alteração será feita manualmente.
 
-Cada linha que tem um status **Aceita** terá uma data de entrega confirmada. Quando você executa a ação **Processar atualização da OC**, essa data será atualizada na OC. Notas e anexos não serão transferidos automaticamente para a OC atual. Além disso, os contratos comerciais não são reavaliados nas linhas da OC quando você atualiza a OC por meio da ação **Processar atualização da OC**.
+Cada linha que tem um status **Aceita** terá uma data de entrega confirmada. Quando você executa a ação **Processar atualização da OC** , essa data será atualizada na OC. Notas e anexos não serão transferidos automaticamente para a OC atual. Além disso, os contratos comerciais não são reavaliados nas linhas da OC quando você atualiza a OC por meio da ação **Processar atualização da OC**.
 
 ## <a name="po-statuses-and-versions"></a>Status e versões da PO
 
@@ -212,7 +212,7 @@ A tabela a seguir mostra um exemplo das alterações de status e versão pelas q
 
 Se você estiver usando o estoque de consignação, os fornecedores poderão usar a interface de colaboração do fornecedor para exibir informações nas seguintes páginas:
 
-- **Ordens de compra que consomem o estoque de consignação** – as OCs para o estoque de consignação são geradas quando a propriedade do estoque é alterada do fornecedor para a sua empresa. Um recebimento de produto é lançado ao mesmo tempo. Essas OCs de consignação são exibidas somente na página **Ordens de compra que consomem o estoque em consignação**. Elas não estão incluídas na página **Todas as ordens de compra confirmadas**, no módulo **Colaboração do fornecedor**.
+- **Ordens de compra que consomem o estoque de consignação** – as OCs para o estoque de consignação são geradas quando a propriedade do estoque é alterada do fornecedor para a sua empresa. Um recebimento de produto é lançado ao mesmo tempo. Essas OCs de consignação são exibidas somente na página **Ordens de compra que consomem o estoque em consignação**. Elas não estão incluídas na página **Todas as ordens de compra confirmadas** , no módulo **Colaboração do fornecedor**.
 - **Produtos recebidos do estoque de consignação** – esta página lista todas as transações em que a propriedade dos produtos foi transferida do fornecedor para a sua empresa. Os fornecedores podem usar essas informações para faturar o cliente.
 - **Estoque de consignação disponível** – esta página mostra o estoque de consignação disponível de propriedade do fornecedor que foi recebido em seu depósito.
 
@@ -231,7 +231,7 @@ Esta seção descreve as interações entre clientes e fornecedores durante o pr
 
 - **Alterações** – Quando uma alteração é finalizada, as respostas de lances existentes são removidas, de forma que possam ser substituídas pelos valores atualizados. As informações como a linha de preço e quantidade de respostas de lances anteriores podem ser exibidas por meio de diários no caso de RFQ.
 
-    Para aplicar o processamento de modificação, na página **Parâmetros de compras**, na Guia Rápida **Solicitação de cotação**, defina a opção **Bloquear RFQs quando elas forem enviadas** como **Sim**. (Essa opção está definida e é obrigatória para o setor público.)
+    Para aplicar o processamento de modificação, na página **Parâmetros de compras** , na Guia Rápida **Solicitação de cotação** , defina a opção **Bloquear RFQs quando elas forem enviadas** como **Sim**. (Essa opção está definida e é obrigatória para o setor público.)
 
 - **Devoluções** – Se um fornecedor enviou um lance, mas são necessárias mais informações ou informações modificadas para o caso de RFQ, o cliente pode devolver o lance para o fornecedor. Os dados do lance enviados anteriormente serão mantidos e o fornecedor podem fazer as alterações solicitadas sem ter que reiniciar o processo de lance.
 

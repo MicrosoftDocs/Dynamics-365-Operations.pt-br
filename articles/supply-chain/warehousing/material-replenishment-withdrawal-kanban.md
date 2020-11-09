@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules
+ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules, WHSKanbanWaveTable, WHSKanbanWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d712cc3ebdc959d1fee4a2a79e3283b84f0b901a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205543"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017061"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Reabastecimento com kanbans de retirada
 
@@ -54,7 +54,7 @@ Neste cenário, um processo de fabricação (4) consome material de um local de 
 
 ## <a name="configure-warehouse-work-for-kanban-picking-for-the-withdrawal-kanban"></a>Configurar trabalhos de depósito para a separação kanban do kanban de retirada
 
-Para habilitar a separação de matéria-prima para o kanban de retirada, configure os modelos de onda, os modelos de trabalho e as diretivas de localização para o tipo de ordem de trabalho **Separação kanban**. Este tipo de ordem de trabalho não oferece suporte somente ao processo de separação do kanban de retirada. Também oferece suporte ao processo de separação do kanban de fabricação. Entretanto, você pode configurar um processo de separação para cada tipo de kanban separando os modelos de onda, os modelos de trabalho e as diretivas da localização. Para separar os modelos de onda, os modelos de trabalho e as diretivas da localização, defina critérios no tipo de atividade (**Processar** ou **Transferir**) nas consultas para essas entidades.
+Para habilitar a separação de matéria-prima para o kanban de retirada, configure os modelos de onda, os modelos de trabalho e as diretivas de localização para o tipo de ordem de trabalho **Separação kanban**. Este tipo de ordem de trabalho não oferece suporte somente ao processo de separação do kanban de retirada. Também oferece suporte ao processo de separação do kanban de fabricação. Entretanto, você pode configurar um processo de separação para cada tipo de kanban separando os modelos de onda, os modelos de trabalho e as diretivas da localização. Para separar os modelos de onda, os modelos de trabalho e as diretivas da localização, defina critérios no tipo de atividade ( **Processar** ou **Transferir** ) nas consultas para essas entidades.
 
 ## <a name="configure-the-withdrawal-kanban"></a>Configurar o kanban de retirada
 

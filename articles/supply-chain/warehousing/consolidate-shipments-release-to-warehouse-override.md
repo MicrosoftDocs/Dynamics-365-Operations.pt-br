@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
+ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFilterGroupTable, WHSShipConsolidationSetShipment, WHSShipmentConsolidation, WHSFilterGenerallyAvail, WHSReleaseToWarehouse
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 406ff268eede4a9d448b3b9c1729a00fcec8f21e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 96f994e9f3440721105545f96d7d8475fcab2b6b
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986735"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016784"
 ---
 # <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden-from-the-release-to-warehouse-page"></a>Consolidar remessas quando a política de consolidação de remessa for substituída da página Liberar para depósito
 
@@ -64,7 +64,7 @@ Siga estas etapas para substituir a política de consolidação de remessa duran
 1. Selecione **Liberar para depósito**.
 1. Selecione a segunda e a terceira ordens de venda criadas para esse cenário.
 1. Selecione **Adicionar** para adicionar as linhas à liberação para o depósito. Observe que a política *padrão* é aplicada no painel inferior.
-1. Selecione a segunda linha e, em seguida, no campo **Selecionar nova política de consolidação de remessa**, selecione a política *CustomerOrderNo*.
+1. Selecione a segunda linha e, em seguida, no campo **Selecionar nova política de consolidação de remessa** , selecione a política *CustomerOrderNo*.
 1. Selecione **Liberar para depósito** para as duas linhas.
 
 ## <a name="verify-the-shipments"></a>Verifique as remessas
@@ -78,7 +78,7 @@ Siga estas etapas para revisar as remessas que foram criadas.
 
 1. Acesse **Gerenciamento de depósito \> Remessas \> Todas as remessas**.
 1. Localize e selecione a remessa necessária.
-1. No campo **Política de consolidação de remessa**, revise a política de consolidação usada quando a remessa foi criada.
+1. No campo **Política de consolidação de remessa** , revise a política de consolidação usada quando a remessa foi criada.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

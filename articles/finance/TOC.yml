@@ -182,9 +182,9 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/finance/toc.json
                 - name: Planejamento de ambiente
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/finance/toc.json
-                - name: Preparar para a ativação
+                - name: Preparar para o Go Live
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/finance/toc.json
-                - name: ​Perguntas frequentes sobre ativação​
+                - name: ​Perguntas frequentes sobre o Go Live​
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Enviar uma solicitação de serviço
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/finance/toc.json
@@ -240,6 +240,8 @@
                   href: accounts-payable/submit-invoice-workflow-automatically.md
                 - name: Exibir resultados da automação de fatura de fornecedor
                   href: accounts-payable/view-automated-vendor-invoice.md
+                - name: Espaço de trabalho de entrada de fatura de fornecedor
+                  href: accounts-payable/vendor-invoices-workspace.md
             - name: Distribuições contábeis e entradas no diário-razão auxiliar para faturas de fornecedor
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: Conciliação de faturas e ordens de compra intercompanhia
@@ -922,9 +924,11 @@
                   href: general-ledger/open-lines-excel-journals-documents.md
                 - name: Exibir entradas de diário e transações
                   href: general-ledger/view-journal-entries-transactions.md
+                - name: Balancete com relatório de detalhes transacionais
+                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Lançar em diário entradas de diário
                   href: general-ledger/tasks/journalize-posted-journal-entries.md
-                - name: ​Reavaliação de moeda em uma empresa de consolidação​
+                - name: Reavaliação de moeda em uma empresa de consolidação
                   href: general-ledger/currency-revaluation-consolidation-company.md
                 - name: ​Reavaliação de moeda estrangeira para contabilidade​
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
@@ -1170,8 +1174,6 @@
                   href: public-sector/advanced-ledger-entries-public-sector.md
                 - name: Criar uma entrada avançada no razão no setor público
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
-                - name: Balancete com relatório de detalhes transacionais
-                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Usar limites de controle de caixa
                   href: public-sector/cash-control.md
                 - name: Processamento de fechamento do exercício no setor público
@@ -1250,7 +1252,7 @@
               items:
                 - name: Visão geral de faturamento eletrônico
                   href: localizations/e-invoicing-service-overview.md
-                - name: Criar uma conta de armazenamento do Azure e um Cofre de Chaves
+                - name: Criar uma conta de armazenamento do Azure e um Key Vault
                   href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
                 - name: Introdução ao complemento do faturamento eletrônico
                   href: localizations/e-invoicing-get-started.md
@@ -1398,6 +1400,8 @@
                       href: localizations/tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md
                     - name: Certificados de NF-e
                       href: localizations/latam-bra-nfe-certs.md
+                    - name: Validação de certificado personalizado de NF-e
+                      href: localizations/nf-e-custom-certificate-validation.md
                     - name: 'Configurar, importar e verificar documentos XML de NF-e e DANFE'
                       href: localizations/latam-bra-set-up-import-nfe.md
                     - name: Configurar parâmetros federais de NF-e
@@ -2080,6 +2084,8 @@
                       href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
                     - name: Consultas de impostos
                       href: localizations/apac-ind-GST-tax-inquiry.md
+                    - name: Limpar a tabela TaxDocumentJSON
+                      href: localizations/gte-clean-up-tax-document-json-table.md
                 - name: Mecanismo de cálculo de impostos
                   items:
                     - name: Visão geral do mecanismo de cálculo de impostos
@@ -2651,7 +2657,7 @@
                         - name: Visão geral do perfil de estoque
                           href: localizations/rus-inventory-profile-overview.md
                         - name: Configurar um perfil de estoque
-                          hreF: localizations/rus-set-up-inventory-profile.md
+                          href: localizations/rus-set-up-inventory-profile.md
                         - name: Usar um perfil de estoque em documentos e consultas
                           href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: Relatórios

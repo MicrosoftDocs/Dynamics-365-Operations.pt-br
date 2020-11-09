@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSWorkLocationChange, WHSWorkLineDetails
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Retail, Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 4f0952cc8778ffc509bed80b3a5038dbf4fb76c2
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: bcb340b21e06b294a40784bf3a1da71b0daf7655
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597183"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015886"
 ---
 # <a name="work-line-details"></a>Detalhes da linha de trabalho
 
@@ -30,7 +31,7 @@ A página **Detalhes da linha de trabalho** mostra uma lista abrangente, classif
 
 ## <a name="turn-on-the-work-line-details-feature"></a>Ativar o recurso de detalhes da linha de trabalho
 
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos** , o recurso está listado da seguinte forma:
 
 - **Módulo:** *Gerenciamento de Depósito*
 - **Nome do recurso:** *Detalhes da linha de trabalho*
@@ -41,7 +42,7 @@ Para exibir a lista de detalhes da linha de trabalho, acesse **Gerenciamento de 
 
 - Use o campo **Filtro** para procurar linhas que tenham um valor específico para qualquer parâmetro disponível. (Os parâmetros disponíveis incluem muitos parâmetros que não são mostrados como colunas na grade.)
 - Use a caixa de seleção **Mostrar fechadas** para mostrar ou ocultar as linhas fechadas.
-- Selecione **Exibir dimensões** para abrir a caixa de diálogo **Exibição de dimensões**, na qual você pode optar por mostrar ou ocultar várias colunas de dimensão na grade.
+- Selecione **Exibir dimensões** para abrir a caixa de diálogo **Exibição de dimensões** , na qual você pode optar por mostrar ou ocultar várias colunas de dimensão na grade.
 - Selecione qualquer cabeçalho de coluna para abrir um menu no qual é possível optar por classificar ou filtrar a lista por valores nessa coluna.
 - Selecione uma linha de trabalho e, em seguida, selecione **Alterar localização** para abrir uma caixa de diálogo na qual é possível alterar a localização dessa linha de trabalho. A localização que você especificar substituirá a configuração da diretiva de localização.
 - Selecione uma linha de trabalho e selecione **Cancelar linha de trabalho** para abrir uma caixa de diálogo na qual é possível reduzir parcialmente ou totalmente a quantidade dessa linha de trabalho.
@@ -60,7 +61,7 @@ Você também pode usar essa demonstração como orientação ao trabalhar em um
 
 ### <a name="verify-that-the-scenario-setup-includes-enough-available-inventory"></a>Verificar se a configuração do cenário inclui estoque disponível suficiente
 
-Se estiver trabalhando com os dados de demonstração **USMF**, você primeiro deverá se certificar de que o sistema esteja configurado de maneira que haja estoque suficiente disponível em cada local de separação relevante. Para essa demonstração, a expectativa é de que você tenha o seguinte estoque disponível:
+Se estiver trabalhando com os dados de demonstração **USMF** , você primeiro deverá se certificar de que o sistema esteja configurado de maneira que haja estoque suficiente disponível em cada local de separação relevante. Para essa demonstração, a expectativa é de que você tenha o seguinte estoque disponível:
 
 - **Item M9200:** 45 unidades. (ou mais)
 - **Item M9202:** 10 unidades. (ou mais)
@@ -79,10 +80,10 @@ Siga estas etapas para criar alguns trabalhos de separação:
 
 1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. Selecione **Criar** para abrir a caixa de diálogo **Criar ordem de venda**.
-1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
+1. Na caixa de diálogo **Criar ordem de venda** , defina os seguintes valores:
 
-    - Na FastTab **Cliente**, defina o campo **Conta do cliente** como _US-001_.
-    - Na FastTab **Geral**, defina o campo **Depósito**, como _51_.
+    - Na FastTab **Cliente** , defina o campo **Conta do cliente** como _US-001_.
+    - Na FastTab **Geral** , defina o campo **Depósito** , como _51_.
 
 1. Selecione **OK** para criar a ordem de venda e fechar a caixa de diálogo.
 1. A nova ordem de venda é aberta. Ela inclui uma nova linha vazia na grade **Linhas da ordem de venda**. Nessa linha de ordem, defina os seguintes valores:
@@ -91,14 +92,14 @@ Siga estas etapas para criar alguns trabalhos de separação:
     - **Quantidade:** _20_
     - **Unidade:** _ea_
 
-1. Selecione a nova linha da ordem e, no menu **Estoque**, selecione **Reserva** para abrir a página **Reserva**.
-1. Na página **Reserva**, selecione **Reservar lote** para reservar a quantidade total da linha selecionada no depósito.
+1. Selecione a nova linha da ordem e, no menu **Estoque** , selecione **Reserva** para abrir a página **Reserva**.
+1. Na página **Reserva** , selecione **Reservar lote** para reservar a quantidade total da linha selecionada no depósito.
 1. Feche a página **Reserva** para retornar à ordem de venda.
-1. No Painel de Ações, na guia **Depósito**, selecione **Liberar para o depósito**. O sistema criará uma remessa, a adicionará a uma nova carga e criará o trabalho necessário.
+1. No Painel de Ações, na guia **Depósito** , selecione **Liberar para o depósito**. O sistema criará uma remessa, a adicionará a uma nova carga e criará o trabalho necessário.
 1. Crie uma segunda ordem de venda para a mesma conta de cliente e depósito que você usou para a primeira ordem. Adicione estas duas linhas de ordem à ordem:
 
-    - **Linha 1:** defina o campo **Número do item** como _M9200_, o campo **Quantidade** como _25_ e o campo **Unidade** como _unidade_.
-    - **Linha 2:** defina o campo **Número do item** como _M9202_, o campo **Quantidade** como _10_ e o campo **Unidade** como _unidade_.
+    - **Linha 1:** defina o campo **Número do item** como _M9200_ , o campo **Quantidade** como _25_ e o campo **Unidade** como _unidade_.
+    - **Linha 2:** defina o campo **Número do item** como _M9202_ , o campo **Quantidade** como _10_ e o campo **Unidade** como _unidade_.
 
 1. Repita as etapas de 6 a 8 para reservar o estoque para cada linha da ordem (uma por vez) e repita a etapa 9 para liberar a ordem para o depósito.
 
@@ -107,7 +108,7 @@ Siga estas etapas para criar alguns trabalhos de separação:
 1. Acesse **Gerenciamento de depósito \> Trabalho \> Detalhes da linha de trabalho**.
 1. Encontre e selecione uma das linhas de trabalho criadas para esta demonstração.
 1. Selecione **Alterar localização** para abrir a caixa de diálogo **Selecionar novo local**.
-1. Na caixa de diálogo **Selecionar novo local**, no campo **Local**, selecione um novo local para a linha de trabalho.
+1. Na caixa de diálogo **Selecionar novo local** , no campo **Local** , selecione um novo local para a linha de trabalho.
 1. Selecione **OK** para aplicar a alteração e fechar a caixa de diálogo.
 
 > [!IMPORTANT]
@@ -118,9 +119,9 @@ Siga estas etapas para criar alguns trabalhos de separação:
 1. Acesse **Gerenciamento de depósito \> Trabalho \> Detalhes da linha de trabalho**.
 1. Encontre e selecione uma das linhas de trabalho criadas para esta demonstração. Observe que você pode cancelar ou alterar quantidades somente para as linhas de trabalho nas quais o tipo de trabalho for _separação_.
 1. Selecione **Cancelar linha de trabalho** para abrir a caixa de diálogo **Quantidade a ser cancelada**.
-1. Na caixa de diálogo **Quantidade a ser cancelada**, altere o valor no campo **Quantidade** para especificar a quantidade que deve ser *subtraída da* quantidade atualmente especificada para a linha. Por padrão, o campo **Quantidade** mostra a quantidade total.
+1. Na caixa de diálogo **Quantidade a ser cancelada** , altere o valor no campo **Quantidade** para especificar a quantidade que deve ser *subtraída da* quantidade atualmente especificada para a linha. Por padrão, o campo **Quantidade** mostra a quantidade total.
 
-    - Se você cancelar a quantidade total, o valor do **Status do trabalho** será alterado para _Cancelado_, mas o campo **Quantidade do trabalho** ainda mostrará o valor original.
+    - Se você cancelar a quantidade total, o valor do **Status do trabalho** será alterado para _Cancelado_ , mas o campo **Quantidade do trabalho** ainda mostrará o valor original.
     - Se você cancelar apenas parte da quantidade, o campo **Quantidade do trabalho** será atualizado para mostrar o novo valor, mas o valor do **Status do trabalho** não será alterado.
 
 1. Selecione **OK** para aplicar a alteração e fechar a caixa de diálogo.

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 013e37269ec3df2bede15b28cffcc175967de9a3
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 7f1a6e424996201ecae1b624c13cfc573745dc0a
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172612"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997269"
 ---
 # <a name="troubleshoot-issues-related-to-solution-awareness"></a>Solucionar problemas relacionados ao reconhecimento da solução
 
@@ -39,7 +38,7 @@ Este tópico fornece informações de solução de problemas para integração d
 
 ## <a name="error-on-the-dual-write-page"></a>Erro na página de gravação dupla
 
-Na página **Gravação dupla**, você pode receber uma mensagem de erro parecida com o seguinte exemplo:
+Na página **Gravação dupla** , você pode receber uma mensagem de erro parecida com o seguinte exemplo:
 
 *A entidade com um nome "msdyn\_dualwriteentitymap" with namemapping="Logical" não foi encontrada no MetadataCache.*
 

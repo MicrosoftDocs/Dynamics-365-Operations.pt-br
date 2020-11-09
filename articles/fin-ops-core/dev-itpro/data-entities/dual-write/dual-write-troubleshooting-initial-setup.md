@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 76e104c9ebd7db7ebcbaf214e84be6c4353e8a73
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 6fb71a17d767a1e84511743794d85523db25eba8
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275432"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997341"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Solucionar problemas durante a configuração inicial
 
@@ -41,7 +40,7 @@ Este tópico fornece informações de solução de problemas para integração d
 
 **Função necessária para configurar a gravação dupla:** administrador do sistema nos aplicativos Finance and Operations e Common Data Service.
 
-Erros na página **Configurar link para Common Data Service** geralmente são causados por configuração incompleta ou problemas de permissão. Verifique se toda a verificação de integridade foi aprovada na página **Configurar link para Common Data Service**, conforme mostrado na ilustração a seguir. Não é possível vincular a dupla gravação, a menos que toda a verificação de integridade seja aprovada.
+Erros na página **Configurar link para Common Data Service** geralmente são causados por configuração incompleta ou problemas de permissão. Verifique se toda a verificação de integridade foi aprovada na página **Configurar link para Common Data Service** , conforme mostrado na ilustração a seguir. Não é possível vincular a dupla gravação, a menos que toda a verificação de integridade seja aprovada.
 
 ![Verificação bem-sucedida de integridade](media/health_check.png)
 
@@ -70,7 +69,7 @@ Para fornecer consentimento ao aplicativo, siga estas etapas.
 
 ## <a name="verify-that-company-data-and-dual-write-teams-are-set-up-correctly-during-linking"></a>Verificar se os dados da empresa e as equipes de gravação dupla estão configurados corretamente durante a vinculação
 
-Para garantir que a gravação dupla funcione corretamente, as empresas selecionadas durante a configuração são criadas no ambiente do Common Data Service. Por padrão, essas empresas são apenas leitura e a propriedade **IsDualWriteEnable** está definida como **Verdadeira**. Além disso, o proprietário e a equipe padrão da unidade de negócios são criados e incluem o nome da empresa. Antes de habilitar os mapas, verifique se o proprietário padrão da equipe foi especificado. Para encontrar a entidade **Empresas (Empresa\_CDM)**, siga estas etapas.
+Para garantir que a gravação dupla funcione corretamente, as empresas selecionadas durante a configuração são criadas no ambiente do Common Data Service. Por padrão, essas empresas são apenas leitura e a propriedade **IsDualWriteEnable** está definida como **Verdadeira**. Além disso, o proprietário e a equipe padrão da unidade de negócios são criados e incluem o nome da empresa. Antes de habilitar os mapas, verifique se o proprietário padrão da equipe foi especificado. Para encontrar a entidade **Empresas (Empresa\_CDM)** , siga estas etapas.
 
 1. No aplicativo baseado em modelo no Dynamics 365, selecione o filtro no canto superior direito.
 2. Na lista suspensa, selecione **Empresa**.

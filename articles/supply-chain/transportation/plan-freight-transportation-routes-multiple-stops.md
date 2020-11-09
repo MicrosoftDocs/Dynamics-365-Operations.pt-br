@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSRouteGuide, TMSRoutePlan, TMSRouteWorkbench, WHSLoadTemplate
+ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSRouteGuide, TMSRoutePlan, TMSRouteWorkbench, WHSLoadTemplate, TMSRouteSchedule, TMSRouteRateDetail
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b76a6530517ec9e2e513cda7477f271558632650
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 04346363070fff4dc3110a620c3d9bc9b1016d1e
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206256"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017842"
 ---
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Planejar rotas de transporte de frete com várias paradas
 
@@ -43,7 +43,7 @@ Um plano de rota contém segmentos de rota que fornecem informações sobre as p
 Cada plano de rota deve ser associado a um guia de rota.
 
 ## <a name="route-guides"></a>Guias de roteiros
-Um guia de rota define os critérios de correspondência de uma carga a um plano de rota específico. Por exemplo, você pode especificar um hub de origem e um hub de destino, os limites para o volume do recipiente ou peso e uma transportadora, serviço ou grupo. Guias de rota estão disponíveis na página **Bancada do roteiro de taxa**, onde onde cargas podem ser adequadas às rotas manual ou automaticamente. Se a guia roteiro for para um roteiro agendado, também está disponível na página **Bancada de criação de carga**.
+Um guia de rota define os critérios de correspondência de uma carga a um plano de rota específico. Por exemplo, você pode especificar um hub de origem e um hub de destino, os limites para o volume do recipiente ou peso e uma transportadora, serviço ou grupo. Guias de rota estão disponíveis na página **Bancada do roteiro de taxa** , onde onde cargas podem ser adequadas às rotas manual ou automaticamente. Se a guia roteiro for para um roteiro agendado, também está disponível na página **Bancada de criação de carga**.
 
 ## <a name="scheduled-routes"></a>Roteiros agendados
 Uma rota programada é um plano de rota predefinida que tem uma agenda para as datas de remessa. Roteiros agendados e rotas não agendadas são diferentes da forma que os carregamentos são atribuídos a eles. Se você atribuir uma rota não programada usando a Bancada de trabalho de roteiro de taxa, apenas a carga e o guia de rota são validados. Se você atribuir uma rota agendada, as datas e os endereços de pedidos e os hubs e a data no plano de rota também são considerados. Você não precisa usar a página de Bancada de trabalho de roteiro de taxa para atribuir manualmente as cargas a um roteiro agendado. Em vez disso, você pode usar a Bancada de criação de carga para sugerir que as cargas sejam criadas com base nos endereços de clientes e datas de entrega de ordens de venda para uma determinada rota programada. Para rotas agendadas, o plano de rota irá ter corrigido hubs de origem e de destino. Normalmente, o serviço de transportadora será o mesmo para todos os segmentos, mas eles podem ser diferentes. Os hubs de destino são criados usando os códigos postais dos clientes que visitaram no roteiro. Várias agendas de rota podem ser definidas para o plano de uma rota. O plano de rota deve ser associado a um guia de rota. No entanto, para rotas agendadas, o plano pode ser associado com apenas um guia de rota. O agendamento de rota é usado somente para criar rotas reais na página **Agenda de rota**. Você pode usar o modelo padrão de carga ao propor cargas sobre a Bancada de trabalho de criação de carga.

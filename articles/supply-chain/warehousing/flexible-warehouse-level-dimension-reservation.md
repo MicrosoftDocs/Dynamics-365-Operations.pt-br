@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSReservationHierarchy
+ms.search.form: WHSReservationHierarchy, WHSWorkTrans, WHSWorkInventTrans, WHSInventTableReservationHierarchy, WHSReservationHierarchyCreate, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: d75e6a8b48447a33156e03d50e990b8514bacda9
-ms.sourcegitcommit: d540998ad6f9c894ca99498c045ae4b86b779806
+ms.openlocfilehash: b9bd4e67ed64218f9c4ac87bd143f73680af9ac4
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3970694"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017635"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Política de reserva de dimensão no nível de depósito flexível
 
@@ -70,14 +70,14 @@ Quando o nível **Número do lote** na hierarquia é selecionado, todas as dimen
 >
 > **Número do lote** e **Placa de licença** são os únicos níveis na hierarquia que estão abertos para a política de reserva flexível. Em outras palavras, você não pode marcar a caixa de seleção **Permitir reserva na ordem de demanda** para o nível de **Local** ou **Número de série**.
 >
-> Se a hierarquia de reservas incluir a dimensão de número de série (que deve estar sempre abaixo do nível **Número do lote**) e se você tiver ativado a reserva específica do lote para o número do lote, o sistema continuará tratando a reserva de número de série e as operações de separação, com base nas regras que se aplicam à política de reserva "Abaixo da série\[local\].
+> Se a hierarquia de reservas incluir a dimensão de número de série (que deve estar sempre abaixo do nível **Número do lote** ) e se você tiver ativado a reserva específica do lote para o número do lote, o sistema continuará tratando a reserva de número de série e as operações de separação, com base nas regras que se aplicam à política de reserva "Abaixo da série\[local\].
 
-A qualquer momento, você pode permitir a reserva específica de lote para uma hierarquia de reservas "Abaixo do lote\[local\]" existente em sua implantação. Essa alteração não afetará as reservas nem o trabalho de depósito aberto que foram criados antes da alteração. No entanto , a caixa de seleção **Permitir reserva na ordem de demanda** não poderá ser desmarcada se existirem transações de estoque do tipo de saída **Qtd. encomendada**, **Qtd. reservada** ou **Encomendado** para um ou mais itens que são associados a essa hierarquia de reservas.
+A qualquer momento, você pode permitir a reserva específica de lote para uma hierarquia de reservas "Abaixo do lote\[local\]" existente em sua implantação. Essa alteração não afetará as reservas nem o trabalho de depósito aberto que foram criados antes da alteração. No entanto , a caixa de seleção **Permitir reserva na ordem de demanda** não poderá ser desmarcada se existirem transações de estoque do tipo de saída **Qtd. encomendada** , **Qtd. reservada** ou **Encomendado** para um ou mais itens que são associados a essa hierarquia de reservas.
 
 > [!NOTE]
 > Se a hierarquia de reservas existente de um item não permitir especificação de lote na ordem, você poderá reatribuí-la a uma hierarquia de reservas que permita a especificação de lote, desde que a estrutura do nível de hierarquia seja a mesma nas duas hierarquias. Use a função **Alterar hierarquia de reservas de itens** para fazer a reatribuição. Essa alteração pode ser relevante quando você deseja impedir a reserva flexível de lote para um subconjunto de itens rastreados por lote, mas permiti-la para o restante do portfólio de produtos.
 
-Independentemente de você ter marcado a caixa de seleção **Permitir reserva na ordem de demanda**, se não quiser reservar um número de lote específico para o item em uma linha da ordem, ainda será aplicada a lógica padrão de operações de depósito válida para uma hierarquia de reservas "Abaixo do lote\[local\].
+Independentemente de você ter marcado a caixa de seleção **Permitir reserva na ordem de demanda** , se não quiser reservar um número de lote específico para o item em uma linha da ordem, ainda será aplicada a lógica padrão de operações de depósito válida para uma hierarquia de reservas "Abaixo do lote\[local\].
 
 ### <a name="reserve-a-specific-batch-number-for-a-customer-order"></a>Reservar um número de lote específico para uma ordem de cliente
 
@@ -102,20 +102,20 @@ Para este exemplo, os dados de demonstração devem ser instalados, e você deve
 
 1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Estoque \> Hierarquia de reservas**.
 2. Selecione **Novo**.
-3. No campo **Nome**, insira um nome (por exemplo, **BatchFlex**).
-4. No campo **Descrição**, insira uma descrição (por exemplo, **Abaixo do lote flexível**).
-5. No campo **Selecionado**, selecione **Número de série** e **Proprietário**; em seguida, selecione o botão de seta para a esquerda a fim de movê-los para o campo **Disponível**.
+3. No campo **Nome** , insira um nome (por exemplo, **BatchFlex** ).
+4. No campo **Descrição** , insira uma descrição (por exemplo, **Abaixo do lote flexível** ).
+5. No campo **Selecionado** , selecione **Número de série** e **Proprietário** ; em seguida, selecione o botão de seta para a esquerda a fim de movê-los para o campo **Disponível**.
 6. Selecione **OK**.
-7. Na linha do nível de dimensão **Número do lote**, marque a caixa de seleção **Permitir reserva na ordem de demanda**. Os níveis **Placa de licença** e **Local** são selecionados automaticamente, e não é possível desmarcar suas caixas de seleção.
+7. Na linha do nível de dimensão **Número do lote** , marque a caixa de seleção **Permitir reserva na ordem de demanda**. Os níveis **Placa de licença** e **Local** são selecionados automaticamente, e não é possível desmarcar suas caixas de seleção.
 8. Selecione **Salvar**.
 
 ### <a name="create-a-new-released-product"></a>Crie um novo produto liberado
 
 1. Defina os três parâmetros de dados mestres do produto usando estes valores:
 
-    - No campo **Grupo de dimensões de armazenamento**, selecione **Ware**.
-    - No campo **Grupo de dimensões de rastreamento**, selecione **Batch-Phy**.
-    - No campo **Hierarquia de reservas**, selecione **BatchFlex**.
+    - No campo **Grupo de dimensões de armazenamento** , selecione **Ware**.
+    - No campo **Grupo de dimensões de rastreamento** , selecione **Batch-Phy**.
+    - No campo **Hierarquia de reservas** , selecione **BatchFlex**.
 
 2. Crie dois números de lote, como **B11** e **B22**.
 3. Adicione as quantidades de item ao estoque disponível usando os valores a seguir.
@@ -130,23 +130,23 @@ Para este exemplo, os dados de demonstração devem ser instalados, e você deve
 
 1. Vá para **Vendas e marketing** \> **Ordens de venda** \> **Todas as ordens de venda**.
 2. Selecione **Novo**.
-3. No cabeçalho da ordem de venda, no campo **Conta de cliente**, digite **US-003**.
+3. No cabeçalho da ordem de venda, no campo **Conta de cliente** , digite **US-003**.
 4. Adicione uma linha para o novo item e insira **10** como a quantidade. Verifique se o campo **Depósito** está definido como **24**.
-5. Na FastTab **Linhas da ordem de venda**, selecione **Estoque** e, no grupo **Manter**, selecione **Reserva de lotes**. A página **Reserva de lotes** mostra uma lista de lotes que estão disponíveis para reserva para a linha da ordem. Neste exemplo, ela mostra uma quantidade de **20** para o número do lote **B11** e uma quantidade de **10** para o número do lote **B22**. Observe que a página **Reserva de lotes** não poderá ser acessada de uma linha se o item nessa linha estiver associado à hierarquia de reservas "Abaixo do lote\[local\]", a menos que esteja configurada para permitir reserva específica de lote.
+5. Na FastTab **Linhas da ordem de venda** , selecione **Estoque** e, no grupo **Manter** , selecione **Reserva de lotes**. A página **Reserva de lotes** mostra uma lista de lotes que estão disponíveis para reserva para a linha da ordem. Neste exemplo, ela mostra uma quantidade de **20** para o número do lote **B11** e uma quantidade de **10** para o número do lote **B22**. Observe que a página **Reserva de lotes** não poderá ser acessada de uma linha se o item nessa linha estiver associado à hierarquia de reservas "Abaixo do lote\[local\]", a menos que esteja configurada para permitir reserva específica de lote.
 
     > [!NOTE]
     > Para reservar um lote específico para uma ordem de venda, você deve usar a página **Reserva de lotes**.
     >
     > Se você inserir o número do lote diretamente na linha da ordem de venda, o sistema se comportará como se você tivesse inserido um valor de lote específico para um item que está sujeito à política de reserva "Abaixo do lote\[local\]". Ao salvar a linha, você receberá uma mensagem de aviso. Se você confirmar que o número do lote deve ser especificado diretamente na linha da ordem, a linha não será manipulada pela lógica de gerenciamento de depósito normal.
     >
-    > Se você reservar a quantidade na página **Reserva**, nenhum lote específico será reservado e a execução das operações de depósito para a linha seguirá as regras aplicáveis sob a política de reserva "Abaixo do lote\[local\].
+    > Se você reservar a quantidade na página **Reserva** , nenhum lote específico será reservado e a execução das operações de depósito para a linha seguirá as regras aplicáveis sob a política de reserva "Abaixo do lote\[local\].
 
     Em geral, essa página funciona e interage da mesma maneira que funciona e interage para itens que têm uma hierarquia de reservas associada do tipo "Acima do lote\[local\]". No entanto, as seguintes exceções se aplicam:
 
-    - A FastTab **Números de lote confirmados para linha de origem** mostra os números de lote que são reservados para a linha da ordem. Os valores de lote na grade serão mostrados durante todo o ciclo de atendimento da linha da ordem, inclusive nos estágios de processamento do depósito. Em contrapartida, na FastTab **Visão Geral**, a reserva regular da linha da ordem (isto é, a reserva que é feita para as dimensões acima do nível **Local**) é mostrada na grade até o ponto em que o trabalho de depósito é criado. A entidade de trabalho assume a reserva de linha, e a reserva de linha não aparece mais na página. A FastTab **Números de lote confirmados para linha de origem** ajuda a garantir que o processador de ordem de venda possa ver os números de lotes que foram confirmados na ordem do cliente em qualquer ponto do seu ciclo de vida, até o faturamento.
+    - A FastTab **Números de lote confirmados para linha de origem** mostra os números de lote que são reservados para a linha da ordem. Os valores de lote na grade serão mostrados durante todo o ciclo de atendimento da linha da ordem, inclusive nos estágios de processamento do depósito. Em contrapartida, na FastTab **Visão Geral** , a reserva regular da linha da ordem (isto é, a reserva que é feita para as dimensões acima do nível **Local** ) é mostrada na grade até o ponto em que o trabalho de depósito é criado. A entidade de trabalho assume a reserva de linha, e a reserva de linha não aparece mais na página. A FastTab **Números de lote confirmados para linha de origem** ajuda a garantir que o processador de ordem de venda possa ver os números de lotes que foram confirmados na ordem do cliente em qualquer ponto do seu ciclo de vida, até o faturamento.
     - Além de reservar um lote específico, um usuário pode selecionar manualmente o local específico e a placa de licença do lote em vez de permitir que o sistema os selecione automaticamente. Esse recurso está relacionado ao design do mecanismo de reserva de lotes confirmados na ordem. Como foi mencionado anteriormente, quando um número de lote é reservado para um item de acordo com a política de reserva "Abaixo do lote\[local\]", o sistema deve reservar todas as dimensões até local. Portanto, o trabalho de depósito carregará as mesmas dimensões de armazenamento que foram reservadas pelos usuários que trabalharam com as ordens, e isso nem sempre representará o posicionamento de armazenamento do item que é conveniente, ou mesmo possível, para as operações de separação. Se os processadores de ordem estiverem cientes das restrições do depósito, talvez eles queiram selecionar manualmente os locais específicos e as placas de licença quando reservarem um lote. Nesse caso, o usuário deve usar a funcionalidade **Exibir dimensões** no cabeçalho da página, bem como deve adicionar o local e a placa de licença na grade, na FastTab **Visão Geral**.
 
-6. Na página **Reserva de lotes**, selecione a linha para o lote **B11** e, em seguida, selecione **Reservar linha**. Não há lógica designada para atribuir locais e placas de licença durante a reserva automática. Você pode inserir manualmente a quantidade no campo **Reserva**. Observe que, na FastTab **Números de lote confirmados para linha de origem**, o lote **B11** é mostrado como **Confirmado**.
+6. Na página **Reserva de lotes** , selecione a linha para o lote **B11** e, em seguida, selecione **Reservar linha**. Não há lógica designada para atribuir locais e placas de licença durante a reserva automática. Você pode inserir manualmente a quantidade no campo **Reserva**. Observe que, na FastTab **Números de lote confirmados para linha de origem** , o lote **B11** é mostrado como **Confirmado**.
 
     ![Confirmando um número de lote específico para uma linha da ordem de venda na página Reserva de lotes](media/Batch-reservation-form-with-order-committed-reservation.png)
 
@@ -168,7 +168,7 @@ Para este exemplo, os dados de demonstração devem ser instalados, e você deve
 
 ### <a name="review-and-process-warehouse-work-that-has-order-committed-batch-numbers"></a>Revisar e processar trabalho de depósito que tenha números de lote confirmados na ordem
 
-1. Na FastTab **Linhas de ordem de venda**, selecione **Depósito** \> **Detalhes do trabalho**.
+1. Na FastTab **Linhas de ordem de venda** , selecione **Depósito** \> **Detalhes do trabalho**.
 
     O trabalho que manipula a operação de separação para quantidades de lote que são confirmadas na linha da ordem de venda tem as seguintes características:
 
@@ -212,9 +212,9 @@ Para habilitar a reserva da placa de licença em uma ordem, você deve marcar a 
 
 ![Página de hierarquias da reserva de estoque para uma hierarquia flexível de reservas da placa de licença](media/Flexible-LP-reservation-hierarchy.png)
 
-Você pode habilitar a reserva da placa de licença na ordem em qualquer ponto da implantação. Essa alteração não afetará as reservas nem o trabalho de depósito aberto que foram criados antes da alteração. No entanto , a caixa de seleção **Permitir reserva na ordem de demanda** não poderá ser desmarcada se existirem transações de estoque de saída que tem um status de emissão de *Na ordem*, *Encomendada reservada* ou *Encomendada* para um ou mais itens que são associados a essa hierarquia de reservas.
+Você pode habilitar a reserva da placa de licença na ordem em qualquer ponto da implantação. Essa alteração não afetará as reservas nem o trabalho de depósito aberto que foram criados antes da alteração. No entanto , a caixa de seleção **Permitir reserva na ordem de demanda** não poderá ser desmarcada se existirem transações de estoque de saída que tem um status de emissão de *Na ordem* , *Encomendada reservada* ou *Encomendada* para um ou mais itens que são associados a essa hierarquia de reservas.
 
-Mesmo que a caixa de seleção **Permitir reserva em ordem de demanda** esteja marcada para o nível de **Placa de licença**, ainda é possível *não* reservar uma placa de licença específica na ordem. Nesse caso, a lógica de operações de depósito padrão válida para a hierarquia de reserva é aplicada.
+Mesmo que a caixa de seleção **Permitir reserva em ordem de demanda** esteja marcada para o nível de **Placa de licença** , ainda é possível *não* reservar uma placa de licença específica na ordem. Nesse caso, a lógica de operações de depósito padrão válida para a hierarquia de reserva é aplicada.
 
 Para reservar uma placa de licença específica, você deve usar um processo [Protocolo de Dados Aberto (OData)](../../fin-ops-core/dev-itpro/data-entities/odata.md). No aplicativo, é possível fazer essa reserva diretamente de uma ordem de venda usando a opção de **Reservas confirmadas na ordem por placa de licença** do comando **Abrir no Excel**. Nos dados da entidade que são abertos no suplemento do Excel, você deve inserir os seguintes dados relacionados à reserva e selecionar **Publicar** para enviar os dados de volta ao Supply Chain Management:
 
@@ -224,7 +224,7 @@ Para reservar uma placa de licença específica, você deve usar um processo [Pr
 - Placa de licença
 - Quantidade
 
-Se for necessário reservar uma placa de licença específica para um item controlado por lote, use a página **Reserva de lote**, conforme descrito na seção [Inserir detalhes da ordem de venda](#sales-order-details).
+Se for necessário reservar uma placa de licença específica para um item controlado por lote, use a página **Reserva de lote** , conforme descrito na seção [Inserir detalhes da ordem de venda](#sales-order-details).
 
 Quando a linha da ordem de venda que usa uma reserva de placa de licença confirmada por ordem é processada pelas operações de depósito, as diretivas de localização não são usadas.
 
@@ -249,19 +249,19 @@ Este cenário faz referência a valores e registros incluídos nos dados de demo
 
 1. Vá para **Gerenciamento de depósito \> Configuração \> Estoque \> Hierarquia da reserva**.
 1. Selecione **Novo**.
-1. No campo **Nome**, insira um valor (por exemplo, *FlexibleLP*).
-1. No campo **Descrição**, insira um valor (por exemplo, *Reserva de placa de licença flexível*).
-1. Na lista **Selecionada**, selecione o **Número do lote**, **Número de série** e o **Proprietário**.
+1. No campo **Nome** , insira um valor (por exemplo, *FlexibleLP* ).
+1. No campo **Descrição** , insira um valor (por exemplo, *Reserva de placa de licença flexível* ).
+1. Na lista **Selecionada** , selecione o **Número do lote** , **Número de série** e o **Proprietário**.
 1. Selecione o botão **Remover** ![seta para trás](media/backward-button.png) para mover os registros selecionados para a lista **Disponível**.
 1. Selecione **OK**.
-1. Na linha do nível de dimensão **Placa de licença**, marque a caixa de seleção **Permitir reserva na ordem de demanda**. O nível **Local** é selecionado automaticamente, e não é possível desmarcar a caixa de seleção dele.
+1. Na linha do nível de dimensão **Placa de licença** , marque a caixa de seleção **Permitir reserva na ordem de demanda**. O nível **Local** é selecionado automaticamente, e não é possível desmarcar a caixa de seleção dele.
 1. Selecione **Salvar**.
 
 ### <a name="create-two-released-products"></a>Crie dois produtos lançados
 
 1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
 1. No Painel de Ações, selecione **Novo**.
-1. Na caixa de diálogo **Novo produto lançado**, defina os seguintes valores:
+1. Na caixa de diálogo **Novo produto lançado** , defina os seguintes valores:
 
     - **Número do produto:** *Item1*
     - **Número do item:** *Item1*
@@ -272,9 +272,9 @@ Este cenário faz referência a valores e registros incluídos nos dados de demo
     - **Hierarquia de reserva:** *FlexibleLP*
 
 1. Selecione **OK** para criar o produto e fechar a caixa de diálogo.
-1. O novo produto é aberto. Na guia rápida **Depósito**, no campo **ID do grupo de sequências de unidade**, insira *cada*.
+1. O novo produto é aberto. Na guia rápida **Depósito** , no campo **ID do grupo de sequências de unidade** , insira *cada*.
 1. Repita as etapas anteriores para criar um segundo produto que tenha as mesmas configurações, mas defina os campos **Número do produto** e **Número do item** como *Item2*.
-1. No Painel de Ação, na guia **Gerenciar estoque**, no grupo **Exibir**, selecione **Estoque físico**. Em seguida, selecione **Ajuste de quantidade**.
+1. No Painel de Ação, na guia **Gerenciar estoque** , no grupo **Exibir** , selecione **Estoque físico**. Em seguida, selecione **Ajuste de quantidade**.
 1. Ajuste o estoque disponível dos novos itens, conforme especificado na tabela a seguir.
 
     | Item   | Depósito | Localização | Placa de licença | Quantidade |
@@ -291,13 +291,13 @@ Este cenário faz referência a valores e registros incluídos nos dados de demo
 
 1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. Selecione **Novo**.
-1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
+1. Na caixa de diálogo **Criar ordem de venda** , defina os seguintes valores:
 
     - **Conta de cliente:** *US-001*
     - **Depósito:** *24*
 
 1. Selecione **OK** para fechar a caixa de diálogo **Criar ordem de venda** e abrir a nova ordem de venda.
-1. Na guia rápida **Linhas da ordem de venda**, adicione uma linha que tenha as seguintes configurações:
+1. Na guia rápida **Linhas da ordem de venda** , adicione uma linha que tenha as seguintes configurações:
 
     - **Número do item:** *Item1*
     - **Quantidade:** *10*
@@ -308,14 +308,14 @@ Este cenário faz referência a valores e registros incluídos nos dados de demo
     - **Quantidade:** *5*
 
 1. Selecione **Salvar**.
-1. Na guia rápida **Detalhes da linha**, na guia **Configuração**, anote o valor do **ID do lote** de cada linha. Esses valores serão necessários durante a reserva de placas de licença específicas.
+1. Na guia rápida **Detalhes da linha** , na guia **Configuração** , anote o valor do **ID do lote** de cada linha. Esses valores serão necessários durante a reserva de placas de licença específicas.
 
     > [!NOTE]
-    > Para reservar uma placa de licença específica, você deve usar a entidade de dados **Reservas confirmadas na ordem por placa de licença**. Para reservar um item controlado por lote em uma placa de licença específica você também pode usar a página **Reserva de lote**, conforme descrito na seção [Inserir detalhes da ordem de venda](#sales-order-details).
+    > Para reservar uma placa de licença específica, você deve usar a entidade de dados **Reservas confirmadas na ordem por placa de licença**. Para reservar um item controlado por lote em uma placa de licença específica você também pode usar a página **Reserva de lote** , conforme descrito na seção [Inserir detalhes da ordem de venda](#sales-order-details).
     >
     > Se você inserir a placa de licença diretamente na linha da ordem de venda e confirmá-la no sistema, o processamento do gerenciamento de depósito não será usado para a linha.
 
-1. Selecione **Abrir no Microsoft Office**, selecione **Reservas confirmadas na ordem por placa de licença** e baixe o arquivo.
+1. Selecione **Abrir no Microsoft Office** , selecione **Reservas confirmadas na ordem por placa de licença** e baixe o arquivo.
 1. Abra o arquivo baixado no Excel e selecione **Habilitar edição** para permitir que o suplemento do Excel seja executado.
 1. Caso esteja executando o suplemento do Excel pela primeira vez, selecione **Confiar nesse Suplemento**.
 1. Se for solicitado que você entre no sistema, selecione **Entrar** e use as mesmas credenciais usadas para entrar no Supply Chain Management.
@@ -337,17 +337,17 @@ Este cenário faz referência a valores e registros incluídos nos dados de demo
     > A linha de reserva será exibida no sistema somente se a publicação for concluída sem erros.
 
 1. Volte para Supply Chain Management. 
-1. Para revisar a reserva do item, na guia rápida **Linhas da ordem de venda**, no menu **Estoque**, selecione **Manter \> Reserva**. Observe que, para a linha da ordem de venda para *Item1*, o estoque de *10* é reservado e para a linha da ordem de venda para *item2*, o estoque de *5* é reservado.
-1. Para revisar as transações de estoque relacionadas à reserva da linha da ordem de venda, na guia rápida **Linhas da ordem de venda**, no menu **Estoque**, selecione **Exibir \> Transações**. Observe que há duas transações relacionadas à reserva: uma na qual o campo **Referência** está definido como *Ordem de venda* e outra na qual o campo **Referência** está definido como *Reserva de ordem confirmada*.
+1. Para revisar a reserva do item, na guia rápida **Linhas da ordem de venda** , no menu **Estoque** , selecione **Manter \> Reserva**. Observe que, para a linha da ordem de venda para *Item1* , o estoque de *10* é reservado e para a linha da ordem de venda para *item2* , o estoque de *5* é reservado.
+1. Para revisar as transações de estoque relacionadas à reserva da linha da ordem de venda, na guia rápida **Linhas da ordem de venda** , no menu **Estoque** , selecione **Exibir \> Transações**. Observe que há duas transações relacionadas à reserva: uma na qual o campo **Referência** está definido como *Ordem de venda* e outra na qual o campo **Referência** está definido como *Reserva de ordem confirmada*.
 
     > [!NOTE]
     > Uma transação na qual o campo **Referência** é definido como *Ordem de venda* representa a reserva da linha para dimensões de estoque que estão acima do nível do **Local** (status de local, depósito e estoque). Uma transação na qual o campo **Referência** está definido como *Reserva confirmada na ordem* representa a reserva da linha da ordem para a placa e a localização da licença específica.
 
-1. Para liberar a ordem de venda, no Painel de Ação, na guia **Depósito**, no grupo **Ações**, selecione **Liberar para o depósito**.
+1. Para liberar a ordem de venda, no Painel de Ação, na guia **Depósito** , no grupo **Ações** , selecione **Liberar para o depósito**.
 
 ### <a name="review-and-process-warehouse-work-with-order-committed-license-plates-assigned"></a>Revisar e processar trabalho de depósito com placas de licença confirmadas por ordem atribuídas
 
-1. Na guia rápida **Linhas da ordem de venda**, no menu **Depósito**, selecione **Detalhes do trabalho**.
+1. Na guia rápida **Linhas da ordem de venda** , no menu **Depósito** , selecione **Detalhes do trabalho**.
 
     Como quando a reserva é feita para um lote específico, o sistema não usa diretivas de localização quando cria o trabalho para a ordem de venda que usa a reserva da placa de licença. Como a reserva de ordem confirmada especifica todas as dimensões de estoque, incluindo a localização, as diretivas de local não precisam ser usadas, pois essas dimensões de estoque são inseridas no trabalho. São mostradas na seção **Das dimensões de estoque** na página **Transações de estoque de trabalho**.
 
@@ -375,9 +375,9 @@ Um exemplo desse cenário é uma situação em que o trabalho concluído anterio
 
 1. Vá para **Gerenciamento de depósito** \> **Cargas** \> **Cargas ativas**.
 2. Selecione a carga que foi criada em relação à remessa da ordem de venda.
-3. Na FastTab **Linhas de ordem da carga**, selecione **Reduzir quantidade separada**.
-4. Na página **Reduzir quantidade separada**, no campo **Mover para local**, selecione **FL-001**.
-5. No campo **Mover para placa de licença**, selecione **LP33**.
+3. Na FastTab **Linhas de ordem da carga** , selecione **Reduzir quantidade separada**.
+4. Na página **Reduzir quantidade separada** , no campo **Mover para local** , selecione **FL-001**.
+5. No campo **Mover para placa de licença** , selecione **LP33**.
 6. No campo **Quantidade de estoque para desfazer separação** da grade, digite **10**.
 7. Selecione **OK**.
 
@@ -385,7 +385,7 @@ Veja a seguir os resultados da ação de desfazer a separação:
 
 - O status do trabalho anteriormente fechado é definido como **Cancelado**.
 - O novo trabalho do tipo **Movimento do estoque** é criado para a quantidade não separada de **10** para o número de lote **B11**. Esse trabalho representa o movimento do local **Porta da baía** para a placa de licença **LP33** no local **FL-001**. O status é definido como **Fechado**.
-- O sistema reserva novamente o número do lote que foi originalmente pedido e atribui as IDs de local e placa de licença. (Esse processo equivale a executar a função **Reservar linha** para a linha de ordem de um determinado número de lote.) Consequentemente, o lote **B11** é mostrado como confirmado na FastTab **Números de lote confirmados para linha de origem** da página **Reserva de lote**, e o campo **Reserva** contém uma quantidade de **10** para o número de lote **B11**. Além disso, o campo **Local** é definido como **FL-001** e o campo **Placa de licença** é definido como **LP11**. (Você pode adicionar esses campos à grade se eles não estiverem visíveis.)
+- O sistema reserva novamente o número do lote que foi originalmente pedido e atribui as IDs de local e placa de licença. (Esse processo equivale a executar a função **Reservar linha** para a linha de ordem de um determinado número de lote.) Consequentemente, o lote **B11** é mostrado como confirmado na FastTab **Números de lote confirmados para linha de origem** da página **Reserva de lote** , e o campo **Reserva** contém uma quantidade de **10** para o número de lote **B11**. Além disso, o campo **Local** é definido como **FL-001** e o campo **Placa de licença** é definido como **LP11**. (Você pode adicionar esses campos à grade se eles não estiverem visíveis.)
 
 As tabelas a seguir fornecem uma visão geral que mostra como o sistema manipula a reserva de lotes confirmada na ordem para ações de depósito específicas. Para interpretar o conteúdo das tabelas, suponha que cada ação de depósito seja executada no contexto do trabalho de depósito existente que se origina de uma reserva de lotes confirmada na ordem ou que a execução de cada ação de depósito afete trabalhos desse tipo.
 
@@ -512,7 +512,7 @@ As tabelas a seguir fornecem uma visão geral que mostra como o sistema manipula
 #### <a name="move-an-item-within-a-warehouse"></a>Mover um item em um depósito
 
 > [!NOTE]
-> Essa ação de depósito se aplica somente ao movimento do tipo **Processo de criação de trabalho**, e não ao movimento por modelo.
+> Essa ação de depósito se aplica somente ao movimento do tipo **Processo de criação de trabalho** , e não ao movimento por modelo.
 
 <table>
 <thead>

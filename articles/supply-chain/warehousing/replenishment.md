@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSReplenishmentTemplates
+ms.search.form: WHSReplenishmentTemplates, WHSReplenishmentTemplates, WHSInventFixedLocation
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be7b1142b011b805c78a3b9380d12085e4b7d28f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6c53596f9b11b1a7be4b8f1e18d58a202c74acd4
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204968"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016507"
 ---
 # <a name="replenishment-overview"></a>Visão geral de reabastecimento
 
@@ -62,7 +62,7 @@ Os valores mínimo e máximo são definidos em um modelo de reabastecimento. Mui
 Observe que a estratégia de reabastecimento mínima/máxima não pode reabastecer um local vazio, a menos que o local esteja definido como o local fixo para o item. Se a localização que deve ser reabastecida não estiver em um local fixo, o sistema não poderá determinar qual item deverá ser reabastecido. Portanto, pelo menos alguma quantidade disponível é necessária antes de reabastecimento.
 
 ## <a name="load-demand-replenishment"></a>Reabastecimento de demanda de carga
-Carregar o reabastecimento por demanda soma a demanda por várias cargas e cria o trabalho de reabastecimento necessário para os locais de separação relevante de ações. Reabastecimento de demanda de carga semelhante ao reabastecimento de demanda de onda de várias maneiras. A principal diferença é como e quando o reabastecimento de demanda de carga e reabastecimento de demanda de onda são executados. Como o reabastecimento mín./máx., reabastecimento de demanda de carga é executado por meio de um trabalho em lotes. Para configurar o trabalho em lotes, na página **Carregar reabastecimento por demanda**, selecione o modelo de reabastecimento para usar e definir uma consulta de filtro para especificar quais cargas são usadas para determinar a demanda. A consulta local define os locais que qualquer quantidade disponível será subtraída para atender à demanda de cargas agregada.
+Carregar o reabastecimento por demanda soma a demanda por várias cargas e cria o trabalho de reabastecimento necessário para os locais de separação relevante de ações. Reabastecimento de demanda de carga semelhante ao reabastecimento de demanda de onda de várias maneiras. A principal diferença é como e quando o reabastecimento de demanda de carga e reabastecimento de demanda de onda são executados. Como o reabastecimento mín./máx., reabastecimento de demanda de carga é executado por meio de um trabalho em lotes. Para configurar o trabalho em lotes, na página **Carregar reabastecimento por demanda** , selecione o modelo de reabastecimento para usar e definir uma consulta de filtro para especificar quais cargas são usadas para determinar a demanda. A consulta local define os locais que qualquer quantidade disponível será subtraída para atender à demanda de cargas agregada.
 
 ## <a name="immediate-replenishment"></a>Reabastecimento imediato
 Em vez de ter que somar a demanda no final de um processo de alocação e fazer o reabastecimento com base na quantidade resumida, você pode aplicar a estratégia instantânea de reabastecimento. Quando você usa esta estratégia, o estoque pode ser reabastecido imediatamente após a linha da diretiva da localização falhar. Portanto, você pode configurar o reabastecimento de maneira que ele seja restrito por unidades específicas, e de forma que ele use as quantidades que são definidas para locais específicos.

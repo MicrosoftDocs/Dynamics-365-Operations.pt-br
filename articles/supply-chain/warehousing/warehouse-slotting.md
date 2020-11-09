@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSInventFixedLocation, WHSSlotDemandLocated, WHSSlotDemand, WHSSlotUOMTier, WHSSlotTemplate, WHSLocDirHint, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,24 +16,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: f6764f8bc082962af37d4775b6fe53d8704658eb
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: ed9e6eae2ecc8de8d5eeef4699678e93dd74f193
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597449"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017405"
 ---
 # <a name="warehouse-slotting"></a>Slots de depósito
 
 [!include [banner](../includes/banner.md)]
 
-Os slots de depósito permitem consolidar a demanda por item e unidade de medida de ordens com um status de *Encomendado*, *Reservado* ou *Liberado*. A demanda gerada pode ser aplicada a locais que serão usados para separação, com base na quantidade, unidade, dimensões físicas, locais fixos e muito mais. Depois que o plano de slots for estabelecido, o trabalho de reabastecimento poderá ser criado para agregar o valor apropriado de estoque a cada local.
+Os slots de depósito permitem consolidar a demanda por item e unidade de medida de ordens com um status de *Encomendado* , *Reservado* ou *Liberado*. A demanda gerada pode ser aplicada a locais que serão usados para separação, com base na quantidade, unidade, dimensões físicas, locais fixos e muito mais. Depois que o plano de slots for estabelecido, o trabalho de reabastecimento poderá ser criado para agregar o valor apropriado de estoque a cada local.
 
 Esta funcionalidade ajuda os gerentes de depósito a planejar de forma inteligente os locais de separação antes de liberar as ordens para o depósito e criar um trabalho de separação.
 
 ## <a name="turn-on-the-warehouse-slotting-feature"></a>Ativar o recurso Slots de depósito
 
-Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos** , o recurso está listado da seguinte forma:
 
 - **Módulo:** *Gerenciamento de Depósito*
 - **Nome do recurso:** *Recurso Slots de depósito*
@@ -53,7 +54,7 @@ Os níveis de unidade de medida permitem que várias unidades de medida sejam ag
     - **Descrição:** *Cada palete de caixa*
 
 1. Selecione **Salvar**.
-1. Na FastTab **Unidades de medida**, selecione **Novo** para adicionar uma linha à grade.
+1. Na FastTab **Unidades de medida** , selecione **Novo** para adicionar uma linha à grade.
 1. Na nova linha, defina os valores a seguir:
 
     - **Unidade:** *Caixa*
@@ -82,8 +83,8 @@ Você deve selecionar o código de diretiva que deve ser associado a um modelo.
 
 1. Vá para **Gerenciamento de depósito \> Configuração \> Códigos de diretiva**.
 1. No Painel de Ações, selecione **Novo**.
-1. No campo **Código de diretiva**, insira *Slots*.
-1. No campo **Descrição de diretiva**, insira *Slots*.
+1. No campo **Código de diretiva** , insira *Slots*.
+1. No campo **Descrição de diretiva** , insira *Slots*.
 
 ### <a name="set-up-slotting-templates"></a>Configurar modelos de slots
 
@@ -120,7 +121,7 @@ Você também pode especificar uma consulta para restringir o escopo da demanda 
 
 Para cada modelo criado, siga estas etapas para adicionar uma linha a cada especificação de slots.
 
-1. Na FastTab **Detalhes do modelo de slots**, selecione **Novo** para criar uma linha de modelo.
+1. Na FastTab **Detalhes do modelo de slots** , selecione **Novo** para criar uma linha de modelo.
 1. Na nova linha, defina os valores a seguir:
 
     - **Sequência:** _1_
@@ -158,7 +159,7 @@ Para cada modelo criado, siga estas etapas para adicionar uma linha a cada espec
 
     - **Permitir pausa:** _Sim_
 
-        Quando esta opção for definida como *Sim*, se uma demanda não puder ser encaixada, o trabalho de movimento será criado para retirar o estoque dos locais onde há estoque, mas onde nada foi encaixado. O modelo será reexecutado. Desta vez, ele ignora o estoque nos locais. Essa funcionalidade funciona melhor quando o campo **Atribuir critérios de slot** é definido como _Considerar qtd_.
+        Quando esta opção for definida como *Sim* , se uma demanda não puder ser encaixada, o trabalho de movimento será criado para retirar o estoque dos locais onde há estoque, mas onde nada foi encaixado. O modelo será reexecutado. Desta vez, ele ignora o estoque nos locais. Essa funcionalidade funciona melhor quando o campo **Atribuir critérios de slot** é definido como _Considerar qtd_.
 
     - **Uso de local fixo:** _Somente localizações fixas do produto_
 
@@ -188,13 +189,13 @@ Para cada modelo criado, siga estas etapas para adicionar uma linha a cada espec
 
 1. Selecione a linha em que o campo **Sequência** está definido como *2*.
 1. Selecione **Editar consulta**.
-1. Na guia **Intervalo**, selecione **Adicionar** para adicionar uma linha à grade.
+1. Na guia **Intervalo** , selecione **Adicionar** para adicionar uma linha à grade.
 1. Na nova linha, defina os valores a seguir:
 
     - **Tabela:** *Localizações*
     - **Tabela derivada:** *Locais*
     - **Campo:** *ID de perfil da localização*
-    - **Critérios:** *Separar-06* (selecione o sinal de adição duplo \[**++**\] no campo para expandir a lista e selecione *Separar-06* - *Site de Separação 6*).
+    - **Critérios:** *Separar-06* (selecione o sinal de adição duplo \[**++**\] no campo para expandir a lista e selecione *Separar-06* - *Site de Separação 6* ).
 
 1. Selecione **OK**.
 
@@ -203,13 +204,13 @@ Para cada modelo criado, siga estas etapas para adicionar uma linha a cada espec
 Pelo menos uma diretiva de localização deve ser configurada para dar suporte a seleções de slots. Use os procedimentos desta seção para configurar uma nova *diretiva de local de reabastecimento* para separações de slots.
 
 1. Vá para **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
-1. No painel esquerdo, no campo **Tipo de ordem de serviço**, selecione *Reabastecimento*.
+1. No painel esquerdo, no campo **Tipo de ordem de serviço** , selecione *Reabastecimento*.
 1. No Painel de Ações, selecione **Novo**.
-1. No cabeçalho da nova diretiva de localização, no campo **Nome**, insira *Seleção de slots 61*.
+1. No cabeçalho da nova diretiva de localização, no campo **Nome** , insira *Seleção de slots 61*.
 
 ##### <a name="configure-the-location-directives-fasttab"></a>Configurar a FastTab Diretivas de localização
 
-1. Na FastTab **Diretivas de localização**, defina os valores a seguir. Aceite os valores padrão para todos os demais campos.
+1. Na FastTab **Diretivas de localização** , defina os valores a seguir. Aceite os valores padrão para todos os demais campos.
 
     - **Tipo de trabalho:** _Separar_
     - **Local:** _6_
@@ -220,7 +221,7 @@ Pelo menos uma diretiva de localização deve ser configurada para dar suporte a
 
 ##### <a name="configure-the-lines-fasttab"></a>Configurar a FastTab Linhas
 
-1. Na FastTab **Linhas**, selecione **Novo** para criar uma linha.
+1. Na FastTab **Linhas** , selecione **Novo** para criar uma linha.
 1. Na nova linha, defina os valores a seguir. Aceite os valores padrão para todos os demais campos.
 
     - **Quantidade inicial:** _0_
@@ -230,7 +231,7 @@ Pelo menos uma diretiva de localização deve ser configurada para dar suporte a
 
 ##### <a name="configure-the-location-directive-actions-fasttab"></a>Configurar a FastTab Ações de Diretiva
 
-1. Na FastTab **Ações de Diretiva de Localização**, selecione **Novo** para criar uma linha.
+1. Na FastTab **Ações de Diretiva de Localização** , selecione **Novo** para criar uma linha.
 1. Na nova linha, defina os valores a seguir. Aceite os valores padrão para todos os demais campos.
 
     - **Nome:** _Massa_
@@ -240,8 +241,8 @@ Pelo menos uma diretiva de localização deve ser configurada para dar suporte a
 
 ##### <a name="edit-the-query"></a>Editar a consulta
 
-1. Na FastTab **Ações de Diretiva de Localização**, selecione **Editar consulta**.
-1. Na guia **Intervalo**, selecione **Adicionar** para adicionar uma linha à grade.
+1. Na FastTab **Ações de Diretiva de Localização** , selecione **Editar consulta**.
+1. Na guia **Intervalo** , selecione **Adicionar** para adicionar uma linha à grade.
 1. Na nova linha, defina os valores a seguir:
 
     - **Tabela:** *Localizações*
@@ -267,8 +268,8 @@ Siga as etapas a seguir para criar a solicitação à qual você aplicará slots
 
 1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. Selecione **Novo** para criar uma ordem de venda.
-1. Na caixa de diálogo **Criar ordem de venda**, no campo **Conta do cliente**, selecione _US-007_.
-1. No campo **Depósito**, selecione _61_.
+1. Na caixa de diálogo **Criar ordem de venda** , no campo **Conta do cliente** , selecione _US-007_.
+1. No campo **Depósito** , selecione _61_.
 1. Selecione **OK**.
 1. A nova ordem de venda é aberta. Ela inclui uma linha vazia na FastTab **Linhas da ordem de venda**. Nessa linha, defina os seguintes valores:
 
@@ -282,8 +283,8 @@ Siga as etapas a seguir para criar a solicitação à qual você aplicará slots
 
 1. Selecione **Salvar**.
 1. Selecione **Novo** para criar uma segunda ordem de venda.
-1. Na caixa de diálogo **Criar ordem de venda**, no campo **Conta do cliente**, selecione _US-008_.
-1. No campo **Depósito**, selecione _61_.
+1. Na caixa de diálogo **Criar ordem de venda** , no campo **Conta do cliente** , selecione _US-008_.
+1. No campo **Depósito** , selecione _61_.
 1. A nova ordem de venda é aberta. Ela inclui uma linha vazia na FastTab **Linhas da ordem de venda**. Nessa linha, defina os seguintes valores:
 
     - **Item:** _T0100_
@@ -323,7 +324,7 @@ O plano de slots mostra o local ao qual cada item/quantidade foi atribuído, se 
 
 #### <a name="create-replenishment"></a>Criar reabastecimento
 
-Após a criação do plano de slots, você deverá criar um *trabalho de reabastecimento*, com base no plano.
+Após a criação do plano de slots, você deverá criar um *trabalho de reabastecimento* , com base no plano.
 
 - No Painel de Ações, selecione **Executar reabastecimento**. Uma mensagem informativa é exibida quando o processo é concluído. Esta mensagem indica o número de cabeçalhos que foram criados para a ID de criação do trabalho.
 
@@ -343,7 +344,7 @@ Quando todos os elementos necessários estiverem ativos, você poderá configura
     - Criar trabalho de reabastecimento
 
     > [!NOTE]
-    > As etapas de slots são progressivas. Se desejar selecionar *Localizar demanda*, primeiro selecione *Gerar demanda*.
+    > As etapas de slots são progressivas. Se desejar selecionar *Localizar demanda* , primeiro selecione *Gerar demanda*.
 
 1. Especifique o modelo de slots a ser usado.
 1. Defina que a recorrência seja executada automaticamente, se desejar.

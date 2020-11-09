@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37c378a424d89a884d1f3f0f14e1d544b3af178b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f9ae9218a85c50582c8c4999da463833fc91d260
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176481"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006106"
 ---
 # <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Liquidar um pagamento parcial de cliente e liquidar o pagamento final em sua totalidade antes da data do desconto
 
@@ -34,13 +34,13 @@ Este artigo oferece os cenários que mostram como registrar pagamentos parciais 
 A Fabrikam vende produtos para o cliente 4028. Oferece um desconto à vista de 1 por cento se a fatura for paga em 14 dias. As faturas devem ser pagas em 30 dias. A Fabrikam também oferece descontos à vista para pagamentos parciais. Os parâmetros de pagamento estão localizados na página **Parâmetros de contas a receber**.
 
 ## <a name="customer-invoice"></a>Fatura de cliente
-Em 25 de junho, Amanda insere e lança uma fatura de 1.000,00 para o cliente 4028. Alberto pode exibir esta transação na página**Transações do cliente**.
+Em 25 de junho, Amanda insere e lança uma fatura de 1.000,00 para o cliente 4028. Alberto pode exibir esta transação na página **Transações do cliente**.
 
 | Comprovante   | Tipo de transação | Data      | Fatura | Valor em débito na moeda da transação | Valor em crédito na moeda da transação | Saldo  | Moeda |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
 | FTI-10010 | Fatura          | 25/6/2015 | 10010   | 1.000,00                             |                                       | 1.000,00 | USD      |
 
-Na página **Cliente** ou **Transações de cliente**, Alberto pode abrir a página **Liquidar transações** para exibir as datas e os valores dos descontos à vista disponíveis para a fatura. A data de vencimento é 25 de julho, e um desconto à vista de 10,00 está disponível caso a fatura seja paga até 9 de julho.
+Na página **Cliente** ou **Transações de cliente** , Alberto pode abrir a página **Liquidar transações** para exibir as datas e os valores dos descontos à vista disponíveis para a fatura. A data de vencimento é 25 de julho, e um desconto à vista de 10,00 está disponível caso a fatura seja paga até 9 de julho.
 
 | Marcar     | Usar desconto à vista | Comprovante   | Conta | Data      | Data de conclusão  | Fatura | Valor na moeda da transação | Moeda | Valor para liquidar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -48,7 +48,7 @@ Na página **Cliente** ou **Transações de cliente**, Alberto pode abrir a pág
 
 As informações do desconto aparecem na parte inferior da página **Liquidar transações** da fatura marcada.
 
-|                              |           |
+|    &nbsp;                    |  &nbsp;   |
 |------------------------------|-----------|
 | Data do desconto à vista           | 09/07/2015 |
 | Valor de desconto à vista         | 10.00     |
@@ -71,7 +71,7 @@ O cliente 4028 envia um pagamento de 500,00 o 1 de julho. Para inserir o pagamen
 | 5,05                         | 0,00                | 500,00        |
 
 ## <a name="partial-payment-by-using-the-journal-lines"></a>Pagamento parcial usando as linhas do diário
-Em vez de abrir a página **Inserir pagamentos de clientes** no diário de pagamento, Alberto poderá clicar em **Linhas** para inserir um pagamento. O diário de pagamento é exibido, onde Arnie pode inserir uma linha para o cliente 4028. Arnie então abre a página **Liquidar transações**, dessa forma, ele pode marcar a fatura para liquidação. Alberto marca a fatura e altera o valor do campo **Valor a ser liquidado** para **500,00**. Novamente, ele vê que o valor do campo **Valor do desconto à vista** é **10,00** para a fatura total e que o valor do campo **Valor do desconto a vista a ser obtido** é **5,05**. Consequentemente, Arnie está liquidando 505,05 desta fatura.
+Em vez de abrir a página **Inserir pagamentos de clientes** no diário de pagamento, Alberto poderá clicar em **Linhas** para inserir um pagamento. O diário de pagamento é exibido, onde Arnie pode inserir uma linha para o cliente 4028. Arnie então abre a página **Liquidar transações** , dessa forma, ele pode marcar a fatura para liquidação. Alberto marca a fatura e altera o valor do campo **Valor a ser liquidado** para **500,00**. Novamente, ele vê que o valor do campo **Valor do desconto à vista** é **10,00** para a fatura total e que o valor do campo **Valor do desconto a vista a ser obtido** é **5,05**. Consequentemente, Arnie está liquidando 505,05 desta fatura.
 
 | Marcar     | Usar desconto à vista | Comprovante   | Conta | Data      | Data de conclusão  | Fatura | Valor na moeda da transação | Moeda | Valor para liquidar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -79,7 +79,7 @@ Em vez de abrir a página **Inserir pagamentos de clientes** no diário de pagam
 
 As informações do desconto aparecem na parte inferior da página **Liquidar transações abertas**.
 
-|                              |           |
+|        &nbsp;                | &nbsp;    |
 |------------------------------|-----------|
 | Data do desconto à vista           | 09/07/2015 |
 | Valor de desconto à vista         | 10.00     |
@@ -95,7 +95,7 @@ Se o cliente quiser liquidar exatamente a metade da fatura, ele enviará um paga
 
 As informações do desconto aparecem na parte inferior da página **Liquidar transações abertas**.
 
-|                              |           |
+|     &nbsp;                   | &nbsp;    |
 |------------------------------|-----------|
 | Data do desconto à vista           | 09/07/2015 |
 | Valor de desconto à vista         | 10.00     |
@@ -112,9 +112,9 @@ Alberto fecha a página **Liquidar transações**. Uma linha de pagamento para 4
 | DISC-10010 |  Desconto à vista   | 01/07/2015  |         |                                      | 5,00                                  | 0,00    | USD      |
 
 ## <a name="payment-for-the-remaining-amount"></a>Pagamento do valor restante
-O cliente 4028 paga o valor restante de 495,00 em 8 de julho, que está no período de desconto à vista. Arnie cria o diário de pagamentos em 8 de julho e marca a transação para liquidação. Ele vê que o valor que deve ser liquidado é de 495,00. O valor do campo **Desconto à vista estimado** é **5,00**, já que o desconto de 5,00 foi obtido anteriormente.
+O cliente 4028 paga o valor restante de 495,00 em 8 de julho, que está no período de desconto à vista. Arnie cria o diário de pagamentos em 8 de julho e marca a transação para liquidação. Ele vê que o valor que deve ser liquidado é de 495,00. O valor do campo **Desconto à vista estimado** é **5,00** , já que o desconto de 5,00 foi obtido anteriormente.
 
-|                         |        |
+|   &nbsp;                | &nbsp; |
 |-------------------------|--------|
 | Total marcado            | 495.00 |
 | Estimativa de desconto em dinheiro | 5,00   |
@@ -127,7 +127,7 @@ As informações sobre a transação marcada aparecem na grade da página **Liqu
 
 As informações do desconto aparecem na parte inferior da página **Liquidar transações abertas**.
 
-|                              |           |
+|  &nbsp;                      |  &nbsp;   |
 |------------------------------|-----------|
 | Data do desconto à vista           | 09/07/2015 |
 | Valor de desconto à vista         | 10.00     |

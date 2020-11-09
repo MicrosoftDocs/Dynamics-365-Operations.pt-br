@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 816bfc8b93f52fe91192874bcc1c8e605e41b582
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 7091e8ba7940e358d77c69c63e26c8f3d9337713
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021577"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107247"
 ---
 # <a name="call-center-sales-functionality"></a>Funcionalidade de vendas do call center
 
@@ -35,9 +35,9 @@ No Dynamics 365 Commerce, call center é um tipo de canal que pode ser definido 
 
 Os recursos de call center incluem preço avançado e promoções, catálogos, cartões-presente, programas de fidelidade e cupons. Ordens de call center são aproveitadas também por uma aplicação de ponto de venda (PDV) para oferecer suporte a cenários de preenchimento de ordem entre canal.
 
-É importante observar que, quando o módulo de call center pode ser utilizado por outros setores fora do comércio, a versão atual do aplicativo de call center não foi otimizada para uso em cenários de processamento de ordens B2B (entre empresas) ou em cenários onde as ordens têm muitas linhas de venda. Recomenda-se que os usuários que desejam utilizar os recursos do call center para processamento de ordem fora de um processamento de transação direto ao consumidor típico, levem o tempo adequado para testar e validar essa funcionalidade de call center para estar compatível com as necessidades funcional e de desempenho.
+É importante observar que, quando o módulo de call center pode ser utilizado por outros setores fora do Commerce, a versão atual do aplicativo de call center não foi otimizada para uso em cenários de processamento de ordens B2B (entre empresas) ou em cenários em que as ordens tenham um grande número de linhas de venda. Recomenda-se que os usuários que desejam utilizar os recursos do call center para processamento de ordem fora de um processamento de transação direto ao consumidor típico, levem o tempo adequado para testar e validar essa funcionalidade de call center para estar compatível com as necessidades funcional e de desempenho.
 
-Além da criação da ordem de atendimento, o módulo de call center também fornece um aplicativo de serviço ao cliente amigável que facilita para que os usuários encontrem contas de cliente e examina todos os dados relacionados e atributos da ordem de cliente. A tela de serviço do cliente é projetada para habilitar um usuário a acessar rapidamente os dados da ordem relacionada que permitirão que eles respondam às questões relacionadas a ordem mais comuns recebidas dos clientes.
+Além da criação da ordem de atendimento, o módulo de call center também fornece um aplicativo de serviço ao cliente amigável que facilita para que os usuários encontrem contas de cliente e examina todos os dados relacionados e atributos da ordem de cliente. A tela de serviço do cliente foi projetada para habilitar um usuário a acessar rapidamente os dados da ordem relacionada que permitirão que ele responda às questões relacionadas a ordem mais comuns recebidas dos clientes.
 
 Esta página fornece links para documentação relevante relacionada à instalação, à configuração e ao uso funcional dos recursos de call center.
 

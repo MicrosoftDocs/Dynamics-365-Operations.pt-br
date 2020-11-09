@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSPhysDimUOM, WHSMovementType, WHSItemConsolidationForm, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 5e4172a8d3f82e6eeb8868aac87abd183a94c088
-ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
+ms.openlocfilehash: 6a328b20c1cfb2fc376ab4656c64cf585a5aa015
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3598776"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017175"
 ---
 # <a name="item-consolidation---location-utilization"></a>Consolidação de itens - utilização do local
 
@@ -58,13 +59,13 @@ Esta seção descreve como preparar o sistema para usar a consolidação de iten
 ### <a name="released-product"></a>Produto liberado
 
 1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
-1. No campo **Número do item**, selecione *M9201* e abra a página de detalhes.
-1. No Painel de Ação, na guia **Gerenciar estoque**, no grupo **Depósito**, selecione **Dimensões físicas**.
-1. Na página **Dimensão Física**, no Painel de Ação, selecione **Novo**.
+1. No campo **Número do item** , selecione *M9201* e abra a página de detalhes.
+1. No Painel de Ação, na guia **Gerenciar estoque** , no grupo **Depósito** , selecione **Dimensões físicas**.
+1. Na página **Dimensão Física** , no Painel de Ação, selecione **Novo**.
 
     Uma nova linha é adicionada à grade. O campo **Nº de itens** é predefinido.
 
-1. No campo **Unidade**, selecione *unidade*. Os demais campos na linha são definidos automaticamente.
+1. No campo **Unidade** , selecione *unidade*. Os demais campos na linha são definidos automaticamente.
 1. Selecione **Salvar** e feche a página.
 
 ### <a name="location-profile"></a>Perfil de localização
@@ -72,7 +73,7 @@ Esta seção descreve como preparar o sistema para usar a consolidação de iten
 1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Perfis de localização**.
 1. Na lista de perfis de localização, selecione **FLOOR-05**.
 1. No Painel de Ações, selecione **Editar**.
-1. Na FastTab **Geral**, verifique se as duas opções a seguir estão definidas como *Sim*:
+1. Na FastTab **Geral** , verifique se as duas opções a seguir estão definidas como *Sim* :
 
     - Habilitar o item no local
     - Habilitar o status local
@@ -80,10 +81,10 @@ Esta seção descreve como preparar o sistema para usar a consolidação de iten
 1. Selecione **Salvar**.
 
     > [!IMPORTANT]
-    > Se as opções **Habilitar o item no local** e **Habilitar o status do local** já tiverem sido definidas como *Sim*, vá para as instruções para configurar a FastTab **Dimensões** na etapa 10. Se as opções ainda não estiverem definidas como *Sim*, você deverá executar uma verificação de consistência do módulo **Gerenciamento de depósito** depois de defini-las manualmente. Nesse caso, vá para a próxima etapa.
+    > Se as opções **Habilitar o item no local** e **Habilitar o status do local** já tiverem sido definidas como *Sim* , vá para as instruções para configurar a FastTab **Dimensões** na etapa 10. Se as opções ainda não estiverem definidas como *Sim* , você deverá executar uma verificação de consistência do módulo **Gerenciamento de depósito** depois de defini-las manualmente. Nesse caso, vá para a próxima etapa.
 
 1. Para executar a verificação de consistência, vá para **Administração do sistema \> Tarefas periódicas \> Banco de dados \> Verificação de consistência**.
-1. Na caixa de diálogo **Verificação de consistência**, defina os seguintes valores:
+1. Na caixa de diálogo **Verificação de consistência** , defina os seguintes valores:
 
     - **Módulo:** *Gerenciamento de Depósito*
     - **Verificar/Corrigir:** *Corrigir*
@@ -97,8 +98,8 @@ Esta seção descreve como preparar o sistema para usar a consolidação de iten
     >
     > Se a mensagem da verificação de consistência afirmar "Informações de status local incorretas encontradas para local XXXX no depósito XX", você deverá executar a verificação novamente. Desta vez, defina o campo **Verificar/Corrigir** como *Corrigir erro*. Veja as mensagens para ter certeza de que nenhum erro foi encontrado.
 
-1. Agora você deve terminar de configurar o perfil de localização. Volte para **Gerenciamento de depósito \> Configuração \> Depósito \> Perfis de locação**, selecione o perfil de localização **FLOOR-05** e, no Painel de Ação, selecione **Editar**.
-1. Na FastTab **Dimensões**, defina os seguintes valores:
+1. Agora você deve terminar de configurar o perfil de localização. Volte para **Gerenciamento de depósito \> Configuração \> Depósito \> Perfis de locação** , selecione o perfil de localização **FLOOR-05** e, no Painel de Ação, selecione **Editar**.
+1. Na FastTab **Dimensões** , defina os seguintes valores:
 
     - **Porcentagem de utilização de volume:** *100*
     - **Método volumétrico usado para a localização de estoque:** *Usar volume da localização*
@@ -120,7 +121,7 @@ Esta seção descreve como preparar o sistema para usar a consolidação de iten
     - **Modo:** *Trabalho*
     - **Usar trabalho existente:** *Não*
 
-1. Na FastTab **Geral**, defina os seguintes valores:
+1. Na FastTab **Geral** , defina os seguintes valores:
 
     - **Processo de criação de trabalho:** *Ajuste em*
     - **Tipos de ajuste de estoque:** *Ajustar em*
@@ -132,7 +133,7 @@ Esta seção descreve como preparar o sistema para usar a consolidação de iten
 1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
 1. Na lista de menus, selecione **Estoque**.
 1. No Painel de Ações, selecione **Editar**.
-1. Na lista **Menus e Itens de Menu Disponíveis**, localize e selecione o item de menu **Ajustar em**.
+1. Na lista **Menus e Itens de Menu Disponíveis** , localize e selecione o item de menu **Ajustar em**.
 1. Selecione o botão de seta para a direita para mover **Ajustar em** para a lista **Estrutura de menu**. Dessa forma, você adiciona o novo item de menu ao menu selecionado.
 1. Selecione **Salvar**.
 
@@ -158,24 +159,24 @@ O cenário a seguir usa o aplicativo de depósito em um dispositivo móvel para 
 
     Agora você vai inserir o primeiro ajuste de local.
 
-1. Na tarefa **Ajuste em**, selecione o local para fazer o ajuste de estoque. No campo **LOC**, selecione *LP-001*.
+1. Na tarefa **Ajuste em** , selecione o local para fazer o ajuste de estoque. No campo **LOC** , selecione *LP-001*.
 1. Confirme o local.
-1. Crie uma ID de placa de licença para o item que será adicionado ao local. No campo **LP**, insira *LP00101*.
+1. Crie uma ID de placa de licença para o item que será adicionado ao local. No campo **LP** , insira *LP00101*.
 1. Confirme a placa de licença.
-1. Insira o item que será adicionado à placa de licença. No campo **ITEM**, insira *M9201*.
+1. Insira o item que será adicionado à placa de licença. No campo **ITEM** , insira *M9201*.
 1. Confirme o item.
-1. Insira a quantidade do item que será adicionado. No campo **QTD**, insira *10*.
+1. Insira a quantidade do item que será adicionado. No campo **QTD** , insira *10*.
 1. Confirme a quantidade.
 
     Você receberá uma mensagem "Trabalho Concluído". Agora você vai inserir o segundo ajuste de local.
 
-1. Na tarefa **Ajuste em**, selecione o local para fazer o ajuste de estoque. No campo **LOC**, selecione *LP-002*.
+1. Na tarefa **Ajuste em** , selecione o local para fazer o ajuste de estoque. No campo **LOC** , selecione *LP-002*.
 1. Confirme o local.
-1. Crie uma ID de placa de licença para o item que será adicionado ao local. No campo **LP**, insira *LP00201*.
+1. Crie uma ID de placa de licença para o item que será adicionado ao local. No campo **LP** , insira *LP00201*.
 1. Confirme a placa de licença.
-1. Insira o item que será adicionado à placa de licença. No campo **ITEM**, insira *M9201*.
+1. Insira o item que será adicionado à placa de licença. No campo **ITEM** , insira *M9201*.
 1. Confirme o item.
-1. Insira a quantidade do item que será adicionado. No campo **QTD**, insira *15*.
+1. Insira a quantidade do item que será adicionado. No campo **QTD** , insira *15*.
 1. Confirme a quantidade.
 
     Você receberá uma mensagem "Trabalho Concluído".
@@ -185,12 +186,12 @@ O cenário a seguir usa o aplicativo de depósito em um dispositivo móvel para 
 ### <a name="consolidate-locations"></a>Consolidar locais
 
 1. Vá para **Gerenciamento de depósito \> Tarefas periódicas \> Consolidação de itens**.
-1. No cabeçalho, selecione um depósito para fazer a consolidação. No campo **Depósito**, insira *51*.
+1. No cabeçalho, selecione um depósito para fazer a consolidação. No campo **Depósito** , insira *51*.
 
     É mostrado um registro para cada local onde o item *M9201* foi ajustado. A coluna **Porcentagem de utilização** mostra a utilização volumétrica de cada local.
 
 1. Para consolidar o estoque, selecione todos os locais que devem ser consolidados e, no Painel de Ação, selecione **Consolidar Estoque**.
-1. Na caixa de diálogo **Consolidar estoque**, especifique o tipo de local e movimento que deve ser usado para criar o trabalho de movimento de estoque. Defina os seguintes valores:
+1. Na caixa de diálogo **Consolidar estoque** , especifique o tipo de local e movimento que deve ser usado para criar o trabalho de movimento de estoque. Defina os seguintes valores:
 
     - **Local:** *LP-001*
     - **Código do tipo de movimento:** *CONSOLIDAR*

@@ -6,7 +6,7 @@ manager: PJacobse
 ms.date: 07/09/2020
 ms.topic: reprint-and-void-wave-labels
 ms.service: dynamics-ax-applications
-ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate
+ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSWaveTableListPage, WHSWorkException, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelLayout, WHSWaveLabelType, WHSWaveLabelTemplateGroup
 audience: Application User
 ms.reviewer: PJacobse
 ms.search.scope: Core, Operations
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 0b831361631aa66712813706eaa4ff3339683868
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: af92334af28824b3fcebde5f046bd7c6da459885
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986638"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016645"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Reimprimir e anular etiquetas de onda
 
@@ -42,7 +42,7 @@ Este tópico apresenta um conjunto de cenários que mostram, por meio de exemplo
 
 ## <a name="scenario-1-reprint-labels-from-the-web-client"></a>Cenário 1: reimprimir etiquetas por meio do cliente Web
 
-Você pode exibir e reimprimir etiquetas de onda nas páginas a seguir. No Painel de Ações de cada página, na guia **Remessas**, no grupo **Informações relacionadas**, selecione **Etiquetas de onda**.
+Você pode exibir e reimprimir etiquetas de onda nas páginas a seguir. No Painel de Ações de cada página, na guia **Remessas** , no grupo **Informações relacionadas** , selecione **Etiquetas de onda**.
 
 - Todas as remessas \> Detalhes da remessa
 - Todas as cargas \> Detalhes da carga
@@ -54,7 +54,7 @@ Para reimprimir uma etiqueta de onda por meio do cliente Web, siga estas etapas:
 
 1. Vá para **Gerenciamento de depósito \> Ondas de saída \> Ondas de remessa \> Todas as ondas**.
 1. Selecione a onda da qual deseja reimprimir as etiquetas.
-1. No Painel de Ações, na guia **Onda**, no grupo **Imprimir**, selecione **Etiquetas de onda**.
+1. No Painel de Ações, na guia **Onda** , no grupo **Imprimir** , selecione **Etiquetas de onda**.
 1. Siga uma ou ambas as etapas a seguir:
 
     - Para reimprimir a etiqueta, selecione a impressora no campo **Nome da impressora**. (Deixe esse campo em branco se você quiser apenas atualizar os detalhes da etiqueta de onda, sem reimprimir a etiqueta.)
@@ -118,7 +118,7 @@ Siga estas etapas para criar uma nova coleção de itens de menu para reimprimir
     - **Etiqueta de agrupamento do sistema:** *ShipmentID*
     - **Modo de impressão:** *Enumeração*
 
-1. No Painel de Ações, selecione **Lista de campos** e use as listas suspensas para selecionar os campos que serão mostrados para ajudar os funcionários a identificar o rolo de etiquetas correto (por exemplo, *LabelItemId*, *LabelItemName*, *InventQty*, *LabelUnitId* e *NumberOfLabels*).
+1. No Painel de Ações, selecione **Lista de campos** e use as listas suspensas para selecionar os campos que serão mostrados para ajudar os funcionários a identificar o rolo de etiquetas correto (por exemplo, *LabelItemId* , *LabelItemName* , *InventQty* , *LabelUnitId* e *NumberOfLabels* ).
 1. Feche a página.
 1. Crie um quarto item de menu e defina os seguintes valores para ele:
 
@@ -131,7 +131,7 @@ Siga estas etapas para criar uma nova coleção de itens de menu para reimprimir
     - **Etiqueta de agrupamento do sistema:** *ShipmentID*
     - **Modo de impressão:** *Última ID de etiqueta de onda da mercadoria*
 
-1. No Painel de Ações, selecione **Lista de campos** e use as listas suspensas para selecionar os campos que serão mostrados para ajudar os funcionários a identificar o rolo de etiquetas correto (por exemplo, *LabelItemId*, *LabelItemName*, *InventQty*, *LabelUnitId* e *NumberOfLabels*).
+1. No Painel de Ações, selecione **Lista de campos** e use as listas suspensas para selecionar os campos que serão mostrados para ajudar os funcionários a identificar o rolo de etiquetas correto (por exemplo, *LabelItemId* , *LabelItemName* , *InventQty* , *LabelUnitId* e *NumberOfLabels* ).
 1. Feche a página.
 
 #### <a name="set-up-the-mobile-device-menu"></a>Configura o menu de dispositivo móvel

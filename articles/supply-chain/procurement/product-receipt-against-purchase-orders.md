@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart, VendPackingSlipJournalListPage, VendPackingSlipJournal
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5868b9ef02bdbca33c9e155af3bf7540f0522f86
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cead310eaa86d755399e512f99d6782bfa551211
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208031"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018850"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>​Recebimento de produtos contra ordens de compra​
 
@@ -42,7 +42,7 @@ Registro de recebimento de produto ocorre com frequência em docas de entrada em
 Produtos que são recebidos em um depósito podem passar por inspeção de qualidade antes de serem colocados fora do estoque. Ordens de qualidade ou ordens de quarentena podem ser usadas para executar a inspeção de qualidade. Se as ordens de qualidade forem usadas, você pode configurar o processo para bloquear temporariamente os produtos por meio de uma reserva enquanto eles são inspecionados. Se as ordens de quarentena são usadas, os produtos são movidos para outro depósito para inspeção. Esse depósito é conhecido como o depósito de quarentena. Em ambos os processos de inspeção de qualidade, alguns dos bens podem ser sucateados, porque eles não estão em conformidade com as expectativas de qualidade ou a inspeção de qualidade envolve testes destrutivos de uma amostra do produto.
 
 ## <a name="product-receipt"></a>Recebimento de produtos
-Frequentemente, a ação **Recebimento de produtos** na página **Ordens de compra** é usada para marcar os produtos como **Recebido** da OC. A página **Lançamento de recebimento de produto** tem várias opções para a quantidade que é considerada como recebido. Por exemplo, você pode definir o campo **Quantidade** para **Quantidade solicitada** ou **Receber quantidade agora**. Como alternativa, se um processo de recebimento de depósito tiver sido usado, você irá geralmente definir este campo para **Quantidade registrada**. Você pode modificar as quantidades em cada linha da ordem que será marcada como **Recebido**, para levar em conta as discrepâncias, como entrega excedente e entrega insuficiente. Durante o recebimento de produtos, você deve especificar um identificador de recebimento de produtos, que normalmente é uma referência à guia de remessa do fornecedor. Esse identificador é necessário para a contabilidade, porque ele permite verificações ou auditorias de guias contra o que foi recebido e o estoque contabilizado ou despesas de remessa do fornecedor.  
+Frequentemente, a ação **Recebimento de produtos** na página **Ordens de compra** é usada para marcar os produtos como **Recebido** da OC. A página **Lançamento de recebimento de produto** tem várias opções para a quantidade que é considerada como recebido. Por exemplo, você pode definir o campo **Quantidade** para **Quantidade solicitada** ou **Receber quantidade agora**. Como alternativa, se um processo de recebimento de depósito tiver sido usado, você irá geralmente definir este campo para **Quantidade registrada**. Você pode modificar as quantidades em cada linha da ordem que será marcada como **Recebido** , para levar em conta as discrepâncias, como entrega excedente e entrega insuficiente. Durante o recebimento de produtos, você deve especificar um identificador de recebimento de produtos, que normalmente é uma referência à guia de remessa do fornecedor. Esse identificador é necessário para a contabilidade, porque ele permite verificações ou auditorias de guias contra o que foi recebido e o estoque contabilizado ou despesas de remessa do fornecedor.  
 
 POs podem ser criadas para produtos que não servem como estoque mas são considerados uma despesa. Esta categoria inclui linhas da ordem em que os produtos são marcados como **Não estocado** pelo grupo de modelos de estoque e também linhas de categorias de compras. Nesse caso, os itens não podem passar pelo registro de entrada e recebimento no depósito. Em vez disso, a ação **Remessa de produto** é usada para registrar o recebimento diretamente no pedido de compra e o recebimento é baseado na quantidade solicitada, e não uma quantidade registrada.  
 

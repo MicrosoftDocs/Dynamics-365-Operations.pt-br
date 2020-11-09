@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: VendProspectiveVendorRegistrationRequests,SysUserRequestListPage
+ms.search.form: VendProspectiveVendorRegistrationRequests, SysUserRequestListPage, VendRequestListPage, VendRequestCompanyProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,14 +16,15 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a7168f9042bae561eb46ecdc8eea377862af8df0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 171d3b57333cc325fa675627e4c38f764d89f32c
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203402"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018643"
 ---
 # <a name="onboard-vendors"></a>Integração de fornecedores
+
 [!include [banner](../includes/banner.md)]
 
 ---
@@ -102,8 +103,8 @@ Para obter mais informações sobre a configuração de solicitação de fornece
 | Informações do fornecedor         | Essa página contém o nome do fornecedor, que é inserido automaticamente à solicitação original de registro de fornecedor em potencial. Também contém o número da organização, o número de telefone de fornecedor, número de fax e endereço de email, os endereços de fornecedor para várias finalidades. |
 | Informações da pessoa de contato | Essa página contém o nome da pessoa de contato, que é inserido automaticamente à solicitação original de inscrição do fornecedor potencial. Também contém o número de telefone e o endereço de email da pessoa de contato e os endereços da pessoa de contato para várias finalidades. |
 | Informações comerciais       | Essa página contém números de registro de imposto (para vários países ou regiões) e os números de funcionários. Também indica se a empresa é de propriedade minoritária. |
-| Categorias de compras     | Esta página contém as categorias de compras que o fornecedor está solicitando para aprovação. O usuário pode selecionar categorias na hierarquia de categorias selecionada. Você pode configurar o número de níveis que são exibidos na hierarquia em **Parâmetros de compras** &gt; **Colaboração de fornecedor**, em &gt; **Compras** **Configuração**. |
-| Questionários             | O assistente pode incluir um conjunto de questionários para o fornecedor. Os questionários que aparecem no assistente são configurados na solicitação de fornecedor ou por categoria de compras. Se os questionários forem configurados por categoria de compras, as categorias de compras para as quais o fornecedor solicita aprovação determinam os questionários que aparecem no assistente. Na página **Categorias de compras**, você pode adicionar um questionário na categoria relevante e definir o tipo de atividade para **Integração do fornecedor**. |
+| Categorias de compras     | Esta página contém as categorias de compras que o fornecedor está solicitando para aprovação. O usuário pode selecionar categorias na hierarquia de categorias selecionada. Você pode configurar o número de níveis que são exibidos na hierarquia em **Parâmetros de compras** &gt; **Colaboração de fornecedor** , em &gt; **Compras** **Configuração**. |
+| Questionários             | O assistente pode incluir um conjunto de questionários para o fornecedor. Os questionários que aparecem no assistente são configurados na solicitação de fornecedor ou por categoria de compras. Se os questionários forem configurados por categoria de compras, as categorias de compras para as quais o fornecedor solicita aprovação determinam os questionários que aparecem no assistente. Na página **Categorias de compras** , você pode adicionar um questionário na categoria relevante e definir o tipo de atividade para **Integração do fornecedor**. |
 
 Quando o usuário do fornecedor potencial conclui o assistente de registro de fornecedor, uma solicitação de fornecedor é criada.
 
@@ -139,11 +140,11 @@ A tabela mostra os status que as solicitações de fornecedores podem ter.
 
 Quando uma solicitação de fornecedor for aprovada, uma conta de fornecedor será criada, e o status **Aprovado** aparecerá tanto na solicitação de registro do fornecedor potencial quanto na solicitação de fornecedor.
 
-Antes de aprovar uma solicitação de fornecedor, na página **Novo fornecedor**, na Guia Rápida **Geral**, selecione **Grupo de fornecedores** para selecionar um grupo de fornecedores.
+Antes de aprovar uma solicitação de fornecedor, na página **Novo fornecedor** , na Guia Rápida **Geral** , selecione **Grupo de fornecedores** para selecionar um grupo de fornecedores.
 
 Se o usuário fornecedor potencial tiver acesso ao Supply Chain Management como um usuário de colaboração de fornecedor que represente o fornecedor, defina a permissão de acesso de colaboração de fornecedor como **Sim**. Para desativar a conta de usuário que o fornecedor potencial usou para se registrar, defina essa permissão como **Não**.
 
-Se a permissão de acesso de colaboração de fornecedor for definida como **Sim**, quando a solicitação do fornecedor for aprovada, uma solicitação será enviada para alterar as funções de usuário para que o usuário tenha funções definidas para o tipo de **Fornecedor** em **Funções externas**. Se esta permissão for definida como **Não**, quando a solicitação de fornecedor for aprovada, uma solicitação será enviada para desativar o usuário. Nesse caso, o fluxo de trabalho para desativar uma solicitação do usuário deve ser configurado.
+Se a permissão de acesso de colaboração de fornecedor for definida como **Sim** , quando a solicitação do fornecedor for aprovada, uma solicitação será enviada para alterar as funções de usuário para que o usuário tenha funções definidas para o tipo de **Fornecedor** em **Funções externas**. Se esta permissão for definida como **Não** , quando a solicitação de fornecedor for aprovada, uma solicitação será enviada para desativar o usuário. Nesse caso, o fluxo de trabalho para desativar uma solicitação do usuário deve ser configurado.
 
 Para uma conta de fornecedor ser criada quando a solicitação do fornecedor for aprovada, a sequência numérica para criar fornecedores das solicitações do fornecedor deverá ser **Automática**.
 

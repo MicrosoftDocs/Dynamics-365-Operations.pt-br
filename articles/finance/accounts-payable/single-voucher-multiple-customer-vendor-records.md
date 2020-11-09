@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2bd741cdf86ef73742a75bac910d7560cb380cfb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7cbc638b684ad6eb59b852e599cf36cbd0b66faf
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189536"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006227"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Comprovante único com vários registros de cliente ou de fornecedor
 
@@ -50,9 +50,8 @@ Ao lançar um comprovante que contém vários registros de cliente ou de fornece
 
 No exemplo a seguir, várias faturas de fornecedor são registradas na contabilidade em um único comprovante na página **Diário geral**. Essas faturas são distribuídas entre várias dimensões de conta.
 
-|             |                  |              |                 |           |            |
+| Comprovante | Tipo de conta | Conta  | descrição | Débito | Crédito |
 |-------------|------------------|--------------|-----------------|-----------|------------|
-| **Comprovante** | **Tipo de conta** | **Conta**  | **Descrição** | **Débito** | **Crédito** |
 | GNJL001     | Fornecedor           | 1001         | INV1            |           | 100,00     |
 | GNJL001     | Fornecedor           | 1001         | INV2            |           | 200,00     |
 | GNJL001     | Fornecedor           | 1001         | INV3            |           | 300,00     |
@@ -63,9 +62,8 @@ No exemplo a seguir, várias faturas de fornecedor são registradas na contabili
 
 Após o lançamento, um comprovante é criado.
 
-|             |              |                  |                                    |
+| Comprovante | Conta  | Tipo de lançamento | Valor na moeda da transação |
 |-------------|--------------|------------------|------------------------------------|
-| **Comprovante** | **Conta**  | **Tipo de lançamento** | **Valor na moeda da transação** |
 | GNJL001     | 606300-001-- | Diário-razão   | 50,00                              |
 | GNJL001     | 606300-002-- | Diário-razão   | 50,00                              |
 | GNJL001     | 606300-003-- | Diário-razão   | 200,00                             |
@@ -78,9 +76,8 @@ Observe que o comprovante contém três entradas do tipo de lançamento de saldo
 
 Usando este exemplo, podemos analisar o impacto que o uso de um comprovante tem no downstream da contabilização de liquidação. Suponha que você pague 197,00 da fatura de 200,00, obtendo um desconto à vista de 3,00. Observe que o valor da conta de desconto é alocado em todas as dimensões das contas de despesa do comprovante da fatura. Isso ocorre porque um comprovante foi usado para lançar a fatura acima, sem nenhuma indicação de como o usuário pretendeu que as distribuições de despesas se correlacionassem com o saldo do fornecedor em um único comprovante.
 
-|             |              |                      |           |            |
+| Comprovante | Conta  | Tipo de lançamento     | Débito | Crédito |
 |-------------|--------------|----------------------|-----------|------------|
-| **Comprovante** | **Conta**  | **Tipo de lançamento**     | **Débito** | **Crédito** |
 | APPAYM001   | 200110-001-  | Saldo de fornecedor       | 197.00    |            |
 | APPAYM001   | 110110-001-  | Banco                 |           | 197.00     |
 | 14000056    | 520200-001-- | Desconto à vista do fornecedor |           | 0.25       |
@@ -91,9 +88,8 @@ Usando este exemplo, podemos analisar o impacto que o uso de um comprovante tem 
 
 Se o usuário estiver descontente com a alocação do desconto à vista em todas distribuições de despesas da fatura original, em vez de um comprovante, vários comprovantes devem ser usados para registrar as faturas. Veja um exemplo de como vários comprovantes podem ser inseridos na contabilidade, em vez de usar um comprovante, conforme mostrado no início deste exemplo.
 
-|             |                  |              |                 |           |            |                 |                    |
+| Comprovante | Tipo de conta | Conta  | descrição | Débito | Crédito | Tipo de compensação | Contrapartida |
 |-------------|------------------|--------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Comprovante** | **Tipo de conta** | **Conta**  | **Descrição** | **Débito** | **Crédito** | **Tipo de compensação** | **Contrapartida** |
 | GNJL001     | Fornecedor           | 1001         | INV1            |           | 100,00     | Razão          | &lt;em branco&gt;:      |
 | GNJL001     | Razão           | 606300-001-- | INV1            |   50,00   |            | Razão          | &lt;em branco&gt;:      |
 | GNJL001     | Razão           | 606300-002-- | INV1            |   50,00   |            | Razão          | &lt;em branco&gt;:      |
@@ -102,9 +98,8 @@ Se o usuário estiver descontente com a alocação do desconto à vista em todas
 
 Agora, quando INV2 for pago, a entrada a seguir será feita. Observe que as dimensões financeiras do desconto à vista acompanham as dimensões financeiras da despesa associada.
 
-|             |              |                      |           |            |
+| Comprovante | Conta  | Tipo de lançamento     | Débito | Crédito |
 |-------------|--------------|----------------------|-----------|------------|
-| **Comprovante** | **Conta**  | **Tipo de lançamento**     | **Débito** | **Crédito** |
 | APPAYM001   | 200110-001-  | Saldo de fornecedor       | 197.00    |            |
 | APPAYM001   | 110110-001-  | Banco                 |           | 197.00     |
 | 14000056    | 520200-003-- | Desconto à vista do fornecedor |           | 3,00       |
@@ -112,17 +107,15 @@ Agora, quando INV2 for pago, a entrada a seguir será feita. Observe que as dime
 
 ### <a name="one-voucher-with-multiple-vendors-and-the-impact-on-realized-gainloss-accounting"></a>Um comprovante com vários fornecedores e o impacto na contabilidade de lucros/perdas realizadas
 
-|             |                  |             |                 |           |            |                  |              |
+| Comprovante | Tipo de conta | Conta | descrição | Débito | Crédito | Tipo de conta | Conta  |
 |-------------|------------------|-------------|-----------------|-----------|------------|------------------|--------------|
-| **Comprovante** | **Tipo de conta** | **Conta** | **Descrição** | **Débito** | **Crédito** | **Tipo de conta** | **Conta**  |
 | GNJL001     | Fornecedor           | 1001        | INV1            |           | 100,00     | Razão           | 606300-001-- |
 | GNJL001     | Fornecedor           | 1001        | INV2            |           | 200,00     | Razão           | 606300-002-- |
 
 No exemplo a seguir, várias faturas de fornecedor são registradas na contabilidade em um único comprovante na página **Diário geral**. Essas faturas são distribuídas entre várias dimensões de conta. Após o lançamento, um comprovante é criado.
 
-|             |              |                  |                                          |                                         |
+| Comprovante | Conta  | Tipo de lançamento | Valor na moeda da transação (EUR) | Valor na moeda contábil (USD) |
 |-------------|--------------|------------------|------------------------------------------|-----------------------------------------|
-| **Comprovante** | **Conta**  | **Tipo de lançamento** | **Valor na moeda da transação (EUR)** | **Valor na moeda contábil (USD)** |
 | GNJL001     | 606300-001-- | Diário-razão   | 100,00                                   | 114.00                                  |
 | GNJL001     | 606300-002-- | Diário-razão   | 200,00                                   | 228.00                                  |
 | GNJL001     | 200110-001-  | Saldo de fornecedor   | -100,00                                  | -114,00                                 |
@@ -132,9 +125,8 @@ Observe que o comprovante contém duas entradas do tipo de lançamento de saldo 
 
 Usando este exemplo, podemos analisar o impacto que o uso de um comprovante tem no downstream da contabilização de liquidação. Suponha que a moeda contábil seja USD e as transações acima foram lançadas em uma moeda de transação de euros (EUR). Suponha que você pague totalmente a fatura de 200,00 euros, mas que encontre uma perda realizada devido à diferença na taxa de câmbio entre o tempo que você lançou a fatura e o pagamento. Observe que o valor da conta de perda realizada é alocado em todas as dimensões das contas de despesa do comprovante da fatura. Nesse caso, as dimensões 001 e 002 foram alocadas, embora o usuário possa ter a impressão de que somente 002 pertença à conta de despesas da fatura que estiver sendo liquidada. Isso ocorre porque um comprovante foi usado para lançar a fatura acima, não deixando nenhuma forma de indicar como o usuário pretendeu que as distribuições de despesas se correlacionassem com o saldo do fornecedor em um único comprovante.
 
-|             |             |                    |                                          |                                         |
+| Comprovante | Conta | Tipo de lançamento   | Valor na moeda da transação (EUR) | Valor na moeda contábil (USD) |
 |-------------|-------------|--------------------|------------------------------------------|-----------------------------------------|
-| **Comprovante** | **Conta** | **Tipo de lançamento**   | **Valor na moeda da transação (EUR)** | **Valor na moeda contábil (USD)** |
 | APPAYM001   | 200110-001- | Saldo de fornecedor     | 200,00                                   | 230.00                                  |
 | APPAYM001   | 110110-001- | Banco               | -200,00                                  | -230,00                                 |
 | 14000056    | 801300-001- | Perda cambial | 0,00                                     | 0.67                                    |
@@ -143,17 +135,15 @@ Usando este exemplo, podemos analisar o impacto que o uso de um comprovante tem 
 
 Se o usuário estiver descontente com a alocação da perda da taxa de câmbio em todas distribuições de despesas da fatura original, em vez de um comprovante, vários comprovantes devem ser usados para registrar as faturas. Veja um exemplo de como vários comprovantes podem ser inseridos na contabilidade, em vez de usar um comprovante, conforme mostrado no início deste exemplo.
 
-|             |                  |             |                 |           |            |                 |                    |
+| Comprovante | Tipo de conta | Conta | descrição | Débito | Crédito | Tipo de compensação | Contrapartida |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Comprovante** | **Tipo de conta** | **Conta** | **Descrição** | **Débito** | **Crédito** | **Tipo de compensação** | **Contrapartida** |
 | GNJL002     | Fornecedor           | 1001        | INV1            |           | 100,00     | Razão          | 606300-001--       |
 | GNJL003     | Fornecedor           | 1001        | INV2            |           | 200,00     | Razão          | 606300-002--       |
 
 Agora, quando INV2 for pago, a entrada a seguir será feita. Observe que as dimensões financeiras da perda da taxa de câmbio acompanham as dimensões financeiras da despesa associada.
 
-|             |             |                    |                                          |                                         |
+| Comprovante | Conta | Tipo de lançamento   | Valor na moeda da transação (EUR) | Valor na moeda contábil (USD) |
 |-------------|-------------|--------------------|------------------------------------------|-----------------------------------------|
-| **Comprovante** | **Conta** | **Tipo de lançamento**   | **Valor na moeda da transação (EUR)** | **Valor na moeda contábil (USD)** |
 | APPAYM001   | 200110-001- | Saldo de fornecedor     | 200,00                                   | 230.00                                  |
 | APPAYM001   | 110110-001- | Banco               | -200,00                                  | -230,00                                 |
 | 14000056    | 801300-002- | Perda cambial | 0,00                                     | 2.00                                    |
@@ -168,64 +158,56 @@ Este exemplo usa uma venda em que o cliente esteja qualificado para obter um des
 
 Para ilustrar, suponha que a venda a seguir foi feita ao cliente ACME. As entradas contábeis a seguir representam a venda.
 
-|                    |                  |           |            |
+| Conta contábil | Tipo de lançamento | Débito | Crédito |
 |--------------------|------------------|-----------|------------|
-| **Conta contábil** | **Tipo de lançamento** | **Débito** | **Crédito** |
 | 401100-002-023-    | Receita          |           | 100        |
 | 130100-002-        | Saldo do cliente | 100       |            |
 
 Em seguida, o usuário transfere o saldo devido da ACME para a seguradora, em um comprovante no diário de pagamentos de contas a receber. A empresa de seguro foi configurada como Seguro do cliente.
 
-|             |                  |             |                 |           |            |                 |                    |
+| Comprovante | Tipo de conta | Conta | descrição | Débito | Crédito | Tipo de compensação | Contrapartida |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Comprovante** | **Tipo de conta** | **Conta** | **Descrição** | **Débito** | **Crédito** | **Tipo de compensação** | **Contrapartida** |
 | ARPAYM001   | Cliente         | ACME        | Transferência        |           | 100,00     | Cliente        | Seguro          |
 
 Observe que a entrada acima está contida em um comprovante. Esse comprovante contém dois registros de cliente. O comprovante a seguir será criado quando a entrada de contabilidade acima for lançada.
 
-|             |             |                  |                                    |
+| Comprovante | Conta | Tipo de lançamento | Valor na moeda da transação |
 |-------------|-------------|------------------|------------------------------------|
-| **Comprovante** | **Conta** | **Tipo de lançamento** | **Valor na moeda da transação** |
 | ARPAYM001   | 130100-002- | Saldo do cliente | 100,00                             |
 | ARPAYM001   | 130100-002- | Saldo do cliente | -100,00                            |
 
 Em seguida, suponha que você receba um pagamento do cliente Seguradora de 98,00 e opte por liquidar o pagamento com a fatura criada pela transferência de saldo. Isso resultará no lançamento do comprovante a seguir É possível que se espere que a liquidação use as dimensões financeiras da fatura original, mas isso não é possível porque não há um documento de fatura para o cliente Seguradora. Observe que, por padrão, as dimensões de distribuição no desconto à vista vêm da transação de cliente criada a partir da transferência, não da conta de receita da fatura original. O padrão é um resultado do uso de um comprovante para transferir os saldos.
 
-|             |             |                  |           |            |
+| Comprovante | Conta | Tipo de lançamento | Débito | Crédito |
 |-------------|-------------|------------------|-----------|------------|
-| **Comprovante** | **Conta** | **Tipo de lançamento** | **Débito** | **Crédito** |
 | ARPAYM002   | 110110-002- | Banco             | 98.00     |            |
 | ARPAYM002   | 130100-002- | Saldo do cliente |           | 98.00      |
 
 No comprovante relacionado para o desconto à vista, o padrão para a dimensão financeira vem da transação de cliente criada a partir da transferência, pois a transferência tem mais de um cliente.
 
-|             |             |                        |           |            |
+| Comprovante | Conta | Tipo de lançamento       | Débito | Crédito |
 |-------------|-------------|------------------------|-----------|------------|
-| **Comprovante** | **Conta** | **Tipo de lançamento**       | **Débito** | **Crédito** |
 | ARP-00001   | 403300-002- | Desconto à vista do cliente | 2.00      |            |
 | ARP-00001   | 130100-002- | Saldo do cliente       |           | 2.00       |
 
 Se o usuário estiver descontente com o padrão das dimensões financeiras para o desconto à vista, em vez de um comprovante, vários comprovantes devem ser usados para registrar a transferência de saldos. Este cenário é possível criando-se um memorando de crédito para o cliente DO QUAL o saldo for movido e um memorando ou uma fatura para o cliente PARA O QUAL o saldo for movido. O exemplo a seguir mostra como vários comprovantes podem ser inseridos no diário de pagamentos de contas a receber para transferir o saldo, em vez de usar um comprovante, conforme exibido anteriormente neste exemplo.
 
-|             |                  |             |                 |           |            |                 |                    |
+| Comprovante | Tipo de conta | Conta | descrição | Débito | Crédito | Tipo de compensação | Contrapartida |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Comprovante** | **Tipo de conta** | **Conta** | **Descrição** | **Débito** | **Crédito** | **Tipo de compensação** | **Contrapartida** |
 | ARPAYM001   | Cliente         | ACME        |                 |           | 100,00     | Razão          | 401100-002-023-    |
 | ARPAYM002   | Cliente         | Seguro   |                 | 100,00    |            | Razão          | 401100-002-023-    |
 
 Isso significa que quando o cliente Seguradora paga 98,00 com o comprovante ARPAYM02, as dimensões financeiras corretas da entrada da conta contábil do comprovante ARPAYM002 serão usadas.
 
-|             |             |                  |           |            |
+| Comprovante | Conta | Tipo de lançamento | Débito | Crédito |
 |-------------|-------------|------------------|-----------|------------|
-| **Comprovante** | **Conta** | **Tipo de lançamento** | **Débito** | **Crédito** |
 | ARPAYM003   | 110110-002- | Banco             | 98.00     |            |
 | ARPAYM003   | 130100-002  | Saldo do cliente |           | 98.00      |
 
 No comprovante relacionado para o desconto à vista, as dimensões financeiras serão usadas da conta de receita de compensação mostrada no comprovante ARPAYM002.
 
-|             |                 |                        |           |            |
+| Comprovante | Conta     | Tipo de lançamento       | Débito | Crédito |
 |-------------|-----------------|------------------------|-----------|------------|
-| **Comprovante** | **Conta**     | **Tipo de lançamento**       | **Débito** | **Crédito** |
 | ARP-00001   | 403300-002-023- | Desconto à vista do cliente | 2.00      |            |
 | ARP-00001   | 130100-002-     | Saldo do cliente       |           | 2.00       |
 
@@ -236,16 +218,14 @@ A remuneração pode ser útil quando uma organização compra e vende para a me
 
 Para ilustrar, suponha que o fornecedor 1001 e o cliente US-008 sejam a mesma entidade, portanto sua organização deseja remunerar os saldos a pagar e a receber antes de pagar/receber o saldo restante. Suponha que o registro de cliente deva EUR 75,00 e o registro do fornecedor deva receber EUR 100,00, o que significa que você preferiria remunerar os saldos e pagar somente EUR 25,00 ao fornecedor. Suponha também que a moeda contábil seja USD. Nesse caso, uma transação de remuneração será inserida em um comprovante no diário de pagamentos de contas a pagar.
 
-|             |                  |             |                 |           |            |                 |                    |
+| Comprovante | Tipo de conta | Conta | descrição | Débito | Crédito | Tipo de compensação | Contrapartida |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Comprovante** | **Tipo de conta** | **Conta** | **Descrição** | **Débito** | **Crédito** | **Tipo de compensação** | **Contrapartida** |
 | APPAYM001   | Fornecedor           | 1001        | Remuneração         |  75,00    |            | Cliente        | US-008             |
 
 Para evitar problemas indesejados com futuros pagamentos para esta transação, em vez de usar um comprovante, vários comprovantes devem ser inseridos no diário para registrar a transação de remuneração. Observe que os saldos do cliente e do fornecedor são compensados com uma única conta de compensação para evitar o uso de um comprovante que contenha vários saldos de cliente e de fornecedor.
 
-|             |                  |             |                 |           |            |                 |                    |
+| Comprovante | Tipo de conta | Conta | descrição | Débito | Crédito | Tipo de compensação | Contrapartida |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Comprovante** | **Tipo de conta** | **Conta** | **Descrição** | **Débito** | **Crédito** | **Tipo de compensação** | **Contrapartida** |
 | 001         | Cliente         | US-008      |                 |           |  75,00     | Razão          | 999999---          |
 | 002         | Fornecedor           | 1001        |                 |  75,00    |            | Razão          | 999999---          |
 

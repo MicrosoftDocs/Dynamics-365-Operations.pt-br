@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart, PurchLineOpenOrder, PurchConfirmationRequestJournal
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d4792cf982b9d5be3b30755483a5185a6d5a5a21
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cfb35d6db74f965911329dbd6215d1108149fa6c
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207916"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018758"
 ---
 # <a name="purchase-order-overview"></a>Visão geral de ordem de compra
 
@@ -33,7 +33,7 @@ Este artigo fornece informações gerais sobre as ordens de compra (POs) e links
 
 Uma ordem de compra (OC) é um documento que representa um contrato com um fornecedor para comprar mercadorias ou serviços. O documento também ajuda a manter o controle dos recebimentos de produtos que são feitos em direção a ordem e, posteriormente, estatísticas de notas fiscais de fornecedor que o fornecedor cobra em direção a ordem.  
 
-A página **Ordens de compra** contém uma visão geral das ordens disponíveis e permite que você modifique as ordens. Ao abrir um pedido de compra, você pode selecionar a exibição **Cabeçalho**, que contém informações que são especificadas somente uma vez para cada ordem de compra, como os detalhes do fornecedor. Como alternativa, você pode selecionar a exibição **Linhas**, onde você pode modificar linhas de ordem. Normalmente, você alternará entre essas duas exibições conforme altera as OCs. Encargos não estão relacionados diretamente a página **Ordens de compra**, mas são acessados nos menus no cabeçalho e nas linhas de ordem.  
+A página **Ordens de compra** contém uma visão geral das ordens disponíveis e permite que você modifique as ordens. Ao abrir um pedido de compra, você pode selecionar a exibição **Cabeçalho** , que contém informações que são especificadas somente uma vez para cada ordem de compra, como os detalhes do fornecedor. Como alternativa, você pode selecionar a exibição **Linhas** , onde você pode modificar linhas de ordem. Normalmente, você alternará entre essas duas exibições conforme altera as OCs. Encargos não estão relacionados diretamente a página **Ordens de compra** , mas são acessados nos menus no cabeçalho e nas linhas de ordem.  
 
 Há vários relatórios onde você pode exibir informações sobre POs, guias de remessa e notas fiscais de fornecedor. Esses relatórios são encontrados nos módulos **Aquisição e fornecimento** e **Contas a pagar**.  
 
@@ -73,7 +73,7 @@ O campo **Status de documentos** ajuda a verificar rapidamente o progresso da or
 
 O campo **Status de aprovação** é usado quando uma ordem de compra passa por um processo de revisão ou fluxo de trabalho. Os valores a seguir estão disponíveis:
 
--   **Rascunho**, **Em revisão**, e **Rejeitado** – Esses status são usados somente quando é usado um fluxo de trabalho de aprovação para o pedido de compra.
+-   **Rascunho** , **Em revisão** , e **Rejeitado** – Esses status são usados somente quando é usado um fluxo de trabalho de aprovação para o pedido de compra.
 -   **Aprovado** – Este status é atribuído às ordens que tenham concluído a aprovação de fluxo de trabalho. As ordens criadas sem usar um fluxo de trabalho de aprovação recebem um status de **Aprovado** imediatamente.
 -   **Na revisão externa** – este status é usado em cenários onde a consulta de compra é enviada ao fornecedor, para que o fornecedor possa confirmar termos do pedido de compra. Este status também é usado no processo iniciado pela ação **Solicitação de confirmação**. Para esse processo, o fornecedor deve confirmar termos da PO conectando-se ao seu sistema e registrando se ele confirma ou rejeita o pedido.
 -   **Confirmado** – este status é atribuído depois que a ordem foi confirmada. Normalmente, esse status é o último status de aprovação é atribuído a uma encomenda.

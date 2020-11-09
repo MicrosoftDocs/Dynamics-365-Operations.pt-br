@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ConsignmentDraftReplenishmentOrderJournal, ConsignmentProductReceiptLines, ConsignmentReplenishmentOrder, ConsignmentVendorPortalOnHand, InventJournalOwnershipChange, InventOnHandItemListPage, PurchTable, PurchVendorPortalConfirmedOrders, DirPartyTable, EcoResTrackingDimensionGroup, InventJournalName, InventOwner, InventTableInventoryDimensionGroups, VendTable
+ms.search.form: ConsignmentDraftReplenishmentOrderJournal, ConsignmentProductReceiptLines, ConsignmentReplenishmentOrder, ConsignmentVendorPortalOnHand, InventJournalOwnershipChange, InventOnHandItemListPage, PurchTable, PurchTablePart, PurchVendorPortalConfirmedOrders, DirPartyTable, EcoResTrackingDimensionGroup, InventJournalName, InventOwner, InventTableInventoryDimensionGroups, VendTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af30938929677ad0e1388760e6b7a992a8718240
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0127cc64688bc7878623b08ef143dfd040484ce0
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212885"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018367"
 ---
 # <a name="set-up-consignment"></a>Configurar consignação
 
@@ -40,7 +40,7 @@ Neste cenário de exemplo, a empresa USMF tem um acordo de consignação com for
 2.  O fornecedor recebe informado sobre a entrega esperada. Isso pode ocorrer de três formas:
     -   Alguém que trabalha na USMF envia as informações da ordem ao fornecedor.
     -   O fornecedor pode monitorar o esperado estoque disponível usando a interface de colaboração de fornecedor.
-    -   Alguém que trabalha na USMF filtra os dados na página **Estoque disponível** para mostrar apenas os registros do fornecedor US-104, cujo status de recebimento é **Encomendado**, e envia essa informação ao fornecedor.
+    -   Alguém que trabalha na USMF filtra os dados na página **Estoque disponível** para mostrar apenas os registros do fornecedor US-104, cujo status de recebimento é **Encomendado** , e envia essa informação ao fornecedor.
 3.  O estoque for entregue de US-104 a USMF.
 4.  Quando o material em USMF chega, a ordem de reabastecimento de consignação é atualizada a um recebimento de produtos. Apenas as quantidades físicas de estoque de possuído são registradas. Nenhuma transação de contabilidade criadas, como inventários pertence ainda por fornecedor.
 5.  As atualizações dos monitores de fornecedor para auditoria estoque disponível usando a página **Estoque em consignação disponível**.
@@ -53,7 +53,7 @@ Neste cenário de exemplo, a empresa USMF tem um acordo de consignação com for
 É USMF processos periódicos adicionais:
 
 -   O movimento físico de estoque de possuído entre depósitos diferentes é processado usando um diário de transferência.
--   O estoque físico é atualizado disponível usando um diário**Contagem de item**. A contagem pode ser usada por fornecedor para atualizar o estoque disponível, se tiverem permissão para isso.
+-   O estoque físico é atualizado disponível usando um diário **Contagem de item**. A contagem pode ser usada por fornecedor para atualizar o estoque disponível, se tiverem permissão para isso.
 
 O fornecedor, US-104, pode monitorar as atualizações com a página **Estoque em consignação disponível**.
 
@@ -82,7 +82,7 @@ A interface de colaboração de fornecedor tiver três páginas relacionadas o p
 -   **Estoque disponível de consignação** - Mostra informações sobre os itens de consignação que são esperadas, entregar e os itens que estão fisicamente disponíveis no site de cliente.
 
 ## <a name="inventory-owners"></a>Proprietários de estoque
-Para registrar o estoque físico de entrada em consignação, você precisa definir o proprietário do fornecedor. Isso é feito na página **Proprietário de estoque**. Quando você seleciona uma **Conta de fornecedor** isso gera valores padrão para os campos **Nome** e **Proprietário**. O valor no campo **Proprietário** ficará visível ao fornecedor, para que você possa alterá-lo se os nomes de contas do fornecedor não forem fáceis para os contatos externos reconhecerem. É possível editar o campo **Proprietário**, mas somente até o ponto em que você salvar o registro **Proprietário de estoque**. O campo **Nome** é preenchido com o nome do participante da conta do fornecedor está associada, e este não pode ser alterada.
+Para registrar o estoque físico de entrada em consignação, você precisa definir o proprietário do fornecedor. Isso é feito na página **Proprietário de estoque**. Quando você seleciona uma **Conta de fornecedor** isso gera valores padrão para os campos **Nome** e **Proprietário**. O valor no campo **Proprietário** ficará visível ao fornecedor, para que você possa alterá-lo se os nomes de contas do fornecedor não forem fáceis para os contatos externos reconhecerem. É possível editar o campo **Proprietário** , mas somente até o ponto em que você salvar o registro **Proprietário de estoque**. O campo **Nome** é preenchido com o nome do participante da conta do fornecedor está associada, e este não pode ser alterada.
 
 [![inventory-owners](./media/inventory-owners.png)](./media/inventory-owners.png)
 
@@ -92,7 +92,7 @@ Itens que estejam prestes a ser usado nos processos de consignação devem ser a
 [![tracking-dimension-group](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
 
 ## <a name="inventory-ownership-change-journal"></a>Diário de alteração de propriedade de estoque
-O diário **Alteração de propriedade de estoque**é usado para registrar a transferência de posse de estoque consignado do fornecedor para a entidade legal que o está consumindo. Como qualquer diário de estoque, deve ser identificado com um nome de diário de estoque. Esses nomes são criados na página **Nomes de diário de estoque**, e o **Tipo de diário** deve ser definido como **Alteração de propriedade**.
+O diário **Alteração de propriedade de estoque** é usado para registrar a transferência de posse de estoque consignado do fornecedor para a entidade legal que o está consumindo. Como qualquer diário de estoque, deve ser identificado com um nome de diário de estoque. Esses nomes são criados na página **Nomes de diário de estoque** , e o **Tipo de diário** deve ser definido como **Alteração de propriedade**.
 
 [![inventory-ownership-change-journal](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
