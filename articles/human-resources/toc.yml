@@ -5,7 +5,9 @@
       items:
         - name: Novidades ou alterações no Human Resources
           href: hr-admin-whats-new.md
-        - name: 22 de outubro de 2002
+        - name: 2 de dezembro de 2020
+          href: hr-whats-new-2020-12-02.md
+        - name: 22 de outubro de 2020
           href: hr-whats-new-2020-10-22.md
         - name: 6 de outubro de 2020
           href: hr-whats-new-2020-10-06.md
@@ -477,6 +479,8 @@
               href: hr-personnel-define-jobs.md
             - name: Criar um calendário de horas úteis
               href: hr-personnel-create-working-time-calendar.md
+            - name: Candidatos de trabalho de recrutamento
+              href: hr-personnel-recruit.md
             - name: Perguntas frequentes sobre ações de pessoal
               href: hr-personnel-actions-faq.md
             - name: Usar fluxos de trabalho para gerenciar informações de funcionários
@@ -533,7 +537,9 @@
                   href: hr-benefits-management-overview.md
                 - name: Configurar Gerenciamento de benefícios
                   items:
-                    - name: Definir parâmetros de gerenciamento de benefícios
+                    - name: Configurar parâmetros de gerenciamento de benefícios por empresa
+                      href: hr-benefits-setup-parameters-per-company.md
+                    - name: Definir gerenciamento de benefícios e parâmetros de autoatendimento para funcionários para todas as empresas
                       href: hr-benefits-setup-parameters.md
                     - name: Configurar regras e opções de qualificação
                       href: hr-benefits-setup-eligibility-rules.md

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5a7a03e6149d3677ac4f35522e4898e1f62da329
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 8a910aa7f54905f305ed69e9dd9eea0909e5558d
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975259"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528536"
 ---
 # <a name="budgeting-home-page"></a>Home page de Orçamento
 
@@ -64,7 +64,7 @@ Para obter informações sobre como exibir dados de planejamento de outros módu
 ## <a name="user-interface-and-reporting-capabilities"></a>Recursos de relatório e de interface de usuário
 Os usuários podem criar planos de orçamento diretamente no cliente (usando uma página configurável do documento do plano de orçamento) ou no Excel. O Excel fornece vários recursos adicionais. Por exemplo, você pode usar dados externos como uma fonte para um plano de orçamento, realizar cálculos personalizados e usar Tabela Dinâmica e gráficos da Microsoft. A maioria das variáveis no processo de planejamento de orçamento podem ser configuradas. 
 
-Por exemplo, você pode definir quem faz o orçamento, o que é orçado e a aparência do processo. Embora você possa usar o Excel para o planejamento de orçamento, o aplicativo é mantido como uma fonte única da verdade e ajuda a evitar problemas de controle de orçamento. Os processos periódicos podem ser usados para levar os dados iniciais do orçamento para o plano de orçamento. Para relatórios, o aplicativo oferece um conjunto de páginas de consulta padrão que permitem exibir e analisar dados do orçamento. Os dados do plano de orçamento podem ser acessados por meio do Management Reporter, e cenários de plano de orçamento separados podem ser exibidos como colunas no relatório do Management Reporter.
+Por exemplo, você pode definir quem faz o orçamento, o que é orçado e a aparência do processo. Embora você possa usar o Excel para o planejamento de orçamento, o aplicativo é mantido como uma fonte única da verdade e ajuda a evitar problemas de controle de orçamento. Os processos periódicos podem ser usados para levar os dados iniciais do orçamento para o plano de orçamento. Para relatórios, o aplicativo oferece um conjunto de páginas de consulta padrão que permitem exibir e analisar dados do orçamento. Os dados do plano de orçamento podem ser acessados por meio do [Financial Reporting](../general-ledger/financial-reporting-getting-started.md), e cenários de plano de orçamento separados podem ser exibidos como colunas no relatório financeiro.
 
 
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: cb8519db2f5d52d4e317b485d6ecc910956788cb
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 5998a492e12cb93aeec029c6e56f811f8b90055a
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975307"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4458484"
 ---
 # <a name="customer-workflow"></a>Fluxo de trabalho de cliente
 
@@ -60,4 +60,4 @@ Após haver pelo menos uma alteração proposta, dois menus adicionais aparecer�
 
     O status na página foi alterado para **Alterações com aprovação pendente**.
 
-O fluxo de trabalho segue o processo de fluxo de trabalho padrão no aplicativo. O aprovador é direcionado à página **Cliente**, na qual pode revisar as alterações na página **Alterações propostas** e selecionar **Fluxo de trabalho \> Aprovar** para aprovar o fluxo de trabalho. Depois que todas as aprovações forem concluídas, os campos serão atualizados com os valores que você propôs.
+O fluxo de trabalho segue o processo de fluxo de trabalho padrão no aplicativo. O aprovador é direcionado à página **Cliente**, na qual é possível revisar as alterações na página **Alterações propostas** e, em seguida, selecionar **Fluxo de trabalho \> Aprovar** para aprovar o fluxo de trabalho. Depois que todas as aprovações forem concluídas, os campos serão atualizados com os valores que você propôs.

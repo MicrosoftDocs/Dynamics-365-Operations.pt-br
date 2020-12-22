@@ -17,11 +17,11 @@ ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
 ms.openlocfilehash: 73acfc92777b8fe07b89bea782e13213d38000cd
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570324"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4458443"
 ---
 # <a name="revenue-recognition-setup"></a>Configuração do reconhecimento de receita
 [!include [banner](../includes/banner.md)]
@@ -151,7 +151,7 @@ O preço de receita definido manualmente nessa página é usado para determinar 
 - **Preço de alocação da receita** — Dependendo do valor selecionado no campo **Valor ou percentual de lista**, insira um valor ou um percentual para representar o preço da receita que é usado para alocar a receita nos elementos na ordem de venda.
 - **De** e **Até** — Insira o intervalo de datas para o qual o preço da receita está ativo. Esses campos são opcionais.
 
-Se a opção **Habilitar o método de alocação de desconto** na opção **Parâmetros de contabilidade** estiver definida como **Sim**, e se o campo **Tipo de receita** do produto liberado estiver definido como **Suporte pós-contrato**, especifique também os itens que estão recebendo suporte do produto liberado. Essa configuração é feita na página **Base de configuração** (vá para **Reconhecimento de receita \> Configuração \> Configuração de estoque \> Produtos liberados**e, depois, no painel de ação, na guia **Vender**, no grupo **Reconhecimento de receita**, selecione **Base de configuração**).
+Se a opção **Habilitar o método de alocação de desconto** na opção **Parâmetros de contabilidade** estiver definida como **Sim**, e se o campo **Tipo de receita** do produto liberado estiver definido como **Suporte pós-contrato**, especifique também os itens que estão recebendo suporte do produto liberado. Essa configuração é feita na página **Base de configuração** (vá para **Reconhecimento de receita \> Configuração \> Configuração de estoque \> Produtos liberados** e, depois, no painel de ação, na guia **Vender**, no grupo **Reconhecimento de receita**, selecione **Base de configuração**).
 
 Na página **Base de configuração**, adicione um registro para cada grupo de itens compatível com o item. Quando a alocação de receita ocorrer, o preço de receita será distribuído entre as partes essenciais e não essenciais para o item PCS.
 

@@ -12,16 +12,14 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Novidades ou alterações em Platform updates
               items:
-                - name: Novidades ou alterações na home page de Platform updates
+                - name: Novidades na home page de Platform updates
                   href: get-started/whats-new-home-page.md
+                - name: Platform updates para 10.0.16 (fevereiro de 2021)
+                  href: get-started/whats-new-platform-updates-10-0-16.md
                 - name: Platform updates para 10.0.15 (janeiro de 2021)
                   href: get-started/whats-new-platform-updates-10-0-15.md
                 - name: Platform updates para 10.0.14 (novembro de 2020)
                   href: get-started/whats-new-platform-updates-10-0-14.md
-                - name: Platform updates para 10.0.13 (outubro de 2020)
-                  href: get-started/whats-new-platform-updates-10-0-13.md
-                - name: Platform updates para 10.0.12 (agosto de 2020)
-                  href: get-started/whats-new-platform-update-10-0-12.md
             - name: Recursos removidos ou obsoletos
               items:
                 - name: Recursos de Platform removidos ou obsoletos
@@ -30,8 +28,6 @@
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Recursos do AX 2012 que foram postergados
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Recursos não implementados em implantações locais
-              href: ../fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Fim do suporte base ao Microsoft Dynamics AX 2009 e 2012
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
         - name: Eventos de negócios
@@ -162,6 +158,8 @@
                               href: data-entities/dual-write/currrency-decimal-places.md
                             - name: Configurar o mapeamento dos campos de status da ordem de venda
                               href: data-entities/dual-write/sales-status-map.md
+                            - name: Filtrar ordens intercompanhia para evitar sincronizar Ordens e Linhas da Ordem
+                              href: data-entities/dual-write/filtering-intercompany-orders.md
                         - name: Gerenciando a gravação dupla
                           items:
                             - name: Personalizar mapeamentos de entidades e campos
@@ -208,10 +206,12 @@
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: Impostos integrados
                                   href: data-entities/dual-write/tax-mapping.md
-                            - name: Sincronizar com o mecanismo de preços sob demanda do Dynamics 365 Supply Chain Management
-                              href: data-entities/dual-write/pricing-engine.md
                             - name: Do cliente potencial ao pagamento à vista em gravação dupla
                               href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                            - name: Sincronizar com o mecanismo de preços sob demanda do Dynamics 365 Supply Chain Management
+                              href: data-entities/dual-write/pricing-engine.md
+                            - name: Use o mecanismo de preços do Dynamics 365 Commerce com o Dynamics 365 Sales
+                              href: data-entities/dual-write/commerce-pricing.md
                             - name: Ativos internos para manutenção
                               href: data-entities/dual-write/in-house-assets.md
                             - name: 'Trabalhador, trabalho e cargo integrados'
@@ -500,6 +500,8 @@
                       href: deployment/plan-onprem-deployment.md
                     - name: Requisitos de dimensionamento de hardware
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
+                    - name: Autenticação no Dynamics 365 Finance + Operations (on-premises)
+                      href: deployment/authentication-onprem.md
                 - name: Configurar e implantar ambientes locais
                   items:
                     - name: Configurar projetos locais no LCS
@@ -630,6 +632,8 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: Criar uma conexão do Lifecycle Services (LCS) no Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: Atualizar um pipeline herdado no Azure Pipelines
+                  href: dev-tools/pipeline-msbuild-update.md
             - name: Aplicativo de exemplo de Gerenciamento de Frota
               items:
                 - name: Cenário de ponta a ponta para o aplicativo de exemplo de Gerenciamento de Frota
@@ -766,6 +770,8 @@
                           href: dev-ref/xpp-data/xpp-data-perf.md
                         - name: Acesso a dados usando a API do SysDa
                           href: dev-ref/sysda.md
+                        - name: Mitigar um ataque de injeção de SQL
+                          href: dev-ref/query-with-parameters.md
                     - name: Macros da X++
                       href: dev-ref/xpp-macros.md
                     - name: Classes de atributo da X++
@@ -1492,12 +1498,14 @@
                   href: sysadmin/security-architecture.md
                 - name: Criptografia em aplicativos do Finance and Operations
                   href: sysadmin/encryption.md
-                - name: Definir o tempo limite de ociosidade da sessão
+                - name: Definir o tempo limite de inatividade da sessão
                   href: sysadmin/session-idle-timeout.md
                 - name: Relatórios de segurança prontos para uso
                   href: sysadmin/security-reports.md
                 - name: Criar usuários
                   href: sysadmin/tasks/create-new-users.md
+                - name: Gerenciamento de sessões do usuário
+                  href: sysadmin/user-session-management.md
                 - name: Importar usuários em massa
                   href: sysadmin/tasks/import-bulk-users.md
                 - name: Configurar diferenciação de direitos
@@ -1558,6 +1566,8 @@
               href: sysadmin/odata-warmup.md
             - name: Configurando o cliente do Azure Key Vault
               href: ../../finance/localizations/setting-up-azure-key-vault-client.md
+            - name: Rotinas de limpeza
+              href: sysadmin/cleanuproutines.md
         - name: 'Upgrades, atualizações e hotfixes'
           items:
             - name: 'Recursos de upgrades, atualizações e hotfixes'
@@ -1690,13 +1700,13 @@
               href: user-interface/user-interface-development-home-page.md
             - name: Tutoriais
               items:
-                - name: ​Criar o formulário Tipo de encargo de aluguel​
+                - name: Criar o formulário Tipo de encargo de aluguel
                   href: user-interface/build-rental-charge-type-form.md
                 - name: Criar o formulário Cliente
                   href: user-interface/build-customer-form.md
                 - name: Criar a navegação
                   href: user-interface/build-navigation.md
-                - name: Criar espaços de trabalho
+                - name: Modificar um espaço de trabalho
                   href: user-interface/build-workspace.md
             - name: Formulários
               items:

@@ -19,11 +19,11 @@ ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 37209f1c1de19335f5f9fa6636ab55dd8b2fccc1
-ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "3265517"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4458455"
 ---
 # <a name="disable-rules-in-the-retail-transaction-consistency-checker"></a>Desabilitar regras no verificador de consistência das transações de varejo 
 
